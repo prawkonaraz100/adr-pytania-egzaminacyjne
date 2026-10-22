@@ -108,6 +108,25 @@ def analyse(questions, curriculum, release=False):
     return errors, stats
 
 
+def check_lessons(root):
+    """Techniczna obecność i podstawowy szkielet 13 lekcji, bez oceny prawnej."""
+    errors = []
+    for number in range(1, 14):
+        name = f"ADR-B-{number:02d}"
+        path = root / "podstawowy" / "lekcje" / f"{name}.md"
+        if not path.is_file():
+            errors.append(f"brak lekcji: {name}")
+            continue
+        content = path.read_text(encoding="utf-8")
+        if len(content.strip()) < 900:
+            errors.append(f"lekcja za krótka: {name}")
+        if not content.startswith(f"# {name}"):
+            errors.append(f"błędny tytuł lekcji: {name}")
+        if "2025" not in content or "źródł" not in content.lower():
+            errors.append(f"brak podstaw prawnych w lekcji: {name}")
+    return errors
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--questions", type=Path, default=ROOT / "podstawowy/questions.jsonl")
@@ -117,6 +136,7 @@ def main():
     questions = [json.loads(s) for s in args.questions.read_text(encoding="utf-8").splitlines() if s.strip()]
     matrix = json.loads(args.curriculum.read_text(encoding="utf-8"))
     errors, stats = analyse(questions, matrix, release=args.release)
+    errors.extend(check_lessons(ROOT))
     for name, value in stats.items():
         if isinstance(value, list) and len(value) > 10:
             print(f"{name}: {len(value)} pozycji; pierwsze: {', '.join(value[:8])} ...")
