@@ -54,6 +54,13 @@
 - 19 pytań nie wykazało sprzeczności w zakresie wstępnej kontroli, a 3 wymagają szczególnego sprawdzenia polskiego brzmienia/wyjątku. **0/30 uzyskało niezależne zatwierdzenie specjalisty; statusy pozostają needs_review.**
 - Zestaw 103/103 kompetencji z minimum dwoma pytaniami **nie mówi nic o tym**, czy dane dwa pytania są poprawne lub niezależne znaczeniowo.
 
+## Sekwencyjna kontrola całej bazy (23.10.2026)
+
+- Przeprowadzono **pierwsze czytanie redakcyjne wszystkich 216 pytań po kolei**: A/B/C, klucz, wyjaśnienie, podane odniesienie do ADR. Rejestr i [raport](../review/sequential/RAPORT.md) obejmują 8 kolejnych bloków ID.
+- **34 wpisy** z konkretną uwagą priorytetową, **25** z dodatkową kontrolą wybranego tematu/punktu z zewnętrznym źródłem.
+- Poprawiono `0048` (niespójne odpowiedzi), `0099` i `0162` (nalepka 9A obejmuje odpowiednie baterie sodowo-jonowe w ADR 2025) oraz `0173` (wyraźne odesłania do szczególnego ustępu obok BK/VC).
+- **Nie wykonano 216 indywidualnych porównań pełnego polskiego tekstu prawa ani niezależnej recenzji**. Liczba `verified` pozostaje 0, a publikacja zablokowana. Wynik pierwszego czytania nie stanowi certyfikacji prawnej.
+
 ## Co musi być zrobione przed publikacją
 
 1. **Kontrola jakości prawa:** dla wszystkich rekordów sprawdzić dokładne brzmienie aktu ADR 2025 w Dz.U. poz. 642 ze sprostowaniem poz. 1575, szczegółowe wyjątki oraz każdą prawidłową i błędną odpowiedź. Potwierdzenie przez rzeczywistego specjalistę ADR, z datą i identyfikatorem recenzenta.

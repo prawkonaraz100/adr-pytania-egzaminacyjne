@@ -2,6 +2,10 @@
 
 **Stan początkowy: 0 zatwierdzonych pytań.** `approvals.jsonl` jest celowo pusty. W projekcie **nie wolno** samodzielnie wpisywać fikcyjnych recenzentów ani dat.
 
+## Pełny wstępny przebieg redakcyjny 216 pytań
+
+[Raport wszystkich pytań](sequential/RAPORT.md) i ośmiu plików `sequential/*.json` dokumentuje przejrzenie treści A/B/C, wyjaśnień i wskazanych referencji. **Zawiera stopień faktycznej kontroli źródeł i wskazuje, że wszystkie 216 wymagają pełnego porównania prawnego oraz eksperckiej recenzji**. Nie należy kopiować ich jako pozytywnych recenzji do `approvals.jsonl`.
+
 ## Pierwsza kontrola źródłowa (bez zatwierdzeń)
 
 [Partia 001 — 30 pytań według ryzyka](batches/risk-001.md) / [JSON](batches/risk-001.json) zawiera wstępny audyt redakcyjno-źródłowy. Potwierdza wykryte wady i poprawki, **nie stanowi protokołu pozytywnej niezależnej recenzji**. Nie należy zamieniać wpisów `preliminary-consistent` ani `edited` na `verified` bez realnego przeglądu specjalisty.

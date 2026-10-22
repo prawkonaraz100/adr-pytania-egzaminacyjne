@@ -49,6 +49,14 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [Scenariusze ćwiczeń praktycznych](podstawowy/praktyka/SCENARIUSZE.md)
 - [Matryca kompetencji JSON](podstawowy/kompetencje.json)
 
+## Pełny pierwszy przebieg redakcyjny pytań 001–216 (23.10.2026)
+
+- [Raport 216 pytań w kolejności ID](review/sequential/RAPORT.md) i **8 rejestrów** w `review/sequential/`; każda pozycja ma kopię A/B/C, klucza, wyjaśnienia, referencji oraz stopnia faktycznej kontroli źródeł.
+- Wszystkie 216 wpisów przeczytano i przeanalizowano redakcyjnie; 34 wymagają dodatkowej uwagi, w 25 odnotowano porównanie konkretnego tematu/punktu z dodatkowym źródłem. **To NIE jest 216 zakończonych indywidualnych przeglądów prawa.**
+- W tej partii poprawiono `0048`, `0099`, `0162`, `0173` (gramatyka, baterie sodowo-jonowe 9A, wyjątki 7.3.1.1).
+- `python scripts/check_sequential_audit.py` — pełne, aktualne pokrycie redakcyjne; kolejna edycja pytania wymaga aktualizacji jego śladu w audycie.
+- **216 `needs_review`, 0 `verified`**; eksport prawidłowo pozostaje `BLOCKED` do czasu rzeczywistego odbioru przez specjalistę ADR.
+
 ## Audyt merytoryczny — pierwsza partia 30 pytań (23.10.2026)
 
 - [Raport redakcyjny 30 pytań wybranych wg ryzyka](review/batches/risk-001.md) oraz [rejestr maszynowy](review/batches/risk-001.json).
