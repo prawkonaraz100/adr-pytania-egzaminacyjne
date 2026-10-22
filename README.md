@@ -49,6 +49,14 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [Scenariusze ćwiczeń praktycznych](podstawowy/praktyka/SCENARIUSZE.md)
 - [Matryca kompetencji JSON](podstawowy/kompetencje.json)
 
+## Kontrola wydania (nowa bramka)
+
+- [Rejestr aktualnych odstępstw ADR 2026](docs/ODSTEPSTWA-ADR-2026.md) — w tym M364 dotycząca świadectw naczep, M369 i M370.
+- [Audyt wydawniczy i zmiany siedmiu pytań](docs/AUDYT-WYDAWNICZY-2026.md).
+- [Zasady rzeczywistej recenzji i zatwierdzeń](review/README.md); plik `review/approvals.jsonl` jest **pusty** — 0 podpisanych zatwierdzeń.
+- `python scripts/release_gate.py --report` — informuje, że eksport jest obecnie **BLOCKED**; test techniczny nie oznacza odbioru prawnego.
+- Eksport `--output dist/adr-podstawowy-verified.jsonl` dopuszcza tylko rekordy `verified` zgodne z udokumentowaną akceptacją i dokładnym skrótem treści. Wymaga minimum 30 pytań z wszystkich 13 działów. Obecnie niczego nie wygeneruje.
+
 ## Dane i narzędzia
 
 - Dane: `podstawowy/questions.jsonl` (jeden obiekt JSON na linię).
