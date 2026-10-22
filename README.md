@@ -49,6 +49,13 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [Scenariusze ćwiczeń praktycznych](podstawowy/praktyka/SCENARIUSZE.md)
 - [Matryca kompetencji JSON](podstawowy/kompetencje.json)
 
+## Audyt merytoryczny — pierwsza partia 30 pytań (23.10.2026)
+
+- [Raport redakcyjny 30 pytań wybranych wg ryzyka](review/batches/risk-001.md) oraz [rejestr maszynowy](review/batches/risk-001.json).
+- Sprawdzono treść wszystkich trzech wariantów i wskazane przepisy w ograniczonym zakresie; **8 pytań poprawiono**, 3 skierowano do szczególnej kontroli, 19 nie wykazało sprzeczności w przeglądzie wstępnym.
+- Wykryto **istotne pytanie z dwoma możliwymi poprawnymi odpowiedziami** (ADR-B-0073: gaśnica 2 kg / 6 kg) i usunięto niejednoznaczność. Dodano testy regresyjne.
+- **Nie ma podpisanej recenzji specjalisty ADR**: wszystkie 216 rekordów pozostają `needs_review`; `review/approvals.jsonl` jest pusty, eksport `BLOCKED`. Wynik wstępny nie jest prawnym zatwierdzeniem.
+
 ## Kontrola wydania (nowa bramka)
 
 - [Rejestr aktualnych odstępstw ADR 2026](docs/ODSTEPSTWA-ADR-2026.md) — w tym M364 dotycząca świadectw naczep, M369 i M370.
