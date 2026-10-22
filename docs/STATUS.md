@@ -166,3 +166,16 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Dokładny audyt per ID i źródła: `docs/AUDYT-PARTIA-007B.md`.
 - **Quality Gate na ostatnim commicie PR: wymaga osobnego potwierdzenia**. Bez PASS wszystkich kroków nie scalać. Certyfikacji eksperckiej ani praktycznej nie symulować.
 
+
+## 2026-10-23 — aktualność prawa i bezpieczny eksport do egzaminu
+
+- Sprawdzono aktualność podstawowego tekstu ADR 2025 (Dz.U. poz. 642 + sprostowanie 1575) oraz wybrane umowy wielostronne obowiązujące w 2026 r., m.in. M364, M369, M370. [Rejestr odstępstw](ODSTEPSTWA-ADR-2026.md) ma charakter **wybiórczy**, wymaga okresowego odświeżania.
+- Umowa M364 przewiduje warunkowy wyjątek dla dokumentów **naczepy**. Doprecyzowano **ADR-B-0145 i ADR-B-0198**, aby dotyczyły samochodu ciężarowego FL (pojazdu silnikowego), bez zmiany klucza; nadal `needs_review`.
+- Poprawiono błędne warianty w pięciu pozycjach `ADR-B-0001`, `0112`, `0122`, `0140`, `0168`: zbyt oczywiste i niewiarygodne dystraktory.
+- Wprowadzono nowy **fail-closed** eksporter `scripts/release_gate.py` ze sprawdzeniem indywidualnej akceptacji: ID, skrót SHA-256 wersji pytań, prawdziwa data/recenzent, istniejący protokół oraz co najmniej 30 zatwierdzonych rekordów obejmujących 13 modułów.
+- `review/approvals.jsonl` celowo pozostaje **pusty**. Przy 216 `needs_review` i 0 `verified` oczekiwany stan publikacji to **BLOCKED**, bez generowania wynikowego banku.
+- Testy syntetyczne w `tests/test_release_gate.py` pokrywają modyfikację po zatwierdzeniu, brak protokołu, brak akceptacji, pytania niedopuszczone, min. wielkość i 13 modułów. Nie użyto fikcyjnych realnych akceptacji.
+- CI uruchamia osobny raport `--report`, który informuje o BLOCKED; nie traktuje tego jako awarii technicznej.
+- Szczegóły i ograniczenia: `docs/AUDYT-WYDAWNICZY-2026.md` oraz `review/README.md`.
+- **Brama techniczna tego PR jeszcze niezweryfikowana**: przed scaleniem konieczny pełny CI PASS. Brama ekspercka i praktyczna pozostaje nieukończona; nie dopuszczać do publikacji.
+
