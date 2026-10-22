@@ -45,7 +45,7 @@ def validate_record(record, seen_ids=None, seen_stems=None):
             errors.append("zduplikowane id: " + qid)
         seen_ids.add(qid)
 
-    if record.get("module_id") not in MODULES:
+    if not isinstance(record.get("module_id"), str) or record.get("module_id") not in MODULES:
         errors.append("module_id spoza zakresu ADR-B-01 ... ADR-B-13")
 
     stem = record.get("stem")
@@ -93,7 +93,7 @@ def validate_record(record, seen_ids=None, seen_stems=None):
         errors.append("legal_basis_version: brak wersji przepisów")
 
     status = record.get("verification_status")
-    if status not in STATUSES:
+    if not isinstance(status, str) or status not in STATUSES:
         errors.append("verification_status: niepoprawny status")
 
     checked = record.get("checked_at")
@@ -137,9 +137,12 @@ def validate_file(path, release=False):
             for msg in validate_record(record, seen_ids, seen_stems):
                 errors.append(f"linia {line_no}: {msg}")
             if isinstance(record, dict):
-                counts[record.get("verification_status", "unknown")] += 1
+                status = record.get("verification_status")
+                counts[status if isinstance(status, str) else "unknown"] += 1
                 if record.get("verification_status") == "verified":
-                    modules.add(record.get("module_id"))
+                    module_id = record.get("module_id")
+                    if isinstance(module_id, str):
+                        modules.add(module_id)
     if release:
         if counts["verified"] < 30:
             errors.append("release: wymagane co najmniej 30 verified")
