@@ -208,3 +208,13 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - [Quality Gate #188](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39867338475) na commicie `827c45c1344858901c686b3a2055f5b92359b4dd`: **completed/success**, wszystkie 6 wymaganych kroków `success` (schemat JSON, unit tests, walidacja pytań, matryca, podobieństwa i raport blokady eksportu).
 - Niezależny odczyt tego samego PR: **216 pytań, 30 unikatowych pozycji w rejestrze kontroli, 8 `edited`, 3 `needs-*`, 19 `preliminary-consistent`**; wszystkie pytania `needs_review`, 0 `verified`, rejestr zatwierdzeń pusty.
 - Ta informacja dokumentuje **PASS dokładnego SHA przed wpisem dokumentacyjnym**, nie jest twierdzeniem, że nowy commit ani scalony `main` uzyskały oddzielny PASS. Zmiana dokumentu wymaga ponownego przebiegu CI.
+
+## 2026-10-23 — audyt sekwencyjny całego banku 216 pytań (pierwszy przebieg)
+
+- Na podstawie `main` obejmującego 216 pytań `needs_review`, wykonano odczyt treści wszystkich rekordów od `ADR-B-0001` do `ADR-B-0216` w kolejności; sprawdzono strukturę wyborów A/B/C, klucz, wyjaśnienia i wskazaną referencję ADR.
+- Zapisano **8 pakietów** po maks. 30 rekordów w `review/sequential/` oraz [raport](../review/sequential/RAPORT.md) z indywidualnymi śladami pierwszego czytania. W 34 wpisach odnotowano ręczną uwagę; 25 wpisów ma dodatkowy odnośnik do źródła weryfikującego wybrany punkt/temat.
+- Poprawiono `ADR-B-0048` (gramatyka i odpowiedzi), `0099` i `0162` (ADR 2025: nalepka 9A także dla sodowo-jonowych UN 3551/3552), `0173` (kody BK/VC **lub** wyraźne odesłanie do punktu). Istniejący klucz odpowiedzi pozostał bez zmian.
+- Dodano `scripts/check_sequential_audit.py`, testy i nowy krok CI: przy zmianie któregokolwiek zapisanego wariantu lub źródła stary audyt jest automatycznie wykrywany jako nieaktualny.
+- **Zakres świadomie ograniczony:** porównanie całego każdego punktu ADR z polskim urzędowym tekstem i sprostowaniem **nie zostało wykonane dla wszystkich 216 pozycji**; sprawdzenie wybranych fragmentów w źródłach wtórnych nie jest równoznaczne z legalną recenzją.
+- Zero prawdziwych akceptacji eksperckich, 216 `needs_review`, eksport do egzaminu `BLOCKED`; weryfikacja prawnomerytoryczna i recenzja fachowca nadal obowiązkowe.
+- Formalny Quality Gate tego PR **oczekuje na potwierdzenie**. Nie oznaczać ukończonego etapu technicznego bez pełnego PASS ostatniego SHA.
