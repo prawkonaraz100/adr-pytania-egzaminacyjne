@@ -1,9 +1,10 @@
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from coverage import analyse
+from coverage import analyse, check_lessons
 
 
 def sample():
@@ -67,6 +68,23 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(report["practical_competencies"], 1)
         self.assertEqual(report["draft_question_coverage"], 13)
 
+
+    def test_lesson_inventory_reports_missing_files(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertEqual(len(check_lessons(Path(tmp))), 13)
+
+    def test_lesson_inventory_accepts_substantive_stubs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            folder = root / "podstawowy" / "lekcje"
+            folder.mkdir(parents=True)
+            for i in range(1, 14):
+                n = f"ADR-B-{i:02d}"
+                (folder / f"{n}.md").write_text(
+                    f"# {n} — Test zajęć\\n\\n## Źródła\\nADR 2025\\n" +
+                    "Kwestie do opanowania. " * 70, encoding="utf-8"
+                )
+            self.assertEqual(check_lessons(root), [])
 
 if __name__ == "__main__":
     unittest.main()
