@@ -18,3 +18,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Validate question bank
         run: python scripts/validate.py
+      - name: Check coverage map
+        run: python scripts/coverage.py
