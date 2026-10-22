@@ -15,12 +15,12 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [x] Zidentyfikowano zasady państwowego egzaminu podstawowego: 30 pytań, 60 minut, próg 20 poprawnych odpowiedzi.
 - [x] Wstępna mapa punktów ADR 2025 dla 13 tematów (do kontroli pełnego tekstu).
 - [ ] Kompletny przegląd punktów ADR 2025 oraz aktów krajowych dla 13 tematów.
-- [x] Cztery partie autorskich pytań: 39 + 31 + 20 + 32 = 122 w statusie needs_review (13/13 działów); oddzielnie prowadzimy mapę 106 kompetencji, w tym 3 cele praktyczne.
+- [x] Pięć partii autorskich pytań: 39 + 31 + 20 + 32 + 24 = 146 w statusie needs_review; 103/103 celów teorii ma co najmniej jeden szkic pytania, osobno 3 cele praktyczne.
 - [ ] Autorska baza pytań po weryfikacji merytorycznej.
 - [ ] Egzaminy próbne, ilustracje i pełny Quality Gate.
 - [ ] Kurs specjalistyczny „cysterny”.
 
-**Uwaga:** obecnie w banku jest **122 pytań w statusie needs_review i 0 zatwierdzonych**. 84/103 zagadnień teoretycznych ma co najmniej jeden szkic pytania. Wynik kontroli źródła przez autora nie zastępuje podpisu niezależnego recenzenta ADR. Nie przedstawiamy pytań autorskich ani z komercyjnych testów jako oficjalnych pytań egzaminacyjnych. Publicznego kompletnego katalogu pytań państwowych nie potwierdzono.
+**Uwaga:** obecnie w banku jest **146 pytań w statusie needs_review i 0 zatwierdzonych**. 103/103 zagadnień teoretycznych ma co najmniej jeden szkic pytania; wszystkie 13 lekcji to szkice do recenzji. Wynik kontroli źródła przez autora nie zastępuje podpisu niezależnego recenzenta ADR. Nie przedstawiamy pytań autorskich ani z komercyjnych testów jako oficjalnych pytań egzaminacyjnych. Publicznego kompletnego katalogu pytań państwowych nie potwierdzono.
 
 ## Jak pracujemy
 
@@ -42,6 +42,8 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [Audyt 39 pytań i uzupełnienie 15 wcześniejszych pozycji](docs/AUDYT-MERYTORYCZNY-PARTIA-001.md)
 - [Audyt partii 003: 20 pytań sytuacyjnych i kontrola odpowiedzi](docs/AUDYT-PARTIA-003.md)
 - [Pokrycie 106 kompetencji, luki i materiały praktyczne](docs/POKRYCIE-KURSU.md)
+- [Audyt partii 005: 24 pytania zamykające luki tematyczne](docs/AUDYT-PARTIA-005.md)
+- [Scenariusze ćwiczeń praktycznych](podstawowy/praktyka/SCENARIUSZE.md)
 - [Matryca kompetencji JSON](podstawowy/kompetencje.json)
 
 ## Dane i narzędzia
@@ -52,7 +54,7 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - Testy walidatora: `python -m unittest discover -s tests -v`.
 - Automatyczna kontrola w GitHub Actions: `.github/workflows/quality.yml`.
 - Mapa pokrycia: `python scripts/coverage.py` (brak pytania ≠ niepoprawny rekord, ale stanowi lukę programu).
-- Lekcje w `podstawowy/lekcje/`: na razie 3 szkice (01, 05, 12).
+- Lekcje w `podstawowy/lekcje/`: 13 szkiców (01–13), bez odbioru merytorycznego.
 
 ## Źródła podstawowe
 

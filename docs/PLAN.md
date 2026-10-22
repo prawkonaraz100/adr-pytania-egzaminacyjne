@@ -33,7 +33,7 @@ Samodzielne testy szkoleniowe i egzamin próbny dla kierowcy przygotowującego s
 1. Wybrać temat i podtemat z mapy programu.
 2. Sprawdzić brzmienie ADR 2025 oraz ewentualne przepisy polskie/wyjątki.
 3. Zapisać w mapie wiedzy dokładny punkt i wniosek, którego będziemy uczyć.
-4. Napisać własne pytanie A/B/C, jedną prawidłową odpowiedź i trzy merytorycznie sensowne warianty.
+4. Napisać własne pytanie A/B/C, jedną prawidłową odpowiedź i dwa merytorycznie sensowne, ale błędne warianty.
 5. Dodać proste wyjaśnienie i przykład z pracy kierowcy.
 6. Wykonać przegląd merytoryczny: weryfikacja faktu, jednoznaczności, zakresu i wersji prawa.
 7. Sprawdzić gramatykę oraz jednoznaczność; oznaczyć verified dopiero po dowodzie przeglądu.
@@ -45,7 +45,7 @@ Samodzielne testy szkoleniowe i egzamin próbny dla kierowcy przygotowującego s
 - Rejestr 106 roboczych kompetencji: `podstawowy/kompetencje.json`, z powiązaniami `question_ids`.
 - `python scripts/coverage.py` sprawdza istnienie zagadnień, poprawne powiązania i liczbę pytań `verified`. Nie nadaje statusu zweryfikowanego.
 - `docs/POKRYCIE-KURSU.md` śledzi 103 cele teoretyczne i 3 praktyczne (ćwiczenia nie są zaliczane przez quiz).
-- Przed ukończeniem podstawowego należy uzupełnić wszystkie luki teoretyczne, przygotować 13 lekcji, uzyskać niezależną recenzję, opracować program ćwiczeń i materiały wizualne.
+- Stan redakcyjny: 103/103 celów teorii mają co najmniej jedno pytanie, 13/13 lekcji ma szkic, istnieje wstępny dokument 3 scenariuszy praktycznych. **Do ukończenia pozostaje** zwiększenie głębokości pytań, niezależna recenzja całości, zatwierdzenie ćwiczeń, materiały wizualne, testy symulatora oraz weryfikacja aktualnych przepisów. Samo pokrycie tematu jednym pytaniem nie zalicza etapu.
 
 ## Strategia rozkładu pytań
 

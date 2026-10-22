@@ -1,0 +1,58 @@
+# ADR-B-02 — Klasy towarów i rozpoznawanie zagrożeń
+
+> **Wersja robocza 22.10.2026** — wymaga sprawdzenia przez niezależnego specjalistę ADR. Materiał szkoleniowy, nie oficjalny bank pytań ani potwierdzenie odbycia kursu.
+
+## Czego ma się nauczyć kierowca?
+
+- rozpoznać wszystkie klasy ADR, również podklasy 4.1–4.3, 5.1–5.2 i 6.1–6.2;
+- odczytać podstawowe dane towaru z tabeli A i rozumieć rolę numeru UN;
+- odróżnić klasę zagrożenia od grupy pakowania;
+- wiedzieć, że rozpoznanie klasy 1 i 7 nie oznacza uzyskania specjalistycznych uprawnień do każdego przewozu tych towarów.
+
+## 1. Skąd wiadomo, jak niebezpieczny jest towar?
+
+Nie rozpoznajemy zagrożenia wyłącznie po kolorze cieczy, kształcie beczki czy nazwie handlowej. **Klasyfikacja opiera się na właściwościach towaru i przepisach ADR.** Numer UN wskazuje pozycję w wykazie. Tabela A w rozdziale 3.2 podaje między innymi numer UN (kol. 1), nazwę i opis (kol. 2), klasę (kol. 3a), kod klasyfikacyjny (kol. 3b), grupę pakowania, jeśli występuje (kol. 4), nalepki (kol. 5) i dalsze warunki przewozu.
+
+Niektóre towary w ogóle nie są dopuszczone do przewozu w określonych warunkach. Jeśli klasyfikacja jest nieznana lub niespójna z dokumentami, trzeba wyjaśnić ją z właściwym uczestnikiem przewozu przed podjęciem pracy.
+
+## 2. Klasy ADR — tabela do nauki
+
+| Klasa | Co oznacza | Z czym jej nie mylić |
+|---|---|---|
+| 1 | Materiały i przedmioty wybuchowe | Rozróżniaj podklasy, m.in. 1.1 (wybuch masowy), oraz grupy zgodności |
+| 2 | Gazy | Gazy mogą być palne, niepalne lub trujące |
+| 3 | Materiały ciekłe zapalne | Nie każda ciecz jest klasą 3 |
+| 4.1 | Materiały stałe zapalne i inne materiały określone przepisami | Inne zagrożenie niż 4.2 i 4.3 |
+| 4.2 | Materiały podatne na samozapalenie | Samonagrzewanie i samozapalność |
+| 4.3 | Materiały wydzielające palne gazy w kontakcie z wodą | Nie używaj wody bez potwierdzenia warunków |
+| 5.1 | Materiały utleniające | Mogą wzmacniać pożar |
+| 5.2 | Nadtlenki organiczne | Nie mylić z 5.1 |
+| 6.1 | Materiały trujące | Nie mylić z zakaźnymi 6.2 |
+| 6.2 | Materiały zakaźne | Zagrożenie biologiczne |
+| 7 | Materiały promieniotwórcze | Rozpoznanie zagrożenia, szczegółowe wymagania klasy 7 osobno |
+| 8 | Materiały żrące | Mogą poważnie uszkadzać tkanki i materiały |
+| 9 | Różne materiały i przedmioty niebezpieczne | W tym wybrane towary z nalepką 9A |
+
+**Pytanie sytuacyjne:** na opakowaniu widzisz nalepkę 4.3 i wyciek. Czy woda jest bezpieczna? Nie wolno tak zakładać. Materiały 4.3 mogą z nią reagować i wydzielać gaz palny; pierwszeństwo mają instrukcje i bezpieczeństwo załogi.
+
+## 3. Grupa pakowania to nie klasa
+
+W klasach, dla których stosuje się grupy pakowania, **I** oznacza wysoki, **II** średni, a **III** niski stopień zagrożenia. Część towarów nie jest w ogóle przypisywana do takich grup, dlatego nie wolno wymuszać jej wpisu z pamięci.
+
+**Przykład:** klasa 3 mówi o rodzaju zagrożenia, a grupa pakowania określa stopień tego zagrożenia według właściwych kryteriów. To dwa różne pola dokumentacji.
+
+## 4. Klasa nie zastępuje konkretnej pozycji UN
+
+Kierowca nie powinien uznawać, że wszystkie materiały klasy 3 mają identyczne warunki przewozu. Dla konkretnego numeru UN sprawdza się m.in. opakowania, oznakowanie, wyłączenia, dokumentację i ograniczenia tunelowe. W przewozie spotyka się również **zagrożenia dodatkowe**, które wpływają na wymagane nalepki i zasady.
+
+## 5. Powtórka
+
+Przećwicz: klasy 1–9 z podklasami, różnice 4.1/4.2/4.3 i 5.1/5.2, grupy pakowania I–III, kolumny 1/3a/4/5 tabeli A, a następnie przykładowy opis towaru UN. Pytania związane: `ADR-B-0004`–`0006`, `0042`–`0044`, `0094`–`0099`, `0126`–`0128`.
+
+**Źródło:** ADR 2025, część 2, dział 3.2, 5.2 i 5.3. **Uwaga:** do materiału trzeba dodać własne rysunki nalepek 1–9 i kontrolę specjalisty ADR; rozpoznawanie klas 1/7 nie oznacza zastąpienia szkolenia specjalistycznego.
+
+## Akty prawne
+
+- [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
+- [Sprostowanie — Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
+- [Program kursu — Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
