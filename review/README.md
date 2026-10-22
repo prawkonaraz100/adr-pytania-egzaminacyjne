@@ -2,6 +2,10 @@
 
 **Stan początkowy: 0 zatwierdzonych pytań.** `approvals.jsonl` jest celowo pusty. W projekcie **nie wolno** samodzielnie wpisywać fikcyjnych recenzentów ani dat.
 
+## Pierwsza kontrola źródłowa (bez zatwierdzeń)
+
+[Partia 001 — 30 pytań według ryzyka](batches/risk-001.md) / [JSON](batches/risk-001.json) zawiera wstępny audyt redakcyjno-źródłowy. Potwierdza wykryte wady i poprawki, **nie stanowi protokołu pozytywnej niezależnej recenzji**. Nie należy zamieniać wpisów `preliminary-consistent` ani `edited` na `verified` bez realnego przeglądu specjalisty.
+
 ## Co jest wymagane, aby pytanie trafiło do eksportu?
 
 1. Rzeczywisty specjalista ADR sprawdza treść, **wszystkie trzy odpowiedzi**, wyjątki prawne i wyjaśnienie na podstawie urzędowego polskiego ADR (Dz.U. 2025 poz. 642 + sprostowanie 1575), uwzględniając mające zastosowanie umowy wielostronne.
