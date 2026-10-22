@@ -1,6 +1,6 @@
 # Rejestr źródeł i polityka weryfikacji
 
-Stan identyfikacji źródeł: 22.10.2026. Linki prowadzą do źródeł pierwotnych. Przed oceną konkretnego pytania należy sprawdzić aktualność aktu prawnego i odpowiednie przepisy szczegółowe.
+Stan identyfikacji źródeł: 23.10.2026. Linki prowadzą do źródeł pierwotnych. Przed oceną konkretnego pytania należy sprawdzić aktualność aktu prawnego i odpowiednie przepisy szczegółowe.
 
 | Kod | Dokument | Zastosowanie | Adres |
 |---|---|---|---|
@@ -11,6 +11,10 @@ Stan identyfikacji źródeł: 22.10.2026. Linki prowadzą do źródeł pierwotny
 | PL-KURSY | Rozporządzenie o prowadzeniu kursów, Dz.U. 2021 poz. 2150, załącznik nr 1 | Urzędowy ramowy program i minimalny czas kursu | https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf |
 | PL-EGZAMINY | Rozporządzenie MI 26.06.2024, Dz.U. 2024 poz. 964 | Forma i zasady egzaminu (szczególnie § 9–11) | https://eli.gov.pl/api/acts/DU/2024/964/text.html |
 | PL-USTAWA | Ustawa o przewozie towarów niebezpiecznych z 19.08.2011 (sprawdzić tekst i późniejsze zmiany) | Obowiązki, kompetencje, podstawy prawne uprawnień | https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20112271367 |
+
+## Odstępstwa czasowe i kontrola aktualności 2026
+
+W 2026 r. Polska jest stroną wybranych umów wielostronnych zawieranych zgodnie z ADR 1.5.1. Nie wolno sprawdzać treści pytań wyłącznie względem Dz.U. 2025 poz. 642, bez sprawdzenia takich wyjątków. Szczególnie istotne są **M364** (przechowywanie świadectwa naczepy), **M369** (określone paliwa UN 1202) i **M370** (warunkowe przewozy MRE z UN 2813). Warunki, sygnatariusze i daty muszą zostać sprawdzone przy każdej recenzji: [rejestr ADR 2026](ODSTEPSTWA-ADR-2026.md), [oficjalny UNECE](https://unece.org/transport/road-transport/adr-multilateral-agreements).
 
 ## Ważne zastrzeżenia
 
