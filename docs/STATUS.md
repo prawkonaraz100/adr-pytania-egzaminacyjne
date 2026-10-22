@@ -62,3 +62,12 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Do ukończenia: udokumentowana niezależna kontrola ekspert ADR dla 70 pytań oraz potwierdzenie pełnego, ostatecznego jakościowego statusu po ewentualnym merge; nie udostępniać w produkcji.
 
 **Następny krok:** audyt merytoryczny partii 002 per ID, usuwanie pytań niemiarodajnych, pokrywanie brakujących scenariuszy i profesjonalna recenzja. Cysterny pozostają poza aktywnym zakresem.
+
+## 2026-10-22 — wynik techniczny partii 002 po scaleniu PR #5
+
+- PR: [#5](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/5), **merged** jako commit `b97da9a461333e3d6f98e59ee93983401c424a74`.
+- Uruchomienie CI: [Quality Gate run #32](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39832204845) na commicie PR `66ca60be32b1e0068bf78083da6967943646629c`: **success**.
+- Zadanie `structure-and-tests`: **success**. Kroki `Check JSON schema syntax`, `Unit tests` i `Validate question bank`: **success**.
+- Ponownie odczytano dane z `main`: **70 rekordów**, 13/13 modułów, **70 needs_review, 0 verified**; poprawki i audyt partii 002 są widoczne.
+- Nie przypisujemy sukcesu z PR do najnowszego HEAD `main`, gdyż dla końcowego commita po aktualizacjach dokumentacji wynik osobnego CI nie został potwierdzony.
+- Bramka merytoryczna **OPEN**: niezależna recenzja eksperta, ocena wyjątków i dopuszczenie do produkcji nadal niewykonane.
