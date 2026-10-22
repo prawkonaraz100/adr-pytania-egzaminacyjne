@@ -23,7 +23,7 @@ Szczegółowy opis konkretnego towaru może wymagać dodatkowych informacji, a n
 
 ADR 8.1.2 przewiduje dokument przewozowy, instrukcje pisemne i dokument ze zdjęciem dla każdego członka załogi, o ile odpowiednie wymagania mają zastosowanie. Dodatkowo — gdy dany przewóz tego wymaga — **zaświadczenie kierowcy ADR**, **świadectwo dopuszczenia pojazdu** i inne wskazane dokumenty.
 
-Nie każdy pojazd przewożący ADR wymaga tego samego zestawu. Szczególna kategoria pojazdu lub towar może zmienić obowiązki.
+Nie każdy pojazd przewożący ADR wymaga tego samego zestawu. Szczególna kategoria pojazdu lub towar może zmienić obowiązki. **Wyjątek w 2026 r.:** umowa wielostronna **M364** dopuszcza pod określonymi warunkami przechowywanie świadectwa dopuszczenia **naczepy** w dostępnym, bezpiecznym i zabezpieczonym przed warunkami atmosferycznymi miejscu na tej naczepie, a nie koniecznie w kabinie. Należy sprawdzić podpisy państw na trasie oraz okres ważności umowy; nie rozszerzać wyjątku na samochody silnikowe. [Rejestr odstępstw](../../docs/ODSTEPSTWA-ADR-2026.md).
 
 ## 3. Instrukcje pisemne
 
