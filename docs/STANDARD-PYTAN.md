@@ -30,6 +30,12 @@ Każdy rekord musi mieć:
 8. Ilustracje własne, czytelne i ze sprawdzonym znaczeniem znaku; alt w eksporcie produktu.
 9. Dla pytań sytuacyjnych nie sugerować samodzielnych działań ratowniczych ponad przygotowanie kierowcy; kierować się instrukcjami i bezpieczeństwem.
 
+## Bramka wydania i udokumentowana akceptacja
+
+Sam wpis `verification_status: verified` oraz tekstowe pola `reviewer`/`checked_at` nie uprawniają do eksportu. Osobny rejestr `review/approvals.jsonl` musi dokumentować rzeczywistą recenzję konkretnej wersji pytania: `id`, `content_sha256`, recenzenta, datę i plik protokołu w `review/reports/`. Eksporter `scripts/release_gate.py` odrzuca brak lub niezgodność któregokolwiek elementu, zmianę odpowiedzi po akceptacji, zbyt mały zbiór lub brak modułu. **To mechaniczny dowód spójności dokumentów, a nie formalne potwierdzenie kwalifikacji recenzenta**. Zasady i puste miejsce na przyszłe przeglądy: [review/README.md](../review/README.md).
+
+Przy sprawdzaniu prawa obowiązkowo kontrolować czasowe umowy wielostronne ADR 1.5.1, zwłaszcza odstępstwa [ADR 2026](ODSTEPSTWA-ADR-2026.md). Wymogi zależą od daty, państw na trasie i szczegółowych warunków.
+
 ## Statusy
 
 | Status | Znaczenie | Może trafić do egzaminu próbnego? |
