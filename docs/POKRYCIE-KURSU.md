@@ -40,6 +40,13 @@
 - [Audyt partii 007B](AUDYT-PARTIA-007B.md) obejmuje 20 nowych rekordów, korekty 4 wcześniejszych pytań oraz **4 pary podobieństwa językowego** do oceny przez redaktora.
 - `scripts/similarity.py` służy tylko do informacyjnego rankingu podobieństw; nie rozpoznaje wszystkich parafraz, nie weryfikuje prawa i nie usuwa pytań.
 
+## Dodatkowa kontrola aktualności prawa i gotowości publikacji (23.10.2026)
+
+- Potwierdzono znaczenie umów wielostronnych ADR 1.5.1 w 2026 r. — patrz [rejestr wybranych odstępstw](ODSTEPSTWA-ADR-2026.md). Z tego powodu doprecyzowano pytania `ADR-B-0145` i `ADR-B-0198` o świadectwie dopuszczenia samochodu FL, które nie mogą bezwarunkowo dotyczyć naczepy przy stosowaniu M364.
+- Zmieniono błędne warianty pięciu pytań, zgodnie z [audytem wydawniczym](AUDYT-WYDAWNICZY-2026.md).
+- Dodano mechanizm eksportu tylko pytań z udokumentowaną recenzją, [review/README.md](../review/README.md). **0 zatwierdzeń**, więc egzamin próbny pozostaje niedostępny na tym zbiorze.
+- 103/103 teoretycznych celów z dwoma pytaniami to wyłącznie robocze pokrycie, nie prawnomerytoryczny odbiór.
+
 ## Co musi być zrobione przed publikacją
 
 1. **Kontrola jakości prawa:** dla wszystkich rekordów sprawdzić dokładne brzmienie aktu ADR 2025 w Dz.U. poz. 642 ze sprostowaniem poz. 1575, szczegółowe wyjątki oraz każdą prawidłową i błędną odpowiedź. Potwierdzenie przez rzeczywistego specjalistę ADR, z datą i identyfikatorem recenzenta.

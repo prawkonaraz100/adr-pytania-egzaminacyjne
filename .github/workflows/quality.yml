@@ -22,3 +22,5 @@ jobs:
         run: python scripts/coverage.py
       - name: List near-duplicate wording candidates (advisory)
         run: python scripts/similarity.py --threshold 0.45 --limit 15
+      - name: Report verified-only release gate (non-exporting)
+        run: python scripts/release_gate.py --report

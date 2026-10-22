@@ -27,7 +27,7 @@ Nie zakładaj, że identyczne wyposażenie wystarczy do każdego rodzaju towaru 
 
 ## 3. Pojazdy wymagające dodatkowego dopuszczenia
 
-Część 9 przewiduje wymagania dla szczególnych kategorii pojazdów (m.in. EX/II, EX/III, FL, AT, MEMU). **Nie każdy samochód przewożący sztuki przesyłek ADR potrzebuje odrębnego świadectwa dopuszczenia**. Gdy świadectwo jest wymagane, 8.1.2.2 przewiduje jego posiadanie w kabinie. Szczegółowe zasady wydawania w Polsce opisuje TDT.
+Część 9 przewiduje wymagania dla szczególnych kategorii pojazdów (m.in. EX/II, EX/III, FL, AT, MEMU). **Nie każdy samochód przewożący sztuki przesyłek ADR potrzebuje odrębnego świadectwa dopuszczenia**. Zasadniczo ADR 8.1.2.2 przewiduje przewożenie wymaganego świadectwa dopuszczenia w kabinie. **W 2026 r. trzeba dodatkowo sprawdzić umowę wielostronną M364**: u jej sygnatariuszy, pod określonymi warunkami, świadectwo **naczepy** wolno przechowywać poza kabiną w bezpiecznym i dostępnym miejscu na naczepie, zabezpieczonym przed pogodą. Wyjątek nie daje automatycznie tego samego prawa dla pojazdu silnikowego. Szczegółowe zasady wydawania świadectw w Polsce opisuje TDT. [Rejestr odstępstw](../../docs/ODSTEPSTWA-ADR-2026.md).
 
 ## 4. Pytania kontrolne
 
