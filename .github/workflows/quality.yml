@@ -20,3 +20,5 @@ jobs:
         run: python scripts/validate.py
       - name: Check coverage map
         run: python scripts/coverage.py
+      - name: List near-duplicate wording candidates (advisory)
+        run: python scripts/similarity.py --threshold 0.45 --limit 15
