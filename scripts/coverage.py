@@ -122,7 +122,7 @@ def check_lessons(root):
             errors.append(f"lekcja za krótka: {name}")
         if not content.startswith(f"# {name}"):
             errors.append(f"błędny tytuł lekcji: {name}")
-        if "2025" not in content or "źródł" not in content.lower():
+        if "2025" not in content or not any(token in content.lower() for token in ("źródł", "podstawa prawna", "akty prawne", "**podstawa")):
             errors.append(f"brak podstaw prawnych w lekcji: {name}")
     return errors
 
