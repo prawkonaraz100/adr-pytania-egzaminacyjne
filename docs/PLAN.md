@@ -4,7 +4,7 @@ Data rozpoczęcia: 22.10.2026. Priorytet: rzetelność prawnomerytoryczna i łat
 
 ## Cel produktu
 
-Samodzielne testy szkoleniowe i egzamin próbny dla kierowcy przygotowującego się do **kursu ADR początkowego podstawowego**. Po zamknięciu jakościowym podstawowego uruchomimy osobny zakres „cysterny”. Nie łączymy pytań egzaminu podstawowego ze specjalistycznymi.
+Samodzielne testy szkoleniowe i egzamin próbny dla kierowcy przygotowującego się do **kursu ADR początkowego podstawowego**. Po zamknięciu jakościowym podstawowego uruchomimy osobny zakres „cysterny”. Etap podstawowy obejmuje zarówno autorskie pytania, jak i materiały dydaktyczne oraz program wymaganych ćwiczeń praktycznych; platforma nie zastępuje formalnego szkolenia. Nie łączymy pytań egzaminu podstawowego ze specjalistycznymi.
 
 ## Twarde wymagania
 
@@ -40,9 +40,16 @@ Samodzielne testy szkoleniowe i egzamin próbny dla kierowcy przygotowującego s
 8. Uruchomić walidator, testy, CI; odnotować commit i wyniki.
 9. Każdą zmianę prawa odnieść do wszystkich zależnych pytań.
 
+## Pokrycie kompetencji (nowe wymaganie jakościowe)
+
+- Rejestr 106 roboczych kompetencji: `podstawowy/kompetencje.json`, z powiązaniami `question_ids`.
+- `python scripts/coverage.py` sprawdza istnienie zagadnień, poprawne powiązania i liczbę pytań `verified`. Nie nadaje statusu zweryfikowanego.
+- `docs/POKRYCIE-KURSU.md` śledzi 103 cele teoretyczne i 3 praktyczne (ćwiczenia nie są zaliczane przez quiz).
+- Przed ukończeniem podstawowego należy uzupełnić wszystkie luki teoretyczne, przygotować 13 lekcji, uzyskać niezależną recenzję, opracować program ćwiczeń i materiały wizualne.
+
 ## Strategia rozkładu pytań
 
-Cel roboczy: około 400 pytań, liczba może się zmienić po audycie. Podział w docs/PROGRAM-PODSTAWOWY.md to **wewnętrzne kwoty planowania**, nie oficjalna liczba ani skład egzaminu państwowego.
+Cel roboczy: około 400 pytań, **nie uznajemy jednak samej liczby za miernik kompletności**. Liczba może się zmienić po audycie. Podział w docs/PROGRAM-PODSTAWOWY.md to **wewnętrzne kwoty planowania**, nie oficjalna liczba ani skład egzaminu państwowego.
 
 ## Ryzyka i zabezpieczenia
 
