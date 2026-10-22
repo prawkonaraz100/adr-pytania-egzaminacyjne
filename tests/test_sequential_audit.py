@@ -24,7 +24,7 @@ class SequentialAuditTests(unittest.TestCase):
                    "image": None, "verification_status": "needs_review"}
             self.questions.append(obj)
             self.rows.append({"id": obj["id"], "sequence": number,
-                "exact_record_snapshot": {key: obj.get(key) for key in SNAPSHOT_FIELDS},
+                "exact_record_snapshot": json.loads(json.dumps({key: obj.get(key) for key in SNAPSHOT_FIELDS})),
                 "editorial_read_through": {key: True for key in
                     ("stem","option_A","option_B","option_C","correct_option","explanation","reference_pointer")},
                 "question_status": "needs_review", "polish_official_text_fully_compared": False,
