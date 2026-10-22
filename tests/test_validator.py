@@ -78,7 +78,7 @@ class ValidatorTests(unittest.TestCase):
                 q["id"] = f"ADR-B-{i+1:04d}"
                 q["stem"] = f"Czy to pytanie treningowe jest numerem {i+1} w bazie?"
                 records.append(json.dumps(q, ensure_ascii=False))
-            p.write_text("\\n".join(records) + "\\n", encoding="utf-8")
+            p.write_text("\n".join(records) + "\n", encoding="utf-8")
             errors, _ = validate_file(p)
             self.assertTrue(any("zbyt często" in x for x in errors))
 
@@ -92,7 +92,7 @@ class ValidatorTests(unittest.TestCase):
                 q["stem"] = f"Czy to pytanie treningowe jest numerem {i+1} w bazie?"
                 q["correct_option"] = "ABC"[i % 3]
                 records.append(json.dumps(q, ensure_ascii=False))
-            p.write_text("\\n".join(records) + "\\n", encoding="utf-8")
+            p.write_text("\n".join(records) + "\n", encoding="utf-8")
             errors, _ = validate_file(p)
             self.assertEqual(errors, [])
 
