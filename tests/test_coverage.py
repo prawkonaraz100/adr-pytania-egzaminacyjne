@@ -86,5 +86,20 @@ class CoverageTests(unittest.TestCase):
                 )
             self.assertEqual(check_lessons(root), [])
 
+    def test_lesson_inventory_accepts_legacy_heading_and_podstawa(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            folder = root / "podstawowy" / "lekcje"
+            folder.mkdir(parents=True)
+            for i in range(1, 14):
+                n = f"ADR-B-{i:02d}"
+                title = f"# Lekcja {n} — szkolenie"
+                (folder / f"{n}.md").write_text(
+                    title + "\\n\\n## Podstawa\\nADR 2025\\n" +
+                    "Przykładowe treści edukacyjne. " * 50, encoding="utf-8"
+                )
+            self.assertEqual(check_lessons(root), [])
+
+
 if __name__ == "__main__":
     unittest.main()
