@@ -47,6 +47,13 @@
 - Dodano mechanizm eksportu tylko pytań z udokumentowaną recenzją, [review/README.md](../review/README.md). **0 zatwierdzeń**, więc egzamin próbny pozostaje niedostępny na tym zbiorze.
 - 103/103 teoretycznych celów z dwoma pytaniami to wyłącznie robocze pokrycie, nie prawnomerytoryczny odbiór.
 
+## Pierwsza partia audytu zgodności treści (23.10.2026)
+
+- Wybrano 30 pytań o największym ryzyku błędów interpretacyjnych i sprawdzono warianty, źródła i wyjaśnienia: [raport](../review/batches/risk-001.md).
+- **8 pytań poprawiono**, w szczególności nr 0073 (dwa możliwe poprawne warianty), 0139 (odrębny sposób dopuszczenia przewozu luzem przez szczególny punkt) i 0140 (wyjątek przy kontenerach-cysternach).
+- 19 pytań nie wykazało sprzeczności w zakresie wstępnej kontroli, a 3 wymagają szczególnego sprawdzenia polskiego brzmienia/wyjątku. **0/30 uzyskało niezależne zatwierdzenie specjalisty; statusy pozostają needs_review.**
+- Zestaw 103/103 kompetencji z minimum dwoma pytaniami **nie mówi nic o tym**, czy dane dwa pytania są poprawne lub niezależne znaczeniowo.
+
 ## Co musi być zrobione przed publikacją
 
 1. **Kontrola jakości prawa:** dla wszystkich rekordów sprawdzić dokładne brzmienie aktu ADR 2025 w Dz.U. poz. 642 ze sprostowaniem poz. 1575, szczegółowe wyjątki oraz każdą prawidłową i błędną odpowiedź. Potwierdzenie przez rzeczywistego specjalistę ADR, z datą i identyfikatorem recenzenta.

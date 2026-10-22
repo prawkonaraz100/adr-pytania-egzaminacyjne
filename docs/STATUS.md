@@ -190,3 +190,21 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Zastrzeżenie: wynik #171 potwierdza **ostatni commit PR**, nie odrębny przebieg Actions na commicie po scaleniu. Żaden test automatyczny nie zastępuje rzeczywistej recenzji specjalisty.
 - Dalsze bramki: pełna kontrola prawna 216 pytań z aktualnymi odstępstwami, niezależne protokoły zatwierdzenia, 13 lekcji, legalne materiały wizualne i dokumenty oraz faktyczne zajęcia praktyczne.
 
+
+## 2026-10-23 — pierwsza partia 30 pytań do audytu ryzyka
+
+- Sprawdzono `main`: 216 pytań `needs_review`, 0 `verified`, 106 kompetencji; eksport produkcyjny `BLOCKED` i pusty rejestr zatwierdzeń.
+- Wybrano 30 pytań według zagrożenia dla poprawności szkolenia: gaśnice 8.1.4, zwolnienia 1.1.3 i LQ, wyposażenie 8.1.5, odpady, dokumenty 5.4, przewóz luzem, nadzór, tunele i M364.
+- Wstępny przegląd każdego z 30 pytań obejmował treść, wszystkie A/B/C, klucz, wyjaśnienie i odniesienie do źródła. **19 wstępnie bez sprzeczności, 8 poprawionych, 3 wymagają szczególnego sprawdzenia** — żadnego statusu `verified`.
+- **Krytyczny błąd**: ADR-B-0073 dopuszczało obie odpowiedzi 2 kg i 6 kg; poprawiono pytanie o wymagane minimum. Poprawiono również `0008`, `0033`, `0085`, `0129`, `0139`, `0140`, `0160`.
+- Dodano `review/batches/risk-001.json` (30 rekordów z indywidualną kontrolą), `review/batches/risk-001.md` (raport dla fachowca) i testy `tests/test_risk_review_001.py`.
+- **Ograniczenia**: nie porównano punkt po punkcie 30 rekordów z całym polskim tekstem ogłoszonym i sprostowaniem; nie ma niezależnego specjalisty, podpisów ani dopuszczonych pytań. Raport wstępny nie może być wpisywany do `review/approvals.jsonl`.
+- Wynik Quality Gate na tej gałęzi i status scalenia **do uzupełnienia po faktycznej kontroli PR**. Nie twierdzić PASS bez wyniku CI.
+
+
+## 2026-10-23 — kontrola CI dla partii 30 pytań (PR #18)
+
+- [PR #18](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/18): audyt 30 pytań wg ryzyka i 8 poprawek w banku.
+- [Quality Gate #188](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39867338475) na commicie `827c45c1344858901c686b3a2055f5b92359b4dd`: **completed/success**, wszystkie 6 wymaganych kroków `success` (schemat JSON, unit tests, walidacja pytań, matryca, podobieństwa i raport blokady eksportu).
+- Niezależny odczyt tego samego PR: **216 pytań, 30 unikatowych pozycji w rejestrze kontroli, 8 `edited`, 3 `needs-*`, 19 `preliminary-consistent`**; wszystkie pytania `needs_review`, 0 `verified`, rejestr zatwierdzeń pusty.
+- Ta informacja dokumentuje **PASS dokładnego SHA przed wpisem dokumentacyjnym**, nie jest twierdzeniem, że nowy commit ani scalony `main` uzyskały oddzielny PASS. Zmiana dokumentu wymaga ponownego przebiegu CI.
