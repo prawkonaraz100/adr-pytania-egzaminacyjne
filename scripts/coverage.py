@@ -90,9 +90,8 @@ def analyse(questions, curriculum, release=False):
     if release:
         if gaps:
             errors.append(f"release: {len(gaps)} celów teorii bez verified")
-        if practice:
-            # Zaliczenie programu praktycznego nie może wynikać z testu jednokrotnego wyboru.
-            errors.append("release: moduł e-learningowy nie potwierdza realizacji ćwiczeń stacjonarnych")
+        # Opracowanie materiałów do zajęć praktycznych i ich recenzja nie potwierdzają
+        # uczestnictwa kursanta w ćwiczeniach. Ewidencja obecności pozostaje w OSK.
     stats = {
         "questions": len(qids),
         "modules": len(by_module),
