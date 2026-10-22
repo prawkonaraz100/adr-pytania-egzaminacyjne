@@ -39,3 +39,13 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Bramka techniczna potwierdza tylko strukturę, a nie poprawność przepisów.
 - Końcowy HEAD po aktualizacji tego pliku może mieć osobny przebieg CI; nie przenosić automatycznie statusu PASS na nowszy commit.
 - Nadal: **39 needs_review, 0 verified** — prawny audyt merytoryczny otwarty w #2.
+
+## 2026-10-22 — przegląd treści partii 001 (PR oczekuje na CI)
+
+- Wpisy poddane analizie: **39/39**, wyniki per ID w `docs/AUDYT-MERYTORYCZNY-PARTIA-001.md`.
+- Bezpośrednio skonfrontowano 24 tezy z tekstem ADR 2025 i źródłami aktualnymi; 15 nadal wymaga pełnego sprawdzenia i wyjątków.
+- Poprawiono pytania 0007, 0008, 0009, 0018, 0022, 0029, 0030, 0033, 0035; w #0009 także odpowiedź B.
+- Ujęto sprostowanie ADR 2025: **Dz.U. 2025 poz. 1575**, w tym uwagę o pkt 8.2.2.7.2.3. Nie jest to podstawa do niezweryfikowanego dopisywania odpowiedzi.
+- Linki prawne do 39 pytań kierują teraz do stabilnej strony oficjalnego ogłoszenia (Dz.U. 2025 poz. 642), a wskazanie punktu pozostaje w `reference`.
+- Statusy pozostają: **39 needs_review / 0 verified**; brak niezależnego eksperta ADR i pełnego audytu każdego pkt PL.
+- Bramka merytoryczna nadal **OPEN**; techniczną sprawdzić na PR i HEAD po scaleniu.
