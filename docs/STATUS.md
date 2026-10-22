@@ -142,3 +142,14 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - **Otwarta bramka:** niezależna weryfikacja 176 pytań z aktualnym prawem i sprostowaniem 2025, audyt dystraktorów, legalne grafiki i dokumenty.
 - Status formalnego CI: **oczekuje na kontrolę PR**; dopóki nie ma potwierdzonego success wszystkich kontroli, etap techniczny pozostaje otwarty.
 
+
+## 2026-10-22 — partia 007A: 20 dodatkowych pytań sytuacyjnych
+
+- W gałęzi `authoring/batch-007-depth-part-a` opracowano **20 pytań** (`ADR-B-0177…0196`), z naciskiem na wycieki, zdarzenia, oznakowanie i obowiązki załogi/odbiorcy.
+- Bank gałęzi: **196 pytań**, wszystkie `needs_review`, **0 `verified`**. Prawidłowe A=65, B=67, C=64.
+- Wszystkie nowe pytania przypisano do 20 wcześniej płytko reprezentowanych zagadnień: liczba kompetencji teoretycznych z mniej niż 2 pytaniami spadła **40 → 20**. Wszystkie 103 cele teorii mają co najmniej jeden szkic pytania.
+- Do repo dodano `docs/AUDYT-PARTIA-007A.md`, z listą ustępów i czynności kontrolnych per ID. Sposób formułowania pytań uwzględnia wyjątki i bezpieczeństwo załogi; to **audyt redakcyjny**, bez eksperckiej akceptacji.
+- Podstawy wstępnie konfrontowano z ADR 2025 i źródłami ministerialnymi; **nie potwierdzono indywidualnie wszystkich wariantów odpowiedzi w ogłoszeniu Dz.U. poz. 642**, wobec czego żadnego wpisu nie awansowano do `verified`.
+- Pozostało: 20 kompetencji do pogłębienia, kontrola podobieństw semantycznych, kompletny ekspercki przegląd 196 pytań, 13 lekcji oraz zatwierdzenie praktyki.
+- Formalny Quality Gate PR **do odczytu po utworzeniu PR**. Nie scalać bez pełnego success wszystkich wymaganych kontroli.
+
