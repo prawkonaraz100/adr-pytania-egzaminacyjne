@@ -120,3 +120,13 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - **Otwarte:** niezależny specjalista ADR dla pytań i lekcji, weryfikacja wyjątków każdej odpowiedzi, pełne ilustracje, przykładowe dokumenty, odbiór scenariuszy i faktyczna realizacja praktyki; symulator egzaminów na zweryfikowanych pytaniach nieuruchomiony.
 - Formalny Quality Gate PR: **oczekuje na sprawdzenie**. Nie oznaczać partii jako zakończonej bez sukcesu wszystkich kroków CI.
 
+
+## 2026-10-22 — kontrola i poprawki PR #12 (partia 005)
+
+- [PR #12](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/12) łączy **24 pytania**, powiązanie 19 dawnych luk, 10 nowych szkiców lekcji (razem 13) i 3 scenariusze praktyczne.
+- Pierwszy [Quality Gate #101](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39849471425): **FAIL** w `Check coverage map`; pozostale wymagane kroki były success. Przyczyna: walidator tytułów nie uwzględniał trzech starszych lekcji z nagłówkiem „Lekcja ADR-B-…” oraz nagłówka „Podstawa”.
+- Poprawiono `scripts/coverage.py` bez wyłączania bramki; akceptuje różne, poprawne style nagłówka i nadal wymaga ID działu, minimalnej długości oraz źródeł. Dodano test regresyjny.
+- [Quality Gate #105](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39849663003) dla commita `f2ae2251d12d451f831d3f00b13465367d3f2ddb`: **completed/success** — każdy krok schematu JSON, unit tests, walidacji pytań i matrycy ma success.
+- Wynik dotyczy wskazanego commita PR; dla nowego commita dokumentacyjnego i HEAD po merge wymagane jest osobne potwierdzenie. Nie uznajemy testów merytorycznych za wykonane.
+- Bank nadal ma **146 needs_review, 0 verified**. Nie rozpoczęto formalnych ćwiczeń praktycznych, nie ma niezależnego podpisu specjalisty, nie wydano materiałów produkcyjnych.
+
