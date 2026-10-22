@@ -82,3 +82,17 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Stworzono `docs/AUDYT-PARTIA-003.md` z tabelą ID→przepis→ryzyko i źródłami.
 - Stan banku w tej gałęzi: **90 needs_review, 0 verified**. Ekspercka recenzja nadal wymagana.
 - Formalna kontrola CI dla tej gałęzi/PR: **oczekuje na odczyt**.
+
+## 2026-10-22 — partia 004 i mapa kompletności programu
+
+- Zidentyfikowano pełny oficjalny program: Dz.U. 2021 poz. 2150, załącznik nr 1: 13 tematów teoretycznych (18 h lekcyjnych) oraz osobne ćwiczenia praktyczne z gaśnicy, pierwszej pomocy i wypadku/awarii. Porównano załącznik z treścią oficjalnego aktu.
+- Dopisano **32 autorskie pytania** ADR-B-0091...0122 — brakujące klasy ADR, zwolnienia, wypadki, środowisko, rozpoznawanie odpowiedzialności i ochrona.
+- Aktualny bank w gałęzi roboczej: **122 potrzeby recenzji / 0 verified**; klucze A=40/B=41/C=41.
+- Dodano **106 kompetencji redakcyjnych**: 103 teorii, 3 praktyczne. Wszystkie 122 pytania przypisane do kompetencji.
+- Pokrycie redakcyjne: 84/103 celów teoretycznych mają ≥1 szkic pytania; **19 teoretycznych bez pytań** i **3 praktyczne wymagające ćwiczeń**. Brak zatwierdzonych `verified`.
+- Stworzono materiały wstępne: `podstawowy/lekcje/ADR-B-01.md`, `ADR-B-05.md`, `ADR-B-12.md`. Pozostałe 10 lekcji do opracowania.
+- Nowy walidator `scripts/coverage.py` oraz testy `tests/test_coverage.py` kontrolują 13 modułów, przypisanie wszystkich pytań, brak linków do nieistniejących ID i rozdzielenie teorii od ćwiczeń. Dodano do workflow.
+- Nadrzędny dokument pokrycia: `docs/POKRYCIE-KURSU.md`, szczegóły kontroli partii 004: `docs/AUDYT-PARTIA-004.md`.
+- **Jest to wersja robocza.** Formalna weryfikacja prawna każdej odpowiedzi, odbiór instruktora, pełny zestaw wizualizacji i materiały do prowadzenia zajęć praktycznych nie zostały wykonane.
+- Dalsze czynności: sprawdzić CI na PR, następnie przygotować brakujące 19 kompetencji i lekcje; cysterny pozostają kolejnym etapem.
+

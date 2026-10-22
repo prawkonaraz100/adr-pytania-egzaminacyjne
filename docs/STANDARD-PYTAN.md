@@ -58,3 +58,9 @@ Każdy rekord musi mieć:
 ## Reguła publikacji
 
 Nie emitować pytań nieweryfikowanych do użytkowników końcowych. Programistyczny Quality Gate to dopiero jedna z kontroli; merytoryczna aprobata eksperta jest niezależna.
+
+## Pokrycie kompetencji i materiały do nauki
+
+Każde pytanie musi być przypisane do przynajmniej jednej kompetencji w `podstawowy/kompetencje.json`. Pytania przypisane do kompetencji z innego modułu powodują błąd CI. Podstawę strukturalną sprawdza `scripts/coverage.py`; bez recenzji wszystkie pytania pozostają `needs_review`.
+
+Program zawiera również 3 odrębne cele praktyczne. W materiałach e-learningowych nie wolno oznaczać obecności lub wykonania ćwiczeń jako potwierdzonych przez samo rozwiązanie quizu. Ostateczne zatwierdzenie materiałów do ćwiczeń wymaga przeglądu instruktora.
