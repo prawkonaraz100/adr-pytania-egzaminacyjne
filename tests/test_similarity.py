@@ -8,7 +8,7 @@ from similarity import tokens, jaccard, find_candidates
 
 class SimilarityTests(unittest.TestCase):
     def test_polish_diacritics_are_normalized(self):
-        self.assertIn("przewoz", tokens("Przewóz materiałów"))
+        self.assertIn("bezpieczenstwo", tokens("Bezpieczeństwo towarów"))
         self.assertEqual(tokens("żrące"), tokens("zrące"))
 
     def test_identical_phrasing_in_same_module_is_candidate(self):
