@@ -153,3 +153,16 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Pozostało: 20 kompetencji do pogłębienia, kontrola podobieństw semantycznych, kompletny ekspercki przegląd 196 pytań, 13 lekcji oraz zatwierdzenie praktyki.
 - Formalny Quality Gate PR **do odczytu po utworzeniu PR**. Nie scalać bez pełnego success wszystkich wymaganych kontroli.
 
+
+## 2026-10-22 — partia 007B: zamknięcie luk liczby pytań i audyt podobieństwa
+
+- Opracowano **20 nowych pytań `ADR-B-0197…0216`** dla wszystkich pozostałych 20 celów teoretycznych z tylko jednym pytaniem; bank gałęzi: **216 `needs_review` / 0 `verified`**.
+- Matryca: **103/103 celów teoretycznych mają co najmniej dwa pytania robocze**, 7 celów ma trzy lub więcej; 3 cele praktyczne pozostają niezależne od quizów.
+- Prawidłowe litery w całym banku: **A=72, B=74, C=70**. To kontrola statystyczna, nie dowód poprawności treści.
+- Odczytano i zastosowano wskazane przepisy ADR 2025 do pytań m.in. o 8.1.4.2 (gaśnice), 7.5.2 (mieszany załadunek), 7.5.8.2 (czyszczenie po przewozie luzem), 5.4.2 (certyfikat pakowania), 8.6.4 (LQ/tunele) oraz 1.10.3 (ochrona); niezależny przegląd polskiego tekstu ogłoszonego **nadal nie został ukończony**.
+- Uściślono kompetencję `ADR-B-09-K07`: czyszczenie po rozładunku obejmuje zarówno 7.5.8.1, jak i warunkowy wyjątek 7.5.8.2 przy przewozie luzem.
+- Zmieniono treść lub błędne odpowiedzi w `0034`, `0036`, `0067` i `0121` tak, aby sprawdzały różne umiejętności, zamiast powtarzać niemal to samo.
+- Dodano `scripts/similarity.py`, `tests/test_similarity.py` i informacyjny krok CI. Poziom podobieństwa 0.45 wskazał **4 pary językowo podobnych pytań**; żadnej nie usunięto automatycznie, każda wymaga oceny człowieka.
+- Dokładny audyt per ID i źródła: `docs/AUDYT-PARTIA-007B.md`.
+- **Quality Gate na ostatnim commicie PR: wymaga osobnego potwierdzenia**. Bez PASS wszystkich kroków nie scalać. Certyfikacji eksperckiej ani praktycznej nie symulować.
+

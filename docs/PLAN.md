@@ -45,7 +45,7 @@ Samodzielne testy szkoleniowe i egzamin próbny dla kierowcy przygotowującego s
 - Rejestr 106 roboczych kompetencji: `podstawowy/kompetencje.json`, z powiązaniami `question_ids`.
 - `python scripts/coverage.py` sprawdza istnienie zagadnień, poprawne powiązania i liczbę pytań `verified`. Nie nadaje statusu zweryfikowanego.
 - `docs/POKRYCIE-KURSU.md` śledzi 103 cele teoretyczne i 3 praktyczne (ćwiczenia nie są zaliczane przez quiz).
-- Stan redakcyjny: 103/103 celów teorii mają co najmniej jedno pytanie, 20 ma mniej niż dwa; 13/13 lekcji ma szkic, istnieje wstępny dokument 3 scenariuszy praktycznych. **Do ukończenia pozostaje** zwiększenie głębokości pytań, niezależna recenzja całości, zatwierdzenie ćwiczeń, materiały wizualne, testy symulatora oraz weryfikacja aktualnych przepisów. Samo pokrycie tematu jednym pytaniem nie zalicza etapu.
+- Stan redakcyjny: 103/103 celów teorii mają co najmniej dwa pytania robocze, 0 ma mniej niż dwa; 13/13 lekcji ma szkic, istnieje wstępny dokument 3 scenariuszy praktycznych. **Do ukończenia pozostaje** zwiększenie głębokości pytań, niezależna recenzja całości, zatwierdzenie ćwiczeń, materiały wizualne, testy symulatora oraz weryfikacja aktualnych przepisów. Samo pokrycie tematu jednym pytaniem nie zalicza etapu.
 
 ## Strategia rozkładu pytań
 

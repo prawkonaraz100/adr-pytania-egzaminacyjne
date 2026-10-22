@@ -1,11 +1,11 @@
 # ADR podstawowy — baza autorskich pytań
 
-Stan na 22.10.2026: **196 rekordów** w pliku `questions.jsonl`, w tym partie 001 (39), 002 (31), 003 (20), 004 (32), 005 (24), 006 (30), 007A (20). Wszystkie **196 `needs_review` / 0 `verified`**. Nie publikować ich jako gotowych pytań bez niezależnej kontroli merytorycznej.
+Stan na 22.10.2026: **216 rekordów** w pliku `questions.jsonl`, w tym partie 001 (39), 002 (31), 003 (20), 004 (32), 005 (24), 006 (30), 007A (20), 007B (20). Wszystkie **216 `needs_review` / 0 `verified`**. Nie publikować ich jako gotowych pytań bez niezależnej kontroli merytorycznej.
 
 ### Co już wykonano
 
 - Przygotowano pytania z odpowiedziami A/B/C, objaśnieniami i punktem odniesienia ADR 2025.
-- Wszystkie 13 modułów mają wstępne pokrycie (co najmniej 8 pytań). W matrycy 106 kompetencji 103/103 celów teorii mają co najmniej jeden szkic pytania, ale 20 wciąż ma mniej niż dwa pytania; żadna z tych statystyk nie dowodzi eksperckiego zatwierdzenia.
+- Wszystkie 13 modułów mają wstępne pokrycie (co najmniej 8 pytań). W matrycy 106 kompetencji 103/103 celów teorii mają co najmniej dwa szkice pytań, ale nie oznacza to poprawności prawnej ani wystarczającej trudności; żadna z tych statystyk nie dowodzi eksperckiego zatwierdzenia.
 - Ukończono redakcyjną kontrolę źródeł pierwszych 39 pytań i zapisano osobny audyt. To **nie** podpis specjalisty ADR.
 - [Quality Gate na PR #5](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39832204845): PASS (składnia schematu, testy Python, struktura banku). Status checka dla najnowszego HEAD main wymaga osobnego potwierdzenia.
 
@@ -19,6 +19,7 @@ Stan na 22.10.2026: **196 rekordów** w pliku `questions.jsonl`, w tym partie 00
 - [Audyt partii 005](../docs/AUDYT-PARTIA-005.md)
 - [Audyt partii 006](../docs/AUDYT-PARTIA-006.md)
 - [Audyt partii 007A](../docs/AUDYT-PARTIA-007A.md)
+- [Audyt partii 007B](../docs/AUDYT-PARTIA-007B.md)
 - [Dokładna mapa zakresu ADR](../docs/MAPA-PUNKTOW-ADR-2025.md)
 - [Audyt 39 + lista kontroli 31](../docs/AUDYT-MERYTORYCZNY-PARTIA-001.md)
 - [Standard pytań](../docs/STANDARD-PYTAN.md)
@@ -30,6 +31,7 @@ Stan na 22.10.2026: **196 rekordów** w pliku `questions.jsonl`, w tym partie 00
 ```bash
 python scripts/validate.py
 python scripts/coverage.py
+python scripts/similarity.py --threshold 0.45 --limit 15
 python -m unittest discover -s tests -v
 ```
 

@@ -26,7 +26,7 @@ Każdy rekord musi mieć:
 4. Wyjaśnienie mówi dlaczego, a nie tylko powtarza wybraną odpowiedź.
 5. **Dystraktory realistyczne:** dwie błędne odpowiedzi muszą przypominać możliwe nieporozumienia kierowcy. Nie używać absurdów (numer telefonu sąsiada, kolor lakieru, karta paliwowa), które zdradzają klucz.
 6. **Warunki i wyjątki:** jeśli przepis zależy od DMC, oznakowania, sposobu przewozu, klasy albo odstępstwa, podać te warunki w pytaniu. Nie oceniać odpowiedzi „zawsze/nigdy” bez wykluczenia wyjątków.
-7. **Rozkład A/B/C:** układać klucze bez widocznego wzorca. Walidator odrzuca bank >=30 rekordów, w którym ponad 55% prawidłowych odpowiedzi wypada na jednej literze. W tej iteracji 90 pytań ma po 30 na literę.
+7. **Rozkład A/B/C:** układać klucze bez widocznego wzorca. Walidator odrzuca bank >=30 rekordów, w którym ponad 55% prawidłowych odpowiedzi wypada na jednej literze. Aktualną statystykę A/B/C należy odczytywać z banku; nie narzucamy kolejności liter jako substytutu oceny trudności.
 8. Ilustracje własne, czytelne i ze sprawdzonym znaczeniem znaku; alt w eksporcie produktu.
 9. Dla pytań sytuacyjnych nie sugerować samodzielnych działań ratowniczych ponad przygotowanie kierowcy; kierować się instrukcjami i bezpieczeństwem.
 
@@ -48,6 +48,7 @@ Każdy rekord musi mieć:
 - Brak pustych, nieprecyzyjnych cytatów przepisów.
 - Lektura przez drugą osobę/eksperta ADR; sam walidator nie wystarcza do oceny prawdziwości.
 - Brak identycznych pytań i wariantów odpowiedzi; semantycznie podobne zagadnienia podlegają ocenie redaktora.
+- Dodatkowy informacyjny raport `python scripts/similarity.py` szereguje pary podobne językowo; NIE dowodzi semantycznej identyczności ani poprawności prawnej i nie blokuje automatycznie CI.
 - Kontrola rzeczywistej trudności błędnych odpowiedzi oraz równowagi rozkładu A/B/C.
 - Odświeżanie po zmianie regulacji; ponowna recenzja zmian w pytaniach.
 
