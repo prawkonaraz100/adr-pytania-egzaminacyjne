@@ -4,11 +4,11 @@
 
 ## Co naprawdę zostało ukończone?
 
-- **196 autorskich pytań** z A/B/C, własnym wyjaśnieniem i referencją do przepisu; **196 needs_review / 0 verified**.
+- **216 autorskich pytań** z A/B/C, własnym wyjaśnieniem i referencją do przepisu; **216 needs_review / 0 verified**.
 - **103/103 kompetencji teoretycznych** ma co najmniej jedno pytanie w wersji roboczej. **0/103** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji ma szkic dydaktyczny** w `podstawowy/lekcje/`. Żadna nie ma jeszcze potwierdzonego odbioru eksperta.
-- Rozkład prawidłowych opcji: A=65, B=67, C=64.
+- Rozkład prawidłowych opcji: A=72, B=74, C=70.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
 
 **Ważne:** 100% pokrycia *tematycznego pytaniami roboczymi* **nie oznacza gotowego kursu ani certyfikatu ADR**. Dla wybranych kompetencji jedno pytanie nie wystarczy do skutecznej nauki; kolejnym zadaniem jest zwiększenie głębokości pokrycia i niezależna kontrola.
@@ -24,20 +24,21 @@
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 26 | 0 | Szkic lekcji |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 18 | 0 | Szkic lekcji |
 | ADR-B-07 | Obowiązki uczestników | 6/6 | 0 | 13 | 0 | Szkic lekcji |
-| ADR-B-08 | Wyposażenie | 8/8 | 0 | 15 | 0 | Szkic lekcji |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 15 | 0 | Szkic lekcji |
-| ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 9 | 0 | Szkic lekcji |
-| ADR-B-11 | Tunele | 7/7 | 0 | 12 | 0 | Szkic lekcji |
-| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 9 | 0 | Szkic lekcji |
-| ADR-B-13 | Dokumentacja | 8/8 | 0 | 13 | 0 | Szkic lekcji |
-| **Razem** | | **103/103** | **3** | **196** | **0** | **13 szkiców** |
+| ADR-B-08 | Wyposażenie | 8/8 | 0 | 17 | 0 | Szkic lekcji |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 19 | 0 | Szkic lekcji |
+| ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 13 | 0 | Szkic lekcji |
+| ADR-B-11 | Tunele | 7/7 | 0 | 16 | 0 | Szkic lekcji |
+| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 12 | 0 | Szkic lekcji |
+| ADR-B-13 | Dokumentacja | 8/8 | 0 | 16 | 0 | Szkic lekcji |
+| **Razem** | | **103/103** | **3** | **216** | **0** | **13 szkiców** |
 
-## Pogłębienie zagadnień po partii 007A
+## Pogłębienie zagadnień po partii 007B
 
-- Po partii 006 40 celów miało mniej niż dwa pytania. **Partia 007A uzupełniła dodatkowe 20 z nich**; pozostało **20/103** celów z jednym pytaniem.
-- Wszelkie dane o pokryciu opisują **szkice**, a nie zatwierdzone odpowiedzi prawne; **196 needs_review / 0 verified**.
-- Nowe pytania `ADR-B-0177…0196` i indywidualne zastrzeżenia znajdują się w [audycie partii 007A](AUDYT-PARTIA-007A.md).
-- Podwójne pokrycie tematu nie jest gwarancją różnorodności semantycznej; nadal trzeba zbadać podobieństwo pytań i stopień trudności.
+- Po partii 007A **20 z 103** celów teoretycznych miało tylko jeden szkic pytania. Partia 007B dodała do tych celów kolejne 20 pytań; **0/103** celów ma teraz mniej niż dwa.
+- **103/103 celów teorii ma co najmniej dwa autorskie szkice**, przy czym wciąż **0/103** celów ma odpowiedź zatwierdzoną przez niezależnego eksperta ADR.
+- Wszystkie **216 pytań są `needs_review`**, bez automatycznej zmiany statusu. Obecność dwóch zbliżonych pytań nie oznacza przetestowania całej kompetencji.
+- [Audyt partii 007B](AUDYT-PARTIA-007B.md) obejmuje 20 nowych rekordów, korekty 4 wcześniejszych pytań oraz **4 pary podobieństwa językowego** do oceny przez redaktora.
+- `scripts/similarity.py` służy tylko do informacyjnego rankingu podobieństw; nie rozpoznaje wszystkich parafraz, nie weryfikuje prawa i nie usuwa pytań.
 
 ## Co musi być zrobione przed publikacją
 
@@ -53,7 +54,8 @@
 - `python scripts/validate.py` — format rekordów JSONL, unikalne ID, odpowiedzi A/B/C, metadane, rozkład kluczy.
 - `python scripts/coverage.py` — powiązanie pytań z kompetencjami, 13 działów i obecność 13 plików lekcji, z rozdzieleniem `draft` i `verified`.
 - `python -m unittest discover -s tests -v` — testy automatyczne.
-- `docs/AUDYT-PARTIA-007A.md` — przegląd 20 nowych pytań i ryzyk źródłowych (wcześniejsze audyty pozostają w repozytorium).
+- `docs/AUDYT-PARTIA-007B.md` — przegląd nowych pytań, ryzyk źródłowych i podobieństw; wcześniejsze audyty pozostają w repozytorium.
+- `python scripts/similarity.py --threshold 0.45 --limit 15` — informacyjny ranking par do ręcznego przeglądu.
 
 ## Status szkolenia praktycznego
 
