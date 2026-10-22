@@ -24,3 +24,5 @@ jobs:
         run: python scripts/similarity.py --threshold 0.45 --limit 15
       - name: Report verified-only release gate (non-exporting)
         run: python scripts/release_gate.py --report
+      - name: Check sequential editorial audit integrity
+        run: python scripts/check_sequential_audit.py
