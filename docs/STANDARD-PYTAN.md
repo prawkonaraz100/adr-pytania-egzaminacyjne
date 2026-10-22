@@ -24,8 +24,11 @@ Każdy rekord musi mieć:
 2. Pisanie dla kierowcy, bez urzędniczego żargonu. Unikać zaprzeczeń typu „która odpowiedź NIE jest NIEPRAWIDŁOWA”.
 3. Nie polegać na „zawsze/nigdy” bez zweryfikowania wyjątków. Dodać warunki ilościowe, transportowe i właściwy rodzaj opakowania.
 4. Wyjaśnienie mówi dlaczego, a nie tylko powtarza wybraną odpowiedź.
-5. Ilustracje własne, czytelne i ze sprawdzonym znaczeniem znaku; alt w eksporcie produktu.
-6. Dla pytań sytuacyjnych nie sugerować samodzielnych działań ratowniczych ponad przygotowanie kierowcy; kierować się instrukcjami i bezpieczeństwem.
+5. **Dystraktory realistyczne:** dwie błędne odpowiedzi muszą przypominać możliwe nieporozumienia kierowcy. Nie używać absurdów (numer telefonu sąsiada, kolor lakieru, karta paliwowa), które zdradzają klucz.
+6. **Warunki i wyjątki:** jeśli przepis zależy od DMC, oznakowania, sposobu przewozu, klasy albo odstępstwa, podać te warunki w pytaniu. Nie oceniać odpowiedzi „zawsze/nigdy” bez wykluczenia wyjątków.
+7. **Rozkład A/B/C:** układać klucze bez widocznego wzorca. Walidator odrzuca bank >=30 rekordów, w którym ponad 55% prawidłowych odpowiedzi wypada na jednej literze. W tej iteracji 90 pytań ma po 30 na literę.
+8. Ilustracje własne, czytelne i ze sprawdzonym znaczeniem znaku; alt w eksporcie produktu.
+9. Dla pytań sytuacyjnych nie sugerować samodzielnych działań ratowniczych ponad przygotowanie kierowcy; kierować się instrukcjami i bezpieczeństwem.
 
 ## Statusy
 
@@ -44,7 +47,8 @@ Każdy rekord musi mieć:
 - Dowód weryfikacji prawnej każdego pytania ze statusem verified.
 - Brak pustych, nieprecyzyjnych cytatów przepisów.
 - Lektura przez drugą osobę/eksperta ADR; sam walidator nie wystarcza do oceny prawdziwości.
-- Brak zduplikowanych pytań, praw i wariantów odpowiedzi.
+- Brak identycznych pytań i wariantów odpowiedzi; semantycznie podobne zagadnienia podlegają ocenie redaktora.
+- Kontrola rzeczywistej trudności błędnych odpowiedzi oraz równowagi rozkładu A/B/C.
 - Odświeżanie po zmianie regulacji; ponowna recenzja zmian w pytaniach.
 
 ## Format egzaminu szkoleniowego
