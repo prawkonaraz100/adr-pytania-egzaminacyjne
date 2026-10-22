@@ -107,3 +107,16 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - [Issue #10](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/issues/10) zawiera listę 19 luk, 10 brakujących lekcji i plan ćwiczeń.
 - **Uwaga:** sukces PR nie jest automatycznie potwierdzeniem niezależnego przebiegu Actions dla każdego nowszego commita gałęzi `main`. Szczegółowo zarejestrowano dokładny SHA oraz numer uruchomienia.
 
+
+## 2026-10-22 — partia 005: zakończone szkice 13 działów i 19 luk tematycznych
+
+- Do banku dopisano `ADR-B-0123...0146`: **24 pytania** z wyjaśnieniami i wskazaniem punktów ADR 2025.
+- Bank w gałęzi: **146 needs_review / 0 verified**, A=48, B=49, C=49.
+- Powiązano 24 pytania z **19 wcześniej pustymi kompetencjami**. Matryca: 106 wewnętrznych kompetencji (103 teoria, 3 praktyczne), **103/103 celów teorii mają co najmniej 1 szkic pytania**, 0/103 ma zatwierdzony rekord.
+- Dopisano **10 lekcji**, co daje komplet **13 szkiców** (`podstawowy/lekcje/ADR-B-01.md` do `ADR-B-13.md`). Wciąż **0 lekcji po potwierdzonej recenzji eksperckiej**.
+- Utworzono `podstawowy/praktyka/SCENARIUSZE.md` z instrukcją, ćwiczeniami P1–P3 i pustym protokołem: **nie wykonano żadnych zajęć**, nie zaliczono praktyki.
+- `scripts/coverage.py` sprawdza obecność i minimalną strukturę 13 lekcji i raportuje cele bez co najmniej dwóch pytań. To weryfikacja techniczna, nie jakości merytorycznej.
+- Mapa gotowości `docs/POKRYCIE-KURSU.md` zaktualizowana bez utożsamiania 100% pokrycia redakcyjnego z ukończonym kursem. Szczegóły 24 pytań w `docs/AUDYT-PARTIA-005.md`.
+- **Otwarte:** niezależny specjalista ADR dla pytań i lekcji, weryfikacja wyjątków każdej odpowiedzi, pełne ilustracje, przykładowe dokumenty, odbiór scenariuszy i faktyczna realizacja praktyki; symulator egzaminów na zweryfikowanych pytaniach nieuruchomiony.
+- Formalny Quality Gate PR: **oczekuje na sprawdzenie**. Nie oznaczać partii jako zakończonej bez sukcesu wszystkich kroków CI.
+
