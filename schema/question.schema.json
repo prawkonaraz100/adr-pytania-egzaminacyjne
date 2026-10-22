@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADR podstawowy — autorskie pytanie szkoleniowe",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "module_id",
+    "stem",
+    "options",
+    "correct_option",
+    "explanation",
+    "sources",
+    "legal_basis_version",
+    "verification_status",
+    "checked_at",
+    "reviewer",
+    "image"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ADR-B-[0-9]{4}$"
+    },
+    "module_id": {
+      "type": "string",
+      "pattern": "^ADR-B-(0[1-9]|1[0-3])$"
+    },
+    "stem": {
+      "type": "string",
+      "minLength": 12
+    },
+    "options": {
+      "type": "object",
+      "required": [
+        "A",
+        "B",
+        "C"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "A": {
+          "type": "string",
+          "minLength": 1
+        },
+        "B": {
+          "type": "string",
+          "minLength": 1
+        },
+        "C": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "correct_option": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 25
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "reference",
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reference": {
+            "type": "string",
+            "minLength": 3
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "legal_basis_version": {
+      "type": "string",
+      "minLength": 4
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "needs_review",
+        "verified",
+        "blocked"
+      ]
+    },
+    "checked_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "reviewer": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 2
+    },
+    "image": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
