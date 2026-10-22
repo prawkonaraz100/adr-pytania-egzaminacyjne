@@ -4,11 +4,11 @@
 
 ## Co naprawdę zostało ukończone?
 
-- **146 autorskich pytań** z A/B/C, własnym wyjaśnieniem i referencją do przepisu; **146 needs_review / 0 verified**.
+- **176 autorskich pytań** z A/B/C, własnym wyjaśnieniem i referencją do przepisu; **176 needs_review / 0 verified**.
 - **103/103 kompetencji teoretycznych** ma co najmniej jedno pytanie w wersji roboczej. **0/103** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji ma szkic dydaktyczny** w `podstawowy/lekcje/`. Żadna nie ma jeszcze potwierdzonego odbioru eksperta.
-- Rozkład prawidłowych opcji: A=48, B=49, C=49.
+- Rozkład prawidłowych opcji: A=58, B=60, C=58.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
 
 **Ważne:** 100% pokrycia *tematycznego pytaniami roboczymi* **nie oznacza gotowego kursu ani certyfikatu ADR**. Dla wybranych kompetencji jedno pytanie nie wystarczy do skutecznej nauki; kolejnym zadaniem jest zwiększenie głębokości pokrycia i niezależna kontrola.
@@ -17,20 +17,27 @@
 
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
-| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 11 | 0 | Szkic lekcji |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 15 | 0 | Szkic lekcji |
-| ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 8 | 0 | Szkic lekcji |
-| ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 9 | 0 | Szkic lekcji |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 15 | 0 | Szkic lekcji |
-| ADR-B-06 | Oznakowanie | 9/9 | 0 | 10 | 0 | Szkic lekcji |
+| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 14 | 0 | Szkic lekcji |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 28 | 0 | Szkic lekcji |
+| ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 9 | 0 | Szkic lekcji |
+| ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 10 | 0 | Szkic lekcji |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 20 | 0 | Szkic lekcji |
+| ADR-B-06 | Oznakowanie | 9/9 | 0 | 11 | 0 | Szkic lekcji |
 | ADR-B-07 | Obowiązki uczestników | 6/6 | 0 | 11 | 0 | Szkic lekcji |
-| ADR-B-08 | Wyposażenie | 8/8 | 0 | 13 | 0 | Szkic lekcji |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 13 | 0 | Szkic lekcji |
+| ADR-B-08 | Wyposażenie | 8/8 | 0 | 15 | 0 | Szkic lekcji |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 15 | 0 | Szkic lekcji |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 9 | 0 | Szkic lekcji |
-| ADR-B-11 | Tunele | 7/7 | 0 | 11 | 0 | Szkic lekcji |
+| ADR-B-11 | Tunele | 7/7 | 0 | 12 | 0 | Szkic lekcji |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 9 | 0 | Szkic lekcji |
-| ADR-B-13 | Dokumentacja | 8/8 | 0 | 12 | 0 | Szkic lekcji |
-| **Razem** | | **103/103** | **3** | **146** | **0** | **13 szkiców** |
+| ADR-B-13 | Dokumentacja | 8/8 | 0 | 13 | 0 | Szkic lekcji |
+| **Razem** | | **103/103** | **3** | **176** | **0** | **13 szkiców** |
+
+## Pogłębienie zagadnień po partii 006
+
+- **30 z 70** wcześniej jedno-pytaniowych kompetencji ma teraz co najmniej dwa pytania.
+- **40 z 103** kompetencji teoretycznych nadal ma mniej niż dwa pytania. Jest to informacja o głębokości **szkiców**, nie o ich jakości prawnej.
+- Wszystkie nowe pytania `ADR-B-0147…0176` są w `needs_review`, z matrycą ustępów i ryzyk w [audycie partii 006](AUDYT-PARTIA-006.md).
+- Liczba `verified` nadal wynosi **0**. Żadne pytanie nie zostało dopuszczone do produkcyjnego egzaminu próbnego.
 
 ## Co musi być zrobione przed publikacją
 
