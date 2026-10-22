@@ -14,6 +14,8 @@ Samodzielne testy szkoleniowe i egzamin próbny dla kierowcy przygotowującego s
 - Pełna identyfikowalność: źródło, punkt przepisu, data ostatniej weryfikacji, recenzent, wersja ADR.
 - Wyraźne oznaczenie: „autorskie materiały szkoleniowe”, nigdy „oficjalna baza pytań”, dopóki brak podstaw prawnych.
 - Status zweryfikowany nie może zostać nadany automatycznie tylko dlatego, że rekord przechodzi walidację strukturalną.
+- Eksport produkcyjny wykonuje osobna **bramka udokumentowanego zatwierdzenia**: zgodny zapis `verified`, dokładny skrót treści, prawdziwy recenzent/data i istniejący protokół recenzji. Baza główna może zawierać pytania robocze, ale nigdy nie mogą one trafić do eksportu.
+- Dodatkowo do aktualnego ADR trzeba sprawdzać mające zastosowanie, czasowo ograniczone **umowy wielostronne** (ADR 1.5.1), [rejestr 2026](ODSTEPSTWA-ADR-2026.md).
 
 ## Etapy
 
