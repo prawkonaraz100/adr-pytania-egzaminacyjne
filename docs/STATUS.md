@@ -201,3 +201,10 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - **Ograniczenia**: nie porównano punkt po punkcie 30 rekordów z całym polskim tekstem ogłoszonym i sprostowaniem; nie ma niezależnego specjalisty, podpisów ani dopuszczonych pytań. Raport wstępny nie może być wpisywany do `review/approvals.jsonl`.
 - Wynik Quality Gate na tej gałęzi i status scalenia **do uzupełnienia po faktycznej kontroli PR**. Nie twierdzić PASS bez wyniku CI.
 
+
+## 2026-10-23 — kontrola CI dla partii 30 pytań (PR #18)
+
+- [PR #18](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/18): audyt 30 pytań wg ryzyka i 8 poprawek w banku.
+- [Quality Gate #188](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39867338475) na commicie `827c45c1344858901c686b3a2055f5b92359b4dd`: **completed/success**, wszystkie 6 wymaganych kroków `success` (schemat JSON, unit tests, walidacja pytań, matryca, podobieństwa i raport blokady eksportu).
+- Niezależny odczyt tego samego PR: **216 pytań, 30 unikatowych pozycji w rejestrze kontroli, 8 `edited`, 3 `needs-*`, 19 `preliminary-consistent`**; wszystkie pytania `needs_review`, 0 `verified`, rejestr zatwierdzeń pusty.
+- Ta informacja dokumentuje **PASS dokładnego SHA przed wpisem dokumentacyjnym**, nie jest twierdzeniem, że nowy commit ani scalony `main` uzyskały oddzielny PASS. Zmiana dokumentu wymaga ponownego przebiegu CI.
