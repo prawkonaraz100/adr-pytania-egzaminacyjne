@@ -30,3 +30,12 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Kurs cysterny: nadal **NIE ROZPOCZĘTO**.
 
 **Następny wymagany krok:** pełna kontrola 39 pytań z dokładnym brzmieniem ADR 2025, rozstrzygnięcie wyjątków i niezależna recenzja fachowa; następnie walidator Python i potwierdzony wynik CI.
+
+## 2026-10-22 — kontrola techniczna partii 001 (PR #3)
+
+- Raport QA: `docs/QA-PARTIA-001.md`, PR #3 **merged** jako `125133b21437c1dd913232b7bd6149cabe974772`.
+- GitHub Actions: [Quality Gate run #14](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39828372547), wynik **success** dla commita PR `e90bab7b4b79f549f509231a4b373055cd509628`.
+- Kroki tego uruchomienia: wczytanie repo, konfiguracja Python, składnia JSON schema, testy jednostkowe, walidacja bazy — **success** według danych zadania `structure-and-tests`.
+- Bramka techniczna potwierdza tylko strukturę, a nie poprawność przepisów.
+- Końcowy HEAD po aktualizacji tego pliku może mieć osobny przebieg CI; nie przenosić automatycznie statusu PASS na nowszy commit.
+- Nadal: **39 needs_review, 0 verified** — prawny audyt merytoryczny otwarty w #2.
