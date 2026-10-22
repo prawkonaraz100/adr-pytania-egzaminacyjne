@@ -31,6 +31,7 @@ def analyse(questions, curriculum, release=False):
     draft = verified = 0
     practice = 0
     uncovered = []
+    shallow = []
     gaps = []
     for index, obj in enumerate(objectives, 1):
         if not isinstance(obj, dict):
@@ -62,6 +63,8 @@ def analyse(questions, curriculum, release=False):
         if kind == "practical":
             practice += 1
         else:
+            if len(ids) < 2:
+                shallow.append(oid)
             if not ids:
                 uncovered.append(oid)
             else:
@@ -101,6 +104,7 @@ def analyse(questions, curriculum, release=False):
         "draft_question_coverage": draft,
         "verified_question_coverage": verified,
         "theory_without_questions": uncovered,
+        "theory_with_less_than_two_questions": shallow,
         "theory_without_verified": gaps,
         "questions_unmapped": omitted,
         "question_statuses": dict(Counter(q.get("verification_status", "unknown") for q in qids.values()))
