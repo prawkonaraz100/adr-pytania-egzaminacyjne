@@ -114,3 +114,43 @@ Odczytano pomocniczy **polski tom I ADR 2025** (mirror identycznego układu dzia
 - Podczas dalszej kontroli źródeł nie znaleziono podstaw, aby podmienić udokumentowaną pomocniczą wersję PL bez zestawienia z tekstem ogłoszonym. Dokumentujemy stopień pewności zamiast sztucznie przypisywać `verified`.
 
 **Wynik redakcyjnego przeglądu przepisów całej partii:** 39/39 z przypisanym źródłem i odnotowaną kontrolą tekstu lub jednostki przepisów, **0 zatwierdzonych przez niezależnego recenzenta**, 39 `needs_review`.
+
+## Partia 002 — mapa kontroli 31 nowych pytań (0040–0070)
+
+Wszystkie pozycje opracowano autorsko na podstawie wskazanych jednostek ADR 2025. Przy kontroli korzystano z pomocniczych polskich tekstów tomów I/II 2025 oraz z oficjalnego ogłoszenia jako nadrzędnej podstawy prawnej. **Niniejsza tabela jest listą kontroli**, a nie poświadczeniem eksperta ADR lub dowodem, że treść została już przez niego zaakceptowana.
+
+| ID | Moduł | Przepis do ponownego odczytu | Najważniejsze ryzyko | Status |
+|---|---|---|---|---|
+| ADR-B-0040 | ADR-B-01 | ADR 2025, 1.3.1 | Zakres zastosowania szkolenia do konkretnej roli | needs_review |
+| ADR-B-0041 | ADR-B-01 | ADR 2025, 1.3.2.4 | Zakres zastosowania szkolenia do konkretnej roli | needs_review |
+| ADR-B-0042 | ADR-B-02 | ADR 2025, 2.2.2.1.1 | Definicja klasy i rodzaj dodatkowego zagrożenia | needs_review |
+| ADR-B-0043 | ADR-B-02 | ADR 2025, 2.2.62.1.1 | Definicja klasy i rodzaj dodatkowego zagrożenia | needs_review |
+| ADR-B-0044 | ADR-B-02 | ADR 2025, 2.2.51.1.1 | Definicja klasy i rodzaj dodatkowego zagrożenia | needs_review |
+| ADR-B-0045 | ADR-B-03 | ADR 2025, 5.2.1.8 | Zastosowanie oznakowania i wyjątki dla odpadów | needs_review |
+| ADR-B-0046 | ADR-B-03 | ADR 2025, 5.4.1.1.1 (a); 5.4.1.1.3.1 | Zastosowanie oznakowania i wyjątki dla odpadów | needs_review |
+| ADR-B-0047 | ADR-B-04 | ADR 2025, 8.3.6 | Zakazy i wyjątki pracy silnika | needs_review |
+| ADR-B-0048 | ADR-B-04 | ADR 2025, 8.3.3 | Zakazy i wyjątki pracy silnika | needs_review |
+| ADR-B-0049 | ADR-B-05 | ADR 2025, 5.4.3.3 | Dostępność i język instrukcji | needs_review |
+| ADR-B-0050 | ADR-B-05 | ADR 2025, 5.4.3.2 | Dostępność i język instrukcji | needs_review |
+| ADR-B-0051 | ADR-B-06 | ADR 2025, 5.3.2.3.1 | Znaczenie cyfry i rodzaju tablicy | needs_review |
+| ADR-B-0052 | ADR-B-06 | ADR 2025, 5.3.2.2.2 | Znaczenie cyfry i rodzaju tablicy | needs_review |
+| ADR-B-0053 | ADR-B-06 | ADR 2025, 5.3.2.3.1 | Znaczenie cyfry i rodzaju tablicy | needs_review |
+| ADR-B-0054 | ADR-B-07 | ADR 2025, 1.4.3.1.1 (b) | Obowiązki konkretnego uczestnika przewozu | needs_review |
+| ADR-B-0055 | ADR-B-07 | ADR 2025, 1.4.2.1.1 | Obowiązki konkretnego uczestnika przewozu | needs_review |
+| ADR-B-0056 | ADR-B-08 | ADR 2025, 8.1.5.2 | Warunki stosowania listy wyposażenia | needs_review |
+| ADR-B-0057 | ADR-B-08 | ADR 2025, 8.1.5.2 | Warunki stosowania listy wyposażenia | needs_review |
+| ADR-B-0058 | ADR-B-09 | ADR 2025, 7.5.1.5 | Szczególne wymagania pakowania/mocowania | needs_review |
+| ADR-B-0059 | ADR-B-09 | ADR 2025, 7.5.7.2 | Szczególne wymagania pakowania/mocowania | needs_review |
+| ADR-B-0060 | ADR-B-09 | ADR 2025, 7.5.7.1 | Szczególne wymagania pakowania/mocowania | needs_review |
+| ADR-B-0061 | ADR-B-10 | ADR 2025, 5.4.1.1.7 | Warunki przewozu morsko-drogowego i dokumentacji | needs_review |
+| ADR-B-0062 | ADR-B-10 | ADR 2025, 1.1.4.2 | Warunki przewozu morsko-drogowego i dokumentacji | needs_review |
+| ADR-B-0063 | ADR-B-11 | ADR 2025, 8.6.3.1 | Kody, wyjątki oraz rodzaj jednostki transportowej | needs_review |
+| ADR-B-0064 | ADR-B-11 | ADR 2025, 8.6.3.2 | Kody, wyjątki oraz rodzaj jednostki transportowej | needs_review |
+| ADR-B-0065 | ADR-B-11 | ADR 2025, 8.6.3.1 | Kody, wyjątki oraz rodzaj jednostki transportowej | needs_review |
+| ADR-B-0066 | ADR-B-12 | ADR 2025, 1.10.1.3 | Zakres ochrony i identyfikacji załogi | needs_review |
+| ADR-B-0067 | ADR-B-12 | ADR 2025, 1.10.1.4 | Zakres ochrony i identyfikacji załogi | needs_review |
+| ADR-B-0068 | ADR-B-13 | ADR 2025, 5.4.1.1.1 (h) | Wyjątki w dokumentowaniu przewozu | needs_review |
+| ADR-B-0069 | ADR-B-13 | ADR 2025, 5.4.1.1.1 (e) | Wyjątki w dokumentowaniu przewozu | needs_review |
+| ADR-B-0070 | ADR-B-13 | ADR 2025, 5.4.1.1.1 (f) | Wyjątki w dokumentowaniu przewozu | needs_review |
+
+**Kontrola struktury 22.10.2026:** 70 zapisanych rekordów, wszystkie 13 działów mają pytania; brak identycznych treści i powielonych ID w odczycie JSONL. Przed dopuszczeniem do symulatora 30 pytań wymagana jest niezależna recenzja zgodności prawnej oraz osobny PASS walidatora Python / GitHub Actions dla commita zawierającego tę partię.
