@@ -100,7 +100,15 @@ def eligible(records, approvals, root, minimum=30):
             errors.append(f"{ident}: duplicate approval entry")
         else:
             approved[ident] = a
-    questions = {q.get("id"): q for q in records if isinstance(q.get("id"), str)}
+    questions = {}
+    for q in records:
+        ident = q.get("id")
+        if not isinstance(ident, str):
+            errors.append("question record without valid string ID")
+        elif ident in questions:
+            errors.append(f"{ident}: duplicate question ID")
+        else:
+            questions[ident] = q
     for ident in sorted(set(approved) - set(questions)):
         errors.append(f"{ident}: approval for absent question")
     results = []
