@@ -69,6 +69,33 @@ class ValidatorTests(unittest.TestCase):
             errors, _ = validate_file(p)
             self.assertTrue(any("zduplikowane id" in x for x in errors))
 
+    def test_highly_skewed_key_distribution_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / "questions.jsonl"
+            records = []
+            for i in range(30):
+                q = question()
+                q["id"] = f"ADR-B-{i+1:04d}"
+                q["stem"] = f"Czy to pytanie treningowe jest numerem {i+1} w bazie?"
+                records.append(json.dumps(q, ensure_ascii=False))
+            p.write_text("\n".join(records) + "\n", encoding="utf-8")
+            errors, _ = validate_file(p)
+            self.assertTrue(any("zbyt często" in x for x in errors))
+
+    def test_balanced_key_distribution_passes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / "questions.jsonl"
+            records = []
+            for i in range(30):
+                q = question()
+                q["id"] = f"ADR-B-{i+1:04d}"
+                q["stem"] = f"Czy to pytanie treningowe jest numerem {i+1} w bazie?"
+                q["correct_option"] = "ABC"[i % 3]
+                records.append(json.dumps(q, ensure_ascii=False))
+            p.write_text("\n".join(records) + "\n", encoding="utf-8")
+            errors, _ = validate_file(p)
+            self.assertEqual(errors, [])
+
     def test_empty_working_dataset_passes_but_release_fails(self):
         with tempfile.TemporaryDirectory() as tmp:
             p = Path(tmp) / "questions.jsonl"

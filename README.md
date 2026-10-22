@@ -15,12 +15,12 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [x] Zidentyfikowano zasady państwowego egzaminu podstawowego: 30 pytań, 60 minut, próg 20 poprawnych odpowiedzi.
 - [x] Wstępna mapa punktów ADR 2025 dla 13 tematów (do kontroli pełnego tekstu).
 - [ ] Kompletny przegląd punktów ADR 2025 oraz aktów krajowych dla 13 tematów.
-- [x] Dwie partie autorskich pytań: 39 + 31 = 70 w statusie needs_review (każdy z 13 działów jest pokryty).
+- [x] Trzy partie autorskich pytań: 39 + 31 + 20 = 90 w statusie needs_review (13/13 działów); poprawiono też 22 zestawy dystraktorów.
 - [ ] Autorska baza pytań po weryfikacji merytorycznej.
 - [ ] Egzaminy próbne, ilustracje i pełny Quality Gate.
 - [ ] Kurs specjalistyczny „cysterny”.
 
-**Uwaga:** obecnie w banku jest **70 pytań w statusie needs_review i 0 zatwierdzonych**. Wynik kontroli źródła przez autora nie zastępuje podpisu niezależnego recenzenta ADR. Nie przedstawiamy pytań autorskich ani z komercyjnych testów jako oficjalnych pytań egzaminacyjnych. Publicznego kompletnego katalogu pytań państwowych nie potwierdzono.
+**Uwaga:** obecnie w banku jest **90 pytań w statusie needs_review i 0 zatwierdzonych**. Wynik kontroli źródła przez autora nie zastępuje podpisu niezależnego recenzenta ADR. Nie przedstawiamy pytań autorskich ani z komercyjnych testów jako oficjalnych pytań egzaminacyjnych. Publicznego kompletnego katalogu pytań państwowych nie potwierdzono.
 
 ## Jak pracujemy
 
@@ -40,6 +40,7 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [Standard pytań i publikacji](docs/STANDARD-PYTAN.md)
 - [Stan prac i rejestr decyzji](docs/STATUS.md)
 - [Audyt 39 pytań i uzupełnienie 15 wcześniejszych pozycji](docs/AUDYT-MERYTORYCZNY-PARTIA-001.md)
+- [Audyt partii 003: 20 pytań sytuacyjnych i kontrola odpowiedzi](docs/AUDYT-PARTIA-003.md)
 
 ## Dane i narzędzia
 

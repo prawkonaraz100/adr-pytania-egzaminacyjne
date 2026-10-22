@@ -71,3 +71,14 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Ponownie odczytano dane z `main`: **70 rekordów**, 13/13 modułów, **70 needs_review, 0 verified**; poprawki i audyt partii 002 są widoczne.
 - Nie przypisujemy sukcesu z PR do najnowszego HEAD `main`, gdyż dla końcowego commita po aktualizacjach dokumentacji wynik osobnego CI nie został potwierdzony.
 - Bramka merytoryczna **OPEN**: niezależna recenzja eksperta, ocena wyjątków i dopuszczenie do produkcji nadal niewykonane.
+
+## 2026-10-22 — partia 003 / jakość egzaminu
+
+- W gałęzi `authoring/batch-003-realistic-tests` dodano 20 autorskich pytań scenariuszowych `ADR-B-0071...0090` (gaśnice, środki ochrony, załadunek, tunele, dokumentacja).
+- Zmieniono 22 zestawy błędnych odpowiedzi, aby były merytorycznie wiarygodne i miały wartość dydaktyczną. To **nie** zastępuje eksperckiej weryfikacji.
+- W całej bazie 90 pytań poprawna odpowiedź miała początkowo rozkład A=57/B=24/C=9; po zmianach układu wariantów rozkład A=30/B=30/C=30. Zachowano znaczenie poprawnych odpowiedzi.
+- Dodano kontrolę odrzucającą rozkład klucza >55% jednej litery w bankach liczących co najmniej 30 pytań, wraz z testami.
+- Skorygowano pytanie `ADR-B-0085`, żeby uwzględniało wyjątek 8.6.3.3 związany z 3.4.13 i 3.4.14.
+- Stworzono `docs/AUDYT-PARTIA-003.md` z tabelą ID→przepis→ryzyko i źródłami.
+- Stan banku w tej gałęzi: **90 needs_review, 0 verified**. Ekspercka recenzja nadal wymagana.
+- Formalna kontrola CI dla tej gałęzi/PR: **oczekuje na odczyt**.
