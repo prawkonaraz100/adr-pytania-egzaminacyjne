@@ -81,3 +81,76 @@ Przeprowadzono porównanie wszystkich 39 autorskich pytań ze znanymi punktami A
 - [ ] Dopiero później zmienić statusy w JSONL na `verified` i przygotować 30-pytaniowe egzaminy próbne.
 
 Wynik tej kontroli: 24 pozycji z kontrolą treściową w zewnętrznym źródle, 15 pozycji do pełnego sprawdzenia; **39 needs_review, 0 verified**.
+
+## Druga kontrola źródłowa — 22.10.2026, dalsze 15 pozycji
+
+Odczytano pomocniczy **polski tom I ADR 2025** (mirror identycznego układu działów, https://safestep.com.pl/wp-content/uploads/2025/02/ADR-tom-I-2025-SafeStep.pdf) oraz **polski tom II ADR 2025 udostępniony przez MI** (https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8). Ustępy 5.3.2, 5.4.1, 7.5.2, 7.5.7 i 8.6.4 odczytano w polskim brzmieniu; przy opracowaniu pytań wykorzystano także rozdziały 1.3, 1.4, 2.2 i 8.2.
+
+**Status tej kontroli:** dla wszystkich wcześniejszych 15 otwartych ID ustalono konkretną jednostkę i zgodność tezy z przepisem na poziomie redakcyjnego przeglądu źródła. Nie jest to niezależna recenzja prawna. Podstawę dla Polski nadal stanowi oficjalne ogłoszenie Dz.U. 2025 poz. 642 ze sprostowaniem poz. 1575; pomocniczy PDF to narzędzie do odszukania treści.
+
+| ID | Zweryfikowany punkt i miejsce | Wynik drugiego przeglądu |
+|---|---|---|
+| ADR-B-0001 | 1.3.1, 1.3.2; tom I PL 2025, s. 37 | Skorygowano: przeszkolenie osoby zatrudnionej u nadawcy; nie mylić ze szkoleniem kierowcy z działu 8.2. |
+| ADR-B-0002 | 1.1.3 oraz 1.1.3.6; tom I PL 2025, s. 6–12 | Wyłączenia obejmują określone warunki i nie oznaczają automatycznego wyłączenia wszystkich obowiązków. |
+| ADR-B-0003 | 8.2.1 i 8.2.2; tom II PL 2025, dział 8.2 | Zaświadczenie kierowcy nie zastępuje prawa jazdy, uprawnień ani dokumentacji przewozowej. |
+| ADR-B-0004 | 2.2.3.1.1; tom I PL 2025, s. 148 | Klasa 3 = materiały zapalne ciekłe. Dla konkretnych produktów należy sprawdzić numer UN i parametry. |
+| ADR-B-0005 | 2.2.8.1.1; tom I PL 2025, s. 247 | Klasa 8 = materiały żrące. Należy odróżniać od innych klas i zagrożeń dodatkowych. |
+| ADR-B-0016 | 5.3.2.2.2; tom II PL 2025, s. 250–251 | Numer UN zajmuje dolną część numerowanej pomarańczowej tablicy. |
+| ADR-B-0017 | 5.3.2.3.1; tom II PL 2025, s. 251 | X oznacza niebezpieczną reakcję z wodą; woda tylko za zgodą specjalistów. Wyjaśnienie poprawiono. |
+| ADR-B-0018 | 5.3.2.2.1 i 5.3.2.2.4; tom II PL 2025, s. 250–251 | Standard 400 × 300 mm; tolerancja 10% i wariant zmniejszony w określonych warunkach. |
+| ADR-B-0020 | 1.4.3.1.1 (b); tom I PL 2025, s. 40 | Załadowca nie przekazuje przeciekającego uszkodzonego opakowania przed usunięciem uszkodzenia. |
+| ADR-B-0021 | 1.4.2.1.1 (a); tom I PL 2025, s. 38 | Prawidłowa klasyfikacja materiału jest obowiązkiem nadawcy w ramach 1.4.2. |
+| ADR-B-0025 | 7.5.2.1; tom II PL 2025, s. 600–601 | Odpowiedź doprecyzowano do reguł tabeli dopuszczalności ładunku mieszanego. |
+| ADR-B-0026 | 7.5.7.1; tom II PL 2025, s. 603–604 | Mocowanie ma zapobiegać przemieszczeniu i uszkodzeniu; pasy nie mogą nadmiernie odkształcać opakowań. |
+| ADR-B-0032 | 8.6.3 i 8.6.4; tom II PL 2025, s. 633–635 | Kod E to zakaz tunelu E, ale dopiero dla przewozu objętego mechanizmem 8.6.4; pytanie i wyjaśnienie uściślono. |
+| ADR-B-0037 | 5.4.1.1.1 (a); tom II PL 2025, s. 256–257 | W dokumencie przewozowym numer UN powinien być poprzedzony literami UN. |
+| ADR-B-0038 | 5.4.1.1.1 (b); tom II PL 2025, s. 256–257 | Prawidłowa nazwa przewozowa jest obowiązkowym elementem dokumentu przewozowego, z uzupełnieniami zależnymi od towaru. |
+
+### Zastrzeżenia przed finalną akceptacją
+
+- `needs_review` **pozostaje dla wszystkich 39 pytań** — wymagana niezależna kontrola specjalisty ADR, bez przypisywania mu fikcyjnego podpisu ani daty.
+- Sprostowanie Dz.U. poz. 1575 uwzględnić także przy przyszłych tematach i pytaniach opartych na tabeli A.
+- Dla pytań o zwolnienia, ładunek mieszany i tunele należy w wydaniu produkcyjnym sprawdzić warunki dla konkretnej przesyłki oraz aktualne odstępstwa.
+- Podczas dalszej kontroli źródeł nie znaleziono podstaw, aby podmienić udokumentowaną pomocniczą wersję PL bez zestawienia z tekstem ogłoszonym. Dokumentujemy stopień pewności zamiast sztucznie przypisywać `verified`.
+
+**Wynik redakcyjnego przeglądu przepisów całej partii:** 39/39 z przypisanym źródłem i odnotowaną kontrolą tekstu lub jednostki przepisów, **0 zatwierdzonych przez niezależnego recenzenta**, 39 `needs_review`.
+
+## Partia 002 — mapa kontroli 31 nowych pytań (0040–0070)
+
+Wszystkie pozycje opracowano autorsko na podstawie wskazanych jednostek ADR 2025. Przy kontroli korzystano z pomocniczych polskich tekstów tomów I/II 2025 oraz z oficjalnego ogłoszenia jako nadrzędnej podstawy prawnej. **Niniejsza tabela jest listą kontroli**, a nie poświadczeniem eksperta ADR lub dowodem, że treść została już przez niego zaakceptowana.
+
+| ID | Moduł | Przepis do ponownego odczytu | Najważniejsze ryzyko | Status |
+|---|---|---|---|---|
+| ADR-B-0040 | ADR-B-01 | ADR 2025, 1.3.1 | Zakres zastosowania szkolenia do konkretnej roli | needs_review |
+| ADR-B-0041 | ADR-B-01 | ADR 2025, 1.3.2.4 | Zakres zastosowania szkolenia do konkretnej roli | needs_review |
+| ADR-B-0042 | ADR-B-02 | ADR 2025, 2.2.2.1.1 | Definicja klasy i rodzaj dodatkowego zagrożenia | needs_review |
+| ADR-B-0043 | ADR-B-02 | ADR 2025, 2.2.62.1.1 | Definicja klasy i rodzaj dodatkowego zagrożenia | needs_review |
+| ADR-B-0044 | ADR-B-02 | ADR 2025, 2.2.51.1.1 | Definicja klasy i rodzaj dodatkowego zagrożenia | needs_review |
+| ADR-B-0045 | ADR-B-03 | ADR 2025, 5.2.1.8 | Zastosowanie oznakowania i wyjątki dla odpadów | needs_review |
+| ADR-B-0046 | ADR-B-03 | ADR 2025, 5.4.1.1.1 (a); 5.4.1.1.3.1 | Zastosowanie oznakowania i wyjątki dla odpadów | needs_review |
+| ADR-B-0047 | ADR-B-04 | ADR 2025, 8.3.6 | Zakazy i wyjątki pracy silnika | needs_review |
+| ADR-B-0048 | ADR-B-04 | ADR 2025, 8.3.3 | Zakazy i wyjątki pracy silnika | needs_review |
+| ADR-B-0049 | ADR-B-05 | ADR 2025, 5.4.3.3 | Dostępność i język instrukcji | needs_review |
+| ADR-B-0050 | ADR-B-05 | ADR 2025, 5.4.3.2 | Dostępność i język instrukcji | needs_review |
+| ADR-B-0051 | ADR-B-06 | ADR 2025, 5.3.2.3.1 | Znaczenie cyfry i rodzaju tablicy | needs_review |
+| ADR-B-0052 | ADR-B-06 | ADR 2025, 5.3.2.2.2 | Znaczenie cyfry i rodzaju tablicy | needs_review |
+| ADR-B-0053 | ADR-B-06 | ADR 2025, 5.3.2.3.1 | Znaczenie cyfry i rodzaju tablicy | needs_review |
+| ADR-B-0054 | ADR-B-07 | ADR 2025, 1.4.3.1.1 (b) | Obowiązki konkretnego uczestnika przewozu | needs_review |
+| ADR-B-0055 | ADR-B-07 | ADR 2025, 1.4.2.1.1 | Obowiązki konkretnego uczestnika przewozu | needs_review |
+| ADR-B-0056 | ADR-B-08 | ADR 2025, 8.1.5.2 | Warunki stosowania listy wyposażenia | needs_review |
+| ADR-B-0057 | ADR-B-08 | ADR 2025, 8.1.5.2 | Warunki stosowania listy wyposażenia | needs_review |
+| ADR-B-0058 | ADR-B-09 | ADR 2025, 7.5.1.5 | Szczególne wymagania pakowania/mocowania | needs_review |
+| ADR-B-0059 | ADR-B-09 | ADR 2025, 7.5.7.2 | Szczególne wymagania pakowania/mocowania | needs_review |
+| ADR-B-0060 | ADR-B-09 | ADR 2025, 7.5.7.1 | Szczególne wymagania pakowania/mocowania | needs_review |
+| ADR-B-0061 | ADR-B-10 | ADR 2025, 5.4.1.1.7 | Warunki przewozu morsko-drogowego i dokumentacji | needs_review |
+| ADR-B-0062 | ADR-B-10 | ADR 2025, 1.1.4.2 | Warunki przewozu morsko-drogowego i dokumentacji | needs_review |
+| ADR-B-0063 | ADR-B-11 | ADR 2025, 8.6.3.1 | Kody, wyjątki oraz rodzaj jednostki transportowej | needs_review |
+| ADR-B-0064 | ADR-B-11 | ADR 2025, 8.6.3.2 | Kody, wyjątki oraz rodzaj jednostki transportowej | needs_review |
+| ADR-B-0065 | ADR-B-11 | ADR 2025, 8.6.3.1 | Kody, wyjątki oraz rodzaj jednostki transportowej | needs_review |
+| ADR-B-0066 | ADR-B-12 | ADR 2025, 1.10.1.3 | Zakres ochrony i identyfikacji załogi | needs_review |
+| ADR-B-0067 | ADR-B-12 | ADR 2025, 1.10.1.4 | Zakres ochrony i identyfikacji załogi | needs_review |
+| ADR-B-0068 | ADR-B-13 | ADR 2025, 5.4.1.1.1 (h) | Wyjątki w dokumentowaniu przewozu | needs_review |
+| ADR-B-0069 | ADR-B-13 | ADR 2025, 5.4.1.1.1 (e) | Wyjątki w dokumentowaniu przewozu | needs_review |
+| ADR-B-0070 | ADR-B-13 | ADR 2025, 5.4.1.1.1 (f) | Wyjątki w dokumentowaniu przewozu | needs_review |
+
+**Kontrola struktury 22.10.2026:** 70 zapisanych rekordów, wszystkie 13 działów mają pytania; brak identycznych treści i powielonych ID w odczycie JSONL. Przed dopuszczeniem do symulatora 30 pytań wymagana jest niezależna recenzja zgodności prawnej oraz osobny PASS walidatora Python / GitHub Actions dla commita zawierającego tę partię.

@@ -49,3 +49,16 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Linki prawne do 39 pytań kierują teraz do stabilnej strony oficjalnego ogłoszenia (Dz.U. 2025 poz. 642), a wskazanie punktu pozostaje w `reference`.
 - Statusy pozostają: **39 needs_review / 0 verified**; brak niezależnego eksperta ADR i pełnego audytu każdego pkt PL.
 - Bramka merytoryczna nadal **OPEN**; techniczną sprawdzić na PR i HEAD po scaleniu.
+
+## 2026-10-22 — partia 002 i zamknięcie redakcyjnej luki 15/15
+
+- Dodano **31 nowych autorskich pytań** ADR-B-0040…ADR-B-0070 (każde 3 odpowiedzi, klucz, proste wyjaśnienie, punkt ADR 2025).
+- Bank po tej zmianie: **70 pytań**; moduły: 01=5, 02=6, 03=5, 04=5, 05=5, 06=6, 07=5, 08=5, 09=6, 10=5, 11=6, 12=5, 13=6.
+- **70 needs_review, 0 verified** — żadnego wpisu nie zatwierdził niezależny recenzent ADR.
+- Uzupełniono `docs/AUDYT-MERYTORYCZNY-PARTIA-001.md` o konkretne adresy źródłowe dla wcześniejszych 15 nierozstrzygniętych pozycji. Jest to **kontrola redakcyjna**, nie poświadczenie przez eksperta.
+- Skorygowano #0001 i #0002, aby nie mylić wymagań dla pracowników nadawcy z odrębnym szkoleniem kierowcy i nie sugerować ogólnego zwolnienia z całego ADR; uściślono #0017, #0025 i #0032.
+- Niezależny od walidatora Python odczyt JSONL z gałęzi: **70 rekordów, 13 tematów, brak powielonych ID/identycznych pytań, poprawna struktura A/B/C, 0 błędów**.
+- Wynik formalnego Quality Gate w GitHub Actions: **do odczytu na PR** przed scaleniem.
+- Do ukończenia: udokumentowana niezależna kontrola ekspert ADR dla 70 pytań oraz potwierdzenie pełnego, ostatecznego jakościowego statusu po ewentualnym merge; nie udostępniać w produkcji.
+
+**Następny krok:** audyt merytoryczny partii 002 per ID, usuwanie pytań niemiarodajnych, pokrywanie brakujących scenariuszy i profesjonalna recenzja. Cysterny pozostają poza aktywnym zakresem.
