@@ -123,6 +123,7 @@ def validate_record(record, seen_ids=None, seen_stems=None):
 def validate_file(path, release=False):
     seen_ids, seen_stems = set(), set()
     counts = Counter()
+    correct_choices = Counter()
     modules = set()
     errors = []
     with open(path, encoding="utf-8") as handle:
@@ -137,12 +138,19 @@ def validate_file(path, release=False):
             for msg in validate_record(record, seen_ids, seen_stems):
                 errors.append(f"linia {line_no}: {msg}")
             if isinstance(record, dict):
+                choice = record.get("correct_option")
+                if isinstance(choice, str) and choice in {"A", "B", "C"}:
+                    correct_choices[choice] += 1
                 status = record.get("verification_status")
                 counts[status if isinstance(status, str) else "unknown"] += 1
                 if record.get("verification_status") == "verified":
                     module_id = record.get("module_id")
                     if isinstance(module_id, str):
                         modules.add(module_id)
+    # Niezależna kontrola rozkładu odpowiedzi: nie pozwalamy trenować zgadywania litery.
+    total_choices = sum(correct_choices.values())
+    if total_choices >= 30 and max(correct_choices.values(), default=0) / total_choices > 0.55:
+        errors.append("bank: poprawna odpowiedź jest zbyt często pod jedną literą A/B/C (>55%)")
     if release:
         if counts["verified"] < 30:
             errors.append("release: wymagane co najmniej 30 verified")
