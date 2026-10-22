@@ -96,3 +96,14 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - **Jest to wersja robocza.** Formalna weryfikacja prawna każdej odpowiedzi, odbiór instruktora, pełny zestaw wizualizacji i materiały do prowadzenia zajęć praktycznych nie zostały wykonane.
 - Dalsze czynności: sprawdzić CI na PR, następnie przygotować brakujące 19 kompetencji i lekcje; cysterny pozostają kolejnym etapem.
 
+
+## 2026-10-22 — potwierdzony wynik CI i merge etapu kompetencji (PR #9)
+
+- [PR #9](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/9) scalony do `main`, commit `8d8f9ac923129cfaa7be80b65ffa570e61b0ae2d`.
+- **Pierwszy run #67** wykrył błąd opisu celu `ADR-B-11-K05` („Kod (-)” za krótki). Nie oznaczono kroku jako PASS; poprawiono tytuł kompetencji i odporność walidatora na błędne typy.
+- [Quality Gate #71](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39843032931) na PR #9: `completed/success`; wszystkie kroki (schemat JSON, testy jednostkowe, walidacja banku i walidacja mapy kompetencji) `success`.
+- Po scaleniu odczytano rzeczywiste dane na `main`: **122 pytania**, **122 needs_review**, **0 verified**, A/B/C = 40/41/41, **106 kompetencji**, **19 brakujących celów teorii**, **3 cele praktyczne**.
+- Statusy merytoryczne pozostają otwarte; kompletny bank zatwierdzonych pytań ani formalny kurs nie został ukończony.
+- [Issue #10](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/issues/10) zawiera listę 19 luk, 10 brakujących lekcji i plan ćwiczeń.
+- **Uwaga:** sukces PR nie jest automatycznie potwierdzeniem niezależnego przebiegu Actions dla każdego nowszego commita gałęzi `main`. Szczegółowo zarejestrowano dokładny SHA oraz numer uruchomienia.
+
