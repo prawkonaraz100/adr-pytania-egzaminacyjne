@@ -30,7 +30,7 @@ def fixtures(root, n=39):
     records = [fixture_record(i) for i in range(1, n + 1)]
     approvals = []
     reports = root / "review" / "reports"
-    reports.mkdir(parents=True)
+    reports.mkdir(parents=True, exist_ok=True)
     for row in records:
         location = f"review/reports/{row['id']}.md"
         (root / location).write_text(
