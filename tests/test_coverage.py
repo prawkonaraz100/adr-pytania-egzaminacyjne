@@ -34,6 +34,21 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(report["draft_question_coverage"], 13)
         self.assertEqual(report["verified_question_coverage"], 0)
 
+    def test_depth_metric_counts_only_competencies_with_less_than_two_drafts(self):
+        questions, curriculum = sample()
+        errors, report = analyse(questions, curriculum)
+        self.assertEqual(errors, [])
+        self.assertEqual(len(report["theory_with_less_than_two_questions"]), 13)
+        questions.append({
+            "id": "ADR-B-0099", "module_id": "ADR-B-01",
+            "verification_status": "needs_review"
+        })
+        curriculum["competencies"][0]["question_ids"].append("ADR-B-0099")
+        errors, report = analyse(questions, curriculum)
+        self.assertEqual(errors, [])
+        self.assertEqual(len(report["theory_with_less_than_two_questions"]), 12)
+        self.assertEqual(report["verified_question_coverage"], 0)
+
     def test_unmapped_question_is_error(self):
         questions, curriculum = sample()
         curriculum["competencies"][0]["question_ids"] = []
