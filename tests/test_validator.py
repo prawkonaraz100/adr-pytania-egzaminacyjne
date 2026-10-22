@@ -55,6 +55,12 @@ class ValidatorTests(unittest.TestCase):
         q["reviewer"] = "ekspert-testowy"
         self.assertEqual(validate_record(q), [])
 
+    def test_unexpected_types_are_reported_not_crashing(self):
+        q = question()
+        q["module_id"] = []
+        q["verification_status"] = {"x": 1}
+        self.assertTrue(validate_record(q))
+
     def test_duplicate_ids_in_file_fail(self):
         with tempfile.TemporaryDirectory() as tmp:
             p = Path(tmp) / "questions.jsonl"
