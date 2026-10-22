@@ -15,12 +15,12 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [x] Zidentyfikowano zasady państwowego egzaminu podstawowego: 30 pytań, 60 minut, próg 20 poprawnych odpowiedzi.
 - [x] Wstępna mapa punktów ADR 2025 dla 13 tematów (do kontroli pełnego tekstu).
 - [ ] Kompletny przegląd punktów ADR 2025 oraz aktów krajowych dla 13 tematów.
-- [x] Pięć partii autorskich pytań: 39 + 31 + 20 + 32 + 24 = 146 w statusie needs_review; 103/103 celów teorii ma co najmniej jeden szkic pytania, osobno 3 cele praktyczne.
+- [x] Sześć partii autorskich pytań: 39 + 31 + 20 + 32 + 24 + 30 = 176 w statusie needs_review; wszystkie 103 cele teorii mają szkic, 40 nadal ma mniej niż dwa pytania; osobno 3 cele praktyczne.
 - [ ] Autorska baza pytań po weryfikacji merytorycznej.
 - [ ] Egzaminy próbne, ilustracje i pełny Quality Gate.
 - [ ] Kurs specjalistyczny „cysterny”.
 
-**Uwaga:** obecnie w banku jest **146 pytań w statusie needs_review i 0 zatwierdzonych**. 103/103 zagadnień teoretycznych ma co najmniej jeden szkic pytania; wszystkie 13 lekcji to szkice do recenzji. Wynik kontroli źródła przez autora nie zastępuje podpisu niezależnego recenzenta ADR. Nie przedstawiamy pytań autorskich ani z komercyjnych testów jako oficjalnych pytań egzaminacyjnych. Publicznego kompletnego katalogu pytań państwowych nie potwierdzono.
+**Uwaga:** obecnie w banku jest **176 pytań w statusie needs_review i 0 zatwierdzonych**. 103/103 zagadnień teoretycznych ma co najmniej jeden szkic pytania; wszystkie 13 lekcji to szkice do recenzji. Wynik kontroli źródła przez autora nie zastępuje podpisu niezależnego recenzenta ADR. Nie przedstawiamy pytań autorskich ani z komercyjnych testów jako oficjalnych pytań egzaminacyjnych. Publicznego kompletnego katalogu pytań państwowych nie potwierdzono.
 
 ## Jak pracujemy
 
@@ -43,6 +43,7 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [Audyt partii 003: 20 pytań sytuacyjnych i kontrola odpowiedzi](docs/AUDYT-PARTIA-003.md)
 - [Pokrycie 106 kompetencji, luki i materiały praktyczne](docs/POKRYCIE-KURSU.md)
 - [Audyt partii 005: 24 pytania zamykające luki tematyczne](docs/AUDYT-PARTIA-005.md)
+- [Audyt partii 006: 30 pytań sytuacyjnych pogłębiających 30 celów](docs/AUDYT-PARTIA-006.md)
 - [Scenariusze ćwiczeń praktycznych](podstawowy/praktyka/SCENARIUSZE.md)
 - [Matryca kompetencji JSON](podstawowy/kompetencje.json)
 
