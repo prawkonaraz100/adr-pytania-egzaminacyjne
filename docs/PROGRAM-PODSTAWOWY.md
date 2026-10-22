@@ -38,3 +38,9 @@ Ten dokument opisuje **kurs początkowy podstawowy**. Kurs doskonalący podstawo
 ## Ćwiczenia praktyczne
 
 Program wymaga ćwiczeń m.in. z pierwszej pomocy, gaszenia pożaru i postępowania w zdarzeniu/wypadku. Pytania mogą utrwalać zasady, ale sama baza pytań **nie zastępuje kursu praktycznego**.
+
+## Dodatkowa matryca kompetencji
+
+Szczegółowe wymagania rozpisano na **106 roboczych kompetencji** (`podstawowy/kompetencje.json`), w tym 3 dotyczące praktyki. Jest to nasz podział redakcyjny; w urzędowym programie pozostaje 13 punktów a–m. Status pokrycia: [POKRYCIE-KURSU.md](POKRYCIE-KURSU.md).
+
+**Praktyka nie jest testem on-line:** załącznik nr 1 część 3 wymaga ćwiczeń z gaśnicą, pierwszej pomocy i postępowania przy wypadku/awarii. Materiały mogą pomagać się przygotować, ale nie poświadczają obecności ani nabycia umiejętności.
