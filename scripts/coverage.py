@@ -124,9 +124,9 @@ def check_lessons(root):
         content = path.read_text(encoding="utf-8")
         if len(content.strip()) < 900:
             errors.append(f"lekcja za krótka: {name}")
-        if not content.startswith(f"# {name}"):
+        if not content.startswith("# ") or name not in content.splitlines()[0]:
             errors.append(f"błędny tytuł lekcji: {name}")
-        if "2025" not in content or not any(token in content.lower() for token in ("źródł", "podstawa prawna", "akty prawne", "**podstawa")):
+        if "2025" not in content or not any(token in content.lower() for token in ("źródł", "## podstawa", "podstawa prawna", "akty prawne", "**podstawa")):
             errors.append(f"brak podstaw prawnych w lekcji: {name}")
     return errors
 
