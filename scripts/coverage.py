@@ -55,7 +55,7 @@ def analyse(questions, curriculum, release=False):
         if kind not in ("theory", "practical"):
             errors.append(f"{oid}: delivery musi być theory albo practical")
         ids = obj.get("question_ids")
-        if not isinstance(ids, list) or len(ids) != len(set(ids)):
+        if not isinstance(ids, list) or not all(isinstance(item, str) for item in ids) or len(ids) != len(set(ids)):
             errors.append(f"{oid}: question_ids nie jest listą unikalnych ID")
             continue
         by_module[m] += 1
@@ -118,7 +118,10 @@ def main():
     matrix = json.loads(args.curriculum.read_text(encoding="utf-8"))
     errors, stats = analyse(questions, matrix, release=args.release)
     for name, value in stats.items():
-        print(f"{name}: {value}")
+        if isinstance(value, list) and len(value) > 10:
+            print(f"{name}: {len(value)} pozycji; pierwsze: {', '.join(value[:8])} ...")
+        else:
+            print(f"{name}: {value}")
     for issue in errors:
         print("FAIL: " + issue)
     print("PASS: spójność mapy kompetencji" if not errors else f"FAIL: {len(errors)} błędów")
