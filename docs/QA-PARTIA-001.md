@@ -35,9 +35,10 @@ Data zapisu: 22 października 2026.
 
 - [x] Zapis w repozytorium 39 rekordów ze spójną strukturą.
 - [x] Wstępna kontrola składni JSONL i formatu pól w niezależnym odczycie z GitHub: brak uwag.
-- [ ] **Formalny** walidator Python uruchomiony na HEAD.
-- [ ] Testy Python na HEAD: wszystkie PASS.
-- [ ] GitHub Actions na HEAD: status success.
+- [x] **Formalny** walidator Python uruchomiony w GitHub Actions dla commita PR #3 (success).
+- [x] Testy Python na commicie PR #3: wszystkie PASS.
+- [x] GitHub Actions PR #3: success, [run #14](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39828372547).
+- [ ] Oddzielnie potwierdzony CI PASS dla najnowszego HEAD gałęzi main.
 - [ ] Pełna kontrola aktów prawnych i sprostowań.
 - [ ] Recenzja eksperta ADR.
 - [ ] Wszystkie pytania gotowe do publikacji.
