@@ -179,3 +179,14 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Szczegóły i ograniczenia: `docs/AUDYT-WYDAWNICZY-2026.md` oraz `review/README.md`.
 - **Brama techniczna tego PR jeszcze niezweryfikowana**: przed scaleniem konieczny pełny CI PASS. Brama ekspercka i praktyczna pozostaje nieukończona; nie dopuszczać do publikacji.
 
+
+## 2026-10-23 — potwierdzony Quality Gate #171 i merge PR #16
+
+- [PR #16](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/16) **scalony do main**, SHA `a822c0a8d545f33bd1713fc4b7c40342599936d4`.
+- [Quality Gate #171](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/39864398869): **completed/success**, PASS wszystkich 6 kroków kontroli: składnia schema JSON, Python unit tests (**32 testy**), walidacja banku, kontrola kompetencji/lekcji, informacyjny skan podobieństw, raport bramki wydania.
+- Z logów CI wynika: `verified=0`, `needs_review=216`, `approvals=0`; wynik bramki **BLOCKED** z powodu braku 30 zatwierdzonych rekordów i braku reprezentacji 13 modułów w podzbiorze zatwierdzonym. To **prawidłowy stan bezpieczeństwa**, a nie niepowodzenie testów.
+- Po merge odczytano z `main`: 216 rekordów, 216 `needs_review`, 0 `verified`, pusty rejestr `review/approvals.jsonl`, 103/103 celów teorii z ≥2 szkicami i 3 cele praktyczne.
+- W repo zapisano `docs/ODSTEPSTWA-ADR-2026.md`, `docs/AUDYT-WYDAWNICZY-2026.md` oraz skrypt `scripts/release_gate.py` z testami syntetycznymi. Poprawiono pytania `ADR-B-0145` i `ADR-B-0198` (wyjątek M364 dla naczep) oraz 5 zestawów dystraktorów.
+- Zastrzeżenie: wynik #171 potwierdza **ostatni commit PR**, nie odrębny przebieg Actions na commicie po scaleniu. Żaden test automatyczny nie zastępuje rzeczywistej recenzji specjalisty.
+- Dalsze bramki: pełna kontrola prawna 216 pytań z aktualnymi odstępstwami, niezależne protokoły zatwierdzenia, 13 lekcji, legalne materiały wizualne i dokumenty oraz faktyczne zajęcia praktyczne.
+
