@@ -130,3 +130,15 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Wynik dotyczy wskazanego commita PR; dla nowego commita dokumentacyjnego i HEAD po merge wymagane jest osobne potwierdzenie. Nie uznajemy testów merytorycznych za wykonane.
 - Bank nadal ma **146 needs_review, 0 verified**. Nie rozpoczęto formalnych ćwiczeń praktycznych, nie ma niezależnego podpisu specjalisty, nie wydano materiałów produkcyjnych.
 
+
+## 2026-10-22 — partia 006 / pogłębianie kompetencji
+
+- Na gałęzi `authoring/batch-006-depth-and-safety` dodano **30 pytań** `ADR-B-0147…0176` (scenariusze klas towarów niebezpiecznych, awarii, wyposażenia i załadunku).
+- Aktualny bank roboczy: **176 needs_review / 0 verified**, rozkład poprawnych A/B/C: **58/60/58**.
+- Przypisano pytania do 30 wcześniej jedno-pytaniowych kompetencji; ich liczba spadła z **70 do 40**. Wszystkie 103 cele teorii mają ≥1 pytanie, ale 0 ma potwierdzoną recenzję specjalisty.
+- Każdy z 30 nowych rekordów ma klucz odpowiedzi i prosty komentarz, źródło `ADR 2025` z ustępem do pełnego sprawdzenia; ryzyka zapisano w `docs/AUDYT-PARTIA-006.md`.
+- Dodano test jednostkowy licznika `theory_with_less_than_two_questions`, aby nie mylić liczby rekordów z głębokością pytań.
+- Część praktyczna nadal jest wyłącznie przygotowanym szkicem scenariuszy bez potwierdzenia obecności lub wykonania.
+- **Otwarta bramka:** niezależna weryfikacja 176 pytań z aktualnym prawem i sprostowaniem 2025, audyt dystraktorów, legalne grafiki i dokumenty.
+- Status formalnego CI: **oczekuje na kontrolę PR**; dopóki nie ma potwierdzonego success wszystkich kontroli, etap techniczny pozostaje otwarty.
+
