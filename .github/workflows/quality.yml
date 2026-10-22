@@ -1,0 +1,20 @@
+name: Quality Gate
+on:
+  push:
+  pull_request:
+
+jobs:
+  structure-and-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check JSON schema syntax
+        run: python -m json.tool schema/question.schema.json > /dev/null
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate question bank
+        run: python scripts/validate.py
