@@ -72,3 +72,7 @@ Materiał do testowania: `ADR-B-0001`, `0002`, `0003`, `0040`, `0041`, `0091`–
 **Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
 
 **Punkty do porównania z urzędową publikacją:** ADR 1.1.3.1(a), 1.1.3.6; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.
+
+## Przypadki graniczne LQ, EQ i 1.1.3.6 — 0259–0261
+
+Zestaw kontrolny: 1.1.3.6.3 (kategoria 3, granica 1000), 3.5.1.2 (E0 wyklucza EQ) i 3.4.2 (30 kg brutto dla odpowiedniego opakowania zewnętrznego LQ; inne warunki dla tac foliowanych). Zanim kierowca zastosuje wyłączenie, musi sprawdzić przypisanie towaru, kolumny tabeli A i pozostałe warunki. Pytania wymagają recenzji eksperckiej urzędowego polskiego ADR i sprostowania.
