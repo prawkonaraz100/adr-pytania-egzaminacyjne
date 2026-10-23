@@ -27,3 +27,7 @@ Kolejna część weryfikacji prawnomerytorycznej rozpoczyna się od **ADR-B-0017
 ## Kontynuacja 065–080
 
 [Karty 0065–0080](065-080.json): 16 indywidualnych kontroli, 48 ocen A/B/C na podstawie wcześniejszych analiz. Do dodatkowej kontroli wyjątków: 0065, 0067, 0068, 0069, 0070, 0071, 0072, 0073, 0074, 0077, 0078, 0080. Wstępna analiza, nie pełne porównanie z urzędowym polskim ADR i sprostowaniem; bez zmian kluczy i statusów. Dalej: 0081–0096.
+
+## Kontynuacja 0081–0096
+
+[16 kart A/B/C](081-096.json), 48 ocen opcji z istniejących analiz punktów ADR 2025. Priorytet sprawdzenia wyjątków: 0081, 0082, 0083, 0084, 0085, 0086, 0087, 0089, 0090, 0091, 0092, 0093. Wymaga indywidualnego pełnego porównania oficjalnego polskiego Dz.U. 2025 poz. 642 ze sprostowaniem 1575 i sprawdzenia zastosowania M364 oraz niezależnej recenzji. Nie wprowadzono zmian kluczy i statusów. Kolejny zakres 0097–0112.
