@@ -60,20 +60,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Podzlecanie czynności odkażenia nie wyłącza obowiązku rozładowcy zapewnienia właściwych środków realizacji ADR."
+          "expected_correct": false,
+          "rationale": "Błędny wariant: Odpowiedzialność znika po przekazaniu adresu zakładu. Pomija obowiązek uczestnika lub niedopuszczalnie rozszerza uprawnienie z ADR 1.4.3.7.2. Wymaga indywidualnego sprawdzenia przez eksperta."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Błędny wariant: Nie ma już żadnych obowiązków. Pomija obowiązek uczestnika lub niedopuszczalnie rozszerza uprawnienie z ADR 1.4.3.7.2. Wymaga indywidualnego sprawdzenia przez eksperta."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Błędny wariant: Odpowiedzialność znika po przekazaniu adresu zakładu. Pomija obowiązek uczestnika lub niedopuszczalnie rozszerza uprawnienie z ADR 1.4.3.7.2. Wymaga indywidualnego sprawdzenia przez eksperta."
+          "expected_correct": true,
+          "rationale": "Podzlecanie czynności odkażenia nie wyłącza obowiązku rozładowcy zapewnienia właściwych środków realizacji ADR."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Zakres odpowiedzialności uczestnika zależy od pełnego przepisu; korzystanie z danych innego uczestnika ma warunkowy charakter.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zakres odpowiedzialności uczestnika zależy od pełnego przepisu; korzystanie z danych innego uczestnika ma warunkowy charakter. Etap 4b: zamieniono pozycje A i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -83,11 +83,11 @@
         "module_id": "ADR-B-07",
         "stem": "Rozładowca korzysta ze specjalistycznego zakładu odkażania kontenera po przewozie ADR. Które stwierdzenie oddaje jego odpowiedzialność?",
         "options": {
-          "A": "Musi podjąć odpowiednie środki, aby wymagania ADR zostały spełnione mimo korzystania z usług innego uczestnika",
+          "A": "Odpowiedzialność znika po przekazaniu adresu zakładu",
           "B": "Nie ma już żadnych obowiązków",
-          "C": "Odpowiedzialność znika po przekazaniu adresu zakładu"
+          "C": "Musi podjąć odpowiednie środki, aby wymagania ADR zostały spełnione mimo korzystania z usług innego uczestnika"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Podzlecanie czynności odkażenia nie wyłącza obowiązku rozładowcy zapewnienia właściwych środków realizacji ADR.",
         "sources": [
           {
@@ -205,16 +205,16 @@
           "rationale": "Błędny wariant: Może zostawić je otwarte do następnego transportu. Pomija obowiązek uczestnika lub niedopuszczalnie rozszerza uprawnienie z ADR 1.4.3.7.1(d)(ii). Wymaga indywidualnego sprawdzenia przez eksperta."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "ADR nakłada na rozładowcę obowiązek zapewnienia zamknięcia zaworów i otworów inspekcyjnych po rozładunku."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Błędny wariant: Wystarczy wysłać wiadomość do biura spedycji. Pomija obowiązek uczestnika lub niedopuszczalnie rozszerza uprawnienie z ADR 1.4.3.7.1(d)(ii). Wymaga indywidualnego sprawdzenia przez eksperta."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "ADR nakłada na rozładowcę obowiązek zapewnienia zamknięcia zaworów i otworów inspekcyjnych po rozładunku."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Zakres odpowiedzialności uczestnika zależy od pełnego przepisu; korzystanie z danych innego uczestnika ma warunkowy charakter.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zakres odpowiedzialności uczestnika zależy od pełnego przepisu; korzystanie z danych innego uczestnika ma warunkowy charakter. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -225,10 +225,10 @@
         "stem": "Po operacji rozładunku odpowiedniej jednostki ADR pracownik zamierza pozostawić otwarte zawory i otwory inspekcyjne. Co wynika z 1.4.3.7.1(d)(ii)?",
         "options": {
           "A": "Może zostawić je otwarte do następnego transportu",
-          "B": "Należy dopilnować ich zamknięcia",
-          "C": "Wystarczy wysłać wiadomość do biura spedycji"
+          "B": "Wystarczy wysłać wiadomość do biura spedycji",
+          "C": "Należy dopilnować ich zamknięcia"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "ADR nakłada na rozładowcę obowiązek zapewnienia zamknięcia zaworów i otworów inspekcyjnych po rozładunku.",
         "sources": [
           {
@@ -248,20 +248,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Załadowca może korzystać z danych innych uczestników dla określonych zadań, ale nie oznacza to dowolnego rezygnowania z oznakowania."
+          "expected_correct": false,
+          "rationale": "Błędny wariant: Informacja od innego uczestnika automatycznie unieważnia rozdział 5.3. Pomija obowiązek uczestnika lub niedopuszczalnie rozszerza uprawnienie z ADR 1.4.3.1.2; 1.4.3.1.1(d). Wymaga indywidualnego sprawdzenia przez eksperta."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Błędny wariant: Kontener nie musi być nigdy oznakowany. Pomija obowiązek uczestnika lub niedopuszczalnie rozszerza uprawnienie z ADR 1.4.3.1.2; 1.4.3.1.1(d). Wymaga indywidualnego sprawdzenia przez eksperta."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Błędny wariant: Informacja od innego uczestnika automatycznie unieważnia rozdział 5.3. Pomija obowiązek uczestnika lub niedopuszczalnie rozszerza uprawnienie z ADR 1.4.3.1.2; 1.4.3.1.1(d). Wymaga indywidualnego sprawdzenia przez eksperta."
+          "expected_correct": true,
+          "rationale": "Załadowca może korzystać z danych innych uczestników dla określonych zadań, ale nie oznacza to dowolnego rezygnowania z oznakowania."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Zakres odpowiedzialności uczestnika zależy od pełnego przepisu; korzystanie z danych innego uczestnika ma warunkowy charakter.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zakres odpowiedzialności uczestnika zależy od pełnego przepisu; korzystanie z danych innego uczestnika ma warunkowy charakter. Etap 4b: zamieniono pozycje A i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -271,11 +271,11 @@
         "module_id": "ADR-B-07",
         "stem": "Załadowca odebrał dane o ładunku ADR od innego uczestnika i chce na ich podstawie zweryfikować wymagane oznakowanie kontenera po załadunku. Co wynika z 1.4.3.1.2?",
         "options": {
-          "A": "Korzystanie z przekazanych danych w odpowiednim zakresie jest dopuszczone, lecz wymóg oznakowania pozostaje",
+          "A": "Informacja od innego uczestnika automatycznie unieważnia rozdział 5.3",
           "B": "Kontener nie musi być nigdy oznakowany",
-          "C": "Informacja od innego uczestnika automatycznie unieważnia rozdział 5.3"
+          "C": "Korzystanie z przekazanych danych w odpowiednim zakresie jest dopuszczone, lecz wymóg oznakowania pozostaje"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Załadowca może korzystać z danych innych uczestników dla określonych zadań, ale nie oznacza to dowolnego rezygnowania z oznakowania.",
         "sources": [
           {
