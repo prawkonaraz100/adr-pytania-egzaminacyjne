@@ -1,0 +1,92 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-10-23",
+  "range": "ADR-B-0316..ADR-B-0317",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "Preliminary A/B/C editorial source check",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0316",
+      "sequence": 316,
+      "module_id": "ADR-B-02",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "W klasyfikacji ADR klasy 1 podklasa 1.1 oznacza zagrożenie jakiego rodzaju?",
+        "options": {
+          "A": "Wybuch masowy, który może objąć niemal cały ładunek jednocześnie",
+          "B": "Wyłącznie zagrożenie żrące bez wybuchu",
+          "C": "Wyłącznie emisję promieniowania jonizującego"
+        },
+        "correct_option": "A",
+        "explanation": "Podklasa 1.1 obejmuje materiały i przedmioty z zagrożeniem wybuchem masowym. Nie oznacza to, że kierowca może sam ustalać klasyfikację produktu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.1.1.5 (podklasa 1.1)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "section_content_compared_in_ADR_2025_EN_not_full_PL",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish clause comparison and expert review pending",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0317",
+      "sequence": 317,
+      "module_id": "ADR-B-02",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Przy rozpoznawaniu materiału promieniotwórczego klasy 7 w ADR, co należy sprawdzić zgodnie z definicją w 2.2.7.1.1?",
+        "options": {
+          "A": "Jedynie masę brutto opakowania",
+          "B": "Stężenie aktywności i całkowitą aktywność przesyłki w odniesieniu do wartości określonych w ADR",
+          "C": "Wyłącznie kolor zewnętrznego opakowania"
+        },
+        "correct_option": "B",
+        "explanation": "Definicja materiału promieniotwórczego odnosi się do radionuklidów oraz przekroczenia odpowiednich wartości zarówno stężenia aktywności, jak i całkowitej aktywności przesyłki. Nie klasyfikuje się ładunku wyłącznie na podstawie wyglądu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.7.1.1 oraz 2.2.7.2.2.1–2.2.7.2.2.6",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "section_content_compared_in_ADR_2025_EN_not_full_PL",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish clause comparison and expert review pending",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
