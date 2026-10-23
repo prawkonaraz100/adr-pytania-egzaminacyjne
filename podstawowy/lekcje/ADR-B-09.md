@@ -71,3 +71,13 @@ Sztuka przesyłki ADR ma strzałki kierunkowe na dwóch przeciwległych bokach. 
 ## Scenariusze 0291–0292: wspólny załadunek i przewóz luzem
 
 Dla 0291 kursant używa tabeli 7.5.2.1 oraz wyjątków, nie opiera decyzji na kolorze opakowania. Dla 0292 sprawdza kolumny 10 i 17 tabeli A oraz reguły BK/VC z 7.3.1.1. Oba ćwiczenia wymagają kontroli polskiego tekstu urzędowego ADR 2025 i niezależnego odbioru instruktora.
+
+## Zadanie instruktorskie: Załadunek (etap 2, 23.10.2026)
+
+**Symulacja bez rzeczywistych towarów:** Na makiecie kursant wskazuje wycieki, złe ułożenie i ryzyko przesuwania ładunku oraz konieczność weryfikacji wspólnego załadunku.
+
+**Odniesienie do weryfikacji:** ADR 7.5.1, 7.5.2, 7.5.7.
+
+**Obserwowalne kryterium:** Nie dopuszcza uszkodzonego ładunku do przewozu.
+
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
