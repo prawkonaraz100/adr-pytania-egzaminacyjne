@@ -65,3 +65,9 @@ Popraw opis „1203” na „UN 1203” w sytuacji, gdzie obowiązuje ADR 5.2.1.
 ## Kontrola oznakowania ADR-B-0298–0299
 
 Rozpoznaj numer 80 jako wskazujący zagrożenie żrące (5.3.2.3.2) oraz wymagane rozmieszczenie dużych nalepek na kontenerze (5.3.1.2). Scenariusz tekstowy zastępuje tymczasowo grafikę, ale nie kończy kontroli prawnej.
+
+## Kontrola sytuacyjna ADR-B-0303 — wersja robocza
+
+Na sztuce przesyłki ADR wymagane są dwie różne nalepki zagrożeń. Jak należy ją oznakować?
+
+Kursant uzasadnia odpowiedź, identyfikuje zakres stosowania przepisu 5.2.2.1.1 oraz podaje przykład sytuacji wymagającej ponownego sprawdzenia danych. Nie uznawać rozwiązania quizu za zaliczenie praktyczne. Podstawa: ADR 2025 Dz.U. 642 ze sprostowaniem 1575 — pełna kontrola polskiego brzmienia i odbiór specjalisty pozostają otwarte.

@@ -80,3 +80,9 @@ Zestaw kontrolny: 1.1.3.6.3 (kategoria 3, granica 1000), 3.5.1.2 (E0 wyklucza EQ
 ## Mieszane kategorie i znak LQ — ADR-B-0271–0273
 
 Przykłady obliczeń 1.1.3.6.4: `100×3+600=900` oraz `200×3+500=1100`. Ilustrują mnożnik dla kategorii 2 i 3 i próg 1000; przed oceną realnego przewozu trzeba ustalić właściwą kategorię oraz jednostki ilości. Dodatkowo opis znaku LQ z 3.4.7.1, bez grafiki. Materiał nie jest urzędowo zatwierdzony; recenzja polskiego Dz.U. 642 i sprostowania 1575 wymagana.
+
+## Kontrola sytuacyjna ADR-B-0301 — wersja robocza
+
+Kierowca realizuje przewóz towarów niebezpiecznych, dla którego wymagane jest zaświadczenie ADR. Co musi wykazać, aby uzyskać takie zaświadczenie?
+
+Kursant uzasadnia odpowiedź, identyfikuje zakres stosowania przepisu 8.2.1.1 oraz podaje przykład sytuacji wymagającej ponownego sprawdzenia danych. Nie uznawać rozwiązania quizu za zaliczenie praktyczne. Podstawa: ADR 2025 Dz.U. 642 ze sprostowaniem 1575 — pełna kontrola polskiego brzmienia i odbiór specjalisty pozostają otwarte.

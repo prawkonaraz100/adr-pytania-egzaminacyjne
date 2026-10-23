@@ -104,3 +104,13 @@ Instruktor przedstawia makietę zdarzenia i bezpiecznie zasymulowany rozlew. Kur
 ## Stanowisko szkoleniowe P3 — rozpoznanie oznakowania i identyfikacja (szkic 23.10.2026)
 
 Instruktor przygotowuje własną, legalnie używaną makietę kontenera z miejscami na nalepki i tablicę „80” oraz sprawdza, czy kursant umie nazwać zagrożenie i właściwe miejsca nalepek. Następnie ćwiczy procedurę kontroli tożsamości załogi przy fikcyjnych danych. Powiązanie ADR-B-0298–0300, ADR 5.3.1.2, 5.3.2.3.2, 1.10.1.4. Brak rzeczywistych towarów, brak automatycznego zaliczenia P1–P3.
+
+## Kryteria obserwacji instruktorskiej P1–P3 (uzupełnienie 23.10.2026)
+
+**P1 — użycie gaśnicy:** instruktor obserwuje, czy kursant (1) rozpoznaje bezpieczne warunki rozpoczęcia ćwiczenia, (2) dobiera sprzęt wskazany przez instruktora, (3) demonstruje chwyt i uruchomienie zgodnie z instruktażem, (4) przerywa działanie na sygnał bezpieczeństwa. Każdy element: `zaliczone / do powtórzenia / nieocenione`, z odnotowaniem konkretnych obserwacji.
+
+**P2 — pierwsza pomoc:** instruktor obserwuje (1) kontrolę bezpieczeństwa miejsca, (2) wezwanie odpowiedniej pomocy, (3) bezpieczne postępowanie z poszkodowanym w zakresie ćwiczenia, (4) właściwe przekazanie informacji służbom. Nie wchodzi się do strefy skażenia i nie wykonuje czynności bez przeszkolenia; ćwiczenie wyłącznie na symulatorze lub pod nadzorem.
+
+**P3 — wypadek i awaria:** instruktor obserwuje (1) bezpieczne zatrzymanie i ocenę miejsca, (2) wybór miejsca osłoniętego od oparów / strony nawietrznej, (3) ostrzeżenie innych i wezwanie służb, (4) wyjaśnienie ograniczeń samodzielnych działań przy wycieku i zapłonie. Łączy ocenę z instrukcjami ADR 5.4.3.4.
+
+**Rejestr oceny:** dla każdego z P1–P3 instruktor wypełnia w rzeczywistych zajęciach: identyfikator kursanta, datę, miejsce, nazwisko instruktora, warunki ćwiczenia, wyniki poszczególnych punktów, uwagi i podpis. Przed zajęciami pole pozostaje puste; w repozytorium nie zapisuje się fikcyjnych zaliczeń. Cała matryca wymaga weryfikacji z obowiązującym urzędowym programem szkolenia i akceptacji kompetentnego instruktora. 

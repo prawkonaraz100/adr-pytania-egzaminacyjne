@@ -82,3 +82,9 @@ Na nalepce widoczny jest symbol butli gazowej na zielonym tle i numer 2 u dołu.
 ## Opisy nalepek ADR-B-0288–0289
 
 Nalepka wzoru 3: płomień na czerwonym tle; nalepka 6.1: czaszka i skrzyżowane piszczele. Ćwiczenia tylko opisowe, ADR 5.2.2.2.2; oficjalne polskie brzmienie wymaga porównania ze sprostowaniem.
+
+## Kontrola sytuacyjna ADR-B-0302 — wersja robocza
+
+W dokumentacji transportowej wskazano klasę 4.2. Jakiego rodzaju zagrożenie powinien rozpoznać kierowca?
+
+Kursant uzasadnia odpowiedź, identyfikuje zakres stosowania przepisu 2.2.42.1.1 oraz podaje przykład sytuacji wymagającej ponownego sprawdzenia danych. Nie uznawać rozwiązania quizu za zaliczenie praktyczne. Podstawa: ADR 2025 Dz.U. 642 ze sprostowaniem 1575 — pełna kontrola polskiego brzmienia i odbiór specjalisty pozostają otwarte.
