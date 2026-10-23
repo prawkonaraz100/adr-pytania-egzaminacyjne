@@ -18,11 +18,11 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0012 | ADR-B-04-K03 | ADR-B-04 | 1. Załadunek: palenie, silnik, otwieranie opakowań | ADR 2025, 8.3.6 | candidate_needs_manual_confirmation |
 | ADR-B-0013 | ADR-B-05-K01 | ADR-B-05 | 1. Najważniejsza zasada: nie narażaj siebie | ADR 2025, 5.4.3.1 | candidate_needs_manual_confirmation |
 | ADR-B-0014 | ADR-B-05-K01 | ADR-B-05 | Efekty nauki | ADR 2025, 5.4.3.3 | candidate_needs_manual_confirmation |
-| ADR-B-0015 | ADR-B-05-K12 | ADR-B-05 | 3. Pożar: czego nie robić | ADR 2025, 8.1.4.5 | gap_requires_explicit_lesson_passage |
+| ADR-B-0015 | ADR-B-05-K12 | ADR-B-05 | Uzupełnienie powiązań z pytaniami — ADR-B-05 / ADR-B-0015 | ADR 2025, 8.1.4.5 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0016 | ADR-B-06-K03 | ADR-B-06 | 2. Pomarańczowa tablica na pojeździe | ADR 2025, 5.3.2.2.2 | candidate_needs_manual_confirmation |
 | ADR-B-0017 | ADR-B-06-K04 | ADR-B-06 | 2. Pomarańczowa tablica na pojeździe | ADR 2025, 5.3.2.3.1 | candidate_needs_manual_confirmation |
 | ADR-B-0018 | ADR-B-06-K05 | ADR-B-06 | 2. Pomarańczowa tablica na pojeździe | ADR 2025, 5.3.2.2.1 | candidate_needs_manual_confirmation |
-| ADR-B-0019 | ADR-B-07-K02 | ADR-B-07 | 1. Podział obowiązków nie jest przypadkowy | ADR 2025, 1.4.2.2.6; 5.4.3.2 | gap_requires_explicit_lesson_passage |
+| ADR-B-0019 | ADR-B-07-K02 | ADR-B-07 | Uzupełnienie powiązań z pytaniami — ADR-B-07 / ADR-B-0019 | ADR 2025, 1.4.2.2.6; 5.4.3.2 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0020 | ADR-B-07-K03 | ADR-B-07 | 2. Przykłady dla kierowcy | ADR 2025, 1.4.3.1.1 (b) | candidate_needs_manual_confirmation |
 | ADR-B-0021 | ADR-B-07-K01 | ADR-B-07 | 1. Podział obowiązków nie jest przypadkowy | ADR 2025, 1.4.2.1.1 (a) | candidate_needs_manual_confirmation |
 | ADR-B-0022 | ADR-B-08-K01 | ADR-B-08 | 1. Gaśnice zależą od DMC i rodzaju zwolnienia | ADR 2025, 8.1.4.1 | candidate_needs_manual_confirmation |
@@ -42,10 +42,10 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0036 | ADR-B-12-K03 | ADR-B-12 | Kluczowe zasady | ADR 2025, 1.10.2.2 | candidate_needs_manual_confirmation |
 | ADR-B-0037 | ADR-B-13-K01 | ADR-B-13 | 1. Co mówi dokument przewozowy? | ADR 2025, 5.4.1.1.1 (a) | candidate_needs_manual_confirmation |
 | ADR-B-0038 | ADR-B-13-K01 | ADR-B-13 | 1. Co mówi dokument przewozowy? | ADR 2025, 5.4.1.1.1 (b) | candidate_needs_manual_confirmation |
-| ADR-B-0039 | ADR-B-13-K04 | ADR-B-13 | Ćwiczenie z dokumentem ADR (szkic) | ADR 2025, 5.4.3.4 | gap_requires_explicit_lesson_passage |
+| ADR-B-0039 | ADR-B-13-K04 | ADR-B-13 | Uzupełnienie powiązań z pytaniami — ADR-B-13 / ADR-B-0039 | ADR 2025, 5.4.3.4 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0040 | ADR-B-01-K02 | ADR-B-01 | 3. Szkolenie i zaświadczenie | ADR 2025, 1.3.1 | candidate_needs_manual_confirmation |
 | ADR-B-0041 | ADR-B-01-K02 | ADR-B-01 | 3. Szkolenie i zaświadczenie | ADR 2025, 1.3.2.4 | candidate_needs_manual_confirmation |
-| ADR-B-0042 | ADR-B-02-K02 | ADR-B-02 | 2. Klasy ADR — tabela do nauki | ADR 2025, 2.2.2.1.1 | gap_requires_explicit_lesson_passage |
+| ADR-B-0042 | ADR-B-02-K02 | ADR-B-02 | Uzupełnienie powiązań z pytaniami — ADR-B-02 / ADR-B-0042 | ADR 2025, 2.2.2.1.1 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0043 | ADR-B-02-K10 | ADR-B-02 | 2. Klasy ADR — tabela do nauki | ADR 2025, 2.2.62.1.1 | candidate_needs_manual_confirmation |
 | ADR-B-0044 | ADR-B-02-K07 | ADR-B-02 | 2. Klasy ADR — tabela do nauki | ADR 2025, 2.2.51.1.1 | candidate_needs_manual_confirmation |
 | ADR-B-0045 | ADR-B-03-K01 | ADR-B-03 | 1. Towar może zagrażać środowisku | ADR 2025, 5.2.1.8 | candidate_needs_manual_confirmation |
@@ -53,7 +53,7 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0047 | ADR-B-04-K03 | ADR-B-04 | 1. Załadunek: palenie, silnik, otwieranie opakowań | ADR 2025, 8.3.6 | candidate_needs_manual_confirmation |
 | ADR-B-0048 | ADR-B-04-K02 | ADR-B-04 | 1. Załadunek: palenie, silnik, otwieranie opakowań | ADR 2025, 8.3.3 | candidate_needs_manual_confirmation |
 | ADR-B-0049 | ADR-B-05-K01 | ADR-B-05 | Efekty nauki | ADR 2025, 5.4.3.3 | candidate_needs_manual_confirmation |
-| ADR-B-0050 | ADR-B-05-K01 | ADR-B-05 | 1. Najważniejsza zasada: nie narażaj siebie | ADR 2025, 5.4.3.2 | gap_requires_explicit_lesson_passage |
+| ADR-B-0050 | ADR-B-05-K01 | ADR-B-05 | Uzupełnienie powiązań z pytaniami — ADR-B-05 / ADR-B-0050 | ADR 2025, 5.4.3.2 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0051 | ADR-B-06-K06 | ADR-B-06 | 4. Rozwiąż w praktyce | ADR 2025, 5.3.2.3.1 | candidate_needs_manual_confirmation |
 | ADR-B-0052 | ADR-B-06-K07 | ADR-B-06 | 2. Pomarańczowa tablica na pojeździe | ADR 2025, 5.3.2.2.2 | candidate_needs_manual_confirmation |
 | ADR-B-0053 | ADR-B-06-K08 | ADR-B-06 | 2. Pomarańczowa tablica na pojeździe | ADR 2025, 5.3.2.3.1 | candidate_needs_manual_confirmation |
@@ -63,7 +63,7 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0057 | ADR-B-08-K05 | ADR-B-08 | 4. Pytania kontrolne | ADR 2025, 8.1.5.2 | candidate_needs_manual_confirmation |
 | ADR-B-0058 | ADR-B-09-K04 | ADR-B-09 | Sytuacja kontrolna ADR-B-0286 (etap 2) | ADR 2025, 7.5.1.5 | candidate_needs_manual_confirmation |
 | ADR-B-0059 | ADR-B-09-K05 | ADR-B-09 | 2. Wspólny załadunek i żywność | ADR 2025, 7.5.7.2 | candidate_needs_manual_confirmation |
-| ADR-B-0060 | ADR-B-09-K06 | ADR-B-09 | 3. Mocowanie i piętrzenie | ADR 2025, 7.5.7.1 | gap_requires_explicit_lesson_passage |
+| ADR-B-0060 | ADR-B-09-K06 | ADR-B-09 | Uzupełnienie powiązań z pytaniami — ADR-B-09 / ADR-B-0060 | ADR 2025, 7.5.7.1 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0061 | ADR-B-10-K02 | ADR-B-10 | 3. Dodatkowy zapis w dokumencie ADR | ADR 2025, 5.4.1.1.7 | candidate_needs_manual_confirmation |
 | ADR-B-0062 | ADR-B-10-K01 | ADR-B-10 | 2. Kontener po rejsie morskim | ADR 2025, 1.1.4.2 | candidate_needs_manual_confirmation |
 | ADR-B-0063 | ADR-B-11-K03 | ADR-B-11 | 1. Kategorie A–E | ADR 2025, 8.6.3.1 | candidate_needs_manual_confirmation |
@@ -77,7 +77,7 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0071 | ADR-B-08-K01 | ADR-B-08 | 1. Gaśnice zależą od DMC i rodzaju zwolnienia | ADR 2025, 8.1.4.1 | candidate_needs_manual_confirmation |
 | ADR-B-0072 | ADR-B-08-K01 | ADR-B-08 | 1. Gaśnice zależą od DMC i rodzaju zwolnienia | ADR 2025, 8.1.4.1 | candidate_needs_manual_confirmation |
 | ADR-B-0073 | ADR-B-08-K02 | ADR-B-08 | 1. Gaśnice zależą od DMC i rodzaju zwolnienia | ADR 2025, 8.1.4.2 | candidate_needs_manual_confirmation |
-| ADR-B-0074 | ADR-B-08-K03 | ADR-B-08 | 1. Gaśnice zależą od DMC i rodzaju zwolnienia | ADR 2025, 8.1.4.4; 8.1.4.5 | gap_requires_explicit_lesson_passage |
+| ADR-B-0074 | ADR-B-08-K03 | ADR-B-08 | Uzupełnienie powiązań z pytaniami — ADR-B-08 / ADR-B-0074 | ADR 2025, 8.1.4.4; 8.1.4.5 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0075 | ADR-B-08-K05 | ADR-B-08 | 2. Wyposażenie załogi | ADR 2025, 8.1.5.2 | candidate_needs_manual_confirmation |
 | ADR-B-0076 | ADR-B-08-K06 | ADR-B-08 | 2. Wyposażenie załogi | ADR 2025, 8.1.5.2 | candidate_needs_manual_confirmation |
 | ADR-B-0077 | ADR-B-08-K07 | ADR-B-08 | 2. Wyposażenie załogi | ADR 2025, 8.1.5.3 | candidate_needs_manual_confirmation |
@@ -126,7 +126,7 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0120 | ADR-B-12-K04 | ADR-B-12 | Kluczowe zasady | ADR 2025, 1.10.1.2 | candidate_needs_manual_confirmation |
 | ADR-B-0121 | ADR-B-12-K03 | ADR-B-12 | Kluczowe zasady | ADR 2025, 1.10.2.2 | candidate_needs_manual_confirmation |
 | ADR-B-0122 | ADR-B-12-K05 | ADR-B-12 | Kluczowe zasady | ADR 2025, 1.10.3.2.1 | candidate_needs_manual_confirmation |
-| ADR-B-0123 | ADR-B-01-K01 | ADR-B-01 | Po tej lekcji kierowca potrafi | ADR 2025, Umowa ADR, art. 1(b) | gap_requires_explicit_lesson_passage |
+| ADR-B-0123 | ADR-B-01-K01 | ADR-B-01 | Uzupełnienie powiązań z pytaniami — ADR-B-01 / ADR-B-0123 | ADR 2025, Umowa ADR, art. 1(b) | explicit_draft_passage_pending_legal_review |
 | ADR-B-0124 | ADR-B-01-K07 | ADR-B-01 | 2. Kto co robi? | ADR 2025, 2.1.1; 3.2 tabela A | candidate_needs_manual_confirmation |
 | ADR-B-0125 | ADR-B-01-K07 | ADR-B-01 | 1. Co reguluje ADR? | ADR 2025, 3.2.1, tabela A kol. (1) | candidate_needs_manual_confirmation |
 | ADR-B-0126 | ADR-B-02-K01 | ADR-B-02 | 2. Klasy ADR — tabela do nauki | ADR 2025, 2.2.1.1.5 | candidate_needs_manual_confirmation |
@@ -172,7 +172,7 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0166 | ADR-B-05-K05 | ADR-B-05 | 3. Pożar: czego nie robić | ADR 2025, 5.4.3.4 | candidate_needs_manual_confirmation |
 | ADR-B-0167 | ADR-B-05-K08 | ADR-B-05 | 4. Wyciek i ochrona środowiska | ADR 2025, 5.4.3.4 | candidate_needs_manual_confirmation |
 | ADR-B-0168 | ADR-B-05-K10 | ADR-B-05 | 2. Pierwsze czynności po zdarzeniu | ADR 2025, 5.4.3.4; 8.1.5.2 | candidate_needs_manual_confirmation |
-| ADR-B-0169 | ADR-B-05-K12 | ADR-B-05 | Efekty nauki | ADR 2025, 8.1.4.5 | gap_requires_explicit_lesson_passage |
+| ADR-B-0169 | ADR-B-05-K12 | ADR-B-05 | Uzupełnienie powiązań z pytaniami — ADR-B-05 / ADR-B-0169 | ADR 2025, 8.1.4.5 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0170 | ADR-B-06-K04 | ADR-B-06 | 2. Pomarańczowa tablica na pojeździe | ADR 2025, 5.3.2.3.1 | candidate_needs_manual_confirmation |
 | ADR-B-0171 | ADR-B-08-K07 | ADR-B-08 | 2. Wyposażenie załogi | ADR 2025, 8.1.5.3 | candidate_needs_manual_confirmation |
 | ADR-B-0172 | ADR-B-09-K04 | ADR-B-09 | 3. Mocowanie i piętrzenie | ADR 2025, 7.5.1.5 | candidate_needs_manual_confirmation |
@@ -181,9 +181,9 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0175 | ADR-B-13-K05 | ADR-B-13 | 2. Co ma być w kabinie? | ADR 2025, 1.10.1.4; 8.1.2.1 (d) | candidate_needs_manual_confirmation |
 | ADR-B-0176 | ADR-B-08-K03 | ADR-B-08 | 1. Gaśnice zależą od DMC i rodzaju zwolnienia | ADR 2025, 8.1.4.4 | candidate_needs_manual_confirmation |
 | ADR-B-0177 | ADR-B-03-K03 | ADR-B-03 | Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026) | ADR 2025, 7.5.8.1 | candidate_needs_manual_confirmation |
-| ADR-B-0178 | ADR-B-03-K05 | ADR-B-03 | Ćwiczenia 0294–0295: odpad i kontakt z rozlewem | ADR 2025, 5.4.3.4 | gap_requires_explicit_lesson_passage |
+| ADR-B-0178 | ADR-B-03-K05 | ADR-B-03 | Uzupełnienie powiązań z pytaniami — ADR-B-03 / ADR-B-0178 | ADR 2025, 5.4.3.4 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0179 | ADR-B-03-K06 | ADR-B-03 | 3. Odpady niebezpieczne | ADR 2025, 5.4.1.1.1; 5.4.1.1.3.1 | candidate_needs_manual_confirmation |
-| ADR-B-0180 | ADR-B-04-K05 | ADR-B-04 | Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026) | ADR 2025, 5.4.3.4 | gap_requires_explicit_lesson_passage |
+| ADR-B-0180 | ADR-B-04-K05 | ADR-B-04 | Uzupełnienie powiązań z pytaniami — ADR-B-04 / ADR-B-0180 | ADR 2025, 5.4.3.4 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0181 | ADR-B-04-K06 | ADR-B-04 | 3. Bezpieczny postój | ADR 2025, 8.4.1 | candidate_needs_manual_confirmation |
 | ADR-B-0182 | ADR-B-05-K02 | ADR-B-05 | Efekty nauki | ADR 2025, 5.4.3.4 | candidate_needs_manual_confirmation |
 | ADR-B-0183 | ADR-B-05-K04 | ADR-B-05 | 1. Najważniejsza zasada: nie narażaj siebie | ADR 2025, 5.4.3.4 | candidate_needs_manual_confirmation |
@@ -203,7 +203,7 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0197 | ADR-B-08-K02 | ADR-B-08 | 1. Gaśnice zależą od DMC i rodzaju zwolnienia | ADR 2025, 8.1.4.2 | candidate_needs_manual_confirmation |
 | ADR-B-0198 | ADR-B-08-K08 | ADR-B-08 | 3. Pojazdy wymagające dodatkowego dopuszczenia | ADR 2025, 8.1.2.2(a); 9.1.3; Umowa wielostronna M364, pkt 1 (warunkowy wyjątek dla naczepy do 31.12.2026) | candidate_needs_manual_confirmation |
 | ADR-B-0199 | ADR-B-09-K01 | ADR-B-09 | 2. Wspólny załadunek i żywność | ADR 2025, 7.5.2.1; 7.5.2.2 | candidate_needs_manual_confirmation |
-| ADR-B-0200 | ADR-B-09-K06 | ADR-B-09 | Zadanie instruktorskie: Załadunek (etap 2, 23.10.2026) | ADR 2025, 7.5.7.1 | gap_requires_explicit_lesson_passage |
+| ADR-B-0200 | ADR-B-09-K06 | ADR-B-09 | Uzupełnienie powiązań z pytaniami — ADR-B-09 / ADR-B-0200 | ADR 2025, 7.5.7.1 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0201 | ADR-B-09-K07 | ADR-B-09 | Praktyczne decyzje załadunkowe (szkic do recenzji) | ADR 2025, 7.5.8.2 | candidate_needs_manual_confirmation |
 | ADR-B-0202 | ADR-B-09-K08 | ADR-B-09 | 1. Kontrola przed załadunkiem — ADR 7.5.1 | ADR 2025, 7.5.1.2 | candidate_needs_manual_confirmation |
 | ADR-B-0203 | ADR-B-10-K02 | ADR-B-10 | 3. Dodatkowy zapis w dokumencie ADR | ADR 2025, 5.4.1.1.7 | candidate_needs_manual_confirmation |
@@ -235,7 +235,7 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0229 | ADR-B-05-K07 | ADR-B-05 | 2. Pierwsze czynności po zdarzeniu | ADR 2025, 5.4.3.4 | candidate_needs_manual_confirmation |
 | ADR-B-0230 | ADR-B-05-K08 | ADR-B-05 | 4. Wyciek i ochrona środowiska | ADR 2025, 5.4.3.4 | candidate_needs_manual_confirmation |
 | ADR-B-0231 | ADR-B-05-K10 | ADR-B-05 | 2. Pierwsze czynności po zdarzeniu | ADR 2025, 5.4.3.4; 8.1.5.2 | candidate_needs_manual_confirmation |
-| ADR-B-0232 | ADR-B-05-K12 | ADR-B-05 | 3. Pożar: czego nie robić | ADR 2025, 8.1.4.5 | gap_requires_explicit_lesson_passage |
+| ADR-B-0232 | ADR-B-05-K12 | ADR-B-05 | Uzupełnienie powiązań z pytaniami — ADR-B-05 / ADR-B-0232 | ADR 2025, 8.1.4.5 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0233 | ADR-B-13-K03 | ADR-B-13 | 1. Co mówi dokument przewozowy? | ADR 2025, 5.4.1.1.1(h) | candidate_needs_manual_confirmation |
 | ADR-B-0234 | ADR-B-13-K04 | ADR-B-13 | 3. Instrukcje pisemne | ADR 2025, 5.4.3.2; 5.4.3.4 | candidate_needs_manual_confirmation |
 | ADR-B-0235 | ADR-B-09-K02 | ADR-B-09 | 2. Wspólny załadunek i żywność | ADR 2025, 7.5.7.1 | candidate_needs_manual_confirmation |
@@ -276,7 +276,7 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 | ADR-B-0270 | ADR-B-02-K07 | ADR-B-02 | 2. Klasy ADR — tabela do nauki | ADR 2025, 5.2.2.2.2 | candidate_needs_manual_confirmation |
 | ADR-B-0271 | ADR-B-01-K06 | ADR-B-01 | Mieszane kategorie i znak LQ — ADR-B-0271–0273 | ADR 2025, 1.1.3.6.4 | candidate_needs_manual_confirmation |
 | ADR-B-0272 | ADR-B-01-K06 | ADR-B-01 | 4. Trzy różne grupy zwolnień — nie łącz ich | ADR 2025, 1.1.3.6.4 | candidate_needs_manual_confirmation |
-| ADR-B-0273 | ADR-B-01-K05 | ADR-B-01 | 1. Co reguluje ADR? | ADR 2025, 3.4.7.1 | gap_requires_explicit_lesson_passage |
+| ADR-B-0273 | ADR-B-01-K05 | ADR-B-01 | Uzupełnienie powiązań z pytaniami — ADR-B-01 / ADR-B-0273 | ADR 2025, 3.4.7.1 | explicit_draft_passage_pending_legal_review |
 | ADR-B-0274 | ADR-B-12-K02 | ADR-B-12 | Przypadki ochrony 0274–0275 (szkic) | ADR 2025, 1.10.1.3 | candidate_needs_manual_confirmation |
 | ADR-B-0275 | ADR-B-12-K03 | ADR-B-12 | Dlaczego ten rozdział jest wymagany? | ADR 2025, 1.10.2.3 | candidate_needs_manual_confirmation |
 | ADR-B-0276 | ADR-B-03-K01 | ADR-B-03 | Znak zagrożenia środowiskowego 0276 (szkic) | ADR 2025, 5.2.1.8.3 | candidate_needs_manual_confirmation |
@@ -337,3 +337,7 @@ Data 23.10.2026. **324/324 powiązane z istniejącym plikiem lekcji i kandydatem
 - Priorytety: ADR-B-01, ADR-B-05, ADR-B-06, ADR-B-08, ADR-B-09, ADR-B-11, ADR-B-13.
 
 Źródła nadrzędne: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Żaden wpis nie jest akceptacją specjalisty.
+
+## Aneks 23.10.2026 — uzupełnienia
+
+Dla 14 sygnalizowanych pytań dopisano jawne fragmenty `### ADR-B-ID` w odpowiednich lekcjach. Jest to uzupełnienie redakcyjne, a nie pełna kontrola merytoryczna i prawna. Statusy pozostają needs_review.
