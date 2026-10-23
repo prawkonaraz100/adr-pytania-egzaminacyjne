@@ -1,0 +1,92 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-10-23",
+  "range": "ADR-B-0539..ADR-B-0540",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "Targeted ADR 2025 English comparisons only; official Polish literal verification pending",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0539",
+      "sequence": 539,
+      "module_id": "ADR-B-11",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Kierowca przewozi na jednej jednostce transportowej dwie przesyłki w sztukach: z kodami tunelowymi D/E i B/D. Na trasie jest tunel kategorii C, a pojazd podlega ograniczeniom ADR. Co powinien ustalić przed wyborem przejazdu?",
+        "options": {
+          "A": "Nie może wjechać do C, bo pierwszy kod zawiera literę D.",
+          "B": "Dla całego ładunku obowiązuje bardziej restrykcyjny B/D; w sztukach ogranicza on D i E, a nie C.",
+          "C": "Może pominąć kody, ponieważ są to dwie oddzielne przesyłki."
+        },
+        "correct_option": "B",
+        "explanation": "ADR 2025, 8.6.3.2; 8.6.4: ADR 8.6.3.2 nakazuje kod najbardziej restrykcyjny; B/D przy innych rodzajach przewozu niż w cysternach zakazuje tuneli D i E.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.2; 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "official_ADR_2025_english_targeted",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Wymaga dosłownej polskiej kontroli i recenzji eksperta; nie rozstrzygnięto wszystkich odstępstw.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0540",
+      "sequence": 540,
+      "module_id": "ADR-B-11",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Ciężarówka przewozi tylko towary w ilościach ograniczonych LQ. Z powodu masy ładunku wymaga oznakowania z ADR 3.4.13 (z uwzględnieniem 3.4.14). Kierowca dojeżdża do rozjazdu przed tunelem kategorii E. Jak powinien zaplanować przejazd?",
+        "options": {
+          "A": "Wjechać do tunelu E, bo przy LQ nie stosuje się żadnych ograniczeń.",
+          "B": "Wjechać do tunelu E, jeśli w dokumencie wpisano liczbę palet.",
+          "C": "Wybrać dopuszczalną trasę poza tunelem E z uwagi na ograniczenie 8.6.4."
+        },
+        "correct_option": "C",
+        "explanation": "ADR 2025, 3.4.13; 3.4.14; 8.6.4: ADR 8.6.4 zakazuje przejazdu przez E jednostce wymagającej oznakowania na podstawie 3.4.13, z uwzględnieniem 3.4.14.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.4.13; 3.4.14; 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "official_ADR_2025_english_targeted",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Wymaga dosłownej polskiej kontroli i recenzji eksperta; nie rozstrzygnięto wszystkich odstępstw.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
