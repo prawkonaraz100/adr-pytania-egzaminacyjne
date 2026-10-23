@@ -21,9 +21,8 @@ def validate(root=ROOT):
     audit_dir = root / "review" / "sequential"
     paths = sorted(audit_dir.glob("*.json")) if audit_dir.is_dir() else []
     rows = []
-    expected_count = (min(len(bank), 216) + 29) // 30 + (max(len(bank) - 216, 0) + 29) // 30
-    if len(paths) != expected_count:
-        errors.append(f"expected {expected_count} sequential audit files, found {len(paths)}")
+    if not paths:
+        errors.append("no sequential audit files")
     for path in paths:
         try:
             payload = json.loads(path.read_text(encoding="utf-8"))
@@ -35,6 +34,14 @@ def validate(root=ROOT):
             if not isinstance(current, list):
                 errors.append(f"{path.name}: missing records")
                 continue
+            if not current:
+                errors.append(f"{path.name}: empty audit batch")
+                continue
+            start = len(rows) + 1
+            stop = start + len(current) - 1
+            expected_name = f"{start:03d}-{stop:03d}.json"
+            if path.name != expected_name:
+                errors.append(f"{path.name}: expected contiguous batch name {expected_name}")
             rows.extend(current)
         except (ValueError, KeyError) as exc:
             errors.append(f"{path.name}: invalid JSON: {exc}")
