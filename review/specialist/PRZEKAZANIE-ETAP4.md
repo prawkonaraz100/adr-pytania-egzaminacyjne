@@ -1,4 +1,4 @@
-# Przekazanie specjaliście ADR — pakiet aktualny na 542 pytania (etap 4g)
+# Przekazanie specjaliście ADR — historia etapów 4g–4l i aktualny aneks 4m
 
 ## Co obejmuje pakiet
 
@@ -40,3 +40,18 @@
 Nowe archiwalne rejestry zakresowe: `REJESTR-0520-0525.md`, `REJESTR-0526-0533.md`, `REJESTR-0534-0538.md`, `REJESTR-0539-0540.md`, `REJESTR-0541-0542.md`. Obecnie **542 pytania**, z czego **23 nowe (0520–0542)**, 0 verified. Nie używać poprzedniej liczby 519 jako aktualnego stanu.
 
 Dosłowna polska kontrola **0/542 nowych porównań** w poprzednim audycie 4k: `review/batches/stage4k-official-polish-source-blockers.md`. Priorytet P1 to nowe pytania, ze szczególną kontrolą wyników EQ/LQ, wpisów w dokumentacji, ograniczeń tunelowych i wzorów nalepek 2.2/3. Każdy wariant A/B/C wymaga odrębnej fachowej oceny. Egzamin pozostaje zamknięty. Ostatecznym dokumentem stanu jest `review/batches/stage4l-readiness-0542.md`.
+
+
+## Aktualny aneks etapu 4m — 545 pytań (23.10.2026)
+
+**Ten aneks jest nadrzędny wobec historycznych liczb 519/542 w powyższym dokumencie.** Przed rzeczywistą recenzją sprawdzić aktualny `main`, commit SHA i zawartość pytań.
+
+- **Bank:** `podstawowy/questions.jsonl`, 545 kolejnych identyfikatorów ADR-B-0001–0545; wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- **Aktualny indeks specjalisty:** `review/specialist/REJESTR-AKTUALNY-0001-0545.md` — 545 pozycji, ID, pytanie, klucz, podstawa prawna i ścieżka obrazu. Archiwalne indeksy i migawki zachować.
+- **Manifest przekazania:** `review/specialist/PAKIET-0545-MANIFEST.json`. **Rejestr dosłownej kontroli PL:** `review/legal-polish/stage4m-literal-verification-ledger-0001-0545.json` — 545 pozycji z nierozstrzygniętym porównaniem urzędowego polskiego tekstu; nie nadawać `verified`.
+- **Dział ADR-B-06:** 35 pytań po dodaniu 0543–0545, ogólne znaczenia cyfr 2, 4, 7 (ADR 2025 5.3.2.3.1); audyty `review/sequential/543-545.json` oraz `review/legal-clauses/543-545.json`.
+- **Bramka dydaktyczna:** 13 lekcji + ćwiczenia P1–P3; test próbny pozostaje niedostępny przy 0 realnych zatwierdzeń.
+- **Ryzyko wskazówki długości:** poprawna odpowiedź jest jednoznacznie najdłuższa w **370/545 (67,9%)**; próg docelowy ≤40% **nieosiągnięty**. Quality Gate raportuje wskaźnik globalnie i dla każdego modułu (`scripts/answer_length_bias.py`, `--strict` dostępne dopiero po redukcji w całym banku).
+- Raporty 4m: `review/batches/stage4m-length-bias-batch1.md`, `review/batches/stage4m-adr-b-06-543-545.md`, `review/batches/stage4m-length-bias-batch3.md`, bieżący `review/batches/stage4m-readiness-0545.md`.
+
+**Priorytety:** niezależna kontrola A/B/C po każdej zmianie redakcyjnej; dosłowne porównanie polskiego ADR 2025 Dz.U. 642 i sprostowania poz. 1575; dalsze poprawki długości i realistyczności dystraktorów, zwłaszcza w działach powyżej 40%; żadnego przedwczesnego egzaminu publicznego. Nie rozpoczęto kursu cystern ani innych specjalizacji.
