@@ -56,3 +56,7 @@ Nowe zadania 0243–0244: zakaz otwierania przesyłek i praca silnika. Kursant a
 ## Scenariusze 0279–0280 — palenie i e-papierosy
 
 Rozpoznaj zakaz z ADR 8.3.5 podczas czynności ładunkowych w pojeździe i jego pobliżu, również w przypadku urządzeń elektronicznych. Zadania wymagają formalnej kontroli polskiego tekstu Dz.U. 642 i sprostowania 1575.
+
+## Ćwiczenia 0296–0297: bezpieczeństwo awaryjne
+
+Wskazówki z czterostronicowych instrukcji 5.4.3.4: usuwanie źródeł zapłonu, unikanie e-papierosów, odsunięcie się od wycieku i ostrzeganie innych. Ćwiczenia na sucho, bez prawdziwych towarów niebezpiecznych.
