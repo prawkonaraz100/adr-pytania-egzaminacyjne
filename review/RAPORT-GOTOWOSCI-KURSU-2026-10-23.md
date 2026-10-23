@@ -63,3 +63,9 @@ W raporcie 01–03 szczególnie wymagają dopracowania 01-K07, 02-K01/K02/K09/K1
 **Nadal otwarte:** indywidualne literalne porównanie 324 pytań (972 wariantów A/B/C) z ogłoszonym tekstem polskim [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) i sprostowaniem 1575, analiza M364 tam, gdzie jest stosowne, ekspercka kontrola wyjątków i terminologii oraz uzupełnienie rzeczywiście potwierdzonych braków praktycznych nowymi pytaniami z pełnym audytem. Z samego wykrycia powtarzalności nie wynika poprawna treść nowego pytania. Nie dopisywano 0325, nie zmieniano kluczy ani snapshotów.
 
 **Decyzja bez zmian:** 324 pytania `needs_review`, 0 `verified`, eksport BLOCKED, żadnego szkolenia specjalistycznego.
+
+## Stan po partiach 89–95 — 23.10.2026
+
+Przeprowadzono sekwencyjny przegląd redakcyjno-prawny zakresów 0081–0324 i uzupełniono raporty `review/batches/`, łącznie z indywidualnymi ocenami A/B/C. W PR #92 potwierdzono i poprawiono **6 błędów kluczy**: 0220 B→A, 0221 C→B, 0223 B→A, 0224 C→B, 0226 B→A, 0228 A→C, a równocześnie odświeżono historyczne snapshoty audytów. Przypadki z niejednoznacznymi wyjątkami zachowały wymóg oceny przez specjalistę.
+
+**Ważne ograniczenie:** mimo kompletności rejestrów indywidualnych A/B/C cały bank 324 pytań **nie ma udokumentowanego pełnego literalnego porównania wszystkich ustępów autentycznej polskiej publikacji Dz.U. 2025 poz. 642 (54 pliki) oraz każdej stosownej korekty z poz. 1575 i porozumień wielostronnych**. W przeglądach korzystano z pomocniczych tomów polskich MI. Werdykt wstępnie zgodne nie oznacza zakończonej recenzji ani prawnej akceptacji. Pytania pozostają `needs_review`, 0 `verified`, eksport BLOCKED. Przed przekazaniem do wydania specjalista powinien ponownie przejść cały rejestr, szczególnie poprawione klucze, zakres M364, klasę 7, tunele, LQ, zwolnienia i Tabelę A. Nie rozpoczęto cystern ani innych kursów.
