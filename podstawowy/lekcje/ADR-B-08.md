@@ -56,3 +56,7 @@ Pytania: `0022`–`0024`, `0056`–`0057`, `0071`–`0077`, `0137`.
 **Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
 
 **Podstawa do weryfikacji:** ADR 8.1.4.5; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
+
+## Zestaw sytuacyjny wyposażenia 0251–0254 (szkic)
+
+Przed wyjazdem kursant sprawdza klin **dla każdego pojazdu**, kamizelki oraz ochronę oczu **dla każdego członka załogi**, i dodatkową maskę ucieczkową dla nalepek 2.3/6.1. Przedmiotem ćwiczenia jest lista kontrolna ADR 8.1.5.2–3, a nie pozorne zaliczenie P1–P3. Źródło: Dz.U. 2025 poz. 642; sprostowanie poz. 1575. Wymagana indywidualna kontrola urzędowego tekstu i recenzja specjalisty.
