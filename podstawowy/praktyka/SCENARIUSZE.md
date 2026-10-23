@@ -126,3 +126,7 @@ Instruktor na symulowanej planszy tunelu ocenia: 1) zakaz gaszenia przestrzeni �
 ## Wariant instruktażu P3 — decyzja o postoju (0310)
 
 Instruktor przedstawia fikcyjną trasę i scenariusz z zastosowaniem ADR 8.4.1. Kursant (1) identyfikuje potrzebę nadzoru, (2) wybiera bezpieczną bazę, (3) uzasadnia warunki kolejnych alternatyw i (4) wskazuje procedurę zgłoszenia problemu. Każdy element dokumentować jako zaliczone/do powtórzenia/nieocenione; bez faktycznego przewozu i automatycznego zaliczania P3.
+
+## Instruktorski wariant P3 — prywatny przewóz (0313)
+
+Na fikcyjnych kartach ładunków kursant (1) wskazuje cel wykorzystania, (2) sprawdza opakowanie detaliczne, (3) ocenia zabezpieczenie przed wyciekiem, (4) wskazuje potrzebę dodatkowej oceny ilości cieczy łatwopalnych. Instruktor notuje obserwacje i zaliczone/do powtórzenia/nieocenione. Brak rzeczywistego towaru i fikcyjnych zaliczeń.
