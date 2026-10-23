@@ -100,3 +100,7 @@ Na bezpiecznych atrapach kursant wybiera, które przesyłki wymagają sprawdzeni
 ## Rozszerzenie P3 — procedura bezpiecznej ewakuacji przy wycieku (projekt 23.10.2026)
 
 Instruktor przedstawia makietę zdarzenia i bezpiecznie zasymulowany rozlew. Kursant wskazuje stronę nawietrzną, źródła zapłonu, strefę bez dostępu dla osób postronnych oraz konieczność wezwania służb; pytania powiązane: ADR-B-0295–0297, ADR 5.4.3.4. Nie używać rzeczywistych materiałów i nie zaliczać zdalnie czynności P1–P3.
+
+## Stanowisko szkoleniowe P3 — rozpoznanie oznakowania i identyfikacja (szkic 23.10.2026)
+
+Instruktor przygotowuje własną, legalnie używaną makietę kontenera z miejscami na nalepki i tablicę „80” oraz sprawdza, czy kursant umie nazwać zagrożenie i właściwe miejsca nalepek. Następnie ćwiczy procedurę kontroli tożsamości załogi przy fikcyjnych danych. Powiązanie ADR-B-0298–0300, ADR 5.3.1.2, 5.3.2.3.2, 1.10.1.4. Brak rzeczywistych towarów, brak automatycznego zaliczenia P1–P3.
