@@ -20,29 +20,29 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po rozładunku ADR na podłodze pojazdu zauważono wyciek z przesyłki. Co należy zrobić przed ponownym załadunkiem?",
+        "stem": "Po rozładunku pusty, nieoczyszczony kontener ADR jedzie zgodnie z 7.5.8.1 do najbliższego odpowiedniego miejsca czyszczenia. Jaka dodatkowa informacja jest wymagana w dokumencie przewozowym?",
         "options": {
-          "A": "Oczyścić pojazd lub kontener",
-          "B": "Przykryć wyciek folią",
-          "C": "Zignorować wyciek przy krótkiej trasie"
+          "A": "Wskazanie, że przewóz odbywa się zgodnie z 7.5.8.1",
+          "B": "Oświadczenie, że kontener jest już czysty i bez pozostałości",
+          "C": "Zwolnienie ze wszystkich danych dokumentu, bo kontener jest pusty"
         },
         "correct_option": "A",
-        "explanation": "Po wycieku stwierdzonym po rozładunku należy oczyścić pojazd lub kontener przed ponownym załadunkiem.",
+        "explanation": "Gdy pusty nieoczyszczony pojazd lub kontener jest przemieszczany do najbliższego miejsca czyszczenia lub naprawy zgodnie z 7.5.8.1, ADR 5.4.1.1.6.3(b) przewiduje dodatkową wzmiankę o przewozie na tych warunkach. Samo opróżnienie nie oznacza oczyszczenia ani braku obowiązków.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.8.1",
+            "reference": "ADR 2025, 5.4.1.1.6.3(b); 7.5.8.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
       },
-      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
-      "supplementary_source_url": null,
+      "source_crosscheck_scope": "specific_2025_English_ADR_clause_and_IMDG_crosscheck_not_full_Polish",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Full Polish ADR clause and correction check pending; independently review exceptions.",
+      "source_risk_note": "Treść zróżnicowana po wykryciu powtórzenia: Zastąpiono powtórzony nakaz czyszczenia (0009) odrębnym warunkiem dokumentacyjnym dla przejazdu do miejsca czyszczenia. Polska urzędowa publikacja i sprostowanie wymagają pełnego porównania.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
