@@ -1,0 +1,86 @@
+{
+  "title": "ADR 2025 basic image requirements — original instructional vector drafts",
+  "date": "2026-10-23",
+  "release_approved": false,
+  "copyright_policy": "Original vectors authored for this repository; no copied stock photos, proprietary textbook diagrams or externally downloaded files. Verify legal rendering and do not use files as real vehicle markings.",
+  "source_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "corrigendum": "https://dziennikustaw.gov.pl/DU/2025/1575",
+  "assets": [
+    {
+      "id": "ADR-B-0255",
+      "category": "orange-plate",
+      "image": "assets/adr-original/adr-b-0255-orange-33-1203.svg",
+      "alt": "Schemat pomarańczowej tablicy: numer rozpoznawczy zagrożenia 33 u góry i numer UN 1203 na dole",
+      "legal_reference": "ADR 2025, 5.3.2.2.2",
+      "needs_specialist_validation": true,
+      "publication_ready": false
+    },
+    {
+      "id": "ADR-B-0256",
+      "category": "orange-plate",
+      "image": "assets/adr-original/adr-b-0256-orange-x.svg",
+      "alt": "Pomarańczowa tablica edukacyjna z przykładowym X80 w górnym polu i fikcyjnym numerem 1234 na dole",
+      "legal_reference": "ADR 2025, 5.3.2.3.1",
+      "needs_specialist_validation": true,
+      "publication_ready": false
+    },
+    {
+      "id": "ADR-B-0260",
+      "category": "excepted-quantities",
+      "image": "assets/adr-original/adr-b-0260-eq-e0-table.svg",
+      "alt": "Edukacyjny wycinek kolumny 7b tabeli A z kodem E0, nie oficjalny znak EQ",
+      "legal_reference": "ADR 2025, 3.5.1.2",
+      "needs_specialist_validation": true,
+      "publication_ready": false
+    },
+    {
+      "id": "ADR-B-0262",
+      "category": "tunnel-category",
+      "image": "assets/adr-original/adr-b-0262-tunnel-e.svg",
+      "alt": "Poglądowa ilustracja tunelu oznaczonego kategorią E, nie wzorcowy znak drogowy",
+      "legal_reference": "ADR 2025, 1.9.5.3.6; 8.6.4",
+      "needs_specialist_validation": true,
+      "publication_ready": false
+    },
+    {
+      "id": "ADR-B-0268",
+      "category": "label-4.1",
+      "image": "assets/adr-original/adr-b-0268-label-4-1.svg",
+      "alt": "Oryginalny schemat nalepki 4.1: białe i czerwone pasy, płomień, cyfra 4",
+      "legal_reference": "ADR 2025, 5.2.2.2.2",
+      "needs_specialist_validation": true,
+      "publication_ready": false
+    },
+    {
+      "id": "ADR-B-0270",
+      "category": "label-5.1",
+      "image": "assets/adr-original/adr-b-0270-label-5-1.svg",
+      "alt": "Oryginalny schemat nalepki 5.1: żółty romb, płomień nad okręgiem, liczba 5.1",
+      "legal_reference": "ADR 2025, 5.2.2.2.2",
+      "needs_specialist_validation": true,
+      "publication_ready": false
+    },
+    {
+      "id": "ADR-B-0273",
+      "category": "limited-quantities",
+      "image": "assets/adr-original/adr-b-0273-lq-mark.svg",
+      "alt": "Oryginalny schemat znaku LQ: romb o czarnej górze i dole oraz białym środku",
+      "legal_reference": "ADR 2025, 3.4.7.1",
+      "needs_specialist_validation": true,
+      "publication_ready": false
+    }
+  ],
+  "planned_without_question_binding": [
+    {
+      "category": "excepted-quantities-standard-mark",
+      "legal_reference": "ADR 2025, 3.5.4.2",
+      "note": "Future separate EQ recognition graphic should reproduce legally checked 100x100 mm mark including required class-number and consignor/consignee labels. Not bound to ADR-B-0260, which asks about the E0 code and would be misrepresented by a valid EQ mark."
+    }
+  ],
+  "design_requirements": {
+    "format": "SVG vector original; scale independently, true aspect proportions validated against ADR",
+    "accessibility": "Every rendering must have own alt caption; no essential information encoded in hue alone",
+    "transport_use": "No files may be used as official traffic or package markings without a separate compliance check",
+    "validation": "Specialist ADR reviews layout and symbols against Polish Dz.U. 2025 poz.642 and erratum 1575; final SVG not verified"
+  }
+}
