@@ -35,3 +35,7 @@ Kolejna część weryfikacji prawnomerytorycznej rozpoczyna się od **ADR-B-0017
 ## Kontynuacja 0097–0112
 
 [Karty indywidualne A/B/C](0097-0112.json): 16 kart, 48 ocen opcji; 5 kart z flagami warunków/wyjątków. Nie jest to pełne porównanie z urzędowym polskim ADR 2025, Dz.U. 642 i sprostowaniem 1575, ani recenzja specjalisty; M364 odnotowano jako możliwe odstępstwo dla odpowiednich tematów. Klucze i statusy bez zmian. Kolejny zakres: 0113–0128.
+
+## Kontynuacja 0113–0128
+
+[Karty indywidualne A/B/C](0113-0128.json): 16 kart, 48 ocen opcji; 6 kart z flagami warunków/wyjątków. Wstępny przegląd oparty na analizach, bez ukończonego zestawienia wszystkich wariantów z oficjalnym polskim ADR Dz.U.642, sprostowaniem 1575, warunkami M364 i podpisem specjalisty. Klucze i statusy bez zmian; następnie 0129–0144.
