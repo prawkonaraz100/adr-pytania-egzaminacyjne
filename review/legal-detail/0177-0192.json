@@ -1,0 +1,727 @@
+{
+  "date": "2026-10-23",
+  "range": "ADR-B-0177..ADR-B-0192",
+  "scope": "Provisional individual A/B/C reasoning derived from prior clause reviews; detailed official Polish ADR 2025 642, correction 1575 and M364 application NOT checked point-by-point; independent specialist review pending",
+  "records": [
+    {
+      "id": "ADR-B-0177",
+      "sequence": 177,
+      "snapshot": {
+        "stem": "Po rozładunku ADR w skrzyni ładunkowej wykryto pozostałości wycieku. Na miejscu nie ma możliwości bezpiecznego czyszczenia. Co przewiduje ADR 7.5.8.1?",
+        "options": {
+          "A": "Przewiezienie pojazdu z odpowiednimi środkami bezpieczeństwa do najbliższego odpowiedniego miejsca czyszczenia",
+          "B": "Wykonanie następnego załadunku, a czyszczenie dopiero przed trzecią trasą",
+          "C": "Zignorowanie pozostałości, jeśli pojemnik już jest pusty"
+        },
+        "correct_option": "A",
+        "explanation": "Jeśli na miejscu nie można oczyścić pojazdu, należy skierować go, z odpowiednimi zabezpieczeniami, do najbliższego odpowiedniego miejsca. Nie wolno wykonywać kolejnego załadunku przed wymaganym oczyszczeniem.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Gdy czyszczenie na miejscu niemożliwe, pojazd można bezpiecznie skierować do odpowiedniego miejsca."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kolejny załadunek przed wymaganym oczyszczeniem jest niedopuszczalny."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pustość opakowania nie usuwa pozostałości wycieku."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Środki zapobiegające dalszemu wyciekowi i inne wymagania muszą być spełnione.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0178",
+      "sequence": 178,
+      "snapshot": {
+        "stem": "Podczas awarii opakowania ADR kierowca zauważa pary unoszące się przy drzwiach ładowni. Jak ograniczyć ryzyko skażenia?",
+        "options": {
+          "A": "Zamknąć wszystkie wyjścia i zostać w pobliżu chmury, by pilnować ładunku",
+          "B": "Unikać wdychania oparów i bezpośredniego kontaktu, odejść w bezpieczne miejsce",
+          "C": "Podejść bliżej i sprawdzić zapach w celu ustalenia materiału"
+        },
+        "correct_option": "B",
+        "explanation": "Przy nieznanej chmurze lub wycieku pierwszeństwo ma unikanie wdychania par i kontaktu z uwolnionym materiałem. Rozpoznawanie nie polega na dotykaniu ani wąchaniu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pozostawanie przy chmurze par zwiększa narażenie."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Odejście od oparów, unikanie ich wdychania i kontaktu jest właściwe."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wąchanie substancji dla identyfikacji jest niebezpieczne."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Postępować zgodnie z instrukcjami, zachować stronę nawietrzną i wezwać służby.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0179",
+      "sequence": 179,
+      "snapshot": {
+        "stem": "Do przewozu zgłoszono odpad ADR. Nadawca chce w dokumencie przewozowym podać samo słowo „ODPAD”, bez identyfikacji materiału. Co jest prawidłowe?",
+        "options": {
+          "A": "Samo słowo ODPAD wystarczy, jeśli beczki są zamknięte",
+          "B": "Słowo ODPAD zastępuje numer UN wyłącznie przy przewozie krajowym",
+          "C": "Wymagany opis przewozowy nadal musi zawierać właściwą identyfikację, a oznaczenie odpadu uzupełnia ją zgodnie z ADR"
+        },
+        "correct_option": "C",
+        "explanation": "Oznaczenie ODPAD nie znosi wymagań opisu towaru, numeru UN i innych danych, o ile mają zastosowanie. ADR 5.4.1.1.3.1 przewiduje sposób uzupełnienia nazwy przewozowej.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1; 5.4.1.1.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Samo słowo ODPAD nie zawiera danych przewozowych."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "ODPAD nie zastępuje numeru UN także w ruchu krajowym."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Właściwa identyfikacja towaru i oznaczenie odpadu muszą współistnieć."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Wyjątek dla odpadów promieniotwórczych i 2.1.3.5.5.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0180",
+      "sequence": 180,
+      "snapshot": {
+        "stem": "Po kolizji opakowanie z materiałem żrącym pękło. Nie ma pewności, czy rękawice kierowcy chronią przed tym materiałem. Co należy zrobić?",
+        "options": {
+          "A": "Nie dotykać ani nie przenosić wyciekającego opakowania; oddalić się i postępować według instrukcji oraz służb",
+          "B": "Przenieść opakowanie gołymi rękami, aby jak najszybciej usunąć je z drogi",
+          "C": "Wycierać wyciek zwykłą szmatką bez wcześniejszej oceny zagrożenia"
+        },
+        "correct_option": "A",
+        "explanation": "Nieznany lub niekontrolowany kontakt z substancją niebezpieczną może spowodować poważne obrażenia. Instrukcje podkreślają unikanie kontaktu i pierwszeństwo bezpieczeństwa.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nieznana rękawica może nie chronić przed materiałem żrącym."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przenoszenie rękami bez ochrony powoduje ryzyko oparzeń."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zwykła szmatka nie jest bezpieczną procedurą rozlewu."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Pierwszeństwo oddalenia się i wezwania przeszkolonych służb.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0181",
+      "sequence": 181,
+      "snapshot": {
+        "stem": "W przewozie objętym wymaganiami 8.4 ADR kierowca nie znajduje chronionego depozytu ani właściwego terenu zakładu. Co powinien zrobić?",
+        "options": {
+          "A": "Wybrać dowolne pobocze bez sprawdzania dalszych wymagań",
+          "B": "Sprawdzić kolejne dopuszczalne miejsca postoju i warunki określone w 8.4.1, zamiast parkować gdziekolwiek",
+          "C": "Uznawać, że 8.4.1 przestaje obowiązywać po pierwszej nieudanej próbie zaparkowania"
+        },
+        "correct_option": "B",
+        "explanation": "ADR podaje określoną kolejność alternatywnych rodzajów miejsc postoju, gdy niedostępne jest pierwsze odpowiednio chronione miejsce.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.4.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dowolne niezabezpieczone pobocze nie spełnia wymogu postoju."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Należy ustalić następne dopuszczalne miejsce i warunki 8.4.1."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Brak depozytu nie powoduje wygaśnięcia przepisów nadzoru."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Stosowanie 8.4 zależy od pozycji, ilości i przepisów szczególnych.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0182",
+      "sequence": 182,
+      "snapshot": {
+        "stem": "Po niewielkiej kolizji pojazd ADR jest unieruchomiony, a kierowca może bezpiecznie podejść do przełącznika wyłączającego akumulator. Jak powinien postąpić?",
+        "options": {
+          "A": "Uruchomić silnik, żeby sprawdzić stan instalacji, mimo podejrzenia wycieku",
+          "B": "Zostawić silnik na biegu jałowym i uruchomić dodatkowe urządzenia",
+          "C": "Zabezpieczyć pojazd, wyłączyć silnik i — jeśli jest dostępny — użyć głównego wyłącznika akumulatora"
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne wskazują hamulec postojowy, wyłączenie silnika i użycie wyłącznika akumulatora, gdy jest dostępny, o ile można to wykonać bezpiecznie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Uruchamianie silnika przy podejrzeniu wycieku może być niebezpieczne."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Bieg jałowy i niepotrzebna elektryka to potencjalne zagrożenie."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zatrzymać, hamulec postojowy, wyłączyć silnik i użyć dostępnego wyłącznika."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Działać wyłącznie gdy można bezpiecznie.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0183",
+      "sequence": 183,
+      "snapshot": {
+        "stem": "Z uszkodzonego opakowania ADR wydobywa się chmura oparów. Wiatr wieje od ładowni w stronę kierowcy. Gdzie powinien się przemieścić?",
+        "options": {
+          "A": "W miejsce po stronie nawietrznej, poza kierunkiem przemieszczania się chmury",
+          "B": "Dokładnie wzdłuż kierunku chmury, aby szybciej rozpoznać substancję",
+          "C": "Pod wiatr tylko wtedy, gdy chmura nie jest widoczna"
+        },
+        "correct_option": "A",
+        "explanation": "By ograniczyć wdychanie niebezpiecznych oparów, kierowca powinien znajdować się po stronie nawietrznej w bezpiecznej odległości.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Strona nawietrzna ogranicza narażenie na przemieszczającą się chmurę."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Chodzenie w chmurze par jest niebezpieczne."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Brak widocznej chmury nie dowodzi braku oparów."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Dystans, kierunek wiatru i ewakuacja pozostają najważniejsze.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0184",
+      "sequence": 184,
+      "snapshot": {
+        "stem": "Pali się niewielka część hamulca pojazdu ADR, ogień jest w początkowej fazie, a droga ewakuacji pozostaje bezpieczna. Co przewidują instrukcje?",
+        "options": {
+          "A": "Każdy pożar pojazdu musi gasić kierowca niezależnie od bezpieczeństwa",
+          "B": "Załoga może rozważyć użycie gaśnicy do małego, początkowego pożaru hamulców, jeśli jest to odpowiednie i bezpieczne",
+          "C": "Załoga musi otworzyć wszystkie opakowania, zanim sięgnie po gaśnicę"
+        },
+        "correct_option": "B",
+        "explanation": "ADR dopuszcza użycie gaśnic przez załogę tylko w odpowiednich, bezpiecznych warunkach przy małych pożarach np. hamulców, silnika czy opon. Pożaru przedziału ładunkowego załoga nie gasi.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Załoga nie ma obowiązku gasić każdego pożaru, nawet gdy to ryzykowne."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Początkowy mały pożar hamulców można próbować gasić w bezpiecznych warunkach."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Otwieranie opakowań nie jest wymagane do gaszenia hamulców."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie należy gasić pożaru obejmującego ładownię.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0185",
+      "sequence": 185,
+      "snapshot": {
+        "stem": "Straż pożarna dojeżdża do uszkodzonego pojazdu ADR. Dokument przewozowy jest bezpiecznie dostępny w kabinie. Co jest zgodne z instrukcjami?",
+        "options": {
+          "A": "Schować dokumenty przed służbami, ponieważ zawierają dane ładunku",
+          "B": "Przekazać służbom tylko numer rejestracyjny, bez informacji o niebezpiecznych towarach",
+          "C": "Udostępnić ratownikom dokumenty przewozowe i możliwie dokładne informacje o ładunku"
+        },
+        "correct_option": "C",
+        "explanation": "Ratownicy potrzebują informacji o niebezpiecznych towarach i przebiegu zdarzenia. Instrukcje przewidują łatwy dostęp do dokumentacji przewozowej.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ukrywanie dokumentów utrudnia działania ratowników."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sam numer rejestracyjny nie zastępuje opisu towarów."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ratownikom trzeba udostępnić dokumenty i informacje o niebezpiecznych towarach."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie wracać do niebezpiecznej kabiny dla dokumentów.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0186",
+      "sequence": 186,
+      "snapshot": {
+        "stem": "W pobliżu awarii ADR zbierają się obserwatorzy. Kierowca sam znajduje się już w bezpiecznym miejscu. Co powinien zrobić?",
+        "options": {
+          "A": "Ostrzec osoby, żeby nie zbliżały się do zagrożenia, i pozostawić interwencję odpowiednim służbom",
+          "B": "Poprosić obserwatorów o przeniesienie uszkodzonych paczek",
+          "C": "Zaproponować wejście do kabiny w celu przyjrzenia się dokumentom"
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcje wskazują ostrzeganie osób postronnych i odsunięcie się od obszaru zagrożenia. Nie wolno angażować nieprzeszkolonych obserwatorów w działania przy wycieku.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ostrzec innych i nie dopuszczać ich do strefy zagrożenia."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nieproszonych obserwatorów nie należy angażować w przenoszenie towaru."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zgoda na wejście do kabiny zwiększa liczbę narażonych."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Kontakty z obserwatorami wyłącznie bezpieczne.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0187",
+      "sequence": 187,
+      "snapshot": {
+        "stem": "Poszkodowany leży obok uszkodzonej przesyłki ADR, a w powietrzu widać chmurę gazu. Co jest pierwszym obowiązkiem osoby udzielającej pomocy?",
+        "options": {
+          "A": "Bez zastanowienia wejść w chmurę, nawet bez ochrony",
+          "B": "Ocenić bezpieczeństwo miejsca, nie narażać się na substancję, wezwać służby i działać w granicach przygotowania",
+          "C": "Natychmiast przenieść każdą przesyłkę w inne miejsce"
+        },
+        "correct_option": "B",
+        "explanation": "Pierwsza pomoc nie może prowadzić do kolejnych ofiar. W strefę potencjalnego skażenia nie wchodzi się bez oceny zagrożenia i odpowiedniej ochrony.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4; program szkolenia praktycznego",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wejście w gaz bez środków bezpieczeństwa grozi kolejną ofiarą."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ocenić własne bezpieczeństwo, wezwać służby i działać w granicach przygotowania."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przesuwanie opakowań bez identyfikacji zwiększa ryzyko."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Pierwsza pomoc nie może narażać pomagającego; wymagane ćwiczenia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0188",
+      "sequence": 188,
+      "snapshot": {
+        "stem": "Na przesyłce, dla której ADR wymaga numeru UN, naniesiono same cyfry „1203” bez poprzedzających liter. Co jest prawidłowe?",
+        "options": {
+          "A": "Numer UN na opakowaniu wolno zawsze zapisać samymi cyframi bez liter",
+          "B": "Wystarczy zapis w dokumencie przewozowym, nawet gdy opakowanie wymaga oznakowania",
+          "C": "Znakowanie należy poprawić do formatu przewidzianego w ADR, z literami UN przed numerem"
+        },
+        "correct_option": "C",
+        "explanation": "O ile nie zachodzi konkretny wyjątek, oznakowanie sztuki przesyłki wymaga poprzedzenia numeru czterocyfrowego literami UN.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Czterocyfrowy numer na przesyłce wymaga oznaczenia UN."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dokument przewozowy nie zastępuje wymaganego napisu na opakowaniu."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przed numerem trzeba umieścić litery UN."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Sprawdzić szczególne zasady oznakowania i wyłączenia opakowań.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0189",
+      "sequence": 189,
+      "snapshot": {
+        "stem": "Paczka jest oznaczona główną nalepką ADR, ale według odpowiedniej pozycji w tabeli A wymaga też nalepki zagrożenia dodatkowego. Jak ją przygotować?",
+        "options": {
+          "A": "Umieścić wymagane nalepki zgodnie z ADR, także dotyczące zagrożenia dodatkowego",
+          "B": "Pominąć dodatkową nalepkę, jeśli numer UN jest podany w dokumencie",
+          "C": "Zastąpić obie nalepki samym opisem w języku polskim na opakowaniu"
+        },
+        "correct_option": "A",
+        "explanation": "Kolumna 5 tabeli A wskazuje wzory nalepek wymaganych dla pozycji UN, w tym zagrożenia dodatkowe. Nie zastępuje ich sam dokument przewozowy.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.2 tabela A kol. (5); 5.2.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wymagane nalepki główne i dodatkowe należy umieścić zgodnie z ADR."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Numer UN w dokumencie nie zastępuje nalepek zagrożeń dodatkowych."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sam opis słowny nie zastępuje wymaganych nalepek."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie wszystkie towary mają nalepki dodatkowe; ustalić pozycję UN.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0190",
+      "sequence": 190,
+      "snapshot": {
+        "stem": "Na numerowanej pomarańczowej tablicy ADR dwa oznaczenia są rozdzielone poziomą czarną linią. Co oznacza górne oznaczenie?",
+        "options": {
+          "A": "Numer UN identyfikujący konkretny towar",
+          "B": "Numer rozpoznawczy zagrożenia (kod Kemlera)",
+          "C": "Numer zaświadczenia kierowcy ADR"
+        },
+        "correct_option": "B",
+        "explanation": "Górny numer wskazuje rodzaj zagrożenia, dolny czterocyfrowy numer to UN. Kierowca powinien odróżniać ich funkcje.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dolny numer to UN, a nie górny."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Górny numer dotyczy rozpoznania zagrożenia."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zaświadczenie kierowcy to inny dokument."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Są również puste tablice pomarańczowe przy odpowiednich przewozach.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0191",
+      "sequence": 191,
+      "snapshot": {
+        "stem": "Standardowa pomarańczowa tablica ADR ma 400 × 300 mm. Czy w 5.3.2.2.1 przewidziano też dopuszczalne rozwiązanie dla pojazdu, na którym nie ma miejsca na standardową tablicę?",
+        "options": {
+          "A": "Nie, ADR nie przewiduje wyjątków od wymiarów",
+          "B": "Tak, każdą tablicę wolno zmniejszyć do dowolnego rozmiaru bez warunków",
+          "C": "Tak, pod określonymi warunkami dopuszczono mniejszą tablicę o wymiarach 300 × 120 mm"
+        },
+        "correct_option": "C",
+        "explanation": "Standardowa tablica ma 400 × 300 mm. ADR dopuszcza mniejsze wymiary pod warunkami przepisu i z zachowaniem czytelności oznakowania.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "ADR przewiduje warunkowo mniejszą tablicę."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie można jej zmniejszyć dowolnie bez zachowania minimum."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "300 × 120 mm jest możliwe w ograniczonym przypadku braku miejsca."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Nie mylić tolerancji standardu i warunkowej redukcji.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0192",
+      "sequence": 192,
+      "snapshot": {
+        "stem": "Na pomarańczowej tablicy ADR występuje dwukrotnie cyfra 3 w numerze rozpoznawczym zagrożenia, np. „33”. Jaką zasadę należy zastosować?",
+        "options": {
+          "A": "Powtórzenie cyfry oznacza nasilenie odpowiadającego jej zagrożenia",
+          "B": "Druga cyfra to zawsze kategoria tunelu",
+          "C": "Powtórzenie oznacza, że towar jest wyłączony z ADR"
+        },
+        "correct_option": "A",
+        "explanation": "Powtórzenie cyfry co do zasady nasila wskazany rodzaj zagrożenia. Cały numer należy jednak czytać zgodnie z regułami ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Powtórzenie cyfry nasila odpowiadające jej zagrożenie."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Druga cyfra nie jest automatycznie kategorią tunelu."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Powtórzenie nie powoduje zwolnienia z ADR."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Znaczenie całego numeru należy sprawdzić dla danego materiału.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    }
+  ]
+}
