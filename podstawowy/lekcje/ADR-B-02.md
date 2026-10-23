@@ -70,3 +70,7 @@ Przećwicz: klasy 1–9 z podklasami, różnice 4.1/4.2/4.3 i 5.1/5.2, grupy pak
 ## Rozpoznawanie klas bez grafiki — ADR-B-0265–0267
 
 Uczestnik rozpoznaje zagrożenia z opisów klas 4.3 (gaz palny w kontakcie z wodą), 5.1 (utleniające) i 8 (żrące). To tymczasowe zadania tekstowe; wzory nalepek i prawidłową identyfikację grafiki musi zatwierdzić ekspert. Źródła ADR 2.2.43.1.1, 2.2.51.1.1, 2.2.8.1.1. Status szkicu, nie zatwierdzenie urzędowe.
+
+## Opisowe rozpoznawanie nalepek 0268–0270
+
+Kursant odróżnia białe/czerwone pionowe pasy wzoru 4.1, niebieski płomień wzoru 4.3 i płomień nad okręgiem na żółtym tle wzoru 5.1. Dopóki brak licencjonowanych wzorów graficznych, stosuje się opisy tekstowe. Wzory ADR 5.2.2.2.2: sprawdzić oficjalne brzmienie Dz.U. 642 ze sprostowaniem 1575 przed zatwierdzeniem lekcji.
