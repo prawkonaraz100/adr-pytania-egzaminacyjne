@@ -1,0 +1,1126 @@
+{
+  "records": [
+    {
+      "id": "ADR-B-0001",
+      "declared_reference": "ADR 2025, 1.3.2",
+      "checked_clause": "1.3.2.1–3",
+      "source_location": "PL tom I, s. PDF 52",
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Wyłącznie ogólne szkolenie BHP, bez zagadnień ADR związanych z jego obowiązkami",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "B": {
+          "text": "Zawsze tylko specjalistyczny kurs kierowcy z 8.2, niezależnie od rodzaju pracy magazynowej",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "C": {
+          "text": "Szkolenie z wymagań ADR dotyczących jego pracy",
+          "key_matches": true,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        }
+      },
+      "explanation": "Pracownik nadawcy musi być przeszkolony odpowiednio do swoich obowiązków. Szkolenie z działu 1.3 nie zastępuje odrębnego szkolenia kierowcy wymaganego rozdziałem 8.2.",
+      "explanation_result": "wstępnie zgodne",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wstępnie zgodne z polskim tekstem pomocniczym"
+    },
+    {
+      "id": "ADR-B-0002",
+      "declared_reference": "ADR 2025, 1.1.3",
+      "checked_clause": "1.1.3.6",
+      "source_location": "PL tom I, s. PDF 23",
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Tak, niezależnie od rodzaju towaru",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "B": {
+          "text": "Nie, zwolnienia zależą od warunków określonych w ADR",
+          "key_matches": true,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "C": {
+          "text": "Tak, jeśli kierowca jedzie tylko po Polsce",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        }
+      },
+      "explanation": "Nie. ADR przewiduje różne wyłączenia i zwolnienia częściowe, ale zależą one m.in. od klasy towaru, ilości na jednostkę transportową, rodzaju opakowania i warunków przewozu.",
+      "explanation_result": "wstępnie zgodne",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wstępnie zgodne z polskim tekstem pomocniczym"
+    },
+    {
+      "id": "ADR-B-0003",
+      "declared_reference": "ADR 2025, 8.2.1",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Zastępuje prawo jazdy",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Zezwala przewozić dowolny ładunek bez innych dokumentów",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Potwierdza odpowiednie przeszkolenie kierowcy do przewozu objętego wymaganiem ADR",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Zaświadczenie ADR potwierdza ukończenie właściwego szkolenia i zdanie egzaminu, ale nie zastępuje innych dokumentów.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0004",
+      "declared_reference": "ADR 2025, 2.2.3.1.1",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Klasa 3",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Klasa 8",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Klasa 6.2",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Klasa 3 dotyczy cieczy zapalnych. Benzyna jest typowym przykładem tego zagrożenia.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0005",
+      "declared_reference": "ADR 2025, 2.2.8.1.1",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Zagrożenie promieniotwórcze",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Działanie żrące",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zagrożenie zakażeniem",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Towary klasy 8 mogą działać żrąco, m.in. poważnie uszkadzać skórę i materiały.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0006",
+      "declared_reference": "ADR 2025, 2.2.43.1.1",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Zawsze są gazami pod ciśnieniem",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Są wyłącznie cieczami żrącymi",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "W kontakcie z wodą wydzielają gazy palne",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Materiały klasy 4.3 mogą uwalniać palny gaz po kontakcie z wodą. Dlatego woda może zwiększyć niebezpieczeństwo.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0007",
+      "declared_reference": "ADR 2025, 5.2.1.8",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Symbol martwej ryby i drzewa",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Dwa skrzyżowane młotki",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Błyskawicę w żółtym trójkącie",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Znak dla materiałów zagrażających środowisku ma symbol martwego drzewa i ryby. Nie jest to numer klasy zagrożenia; obowiązek użycia znaku zależy od rodzaju przesyłki i warunków ADR.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0008",
+      "declared_reference": "ADR 2025, 5.4.1.1.3.1",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Że nie trzeba podawać numeru UN",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Że przesyłka jest odpadem objętym zasadami przewozu ADR",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Że przewóz nie podlega już przepisom ADR",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "W oznaczonym przypadku słowo „ODPAD” wskazuje, że przewożona substancja jest odpadem. Nie zastępuje numeru UN ani pozostałych wymaganych danych. ADR 5.4.1.1.3.1 reguluje też wyjątek dla odpadów promieniotwórczych oraz odrębny zapis przy stosowaniu 2.1.3.5.5.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0009",
+      "declared_reference": "ADR 2025, 7.5.8.1",
+      "checked_clause": "7.5.8.1",
+      "source_location": "PL tom II, s. PDF 615",
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Zignorować zabrudzenie, jeśli nie ma silnego zapachu",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "B": {
+          "text": "Oczyścić pojazd zgodnie z ADR przed ponownym załadunkiem",
+          "key_matches": true,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "C": {
+          "text": "Przykryć zabrudzenie pustym kartonem",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        }
+      },
+      "explanation": "Jeśli po rozładunku sztuk przesyłki zauważono, że część zawartości wydostała się z opakowania, pojazd należy jak najszybciej oczyścić, a w każdym przypadku przed ponownym załadunkiem. Gdy nie da się zrobić tego na miejscu, obowiązują dodatkowe warunki bezpieczeństwa.",
+      "explanation_result": "wstępnie zgodne",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wstępnie zgodne z polskim tekstem pomocniczym"
+    },
+    {
+      "id": "ADR-B-0010",
+      "declared_reference": "ADR 2025, 8.3.5",
+      "checked_clause": "8.3.5",
+      "source_location": "PL tom II, s. PDF 638",
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Tak, bo nie ma płomienia",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "B": {
+          "text": "Tak, ale tylko kierowcy",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "C": {
+          "text": "Nie, zakaz obejmuje również e-papierosy i podobne urządzenia",
+          "key_matches": true,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        }
+      },
+      "explanation": "Podczas czynności ładunkowych obowiązuje zakaz palenia, który obejmuje też e-papierosy.",
+      "explanation_result": "wstępnie zgodne",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wstępnie zgodne z polskim tekstem pomocniczym"
+    },
+    {
+      "id": "ADR-B-0011",
+      "declared_reference": "ADR 2025, 8.3.3",
+      "checked_clause": "8.3.3",
+      "source_location": "PL tom II, s. PDF 638",
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Tak, jeśli chce sprawdzić zapach zawartości",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "B": {
+          "text": "Tak, jeśli pojazd stoi na parkingu",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "C": {
+          "text": "Nie, załodze nie wolno otwierać takich przesyłek",
+          "key_matches": true,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        }
+      },
+      "explanation": "Otwarcie opakowania może narazić kierowcę na kontakt z niebezpieczną substancją. ADR zabrania tego załodze.",
+      "explanation_result": "wstępnie zgodne",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wstępnie zgodne z polskim tekstem pomocniczym"
+    },
+    {
+      "id": "ADR-B-0012",
+      "declared_reference": "ADR 2025, 8.3.6",
+      "checked_clause": "8.3.6",
+      "source_location": "PL tom II, s. PDF 638",
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Zwiększyć obroty silnika",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "B": {
+          "text": "Wyłączyć silnik, chyba że zachodzi przewidziany przepisami wyjątek",
+          "key_matches": true,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "C": {
+          "text": "Zawsze pozostawić silnik włączony",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        }
+      },
+      "explanation": "ADR co do zasady wymaga wyłączenia silnika przy przeładunku. Są określone wyjątki, np. napęd urządzeń, o ile pozwala na to prawo.",
+      "explanation_result": "wstępnie zgodne",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wstępnie zgodne z polskim tekstem pomocniczym"
+    },
+    {
+      "id": "ADR-B-0013",
+      "declared_reference": "ADR 2025, 5.4.3.1",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Wyłącznie w biurze przewoźnika",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "W kabinie załogi, w łatwo dostępnym miejscu",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Tylko u odbiorcy przesyłki",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Instrukcje powinny być pod ręką załogi, aby można było szybko sprawdzić właściwe działania w sytuacji awaryjnej.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0014",
+      "declared_reference": "ADR 2025, 5.4.3.3",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Przeczytać instrukcje dopiero po wypadku",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Zostawić instrukcje u nadawcy",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zapoznać się z przewożonymi towarami i instrukcjami na wypadek zdarzenia",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Przed trasą kierowca powinien wiedzieć, co przewozi, i jakie działania przewidują instrukcje pisemne.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0015",
+      "declared_reference": "ADR 2025, 8.1.4.5",
+      "checked_clause": "8.1.4.5",
+      "source_location": "PL tom II, s. PDF 631",
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Tak, aby załoga mogła łatwo po nie sięgnąć",
+          "key_matches": true,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "B": {
+          "text": "Pod ładunkiem, bez możliwości wyjęcia w trasie",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "C": {
+          "text": "Wyłącznie w zamkniętym magazynie przewoźnika",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        }
+      },
+      "explanation": "Gaśnice mają być dostępne dla załogi i zabezpieczone przed warunkami, które mogłyby je uszkodzić.",
+      "explanation_result": "wstępnie zgodne",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wstępnie zgodne z polskim tekstem pomocniczym"
+    },
+    {
+      "id": "ADR-B-0016",
+      "declared_reference": "ADR 2025, 5.3.2.2.2",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "W górnej części tablicy",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "W dolnej części tablicy",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Na odwrocie tablicy",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Na górze jest numer rozpoznawczy zagrożenia, a na dole czterocyfrowy numer UN towaru.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0017",
+      "declared_reference": "ADR 2025, 5.3.2.3.1",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Towar reaguje niebezpiecznie z wodą",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Pojazd jest pusty",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Towar został zwolniony ze wszystkich obowiązków ADR",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Litera X przed numerem rozpoznawczym zagrożenia oznacza, że materiał reaguje niebezpiecznie z wodą. Woda może być użyta wyłącznie za zgodą specjalistów.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0018",
+      "declared_reference": "ADR 2025, 5.3.2.2.1",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "40 × 30 cm",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "20 × 10 cm",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "60 × 60 cm",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Standardowa tablica pomarańczowa ma wymiary 40 × 30 cm (szerokość × wysokość); przepisy określają także tolerancje i możliwość użycia mniejszej tablicy w szczególnych warunkach.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0019",
+      "declared_reference": "ADR 2025, 1.4.2.2.6; 5.4.3.2",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Wyłącznie policja",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Przewoźnik",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Każdorazowo odbiorca",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "To przewoźnik zapewnia załodze instrukcje pisemne, w języku zrozumiałym dla jej członków.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0020",
+      "declared_reference": "ADR 2025, 1.4.3.1.1 (b)",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Tak, jeśli wyciek jest niewielki",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Tak, jeżeli kierowca podpisze oświadczenie",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Nie, dopóki uszkodzenie nie zostanie usunięte",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Załadowca powinien sprawdzić stan opakowania. Wyciekującej, uszkodzonej sztuki przesyłki nie wolno przekazać w takim stanie.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0021",
+      "declared_reference": "ADR 2025, 1.4.2.1.1 (a)",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Obsługa parkingu",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Nadawca",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Przypadkowy kierowca z sąsiedniego pojazdu",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Nadawca ma obowiązek upewnić się, że towar jest odpowiednio sklasyfikowany i dopuszczony do przewozu.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0022",
+      "declared_reference": "ADR 2025, 8.1.4.1",
+      "checked_clause": "8.1.4.1",
+      "source_location": "PL tom II, s. PDF 631",
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "4 kg",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "B": {
+          "text": "8 kg",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "C": {
+          "text": "12 kg",
+          "key_matches": true,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        }
+      },
+      "explanation": "Dla jednostki transportowej o dopuszczalnej masie całkowitej powyżej 7,5 t wymagane jest łącznie co najmniej 12 kg środka gaśniczego w przeliczeniu na proszek. Obowiązują też minima dla poszczególnych gaśnic i wyjątki ADR.",
+      "explanation_result": "wstępnie zgodne",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wstępnie zgodne z polskim tekstem pomocniczym"
+    },
+    {
+      "id": "ADR-B-0023",
+      "declared_reference": "ADR 2025, 8.1.5.2",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Klina pod koła dobranego do masy pojazdu i średnicy koła",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Zapasowego silnika",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zapasowego akumulatora trakcyjnego",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Wymagany klin służy do zabezpieczania pojazdu przed stoczeniem. Dobiera się go do masy i wielkości koła.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0024",
+      "declared_reference": "ADR 2025, 8.1.5.2",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Gaśnica o pojemności 12 kg na osobę",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Aparat oddechowy do nurkowania",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Rękawice ochronne",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Każdy członek załogi powinien mieć m.in. rękawice i ochronę oczu. Inne elementy zależą od zagrożeń.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0025",
+      "declared_reference": "ADR 2025, 7.5.2",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Na podstawie zasad i tabeli zakazów ładowania razem w ADR 7.5.2",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Wyłącznie na podstawie koloru opakowań",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Tylko według wolnego miejsca w pojeździe",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Różne nalepki nie oznaczają automatycznego zakazu ani zgody na wspólny przewóz. ADR 7.5.2 określa dopuszczalność załadunku razem, w tym przypadki szczególne.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0026",
+      "declared_reference": "ADR 2025, 7.5.7.1",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Tak, aby nie przemieszczały się w normalnych warunkach jazdy",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Wystarczy położyć je luźno na podłodze",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Należy ustawić je zawsze na boku",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Ładunek trzeba unieruchomić odpowiednimi metodami, aby przesyłki nie przewróciły się ani nie przesuwały.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0027",
+      "declared_reference": "ADR 2025, 7.5.4; 7.5.11 CV28; tabela A kolumna (18)",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Nie, ADR w ogóle nie reguluje przewozu w pobliżu żywności",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Nie, jeśli wszystkie towary są w tym samym pojeździe",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Tak, dla przesyłek objętych odpowiednimi przepisami",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Dla określonych pozycji ADR przewiduje oddzielenie od żywności, artykułów spożywczych i pasz. Sprawdź wymaganie CV28 przypisane w kolumnie 18 tabeli A oraz warunki 7.5.4. Nie jest to automatyczna zasada dotycząca każdej przesyłki ADR.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0028",
+      "declared_reference": "ADR 2025, 1.1.4.2",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "ADR dla odcinka drogowego oraz odpowiednie przepisy morskie",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Wyłącznie wewnętrzny regulamin magazynu",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Wyłącznie przepisy o parkowaniu",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "W przewozie kombinowanym trzeba uwzględnić wymagania właściwe dla poszczególnych gałęzi transportu i dopuszczone odstępstwa.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0029",
+      "declared_reference": "ADR 2025, 1.1.4.2.1",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Nie, nigdy",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Tak, z uwzględnieniem warunków ADR dla przewozu obejmującego transport morski",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Tak, bez jakichkolwiek wymagań na odcinku drogowym",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "ADR 1.1.4.2.1 przewiduje uznawanie określonych wymagań IMDG dla przewozów obejmujących transport morski, ale pod warunkami wymienionymi w ADR. To nie jest zwolnienie z wszystkich przepisów na odcinku drogowym.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0030",
+      "declared_reference": "ADR 2025, 1.1.4.2",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Sprawdzić dokumenty i wymagania odpowiednie dla drogowego etapu przewozu",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Uznać, że morska część trasy automatycznie zwalnia z ADR",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Usunąć wszystkie oznaczenia z kontenera",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Trzeba ustalić wymagania ADR dla odcinka drogowego, dokumentację i oznakowanie. Przepisy ADR dopuszczają określone rozwiązania przewidziane dla przewozów łączonych z morskim, ale nie znoszą automatycznie wszystkich obowiązków.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0031",
+      "declared_reference": "ADR 2025, 1.9.5.2.2; 8.6",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Najostrzejsze ograniczenia ADR",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Brak ograniczeń tunelowych ADR wynikających z klasyfikacji A–E",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zakaz przejazdu dla każdej ciężarówki",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Kategoria A nie wprowadza ograniczeń ADR wynikających z kodów tunelowych. Nadal obowiązują inne znaki i przepisy drogowe.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0032",
+      "declared_reference": "ADR 2025, 8.6.4",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Nakaz przejazdu wyłącznie tunelem E",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Zakaz przejazdu przez wszystkie tunele A–E",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zakaz przejazdu przez tunel kategorii E",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Kod E oznacza zakaz przewozu przez tunele kategorii E. Przed zastosowaniem kodu trzeba sprawdzić, czy dana jednostka transportowa podlega ograniczeniom ADR 8.6.4.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0033",
+      "declared_reference": "ADR 2025, 8.6.4",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Tylko tuneli kategorii A",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Tuneli kategorii E",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Wszystkich tuneli kategorii B–E",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "W przewozie w sztukach przesyłek kod D/E ogranicza wjazd do tuneli kategorii E. Przy przewozie w cysternach lub luzem zakazuje wjazdu do tuneli D i E. Inne zakazy drogowe pozostają w mocy.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0034",
+      "declared_reference": "ADR 2025, 1.10.1.4",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Własny dokument tożsamości zawierający fotografię",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Kopię dokumentu przewozowego z nazwiskiem kierowcy, bez dokumentu ze zdjęciem",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Samo zaświadczenie odbycia szkolenia stanowiskowego, bez dokumentu tożsamości",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "ADR wymaga, aby każdy członek załogi miał przy sobie dokument ze zdjęciem potwierdzający jego tożsamość.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0035",
+      "declared_reference": "ADR 2025, 1.10.1.3",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Powinno być zawsze publicznie dostępne",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Nie podlega żadnym wymaganiom ochrony",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Powinno być odpowiednio chronione przed nieuprawnionym dostępem",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Obszary czasowego składowania w terminalach, bazach i podobnych miejscach powinny być odpowiednio zabezpieczone, oświetlone i — gdy możliwe oraz uzasadnione — niedostępne dla ogółu. Zwykłego postoju na trasie nie należy automatycznie utożsamiać z takim składowaniem.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0036",
+      "declared_reference": "ADR 2025, 1.10.2.2",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Rozpoznawania ryzyka kradzieży i nadużycia oraz reagowania na naruszenia ochrony",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Wyłącznie ochrony ładunku przed uszkodzeniem podczas hamowania, bez ochrony przed nadużyciem",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Wyłącznie zasad pakowania i kodów UN, bez procedur zgłaszania incydentów ochrony",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Szkolenie ochronne pomaga rozpoznawać ryzyka i właściwie reagować na naruszenia bezpieczeństwa ładunku.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0037",
+      "declared_reference": "ADR 2025, 5.4.1.1.1 (a)",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "C",
+      "variants": {
+        "A": {
+          "text": "Jako sam numer rejestracyjny auta",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Wyłącznie słowem „niebezpieczny”",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Z literami UN przed czterocyfrowym numerem",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Numer UN identyfikuje towar. W dokumencie przewozowym zapisuje się go z poprzedzającymi literami UN.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0038",
+      "declared_reference": "ADR 2025, 5.4.1.1.1 (b)",
+      "checked_clause": null,
+      "source_location": null,
+      "key": "A",
+      "variants": {
+        "A": {
+          "text": "Tak, zgodnie z zasadami ADR",
+          "key_matches": true,
+          "result": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Nie, wystarcza imię kierowcy",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Nie, wystarcza numer faktury",
+          "key_matches": false,
+          "result": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Prawidłowa nazwa przewozowa pozwala rozpoznać, jaki materiał jest transportowany i jakie obowiązują wobec niego wymagania.",
+      "explanation_result": "wątpliwość do specjalisty",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0039",
+      "declared_reference": "ADR 2025, 5.4.3.4",
+      "checked_clause": "5.4.3.4",
+      "source_location": "PL tom II, wzór instrukcji",
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Jedną",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "B": {
+          "text": "Cztery",
+          "key_matches": true,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "C": {
+          "text": "Dziesięć",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        }
+      },
+      "explanation": "ADR określa czterostronicowy wzór instrukcji pisemnych, które pomagają załodze w razie wypadku.",
+      "explanation_result": "wstępnie zgodne",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wstępnie zgodne z polskim tekstem pomocniczym"
+    },
+    {
+      "id": "ADR-B-0040",
+      "declared_reference": "ADR 2025, 1.3.1",
+      "checked_clause": "1.3.1",
+      "source_location": "PL tom I, s. PDF 52",
+      "key": "B",
+      "variants": {
+        "A": {
+          "text": "Dopiero po pierwszym samodzielnie wykonanym przewozie",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "B": {
+          "text": "Przed samodzielnym przejęciem tych obowiązków",
+          "key_matches": true,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        },
+        "C": {
+          "text": "Wyłącznie podczas okresowego odnowienia uprawnień kierowcy",
+          "key_matches": false,
+          "result": "wstępnie zgodne znaczeniowo z klauzulą"
+        }
+      },
+      "explanation": "Pracownik powinien zostać odpowiednio przeszkolony przed samodzielnym wykonywaniem zadań związanych z ADR. Bez tego może pracować tylko pod bezpośrednim nadzorem osoby przeszkolonej.",
+      "explanation_result": "wstępnie zgodne",
+      "exceptions_result": "do ostatecznej kontroli w urzędowej wersji ze sprostowaniem",
+      "result": "wstępnie zgodne z polskim tekstem pomocniczym"
+    }
+  ],
+  "verified_count": 0,
+  "final_official_comparison": "pending"
+}
