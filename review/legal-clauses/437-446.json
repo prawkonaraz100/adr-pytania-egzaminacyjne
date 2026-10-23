@@ -17,16 +17,16 @@
           "rationale": "Odpowiedź \"Wyłącznie ADR niezależnie od kolei\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.1; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Gdy pojazd objęty ADR jest przewożony inaczej niż drogą, do tego odcinka stosuje się przepisy właściwe dla użytej gałęzi transportu."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Odpowiedź \"Wyłącznie krajowe przepisy o czasie pracy kierowcy\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.1; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Gdy pojazd objęty ADR jest przewożony inaczej niż drogą, do tego odcinka stosuje się przepisy właściwe dla użytej gałęzi transportu."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków. Etap 4b: zamiana miejsc opcji B i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -37,10 +37,10 @@
         "stem": "Ciężarówka z ładunkiem ADR jest przewożona na wagonie kolejowym na jednym odcinku trasy. Jakie przepisy zgodnie z ADR 1.1.4.5.1 są właściwe dla tego odcinka?",
         "options": {
           "A": "Wyłącznie ADR niezależnie od kolei",
-          "B": "Przepisy właściwe dla przewozu niebezpiecznych towarów gałęzią używaną do przewiezienia pojazdu",
-          "C": "Wyłącznie krajowe przepisy o czasie pracy kierowcy"
+          "B": "Wyłącznie krajowe przepisy o czasie pracy kierowcy",
+          "C": "Przepisy właściwe dla przewozu niebezpiecznych towarów gałęzią używaną do przewiezienia pojazdu"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "Gdy pojazd objęty ADR jest przewożony inaczej niż drogą, do tego odcinka stosuje się przepisy właściwe dla użytej gałęzi transportu.",
         "sources": [
           {
@@ -60,20 +60,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Wymagania właściwe dla gałęzi przewożącej pojazd dotyczą odcinka podróży odbywanego w tej gałęzi, nie całego przewozu drogowego."
+          "expected_correct": false,
+          "rationale": "Odpowiedź \"Tylko postoju przed wjazdem na prom\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.1; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Odpowiedź \"Wszystkich wcześniejszych i późniejszych odcinków drogi bez ograniczeń\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.1; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Odpowiedź \"Tylko postoju przed wjazdem na prom\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.1; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+          "expected_correct": true,
+          "rationale": "Wymagania właściwe dla gałęzi przewożącej pojazd dotyczą odcinka podróży odbywanego w tej gałęzi, nie całego przewozu drogowego."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -83,11 +83,11 @@
         "module_id": "ADR-B-10",
         "stem": "Samochód ADR jest transportowany promem, a później kontynuuje jazdę drogą. Którego odcinka dotyczy reguła 1.1.4.5.1 o przepisach innej gałęzi przewozu?",
         "options": {
-          "A": "Wyłącznie odcinka, na którym pojazd jest przewożony inaczej niż drogą",
+          "A": "Tylko postoju przed wjazdem na prom",
           "B": "Wszystkich wcześniejszych i późniejszych odcinków drogi bez ograniczeń",
-          "C": "Tylko postoju przed wjazdem na prom"
+          "C": "Wyłącznie odcinka, na którym pojazd jest przewożony inaczej niż drogą"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Wymagania właściwe dla gałęzi przewożącej pojazd dotyczą odcinka podróży odbywanego w tej gałęzi, nie całego przewozu drogowego.",
         "sources": [
           {
@@ -205,16 +205,16 @@
           "rationale": "Odpowiedź \"Każdy kierowca przewożący ładunek\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.2; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Państwo inicjujące przekazuje uzgodnienie sekretariatowi UNECE, który informuje o nim pozostałe strony."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Odpowiedź \"Dowolny odbiorca towarów niebezpiecznych\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.2; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Państwo inicjujące przekazuje uzgodnienie sekretariatowi UNECE, który informuje o nim pozostałe strony."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków. Etap 4b: zamiana miejsc opcji B i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -225,10 +225,10 @@
         "stem": "Kto zgodnie z ADR 1.1.4.5.2 zgłasza uzgodnienie dotyczące stosowania ADR na niedrogowym odcinku do sekretariatu UNECE?",
         "options": {
           "A": "Każdy kierowca przewożący ładunek",
-          "B": "Państwo będące stroną ADR, które zainicjowało uzgodnienie",
-          "C": "Dowolny odbiorca towarów niebezpiecznych"
+          "B": "Dowolny odbiorca towarów niebezpiecznych",
+          "C": "Państwo będące stroną ADR, które zainicjowało uzgodnienie"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "Państwo inicjujące przekazuje uzgodnienie sekretariatowi UNECE, który informuje o nim pozostałe strony.",
         "sources": [
           {
@@ -295,20 +295,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "W szczególnym przypadku rozciągnięcia konwencji na drogowy odcinek ADR zachowuje zastosowanie jedynie w zakresie zgodnym z tą konwencją."
+          "expected_correct": false,
+          "rationale": "Odpowiedź \"Obie sprzeczne normy muszą być zawsze spełnione jednocześnie\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.3; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Odpowiedź \"Kierowca sam wybiera dowolną wersję przepisu\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.3; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Odpowiedź \"Obie sprzeczne normy muszą być zawsze spełnione jednocześnie\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.3; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+          "expected_correct": true,
+          "rationale": "W szczególnym przypadku rozciągnięcia konwencji na drogowy odcinek ADR zachowuje zastosowanie jedynie w zakresie zgodnym z tą konwencją."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -318,11 +318,11 @@
         "module_id": "ADR-B-10",
         "stem": "W sytuacji opisanej w ADR 1.1.4.5.3 wymaganie ADR jest sprzeczne z odpowiednią konwencją regulującą inną gałąź przewozu, której zakres obejmuje odcinek drogowy. Co przewiduje przepis?",
         "options": {
-          "A": "Niezgodnych wymagań ADR nie stosuje się na tym odcinku",
+          "A": "Obie sprzeczne normy muszą być zawsze spełnione jednocześnie",
           "B": "Kierowca sam wybiera dowolną wersję przepisu",
-          "C": "Obie sprzeczne normy muszą być zawsze spełnione jednocześnie"
+          "C": "Niezgodnych wymagań ADR nie stosuje się na tym odcinku"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "W szczególnym przypadku rozciągnięcia konwencji na drogowy odcinek ADR zachowuje zastosowanie jedynie w zakresie zgodnym z tą konwencją.",
         "sources": [
           {
@@ -436,20 +436,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Warunek daty budowy i zatwierdzenia przed 1 stycznia 2003 r. należy spełnić łącznie z pozostałymi przesłankami przepisu."
+          "expected_correct": false,
+          "rationale": "Odpowiedź \"Tak; o stosowaniu wyjątku rozstrzyga wyłącznie kierowca\" nie odpowiada warunkom ani skutkom ADR 1.1.4.3; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Odpowiedź \"Tak; każdy typ cysterny IMO jest objęty nim bezterminowo\" nie odpowiada warunkom ani skutkom ADR 1.1.4.3; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Odpowiedź \"Tak; o stosowaniu wyjątku rozstrzyga wyłącznie kierowca\" nie odpowiada warunkom ani skutkom ADR 1.1.4.3; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+          "expected_correct": true,
+          "rationale": "Warunek daty budowy i zatwierdzenia przed 1 stycznia 2003 r. należy spełnić łącznie z pozostałymi przesłankami przepisu."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -459,11 +459,11 @@
         "module_id": "ADR-B-10",
         "stem": "Dwie cysterny przenośne IMO zostały zbudowane według IMDG: jedna przed 2003 r., druga w 2005 r. Czy można automatycznie stosować historyczne odstępstwo ADR 1.1.4.3 do obu?",
         "options": {
-          "A": "Nie; odstępstwo jest ograniczone m.in. datą budowy i zatwierdzenia przed 1 stycznia 2003 r.",
+          "A": "Tak; o stosowaniu wyjątku rozstrzyga wyłącznie kierowca",
           "B": "Tak; każdy typ cysterny IMO jest objęty nim bezterminowo",
-          "C": "Tak; o stosowaniu wyjątku rozstrzyga wyłącznie kierowca"
+          "C": "Nie; odstępstwo jest ograniczone m.in. datą budowy i zatwierdzenia przed 1 stycznia 2003 r."
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Warunek daty budowy i zatwierdzenia przed 1 stycznia 2003 r. należy spełnić łącznie z pozostałymi przesłankami przepisu.",
         "sources": [
           {
