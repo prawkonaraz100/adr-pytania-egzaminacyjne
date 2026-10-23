@@ -86,3 +86,7 @@ Przykłady obliczeń 1.1.3.6.4: `100×3+600=900` oraz `200×3+500=1100`. Ilustru
 Kierowca realizuje przewóz towarów niebezpiecznych, dla którego wymagane jest zaświadczenie ADR. Co musi wykazać, aby uzyskać takie zaświadczenie?
 
 Kursant uzasadnia odpowiedź, identyfikuje zakres stosowania przepisu 8.2.1.1 oraz podaje przykład sytuacji wymagającej ponownego sprawdzenia danych. Nie uznawać rozwiązania quizu za zaliczenie praktyczne. Podstawa: ADR 2025 Dz.U. 642 ze sprostowaniem 1575 — pełna kontrola polskiego brzmienia i odbiór specjalisty pozostają otwarte.
+
+## Dodatkowe przypadki 0312–0313 — definicja i wyłączenie prywatne
+
+Kursant identyfikuje zakres pojęcia przewozu z 1.2.1 oraz przesłanki zastosowania 1.1.3.1(a)(i). Instruktor podkreśla limity i odstępstwa, nie uznając wyłączenia automatycznie dla każdego towaru. Weryfikacja urzędowego brzmienia ADR 2025 i sprostowania oczekuje na kontrolę.
