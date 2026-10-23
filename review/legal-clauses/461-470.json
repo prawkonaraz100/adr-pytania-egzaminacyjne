@@ -18,15 +18,15 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Zawsze przy każdej beczce do 50 litrów): pomija warunek albo zaprzecza zakresowi ADR 5.2.1.8.1. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Wariant B: „Wyjątek obowiązuje dla wszystkich beczek o pojemności do 50 litrów, niezależnie od warunków.” pozostaje niezgodny z warunkami ADR 2025, 5.2.1.8.1; szczegółowe uzasadnienie wymaga niezależnej recenzji ADR."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Wyłącznie gdy ciecz nie jest towarem ADR): pomija warunek albo zaprzecza zakresowi ADR 5.2.1.8.1. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Wariant C: „Wyjątek dotyczy tylko cieczy całkowicie nieobjętych klasyfikacją ADR.” pozostaje niezgodny z warunkami ADR 2025, 5.2.1.8.1; szczegółowe uzasadnienie wymaga niezależnej recenzji ADR."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu.",
+      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4m: korekta długości A/B/C bez zmiany klucza ani podstawy; specjalistyczna kontrola nadal otwarta.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -37,8 +37,8 @@
         "stem": "Pojedyncze opakowanie zawiera 4 litry cieczy spełniającej kryteria zagrożenia dla środowiska wodnego. Kiedy może działać wyjątek od znaku środowiskowego?",
         "options": {
           "A": "Gdy spełnione są warunki 5.2.1.8.1 dla opakowania do 5 litrów",
-          "B": "Zawsze przy każdej beczce do 50 litrów",
-          "C": "Wyłącznie gdy ciecz nie jest towarem ADR"
+          "B": "Wyjątek obowiązuje dla wszystkich beczek o pojemności do 50 litrów, niezależnie od warunków.",
+          "C": "Wyjątek dotyczy tylko cieczy całkowicie nieobjętych klasyfikacją ADR."
         },
         "correct_option": "A",
         "explanation": "Przy spełnieniu warunków wyjątku dla pojedynczego opakowania zawierającego nie więcej niż 5 litrów cieczy nie wymaga się znaku zagrożenia dla środowiska na tej podstawie.",
@@ -61,11 +61,11 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Tak, niezależnie od objętości butelek): pomija warunek albo zaprzecza zakresowi ADR 5.2.1.8.1. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Wariant A: „Tak, bo limit 5 litrów odnosi się wyłącznie do całego opakowania zewnętrznego.” pozostaje niezgodny z warunkami ADR 2025, 5.2.1.8.1; szczegółowe uzasadnienie wymaga niezależnej recenzji ADR."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Tak, gdy zewnętrzny karton jest biały): pomija warunek albo zaprzecza zakresowi ADR 5.2.1.8.1. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Wariant B: „Tak, pod warunkiem że suma cieczy w opakowaniu kombinowanym nie przekracza 30 litrów.” pozostaje niezgodny z warunkami ADR 2025, 5.2.1.8.1; szczegółowe uzasadnienie wymaga niezależnej recenzji ADR."
         },
         "C": {
           "expected_correct": true,
@@ -73,7 +73,7 @@
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
+      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending. Etap 4m: korekta długości A/B/C bez zmiany klucza ani podstawy; specjalistyczna kontrola nadal otwarta.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -83,9 +83,9 @@
         "module_id": "ADR-B-03",
         "stem": "Opakowanie kombinowane ma butelki wewnętrzne z materiałem niebezpiecznym dla środowiska, każda zawiera 6 litrów. Czy sam fakt użycia opakowania kombinowanego uruchamia wyjątek 5.2.1.8.1?",
         "options": {
-          "A": "Tak, niezależnie od objętości butelek",
-          "B": "Tak, gdy zewnętrzny karton jest biały",
-          "C": "Nie, wyjątek dotyczy ilości nie większej niż 5 litrów na opakowanie wewnętrzne"
+          "A": "Tak, bo limit 5 litrów odnosi się wyłącznie do całego opakowania zewnętrznego.",
+          "B": "Tak, pod warunkiem że suma cieczy w opakowaniu kombinowanym nie przekracza 30 litrów.",
+          "C": "Nie, butelka 6 l przekracza limit 5 l z 5.2.1.8.1."
         },
         "correct_option": "C",
         "explanation": "Limit 5 litrów odnosi się do ilości cieczy w danym opakowaniu wewnętrznym lub pojedynczym, a nie do samego rodzaju kartonu.",
@@ -120,7 +120,7 @@
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu.",
+      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4m: korekta długości A/B/C bez zmiany klucza ani podstawy; specjalistyczna kontrola nadal otwarta.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -132,7 +132,7 @@
         "options": {
           "A": "Limit wynosi zawsze 5 kilogramów brutto",
           "B": "Znak jest wymagany bez wyjątku przy dokładnie 5 kilogramach netto",
-          "C": "Limit mówi o masie netto nie większej niż 5 kg, więc dokładnie 5 kg mieści się w tym warunku"
+          "C": "Dokładnie 5 kg netto mieści się w limicie wskazanym w 5.2.1.8.1."
         },
         "correct_option": "C",
         "explanation": "Wymaganie używa granicy 5 kg netto dla materiałów stałych i obejmuje wartość równą temu limitowi; pozostałe przesłanki nadal obowiązują.",
@@ -308,7 +308,7 @@
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu.",
+      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4m: korekta długości A/B/C bez zmiany klucza ani podstawy; specjalistyczna kontrola nadal otwarta.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -318,7 +318,7 @@
         "module_id": "ADR-B-03",
         "stem": "W morsko-drogowym łańcuchu przewozu dokument dla materiału niebezpiecznego dla środowiska zawiera określenie MARINE POLLUTANT. Jak ocenić je w zakresie 5.4.1.1.18?",
         "options": {
-          "A": "Może być akceptowane dla łańcucha obejmującego przewóz morski na warunkach przepisu",
+          "A": "Może być akceptowane na warunkach 5.4.1.1.18.",
           "B": "Zawsze należy je skreślić i zastąpić numerem faktury",
           "C": "Jest dopuszczalne tylko w przewozie klasy 7"
         },
@@ -355,7 +355,7 @@
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
+      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending. Etap 4m: korekta długości A/B/C bez zmiany klucza ani podstawy; specjalistyczna kontrola nadal otwarta.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -367,7 +367,7 @@
         "options": {
           "A": "Tylko wtedy, gdy znak został wybrany ze względów marketingowych",
           "B": "Nigdy, bo znak występuje wyłącznie na pojedynczym kartonie",
-          "C": "Gdy spełnione są warunki 5.3.6.1, bez stosownego wyjątku z 5.2.1.8.1"
+          "C": "Gdy wymaga tego 5.3.6.1 i nie ma wyjątku 5.2.1.8.1."
         },
         "correct_option": "C",
         "explanation": "ADR przewiduje znak środowiskowy także dla wskazanych pojazdów i jednostek, gdy wymagane są nalepki wielkiego formatu oraz spełniono kryteria, z wyłączeniami.",
