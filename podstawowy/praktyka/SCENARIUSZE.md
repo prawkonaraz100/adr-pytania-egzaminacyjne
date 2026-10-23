@@ -96,3 +96,7 @@ Przygotować bezpieczny model pojazdu i atrapy sztuk przesyłek. Kursant rozpozn
 ## Wariant ćwiczenia instruktorskiego P3 — rozpoznanie ryzyka załadunku (23.10.2026)
 
 Na bezpiecznych atrapach kursant wybiera, które przesyłki wymagają sprawdzenia tabeli wspólnego ładowania (ADR 7.5.2.1), a które ładunki dopuszczenia do przewozu luzem (7.3.1.1). Instruktor ocenia rozumienie procedury, bez fikcyjnego poświadczania wykonania obowiązkowych czynności P1–P3. Brak prawdziwych towarów niebezpiecznych.
+
+## Rozszerzenie P3 — procedura bezpiecznej ewakuacji przy wycieku (projekt 23.10.2026)
+
+Instruktor przedstawia makietę zdarzenia i bezpiecznie zasymulowany rozlew. Kursant wskazuje stronę nawietrzną, źródła zapłonu, strefę bez dostępu dla osób postronnych oraz konieczność wezwania służb; pytania powiązane: ADR-B-0295–0297, ADR 5.4.3.4. Nie używać rzeczywistych materiałów i nie zaliczać zdalnie czynności P1–P3.
