@@ -227,3 +227,11 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Nowy `scripts/check_legal_clause_review.py`, testy jednostkowe i krok CI sprawdzają 60 wpisów i wykrywają nieaktualne uzasadnienia A/B/C.
 - **Ograniczenie:** nie ukończono pełnego dosłownego sprawdzenia polskiego aktu ADR oraz sprostowania dla 60 pytań i nie ma niezależnej recenzji specjalisty. Wszystkie **216 needs_review / 0 verified**, eksport BLOCKED.
 - Quality Gate tej gałęzi oczekuje na potwierdzenie PASS ostatniego SHA PR.
+
+## 2026-10-23 — A/B/C i podstawy ADR dla kolejnych pytań 0061–0090
+
+- Dodatkowy [raport](../review/legal-clauses/RAPORT-061-090.md) i `review/legal-clauses/061-090.json`: 30 nowych indywidualnie omówionych rekordów, kolejne 90 uzasadnień wariantów (razem **90/216 pytań i 270 opcji A/B/C**).
+- Skorygowano `0064`, `0082`, `0086`, `0087`, `0090` (najostrzejszy stosowalny kod tunelowy, wyłączenia 8.6.3.3, **CV28 z tabeli A**, dokumenty ze zdjęciem i instrukcje w kabinie). Klucze odpowiedzi bez zmian.
+- Odświeżono oryginalny sekwencyjny snapshot dla 5 zmienionych pozycji; rozszerzono test szczegółowej analizy z 60 do **90**.
+- Nadal **216 needs_review / 0 verified**, brak podpisanej eksperckiej recenzji, brak pełnej kontroli dosłownego polskiego tekstu oraz brak zatwierdzeń wydawniczych. Eksport **BLOCKED**.
+- Formalny Quality Gate nowej gałęzi wymaga potwierdzenia na końcowym SHA PR.
