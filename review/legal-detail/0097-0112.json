@@ -1,0 +1,727 @@
+{
+  "date": "2026-10-23",
+  "range": "ADR-B-0097..ADR-B-0112",
+  "scope": "Preliminary individual A/B/C option checks using earlier clause reviews; full official Polish ADR 2025 (Dz.U. 642, corrigendum 1575), M364 relevance and independent specialist approval are NOT complete.",
+  "records": [
+    {
+      "id": "ADR-B-0097",
+      "sequence": 97,
+      "snapshot": {
+        "stem": "Która klasa ADR oznacza materiały trujące?",
+        "options": {
+          "A": "6.2",
+          "B": "6.1",
+          "C": "8"
+        },
+        "correct_option": "B",
+        "explanation": "Klasa 6.1 obejmuje materiały trujące, a 6.2 materiały zakaźne. To różne rodzaje zagrożeń i nalepek.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.61.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "6.2 to materiały zakaźne, nie trujące 6.1."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 6.1 obejmuje materiały trujące."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "8 to materiały żrące."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie utożsamiać głównej klasy z dodatkowymi zagrożeniami danej pozycji UN.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0098",
+      "sequence": 98,
+      "snapshot": {
+        "stem": "Do jakiej klasy ADR zaliczono materiały promieniotwórcze?",
+        "options": {
+          "A": "Klasa 6.2",
+          "B": "Klasa 9",
+          "C": "Klasa 7"
+        },
+        "correct_option": "C",
+        "explanation": "Klasa 7 obejmuje materiały promieniotwórcze. Kurs podstawowy wymaga rozpoznawania tego zagrożenia; specjalistyczny przewóz klasy 7 podlega osobnemu szkoleniu w odpowiednich przypadkach.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.7.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 6.2 nie obejmuje promieniotwórczości."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 9 to różne materiały i przedmioty niebezpieczne."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Materiały promieniotwórcze należą do klasy 7."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Uprawnienia specjalistyczne mogą być wymagane dla odpowiednich przewozów klasy 7.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0099",
+      "sequence": 99,
+      "snapshot": {
+        "stem": "Jaką klasę zagrożenia ADR przedstawiają nalepki ostrzegawcze wzoru 9 i 9A, jeżeli są wymagane dla towaru?",
+        "options": {
+          "A": "Klasa 9 — różne materiały i przedmioty niebezpieczne",
+          "B": "Klasa 5.1 — wszystkie materiały utleniające",
+          "C": "Klasa 8 — wszystkie materiały żrące"
+        },
+        "correct_option": "A",
+        "explanation": "Wzory 9 i 9A dotyczą klasy 9 — różnych materiałów i przedmiotów niebezpiecznych. Nalepka 9A może dotyczyć określonych baterii litowych **i sodowo-jonowych** (np. UN 3551/3552), zgodnie z przepisami ADR 2025. Nie jest tym samym co znak małych baterii dla wyłączeń przewidzianych w przepisach szczególnych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.9.1.1; 5.2.2.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nalepki 9/9A odnoszą się do klasy 9."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 5.1 to utleniacze, nie definicja 9A."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 8 to materiały żrące, nie oznaczenie 9A."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Nalepka 9A w ADR 2025 dotyczy także wybranych baterii sodowo-jonowych UN 3551/3552.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0100",
+      "sequence": 100,
+      "snapshot": {
+        "stem": "Po awarii z opakowania wypływa ciecz niebezpieczna w kierunku kratki kanalizacyjnej. Kiedy załoga może próbować zapobiec jej wpłynięciu do kanalizacji?",
+        "options": {
+          "A": "Zawsze, nawet bez środków ochrony",
+          "B": "Wyłącznie gdy jest to odpowiednie i bezpieczne, korzystając z wymaganego wyposażenia",
+          "C": "Nigdy; nawet bezpieczne użycie wyposażenia jest zabronione"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne ADR dopuszczają ograniczanie dostania się uwolnionego materiału do wody lub kanalizacji, ale tylko jeśli jest to właściwe i bezpieczne. Priorytetem jest bezpieczeństwo załogi.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie należy podejmować działań przy kanalizacji bez ochrony i oceny bezpieczeństwa."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ochrona odpływów jest dopuszczalna, gdy jest właściwa i bezpieczna."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zakaz wszelkich działań nawet bezpiecznych byłby zbyt kategoryczny."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie wchodzić do rozlewu; najpierw ostrzec innych i powiadomić służby.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0101",
+      "sequence": 101,
+      "snapshot": {
+        "stem": "Zauważasz kałużę nieznanej substancji po uszkodzeniu opakowania ADR. Jak powinien zachować się kierowca?",
+        "options": {
+          "A": "Przejść przez rozlew, aby sprawdzić jego głębokość",
+          "B": "Spróbować zebrać nieznany materiał szmatką, bez oceny zagrożeń i właściwych środków ochronnych",
+          "C": "Nie wchodzić w rozlew ani go nie dotykać, unikać wdychania oparów"
+        },
+        "correct_option": "C",
+        "explanation": "Przy wycieku nieznanej substancji nie należy dotykać rozlewu, przechodzić przez niego ani wdychać par. Działania podejmuje się wyłącznie zgodnie z pisemnymi instrukcjami i zasadą bezpieczeństwa załogi.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przejście przez wyciek naraża człowieka na nieznany materiał."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zbieranie substancji szmatką bez identyfikacji zagrożenia nie jest bezpieczne."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Unikać kontaktu, wdychania oparów i przebywania w skażonej strefie."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Stosować działania wyłącznie przewidziane instrukcjami, o ile bezpieczne.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0102",
+      "sequence": 102,
+      "snapshot": {
+        "stem": "Podczas awarii wyczuwalny jest zapach oparów palnego towaru. Jak postępować z możliwymi źródłami zapłonu?",
+        "options": {
+          "A": "Unikać ich, nie palić i nie uruchamiać urządzeń elektrycznych, jeśli można to zrobić bezpiecznie",
+          "B": "Sprawdzić opary zapalniczką z bezpiecznej odległości",
+          "C": "Włączyć wszystkie odbiorniki elektryczne pojazdu"
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcje pisemne ADR nakazują unikanie źródeł zapłonu. Nie wolno palić ani używać e-papierosów lub niepotrzebnych urządzeń elektrycznych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Unikać źródeł zapłonu i niepotrzebnego uruchamiania urządzeń."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sprawdzanie palności zapalniczką jest niebezpieczne."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Uruchamianie odbiorników elektrycznych może być źródłem zapłonu."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie podejmować dodatkowych czynności, które zwiększą zagrożenie wybuchem lub pożarem.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0103",
+      "sequence": 103,
+      "snapshot": {
+        "stem": "Podczas rozładunku ADR drugi członek załogi zaczyna korzystać z e-papierosa. Co należy zrobić?",
+        "options": {
+          "A": "Dopuścić użycie, bo nie ma otwartego płomienia",
+          "B": "Przerwać tę czynność; podczas czynności ładunkowych obowiązuje zakaz używania e-papierosów",
+          "C": "Dopuścić, jeżeli pojazd ma wyłączony silnik"
+        },
+        "correct_option": "B",
+        "explanation": "Zakaz palenia z 8.3.5 obejmuje także e-papierosy i podobne urządzenia. Wyłączenie silnika nie znosi tego zakazu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Brak klasycznego płomienia nie zwalnia e-papierosa z zakazu."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Podczas manipulacji e-papierosy są objęte zakazem."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wyłączony silnik nie legalizuje użycia e-papierosa."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Zakaz dotyczy czynności i miejsc określonych w ADR 8.3.5.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0104",
+      "sequence": 104,
+      "snapshot": {
+        "stem": "Po kolizji pojazdu ADR, jeśli jest to możliwe i bezpieczne, co należy zrobić z pojazdem zgodnie z instrukcjami pisemnymi?",
+        "options": {
+          "A": "Przede wszystkim przeładować ładunek na inny pojazd",
+          "B": "Pozostawić pracujący silnik, by zasilać elektrykę",
+          "C": "Zahamować pojazd, wyłączyć silnik i użyć wyłącznika głównego akumulatora, jeśli dostępny"
+        },
+        "correct_option": "C",
+        "explanation": "Wśród pierwszych czynności instrukcje wymieniają zatrzymanie i zabezpieczenie pojazdu, wyłączenie silnika oraz odłączenie akumulatora przeznaczonym wyłącznikiem, o ile jest dostępny i bezpieczny.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przeładunek nie jest pierwszą czynnością załogi podczas awarii."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zostawienie pracującego silnika jest sprzeczne z instrukcjami."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zabezpieczenie pojazdu, wyłączenie silnika i wyłącznik akumulatora, gdy bezpieczny/dostępny."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Pierwszeństwo bezpieczeństwa ludzi; nie wchodzić w strefę wycieku.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0105",
+      "sequence": 105,
+      "snapshot": {
+        "stem": "Do jakich informacji kierowca powinien sięgnąć, zgłaszając służbom wypadek z towarem niebezpiecznym?",
+        "options": {
+          "A": "Do możliwie wszystkich dostępnych informacji o zdarzeniu i przewożonym towarze ADR",
+          "B": "Wyłącznie do numeru rejestracyjnego pojazdu",
+          "C": "Wyłącznie do liczby przejechanych kilometrów"
+        },
+        "correct_option": "A",
+        "explanation": "Służby ratownicze powinny uzyskać informacje o zdarzeniu i towarach niebezpiecznych, by dobrać sposób zabezpieczenia i ratownictwa.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ratownicy potrzebują dostępnych informacji o zdarzeniu i towarze."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Numer rejestracyjny sam nie identyfikuje rodzaju przewożonego zagrożenia."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Liczba kilometrów nie zastępuje opisu zdarzenia i UN."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Udzielić możliwie wielu pewnych informacji, bez zgadywania.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0106",
+      "sequence": 106,
+      "snapshot": {
+        "stem": "Kierowca widzi chmurę par wydobywających się z uszkodzonej przesyłki ADR. Po której stronie miejsca zdarzenia powinien się utrzymywać?",
+        "options": {
+          "A": "Zawietrznej, aby opary były niesione na niego",
+          "B": "Nawietrznej, poza strumieniem dymu i oparów",
+          "C": "Możliwie blisko wycieku, by widzieć jego skład"
+        },
+        "correct_option": "B",
+        "explanation": "Przebywanie po stronie nawietrznej zmniejsza narażenie na opary i dymy, które wiatr może przenosić od źródła uwolnienia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Strona zawietrzna może zwiększać narażenie na chmurę oparów."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Po stronie nawietrznej ryzyko kontaktu z niesioną wiatrem chmurą jest mniejsze."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Bliskość wycieku dla rozpoznania składu jest niebezpieczna."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Utrzymywać bezpieczną odległość również przy zmianach kierunku wiatru.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0107",
+      "sequence": 107,
+      "snapshot": {
+        "stem": "Po awarii zapalają się towary niebezpieczne wewnątrz przedziału ładunkowego. Co zalecają instrukcje pisemne załodze?",
+        "options": {
+          "A": "Otworzyć każdą sztukę przesyłki i zalać ją wodą",
+          "B": "Wchodzić do ładowni w celu gaszenia dowolnego pożaru",
+          "C": "Nie podejmować gaszenia pożaru obejmującego przedział ładunkowy; oddalić się i wezwać służby"
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne ADR wyraźnie wskazują, że członkowie załogi nie powinni próbować gasić pożaru obejmującego przedział ładunkowy.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Otwieranie sztuk i polewanie wodą może pogłębić zagrożenie."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wejście do ładowni z pożarem naraża załogę."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie podejmować gaszenia pożaru przedziału ładunkowego."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Powiadomić służby i ewakuować się bezpiecznie, nie ratować ładunku kosztem życia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0108",
+      "sequence": 108,
+      "snapshot": {
+        "stem": "W którym przypadku instrukcje pisemne dopuszczają użycie gaśnicy przez członków załogi, jeżeli działanie jest odpowiednie i bezpieczne?",
+        "options": {
+          "A": "Do małego pożaru we wczesnej fazie obejmującego np. opony, hamulce lub przedział silnika",
+          "B": "Do każdego pożaru ładunku, niezależnie od rozmiaru",
+          "C": "Do pożaru, który już zajął całą ciężarówkę"
+        },
+        "correct_option": "A",
+        "explanation": "Dopuszczone jest gaszenie niewielkiego początkowego pożaru opon, hamulców czy silnika pod warunkiem bezpieczeństwa. Pożaru przedziału ładunkowego nie należy gasić samodzielnie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Możliwe jest gaszenie małego, wczesnego pożaru np. silnika/hamulców/opon."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Załodze nie wolno gasić dowolnego pożaru ładunku."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pożar obejmujący cały pojazd nie jest zdarzeniem do samodzielnego gaszenia."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Warunki i wyjście awaryjne muszą zapewniać bezpieczeństwo załogi.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0109",
+      "sequence": 109,
+      "snapshot": {
+        "stem": "Jaki obowiązek informacyjny wobec ratowników mają członkowie załogi po wypadku z ADR?",
+        "options": {
+          "A": "Ukryć dokument przewozowy przed osobami trzecimi, w tym służbami",
+          "B": "Zapewnić ratownikom łatwy dostęp do dokumentów przewozowych",
+          "C": "Wyrzucić dokumenty, aby uniknąć skażenia"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne wskazują zapewnienie ratownikom dostępu do informacji przewozowych, by mogli rozpoznać rodzaj zagrożenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ukrywanie dokumentów uniemożliwia ratownikom ocenę ryzyka."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ratownicy potrzebują dostępu do danych przewozowych."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wyrzucanie dokumentów nie jest prawidłową procedurą."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Jeśli dostęp do kabiny jest niebezpieczny, nie wchodzić po dokumenty kosztem życia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0110",
+      "sequence": 110,
+      "snapshot": {
+        "stem": "Kierowca miał kontakt z uwolnioną substancją i jego ubranie zostało skażone. Co przewidują instrukcje pisemne ADR?",
+        "options": {
+          "A": "Zachować ubranie do kolejnego kursu i nadal go używać",
+          "B": "Wywietrzyć ubranie w kabinie, nie zdejmując go",
+          "C": "Zdjąć skażoną odzież i użyte skażone środki ochrony oraz bezpiecznie je usunąć"
+        },
+        "correct_option": "C",
+        "explanation": "Po zdarzeniu należy bezpiecznie zdjąć skażoną odzież i wyposażenie ochronne oraz postąpić z nimi właściwie, unikając wtórnego narażenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Używanie skażonego ubrania ponownie bez oceny naraża ludzi."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Samo wietrzenie w kabinie bez zdejmowania zwiększa skażenie."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zdjąć i bezpiecznie usunąć skażoną odzież/wyposażenie."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Działać tak, aby nie narazić się przy zdejmowaniu i utylizacji.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0111",
+      "sequence": 111,
+      "snapshot": {
+        "stem": "Co należy zrobić w razie zagrożenia dla osób postronnych wokół wypadku z ADR?",
+        "options": {
+          "A": "Ostrzec je, aby oddaliły się od niebezpiecznego miejsca, i stosować się do poleceń ratowników",
+          "B": "Pozwolić im podejść jak najbliżej ładunku",
+          "C": "Poprosić je o samodzielne przeniesienie uszkodzonych opakowań"
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcje nakazują odejść w bezpieczne miejsce i ostrzec innych, aby nie zbliżali się do zagrożenia. Priorytetem jest ograniczenie liczby osób narażonych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ostrzec postronnych i zadbać o ich odsunięcie od strefy zagrożenia."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pozwolenie na zbliżanie się pogłębia zagrożenie."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nieprzeszkoleni obserwatorzy nie powinni przenosić przesyłek."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie podejmować ryzykownego przepędzania ludzi przez chmurę; stosować się do służb.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0112",
+      "sequence": 112,
+      "snapshot": {
+        "stem": "Jakich środków załoga powinna użyć podczas zabezpieczania miejsca zdarzenia, jeżeli jest to bezpieczne?",
+        "options": {
+          "A": "Wyłącznie gaśnicy i rękawic, bez kamizelki i znaków ostrzegawczych",
+          "B": "Kamizelki ostrzegawczej i odpowiednio ustawionych stojących znaków ostrzegawczych",
+          "C": "Jedynie świateł awaryjnych pojazdu, bez wymaganego wyposażenia osobistego i stojących znaków"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne wskazują założenie kamizelki i ustawienie stojących znaków ostrzegawczych, jeśli można to bezpiecznie wykonać.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Gaśnica i rękawice nie zastępują kamizelki i stojących znaków."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kamizelka i stojące znaki służą ostrzeżeniu innych, gdy jest to bezpieczne."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Same światła awaryjne nie zastępują wymaganego wyposażenia."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Instrukcje nakazują działania warunkowe — tylko przy zapewnieniu bezpieczeństwa.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    }
+  ]
+}
