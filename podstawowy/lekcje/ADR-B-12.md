@@ -49,3 +49,7 @@ Powiązane pytania: `ADR-B-0034`–`0036`, `0066`–`0067`, `0120`–`0122`.
 **Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
 
 **Podstawa do weryfikacji:** ADR 1.10.1.2; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
+
+## Zadanie sytuacyjne ADR-B-0249 (etap 2)
+
+Uczestnik rozwiązuje przypadek z pytania ADR-B-0249, wskazuje podstawę, warunki i typowy błąd. Wynik testu nie jest zatwierdzeniem praktyki; materiał do ostatecznej kontroli polskiego ADR 2025 i sprostowania.

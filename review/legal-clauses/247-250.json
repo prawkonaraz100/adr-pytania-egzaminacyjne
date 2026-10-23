@@ -1,0 +1,189 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0247",
+      "order": 247,
+      "clause": "ADR 2025, 1.1.4.2.1",
+      "source_2025_comparison_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Ten wariant nie odpowiada zasadzie ADR 2025, 1.1.4.2.1, ponieważ proponuje: Tak, bezwarunkowo. Wymagana recenzja specjalisty."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Przewóz w łańcuchu obejmującym transport morski może podlegać szczególnym regułom zgodności, lecz nie stanowi automatycznego zwolnienia ze wszystkich wymagań ADR."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Ten wariant nie odpowiada zasadzie ADR 2025, 1.1.4.2.1, ponieważ proponuje: Tak, jeśli kierowca zna nazwę statku. Wymagana recenzja specjalisty."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dodatkowo sprawdzić polskie dosłowne brzmienie, sprostowanie oraz wyjątki stosowania przepisu.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0247",
+        "module_id": "ADR-B-10",
+        "stem": "Kontener z towarem ADR jedzie najpierw drogą, później statkiem. Czy samo przejście do transportu morskiego zawsze zwalnia z wymagań ADR na odcinku drogowym?",
+        "options": {
+          "A": "Tak, bezwarunkowo",
+          "B": "Nie, trzeba sprawdzić warunki stosowania 1.1.4.2.1 i właściwe wymogi dla odcinka drogowego",
+          "C": "Tak, jeśli kierowca zna nazwę statku"
+        },
+        "correct_option": "B",
+        "explanation": "Przewóz w łańcuchu obejmującym transport morski może podlegać szczególnym regułom zgodności, lecz nie stanowi automatycznego zwolnienia ze wszystkich wymagań ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0248",
+      "order": 248,
+      "clause": "ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1",
+      "source_2025_comparison_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Kod ograniczenia przewozu przez tunele można odnaleźć w kolumnie 15 tabeli A, a następnie zastosować zgodnie z zasadami 8.6."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Ten wariant nie odpowiada zasadzie ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1, ponieważ proponuje: Zawsze w kolumnie 1. Wymagana recenzja specjalisty."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Ten wariant nie odpowiada zasadzie ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1, ponieważ proponuje: Wyłącznie w nazwie nadawcy. Wymagana recenzja specjalisty."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dodatkowo sprawdzić polskie dosłowne brzmienie, sprostowanie oraz wyjątki stosowania przepisu.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0248",
+        "module_id": "ADR-B-11",
+        "stem": "Spedytor planuje trasę przez tunel. Gdzie w tabeli A ADR sprawdza się kod ograniczenia tunelowego konkretnego towaru?",
+        "options": {
+          "A": "W kolumnie 15",
+          "B": "Zawsze w kolumnie 1",
+          "C": "Wyłącznie w nazwie nadawcy"
+        },
+        "correct_option": "A",
+        "explanation": "Kod ograniczenia przewozu przez tunele można odnaleźć w kolumnie 15 tabeli A, a następnie zastosować zgodnie z zasadami 8.6.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0249",
+      "order": 249,
+      "clause": "ADR 2025, 1.10.1.2",
+      "source_2025_comparison_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Ten wariant nie odpowiada zasadzie ADR 2025, 1.10.1.2, ponieważ proponuje: Wydać przesyłkę każdemu, kto zna numer. Wymagana recenzja specjalisty."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Ten wariant nie odpowiada zasadzie ADR 2025, 1.10.1.2, ponieważ proponuje: Pominąć identyfikację, gdy nie ma opóźnienia. Wymagana recenzja specjalisty."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Przewóz należy oferować odpowiednio zidentyfikowanemu przewoźnikowi, nie wystarczy sam numer zamówienia."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Dodatkowo sprawdzić polskie dosłowne brzmienie, sprostowanie oraz wyjątki stosowania przepisu.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0249",
+        "module_id": "ADR-B-12",
+        "stem": "Do odbioru towaru ADR zgłasza się niezidentyfikowany przewoźnik, który zna numer zamówienia. Co wynika z zasad ochrony ADR?",
+        "options": {
+          "A": "Wydać przesyłkę każdemu, kto zna numer",
+          "B": "Pominąć identyfikację, gdy nie ma opóźnienia",
+          "C": "Zidentyfikować przewoźnika przed zaoferowaniem mu towaru do przewozu"
+        },
+        "correct_option": "C",
+        "explanation": "Przewóz należy oferować odpowiednio zidentyfikowanemu przewoźnikowi, nie wystarczy sam numer zamówienia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0250",
+      "order": 250,
+      "clause": "ADR 2025, 1.10.1.4; 8.1.2.1",
+      "source_2025_comparison_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Ten wariant nie odpowiada zasadzie ADR 2025, 1.10.1.4; 8.1.2.1, ponieważ proponuje: Wyłącznie karty rabatowej stacji paliw. Wymagana recenzja specjalisty."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "W odpowiednim zakresie wymagane jest, aby każdy członek załogi miał przy sobie dokument tożsamości ze zdjęciem."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Ten wariant nie odpowiada zasadzie ADR 2025, 1.10.1.4; 8.1.2.1, ponieważ proponuje: Zawsze wydruku historii przeglądarki telefonu. Wymagana recenzja specjalisty."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dodatkowo sprawdzić polskie dosłowne brzmienie, sprostowanie oraz wyjątki stosowania przepisu.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0250",
+        "module_id": "ADR-B-13",
+        "stem": "Załoga wykonuje przewóz ADR podlegający wymaganiom 1.10.1.4. Jakiego dokumentu nie należy pomijać podczas kontroli?",
+        "options": {
+          "A": "Wyłącznie karty rabatowej stacji paliw",
+          "B": "Dokumentu tożsamości ze zdjęciem każdego członka załogi",
+          "C": "Zawsze wydruku historii przeglądarki telefonu"
+        },
+        "correct_option": "B",
+        "explanation": "W odpowiednim zakresie wymagane jest, aby każdy członek załogi miał przy sobie dokument tożsamości ze zdjęciem.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.4; 8.1.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
