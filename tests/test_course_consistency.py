@@ -1,10 +1,11 @@
 import sys
+import json
 import tempfile
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from course_consistency import audit, validate_image_assets
+from course_consistency import audit, validate_image_assets, validate_reviewer_manifest
 
 
 class CourseConsistencyTests(unittest.TestCase):
@@ -33,6 +34,38 @@ class CourseConsistencyTests(unittest.TestCase):
             self.assertTrue(any("forbidden" in item for item in validate_image_assets(root, q)))
             file.write_text("<svg><title>Test</title><desc>Sample</desc><path d=\"M0 0\" /></svg>", encoding="utf-8")
             self.assertEqual(validate_image_assets(root, q), [])
+
+    def test_stale_legal_reference_and_manifest_are_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            specialist = root / "review" / "specialist"
+            legal = root / "review" / "legal-polish"
+            specialist.mkdir(parents=True)
+            legal.mkdir(parents=True)
+            row = {"id":"ADR-B-0001", "module_id":"ADR-B-01", "verification_status":"needs_review",
+                "image":None, "sources":[{"reference":"ADR 2025, 1.3.2"}]}
+            manifest = {"question_count":1, "last_id":"ADR-B-0001",
+                "status_counts":{"needs_review":1,"verified":0}, "images":[],
+                "unresolved_literal_comparisons":1, "source_ledger":"review/legal-polish/ledger.json"}
+            ledger = {"entries":[{"id":"ADR-B-0001","module_id":"ADR-B-01",
+                "source_references":["ADR 2025, 1.3.2"],
+                "verification_status":"needs_review",
+                "official_polish_pdf_exact_section_access":"not_retrieved_not_literally_compared"}]}
+            mf=specialist/"PAKIET-0001-MANIFEST.json"
+            lf=legal/"ledger.json"
+            mf.write_text(json.dumps(manifest),encoding="utf-8")
+            lf.write_text(json.dumps(ledger),encoding="utf-8")
+            self.assertEqual(validate_reviewer_manifest(root, [row]), [])
+            ledger["entries"][0]["source_references"]=["ADR 2025, 9.9.9"]
+            lf.write_text(json.dumps(ledger),encoding="utf-8")
+            self.assertTrue(any("Stale legal ledger clause" in err
+                for err in validate_reviewer_manifest(root, [row])))
+            ledger["entries"][0]["source_references"]=["ADR 2025, 1.3.2"]
+            lf.write_text(json.dumps(ledger),encoding="utf-8")
+            manifest["unresolved_literal_comparisons"]=0
+            mf.write_text(json.dumps(manifest),encoding="utf-8")
+            self.assertTrue(any("unresolved legal count" in err
+                for err in validate_reviewer_manifest(root, [row])))
 
 
 if __name__=="__main__":
