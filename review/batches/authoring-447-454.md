@@ -1,0 +1,3 @@
+# ADR-B-10 — uzupełnienie 0447–0454
+
+8 nowych pytań (24 indywidualne oceny wariantów) o dopuszczeniu butli DOT w imporcie i eksporcie w łańcuchu multimodalnym, kontroli okresowej, oznakowaniu i wpisach 5.4.1.1.24. Luka względem 46 istniejących pytań: nie występowały zagadnienia 1.1.4.7.1/1.1.4.7.2 ani 5.4.1.1.24. Przepisy sprawdzone w oficjalnym ADR 2025 UNECE EN https://unece.org/adr-2025-files; wskazanie urzędowej polskiej podstawy https://dziennikustaw.gov.pl/DU/2025/642 i sprostowania https://eli.gov.pl/eli/DU/2025/1575/ogl. Kompletny indywidualny audyt polskiego tekstu urzędowego i niezależna kontrola ekspercka oczekują. Każde pytanie needs_review, 0 verified. To nauka o wyjątku multimodalnym, nie kurs specjalistyczny. CI niepotwierdzony do zakończenia workflow.
