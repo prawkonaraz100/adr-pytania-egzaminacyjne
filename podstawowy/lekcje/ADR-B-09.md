@@ -63,3 +63,7 @@ Pytania 0235–0240: ruch opakowań przy hamowaniu (7.5.7.1), nienadmierny naci�
 **Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
 
 **Podstawa do weryfikacji:** ADR 7.5.7.1–7.5.7.2; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
+
+## Sytuacja kontrolna ADR-B-0286 (etap 2)
+
+Sztuka przesyłki ADR ma strzałki kierunkowe na dwóch przeciwległych bokach. W jakiej pozycji należy co do zasady ustawić ją w pojeździe? Uczeń ma wyjaśnić uzasadnienie i warunki prawne 7.5.1.5 oraz wskazać błędną praktykę. To szkic wymagający porównania z polskim Dz.U. 642, sprostowaniem 1575 i niezależnej recenzji.

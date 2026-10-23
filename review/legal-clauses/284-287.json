@@ -1,0 +1,195 @@
+{
+  "title": "ADR 2025 preliminary A/B/C audit 0284–0287",
+  "date": "2026-10-23",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0284",
+      "order": 284,
+      "clause": "ADR 2025, 5.2.2.2.2",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Odniesienie do ADR 2025, 5.2.2.2.2: Nalepka 2.2 przedstawia butlę gazową na zielonym tle i dotyczy gazów niepalnych i nietrujących."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź „Gazy palne (wzór 2.1)” nie odpowiada podanej regule ADR 2025, 5.2.2.2.2; wymagana polska kontrola źródłowa."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź „Materiały żrące (klasa 8)” nie odpowiada podanej regule ADR 2025, 5.2.2.2.2; wymagana polska kontrola źródłowa."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Weryfikacja dotyczy scenariusza, oficjalne polskie brzmienie i zakres wyjątków wymagają niezależnego potwierdzenia.",
+      "editorial_result": "preliminary_authoring_check_only",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0284",
+        "module_id": "ADR-B-02",
+        "stem": "Na nalepce widoczny jest symbol butli gazowej na zielonym tle i numer 2 u dołu. Jaką grupę zagrożeń oznacza ten wzór?",
+        "options": {
+          "A": "Gazy niepalne i nietrujące (wzór 2.2)",
+          "B": "Gazy palne (wzór 2.1)",
+          "C": "Materiały żrące (klasa 8)"
+        },
+        "correct_option": "A",
+        "explanation": "Nalepka 2.2 przedstawia butlę gazową na zielonym tle i dotyczy gazów niepalnych i nietrujących.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0285",
+      "order": 285,
+      "clause": "ADR 2025, 1.4.2.2.1(b)",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź „Rozpocząć przewóz bez danych, jeśli zna miejsce dostawy” nie odpowiada podanej regule ADR 2025, 1.4.2.2.1(b); wymagana polska kontrola źródłowa."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Odniesienie do ADR 2025, 1.4.2.2.1(b): Przewoźnik powinien upewnić się, że przed przewozem otrzymał wymagane informacje i że dokumenty lub równoważne dane są dostępne w przewozie."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź „Zastąpić numer UN wyłącznie numerem rejestracyjnym” nie odpowiada podanej regule ADR 2025, 1.4.2.2.1(b); wymagana polska kontrola źródłowa."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Weryfikacja dotyczy scenariusza, oficjalne polskie brzmienie i zakres wyjątków wymagają niezależnego potwierdzenia.",
+      "editorial_result": "preliminary_authoring_check_only",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0285",
+        "module_id": "ADR-B-07",
+        "stem": "Przed przewozem ADR przewoźnik nie otrzymał wymaganych informacji o towarze od nadawcy. Co powinien zrobić?",
+        "options": {
+          "A": "Rozpocząć przewóz bez danych, jeśli zna miejsce dostawy",
+          "B": "Uzyskać wymagane informacje i zapewnić wymagane dokumenty lub dostępne dane przed przewozem",
+          "C": "Zastąpić numer UN wyłącznie numerem rejestracyjnym"
+        },
+        "correct_option": "B",
+        "explanation": "Przewoźnik powinien upewnić się, że przed przewozem otrzymał wymagane informacje i że dokumenty lub równoważne dane są dostępne w przewozie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.4.2.2.1(b)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0286",
+      "order": 286,
+      "clause": "ADR 2025, 7.5.1.5",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź „Dowolnie na boku, jeśli jest przypięta pasem” nie odpowiada podanej regule ADR 2025, 7.5.1.5; wymagana polska kontrola źródłowa."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź „Strzałkami w dół, aby zachować stabilność” nie odpowiada podanej regule ADR 2025, 7.5.1.5; wymagana polska kontrola źródłowa."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Odniesienie do ADR 2025, 7.5.1.5: Sztuki przesyłek opatrzone strzałkami kierunkowymi powinny być ustawiane zgodnie z tym oznakowaniem."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Weryfikacja dotyczy scenariusza, oficjalne polskie brzmienie i zakres wyjątków wymagają niezależnego potwierdzenia.",
+      "editorial_result": "preliminary_authoring_check_only",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0286",
+        "module_id": "ADR-B-09",
+        "stem": "Sztuka przesyłki ADR ma strzałki kierunkowe na dwóch przeciwległych bokach. W jakiej pozycji należy co do zasady ustawić ją w pojeździe?",
+        "options": {
+          "A": "Dowolnie na boku, jeśli jest przypięta pasem",
+          "B": "Strzałkami w dół, aby zachować stabilność",
+          "C": "Zgodnie z kierunkiem strzałek, czyli strzałkami do góry"
+        },
+        "correct_option": "C",
+        "explanation": "Sztuki przesyłek opatrzone strzałkami kierunkowymi powinny być ustawiane zgodnie z tym oznakowaniem.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.1.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0287",
+      "order": 287,
+      "clause": "ADR 2025, 5.4.1.1.7",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Odniesienie do ADR 2025, 5.4.1.1.7: W dokumencie należy zamieścić oświadczenie o przewozie zgodnym z 1.1.4.2.1."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź „Wyłącznie numeru rejsu statku” nie odpowiada podanej regule ADR 2025, 5.4.1.1.7; wymagana polska kontrola źródłowa."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź „Adnotacji, że ADR nie ma w ogóle zastosowania” nie odpowiada podanej regule ADR 2025, 5.4.1.1.7; wymagana polska kontrola źródłowa."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Weryfikacja dotyczy scenariusza, oficjalne polskie brzmienie i zakres wyjątków wymagają niezależnego potwierdzenia.",
+      "editorial_result": "preliminary_authoring_check_only",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0287",
+        "module_id": "ADR-B-13",
+        "stem": "Wymagany dokument przewozowy dotyczy przewozu ADR realizowanego zgodnie z 1.1.4.2.1 w łańcuchu morskim lub lotniczym. Jakiego dodatkowego wpisu wymaga 5.4.1.1.7?",
+        "options": {
+          "A": "Oświadczenia, że przewóz odbywa się zgodnie z 1.1.4.2.1",
+          "B": "Wyłącznie numeru rejsu statku",
+          "C": "Adnotacji, że ADR nie ma w ogóle zastosowania"
+        },
+        "correct_option": "A",
+        "explanation": "W dokumencie należy zamieścić oświadczenie o przewozie zgodnym z 1.1.4.2.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
