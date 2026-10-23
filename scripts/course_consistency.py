@@ -72,7 +72,7 @@ def audit(root: Path):
     if not index_file.is_file():
         failures.append("Missing specialist question registry")
     else:
-        lines = re.findall(r"^\\| (ADR-B-\\d{4}) \\|",index_file.read_text(encoding="utf-8"),flags=re.M)
+        lines = re.findall(r"^\| (ADR-B-\d{4}) \|",index_file.read_text(encoding="utf-8"),flags=re.M)
         if len(lines)!=len(qids) or set(lines)!=qset:
             failures.append(f"Specialist index differs from bank: index={len(lines)}, bank={len(qids)}")
     approval = root / "review/approvals.jsonl"
