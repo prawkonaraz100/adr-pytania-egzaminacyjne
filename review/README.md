@@ -2,6 +2,10 @@
 
 **Stan początkowy: 0 zatwierdzonych pytań.** `approvals.jsonl` jest celowo pusty. W projekcie **nie wolno** samodzielnie wpisywać fikcyjnych recenzentów ani dat.
 
+## Indywidualny przegląd wariantów A/B/C
+
+[Raport dla pierwszych 60 pytań](legal-clauses/RAPORT-001-060.md) i dwa pliki `legal-clauses/*.json` zawierają 180 osobnych uzasadnień odpowiedzi A/B/C, podstawy i wyjątki. Są to analizy redakcyjne, nie podpisane opinie fachowca ani pełne porównanie tekstu ogłoszonego w języku polskim. Nie kopiować ocen do `approvals.jsonl`.
+
 ## Pełny wstępny przebieg redakcyjny 216 pytań
 
 [Raport wszystkich pytań](sequential/RAPORT.md) i ośmiu plików `sequential/*.json` dokumentuje przejrzenie treści A/B/C, wyjaśnień i wskazanych referencji. **Zawiera stopień faktycznej kontroli źródeł i wskazuje, że wszystkie 216 wymagają pełnego porównania prawnego oraz eksperckiej recenzji**. Nie należy kopiować ich jako pozytywnych recenzji do `approvals.jsonl`.
