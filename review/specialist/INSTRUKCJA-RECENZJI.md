@@ -4,7 +4,7 @@
 
 ## Materiały wejściowe
 
-1. Pełny indeks [pytania 0001–0506](REJESTR-0001-0506.md), oryginalne rekordy w `podstawowy/questions.jsonl`.
+1. Pełny indeks [aktualny wykaz pytań 0001–0542](REJESTR-AKTUALNY-0001-0542.md), oryginalne rekordy w `podstawowy/questions.jsonl`.
 2. Urzędowe polskie ADR 2025 — [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl); program kursu [Dz.U. 2021 poz. 2150](https://eli.gov.pl/eli/DU/2021/2150/ogl).
 3. Audyty redakcyjne `review/sequential/`, analizy wariantów `review/legal-clauses/`, raporty `review/batches/`, matryca `podstawowy/kompetencje.json`, materiały 13 lekcji i `podstawowy/praktyka/SCENARIUSZE.md`.
 4. Procedura zatwierdzania: `review/README.md` i skrypt `scripts/release_gate.py`.
@@ -29,3 +29,14 @@
 ## Wynik recenzji
 
 Recenzent przekazuje formularz z polami: ID, data kontroli, recenzent, źródło z jednostką redakcyjną, ocena A/B/C, wyjątki, wynik, szczegółowe uwagi, proponowane zmiany i podpis / wiarygodne potwierdzenie. Formularz [wzór uwag](FORMULARZ-UWAG.md). Redaktor nanosi tylko potwierdzone poprawki, aktualizuje wszystkie migawki audytu w `review/sequential/` i `review/legal-clauses/`, uruchamia Quality Gate i przeprowadza ponowną recenzję zmienionych pytań. Brak wpisów akceptacji nadal blokuje publikację.
+
+
+## Aktualizacja 4l po 4h–4k
+
+- Zamrożony zakres tej partii: **ADR-B-0001–0542**. Dokumenty 0520–0542: `review/sequential/520-525.json`, `526-533.json`, `534-538.json`, `539-540.json`, `541-542.json` i odpowiadające pliki `review/legal-clauses/`. Przy recenzji sprawdź warianty każdej litery *obecnego* stanu, nie poprzednich migawek.
+- **P1:** 23 nowe pozycje ADR-B-0520–0542. Wszystkie zawierają robocze przepisy, żadne nie ma potwierdzonego dosłownego porównania z urzędowym polskim PDF i sprostowaniem. Prioritet: 0520–0538 dokumentacja, szkolenie i LQ/EQ; 0539–0540 tunele; 0541–0542 nalepki i autorskie SVG.
+- **P2:** 519 starszych pozycji nadal z otwartymi zagadnieniami prawnej weryfikacji. Każdą korektę przenoś do jej migawki oraz do nowego bieżącego indeksu.
+- **Grafiki:** dla każdego niepustego `image` porównaj dokładny rysunek i semantykę pytania z konkretnym wzorem ADR 2025; zweryfikuj autora/licencję, tekst alternatywny i dostępność. Samo `image` nie jest dowodem wykonanej recenzji.
+- **Literalny rejestr:** `review/legal-polish/stage4k-literal-verification-ledger-0001-0542.json` zawiera faktycznie nieporównane pozycje; angielska publikacja UNECE ani pomocniczy tekst MI nie są dowodem odczytu urzędowej strony PDF. Zapisz stronę/tom, jednostkę redakcyjną, wynik sprostowania, wyjątki oraz osobną ocenę A/B/C.
+- **Egzamin próbny:** `scripts/mock_exam.py` musi pozostać fail-closed. Rekord `needs_review` (nawet z grafiką) jest niedopuszczony do losowania i publicznej publikacji. Testy syntetyczne wyłącznie w katalogach tymczasowych.
+- Raport przekazania i gotowości: `review/batches/stage4l-readiness-0542.md`. Żadnego `verified` bez indywidualnego prawdziwego protokołu.
