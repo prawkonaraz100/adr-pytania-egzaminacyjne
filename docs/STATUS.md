@@ -235,3 +235,11 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Odświeżono oryginalny sekwencyjny snapshot dla 5 zmienionych pozycji; rozszerzono test szczegółowej analizy z 60 do **90**.
 - Nadal **216 needs_review / 0 verified**, brak podpisanej eksperckiej recenzji, brak pełnej kontroli dosłownego polskiego tekstu oraz brak zatwierdzeń wydawniczych. Eksport **BLOCKED**.
 - Formalny Quality Gate nowej gałęzi wymaga potwierdzenia na końcowym SHA PR.
+
+## 2026-10-23 — przegląd odpowiedzi A/B/C pytań 0091–0120
+
+- Opracowano kolejne 30 pytań i 90 osobnych uzasadnień odpowiedzi; aktualny zakres **120/216 pytań i 360 wariantów A/B/C** udokumentowany w `review/legal-clauses/091-120.json` oraz [raporcie](../review/legal-clauses/RAPORT-091-120.md).
+- Poprawiono `ADR-B-0091`, `0101`, `0115`, `0116`: prywatne zwolnienie tylko dla zaklasyfikowanych farb, realizm dystraktora w awarii, nalepki na przesyłce, obowiązki przewoźnika przy wycieku w trasie.
+- Uaktualniono `review/sequential/091-120.json` oraz rozszerzono bramkę szczegółowej oceny do **120** rekordów.
+- Nie ma pełnej kontroli brzmienia polskiego tekstu Dz.U. dla wszystkich 120 pytań ani prawdziwej pozytywnej recenzji specjalisty: **216 needs_review / 0 verified**, eksport BLOCKED.
+- Formalny Quality Gate tej partii przed scaleniem wymaga potwierdzenia PASS.
