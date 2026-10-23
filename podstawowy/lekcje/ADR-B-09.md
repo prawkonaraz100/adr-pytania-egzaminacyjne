@@ -49,3 +49,7 @@ Pytania: `ADR-B-0025`–`0027`, `0058`–`0060`, `0078`–`0082`, `0138`–`0139
 - [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
 - [Sprostowanie — Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
 - [Program kursu — Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
+
+## Praktyczne decyzje załadunkowe (szkic do recenzji)
+
+Pytania 0235–0240: ruch opakowań przy hamowaniu (7.5.7.1), nienadmierny naciąg pasów, dopuszczalność piętrzenia (7.5.7.2), czyszczenie po wycieku (7.5.8.1), kontrola przed załadunkiem (7.5.1.2) i czyszczenie po przewozie luzem (7.5.8.2). Na ćwiczeniach używać wyłącznie bezpiecznych atrap; nie symulować prawdziwego wycieku.
