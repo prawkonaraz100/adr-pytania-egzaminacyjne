@@ -12,7 +12,7 @@ def audit(root: Path):
     warnings = []
     question_file = root / "podstawowy/questions.jsonl"
     matrix_file = root / "podstawowy/kompetencje.json"
-    index_file = root / "review/specialist/REJESTR-0001-0506.md"
+    index_files = sorted((root / "review/specialist").glob("REJESTR-*.md"))
     if not question_file.is_file() or not matrix_file.is_file():
         return ["Missing question bank or competency matrix"], []
     questions = [json.loads(x) for x in question_file.read_text(encoding="utf-8").splitlines() if x.strip()]
@@ -69,12 +69,15 @@ def audit(root: Path):
         for code in ("P1", "P2", "P3"):
             if code not in body:
                 failures.append(f"Missing practical scenario {code}")
-    if not index_file.is_file():
+    if not index_files:
         failures.append("Missing specialist question registry")
     else:
-        lines = re.findall(r"^\| (ADR-B-\d{4}) \|",index_file.read_text(encoding="utf-8"),flags=re.M)
-        if len(lines)!=len(qids) or set(lines)!=qset:
-            failures.append(f"Specialist index differs from bank: index={len(lines)}, bank={len(qids)}")
+        indexed_ids = []
+        for index_file in index_files:
+            indexed_ids.extend(re.findall(r"^\| (ADR-B-\d{4}) \|",
+                                          index_file.read_text(encoding="utf-8"), flags=re.M))
+        if len(indexed_ids) != len(qids) or set(indexed_ids) != qset:
+            failures.append(f"Specialist index differs from bank: index={len(indexed_ids)}, bank={len(qids)}")
     approval = root / "review/approvals.jsonl"
     if not approval.is_file():
         failures.append("Missing release approval ledger")
