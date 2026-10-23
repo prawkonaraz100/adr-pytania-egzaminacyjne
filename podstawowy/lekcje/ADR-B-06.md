@@ -61,3 +61,7 @@ Pytania 0255–0258 opisują słowami górne i dolne pole tablicy, literę X, po
 ## Scenariusz 0281 — oznaczenie UN na sztuce przesyłki
 
 Popraw opis „1203” na „UN 1203” w sytuacji, gdzie obowiązuje ADR 5.2.1.1. Pytanie szkicowe, wymaga kontroli wyjątków i akceptacji specjalisty.
+
+## Kontrola oznakowania ADR-B-0298–0299
+
+Rozpoznaj numer 80 jako wskazujący zagrożenie żrące (5.3.2.3.2) oraz wymagane rozmieszczenie dużych nalepek na kontenerze (5.3.1.2). Scenariusz tekstowy zastępuje tymczasowo grafikę, ale nie kończy kontroli prawnej.
