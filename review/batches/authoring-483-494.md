@@ -1,0 +1,3 @@
+# Trudne przypadki ADR 2025 — 0483–0494
+
+Stan main przed partią: 482 pytań, 0 otwartych PR. Analiza dotychczasowych pytań: liczne ogólne pytania o wyposażenie 8.1.5, tunele 8.6, załadunek 7.5.2 i ratownictwo 5.4.3; nowe scenariusze sprawdzają konkretne przypisy i liczby graniczne zamiast samego rozpoznawania zasad. 12 nowych pytań: ADR-B-08 (+4), ADR-B-11 (+4), ADR-B-09 (+2), ADR-B-05 (+2). Osobny audyt 36 wariantów A/B/C, aktualne migawki, mapa kompetencji. Sprawdzenie przepisów na podstawie ADR 2025 UNECE, tekst prawnie obowiązujący w Polsce Dz.U. 2025 poz. 642 oraz sprostowanie poz. 1575. Brak pełnego indywidualnego audytu urzędowego PL i brak niezależnego specjalisty; wyłącznie needs_review. Nie rozpoczęto kursu cysterny. Wymagany PASS pełnego CI przed scaleniem.
