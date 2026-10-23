@@ -50,3 +50,7 @@ Pytania: `0037`–`0039`, `0068`–`0070`, `0087`–`0090`, `0145`–`0146`.
 ## Ćwiczenie z dokumentem ADR (szkic)
 
 Na przykładowym dokumencie wskaż zapis `UN` i numer identyfikacyjny (0226), liczbę oraz rodzaj przesyłek (0227) oraz lokalizację i dostępność instrukcji pisemnych w kabinie (0228). Podstawa: ADR 5.4.1.1.1(a),(e), 5.4.3.1, 8.1.2.3. Nie zastępuje realnej kontroli prawnej dokumentów i wyjątków.
+
+## Dalsze ćwiczenia z dokumentacją (szkic)
+
+Uczeń uzupełnia wymagane dane odbiorcy (0233) w standardowym opisie i rozpoznaje niedopuszczalność zastąpienia czterostronicowych instrukcji firmową notatką (0234). Źródła: ADR 5.4.1.1.1(h), 5.4.3.2 i 5.4.3.4. Wyjątki oraz poprawne przypadki mają zostać skontrolowane z urzędowym tekstem.
