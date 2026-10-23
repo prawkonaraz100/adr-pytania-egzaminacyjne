@@ -1,0 +1,833 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0381",
+      "order": 381,
+      "clause": "ADR 2025, 1.1.4.2.1(a)",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Przy tym warunkowym uznaniu wymagane są właściwe znaki i nalepki zgodne z IMDG lub ICAO. Pozostaje kontrola polskiego tekstu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B („Dowolne ręczne ostrzeżenie”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(a); nie jest właściwy w tym scenariuszu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Nie musi mieć żadnego oznakowania”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(a); nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0381",
+        "module_id": "ADR-B-10",
+        "stem": "W łańcuchu drogowym i morskim opakowanie nie jest oznaczone zgodnie z ADR, lecz podlega dopuszczeniu według 1.1.4.2.1. Jakie oznakowanie musi mieć?",
+        "options": {
+          "A": "Zgodne z IMDG lub instrukcjami ICAO, zależnie od odpowiedniego etapu",
+          "B": "Dowolne ręczne ostrzeżenie",
+          "C": "Nie musi mieć żadnego oznakowania"
+        },
+        "correct_option": "A",
+        "explanation": "Przy tym warunkowym uznaniu wymagane są właściwe znaki i nalepki zgodne z IMDG lub ICAO.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0382",
+      "order": 382,
+      "clause": "ADR 2025, 1.1.4.2.1(b)",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A („Zawsze zasady przewozu żywności”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(b); nie jest właściwy w tym scenariuszu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Dopuszczenie odwołuje się do wymagań właściwego trybu morskiego lub lotniczego dotyczących mixed packing. Pozostaje kontrola polskiego tekstu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Wyłącznie gust kierowcy”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(b); nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0382",
+        "module_id": "ADR-B-10",
+        "stem": "W łańcuchu z etapem morskim zastosowano przywilej 1.1.4.2.1 dla wspólnego pakowania w jednej sztuce przesyłki. Które wymagania mogą określać pakowanie razem?",
+        "options": {
+          "A": "Zawsze zasady przewozu żywności",
+          "B": "Wymagania kodeksu IMDG lub instrukcji ICAO",
+          "C": "Wyłącznie gust kierowcy"
+        },
+        "correct_option": "B",
+        "explanation": "Dopuszczenie odwołuje się do wymagań właściwego trybu morskiego lub lotniczego dotyczących mixed packing.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1(b)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0383",
+      "order": 383,
+      "clause": "ADR 2025, 1.1.4.2.1(c)",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: W tym przypadku dopuszcza się oznakowanie zgodne z IMDG, z zachowaniem szczególnych warunków dla pojazdu. Pozostaje kontrola polskiego tekstu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B („Usunięcie wszystkich oznakowań”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(c); nie jest właściwy w tym scenariuszu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Dowolną tablicę reklamową”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(c); nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0383",
+        "module_id": "ADR-B-10",
+        "stem": "Kontener w łańcuchu morskim oznakowano według IMDG zamiast oznaczeń wymaganych w ADR 5.3. Co może dopuścić 1.1.4.2.1(c)?",
+        "options": {
+          "A": "Oznakowanie i nalepki wielkiego formatu według IMDG po spełnieniu warunków",
+          "B": "Usunięcie wszystkich oznakowań",
+          "C": "Dowolną tablicę reklamową"
+        },
+        "correct_option": "A",
+        "explanation": "W tym przypadku dopuszcza się oznakowanie zgodne z IMDG, z zachowaniem szczególnych warunków dla pojazdu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1(c)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0384",
+      "order": 384,
+      "clause": "ADR 2025, 1.1.4.2.1(c); 5.3.2.1.1",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A („Wolno usunąć każdą tablicę pomarańczową”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(c); 5.3.2.1.1; nie jest właściwy w tym scenariuszu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Przepis zachowuje określony obowiązek dotyczący oznakowania samego pojazdu. Pozostaje kontrola polskiego tekstu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Pojazd musi mieć wyłącznie etykietę spedytora”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(c); 5.3.2.1.1; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0384",
+        "module_id": "ADR-B-10",
+        "stem": "Kontener w łańcuchu morskim korzysta z oznakowania IMDG na podstawie 1.1.4.2.1(c). Co z oznakowaniem pojazdu drogowego?",
+        "options": {
+          "A": "Wolno usunąć każdą tablicę pomarańczową",
+          "B": "W zakresie tego wyjątku do pojazdu stosuje się odpowiednie wymaganie 5.3.2.1.1",
+          "C": "Pojazd musi mieć wyłącznie etykietę spedytora"
+        },
+        "correct_option": "B",
+        "explanation": "Przepis zachowuje określony obowiązek dotyczący oznakowania samego pojazdu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1(c); 5.3.2.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0385",
+      "order": 385,
+      "clause": "ADR 2025, 1.1.4.2.1(c)",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Wskazany przepis wyraźnie obejmuje pusty, nieoczyszczony kontener-cysternę do przekazania na czyszczenie. Pozostaje kontrola polskiego tekstu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B („Tylko przez pierwszych 10 km”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(c); nie jest właściwy w tym scenariuszu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Wyłącznie przed rozładunkiem statku”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(c); nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0385",
+        "module_id": "ADR-B-10",
+        "stem": "Pusty, nieoczyszczony kontener-cysterna przybywa morzem i jedzie do punktu czyszczenia. Jak długo określona reguła oznakowania IMDG z 1.1.4.2.1(c) pozostaje istotna?",
+        "options": {
+          "A": "Do transferu do stacji czyszczenia włącznie",
+          "B": "Tylko przez pierwszych 10 km",
+          "C": "Wyłącznie przed rozładunkiem statku"
+        },
+        "correct_option": "A",
+        "explanation": "Wskazany przepis wyraźnie obejmuje pusty, nieoczyszczony kontener-cysternę do przekazania na czyszczenie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1(c)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0386",
+      "order": 386,
+      "clause": "ADR 2025, 1.1.4.2.1 akapit końcowy",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A („Tak, zawsze”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1 akapit końcowy; nie jest właściwy w tym scenariuszu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: ADR wyłącza z tej derogacji towary niebezpieczne według ADR, ale niewykazywane jako niebezpieczne przez odpowiednie przepisy IMDG/ICAO. Pozostaje kontrola polskiego tekstu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Tak, jeśli masa wynosi poniżej 5 kg”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1 akapit końcowy; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0386",
+        "module_id": "ADR-B-10",
+        "stem": "Towar jest niebezpieczny według klas 1–9 ADR, ale nie jest uznawany za niebezpieczny według właściwego IMDG/ICAO. Czy wyjątek 1.1.4.2.1 może wtedy automatycznie zadziałać?",
+        "options": {
+          "A": "Tak, zawsze",
+          "B": "Nie, ten przypadek jest wyraźnie wyłączony z odstępstwa",
+          "C": "Tak, jeśli masa wynosi poniżej 5 kg"
+        },
+        "correct_option": "B",
+        "explanation": "ADR wyłącza z tej derogacji towary niebezpieczne według ADR, ale niewykazywane jako niebezpieczne przez odpowiednie przepisy IMDG/ICAO.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1 akapit końcowy",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0387",
+      "order": 387,
+      "clause": "ADR 2025, 1.1.4.2.2",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Dopuszczenie dotyczy określonego łańcucha morskiego oraz wymaga zachowania wymogów pomarańczowych tablic ADR. Pozostaje kontrola polskiego tekstu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B („Bez żadnych tablic i bez dokumentu”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.2; nie jest właściwy w tym scenariuszu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Zawsze na dowolnej trasie drogowej”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.2; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0387",
+        "module_id": "ADR-B-10",
+        "stem": "Pojazd inny niż przewożący wskazane kontenery ma nalepki wielkiego formatu według IMDG, ale nie zgodnie z ADR 5.3.1. Kiedy 1.1.4.2.2 dopuszcza taki przewóz?",
+        "options": {
+          "A": "W łańcuchu obejmującym morze przy zachowaniu tablic pomarańczowych według ADR 5.3.2",
+          "B": "Bez żadnych tablic i bez dokumentu",
+          "C": "Zawsze na dowolnej trasie drogowej"
+        },
+        "correct_option": "A",
+        "explanation": "Dopuszczenie dotyczy określonego łańcucha morskiego oraz wymaga zachowania wymogów pomarańczowych tablic ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0388",
+      "order": 388,
+      "clause": "ADR 2025, 1.1.4.2.3",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Warunkowe zastąpienie dokumentu nie znosi dodatkowych danych wymaganych w ADR. Pozostaje kontrola polskiego tekstu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B („Czy jest kolorowy”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.3; nie jest właściwy w tym scenariuszu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Czy kierowca podpisał fakturę”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.3; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0388",
+        "module_id": "ADR-B-10",
+        "stem": "Dokument IMDG/ICAO może w określonym łańcuchu zastępować dokument przewozowy ADR. Co trzeba sprawdzić?",
+        "options": {
+          "A": "Czy zawiera także informacje wymagane dodatkowo przez ADR",
+          "B": "Czy jest kolorowy",
+          "C": "Czy kierowca podpisał fakturę"
+        },
+        "correct_option": "A",
+        "explanation": "Warunkowe zastąpienie dokumentu nie znosi dodatkowych danych wymaganych w ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0389",
+      "order": 389,
+      "clause": "ADR 2025, 1.1.4.2.1",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A („Tak, wszystkie zasady drogowe znikają”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1; nie jest właściwy w tym scenariuszu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Odstępstwo wylicza konkretne aspekty opakowań i oznakowania; nie jest ogólnym zwolnieniem z ADR. Pozostaje kontrola polskiego tekstu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Tak, wystarczy oznaczenie kontenera logo armatora”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0389",
+        "module_id": "ADR-B-10",
+        "stem": "Łańcuch obejmuje przewóz drogą i morzem. Czy dopuszczenie z 1.1.4.2.1 oznacza, że nie trzeba spełniać żadnych wymagań na drodze?",
+        "options": {
+          "A": "Tak, wszystkie zasady drogowe znikają",
+          "B": "Nie, odstępstwo dotyczy określonych wymagań i podlega warunkom",
+          "C": "Tak, wystarczy oznaczenie kontenera logo armatora"
+        },
+        "correct_option": "B",
+        "explanation": "Odstępstwo wylicza konkretne aspekty opakowań i oznakowania; nie jest ogólnym zwolnieniem z ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0390",
+      "order": 390,
+      "clause": "ADR 2025, 5.4.2",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Osoby odpowiedzialne za pakowanie kontenera przekazują właściwe świadectwo przewoźnikowi morskiemu. Pozostaje kontrola polskiego tekstu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B („Wyłącznie zezwolenie na parkowanie”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Wyłącznie fakturę VAT”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0390",
+        "module_id": "ADR-B-10",
+        "stem": "Towar niebezpieczny ma jechać w zwykłym kontenerze drogą, a następnie statkiem. Jaki dokument przewiduje 5.4.2?",
+        "options": {
+          "A": "Świadectwo pakowania kontenera/pojazdu przekazane przewoźnikowi morskiemu",
+          "B": "Wyłącznie zezwolenie na parkowanie",
+          "C": "Wyłącznie fakturę VAT"
+        },
+        "correct_option": "A",
+        "explanation": "Osoby odpowiedzialne za pakowanie kontenera przekazują właściwe świadectwo przewoźnikowi morskiemu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0391",
+      "order": 391,
+      "clause": "ADR 2025, 5.4.2",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A („Kierowca autobusu”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Obowiązek spoczywa na osobach odpowiedzialnych za pakowanie kontenera. Pozostaje kontrola polskiego tekstu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Dowolny pracownik ochrony portu”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0391",
+        "module_id": "ADR-B-10",
+        "stem": "Kto według ADR 5.4.2 ma przekazać przewoźnikowi morskiemu świadectwo pakowania kontenera?",
+        "options": {
+          "A": "Kierowca autobusu",
+          "B": "Osoby odpowiedzialne za pakowanie kontenera",
+          "C": "Dowolny pracownik ochrony portu"
+        },
+        "correct_option": "B",
+        "explanation": "Obowiązek spoczywa na osobach odpowiedzialnych za pakowanie kontenera.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0392",
+      "order": 392,
+      "clause": "ADR 2025, 5.4.2",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A („Nie, muszą zawsze być trzy osobne pliki”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: ADR przewiduje połączenie funkcji dokumentów po spełnieniu wymagań co do oświadczenia i identyfikacji odpowiedzialnej osoby. Pozostaje kontrola polskiego tekstu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Tak, bez wymaganych informacji”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0392",
+        "module_id": "ADR-B-10",
+        "stem": "Czy funkcję świadectwa pakowania kontenera i dokumentu przewozowego ADR wolno w określonych warunkach połączyć w jednym dokumencie?",
+        "options": {
+          "A": "Nie, muszą zawsze być trzy osobne pliki",
+          "B": "Tak, jeśli zawiera wymagane oświadczenie i identyfikację osoby odpowiedzialnej",
+          "C": "Tak, bez wymaganych informacji"
+        },
+        "correct_option": "B",
+        "explanation": "ADR przewiduje połączenie funkcji dokumentów po spełnieniu wymagań co do oświadczenia i identyfikacji odpowiedzialnej osoby.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0393",
+      "order": 393,
+      "clause": "ADR 2025, 5.4.2",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A („Nie jest ono nigdy dopuszczalne”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: ADR dopuszcza wydanie świadectwa pakowania pojazdu razem z dokumentem przewozowym dla poprzedzającego rejs etapu drogowego. Pozostaje kontrola polskiego tekstu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Musi zastąpić prawo jazdy kierowcy”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0393",
+        "module_id": "ADR-B-10",
+        "stem": "W morskim łańcuchu transportowym ładunek jest przewożony w pojeździe, a nie kontenerze. Co mówi ADR 5.4.2 o świadectwie pakowania pojazdu?",
+        "options": {
+          "A": "Nie jest ono nigdy dopuszczalne",
+          "B": "Może być dołączone do dokumentu przewozowego",
+          "C": "Musi zastąpić prawo jazdy kierowcy"
+        },
+        "correct_option": "B",
+        "explanation": "ADR dopuszcza wydanie świadectwa pakowania pojazdu razem z dokumentem przewozowym dla poprzedzającego rejs etapu drogowego.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0394",
+      "order": 394,
+      "clause": "ADR 2025, 5.4.2",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Przepis i przywołane wymagania IMDG wskazują wyjątek dla przenośnych cystern. Pozostaje kontrola polskiego tekstu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B („Tak, we wszystkich przypadkach”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Tak, jeśli jest pusta i wyczyszczona”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0394",
+        "module_id": "ADR-B-10",
+        "stem": "Czy ADR 5.4.2 wymaga świadectwa pakowania kontenera dla przenośnej cysterny wyłącznie z tego powodu, że będzie przewożona statkiem?",
+        "options": {
+          "A": "Nie, dla cystern przenośnych świadectwo to nie jest wymagane",
+          "B": "Tak, we wszystkich przypadkach",
+          "C": "Tak, jeśli jest pusta i wyczyszczona"
+        },
+        "correct_option": "A",
+        "explanation": "Przepis i przywołane wymagania IMDG wskazują wyjątek dla przenośnych cystern.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0395",
+      "order": 395,
+      "clause": "ADR 2025, 5.4.1.1.7",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: W dokumencie przewozowym wymagana jest adnotacja o przewozie zgodnym z 1.1.4.2.1. Pozostaje kontrola polskiego tekstu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B („Wyłącznie hasło 'bezpieczny ładunek'”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.1.1.7; nie jest właściwy w tym scenariuszu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Tylko numer telefonu odbiorcy”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.1.1.7; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0395",
+        "module_id": "ADR-B-10",
+        "stem": "Kierowca korzysta z odstępstwa ADR 1.1.4.2.1. Jaki wpis dokumentowy przewiduje 5.4.1.1.7?",
+        "options": {
+          "A": "Informację o przewozie zgodnym z 1.1.4.2.1",
+          "B": "Wyłącznie hasło 'bezpieczny ładunek'",
+          "C": "Tylko numer telefonu odbiorcy"
+        },
+        "correct_option": "A",
+        "explanation": "W dokumencie przewozowym wymagana jest adnotacja o przewozie zgodnym z 1.1.4.2.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0396",
+      "order": 396,
+      "clause": "ADR 2025, 1.1.4.2",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A („Tak, zawsze”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2; nie jest właściwy w tym scenariuszu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Sama trasa do portu nie oznacza automatycznie całkowitego wyłączenia wymagań ADR. Pozostaje kontrola polskiego tekstu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Tak, jeśli pojazd ma rejestrację zagraniczną”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0396",
+        "module_id": "ADR-B-10",
+        "stem": "Kontener z towarem niebezpiecznym wyrusza drogą do portu. Czy sam przejazd do portu uprawnia do niestosowania całego ADR?",
+        "options": {
+          "A": "Tak, zawsze",
+          "B": "Nie; stosuje się zwykłe wymagania albo konkretny warunkowy wyjątek",
+          "C": "Tak, jeśli pojazd ma rejestrację zagraniczną"
+        },
+        "correct_option": "B",
+        "explanation": "Sama trasa do portu nie oznacza automatycznie całkowitego wyłączenia wymagań ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0397",
+      "order": 397,
+      "clause": "ADR 2025, 1.1.4.2.1(a)",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: ADR przewiduje także łańcuch z transportem lotniczym, ale odstępstwo jest warunkowe. Pozostaje kontrola polskiego tekstu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B („Wymagania ADR znikają na każdej drodze”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(a); nie jest właściwy w tym scenariuszu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („Wystarczy naklejka przewoźnika lotniczego”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(a); nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0397",
+        "module_id": "ADR-B-10",
+        "stem": "W łańcuchu obejmującym transport lotniczy paczka spełnia ICAO TI zamiast części wymagań oznakowania ADR. Która zasada może mieć zastosowanie?",
+        "options": {
+          "A": "Warunkowe uznanie z 1.1.4.2.1, jeśli spełniono jego wymagania",
+          "B": "Wymagania ADR znikają na każdej drodze",
+          "C": "Wystarczy naklejka przewoźnika lotniczego"
+        },
+        "correct_option": "A",
+        "explanation": "ADR przewiduje także łańcuch z transportem lotniczym, ale odstępstwo jest warunkowe.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0398",
+      "order": 398,
+      "clause": "ADR 2025, 1.1.4.2.3",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A („Telefon zawsze wystarczy”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.3; nie jest właściwy w tym scenariuszu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Przepis przewiduje określony dokument z wymaganymi danymi, a nie telefoniczne zastąpienie danych. Pozostaje kontrola polskiego tekstu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C („O dokumentach decyduje kolor kontenera”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.3; nie jest właściwy w tym scenariuszu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0398",
+        "module_id": "ADR-B-10",
+        "stem": "W transporcie drogowym z odcinkiem morskim przed przewozem ktoś proponuje zastąpić dokument transportowy IMDG ustnym telefonem. Co wynika z 1.1.4.2.3?",
+        "options": {
+          "A": "Telefon zawsze wystarczy",
+          "B": "Warunkowe zastąpienie dotyczy odpowiedniego dokumentu IMDG/ICAO, nie dowolnej rozmowy",
+          "C": "O dokumentach decyduje kolor kontenera"
+        },
+        "correct_option": "B",
+        "explanation": "Przepis przewiduje określony dokument z wymaganymi danymi, a nie telefoniczne zastąpienie danych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
