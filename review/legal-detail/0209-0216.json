@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-23",
+  "range": "ADR-B-0209..ADR-B-0216",
+  "scope": "Preliminary individual A/B/C cards; full official Polish ADR 2025 Dz.U.642 correction 1575, applicable M364 and independent expert assessment pending",
+  "records": [
+    {
+      "id": "ADR-B-0209",
+      "sequence": 209,
+      "snapshot": {
+        "stem": "Jednostka transportowa z towarami pakowanymi w ilościach ograniczonych LQ wymaga oznakowania zgodnie z 3.4.13, z uwzględnieniem 3.4.14. Jaką kategorię tunelu ADR wskazuje jako ograniczoną dla tak oznakowanej jednostki?",
+        "options": {
+          "A": "E",
+          "B": "Wyłącznie A",
+          "C": "Wyłącznie B"
+        },
+        "correct_option": "A",
+        "explanation": "Przewóz w LQ nie zawsze znosi ograniczenia tunelowe. Gdy wymagane jest oznakowanie jednostki według 3.4.13 z zastrzeżeniem 3.4.14, 8.6.4 obejmuje ograniczenie dotyczące tunelu kategorii E.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.3; 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Oznakowana jednostka LQ objęta wskazanym wyjątkiem może podlegać ograniczeniu E."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kategoria A nie jest zakazana przez ten przepis."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kategoria B nie jest tym wskazanym ograniczeniem."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Warunki 3.4.13/3.4.14 i zakres LQ muszą zostać spełnione.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0210",
+      "sequence": 210,
+      "snapshot": {
+        "stem": "Przy pożarze ciężarówki ADR w tunelu kierowca ma dostęp do oznakowanego wyjścia ewakuacyjnego, a przedział ładunkowy objął ogień. Co powinien potraktować priorytetowo?",
+        "options": {
+          "A": "Otworzenie ładowni i samodzielne gaszenie niezależnie od dymu",
+          "B": "Własne bezpieczeństwo, ewakuację według instrukcji tunelu i powiadomienie służb, bez gaszenia pożaru ładowni",
+          "C": "Przeniesienie wszystkich sztuk przesyłek do wyjścia ewakuacyjnego"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje ADR nie pozwalają załodze samodzielnie gasić pożaru obejmującego przedział ładunkowy. W tunelu trzeba stosować polecenia ratowników i miejscowe zasady ewakuacji.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4; 1.9.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Gaszenie ładowni przez kierowcę w pożarze tunelu jest niebezpieczne."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Priorytet to bezpieczeństwo, ewakuacja, wezwanie służb."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przenoszenie przesyłek do wyjścia w pożarze nie jest właściwym działaniem."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Dodatkowo stosować lokalne systemy ewakuacji tunelowej.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0211",
+      "sequence": 211,
+      "snapshot": {
+        "stem": "Na rampie pojawia się podwykonawca, który chce odebrać niebezpieczny ładunek. Przedsiębiorstwo nie ustaliło, czy to właściwy przewoźnik. Co wynika z 1.10.1.2?",
+        "options": {
+          "A": "Towar można wydać dowolnej osobie, jeśli zna numer zamówienia",
+          "B": "Towar wolno wydać bez weryfikacji, jeśli kierowca nie żąda kopii dokumentów",
+          "C": "Towar niebezpieczny można zaoferować do przewozu jedynie odpowiednio zidentyfikowanemu przewoźnikowi"
+        },
+        "correct_option": "C",
+        "explanation": "Wymóg identyfikacji przewoźnika ogranicza ryzyko przejęcia ładunku przez nieuprawnione osoby. Znajomość numeru zlecenia nie zastępuje właściwej identyfikacji.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Numer zlecenia nie zastępuje identyfikacji przewoźnika."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie wolno oferować towaru przypadkowej niezidentyfikowanej firmie."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Towar ADR można oferować do przewozu odpowiednio zidentyfikowanemu przewoźnikowi."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Wymóg dotyczy uczestników objętych przepisem ochrony.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0212",
+      "sequence": 212,
+      "snapshot": {
+        "stem": "Przedsiębiorstwo przewozi towary dużego ryzyka objęte 1.10.3.2.2. Czy plan ochrony może ograniczać się do listy numerów telefonów alarmowych?",
+        "options": {
+          "A": "Nie, plan powinien m.in. przypisywać obowiązki, oceniać zagrożenia i określać środki ochrony oraz postępowanie przy incydentach",
+          "B": "Tak, ponieważ wystarczą dane kontaktowe kierownika transportu",
+          "C": "Tak, jeśli firma zatrudnia wyłącznie jednego kierowcę"
+        },
+        "correct_option": "A",
+        "explanation": "Plan ochrony musi uwzględniać konkretne odpowiedzialności, ryzyka, zabezpieczenia, procedury zgłaszania i przeglądów. Sam spis telefonów nie spełnia tych wymagań.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.3.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Plan ochrony musi określać ryzyka, obowiązki i procedury, a nie tylko numery alarmowe."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kontakt do kierownika nie jest kompletnym planem ochrony."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Jednoosobowa firma nie jest automatycznie zwolniona z warunków planu."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Plan wymagany dla określonych towarów dużego ryzyka.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0213",
+      "sequence": 213,
+      "snapshot": {
+        "stem": "Firma przewozi towary niebezpieczne dużego ryzyka, do których odnosi się ADR 1.10.3.3. Jak należy traktować zabezpieczenia przed kradzieżą pojazdu i ładunku?",
+        "options": {
+          "A": "Jako wyposażenie używane wyłącznie po wcześniejszym zdarzeniu kradzieży",
+          "B": "Powinny być stosowane oraz utrzymywane jako sprawne i skuteczne podczas przewozu, bez utrudniania działań ratowniczych",
+          "C": "Można z nich zawsze zrezygnować, gdy kierowca zna miejsce dostawy"
+        },
+        "correct_option": "B",
+        "explanation": "ADR wymaga środków zapobiegających kradzieży wskazanych pojazdów i ładunków. Ich działanie ma być skuteczne, a jednocześnie nie może przeszkadzać w sytuacji awaryjnej.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zabezpieczenie przed kradzieżą nie jest dopiero reakcją po kradzieży."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wymagane środki powinny być używane, utrzymane w działaniu, bez utrudniania działań ratowniczych."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Znajomość adresu dostawy nie zwalnia ze środków ochrony."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Szczególne zasady dla przewozu odpowiednich towarów dużego ryzyka.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0214",
+      "sequence": 214,
+      "snapshot": {
+        "stem": "Wymagany dokument przewozowy ADR podaje prawidłowy numer UN i nazwę towaru, lecz nie ma danych nadawcy. Co należy poprawić?",
+        "options": {
+          "A": "Dopisać wyłącznie numer telefonu kierowcy w polu nazwy nadawcy",
+          "B": "Zastąpić nazwę i adres nadawcy podpisem kierowcy",
+          "C": "Uzupełnić wymagane dane nadawcy zgodnie z ADR 5.4.1.1.1"
+        },
+        "correct_option": "C",
+        "explanation": "Dokument przewozowy powinien co do zasady zawierać nazwę i adres nadawcy oraz odbiorcy, obok danych opisujących towar. Dane kierowcy nie zastępują nadawcy.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(g),(h)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Telefon kierowcy nie zastępuje wymaganej nazwy i adresu nadawcy."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Podpis kierowcy nie jest danymi nadawcy."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dokument musi zawierać wymagane dane nadawcy i odbiorcy."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Istnieją szczególne wyjątki dla rodzaju przewozu/odbiorców.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0215",
+      "sequence": 215,
+      "snapshot": {
+        "stem": "Dokument przewozowy zawiera wzmiankę „PRZEWÓZ ZGODNY Z 1.1.4.2.1” dla odpowiedniego łańcucha morsko-drogowego. Czy taki zapis zastępuje podstawowy opis towaru ADR?",
+        "options": {
+          "A": "Nie, jest wpisem dodatkowym; nie zastępuje wymaganych danych o towarze z 5.4.1.1.1",
+          "B": "Tak, zwalnia z wpisania numeru UN i prawidłowej nazwy przewozowej",
+          "C": "Tak, pod warunkiem że przewóz zaczyna się w porcie morskim"
+        },
+        "correct_option": "A",
+        "explanation": "Wzmianka o 1.1.4.2.1 informuje o szczególnym warunkowym trybie przewozu. Sama nie zastępuje ogólnych informacji w dokumencie, o ile są wymagane.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7; 5.4.1.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wpis dodatkowy o 1.1.4.2.1 nie zastępuje prawidłowego opisu towaru."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sama formuła nie zwalnia automatycznie z numeru UN i nazwy."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Początek przewozu w porcie nie zastępuje danych opisowych."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Wymaga dokładnego sprawdzenia polskiego brzmienia formuły.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0216",
+      "sequence": 216,
+      "snapshot": {
+        "stem": "Kierowca ma wymagane instrukcje pisemne ADR w kabinie, lecz schował je pod stertą dokumentów i nie jest w stanie szybko ich znaleźć. Czy spełnia wymóg dostępności?",
+        "options": {
+          "A": "Tak, bo liczy się tylko fizyczna obecność instrukcji w pojeździe",
+          "B": "Nie, instrukcje należy przechowywać tak, aby były łatwo dostępne dla załogi",
+          "C": "Tak, jeżeli spedytor ma elektroniczną kopię instrukcji w biurze"
+        },
+        "correct_option": "B",
+        "explanation": "ADR wymaga przechowywania instrukcji pisemnych w miejscu łatwo dostępnym dla członków załogi, by mogli z nich skorzystać podczas awarii.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.1(b); 8.1.2.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Formalna obecność ukrytej instrukcji nie spełnia warunku łatwego dostępu."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Instrukcje muszą być łatwo dostępne dla załogi w kabinie."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kopia w biurze nie zastępuje wymaganego dokumentu na pokładzie."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Dokumenty pisemne odpowiadają czterostronicowemu wzorowi ADR.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    }
+  ]
+}
