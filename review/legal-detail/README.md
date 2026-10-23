@@ -23,3 +23,7 @@ Kolejna część weryfikacji prawnomerytorycznej rozpoczyna się od **ADR-B-0017
 ## Kontynuacja 049–064
 
 [Karty kontroli 0049–0064](049-064.json): 16 pytań, 48 ocen A/B/C, 11 kart wymagających dodatkowego sprawdzenia warunków i wyjątków (0049, 0050, 0054, 0056, 0057, 0058, 0059, 0061, 0062, 0063, 0064). Przegląd redakcyjny dotychczasowych analiz, a nie pełne porównanie każdego wariantu z urzędowym tekstem ADR i sprostowaniem. Brak recenzji specjalisty, nie zmieniono statusu needs_review ani żadnego klucza. Następnie 0065–0080.
+
+## Kontynuacja 065–080
+
+[Karty 0065–0080](065-080.json): 16 indywidualnych kontroli, 48 ocen A/B/C na podstawie wcześniejszych analiz. Do dodatkowej kontroli wyjątków: 0065, 0067, 0068, 0069, 0070, 0071, 0072, 0073, 0074, 0077, 0078, 0080. Wstępna analiza, nie pełne porównanie z urzędowym polskim ADR i sprostowaniem; bez zmian kluczy i statusów. Dalej: 0081–0096.
