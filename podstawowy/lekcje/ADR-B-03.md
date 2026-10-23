@@ -58,3 +58,13 @@ Opis słowny: czarne drzewo i martwa ryba wewnątrz rombu. Znak ADR 5.2.1.8.3 ni
 ## Ćwiczenia 0294–0295: odpad i kontakt z rozlewem
 
 Sprawdź, kiedy przy prawidłowej nazwie przewozowej umieszcza się „ODPAD” (5.4.1.1.3.1), oraz bezpieczną reakcję na rozlew: unikanie dotyku, wdychania i zachowanie strony nawietrznej (5.4.3.4). Wymagana kontrola urzędowej wersji polskiej, sprostowania i niezależny odbiór.
+
+## Zadanie instruktorskie: Odpady niebezpieczne (uzupełnienie etapu 2, 23.10.2026)
+
+**Scenariusz bez rzeczywistych towarów niebezpiecznych:** Nadawca zgłasza odpad o nieznanym dokładnie składzie. Kursant wskazuje, jakich informacji i warunków wymaga dalsza klasyfikacja, zamiast samodzielnie nadawać przypadkowy numer UN.
+
+**Podstawa do sprawdzenia przez instruktora:** ADR 2.1.3.5.5, 5.4.1.1.3.
+
+**Obserwowalne kryterium:** Wskazuje potrzebę oceny wyłączeń i danych od nadawcy.
+
+**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
