@@ -90,3 +90,7 @@ Kursant uzasadnia odpowiedź, identyfikuje zakres stosowania przepisu 8.2.1.1 or
 ## Dodatkowe przypadki 0312–0313 — definicja i wyłączenie prywatne
 
 Kursant identyfikuje zakres pojęcia przewozu z 1.2.1 oraz przesłanki zastosowania 1.1.3.1(a)(i). Instruktor podkreśla limity i odstępstwa, nie uznając wyłączenia automatycznie dla każdego towaru. Weryfikacja urzędowego brzmienia ADR 2025 i sprostowania oczekuje na kontrolę.
+
+## Tabela A — rozpoznawanie właściwej nazwy przewozowej (0314)
+
+W tabeli A rozdziału 3.2 kolumna 2 zawiera nazwę i opis pozycji UN. Kursant odnajduje w fikcyjnym wykazie właściwą nazwę bez pomijania wyjątków i warunków przewozu.
