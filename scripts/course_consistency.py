@@ -12,7 +12,8 @@ def audit(root: Path):
     warnings = []
     question_file = root / "podstawowy/questions.jsonl"
     matrix_file = root / "podstawowy/kompetencje.json"
-    index_files = sorted((root / "review/specialist").glob("REJESTR-*.md"))
+    index_files = sorted(p for p in (root / "review/specialist").glob("REJESTR-*.md")
+                         if not p.name.startswith("REJESTR-AKTUALNY-"))
     if not question_file.is_file() or not matrix_file.is_file():
         return ["Missing question bank or competency matrix"], []
     questions = [json.loads(x) for x in question_file.read_text(encoding="utf-8").splitlines() if x.strip()]
