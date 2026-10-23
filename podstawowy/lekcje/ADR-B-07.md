@@ -75,3 +75,13 @@ Pakujący kontroluje zgodność warunków pakowania i wymaganych oznaczeń sztuk
 ## Scenariusz 0293: załoga i przewóz pasażerów
 
 Omów w zespole zasadę ADR 8.3.1 oraz to, kto jest członkiem załogi. Warunki stosowania i wyłączenia należy oceniać dla konkretnego przewozu. Szkic, nie autoryzowana interpretacja.
+
+## Zadanie instruktorskie: Uczestnicy przewozu (etap 2, 23.10.2026)
+
+**Symulacja bez rzeczywistych towarów:** W przypadku uszkodzonego opakowania kursant przypisuje obowiązki nadawcy, przewoźnikowi, załadowcy i kierowcy.
+
+**Odniesienie do weryfikacji:** ADR 1.4.2 i 1.4.3.
+
+**Obserwowalne kryterium:** Odróżnia obowiązek sprawdzenia od uprawnienia do działania.
+
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
