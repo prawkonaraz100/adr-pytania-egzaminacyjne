@@ -1,0 +1,143 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0271",
+      "order": 271,
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant „700” jest niezgodny z podanym obliczeniem albo oznakowaniem w ADR 2025, 1.1.3.6.4; do recenzji źródła urzędowego."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Zgodne z wstępną interpretacją ADR 2025, 1.1.3.6.4: W obliczeniu 1.1.3.6.4 dla kategorii 2 stosuje się mnożnik 3, a dla kategorii 3 mnożnik 1: 100 × 3 + 600 = 900, czyli poniżej granicy 1000."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant „1 200” jest niezgodny z podanym obliczeniem albo oznakowaniem w ADR 2025, 1.1.3.6.4; do recenzji źródła urzędowego."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Wyliczenia dotyczą przypisanych kategorii i ilości; w praktyce wymagane sprawdzenie pozycji UN, właściwej jednostki ilości, wyłączeń i sprostowań.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0271",
+        "module_id": "ADR-B-01",
+        "stem": "W jednostce transportowej przewożone są towary kategorii transportowej 2 w ilości 100 jednostek i kategorii 3 w ilości 600 jednostek (ilości obliczone według ADR). Ile wynosi suma punktów według 1.1.3.6.4?",
+        "options": {
+          "A": "700",
+          "B": "900",
+          "C": "1 200"
+        },
+        "correct_option": "B",
+        "explanation": "W obliczeniu 1.1.3.6.4 dla kategorii 2 stosuje się mnożnik 3, a dla kategorii 3 mnożnik 1: 100 × 3 + 600 = 900, czyli poniżej granicy 1000.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0272",
+      "order": 272,
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Zgodne z wstępną interpretacją ADR 2025, 1.1.3.6.4: Obliczenie wynosi 200 × 3 + 500 = 1100. Przekroczenie wartości 1000 wyklucza zastosowanie tego wyłączenia w opisanym przypadku; należy sprawdzić pełne wymagania ADR."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant „Wartość wynosi 700, więc próg nie został przekroczony” jest niezgodny z podanym obliczeniem albo oznakowaniem w ADR 2025, 1.1.3.6.4; do recenzji źródła urzędowego."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant „Wartość wynosi 500, bo pomija się kategorię 2” jest niezgodny z podanym obliczeniem albo oznakowaniem w ADR 2025, 1.1.3.6.4; do recenzji źródła urzędowego."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Wyliczenia dotyczą przypisanych kategorii i ilości; w praktyce wymagane sprawdzenie pozycji UN, właściwej jednostki ilości, wyłączeń i sprostowań.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0272",
+        "module_id": "ADR-B-01",
+        "stem": "Jednostka transportowa przewozi 200 jednostek kategorii transportowej 2 i 500 jednostek kategorii 3. Co wynika z samego wyniku obliczenia 1.1.3.6.4?",
+        "options": {
+          "A": "Wartość wynosi 1100 i przekracza próg 1000 dla tego wyłączenia",
+          "B": "Wartość wynosi 700, więc próg nie został przekroczony",
+          "C": "Wartość wynosi 500, bo pomija się kategorię 2"
+        },
+        "correct_option": "A",
+        "explanation": "Obliczenie wynosi 200 × 3 + 500 = 1100. Przekroczenie wartości 1000 wyklucza zastosowanie tego wyłączenia w opisanym przypadku; należy sprawdzić pełne wymagania ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0273",
+      "order": 273,
+      "clause": "ADR 2025, 3.4.7.1",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant „To zawsze nalepka klasy 8” jest niezgodny z podanym obliczeniem albo oznakowaniem w ADR 2025, 3.4.7.1; do recenzji źródła urzędowego."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant „To nalepka ostrzegawcza gazu niepalnego” jest niezgodny z podanym obliczeniem albo oznakowaniem w ADR 2025, 3.4.7.1; do recenzji źródła urzędowego."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Zgodne z wstępną interpretacją ADR 2025, 3.4.7.1: Znak LQ to kwadrat ustawiony na wierzchołku, z czarnymi górnym i dolnym fragmentem oraz białym lub kontrastowym środkiem. Nie jest zwykłą nalepką zagrożenia określonej klasy."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Wyliczenia dotyczą przypisanych kategorii i ilości; w praktyce wymagane sprawdzenie pozycji UN, właściwej jednostki ilości, wyłączeń i sprostowań.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0273",
+        "module_id": "ADR-B-01",
+        "stem": "Na sztuce przesyłki przewożonej na zasadach LQ jest znak w kształcie rombu z czarną górą i dołem oraz białym środkiem. Który opis jest poprawny?",
+        "options": {
+          "A": "To zawsze nalepka klasy 8",
+          "B": "To nalepka ostrzegawcza gazu niepalnego",
+          "C": "To znak ilości ograniczonych LQ określony w ADR 3.4.7"
+        },
+        "correct_option": "C",
+        "explanation": "Znak LQ to kwadrat ustawiony na wierzchołku, z czarnymi górnym i dolnym fragmentem oraz białym lub kontrastowym środkiem. Nie jest zwykłą nalepką zagrożenia określonej klasy.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.4.7.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
