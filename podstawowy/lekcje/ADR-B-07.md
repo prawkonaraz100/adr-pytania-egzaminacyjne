@@ -67,3 +67,7 @@ Nowe zadania 0245–0246: obowiązki załadowcy i odbiorcy. Kursant analizuje de
 ## Sytuacja kontrolna ADR-B-0285 (etap 2)
 
 Przed przewozem ADR przewoźnik nie otrzymał wymaganych informacji o towarze od nadawcy. Co powinien zrobić? Uczeń ma wyjaśnić uzasadnienie i warunki prawne 1.4.2.2.1(b) oraz wskazać błędną praktykę. To szkic wymagający porównania z polskim Dz.U. 642, sprostowaniem 1575 i niezależnej recenzji.
+
+## Obowiązki pakującego — ADR-B-0290
+
+Pakujący kontroluje zgodność warunków pakowania i wymaganych oznaczeń sztuk przesyłek; ADR 1.4.3.2. Sprawdzić warunki i wyjątki przed zatwierdzeniem materiału.
