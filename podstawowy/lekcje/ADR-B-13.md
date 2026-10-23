@@ -46,3 +46,7 @@ Pytania: `0037`–`0039`, `0068`–`0070`, `0087`–`0090`, `0145`–`0146`.
 - [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
 - [Sprostowanie Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
 - [Ramowy program kursu Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
+
+## Ćwiczenie z dokumentem ADR (szkic)
+
+Na przykładowym dokumencie wskaż zapis `UN` i numer identyfikacyjny (0226), liczbę oraz rodzaj przesyłek (0227) oraz lokalizację i dostępność instrukcji pisemnych w kabinie (0228). Podstawa: ADR 5.4.1.1.1(a),(e), 5.4.3.1, 8.1.2.3. Nie zastępuje realnej kontroli prawnej dokumentów i wyjątków.
