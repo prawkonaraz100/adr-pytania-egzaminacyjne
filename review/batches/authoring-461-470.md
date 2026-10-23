@@ -1,0 +1,3 @@
+# ADR-B-03: wyjątki oznakowania i dokumentacji środowiskowej — 0461–0470
+
+Analiza świeżego `main`: 460 pytań, 38 w ADR-B-03, 0 otwartych PR. Wcześniejsze pytania koncentrują się na odpadach 2.1.3.5.5, wycieku i identyfikacji znaku, lecz nie poruszają granic 5 l/5 kg, wpisu 5.4.1.1.18, wyjątków UN 3077/3082 oraz 5.3.6. Dodano 10 sytuacyjnych pytań, 30 indywidualnych ocen A/B/C, mapę kompetencji. Oficjalne przepisy ADR 2025 UNECE https://unece.org/adr-2025-files oraz polska podstawa Dz.U. 2025 poz. 642 ze sprostowaniem poz. 1575; pełne dosłowne porównanie PL i podpis eksperta pozostają otwarte. Wszystkie needs_review, zero verified. Wpisy dotyczą cystern tylko jako ogólne wyjątki oznakowania kursu podstawowego. CI do potwierdzenia.
