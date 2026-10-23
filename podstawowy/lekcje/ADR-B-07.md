@@ -95,3 +95,28 @@ Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywi
 To przewoźnik zapewnia załodze instrukcje pisemne, w języku zrozumiałym dla jej członków.
 
 **Podstawa do kontroli:** ADR 2025, 1.4.2.2.6; 5.4.3.2. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
+
+## Plan lekcji zgodny z tematem 1(g) programu (23.10.2026)
+
+**Wymiar:** 2 godziny lekcyjne × 45 min = 90 min. Role i obowiązki stron z ADR 1.4.2–1.4.3; 8.2–8.3. Nauka oparta na fikcyjnych dokumentach i decyzjach, nie na realnym przewozie.
+
+| Kompetencja | Cel | Odesłanie | Pytania robocze |
+|---|---|---|---:|
+| ADR-B-07-K01 | Nadawca: klasyfikacja, dane i dokumenty | 1.4.2.1 | 6 |
+| ADR-B-07-K02 | Przewoźnik: instrukcje pisemne i kontrola bezpieczeństwa | 1.4.2.2 | 8 |
+| ADR-B-07-K03 | Załadowca: stan opakowań | 1.4.3.1 | 5 |
+| ADR-B-07-K04 | Odbiorca: przyjęcie i dalsze obowiązki | 1.4.2.3 | 5 |
+| ADR-B-07-K05 | Pakujący, napełniający i rozładowca | 1.4.3 | 14 |
+| ADR-B-07-K06 | Kierowca/załoga: obowiązki w drodze | 8.1–8.5 | 4 |
+
+| Minuty | Zadanie prowadzącego | Obserwowalny wynik |
+|---|---|---|
+| 0–15 | Wprowadzenie ról nadawcy, przewoźnika, załadowcy, pakującego | Kursant przypisuje obowiązek do właściwego uczestnika |
+| 15–30 | Wymagania wobec kierowcy i instrukcji pisemnych | Rozróżnia obowiązki kierowcy od informacji dostarczanych przez nadawcę |
+| 30–45 | Fikcyjna niezgodność przed załadunkiem | Wskazuje punkt kontroli i prawidłowy podmiot |
+| 45–60 | Odbiorca, rozładowca i czyszczenie | Rozróżnia obowiązki po wydaniu i po rozładunku |
+| 60–75 | Odpowiedzialność zleceniodawcy i podwykonawcy | Wie, że powierzenie czynności nie oznacza automatycznego zniesienia odpowiedzialności |
+| 75–85 | Praca w parach: konflikt dokumentów i niebezpieczny wyciek | Wskazuje moment zatrzymania działań i konieczność informacji |
+| 85–90 | Ocena formacyjna | Uzasadnia przydział ról za pomocą przepisu |
+
+**Przypadek A:** Przewoźnik zauważył niezgodność podczas przekazania ładunku — kto może wstrzymać przewóz i co sprawdzić. **Przypadek B:** Po rozładunku stwierdzono pozostałości niebezpieczne — przypisz obowiązki nadawcy, odbiorcy i rozładowcy. Materiały: fikcyjne karty transportowe, schemat podziału czynności i instrukcje pisemne; nie używać prawdziwych substancji. Ocena odrębna dla każdej kompetencji: „rozumie / wymaga wyjaśnienia / nieocenione”, z argumentacją i źródłem. Wszystkie przykłady wymagają sprawdzenia z urzędową polską publikacją ADR 2025 Dz.U. poz. 642 i sprostowaniem poz. 1575; podstawa programu Dz.U. 2021 poz. 2150 zał. 1(g). Treść do niezależnego odbioru, bez statusu verified.
