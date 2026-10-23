@@ -16,7 +16,7 @@ def make_record(n):
         "id": f"ADR-B-{n:04d}", "module_id": f"ADR-B-{module:02d}",
         "stem": f"SYNTETYCZNE PYTANIE TESTOWE {n} — nie pochodzi z banku?",
         "options": {"A":"test A", "B":"test B", "C":"test C"},
-        "correct_option":"A", "explanation":"Synthetic test only",
+        "correct_option":"A", "explanation":"This is a synthetic technical-only explanation for offline tests.",
         "sources":[{"code":"TEST","reference":"dummy 1.1.1", "url":"https://example.org/mock"}],
         "legal_basis_version":"TEST-ONLY",
         "verification_status":"verified", "checked_at":"2026-10-22",
