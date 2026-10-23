@@ -144,3 +144,22 @@ Ten arkusz pozostaje pustym wzorcem. **Nie wpisywać wyników przed rzeczywistym
 **Wypełnia prowadzący po zajęciach:** identyfikator kursanta, data, miejsce, instruktor i kwalifikacje, stanowisko, obserwowane punkty, `wykonano / do powtórzenia / nieocenione`, zauważony błąd, instruktaż korygujący, podpis. Przed zajęciami wszystkie pola ocen są puste.
 
 Podstawa do szczegółowej weryfikacji: Dz.U. 2021 poz. 2150, zał. 1; ADR 2025, 5.4.3.4 i 8.1.4–8.1.5. Wymagana niezależna recenzja programu i rzeczywisty instruktor. Brak realnego ognia i materiałów niebezpiecznych bez zatwierdzonego stanowiska oraz odpowiedniego nadzoru.
+
+## Karta obserwacji praktyki P1–P3 (aktualizacja 23.10.2026)
+
+Program kursu początkowego podstawowego przewiduje rzeczywiste ćwiczenia z używania sprzętu gaśniczego, pierwszej pomocy i zachowania po wypadku/awarii. Dodatkowy czas części praktycznej oraz podział na grupy organizator wyznacza zgodnie z aktualnym § 8 rozporządzenia o kursach ADR. Samo pytanie testowe nie jest dowodem odbycia ćwiczenia.
+
+| Ćwiczenie | Bezpieczny przebieg pod nadzorem | Kryterium obserwacji |
+|---|---|---|
+| P1 — sprzęt gaśniczy | Instruktor omawia i demonstruje gaśnicę na przygotowanym stanowisku; kursant ćwiczy wyłącznie na polecenie prowadzącego | Prawidłowo rozpoznaje ograniczenia działania, potrafi obsłużyć sprzęt treningowy i nie podejmuje gaszenia pożaru przestrzeni ładunkowej |
+| P2 — pierwsza pomoc | Instruktor stawia fikcyjne zdarzenie, ćwiczenia na fantomie i z bezpieczną strefą | Kursant ocenia bezpieczeństwo, alarmuje służby, wykonuje czynności na fantomie zgodnie z instrukcją |
+| P3 — wypadek i awaria | Karty zdarzenia, atrapy oznakowania, fikcyjna przestrzeń zagrożenia i dokumenty | Kursant zachowuje kolejność reakcji, nie zbliża się do wycieku i przekazuje dane służbom |
+
+### Dokumentacja do rzeczywistego wypełnienia przez instruktora
+
+- identyfikator kursanta i dzień zajęć, rzeczywisty czas i miejsce;
+- numer ćwiczenia, sprzęt treningowy, przebieg i wykazane umiejętności;
+- status „wykonano / wymaga powtórzenia / nieocenione”, konkretna informacja zwrotna;
+- imię i rzeczywisty podpis prowadzącego, odniesienie do dziennika zajęć kursu.
+
+**Zasady bezpieczeństwa:** żadnych prawdziwych materiałów niebezpiecznych, niećwiczonych pożarów ani kontaktu z wyciekiem. Stanowisko szkoleniowe przygotowuje uprawniony prowadzący zgodnie z oceną ryzyka i wymaganiami ośrodka. Niniejsza karta jest projektem do zatwierdzenia, nie wygenerowanym dowodem uczestnictwa ani instrukcją medyczną.
