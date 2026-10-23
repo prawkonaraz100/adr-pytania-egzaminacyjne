@@ -15,7 +15,7 @@ Stan obliczony ze świeżej gałęzi main po PR #159–#161, data 23.10.2026. **
 
 ## Wskaźnik długości A/B/C w 13 działach
 
-Definicja: poprawny wariant jest **ściśle** dłuższy niż oba pozostałe, po usunięciu białych znaków na końcach. Remisy nie są zaliczane. Suma: **370/545 (67.9%)**. Cel ≤40% globalnie **i w każdym dziale**.
+Definicja: poprawny wariant jest **ściśle** dłuższy niż oba pozostałe, po usunięciu białych znaków na końcach. Remisy nie są zaliczane. Suma: **365/545 (67.0%)**. Cel ≤40% globalnie **i w każdym dziale**.
 
 | Moduł | Pytania | Poprawna najdłuższa | Udział | Cel ≤40% |
 |---|---:|---:|---:|---|
@@ -24,7 +24,7 @@ Definicja: poprawny wariant jest **ściśle** dłuższy niż oba pozostałe, po 
 | ADR-B-03 | 49 | 35 | 71.4% | OTWARTY |
 | ADR-B-04 | 44 | 32 | 72.7% | OTWARTY |
 | ADR-B-05 | 40 | 30 | 75.0% | OTWARTY |
-| ADR-B-06 | 35 | 19 | 54.3% | OTWARTY |
+| ADR-B-06 | 35 | 14 | 40.0% | spełniony |
 | ADR-B-07 | 43 | 30 | 69.8% | OTWARTY |
 | ADR-B-08 | 36 | 20 | 55.6% | OTWARTY |
 | ADR-B-09 | 39 | 32 | 82.1% | OTWARTY |
@@ -49,3 +49,8 @@ Definicja: poprawny wariant jest **ściśle** dłuższy niż oba pozostałe, po 
 5. Egzamin próbny i wydanie publiczne są zablokowane do przejścia istniejącej `release_gate`; karta praktyki P1–P3 nie oznacza rzeczywistego odbycia ćwiczeń.
 
 **Wniosek:** gotowość strukturalna do dalszej redakcji i recenzji, **nie do publikacji**. 545 `needs_review`, zero `verified`, brak kursu cystern i innych kursów.
+
+
+## Aktualizacja 4m, partia 4 — ADR-B-06
+
+Po pięciu zmianach w pytaniach 0503, 0504, 0507, 0543, 0544 wskaźnik dla ADR-B-06 wynosi **14/35 = 40,0%**, czyli osiąga lokalny próg. Globalnie **365/545 = 67,0%**, dlatego pozostała redakcja innych działów jest konieczna. Migawki i oceny A/B/C zaktualizowano w tych samych PR-ach. Raport: `review/batches/stage4m-length-bias-batch4-b06.md`. Nie zmieniono statusów `needs_review`.
