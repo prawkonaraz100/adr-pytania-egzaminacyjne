@@ -61,3 +61,7 @@ Odpowiednie zabezpieczenie, oświetlenie i ograniczenie publicznego dostępu na 
 ## Identyfikacja załogi ADR-B-0300
 
 Ćwiczenie kontrolne: członek załogi powinien mieć środek identyfikacji ze zdjęciem, ADR 1.10.1.4; nie dopisywać fikcyjnego potwierdzenia realnej kontroli. Recenzja polskiej wersji i sprostowania pozostaje wymagana.
+
+## Przypadki 0304–0305: ochrona towarów dużego ryzyka
+
+Plan ochrony: przydzielenie kompetentnym osobom odpowiedzialności (ADR 1.10.3.2.2(a)). Zabezpieczenie antykradzieżowe pojazdu i ładunku (1.10.3.3), bez blokowania ratownictwa. Oba przypadki wymagają sprawdzenia zakresu zastosowania do danego UN.
