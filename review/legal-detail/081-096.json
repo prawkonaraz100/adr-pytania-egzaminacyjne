@@ -1,0 +1,727 @@
+{
+  "date": "2026-10-23",
+  "range": "ADR-B-0081..ADR-B-0096",
+  "scope": "Individual A/B/C editorial legal assessment based on prior legal-clause reviews; official Polish ADR 2025 642, corrigendum 1575 and M364 applicability checked as source framework but not individually compared clause by clause; no independent sign-off",
+  "records": [
+    {
+      "id": "ADR-B-0081",
+      "sequence": 81,
+      "snapshot": {
+        "stem": "Ładujesz towary ADR wymagające środków ostrożności względem żywności zgodnie z 7.5.4. Jaką minimalną wolną przestrzeń przewiduje przepis jako jedną z metod oddzielenia?",
+        "options": {
+          "A": "Co najmniej 0,8 m",
+          "B": "Co najmniej 0,2 m",
+          "C": "Co najmniej 2 m"
+        },
+        "correct_option": "A",
+        "explanation": "Jednym z dopuszczonych sposobów oddzielenia wskazanych przesyłek od żywności lub pasz jest wolna przestrzeń o szerokości minimum 0,8 m. Inne metody też są opisane w 7.5.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.4 (c)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wolna przestrzeń 0,8 m jest jedną z dopuszczonych metod oddzielenia."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "0,2 m jest mniejszą przestrzenią niż wymagane minimum tej metody."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "2 m może być użyte, ale nie jest minimalnie wymaganą wolną przestrzenią."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Dotyczy to pozycji z CV28; inne sposoby to odpowiednie przegrody lub przesyłki oddzielające.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0082",
+      "sequence": 82,
+      "snapshot": {
+        "stem": "Planujesz doładować do żywności przesyłki ADR z nalepką 6.1. Co trzeba ustalić, zanim zastosujesz zasady oddzielenia z 7.5.4?",
+        "options": {
+          "A": "Tylko czy przesyłki mieszczą się na podłodze pojazdu",
+          "B": "Czy dla danej pozycji UN w tabeli A przypisano przepis CV28 (kolumna 18) i jakie są wymagane warunki oddzielenia",
+          "C": "Wyłącznie maksymalną prędkość dojazdu"
+        },
+        "correct_option": "B",
+        "explanation": "Zasady oddzielenia od żywności w 7.5.4 stosuje się, jeżeli dla konkretnego towaru kolumna 18 tabeli A wskazuje CV28. Sama nalepka 6.1 nie wystarcza do automatycznego przypisania CV28. Przy stosowaniu przepisu można użyć określonych metod separacji.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.4; 7.5.11 CV28; tabela A kol. (18)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Samo rozmieszczenie przesyłek bez sprawdzenia podstawy nie wystarcza."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Trzeba ustalić przypisanie CV28 dla konkretnego numeru UN i zasady 7.5.4."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Prędkość jazdy nie zastępuje sprawdzenia CV28."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Nie każda przesyłka z nalepką 6.1/6.2 ma automatycznie CV28.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0083",
+      "sequence": 83,
+      "snapshot": {
+        "stem": "Na trasie znajduje się tunel kategorii E. Przewozisz sztuki przesyłek z kodem tunelowym E, a jednostka podlega ograniczeniom z 8.6.4. Co robisz?",
+        "options": {
+          "A": "Przejeżdżasz, jeżeli towar mieści się w dwóch kartonach",
+          "B": "Przejeżdżasz tylko pod warunkiem jazdy nocą",
+          "C": "Wybierasz trasę bez tunelu kategorii E"
+        },
+        "correct_option": "C",
+        "explanation": "Jeżeli przewóz podlega przepisom tunelowym, kod E oznacza zakaz wjazdu do tunelu kategorii E.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dwa kartony nie znoszą automatycznie kodu E."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Jazda nocą nie jest ogólnym wyjątkiem od kodu E."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Jeśli stosuje się ograniczenie E, należy ominąć tunel kategorii E."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Inne wyłączenia mogą zmienić stosowanie kodu, ale pytanie wprost je wyklucza.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0084",
+      "sequence": 84,
+      "snapshot": {
+        "stem": "Jednostka transportowa podlega ograniczeniom tunelowym ADR i przewozi sztuki przesyłek z kodem D/E. Czy wolno jej wjechać do tunelu kategorii D na podstawie samego kodu ADR?",
+        "options": {
+          "A": "Nie, kod D/E zakazuje każdej kategorii A–E",
+          "B": "Tak, kod D/E w sztukach przesyłek zakazuje dopiero kategorii E",
+          "C": "Nie, kod D/E zawsze zakazuje kategorii D niezależnie od sposobu przewozu"
+        },
+        "correct_option": "B",
+        "explanation": "D/E dla sztuk przesyłek, w przeciwieństwie do cystern i luzem, oznacza zakaz przejazdu tylko w tunelu E. Inne lokalne zakazy nadal mają zastosowanie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kod D/E w sztukach przesyłek nie zakazuje wszystkich tuneli A–E."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "D/E dla sztuk przesyłek dotyczy tunelu E, więc sam kod nie zabrania D."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kod D/E nie ma identycznego znaczenia w cysternie i w sztukach przesyłek."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Niezależne znaki drogowe nadal mogą zakazywać wjazdu do D.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0085",
+      "sequence": 85,
+      "snapshot": {
+        "stem": "Towary są rzeczywiście przewożone zgodnie z wyłączeniami rozdziału ADR 1.1.3. Jednostka transportowa nie wymaga oznakowania LQ na podstawie 3.4.13 (z uwzględnieniem 3.4.14). Czy te towary uwzględnia się przy ustalaniu kodu ograniczeń tunelowych?",
+        "options": {
+          "A": "Tak, zawsze uwzględnia się ich kody",
+          "B": "Nie, przewozy na tych zasadach nie podlegają takim ograniczeniom tunelowym",
+          "C": "Tak, ale tylko jeśli w pojeździe są materiały klasy 3"
+        },
+        "correct_option": "B",
+        "explanation": "Przepis 8.6.3.3 przewiduje, że towary przewożone zgodnie z 1.1.3 nie podlegają ograniczeniom tunelowym i nie są uwzględniane przy wyborze kodu całego ładunku. Wyjątek dotyczy jednostki, która wymaga oznakowania zgodnie z 3.4.13 z uwzględnieniem 3.4.14; mogą też obowiązywać niezależne zakazy drogowe.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wyłączony przewóz bez warunku oznakowania LQ nie jest automatycznie liczony do najostrzejszego kodu."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "8.6.3.3 przewiduje nieuwzględnianie takich towarów przy kodzie jednostki."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 3 nie wprowadza opisanego automatycznego odstępstwa od tej zasady."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Jeżeli wymagane jest oznakowanie 3.4.13 z uwzględnieniem 3.4.14, obowiązuje odrębne zastrzeżenie.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0086",
+      "sequence": 86,
+      "snapshot": {
+        "stem": "W jednostce transportowej objętej ADR masz dwa towary z różnymi kodami tunelowymi. Jaki kod obowiązuje dla całego ładunku?",
+        "options": {
+          "A": "Kod pierwszego towaru wpisanego do dokumentu",
+          "B": "Kod towaru o większej masie",
+          "C": "Kod powodujący największe ograniczenia tunelowe"
+        },
+        "correct_option": "C",
+        "explanation": "Dla ładunku mieszanego wybiera się kod dający największe ograniczenia tunelowe spośród kodów, które rzeczywiście mają zastosowanie. Przewozy wyłączone na podstawie 8.6.3.3 mogą nie być uwzględniane. Znaczenie kodu zależy też od sposobu przewozu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.2–8.6.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kolejność dokumentu nie rozstrzyga o kodzie tunelu."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Masa towaru nie przesądza o wyborze kodu przy stosowaniu 8.6.3.2."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Stosuje się najbardziej restrykcyjny kod tych towarów, które mają zastosowanie."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Wyłączenia i sposób przewozu mogą zmienić listę branych pod uwagę kodów.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0087",
+      "sequence": 87,
+      "snapshot": {
+        "stem": "W czasie kontroli ADR kierowca ma dokument przewozowy i instrukcje pisemne, ale nie ma przy sobie wymaganego dokumentu ze zdjęciem. Co jest niezgodne?",
+        "options": {
+          "A": "Brak dodatkowego dziennika tankowania",
+          "B": "Brak umowy o pracę w dwóch egzemplarzach",
+          "C": "Brak dokumentu identyfikującego członka załogi ze zdjęciem"
+        },
+        "correct_option": "C",
+        "explanation": "Każdy członek załogi podczas przewozu objętego tym obowiązkiem powinien mieć przy sobie dokument tożsamości ze zdjęciem. Wskazują na to 1.10.1.4 i dokumentacyjne wymagania 8.1.2.1(d).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.1(d); 1.10.1.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dziennik tankowania nie zastępuje identyfikacji osoby."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Umowa o pracę w dwóch egzemplarzach nie jest wymaganą alternatywą."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Brak dokumentu ze zdjęciem u członka załogi narusza odpowiedni obowiązek ADR."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Osoba ma nosić dokument ze zdjęciem zgodnie z zakresem wymagań, a nie tylko przechowywać go u pracodawcy.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0088",
+      "sequence": 88,
+      "snapshot": {
+        "stem": "Czy kierowca zawsze może zastąpić instrukcje pisemne ADR własnoręcznie sporządzoną notatką?",
+        "options": {
+          "A": "Tak, pod warunkiem dołączenia mapy",
+          "B": "Nie, instrukcje powinny być zgodne z określonym wzorem ADR",
+          "C": "Tak, gdy zna klasy przewożonych towarów"
+        },
+        "correct_option": "B",
+        "explanation": "ADR przewiduje instrukcje pisemne według określonego wzoru. Własna krótka notatka nie jest ich zamiennikiem.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Własna notatka, nawet z mapą, nie jest czterostronicowym wzorem."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przewidziane instrukcje muszą odpowiadać wzorowi ADR."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Znajomość klas nie zwalnia z wymagania dokumentu."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Informacje dodatkowe mogą być odrębnym dokumentem, lecz nie zastępować modelu.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0089",
+      "sequence": 89,
+      "snapshot": {
+        "stem": "Przewóz drogowy odbywa się na szczególnych warunkach 1.1.4.2.1 w łańcuchu morsko-drogowym. Jaki dodatkowy zapis jest wymagany w dokumencie ADR?",
+        "options": {
+          "A": "PRZEWÓZ ZGODNY Z 5.4.3.2",
+          "B": "PRZEWÓZ ZGODNY Z 1.1.3.6",
+          "C": "PRZEWÓZ ZGODNY Z 1.1.4.2.1"
+        },
+        "correct_option": "C",
+        "explanation": "Przy przewozie na szczególnych warunkach 1.1.4.2.1 dokument musi zawierać wskazany w 5.4.1.1.7 dodatkowy wpis.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "5.4.3.2 nie jest formułą dla łańcucha morskiego."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "1.1.3.6 to inna podstawa wyłączeń ilościowych."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przy 1.1.4.2.1 dokument zawiera dodatkowy wpis dotyczący tego punktu."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Wymagana polska formuła powinna zostać zestawiona z urzędowym polskim brzmieniem.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0090",
+      "sequence": 90,
+      "snapshot": {
+        "stem": "Gdzie w jednostce transportowej należy przechowywać instrukcje pisemne ADR zgodnie z 8.1.2.3?",
+        "options": {
+          "A": "Wyłącznie w ładowni, pod pozostałymi sztukami przesyłek",
+          "B": "Wyłącznie u odbiorcy",
+          "C": "W kabinie pojazdu, w miejscu łatwo dostępnym dla załogi"
+        },
+        "correct_option": "C",
+        "explanation": "Wymagane instrukcje pisemne ADR mają znajdować się w kabinie pojazdu i być łatwo dostępne dla członków załogi, tak aby można było z nich skorzystać przed i podczas zdarzenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.1; 8.1.2.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Instrukcje w ładowni pod opakowaniami nie są dostępne załodze."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Instrukcje u odbiorcy nie pomagają załodze w awarii."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Prawidłowym miejscem jest kabina, łatwo dostępna dla załogi."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Model 5.4.3.4 ma pozostać kompletny i czytelny.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0091",
+      "sequence": 91,
+      "snapshot": {
+        "stem": "Firma kupuje paletę farb zaklasyfikowanych jako towary niebezpieczne w ADR z przeznaczeniem do dalszej sprzedaży. Czy automatycznie korzysta z wyłączenia 1.1.3.1(a) dla osób prywatnych?",
+        "options": {
+          "A": "Tak, ponieważ wszystkie farby są wyłączone z ADR",
+          "B": "Nie, wyłączenie dla osób prywatnych dotyczy określonych przewozów na własny użytek, a nie automatycznie działalności handlowej",
+          "C": "Tak, jeżeli firma jest mała"
+        },
+        "correct_option": "B",
+        "explanation": "Wyłączenie dla osób prywatnych dotyczy określonych przesyłek do własnego użytku osobistego, domowego, rekreacyjnego lub sportowego, przy spełnieniu warunków opakowania i zabezpieczenia przed uwolnieniem. Dalsza sprzedaż przez firmę nie spełnia sama tego warunku. Nie wszystkie farby są z definicji ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.1 (a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie wszystkie farby są zwolnione z ADR."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przewóz na dalszą sprzedaż nie jest automatycznie przewozem prywatnym."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Mała firma nie staje się osobą prywatną dla tego wyłączenia."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Stosuje się do odpowiednio pakowanych towarów dla osobistego/domowego/rekreacyjnego użytku; nie automatycznie do przewozu handlowego.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0092",
+      "sequence": 92,
+      "snapshot": {
+        "stem": "Nowy pracownik magazynu nie przeszedł jeszcze szkolenia ADR odpowiedniego do zadań. Co przewiduje 1.3.1, zanim ukończy szkolenie?",
+        "options": {
+          "A": "Może samodzielnie wykonywać dowolne czynności ADR",
+          "B": "Musi mieć zaświadczenie kierowcy ADR nawet bez prowadzenia pojazdu",
+          "C": "Może wykonywać te czynności tylko pod bezpośrednim nadzorem przeszkolonej osoby"
+        },
+        "correct_option": "C",
+        "explanation": "Pracownik nieprzeszkolony może wykonywać zadania związane z ADR jedynie pod bezpośrednim nadzorem osoby już przeszkolonej w odpowiednim zakresie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nieprzeszkolony pracownik nie może samodzielnie wykonywać wszystkich czynności ADR."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zaświadczenie kierowcy 8.2 nie jest wymaganym standardowym szkoleniem każdego pracownika magazynu."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przed przeszkoleniem zadania wyłącznie pod bezpośrednim nadzorem osoby przeszkolonej."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Należy odróżnić wymagane przeszkolenie pracownika 1.3 od kursu kierowcy 8.2.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0093",
+      "sequence": 93,
+      "snapshot": {
+        "stem": "Przedsiębiorca twierdzi, że oznakowanie LQ zawsze oznacza wyłączenie na podstawie 1.1.3.6. Czy ma rację?",
+        "options": {
+          "A": "Nie; ilości ograniczone w opakowaniach (LQ, dział 3.4) i wyłączenia na jednostkę transportową (1.1.3.6) to odrębne mechanizmy",
+          "B": "Tak; LQ i 1.1.3.6 są tym samym",
+          "C": "Tak, lecz tylko przy przewozie międzynarodowym"
+        },
+        "correct_option": "A",
+        "explanation": "LQ dotyczy określonego sposobu pakowania i limitów na opakowanie; 1.1.3.6 przewiduje inny rodzaj zwolnienia według kategorii transportowej i ilości na jednostkę transportową.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.4; 1.1.3.6",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "LQ i zwolnienie ilościowe na jednostkę transportową to dwa odrębne mechanizmy."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie są tym samym zestawem warunków."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sama międzynarodowość przewozu nie łączy obu zwolnień."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "LQ: limity na opakowanie; 1.1.3.6: kategorie i ilość na jednostkę.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0094",
+      "sequence": 94,
+      "snapshot": {
+        "stem": "Która klasa ADR obejmuje materiały stałe zapalne?",
+        "options": {
+          "A": "4.2",
+          "B": "4.1",
+          "C": "4.3"
+        },
+        "correct_option": "B",
+        "explanation": "Klasa 4.1 obejmuje materiały stałe zapalne oraz inne wymienione w jej definicji grupy; nie należy jej mylić z samonagrzewającymi się (4.2) lub reagującymi z wodą (4.3).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.41.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "4.2 obejmuje materiały samozapalne/samonagrzewające się."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "4.1 obejmuje m.in. materiały stałe zapalne."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "4.3 wydziela palne gazy w kontakcie z wodą."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie każde ciało stałe jest materiałem klasy 4.1.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0095",
+      "sequence": 95,
+      "snapshot": {
+        "stem": "Która klasa ADR dotyczy materiałów zdolnych do samozapalenia?",
+        "options": {
+          "A": "4.1",
+          "B": "5.2",
+          "C": "4.2"
+        },
+        "correct_option": "C",
+        "explanation": "Klasa 4.2 obejmuje materiały podatne na samozapalenie, w tym materiały samozapalne i samonagrzewające się.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.42.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "4.1 obejmuje inną grupę zagrożeń, np. materiały stałe zapalne."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "5.2 oznacza nadtlenki organiczne."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "4.2 obejmuje materiały podatne na samozapalenie."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "W klasie 4.2 istotna różnica między materiałami piroforycznymi i samonagrzewającymi się.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0096",
+      "sequence": 96,
+      "snapshot": {
+        "stem": "Do której klasy ADR zalicza się nadtlenki organiczne?",
+        "options": {
+          "A": "5.2",
+          "B": "5.1",
+          "C": "6.1"
+        },
+        "correct_option": "A",
+        "explanation": "Nadtlenki organiczne należą do klasy 5.2. Klasa 5.1 to materiały utleniające, a 6.1 obejmuje materiały trujące.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.52.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nadtlenki organiczne klasyfikuje się do klasy 5.2."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 5.1 dotyczy innych materiałów utleniających."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 6.1 opisuje materiały trujące."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Stosować specyficzne zasady temperatury i typu nadtlenku, jeśli wymagane.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    }
+  ]
+}
