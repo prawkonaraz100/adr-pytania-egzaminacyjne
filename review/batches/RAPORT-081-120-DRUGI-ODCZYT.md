@@ -1,0 +1,54 @@
+# ADR-B-0081–0120 — dodatkowy przegląd dostępnych fragmentów ADR 2025
+
+23.10.2026. Zakres 40 pytań, 120 wariantów. **Rzeczywisty dodatkowy odczyt źródła: 4 pytania; 36 nierozstrzygniętych.** Źródła to indeksowane fragmenty angielskiej publikacji ADR 2025 © UN udostępnione w zewnętrznych kopiach (EURACA i słowacki organ). Nie udało się otworzyć w całości PDF UNECE ECE/TRANS/352 ani autentycznych części Dz.U. 2025 poz. 642. Polskie tomy MI są wyłącznie pomocnicze. Sprostowanie Dz.U. 1575 nadal wymaga sprawdzenia zastosowania do każdego wyjątku.
+
+| Pytanie | Punkt ADR | A / B / C | Wyjaśnienie | Wyjątki | Wynik |
+|---|---|---|---|---|---|
+| ADR-B-0081 | ADR 2025, 7.5.4 (c) | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0082 | ADR 2025, 7.5.4; 7.5.11 CV28; tabela A kol. (18) | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0083 | ADR 2025, 8.6.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0084 | ADR 2025, 8.6.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0085 | ADR 2025, 8.6.3.3 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0086 | ADR 2025, 8.6.3.2–8.6.3.3 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0087 | ADR 2025, 8.1.2.1(d); 1.10.1.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0088 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0089 | ADR 2025, 5.4.1.1.7 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0090 | ADR 2025, 5.4.3.1; 8.1.2.3 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0091 | 1.1.3.1(a)(i) | A: niezgodne w sprawdzonym zakresie; B: zgodne w sprawdzonym zakresie; C: niezgodne w sprawdzonym zakresie | spójne z odczytanym fragmentem | pozostałe warunki do potwierdzenia w Dz.U. | zgodne w zbadanym zakresie, nie verified |
+| ADR-B-0092 | ADR 2025, 1.3.1 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0093 | ADR 2025, 3.4; 1.1.3.6 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0094 | ADR 2025, 2.2.41.1.1 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0095 | ADR 2025, 2.2.42.1.1 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0096 | ADR 2025, 2.2.52.1.1 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0097 | ADR 2025, 2.2.61.1.1 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0098 | ADR 2025, 2.2.7.1 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0099 | ADR 2025, 2.2.9.1.1; 5.2.2.2.2 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0100 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0101 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0102 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0103 | 8.3.5 | A: niezgodne w sprawdzonym zakresie; B: zgodne w sprawdzonym zakresie; C: niezgodne w sprawdzonym zakresie | spójne z odczytanym fragmentem | pozostałe warunki do potwierdzenia w Dz.U. | zgodne w zbadanym zakresie, nie verified |
+| ADR-B-0104 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0105 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0106 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0107 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0108 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0109 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0110 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0111 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0112 | ADR 2025, 5.4.3.4 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0113 | ADR 2025, 5.4.3.4; program praktyczny zał. 1 (Dz.U. 2021 poz. 2150) | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0114 | ADR 2025, 5.2.1.1 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0115 | ADR 2025, 5.2.2.1.1 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0116 | 1.4.2.2.3–4 | A: niezgodne w sprawdzonym zakresie; B: niezgodne w sprawdzonym zakresie; C: zgodne w sprawdzonym zakresie | spójne z odczytanym fragmentem | pozostałe warunki do potwierdzenia w Dz.U. | zgodne w zbadanym zakresie, nie verified |
+| ADR-B-0117 | ADR 2025, 1.4.2.1.1 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0118 | ADR 2025, 1.4.2.3.1 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0119 | ADR 2025, 1.1.4.2 | A: wątpliwe (brak odczytu normy); B: wątpliwe (brak odczytu normy); C: wątpliwe (brak odczytu normy) | wymaga źródłowej kontroli | nierozstrzygnięte | wymaga specjalisty — brak źródła |
+| ADR-B-0120 | 1.10.1.2 | A: zgodne w sprawdzonym zakresie; B: niezgodne w sprawdzonym zakresie; C: niezgodne w sprawdzonym zakresie | spójne z odczytanym fragmentem | pozostałe warunki do potwierdzenia w Dz.U. | zgodne w zbadanym zakresie, nie verified |
+
+Dokładne teksty A/B/C oraz wyjaśnień są w `podstawowy/questions.jsonl`. Rozstrzygnięte fragmenty: 
+- ADR-B-0091: **1.1.3.1(a)(i)** — Przewóz firmowy na sprzedaż nie jest wyłączeniem osoby prywatnej. [kopiowany tekst publikacji 2025](https://www.euraca.eu/media/ewof3ibp/adr-2025-vol-i.pdf)
+- ADR-B-0103: **8.3.5** — Zakaz używania e-papierosów podczas manipulowania ładunkiem. [kopiowany tekst publikacji 2025](https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf)
+- ADR-B-0116: **1.4.2.2.3–4** — Przewoźnik nie rozpoczyna przewozu z nieusuniętą niezgodnością. [kopiowany tekst publikacji 2025](https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf)
+- ADR-B-0120: **1.10.1.2** — Towary można wydać tylko odpowiednio zidentyfikowanemu przewoźnikowi. [kopiowany tekst publikacji 2025](https://www.euraca.eu/media/ewof3ibp/adr-2025-vol-i.pdf)
+
+Brak zmian banku, 324 needs_review, 0 verified; eksport BLOCKED. CI nie poświadcza poprawności prawa. Kurs cysterny nie był modyfikowany.
