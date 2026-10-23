@@ -243,3 +243,12 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - Uaktualniono `review/sequential/091-120.json` oraz rozszerzono bramkę szczegółowej oceny do **120** rekordów.
 - Nie ma pełnej kontroli brzmienia polskiego tekstu Dz.U. dla wszystkich 120 pytań ani prawdziwej pozytywnej recenzji specjalisty: **216 needs_review / 0 verified**, eksport BLOCKED.
 - Formalny Quality Gate tej partii przed scaleniem wymaga potwierdzenia PASS.
+
+## 2026-10-23 — etap indywidualnej analizy wariantów A/B/C zakończony dla całej bazy
+
+- Zapisano dalsze 96 pytań z uzasadnieniami wariantów (121–150, 151–180, 181–210, 211–216), łącznie **216/216 pytań oraz 648 uzasadnień A/B/C** w `review/legal-clauses/*.json`.
+- Każde uzasadnienie ma odniesienie do właściwego fragmentu ADR 2025, rozróżnienie prawidłowego i błędnych wariantów, warunki lub wyjątki oraz zrzut treści pytania; [raport 121–216](../review/legal-clauses/RAPORT-121-216.md).
+- `ADR-B-0144`: poprawiono niegramatyczny wariant postoju i warunkowe wyjaśnienie 8.4.1; pierwotny snapshot z `review/sequential/121-150.json` odświeżony.
+- Rozszerzono `scripts/check_legal_clause_review.py` i CI na **216** pytań. Ma wykrywać brak uzasadnienia każdego wariantu i edycje nieodzwierciedlone w rejestrze.
+- **Uwaga:** komplet **analiz redakcyjnych** nie oznacza pełnej dosłownej kontroli urzędowego polskiego ADR 2025, wszystkich odstępstw wielostronnych lub podpisanej recenzji fachowca. Status: **216 needs_review, 0 verified, produkcyjny eksport BLOCKED**.
+- Formalny Quality Gate obecnej gałęzi przed scaleniem **czeka na potwierdzenie**.
