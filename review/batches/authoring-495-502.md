@@ -1,0 +1,3 @@
+# ADR-B-02 trudne klasyfikacje — 0495–0502
+
+Main przed partią 494 pytań, zero otwartych PR. Dotychczasowe 45 pytań klasyfikacyjnych zdominowane przez identyfikację nalepek i ogólne klasy. Nowe 8 pytań szczegółowych: podklasy wybuchowe 1.2, 1.3, 1.5, 1.6 (definicje i wyjątek zagrożenia masowego) oraz nowe w ADR 2025 baterie sodowo-jonowe z organicznym elektrolitem (UN 3551 / 3552, wymóg badań 38.3, zwarcia i prądu wstecznego). Każde pytanie 3 warianty z audytem A/B/C (24 oceny), sekwencyjny ślad, mapa. Źródła: ADR 2025 UNECE EN; urzędowy polski Dz.U. 2025 poz. 642 i sprostowanie poz. 1575 do końcowego pełnego porównania. Brak specjalistycznego podpisu. 8 needs_review, 0 verified; kurs cysterny nie rozpoczęty. CI do potwierdzenia.
