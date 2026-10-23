@@ -66,3 +66,7 @@ Przećwicz: klasy 1–9 z podklasami, różnice 4.1/4.2/4.3 i 5.1/5.2, grupy pak
 **Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
 
 **Punkty do porównania z urzędową publikacją:** ADR 2.2, 3.2 tabela A kol. 5, 5.2.2; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.
+
+## Rozpoznawanie klas bez grafiki — ADR-B-0265–0267
+
+Uczestnik rozpoznaje zagrożenia z opisów klas 4.3 (gaz palny w kontakcie z wodą), 5.1 (utleniające) i 8 (żrące). To tymczasowe zadania tekstowe; wzory nalepek i prawidłową identyfikację grafiki musi zatwierdzić ekspert. Źródła ADR 2.2.43.1.1, 2.2.51.1.1, 2.2.8.1.1. Status szkicu, nie zatwierdzenie urzędowe.
