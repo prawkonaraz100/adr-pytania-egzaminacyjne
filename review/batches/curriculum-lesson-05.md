@@ -1,0 +1,3 @@
+# Raport ADR-B-05 i P1–P3
+
+Urzędowy zakres tematu 1(e) oraz część praktyczna załącznika 1 Dz.U. 2021 poz. 2150. Stan main 506 needs_review, zero otwartych PR przy rozpoczęciu. Zaktualizowano istniejącą lekcję (15 kompetencji, w tym 3 praktyczne bez sztucznych pytań) i trzy istniejące scenariusze ćwiczeń. Dodano kryteria obserwacji, bezpieczeństwo, odrębną rzeczywistą ewidencję instruktora, zakaz traktowania quizu jako praktyki. Nie zmieniano banku ani niczego na verified. Źródło ratownicze ADR 2025 5.4.3; urządzenia 8.1.4 i 8.1.5, Dz.U. 2025 poz. 642 i sprostowanie 1575. Pełna kontrola prawna i odbiór instruktora pozostają otwarte.
