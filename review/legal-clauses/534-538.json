@@ -1,0 +1,245 @@
+{
+  "title": "Stage4h completion 0534-0538",
+  "date": "2026-10-23",
+  "scope": "5 questions, 15 independent A/B/C rationales",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0534",
+      "order": 534,
+      "clause": "3.4.11",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "ADR 3.4.11 wymaga oznakowania LQ i słowa OVERPACK, jeśli znaki wszystkich towarów w opakowaniu zbiorczym nie są widoczne."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Same numery UN nie spełniają szczególnych warunków oznakowania zbiorczego LQ 3.4.11."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Lista przewozowa nie zastępuje oznakowania na opakowaniu zbiorczym przewidzianego w 3.4.11."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0534",
+        "module_id": "ADR-B-01",
+        "stem": "Na terminalu połączono kilka opakowań LQ w opakowanie zbiorcze. Oznaczenia LQ poszczególnych sztuk są niewidoczne. Jak powinno być oznakowane opakowanie zbiorcze?",
+        "options": {
+          "A": "Znakiem LQ i napisem OVERPACK, zgodnie z warunkami 3.4.11.",
+          "B": "Tylko numerami UN bez wymaganego napisu opakowania zbiorczego.",
+          "C": "Wyłącznie listą przewozową umieszczoną pod folią ochronną."
+        },
+        "correct_option": "A",
+        "explanation": "ADR 2025, 3.4.11: ADR 3.4.11 wymaga oznakowania LQ i słowa OVERPACK, jeśli znaki wszystkich towarów w opakowaniu zbiorczym nie są widoczne.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.4.11",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0535",
+      "order": 535,
+      "clause": "3.4.12",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Liczba wcześniej przejeżdżających pojazdów nie jest informacją wymaganą w 3.4.12."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 3.4.12 wymaga, aby nadawca uprzednio poinformował przewoźnika w identyfikowalny sposób o łącznej masie brutto LQ."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Harmonogram zmian nie zastępuje wymaganej informacji o całkowitej masie brutto towarów LQ."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0535",
+        "module_id": "ADR-B-01",
+        "stem": "Nadawca przekazuje przewoźnikowi partię towarów w ilościach ograniczonych LQ. Jaką informację powinien przed przewozem przekazać mu w możliwej do udokumentowania formie?",
+        "options": {
+          "A": "Liczbę pojazdów, które przejechały już daną trasę.",
+          "B": "Całkowitą masę brutto towarów LQ przeznaczonych do przewozu.",
+          "C": "Wyłącznie szczegółowy harmonogram zmian kierowców."
+        },
+        "correct_option": "B",
+        "explanation": "ADR 2025, 3.4.12: ADR 3.4.12 wymaga, aby nadawca uprzednio poinformował przewoźnika w identyfikowalny sposób o łącznej masie brutto LQ.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.4.12",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0536",
+      "order": 536,
+      "clause": "5.4.1.1.1",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "W 5.4.1.1.1 jest wymagana kolejność elementów a, b, c, d i k; nie jest ona całkiem dowolna."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Kod tunelowy nie jest automatycznie umieszczany przed numerem UN; przepis ustala inną sekwencję."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "ADR 5.4.1.1.1 ustala porządek danych a, b, c, d i k, bez przerywania innymi informacjami, z wyjątkami wskazanymi w przepisie."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0536",
+        "module_id": "ADR-B-13",
+        "stem": "Na kontroli dokumentów stwierdzono, że opis pozycji ADR zawiera właściwe dane UN, nazwę przewozową, klasę, grupę pakowania i kod tunelowy, ale zapisano je w przypadkowej kolejności. Co należy sprawdzić?",
+        "options": {
+          "A": "Czy nadawca wypełnił pola dowolnie, ponieważ kolejność nigdy nie ma znaczenia.",
+          "B": "Czy kod tunelowy umieszczono przed numerem UN, niezależnie od reszty danych.",
+          "C": "Czy podstawowe dane wskazane w 5.4.1.1.1 zachowują wymaganą kolejność."
+        },
+        "correct_option": "C",
+        "explanation": "ADR 2025, 5.4.1.1.1: ADR 5.4.1.1.1 ustala porządek danych a, b, c, d i k, bez przerywania innymi informacjami, z wyjątkami wskazanymi w przepisie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0537",
+      "order": 537,
+      "clause": "5.4.1.1.1(f)",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "ADR 5.4.1.1.1(f) wymaga określenia całkowitej ilości każdego odpowiednio rozróżnionego towaru, według wymaganej jednostki."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Jedna liczba bez rozróżnienia pozycji UN i grup pakowania może nie spełnić wymogu 5.4.1.1.1(f)."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Masa własna pojazdu nie jest ilością przewożonego towaru niebezpiecznego wymaganą w 5.4.1.1.1(f)."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0537",
+        "module_id": "ADR-B-13",
+        "stem": "W jednym dokumencie przewozowym wykazano dwa różne towary niebezpieczne, o innych numerach UN. Co należy sprawdzić przy podawaniu całkowitej ilości zgodnie z 5.4.1.1.1(f)?",
+        "options": {
+          "A": "Czy podano odpowiednią łączną ilość oddzielnie dla każdego wymaganego rodzaju towaru.",
+          "B": "Czy wpisano jedną liczbę dla całego ładunku bez rozróżnienia opisywanych towarów.",
+          "C": "Czy zastąpiono ilość samą masą własną pustego pojazdu."
+        },
+        "correct_option": "A",
+        "explanation": "ADR 2025, 5.4.1.1.1(f): ADR 5.4.1.1.1(f) wymaga określenia całkowitej ilości każdego odpowiednio rozróżnionego towaru, według wymaganej jednostki.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(f)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0538",
+      "order": 538,
+      "clause": "5.4.1.4.2",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Dokumentacja w jednym pojeździe nie wystarcza dla wszystkich jednostek przy rozdzieleniu przesyłki."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 5.4.1.4.2 nakazuje zapewnienie co najmniej tylu odrębnych dokumentów lub kopii, ile jednostek transportowych załadowano."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Ustna informacja nie zastępuje dokumentu albo kopii wymaganej dla jednostki transportowej."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0538",
+        "module_id": "ADR-B-13",
+        "stem": "Nadawca dzieli przesyłkę między dwa pojazdy, bo nie mieści się w jednym. Jak rozwiązuje kwestię dokumentów przewozowych według 5.4.1.4.2?",
+        "options": {
+          "A": "Sporządza jeden dokument i pozostawia go w wybranym pojeździe.",
+          "B": "Przygotowuje co najmniej tyle dokumentów lub kopii, ile załadowano jednostek transportowych.",
+          "C": "Zastępuje dokumentację ustnym przekazaniem informacji każdemu kierowcy."
+        },
+        "correct_option": "B",
+        "explanation": "ADR 2025, 5.4.1.4.2: ADR 5.4.1.4.2 nakazuje zapewnienie co najmniej tylu odrębnych dokumentów lub kopii, ile jednostek transportowych załadowano.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
