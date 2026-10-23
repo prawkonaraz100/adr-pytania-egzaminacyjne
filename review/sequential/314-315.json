@@ -1,0 +1,92 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-10-23",
+  "range": "ADR-B-0314..ADR-B-0315",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "Preliminary A/B/C editorial source check",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0314",
+      "sequence": 314,
+      "module_id": "ADR-B-01",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Gdzie w tabeli A ADR 2025 należy szukać nazwy przewozowej odpowiadającej konkretnemu numerowi UN?",
+        "options": {
+          "A": "W kolumnie 2 „Nazwa i opis”",
+          "B": "W kolumnie 15 z ograniczeniami tunelowymi",
+          "C": "Wyłącznie w instrukcjach pisemnych kierowcy"
+        },
+        "correct_option": "A",
+        "explanation": "Kolumna 2 tabeli A zawiera nazwę i opis towaru, co pozwala ustalić właściwą nazwę przewozową.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.2.1, objaśnienie kolumny (2)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish clause comparison and expert review pending",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0315",
+      "sequence": 315,
+      "module_id": "ADR-B-02",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Nowe regulacje ADR 2025 wymieniają baterie sodowo-jonowe z elektrolitem organicznym jako UN 3551. Do której klasy należą zgodnie z wykazem?",
+        "options": {
+          "A": "Klasa 5.1",
+          "B": "Klasa 9 — różne materiały i przedmioty niebezpieczne",
+          "C": "Klasa 2"
+        },
+        "correct_option": "B",
+        "explanation": "Baterie sodowo-jonowe z elektrolitem organicznym objęte wpisem UN 3551 klasyfikuje się do klasy 9, z zastrzeżeniem właściwych warunków i wyłączeń.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.9.1.7.2; tabela A UN 3551",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish clause comparison and expert review pending",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

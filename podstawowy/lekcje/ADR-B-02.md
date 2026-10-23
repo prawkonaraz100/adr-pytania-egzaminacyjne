@@ -96,3 +96,7 @@ Kursant wyjaśnia egzotermiczny rozkład substancji klasy 5.2 i rozróżnia form
 ## Klasa 6.2: identyfikacja ryzyka (0309 i 0311)
 
 Sytuacje: obecność patogenów potencjalnie wywołujących chorobę i rozróżnienie I1/I2; ADR 2025 2.2.62.1.1–2. Kursant nie utożsamia wszystkich próbek biologicznych z obowiązkiem przewozu ADR bez sprawdzenia klasyfikacji i wyjątków.
+
+## Baterie sodowo-jonowe — ADR 2025 (0315)
+
+Przykład nowej pozycji UN 3551 w klasie 9, zgodnie z 2.2.9.1.7.2 i tabelą A; sprawdzić wyjątki przed jakimkolwiek praktycznym zastosowaniem. Przykład nie dotyczy transportu cysternami.
