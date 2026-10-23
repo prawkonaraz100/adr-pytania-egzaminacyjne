@@ -46,3 +46,28 @@ Stan: 23.10.2026. Dla 40 rekordów odnotowano warianty A/B/C, źródła i objaś
 | ADR-B-0120 | ADR 2025, 1.10.1.2 | wymaga porównania urzędowego PL |
 
 Źródło prawa: Dz.U. 2025 poz. 642 i sprostowanie poz. 1575. Pomocnicze polskie tomy MI nie zastępują urzędowego ogłoszenia. Nie poprawiono odpowiedzi ani nie dodano pytań bez potwierdzonej podstawy. Stan banku 324 needs_review, 0 verified, eksport BLOCKED. Bez cystern.
+
+## Aneks: odczyt fragmentów pomocniczego polskiego ADR (2026-10-23)
+
+Dla 18 konkretnych ID dokonano porównania treści A/B/C i wyjaśnienia z odpowiednim ustępem i stroną PDF polskiego ADR 2025 MI. Dla pozostałych nadal **wymaga specjalisty**; nie wolno z samej referencji uznawać legalności. Materiał MI jest pomocniczy, autentyczny Dz.U. 642 i sprostowanie 1575 nadal wymagają pełnej kontroli.
+
+| ID | Ustęp | Tom / strona PDF | Wynik |
+|---|---|---|---|
+| ADR-B-0081 | 7.5.4(c) | II / 613 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0082 | 7.5.4 | II / 613 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0088 | 5.4.3.4 | II / 280 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0090 | 5.4.3.1; 8.1.2.3 | II / 280 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0092 | 1.3.1 | I / 52 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0100 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0101 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0102 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0103 | 8.3.5 | II / 638 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0104 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0105 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0106 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0107 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0108 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0109 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0110 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0111 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+| ADR-B-0112 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
