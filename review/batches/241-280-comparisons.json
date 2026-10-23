@@ -1,0 +1,1045 @@
+{
+  "method": "Preliminary per-choice editorial analysis; official ADR Polish text literal end-to-end check pending",
+  "records": [
+    {
+      "id": "ADR-B-0241",
+      "clause": "ADR 2025, 7.5.8.1",
+      "options": {
+        "A": {
+          "text": "Oczyścić pojazd lub kontener",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 7.5.8.1: Po wycieku stwierdzonym po rozładunku należy oczyścić pojazd lub kontener przed ponownym załadunkiem."
+        },
+        "B": {
+          "text": "Przykryć wyciek folią",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 7.5.8.1; właściwy zakres: Po wycieku stwierdzonym po rozładunku należy oczyścić pojazd lub kontener przed ponownym załadunkiem."
+        },
+        "C": {
+          "text": "Zignorować wyciek przy krótkiej trasie",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 7.5.8.1; właściwy zakres: Po wycieku stwierdzonym po rozładunku należy oczyścić pojazd lub kontener przed ponownym załadunkiem."
+        }
+      },
+      "explanation": "Po wycieku stwierdzonym po rozładunku należy oczyścić pojazd lub kontener przed ponownym załadunkiem.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0242",
+      "clause": "ADR 2025, 5.4.3.4",
+      "options": {
+        "A": {
+          "text": "Nawet gdy musi wejść w nieznaną substancję",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 5.4.3.4; właściwy zakres: Instrukcje pisemne dopuszczają ograniczanie odpływu substancji do kanalizacji tylko wtedy, gdy można to zrobić bezpiecznie."
+        },
+        "B": {
+          "text": "Tylko jeśli można to zrobić bezpiecznie",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.4.3.4: Instrukcje pisemne dopuszczają ograniczanie odpływu substancji do kanalizacji tylko wtedy, gdy można to zrobić bezpiecznie."
+        },
+        "C": {
+          "text": "Nigdy nie wolno chronić kanalizacji",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 5.4.3.4; właściwy zakres: Instrukcje pisemne dopuszczają ograniczanie odpływu substancji do kanalizacji tylko wtedy, gdy można to zrobić bezpiecznie."
+        }
+      },
+      "explanation": "Instrukcje pisemne dopuszczają ograniczanie odpływu substancji do kanalizacji tylko wtedy, gdy można to zrobić bezpiecznie.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0243",
+      "clause": "ADR 2025, 8.3.3",
+      "options": {
+        "A": {
+          "text": "Tak, gdy ma rękawice",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 8.3.3; właściwy zakres: ADR zabrania członkom załogi otwierania sztuk przesyłek zawierających towary niebezpieczne."
+        },
+        "B": {
+          "text": "Tak, jeżeli spedytor zgodzi się telefonicznie",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 8.3.3; właściwy zakres: ADR zabrania członkom załogi otwierania sztuk przesyłek zawierających towary niebezpieczne."
+        },
+        "C": {
+          "text": "Nie, załodze zabrania się otwierania takich sztuk przesyłek",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 8.3.3: ADR zabrania członkom załogi otwierania sztuk przesyłek zawierających towary niebezpieczne."
+        }
+      },
+      "explanation": "ADR zabrania członkom załogi otwierania sztuk przesyłek zawierających towary niebezpieczne.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0244",
+      "clause": "ADR 2025, 8.3.6",
+      "options": {
+        "A": {
+          "text": "Wyłączyć silnik",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 8.3.6: Podczas załadunku lub rozładunku silnik musi być wyłączony, chyba że jest potrzebny do napędu odpowiednich urządzeń."
+        },
+        "B": {
+          "text": "Pozostawić silnik na biegu jałowym",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 8.3.6; właściwy zakres: Podczas załadunku lub rozładunku silnik musi być wyłączony, chyba że jest potrzebny do napędu odpowiednich urządzeń."
+        },
+        "C": {
+          "text": "Wyłączyć wyłącznie światła",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 8.3.6; właściwy zakres: Podczas załadunku lub rozładunku silnik musi być wyłączony, chyba że jest potrzebny do napędu odpowiednich urządzeń."
+        }
+      },
+      "explanation": "Podczas załadunku lub rozładunku silnik musi być wyłączony, chyba że jest potrzebny do napędu odpowiednich urządzeń.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0245",
+      "clause": "ADR 2025, 1.4.3.1",
+      "options": {
+        "A": {
+          "text": "Schować ją za innymi opakowaniami",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 1.4.3.1; właściwy zakres: Załadowca nie powinien ładować uszkodzonej sztuki przesyłki, z której wycieka materiał niebezpieczny."
+        },
+        "B": {
+          "text": "Nie ładować jej w takim stanie",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.4.3.1: Załadowca nie powinien ładować uszkodzonej sztuki przesyłki, z której wycieka materiał niebezpieczny."
+        },
+        "C": {
+          "text": "Załadować ją, jeśli wyciek jest mały",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 1.4.3.1; właściwy zakres: Załadowca nie powinien ładować uszkodzonej sztuki przesyłki, z której wycieka materiał niebezpieczny."
+        }
+      },
+      "explanation": "Załadowca nie powinien ładować uszkodzonej sztuki przesyłki, z której wycieka materiał niebezpieczny.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0246",
+      "clause": "ADR 2025, 1.4.2.3.1",
+      "options": {
+        "A": {
+          "text": "Zawsze może odwlekać przyjęcie",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 1.4.2.3.1; właściwy zakres: Odbiorca ma obowiązek nie opóźniać bez ważnej przyczyny przyjęcia towaru niebezpiecznego."
+        },
+        "B": {
+          "text": "Nie ma żadnych obowiązków",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 1.4.2.3.1; właściwy zakres: Odbiorca ma obowiązek nie opóźniać bez ważnej przyczyny przyjęcia towaru niebezpiecznego."
+        },
+        "C": {
+          "text": "Nie powinien odwlekać przyjęcia bez ważnych powodów",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.4.2.3.1: Odbiorca ma obowiązek nie opóźniać bez ważnej przyczyny przyjęcia towaru niebezpiecznego."
+        }
+      },
+      "explanation": "Odbiorca ma obowiązek nie opóźniać bez ważnej przyczyny przyjęcia towaru niebezpiecznego.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0247",
+      "clause": "ADR 2025, 1.1.4.2.1",
+      "options": {
+        "A": {
+          "text": "Tak, bezwarunkowo",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 1.1.4.2.1; właściwy zakres: Przewóz w łańcuchu obejmującym transport morski może podlegać szczególnym regułom zgodności, lecz nie stanowi automatycznego zwolnienia ze wszystkich wymagań ADR."
+        },
+        "B": {
+          "text": "Nie, trzeba sprawdzić warunki stosowania 1.1.4.2.1 i właściwe wymogi dla odcinka drogowego",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.1.4.2.1: Przewóz w łańcuchu obejmującym transport morski może podlegać szczególnym regułom zgodności, lecz nie stanowi automatycznego zwolnienia ze wszystkich wymagań ADR."
+        },
+        "C": {
+          "text": "Tak, jeśli kierowca zna nazwę statku",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 1.1.4.2.1; właściwy zakres: Przewóz w łańcuchu obejmującym transport morski może podlegać szczególnym regułom zgodności, lecz nie stanowi automatycznego zwolnienia ze wszystkich wymagań ADR."
+        }
+      },
+      "explanation": "Przewóz w łańcuchu obejmującym transport morski może podlegać szczególnym regułom zgodności, lecz nie stanowi automatycznego zwolnienia ze wszystkich wymagań ADR.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0248",
+      "clause": "ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1",
+      "options": {
+        "A": {
+          "text": "W kolumnie 15",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1: Kod ograniczenia przewozu przez tunele można odnaleźć w kolumnie 15 tabeli A, a następnie zastosować zgodnie z zasadami 8.6."
+        },
+        "B": {
+          "text": "Zawsze w kolumnie 1",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1; właściwy zakres: Kod ograniczenia przewozu przez tunele można odnaleźć w kolumnie 15 tabeli A, a następnie zastosować zgodnie z zasadami 8.6."
+        },
+        "C": {
+          "text": "Wyłącznie w nazwie nadawcy",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1; właściwy zakres: Kod ograniczenia przewozu przez tunele można odnaleźć w kolumnie 15 tabeli A, a następnie zastosować zgodnie z zasadami 8.6."
+        }
+      },
+      "explanation": "Kod ograniczenia przewozu przez tunele można odnaleźć w kolumnie 15 tabeli A, a następnie zastosować zgodnie z zasadami 8.6.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0249",
+      "clause": "ADR 2025, 1.10.1.2",
+      "options": {
+        "A": {
+          "text": "Wydać przesyłkę każdemu, kto zna numer",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 1.10.1.2; właściwy zakres: Przewóz należy oferować odpowiednio zidentyfikowanemu przewoźnikowi, nie wystarczy sam numer zamówienia."
+        },
+        "B": {
+          "text": "Pominąć identyfikację, gdy nie ma opóźnienia",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 1.10.1.2; właściwy zakres: Przewóz należy oferować odpowiednio zidentyfikowanemu przewoźnikowi, nie wystarczy sam numer zamówienia."
+        },
+        "C": {
+          "text": "Zidentyfikować przewoźnika przed zaoferowaniem mu towaru do przewozu",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.10.1.2: Przewóz należy oferować odpowiednio zidentyfikowanemu przewoźnikowi, nie wystarczy sam numer zamówienia."
+        }
+      },
+      "explanation": "Przewóz należy oferować odpowiednio zidentyfikowanemu przewoźnikowi, nie wystarczy sam numer zamówienia.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0250",
+      "clause": "ADR 2025, 1.10.1.4; 8.1.2.1",
+      "options": {
+        "A": {
+          "text": "Wyłącznie karty rabatowej stacji paliw",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 1.10.1.4; 8.1.2.1; właściwy zakres: W odpowiednim zakresie wymagane jest, aby każdy członek załogi miał przy sobie dokument tożsamości ze zdjęciem."
+        },
+        "B": {
+          "text": "Dokumentu tożsamości ze zdjęciem każdego członka załogi",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.10.1.4; 8.1.2.1: W odpowiednim zakresie wymagane jest, aby każdy członek załogi miał przy sobie dokument tożsamości ze zdjęciem."
+        },
+        "C": {
+          "text": "Zawsze wydruku historii przeglądarki telefonu",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 1.10.1.4; 8.1.2.1; właściwy zakres: W odpowiednim zakresie wymagane jest, aby każdy członek załogi miał przy sobie dokument tożsamości ze zdjęciem."
+        }
+      },
+      "explanation": "W odpowiednim zakresie wymagane jest, aby każdy członek załogi miał przy sobie dokument tożsamości ze zdjęciem.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0251",
+      "clause": "ADR 2025, 8.1.5.2",
+      "options": {
+        "A": {
+          "text": "Jeden klin pod koła dla każdego pojazdu",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 8.1.5.2: Ogólny wymóg wyposażenia przewiduje klin o wielkości odpowiedniej do masy i koła dla każdego pojazdu."
+        },
+        "B": {
+          "text": "Jeden klin na całą jednostkę niezależnie od liczby pojazdów",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 8.1.5.2; właściwy zakres: Ogólny wymóg wyposażenia przewiduje klin o wielkości odpowiedniej do masy i koła dla każdego pojazdu."
+        },
+        "C": {
+          "text": "Kliny nie są wymagane, jeżeli pojazd ma hamulec postojowy",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 8.1.5.2; właściwy zakres: Ogólny wymóg wyposażenia przewiduje klin o wielkości odpowiedniej do masy i koła dla każdego pojazdu."
+        }
+      },
+      "explanation": "Ogólny wymóg wyposażenia przewiduje klin o wielkości odpowiedniej do masy i koła dla każdego pojazdu.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0252",
+      "clause": "ADR 2025, 8.1.5.2",
+      "options": {
+        "A": {
+          "text": "Jedna kamizelka wystarcza, jeśli członkowie załogi zmieniają się przy pracy",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 8.1.5.2; właściwy zakres: Kamizelka ostrzegawcza jest wyposażeniem wymaganym dla każdego członka załogi."
+        },
+        "B": {
+          "text": "Każdy członek załogi powinien mieć własną kamizelkę ostrzegawczą",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 8.1.5.2: Kamizelka ostrzegawcza jest wyposażeniem wymaganym dla każdego członka załogi."
+        },
+        "C": {
+          "text": "Kamizelka jest potrzebna tylko kierowcy pojazdu prowadzącego",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 8.1.5.2; właściwy zakres: Kamizelka ostrzegawcza jest wyposażeniem wymaganym dla każdego członka załogi."
+        }
+      },
+      "explanation": "Kamizelka ostrzegawcza jest wyposażeniem wymaganym dla każdego członka załogi.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0253",
+      "clause": "ADR 2025, 8.1.5.2",
+      "options": {
+        "A": {
+          "text": "Wystarczą same rękawice, jeśli trasa jest krótka",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 8.1.5.2; właściwy zakres: ADR wymienia rękawice ochronne i środki ochrony oczu osobno w wyposażeniu każdego członka załogi."
+        },
+        "B": {
+          "text": "Wystarczy okulary słoneczne bez sprawdzania wymagań",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 8.1.5.2; właściwy zakres: ADR wymienia rękawice ochronne i środki ochrony oczu osobno w wyposażeniu każdego członka załogi."
+        },
+        "C": {
+          "text": "Wyposażenie każdego członka załogi ma obejmować również ochronę oczu",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 8.1.5.2: ADR wymienia rękawice ochronne i środki ochrony oczu osobno w wyposażeniu każdego członka załogi."
+        }
+      },
+      "explanation": "ADR wymienia rękawice ochronne i środki ochrony oczu osobno w wyposażeniu każdego członka załogi.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0254",
+      "clause": "ADR 2025, 8.1.5.3",
+      "options": {
+        "A": {
+          "text": "Maskę ucieczkową dla każdego członka załogi",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 8.1.5.3: Dla nalepki 2.3 lub 6.1 ADR przewiduje maskę ucieczkową dla każdego członka załogi; pozostałe środki zależą od warunków właściwej przesyłki."
+        },
+        "B": {
+          "text": "Wyłącznie dodatkowy klin pod koło",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 8.1.5.3; właściwy zakres: Dla nalepki 2.3 lub 6.1 ADR przewiduje maskę ucieczkową dla każdego członka załogi; pozostałe środki zależą od warunków właściwej przesyłki."
+        },
+        "C": {
+          "text": "Zawsze kombinezon strażacki do gaszenia pożaru ładowni",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 8.1.5.3; właściwy zakres: Dla nalepki 2.3 lub 6.1 ADR przewiduje maskę ucieczkową dla każdego członka załogi; pozostałe środki zależą od warunków właściwej przesyłki."
+        }
+      },
+      "explanation": "Dla nalepki 2.3 lub 6.1 ADR przewiduje maskę ucieczkową dla każdego członka załogi; pozostałe środki zależą od warunków właściwej przesyłki.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0255",
+      "clause": "ADR 2025, 5.3.2.2.2",
+      "options": {
+        "A": {
+          "text": "Górne „33”",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 5.3.2.2.2; właściwy zakres: Na tablicy z dwoma polami numer rozpoznawczy zagrożenia jest u góry, a czterocyfrowy numer UN na dole."
+        },
+        "B": {
+          "text": "Dolne „1203”",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.3.2.2.2: Na tablicy z dwoma polami numer rozpoznawczy zagrożenia jest u góry, a czterocyfrowy numer UN na dole."
+        },
+        "C": {
+          "text": "Żadne z nich",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 5.3.2.2.2; właściwy zakres: Na tablicy z dwoma polami numer rozpoznawczy zagrożenia jest u góry, a czterocyfrowy numer UN na dole."
+        }
+      },
+      "explanation": "Na tablicy z dwoma polami numer rozpoznawczy zagrożenia jest u góry, a czterocyfrowy numer UN na dole.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0256",
+      "clause": "ADR 2025, 5.3.2.3.1",
+      "options": {
+        "A": {
+          "text": "Niebezpieczną reakcję substancji z wodą",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.3.2.3.1: Litera X przed numerem zagrożenia oznacza niebezpieczną reakcję z wodą. Użycie wody wymaga zgody ekspertów."
+        },
+        "B": {
+          "text": "Obowiązek natychmiastowego użycia wody",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 5.3.2.3.1; właściwy zakres: Litera X przed numerem zagrożenia oznacza niebezpieczną reakcję z wodą. Użycie wody wymaga zgody ekspertów."
+        },
+        "C": {
+          "text": "Wyłącznie przewóz w ilości ograniczonej",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 5.3.2.3.1; właściwy zakres: Litera X przed numerem zagrożenia oznacza niebezpieczną reakcję z wodą. Użycie wody wymaga zgody ekspertów."
+        }
+      },
+      "explanation": "Litera X przed numerem zagrożenia oznacza niebezpieczną reakcję z wodą. Użycie wody wymaga zgody ekspertów.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0257",
+      "clause": "ADR 2025, 5.3.2.2.2",
+      "options": {
+        "A": {
+          "text": "Numer UN w górnym polu, numer zagrożenia na dole",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 5.3.2.2.2; właściwy zakres: Czarna pozioma linia oddziela górny numer rozpoznawczy zagrożenia od dolnego numeru UN."
+        },
+        "B": {
+          "text": "Oba numery obok siebie bez podziału",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 5.3.2.2.2; właściwy zakres: Czarna pozioma linia oddziela górny numer rozpoznawczy zagrożenia od dolnego numeru UN."
+        },
+        "C": {
+          "text": "Numer zagrożenia u góry i numer UN na dole, oddzielone czarną linią",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.3.2.2.2: Czarna pozioma linia oddziela górny numer rozpoznawczy zagrożenia od dolnego numeru UN."
+        }
+      },
+      "explanation": "Czarna pozioma linia oddziela górny numer rozpoznawczy zagrożenia od dolnego numeru UN.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0258",
+      "clause": "ADR 2025, 5.3.2.2.1",
+      "options": {
+        "A": {
+          "text": "10 cm",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 5.3.2.2.1; właściwy zakres: Standardowa tablica pomarańczowa ma wymiary 40 × 30 cm. Przepisy przewidują także określone tolerancje i szczególne przypadki mniejszych tablic."
+        },
+        "B": {
+          "text": "30 cm",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.3.2.2.1: Standardowa tablica pomarańczowa ma wymiary 40 × 30 cm. Przepisy przewidują także określone tolerancje i szczególne przypadki mniejszych tablic."
+        },
+        "C": {
+          "text": "80 cm",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 5.3.2.2.1; właściwy zakres: Standardowa tablica pomarańczowa ma wymiary 40 × 30 cm. Przepisy przewidują także określone tolerancje i szczególne przypadki mniejszych tablic."
+        }
+      },
+      "explanation": "Standardowa tablica pomarańczowa ma wymiary 40 × 30 cm. Przepisy przewidują także określone tolerancje i szczególne przypadki mniejszych tablic.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0259",
+      "clause": "ADR 2025, 1.1.3.6.3",
+      "options": {
+        "A": {
+          "text": "333 jednostki ilościowe",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 1.1.3.6.3; właściwy zakres: Tabela ADR podaje dla kategorii transportowej 3 wartość maksymalną 1000. Przed zastosowaniem wyjątku trzeba uwzględnić szczegóły towaru, sposób liczenia ilości i inne obowiązki."
+        },
+        "B": {
+          "text": "1 000 jednostek ilościowych",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.1.3.6.3: Tabela ADR podaje dla kategorii transportowej 3 wartość maksymalną 1000. Przed zastosowaniem wyjątku trzeba uwzględnić szczegóły towaru, sposób liczenia ilości i inne obowiązki."
+        },
+        "C": {
+          "text": "Bez ograniczenia ilościowego",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 1.1.3.6.3; właściwy zakres: Tabela ADR podaje dla kategorii transportowej 3 wartość maksymalną 1000. Przed zastosowaniem wyjątku trzeba uwzględnić szczegóły towaru, sposób liczenia ilości i inne obowiązki."
+        }
+      },
+      "explanation": "Tabela ADR podaje dla kategorii transportowej 3 wartość maksymalną 1000. Przed zastosowaniem wyjątku trzeba uwzględnić szczegóły towaru, sposób liczenia ilości i inne obowiązki.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0260",
+      "clause": "ADR 2025, 3.5.1.2",
+      "options": {
+        "A": {
+          "text": "Nie można przewozić go na podstawie przepisów o ilościach wyłączonych",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 3.5.1.2: Kod E0 oznacza, że dany towar nie jest dopuszczony do przewozu na zasadach ilości wyłączonych (EQ)."
+        },
+        "B": {
+          "text": "Wszystkie opakowania automatycznie korzystają ze zwolnienia",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 3.5.1.2; właściwy zakres: Kod E0 oznacza, że dany towar nie jest dopuszczony do przewozu na zasadach ilości wyłączonych (EQ)."
+        },
+        "C": {
+          "text": "Kod E0 pozwala na 1 litr w każdym opakowaniu wewnętrznym",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 3.5.1.2; właściwy zakres: Kod E0 oznacza, że dany towar nie jest dopuszczony do przewozu na zasadach ilości wyłączonych (EQ)."
+        }
+      },
+      "explanation": "Kod E0 oznacza, że dany towar nie jest dopuszczony do przewozu na zasadach ilości wyłączonych (EQ).",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0261",
+      "clause": "ADR 2025, 3.4.2",
+      "options": {
+        "A": {
+          "text": "20 kg dla każdego rodzaju opakowania bez wyjątków",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 3.4.2; właściwy zakres: Przy zwykłym opakowaniu zewnętrznym stosowanym do LQ rozdział 3.4.2 ustanawia zasadniczy limit 30 kg masy brutto; dla tac obciągniętych folią limit jest odrębny."
+        },
+        "B": {
+          "text": "50 kg, bo stosuje się wyłączenie LQ",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 3.4.2; właściwy zakres: Przy zwykłym opakowaniu zewnętrznym stosowanym do LQ rozdział 3.4.2 ustanawia zasadniczy limit 30 kg masy brutto; dla tac obciągniętych folią limit jest odrębny."
+        },
+        "C": {
+          "text": "30 kg, z zastrzeżeniem warunków odpowiednich przepisów",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 3.4.2: Przy zwykłym opakowaniu zewnętrznym stosowanym do LQ rozdział 3.4.2 ustanawia zasadniczy limit 30 kg masy brutto; dla tac obciągniętych folią limit jest odrębny."
+        }
+      },
+      "explanation": "Przy zwykłym opakowaniu zewnętrznym stosowanym do LQ rozdział 3.4.2 ustanawia zasadniczy limit 30 kg masy brutto; dla tac obciągniętych folią limit jest odrębny.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0262",
+      "clause": "ADR 2025, 1.9.5.3.6; 8.6.4",
+      "options": {
+        "A": {
+          "text": "To najbardziej restrykcyjna kategoria tunelu dla przewozu towarów niebezpiecznych",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.9.5.3.6; 8.6.4: Kategoria E jest najbardziej restrykcyjną kategorią tuneli ADR. Rzeczywistą możliwość przejazdu trzeba ustalić według kodu ograniczenia towaru, sposobu przewozu i wyjątków."
+        },
+        "B": {
+          "text": "W tunelu nie obowiązują żadne ograniczenia ADR",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 1.9.5.3.6; 8.6.4; właściwy zakres: Kategoria E jest najbardziej restrykcyjną kategorią tuneli ADR. Rzeczywistą możliwość przejazdu trzeba ustalić według kodu ograniczenia towaru, sposobu przewozu i wyjątków."
+        },
+        "C": {
+          "text": "W tunelu wolno przewozić wyłącznie towary klasy 3",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 1.9.5.3.6; 8.6.4; właściwy zakres: Kategoria E jest najbardziej restrykcyjną kategorią tuneli ADR. Rzeczywistą możliwość przejazdu trzeba ustalić według kodu ograniczenia towaru, sposobu przewozu i wyjątków."
+        }
+      },
+      "explanation": "Kategoria E jest najbardziej restrykcyjną kategorią tuneli ADR. Rzeczywistą możliwość przejazdu trzeba ustalić według kodu ograniczenia towaru, sposobu przewozu i wyjątków.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0263",
+      "clause": "ADR 2025, 8.6.3.2",
+      "options": {
+        "A": {
+          "text": "Użyć kodu przypisanego towarowi o najmniejszej masie",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 8.6.3.2; właściwy zakres: Dla ładunku mieszanego przyjmuje się najbardziej restrykcyjny właściwy kod ograniczenia tunelowego, z uwzględnieniem zasad i wyjątków ADR."
+        },
+        "B": {
+          "text": "Uwzględnić najbardziej restrykcyjny z mających zastosowanie kodów",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 8.6.3.2: Dla ładunku mieszanego przyjmuje się najbardziej restrykcyjny właściwy kod ograniczenia tunelowego, z uwzględnieniem zasad i wyjątków ADR."
+        },
+        "C": {
+          "text": "Pominąć kody, jeśli towary jadą na jednym dokumencie",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 8.6.3.2; właściwy zakres: Dla ładunku mieszanego przyjmuje się najbardziej restrykcyjny właściwy kod ograniczenia tunelowego, z uwzględnieniem zasad i wyjątków ADR."
+        }
+      },
+      "explanation": "Dla ładunku mieszanego przyjmuje się najbardziej restrykcyjny właściwy kod ograniczenia tunelowego, z uwzględnieniem zasad i wyjątków ADR.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0264",
+      "clause": "ADR 2025, 8.6.3.1",
+      "options": {
+        "A": {
+          "text": "Automatyczny zakaz przejazdu przez każdy tunel",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 8.6.3.1; właściwy zakres: Symbol „(-)” oznacza brak przypisanego ograniczenia przejazdu przez tunele wynikającego z kodu ADR; inne wymagania mogą nadal obowiązywać."
+        },
+        "B": {
+          "text": "Obowiązek użycia wyłącznie drogi ekspresowej",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 8.6.3.1; właściwy zakres: Symbol „(-)” oznacza brak przypisanego ograniczenia przejazdu przez tunele wynikającego z kodu ADR; inne wymagania mogą nadal obowiązywać."
+        },
+        "C": {
+          "text": "Nie przypisano ograniczenia tunelowego ADR z tego tytułu, co nie uchyla innych przepisów i znaków drogowych",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 8.6.3.1: Symbol „(-)” oznacza brak przypisanego ograniczenia przejazdu przez tunele wynikającego z kodu ADR; inne wymagania mogą nadal obowiązywać."
+        }
+      },
+      "explanation": "Symbol „(-)” oznacza brak przypisanego ograniczenia przejazdu przez tunele wynikającego z kodu ADR; inne wymagania mogą nadal obowiązywać.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0265",
+      "clause": "ADR 2025, 2.2.43.1.1",
+      "options": {
+        "A": {
+          "text": "Materiał może wydzielać gaz palny w kontakcie z wodą",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 2.2.43.1.1: Klasa 4.3 obejmuje materiały, które w kontakcie z wodą wydzielają gazy palne."
+        },
+        "B": {
+          "text": "Materiał jest wyłącznie żrący",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 2.2.43.1.1; właściwy zakres: Klasa 4.3 obejmuje materiały, które w kontakcie z wodą wydzielają gazy palne."
+        },
+        "C": {
+          "text": "Materiał nie reaguje z wodą",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 2.2.43.1.1; właściwy zakres: Klasa 4.3 obejmuje materiały, które w kontakcie z wodą wydzielają gazy palne."
+        }
+      },
+      "explanation": "Klasa 4.3 obejmuje materiały, które w kontakcie z wodą wydzielają gazy palne.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0266",
+      "clause": "ADR 2025, 2.2.51.1.1",
+      "options": {
+        "A": {
+          "text": "Materiał zawsze sam jest cieczą łatwopalną",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 2.2.51.1.1; właściwy zakres: Materiały utleniające nie muszą być same palne, ale mogą powodować lub przyczyniać się do spalania innych materiałów."
+        },
+        "B": {
+          "text": "Materiał utleniający może spowodować lub nasilić spalanie innych materiałów",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 2.2.51.1.1: Materiały utleniające nie muszą być same palne, ale mogą powodować lub przyczyniać się do spalania innych materiałów."
+        },
+        "C": {
+          "text": "Towar nigdy nie wymaga oddzielenia od substancji palnych",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 2.2.51.1.1; właściwy zakres: Materiały utleniające nie muszą być same palne, ale mogą powodować lub przyczyniać się do spalania innych materiałów."
+        }
+      },
+      "explanation": "Materiały utleniające nie muszą być same palne, ale mogą powodować lub przyczyniać się do spalania innych materiałów.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0267",
+      "clause": "ADR 2025, 2.2.8.1.1",
+      "options": {
+        "A": {
+          "text": "Wyłącznie promieniowanie jonizujące",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 2.2.8.1.1; właściwy zakres: Klasa 8 obejmuje substancje żrące; działania mogą prowadzić do uszkodzeń tkanek i innych materiałów."
+        },
+        "B": {
+          "text": "Wyłącznie właściwości zakaźne",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 2.2.8.1.1; właściwy zakres: Klasa 8 obejmuje substancje żrące; działania mogą prowadzić do uszkodzeń tkanek i innych materiałów."
+        },
+        "C": {
+          "text": "Działanie żrące, które może powodować uszkodzenia tkanek i innych materiałów",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 2.2.8.1.1: Klasa 8 obejmuje substancje żrące; działania mogą prowadzić do uszkodzeń tkanek i innych materiałów."
+        }
+      },
+      "explanation": "Klasa 8 obejmuje substancje żrące; działania mogą prowadzić do uszkodzeń tkanek i innych materiałów.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0268",
+      "clause": "ADR 2025, 5.2.2.2.2",
+      "options": {
+        "A": {
+          "text": "4.1 – materiały stałe zapalne",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.2.2.2.2: Wzór 4.1 rozpoznaje się po białym tle z czerwonymi pionowymi pasami i symbolem płomienia."
+        },
+        "B": {
+          "text": "4.3 – materiały wydzielające gazy palne w kontakcie z wodą",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 5.2.2.2.2; właściwy zakres: Wzór 4.1 rozpoznaje się po białym tle z czerwonymi pionowymi pasami i symbolem płomienia."
+        },
+        "C": {
+          "text": "5.1 – materiały utleniające",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 5.2.2.2.2; właściwy zakres: Wzór 4.1 rozpoznaje się po białym tle z czerwonymi pionowymi pasami i symbolem płomienia."
+        }
+      },
+      "explanation": "Wzór 4.1 rozpoznaje się po białym tle z czerwonymi pionowymi pasami i symbolem płomienia.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0269",
+      "clause": "ADR 2025, 5.2.2.2.2",
+      "options": {
+        "A": {
+          "text": "3 – materiały ciekłe zapalne",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 5.2.2.2.2; właściwy zakres: Wzór 4.3 ma niebieskie tło i symbol płomienia; dotyczy substancji, które w kontakcie z wodą wydzielają gazy palne."
+        },
+        "B": {
+          "text": "4.3 – materiały wydzielające gazy palne w kontakcie z wodą",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.2.2.2.2: Wzór 4.3 ma niebieskie tło i symbol płomienia; dotyczy substancji, które w kontakcie z wodą wydzielają gazy palne."
+        },
+        "C": {
+          "text": "4.2 – materiały podatne na samozapalenie",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 5.2.2.2.2; właściwy zakres: Wzór 4.3 ma niebieskie tło i symbol płomienia; dotyczy substancji, które w kontakcie z wodą wydzielają gazy palne."
+        }
+      },
+      "explanation": "Wzór 4.3 ma niebieskie tło i symbol płomienia; dotyczy substancji, które w kontakcie z wodą wydzielają gazy palne.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0270",
+      "clause": "ADR 2025, 5.2.2.2.2",
+      "options": {
+        "A": {
+          "text": "6.1 – materiały trujące",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 5.2.2.2.2; właściwy zakres: Żółte tło i symbol płomienia nad okręgiem to charakterystyczny wzór nalepki 5.1 – materiały utleniające."
+        },
+        "B": {
+          "text": "2.2 – gazy niepalne i nietrujące",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 5.2.2.2.2; właściwy zakres: Żółte tło i symbol płomienia nad okręgiem to charakterystyczny wzór nalepki 5.1 – materiały utleniające."
+        },
+        "C": {
+          "text": "5.1 – materiały utleniające",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.2.2.2.2: Żółte tło i symbol płomienia nad okręgiem to charakterystyczny wzór nalepki 5.1 – materiały utleniające."
+        }
+      },
+      "explanation": "Żółte tło i symbol płomienia nad okręgiem to charakterystyczny wzór nalepki 5.1 – materiały utleniające.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0271",
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "options": {
+        "A": {
+          "text": "700",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 1.1.3.6.4; właściwy zakres: W obliczeniu 1.1.3.6.4 dla kategorii 2 stosuje się mnożnik 3, a dla kategorii 3 mnożnik 1: 100 × 3 + 600 = 900, czyli poniżej granicy 1000."
+        },
+        "B": {
+          "text": "900",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.1.3.6.4: W obliczeniu 1.1.3.6.4 dla kategorii 2 stosuje się mnożnik 3, a dla kategorii 3 mnożnik 1: 100 × 3 + 600 = 900, czyli poniżej granicy 1000."
+        },
+        "C": {
+          "text": "1 200",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 1.1.3.6.4; właściwy zakres: W obliczeniu 1.1.3.6.4 dla kategorii 2 stosuje się mnożnik 3, a dla kategorii 3 mnożnik 1: 100 × 3 + 600 = 900, czyli poniżej granicy 1000."
+        }
+      },
+      "explanation": "W obliczeniu 1.1.3.6.4 dla kategorii 2 stosuje się mnożnik 3, a dla kategorii 3 mnożnik 1: 100 × 3 + 600 = 900, czyli poniżej granicy 1000.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0272",
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "options": {
+        "A": {
+          "text": "Wartość wynosi 1100 i przekracza próg 1000 dla tego wyłączenia",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.1.3.6.4: Obliczenie wynosi 200 × 3 + 500 = 1100. Przekroczenie wartości 1000 wyklucza zastosowanie tego wyłączenia w opisanym przypadku; należy sprawdzić pełne wymagania ADR."
+        },
+        "B": {
+          "text": "Wartość wynosi 700, więc próg nie został przekroczony",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 1.1.3.6.4; właściwy zakres: Obliczenie wynosi 200 × 3 + 500 = 1100. Przekroczenie wartości 1000 wyklucza zastosowanie tego wyłączenia w opisanym przypadku; należy sprawdzić pełne wymagania ADR."
+        },
+        "C": {
+          "text": "Wartość wynosi 500, bo pomija się kategorię 2",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 1.1.3.6.4; właściwy zakres: Obliczenie wynosi 200 × 3 + 500 = 1100. Przekroczenie wartości 1000 wyklucza zastosowanie tego wyłączenia w opisanym przypadku; należy sprawdzić pełne wymagania ADR."
+        }
+      },
+      "explanation": "Obliczenie wynosi 200 × 3 + 500 = 1100. Przekroczenie wartości 1000 wyklucza zastosowanie tego wyłączenia w opisanym przypadku; należy sprawdzić pełne wymagania ADR.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0273",
+      "clause": "ADR 2025, 3.4.7.1",
+      "options": {
+        "A": {
+          "text": "To zawsze nalepka klasy 8",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 3.4.7.1; właściwy zakres: Znak LQ to kwadrat ustawiony na wierzchołku, z czarnymi górnym i dolnym fragmentem oraz białym lub kontrastowym środkiem. Nie jest zwykłą nalepką zagrożenia określonej klasy."
+        },
+        "B": {
+          "text": "To nalepka ostrzegawcza gazu niepalnego",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 3.4.7.1; właściwy zakres: Znak LQ to kwadrat ustawiony na wierzchołku, z czarnymi górnym i dolnym fragmentem oraz białym lub kontrastowym środkiem. Nie jest zwykłą nalepką zagrożenia określonej klasy."
+        },
+        "C": {
+          "text": "To znak ilości ograniczonych LQ określony w ADR 3.4.7",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 3.4.7.1: Znak LQ to kwadrat ustawiony na wierzchołku, z czarnymi górnym i dolnym fragmentem oraz białym lub kontrastowym środkiem. Nie jest zwykłą nalepką zagrożenia określonej klasy."
+        }
+      },
+      "explanation": "Znak LQ to kwadrat ustawiony na wierzchołku, z czarnymi górnym i dolnym fragmentem oraz białym lub kontrastowym środkiem. Nie jest zwykłą nalepką zagrożenia określonej klasy.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0274",
+      "clause": "ADR 2025, 1.10.1.3",
+      "options": {
+        "A": {
+          "text": "Plac powinien być odpowiednio zabezpieczony i oświetlony oraz, gdy to możliwe i właściwe, niedostępny dla osób postronnych",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.10.1.3: ADR wymaga odpowiedniego zabezpieczenia i oświetlenia takich miejsc tymczasowego składowania, a w miarę możliwości i potrzeby ograniczenia publicznego dostępu."
+        },
+        "B": {
+          "text": "Wystarczy pozostawić niebezpieczne towary na otwartym placu",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 1.10.1.3; właściwy zakres: ADR wymaga odpowiedniego zabezpieczenia i oświetlenia takich miejsc tymczasowego składowania, a w miarę możliwości i potrzeby ograniczenia publicznego dostępu."
+        },
+        "C": {
+          "text": "Ochrona terminalu nie ma związku z ADR",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 1.10.1.3; właściwy zakres: ADR wymaga odpowiedniego zabezpieczenia i oświetlenia takich miejsc tymczasowego składowania, a w miarę możliwości i potrzeby ograniczenia publicznego dostępu."
+        }
+      },
+      "explanation": "ADR wymaga odpowiedniego zabezpieczenia i oświetlenia takich miejsc tymczasowego składowania, a w miarę możliwości i potrzeby ograniczenia publicznego dostępu.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0275",
+      "clause": "ADR 2025, 1.10.2.3",
+      "options": {
+        "A": {
+          "text": "Szkolenie odbywa się tylko po incydencie",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 1.10.2.3; właściwy zakres: Szkolenie dotyczące ochrony powinno zostać przeprowadzone lub zweryfikowane przy objęciu stanowiska, a następnie okresowo uzupełniane."
+        },
+        "B": {
+          "text": "Przy zatrudnieniu należy zapewnić lub zweryfikować szkolenie i okresowo je uzupełniać",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 1.10.2.3: Szkolenie dotyczące ochrony powinno zostać przeprowadzone lub zweryfikowane przy objęciu stanowiska, a następnie okresowo uzupełniane."
+        },
+        "C": {
+          "text": "Zawsze wystarcza samo prawo jazdy",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 1.10.2.3; właściwy zakres: Szkolenie dotyczące ochrony powinno zostać przeprowadzone lub zweryfikowane przy objęciu stanowiska, a następnie okresowo uzupełniane."
+        }
+      },
+      "explanation": "Szkolenie dotyczące ochrony powinno zostać przeprowadzone lub zweryfikowane przy objęciu stanowiska, a następnie okresowo uzupełniane.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0276",
+      "clause": "ADR 2025, 5.2.1.8.3",
+      "options": {
+        "A": {
+          "text": "Towar wyłącznie klasy 8",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 5.2.1.8.3; właściwy zakres: Znak z martwą rybą i drzewem wskazuje zagrożenie dla środowiska; nie zastępuje innych wymaganych nalepek i oznakowania."
+        },
+        "B": {
+          "text": "Wyłącznie zakaz przejazdu przez tunele",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 5.2.1.8.3; właściwy zakres: Znak z martwą rybą i drzewem wskazuje zagrożenie dla środowiska; nie zastępuje innych wymaganych nalepek i oznakowania."
+        },
+        "C": {
+          "text": "Materiał zagrażający środowisku",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.2.1.8.3: Znak z martwą rybą i drzewem wskazuje zagrożenie dla środowiska; nie zastępuje innych wymaganych nalepek i oznakowania."
+        }
+      },
+      "explanation": "Znak z martwą rybą i drzewem wskazuje zagrożenie dla środowiska; nie zastępuje innych wymaganych nalepek i oznakowania.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0277",
+      "clause": "ADR 2025, 5.4.1.1.7",
+      "options": {
+        "A": {
+          "text": "Wyłącznie numer telefonu odbiorcy",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 5.4.1.1.7; właściwy zakres: ADR 5.4.1.1.7 wymaga wpisu wskazującego przewóz zgodnie z 1.1.4.2.1, kiedy korzysta się z tego przepisu."
+        },
+        "B": {
+          "text": "Wskazanie, że przewóz odbywa się zgodnie z 1.1.4.2.1",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.4.1.1.7: ADR 5.4.1.1.7 wymaga wpisu wskazującego przewóz zgodnie z 1.1.4.2.1, kiedy korzysta się z tego przepisu."
+        },
+        "C": {
+          "text": "Oświadczenie, że cały odcinek drogowy jest zawsze zwolniony z ADR",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 5.4.1.1.7; właściwy zakres: ADR 5.4.1.1.7 wymaga wpisu wskazującego przewóz zgodnie z 1.1.4.2.1, kiedy korzysta się z tego przepisu."
+        }
+      },
+      "explanation": "ADR 5.4.1.1.7 wymaga wpisu wskazującego przewóz zgodnie z 1.1.4.2.1, kiedy korzysta się z tego przepisu.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0278",
+      "clause": "ADR 2025, 5.4.2",
+      "options": {
+        "A": {
+          "text": "Osoby odpowiedzialne za zapakowanie kontenera",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 5.4.2: ADR 5.4.2 przewiduje przekazanie przewoźnikowi morskiemu świadectwa pakowania kontenera przez osoby odpowiedzialne za jego zapakowanie."
+        },
+        "B": {
+          "text": "Każdy przypadkowy kierowca niezwiązany z pakowaniem",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 5.4.2; właściwy zakres: ADR 5.4.2 przewiduje przekazanie przewoźnikowi morskiemu świadectwa pakowania kontenera przez osoby odpowiedzialne za jego zapakowanie."
+        },
+        "C": {
+          "text": "Wyłącznie odbiorca po zakończeniu przewozu morskiego",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 5.4.2; właściwy zakres: ADR 5.4.2 przewiduje przekazanie przewoźnikowi morskiemu świadectwa pakowania kontenera przez osoby odpowiedzialne za jego zapakowanie."
+        }
+      },
+      "explanation": "ADR 5.4.2 przewiduje przekazanie przewoźnikowi morskiemu świadectwa pakowania kontenera przez osoby odpowiedzialne za jego zapakowanie.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "wymaga specjalisty: warunki, wyjątki lub pozycja tabeli A",
+      "result": "wymaga specjalisty",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0279",
+      "clause": "ADR 2025, 8.3.5",
+      "options": {
+        "A": {
+          "text": "Tak, bo zakaz dotyczy wyłącznie tradycyjnego tytoniu",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź A wymaga odrzucenia w świetle wymogu ADR 2025, 8.3.5; właściwy zakres: Zakaz palenia przy czynnościach ładunkowych w pobliżu i wewnątrz pojazdów obejmuje także elektroniczne papierosy."
+        },
+        "B": {
+          "text": "Nie, zakaz palenia obejmuje również papierosy elektroniczne i podobne urządzenia",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 8.3.5: Zakaz palenia przy czynnościach ładunkowych w pobliżu i wewnątrz pojazdów obejmuje także elektroniczne papierosy."
+        },
+        "C": {
+          "text": "Tak, jeśli pojazd ma wyłączony silnik",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 8.3.5; właściwy zakres: Zakaz palenia przy czynnościach ładunkowych w pobliżu i wewnątrz pojazdów obejmuje także elektroniczne papierosy."
+        }
+      },
+      "explanation": "Zakaz palenia przy czynnościach ładunkowych w pobliżu i wewnątrz pojazdów obejmuje także elektroniczne papierosy.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    },
+    {
+      "id": "ADR-B-0280",
+      "clause": "ADR 2025, 8.3.5",
+      "options": {
+        "A": {
+          "text": "Palenie jest zabronione podczas czynności manipulacyjnych w pobliżu pojazdu i wewnątrz pojazdu",
+          "opinion": "wstępnie zgodne z opisaną normą",
+          "reason": "Odpowiedź jest zgodna z objaśnieniem i wskazanym ustępem ADR 2025, 8.3.5: ADR zabrania palenia podczas czynności manipulacyjnych zarówno w pojeździe, jak i w jego pobliżu."
+        },
+        "B": {
+          "text": "Palenie jest zawsze dozwolone po wyłączeniu zapłonu",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź B wymaga odrzucenia w świetle wymogu ADR 2025, 8.3.5; właściwy zakres: ADR zabrania palenia podczas czynności manipulacyjnych zarówno w pojeździe, jak i w jego pobliżu."
+        },
+        "C": {
+          "text": "Zakaz dotyczy jedynie tuneli kategorii E",
+          "opinion": "wstępnie niezgodne z wymaganiem w scenariuszu",
+          "reason": "Odpowiedź C wymaga odrzucenia w świetle wymogu ADR 2025, 8.3.5; właściwy zakres: ADR zabrania palenia podczas czynności manipulacyjnych zarówno w pojeździe, jak i w jego pobliżu."
+        }
+      },
+      "explanation": "ADR zabrania palenia podczas czynności manipulacyjnych zarówno w pojeździe, jak i w jego pobliżu.",
+      "explanation_check": "wstępna analiza spójności z przywołanym ustępem, nie końcowa kontrola urzędowego tekstu",
+      "conditions_check": "nie wykryto sprzeczności znaczeniowej; pełen dosłowny odczyt urzędowy pozostaje otwarty",
+      "result": "wstępnie zgodne, bez formalnej literalnej certyfikacji",
+      "verified": false
+    }
+  ]
+}
