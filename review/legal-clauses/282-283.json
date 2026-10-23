@@ -1,0 +1,97 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0282",
+      "order": 282,
+      "clause": "ADR 2025, 8.1.4.2",
+      "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant „Nie jest wymagana żadna gaśnica” pomija obowiązek określony w ADR 2025, 8.1.4.2; niezależna kontrola jeszcze wymagana."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wstępna interpretacja ADR 2025, 8.1.4.2: Przy zwolnieniu ilościowym ADR 1.1.3.6 nadal wymaga co najmniej jednej gaśnicy 2 kg proszku lub środka o równoważnej skuteczności."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant „Wyłącznie wiadro z wodą” pomija obowiązek określony w ADR 2025, 8.1.4.2; niezależna kontrola jeszcze wymagana."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Wyłączenie i wymagania gaśnic zależą od przewozu oraz okresowej kontroli; literalne porównanie urzędowego polskiego tekstu i sprostowania pending.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0282",
+        "module_id": "ADR-B-08",
+        "stem": "Drogowy przewóz ADR korzysta z wyłączenia 1.1.3.6, a jednostka transportowa nie ma żadnej gaśnicy. Jakie jest minimalne wyposażenie według ADR 8.1.4.2?",
+        "options": {
+          "A": "Nie jest wymagana żadna gaśnica",
+          "B": "Co najmniej jedna przenośna gaśnica o minimalnej pojemności 2 kg proszku (lub równoważnej)",
+          "C": "Wyłącznie wiadro z wodą"
+        },
+        "correct_option": "B",
+        "explanation": "Przy zwolnieniu ilościowym ADR 1.1.3.6 nadal wymaga co najmniej jednej gaśnicy 2 kg proszku lub środka o równoważnej skuteczności.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0283",
+      "order": 283,
+      "clause": "ADR 2025, 8.1.4.4",
+      "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wstępna interpretacja ADR 2025, 8.1.4.4: Gaśnice wymagają okresowej kontroli i oznaczeń pozwalających ustalić miesiąc i rok następnego badania lub maksymalną dopuszczalną datę użytkowania."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant „Uznać ją za dopuszczoną bez możliwości oceny terminu kontroli” pomija obowiązek określony w ADR 2025, 8.1.4.4; niezależna kontrola jeszcze wymagana."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant „Wystarczy nakleić dowolną datę bez kontroli urządzenia” pomija obowiązek określony w ADR 2025, 8.1.4.4; niezależna kontrola jeszcze wymagana."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Wyłączenie i wymagania gaśnic zależą od przewozu oraz okresowej kontroli; literalne porównanie urzędowego polskiego tekstu i sprostowania pending.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0283",
+        "module_id": "ADR-B-08",
+        "stem": "Wymagana gaśnica w pojeździe ADR ma brakujące oznaczenie następnego terminu kontroli. Co należy zrobić?",
+        "options": {
+          "A": "Zapewnić gaśnicę spełniającą obowiązek kontroli i oznakowania terminu kolejnego badania",
+          "B": "Uznać ją za dopuszczoną bez możliwości oceny terminu kontroli",
+          "C": "Wystarczy nakleić dowolną datę bez kontroli urządzenia"
+        },
+        "correct_option": "A",
+        "explanation": "Gaśnice wymagają okresowej kontroli i oznaczeń pozwalających ustalić miesiąc i rok następnego badania lub maksymalną dopuszczalną datę użytkowania.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
