@@ -1,0 +1,732 @@
+{
+  "date": "2026-10-23",
+  "range": "ADR-B-0145..ADR-B-0160",
+  "scope": "Provisional option-level editorial review based on prior ADR clauses; official Polish text Dz.U. 642 with correction 1575 and M364 individual applicability, and independent expert endorsement remain pending",
+  "records": [
+    {
+      "id": "ADR-B-0145",
+      "sequence": 145,
+      "snapshot": {
+        "stem": "Gdzie podczas przewozu powinno znajdować się wymagane świadectwo dopuszczenia samochodu ciężarowego typu FL (pojazdu silnikowego, nie naczepy), zgodnie z ogólną zasadą ADR?",
+        "options": {
+          "A": "Wyłącznie u odbiorcy",
+          "B": "W kabinie jednostki transportowej z innymi wymaganymi dokumentami",
+          "C": "Tylko w archiwum szkolenia"
+        },
+        "correct_option": "B",
+        "explanation": "ADR 8.1.2.2(a) przewiduje świadectwo dopuszczenia samochodu ciężarowego w kabinie. Umowa M364 wśród swoich sygnatariuszy daje szczególny wyjątek dotyczący świadectwa naczepy — nie jest ogólnym zwolnieniem dla pojazdu silnikowego.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.2(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "M364",
+            "reference": "Umowa wielostronna M364, pkt 1 (warunkowy wyjątek dla naczepy do 31.12.2026)",
+            "url": "https://unece.org/transport/road-transport/adr-multilateral-agreements"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Odbiorca nie jest miejscem przechowywania świadectwa samochodu ciężarowego FL podczas jazdy."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wymagane świadectwo pojazdu silnikowego FL jest co do zasady w kabinie."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Archiwum szkolenia nie zastępuje wymaganego dokumentu pojazdu."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Wyjątek M364 dotyczy odpowiednio świadectwa naczepy u sygnatariuszy, nie automatycznie samochodu FL.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0146",
+      "sequence": 146,
+      "snapshot": {
+        "stem": "Czy w kabinie trzeba mieć zaświadczenie o przeszkoleniu kierowcy ADR, gdy jest ono wymagane według 8.2.1?",
+        "options": {
+          "A": "Nie, wystarczy ustne oświadczenie kierowcy",
+          "B": "Tylko przy przewozie poza Polską",
+          "C": "Tak, zgodnie z obowiązkiem dokumentacyjnym 8.1.2.2"
+        },
+        "correct_option": "C",
+        "explanation": "Gdy ADR wymaga zaświadczenia kierowcy, powinno ono znajdować się w kabinie podczas przewozu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.2(b); 8.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ustne oświadczenie nie zastępuje wymaganego zaświadczenia kierowcy."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wymóg nie ogranicza się wyłącznie do tras zagranicznych."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "W kabinie powinno być odpowiednie zaświadczenie, gdy jest wymagane."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Upewnić się, że kierowca ma specjalizację i ważny dokument.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0147",
+      "sequence": 147,
+      "snapshot": {
+        "stem": "Do pracy przy przewozie ADR skierowano ciągnik samochodowy z naczepą. Jak ADR traktuje taki zestaw przy wymaganiach odnoszących się do jednostki transportowej?",
+        "options": {
+          "A": "Jako jednostkę transportową obejmującą pojazd silnikowy wraz z przyczepą lub naczepą",
+          "B": "Jako dwie zawsze niezależne jednostki transportowe do obliczeń ilościowych",
+          "C": "Jako jednostkę transportową wyłącznie wtedy, gdy naczepa jest pusta"
+        },
+        "correct_option": "A",
+        "explanation": "Jednostką transportową może być pojazd silnikowy bez przyczepy albo zestaw z przyczepą lub naczepą. Ma to znaczenie np. przy obliczaniu ilości na jednostkę.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.2.1, definicja transport unit",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zestaw pojazdu silnikowego z naczepą tworzy jednostkę transportową."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "To nie są automatycznie dwie odrębne jednostki do ilości ADR."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pustość naczepy nie jest kryterium definicji."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Definicja wpływa m.in. na ilość liczoną na jednostkę transportową.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0148",
+      "sequence": 148,
+      "snapshot": {
+        "stem": "Kierowca ma aktualne zaświadczenie ADR, ale nie ma prawa jazdy odpowiedniej kategorii na prowadzony zestaw. Co z tego wynika?",
+        "options": {
+          "A": "Wystarczy zaświadczenie ADR, gdy nie ma załadunku lub rozładunku",
+          "B": "Zaświadczenie ADR nie zastępuje wymaganego prawa jazdy; nie uprawnia samo do prowadzenia zestawu",
+          "C": "Zaświadczenie ADR zastępuje każdą kategorię prawa jazdy"
+        },
+        "correct_option": "B",
+        "explanation": "Szkolenie ADR potwierdza kompetencje do odpowiednich przewozów towarów niebezpiecznych. Uprawnienia do kierowania pojazdem są odrębne.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.1; prawo krajowe o uprawnieniach do kierowania",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "ADR nie zastępuje krajowego uprawnienia do kierowania pojazdem."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Bez odpowiedniej kategorii prawa jazdy nie wolno prowadzić zestawu."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Brak załadunku lub rozładunku nie legalizuje prowadzenia bez prawa jazdy."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Szkolenie ADR i prawo jazdy to niezależne uprawnienia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0149",
+      "sequence": 149,
+      "snapshot": {
+        "stem": "Jak sprawdza się limit ilości ograniczonej (LQ) dla konkretnego numeru UN?",
+        "options": {
+          "A": "Według jednej, identycznej dla wszystkich towarów wartości 1000 litrów",
+          "B": "Wyłącznie według masy całego samochodu, bez znaczenia rodzaju opakowania",
+          "C": "Według limitu na opakowanie wewnętrzne wskazanego w kolumnie 7a tabeli A i warunków działu 3.4"
+        },
+        "correct_option": "C",
+        "explanation": "Dla LQ nie wystarczy ogólne stwierdzenie, że ładunek jest mały. Limit zależy od pozycji UN oraz warunków pakowania i oznakowania.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.2 tabela A kol. (7a); 3.4.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie istnieje uniwersalny limit 1000 litrów dla każdego LQ."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "DMC jednostki nie jest wyłącznym miernikiem warunków LQ."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kolumna 7a i warunki 3.4 określają limit na opakowanie wewnętrzne."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Sprawdzić opakowanie zewnętrzne, oznakowanie i inne warunki LQ.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0150",
+      "sequence": 150,
+      "snapshot": {
+        "stem": "Co odróżnia zagrożenie wybuchem masowym w podklasie 1.1 od podklasy 1.4?",
+        "options": {
+          "A": "Podklasa 1.4 oznacza niewielkie zagrożenie wybuchem ograniczone zasadniczo do opakowania, a 1.1 zagrożenie wybuchem masowym",
+          "B": "Podklasa 1.4 oznacza większe zagrożenie wybuchem masowym niż 1.1",
+          "C": "Podklasa 1.1 dotyczy wyłącznie materiałów żrących"
+        },
+        "correct_option": "A",
+        "explanation": "Podklasy klasy 1 rozróżniają rodzaj i skalę zagrożenia. 1.1 oznacza wybuch masowy; 1.4 dotyczy zagrożenia zwykle ograniczonego do opakowania.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.1.1.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "1.1 oznacza zagrożenie wybuchem masowym, a 1.4 zasadniczo mniejsze zagrożenie."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "1.4 nie oznacza większego wybuchu masowego niż 1.1."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 1 nie jest klasą materiałów żrących."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Podklasa 1.4 ma własne grupy zgodności, a nie brak zagrożeń.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0151",
+      "sequence": 151,
+      "snapshot": {
+        "stem": "Na przesyłce znajduje się nalepka 2.3. Jakiego podstawowego zagrożenia należy się spodziewać?",
+        "options": {
+          "A": "Wyłącznie niepalnego gazu bez zagrożenia toksycznego",
+          "B": "Działania trującego gazu",
+          "C": "Wyłącznie działania żrącej cieczy klasy 8"
+        },
+        "correct_option": "B",
+        "explanation": "Nalepka 2.3 ostrzega przed gazem trującym. Należy unikać narażenia na gaz i korzystać z właściwych instrukcji i wyposażenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.2.2, wzór nr 2.3; 2.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nalepka 2.3 wskazuje toksyczny gaz, a nie wyłącznie nieszkodliwy gaz."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Prawidłowe podstawowe zagrożenie to toksyczność gazu."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ciecz żrąca klasy 8 nie jest definicją nalepki gazu 2.3."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Dane konkretnych gazów mogą obejmować zagrożenia dodatkowe.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0152",
+      "sequence": 152,
+      "snapshot": {
+        "stem": "Podczas przeładunku cieczy zapalnej klasy 3 ktoś chce zapalić papierosa obok pojazdu. Jaka jest prawidłowa reakcja?",
+        "options": {
+          "A": "Dopuścić palenie, jeżeli ciecz jest w szczelnej beczce",
+          "B": "Dopuścić palenie, gdy na pojeździe jest przynajmniej jedna gaśnica",
+          "C": "Przerwać palenie: źródło zapłonu może zapalić palne pary"
+        },
+        "correct_option": "C",
+        "explanation": "Ciecze zapalne mogą wydzielać palne pary. ADR zabrania palenia podczas czynności ładunkowych, również w pobliżu pojazdu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.3; 8.3.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Szczelna beczka nie zezwala na palenie podczas operacji."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sama gaśnica nie znosi zakazu palenia."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Papieros może zapalić palne pary; palenie podczas manipulacji jest zabronione."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Zakaz obejmuje również e-papierosy w określonych operacjach.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0153",
+      "sequence": 153,
+      "snapshot": {
+        "stem": "Jakie rozróżnienie między klasą 4.1 a 4.3 jest prawidłowe?",
+        "options": {
+          "A": "Klasa 4.1 obejmuje m.in. materiały stałe zapalne, a 4.3 materiały wydzielające palne gazy w kontakcie z wodą",
+          "B": "Klasa 4.1 i 4.3 oznaczają wyłącznie ten sam rodzaj materiałów",
+          "C": "Klasa 4.3 dotyczy wyłącznie gazów pod ciśnieniem"
+        },
+        "correct_option": "A",
+        "explanation": "To różne zagrożenia. W przypadku klasy 4.3 kontakt z wodą może dodatkowo pogorszyć sytuację awaryjną.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.41.1.1; 2.2.43.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "4.1 obejmuje m.in. materiały stałe zapalne, a 4.3 reagujące z wodą wydzieleniem palnego gazu."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie są to dwie nazwy tej samej klasy."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 4.3 nie jest klasą gazów sprężonych."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Wody nie stosować przy nieznanym wycieku klasy 4.3 bez ustalonej procedury.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0154",
+      "sequence": 154,
+      "snapshot": {
+        "stem": "Dlaczego materiał samonagrzewający się z klasy 4.2 wymaga zachowania ostrożności podczas przewozu?",
+        "options": {
+          "A": "Może reagować wyłącznie z wodą, ale nigdy z powietrzem",
+          "B": "Może nagrzewać się bez zewnętrznego źródła ognia i w pewnych warunkach doprowadzić do zapalenia",
+          "C": "Jest bezpieczny dopóki nie zostanie celowo podpalony"
+        },
+        "correct_option": "B",
+        "explanation": "Materiały klasy 4.2 obejmują m.in. materiały samonagrzewające się. Ich zagrożenie nie zależy wyłącznie od obecności otwartego płomienia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.42.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Samonagrzewające nie są definiowane wyłącznie reakcją z wodą."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Materiały klasy 4.2 mogą nagrzewać się bez bezpośredniego płomienia."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Brak celowego podpalenia nie usuwa zagrożenia."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Obejmuje materiały piroforyczne i samonagrzewające się.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0155",
+      "sequence": 155,
+      "snapshot": {
+        "stem": "Po rozszczelnieniu opakowania klasy 4.3 świadek proponuje polanie wycieku wodą. Jak powinien zareagować kierowca?",
+        "options": {
+          "A": "Zawsze polać wyciek wodą, bo klasa 4.3 oznacza brak reakcji z wodą",
+          "B": "Najpierw sprawdzić reakcję dolewając niewielką ilość wody ręcznie",
+          "C": "Nie dopuszczać do takiego działania bez ustalenia właściwej procedury i decyzji odpowiednich służb"
+        },
+        "correct_option": "C",
+        "explanation": "Niektóre materiały 4.3 w kontakcie z wodą wydzielają palny gaz. Nie wolno improwizować; obowiązują instrukcje i bezpieczeństwo.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.43.1.1; 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zalanie wodą może spowodować wydzielenie palnego gazu."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Próba ręczna wprowadza kierowcę w strefę niebezpieczeństwa."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie improwizować użycia wody; stosować instrukcje i służby."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Każda czynność ratownicza wymaga właściwego zabezpieczenia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0156",
+      "sequence": 156,
+      "snapshot": {
+        "stem": "Czy materiał klasy 5.1 może zwiększać intensywność pożaru innego materiału?",
+        "options": {
+          "A": "Tak, dzięki właściwościom utleniającym może nasilać spalanie",
+          "B": "Nie, klasa 5.1 oznacza materiały obojętne wobec pożaru",
+          "C": "Nie, klasa 5.1 dotyczy wyłącznie materiałów promieniotwórczych"
+        },
+        "correct_option": "A",
+        "explanation": "Materiały utleniające mogą wspomagać spalanie innych substancji. Nie należy utożsamiać klasy 5.1 wyłącznie z własną palnością.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.51.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Utleniacze 5.1 mogą nasilić spalanie innych substancji."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 5.1 nie jest obojętna względem pożaru."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Promieniotwórczość dotyczy klasy 7."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie każdy utleniacz sam jest materiałem palnym.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0157",
+      "sequence": 157,
+      "snapshot": {
+        "stem": "Która odpowiedź właściwie rozróżnia klasy 5.1 i 5.2?",
+        "options": {
+          "A": "Obie klasy to wyłącznie oznaczenia grup pakowania, bez różnicy zagrożeń",
+          "B": "Klasa 5.1 dotyczy materiałów utleniających, a klasa 5.2 nadtlenków organicznych",
+          "C": "Klasa 5.1 obejmuje gazy trujące, a 5.2 materiały zakaźne"
+        },
+        "correct_option": "B",
+        "explanation": "Klasy 5.1 i 5.2 mają odrębne definicje i wymagania. Nadtlenków organicznych nie należy klasyfikować tylko jako typowych materiałów 5.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.51; 2.2.52",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasy te mają różne definicje, nie są jedynie grupami pakowania."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "5.1 materiały utleniające, 5.2 nadtlenki organiczne."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Toksyczne gazy i materiały zakaźne są innymi zagrożeniami."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nadtlenki organiczne mogą mieć wymagania dotyczące temperatury.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0158",
+      "sequence": 158,
+      "snapshot": {
+        "stem": "Co należy rozpoznać po nalepce ostrzegawczej 6.1?",
+        "options": {
+          "A": "Wyłącznie zagrożenie infekcją przypisane klasie 6.2",
+          "B": "Wyłącznie działanie żrące przypisane klasie 8",
+          "C": "Zagrożenie związane z materiałem trującym"
+        },
+        "correct_option": "C",
+        "explanation": "Nalepka 6.1 dotyczy materiałów trujących. Materiały zakaźne należą do innej klasy, 6.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.2.2 wzór nr 6.1; 2.2.61.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nalepka 6.1 nie oznacza zasadniczo klasy zakaźnej 6.2."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Materiał żrący klasy 8 nie jest definicją 6.1."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "6.1 to zagrożenie toksyczne."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Sprawdzić dodatkowe nalepki dla konkretnego numeru UN.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0159",
+      "sequence": 159,
+      "snapshot": {
+        "stem": "Jaka różnica między klasą 6.2 a 6.1 jest prawidłowa?",
+        "options": {
+          "A": "Klasa 6.2 dotyczy materiałów zakaźnych, a 6.1 materiałów trujących",
+          "B": "Klasa 6.2 dotyczy wyłącznie gazów niepalnych",
+          "C": "Klasa 6.1 i 6.2 to ten sam kod tunelowy, nie klasy"
+        },
+        "correct_option": "A",
+        "explanation": "Materiały zakaźne mogą zawierać czynniki chorobotwórcze; materiały trujące klasy 6.1 mają inne kryteria klasyfikacji.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.62.1.1; 2.2.61.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "6.2 obejmuje zakaźne, 6.1 trujące."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "6.2 nie jest klasą samych gazów niepalnych."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "6.1 i 6.2 są rzeczywistymi klasami, nie kodami tuneli."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Przepisy klasyfikacji różnią się dla zagrożeń biologicznych i chemicznych.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0160",
+      "sequence": 160,
+      "snapshot": {
+        "stem": "Kierowca ukończył wyłącznie kurs podstawowy ADR. Czy uprawnia go to automatycznie do każdego przewozu materiałów promieniotwórczych klasy 7?",
+        "options": {
+          "A": "Tak, pod warunkiem że pojazd ma pomarańczowe tablice",
+          "B": "Nie, dla części przewozów klasy 7 wymagane jest dodatkowe przeszkolenie specjalistyczne",
+          "C": "Tak, ponieważ klasa 7 zawsze mieści się w podstawowym zakresie bez żadnych wyjątków"
+        },
+        "correct_option": "B",
+        "explanation": "Samo szkolenie podstawowe nie zawsze wystarcza do przewozów klasy 7. ADR 8.2.1.4 wymaga co do zasady specjalistycznego przeszkolenia dla tej klasy, ale konkretne przewozy mogą podlegać wyjątkom, np. S12 z 8.5, przy spełnieniu warunków. Nie należy twierdzić, że każda przesyłka klasy 7 zawsze wymaga takiej samej specjalizacji.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.1.4; 8.5 przepis szczególny S12",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pomarańczowe tablice nie zastępują właściwego szkolenia."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kurs podstawowy nie daje automatycznie każdego uprawnienia do klasy 7."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie ma automatycznego zwolnienia z wymagań specjalistycznych dla całej klasy 7."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Sprawdzić specyficzne wyjątki szkoleniowe S12 i rodzaj przewozu.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    }
+  ]
+}
