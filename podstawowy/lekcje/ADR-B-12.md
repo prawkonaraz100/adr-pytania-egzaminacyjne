@@ -53,3 +53,7 @@ Powiązane pytania: `ADR-B-0034`–`0036`, `0066`–`0067`, `0120`–`0122`.
 ## Zadanie sytuacyjne ADR-B-0249 (etap 2)
 
 Uczestnik rozwiązuje przypadek z pytania ADR-B-0249, wskazuje podstawę, warunki i typowy błąd. Wynik testu nie jest zatwierdzeniem praktyki; materiał do ostatecznej kontroli polskiego ADR 2025 i sprostowania.
+
+## Przypadki ochrony 0274–0275 (szkic)
+
+Odpowiednie zabezpieczenie, oświetlenie i ograniczenie publicznego dostępu na terminalu tymczasowego składowania (1.10.1.3) oraz szkolenie z ochrony przy rozpoczęciu pracy i regularne uzupełnianie (1.10.2.3). Dla każdego przypadku kursant wskazuje warunki stosowania; wymagana weryfikacja z Dz.U. 642 i sprostowaniem 1575.

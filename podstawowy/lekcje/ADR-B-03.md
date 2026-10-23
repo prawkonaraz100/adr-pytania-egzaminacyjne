@@ -50,3 +50,7 @@ Pytania: `ADR-B-0007`–`0009`, `0045`–`0046`, `0100`–`0101`, `0129`.
 ## Scenariusz etapu 2 — seria ADR-B-0241–0246
 
 Nowe zadania 0241–0242: wyciek i odpływ do kanalizacji. Kursant analizuje decyzję, okoliczności zastosowania przepisu i wyjątki, a następnie uzasadnia wybór bez zgadywania litery. Wszystkie rekordy pozostają `needs_review`. Lekcja wymaga fachowej kontroli polskiego ADR 2025 (Dz.U. 642, sprostowanie 1575) i niezależnej recenzji; żadne zadanie teoretyczne nie zalicza ćwiczeń praktycznych.
+
+## Znak zagrożenia środowiskowego 0276 (szkic)
+
+Opis słowny: czarne drzewo i martwa ryba wewnątrz rombu. Znak ADR 5.2.1.8.3 nie zastępuje innych obowiązkowych oznaczeń. Zadanie tekstowe do czasu kontroli ilustracji i prawa do niej. Wymagana recenzja polskiego Dz.U. 642 i sprostowania 1575.
