@@ -1,0 +1,97 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0312",
+      "order": 312,
+      "clause": "ADR 2025, 1.2.1",
+      "source_2025_comparison_url": "https://www.idgca.org/doc/ADR_2025_vol_1_e.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Opcja „Wyłącznie przejazd po drodze publicznej” nie spełnia warunków określonych w ADR 2025, 1.2.1; pełne polskie zestawienie pending."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 2025 ADR 2025, 1.2.1: Definicja przewozu obejmuje zmianę miejsca towaru oraz niezbędne postoje i czasowe przebywanie w pojeździe związane z przewozem."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opcja „Wyłącznie załadunek w fabryce” nie spełnia warunków określonych w ADR 2025, 1.2.1; pełne polskie zestawienie pending."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Przy 1.1.3.1(a)(i) należy sprawdzić indywidualne ilości i rodzaj opakowania; pełne sprawdzenie Dz.U. i sprostowania pending.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0312",
+        "module_id": "ADR-B-01",
+        "stem": "Co obejmuje definicja „przewozu” w ADR 1.2.1, oprócz przemieszczania pojazdu z towarem niebezpiecznym?",
+        "options": {
+          "A": "Wyłącznie przejazd po drodze publicznej",
+          "B": "Również postoje konieczne ze względu na warunki transportu oraz przebywanie towarów w pojazdach przed, podczas i po przemieszczeniu w odpowiednich warunkach",
+          "C": "Wyłącznie załadunek w fabryce"
+        },
+        "correct_option": "B",
+        "explanation": "Definicja przewozu obejmuje zmianę miejsca towaru oraz niezbędne postoje i czasowe przebywanie w pojeździe związane z przewozem.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0313",
+      "order": 313,
+      "clause": "ADR 2025, 1.1.3.1(a)(i)",
+      "source_2025_comparison_url": "https://www.idgca.org/doc/ADR_2025_vol_1_e.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "ADR 2025 ADR 2025, 1.1.3.1(a)(i): Wyłączenie dla osób prywatnych i produktów w opakowaniach detalicznych na potrzeby osobiste lub domowe wymaga zabezpieczenia przed wyciekiem; dla części cieczy łatwopalnych dochodzą limity."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Opcja „Sama deklaracja, że towar jest tani” nie spełnia warunków określonych w ADR 2025, 1.1.3.1(a)(i); pełne polskie zestawienie pending."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opcja „Zgoda każdego pasażera bez względu na zabezpieczenie” nie spełnia warunków określonych w ADR 2025, 1.1.3.1(a)(i); pełne polskie zestawienie pending."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Przy 1.1.3.1(a)(i) należy sprawdzić indywidualne ilości i rodzaj opakowania; pełne sprawdzenie Dz.U. i sprostowania pending.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0313",
+        "module_id": "ADR-B-01",
+        "stem": "Osoba prywatna przewozi niebezpieczny produkt w opakowaniu detalicznym do własnego użytku domowego. Jaki warunek jest istotny dla wyłączenia z ADR 1.1.3.1(a)(i)?",
+        "options": {
+          "A": "Zapewnienie środków zapobiegających wyciekowi zawartości w normalnych warunkach przewozu",
+          "B": "Sama deklaracja, że towar jest tani",
+          "C": "Zgoda każdego pasażera bez względu na zabezpieczenie"
+        },
+        "correct_option": "A",
+        "explanation": "Wyłączenie dla osób prywatnych i produktów w opakowaniach detalicznych na potrzeby osobiste lub domowe wymaga zabezpieczenia przed wyciekiem; dla części cieczy łatwopalnych dochodzą limity.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.1(a)(i)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
