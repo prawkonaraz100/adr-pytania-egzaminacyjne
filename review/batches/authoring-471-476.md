@@ -1,0 +1,3 @@
+# ADR-B-04 — zapobieganie zdarzeniom, uzupełnienie 0471–0476
+
+Świeży main=470, brak otwartych PR. Dotychczas 37 pytań ADR-B-04 koncentrujących się na 8.3.3–8.3.7 i 8.4.1. Wskazano luki: pasażerowie 8.3.1, umiejętność użycia gaśnic 8.3.2, połączenia ABS 8.3.8, prewencja kontroli przed załadunkiem i rozładunkiem 7.5.1.2–7.5.1.3. Dodano 6 pytań i 18 indywidualnych analiz A/B/C, rejestr sekwencyjny i aktualizację istniejącej mapy. Podstawy prawne: ADR 2025 UNECE EN, Dz.U. 2025 poz. 642, sprostowanie 1575. Pełna kontrola polskiego tekstu urzędowego i specjalisty ADR nadal nieukończone; wszystkie needs_review. Quality Gate oczekuje.
