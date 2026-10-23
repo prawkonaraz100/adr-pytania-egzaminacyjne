@@ -1,0 +1,3 @@
+# Raport rozbudowy lekcji ADR-B-02
+
+23.10.2026. Dział b urzędowego programu początkowego kursu podstawowego: 2 × 45 min. Dopracowano 14 kompetencji z `podstawowy/kompetencje.json`, dydaktykę rozpoznawania nalepek, zagrożeń głównych/dodatkowych, przykłady fikcyjne, kryteria oceny, rozróżnienie podstawowego rozpoznania od kursów specjalistycznych. Wszystkie 14 celów ma już min. 3 pytania robocze, więc brak bezwarunkowej luki zerowej; nowe pytania wymagałyby sprawdzenia niepokrytych podpunktów, a nie powielania etykiet. Nie dopisano nowych pytań i nie zmieniono statusów. Źródła: Dz.U. 2021 poz. 2150 zał.1 b oraz ADR 2025 Dz.U. 642 ze sprostowaniem 1575. Nie uzyskano indywidualnej ekspertyzy prawnej. CI do kontroli.
