@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOT_FIELDS = ("id","module_id","stem","options","correct_option","explanation","sources","legal_basis_version","image")
 
 
-def validate(root=ROOT, expected=90):
+def validate(root=ROOT, expected=120):
     errors, processed = [], []
     question_file = root/"podstawowy"/"questions.jsonl"
     questions = [json.loads(s) for s in question_file.read_text(encoding="utf-8").splitlines() if s.strip()]
