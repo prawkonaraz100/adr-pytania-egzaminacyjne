@@ -39,3 +39,13 @@ Powiązane pytania: `ADR-B-0034`–`0036`, `0066`–`0067`, `0120`–`0122`.
 - [Ramowy program kursu](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf), lit. l.
 
 **Status:** needs_review; plan ochrony, szczególne przypadki 1.10.4 i zagadnienia postoju wymagają pełnej kontroli przed publikacją.
+
+## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
+
+**Sytuacja:** Po ładunek zgłasza się nowy podwykonawca, którego tożsamości nie potwierdzono.
+
+**Ćwiczenie:** Wyjaśnij konieczność właściwego ustalenia tożsamości przewoźnika. Kursant wyjaśnia samodzielnie warunki i ograniczenia, zamiast zapamiętywać literę odpowiedzi.
+
+**Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
+
+**Podstawa do weryfikacji:** ADR 1.10.1.2; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
