@@ -89,3 +89,55 @@ Dane poszczególnych wariantów oraz wyjaśnień: `review/batches/041-080-clause
 | ADR-B-0079 | 7.5.7.1 nie wolno nadmiernie naprężać pasów niszczących opakowania | wstępnie zgodne, pełne wyjątki do specjalisty |
 
 Bank i klucze bez zmian, wszystkie 324 needs_review, zero verified, eksport BLOCKED.
+
+
+## Aneks 23.10.2026 — źródła alternatywne ECE/TRANS/352
+
+Wydanie UNECE ADR 2025 zidentyfikowano jako **ECE/TRANS/352** ([tom I](https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf), [tom II](https://unece.org/sites/default/files/2025-01/2412010_E_ECE_TRANS_352_Vol.II_WEB.pdf)). Mimo poprawnego rozpoznania dokumentów ich bezpośredni odczyt w narzędziu zakończył się HTTP 403, zatem **żadne pytanie nie zostało oznaczone jako «sprawdzone wg UNECE»**. Pełny urzędowy [Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642) pozostaje niedostępny do ekstrakcji; natomiast [sprostowanie 1575](https://eli.gov.pl/api/acts/DU/2025/1575/text.pdf) zostało faktycznie odczytane i sprawdzone pod kątem zakresu zmian.
+
+Jako źródło zastępcze niezależnie porównano wybrane normy w dostępnej **nieautentycznej reprodukcji niderlandzkiej ADR 2025**: 0046, 0048, 0068, 0069, 0070. W 0048 strona przywołuje także odstępstwo krajowe, którego **nie wolno automatycznie przenosić na Polskę**. Pozostałych 35 pytań nie zaliczono jako źródłowo potwierdzone. Każde z 40 ma zachowane A/B/C, tekst wyjaśnienia i status wyjątku w `review/batches/041-080-source-crosscheck-20261023.json`.
+
+| ID | Przepis w banku | Rzeczywiste źródło | Wynik |
+|---|---|---|---|
+| ADR-B-0041 | ADR 2025, 1.3.2.4 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0042 | ADR 2025, 2.2.2.1.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0043 | ADR 2025, 2.2.62.1.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0044 | ADR 2025, 2.2.51.1.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0045 | ADR 2025, 5.2.1.8 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0046 | ADR 2025, 5.4.1.1.1 (a); 5.4.1.1.3.1 | reprodukcja ADR 2025 NL | wstępnie zgodne znaczeniowo |
+| ADR-B-0047 | ADR 2025, 8.3.6 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0048 | ADR 2025, 8.3.3 | reprodukcja ADR 2025 NL | wstępnie zgodne znaczeniowo |
+| ADR-B-0049 | ADR 2025, 5.4.3.3 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0050 | ADR 2025, 5.4.3.2 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0051 | ADR 2025, 5.3.2.3.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0052 | ADR 2025, 5.3.2.2.2 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0053 | ADR 2025, 5.3.2.3.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0054 | ADR 2025, 1.4.3.1.1 (b) | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0055 | ADR 2025, 1.4.2.1.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0056 | ADR 2025, 8.1.5.2 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0057 | ADR 2025, 8.1.5.2 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0058 | ADR 2025, 7.5.1.5 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0059 | ADR 2025, 7.5.7.2 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0060 | ADR 2025, 7.5.7.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0061 | ADR 2025, 5.4.1.1.7 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0062 | ADR 2025, 1.1.4.2 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0063 | ADR 2025, 8.6.3.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0064 | ADR 2025, 8.6.3.2–8.6.3.3 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0065 | ADR 2025, 8.6.3.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0066 | ADR 2025, 1.10.1.3 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0067 | ADR 2025, 1.10.1.4 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0068 | ADR 2025, 5.4.1.1.1 (h) | reprodukcja ADR 2025 NL | wstępnie zgodne znaczeniowo |
+| ADR-B-0069 | ADR 2025, 5.4.1.1.1 (e) | reprodukcja ADR 2025 NL | wstępnie zgodne znaczeniowo |
+| ADR-B-0070 | ADR 2025, 5.4.1.1.1 (f) | reprodukcja ADR 2025 NL | wstępnie zgodne znaczeniowo |
+| ADR-B-0071 | ADR 2025, 8.1.4.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0072 | ADR 2025, 8.1.4.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0073 | ADR 2025, 8.1.4.2 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0074 | ADR 2025, 8.1.4.4; 8.1.4.5 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0075 | ADR 2025, 8.1.5.2 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0076 | ADR 2025, 8.1.5.2 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0077 | ADR 2025, 8.1.5.3 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0078 | ADR 2025, 7.5.7.2 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0079 | ADR 2025, 7.5.7.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+| ADR-B-0080 | ADR 2025, 7.5.8.1 | brak odczytanego przepisu | wymaga źródłowej kontroli |
+
+0 zatwierdzonych kluczy prawnie, 0 verified, eksport BLOCKED. **Nie jest to ukończenie literalnej weryfikacji z UNECE/Dz.U.**
