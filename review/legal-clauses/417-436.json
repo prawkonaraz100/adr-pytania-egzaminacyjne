@@ -354,7 +354,7 @@
         "options": {
           "A": "Tak, wystarczy jedna gaśnica",
           "B": "Tak, każdy towar ADR można ładować razem",
-          "C": "Nie, należy sprawdzić tabelę i uwagi 7.5.2.1"
+          "C": "Nie, trzeba sprawdzić tabelę 7.5.2.1"
         },
         "correct_option": "C",
         "explanation": "Klasa 1 wymaga szczególnej uwagi przy wspólnym załadunku z innymi klasami; decyduje tabela 7.5.2.1 i uwagi.",
@@ -400,7 +400,7 @@
         "options": {
           "A": "Możliwość usunięcia wszystkich nalepek",
           "B": "Bezwzględny zakaz przewozu drogowym pojazdem",
-          "C": "Dopuszczenie z uwagi (a) do tabeli 7.5.2.1, jeśli spełniono warunki"
+          "C": "Warunkowe dopuszczenie z uwagi (a)"
         },
         "correct_option": "C",
         "explanation": "Dla materiałów 1.4S tabela przewiduje specjalną możliwość wspólnego załadunku z innymi klasami.",
@@ -431,7 +431,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Oznacza brak materiałów niebezpiecznych”) jest sprzeczny z regułą przywołaną w ADR 2025, 7.5.2.1 tabela w opisanej sytuacji; wymaga niezależnej kontroli."
+          "rationale": "Wariant C („Oznacza dwie odrębne palety przewożone jako jeden ładunek”) jest sprzeczny z regułą przywołaną w ADR 2025, 7.5.2.1 tabela w opisanej sytuacji; wymaga niezależnej kontroli."
         }
       },
       "observed_answer_key": "B",
@@ -445,8 +445,8 @@
         "stem": "Jedna paleta ma nalepkę 4.1 oraz dodatkową 1. Czy kolumna '4.1 + 1' tabeli 7.5.2.1 oznacza dwie niezależne palety?",
         "options": {
           "A": "Tak, zawsze",
-          "B": "Nie, oznacza współwystępowanie obu nalepek na tej samej sztuce przesyłki",
-          "C": "Oznacza brak materiałów niebezpiecznych"
+          "B": "Nie, obie nalepki dotyczą jednej przesyłki",
+          "C": "Oznacza dwie odrębne palety przewożone jako jeden ładunek"
         },
         "correct_option": "B",
         "explanation": "Kolumny z symbolem plus oznaczają wymagane nalepki na tej samej sztuce przesyłki.",
@@ -492,7 +492,7 @@
         "options": {
           "A": "Ładowca może wybrać zasady bez zaglądania do ADR",
           "B": "Wszystkie wybuchowe i utleniające wolno łączyć",
-          "C": "Wyjątek dotyczy jedynie wyliczonych materiałów i warunków"
+          "C": "Tylko wskazanych materiałów i warunków"
         },
         "correct_option": "C",
         "explanation": "Uwaga (d) wymienia konkretne materiały oraz warunki; nie jest ogólnym zwolnieniem dla klas 1 i 5.1.",
@@ -561,7 +561,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Tak, dokumenty znoszą zakaz”) jest sprzeczny z regułą przywołaną w ADR 2025, 7.5.2.1 w opisanej sytuacji; wymaga niezależnej kontroli."
+          "rationale": "Wariant A („Tak, jeśli każda przesyłka ma oddzielny dokument z własnym numerem”) jest sprzeczny z regułą przywołaną w ADR 2025, 7.5.2.1 w opisanej sytuacji; wymaga niezależnej kontroli."
         },
         "B": {
           "expected_correct": true,
@@ -582,8 +582,8 @@
         "module_id": "ADR-B-09",
         "stem": "Sztuki przesyłek ADR mają zostać załadowane razem, lecz nie spełniają warunków tabeli 7.5.2.1. Czy odrębne dokumenty przewozowe same w sobie legalizują załadunek do jednego pojazdu?",
         "options": {
-          "A": "Tak, dokumenty znoszą zakaz",
-          "B": "Nie, dokumenty nie zastępują wymagania zgodności wspólnego załadunku",
+          "A": "Tak, jeśli każda przesyłka ma oddzielny dokument z własnym numerem",
+          "B": "Nie, dokumenty nie znoszą zakazu",
           "C": "Tak, gdy ten sam przewoźnik"
         },
         "correct_option": "B",
