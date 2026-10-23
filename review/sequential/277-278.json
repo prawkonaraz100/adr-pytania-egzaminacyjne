@@ -61,29 +61,29 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kontener z zapakowanymi towarami niebezpiecznymi ma zostać załadowany na statek po odcinku drogowym. Kto zgodnie z ADR 5.4.2 odpowiada za przekazanie przewoźnikowi morskiemu świadectwa pakowania kontenera?",
+        "stem": "Certyfikat pakowania kontenera przekazano przez EDI, a kolejny przewoźnik wymaga papierowego egzemplarza. Co, według wymogów IMDG przywołanych w ADR 5.4.2, powinien zapewnić przewoźnik?",
         "options": {
-          "A": "Osoby odpowiedzialne za zapakowanie kontenera",
-          "B": "Każdy przypadkowy kierowca niezwiązany z pakowaniem",
-          "C": "Wyłącznie odbiorca po zakończeniu przewozu morskiego"
+          "A": "Na papierze wzmiankę „Original received electronically” i nazwisko osoby podpisującej zapisane wielkimi literami",
+          "B": "Wyłącznie numer faktury bez wskazania osoby podpisującej",
+          "C": "Usunięcie informacji o elektronicznym otrzymaniu oryginału"
         },
         "correct_option": "A",
-        "explanation": "ADR 5.4.2 przewiduje przekazanie przewoźnikowi morskiemu świadectwa pakowania kontenera przez osoby odpowiedzialne za jego zapakowanie.",
+        "explanation": "Przy przejściu od elektronicznego certyfikatu pakowania kontenera do wersji papierowej IMDG 5.4.2.4 (przywołany przy ADR 5.4.2) wymaga wzmianki „Original received electronically” i nazwiska podpisującego zapisanego wielkimi literami. Nie jest to ponownie pytanie o podmiot wydający certyfikat.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.2",
+            "reference": "ADR 2025, 5.4.2, przypis dotyczący IMDG 5.4.2.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
       },
-      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
-      "supplementary_source_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
+      "source_crosscheck_scope": "specific_2025_English_ADR_clause_and_IMDG_crosscheck_not_full_Polish",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Official Polish full text and corrigendum review pending.",
+      "source_risk_note": "Treść zróżnicowana po wykryciu powtórzenia: Zamiast powtórzenia pytania 0204 o osobę przekazującą certyfikat testuje odrębne wymaganie przy zmianie EDI na dokument papierowy. Polska urzędowa publikacja i sprostowanie wymagają pełnego porównania.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"

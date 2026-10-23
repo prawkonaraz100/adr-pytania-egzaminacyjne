@@ -7,43 +7,43 @@
     {
       "id": "ADR-B-0241",
       "order": 241,
-      "clause": "ADR 2025, 7.5.8.1",
-      "source_2025_comparison_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
+      "clause": "ADR 2025, 5.4.1.1.6.3(b); 7.5.8.1",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z ADR 2025, 7.5.8.1: Po wycieku stwierdzonym po rozładunku należy oczyścić pojazd lub kontener przed ponownym załadunkiem."
+          "rationale": "Gdy pusty nieoczyszczony pojazd lub kontener jest przemieszczany do najbliższego miejsca czyszczenia lub naprawy zgodnie z 7.5.8.1, ADR 5.4.1.1.6.3(b) przewiduje dodatkową wzmiankę o przewozie na tych warunkach. Samo opróżnienie nie oznacza oczyszczenia ani braku obowiązków."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "W opisanej sytuacji odpowiedź „Przykryć wyciek folią” jest sprzeczna z działaniem wynikającym z ADR 2025, 7.5.8.1; potwierdzenie polskiego brzmienia nadal wymagane."
+          "rationale": "Błędna odpowiedź: „Oświadczenie, że kontener jest już czysty i bez pozostałości”. Stan opisany w pytaniu wymaga działania z ADR 2025, 5.4.1.1.6.3(b); 7.5.8.1, a nie tego wariantu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "W opisanej sytuacji odpowiedź „Zignorować wyciek przy krótkiej trasie” jest sprzeczna z działaniem wynikającym z ADR 2025, 7.5.8.1; potwierdzenie polskiego brzmienia nadal wymagane."
+          "rationale": "Błędna odpowiedź: „Zwolnienie ze wszystkich danych dokumentu, bo kontener jest pusty”. Ten wariant nie spełnia warunków ADR 2025, 5.4.1.1.6.3(b); 7.5.8.1 dla opisanej sytuacji."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Znaczenie przepisów zależy od sytuacji i wyjątków. Potrzebna pełna kontrola dosłownego polskiego ADR 2025 ze sprostowaniem i niezależnym ekspertem.",
-      "editorial_result": "preliminary_authoring_check_only",
+      "notes_on_conditions": "Różnicowanie potwierdzonej semantycznej zbieżności: Zastąpiono powtórzony nakaz czyszczenia (0009) odrębnym warunkiem dokumentacyjnym dla przejazdu do miejsca czyszczenia. Brak pełnego polskiego porównania i zatwierdzenia specjalisty.",
+      "editorial_result": "preliminary_after_semantic_diversification_needs_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0241",
         "module_id": "ADR-B-03",
-        "stem": "Po rozładunku ADR na podłodze pojazdu zauważono wyciek z przesyłki. Co należy zrobić przed ponownym załadunkiem?",
+        "stem": "Po rozładunku pusty, nieoczyszczony kontener ADR jedzie zgodnie z 7.5.8.1 do najbliższego odpowiedniego miejsca czyszczenia. Jaka dodatkowa informacja jest wymagana w dokumencie przewozowym?",
         "options": {
-          "A": "Oczyścić pojazd lub kontener",
-          "B": "Przykryć wyciek folią",
-          "C": "Zignorować wyciek przy krótkiej trasie"
+          "A": "Wskazanie, że przewóz odbywa się zgodnie z 7.5.8.1",
+          "B": "Oświadczenie, że kontener jest już czysty i bez pozostałości",
+          "C": "Zwolnienie ze wszystkich danych dokumentu, bo kontener jest pusty"
         },
         "correct_option": "A",
-        "explanation": "Po wycieku stwierdzonym po rozładunku należy oczyścić pojazd lub kontener przed ponownym załadunkiem.",
+        "explanation": "Gdy pusty nieoczyszczony pojazd lub kontener jest przemieszczany do najbliższego miejsca czyszczenia lub naprawy zgodnie z 7.5.8.1, ADR 5.4.1.1.6.3(b) przewiduje dodatkową wzmiankę o przewozie na tych warunkach. Samo opróżnienie nie oznacza oczyszczenia ani braku obowiązków.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.8.1",
+            "reference": "ADR 2025, 5.4.1.1.6.3(b); 7.5.8.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
