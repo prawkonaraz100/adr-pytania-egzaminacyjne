@@ -71,3 +71,7 @@ Przed przewozem ADR przewoźnik nie otrzymał wymaganych informacji o towarze od
 ## Obowiązki pakującego — ADR-B-0290
 
 Pakujący kontroluje zgodność warunków pakowania i wymaganych oznaczeń sztuk przesyłek; ADR 1.4.3.2. Sprawdzić warunki i wyjątki przed zatwierdzeniem materiału.
+
+## Scenariusz 0293: załoga i przewóz pasażerów
+
+Omów w zespole zasadę ADR 8.3.1 oraz to, kto jest członkiem załogi. Warunki stosowania i wyłączenia należy oceniać dla konkretnego przewozu. Szkic, nie autoryzowana interpretacja.

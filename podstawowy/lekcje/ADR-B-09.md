@@ -67,3 +67,7 @@ Pytania 0235–0240: ruch opakowań przy hamowaniu (7.5.7.1), nienadmierny naci�
 ## Sytuacja kontrolna ADR-B-0286 (etap 2)
 
 Sztuka przesyłki ADR ma strzałki kierunkowe na dwóch przeciwległych bokach. W jakiej pozycji należy co do zasady ustawić ją w pojeździe? Uczeń ma wyjaśnić uzasadnienie i warunki prawne 7.5.1.5 oraz wskazać błędną praktykę. To szkic wymagający porównania z polskim Dz.U. 642, sprostowaniem 1575 i niezależnej recenzji.
+
+## Scenariusze 0291–0292: wspólny załadunek i przewóz luzem
+
+Dla 0291 kursant używa tabeli 7.5.2.1 oraz wyjątków, nie opiera decyzji na kolorze opakowania. Dla 0292 sprawdza kolumny 10 i 17 tabeli A oraz reguły BK/VC z 7.3.1.1. Oba ćwiczenia wymagają kontroli polskiego tekstu urzędowego ADR 2025 i niezależnego odbioru instruktora.

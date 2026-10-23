@@ -92,3 +92,7 @@ Przygotować bezpieczny model pojazdu i atrapy sztuk przesyłek. Kursant rozpozn
 | P3 — wypadek/awaria | Sucha symulacja miejsca zdarzenia, bez rzeczywistego zagrożenia i ruchu drogowego | Instruktaż alarmowania, ostrzegania i odtwarzania działań z instrukcji pisemnych | Kursant rozpoznaje konieczność bezpiecznego zatrzymania, zachowania strony nawietrznej i współpracy ze służbami |
 
 **Protokół i nadzór:** przed rozpoczęciem instruktor sprawdza środki bezpieczeństwa; po realnym wykonaniu może osobno odnotować datę, miejsce, uczestnika, zakres, obserwacje i swój podpis w istniejącym formularzu powyżej. Nie dopisywać fikcyjnych ocen ani dat. Przebieg i warunki ćwiczenia muszą być zgodne z prawem i programem kursu, a tekst wymaga niezależnej kontroli instruktorskiej. Podstawa do weryfikacji: zał. 1 Dz.U. 2021 poz. 2150 i ADR 2025 5.4.3.4. Żadne pytanie internetowe nie zalicza P1–P3.
+
+## Wariant ćwiczenia instruktorskiego P3 — rozpoznanie ryzyka załadunku (23.10.2026)
+
+Na bezpiecznych atrapach kursant wybiera, które przesyłki wymagają sprawdzenia tabeli wspólnego ładowania (ADR 7.5.2.1), a które ładunki dopuszczenia do przewozu luzem (7.3.1.1). Instruktor ocenia rozumienie procedury, bez fikcyjnego poświadczania wykonania obowiązkowych czynności P1–P3. Brak prawdziwych towarów niebezpiecznych.
