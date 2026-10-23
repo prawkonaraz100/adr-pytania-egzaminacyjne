@@ -59,3 +59,7 @@ Kolejna część weryfikacji prawnomerytorycznej rozpoczyna się od **ADR-B-0017
 ## Kontynuacja 0193–0208
 
 [Karty 0193–0208](0193-0208.json): 16 pytań, 48 ocen A/B/C; 3 do dodatkowej analizy wyjątków. Kontrola wstępna oparta na uprzednich zapisach, polski ADR Dz.U.642 i sprostowanie 1575 oraz adekwatność M364 nie zostały porównane w pełni punkt po punkcie. Brak podpisu specjalisty i zmian kluczy/statusów. Następne 0209–0216.
+
+## Kontynuacja 0209–0216 — zamknięcie serii wstępnych kart
+
+[8 kart](0209-0216.json) i 24 indywidualne oceny A/B/C, 2 do pogłębienia wyjątków. Po tej partii seria kart obejmuje 216/216 rekordów. **Nie oznacza to zakończenia właściwej recenzji prawnej**: porównanie każdego wariantu z urzędowym polskim Dz.U. 642, sprostowaniem 1575 i adekwatnością M364 oraz niezależny podpis specjalisty pozostają pending. 0 verified, eksport BLOCKED. Dalej etap 2: ponowna analiza pokrycia 13 działów i 103 celów teorii oraz jakości materiałów.
