@@ -17,16 +17,16 @@
           "rationale": "Nieprawidłowa odpowiedź: Tak, gdy posiada dowód osobisty. Pozostaje sprzeczna z obowiązkiem albo zakazem wynikającym z ADR 8.3.1. Wymaga dodatkowej eksperckiej kontroli."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "ADR 8.3.1 zabrania przewozu osób innych niż członkowie załogi w jednostkach transportowych z towarami niebezpiecznymi."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Nieprawidłowa odpowiedź: Tak, jeżeli przejazd ma mniej niż 10 km. Pozostaje sprzeczna z obowiązkiem albo zakazem wynikającym z ADR 8.3.1. Wymaga dodatkowej eksperckiej kontroli."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "ADR 8.3.1 zabrania przewozu osób innych niż członkowie załogi w jednostkach transportowych z towarami niebezpiecznymi."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Należy uwzględniać szczególne wyjątki i zakres regulacji przed ostateczną recenzją w polskim wydaniu ADR.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Należy uwzględniać szczególne wyjątki i zakres regulacji przed ostateczną recenzją w polskim wydaniu ADR. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -37,10 +37,10 @@
         "stem": "Przewóz towarów niebezpiecznych objęty ADR odbywa się ciężarówką; znajomy kierowcy chce jechać na wolnym fotelu, nie będąc członkiem załogi. Czy jest to dozwolone?",
         "options": {
           "A": "Tak, gdy posiada dowód osobisty",
-          "B": "Nie, w jednostce transportowej nie wolno przewozić pasażerów innych niż członkowie załogi",
-          "C": "Tak, jeżeli przejazd ma mniej niż 10 km"
+          "B": "Tak, jeżeli przejazd ma mniej niż 10 km",
+          "C": "Nie, w jednostce transportowej nie wolno przewozić pasażerów innych niż członkowie załogi"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "ADR 8.3.1 zabrania przewozu osób innych niż członkowie załogi w jednostkach transportowych z towarami niebezpiecznymi.",
         "sources": [
           {
@@ -60,20 +60,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Wymóg dotyczy faktycznej umiejętności używania wyposażenia gaśniczego przez członków załogi."
+          "expected_correct": false,
+          "rationale": "Nieprawidłowa odpowiedź: Gaśnic może używać wyłącznie spedytor. Pozostaje sprzeczna z obowiązkiem albo zakazem wynikającym z ADR 8.3.2. Wymaga dodatkowej eksperckiej kontroli."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Nieprawidłowa odpowiedź: Sama obecność gaśnicy zawsze jest wystarczająca. Pozostaje sprzeczna z obowiązkiem albo zakazem wynikającym z ADR 8.3.2. Wymaga dodatkowej eksperckiej kontroli."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Nieprawidłowa odpowiedź: Gaśnic może używać wyłącznie spedytor. Pozostaje sprzeczna z obowiązkiem albo zakazem wynikającym z ADR 8.3.2. Wymaga dodatkowej eksperckiej kontroli."
+          "expected_correct": true,
+          "rationale": "Wymóg dotyczy faktycznej umiejętności używania wyposażenia gaśniczego przez członków załogi."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Należy uwzględniać szczególne wyjątki i zakres regulacji przed ostateczną recenzją w polskim wydaniu ADR.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Należy uwzględniać szczególne wyjątki i zakres regulacji przed ostateczną recenzją w polskim wydaniu ADR. Etap 4b: zamieniono pozycje A i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -83,11 +83,11 @@
         "module_id": "ADR-B-04",
         "stem": "W pojeździe ADR załoga ma gaśnicę zgodną z wymaganiami, ale nie wie, jak jej użyć. Czego dodatkowo wymaga ADR?",
         "options": {
-          "A": "Członkowie załogi powinni znać obsługę urządzeń gaśniczych",
+          "A": "Gaśnic może używać wyłącznie spedytor",
           "B": "Sama obecność gaśnicy zawsze jest wystarczająca",
-          "C": "Gaśnic może używać wyłącznie spedytor"
+          "C": "Członkowie załogi powinni znać obsługę urządzeń gaśniczych"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Wymóg dotyczy faktycznej umiejętności używania wyposażenia gaśniczego przez członków załogi.",
         "sources": [
           {
@@ -205,16 +205,16 @@
           "rationale": "Nieprawidłowa odpowiedź: Uszkodzenia kontenera są zawsze nieistotne. Pozostaje sprzeczna z obowiązkiem albo zakazem wynikającym z ADR 7.5.1.2. Wymaga dodatkowej eksperckiej kontroli."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Kontrola przed załadunkiem ma ujawnić szkody pojazdu lub kontenera mogące naruszyć ich integralność lub bezpieczeństwo przesyłek."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Nieprawidłowa odpowiedź: Wystarczy zakleić ścianę zwykłą taśmą bez oceny. Pozostaje sprzeczna z obowiązkiem albo zakazem wynikającym z ADR 7.5.1.2. Wymaga dodatkowej eksperckiej kontroli."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Kontrola przed załadunkiem ma ujawnić szkody pojazdu lub kontenera mogące naruszyć ich integralność lub bezpieczeństwo przesyłek."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Należy uwzględniać szczególne wyjątki i zakres regulacji przed ostateczną recenzją w polskim wydaniu ADR.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Należy uwzględniać szczególne wyjątki i zakres regulacji przed ostateczną recenzją w polskim wydaniu ADR. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -225,10 +225,10 @@
         "stem": "Przed załadunkiem kontenera pojawia się uszkodzenie jego ściany mogące naruszyć ochronę opakowań. Jak stosuje się 7.5.1.2?",
         "options": {
           "A": "Uszkodzenia kontenera są zawsze nieistotne",
-          "B": "Kontroluje się stan wewnętrzny i zewnętrzny, a uszkodzenie zagrażające integralności wyklucza załadunek",
-          "C": "Wystarczy zakleić ścianę zwykłą taśmą bez oceny"
+          "B": "Wystarczy zakleić ścianę zwykłą taśmą bez oceny",
+          "C": "Kontroluje się stan wewnętrzny i zewnętrzny, a uszkodzenie zagrażające integralności wyklucza załadunek"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "Kontrola przed załadunkiem ma ujawnić szkody pojazdu lub kontenera mogące naruszyć ich integralność lub bezpieczeństwo przesyłek.",
         "sources": [
           {
