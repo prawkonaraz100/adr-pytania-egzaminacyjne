@@ -43,3 +43,13 @@ Pytania: `0016`–`0018`, `0051`–`0053`, `0114`–`0115`, `0132`–`0133`.
 ## Ćwiczenie sytuacyjne — numer 88 (szkic do recenzji)
 
 Na przykładowej pomarańczowej tablicy z górnym numerem 88 uczeń wyjaśnia, że powtórzona cyfra 8 wzmacnia informację o zagrożeniu żrącym (ADR 5.3.2.3.1). Nie należy z samej tablicy wyciągać wniosku o braku innych zagrożeń; wymagane jest sprawdzenie dokumentacji i oznakowania. Powiązanie: `ADR-B-0217`. Nie wykorzystywać bez niezależnej kontroli zgodności z urzędowym tekstem i sprostowaniem.
+
+## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
+
+**Sytuacja do analizy:** Kierowca widzi tablicę z numerem 88 oraz wymagane nalepki zagrożeń.
+
+**Zadanie kursanta:** wyjaśnić, co należy sprawdzić przed podjęciem działania, jak rozpoznać warunki graniczne i czego nie należy robić. Uczeń wyjaśnia numer rozpoznawczy zagrożenia i różnicę między tablicą pojazdu a nalepką sztuki przesyłki.
+
+**Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
+
+**Punkty do porównania z urzędową publikacją:** ADR 5.3.2.3.1, 5.2.2; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.
