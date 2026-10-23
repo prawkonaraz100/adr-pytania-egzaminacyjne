@@ -152,3 +152,58 @@ Szczegółowy stan dla 120 opcji A/B/C i 40 wyjaśnień: `review/batches/001-040
 | ADR-B-0040 | /A/D/R/ /2/0/2/5/,/ /1/./3/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
 
 **Bramka:** 324 potrzeby recenzji (`needs_review`), zero `verified`, eksport `BLOCKED`. Jakościowe PASS CI nie jest prawnym PASS. Po uzyskaniu kopii autentycznych PDF należy wrócić do 001–040 i uzupełnić dosłowny krótki cytat, numer pliku, stronę oraz wyjątki, przed przejściem do opiniowania zgodności.
+
+# Partia 001–040 — próba alternatywnych źródeł i rzetelny zakres rzeczywistego porównania (23.10.2026)
+
+## Identyfikacja wydania
+
+Prawidłowe wydanie UNECE ADR 2025 to **ECE/TRANS/352**, tom [I](https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf) i [II](https://unece.org/sites/default/files/2025-01/2412010_E_ECE_TRANS_352_Vol.II_WEB.pdf) — wcześniejsze oznaczenie `ECE/TRANS/340` nie odpowiada wydaniu 2025. Oryginalne pliki udostępniono na unece.org i w UN Digital Library, ale próba ich pełnego odczytu w używanym środowisku zwróciła HTTP 403. **Nie należy opisywać pozycji jako „sprawdzone wg UNECE ADR 2025”, jeśli PDF nie został odczytany.**
+
+Autentyczny polski tekst [Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) występuje w 54 plikach. Alternatywy ISAP/ELI były blokowane lub niedostępne, a próba pobrania przez osobny kontener zakończyła się błędem rozpoznawania hosta. **Udało się odczytać urzędowe sprostowanie:** [Dz.U. 2025 poz. 1575](https://eli.gov.pl/api/acts/DU/2025/1575/text.pdf), trzy strony; obejmuje m.in. 1.8.5.3, 1.8.6.2.1, pozycje tabeli A, 3.4.1(d), 7.4.1, 7.5.11/CV24, 8.2.2.7.2.3. Dla 001–040 nie stwierdzono **bezpośredniego** objęcia przypisanego ustępu korektą, lecz wyjątki i odesłania nadal wymagają analizy.
+
+Jako dodatkowe, **nieautentyczne** źródło porównawcze odczytano reprodukcję ADR 2025 po niderlandzku — rozdziały 1.1, 5.4, 8.3 oraz częściowo 7.5 i 1.10. Dostępna treść stron nie obejmuje zawsze całego rozdziału z uwagi na ograniczenie subskrypcyjne. Faktycznie porównano sześć konkretnych pytań (0002, 0008, 0010, 0011, 0037, 0038) do ujawnionych przepisów; **34 dalszych nie uznano za sprawdzone źródłowo**. Osobne A/B/C, objaśnienia, referencje i warunki zapisano w `review/batches/001-040-source-crosscheck-20261023.json`.
+
+| Pytanie | Punkt ADR 2025 | Faktycznie użyte źródło | Wynik |
+|---|---|---|---|
+| ADR-B-0001 | ADR 2025, 1.3.2 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0002 | ADR 2025, 1.1.3 | reprodukcja NL 2025 | wstępna zgodność treści w tym zakresie, NIE UNECE |
+| ADR-B-0003 | ADR 2025, 8.2.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0004 | ADR 2025, 2.2.3.1.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0005 | ADR 2025, 2.2.8.1.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0006 | ADR 2025, 2.2.43.1.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0007 | ADR 2025, 5.2.1.8 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0008 | ADR 2025, 5.4.1.1.3.1 | reprodukcja NL 2025 | wstępna zgodność treści w tym zakresie, NIE UNECE |
+| ADR-B-0009 | ADR 2025, 7.5.8.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0010 | ADR 2025, 8.3.5 | reprodukcja NL 2025 | wstępna zgodność treści w tym zakresie, NIE UNECE |
+| ADR-B-0011 | ADR 2025, 8.3.3 | reprodukcja NL 2025 | wstępna zgodność treści w tym zakresie, NIE UNECE |
+| ADR-B-0012 | ADR 2025, 8.3.6 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0013 | ADR 2025, 5.4.3.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0014 | ADR 2025, 5.4.3.3 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0015 | ADR 2025, 8.1.4.5 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0016 | ADR 2025, 5.3.2.2.2 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0017 | ADR 2025, 5.3.2.3.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0018 | ADR 2025, 5.3.2.2.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0019 | ADR 2025, 1.4.2.2.6; 5.4.3.2 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0020 | ADR 2025, 1.4.3.1.1 (b) | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0021 | ADR 2025, 1.4.2.1.1 (a) | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0022 | ADR 2025, 8.1.4.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0023 | ADR 2025, 8.1.5.2 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0024 | ADR 2025, 8.1.5.2 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0025 | ADR 2025, 7.5.2 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0026 | ADR 2025, 7.5.7.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0027 | ADR 2025, 7.5.4; 7.5.11 CV28; tabela A kolumna (18) | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0028 | ADR 2025, 1.1.4.2 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0029 | ADR 2025, 1.1.4.2.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0030 | ADR 2025, 1.1.4.2 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0031 | ADR 2025, 1.9.5.2.2; 8.6 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0032 | ADR 2025, 8.6.4 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0033 | ADR 2025, 8.6.4 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0034 | ADR 2025, 1.10.1.4 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0035 | ADR 2025, 1.10.1.3 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0036 | ADR 2025, 1.10.2.2 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0037 | ADR 2025, 5.4.1.1.1 (a) | reprodukcja NL 2025 | wstępna zgodność treści w tym zakresie, NIE UNECE |
+| ADR-B-0038 | ADR 2025, 5.4.1.1.1 (b) | reprodukcja NL 2025 | wstępna zgodność treści w tym zakresie, NIE UNECE |
+| ADR-B-0039 | ADR 2025, 5.4.3.4 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+| ADR-B-0040 | ADR 2025, 1.3.1 | brak bezpośredniego odczytu ustępu | wymaga autentycznego odczytu |
+
+**Ostateczny wynik partii:** 0 pytań poświadczonych jako sprawdzone wg autentycznego PDF UNECE lub literalnego Dz.U. 642. 6 niezależnych porównań z reprodukcją 2025, 34 nierozstrzygnięte. Żadnych nowych kluczy bez dowodu, brak statusów verified, eksport BLOCKED. Następny przedział 0041–0080 pozostaje do źródłowego przeglądu, **nie** do sztucznego oznaczania jako zakończony.
