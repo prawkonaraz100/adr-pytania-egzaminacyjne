@@ -50,3 +50,40 @@ Polskie materiały pomocnicze: [tom I](https://www.gov.pl/attachment/8856b22a-bf
 | ADR-B-0040 | ADR 2025, 1.3.1 | 1.3.1 | wstępnie zgodne z polskim tekstem pomocniczym |
 
 Pełny rekord treści wszystkich 120 odpowiedzi A/B/C i 40 objaśnień wraz z ocenami znajduje się w `review/batches/001-040-clause-findings.json`. Ustalone zgodności są wstępne — **urzędowa autentyczna publikacja i sprostowanie wymagają jeszcze kontroli końcowej**. Nie zmieniono banku; 324 needs_review, 0 verified, eksport BLOCKED. Bez cystern.
+
+## Aneks: pozostałe 30 pytań (23.10.2026)
+
+W `review/batches/001-040-remaining-comparison.json` opisano wszystkie odpowiedzi A/B/C oraz wyjaśnienie każdego z 30 pozostałych pytań wobec jego odwołania. Ocena jest **wstępnym porównaniem znaczeniowym z pomocniczym polskim tekstem MI**, a nie końcowym literalnym poświadczeniem 54 części Dz.U. 642 i sprostowania 1575. Nie oznaczono zatwierdzeń.
+
+| ID | Norma porównawcza | Stan |
+|---|---|---|
+| ADR-B-0003 | 8.2.1 zaświadczenie potwierdza szkolenie i egzamin, nie zastępuje prawa jazdy | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0004 | 2.2.3.1.1 klasa 3: ciecze zapalne | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0005 | 2.2.8.1.1 klasa 8: materiały żrące | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0006 | 2.2.43.1.1 klasa 4.3: palne gazy w reakcji z wodą | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0007 | 5.2.1.8 znak martwe drzewo i ryba, zależny od warunków | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0008 | 5.4.1.1.3.1 określa słowo ODPAD, wyłączenia i szczególny opis | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0013 | 5.4.3.1 i 8.1.2.3 instrukcje w kabinie łatwo dostępne | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0014 | 5.4.3.3 załoga poznaje zagrożenia i instrukcje przed jazdą | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0016 | 5.3.2.2.2 dolne pole to UN, górne zagrożenie | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0017 | 5.3.2.3.1 X wskazuje niebezpieczną reakcję z wodą | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0018 | 5.3.2.2.1 400 x 300 mm; dozwolone wyjątki | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0019 | 1.4.2.2.6; 5.4.3.2 przewoźnik zapewnia instrukcje | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0020 | 1.4.3.1.1(b) zakaz ładowania uszkodzonej przesyłki z wyciekiem | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0021 | 1.4.2.1.1(a) nadawca odpowiada za klasyfikację i dopuszczenie | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0023 | 8.1.5.2 klin na każdy pojazd, dobrany do masy i koła | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0024 | 8.1.5.2 rękawice i ochrona oczu dla członka załogi | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0025 | 7.5.2.1 stosować tabelę zakazów wspólnego ładowania | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0026 | 7.5.7.1 mocowanie zapobiega przemieszczaniu i uszkodzeniu | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0027 | 7.5.4 i CV28 oddzielenie od żywności w określonych przypadkach | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0028 | 1.1.4.2 uznanie IMDG w łańcuchu morskim jest warunkowe | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0029 | 1.1.4.2.1 uznanie opakowań i oznakowania IMDG w szczególnych warunkach | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0030 | 1.1.4.2 odcinek drogowy nie jest automatycznie zwolniony z ADR | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0031 | 1.9.5.2.2 kategoria A nie wprowadza ograniczeń ADR | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0032 | 8.6.4 kod E wyklucza tunel kategorii E | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0033 | 8.6.4 D/E dla sztuk przesyłek wyklucza E, dla cystern lub luzem D/E | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0034 | 1.10.1.4 dokument ze zdjęciem dla członka załogi | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0035 | 1.10.1.3 ochrona czasowego składowania w terminalu | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0036 | 1.10.2.2 szkolenie z zagrożeń ochrony i reakcji | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0037 | 5.4.1.1.1(a) zapis UN z czterocyfrowym numerem | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+| ADR-B-0038 | 5.4.1.1.1(b) prawidłowa nazwa przewozowa | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
