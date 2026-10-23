@@ -68,3 +68,13 @@ Sprawdź, kiedy przy prawidłowej nazwie przewozowej umieszcza się „ODPAD” 
 **Obserwowalne kryterium:** Wskazuje potrzebę oceny wyłączeń i danych od nadawcy.
 
 **Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
+
+## Uzupełnienie powiązań z pytaniami — ADR-B-03 (23.10.2026)
+
+Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
+
+### ADR-B-0178 — Podczas awarii opakowania ADR kierowca zauważa pary unoszące się przy drzwiach ładowni. Jak ograniczyć ryzyko skażenia?
+
+Przy nieznanej chmurze lub wycieku pierwszeństwo ma unikanie wdychania par i kontaktu z uwolnionym materiałem. Rozpoznawanie nie polega na dotykaniu ani wąchaniu.
+
+**Podstawa do kontroli:** ADR 2025, 5.4.3.4. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
