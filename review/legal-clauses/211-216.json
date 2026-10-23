@@ -1,0 +1,292 @@
+{
+  "title": "ADR 2025 option-level review 211–216",
+  "date": "2026-10-23",
+  "scope": "6 items with 18 individual option rationales, not full Polish text or expert review",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0211",
+      "order": 211,
+      "clause": "1.10.1.2",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/1.10",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Numer zlecenia nie zastępuje identyfikacji przewoźnika."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Nie wolno oferować towaru przypadkowej niezidentyfikowanej firmie."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Towar ADR można oferować do przewozu odpowiednio zidentyfikowanemu przewoźnikowi."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Wymóg dotyczy uczestników objętych przepisem ochrony.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0211",
+        "module_id": "ADR-B-12",
+        "stem": "Na rampie pojawia się podwykonawca, który chce odebrać niebezpieczny ładunek. Przedsiębiorstwo nie ustaliło, czy to właściwy przewoźnik. Co wynika z 1.10.1.2?",
+        "options": {
+          "A": "Towar można wydać dowolnej osobie, jeśli zna numer zamówienia",
+          "B": "Towar wolno wydać bez weryfikacji, jeśli kierowca nie żąda kopii dokumentów",
+          "C": "Towar niebezpieczny można zaoferować do przewozu jedynie odpowiednio zidentyfikowanemu przewoźnikowi"
+        },
+        "correct_option": "C",
+        "explanation": "Wymóg identyfikacji przewoźnika ogranicza ryzyko przejęcia ładunku przez nieuprawnione osoby. Znajomość numeru zlecenia nie zastępuje właściwej identyfikacji.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0212",
+      "order": 212,
+      "clause": "1.10.3.2.2",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/1.10",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Plan ochrony musi określać ryzyka, obowiązki i procedury, a nie tylko numery alarmowe."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Kontakt do kierownika nie jest kompletnym planem ochrony."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Jednoosobowa firma nie jest automatycznie zwolniona z warunków planu."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Plan wymagany dla określonych towarów dużego ryzyka.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0212",
+        "module_id": "ADR-B-12",
+        "stem": "Przedsiębiorstwo przewozi towary dużego ryzyka objęte 1.10.3.2.2. Czy plan ochrony może ograniczać się do listy numerów telefonów alarmowych?",
+        "options": {
+          "A": "Nie, plan powinien m.in. przypisywać obowiązki, oceniać zagrożenia i określać środki ochrony oraz postępowanie przy incydentach",
+          "B": "Tak, ponieważ wystarczą dane kontaktowe kierownika transportu",
+          "C": "Tak, jeśli firma zatrudnia wyłącznie jednego kierowcę"
+        },
+        "correct_option": "A",
+        "explanation": "Plan ochrony musi uwzględniać konkretne odpowiedzialności, ryzyka, zabezpieczenia, procedury zgłaszania i przeglądów. Sam spis telefonów nie spełnia tych wymagań.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.3.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0213",
+      "order": 213,
+      "clause": "1.10.3.3",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/1.10",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Zabezpieczenie przed kradzieżą nie jest dopiero reakcją po kradzieży."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wymagane środki powinny być używane, utrzymane w działaniu, bez utrudniania działań ratowniczych."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Znajomość adresu dostawy nie zwalnia ze środków ochrony."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Szczególne zasady dla przewozu odpowiednich towarów dużego ryzyka.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0213",
+        "module_id": "ADR-B-12",
+        "stem": "Firma przewozi towary niebezpieczne dużego ryzyka, do których odnosi się ADR 1.10.3.3. Jak należy traktować zabezpieczenia przed kradzieżą pojazdu i ładunku?",
+        "options": {
+          "A": "Jako wyposażenie używane wyłącznie po wcześniejszym zdarzeniu kradzieży",
+          "B": "Powinny być stosowane oraz utrzymywane jako sprawne i skuteczne podczas przewozu, bez utrudniania działań ratowniczych",
+          "C": "Można z nich zawsze zrezygnować, gdy kierowca zna miejsce dostawy"
+        },
+        "correct_option": "B",
+        "explanation": "ADR wymaga środków zapobiegających kradzieży wskazanych pojazdów i ładunków. Ich działanie ma być skuteczne, a jednocześnie nie może przeszkadzać w sytuacji awaryjnej.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0214",
+      "order": 214,
+      "clause": "5.4.1.1.1(g),(h)",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.4",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Telefon kierowcy nie zastępuje wymaganej nazwy i adresu nadawcy."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Podpis kierowcy nie jest danymi nadawcy."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Dokument musi zawierać wymagane dane nadawcy i odbiorcy."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Istnieją szczególne wyjątki dla rodzaju przewozu/odbiorców.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0214",
+        "module_id": "ADR-B-13",
+        "stem": "Wymagany dokument przewozowy ADR podaje prawidłowy numer UN i nazwę towaru, lecz nie ma danych nadawcy. Co należy poprawić?",
+        "options": {
+          "A": "Dopisać wyłącznie numer telefonu kierowcy w polu nazwy nadawcy",
+          "B": "Zastąpić nazwę i adres nadawcy podpisem kierowcy",
+          "C": "Uzupełnić wymagane dane nadawcy zgodnie z ADR 5.4.1.1.1"
+        },
+        "correct_option": "C",
+        "explanation": "Dokument przewozowy powinien co do zasady zawierać nazwę i adres nadawcy oraz odbiorcy, obok danych opisujących towar. Dane kierowcy nie zastępują nadawcy.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(g),(h)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0215",
+      "order": 215,
+      "clause": "5.4.1.1.7; 5.4.1.1.1",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.4",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wpis dodatkowy o 1.1.4.2.1 nie zastępuje prawidłowego opisu towaru."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Sama formuła nie zwalnia automatycznie z numeru UN i nazwy."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Początek przewozu w porcie nie zastępuje danych opisowych."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Wymaga dokładnego sprawdzenia polskiego brzmienia formuły.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0215",
+        "module_id": "ADR-B-13",
+        "stem": "Dokument przewozowy zawiera wzmiankę „PRZEWÓZ ZGODNY Z 1.1.4.2.1” dla odpowiedniego łańcucha morsko-drogowego. Czy taki zapis zastępuje podstawowy opis towaru ADR?",
+        "options": {
+          "A": "Nie, jest wpisem dodatkowym; nie zastępuje wymaganych danych o towarze z 5.4.1.1.1",
+          "B": "Tak, zwalnia z wpisania numeru UN i prawidłowej nazwy przewozowej",
+          "C": "Tak, pod warunkiem że przewóz zaczyna się w porcie morskim"
+        },
+        "correct_option": "A",
+        "explanation": "Wzmianka o 1.1.4.2.1 informuje o szczególnym warunkowym trybie przewozu. Sama nie zastępuje ogólnych informacji w dokumencie, o ile są wymagane.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7; 5.4.1.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0216",
+      "order": 216,
+      "clause": "8.1.2.1(b); 8.1.2.3",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.1",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Formalna obecność ukrytej instrukcji nie spełnia warunku łatwego dostępu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Instrukcje muszą być łatwo dostępne dla załogi w kabinie."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Kopia w biurze nie zastępuje wymaganego dokumentu na pokładzie."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dokumenty pisemne odpowiadają czterostronicowemu wzorowi ADR.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0216",
+        "module_id": "ADR-B-13",
+        "stem": "Kierowca ma wymagane instrukcje pisemne ADR w kabinie, lecz schował je pod stertą dokumentów i nie jest w stanie szybko ich znaleźć. Czy spełnia wymóg dostępności?",
+        "options": {
+          "A": "Tak, bo liczy się tylko fizyczna obecność instrukcji w pojeździe",
+          "B": "Nie, instrukcje należy przechowywać tak, aby były łatwo dostępne dla załogi",
+          "C": "Tak, jeżeli spedytor ma elektroniczną kopię instrukcji w biurze"
+        },
+        "correct_option": "B",
+        "explanation": "ADR wymaga przechowywania instrukcji pisemnych w miejscu łatwo dostępnym dla członków załogi, by mogli z nich skorzystać podczas awarii.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.1(b); 8.1.2.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
