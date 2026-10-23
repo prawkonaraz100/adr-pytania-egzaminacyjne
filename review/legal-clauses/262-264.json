@@ -1,0 +1,149 @@
+{
+  "title": "ADR 2025 preliminary tunnel code A/B/C 262–264",
+  "date": "2026-10-23",
+  "scope": "Editorial per-option rationales and clause reference; official Polish full text and independent specialist check pending",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0262",
+      "order": 262,
+      "clause": "ADR 2025, 1.9.5.3.6; 8.6.4",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wstępna wykładnia ADR 2025, 1.9.5.3.6; 8.6.4: Kategoria E jest najbardziej restrykcyjną kategorią tuneli ADR. Rzeczywistą możliwość przejazdu trzeba ustalić według kodu ograniczenia towaru, sposobu przewozu i wyjątków."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant „W tunelu nie obowiązują żadne ograniczenia ADR” jest błędnym uproszczeniem zasad ADR ADR 2025, 1.9.5.3.6; 8.6.4; przed publikacją sprawdzić polskie brzmienie."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant „W tunelu wolno przewozić wyłącznie towary klasy 3” jest błędnym uproszczeniem zasad ADR ADR 2025, 1.9.5.3.6; 8.6.4; przed publikacją sprawdzić polskie brzmienie."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Zastosowanie kodu zależy od pozycji UN, sposobu przewozu, znaków i ewentualnych wyłączeń; porównanie z polskim tekstem i sprostowaniem pending.",
+      "editorial_result": "preliminary_authoring_check_only",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0262",
+        "module_id": "ADR-B-11",
+        "stem": "Znak tunelu podaje kategorię E. Co oznacza taka kategoria w systemie ograniczeń ADR?",
+        "options": {
+          "A": "To najbardziej restrykcyjna kategoria tunelu dla przewozu towarów niebezpiecznych",
+          "B": "W tunelu nie obowiązują żadne ograniczenia ADR",
+          "C": "W tunelu wolno przewozić wyłącznie towary klasy 3"
+        },
+        "correct_option": "A",
+        "explanation": "Kategoria E jest najbardziej restrykcyjną kategorią tuneli ADR. Rzeczywistą możliwość przejazdu trzeba ustalić według kodu ograniczenia towaru, sposobu przewozu i wyjątków.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.9.5.3.6; 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0263",
+      "order": 263,
+      "clause": "ADR 2025, 8.6.3.2",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant „Użyć kodu przypisanego towarowi o najmniejszej masie” jest błędnym uproszczeniem zasad ADR ADR 2025, 8.6.3.2; przed publikacją sprawdzić polskie brzmienie."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wstępna wykładnia ADR 2025, 8.6.3.2: Dla ładunku mieszanego przyjmuje się najbardziej restrykcyjny właściwy kod ograniczenia tunelowego, z uwzględnieniem zasad i wyjątków ADR."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant „Pominąć kody, jeśli towary jadą na jednym dokumencie” jest błędnym uproszczeniem zasad ADR ADR 2025, 8.6.3.2; przed publikacją sprawdzić polskie brzmienie."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Zastosowanie kodu zależy od pozycji UN, sposobu przewozu, znaków i ewentualnych wyłączeń; porównanie z polskim tekstem i sprostowaniem pending.",
+      "editorial_result": "preliminary_authoring_check_only",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0263",
+        "module_id": "ADR-B-11",
+        "stem": "W jednej jednostce transportowej przewożone są różne towary niebezpieczne o odmiennych kodach tunelowych. Którą zasadę trzeba zastosować, gdy ograniczenia ADR mają zastosowanie?",
+        "options": {
+          "A": "Użyć kodu przypisanego towarowi o najmniejszej masie",
+          "B": "Uwzględnić najbardziej restrykcyjny z mających zastosowanie kodów",
+          "C": "Pominąć kody, jeśli towary jadą na jednym dokumencie"
+        },
+        "correct_option": "B",
+        "explanation": "Dla ładunku mieszanego przyjmuje się najbardziej restrykcyjny właściwy kod ograniczenia tunelowego, z uwzględnieniem zasad i wyjątków ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0264",
+      "order": 264,
+      "clause": "ADR 2025, 8.6.3.1",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant „Automatyczny zakaz przejazdu przez każdy tunel” jest błędnym uproszczeniem zasad ADR ADR 2025, 8.6.3.1; przed publikacją sprawdzić polskie brzmienie."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant „Obowiązek użycia wyłącznie drogi ekspresowej” jest błędnym uproszczeniem zasad ADR ADR 2025, 8.6.3.1; przed publikacją sprawdzić polskie brzmienie."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wstępna wykładnia ADR 2025, 8.6.3.1: Symbol „(-)” oznacza brak przypisanego ograniczenia przejazdu przez tunele wynikającego z kodu ADR; inne wymagania mogą nadal obowiązywać."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zastosowanie kodu zależy od pozycji UN, sposobu przewozu, znaków i ewentualnych wyłączeń; porównanie z polskim tekstem i sprostowaniem pending.",
+      "editorial_result": "preliminary_authoring_check_only",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0264",
+        "module_id": "ADR-B-11",
+        "stem": "W kolumnie 15 tabeli A dla pozycji UN w miejscu kodu ograniczenia tunelowego występuje znak „(-)”. Co oznacza ten zapis w zakresie tego kodu?",
+        "options": {
+          "A": "Automatyczny zakaz przejazdu przez każdy tunel",
+          "B": "Obowiązek użycia wyłącznie drogi ekspresowej",
+          "C": "Nie przypisano ograniczenia tunelowego ADR z tego tytułu, co nie uchyla innych przepisów i znaków drogowych"
+        },
+        "correct_option": "C",
+        "explanation": "Symbol „(-)” oznacza brak przypisanego ograniczenia przejazdu przez tunele wynikającego z kodu ADR; inne wymagania mogą nadal obowiązywać.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}

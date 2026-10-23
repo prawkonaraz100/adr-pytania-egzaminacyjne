@@ -55,3 +55,7 @@ Pytania: `0031`–`0033`, `0063`–`0065`, `0083`–`0086`, `0143`.
 ## Zadanie sytuacyjne ADR-B-0248 (etap 2)
 
 Uczestnik rozwiązuje przypadek z pytania ADR-B-0248, wskazuje podstawę, warunki i typowy błąd. Wynik testu nie jest zatwierdzeniem praktyki; materiał do ostatecznej kontroli polskiego ADR 2025 i sprostowania.
+
+## Scenariusze graniczne tuneli — 0262–0264
+
+Kursant rozróżnia kategorię tunelu E, zasadę najbardziej restrykcyjnego kodu w przewozie mieszanym i znaczenie „(-)”. Ćwiczenie polega na analizie rzeczywistej pozycji UN i sposobu przewozu, nie na automatycznym uznaniu przejazdu za dozwolony. ADR 1.9.5.3, 8.6.3–8.6.4. Materiał wymaga niezależnej recenzji i formalnego porównania z polskim tekstem Dz.U. 642 wraz ze sprostowaniem.
