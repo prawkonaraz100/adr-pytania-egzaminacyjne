@@ -74,3 +74,13 @@ Scenariusz 0282: minimalna gaśnica dla przewozu objętego wyłączeniem 1.1.3.6
 **Obserwowalne kryterium:** Nie uznaje, że każda ciężarówka wymaga specjalnego świadectwa.
 
 Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+
+## Uzupełnienie powiązań z pytaniami — ADR-B-08 (23.10.2026)
+
+Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
+
+### ADR-B-0074 — Podczas kontroli okazuje się, że termin przeglądu jednej z wymaganych gaśnic ADR minął. Co powinien zrobić kierowca?
+
+ADR wymaga sprawnych gaśnic z ważnym terminem badania lub dopuszczonego użytkowania. Samo nienaruszenie plomby nie wystarcza.
+
+**Podstawa do kontroli:** ADR 2025, 8.1.4.4; 8.1.4.5. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
