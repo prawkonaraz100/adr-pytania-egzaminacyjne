@@ -62,3 +62,13 @@ Materiał do testowania: `ADR-B-0001`, `0002`, `0003`, `0040`, `0041`, `0091`–
 - [Ministerstwo Infrastruktury — materiały pomocnicze ADR 2025](https://www.gov.pl/web/infrastruktura/towary-niebezpieczne).
 
 **Status:** draft; konieczna recenzja szczegółowych warunków wyłączeń.
+
+## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
+
+**Sytuacja do analizy:** Kierowca otrzymuje paletę farb do dalszej sprzedaży i twierdzi, że zawsze korzysta z wyłączenia dla osób prywatnych.
+
+**Zadanie kursanta:** wyjaśnić, co należy sprawdzić przed podjęciem działania, jak rozpoznać warunki graniczne i czego nie należy robić. Uczeń odróżnia działalność handlową od prywatnego wykorzystania, sprawdza charakter przewozu i podstawę wyjątku.
+
+**Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
+
+**Punkty do porównania z urzędową publikacją:** ADR 1.1.3.1(a), 1.1.3.6; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.
