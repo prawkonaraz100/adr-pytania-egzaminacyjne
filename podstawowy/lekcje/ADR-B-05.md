@@ -94,3 +94,7 @@ Dla ewidencji kursu konieczne osobne **potwierdzenie instruktora i obecności**.
 - [Program kursu i ćwiczeń praktycznych — Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf), załącznik nr 1.
 
 **Bramka:** recenzent powinien sprawdzić wszystkie procedury i scenariusze z aktualnym tekstem instrukcji pisemnych i zakresem szkolenia. Obecna wersja jest **draft / needs_review**.
+
+## Ćwiczenia decyzyjne — zatrzymanie, wyciek i pożar (szkic)
+
+Przećwiczyć na suchych scenariuszach: bezpieczne zatrzymanie, światła awaryjne, hamulec i silnik (0219), wezwanie służb (0220), stronę nawietrzną (0221), zakaz gaszenia ładowni (0222), ograniczoną możliwość użycia gaśnicy (0223), odgrodzenie osób postronnych (0224) i ocenę własnego bezpieczeństwa przed pomocą (0225). Źródło: ADR 2025, instrukcje pisemne 5.4.3.4. Bez narażania na substancje i bez automatycznego zaliczenia ćwiczeń P1–P3; wymaga recenzji instruktora.

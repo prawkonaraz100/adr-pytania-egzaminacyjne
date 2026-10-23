@@ -68,3 +68,13 @@ Powiązane kompetencje: `ADR-B-05-K13`, `ADR-B-05-K14`, `ADR-B-05-K15`.
 - [Program kursu ADR (Dz.U. 2021 poz. 2150), załącznik nr 1](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
 - [ADR 2025 — Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
 - [Sprostowanie — Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
+
+## Uzupełnienie przygotowania do P1–P3 (23.10.2026; bez zaliczeń)
+
+**P1 — sprzęt gaśniczy:** instruktor pokazuje różnicę między pożarem przedziału ładunkowego (załoga nie gasi) a małym pożarem elementów pojazdu, przy którym sprzęt wolno rozważyć wyłącznie w bezpiecznych warunkach. Pytania przygotowawcze 0222–0223.
+
+**P2 — pierwsza pomoc:** symulacja poszkodowanego przy niezidentyfikowanym wycieku. Kursant najpierw ocenia zagrożenia dla siebie i innych, wzywa pomoc, działa tylko na bezpiecznym stanowisku. Pytania 0220, 0221, 0225.
+
+**P3 — wypadek/awaria:** suchy scenariusz bez substancji: bezpieczne zatrzymanie, środki ostrożności, wezwanie służb, ostrzeganie postronnych. Pytania 0219–0224.
+
+**Ocena praktyczna:** nauczyciel/instruktor wypełnia realny protokół dopiero po wykonanych ćwiczeniach. Test internetowy ani powyższe scenariusze nie są dowodem uczestnictwa czy zaliczenia. Źródło ADR 5.4.3.4, program praktyki Dz.U. 2021 poz. 2150; wymaga prawnej i dydaktycznej recenzji.
