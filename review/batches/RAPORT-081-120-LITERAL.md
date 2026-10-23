@@ -73,3 +73,34 @@ Dla 18 konkretnych ID dokonano porównania treści A/B/C i wyjaśnienia z odpowi
 | ADR-B-0112 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
 
 **Uwaga dla bramki jakości:** 18 odczytanych fragmentów MI nie stanowi 40 pełnych zatwierdzeń ani 40 literalnych porównań urzędowych.
+
+## Aneks 23.10.2026 — pozostałe 22 pytania
+
+Dla wszystkich 22 ID opisano A, B, C, wyjaśnienie, zastosowany ustęp i granice wyjątków w `review/batches/081-120-open-verifications.json`. Wykorzystano pomocniczą polską wersję MI, w szczególności dosłownie przejrzane 8.6.3.2–3, 8.6.4, 5.4.1.1.7. W sprawach wymagających więcej niż samej normy (0085, 0098, 0099, 0113, 0119) wskazano powód pozostawienia dla specjalisty. **Nie poświadcza to pełnej zgodności z autentycznym tekstem 54 plików Dz.U. 642; sprostowanie 1575 przeczytano osobno, jego wymienione korekty nie dotyczą wprost użytych w tych 22 pytaniach ustępów, lecz wciąż należy sprawdzić powiązania szczególne.**
+
+| ID | Podstawa | Wynik |
+|---|---|---|
+| ADR-B-0083 | 8.6.4 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0084 | 8.6.4 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0085 | 8.6.3.3 | wymaga specjalisty z uwagi na szczególne wyjątki |
+| ADR-B-0086 | 8.6.3.2–8.6.3.3 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0087 | 1.10.1.4; 8.1.2.1(d) | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0089 | 5.4.1.1.7 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0091 | 1.1.3.1(a) | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0093 | 3.4; 1.1.3.6 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0094 | 2.2.41.1.1 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0095 | 2.2.42.1.1 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0096 | 2.2.52.1.1 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0097 | 2.2.61.1.1 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0098 | 2.2.7.1; 8.2.1.4 | wymaga specjalisty z uwagi na szczególne wyjątki |
+| ADR-B-0099 | 2.2.9.1.1; 5.2.2.2.2 | wymaga specjalisty z uwagi na szczególne wyjątki |
+| ADR-B-0113 | 5.4.3.4 | wymaga specjalisty z uwagi na szczególne wyjątki |
+| ADR-B-0114 | 5.2.1.1 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0115 | 5.2.2.1.1 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0116 | 1.4.2.2.1(c); 1.4.2.2.3–4 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0117 | 1.4.2.1.1 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0118 | 1.4.2.3.1 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+| ADR-B-0119 | 1.1.4.2 | wymaga specjalisty z uwagi na szczególne wyjątki |
+| ADR-B-0120 | 1.10.1.2 | zgodne w zakresie porównania znaczeniowego MI, nie jest to pełne literalne zatwierdzenie |
+
+Bank bez zmian, 324 needs_review, 0 verified; eksport BLOCKED.
