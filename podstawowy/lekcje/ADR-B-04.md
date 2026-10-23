@@ -64,3 +64,13 @@ Wskazówki z czterostronicowych instrukcji 5.4.3.4: usuwanie źródeł zapłonu,
 ## Nadzór i pierwszeństwo miejsc postoju (0310)
 
 Przeanalizować warunkowe stosowanie 8.4.1 oraz pierwszeństwo zabezpieczonej bazy lub terenu zakładu przed kolejnymi alternatywami. Ćwiczenie na planie trasy, nie rzeczywiste parkowanie z towarem niebezpiecznym.
+
+## Zadanie instruktorskie: Bezpieczeństwo postoju (uzupełnienie etapu 2, 23.10.2026)
+
+**Scenariusz bez rzeczywistych towarów niebezpiecznych:** Na mapie trzech hipotetycznych miejsc postoju kursant analizuje, czy wymagany jest nadzór i porównuje kolejność dopuszczalnych miejsc.
+
+**Podstawa do sprawdzenia przez instruktora:** ADR 8.4.1, 8.5.
+
+**Obserwowalne kryterium:** Nie uznaje dowolnego pobocza za bezwarunkowo dopuszczalne miejsce postoju.
+
+**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
