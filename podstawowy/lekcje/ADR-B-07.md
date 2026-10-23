@@ -63,3 +63,7 @@ Przy każdej sytuacji odpowiedz: **jaka rola**, **jaki obowiązek**, **jaki prze
 ## Scenariusz etapu 2 — seria ADR-B-0241–0246
 
 Nowe zadania 0245–0246: obowiązki załadowcy i odbiorcy. Kursant analizuje decyzję, okoliczności zastosowania przepisu i wyjątki, a następnie uzasadnia wybór bez zgadywania litery. Wszystkie rekordy pozostają `needs_review`. Lekcja wymaga fachowej kontroli polskiego ADR 2025 (Dz.U. 642, sprostowanie 1575) i niezależnej recenzji; żadne zadanie teoretyczne nie zalicza ćwiczeń praktycznych.
+
+## Sytuacja kontrolna ADR-B-0285 (etap 2)
+
+Przed przewozem ADR przewoźnik nie otrzymał wymaganych informacji o towarze od nadawcy. Co powinien zrobić? Uczeń ma wyjaśnić uzasadnienie i warunki prawne 1.4.2.2.1(b) oraz wskazać błędną praktykę. To szkic wymagający porównania z polskim Dz.U. 642, sprostowaniem 1575 i niezależnej recenzji.
