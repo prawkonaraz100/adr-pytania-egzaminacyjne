@@ -98,3 +98,7 @@ Dla ewidencji kursu konieczne osobne **potwierdzenie instruktora i obecności**.
 ## Ćwiczenia decyzyjne — zatrzymanie, wyciek i pożar (szkic)
 
 Przećwiczyć na suchych scenariuszach: bezpieczne zatrzymanie, światła awaryjne, hamulec i silnik (0219), wezwanie służb (0220), stronę nawietrzną (0221), zakaz gaszenia ładowni (0222), ograniczoną możliwość użycia gaśnicy (0223), odgrodzenie osób postronnych (0224) i ocenę własnego bezpieczeństwa przed pomocą (0225). Źródło: ADR 2025, instrukcje pisemne 5.4.3.4. Bez narażania na substancje i bez automatycznego zaliczenia ćwiczeń P1–P3; wymaga recenzji instruktora.
+
+## Scenariusze P1–P3: dalsze pytania przygotowawcze (szkic)
+
+Ćwiczyć bezpieczne przekazanie informacji ratownikom (0229), reakcję na skażoną odzież (0230), bezpieczne użycie środków ostrzegawczych (0231) i mocowanie gaśnicy (0232). Kierowca nie naraża siebie na kontakt z towarem, nie wykonuje działań ratowniczych ponad przygotowanie. Źródła: ADR 5.4.3.4, 8.1.4.5 i 8.1.5.2; wymaga zatwierdzenia instruktora.
