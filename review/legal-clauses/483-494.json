@@ -60,20 +60,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Wymagania łopaty, osłony otworów kanalizacyjnych i pojemnika do zbierania pozostałości dotyczą m.in. cieczy z nalepką nr 8."
+          "expected_correct": false,
+          "rationale": "Wariant błędny: Tak, ale wyłącznie jeżeli pojazd jedzie przez tunel E. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 8.1.5.3, przypis 4 w opisanym scenariuszu."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Wariant błędny: Nie, te elementy dotyczą wyłącznie gazów 2.2. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 8.1.5.3, przypis 4 w opisanym scenariuszu."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Wariant błędny: Tak, ale wyłącznie jeżeli pojazd jedzie przez tunel E. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 8.1.5.3, przypis 4 w opisanym scenariuszu."
+          "expected_correct": true,
+          "rationale": "Wymagania łopaty, osłony otworów kanalizacyjnych i pojemnika do zbierania pozostałości dotyczą m.in. cieczy z nalepką nr 8."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne. Etap 4b: zamieniono pozycje A i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -83,11 +83,11 @@
         "module_id": "ADR-B-08",
         "stem": "W pojeździe ADR przewożona jest ciecz oznaczona wyłącznie nalepką nr 8. Czy według 8.1.5.3 zestaw do ograniczenia rozlewu obejmuje łopatę, osłonę odpływu i pojemnik?",
         "options": {
-          "A": "Tak, dla cieczy z nalepką 8 te trzy elementy są wymagane",
+          "A": "Tak, ale wyłącznie jeżeli pojazd jedzie przez tunel E",
           "B": "Nie, te elementy dotyczą wyłącznie gazów 2.2",
-          "C": "Tak, ale wyłącznie jeżeli pojazd jedzie przez tunel E"
+          "C": "Tak, dla cieczy z nalepką 8 te trzy elementy są wymagane"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Wymagania łopaty, osłony otworów kanalizacyjnych i pojemnika do zbierania pozostałości dotyczą m.in. cieczy z nalepką nr 8.",
         "sources": [
           {
@@ -158,16 +158,16 @@
           "rationale": "Wariant błędny: Tak, w każdym przewozie ADR. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 8.1.5.3, przypis 4 w opisanym scenariuszu."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Wymaganie łopaty, osłony odpływu i pojemnika dotyczy wskazanych nalepek tylko w odniesieniu do materiałów stałych i cieczy, nie samego gazu 2.2."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Wariant błędny: Tak, jeśli gaz przewożony jest w dwóch butlach. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 8.1.5.3, przypis 4 w opisanym scenariuszu."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wymaganie łopaty, osłony odpływu i pojemnika dotyczy wskazanych nalepek tylko w odniesieniu do materiałów stałych i cieczy, nie samego gazu 2.2."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -178,10 +178,10 @@
         "stem": "Przewożony jest wyłącznie gaz z nalepką 2.2. Czy 8.1.5.3 nakazuje wozić łopatę i pojemnik do zbierania uwolnionego gazu?",
         "options": {
           "A": "Tak, w każdym przewozie ADR",
-          "B": "Nie, wymaganie tych elementów dotyczy materiałów stałych lub ciekłych z określonymi numerami nalepek",
-          "C": "Tak, jeśli gaz przewożony jest w dwóch butlach"
+          "B": "Tak, jeśli gaz przewożony jest w dwóch butlach",
+          "C": "Nie, wymaganie tych elementów dotyczy materiałów stałych lub ciekłych z określonymi numerami nalepek"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "Wymaganie łopaty, osłony odpływu i pojemnika dotyczy wskazanych nalepek tylko w odniesieniu do materiałów stałych i cieczy, nie samego gazu 2.2.",
         "sources": [
           {
@@ -342,20 +342,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Granica jest ścisła: przy 1000 kg netto kod B1000C wyklucza C/D/E, natomiast dopiero większa masa wyklucza również B."
+          "expected_correct": false,
+          "rationale": "Wariant błędny: Nie, ale wszystkie kategorie są dozwolone. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 8.6.4, kod B1000C w opisanym scenariuszu."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Wariant błędny: Tak, B jest wykluczony od 1 kg. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 8.6.4, kod B1000C w opisanym scenariuszu."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Wariant błędny: Nie, ale wszystkie kategorie są dozwolone. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 8.6.4, kod B1000C w opisanym scenariuszu."
+          "expected_correct": true,
+          "rationale": "Granica jest ścisła: przy 1000 kg netto kod B1000C wyklucza C/D/E, natomiast dopiero większa masa wyklucza również B."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne. Etap 4b: zamieniono pozycje A i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -365,11 +365,11 @@
         "module_id": "ADR-B-11",
         "stem": "Materiały wybuchowe objęte kodem tunelowym B1000C mają 1000 kg netto materiału wybuchowego w jednostce transportowej. Czy sam ten kod wyklucza kategorię B?",
         "options": {
-          "A": "Nie, próg B stosuje się dopiero przy przekroczeniu 1000 kg; ograniczone są C, D, E",
+          "A": "Nie, ale wszystkie kategorie są dozwolone",
           "B": "Tak, B jest wykluczony od 1 kg",
-          "C": "Nie, ale wszystkie kategorie są dozwolone"
+          "C": "Nie, próg B stosuje się dopiero przy przekroczeniu 1000 kg; ograniczone są C, D, E"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Granica jest ścisła: przy 1000 kg netto kod B1000C wyklucza C/D/E, natomiast dopiero większa masa wyklucza również B.",
         "sources": [
           {
@@ -483,20 +483,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Instrukcje dopuszczają reakcję na mały pożar hamulców, opon lub silnika wyłącznie w odpowiednich i bezpiecznych warunkach."
+          "expected_correct": false,
+          "rationale": "Wariant błędny: Nigdy, nawet gdy pożar nie objął ładunku. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 5.4.3.4 (instrukcje pisemne) w opisanym scenariuszu."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Wariant błędny: W każdym przypadku, nawet gdy zagrożone jest życie załogi. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 5.4.3.4 (instrukcje pisemne) w opisanym scenariuszu."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Wariant błędny: Nigdy, nawet gdy pożar nie objął ładunku. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 5.4.3.4 (instrukcje pisemne) w opisanym scenariuszu."
+          "expected_correct": true,
+          "rationale": "Instrukcje dopuszczają reakcję na mały pożar hamulców, opon lub silnika wyłącznie w odpowiednich i bezpiecznych warunkach."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne. Etap 4b: zamieniono pozycje A i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -506,11 +506,11 @@
         "module_id": "ADR-B-05",
         "stem": "Po wypadku przewożonego ADR materiału widać niewielki pożar hamulców, który nie objął ładunku. Kiedy załoga może rozważyć użycie gaśnicy?",
         "options": {
-          "A": "Gdy jest to właściwe i bezpieczne oraz pożar ma charakter niewielki lub początkowy",
+          "A": "Nigdy, nawet gdy pożar nie objął ładunku",
           "B": "W każdym przypadku, nawet gdy zagrożone jest życie załogi",
-          "C": "Nigdy, nawet gdy pożar nie objął ładunku"
+          "C": "Gdy jest to właściwe i bezpieczne oraz pożar ma charakter niewielki lub początkowy"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Instrukcje dopuszczają reakcję na mały pożar hamulców, opon lub silnika wyłącznie w odpowiednich i bezpiecznych warunkach.",
         "sources": [
           {
@@ -534,16 +534,16 @@
           "rationale": "Wariant błędny: Tak, bez wyjątków. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 5.4.3.4 (instrukcje pisemne) w opisanym scenariuszu."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Ochrona kanalizacji i środowiska nie oznacza narażania życia członków załogi. W pierwszej kolejności należy zapewnić bezpieczeństwo."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Wariant błędny: Tak, ale wyłącznie bez rękawic. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 5.4.3.4 (instrukcje pisemne) w opisanym scenariuszu."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Ochrona kanalizacji i środowiska nie oznacza narażania życia członków załogi. W pierwszej kolejności należy zapewnić bezpieczeństwo."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -554,10 +554,10 @@
         "stem": "Wyciek ADR dostaje się do kratki kanalizacyjnej, a dostęp jest niebezpieczny ze względu na opary. Czy instrukcje pisemne wymagają wejścia w strefę zagrożenia w celu założenia osłony?",
         "options": {
           "A": "Tak, bez wyjątków",
-          "B": "Nie, działania ograniczające przedostawanie się materiału do kanalizacji wykonuje się tylko wtedy, gdy są właściwe i bezpieczne",
-          "C": "Tak, ale wyłącznie bez rękawic"
+          "B": "Tak, ale wyłącznie bez rękawic",
+          "C": "Nie, działania ograniczające przedostawanie się materiału do kanalizacji wykonuje się tylko wtedy, gdy są właściwe i bezpieczne"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "Ochrona kanalizacji i środowiska nie oznacza narażania życia członków załogi. W pierwszej kolejności należy zapewnić bezpieczeństwo.",
         "sources": [
           {

@@ -64,16 +64,16 @@
           "rationale": "Nieprawidłowy wariant: Do dowolnego kraju będącego stroną ADR. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2. Wymaga niezależnej recenzji."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Odstępstwo dotyczy napełnienia i przewozu w celu wywozu do państw niebędących stronami ADR; sama amerykańska homologacja nie wystarcza."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Nieprawidłowy wariant: Wyłącznie do przewoźnika krajowego. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2. Wymaga niezależnej recenzji."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Odstępstwo dotyczy napełnienia i przewozu w celu wywozu do państw niebędących stronami ADR; sama amerykańska homologacja nie wystarcza."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego. Etap 4b: zamiana miejsc opcji B i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -84,10 +84,10 @@
         "stem": "Butla wielokrotnego napełniania dopuszczona w USA ma być napełniona w Polsce w celu eksportu zgodnie z ADR 1.1.4.7.2. Dokąd może być kierowany taki eksport w ramach tego przepisu?",
         "options": {
           "A": "Do dowolnego kraju będącego stroną ADR",
-          "B": "Wyłącznie do państw, które nie są Umawiającymi się Stronami ADR",
-          "C": "Wyłącznie do przewoźnika krajowego"
+          "B": "Wyłącznie do przewoźnika krajowego",
+          "C": "Wyłącznie do państw, które nie są Umawiającymi się Stronami ADR"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "Odstępstwo dotyczy napełnienia i przewozu w celu wywozu do państw niebędących stronami ADR; sama amerykańska homologacja nie wystarcza.",
         "sources": [
           {
@@ -154,20 +154,20 @@
       "source_2025_comparison_url": "https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Warunkiem zastosowania odstępstwa jest oznakowanie i nalepek ostrzegawczych zgodnie z rozdziałem 5.2 ADR."
+          "expected_correct": false,
+          "rationale": "Nieprawidłowy wariant: Dowolne oznakowanie sprzedawcy. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2(b). Wymaga niezależnej recenzji."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Nieprawidłowy wariant: Wyłącznie regulamin konkretnego promu. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2(b). Wymaga niezależnej recenzji."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Nieprawidłowy wariant: Dowolne oznakowanie sprzedawcy. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2(b). Wymaga niezależnej recenzji."
+          "expected_correct": true,
+          "rationale": "Warunkiem zastosowania odstępstwa jest oznakowanie i nalepek ostrzegawczych zgodnie z rozdziałem 5.2 ADR."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -177,11 +177,11 @@
         "module_id": "ADR-B-10",
         "stem": "Naczynie ciśnieniowe DOT korzysta z wyjątku eksportowego ADR 1.1.4.7.2. Jakie przepisy wyznaczają jego oznakowanie i nalepki?",
         "options": {
-          "A": "Rozdział 5.2 ADR",
+          "A": "Dowolne oznakowanie sprzedawcy",
           "B": "Wyłącznie regulamin konkretnego promu",
-          "C": "Dowolne oznakowanie sprzedawcy"
+          "C": "Rozdział 5.2 ADR"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Warunkiem zastosowania odstępstwa jest oznakowanie i nalepek ostrzegawczych zgodnie z rozdziałem 5.2 ADR.",
         "sources": [
           {
@@ -295,20 +295,20 @@
       "source_2025_comparison_url": "https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Dla przewozu zgodnie z 1.1.4.7 dokument wymaga odpowiedniej wzmianki wskazującej zastosowany wariant 1.1.4.7.1 albo 1.1.4.7.2."
+          "expected_correct": false,
+          "rationale": "Nieprawidłowy wariant: Sam numer telefonu kierowcy zamiast dokumentu. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 5.4.1.1.24. Wymaga niezależnej recenzji."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Nieprawidłowy wariant: Wyłącznie słowo 'gaz' bez innych danych. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 5.4.1.1.24. Wymaga niezależnej recenzji."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Nieprawidłowy wariant: Sam numer telefonu kierowcy zamiast dokumentu. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 5.4.1.1.24. Wymaga niezależnej recenzji."
+          "expected_correct": true,
+          "rationale": "Dla przewozu zgodnie z 1.1.4.7 dokument wymaga odpowiedniej wzmianki wskazującej zastosowany wariant 1.1.4.7.1 albo 1.1.4.7.2."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -318,11 +318,11 @@
         "module_id": "ADR-B-10",
         "stem": "W łańcuchu importu gazu w butli DOT przewoźnik korzysta z ADR 1.1.4.7.1. Jaką specjalną wzmiankę powinien przewidywać dokument przewozowy?",
         "options": {
-          "A": "Adnotację o przewozie zgodnym z 1.1.4.7.1 na zasadach 5.4.1.1.24",
+          "A": "Sam numer telefonu kierowcy zamiast dokumentu",
           "B": "Wyłącznie słowo 'gaz' bez innych danych",
-          "C": "Sam numer telefonu kierowcy zamiast dokumentu"
+          "C": "Adnotację o przewozie zgodnym z 1.1.4.7.1 na zasadach 5.4.1.1.24"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Dla przewozu zgodnie z 1.1.4.7 dokument wymaga odpowiedniej wzmianki wskazującej zastosowany wariant 1.1.4.7.1 albo 1.1.4.7.2.",
         "sources": [
           {
@@ -346,16 +346,16 @@
           "rationale": "Nieprawidłowy wariant: Wzmianka dotycząca 1.1.4.7.1 niezależnie od sytuacji. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 5.4.1.1.24. Wymaga niezależnej recenzji."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Wymagany wariant wzmianki zależy od tego, czy wykonywany jest import na zasadach 1.1.4.7.1, czy eksport na zasadach 1.1.4.7.2."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Nieprawidłowy wariant: Brak dodatkowego wpisu, gdy butla ma nalepkę. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 5.4.1.1.24. Wymaga niezależnej recenzji."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wymagany wariant wzmianki zależy od tego, czy wykonywany jest import na zasadach 1.1.4.7.1, czy eksport na zasadach 1.1.4.7.2."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego. Etap 4b: zamiana miejsc opcji B i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -366,10 +366,10 @@
         "stem": "W wywozie gazów w butlach DOT korzystającym z ADR 1.1.4.7.2 jaki wariant wpisu z 5.4.1.1.24 jest właściwy?",
         "options": {
           "A": "Wzmianka dotycząca 1.1.4.7.1 niezależnie od sytuacji",
-          "B": "Wzmianka o przewozie zgodnym z 1.1.4.7.2",
-          "C": "Brak dodatkowego wpisu, gdy butla ma nalepkę"
+          "B": "Brak dodatkowego wpisu, gdy butla ma nalepkę",
+          "C": "Wzmianka o przewozie zgodnym z 1.1.4.7.2"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "Wymagany wariant wzmianki zależy od tego, czy wykonywany jest import na zasadach 1.1.4.7.1, czy eksport na zasadach 1.1.4.7.2.",
         "sources": [
           {

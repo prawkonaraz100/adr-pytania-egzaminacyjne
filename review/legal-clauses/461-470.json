@@ -64,16 +64,16 @@
           "rationale": "Błędny wariant (Tak, niezależnie od objętości butelek): pomija warunek albo zaprzecza zakresowi ADR 5.2.1.8.1. Obowiązują wyjątki i odpowiedni sposób przewozu."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Limit 5 litrów odnosi się do ilości cieczy w danym opakowaniu wewnętrznym lub pojedynczym, a nie do samego rodzaju kartonu."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Błędny wariant (Tak, gdy zewnętrzny karton jest biały): pomija warunek albo zaprzecza zakresowi ADR 5.2.1.8.1. Obowiązują wyjątki i odpowiedni sposób przewozu."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Limit 5 litrów odnosi się do ilości cieczy w danym opakowaniu wewnętrznym lub pojedynczym, a nie do samego rodzaju kartonu."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -84,10 +84,10 @@
         "stem": "Opakowanie kombinowane ma butelki wewnętrzne z materiałem niebezpiecznym dla środowiska, każda zawiera 6 litrów. Czy sam fakt użycia opakowania kombinowanego uruchamia wyjątek 5.2.1.8.1?",
         "options": {
           "A": "Tak, niezależnie od objętości butelek",
-          "B": "Nie, wyjątek dotyczy ilości nie większej niż 5 litrów na opakowanie wewnętrzne",
-          "C": "Tak, gdy zewnętrzny karton jest biały"
+          "B": "Tak, gdy zewnętrzny karton jest biały",
+          "C": "Nie, wyjątek dotyczy ilości nie większej niż 5 litrów na opakowanie wewnętrzne"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "Limit 5 litrów odnosi się do ilości cieczy w danym opakowaniu wewnętrznym lub pojedynczym, a nie do samego rodzaju kartonu.",
         "sources": [
           {
@@ -154,20 +154,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "ADR wymaga umieszczenia znaku środowiskowego obok oznaczeń 5.2.1.1, z zachowaniem wymagań widoczności i trwałości."
+          "expected_correct": false,
+          "rationale": "Błędny wariant (Wyłącznie na dokumentach kierowcy, zamiast na opakowaniu): pomija warunek albo zaprzecza zakresowi ADR 5.2.1.8.2. Obowiązują wyjątki i odpowiedni sposób przewozu."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Błędny wariant (Wyłącznie na wewnętrznej stronie wieka): pomija warunek albo zaprzecza zakresowi ADR 5.2.1.8.2. Obowiązują wyjątki i odpowiedni sposób przewozu."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Błędny wariant (Wyłącznie na dokumentach kierowcy, zamiast na opakowaniu): pomija warunek albo zaprzecza zakresowi ADR 5.2.1.8.2. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "expected_correct": true,
+          "rationale": "ADR wymaga umieszczenia znaku środowiskowego obok oznaczeń 5.2.1.1, z zachowaniem wymagań widoczności i trwałości."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4b: zamieniono pozycje A i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -177,11 +177,11 @@
         "module_id": "ADR-B-03",
         "stem": "Na sztuce przesyłki wymagany jest znak materiału niebezpiecznego dla środowiska. Gdzie powinien być umieszczony względem oznaczenia numeru UN?",
         "options": {
-          "A": "W pobliżu oznaczeń wymaganych przez 5.2.1.1",
+          "A": "Wyłącznie na dokumentach kierowcy, zamiast na opakowaniu",
           "B": "Wyłącznie na wewnętrznej stronie wieka",
-          "C": "Wyłącznie na dokumentach kierowcy, zamiast na opakowaniu"
+          "C": "W pobliżu oznaczeń wymaganych przez 5.2.1.1"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "ADR wymaga umieszczenia znaku środowiskowego obok oznaczeń 5.2.1.1, z zachowaniem wymagań widoczności i trwałości.",
         "sources": [
           {
@@ -346,16 +346,16 @@
           "rationale": "Błędny wariant (Tylko wtedy, gdy znak został wybrany ze względów marketingowych): pomija warunek albo zaprzecza zakresowi ADR 5.3.6.1. Obowiązują wyjątki i odpowiedni sposób przewozu."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "ADR przewiduje znak środowiskowy także dla wskazanych pojazdów i jednostek, gdy wymagane są nalepki wielkiego formatu oraz spełniono kryteria, z wyłączeniami."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Błędny wariant (Nigdy, bo znak występuje wyłącznie na pojedynczym kartonie): pomija warunek albo zaprzecza zakresowi ADR 5.3.6.1. Obowiązują wyjątki i odpowiedni sposób przewozu."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "ADR przewiduje znak środowiskowy także dla wskazanych pojazdów i jednostek, gdy wymagane są nalepki wielkiego formatu oraz spełniono kryteria, z wyłączeniami."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -366,10 +366,10 @@
         "stem": "Pojazd wymaga nalepek wielkiego formatu i przewozi towary zagrażające środowisku wodnemu. Kiedy znak środowiskowy według 5.3.6 może być dodatkowo wymagany na jednostce?",
         "options": {
           "A": "Tylko wtedy, gdy znak został wybrany ze względów marketingowych",
-          "B": "Gdy spełnione są warunki 5.3.6.1, bez stosownego wyjątku z 5.2.1.8.1",
-          "C": "Nigdy, bo znak występuje wyłącznie na pojedynczym kartonie"
+          "B": "Nigdy, bo znak występuje wyłącznie na pojedynczym kartonie",
+          "C": "Gdy spełnione są warunki 5.3.6.1, bez stosownego wyjątku z 5.2.1.8.1"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "ADR przewiduje znak środowiskowy także dla wskazanych pojazdów i jednostek, gdy wymagane są nalepki wielkiego formatu oraz spełniono kryteria, z wyłączeniami.",
         "sources": [
           {
