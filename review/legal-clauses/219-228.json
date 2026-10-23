@@ -60,21 +60,21 @@
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
-          "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Informacje o zdarzeniu i zagrożeniu związanym z przewożonym towarem, jeśli są dostępne. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "expected_correct": true,
+          "rationale": "Zgodne z regułą: 5.4.3.4: podczas powiadamiania ratowników podaje się możliwie wszystkie dostępne informacje o zdarzeniu i towarach niebezpiecznych."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Podczas powiadamiania służb liczą się charakter zdarzenia, jego lokalizacja i posiadane informacje o przewożonym niebezpiecznym ładunku. Kierowca nie powinien narażać się na niebezpieczeństwo dla zdobycia dodatkowych danych."
+          "expected_correct": false,
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: podczas powiadamiania ratowników podaje się możliwie wszystkie dostępne informacje o zdarzeniu i towarach niebezpiecznych. Odpowiedź B nie oddaje wymaganego działania."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Tylko planowaną godzinę rozładunku. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: podczas powiadamiania ratowników podaje się możliwie wszystkie dostępne informacje o zdarzeniu i towarach niebezpiecznych. Odpowiedź C nie oddaje wymaganego działania."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Ocena dotyczy wyłącznie wskazanego scenariusza i odpowiedniego obowiązku. Pełny polski tekst, wyjątki i sprostowanie wymagają osobnej kontroli specjalisty.",
-      "editorial_result": "preliminary_authoring_check_only",
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.4: podczas powiadamiania ratowników podaje się możliwie wszystkie dostępne informacje o zdarzeniu i towarach niebezpiecznych. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending.",
+      "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -87,7 +87,7 @@
           "B": "Wyłącznie kolor kabiny pojazdu",
           "C": "Tylko planowaną godzinę rozładunku"
         },
-        "correct_option": "B",
+        "correct_option": "A",
         "explanation": "Podczas powiadamiania służb liczą się charakter zdarzenia, jego lokalizacja i posiadane informacje o przewożonym niebezpiecznym ładunku. Kierowca nie powinien narażać się na niebezpieczeństwo dla zdobycia dodatkowych danych.",
         "sources": [
           {
@@ -108,20 +108,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Jak najbliżej miejsca wycieku, by obserwować etykietę. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: należy pozostawać po stronie nawietrznej i unikać wdychania oparów. Odpowiedź A nie oddaje wymaganego działania."
         },
         "B": {
-          "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Po stronie nawietrznej, unikając wdychania oparów. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "expected_correct": true,
+          "rationale": "Zgodne z regułą: 5.4.3.4: należy pozostawać po stronie nawietrznej i unikać wdychania oparów."
         },
         "C": {
-          "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Instrukcje pisemne wymagają unikania kontaktu z substancją i wdychania dymu, pyłu lub oparów oraz pozostawania po stronie nawietrznej."
+          "expected_correct": false,
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: należy pozostawać po stronie nawietrznej i unikać wdychania oparów. Odpowiedź C nie oddaje wymaganego działania."
         }
       },
-      "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena dotyczy wyłącznie wskazanego scenariusza i odpowiedniego obowiązku. Pełny polski tekst, wyjątki i sprostowanie wymagają osobnej kontroli specjalisty.",
-      "editorial_result": "preliminary_authoring_check_only",
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.4: należy pozostawać po stronie nawietrznej i unikać wdychania oparów. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending.",
+      "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -134,7 +134,7 @@
           "B": "Po stronie nawietrznej, unikając wdychania oparów",
           "C": "Po stronie zawietrznej, aby widzieć kierunek przemieszczania chmury"
         },
-        "correct_option": "C",
+        "correct_option": "B",
         "explanation": "Instrukcje pisemne wymagają unikania kontaktu z substancją i wdychania dymu, pyłu lub oparów oraz pozostawania po stronie nawietrznej.",
         "sources": [
           {
@@ -201,21 +201,21 @@
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
-          "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Tylko jeżeli można zrobić to bezpiecznie i zgodnie z instrukcjami, nie narażając się na zagrożenie. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "expected_correct": true,
+          "rationale": "Zgodne z regułą: 5.4.3.4: gaśnicy można użyć do małego/początkowego pożaru opony, hamulców lub silnika tylko wtedy, gdy to właściwe i bezpieczne."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Instrukcje ADR rozróżniają niewielki pożar pojazdu, przy którym użycie podręcznej gaśnicy może być rozważone, od pożaru przedziału ładunkowego. Nie wolno ryzykować zdrowia lub życia."
+          "expected_correct": false,
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: gaśnicy można użyć do małego/początkowego pożaru opony, hamulców lub silnika tylko wtedy, gdy to właściwe i bezpieczne. Odpowiedź B nie oddaje wymaganego działania."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Dopiero po otwarciu wszystkich przesyłek. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: gaśnicy można użyć do małego/początkowego pożaru opony, hamulców lub silnika tylko wtedy, gdy to właściwe i bezpieczne. Odpowiedź C nie oddaje wymaganego działania."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Ocena dotyczy wyłącznie wskazanego scenariusza i odpowiedniego obowiązku. Pełny polski tekst, wyjątki i sprostowanie wymagają osobnej kontroli specjalisty.",
-      "editorial_result": "preliminary_authoring_check_only",
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.4: gaśnicy można użyć do małego/początkowego pożaru opony, hamulców lub silnika tylko wtedy, gdy to właściwe i bezpieczne. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending.",
+      "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -228,7 +228,7 @@
           "B": "Zawsze, nawet bez drogi ucieczki",
           "C": "Dopiero po otwarciu wszystkich przesyłek"
         },
-        "correct_option": "B",
+        "correct_option": "A",
         "explanation": "Instrukcje ADR rozróżniają niewielki pożar pojazdu, przy którym użycie podręcznej gaśnicy może być rozważone, od pożaru przedziału ładunkowego. Nie wolno ryzykować zdrowia lub życia.",
         "sources": [
           {
@@ -249,20 +249,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Pozwolić wszystkim obserwować miejsce awarii z bliska. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: należy ostrzec osoby postronne o konieczności oddalenia się i stosować się do służb. Odpowiedź A nie oddaje wymaganego działania."
         },
         "B": {
-          "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Ostrzec osoby postronne, aby się oddaliły i stosowały się do wskazań służb. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "expected_correct": true,
+          "rationale": "Zgodne z regułą: 5.4.3.4: należy ostrzec osoby postronne o konieczności oddalenia się i stosować się do służb."
         },
         "C": {
-          "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Załoga ma ostrzec innych o zagrożeniu, zalecić oddalenie się i stosować do poleceń służb ratowniczych. Nie wolno angażować osób postronnych w niebezpieczne czynności."
+          "expected_correct": false,
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: należy ostrzec osoby postronne o konieczności oddalenia się i stosować się do służb. Odpowiedź C nie oddaje wymaganego działania."
         }
       },
-      "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena dotyczy wyłącznie wskazanego scenariusza i odpowiedniego obowiązku. Pełny polski tekst, wyjątki i sprostowanie wymagają osobnej kontroli specjalisty.",
-      "editorial_result": "preliminary_authoring_check_only",
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.4: należy ostrzec osoby postronne o konieczności oddalenia się i stosować się do służb. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending.",
+      "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -275,7 +275,7 @@
           "B": "Ostrzec osoby postronne, aby się oddaliły i stosowały się do wskazań służb",
           "C": "Poprosić osoby postronne o pomoc przy wycieku"
         },
-        "correct_option": "C",
+        "correct_option": "B",
         "explanation": "Załoga ma ostrzec innych o zagrożeniu, zalecić oddalenie się i stosować do poleceń służb ratowniczych. Nie wolno angażować osób postronnych w niebezpieczne czynności.",
         "sources": [
           {
@@ -342,21 +342,21 @@
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
-          "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Zapisać numer poprzedzony literami UN, jeśli wymagany jest standardowy opis ADR. Pomylenie tego działania z wymaganiem ADR 5.4.1.1.1(a) może narazić kierowcę na błąd."
+          "expected_correct": true,
+          "rationale": "Zgodne z regułą: 5.4.1.1.1(a): numer UN w dokumencie przewozowym musi być poprzedzony literami UN."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.1.1.1(a): Standardowy opis towaru niebezpiecznego w dokumencie przewozowym obejmuje litery UN i numer identyfikacyjny. Wyjątki od obowiązku dokumentowania należy rozpatrywać odrębnie."
+          "expected_correct": false,
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.1.1.1(a): numer UN w dokumencie przewozowym musi być poprzedzony literami UN. Odpowiedź B nie oddaje wymaganego działania."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Usunąć cały opis, pozostawiając masę brutto. Pomylenie tego działania z wymaganiem ADR 5.4.1.1.1(a) może narazić kierowcę na błąd."
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.1.1.1(a): numer UN w dokumencie przewozowym musi być poprzedzony literami UN. Odpowiedź C nie oddaje wymaganego działania."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Ocena dotyczy wyłącznie wskazanego scenariusza i odpowiedniego obowiązku. Pełny polski tekst, wyjątki i sprostowanie wymagają osobnej kontroli specjalisty.",
-      "editorial_result": "preliminary_authoring_check_only",
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.1.1.1(a): numer UN w dokumencie przewozowym musi być poprzedzony literami UN. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending.",
+      "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -369,7 +369,7 @@
           "B": "Zastąpić numer UN nazwą handlową",
           "C": "Usunąć cały opis, pozostawiając masę brutto"
         },
-        "correct_option": "B",
+        "correct_option": "A",
         "explanation": "Standardowy opis towaru niebezpiecznego w dokumencie przewozowym obejmuje litery UN i numer identyfikacyjny. Wyjątki od obowiązku dokumentowania należy rozpatrywać odrębnie.",
         "sources": [
           {
@@ -436,21 +436,21 @@
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.1; 8.1.2.3: Instrukcje pisemne muszą być w kabinie załogi i łatwo dostępne. To element przygotowania do bezpiecznego reagowania na awarie."
+          "expected_correct": false,
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.1 i 8.1.2.3: instrukcje pisemne przewozi się w kabinie w miejscu łatwo dostępnym. Odpowiedź A nie oddaje wymaganego działania."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Zastąpić je wyłącznie telefonem kontaktowym do firmy. Pomylenie tego działania z wymaganiem ADR 5.4.3.1; 8.1.2.3 może narazić kierowcę na błąd."
+          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.1 i 8.1.2.3: instrukcje pisemne przewozi się w kabinie w miejscu łatwo dostępnym. Odpowiedź B nie oddaje wymaganego działania."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Umieścić je w kabinie załogi w łatwo dostępnym miejscu. Pomylenie tego działania z wymaganiem ADR 5.4.3.1; 8.1.2.3 może narazić kierowcę na błąd."
+          "expected_correct": true,
+          "rationale": "Zgodne z regułą: 5.4.3.1 i 8.1.2.3: instrukcje pisemne przewozi się w kabinie w miejscu łatwo dostępnym."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Ocena dotyczy wyłącznie wskazanego scenariusza i odpowiedniego obowiązku. Pełny polski tekst, wyjątki i sprostowanie wymagają osobnej kontroli specjalisty.",
-      "editorial_result": "preliminary_authoring_check_only",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.1 i 8.1.2.3: instrukcje pisemne przewozi się w kabinie w miejscu łatwo dostępnym. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending.",
+      "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -463,7 +463,7 @@
           "B": "Zastąpić je wyłącznie telefonem kontaktowym do firmy",
           "C": "Umieścić je w kabinie załogi w łatwo dostępnym miejscu"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Instrukcje pisemne muszą być w kabinie załogi i łatwo dostępne. To element przygotowania do bezpiecznego reagowania na awarie.",
         "sources": [
           {
