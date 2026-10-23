@@ -49,6 +49,13 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [Scenariusze ćwiczeń praktycznych](podstawowy/praktyka/SCENARIUSZE.md)
 - [Matryca kompetencji JSON](podstawowy/kompetencje.json)
 
+## Szczegółowa kontrola odpowiedzi A/B/C — pytania 0001–0060
+
+- [Raport dla 60 pytań](review/legal-clauses/RAPORT-001-060.md), z osobnymi uzasadnieniami **180 wariantów** odpowiedzi w plikach [001–030](review/legal-clauses/001-030.json) i [031–060](review/legal-clauses/031-060.json).
+- Poprawiono pytania `0009`, `0019`, `0027`, `0031`, `0033`, `0043`.
+- `python scripts/check_legal_clause_review.py` wykrywa brak oceny wariantu lub nieaktualny zapis po edycji pytania.
+- To porównanie redakcyjno-źródłowe, **nie dosłowny odbiór pełnego tekstu polskiego i nie zatwierdzenie eksperta**. Nadal 216 `needs_review` / 0 `verified`.
+
 ## Pełny pierwszy przebieg redakcyjny pytań 001–216 (23.10.2026)
 
 - [Raport 216 pytań w kolejności ID](review/sequential/RAPORT.md) i **8 rejestrów** w `review/sequential/`; każda pozycja ma kopię A/B/C, klucza, wyjaśnienia, referencji oraz stopnia faktycznej kontroli źródeł.
