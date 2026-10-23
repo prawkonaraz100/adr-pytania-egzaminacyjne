@@ -85,3 +85,13 @@ Omów w zespole zasadę ADR 8.3.1 oraz to, kto jest członkiem załogi. Warunki 
 **Obserwowalne kryterium:** Odróżnia obowiązek sprawdzenia od uprawnienia do działania.
 
 Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+
+## Uzupełnienie powiązań z pytaniami — ADR-B-07 (23.10.2026)
+
+Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
+
+### ADR-B-0019 — Kto zgodnie z ADR przekazuje załodze pojazdu wymagane instrukcje pisemne?
+
+To przewoźnik zapewnia załodze instrukcje pisemne, w języku zrozumiałym dla jej członków.
+
+**Podstawa do kontroli:** ADR 2025, 1.4.2.2.6; 5.4.3.2. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
