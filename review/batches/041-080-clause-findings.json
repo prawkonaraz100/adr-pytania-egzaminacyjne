@@ -1,0 +1,1046 @@
+{
+  "records": [
+    {
+      "id": "ADR-B-0041",
+      "reference": "ADR 2025, 1.3.2.4",
+      "basis_read": "1.3.2.4, tom I (uaktualnianie szkolenia)",
+      "variants": {
+        "A": {
+          "text": "Żeby uwzględniać zmiany wymagań i przepisów",
+          "key": true,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "B": {
+          "text": "Wyłącznie wtedy, gdy zmieni się numer UN przewożonego towaru",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "C": {
+          "text": "Tylko w razie zmiany stanowiska pracy, niezależnie od zmian przepisów",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        }
+      },
+      "explanation": "Przepisy ADR się zmieniają, dlatego pracownicy powinni otrzymywać szkolenia przypominające uwzględniające zmiany.",
+      "explanation_verdict": "zgodność wstępna",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "zgodność wstępna"
+    },
+    {
+      "id": "ADR-B-0042",
+      "reference": "ADR 2025, 2.2.2.1.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Klasy 8",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Klasy 2",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Klasy 3",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Klasa 2 ADR obejmuje gazy. Szczegółowe podziały zależą od zagrożeń, takich jak palność, toksyczność i ciśnienie.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0043",
+      "reference": "ADR 2025, 2.2.62.1.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Klasa 4.2",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Klasa 6.2",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Klasa 6.1 (materiały trujące)",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Materiały zakaźne należą do klasy 6.2. Klasa 6.1 dotyczy materiałów trujących i nie jest zamiennym oznaczeniem zagrożenia zakaźnego.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0044",
+      "reference": "ADR 2025, 2.2.51.1.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Właściwości utleniające, mogące nasilać pożar",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Radioaktywność",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zawsze silna żrącość",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Materiały utleniające mogą ułatwiać spalanie innych substancji, nawet jeśli same nie są materiałami palnymi.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0045",
+      "reference": "ADR 2025, 5.2.1.8",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Zastąpić go dodatkowym wpisem w dokumencie przewozowym",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Zamiast niego umieścić nalepkę klasy 9",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Umieścić go zgodnie z zasadami znakowania",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Jeżeli towar i sposób przewozu spełniają warunki wymagające znaku dla środowiska, odpowiedni znak umieszcza się na sztuce przesyłki.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0046",
+      "reference": "ADR 2025, 5.4.1.1.1 (a); 5.4.1.1.3.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Tak, zawsze",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Nie, numer UN nadal jest wymagany, jeśli właściwe przepisy wymagają dokumentu ADR",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Tak, jeśli odpad jest zapakowany w opakowanie certyfikowane UN",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "W standardowym dokumencie ADR numer UN pozostaje wymagany; informacja o odpadzie uzupełnia prawidłowy opis zgodnie z przepisami i wyjątkami.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0047",
+      "reference": "ADR 2025, 8.3.6",
+      "basis_read": "8.3.6, tom II s. PDF 638",
+      "variants": {
+        "A": {
+          "text": "Wyłączyć go dopiero po zakończeniu załadunku",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "B": {
+          "text": "Wyłączyć, zgodnie z przepisem ADR",
+          "key": true,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "C": {
+          "text": "Pozostawić go na biegu jałowym przez cały załadunek",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        }
+      },
+      "explanation": "Zasada jest prosta: podczas załadunku i rozładunku silnik powinien być wyłączony; przepis dopuszcza określone wyjątki.",
+      "explanation_verdict": "zgodność wstępna",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "zgodność wstępna"
+    },
+    {
+      "id": "ADR-B-0048",
+      "reference": "ADR 2025, 8.3.3",
+      "basis_read": "8.3.3, tom II s. PDF 638",
+      "variants": {
+        "A": {
+          "text": "Może samodzielnie otwierać opakowania po zatrzymaniu na terenie przedsiębiorstwa",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "B": {
+          "text": "Może otwierać opakowania w celu sprawdzenia zawartości, jeżeli mają numer UN",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "C": {
+          "text": "Nie może otwierać sztuk przesyłek z towarami niebezpiecznymi",
+          "key": true,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        }
+      },
+      "explanation": "ADR 8.3.3 zabrania kierowcy i innym członkom załogi otwierania sztuk przesyłek zawierających towary niebezpieczne. Sam postój ani obecność numeru UN nie znoszą tego zakazu.",
+      "explanation_verdict": "zgodność wstępna",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "zgodność wstępna"
+    },
+    {
+      "id": "ADR-B-0049",
+      "reference": "ADR 2025, 5.4.3.3",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Przed rozpoczęciem przewozu",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Dopiero gdy zacznie się wyciek",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Po przekazaniu ładunku odbiorcy",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Przed ruszeniem kierowca powinien zapoznać się z instrukcjami i przewożonymi towarami, a nie szukać informacji dopiero podczas awarii.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0050",
+      "reference": "ADR 2025, 5.4.3.2",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "W dowolnym języku wybranym przez nadawcę, nawet niezrozumiałym dla kierowcy",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "W języku zrozumiałym dla każdego członka załogi",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Wyłącznie po francusku",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Instrukcje muszą być przekazane członkom załogi w języku, który potrafią przeczytać i zrozumieć.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0051",
+      "reference": "ADR 2025, 5.3.2.3.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Nasilenie zagrożenia wyrażanego tą cyfrą",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Oznacza dwa różne zagrożenia, niezależnie od znaczenia cyfr",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Oznacza, że materiał nie wymaga innych nalepek ostrzegawczych",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "W numerach rozpoznawczych zagrożenia powtórzenie cyfry co do zasady podkreśla intensywność zagrożenia.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0052",
+      "reference": "ADR 2025, 5.3.2.2.2",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Pomarańczowy z czarnymi oznaczeniami",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Żółty z czarnymi numerami",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Biały z czerwonymi numerami",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Standardowe tablice ADR są pomarańczowe, a cyfry, linie i obramowanie mają kolor czarny.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0053",
+      "reference": "ADR 2025, 5.3.2.3.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Zagrożenie utleniające",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Zagrożenie promieniotwórcze",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zagrożenie żrące",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Cyfra 8 w numerze rozpoznawczym zagrożenia oznacza działanie żrące, ale cały numer trzeba interpretować łącznie.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0054",
+      "reference": "ADR 2025, 1.4.3.1.1 (b)",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Tak, bez ograniczeń",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Nie, dopóki uszkodzenie nie zostanie naprawione zgodnie z zasadami",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Tak, pod warunkiem zasłonięcia wycieku taśmą",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Załadowca powinien sprawdzić opakowania. Nie może przekazać uszkodzonej sztuki przesyłki z wyciekiem lub ryzykiem wycieku do czasu usunięcia uszkodzenia.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0055",
+      "reference": "ADR 2025, 1.4.2.1.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Nadawca",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Przewoźnik, który sam określa dane bez informacji od nadawcy",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Odbiorca, który przygotowuje dane jeszcze przed nadaniem",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Nadawca powinien przekazać wymagane informacje o towarze. Obowiązki innych uczestników są odrębne.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0056",
+      "reference": "ADR 2025, 8.1.5.2",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Dwa wolnostojące znaki ostrzegawcze zamiast klina",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Pas zabezpieczający ładunek, założony na koło",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Klin pod koło",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Klin pod koło pomaga unieruchomić pojazd. Wymagania i dobór klina określa ADR.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0057",
+      "reference": "ADR 2025, 8.1.5.2",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Tak, dla każdego członka załogi",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Wystarczy jedna kamizelka na całą jednostkę transportową",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Kamizelka jest wymagana tylko u kierowcy, a nie u pozostałych członków załogi",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Każdy członek załogi powinien mieć kamizelkę ostrzegawczą, jeżeli mają zastosowanie wymagania wyposażenia ADR.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0058",
+      "reference": "ADR 2025, 7.5.1.5",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "W dowolnej pozycji, jeśli opakowanie jest zamknięte",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Przeciwnie do kierunku strzałek, aby obniżyć środek ciężkości",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zgodnie ze strzałkami",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Jeśli wymagane są strzałki kierunkowe, sztuka przesyłki ma znajdować się w pozycji przez nie wskazanej.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0059",
+      "reference": "ADR 2025, 7.5.7.2",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Tak, jeśli dolne opakowanie jest cięższe",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Nie",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Tak, jeśli wszystkie sztuki przesyłek są spięte jednym pasem",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Sztuk przesyłek nie należy układać jedna na drugiej, jeśli nie są do tego przeznaczone.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0060",
+      "reference": "ADR 2025, 7.5.7.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Tak, jeżeli może uszkodzić lub zdeformować opakowanie",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Nie, pas zawsze trzeba zaciągnąć do granic możliwości",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Nie, jeśli ładunek jest lekki",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Mocowanie ma zabezpieczać przesyłkę, a nie ją niszczyć. Należy uniknąć nadmiernego naprężenia pasów.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0061",
+      "reference": "ADR 2025, 5.4.1.1.7",
+      "basis_read": "5.4.1.1.7, tom II s. PDF 271",
+      "variants": {
+        "A": {
+          "text": "PRZEWÓZ ZGODNY Z 1.1.3.6",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "B": {
+          "text": "PRZEWÓZ ZGODNY Z 5.4.3.1",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "C": {
+          "text": "PRZEWÓZ ZGODNY Z 1.1.4.2.1",
+          "key": true,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        }
+      },
+      "explanation": "Przy zastosowaniu szczególnych zasad przewozu w łańcuchu morskim lub lotniczym ADR wymaga określonego dodatkowego zapisu w dokumencie.",
+      "explanation_verdict": "zgodność wstępna",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "zgodność wstępna"
+    },
+    {
+      "id": "ADR-B-0062",
+      "reference": "ADR 2025, 1.1.4.2",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Bo oznakowanie powinno spełniać stosowne wymagania dla całego przewozu i jego etapów",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Ponieważ dokument przewozowy zawsze zastępuje oznakowanie",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Ponieważ oznakowanie IMDG zawsze jest identyczne z oznakowaniem ADR",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Przy przewozach łączonych trzeba sprawdzić szczególne zasady uznawania oznakowania IMDG oraz wymagania ADR na drodze.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0063",
+      "reference": "ADR 2025, 8.6.3.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "W kolumnie 18",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "W kolumnie 15",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "W kolumnie 12",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Kod tunelowy jest podany w dolnej części kolumny 15 tabeli A dla danego towaru, jeśli został przypisany.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0064",
+      "reference": "ADR 2025, 8.6.3.2–8.6.3.3",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Stosuje się kod oznaczający największe ograniczenia",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Wybiera się kod najłagodniejszy",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zawsze przyjmuje się kod A",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Dla towarów podlegających ograniczeniom tunelowym w jednostce transportowej wybiera się najbardziej restrykcyjny kod spośród kodów rzeczywiście mających zastosowanie. Przy ustalaniu kodu trzeba uwzględnić wyłączenia 8.6.3.3 oraz sposób przewozu.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0065",
+      "reference": "ADR 2025, 8.6.3.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Brak ograniczeń tunelowych ADR wynikających z tego kodu",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Całkowity zakaz korzystania z dróg",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Nakaz jazdy tylko nocą",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Symbol (-) oznacza, że sam towar nie podlega ograniczeniom tunelowym ADR z tabeli A. Nadal obowiązują ogólne przepisy ruchu.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0066",
+      "reference": "ADR 2025, 1.10.1.3",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Aby umożliwić dostęp tylko osobom przypadkowym",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Ponieważ zabezpieczenie zastępuje obowiązek właściwego znakowania",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "By ograniczyć nieuprawniony dostęp i ryzyko naruszenia ochrony",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Bezpieczeństwo transportu obejmuje też czasowe składowanie na terenie terminalu lub placu. Stosuje się odpowiednie środki ochrony i kontroli dostępu.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0067",
+      "reference": "ADR 2025, 1.10.1.4",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Zapewnić drugiemu członkowi załogi własny dokument identyfikacyjny ze zdjęciem",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Uznać dokument pierwszego kierowcy za wystarczający dla obu osób",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zastąpić dokument drugiej osoby listem przewozowym z jej nazwiskiem",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Wymóg identyfikacji dotyczy każdego członka załogi z osobna. Jeden dokument ze zdjęciem nie potwierdza tożsamości całej załogi.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0068",
+      "reference": "ADR 2025, 5.4.1.1.1 (h)",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Nazwę i adres odbiorcy",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Wyłącznie kod pocztowy miejsca rozładunku",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Jedynie dane kontaktowe spedytora zamiast odbiorcy",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Dokument powinien co do zasady zawierać nazwę i adres odbiorcy. ADR przewiduje określone wyjątki.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0069",
+      "reference": "ADR 2025, 5.4.1.1.1 (e)",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Wyłącznie sumaryczną masę pojazdu i ładunku",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Tylko numery UN, bez liczby i rodzaju sztuk przesyłek",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Liczba i określenie sztuk przesyłek, jeśli występują",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Dokument przewozowy określa m.in. liczbę i rodzaj sztuk przesyłek. Dodatkowe wymagania zależą od konkretnego ładunku.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0070",
+      "reference": "ADR 2025, 5.4.1.1.1 (f)",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Tak, w odpowiedni sposób według rodzaju towaru",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Nie, jeżeli towary są w sztukach przesyłek",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Zawsze wystarcza sama liczba palet bez ilości towaru",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "ADR co do zasady wymaga podania całkowitej ilości towaru w odpowiedniej jednostce (np. masa netto lub brutto albo objętość).",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0071",
+      "reference": "ADR 2025, 8.1.4.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "12 kg środka gaśniczego w przeliczeniu na proszek",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "4 kg środka gaśniczego w przeliczeniu na proszek",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "8 kg środka gaśniczego w przeliczeniu na proszek",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Dla DMC do 3,5 t tabela w 8.1.4.1 wymaga co najmniej 4 kg środka gaśniczego w przeliczeniu na proszek. Jedna gaśnica musi mieć minimum 2 kg.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0072",
+      "reference": "ADR 2025, 8.1.4.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "8 kg w przeliczeniu na proszek",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "4 kg w przeliczeniu na proszek",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "12 kg w przeliczeniu na proszek",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Dla jednostek o DMC powyżej 3,5 t do 7,5 t wymagane jest łącznie co najmniej 8 kg. Gaśnice muszą spełniać także wymagania szczegółowe.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0073",
+      "reference": "ADR 2025, 8.1.4.2",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "6 kg — wymagane jako absolutne minimum także przy 1.1.3.6",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "2 kg (albo równoważna skuteczność innego odpowiedniego środka gaśniczego)",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "0 kg — przy 1.1.3.6 gaśnica nie jest wymagana",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Dla jednostki transportowej objętej 1.1.3.6 przepis 8.1.4.2 wymaga co najmniej jednej gaśnicy o pojemności 2 kg proszku albo równoważnej skuteczności innego odpowiedniego środka, nadającej się do pożarów klas A, B i C. Gaśnica 6 kg może spełniać minimum, ale **6 kg nie jest wymaganym minimum**.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0074",
+      "reference": "ADR 2025, 8.1.4.4; 8.1.4.5",
+      "basis_read": "8.1.4.4–5, tom II s. PDF 631",
+      "variants": {
+        "A": {
+          "text": "Uznać gaśnicę za prawidłową, jeśli plomba jest cała",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "B": {
+          "text": "Zastąpić datę przeglądu własnym wpisem na etykiecie",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "C": {
+          "text": "Doprowadzić wyposażenie do zgodności przed przewozem",
+          "key": true,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        }
+      },
+      "explanation": "ADR wymaga sprawnych gaśnic z ważnym terminem badania lub dopuszczonego użytkowania. Samo nienaruszenie plomby nie wystarcza.",
+      "explanation_verdict": "zgodność wstępna",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "zgodność wstępna"
+    },
+    {
+      "id": "ADR-B-0075",
+      "reference": "ADR 2025, 8.1.5.2",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Jedna, ponieważ używa jej wyłącznie kierowca",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Dwie, po jednej dla każdej osoby",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Trzy, po jednej dla każdej osi pojazdu",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Wymagane jest wyposażenie ochronne dla każdego członka załogi, w tym kamizelka ostrzegawcza.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0076",
+      "reference": "ADR 2025, 8.1.5.2",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Ochronę oczu, np. okulary ochronne",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Wyłącznie przyciemnione okulary przeciwsłoneczne",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Wyłącznie kask, który nie chroni oczu",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Każdy członek załogi powinien mieć ochronę oczu; chodzi o odpowiedni środek ochronny, a nie zwykłe okulary przeciwsłoneczne.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0077",
+      "reference": "ADR 2025, 8.1.5.3",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Tylko 3 i 8",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Tylko 9 i 9A",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "2.3 lub 6.1",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Maskę ucieczkową przewidziano dla materiałów oznaczonych nalepkami 2.3 (gazy trujące) lub 6.1 (materiały trujące).",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0078",
+      "reference": "ADR 2025, 7.5.7.2",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Tak, jeśli łączna masa nie przekracza 100 kg",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Nie, jeżeli opakowania nie zaprojektowano do piętrzenia",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Tak, jeśli oba kartony mają identyczne nalepki",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "Sztuki przesyłek mogą być piętrzone tylko gdy ich konstrukcja to dopuszcza; same nalepki i masa nie zastępują oceny opakowania.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0079",
+      "reference": "ADR 2025, 7.5.7.1",
+      "basis_read": null,
+      "variants": {
+        "A": {
+          "text": "Dokręcić pasy, ponieważ mocowanie ma być maksymalnie ciasne",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "B": {
+          "text": "Pozostawić pasy bez zmian, bo uszkodzenie opakowań nie ma znaczenia",
+          "key": false,
+          "verdict": "wątpliwość do specjalisty"
+        },
+        "C": {
+          "text": "Dostosować mocowanie tak, by nie uszkadzało ani nie deformowało opakowań",
+          "key": true,
+          "verdict": "wątpliwość do specjalisty"
+        }
+      },
+      "explanation": "ADR wymaga skutecznego unieruchomienia ładunku, ale wyraźnie zabrania nadmiernego napinania pasów powodującego uszkodzenie albo deformację sztuk przesyłek.",
+      "explanation_verdict": "wątpliwość do specjalisty",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "wątpliwość do specjalisty"
+    },
+    {
+      "id": "ADR-B-0080",
+      "reference": "ADR 2025, 7.5.8.1",
+      "basis_read": "7.5.8.1, tom II s. PDF 615",
+      "variants": {
+        "A": {
+          "text": "Po wykonaniu dowolnych dwóch kolejnych przewozów",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "B": {
+          "text": "Dopiero przy okresowej kontroli technicznej",
+          "key": false,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        },
+        "C": {
+          "text": "Przed ponownym załadunkiem, możliwie jak najszybciej",
+          "key": true,
+          "verdict": "zgodność wstępna, wymagane końcowe porównanie w Dz.U."
+        }
+      },
+      "explanation": "Jeżeli zawartość sztuki przesyłki wydostała się i zabrudziła pojazd, oczyszczenie jest wymagane jak najszybciej, bezwzględnie przed kolejnym załadunkiem.",
+      "explanation_verdict": "zgodność wstępna",
+      "exceptions_verdict": "kontrola urzędowa nadal wymagana",
+      "result": "zgodność wstępna"
+    }
+  ],
+  "source_status": "partial_source_compare",
+  "all_approved": false
+}
