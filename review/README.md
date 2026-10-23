@@ -4,7 +4,7 @@
 
 ## Indywidualny przegląd wariantów A/B/C
 
-[Raport dla pierwszych 60 pytań](legal-clauses/RAPORT-001-060.md) i [raport 061–090](legal-clauses/RAPORT-061-090.md), a także trzy pliki `legal-clauses/*.json` zawierają 180 osobnych uzasadnień odpowiedzi A/B/C, podstawy i wyjątki. Są to analizy redakcyjne, nie podpisane opinie fachowca ani pełne porównanie tekstu ogłoszonego w języku polskim. Nie kopiować ocen do `approvals.jsonl`.
+[Raport dla pierwszych 60 pytań](legal-clauses/RAPORT-001-060.md), [raport 061–090](legal-clauses/RAPORT-061-090.md) i [raport 091–120](legal-clauses/RAPORT-091-120.md), a także cztery pliki `legal-clauses/*.json` zawierają 180 osobnych uzasadnień odpowiedzi A/B/C, podstawy i wyjątki. Są to analizy redakcyjne, nie podpisane opinie fachowca ani pełne porównanie tekstu ogłoszonego w języku polskim. Nie kopiować ocen do `approvals.jsonl`.
 
 ## Pełny wstępny przebieg redakcyjny 216 pytań
 
