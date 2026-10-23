@@ -1,0 +1,3 @@
+# Pogłębienie luk ADR-B-06, 0503–0506
+
+Podstawa: audyt `review/batches/coverage-001-502.md` wskazujący tylko 3 pytania przypisane do części kompetencji oznakowania. Wybrano nowe znaczenia cyfr 3, 5, 9 i 6 w numerze rozpoznawczym zagrożenia, zamiast powtarzać pytanie o literę X czy cyfrę 8. 4 nowe pytania, 12 ocen A/B/C, status wyłącznie needs_review. Punkt ADR 2025 5.3.2.3.1 porównano z oficjalnym angielskim tomem II UNECE: https://unece.org/adr-2025-files; tekst prawnie obowiązujący Dz.U. 2025 poz. 642 oraz sprostowanie poz. 1575 wymagają indywidualnego końcowego audytu po polsku i recenzji eksperta. Nie deklarować verified. Dokumenty pokrycia i podobieństw zachowują historyczny zakres 0001–0502. Quality Gate do faktycznego potwierdzenia.
