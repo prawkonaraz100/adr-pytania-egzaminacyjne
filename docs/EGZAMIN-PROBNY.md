@@ -39,4 +39,9 @@ Specjalista korzysta z `review/specialist/REJESTR-AKTUALNY-0001-0542.md` i rejes
 
 Aktualny bank to **545 pytań**, 545 `needs_review`, **0 verified**. Aktualny indeks: `review/specialist/REJESTR-AKTUALNY-0001-0545.md`, manifest `review/specialist/PAKIET-0545-MANIFEST.json`, otwarty rejestr kontroli PL `review/legal-polish/stage4m-literal-verification-ledger-0001-0545.json`. Wcześniejsze odnośniki do 542 rekordów pozostają historycznym opisem etapu 4l.
 
-Brak poświadczonych wyników recenzji oznacza, że `scripts/mock_exam.py` nadal **odmawia generowania realnego arkusza**. Wskaźnik nadmiernej długości poprawnej odpowiedzi 370/545 (67,9%) jest nadal powyżej planowanego 40%; wyniku ostrzegawczego z CI nie utożsamiać z zatwierdzeniem jakości.
+Brak poświadczonych wyników recenzji oznacza, że `scripts/mock_exam.py` nadal **odmawia generowania realnego arkusza**. Wskaźnik nadmiernej długości poprawnej odpowiedzi 365/545 (67,0%) jest nadal powyżej planowanego 40%; wyniku ostrzegawczego z CI nie utożsamiać z zatwierdzeniem jakości.
+
+
+## Aneks 4m — wynik partii ADR-B-06
+
+Po redakcji pięciu wariantów w module ADR-B-06, lokalny próg długości odpowiedzi jest spełniony (**14/35 = 40,0%**); aktualny wskaźnik globalny to **365/545 = 67,0%**. Nadal brak 545 autoryzacji prawnych, wszystkie pytania `needs_review`. Publiczny egzamin jest zablokowany. Szczegóły: `review/batches/stage4m-length-bias-batch4-b06.md`.
