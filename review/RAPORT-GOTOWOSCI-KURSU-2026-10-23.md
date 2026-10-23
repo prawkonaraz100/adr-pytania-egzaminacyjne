@@ -44,3 +44,22 @@ Wstępny raport głębokości `docs/AUDYT-GLEBOKOSCI-ETAP2-0323-0324.md` wykorzy
 ## Aktualizacja: 14 powiązań z lekcjami (23.10.2026)
 
 Dla 14 pytań z niewystarczającym automatycznym dopasowaniem dodano odrębne podsekcje w istniejących lekcjach; zaktualizowano `review/MACIERZ-PYTANIE-LEKCJA-ETAP3.md`. Tekst powstał z dotychczasowych niezatwierdzonych objaśnień. Nie poświadcza legalności ani jakości dydaktycznej; każda ze 106 kompetencji nadal wymaga osobnego odczytu i rozstrzygnięcia przypadków, decyzji, wyjątków i prawa. Nie poprawiano żadnych niepotwierdzonych błędów terminologicznych. 324 needs_review, 0 verified, eksport BLOCKED.
+
+## Status po czterech partiach przeglądu kompetencji — 23.10.2026
+
+Dokonano pierwszego porównania zakresu i zróżnicowania zestawów pytań ze wskazanymi kompetencjami i odpowiadającymi lekcjami. Zakres ewidencyjny obejmuje 106/106 kompetencji, ale **nie jest to pozytywne zakończenie wymaganego ręcznego przeglądu prawnego każdego wariantu A/B/C ani wszystkich wyjątków**.
+
+| Działy | Kompetencje | Raport | PR | Stan |
+|---|---:|---|---|---|
+| 01–03 | 27 | [JAKOSC-KOMPETENCJI-01-03-2026-10-23.md](JAKOSC-KOMPETENCJI-01-03-2026-10-23.md) | #78 | Scalony, Quality Gate PASS |
+| 04–06 | 30, w tym praktyczne P1–P3 | [JAKOSC-KOMPETENCJI-04-06-2026-10-23.md](JAKOSC-KOMPETENCJI-04-06-2026-10-23.md) | #79 | Scalony, Quality Gate PASS |
+| 07–09 | 23 | [JAKOSC-KOMPETENCJI-07-09-2026-10-23.md](JAKOSC-KOMPETENCJI-07-09-2026-10-23.md) | #80 | Scalony, Quality Gate PASS |
+| 10–13 | 26 | [JAKOSC-KOMPETENCJI-10-13-2026-10-23.md](JAKOSC-KOMPETENCJI-10-13-2026-10-23.md) | #81 | Scalony, Quality Gate PASS |
+
+**Uwaga do etykiety „wystarczająca”:** w tych raportach oznacza wstępne zróżnicowanie dydaktyczne zestawu; nie oznacza prawnej poprawności, satysfakcjonującej trudności egzaminacyjnej, kompletności wyjątków ani akceptacji niezależnego specjalisty.
+
+W raporcie 01–03 szczególnie wymagają dopracowania 01-K07, 02-K01/K02/K09/K12 oraz 03-K01/K04/K06. W 04–06 wielokrotnie powtarzają się scenariusze dotyczące zachowania załogi i oznakowania; P1–P3 wymagają realnej oceny instruktora. W 07–09 szczególnym priorytetem jest praktyczna tabela zakazów wspólnego ładowania i warunkowe wyposażenie. W 10–13 — zastosowanie wyjątków multimodalnych, kodów tuneli i warunków dokumentacji. Szczegółowe przypadki podano w czterech raportach.
+
+**Nadal otwarte:** indywidualne literalne porównanie 324 pytań (972 wariantów A/B/C) z ogłoszonym tekstem polskim [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) i sprostowaniem 1575, analiza M364 tam, gdzie jest stosowne, ekspercka kontrola wyjątków i terminologii oraz uzupełnienie rzeczywiście potwierdzonych braków praktycznych nowymi pytaniami z pełnym audytem. Z samego wykrycia powtarzalności nie wynika poprawna treść nowego pytania. Nie dopisywano 0325, nie zmieniano kluczy ani snapshotów.
+
+**Decyzja bez zmian:** 324 pytania `needs_review`, 0 `verified`, eksport BLOCKED, żadnego szkolenia specjalistycznego.
