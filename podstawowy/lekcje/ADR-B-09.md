@@ -81,3 +81,19 @@ Dla 0291 kursant używa tabeli 7.5.2.1 oraz wyjątków, nie opiera decyzji na ko
 **Obserwowalne kryterium:** Nie dopuszcza uszkodzonego ładunku do przewozu.
 
 Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+
+## Uzupełnienie powiązań z pytaniami — ADR-B-09 (23.10.2026)
+
+Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
+
+### ADR-B-0060 — Czy zbyt mocno zaciągnięty pas mocujący może naruszać wymagania ADR?
+
+Mocowanie ma zabezpieczać przesyłkę, a nie ją niszczyć. Należy uniknąć nadmiernego naprężenia pasów.
+
+**Podstawa do kontroli:** ADR 2025, 7.5.7.1. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
+
+### ADR-B-0200 — Obok kartonów ADR załadowano ciężką maszynę niebędącą towarem niebezpiecznym. Co wymaga ADR przy jej mocowaniu?
+
+Gdy towary niebezpieczne jadą z innym ładunkiem, także pozostałe rzeczy trzeba umocować lub ułożyć tak, by nie doprowadziły do uwolnienia przewożonych towarów niebezpiecznych.
+
+**Podstawa do kontroli:** ADR 2025, 7.5.7.1. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
