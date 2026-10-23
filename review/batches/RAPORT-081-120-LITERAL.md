@@ -71,3 +71,5 @@ Dla 18 konkretnych ID dokonano porównania treści A/B/C i wyjaśnienia z odpowi
 | ADR-B-0110 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
 | ADR-B-0111 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
 | ADR-B-0112 | 5.4.3.4 | II / 281 | zgodne znaczeniowo w tym ustępie; wyjątki do sprawdzenia |
+
+**Uwaga dla bramki jakości:** 18 odczytanych fragmentów MI nie stanowi 40 pełnych zatwierdzeń ani 40 literalnych porównań urzędowych.
