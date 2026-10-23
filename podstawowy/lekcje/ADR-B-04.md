@@ -48,3 +48,7 @@ Przy każdym scenariuszu podaj punkt przepisu i warunek jego stosowania. Pytania
 **Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
 
 **Punkty do porównania z urzędową publikacją:** ADR 8.4, 8.3; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.
+
+## Scenariusz etapu 2 — seria ADR-B-0241–0246
+
+Nowe zadania 0243–0244: zakaz otwierania przesyłek i praca silnika. Kursant analizuje decyzję, okoliczności zastosowania przepisu i wyjątki, a następnie uzasadnia wybór bez zgadywania litery. Wszystkie rekordy pozostają `needs_review`. Lekcja wymaga fachowej kontroli polskiego ADR 2025 (Dz.U. 642, sprostowanie 1575) i niezależnej recenzji; żadne zadanie teoretyczne nie zalicza ćwiczeń praktycznych.

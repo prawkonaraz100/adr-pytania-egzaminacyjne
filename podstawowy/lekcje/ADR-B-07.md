@@ -59,3 +59,7 @@ Przy każdej sytuacji odpowiedz: **jaka rola**, **jaki obowiązek**, **jaki prze
 **Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
 
 **Podstawa do weryfikacji:** ADR 1.4.2.1, 1.4.2.2; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
+
+## Scenariusz etapu 2 — seria ADR-B-0241–0246
+
+Nowe zadania 0245–0246: obowiązki załadowcy i odbiorcy. Kursant analizuje decyzję, okoliczności zastosowania przepisu i wyjątki, a następnie uzasadnia wybór bez zgadywania litery. Wszystkie rekordy pozostają `needs_review`. Lekcja wymaga fachowej kontroli polskiego ADR 2025 (Dz.U. 642, sprostowanie 1575) i niezależnej recenzji; żadne zadanie teoretyczne nie zalicza ćwiczeń praktycznych.
