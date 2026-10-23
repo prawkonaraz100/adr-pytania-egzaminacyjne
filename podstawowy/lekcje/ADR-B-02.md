@@ -78,3 +78,7 @@ Kursant odróżnia białe/czerwone pionowe pasy wzoru 4.1, niebieski płomień w
 ## Sytuacja kontrolna ADR-B-0284 (etap 2)
 
 Na nalepce widoczny jest symbol butli gazowej na zielonym tle i numer 2 u dołu. Jaką grupę zagrożeń oznacza ten wzór? Uczeń ma wyjaśnić uzasadnienie i warunki prawne 5.2.2.2.2 oraz wskazać błędną praktykę. To szkic wymagający porównania z polskim Dz.U. 642, sprostowaniem 1575 i niezależnej recenzji.
+
+## Opisy nalepek ADR-B-0288–0289
+
+Nalepka wzoru 3: płomień na czerwonym tle; nalepka 6.1: czaszka i skrzyżowane piszczele. Ćwiczenia tylko opisowe, ADR 5.2.2.2.2; oficjalne polskie brzmienie wymaga porównania ze sprostowaniem.
