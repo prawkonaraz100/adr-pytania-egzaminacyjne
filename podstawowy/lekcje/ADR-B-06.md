@@ -39,3 +39,7 @@ Pytania: `0016`–`0018`, `0051`–`0053`, `0114`–`0115`, `0132`–`0133`.
 - [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
 - [Sprostowanie Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
 - [Ramowy program kursu Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
+
+## Ćwiczenie sytuacyjne — numer 88 (szkic do recenzji)
+
+Na przykładowej pomarańczowej tablicy z górnym numerem 88 uczeń wyjaśnia, że powtórzona cyfra 8 wzmacnia informację o zagrożeniu żrącym (ADR 5.3.2.3.1). Nie należy z samej tablicy wyciągać wniosku o braku innych zagrożeń; wymagane jest sprawdzenie dokumentacji i oznakowania. Powiązanie: `ADR-B-0217`. Nie wykorzystywać bez niezależnej kontroli zgodności z urzędowym tekstem i sprostowaniem.
