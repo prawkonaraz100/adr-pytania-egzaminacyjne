@@ -1,0 +1,133 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-10-23",
+  "range": "ADR-B-0262..ADR-B-0264",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "Editorial A/B/C reading, not an independent legal approval",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0262",
+      "sequence": 262,
+      "module_id": "ADR-B-11",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Znak tunelu podaje kategorię E. Co oznacza taka kategoria w systemie ograniczeń ADR?",
+        "options": {
+          "A": "To najbardziej restrykcyjna kategoria tunelu dla przewozu towarów niebezpiecznych",
+          "B": "W tunelu nie obowiązują żadne ograniczenia ADR",
+          "C": "W tunelu wolno przewozić wyłącznie towary klasy 3"
+        },
+        "correct_option": "A",
+        "explanation": "Kategoria E jest najbardziej restrykcyjną kategorią tuneli ADR. Rzeczywistą możliwość przejazdu trzeba ustalić według kodu ograniczenia towaru, sposobu przewozu i wyjątków.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.9.5.3.6; 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": null,
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish ADR and correction comparison and expert approval pending.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0263",
+      "sequence": 263,
+      "module_id": "ADR-B-11",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "W jednej jednostce transportowej przewożone są różne towary niebezpieczne o odmiennych kodach tunelowych. Którą zasadę trzeba zastosować, gdy ograniczenia ADR mają zastosowanie?",
+        "options": {
+          "A": "Użyć kodu przypisanego towarowi o najmniejszej masie",
+          "B": "Uwzględnić najbardziej restrykcyjny z mających zastosowanie kodów",
+          "C": "Pominąć kody, jeśli towary jadą na jednym dokumencie"
+        },
+        "correct_option": "B",
+        "explanation": "Dla ładunku mieszanego przyjmuje się najbardziej restrykcyjny właściwy kod ograniczenia tunelowego, z uwzględnieniem zasad i wyjątków ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": null,
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish ADR and correction comparison and expert approval pending.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0264",
+      "sequence": 264,
+      "module_id": "ADR-B-11",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "W kolumnie 15 tabeli A dla pozycji UN w miejscu kodu ograniczenia tunelowego występuje znak „(-)”. Co oznacza ten zapis w zakresie tego kodu?",
+        "options": {
+          "A": "Automatyczny zakaz przejazdu przez każdy tunel",
+          "B": "Obowiązek użycia wyłącznie drogi ekspresowej",
+          "C": "Nie przypisano ograniczenia tunelowego ADR z tego tytułu, co nie uchyla innych przepisów i znaków drogowych"
+        },
+        "correct_option": "C",
+        "explanation": "Symbol „(-)” oznacza brak przypisanego ograniczenia przejazdu przez tunele wynikającego z kodu ADR; inne wymagania mogą nadal obowiązywać.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": null,
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish ADR and correction comparison and expert approval pending.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
