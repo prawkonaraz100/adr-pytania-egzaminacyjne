@@ -55,3 +55,7 @@ Kolejna część weryfikacji prawnomerytorycznej rozpoczyna się od **ADR-B-0017
 ## Kontynuacja 0177–0192
 
 [16 kart](0177-0192.json), 48 ocen A/B/C; 6 flag wyjątków. Wstępny przegląd dotychczasowych analiz, bez pełnego sprawdzenia w tekście PL Dz.U. 642, sprostowania 1575 i zastosowania M364 oraz niezależnej recenzji. Nie zmieniono kluczy/statusów. Następne 0193–0208.
+
+## Kontynuacja 0193–0208
+
+[Karty 0193–0208](0193-0208.json): 16 pytań, 48 ocen A/B/C; 3 do dodatkowej analizy wyjątków. Kontrola wstępna oparta na uprzednich zapisach, polski ADR Dz.U.642 i sprostowanie 1575 oraz adekwatność M364 nie zostały porównane w pełni punkt po punkcie. Brak podpisu specjalisty i zmian kluczy/statusów. Następne 0209–0216.
