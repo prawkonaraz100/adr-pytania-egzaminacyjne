@@ -1,0 +1,727 @@
+{
+  "date": "2026-10-23",
+  "range": "ADR-B-0049..ADR-B-0064",
+  "scope": "preliminary per-option legal editorial cards only, no complete official Polish provision comparison or independent approval",
+  "records": [
+    {
+      "id": "ADR-B-0049",
+      "sequence": 49,
+      "snapshot": {
+        "stem": "Kiedy załoga powinna zapoznać się z pisemnymi instrukcjami ADR dotyczącymi postępowania w razie wypadku?",
+        "options": {
+          "A": "Przed rozpoczęciem przewozu",
+          "B": "Dopiero gdy zacznie się wyciek",
+          "C": "Po przekazaniu ładunku odbiorcy"
+        },
+        "correct_option": "A",
+        "explanation": "Przed ruszeniem kierowca powinien zapoznać się z instrukcjami i przewożonymi towarami, a nie szukać informacji dopiero podczas awarii.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Załoga powinna zapoznać się z instrukcjami przed rozpoczęciem jazdy."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie należy czekać na awarię, aby przeczytać dokument."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Po oddaniu ładunku jest już za późno dla bezpieczeństwa drogi."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Instrukcje są czterostronicowym modelem wymaganym podczas transportu.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0050",
+      "sequence": 50,
+      "snapshot": {
+        "stem": "W jakim języku przewoźnik ma zapewnić załodze instrukcje pisemne ADR?",
+        "options": {
+          "A": "W dowolnym języku wybranym przez nadawcę, nawet niezrozumiałym dla kierowcy",
+          "B": "W języku zrozumiałym dla każdego członka załogi",
+          "C": "Wyłącznie po francusku"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje muszą być przekazane członkom załogi w języku, który potrafią przeczytać i zrozumieć.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przewoźnik nie może wybrać języka niezrozumiałego dla członka załogi."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Instrukcje mają być w języku czytelnym i zrozumiałym dla każdego członka załogi."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wyłączność języka francuskiego nie istnieje."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Przewoźnik ma dodatkowo zadbać o zdolność wykonywania instrukcji.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0051",
+      "sequence": 51,
+      "snapshot": {
+        "stem": "Co oznacza powtórzenie cyfry w numerze rozpoznawczym zagrożenia na tablicy ADR?",
+        "options": {
+          "A": "Nasilenie zagrożenia wyrażanego tą cyfrą",
+          "B": "Oznacza dwa różne zagrożenia, niezależnie od znaczenia cyfr",
+          "C": "Oznacza, że materiał nie wymaga innych nalepek ostrzegawczych"
+        },
+        "correct_option": "A",
+        "explanation": "W numerach rozpoznawczych zagrożenia powtórzenie cyfry co do zasady podkreśla intensywność zagrożenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Powtórzenie cyfry wskazuje nasilenie zagrożenia."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Powtórzenie nie jest automatycznie oznaczeniem dwóch różnych zagrożeń."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie zwalnia od innych wymaganych nalepek."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Interpretować cały numer rozpoznawczy zagrożenia, nie tylko jedną cyfrę.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0052",
+      "sequence": 52,
+      "snapshot": {
+        "stem": "Jaki jest podstawowy kolor tablicy ADR z numerem UN i numerem rozpoznawczym zagrożenia?",
+        "options": {
+          "A": "Pomarańczowy z czarnymi oznaczeniami",
+          "B": "Żółty z czarnymi numerami",
+          "C": "Biały z czerwonymi numerami"
+        },
+        "correct_option": "A",
+        "explanation": "Standardowe tablice ADR są pomarańczowe, a cyfry, linie i obramowanie mają kolor czarny.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kolor pomarańczowy i czarne oznaczenia są prawidłowe."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Żółty nie jest zasadniczym kolorem tablicy ADR."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Biały z czerwonymi numerami nie jest wzorem tablicy."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Należy oddzielić tablice numeryczne od pomarańczowych bez numerów.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0053",
+      "sequence": 53,
+      "snapshot": {
+        "stem": "Co może oznaczać numer rozpoznawczy zagrożenia rozpoczynający się od cyfry 8?",
+        "options": {
+          "A": "Zagrożenie utleniające",
+          "B": "Zagrożenie promieniotwórcze",
+          "C": "Zagrożenie żrące"
+        },
+        "correct_option": "C",
+        "explanation": "Cyfra 8 w numerze rozpoznawczym zagrożenia oznacza działanie żrące, ale cały numer trzeba interpretować łącznie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Cyfra 5 wskazuje działanie utleniające, nie 8."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Promieniotwórczość nie jest kodowana przez cyfrę 8."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Cyfra 8 oznacza działanie żrące."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Znaczenie całego numeru zależy także od pozostałych cyfr i wyjątków.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0054",
+      "sequence": 54,
+      "snapshot": {
+        "stem": "Czy załadowca może wydać przewoźnikowi uszkodzone opakowanie, z którego może wyciekać towar niebezpieczny?",
+        "options": {
+          "A": "Tak, bez ograniczeń",
+          "B": "Nie, dopóki uszkodzenie nie zostanie naprawione zgodnie z zasadami",
+          "C": "Tak, pod warunkiem zasłonięcia wycieku taśmą"
+        },
+        "correct_option": "B",
+        "explanation": "Załadowca powinien sprawdzić opakowania. Nie może przekazać uszkodzonej sztuki przesyłki z wyciekiem lub ryzykiem wycieku do czasu usunięcia uszkodzenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.4.3.1.1 (b)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zgoda bez ograniczeń nie znosi obowiązków załadowcy."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Uszkodzone i nieszczelne opakowanie wymaga usunięcia niezgodności."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zakrycie taśmą bez przywrócenia zgodności nie wystarcza."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Nie mylić zwykłych opakowań z zasadami stosowania opakowań ratunkowych.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0055",
+      "sequence": 55,
+      "snapshot": {
+        "stem": "Który uczestnik przewozu odpowiada m.in. za przekazanie przewoźnikowi informacji i danych wymaganych do przewozu ADR?",
+        "options": {
+          "A": "Nadawca",
+          "B": "Przewoźnik, który sam określa dane bez informacji od nadawcy",
+          "C": "Odbiorca, który przygotowuje dane jeszcze przed nadaniem"
+        },
+        "correct_option": "A",
+        "explanation": "Nadawca powinien przekazać wymagane informacje o towarze. Obowiązki innych uczestników są odrębne.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.4.2.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nadawca przekazuje przewoźnikowi wymagane dane i informacje."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przewoźnik nie tworzy obowiązkowych danych klasyfikacyjnych z domysłów."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Odbiorca nie zastępuje nadawcy w jego obowiązku przekazania danych."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Przewoźnik ma odrębne obowiązki sprawdzenia dokumentacji.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0056",
+      "sequence": 56,
+      "snapshot": {
+        "stem": "Jaki przedmiot służy do zabezpieczenia koła pojazdu przed niekontrolowanym przetoczeniem, jeżeli jest wymagany w ADR?",
+        "options": {
+          "A": "Dwa wolnostojące znaki ostrzegawcze zamiast klina",
+          "B": "Pas zabezpieczający ładunek, założony na koło",
+          "C": "Klin pod koło"
+        },
+        "correct_option": "C",
+        "explanation": "Klin pod koło pomaga unieruchomić pojazd. Wymagania i dobór klina określa ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Znaki ostrzegawcze nie zastępują klina pod koło."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pas mocujący nie jest klinem odpowiednim do masy i średnicy koła."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klin pod koło jest przewidziany w wykazie ADR."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Dla każdego pojazdu jednostki transportowej, gdy pełne przepisy wyposażenia mają zastosowanie.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0057",
+      "sequence": 57,
+      "snapshot": {
+        "stem": "Czy podstawowy wykaz wyposażenia ADR wymaga dla załogi kamizelek ostrzegawczych?",
+        "options": {
+          "A": "Tak, dla każdego członka załogi",
+          "B": "Wystarczy jedna kamizelka na całą jednostkę transportową",
+          "C": "Kamizelka jest wymagana tylko u kierowcy, a nie u pozostałych członków załogi"
+        },
+        "correct_option": "A",
+        "explanation": "Każdy członek załogi powinien mieć kamizelkę ostrzegawczą, jeżeli mają zastosowanie wymagania wyposażenia ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kamizelka dla każdego członka załogi jest obowiązkiem wskazanym w wykazie."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Jedna kamizelka na jednostkę nie wystarcza przy dwóch osobach."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie wolno ograniczać kamizelki do kierowcy, jeśli są inni członkowie załogi."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Zależność od wymogów wyposażenia i wyłączeń dla konkretnego przewozu.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0058",
+      "sequence": 58,
+      "snapshot": {
+        "stem": "Na przesyłce ADR widnieją strzałki kierunkowe wskazujące górę. Jak należy ją ustawić?",
+        "options": {
+          "A": "W dowolnej pozycji, jeśli opakowanie jest zamknięte",
+          "B": "Przeciwnie do kierunku strzałek, aby obniżyć środek ciężkości",
+          "C": "Zgodnie ze strzałkami"
+        },
+        "correct_option": "C",
+        "explanation": "Jeśli wymagane są strzałki kierunkowe, sztuka przesyłki ma znajdować się w pozycji przez nie wskazanej.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.1.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dowolna pozycja nie spełnia wymogu strzałek kierunkowych."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ustawienie przeciwnie do strzałek jest niepoprawne."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przesyłki ze strzałkami ustawia się zgodnie z nimi."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Reguła ma zastosowanie, gdy strzałki są wymagane przepisami.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0059",
+      "sequence": 59,
+      "snapshot": {
+        "stem": "Czy wolno piętrzyć sztuki przesyłek ADR, których konstrukcja nie przewiduje piętrzenia?",
+        "options": {
+          "A": "Tak, jeśli dolne opakowanie jest cięższe",
+          "B": "Nie",
+          "C": "Tak, jeśli wszystkie sztuki przesyłek są spięte jednym pasem"
+        },
+        "correct_option": "B",
+        "explanation": "Sztuk przesyłek nie należy układać jedna na drugiej, jeśli nie są do tego przeznaczone.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Cięższe dolne opakowanie nie legalizuje piętrzenia bez konstrukcyjnego dopuszczenia."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zakaz piętrzenia sztuk nieprzystosowanych jest zgodny z ADR."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pojedynczy pas nie zmienia wytrzymałości konstrukcji opakowania."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Sprawdzić zgodność różnych typów opakowań przeznaczonych do piętrzenia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0060",
+      "sequence": 60,
+      "snapshot": {
+        "stem": "Czy zbyt mocno zaciągnięty pas mocujący może naruszać wymagania ADR?",
+        "options": {
+          "A": "Tak, jeżeli może uszkodzić lub zdeformować opakowanie",
+          "B": "Nie, pas zawsze trzeba zaciągnąć do granic możliwości",
+          "C": "Nie, jeśli ładunek jest lekki"
+        },
+        "correct_option": "A",
+        "explanation": "Mocowanie ma zabezpieczać przesyłkę, a nie ją niszczyć. Należy uniknąć nadmiernego naprężenia pasów.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zbyt silny docisk może uszkodzić lub zdeformować opakowanie."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pasy nie mogą być dokręcane zawsze maksymalnie."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Masa ładunku nie wyłącza zagrożenia deformacją."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Mocowanie ma jednocześnie zapobiegać przemieszczaniu i nie uszkadzać przesyłek.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0061",
+      "sequence": 61,
+      "snapshot": {
+        "stem": "Jaki dodatkowy zapis przewiduje ADR w dokumencie przewozowym, jeśli przewóz odbywa się zgodnie z 1.1.4.2.1?",
+        "options": {
+          "A": "PRZEWÓZ ZGODNY Z 1.1.3.6",
+          "B": "PRZEWÓZ ZGODNY Z 5.4.3.1",
+          "C": "PRZEWÓZ ZGODNY Z 1.1.4.2.1"
+        },
+        "correct_option": "C",
+        "explanation": "Przy zastosowaniu szczególnych zasad przewozu w łańcuchu morskim lub lotniczym ADR wymaga określonego dodatkowego zapisu w dokumencie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wpis dotyczący 1.1.3.6 nie jest wymaganym wpisem dla 1.1.4.2.1."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "5.4.3.1 reguluje instrukcje, a nie tę dodatkową formułę przewozu."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przy stosowaniu 1.1.4.2.1 wymagane jest wskazanie przewozu zgodnie z tym punktem."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Sprawdzić dosłowną formułę polskiego aktu, nie każdy dojazd do portu korzysta z 1.1.4.2.1.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0062",
+      "sequence": 62,
+      "snapshot": {
+        "stem": "Dlaczego przy drogowym etapie transportu morskiego nie należy automatycznie usuwać oznakowania zagrożeń z kontenera?",
+        "options": {
+          "A": "Bo oznakowanie powinno spełniać stosowne wymagania dla całego przewozu i jego etapów",
+          "B": "Ponieważ dokument przewozowy zawsze zastępuje oznakowanie",
+          "C": "Ponieważ oznakowanie IMDG zawsze jest identyczne z oznakowaniem ADR"
+        },
+        "correct_option": "A",
+        "explanation": "Przy przewozach łączonych trzeba sprawdzić szczególne zasady uznawania oznakowania IMDG oraz wymagania ADR na drodze.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Oznakowanie kontenera po morskim odcinku wymaga sprawdzenia odpowiednich reguł uznawania."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dokument nie zastępuje automatycznie wymaganych nalepek i tablic."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "IMDG i ADR mają reguły odmienne; nie są zawsze identyczne."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Warunkowe uznanie nie jest zwolnieniem wszystkich czynności w ruchu drogowym.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0063",
+      "sequence": 63,
+      "snapshot": {
+        "stem": "Gdzie w tabeli A ADR szuka się kodu ograniczeń tunelowych dla danego towaru?",
+        "options": {
+          "A": "W kolumnie 18",
+          "B": "W kolumnie 15",
+          "C": "W kolumnie 12"
+        },
+        "correct_option": "B",
+        "explanation": "Kod tunelowy jest podany w dolnej części kolumny 15 tabeli A dla danego towaru, jeśli został przypisany.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kolumna 18 zawiera dodatkowe przepisy załadunkowe CV, nie kod tunelowy."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kod tunelowy podawany jest w kolumnie 15, zwykle w nawiasach."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kolumna 12 to inny rodzaj danych niż kod tunelowy."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Kod (-) jest dopuszczalny; sposób przewozu i wyłączenia mogą zmieniać stosowanie ograniczeń.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0064",
+      "sequence": 64,
+      "snapshot": {
+        "stem": "Dla jednostki transportowej objętej ograniczeniami ADR przewozisz różne towary mające różne kody tunelowe. Jak ustala się kod dla całego ładunku?",
+        "options": {
+          "A": "Stosuje się kod oznaczający największe ograniczenia",
+          "B": "Wybiera się kod najłagodniejszy",
+          "C": "Zawsze przyjmuje się kod A"
+        },
+        "correct_option": "A",
+        "explanation": "Dla towarów podlegających ograniczeniom tunelowym w jednostce transportowej wybiera się najbardziej restrykcyjny kod spośród kodów rzeczywiście mających zastosowanie. Przy ustalaniu kodu trzeba uwzględnić wyłączenia 8.6.3.3 oraz sposób przewozu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.2–8.6.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dla mieszanego ładunku przyjmuje się najbardziej restrykcyjny kod, spośród mających zastosowanie."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Najłagodniejszy kod nie zapewnia zgodności z ograniczeniami."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie zawsze kod A; w systemie tunelowym kategoria A dotyczy tunelu, nie kodu ładunku."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Towary wyłączone na podstawie 8.6.3.3 mogą nie być uwzględniane.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    }
+  ]
+}
