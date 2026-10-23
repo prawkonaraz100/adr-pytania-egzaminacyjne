@@ -61,6 +61,12 @@
 - Poprawiono `0048` (niespójne odpowiedzi), `0099` i `0162` (nalepka 9A obejmuje odpowiednie baterie sodowo-jonowe w ADR 2025) oraz `0173` (wyraźne odesłania do szczególnego ustępu obok BK/VC).
 - **Nie wykonano 216 indywidualnych porównań pełnego polskiego tekstu prawa ani niezależnej recenzji**. Liczba `verified` pozostaje 0, a publikacja zablokowana. Wynik pierwszego czytania nie stanowi certyfikacji prawnej.
 
+## Indywidualna kontrola odpowiedzi pytań 0001–0060
+
+- Zapisano **180 uzasadnień A/B/C dla pierwszych 60 pytań**, osobno dla każdej możliwości: [raport](../review/legal-clauses/RAPORT-001-060.md).
+- Skorygowano sześć pytań (0009, 0019, 0027, 0031, 0033, 0043). Test CI blokuje nieaktualne uzasadnienie po edycji pytania.
+- To redakcyjne sprawdzenie podanych podstaw ADR 2025, a **nie pełne dosłowne porównanie każdej odpowiedzi z polskim aktem i nie niezależna recenzja specjalisty**. Pozostałe 156 pytań czeka na analogiczny przegląd A/B/C. Nadal **0 `verified`**.
+
 ## Co musi być zrobione przed publikacją
 
 1. **Kontrola jakości prawa:** dla wszystkich rekordów sprawdzić dokładne brzmienie aktu ADR 2025 w Dz.U. poz. 642 ze sprostowaniem poz. 1575, szczegółowe wyjątki oraz każdą prawidłową i błędną odpowiedź. Potwierdzenie przez rzeczywistego specjalistę ADR, z datą i identyfikatorem recenzenta.

@@ -218,3 +218,12 @@ Każdy ukończony etap wpisywać z datą, identyfikatorem commita, dokładnymi w
 - **Zakres świadomie ograniczony:** porównanie całego każdego punktu ADR z polskim urzędowym tekstem i sprostowaniem **nie zostało wykonane dla wszystkich 216 pozycji**; sprawdzenie wybranych fragmentów w źródłach wtórnych nie jest równoznaczne z legalną recenzją.
 - Zero prawdziwych akceptacji eksperckich, 216 `needs_review`, eksport do egzaminu `BLOCKED`; weryfikacja prawnomerytoryczna i recenzja fachowca nadal obowiązkowe.
 - Formalny Quality Gate tego PR **oczekuje na potwierdzenie**. Nie oznaczać ukończonego etapu technicznego bez pełnego PASS ostatniego SHA.
+
+## 2026-10-23 — indywidualny przegląd A/B/C pytań 0001–0060
+
+- Przeanalizowano po kolei pierwszych **60 pytań i 180 wariantów A/B/C**; dokumentacja w `review/legal-clauses/001-030.json`, `031-060.json` i `RAPORT-001-060.md`.
+- Każdy rekord ma uzasadnienia trzech wariantów, warunki/wyjątki, źródło porównawcze i dokładną kopię aktualnego pytania.
+- Poprawiono `ADR-B-0009`, `0019`, `0027`, `0031`, `0033`, `0043`; odświeżono istniejące rejestry sekwencyjnego pierwszego przebiegu.
+- Nowy `scripts/check_legal_clause_review.py`, testy jednostkowe i krok CI sprawdzają 60 wpisów i wykrywają nieaktualne uzasadnienia A/B/C.
+- **Ograniczenie:** nie ukończono pełnego dosłownego sprawdzenia polskiego aktu ADR oraz sprostowania dla 60 pytań i nie ma niezależnej recenzji specjalisty. Wszystkie **216 needs_review / 0 verified**, eksport BLOCKED.
+- Quality Gate tej gałęzi oczekuje na potwierdzenie PASS ostatniego SHA PR.

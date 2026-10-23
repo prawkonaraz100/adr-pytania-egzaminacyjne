@@ -26,3 +26,5 @@ jobs:
         run: python scripts/release_gate.py --report
       - name: Check sequential editorial audit integrity
         run: python scripts/check_sequential_audit.py
+      - name: Check per-option legal clause review (first 60)
+        run: python scripts/check_legal_clause_review.py
