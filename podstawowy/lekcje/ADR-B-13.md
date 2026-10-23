@@ -72,3 +72,7 @@ Uczestnik rozwiązuje przypadek z pytania ADR-B-0250, wskazuje podstawę, warunk
 ## Sytuacja kontrolna ADR-B-0287 (etap 2)
 
 Wymagany dokument przewozowy dotyczy przewozu ADR realizowanego zgodnie z 1.1.4.2.1 w łańcuchu morskim lub lotniczym. Jakiego dodatkowego wpisu wymaga 5.4.1.1.7? Uczeń ma wyjaśnić uzasadnienie i warunki prawne 5.4.1.1.7 oraz wskazać błędną praktykę. To szkic wymagający porównania z polskim Dz.U. 642, sprostowaniem 1575 i niezależnej recenzji.
+
+## Kontrola dokumentów ADR-B-0306
+
+Sprawdź dokumenty kabinowe wg ADR 8.1.2.1–2: dokumenty przewozowe, instrukcje, dokument ze zdjęciem i stosowne dodatkowe zaświadczenia. Instruktor ćwiczy dobór według sytuacji, nie automatyczne uznanie każdego dokumentu za wymagany zawsze.

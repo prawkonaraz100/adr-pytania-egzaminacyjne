@@ -114,3 +114,7 @@ Instruktor przygotowuje własną, legalnie używaną makietę kontenera z miejsc
 **P3 — wypadek i awaria:** instruktor obserwuje (1) bezpieczne zatrzymanie i ocenę miejsca, (2) wybór miejsca osłoniętego od oparów / strony nawietrznej, (3) ostrzeżenie innych i wezwanie służb, (4) wyjaśnienie ograniczeń samodzielnych działań przy wycieku i zapłonie. Łączy ocenę z instrukcjami ADR 5.4.3.4.
 
 **Rejestr oceny:** dla każdego z P1–P3 instruktor wypełnia w rzeczywistych zajęciach: identyfikator kursanta, datę, miejsce, nazwisko instruktora, warunki ćwiczenia, wyniki poszczególnych punktów, uwagi i podpis. Przed zajęciami pole pozostaje puste; w repozytorium nie zapisuje się fikcyjnych zaliczeń. Cała matryca wymaga weryfikacji z obowiązującym urzędowym programem szkolenia i akceptacji kompetentnego instruktora. 
+
+## Kryterium P3: kontrola ochrony postoju i dokumentów (23.10.2026)
+
+Instruktor przedstawia fikcyjną kartę przewozu towaru dużego ryzyka. Kursant: 1) identyfikuje podstawę zastosowania planu ochrony, 2) wskazuje sposób zapobiegania kradzieży bez blokowania pomocy, 3) dobiera dokumenty kabinowe z ADR 8.1.2, 4) wyjaśnia eskalację naruszenia ochrony. Ocena osobno: zaliczone/do powtórzenia/nieocenione, data, instruktor i obserwacja. Nie jest to automatyczne zaliczenie P1–P3; bez realnych towarów.
