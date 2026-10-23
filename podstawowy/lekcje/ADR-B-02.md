@@ -74,3 +74,7 @@ Uczestnik rozpoznaje zagrożenia z opisów klas 4.3 (gaz palny w kontakcie z wod
 ## Opisowe rozpoznawanie nalepek 0268–0270
 
 Kursant odróżnia białe/czerwone pionowe pasy wzoru 4.1, niebieski płomień wzoru 4.3 i płomień nad okręgiem na żółtym tle wzoru 5.1. Dopóki brak licencjonowanych wzorów graficznych, stosuje się opisy tekstowe. Wzory ADR 5.2.2.2.2: sprawdzić oficjalne brzmienie Dz.U. 642 ze sprostowaniem 1575 przed zatwierdzeniem lekcji.
+
+## Sytuacja kontrolna ADR-B-0284 (etap 2)
+
+Na nalepce widoczny jest symbol butli gazowej na zielonym tle i numer 2 u dołu. Jaką grupę zagrożeń oznacza ten wzór? Uczeń ma wyjaśnić uzasadnienie i warunki prawne 5.2.2.2.2 oraz wskazać błędną praktykę. To szkic wymagający porównania z polskim Dz.U. 642, sprostowaniem 1575 i niezależnej recenzji.
