@@ -78,3 +78,7 @@ Powiązane kompetencje: `ADR-B-05-K13`, `ADR-B-05-K14`, `ADR-B-05-K15`.
 **P3 — wypadek/awaria:** suchy scenariusz bez substancji: bezpieczne zatrzymanie, środki ostrożności, wezwanie służb, ostrzeganie postronnych. Pytania 0219–0224.
 
 **Ocena praktyczna:** nauczyciel/instruktor wypełnia realny protokół dopiero po wykonanych ćwiczeniach. Test internetowy ani powyższe scenariusze nie są dowodem uczestnictwa czy zaliczenia. Źródło ADR 5.4.3.4, program praktyki Dz.U. 2021 poz. 2150; wymaga prawnej i dydaktycznej recenzji.
+
+## Rozszerzenie P3 — oględziny przed załadunkiem (szkic, 23.10.2026)
+
+Przygotować bezpieczny model pojazdu i atrapy sztuk przesyłek. Kursant rozpoznaje źle zamocowane opakowania, zbyt mocno zaciśnięty pas, niedozwolone piętrzenie i pozostałości po symulowanym wycieku. Powiązane pytania 0235–0240; ADR 7.5.1, 7.5.7, 7.5.8. Scenariusz dydaktyczny nie jest dowodem przeprowadzenia ani zaliczenia ćwiczeń z ramowego programu; kontrola instruktora wymagana.
