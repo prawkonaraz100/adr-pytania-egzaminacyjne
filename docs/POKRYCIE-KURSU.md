@@ -63,9 +63,9 @@
 
 ## Indywidualna kontrola odpowiedzi pytań 0001–0060
 
-- Zapisano **180 uzasadnień A/B/C dla pierwszych 60 pytań**, osobno dla każdej możliwości: [raport](../review/legal-clauses/RAPORT-001-060.md).
+- Zapisano **270 uzasadnień A/B/C dla pierwszych 90 pytań**, osobno dla każdej możliwości: [raport 001–060](../review/legal-clauses/RAPORT-001-060.md) i [raport 061–090](../review/legal-clauses/RAPORT-061-090.md).
 - Skorygowano sześć pytań (0009, 0019, 0027, 0031, 0033, 0043). Test CI blokuje nieaktualne uzasadnienie po edycji pytania.
-- To redakcyjne sprawdzenie podanych podstaw ADR 2025, a **nie pełne dosłowne porównanie każdej odpowiedzi z polskim aktem i nie niezależna recenzja specjalisty**. Pozostałe 156 pytań czeka na analogiczny przegląd A/B/C. Nadal **0 `verified`**.
+- To redakcyjne sprawdzenie podanych podstaw ADR 2025, a **nie pełne dosłowne porównanie każdej odpowiedzi z polskim aktem i nie niezależna recenzja specjalisty**. Pozostałe 126 pytań czeka na analogiczny przegląd A/B/C. Nadal **0 `verified`**.
 
 ## Co musi być zrobione przed publikacją
 

@@ -150,11 +150,11 @@
           "C": "Zawsze przyjmuje się kod A"
         },
         "correct_option": "A",
-        "explanation": "Jeśli w pojeździe są towary z różnymi kodami, należy przyjąć kod powodujący najostrzejsze ograniczenia tunelowe.",
+        "explanation": "Dla towarów podlegających ograniczeniom tunelowym w jednostce transportowej wybiera się najbardziej restrykcyjny kod spośród kodów rzeczywiście mających zastosowanie. Przy ustalaniu kodu trzeba uwzględnić wyłączenia 8.6.3.3 oraz sposób przewozu.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.2",
+            "reference": "ADR 2025, 8.6.3.2–8.6.3.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -165,7 +165,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Wybór kodu tunelowego dla ładunku mieszanego z uwzględnieniem wyłączeń.",
+      "source_risk_note": "Wybór kodu tunelowego dla ładunku mieszanego z uwzględnieniem wyłączeń. [Zmieniono po indywidualnym przeglądzie A/B/C 23.10.2026; wymagane sprawdzenie polskiego ogłoszenia i ekspert.]",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
@@ -881,18 +881,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Do pojemników z żywnością chcesz doładować sztuki przesyłek oznaczone nalepką 6.1. Co należy sprawdzić?",
+        "stem": "Planujesz doładować do żywności przesyłki ADR z nalepką 6.1. Co trzeba ustalić, zanim zastosujesz zasady oddzielenia z 7.5.4?",
         "options": {
-          "A": "Tylko czy mieszczą się na podłodze pojazdu",
-          "B": "Wymogi oddzielenia w ADR 7.5.4",
+          "A": "Tylko czy przesyłki mieszczą się na podłodze pojazdu",
+          "B": "Czy dla danej pozycji UN w tabeli A przypisano przepis CV28 (kolumna 18) i jakie są wymagane warunki oddzielenia",
           "C": "Wyłącznie maksymalną prędkość dojazdu"
         },
         "correct_option": "B",
-        "explanation": "Przy przesyłkach z nalepką 6.1 lub 6.2 przepisy ADR ograniczają wspólny załadunek z żywnością i paszą, wymagając odpowiedniej separacji.",
+        "explanation": "Zasady oddzielenia od żywności w 7.5.4 stosuje się, jeżeli dla konkretnego towaru kolumna 18 tabeli A wskazuje CV28. Sama nalepka 6.1 nie wystarcza do automatycznego przypisania CV28. Przy stosowaniu przepisu można użyć określonych metod separacji.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.4",
+            "reference": "ADR 2025, 7.5.4; 7.5.11 CV28; tabela A kol. (18)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -903,7 +903,7 @@
       "supplementary_source_url": "https://adrpass.eu/pl/wiedza/zakaz-ladowania-razem/",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Nie wszystkie sztuki 6.1 automatycznie wymagają oddzielenia od żywności: zależność od CV28.",
+      "source_risk_note": "Nie wszystkie sztuki 6.1 automatycznie wymagają oddzielenia od żywności: zależność od CV28. [Zmieniono po indywidualnym przeglądzie A/B/C 23.10.2026; wymagane sprawdzenie polskiego ogłoszenia i ekspert.]",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
@@ -1052,11 +1052,11 @@
           "C": "Kod powodujący największe ograniczenia tunelowe"
         },
         "correct_option": "C",
-        "explanation": "Dla całego ładunku w jednostce transportowej stosuje się kod najostrzejszy z przypisanych poszczególnym towarom.",
+        "explanation": "Dla ładunku mieszanego wybiera się kod dający największe ograniczenia tunelowe spośród kodów, które rzeczywiście mają zastosowanie. Przewozy wyłączone na podstawie 8.6.3.3 mogą nie być uwzględniane. Znaczenie kodu zależy też od sposobu przewozu.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.2",
+            "reference": "ADR 2025, 8.6.3.2–8.6.3.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1067,7 +1067,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Wybór kodu tunelowego dla ładunku mieszanego z uwzględnieniem wyłączeń.",
+      "source_risk_note": "Wybór kodu tunelowego dla ładunku mieszanego z uwzględnieniem wyłączeń. [Zmieniono po indywidualnym przeglądzie A/B/C 23.10.2026; wymagane sprawdzenie polskiego ogłoszenia i ekspert.]",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
@@ -1093,11 +1093,11 @@
           "C": "Brak dokumentu identyfikującego członka załogi ze zdjęciem"
         },
         "correct_option": "C",
-        "explanation": "Gdy obowiązuje 8.1.2.1, w kabinie są wymagane dokumenty przewozowe, instrukcje pisemne i dokumenty ze zdjęciem członków załogi.",
+        "explanation": "Każdy członek załogi podczas przewozu objętego tym obowiązkiem powinien mieć przy sobie dokument tożsamości ze zdjęciem. Wskazują na to 1.10.1.4 i dokumentacyjne wymagania 8.1.2.1(d).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.2.1 (d)",
+            "reference": "ADR 2025, 8.1.2.1(d); 1.10.1.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1108,7 +1108,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów.",
+      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów. [Zmieniono po indywidualnym przeglądzie A/B/C 23.10.2026; wymagane sprawdzenie polskiego ogłoszenia i ekspert.]",
       "expert_review_priority": "standard_expert_review",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
@@ -1213,14 +1213,14 @@
         "options": {
           "A": "Wyłącznie w ładowni, pod pozostałymi sztukami przesyłek",
           "B": "Wyłącznie u odbiorcy",
-          "C": "W miejscu łatwo dostępnym dla załogi"
+          "C": "W kabinie pojazdu, w miejscu łatwo dostępnym dla załogi"
         },
         "correct_option": "C",
-        "explanation": "Instrukcje pisemne ADR powinny być w kabinie i w miejscu łatwo dostępnym dla członków załogi.",
+        "explanation": "Wymagane instrukcje pisemne ADR mają znajdować się w kabinie pojazdu i być łatwo dostępne dla członków załogi, tak aby można było z nich skorzystać przed i podczas zdarzenia.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.2.3",
+            "reference": "ADR 2025, 5.4.3.1; 8.1.2.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1231,7 +1231,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów.",
+      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów. [Zmieniono po indywidualnym przeglądzie A/B/C 23.10.2026; wymagane sprawdzenie polskiego ogłoszenia i ekspert.]",
       "expert_review_priority": "standard_expert_review",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"

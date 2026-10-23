@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOT_FIELDS = ("id","module_id","stem","options","correct_option","explanation","sources","legal_basis_version","image")
 
 
-def validate(root=ROOT, expected=60):
+def validate(root=ROOT, expected=90):
     errors, processed = [], []
     question_file = root/"podstawowy"/"questions.jsonl"
     questions = [json.loads(s) for s in question_file.read_text(encoding="utf-8").splitlines() if s.strip()]
@@ -73,7 +73,7 @@ def main():
         for e in errors[:25]:
             print("ERROR:",e)
         return 1
-    print("PASS: A/B/C detailed editorial rationale for first 60 IDs; Polish official text and independent expert signoff still pending.")
+    print("PASS: A/B/C detailed editorial rationale for first 90 IDs; Polish official text and independent expert signoff still pending.")
     return 0
 
 

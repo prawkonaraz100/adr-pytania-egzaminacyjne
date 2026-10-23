@@ -1,0 +1,1420 @@
+{
+  "title": "ADR 2025 legal-clause comparison: questions 0061–0090",
+  "date": "2026-10-23",
+  "scope": "Item-by-item A/B/C rationale against ADR 2025 comparative sources, not full official PL text check or expert signoff",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0061",
+      "order": 61,
+      "clause": "5.4.1.1.7",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.4",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wpis dotyczący 1.1.3.6 nie jest wymaganym wpisem dla 1.1.4.2.1."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "5.4.3.1 reguluje instrukcje, a nie tę dodatkową formułę przewozu."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Przy stosowaniu 1.1.4.2.1 wymagane jest wskazanie przewozu zgodnie z tym punktem."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Sprawdzić dosłowną formułę polskiego aktu, nie każdy dojazd do portu korzysta z 1.1.4.2.1.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0061",
+        "module_id": "ADR-B-10",
+        "stem": "Jaki dodatkowy zapis przewiduje ADR w dokumencie przewozowym, jeśli przewóz odbywa się zgodnie z 1.1.4.2.1?",
+        "options": {
+          "A": "PRZEWÓZ ZGODNY Z 1.1.3.6",
+          "B": "PRZEWÓZ ZGODNY Z 5.4.3.1",
+          "C": "PRZEWÓZ ZGODNY Z 1.1.4.2.1"
+        },
+        "correct_option": "C",
+        "explanation": "Przy zastosowaniu szczególnych zasad przewozu w łańcuchu morskim lub lotniczym ADR wymaga określonego dodatkowego zapisu w dokumencie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0062",
+      "order": 62,
+      "clause": "1.1.4.2",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/1.1",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Oznakowanie kontenera po morskim odcinku wymaga sprawdzenia odpowiednich reguł uznawania."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Dokument nie zastępuje automatycznie wymaganych nalepek i tablic."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "IMDG i ADR mają reguły odmienne; nie są zawsze identyczne."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Warunkowe uznanie nie jest zwolnieniem wszystkich czynności w ruchu drogowym.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0062",
+        "module_id": "ADR-B-10",
+        "stem": "Dlaczego przy drogowym etapie transportu morskiego nie należy automatycznie usuwać oznakowania zagrożeń z kontenera?",
+        "options": {
+          "A": "Bo oznakowanie powinno spełniać stosowne wymagania dla całego przewozu i jego etapów",
+          "B": "Ponieważ dokument przewozowy zawsze zastępuje oznakowanie",
+          "C": "Ponieważ oznakowanie IMDG zawsze jest identyczne z oznakowaniem ADR"
+        },
+        "correct_option": "A",
+        "explanation": "Przy przewozach łączonych trzeba sprawdzić szczególne zasady uznawania oznakowania IMDG oraz wymagania ADR na drodze.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0063",
+      "order": 63,
+      "clause": "3.2 tabela A kol.15; 8.6.3.1",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.6",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Kolumna 18 zawiera dodatkowe przepisy załadunkowe CV, nie kod tunelowy."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Kod tunelowy podawany jest w kolumnie 15, zwykle w nawiasach."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Kolumna 12 to inny rodzaj danych niż kod tunelowy."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Kod (-) jest dopuszczalny; sposób przewozu i wyłączenia mogą zmieniać stosowanie ograniczeń.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0063",
+        "module_id": "ADR-B-11",
+        "stem": "Gdzie w tabeli A ADR szuka się kodu ograniczeń tunelowych dla danego towaru?",
+        "options": {
+          "A": "W kolumnie 18",
+          "B": "W kolumnie 15",
+          "C": "W kolumnie 12"
+        },
+        "correct_option": "B",
+        "explanation": "Kod tunelowy jest podany w dolnej części kolumny 15 tabeli A dla danego towaru, jeśli został przypisany.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0064",
+      "order": 64,
+      "clause": "8.6.3.2–8.6.3.3",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.6",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Dla mieszanego ładunku przyjmuje się najbardziej restrykcyjny kod, spośród mających zastosowanie."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Najłagodniejszy kod nie zapewnia zgodności z ograniczeniami."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Nie zawsze kod A; w systemie tunelowym kategoria A dotyczy tunelu, nie kodu ładunku."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Towary wyłączone na podstawie 8.6.3.3 mogą nie być uwzględniane.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0064",
+        "module_id": "ADR-B-11",
+        "stem": "Dla jednostki transportowej objętej ograniczeniami ADR przewozisz różne towary mające różne kody tunelowe. Jak ustala się kod dla całego ładunku?",
+        "options": {
+          "A": "Stosuje się kod oznaczający największe ograniczenia",
+          "B": "Wybiera się kod najłagodniejszy",
+          "C": "Zawsze przyjmuje się kod A"
+        },
+        "correct_option": "A",
+        "explanation": "Dla towarów podlegających ograniczeniom tunelowym w jednostce transportowej wybiera się najbardziej restrykcyjny kod spośród kodów rzeczywiście mających zastosowanie. Przy ustalaniu kodu trzeba uwzględnić wyłączenia 8.6.3.3 oraz sposób przewozu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.2–8.6.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0065",
+      "order": 65,
+      "clause": "8.6.3.1",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.6",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Symbol (-) wskazuje brak przypisanego ograniczenia tunelowego ADR dla danego towaru."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Nie oznacza zakazu całej infrastruktury drogowej."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Nie oznacza obowiązku jazdy nocą."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Nadal mają zastosowanie inne zakazy ruchu i warunki zarządcy tunelu.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0065",
+        "module_id": "ADR-B-11",
+        "stem": "Co oznacza zapis „(-)” jako kod ograniczeń tunelowych dla danego towaru?",
+        "options": {
+          "A": "Brak ograniczeń tunelowych ADR wynikających z tego kodu",
+          "B": "Całkowity zakaz korzystania z dróg",
+          "C": "Nakaz jazdy tylko nocą"
+        },
+        "correct_option": "A",
+        "explanation": "Symbol (-) oznacza, że sam towar nie podlega ograniczeniom tunelowym ADR z tabeli A. Nadal obowiązują ogólne przepisy ruchu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0066",
+      "order": 66,
+      "clause": "1.10.1.3",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/1.10",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Ochrona magazynowego obszaru w terminalu nie polega na udostępnieniu go każdemu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Zabezpieczenie nie zastępuje nalepek ani tablic ADR."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Prawidłowy cel to ograniczenie nieuprawnionego dostępu."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Odróżniać czasowe składowanie w terminalu od zwykłego postoju.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0066",
+        "module_id": "ADR-B-12",
+        "stem": "Dlaczego obszar terminalu, na którym czasowo składuje się niebezpieczny ładunek podczas transportu, powinien być odpowiednio zabezpieczony?",
+        "options": {
+          "A": "Aby umożliwić dostęp tylko osobom przypadkowym",
+          "B": "Ponieważ zabezpieczenie zastępuje obowiązek właściwego znakowania",
+          "C": "By ograniczyć nieuprawniony dostęp i ryzyko naruszenia ochrony"
+        },
+        "correct_option": "C",
+        "explanation": "Bezpieczeństwo transportu obejmuje też czasowe składowanie na terenie terminalu lub placu. Stosuje się odpowiednie środki ochrony i kontroli dostępu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0067",
+      "order": 67,
+      "clause": "1.10.1.4",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/1.10",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Każdy członek załogi ma własny dokument tożsamości ze zdjęciem."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Dokument jednego kierowcy nie obejmuje automatycznie drugiej osoby."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "List przewozowy z nazwiskiem nie zastępuje dokumentu ze zdjęciem."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Sprawdzić odrębne zasady krajowe dokumentu, nie utożsamiać z ważnością zaświadczenia ADR.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0067",
+        "module_id": "ADR-B-12",
+        "stem": "Dwóch członków załogi wykonuje przewóz ADR objęty wymaganiem 1.10.1.4. Drugi ma tylko kartę zakładową bez fotografii. Co trzeba zrobić?",
+        "options": {
+          "A": "Zapewnić drugiemu członkowi załogi własny dokument identyfikacyjny ze zdjęciem",
+          "B": "Uznać dokument pierwszego kierowcy za wystarczający dla obu osób",
+          "C": "Zastąpić dokument drugiej osoby listem przewozowym z jej nazwiskiem"
+        },
+        "correct_option": "A",
+        "explanation": "Wymóg identyfikacji dotyczy każdego członka załogi z osobna. Jeden dokument ze zdjęciem nie potwierdza tożsamości całej załogi.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0068",
+      "order": 68,
+      "clause": "5.4.1.1.1(h)",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.4",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Nazwę i adres odbiorcy podaje się co do zasady w dokumencie ADR."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Sam kod pocztowy miejsca rozładunku nie jest równoważny pełnym danym odbiorcy."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Dane spedytora nie mogą automatycznie zastąpić odbiorcy."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Istnieją określone wyjątki, np. wielość odbiorców przy dystrybucji.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0068",
+        "module_id": "ADR-B-13",
+        "stem": "Którą informację o odbiorcy trzeba co do zasady zamieścić w dokumencie przewozowym ADR?",
+        "options": {
+          "A": "Nazwę i adres odbiorcy",
+          "B": "Wyłącznie kod pocztowy miejsca rozładunku",
+          "C": "Jedynie dane kontaktowe spedytora zamiast odbiorcy"
+        },
+        "correct_option": "A",
+        "explanation": "Dokument powinien co do zasady zawierać nazwę i adres odbiorcy. ADR przewiduje określone wyjątki.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1 (h)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0069",
+      "order": 69,
+      "clause": "5.4.1.1.1(e)",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.4",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Sama masa pojazdu nie podaje liczby i rodzaju sztuk przesyłek."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Sam numer UN nie zastępuje wymaganych danych o opakowaniach."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Dla przewozu sztuk przesyłek co do zasady podaje się ich liczbę i opis."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Część typów transportu oraz wyłączenia może mieć inne zakresy dokumentacji.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0069",
+        "module_id": "ADR-B-13",
+        "stem": "Jakie informacje o opakowanych towarach niebezpiecznych powinny się znaleźć w dokumencie przewozowym ADR?",
+        "options": {
+          "A": "Wyłącznie sumaryczną masę pojazdu i ładunku",
+          "B": "Tylko numery UN, bez liczby i rodzaju sztuk przesyłek",
+          "C": "Liczba i określenie sztuk przesyłek, jeśli występują"
+        },
+        "correct_option": "C",
+        "explanation": "Dokument przewozowy określa m.in. liczbę i rodzaj sztuk przesyłek. Dodatkowe wymagania zależą od konkretnego ładunku.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1 (e)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0070",
+      "order": 70,
+      "clause": "5.4.1.1.1(f)",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.4",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Całkowitą ilość ADR określa się w wymaganej jednostce, odpowiedniej dla danego towaru."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Sztuki przesyłek nie zwalniają automatycznie z informacji o ilości."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Liczba palet nie jest równoważna podanej ilości towaru."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Masa netto/brutto lub objętość według wymagań właściwych dla pozycji UN.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0070",
+        "module_id": "ADR-B-13",
+        "stem": "Czy w standardowym dokumencie ADR podaje się całkowitą ilość przewożonego towaru niebezpiecznego?",
+        "options": {
+          "A": "Tak, w odpowiedni sposób według rodzaju towaru",
+          "B": "Nie, jeżeli towary są w sztukach przesyłek",
+          "C": "Zawsze wystarcza sama liczba palet bez ilości towaru"
+        },
+        "correct_option": "A",
+        "explanation": "ADR co do zasady wymaga podania całkowitej ilości towaru w odpowiedniej jednostce (np. masa netto lub brutto albo objętość).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1 (f)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0071",
+      "order": 71,
+      "clause": "8.1.4.1",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.1",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Dla DMC 3,5 t 12 kg nie jest minimalnym wymaganym łącznym progiem."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wymagane minimum 4 kg łącznie (co najmniej dwie gaśnice)."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "8 kg nie jest minimalną sumą dla przedziału do 3,5 t."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Dwie gaśnice z odpowiednimi minimami indywidualnymi; nie mylić z 1.1.3.6.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0071",
+        "module_id": "ADR-B-08",
+        "stem": "Jednostka transportowa o DMC 3,5 t przewozi ADR na pełnych zasadach 8.1.4.1. Jaka minimalna łączna pojemność gaśnic jest wymagana?",
+        "options": {
+          "A": "12 kg środka gaśniczego w przeliczeniu na proszek",
+          "B": "4 kg środka gaśniczego w przeliczeniu na proszek",
+          "C": "8 kg środka gaśniczego w przeliczeniu na proszek"
+        },
+        "correct_option": "B",
+        "explanation": "Dla DMC do 3,5 t tabela w 8.1.4.1 wymaga co najmniej 4 kg środka gaśniczego w przeliczeniu na proszek. Jedna gaśnica musi mieć minimum 2 kg.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0072",
+      "order": 72,
+      "clause": "8.1.4.1",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.1",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Przy DMC 6 t minimum 8 kg łącznie."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "4 kg łącznie byłoby za mało."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "12 kg może spełniać wymagania, ale nie jest wymaganym minimum."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "W tym przedziale co najmniej jedna gaśnica 6 kg i jedna 2 kg, przy minimum dwóch.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0072",
+        "module_id": "ADR-B-08",
+        "stem": "Jednostka transportowa ma DMC 6 t i przewozi ADR na pełnych zasadach 8.1.4.1. Jaka jest minimalna łączna pojemność gaśnic?",
+        "options": {
+          "A": "8 kg w przeliczeniu na proszek",
+          "B": "4 kg w przeliczeniu na proszek",
+          "C": "12 kg w przeliczeniu na proszek"
+        },
+        "correct_option": "A",
+        "explanation": "Dla jednostek o DMC powyżej 3,5 t do 7,5 t wymagane jest łącznie co najmniej 8 kg. Gaśnice muszą spełniać także wymagania szczegółowe.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0073",
+      "order": 73,
+      "clause": "8.1.4.2",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.1",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "6 kg jest dopuszczalne, ale nie jest wymaganym absolutnym minimum."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "2 kg proszku albo odpowiednik innego środka to minimalne wymaganie przy 1.1.3.6."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Zwolnienie ilościowe nie oznacza całkowitego braku gaśnicy."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Należy zachować odniesienie do klas pożaru A/B/C.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0073",
+        "module_id": "ADR-B-08",
+        "stem": "Jaka jest **minimalna** pojemność przenośnej gaśnicy proszkowej wymagana przez ADR 8.1.4.2 dla jednostki transportowej przewożącej towary niebezpieczne zgodnie z 1.1.3.6?",
+        "options": {
+          "A": "6 kg — wymagane jako absolutne minimum także przy 1.1.3.6",
+          "B": "2 kg (albo równoważna skuteczność innego odpowiedniego środka gaśniczego)",
+          "C": "0 kg — przy 1.1.3.6 gaśnica nie jest wymagana"
+        },
+        "correct_option": "B",
+        "explanation": "Dla jednostki transportowej objętej 1.1.3.6 przepis 8.1.4.2 wymaga co najmniej jednej gaśnicy o pojemności 2 kg proszku albo równoważnej skuteczności innego odpowiedniego środka, nadającej się do pożarów klas A, B i C. Gaśnica 6 kg może spełniać minimum, ale **6 kg nie jest wymaganym minimum**.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0074",
+      "order": 74,
+      "clause": "8.1.4.4–8.1.4.5",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.1",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Plomba nie jest wystarczająca, jeśli termin inspekcji upłynął."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Własnoręczny wpis nie zastępuje wymaganego przeglądu."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Należy przywrócić zgodne, sprawne i ważne wyposażenie przed przewozem."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Sprawdzić oznakowanie miesiąca/roku i reguły norm krajowych.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0074",
+        "module_id": "ADR-B-08",
+        "stem": "Podczas kontroli okazuje się, że termin przeglądu jednej z wymaganych gaśnic ADR minął. Co powinien zrobić kierowca?",
+        "options": {
+          "A": "Uznać gaśnicę za prawidłową, jeśli plomba jest cała",
+          "B": "Zastąpić datę przeglądu własnym wpisem na etykiecie",
+          "C": "Doprowadzić wyposażenie do zgodności przed przewozem"
+        },
+        "correct_option": "C",
+        "explanation": "ADR wymaga sprawnych gaśnic z ważnym terminem badania lub dopuszczonego użytkowania. Samo nienaruszenie plomby nie wystarcza.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.4; 8.1.4.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0075",
+      "order": 75,
+      "clause": "8.1.5.2",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.1",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Jedna kamizelka dla dwóch osób nie spełnia wymogu na członka załogi."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Dwie osoby wymagają dwóch kamizelek."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Liczba kamizelek nie zależy od liczby osi pojazdu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Odrębne elementy są wymagane na jednostkę transportową i na każdego członka załogi.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0075",
+        "module_id": "ADR-B-08",
+        "stem": "W jednostce transportowej przewożącej towary, dla których obowiązuje 8.1.5.2, znajduje się kierowca i drugi członek załogi. Ile kamizelek ostrzegawczych potrzeba?",
+        "options": {
+          "A": "Jedna, ponieważ używa jej wyłącznie kierowca",
+          "B": "Dwie, po jednej dla każdej osoby",
+          "C": "Trzy, po jednej dla każdej osi pojazdu"
+        },
+        "correct_option": "B",
+        "explanation": "Wymagane jest wyposażenie ochronne dla każdego członka załogi, w tym kamizelka ostrzegawcza.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0076",
+      "order": 76,
+      "clause": "8.1.5.2",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.1",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Dla członka załogi wskazana jest ochrona oczu, np. okulary ochronne."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Okulary przeciwsłoneczne nie muszą zapewniać odpowiedniej ochrony."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Kask bez ochrony oczu nie realizuje tego obowiązku."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dobór sprzętu powinien odpowiadać ryzykom towaru.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0076",
+        "module_id": "ADR-B-08",
+        "stem": "Jaką podstawową ochronę oczu wymaga 8.1.5.2 dla członka załogi, gdy mają zastosowanie te przepisy?",
+        "options": {
+          "A": "Ochronę oczu, np. okulary ochronne",
+          "B": "Wyłącznie przyciemnione okulary przeciwsłoneczne",
+          "C": "Wyłącznie kask, który nie chroni oczu"
+        },
+        "correct_option": "A",
+        "explanation": "Każdy członek załogi powinien mieć ochronę oczu; chodzi o odpowiedni środek ochronny, a nie zwykłe okulary przeciwsłoneczne.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0077",
+      "order": 77,
+      "clause": "8.1.5.3",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.1",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Nalepki 3 i 8 nie są przesłanką tego konkretnego wymogu maski ucieczkowej."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Nalepki 9 i 9A same nie są przesłanką maski ucieczkowej."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Dla nalepek 2.3 lub 6.1 wymagana jest maska ucieczkowa na członka załogi."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "To sprzęt do ewakuacji, nie do działań w strefie skażenia.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0077",
+        "module_id": "ADR-B-08",
+        "stem": "Dla jakich nalepek ostrzegawczych ADR 8.1.5.3 wymaga maski ucieczkowej dla każdego członka załogi?",
+        "options": {
+          "A": "Tylko 3 i 8",
+          "B": "Tylko 9 i 9A",
+          "C": "2.3 lub 6.1"
+        },
+        "correct_option": "C",
+        "explanation": "Maskę ucieczkową przewidziano dla materiałów oznaczonych nalepkami 2.3 (gazy trujące) lub 6.1 (materiały trujące).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0078",
+      "order": 78,
+      "clause": "7.5.7.2",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/7.5",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Masa poniżej 100 kg nie zezwala sama na piętrzenie nieprzystosowanych opakowań."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Brak konstrukcyjnego dopuszczenia oznacza zakaz piętrzenia."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wspólne nalepki nie potwierdzają wytrzymałości opakowań."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Sprawdzić zgodność różnych typów opakowań, nawet jeśli są przeznaczone do piętrzenia.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0078",
+        "module_id": "ADR-B-09",
+        "stem": "Pracownik chce ustawić karton ADR na innym kartonie, choć opakowania nie przewidują piętrzenia. Czy wolno?",
+        "options": {
+          "A": "Tak, jeśli łączna masa nie przekracza 100 kg",
+          "B": "Nie, jeżeli opakowania nie zaprojektowano do piętrzenia",
+          "C": "Tak, jeśli oba kartony mają identyczne nalepki"
+        },
+        "correct_option": "B",
+        "explanation": "Sztuki przesyłek mogą być piętrzone tylko gdy ich konstrukcja to dopuszcza; same nalepki i masa nie zastępują oceny opakowania.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0079",
+      "order": 79,
+      "clause": "7.5.7.1",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/7.5",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Maksymalne dociągnięcie pasów nie jest celem, gdy grozi uszkodzeniem."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Widoczne odkształcenia opakowań mogą naruszać zasady ADR."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Mocowanie ma chronić przed ruchem bez deformowania opakowań."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zwykła zgodność z EN 12195-1 może wspierać ocenę metod mocowania.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0079",
+        "module_id": "ADR-B-09",
+        "stem": "Na palecie ADR pasy mocujące zaczynają odkształcać opakowania. Jaka jest prawidłowa reakcja?",
+        "options": {
+          "A": "Dokręcić pasy, ponieważ mocowanie ma być maksymalnie ciasne",
+          "B": "Pozostawić pasy bez zmian, bo uszkodzenie opakowań nie ma znaczenia",
+          "C": "Dostosować mocowanie tak, by nie uszkadzało ani nie deformowało opakowań"
+        },
+        "correct_option": "C",
+        "explanation": "ADR wymaga skutecznego unieruchomienia ładunku, ale wyraźnie zabrania nadmiernego napinania pasów powodującego uszkodzenie albo deformację sztuk przesyłek.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0080",
+      "order": 80,
+      "clause": "7.5.8.1",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/7.5",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Dwa kolejne przewozy bez czyszczenia są sprzeczne z zasadą ADR."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Kontrola okresowa nie zastępuje oczyszczenia po wycieku."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Po wydostaniu się zawartości opakowania czyszczenie najpóźniej przed następnym załadunkiem."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Gdy czyszczenie na miejscu niemożliwe, sprawdzić warunki bezpiecznego skierowania do miejsca czyszczenia.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0080",
+        "module_id": "ADR-B-09",
+        "stem": "Po rozładunku beczki ADR widać pozostałości jej zawartości na skrzyni ładunkowej. Kiedy najpóźniej należy oczyścić pojazd zgodnie z 7.5.8.1?",
+        "options": {
+          "A": "Po wykonaniu dowolnych dwóch kolejnych przewozów",
+          "B": "Dopiero przy okresowej kontroli technicznej",
+          "C": "Przed ponownym załadunkiem, możliwie jak najszybciej"
+        },
+        "correct_option": "C",
+        "explanation": "Jeżeli zawartość sztuki przesyłki wydostała się i zabrudziła pojazd, oczyszczenie jest wymagane jak najszybciej, bezwzględnie przed kolejnym załadunkiem.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0081",
+      "order": 81,
+      "clause": "7.5.4(c)",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/7.5",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wolna przestrzeń 0,8 m jest jedną z dopuszczonych metod oddzielenia."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "0,2 m jest mniejszą przestrzenią niż wymagane minimum tej metody."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "2 m może być użyte, ale nie jest minimalnie wymaganą wolną przestrzenią."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Dotyczy to pozycji z CV28; inne sposoby to odpowiednie przegrody lub przesyłki oddzielające.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0081",
+        "module_id": "ADR-B-09",
+        "stem": "Ładujesz towary ADR wymagające środków ostrożności względem żywności zgodnie z 7.5.4. Jaką minimalną wolną przestrzeń przewiduje przepis jako jedną z metod oddzielenia?",
+        "options": {
+          "A": "Co najmniej 0,8 m",
+          "B": "Co najmniej 0,2 m",
+          "C": "Co najmniej 2 m"
+        },
+        "correct_option": "A",
+        "explanation": "Jednym z dopuszczonych sposobów oddzielenia wskazanych przesyłek od żywności lub pasz jest wolna przestrzeń o szerokości minimum 0,8 m. Inne metody też są opisane w 7.5.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.4 (c)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0082",
+      "order": 82,
+      "clause": "7.5.4; 7.5.11 CV28",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/7.5",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Samo rozmieszczenie przesyłek bez sprawdzenia podstawy nie wystarcza."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Trzeba ustalić przypisanie CV28 dla konkretnego numeru UN i zasady 7.5.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Prędkość jazdy nie zastępuje sprawdzenia CV28."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Nie każda przesyłka z nalepką 6.1/6.2 ma automatycznie CV28.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0082",
+        "module_id": "ADR-B-09",
+        "stem": "Planujesz doładować do żywności przesyłki ADR z nalepką 6.1. Co trzeba ustalić, zanim zastosujesz zasady oddzielenia z 7.5.4?",
+        "options": {
+          "A": "Tylko czy przesyłki mieszczą się na podłodze pojazdu",
+          "B": "Czy dla danej pozycji UN w tabeli A przypisano przepis CV28 (kolumna 18) i jakie są wymagane warunki oddzielenia",
+          "C": "Wyłącznie maksymalną prędkość dojazdu"
+        },
+        "correct_option": "B",
+        "explanation": "Zasady oddzielenia od żywności w 7.5.4 stosuje się, jeżeli dla konkretnego towaru kolumna 18 tabeli A wskazuje CV28. Sama nalepka 6.1 nie wystarcza do automatycznego przypisania CV28. Przy stosowaniu przepisu można użyć określonych metod separacji.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.4; 7.5.11 CV28; tabela A kol. (18)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0083",
+      "order": 83,
+      "clause": "8.6.4",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.6",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Dwa kartony nie znoszą automatycznie kodu E."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Jazda nocą nie jest ogólnym wyjątkiem od kodu E."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Jeśli stosuje się ograniczenie E, należy ominąć tunel kategorii E."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Inne wyłączenia mogą zmienić stosowanie kodu, ale pytanie wprost je wyklucza.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0083",
+        "module_id": "ADR-B-11",
+        "stem": "Na trasie znajduje się tunel kategorii E. Przewozisz sztuki przesyłek z kodem tunelowym E, a jednostka podlega ograniczeniom z 8.6.4. Co robisz?",
+        "options": {
+          "A": "Przejeżdżasz, jeżeli towar mieści się w dwóch kartonach",
+          "B": "Przejeżdżasz tylko pod warunkiem jazdy nocą",
+          "C": "Wybierasz trasę bez tunelu kategorii E"
+        },
+        "correct_option": "C",
+        "explanation": "Jeżeli przewóz podlega przepisom tunelowym, kod E oznacza zakaz wjazdu do tunelu kategorii E.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0084",
+      "order": 84,
+      "clause": "8.6.4",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.6",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Kod D/E w sztukach przesyłek nie zakazuje wszystkich tuneli A–E."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "D/E dla sztuk przesyłek dotyczy tunelu E, więc sam kod nie zabrania D."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Kod D/E nie ma identycznego znaczenia w cysternie i w sztukach przesyłek."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Niezależne znaki drogowe nadal mogą zakazywać wjazdu do D.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0084",
+        "module_id": "ADR-B-11",
+        "stem": "Jednostka transportowa podlega ograniczeniom tunelowym ADR i przewozi sztuki przesyłek z kodem D/E. Czy wolno jej wjechać do tunelu kategorii D na podstawie samego kodu ADR?",
+        "options": {
+          "A": "Nie, kod D/E zakazuje każdej kategorii A–E",
+          "B": "Tak, kod D/E w sztukach przesyłek zakazuje dopiero kategorii E",
+          "C": "Nie, kod D/E zawsze zakazuje kategorii D niezależnie od sposobu przewozu"
+        },
+        "correct_option": "B",
+        "explanation": "D/E dla sztuk przesyłek, w przeciwieństwie do cystern i luzem, oznacza zakaz przejazdu tylko w tunelu E. Inne lokalne zakazy nadal mają zastosowanie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0085",
+      "order": 85,
+      "clause": "8.6.3.3",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.6",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wyłączony przewóz bez warunku oznakowania LQ nie jest automatycznie liczony do najostrzejszego kodu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "8.6.3.3 przewiduje nieuwzględnianie takich towarów przy kodzie jednostki."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Klasa 3 nie wprowadza opisanego automatycznego odstępstwa od tej zasady."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Jeżeli wymagane jest oznakowanie 3.4.13 z uwzględnieniem 3.4.14, obowiązuje odrębne zastrzeżenie.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0085",
+        "module_id": "ADR-B-11",
+        "stem": "Towary są rzeczywiście przewożone zgodnie z wyłączeniami rozdziału ADR 1.1.3. Jednostka transportowa nie wymaga oznakowania LQ na podstawie 3.4.13 (z uwzględnieniem 3.4.14). Czy te towary uwzględnia się przy ustalaniu kodu ograniczeń tunelowych?",
+        "options": {
+          "A": "Tak, zawsze uwzględnia się ich kody",
+          "B": "Nie, przewozy na tych zasadach nie podlegają takim ograniczeniom tunelowym",
+          "C": "Tak, ale tylko jeśli w pojeździe są materiały klasy 3"
+        },
+        "correct_option": "B",
+        "explanation": "Przepis 8.6.3.3 przewiduje, że towary przewożone zgodnie z 1.1.3 nie podlegają ograniczeniom tunelowym i nie są uwzględniane przy wyborze kodu całego ładunku. Wyjątek dotyczy jednostki, która wymaga oznakowania zgodnie z 3.4.13 z uwzględnieniem 3.4.14; mogą też obowiązywać niezależne zakazy drogowe.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0086",
+      "order": 86,
+      "clause": "8.6.3.2–8.6.3.3",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.6",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Kolejność dokumentu nie rozstrzyga o kodzie tunelu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Masa towaru nie przesądza o wyborze kodu przy stosowaniu 8.6.3.2."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Stosuje się najbardziej restrykcyjny kod tych towarów, które mają zastosowanie."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Wyłączenia i sposób przewozu mogą zmienić listę branych pod uwagę kodów.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0086",
+        "module_id": "ADR-B-11",
+        "stem": "W jednostce transportowej objętej ADR masz dwa towary z różnymi kodami tunelowymi. Jaki kod obowiązuje dla całego ładunku?",
+        "options": {
+          "A": "Kod pierwszego towaru wpisanego do dokumentu",
+          "B": "Kod towaru o większej masie",
+          "C": "Kod powodujący największe ograniczenia tunelowe"
+        },
+        "correct_option": "C",
+        "explanation": "Dla ładunku mieszanego wybiera się kod dający największe ograniczenia tunelowe spośród kodów, które rzeczywiście mają zastosowanie. Przewozy wyłączone na podstawie 8.6.3.3 mogą nie być uwzględniane. Znaczenie kodu zależy też od sposobu przewozu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.2–8.6.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0087",
+      "order": 87,
+      "clause": "8.1.2.1(d); 1.10.1.4",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.1",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Dziennik tankowania nie zastępuje identyfikacji osoby."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Umowa o pracę w dwóch egzemplarzach nie jest wymaganą alternatywą."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Brak dokumentu ze zdjęciem u członka załogi narusza odpowiedni obowiązek ADR."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Osoba ma nosić dokument ze zdjęciem zgodnie z zakresem wymagań, a nie tylko przechowywać go u pracodawcy.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0087",
+        "module_id": "ADR-B-13",
+        "stem": "W czasie kontroli ADR kierowca ma dokument przewozowy i instrukcje pisemne, ale nie ma przy sobie wymaganego dokumentu ze zdjęciem. Co jest niezgodne?",
+        "options": {
+          "A": "Brak dodatkowego dziennika tankowania",
+          "B": "Brak umowy o pracę w dwóch egzemplarzach",
+          "C": "Brak dokumentu identyfikującego członka załogi ze zdjęciem"
+        },
+        "correct_option": "C",
+        "explanation": "Każdy członek załogi podczas przewozu objętego tym obowiązkiem powinien mieć przy sobie dokument tożsamości ze zdjęciem. Wskazują na to 1.10.1.4 i dokumentacyjne wymagania 8.1.2.1(d).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.1(d); 1.10.1.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0088",
+      "order": 88,
+      "clause": "5.4.3.4",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.4",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Własna notatka, nawet z mapą, nie jest czterostronicowym wzorem."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Przewidziane instrukcje muszą odpowiadać wzorowi ADR."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Znajomość klas nie zwalnia z wymagania dokumentu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Informacje dodatkowe mogą być odrębnym dokumentem, lecz nie zastępować modelu.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0088",
+        "module_id": "ADR-B-13",
+        "stem": "Czy kierowca zawsze może zastąpić instrukcje pisemne ADR własnoręcznie sporządzoną notatką?",
+        "options": {
+          "A": "Tak, pod warunkiem dołączenia mapy",
+          "B": "Nie, instrukcje powinny być zgodne z określonym wzorem ADR",
+          "C": "Tak, gdy zna klasy przewożonych towarów"
+        },
+        "correct_option": "B",
+        "explanation": "ADR przewiduje instrukcje pisemne według określonego wzoru. Własna krótka notatka nie jest ich zamiennikiem.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0089",
+      "order": 89,
+      "clause": "5.4.1.1.7",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.4",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "5.4.3.2 nie jest formułą dla łańcucha morskiego."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "1.1.3.6 to inna podstawa wyłączeń ilościowych."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Przy 1.1.4.2.1 dokument zawiera dodatkowy wpis dotyczący tego punktu."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Wymagana polska formuła powinna zostać zestawiona z urzędowym polskim brzmieniem.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0089",
+        "module_id": "ADR-B-13",
+        "stem": "Przewóz drogowy odbywa się na szczególnych warunkach 1.1.4.2.1 w łańcuchu morsko-drogowym. Jaki dodatkowy zapis jest wymagany w dokumencie ADR?",
+        "options": {
+          "A": "PRZEWÓZ ZGODNY Z 5.4.3.2",
+          "B": "PRZEWÓZ ZGODNY Z 1.1.3.6",
+          "C": "PRZEWÓZ ZGODNY Z 1.1.4.2.1"
+        },
+        "correct_option": "C",
+        "explanation": "Przy przewozie na szczególnych warunkach 1.1.4.2.1 dokument musi zawierać wskazany w 5.4.1.1.7 dodatkowy wpis.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0090",
+      "order": 90,
+      "clause": "5.4.3.1; 8.1.2.3",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.4",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Instrukcje w ładowni pod opakowaniami nie są dostępne załodze."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Instrukcje u odbiorcy nie pomagają załodze w awarii."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Prawidłowym miejscem jest kabina, łatwo dostępna dla załogi."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Model 5.4.3.4 ma pozostać kompletny i czytelny.",
+      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0090",
+        "module_id": "ADR-B-13",
+        "stem": "Gdzie w jednostce transportowej należy przechowywać instrukcje pisemne ADR zgodnie z 8.1.2.3?",
+        "options": {
+          "A": "Wyłącznie w ładowni, pod pozostałymi sztukami przesyłek",
+          "B": "Wyłącznie u odbiorcy",
+          "C": "W kabinie pojazdu, w miejscu łatwo dostępnym dla załogi"
+        },
+        "correct_option": "C",
+        "explanation": "Wymagane instrukcje pisemne ADR mają znajdować się w kabinie pojazdu i być łatwo dostępne dla członków załogi, tak aby można było z nich skorzystać przed i podczas zdarzenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.1; 8.1.2.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
