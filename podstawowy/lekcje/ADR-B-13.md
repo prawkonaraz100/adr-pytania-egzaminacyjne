@@ -68,3 +68,7 @@ Uczeń uzupełnia wymagane dane odbiorcy (0233) w standardowym opisie i rozpozna
 ## Zadanie sytuacyjne ADR-B-0250 (etap 2)
 
 Uczestnik rozwiązuje przypadek z pytania ADR-B-0250, wskazuje podstawę, warunki i typowy błąd. Wynik testu nie jest zatwierdzeniem praktyki; materiał do ostatecznej kontroli polskiego ADR 2025 i sprostowania.
+
+## Sytuacja kontrolna ADR-B-0287 (etap 2)
+
+Wymagany dokument przewozowy dotyczy przewozu ADR realizowanego zgodnie z 1.1.4.2.1 w łańcuchu morskim lub lotniczym. Jakiego dodatkowego wpisu wymaga 5.4.1.1.7? Uczeń ma wyjaśnić uzasadnienie i warunki prawne 5.4.1.1.7 oraz wskazać błędną praktykę. To szkic wymagający porównania z polskim Dz.U. 642, sprostowaniem 1575 i niezależnej recenzji.
