@@ -1,0 +1,727 @@
+{
+  "date": "2026-10-23",
+  "range": "ADR-B-0129..ADR-B-0144",
+  "scope": "Provisional A/B/C rationale assessment from previous legal clause records; full official Polish ADR 2025 (Dz.U. 642), corrigendum 1575 and M364 clause-by-clause comparison NOT completed; independent approval pending",
+  "records": [
+    {
+      "id": "ADR-B-0129",
+      "sequence": 129,
+      "snapshot": {
+        "stem": "Nadawca nie zna dokładnego składu odpadu bez nieproporcjonalnych kosztów. Czy może zawsze nadać grupę pakowania III?",
+        "options": {
+          "A": "Nie. Musi stosować reguły ADR dla odpadów, dostępne dane o zagrożeniach i właściwe wyjątki",
+          "B": "Tak, każdy odpad ma najniższy stopień zagrożenia",
+          "C": "Tak, jeśli pojemnik ma znak UN"
+        },
+        "correct_option": "A",
+        "explanation": "Nie można automatycznie przypisywać odpadom grupy III. Przy nieznanym dokładnym składzie ADR 2.1.3.5.5 pozwala — **z określonymi wyłączeniami** — wykorzystać informacje nadawcy i dostępne dane techniczne. W razie wątpliwości przyjmuje się najwyższy poziom zagrożenia. Pod ściśle opisanymi warunkami możliwe są odrębne reguły dotyczące grupy II lub odpadów wyłącznie zagrażających środowisku w grupie III.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.3.5.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie wolno automatycznie nadawać wszystkim odpadom PG III; wymagana jest klasyfikacja z wyjątkami."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Odpad nie oznacza automatycznie najniższego zagrożenia."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Znak opakowania UN nie przesądza grupy pakowania zawartości."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Przepis ma wyłączenia i reguły doboru klasy i grupy w razie nieznanego składu.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0130",
+      "sequence": 130,
+      "snapshot": {
+        "stem": "Po uszkodzeniu opakowania ADR na jezdni jest rozlew nieznanej cieczy. Co ogranicza narażenie kierowcy?",
+        "options": {
+          "A": "Przenieść cieknące opakowanie do kabiny",
+          "B": "Nie dotykać cieczy, unikać oparów i odsunąć się w bezpieczne miejsce",
+          "C": "Sprawdzić zapach bezpośrednio nad cieczą"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne nakazują unikać kontaktu z uwolnioną substancją i wdychania oparów. Dalsze działania zależą od oceny bezpieczeństwa.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przenoszenie cieknącego opakowania do kabiny zwiększa zagrożenie."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Unikanie kontaktu i oparów oraz odejście jest prawidłowe."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Rozpoznawanie zapachu nad rozlewem naraża na substancję."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Działania przy uwolnieniu tylko jeśli bezpieczne i zgodne z instrukcjami.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0131",
+      "sequence": 131,
+      "snapshot": {
+        "stem": "Kiedy szczególne wymagania nadzoru pojazdu z 8.4 ADR mają zastosowanie?",
+        "options": {
+          "A": "Zawsze przy przewozie dowolnej przesyłki",
+          "B": "Wyłącznie po decyzji kierowcy, niezależnie od ADR",
+          "C": "Przy określonych towarach i ilościach wskazanych przez przepisy szczególne w kolumnie 19 tabeli A"
+        },
+        "correct_option": "C",
+        "explanation": "Wymogi 8.4 dotyczą wskazanych towarów i ilości; trzeba sprawdzić przypisane przepisy szczególne, nie zakładać reguły ogólnej.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.4.1; 8.5; 3.2 tabela A kol. (19)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie każdy dowolny towar powoduje obowiązek nadzoru 8.4."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Samodzielna decyzja kierowcy nie tworzy dowolnego wyłączenia."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nadzór wynika z zastosowanych przepisów szczególnych i wskazanych ilości."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Sprawdzić konkretne S z kolumny 19 i dodatkowe warunki postojów.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0132",
+      "sequence": 132,
+      "snapshot": {
+        "stem": "Na jakich powierzchniach kontenera wymagającego nalepek dużego formatu ADR co do zasady się je umieszcza?",
+        "options": {
+          "A": "Na obu bokach i obu końcach kontenera",
+          "B": "Wyłącznie na jednym końcu",
+          "C": "Wyłącznie na dachu"
+        },
+        "correct_option": "A",
+        "explanation": "ADR 5.3.1.2 wymaga nalepek na bokach i końcach odpowiedniego kontenera; występują odrębne zasady dla niektórych jednostek.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.1.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nalepki dużego formatu na kontenerze zasadniczo są na obu bokach i obu końcach."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Oznaczenie tylko jednego końca nie wystarcza."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sam dach nie spełnia reguły rozmieszczenia nalepek."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Konkretna konfiguracja zależy od typu kontenera/jednostki i sposobu przewozu.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0133",
+      "sequence": 133,
+      "snapshot": {
+        "stem": "Nalepki kontenera ADR są niewidoczne z zewnątrz pojazdu. Co może być wymagane według 5.3.1.3?",
+        "options": {
+          "A": "Zastąpienie nalepek samym dokumentem przewozowym",
+          "B": "Powtórzenie nalepek dużego formatu na bokach i z tyłu pojazdu",
+          "C": "Usunięcie oznakowania z kontenera"
+        },
+        "correct_option": "B",
+        "explanation": "Kiedy wymagane nalepki kontenera są niewidoczne z zewnątrz, ADR przewiduje ich umieszczenie również na pojeździe.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dokument nie zawsze zastępuje nalepkę niewidoczną z pojazdu."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Gdy wymaga tego przepis, nalepki powtarza się na bokach i z tyłu pojazdu."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Usunięcie nalepki z kontenera nie jest prawidłowym rozwiązaniem."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Dotyczy określonych konfiguracji jednostek i widoczności oznakowania.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0134",
+      "sequence": 134,
+      "snapshot": {
+        "stem": "Kto odpowiada za spełnienie wymagań pakowania i wspólnego pakowania w ADR 1.4.3.2?",
+        "options": {
+          "A": "Wyłącznie odbiorca po rozładunku",
+          "B": "Wyłącznie kierowca w trakcie jazdy",
+          "C": "Pakujący"
+        },
+        "correct_option": "C",
+        "explanation": "Pakujący ma własne obowiązki dotyczące sposobu pakowania oraz oznakowania przygotowywanych przesyłek.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.4.3.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Odbiorca po rozładunku nie zastępuje pakującego."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kierowca nie odpowiada automatycznie za wszystkie obowiązki pakowania."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pakujący ma własne wymagania opakowania, pakowania razem i oznakowania."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Jedna firma może pełnić kilka ról ADR zależnie od działań.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0135",
+      "sequence": 135,
+      "snapshot": {
+        "stem": "Przed rozładunkiem rozładowca widzi uszkodzenie mogące spowodować niebezpieczny wyciek. Co robi?",
+        "options": {
+          "A": "Nie rozpoczyna rozładunku do czasu odpowiednich działań zapewniających bezpieczeństwo",
+          "B": "Rozładowuje bezzwłocznie bez zabezpieczenia",
+          "C": "Otwiera opakowanie, aby poznać skład"
+        },
+        "correct_option": "A",
+        "explanation": "Rozładowca kontroluje uszkodzenia mogące zagrozić operacji i nie prowadzi rozładunku przed podjęciem odpowiednich środków.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.4.3.7.1(b)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "W razie uszkodzeń grożących wyciekiem rozładunek należy zatrzymać do właściwych środków bezpieczeństwa."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Natychmiastowy rozładunek bez oceny zwiększa ryzyko."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Otwarcie opakowania nie jest metodą rozpoznawania składu przez załogę."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Wymaga kontroli przed i w trakcie rozładunku.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0136",
+      "sequence": 136,
+      "snapshot": {
+        "stem": "Czy jednostka transportowa przewożąca ADR na zasadach 8.3.1 może zabrać pasażera niebędącego członkiem załogi?",
+        "options": {
+          "A": "Tak, jeżeli jedzie tylko po Polsce",
+          "B": "Nie, 8.3.1 wyklucza osoby spoza załogi",
+          "C": "Tak, jeżeli pasażer siedzi z przodu"
+        },
+        "correct_option": "B",
+        "explanation": "Podczas takiego przewozu w jednostce transportowej nie mogą przebywać pasażerowie spoza załogi.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przewóz tylko po Polsce nie jest automatycznym wyjątkiem od zakazu pasażerów."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Osób spoza załogi nie można przewozić w jednostce objętej tym wymogiem."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Siedzenie z przodu nie czyni pasażera członkiem załogi."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Wymóg dotyczy jednostek ADR, gdy stosuje się 8.3.1.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0137",
+      "sequence": 137,
+      "snapshot": {
+        "stem": "Dla jakich kategorii pojazdów ADR przewiduje szczególne dopuszczenie według części 9?",
+        "options": {
+          "A": "Każdego samochodu osobowego z puszką farby",
+          "B": "Każdego dostawczego przewożącego niegroźny towar",
+          "C": "Między innymi EX/II, EX/III, FL, AT i MEMU"
+        },
+        "correct_option": "C",
+        "explanation": "Nie każdy pojazd przewożący ADR wymaga świadectwa dopuszczenia. Dotyczy ono określonych kategorii pojazdów.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 9.1.2.1; 9.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie każdy pojazd z puszką farby podlega odrębnemu dopuszczeniu."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zwykły niegroźny towar nie implikuje świadectwa ADR."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "EX/II, EX/III, FL, AT, MEMU należą do istotnych typów dopuszczeń."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie każdy przewóz ADR w opakowaniach wymaga świadectwa pojazdu.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0138",
+      "sequence": 138,
+      "snapshot": {
+        "stem": "Kontrola przed załadunkiem ADR wykazuje niezgodność wyposażenia pojazdu z wymaganiami. Co należy zrobić?",
+        "options": {
+          "A": "Nie rozpoczynać załadunku przed usunięciem niezgodności",
+          "B": "Załadować, jeśli trasa będzie krótka",
+          "C": "Pozostawić ocenę wyłącznie odbiorcy"
+        },
+        "correct_option": "A",
+        "explanation": "Dokumenty, pojazd i wyposażenie podlegają kontroli przed załadunkiem, a stwierdzone istotne niezgodności go wykluczają.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.1.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Załadunku nie rozpoczyna się przy wykrytej niezgodności wpływającej na wymagania ADR."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Krótka trasa nie usuwa problemu wyposażenia."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Odbiorca nie zastępuje przedzaładunkowej kontroli."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Sprawdzić wyjątki dotyczące charakteru niezgodności i właściwych dokumentów.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0139",
+      "sequence": 139,
+      "snapshot": {
+        "stem": "W jakim przypadku ADR 7.3.1.1 dopuszcza przewóz towarów niebezpiecznych luzem w pojeździe lub kontenerze?",
+        "options": {
+          "A": "Gdy w pojeździe są tylko opakowania, które nie zmieściły się na palecie",
+          "B": "Gdy w kolumnie 10 lub 17 tabeli A wskazano zezwalający kod BK, VC albo wyraźne odesłanie do szczególnego punktu, oraz spełniono odpowiednie warunki",
+          "C": "Gdy pojazd jest przykryty plandeką i przewoźnik sam zatwierdził ten sposób przewozu"
+        },
+        "correct_option": "B",
+        "explanation": "Przewóz luzem jest dopuszczony tylko wtedy, gdy określony kod BK, VC **albo wyraźne odesłanie do odpowiedniego punktu** w kolumnie (10) lub (17) pozwala na ten sposób przewozu i spełniono warunki 7.3.2 lub 7.3.3. To nie to samo co przewóz w cysternie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.3.1.1; 3.2 tabela A kol. (10),(17)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie każda nieustawiona na palecie przesyłka staje się ładunkiem dopuszczonym luzem."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kod BK/VC lub wyraźne odesłanie i odpowiednie warunki pozwalają na przewóz luzem."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Plandeka i decyzja przewoźnika nie zastępują dopuszczenia."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Istnieje szczególny przypadek pustych nieoczyszczonych opakowań; sprawdzić 7.3.1.1.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0140",
+      "sequence": 140,
+      "snapshot": {
+        "stem": "Zwykły kontener ładunkowy ze sztukami przesyłek ADR (nie kontener-cysterna) będzie najpierw przewożony drogą, a następnie drogą morską. Jaki dodatkowy dokument może wymagać ADR 5.4.2?",
+        "options": {
+          "A": "Jedynie dokumentu przewozowego ADR, bez wymaganego certyfikatu pakowania kontenera",
+          "B": "Wyłącznie świadectwa dopuszczenia pojazdu drogowego zamiast certyfikatu pakowania",
+          "C": "Certyfikat pakowania kontenera/pojazdu, gdy zachodzą warunki tego przepisu"
+        },
+        "correct_option": "C",
+        "explanation": "Gdy przewóz niebezpiecznych towarów w kontenerze poprzedza rejs morski, ADR 5.4.2 wymaga odpowiedniego certyfikatu pakowania kontenera/pojazdu. Istnieją szczególne wyjątki, m.in. dla kontenerów-cystern, cystern przenośnych i MEGC; funkcje dokumentów można w określonych warunkach połączyć.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sam dokument przewozowy nie zawsze zastąpi certyfikat pakowania kontenera."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Świadectwo dopuszczenia pojazdu nie jest certyfikatem pakowania."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "W określonych warunkach wymagany certyfikat pakowania kontenera/pojazdu."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie stosować automatycznie do kontenerów-cystern, cystern przenośnych, MEGC.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0141",
+      "sequence": 141,
+      "snapshot": {
+        "stem": "Który zestaw odpowiada gałęziom transportu towarów niebezpiecznych?",
+        "options": {
+          "A": "ADR — droga, RID — kolej, IMDG — morze",
+          "B": "ADR — morze, RID — lotnictwo, IMDG — droga",
+          "C": "ADR — kolej, RID — droga, IMDG — żegluga śródlądowa"
+        },
+        "correct_option": "A",
+        "explanation": "Łańcuch transportu może wymagać uwzględnienia osobnych przepisów drogowych, kolejowych i morskich.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2; 1.1.4.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "ADR drogowe, RID kolejowe, IMDG morskie — właściwa para nazw i gałęzi."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "ADR nie oznacza morza, RID nie oznacza lotnictwa."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "RID nie dotyczy przewozu drogowego, IMDG nie jest ADN."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Zasady wzajemnego uznawania są warunkowe.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0142",
+      "sequence": 142,
+      "snapshot": {
+        "stem": "Kontener z oznakowaniem IMDG po rejsie morskim jedzie drogą. Co trzeba sprawdzić?",
+        "options": {
+          "A": "Czy można usunąć wszystkie wymagane nalepki",
+          "B": "Warunki uznania oznakowania morskiego i pozostałe obowiązki ADR na odcinku drogowym",
+          "C": "Czy rejs automatycznie zniósł wszystkie przepisy ADR"
+        },
+        "correct_option": "B",
+        "explanation": "ADR warunkowo uznaje niektóre wymogi IMDG przy przewozie łączonym; nie znosi automatycznie innych obowiązków drogowych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zdejmowanie oznakowania bez sprawdzenia nie jest prawidłowe."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Trzeba sprawdzić warunki uznania IMDG i wymogi na drodze."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Rejs morski nie uchyla automatycznie całego ADR."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Odnosi się do określonych wymogów i sposobów przewozu, nie każdej przesyłki.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0143",
+      "sequence": 143,
+      "snapshot": {
+        "stem": "W tunelu podczas przewozu ADR wybucha rozwinięty pożar przedziału ładunkowego. Co jest właściwym priorytetem załogi?",
+        "options": {
+          "A": "Wejście do ładowni i otwarcie przesyłek",
+          "B": "Pozostanie obok ładunku bez wezwania służb",
+          "C": "Bezpieczna ewakuacja, ostrzeżenie służb i niepodejmowanie samodzielnego gaszenia pożaru ładowni"
+        },
+        "correct_option": "C",
+        "explanation": "ADR nie przewiduje samodzielnego gaszenia przez załogę pożaru obejmującego przedział ładunkowy. W tunelu liczą się bezpieczeństwo, ewakuacja i procedury obiektu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4; program kursu lit. k",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wchodzenie w płonący przedział ładunkowy narazi załogę."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pozostanie obok ładunku bez alarmowania jest niewłaściwe."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ewakuacja, powiadomienie służb i brak samodzielnego gaszenia ładowni są właściwe."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "W tunelu stosować również lokalne reguły ewakuacji i polecenia ratowników.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0144",
+      "sequence": 144,
+      "snapshot": {
+        "stem": "Przy przewozie objętym 8.4.1 ADR jaki postój bez bezpośredniego nadzoru może być dopuszczony?",
+        "options": {
+          "A": "Postój na odpowiednio zabezpieczonym terenie bazy lub chronionego zakładu",
+          "B": "Dowolne nieogrodzone pobocze, bez żadnego zabezpieczenia",
+          "C": "Parking dobrany tylko według ceny"
+        },
+        "correct_option": "A",
+        "explanation": "Jeżeli dla danego przewozu ma zastosowanie 8.4.1, pojazd powinien pozostawać pod nadzorem albo można go pozostawić bez nadzoru w odpowiednio zabezpieczonym miejscu przewidzianym przepisami. Inne rodzaje miejsc postoju podlegają określonej kolejności i warunkom; nie wystarczy dowolne pobocze.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.4.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Postój w odpowiednio zabezpieczonym zakładzie może być dopuszczony bez bezpośredniego nadzoru."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dowolne pobocze bez zabezpieczenia nie spełnia opisanych warunków."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Cena parkingu nie jest kryterium bezpieczeństwa ADR."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Kolejność alternatywnych miejsc określają warunki 8.4.1 i szczególne przepisy.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    }
+  ]
+}
