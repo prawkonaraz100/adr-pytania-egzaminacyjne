@@ -64,3 +64,7 @@ Pytania: `ADR-B-0028`–`0030`, `0061`–`0062`, `0119`, `0140`–`0142`.
 ## Zadanie sytuacyjne ADR-B-0247 (etap 2)
 
 Uczestnik rozwiązuje przypadek z pytania ADR-B-0247, wskazuje podstawę, warunki i typowy błąd. Wynik testu nie jest zatwierdzeniem praktyki; materiał do ostatecznej kontroli polskiego ADR 2025 i sprostowania.
+
+## Studium dokumentów transportu kombinowanego — 0277–0278
+
+Na ćwiczeniu kursant sprawdza, czy przewóz naprawdę korzysta z 1.1.4.2.1, wówczas ustala wymagany wpis z 5.4.1.1.7. Dla kontenera przewożonego następnie statkiem wskazuje podmiot odpowiedzialny za świadectwo pakowania według 5.4.2. Nie przenosi tych wymogów na wszystkie przewozy, nie utożsamia świadectwa pakowania z zaświadczeniem ADR kierowcy. Materiał `needs_review`, do kontroli polskiego tekstu Dz.U. 642 i sprostowania 1575.
