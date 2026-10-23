@@ -76,3 +76,7 @@ Materiał do testowania: `ADR-B-0001`, `0002`, `0003`, `0040`, `0041`, `0091`–
 ## Przypadki graniczne LQ, EQ i 1.1.3.6 — 0259–0261
 
 Zestaw kontrolny: 1.1.3.6.3 (kategoria 3, granica 1000), 3.5.1.2 (E0 wyklucza EQ) i 3.4.2 (30 kg brutto dla odpowiedniego opakowania zewnętrznego LQ; inne warunki dla tac foliowanych). Zanim kierowca zastosuje wyłączenie, musi sprawdzić przypisanie towaru, kolumny tabeli A i pozostałe warunki. Pytania wymagają recenzji eksperckiej urzędowego polskiego ADR i sprostowania.
+
+## Mieszane kategorie i znak LQ — ADR-B-0271–0273
+
+Przykłady obliczeń 1.1.3.6.4: `100×3+600=900` oraz `200×3+500=1100`. Ilustrują mnożnik dla kategorii 2 i 3 i próg 1000; przed oceną realnego przewozu trzeba ustalić właściwą kategorię oraz jednostki ilości. Dodatkowo opis znaku LQ z 3.4.7.1, bez grafiki. Materiał nie jest urzędowo zatwierdzony; recenzja polskiego Dz.U. 642 i sprostowania 1575 wymagana.
