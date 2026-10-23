@@ -112,3 +112,13 @@ Przećwiczyć na suchych scenariuszach: bezpieczne zatrzymanie, światła awaryj
 **Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
 
 **Punkty do porównania z urzędową publikacją:** ADR 5.4.3.4; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.
+
+## Zadanie instruktorskie: Zdarzenie i pierwsza pomoc (uzupełnienie etapu 2, 23.10.2026)
+
+**Scenariusz bez rzeczywistych towarów niebezpiecznych:** W symulacji wycieku oraz pożaru przestrzeni ładunkowej kursant wskazuje kolejność: własne bezpieczeństwo, ostrzeżenie, pomoc, informacje dla służb; nie rozpoczyna działań przy realnym ładunku.
+
+**Podstawa do sprawdzenia przez instruktora:** ADR 5.4.3.4, 8.1.5; program praktyczny Dz.U. 2021 poz. 2150.
+
+**Obserwowalne kryterium:** Nie proponuje gaszenia pożaru przestrzeni ładunkowej przez załogę; rozróżnia ćwiczenie od zaliczenia praktyki.
+
+**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.

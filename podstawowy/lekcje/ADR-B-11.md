@@ -63,3 +63,13 @@ Kursant rozróżnia kategorię tunelu E, zasadę najbardziej restrykcyjnego kodu
 ## Tunel — awaria z pożarem przestrzeni ładunkowej (0308)
 
 Załoga nie podejmuje gaszenia pożaru wewnątrz przestrzeni ładunkowej; odsuwa się, powiadamia ratowników i postępuje według instrukcji ADR 5.4.3.4. Symulacja wyłącznie teoretyczna. Nie utożsamiać jej z zaliczeniem praktycznym.
+
+## Zadanie instruktorskie: Tunele (etap 2, 23.10.2026)
+
+**Symulacja bez rzeczywistych towarów:** Kursant porównuje oznakowanie jednostki ADR i oznakowanie LQ wymagane przez 3.4.13; ustala ograniczenie kategorii E.
+
+**Odniesienie do weryfikacji:** ADR 8.6.3.3, 8.6.4, 3.4.13–3.4.14.
+
+**Obserwowalne kryterium:** Nie pomija warunku oznakowania LQ.
+
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.

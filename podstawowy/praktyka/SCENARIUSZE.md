@@ -130,3 +130,17 @@ Instruktor przedstawia fikcyjną trasę i scenariusz z zastosowaniem ADR 8.4.1. 
 ## Instruktorski wariant P3 — prywatny przewóz (0313)
 
 Na fikcyjnych kartach ładunków kursant (1) wskazuje cel wykorzystania, (2) sprawdza opakowanie detaliczne, (3) ocenia zabezpieczenie przed wyciekiem, (4) wskazuje potrzebę dodatkowej oceny ilości cieczy łatwopalnych. Instruktor notuje obserwacje i zaliczone/do powtórzenia/nieocenione. Brak rzeczywistego towaru i fikcyjnych zaliczeń.
+
+## Arkusz obserwacyjny P1–P3 (uzupełnienie 23.10.2026)
+
+Ten arkusz pozostaje pustym wzorcem. **Nie wpisywać wyników przed rzeczywistymi zajęciami i nie uznawać quizu za zaliczenie praktyki.** Instruktor zatwierdza warunki stanowiska i ostateczne kryteria, a następnie dokumentuje realne wykonanie.
+
+| Ćwiczenie | Stanowisko | Obserwacja instruktora | Przerwać, gdy… |
+|---|---|---|---|
+| P1 — gaśnica | Zabezpieczone stanowisko szkoleniowe, odpowiedni sprzęt | Kursant określa granice bezpiecznego gaszenia, demonstruje użycie pod instruktażem, przerywa na sygnał | Niebezpieczne warunki, brak nadzoru, ryzyko dla ludzi lub ogień w przestrzeni ładunkowej |
+| P2 — pierwsza pomoc | Fantom, karta symulacji, bez substancji niebezpiecznych | Kursant ocenia bezpieczeństwo, zgłasza zdarzenie, wykonuje ćwiczone czynności na fantomie | Realna ekspozycja, zagrożenie ratownika, działania poza zakresem przeszkolenia |
+| P3 — awaria/wypadek | Makieta zdarzenia, fikcyjny dokument przewozowy, instrukcje pisemne | Kursant wskazuje bezpieczny dystans, ostrzega, wzywa służby, przekazuje informacje i nie otwiera przesyłek | Wchodzenie w strefę zagrożenia lub próba gaszenia ładowni przez załogę |
+
+**Wypełnia prowadzący po zajęciach:** identyfikator kursanta, data, miejsce, instruktor i kwalifikacje, stanowisko, obserwowane punkty, `wykonano / do powtórzenia / nieocenione`, zauważony błąd, instruktaż korygujący, podpis. Przed zajęciami wszystkie pola ocen są puste.
+
+Podstawa do szczegółowej weryfikacji: Dz.U. 2021 poz. 2150, zał. 1; ADR 2025, 5.4.3.4 i 8.1.4–8.1.5. Wymagana niezależna recenzja programu i rzeczywisty instruktor. Brak realnego ognia i materiałów niebezpiecznych bez zatwierdzonego stanowiska oraz odpowiedniego nadzoru.

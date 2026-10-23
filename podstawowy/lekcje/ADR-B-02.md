@@ -100,3 +100,13 @@ Sytuacje: obecność patogenów potencjalnie wywołujących chorobę i rozróżn
 ## Baterie sodowo-jonowe — ADR 2025 (0315)
 
 Przykład nowej pozycji UN 3551 w klasie 9, zgodnie z 2.2.9.1.7.2 i tabelą A; sprawdzić wyjątki przed jakimkolwiek praktycznym zastosowaniem. Przykład nie dotyczy transportu cysternami.
+
+## Zadanie instruktorskie: Klasy i zagrożenia (uzupełnienie etapu 2, 23.10.2026)
+
+**Scenariusz bez rzeczywistych towarów niebezpiecznych:** Na fikcyjnej liście UN kursant odczytuje klasę i opis, wyjaśnia różnicę pomiędzy podklasą 1.1, klasą 7 i 9 oraz wskazuje, kiedy nie można rozpoznać towaru po samej nalepce.
+
+**Podstawa do sprawdzenia przez instruktora:** ADR 2.2.1.1.5, 2.2.7.1.1, 2.2.9, 3.2.
+
+**Obserwowalne kryterium:** Nie przypisuje numeru UN wyłącznie na podstawie koloru nalepki.
+
+**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.

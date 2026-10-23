@@ -65,3 +65,13 @@ Odpowiednie zabezpieczenie, oświetlenie i ograniczenie publicznego dostępu na 
 ## Przypadki 0304–0305: ochrona towarów dużego ryzyka
 
 Plan ochrony: przydzielenie kompetentnym osobom odpowiedzialności (ADR 1.10.3.2.2(a)). Zabezpieczenie antykradzieżowe pojazdu i ładunku (1.10.3.3), bez blokowania ratownictwa. Oba przypadki wymagają sprawdzenia zakresu zastosowania do danego UN.
+
+## Zadanie instruktorskie: Ochrona przewozu (etap 2, 23.10.2026)
+
+**Symulacja bez rzeczywistych towarów:** Na fikcyjnej sytuacji nieuprawnionego dostępu kursant wybiera bezpieczne zgłoszenie i środek ograniczenia ryzyka.
+
+**Odniesienie do weryfikacji:** ADR 1.10.1, 1.10.3.
+
+**Obserwowalne kryterium:** Nie ujawnia danych o realnej trasie.
+
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.

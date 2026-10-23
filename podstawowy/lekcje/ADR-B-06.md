@@ -71,3 +71,13 @@ Rozpoznaj numer 80 jako wskazujący zagrożenie żrące (5.3.2.3.2) oraz wymagan
 Na sztuce przesyłki ADR wymagane są dwie różne nalepki zagrożeń. Jak należy ją oznakować?
 
 Kursant uzasadnia odpowiedź, identyfikuje zakres stosowania przepisu 5.2.2.1.1 oraz podaje przykład sytuacji wymagającej ponownego sprawdzenia danych. Nie uznawać rozwiązania quizu za zaliczenie praktyczne. Podstawa: ADR 2025 Dz.U. 642 ze sprostowaniem 1575 — pełna kontrola polskiego brzmienia i odbiór specjalisty pozostają otwarte.
+
+## Zadanie instruktorskie: Oznakowanie (etap 2, 23.10.2026)
+
+**Symulacja bez rzeczywistych towarów:** Na modelu sztuki przesyłki, kontenera i pojazdu kursant identyfikuje różne obowiązki umieszczania nalepek, dużych nalepek i tablic.
+
+**Odniesienie do weryfikacji:** ADR 5.2, 5.3.
+
+**Obserwowalne kryterium:** Nie przenosi automatycznie reguł sztuki przesyłki na kontener.
+
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
