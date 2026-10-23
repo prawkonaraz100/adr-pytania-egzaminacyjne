@@ -60,3 +60,7 @@ Rozpoznaj zakaz z ADR 8.3.5 podczas czynności ładunkowych w pojeździe i jego 
 ## Ćwiczenia 0296–0297: bezpieczeństwo awaryjne
 
 Wskazówki z czterostronicowych instrukcji 5.4.3.4: usuwanie źródeł zapłonu, unikanie e-papierosów, odsunięcie się od wycieku i ostrzeganie innych. Ćwiczenia na sucho, bez prawdziwych towarów niebezpiecznych.
+
+## Nadzór i pierwszeństwo miejsc postoju (0310)
+
+Przeanalizować warunkowe stosowanie 8.4.1 oraz pierwszeństwo zabezpieczonej bazy lub terenu zakładu przed kolejnymi alternatywami. Ćwiczenie na planie trasy, nie rzeczywiste parkowanie z towarem niebezpiecznym.
