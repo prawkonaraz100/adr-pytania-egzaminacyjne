@@ -68,3 +68,13 @@ Uczestnik rozwiązuje przypadek z pytania ADR-B-0247, wskazuje podstawę, warunk
 ## Studium dokumentów transportu kombinowanego — 0277–0278
 
 Na ćwiczeniu kursant sprawdza, czy przewóz naprawdę korzysta z 1.1.4.2.1, wówczas ustala wymagany wpis z 5.4.1.1.7. Dla kontenera przewożonego następnie statkiem wskazuje podmiot odpowiedzialny za świadectwo pakowania według 5.4.2. Nie przenosi tych wymogów na wszystkie przewozy, nie utożsamia świadectwa pakowania z zaświadczeniem ADR kierowcy. Materiał `needs_review`, do kontroli polskiego tekstu Dz.U. 642 i sprostowania 1575.
+
+## Zadanie instruktorskie: Transport multimodalny (etap 2, 23.10.2026)
+
+**Symulacja bez rzeczywistych towarów:** Kursant analizuje odcinek morsko-drogowy i dokument IMDG; wskazuje warunki odstępstwa i dodatkowe informacje wymagane przez ADR.
+
+**Odniesienie do weryfikacji:** ADR 1.1.4.2.1–1.1.4.2.3.
+
+**Obserwowalne kryterium:** Nie uznaje IMDG za bezwarunkowe zwolnienie z ADR.
+
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
