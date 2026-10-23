@@ -11,3 +11,7 @@
 Kolejna część weryfikacji prawnomerytorycznej rozpoczyna się od **ADR-B-0017**.
 
 Źródła: [ADR 2025 w Dzienniku Ustaw](https://dziennikustaw.gov.pl/DU/2025/642), [Ministerstwo Infrastruktury](https://www.gov.pl/web/infrastruktura/towary-niebezpieczne), [UNECE](https://unece.org/adr-2025-files), [ADR 2025 tom II, 5.4.3](https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf).
+
+## Kontynuacja 017–032
+
+[Indywidualne karty A/B/C dla pytań 0017–0032](017-032.json) zostały dodane 23.10.2026. Szczególnej kontroli warunków i wyjątków wymagają: 0018, 0020, 0022, 0027, 0029 i 0032. Nadal brak podpisanej recenzji specjalisty i pełnego porównania każdego wariantu z polskim Dz.U. 2025 poz. 642 i sprostowaniem. **216 needs_review / 0 verified**. Kolejny zakres: 0033–0048.
