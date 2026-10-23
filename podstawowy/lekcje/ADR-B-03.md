@@ -54,3 +54,7 @@ Nowe zadania 0241–0242: wyciek i odpływ do kanalizacji. Kursant analizuje dec
 ## Znak zagrożenia środowiskowego 0276 (szkic)
 
 Opis słowny: czarne drzewo i martwa ryba wewnątrz rombu. Znak ADR 5.2.1.8.3 nie zastępuje innych obowiązkowych oznaczeń. Zadanie tekstowe do czasu kontroli ilustracji i prawa do niej. Wymagana recenzja polskiego Dz.U. 642 i sprostowania 1575.
+
+## Ćwiczenia 0294–0295: odpad i kontakt z rozlewem
+
+Sprawdź, kiedy przy prawidłowej nazwie przewozowej umieszcza się „ODPAD” (5.4.1.1.3.1), oraz bezpieczną reakcję na rozlew: unikanie dotyku, wdychania i zachowanie strony nawietrznej (5.4.3.4). Wymagana kontrola urzędowej wersji polskiej, sprostowania i niezależny odbiór.
