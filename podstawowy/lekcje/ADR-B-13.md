@@ -76,3 +76,13 @@ Wymagany dokument przewozowy dotyczy przewozu ADR realizowanego zgodnie z 1.1.4.
 ## Kontrola dokumentów ADR-B-0306
 
 Sprawdź dokumenty kabinowe wg ADR 8.1.2.1–2: dokumenty przewozowe, instrukcje, dokument ze zdjęciem i stosowne dodatkowe zaświadczenia. Instruktor ćwiczy dobór według sytuacji, nie automatyczne uznanie każdego dokumentu za wymagany zawsze.
+
+## Zadanie instruktorskie: Dokumenty (etap 2, 23.10.2026)
+
+**Symulacja bez rzeczywistych towarów:** Kursant kompletuję dokumentację przewozu i rozpoznaje dokumenty warunkowe oraz instrukcje pisemne.
+
+**Odniesienie do weryfikacji:** ADR 8.1.2, 5.4.1, 5.4.3.
+
+**Obserwowalne kryterium:** Nie żąda wszystkich świadectw niezależnie od przewozu.
+
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
