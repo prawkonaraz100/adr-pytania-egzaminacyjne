@@ -1,0 +1,3 @@
+# Lekcja ADR-B-04: raport partii dydaktycznej
+
+23.10.2026. Stan main przy rozpoczęciu: ADR-B-0506, bez otwartych PR. Urzędowy temat 1(d) kursu początkowego podstawowego: Zapobieganie zdarzeniom, 45 minut teorii. Dopisano w istniejącej lekcji odrębny przebieg 45 minut, mapę 6 wewnętrznych kompetencji, obserwowalne sprawdziany i bezpieczne przypadki fikcyjne. Ćwiczenia praktyczne nie zostały zaliczone przez samą lekcję. Brak kompetencji bez przypisania do istniejących pytań teoretycznych; nowe pytania nie są generowane dla samego zwiększenia licznika. ADR 2025 Dz.U. 642 i sprostowanie 1575 do ostatecznej recenzji. Wszystkie rekordy banku nadal needs_review, 0 verified. Kursy specjalistyczne nietknięte.
