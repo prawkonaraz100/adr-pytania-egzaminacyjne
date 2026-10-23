@@ -79,6 +79,32 @@ def audit(root: Path):
                                           index_file.read_text(encoding="utf-8"), flags=re.M))
         if len(indexed_ids) != len(qids) or set(indexed_ids) != qset:
             failures.append(f"Specialist index differs from bank: index={len(indexed_ids)}, bank={len(qids)}")
+    # Current non-archival review handoff must match every question ID, key and SVG path.
+    current_files = sorted((root / "review/specialist").glob("REJESTR-AKTUALNY-0001-*.md"))
+    if current_files:
+        latest = max(current_files, key=lambda p: int(p.stem.rsplit("-", 1)[-1]))
+        index_rows = {}
+        for line in latest.read_text(encoding="utf-8").splitlines():
+            if not re.match(r"^\| ADR-B-\d{4} \|", line):
+                continue
+            cells = [piece.strip() for piece in line.strip("|").split("|")]
+            if len(cells) < 7:
+                failures.append("Malformed current reviewer index row")
+                continue
+            if cells[0] in index_rows:
+                failures.append("Duplicate reviewer index row: " + cells[0])
+            index_rows[cells[0]] = cells
+        if set(index_rows) != qset or len(index_rows) != len(questions):
+            failures.append("Current reviewer index does not match current bank")
+        else:
+            for question in questions:
+                cells = index_rows[question["id"]]
+                if cells[4] != question["correct_option"]:
+                    failures.append("Stale reviewer index answer key: " + question["id"])
+                if cells[6].strip("`") != (question.get("image") or "—"):
+                    failures.append("Stale reviewer index image: " + question["id"])
+    else:
+        warnings.append("Current full reviewer index missing")
     approval = root / "review/approvals.jsonl"
     if not approval.is_file():
         failures.append("Missing release approval ledger")
