@@ -94,3 +94,13 @@ Kursant identyfikuje zakres pojęcia przewozu z 1.2.1 oraz przesłanki zastosowa
 ## Tabela A — rozpoznawanie właściwej nazwy przewozowej (0314)
 
 W tabeli A rozdziału 3.2 kolumna 2 zawiera nazwę i opis pozycji UN. Kursant odnajduje w fikcyjnym wykazie właściwą nazwę bez pomijania wyjątków i warunków przewozu.
+
+## Zadanie instruktorskie: Wyłączenia przewozu (uzupełnienie etapu 2, 23.10.2026)
+
+**Scenariusz bez rzeczywistych towarów niebezpiecznych:** Kursant otrzymuje trzy fikcyjne opisy: zakupy osoby prywatnej, przewóz zawodowy i transport z ilościami ograniczonymi. Dla każdego wskazuje, które warunki musi sprawdzić przed zastosowaniem wyłączenia.
+
+**Podstawa do sprawdzenia przez instruktora:** ADR 1.1.3.1, 1.1.3.6 oraz 3.4.
+
+**Obserwowalne kryterium:** Odróżnia wyłączenie warunkowe od całkowitego zwolnienia; nie zakłada, że samo określenie «prywatny» wystarcza.
+
+**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
