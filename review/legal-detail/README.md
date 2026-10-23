@@ -47,3 +47,7 @@ Kolejna część weryfikacji prawnomerytorycznej rozpoczyna się od **ADR-B-0017
 ## Kontynuacja 0145–0160
 
 [Karty 0145–0160](0145-0160.json) obejmują 16 pytań i 48 ocen A/B/C, 4 flag kontroli wyjątków. Nadal brak pełnego polskiego porównania punkt po punkcie z Dz.U. 642 i sprostowaniem 1575, analizy warunków M364 dla indywidualnych przypadków oraz podpisu niezależnego eksperta; nie oznaczono verified. Następna partia 0161–0176.
+
+## Kontynuacja 0161–0176
+
+[16 kart A/B/C](0161-0176.json), 48 ocen, 2 wymagających dalszej kontroli warunków/wyjątków. Pełne porównanie z polskim tekstem Dz.U. 642, sprostowaniem 1575, stosownymi M364 i niezależna recenzja pending; klucze i statusy bez zmian. Następnie 0177–0192.

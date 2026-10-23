@@ -1,0 +1,727 @@
+{
+  "date": "2026-10-23",
+  "range": "ADR-B-0161..ADR-B-0176",
+  "scope": "Provisional option A/B/C reviews from existing clause analyses, NOT official complete per-clause Polish ADR 2025 Dz.U.642, correction 1575 or M364 analysis or specialist approval",
+  "records": [
+    {
+      "id": "ADR-B-0161",
+      "sequence": 161,
+      "snapshot": {
+        "stem": "Jakie zagrożenie powinien brać pod uwagę kierowca widząc nalepkę klasy 8?",
+        "options": {
+          "A": "Wyłącznie zagrożenie promieniotwórcze",
+          "B": "Wyłącznie palność cieczy bez działania na tkanki",
+          "C": "Działanie żrące, w tym możliwość poważnego uszkodzenia skóry"
+        },
+        "correct_option": "C",
+        "explanation": "Materiały żrące mogą powodować poważne uszkodzenia skóry i innych materiałów. Nie dotykaj nieznanego wycieku.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.8.1.1; 5.2.2.2.2 wzór nr 8",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 8 nie jest definicją promieniotwórczości."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wyłącznie palność nie opisuje głównego zagrożenia klasy 8."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klasa 8 oznacza właściwości żrące."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Mogą występować zagrożenia dodatkowe konkretnej pozycji UN.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0162",
+      "sequence": 162,
+      "snapshot": {
+        "stem": "Nalepka ostrzegawcza 9A może być wymagana podczas przewozu jakich baterii, zgodnie z odpowiednią pozycją ADR 2025?",
+        "options": {
+          "A": "Określonych baterii litowych oraz sodowo-jonowych, np. UN 3551 lub UN 3552",
+          "B": "Wyłącznie materiałów zakaźnych, niezależnie od numeru UN",
+          "C": "Wyłącznie butli z gazami klasy 2, niezależnie od ich zawartości"
+        },
+        "correct_option": "A",
+        "explanation": "ADR 2025 przewiduje nalepkę 9A nie tylko dla określonych baterii litowych, lecz także baterii sodowo-jonowych z elektrolitem organicznym (np. UN 3551 i UN 3552). Zawsze trzeba sprawdzić właściwy numer UN, przepisy szczególne i warunki przewozu: nie każdy akumulator lub przedmiot z baterią musi mieć tę nalepkę.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.2.2 (model nr 9A); 3.2 tabela A: UN 3551, UN 3552; 2.2.9.1.7.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nalepka 9A może dotyczyć odpowiednich litowych i sodowo-jonowych baterii."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Materiały zakaźne nie są wyłącznym zakresem 9A."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Butle gazowe nie są zasadniczym zakresem 9A."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "UN 3551/3552 z organicznym elektrolitem; uwzględnić przepisy szczególne i wyłączenia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0163",
+      "sequence": 163,
+      "snapshot": {
+        "stem": "Wycieka towar niebezpieczny, a kierowca ma wymagane wyposażenie do osłonięcia odpływu. Kiedy może spróbować osłonić kratkę kanalizacyjną?",
+        "options": {
+          "A": "Dopiero po dotknięciu i rozpoznaniu substancji gołą ręką",
+          "B": "Tylko jeżeli jest to właściwe i bezpieczne, bez narażania siebie na materiał",
+          "C": "Zawsze, nawet gdy musi przejść przez strefę wycieku"
+        },
+        "correct_option": "B",
+        "explanation": "Ochrona kanalizacji jest uzasadniona, gdy można to zrobić bezpiecznie i odpowiednio do zagrożenia. Bezpieczeństwo ludzi ma pierwszeństwo.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dotykanie nieznanej substancji gołą ręką naraża na skażenie."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ochrona odpływu jest dopuszczalna tylko, jeśli odpowiednia i bezpieczna."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie zawsze wolno przechodzić przez strefę wycieku."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Zabezpieczenie odpływu nie ma pierwszeństwa przed bezpieczeństwem ludzi.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0164",
+      "sequence": 164,
+      "snapshot": {
+        "stem": "Po awarii materiału ADR wyczuwalne są palne opary. Dlaczego nie należy używać e-papierosa w pobliżu wycieku?",
+        "options": {
+          "A": "Jest bezpieczny, bo nie wytwarza klasycznego płomienia",
+          "B": "Jest bezpieczny pod warunkiem używania poza kabiną, nawet przy rozlewie",
+          "C": "Może stanowić źródło zapłonu i zwiększać zagrożenie"
+        },
+        "correct_option": "C",
+        "explanation": "W razie awarii unikaj wszystkich potencjalnych źródeł zapłonu, w tym palenia i używania e-papierosów.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "E-papieros może być źródłem zapłonu; brak płomienia nie gwarantuje bezpieczeństwa."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Poza kabiną przy rozlewie nadal występuje zagrożenie zapłonem."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Urządzeń zapłonowych należy unikać w obecności palnych par."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Także inne źródła zapłonu muszą być ograniczane.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0165",
+      "sequence": 165,
+      "snapshot": {
+        "stem": "Dyspozytor numeru alarmowego pyta kierowcę o przewożoną substancję. Co należy mu przekazać?",
+        "options": {
+          "A": "Możliwie dokładne, znane informacje o towarze i zdarzeniu, np. numer UN z dokumentów",
+          "B": "Wyłącznie informacje o marce samochodu, pomijając towary",
+          "C": "Dowolnie wybrany numer UN, jeśli dokumenty są chwilowo niedostępne"
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcje pisemne wskazują informowanie służb oraz przekazanie tylu pewnych danych o zdarzeniu i materiałach, ile jest możliwe.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ratownicy potrzebują pewnych danych o zdarzeniu i towarze np. numeru UN."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Marka pojazdu nie zastępuje opisu niebezpiecznego materiału."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie wolno zgadywać numeru UN przy zgłaszaniu."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Przekazać źródło danych i dostępną dokumentację, bez narażania się.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0166",
+      "sequence": 166,
+      "snapshot": {
+        "stem": "Załoga pojazdu ADR widzi płomienie obejmujące już przestrzeń ładunkową. Co przewidują instrukcje pisemne?",
+        "options": {
+          "A": "Wejść do ładowni z gaśnicą, bez względu na skalę zagrożenia",
+          "B": "Nie podejmować samodzielnego gaszenia pożaru przedziału ładunkowego; oddalić się i wezwać służby",
+          "C": "Otworzyć wszystkie opakowania, by przyspieszyć gaszenie"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje ADR wyraźnie rozdzielają mały pożar opon/hamulców/silnika od pożaru przedziału ładunkowego, którego nie gasi załoga.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie należy wchodzić do ładowni z pożarem."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Pożaru przestrzeni ładunkowej załoga nie gasi samodzielnie."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Otwieranie opakowań w pożarze zwiększa ryzyko."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Oddalić się, ostrzec innych, powiadomić służby.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0167",
+      "sequence": 167,
+      "snapshot": {
+        "stem": "Po bezpiecznym opuszczeniu miejsca awarii załoga zauważa skażone ubrania ochronne. Jak postąpić?",
+        "options": {
+          "A": "Włożyć skażoną odzież do kabiny i kontynuować jazdę bez oceny zagrożenia",
+          "B": "Przekazać skażoną odzież innej osobie bez ostrzeżenia o zagrożeniu",
+          "C": "Bezpiecznie zdjąć i usunąć skażoną odzież oraz użyte środki ochronne"
+        },
+        "correct_option": "C",
+        "explanation": "Odzież i ochrony skażone podczas zdarzenia należy zdjąć i usunąć w bezpieczny sposób, unikając dalszego narażenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Skażone ubranie nie powinno trafić z powrotem do kabiny bez procedur."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie wolno przekazywać skażenia innym bez kontroli."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Bezpiecznie zdjąć i usunąć skażoną odzież i środki ochrony."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Zapobiec wtórnemu skażeniu i postępować według służb.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0168",
+      "sequence": 168,
+      "snapshot": {
+        "stem": "Przy zdarzeniu ADR kierowca może bezpiecznie wyjść z kabiny. Co powinien wykorzystać do ostrzeżenia innych?",
+        "options": {
+          "A": "Kamizelkę ostrzegawczą i stojące znaki ostrzegawcze, zgodnie z instrukcjami",
+          "B": "Wyłącznie świateł awaryjnych pojazdu, bez kamizelki i stojących znaków, nawet jeśli ich użycie jest bezpieczne",
+          "C": "Samego powiadomienia telefonicznego, bez ostrzegawczego oznaczenia miejsca, mimo możliwości bezpiecznego działania"
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcje przewidują założenie kamizelki i ustawienie znaków ostrzegawczych, jeśli warunki pozwalają zrobić to bezpiecznie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4; 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kamizelka i stojące znaki ostrzegawcze służą ostrzeżeniu, gdy są bezpieczne."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Same światła awaryjne nie zastępują obowiązkowego wyposażenia w opisanym przypadku."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sam telefon nie zastępuje ostrzegania na miejscu, jeśli jest bezpieczne."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "W strefie niebezpiecznej nie ustawiać znaków kosztem zdrowia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0169",
+      "sequence": 169,
+      "snapshot": {
+        "stem": "Gaśnica ADR w pojeździe jest zasłonięta ładunkiem i nie można jej szybko wyjąć. Co trzeba poprawić?",
+        "options": {
+          "A": "Nic, jeśli pojazd ma dwie gaśnice w różnych kolorach",
+          "B": "Umieszczenie gaśnicy, aby była łatwo dostępna dla załogi",
+          "C": "Nic, jeśli gaśnica jest wystarczająco ciężka"
+        },
+        "correct_option": "B",
+        "explanation": "Wymagane gaśnice muszą być łatwo dostępne dla załogi i odpowiednio chronione przed działaniem pogody.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kolor i liczba gaśnic nie zastępują ich dostępności."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Gaśnica musi być łatwo dostępna członkom załogi."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sama ciężkość nie jest kryterium właściwego rozmieszczenia."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Sprawdzić także ochronę przed pogodą i ważny przegląd.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0170",
+      "sequence": 170,
+      "snapshot": {
+        "stem": "Na numerowanej pomarańczowej tablicy ADR numer zagrożenia zaczyna się od X. Co to oznacza dla prób użycia wody?",
+        "options": {
+          "A": "Woda zawsze jest jedynym właściwym środkiem do gaszenia",
+          "B": "Znak X oznacza, że woda jest obojętna dla tego materiału",
+          "C": "Materiał może niebezpiecznie reagować z wodą; nie wolno improwizować jej użycia"
+        },
+        "correct_option": "C",
+        "explanation": "Litera X ostrzega przed niebezpieczną reakcją z wodą. Woda może być użyta wyłącznie za zgodą specjalistów.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Litera X nie oznacza, że woda jest zawsze właściwa."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "X nie oznacza obojętności wobec wody."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "X ostrzega przed niebezpieczną reakcją z wodą."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Woda tylko po zgodzie specjalistów, bez improwizacji.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0171",
+      "sequence": 171,
+      "snapshot": {
+        "stem": "Zgodnie z 8.1.5.3, dla sztuk przesyłki oznaczonych nalepką 6.1 jakie dodatkowe wyposażenie dla każdego członka załogi jest wymagane, jeśli przepis ma zastosowanie?",
+        "options": {
+          "A": "Maska ucieczkowa odpowiednia do nagłego opuszczenia strefy zagrożenia",
+          "B": "Sama druga kamizelka zamiast maski",
+          "C": "Wyłącznie dodatkowy klin pod koło zamiast ochrony dróg oddechowych"
+        },
+        "correct_option": "A",
+        "explanation": "Przy towarach oznaczonych nalepką 2.3 lub 6.1 ADR wymaga maski ucieczkowej dla każdego członka załogi. To nie sprzęt do działań ratowniczych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Maska ucieczkowa jest wymagana dla 2.3 i 6.1, gdy przepis obowiązuje."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dodatkowa kamizelka nie zastępuje maski."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Klin pod koło nie jest ochroną dróg oddechowych."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Maska ucieczkowa nie jest sprzętem do akcji ratowniczej w chmurze gazu.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0172",
+      "sequence": 172,
+      "snapshot": {
+        "stem": "Opakowanie ADR ma strzałki kierunkowe, a pracownik chce je położyć na boku, aby zmieściło się pod pasem. Co jest właściwe?",
+        "options": {
+          "A": "Położyć do góry dnem, jeśli ładunek jest cięższy od opakowania",
+          "B": "Nie zmieniać orientacji wbrew strzałkom; poprawić rozmieszczenie ładunku",
+          "C": "Położyć na boku, jeśli pasy nie są poluzowane"
+        },
+        "correct_option": "B",
+        "explanation": "Jeśli strzałki kierunkowe są wymagane, opakowania trzeba ustawiać zgodnie ze wskazanym kierunkiem.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.1.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Odwrócenie do góry dnem narusza wskazanie strzałek."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Należy przestrzegać orientacji strzałek."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Napięcie pasa nie znosi obowiązku zachowania kierunku."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Dotyczy przesyłek, dla których strzałki są wymagane.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0173",
+      "sequence": 173,
+      "snapshot": {
+        "stem": "Dla danego towaru nie znaleziono w kolumnach 10 i 17 tabeli A ani kodu BK/VC, ani wyraźnego odesłania dopuszczającego przewóz luzem. Co wynika z ADR 7.3.1.1?",
+        "options": {
+          "A": "Przewóz luzem jest zawsze dopuszczalny, jeżeli pojazd ma szczelną plandekę",
+          "B": "Kierowca może sam dopuścić przewóz luzem, jeśli towar jest stały",
+          "C": "Nie można uznać przewozu luzem za dopuszczony tylko na podstawie wygody przewoźnika, bez odrębnej podstawy z ADR"
+        },
+        "correct_option": "C",
+        "explanation": "ADR 7.3.1.1 wymaga dopuszczenia przewozu luzem w tabeli A — przez kod BK/VC **lub wyraźne odesłanie do szczególnego punktu** — z zachowaniem warunków. Należy sprawdzić też szczególną regułę dla pustych nieoczyszczonych opakowań.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.3.1.1; 3.2 tabela A kol. (10),(17)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sama plandeka nie daje zgody na przewóz luzem."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Stan stały i decyzja kierowcy nie zastępują upoważnienia."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Bez kodu BK/VC lub wyraźnego odesłania do punktu brak ogólnej zgody na bulk."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Uwaga na szczególny przypadek pustych nieoczyszczonych opakowań.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0174",
+      "sequence": 174,
+      "snapshot": {
+        "stem": "Dla towaru w kolumnie 15 tabeli A widnieje kod tunelowy (-). Jakie znaczenie ma ten zapis?",
+        "options": {
+          "A": "Dany towar nie ma ograniczenia tunelowego wynikającego z przypisania kodu ADR, ale nadal obowiązują inne przepisy drogowe",
+          "B": "Automatycznie zezwala na przejazd każdym tunelem pomimo znaków zakazu",
+          "C": "Oznacza bezwarunkowy zakaz przejazdu wszystkimi tunelami kategorii A–E"
+        },
+        "correct_option": "A",
+        "explanation": "Symbol (-) nie narzuca ograniczenia tunelowego ADR dla danego towaru. Nie znosi znaków drogowych i decyzji zarządcy tunelu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kod (-) oznacza brak przypisanego ograniczenia tunelowego ADR."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Inne znaki drogowe nadal obowiązują, więc nie ma bezwarunkowej zgody."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "(-) nie jest całkowitym zakazem tuneli."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Nie zapominać o lokalnych przepisach i oznakowaniu drogowym.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0175",
+      "sequence": 175,
+      "snapshot": {
+        "stem": "W kabinie pojazdu ADR dwaj członkowie załogi mają po jednym dokumencie tożsamości, ale tylko jeden zawiera fotografię. Co trzeba zweryfikować?",
+        "options": {
+          "A": "Czy wystarczy wspólna lista nazwisk, zamiast dokumentów ze zdjęciem",
+          "B": "Czy obaj posiadają dokument tożsamości ze zdjęciem zgodny z wymaganiami ADR",
+          "C": "Czy wystarczy jeden dokument ze zdjęciem na całą załogę"
+        },
+        "correct_option": "B",
+        "explanation": "Każdy członek załogi powinien mieć dokument tożsamości ze zdjęciem, jeśli mają zastosowanie odpowiednie przepisy ADR.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.4; 8.1.2.1 (d)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Lista nazwisk nie zastępuje dwóch dokumentów tożsamości ze zdjęciem."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Każdy członek załogi posiada dokument ze zdjęciem, jeśli wymóg stosuje się."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dokument jednego członka załogi nie zastępuje dokumentu drugiego."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Wymaganie odnosi się do członków załogi z osobna.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0176",
+      "sequence": 176,
+      "snapshot": {
+        "stem": "Kontrolujesz wymaganą gaśnicę ADR. Plomba jest nienaruszona, ale nie ma oznaczenia terminu kolejnego przeglądu ani maksymalnego okresu użytkowania. Czy sama plomba wystarcza?",
+        "options": {
+          "A": "Tak, skoro plomba jest cała, brak terminu nie ma znaczenia",
+          "B": "Nie, gaśnica musi spełniać również wymagania badań i odpowiedniego oznaczenia terminu",
+          "C": "Tak, pod warunkiem że ma pojemność co najmniej 2 kg"
+        },
+        "correct_option": "B",
+        "explanation": "ADR 8.1.4.4 wymaga odpowiednich przeglądów i oznaczenia terminu następnej kontroli lub maksymalnego okresu użytkowania. Cała plomba sama nie potwierdza zgodności.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nienaruszona plomba nie zastępuje wymaganego przeglądu gaśnicy."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Brak właściwego oznaczenia terminu badania oznacza problem z zgodnością."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Masa 2 kg nie znosi wymogów przeglądu i oznakowania."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Termin kolejnego badania lub maksymalny czas eksploatacji oznakowany zgodnie z ADR.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    }
+  ]
+}
