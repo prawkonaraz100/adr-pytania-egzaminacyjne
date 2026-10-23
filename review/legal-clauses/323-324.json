@@ -1,0 +1,97 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0323",
+      "order": 323,
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "source_2025_comparison_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A (Wystarczy osobno porównać każdą kategorię ze swoim limitem, bez uwzględniania drugiej) pomija wymagany sposób oceny wynikający z ADR 2025, 1.1.3.6.4. Pełne indywidualne porównanie polskiego przepisu pozostaje otwarte."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wstępna ocena spójna z ADR 2025, 1.1.3.6.4: Przy mieszanych kategoriach 2 i 3 nie sprawdza się limitów oddzielnie; według 1.1.3.6.4 sumuje się ilości z odpowiednimi współczynnikami i ocenia wynik. Należy sprawdzić jednostki i konkretne wpisy tabeli A."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C (Każdy przewóz mieszany automatycznie nie podlega ADR) pomija wymagany sposób oceny wynikający z ADR 2025, 1.1.3.6.4. Pełne indywidualne porównanie polskiego przepisu pozostaje otwarte."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Wszystkie wartości i szczególne ograniczenia wymagają osobnego sprawdzenia; nie jest to zatwierdzenie eksperta.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0323",
+        "module_id": "ADR-B-01",
+        "stem": "W jednej jednostce transportowej przewożone są razem towary kategorii transportowej 2 i 3. Jak należy ocenić zwolnienie ilościowe z ADR 1.1.3.6?",
+        "options": {
+          "A": "Wystarczy osobno porównać każdą kategorię ze swoim limitem, bez uwzględniania drugiej",
+          "B": "Trzeba zastosować sumowanie ważone z 1.1.3.6.4 do wszystkich przewożonych kategorii",
+          "C": "Każdy przewóz mieszany automatycznie nie podlega ADR"
+        },
+        "correct_option": "B",
+        "explanation": "Przy mieszanych kategoriach 2 i 3 nie sprawdza się limitów oddzielnie; według 1.1.3.6.4 sumuje się ilości z odpowiednimi współczynnikami i ocenia wynik. Należy sprawdzić jednostki i konkretne wpisy tabeli A.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0324",
+      "order": 324,
+      "clause": "ADR 2025, 7.5.2.1 (tabela i uwagi)",
+      "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wstępna ocena spójna z ADR 2025, 7.5.2.1 (tabela i uwagi): ADR 7.5.2.1 wymaga oceny dopuszczalności wspólnego załadunku na podstawie nalepek i tabeli, wraz z uwagami i wyjątkami. Inne obowiązki załadunkowe pozostają."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B (Tylko łączną masę palet, bo nalepki nie mają znaczenia) pomija wymagany sposób oceny wynikający z ADR 2025, 7.5.2.1 (tabela i uwagi). Pełne indywidualne porównanie polskiego przepisu pozostaje otwarte."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C (Wyłącznie to, czy obie sztuki mają taki sam kolor kartonu) pomija wymagany sposób oceny wynikający z ADR 2025, 7.5.2.1 (tabela i uwagi). Pełne indywidualne porównanie polskiego przepisu pozostaje otwarte."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Wszystkie wartości i szczególne ograniczenia wymagają osobnego sprawdzenia; nie jest to zatwierdzenie eksperta.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0324",
+        "module_id": "ADR-B-09",
+        "stem": "Przed wspólnym załadunkiem do jednego pojazdu sztuk przesyłek z różnymi nalepkami ostrzegawczymi, co należy sprawdzić zgodnie z ADR 7.5.2.1?",
+        "options": {
+          "A": "Tabelę zakazów ładowania razem, uwzględniając wyjątki i odpowiednie nalepki",
+          "B": "Tylko łączną masę palet, bo nalepki nie mają znaczenia",
+          "C": "Wyłącznie to, czy obie sztuki mają taki sam kolor kartonu"
+        },
+        "correct_option": "A",
+        "explanation": "ADR 7.5.2.1 wymaga oceny dopuszczalności wspólnego załadunku na podstawie nalepek i tabeli, wraz z uwagami i wyjątkami. Inne obowiązki załadunkowe pozostają.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.2.1 (tabela i uwagi)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}

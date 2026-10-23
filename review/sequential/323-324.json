@@ -1,0 +1,92 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-10-23",
+  "range": "ADR-B-0323..ADR-B-0324",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "Preliminary A/B/C editorial source check",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0323",
+      "sequence": 323,
+      "module_id": "ADR-B-01",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "W jednej jednostce transportowej przewożone są razem towary kategorii transportowej 2 i 3. Jak należy ocenić zwolnienie ilościowe z ADR 1.1.3.6?",
+        "options": {
+          "A": "Wystarczy osobno porównać każdą kategorię ze swoim limitem, bez uwzględniania drugiej",
+          "B": "Trzeba zastosować sumowanie ważone z 1.1.3.6.4 do wszystkich przewożonych kategorii",
+          "C": "Każdy przewóz mieszany automatycznie nie podlega ADR"
+        },
+        "correct_option": "B",
+        "explanation": "Przy mieszanych kategoriach 2 i 3 nie sprawdza się limitów oddzielnie; według 1.1.3.6.4 sumuje się ilości z odpowiednimi współczynnikami i ocenia wynik. Należy sprawdzić jednostki i konkretne wpisy tabeli A.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "relevant_clause_checked_English_2025_not_full_Polish",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Polish legal text and corrigendum comparison pending",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0324",
+      "sequence": 324,
+      "module_id": "ADR-B-09",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Przed wspólnym załadunkiem do jednego pojazdu sztuk przesyłek z różnymi nalepkami ostrzegawczymi, co należy sprawdzić zgodnie z ADR 7.5.2.1?",
+        "options": {
+          "A": "Tabelę zakazów ładowania razem, uwzględniając wyjątki i odpowiednie nalepki",
+          "B": "Tylko łączną masę palet, bo nalepki nie mają znaczenia",
+          "C": "Wyłącznie to, czy obie sztuki mają taki sam kolor kartonu"
+        },
+        "correct_option": "A",
+        "explanation": "ADR 7.5.2.1 wymaga oceny dopuszczalności wspólnego załadunku na podstawie nalepek i tabeli, wraz z uwagami i wyjątkami. Inne obowiązki załadunkowe pozostają.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.2.1 (tabela i uwagi)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "relevant_clause_checked_English_2025_not_full_Polish",
+      "supplementary_source_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Polish legal text and corrigendum comparison pending",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
