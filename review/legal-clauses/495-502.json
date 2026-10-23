@@ -60,20 +60,20 @@
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
-          "expected_correct": true,
-          "rationale": "Podklasa 1.3 obejmuje przede wszystkim zagrożenie pożarem z ewentualnym niewielkim wybuchem lub rozrzutem, lecz nie masowym."
+          "expected_correct": false,
+          "rationale": "Wariant błędny: Zawsze wybuch masowy całego ładunku. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.1.1.5, podklasa 1.3. Wymaga niezależnego przeglądu."
         },
         "B": {
           "expected_correct": false,
           "rationale": "Wariant błędny: Brak zagrożenia pożarem, wyłącznie żrące oddziaływanie. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.1.1.5, podklasa 1.3. Wymaga niezależnego przeglądu."
         },
         "C": {
-          "expected_correct": false,
-          "rationale": "Wariant błędny: Zawsze wybuch masowy całego ładunku. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.1.1.5, podklasa 1.3. Wymaga niezależnego przeglądu."
+          "expected_correct": true,
+          "rationale": "Podklasa 1.3 obejmuje przede wszystkim zagrożenie pożarem z ewentualnym niewielkim wybuchem lub rozrzutem, lecz nie masowym."
         }
       },
-      "observed_answer_key": "A",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę. Etap 4b: zamieniono pozycje A i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -83,11 +83,11 @@
         "module_id": "ADR-B-02",
         "stem": "Materiał wybuchowy klasy 1 ma podklasę 1.3. Które połączenie zagrożeń odpowiada ADR?",
         "options": {
-          "A": "Pożar i niewielkie zagrożenie wybuchem lub rozrzutem, bez wybuchu masowego",
+          "A": "Zawsze wybuch masowy całego ładunku",
           "B": "Brak zagrożenia pożarem, wyłącznie żrące oddziaływanie",
-          "C": "Zawsze wybuch masowy całego ładunku"
+          "C": "Pożar i niewielkie zagrożenie wybuchem lub rozrzutem, bez wybuchu masowego"
         },
-        "correct_option": "A",
+        "correct_option": "C",
         "explanation": "Podklasa 1.3 obejmuje przede wszystkim zagrożenie pożarem z ewentualnym niewielkim wybuchem lub rozrzutem, lecz nie masowym.",
         "sources": [
           {
@@ -205,16 +205,16 @@
           "rationale": "Wariant błędny: Obie zawsze UN 3090. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2; 2.2.9.3 UN 3551, 3552. Wymaga niezależnego przeglądu."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "ADR 2025 ustanawia osobne wpisy dla baterii sodowo-jonowych z elektrolitem organicznym i baterii zawartych w urządzeniu lub pakowanych z urządzeniem."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Wariant błędny: Obie zawsze UN 3082. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2; 2.2.9.3 UN 3551, 3552. Wymaga niezależnego przeglądu."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "ADR 2025 ustanawia osobne wpisy dla baterii sodowo-jonowych z elektrolitem organicznym i baterii zawartych w urządzeniu lub pakowanych z urządzeniem."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -225,10 +225,10 @@
         "stem": "Bateria sodowo-jonowa z elektrolitem organicznym została umieszczona w urządzeniu, a inna identyczna bateria przewożona jest osobno. Które rozróżnienie UN wskazuje ADR 2025?",
         "options": {
           "A": "Obie zawsze UN 3090",
-          "B": "Samodzielna UN 3551, w urządzeniu lub pakowana z urządzeniem UN 3552, z zachowaniem szczegółowych warunków",
-          "C": "Obie zawsze UN 3082"
+          "B": "Obie zawsze UN 3082",
+          "C": "Samodzielna UN 3551, w urządzeniu lub pakowana z urządzeniem UN 3552, z zachowaniem szczegółowych warunków"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "ADR 2025 ustanawia osobne wpisy dla baterii sodowo-jonowych z elektrolitem organicznym i baterii zawartych w urządzeniu lub pakowanych z urządzeniem.",
         "sources": [
           {
@@ -346,16 +346,16 @@
           "rationale": "Wariant błędny: Tak, jeżeli jest umieszczona w kartonie. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2(d). Wymaga niezależnego przeglądu."
         },
         "B": {
-          "expected_correct": true,
-          "rationale": "ADR przewiduje skuteczny środek zapobiegający niebezpiecznemu przepływowi wstecznemu w bateriach z ogniwami lub ich ciągami połączonymi równolegle."
-        },
-        "C": {
           "expected_correct": false,
           "rationale": "Wariant błędny: Tak, jeśli nie jest jeszcze naładowana. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2(d). Wymaga niezależnego przeglądu."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "ADR przewiduje skuteczny środek zapobiegający niebezpiecznemu przepływowi wstecznemu w bateriach z ogniwami lub ich ciągami połączonymi równolegle."
         }
       },
-      "observed_answer_key": "B",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę.",
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -366,10 +366,10 @@
         "stem": "Bateria sodowo-jonowa z równolegle połączonymi ogniwami nie ma rozwiązania chroniącego przed niebezpiecznym przepływem wstecznym prądu. Czy spełnia 2.2.9.1.7.2?",
         "options": {
           "A": "Tak, jeżeli jest umieszczona w kartonie",
-          "B": "Nie, wymaga skutecznego zabezpieczenia, np. diod lub bezpieczników, przed niebezpiecznym przepływem wstecznym",
-          "C": "Tak, jeśli nie jest jeszcze naładowana"
+          "B": "Tak, jeśli nie jest jeszcze naładowana",
+          "C": "Nie, wymaga skutecznego zabezpieczenia, np. diod lub bezpieczników, przed niebezpiecznym przepływem wstecznym"
         },
-        "correct_option": "B",
+        "correct_option": "C",
         "explanation": "ADR przewiduje skuteczny środek zapobiegający niebezpiecznemu przepływowi wstecznemu w bateriach z ogniwami lub ich ciągami połączonymi równolegle.",
         "sources": [
           {
