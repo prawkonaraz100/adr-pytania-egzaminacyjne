@@ -5,7 +5,46 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
+import xml.etree.ElementTree as ET
 
+
+
+def validate_image_assets(root: Path, questions):
+    """Reject missing or unsafe linked SVG art; does not certify ADR symbol accuracy."""
+    errors = []
+    for record in questions:
+        rel_text = record.get("image")
+        if rel_text is None:
+            continue
+        qid = record["id"]
+        if not isinstance(rel_text, str):
+            errors.append(f"{qid}: non-string SVG path")
+            continue
+        rel = Path(rel_text)
+        if rel.is_absolute() or ".." in rel.parts or len(rel.parts) < 2 or rel.parts[0] != "assets" or rel.suffix.lower() != ".svg":
+            errors.append(f"{qid}: unsafe or non-SVG image path")
+            continue
+        file = root / rel
+        if not file.is_file():
+            errors.append(f"{qid}: missing SVG asset: {rel_text}")
+            continue
+        try:
+            svg = ET.fromstring(file.read_text(encoding="utf-8"))
+        except (ET.ParseError, UnicodeError) as exc:
+            errors.append(f"{qid}: malformed SVG: {exc}")
+            continue
+        tags = [element.tag.rsplit("}", 1)[-1] for element in svg.iter()]
+        if tags[0] != "svg":
+            errors.append(f"{qid}: image is not SVG")
+        if "title" not in tags or "desc" not in tags:
+            errors.append(f"{qid}: SVG missing accessible title or description")
+        if any(tag in {"script", "foreignObject", "image"} for tag in tags):
+            errors.append(f"{qid}: active/embedded content is forbidden in training SVG")
+        for element in svg.iter():
+            for key, value in element.attrib.items():
+                if key.rsplit("}", 1)[-1] == "href" and not value.startswith("#"):
+                    errors.append(f"{qid}: external SVG reference is forbidden")
+    return errors
 
 def audit(root: Path):
     failures = []
@@ -25,6 +64,7 @@ def audit(root: Path):
     numbers = [int(x.split("-")[-1]) for x in qids]
     if numbers != list(range(1, len(qids) + 1)):
         failures.append("IDs are not consecutive from ADR-B-0001")
+    failures.extend(validate_image_assets(root, questions))
     modules = {f"ADR-B-{n:02d}" for n in range(1, 14)}
     if {q["module_id"] for q in questions} != modules:
         failures.append("Question bank does not cover all 13 basic modules")
