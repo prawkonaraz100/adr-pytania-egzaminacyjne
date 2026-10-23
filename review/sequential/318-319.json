@@ -1,0 +1,92 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-10-23",
+  "range": "ADR-B-0318..ADR-B-0319",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "Preliminary A/B/C editorial source check",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0318",
+      "sequence": 318,
+      "module_id": "ADR-B-03",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Odpadu przewożonego jako towar niebezpieczny nie da się dokładnie opisać pod względem składu. Co dopuszcza ADR 2.1.3.5.5 przy jego klasyfikacji, jeśli spełniono warunki tego przepisu?",
+        "options": {
+          "A": "Zawsze wpisanie dowolnego numeru UN wybranego przez kierowcę",
+          "B": "Oparcie przypisania numeru UN i grupy pakowania na wiedzy nadawcy o odpadzie oraz dostępnych danych technicznych i dotyczących bezpieczeństwa",
+          "C": "Automatyczne zwolnienie każdego odpadu z ADR"
+        },
+        "correct_option": "B",
+        "explanation": "Gdy dokładny skład odpadu nie jest znany, ADR dopuszcza w określonych granicach wykorzystanie wiedzy nadawcy i dostępnych danych. Nie dotyczy to wszystkich odpadów — przepis zawiera wyłączenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.3.5.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "specified_clause_checked_in_ADR2025_EN_not_full_PL",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish clause comparison and expert review pending",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0319",
+      "sequence": 319,
+      "module_id": "ADR-B-08",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Jakie oznaczenie typu pojazdu stosuje ADR 9.1.1.2 do pojazdu przeznaczonego do przewozu materiałów i przedmiotów wybuchowych klasy 1?",
+        "options": {
+          "A": "EX/II albo EX/III",
+          "B": "Wyłącznie FL",
+          "C": "Wyłącznie AT"
+        },
+        "correct_option": "A",
+        "explanation": "ADR definiuje pojazdy EX/II i EX/III jako pojazdy do przewozu materiałów i przedmiotów wybuchowych klasy 1. Nie oznacza to, że każdy przewóz klasy 1 wymaga dowolnie wybranego pojazdu EX — szczegółowe warunki trzeba sprawdzić osobno.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 9.1.1.2 (definicje pojazdów EX/II i EX/III)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "specified_clause_checked_in_ADR2025_EN_not_full_PL",
+      "supplementary_source_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish clause comparison and expert review pending",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
