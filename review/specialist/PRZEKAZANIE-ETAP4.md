@@ -51,7 +51,12 @@ Dosłowna polska kontrola **0/542 nowych porównań** w poprzednim audycie 4k: `
 - **Manifest przekazania:** `review/specialist/PAKIET-0545-MANIFEST.json`. **Rejestr dosłownej kontroli PL:** `review/legal-polish/stage4m-literal-verification-ledger-0001-0545.json` — 545 pozycji z nierozstrzygniętym porównaniem urzędowego polskiego tekstu; nie nadawać `verified`.
 - **Dział ADR-B-06:** 35 pytań po dodaniu 0543–0545, ogólne znaczenia cyfr 2, 4, 7 (ADR 2025 5.3.2.3.1); audyty `review/sequential/543-545.json` oraz `review/legal-clauses/543-545.json`.
 - **Bramka dydaktyczna:** 13 lekcji + ćwiczenia P1–P3; test próbny pozostaje niedostępny przy 0 realnych zatwierdzeń.
-- **Ryzyko wskazówki długości:** poprawna odpowiedź jest jednoznacznie najdłuższa w **370/545 (67,9%)**; próg docelowy ≤40% **nieosiągnięty**. Quality Gate raportuje wskaźnik globalnie i dla każdego modułu (`scripts/answer_length_bias.py`, `--strict` dostępne dopiero po redukcji w całym banku).
+- **Ryzyko wskazówki długości:** poprawna odpowiedź jest jednoznacznie najdłuższa w **365/545 (67,0%)**; próg docelowy ≤40% **nieosiągnięty**. Quality Gate raportuje wskaźnik globalnie i dla każdego modułu (`scripts/answer_length_bias.py`, `--strict` dostępne dopiero po redukcji w całym banku).
 - Raporty 4m: `review/batches/stage4m-length-bias-batch1.md`, `review/batches/stage4m-adr-b-06-543-545.md`, `review/batches/stage4m-length-bias-batch3.md`, bieżący `review/batches/stage4m-readiness-0545.md`.
 
 **Priorytety:** niezależna kontrola A/B/C po każdej zmianie redakcyjnej; dosłowne porównanie polskiego ADR 2025 Dz.U. 642 i sprostowania poz. 1575; dalsze poprawki długości i realistyczności dystraktorów, zwłaszcza w działach powyżej 40%; żadnego przedwczesnego egzaminu publicznego. Nie rozpoczęto kursu cystern ani innych specjalizacji.
+
+
+## Aneks 4m — wynik partii ADR-B-06
+
+Po redakcji pięciu wariantów w module ADR-B-06, lokalny próg długości odpowiedzi jest spełniony (**14/35 = 40,0%**); aktualny wskaźnik globalny to **365/545 = 67,0%**. Nadal brak 545 autoryzacji prawnych, wszystkie pytania `needs_review`. Publiczny egzamin jest zablokowany. Szczegóły: `review/batches/stage4m-length-bias-batch4-b06.md`.
