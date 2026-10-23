@@ -14,20 +14,20 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Cyfra 3 w numerze rozpoznawczym zagrożenia oznacza palność cieczy, par i gazów lub samonagrzewającą się ciecz."
+          "rationale": "ADR 2025, 5.3.2.3.1: cyfra 3 w numerze rozpoznawczym zagrożenia oznacza palność cieczy, par lub gazów albo ciecz samonagrzewającą się. Pozostałe warianty opisują inne rodzaje zagrożeń."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ta interpretacja cyfry jest nieprawidłowa: Wyłącznie zagrożenie promieniotwórcze. Należy zastosować definicję z 5.3.2.3.1 oraz rozróżnić znaczenie cyfr."
+          "rationale": "Wariant „Palność materiałów stałych oraz materiałów samoreaktywnych” oznacza inny rodzaj zagrożenia niż cyfra 3 opisana w ADR 2025, 5.3.2.3.1; wymaga końcowej recenzji polskiego przepisu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ta interpretacja cyfry jest nieprawidłowa: Wyłącznie działanie żrące. Należy zastosować definicję z 5.3.2.3.1 oraz rozróżnić znaczenie cyfr."
+          "rationale": "Wariant „Działanie żrące na skórę lub materiały” oznacza inny rodzaj zagrożenia niż cyfra 3 opisana w ADR 2025, 5.3.2.3.1; wymaga końcowej recenzji polskiego przepisu."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Przed zatwierdzeniem konieczna weryfikacja dokładnego polskiego brzmienia i kontekstów numerów szczególnych z 5.3.2.3.2.",
-      "editorial_result": "pending_specialist_review",
+      "notes_on_conditions": "Zmieniono wyłącznie dystraktory i wyjaśnienie w etapie jakościowym 4a; klucz odpowiedzi bez zmian. Weryfikacja polskiego ADR i sprostowania pozostaje otwarta.",
+      "editorial_result": "quality_revision_pending_expert_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -37,11 +37,11 @@
         "stem": "Na górze tablicy pomarańczowej widnieje numer rozpoznawczy zagrożenia 30. Co oznacza cyfra 3 w tym numerze?",
         "options": {
           "A": "Palność cieczy, par lub gazów albo ciecz samonagrzewającą się",
-          "B": "Wyłącznie zagrożenie promieniotwórcze",
-          "C": "Wyłącznie działanie żrące"
+          "B": "Palność materiałów stałych oraz materiałów samoreaktywnych",
+          "C": "Działanie żrące na skórę lub materiały"
         },
         "correct_option": "A",
-        "explanation": "Cyfra 3 w numerze rozpoznawczym zagrożenia oznacza palność cieczy, par i gazów lub samonagrzewającą się ciecz.",
+        "explanation": "ADR 2025, 5.3.2.3.1: cyfra 3 w numerze rozpoznawczym zagrożenia oznacza palność cieczy, par lub gazów albo ciecz samonagrzewającą się. Pozostałe warianty opisują inne rodzaje zagrożeń.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -108,20 +108,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta interpretacja cyfry jest nieprawidłowa: Wyłącznie radioaktywność. Należy zastosować definicję z 5.3.2.3.1 oraz rozróżnić znaczenie cyfr."
+          "rationale": "Wariant „Zagrożenie wynikające z promieniowania jonizującego” oznacza inny rodzaj zagrożenia niż cyfra 9 opisana w ADR 2025, 5.3.2.3.1; wymaga końcowej recenzji polskiego przepisu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ta interpretacja cyfry jest nieprawidłowa: Wyłącznie zagrożenie wynikające z ciężaru opakowania. Należy zastosować definicję z 5.3.2.3.1 oraz rozróżnić znaczenie cyfr."
+          "rationale": "Wariant „Działanie utleniające, które może nasilać pożar” oznacza inny rodzaj zagrożenia niż cyfra 9 opisana w ADR 2025, 5.3.2.3.1; wymaga końcowej recenzji polskiego przepisu."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Cyfra 9 sygnalizuje ryzyko samorzutnej gwałtownej reakcji, np. rozkładu lub polimeryzacji przy uwolnieniu ciepła albo gazów."
+          "rationale": "ADR 2025, 5.3.2.3.1: cyfra 9 oznacza ryzyko samorzutnej gwałtownej reakcji. Nie jest oznaczeniem promieniotwórczości ani właściwości utleniającej."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Przed zatwierdzeniem konieczna weryfikacja dokładnego polskiego brzmienia i kontekstów numerów szczególnych z 5.3.2.3.2.",
-      "editorial_result": "pending_specialist_review",
+      "notes_on_conditions": "Zmieniono wyłącznie dystraktory i wyjaśnienie w etapie jakościowym 4a; klucz odpowiedzi bez zmian. Weryfikacja polskiego ADR i sprostowania pozostaje otwarta.",
+      "editorial_result": "quality_revision_pending_expert_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -130,12 +130,12 @@
         "module_id": "ADR-B-06",
         "stem": "Na tablicy pomarańczowej numer zagrożenia zawiera cyfrę 9. Które zagrożenie ta cyfra ogólnie sygnalizuje?",
         "options": {
-          "A": "Wyłącznie radioaktywność",
-          "B": "Wyłącznie zagrożenie wynikające z ciężaru opakowania",
+          "A": "Zagrożenie wynikające z promieniowania jonizującego",
+          "B": "Działanie utleniające, które może nasilać pożar",
           "C": "Ryzyko samorzutnej gwałtownej reakcji"
         },
         "correct_option": "C",
-        "explanation": "Cyfra 9 sygnalizuje ryzyko samorzutnej gwałtownej reakcji, np. rozkładu lub polimeryzacji przy uwolnieniu ciepła albo gazów.",
+        "explanation": "ADR 2025, 5.3.2.3.1: cyfra 9 oznacza ryzyko samorzutnej gwałtownej reakcji. Nie jest oznaczeniem promieniotwórczości ani właściwości utleniającej.",
         "sources": [
           {
             "code": "ADR-2025-PL",
