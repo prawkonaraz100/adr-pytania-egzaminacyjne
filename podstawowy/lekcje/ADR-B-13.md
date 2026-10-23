@@ -54,3 +54,13 @@ Na przykładowym dokumencie wskaż zapis `UN` i numer identyfikacyjny (0226), li
 ## Dalsze ćwiczenia z dokumentacją (szkic)
 
 Uczeń uzupełnia wymagane dane odbiorcy (0233) w standardowym opisie i rozpoznaje niedopuszczalność zastąpienia czterostronicowych instrukcji firmową notatką (0234). Źródła: ADR 5.4.1.1.1(h), 5.4.3.2 i 5.4.3.4. Wyjątki oraz poprawne przypadki mają zostać skontrolowane z urzędowym tekstem.
+
+## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
+
+**Sytuacja:** Dokument zawiera nazwę handlową, lecz nie ma wymaganego numeru UN i danych odbiorcy.
+
+**Ćwiczenie:** Wskaż odpowiednie pola wymaganej dokumentacji przewozowej. Kursant wyjaśnia samodzielnie warunki i ograniczenia, zamiast zapamiętywać literę odpowiedzi.
+
+**Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
+
+**Podstawa do weryfikacji:** ADR 5.4.1.1.1; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
