@@ -73,7 +73,7 @@ def main():
         for e in errors[:25]:
             print("ERROR:",e)
         return 1
-    print("PASS: A/B/C detailed editorial rationale for first 60 IDs; Polish official text and independent expert signoff still pending.")
+    print("PASS: A/B/C detailed editorial rationale for first 90 IDs; Polish official text and independent expert signoff still pending.")
     return 0
 
 
