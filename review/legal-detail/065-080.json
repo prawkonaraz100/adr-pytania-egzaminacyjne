@@ -1,0 +1,727 @@
+{
+  "date": "2026-10-23",
+  "range": "ADR-B-0065..ADR-B-0080",
+  "scope": "initial A/B/C editorial checks using previously recorded ADR clause analyses; official Polish full-text and expert approval pending",
+  "records": [
+    {
+      "id": "ADR-B-0065",
+      "sequence": 65,
+      "snapshot": {
+        "stem": "Co oznacza zapis „(-)” jako kod ograniczeń tunelowych dla danego towaru?",
+        "options": {
+          "A": "Brak ograniczeń tunelowych ADR wynikających z tego kodu",
+          "B": "Całkowity zakaz korzystania z dróg",
+          "C": "Nakaz jazdy tylko nocą"
+        },
+        "correct_option": "A",
+        "explanation": "Symbol (-) oznacza, że sam towar nie podlega ograniczeniom tunelowym ADR z tabeli A. Nadal obowiązują ogólne przepisy ruchu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Symbol (-) wskazuje brak przypisanego ograniczenia tunelowego ADR dla danego towaru."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie oznacza zakazu całej infrastruktury drogowej."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nie oznacza obowiązku jazdy nocą."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Nadal mają zastosowanie inne zakazy ruchu i warunki zarządcy tunelu.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0066",
+      "sequence": 66,
+      "snapshot": {
+        "stem": "Dlaczego obszar terminalu, na którym czasowo składuje się niebezpieczny ładunek podczas transportu, powinien być odpowiednio zabezpieczony?",
+        "options": {
+          "A": "Aby umożliwić dostęp tylko osobom przypadkowym",
+          "B": "Ponieważ zabezpieczenie zastępuje obowiązek właściwego znakowania",
+          "C": "By ograniczyć nieuprawniony dostęp i ryzyko naruszenia ochrony"
+        },
+        "correct_option": "C",
+        "explanation": "Bezpieczeństwo transportu obejmuje też czasowe składowanie na terenie terminalu lub placu. Stosuje się odpowiednie środki ochrony i kontroli dostępu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Ochrona magazynowego obszaru w terminalu nie polega na udostępnieniu go każdemu."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zabezpieczenie nie zastępuje nalepek ani tablic ADR."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Prawidłowy cel to ograniczenie nieuprawnionego dostępu."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Odróżniać czasowe składowanie w terminalu od zwykłego postoju.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0067",
+      "sequence": 67,
+      "snapshot": {
+        "stem": "Dwóch członków załogi wykonuje przewóz ADR objęty wymaganiem 1.10.1.4. Drugi ma tylko kartę zakładową bez fotografii. Co trzeba zrobić?",
+        "options": {
+          "A": "Zapewnić drugiemu członkowi załogi własny dokument identyfikacyjny ze zdjęciem",
+          "B": "Uznać dokument pierwszego kierowcy za wystarczający dla obu osób",
+          "C": "Zastąpić dokument drugiej osoby listem przewozowym z jej nazwiskiem"
+        },
+        "correct_option": "A",
+        "explanation": "Wymóg identyfikacji dotyczy każdego członka załogi z osobna. Jeden dokument ze zdjęciem nie potwierdza tożsamości całej załogi.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Każdy członek załogi ma własny dokument tożsamości ze zdjęciem."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dokument jednego kierowcy nie obejmuje automatycznie drugiej osoby."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "List przewozowy z nazwiskiem nie zastępuje dokumentu ze zdjęciem."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Sprawdzić odrębne zasady krajowe dokumentu, nie utożsamiać z ważnością zaświadczenia ADR.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0068",
+      "sequence": 68,
+      "snapshot": {
+        "stem": "Którą informację o odbiorcy trzeba co do zasady zamieścić w dokumencie przewozowym ADR?",
+        "options": {
+          "A": "Nazwę i adres odbiorcy",
+          "B": "Wyłącznie kod pocztowy miejsca rozładunku",
+          "C": "Jedynie dane kontaktowe spedytora zamiast odbiorcy"
+        },
+        "correct_option": "A",
+        "explanation": "Dokument powinien co do zasady zawierać nazwę i adres odbiorcy. ADR przewiduje określone wyjątki.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1 (h)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nazwę i adres odbiorcy podaje się co do zasady w dokumencie ADR."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sam kod pocztowy miejsca rozładunku nie jest równoważny pełnym danym odbiorcy."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dane spedytora nie mogą automatycznie zastąpić odbiorcy."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Istnieją określone wyjątki, np. wielość odbiorców przy dystrybucji.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0069",
+      "sequence": 69,
+      "snapshot": {
+        "stem": "Jakie informacje o opakowanych towarach niebezpiecznych powinny się znaleźć w dokumencie przewozowym ADR?",
+        "options": {
+          "A": "Wyłącznie sumaryczną masę pojazdu i ładunku",
+          "B": "Tylko numery UN, bez liczby i rodzaju sztuk przesyłek",
+          "C": "Liczba i określenie sztuk przesyłek, jeśli występują"
+        },
+        "correct_option": "C",
+        "explanation": "Dokument przewozowy określa m.in. liczbę i rodzaj sztuk przesyłek. Dodatkowe wymagania zależą od konkretnego ładunku.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1 (e)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sama masa pojazdu nie podaje liczby i rodzaju sztuk przesyłek."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sam numer UN nie zastępuje wymaganych danych o opakowaniach."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dla przewozu sztuk przesyłek co do zasady podaje się ich liczbę i opis."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Część typów transportu oraz wyłączenia może mieć inne zakresy dokumentacji.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0070",
+      "sequence": 70,
+      "snapshot": {
+        "stem": "Czy w standardowym dokumencie ADR podaje się całkowitą ilość przewożonego towaru niebezpiecznego?",
+        "options": {
+          "A": "Tak, w odpowiedni sposób według rodzaju towaru",
+          "B": "Nie, jeżeli towary są w sztukach przesyłek",
+          "C": "Zawsze wystarcza sama liczba palet bez ilości towaru"
+        },
+        "correct_option": "A",
+        "explanation": "ADR co do zasady wymaga podania całkowitej ilości towaru w odpowiedniej jednostce (np. masa netto lub brutto albo objętość).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1 (f)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Całkowitą ilość ADR określa się w wymaganej jednostce, odpowiedniej dla danego towaru."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Sztuki przesyłek nie zwalniają automatycznie z informacji o ilości."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Liczba palet nie jest równoważna podanej ilości towaru."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Masa netto/brutto lub objętość według wymagań właściwych dla pozycji UN.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0071",
+      "sequence": 71,
+      "snapshot": {
+        "stem": "Jednostka transportowa o DMC 3,5 t przewozi ADR na pełnych zasadach 8.1.4.1. Jaka minimalna łączna pojemność gaśnic jest wymagana?",
+        "options": {
+          "A": "12 kg środka gaśniczego w przeliczeniu na proszek",
+          "B": "4 kg środka gaśniczego w przeliczeniu na proszek",
+          "C": "8 kg środka gaśniczego w przeliczeniu na proszek"
+        },
+        "correct_option": "B",
+        "explanation": "Dla DMC do 3,5 t tabela w 8.1.4.1 wymaga co najmniej 4 kg środka gaśniczego w przeliczeniu na proszek. Jedna gaśnica musi mieć minimum 2 kg.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dla DMC 3,5 t 12 kg nie jest minimalnym wymaganym łącznym progiem."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wymagane minimum 4 kg łącznie (co najmniej dwie gaśnice)."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "8 kg nie jest minimalną sumą dla przedziału do 3,5 t."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Dwie gaśnice z odpowiednimi minimami indywidualnymi; nie mylić z 1.1.3.6.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0072",
+      "sequence": 72,
+      "snapshot": {
+        "stem": "Jednostka transportowa ma DMC 6 t i przewozi ADR na pełnych zasadach 8.1.4.1. Jaka jest minimalna łączna pojemność gaśnic?",
+        "options": {
+          "A": "8 kg w przeliczeniu na proszek",
+          "B": "4 kg w przeliczeniu na proszek",
+          "C": "12 kg w przeliczeniu na proszek"
+        },
+        "correct_option": "A",
+        "explanation": "Dla jednostek o DMC powyżej 3,5 t do 7,5 t wymagane jest łącznie co najmniej 8 kg. Gaśnice muszą spełniać także wymagania szczegółowe.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Przy DMC 6 t minimum 8 kg łącznie."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "4 kg łącznie byłoby za mało."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "12 kg może spełniać wymagania, ale nie jest wymaganym minimum."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "W tym przedziale co najmniej jedna gaśnica 6 kg i jedna 2 kg, przy minimum dwóch.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0073",
+      "sequence": 73,
+      "snapshot": {
+        "stem": "Jaka jest **minimalna** pojemność przenośnej gaśnicy proszkowej wymagana przez ADR 8.1.4.2 dla jednostki transportowej przewożącej towary niebezpieczne zgodnie z 1.1.3.6?",
+        "options": {
+          "A": "6 kg — wymagane jako absolutne minimum także przy 1.1.3.6",
+          "B": "2 kg (albo równoważna skuteczność innego odpowiedniego środka gaśniczego)",
+          "C": "0 kg — przy 1.1.3.6 gaśnica nie jest wymagana"
+        },
+        "correct_option": "B",
+        "explanation": "Dla jednostki transportowej objętej 1.1.3.6 przepis 8.1.4.2 wymaga co najmniej jednej gaśnicy o pojemności 2 kg proszku albo równoważnej skuteczności innego odpowiedniego środka, nadającej się do pożarów klas A, B i C. Gaśnica 6 kg może spełniać minimum, ale **6 kg nie jest wymaganym minimum**.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "6 kg jest dopuszczalne, ale nie jest wymaganym absolutnym minimum."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "2 kg proszku albo odpowiednik innego środka to minimalne wymaganie przy 1.1.3.6."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Zwolnienie ilościowe nie oznacza całkowitego braku gaśnicy."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Należy zachować odniesienie do klas pożaru A/B/C.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0074",
+      "sequence": 74,
+      "snapshot": {
+        "stem": "Podczas kontroli okazuje się, że termin przeglądu jednej z wymaganych gaśnic ADR minął. Co powinien zrobić kierowca?",
+        "options": {
+          "A": "Uznać gaśnicę za prawidłową, jeśli plomba jest cała",
+          "B": "Zastąpić datę przeglądu własnym wpisem na etykiecie",
+          "C": "Doprowadzić wyposażenie do zgodności przed przewozem"
+        },
+        "correct_option": "C",
+        "explanation": "ADR wymaga sprawnych gaśnic z ważnym terminem badania lub dopuszczonego użytkowania. Samo nienaruszenie plomby nie wystarcza.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.4; 8.1.4.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Plomba nie jest wystarczająca, jeśli termin inspekcji upłynął."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Własnoręczny wpis nie zastępuje wymaganego przeglądu."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Należy przywrócić zgodne, sprawne i ważne wyposażenie przed przewozem."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Sprawdzić oznakowanie miesiąca/roku i reguły norm krajowych.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0075",
+      "sequence": 75,
+      "snapshot": {
+        "stem": "W jednostce transportowej przewożącej towary, dla których obowiązuje 8.1.5.2, znajduje się kierowca i drugi członek załogi. Ile kamizelek ostrzegawczych potrzeba?",
+        "options": {
+          "A": "Jedna, ponieważ używa jej wyłącznie kierowca",
+          "B": "Dwie, po jednej dla każdej osoby",
+          "C": "Trzy, po jednej dla każdej osi pojazdu"
+        },
+        "correct_option": "B",
+        "explanation": "Wymagane jest wyposażenie ochronne dla każdego członka załogi, w tym kamizelka ostrzegawcza.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Jedna kamizelka dla dwóch osób nie spełnia wymogu na członka załogi."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dwie osoby wymagają dwóch kamizelek."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Liczba kamizelek nie zależy od liczby osi pojazdu."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Odrębne elementy są wymagane na jednostkę transportową i na każdego członka załogi.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0076",
+      "sequence": 76,
+      "snapshot": {
+        "stem": "Jaką podstawową ochronę oczu wymaga 8.1.5.2 dla członka załogi, gdy mają zastosowanie te przepisy?",
+        "options": {
+          "A": "Ochronę oczu, np. okulary ochronne",
+          "B": "Wyłącznie przyciemnione okulary przeciwsłoneczne",
+          "C": "Wyłącznie kask, który nie chroni oczu"
+        },
+        "correct_option": "A",
+        "explanation": "Każdy członek załogi powinien mieć ochronę oczu; chodzi o odpowiedni środek ochronny, a nie zwykłe okulary przeciwsłoneczne.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dla członka załogi wskazana jest ochrona oczu, np. okulary ochronne."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Okulary przeciwsłoneczne nie muszą zapewniać odpowiedniej ochrony."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kask bez ochrony oczu nie realizuje tego obowiązku."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Dobór sprzętu powinien odpowiadać ryzykom towaru.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0077",
+      "sequence": 77,
+      "snapshot": {
+        "stem": "Dla jakich nalepek ostrzegawczych ADR 8.1.5.3 wymaga maski ucieczkowej dla każdego członka załogi?",
+        "options": {
+          "A": "Tylko 3 i 8",
+          "B": "Tylko 9 i 9A",
+          "C": "2.3 lub 6.1"
+        },
+        "correct_option": "C",
+        "explanation": "Maskę ucieczkową przewidziano dla materiałów oznaczonych nalepkami 2.3 (gazy trujące) lub 6.1 (materiały trujące).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nalepki 3 i 8 nie są przesłanką tego konkretnego wymogu maski ucieczkowej."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Nalepki 9 i 9A same nie są przesłanką maski ucieczkowej."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dla nalepek 2.3 lub 6.1 wymagana jest maska ucieczkowa na członka załogi."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "To sprzęt do ewakuacji, nie do działań w strefie skażenia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0078",
+      "sequence": 78,
+      "snapshot": {
+        "stem": "Pracownik chce ustawić karton ADR na innym kartonie, choć opakowania nie przewidują piętrzenia. Czy wolno?",
+        "options": {
+          "A": "Tak, jeśli łączna masa nie przekracza 100 kg",
+          "B": "Nie, jeżeli opakowania nie zaprojektowano do piętrzenia",
+          "C": "Tak, jeśli oba kartony mają identyczne nalepki"
+        },
+        "correct_option": "B",
+        "explanation": "Sztuki przesyłek mogą być piętrzone tylko gdy ich konstrukcja to dopuszcza; same nalepki i masa nie zastępują oceny opakowania.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Masa poniżej 100 kg nie zezwala sama na piętrzenie nieprzystosowanych opakowań."
+        },
+        "B": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Brak konstrukcyjnego dopuszczenia oznacza zakaz piętrzenia."
+        },
+        "C": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Wspólne nalepki nie potwierdzają wytrzymałości opakowań."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Sprawdzić zgodność różnych typów opakowań, nawet jeśli są przeznaczone do piętrzenia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0079",
+      "sequence": 79,
+      "snapshot": {
+        "stem": "Na palecie ADR pasy mocujące zaczynają odkształcać opakowania. Jaka jest prawidłowa reakcja?",
+        "options": {
+          "A": "Dokręcić pasy, ponieważ mocowanie ma być maksymalnie ciasne",
+          "B": "Pozostawić pasy bez zmian, bo uszkodzenie opakowań nie ma znaczenia",
+          "C": "Dostosować mocowanie tak, by nie uszkadzało ani nie deformowało opakowań"
+        },
+        "correct_option": "C",
+        "explanation": "ADR wymaga skutecznego unieruchomienia ładunku, ale wyraźnie zabrania nadmiernego napinania pasów powodującego uszkodzenie albo deformację sztuk przesyłek.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Maksymalne dociągnięcie pasów nie jest celem, gdy grozi uszkodzeniem."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Widoczne odkształcenia opakowań mogą naruszać zasady ADR."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Mocowanie ma chronić przed ruchem bez deformowania opakowań."
+        }
+      },
+      "priority": "expert_review",
+      "legal_note": "Zwykła zgodność z EN 12195-1 może wspierać ocenę metod mocowania.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    },
+    {
+      "id": "ADR-B-0080",
+      "sequence": 80,
+      "snapshot": {
+        "stem": "Po rozładunku beczki ADR widać pozostałości jej zawartości na skrzyni ładunkowej. Kiedy najpóźniej należy oczyścić pojazd zgodnie z 7.5.8.1?",
+        "options": {
+          "A": "Po wykonaniu dowolnych dwóch kolejnych przewozów",
+          "B": "Dopiero przy okresowej kontroli technicznej",
+          "C": "Przed ponownym załadunkiem, możliwie jak najszybciej"
+        },
+        "correct_option": "C",
+        "explanation": "Jeżeli zawartość sztuki przesyłki wydostała się i zabrudziła pojazd, oczyszczenie jest wymagane jak najszybciej, bezwzględnie przed kolejnym załadunkiem.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "option_assessments": {
+        "A": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Dwa kolejne przewozy bez czyszczenia są sprzeczne z zasadą ADR."
+        },
+        "B": {
+          "expected": "incorrect",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Kontrola okresowa nie zastępuje oczyszczenia po wycieku."
+        },
+        "C": {
+          "expected": "correct",
+          "editorial_consistency": "provisionally_consistent",
+          "compared_with_full_official_polish_law": false,
+          "editorial_rationale": "Po wydostaniu się zawartości opakowania czyszczenie najpóźniej przed następnym załadunkiem."
+        }
+      },
+      "priority": "manual_exception_check",
+      "legal_note": "Gdy czyszczenie na miejscu niemożliwe, sprawdzić warunki bezpiecznego skierowania do miejsca czyszczenia.",
+      "independent_expert_approved": false,
+      "status": "pending_official_polish_clause_and_expert"
+    }
+  ]
+}
