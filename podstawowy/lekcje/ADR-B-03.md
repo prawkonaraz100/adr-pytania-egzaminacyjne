@@ -36,3 +36,13 @@ Pytania: `ADR-B-0007`–`0009`, `0045`–`0046`, `0100`–`0101`, `0129`.
 - [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
 - [Sprostowanie Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
 - [Ramowy program kursu Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
+
+## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
+
+**Sytuacja do analizy:** Na podłodze przestrzeni ładunkowej po rozładunku widać resztki substancji.
+
+**Zadanie kursanta:** wyjaśnić, co należy sprawdzić przed podjęciem działania, jak rozpoznać warunki graniczne i czego nie należy robić. Uczeń wskazuje obowiązek oceny zagrożenia i profesjonalnego oczyszczenia, zamiast spłukiwania do kanalizacji.
+
+**Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
+
+**Punkty do porównania z urzędową publikacją:** ADR 7.5.8, 5.4.3.4; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.
