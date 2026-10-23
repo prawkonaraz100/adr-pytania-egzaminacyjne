@@ -1,0 +1,97 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0277",
+      "order": 277,
+      "clause": "ADR 2025, 5.4.1.1.7",
+      "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant „Wyłącznie numer telefonu odbiorcy” jest niezgodny z obowiązkiem ADR 2025, 5.4.1.1.7 w opisanym przewozie; wymaga zatwierdzenia eksperta."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Weryfikacja wstępna na podstawie ADR 2025, 5.4.1.1.7: ADR 5.4.1.1.7 wymaga wpisu wskazującego przewóz zgodnie z 1.1.4.2.1, kiedy korzysta się z tego przepisu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant „Oświadczenie, że cały odcinek drogowy jest zawsze zwolniony z ADR” jest niezgodny z obowiązkiem ADR 2025, 5.4.1.1.7 w opisanym przewozie; wymaga zatwierdzenia eksperta."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Zastosowanie dokumentu zależy od rzeczywistego łańcucha przewozu, zakresu zastosowania 1.1.4.2.1 i warunków IMDG; wymagana dalsza polska recenzja.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0277",
+        "module_id": "ADR-B-10",
+        "stem": "Przewóz drogowy towarów niebezpiecznych stanowi część łańcucha z transportem morskim, a przewóz realizuje się na warunkach ADR 1.1.4.2.1. Jaki dodatkowy zapis powinien znaleźć się w dokumencie przewozowym?",
+        "options": {
+          "A": "Wyłącznie numer telefonu odbiorcy",
+          "B": "Wskazanie, że przewóz odbywa się zgodnie z 1.1.4.2.1",
+          "C": "Oświadczenie, że cały odcinek drogowy jest zawsze zwolniony z ADR"
+        },
+        "correct_option": "B",
+        "explanation": "ADR 5.4.1.1.7 wymaga wpisu wskazującego przewóz zgodnie z 1.1.4.2.1, kiedy korzysta się z tego przepisu.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0278",
+      "order": 278,
+      "clause": "ADR 2025, 5.4.2",
+      "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Weryfikacja wstępna na podstawie ADR 2025, 5.4.2: ADR 5.4.2 przewiduje przekazanie przewoźnikowi morskiemu świadectwa pakowania kontenera przez osoby odpowiedzialne za jego zapakowanie."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant „Każdy przypadkowy kierowca niezwiązany z pakowaniem” jest niezgodny z obowiązkiem ADR 2025, 5.4.2 w opisanym przewozie; wymaga zatwierdzenia eksperta."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant „Wyłącznie odbiorca po zakończeniu przewozu morskiego” jest niezgodny z obowiązkiem ADR 2025, 5.4.2 w opisanym przewozie; wymaga zatwierdzenia eksperta."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Zastosowanie dokumentu zależy od rzeczywistego łańcucha przewozu, zakresu zastosowania 1.1.4.2.1 i warunków IMDG; wymagana dalsza polska recenzja.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0278",
+        "module_id": "ADR-B-10",
+        "stem": "Kontener z zapakowanymi towarami niebezpiecznymi ma zostać załadowany na statek po odcinku drogowym. Kto zgodnie z ADR 5.4.2 odpowiada za przekazanie przewoźnikowi morskiemu świadectwa pakowania kontenera?",
+        "options": {
+          "A": "Osoby odpowiedzialne za zapakowanie kontenera",
+          "B": "Każdy przypadkowy kierowca niezwiązany z pakowaniem",
+          "C": "Wyłącznie odbiorca po zakończeniu przewozu morskiego"
+        },
+        "correct_option": "A",
+        "explanation": "ADR 5.4.2 przewiduje przekazanie przewoźnikowi morskiemu świadectwa pakowania kontenera przez osoby odpowiedzialne za jego zapakowanie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
