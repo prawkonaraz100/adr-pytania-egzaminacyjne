@@ -15,3 +15,7 @@ Kolejna część weryfikacji prawnomerytorycznej rozpoczyna się od **ADR-B-0017
 ## Kontynuacja 017–032
 
 [Indywidualne karty A/B/C dla pytań 0017–0032](017-032.json) zostały dodane 23.10.2026. Szczególnej kontroli warunków i wyjątków wymagają: 0018, 0020, 0022, 0027, 0029 i 0032. Nadal brak podpisanej recenzji specjalisty i pełnego porównania każdego wariantu z polskim Dz.U. 2025 poz. 642 i sprostowaniem. **216 needs_review / 0 verified**. Kolejny zakres: 0033–0048.
+
+## Kontynuacja 033–048
+
+[16 indywidualnych kart A/B/C pytań 0033–0048](033-048.json), 48 ocen opcji na podstawie dotychczasowych porównań klauzul. Szczególne warunki i wyjątki: 0033, 0034, 0035, 0036, 0040, 0045, 0046, 0047, 0048. Nie ukończono indywidualnego, pełnego porównania każdego wariantu z urzędowym polskim tekstem ADR 2025 (Dz.U. 642, sprostowanie 1575) ani niezależnej recenzji. Nie zmieniano pytań ani kluczy. **216 needs_review / 0 verified**, eksport pozostaje BLOCKED. Następna partia: 0049–0064.
