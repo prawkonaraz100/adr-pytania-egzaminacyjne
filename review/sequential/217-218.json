@@ -1,0 +1,92 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-10-23",
+  "range": "ADR-B-0217..ADR-B-0218",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "authoring assessment of wording, all three choices and cited clauses; full Polish legal text not compared",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0217",
+      "sequence": 217,
+      "module_id": "ADR-B-06",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Na tablicy pomarańczowej w górnym polu jest numer rozpoznawczy zagrożenia 88. Co informuje kierowcę podwójna cyfra 8?",
+        "options": {
+          "A": "Zagrożenie żrące jest nasilone",
+          "B": "Towar należy automatycznie do klasy 8 i nie ma żadnego innego zagrożenia",
+          "C": "Druga ósemka oznacza numer kolejnej sztuki przesyłki"
+        },
+        "correct_option": "A",
+        "explanation": "W numerze rozpoznawczym zagrożenia powtórzenie cyfry wskazuje nasilenie zagrożenia, które ta cyfra oznacza. Cyfra 8 odnosi się do działania żrącego. Sam numer nie zastępuje sprawdzenia całego oznakowania i dokumentu przewozowego.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": null,
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Sprawdzić dokładnie warunki zakresu i wyjątki w urzędowym polskim tekście ADR 2025 i sprostowaniu; M364 dotyczy innego tematu.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0218",
+      "sequence": 218,
+      "module_id": "ADR-B-02",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Na opakowaniu towaru niebezpiecznego wymagane są dwie różne nalepki ostrzegawcze: zagrożenia głównego i dodatkowego. Co powinien z tego wywnioskować kierowca?",
+        "options": {
+          "A": "Drugą nalepkę można zignorować, bo liczy się tylko pierwsza",
+          "B": "Towar może stwarzać więcej niż jeden rodzaj zagrożenia i należy uwzględnić obie nalepki",
+          "C": "Dwie nalepki oznaczają, że w środku muszą znajdować się dwa oddzielne towary"
+        },
+        "correct_option": "B",
+        "explanation": "Nalepki mogą pokazywać nie tylko zagrożenie główne, ale także dodatkowe. Kierowca powinien uwzględnić wszystkie wymagane rodzaje zagrożeń i sprawdzić dokumentację; liczba nalepek nie oznacza liczby towarów.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.1.1; 3.2.1 tabela A kolumna (5)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": null,
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Sprawdzić dokładnie warunki zakresu i wyjątki w urzędowym polskim tekście ADR 2025 i sprostowaniu; M364 dotyczy innego tematu.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
