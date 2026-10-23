@@ -122,3 +122,31 @@ Przećwiczyć na suchych scenariuszach: bezpieczne zatrzymanie, światła awaryj
 **Obserwowalne kryterium:** Nie proponuje gaszenia pożaru przestrzeni ładunkowej przez załogę; rozróżnia ćwiczenie od zaliczenia praktyki.
 
 **Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
+
+## Uzupełnienie powiązań z pytaniami — ADR-B-05 (23.10.2026)
+
+Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
+
+### ADR-B-0015 — Jak powinny być zamontowane gaśnice wymagane przez ADR?
+
+Gaśnice mają być dostępne dla załogi i zabezpieczone przed warunkami, które mogłyby je uszkodzić.
+
+**Podstawa do kontroli:** ADR 2025, 8.1.4.5. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
+
+### ADR-B-0050 — W jakim języku przewoźnik ma zapewnić załodze instrukcje pisemne ADR?
+
+Instrukcje muszą być przekazane członkom załogi w języku, który potrafią przeczytać i zrozumieć.
+
+**Podstawa do kontroli:** ADR 2025, 5.4.3.2. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
+
+### ADR-B-0169 — Gaśnica ADR w pojeździe jest zasłonięta ładunkiem i nie można jej szybko wyjąć. Co trzeba poprawić?
+
+Wymagane gaśnice muszą być łatwo dostępne dla załogi i odpowiednio chronione przed działaniem pogody.
+
+**Podstawa do kontroli:** ADR 2025, 8.1.4.5. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
+
+### ADR-B-0232 — Podczas kontroli gaśnica wymagana w pojeździe ADR leży luzem za siedzeniem, skąd może wypaść podczas hamowania. Co należy poprawić?
+
+Gaśnice przewożone jako wyposażenie ADR powinny być prawidłowo zamocowane, zabezpieczone przed warunkami zewnętrznymi i łatwo dostępne dla załogi.
+
+**Podstawa do kontroli:** ADR 2025, 8.1.4.5. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.

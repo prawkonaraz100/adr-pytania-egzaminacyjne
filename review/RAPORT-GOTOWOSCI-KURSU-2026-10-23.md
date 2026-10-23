@@ -40,3 +40,7 @@ Wstępny raport głębokości `docs/AUDYT-GLEBOKOSCI-ETAP2-0323-0324.md` wykorzy
 ## Decyzja
 
 **GOTOWY DO PRZEKAZANIA DO NIEZALEŻNEJ RECENZJI — NIEGOTOWY DO PUBLICZNEGO EGZAMINU ANI WYDANIA.** 324 `needs_review`, 0 `verified`; bez fikcyjnych protokołów i bez zmian w kursach specjalistycznych. Same kontrole strukturalne nie poświadczają prawnej zgodności każdej odpowiedzi ani terminologii.
+
+## Aktualizacja: 14 powiązań z lekcjami (23.10.2026)
+
+Dla 14 pytań z niewystarczającym automatycznym dopasowaniem dodano odrębne podsekcje w istniejących lekcjach; zaktualizowano `review/MACIERZ-PYTANIE-LEKCJA-ETAP3.md`. Tekst powstał z dotychczasowych niezatwierdzonych objaśnień. Nie poświadcza legalności ani jakości dydaktycznej; każda ze 106 kompetencji nadal wymaga osobnego odczytu i rozstrzygnięcia przypadków, decyzji, wyjątków i prawa. Nie poprawiano żadnych niepotwierdzonych błędów terminologicznych. 324 needs_review, 0 verified, eksport BLOCKED.

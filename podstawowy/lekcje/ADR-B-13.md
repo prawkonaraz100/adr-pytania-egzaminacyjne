@@ -86,3 +86,13 @@ Sprawdź dokumenty kabinowe wg ADR 8.1.2.1–2: dokumenty przewozowe, instrukcje
 **Obserwowalne kryterium:** Nie żąda wszystkich świadectw niezależnie od przewozu.
 
 Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+
+## Uzupełnienie powiązań z pytaniami — ADR-B-13 (23.10.2026)
+
+Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
+
+### ADR-B-0039 — Ile stron liczy standardowy wzór instrukcji pisemnych ADR?
+
+ADR określa czterostronicowy wzór instrukcji pisemnych, które pomagają załodze w razie wypadku.
+
+**Podstawa do kontroli:** ADR 2025, 5.4.3.4. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.

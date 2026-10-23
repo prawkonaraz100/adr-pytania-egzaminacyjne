@@ -104,3 +104,19 @@ W tabeli A rozdziału 3.2 kolumna 2 zawiera nazwę i opis pozycji UN. Kursant od
 **Obserwowalne kryterium:** Odróżnia wyłączenie warunkowe od całkowitego zwolnienia; nie zakłada, że samo określenie «prywatny» wystarcza.
 
 **Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
+
+## Uzupełnienie powiązań z pytaniami — ADR-B-01 (23.10.2026)
+
+Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
+
+### ADR-B-0123 — Co oznacza określenie „towary niebezpieczne” w umowie ADR?
+
+Pojęcie obejmuje towary zabronione i dopuszczone warunkowo według załączników A i B; nie ogranicza się do jednej klasy.
+
+**Podstawa do kontroli:** ADR 2025, Umowa ADR, art. 1(b). **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
+
+### ADR-B-0273 — Na sztuce przesyłki przewożonej na zasadach LQ jest znak w kształcie rombu z czarną górą i dołem oraz białym środkiem. Który opis jest poprawny?
+
+Znak LQ to kwadrat ustawiony na wierzchołku, z czarnymi górnym i dolnym fragmentem oraz białym lub kontrastowym środkiem. Nie jest zwykłą nalepką zagrożenia określonej klasy.
+
+**Podstawa do kontroli:** ADR 2025, 3.4.7.1. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.

@@ -74,3 +74,11 @@ Przeanalizować warunkowe stosowanie 8.4.1 oraz pierwszeństwo zabezpieczonej ba
 **Obserwowalne kryterium:** Nie uznaje dowolnego pobocza za bezwarunkowo dopuszczalne miejsce postoju.
 
 **Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
+
+## Uzupełnienie powiązań z pytaniami — ADR-B-04 (23.10.2026)
+
+### ADR-B-0180 — Po kolizji opakowanie z materiałem żrącym pękło. Nie ma pewności, czy rękawice kierowcy chronią przed tym materiałem. Co należy zrobić?
+
+Nieznany lub niekontrolowany kontakt z substancją niebezpieczną może spowodować poważne obrażenia. Instrukcje podkreślają unikanie kontaktu i pierwszeństwo bezpieczeństwa.
+
+**Podstawa do kontroli:** ADR 2025, 5.4.3.4. Status: needs_review; wymagana pełna kontrola urzędowego tekstu polskiego i sprostowania.

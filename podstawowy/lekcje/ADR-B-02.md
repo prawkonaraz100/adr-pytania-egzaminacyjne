@@ -110,3 +110,13 @@ Przykład nowej pozycji UN 3551 w klasie 9, zgodnie z 2.2.9.1.7.2 i tabelą A; s
 **Obserwowalne kryterium:** Nie przypisuje numeru UN wyłącznie na podstawie koloru nalepki.
 
 **Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
+
+## Uzupełnienie powiązań z pytaniami — ADR-B-02 (23.10.2026)
+
+Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
+
+### ADR-B-0042 — Do której klasy ADR zalicza się gazy?
+
+Klasa 2 ADR obejmuje gazy. Szczegółowe podziały zależą od zagrożeń, takich jak palność, toksyczność i ciśnienie.
+
+**Podstawa do kontroli:** ADR 2025, 2.2.2.1.1. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
