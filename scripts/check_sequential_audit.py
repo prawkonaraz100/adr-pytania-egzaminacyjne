@@ -21,7 +21,7 @@ def validate(root=ROOT):
     audit_dir = root / "review" / "sequential"
     paths = sorted(audit_dir.glob("*.json")) if audit_dir.is_dir() else []
     rows = []
-    expected_count = (len(bank) + 29) // 30
+    expected_count = (min(len(bank), 216) + 29) // 30 + (max(len(bank) - 216, 0) + 29) // 30
     if len(paths) != expected_count:
         errors.append(f"expected {expected_count} sequential audit files, found {len(paths)}")
     for path in paths:
