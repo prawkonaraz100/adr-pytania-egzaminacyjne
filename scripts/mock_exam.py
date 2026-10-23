@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Internal ADR basic mock-exam builder. Fail closed: never exports needs_review."""
 import argparse
+import hashlib
 import json
 import os
 import random
@@ -39,7 +40,7 @@ def draw_exam(records, seed=2025, size=30):
         "seed": seed,
         "questions": [
             {"number": n, "id": q["id"], "module_id": q["module_id"],
-             "stem": q["stem"], "options": q["options"]}
+             "stem": q["stem"], "options": q["options"], "image": q.get("image")}
             for n, q in enumerate(selected, 1)
         ],
         "answer_key_internal_only": {
@@ -79,6 +80,15 @@ def run(argv=None):
     except ValueError as e:
         print(f"BLOCKED: {e}")
         return 1
+    # Approved illustrations must exist before an internal exam can be created.
+    for entry in exam["questions"]:
+        path = entry.get("image")
+        if path is not None:
+            rel = Path(path)
+            if rel.is_absolute() or ".." in rel.parts or not rel.parts or rel.parts[0] != "assets" or not (args.root / rel).is_file():
+                print(f"BLOCKED: approved illustration missing or unsafe: {entry['id']}")
+                return 1
+    exam["source_bank_sha256"] = hashlib.sha256(args.questions.read_bytes()).hexdigest()
     args.output.parent.mkdir(parents=True, exist_ok=True)
     name = None
     try:
