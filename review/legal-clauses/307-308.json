@@ -1,0 +1,97 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0307",
+      "order": 307,
+      "clause": "ADR 2025, 2.2.52.1.2, 2.2.52.1.4",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant „Ponieważ ogrzanie zawsze przekształca go w materiał klasy 7” jest sprzeczny z opisanym wymaganiem w ADR 2025, 2.2.52.1.2, 2.2.52.1.4; sprawdzenie urzędowego tekstu PL nadal wymagane."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Potwierdzone w pomocniczym ADR 2025: Nadtlenki organiczne mogą ulegać rozkładowi z wydzieleniem ciepła, a określone formulacje wymagają kontroli temperatury."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant „Ponieważ temperatura nie wpływa na właściwości nadtlenków organicznych” jest sprzeczny z opisanym wymaganiem w ADR 2025, 2.2.52.1.2, 2.2.52.1.4; sprawdzenie urzędowego tekstu PL nadal wymagane."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Pytanie 0307 dotyczy wybranych nadtlenków, nie wszystkich bez wyjątku; 0308 zakazu gaszenia przestrzeni ładunkowej. Pełny urzędowy polski tekst i sprostowanie pending.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0307",
+        "module_id": "ADR-B-02",
+        "stem": "W przewozie ADR znajduje się nadtlenek organiczny klasy 5.2. Dlaczego nie należy narażać go na niekontrolowane ogrzewanie?",
+        "options": {
+          "A": "Ponieważ ogrzanie zawsze przekształca go w materiał klasy 7",
+          "B": "Ponieważ może ulegać egzotermicznemu rozkładowi, a część nadtlenków wymaga kontroli temperatury",
+          "C": "Ponieważ temperatura nie wpływa na właściwości nadtlenków organicznych"
+        },
+        "correct_option": "B",
+        "explanation": "Nadtlenki organiczne mogą ulegać rozkładowi z wydzieleniem ciepła, a określone formulacje wymagają kontroli temperatury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.52.1.2, 2.2.52.1.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0308",
+      "order": 308,
+      "clause": "ADR 2025, 5.4.3.4",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant „Załoga powinna samodzielnie gasić pożar wewnątrz przestrzeni ładunkowej” jest sprzeczny z opisanym wymaganiem w ADR 2025, 5.4.3.4; sprawdzenie urzędowego tekstu PL nadal wymagane."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant „Załoga powinna otworzyć uszkodzone sztuki przesyłek” jest sprzeczny z opisanym wymaganiem w ADR 2025, 5.4.3.4; sprawdzenie urzędowego tekstu PL nadal wymagane."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Potwierdzone w pomocniczym ADR 2025: Według instrukcji pisemnych członkowie załogi nie powinni podejmować gaszenia pożarów w przedziale ładunkowym."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Pytanie 0307 dotyczy wybranych nadtlenków, nie wszystkich bez wyjątku; 0308 zakazu gaszenia przestrzeni ładunkowej. Pełny urzędowy polski tekst i sprostowanie pending.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0308",
+        "module_id": "ADR-B-11",
+        "stem": "W tunelu dochodzi do pożaru przestrzeni ładunkowej pojazdu ADR. Co wynika z instrukcji pisemnych ADR dla załogi?",
+        "options": {
+          "A": "Załoga powinna samodzielnie gasić pożar wewnątrz przestrzeni ładunkowej",
+          "B": "Załoga powinna otworzyć uszkodzone sztuki przesyłek",
+          "C": "Załoga nie powinna podejmować gaszenia pożaru przestrzeni ładunkowej; powinna zapewnić bezpieczeństwo i wezwać pomoc"
+        },
+        "correct_option": "C",
+        "explanation": "Według instrukcji pisemnych członkowie załogi nie powinni podejmować gaszenia pożarów w przedziale ładunkowym.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}

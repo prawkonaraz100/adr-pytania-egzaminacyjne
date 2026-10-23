@@ -1,0 +1,92 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-10-23",
+  "range": "ADR-B-0307..ADR-B-0308",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "First review of each A/B/C option against ADR 2025 EN; full PL comparison pending",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0307",
+      "sequence": 307,
+      "module_id": "ADR-B-02",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "W przewozie ADR znajduje się nadtlenek organiczny klasy 5.2. Dlaczego nie należy narażać go na niekontrolowane ogrzewanie?",
+        "options": {
+          "A": "Ponieważ ogrzanie zawsze przekształca go w materiał klasy 7",
+          "B": "Ponieważ może ulegać egzotermicznemu rozkładowi, a część nadtlenków wymaga kontroli temperatury",
+          "C": "Ponieważ temperatura nie wpływa na właściwości nadtlenków organicznych"
+        },
+        "correct_option": "B",
+        "explanation": "Nadtlenki organiczne mogą ulegać rozkładowi z wydzieleniem ciepła, a określone formulacje wymagają kontroli temperatury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.52.1.2, 2.2.52.1.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": null,
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish ADR comparison and independent specialist review pending.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0308",
+      "sequence": 308,
+      "module_id": "ADR-B-11",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "W tunelu dochodzi do pożaru przestrzeni ładunkowej pojazdu ADR. Co wynika z instrukcji pisemnych ADR dla załogi?",
+        "options": {
+          "A": "Załoga powinna samodzielnie gasić pożar wewnątrz przestrzeni ładunkowej",
+          "B": "Załoga powinna otworzyć uszkodzone sztuki przesyłek",
+          "C": "Załoga nie powinna podejmować gaszenia pożaru przestrzeni ładunkowej; powinna zapewnić bezpieczeństwo i wezwać pomoc"
+        },
+        "correct_option": "C",
+        "explanation": "Według instrukcji pisemnych członkowie załogi nie powinni podejmować gaszenia pożarów w przedziale ładunkowym.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": null,
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full official Polish ADR comparison and independent specialist review pending.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

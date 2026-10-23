@@ -88,3 +88,7 @@ Nalepka wzoru 3: płomień na czerwonym tle; nalepka 6.1: czaszka i skrzyżowane
 W dokumentacji transportowej wskazano klasę 4.2. Jakiego rodzaju zagrożenie powinien rozpoznać kierowca?
 
 Kursant uzasadnia odpowiedź, identyfikuje zakres stosowania przepisu 2.2.42.1.1 oraz podaje przykład sytuacji wymagającej ponownego sprawdzenia danych. Nie uznawać rozwiązania quizu za zaliczenie praktyczne. Podstawa: ADR 2025 Dz.U. 642 ze sprostowaniem 1575 — pełna kontrola polskiego brzmienia i odbiór specjalisty pozostają otwarte.
+
+## Nadtlenki organiczne — scenariusz 0307
+
+Kursant wyjaśnia egzotermiczny rozkład substancji klasy 5.2 i rozróżnia formuły P1/P2 (ADR 2.2.52.1.2 i 2.2.52.1.4). Nie zakłada się, że wszystkie nadtlenki wymagają kontroli temperatury. Wymagana indywidualna recenzja ADR 2025 PL.

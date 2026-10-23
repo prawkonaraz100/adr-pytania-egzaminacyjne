@@ -118,3 +118,7 @@ Instruktor przygotowuje własną, legalnie używaną makietę kontenera z miejsc
 ## Kryterium P3: kontrola ochrony postoju i dokumentów (23.10.2026)
 
 Instruktor przedstawia fikcyjną kartę przewozu towaru dużego ryzyka. Kursant: 1) identyfikuje podstawę zastosowania planu ochrony, 2) wskazuje sposób zapobiegania kradzieży bez blokowania pomocy, 3) dobiera dokumenty kabinowe z ADR 8.1.2, 4) wyjaśnia eskalację naruszenia ochrony. Ocena osobno: zaliczone/do powtórzenia/nieocenione, data, instruktor i obserwacja. Nie jest to automatyczne zaliczenie P1–P3; bez realnych towarów.
+
+## P3: obserwowalna decyzja podczas pożaru ładunku (scenariusz 0308)
+
+Instruktor na symulowanej planszy tunelu ocenia: 1) zakaz gaszenia przestrzeni ładunkowej przez załogę, 2) bezpieczne oddalenie uczestników, 3) wezwanie służb i przekazanie informacji o ładunku, 4) stosowanie się do poleceń ratowników. Wynik każdego elementu: zaliczone / do powtórzenia / nieocenione, z uzasadnieniem obserwacji. Nie używać ognia ani prawdziwych substancji.
