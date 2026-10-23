@@ -1,0 +1,104 @@
+{
+  "title": "ADR 2025 preliminary A/B/C review for new authoring 217–218",
+  "date": "2026-10-23",
+  "scope": "Draft question editorial review and cited point comparison, NOT full official Polish legal-text attestation or expert review",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0217",
+      "order": 217,
+      "clause": "ADR 2025, 5.3.2.3.1",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.3",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Powtórzenie cyfry 8 w numerze zagrożenia wyraża nasilenie żrącego działania."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Sam numer nie dowodzi braku innych zagrożeń ani nie zastępuje dokumentacji."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Cyfry numeru zagrożenia nie służą do numerowania kolejnych przesyłek."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Numer rozpoznawczy zagrożenia nie zastępuje pełnego zestawu nalepek i dokumentacji ADR.",
+      "editorial_result": "preliminary_authoring_check_only",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0217",
+        "module_id": "ADR-B-06",
+        "stem": "Na tablicy pomarańczowej w górnym polu jest numer rozpoznawczy zagrożenia 88. Co informuje kierowcę podwójna cyfra 8?",
+        "options": {
+          "A": "Zagrożenie żrące jest nasilone",
+          "B": "Towar należy automatycznie do klasy 8 i nie ma żadnego innego zagrożenia",
+          "C": "Druga ósemka oznacza numer kolejnej sztuki przesyłki"
+        },
+        "correct_option": "A",
+        "explanation": "W numerze rozpoznawczym zagrożenia powtórzenie cyfry wskazuje nasilenie zagrożenia, które ta cyfra oznacza. Cyfra 8 odnosi się do działania żrącego. Sam numer nie zastępuje sprawdzenia całego oznakowania i dokumentu przewozowego.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0218",
+      "order": 218,
+      "clause": "ADR 2025, 5.2.2.1.1; 3.2.1 tabela A kolumna (5)",
+      "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.3",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Nie wolno pomijać wymaganej nalepki zagrożenia dodatkowego."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Dwie wymagane nalepki ostrzegają o różnych rodzajach zagrożenia jednego towaru."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Liczba nalepek ostrzegawczych nie jest liczbą towarów w opakowaniu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Nalepki stosuje się według właściwej pozycji UN i przepisów dotyczących opakowania, o ile mają zastosowanie.",
+      "editorial_result": "preliminary_authoring_check_only",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0218",
+        "module_id": "ADR-B-02",
+        "stem": "Na opakowaniu towaru niebezpiecznego wymagane są dwie różne nalepki ostrzegawcze: zagrożenia głównego i dodatkowego. Co powinien z tego wywnioskować kierowca?",
+        "options": {
+          "A": "Drugą nalepkę można zignorować, bo liczy się tylko pierwsza",
+          "B": "Towar może stwarzać więcej niż jeden rodzaj zagrożenia i należy uwzględnić obie nalepki",
+          "C": "Dwie nalepki oznaczają, że w środku muszą znajdować się dwa oddzielne towary"
+        },
+        "correct_option": "B",
+        "explanation": "Nalepki mogą pokazywać nie tylko zagrożenie główne, ale także dodatkowe. Kierowca powinien uwzględnić wszystkie wymagane rodzaje zagrożeń i sprawdzić dokumentację; liczba nalepek nie oznacza liczby towarów.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.1.1; 3.2.1 tabela A kolumna (5)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}

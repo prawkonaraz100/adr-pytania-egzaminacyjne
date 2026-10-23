@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOT_FIELDS = ("id","module_id","stem","options","correct_option","explanation","sources","legal_basis_version","image")
 
 
-def validate(root=ROOT, expected=216):
+def validate(root=ROOT, expected=None):
     errors, processed = [], []
     question_file = root/"podstawowy"/"questions.jsonl"
     questions = [json.loads(s) for s in question_file.read_text(encoding="utf-8").splitlines() if s.strip()]
@@ -59,6 +59,8 @@ def validate(root=ROOT, expected=216):
                 errors.append(f"{id}: missing legal-condition note")
             if not str(item.get("source_2025_comparison_url","")).startswith("https://"):
                 errors.append(f"{id}: missing additional source")
+    if expected is None:
+        expected = len(questions)
     if len(processed)!=expected:
         errors.append(f"Expected {expected} clause-by-clause reviews; got {len(processed)}")
     if any(q["verification_status"]=="verified" for q in questions[:len(processed)]):
@@ -73,7 +75,7 @@ def main():
         for e in errors[:25]:
             print("ERROR:",e)
         return 1
-    print("PASS: A/B/C detailed editorial rationale for all 216 IDs; Polish official text and independent expert signoff still pending.")
+    print("PASS: A/B/C detailed editorial rationale for all bank IDs; Polish official text and independent expert signoff still pending.")
     return 0
 
 
