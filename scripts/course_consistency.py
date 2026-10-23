@@ -46,6 +46,53 @@ def validate_image_assets(root: Path, questions):
                     errors.append(f"{qid}: external SVG reference is forbidden")
     return errors
 
+
+def validate_reviewer_manifest(root: Path, questions):
+    """Ensure review handoff metadata cannot silently drift from the live question bank."""
+    errors = []
+    manifests = list((root / "review/specialist").glob("PAKIET-*-MANIFEST.json"))
+    if not manifests:
+        return ["Missing specialist handoff manifest"]
+    def number(path):
+        try:
+            return int(path.name.split("-")[1])
+        except (IndexError, ValueError):
+            return -1
+    current = max(manifests, key=number)
+    try:
+        manifest = json.loads(current.read_text(encoding="utf-8"))
+        ledger_file = root / manifest["source_ledger"]
+        ledger = json.loads(ledger_file.read_text(encoding="utf-8"))
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        return [f"Broken specialist manifest/Polish legal ledger: {exc}"]
+    by_id = {q["id"]: q for q in questions}
+    if manifest.get("question_count") != len(questions) or manifest.get("last_id") != questions[-1]["id"]:
+        errors.append("Specialist manifest has stale question count or last ID")
+    live_statuses = dict(Counter(q.get("verification_status") for q in questions))
+    if manifest.get("status_counts") != {name: live_statuses.get(name, 0) for name in ("needs_review", "verified")}:
+        errors.append("Specialist manifest status counts are stale")
+    entries = ledger.get("entries", [])
+    if len(entries) != len(questions) or len({e["id"] for e in entries}) != len(questions) or {e["id"] for e in entries} != set(by_id):
+        errors.append("Literal Polish verification ledger does not match the current bank IDs")
+    else:
+        for entry in entries:
+            question = by_id[entry["id"]]
+            if entry.get("module_id") != question["module_id"]:
+                errors.append("Stale legal ledger module: " + entry["id"])
+            if entry.get("source_references") != [src["reference"] for src in question["sources"]]:
+                errors.append("Stale legal ledger clause references: " + entry["id"])
+            if entry.get("verification_status") != question["verification_status"]:
+                errors.append("Stale legal ledger question status: " + entry["id"])
+    open_items = sum(e.get("official_polish_pdf_exact_section_access") == "not_retrieved_not_literally_compared" for e in entries)
+    if manifest.get("unresolved_literal_comparisons") != open_items:
+        errors.append("Specialist manifest unresolved legal count is stale")
+    expected_images = {q["id"]: q["image"] for q in questions if q.get("image")}
+    manifest_images = manifest.get("images", [])
+    observed = {x["id"]: x.get("path") for x in manifest_images}
+    if len(observed) != len(manifest_images) or observed != expected_images:
+        errors.append("Specialist manifest SVG links are stale or duplicated")
+    return errors
+
 def audit(root: Path):
     failures = []
     warnings = []
@@ -65,6 +112,7 @@ def audit(root: Path):
     if numbers != list(range(1, len(qids) + 1)):
         failures.append("IDs are not consecutive from ADR-B-0001")
     failures.extend(validate_image_assets(root, questions))
+    failures.extend(validate_reviewer_manifest(root, questions))
     modules = {f"ADR-B-{n:02d}" for n in range(1, 14)}
     if {q["module_id"] for q in questions} != modules:
         failures.append("Question bank does not cover all 13 basic modules")
