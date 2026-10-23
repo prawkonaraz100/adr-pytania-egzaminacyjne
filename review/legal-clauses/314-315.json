@@ -1,0 +1,97 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0314",
+      "order": 314,
+      "clause": "ADR 2025, 3.2.1, objaśnienie kolumny (2)",
+      "source_2025_comparison_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Zgodne z wskazanym zakresem ADR 2025: Kolumna 2 tabeli A zawiera nazwę i opis towaru, co pozwala ustalić właściwą nazwę przewozową."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź B: „W kolumnie 15 z ograniczeniami tunelowymi” nie odpowiada kolumnie klasyfikacyjnej ani pozycji UN; wymaga finalnej kontroli polskiego tekstu i sprostowania."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź C: „Wyłącznie w instrukcjach pisemnych kierowcy” nie odpowiada kolumnie klasyfikacyjnej ani pozycji UN; wymaga finalnej kontroli polskiego tekstu i sprostowania."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Szczegółowe kryteria klasyfikacji, wyłączenia, urzędowe polskie brzmienie i sprostowanie wymagają dalszej oceny.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0314",
+        "module_id": "ADR-B-01",
+        "stem": "Gdzie w tabeli A ADR 2025 należy szukać nazwy przewozowej odpowiadającej konkretnemu numerowi UN?",
+        "options": {
+          "A": "W kolumnie 2 „Nazwa i opis”",
+          "B": "W kolumnie 15 z ograniczeniami tunelowymi",
+          "C": "Wyłącznie w instrukcjach pisemnych kierowcy"
+        },
+        "correct_option": "A",
+        "explanation": "Kolumna 2 tabeli A zawiera nazwę i opis towaru, co pozwala ustalić właściwą nazwę przewozową.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.2.1, objaśnienie kolumny (2)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0315",
+      "order": 315,
+      "clause": "ADR 2025, 2.2.9.1.7.2; tabela A UN 3551",
+      "source_2025_comparison_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź A: „Klasa 5.1” nie odpowiada kolumnie klasyfikacyjnej ani pozycji UN; wymaga finalnej kontroli polskiego tekstu i sprostowania."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Zgodne z wskazanym zakresem ADR 2025: Baterie sodowo-jonowe z elektrolitem organicznym objęte wpisem UN 3551 klasyfikuje się do klasy 9, z zastrzeżeniem właściwych warunków i wyłączeń."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź C: „Klasa 2” nie odpowiada kolumnie klasyfikacyjnej ani pozycji UN; wymaga finalnej kontroli polskiego tekstu i sprostowania."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Szczegółowe kryteria klasyfikacji, wyłączenia, urzędowe polskie brzmienie i sprostowanie wymagają dalszej oceny.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0315",
+        "module_id": "ADR-B-02",
+        "stem": "Nowe regulacje ADR 2025 wymieniają baterie sodowo-jonowe z elektrolitem organicznym jako UN 3551. Do której klasy należą zgodnie z wykazem?",
+        "options": {
+          "A": "Klasa 5.1",
+          "B": "Klasa 9 — różne materiały i przedmioty niebezpieczne",
+          "C": "Klasa 2"
+        },
+        "correct_option": "B",
+        "explanation": "Baterie sodowo-jonowe z elektrolitem organicznym objęte wpisem UN 3551 klasyfikuje się do klasy 9, z zastrzeżeniem właściwych warunków i wyłączeń.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.9.1.7.2; tabela A UN 3551",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
