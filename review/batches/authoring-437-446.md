@@ -1,0 +1,5 @@
+# Partia ADR-B-0437–0446 — luki w transporcie kombinowanym
+
+2026-10-23. Odczyt main: 436 pytań, ostatni 0436, bez otwartych PR w chwili kontroli. W ADR-B-10 już 36 pytań, z dużą koncentracją na 1.1.4.2 i 5.4.2. Nowe, niepokryte dotąd odrębnymi pytaniami punkty: 1.1.4.5.1 (odcinek kolejowy/promowy), 1.1.4.5.2 (uzgodnienia państw i notyfikacja), 1.1.4.5.3 (kolizje umów), 1.1.4.3 (historyczne odstępstwo dla typu IMO; wyłącznie rozpoznanie warunków multimodalnych, nie kurs cystern).
+
+10 nowych pytań, 30 audytów A/B/C. Źródło: oficjalna publikacja UNECE ADR 2025 https://unece.org/adr-2025-files oraz normatywne polskie ogłoszenie https://dziennikustaw.gov.pl/DU/2025/642 i sprostowanie https://eli.gov.pl/eli/DU/2025/1575/ogl. Porównanie wskazanych ustępów z wersją UNECE EN, nie całego polskiego tekstu urzędowego. Wszystkie needs_review, 0 verified. Odmienność pytań oceniono względem 36 wcześniejszych pytań działu; wyłącznie autorstwo edukacyjne. Ekspert ADR musi potwierdzić polskie brzmienie, wyjątki i każdą odpowiedź. Quality Gate oraz scalanie: **do potwierdzenia, nie oznaczać PASS bez danych**.
