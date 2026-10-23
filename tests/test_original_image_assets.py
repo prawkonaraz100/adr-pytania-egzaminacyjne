@@ -25,7 +25,7 @@ class OriginalImageAssetsTests(unittest.TestCase):
             self.assertTrue(doc.tag.endswith("svg"))
             self.assertEqual(doc.attrib.get("viewBox"), "0 0 640 480")
             self.assertNotIn("<script", (ROOT/path).read_text(encoding="utf-8").lower())
-            self.assertNotIn("http://", (ROOT/path).read_text(encoding="utf-8"))
+            self.assertNotIn("href=", (ROOT/path).read_text(encoding="utf-8"))
             self.assertNotIn("xlink:href", (ROOT/path).read_text(encoding="utf-8"))
     
     def test_specifications_cover_all_bound_questions(self):
