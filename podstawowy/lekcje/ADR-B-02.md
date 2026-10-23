@@ -92,3 +92,7 @@ Kursant uzasadnia odpowiedź, identyfikuje zakres stosowania przepisu 2.2.42.1.1
 ## Nadtlenki organiczne — scenariusz 0307
 
 Kursant wyjaśnia egzotermiczny rozkład substancji klasy 5.2 i rozróżnia formuły P1/P2 (ADR 2.2.52.1.2 i 2.2.52.1.4). Nie zakłada się, że wszystkie nadtlenki wymagają kontroli temperatury. Wymagana indywidualna recenzja ADR 2025 PL.
+
+## Klasa 6.2: identyfikacja ryzyka (0309 i 0311)
+
+Sytuacje: obecność patogenów potencjalnie wywołujących chorobę i rozróżnienie I1/I2; ADR 2025 2.2.62.1.1–2. Kursant nie utożsamia wszystkich próbek biologicznych z obowiązkiem przewozu ADR bez sprawdzenia klasyfikacji i wyjątków.
