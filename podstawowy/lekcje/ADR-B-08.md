@@ -60,3 +60,7 @@ Pytania: `0022`–`0024`, `0056`–`0057`, `0071`–`0077`, `0137`.
 ## Zestaw sytuacyjny wyposażenia 0251–0254 (szkic)
 
 Przed wyjazdem kursant sprawdza klin **dla każdego pojazdu**, kamizelki oraz ochronę oczu **dla każdego członka załogi**, i dodatkową maskę ucieczkową dla nalepek 2.3/6.1. Przedmiotem ćwiczenia jest lista kontrolna ADR 8.1.5.2–3, a nie pozorne zaliczenie P1–P3. Źródło: Dz.U. 2025 poz. 642; sprostowanie poz. 1575. Wymagana indywidualna kontrola urzędowego tekstu i recenzja specjalisty.
+
+## Kontrola gaśnic w przypadkach granicznych — 0282–0283
+
+Scenariusz 0282: minimalna gaśnica dla przewozu objętego wyłączeniem 1.1.3.6 — ADR 8.1.4.2. Scenariusz 0283: wymagania kontroli okresowej i terminu przydatności — ADR 8.1.4.4. Pytania szkicowe, bez zastępowania fizycznej kontroli i bez podpisanej recenzji prawa.
