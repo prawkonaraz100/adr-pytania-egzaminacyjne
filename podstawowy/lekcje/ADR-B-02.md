@@ -56,3 +56,13 @@ Przećwicz: klasy 1–9 z podklasami, różnice 4.1/4.2/4.3 i 5.1/5.2, grupy pak
 - [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
 - [Sprostowanie — Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
 - [Program kursu — Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
+
+## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
+
+**Sytuacja do analizy:** W dokumencie pojawia się zagrożenie dodatkowe, a na sztuce przesyłki trzeba poprawnie rozpoznać wymagane nalepki.
+
+**Zadanie kursanta:** wyjaśnić, co należy sprawdzić przed podjęciem działania, jak rozpoznać warunki graniczne i czego nie należy robić. Uczeń identyfikuje klasę i zagrożenie dodatkowe; nie wnioskuje o klasie wyłącznie z koloru opakowania.
+
+**Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
+
+**Punkty do porównania z urzędową publikacją:** ADR 2.2, 3.2 tabela A kol. 5, 5.2.2; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.

@@ -82,3 +82,13 @@ Powiązane kompetencje: `ADR-B-05-K13`, `ADR-B-05-K14`, `ADR-B-05-K15`.
 ## Rozszerzenie P3 — oględziny przed załadunkiem (szkic, 23.10.2026)
 
 Przygotować bezpieczny model pojazdu i atrapy sztuk przesyłek. Kursant rozpoznaje źle zamocowane opakowania, zbyt mocno zaciśnięty pas, niedozwolone piętrzenie i pozostałości po symulowanym wycieku. Powiązane pytania 0235–0240; ADR 7.5.1, 7.5.7, 7.5.8. Scenariusz dydaktyczny nie jest dowodem przeprowadzenia ani zaliczenia ćwiczeń z ramowego programu; kontrola instruktora wymagana.
+
+## Matryca dydaktyczna P1–P3 — doprecyzowanie etapu 2 (23.10.2026)
+
+| Scenariusz | Przygotowanie i stanowisko | Zadania instruktora | Kryteria obserwacji (nie zaliczenie zdalne) |
+|---|---|---|---|
+| P1 — sprzęt gaśniczy | Bezpieczne, przygotowane stanowisko szkoleniowe, odpowiedni sprzęt i ochrona, bez prawdziwego ładunku ADR | Pokaz, nadzorowanie użycia sprzętu, zatrzymanie ćwiczenia w razie ryzyka | Kursant odróżnia pożar przedziału ładunkowego od małego pożaru pojazdu, zna granice bezpieczeństwa, posługuje się gaśnicą zgodnie z instruktażem |
+| P2 — pierwsza pomoc | Manekin lub stanowisko symulacyjne, brak skażenia i rzeczywistego uwolnienia materiału | Ocena bezpieczeństwa miejsca, trening wezwania pomocy, pokaz odpowiednich podstawowych czynności | Kursant nie wchodzi w niebezpieczną strefę, zgłasza informacje, działa w zakresie przeszkolenia |
+| P3 — wypadek/awaria | Sucha symulacja miejsca zdarzenia, bez rzeczywistego zagrożenia i ruchu drogowego | Instruktaż alarmowania, ostrzegania i odtwarzania działań z instrukcji pisemnych | Kursant rozpoznaje konieczność bezpiecznego zatrzymania, zachowania strony nawietrznej i współpracy ze służbami |
+
+**Protokół i nadzór:** przed rozpoczęciem instruktor sprawdza środki bezpieczeństwa; po realnym wykonaniu może osobno odnotować datę, miejsce, uczestnika, zakres, obserwacje i swój podpis w istniejącym formularzu powyżej. Nie dopisywać fikcyjnych ocen ani dat. Przebieg i warunki ćwiczenia muszą być zgodne z prawem i programem kursu, a tekst wymaga niezależnej kontroli instruktorskiej. Podstawa do weryfikacji: zał. 1 Dz.U. 2021 poz. 2150 i ADR 2025 5.4.3.4. Żadne pytanie internetowe nie zalicza P1–P3.

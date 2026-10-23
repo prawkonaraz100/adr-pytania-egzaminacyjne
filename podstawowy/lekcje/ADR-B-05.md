@@ -102,3 +102,13 @@ Przećwiczyć na suchych scenariuszach: bezpieczne zatrzymanie, światła awaryj
 ## Scenariusze P1–P3: dalsze pytania przygotowawcze (szkic)
 
 Ćwiczyć bezpieczne przekazanie informacji ratownikom (0229), reakcję na skażoną odzież (0230), bezpieczne użycie środków ostrzegawczych (0231) i mocowanie gaśnicy (0232). Kierowca nie naraża siebie na kontakt z towarem, nie wykonuje działań ratowniczych ponad przygotowanie. Źródła: ADR 5.4.3.4, 8.1.4.5 i 8.1.5.2; wymaga zatwierdzenia instruktora.
+
+## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
+
+**Sytuacja do analizy:** Po uszkodzeniu opakowania pojawiają się opary, a obok leży osoba poszkodowana.
+
+**Zadanie kursanta:** wyjaśnić, co należy sprawdzić przed podjęciem działania, jak rozpoznać warunki graniczne i czego nie należy robić. Uczeń wybiera stronę nawietrzną, wzywa służby i nie wchodzi do strefy zagrożenia bez przeszkolenia i ochrony.
+
+**Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
+
+**Punkty do porównania z urzędową publikacją:** ADR 5.4.3.4; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.
