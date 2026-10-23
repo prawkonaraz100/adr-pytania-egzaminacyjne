@@ -34,7 +34,7 @@
         "module_id": "ADR-B-09",
         "stem": "W czasie załadunku ADR widzisz niezamocowane skrzynie, które mogą przesunąć się podczas hamowania. Co należy zrobić przed wyjazdem?",
         "options": {
-          "A": "Unieruchomić ładunek odpowiednimi środkami, aby nie przemieszczał się i nie uległ uszkodzeniu",
+          "A": "Unieruchomić skrzynie, by nie przesuwały się",
           "B": "Zostawić skrzynie luzem, jeśli trasa jest krótka",
           "C": "Wystarczy zamknąć drzwi pojazdu"
         },
@@ -82,7 +82,7 @@
         "stem": "Podczas mocowania sztuk przesyłek ADR pas transportowy zaczyna zgniatać opakowanie. Jak powinien zareagować kierowca?",
         "options": {
           "A": "Zwiększyć naciąg, żeby opakowanie bardziej się nie ruszało",
-          "B": "Dostosować mocowanie, aby nie powodowało uszkodzenia lub deformacji opakowania",
+          "B": "Poprawić mocowanie bez zgniatania opakowania",
           "C": "Przeciąć opakowanie, by dopasować pas"
         },
         "correct_option": "B",
@@ -110,7 +110,7 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant „Tak, jeśli górna warstwa jest lekka” pomija lub narusza obowiązek określony w ADR 7.5.7.2; pełna polska recenzja oczekuje."
+          "rationale": "Wariant „Tak, jeśli górna warstwa jest lekka i nie obciąża dolnych opakowań” pomija lub narusza obowiązek określony w ADR 7.5.7.2; pełna polska recenzja oczekuje."
         },
         "C": {
           "expected_correct": true,
@@ -129,8 +129,8 @@
         "stem": "Przedsiębiorstwo chce piętrzyć sztuki przesyłek ADR, które nie zostały zaprojektowane do piętrzenia. Czy takie ułożenie jest dozwolone na podstawie 7.5.7.2?",
         "options": {
           "A": "Tak, jeśli są owinięte folią",
-          "B": "Tak, jeśli górna warstwa jest lekka",
-          "C": "Nie, sztuki przesyłek można piętrzyć tylko wtedy, gdy są do tego zaprojektowane"
+          "B": "Tak, jeśli górna warstwa jest lekka i nie obciąża dolnych opakowań",
+          "C": "Nie, bo nie są przeznaczone do piętrzenia"
         },
         "correct_option": "C",
         "explanation": "Przepis zakazuje piętrzenia przesyłek, jeżeli opakowania nie są do tego przeznaczone.",
@@ -175,7 +175,7 @@
         "module_id": "ADR-B-09",
         "stem": "Po rozładunku zapakowanych towarów ADR zauważono, że zawartość jednej przesyłki wyciekła do przestrzeni ładunkowej. Co należy zrobić przed ponownym załadunkiem?",
         "options": {
-          "A": "Oczyścić pojazd lub kontener tak szybko, jak to możliwe, w każdym przypadku przed ponownym załadunkiem",
+          "A": "Niezwłocznie oczyścić pojazd przed ponownym załadunkiem",
           "B": "Położyć nowe przesyłki bezpośrednio na miejscu wycieku",
           "C": "Odroczyć czyszczenie do następnego przeglądu technicznego"
         },
@@ -223,7 +223,7 @@
         "stem": "Przed rozpoczęciem załadunku towarów niebezpiecznych stwierdzono uszkodzenie pojazdu zagrażające bezpieczeństwu przewozu. Jak należy postąpić?",
         "options": {
           "A": "Załadować towar, a uszkodzenie zgłosić po dojechaniu",
-          "B": "Nie podejmować załadunku, dopóki wymagania bezpieczeństwa nie będą spełnione",
+          "B": "Wstrzymać załadunek do usunięcia zagrożenia",
           "C": "Załadować połowę towaru, bez kontroli"
         },
         "correct_option": "B",
@@ -247,7 +247,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant „Zawsze, jeżeli kierowca ma odpowiednie rękawice” pomija lub narusza obowiązek określony w ADR 7.5.8.2; pełna polska recenzja oczekuje."
+          "rationale": "Wariant „Zawsze, jeśli kierowca używa rękawic ochronnych i oznaczy pojazd przed kolejnym przewozem” pomija lub narusza obowiązek określony w ADR 7.5.8.2; pełna polska recenzja oczekuje."
         },
         "B": {
           "expected_correct": false,
@@ -269,9 +269,9 @@
         "module_id": "ADR-B-09",
         "stem": "Samochód po przewozie niebezpiecznego towaru luzem ma przyjąć kolejny, inny ładunek. Kiedy może odstąpić od czyszczenia na podstawie 7.5.8.2?",
         "options": {
-          "A": "Zawsze, jeżeli kierowca ma odpowiednie rękawice",
+          "A": "Zawsze, jeśli kierowca używa rękawic ochronnych i oznaczy pojazd przed kolejnym przewozem",
           "B": "Gdy następny ładunek waży mniej",
-          "C": "Przewidziany wyjątek dotyczy ponownego załadunku tego samego towaru niebezpiecznego; przy innym ładunku pojazd należy odpowiednio oczyścić"
+          "C": "Nie; wyjątek dotyczy tylko ponownego załadunku tego samego towaru"
         },
         "correct_option": "C",
         "explanation": "Po przewozie luzem wymagane jest odpowiednie oczyszczenie przed ponownym załadunkiem, chyba że następny ładunek stanowi ten sam towar niebezpieczny.",
