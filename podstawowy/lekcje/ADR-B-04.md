@@ -52,3 +52,7 @@ Przy każdym scenariuszu podaj punkt przepisu i warunek jego stosowania. Pytania
 ## Scenariusz etapu 2 — seria ADR-B-0241–0246
 
 Nowe zadania 0243–0244: zakaz otwierania przesyłek i praca silnika. Kursant analizuje decyzję, okoliczności zastosowania przepisu i wyjątki, a następnie uzasadnia wybór bez zgadywania litery. Wszystkie rekordy pozostają `needs_review`. Lekcja wymaga fachowej kontroli polskiego ADR 2025 (Dz.U. 642, sprostowanie 1575) i niezależnej recenzji; żadne zadanie teoretyczne nie zalicza ćwiczeń praktycznych.
+
+## Scenariusze 0279–0280 — palenie i e-papierosy
+
+Rozpoznaj zakaz z ADR 8.3.5 podczas czynności ładunkowych w pojeździe i jego pobliżu, również w przypadku urządzeń elektronicznych. Zadania wymagają formalnej kontroli polskiego tekstu Dz.U. 642 i sprostowania 1575.

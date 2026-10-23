@@ -57,3 +57,7 @@ Na przykładowej pomarańczowej tablicy z górnym numerem 88 uczeń wyjaśnia, �
 ## Tekstowe rozpoznawanie tablic — 0255–0258 (do recenzji)
 
 Pytania 0255–0258 opisują słowami górne i dolne pole tablicy, literę X, podział poziomy oraz standardowe wymiary. W klasie kursant powinien zobaczyć prawidłowe, własne schematy, zanim materiał zostanie zatwierdzony. Punkty ADR 5.3.2.2.1–2 i 5.3.2.3.1. Bez potwierdzenia eksperta pytania nie są dopuszczone do wydania.
+
+## Scenariusz 0281 — oznaczenie UN na sztuce przesyłki
+
+Popraw opis „1203” na „UN 1203” w sytuacji, gdzie obowiązuje ADR 5.2.1.1. Pytanie szkicowe, wymaga kontroli wyjątków i akceptacji specjalisty.
