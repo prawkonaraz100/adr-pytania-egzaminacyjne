@@ -122,3 +122,7 @@ Instruktor przedstawia fikcyjną kartę przewozu towaru dużego ryzyka. Kursant:
 ## P3: obserwowalna decyzja podczas pożaru ładunku (scenariusz 0308)
 
 Instruktor na symulowanej planszy tunelu ocenia: 1) zakaz gaszenia przestrzeni ładunkowej przez załogę, 2) bezpieczne oddalenie uczestników, 3) wezwanie służb i przekazanie informacji o ładunku, 4) stosowanie się do poleceń ratowników. Wynik każdego elementu: zaliczone / do powtórzenia / nieocenione, z uzasadnieniem obserwacji. Nie używać ognia ani prawdziwych substancji.
+
+## Wariant instruktażu P3 — decyzja o postoju (0310)
+
+Instruktor przedstawia fikcyjną trasę i scenariusz z zastosowaniem ADR 8.4.1. Kursant (1) identyfikuje potrzebę nadzoru, (2) wybiera bezpieczną bazę, (3) uzasadnia warunki kolejnych alternatyw i (4) wskazuje procedurę zgłoszenia problemu. Każdy element dokumentować jako zaliczone/do powtórzenia/nieocenione; bez faktycznego przewozu i automatycznego zaliczania P3.
