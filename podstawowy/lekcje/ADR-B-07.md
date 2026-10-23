@@ -49,3 +49,13 @@ Przy każdej sytuacji odpowiedz: **jaka rola**, **jaki obowiązek**, **jaki prze
 - [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
 - [Sprostowanie — Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
 - [Program kursu — Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
+
+## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
+
+**Sytuacja:** Nadawca dostarcza towar bez jasnych informacji o właściwej nazwie przewozowej.
+
+**Ćwiczenie:** Rozróżnij zadania nadawcy, przewoźnika i załadowcy oraz sprawdź wymagane informacje. Kursant wyjaśnia samodzielnie warunki i ograniczenia, zamiast zapamiętywać literę odpowiedzi.
+
+**Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
+
+**Podstawa do weryfikacji:** ADR 1.4.2.1, 1.4.2.2; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
