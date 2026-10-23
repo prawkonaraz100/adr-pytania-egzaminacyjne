@@ -64,3 +64,13 @@ Przed wyjazdem kursant sprawdza klin **dla każdego pojazdu**, kamizelki oraz oc
 ## Kontrola gaśnic w przypadkach granicznych — 0282–0283
 
 Scenariusz 0282: minimalna gaśnica dla przewozu objętego wyłączeniem 1.1.3.6 — ADR 8.1.4.2. Scenariusz 0283: wymagania kontroli okresowej i terminu przydatności — ADR 8.1.4.4. Pytania szkicowe, bez zastępowania fizycznej kontroli i bez podpisanej recenzji prawa.
+
+## Zadanie instruktorskie: Pojazdy i wyposażenie (etap 2, 23.10.2026)
+
+**Symulacja bez rzeczywistych towarów:** Na fikcyjnych kartach pojazdów kursant rozpoznaje EX/II i EX/III, ocenia warunkowość dopuszczenia i wyposażenia.
+
+**Odniesienie do weryfikacji:** ADR 9.1.1.2, 8.1.4, 8.1.5.
+
+**Obserwowalne kryterium:** Nie uznaje, że każda ciężarówka wymaga specjalnego świadectwa.
+
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
