@@ -1,0 +1,133 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-10-23",
+  "range": "ADR-B-0507..ADR-B-0509",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "Targeted comparison of ADR 2025 clauses 5.3.2.2.2, 5.4.1.1.1(a), 8.1.5.2; full Polish literal comparison pending",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0507",
+      "sequence": 507,
+      "module_id": "ADR-B-06",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Kierowca przed odjazdem zauważa, że na numerowanej tablicy pomarańczowej górne pole zawiera „1203”, a dolne „33”. Dokument przewozowy wskazuje numer UN 1203. Co powinien wyjaśnić przed rozpoczęciem przewozu?",
+        "options": {
+          "A": "Czy numer UN 1203 może pozostać w górnym polu, jeżeli jest czytelny.",
+          "B": "Czy pozycje numeru UN i numeru rozpoznawczego zagrożenia nie zostały zamienione.",
+          "C": "Czy rozdzielająca pola pozioma linia nie powinna zostać zastąpiona pionową."
+        },
+        "correct_option": "B",
+        "explanation": "ADR 2025, 5.3.2.2.2 wymaga podania numeru rozpoznawczego zagrożenia w górnej części tablicy, a numeru UN w dolnej. Przed odjazdem należy doprowadzić wymagane oznakowanie do zgodności. Opcje A i C nie odpowiadają układowi określonemu w tym ustępie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "targeted_2025_english_section_and_official_polish_publication_index",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Tekst polski Dz.U. 2025 poz. 642 oraz sprostowanie poz. 1575 wymagają dosłownego porównania i niezależnego podpisu.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0508",
+      "sequence": 508,
+      "module_id": "ADR-B-13",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Przed wyjazdem kierowca sprawdza dokument przewozowy dla benzyny. W polu identyfikacji zapisano „1203 BENZYNA”, bez liter „UN”. Jaką niezgodność powinien zgłosić do poprawy dokumentu?",
+        "options": {
+          "A": "W opisie towaru należy podać numer 1203 poprzedzony literami „UN”.",
+          "B": "Przed numerem 1203 należy zamiast tego umieścić kod tunelowy.",
+          "C": "Numer 1203 powinien zostać zastąpiony numerem tablicy rejestracyjnej."
+        },
+        "correct_option": "A",
+        "explanation": "ADR 2025, 5.4.1.1.1(a) wymaga podania numeru UN poprzedzonego literami „UN” w dokumencie przewozowym. Sam zapis „1203” nie odtwarza tego elementu prawidłowego opisu. Kod tunelowy ani numer rejestracyjny nie zastępują oznaczenia UN.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "targeted_2025_english_section_and_official_polish_publication_index",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Tekst polski Dz.U. 2025 poz. 642 oraz sprostowanie poz. 1575 wymagają dosłownego porównania i niezależnego podpisu.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0509",
+      "sequence": 509,
+      "module_id": "ADR-B-08",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Przed wyjazdem zestaw ADR składa się z samochodu ciężarowego i przyczepy. Na wyposażeniu jest jeden klin pod koło, dobrany do samochodu. Co powinien sprawdzić kierowca przy kompletowaniu wyposażenia obu pojazdów?",
+        "options": {
+          "A": "Czy klin można zastąpić drugim przenośnym źródłem światła dla załogi.",
+          "B": "Czy wystarczy jeden klin dla całej jednostki, skoro oba pojazdy są połączone.",
+          "C": "Czy zapewniono klin odpowiedni do masy i średnicy koła każdego z pojazdów."
+        },
+        "correct_option": "C",
+        "explanation": "ADR 2025, 8.1.5.2 wymaga dla każdego pojazdu jednostki transportowej klina odpowiedniego do maksymalnej masy pojazdu i średnicy jego koła. Jeden klin dla samochodu nie spełnia sam przez się obowiązku wyposażenia przyczepy. Oświetlenie załogi jest odrębnym elementem wyposażenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "targeted_2025_english_section_and_official_polish_publication_index",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Tekst polski Dz.U. 2025 poz. 642 oraz sprostowanie poz. 1575 wymagają dosłownego porównania i niezależnego podpisu.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "title": "Scenario questions ADR-B-0507–0509, A/B/C clause review",
+  "date": "2026-10-23",
+  "scope": "Three basic ADR scenarios; all nine options reviewed editorially, no legal certification",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0507",
+      "order": 507,
+      "clause": "5.3.2.2.2",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Błędne: 5.3.2.2.2 umieszcza numer UN w dolnej części tablicy, nie górnej."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawne: zamiana numeru zagrożenia z numerem UN narusza układ obu pól w 5.3.2.2.2."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Błędne: 5.3.2.2.2 określa poziomą linię oddzielającą numery, nie pionową."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Sytuacja odnosi się do przewozu podlegającego odpowiednim pełnym wymaganiom ADR; zwolnienia, szczególne warunki i treść sprostowania wymagają osobnego sprawdzenia. Nie oznaczać jako verified.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0507",
+        "module_id": "ADR-B-06",
+        "stem": "Kierowca przed odjazdem zauważa, że na numerowanej tablicy pomarańczowej górne pole zawiera „1203”, a dolne „33”. Dokument przewozowy wskazuje numer UN 1203. Co powinien wyjaśnić przed rozpoczęciem przewozu?",
+        "options": {
+          "A": "Czy numer UN 1203 może pozostać w górnym polu, jeżeli jest czytelny.",
+          "B": "Czy pozycje numeru UN i numeru rozpoznawczego zagrożenia nie zostały zamienione.",
+          "C": "Czy rozdzielająca pola pozioma linia nie powinna zostać zastąpiona pionową."
+        },
+        "correct_option": "B",
+        "explanation": "ADR 2025, 5.3.2.2.2 wymaga podania numeru rozpoznawczego zagrożenia w górnej części tablicy, a numeru UN w dolnej. Przed odjazdem należy doprowadzić wymagane oznakowanie do zgodności. Opcje A i C nie odpowiadają układowi określonemu w tym ustępie.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0508",
+      "order": 508,
+      "clause": "5.4.1.1.1(a)",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawne: 5.4.1.1.1(a) wymaga liter UN przed numerem identyfikacyjnym."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Błędne: kod tunelowy ma odrębne znaczenie, nie zastępuje liter UN przed numerem."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Błędne: numer rejestracyjny pojazdu nie zastępuje numeru UN w opisie ładunku."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Sytuacja odnosi się do przewozu podlegającego odpowiednim pełnym wymaganiom ADR; zwolnienia, szczególne warunki i treść sprostowania wymagają osobnego sprawdzenia. Nie oznaczać jako verified.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0508",
+        "module_id": "ADR-B-13",
+        "stem": "Przed wyjazdem kierowca sprawdza dokument przewozowy dla benzyny. W polu identyfikacji zapisano „1203 BENZYNA”, bez liter „UN”. Jaką niezgodność powinien zgłosić do poprawy dokumentu?",
+        "options": {
+          "A": "W opisie towaru należy podać numer 1203 poprzedzony literami „UN”.",
+          "B": "Przed numerem 1203 należy zamiast tego umieścić kod tunelowy.",
+          "C": "Numer 1203 powinien zostać zastąpiony numerem tablicy rejestracyjnej."
+        },
+        "correct_option": "A",
+        "explanation": "ADR 2025, 5.4.1.1.1(a) wymaga podania numeru UN poprzedzonego literami „UN” w dokumencie przewozowym. Sam zapis „1203” nie odtwarza tego elementu prawidłowego opisu. Kod tunelowy ani numer rejestracyjny nie zastępują oznaczenia UN.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0509",
+      "order": 509,
+      "clause": "8.1.5.2",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Błędne: przenośne oświetlenie jest osobnym elementem, a nie zamiennikiem klina 8.1.5.2."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Błędne: 8.1.5.2 wymaga jednego klina dla każdego pojazdu, nie wyłącznie jednego na cały zestaw."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Poprawne: każdy pojazd ma mieć klin dobrany do jego maksymalnej masy i średnicy koła."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Sytuacja odnosi się do przewozu podlegającego odpowiednim pełnym wymaganiom ADR; zwolnienia, szczególne warunki i treść sprostowania wymagają osobnego sprawdzenia. Nie oznaczać jako verified.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0509",
+        "module_id": "ADR-B-08",
+        "stem": "Przed wyjazdem zestaw ADR składa się z samochodu ciężarowego i przyczepy. Na wyposażeniu jest jeden klin pod koło, dobrany do samochodu. Co powinien sprawdzić kierowca przy kompletowaniu wyposażenia obu pojazdów?",
+        "options": {
+          "A": "Czy klin można zastąpić drugim przenośnym źródłem światła dla załogi.",
+          "B": "Czy wystarczy jeden klin dla całej jednostki, skoro oba pojazdy są połączone.",
+          "C": "Czy zapewniono klin odpowiedni do masy i średnicy koła każdego z pojazdów."
+        },
+        "correct_option": "C",
+        "explanation": "ADR 2025, 8.1.5.2 wymaga dla każdego pojazdu jednostki transportowej klina odpowiedniego do maksymalnej masy pojazdu i średnicy jego koła. Jeden klin dla samochodu nie spełnia sam przez się obowiązku wyposażenia przyczepy. Oświetlenie załogi jest odrębnym elementem wyposażenia.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
