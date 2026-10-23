@@ -87,3 +87,68 @@ W `review/batches/001-040-remaining-comparison.json` opisano wszystkie odpowiedz
 | ADR-B-0036 | 1.10.2.2 szkolenie z zagrożeń ochrony i reakcji | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
 | ADR-B-0037 | 5.4.1.1.1(a) zapis UN z czterocyfrowym numerem | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
 | ADR-B-0038 | 5.4.1.1.1(b) prawidłowa nazwa przewozowa | wstępnie spójne, pełna kontrola wyjątków do specjalisty |
+
+## Stan autentycznej kontroli ISAP/ELI — 23.10.2026 (PR z próbą otwarcia plików)
+
+### Wynik dostępu do autentycznego tekstu
+
+**Zablokowane:** strona ISAP wymaga sprawdzenia człowieka (Human Verification). Strona metadanych ELI pokazuje 54 urzędowe pliki, ale odczyt plików i sprostowania zakończył się błędem pobrania/timeoutem. Konkretne próby:
+
+- ISAP https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000642 — blokada Human Verification, bez odczytu PDF
+- ELI https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-01.pdf — 400 Timeout
+- ELI https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-02.pdf — 400 Timeout
+- ELI https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-03.pdf — 400 Timeout
+- ELI https://eli.gov.pl/api/acts/DU/2025/1575/text/O/D20251575.pdf — 400 Timeout
+- Dziennik Ustaw https://dziennikustaw.gov.pl/D2025000064214.pdf — 400 Timeout
+- Wykaz urzędowy i nazwane 54 części otwierają się jako strona metadanych: https://eli.gov.pl/eli/DU/2025/642/ogl/pol
+
+W związku z tym **0/40 cytatów autentycznego Dz.U.** zostało uzyskanych; cytowanie z pamięci lub zamiana cytatu z MI na cytat Dz.U. byłaby nieprawidłowa. Żaden z 40 przypadków nie może otrzymać w tej próbie końcowego werdyktu „zgodne”, „poprawione” ani poświadczonego rozstrzygnięcia wyjątków. Stosujemy jawny wynik **wątpliwe — źródło urzędowe niedostępne**. Wcześniejsze porównania z pomocniczą wersją MI pozostają w historycznych aneksach, ale NIE są potwierdzeniem literalnym. Nie dopisywano nowych pytań ani nie zmieniano kluczy.
+
+### Każdy rekord 0001–0040
+
+Szczegółowy stan dla 120 opcji A/B/C i 40 wyjaśnień: `review/batches/001-040-official-source-access.json`. Dla każdego rekordu przechowujemy odwołanie do ustępu oraz jawną nieobecność cytatu/strony PDF.
+
+| ID | Wskazany przepis | Wynik cytatu autentycznego Dz.U. | Werdykt |
+|---|---|---|---|
+| ADR-B-0001 | /A/D/R/ /2/0/2/5/,/ /1/./3/./2/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0002 | /A/D/R/ /2/0/2/5/,/ /1/./1/./3/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0003 | /A/D/R/ /2/0/2/5/,/ /8/./2/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0004 | /A/D/R/ /2/0/2/5/,/ /2/./2/./3/./1/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0005 | /A/D/R/ /2/0/2/5/,/ /2/./2/./8/./1/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0006 | /A/D/R/ /2/0/2/5/,/ /2/./2/./4/3/./1/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0007 | /A/D/R/ /2/0/2/5/,/ /5/./2/./1/./8/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0008 | /A/D/R/ /2/0/2/5/,/ /5/./4/./1/./1/./3/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0009 | /A/D/R/ /2/0/2/5/,/ /7/./5/./8/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0010 | /A/D/R/ /2/0/2/5/,/ /8/./3/./5/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0011 | /A/D/R/ /2/0/2/5/,/ /8/./3/./3/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0012 | /A/D/R/ /2/0/2/5/,/ /8/./3/./6/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0013 | /A/D/R/ /2/0/2/5/,/ /5/./4/./3/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0014 | /A/D/R/ /2/0/2/5/,/ /5/./4/./3/./3/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0015 | /A/D/R/ /2/0/2/5/,/ /8/./1/./4/./5/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0016 | /A/D/R/ /2/0/2/5/,/ /5/./3/./2/./2/./2/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0017 | /A/D/R/ /2/0/2/5/,/ /5/./3/./2/./3/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0018 | /A/D/R/ /2/0/2/5/,/ /5/./3/./2/./2/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0019 | /A/D/R/ /2/0/2/5/,/ /1/./4/./2/./2/./6/;/ /5/./4/./3/./2/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0020 | /A/D/R/ /2/0/2/5/,/ /1/./4/./3/./1/./1/ /(/b/)/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0021 | /A/D/R/ /2/0/2/5/,/ /1/./4/./2/./1/./1/ /(/a/)/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0022 | /A/D/R/ /2/0/2/5/,/ /8/./1/./4/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0023 | /A/D/R/ /2/0/2/5/,/ /8/./1/./5/./2/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0024 | /A/D/R/ /2/0/2/5/,/ /8/./1/./5/./2/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0025 | /A/D/R/ /2/0/2/5/,/ /7/./5/./2/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0026 | /A/D/R/ /2/0/2/5/,/ /7/./5/./7/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0027 | /A/D/R/ /2/0/2/5/,/ /7/./5/./4/;/ /7/./5/./1/1/ /C/V/2/8/;/ /t/a/b/e/l/a/ /A/ /k/o/l/u/m/n/a/ /(/1/8/)/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0028 | /A/D/R/ /2/0/2/5/,/ /1/./1/./4/./2/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0029 | /A/D/R/ /2/0/2/5/,/ /1/./1/./4/./2/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0030 | /A/D/R/ /2/0/2/5/,/ /1/./1/./4/./2/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0031 | /A/D/R/ /2/0/2/5/,/ /1/./9/./5/./2/./2/;/ /8/./6/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0032 | /A/D/R/ /2/0/2/5/,/ /8/./6/./4/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0033 | /A/D/R/ /2/0/2/5/,/ /8/./6/./4/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0034 | /A/D/R/ /2/0/2/5/,/ /1/./1/0/./1/./4/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0035 | /A/D/R/ /2/0/2/5/,/ /1/./1/0/./1/./3/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0036 | /A/D/R/ /2/0/2/5/,/ /1/./1/0/./2/./2/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0037 | /A/D/R/ /2/0/2/5/,/ /5/./4/./1/./1/./1/ /(/a/)/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0038 | /A/D/R/ /2/0/2/5/,/ /5/./4/./1/./1/./1/ /(/b/)/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0039 | /A/D/R/ /2/0/2/5/,/ /5/./4/./3/./4/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+| ADR-B-0040 | /A/D/R/ /2/0/2/5/,/ /1/./3/./1/ | brak — plik nieotwarty | wątpliwe: brak źródła do porównania literalnego |
+
+**Bramka:** 324 potrzeby recenzji (`needs_review`), zero `verified`, eksport `BLOCKED`. Jakościowe PASS CI nie jest prawnym PASS. Po uzyskaniu kopii autentycznych PDF należy wrócić do 001–040 i uzupełnić dosłowny krótki cytat, numer pliku, stronę oraz wyjątki, przed przejściem do opiniowania zgodności.
