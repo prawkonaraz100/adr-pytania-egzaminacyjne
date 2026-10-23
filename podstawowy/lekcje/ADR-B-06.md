@@ -53,3 +53,7 @@ Na przykładowej pomarańczowej tablicy z górnym numerem 88 uczeń wyjaśnia, �
 **Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
 
 **Punkty do porównania z urzędową publikacją:** ADR 5.3.2.3.1, 5.2.2; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.
+
+## Tekstowe rozpoznawanie tablic — 0255–0258 (do recenzji)
+
+Pytania 0255–0258 opisują słowami górne i dolne pole tablicy, literę X, podział poziomy oraz standardowe wymiary. W klasie kursant powinien zobaczyć prawidłowe, własne schematy, zanim materiał zostanie zatwierdzony. Punkty ADR 5.3.2.2.1–2 i 5.3.2.3.1. Bez potwierdzenia eksperta pytania nie są dopuszczone do wydania.
