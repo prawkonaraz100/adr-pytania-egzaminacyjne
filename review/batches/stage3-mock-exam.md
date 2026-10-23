@@ -1,0 +1,3 @@
+# Etap 3 — bezpieczny egzamin próbny (23.10.2026)
+
+Przygotowano wewnętrzny generator 30 unikalnych pytań `scripts/mock_exam.py`, używający istniejącej bramki `release_gate.eligible()`, z domyślnymi ustawieniami roboczymi i fail-closed. Bank na main: 506 needs_review/0 verified; zatem obecnie egzamin nie może zostać wygenerowany z autorskiego banku ani opublikowany. Testy syntetyczne w katalogach tymczasowych badają blokady i reprezentację 13 działów; nie zapisują żadnych fikcyjnych approvals w repo. Dokumentacja w docs/EGZAMIN-PROBNY.md. Źródła: istniejąca polityka review/README.md i program Dz.U. 2021 poz. 2150. PR wymaga pełnego PASS CI.
