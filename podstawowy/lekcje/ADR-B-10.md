@@ -50,3 +50,13 @@ Pytania: `ADR-B-0028`–`0030`, `0061`–`0062`, `0119`, `0140`–`0142`.
 - [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
 - [Sprostowanie — Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
 - [Program kursu — Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
+
+## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
+
+**Sytuacja:** Przewóz towaru ADR obejmuje odcinek drogowy i morski.
+
+**Ćwiczenie:** Sprawdź szczególne warunki przewozu, dodatkowy zapis i kompletność dokumentacji. Kursant wyjaśnia samodzielnie warunki i ograniczenia, zamiast zapamiętywać literę odpowiedzi.
+
+**Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
+
+**Podstawa do weryfikacji:** ADR 1.1.4.2.1, 5.4.1.1.7; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
