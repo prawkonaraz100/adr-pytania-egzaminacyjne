@@ -18,7 +18,7 @@
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawne: zamiana numeru zagrożenia z numerem UN narusza układ obu pól w 5.3.2.2.2."
+          "rationale": "ADR 2025, 5.3.2.2.2 wymaga podania numeru rozpoznawczego zagrożenia w górnej części tablicy, a numeru UN w dolnej. Przed odjazdem należy doprowadzić wymagane oznakowanie do zgodności. Opcje A i C nie odpowiadają układowi określonemu w tym ustępie."
         },
         "C": {
           "expected_correct": false,
@@ -26,7 +26,7 @@
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Sytuacja odnosi się do przewozu podlegającego odpowiednim pełnym wymaganiom ADR; zwolnienia, szczególne warunki i treść sprostowania wymagają osobnego sprawdzenia. Nie oznaczać jako verified.",
+      "notes_on_conditions": "Sytuacja odnosi się do przewozu podlegającego odpowiednim pełnym wymaganiom ADR; zwolnienia, szczególne warunki i treść sprostowania wymagają osobnego sprawdzenia. Nie oznaczać jako verified. Etap 4m: redakcyjna korekta długości bez zmiany klucza i podstawy.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -37,7 +37,7 @@
         "stem": "Kierowca przed odjazdem zauważa, że na numerowanej tablicy pomarańczowej górne pole zawiera „1203”, a dolne „33”. Dokument przewozowy wskazuje numer UN 1203. Co powinien wyjaśnić przed rozpoczęciem przewozu?",
         "options": {
           "A": "Czy numer UN 1203 może pozostać w górnym polu, jeżeli jest czytelny.",
-          "B": "Czy pozycje numeru UN i numeru rozpoznawczego zagrożenia nie zostały zamienione.",
+          "B": "Czy zamieniono miejscami numery UN i zagrożenia.",
           "C": "Czy rozdzielająca pola pozioma linia nie powinna zostać zastąpiona pionową."
         },
         "correct_option": "B",
