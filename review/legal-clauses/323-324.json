@@ -50,48 +50,49 @@
     {
       "id": "ADR-B-0324",
       "order": 324,
-      "clause": "ADR 2025, 7.5.2.1 (tabela i uwagi)",
-      "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
+      "clause": "ADR 2025, 7.5.2.1 (tabela: 5.2 + 1 z 5.2)",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępna ocena spójna z ADR 2025, 7.5.2.1 (tabela i uwagi): ADR 7.5.2.1 wymaga oceny dopuszczalności wspólnego załadunku na podstawie nalepek i tabeli, wraz z uwagami i wyjątkami. Inne obowiązki załadunkowe pozostają."
+          "rationale": "W tabeli ADR 7.5.2.1 połączenie sztuki z nalepkami 5.2 + 1 i sztuki z nalepką 5.2 jest wskazane jako dozwolone. „5.2 + 1” oznacza dwie nalepki na tej samej sztuce przesyłki, a nie dwie palety. Nadal należy sprawdzić pozostałe wymogi."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B (Tylko łączną masę palet, bo nalepki nie mają znaczenia) pomija wymagany sposób oceny wynikający z ADR 2025, 7.5.2.1 (tabela i uwagi). Pełne indywidualne porównanie polskiego przepisu pozostaje otwarte."
+          "rationale": "Błędna odpowiedź: „Nie, każda dodatkowa nalepka 1 bezwarunkowo zakazuje załadunku z klasą 5.2”. Stan opisany w pytaniu wymaga działania z ADR 2025, 7.5.2.1 (tabela: 5.2 + 1 z 5.2), a nie tego wariantu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C (Wyłącznie to, czy obie sztuki mają taki sam kolor kartonu) pomija wymagany sposób oceny wynikający z ADR 2025, 7.5.2.1 (tabela i uwagi). Pełne indywidualne porównanie polskiego przepisu pozostaje otwarte."
+          "rationale": "Błędna odpowiedź: „O dopuszczeniu decyduje wyłącznie jednakowy kolor kartonów”. Ten wariant nie spełnia warunków ADR 2025, 7.5.2.1 (tabela: 5.2 + 1 z 5.2) dla opisanej sytuacji."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wszystkie wartości i szczególne ograniczenia wymagają osobnego sprawdzenia; nie jest to zatwierdzenie eksperta.",
+      "notes_on_conditions": "Różnicowanie potwierdzonej semantycznej zbieżności: Zamiast ogólnego pytania o wybór tabeli (0025) sprawdza konkretną komórkę tabeli i znaczenie oznaczenia złożonego. Brak pełnego polskiego porównania i zatwierdzenia specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0324",
         "module_id": "ADR-B-09",
-        "stem": "Przed wspólnym załadunkiem do jednego pojazdu sztuk przesyłek z różnymi nalepkami ostrzegawczymi, co należy sprawdzić zgodnie z ADR 7.5.2.1?",
+        "stem": "Jedna sztuka przesyłki ADR ma jednocześnie nalepki 5.2 i 1 (oznaczenie „5.2 + 1”), a druga ma wyłącznie nalepkę 5.2. Czy tabela 7.5.2.1 dopuszcza ich wspólny załadunek na podstawie tych nalepek?",
         "options": {
-          "A": "Tabelę zakazów ładowania razem, uwzględniając wyjątki i odpowiednie nalepki",
-          "B": "Tylko łączną masę palet, bo nalepki nie mają znaczenia",
-          "C": "Wyłącznie to, czy obie sztuki mają taki sam kolor kartonu"
+          "A": "Tak, w tabeli dla przecięcia 5.2 + 1 z 5.2 przewidziano dopuszczenie, z zachowaniem pozostałych warunków ADR",
+          "B": "Nie, każda dodatkowa nalepka 1 bezwarunkowo zakazuje załadunku z klasą 5.2",
+          "C": "O dopuszczeniu decyduje wyłącznie jednakowy kolor kartonów"
         },
         "correct_option": "A",
-        "explanation": "ADR 7.5.2.1 wymaga oceny dopuszczalności wspólnego załadunku na podstawie nalepek i tabeli, wraz z uwagami i wyjątkami. Inne obowiązki załadunkowe pozostają.",
+        "explanation": "W tabeli ADR 7.5.2.1 połączenie sztuki z nalepkami 5.2 + 1 i sztuki z nalepką 5.2 jest wskazane jako dozwolone. „5.2 + 1” oznacza dwie nalepki na tej samej sztuce przesyłki, a nie dwie palety. Nadal należy sprawdzić pozostałe wymogi.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1 (tabela i uwagi)",
+            "reference": "ADR 2025, 7.5.2.1 (tabela: 5.2 + 1 z 5.2)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "editorial_result": "preliminary_after_semantic_diversification_needs_review"
     }
   ]
 }
