@@ -94,3 +94,38 @@ Scenariusze: [SCENARIUSZE.md](../podstawowy/praktyka/SCENARIUSZE.md). Trzy wymag
 - [Egzaminy ADR (Dz.U. 2024 poz. 964)](https://eli.gov.pl/api/acts/DU/2024/964/text.html)
 - [ADR 2025 ogłoszone w Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
 - [Sprostowanie Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
+
+## Etap 2 — analiza rzeczywistej głębokości (23.10.2026, po kartach 0001–0216)
+
+**Analiza na podstawie rzeczywistych plików** `podstawowy/questions.jsonl`, `podstawowy/kompetencje.json` oraz roboczych celów redakcyjnych z `PROGRAM-PODSTAWOWY.md`. Dotychczasowe 216 kart w `review/legal-detail/` to **wstępne przeglądy oparte na wcześniejszych analizach, a nie pełna weryfikacja polskich przepisów**.
+
+**Wynik:** 216 pytań, wszystkie `needs_review`; **103/103** celów teorii ma minimum dwa robocze szkice, ale **96/103 ma dokładnie dwa**, tylko **7/103 trzy lub więcej**. Brak pytania w sensie liczbowym dla któregoś z tych 103 celów: **0**. Praktyka: trzy cele wymagające wykonania ćwiczeń, nie quizu. Pola `image` z niepustą wartością: **0/216**. Kwoty do 400 pozostają wyłącznie planem redakcyjnym, nie nakazem prawa.
+
+| Dział | Pytania teraz | Cele teorii | Cele z dokładnie 2 pytaniami | Orientacyjny cel projektu | Różnica do celu* |
+|---|---:|---:|---:|---:|---:|
+| ADR-B-01 | 14 | 7 | 6 | 30 | 16 |
+| ADR-B-02 | 28 | 14 | 14 | 40 | 12 |
+| ADR-B-03 | 12 | 6 | 6 | 20 | 8 |
+| ADR-B-04 | 12 | 6 | 6 | 25 | 13 |
+| ADR-B-05 | 26 | 12 | 11 | 35 | 9 |
+| ADR-B-06 | 18 | 9 | 9 | 45 | 27 |
+| ADR-B-07 | 13 | 6 | 5 | 35 | 22 |
+| ADR-B-08 | 17 | 8 | 7 | 40 | 23 |
+| ADR-B-09 | 19 | 9 | 8 | 45 | 26 |
+| ADR-B-10 | 13 | 5 | 4 | 15 | 2 |
+| ADR-B-11 | 16 | 7 | 6 | 25 | 9 |
+| ADR-B-12 | 12 | 6 | 6 | 20 | 8 |
+| ADR-B-13 | 16 | 8 | 8 | 25 | 9 |
+| **Razem** | **216** | **103** | **96** | **400** | **184** |
+
+*Różnica do planistycznego celu 400 nie jest liczbą brakujących urzędowych zagadnień ani poleceniem mechanicznego dopisania 184 rekordów. Należy rozszerzać bank dopiero po wyborze konkretnych braków umiejętności: wykorzystanie prawa w scenariuszu, dokumenty i oznakowanie, decyzja kierowcy w warunkach wyjątków, rozróżnianie podobnych pojęć; ograniczać parafrazy pytań istniejących.*
+
+### Priorytet redakcyjny po kontroli 13 działów
+
+1. **ADR-B-06 i ADR-B-02:** brak grafik; przygotować własne schematy nalepek, tablic i sytuacyjne rozpoznawanie oznakowania. Zanim dodamy pytania obrazkowe, zweryfikować autentyczność znaku i prawa do grafiki.
+2. **ADR-B-08, ADR-B-09, ADR-B-11 i ADR-B-13:** ćwiczenia rozpoznawania wyposażenia, kontroli przed załadunkiem, kodów tuneli i interpretacji dokumentu z granicznymi warunkami.
+3. **ADR-B-01, ADR-B-03, ADR-B-10, ADR-B-12:** wyjątki, odpady, przewóz kombinowany i ochrona przed nadużyciem; kontrolować warunki stosowania 1.1.3, 1.10 oraz właściwych punktów, zanim ustali się klucz.
+4. **ADR-B-05:** przejść od pytań pamięciowych do bezpiecznych scenariuszy wypadkowych, zachowując niezastępowalność rzeczywistych trzech ćwiczeń.
+5. **ADR-B-04 i ADR-B-07:** scenariusze decyzji kierowcy i odróżniania obowiązków uczestników.
+
+**Zależność przed dopisywaniem**: każde nowe pytanie wymaga własnego źródła, wariantów A/B/C, jednoznaczności, odrębnego sprawdzenia wyjątku i odniesienia do kompetencji; istniejący skrypt `check_legal_clause_review.py` ma aktualnie zakres 216 i przy rozbudowie należy go rozszerzyć razem z audytem oraz testami, a nie wyłączać. Nie podnosić `verified` i nie eksportować banku przed podpisaną fachową recenzją. Żadnych pytań z kursu cystern.
