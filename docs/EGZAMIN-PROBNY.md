@@ -1,6 +1,6 @@
 # Egzamin próbny ADR podstawowego — tryb wewnętrzny, bez publikacji
 
-**Stan 23.10.2026:** 506 pytań `needs_review`, **0 zatwierdzonych**. System świadomie **odmawia wygenerowania prawdziwego arkusza z banku**. Nie ma publicznego testu, nie utworzono żadnego pliku z niezatwierdzonymi pytaniami do dystrybucji.
+**Stan 23.10.2026:** 542 pytania `needs_review`, **0 zatwierdzonych**. System świadomie **odmawia wygenerowania prawdziwego arkusza z banku**. Nie ma publicznego testu, nie utworzono żadnego pliku z niezatwierdzonymi pytaniami do dystrybucji.
 
 ## Tryb roboczy
 
@@ -26,3 +26,10 @@ Plik jest wyłącznie **wewnętrzny**. Zawiera pytania i klucz odpowiedzi w polu
 - utworzenie wewnętrznego arkusza tylko po przejściu tej samej kontroli dowodów co `release_gate.py`.
 
 Wszystkie rekordy banku pozostają `needs_review`. Żaden test syntetyczny nie stanowi rzeczywistej akceptacji specjalisty ADR.
+
+
+## Aktualizacja etapu 4l — ADR-B-0520–0542 i grafiki SVG
+
+Bieżący bank zawiera **542 pytania**, wszystkie `needs_review`. Mimo dodania autorskich rysunków SVG generator **nie produkuje** egzaminu z niezatwierdzonych treści. Wewnętrzny egzamin może zawierać opcjonalną ścieżkę `image` dopiero po przejściu istniejącej `release_gate.eligible()` i potwierdzeniu istnienia pliku SVG w `assets/`. Jeśli wybrany zatwierdzony rekord ma nieistniejący lub niebezpieczny plik, generowanie kończy się bez zapisu. Wynik wewnętrzny zawiera `source_bank_sha256`, pozwalający zidentyfikować bajtową wersję źródłowego banku, a nie zatwierdzenie prawne. Klucz `answer_key_internal_only` nie nadaje się do umieszczania w ogólnodostępnym frontendzie.
+
+Specjalista korzysta z `review/specialist/REJESTR-AKTUALNY-0001-0542.md` i rejestru otwartych porównań `review/legal-polish/stage4k-literal-verification-ledger-0001-0542.json`. Próby w `tests/test_mock_exam.py` są wyłącznie syntetyczne i nie podnoszą statusu żadnego rzeczywistego pytania. Ustawienia czasu i progu egzaminu są konfiguracyjnym szkicem, nie poświadczeniem obowiązujących urzędowych zasad.

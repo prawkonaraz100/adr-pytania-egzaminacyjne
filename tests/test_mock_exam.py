@@ -71,6 +71,27 @@ class MockExamTests(unittest.TestCase):
             data = json.loads(out.read_text(encoding="utf-8"))
             self.assertEqual(len(data["questions"]), 30)
             self.assertEqual(len(data["answer_key_internal_only"]), 30)
+            self.assertEqual(len(data["source_bank_sha256"]), 64)
+            self.assertTrue(all("image" in item for item in data["questions"]))
+
+    def test_missing_approved_svg_blocks_export(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            (root / "review" / "reports").mkdir(parents=True)
+            rows = [make_record(n) for n in range(1, 40)]
+            approvals = []
+            for row in rows:
+                row["image"] = "assets/adr-original/missing-draft.svg"
+                path = f"review/reports/{row['id']}.md"
+                (root / path).write_text(f"# SYNTHETIC {row['id']}\n" + "Test only. " * 30, encoding="utf-8")
+                approvals.append({"id": row["id"], "content_sha256": content_sha256(row),
+                    "reviewer": row["reviewer"], "checked_at": row["checked_at"], "evidence_path": path})
+            qf, af, output = root / "questions.jsonl", root / "approvals.jsonl", root / "mock.json"
+            qf.write_text("".join(json.dumps(row) + "\n" for row in rows), encoding="utf-8")
+            af.write_text("".join(json.dumps(row) + "\n" for row in approvals), encoding="utf-8")
+            self.assertEqual(run(["--questions", str(qf), "--approvals", str(af),
+                "--root", str(root), "--output", str(output)]), 1)
+            self.assertFalse(output.exists())
 
 
 if __name__=="__main__":
