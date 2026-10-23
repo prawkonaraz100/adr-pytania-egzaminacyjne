@@ -1,0 +1,3 @@
+# ADR-B-12 — ryzyko i progi tabeli 1.10.3.1.2 (0455–0460)
+
+W banku na main były 454 pytania, w ADR-B-12 36, koncentrujących się na 1.10.1, 1.10.2 oraz planie 1.10.3.2. W tej partii dodano 6 scenariuszy o samej kwalifikacji towarów dużego ryzyka: odrębne kolumny cysterny/luzem/sztuki, przypisy a/b, próg 0 oraz nieautomatyczne objęcie klasy 3. 18 osobnych komentarzy A/B/C. Przepisy porównane z tekstem ADR 2025 UNECE EN i pomocniczą reprodukcją; pełny indywidualny audyt polskiego Dz.U. poz. 642 i sprostowania poz. 1575 oraz zatwierdzenie specjalisty nadal otwarte. Wszystkie `needs_review`, 0 `verified`. Nie zastępuje kursu specjalistycznego. Quality Gate do potwierdzenia.
