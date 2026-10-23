@@ -45,4 +45,4 @@
 | ADR-B-0039 | ADR 2025, 5.4.3.4 | B | pending | pending | needs_review |
 | ADR-B-0040 | ADR 2025, 1.3.1 | B | pending | pending | needs_review |
 
-Pełny indywidualny zapis tekstów 120 wariantów i 40 objaśnień: `review/legal-clauses/001-040-literal-status.json`. Nie poprawiono kluczy, nie wykonano automatycznej zmiany terminologii, nie dodano numeru 0325 — bez pełnego odczytu podstawy i zastosowania sprostowania nie wolno twierdzić, że poprawkę prawnie potwierdzono. Wszystkie 324 nadal `needs_review`, 0 `verified`, eksport BLOCKED.
+Pełne teksty 120 wariantów i 40 objaśnień są w `podstawowy/questions.jsonl`; dotychczasowe audyty w `review/legal-clauses/001-030.json` i kolejnych plikach. Oddzielny rejestr o niewłaściwym schemacie usunięto, aby nie zafałszować obowiązującego Quality Gate. Nie poprawiono kluczy, nie wykonano automatycznej zmiany terminologii, nie dodano numeru 0325 — bez pełnego odczytu podstawy i zastosowania sprostowania nie wolno twierdzić, że poprawkę prawnie potwierdzono. Wszystkie 324 nadal `needs_review`, 0 `verified`, eksport BLOCKED.
