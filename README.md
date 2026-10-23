@@ -49,9 +49,10 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [Scenariusze ćwiczeń praktycznych](podstawowy/praktyka/SCENARIUSZE.md)
 - [Matryca kompetencji JSON](podstawowy/kompetencje.json)
 
-## Szczegółowa kontrola odpowiedzi A/B/C — pytania 0001–0120
+## Szczegółowa analiza redakcyjna A/B/C — cała baza 0001–0216
 
-- [Raport 001–060](review/legal-clauses/RAPORT-001-060.md), [061–090](review/legal-clauses/RAPORT-061-090.md) i [091–120](review/legal-clauses/RAPORT-091-120.md). Łącznie **120 pytań oraz 360 uzasadnień A/B/C** w czterech plikach JSON; [ostatnia partia](review/legal-clauses/091-120.json).
+- Raporty: [001–060](review/legal-clauses/RAPORT-001-060.md), [061–090](review/legal-clauses/RAPORT-061-090.md), [091–120](review/legal-clauses/RAPORT-091-120.md), [121–216](review/legal-clauses/RAPORT-121-216.md). **216 pytań / 648 indywidualnych uzasadnień A/B/C** w ośmiu plikach JSON.
+- `python scripts/check_legal_clause_review.py` wymaga kompletności analizy całych 216 pytań, ale **nie poświadcza poprawności prawa, dokładnego polskiego tekstu ani kwalifikacji specjalisty**. 0 pytań ekspercko zatwierdzonych.
 - Poprawiono pytania `0009`, `0019`, `0027`, `0031`, `0033`, `0043`.
 - `python scripts/check_legal_clause_review.py` wykrywa brak oceny wariantu lub nieaktualny zapis po edycji pytania.
 - To porównanie redakcyjno-źródłowe, **nie dosłowny odbiór pełnego tekstu polskiego i nie zatwierdzenie eksperta**. Nadal 216 `needs_review` / 0 `verified`.
