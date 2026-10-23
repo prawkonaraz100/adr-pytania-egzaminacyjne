@@ -1,0 +1,957 @@
+{
+  "scope": "34 individual MI-based semantic comparisons, not final DzU literal certification",
+  "records": [
+    {
+      "id": "ADR-B-0042",
+      "stem": "Do której klasy ADR zalicza się gazy?",
+      "reference": [
+        "ADR 2025, 2.2.2.1.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Klasy 8",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "2.2.2.1.1 klasa 2 obejmuje gazy"
+        },
+        "B": {
+          "answer": "Klasy 2",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "2.2.2.1.1 klasa 2 obejmuje gazy"
+        },
+        "C": {
+          "answer": "Klasy 3",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "2.2.2.1.1 klasa 2 obejmuje gazy"
+        }
+      },
+      "explanation": "Klasa 2 ADR obejmuje gazy. Szczegółowe podziały zależą od zagrożeń, takich jak palność, toksyczność i ciśnienie.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0043",
+      "stem": "Jaka klasa ADR dotyczy materiałów zakaźnych?",
+      "reference": [
+        "ADR 2025, 2.2.62.1.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Klasa 4.2",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "2.2.62.1.1 klasa 6.2 obejmuje materiały zakaźne"
+        },
+        "B": {
+          "answer": "Klasa 6.2",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "2.2.62.1.1 klasa 6.2 obejmuje materiały zakaźne"
+        },
+        "C": {
+          "answer": "Klasa 6.1 (materiały trujące)",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "2.2.62.1.1 klasa 6.2 obejmuje materiały zakaźne"
+        }
+      },
+      "explanation": "Materiały zakaźne należą do klasy 6.2. Klasa 6.1 dotyczy materiałów trujących i nie jest zamiennym oznaczeniem zagrożenia zakaźnego.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0044",
+      "stem": "Co jest głównym zagrożeniem materiałów klasy 5.1?",
+      "reference": [
+        "ADR 2025, 2.2.51.1.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Właściwości utleniające, mogące nasilać pożar",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "2.2.51.1.1 klasa 5.1 obejmuje materiały utleniające"
+        },
+        "B": {
+          "answer": "Radioaktywność",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "2.2.51.1.1 klasa 5.1 obejmuje materiały utleniające"
+        },
+        "C": {
+          "answer": "Zawsze silna żrącość",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "2.2.51.1.1 klasa 5.1 obejmuje materiały utleniające"
+        }
+      },
+      "explanation": "Materiały utleniające mogą ułatwiać spalanie innych substancji, nawet jeśli same nie są materiałami palnymi.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0045",
+      "stem": "Jak postąpić ze znakiem dla materiału zagrażającego środowisku na sztuce przesyłki, gdy przepisy ADR wymagają takiego znaku?",
+      "reference": [
+        "ADR 2025, 5.2.1.8"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Zastąpić go dodatkowym wpisem w dokumencie przewozowym",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.2.1.8 znak zagrożenia dla środowiska, jeśli jest wymagany"
+        },
+        "B": {
+          "answer": "Zamiast niego umieścić nalepkę klasy 9",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.2.1.8 znak zagrożenia dla środowiska, jeśli jest wymagany"
+        },
+        "C": {
+          "answer": "Umieścić go zgodnie z zasadami znakowania",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "5.2.1.8 znak zagrożenia dla środowiska, jeśli jest wymagany"
+        }
+      },
+      "explanation": "Jeżeli towar i sposób przewozu spełniają warunki wymagające znaku dla środowiska, odpowiedni znak umieszcza się na sztuce przesyłki.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0046",
+      "stem": "Czy przy przewozie odpadów niebezpiecznych słowo „ODPAD” zastępuje numer UN w dokumencie ADR?",
+      "reference": [
+        "ADR 2025, 5.4.1.1.1 (a); 5.4.1.1.3.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Tak, zawsze",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.1.1.1(a) i 5.4.1.1.3.1 ODPAD nie zastępuje numeru UN"
+        },
+        "B": {
+          "answer": "Nie, numer UN nadal jest wymagany, jeśli właściwe przepisy wymagają dokumentu ADR",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "5.4.1.1.1(a) i 5.4.1.1.3.1 ODPAD nie zastępuje numeru UN"
+        },
+        "C": {
+          "answer": "Tak, jeśli odpad jest zapakowany w opakowanie certyfikowane UN",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.1.1.1(a) i 5.4.1.1.3.1 ODPAD nie zastępuje numeru UN"
+        }
+      },
+      "explanation": "W standardowym dokumencie ADR numer UN pozostaje wymagany; informacja o odpadzie uzupełnia prawidłowy opis zgodnie z przepisami i wyjątkami.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0049",
+      "stem": "Kiedy załoga powinna zapoznać się z pisemnymi instrukcjami ADR dotyczącymi postępowania w razie wypadku?",
+      "reference": [
+        "ADR 2025, 5.4.3.3"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Przed rozpoczęciem przewozu",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "5.4.3.3 załoga poznaje instrukcje i zagrożenia przed rozpoczęciem przewozu"
+        },
+        "B": {
+          "answer": "Dopiero gdy zacznie się wyciek",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.3.3 załoga poznaje instrukcje i zagrożenia przed rozpoczęciem przewozu"
+        },
+        "C": {
+          "answer": "Po przekazaniu ładunku odbiorcy",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.3.3 załoga poznaje instrukcje i zagrożenia przed rozpoczęciem przewozu"
+        }
+      },
+      "explanation": "Przed ruszeniem kierowca powinien zapoznać się z instrukcjami i przewożonymi towarami, a nie szukać informacji dopiero podczas awarii.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0050",
+      "stem": "W jakim języku przewoźnik ma zapewnić załodze instrukcje pisemne ADR?",
+      "reference": [
+        "ADR 2025, 5.4.3.2"
+      ],
+      "variants": {
+        "A": {
+          "answer": "W dowolnym języku wybranym przez nadawcę, nawet niezrozumiałym dla kierowcy",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.3.2 instrukcje w języku czytanym i rozumianym przez członków załogi"
+        },
+        "B": {
+          "answer": "W języku zrozumiałym dla każdego członka załogi",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "5.4.3.2 instrukcje w języku czytanym i rozumianym przez członków załogi"
+        },
+        "C": {
+          "answer": "Wyłącznie po francusku",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.3.2 instrukcje w języku czytanym i rozumianym przez członków załogi"
+        }
+      },
+      "explanation": "Instrukcje muszą być przekazane członkom załogi w języku, który potrafią przeczytać i zrozumieć.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0051",
+      "stem": "Co oznacza powtórzenie cyfry w numerze rozpoznawczym zagrożenia na tablicy ADR?",
+      "reference": [
+        "ADR 2025, 5.3.2.3.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Nasilenie zagrożenia wyrażanego tą cyfrą",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "5.3.2.3.1 powtórzona cyfra intensyfikuje zagrożenie"
+        },
+        "B": {
+          "answer": "Oznacza dwa różne zagrożenia, niezależnie od znaczenia cyfr",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.3.2.3.1 powtórzona cyfra intensyfikuje zagrożenie"
+        },
+        "C": {
+          "answer": "Oznacza, że materiał nie wymaga innych nalepek ostrzegawczych",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.3.2.3.1 powtórzona cyfra intensyfikuje zagrożenie"
+        }
+      },
+      "explanation": "W numerach rozpoznawczych zagrożenia powtórzenie cyfry co do zasady podkreśla intensywność zagrożenia.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0052",
+      "stem": "Jaki jest podstawowy kolor tablicy ADR z numerem UN i numerem rozpoznawczym zagrożenia?",
+      "reference": [
+        "ADR 2025, 5.3.2.2.2"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Pomarańczowy z czarnymi oznaczeniami",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "5.3.2.2.2 tablica pomarańczowa z czarnymi oznaczeniami"
+        },
+        "B": {
+          "answer": "Żółty z czarnymi numerami",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.3.2.2.2 tablica pomarańczowa z czarnymi oznaczeniami"
+        },
+        "C": {
+          "answer": "Biały z czerwonymi numerami",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.3.2.2.2 tablica pomarańczowa z czarnymi oznaczeniami"
+        }
+      },
+      "explanation": "Standardowe tablice ADR są pomarańczowe, a cyfry, linie i obramowanie mają kolor czarny.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0053",
+      "stem": "Co może oznaczać numer rozpoznawczy zagrożenia rozpoczynający się od cyfry 8?",
+      "reference": [
+        "ADR 2025, 5.3.2.3.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Zagrożenie utleniające",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.3.2.3.1 cyfra 8 oznacza zagrożenie żrące"
+        },
+        "B": {
+          "answer": "Zagrożenie promieniotwórcze",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.3.2.3.1 cyfra 8 oznacza zagrożenie żrące"
+        },
+        "C": {
+          "answer": "Zagrożenie żrące",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "5.3.2.3.1 cyfra 8 oznacza zagrożenie żrące"
+        }
+      },
+      "explanation": "Cyfra 8 w numerze rozpoznawczym zagrożenia oznacza działanie żrące, ale cały numer trzeba interpretować łącznie.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0054",
+      "stem": "Czy załadowca może wydać przewoźnikowi uszkodzone opakowanie, z którego może wyciekać towar niebezpieczny?",
+      "reference": [
+        "ADR 2025, 1.4.3.1.1 (b)"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Tak, bez ograniczeń",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "1.4.3.1.1(b) załadowca nie może ładować uszkodzonej sztuki z wyciekiem"
+        },
+        "B": {
+          "answer": "Nie, dopóki uszkodzenie nie zostanie naprawione zgodnie z zasadami",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "1.4.3.1.1(b) załadowca nie może ładować uszkodzonej sztuki z wyciekiem"
+        },
+        "C": {
+          "answer": "Tak, pod warunkiem zasłonięcia wycieku taśmą",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "1.4.3.1.1(b) załadowca nie może ładować uszkodzonej sztuki z wyciekiem"
+        }
+      },
+      "explanation": "Załadowca powinien sprawdzić opakowania. Nie może przekazać uszkodzonej sztuki przesyłki z wyciekiem lub ryzykiem wycieku do czasu usunięcia uszkodzenia.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0055",
+      "stem": "Który uczestnik przewozu odpowiada m.in. za przekazanie przewoźnikowi informacji i danych wymaganych do przewozu ADR?",
+      "reference": [
+        "ADR 2025, 1.4.2.1.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Nadawca",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "1.4.2.1.1 nadawca przekazuje wymagane dane"
+        },
+        "B": {
+          "answer": "Przewoźnik, który sam określa dane bez informacji od nadawcy",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "1.4.2.1.1 nadawca przekazuje wymagane dane"
+        },
+        "C": {
+          "answer": "Odbiorca, który przygotowuje dane jeszcze przed nadaniem",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "1.4.2.1.1 nadawca przekazuje wymagane dane"
+        }
+      },
+      "explanation": "Nadawca powinien przekazać wymagane informacje o towarze. Obowiązki innych uczestników są odrębne.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0056",
+      "stem": "Jaki przedmiot służy do zabezpieczenia koła pojazdu przed niekontrolowanym przetoczeniem, jeżeli jest wymagany w ADR?",
+      "reference": [
+        "ADR 2025, 8.1.5.2"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Dwa wolnostojące znaki ostrzegawcze zamiast klina",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.5.2 klin pod koło na wymagany pojazd"
+        },
+        "B": {
+          "answer": "Pas zabezpieczający ładunek, założony na koło",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.5.2 klin pod koło na wymagany pojazd"
+        },
+        "C": {
+          "answer": "Klin pod koło",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.1.5.2 klin pod koło na wymagany pojazd"
+        }
+      },
+      "explanation": "Klin pod koło pomaga unieruchomić pojazd. Wymagania i dobór klina określa ADR.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0057",
+      "stem": "Czy podstawowy wykaz wyposażenia ADR wymaga dla załogi kamizelek ostrzegawczych?",
+      "reference": [
+        "ADR 2025, 8.1.5.2"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Tak, dla każdego członka załogi",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.1.5.2 kamizelka ostrzegawcza dla każdego członka załogi"
+        },
+        "B": {
+          "answer": "Wystarczy jedna kamizelka na całą jednostkę transportową",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.5.2 kamizelka ostrzegawcza dla każdego członka załogi"
+        },
+        "C": {
+          "answer": "Kamizelka jest wymagana tylko u kierowcy, a nie u pozostałych członków załogi",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.5.2 kamizelka ostrzegawcza dla każdego członka załogi"
+        }
+      },
+      "explanation": "Każdy członek załogi powinien mieć kamizelkę ostrzegawczą, jeżeli mają zastosowanie wymagania wyposażenia ADR.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0058",
+      "stem": "Na przesyłce ADR widnieją strzałki kierunkowe wskazujące górę. Jak należy ją ustawić?",
+      "reference": [
+        "ADR 2025, 7.5.1.5"
+      ],
+      "variants": {
+        "A": {
+          "answer": "W dowolnej pozycji, jeśli opakowanie jest zamknięte",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "7.5.1.5 strzałki kierunkowe wskazują wymagane ustawienie"
+        },
+        "B": {
+          "answer": "Przeciwnie do kierunku strzałek, aby obniżyć środek ciężkości",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "7.5.1.5 strzałki kierunkowe wskazują wymagane ustawienie"
+        },
+        "C": {
+          "answer": "Zgodnie ze strzałkami",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "7.5.1.5 strzałki kierunkowe wskazują wymagane ustawienie"
+        }
+      },
+      "explanation": "Jeśli wymagane są strzałki kierunkowe, sztuka przesyłki ma znajdować się w pozycji przez nie wskazanej.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0059",
+      "stem": "Czy wolno piętrzyć sztuki przesyłek ADR, których konstrukcja nie przewiduje piętrzenia?",
+      "reference": [
+        "ADR 2025, 7.5.7.2"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Tak, jeśli dolne opakowanie jest cięższe",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "7.5.7.2 zakaz piętrzenia opakowań nieprzeznaczonych do tego"
+        },
+        "B": {
+          "answer": "Nie",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "7.5.7.2 zakaz piętrzenia opakowań nieprzeznaczonych do tego"
+        },
+        "C": {
+          "answer": "Tak, jeśli wszystkie sztuki przesyłek są spięte jednym pasem",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "7.5.7.2 zakaz piętrzenia opakowań nieprzeznaczonych do tego"
+        }
+      },
+      "explanation": "Sztuk przesyłek nie należy układać jedna na drugiej, jeśli nie są do tego przeznaczone.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0060",
+      "stem": "Czy zbyt mocno zaciągnięty pas mocujący może naruszać wymagania ADR?",
+      "reference": [
+        "ADR 2025, 7.5.7.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Tak, jeżeli może uszkodzić lub zdeformować opakowanie",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "7.5.7.1 mocowanie nie może zniszczyć sztuk przesyłek"
+        },
+        "B": {
+          "answer": "Nie, pas zawsze trzeba zaciągnąć do granic możliwości",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "7.5.7.1 mocowanie nie może zniszczyć sztuk przesyłek"
+        },
+        "C": {
+          "answer": "Nie, jeśli ładunek jest lekki",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "7.5.7.1 mocowanie nie może zniszczyć sztuk przesyłek"
+        }
+      },
+      "explanation": "Mocowanie ma zabezpieczać przesyłkę, a nie ją niszczyć. Należy uniknąć nadmiernego naprężenia pasów.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0062",
+      "stem": "Dlaczego przy drogowym etapie transportu morskiego nie należy automatycznie usuwać oznakowania zagrożeń z kontenera?",
+      "reference": [
+        "ADR 2025, 1.1.4.2"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Bo oznakowanie powinno spełniać stosowne wymagania dla całego przewozu i jego etapów",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "1.1.4.2 warunkowe zachowanie oznakowania IMDG"
+        },
+        "B": {
+          "answer": "Ponieważ dokument przewozowy zawsze zastępuje oznakowanie",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "1.1.4.2 warunkowe zachowanie oznakowania IMDG"
+        },
+        "C": {
+          "answer": "Ponieważ oznakowanie IMDG zawsze jest identyczne z oznakowaniem ADR",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "1.1.4.2 warunkowe zachowanie oznakowania IMDG"
+        }
+      },
+      "explanation": "Przy przewozach łączonych trzeba sprawdzić szczególne zasady uznawania oznakowania IMDG oraz wymagania ADR na drodze.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0063",
+      "stem": "Gdzie w tabeli A ADR szuka się kodu ograniczeń tunelowych dla danego towaru?",
+      "reference": [
+        "ADR 2025, 8.6.3.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "W kolumnie 18",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.6.3.1 kod tunelowy w dolnej części kolumny 15 tabeli A"
+        },
+        "B": {
+          "answer": "W kolumnie 15",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.6.3.1 kod tunelowy w dolnej części kolumny 15 tabeli A"
+        },
+        "C": {
+          "answer": "W kolumnie 12",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.6.3.1 kod tunelowy w dolnej części kolumny 15 tabeli A"
+        }
+      },
+      "explanation": "Kod tunelowy jest podany w dolnej części kolumny 15 tabeli A dla danego towaru, jeśli został przypisany.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0064",
+      "stem": "Dla jednostki transportowej objętej ograniczeniami ADR przewozisz różne towary mające różne kody tunelowe. Jak ustala się kod dla całego ładunku?",
+      "reference": [
+        "ADR 2025, 8.6.3.2–8.6.3.3"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Stosuje się kod oznaczający największe ograniczenia",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.6.3.2–3 najbardziej restrykcyjny kod przy mieszanych ładunkach, z wyłączeniami"
+        },
+        "B": {
+          "answer": "Wybiera się kod najłagodniejszy",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.6.3.2–3 najbardziej restrykcyjny kod przy mieszanych ładunkach, z wyłączeniami"
+        },
+        "C": {
+          "answer": "Zawsze przyjmuje się kod A",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.6.3.2–3 najbardziej restrykcyjny kod przy mieszanych ładunkach, z wyłączeniami"
+        }
+      },
+      "explanation": "Dla towarów podlegających ograniczeniom tunelowym w jednostce transportowej wybiera się najbardziej restrykcyjny kod spośród kodów rzeczywiście mających zastosowanie. Przy ustalaniu kodu trzeba uwzględnić wyłączenia 8.6.3.3 oraz sposób przewozu.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0065",
+      "stem": "Co oznacza zapis „(-)” jako kod ograniczeń tunelowych dla danego towaru?",
+      "reference": [
+        "ADR 2025, 8.6.3.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Brak ograniczeń tunelowych ADR wynikających z tego kodu",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.6.3.1 (-) oznacza brak kodowego ograniczenia tunelowego"
+        },
+        "B": {
+          "answer": "Całkowity zakaz korzystania z dróg",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.6.3.1 (-) oznacza brak kodowego ograniczenia tunelowego"
+        },
+        "C": {
+          "answer": "Nakaz jazdy tylko nocą",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.6.3.1 (-) oznacza brak kodowego ograniczenia tunelowego"
+        }
+      },
+      "explanation": "Symbol (-) oznacza, że sam towar nie podlega ograniczeniom tunelowym ADR z tabeli A. Nadal obowiązują ogólne przepisy ruchu.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0066",
+      "stem": "Dlaczego obszar terminalu, na którym czasowo składuje się niebezpieczny ładunek podczas transportu, powinien być odpowiednio zabezpieczony?",
+      "reference": [
+        "ADR 2025, 1.10.1.3"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Aby umożliwić dostęp tylko osobom przypadkowym",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "1.10.1.3 terminal zabezpieczony przed nieuprawnionym dostępem"
+        },
+        "B": {
+          "answer": "Ponieważ zabezpieczenie zastępuje obowiązek właściwego znakowania",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "1.10.1.3 terminal zabezpieczony przed nieuprawnionym dostępem"
+        },
+        "C": {
+          "answer": "By ograniczyć nieuprawniony dostęp i ryzyko naruszenia ochrony",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "1.10.1.3 terminal zabezpieczony przed nieuprawnionym dostępem"
+        }
+      },
+      "explanation": "Bezpieczeństwo transportu obejmuje też czasowe składowanie na terenie terminalu lub placu. Stosuje się odpowiednie środki ochrony i kontroli dostępu.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0067",
+      "stem": "Dwóch członków załogi wykonuje przewóz ADR objęty wymaganiem 1.10.1.4. Drugi ma tylko kartę zakładową bez fotografii. Co trzeba zrobić?",
+      "reference": [
+        "ADR 2025, 1.10.1.4"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Zapewnić drugiemu członkowi załogi własny dokument identyfikacyjny ze zdjęciem",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "1.10.1.4 własny dokument tożsamości ze zdjęciem dla członka załogi"
+        },
+        "B": {
+          "answer": "Uznać dokument pierwszego kierowcy za wystarczający dla obu osób",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "1.10.1.4 własny dokument tożsamości ze zdjęciem dla członka załogi"
+        },
+        "C": {
+          "answer": "Zastąpić dokument drugiej osoby listem przewozowym z jej nazwiskiem",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "1.10.1.4 własny dokument tożsamości ze zdjęciem dla członka załogi"
+        }
+      },
+      "explanation": "Wymóg identyfikacji dotyczy każdego członka załogi z osobna. Jeden dokument ze zdjęciem nie potwierdza tożsamości całej załogi.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0068",
+      "stem": "Którą informację o odbiorcy trzeba co do zasady zamieścić w dokumencie przewozowym ADR?",
+      "reference": [
+        "ADR 2025, 5.4.1.1.1 (h)"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Nazwę i adres odbiorcy",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "5.4.1.1.1(h) nazwa i adres odbiorcy w wymaganym dokumencie"
+        },
+        "B": {
+          "answer": "Wyłącznie kod pocztowy miejsca rozładunku",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.1.1.1(h) nazwa i adres odbiorcy w wymaganym dokumencie"
+        },
+        "C": {
+          "answer": "Jedynie dane kontaktowe spedytora zamiast odbiorcy",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.1.1.1(h) nazwa i adres odbiorcy w wymaganym dokumencie"
+        }
+      },
+      "explanation": "Dokument powinien co do zasady zawierać nazwę i adres odbiorcy. ADR przewiduje określone wyjątki.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0069",
+      "stem": "Jakie informacje o opakowanych towarach niebezpiecznych powinny się znaleźć w dokumencie przewozowym ADR?",
+      "reference": [
+        "ADR 2025, 5.4.1.1.1 (e)"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Wyłącznie sumaryczną masę pojazdu i ładunku",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.1.1.1(e) liczba i rodzaj sztuk przesyłek"
+        },
+        "B": {
+          "answer": "Tylko numery UN, bez liczby i rodzaju sztuk przesyłek",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.1.1.1(e) liczba i rodzaj sztuk przesyłek"
+        },
+        "C": {
+          "answer": "Liczba i określenie sztuk przesyłek, jeśli występują",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "5.4.1.1.1(e) liczba i rodzaj sztuk przesyłek"
+        }
+      },
+      "explanation": "Dokument przewozowy określa m.in. liczbę i rodzaj sztuk przesyłek. Dodatkowe wymagania zależą od konkretnego ładunku.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0070",
+      "stem": "Czy w standardowym dokumencie ADR podaje się całkowitą ilość przewożonego towaru niebezpiecznego?",
+      "reference": [
+        "ADR 2025, 5.4.1.1.1 (f)"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Tak, w odpowiedni sposób według rodzaju towaru",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "5.4.1.1.1(f) całkowita ilość towaru w wymaganej jednostce"
+        },
+        "B": {
+          "answer": "Nie, jeżeli towary są w sztukach przesyłek",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.1.1.1(f) całkowita ilość towaru w wymaganej jednostce"
+        },
+        "C": {
+          "answer": "Zawsze wystarcza sama liczba palet bez ilości towaru",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "5.4.1.1.1(f) całkowita ilość towaru w wymaganej jednostce"
+        }
+      },
+      "explanation": "ADR co do zasady wymaga podania całkowitej ilości towaru w odpowiedniej jednostce (np. masa netto lub brutto albo objętość).",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0071",
+      "stem": "Jednostka transportowa o DMC 3,5 t przewozi ADR na pełnych zasadach 8.1.4.1. Jaka minimalna łączna pojemność gaśnic jest wymagana?",
+      "reference": [
+        "ADR 2025, 8.1.4.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "12 kg środka gaśniczego w przeliczeniu na proszek",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.4.1 4 kg gaśnic dla DMC do 3,5 t"
+        },
+        "B": {
+          "answer": "4 kg środka gaśniczego w przeliczeniu na proszek",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.1.4.1 4 kg gaśnic dla DMC do 3,5 t"
+        },
+        "C": {
+          "answer": "8 kg środka gaśniczego w przeliczeniu na proszek",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.4.1 4 kg gaśnic dla DMC do 3,5 t"
+        }
+      },
+      "explanation": "Dla DMC do 3,5 t tabela w 8.1.4.1 wymaga co najmniej 4 kg środka gaśniczego w przeliczeniu na proszek. Jedna gaśnica musi mieć minimum 2 kg.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0072",
+      "stem": "Jednostka transportowa ma DMC 6 t i przewozi ADR na pełnych zasadach 8.1.4.1. Jaka jest minimalna łączna pojemność gaśnic?",
+      "reference": [
+        "ADR 2025, 8.1.4.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "8 kg w przeliczeniu na proszek",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.1.4.1 8 kg gaśnic dla DMC powyżej 3,5 do 7,5 t"
+        },
+        "B": {
+          "answer": "4 kg w przeliczeniu na proszek",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.4.1 8 kg gaśnic dla DMC powyżej 3,5 do 7,5 t"
+        },
+        "C": {
+          "answer": "12 kg w przeliczeniu na proszek",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.4.1 8 kg gaśnic dla DMC powyżej 3,5 do 7,5 t"
+        }
+      },
+      "explanation": "Dla jednostek o DMC powyżej 3,5 t do 7,5 t wymagane jest łącznie co najmniej 8 kg. Gaśnice muszą spełniać także wymagania szczegółowe.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0073",
+      "stem": "Jaka jest **minimalna** pojemność przenośnej gaśnicy proszkowej wymagana przez ADR 8.1.4.2 dla jednostki transportowej przewożącej towary niebezpieczne zgodnie z 1.1.3.6?",
+      "reference": [
+        "ADR 2025, 8.1.4.2"
+      ],
+      "variants": {
+        "A": {
+          "answer": "6 kg — wymagane jako absolutne minimum także przy 1.1.3.6",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.4.2 co najmniej 2 kg gaśnicy przy 1.1.3.6"
+        },
+        "B": {
+          "answer": "2 kg (albo równoważna skuteczność innego odpowiedniego środka gaśniczego)",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.1.4.2 co najmniej 2 kg gaśnicy przy 1.1.3.6"
+        },
+        "C": {
+          "answer": "0 kg — przy 1.1.3.6 gaśnica nie jest wymagana",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.4.2 co najmniej 2 kg gaśnicy przy 1.1.3.6"
+        }
+      },
+      "explanation": "Dla jednostki transportowej objętej 1.1.3.6 przepis 8.1.4.2 wymaga co najmniej jednej gaśnicy o pojemności 2 kg proszku albo równoważnej skuteczności innego odpowiedniego środka, nadającej się do pożarów klas A, B i C. Gaśnica 6 kg może spełniać minimum, ale **6 kg nie jest wymaganym minimum**.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0075",
+      "stem": "W jednostce transportowej przewożącej towary, dla których obowiązuje 8.1.5.2, znajduje się kierowca i drugi członek załogi. Ile kamizelek ostrzegawczych potrzeba?",
+      "reference": [
+        "ADR 2025, 8.1.5.2"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Jedna, ponieważ używa jej wyłącznie kierowca",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.5.2 jedna kamizelka ostrzegawcza na członka załogi"
+        },
+        "B": {
+          "answer": "Dwie, po jednej dla każdej osoby",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.1.5.2 jedna kamizelka ostrzegawcza na członka załogi"
+        },
+        "C": {
+          "answer": "Trzy, po jednej dla każdej osi pojazdu",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.5.2 jedna kamizelka ostrzegawcza na członka załogi"
+        }
+      },
+      "explanation": "Wymagane jest wyposażenie ochronne dla każdego członka załogi, w tym kamizelka ostrzegawcza.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0076",
+      "stem": "Jaką podstawową ochronę oczu wymaga 8.1.5.2 dla członka załogi, gdy mają zastosowanie te przepisy?",
+      "reference": [
+        "ADR 2025, 8.1.5.2"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Ochronę oczu, np. okulary ochronne",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.1.5.2 ochrona oczu dla członka załogi"
+        },
+        "B": {
+          "answer": "Wyłącznie przyciemnione okulary przeciwsłoneczne",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.5.2 ochrona oczu dla członka załogi"
+        },
+        "C": {
+          "answer": "Wyłącznie kask, który nie chroni oczu",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.5.2 ochrona oczu dla członka załogi"
+        }
+      },
+      "explanation": "Każdy członek załogi powinien mieć ochronę oczu; chodzi o odpowiedni środek ochronny, a nie zwykłe okulary przeciwsłoneczne.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0077",
+      "stem": "Dla jakich nalepek ostrzegawczych ADR 8.1.5.3 wymaga maski ucieczkowej dla każdego członka załogi?",
+      "reference": [
+        "ADR 2025, 8.1.5.3"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Tylko 3 i 8",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.5.3 maska ucieczkowa przy wymaganych nalepkach 2.3 lub 6.1"
+        },
+        "B": {
+          "answer": "Tylko 9 i 9A",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "8.1.5.3 maska ucieczkowa przy wymaganych nalepkach 2.3 lub 6.1"
+        },
+        "C": {
+          "answer": "2.3 lub 6.1",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "8.1.5.3 maska ucieczkowa przy wymaganych nalepkach 2.3 lub 6.1"
+        }
+      },
+      "explanation": "Maskę ucieczkową przewidziano dla materiałów oznaczonych nalepkami 2.3 (gazy trujące) lub 6.1 (materiały trujące).",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0078",
+      "stem": "Pracownik chce ustawić karton ADR na innym kartonie, choć opakowania nie przewidują piętrzenia. Czy wolno?",
+      "reference": [
+        "ADR 2025, 7.5.7.2"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Tak, jeśli łączna masa nie przekracza 100 kg",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "7.5.7.2 ograniczenia piętrzenia"
+        },
+        "B": {
+          "answer": "Nie, jeżeli opakowania nie zaprojektowano do piętrzenia",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "7.5.7.2 ograniczenia piętrzenia"
+        },
+        "C": {
+          "answer": "Tak, jeśli oba kartony mają identyczne nalepki",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "7.5.7.2 ograniczenia piętrzenia"
+        }
+      },
+      "explanation": "Sztuki przesyłek mogą być piętrzone tylko gdy ich konstrukcja to dopuszcza; same nalepki i masa nie zastępują oceny opakowania.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0079",
+      "stem": "Na palecie ADR pasy mocujące zaczynają odkształcać opakowania. Jaka jest prawidłowa reakcja?",
+      "reference": [
+        "ADR 2025, 7.5.7.1"
+      ],
+      "variants": {
+        "A": {
+          "answer": "Dokręcić pasy, ponieważ mocowanie ma być maksymalnie ciasne",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "7.5.7.1 nie wolno nadmiernie naprężać pasów niszczących opakowania"
+        },
+        "B": {
+          "answer": "Pozostawić pasy bez zmian, bo uszkodzenie opakowań nie ma znaczenia",
+          "verdict": "niezgodne z regułą w zakresie pytania",
+          "basis": "7.5.7.1 nie wolno nadmiernie naprężać pasów niszczących opakowania"
+        },
+        "C": {
+          "answer": "Dostosować mocowanie tak, by nie uszkadzało ani nie deformowało opakowań",
+          "verdict": "zgodne w zakresie reguły",
+          "basis": "7.5.7.1 nie wolno nadmiernie naprężać pasów niszczących opakowania"
+        }
+      },
+      "explanation": "ADR wymaga skutecznego unieruchomienia ładunku, ale wyraźnie zabrania nadmiernego napinania pasów powodującego uszkodzenie albo deformację sztuk przesyłek.",
+      "explanation_assessment": "wstępnie zgodne w zakresie reguły; nie wszystkie wyjątki sprawdzone literalnie",
+      "exception_assessment": "wymaga specjalisty w zakresie przepisów powiązanych",
+      "status": "needs_review"
+    }
+  ]
+}
