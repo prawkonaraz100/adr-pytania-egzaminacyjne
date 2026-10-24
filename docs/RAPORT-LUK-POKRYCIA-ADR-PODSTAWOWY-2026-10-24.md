@@ -19,8 +19,8 @@ Sprawdzono świeży `main` `3d9286d2ae1e384ffc6e36cfc12f32af6605f113`, bank pyta
 
 | Priorytet | Dział | Luka głębokości | Działanie |
 |---|---|---|---|
-| P1 | ADR-B-06 | Nalepki dużego formatu: widoczność, kompletność, czytelność i pozostałości po rozładunku | Dodano 0546–0550; ADR 5.3.1 |
-| P1 | ADR-B-08 | Świadectwo dopuszczenia: wymaganie zależne od typu pojazdu, ważność i dokumenty | Dodano 0551–0553; ADR 9.1.3.1 i 8.1.2.2 |
+| P1 | ADR-B-06 | Nalepki dużego formatu: widoczność, kompletność, czytelność i pozostałości po rozładunku | Dodano 0546–0550 oraz 0561–0565; ADR 5.3.1 |
+| P1 | ADR-B-08 | Świadectwo dopuszczenia: wymaganie zależne od typu pojazdu, ważność i dokumenty | Dodano 0551–0553 i 0566; ADR 9.1.3.1 i 8.1.2.2 |
 | P1 | ADR-B-09 | Kontrola przed załadunkiem oraz dopuszczalność i warunki przewozu luzem | Dodano 0554–0560; ADR 7.5.1.2, 7.3 i tabela A |
 | P2 | Wszystkie 13 działów | Pokrycie robocze istnieje, ale nie jest niezależnym potwierdzeniem poprawności i wyczerpania wyjątków | Audyt kompetencja po kompetencji przez eksperta; bez automatycznej zmiany statusów |
 | P2 | 13 lekcji | Szkice istnieją, ale nie są niezależnie zatwierdzone | Przegląd treści, wyjątków, przykładów i grafik |
@@ -44,3 +44,8 @@ Każdy rekord zawiera trzy opcje, jeden klucz, wyjaśnienie 300–500 znaków, p
 5. Nie rozpoczynać kursu cysterny — zakres pozostaje wyłącznie podstawowy.
 
 Źródła: [program kursu (Dz.U. 2021 poz. 2150)](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf), [ADR 2025 (Dz.U. 2025 poz. 642)](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie (Dz.U. 2025 poz. 1575)](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf).
+
+
+## Aktualizacja po partii 0561–0566
+
+Na świeżym `main` po PR #255 dodano jeszcze 6 pytań: `ADR-B-0561–0565` pogłębiające oznakowanie kontenerów i tablice po rozładunku oraz `ADR-B-0566` dotyczące ważności świadectwa dopuszczenia. Przypisano je do `ADR-B-06-K09` i `ADR-B-08-K08`, dodano audyt A/B/C, audyt sekwencyjny i przekazanie dla specjalisty. Po scaleniu oczekiwane liczby w działach wyniosą B-06 45 i B-08 40, czyli robocze kwoty projektu; nie są to minima prawne. Nowe pytania pozostają `needs_review`.
