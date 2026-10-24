@@ -63,9 +63,9 @@
       "exact_record_snapshot": {
         "stem": "Materiał wybuchowy klasy 1 ma podklasę 1.3. Które połączenie zagrożeń odpowiada ADR?",
         "options": {
-          "A": "Zawsze wybuch masowy całego ładunku",
-          "B": "Brak zagrożenia pożarem, wyłącznie żrące oddziaływanie",
-          "C": "Pożar i niewielkie zagrożenie wybuchem lub rozrzutem, bez wybuchu masowego"
+          "A": "Podklasa 1.3 zawsze oznacza wybuch masowy całego ładunku podczas pożaru",
+          "B": "Podklasa 1.3 nie stwarza zagrożenia pożarem, a jedynie działanie żrące",
+          "C": "Pożar z ograniczonym ryzykiem wybuchu/rozrzutu, bez wybuchu masowego"
         },
         "correct_option": "C",
         "explanation": "Podklasa 1.3 wiąże się przede wszystkim z pożarem, któremu może towarzyszyć niewielkie zagrożenie wybuchem lub rozrzutem, ale nie wybuchem masowym. Dlatego odpowiedź o zawsze masowym wybuchu przesadza, a opis materiału żrącego dotyczy innego rodzaju zagrożenia. Podstawa: ADR 2.2.1.1.5, podklasa 1.3.",
@@ -104,9 +104,9 @@
       "exact_record_snapshot": {
         "stem": "Podklasa 1.5 obejmuje bardzo mało wrażliwe materiały wybuchowe. Czy brak wrażliwości oznacza brak zagrożenia wybuchem masowym?",
         "options": {
-          "A": "Tak, sama nazwa podklasy wyklucza wybuch masowy",
-          "B": "Tak, materiał 1.5 jest zawsze klasą 9",
-          "C": "Nie, podklasa 1.5 oznacza bardzo mało wrażliwe materiały, ale z zagrożeniem wybuchem masowym"
+          "A": "Tak; nazwa „bardzo mało wrażliwe” oznacza, że wybuch masowy jest niemożliwy",
+          "B": "Tak; każdy materiał podklasy 1.5 jest automatycznie klasyfikowany do klasy 9",
+          "C": "Tak; materiały 1.5 są mało wrażliwe, ale nadal grozi im wybuch masowy"
         },
         "correct_option": "C",
         "explanation": "Materiały podklasy 1.5 są bardzo mało wrażliwe na inicjację, lecz nadal stwarzają zagrożenie wybuchem masowym. Mała wrażliwość nie oznacza więc braku tego zagrożenia ani automatycznej zmiany do klasy 9. Ważne jest odróżnienie wrażliwości materiału od skutków możliwego zdarzenia. Podstawa: ADR 2.2.1.1.5, podklasa 1.5.",
@@ -145,9 +145,9 @@
       "exact_record_snapshot": {
         "stem": "Podklasa 1.6 dotyczy skrajnie mało wrażliwych przedmiotów wybuchowych. Jakie zagrożenie masowe określa definicja?",
         "options": {
-          "A": "Nie obejmuje zagrożenia wybuchem masowym całego ładunku",
-          "B": "Każdy przedmiot 1.6 powoduje natychmiastowy wybuch całego ładunku",
-          "C": "Klasyfikuje się go automatycznie jako klasę 8"
+          "A": "Podklasa 1.6 nie stwarza zagrożenia wybuchem masowym całego ładunku",
+          "B": "Każdy przedmiot 1.6 powoduje natychmiastowy wybuch masowy całego przewożonego ładunku",
+          "C": "Przedmioty 1.6 klasyfikuje się automatycznie jako materiały żrące klasy 8"
         },
         "correct_option": "A",
         "explanation": "Przedmioty podklasy 1.6 są skrajnie mało wrażliwe i nie stwarzają zagrożenia wybuchem masowym całego ładunku. Odpowiedź o natychmiastowym wybuchu masowym mówi odwrotnie, a klasa 8 dotyczy materiałów żrących. Nie oznacza to całkowitego braku zagrożenia, lecz odmienny charakter ryzyka. Podstawa: ADR 2.2.1.1.5, podklasa 1.6.",
@@ -186,9 +186,9 @@
       "exact_record_snapshot": {
         "stem": "Bateria sodowo-jonowa z elektrolitem organicznym została umieszczona w urządzeniu, a inna identyczna bateria przewożona jest osobno. Które rozróżnienie UN wskazuje ADR 2025?",
         "options": {
-          "A": "Obie zawsze UN 3090",
-          "B": "Obie zawsze UN 3082",
-          "C": "Samodzielna UN 3551, w urządzeniu lub pakowana z urządzeniem UN 3552, z zachowaniem szczegółowych warunków"
+          "A": "Obie baterie mają zawsze numer UN 3090, niezależnie od sposobu pakowania",
+          "B": "Obie baterie mają zawsze numer UN 3082, bez względu na rodzaj elektrolitu",
+          "C": "UN 3551 osobno; UN 3552 w urządzeniu lub z nim, zgodnie z warunkami"
         },
         "correct_option": "C",
         "explanation": "Dla baterii sodowo-jonowych z elektrolitem organicznym znaczenie ma sposób przewozu: samodzielna bateria to UN 3551, a bateria zawarta w urządzeniu lub pakowana z urządzeniem — UN 3552, z uwzględnieniem szczegółowych warunków. Numery UN 3082 i 3090 nie są uniwersalnymi wpisami dla obu sytuacji. Podstawa: ADR 2.2.9.1.7.2 i tabela A, UN 3551–3552.",
@@ -227,9 +227,9 @@
       "exact_record_snapshot": {
         "stem": "Producent ma nowy typ baterii sodowo-jonowej objętej 2.2.9.1.7.2. Czy wystarczy, że jej ogniwa spełniają badania 38.3, a typ całej baterii nie został poddany wymaganym badaniom?",
         "options": {
-          "A": "Tak, sprawdzenie jednego ogniwa zawsze zastępuje badanie baterii",
-          "B": "Tak, ponieważ 38.3 dotyczy wyłącznie baterii litowych",
-          "C": "Nie, typ baterii również musi spełniać właściwe wymagania badań 38.3 niezależnie od badań ogniw"
+          "A": "Tak; badanie jednego ogniwa zawsze zastępuje badania typu całej baterii",
+          "B": "Tak; wymagania 38.3 dotyczą wyłącznie baterii litowych, nie sodowo-jonowych",
+          "C": "Nie; typ baterii także musi spełniać właściwe wymagania badań 38.3"
         },
         "correct_option": "C",
         "explanation": "Badania ogniw nie zastępują wymaganych badań typu całej baterii. Nawet jeśli ogniwa przeszły testy 38.3, nowy typ baterii również musi spełniać właściwe wymagania, zanim zostanie dopuszczony do przewozu. Nie jest to zasada wyłącznie dla baterii litowych. Podstawa: ADR 2.2.9.1.7.2(a) i uwaga.",
@@ -268,9 +268,9 @@
       "exact_record_snapshot": {
         "stem": "Nowy projekt ogniwa sodowo-jonowego przewidziany do wpisu UN 3551 nie zapobiega zewnętrznemu zwarciu. Którego warunku 2.2.9.1.7.2 nie spełnia?",
         "options": {
-          "A": "Obowiązku skutecznego zabezpieczenia przed zewnętrznym zwarciem",
-          "B": "Wyłącznie wymagania oznakowania tablicy rejestracyjnej",
-          "C": "Wyłącznie minimalnej długości pojazdu"
+          "A": "Typ ogniwa musi być skutecznie zabezpieczony przed zewnętrznym zwarciem",
+          "B": "Jedynym warunkiem jest prawidłowe oznakowanie tablicy rejestracyjnej pojazdu",
+          "C": "Jedynym warunkiem jest zachowanie minimalnej długości pojazdu podczas przewozu"
         },
         "correct_option": "A",
         "explanation": "Ogniwa i baterie objęte tym przepisem muszą być skutecznie zabezpieczone przed zwarciem zewnętrznym. Samo oznakowanie pojazdu lub jego długość nie rozwiązuje tego problemu, bo nie zapobiega kontaktowi elektrycznemu między biegunami. Konstrukcja i przygotowanie baterii muszą ograniczać ryzyko zwarcia podczas przewozu. Podstawa: ADR 2.2.9.1.7.2(c).",
@@ -309,9 +309,9 @@
       "exact_record_snapshot": {
         "stem": "Bateria sodowo-jonowa z równolegle połączonymi ogniwami nie ma rozwiązania chroniącego przed niebezpiecznym przepływem wstecznym prądu. Czy spełnia 2.2.9.1.7.2?",
         "options": {
-          "A": "Tak, jeżeli jest umieszczona w kartonie",
-          "B": "Tak, jeśli nie jest jeszcze naładowana",
-          "C": "Nie, wymaga skutecznego zabezpieczenia, np. diod lub bezpieczników, przed niebezpiecznym przepływem wstecznym"
+          "A": "Tak; kartonowe opakowanie wystarcza, nawet bez zabezpieczenia elektrycznego",
+          "B": "Tak; ochrona przed przepływem wstecznym jest potrzebna wyłącznie przy pełnym naładowaniu",
+          "C": "Nie; potrzebne jest zabezpieczenie przed niebezpiecznym prądem wstecznym"
         },
         "correct_option": "C",
         "explanation": "Przy równolegle połączonych ogniwach trzeba zapobiec niebezpiecznemu przepływowi wstecznemu prądu, np. za pomocą odpowiednich diod lub bezpieczników. Karton ani brak naładowania nie zastępują zabezpieczenia konstrukcyjnego. Liczy się skuteczna ochrona w warunkach przewozu. Podstawa: ADR 2.2.9.1.7.2(d).",
