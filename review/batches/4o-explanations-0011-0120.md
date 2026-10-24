@@ -6,7 +6,8 @@
 - Każde wyjaśnienie opisuje poprawną odpowiedź, krótko wyjaśnia błędność pozostałych opcji i podaje podstawę ADR.
 - Kontrola strukturalna przed PR: 545 rekordów zachowanych; kolejność i identyfikatory bez zmian; klucze odpowiedzi i `verification_status` niezmienione; wszystkie rekordy nadal `needs_review`; brak statusów `verified`.
 - To edycja dydaktyczna, nie niezależna recenzja prawna. Nie korygowano odpowiedzi ani podstaw prawnych.
-- Quality Gate: oczekuje na wynik CI dla PR.
+- Pierwszy przebieg CI wykrył nieaktualne migawki w `review/sequential/`; odświeżono wyłącznie pola `exact_record_snapshot` dla tych 15 rekordów, bez zmiany statusu audytu ani zatwierdzenia merytorycznego.
+- Ponowny Quality Gate: oczekuje na wynik CI po odświeżeniu migawek.
 
 ## Wyniki długości wyjaśnień
 
