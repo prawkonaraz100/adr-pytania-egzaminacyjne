@@ -249,7 +249,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Gazy pod ciśnieniem klasyfikuje się zasadniczo do klasy 2."
+          "rationale": "Błędny wariant: „Zawsze są gazami pod ciśnieniem i nie reagują z wodą”. Klasa 4.3 obejmuje materiały, które w kontakcie z wodą wydzielają gazy palne. Nie oznacza to, że są to zawsze gazy pod ciśnieniem ani wyłącznie ciecze żrące. Kierowca powinien rozpoznać ryzyko reakcji z wodą i sprawdzić oznakowanie. Podstawa: ADR 2.2.43.1.1."
         },
         "B": {
           "expected_correct": false,
@@ -257,7 +257,7 @@
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Klasa 4.3 obejmuje materiały wydzielające gazy palne w kontakcie z wodą."
+          "rationale": "Klasa 4.3 obejmuje materiały, które w kontakcie z wodą wydzielają gazy palne. Nie oznacza to, że są to zawsze gazy pod ciśnieniem ani wyłącznie ciecze żrące. Kierowca powinien rozpoznać ryzyko reakcji z wodą i sprawdzić oznakowanie. Podstawa: ADR 2.2.43.1.1."
         }
       },
       "observed_answer_key": "C",
@@ -271,12 +271,12 @@
         "module_id": "ADR-B-02",
         "stem": "Która cecha jest charakterystyczna dla materiałów klasy 4.3 ADR?",
         "options": {
-          "A": "Zawsze są gazami pod ciśnieniem",
+          "A": "Zawsze są gazami pod ciśnieniem i nie reagują z wodą",
           "B": "Są wyłącznie cieczami żrącymi",
           "C": "W kontakcie z wodą wydzielają gazy palne"
         },
         "correct_option": "C",
-        "explanation": "Niektóre materiały reagują z wodą i wydzielają gaz, który może się zapalić. Dlatego dla klasy 4.3 kontakt z wodą może zwiększać zagrożenie zamiast je ograniczać. Nie oznacza to, że są to zwykłe gazy pod ciśnieniem albo wyłącznie ciecze żrące. Kierowca powinien rozpoznać to szczególne ryzyko z oznakowania i dokumentów. Podstawa: ADR 2.2.43.1.1.",
+        "explanation": "Klasa 4.3 obejmuje materiały, które w kontakcie z wodą wydzielają gazy palne. Nie oznacza to, że są to zawsze gazy pod ciśnieniem ani wyłącznie ciecze żrące. Kierowca powinien rozpoznać ryzyko reakcji z wodą i sprawdzić oznakowanie. Podstawa: ADR 2.2.43.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1005,11 +1005,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "8 kg jest zbyt małą sumą dla tej DMC."
+          "rationale": "Błędny wariant: „8 kg środka gaśniczego”. Dla jednostki transportowej o DMC powyżej 7,5 t w pełnym reżimie ADR minimalna łączna pojemność wynosi 12 kg w przeliczeniu na proszek. 4 kg i 8 kg nie spełniają tego progu. Należy też osobno sprawdzić wymaganą liczbę i wielkość gaśnic. Podstawa: ADR 8.1.4.1."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "12 kg jest minimalną łączną pojemnością w reżimie pełnym."
+          "rationale": "Dla jednostki transportowej o DMC powyżej 7,5 t w pełnym reżimie ADR minimalna łączna pojemność wynosi 12 kg w przeliczeniu na proszek. 4 kg i 8 kg nie spełniają tego progu. Należy też osobno sprawdzić wymaganą liczbę i wielkość gaśnic. Podstawa: ADR 8.1.4.1."
         }
       },
       "observed_answer_key": "C",
@@ -1024,11 +1024,11 @@
         "stem": "Jaka jest minimalna łączna pojemność gaśnic (w przeliczeniu na proszek) dla jednostki transportowej ADR o DMC powyżej 7,5 t, gdy stosuje się pełne wymagania 8.1.4.1?",
         "options": {
           "A": "4 kg",
-          "B": "8 kg",
+          "B": "8 kg środka gaśniczego",
           "C": "12 kg"
         },
         "correct_option": "C",
-        "explanation": "Cięższy zestaw ADR wymaga większej łącznej ilości środka gaśniczego, dlatego przy DMC ponad 7,5 t podstawowe minimum wynosi 12 kg w przeliczeniu na proszek. Warianty 4 i 8 kg dotyczą innych progów masy i tutaj nie wystarczą. Trzeba też sprawdzić wymagania dotyczące liczby oraz wielkości poszczególnych gaśnic. Podstawa: ADR 8.1.4.1.",
+        "explanation": "Dla jednostki transportowej o DMC powyżej 7,5 t w pełnym reżimie ADR minimalna łączna pojemność wynosi 12 kg w przeliczeniu na proszek. 4 kg i 8 kg nie spełniają tego progu. Należy też osobno sprawdzić wymaganą liczbę i wielkość gaśnic. Podstawa: ADR 8.1.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1142,7 +1142,7 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Zasady i tabela 7.5.2 rozstrzygają zakazy wspólnego ładowania."
+          "rationale": "Dopuszczalność wspólnego załadunku wynika z zasad i tabeli zakazów ładowania razem w ADR 7.5.2. Kolor opakowań ani wolne miejsce i rozmieszczenie palet nie rozstrzygają, czy dane towary można przewozić razem. Przed załadunkiem sprawdź klasyfikację, nalepki i ewentualne przepisy szczególne. Podstawa: ADR 7.5.2."
         },
         "B": {
           "expected_correct": false,
@@ -1150,7 +1150,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wolne miejsce nie jest kryterium dopuszczenia wspólnego załadunku."
+          "rationale": "Błędny wariant: „Tylko według wolnego miejsca w pojeździe i rozmieszczenia palet na podłodze”. Dopuszczalność wspólnego załadunku wynika z zasad i tabeli zakazów ładowania razem w ADR 7.5.2. Kolor opakowań ani wolne miejsce i rozmieszczenie palet nie rozstrzygają, czy dane towary można przewozić razem. Przed załadunkiem sprawdź klasyfikację, nalepki i ewentualne przepisy szczególne. Podstawa: ADR 7.5.2."
         }
       },
       "observed_answer_key": "A",
@@ -1166,10 +1166,10 @@
         "options": {
           "A": "Na podstawie zasad i tabeli zakazów ładowania razem w ADR 7.5.2",
           "B": "Wyłącznie na podstawie koloru opakowań",
-          "C": "Tylko według wolnego miejsca w pojeździe"
+          "C": "Tylko według wolnego miejsca w pojeździe i rozmieszczenia palet na podłodze"
         },
         "correct_option": "A",
-        "explanation": "Niektóre towary niebezpieczne mogą niebezpiecznie reagować ze sobą, nawet gdy każda przesyłka osobno jest prawidłowo zapakowana. Dlatego wspólny załadunek trzeba sprawdzić według tabeli i zasad ADR, a nie według koloru kartonów czy ilości wolnego miejsca. Różne nalepki nie oznaczają zawsze zakazu, ale też nie pozwalają automatycznie ładować wszystkiego razem. Podstawa: ADR 7.5.2.",
+        "explanation": "Dopuszczalność wspólnego załadunku wynika z zasad i tabeli zakazów ładowania razem w ADR 7.5.2. Kolor opakowań ani wolne miejsce i rozmieszczenie palet nie rozstrzygają, czy dane towary można przewozić razem. Przed załadunkiem sprawdź klasyfikację, nalepki i ewentualne przepisy szczególne. Podstawa: ADR 7.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
