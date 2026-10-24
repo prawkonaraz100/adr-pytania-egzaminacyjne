@@ -3,7 +3,7 @@
 > **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
 
 ## Cele
-Rozumieć minimalne wymagania wyposażenia w zależności od rodzaju przewozu i DMC, rozpoznać podstawowe środki ochrony i przypadki wymagające świadectwa dopuszczenia.
+Rozumieć minimalne wymagania wyposażenia w zależności od rodzaju przewozu i dopuszczalnej masy całkowitej (DMC), rozpoznać podstawowe środki ochrony i przypadki wymagające świadectwa dopuszczenia.
 
 ## 1. Gaśnice zależą od DMC i rodzaju zwolnienia
 
