@@ -1,0 +1,280 @@
+{
+  "schema_version": "1.0",
+  "course_scope": "ADR basic only",
+  "review_status": "training_draft_not_legal_approval",
+  "safety_notice": "All scenarios are simulations. Do not use real dangerous goods, create spills, or attempt hazardous demonstrations.",
+  "required_modules": 13,
+  "scenarios": [
+    {
+      "id": "SC-ADR-B-01",
+      "module_id": "ADR-B-01",
+      "title": "Kontrola drogowa: czy przewóz korzysta ze zwolnienia?",
+      "situation": "Przed wyjazdem kierowca słyszy, że ładunku jest mało, więc ADR nie obowiązuje.",
+      "steps": [
+        "Poproś o numer UN, nazwę przewozową, opakowanie i ilość.",
+        "Porównaj dane z właściwym wpisem i ustal, który wyjątek może mieć zastosowanie.",
+        "Sprawdź warunki wyjątku oraz obowiązki, które nadal obowiązują.",
+        "Jeśli brakuje danych, zgłoś rozbieżność i wyjaśnij ją przed rozpoczęciem przewozu."
+      ],
+      "question_ids": [
+        "ADR-B-0002",
+        "ADR-B-0259",
+        "ADR-B-0526"
+      ],
+      "assessment_criteria": [
+        "Kursant odróżnia zwolnienia i wskazuje dane potrzebne do decyzji."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-02",
+      "module_id": "ADR-B-02",
+      "title": "Rozładunek: mokre opakowanie z nalepką 4.3",
+      "situation": "Pracownik proponuje zmyć wodą zabrudzenie z mokrego opakowania oznaczonego klasą 4.3.",
+      "steps": [
+        "Zatrzymaj czynność i nie polewaj opakowania wodą.",
+        "Odczytaj całą nalepkę i numer UN; nie wnioskuj wyłącznie po kolorze lub symbolu.",
+        "Odsuń ludzi od możliwego zagrożenia i zgłoś problem osobie odpowiedzialnej.",
+        "Postępuj według instrukcji pisemnych i poleceń służb, jeśli sytuacja tego wymaga."
+      ],
+      "question_ids": [
+        "ADR-B-0006",
+        "ADR-B-0510"
+      ],
+      "assessment_criteria": [
+        "Kursant wyjaśnia zagrożenie reakcji z wodą i nie dotyka opakowania."
+      ],
+      "safety_boundary": "Ćwiczenie na zdjęciu lub fikcyjnej karcie; bez prawdziwych substancji."
+    },
+    {
+      "id": "SC-ADR-B-03",
+      "module_id": "ADR-B-03",
+      "title": "Wyciek przy kratce kanalizacyjnej",
+      "situation": "Po rozładunku kierowca zauważa nieznaną ciecz na podłodze kontenera, blisko odpływu.",
+      "steps": [
+        "Nie dotykaj cieczy i nie próbuj rozpoznawać jej po zapachu.",
+        "Ostrzeż osoby w pobliżu i nie wpuszczaj ich w strefę zagrożenia.",
+        "Nie spłukuj cieczy do kanalizacji; oceniaj sytuację tylko z bezpiecznego miejsca.",
+        "Powiadom odpowiedzialne osoby lub służby i postępuj według instrukcji."
+      ],
+      "question_ids": [
+        "ADR-B-0009",
+        "ADR-B-0514"
+      ],
+      "assessment_criteria": [
+        "Kursant stawia bezpieczeństwo na pierwszym miejscu i nie powoduje dodatkowego skażenia."
+      ],
+      "safety_boundary": "Symulacja z kartą sytuacyjną, bez rzeczywistego wycieku."
+    },
+    {
+      "id": "SC-ADR-B-04",
+      "module_id": "ADR-B-04",
+      "title": "Załadunek: e-papieros i pracujący silnik",
+      "situation": "Podczas rozładunku pracownik chce użyć e-papierosa, a operator prosi o pozostawienie silnika włączonego dla wygody.",
+      "steps": [
+        "Rozdziel zakaz palenia i podobnych urządzeń od zasady dotyczącej silnika.",
+        "Ustal, czy silnik rzeczywiście napędza urządzenie przeładunkowe i czy zachodzi przepisowy wyjątek.",
+        "Nie zakładaj, że e-papieros jest wyłączony z zakazu, bo nie ma tradycyjnego płomienia.",
+        "Wyjaśnij niezgodność z osobą prowadzącą czynności przed kontynuacją."
+      ],
+      "question_ids": [
+        "ADR-B-0010",
+        "ADR-B-0012"
+      ],
+      "assessment_criteria": [
+        "Kursant rozróżnia różne przepisy i wskazuje właściwy punkt ADR."
+      ],
+      "safety_boundary": "Scenariusz rozmowy; bez rzeczywistego załadunku towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-05",
+      "module_id": "ADR-B-05",
+      "title": "Wypadek i zagrożenie przy przesyłce",
+      "situation": "Po kolizji obok uszkodzonej przesyłki pojawiają się opary, a na miejscu leży poszkodowany.",
+      "steps": [
+        "Oceń bezpieczeństwo i nie wchodź w opary ani nie dotykaj substancji.",
+        "Ostrzeż innych, oddal się w bezpieczne miejsce i wezwij służby.",
+        "Przekaż służbom informacje o ładunku i dostępne dokumenty, jeśli można to zrobić bezpiecznie.",
+        "Nie otwieraj uszkodzonej przesyłki ani przestrzeni ładunkowej objętej pożarem."
+      ],
+      "question_ids": [
+        "ADR-B-0013",
+        "ADR-B-0015",
+        "ADR-B-0169"
+      ],
+      "assessment_criteria": [
+        "Kursant chroni siebie, wzywa pomoc i nie podejmuje niebezpiecznych działań."
+      ],
+      "safety_boundary": "Ćwiczenie na sucho; pierwsza pomoc i gaśnice wymagają osobnych zajęć z instruktorem."
+    },
+    {
+      "id": "SC-ADR-B-06",
+      "module_id": "ADR-B-06",
+      "title": "Kontrola oznakowania kontenera",
+      "situation": "Przed odjazdem kontrolujący zauważa nieczytelną nalepkę dużego formatu i rozbieżność na tablicy pomarańczowej.",
+      "steps": [
+        "Porównaj oznakowanie z dokumentem i właściwym wpisem ADR.",
+        "Sprawdź czytelność, widoczność i położenie nalepek oraz tablic.",
+        "Nie zastępuj nalepki nazwą handlową ani przypadkowym znakiem.",
+        "Wstrzymaj wyjazd do czasu poprawienia oznakowania i wyjaśnienia rozbieżności."
+      ],
+      "question_ids": [
+        "ADR-B-0507",
+        "ADR-B-0546",
+        "ADR-B-0562"
+      ],
+      "assessment_criteria": [
+        "Kursant rozróżnia numer UN, numer zagrożenia i nalepkę dużego formatu."
+      ],
+      "safety_boundary": "Użyj fikcyjnego dokumentu i schematu oznakowania, nie oznaczaj rzeczywistego pojazdu."
+    },
+    {
+      "id": "SC-ADR-B-07",
+      "module_id": "ADR-B-07",
+      "title": "Uszkodzone opakowanie mimo poprawnych dokumentów",
+      "situation": "Dokumenty wyglądają poprawnie, ale kierowca widzi pęknięte opakowanie. Nadawca naciska, by jechać dalej.",
+      "steps": [
+        "Nie zakładaj, że dokumenty lub wcześniejsza kontrola zwalniają z reakcji na widoczną niezgodność.",
+        "Zgłoś problem załadowcy lub przewoźnikowi i nie kontynuuj przewozu z nieusuniętą niezgodnością.",
+        "Rozróżnij obowiązki uczestników oraz ogólne zasady odpowiedzialności cywilnej; nie przesądzaj automatycznie winy.",
+        "Zapisz, jakie fakty trzeba ustalić i który przepis należy sprawdzić."
+      ],
+      "question_ids": [
+        "ADR-B-0020",
+        "ADR-B-0517",
+        "ADR-B-0567",
+        "ADR-B-0568",
+        "ADR-B-0569"
+      ],
+      "assessment_criteria": [
+        "Kursant identyfikuje niezgodność, role i brak automatyzmu w odpowiedzialności."
+      ],
+      "safety_boundary": "Przypadek edukacyjny; pytania o odpowiedzialność cywilną wymagają niezależnej recenzji."
+    },
+    {
+      "id": "SC-ADR-B-08",
+      "module_id": "ADR-B-08",
+      "title": "Kontrola wyposażenia i świadectwa pojazdu",
+      "situation": "Podczas kontroli kierowca nie może okazać świadectwa wymaganego dla danego pojazdu, a gaśnica jest zasłonięta.",
+      "steps": [
+        "Sprawdź, czy ten typ pojazdu i przewóz wymagają świadectwa dopuszczenia.",
+        "Sprawdź ważność i dostępność dokumentu; nie traktuj ustnego zapewnienia jako zamiennika.",
+        "Sprawdź liczbę, pojemność, stan i dostępność wymaganych gaśnic oddzielnie.",
+        "Wyjaśnij braki przed odjazdem."
+      ],
+      "question_ids": [
+        "ADR-B-0418",
+        "ADR-B-0551",
+        "ADR-B-0566"
+      ],
+      "assessment_criteria": [
+        "Kursant rozdziela wymagania dokumentacyjne i wyposażeniowe."
+      ],
+      "safety_boundary": "Symulacja kontroli na liście kontrolnej, bez ćwiczenia z prawdziwym sprzętem gaśniczym."
+    },
+    {
+      "id": "SC-ADR-B-09",
+      "module_id": "ADR-B-09",
+      "title": "Kontrola przed załadunkiem i mocowania",
+      "situation": "Kierowca widzi pozostałości poprzedniego ładunku i pas, który deformuje opakowanie.",
+      "steps": [
+        "Nie rozpoczynaj załadunku, dopóki nie zostaną wyjaśnione pozostałości mogące reagować z nowym towarem.",
+        "Sprawdź stan opakowania i przestrzeni ładunkowej.",
+        "Skoryguj mocowanie tak, by ładunek był zabezpieczony, ale opakowanie nie zostało uszkodzone.",
+        "Dla przewozu luzem sprawdź dopuszczenie towaru i wymagania pojazdu."
+      ],
+      "question_ids": [
+        "ADR-B-0518",
+        "ADR-B-0554",
+        "ADR-B-0558"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje niezgodności przed odjazdem i nie myli przewozu luzem z przewozem w opakowaniach."
+      ],
+      "safety_boundary": "Korzystaj z pustych makiet opakowań i pasów szkoleniowych."
+    },
+    {
+      "id": "SC-ADR-B-10",
+      "module_id": "ADR-B-10",
+      "title": "Kontener po rejsie morskim — dalszy odcinek drogowy",
+      "situation": "Kierowca odbiera kontener w porcie. Dokumenty przygotowano dla odcinka morskiego, a część danych drogowych wymaga wyjaśnienia.",
+      "steps": [
+        "Sprawdź dokumenty i oznakowanie kontenera przed przejęciem ładunku.",
+        "Ustal, czy konkretne warunki wyjątku dla przewozu kombinowanego są spełnione.",
+        "Nie zakładaj, że dokument morski automatycznie zwalnia z wymagań ADR na drodze.",
+        "Wyjaśnij braki przed wyjazdem i zapisz, jakie źródło trzeba sprawdzić."
+      ],
+      "question_ids": [
+        "ADR-B-0396",
+        "ADR-B-0511"
+      ],
+      "assessment_criteria": [
+        "Kursant rozróżnia odcinek morski i drogowy oraz nie stosuje wyjątku bez sprawdzenia warunków."
+      ],
+      "safety_boundary": "Użyj fikcyjnego kompletu dokumentów i kontenera szkoleniowego."
+    },
+    {
+      "id": "SC-ADR-B-11",
+      "module_id": "ADR-B-11",
+      "title": "Wybór trasy przez tunel z ograniczeniami",
+      "situation": "Kierowca ma dwie przesyłki z różnymi kodami tunelowymi, a trasa prowadzi przez tunel kategorii C.",
+      "steps": [
+        "Odczytaj kody tunelowe z właściwych wpisów i dokumentów.",
+        "Ustal ograniczenia dla wszystkich przesyłek i rzeczywistej postaci przewozu.",
+        "Sprawdź znaki drogowe i lokalne ograniczenia; nie kieruj się wyłącznie klasą towaru.",
+        "Wybierz dozwoloną trasę, a niejasne dane wyjaśnij przed wjazdem."
+      ],
+      "question_ids": [
+        "ADR-B-0487",
+        "ADR-B-0539",
+        "ADR-B-0540"
+      ],
+      "assessment_criteria": [
+        "Kursant bierze pod uwagę wszystkie przesyłki, kod i kategorię tunelu."
+      ],
+      "safety_boundary": "Ćwiczenie na mapie; bez rzeczywistego przejazdu z towarem niebezpiecznym."
+    },
+    {
+      "id": "SC-ADR-B-12",
+      "module_id": "ADR-B-12",
+      "title": "Nieznana osoba chce odebrać ładunek",
+      "situation": "Na parkingu osoba zna numer zlecenia, ale nie może potwierdzić tożsamości zgodnie z procedurą przewoźnika.",
+      "steps": [
+        "Nie przekazuj ładunku wyłącznie na podstawie znajomości numeru zlecenia.",
+        "Sprawdź tożsamość i uprawnienie do odbioru według procedury firmy.",
+        "Zgłoś niezgodność dyspozytorowi lub osobie odpowiedzialnej i chroń informacje o ładunku.",
+        "Stosuj właściwe wymagania ochronne, jeśli przewóz obejmuje towary dużego ryzyka."
+      ],
+      "question_ids": [
+        "ADR-B-0304",
+        "ADR-B-0305",
+        "ADR-B-0519"
+      ],
+      "assessment_criteria": [
+        "Kursant odróżnia ochronę przed nieuprawnionym dostępem od zwykłego mocowania."
+      ],
+      "safety_boundary": "Symulacja rozmowy na fikcyjnych dokumentach; nie ujawniaj prawdziwych danych."
+    },
+    {
+      "id": "SC-ADR-B-13",
+      "module_id": "ADR-B-13",
+      "title": "Kontrola dokumentów przed wyjazdem",
+      "situation": "Podczas kontroli dokument przewozowy nie zawiera liter UN przed numerem towaru, a kod tunelowy wymaga wpisu.",
+      "steps": [
+        "Porównaj numer UN, nazwę przewozową, klasę i inne wymagane informacje z właściwym wpisem.",
+        "Sprawdź, czy dokument zawiera wymagany kod tunelowy i dane dodatkowe dla tego przewozu.",
+        "Nie zgaduj brakujących danych; uzyskaj poprawny dokument od odpowiedzialnego uczestnika.",
+        "Nie rozpoczynaj przewozu, dopóki niezgodność nie zostanie wyjaśniona."
+      ],
+      "question_ids": [
+        "ADR-B-0508",
+        "ADR-B-0525",
+        "ADR-B-0530"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje brakujące pola i rozumie, że instrukcje pisemne nie zastępują dokumentu przewozowego."
+      ],
+      "safety_boundary": "Użyj fikcyjnego dokumentu przewozowego; nie kopiuj danych rzeczywistych klientów."
+    }
+  ]
+}

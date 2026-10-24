@@ -165,3 +165,7 @@ W [raporcie lekcji 05–08](../podstawowy/raporty/etap-4t-lekcje-05-08-2026-10-2
 ## Etap 4t — przegląd lekcji 09–13 (25.10.2026)
 
 W [raporcie lekcji 09–13](../podstawowy/raporty/etap-4t-lekcje-09-13-2026-10-25.md) odnotowano brak prostego wprowadzenia i podsumowania końcowego w lekcjach 09–13 oraz skróty RID, IMDG, ICAO, LQ i UN wymagające rozwinięcia przy pierwszym objaśnieniu. Dodano krótkie wprowadzenia z przykładami kierowcy, objaśnienia skrótów i listy „Co musisz zapamiętać”. Nie zmieniono banku pytań ani statusów prawnych.
+
+## Etap 4t — scenariusze praktyczne dla 13 działów (25.10.2026)
+
+Audyt i uzupełnienie: [raport scenariuszy 13 działów](../podstawowy/raporty/etap-4t-scenariusze-praktyczne-13-dzialow-2026-10-25.md). Dodano `podstawowy/praktyka/scenariusze-13-dzialow.json` — po jednym scenariuszu krok po kroku dla każdego działu, z ID pytań z tego samego modułu i granicami bezpieczeństwa. Następny commit dodaje kontrolę Quality Gate kompletności 13 modułów, minimum trzy kroki, istnienia ID i zgodności modułu. Scenariusze są symulacjami; P1–P3 nadal wymagają rzeczywistych zajęć i oceny instruktora. Wszystkie pytania pozostają `needs_review`.
