@@ -163,3 +163,46 @@ Program kursu początkowego podstawowego przewiduje rzeczywiste ćwiczenia z uż
 - imię i rzeczywisty podpis prowadzącego, odniesienie do dziennika zajęć kursu.
 
 **Zasady bezpieczeństwa:** żadnych prawdziwych materiałów niebezpiecznych, niećwiczonych pożarów ani kontaktu z wyciekiem. Stanowisko szkoleniowe przygotowuje uprawniony prowadzący zgodnie z oceną ryzyka i wymaganiami ośrodka. Niniejsza karta jest projektem do zatwierdzenia, nie wygenerowanym dowodem uczestnictwa ani instrukcją medyczną.
+
+## Protokół instruktora i bezpieczne przeprowadzenie P1–P3 — dopracowanie 24.10.2026
+
+**Ten protokół jest narzędziem przygotowawczym, a nie potwierdzeniem wykonania ćwiczenia.** Instruktor uzupełnia go wyłącznie w trakcie rzeczywistych zajęć. Nie wpisuj z góry obecności, oceny ani podpisu.
+
+### Zasady wspólne przed każdym ćwiczeniem
+
+1. Sprawdź miejsce, sprzęt szkoleniowy, dostęp do pomocy i plan przerwania ćwiczenia; nie używaj prawdziwych towarów niebezpiecznych ani nie twórz niekontrolowanego ognia, wycieku czy ekspozycji.
+2. Przed rozpoczęciem wyjaśnij kursantom cel, zagrożenia i granice samodzielnego działania. Każdy może zgłosić niebezpieczne warunki i przerwać działanie.
+3. Zapisuj faktycznie zaobserwowane czynności, nie samą odpowiedź w quizie. W razie błędu krytycznego zatrzymaj scenariusz, wyjaśnij bezpieczne postępowanie i odnotuj potrzebę ponownej próby.
+
+### P1 — sprzęt gaśniczy
+
+- **Warunek zaliczenia obserwacji:** kursant rozpoznaje różnicę między niewielkim pożarem elementu pojazdu a pożarem obejmującym przestrzeń ładunkową; potrafi wskazać, kiedy nie wolno podejmować gaszenia i trzeba się oddalić oraz wezwać służby.
+- **Błąd krytyczny:** wejście do ładowni, otwieranie przesyłek albo gaszenie bez zapewnienia własnego bezpieczeństwa.
+- **Dowód:** instruktor zapisuje, czy kursant wykonał demonstrację i ćwiczenie na stanowisku szkoleniowym, jaki błąd zaobserwowano i czy potrzebna jest ponowna próba.
+
+### P2 — pierwsza pomoc
+
+- **Warunek zaliczenia obserwacji:** kursant ocenia bezpieczeństwo miejsca, wzywa pomoc, przekazuje informacje o zdarzeniu i wykonuje wyłącznie czynności objęte szkoleniem oraz możliwe do wykonania bez narażenia siebie.
+- **Błąd krytyczny:** podejście do poszkodowanego przez strefę skażenia bez oceny zagrożenia lub bezpośrednie dotykanie nieznanej substancji.
+- **Dowód:** opis scenariusza, obserwowane kroki, uwagi instruktora i wynik rzeczywistej próby.
+
+### P3 — awaria lub wypadek
+
+- **Warunek zaliczenia obserwacji:** kursant wskazuje bezpieczne miejsce, ostrzega innych, powiadamia służby, odczytuje dostępne dane o ładunku i przekazuje dokumenty/informacje ratownikom, jeśli można to zrobić bezpiecznie.
+- **Błąd krytyczny:** samowolne otwieranie przesyłek, wchodzenie w opary albo podejmowanie działań wykraczających poza własne możliwości.
+- **Dowód:** karta sytuacji, lista zaobserwowanych działań i konkretne uwagi do poprawy.
+
+### Minimalny formularz obserwacji (do wypełnienia na zajęciach)
+
+| Pole | Zapis rzeczywisty |
+|---|---|
+| Data, miejsce i ośrodek | Do uzupełnienia podczas zajęć |
+| Instruktor prowadzący | Imię, nazwisko i właściwe uprawnienia |
+| Kursant / identyfikacja według procedury OSK | Do uzupełnienia na miejscu |
+| Ćwiczenie | P1 / P2 / P3 |
+| Wykonane czynności | Opis obserwacji, nie deklaracja |
+| Błędy krytyczne lub uwagi | Konkretne zachowanie i wyjaśnienie |
+| Wynik | Wykonał / wymaga ponownej próby / nieocenione |
+| Potwierdzenie instruktora | Uzupełnia wyłącznie rzeczywisty prowadzący |
+
+Nie przekształcaj wyniku testu online w zaliczenie praktyki. Wymagania formalne i dokumentowanie zajęć należy sprawdzić z aktualnym prawem i procedurą ośrodka.
