@@ -76,7 +76,7 @@ class CourseConsistencyTests(unittest.TestCase):
         readme = (root / "podstawowy" / "README.md").read_text(encoding="utf-8")
         self.assertIn(f"{len(bank)} `needs_review`, 0 `verified`", readme)
         self.assertNotIn("216 rekordów", readme)
-        self.assertIn("71/566 = 12,54%", readme)
+        self.assertIn("71/569 = 12,48%", readme)
         for number in range(1, 14):
             module = f"ADR-B-{number:02d}"
             lesson = root / "podstawowy" / "lekcje" / f"{module}.md"
