@@ -129,3 +129,12 @@ Scenariusze: [SCENARIUSZE.md](../podstawowy/praktyka/SCENARIUSZE.md). Trzy wymag
 5. **ADR-B-04 i ADR-B-07:** scenariusze decyzji kierowcy i odróżniania obowiązków uczestników.
 
 **Zależność przed dopisywaniem**: każde nowe pytanie wymaga własnego źródła, wariantów A/B/C, jednoznaczności, odrębnego sprawdzenia wyjątku i odniesienia do kompetencji; istniejący skrypt `check_legal_clause_review.py` ma aktualnie zakres 216 i przy rozbudowie należy go rozszerzyć razem z audytem oraz testami, a nie wyłączać. Nie podnosić `verified` i nie eksportować banku przed podpisaną fachową recenzją. Żadnych pytań z kursu cystern.
+
+## Aktualizacja po etapach 4o i uzupełnieniu pokrycia (24.10.2026)
+
+- Bank podstawowy: **566 pytań**, wszystkie `needs_review`, **0 verified**. Etap 4o rozbudował wszystkie 90 wyjaśnień krótszych niż 300 znaków; aktualna kontrola wykazała 0 takich wyjaśnień.
+- Wewnętrzna mapa obejmuje 106 kompetencji (103 teoria, 3 praktyczne); wszystkie 103 cele teoretyczne mają przypisane pytania robocze, a każde pytanie ma mapowanie. To nie oznacza niezależnego zatwierdzenia ani pełnej głębokości wszystkich wyjątków.
+- Raport pogłębienia luk: [RAPORT-LUK-POKRYCIA-ADR-PODSTAWOWY-2026-10-24.md](RAPORT-LUK-POKRYCIA-ADR-PODSTAWOWY-2026-10-24.md). Dział B-06 osiągnął 45 pytań, B-08 40, a B-09 ma 46. Kwoty są wewnętrznym planem, nie wymogiem prawa.
+- Wszystkie 13 lekcji otrzymało kartę powtórkową dla kursanta z typowymi błędami i powiązanymi pytaniami. To redakcyjne dopracowanie, nie odbiór eksperta.
+- `podstawowy/praktyka/SCENARIUSZE.md` zawiera dopracowany protokół instruktora, kryteria obserwacji i formularz P1–P3. Formularz wolno uzupełnić tylko podczas rzeczywistych zajęć; quiz nie potwierdza wykonania praktyki.
+- Otwarta pozostaje niezależna recenzja ADR, dosłowne porównanie polskiego tekstu urzędowego ze sprostowaniem oraz odbiór lekcji i ćwiczeń przez instruktora. Nie nadano statusu `verified`.
