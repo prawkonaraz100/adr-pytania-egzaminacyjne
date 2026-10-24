@@ -93,7 +93,7 @@ Lekcje są szkicami do niezależnej recenzji, nie zatwierdzonym materiałem szko
 
 ## Wskaźnik „poprawna = najdłuższa”
 
-Próbka nie zmienia opcji odpowiedzi. Aktualny wskaźnik z raportu punktu 1 pozostaje **79/566 = 13,96% globalnie**, a wszystkie działy są poniżej 18%. Quality Gate kontroluje teraz oba poziomy.
+W tej partii próbki nie zmieniano opcji odpowiedzi. Późniejszy PR #271 dopasował osiem dystraktorów w działach B-02, B-03 i B-09. Aktualny licznik ścisły wynosi **71/566 = 12,54% globalnie**; wszystkie działy pozostają poniżej 18%, a B-02, B-03 i B-09 spadły odpowiednio do 12,50%, 12,24% i 10,87%. Quality Gate kontroluje oba poziomy.
 
 ## Ograniczenia
 
