@@ -67,3 +67,7 @@ Dostosowano 11 dystraktorów w 11 pytaniach, bez zmiany kluczy, podstaw prawnych
   - ADR-B-13: 6/35 (17.1%)
 
 Wszystkie sześć wcześniej przekraczających 18% działów mieści się teraz poniżej 18%. Zmiany mają wyłącznie charakter redakcyjny i nie są niezależnym potwierdzeniem poprawności prawnej; wszystkie 566 rekordów pozostają `needs_review`.
+
+## Partia 5 — powtarzalność wariantu 001
+
+Dopasowano generator do deterministycznego algorytmu tasowania użytego przy tworzeniu wariantu 001 i dodano test regresyjny: seed `20261024` musi odtworzyć dokładnie te same 30 ID. Dzięki temu instrukcja generowania kolejnych wariantów i wariant przykładowy nie rozjeżdżają się przy identycznym banku. Nie zmieniono treści pytań ani statusów.
