@@ -109,3 +109,11 @@ Instruktor dostarcza trzy fikcyjne rekordy towarów, z których jeden spełnia w
 ### Ocena i granice
 
 Dla każdej kompetencji zapis: „rozumie / wymaga wyjaśnienia / nieocenione” z przykładem decyzji i źródłem. Żadne wykonanie karty pracy nie zastępuje praktycznego ćwiczenia z awarii ani specjalistycznej recenzji. Dokument bazuje na temacie c załącznika nr 1 Dz.U. 2021 poz. 2150 oraz ADR 2025, części 2, 5 i 7; pełny polski tekst Dz.U. 642 ze sprostowaniem 1575 należy sprawdzić podczas odbioru. Status materiału: roboczy.
+
+## Karta kursanta — wyciek i odpady (24.10.2026)
+
+- Przy wycieku najpierw oceniaj bezpieczeństwo własne i innych; nie dotykaj substancji ani nie wchodź w opary bez odpowiednich warunków i wyposażenia.
+- Określenie „odpad” nie zastępuje klasyfikacji. Gdy skład jest nieznany, trzeba zastosować właściwą procedurę i uzyskać dane od odpowiedzialnego uczestnika.
+- **Błąd do uniknięcia:** nie spłukuj nieznanej substancji wodą i nie uznawaj małej ilości za dowód braku zagrożenia. Postępuj według instrukcji i wezwij pomoc, gdy sytuacja tego wymaga.
+
+Powtórka w banku: ADR-B-0241–0246, 0294–0295, 0343.
