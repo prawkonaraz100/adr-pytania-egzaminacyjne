@@ -1,5 +1,9 @@
 # ADR-B-09 — Przygotowanie do załadunku, mocowanie i przewóz luzem
 
+## Po co to jest?
+
+Załadunek to nie tylko włożenie towaru do pojazdu: opakowania, przestrzeń ładunkowa i mocowanie muszą pozwalać na bezpieczny przewóz. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych, a **numer UN** identyfikuje konkretną pozycję towaru w wykazie. Przykład: jeśli pas mocujący wgniata karton, nie ruszaj w trasę z takim ładunkiem — najpierw popraw mocowanie i sprawdź, czy opakowanie nie zostało uszkodzone. Przewóz luzem jest osobnym sposobem przewozu i musi być dopuszczony dla danego towaru.
+
 > **Wersja robocza 22.10.2026** — wymaga sprawdzenia przez niezależnego specjalistę ADR. Materiał szkoleniowy, nie oficjalny bank pytań ani potwierdzenie odbycia kursu.
 
 ## Jak korzystać z tej lekcji
@@ -160,3 +164,10 @@ Powtórka w banku: ADR-B-0546–0560, w tym 0554–0560.
 Przed załadunkiem widzisz uszkodzone opakowanie lub pozostałości po poprzednim ładunku. Nie przykrywaj problemu pasem mocującym ani nie zakładaj, że krótka trasa czyni go bezpiecznym. Wstrzymaj załadunek do wyjaśnienia zgodności towaru, pojazdu i sposobu przewozu. Powiązane pytania: ADR-B-0286 i ADR-B-0291–0292.
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
+
+## Co musisz zapamiętać
+
+- Przed załadunkiem sprawdź stan opakowań, przestrzeni ładunkowej, zgodność towaru i dopuszczalny sposób przewozu.
+- Mocowanie ma utrzymać ładunek bez uszkadzania opakowań; niezgodności wyjaśnij przed odjazdem.
+- Przewóz luzem wymaga dopuszczenia dla konkretnego towaru i spełnienia warunków dotyczących pojazdu.
+- Podstawy do dalszej nauki: ADR 7.3, 7.5.1, 7.5.7 i 7.5.8.
