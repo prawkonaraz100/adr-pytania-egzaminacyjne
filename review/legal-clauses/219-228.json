@@ -14,7 +14,7 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Instrukcje pisemne wskazują użycie hamulca postojowego, wyłączenie silnika i świateł awaryjnych w sytuacji awaryjnej. Należy robić to z uwzględnieniem bezpieczeństwa miejsca zatrzymania."
+          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Po awarii trzeba zabezpieczyć pojazd przed dalszym ruchem i ograniczyć zagrożenie, jeżeli jest to bezpieczne. Włączenie świateł awaryjnych, zastosowanie hamulca postojowego i wyłączenie silnika należą do podstawowych czynności. Pozostawienie pracującego silnika lub ukrywanie zdarzenia przez wyłączenie ostrzegania nie jest właściwe. Podstawa: ADR 5.4.3.4."
         },
         "B": {
           "expected_correct": false,
@@ -41,7 +41,7 @@
           "C": "Nie włączać świateł awaryjnych, żeby nie zwracać uwagi"
         },
         "correct_option": "A",
-        "explanation": "Instrukcje pisemne wskazują użycie hamulca postojowego, wyłączenie silnika i świateł awaryjnych w sytuacji awaryjnej. Należy robić to z uwzględnieniem bezpieczeństwa miejsca zatrzymania.",
+        "explanation": "Po awarii trzeba zabezpieczyć pojazd przed dalszym ruchem i ograniczyć zagrożenie, jeżeli jest to bezpieczne. Włączenie świateł awaryjnych, zastosowanie hamulca postojowego i wyłączenie silnika należą do podstawowych czynności. Pozostawienie pracującego silnika lub ukrywanie zdarzenia przez wyłączenie ostrzegania nie jest właściwe. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -88,7 +88,7 @@
           "C": "Tylko planowaną godzinę rozładunku"
         },
         "correct_option": "A",
-        "explanation": "Podczas powiadamiania służb liczą się charakter zdarzenia, jego lokalizacja i posiadane informacje o przewożonym niebezpiecznym ładunku. Kierowca nie powinien narażać się na niebezpieczeństwo dla zdobycia dodatkowych danych.",
+        "explanation": "Służby ratownicze muszą wiedzieć, gdzie nastąpiło zdarzenie, co się stało i jakie zagrożenie może stwarzać ładunek. Dlatego należy przekazać im dostępne, pewne informacje o przewożonym towarze. Kolor kabiny albo godzina planowanego rozładunku nie pomogą rozpoznać ryzyka. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -135,7 +135,7 @@
           "C": "Po stronie zawietrznej, aby widzieć kierunek przemieszczania chmury"
         },
         "correct_option": "B",
-        "explanation": "Instrukcje pisemne wymagają unikania kontaktu z substancją i wdychania dymu, pyłu lub oparów oraz pozostawania po stronie nawietrznej.",
+        "explanation": "Gdy z opakowania wydostają się opary, najlepiej zachować bezpieczną odległość i stanąć po stronie nawietrznej, aby wiatr nie kierował chmury w stronę kierowcy. Podchodzenie blisko wycieku lub pozostawanie po stronie zawietrznej zwiększa ryzyko wdychania substancji. Należy unikać kontaktu z uwolnionym materiałem. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -155,7 +155,7 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Zgodnie z pisemnymi instrukcjami załoga nie powinna próbować zwalczać pożaru obejmującego przedział ładunkowy. Priorytetem jest bezpieczeństwo i wezwanie odpowiednich służb."
+          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Pożar przedziału ładunkowego z towarami niebezpiecznymi może bardzo szybko zagrozić życiu załogi. Nie należy próbować gasić takiego pożaru samodzielnie; trzeba oddalić się i wezwać odpowiednie służby. Otwieranie opakowań albo gaszenie za wszelką cenę może tylko zwiększyć zagrożenie. Podstawa: ADR 5.4.3.4."
         },
         "B": {
           "expected_correct": false,
@@ -182,7 +182,7 @@
           "C": "Otworzyć wszystkie opakowania, aby sprawdzić źródło pożaru"
         },
         "correct_option": "A",
-        "explanation": "Zgodnie z pisemnymi instrukcjami załoga nie powinna próbować zwalczać pożaru obejmującego przedział ładunkowy. Priorytetem jest bezpieczeństwo i wezwanie odpowiednich służb.",
+        "explanation": "Pożar przedziału ładunkowego z towarami niebezpiecznymi może bardzo szybko zagrozić życiu załogi. Nie należy próbować gasić takiego pożaru samodzielnie; trzeba oddalić się i wezwać odpowiednie służby. Otwieranie opakowań albo gaszenie za wszelką cenę może tylko zwiększyć zagrożenie. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -229,7 +229,7 @@
           "C": "Dopiero po otwarciu wszystkich przesyłek"
         },
         "correct_option": "A",
-        "explanation": "Instrukcje ADR rozróżniają niewielki pożar pojazdu, przy którym użycie podręcznej gaśnicy może być rozważone, od pożaru przedziału ładunkowego. Nie wolno ryzykować zdrowia lub życia.",
+        "explanation": "Niewielki pożar opony można rozważyć do ugaszenia gaśnicą tylko wtedy, gdy załoga nie naraża się na niebezpieczeństwo i ma bezpieczną drogę ucieczki. Nie ma obowiązku podejmować gaszenia w każdej sytuacji. Otwieranie przesyłek nie pomaga w bezpiecznym gaszeniu opony. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -276,7 +276,7 @@
           "C": "Poprosić osoby postronne o pomoc przy wycieku"
         },
         "correct_option": "B",
-        "explanation": "Załoga ma ostrzec innych o zagrożeniu, zalecić oddalenie się i stosować do poleceń służb ratowniczych. Nie wolno angażować osób postronnych w niebezpieczne czynności.",
+        "explanation": "Podczas awarii trzeba ostrzec osoby postronne, ponieważ mogą nie zdawać sobie sprawy z zagrożenia stwarzanego przez towar. Należy poprosić je o oddalenie się i stosowanie do poleceń ratowników. Pozwalanie na obserwowanie wycieku z bliska albo proszenie o pomoc przy rozlewie naraża je na niebezpieczeństwo. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -296,7 +296,7 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: W zdarzeniu ADR najpierw trzeba zadbać o własne bezpieczeństwo i nie narażać innych. Pierwsza pomoc jest udzielana w bezpiecznych warunkach odpowiednio do sytuacji i przygotowania. Wykonanie ćwiczenia ocenia rzeczywisty instruktor."
+          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Zanim kursant podejdzie do poszkodowanego przy nieznanym wycieku, musi ocenić, czy sam nie znajdzie się w strefie zagrożenia. Trzeba zadbać o bezpieczeństwo i wezwać właściwą pomoc. Szukanie dokumentów u rannego czy przenoszenie opakowań przed rozpoznaniem ryzyka może doprowadzić do kolejnych obrażeń. Podstawa: ADR 5.4.3.4."
         },
         "B": {
           "expected_correct": false,
@@ -323,7 +323,7 @@
           "C": "Czy można od razu przenieść wszystkie uszkodzone opakowania"
         },
         "correct_option": "A",
-        "explanation": "W zdarzeniu ADR najpierw trzeba zadbać o własne bezpieczeństwo i nie narażać innych. Pierwsza pomoc jest udzielana w bezpiecznych warunkach odpowiednio do sytuacji i przygotowania. Wykonanie ćwiczenia ocenia rzeczywisty instruktor.",
+        "explanation": "Zanim kursant podejdzie do poszkodowanego przy nieznanym wycieku, musi ocenić, czy sam nie znajdzie się w strefie zagrożenia. Trzeba zadbać o bezpieczeństwo i wezwać właściwą pomoc. Szukanie dokumentów u rannego czy przenoszenie opakowań przed rozpoznaniem ryzyka może doprowadzić do kolejnych obrażeń. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -370,7 +370,7 @@
           "C": "Usunąć cały opis, pozostawiając masę brutto"
         },
         "correct_option": "A",
-        "explanation": "Standardowy opis towaru niebezpiecznego w dokumencie przewozowym obejmuje litery UN i numer identyfikacyjny. Wyjątki od obowiązku dokumentowania należy rozpatrywać odrębnie.",
+        "explanation": "Numer UN identyfikuje przewożony materiał, dlatego w standardowym dokumencie ADR wpisuje się cztery cyfry poprzedzone literami UN. Sama nazwa handlowa nie zastępuje tego identyfikatora. Usunięcie całego opisu i pozostawienie masy również nie spełnia wymogu. Podstawa: ADR 5.4.1.1.1(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -398,7 +398,7 @@
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.1.1.1(e): Standardowy dokument ADR wymaga wskazania liczby i opisu sztuk przesyłek, jeżeli przepis ma zastosowanie. Sam numer UN nie zastępuje tych informacji."
+          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.1.1.1(e): Liczba i rodzaj sztuk przesyłek informują, ile opakowań zawiera ładunek i w jakiej postaci jest przewożony. Jeśli ADR wymaga tych danych, trzeba je dopisać do dokumentu. Sam numer UN nie mówi, ile paczek znajduje się w pojeździe, a liczba miejsc parkingowych jest bez znaczenia. Podstawa: ADR 5.4.1.1.1(e)."
         }
       },
       "observed_answer_key": "C",
@@ -417,7 +417,7 @@
           "C": "Dopisać wymagane dane o liczbie i rodzaju sztuk przesyłek"
         },
         "correct_option": "C",
-        "explanation": "Standardowy dokument ADR wymaga wskazania liczby i opisu sztuk przesyłek, jeżeli przepis ma zastosowanie. Sam numer UN nie zastępuje tych informacji.",
+        "explanation": "Liczba i rodzaj sztuk przesyłek informują, ile opakowań zawiera ładunek i w jakiej postaci jest przewożony. Jeśli ADR wymaga tych danych, trzeba je dopisać do dokumentu. Sam numer UN nie mówi, ile paczek znajduje się w pojeździe, a liczba miejsc parkingowych jest bez znaczenia. Podstawa: ADR 5.4.1.1.1(e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -464,7 +464,7 @@
           "C": "Umieścić je w kabinie załogi w łatwo dostępnym miejscu"
         },
         "correct_option": "C",
-        "explanation": "Instrukcje pisemne muszą być w kabinie załogi i łatwo dostępne. To element przygotowania do bezpiecznego reagowania na awarie.",
+        "explanation": "Instrukcje pisemne mają pomóc załodze podczas awarii, więc muszą znajdować się w kabinie w miejscu łatwo dostępnym. Zamknięta skrzynka poza kabiną utrudnia szybkie skorzystanie z nich. Dokument pozostawiony u spedytora ani sam numer telefonu do firmy nie zastępują instrukcji. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
