@@ -8,14 +8,14 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 2. **ADR specjalistyczny: cysterny — etap kolejny**, po zakończeniu i zatwierdzeniu podstawowego.
 3. Inne specjalizacje poza bieżącym zakresem.
 
-## Stan na 24.10.2026 — po etapie 4p
+## Stan na 25.10.2026 — po etapie 4t
 
-- [x] Bank ADR podstawowy: **566 pytań**; **566 `needs_review` / 0 `verified`**.
-- [x] 103/103 wewnętrznych celów teorii ma pytania robocze; 3/3 cele praktyczne mają scenariusze, ale wykonanie wymaga rzeczywistych zajęć i potwierdzenia instruktora.
+- [x] Bank ADR podstawowy: **569 pytań**; **569 `needs_review` / 0 `verified`**.
+- [x] 104/104 wewnętrznych celów teorii ma pytania robocze; 3/3 cele praktyczne mają scenariusze, ale wykonanie wymaga rzeczywistych zajęć i potwierdzenia instruktora.
 - [x] 13/13 lekcji ma mapę ID pytań i przykłady praktyczne; Quality Gate sprawdza, że wskazane ID istnieją w banku.
 - [x] Dodano egzamin próbny 30-pytaniowy (60 min, próg treningowy 20/30), osobny klucz i generator wariantów proporcjonalnych do 13 działów.
 - [x] Quality Gate sprawdza unikalne ID egzaminu, zgodność klucza i powtarzalność wariantu 001.
-- [x] Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą” wynosi **79/566 = 13,96%**; każdy z 13 działów jest poniżej 18%.
+- [x] Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą” wynosi **71/569 = 12,48%**; każdy z 13 działów jest poniżej 18%.
 - [ ] Pełne porównanie polskiego tekstu ADR 2025 i sprostowania oraz niezależna recenzja wszystkich odpowiedzi A/B/C.
 - [ ] Odbiór merytoryczny lekcji przez instruktora i rzeczywiste wykonanie ćwiczeń praktycznych.
 
@@ -99,3 +99,10 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - [Rozporządzenie o egzaminach (Dz.U. 2024 poz. 964)](https://eli.gov.pl/api/acts/DU/2024/964/text.html)
 
 **Charakter projektu:** nieoficjalna platforma edukacyjna, niezwiązana z komisją egzaminacyjną ani organem administracji.
+
+
+## Aktualizacja etapu 4t — 25.10.2026
+
+- Audyt porównał 13 tematów polskiego programu z ADR 2025 8.2.2.3.2(a)–(n). Zidentyfikowano brak wyodrębnionego celu odpowiedzialności cywilnej i dodano ADR-B-07-K07 oraz pytania 0567–0569.
+- Szczegóły: [raport pokrycia](podstawowy/raporty/etap-4t-pokrycie-programu-2026-10-25.md).
+- Bank: 569 `needs_review`, 0 `verified`. Dalsze kroki wymagają PASS Quality Gate i niezależnej recenzji prawnej.
