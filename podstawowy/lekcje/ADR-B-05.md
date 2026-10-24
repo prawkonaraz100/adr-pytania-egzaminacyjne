@@ -188,3 +188,11 @@ Gaśnice przewożone jako wyposażenie ADR powinny być prawidłowo zamocowane, 
 Fikcyjna mapa kolizji, instrukcje pisemne ADR 5.4.3, lista wyposażenia 8.1.5, zestaw kart ról uczestników i dokumentów przekazywanych ratownikom. Kryteria: „rozumie / wymaga wyjaśnienia / nieocenione”, z zapisaniem błędnej reakcji i uzasadnieniem. **Trzy praktyczne cele ADR-B-05-K13–K15 pozostają poza zaliczeniem teoretycznym.** Realizacja P1–P3 musi być odnotowana osobno przez instruktora.
 
 Źródła: urzędowy program Dz.U. 2021 poz. 2150, zał. 1 temat e i przepisy o praktyce; ADR 2025 5.4.3, 8.1.4, 8.1.5 w Dz.U. 642 i sprostowaniu 1575. Wszystkie materiały pozostają szkicem, do kontroli prawa i odbioru instruktażu.
+
+## Karta kursanta — awaria i pierwsza pomoc (24.10.2026)
+
+- Najpierw chroń siebie i innych, oceń zagrożenie i wezwij służby. Przekaż miejsce zdarzenia, znane informacje o ładunku i dokumenty ratownikom, jeśli można to zrobić bezpiecznie.
+- Nie próbuj gasić pożaru obejmującego przestrzeń ładunkową i nie otwieraj uszkodzonych przesyłek. Mały pożar elementu pojazdu to inna sytuacja, ale działanie jest dopuszczalne tylko przy zachowaniu bezpieczeństwa.
+- **Błąd do uniknięcia:** test online nie zalicza ćwiczeń. P1–P3 muszą zostać przeprowadzone i ocenione przez instruktora, z osobnym zapisem realizacji.
+
+Powtórka w banku: ADR-B-0308, 0362, 0435. Ćwiczenia praktyczne: P1–P3 w `podstawowy/praktyka/SCENARIUSZE.md`.
