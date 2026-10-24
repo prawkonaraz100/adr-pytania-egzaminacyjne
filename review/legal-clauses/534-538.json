@@ -36,9 +36,9 @@
         "module_id": "ADR-B-01",
         "stem": "Na terminalu połączono kilka opakowań LQ w opakowanie zbiorcze. Oznaczenia LQ poszczególnych sztuk są niewidoczne. Jak powinno być oznakowane opakowanie zbiorcze?",
         "options": {
-          "A": "Znakiem LQ i napisem OVERPACK, zgodnie z warunkami 3.4.11.",
-          "B": "Tylko numerami UN bez wymaganego napisu opakowania zbiorczego.",
-          "C": "Wyłącznie listą przewozową umieszczoną pod folią ochronną."
+          "A": "Oznakować znakiem LQ i napisem OVERPACK, zgodnie z 3.4.11",
+          "B": "Umieścić wyłącznie numery UN, pomijając wymagany napis opakowania zbiorczego",
+          "C": "Włożyć listę przewozową pod folię i uznać ją za zastępstwo oznakowania LQ"
         },
         "correct_option": "A",
         "explanation": "Jeśli znaki LQ na poszczególnych opakowaniach są zasłonięte w opakowaniu zbiorczym, opakowanie zbiorcze musi zostać odpowiednio oznakowane, w tym znakiem LQ i napisem „OVERPACK”, zgodnie z warunkami przepisu. Same numery UN ani ukryty list przewozowy nie zastępują tych oznaczeń. Podstawa: ADR 3.4.11.",
@@ -83,9 +83,9 @@
         "module_id": "ADR-B-01",
         "stem": "Nadawca przekazuje przewoźnikowi partię towarów w ilościach ograniczonych LQ. Jaką informację powinien przed przewozem przekazać mu w możliwej do udokumentowania formie?",
         "options": {
-          "A": "Liczbę pojazdów, które uprzednio pokonały trasę przewozu.",
-          "B": "Całkowitą masę brutto przewożonych towarów LQ.",
-          "C": "Wyłącznie szczegółowy harmonogram zmian kierowców."
+          "A": "Podać liczbę pojazdów, które wcześniej pokonały planowaną trasę dostawy",
+          "B": "Przekazać całkowitą masę brutto przewożonych towarów w ilościach ograniczonych LQ",
+          "C": "Podać wyłącznie szczegółowy harmonogram zmian kierowców oraz plan przerw na trasie"
         },
         "correct_option": "B",
         "explanation": "Nadawca towarów w ilościach ograniczonych powinien przed przewozem przekazać przewoźnikowi informację o całkowitej masie brutto LQ w sposób, który można udokumentować. Liczba pojazdów na danej trasie ani grafik kierowców nie pozwalają ustalić ilości LQ. Informacja musi dotrzeć do przewoźnika przed rozpoczęciem przewozu. Podstawa: ADR 3.4.12.",
@@ -130,9 +130,9 @@
         "module_id": "ADR-B-13",
         "stem": "Na kontroli dokumentów stwierdzono, że opis pozycji ADR zawiera właściwe dane UN, nazwę przewozową, klasę, grupę pakowania i kod tunelowy, ale zapisano je w przypadkowej kolejności. Co należy sprawdzić?",
         "options": {
-          "A": "Czy nadawca wypełnił pola dowolnie, ponieważ kolejność nigdy nie ma znaczenia.",
-          "B": "Czy kod tunelowy umieszczono przed numerem UN, niezależnie od reszty danych.",
-          "C": "Czy podstawowe dane wskazane w 5.4.1.1.1 zachowują wymaganą kolejność."
+          "A": "Sprawdzić, czy kolejność danych można dowolnie zmieniać bez wpływu na wymagania ADR",
+          "B": "Umieścić kod tunelowy przed numerem UN, niezależnie od pozostałych elementów opisu",
+          "C": "Sprawdzić, czy dane z 5.4.1.1.1 podano w wymaganej kolejności"
         },
         "correct_option": "C",
         "explanation": "Dane wymagane w opisie towaru nie mogą być wpisywane w przypadkowej kolejności. ADR określa kolejność podstawowych elementów, takich jak numer UN, nazwa przewozowa, klasa, grupa pakowania i kod tunelowy, z uwzględnieniem szczególnych wyjątków. Dowolna zamiana pól może utrudnić prawidłowe odczytanie dokumentu. Podstawa: ADR 5.4.1.1.1.",
@@ -177,9 +177,9 @@
         "module_id": "ADR-B-13",
         "stem": "W jednym dokumencie przewozowym wykazano dwa różne towary niebezpieczne, o innych numerach UN. Co należy sprawdzić przy podawaniu całkowitej ilości zgodnie z 5.4.1.1.1(f)?",
         "options": {
-          "A": "Ilość oddzielnie dla każdego rodzaju towaru niebezpiecznego.",
-          "B": "Czy wpisano jedną liczbę dla całego ładunku bez rozróżnienia opisywanych towarów.",
-          "C": "Czy zastąpiono ilość samą masą własną pustego pojazdu."
+          "A": "Podać całkowitą ilość osobno dla każdego rodzaju towaru niebezpiecznego",
+          "B": "Wpisać jedną łączną liczbę dla całego ładunku, bez rozróżniania różnych towarów",
+          "C": "Zastąpić ilość towaru masą własną pojazdu, aby uprościć dokumentację"
         },
         "correct_option": "A",
         "explanation": "Gdy dokument obejmuje kilka różnych towarów niebezpiecznych, ilość należy podać oddzielnie dla każdego właściwie rozróżnionego rodzaju towaru i w wymaganej jednostce. Jedna suma bez rozdzielenia może ukryć, ile przypada na konkretny numer UN. Masa własna pojazdu nie jest ilością przewożonego towaru. Podstawa: ADR 5.4.1.1.1(f).",
@@ -224,9 +224,9 @@
         "module_id": "ADR-B-13",
         "stem": "Nadawca dzieli przesyłkę między dwa pojazdy, bo nie mieści się w jednym. Jak rozwiązuje kwestię dokumentów przewozowych według 5.4.1.4.2?",
         "options": {
-          "A": "Sporządza jeden dokument i pozostawia go w wybranym pojeździe.",
-          "B": "Tyle dokumentów lub kopii, ile załadowano jednostek transportowych.",
-          "C": "Zastępuje dokumentację ustnym przekazaniem informacji każdemu kierowcy."
+          "A": "Wystawić jeden dokument i pozostawić go tylko w jednym z pojazdów zestawu",
+          "B": "Dokument lub kopia dla każdej załadowanej jednostki transportowej",
+          "C": "Zastąpić dokumentację ustnym przekazaniem informacji każdemu z kierowców"
         },
         "correct_option": "B",
         "explanation": "Jeżeli ładunek zostaje rozdzielony między kilka jednostek transportowych, dokumentacja musi być dostępna dla każdej z nich. Dlatego należy przygotować tyle odrębnych dokumentów lub kopii, ile załadowano jednostek. Jeden dokument pozostawiony w wybranym pojeździe ani ustne przekazanie danych nie zapewnia wymaganej dokumentacji pozostałym kierowcom. Podstawa: ADR 5.4.1.4.2.",
