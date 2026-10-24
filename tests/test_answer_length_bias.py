@@ -44,3 +44,13 @@ class BiasMetricTests(unittest.TestCase):
         self.assertEqual((n,den),(2,3))
         self.assertTrue(over)
         self.assertEqual(modules,["ADR-B-01"])
+
+    def test_strict_fails_when_any_module_exceeds_limit_even_if_global_passes(self):
+        rows = [rec("ADR-B-01", ["short", "longest", "mid"], "B") for _ in range(2)]
+        rows.extend(rec("ADR-B-02", ["much longer", "mid", "tiny"], "C") for _ in range(8))
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "questions.jsonl"
+            path.write_text("\n".join(json.dumps(row) for row in rows), encoding="utf-8")
+            # Global rate is 20%, below the 40% test threshold, but module 02 is 100%.
+            self.assertEqual(main(["--questions", str(path), "--threshold", "0.40", "--strict-global"]), 0)
+            self.assertEqual(main(["--questions", str(path), "--threshold", "0.40", "--strict"]), 1)
