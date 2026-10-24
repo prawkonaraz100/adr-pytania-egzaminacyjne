@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 24.10.2026, main `1d2e5ae`: 566 pytań roboczych; 566 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 25.10.2026, po audycie pokrycia: 569 pytań roboczych; 569 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Jak korzystać z kursu
 
@@ -55,7 +55,7 @@ python scripts/check_explanation_quality.py --minimum 300
 python -m unittest discover -s tests -v
 ```
 
-Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **71/566 = 12,54%**, próg Quality Gate: 18%. Wewnętrzna mapa 103 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
+Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **71/569 = 12,48%**, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
 
 ## Status weryfikacji
 
@@ -65,3 +65,8 @@ Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **71/56
 - Prawo: pełne porównanie każdego punktu z polskim tekstem urzędowym i sprostowaniem oraz niezależna recenzja specjalisty pozostają otwarte.
 
 **Nie przechodź do kursu cystern ani innych specjalizacji przed zamknięciem kursu podstawowego i niezależną weryfikacją.**
+
+
+## Aktualizacja po audycie pokrycia 4t
+
+Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogólnych zasad odpowiedzialności cywilnej wskazanych w ADR 8.2.2.3.2(k). Raport: [ETAP 4t](raporty/etap-4t-pokrycie-programu-2026-10-25.md). Bank ma 569 pytań, wszystkie `needs_review`, 0 `verified`; wskaźnik „poprawna = najdłuższa” wynosi 71/569 = 12,48% według ścisłego kryterium CI.

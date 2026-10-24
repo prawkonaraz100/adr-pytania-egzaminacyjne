@@ -149,3 +149,7 @@ Scenariusze: [SCENARIUSZE.md](../podstawowy/praktyka/SCENARIUSZE.md). Trzy wymag
 - Dodatkowy test potwierdza, że wszystkie ID jawnie zapisane w mapach 13 lekcji istnieją w banku.
 - Długość odpowiedzi: 71/566 (12,54%) globalnie; B-01 17,1%, B-02 12,5%, B-03 12,2%, B-04 11,4%, B-05 15,0%, B-06 8,9%, B-07 7,0%, B-08 17,5%, B-09 10,9%, B-10 7,3%, B-11 17,1%, B-12 14,0%, B-13 17,1%.
 - Nadal **0 verified**. Weryfikacja pełnego polskiego tekstu ADR 2025 wraz ze sprostowaniem i niezależna recenzja A/B/C pozostają otwarte. Nie traktować egzaminu próbnego jako prawnie zatwierdzonego.
+
+## Aktualizacja etapu 4t — odpowiedzialność cywilna (25.10.2026)
+
+Audyt szczegółowy: [`podstawowy/raporty/etap-4t-pokrycie-programu-2026-10-25.md`](../podstawowy/raporty/etap-4t-pokrycie-programu-2026-10-25.md). Dodano kompetencję ADR-B-07-K07 i pytania ADR-B-0567–0569, aby wyodrębnić temat ogólnej odpowiedzialności cywilnej wskazany w ADR 8.2.2.3.2(k). Bank ma 569 pytań; wszystkie pozostają `needs_review`, zero `verified`. Próg co najmniej 3 pytań na kompetencję jest roboczy, a nie prawny. Audyt nie poświadcza pełnej różnorodności typów pytań ani prawnej poprawności; wymagane pozostają niezależna recenzja i kontrola polskiego tekstu urzędowego.

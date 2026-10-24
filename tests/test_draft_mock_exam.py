@@ -40,7 +40,7 @@ class DraftExamTests(unittest.TestCase):
   self.assertEqual(second["seed"],20261025);self.assertEqual(second["variant"],2)
   self.assertEqual(second["excluded_question_ids"],sorted(first_ids))
   self.assertEqual(second_ids,[a["id"] for a in key["answers"]])
-  self.assertEqual([q["id"] for q in draw_exam(rows,20261025,first_ids,2,"4461211b32bfaeecb38c2bdc76cd14998d031204")[0]["questions"]],second_ids)
+  self.assertEqual([q["id"] for q in draw_exam(rows,20261025,first_ids,2,"dac5ecc0ac3191c4db8afa5873e208a5f48bbeeb")[0]["questions"]],second_ids)
   by_id={q["id"]:q for q in rows}
   self.assertTrue(set(second_ids)<=set(by_id))
   for ans in key["answers"]:

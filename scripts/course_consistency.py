@@ -116,12 +116,12 @@ def audit(root: Path):
     modules = {f"ADR-B-{n:02d}" for n in range(1, 14)}
     if {q["module_id"] for q in questions} != modules:
         failures.append("Question bank does not cover all 13 basic modules")
-    if len(matrix) != 106:
-        warnings.append(f"Expected 106 internal competencies, found {len(matrix)}")
+    if len(matrix) != 107:
+        warnings.append(f"Expected 107 internal competencies, found {len(matrix)}")
     theory = [o for o in matrix if o["delivery"] == "theory"]
     practical = [o for o in matrix if o["delivery"] == "practical"]
-    if len(theory) != 103 or len(practical) != 3:
-        failures.append("Expected 103 theoretical and 3 practical competencies")
+    if len(theory) != 104 or len(practical) != 3:
+        failures.append("Expected 104 theoretical and 3 practical competencies")
     linked = Counter()
     for c in matrix:
         for id in c["question_ids"]:

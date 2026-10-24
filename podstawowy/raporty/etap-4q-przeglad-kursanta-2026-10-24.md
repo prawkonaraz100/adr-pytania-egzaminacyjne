@@ -138,3 +138,7 @@ To próbkowy przegląd redakcyjny, nie ekspertyza prawna. Nie potwierdza prawid�
 | ADR-B-0538 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
 
 „PASS” oznacza wyłącznie ocenę redakcyjną w próbce, nie potwierdzenie zgodności prawnej. W siedmiu wskazanych rekordach problemem była przystępność słownictwa, nie wykryta sprzeczność merytoryczna.
+
+## Dopisek po rozszerzeniu banku — 25.10.2026
+
+Po dodaniu pytań ADR-B-0567–0569 odtworzono deterministyczną próbkę 4q dla banku 569 rekordów przy zachowaniu seeda `202610250050`. Aktualny zestaw ID jest zapisany w `etap-4q-probka.json`. Trzy nowe pytania otrzymały oddzielne uzasadnienia A/B/C w `review/legal-clauses/567-569.json`; pozostają `needs_review`.
