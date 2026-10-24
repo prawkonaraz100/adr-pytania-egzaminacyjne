@@ -432,9 +432,9 @@
       "exact_record_snapshot": {
         "stem": "Kto według ADR 5.4.2 ma przekazać przewoźnikowi morskiemu świadectwo pakowania kontenera?",
         "options": {
-          "A": "Kierowca autobusu",
+          "A": "Kierowca autobusu wyznaczony przez firmę do odbioru dokumentów",
           "B": "Osoby odpowiedzialne za pakowanie kontenera",
-          "C": "Dowolny pracownik ochrony portu"
+          "C": "Pracownik ochrony portu, który nie uczestniczył w pakowaniu kontenera"
         },
         "correct_option": "B",
         "explanation": "Świadectwo pakowania kontenera przekazują przewoźnikowi morskiemu osoby odpowiedzialne za pakowanie. Nie jest to zadanie przypadkowego pracownika ochrony ani kierowcy autobusu. Osoba odpowiedzialna musi potwierdzić informacje zgodnie z wymaganiami dotyczącymi przygotowania kontenera do transportu. Podstawa: ADR 5.4.2.",
@@ -473,9 +473,9 @@
       "exact_record_snapshot": {
         "stem": "Czy funkcję świadectwa pakowania kontenera i dokumentu przewozowego ADR wolno w określonych warunkach połączyć w jednym dokumencie?",
         "options": {
-          "A": "Nie, muszą zawsze być trzy osobne pliki",
-          "B": "Tak, jeśli zawiera wymagane oświadczenie i identyfikację osoby odpowiedzialnej",
-          "C": "Tak, bez wymaganych informacji"
+          "A": "Nie; oba dokumenty muszą zawsze pozostać osobne, nawet jeśli zawierają te same dane",
+          "B": "Tak, jeśli dokument zawiera wymagane oświadczenie oraz dane osoby odpowiedzialnej",
+          "C": "Tak; dokumenty można połączyć, pomijając oświadczenie i dane osoby odpowiedzialnej"
         },
         "correct_option": "B",
         "explanation": "ADR dopuszcza połączenie świadectwa pakowania kontenera i dokumentu przewozowego w jednym dokumencie, jeśli zawiera on wymagane oświadczenie oraz identyfikację osoby odpowiedzialnej. Nie trzeba tworzyć kilku plików tylko dla samej liczby dokumentów, ale nie można też pominąć wymaganych informacji. Podstawa: ADR 5.4.2.",
@@ -514,9 +514,9 @@
       "exact_record_snapshot": {
         "stem": "W morskim łańcuchu transportowym ładunek jest przewożony w pojeździe, a nie kontenerze. Co mówi ADR 5.4.2 o świadectwie pakowania pojazdu?",
         "options": {
-          "A": "Nie jest ono nigdy dopuszczalne",
-          "B": "Może być dołączone do dokumentu przewozowego",
-          "C": "Musi zastąpić prawo jazdy kierowcy"
+          "A": "Nie; świadectwo pakowania pojazdu nie może być dołączone do dokumentu przewozowego",
+          "B": "Może być dołączone do dokumentu przewozowego, jeśli spełniono wymagania ADR",
+          "C": "Musi zastąpić dokument przewozowy oraz prawo jazdy kierowcy"
         },
         "correct_option": "B",
         "explanation": "Dla przewozu pojazdu w określonym łańcuchu morskim ADR dopuszcza dołączenie świadectwa pakowania pojazdu do dokumentu przewozowego. Nie jest więc prawdą, że świadectwo nigdy nie jest dopuszczalne ani że zastępuje prawo jazdy. Należy spełnić wymagania dokumentacyjne dotyczące konkretnego przewozu. Podstawa: ADR 5.4.2.",
@@ -555,9 +555,9 @@
       "exact_record_snapshot": {
         "stem": "Czy ADR 5.4.2 wymaga świadectwa pakowania kontenera dla przenośnej cysterny wyłącznie z tego powodu, że będzie przewożona statkiem?",
         "options": {
-          "A": "Nie, dla cystern przenośnych świadectwo to nie jest wymagane",
-          "B": "Tak, we wszystkich przypadkach",
-          "C": "Tak, jeśli jest pusta i wyczyszczona"
+          "A": "Nie; samo przewożenie przenośnej cysterny statkiem nie wymaga takiego świadectwa",
+          "B": "Tak; świadectwo jest wymagane dla każdej przenośnej cysterny przewożonej statkiem",
+          "C": "Tak; świadectwo jest wymagane tylko wtedy, gdy cysterna jest pusta i czysta"
         },
         "correct_option": "A",
         "explanation": "Świadectwo pakowania kontenera z ADR 5.4.2 nie jest wymagane wyłącznie dlatego, że przenośna cysterna będzie przewożona statkiem; przepis przewiduje tu wyjątek. Nie oznacza to jednak zwolnienia z wszelkich dokumentów lub zabezpieczeń. Trzeba sprawdzić wymagania właściwe dla przenośnej cysterny i danego łańcucha transportowego. Podstawa: ADR 5.4.2.",
@@ -596,9 +596,9 @@
       "exact_record_snapshot": {
         "stem": "Kierowca korzysta z odstępstwa ADR 1.1.4.2.1. Jaki wpis dokumentowy przewiduje 5.4.1.1.7?",
         "options": {
-          "A": "Informację o przewozie zgodnym z 1.1.4.2.1",
-          "B": "Wyłącznie hasło 'bezpieczny ładunek'",
-          "C": "Tylko numer telefonu odbiorcy"
+          "A": "Wpisać wymaganą informację, że przewóz odbywa się zgodnie z przepisem 1.1.4.2.1 ADR",
+          "B": "Wpisać ogólne hasło „bezpieczny ładunek”, bez podania podstawy zastosowanego odstępstwa",
+          "C": "Wpisać numer telefonu odbiorcy, bez informacji o przepisie, na podstawie którego przewóz się odbywa"
         },
         "correct_option": "A",
         "explanation": "Jeśli przewóz korzysta z odstępstwa ADR 1.1.4.2.1, dokument przewozowy musi zawierać wymaganą adnotację o zgodności z tym przepisem. Ogólne hasło „bezpieczny ładunek” ani sam numer telefonu odbiorcy nie informują, z jakiej zasady korzysta przewóz. Wpis powinien odpowiadać treści wymaganej przez ADR. Podstawa: ADR 5.4.1.1.7.",
@@ -637,9 +637,9 @@
       "exact_record_snapshot": {
         "stem": "Kontener z towarem niebezpiecznym wyrusza drogą do portu. Czy sam przejazd do portu uprawnia do niestosowania całego ADR?",
         "options": {
-          "A": "Tak, zawsze",
-          "B": "Nie; stosuje się zwykłe wymagania albo konkretny warunkowy wyjątek",
-          "C": "Tak, jeśli pojazd ma rejestrację zagraniczną"
+          "A": "Tak; sam dojazd do portu zawsze wyłącza cały przewóz drogowy spod ADR",
+          "B": "Nie; ADR obowiązuje, chyba że spełniono warunki konkretnego wyjątku",
+          "C": "Tak; zagraniczna rejestracja pojazdu automatycznie znosi wymagania ADR"
         },
         "correct_option": "B",
         "explanation": "Sama jazda do portu nie zwalnia automatycznie z wymagań ADR. Należy stosować zwykłe przepisy drogowe albo konkretny wyjątek, jeśli wszystkie jego warunki są spełnione. Zagraniczna rejestracja pojazdu nie zmienia tego obowiązku. Podstawa: ADR 1.1.4.2.",
@@ -678,9 +678,9 @@
       "exact_record_snapshot": {
         "stem": "W łańcuchu obejmującym transport lotniczy paczka spełnia ICAO TI zamiast części wymagań oznakowania ADR. Która zasada może mieć zastosowanie?",
         "options": {
-          "A": "Warunkowe uznanie z 1.1.4.2.1, jeśli spełniono jego wymagania",
-          "B": "Wymagania ADR znikają na każdej drodze",
-          "C": "Wystarczy naklejka przewoźnika lotniczego"
+          "A": "Oznakowanie ICAO TI może być uznane warunkowo, po spełnieniu właściwych wymagań ADR",
+          "B": "Każdy przejazd drogowy po locie jest całkowicie zwolniony z wymagań ADR",
+          "C": "Wystarczy naklejka linii lotniczej, nawet bez spełnienia warunków przewidzianych w ADR"
         },
         "correct_option": "A",
         "explanation": "ADR może uznać określone oznakowanie zgodne z ICAO TI w łańcuchu obejmującym transport lotniczy, ale tylko wtedy, gdy spełniono warunki wskazane w przepisie. Nie oznacza to, że wszystkie wymagania drogowe znikają ani że wystarczy naklejka przewoźnika lotniczego. Trzeba sprawdzić konkretną przesyłkę i zakres odstępstwa. Podstawa: ADR 1.1.4.2.1(a).",
@@ -719,9 +719,9 @@
       "exact_record_snapshot": {
         "stem": "W transporcie drogowym z odcinkiem morskim przed przewozem ktoś proponuje zastąpić dokument transportowy IMDG ustnym telefonem. Co wynika z 1.1.4.2.3?",
         "options": {
-          "A": "Telefon zawsze wystarczy",
-          "B": "Warunkowe zastąpienie dotyczy odpowiedniego dokumentu IMDG/ICAO, nie dowolnej rozmowy",
-          "C": "O dokumentach decyduje kolor kontenera"
+          "A": "Ustna rozmowa telefoniczna zawsze może zastąpić dokument przewozowy wymagany przy towarach niebezpiecznych",
+          "B": "Zastąpienie dokumentu jest możliwe tylko w określonym zakresie dla IMDG/ICAO i po spełnieniu warunków ADR",
+          "C": "Kolor kontenera wystarczy do ustalenia dokumentacji, ponieważ określa rodzaj przewożonego towaru"
         },
         "correct_option": "B",
         "explanation": "Przepis pozwala w określonych sytuacjach użyć dokumentu IMDG lub ICAO z wymaganymi danymi, a nie zastąpić go ustną rozmową telefoniczną. Telefon nie zapewnia kompletnej dokumentacji potrzebnej przy kontroli lub wypadku. Przed rozpoczęciem jazdy należy sprawdzić, czy dokument i jego dodatkowe informacje spełniają warunki ADR. Podstawa: ADR 1.1.4.2.3.",
