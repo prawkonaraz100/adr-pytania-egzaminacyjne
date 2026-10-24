@@ -1,5 +1,9 @@
 # ADR-B-11 — Tunele i ograniczenia tras
 
+## Po co to jest?
+
+Ograniczenia tunelowe pomagają dobrać trasę do zagrożenia, które przewozi pojazd. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych; kod tunelowy należy odczytać z właściwego wpisu towaru i zastosować do konkretnego sposobu przewozu. **LQ** oznacza ilości ograniczone (*Limited Quantities*) i ma odrębne warunki oznakowania oraz przewozu. Przykład: przed wjazdem do tunelu kategorii E sprawdź kod i to, czy przewozisz sztuki przesyłek, czy ładunek w innej postaci — nie wybieraj trasy wyłącznie po klasie towaru.
+
 > **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
 
 ## Jak korzystać z tej lekcji
@@ -132,3 +136,10 @@ Powtórka w banku: ADR-B-0262–0264, 0431, 0487–0488.
 **Pożar w tunelu:** nie próbuj samodzielnie gasić pożaru przestrzeni ładunkowej ani otwierać przesyłek. Zapewnij sobie bezpieczeństwo, ostrzeż innych i wezwij pomoc. Powiązane pytanie: ADR-B-0308.
 
 **Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, A/B/C i podstawę prawną.
+
+## Co musisz zapamiętać
+
+- Sprawdź kod tunelowy w odpowiednim wpisie oraz sposób przewozu, zanim wybierzesz trasę.
+- Kody tunelowe nie zastępują znaków drogowych ani lokalnych ograniczeń ruchu.
+- Przy awarii w tunelu nie narażaj siebie: ostrzeż innych i wezwij służby, nie otwieraj przesyłek.
+- Podstawy do dalszej nauki: ADR 8.6.3–8.6.4 oraz instrukcje pisemne 5.4.3.
