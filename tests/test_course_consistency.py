@@ -68,5 +68,22 @@ class CourseConsistencyTests(unittest.TestCase):
                 for err in validate_reviewer_manifest(root, [row])))
 
 
+    def test_course_readme_matches_live_bank_and_links_all_lessons(self):
+        root = Path(__file__).resolve().parents[1]
+        bank = [json.loads(line) for line in
+                (root / "podstawowy" / "questions.jsonl").read_text(encoding="utf-8").splitlines()
+                if line.strip()]
+        readme = (root / "podstawowy" / "README.md").read_text(encoding="utf-8")
+        self.assertIn(f"{len(bank)} `needs_review`, 0 `verified`", readme)
+        self.assertNotIn("216 rekordów", readme)
+        self.assertIn("79/566 = 13,96%", readme)
+        for number in range(1, 14):
+            module = f"ADR-B-{number:02d}"
+            lesson = root / "podstawowy" / "lekcje" / f"{module}.md"
+            self.assertTrue(lesson.is_file(), f"missing lesson file: {module}")
+            self.assertIn(f"lekcje/{module}.md", readme)
+        self.assertIn("egzamin-probny/wariant-001.json", readme)
+        self.assertIn("raporty/etap-4q-przeglad-kursanta-2026-10-24.md", readme)
+
 if __name__=="__main__":
     unittest.main()
