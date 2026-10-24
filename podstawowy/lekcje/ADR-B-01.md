@@ -171,3 +171,18 @@ Plan jest uzupełnieniem dydaktycznym, nie potwierdzeniem realizacji zajęć. Re
 - **Błąd do uniknięcia:** „mało” nie znaczy „bez ADR”. W pytaniu uzasadnij, który konkretny warunek został spełniony lub czego brakuje.
 
 Powtórka w banku: ADR-B-0259–0261, 0271–0273, 0312–0314.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+
+- ADR-B-0123 — definicje
+- ADR-B-0259–0261 — zwolnienia ilościowe
+- ADR-B-0271–0273 — znak LQ
+- ADR-B-0312–0314 — definicje i tabela A
+
+### Przykład z pracy kierowcy
+
+Zleceniodawca mówi: „To tylko kilka sztuk, więc ADR nie obowiązuje”. Nie przyjmuj tego jako wystarczającego uzasadnienia. Sprawdź numer UN, właściwy wpis i warunki konkretnego wyłączenia; różne zwolnienia mają różne wymagania. Powiązane pytania: ADR-B-0259–0261 i ADR-B-0314.
+
+**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
