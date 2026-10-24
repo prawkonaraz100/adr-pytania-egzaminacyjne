@@ -71,3 +71,7 @@ Wszystkie sześć wcześniej przekraczających 18% działów mieści się teraz 
 ## Partia 5 — powtarzalność wariantu 001
 
 Dopasowano generator do deterministycznego algorytmu tasowania użytego przy tworzeniu wariantu 001 i dodano test regresyjny: seed `20261024` musi odtworzyć dokładnie te same 30 ID. Dzięki temu instrukcja generowania kolejnych wariantów i wariant przykładowy nie rozjeżdżają się przy identycznym banku. Nie zmieniono treści pytań ani statusów.
+
+## Partia 7 — aktualność treści wariantu egzaminu
+
+Po wyrównaniu długości odpowiedzi 11 rekordów banku zmieniło warianty i wyjaśnienia. Sprawdzono statyczny wariant 001 i odświeżono jego treść oraz klucz do aktualnego banku. Rozszerzono Quality Gate: test porównuje teraz stem, A/B/C, ilustrację, klucz i wyjaśnienie egzaminu z bieżącymi rekordami, nie tylko istnienie ID. Wariant pozostaje treningiem wewnętrznym, nie zatwierdzonym egzaminem.
