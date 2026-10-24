@@ -110,3 +110,19 @@ Ocena: „rozumie / wymaga wyjaśnienia / nieocenione”, warunek i ustęp; bez 
 - **Błąd do uniknięcia:** numer zlecenia, znajomość nazwy towaru lub presja czasu nie dowodzą, że osoba jest uprawniona do odbioru. Nie ujawniaj niepotrzebnie szczegółów przewozu.
 
 Powtórka w banku: ADR-B-0249, 0300, 0304–0305, 0458–0460.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+- ADR-B-0249 — ochrona podczas przewozu
+- ADR-B-0274–0275 — ochrona
+- ADR-B-0300 — identyfikacja załogi
+- ADR-B-0304–0305 — towary dużego ryzyka
+- ADR-B-0458–0460 — tabela i progi ochrony
+
+### Przykłady z pracy kierowcy
+**Odbiór ładunku:** nie przekazuj towaru tylko dlatego, że odbiorca zna numer zlecenia. Stosuj procedurę firmy weryfikacji tożsamości i uprawnienia do odbioru.
+
+**Towar dużego ryzyka:** sama klasa zagrożenia nie wystarcza, by przesądzić o wymaganiach ochronnych. Sprawdź odpowiedni wpis, rodzaj przewozu i próg z tabeli. Szczegóły ochrony omawiaj tylko w zakresie niezbędnym do bezpiecznej pracy.
+
+**Status:** pytania pozostają `needs_review`; przykłady nie są niezależną recenzją prawną.
