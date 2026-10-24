@@ -76,9 +76,9 @@
         "module_id": "ADR-B-01",
         "stem": "Jednostka transportowa przewozi 200 jednostek kategorii transportowej 2 i 500 jednostek kategorii 3. Co wynika z samego wyniku obliczenia 1.1.3.6.4?",
         "options": {
-          "A": "Wartość wynosi 1100 i przekracza próg 1000 dla tego wyłączenia",
-          "B": "Wartość wynosi 700, więc próg nie został przekroczony",
-          "C": "Wartość wynosi 500, bo pomija się kategorię 2"
+          "A": "Suma wynosi 1100, więc przekracza próg 1000",
+          "B": "Suma wynosi 700, więc próg nie został przekroczony",
+          "C": "Suma wynosi 500, bo pomija się kategorię 2"
         },
         "correct_option": "A",
         "explanation": "Kategoria 2 jest liczona z mnożnikiem 3, więc wynik wynosi 200 × 3 + 500 = 1100 punktów. To więcej niż próg 1000, dlatego w opisanej sytuacji nie można zastosować wyłączenia na tej podstawie. Odpowiedź 700 pomija mnożnik, a 500 całkowicie pomija kategorię 2. Podstawa: ADR 1.1.3.6.4.",
@@ -122,9 +122,9 @@
         "module_id": "ADR-B-01",
         "stem": "Na sztuce przesyłki przewożonej na zasadach LQ jest znak w kształcie rombu z czarną górą i dołem oraz białym środkiem. Który opis jest poprawny?",
         "options": {
-          "A": "To zawsze nalepka klasy 8",
-          "B": "To nalepka ostrzegawcza gazu niepalnego",
-          "C": "To znak ilości ograniczonych LQ określony w ADR 3.4.7"
+          "A": "To nalepka klasy 8, oznaczająca zagrożenie żrące",
+          "B": "To nalepka klasy 2.2 dla gazów niepalnych i nietrujących",
+          "C": "Znak ilości ograniczonych (LQ) z ADR 3.4.7"
         },
         "correct_option": "C",
         "explanation": "Znak LQ to romb ustawiony na wierzchołku, z czarnymi fragmentami u góry i na dole oraz jasnym środkiem. Informuje o przewozie w ilościach ograniczonych; nie jest zwykłą nalepką klasy 8 ani oznaczeniem gazu. Sam znak nie zwalnia z przestrzegania pozostałych warunków dotyczących LQ. Podstawa: ADR 3.4.7.1.",
