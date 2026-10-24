@@ -12,7 +12,7 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Gdy pusty nieoczyszczony pojazd lub kontener jest przemieszczany do najbliższego miejsca czyszczenia lub naprawy zgodnie z 7.5.8.1, ADR 5.4.1.1.6.3(b) przewiduje dodatkową wzmiankę o przewozie na tych warunkach. Samo opróżnienie nie oznacza oczyszczenia ani braku obowiązków."
+          "rationale": "Pusty, ale nieoczyszczony kontener nadal może zawierać niebezpieczne pozostałości. Gdy jest przewożony do miejsca czyszczenia na szczególnych warunkach, dokument powinien zawierać wymaganą wzmiankę o przewozie zgodnym z 7.5.8.1. Nie wolno twierdzić, że kontener jest czysty, ani usuwać wszystkich danych tylko dlatego, że jest pusty. Podstawa: ADR 5.4.1.1.6.3(b)."
         },
         "B": {
           "expected_correct": false,
@@ -39,7 +39,7 @@
           "C": "Zwolnienie ze wszystkich danych dokumentu, bo kontener jest pusty"
         },
         "correct_option": "A",
-        "explanation": "Gdy pusty nieoczyszczony pojazd lub kontener jest przemieszczany do najbliższego miejsca czyszczenia lub naprawy zgodnie z 7.5.8.1, ADR 5.4.1.1.6.3(b) przewiduje dodatkową wzmiankę o przewozie na tych warunkach. Samo opróżnienie nie oznacza oczyszczenia ani braku obowiązków.",
+        "explanation": "Pusty, ale nieoczyszczony kontener nadal może zawierać niebezpieczne pozostałości. Gdy jest przewożony do miejsca czyszczenia na szczególnych warunkach, dokument powinien zawierać wymaganą wzmiankę o przewozie zgodnym z 7.5.8.1. Nie wolno twierdzić, że kontener jest czysty, ani usuwać wszystkich danych tylko dlatego, że jest pusty. Podstawa: ADR 5.4.1.1.6.3(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -63,7 +63,7 @@
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z ADR 2025, 5.4.3.4: Instrukcje pisemne dopuszczają ograniczanie odpływu substancji do kanalizacji tylko wtedy, gdy można to zrobić bezpiecznie."
+          "rationale": "Wstępnie zgodne z ADR 2025, 5.4.3.4: Rozlana substancja może dostać się do kanalizacji i zaszkodzić środowisku. Załoga może próbować temu zapobiec tylko wtedy, gdy jest to odpowiednie i bezpieczne. Wchodzenie w nieznaną ciecz naraża człowieka na zatrucie lub oparzenie, ale nie jest też prawdą, że każda bezpieczna próba ochrony odpływu jest zabroniona. Podstawa: ADR 5.4.3.4."
         },
         "C": {
           "expected_correct": false,
@@ -86,7 +86,7 @@
           "C": "Nigdy nie wolno chronić kanalizacji"
         },
         "correct_option": "B",
-        "explanation": "Instrukcje pisemne dopuszczają ograniczanie odpływu substancji do kanalizacji tylko wtedy, gdy można to zrobić bezpiecznie.",
+        "explanation": "Rozlana substancja może dostać się do kanalizacji i zaszkodzić środowisku. Załoga może próbować temu zapobiec tylko wtedy, gdy jest to odpowiednie i bezpieczne. Wchodzenie w nieznaną ciecz naraża człowieka na zatrucie lub oparzenie, ale nie jest też prawdą, że każda bezpieczna próba ochrony odpływu jest zabroniona. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -114,7 +114,7 @@
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z ADR 2025, 8.3.3: ADR zabrania członkom załogi otwierania sztuk przesyłek zawierających towary niebezpieczne."
+          "rationale": "Wstępnie zgodne z ADR 2025, 8.3.3: Opakowanie z towarem niebezpiecznym powinno pozostać zamknięte podczas przewozu, ponieważ otwarcie może uwolnić niebezpieczną zawartość. Załodze nie wolno samodzielnie otwierać takich przesyłek. Rękawice ani telefoniczna zgoda spedytora nie uchylają tego zakazu. Podstawa: ADR 8.3.3."
         }
       },
       "observed_answer_key": "C",
@@ -133,7 +133,7 @@
           "C": "Nie, załodze zabrania się otwierania takich sztuk przesyłek"
         },
         "correct_option": "C",
-        "explanation": "ADR zabrania członkom załogi otwierania sztuk przesyłek zawierających towary niebezpieczne.",
+        "explanation": "Opakowanie z towarem niebezpiecznym powinno pozostać zamknięte podczas przewozu, ponieważ otwarcie może uwolnić niebezpieczną zawartość. Załodze nie wolno samodzielnie otwierać takich przesyłek. Rękawice ani telefoniczna zgoda spedytora nie uchylają tego zakazu. Podstawa: ADR 8.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -153,7 +153,7 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z ADR 2025, 8.3.6: Podczas załadunku lub rozładunku silnik musi być wyłączony, chyba że jest potrzebny do napędu odpowiednich urządzeń."
+          "rationale": "Wstępnie zgodne z ADR 2025, 8.3.6: Podczas załadunku silnik powinien być wyłączony, jeśli nie jest potrzebny do obsługi urządzeń i nie zachodzi przewidziany wyjątek. Ogranicza to niepotrzebne zagrożenia przy manipulowaniu towarem. Pozostawienie silnika na biegu jałowym bez potrzeby albo wyłączenie samych świateł nie spełnia zasady. Podstawa: ADR 8.3.6."
         },
         "B": {
           "expected_correct": false,
@@ -180,7 +180,7 @@
           "C": "Wyłączyć wyłącznie światła"
         },
         "correct_option": "A",
-        "explanation": "Podczas załadunku lub rozładunku silnik musi być wyłączony, chyba że jest potrzebny do napędu odpowiednich urządzeń.",
+        "explanation": "Podczas załadunku silnik powinien być wyłączony, jeśli nie jest potrzebny do obsługi urządzeń i nie zachodzi przewidziany wyjątek. Ogranicza to niepotrzebne zagrożenia przy manipulowaniu towarem. Pozostawienie silnika na biegu jałowym bez potrzeby albo wyłączenie samych świateł nie spełnia zasady. Podstawa: ADR 8.3.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -204,7 +204,7 @@
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z ADR 2025, 1.4.3.1: Załadowca nie powinien ładować uszkodzonej sztuki przesyłki, z której wycieka materiał niebezpieczny."
+          "rationale": "Wstępnie zgodne z ADR 2025, 1.4.3.1: Uszkodzone opakowanie z wyciekiem może narazić załadowcę, kierowcę i inne towary na kontakt z niebezpieczną substancją. Nie należy go ładować, dopóki nie zostanie właściwie zabezpieczone zgodnie z wymaganiami. Ukrycie go za innymi paczkami ani niewielki rozmiar wycieku nie usuwają zagrożenia. Podstawa: ADR 1.4.3.1.1(b)."
         },
         "C": {
           "expected_correct": false,
@@ -227,7 +227,7 @@
           "C": "Załadować ją, jeśli wyciek jest mały"
         },
         "correct_option": "B",
-        "explanation": "Załadowca nie powinien ładować uszkodzonej sztuki przesyłki, z której wycieka materiał niebezpieczny.",
+        "explanation": "Uszkodzone opakowanie z wyciekiem może narazić załadowcę, kierowcę i inne towary na kontakt z niebezpieczną substancją. Nie należy go ładować, dopóki nie zostanie właściwie zabezpieczone zgodnie z wymaganiami. Ukrycie go za innymi paczkami ani niewielki rozmiar wycieku nie usuwają zagrożenia. Podstawa: ADR 1.4.3.1.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -255,7 +255,7 @@
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z ADR 2025, 1.4.2.3.1: Odbiorca ma obowiązek nie opóźniać bez ważnej przyczyny przyjęcia towaru niebezpiecznego."
+          "rationale": "Wstępnie zgodne z ADR 2025, 1.4.2.3.1: Odbiorca ma obowiązki także po przyjeździe niebezpiecznego ładunku i nie powinien bez ważnej przyczyny opóźniać jego przyjęcia. Nie oznacza to jednak obowiązku przyjmowania każdej przesyłki mimo istotnego problemu. Wygoda odbiorcy ani przekonanie, że przepisy go nie dotyczą, nie usprawiedliwiają zwłoki. Podstawa: ADR 1.4.2.3.1."
         }
       },
       "observed_answer_key": "C",
@@ -274,7 +274,7 @@
           "C": "Nie powinien odwlekać przyjęcia bez ważnych powodów"
         },
         "correct_option": "C",
-        "explanation": "Odbiorca ma obowiązek nie opóźniać bez ważnej przyczyny przyjęcia towaru niebezpiecznego.",
+        "explanation": "Odbiorca ma obowiązki także po przyjeździe niebezpiecznego ładunku i nie powinien bez ważnej przyczyny opóźniać jego przyjęcia. Nie oznacza to jednak obowiązku przyjmowania każdej przesyłki mimo istotnego problemu. Wygoda odbiorcy ani przekonanie, że przepisy go nie dotyczą, nie usprawiedliwiają zwłoki. Podstawa: ADR 1.4.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
