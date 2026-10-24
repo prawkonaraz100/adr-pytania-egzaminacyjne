@@ -65,7 +65,7 @@
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Tabela rozróżnia cysterny, luzem i sztuki przesyłek; próg cysternowy nie stanowi limitu dla innych rodzajów przewozu."
+          "rationale": "Tabela ADR o ochronie przewozu podaje różne progi zależnie od sposobu transportu. Próg 3000 litrów dla przewozu w zbiorniku (cysternie) nie może być automatycznie użyty dla towaru w osobnych opakowaniach, czyli sztukach przesyłek. Odczytaj kolumnę odpowiadającą temu, jak towar jest rzeczywiście przewożony; zaświadczenie kierowcy nie zmienia tych wartości. Podstawa: ADR 1.10.3.1.2 i przypis (c)."
         },
         "C": {
           "expected_correct": false,
@@ -88,7 +88,7 @@
           "C": "Tak; wystarczy, że kierowca posiada ważne zaświadczenie ADR"
         },
         "correct_option": "B",
-        "explanation": "Tabela 1.10.3.1.2 rozróżnia sposób przewozu, więc próg podany dla cysterny nie może być automatycznie stosowany do sztuk przesyłek. Należy odczytać kolumnę odpowiadającą rzeczywistemu przewozowi. Zaświadczenie ADR kierowcy nie zmienia progów ani nie zastępuje tej oceny. Podstawa: ADR 1.10.3.1.2 i przypis (c).",
+        "explanation": "Tabela ADR o ochronie przewozu podaje różne progi zależnie od sposobu transportu. Próg 3000 litrów dla przewozu w zbiorniku (cysternie) nie może być automatycznie użyty dla towaru w osobnych opakowaniach, czyli sztukach przesyłek. Odczytaj kolumnę odpowiadającą temu, jak towar jest rzeczywiście przewożony; zaświadczenie kierowcy nie zmienia tych wartości. Podstawa: ADR 1.10.3.1.2 i przypis (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -98,7 +98,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "wording_update_note": "Etap 4q: uproszczono wyłącznie objaśnienie dla kursanta; klucz i źródła bez zmian. To nie jest ponowna akceptacja prawna; porównanie polskiego tekstu urzędowego i recenzja specjalisty pozostają otwarte."
     },
     {
       "id": "ADR-B-0457",

@@ -1005,11 +1005,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędny wariant: „8 kg środka gaśniczego”. Dla jednostki transportowej o DMC powyżej 7,5 t w pełnym reżimie ADR minimalna łączna pojemność wynosi 12 kg w przeliczeniu na proszek. 4 kg i 8 kg nie spełniają tego progu. Należy też osobno sprawdzić wymaganą liczbę i wielkość gaśnic. Podstawa: ADR 8.1.4.1."
+          "rationale": "Ten wariant myli się z następującego powodu: DMC to dopuszczalna masa całkowita pojazdu, czyli maksymalna masa pojazdu razem z ładunkiem, określona dla niego w dokumentach. Przy jednostce transportowej powyżej 7,5 t, objętej pełnymi wymaganiami ADR, gaśnice muszą mieć łącznie skuteczność odpowiadającą co najmniej 12 kg proszku; 4 kg i 8 kg nie wystarczą. Osobno sprawdza się też liczbę i wielkość gaśnic. Podstawa: ADR 8.1.4.1."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Dla jednostki transportowej o DMC powyżej 7,5 t w pełnym reżimie ADR minimalna łączna pojemność wynosi 12 kg w przeliczeniu na proszek. 4 kg i 8 kg nie spełniają tego progu. Należy też osobno sprawdzić wymaganą liczbę i wielkość gaśnic. Wymaganie dotyczy łącznej pojemności w przeliczeniu na proszek, a nie tylko masy pojedynczego urządzenia. Podstawa: ADR 8.1.4.1."
+          "rationale": "DMC to dopuszczalna masa całkowita pojazdu, czyli maksymalna masa pojazdu razem z ładunkiem, określona dla niego w dokumentach. Przy jednostce transportowej powyżej 7,5 t, objętej pełnymi wymaganiami ADR, gaśnice muszą mieć łącznie skuteczność odpowiadającą co najmniej 12 kg proszku; 4 kg i 8 kg nie wystarczą. Osobno sprawdza się też liczbę i wielkość gaśnic. Podstawa: ADR 8.1.4.1."
         }
       },
       "observed_answer_key": "C",
@@ -1028,7 +1028,7 @@
           "C": "12 kg"
         },
         "correct_option": "C",
-        "explanation": "Dla jednostki transportowej o DMC powyżej 7,5 t w pełnym reżimie ADR minimalna łączna pojemność wynosi 12 kg w przeliczeniu na proszek. 4 kg i 8 kg nie spełniają tego progu. Należy też osobno sprawdzić wymaganą liczbę i wielkość gaśnic. Wymaganie dotyczy łącznej pojemności w przeliczeniu na proszek, a nie tylko masy pojedynczego urządzenia. Podstawa: ADR 8.1.4.1.",
+        "explanation": "DMC to dopuszczalna masa całkowita pojazdu, czyli maksymalna masa pojazdu razem z ładunkiem, określona dla niego w dokumentach. Przy jednostce transportowej powyżej 7,5 t, objętej pełnymi wymaganiami ADR, gaśnice muszą mieć łącznie skuteczność odpowiadającą co najmniej 12 kg proszku; 4 kg i 8 kg nie wystarczą. Osobno sprawdza się też liczbę i wielkość gaśnic. Podstawa: ADR 8.1.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1038,7 +1038,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "wording_update_note": "Etap 4q: uproszczono wyłącznie objaśnienie dla kursanta; klucz i źródła bez zmian. To nie jest ponowna akceptacja prawna; porównanie polskiego tekstu urzędowego i recenzja specjalisty pozostają otwarte."
     },
     {
       "id": "ADR-B-0023",

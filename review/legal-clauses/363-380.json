@@ -745,7 +745,7 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wariant A oddaje wymóg w danym kontekście: ADR nakłada na przewoźnika obowiązek upewnienia się, że nie doszło do przeładowania jednostki transportowej. Odbiór polskiego przepisu nadal otwarty."
+          "rationale": "Przewoźnik powinien sprawdzić, czy masa pojazdu i ładunku nie przekracza dopuszczalnych wartości, w zakresie wymaganym przez ADR. Zabezpieczenie palet pasami nie zmniejsza ich masy i nie usuwa ryzyka przeciążenia. Obowiązek nie dotyczy wyłącznie pojazdów elektrycznych, a wcześniejsze obliczenia innej osoby nie zwalniają z reakcji na zauważoną niezgodność. Podstawa: ADR 1.4.2.2.1(e)."
         },
         "B": {
           "expected_correct": false,
@@ -771,7 +771,7 @@
           "C": "Tylko gdy chodzi o pojazd elektryczny i jego baterie trakcyjne"
         },
         "correct_option": "A",
-        "explanation": "Przewoźnik ma obowiązek sprawdzić, czy jednostka transportowa nie jest przeciążona, w zakresie przewidzianym przez ADR. Masa ładunku ma znaczenie dla bezpieczeństwa i zgodności z dopuszczalnymi wartościami; nie dotyczy to wyłącznie pojazdów elektrycznych. Nie wolno zakładać, że załadunek zawsze został poprawnie obliczony przez inną osobę. Podstawa: ADR 1.4.2.2.1(e).",
+        "explanation": "Przewoźnik powinien sprawdzić, czy masa pojazdu i ładunku nie przekracza dopuszczalnych wartości, w zakresie wymaganym przez ADR. Zabezpieczenie palet pasami nie zmniejsza ich masy i nie usuwa ryzyka przeciążenia. Obowiązek nie dotyczy wyłącznie pojazdów elektrycznych, a wcześniejsze obliczenia innej osoby nie zwalniają z reakcji na zauważoną niezgodność. Podstawa: ADR 1.4.2.2.1(e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -781,7 +781,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "wording_update_note": "Etap 4q: uproszczono wyłącznie objaśnienie dla kursanta; klucz i źródła bez zmian. To nie jest ponowna akceptacja prawna; porównanie polskiego tekstu urzędowego i recenzja specjalisty pozostają otwarte."
     },
     {
       "id": "ADR-B-0380",
