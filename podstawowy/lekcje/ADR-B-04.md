@@ -116,3 +116,11 @@ Przygotuj papierowe karty sytuacyjne, fikcyjne informacje o towarze i instrukcje
 ### Podstawy i kontrola wersji
 
 Temat załącznika nr 1 do Dz.U. 2021 poz. 2150; ADR 2025 8.3.3–8.3.8; 7.5.1; 8.4 w Dz.U. 2025 poz. 642, ze sprostowaniem poz. 1575. Szczegółowe przypadki prawne wymagają niezależnej kontroli z oficjalnym polskim tekstem. Brak statusu verified.
+
+## Karta kursanta — zapobieganie zdarzeniom (24.10.2026)
+
+- Przed załadunkiem sprawdź, czy warunki pracy i postój są bezpieczne; nie otwieraj samowolnie sztuk przesyłek i stosuj wymagane zakazy dotyczące źródeł zapłonu.
+- Gdy ADR wymaga nadzoru, stosuj kolejność dopuszczalnych miejsc postoju. Telefon do firmy nie zastępuje zabezpieczonego miejsca ani obowiązujących reguł.
+- **Błąd do uniknięcia:** nie rozpoczynaj czynności tylko dlatego, że ładunek wygląda prawidłowo; niezgodność pojazdu, opakowania lub miejsca pracy trzeba wyjaśnić przed kontynuacją.
+
+Powtórka w banku: ADR-B-0279–0280, 0310, 0347, 0351.
