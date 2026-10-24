@@ -9,7 +9,7 @@
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
 - Rozkład prawidłowych opcji: A=189, B=191, C=186.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **79/566 = 13,96%**; wszystkie 13 działów są poniżej 18%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **71/566 = 12,54%**; wszystkie 13 działów są poniżej 18%.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
 
 **Ważne:** 100% pokrycia *tematycznego pytaniami roboczymi* **nie oznacza gotowego kursu ani certyfikatu ADR**. Dla wybranych kompetencji jedno pytanie nie wystarczy do skutecznej nauki; kolejnym zadaniem jest zwiększenie głębokości pokrycia i niezależna kontrola.
@@ -147,5 +147,5 @@ Scenariusze: [SCENARIUSZE.md](../podstawowy/praktyka/SCENARIUSZE.md). Trzy wymag
 - Egzamin próbny: [wariant 001](../podstawowy/egzamin-probny/wariant-001.json), [oddzielny klucz](../podstawowy/egzamin-probny/klucz-001.json), [instrukcja generatora](../podstawowy/egzamin-probny/README.md). To trening wewnętrzny, nie oficjalny arkusz; źródłowe pytania są niezatwierdzone.
 - Generator `scripts/draft_mock_exam.py` dobiera 30 pytań proporcjonalnie do liczebności 13 działów, 60 minut, próg 20/30. Quality Gate sprawdza ID i zgodność klucza oraz odtwarzanie wariantu seedem.
 - Dodatkowy test potwierdza, że wszystkie ID jawnie zapisane w mapach 13 lekcji istnieją w banku.
-- Długość odpowiedzi: 79/566 (13,96%) globalnie; B-01 17,1%, B-02 17,9%, B-03 16,3%, B-04 11,4%, B-05 15,0%, B-06 8,9%, B-07 7,0%, B-08 17,5%, B-09 17,4%, B-10 7,3%, B-11 17,1%, B-12 14,0%, B-13 17,1%.
+- Długość odpowiedzi: 71/566 (12,54%) globalnie; B-01 17,1%, B-02 12,5%, B-03 12,2%, B-04 11,4%, B-05 15,0%, B-06 8,9%, B-07 7,0%, B-08 17,5%, B-09 10,9%, B-10 7,3%, B-11 17,1%, B-12 14,0%, B-13 17,1%.
 - Nadal **0 verified**. Weryfikacja pełnego polskiego tekstu ADR 2025 wraz ze sprostowaniem i niezależna recenzja A/B/C pozostają otwarte. Nie traktować egzaminu próbnego jako prawnie zatwierdzonego.
