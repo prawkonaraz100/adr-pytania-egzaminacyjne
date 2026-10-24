@@ -309,9 +309,9 @@
       "exact_record_snapshot": {
         "stem": "W dokumencie przewozowym ADR wpisano prawidłową nazwę przewozową, lecz pominięto litery UN przed czterocyfrowym numerem. Co należy poprawić?",
         "options": {
-          "A": "Zapisać numer poprzedzony literami UN, jeśli wymagany jest standardowy opis ADR",
-          "B": "Zastąpić numer UN nazwą handlową",
-          "C": "Usunąć cały opis, pozostawiając masę brutto"
+          "A": "Dodać wymagane litery UN przed czterocyfrowym numerem towaru",
+          "B": "Zastąpić numer UN nazwą handlową stosowaną w katalogu producenta",
+          "C": "Usunąć opis towaru z dokumentu i pozostawić wyłącznie masę brutto"
         },
         "correct_option": "A",
         "explanation": "Numer UN identyfikuje przewożony materiał, dlatego w standardowym dokumencie ADR wpisuje się cztery cyfry poprzedzone literami UN. Sama nazwa handlowa nie zastępuje tego identyfikatora. Usunięcie całego opisu i pozostawienie masy również nie spełnia wymogu. Podstawa: ADR 5.4.1.1.1(a).",
@@ -350,9 +350,9 @@
       "exact_record_snapshot": {
         "stem": "Sprawdzasz wymagany dokument przewozowy ADR dla zapakowanego towaru. Podano numer UN i nazwę, lecz nie podano liczby i rodzaju sztuk przesyłek. Co trzeba zrobić?",
         "options": {
-          "A": "Wpisać tylko liczbę miejsc na parkingu",
-          "B": "Uznać, że dokument jest kompletny dzięki numerowi UN",
-          "C": "Dopisać wymagane dane o liczbie i rodzaju sztuk przesyłek"
+          "A": "Wpisać liczbę miejsc parkingowych, które przewidziano na trasie przewozu",
+          "B": "Uznać dokument za kompletny, ponieważ numer UN i nazwa towaru już widnieją",
+          "C": "Uzupełnić dokument o wymaganą liczbę i rodzaj sztuk przesyłki"
         },
         "correct_option": "C",
         "explanation": "Liczba i rodzaj sztuk przesyłek informują, ile opakowań zawiera ładunek i w jakiej postaci jest przewożony. Jeśli ADR wymaga tych danych, trzeba je dopisać do dokumentu. Sam numer UN nie mówi, ile paczek znajduje się w pojeździe, a liczba miejsc parkingowych jest bez znaczenia. Podstawa: ADR 5.4.1.1.1(e).",
@@ -391,9 +391,9 @@
       "exact_record_snapshot": {
         "stem": "Instrukcje pisemne ADR znajdują się w wymaganym pojeździe, lecz są zamknięte w niedostępnej podczas jazdy skrzynce na zewnątrz kabiny. Co powinno się zmienić?",
         "options": {
-          "A": "Przenieść je do biura spedytora",
-          "B": "Zastąpić je wyłącznie telefonem kontaktowym do firmy",
-          "C": "Umieścić je w kabinie załogi w łatwo dostępnym miejscu"
+          "A": "Przenieść instrukcje do biura spedytora, gdzie będą bezpiecznie przechowywane",
+          "B": "Zastąpić instrukcje pisemne numerem telefonu dyspozytora firmy",
+          "C": "Umieścić instrukcje w kabinie załogi, w miejscu łatwo dostępnym"
         },
         "correct_option": "C",
         "explanation": "Instrukcje pisemne mają pomóc załodze podczas awarii, więc muszą znajdować się w kabinie w miejscu łatwo dostępnym. Zamknięta skrzynka poza kabiną utrudnia szybkie skorzystanie z nich. Dokument pozostawiony u spedytora ani sam numer telefonu do firmy nie zastępują instrukcji. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
