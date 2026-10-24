@@ -11,6 +11,11 @@ class DraftExamTests(unittest.TestCase):
   self.assertEqual(len(qids),30);self.assertEqual(len(set(qids)),30);self.assertTrue(set(qids)<=ids)
   self.assertEqual(qids,[a["id"] for a in k["answers"]]);self.assertEqual(e["module_distribution"],dict(sorted(Counter(q["module_id"] for q in e["questions"]).items())))
   self.assertEqual(e["pass_mark_correct"],20);self.assertFalse(e["publication_authorized"]);self.assertFalse(k["publication_authorized"])
+ def test_checked_in_variant_matches_its_seed(self):
+  rows=load_bank(ROOT/"podstawowy"/"questions.jsonl")
+  exam,_=draw_exam(rows,20261024)
+  checked=json.loads((ROOT/"podstawowy"/"egzamin-probny"/"wariant-001.json").read_text(encoding="utf-8"))
+  self.assertEqual([q["id"] for q in exam["questions"]],[q["id"] for q in checked["questions"]])
  def test_seed_reproducible_and_all_modules_present(self):
   rows=load_bank(ROOT/"podstawowy"/"questions.jsonl");a,ak=draw_exam(rows,1234);b,bk=draw_exam(rows,1234)
   self.assertEqual(a,b);self.assertEqual(ak,bk);self.assertEqual(len(a["questions"]),30);self.assertEqual(len(a["module_distribution"]),13)

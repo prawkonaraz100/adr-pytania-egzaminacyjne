@@ -25,8 +25,18 @@ def proportional_quotas(rows,size=30):
  for m in sorted(MODULES,key=lambda m:(-rem[m],m))[:size-sum(out.values())]:out[m]+=1
  if sum(out.values())!=size or any(out[m]>counts[m] for m in MODULES):raise ValueError("cannot allocate 30 questions")
  return out
+class DeterministicRNG:
+ def __init__(self,seed): self.state=seed & 0xffffffff
+ def random(self):
+  self.state=(1664525*self.state+1013904223)&0xffffffff
+  return self.state/4294967296
+ def shuffle(self,items):
+  for i in range(len(items)-1,0,-1):
+   j=int(self.random()*(i+1));items[i],items[j]=items[j],items[i]
+ def sample(self,population,k):
+  pool=list(population);self.shuffle(pool);return pool[:k]
 def draw_exam(rows,seed):
- quotas=proportional_quotas(rows);rng=random.Random(seed);selected=[]
+ quotas=proportional_quotas(rows);rng=DeterministicRNG(seed);selected=[]
  for m in MODULES:selected.extend(rng.sample([q for q in rows if q.get("module_id")==m],quotas[m]))
  rng.shuffle(selected)
  exam={"schema_version":"1.0","exam_type":"ADR_BASIC_PRACTICE_DRAFT","publication_authorized":False,"legal_review_status":"NOT_APPROVED_ALL_QUESTIONS_NEEDS_REVIEW","seed":seed,"generated_from":"podstawowy/questions.jsonl","question_count":30,"time_limit_minutes":60,"pass_mark_correct":PASS_MARK,"pass_mark_fraction":"2/3","note":"Internal practice only; not official. All questions remain unapproved.","module_distribution":quotas,"questions":[{"number":i,"id":q["id"],"module_id":q["module_id"],"stem":q["stem"],"options":q["options"],"image":q.get("image")} for i,q in enumerate(selected,1)]}
