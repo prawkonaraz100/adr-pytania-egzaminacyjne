@@ -120,3 +120,11 @@ To przewoźnik zapewnia załodze instrukcje pisemne, w języku zrozumiałym dla 
 | 85–90 | Ocena formacyjna | Uzasadnia przydział ról za pomocą przepisu |
 
 **Przypadek A:** Przewoźnik zauważył niezgodność podczas przekazania ładunku — kto może wstrzymać przewóz i co sprawdzić. **Przypadek B:** Po rozładunku stwierdzono pozostałości niebezpieczne — przypisz obowiązki nadawcy, odbiorcy i rozładowcy. Materiały: fikcyjne karty transportowe, schemat podziału czynności i instrukcje pisemne; nie używać prawdziwych substancji. Ocena odrębna dla każdej kompetencji: „rozumie / wymaga wyjaśnienia / nieocenione”, z argumentacją i źródłem. Wszystkie przykłady wymagają sprawdzenia z urzędową polską publikacją ADR 2025 Dz.U. poz. 642 i sprostowaniem poz. 1575; podstawa programu Dz.U. 2021 poz. 2150 zał. 1(g). Treść do niezależnego odbioru, bez statusu verified.
+
+## Karta kursanta — odpowiedzialność uczestników (24.10.2026)
+
+- Obowiązki są rozdzielone między nadawcę, przewoźnika, załadowcę, pakującego, napełniającego, rozładowcę i odbiorcę. To, że inny uczestnik przekazał dane, nie usuwa automatycznie twoich własnych obowiązków.
+- Kierowca powinien zgłosić zauważoną niezgodność i nie zakładać, że dokument lub zapewnienie telefoniczne rozwiązuje problem.
+- **Błąd do uniknięcia:** nie przypisuj wszystkich obowiązków jednej osobie i nie traktuj „ktoś już sprawdził” jako dowodu, że wymaganie jest spełnione.
+
+Powtórka w banku: ADR-B-0285, 0290, 0482.
