@@ -7,7 +7,8 @@
 - Kontrola strukturalna przed PR: 545 rekordów zachowanych; kolejność i identyfikatory bez zmian; klucze odpowiedzi i `verification_status` niezmienione; wszystkie rekordy nadal `needs_review`; brak statusów `verified`.
 - To edycja dydaktyczna, nie niezależna recenzja prawna. Nie korygowano odpowiedzi ani podstaw prawnych.
 - Pierwszy przebieg CI wykrył nieaktualne migawki w `review/sequential/`; odświeżono wyłącznie pola `exact_record_snapshot` dla tych 15 rekordów, bez zmiany statusu audytu ani zatwierdzenia merytorycznego.
-- Ponowny Quality Gate: oczekuje na wynik CI po odświeżeniu migawek.
+- Pierwszy przebieg po tej zmianie wskazał również nieaktualne migawki w `review/legal-clauses/`; odświeżono wyłącznie `question_snapshot` dla tych samych 15 rekordów. Pola oceny A/B/C, statusy `pending` i wynik `needs_review` pozostały bez zmian.
+- Ponowny Quality Gate: oczekuje na wynik CI po odświeżeniu wszystkich migawek.
 
 ## Wyniki długości wyjaśnień
 
