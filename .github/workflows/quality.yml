@@ -20,8 +20,8 @@ jobs:
         run: python scripts/validate.py
       - name: Check coverage map
         run: python scripts/coverage.py
-      - name: Report correct-answer length bias (advisory, target 40%)
-        run: python scripts/answer_length_bias.py --threshold 0.40
+      - name: Enforce global correct-answer length bias threshold (40%)
+        run: python scripts/answer_length_bias.py --threshold 0.40 --strict-global
       - name: List near-duplicate wording candidates (advisory)
         run: python scripts/similarity.py --threshold 0.45 --limit 15
       - name: Report verified-only release gate (non-exporting)
