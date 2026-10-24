@@ -63,9 +63,9 @@
       "exact_record_snapshot": {
         "stem": "Nie ma zabezpieczonej bazy ani terenu zakładu. Dostępny jest parking dozorowany przez obsługę. Jaki dodatkowy warunek dotyczy osoby dozorującej?",
         "options": {
-          "A": "Musi znać cenę przewozu",
-          "B": "Musi wiedzieć o rodzaju ładunku i miejscu pobytu kierowcy",
-          "C": "Musi posiadać własną cysternę"
+          "A": "Musi znać cenę przewozu i warunki płatności za transport",
+          "B": "Zna rodzaj ładunku i miejsce pobytu kierowcy",
+          "C": "Musi posiadać własną cysternę i sprzęt do przewozu"
         },
         "correct_option": "B",
         "explanation": "Jeśli nie ma zabezpieczonej bazy ani terenu zakładu i korzysta się z parkingu dozorowanego, osoba nadzorująca musi wiedzieć, jaki ładunek jest przewożony i gdzie można znaleźć kierowcę. Cena przewozu ani posiadanie własnej cysterny nie spełniają tego warunku. Chodzi o możliwość szybkiej reakcji w razie zagrożenia. Podstawa: ADR 8.4.1(a).",
@@ -104,9 +104,9 @@
       "exact_record_snapshot": {
         "stem": "Przy przewozie wymagającym nadzoru 8.4.1 dostępny jest parking z dozorcą spełniający wymogi lit. (a). Czy można zamiast niego wybrać zwykły parking z lit. (b)?",
         "options": {
-          "A": "Tak, zawsze według uznania",
-          "B": "Nie, parking z lit. (b) wolno stosować dopiero przy braku opcji (a)",
-          "C": "Tak, gdy kierowca ma telefon"
+          "A": "Tak, można wybrać dowolny parking według własnego uznania",
+          "B": "Opcję (b) stosuje się dopiero, gdy brak parkingu z (a)",
+          "C": "Tak, jeśli kierowca ma telefon i może skontaktować się z firmą"
         },
         "correct_option": "B",
         "explanation": "ADR przewiduje kolejność alternatywnych miejsc postoju. Parking wskazany w lit. (b) można rozważyć dopiero wtedy, gdy wcześniejsza opcja z lit. (a) nie jest dostępna. Telefon kierowcy ani jego osobiste preferencje nie znoszą tej kolejności. Podstawa: ADR 8.4.1(a)–(b).",
@@ -145,7 +145,7 @@
       "exact_record_snapshot": {
         "stem": "W przewozie objętym 8.4.1 nie ma zabezpieczonej bazy, parkingu dozorowanego ani odpowiedniego parkingu publicznego. Gdzie można rozważyć postój?",
         "options": {
-          "A": "Na odpowiednio odosobnionym terenie spełniającym warunki lit. (c)",
+          "A": "Na odosobnionym terenie spełniającym warunki lit. (c)",
           "B": "Na dowolnym chodniku",
           "C": "Na pasie awaryjnym autostrady jako rutynowe rozwiązanie"
         },
@@ -186,8 +186,8 @@
       "exact_record_snapshot": {
         "stem": "Który teren odpowiada warunkowi lit. (c) w 8.4.1, gdy wcześniejsze rodzaje parkingów nie są dostępne?",
         "options": {
-          "A": "Plac, na którym codziennie gromadzą się mieszkańcy",
-          "B": "Odpowiednia przestrzeń z dala od drogi publicznej i zabudowań, bez zwykłego ruchu lub zgromadzeń ludzi",
+          "A": "Plac, na którym regularnie gromadzą się mieszkańcy i odbywa się ruch pieszy",
+          "B": "Na odosobnionym terenie z dala od drogi, zabudowań i zgromadzeń ludzi",
           "C": "Dowolny przystanek autobusowy"
         },
         "correct_option": "B",
@@ -268,9 +268,9 @@
       "exact_record_snapshot": {
         "stem": "Pojazd przewożący towary niebezpieczne zaparkowano na płaskim terenie. Jakie podstawowe zabezpieczenie postojowe wymaga ADR 8.3.7?",
         "options": {
-          "A": "Tylko światła awaryjne",
-          "B": "Zaciągnięty hamulec postojowy",
-          "C": "Wyłącznie wyłączenie radia"
+          "A": "Włączyć tylko światła awaryjne, bez zabezpieczenia pojazdu hamulcem postojowym",
+          "B": "Zaciągnąć hamulec postojowy",
+          "C": "Wyłączyć radio i zostawić pojazd bez użycia hamulca postojowego"
         },
         "correct_option": "B",
         "explanation": "Po zaparkowaniu pojazdu ADR należy zastosować hamulec postojowy; światła awaryjne nie zastępują tego zabezpieczenia. Wyłączenie radia nie ma związku z unieruchomieniem pojazdu. Zasada dotyczy podstawowego zabezpieczenia pojazdu podczas postoju. Podstawa: ADR 8.3.7.",
@@ -350,9 +350,9 @@
       "exact_record_snapshot": {
         "stem": "Na parkingu kierowca pojazdu ADR chce użyć przenośnej lampy, której metalowa część może wytwarzać iskry. Co stanowi ADR 8.3.4?",
         "options": {
-          "A": "Taka lampa jest zawsze obowiązkowa",
-          "B": "Lampa przenośna nie może mieć powierzchni metalowych mogących powodować iskry",
-          "C": "Wystarczy założyć słuchawki"
+          "A": "Taka lampa jest zawsze obowiązkowa, niezależnie od warunków postoju",
+          "B": "Lampa nie może mieć metalowych części mogących iskrzyć",
+          "C": "Wystarczy założyć słuchawki ochronne, by móc używać dowolnej lampy"
         },
         "correct_option": "B",
         "explanation": "Przenośna lampa używana przy pojeździe ADR nie może mieć metalowych części, które mogą powodować iskrzenie i zapalić palne opary. Nie chodzi o obowiązek posiadania dowolnej lampy ani o używanie słuchawek. Sprzęt oświetleniowy powinien być dobrany tak, by nie tworzył dodatkowego źródła zapłonu. Podstawa: ADR 8.3.4.",
@@ -391,9 +391,9 @@
       "exact_record_snapshot": {
         "stem": "Podczas awarii towary niebezpieczne rozlały się obok pojazdu. Kierowca chce wejść w kałużę, aby odczytać etykietę. Co wskazuje instrukcja pisemna?",
         "options": {
-          "A": "Nie wchodzić w rozlew ani nie dotykać rozlanej substancji",
-          "B": "Wchodzić w rozlew, jeśli ma buty robocze",
-          "C": "Najpierw spróbować substancji"
+          "A": "Nie wchodzić w rozlew ani nie dotykać substancji",
+          "B": "Wejść w rozlew, jeśli założono zwykłe buty robocze i rękawice",
+          "C": "Spróbować substancji, aby rozpoznać ją po smaku lub zapachu"
         },
         "correct_option": "A",
         "explanation": "Rozlana substancja może powodować oparzenia, zatrucie lub inne zagrożenia, nawet jeśli jej wygląd nie budzi podejrzeń. Nie wchodź w rozlew i nie dotykaj materiału, żeby odczytać etykietę; zachowaj bezpieczny dystans i stosuj instrukcje awaryjne. Próbowanie substancji jest szczególnie niebezpieczne. Podstawa: ADR 5.4.3.4.",
@@ -432,9 +432,9 @@
       "exact_record_snapshot": {
         "stem": "W czasie wypadku przy ładunku ADR gromadzą się opary. Gdzie w miarę możliwości powinna przebywać załoga?",
         "options": {
-          "A": "Po stronie nawietrznej, unikając wdychania oparów",
-          "B": "Zawsze pod pojazdem",
-          "C": "Przy wylocie par bez zabezpieczenia"
+          "A": "Pozostać po stronie nawietrznej i unikać oparów",
+          "B": "Zawsze stać pod pojazdem, niezależnie od kierunku wiatru",
+          "C": "Stać przy wylocie par bez ochrony, aby obserwować wyciek"
         },
         "correct_option": "A",
         "explanation": "Jeśli w miejscu zdarzenia unoszą się opary, załoga powinna w miarę możliwości stanąć po stronie nawietrznej, tak by wiatr nie niósł chmury w jej kierunku. Przebywanie przy wylocie par lub pod pojazdem nie chroni przed wdychaniem. Najpierw trzeba ograniczyć narażenie i stosować się do instrukcji ratowniczych. Podstawa: ADR 5.4.3.4.",
@@ -473,9 +473,9 @@
       "exact_record_snapshot": {
         "stem": "Po kontakcie z wyciekiem ADR część odzieży została skażona. Jakie działanie przewiduje instrukcja pisemna?",
         "options": {
-          "A": "Pozostawić skażoną odzież do następnego dnia",
-          "B": "Zdjąć skażoną odzież i użyte skażone środki ochrony oraz bezpiecznie je usunąć",
-          "C": "Przenieść skażenie na siedzenie samochodu"
+          "A": "Pozostawić skażoną odzież do następnego dnia i kontynuować pracę",
+          "B": "Zdjąć skażoną odzież i środki ochrony oraz bezpiecznie je usunąć",
+          "C": "Przenieść skażenie na siedzenie samochodu, by nie blokować ładowni"
         },
         "correct_option": "B",
         "explanation": "Skażona odzież i środki ochrony mogą nadal przenosić niebezpieczną substancję, więc należy je bezpiecznie zdjąć i odpowiednio usunąć. Pozostawienie ich do następnego dnia przedłuża kontakt, a przeniesienie skażenia na siedzenie zanieczyszcza kolejne powierzchnie. Działaj zgodnie z instrukcjami i bez narażania innych. Podstawa: ADR 5.4.3.4.",
@@ -514,9 +514,9 @@
       "exact_record_snapshot": {
         "stem": "Kierowca chce otworzyć opakowanie ADR, aby sprawdzić, czy nie pojawił się wyciek. Co przewiduje 8.3.3?",
         "options": {
-          "A": "Otwieranie przez kierowcę jest niedozwolone",
-          "B": "Można je otwierać w rękawicach",
-          "C": "Można je otwierać po godzinie postoju"
+          "A": "Kierowcy nie wolno otwierać opakowania",
+          "B": "Można je otwierać w rękawicach ochronnych, jeśli towar wygląda bezpiecznie",
+          "C": "Można je otwierać po godzinie postoju, jeśli nie widać wycieku"
         },
         "correct_option": "A",
         "explanation": "Kierowca i jego pomocnik nie mogą otwierać sztuk przesyłek zawierających towary niebezpieczne. Rękawice ani odczekanie godziny nie tworzą wyjątku od tej zasady. Jeśli podejrzewasz wyciek, nie otwieraj opakowania samodzielnie; postępuj zgodnie z procedurą bezpieczeństwa i powiadom odpowiednie osoby. Podstawa: ADR 8.3.3.",
@@ -555,9 +555,9 @@
       "exact_record_snapshot": {
         "stem": "W czasie rozładunku pompa musi pracować z napędu silnika pojazdu. Kiedy może on pozostać włączony?",
         "options": {
-          "A": "Zawsze, gdy kierowcy jest zimno",
-          "B": "Gdy napędza konieczne urządzenia i prawo kraju dopuszcza taką pracę",
-          "C": "Zawsze podczas ADR bez wyjątku"
+          "A": "Zawsze, gdy kierowcy jest zimno, nawet gdy silnik nie napędza urządzeń",
+          "B": "Gdy napędza konieczne urządzenie i prawo krajowe to dopuszcza",
+          "C": "Zawsze podczas przewozu ADR, niezależnie od urządzeń i przepisów krajowych"
         },
         "correct_option": "B",
         "explanation": "Silnik pojazdu może pozostać włączony w tym wyjątku tylko wtedy, gdy jest potrzebny do napędzania urządzeń załadunkowych lub rozładunkowych i dopuszczają to przepisy krajowe. Sam chłód kierowcy ani ogólna zasada „zawsze włączony” nie spełniają tych warunków. W pozostałych sytuacjach stosuje się zasadę wyłączenia silnika. Podstawa: ADR 8.3.6.",
@@ -637,9 +637,9 @@
       "exact_record_snapshot": {
         "stem": "Podczas przeładunku ADR ktoś pali poza kabiną, lecz bezpośrednio przy pojeździe. Jak należy ocenić sytuację?",
         "options": {
-          "A": "Zakaz dotyczy wyłącznie fotela kierowcy",
-          "B": "Zakaz palenia obowiązuje podczas czynności ładunkowych również w pobliżu pojazdu",
-          "C": "Palenie jest obowiązkowe"
+          "A": "Zakaz dotyczy wyłącznie kabiny, a nie strefy obok pojazdu podczas załadunku",
+          "B": "Zakaz palenia obowiązuje też przy pojeździe podczas załadunku i rozładunku",
+          "C": "Palenie jest obowiązkowe, by pracownicy zauważyli obecność kierowcy"
         },
         "correct_option": "B",
         "explanation": "Zakaz palenia podczas czynności załadunkowych i rozładunkowych obejmuje nie tylko wnętrze pojazdu, ale również jego pobliże. Palenie obok pojazdu może stworzyć źródło zapłonu, nawet jeśli osoba nie siedzi w kabinie. Światła awaryjne ani absurdalny nakaz palenia nie zmieniają tej zasady. Podstawa: ADR 8.3.5.",
