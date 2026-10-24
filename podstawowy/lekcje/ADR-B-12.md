@@ -102,3 +102,11 @@ Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obser
 A. Fikcyjny podwykonawca zna numer zlecenia, ale nie ma potwierdzonego prawa odbioru — kursant wybiera kontrolę tożsamości i kontakt z właściwym przełożonym. B. Materiał ma klasę 3, ale nie podano sposobu przewozu i grupy pakowania — kursant nie rozstrzyga statusu „dużego ryzyka” bez tabeli. C. Plan ochrony jest nieaktualny po zmianie trasy — kursant wskazuje obowiązek przeglądu, bez opracowywania szczegółowych środków zabezpieczenia realnej trasy.
 
 Ocena: „rozumie / wymaga wyjaśnienia / nieocenione”, warunek i ustęp; bez zbierania rzeczywistych danych security. Program Dz.U. 2021 poz. 2150 zał.1(l), ADR 2025 rozdz. 1.10 (Dz.U. poz.642, sprostowanie 1575). Materiał wymaga niezależnej recenzji; brak verified.
+
+## Karta kursanta — ochrona przewozu (24.10.2026)
+
+- Weryfikuj tożsamość osób, którym przekazujesz towar lub informacje, zgodnie z procedurami firmy i właściwymi wymaganiami ADR.
+- Status towaru dużego ryzyka zależy od właściwych danych i progów, a nie wyłącznie od nazwy klasy. Sprawdź tabelę i sposób przewozu.
+- **Błąd do uniknięcia:** numer zlecenia, znajomość nazwy towaru lub presja czasu nie dowodzą, że osoba jest uprawniona do odbioru. Nie ujawniaj niepotrzebnie szczegółów przewozu.
+
+Powtórka w banku: ADR-B-0249, 0300, 0304–0305, 0458–0460.
