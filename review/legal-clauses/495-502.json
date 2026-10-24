@@ -116,7 +116,7 @@
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR odróżnia małą wrażliwość inicjacji od rodzaju zagrożenia: podklasa 1.5 wciąż ma zagrożenie wybuchem masowym."
+          "rationale": "Materiały podklasy 1.5 trudno doprowadzić do wybuchu, ale jeśli do niego dojdzie, nadal możliwy jest wybuch obejmujący praktycznie całą ilość materiału. Dlatego określenie „mało wrażliwe” nie znaczy „bezpieczne” ani nie przenosi materiału do klasy 9. Trzeba odróżnić łatwość wywołania reakcji od jej możliwych skutków. Podstawa: ADR 2.2.1.1.5, podklasa 1.5."
         }
       },
       "observed_answer_key": "C",
@@ -135,7 +135,7 @@
           "C": "Tak; materiały 1.5 są mało wrażliwe, ale nadal grozi im wybuch masowy"
         },
         "correct_option": "C",
-        "explanation": "Materiały podklasy 1.5 są bardzo mało wrażliwe na inicjację, lecz nadal stwarzają zagrożenie wybuchem masowym. Mała wrażliwość nie oznacza więc braku tego zagrożenia ani automatycznej zmiany do klasy 9. Ważne jest odróżnienie wrażliwości materiału od skutków możliwego zdarzenia. Podstawa: ADR 2.2.1.1.5, podklasa 1.5.",
+        "explanation": "Materiały podklasy 1.5 trudno doprowadzić do wybuchu, ale jeśli do niego dojdzie, nadal możliwy jest wybuch obejmujący praktycznie całą ilość materiału. Dlatego określenie „mało wrażliwe” nie znaczy „bezpieczne” ani nie przenosi materiału do klasy 9. Trzeba odróżnić łatwość wywołania reakcji od jej możliwych skutków. Podstawa: ADR 2.2.1.1.5, podklasa 1.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -145,7 +145,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "wording_update_note": "Etap 4q: uproszczono wyłącznie objaśnienie dla kursanta; klucz i źródła bez zmian. To nie jest ponowna akceptacja prawna; porównanie polskiego tekstu urzędowego i recenzja specjalisty pozostają otwarte."
     },
     {
       "id": "ADR-B-0498",
