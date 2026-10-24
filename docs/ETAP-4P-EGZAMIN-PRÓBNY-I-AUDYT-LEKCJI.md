@@ -75,3 +75,7 @@ Dopasowano generator do deterministycznego algorytmu tasowania użytego przy two
 ## Partia 7 — aktualność treści wariantu egzaminu
 
 Po wyrównaniu długości odpowiedzi 11 rekordów banku zmieniło warianty i wyjaśnienia. Sprawdzono statyczny wariant 001 i odświeżono jego treść oraz klucz do aktualnego banku. Rozszerzono Quality Gate: test porównuje teraz stem, A/B/C, ilustrację, klucz i wyjaśnienie egzaminu z bieżącymi rekordami, nie tylko istnienie ID. Wariant pozostaje treningiem wewnętrznym, nie zatwierdzonym egzaminem.
+
+## Partia 8 — spójność długości wyjaśnień
+
+Końcowa kontrola po balansowaniu dystraktorów wykryła siedem wyjaśnień skróconych poniżej 300 znaków. Rozbudowano je do 300–500 znaków, zachowując 2–5 prostych zdań i podstawę ADR; odświeżono oba audyty oraz treść wariantu egzaminu i klucza. Po tej korekcie nie powinno pozostać wyjaśnień krótszych niż 300 znaków.
