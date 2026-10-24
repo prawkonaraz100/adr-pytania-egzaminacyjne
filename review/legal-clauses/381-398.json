@@ -30,9 +30,9 @@
         "module_id": "ADR-B-10",
         "stem": "W łańcuchu drogowym i morskim opakowanie nie jest oznaczone zgodnie z ADR, lecz podlega dopuszczeniu według 1.1.4.2.1. Jakie oznakowanie musi mieć?",
         "options": {
-          "A": "Zgodne z IMDG lub instrukcjami ICAO, zależnie od odpowiedniego etapu",
-          "B": "Dowolne ręczne ostrzeżenie",
-          "C": "Nie musi mieć żadnego oznakowania"
+          "A": "Oznakowanie zgodne z IMDG lub ICAO dla danego etapu",
+          "B": "Dowolne ręczne ostrzeżenie wystawione przez kierowcę przed wyjazdem",
+          "C": "Brak oznakowania, jeśli dokument przewozowy zawiera numer UN"
         },
         "correct_option": "A",
         "explanation": "W określonym łańcuchu drogowym połączonym z transportem morskim lub lotniczym ADR może uznać oznakowanie zgodne z IMDG albo instrukcjami ICAO, jeśli spełniono warunki przepisu. Nie wolno zastępować go dowolnym ręcznym ostrzeżeniem ani całkiem rezygnować z oznakowania. Trzeba sprawdzić, który zestaw wymagań ma zastosowanie do przesyłki. Podstawa: ADR 1.1.4.2.1(a).",
@@ -76,9 +76,9 @@
         "module_id": "ADR-B-10",
         "stem": "W łańcuchu z etapem morskim zastosowano przywilej 1.1.4.2.1 dla wspólnego pakowania w jednej sztuce przesyłki. Które wymagania mogą określać pakowanie razem?",
         "options": {
-          "A": "Zawsze zasady przewozu żywności",
-          "B": "Wymagania kodeksu IMDG lub instrukcji ICAO",
-          "C": "Wyłącznie gust kierowcy"
+          "A": "Zawsze zasady przewozu żywności i pasz",
+          "B": "Wymagania IMDG lub instrukcje ICAO",
+          "C": "Wyłącznie osobiste uznanie kierowcy, bez stosowania przepisów"
         },
         "correct_option": "B",
         "explanation": "W przewozie łączącym drogę z morzem lub lotnictwem warunki pakowania razem mogą wynikać z właściwych przepisów IMDG albo instrukcji ICAO, jeśli zastosowanie ma wyjątek ADR. Nie wystarczy kierować się podobną wagą towarów ani własnym uznaniem. Trzeba sprawdzić wymagania dla danego etapu i przesyłki. Podstawa: ADR 1.1.4.2.1(b).",
@@ -122,9 +122,9 @@
         "module_id": "ADR-B-10",
         "stem": "Kontener w łańcuchu morskim oznakowano według IMDG zamiast oznaczeń wymaganych w ADR 5.3. Co może dopuścić 1.1.4.2.1(c)?",
         "options": {
-          "A": "Oznakowanie i nalepki wielkiego formatu według IMDG po spełnieniu warunków",
-          "B": "Usunięcie wszystkich oznakowań",
-          "C": "Dowolną tablicę reklamową"
+          "A": "Oznakowanie IMDG, jeśli spełniono warunki ADR",
+          "B": "Usunięcie wszystkich oznakowań, nawet wymaganych na odcinku drogowym",
+          "C": "Dowolna tablica reklamowa zamiast nalepek ostrzegawczych"
         },
         "correct_option": "A",
         "explanation": "W określonym łańcuchu morskim ADR dopuszcza użycie nalepek i oznakowania zgodnych z IMDG zamiast części oznakowania ADR, ale tylko po spełnieniu warunków przepisu. Nie wolno usuwać wszystkich oznaczeń ani zastępować ich reklamą. Trzeba też sprawdzić, jakie wymagania nadal dotyczą pojazdu drogowego. Podstawa: ADR 1.1.4.2.1(c).",
@@ -168,9 +168,9 @@
         "module_id": "ADR-B-10",
         "stem": "Kontener w łańcuchu morskim korzysta z oznakowania IMDG na podstawie 1.1.4.2.1(c). Co z oznakowaniem pojazdu drogowego?",
         "options": {
-          "A": "Wolno usunąć każdą tablicę pomarańczową",
-          "B": "W zakresie tego wyjątku do pojazdu stosuje się odpowiednie wymaganie 5.3.2.1.1",
-          "C": "Pojazd musi mieć wyłącznie etykietę spedytora"
+          "A": "Usunąć każdą tablicę pomarańczową, gdy kontener ma oznakowanie IMDG",
+          "B": "Zachować wymagane tablice pomarańczowe według 5.3.2.1.1",
+          "C": "Pojazd musi mieć wyłącznie etykietę spedytora, bez innych tablic"
         },
         "correct_option": "B",
         "explanation": "Nawet gdy kontener korzysta z oznakowania IMDG, wyjątek nie usuwa automatycznie wszystkich obowiązków dotyczących pojazdu. Należy zachować wymagane oznakowanie drogowe wskazane w przepisie, w tym odpowiednie tablice pomarańczowe. Etykieta spedytora nie zastępuje oznakowania wymaganego przez ADR. Podstawa: ADR 1.1.4.2.1(c) i 5.3.2.1.1.",
@@ -214,9 +214,9 @@
         "module_id": "ADR-B-10",
         "stem": "Pusty, nieoczyszczony kontener-cysterna przybywa morzem i jedzie do punktu czyszczenia. Jak długo określona reguła oznakowania IMDG z 1.1.4.2.1(c) pozostaje istotna?",
         "options": {
-          "A": "Do transferu do stacji czyszczenia włącznie",
-          "B": "Tylko przez pierwszych 10 km",
-          "C": "Wyłącznie przed rozładunkiem statku"
+          "A": "Do przekazania kontenera do stacji czyszczenia",
+          "B": "Tylko przez pierwszych 10 km od portu, niezależnie od miejsca czyszczenia",
+          "C": "Wyłącznie przed rozładunkiem statku, nie podczas dojazdu do czyszczenia"
         },
         "correct_option": "A",
         "explanation": "Szczególna zasada może obejmować pusty, nieoczyszczony kontener-cysternę przywożony morzem także podczas przewozu do miejsca czyszczenia. Nie kończy się automatycznie po kilku kilometrach ani w chwili opuszczenia statku. Trzeba sprawdzić dokładne warunki przepisu i moment przekazania do stacji czyszczenia. Podstawa: ADR 1.1.4.2.1(c).",
@@ -260,9 +260,9 @@
         "module_id": "ADR-B-10",
         "stem": "Towar jest niebezpieczny według klas 1–9 ADR, ale nie jest uznawany za niebezpieczny według właściwego IMDG/ICAO. Czy wyjątek 1.1.4.2.1 może wtedy automatycznie zadziałać?",
         "options": {
-          "A": "Tak, zawsze",
-          "B": "Nie, ten przypadek jest wyraźnie wyłączony z odstępstwa",
-          "C": "Tak, jeśli masa wynosi poniżej 5 kg"
+          "A": "Tak, nawet gdy IMDG lub ICAO nie uznaje towaru za niebezpieczny",
+          "B": "Nie; przypadek ten jest wyłączony z odstępstwa",
+          "C": "Tak, jeśli masa jest mniejsza niż 5 kg i nie sprawdza się klasyfikacji"
         },
         "correct_option": "B",
         "explanation": "Odstępstwo dla łańcucha morskiego lub lotniczego ma wyraźne ograniczenia. Nie można go automatycznie zastosować do towaru, który jest niebezpieczny według ADR, ale nie jest tak klasyfikowany według właściwych zasad IMDG lub ICAO. Mała masa nie znosi tego wyłączenia. Podstawa: ADR 1.1.4.2.1, akapit końcowy.",
@@ -306,9 +306,9 @@
         "module_id": "ADR-B-10",
         "stem": "Pojazd inny niż przewożący wskazane kontenery ma nalepki wielkiego formatu według IMDG, ale nie zgodnie z ADR 5.3.1. Kiedy 1.1.4.2.2 dopuszcza taki przewóz?",
         "options": {
-          "A": "W łańcuchu obejmującym morze przy zachowaniu tablic pomarańczowych według ADR 5.3.2",
-          "B": "Bez żadnych tablic i bez dokumentu",
-          "C": "Zawsze na dowolnej trasie drogowej"
+          "A": "Tylko w łańcuchu morskim, z tablicami ADR 5.3.2",
+          "B": "Bez tablic i bez dokumentu, jeśli ładunek był już na statku",
+          "C": "Zawsze na dowolnej trasie drogowej, bez sprawdzania warunków wyjątku"
         },
         "correct_option": "A",
         "explanation": "Dopuszczenie dotyczące nalepek IMDG na pojeździe ma określony zakres i dotyczy odpowiedniego łańcucha transportowego z etapem morskim. Warunkiem pozostaje zachowanie wymaganych tablic pomarańczowych ADR. Nie jest to zgoda na dowolny przewóz drogowy bez dokumentów i oznakowania. Podstawa: ADR 1.1.4.2.2 i 5.3.2.",
@@ -352,9 +352,9 @@
         "module_id": "ADR-B-10",
         "stem": "Dokument IMDG/ICAO może w określonym łańcuchu zastępować dokument przewozowy ADR. Co trzeba sprawdzić?",
         "options": {
-          "A": "Czy zawiera także informacje wymagane dodatkowo przez ADR",
-          "B": "Czy jest kolorowy",
-          "C": "Czy kierowca podpisał fakturę"
+          "A": "Sprawdzić, czy zawiera dodatkowe dane wymagane przez ADR",
+          "B": "Czy dokument jest kolorowy i ma logo armatora na każdej stronie",
+          "C": "Czy kierowca podpisał fakturę i otrzymał kopię od spedytora"
         },
         "correct_option": "A",
         "explanation": "Dokument IMDG lub ICAO może w określonych warunkach zastąpić dokument ADR, ale nadal trzeba sprawdzić, czy zawiera dodatkowe informacje wymagane na drodze. Kolor dokumentu ani podpis na fakturze nie potwierdzają spełnienia tych wymagań. Przed wyjazdem należy uzupełnić brakujące dane, jeśli są wymagane. Podstawa: ADR 1.1.4.2.3.",
@@ -399,7 +399,7 @@
         "stem": "Łańcuch obejmuje przewóz drogą i morzem. Czy dopuszczenie z 1.1.4.2.1 oznacza, że nie trzeba spełniać żadnych wymagań na drodze?",
         "options": {
           "A": "Tak, wszystkie zasady drogowe znikają",
-          "B": "Nie, odstępstwo dotyczy określonych wymagań i podlega warunkom",
+          "B": "Nie; wyjątek obejmuje tylko określone wymagania",
           "C": "Tak, wystarczy oznaczenie kontenera logo armatora"
         },
         "correct_option": "B",
@@ -444,9 +444,9 @@
         "module_id": "ADR-B-10",
         "stem": "Towar niebezpieczny ma jechać w zwykłym kontenerze drogą, a następnie statkiem. Jaki dokument przewiduje 5.4.2?",
         "options": {
-          "A": "Świadectwo pakowania kontenera/pojazdu przekazane przewoźnikowi morskiemu",
-          "B": "Wyłącznie zezwolenie na parkowanie",
-          "C": "Wyłącznie fakturę VAT"
+          "A": "Certyfikat pakowania kontenera/pojazdu dla przewoźnika morskiego",
+          "B": "Wyłącznie zezwolenie na parkowanie wydane przez terminal portowy",
+          "C": "Wyłącznie fakturę VAT jako dowód przekazania kontenera do przewozu morskiego"
         },
         "correct_option": "A",
         "explanation": "W określonym łańcuchu drogowym i morskim osoby odpowiedzialne za pakowanie kontenera lub pojazdu powinny przekazać przewoźnikowi morskiemu wymagane świadectwo pakowania. Samo zezwolenie na parkowanie czy faktura VAT nie opisują sposobu przygotowania ładunku. Dokument służy potwierdzeniu spełnienia właściwych wymagań pakowania. Podstawa: ADR 5.4.2.",
