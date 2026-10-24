@@ -55,7 +55,7 @@ python scripts/check_explanation_quality.py --minimum 300
 python -m unittest discover -s tests -v
 ```
 
-Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **79/566 = 13,96%**, próg Quality Gate: 18%. Wewnętrzna mapa 103 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
+Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **71/566 = 12,54%**, próg Quality Gate: 18%. Wewnętrzna mapa 103 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
 
 ## Status weryfikacji
 
