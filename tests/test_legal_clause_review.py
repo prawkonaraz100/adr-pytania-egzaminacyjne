@@ -18,7 +18,7 @@ class LegalClauseReviewTests(unittest.TestCase):
         self.question={
             "id":"ADR-B-0001","module_id":"ADR-B-01","stem":"Przykładowe pytanie testowe?",
             "options":{"A":"Pierwszy wariant","B":"Drugi wariant","C":"Trzeci wariant"},
-            "correct_option":"B","explanation":"Tylko mechaniczna treść testowa.",
+            "correct_option":"B","explanation":("Tylko mechaniczna treść testowa, bez rzeczywistej weryfikacji prawnej ADR ani potwierdzenia poprawności odpowiedzi. " * 3).strip(),
             "sources":[{"reference":"1.3.2","url":"https://example.org"}],
             "legal_basis_version":"ADR-2025-PL","image":None,"verification_status":"needs_review"
         }
