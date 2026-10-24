@@ -137,3 +137,19 @@ Ocena: „rozumie / wymaga wyjaśnienia / nieocenione”, źródło odpowiedzi i
 - **Błąd do uniknięcia:** nie naprawiaj niezgodności pozornie — folia, wolna jazda lub obserwacja przez drugi pojazd nie zastępują prawidłowego opakowania i mocowania.
 
 Powtórka w banku: ADR-B-0546–0560, w tym 0554–0560.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+
+- ADR-B-0060 — pas mocujący
+- ADR-B-0200 — ładunek mieszany
+- ADR-B-0286 — kontrola przed załadunkiem
+- ADR-B-0291–0292 — przewóz luzem
+- ADR-B-0554–0560 — kontrola załadunku i dopuszczalność przewozu luzem
+
+### Przykład z pracy kierowcy
+
+Przed załadunkiem widzisz uszkodzone opakowanie lub pozostałości po poprzednim ładunku. Nie przykrywaj problemu pasem mocującym ani nie zakładaj, że krótka trasa czyni go bezpiecznym. Wstrzymaj załadunek do wyjaśnienia zgodności towaru, pojazdu i sposobu przewozu. Powiązane pytania: ADR-B-0286 i ADR-B-0291–0292.
+
+**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.

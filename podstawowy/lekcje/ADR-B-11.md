@@ -109,3 +109,19 @@ Podstawa: program zał. 1 pkt 1(k) Dz.U. 2021 poz. 2150; ADR 2025 1.9.5, 3.2 tab
 - **Błąd do uniknięcia:** nie wybieraj trasy wyłącznie na podstawie klasy towaru; sprawdź kod, formę przewozu, oznakowanie tunelu i lokalne ograniczenia.
 
 Powtórka w banku: ADR-B-0262–0264, 0431, 0487–0488.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+- ADR-B-0248 — ograniczenia tunelowe
+- ADR-B-0262–0264 — kody tunelowe
+- ADR-B-0308 — pożar w tunelu
+- ADR-B-0431 — symbol (-)
+- ADR-B-0487–0488 — kod D/E
+
+### Przykłady z pracy kierowcy
+**Kod tunelowy:** nie wybieraj trasy wyłącznie po klasie towaru. Sprawdź kod tunelowy, formę przewozu i znaki przy tunelu. Dla kodu D/E wynik może zależeć od sposobu przewozu.
+
+**Pożar w tunelu:** nie próbuj samodzielnie gasić pożaru przestrzeni ładunkowej ani otwierać przesyłek. Zapewnij sobie bezpieczeństwo, ostrzeż innych i wezwij pomoc. Powiązane pytanie: ADR-B-0308.
+
+**Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, A/B/C i podstawę prawną.

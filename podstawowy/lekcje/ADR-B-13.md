@@ -135,3 +135,17 @@ Podstawa programu: Dz.U. 2021 poz. 2150 zał.1(m); ADR 2025 5.4.1, 5.4.2, 5.4.3 
 - **Błąd do uniknięcia:** nie zastępuj numeru UN numerem rejestracyjnym, kodem tunelowym ani samą nazwą handlową.
 
 Powtórka w banku: ADR-B-0226, 0508 oraz dokumenty związane z przewozem kombinowanym.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+- ADR-B-0039 — instrukcje pisemne
+- ADR-B-0226 — dokumenty przed wyjazdem
+- ADR-B-0250 — dokument przewozowy
+- ADR-B-0287 i ADR-B-0306 — kontrola dokumentów
+- ADR-B-0508 — dodatkowe dane dokumentacyjne
+
+### Przykład z pracy kierowcy
+Przed wyjazdem porównaj dokument przewozowy z ładunkiem, numerem UN i oznakowaniem. Jeśli dane się nie zgadzają lub brakuje wymaganego dokumentu, wyjaśnij to przed rozpoczęciem przewozu. Instrukcje pisemne nie zastępują dokumentu przewozowego i odwrotnie.
+
+**Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, A/B/C i podstawę prawną.

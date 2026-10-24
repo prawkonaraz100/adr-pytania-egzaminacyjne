@@ -110,3 +110,15 @@ Karty wyłącznie fikcyjne; ocena: „rozumie / wymaga wyjaśnienia / nieocenion
 - **Błąd do uniknięcia:** sam dojazd do portu lub obecność dokumentu IMDG nie jest ogólnym zwolnieniem z ADR.
 
 Powtórka w banku: ADR-B-0247, 0277–0278, 0396, 0441.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+- ADR-B-0247 — przewóz kombinowany
+- ADR-B-0277–0278 — dokumenty i kontener
+- ADR-B-0396 i ADR-B-0441 — warunki przewozu kombinowanego
+
+### Przykład z pracy kierowcy
+Kontener przyjeżdża z portu z dokumentami dla odcinka morskiego. Nie zakładaj, że dokument IMDG sam w sobie znosi wymagania drogowego odcinka ADR. Sprawdź wymagane dokumenty i warunki stosowania ewentualnego wyjątku.
+
+**Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, wszystkie warianty A/B/C i podstawę prawną.

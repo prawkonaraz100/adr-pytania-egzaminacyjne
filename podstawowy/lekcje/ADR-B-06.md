@@ -117,3 +117,19 @@ Podstawa programu: zał. 1 pkt 1(f), Dz.U. 2021 poz. 2150. ADR Dz.U. 2025 poz. 6
 - **Błąd do uniknięcia:** nie zakrywaj błędnej nalepki przypadkową kartką i nie poprawiaj numerów samodzielnie bez sprawdzenia wymagań.
 
 Powtórka w banku: ADR-B-0546–0550 i 0561–0565; klucze pozostają robocze `needs_review`.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+
+- ADR-B-0255–0258 — tablice i oznakowanie
+- ADR-B-0281 — oznaczenie UN
+- ADR-B-0298–0299 i ADR-B-0303 — kontrola oznakowania
+- ADR-B-0546–0550 — nalepki dużego formatu
+- ADR-B-0561–0565 — nalepki i tablice po rozładunku
+
+### Przykład z pracy kierowcy
+
+Po rozładunku kontenera nie usuwaj oznaczeń automatycznie. Najpierw ustal, czy pozostały niebezpieczne resztki i czy warunki ADR pozwalają usunąć oznakowanie. Nie zastępuj czytelnej nalepki nazwą handlową ani przypadkową kartką. Powiązane pytania: ADR-B-0546–0550 i ADR-B-0561–0565. Nowe pytania nadal mają `needs_review`.
+
+**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.

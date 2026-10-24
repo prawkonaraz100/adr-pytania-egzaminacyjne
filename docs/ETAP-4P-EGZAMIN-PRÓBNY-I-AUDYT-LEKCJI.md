@@ -34,3 +34,10 @@ Dalsze wyrównanie należy kierować najpierw do działów powyżej 18%, bez zmi
 13/13 plików istnieje i zawiera kartę powtórkową po PR #257. Materiały mają cele, sekcje tematyczne, źródła i scenariusze, ale pozostają szkicami bez niezależnego odbioru. W sekcjach bazowych najmniej prostych przykładów kierowcy występuje w B-03, B-04, B-08, B-11 i B-12. Następna partia doda krótkie przykłady i jawne odsyłacze do pytań; nie będzie to zatwierdzenie prawne.
 
 Pełne literalne porównanie z polskim tekstem ADR 2025 i sprostowaniem oraz niezależna recenzja A/B/C pozostają otwarte. Quiz nie zalicza praktyki P1–P3.
+
+## Partia 2 — przegląd i dopracowanie 13 lekcji (24.10.2026)
+
+- Wszystkie 13 lekcji otrzymało jawny wykaz ID pytań odpowiadających tematowi oraz prosty przykład z pracy kierowcy.
+- Szczególnie doprecyzowano B-03 (rozlew i odpady), B-04 (zakaz palenia i postój z nadzorem), B-08 (liczba gaśnic vs. masa oraz świadectwo), B-11 (kod tunelowy i pożar) i B-12 (weryfikacja odbiorcy i tabela towarów dużego ryzyka), bo wcześniejsze sekcje bazowe miały niewiele praktycznych przykładów.
+- Nie zmieniono banku pytań, kluczy ani statusów. Odsyłacze wskazują istniejące rekordy; wszystkie pozostają `needs_review`.
+- To przegląd redakcyjny, nie prawny odbiór eksperta. Niezależny specjalista ADR musi jeszcze sprawdzić wyjątki, podstawy i wszystkie warianty A/B/C; instruktor powinien ocenić zrozumiałość w rzeczywistych zajęciach.

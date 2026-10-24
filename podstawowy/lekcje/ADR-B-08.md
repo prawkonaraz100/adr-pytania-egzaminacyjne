@@ -120,3 +120,23 @@ Podstawa programu: Dz.U. 2021 poz. 2150 zał. 1(h). ADR Dz.U. 2025 poz. 642 i sp
 - **Błąd do uniknięcia:** nie zastępuj świadectwa dowodem rejestracyjnym ani ustnym zapewnieniem firmy; w razie wątpliwości wstrzymaj wyjazd do wyjaśnienia.
 
 Powtórka w banku: ADR-B-0418–0423, 0551–0553 i 0566.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+
+- ADR-B-0074 — stan gaśnicy
+- ADR-B-0251–0254 — wyposażenie
+- ADR-B-0282–0283 — liczba i pojemność gaśnic
+- ADR-B-0418–0423 — wymagania wyposażenia
+- ADR-B-0551–0553 i ADR-B-0566 — świadectwo dopuszczenia
+
+### Przykłady z pracy kierowcy
+
+**Gaśnice:** liczba urządzeń i łączna masa środka gaśniczego to dwa osobne warunki. Jedna ciężka gaśnica nie zawsze zastąpi wymaganą liczbę mniejszych. Powiązane pytanie: ADR-B-0418 (ADR 8.1.4.1).
+
+**Świadectwo dopuszczenia:** jeśli dany typ pojazdu musi je mieć, nie zastępuj dokumentu ustnym zapewnieniem firmy ani dowodem rejestracyjnym. Przed wyjazdem sprawdź ważność i dostępność dokumentu. Powiązane pytania: ADR-B-0551 i ADR-B-0566 (ADR 9.1.3.1 i 8.1.2.2).
+
+Te pytania pozostają `needs_review`; przykłady wymagają niezależnej recenzji przed szkoleniem.
+
+**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.

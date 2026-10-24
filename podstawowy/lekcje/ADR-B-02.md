@@ -173,3 +173,19 @@ Urzędowy zakres: Dz.U. 2021 poz. 2150, załącznik nr 1 pkt 1(b); klasyfikacja 
 - **Błąd do uniknięcia:** nie klasyfikuj rzeczywistego towaru wyłącznie po nazwie handlowej, zapachu lub jednym symbolu; sprawdź dane i właściwy wpis ADR.
 
 Powtórka w banku: ADR-B-0495–0502, 0541–0542.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+
+- ADR-B-0042 — klasy gazów
+- ADR-B-0265–0270 — rozpoznawanie klas i nalepek
+- ADR-B-0307 — nadtlenki organiczne
+- ADR-B-0309 i ADR-B-0311 — klasa 6.2
+- ADR-B-0315 — baterie sodowo-jonowe
+
+### Przykład z pracy kierowcy
+
+Na etykiecie widzisz symbol płomienia, ale nie znasz dokładnej klasy. Nie klasyfikuj towaru po samym symbolu. Odczytaj całą nalepkę, numer UN i dokumenty, a następnie porównaj je z właściwym wpisem. Powiązane pytania: ADR-B-0265–0270 i ADR-B-0315.
+
+**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.

@@ -196,3 +196,19 @@ Fikcyjna mapa kolizji, instrukcje pisemne ADR 5.4.3, lista wyposażenia 8.1.5, z
 - **Błąd do uniknięcia:** test online nie zalicza ćwiczeń. P1–P3 muszą zostać przeprowadzone i ocenione przez instruktora, z osobnym zapisem realizacji.
 
 Powtórka w banku: ADR-B-0308, 0362, 0435. Ćwiczenia praktyczne: P1–P3 w `podstawowy/praktyka/SCENARIUSZE.md`.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+
+- ADR-B-0015 — gaśnice
+- ADR-B-0050 — instrukcje pisemne
+- ADR-B-0169 i ADR-B-0232 — dostępność gaśnicy
+- ADR-B-0308 — pożar przestrzeni ładunkowej
+- ADR-B-0362 i ADR-B-0435 — reakcja na zdarzenie
+
+### Przykład z pracy kierowcy
+
+Jeśli ogień obejmuje przestrzeń ładunkową, nie otwieraj jej, by zobaczyć, co się pali. Oddal się, ostrzeż innych i wezwij służby. Inne działania mogą być rozważane wyłącznie w granicach instrukcji i bezpieczeństwa. Powiązane pytania: ADR-B-0308, ADR-B-0362 i ADR-B-0435. Ćwiczenia praktyczne P1–P3 wykonuje i potwierdza instruktor; quiz nie jest zaliczeniem praktyki.
+
+**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.

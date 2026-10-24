@@ -128,3 +128,19 @@ To przewoźnik zapewnia załodze instrukcje pisemne, w języku zrozumiałym dla 
 - **Błąd do uniknięcia:** nie przypisuj wszystkich obowiązków jednej osobie i nie traktuj „ktoś już sprawdził” jako dowodu, że wymaganie jest spełnione.
 
 Powtórka w banku: ADR-B-0285, 0290, 0482.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+
+- ADR-B-0019 — instrukcje dla załogi
+- ADR-B-0285 — odpowiedzialność uczestników
+- ADR-B-0290 — pakujący
+- ADR-B-0293 — załoga i pasażerowie
+- ADR-B-0482 — obowiązki uczestników
+
+### Przykład z pracy kierowcy
+
+Nadawca przekazał dokumenty, ale podczas kontroli zauważasz uszkodzone opakowanie. Nie zakładaj, że wcześniejsza kontrola innego uczestnika zwalnia cię z reakcji na widoczną niezgodność. Zgłoś problem i wyjaśnij go przed dalszym przewozem. Powiązane pytania: ADR-B-0285 i ADR-B-0290.
+
+**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
