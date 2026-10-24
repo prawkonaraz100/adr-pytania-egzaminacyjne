@@ -495,7 +495,7 @@
           "C": "Tylko wskazanych materiałów i warunków"
         },
         "correct_option": "C",
-        "explanation": "Uwaga (d) wymienia konkretne materiały oraz warunki; nie jest ogólnym zwolnieniem dla klas 1 i 5.1.",
+        "explanation": "Uwaga (d) w tabeli wspólnego załadunku dotyczy tylko wskazanych materiałów i konkretnych warunków. Nie daje ogólnej zgody na łączenie wszystkich materiałów wybuchowych z dowolnymi utleniaczami. Trzeba sprawdzić dokładny wpis tabeli i zastosować go do klasyfikacji przewożonych przesyłek. Podstawa: ADR 7.5.2.1, uwaga (d).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -541,7 +541,7 @@
           "C": "Tabela zgodności 7.5.2.2"
         },
         "correct_option": "C",
-        "explanation": "Gdy analizujemy łączne ładowanie materiałów klasy 1, należy stosować grupy zgodności według 7.5.2.2.",
+        "explanation": "Przy wspólnym załadunku różnych materiałów klasy 1 nie wystarczy porównać nazw ani kolorów opakowań. Należy uwzględnić przypisane grupy zgodności i tabelę ADR, która określa, które kombinacje są dopuszczalne. Zasady te służą ograniczeniu ryzyka niebezpiecznej reakcji między materiałami wybuchowymi. Podstawa: ADR 7.5.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -587,7 +587,7 @@
           "C": "Tak, gdy ten sam przewoźnik"
         },
         "correct_option": "B",
-        "explanation": "Zakaz wspólnego załadunku pozostaje; niezależnie mogą być wymagane osobne dokumenty przewozowe.",
+        "explanation": "Oddzielne dokumenty przewozowe nie znoszą zakazu wspólnego załadunku. Jeśli tabela ADR nie dopuszcza przewożenia danych sztuk razem, nie wolno umieszczać ich w jednej jednostce transportowej tylko dlatego, że każda ma własny numer lub dokument. Najpierw sprawdź zgodność ładunku, a potem dokumentację. Podstawa: ADR 7.5.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -633,7 +633,7 @@
           "C": "Najmniej ograniczającą w systemie A–E"
         },
         "correct_option": "C",
-        "explanation": "Kategoria A zasadniczo nie nakłada tunelowych ograniczeń ADR, w odróżnieniu od kategorii B–E.",
+        "explanation": "Kategoria tunelu A jest najmniej ograniczająca w systemie ADR i zasadniczo nie wprowadza ograniczeń tunelowych dla towarów niebezpiecznych. Nie jest równoważna kategorii E, która ma najszersze ograniczenia. Zawsze trzeba jednak uwzględnić znaki drogowe i inne ograniczenia niezwiązane z kodem tunelowym ADR. Podstawa: ADR 8.6.3.1 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -679,7 +679,7 @@
           "C": "Brak ograniczenia tunelowego przewidzianego dla tego towaru"
         },
         "correct_option": "C",
-        "explanation": "Symbol (-) oznacza brak przypisanego ograniczenia tunelowego w ADR dla takiego przewozu.",
+        "explanation": "Symbol „(-)” w kolumnie 15 tabeli A oznacza, że dla tego towaru nie przypisano ograniczenia tunelowego ADR. Nie oznacza nakazu przejazdu tunelem E ani zakazu wszystkich tuneli. Nadal obowiązują ogólne przepisy drogowe, znaki i inne wymagania dotyczące konkretnej trasy. Podstawa: ADR 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -725,7 +725,7 @@
           "C": "Według kodu najbardziej restrykcyjnego dla danego transportu"
         },
         "correct_option": "C",
-        "explanation": "Przy współprzewozie uwzględnia się najbardziej ograniczające znaczenie kodów tunelowych.",
+        "explanation": "Gdy w jednej jednostce transportowej znajdują się towary o różnych kodach tunelowych, trzeba ustalić kod najbardziej restrykcyjny dla danego rodzaju przewozu. Nie wolno dowolnie wybrać wygodniejszego kodu ani kierować się ceną ładunku. To pozwala prawidłowo ocenić, przez które tunele można przejechać. Podstawa: ADR 8.6.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -771,7 +771,7 @@
           "C": "Wyłącznie do karetek"
         },
         "correct_option": "A",
-        "explanation": "Litera przy znaku tunelowym wskazuje kategorię ograniczenia dla określonych przewozów ADR.",
+        "explanation": "Litera na znaku tunelowym określa kategorię tunelu i pomaga ustalić, czy dany przewóz ADR może wjechać do środka. Ograniczenie nie jest ogólnym zakazem dla wszystkich samochodów osobowych ani przepisem dotyczącym wyłącznie karetek. Trzeba porównać kategorię tunelu z kodem przewożonego towaru. Podstawa: ADR 1.9.5.3.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -817,7 +817,7 @@
           "C": "Kolumna (15) tabeli A dla numeru UN i odpowiednia dokumentacja przewozowa"
         },
         "correct_option": "C",
-        "explanation": "Kod tunelowy znajduje się w kolumnie (15) wykazu i bywa ujmowany w dokumentacji ADR.",
+        "explanation": "Kod ograniczenia tunelowego należy odczytać z kolumny 15 tabeli A dla właściwego numeru UN. Dane przewozowe pomagają powiązać kod z faktycznie przewożonym towarem, a nie z osobą kierowcy czy adresem odbiorcy. Na tej podstawie planuje się trasę z uwzględnieniem zakazów tunelowych. Podstawa: ADR 3.2, tabela A, kolumna 15 oraz 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -863,7 +863,7 @@
           "C": "Wystarczy polać towar wodą bez jego identyfikacji"
         },
         "correct_option": "A",
-        "explanation": "Instrukcja pisemna zabrania podejmowania prób gaszenia pożaru przestrzeni ładunkowej przez załogę.",
+        "explanation": "Gdy pożar obejmuje przedział ładunkowy z towarami niebezpiecznymi, załoga nie powinna próbować go gasić ani otwierać ładowni. Należy oddalić się w bezpieczne miejsce i wezwać służby. Wejście do środka lub polewanie nieznanego ładunku wodą może gwałtownie zwiększyć zagrożenie. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -909,7 +909,7 @@
           "C": "Otworzyć ją i przelać zawartość bez uprawnień"
         },
         "correct_option": "A",
-        "explanation": "Wstępna kontrola przesyłek i stanu opakowań jest obowiązkiem załadowcy.",
+        "explanation": "Przed załadunkiem załadowca powinien sprawdzić stan sztuk przesyłek i nie przekazywać do przewozu opakowania, którego uszkodzenie lub wyciek zagraża bezpieczeństwu. Przykrycie plandeką ukrywa problem, ale go nie usuwa; samodzielne przelewanie zawartości może być niebezpieczne. Należy wstrzymać załadunek do usunięcia niezgodności. Podstawa: ADR 7.5.1.2 i 1.4.3.1.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
