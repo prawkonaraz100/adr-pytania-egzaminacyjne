@@ -93,6 +93,38 @@ def validate_reviewer_manifest(root: Path, questions):
         errors.append("Specialist manifest SVG links are stale or duplicated")
     return errors
 
+def validate_practical_scenario_map(root: Path, questions):
+    """Validate that each basic module has a safe, stepwise scenario linked to live questions."""
+    path = root / "podstawowy/praktyka/scenariusze-13-dzialow.json"
+    if not path.is_file():
+        return ["Missing 13-module practical scenario map"]
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        scenarios = data["scenarios"]
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        return [f"Invalid practical scenario map: {exc}"]
+    errors = []
+    expected = {f"ADR-B-{n:02d}" for n in range(1, 14)}
+    modules = [s.get("module_id") for s in scenarios]
+    if len(scenarios) != 13 or set(modules) != expected or len(set(modules)) != 13:
+        errors.append("Practical scenario map must contain exactly one scenario for each of 13 modules")
+    by_id = {q["id"]: q for q in questions}
+    for scenario in scenarios:
+        ident = scenario.get("id", "<unknown>")
+        if len(scenario.get("steps", [])) < 3:
+            errors.append(f"Practical scenario has fewer than 3 steps: {ident}")
+        if not scenario.get("question_ids"):
+            errors.append(f"Practical scenario has no question references: {ident}")
+        for qid in scenario.get("question_ids", []):
+            if qid not in by_id:
+                errors.append(f"Practical scenario references missing question: {ident} / {qid}")
+            elif by_id[qid].get("module_id") != scenario.get("module_id"):
+                errors.append(f"Practical scenario question belongs to another module: {ident} / {qid}")
+        if not scenario.get("safety_boundary"):
+            errors.append(f"Practical scenario missing safety boundary: {ident}")
+    return errors
+
+
 def audit(root: Path):
     failures = []
     warnings = []
@@ -112,6 +144,7 @@ def audit(root: Path):
     if numbers != list(range(1, len(qids) + 1)):
         failures.append("IDs are not consecutive from ADR-B-0001")
     failures.extend(validate_image_assets(root, questions))
+    failures.extend(validate_practical_scenario_map(root, questions))
     failures.extend(validate_reviewer_manifest(root, questions))
     modules = {f"ADR-B-{n:02d}" for n in range(1, 14)}
     if {q["module_id"] for q in questions} != modules:
