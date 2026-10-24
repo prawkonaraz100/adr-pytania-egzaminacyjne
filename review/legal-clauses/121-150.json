@@ -741,9 +741,9 @@
         "module_id": "ADR-B-07",
         "stem": "Czy jednostka transportowa przewożąca ADR na zasadach 8.3.1 może zabrać pasażera niebędącego członkiem załogi?",
         "options": {
-          "A": "Tak, jeżeli jedzie tylko po Polsce",
-          "B": "Nie, 8.3.1 wyklucza osoby spoza załogi",
-          "C": "Tak, jeżeli pasażer siedzi z przodu"
+          "A": "Tak, pasażer może jechać, jeśli trasa przebiega wyłącznie na terenie Polski",
+          "B": "Nie; osoby spoza załogi nie mogą podróżować w tej jednostce",
+          "C": "Tak, pasażer może siedzieć z przodu, jeśli ma zapięte pasy"
         },
         "correct_option": "B",
         "explanation": "Przy przewozach objętych zasadą ADR 8.3.1 w jednostce transportowej mogą przebywać członkowie załogi, ale nie przypadkowi pasażerowie. Obecność dodatkowej osoby zwiększałaby liczbę ludzi narażonych podczas zdarzenia. Jazda wyłącznie po Polsce ani miejsce pasażera na przednim siedzeniu nie tworzą wyjątku. Podstawa: ADR 8.3.1.",
@@ -835,9 +835,9 @@
         "module_id": "ADR-B-09",
         "stem": "Kontrola przed załadunkiem ADR wykazuje niezgodność wyposażenia pojazdu z wymaganiami. Co należy zrobić?",
         "options": {
-          "A": "Nie rozpoczynać załadunku przed usunięciem niezgodności",
-          "B": "Załadować, jeśli trasa będzie krótka",
-          "C": "Pozostawić ocenę wyłącznie odbiorcy"
+          "A": "Nie rozpoczynać załadunku przed usunięciem stwierdzonej niezgodności",
+          "B": "Załadować mimo niezgodności, jeżeli do odbiorcy pozostała krótka trasa",
+          "C": "Przekazać ocenę wyposażenia odbiorcy dopiero po dostawie"
         },
         "correct_option": "A",
         "explanation": "Przed załadunkiem trzeba upewnić się, że pojazd i jego wymagane wyposażenie nadają się do bezpiecznego przewozu. Jeśli kontrola ujawni niezgodność, załadunku nie należy rozpoczynać do jej usunięcia. Krótka trasa nie usuwa obowiązków, a odkładanie całej oceny na odbiorcę byłoby zbyt późne. Podstawa: ADR 7.5.1.2.",
@@ -882,9 +882,9 @@
         "module_id": "ADR-B-09",
         "stem": "W jakim przypadku ADR 7.3.1.1 dopuszcza przewóz towarów niebezpiecznych luzem w pojeździe lub kontenerze?",
         "options": {
-          "A": "Gdy w pojeździe są tylko opakowania, które nie zmieściły się na palecie",
-          "B": "Gdy w kolumnie 10 lub 17 tabeli A wskazano zezwalający kod BK, VC albo wyraźne odesłanie do szczególnego punktu, oraz spełniono odpowiednie warunki",
-          "C": "Gdy pojazd jest przykryty plandeką i przewoźnik sam zatwierdził ten sposób przewozu"
+          "A": "Gdy opakowania nie mieszczą się na palecie, można je przewieźć luzem bez dodatkowych warunków",
+          "B": "Gdy tabela A wskazuje kod BK/VC lub szczególny przepis i spełniono jego warunki",
+          "C": "Gdy pojazd ma plandekę, a przewoźnik zatwierdził przewóz luzem bez sprawdzania tabeli"
         },
         "correct_option": "B",
         "explanation": "Przewóz luzem oznacza transport towaru bez typowych sztuk przesyłek i wolno go zastosować tylko tam, gdzie ADR wyraźnie na to pozwala. Trzeba sprawdzić odpowiedni kod BK, VC lub szczególne odesłanie w tabeli A oraz wymagane warunki. Sama plandeka albo decyzja przewoźnika nie wystarcza do zalegalizowania przewozu luzem. Podstawa: ADR 7.3.1.1 oraz warunki 7.3.2 lub 7.3.3.",
@@ -1070,9 +1070,9 @@
         "module_id": "ADR-B-11",
         "stem": "W tunelu podczas przewozu ADR wybucha rozwinięty pożar przedziału ładunkowego. Co jest właściwym priorytetem załogi?",
         "options": {
-          "A": "Wejście do ładowni i otwarcie przesyłek",
-          "B": "Pozostanie obok ładunku bez wezwania służb",
-          "C": "Bezpieczna ewakuacja, ostrzeżenie służb i niepodejmowanie samodzielnego gaszenia pożaru ładowni"
+          "A": "Wejść do przedziału ładunkowego i otworzyć przesyłki, aby sprawdzić źródło pożaru",
+          "B": "Pozostać obok pojazdu i obserwować pożar, nie informując służb ratunkowych",
+          "C": "Bezpiecznie się ewakuować, ostrzec służby i nie gasić pożaru ładowni"
         },
         "correct_option": "C",
         "explanation": "Rozwinięty pożar ładowni w tunelu stanowi ogromne zagrożenie dla życia załogi i innych osób. Trzeba przede wszystkim bezpiecznie się oddalić, ostrzec służby i stosować procedury tunelu. Wchodzenie do ładowni i otwieranie przesyłek albo pozostanie obok ognia bez wezwania pomocy mogą doprowadzić do kolejnych ofiar. Podstawa: ADR 5.4.3.4.",
@@ -1117,9 +1117,9 @@
         "module_id": "ADR-B-12",
         "stem": "Przy przewozie objętym 8.4.1 ADR jaki postój bez bezpośredniego nadzoru może być dopuszczony?",
         "options": {
-          "A": "Postój na odpowiednio zabezpieczonym terenie bazy lub chronionego zakładu",
-          "B": "Można wybrać dowolne pobocze bez ogrodzenia, kontroli dostępu ani nadzoru",
-          "C": "Parking dobrany tylko według ceny"
+          "A": "Skorzystać z zabezpieczonej bazy lub terenu chronionego zakładu",
+          "B": "Można wybrać dowolne pobocze bez kontroli dostępu i innych zabezpieczeń",
+          "C": "Wybrać parking wyłącznie według ceny, bez sprawdzania wymogów ADR"
         },
         "correct_option": "A",
         "explanation": "Gdy przewóz wymaga nadzoru zgodnie z ADR 8.4.1, pojazdu nie można pozostawić po prostu w dowolnym miejscu. Odpowiednio zabezpieczona baza lub teren chronionego zakładu może spełniać warunki postoju bez bezpośredniego nadzoru. Cena parkingu czy wygodne pobocze nie decydują o dopuszczalności takiego postoju. Podstawa: ADR 8.4.1.",
@@ -1164,9 +1164,9 @@
         "module_id": "ADR-B-13",
         "stem": "Gdzie podczas przewozu powinno znajdować się wymagane świadectwo dopuszczenia samochodu ciężarowego typu FL (pojazdu silnikowego, nie naczepy), zgodnie z ogólną zasadą ADR?",
         "options": {
-          "A": "Wyłącznie u odbiorcy",
-          "B": "W kabinie jednostki transportowej z innymi wymaganymi dokumentami",
-          "C": "Tylko w archiwum szkolenia"
+          "A": "Zostawić świadectwo u odbiorcy, by mógł je odebrać dopiero po rozładunku",
+          "B": "Mieć je w kabinie wraz z wymaganymi dokumentami przewozu",
+          "C": "Przechowywać je wyłącznie w archiwum szkolenia, a nie w pojeździe"
         },
         "correct_option": "B",
         "explanation": "Świadectwo dopuszczenia pojazdu FL potwierdza spełnienie szczególnych wymagań technicznych dla tego rodzaju pojazdu. Gdy jest wymagane, należy je mieć w kabinie razem z innymi dokumentami, aby można je było okazać podczas kontroli. Dokument pozostawiony u odbiorcy lub w archiwum szkolenia nie spełnia tego celu. Podstawa: ADR 8.1.2.2(a).",
@@ -1216,9 +1216,9 @@
         "module_id": "ADR-B-13",
         "stem": "Czy w kabinie trzeba mieć zaświadczenie o przeszkoleniu kierowcy ADR, gdy jest ono wymagane według 8.2.1?",
         "options": {
-          "A": "Nie, wystarczy ustne oświadczenie kierowcy",
-          "B": "Tylko przy przewozie poza Polską",
-          "C": "Tak, zgodnie z obowiązkiem dokumentacyjnym 8.1.2.2"
+          "A": "Nie, wystarczy ustne zapewnienie kierowcy, że ma aktualne zaświadczenie ADR",
+          "B": "Tak, ale tylko wtedy, gdy pojazd przekracza granicę państwa",
+          "C": "Tak, gdy jest wymagane, zgodnie z obowiązkiem dokumentacyjnym 8.1.2.2"
         },
         "correct_option": "C",
         "explanation": "Zaświadczenie ADR potwierdza, że kierowca odbył wymagane szkolenie i zdał egzamin dla właściwego przewozu. Gdy dokument jest wymagany, powinien znajdować się w kabinie pojazdu podczas jazdy. Ustne zapewnienie nie zastępuje zaświadczenia, a obowiązek nie ogranicza się wyłącznie do tras zagranicznych. Podstawa: ADR 8.1.2.2(b) i 8.2.1.",
@@ -1263,9 +1263,9 @@
         "module_id": "ADR-B-01",
         "stem": "Do pracy przy przewozie ADR skierowano ciągnik samochodowy z naczepą. Jak ADR traktuje taki zestaw przy wymaganiach odnoszących się do jednostki transportowej?",
         "options": {
-          "A": "Jako jednostkę transportową obejmującą pojazd silnikowy wraz z przyczepą lub naczepą",
-          "B": "Jako dwie zawsze niezależne jednostki transportowe do obliczeń ilościowych",
-          "C": "Jako jednostkę transportową wyłącznie wtedy, gdy naczepa jest pusta"
+          "A": "Jako jedną jednostkę obejmującą pojazd silnikowy i przyczepę lub naczepę",
+          "B": "Zawsze jako dwie osobne jednostki przy obliczaniu ilości przewożonego towaru",
+          "C": "Jako jedną jednostkę wyłącznie wtedy, gdy naczepa jest całkowicie pusta"
         },
         "correct_option": "A",
         "explanation": "Ciągnik samochodowy z naczepą traktuje się jako jedną jednostkę transportową w rozumieniu ADR. Ma to znaczenie na przykład przy obliczaniu ilości towarów objętych określonymi zwolnieniami. Nie liczy się ich automatycznie jako dwóch oddzielnych jednostek, a obecność ładunku w naczepie nie zmienia samej definicji. Podstawa: ADR 1.2.1.",
@@ -1310,9 +1310,9 @@
         "module_id": "ADR-B-01",
         "stem": "Kierowca ma aktualne zaświadczenie ADR, ale nie ma prawa jazdy odpowiedniej kategorii na prowadzony zestaw. Co z tego wynika?",
         "options": {
-          "A": "Wystarczy zaświadczenie ADR, gdy nie ma załadunku lub rozładunku",
-          "B": "Zaświadczenie ADR nie zastępuje wymaganego prawa jazdy; nie uprawnia samo do prowadzenia zestawu",
-          "C": "Zaświadczenie ADR zastępuje każdą kategorię prawa jazdy"
+          "A": "Zaświadczenie ADR wystarczy, jeśli kierowca nie wykonuje załadunku ani rozładunku",
+          "B": "Zaświadczenie ADR nie zastępuje prawa jazdy odpowiedniej kategorii dla zestawu",
+          "C": "Zaświadczenie ADR pozwala prowadzić każdy pojazd bez dodatkowej kategorii prawa jazdy"
         },
         "correct_option": "B",
         "explanation": "Zaświadczenie ADR dotyczy przygotowania do przewozu towarów niebezpiecznych, a prawo jazdy uprawnia do prowadzenia odpowiedniego pojazdu. Kierowca potrzebuje obu uprawnień, gdy są wymagane. Zaświadczenie ADR nie pozwala prowadzić zestawu bez właściwej kategorii, niezależnie od tego, czy wykonuje się załadunek. Podstawa: ADR 8.2.1 i przepisy o uprawnieniach kierowców.",
@@ -1357,9 +1357,9 @@
         "module_id": "ADR-B-01",
         "stem": "Jak sprawdza się limit ilości ograniczonej (LQ) dla konkretnego numeru UN?",
         "options": {
-          "A": "Według jednej, identycznej dla wszystkich towarów wartości 1000 litrów",
-          "B": "Wyłącznie według masy całego samochodu, bez znaczenia rodzaju opakowania",
-          "C": "Według limitu na opakowanie wewnętrzne wskazanego w kolumnie 7a tabeli A i warunków działu 3.4"
+          "A": "Według jednego limitu 1000 litrów, stosowanego jednakowo do wszystkich towarów",
+          "B": "Według masy całego pojazdu, bez sprawdzania opakowania i rodzaju materiału",
+          "C": "Według limitu LQ dla opakowania wewnętrznego z tabeli A i warunków działu 3.4"
         },
         "correct_option": "C",
         "explanation": "Limit LQ zależy od konkretnego towaru i jest podany w kolumnie 7a tabeli A, z dodatkowymi warunkami pakowania w dziale 3.4. Nie istnieje jeden limit 1000 litrów dla wszystkich materiałów. Sama masa całego samochodu też nie zastępuje sprawdzenia ilości w opakowaniach wewnętrznych. Podstawa: ADR 3.2 tabela A i 3.4.",
@@ -1404,9 +1404,9 @@
         "module_id": "ADR-B-02",
         "stem": "Co odróżnia zagrożenie wybuchem masowym w podklasie 1.1 od podklasy 1.4?",
         "options": {
-          "A": "Podklasa 1.4 oznacza niewielkie zagrożenie wybuchem ograniczone zasadniczo do opakowania, a 1.1 zagrożenie wybuchem masowym",
+          "A": "Podklasa 1.1 oznacza wybuch masowy; 1.4 zwykle ogranicza skutki do opakowania",
           "B": "Podklasa 1.4 oznacza większe zagrożenie wybuchem masowym niż 1.1",
-          "C": "Podklasa 1.1 dotyczy wyłącznie materiałów żrących"
+          "C": "Podklasa 1.1 opisuje materiały żrące, a nie materiały stwarzające zagrożenie wybuchem"
         },
         "correct_option": "A",
         "explanation": "Podklasa 1.1 oznacza możliwość wybuchu masowego, który może objąć praktycznie cały ładunek. Podklasa 1.4 opisuje zwykle mniejsze zagrożenie, zasadniczo ograniczone do opakowania. Nie oznacza większego wybuchu niż 1.1 ani nie dotyczy materiałów żrących. Podstawa: ADR 2.2.1.1.5.",
