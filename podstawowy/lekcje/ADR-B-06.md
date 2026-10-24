@@ -109,3 +109,11 @@ Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obser
 **Karta przypadku 1:** Kontener ma nalepki, ale pojazd bez właściwych tablic — wskaż różnicę wymagań. **Karta przypadku 2:** Numer rozpoznawczy zagrożenia zawiera X i powtórzoną cyfrę — wskaż znaczenie bez samodzielnej zmiany oznakowania. Użyj wyłącznie ilustracji i fikcyjnych danych, bez realnego pojazdu ADR. W ocenie zapisz „rozumie / wymaga wyjaśnienia / nieocenione”, uzasadnienie i zalecenie. Typowy błąd: przenoszenie wymiarów nalepek ze sztuki przesyłki na kontener.
 
 Podstawa programu: zał. 1 pkt 1(f), Dz.U. 2021 poz. 2150. ADR Dz.U. 2025 poz. 642 i sprostowanie poz. 1575; materiały i znaki do niezależnej kontroli prawnej. Brak zatwierdzenia specjalisty i brak zmian statusu pytań.
+
+## Karta kursanta — oznakowanie zewnętrzne (24.10.2026)
+
+- Rozróżniaj numer UN, numer rozpoznawczy zagrożenia, nalepkę na sztuce przesyłki, nalepkę dużego formatu i pomarańczową tablicę — nie zastępują się wzajemnie.
+- Przed wyjazdem sprawdź, czy wymagane oznakowanie jest właściwe, czytelne, widoczne i umieszczone w wymaganych miejscach. Po rozładunku nie usuwaj oznaczeń na podstawie domysłu, jeśli pozostają niebezpieczne pozostałości.
+- **Błąd do uniknięcia:** nie zakrywaj błędnej nalepki przypadkową kartką i nie poprawiaj numerów samodzielnie bez sprawdzenia wymagań.
+
+Powtórka w banku: ADR-B-0546–0550 i 0561–0565; klucze pozostają robocze `needs_review`.

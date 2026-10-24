@@ -163,3 +163,11 @@ Typowe błędy: utożsamianie szkolenia 1.3 z zaświadczeniem kierowcy; uznawani
 ### Kontrola jakości
 
 Plan jest uzupełnieniem dydaktycznym, nie potwierdzeniem realizacji zajęć. Referencje prawne wymagają kontroli z aktualnym polskim tekstem; przykłady nie stanowią rozstrzygnięcia dla konkretnego ładunku. Materiał pozostaje do niezależnego odbioru instruktora/eksperta.
+
+## Karta kursanta — szybka powtórka po etapie 4o (24.10.2026)
+
+- **Najpierw ustal, co dokładnie przewozisz.** Sprawdź numer UN, właściwą nazwę przewozową, klasyfikację i wpis w tabeli A; nie wnioskuj o wyłączeniu wyłącznie z małej ilości lub prywatnego celu.
+- **Nie mieszaj zwolnień.** LQ, EQ, 1.1.3.6 i wyłączenia ze względu na charakter przewozu mają różne warunki; jedno nie oznacza automatycznego zwolnienia ze wszystkich obowiązków.
+- **Błąd do uniknięcia:** „mało” nie znaczy „bez ADR”. W pytaniu uzasadnij, który konkretny warunek został spełniony lub czego brakuje.
+
+Powtórka w banku: ADR-B-0259–0261, 0271–0273, 0312–0314.

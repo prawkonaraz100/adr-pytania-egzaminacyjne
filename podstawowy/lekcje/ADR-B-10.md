@@ -102,3 +102,11 @@ Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obser
 **Przypadek A:** kontener z prawidłowym oznakowaniem IMDG ma być przewieziony drogą; kursant wybiera wymagane kontrole, nie usuwa dowolnie oznakowania. **Przypadek B:** samochód z towarem ADR zostaje przewieziony promem; uczestnik rozdziela drogowy i morski odcinek oraz dokumentację. **Przypadek C:** przesyłka do portu nie korzysta z 1.1.4.2.1; uczestnik ocenia, czy wymagany jest warunkowy wpis 5.4.1.1.7.
 
 Karty wyłącznie fikcyjne; ocena: „rozumie / wymaga wyjaśnienia / nieocenione”, decyzja, warunek, punkt przepisu. Program Dz.U. 2021 poz. 2150 zał. 1(j), ADR 2025 1.1.4, 5.4.1, 5.4.2 (Dz.U. poz. 642 ze sprostowaniem poz. 1575). Przykłady wymagają pełnej niezależnej kontroli prawnej, nie ma verified.
+
+## Karta kursanta — transport kombinowany (24.10.2026)
+
+- Rozdziel wymagania dla odcinka drogowego, kolejowego i morskiego. Zastosowanie przepisów innej gałęzi nie zwalnia automatycznie z ADR na drodze.
+- Sprawdź, czy warunki wyjątku rzeczywiście zostały spełnione, czy oznakowanie pozostaje prawidłowe i czy dokument przewozowy zawiera wymagane informacje.
+- **Błąd do uniknięcia:** sam dojazd do portu lub obecność dokumentu IMDG nie jest ogólnym zwolnieniem z ADR.
+
+Powtórka w banku: ADR-B-0247, 0277–0278, 0396, 0441.

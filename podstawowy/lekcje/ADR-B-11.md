@@ -101,3 +101,11 @@ Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obser
 Uczestnik otrzymuje trzy fikcyjne trasy: tunel D, tunel E, wariant bez tunelu. Dla każdego przewozu zaznacza kod ADR, sposób przewozu, wyjątek, decyzję i numer ustępu 8.6; nie korzysta z domniemanych ograniczeń na podstawie samego numeru klasy. Instruktor zapisuje „rozumie / wymaga wyjaśnienia / nieocenione” oraz błąd warunków. Ćwiczenie ma charakter papierowy i nie jest realizacją praktycznego kursu P1–P3.
 
 Podstawa: program zał. 1 pkt 1(k) Dz.U. 2021 poz. 2150; ADR 2025 1.9.5, 3.2 tabela A, 8.6, 5.4.3 (Dz.U. poz. 642 i sprostowanie poz. 1575). Scenariusze wymagają kontroli polskiego tekstu urzędowego i recenzji, nie ma verified.
+
+## Karta kursanta — ograniczenia tunelowe (24.10.2026)
+
+- Odczytaj kod tunelowy z właściwego wpisu i zastosuj go do rzeczywistego sposobu przewozu. Ten sam kod może działać inaczej dla sztuk przesyłek i przewozu luzem.
+- Symbol „(-)” nie oznacza ani nakazu przejazdu konkretnym tunelem, ani prawa do ignorowania znaków drogowych.
+- **Błąd do uniknięcia:** nie wybieraj trasy wyłącznie na podstawie klasy towaru; sprawdź kod, formę przewozu, oznakowanie tunelu i lokalne ograniczenia.
+
+Powtórka w banku: ADR-B-0262–0264, 0431, 0487–0488.

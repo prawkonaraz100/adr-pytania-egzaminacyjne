@@ -127,3 +127,11 @@ Przygotuj trzy fikcyjne dokumenty: (A) poprawny opis towaru w ADR, (B) odpad nie
 Ocena „rozumie / wymaga wyjaśnienia / nieocenione” z krótkim uzasadnieniem. Błąd krytyczny: uznanie samego napisu „ODPAD” za wystarczający opis UN albo uznanie, że każdy dojazd do portu wymaga dodatkowego wpisu. Materiał jest roboczy i wymaga polskiej recenzji prawnej.
 
 Podstawa programu: Dz.U. 2021 poz. 2150 zał.1(m); ADR 2025 5.4.1, 5.4.2, 5.4.3 i 8.1.2 (Dz.U. poz.642 ze sprostowaniem poz.1575). Dokumentacja szkoleniowa nie jest dokumentem przewozowym; status banku pozostaje needs_review, zero verified.
+
+## Karta kursanta — dokumenty przed wyjazdem (24.10.2026)
+
+- Porównaj dokument przewozowy z rzeczywistym towarem, oznakowaniem i wymaganymi dokumentami dodatkowymi. Numer UN, nazwa przewozowa, klasa i pozostałe wpisy pełnią różne funkcje.
+- Instrukcje pisemne i wymagane dokumenty powinny być dostępne dla załogi; przy brakach lub sprzecznościach wyjaśnij je przed rozpoczęciem przewozu.
+- **Błąd do uniknięcia:** nie zastępuj numeru UN numerem rejestracyjnym, kodem tunelowym ani samą nazwą handlową.
+
+Powtórka w banku: ADR-B-0226, 0508 oraz dokumenty związane z przewozem kombinowanym.

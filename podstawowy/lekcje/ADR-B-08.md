@@ -112,3 +112,11 @@ ADR wymaga sprawnych gaśnic z ważnym terminem badania lub dopuszczonego użytk
 **Sytuacja 1:** Jednostka 7,5 t ma dwie gaśnice o nieprawidłowej łącznej zawartości — zastosuj tabelę wagową. **Sytuacja 2:** Dwie osoby w załodze i wymagane wyposażenie osobiste tylko dla jednej — oceń kompletność bez pomylenia sprzętu pojazdu ze sprzętem osoby. Materiały: karty fikcyjnych pojazdów, mas i nalepek, tablica gaśnic i zdjęcia wzorcowego wyposażenia. Sprawdzenie indywidualne: „rozumie / wymaga wyjaśnienia / nieocenione”, argumentacja i wynik na karcie. Nie dotykać prawdziwego towaru ADR. Praktyczne używanie gaśnicy znajduje się w P1 i wymaga oddzielnej rzeczywistej obecności.
 
 Podstawa programu: Dz.U. 2021 poz. 2150 zał. 1(h). ADR Dz.U. 2025 poz. 642 i sprostowanie poz. 1575. Materiał szkoleniowy wymaga dalszej niezależnej kontroli; zero verified.
+
+## Karta kursanta — wyposażenie i dokumenty pojazdu (24.10.2026)
+
+- Sprawdź osobno liczbę gaśnic, ich łączną pojemność, stan techniczny i dostępność. Spełnienie jednego warunku nie kompensuje braku innego.
+- Świadectwo dopuszczenia jest wymagane dla określonych rodzajów pojazdów, a nie automatycznie dla każdego samochodu. Jeśli jest wymagane, sprawdź jego ważność i dostępność.
+- **Błąd do uniknięcia:** nie zastępuj świadectwa dowodem rejestracyjnym ani ustnym zapewnieniem firmy; w razie wątpliwości wstrzymaj wyjazd do wyjaśnienia.
+
+Powtórka w banku: ADR-B-0418–0423, 0551–0553 i 0566.
