@@ -50,7 +50,7 @@ class BiasMetricTests(unittest.TestCase):
         rows.extend(rec("ADR-B-02", ["much longer", "mid", "tiny"], "C") for _ in range(8))
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "questions.jsonl"
-            path.write_text("\\n".join(json.dumps(row) for row in rows), encoding="utf-8")
+            path.write_text("\n".join(json.dumps(row) for row in rows), encoding="utf-8")
             # Global rate is 20%, below the 40% test threshold, but module 02 is 100%.
             self.assertEqual(main(["--questions", str(path), "--threshold", "0.40", "--strict-global"]), 0)
             self.assertEqual(main(["--questions", str(path), "--threshold", "0.40", "--strict"]), 1)
