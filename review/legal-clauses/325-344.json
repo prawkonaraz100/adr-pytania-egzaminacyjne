@@ -9,7 +9,7 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wariant A jest zgodny z przedstawioną w pytaniu zasadą: W razie wątpliwości przy tej procedurze trzeba przyjąć najwyższy poziom zagrożenia. Wymaga jeszcze niezależnego porównania z polskim brzmieniem aktu."
+          "rationale": "Jeśli skład odpadu jest nieznany i stosuje się procedurę ADR 2.1.3.5.5, a dane nie pozwalają pewnie ustalić poziomu zagrożenia, przyjmuje się najwyższy poziom zgodnie z warunkami przepisu. Nie wybieraj automatycznie grupy III ani nie rezygnuj z numeru UN. Nadawca musi zastosować właściwe dane i procedurę klasyfikacji. Podstawa: ADR 2.1.3.5.5."
         },
         "B": {
           "expected_correct": false,
@@ -17,7 +17,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Rezygnuje z numeru UN”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.5; nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Błędny wariant: „Rezygnuje z numeru UN, gdy nadawca nie zna dokładnego składu odpadu”. Jeśli skład odpadu jest nieznany i stosuje się procedurę ADR 2.1.3.5.5, a dane nie pozwalają pewnie ustalić poziomu zagrożenia, przyjmuje się najwyższy poziom zgodnie z warunkami przepisu. Nie wybieraj automatycznie grupy III ani nie rezygnuj z numeru UN. Nadawca musi zastosować właściwe dane i procedurę klasyfikacji. Podstawa: ADR 2.1.3.5.5."
         }
       },
       "observed_answer_key": "A",
@@ -32,10 +32,10 @@
         "options": {
           "A": "Przyjmuje najwyższy poziom zagrożenia",
           "B": "Automatycznie wybiera grupę III",
-          "C": "Rezygnuje z numeru UN"
+          "C": "Rezygnuje z numeru UN, gdy nadawca nie zna dokładnego składu odpadu"
         },
         "correct_option": "A",
-        "explanation": "Gdy stosuje się uproszczoną procedurę klasyfikacji odpadu, a dane nie pozwalają pewnie określić zagrożenia, należy przyjąć najwyższy poziom zagrożenia zgodnie z warunkami przepisu. Nie wolno automatycznie wybierać grupy III ani pomijać numeru UN. To ostrożnościowa zasada klasyfikacji, nie dowolny wybór. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Jeśli skład odpadu jest nieznany i stosuje się procedurę ADR 2.1.3.5.5, a dane nie pozwalają pewnie ustalić poziomu zagrożenia, przyjmuje się najwyższy poziom zgodnie z warunkami przepisu. Nie wybieraj automatycznie grupy III ani nie rezygnuj z numeru UN. Nadawca musi zastosować właściwe dane i procedurę klasyfikacji. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
