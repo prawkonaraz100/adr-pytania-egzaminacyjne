@@ -33,7 +33,7 @@ class BiasMetricTests(unittest.TestCase):
         rows.extend([rec("ADR-B-02", ["longest", "mid", "tiny"], "C") for _ in range(2)])
         with tempfile.TemporaryDirectory() as tmp:
             path=Path(tmp)/"questions.jsonl"
-            path.write_text("\\n".join(json.dumps(row) for row in rows), encoding="utf-8")
+            path.write_text("\n".join(json.dumps(row) for row in rows), encoding="utf-8")
             self.assertEqual(main(["--questions", str(path), "--threshold", "0.40", "--strict-global"]), 1)
 
     def test_threshold_rejects_imbalanced_module(self):
