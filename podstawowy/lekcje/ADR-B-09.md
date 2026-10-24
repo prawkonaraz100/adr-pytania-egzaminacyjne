@@ -2,6 +2,13 @@
 
 > **Wersja robocza 22.10.2026** — wymaga sprawdzenia przez niezależnego specjalistę ADR. Materiał szkoleniowy, nie oficjalny bank pytań ani potwierdzenie odbycia kursu.
 
+## Jak korzystać z tej lekcji
+
+1. Zacznij od celów nauki i głównych sekcji tematycznych u góry dokumentu. Czytaj je po kolei i zatrzymaj się przy przykładzie z pracy kierowcy.
+2. Gdy pojawia się skrót lub kod ADR, sprawdź wyjaśnienie w tekście i wskazany punkt przepisu — nie ucz się samego symbolu bez zrozumienia, co oznacza.
+3. Sekcje niżej z nagłówkami typu „Utrwalanie przez scenariusz”, „Zadanie instruktorskie”, „plan dydaktyczny” lub „uzupełnienie” są materiałem uzupełniającym i archiwum ćwiczeń. Mogą powtarzać temat główny; wybierz powiązane pytania i scenariusze zamiast czytać powtórzenia jak nowy rozdział.
+4. Pytania w banku są materiałem roboczym `needs_review`. Sam wynik testu nie potwierdza zaliczenia ćwiczeń praktycznych ani prawnej poprawności materiału.
+
 ## Cel
 
 Kierowca powinien rozpoznawać sytuacje, kiedy ładunek **nie może zostać przyjęty lub załadowany**, kiedy trzeba poprawić mocowanie, a kiedy przewóz luzem jest dopuszczony.
