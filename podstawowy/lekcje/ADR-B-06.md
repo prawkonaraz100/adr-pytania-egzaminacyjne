@@ -1,5 +1,9 @@
 # ADR-B-06 — Numery UN, nalepki ostrzegawcze i tablice
 
+## Po co to jest?
+
+Oznakowanie pomaga kierowcy, kontrolującym i ratownikom szybko ustalić, z jakim towarem i zagrożeniem mają do czynienia. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych, a **numer UN** to czterocyfrowy numer identyfikujący pozycję towaru w wykazie. Nalepka na opakowaniu, nalepka dużego formatu na kontenerze i pomarańczowa tablica nie są tym samym znakiem. Przykład: po rozładunku nie zdejmuj oznaczeń tylko dlatego, że towaru już nie widać — najpierw sprawdź, czy nie pozostały niebezpieczne resztki.
+
 > **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
 
 ## Jak korzystać z tej lekcji
@@ -140,3 +144,10 @@ Powtórka w banku: ADR-B-0546–0550 i 0561–0565; klucze pozostają robocze `n
 Po rozładunku kontenera nie usuwaj oznaczeń automatycznie. Najpierw ustal, czy pozostały niebezpieczne resztki i czy warunki ADR pozwalają usunąć oznakowanie. Nie zastępuj czytelnej nalepki nazwą handlową ani przypadkową kartką. Powiązane pytania: ADR-B-0546–0550 i ADR-B-0561–0565. Nowe pytania nadal mają `needs_review`.
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
+
+## Co musisz zapamiętać
+
+- Numer UN identyfikuje towar; nalepka opisuje zagrożenie; tablica pomarańczowa ma własne zasady rozmieszczenia i odczytu.
+- Porównaj oznakowanie z dokumentami i wymaganiami dla danego przewozu.
+- Po rozładunku nie usuwaj oznaczeń automatycznie, jeśli pozostają niebezpieczne pozostałości.
+- Podstawy do dalszej nauki: ADR 5.2.2, 5.3.1 i 5.3.2.
