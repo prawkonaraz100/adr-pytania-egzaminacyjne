@@ -29,6 +29,23 @@ class DraftExamTests(unittest.TestCase):
  def test_seed_reproducible_and_all_modules_present(self):
   rows=load_bank(ROOT/"podstawowy"/"questions.jsonl");a,ak=draw_exam(rows,1234);b,bk=draw_exam(rows,1234)
   self.assertEqual(a,b);self.assertEqual(ak,bk);self.assertEqual(len(a["questions"]),30);self.assertEqual(len(a["module_distribution"]),13)
+ def test_variant_002_excludes_variant_001_when_pool_allows(self):
+  rows=load_bank(ROOT/"podstawowy"/"questions.jsonl")
+  first=json.loads((ROOT/"podstawowy"/"egzamin-probny"/"wariant-001.json").read_text(encoding="utf-8"))
+  second=json.loads((ROOT/"podstawowy"/"egzamin-probny"/"wariant-002.json").read_text(encoding="utf-8"))
+  key=json.loads((ROOT/"podstawowy"/"egzamin-probny"/"klucz-002.json").read_text(encoding="utf-8"))
+  first_ids={q["id"] for q in first["questions"]};second_ids=[q["id"] for q in second["questions"]]
+  self.assertEqual(len(second_ids),30);self.assertEqual(len(set(second_ids)),30)
+  self.assertFalse(first_ids & set(second_ids))
+  self.assertEqual(second["seed"],20261025);self.assertEqual(second["variant"],2)
+  self.assertEqual(second["excluded_question_ids"],sorted(first_ids))
+  self.assertEqual(second_ids,[a["id"] for a in key["answers"]])
+  self.assertEqual([q["id"] for q in draw_exam(rows,20261025,first_ids,2,"4461211b32bfaeecb38c2bdc76cd14998d031204")[0]["questions"]],second_ids)
+  by_id={q["id"]:q for q in rows}
+  self.assertTrue(set(second_ids)<=set(by_id))
+  for ans in key["answers"]:
+   self.assertEqual(ans["correct_option"],by_id[ans["id"]]["correct_option"])
+   self.assertEqual(ans["explanation"],by_id[ans["id"]]["explanation"])
  def test_cli_writes_separate_exam_and_key(self):
   with tempfile.TemporaryDirectory() as td:
    e,k=Path(td)/"e.json",Path(td)/"k.json";p=subprocess.run([sys.executable,str(ROOT/"scripts"/"draft_mock_exam.py"),"--seed","99","--output",str(e),"--key-output",str(k)],capture_output=True,text=True)

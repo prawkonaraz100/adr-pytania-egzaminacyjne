@@ -35,17 +35,21 @@ class DeterministicRNG:
    j=int(self.random()*(i+1));items[i],items[j]=items[j],items[i]
  def sample(self,population,k):
   pool=list(population);self.shuffle(pool);return pool[:k]
-def draw_exam(rows,seed):
- quotas=proportional_quotas(rows);rng=DeterministicRNG(seed);selected=[]
- for m in MODULES:selected.extend(rng.sample([q for q in rows if q.get("module_id")==m],quotas[m]))
+def draw_exam(rows,seed,exclude_ids=None,variant=1,source_bank_head=None):
+ excluded=set(exclude_ids or []);eligible=[q for q in rows if q["id"] not in excluded]
+ quotas=proportional_quotas(eligible);rng=DeterministicRNG(seed);selected=[]
+ for m in MODULES:selected.extend(rng.sample([q for q in eligible if q.get("module_id")==m],quotas[m]))
  rng.shuffle(selected)
- exam={"schema_version":"1.0","exam_type":"ADR_BASIC_PRACTICE_DRAFT","publication_authorized":False,"legal_review_status":"NOT_APPROVED_ALL_QUESTIONS_NEEDS_REVIEW","seed":seed,"generated_from":"podstawowy/questions.jsonl","question_count":30,"time_limit_minutes":60,"pass_mark_correct":PASS_MARK,"pass_mark_fraction":"2/3","note":"Internal practice only; not official. All questions remain unapproved.","module_distribution":quotas,"questions":[{"number":i,"id":q["id"],"module_id":q["module_id"],"stem":q["stem"],"options":q["options"],"image":q.get("image")} for i,q in enumerate(selected,1)]}
+ exam={"schema_version":"1.0","exam_type":"ADR_BASIC_PRACTICE_DRAFT","publication_authorized":False,"legal_review_status":"NOT_APPROVED_ALL_QUESTIONS_NEEDS_REVIEW","seed":seed,"variant":variant,"generated_from":"podstawowy/questions.jsonl","source_bank_head":source_bank_head,"excluded_question_ids":sorted(excluded),"question_count":30,"time_limit_minutes":60,"pass_mark_correct":PASS_MARK,"pass_mark_fraction":"2/3","note":"Internal practice only; not official. All questions remain unapproved.","module_distribution":quotas,"questions":[{"number":i,"id":q["id"],"module_id":q["module_id"],"stem":q["stem"],"options":q["options"],"image":q.get("image")} for i,q in enumerate(selected,1)]}
  key={"schema_version":"1.0","exam_type":"ADR_BASIC_PRACTICE_DRAFT","publication_authorized":False,"seed":seed,"question_count":30,"pass_mark_correct":PASS_MARK,"pass_mark_fraction":"2/3","answers":[{"number":i,"id":q["id"],"correct_option":q["correct_option"],"explanation":q["explanation"],"legal_basis":[s.get("reference","") for s in q.get("sources",[])]} for i,q in enumerate(selected,1)]}
  return exam,key
 def run(argv=None):
- p=argparse.ArgumentParser();p.add_argument("--questions",type=Path,default=BANK);p.add_argument("--seed",type=int,default=None);p.add_argument("--output",type=Path,required=True);p.add_argument("--key-output",type=Path,required=True);a=p.parse_args(argv)
- rows=load_bank(a.questions);seed=a.seed if a.seed is not None else random.SystemRandom().randrange(1,2**31);exam,key=draw_exam(rows,seed);ids=[q["id"] for q in exam["questions"]]
- if len(ids)!=30 or len(set(ids))!=30 or not set(ids)<={q["id"] for q in rows}:raise ValueError("invalid generated ID set")
+ p=argparse.ArgumentParser();p.add_argument("--questions",type=Path,default=BANK);p.add_argument("--seed",type=int,default=None);p.add_argument("--variant",type=int,default=1);p.add_argument("--source-head",type=str,default=None);p.add_argument("--exclude",type=Path,default=None,help="existing exam JSON; its question IDs are excluded when possible");p.add_argument("--output",type=Path,required=True);p.add_argument("--key-output",type=Path,required=True);a=p.parse_args(argv)
+ rows=load_bank(a.questions);seed=a.seed if a.seed is not None else random.SystemRandom().randrange(1,2**31);excluded=set()
+ if a.exclude:
+  old=json.loads(a.exclude.read_text(encoding="utf-8"));excluded={q["id"] for q in old.get("questions",[]) if isinstance(q,dict) and isinstance(q.get("id"),str)}
+ exam,key=draw_exam(rows,seed,excluded,a.variant,a.source_head);ids=[q["id"] for q in exam["questions"]]
+ if len(ids)!=30 or len(set(ids))!=30 or not set(ids)<={q["id"] for q in rows} or set(ids)&excluded:raise ValueError("invalid generated ID set or exclusion collision")
  for path,data in ((a.output,exam),(a.key_output,key)):
   path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print(f"Draft exam generated; pass >= {PASS_MARK}/30. NOT APPROVED FOR OFFICIAL USE.");return 0
