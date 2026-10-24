@@ -74,7 +74,7 @@ class CourseConsistencyTests(unittest.TestCase):
                 (root / "podstawowy" / "questions.jsonl").read_text(encoding="utf-8").splitlines()
                 if line.strip()]
         readme = (root / "podstawowy" / "README.md").read_text(encoding="utf-8")
-        self.assertIn(f"**{len(bank)} `needs_review`, 0 `verified`**", readme)
+        self.assertIn(f"{len(bank)} `needs_review`, 0 `verified`", readme)
         self.assertNotIn("216 rekordów", readme)
         self.assertIn("79/566 = 13,96%", readme)
         for number in range(1, 14):
