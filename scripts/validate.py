@@ -71,8 +71,8 @@ def validate_record(record, seen_ids=None, seen_stems=None):
         errors.append("correct_option: tylko A, B albo C")
 
     explanation = record.get("explanation")
-    if not isinstance(explanation, str) or len(explanation.strip()) < 25:
-        errors.append("explanation: co najmniej 25 znaków")
+    if not isinstance(explanation, str) or len(explanation.strip()) < 200:
+        errors.append("explanation: co najmniej 200 znaków")
 
     sources = record.get("sources")
     if not isinstance(sources, list) or not sources:
