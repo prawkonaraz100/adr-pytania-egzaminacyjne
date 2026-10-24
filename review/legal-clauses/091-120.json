@@ -36,9 +36,9 @@
         "module_id": "ADR-B-01",
         "stem": "Firma kupuje paletę farb zaklasyfikowanych jako towary niebezpieczne w ADR z przeznaczeniem do dalszej sprzedaży. Czy automatycznie korzysta z wyłączenia 1.1.3.1(a) dla osób prywatnych?",
         "options": {
-          "A": "Tak, ponieważ wszystkie farby są wyłączone z ADR",
-          "B": "Nie, wyłączenie dla osób prywatnych dotyczy określonych przewozów na własny użytek, a nie automatycznie działalności handlowej",
-          "C": "Tak, jeżeli firma jest mała"
+          "A": "Tak, bo każda dostawa farb jest przewozem prywatnym niezależnie od celu",
+          "B": "Nie; wyłączenie prywatne nie obejmuje przewozu towarów do sprzedaży.",
+          "C": "Tak, bo mała firma może przewozić towary handlowe jak osoba prywatna"
         },
         "correct_option": "B",
         "explanation": "Wyłączenie przewidziane dla osób prywatnych dotyczy określonych przewozów na własny użytek, a nie automatycznie zakupów firmy przeznaczonych do dalszej sprzedaży. Trzeba też spełnić wymagania dotyczące opakowań i zabezpieczenia towaru. Nie każda farba jest towarem ADR, lecz wielkość przedsiębiorstwa nie daje sama w sobie zwolnienia. Podstawa: ADR 1.1.3.1(a).",
@@ -83,9 +83,9 @@
         "module_id": "ADR-B-01",
         "stem": "Nowy pracownik magazynu nie przeszedł jeszcze szkolenia ADR odpowiedniego do zadań. Co przewiduje 1.3.1, zanim ukończy szkolenie?",
         "options": {
-          "A": "Może samodzielnie wykonywać dowolne czynności ADR",
-          "B": "Musi mieć zaświadczenie kierowcy ADR nawet bez prowadzenia pojazdu",
-          "C": "Może wykonywać te czynności tylko pod bezpośrednim nadzorem przeszkolonej osoby"
+          "A": "Może działać samodzielnie po uznaniu go za doświadczonego",
+          "B": "Musi mieć zaświadczenie kierowcy ADR także bez prowadzenia.",
+          "C": "Tylko pod bezpośrednim nadzorem osoby przeszkolonej."
         },
         "correct_option": "C",
         "explanation": "Osoba, która nie przeszła jeszcze szkolenia ADR odpowiedniego do swoich obowiązków, może wykonywać związane z nim czynności tylko pod bezpośrednim nadzorem osoby przeszkolonej. Samodzielna praca bez przygotowania mogłaby prowadzić do niebezpiecznych błędów. Nie oznacza to także, że magazynier musi automatycznie odbyć kurs kierowcy. Podstawa: ADR 1.3.1.",
@@ -130,9 +130,9 @@
         "module_id": "ADR-B-01",
         "stem": "Przedsiębiorca twierdzi, że oznakowanie LQ zawsze oznacza wyłączenie na podstawie 1.1.3.6. Czy ma rację?",
         "options": {
-          "A": "Nie; ilości ograniczone w opakowaniach (LQ, dział 3.4) i wyłączenia na jednostkę transportową (1.1.3.6) to odrębne mechanizmy",
-          "B": "Tak; LQ i 1.1.3.6 są tym samym",
-          "C": "Tak, lecz tylko przy przewozie międzynarodowym"
+          "A": "Nie; LQ (3.4) i 1.1.3.6 mają odrębne warunki zastosowania.",
+          "B": "Tak; LQ i wyłączenie 1.1.3.6 to te same zasady stosowane zamiennie",
+          "C": "Tak; znak LQ automatycznie daje wyłączenie 1.1.3.6 dla każdego przewozu"
         },
         "correct_option": "A",
         "explanation": "Oznaczenie LQ dotyczy przewozu w ilościach ograniczonych z określonymi limitami i sposobem pakowania. Wyłączenie z 1.1.3.6 opiera się natomiast na innych zasadach, między innymi ilości towarów na jednostkę transportową. Dlatego nie można traktować obu mechanizmów jako tego samego zwolnienia, także w przewozie międzynarodowym. Podstawa: ADR 3.4 i 1.1.3.6.",
@@ -413,8 +413,8 @@
         "stem": "Jaką klasę zagrożenia ADR przedstawiają nalepki ostrzegawcze wzoru 9 i 9A, jeżeli są wymagane dla towaru?",
         "options": {
           "A": "Klasa 9 — różne materiały i przedmioty niebezpieczne",
-          "B": "Klasa 5.1 — wszystkie materiały utleniające",
-          "C": "Klasa 8 — wszystkie materiały żrące"
+          "B": "Klasa 5.1 — materiały utleniające, niezależnie od ich postaci",
+          "C": "Klasa 8 — materiały żrące, niezależnie od ich opakowania"
         },
         "correct_option": "A",
         "explanation": "Nalepki wzoru 9 oraz 9A wskazują na klasę 9, czyli różne materiały i przedmioty niebezpieczne. Wzór 9A może być stosowany przy określonych bateriach litowych i sodowo-jonowych, ale nie oznacza klas 5.1 ani 8. Nie należy też utożsamiać go ze znakiem używanym przy niektórych zwolnieniach dla baterii. Podstawa: ADR 2.2.9 i 5.2.2.2.2.",
@@ -459,9 +459,9 @@
         "module_id": "ADR-B-03",
         "stem": "Po awarii z opakowania wypływa ciecz niebezpieczna w kierunku kratki kanalizacyjnej. Kiedy załoga może próbować zapobiec jej wpłynięciu do kanalizacji?",
         "options": {
-          "A": "Zawsze, nawet bez środków ochrony",
-          "B": "Wyłącznie gdy jest to odpowiednie i bezpieczne, korzystając z wymaganego wyposażenia",
-          "C": "Nigdy, nawet gdy można bezpiecznie i właściwie użyć wymaganego wyposażenia"
+          "A": "Zawsze, nawet gdy załoga nie ma środków ochronnych ani oceny zagrożenia.",
+          "B": "Tylko jeśli to bezpieczne i właściwe, z odpowiednim wyposażeniem.",
+          "C": "Nigdy, nawet gdy wyposażenie pozwala bezpiecznie zapobiec odpływowi."
         },
         "correct_option": "B",
         "explanation": "Rozlana substancja może przedostać się przez kratkę do kanalizacji i zagrozić środowisku. Załoga może próbować temu zapobiec wyłącznie wtedy, gdy jest to właściwe i bezpieczne oraz dysponuje wymaganym wyposażeniem. Nie wolno ryzykować zdrowia bez ochrony, ale nie jest też prawdą, że każda bezpieczna próba ograniczenia wycieku jest zakazana. Podstawa: ADR 5.4.3.4.",
@@ -694,9 +694,9 @@
         "module_id": "ADR-B-05",
         "stem": "Do jakich informacji kierowca powinien sięgnąć, zgłaszając służbom wypadek z towarem niebezpiecznym?",
         "options": {
-          "A": "Do możliwie wszystkich dostępnych informacji o zdarzeniu i przewożonym towarze ADR",
-          "B": "Przekazać wyłącznie numer rejestracyjny pojazdu, bez opisu zagrożeń",
-          "C": "Wyłącznie podać liczbę przejechanych kilometrów od rozpoczęcia ostatniej trasy"
+          "A": "Przekazać służbom dostępne informacje o zdarzeniu i towarze ADR",
+          "B": "Podać wyłącznie numer rejestracyjny pojazdu i pominąć rodzaj zagrożenia",
+          "C": "Podać wyłącznie przebieg trasy i pominąć informacje o samym zdarzeniu"
         },
         "correct_option": "A",
         "explanation": "Ratownicy muszą wiedzieć, co wydarzyło się na miejscu i jakie towary niebezpieczne znajdują się w pojeździe, żeby dobrać bezpieczny sposób działania. Dlatego warto przekazać im możliwie pełne dostępne informacje o zdarzeniu i ładunku. Sam numer rejestracyjny albo przebieg pojazdu nie wystarczy do rozpoznania zagrożenia. Podstawa: ADR 5.4.3.4.",
