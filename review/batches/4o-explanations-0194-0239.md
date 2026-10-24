@@ -5,7 +5,7 @@
 - Zmieniono wyłącznie pole `explanation`; długości po zmianie: 0194=322, 0200=384, 0202=356, 0208=381, 0209=380, 0214=356, 0217=382, 0220=390, 0223=374, 0226=336, 0232=405, 0233=390, 0236=338, 0237=378, 0239=382 znaków.
 - Każde wyjaśnienie podaje sens poprawnej odpowiedzi, omawia błędne warianty i wskazuje podstawę ADR.
 - Kontrola skryptowa: 545 rekordów zachowanych; bez zmian ID, kolejności, kluczy i `verification_status`. Statusy pozostają `needs_review`, bez `verified`.
-- Migawki techniczne audytu sekwencyjnego i klauzulowego zostaną zsynchronizowane w tym samym PR; nie zmienia to wyników oceny A/B/C ani statusu recenzji prawnej.
+- Odświeżono pola `exact_record_snapshot` i `question_snapshot` dla zmienionych rekordów w audycie sekwencyjnym i klauzulowym; nie zmienia to ocen A/B/C ani statusu recenzji prawnej.
 - Quality Gate: oczekuje na wynik CI.
 
 ## Długości
