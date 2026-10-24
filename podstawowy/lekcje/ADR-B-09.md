@@ -129,3 +129,11 @@ Gdy towary niebezpieczne jadą z innym ładunkiem, także pozostałe rzeczy trze
 **A:** Dwie fikcyjne palety z nalepkami klasy 1 i 5.2; kursant sprawdza tabelę, przypisy i nie zakłada automatycznie dopuszczenia. **B:** Przesyłka niestabilna i zgniecione opakowanie pod pasem — kursant rozpoznaje potrzebę poprawy mocowania. **C:** Pozostałości po wycieku po rozładunku — rozpoznaje obowiązek oczyszczenia i granice bezpiecznego działania. Każdy przypadek bez realnych ładunków.
 
 Ocena: „rozumie / wymaga wyjaśnienia / nieocenione”, źródło odpowiedzi i opis wybranego warunku. Punkty ADR 4.1, 7.5 i 1.4 wymagają polskiego porównania prawnego. Urzędowy program: Dz.U. 2021 poz. 2150 zał.1(i); ADR 2025 Dz.U. 642 i sprostowanie 1575. Projekt bez statusu verified i bez kursu cystern.
+
+## Karta kursanta — kontrola załadunku i przewóz luzem (24.10.2026)
+
+- Przed załadunkiem sprawdź stan pojazdu, przestrzeni ładunkowej i opakowań. Uszkodzone opakowanie lub pozostałości mogące wejść w reakcję z ładunkiem trzeba wyjaśnić przed rozpoczęciem przewozu.
+- Przewóz luzem wymaga dopuszczenia dla konkretnego towaru oraz spełnienia wymagań dotyczących pojazdu i sposobu przewozu. Sam kod towaru, krótka trasa ani zgoda odbiorcy nie wystarczają.
+- **Błąd do uniknięcia:** nie naprawiaj niezgodności pozornie — folia, wolna jazda lub obserwacja przez drugi pojazd nie zastępują prawidłowego opakowania i mocowania.
+
+Powtórka w banku: ADR-B-0546–0560, w tym 0554–0560.
