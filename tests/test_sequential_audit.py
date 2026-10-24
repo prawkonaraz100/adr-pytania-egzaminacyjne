@@ -19,7 +19,7 @@ class SequentialAuditTests(unittest.TestCase):
         for number in range(1, 3):
             obj = {"id": f"ADR-B-{number:04d}", "stem": f"Pytanie numer {number}?",
                    "module_id": "ADR-B-01", "options": {"A": "Poprawna", "B": "Fałsz", "C": "Nieprawda"},
-                   "correct_option": "A", "explanation": "Przykładowe wyjaśnienie",
+                   "correct_option": "A", "explanation": ("Przykładowe wyjaśnienie do testu technicznego; nie stanowi recenzji prawnej ani potwierdzenia zgodności z ADR. " * 3).strip(),
                    "sources": [{"reference": "1.3.1"}], "legal_basis_version": "ADR-2025-PL",
                    "image": None, "verification_status": "needs_review"}
             self.questions.append(obj)
