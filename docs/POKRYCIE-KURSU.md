@@ -1,14 +1,15 @@
 # ADR podstawowy — aktualne pokrycie kursu
 
-**Stan roboczy: 22.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 106 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 106 wymagań.
+**Stan aktualny po etapie 4p: 24.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 106 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 106 wymagań.
 
 ## Co naprawdę zostało ukończone?
 
-- **216 autorskich pytań** z A/B/C, własnym wyjaśnieniem i referencją do przepisu; **216 needs_review / 0 verified**.
+- **566 autorskich pytań** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **566 needs_review / 0 verified**.
 - **103/103 kompetencji teoretycznych** ma co najmniej jedno pytanie w wersji roboczej. **0/103** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
-- **13/13 lekcji ma szkic dydaktyczny** w `podstawowy/lekcje/`. Żadna nie ma jeszcze potwierdzonego odbioru eksperta.
-- Rozkład prawidłowych opcji: A=72, B=74, C=70.
+- **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
+- Rozkład prawidłowych opcji: A=189, B=191, C=186.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **79/566 = 13,96%**; wszystkie 13 działów są poniżej 18%.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
 
 **Ważne:** 100% pokrycia *tematycznego pytaniami roboczymi* **nie oznacza gotowego kursu ani certyfikatu ADR**. Dla wybranych kompetencji jedno pytanie nie wystarczy do skutecznej nauki; kolejnym zadaniem jest zwiększenie głębokości pokrycia i niezależna kontrola.
@@ -30,7 +31,7 @@
 | ADR-B-11 | Tunele | 7/7 | 0 | 16 | 0 | Szkic lekcji |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 12 | 0 | Szkic lekcji |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 16 | 0 | Szkic lekcji |
-| **Razem** | | **103/103** | **3** | **216** | **0** | **13 szkiców** |
+| **Razem** | | **103/103** | **3** | **566** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
@@ -138,3 +139,13 @@ Scenariusze: [SCENARIUSZE.md](../podstawowy/praktyka/SCENARIUSZE.md). Trzy wymag
 - Wszystkie 13 lekcji otrzymało kartę powtórkową dla kursanta z typowymi błędami i powiązanymi pytaniami. To redakcyjne dopracowanie, nie odbiór eksperta.
 - `podstawowy/praktyka/SCENARIUSZE.md` zawiera dopracowany protokół instruktora, kryteria obserwacji i formularz P1–P3. Formularz wolno uzupełnić tylko podczas rzeczywistych zajęć; quiz nie potwierdza wykonania praktyki.
 - Otwarta pozostaje niezależna recenzja ADR, dosłowne porównanie polskiego tekstu urzędowego ze sprostowaniem oraz odbiór lekcji i ćwiczeń przez instruktora. Nie nadano statusu `verified`.
+
+
+## Aktualny stan po etapie 4p (24.10.2026)
+
+- HEAD po scaleniu generatora i testu powtarzalności: `4ebdf594bbd7bb8e8cf93eb227745b91faa1b0b9`.
+- Egzamin próbny: [wariant 001](../podstawowy/egzamin-probny/wariant-001.json), [oddzielny klucz](../podstawowy/egzamin-probny/klucz-001.json), [instrukcja generatora](../podstawowy/egzamin-probny/README.md). To trening wewnętrzny, nie oficjalny arkusz; źródłowe pytania są niezatwierdzone.
+- Generator `scripts/draft_mock_exam.py` dobiera 30 pytań proporcjonalnie do liczebności 13 działów, 60 minut, próg 20/30. Quality Gate sprawdza ID i zgodność klucza oraz odtwarzanie wariantu seedem.
+- Dodatkowy test potwierdza, że wszystkie ID jawnie zapisane w mapach 13 lekcji istnieją w banku.
+- Długość odpowiedzi: 79/566 (13,96%) globalnie; B-01 17,1%, B-02 17,9%, B-03 16,3%, B-04 11,4%, B-05 15,0%, B-06 8,9%, B-07 7,0%, B-08 17,5%, B-09 17,4%, B-10 7,3%, B-11 17,1%, B-12 14,0%, B-13 17,1%.
+- Nadal **0 verified**. Weryfikacja pełnego polskiego tekstu ADR 2025 wraz ze sprostowaniem i niezależna recenzja A/B/C pozostają otwarte. Nie traktować egzaminu próbnego jako prawnie zatwierdzonego.
