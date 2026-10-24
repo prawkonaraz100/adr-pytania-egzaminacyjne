@@ -45,3 +45,25 @@ Pełne literalne porównanie z polskim tekstem ADR 2025 i sprostowaniem oraz nie
 ## Partia 3 — integralność odsyłaczy w lekcjach
 
 Dodano automatyczny test dla wszystkich 13 plików lekcji: każdy musi mieć mapę pytań, zawierać co najmniej jedno ID, a każde jawnie zapisane ID musi istnieć w aktualnym `podstawowy/questions.jsonl`. Test nie poświadcza poprawności prawnej ani tego, że samo odsyłanie do pytania oznacza pełne pokrycie celu.
+
+## Partia 4 — balans długości odpowiedzi (24.10.2026)
+
+Dostosowano 11 dystraktorów w 11 pytaniach, bez zmiany kluczy, podstaw prawnych ani statusów. Zmieniono też wyjaśnienia tam, gdzie trzeba było jasno objaśnić każdy wariant. Zaktualizowano migawki audytu sekwencyjnego i A/B/C, aby Quality Gate nadal sprawdzał świeżość audytu.
+
+- Globalnie: **79/566 = 13.96%** poprawnych odpowiedzi jest jedyną najdłuższą (przed zmianą 90/566 = 15,90%).
+- Wynik per dział po zmianach:
+  - ADR-B-01: 6/35 (17.1%)
+  - ADR-B-02: 10/56 (17.9%)
+  - ADR-B-03: 8/49 (16.3%)
+  - ADR-B-04: 5/44 (11.4%)
+  - ADR-B-05: 6/40 (15.0%)
+  - ADR-B-06: 4/45 (8.9%)
+  - ADR-B-07: 3/43 (7.0%)
+  - ADR-B-08: 7/40 (17.5%)
+  - ADR-B-09: 8/46 (17.4%)
+  - ADR-B-10: 4/55 (7.3%)
+  - ADR-B-11: 6/35 (17.1%)
+  - ADR-B-12: 6/43 (14.0%)
+  - ADR-B-13: 6/35 (17.1%)
+
+Wszystkie sześć wcześniej przekraczających 18% działów mieści się teraz poniżej 18%. Zmiany mają wyłącznie charakter redakcyjny i nie są niezależnym potwierdzeniem poprawności prawnej; wszystkie 566 rekordów pozostają `needs_review`.
