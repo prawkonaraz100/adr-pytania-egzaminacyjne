@@ -227,9 +227,9 @@
       "exact_record_snapshot": {
         "stem": "Towar ma numer UN 3077 i spełnia kryteria zagrożenia środowiskowego. Czy 5.4.1.1.18 wymaga dla niego dodatkowego wpisu ENVIRONMENTALLY HAZARDOUS?",
         "options": {
-          "A": "Tak, zawsze dodatkowo",
-          "B": "Tak, ale tylko gdy jedzie przez tunel",
-          "C": "Nie, UN 3077 i 3082 są wyłączone z tego dodatkowego obowiązku"
+          "A": "Tak, zawsze trzeba dodać wpis środowiskowy, niezależnie od numeru UN",
+          "B": "Tak, ale tylko wtedy, gdy trasa obejmuje przejazd przez tunel",
+          "C": "Nie; UN 3077 i 3082 są wyłączone z tego dodatkowego wpisu"
         },
         "correct_option": "C",
         "explanation": "Dla UN 3077 i UN 3082 ADR przewiduje wyjątek od dodatkowej wzmianki środowiskowej w dokumencie wskazanej w 5.4.1.1.18. Nie trzeba dodawać jej automatycznie dla tych dwóch numerów, a ograniczenie nie zależy od tego, czy trasa prowadzi przez tunel. Pozostałe wymagane dane dokumentu nadal obowiązują. Podstawa: ADR 5.4.1.1.18.",
@@ -268,9 +268,9 @@
       "exact_record_snapshot": {
         "stem": "W morsko-drogowym łańcuchu przewozu dokument dla materiału niebezpiecznego dla środowiska zawiera określenie MARINE POLLUTANT. Jak ocenić je w zakresie 5.4.1.1.18?",
         "options": {
-          "A": "Może być akceptowane na warunkach 5.4.1.1.18.",
-          "B": "Zawsze należy je skreślić i zastąpić numerem faktury",
-          "C": "Jest dopuszczalne tylko w przewozie klasy 7"
+          "A": "MARINE POLLUTANT może być zaakceptowane na warunkach 5.4.1.1.18",
+          "B": "Należy je zawsze skreślić i zastąpić numerem faktury przewozowej",
+          "C": "Określenie to jest dozwolone wyłącznie przy przewozie materiałów klasy 7"
         },
         "correct_option": "A",
         "explanation": "W łańcuchu transportowym obejmującym morze ADR może dopuścić wzmiankę „MARINE POLLUTANT” zgodną z IMDG w warunkach określonych w przepisie. Nie należy automatycznie skreślać jej ani zastępować numerem faktury. Dopuszczalność zależy od zastosowania właściwego wyjątku i pozostałych danych dokumentu. Podstawa: ADR 5.4.1.1.18.",
@@ -309,9 +309,9 @@
       "exact_record_snapshot": {
         "stem": "Pojazd wymaga nalepek wielkiego formatu i przewozi towary zagrażające środowisku wodnemu. Kiedy znak środowiskowy według 5.3.6 może być dodatkowo wymagany na jednostce?",
         "options": {
-          "A": "Tylko wtedy, gdy znak został wybrany ze względów marketingowych",
-          "B": "Nigdy, bo znak występuje wyłącznie na pojedynczym kartonie",
-          "C": "Gdy wymaga tego 5.3.6.1 i nie ma wyjątku 5.2.1.8.1."
+          "A": "Znak dodaje się wyłącznie wtedy, gdy przewoźnik chce wyróżnić przesyłkę reklamowo",
+          "B": "Znak środowiskowy nigdy nie występuje na jednostce, tylko na kartonie",
+          "C": "Znak może być wymagany, jeśli 5.3.6.1 ma zastosowanie i nie działa wyjątek"
         },
         "correct_option": "C",
         "explanation": "Znak zagrożenia dla środowiska może być wymagany również na określonych pojazdach lub jednostkach, jeśli spełnione są warunki ADR 5.3.6. Nie ogranicza się on wyłącznie do pojedynczych kartonów ani nie jest znakiem marketingowym. Trzeba sprawdzić, czy jednostka wymaga nalepek wielkiego formatu i czy nie działa wyjątek. Podstawa: ADR 5.3.6.1 oraz 5.2.1.8.1.",
@@ -350,9 +350,9 @@
       "exact_record_snapshot": {
         "stem": "Jaki standardowy minimalny wymiar znaku środowiskowego przewiduje ADR 5.3.6.2 dla oznakowania kontenera, bez zastosowania szczególnego zmniejszenia wymiarów?",
         "options": {
-          "A": "50 × 50 mm",
-          "B": "100 × 100 mm",
-          "C": "250 × 250 mm"
+          "A": "50 × 50 mm — wymiar standardowy bez zastosowania zmniejszenia",
+          "B": "100 × 100 mm — wymiar standardowy bez zastosowania zmniejszenia",
+          "C": "250 × 250 mm — wymiar standardowy bez zastosowania zmniejszenia"
         },
         "correct_option": "C",
         "explanation": "Standardowy znak środowiskowy dla wskazanych jednostek transportowych ma co najmniej 250 × 250 mm, chyba że zastosowanie ma szczególne zmniejszenie dopuszczone w ADR. Rozmiary 50 × 50 mm lub 100 × 100 mm nie są standardowym wymiarem dla tego przypadku. Zawsze trzeba sprawdzić warunki wyjątku przed zmniejszeniem znaku. Podstawa: ADR 5.3.6.2.",
@@ -391,9 +391,9 @@
       "exact_record_snapshot": {
         "stem": "Kontener-cysterna ma pojemność 2500 l i niewystarczającą powierzchnię na standardowy znak środowiskowy. Co dopuszcza 5.3.6.2?",
         "options": {
-          "A": "Zmniejszenie znaku do minimum 100 × 100 mm przy spełnieniu warunków przepisu",
-          "B": "Całkowite pominięcie znaku przy każdej pojemności",
-          "C": "Zastąpienie znaku reklamą firmy"
+          "A": "Można zmniejszyć znak do co najmniej 100 × 100 mm, gdy spełniono warunki przepisu",
+          "B": "Znak można całkowicie pominąć na każdej cysternie, gdy brakuje miejsca na ścianie",
+          "C": "Znak można zastąpić reklamą firmy, jeśli brakuje miejsca na ścianie"
         },
         "correct_option": "A",
         "explanation": "Dla kontenera-cysterny lub cysterny przenośnej o pojemności do 3000 litrów ADR może dopuścić mniejszy znak środowiskowy, gdy dostępna powierzchnia jest niewystarczająca i spełnione są warunki przepisu. Nie oznacza to prawa do całkowitego pominięcia znaku ani zastąpienia go reklamą. Podstawa: ADR 5.3.6.2.",

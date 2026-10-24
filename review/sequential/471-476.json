@@ -22,9 +22,9 @@
       "exact_record_snapshot": {
         "stem": "Przewóz towarów niebezpiecznych objęty ADR odbywa się ciężarówką; znajomy kierowcy chce jechać na wolnym fotelu, nie będąc członkiem załogi. Czy jest to dozwolone?",
         "options": {
-          "A": "Tak, gdy posiada dowód osobisty",
-          "B": "Tak, jeżeli przejazd ma mniej niż 10 km",
-          "C": "Nie, w jednostce transportowej nie wolno przewozić pasażerów innych niż członkowie załogi"
+          "A": "Tak, jeśli pasażer ma dokument tożsamości i jedzie tylko krótki odcinek",
+          "B": "Tak, gdy podróż trwa mniej niż dziesięć kilometrów i pojazd jedzie wolno",
+          "C": "Nie; poza członkami załogi nie wolno przewozić pasażerów w tej jednostce"
         },
         "correct_option": "C",
         "explanation": "W jednostce transportowej przewożącej towary niebezpieczne nie wolno zabierać pasażerów, którzy nie są członkami załogi. Dowód osobisty ani krótki dystans nie tworzą wyjątku od tej zasady. Ograniczenie ma zmniejszać liczbę osób narażonych na skutki wypadku z towarami niebezpiecznymi. Podstawa: ADR 8.3.1.",
@@ -63,9 +63,9 @@
       "exact_record_snapshot": {
         "stem": "W pojeździe ADR załoga ma gaśnicę zgodną z wymaganiami, ale nie wie, jak jej użyć. Czego dodatkowo wymaga ADR?",
         "options": {
-          "A": "Gaśnic może używać wyłącznie spedytor",
-          "B": "Sama obecność gaśnicy zawsze jest wystarczająca",
-          "C": "Załoga powinna znać obsługę gaśnic."
+          "A": "Gaśnicą może posługiwać się wyłącznie spedytor lub osoba z biura",
+          "B": "Sama obecność sprawnej gaśnicy wystarcza, nawet jeśli załoga jej nie zna",
+          "C": "Załoga powinna znać sposób obsługi przewożonych gaśnic"
         },
         "correct_option": "C",
         "explanation": "Członkowie załogi powinni umieć prawidłowo używać gaśnic znajdujących się w pojeździe. Samo przewożenie sprawnej gaśnicy nie wystarczy, jeśli nikt nie zna sposobu jej obsługi. Nie oznacza to jednak, że załoga ma podejmować gaszenie każdego pożaru, zwłaszcza gdy obejmuje on przestrzeń ładunkową. Podstawa: ADR 8.3.2 i 5.4.3.4.",
@@ -104,9 +104,9 @@
       "exact_record_snapshot": {
         "stem": "Pojazd ADR z układem ABS ciągnie przyczepę o maksymalnej masie ponad 3,5 t. Co 8.3.8 wymaga od połączeń elektrycznych, o których mowa w 9.2.2.6, podczas przewozu?",
         "options": {
-          "A": "Można rozłączyć połączenia elektryczne podczas jazdy, jeśli nie używa się hamulców.",
-          "B": "Wystarcza podłączenie złączy tylko podczas załadunku i rozładunku.",
-          "C": "Połączenia muszą pozostać podłączone podczas przewozu."
+          "A": "Połączenia można rozłączyć podczas jazdy, jeśli kierowca nie hamuje",
+          "B": "Złącza elektryczne muszą być podłączone tylko podczas załadunku i rozładunku",
+          "C": "Złącza elektryczne z 9.2.2.6 muszą pozostać podłączone podczas przewozu"
         },
         "correct_option": "C",
         "explanation": "W opisanym zestawie z ABS i przyczepą o wskazanej masie połączenia elektryczne wymagane przez ADR muszą pozostać podłączone podczas przewozu. Nie wystarczy podłączyć ich tylko na czas załadunku, a rozłączenie w trakcie jazdy może wyłączyć wymagane działanie układu. Podstawa: ADR 8.3.8 i 9.2.2.6.",
@@ -145,9 +145,9 @@
       "exact_record_snapshot": {
         "stem": "Przed załadunkiem ADR kontrola dokumentów ujawnia niespełnienie wymagań przez kierowcę lub pojazd. Jak należy postąpić w ramach 7.5.1.2?",
         "options": {
-          "A": "Nie przeprowadzać załadunku do czasu usunięcia niezgodności, chyba że ADR stanowi inaczej",
-          "B": "Załadować, jeśli przesyłka jest pilna",
-          "C": "Załadować pod warunkiem dopisania uwagi na fakturze"
+          "A": "Wstrzymać załadunek do usunięcia niezgodności, chyba że ADR przewiduje wyjątek",
+          "B": "Załadować przesyłkę mimo niezgodności, jeśli dostawa jest pilna i odbiorca wyraził zgodę",
+          "C": "Załadować, a brak wymagań opisać później w uwagach do faktury"
         },
         "correct_option": "A",
         "explanation": "Jeśli kontrola dokumentów lub oględziny przed załadunkiem ujawnią niezgodność z wymaganiami ADR, załadunku nie należy rozpoczynać, dopóki problem nie zostanie usunięty, chyba że przepis przewiduje wyjątek. Pilność dostawy ani dopisek na fakturze nie legalizują niezgodnego przewozu. Podstawa: ADR 7.5.1.2.",
@@ -186,9 +186,9 @@
       "exact_record_snapshot": {
         "stem": "Przed załadunkiem kontenera pojawia się uszkodzenie jego ściany mogące naruszyć ochronę opakowań. Jak stosuje się 7.5.1.2?",
         "options": {
-          "A": "Można pominąć uszkodzenie ściany, jeśli kontener ma aktualne dopuszczenie.",
-          "B": "Wystarczy naprawa zwykłą taśmą bez ponownej oceny stanu kontenera.",
-          "C": "Uszkodzenie zagrażające integralności kontenera wyklucza załadunek."
+          "A": "Aktualne dopuszczenie kontenera pozwala zignorować uszkodzenie jego ściany",
+          "B": "Wystarczy przykleić taśmę bez oceny, czy opakowania będą bezpieczne",
+          "C": "Uszkodzenie zagrażające integralności kontenera wyklucza jego załadunek"
         },
         "correct_option": "C",
         "explanation": "Uszkodzenie ściany kontenera, które może naruszyć jego integralność lub bezpieczeństwo przesyłek, trzeba potraktować jako powód do wstrzymania załadunku. Aktualne dopuszczenie kontenera nie sprawia, że każde późniejsze uszkodzenie jest nieszkodliwe. Zwykła taśma bez oceny nie potwierdza bezpiecznego stanu. Podstawa: ADR 7.5.1.2.",
@@ -227,9 +227,9 @@
       "exact_record_snapshot": {
         "stem": "Podczas rozładunku ADR wykryto uszkodzone wyposażenie pojazdu sprzeczne z wymaganiami. Jaką zasadę 7.5.1.3 należy rozważyć?",
         "options": {
-          "A": "Rozładunek nigdy nie podlega kontroli zgodności",
-          "B": "Dowolny brak można zignorować, jeżeli przewóz już się zakończył",
-          "C": "Wstrzymać rozładunek, chyba że ADR stanowi inaczej."
+          "A": "Rozładunek nie podlega kontroli zgodności, bo przewóz już się zakończył",
+          "B": "Każdy brak wyposażenia można pominąć po przyjeździe do odbiorcy",
+          "C": "Wstrzymać rozładunek, chyba że ADR przewiduje zastosowanie wyjątku"
         },
         "correct_option": "C",
         "explanation": "Kontrola zgodności ma znaczenie również przed rozładunkiem. Jeśli stan pojazdu lub wyposażenia nie spełnia wymagań, rozładunek należy wstrzymać, chyba że ADR przewiduje wyjątek dla konkretnej sytuacji. Zakończenie jazdy nie usuwa ryzyka, które może wystąpić podczas manipulowania ładunkiem. Podstawa: ADR 7.5.1.3.",
