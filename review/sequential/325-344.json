@@ -27,7 +27,7 @@
           "C": "Rezygnuje z numeru UN"
         },
         "correct_option": "A",
-        "explanation": "W razie wątpliwości przy tej procedurze trzeba przyjąć najwyższy poziom zagrożenia.",
+        "explanation": "Gdy stosuje się uproszczoną procedurę klasyfikacji odpadu, a dane nie pozwalają pewnie określić zagrożenia, należy przyjąć najwyższy poziom zagrożenia zgodnie z warunkami przepisu. Nie wolno automatycznie wybierać grupy III ani pomijać numeru UN. To ostrożnościowa zasada klasyfikacji, nie dowolny wybór. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -68,7 +68,7 @@
           "C": "Tak, jeśli kierowca zna nazwę odpadu"
         },
         "correct_option": "B",
-        "explanation": "ADR wyłącza z procedury odpady zawierające materiały klasy 4.3.",
+        "explanation": "Nie każdy odpad o nieznanym składzie można sklasyfikować uproszczoną metodą. Materiały klasy 4.3 są wyłączone z procedury wskazanej w pytaniu, więc nie wystarczy nazwa odpadu ani zgoda kierowcy, by jej użyć. Trzeba zastosować właściwe zasady klasyfikacji dla danego zagrożenia. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -109,7 +109,7 @@
           "C": "Zawsze, gdy odpadu jest mniej niż tona"
         },
         "correct_option": "B",
-        "explanation": "Przepis dopuszcza taki wybór, jeśli wiadomo, że odpad posiada tylko właściwości niebezpieczne dla środowiska.",
+        "explanation": "UN 3077 lub UN 3082 w grupie pakowania III można rozważyć tą drogą tylko wtedy, gdy ustalono, że odpad ma wyłącznie właściwości niebezpieczne dla środowiska. Sama mała ilość lub fakt, że to odpad komunalny, nie spełniają tego warunku. Inne zagrożenia wymagają odrębnej klasyfikacji. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -150,7 +150,7 @@
           "C": "Całkowity brak klasyfikacji"
         },
         "correct_option": "A",
-        "explanation": "Możliwe jest zastosowanie najbardziej odpowiedniej pozycji i.n.o. grupy II, gdy wykazano brak cech grupy I; obowiązują wyłączenia.",
+        "explanation": "Jeżeli wykazano, że odpad nie ma właściwości odpowiadających grupie pakowania I, przepis może dopuścić odpowiednią pozycję i.n.o. grupy II, o ile spełniono pozostałe warunki. Nie oznacza to prawa do dowolnego wyboru grupy III ani całkowitego pominięcia klasyfikacji. Należy uwzględnić również wyłączenia procedury. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -191,7 +191,7 @@
           "C": "Tak, jeśli pojazd ma gaśnicę"
         },
         "correct_option": "B",
-        "explanation": "Przepis wyraźnie wyklucza zastosowanie tej procedury do materiałów niedopuszczonych do przewozu.",
+        "explanation": "Uproszczona procedura klasyfikacji odpadu nie pozwala nadać dowolnego numeru UN materiałowi, którego przewóz jest zakazany. Dopisek „ODPAD” ani obecność gaśnicy nie legalizują przewozu niedopuszczonej substancji. Najpierw trzeba ustalić, czy materiał w ogóle może być przewożony na warunkach ADR. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -232,7 +232,7 @@
           "C": "Stosuje się ją dopiero po rozładunku"
         },
         "correct_option": "B",
-        "explanation": "Odpady zawierające materiały wymienione w 2.1.3.5.3 nie korzystają z procedury 2.1.3.5.5.",
+        "explanation": "Procedury dla odpadu o nieznanym składzie nie można stosować bez sprawdzenia listy wyłączeń. Materiały klasy 5.2 należą do kategorii wyłączonej przez powiązanie z ADR 2.1.3.5.3, więc nie wystarczy poczekać do rozładunku ani użyć dowolnego opakowania. Trzeba zastosować właściwe zasady klasyfikacji. Podstawa: ADR 2.1.3.5.3 i 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -273,7 +273,7 @@
           "C": "Wybór klasy przez kierowcę po kolorze cieczy"
         },
         "correct_option": "B",
-        "explanation": "Jeśli ustalenie według ogólnej zasady nie jest możliwe bez nieproporcjonalnego kosztu lub wysiłku, stosuje się klasę składnika o największym zagrożeniu.",
+        "explanation": "Gdy ustalenie składu lub klasyfikacji mieszaniny wymagałoby nieproporcjonalnych kosztów albo wysiłku, ADR przewiduje zastosowanie zasady opartej na składniku stwarzającym największe zagrożenie. Nie wolno wybierać klasy po kolorze ani automatycznie przypisywać klasy 9. Rozwiązanie musi wynikać z dostępnych danych o zagrożeniach. Podstawa: ADR 2.1.3.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -314,7 +314,7 @@
           "C": "ADR 5.4.3.4"
         },
         "correct_option": "A",
-        "explanation": "Wskazany punkt zawiera szczególną kolejność dla wyliczonych rodzajów zagrożeń, w tym klasy 2.",
+        "explanation": "ADR 2.1.3.5.3 określa szczególną kolejność postępowania dla wymienionych tam rodzajów zagrożeń, w tym związanych z klasą 2. Przepisy o gaśnicach czy instrukcjach awaryjnych nie służą do ustalania pierwszeństwa klasyfikacji. Należy sprawdzić, czy dana mieszanina mieści się w tej szczególnej liście. Podstawa: ADR 2.1.3.5.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -355,7 +355,7 @@
           "C": "Automatyczne zwolnienie z przepisów"
         },
         "correct_option": "A",
-        "explanation": "W takich przypadkach odpowiednią klasę ustala się z tabeli pierwszeństwa zagrożeń 2.1.3.10.",
+        "explanation": "Jeżeli zagrożenia mieszaniny nie należą do szczególnej listy z ADR 2.1.3.5.3, trzeba skorzystać z tabeli pierwszeństwa zagrożeń. Nie oznacza to, że zawsze wygrywa klasa 3 ani że mieszanina jest automatycznie zwolniona z ADR. Klasyfikację ustala się na podstawie właściwych kryteriów. Podstawa: ADR 2.1.3.5.4 i tabela 2.1.3.10.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -396,7 +396,7 @@
           "C": "Zawsze zastosować UN 3082"
         },
         "correct_option": "B",
-        "explanation": "Należy użyć najbardziej szczegółowej właściwej pozycji zbiorczej; ogólna i.n.o. ma charakter dalszego wyboru.",
+        "explanation": "Jeśli dla odpadu pasuje zarówno ogólna pozycja i.n.o., jak i bardziej szczegółowa pozycja zbiorcza, należy wybrać tę najbardziej szczegółową, która rzeczywiście pasuje do materiału. Ogólna pozycja nie jest wygodnym zamiennikiem lepszego dopasowania, a UN 3082 nie pasuje automatycznie do każdego odpadu. Podstawa: ADR 2.1.3.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -437,7 +437,7 @@
           "C": "Wyłącznie deklarację odbiorcy"
         },
         "correct_option": "A",
-        "explanation": "Przepis pozwala oprzeć się na wiedzy nadawcy, z uwzględnieniem dostępnych danych technicznych i bezpieczeństwa.",
+        "explanation": "Przy klasyfikacji odpadu nadawca może korzystać z posiadanej wiedzy oraz dostępnych danych technicznych i kart charakterystyki, nawet gdy nie zna dokładnych proporcji wszystkich składników. Kolor pojemnika ani sama deklaracja odbiorcy nie opisują wiarygodnie zagrożeń. Dostępne informacje trzeba ocenić zgodnie z warunkami procedury. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -478,7 +478,7 @@
           "C": "Wyłącznie kierowca pojazdu mijającego transport"
         },
         "correct_option": "B",
-        "explanation": "Przepis odwołuje się do wiedzy nadawcy o odpadzie.",
+        "explanation": "ADR wskazuje nadawcę jako podmiot, którego wiedza o odpadzie może być podstawą klasyfikacji w opisanej procedurze. Przypadkowy świadek ani kierowca mijającego pojazdu nie odpowiadają za przekazanie informacji o składzie i właściwościach odpadu. Nadal trzeba spełnić warunki procedury i uwzględnić jej wyłączenia. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
