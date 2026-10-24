@@ -161,3 +161,7 @@ W [raporcie lekcji 01–04](../podstawowy/raporty/etap-4t-lekcje-01-04-2026-10-2
 ## Etap 4t — przegląd lekcji 05–08 (25.10.2026)
 
 W [raporcie lekcji 05–08](../podstawowy/raporty/etap-4t-lekcje-05-08-2026-10-25.md) udokumentowano brak prostego wprowadzenia i podsumowania końcowego w czterech lekcjach oraz brak objaśnienia skrótu DMC na początku ADR-B-08. Dodano wprowadzenia, przykłady kierowcy i końcowe podsumowania. ADR-B-07 uzupełniono o ogólną odpowiedzialność cywilną, z odsyłaczem do pytań 0567–0569; to materiał roboczy, nie zatwierdzenie prawne. Wszystkie pytania pozostają `needs_review`.
+
+## Etap 4t — przegląd lekcji 09–13 (25.10.2026)
+
+W [raporcie lekcji 09–13](../podstawowy/raporty/etap-4t-lekcje-09-13-2026-10-25.md) odnotowano brak prostego wprowadzenia i podsumowania końcowego w lekcjach 09–13 oraz skróty RID, IMDG, ICAO, LQ i UN wymagające rozwinięcia przy pierwszym objaśnieniu. Dodano krótkie wprowadzenia z przykładami kierowcy, objaśnienia skrótów i listy „Co musisz zapamiętać”. Nie zmieniono banku pytań ani statusów prawnych.
