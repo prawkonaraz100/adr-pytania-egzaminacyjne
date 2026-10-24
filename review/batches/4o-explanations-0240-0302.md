@@ -5,7 +5,7 @@
 - Zmieniono wyłącznie `explanation`; długości po zmianie: 0240=347, 0243=377, 0248=352, 0249=355, 0255=314, 0265=336, 0268=338, 0272=392, 0284=303, 0288=314, 0289=301, 0292=374, 0293=351, 0298=335, 0302=376 znaków.
 - Każde wyjaśnienie opisuje sens poprawnej odpowiedzi, krótko wyjaśnia pozostałe opcje i wskazuje podstawę ADR.
 - Zachowano 545 rekordów, ID, kolejność, klucze i `verification_status`. Wszystkie pytania nadal `needs_review`; brak statusów `verified`.
-- Migawki audytu sekwencyjnego i klauzulowego zostaną odświeżone dla zmienionych wyjaśnień bez zmiany ocen A/B/C i statusu recenzji.
+- Odświeżono pola `exact_record_snapshot` i `question_snapshot` dla zmienionych rekordów w audycie sekwencyjnym i klauzulowym, bez zmiany ocen A/B/C i statusu recenzji.
 - Quality Gate: oczekuje na wynik CI.
 
 ## Długości
