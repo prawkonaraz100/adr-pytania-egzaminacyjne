@@ -6,6 +6,7 @@
 - Wyjaśnienia wskazują sens poprawnej odpowiedzi, krótko omawiają pozostałe opcje i podają podstawę ADR.
 - Kontrola skryptowa: bank zachowuje 545 rekordów; identyfikatory, kolejność, klucze odpowiedzi i `verification_status` nie zostały zmienione. Status pozostaje `needs_review`; niczego nie oznaczono jako `verified`.
 - Zmiana wymaga odświeżenia technicznych migawek w audytach sekwencyjnym i klauzulowym; nie zmienia to oceny merytorycznej ani nie stanowi akceptacji specjalisty.
+- Odświeżono pola migawek `exact_record_snapshot` i `question_snapshot` dla tych 15 rekordów w audycie sekwencyjnym i klauzulowym; statusy audytów oraz oceny A/B/C pozostały bez zmian.
 - Quality Gate: oczekuje na wynik CI dla PR.
 
 ## Wyniki długości wyjaśnień
