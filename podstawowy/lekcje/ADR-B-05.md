@@ -1,5 +1,9 @@
 # Lekcja ADR-B-05 — Wypadek, awaria i pierwsza pomoc
 
+## Po co to jest?
+
+Po wypadku najważniejsze jest, by nie stać się kolejną osobą poszkodowaną. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych; jej instrukcje pomagają rozpoznać zagrożenie i przekazać służbom informacje o ładunku. P1–P3 to robocze oznaczenia ćwiczeń praktycznych prowadzonych przez instruktora, a nie test online. Przykład: jeśli z uszkodzonej przesyłki wydobywa się chmura gazu, nie wchodź w nią po poszkodowanego bez oceny zagrożenia — oddal się, ostrzeż innych i wezwij służby.
+
 > **Wersja robocza 22.10.2026 · wymaga recenzji instruktora i doradcy ADR.** Materiał do przygotowania kierowcy na kurs ADR podstawowy; nie zastępuje instrukcji pisemnych w pojeździe, poleceń służb ani rzeczywistych ćwiczeń pierwszej pomocy, pożaru i awarii.
 
 ## Jak korzystać z tej lekcji
@@ -219,3 +223,10 @@ Powtórka w banku: ADR-B-0308, 0362, 0435. Ćwiczenia praktyczne: P1–P3 w `pod
 Jeśli ogień obejmuje przestrzeń ładunkową, nie otwieraj jej, by zobaczyć, co się pali. Oddal się, ostrzeż innych i wezwij służby. Inne działania mogą być rozważane wyłącznie w granicach instrukcji i bezpieczeństwa. Powiązane pytania: ADR-B-0308, ADR-B-0362 i ADR-B-0435. Ćwiczenia praktyczne P1–P3 wykonuje i potwierdza instruktor; quiz nie jest zaliczeniem praktyki.
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
+
+## Co musisz zapamiętać
+
+- Najpierw oceń bezpieczeństwo miejsca; nie wchodź w opary ani nie dotykaj nieznanej substancji.
+- Ostrzeż innych i wezwij służby. Korzystaj z instrukcji pisemnych, jeśli możesz zrobić to bezpiecznie.
+- Nie otwieraj przestrzeni ładunkowej objętej pożarem. Ćwiczenia P1–P3 musi rzeczywiście przeprowadzić i ocenić instruktor.
+- Podstawy do dalszej nauki: ADR 5.4.3.4 i 5.4.3 oraz właściwe przepisy o wyposażeniu i działaniach awaryjnych.

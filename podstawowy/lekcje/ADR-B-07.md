@@ -1,5 +1,9 @@
 # ADR-B-07 — Kto za co odpowiada: nadawca, przewoźnik, załadowca i inni
 
+## Po co to jest?
+
+Przy przewozie niebezpiecznych towarów kilka osób ma różne obowiązki. Jeśli pojawi się niezgodność, kierowca nie powinien zakładać, że „ktoś wcześniej sprawdził”, więc problem go nie dotyczy. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych. Przykład: dokumenty mogą być poprawne, ale jeśli podczas kontroli widzisz pęknięte opakowanie, trzeba zgłosić problem przed dalszym przewozem. Ta lekcja omawia też ogólne zasady odpowiedzialności cywilnej — czyli kiedy może powstać obowiązek naprawienia szkody.
+
 > **Wersja robocza 22.10.2026** — wymaga sprawdzenia przez niezależnego specjalistę ADR. Materiał szkoleniowy, nie oficjalny bank pytań ani potwierdzenie odbycia kursu.
 
 ## Jak korzystać z tej lekcji
@@ -44,6 +48,10 @@ W zależności od rzeczywistej organizacji pracy jedna firma może pełnić kilk
 - „Kierowca ma naprawić każdy brak w dokumentach” — nie, właściwy uczestnik odpowiada za przekazanie poprawnych danych.
 - „Jeżeli załadowca podjął decyzję, przewoźnik może ignorować widoczne uszkodzenie” — nie, ma własne obowiązki.
 - „Rozładowca nie odpowiada za bezpieczeństwo, bo przewóz właśnie się kończy” — nie, rozdział 1.4.3.7 obejmuje rozładunek.
+
+## Odpowiedzialność cywilna — ogólna zasada
+
+Odpowiedzialność cywilna dotyczy między innymi obowiązku naprawienia szkody albo skutków niewykonania umowy. To odrębne zagadnienie od samego mandatu czy naruszenia wymogu ADR: nie wolno zakładać, że każde naruszenie automatycznie przesądza o osobistej odpowiedzialności kierowcy ani że przewóz ADR jest od niej całkowicie wyłączony. W konkretnej sprawie znaczenie mają właściwe przepisy, umowa, rodzaj przewozu i ustalone fakty. Temat jest ujęty w ADR 8.2.2.3.2(k); ogólne podstawy krajowe obejmują Kodeks cywilny art. 415 i 471. Pytania robocze: ADR-B-0567–0569; wymagają niezależnej recenzji.
 
 ## 4. Sprawdzenie wiedzy
 
@@ -145,9 +153,17 @@ Powtórka w banku: ADR-B-0285, 0290, 0482.
 - ADR-B-0290 — pakujący
 - ADR-B-0293 — załoga i pasażerowie
 - ADR-B-0482 — obowiązki uczestników
+- ADR-B-0567–0569 — ogólne zasady odpowiedzialności cywilnej
 
 ### Przykład z pracy kierowcy
 
 Nadawca przekazał dokumenty, ale podczas kontroli zauważasz uszkodzone opakowanie. Nie zakładaj, że wcześniejsza kontrola innego uczestnika zwalnia cię z reakcji na widoczną niezgodność. Zgłoś problem i wyjaśnij go przed dalszym przewozem. Powiązane pytania: ADR-B-0285 i ADR-B-0290.
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
+
+## Co musisz zapamiętać
+
+- Obowiązki nadawcy, przewoźnika, załadowcy, kierowcy i odbiorcy nie są identyczne.
+- Zauważona niezgodność wymaga reakcji w granicach własnych obowiązków; zapewnienie innej osoby nie zastępuje sprawdzenia.
+- Odpowiedzialność cywilna nie oznacza automatycznej winy kierowcy przy każdym zdarzeniu — trzeba ustalić podstawę prawną i fakty.
+- Powtórz pytania ADR-B-0567–0569; podstawy ogólne: ADR 8.2.2.3.2(k), Kodeks cywilny art. 415 i 471. Zastosowanie w konkretnym przewozie wymaga fachowej oceny.

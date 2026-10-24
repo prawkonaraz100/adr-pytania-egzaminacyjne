@@ -1,5 +1,9 @@
 # ADR-B-08 — Wyposażenie, gaśnice i świadectwo pojazdu
 
+## Po co to jest?
+
+Przed wyjazdem kierowca powinien sprawdzić, czy pojazd ma wymagane wyposażenie i dokumenty. **DMC** oznacza dopuszczalną masę całkowitą pojazdu; od rodzaju pojazdu, przewozu i zastosowanych zwolnień mogą zależeć konkretne wymagania dotyczące gaśnic. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych. Przykład: jeśli firma mówi, że pojazd ma ważne świadectwo dopuszczenia, ale nie można go okazać, nie zakładaj, że ustne zapewnienie zastępuje wymagany dokument.
+
 > **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
 
 ## Jak korzystać z tej lekcji
@@ -147,3 +151,10 @@ Powtórka w banku: ADR-B-0418–0423, 0551–0553 i 0566.
 Te pytania pozostają `needs_review`; przykłady wymagają niezależnej recenzji przed szkoleniem.
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
+
+## Co musisz zapamiętać
+
+- Sprawdź osobno liczbę gaśnic, ich łączną pojemność, stan i dostępność.
+- DMC to dopuszczalna masa całkowita; nie stosuj jednego wymogu do każdego pojazdu bez sprawdzenia rodzaju przewozu i zwolnień.
+- Jeśli ADR wymaga świadectwa dopuszczenia, sprawdź jego ważność i dostępność — nie zastępuj go ustnym zapewnieniem firmy.
+- Podstawy do dalszej nauki: ADR 8.1.4 i 9.1.3.1.
