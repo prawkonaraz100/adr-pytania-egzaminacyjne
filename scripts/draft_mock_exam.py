@@ -3,7 +3,7 @@
 import argparse,json,random
 from collections import Counter
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2];BANK=ROOT/"podstawowy"/"questions.jsonl"
+ROOT=Path(__file__).resolve().parents[1];BANK=ROOT/"podstawowy"/"questions.jsonl"
 MODULES=[f"ADR-B-{i:02d}" for i in range(1,14)];PASS_MARK=20
 def load_bank(path):
  rows=[]
