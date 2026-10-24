@@ -1,5 +1,9 @@
 # ADR-B-03 — Środowisko, wycieki i odpady
 
+## Po co to jest?
+
+Wyciek może zagrozić kierowcy, innym osobom, wodzie i glebie, nawet gdy nie czuć mocnego zapachu. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych; **numer UN** pomaga ustalić, jaki towar jest przewożony, ale nie zastępuje oceny sytuacji i instrukcji bezpieczeństwa. Przykład: jeśli po rozładunku zauważysz ciecz na podłodze pojazdu, nie spłukuj jej do kratki kanalizacyjnej ani nie dotykaj — zabezpiecz miejsce w bezpieczny sposób i postępuj zgodnie z instrukcjami oraz poleceniami służb.
+
 > **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
 
 ## Jak korzystać z tej lekcji
@@ -143,3 +147,10 @@ Powtórka w banku: ADR-B-0241–0246, 0294–0295, 0343.
 Te przykłady odzwierciedlają pytania robocze `needs_review`; przed użyciem na kursie wymagają kontroli źródła przez eksperta.
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
+
+## Co musisz zapamiętać
+
+- Przy wycieku najpierw chroń siebie i innych; nie dotykaj substancji ani nie rozpoznawaj jej po zapachu.
+- Nie spłukuj nieznanej substancji do kanalizacji i nie zakładaj, że mała ilość jest bezpieczna.
+- Określenie „odpad” nie zastępuje klasyfikacji ani wymaganych danych dokumentu.
+- Podstawy do dalszej nauki: ADR 2.1, 5.4.1.1.3 i 5.4.3.4.

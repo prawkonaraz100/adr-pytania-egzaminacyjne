@@ -1,5 +1,9 @@
 # ADR-B-02 — Klasy towarów i rozpoznawanie zagrożeń
 
+## Po co to jest?
+
+Nalepka pomaga rozpoznać rodzaj zagrożenia, zanim podejmiesz decyzję przy załadunku, kontroli lub wypadku. **ADR** to europejska umowa regulująca drogowy przewóz towarów niebezpiecznych, a **numer UN** to czterocyfrowy numer identyfikujący konkretną pozycję towaru. Nie wystarczy zapamiętać samego koloru lub symbolu — sprawdź całą nalepkę i dane przewozowe. Przykład: gdy widzisz nalepkę klasy 4.3 na mokrym opakowaniu, nie polewaj go wodą; najpierw zachowaj bezpieczny dystans i zastosuj właściwe instrukcje.
+
 > **Wersja robocza 22.10.2026** — wymaga sprawdzenia przez niezależnego specjalistę ADR. Materiał szkoleniowy, nie oficjalny bank pytań ani potwierdzenie odbycia kursu.
 
 ## Jak korzystać z tej lekcji
@@ -196,3 +200,10 @@ Powtórka w banku: ADR-B-0495–0502, 0541–0542.
 Na etykiecie widzisz symbol płomienia, ale nie znasz dokładnej klasy. Nie klasyfikuj towaru po samym symbolu. Odczytaj całą nalepkę, numer UN i dokumenty, a następnie porównaj je z właściwym wpisem. Powiązane pytania: ADR-B-0265–0270 i ADR-B-0315.
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
+
+## Co musisz zapamiętać
+
+- Rozpoznawaj pełną nalepkę: kolor, symbol i numer klasy; nie klasyfikuj towaru po samej nazwie handlowej.
+- Numer UN, klasa i grupa pakowania oznaczają różne informacje.
+- Jeśli oznaczenie nie zgadza się z dokumentem, wyjaśnij rozbieżność przed przewozem.
+- Podstawy do dalszej nauki: ADR część 2, tabela A w 3.2 i oznakowanie w 5.2.2.

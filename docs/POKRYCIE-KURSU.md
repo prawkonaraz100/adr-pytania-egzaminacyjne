@@ -153,3 +153,7 @@ Scenariusze: [SCENARIUSZE.md](../podstawowy/praktyka/SCENARIUSZE.md). Trzy wymag
 ## Aktualizacja etapu 4t — odpowiedzialność cywilna (25.10.2026)
 
 Audyt szczegółowy: [`podstawowy/raporty/etap-4t-pokrycie-programu-2026-10-25.md`](../podstawowy/raporty/etap-4t-pokrycie-programu-2026-10-25.md). Dodano kompetencję ADR-B-07-K07 i pytania ADR-B-0567–0569, aby wyodrębnić temat ogólnej odpowiedzialności cywilnej wskazany w ADR 8.2.2.3.2(k). Bank ma 569 pytań; wszystkie pozostają `needs_review`, zero `verified`. Próg co najmniej 3 pytań na kompetencję jest roboczy, a nie prawny. Audyt nie poświadcza pełnej różnorodności typów pytań ani prawnej poprawności; wymagane pozostają niezależna recenzja i kontrola polskiego tekstu urzędowego.
+
+## Etap 4t — przegląd lekcji 01–04 (25.10.2026)
+
+W [raporcie lekcji 01–04](../podstawowy/raporty/etap-4t-lekcje-01-04-2026-10-25.md) opisano potwierdzone braki wprowadzenia dla początkującego, objaśnienia skrótów i podsumowania końcowego. Dodano wprowadzenia „Po co to jest?” z przykładem kierowcy oraz sekcje „Co musisz zapamiętać” do ADR-B-01–04. Zmiany są redakcyjne; nie zmieniono pytań ani statusów prawnych. Kolejne lekcje pozostają do przeglądu.

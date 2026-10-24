@@ -1,5 +1,9 @@
 # Lekcja ADR-B-01 — podstawy, definicje i wyłączenia
 
+## Po co to jest?
+
+Zanim ruszysz w trasę, musisz ustalić, czy ładunek podlega ADR i które obowiązki nadal obowiązują. Błędne założenie, że „mało towaru” oznacza pełne zwolnienie, może doprowadzić do przewozu bez wymaganych zabezpieczeń. **ADR** to europejska umowa o międzynarodowym przewozie drogowym towarów niebezpiecznych. **Numer UN** to czterocyfrowy numer identyfikujący pozycję towaru w wykazie. **LQ** oznacza ilości ograniczone (*Limited Quantities*), a **EQ** — ilości wyłączone (*Excepted Quantities*); mają różne warunki. Przykład: gdy nadawca mówi, że na palecie jest „tylko kilka sztuk”, sprawdź konkretny towar, opakowanie i warunki zwolnienia, zamiast zgadywać.
+
 > **Szkic do recenzji (22.10.2026).** Nie zastępuje kursu prowadzonego przez uprawniony ośrodek. Przed korzystaniem sprawdź aktualność ADR 2025 i polskich przepisów.
 
 ## Jak korzystać z tej lekcji
@@ -193,3 +197,10 @@ Powtórka w banku: ADR-B-0259–0261, 0271–0273, 0312–0314.
 Zleceniodawca mówi: „To tylko kilka sztuk, więc ADR nie obowiązuje”. Nie przyjmuj tego jako wystarczającego uzasadnienia. Sprawdź numer UN, właściwy wpis i warunki konkretnego wyłączenia; różne zwolnienia mają różne wymagania. Powiązane pytania: ADR-B-0259–0261 i ADR-B-0314.
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
+
+## Co musisz zapamiętać
+
+- Najpierw ustal towar i warunki przewozu; nie zakładaj zwolnienia na podstawie samej małej ilości.
+- LQ, EQ i zwolnienie z 1.1.3.6 to różne mechanizmy — sprawdź warunki każdego osobno.
+- Szkolenie pracownika z działu 1.3 nie zastępuje wymaganego zaświadczenia kierowcy z działu 8.2.
+- Podstawy do dalszej nauki: ADR 1.1.3, 1.3, 1.4 i 8.2.
