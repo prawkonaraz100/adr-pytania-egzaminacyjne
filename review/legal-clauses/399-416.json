@@ -35,7 +35,7 @@
           "C": "Przydzielić obowiązki konkretnym kompetentnym osobom posiadającym odpowiednie uprawnienia"
         },
         "correct_option": "C",
-        "explanation": "Plan wskazuje osoby odpowiedzialne za ochronę, ich kwalifikacje i zakres zadań.",
+        "explanation": "Plan ochrony powinien wskazywać konkretne osoby odpowiedzialne za poszczególne działania oraz zapewniać, że mają odpowiednie kompetencje i uprawnienia. Pozostawienie odpowiedzialności nieokreślonej utrudnia reakcję na zagrożenie, a przypadkowy odbiorca nie jest automatycznie właściwą osobą. Role muszą być ustalone z góry. Podstawa: ADR 1.10.3.2.2(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -81,7 +81,7 @@
           "C": "Tylko tablice rejestracyjne pojazdów"
         },
         "correct_option": "B",
-        "explanation": "Plan zawiera wykaz przewożonych towarów niebezpiecznych lub ich rodzajów.",
+        "explanation": "Plan ochrony powinien określać, jakie towary niebezpieczne lub grupy towarów obejmuje. Sama nazwa spedytora czy numery rejestracyjne pojazdów nie opisują, przed jakim ładunkiem trzeba się chronić. Informacja o rodzajach towarów pozwala dopasować środki ochrony do rzeczywistego ryzyka. Podstawa: ADR 1.10.3.2.2(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -127,7 +127,7 @@
           "C": "Postoje, przebywanie ładunku w pojeździe i operacje intermodalne, gdy występują"
         },
         "correct_option": "C",
-        "explanation": "Ocena ryzyka obejmuje m.in. postoje konieczne dla przewozu, przebywanie ładunku oraz czasowe magazynowanie w trakcie zmiany rodzaju transportu.",
+        "explanation": "Ocena zagrożeń ochronnych nie powinna ograniczać się do samej jazdy. Należy uwzględnić również postoje wymagane przez transport, czasowe przebywanie ładunku w pojeździe i operacje intermodalne, jeśli występują. Godziny obiadu czy miejsce wystawienia faktury nie opisują ryzyka kradzieży lub nieuprawnionego dostępu. Podstawa: ADR 1.10.3.2.2(c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -173,7 +173,7 @@
           "C": "Praktyczne środki ograniczania zidentyfikowanych zagrożeń"
         },
         "correct_option": "C",
-        "explanation": "Plan przewiduje odpowiednie środki zmniejszające ryzyko, np. zasady operacyjne, szkolenie i wyposażenie.",
+        "explanation": "Plan ochrony powinien zawierać praktyczne działania ograniczające rozpoznane zagrożenia, dopasowane do danego przewozu. Godzina obiadu ani model ciężarówki nie stanowią środków ochrony. Plan ma pomagać zapobiegać kradzieży i nadużyciu towarów dużego ryzyka oraz określać, jak działać w razie problemu. Podstawa: ADR 1.10.3.2.2(d).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -219,7 +219,7 @@
           "C": "Zgłaszania incydentów, zagrożeń i naruszeń ochrony oraz reagowania na nie"
         },
         "correct_option": "C",
-        "explanation": "Plan wymaga skutecznych procedur zgłaszania i postępowania w przypadku zagrożeń, naruszeń lub incydentów ochrony.",
+        "explanation": "Plan ochrony musi opisywać, jak zgłaszać zagrożenia, incydenty i naruszenia ochrony oraz jak na nie reagować. Harmonogram przerw czy procedura reklamacji kosztów nie przygotowują pracowników do takich zdarzeń. Jasne zasady zgłoszenia pomagają szybko uruchomić odpowiednie działania i ograniczyć skutki incydentu. Podstawa: ADR 1.10.3.2.2(e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -265,7 +265,7 @@
           "C": "Automatyczne usunięcie planu"
         },
         "correct_option": "B",
-        "explanation": "Plan powinien być poddawany ocenie, testowaniu, przeglądom i aktualizacji.",
+        "explanation": "Plan ochrony nie powinien pozostawać niezmieniony, gdy zmieniają się trasy, rodzaje ładunków lub sposób organizacji przewozu. ADR przewiduje ocenę, sprawdzanie, przegląd i aktualizację planu. Zakaz zmian lub automatyczne usunięcie dokumentu nie rozwiązuje problemu; plan ma nadal odpowiadać aktualnym zagrożeniom. Podstawa: ADR 1.10.3.2.2(f).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -311,7 +311,7 @@
           "C": "Sposoby zabezpieczenia informacji transportowych"
         },
         "correct_option": "C",
-        "explanation": "Plan obejmuje środki zabezpieczające fizycznie informacje dotyczące przewozu.",
+        "explanation": "Plan ochrony powinien określać, jak zabezpiecza się informacje związane z przewozem, aby nie trafiały do osób nieuprawnionych. Publikowanie pełnych tras bez ograniczeń może zwiększyć ryzyko, a wzór pieczątki nie chroni danych. Należy opisać odpowiednie środki ochrony informacji transportowych. Podstawa: ADR 1.10.3.2.2(g).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -357,7 +357,7 @@
           "C": "Osoby, które potrzebują ich do wykonywania obowiązków, bez ograniczania danych wymaganych innymi przepisami ADR"
         },
         "correct_option": "C",
-        "explanation": "Zasada need-to-know nie może ograniczać przekazywania informacji wymaganych innymi przepisami ADR.",
+        "explanation": "Szczegółowe informacje o przewozie dużego ryzyka należy udostępniać osobom, które potrzebują ich do wykonania swoich obowiązków. Nie oznacza to przekazywania danych każdemu, kto o nie poprosi. Zasada „need-to-know” nie może jednak blokować informacji, których przekazania wymagają inne przepisy ADR. Podstawa: ADR 1.10.3.2.2(h).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -403,7 +403,7 @@
           "C": "Wyłącznie w chwili kontroli drogowej"
         },
         "correct_option": "B",
-        "explanation": "Wymagane urządzenia, wyposażenie lub rozwiązania ochronne powinny skutecznie przeciwdziałać kradzieży przez cały czas przewozu.",
+        "explanation": "Wymagane zabezpieczenia antykradzieżowe mają działać przez cały czas przewozu, zgodnie z warunkami ADR. Uruchomienie ich tylko przed odjazdem lub dopiero podczas kontroli nie zapewnia ciągłej ochrony ładunku. Środki ochronne powinny być stosowane tak długo, jak wymaga tego dany przewóz. Podstawa: ADR 1.10.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -449,7 +449,7 @@
           "C": "Można stosować wyłącznie bez informacji dla kierowcy"
         },
         "correct_option": "B",
-        "explanation": "Zabezpieczenia ochronne mają być skuteczne, ale nie mogą utrudniać reagowania w sytuacjach awaryjnych.",
+        "explanation": "Zabezpieczenie przed kradzieżą ma chronić ładunek, ale nie może uniemożliwiać ratownikom działania podczas wypadku. Blokada, która odcina dostęp do pojazdu w sytuacji awaryjnej, może stworzyć dodatkowe niebezpieczeństwo. Dlatego środki ochrony należy dobrać tak, by nie utrudniały reagowania ratowniczego. Podstawa: ADR 1.10.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -495,7 +495,7 @@
           "C": "Rozpoznawanie zagrożeń i metody ich ograniczania"
         },
         "correct_option": "C",
-        "explanation": "Szkolenie obejmuje charakter zagrożeń, rozpoznawanie ich oraz sposoby ograniczania ryzyka i reagowania.",
+        "explanation": "Szkolenie ochronne powinno wyjaśniać, jakie zagrożenia mogą wynikać z kradzieży lub niewłaściwego użycia towarów niebezpiecznych, jak je rozpoznawać i jak ograniczać ryzyko. Przepisy gastronomiczne ani urlopowe nie przygotowują do takich sytuacji. Wiedza ma pomóc pracownikowi działać zgodnie z procedurami ochrony. Podstawa: ADR 1.10.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -541,7 +541,7 @@
           "C": "Wiedzę o odpowiednich elementach planu ochrony w zakresie jego obowiązków"
         },
         "correct_option": "C",
-        "explanation": "Szkolenie uwzględnia plan ochrony proporcjonalnie do roli i zakresu odpowiedzialności osoby.",
+        "explanation": "Zakres szkolenia powinien odpowiadać roli pracownika i jego obowiązkom, dlatego powinien znać te elementy planu ochrony, które dotyczą wykonywanych zadań. Nie oznacza to ujawniania całego planu wszystkim kierowcom bez potrzeby. Informacje przekazuje się odpowiednim osobom w zakresie niezbędnym do pracy. Podstawa: ADR 1.10.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -587,7 +587,7 @@
           "C": "Wyłącznie przed emeryturą"
         },
         "correct_option": "B",
-        "explanation": "Szkolenie ochronne obejmuje etap powierzenia zadań, a jego treść wymaga okresowego odświeżania.",
+        "explanation": "Szkolenie ochronne należy zapewnić osobie, gdy powierza się jej zadania związane z przewozem, a wiedzę trzeba okresowo uzupełniać. Czekanie do wypadku oznaczałoby szkolenie dopiero po wystąpieniu zagrożenia. Regularne odświeżanie pomaga utrzymać znajomość procedur i rozpoznawać nowe ryzyka. Podstawa: ADR 1.10.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
