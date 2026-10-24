@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from course_consistency import audit, validate_image_assets, validate_reviewer_manifest
+from course_consistency import audit, validate_image_assets, validate_reviewer_manifest, validate_practical_scenario_map
 
 
 class CourseConsistencyTests(unittest.TestCase):
@@ -84,6 +84,31 @@ class CourseConsistencyTests(unittest.TestCase):
             self.assertIn(f"lekcje/{module}.md", readme)
         self.assertIn("egzamin-probny/wariant-001.json", readme)
         self.assertIn("raporty/etap-4q-przeglad-kursanta-2026-10-24.md", readme)
+
+    def test_practical_scenario_map_covers_13_modules_and_existing_question_ids(self):
+        root = Path(__file__).resolve().parents[1]
+        bank = [json.loads(line) for line in
+                (root / "podstawowy" / "questions.jsonl").read_text(encoding="utf-8").splitlines()
+                if line.strip()]
+        self.assertEqual(validate_practical_scenario_map(root, bank), [])
+
+    def test_practical_scenario_map_rejects_missing_question_id(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            folder = root / "podstawowy" / "praktyka"
+            folder.mkdir(parents=True)
+            scenarios = [
+                {"id": f"SC-ADR-B-{i:02d}", "module_id": f"ADR-B-{i:02d}",
+                 "steps": ["1", "2", "3"], "question_ids": ["ADR-B-9999"],
+                 "safety_boundary": "simulation only"}
+                for i in range(1, 14)
+            ]
+            (folder / "scenariusze-13-dzialow.json").write_text(
+                json.dumps({"scenarios": scenarios}), encoding="utf-8")
+            bank = [{"id": f"ADR-B-{i:04d}", "module_id": f"ADR-B-{i:02d}"}
+                    for i in range(1, 14)]
+            errors = validate_practical_scenario_map(root, bank)
+            self.assertTrue(any("missing question" in err for err in errors))
 
 if __name__=="__main__":
     unittest.main()
