@@ -165,3 +165,11 @@ Ocena instruktora dla każdego celu: „rozumie / wymaga wyjaśnienia / nieoceni
 ### Źródła i ograniczenia
 
 Urzędowy zakres: Dz.U. 2021 poz. 2150, załącznik nr 1 pkt 1(b); klasyfikacja i nalepki: ADR 2025 część 2, 3.2 tabela A, 5.2.2, Dz.U. 2025 poz. 642 i sprostowanie poz. 1575. Cała lekcja stanowi projekt dydaktyczny bez niezależnego zatwierdzenia; bank pytań nadal `needs_review`, nie `verified`.
+
+## Karta kursanta — rozpoznawanie zagrożeń (24.10.2026)
+
+- Rozpoznawaj pełny wzór nalepki: kolor, symbol i numer klasy. Sam płomień lub sama butla nie wystarczają do rozróżnienia klas.
+- Klasa, grupa pakowania i numer UN to różne informacje. Klasa opisuje rodzaj zagrożenia, grupa pakowania — stopień zagrożenia, gdy ma zastosowanie, a numer UN identyfikuje towar.
+- **Błąd do uniknięcia:** nie klasyfikuj rzeczywistego towaru wyłącznie po nazwie handlowej, zapachu lub jednym symbolu; sprawdź dane i właściwy wpis ADR.
+
+Powtórka w banku: ADR-B-0495–0502, 0541–0542.
