@@ -8,19 +8,18 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 2. **ADR specjalistyczny: cysterny — etap kolejny**, po zakończeniu i zatwierdzeniu podstawowego.
 3. Inne specjalizacje poza bieżącym zakresem.
 
-## Stan na 22.10.2026
+## Stan na 24.10.2026 — po etapie 4p
 
-- [x] Utworzono repozytorium i zapisano założenia.
-- [x] Zidentyfikowano oficjalny program kursu: 13 tematów / 18 godzin lekcyjnych teorii plus ćwiczenia praktyczne.
-- [x] Zidentyfikowano zasady państwowego egzaminu podstawowego: 30 pytań, 60 minut, próg 20 poprawnych odpowiedzi.
-- [x] Wstępna mapa punktów ADR 2025 dla 13 tematów (do kontroli pełnego tekstu).
-- [ ] Kompletny przegląd punktów ADR 2025 oraz aktów krajowych dla 13 tematów.
-- [x] Osiem partii autorskich pytań: 39 + 31 + 20 + 32 + 24 + 30 + 20 + 20 = 216 w statusie needs_review. Wszystkie 103 cele teorii mają co najmniej dwa szkice pytań; osobno 3 cele praktyczne.
-- [ ] Autorska baza pytań po weryfikacji merytorycznej.
-- [ ] Egzaminy próbne, ilustracje i pełny Quality Gate.
-- [ ] Kurs specjalistyczny „cysterny”.
+- [x] Bank ADR podstawowy: **566 pytań**; **566 `needs_review` / 0 `verified`**.
+- [x] 103/103 wewnętrznych celów teorii ma pytania robocze; 3/3 cele praktyczne mają scenariusze, ale wykonanie wymaga rzeczywistych zajęć i potwierdzenia instruktora.
+- [x] 13/13 lekcji ma mapę ID pytań i przykłady praktyczne; Quality Gate sprawdza, że wskazane ID istnieją w banku.
+- [x] Dodano egzamin próbny 30-pytaniowy (60 min, próg treningowy 20/30), osobny klucz i generator wariantów proporcjonalnych do 13 działów.
+- [x] Quality Gate sprawdza unikalne ID egzaminu, zgodność klucza i powtarzalność wariantu 001.
+- [x] Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą” wynosi **79/566 = 13,96%**; każdy z 13 działów jest poniżej 18%.
+- [ ] Pełne porównanie polskiego tekstu ADR 2025 i sprostowania oraz niezależna recenzja wszystkich odpowiedzi A/B/C.
+- [ ] Odbiór merytoryczny lekcji przez instruktora i rzeczywiste wykonanie ćwiczeń praktycznych.
 
-**Uwaga:** obecnie w banku jest **216 pytań w statusie needs_review i 0 zatwierdzonych**. 103/103 zagadnień teoretycznych ma co najmniej dwa szkice pytań; wszystkie 13 lekcji to szkice do recenzji. Wynik kontroli źródła przez autora nie zastępuje podpisu niezależnego recenzenta ADR. Nie przedstawiamy pytań autorskich ani z komercyjnych testów jako oficjalnych pytań egzaminacyjnych. Publicznego kompletnego katalogu pytań państwowych nie potwierdzono.
+**Ważne:** egzamin próbny i bank pytań są materiałami autorskimi do treningu wewnętrznego, nie oficjalnymi pytaniami państwowymi. Żaden rekord nie ma statusu `verified`; bramka wydania nadal dopuszcza wyłącznie rekordy z udokumentowaną akceptacją. Kurs cystern pozostaje poza bieżącym zakresem.
 
 ## Jak pracujemy
 
@@ -32,6 +31,9 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 - Zmiany przepisów uruchamiają ponowną weryfikację powiązanych pytań.
 
 ## Dokumentacja
+
+- [Egzamin próbny ADR podstawowy — wariant 001, klucz i generator](podstawowy/egzamin-probny/README.md)
+- [Raport etapu 4p — egzamin, jakość lekcji i wskaźnik długości odpowiedzi](docs/ETAP-4P-EGZAMIN-PRÓBNY-I-AUDYT-LEKCJI.md)
 
 - [Plan i kryteria ukończenia](docs/PLAN.md)
 - [Mapa punktów ADR 2025 do weryfikacji — 13 działów](docs/MAPA-PUNKTOW-ADR-2025.md)
