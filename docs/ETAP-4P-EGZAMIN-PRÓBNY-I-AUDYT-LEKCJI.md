@@ -41,3 +41,7 @@ Pełne literalne porównanie z polskim tekstem ADR 2025 i sprostowaniem oraz nie
 - Szczególnie doprecyzowano B-03 (rozlew i odpady), B-04 (zakaz palenia i postój z nadzorem), B-08 (liczba gaśnic vs. masa oraz świadectwo), B-11 (kod tunelowy i pożar) i B-12 (weryfikacja odbiorcy i tabela towarów dużego ryzyka), bo wcześniejsze sekcje bazowe miały niewiele praktycznych przykładów.
 - Nie zmieniono banku pytań, kluczy ani statusów. Odsyłacze wskazują istniejące rekordy; wszystkie pozostają `needs_review`.
 - To przegląd redakcyjny, nie prawny odbiór eksperta. Niezależny specjalista ADR musi jeszcze sprawdzić wyjątki, podstawy i wszystkie warianty A/B/C; instruktor powinien ocenić zrozumiałość w rzeczywistych zajęciach.
+
+## Partia 3 — integralność odsyłaczy w lekcjach
+
+Dodano automatyczny test dla wszystkich 13 plików lekcji: każdy musi mieć mapę pytań, zawierać co najmniej jedno ID, a każde jawnie zapisane ID musi istnieć w aktualnym `podstawowy/questions.jsonl`. Test nie poświadcza poprawności prawnej ani tego, że samo odsyłanie do pytania oznacza pełne pokrycie celu.
