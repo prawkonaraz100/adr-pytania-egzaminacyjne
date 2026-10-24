@@ -16,9 +16,9 @@
       "exact_record_snapshot": {
         "stem": "Po załadunku opakowań ADR do kontenera stwierdzono, że wymagane nalepki dużego formatu są nieczytelne. Co należy zrobić przed rozpoczęciem przewozu?",
         "options": {
-          "A": "Rozpocząć przewóz, bo wystarczy oznakowanie na samych opakowaniach",
+          "A": "Rozpocząć przewóz, bo wystarczy oznakowanie na samych opakowaniach i dokumenty w kabinie",
           "B": "Uzupełnić lub wymienić wymagane oznakowanie kontenera tak, aby było czytelne",
-          "C": "Zastąpić nalepki dużego formatu kartką z numerem UN"
+          "C": "Zastąpić nalepki dużego formatu kartką z numerem UN oraz nazwą towaru"
         },
         "correct_option": "B",
         "explanation": "Kontener musi mieć wymagane oznakowanie dużego formatu w stanie czytelnym, aby zagrożenie można było rozpoznać z zewnątrz. Nalepki na pojedynczych opakowaniach nie zastępują oznakowania wymaganego na kontenerze, a zwykła kartka z numerem UN nie jest nalepką ADR. Przed wyjazdem trzeba usunąć niezgodność. Podstawa: ADR 5.3.1.1 i 5.3.1.2.",
@@ -57,9 +57,9 @@
       "exact_record_snapshot": {
         "stem": "Kontener zawiera towary niebezpieczne należące do więcej niż jednej klasy. Jak ustalić, jakie nalepki dużego formatu są wymagane na zewnątrz?",
         "options": {
-          "A": "Sprawdzić wymagania ADR dla przewożonych towarów i zastosować wszystkie wymagane nalepki w odpowiednich miejscach",
-          "B": "Zawsze umieścić tylko nalepkę klasy o najwyższym numerze",
-          "C": "Umieścić dowolną jedną nalepkę, jeśli na drzwiach znajduje się numer UN"
+          "A": "Sprawdzić wymagania ADR i umieścić komplet wymaganych nalepek we właściwych miejscach",
+          "B": "Zawsze umieścić tylko nalepkę klasy o najwyższym numerze, bez sprawdzania pozostałych klas",
+          "C": "Umieścić dowolną jedną nalepkę, jeśli na drzwiach znajduje się numer UN i dokumenty są dostępne"
         },
         "correct_option": "A",
         "explanation": "Oznakowanie kontenera dobiera się na podstawie rzeczywiście przewożonych towarów i odpowiednich reguł ADR, a nie według najwyższego numeru klasy. Jedna przypadkowa nalepka ani sam numer UN nie pokazują wszystkich wymaganych rodzajów zagrożenia. Przed odjazdem trzeba sprawdzić, czy kontener ma komplet wymaganych nalepek. Podstawa: ADR 5.3.1.1–5.3.1.4.",
@@ -98,9 +98,9 @@
       "exact_record_snapshot": {
         "stem": "Po rozładunku kontenera usunięto część towaru, ale pozostały niebezpieczne pozostałości. Czy można od razu usunąć nalepki dużego formatu?",
         "options": {
-          "A": "Tak, po zdjęciu większości opakowań nalepki zawsze stają się zbędne",
-          "B": "Tak, jeśli kierowca podpisał dokument rozładunku",
-          "C": "Nie; oznakowanie pozostaje wymagane, dopóki nie zostaną spełnione warunki jego usunięcia, w tym odpowiednie oczyszczenie"
+          "A": "Tak, po zdjęciu większości opakowań nalepki zawsze stają się zbędne, nawet jeśli pozostały resztki towaru",
+          "B": "Tak, jeśli kierowca podpisał dokument rozładunku i potwierdził odbiór części ładunku",
+          "C": "Nie; pozostawić oznakowanie do spełnienia warunków ADR, w tym oczyszczenia"
         },
         "correct_option": "C",
         "explanation": "Pozostałości towaru niebezpiecznego mogą nadal stwarzać zagrożenie, dlatego samo częściowe opróżnienie nie uprawnia do zdjęcia oznakowania. Podpis na dokumencie rozładunku również nie potwierdza, że zagrożenie zniknęło. Oznakowanie usuwa się dopiero wtedy, gdy spełnione są warunki ADR dotyczące opróżnienia i oczyszczenia. Podstawa: ADR 5.3.1.1.5.",
@@ -139,9 +139,9 @@
       "exact_record_snapshot": {
         "stem": "Ktoś proponuje namalować wymagany znak na kontenerze w kolorze i kształcie dowolnie dobranym przez firmę. Czy taki znak zastąpi nalepkę dużego formatu ADR?",
         "options": {
-          "A": "Tak, jeśli firma doda obok nazwę towaru",
+          "A": "Tak, jeśli firma doda obok nazwę towaru i numer UN, aby wyjaśnić znaczenie znaku",
           "B": "Nie; oznakowanie musi odpowiadać wymaganiom ADR dotyczącym wzoru i czytelności",
-          "C": "Tak, jeśli znak jest większy od wymaganej nalepki"
+          "C": "Tak, jeśli znak jest większy od wymaganej nalepki i dobrze widoczny z drogi"
         },
         "correct_option": "B",
         "explanation": "Nalepki dużego formatu muszą spełniać wymagania ADR dotyczące wzoru, wyglądu i czytelności. Dowolny rysunek firmowy nie staje się prawidłową nalepką tylko dlatego, że zawiera nazwę towaru albo jest duży. Przed przewozem należy użyć właściwego oznakowania przewidzianego dla danego zagrożenia. Podstawa: ADR 5.3.1.7.",
@@ -181,8 +181,8 @@
         "stem": "Na pojeździe przewożącym towary niebezpieczne w kontenerze nalepki dużego formatu są zasłonięte przez inne ładunki. Jak powinien postąpić załadowca lub przewoźnik przed wyjazdem?",
         "options": {
           "A": "Usunąć przeszkodę albo poprawić rozmieszczenie, aby wymagane oznakowanie było widoczne",
-          "B": "Pozostawić je zasłonięte, ponieważ służby mogą odczytać dokument przewozowy",
-          "C": "Dodać numer telefonu kierowcy zamiast odsłaniać nalepki"
+          "B": "Pozostawić je zasłonięte, ponieważ służby mogą odczytać dokument przewozowy i ustalić zagrożenie z jego treści",
+          "C": "Dodać numer telefonu kierowcy oraz nazwę firmy zamiast odsłaniać wymagane nalepki"
         },
         "correct_option": "A",
         "explanation": "Wymagane oznakowanie musi być widoczne i czytelne z zewnątrz, aby służby i inni uczestnicy mogli rozpoznać zagrożenie. Dokument przewozowy nie zastępuje nalepek, a numer telefonu nie przekazuje informacji o klasie zagrożenia. Przed ruszeniem należy odsłonić oznakowanie i sprawdzić jego stan. Podstawa: ADR 5.3.1.1 i 5.3.1.7.",
@@ -221,8 +221,8 @@
       "exact_record_snapshot": {
         "stem": "Przewóz wymaga pojazdu, dla którego ADR przewiduje świadectwo dopuszczenia. Kierowca nie ma dokumentu przy sobie, choć firma twierdzi, że pojazd przeszedł badanie. Co powinien zrobić?",
         "options": {
-          "A": "Wyjechać, bo wystarczy ustne zapewnienie firmy",
-          "B": "Zastąpić świadectwo dowodem rejestracyjnym",
+          "A": "Wyjechać, bo wystarczy ustne zapewnienie firmy i późniejsze dosłanie kopii dokumentu",
+          "B": "Zastąpić świadectwo dowodem rejestracyjnym oraz informacją od właściciela pojazdu",
           "C": "Nie rozpoczynać przewozu, dopóki wymagane świadectwo nie będzie dostępne i ważne"
         },
         "correct_option": "C",
@@ -262,9 +262,9 @@
       "exact_record_snapshot": {
         "stem": "Czy każdy samochód przewożący dowolną ilość towarów niebezpiecznych musi automatycznie posiadać świadectwo dopuszczenia pojazdu ADR?",
         "options": {
-          "A": "Tak, niezależnie od rodzaju pojazdu i sposobu przewozu",
+          "A": "Tak, niezależnie od rodzaju pojazdu, sposobu przewozu i zastosowania ewentualnych wyłączeń",
           "B": "Nie; obowiązek zależy od rodzaju pojazdu i właściwych wymagań ADR",
-          "C": "Nie, świadectwo nigdy nie jest wymagane w przewozie drogowym"
+          "C": "Nie, świadectwo nigdy nie jest wymagane w przewozie drogowym, nawet dla pojazdów specjalnych"
         },
         "correct_option": "B",
         "explanation": "Świadectwo dopuszczenia nie jest automatycznie wymagane dla każdego pojazdu tylko dlatego, że przewozi on towar niebezpieczny. Trzeba sprawdzić, czy dany rodzaj pojazdu i przewozu podlega wymaganiom rozdziału 9.1. Nie można jednak przyjąć również, że świadectwo nigdy nie jest potrzebne. Podstawa: ADR 9.1.3.1.",
@@ -345,8 +345,8 @@
         "stem": "Przed załadunkiem kierowca widzi, że podłoga pojazdu jest zabrudzona pozostałościami poprzedniego ładunku, które mogą reagować z nowym towarem ADR. Co powinien zrobić?",
         "options": {
           "A": "Zażądać oczyszczenia i usunięcia niezgodności przed załadunkiem",
-          "B": "Załadować towar, jeśli opakowania są zamknięte",
-          "C": "Przykryć zabrudzenia kartonem i rozpocząć przewóz"
+          "B": "Załadować towar, jeśli opakowania są zamknięte i kierowca nie zauważył wycieku",
+          "C": "Przykryć zabrudzenia kartonem i rozpocząć przewóz bez dodatkowej kontroli podłogi"
         },
         "correct_option": "A",
         "explanation": "Przed załadunkiem trzeba sprawdzić, czy pojazd i jego przestrzeń ładunkowa nadają się do bezpiecznego przewozu. Pozostałości mogą wejść w reakcję z nowym towarem lub uszkodzić opakowania, więc należy je usunąć przed załadunkiem. Zamknięte opakowania ani przykrycie zabrudzeń nie usuwają zagrożenia. Podstawa: ADR 7.5.1.2.",
@@ -385,9 +385,9 @@
       "exact_record_snapshot": {
         "stem": "Podczas kontroli przed załadunkiem stwierdzono, że opakowanie jednej sztuki przesyłki jest uszkodzone i może przeciekać. Co należy zrobić?",
         "options": {
-          "A": "Załadować je na końcu, aby łatwiej je obserwować",
-          "B": "Nie ładować uszkodzonej przesyłki do czasu usunięcia niezgodności i zapewnienia bezpiecznego opakowania",
-          "C": "Owinąć ją zwykłą folią bez sprawdzenia zgodności opakowania"
+          "A": "Załadować je na końcu, aby łatwiej je obserwować podczas całej trasy i w razie potrzeby reagować",
+          "B": "Nie ładować uszkodzonej przesyłki do czasu naprawy lub wymiany opakowania",
+          "C": "Owinąć ją zwykłą folią bez sprawdzenia zgodności opakowania i bez potwierdzenia szczelności"
         },
         "correct_option": "B",
         "explanation": "Uszkodzona sztuka przesyłki, z której może wydostać się towar niebezpieczny, nie powinna zostać załadowana w takim stanie. Załadunek na końcu ani zwykła folia nie gwarantują szczelności i zgodności opakowania. Nadawca lub odpowiedzialny uczestnik powinien usunąć niezgodność przed przewozem. Podstawa: ADR 7.5.1.2.",
@@ -426,9 +426,9 @@
       "exact_record_snapshot": {
         "stem": "W dokumentach towar ma kod dopuszczający przewóz luzem, ale dostępny pojazd nie spełnia wymagań dla tego rodzaju przewozu. Czy można załadować towar luzem?",
         "options": {
-          "A": "Tak, ponieważ sam kod towaru wystarcza",
-          "B": "Tak, jeśli kierowca jedzie krótką trasą",
-          "C": "Nie; muszą być spełnione zarówno warunki dotyczące towaru, jak i wymagania dla pojazdu oraz sposobu przewozu"
+          "A": "Tak, ponieważ sam kod towaru wystarcza, nawet gdy pojazd nie spełnia wymagań technicznych",
+          "B": "Tak, jeśli kierowca jedzie krótką trasą i może zatrzymać się przy pierwszej oznace problemu",
+          "C": "Nie; muszą być spełnione warunki dla towaru, pojazdu i sposobu przewozu"
         },
         "correct_option": "C",
         "explanation": "Kod dopuszczający przewóz luzem nie oznacza, że można użyć dowolnego pojazdu. Trzeba spełnić warunki ADR dotyczące konkretnego towaru, konstrukcji i wyposażenia pojazdu oraz sposobu przewozu. Krótka trasa nie zwalnia z tych wymagań, więc należy wybrać właściwy pojazd albo inny dopuszczony sposób przewozu. Podstawa: ADR 7.3.1.1 i 7.3.2.",
@@ -468,8 +468,8 @@
         "stem": "Przygotowano ładunek do przewozu luzem, lecz nie sprawdzono, czy tabela A ADR dopuszcza taki sposób przewozu dla danego numeru UN. Co należy zrobić?",
         "options": {
           "A": "Sprawdzić wpis towaru i warunki przewozu luzem w ADR przed załadunkiem",
-          "B": "Przyjąć, że każdy towar stały można przewozić luzem",
-          "C": "Rozstrzygnąć wyłącznie na podstawie zgody odbiorcy"
+          "B": "Przyjąć, że każdy towar stały można przewozić luzem, jeśli jego opakowania są niewygodne do transportu",
+          "C": "Rozstrzygnąć wyłącznie na podstawie zgody odbiorcy oraz ustaleń handlowych między stronami"
         },
         "correct_option": "A",
         "explanation": "Przewóz luzem jest dozwolony tylko dla towarów i w warunkach przewidzianych przez ADR. Przed załadunkiem należy sprawdzić wpis towaru i odpowiednie wymagania, w tym właściwe kody i warunki. Stan skupienia ani zgoda odbiorcy nie stanowią samodzielnej podstawy prawnej do przewozu luzem. Podstawa: ADR 3.2.1, tabela A, kolumna 17 oraz 7.3.",
@@ -508,9 +508,9 @@
       "exact_record_snapshot": {
         "stem": "Po załadunku luzem kierowca zauważa, że zamknięcia przestrzeni ładunkowej nie zabezpieczają przed wysypaniem towaru. Co powinien zrobić przed odjazdem?",
         "options": {
-          "A": "Odjechać powoli, aby ograniczyć wysypywanie",
+          "A": "Odjechać powoli, aby ograniczyć wysypywanie i kontrolować ładunek przez pierwsze kilometry trasy",
           "B": "Wstrzymać wyjazd i doprowadzić zabezpieczenia do stanu odpowiedniego dla przewozu",
-          "C": "Poprosić inny pojazd, by jechał za nim i obserwował ładunek"
+          "C": "Poprosić inny pojazd, by jechał za nim i obserwował ładunek oraz ostrzegł o ewentualnym wysypaniu"
         },
         "correct_option": "B",
         "explanation": "Przed odjazdem ładunek luzem i jego przestrzeń przewozowa muszą być zabezpieczone zgodnie z wymaganiami właściwymi dla danego przewozu. Wolna jazda ani obserwacja przez inny pojazd nie zapobiegają wysypaniu i nie usuwają niezgodności. Trzeba poprawić zamknięcia i sprawdzić zabezpieczenie przed rozpoczęciem trasy. Podstawa: ADR 7.3.3 oraz 7.5.7.1, odpowiednio do zastosowanego sposobu przewozu.",
@@ -549,8 +549,8 @@
       "exact_record_snapshot": {
         "stem": "Załadowca proponuje przewóz luzem, ponieważ pozwoli to zaoszczędzić czas, ale wpis ADR dla towaru nie przewiduje takiego sposobu przewozu. Czy można przyjąć tę propozycję?",
         "options": {
-          "A": "Tak, jeśli przewoźnik wyrazi zgodę na piśmie",
-          "B": "Tak, jeśli ładunek jest niewielki",
+          "A": "Tak, jeśli przewoźnik wyrazi zgodę na piśmie i przyjmie odpowiedzialność za wybrany sposób przewozu",
+          "B": "Tak, jeśli ładunek jest niewielki i obie strony uznają ryzyko za akceptowalne",
           "C": "Nie; wygoda i zgoda stron nie zastępują dopuszczenia przewozu luzem w ADR"
         },
         "correct_option": "C",
@@ -590,9 +590,9 @@
       "exact_record_snapshot": {
         "stem": "Przed załadunkiem pojazdu ADR kontrolujący stwierdza, że wyposażenie lub stan pojazdu nie pozwalają bezpiecznie wykonać przewozu. Co jest właściwym postępowaniem?",
         "options": {
-          "A": "Rozpocząć załadunek, a usterkę odnotować po dostawie",
+          "A": "Rozpocząć załadunek, a usterkę odnotować po dostawie i przekazać informację do działu technicznego",
           "B": "Wstrzymać załadunek do czasu usunięcia niezgodności i potwierdzenia, że przewóz może być bezpieczny",
-          "C": "Załadować tylko część towaru bez sprawdzenia, czy problem nadal występuje"
+          "C": "Załadować tylko część towaru bez sprawdzenia, czy problem nadal występuje i czy pojazd jest bezpieczny"
         },
         "correct_option": "B",
         "explanation": "Jeżeli stan pojazdu lub jego wyposażenia może zagrażać bezpieczeństwu, nie należy rozpoczynać załadunku i przewozu, dopóki niezgodność nie zostanie usunięta. Zapisanie usterki po dostawie ani zmniejszenie ilości bez ponownej oceny nie rozwiązuje problemu. Najpierw trzeba zapewnić zgodność i bezpieczeństwo, a dopiero potem kontynuować czynności. Podstawa: ADR 7.5.1.2.",
