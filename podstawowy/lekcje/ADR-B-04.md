@@ -1,5 +1,9 @@
 # ADR-B-04 — Zapobieganie wypadkom i bezpieczny postój
 
+## Po co to jest?
+
+Wiele zdarzeń można powstrzymać, zanim pojazd ruszy: trzeba sprawdzić warunki załadunku, unikać źródeł zapłonu i wybrać dozwolone miejsce postoju. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych. W tej lekcji ważne są trzy różne sytuacje: palenie przy czynnościach ładunkowych, praca silnika oraz otwieranie opakowania — nie obowiązuje tu jedna wspólna reguła ani jeden wyjątek. Przykład: gdy operator prosi, by zostawić silnik włączony tylko dla wygody, sprawdź, czy silnik jest rzeczywiście potrzebny do obsługi urządzenia i czy przepis dopuszcza taki przypadek.
+
 > **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
 
 ## Jak korzystać z tej lekcji
@@ -150,3 +154,10 @@ Powtórka w banku: ADR-B-0279–0280, 0310, 0347, 0351.
 To przykłady z pytań roboczych `needs_review`, a nie niezależna recenzja prawna.
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
+
+## Co musisz zapamiętać
+
+- Zakaz palenia, zasada dotycząca silnika i zakaz otwierania przesyłek dotyczą różnych czynności — sprawdzaj właściwy przepis.
+- Przy rozlewie unikaj kontaktu i oparów; nie podejmuj działań, których nie możesz wykonać bezpiecznie.
+- Gdy ADR nakłada warunki nadzorowania postoju, stosuj określoną kolejność miejsc, a nie dowolny parking.
+- Podstawy do dalszej nauki: ADR 8.3.3, 8.3.5–8.3.7, 8.4 i właściwe przepisy szczególne.
