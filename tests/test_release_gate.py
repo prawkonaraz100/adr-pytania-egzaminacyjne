@@ -16,7 +16,7 @@ def fixture_record(i):
         "stem": f"Przykładowe pytanie testowe dla rekordu {i} na potrzeby testu bramki?",
         "options": {"A": "Wariant o poprawnym opisie działania", "B": "Wariant alternatywny, ale błędny", "C": "Trzecia niepoprawna czynność"},
         "correct_option": "A",
-        "explanation": "To wyłącznie sztuczny rekord używany do testowania mechaniki eksportu.",
+        "explanation": ("To wyłącznie sztuczny rekord testowy, który nie stanowi porady ani weryfikacji prawnej ADR. " * 3).strip(),
         "sources": [{"code": "TEST", "reference": "1.1.1 (synthetic)", "url": "https://example.org/mock"}],
         "legal_basis_version": "TEST-ONLY",
         "verification_status": "verified",
