@@ -15,7 +15,7 @@ def question():
         "stem": "Która odpowiedź jest prawidłowa?",
         "options": {"A": "Wariant pierwszy", "B": "Wariant drugi", "C": "Wariant trzeci"},
         "correct_option": "A",
-        "explanation": "To testowy opis wyjaśnienia, a nie rzeczywista odpowiedź ADR.",
+        "explanation": ("To testowy opis wyjaśnienia, a nie rzeczywista odpowiedź ADR. " * 4).strip(),
         "sources": [{
             "code": "PL-EGZAMINY",
             "reference": "§ 9 ust. 1",
@@ -32,6 +32,11 @@ def question():
 class ValidatorTests(unittest.TestCase):
     def test_valid_draft_passes(self):
         self.assertEqual(validate_record(question()), [])
+
+    def test_short_explanation_fails(self):
+        q = question()
+        q["explanation"] = "Za krótkie wyjaśnienie."
+        self.assertTrue(any("200 znaków" in x for x in validate_record(q)))
 
     def test_wrong_number_of_choices_fails(self):
         q = question()
