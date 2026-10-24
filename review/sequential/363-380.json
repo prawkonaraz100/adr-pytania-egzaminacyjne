@@ -555,9 +555,9 @@
       "exact_record_snapshot": {
         "stem": "Kierowca przewozu ADR nie zna sposobu używania wymaganej gaśnicy. Co mówi 8.3.2?",
         "options": {
-          "A": "Załoga ma wiedzieć, jak używać sprzętu gaśniczego",
-          "B": "Nie trzeba tego umieć",
-          "C": "Gaśnicy wolno używać wyłącznie po dostawie"
+          "A": "Załoga musi umieć używać gaśnicy",
+          "B": "Nie trzeba znać obsługi gaśnicy przed rozpoczęciem przewozu",
+          "C": "Gaśnicy wolno używać wyłącznie po dostawie towaru"
         },
         "correct_option": "A",
         "explanation": "Każdy członek załogi powinien wiedzieć, jak prawidłowo używać wymaganego wyposażenia gaśniczego. Sam fakt, że gaśnica znajduje się w pojeździe, nie wystarcza, jeśli nikt nie umie jej obsłużyć. Umiejętność ta nie oznacza jednak obowiązku gaszenia każdego pożaru, niezależnie od zagrożenia. Podstawa: ADR 8.3.2.",
@@ -596,9 +596,9 @@
       "exact_record_snapshot": {
         "stem": "Odbiorca zauważył, że rozładunek powinien poprzedzać wymagane usunięcie zagrożenia. Czy może pominąć obowiązki rozładunkowe wynikające z ADR?",
         "options": {
-          "A": "Tak, bo jest odbiorcą",
-          "B": "Nie, odbiorca podlega obowiązkom dotyczącym odbioru i dalszych czynności",
-          "C": "Tak, jeżeli przyjął dokument"
+          "A": "Tak, samo przyjęcie roli odbiorcy zwalnia z pozostałych obowiązków",
+          "B": "Nie; odbiorca ma obowiązki przy odbiorze i dalszych czynnościach",
+          "C": "Tak, podpisanie dokumentu pozwala pominąć dalsze czynności"
         },
         "correct_option": "B",
         "explanation": "Odbiorca również ma obowiązki ADR związane z przyjęciem towaru i czynnościami po rozładunku. Nie może uznać, że samo przyjęcie dokumentu zwalnia go z dalszych działań. Należy wykonać wymagane kontrole i postąpić z pozostałościami oraz oznakowaniem zgodnie z przepisami. Podstawa: ADR 1.4.2.3.1–1.4.2.3.2.",
@@ -637,9 +637,9 @@
       "exact_record_snapshot": {
         "stem": "Załadowca umieszcza towar ADR w kontenerze, po czym kontener wymaga oznakowania. Kto ma dopełnić wymogów oznakowania po załadunku?",
         "options": {
-          "A": "Załadowca w zakresie przewidzianym 1.4.3.1",
-          "B": "Wyłącznie kierowca pojazdu osobowego",
-          "C": "Dowolna osoba na parkingu"
+          "A": "Załadowca odpowiada za wymagane oznakowanie",
+          "B": "Wyłącznie kierowca pojazdu osobowego, nawet bez udziału w załadunku",
+          "C": "Dowolna osoba na parkingu, bez uzgodnienia z załadowcą"
         },
         "correct_option": "A",
         "explanation": "Załadowca odpowiada za określone czynności związane z umieszczeniem wymaganych oznaczeń na kontenerze po załadunku. Nie można przerzucić tego obowiązku na przypadkową osobę ani na kierowcę pojazdu niezwiązanego z przewozem. Oznaczenia muszą odpowiadać rzeczywistemu ładunkowi i wymaganiom ADR. Podstawa: ADR 1.4.3.1.1(c).",
@@ -678,9 +678,9 @@
       "exact_record_snapshot": {
         "stem": "Przewoźnik kontroluje masę i załadunek pojazdu ADR. Czy jego obowiązki obejmują sprawdzenie, czy pojazd nie jest przeciążony?",
         "options": {
-          "A": "Tak, sprawdza dopuszczalną masę i załadunek w przewidzianym zakresie",
-          "B": "Nie, masa nie ma znaczenia",
-          "C": "Wyłącznie jeśli jest to pojazd elektryczny"
+          "A": "Tak, sprawdza masę i załadunek w swoim zakresie",
+          "B": "Nie, masa pojazdu nie ma znaczenia, jeśli ładunek jest zabezpieczony",
+          "C": "Tylko gdy chodzi o pojazd elektryczny i jego baterie trakcyjne"
         },
         "correct_option": "A",
         "explanation": "Przewoźnik ma obowiązek sprawdzić, czy jednostka transportowa nie jest przeciążona, w zakresie przewidzianym przez ADR. Masa ładunku ma znaczenie dla bezpieczeństwa i zgodności z dopuszczalnymi wartościami; nie dotyczy to wyłącznie pojazdów elektrycznych. Nie wolno zakładać, że załadunek zawsze został poprawnie obliczony przez inną osobę. Podstawa: ADR 1.4.2.2.1(e).",
