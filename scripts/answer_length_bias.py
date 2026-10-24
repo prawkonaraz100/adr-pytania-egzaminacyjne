@@ -33,7 +33,8 @@ def main(argv=None):
     p=argparse.ArgumentParser()
     p.add_argument("--questions",type=Path,default=ROOT/"podstawowy/questions.jsonl")
     p.add_argument("--threshold",type=float,default=.40)
-    p.add_argument("--strict",action="store_true",help="Fail CI if the target is exceeded; opt-in after remediation")
+    p.add_argument("--strict",action="store_true",help="Fail if the global target or any module target is exceeded")
+    p.add_argument("--strict-global",action="store_true",help="Fail only if the global strictly-longest rate exceeds the threshold")
     a=p.parse_args(argv)
     rows=[json.loads(line) for line in a.questions.read_text(encoding="utf8").splitlines() if line.strip()]
     groups,num,den,over,modules=check(rows,a.threshold)
@@ -45,6 +46,9 @@ def main(argv=None):
         if modules: print("  Modules:",", ".join(modules))
     if a.strict and (over or modules):
         print("FAIL: --strict requires both global and all 13 modules within threshold")
+        return 1
+    if a.strict_global and over:
+        print("FAIL: --strict-global requires the global strictly-longest rate to be within threshold")
         return 1
     return 0
 
