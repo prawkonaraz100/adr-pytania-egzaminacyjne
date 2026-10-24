@@ -66,3 +66,75 @@ Po zmianach poprawna odpowiedź jest jedyną ściśle najdłuższą opcją w **7
 ## Ograniczenia
 
 To próbkowy przegląd redakcyjny, nie ekspertyza prawna. Nie potwierdza prawidłowości wszystkich przepisów ani wszystkich kluczy. Status całego banku pozostaje `needs_review` (566), `verified` (0). Przed publikacją potrzebna jest niezależna recenzja specjalisty ADR oraz porównanie z polskim tekstem urzędowym i sprostowaniem.
+
+### Wynik indywidualny dla 65 wyjaśnień
+
+| ID | Ocena po przeczytaniu |
+|---|---|
+| ADR-B-0522 | POPRAWIONO — uproszczono opis trasy ciężarówką i statkiem |
+| ADR-B-0148 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0513 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0093 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0301 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0317 | POPRAWIONO — wyjaśniono pojęcie substancji promieniotwórczych i progów |
+| ADR-B-0128 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0497 | POPRAWIONO — zastąpiono „inicjację” prostym opisem doprowadzenia do wybuchu |
+| ADR-B-0510 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0267 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0326 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0178 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0329 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0343 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0045 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0131 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0350 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0164 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0351 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0474 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0112 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0108 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0186 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0015 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0222 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0190 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0258 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0562 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0016 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0547 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0368 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0379 | POPRAWIONO — doprecyzowano praktyczny sens kontroli masy |
+| ADR-B-0371 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0481 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0378 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0056 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0022 | POPRAWIONO — rozwinięto skrót DMC |
+| ADR-B-0282 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0251 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0283 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0292 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0201 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0236 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0172 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0238 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0454 | POPRAWIONO — objaśniono butle DOT i rozróżnienie importu/eksportu |
+| ADR-B-0392 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0389 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0203 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0442 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0264 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0263 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0489 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0322 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0432 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0035 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0407 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0304 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0456 | POPRAWIONO — wyjaśniono „sztuki przesyłek” jako osobne opakowania |
+| ADR-B-0413 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0215 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0227 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0523 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0287 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+| ADR-B-0538 | PASS — wyjaśnienie podaje sens poprawnej opcji, odnosi się do błędnych odpowiedzi i kończy wskazaniem podstawy ADR; bez zauważonego szablonu językowego. |
+
+„PASS” oznacza wyłącznie ocenę redakcyjną w próbce, nie potwierdzenie zgodności prawnej. W siedmiu wskazanych rekordach problemem była przystępność słownictwa, nie wykryta sprzeczność merytoryczna.
