@@ -11,7 +11,7 @@ class LearnerReviewSampleTests(unittest.TestCase):
         bank = [json.loads(line) for line in (ROOT / "podstawowy" / "questions.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
         by_id = {q["id"]: q for q in bank}
         self.assertEqual(manifest["bank_count"], len(bank))
-        self.assertEqual(manifest["selection"]["seed"], manifest["seed"])
+        self.assertEqual(manifest["seed"], 202610250050)
         self.assertEqual(manifest["selection"]["per_module"], 5)
         self.assertEqual(manifest["selection"]["total"], 65)
         self.assertEqual(len(manifest["question_ids_by_module"]), 13)
