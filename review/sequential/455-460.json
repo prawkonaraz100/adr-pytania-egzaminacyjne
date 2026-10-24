@@ -22,9 +22,9 @@
       "exact_record_snapshot": {
         "stem": "Dla towarów niebezpiecznych innych niż klasa 7, gdzie ADR określa wykaz i progi uznania za towary dużego ryzyka?",
         "options": {
-          "A": "W tabeli 1.10.3.1.2",
-          "B": "Wyłącznie w instrukcji pisemnej 5.4.3",
-          "C": "Wyłącznie na dowodzie rejestracyjnym pojazdu"
+          "A": "W tabeli 1.10.3.1.2 ADR, gdzie podano towary dużego ryzyka i ich progi",
+          "B": "Wyłącznie w instrukcji pisemnej kierowcy opisanej w punkcie 5.4.3 ADR",
+          "C": "Wyłącznie w dowodzie rejestracyjnym pojazdu wykorzystywanego do przewozu"
         },
         "correct_option": "A",
         "explanation": "Dla towarów niebezpiecznych innych niż klasa 7 to tabela ADR 1.10.3.1.2 określa, które towary uznaje się za duże ryzyko i jakie ilości mają znaczenie. Instrukcja pisemna ani dowód rejestracyjny nie zastępują tej tabeli. Trzeba odczytać odpowiedni wpis i próg dla konkretnego sposobu przewozu. Podstawa: ADR 1.10.3.1.2.",
@@ -63,9 +63,9 @@
       "exact_record_snapshot": {
         "stem": "W tabeli 1.10.3.1.2 obok zagrożenia podano próg 3000 l dla przewozu w cysternie. Czy taki próg wolno automatycznie zastosować do sztuk przesyłek?",
         "options": {
-          "A": "Tak, w każdym rodzaju przewozu",
-          "B": "Nie, należy odczytać odrębny próg kolumny dla właściwego sposobu przewozu",
-          "C": "Tak, pod warunkiem że kierowca ma zaświadczenie ADR"
+          "A": "Tak; próg 3000 l można stosować do każdego sposobu przewozu bez rozróżnienia",
+          "B": "Nie; trzeba odczytać próg z kolumny odpowiadającej sposobowi przewozu",
+          "C": "Tak; wystarczy, że kierowca posiada ważne zaświadczenie ADR"
         },
         "correct_option": "B",
         "explanation": "Tabela 1.10.3.1.2 rozróżnia sposób przewozu, więc próg podany dla cysterny nie może być automatycznie stosowany do sztuk przesyłek. Należy odczytać kolumnę odpowiadającą rzeczywistemu przewozowi. Zaświadczenie ADR kierowcy nie zmienia progów ani nie zastępuje tej oceny. Podstawa: ADR 1.10.3.1.2 i przypis (c).",
@@ -104,9 +104,9 @@
       "exact_record_snapshot": {
         "stem": "W tabeli 1.10.3.1.2 przy danym zagrożeniu w kolumnie przewozu w sztukach przesyłek podano oznaczenie przypisu b. Co ono oznacza?",
         "options": {
-          "A": "Zawsze próg 1000 kg",
-          "B": "Każdą ilość uznaje się za dużego ryzyka",
-          "C": "Do przewozu w tym sposobie nie stosuje się 1.10.3 bez względu na ilość"
+          "A": "Przypis oznacza stały próg 1000 kg, niezależnie od rodzaju towaru i sposobu przewozu",
+          "B": "Przypis oznacza, że każda ilość staje się towarem dużego ryzyka, bez wyjątków",
+          "C": "Dla wskazanego sposobu przewozu 1.10.3 nie stosuje się niezależnie od ilości"
         },
         "correct_option": "C",
         "explanation": "Przypis b w tabeli 1.10.3.1.2 oznacza, że dla danego rodzaju przewozu wymagania tego punktu nie mają zastosowania, niezależnie od ilości. Nie należy więc automatycznie przyjmować progu 1000 kg ani uznawać każdej ilości za towar dużego ryzyka. Trzeba jednak uwzględnić pozostałe przepisy ADR, które nadal mogą obowiązywać. Podstawa: ADR 1.10.3.1.2, przypis (b).",
@@ -145,9 +145,9 @@
       "exact_record_snapshot": {
         "stem": "W tabeli 1.10.3.1.2 przy rodzaju przewozu wpisano literę a. Jak rozumieć taki zapis?",
         "options": {
-          "A": "Dana kolumna nie ma zastosowania do wskazanego przypadku",
-          "B": "Oznacza obowiązkową nalepkę A",
-          "C": "To próg 100 kilogramów"
+          "A": "Oznacza, że dana kolumna nie ma zastosowania do wskazanego przypadku",
+          "B": "Oznacza obowiązek umieszczenia nalepki z literą A na każdej sztuce przesyłki",
+          "C": "Oznacza próg ilościowy wynoszący dokładnie 100 kilogramów dla danego towaru"
         },
         "correct_option": "A",
         "explanation": "Litera a w tabeli 1.10.3.1.2 wskazuje, że dana kolumna nie ma zastosowania w opisanym przypadku. Nie jest to nalepka ani próg liczbowy, który można dowolnie zinterpretować jako 100 kg. Należy odczytać przypis i stosować go tylko do właściwego sposobu przewozu. Podstawa: ADR 1.10.3.1.2, przypis (a).",
@@ -186,9 +186,9 @@
       "exact_record_snapshot": {
         "stem": "Dla danego towaru w tabeli ochrony 1.10.3.1.2 występuje próg 0 kg dla sztuk przesyłek. Co to oznacza przy przewozie dodatniej ilości objętej tym przepisem?",
         "options": {
-          "A": "Wystarczy wybrać dowolną wielkość ładunku bez oceny ochrony",
-          "B": "Próg ilościowy jest przekroczony, z uwzględnieniem pozostałych warunków stosowania ADR",
-          "C": "Wymagania stosuje się tylko przy co najmniej 3000 kilogramów"
+          "A": "Można przewieźć dowolną ilość, nie sprawdzając wymagań ochrony ani tabeli ADR",
+          "B": "Próg jest przekroczony dla dodatniej ilości, z uwzględnieniem warunków ADR",
+          "C": "Wymagania ochronne stosuje się dopiero od 3000 kg przewożonego materiału"
         },
         "correct_option": "B",
         "explanation": "Jeśli w tabeli dla danego rodzaju przewozu podano próg 0 kg, każda dodatnia ilość objęta zakresem przepisu przekracza ten próg. Nie oznacza to jednak pominięcia wszystkich pozostałych warunków i wyłączeń rozdziału 1.10. Trzeba sprawdzić klasyfikację towaru oraz konkretną kolumnę tabeli. Podstawa: ADR 1.10.3.1.2.",
@@ -227,9 +227,9 @@
       "exact_record_snapshot": {
         "stem": "Czy fakt, że materiał jest w klasie 3, automatycznie oznacza zaliczenie do towarów niebezpiecznych dużego ryzyka we wszystkich przewozach?",
         "options": {
-          "A": "Tak, wszystkie ciecze palne w każdej ilości",
-          "B": "Tak, ponieważ klasa 3 nie ma wyjątków",
-          "C": "Nie, trzeba sprawdzić grupę pakowania, sposób przewozu i progi tabeli 1.10.3.1.2"
+          "A": "Tak; każda ciecz klasy 3 zawsze jest towarem dużego ryzyka, niezależnie od ilości",
+          "B": "Tak; klasyfikacja do klasy 3 oznacza, że nie przewidziano żadnych wyjątków",
+          "C": "Nie; trzeba uwzględnić grupę pakowania, sposób przewozu i próg tabeli"
         },
         "correct_option": "C",
         "explanation": "Sama klasa 3 nie oznacza automatycznie, że każdy przewóz jest przewozem towarów dużego ryzyka. Trzeba sprawdzić właściwą grupę pakowania, sposób przewozu oraz próg z tabeli ADR 1.10.3.1.2. Różne ilości i sposoby przewozu mogą podlegać różnym wymaganiom ochronnym. Podstawa: ADR 1.10.3.1.2.",

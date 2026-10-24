@@ -36,9 +36,9 @@
         "module_id": "ADR-B-03",
         "stem": "Pojedyncze opakowanie zawiera 4 litry cieczy spełniającej kryteria zagrożenia dla środowiska wodnego. Kiedy może działać wyjątek od znaku środowiskowego?",
         "options": {
-          "A": "Gdy spełnione są warunki 5.2.1.8.1 dla opakowania do 5 litrów",
-          "B": "Wyjątek obowiązuje dla wszystkich beczek o pojemności do 50 litrów, niezależnie od warunków.",
-          "C": "Wyjątek dotyczy tylko cieczy całkowicie nieobjętych klasyfikacją ADR."
+          "A": "Wyjątek może mieć zastosowanie, gdy spełniono warunki 5.2.1.8.1 dla opakowania do 5 l",
+          "B": "Wyjątek obejmuje wszystkie beczki o pojemności do 50 l, niezależnie od spełnienia warunków przepisu",
+          "C": "Wyjątek dotyczy tylko cieczy, które w ogóle nie podlegają klasyfikacji ADR"
         },
         "correct_option": "A",
         "explanation": "Dla niektórych pojedynczych opakowań z cieczą niebezpieczną dla środowiska ADR przewiduje wyjątek od znaku, jeśli ilość nie przekracza 5 litrów i spełnione są pozostałe warunki. Nie oznacza to ogólnego zwolnienia dla każdej beczki ani dla towarów, które w ogóle nie podlegają ADR. Podstawa: ADR 5.2.1.8.1.",
@@ -83,9 +83,9 @@
         "module_id": "ADR-B-03",
         "stem": "Opakowanie kombinowane ma butelki wewnętrzne z materiałem niebezpiecznym dla środowiska, każda zawiera 6 litrów. Czy sam fakt użycia opakowania kombinowanego uruchamia wyjątek 5.2.1.8.1?",
         "options": {
-          "A": "Tak, bo limit 5 litrów odnosi się wyłącznie do całego opakowania zewnętrznego.",
-          "B": "Tak, pod warunkiem że suma cieczy w opakowaniu kombinowanym nie przekracza 30 litrów.",
-          "C": "Nie, butelka 6 l przekracza limit 5 l z 5.2.1.8.1."
+          "A": "Tak; limit 5 l odnosi się tylko do całego opakowania zewnętrznego",
+          "B": "Tak; wystarczy, że suma cieczy w opakowaniu kombinowanym nie przekracza 30 l",
+          "C": "Nie; pojedyncza butelka 6 l przekracza limit 5 l określony w 5.2.1.8.1"
         },
         "correct_option": "C",
         "explanation": "Limit 5 litrów w tym wyjątku odnosi się do ilości w pojedynczym opakowaniu wewnętrznym lub pojedynczym, zależnie od rodzaju opakowania. Butelka o pojemności 6 litrów przekracza limit, nawet jeśli znajduje się w opakowaniu kombinowanym. Sama suma cieczy w opakowaniu zewnętrznym nie zastępuje sprawdzenia każdego właściwego opakowania. Podstawa: ADR 5.2.1.8.1.",
@@ -130,9 +130,9 @@
         "module_id": "ADR-B-03",
         "stem": "W opakowaniu pojedynczym przewozi się dokładnie 5 kg netto stałego materiału zagrażającego środowisku wodnemu. Jak rozumieć ilościowy warunek wyjątku od znaku?",
         "options": {
-          "A": "Limit wynosi zawsze 5 kilogramów brutto",
-          "B": "Znak jest wymagany bez wyjątku przy dokładnie 5 kilogramach netto",
-          "C": "Dokładnie 5 kg netto mieści się w limicie wskazanym w 5.2.1.8.1."
+          "A": "Limit dotyczy zawsze masy brutto całego opakowania, nie zawartości netto",
+          "B": "Znak jest wymagany bez wyjątku, gdy zawartość wynosi dokładnie 5 kg netto",
+          "C": "Dokładnie 5 kg netto mieści się w limicie wskazanym w 5.2.1.8.1"
         },
         "correct_option": "C",
         "explanation": "Dla stałych materiałów zagrażających środowisku wskazany limit wynosi 5 kg netto, a wartość dokładnie równa limitowi mieści się w sformułowaniu „nie więcej niż”. Nie należy mylić masy netto z brutto ani automatycznie wymagać znaku przy każdej ilości. Pozostałe warunki wyjątku nadal muszą być spełnione. Podstawa: ADR 5.2.1.8.1.",
@@ -177,9 +177,9 @@
         "module_id": "ADR-B-03",
         "stem": "Na sztuce przesyłki wymagany jest znak materiału niebezpiecznego dla środowiska. Gdzie powinien być umieszczony względem oznaczenia numeru UN?",
         "options": {
-          "A": "Wyłącznie na dokumentach kierowcy, zamiast na opakowaniu",
-          "B": "Wyłącznie na wewnętrznej stronie wieka",
-          "C": "W pobliżu oznaczeń wymaganych przez 5.2.1.1"
+          "A": "Znak umieszcza się wyłącznie w dokumentach kierowcy zamiast na sztuce przesyłki",
+          "B": "Znak umieszcza się tylko po wewnętrznej stronie wieka opakowania",
+          "C": "Znak umieszcza się w pobliżu oznaczeń wymaganych przez 5.2.1.1"
         },
         "correct_option": "C",
         "explanation": "Jeśli znak zagrożenia dla środowiska jest wymagany na sztuce przesyłki, należy umieścić go w pobliżu oznaczeń określonych w ADR 5.2.1.1. Znak na dokumencie lub ukryty wewnątrz wieka nie spełnia celu widocznego oznakowania opakowania. Trzeba zachować także wymagania dotyczące czytelności i trwałości. Podstawa: ADR 5.2.1.8.2.",
@@ -224,9 +224,9 @@
         "module_id": "ADR-B-03",
         "stem": "Materiał klasy 3 spełnia także kryteria zagrożenia dla środowiska, a wyjątki 5.2.1.8.1 nie mają zastosowania. Który dodatkowy wpis zwykle należy zamieścić w dokumencie ADR?",
         "options": {
-          "A": "Wyłącznie numer rejestracyjny pojazdu",
-          "B": "ENVIRONMENTALLY HAZARDOUS albo MARINE POLLUTANT/ENVIRONMENTALLY HAZARDOUS",
-          "C": "Tylko znak graficzny ryby bez tekstu"
+          "A": "Wystarczy podać numer rejestracyjny pojazdu, bez żadnego wpisu o zagrożeniu dla środowiska",
+          "B": "Wymagany wpis: ENVIRONMENTALLY HAZARDOUS lub MARINE POLLUTANT/ENVIRONMENTALLY HAZARDOUS",
+          "C": "Wystarczy umieścić sam znak graficzny ryby, bez tekstu w dokumencie przewozowym"
         },
         "correct_option": "B",
         "explanation": "Jeśli towar klasy 1–9 spełnia kryteria zagrożenia dla środowiska wodnego i nie ma zastosowania wyjątek, dokument przewozowy powinien zawierać odpowiednią dodatkową wzmiankę. Sam numer rejestracyjny ani graficzny znak bez tekstu nie zastępują wymaganego wpisu. Trzeba sprawdzić też przewidziane w ADR wyjątki. Podstawa: ADR 5.4.1.1.18.",

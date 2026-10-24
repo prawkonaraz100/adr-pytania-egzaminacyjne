@@ -186,9 +186,9 @@
       "exact_record_snapshot": {
         "stem": "Dla butli DOT przeznaczonej do eksportu w reżimie 1.1.4.7.2 upłynął termin badania okresowego. Czy można ją ponownie napełnić przed badaniem?",
         "options": {
-          "A": "Tak, gdy butla pozostaje pełna",
-          "B": "Nie, po upływie terminu badania okresowego nie wolno jej napełniać",
-          "C": "Tak, jeżeli odbiorca podpisze dokument"
+          "A": "Tak, można napełnić butlę przed badaniem, jeśli pozostaje pełna",
+          "B": "Nie; po upływie terminu badania okresowego butli nie wolno napełniać",
+          "C": "Tak, jeśli odbiorca pisemnie zaakceptuje brak aktualnego badania okresowego butli"
         },
         "correct_option": "B",
         "explanation": "Jeżeli upłynął termin badania okresowego butli DOT objętej tym wyjątkiem, nie wolno jej ponownie napełniać przed wykonaniem wymaganego badania. To, że butla jest pełna lub odbiorca podpisał dokument, nie uchyla tego zakazu. Trzeba odróżnić możliwość przewozu do badania od prawa do dalszego napełniania. Podstawa: ADR 1.1.4.7.2(c).",
@@ -227,9 +227,9 @@
       "exact_record_snapshot": {
         "stem": "Termin badania butli DOT objętej 1.1.4.7.2 upłynął. Czy przepis przewiduje możliwość przewozu jej do wykonania wymaganego badania, także z przejazdami pośrednimi?",
         "options": {
-          "A": "Nie, żadnego przewozu nie można wykonać",
-          "B": "Tak, ale wyłącznie bez dokumentu przewozowego",
-          "C": "Tak, po upływie terminu można ją przewieźć w celu wykonania badania, także w etapach pośrednich"
+          "A": "Nie; po terminie badania nie wolno przewozić butli w żadnym celu",
+          "B": "Tak; można przewieźć ją tylko bez dokumentu przewozowego i bez kontroli",
+          "C": "Tak; można przewieźć ją w celu badania, również przez etapy pośrednie"
         },
         "correct_option": "C",
         "explanation": "ADR odróżnia zakaz napełniania butli po upływie terminu badania od możliwości przewiezienia jej do wykonania wymaganego badania. Taki przewóz może być dopuszczony, również z etapami pośrednimi, jeśli spełniono warunki przepisu. Nie oznacza to, że można napełniać ją ponownie bez kontroli. Podstawa: ADR 1.1.4.7.2(c).",
@@ -268,9 +268,9 @@
       "exact_record_snapshot": {
         "stem": "W łańcuchu importu gazu w butli DOT przewoźnik korzysta z ADR 1.1.4.7.1. Jaką specjalną wzmiankę powinien przewidywać dokument przewozowy?",
         "options": {
-          "A": "Sam numer telefonu kierowcy zamiast dokumentu",
-          "B": "Wyłącznie słowo 'gaz' bez innych danych",
-          "C": "Adnotację o przewozie zgodnym z 1.1.4.7.1 na zasadach 5.4.1.1.24"
+          "A": "Wystarczy numer telefonu kierowcy zamiast danych o przewozie",
+          "B": "W dokumencie wpisuje się jedynie słowo „gaz”, bez dodatkowej wzmianki",
+          "C": "Dodać wzmiankę o przewozie zgodnym z 1.1.4.7.1 według 5.4.1.1.24"
         },
         "correct_option": "C",
         "explanation": "Przy imporcie butli DOT na warunkach ADR 1.1.4.7.1 dokument przewozowy powinien zawierać specjalną wzmiankę wskazującą zastosowany wyjątek. Sam numer telefonu lub ogólne słowo „gaz” nie pozwalają ustalić, na jakiej podstawie odbywa się przewóz. Wpis powinien odpowiadać właściwemu wariantowi przepisu. Podstawa: ADR 5.4.1.1.24.",
@@ -309,9 +309,9 @@
       "exact_record_snapshot": {
         "stem": "W wywozie gazów w butlach DOT korzystającym z ADR 1.1.4.7.2 jaki wariant wpisu z 5.4.1.1.24 jest właściwy?",
         "options": {
-          "A": "Wzmianka dotycząca 1.1.4.7.1 niezależnie od sytuacji",
-          "B": "Brak dodatkowego wpisu, gdy butla ma nalepkę",
-          "C": "Wzmianka o przewozie zgodnym z 1.1.4.7.2"
+          "A": "Wpis dotyczy zawsze 1.1.4.7.1, bez względu na rodzaj operacji",
+          "B": "Nie trzeba wpisu, jeśli butla ma właściwe nalepki i oznakowanie",
+          "C": "W dokumencie umieścić wzmiankę o przewozie zgodnym z 1.1.4.7.2"
         },
         "correct_option": "C",
         "explanation": "Treść wymaganej wzmianki w dokumencie zależy od tego, czy butla DOT jest przewożona w ramach importu według 1.1.4.7.1, czy eksportu według 1.1.4.7.2. Nie należy używać wpisu importowego dla każdego przewozu ani pomijać go dlatego, że butla ma nalepkę. Dokument ma jasno wskazywać zastosowany wariant. Podstawa: ADR 5.4.1.1.24.",
