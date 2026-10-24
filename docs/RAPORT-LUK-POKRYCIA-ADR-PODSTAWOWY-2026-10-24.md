@@ -33,7 +33,7 @@ Sprawdzono świeży `main` `3d9286d2ae1e384ffc6e36cfc12f32af6605f113`, bank pyta
 - B-09-K08: 0554, 0555, 0560.
 - B-09-K09: 0556–0559.
 
-Każdy rekord zawiera trzy opcje, jeden klucz, wyjaśnienie 300–500 znaków, podstawę ADR 2025 i status `needs_review`. Mapa została zaktualizowana wyłącznie przez dopisanie identyfikatorów do odpowiednich kompetencji. `checked_at` i `reviewer` pozostają puste; nie nadano `verified`.
+Każdy rekord zawiera trzy opcje, jeden klucz, wyjaśnienie 300–500 znaków, podstawę ADR 2025 i status `needs_review`. Dodatkowo zbalansowano długości wariantów A/B/C w nowej partii: żaden z 15 kluczy nie jest jedyną ściśle najdłuższą opcją; klucze nie zostały zmienione. Mapa została zaktualizowana wyłącznie przez dopisanie identyfikatorów do odpowiednich kompetencji. `checked_at` i `reviewer` pozostają puste; nie nadano `verified`.
 
 ## Następne kroki
 
