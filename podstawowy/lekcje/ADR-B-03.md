@@ -117,3 +117,22 @@ Dla każdej kompetencji zapis: „rozumie / wymaga wyjaśnienia / nieocenione”
 - **Błąd do uniknięcia:** nie spłukuj nieznanej substancji wodą i nie uznawaj małej ilości za dowód braku zagrożenia. Postępuj według instrukcji i wezwij pomoc, gdy sytuacja tego wymaga.
 
 Powtórka w banku: ADR-B-0241–0246, 0294–0295, 0343.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+
+- ADR-B-0178 — uszkodzone opakowanie
+- ADR-B-0276 — zagrożenie środowiskowe
+- ADR-B-0294–0295 — dokument odpadu i bezpieczna reakcja na rozlew
+- ADR-B-0343 — klasyfikacja odpadu
+
+### Przykłady z pracy kierowcy
+
+**Uszkodzone opakowanie i opary:** nie wchodź w rozlew ani nie próbuj rozpoznawać substancji po zapachu. Oddal się w bezpieczne miejsce, unikaj oparów, ostrzeż innych i postępuj zgodnie z instrukcjami pisemnymi oraz poleceniami służb. Powiązane pytanie: ADR-B-0295 (ADR 5.4.3.4).
+
+**Odpady:** gdy przewozisz odpad niebezpieczny, sam kod odpadu nie zastępuje danych wymaganych w dokumencie ADR. Sprawdź prawidłową nazwę przewozową i inne wymagane informacje. Powiązane pytania: ADR-B-0294 (ADR 5.4.1.1.3.1) i ADR-B-0343 (ADR 2.1.3.5.5).
+
+Te przykłady odzwierciedlają pytania robocze `needs_review`; przed użyciem na kursie wymagają kontroli źródła przez eksperta.
+
+**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
