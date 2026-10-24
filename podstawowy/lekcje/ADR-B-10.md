@@ -1,5 +1,9 @@
 # ADR-B-10 — Transport kombinowany: droga, kolej i morze
 
+## Po co to jest?
+
+Ładunek może podróżować drogą, koleją i morzem, ale zmiana środka transportu nie znosi automatycznie wymagań odcinka drogowego. **ADR** dotyczy przewozu drogowego; **RID** to przepisy dotyczące międzynarodowego przewozu koleją, **IMDG Code** — morski kodeks przewozu towarów niebezpiecznych, a **ICAO** oznacza Międzynarodową Organizację Lotnictwa Cywilnego, której instrukcje obejmują przewóz lotniczy. Przykład: po rejsie morskim sprawdź, czy dokumenty i oznakowanie spełniają warunki dalszej jazdy ciężarówką, zamiast zakładać, że dokument morski załatwia wszystko.
+
 > **Wersja robocza 22.10.2026** — wymaga sprawdzenia przez niezależnego specjalistę ADR. Materiał szkoleniowy, nie oficjalny bank pytań ani potwierdzenie odbycia kursu.
 
 ## Jak korzystać z tej lekcji
@@ -129,3 +133,10 @@ Powtórka w banku: ADR-B-0247, 0277–0278, 0396, 0441.
 Kontener przyjeżdża z portu z dokumentami dla odcinka morskiego. Nie zakładaj, że dokument IMDG sam w sobie znosi wymagania drogowego odcinka ADR. Sprawdź wymagane dokumenty i warunki stosowania ewentualnego wyjątku.
 
 **Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, wszystkie warianty A/B/C i podstawę prawną.
+
+## Co musisz zapamiętać
+
+- Przepisy dla kolei lub morza nie znoszą automatycznie wymagań dla odcinka drogowego.
+- Sprawdź, czy dany wyjątek rzeczywiście ma zastosowanie i czy dokumenty oraz oznakowanie spełniają jego warunki.
+- RID dotyczy kolei, IMDG Code przewozu morskiego, a ICAO jest organizacją lotnictwa cywilnego; nie używaj tych skrótów zamiennie.
+- Podstawy do dalszej nauki: ADR 1.1.4.2 i 5.4.1.
