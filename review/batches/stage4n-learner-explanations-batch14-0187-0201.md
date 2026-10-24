@@ -1,0 +1,3 @@
+# Etap 4n — partia 14, ADR-B-0187–0201
+
+24.10.2026. Fresh main po PR #185: 545 pytań, 545 needs_review, 0 verified. Zredagowano 15 kolejnych explanation, proste wyjaśnienie sensu poprawnej opcji, błędnych dystraktorów i podstawy ADR. Zmieniono wyłącznie explanation, bez kluczy, A/B/C, źródeł i statusów. Audyty sequential oraz legal-clauses w zakresie 181-210 zsynchronizowane. Odbiór ekspercki i potwierdzenie prawne nadal otwarte, żaden rekord nie jest verified. Po scaleniu 201/545 wyjaśnień przeredagowanych w 4n. Etap 4m B12 31/43, globalnie 328/545; strict gate nieaktywny. Tylko kurs podstawowy.
