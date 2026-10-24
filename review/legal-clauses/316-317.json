@@ -59,7 +59,7 @@
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wstępna ocena: Definicja materiału promieniotwórczego odnosi się do radionuklidów oraz przekroczenia odpowiednich wartości zarówno stężenia aktywności, jak i całkowitej aktywności przesyłki. Nie klasyfikuje się ładunku wyłącznie na podstawie wyglądu."
+          "rationale": "Aby ustalić, czy materiał należy do klasy 7, sprawdza się, jakie substancje promieniotwórcze zawiera oraz jak silne jest promieniowanie w określonej ilości materiału i w całej przesyłce. Sama masa opakowania, jego kolor ani nalepka nie wystarczą do klasyfikacji. Wartości trzeba porównać z progami i wyjątkami podanymi w ADR. Podstawa: ADR 2.2.7.1.1 i 2.2.7.2.2.1–2.2.7.2.2.6."
         },
         "C": {
           "expected_correct": false,
@@ -72,8 +72,6 @@
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
-        "id": "ADR-B-0317",
-        "module_id": "ADR-B-02",
         "stem": "Przy rozpoznawaniu materiału promieniotwórczego klasy 7 w ADR, co należy sprawdzić zgodnie z definicją w 2.2.7.1.1?",
         "options": {
           "A": "Sprawdzić masę brutto opakowania, bez oceny aktywności materiału",
@@ -81,7 +79,7 @@
           "C": "Sprawdzić kolor opakowania i jego oznakowanie zewnętrzne"
         },
         "correct_option": "B",
-        "explanation": "Przy klasyfikacji materiału promieniotwórczego sprawdza się radionuklidy oraz wartości stężenia aktywności i całkowitej aktywności przesyłki w odniesieniu do progów ADR. Sama masa opakowania, jego kolor lub wygląd nie wystarczają do ustalenia klasy 7. Wartości i wyjątki trzeba odnieść do właściwych przepisów. Podstawa: ADR 2.2.7.1.1 i 2.2.7.2.2.1–2.2.7.2.2.6.",
+        "explanation": "Aby ustalić, czy materiał należy do klasy 7, sprawdza się, jakie substancje promieniotwórcze zawiera oraz jak silne jest promieniowanie w określonej ilości materiału i w całej przesyłce. Sama masa opakowania, jego kolor ani nalepka nie wystarczą do klasyfikacji. Wartości trzeba porównać z progami i wyjątkami podanymi w ADR. Podstawa: ADR 2.2.7.1.1 i 2.2.7.2.2.1–2.2.7.2.2.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -91,7 +89,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "wording_update_note": "Etap 4q: uproszczono wyłącznie objaśnienie dla kursanta; klucz i źródła bez zmian. To nie jest ponowna akceptacja prawna; official Polish text and specialist review remain pending."
     }
   ]
 }
