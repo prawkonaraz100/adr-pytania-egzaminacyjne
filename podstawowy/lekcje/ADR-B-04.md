@@ -2,6 +2,13 @@
 
 > **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
 
+## Jak korzystać z tej lekcji
+
+1. Zacznij od celów nauki i głównych sekcji tematycznych u góry dokumentu. Czytaj je po kolei i zatrzymaj się przy przykładzie z pracy kierowcy.
+2. Gdy pojawia się skrót lub kod ADR, sprawdź wyjaśnienie w tekście i wskazany punkt przepisu — nie ucz się samego symbolu bez zrozumienia, co oznacza.
+3. Sekcje niżej z nagłówkami typu „Utrwalanie przez scenariusz”, „Zadanie instruktorskie”, „plan dydaktyczny” lub „uzupełnienie” są materiałem uzupełniającym i archiwum ćwiczeń. Mogą powtarzać temat główny; wybierz powiązane pytania i scenariusze zamiast czytać powtórzenia jak nowy rozdział.
+4. Pytania w banku są materiałem roboczym `needs_review`. Sam wynik testu nie potwierdza zaliczenia ćwiczeń praktycznych ani prawnej poprawności materiału.
+
 ## Cele
 Przestrzegać zakazu źródeł zapłonu, rozumieć kontrolę dostępu do przesyłek, warunki nadzorowania postoju i podstawowe zakazy załogi.
 

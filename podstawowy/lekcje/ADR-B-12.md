@@ -2,6 +2,13 @@
 
 > **Materiał szkoleniowy w wersji roboczej, do kontroli doradcy ADR.** „Ochrona” z działu 1.10 oznacza ograniczanie kradzieży i nieuprawnionego wykorzystania materiałów. Nie jest tym samym, co same zasady bezpiecznego mocowania ładunku.
 
+## Jak korzystać z tej lekcji
+
+1. Zacznij od celów nauki i głównych sekcji tematycznych u góry dokumentu. Czytaj je po kolei i zatrzymaj się przy przykładzie z pracy kierowcy.
+2. Gdy pojawia się skrót lub kod ADR, sprawdź wyjaśnienie w tekście i wskazany punkt przepisu — nie ucz się samego symbolu bez zrozumienia, co oznacza.
+3. Sekcje niżej z nagłówkami typu „Utrwalanie przez scenariusz”, „Zadanie instruktorskie”, „plan dydaktyczny” lub „uzupełnienie” są materiałem uzupełniającym i archiwum ćwiczeń. Mogą powtarzać temat główny; wybierz powiązane pytania i scenariusze zamiast czytać powtórzenia jak nowy rozdział.
+4. Pytania w banku są materiałem roboczym `needs_review`. Sam wynik testu nie potwierdza zaliczenia ćwiczeń praktycznych ani prawnej poprawności materiału.
+
 ## Dlaczego ten rozdział jest wymagany?
 
 Ładunek może być właściwie opakowany, lecz nadal zostać skradziony albo wykorzystany niezgodnie z przeznaczeniem. Rozdział 1.10 ustanawia wymagania dotyczące identyfikacji uczestników, dostępu do materiałów, szkolenia ochronnego i — dla określonych towarów dużego ryzyka — planów ochrony.
