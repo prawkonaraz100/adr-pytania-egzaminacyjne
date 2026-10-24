@@ -206,3 +206,37 @@ Program kursu początkowego podstawowego przewiduje rzeczywiste ćwiczenia z uż
 | Potwierdzenie instruktora | Uzupełnia wyłącznie rzeczywisty prowadzący |
 
 Nie przekształcaj wyniku testu online w zaliczenie praktyki. Wymagania formalne i dokumentowanie zajęć należy sprawdzić z aktualnym prawem i procedurą ośrodka.
+
+## Scenariusze sytuacyjne dla wszystkich 13 działów — etap 4t (25.10.2026)
+
+Poniższe scenariusze uzupełniają ćwiczenia P1–P3. Każdy jest symulacją na fikcyjnych dokumentach, mapach lub pustych makietach. Nie używaj prawdziwych towarów niebezpiecznych, nie twórz wycieków ani pożarów i nie traktuj quizu jako zaliczenia praktyki.
+
+Pełna, maszynowo sprawdzana mapa kroków i ID pytań znajduje się w `scenariusze-13-dzialow.json`. Każdy dział ma własny scenariusz z co najmniej czterema krokami i odwołaniami do pytań z tego samego działu.
+
+| Dział | Sytuacja | Pytania do powtórki |
+|---|---|---|
+| ADR-B-01 | Kontrola drogowa: czy przewóz korzysta ze zwolnienia? | ADR-B-0002, ADR-B-0259, ADR-B-0526 |
+| ADR-B-02 | Rozładunek: mokre opakowanie z nalepką 4.3 | ADR-B-0006, ADR-B-0510 |
+| ADR-B-03 | Wyciek przy kratce kanalizacyjnej | ADR-B-0009, ADR-B-0514 |
+| ADR-B-04 | Załadunek: e-papieros i pracujący silnik | ADR-B-0010, ADR-B-0012 |
+| ADR-B-05 | Wypadek i zagrożenie przy przesyłce | ADR-B-0013, ADR-B-0015, ADR-B-0169 |
+| ADR-B-06 | Kontrola oznakowania kontenera | ADR-B-0507, ADR-B-0546, ADR-B-0562 |
+| ADR-B-07 | Uszkodzone opakowanie mimo poprawnych dokumentów | ADR-B-0020, ADR-B-0517, ADR-B-0567, ADR-B-0568, ADR-B-0569 |
+| ADR-B-08 | Kontrola wyposażenia i świadectwa pojazdu | ADR-B-0418, ADR-B-0551, ADR-B-0566 |
+| ADR-B-09 | Kontrola przed załadunkiem i mocowania | ADR-B-0518, ADR-B-0554, ADR-B-0558 |
+| ADR-B-10 | Kontener po rejsie morskim — dalszy odcinek drogowy | ADR-B-0396, ADR-B-0511 |
+| ADR-B-11 | Wybór trasy przez tunel z ograniczeniami | ADR-B-0487, ADR-B-0539, ADR-B-0540 |
+| ADR-B-12 | Nieznana osoba chce odebrać ładunek | ADR-B-0304, ADR-B-0305, ADR-B-0519 |
+| ADR-B-13 | Kontrola dokumentów przed wyjazdem | ADR-B-0508, ADR-B-0525, ADR-B-0530 |
+
+### Wspólny schemat pracy kursanta
+
+1. **Zatrzymaj się i oceń bezpieczeństwo** — nie wykonuj czynności, która może narazić ludzi lub środowisko.
+2. **Ustal fakty** — dokument, oznakowanie, rodzaj operacji, stan opakowania i wymagany sposób przewozu.
+3. **Znajdź właściwy przepis** — nie zakładaj wyjątku i nie zgaduj brakujących danych.
+4. **Podejmij bezpieczną decyzję** — zgłoś niezgodność, jeśli nie można jej rozstrzygnąć.
+5. **Uzasadnij odpowiedź** — odwołaj się do pytań wskazanych przy scenariuszu i wyjaśnij, dlaczego pozostałe opcje są błędne.
+
+### Kryteria instruktora
+
+Dla każdego scenariusza instruktor zapisuje faktycznie zaobserwowane kroki, błędy krytyczne i potrzebę ponownej próby. Formularz uzupełnia się wyłącznie podczas rzeczywistych zajęć. Wszystkie pytania i scenariusze pozostają materiałami roboczymi `needs_review`; nie stanowią niezależnej recenzji prawnej.
