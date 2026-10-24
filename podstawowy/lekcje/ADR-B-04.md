@@ -124,3 +124,22 @@ Temat załącznika nr 1 do Dz.U. 2021 poz. 2150; ADR 2025 8.3.3–8.3.8; 7.5.1; 
 - **Błąd do uniknięcia:** nie rozpoczynaj czynności tylko dlatego, że ładunek wygląda prawidłowo; niezgodność pojazdu, opakowania lub miejsca pracy trzeba wyjaśnić przed kontynuacją.
 
 Powtórka w banku: ADR-B-0279–0280, 0310, 0347, 0351.
+
+## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
+
+### Powiązane pytania w banku
+
+- ADR-B-0279–0280 — zakaz palenia
+- ADR-B-0296–0297 — bezpieczeństwo przy zdarzeniu
+- ADR-B-0310 — nadzór i postój
+- ADR-B-0347 — kolejność miejsc postoju
+
+### Przykłady z pracy kierowcy
+
+**E-papieros przy załadunku:** nie zakładaj, że zakaz dotyczy wyłącznie tradycyjnych papierosów. Pytanie ADR-B-0279 omawia zakaz palenia i podobnych urządzeń w czynnościach manipulacyjnych (ADR 8.3.5).
+
+**Postój wymagający nadzoru:** nie wybieraj zwykłego parkingu tylko dlatego, że jest wygodniejszy. Sprawdź, czy jest dostępne miejsce o wyższym priorytecie i stosuj kolejność z ADR 8.4.1. Powiązane pytania: ADR-B-0310 i ADR-B-0347.
+
+To przykłady z pytań roboczych `needs_review`, a nie niezależna recenzja prawna.
+
+**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
