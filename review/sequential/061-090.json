@@ -888,7 +888,7 @@
           "C": "Wyłącznie maksymalną prędkość dojazdu"
         },
         "correct_option": "B",
-        "explanation": "Zasady oddzielenia od żywności w 7.5.4 stosuje się, jeżeli dla konkretnego towaru kolumna 18 tabeli A wskazuje CV28. Sama nalepka 6.1 nie wystarcza do automatycznego przypisania CV28. Przy stosowaniu przepisu można użyć określonych metod separacji.",
+        "explanation": "Przy przewozie towaru obok żywności trzeba najpierw ustalić, czy dla konkretnego numeru UN przewidziano wymóg oddzielenia. Informacja CV28 znajduje się w kolumnie 18 tabeli A, a sama nalepka 6.1 nie oznacza automatycznie zastosowania tego przepisu. Wolne miejsce na podłodze ani prędkość jazdy nie rozstrzygają o bezpieczeństwie wspólnego ładunku. Podstawa: ADR 7.5.4 i CV28.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -929,7 +929,7 @@
           "C": "Wybierasz trasę bez tunelu kategorii E"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli przewóz podlega przepisom tunelowym, kod E oznacza zakaz wjazdu do tunelu kategorii E.",
+        "explanation": "Gdy przewóz podlega ograniczeniom tunelowym, kod E zabrania przejazdu przez tunel kategorii E. Kierowca powinien więc zawczasu zaplanować objazd zamiast ryzykować wjazd. Liczba kartonów i jazda nocą same w sobie nie usuwają zakazu wynikającego z kodu. Podstawa: ADR 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -970,7 +970,7 @@
           "C": "Nie, kod D/E zawsze zakazuje kategorii D niezależnie od sposobu przewozu"
         },
         "correct_option": "B",
-        "explanation": "D/E dla sztuk przesyłek, w przeciwieństwie do cystern i luzem, oznacza zakaz przejazdu tylko w tunelu E. Inne lokalne zakazy nadal mają zastosowanie.",
+        "explanation": "Kod D/E trzeba odczytać w zależności od sposobu przewozu. Przy sztukach przesyłek oznacza on zakaz przejazdu przez tunel kategorii E, dlatego sam ten kod nie wyklucza tunelu D. Nie jest to ogólny zakaz wszystkich tuneli A–E; mogą jednak obowiązywać niezależne ograniczenia drogowe. Podstawa: ADR 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1011,7 +1011,7 @@
           "C": "Tak, ale tylko jeśli w pojeździe są materiały klasy 3"
         },
         "correct_option": "B",
-        "explanation": "Przepis 8.6.3.3 przewiduje, że towary przewożone zgodnie z 1.1.3 nie podlegają ograniczeniom tunelowym i nie są uwzględniane przy wyborze kodu całego ładunku. Wyjątek dotyczy jednostki, która wymaga oznakowania zgodnie z 3.4.13 z uwzględnieniem 3.4.14; mogą też obowiązywać niezależne zakazy drogowe.",
+        "explanation": "Nie każdy ładunek niebezpieczny podlega ograniczeniom tunelowym w taki sam sposób. Jeżeli przewóz rzeczywiście korzysta z podanych wyłączeń ADR i nie zachodzi wskazany wyjątek dotyczący oznakowania LQ, towarów tych nie uwzględnia się przy wyznaczaniu kodu tunelowego. Sama obecność klasy 3 ani założenie, że wszystkie kody zawsze się liczą, jest błędne. Podstawa: ADR 8.6.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1052,7 +1052,7 @@
           "C": "Kod powodujący największe ograniczenia tunelowe"
         },
         "correct_option": "C",
-        "explanation": "Dla ładunku mieszanego wybiera się kod dający największe ograniczenia tunelowe spośród kodów, które rzeczywiście mają zastosowanie. Przewozy wyłączone na podstawie 8.6.3.3 mogą nie być uwzględniane. Znaczenie kodu zależy też od sposobu przewozu.",
+        "explanation": "Gdy w pojeździe znajdują się różne towary objęte ograniczeniami tunelowymi, wybiera się kod powodujący najsurowsze ograniczenia spośród kodów mających zastosowanie. Nie decyduje kolejność w dokumencie ani masa najcięższego towaru. Przy wyborze uwzględnia się także wyłączenia i sposób przewozu. Podstawa: ADR 8.6.3.2–8.6.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1093,7 +1093,7 @@
           "C": "Brak dokumentu identyfikującego członka załogi ze zdjęciem"
         },
         "correct_option": "C",
-        "explanation": "Każdy członek załogi podczas przewozu objętego tym obowiązkiem powinien mieć przy sobie dokument tożsamości ze zdjęciem. Wskazują na to 1.10.1.4 i dokumentacyjne wymagania 8.1.2.1(d).",
+        "explanation": "Przy przewozie objętym tym wymogiem każdy członek załogi musi mieć własny dokument tożsamości ze zdjęciem. Pozwala to potwierdzić, kto rzeczywiście uczestniczy w transporcie niebezpiecznego ładunku. Dziennik tankowania ani kopie umowy o pracę nie zastępują dokumentu identyfikacyjnego. Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1134,7 +1134,7 @@
           "C": "Tak, gdy zna klasy przewożonych towarów"
         },
         "correct_option": "B",
-        "explanation": "ADR przewiduje instrukcje pisemne według określonego wzoru. Własna krótka notatka nie jest ich zamiennikiem.",
+        "explanation": "Instrukcje pisemne pomagają załodze w sytuacji awaryjnej, dlatego ich układ i treść mają odpowiadać ustalonemu wzorowi ADR. Własna notatka, nawet uzupełniona mapą, może pominąć ważne działania i nie jest zamiennikiem instrukcji. Sama znajomość klas towarów także nie zwalnia z posiadania właściwego dokumentu. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1175,7 +1175,7 @@
           "C": "PRZEWÓZ ZGODNY Z 1.1.4.2.1"
         },
         "correct_option": "C",
-        "explanation": "Przy przewozie na szczególnych warunkach 1.1.4.2.1 dokument musi zawierać wskazany w 5.4.1.1.7 dodatkowy wpis.",
+        "explanation": "Gdy przewóz drogowy jest częścią podróży morskiej i korzysta z warunków 1.1.4.2.1, trzeba wskazać tę podstawę w dokumencie przewozowym. Wpis informuje kontrolującego, dlaczego zastosowano szczególne zasady. Numery 5.4.3.2 i 1.1.3.6 odnoszą się do innych zagadnień, więc nie zastępują właściwego zapisu. Podstawa: ADR 5.4.1.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1216,7 +1216,7 @@
           "C": "W kabinie pojazdu, w miejscu łatwo dostępnym dla załogi"
         },
         "correct_option": "C",
-        "explanation": "Wymagane instrukcje pisemne ADR mają znajdować się w kabinie pojazdu i być łatwo dostępne dla członków załogi, tak aby można było z nich skorzystać przed i podczas zdarzenia.",
+        "explanation": "W razie pożaru lub wycieku załoga musi móc natychmiast znaleźć instrukcje postępowania. Dlatego przechowuje się je w kabinie, w łatwo dostępnym miejscu. Dokument schowany pod ładunkiem może być nieosiągalny, a instrukcje pozostawione u odbiorcy nie pomogą kierowcy na trasie. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
