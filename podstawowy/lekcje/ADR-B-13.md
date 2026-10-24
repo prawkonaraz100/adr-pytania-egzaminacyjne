@@ -1,5 +1,9 @@
 # ADR-B-13 — Dokumenty kierowcy i dokument przewozowy
 
+## Po co to jest?
+
+Dokumenty pozwalają sprawdzić, co naprawdę przewozisz, jakie zagrożenia występują i jakie warunki trzeba spełnić. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych, a **numer UN** to czterocyfrowy numer identyfikujący pozycję towaru. Dokument przewozowy i instrukcje pisemne mają różne funkcje — jeden nie zastępuje drugiego. Przykład: jeśli numer UN na papierach nie zgadza się z oznakowaniem przesyłki, wyjaśnij rozbieżność przed wyjazdem, zamiast samodzielnie zgadywać właściwy zapis.
+
 > **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
 
 ## Jak korzystać z tej lekcji
@@ -156,3 +160,10 @@ Powtórka w banku: ADR-B-0226, 0508 oraz dokumenty związane z przewozem kombino
 Przed wyjazdem porównaj dokument przewozowy z ładunkiem, numerem UN i oznakowaniem. Jeśli dane się nie zgadzają lub brakuje wymaganego dokumentu, wyjaśnij to przed rozpoczęciem przewozu. Instrukcje pisemne nie zastępują dokumentu przewozowego i odwrotnie.
 
 **Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, A/B/C i podstawę prawną.
+
+## Co musisz zapamiętać
+
+- Porównaj dokument przewozowy z towarem, numerem UN, oznakowaniem i wymaganymi dokumentami dodatkowymi.
+- Instrukcje pisemne służą do postępowania w razie awarii; nie zastępują dokumentu przewozowego.
+- Brak lub rozbieżność wymaganych danych trzeba wyjaśnić przed rozpoczęciem przewozu.
+- Podstawy do dalszej nauki: ADR 5.4.1 i 5.4.3.

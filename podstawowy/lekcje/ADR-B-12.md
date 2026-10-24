@@ -1,5 +1,9 @@
 # Lekcja ADR-B-12 — ochrona (security) towarów niebezpiecznych
 
+## Po co to jest?
+
+Ochrona przewozu oznacza ograniczanie kradzieży, nieuprawnionego dostępu i możliwości niewłaściwego wykorzystania towarów niebezpiecznych. To coś innego niż zwykłe zabezpieczenie ładunku przed przesunięciem. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych; jej dział 1.10 opisuje wymagania ochronne dla określonych przewozów. Przykład: jeśli ktoś chce odebrać ładunek, sprawdź tożsamość i uprawnienie do odbioru według procedury firmy, zamiast ufać samemu numerowi zlecenia.
+
 > **Materiał szkoleniowy w wersji roboczej, do kontroli doradcy ADR.** „Ochrona” z działu 1.10 oznacza ograniczanie kradzieży i nieuprawnionego wykorzystania materiałów. Nie jest tym samym, co same zasady bezpiecznego mocowania ładunku.
 
 ## Jak korzystać z tej lekcji
@@ -133,3 +137,10 @@ Powtórka w banku: ADR-B-0249, 0300, 0304–0305, 0458–0460.
 **Towar dużego ryzyka:** sama klasa zagrożenia nie wystarcza, by przesądzić o wymaganiach ochronnych. Sprawdź odpowiedni wpis, rodzaj przewozu i próg z tabeli. Szczegóły ochrony omawiaj tylko w zakresie niezbędnym do bezpiecznej pracy.
 
 **Status:** pytania pozostają `needs_review`; przykłady nie są niezależną recenzją prawną.
+
+## Co musisz zapamiętać
+
+- Ochrona przewozu to zapobieganie kradzieży i nieuprawnionemu dostępowi, a nie samo mocowanie ładunku.
+- Stosuj procedurę weryfikacji tożsamości i uprawnienia do odbioru.
+- Wymagania zależą od właściwych danych i progów; sama klasa towaru nie przesądza o wszystkich obowiązkach.
+- Podstawy do dalszej nauki: ADR 1.10, w szczególności 1.10.1 i właściwe postanowienia o towarach dużego ryzyka.
