@@ -146,11 +146,11 @@
         "stem": "Dla jednostki transportowej objętej ograniczeniami ADR przewozisz różne towary mające różne kody tunelowe. Jak ustala się kod dla całego ładunku?",
         "options": {
           "A": "Stosuje się kod oznaczający największe ograniczenia",
-          "B": "Wybiera się kod najłagodniejszy",
+          "B": "Wybiera się kod najłagodniejszy, żeby zachować trasę i uniknąć objazdu",
           "C": "Zawsze przyjmuje się kod A"
         },
         "correct_option": "A",
-        "explanation": "Jeśli przewozisz razem towary o różnych kodach tunelowych i ograniczenia mają zastosowanie, musisz uwzględnić ten kod, który stawia najsurowsze wymagania. Wybranie najłagodniejszego kodu mogłoby skierować pojazd do niedozwolonego tunelu. Nie zawsze przyjmuje się też literę A; znaczenie mają wyłączenia i sposób przewozu. Podstawa: ADR 8.6.3.2–8.6.3.3.",
+        "explanation": "Gdy w jednej jednostce przewożone są różne towary objęte kodami tunelowymi, trzeba uwzględnić kod powodujący największe ograniczenia. Wybór najłagodniejszego kodu tylko po to, by uniknąć objazdu, jest nieprawidłowy; nie zawsze przyjmuje się też kod A. Uwzględnij wyłączenia i sposób przewozu. Podstawa: ADR 8.6.3.2–8.6.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -188,10 +188,10 @@
         "options": {
           "A": "Brak ograniczeń tunelowych ADR wynikających z tego kodu",
           "B": "Całkowity zakaz korzystania z dróg",
-          "C": "Nakaz jazdy tylko nocą"
+          "C": "Nakaz jazdy tylko nocą, gdy ruch jest mniejszy i tunel wydaje się bezpieczniejszy"
         },
         "correct_option": "A",
-        "explanation": "Zapis „(-)” w polu kodu ograniczeń tunelowych oznacza, że dla tej pozycji nie podano ograniczenia tunelowego wynikającego z kodu w tabeli A. Nie daje to jednak ogólnego prawa do ignorowania znaków drogowych ani pozostałych wymagań przewozu. Zapis nie oznacza zakazu korzystania ze wszystkich dróg ani nakazu jazdy nocą, dlatego B i C są błędne. Podstawa: ADR 8.6.3.1.",
+        "explanation": "Zapis „(-)” oznacza brak przypisanego ograniczenia tunelowego ADR z tego tytułu. Nie oznacza zakazu korzystania ze wszystkich dróg ani nakazu jazdy tylko nocą. Nadal trzeba stosować znaki drogowe i pozostałe przepisy. Podstawa: ADR 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -802,11 +802,11 @@
         "stem": "Po rozładunku beczki ADR widać pozostałości jej zawartości na skrzyni ładunkowej. Kiedy najpóźniej należy oczyścić pojazd zgodnie z 7.5.8.1?",
         "options": {
           "A": "Po wykonaniu dowolnych dwóch kolejnych przewozów",
-          "B": "Dopiero przy okresowej kontroli technicznej",
+          "B": "Dopiero przy okresowej kontroli technicznej pojazdu, jeśli pozostałości są zaschnięte",
           "C": "Przed ponownym załadunkiem, możliwie jak najszybciej"
         },
         "correct_option": "C",
-        "explanation": "Pozostałości niebezpiecznej substancji w skrzyni ładunkowej mogą narazić ludzi i kolejny ładunek na kontakt z towarem. Dlatego pojazd należy oczyścić jak najszybciej, a w każdym przypadku przed następnym załadunkiem. Nie wolno odkładać tego do kolejnych przewozów ani czekać na okresowy przegląd techniczny. Podstawa: ADR 7.5.8.1.",
+        "explanation": "Pozostałości towaru niebezpiecznego mogą zanieczyścić kolejny ładunek i narazić ludzi. Pojazd należy oczyścić możliwie jak najszybciej, a w każdym razie przed następnym załadunkiem; nie czeka się na okresowy przegląd ani na zaschnięcie resztek. Podstawa: ADR 7.5.8.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
