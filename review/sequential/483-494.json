@@ -191,7 +191,7 @@
           "C": "Kod D/E wyklucza tunele B, C, D oraz E przy przewozie w sztukach przesyłek"
         },
         "correct_option": "A",
-        "explanation": "Kod D/E zależy od postaci przewozu. Dla sztuk przesyłek zakaz dotyczy tuneli kategorii E, więc nie należy rozszerzać go automatycznie na D ani na B i C. Warianty B i C wprowadzają zakazy szersze niż wynika z tego kodu. Podstawa: ADR 8.6.4, kod D/E.",
+        "explanation": "Kod tunelowy D/E zależy od sposobu przewozu. Gdy towar jest przewożony w sztukach przesyłek, kod ten oznacza zakaz wjazdu do tuneli kategorii E, a nie automatycznie do kategorii D, B i C. Warianty B i C rozszerzają zakaz poza to, co wynika z kodu dla tej postaci przewozu. Podstawa: ADR 8.6.4, kod D/E.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -232,7 +232,7 @@
           "C": "Przy przewozie luzem kod D/E wyklucza tunele kategorii D i E"
         },
         "correct_option": "C",
-        "explanation": "Przy przewozie luzem kod D/E wyklucza tunele kategorii D i E. Nie wystarczy ograniczyć zakazu do samej kategorii E, a kategorie A i B nie są wskazane przez ten kod. Zawsze trzeba uwzględnić formę przewozu, bo ten sam kod może mieć inny skutek dla sztuk przesyłek. Podstawa: ADR 8.6.4, kod D/E.",
+        "explanation": "Przy przewozie luzem kod tunelowy D/E oznacza zakaz przejazdu przez tunele kategorii D i E. Nie można ograniczyć go wyłącznie do kategorii E, jak przy sztukach przesyłek, ani przenosić na niego dowolnego zakazu dla A i B. Zawsze trzeba odczytać kod z uwzględnieniem formy przewozu. Podstawa: ADR 8.6.4, kod D/E.",
         "sources": [
           {
             "code": "ADR-2025-PL",
