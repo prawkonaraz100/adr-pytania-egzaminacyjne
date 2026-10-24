@@ -5,7 +5,7 @@
 - Zmieniono wyłącznie `explanation`; nowe długości: 0308=303, 0310=309, 0340=346, 0343=378, 0347=309, 0351=358, 0362=341, 0396=352, 0412=349, 0418=318, 0419=324, 0420=315, 0424=334, 0426=301, 0431=325.
 - Każde wyjaśnienie prostym językiem opisuje poprawną odpowiedź, wyjaśnia błędne opcje i kończy się podstawą ADR.
 - Kontrola strukturalna: zachowano 545 rekordów, kolejność, ID, klucze odpowiedzi i `verification_status`; niczego nie oznaczono jako `verified`.
-- Migawki audytowe zostaną zsynchronizowane dla zmienionych wyjaśnień, bez zmiany ocen A/B/C ani statusu recenzji.
+- Odświeżono wyłącznie `exact_record_snapshot` i `question_snapshot` w audycie sekwencyjnym i klauzulowym dla zmienionych rekordów. Oceny A/B/C oraz statusy recenzji nie zostały zmienione.
 - Quality Gate: oczekuje na wynik CI.
 
 ## Długości wyjaśnień
