@@ -25,7 +25,7 @@ class BiasMetricTests(unittest.TestCase):
         rows.extend([rec("ADR-B-02", ["much longer", "mid", "tiny"], "C") for _ in range(8)])
         with tempfile.TemporaryDirectory() as tmp:
             path=Path(tmp)/"questions.jsonl"
-            path.write_text("\\n".join(json.dumps(row) for row in rows), encoding="utf-8")
+            path.write_text("\n".join(json.dumps(row) for row in rows), encoding="utf-8")
             self.assertEqual(main(["--questions", str(path), "--threshold", "0.40", "--strict-global"]), 0)
 
     def test_strict_global_fails_when_global_rate_exceeds_limit(self):
