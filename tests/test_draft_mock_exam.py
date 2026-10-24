@@ -11,6 +11,16 @@ class DraftExamTests(unittest.TestCase):
   self.assertEqual(len(qids),30);self.assertEqual(len(set(qids)),30);self.assertTrue(set(qids)<=ids)
   self.assertEqual(qids,[a["id"] for a in k["answers"]]);self.assertEqual(e["module_distribution"],dict(sorted(Counter(q["module_id"] for q in e["questions"]).items())))
   self.assertEqual(e["pass_mark_correct"],20);self.assertFalse(e["publication_authorized"]);self.assertFalse(k["publication_authorized"])
+  by_id={q["id"]:q for q in bank}
+  for paper in e["questions"]:
+   current=by_id[paper["id"]]
+   self.assertEqual(paper["stem"],current["stem"])
+   self.assertEqual(paper["options"],current["options"])
+   self.assertEqual(paper["image"],current["image"])
+  for answer in k["answers"]:
+   current=by_id[answer["id"]]
+   self.assertEqual(answer["correct_option"],current["correct_option"])
+   self.assertEqual(answer["explanation"],current["explanation"])
  def test_checked_in_variant_matches_its_seed(self):
   rows=load_bank(ROOT/"podstawowy"/"questions.jsonl")
   exam,_=draw_exam(rows,20261024)
