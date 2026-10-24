@@ -229,7 +229,7 @@
           "C": "Do kategorii B, C, D i E"
         },
         "correct_option": "A",
-        "explanation": "Przy kodzie D/E przewóz w sztukach przesyłek jest zakazany w kategorii E; dla cystern i przewozu luzem wynik jest inny.",
+        "explanation": "Kod D/E zależy od postaci przewozu. Dla sztuk przesyłek zakaz dotyczy tuneli kategorii E, więc nie należy rozszerzać go automatycznie na D ani na B i C. Warianty B i C wprowadzają zakazy szersze niż wynika z tego kodu. Podstawa: ADR 8.6.4, kod D/E.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -276,7 +276,7 @@
           "C": "Kategorie D i E"
         },
         "correct_option": "C",
-        "explanation": "Kod D/E rozróżnia formę przewozu: luzem i w cysternie zakazane są kategorie D i E.",
+        "explanation": "Przy przewozie luzem kod D/E wyklucza tunele kategorii D i E. Nie wystarczy ograniczyć zakazu do samej kategorii E, a kategorie A i B nie są wskazane przez ten kod. Zawsze trzeba uwzględnić formę przewozu, bo ten sam kod może mieć inny skutek dla sztuk przesyłek. Podstawa: ADR 8.6.4, kod D/E.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -323,7 +323,7 @@
           "C": "Wyłącznie E"
         },
         "correct_option": "B",
-        "explanation": "Dla transportu innego niż w cysternie kod B/D oznacza zakaz w tunelach D i E, a nie automatycznie w B i C.",
+        "explanation": "Kod B/D dla przewozu innego niż w cysternie oznacza zakaz wjazdu do tuneli kategorii D i E. Nie obejmuje automatycznie kategorii B i C, jak sugeruje odpowiedź A, ani nie ogranicza się wyłącznie do E. Najpierw odczytaj kod z dokumentacji towaru, a potem zastosuj zasady dla właściwej postaci przewozu. Podstawa: ADR 8.6.4, kod B/D.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -370,7 +370,7 @@
           "C": "Nie, próg B stosuje się dopiero przy przekroczeniu 1000 kg; ograniczone są C, D, E"
         },
         "correct_option": "C",
-        "explanation": "Granica jest ścisła: przy 1000 kg netto kod B1000C wyklucza C/D/E, natomiast dopiero większa masa wyklucza również B.",
+        "explanation": "Przy dokładnie 1000 kg netto materiału wybuchowego kod B1000C nie wyklucza jeszcze kategorii B; ogranicza kategorie C, D i E. Dopiero przekroczenie progu 1000 kg uruchamia także zakaz dla B. Nie wolno traktować granicy „1000 kg” jako „od 1 kg” ani uznawać, że wszystkie tunele są dozwolone. Podstawa: ADR 8.6.4, kod B1000C.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -417,7 +417,7 @@
           "C": "Wyłącznie u producenta pojazdu"
         },
         "correct_option": "B",
-        "explanation": "Dla samych sztuk przesyłek klasy 1 z nalepkami wskazanymi w uwadze 2 stosuje się zasady grup zgodności 7.5.2.2.",
+        "explanation": "Dla wspólnego załadunku sztuk przesyłek klasy 1 trzeba sprawdzić zasady grup zgodności, a nie tylko ogólną tabelę zakazów. Właściwe reguły znajdują się w ADR 7.5.2.2, zgodnie z uwagą do tabeli 7.5.2.1. Producent pojazdu ani dowolna decyzja przewoźnika nie zastępują tej oceny. Podstawa: ADR 7.5.2.1, uwaga 2, oraz 7.5.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -464,7 +464,7 @@
           "C": "Nie, rozdzielenie dokumentów nie zmienia wymogów wspólnego załadunku"
         },
         "correct_option": "C",
-        "explanation": "Uwaga o odrębnych dokumentach dla niezgodnych przesyłek nie ustanawia wyjątku od zakazu umieszczania ich w jednym pojeździe.",
+        "explanation": "Dwa osobne dokumenty przewozowe nie pozwalają umieścić razem przesyłek, których wspólny załadunek jest zakazany. Dokumenty opisują przewóz, ale nie znoszą wymagań dotyczących zgodności towarów. Telefon do nadawcy również nie tworzy wyjątku; trzeba rozdzielić przesyłki albo zastosować inne zgodne rozwiązanie. Podstawa: ADR 7.5.2.1, uwaga 1, oraz 5.4.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -511,7 +511,7 @@
           "C": "Gdy jest to właściwe i bezpieczne oraz pożar ma charakter niewielki lub początkowy"
         },
         "correct_option": "C",
-        "explanation": "Instrukcje dopuszczają reakcję na mały pożar hamulców, opon lub silnika wyłącznie w odpowiednich i bezpiecznych warunkach.",
+        "explanation": "Mały, początkowy pożar hamulców, opon lub silnika można próbować gasić tylko wtedy, gdy jest to właściwe i bezpieczne. Nie oznacza to obowiązku walki z każdym pożarem ani narażania życia załogi. Jeśli ogień obejmuje ładunek lub sytuacja staje się niebezpieczna, należy się oddalić i powiadomić służby. Podstawa: ADR 5.4.3.4, instrukcje pisemne.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -558,7 +558,7 @@
           "C": "Nie, działania ograniczające przedostawanie się materiału do kanalizacji wykonuje się tylko wtedy, gdy są właściwe i bezpieczne"
         },
         "correct_option": "C",
-        "explanation": "Ochrona kanalizacji i środowiska nie oznacza narażania życia członków załogi. W pierwszej kolejności należy zapewnić bezpieczeństwo.",
+        "explanation": "Ochrona kanalizacji jest ważna, ale nie wymaga wejścia w strefę niebezpieczną ani narażania się na toksyczne opary. Osłonę odpływu stosuje się tylko wtedy, gdy działanie jest odpowiednie i bezpieczne. Odpowiedzi A i B pomijają nadrzędną zasadę ochrony ludzi; należy odsunąć się od zagrożenia i wezwać pomoc. Podstawa: ADR 5.4.3.4, instrukcje pisemne.",
         "sources": [
           {
             "code": "ADR-2025-PL",
