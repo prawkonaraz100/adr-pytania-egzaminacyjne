@@ -31,3 +31,18 @@ Wprowadzono do Quality Gate tryb `--strict`, który blokuje przekroczenie limitu
 B-02 (17.86%) i B-09 (17.39%) są blisko progu, ale nie przekraczają go. Nie wydłużano sztucznie dystraktorów, bo nie ma tu naruszenia kryterium. Kontrola pozostaje automatyczna w kolejnych PR-ach.
 
 Żadne pytanie nie zmieniło klucza, wyjaśnienia, podstawy prawnej ani `verification_status`; nie nadano statusu `verified`.
+
+
+## Uzupełniająca korekta długości odpowiedzi — 25.10.2026
+
+Ponowna kontrola opcji wykazała, że wskaźniki bazowe przekazane w zadaniu (B-02 11/56, B-03 9/49, B-09 10/46) obejmowały więcej przypadków „poprawna = najdłuższa” niż licznik repozytoryjny `strict`, który liczy wyłącznie przypadki, gdy poprawna opcja jest jedyną najdłuższą. Aby ograniczyć możliwość zgadywania i nie opierać się wyłącznie na różnicy definicji, skorygowano osiem dystraktorów w trzech wskazanych działach.
+
+Zmiany: B-02 — ADR-B-0267, 0269, 0284; B-03 — ADR-B-0327, 0328; B-09 — ADR-B-0078, 0286, 0292. Błędne odpowiedzi są bardziej opisowe i realistyczne, bez zmiany kluczy ani sensu prawnego poprawnych opcji. Warianty egzaminów 001 i 002 nie zawierają tych ID; snapshoty audytu A/B/C i sekwencyjnego zsynchronizowano.
+
+| Dział | Poprawna ściśle najdłuższa po korekcie | Odsetek | Cel |
+|---|---:|---:|---|
+| ADR-B-02 | 7/56 | 12,50% | PASS ≤16% |
+| ADR-B-03 | 6/49 | 12,24% | PASS ≤16% |
+| ADR-B-09 | 5/46 | 10,87% | PASS ≤16% |
+
+Po korekcie licznik ścisły wynosi **71/566 = 12,54%** globalnie. Według przekazanej w zadaniu bazy, po odpowiednio 3, 2 i 3 korektach wskaźniki B-02, B-03 i B-09 wynoszą 8/56 (14,29%), 7/49 (14,29%) i 7/46 (15,22%) — wszystkie poniżej 16%. Globalnie na tej samej bazie 86/566 spada do 78/566 (13,78%). Quality Gate nadal egzekwuje próg 18% dla licznika ścisłego globalnie i per dział.
