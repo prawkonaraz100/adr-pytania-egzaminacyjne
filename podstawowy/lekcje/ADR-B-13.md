@@ -15,14 +15,25 @@ Sprawdź, czy dokument zawiera wymagane informacje dla konkretnego przewozu, m.i
 
 Nie dopisuj danych na podstawie przypuszczeń. Jeśli brakuje wymaganej informacji i nie ma zastosowania odpowiedni wyjątek, poproś odpowiedzialnego uczestnika o poprawienie dokumentu przed wyjazdem.
 
+
+### Kolejność i szczegółowe pola opisu
+W standardowym opisie towaru ADR elementy wpisuje się w kolejności wymaganej w 5.4.1.1.1: numer UN poprzedzony literami „UN”, prawidłowa nazwa przewozowa, numer wzoru nalepki zagrożenia (a przy zagrożeniu dodatkowym także odpowiednia informacja), grupa pakowania, jeśli ma zastosowanie, oraz kod ograniczenia tunelowego, gdy jest wymagany. Następnie podaje się liczbę i opis sztuk przesyłek, całkowitą ilość w wymaganych jednostkach, nazwę i adres nadawcy oraz odbiorcy i inne informacje wymagane dla danego towaru. Nazwa handlowa nie zastępuje nazwy przewozowej.
+
+Jeżeli przewożonych jest kilka różnych towarów, sprawdź opis każdego z nich oraz sposób podania ilości. Gdy ładunek dzieli się na kilka pojazdów, dokumentacja musi odpowiadać rzeczywistemu podziałowi. Dla odpadów, opakowań awaryjnych, pustych nieoczyszczonych opakowań i wyjątków transportu kombinowanego mogą być wymagane dodatkowe zwroty, np. „ODPAD”, „SALVAGE PACKAGINGS”, opis pustego nieoczyszczonego opakowania lub wpis wynikający z ADR 1.1.4.2. Nie stosuj tych określeń zamiast podstawowego opisu towaru — sprawdź właściwy podpunkt ADR 5.4.1.1.
 ## 2. Co ma być dostępne w kabinie
 Przed wyjazdem sprawdź, czy wymagane dokumenty są dostępne dla załogi. Oprócz dokumentu przewozowego mogą być wymagane inne dokumenty zależnie od towaru, pojazdu i rodzaju przewozu. Sprawdź, czy dany przewóz wymaga zaświadczenia kierowcy, świadectwa dopuszczenia pojazdu lub dodatkowego dokumentu. Nie zakładaj, że jeden dokument zastępuje pozostałe.
 
+
+### Dokumenty kierowcy i pojazdu
+Lista dokumentów zależy od przewozu. Zgodnie z ADR 8.1.2 w kabinie muszą być dostępne dokument przewozowy, instrukcje pisemne oraz pozostałe dokumenty wymagane w danej sytuacji. Może to obejmować zaświadczenie kierowcy ADR, świadectwo dopuszczenia pojazdu dla określonych typów pojazdów, dokument tożsamości ze zdjęciem i inne świadectwa lub dokumenty wskazane przez ADR. Samo zapewnienie firmy, że dokument istnieje w biurze, nie zastępuje dokumentu, który musi być dostępny podczas przewozu. Sprawdź wyjątki i szczególne uzgodnienia, jeśli mają zastosowanie; nie zakładaj ich bez potwierdzenia.
 ## 3. Instrukcje pisemne ADR
 Instrukcje pisemne to odrębny dokument o ustalonym wzorze, przeznaczony do użycia w razie zdarzenia. Zgodnie z ADR 5.4.3.1–5.4.3.4 powinny być dostępne dla załogi w kabinie. Przewoźnik zapewnia je w języku, który każdy członek załogi potrafi czytać i rozumieć. Standardowy wzór ma cztery strony.
 
 Instrukcje muszą być łatwo dostępne, a nie schowane w miejscu, którego nie da się szybko otworzyć. Przed wyjazdem członkowie załogi powinni znać ich treść i wiedzieć, jak z nich korzystać. Firmowa kartka lub sam numer telefonu do dyspozytora nie zastępują wymaganych instrukcji.
 
+
+### Wzór, język i przygotowanie załogi
+Instrukcje pisemne mają wzór określony w ADR 5.4.3.4 i obejmują cztery strony. Nie wolno zastępować ich krótką kartką firmową ani własną notatką. Przewoźnik zapewnia instrukcje w języku, który każdy członek załogi potrafi czytać i rozumieć; dokument ma być łatwo dostępny w kabinie, a nie schowany poza zasięgiem załogi. Przed rozpoczęciem przewozu załoga powinna zapoznać się z instrukcjami i wiedzieć, jak z nich korzystać. Posiadanie nieprzeczytanego dokumentu albo dokumentu w niezrozumiałym języku nie przygotowuje do bezpiecznego działania.
 ## 4. Dokumenty dodatkowe i sytuacje szczególne
 W zależności od przewozu mogą być wymagane dodatkowe dokumenty, świadectwa lub zapisy. Sprawdź wymóg w przepisie właściwym dla towaru i pojazdu; nie zakładaj, że zawsze obowiązuje ten sam zestaw.
 
