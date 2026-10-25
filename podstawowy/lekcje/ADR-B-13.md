@@ -4,27 +4,27 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Dokumenty i instrukcje pozwalają sprawdzić, co jest przewożone, na jakich warunkach i jak postępować w razie zdarzenia. Niekompletny dokument albo instrukcje w niezrozumiałym języku mogą utrudnić bezpieczny przewóz i reakcję służb. Przed wyjazdem sprawdź dokument przewozowy, wymagane dokumenty dodatkowe i instrukcje pisemne jako odrębne elementy.
+Dokumenty i instrukcje pozwalają sprawdzić, co jest przewożone, na jakich warunkach i jak postępować w razie zdarzenia. Niekompletny dokument albo instrukcje w niezrozumiałym języku mogą utrudnić bezpieczny przewóz i reakcję służb. Przed wyjazdem sprawdź dokument przewozowy (zapis wymaganych danych o towarze i przewozie; [słowniczek](../SLOWNICZEK.md#dokument-przewozowy)), wymagane dokumenty dodatkowe i instrukcje pisemne (dokument z ustalonymi wskazówkami dla załogi na wypadek zdarzenia; ma być dostępny i zrozumiały; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne)) jako odrębne elementy.
 
 ## Czego się nauczysz
-- sprawdzać podstawowe dane dokumentu przewozowego ADR;
+- sprawdzać podstawowe dane dokumentu przewozowego ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr));
 - rozróżniać dokument przewozowy i instrukcje pisemne;
 - sprawdzać, czy instrukcje są dostępne i zrozumiałe dla całej załogi;
 - rozpoznawać, kiedy wymagane są dokumenty dodatkowe;
 - sprawdzać warunki przewozu drogowego po odcinku morskim.
 
 ## 1. Dokument przewozowy — co sprawdzić
-Sprawdź, czy dokument zawiera wymagane informacje dla konkretnego przewozu, m.in. oznaczenie UN przed numerem, właściwą nazwę przewozową, klasę i inne wymagane elementy opisu, liczbę i rodzaj sztuk przesyłek, ilość, jeśli jest wymagana, oraz dane nadawcy i odbiorcy. Właściwy zestaw pól zależy od towaru i przepisów, dlatego nie traktuj tej listy jako zamiennika kontroli ADR 5.4.1.1.1.
+Sprawdź, czy dokument zawiera wymagane dane dla konkretnego przewozu, w tym numer UN ([słowniczek](../SLOWNICZEK.md#numer-un)), właściwą nazwę przewozową, klasę i pozostałe wymagane informacje. Zestaw pól zależy od towaru, dlatego porównaj dokument z ADR 5.4.1.1.1 zamiast zakładać, że jedna lista pasuje do każdego ładunku.
 
 Nie dopisuj danych na podstawie przypuszczeń. Jeśli brakuje wymaganej informacji i nie ma zastosowania odpowiedni wyjątek, poproś odpowiedzialnego uczestnika o poprawienie dokumentu przed wyjazdem.
 
 
 ### Kolejność i szczegółowe pola opisu
-W standardowym opisie towaru ADR elementy wpisuje się w kolejności wymaganej w 5.4.1.1.1: (a) numer UN poprzedzony literami „UN”, (b) prawidłowa nazwa przewozowa, (c) numer wzoru nalepki zagrożenia i, jeśli występuje, zagrożenie dodatkowe, (d) grupa pakowania, jeśli ma zastosowanie, (k) kod ograniczenia tunelowego, gdy jest wymagany. Następnie podaje się (e) liczbę i rodzaj sztuk przesyłek, (f) całkowitą ilość w wymaganych jednostkach oraz (g) nazwę i adres nadawcy i (h) odbiorcy. Właściwy zakres i kolejność sprawdź w ADR 5.4.1.1.1(a)–(k), ponieważ istnieją wyjątki zależne od towaru. Nazwa handlowa nie zastępuje nazwy przewozowej.
+W standardowym opisie towaru ADR elementy wpisuje się w kolejności wymaganej w 5.4.1.1.1: (a) numer UN poprzedzony literami „UN”, (b) prawidłowa nazwa przewozowa, (c) numer wzoru nalepki zagrożenia i, jeśli występuje, zagrożenie dodatkowe (drugie lub kolejne zagrożenie, które też trzeba uwzględnić przy oznakowaniu i postępowaniu; [słowniczek](../SLOWNICZEK.md#zagrozenie-dodatkowe)), (d) grupa pakowania (oznaczenie stopnia zagrożenia, stosowane tylko dla towarów, dla których ADR je przewiduje; [słowniczek](../SLOWNICZEK.md#grupa-pakowania)), jeśli ma zastosowanie, (k) kod ograniczenia tunelowego, gdy jest wymagany. Następnie podaje się (e) liczbę i rodzaj sztuk przesyłek, (f) całkowitą ilość w wymaganych jednostkach oraz (g) nazwę i adres nadawcy i (h) odbiorcy. Właściwy zakres i kolejność sprawdź w ADR 5.4.1.1.1(a)–(k), ponieważ istnieją wyjątki zależne od towaru. Nazwa handlowa nie zastępuje nazwy przewozowej.
 
 Jeżeli przewożonych jest kilka różnych towarów, sprawdź opis każdego z nich oraz sposób podania ilości. Gdy ładunek dzieli się na kilka pojazdów, dokumentacja musi odpowiadać rzeczywistemu podziałowi. Dla odpadów niepromieniotwórczych sprawdź wymóg słowa „ODPAD” w ADR 5.4.1.1.3; dla opakowania awaryjnego — „SALVAGE PACKAGING” w 5.4.1.1.5; dla pustego nieoczyszczonego opakowania — wymagane określenie z 5.4.1.1.6.1. W przewozie morsko-drogowym dodatkowy zapis może wynikać z ADR 1.1.4.2.1 i 5.4.1.1.7. Nie stosuj tych określeń zamiast podstawowego opisu towaru — sprawdź właściwy podpunkt ADR 5.4.1.1.
 ## 2. Co ma być dostępne w kabinie
-Przed wyjazdem sprawdź, czy wymagane dokumenty są dostępne dla załogi. Oprócz dokumentu przewozowego mogą być wymagane inne dokumenty zależnie od towaru, pojazdu i rodzaju przewozu. Sprawdź, czy dany przewóz wymaga zaświadczenia kierowcy, świadectwa dopuszczenia pojazdu lub dodatkowego dokumentu. Nie zakładaj, że jeden dokument zastępuje pozostałe.
+Przed wyjazdem sprawdź, czy wymagane dokumenty są dostępne dla załogi. Oprócz dokumentu przewozowego mogą być wymagane inne dokumenty zależnie od towaru, pojazdu i rodzaju przewozu. Sprawdź, czy dany przewóz wymaga zaświadczenia kierowcy, świadectwa dopuszczenia pojazdu (dokument wymagany dla określonych typów pojazdów i przewozów, nie dla każdego pojazdu ADR; [słowniczek](../SLOWNICZEK.md#swiadectwo-dopuszczenia-pojazdu)) lub dodatkowego dokumentu. Nie zakładaj, że jeden dokument zastępuje pozostałe.
 
 
 ### Dokumenty kierowcy i pojazdu
@@ -37,7 +37,7 @@ Instrukcje muszą być łatwo dostępne, a nie schowane w miejscu, którego nie 
 ## 4. Dokumenty dodatkowe i sytuacje szczególne
 W zależności od przewozu mogą być wymagane dodatkowe dokumenty, świadectwa lub zapisy. Dla przewozu międzynarodowego sprawdź język dokumentu według ADR 5.4.1.4.1: dokument sporządza się w języku wymaganym dla kraju nadania, a gdy nie jest to angielski, francuski ani niemiecki, co do zasady dodaje się jeden z tych języków, z uwzględnieniem porozumień i wyjątków. Sprawdź wymóg w przepisie właściwym dla towaru i pojazdu; nie zakładaj, że zawsze obowiązuje ten sam zestaw.
 
-Dokument przygotowany dla odcinka morskiego nie znosi automatycznie wszystkich wymagań odcinka drogowego. Sprawdź, czy warunki zastosowania ADR 1.1.4.2.1 są spełnione i czy wymagany jest wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1” zgodnie z 5.4.1.1.7. Dla niektórych naczep bank wskazuje umowę wielostronną M364 i datę 31 grudnia 2026 r.; jest to warunkowy wyjątek, a nie ogólne zwolnienie. Przed zastosowaniem sprawdź aktualny tekst umowy, jej zakres, datę obowiązywania oraz to, czy konkretny pojazd spełnia wszystkie warunki. Dokument IMDG może być istotny dla odcinka morskiego, ale sam nie potwierdza kompletności dokumentacji drogowej.
+Dokument przygotowany dla odcinka morskiego nie znosi automatycznie wszystkich wymagań odcinka drogowego. Sprawdź, czy warunki zastosowania ADR 1.1.4.2.1 są spełnione i czy wymagany jest wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1” zgodnie z 5.4.1.1.7. Dla niektórych naczep bank wskazuje umowę wielostronną M364 i datę 31 grudnia 2026 r.; jest to warunkowy wyjątek, a nie ogólne zwolnienie. Przed zastosowaniem sprawdź aktualny tekst umowy, jej zakres, datę obowiązywania oraz to, czy konkretny pojazd spełnia wszystkie warunki. Dokument IMDG (RID dotyczy przewozu koleją, a IMDG przewozu morskiego; na drodze nadal sprawdzasz wymagania ADR; [słowniczek](../SLOWNICZEK.md#rid-imdg)) może być istotny dla odcinka morskiego, ale sam nie potwierdza kompletności dokumentacji drogowej.
 
 ## Typowe błędy kursantów
 - pomijanie wymaganej nazwy przewozowej lub innych danych;
@@ -45,7 +45,7 @@ Dokument przygotowany dla odcinka morskiego nie znosi automatycznie wszystkich w
 - traktowanie instrukcji pisemnych jako części dokumentu przewozowego albo ich zamiennika;
 - wożenie instrukcji w niezrozumiałym języku lub w niedostępnym miejscu;
 - zakładanie, że dokument morski wystarcza na odcinku drogowym;
-- uznawanie, że prawo jazdy lub inny dokument automatycznie zastępuje zaświadczenie ADR, gdy jest wymagane.
+- uznawanie, że prawo jazdy lub inny dokument automatycznie zastępuje zaświadczenie ADR (dokument potwierdzający wymagane szkolenie i egzamin kierowcy dla danego zakresu przewozu; [słowniczek](../SLOWNICZEK.md#zaswiadczenie-kierowcy-adr)), gdy jest wymagane.
 
 ## Scenariusze praktyczne
 1. **Niekompletny dokument.** Przed wyjazdem kierowca zauważa brak nazwy przewozowej albo wymaganych danych nadawcy/odbiorcy. Nie zgaduje; prosi odpowiedzialnego uczestnika o wyjaśnienie i uzupełnienie przed rozpoczęciem przewozu.

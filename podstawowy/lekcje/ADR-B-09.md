@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Nieprawidłowy załadunek może uszkodzić opakowanie, spowodować przemieszczenie ładunku lub doprowadzić do reakcji pozostałości poprzedniego towaru z nowym. Przed rozpoczęciem pracy sprawdź stan przestrzeni ładunkowej, opakowań i plan mocowania. Przewóz luzem jest odrębnym sposobem przewozu i wymaga sprawdzenia, czy dany towar i pojazd są do tego dopuszczone.
+Nieprawidłowy załadunek może uszkodzić opakowanie, spowodować przemieszczenie ładunku lub doprowadzić do reakcji pozostałości poprzedniego towaru z nowym. Przed rozpoczęciem pracy sprawdź stan przestrzeni ładunkowej, opakowań i plan mocowania. Przewóz luzem (przewóz bez osobnych sztuk przesyłek; [słowniczek](../SLOWNICZEK.md#przewoz-luzem)) wolno stosować tylko wtedy, gdy ADR ([słowniczek](../SLOWNICZEK.md#adr)) dopuszcza go dla danego towaru i pojazdu. Przed załadunkiem sprawdź właściwy wpis i wymagania (ADR 7.3).
 
 ## Czego się nauczysz
 - przeprowadzać kontrolę przed załadunkiem;
@@ -14,17 +14,17 @@ Nieprawidłowy załadunek może uszkodzić opakowanie, spowodować przemieszczen
 - sprawdzać dopuszczalność przewozu luzem.
 
 ## 1. Kontrola przed załadunkiem
-Zgodnie z ADR 7.5.1 sprawdź, czy pojazd i przesyłki nadają się do planowanego załadunku. Zwróć uwagę na uszkodzenia, wycieki, pozostałości poprzedniego ładunku, stan podłogi i możliwość bezpiecznego rozmieszczenia towaru. Jeśli widzisz niezgodność, nie rozpoczynaj załadunku, dopóki nie zostanie wyjaśniona.
+Zgodnie z ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)) 7.5.1 sprawdź, czy pojazd i przesyłki nadają się do planowanego załadunku. Zwróć uwagę na uszkodzenia, wycieki, pozostałości poprzedniego ładunku, stan podłogi i możliwość bezpiecznego rozmieszczenia towaru. Jeśli widzisz niezgodność, nie rozpoczynaj załadunku, dopóki nie zostanie wyjaśniona.
 
 
 ### Niezgodność przed rozpoczęciem czynności
 ADR 7.5.1.2 wymaga, aby przed załadunkiem sprawdzić pojazd, przesyłki i dokumenty pod kątem oczywistych niezgodności. Jeżeli stan pojazdu, wyposażenia lub sztuki przesyłki może zagrażać bezpieczeństwu, nie rozpoczynaj załadunku, dopóki problem nie zostanie usunięty lub wyjaśniony. Nie przykrywaj uszkodzenia plandeką i nie uznawaj aktualnego świadectwa pojazdu za dowód, że późniejsze uszkodzenie nie ma znaczenia.
 ## 2. Wspólny załadunek i żywność
-Nie wszystkie towary można ładować razem. Sprawdź wymagania dotyczące wspólnego załadunku, w tym rozdzielenia niektórych materiałów oraz warunki ochrony żywności, pasz i innych towarów konsumpcyjnych. Jedną z metod oddzielenia wymienionych w ADR 7.5.4(c) jest pozostawienie co najmniej 0,8 m wolnej przestrzeni, jeśli metoda ta ma zastosowanie do danego przewozu; nie jest to uniwersalny wymóg dla każdej sytuacji. Sprawdź też, czy tabela A przypisuje przepis CV28 w kolumnie 18 oraz jakie warunki trzeba spełnić. Nie polegaj wyłącznie na odległości między paletami ani na ustnym zapewnieniu, że „zawsze tak się robi”. W razie wątpliwości sprawdź ADR 7.5.2, 7.5.4 i 7.5.11.
+Nie wszystkie towary można ładować razem. Sprawdź wymagania dotyczące wspólnego załadunku, w tym rozdzielenia niektórych materiałów oraz warunki ochrony żywności, pasz i innych towarów konsumpcyjnych. Jedną z metod oddzielenia wymienionych w ADR 7.5.4(c) jest pozostawienie co najmniej 0,8 m wolnej przestrzeni, jeśli metoda ta ma zastosowanie do danego przewozu; nie jest to uniwersalny wymóg dla każdej sytuacji. Sprawdź też, czy tabela A (wykaz ADR, w którym dla numeru UN ([słowniczek](../SLOWNICZEK.md#numer-un)) sprawdzasz m.in. klasę i warunki przewozu; [słowniczek](../SLOWNICZEK.md#tabela-a)) przypisuje przepis CV28 w kolumnie 18 oraz jakie warunki trzeba spełnić. Nie polegaj wyłącznie na odległości między paletami ani na ustnym zapewnieniu, że „zawsze tak się robi”. W razie wątpliwości sprawdź ADR 7.5.2, 7.5.4 i 7.5.11.
 
 
 ### Wspólny załadunek — sprawdź tabelę zgodności
-Nie rozstrzygaj zgodności wspólnego załadunku na podstawie samych klas ani oddzielnych dokumentów przewozowych. Zastosuj tabelę i uwagi ADR 7.5.2.1, a dla sztuk przesyłek klasy 1 także reguły grup zgodności z 7.5.2.2. Oznaczenia łączone, np. klasa główna i zagrożenie dodatkowe, nie oznaczają automatycznie dwóch niezależnych palet — liczy się właściwa klasyfikacja przesyłki. Szczególne uwagi tabeli mogą zmieniać dopuszczalność konkretnego połączenia; nie interpretuj ich jako ogólnego pozwolenia na załadunek materiałów wybuchowych z dowolnym utleniaczem. Dwa oddzielne dokumenty nie legalizują wspólnego załadunku zabronionego przez ADR.
+Nie rozstrzygaj zgodności wspólnego załadunku na podstawie samych klas ani oddzielnych dokumentów przewozowych. Zastosuj tabelę i uwagi ADR 7.5.2.1, a dla sztuk przesyłek klasy 1 także reguły grup zgodności z 7.5.2.2. Oznaczenia łączone, np. klasa główna i zagrożenie dodatkowe (drugie lub kolejne zagrożenie, które też trzeba uwzględnić przy oznakowaniu i postępowaniu; [słowniczek](../SLOWNICZEK.md#zagrozenie-dodatkowe)), nie oznaczają automatycznie dwóch niezależnych palet — liczy się właściwa klasyfikacja przesyłki. Szczególne uwagi tabeli mogą zmieniać dopuszczalność konkretnego połączenia; nie interpretuj ich jako ogólnego pozwolenia na załadunek materiałów wybuchowych z dowolnym utleniaczem. Dwa oddzielne dokumenty nie legalizują wspólnego załadunku zabronionego przez ADR.
 
 Przy żywności, paszach i innych towarach konsumpcyjnych sprawdź wymagane oddzielenie od określonych towarów niebezpiecznych. Nie zakładaj, że sama odległość między paletami wystarczy.
 ## 3. Mocowanie i piętrzenie
