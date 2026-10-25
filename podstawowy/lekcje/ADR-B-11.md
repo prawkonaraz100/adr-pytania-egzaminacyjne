@@ -46,6 +46,11 @@ Po zdarzeniu nie otwieraj przestrzeni ładunkowej i nie próbuj samodzielnie gas
 - zakładanie, że brak ograniczenia tunelowego znosi inne ograniczenia;
 - otwieranie ładowni w celu sprawdzenia towaru po zdarzeniu.
 
+Najczęstsze pułapki wynikające z pytań tego działu:
+- Wybór trasy bez porównania kodu tunelowego z kategorią tunelu — odczytaj kod z kolumny 15 tabeli A i sprawdź oznakowanie na trasie (ADR 3.2 tabela A, kolumna 15; 8.6).
+- Traktowanie kodu D/E jednakowo dla cystern i sztuk przesyłek — zastosowanie zależy od postaci przewozu, więc sprawdź właściwą regułę (ADR 8.6.3).
+- Zakładanie, że najkrótsza trasa zawsze jest dozwolona — ograniczenie tunelowe trzeba uwzględnić w planowaniu przejazdu (ADR 8.6).
+
 ## Scenariusze praktyczne
 1. **Ładunek z kodami D i E.** Jedna jednostka przewozi towary z różnymi kodami. Kierowca odczytuje kolumnę 15 tabeli A i ustala kod dla całego ładunku zgodnie z ADR 8.6.3.2.
 2. **Tunel objęty zakazem.** Znak tunelu wskazuje ograniczenie dla danego przewozu. Kierowca nie wjeżdża mimo krótszej trasy i wybiera dozwolony objazd.
@@ -147,15 +152,4 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 
 
 
-## Najczęstsze błędy kursantów
 
-W banku pojawiają się następujące typowe pomyłki. W realnej pracy nie zgaduj — sprawdź warunek ADR właściwy dla towaru i sposobu przewozu.
-
-- Wybór trasy bez porównania kodu tunelowego z kategorią tunelu — odczytaj kod z kolumny 15 tabeli A i sprawdź oznakowanie na trasie (ADR 3.2 tabela A, kolumna 15; 8.6).
-- Traktowanie kodu D/E jednakowo dla cystern i sztuk przesyłek — zastosowanie zależy od postaci przewozu, więc sprawdź właściwą regułę (ADR 8.6.3).
-- Zakładanie, że najkrótsza trasa zawsze jest dozwolona — ograniczenie tunelowe trzeba uwzględnić w planowaniu przejazdu (ADR 8.6).
-
-Niejasne terminy wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
-
-## Słowniczek
-Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).

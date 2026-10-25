@@ -336,7 +336,18 @@
       "assessment_criteria": [
         "Kursant rozróżnia odcinek morski i drogowy oraz nie stosuje wyjątku bez sprawdzenia warunków."
       ],
-      "safety_boundary": "Użyj fikcyjnego kompletu dokumentów i kontenera szkoleniowego."
+      "safety_boundary": "Użyj fikcyjnego kompletu dokumentów i kontenera szkoleniowego.",
+      "common_mistakes": [
+        "Uznanie, że dokument morski zawsze wystarczy na drodze — kolejny odcinek ma własne wymagania, a wyjątek działa tylko w opisanych warunkach.",
+        "Pominięcie certyfikatu pakowania, gdy jest wymagany — niezgodność dokumentów może oznaczać, że nie potwierdzają tej samej jednostki.",
+        "Dopisanie brakujących danych z pamięci — dokument musi odzwierciedlać sprawdzone informacje."
+      ],
+      "legal_basis": [
+        "ADR 1.1.4.2",
+        "ADR 5.4.1",
+        "ADR 5.4.2.1.1"
+      ],
+      "learner_takeaway": "Przepisy dla morza i drogi są różne. Sprawdź warunki wyjątku i zgodność dokumentów przed wyjazdem."
     },
     {
       "id": "SC-ADR-B-11",
@@ -365,7 +376,19 @@
       "assessment_criteria": [
         "Kursant odczytuje kod, uwzględnia sposób przewozu i ograniczenia dla całego ładunku oraz wskazuje bezpieczną reakcję na zdarzenie."
       ],
-      "safety_boundary": "Ćwiczenie na mapie; bez rzeczywistego przejazdu z towarem niebezpiecznym."
+      "safety_boundary": "Ćwiczenie na mapie; bez rzeczywistego przejazdu z towarem niebezpiecznym.",
+      "common_mistakes": [
+        "Wybór najłagodniejszego kodu dla całego ładunku — trzeba zastosować regułę ADR dla różnych kodów, a nie wybrać najwygodniejszy.",
+        "Ignorowanie znaku kategorii tunelu — kod towaru trzeba porównać z ograniczeniem na znaku.",
+        "Otwieranie ładowni po zdarzeniu — może narazić załogę na kontakt z towarem."
+      ],
+      "legal_basis": [
+        "ADR 3.2 tabela A kolumna 15",
+        "ADR 8.6.3.1–8.6.3.2",
+        "ADR 8.6.4",
+        "ADR 5.4.3.4"
+      ],
+      "learner_takeaway": "Kod tunelowy porównaj ze znakiem tunelu i sposobem przewozu; przy zakazie wybierz inną trasę."
     },
     {
       "id": "SC-ADR-B-12",
@@ -387,7 +410,17 @@
       "assessment_criteria": [
         "Kursant rozumie, że ochrona obejmuje postój i kontrolę dostępu, a numer zlecenia nie jest dowodem uprawnienia."
       ],
-      "safety_boundary": "Symulacja rozmowy na fikcyjnych dokumentach; nie ujawniaj prawdziwych danych."
+      "safety_boundary": "Symulacja rozmowy na fikcyjnych dokumentach; nie ujawniaj prawdziwych danych.",
+      "common_mistakes": [
+        "Traktowanie ochrony jako samego zamknięcia drzwi — wymagania mogą obejmować też postój, dostęp i informacje o ładunku.",
+        "Wydanie ładunku tylko na podstawie numeru zlecenia — numer nie potwierdza tożsamości ani upoważnienia.",
+        "Ujawnianie trasy i zabezpieczeń osobie nieuprawnionej — informacje mogą zwiększać ryzyko kradzieży lub ingerencji."
+      ],
+      "legal_basis": [
+        "ADR 1.10.1.2",
+        "ADR 1.10.3.2.2–1.10.3.3"
+      ],
+      "learner_takeaway": "Ochrona przewozu obejmuje informacje, dostęp i postój. Numer zlecenia sam nie potwierdza uprawnienia odbiorcy."
     },
     {
       "id": "SC-ADR-B-13",
@@ -1326,7 +1359,18 @@
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
         "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
       ],
-      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.",
+      "common_mistakes": [
+        "Przeniesienie dokumentu morskiego bez sprawdzenia wymagań drogowych — dokument może nie zawierać wszystkich danych wymaganych na drodze.",
+        "Uznanie wyjątku za ogólne zwolnienie — trzeba sprawdzić, czy spełniono jego konkretne warunki.",
+        "Uzupełnienie braków przez zgadywanie — może stworzyć sprzeczne informacje w dokumentach."
+      ],
+      "legal_basis": [
+        "ADR 1.1.4.2",
+        "ADR 5.4.1",
+        "ADR 5.4.2.1.1"
+      ],
+      "learner_takeaway": "Dokument morski nie daje automatycznego zwolnienia na drodze; brakujące dane trzeba potwierdzić."
     },
     {
       "id": "SC-ADR-B-10-03",
@@ -1362,7 +1406,17 @@
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
         "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
       ],
-      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.",
+      "common_mistakes": [
+        "Uznanie podpisanego certyfikatu za wystarczający mimo innego identyfikatora — dokument może dotyczyć innego kontenera.",
+        "Zignorowanie różnicy, bo nazwa towaru jest taka sama — identyfikator jednostki też ma znaczenie.",
+        "Samodzielne poprawienie numeru bez potwierdzenia — trzeba ustalić, który dokument jest błędny."
+      ],
+      "legal_basis": [
+        "ADR 5.4.2.1.1",
+        "ADR 5.4.1"
+      ],
+      "learner_takeaway": "Certyfikat musi dotyczyć tej jednostki i zgadzać się z dokumentami przewozowymi."
     },
     {
       "id": "SC-ADR-B-11-02",
@@ -1402,7 +1456,18 @@
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
         "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
       ],
-      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.",
+      "common_mistakes": [
+        "Zaufanie nawigacji zamiast znaku tunelu — aplikacja nie uchyla ograniczeń ADR.",
+        "Odczyt kodu z pamięci — sprawdź wpis towaru i postać przewozu.",
+        "Wjazd mimo zakazu — wybierz dozwoloną trasę."
+      ],
+      "legal_basis": [
+        "ADR 3.2 tabela A kolumna 15",
+        "ADR 8.6.3.1",
+        "ADR 8.6.4"
+      ],
+      "learner_takeaway": "Nawigacja nie uchyla ograniczenia tunelowego. Kod i znak trzeba porównać przed wjazdem."
     },
     {
       "id": "SC-ADR-B-11-03",
@@ -1440,7 +1505,17 @@
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
         "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
       ],
-      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.",
+      "common_mistakes": [
+        "Wybór kodu według masy lub wygody — reguła dotyczy całej jednostki transportowej.",
+        "Pominięcie kodu jednego towaru — każdy towar może wpływać na wynik dla jednostki.",
+        "Rozpoczęcie trasy bez pewności co do kodu — wątpliwość trzeba wyjaśnić przed wjazdem."
+      ],
+      "legal_basis": [
+        "ADR 3.2 tabela A kolumna 15",
+        "ADR 8.6.3.2"
+      ],
+      "learner_takeaway": "Dla różnych towarów nie wybieraj kodu najwygodniejszego; zastosuj regułę dla całej jednostki."
     },
     {
       "id": "SC-ADR-B-12-02",
@@ -1478,7 +1553,16 @@
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
         "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
       ],
-      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.",
+      "common_mistakes": [
+        "Wybór dowolnego parkingu, gdy planowany jest zamknięty — zmiana miejsca nie znosi obowiązku stosowania procedury ochrony.",
+        "Przekazywanie szczegółów ładunku wielu osobom — udostępniaj tylko niezbędne informacje osobom uprawnionym.",
+        "Samodzielna zmiana planu bez zgłoszenia — procedura ma pomóc zachować kontrolę nad przewozem."
+      ],
+      "legal_basis": [
+        "ADR 1.10.3.2.2–1.10.3.3"
+      ],
+      "learner_takeaway": "Zmianę postoju obsłuż zgodnie z planem ochrony i nie ujawniaj niepotrzebnie szczegółów ładunku."
     },
     {
       "id": "SC-ADR-B-12-03",
@@ -1515,7 +1599,17 @@
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
         "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
       ],
-      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.",
+      "common_mistakes": [
+        "Wydanie ładunku na podstawie numeru zlecenia — nie potwierdza on samodzielnie tożsamości ani prawa odbioru.",
+        "Konfrontacja z podejrzaną osobą — może niepotrzebnie zwiększyć zagrożenie.",
+        "Przekazanie informacji o zabezpieczeniach — nie ujawniaj szczegółów osobom, których uprawnienia są niepewne."
+      ],
+      "legal_basis": [
+        "ADR 1.10.1.2",
+        "ADR 1.10.3.2.2"
+      ],
+      "learner_takeaway": "Nie wydawaj ładunku bez sprawdzenia tożsamości i uprawnienia odbiorcy."
     },
     {
       "id": "SC-ADR-B-13-02",
