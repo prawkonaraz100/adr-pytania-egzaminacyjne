@@ -743,18 +743,9 @@
       "clause": "ADR 2025, 1.4.2.2.1(e)",
       "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
       "answer_review": {
-        "A": {
-          "expected_correct": true,
-          "rationale": "Przewoźnik powinien sprawdzić, czy masa pojazdu i ładunku nie przekracza dopuszczalnych wartości, w zakresie wymaganym przez ADR. Zabezpieczenie palet pasami nie zmniejsza ich masy i nie usuwa ryzyka przeciążenia. Obowiązek nie dotyczy wyłącznie pojazdów elektrycznych, a wcześniejsze obliczenia innej osoby nie zwalniają z reakcji na zauważoną niezgodność. Podstawa: ADR 1.4.2.2.1(e)."
-        },
-        "B": {
-          "expected_correct": false,
-          "rationale": "Wariant B („Nie, masa nie ma znaczenia”) przeczy obowiązkowi przypisanemu do uczestnika w ADR 2025, 1.4.2.2.1(e). Wymaga jeszcze kontroli dosłownego tekstu polskiego."
-        },
-        "C": {
-          "expected_correct": false,
-          "rationale": "Wariant C („Wyłącznie jeśli jest to pojazd elektryczny”) przeczy obowiązkowi przypisanemu do uczestnika w ADR 2025, 1.4.2.2.1(e). Wymaga jeszcze kontroli dosłownego tekstu polskiego."
-        }
+        "A": "Poprawna: obowiązki przewoźnika obejmują sprawdzenie masy i załadunku w zakresie ADR. Podstawa: ADR 1.4.2.2.1(e).",
+        "B": "Niepoprawna: zabezpieczenie ładunku nie usuwa obowiązku kontroli dopuszczalnej masy. Podstawa: ADR 1.4.2.2.1(e).",
+        "C": "Niepoprawna: obowiązek sprawdzenia masy nie dotyczy wyłącznie przewozu w cysternie. Podstawa: ADR 1.4.2.2.1(e)."
       },
       "observed_answer_key": "A",
       "notes_on_conditions": "Podział odpowiedzialności zależy od roli, konkretnej czynności i warunków ADR; przed publikacją wymagana recenzja specjalisty.",
@@ -768,10 +759,10 @@
         "options": {
           "A": "Tak, sprawdza masę i załadunek w swoim zakresie",
           "B": "Nie, masa pojazdu nie ma znaczenia, jeśli ładunek jest zabezpieczony",
-          "C": "Tylko gdy chodzi o pojazd elektryczny i jego baterie trakcyjne"
+          "C": "Tylko wtedy, gdy przewóz odbywa się cysterną"
         },
         "correct_option": "A",
-        "explanation": "Przewoźnik powinien sprawdzić, czy masa pojazdu i ładunku nie przekracza dopuszczalnych wartości, w zakresie wymaganym przez ADR. Zabezpieczenie palet pasami nie zmniejsza ich masy i nie usuwa ryzyka przeciążenia. Obowiązek nie dotyczy wyłącznie pojazdów elektrycznych, a wcześniejsze obliczenia innej osoby nie zwalniają z reakcji na zauważoną niezgodność. Podstawa: ADR 1.4.2.2.1(e).",
+        "explanation": "Przewoźnik powinien sprawdzić, czy masa pojazdu i ładunku nie przekracza dopuszczalnych wartości, w zakresie wymaganym przez ADR. Zabezpieczenie palet pasami nie zmniejsza ich masy, a obowiązek nie dotyczy wyłącznie przewozu w cysternie. Jeśli w trakcie kontroli wyjdzie niezgodność, nie wolno jej ignorować tylko dlatego, że ładunek jest stabilnie zamocowany. Podstawa: ADR 1.4.2.2.1(e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
