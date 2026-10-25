@@ -13,6 +13,9 @@ Wiele zagrożeń można ograniczyć przed wyjazdem: sprawdzając warunki załadu
 ## 1. Załadunek: palenie, silnik i otwieranie opakowań
 ADR 8.3.5 zabrania palenia podczas czynności ładunkowych w pojazdach oraz w ich pobliżu; obejmuje to również e-papierosy i podobne urządzenia. ADR 8.3.6 co do zasady wymaga wyłączenia silnika, z określonym wyjątkiem, gdy jest potrzebny do napędzania urządzeń przeładunkowych i prawo na to pozwala. ADR 8.3.3 zabrania kierowcy i pomocnikowi otwierania opakowań zawierających towary niebezpieczne. To odrębne reguły, z różnymi warunkami i wyjątkami.
 
+
+### Dodatkowe zasady załogi i pojazdu
+Oprócz zakazu palenia (ADR 8.3.5), zasady dotyczące silnika (8.3.6) i zakazu otwierania sztuk przesyłek (8.3.3), sprawdź również inne wymagania załogi: przewóz pasażerów niebędących członkami załogi jest zabroniony w warunkach ADR 8.3.1; członkowie załogi powinni umieć używać gaśnic (8.3.2); przenośne lampy nie mogą mieć metalowych części, które mogą powodować iskrzenie (8.3.4). W określonych zestawach pojazdu z ABS i przyczepy o maksymalnej masie przekraczającej 3,5 t wymagane połączenia elektryczne muszą pozostać podłączone podczas przewozu (ADR 8.3.8 i 9.2.2.6). Przed załadunkiem lub rozładunkiem kontrola może ujawnić niezgodność pojazdu, wyposażenia lub dokumentów: wstrzymaj odpowiednią czynność do czasu usunięcia problemu, z uwzględnieniem ADR 7.5.1.2–7.5.1.3.
 ## 2. Uszkodzone opakowanie, rozlew lub opary
 Nie dotykaj substancji, nie wdychaj oparów i nie rozpoznawaj zawartości po zapachu. Ostrzeż osoby w pobliżu, oddal się w bezpieczne miejsce i powiadom odpowiedzialne osoby lub służby. Stosuj instrukcje pisemne tylko w granicach własnego bezpieczeństwa. Nie zakładaj, że zwykłe rękawice chronią przed nieznaną substancją.
 
@@ -21,6 +24,11 @@ ADR 8.4 nie dotyczy automatycznie każdego przewozu ADR. Sprawdź konkretny wpis
 
 Jeżeli nie możesz spełnić warunków postoju, skontaktuj się z dyspozytorem i ustal zgodne rozwiązanie przed pozostawieniem pojazdu. Telefoniczna zgoda firmy nie znosi wymagań. W planowaniu uwzględnij pierwszeństwo zabezpieczonej bazy lub terenu zakładu przed dalszymi alternatywami, zgodnie z warunkami ADR. Niezależnie od obowiązku nadzoru, ADR 8.3.7 dotyczy hamulca postojowego; w określonych przypadkach przyczep bez hamulca stosuje się kliny zgodnie z przepisem.
 
+
+### Kolejność miejsc postoju i zabezpieczenie pojazdu
+Najpierw ustal, czy dany towar i ilość podlegają wymaganiom nadzoru. Sprawdź kolumnę 19 tabeli A oraz przepisy szczególne 8.5. Jeśli stosuje się ADR 8.4.1, kolejność alternatyw ma znaczenie: w pierwszej kolejności zabezpieczona baza lub zabezpieczony teren zakładu; jeśli niedostępne — odpowiedni parking dozorowany, którego osoba nadzorująca zna rodzaj ładunku i wie, gdzie znaleźć kierowcę; następnie inne dopuszczone miejsce parkingowe, jeżeli spełnia warunki przepisu; a jako ostatnią alternatywę odpowiednio odosobniony teren, z dala od drogi publicznej, zabudowań mieszkalnych i miejsc zwykłego ruchu lub gromadzenia się ludzi. Zastosuj dokładne warunki ADR 8.4.1(a)–(c), nie samą ogólną kolejność.
+
+Niezależnie od nadzoru użyj hamulca postojowego zgodnie z ADR 8.3.7. Przyczepę bez własnego urządzenia hamującego zabezpiecza się co najmniej jednym klinem pod koło, gdy przepis tego wymaga; klin należy do wymaganego wyposażenia. Polecenie dyspozytora nie uchyla wymagań, a krótka przerwa nie stanowi automatycznego wyjątku.
 ## Typowe błędy kursantów
 - zakładanie, że zakaz palenia nie dotyczy e-papierosów;
 - mieszanie zasad o paleniu, pracy silnika i otwieraniu opakowań;
