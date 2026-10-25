@@ -1,5 +1,8 @@
 # ADR-B-04 — Zapobieganie wypadkom i bezpieczny postój
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Wiele zagrożeń można ograniczyć przed wyjazdem: sprawdzając warunki załadunku, unikając źródeł zapłonu, nie otwierając samowolnie przesyłek i wybierając zgodne z ADR miejsce postoju. Po uszkodzeniu opakowania priorytetem jest bezpieczeństwo ludzi, a nie samodzielne badanie zawartości.
 
