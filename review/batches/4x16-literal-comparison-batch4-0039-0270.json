@@ -1,0 +1,514 @@
+{
+  "stage": "4x16",
+  "batch": "part-4-open-priority",
+  "date": "2026-10-25",
+  "base_commit": "db4b0fc78d9d1685f85575844da82f00ec1a2a42",
+  "question_count": 48,
+  "priority_scope": [
+    "written instructions and emergency response",
+    "tunnel/LQ rules",
+    "EQ",
+    "markings",
+    "hazard classes"
+  ],
+  "method": "Compared key and learner explanation against cited clauses in the full Polish ADR 2025 Tom I/II text copies hosted by the Ministry of Infrastructure and checked the scope of the 2025 corrigendum. Textual comparison only; formal legal approval and independent specialist A/B/C review remain pending.",
+  "legal_publication": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "polish_text_copy_tom_i": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+  "polish_text_copy_tom_ii": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+  "erratum": "https://eli.gov.pl/api/acts/DU/2025/1575/text.pdf",
+  "summary": {
+    "consistent_in_scope": 48,
+    "requires_correction": 0,
+    "unable_to_confirm": 0,
+    "question_changes": 0,
+    "status_changes": 0,
+    "formal_specialist_approvals": 0
+  },
+  "records": [
+    {
+      "id": "ADR-B-0039",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.3.4 zawiera standardowy wzór instrukcji pisemnych na czterech stronach; własna skrócona notatka firmy nie zastępuje wymaganego wzoru.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0088",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.3.2 i 5.4.3.4 określają wymagane instrukcje pisemne; przewoźnik nie może zastąpić ich dowolną, jednostronicową notatką.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0100",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Instrukcje pisemne 5.4.3.4 pozwalają ograniczać rozlew tylko wtedy, gdy można to zrobić bez narażania siebie i innych.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0101",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Przy nieznanej substancji priorytetem jest bezpieczeństwo: nie dotykaj jej ani nie rozpoznawaj po zapachu, ostrzeż innych i wezwij pomoc.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0102",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Pary palne mogą zapalić się od papierosa, e-papierosa lub iskry; nie używaj źródeł zapłonu i oddal się bezpiecznie.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0104",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Instrukcje pisemne przewidują zatrzymanie i zabezpieczenie pojazdu, w tym wyłączenie silnika, jeżeli można to zrobić bezpiecznie.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0106",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Przy oparach należy oddalić się od źródła i pozostać po stronie nawietrznej, aby ograniczyć wdychanie substancji.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0107",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Instrukcje pisemne wyraźnie zabraniają podejmowania gaszenia pożaru w przedziale ładunkowym z towarami niebezpiecznymi.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0108",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Gaśnicę można rozważyć przy małym pożarze poza przestrzenią ładunkową tylko wtedy, gdy jest to bezpieczne i zgodne z instrukcjami.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0110",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Po skażeniu odzieży należy bezpiecznie ją zdjąć i postąpić według instrukcji pierwszej pomocy; nie wolno przenosić skażenia na inne osoby.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0111",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Najpierw ostrzega się osoby w pobliżu i oddala je od zagrożenia; nie należy narażać się, by samodzielnie kierować tłumem w strefie skażenia.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0112",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Sprzęt do ograniczania rozlewu i osłony kanalizacji stosuje się tylko wtedy, gdy można to zrobić bezpiecznie, bez kontaktu z substancją.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0113",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4; program praktyczny zał. 1 (Dz.U. 2021 poz. 2150)",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Nie wolno wchodzić do skażonej strefy bez odpowiednich środków i przeszkolenia; najpierw trzeba zapewnić własne bezpieczeństwo i wezwać pomoc.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0130",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Przy nieznanej cieczy ogranicz kontakt i wdychanie, oddal się w bezpieczne miejsce i wezwij pomoc; nie próbuj samodzielnie identyfikować rozlewu.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0143",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 5.4.3.4; program kursu lit. k",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "W tunelu priorytetem jest bezpieczna ewakuacja i alarmowanie; załoga nie podejmuje gaszenia pożaru przedziału ładunkowego.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0163",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Osłonięcie odpływu można rozważyć tylko wtedy, gdy jest to bezpieczne i zgodne z instrukcjami; nie wolno wchodzić w rozlew lub opary.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0164",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "E-papieros może być źródłem zapłonu; nie używa się go przy palnych oparach, nawet gdy nie widać płomienia.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0166",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Gdy ogień obejmuje przestrzeń ładunkową, oddal się, ostrzeż innych i wezwij służby; nie próbuj gasić ładunku.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0167",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Skażoną odzież należy bezpiecznie usunąć i postępować według instrukcji pierwszej pomocy; nie rozprowadzać substancji na skórę lub innych ludzi.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0178",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Przy chmurze oparów oddal się od źródła i ustaw po stronie nawietrznej, jeśli można to zrobić bezpiecznie.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0180",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Nie zakładaj, że zwykłe rękawice chronią przed nieznanym materiałem żrącym; unikaj kontaktu, oddal się i wezwij pomoc.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0183",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Jeśli wiatr niesie opary w stronę kierowcy, należy odejść w bezpiecznym kierunku, najlepiej pod wiatr, bez przechodzenia przez chmurę.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0184",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Przy małym pożarze pojazdu poza przestrzenią ładunkową gaśnicę można użyć tylko, jeśli jest to bezpieczne, ogień jest w początkowej fazie i droga odwrotu pozostaje wolna.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0186",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Osoby postronne trzeba ostrzec i utrzymywać z dala od strefy zagrożenia, nie narażając siebie na kontakt z substancją.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0187",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4; program szkolenia praktycznego",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Pierwszą zasadą pomocy jest nie stawać się kolejną ofiarą; nie wchodzi się w chmurę gazu, lecz wzywa służby i przekazuje informacje.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0209",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.3.3; 8.6.4",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "8.6.4 ogranicza przewóz przez tunele kategorii E dla jednostek, które wymagają oznakowania LQ zgodnie z 3.4.13, z zastrzeżeniem 3.4.14.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0210",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 5.4.3.4; 1.9.5",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "W pożarze pojazdu w tunelu należy priorytetowo ewakuować się oznakowanym wyjściem i wezwać pomoc, a nie walczyć z pożarem ładunku.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0221",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Po odejściu od źródła oparów należy pozostać w bezpiecznej, nawietrznej lokalizacji i nie wracać do strefy zagrożenia.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0222",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Pożaru obejmującego przedział ładunkowy z towarami niebezpiecznymi załoga nie gasi; ewakuuje się i alarmuje służby.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0223",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Gaśnicę można rozważyć przy małym pożarze opony, jeśli ogień nie objął ładunku, działanie jest bezpieczne i nie opóźnia ewakuacji.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0224",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Należy ostrzec osoby postronne i skłonić je do oddalenia się, zachowując własne bezpieczeństwo i nie wchodząc w strefę skażenia.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0229",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Jeśli jest to bezpieczne, kierowca udostępnia ratownikom instrukcje pisemne i informacje z dokumentów o przewożonym towarze.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0230",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Skażoną odzież należy bezpiecznie zdjąć i postępować zgodnie z instrukcjami pierwszej pomocy; nie wolno przenosić skażenia na inne osoby.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0234",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.3.2; 5.4.3.4",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Wymagany jest standardowy model instrukcji pisemnych ADR; własna jednostronicowa skrócona wersja nie zastępuje wzoru z 5.4.3.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0242",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.4.3.4",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Ograniczanie odpływu do kanalizacji jest dopuszczalne tylko, gdy nie naraża kierowcy na kontakt z substancją i jest zgodne z instrukcjami.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0254",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 8.1.5.3",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "8.1.5.3 wymaga maski ucieczkowej dla każdego członka załogi przy nalepkach 2.3 lub 6.1.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0255",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.2.2",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Na numerowanej tablicy pomarańczowej numer UN znajduje się w dolnym polu; górne pole wskazuje numer rozpoznawczy zagrożenia.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0256",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.3.1",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Litera X przed numerem zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą; nie należy używać wody bez sprawdzenia instrukcji.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0257",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.2.2",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.3.2.2.2 opisuje tablicę pomarańczową z czarnymi oznaczeniami w dwóch polach: zagrożenie u góry, numer UN na dole.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0258",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.2.1",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.3.2.2.1 określa standardową tablicę 400 mm szerokości i 300 mm wysokości.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0260",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 3.5.1.2",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Kod EQ E0 w kolumnie 7b oznacza, że wyłączenie dla ilości wyłączonych nie jest dozwolone dla tej pozycji.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0261",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 3.4.2",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "3.4.2 co do zasady ogranicza masę brutto sztuki przesyłki LQ do 30 kg w typowym opakowaniu zewnętrznym; osobne wyjątki dotyczą tac z folią termokurczliwą.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0265",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.43.1.1",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.43.1.1: klasa 4.3 obejmuje materiały, które w kontakcie z wodą wydzielają palne gazy.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0266",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.51.1.1",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.51.1.1: klasa 5.1 obejmuje materiały utleniające, które mogą nasilać spalanie.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0267",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.8.1.1",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.8.1.1: klasa 8 oznacza materiały żrące.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0268",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 5.2.2.2.2",
+      "correct_option": "A",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Wzór nalepki 4.1 w 5.2.2.2.2 oznacza materiały stałe zapalne.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0269",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 5.2.2.2.2",
+      "correct_option": "B",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Wzór nalepki 4.3 w 5.2.2.2.2 oznacza materiały, które w kontakcie z wodą wydzielają palne gazy.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0270",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 5.2.2.2.2",
+      "correct_option": "C",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Wzór z płomieniem nad okręgiem i cyfrą 5.1 oznacza materiały utleniające.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    }
+  ],
+  "caveats": [
+    "No question was marked verified.",
+    "Ministry-hosted copies are auxiliary; the legally authoritative source remains Dz.U. 2025 poz. 642.",
+    "ADR-B-0162 remains open for a direct review of the corrigendum and is not part of this batch."
+  ]
+}
