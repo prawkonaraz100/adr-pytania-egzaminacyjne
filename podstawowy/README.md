@@ -30,7 +30,15 @@
 
 - [Wariant 001 — arkusz pytań](egzamin-probny/wariant-001.json)
 - [Wariant 001 — klucz i wyjaśnienia](egzamin-probny/klucz-001.json)
-- [Instrukcja generowania kolejnych wariantów](egzamin-probny/README.md)
+- [Wariant 002 — arkusz pytań](egzamin-probny/wariant-002.json)
+- [Wariant 002 — klucz i wyjaśnienia](egzamin-probny/klucz-002.json)
+- [Wariant 003 — arkusz pytań](egzamin-probny/wariant-003.json)
+- [Wariant 003 — klucz i wyjaśnienia](egzamin-probny/klucz-003.json)
+- [Wariant 004 — arkusz pytań](egzamin-probny/wariant-004.json)
+- [Wariant 004 — klucz i wyjaśnienia](egzamin-probny/klucz-004.json)
+- [Wariant 005 — arkusz pytań](egzamin-probny/wariant-005.json)
+- [Wariant 005 — klucz i wyjaśnienia](egzamin-probny/klucz-005.json)
+- [Instrukcja egzaminów próbnych](egzamin-probny/README.md)
 - Format treningowy: 30 pytań, 60 minut, próg 20/30 (2/3). Generator dobiera pytania proporcjonalnie z 13 działów.
 - **Zastrzeżenie:** wszystkie pytania pozostają `needs_review`, więc egzamin nie jest zatwierdzonym testem do formalnej oceny ani oficjalnym arkuszem.
 
