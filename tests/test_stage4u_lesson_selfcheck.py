@@ -27,26 +27,42 @@ class Stage4uSelfCheckTests(unittest.TestCase):
             self.assertIn(sid, section)
             self.assertIn("../praktyka/scenariusze-13-dzialow.json", section)
 
-    def test_variant_003_ids_answer_key_and_no_overlap(self):
+    def test_all_mock_exam_variants_and_keys_match_live_bank(self):
         base = ROOT/"podstawowy/egzamin-probny"
-        variants = [json.loads((base/f"wariant-{i:03d}.json").read_text(encoding="utf-8")) for i in (1, 2, 3)]
-        key = json.loads((base/"klucz-003.json").read_text(encoding="utf-8"))
         bank = {q["id"]: q for ln in (ROOT/"podstawowy/questions.jsonl").read_text(encoding="utf-8").splitlines() if ln.strip() for q in [json.loads(ln)]}
-        sets = [{q["id"] for q in v["questions"]} for v in variants]
-        self.assertEqual(len(sets[2]), 30)
-        self.assertFalse(sets[0] & sets[2])
-        self.assertFalse(sets[1] & sets[2])
-        self.assertEqual({q["module_id"] for q in variants[2]["questions"]}, {f"ADR-B-{i:02d}" for i in range(1,14)})
-        self.assertEqual([q["id"] for q in variants[2]["questions"]], [a["id"] for a in key["answers"]])
-        self.assertEqual(variants[2]["pass_mark_correct"], 20)
-        self.assertFalse(variants[2]["publication_authorized"])
-        for q in variants[2]["questions"]:
-            self.assertIn(q["id"], bank)
-            self.assertEqual(q["module_id"], bank[q["id"]]["module_id"])
-            self.assertEqual(q["options"], bank[q["id"]]["options"])
-        for a in key["answers"]:
-            self.assertEqual(a["correct_option"], bank[a["id"]]["correct_option"])
-            self.assertEqual(a["explanation"], bank[a["id"]]["explanation"])
+        seen = set()
+        for number in range(1, 6):
+            variant = json.loads((base/f"wariant-{number:03d}.json").read_text(encoding="utf-8"))
+            key = json.loads((base/f"klucz-{number:03d}.json").read_text(encoding="utf-8"))
+            questions = variant["questions"]
+            answers = key["answers"]
+            ids = [q["id"] for q in questions]
+            self.assertEqual(len(ids), 30, f"variant {number}")
+            self.assertEqual(len(set(ids)), 30, f"duplicate IDs in variant {number}")
+            self.assertFalse(seen.intersection(ids), f"cross-variant overlap in variant {number}")
+            seen.update(ids)
+            self.assertEqual([q["number"] for q in questions], list(range(1, 31)))
+            self.assertEqual([q["id"] for q in questions], [a["id"] for a in answers])
+            self.assertEqual([a["number"] for a in answers], list(range(1, 31)))
+            self.assertEqual({q["module_id"] for q in questions}, {f"ADR-B-{i:02d}" for i in range(1, 14)})
+            self.assertEqual(sum(variant["module_distribution"].values()), 30)
+            self.assertEqual(variant["pass_mark_correct"], 20)
+            self.assertFalse(variant["publication_authorized"])
+            self.assertFalse(key["publication_authorized"])
+            for q in questions:
+                self.assertIn(q["id"], bank)
+                source = bank[q["id"]]
+                self.assertEqual(q["module_id"], source["module_id"])
+                self.assertEqual(q["stem"], source["stem"])
+                self.assertEqual(q["options"], source["options"])
+            for answer in answers:
+                source = bank[answer["id"]]
+                self.assertEqual(answer["correct_option"], source["correct_option"])
+                self.assertEqual(answer["explanation"], source["explanation"])
+                self.assertEqual(answer["legal_basis"], [s.get("reference", "") for s in source.get("sources", [])])
+            distribution = {letter: sum(1 for a in answers if a["correct_option"] == letter) for letter in "ABC"}
+            if number in (4, 5):
+                self.assertLessEqual(max(distribution.values()) - min(distribution.values()), 3, f"unbalanced key in variant {number}: {distribution}")
 
 if __name__ == "__main__":
     unittest.main()
