@@ -30,7 +30,7 @@ Warianty wskazują źródłowy commit `e1eb80d9db9bb5f475bb655fc08b47b7a866bb64`
 - Snapshoty audytu sekwencyjnego dla ADR-B-0598–0609: 12/12 zgodnych z aktualnym bankiem.
 - Snapshoty audytu A/B/C dla ADR-B-0598–0609: 12/12 zgodnych z aktualnym bankiem.
 - Manifest pakietu: 609 pytań, 609 `needs_review`, 0 `verified`, 0 formalnych akceptacji.
-- Licznik `unresolved_literal_comparisons` skorygowano z 599 do **609**: 599 rekordów ma status „nie pobrano i nie porównano literalnie”, a 10 rekordów ma sprawdzone źródło pomocnicze, lecz pełne porównanie polskiego brzmienia nadal oczekuje. Oba stany pozostają nierozstrzygnięte do celu formalnej weryfikacji.
+- Pole manifestu `unresolved_literal_comparisons = 599` liczy rekordy, dla których pełny polski fragment nie został pobrany i porównany literalnie. Dodatkowe 10 rekordów ma sprawdzone źródło pomocnicze, ale ich pełne literalne porównanie również pozostaje otwarte. **Łącznie wszystkie 609 rekordów nadal oczekują pełnego literalnego porównania i niezależnej akceptacji.** Licznik manifestu zachowuje definicję sprawdzaną przez Quality Gate.
 
 ## 3. Quality Gate i metryki banku
 
