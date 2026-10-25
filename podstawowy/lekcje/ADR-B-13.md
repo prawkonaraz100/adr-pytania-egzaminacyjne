@@ -146,5 +146,16 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+W banku pojawiają się następujące typowe pomyłki. W realnej pracy nie zgaduj — sprawdź warunek ADR właściwy dla towaru i sposobu przewozu.
+
+- Zastępowanie wymaganych instrukcji pisemnych skrótem firmy lub numerem telefonu — instrukcje mają ustalony wzór i muszą być dostępne dla załogi (ADR 5.4.3).
+- Uznawanie, że telefon lub skan zawsze zastępuje wymagany dokument — sprawdź, jaki dokument musi znajdować się w pojeździe i czy jest dostępny w wymaganej postaci (ADR 8.1.2 i 9.1.3).
+- Pomijanie danych wymaganych w dokumencie przewozowym, np. danych nadawcy/odbiorcy lub zagrożenia dodatkowego — popraw kontakt telefoniczny nie zastępuje obowiązkowych wpisów (ADR 5.4.1).
+
+Niejasne terminy wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
