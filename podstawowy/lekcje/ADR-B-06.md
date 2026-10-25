@@ -7,7 +7,7 @@
 Oznakowanie pomaga służbom i uczestnikom przewozu rozpoznać rodzaj zagrożenia oraz powiązać przesyłkę z dokumentacją. Nieczytelna nalepka, błędny numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A; [słowniczek](../SLOWNICZEK.md#numer-un)) albo rozbieżność na tablicy pomarańczowej (oznaczenie pojazdu używane w określonych przewozach; numerowana tablica może pokazywać zagrożenie i numer UN; [słowniczek](../SLOWNICZEK.md#tablica-pomaranczowa)) może utrudnić prawidłową reakcję. Przed wyjazdem porównaj oznakowanie z dokumentem i właściwym wpisem ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)).
 
 ## Czego się nauczysz
-- odróżniać numer UN od numeru rozpoznawczego zagrożenia;
+- odróżniać numer UN od numeru rozpoznawczego zagrożenia (liczby opisującej rodzaj zagrożenia na górze tablicy pomarańczowej; [słowniczek](../SLOWNICZEK.md#numer-rozpoznawczy-zagrozenia));
 - rozpoznawać rolę tablic pomarańczowych i nalepek;
 - odróżniać nalepkę na sztuce przesyłki od nalepki dużego formatu na jednostce transportowej;
 - sprawdzać czytelność, widoczność i właściwe położenie oznakowania;
