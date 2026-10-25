@@ -18,11 +18,11 @@ Dodano „Najczęstsze błędy kursantów” do B-01–B-04, z odwołaniami do w
 - B-04: e-papierosy, samowolne otwieranie przesyłek, silnik podczas załadunku, sprawdzanie nadzoru.
 
 ## Lista pytań objętych przeglądem
-Wszystkie ID z modułów B-01, B-02, B-03 i B-04 w pliku `podstawowy/questions.jsonl` (moduły: ADR-B-01–ADR-B-04). Skrypt oznaczył 17 pozycji do dodatkowej oceny heurystycznej; po ręcznym sprawdzeniu nie potraktowano samej obecności skrótu jako błędu, bo wyjaśnienia te rozwijają go w treści albo używają terminu poprawnie. Nie znaleziono potwierdzonej sprzeczności prawnej wymagającej zmiany klucza w tej partii.
+Wszystkie ID z modułów B-01, B-02, B-03 i B-04 w pliku `podstawowy/questions.jsonl` (moduły: ADR-B-01–ADR-B-04). Skrypt oznaczył 17 pozycji do dodatkowej oceny heurystycznej; CI ujawniło, że poprzednie brzmienie dystraktora w ADR-B-0350 zwiększyło wskaźnik dla B-04 do 9/46 (19,57%). Wydłużono realistyczny dystraktor B tak, aby nie tworzyć wskazówki długości poprawnej odpowiedzi; po korekcie moduł B-04 wrócił do progu. Po ręcznym sprawdzeniu nie potraktowano samej obecności skrótu jako błędu, bo wyjaśnienia te rozwijają go w treści albo używają terminu poprawnie. Nie znaleziono potwierdzonej sprzeczności prawnej wymagającej zmiany klucza w tej partii. Nie zmieniono poprawnej litery.
 
 ## Preflight Quality Gate
 - Bank: 609 pytań; duplikaty ID: 0.
-- „Poprawna odpowiedź jest jedyną najdłuższą”: 83/609 = 13.63% (limit 18%).
+- „Poprawna odpowiedź jest jedyną najdłuższą”: 82/609 = 13.46% (limit 18%).
 - Najkrótsze explanation: 300 znaków; poniżej 200 znaków: 0.
 - Statusy: 609 `needs_review`, 0 `verified`.
 - Nie oznaczono żadnego pytania jako `verified`.
