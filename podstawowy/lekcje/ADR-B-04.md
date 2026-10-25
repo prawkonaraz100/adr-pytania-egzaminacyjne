@@ -140,5 +140,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+Poniższe pomyłki wynikają z typowych nieporozumień widocznych w pytaniach tego działu. Przy każdej odpowiedzi sprawdź warunek, który rozstrzyga sytuację, zamiast zapamiętywać samą literę.
+
+- Uznawanie, że e-papieros nie może być źródłem zagrożenia — zakaz podczas czynności ładunkowych obejmuje również takie urządzenia (ADR 8.3.5).
+- Otwieranie przesyłki, bo pojazd stoi na parkingu lub ktoś telefonicznie wyraził zgodę — postój nie uchyla zasad bezpieczeństwa; nie otwieraj samowolnie sztuk przesyłek (ADR 8.3.3).
+- Pozostawianie silnika włączonego bez potrzeby podczas załadunku — wyłącz go, chyba że jest potrzebny do urządzeń i zachodzi przewidziany przepisem wyjątek (ADR 8.3.6).
+- Zakładanie, że nadzór pojazdu dotyczy wszystkich towarów jednakowo — sprawdź przepis S w kolumnie 19 tabeli A i warunki dotyczące ilości (ADR 8.4.1 i tabela A, kolumna 19).
+
+W razie niejasnych pojęć skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
