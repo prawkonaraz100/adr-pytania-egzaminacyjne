@@ -1,0 +1,892 @@
+{
+  "stage": "4x16",
+  "batch": "part-11",
+  "date": "2026-10-25",
+  "base_commit": "1707f405a5cdb01ce825a315dabddf9a06be3d0f",
+  "comparison_count": 48,
+  "scope": {
+    "new_questions": "48 IDs not previously in comparison records",
+    "ids": [
+      "ADR-B-0139",
+      "ADR-B-0140",
+      "ADR-B-0141",
+      "ADR-B-0144",
+      "ADR-B-0148",
+      "ADR-B-0172",
+      "ADR-B-0173",
+      "ADR-B-0174",
+      "ADR-B-0177",
+      "ADR-B-0181",
+      "ADR-B-0195",
+      "ADR-B-0196",
+      "ADR-B-0200",
+      "ADR-B-0201",
+      "ADR-B-0202",
+      "ADR-B-0204",
+      "ADR-B-0205",
+      "ADR-B-0208",
+      "ADR-B-0211",
+      "ADR-B-0213",
+      "ADR-B-0235",
+      "ADR-B-0236",
+      "ADR-B-0237",
+      "ADR-B-0238",
+      "ADR-B-0239",
+      "ADR-B-0240",
+      "ADR-B-0243",
+      "ADR-B-0245",
+      "ADR-B-0246",
+      "ADR-B-0247",
+      "ADR-B-0249",
+      "ADR-B-0262",
+      "ADR-B-0263",
+      "ADR-B-0264",
+      "ADR-B-0274",
+      "ADR-B-0275",
+      "ADR-B-0278",
+      "ADR-B-0286",
+      "ADR-B-0290",
+      "ADR-B-0292",
+      "ADR-B-0293",
+      "ADR-B-0300",
+      "ADR-B-0301",
+      "ADR-B-0304",
+      "ADR-B-0305",
+      "ADR-B-0310",
+      "ADR-B-0312",
+      "ADR-B-0319"
+    ]
+  },
+  "method": "Clause-by-clause comparison against the cited provisions of Polish ADR 2025, using Dz.U. 2025 poz. 642 as the authoritative publication and MI-hosted full text as a reading aid. Two questions remain open because the cited general security provision does not independently confirm the specific identity-verification obligation in their wording.",
+  "legal_publication": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "polish_text_tom_i": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+  "polish_text_tom_ii": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+  "erratum": "https://eli.gov.pl/api/acts/DU/2025/1575/text.pdf",
+  "summary": {
+    "reviewed": 48,
+    "consistent_in_scope": 46,
+    "confirmed_corrections": 0,
+    "unable_to_confirm": 2,
+    "question_changes": 0,
+    "status_changes": 0,
+    "formal_specialist_approvals": 0
+  },
+  "records": [
+    {
+      "id": "ADR-B-0139",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.3.1.1; 3.2 tabela A kol. (10),(17)",
+      "stem": "W jakim przypadku ADR 7.3.1.1 dopuszcza przewóz towarów niebezpiecznych luzem w pojeździe lub kontenerze?",
+      "options": {
+        "A": "Gdy opakowania nie mieszczą się na palecie, można je przewieźć luzem bez dodatkowych warunków",
+        "B": "Gdy tabela A zawiera kod BK/VC albo odesłanie do przepisu szczególnego i spełniono warunki",
+        "C": "Gdy pojazd ma plandekę, a przewoźnik zatwierdził przewóz luzem bez sprawdzania tabeli"
+      },
+      "correct_option": "B",
+      "explanation": "Przewóz luzem oznacza transport towaru bez typowych sztuk przesyłek i wolno go zastosować tylko tam, gdzie ADR wyraźnie na to pozwala. Trzeba sprawdzić odpowiedni kod BK, VC lub szczególne odesłanie w tabeli A oraz wymagane warunki. Sama plandeka albo decyzja przewoźnika nie wystarcza do zalegalizowania przewozu luzem. Podstawa: ADR 7.3.1.1 oraz warunki 7.3.2 lub 7.3.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.3.1.1 i kolumnami 10/17 tabeli A: przewóz luzem wymaga wyraźnego dopuszczenia dla konkretnego towaru; brak właściwego wpisu nie daje swobody przewozu luzem.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0140",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "stem": "Zwykły kontener ładunkowy ze sztukami przesyłek ADR (nie kontener-cysterna) będzie najpierw przewożony drogą, a następnie drogą morską. Jaki dodatkowy dokument może wymagać ADR 5.4.2?",
+      "options": {
+        "A": "Dokumentu ADR bez potwierdzenia pakowania kontenera",
+        "B": "Świadectwa dopuszczenia pojazdu drogowego zamiast dokumentu potwierdzającego prawidłowe pakowanie kontenera",
+        "C": "Certyfikat pakowania kontenera/pojazdu, gdy zachodzą warunki tego przepisu"
+      },
+      "correct_option": "C",
+      "explanation": "Przy przewozie zwykłego kontenera z towarami niebezpiecznymi drogą, a potem statkiem, może być wymagany certyfikat potwierdzający prawidłowe pakowanie kontenera lub pojazdu. Sam dokument drogowy nie zawsze wystarcza, a świadectwo dopuszczenia pojazdu nie pełni tej funkcji. Niektóre jednostki, np. kontenerów-cystern i cystern przenośnych, dotyczą odrębne wyjątki. Podstawa: ADR 5.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2–1.1.4.3 oraz 5.4.2: transport łączony podlega regułom właściwym dla danego odcinka, a certyfikat pakowania i elektroniczny obieg dokumentu mają określone warunki.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0141",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2; 1.1.4.3",
+      "stem": "Który zestaw odpowiada gałęziom transportu towarów niebezpiecznych?",
+      "options": {
+        "A": "ADR — droga, RID — kolej, IMDG — morze",
+        "B": "ADR — morze, RID — lotnictwo, IMDG — droga",
+        "C": "ADR — kolej, RID — droga, IMDG — żegluga śródlądowa"
+      },
+      "correct_option": "A",
+      "explanation": "Towary niebezpieczne mogą być przewożone różnymi rodzajami transportu, a każdy ma własny zestaw przepisów. ADR dotyczy drogi, RID kolei, a IMDG przewozu morskiego. Warianty B i C zamieniają te zakresy, więc mogą prowadzić do zastosowania niewłaściwych wymagań przy zmianie środka transportu. Podstawa: ADR 1.1.4.2–1.1.4.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2–1.1.4.3 oraz 5.4.2: transport łączony podlega regułom właściwym dla danego odcinka, a certyfikat pakowania i elektroniczny obieg dokumentu mają określone warunki.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0144",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 8.4.1",
+      "stem": "Przy przewozie objętym 8.4.1 ADR jaki postój bez bezpośredniego nadzoru może być dopuszczony?",
+      "options": {
+        "A": "Skorzystać z zabezpieczonej bazy lub terenu zakładu, jeśli jest dostępny",
+        "B": "Stanąć na poboczu drogi z dostępem publicznym, jeśli kierowca czuwa",
+        "C": "Wybrać parking z monitoringiem bez sprawdzenia kolejności z ADR"
+      },
+      "correct_option": "A",
+      "explanation": "Gdy przewóz wymaga nadzoru zgodnie z ADR 8.4.1, pojazdu nie można pozostawić po prostu w dowolnym miejscu. Odpowiednio zabezpieczona baza lub teren chronionego zakładu może spełniać warunki postoju bez bezpośredniego nadzoru. Cena parkingu czy wygodne pobocze nie decydują o dopuszczalności takiego postoju. Podstawa: ADR 8.4.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.4.1: przy wymaganym nadzorze wybór postoju nie jest dowolny; należy stosować kolejność i warunki dopuszczonych miejsc.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0148",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 8.2.1; prawo krajowe o uprawnieniach do kierowania",
+      "stem": "Kierowca ma aktualne zaświadczenie ADR, ale nie ma prawa jazdy odpowiedniej kategorii na prowadzony zestaw. Co z tego wynika?",
+      "options": {
+        "A": "Zaświadczenie ADR wystarczy, jeśli kierowca nie wykonuje załadunku ani rozładunku",
+        "B": "Zaświadczenie ADR nie zastępuje prawa jazdy odpowiedniej kategorii dla zestawu",
+        "C": "Zaświadczenie ADR zastępuje kategorię prawa jazdy po ukończeniu kursu"
+      },
+      "correct_option": "B",
+      "explanation": "Zaświadczenie ADR dotyczy przygotowania do przewozu towarów niebezpiecznych, a prawo jazdy uprawnia do prowadzenia odpowiedniego pojazdu. Kierowca potrzebuje obu uprawnień, gdy są wymagane. Zaświadczenie ADR nie pozwala prowadzić zestawu bez właściwej kategorii, niezależnie od tego, czy wykonuje się załadunek. Podstawa: ADR 8.2.1 i przepisy o uprawnieniach kierowców.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.2.1: zaświadczenie ADR kierowcy i prawo jazdy odpowiedniej kategorii są odrębnymi wymaganiami; szkolenie i egzamin nie zastępują uprawnień do kierowania.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0172",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.1.5",
+      "stem": "Opakowanie ADR ma strzałki kierunkowe, a pracownik chce je położyć na boku, aby zmieściło się pod pasem. Co jest właściwe?",
+      "options": {
+        "A": "Odwrócić opakowanie, jeśli ładunek jest cięższy od opakowania",
+        "B": "Ustawić opakowanie zgodnie z kierunkiem wskazanym strzałkami",
+        "C": "Położyć na boku, jeśli pasy mocujące pozostają mocno napięte"
+      },
+      "correct_option": "B",
+      "explanation": "Strzałki kierunkowe na opakowaniu wskazują wymaganą pozycję sztuki przesyłki podczas przewozu. Opakowanie należy więc ustawić zgodnie z tym oznaczeniem, nawet jeśli ułożenie go na boku wydaje się wygodniejsze dla mocowania. Ciężar ładunku ani mocno napięte pasy nie pozwalają zignorować strzałek, ponieważ mogą zwiększyć ryzyko wycieku lub uszkodzenia. Podstawa: ADR 7.5.1.5.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.1.5 i 7.5.7.1–7.5.7.2: przesyłki trzeba ustawić zgodnie ze strzałkami i zabezpieczyć przed przesuwaniem bez uszkadzania opakowań.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0173",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.3.1.1; 3.2 tabela A kol. (10),(17)",
+      "stem": "Dla danego towaru nie znaleziono w kolumnach 10 i 17 tabeli A ani kodu BK/VC, ani wyraźnego odesłania dopuszczającego przewóz luzem. Co wynika z ADR 7.3.1.1?",
+      "options": {
+        "A": "Wystarczy szczelna plandeka i zabezpieczenie przed pyleniem",
+        "B": "Kierowca może wybrać przewóz luzem, jeśli materiał jest stały",
+        "C": "Nie, brak wskazania w ADR oznacza brak podstawy do przewozu luzem"
+      },
+      "correct_option": "C",
+      "explanation": "Przewóz luzem wolno zastosować tylko wtedy, gdy ADR wyraźnie dopuszcza taką metodę dla konkretnego towaru. Jeśli w tabeli A nie ma odpowiedniego kodu BK, VC ani szczególnego odesłania, nie można samodzielnie uznać przewozu luzem za dozwolony. Szczelna plandeka ani zgoda kierowcy nie zastępują przepisu; istnieją też odrębne reguły dla pustych opakowań. Podstawa: ADR 7.3.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.3.1.1 i kolumnami 10/17 tabeli A: przewóz luzem wymaga wyraźnego dopuszczenia dla konkretnego towaru; brak właściwego wpisu nie daje swobody przewozu luzem.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0174",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.3.1",
+      "stem": "Dla towaru w kolumnie 15 tabeli A widnieje kod tunelowy (-). Jakie znaczenie ma ten zapis?",
+      "options": {
+        "A": "Kod (-) oznacza brak ograniczenia tunelowego ADR dla tego towaru",
+        "B": "Kod pozwala zignorować znak zakazu dla tunelu kategorii E, jeśli ładunek jest mały",
+        "C": "Kod zakazuje wjazdu do tuneli od kategorii A do E"
+      },
+      "correct_option": "A",
+      "explanation": "Kod tunelowy „(-)” oznacza brak ograniczenia tunelowego wynikającego z kodu ADR przypisanego do tej pozycji. Nie zwalnia to kierowcy z przestrzegania znaków drogowych ani innych ograniczeń obowiązujących na trasie. Zapis nie jest więc zgodą na ignorowanie zakazów i nie oznacza zakazu wjazdu do wszystkich tuneli, dlatego B i C są błędne. Podstawa: ADR 8.6.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.6.3–8.6.4: kod tunelowy trzeba interpretować według sposobu przewozu i kodu w kolumnie 15 tabeli A; nie wolno rozszerzać zakazu poza wynikającą z kodu kategorię.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0177",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 7.5.8.1",
+      "stem": "Po rozładunku ADR w skrzyni ładunkowej wykryto pozostałości wycieku. Na miejscu nie ma możliwości bezpiecznego czyszczenia. Co przewiduje ADR 7.5.8.1?",
+      "options": {
+        "A": "Zabezpieczyć pojazd i przewieźć go do miejsca czyszczenia",
+        "B": "Doładować towar po zgłoszeniu pozostałości",
+        "C": "Odmówić czyszczenia, jeśli materiał nie wydostaje się już z pustego opakowania"
+      },
+      "correct_option": "A",
+      "explanation": "Pozostałości niebezpiecznej substancji w skrzyni mogą zagrozić ludziom i następnemu ładunkowi. Jeżeli bezpieczne oczyszczenie na miejscu jest niemożliwe, pojazd trzeba odpowiednio zabezpieczyć i skierować do najbliższego właściwego miejsca czyszczenia. Kolejny załadunek po zgłoszeniu problemu i pozostawienie resztek w skrzyni nie usuwają ryzyka. Podstawa: ADR 7.5.8.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.8.1–7.5.8.2: po wycieku pojazd trzeba oczyścić jak najszybciej i przed kolejnym załadunkiem; przy przewozie luzem istnieje wąski wyjątek dla ponownego załadunku tego samego towaru.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0181",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 8.4.1",
+      "stem": "W przewozie objętym wymaganiami 8.4 ADR kierowca nie znajduje chronionego depozytu ani właściwego terenu zakładu. Co powinien zrobić?",
+      "options": {
+        "A": "Wybrać dowolne pobocze, bo brak miejsca zwalnia z dalszych poszukiwań",
+        "B": "Sprawdzić inne miejsca dopuszczone w 8.4.1, zamiast parkować dowolnie",
+        "C": "Uznać, że po pierwszej nieudanej próbie nie trzeba już szukać miejsca zgodnego z 8.4.1"
+      },
+      "correct_option": "B",
+      "explanation": "Przy przewozach wymagających nadzoru ADR określa, gdzie i pod jakimi warunkami można pozostawić pojazd. Gdy najlepiej chronione miejsce jest niedostępne, trzeba sprawdzić kolejne dopuszczone rozwiązania w odpowiedniej kolejności. Brak miejsca w bazie nie oznacza prawa do postoju na dowolnym poboczu ani końca obowiązków. Podstawa: ADR 8.4.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.4.1: przy wymaganym nadzorze wybór postoju nie jest dowolny; należy stosować kolejność i warunki dopuszczonych miejsc.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0195",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.2.3.2",
+      "stem": "Po rozładunku kontenera ADR odbiorca stwierdza niezgodność z wymaganiami, za którą odpowiada zgodnie z 1.4.2.3.2. Czy może od razu zwrócić kontener przewoźnikowi?",
+      "options": {
+        "A": "Nie, niezgodność trzeba usunąć przed zwrotem kontenera przewoźnikowi",
+        "B": "Przekazać kontener po samym rozładunku, a niezgodność zgłosić później",
+        "C": "Przekazać kontener z protokołem, że usterkę usunie przewoźnik"
+      },
+      "correct_option": "A",
+      "explanation": "Jeżeli po rozładunku kontenera odbiorca stwierdzi niezgodność objętą jego obowiązkami ADR, powinien doprowadzić do jej usunięcia przed zwróceniem kontenera przewoźnikowi. Sam fakt zakończenia rozładunku ani ustna zgoda kierowcy nie likwidują naruszenia. Sam protokół przekazania problemu nie zastępuje jego usunięcia. Podstawa: ADR 1.4.2.3.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.4.2–1.4.3: odbiorca, pakujący, załadowca i rozładowca mają odrębne obowiązki, których nie usuwa podpis ani przekazanie czynności podwykonawcy.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0196",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 8.3.1",
+      "stem": "Kierowca ADR stwierdza, że osoba niezwiązana z załogą chce jechać pojazdem jako pasażer podczas przewozu objętego 8.3.1. Co jest poprawne?",
+      "options": {
+        "A": "Wystarczy pozwolenie nadawcy wydane telefonicznie",
+        "B": "Nie wolno przewozić osób spoza załogi w tej jednostce",
+        "C": "Pasażer może jechać, jeśli nie wykonuje zadań przy ładunku"
+      },
+      "correct_option": "B",
+      "explanation": "Przepisy ADR ograniczają liczbę osób przebywających w jednostce transportowej, kiedy obowiązuje zakaz przewozu pasażerów. Osoba niezwiązana z załogą nie może wtedy po prostu zabrać się z kierowcą. Telefoniczna zgoda nadawcy ani brak udziału pasażera w pracy przy ładunku nie stanowią wyjątku. Podstawa: ADR 8.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.3.1 i 8.3.3: w jednostce przewożącej towary niebezpieczne nie przewozi się osób spoza załogi wbrew przepisom, a załoga nie otwiera samowolnie sztuk przesyłek.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0200",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.7.1",
+      "stem": "Obok kartonów ADR załadowano ciężką maszynę niebędącą towarem niebezpiecznym. Co wymaga ADR przy jej mocowaniu?",
+      "options": {
+        "A": "Zabezpieczyć także maszynę przed przesunięciem",
+        "B": "Mocować jedynie paczki ADR",
+        "C": "Ustawić ciężką maszynę przy tylnej ścianie i uznać, że jej masa wystarczy do stabilizacji"
+      },
+      "correct_option": "A",
+      "explanation": "Ciężka maszyna może przesunąć się podczas gwałtownego hamowania i uderzyć w opakowania ADR, nawet jeśli sama nie jest towarem niebezpiecznym. Dlatego również ją trzeba zabezpieczyć przed przemieszczaniem. Zasady mocowania obejmują również ciężką maszynę, a samo oparcie jej o ścianę nie zabezpiecza przed ruchem. Podstawa: ADR 7.5.7.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.1.5 i 7.5.7.1–7.5.7.2: przesyłki trzeba ustawić zgodnie ze strzałkami i zabezpieczyć przed przesuwaniem bez uszkadzania opakowań.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0201",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.8.2",
+      "stem": "Po rozładunku towaru niebezpiecznego przewożonego luzem pojazd ma zostać ponownie załadowany dokładnie tym samym towarem. Czy ADR zawsze wymaga czyszczenia przed ponownym załadunkiem?",
+      "options": {
+        "A": "Oczyścić także przy tym samym towarze",
+        "B": "Nie, przy tym samym towarze istnieje wyjątek",
+        "C": "Pominąć czyszczenie pojazdu po kolejnych przewozach luzem, jeżeli zachowano zamknięcia"
+      },
+      "correct_option": "B",
+      "explanation": "Po przewozie luzem zasadą jest oczyszczenie pojazdu lub kontenera przed kolejnym załadunkiem, aby resztki wcześniejszego towaru nie zanieczyściły nowego. Jeśli jednak następny ładunek jest dokładnie tym samym towarem, ADR przewiduje wyjątek. Przy identycznym ładunku istnieje wyjątek, ale nie uprawnia on do rezygnacji z czyszczenia po każdym przewozie. Podstawa: ADR 7.5.8.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.8.1–7.5.8.2: po wycieku pojazd trzeba oczyścić jak najszybciej i przed kolejnym załadunkiem; przy przewozie luzem istnieje wąski wyjątek dla ponownego załadunku tego samego towaru.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0202",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.1.2",
+      "stem": "Przed załadunkiem ADR kierowca pokazuje jedynie fakturę handlową, a wymaganych dokumentów przewozowych nie da się skontrolować. Jak postąpić zgodnie z kontrolą przewidzianą w 7.5.1?",
+      "options": {
+        "A": "Załadować po okazaniu faktury",
+        "B": "Uzupełnić brakujące dokumenty po przyjeździe do odbiorcy, a załadunek wykonać na podstawie zamówienia",
+        "C": "Wstrzymać załadunek do wymaganej kontroli"
+      },
+      "correct_option": "C",
+      "explanation": "Przed rozpoczęciem załadunku należy sprawdzić wymagane dokumenty oraz zgodność planowanego przewozu z warunkami ADR. Faktura handlowa nie zastępuje dokumentacji przewozowej wymaganej dla towarów niebezpiecznych. Faktura i późniejsze uzupełnienie dokumentów nie zastępują wymaganej kontroli przed załadunkiem. Podstawa: ADR 7.5.1.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.1.2: przed załadunkiem trzeba sprawdzić dokumenty, pojazd i zgodność z wymaganiami; stwierdzona niezgodność zagrażająca bezpieczeństwu wymaga usunięcia przed rozpoczęciem operacji.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0204",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "stem": "Kontener z towarami niebezpiecznymi jedzie drogą, a następnie ma być załadowany na statek. Kto, zgodnie z ADR 5.4.2, dostarcza przewoźnikowi morskiemu certyfikat pakowania kontenera?",
+      "options": {
+        "A": "Kierowca przewożący kontener",
+        "B": "Osoby odpowiedzialne za pakowanie kontenera",
+        "C": "Odbiorca, który podpisuje odbiór towarów i później przekazuje dokumentację do armatora"
+      },
+      "correct_option": "B",
+      "explanation": "Certyfikat pakowania kontenera potwierdza spełnienie wymagań przygotowania ładunku przed przewozem morskim. Dlatego za jego przekazanie przewoźnikowi morskiemu odpowiadają osoby odpowiedzialne za pakowanie. Kierowca i odbiorca nie przejmują samoczynnie zadania osoby odpowiadającej za pakowanie kontenera. Podstawa: ADR 5.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 5.4.2: certyfikat pakowania kontenera/pojazdu jest związany z przygotowaniem ładunku do przewozu morskiego; obowiązek dostarczenia dokumentu nie przechodzi automatycznie na kierowcę lub odbiorcę.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0205",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2; 1.1.4.3",
+      "stem": "Ładunek niebezpieczny najpierw jest przewożony koleją, a potem dalej ciężarówką. Jaką zasadę należy przyjąć przy ocenie obu etapów?",
+      "options": {
+        "A": "RID na całej trasie, także po przeładunku towaru na samochód ciężarowy",
+        "B": "ADR dla obu odcinków trasy",
+        "C": "RID dla kolei, ADR dla drogi, z wyjątkami"
+      },
+      "correct_option": "C",
+      "explanation": "Kolejowy odcinek transportu towarów niebezpiecznych podlega zasadom RID, a drogowy zasadom ADR, z uwzględnieniem przewidzianych wyjątków. Sam fakt użycia kolei nie oznacza, że RID zastępuje wszystkie przepisy na drodze. Na drodze nie stosuje się automatycznie wyłącznie RID, a kolej nie przechodzi na ADR z samej zmiany środka. Podstawa: ADR 1.1.4.2–1.1.4.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2–1.1.4.3 oraz 5.4.2: transport łączony podlega regułom właściwym dla danego odcinka, a certyfikat pakowania i elektroniczny obieg dokumentu mają określone warunki.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0208",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.3.1; 8.6.4",
+      "stem": "W dolnej części komórki kolumny 15 tabeli A widnieje zapis „(D/E)”. Czego dotyczy to oznaczenie?",
+      "options": {
+        "A": "Nie dotyczy grupy pakowania; wskazuje ograniczenia trasy i przejazdu przez tunele",
+        "B": "Wymaganego środka gaśniczego i liczby gaśnic na wyposażeniu pojazdu",
+        "C": "Kodu ograniczeń tunelowych ADR, zależnego od sposobu przewozu"
+      },
+      "correct_option": "C",
+      "explanation": "Kod D/E w kolumnie 15 tabeli A jest kodem ograniczeń tunelowych, a nie oznaczeniem grupy pakowania ani wyposażenia gaśniczego. Przy ustalaniu trasy trzeba uwzględnić kod i sposób przewozu wskazany w ADR, ponieważ dla różnych sposobów przewozu mogą obowiązywać różne ograniczenia. Gaśnice określa się na podstawie innych przepisów, więc B jest błędne. Podstawa: ADR 8.6.3.1 i 8.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2–1.1.4.3 oraz 5.4.2: transport łączony podlega regułom właściwym dla danego odcinka, a certyfikat pakowania i elektroniczny obieg dokumentu mają określone warunki.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0211",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.1.2",
+      "stem": "Na rampie pojawia się podwykonawca, który chce odebrać niebezpieczny ładunek. Przedsiębiorstwo nie ustaliło, czy to właściwy przewoźnik. Co wynika z 1.10.1.2?",
+      "options": {
+        "A": "Towar można wydać każdej osobie, która zna numer zamówienia i nazwę odbiorcy; nie trzeba sprawdzać, jakiego przewoźnika reprezentuje ani czy ma upoważnienie do odbioru",
+        "B": "Towar wolno wydać bez weryfikacji, jeśli kierowca nie żąda kopii dokumentów",
+        "C": "Towar niebezpieczny można zaoferować do przewozu jedynie odpowiednio zidentyfikowanemu przewoźnikowi"
+      },
+      "correct_option": "C",
+      "explanation": "Niebezpieczny ładunek powinien być przekazywany tylko przewoźnikowi, którego tożsamość została odpowiednio ustalona. Sama znajomość numeru zamówienia lub nazwy odbiorcy nie potwierdza upoważnienia do odbioru. Pominięcie kontroli zwiększa ryzyko przejęcia towarów przez nieuprawnioną osobę. Podstawa: ADR 1.10.1.2.",
+      "result": "niepotwierdzone_wymaga_doprecyzowania_podstawy",
+      "note": "Nie rozstrzygnięto wyłącznie na podstawie wskazanego ADR 1.10.1.2: punkt formułuje ogólny obowiązek uwzględniania wymagań ochrony, ale dostępny literalny tekst nie potwierdza jednoznacznie szczegółowego obowiązku weryfikacji tożsamości przewoźnika w takim brzmieniu. Nie zmieniono pytania; potrzebny przepis szczególny albo decyzja specjalisty.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0213",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.3",
+      "stem": "Firma przewozi towary niebezpieczne dużego ryzyka, do których odnosi się ADR 1.10.3.3. Jak należy traktować zabezpieczenia przed kradzieżą pojazdu i ładunku?",
+      "options": {
+        "A": "Stosować je wyłącznie po udokumentowanej wcześniejszej kradzieży, natomiast przy zwykłym przewozie, nawet dużego ryzyka, pozostawiać je wyłączone bez kontroli sprawności",
+        "B": "Powinny być stosowane oraz utrzymywane jako sprawne i skuteczne podczas przewozu, bez utrudniania działań ratowniczych",
+        "C": "Można z nich zawsze zrezygnować, gdy kierowca zna miejsce dostawy"
+      },
+      "correct_option": "B",
+      "explanation": "Przy przewozie towarów dużego ryzyka zabezpieczenia przed kradzieżą powinny działać skutecznie podczas przewozu i nie utrudniać akcji ratowniczych. Nie można włączać ich dopiero po pierwszej kradzieży ani rezygnować z nich tylko dlatego, że kierowca zna odbiorcę. Ochrona ma zapobiegać zagrożeniom, a nie jedynie reagować po fakcie. Podstawa: ADR 1.10.3.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje identyfikację, zabezpieczenie miejsc tymczasowego składowania, szkolenie i skuteczne środki przeciwdziałające kradzieży; szczegółowe obowiązki zależą od wskazanego punktu.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0235",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.7.1",
+      "stem": "W czasie załadunku ADR widzisz niezamocowane skrzynie, które mogą przesunąć się podczas hamowania. Co należy zrobić przed wyjazdem?",
+      "options": {
+        "A": "Unieruchomić skrzynie, aby nie przesuwały się podczas hamowania",
+        "B": "Sprawdzić pasy po pierwszym postoju",
+        "C": "Ułożyć skrzynie blisko drzwi ładowni i oprzeć je o siebie, aby ograniczyć ich ruch w trakcie jazdy"
+      },
+      "correct_option": "A",
+      "explanation": "Niezabezpieczone skrzynie mogą przemieścić się podczas hamowania i uszkodzić inne przesyłki. Dlatego przed wyjazdem trzeba je odpowiednio unieruchomić. Nawet krótka trasa nie daje pewności, że kierowca nie będzie musiał gwałtownie zahamować; samo zamknięcie drzwi nie zastępuje mocowania. Plan poprawienia pasów na postoju i oparcie skrzyń o drzwi nie zabezpieczają ładunku na początku jazdy. Podstawa: ADR 7.5.7.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.1.5 i 7.5.7.1–7.5.7.2: przesyłki trzeba ustawić zgodnie ze strzałkami i zabezpieczyć przed przesuwaniem bez uszkadzania opakowań.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0236",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.7.1",
+      "stem": "Podczas mocowania sztuk przesyłek ADR pas transportowy zaczyna zgniatać opakowanie. Jak powinien zareagować kierowca?",
+      "options": {
+        "A": "Zwiększyć naciąg pasa, nawet gdy nacisk zaczyna odkształcać opakowanie",
+        "B": "Poprawić mocowanie tak, by stabilizowało ładunek bez zgniatania opakowania",
+        "C": "Przeciąć lub zmienić opakowanie, aby pas transportowy łatwiej do niego przylegał"
+      },
+      "correct_option": "B",
+      "explanation": "Pas ma stabilizować ładunek, a nie uszkadzać opakowanie. Jeśli zaczyna je zgniatać, należy zmienić sposób mocowania lub rozłożyć nacisk tak, aby przesyłka była unieruchomiona bez deformacji. Dalsze naciąganie może doprowadzić do pęknięcia i wycieku, a przecinanie opakowania wystawia ludzi na kontakt z zawartością. Podstawa: ADR 7.5.7.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.1.5 i 7.5.7.1–7.5.7.2: przesyłki trzeba ustawić zgodnie ze strzałkami i zabezpieczyć przed przesuwaniem bez uszkadzania opakowań.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0237",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.7.2",
+      "stem": "Przedsiębiorstwo chce piętrzyć sztuki przesyłek ADR, które nie zostały zaprojektowane do piętrzenia. Czy takie ułożenie jest dozwolone na podstawie 7.5.7.2?",
+      "options": {
+        "A": "Ułożyć je na palecie owiniętej folią",
+        "B": "Piętrować po sprawdzeniu, że górna warstwa ma mniejszą masę od dolnej, bez badania opakowań",
+        "C": "Nie piętrzyć ich, jeśli opakowania nie są do tego przeznaczone"
+      },
+      "correct_option": "C",
+      "explanation": "Sztuki przesyłek można piętrzyć tylko wtedy, gdy ich opakowania i sposób ułożenia pozwalają bezpiecznie przenieść obciążenie. Jeżeli opakowania nie są przeznaczone do piętrzenia, nie należy układać na nich kolejnej warstwy. Folia i mniejsza masa górnej warstwy nie zastępują sprawdzenia, czy opakowania można piętrzyć. Podstawa: ADR 7.5.7.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.1.5 i 7.5.7.1–7.5.7.2: przesyłki trzeba ustawić zgodnie ze strzałkami i zabezpieczyć przed przesuwaniem bez uszkadzania opakowań.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0238",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.8.1",
+      "stem": "Po rozładunku zapakowanych towarów ADR zauważono, że zawartość jednej przesyłki wyciekła do przestrzeni ładunkowej. Co należy zrobić przed ponownym załadunkiem?",
+      "options": {
+        "A": "Oczyścić pojazd niezwłocznie przed ponownym załadunkiem towaru",
+        "B": "Ułożyć nowe przesyłki na miejscu wycieku, aby odizolować zabrudzoną podłogę",
+        "C": "Odłożyć czyszczenie do najbliższego przeglądu technicznego pojazdu"
+      },
+      "correct_option": "A",
+      "explanation": "Wyciek z opakowania może pozostawić w pojeździe substancję zagrażającą ludziom oraz następnym przesyłkom. Dlatego trzeba oczyścić przestrzeń ładunkową jak najszybciej i przed ponownym załadunkiem. Kładzenie nowych paczek na zabrudzeniu albo odkładanie czyszczenia do przeglądu jest niebezpieczne. Podstawa: ADR 7.5.8.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.8.1–7.5.8.2: po wycieku pojazd trzeba oczyścić jak najszybciej i przed kolejnym załadunkiem; przy przewozie luzem istnieje wąski wyjątek dla ponownego załadunku tego samego towaru.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0239",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.1.2",
+      "stem": "Przed rozpoczęciem załadunku towarów niebezpiecznych stwierdzono uszkodzenie pojazdu zagrażające bezpieczeństwu przewozu. Jak należy postąpić?",
+      "options": {
+        "A": "Rozpocząć załadunek i zgłosić uszkodzenie dopiero po dostarczeniu towaru",
+        "B": "Wstrzymać załadunek do czasu usunięcia zagrożenia dla bezpieczeństwa",
+        "C": "Załadować tylko część towaru, bez sprawdzania wpływu uszkodzenia na przewóz"
+      },
+      "correct_option": "B",
+      "explanation": "Jeżeli przed załadunkiem stwierdzono uszkodzenie pojazdu, które zagraża bezpieczeństwu, należy wstrzymać czynności do czasu usunięcia niezgodności. Załadowanie tylko części towaru nie rozwiązuje problemu, jeśli pojazd nadal nie nadaje się do bezpiecznego przewozu. Zgłoszenie usterki dopiero po dostawie również nie chroni załogi ani innych uczestników ruchu. Podstawa: ADR 7.5.1.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.1.2: przed załadunkiem trzeba sprawdzić dokumenty, pojazd i zgodność z wymaganiami; stwierdzona niezgodność zagrażająca bezpieczeństwu wymaga usunięcia przed rozpoczęciem operacji.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0240",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.8.2",
+      "stem": "Samochód po przewozie niebezpiecznego towaru luzem ma przyjąć kolejny, inny ładunek. Kiedy może odstąpić od czyszczenia na podstawie 7.5.8.2?",
+      "options": {
+        "A": "Odstąpić od czyszczenia zawsze, gdy załoga używa rękawic i oznakuje pojazd",
+        "B": "Pominąć czyszczenie, jeśli kolejny ładunek ma mniejszą masę niż poprzedni",
+        "C": "Nie; wyjątek dotyczy ponownego załadunku tego samego towaru"
+      },
+      "correct_option": "C",
+      "explanation": "Po przewozie towaru niebezpiecznego luzem zasadą jest oczyszczenie pojazdu przed załadunkiem kolejnego towaru. ADR przewiduje w tym zakresie wyjątek dla ponownego załadunku tego samego towaru, a nie dowolnego innego ładunku. Rękawice i oznakowanie nie zastępują czyszczenia, a mniejsza masa nowego towaru nie tworzy wyjątku. Podstawa: ADR 7.5.8.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.8.1–7.5.8.2: po wycieku pojazd trzeba oczyścić jak najszybciej i przed kolejnym załadunkiem; przy przewozie luzem istnieje wąski wyjątek dla ponownego załadunku tego samego towaru.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0243",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 8.3.3",
+      "stem": "Czy członek załogi ADR może otworzyć sztukę przesyłki z towarem niebezpiecznym podczas przewozu?",
+      "options": {
+        "A": "Tak, jeśli załoga założy rękawice ochronne przed otwarciem",
+        "B": "Tak, jeśli spedytor zatwierdzi otwarcie przez telefon",
+        "C": "Nie wolno otwierać sztuk przesyłek ADR podczas przewozu"
+      },
+      "correct_option": "C",
+      "explanation": "Podczas przewozu sztuka przesyłki ADR powinna pozostać zamknięta, ponieważ jej otwarcie może uwolnić niebezpieczną zawartość i narazić załogę. Zakaz nie znika tylko dlatego, że członek załogi ma rękawice albo spedytor wyraził zgodę przez telefon. Jeśli pojawia się problem z przesyłką, należy postępować zgodnie z procedurami, a nie otwierać ją samowolnie. Podstawa: ADR 8.3.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.3.1 i 8.3.3: w jednostce przewożącej towary niebezpieczne nie przewozi się osób spoza załogi wbrew przepisom, a załoga nie otwiera samowolnie sztuk przesyłek.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0245",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.1",
+      "stem": "Załadowca widzi uszkodzoną sztukę przesyłki z wyciekiem ADR. Jak powinien zareagować?",
+      "options": {
+        "A": "Schować paczkę za innymi opakowaniami",
+        "B": "Nie ładować przesyłki przed usunięciem wycieku",
+        "C": "Odłożyć ją na bok i wpisać wyciek do dokumentu bez naprawy"
+      },
+      "correct_option": "B",
+      "explanation": "Uszkodzone opakowanie z wyciekiem może narazić załadowcę, kierowcę i inne towary na kontakt z niebezpieczną substancją. Nie należy go ładować, dopóki nie zostanie właściwie zabezpieczone zgodnie z wymaganiami. Przesunięcie paczki w inne miejsce ani sam wpis do dokumentu nie zapewniają szczelności. Podstawa: ADR 1.4.3.1.1(b).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.4.2–1.4.3: odbiorca, pakujący, załadowca i rozładowca mają odrębne obowiązki, których nie usuwa podpis ani przekazanie czynności podwykonawcy.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0246",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.2.3.1",
+      "stem": "Odbiorca chce bez ważnej przyczyny opóźniać przyjęcie dostarczonych towarów ADR. Co mówi zasada ADR?",
+      "options": {
+        "A": "Odroczyć przyjęcie ze względu na bieżącą organizację magazynu",
+        "B": "Przełożyć przyjęcie do końca zmiany",
+        "C": "Przyjąć dostawę bez nieuzasadnionej zwłoki"
+      },
+      "correct_option": "C",
+      "explanation": "Odbiorca ma obowiązki także po przyjeździe niebezpiecznego ładunku i nie powinien bez ważnej przyczyny opóźniać jego przyjęcia. Nie oznacza to jednak obowiązku przyjmowania każdej przesyłki mimo istotnego problemu. Zwykłe kłopoty organizacyjne nie są automatycznie ważnym powodem odmowy. Podstawa: ADR 1.4.2.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.4.2–1.4.3: odbiorca, pakujący, załadowca i rozładowca mają odrębne obowiązki, których nie usuwa podpis ani przekazanie czynności podwykonawcy.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0247",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.1",
+      "stem": "Kontener z towarem ADR jedzie najpierw drogą, później statkiem. Czy samo przejście do transportu morskiego zawsze zwalnia z wymagań ADR na odcinku drogowym?",
+      "options": {
+        "A": "Tak, bezwarunkowo",
+        "B": "Nie, trzeba sprawdzić warunki stosowania 1.1.4.2.1 i właściwe wymogi dla odcinka drogowego",
+        "C": "Tak, jeśli kierowca zna nazwę statku"
+      },
+      "correct_option": "B",
+      "explanation": "Przejazd przez port nie sprawia, że droga przestaje podlegać przepisom ADR. Dla łańcucha z przewozem morskim istnieją szczególne warunki uznawania wymagań, które trzeba sprawdzić przed wyjazdem. Sama obecność statku w dalszej trasie ani znajomość jego nazwy nie daje automatycznego zwolnienia. Podstawa: ADR 1.1.4.2.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Zgodne w zakresie sprawdzonego punktu ADR.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0249",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.1.2",
+      "stem": "Do odbioru towaru ADR zgłasza się niezidentyfikowany przewoźnik, który zna numer zamówienia. Co wynika z zasad ochrony ADR?",
+      "options": {
+        "A": "Wydać przesyłkę każdemu, kto zna numer",
+        "B": "Pominąć identyfikację, gdy nie ma opóźnienia",
+        "C": "Zidentyfikować przewoźnika przed zaoferowaniem mu towaru do przewozu"
+      },
+      "correct_option": "C",
+      "explanation": "Przed zaoferowaniem towaru niebezpiecznego do przewozu trzeba zweryfikować tożsamość przewoźnika, aby nie przekazać ładunku osobie nieuprawnionej. Znajomość numeru zamówienia nie dowodzi, że zgłaszająca się osoba reprezentuje właściwą firmę. Pośpiech lub chęć uniknięcia opóźnienia również nie uzasadniają pominięcia identyfikacji. Podstawa: ADR 1.10.1.2.",
+      "result": "niepotwierdzone_wymaga_doprecyzowania_podstawy",
+      "note": "Nie rozstrzygnięto wyłącznie na podstawie wskazanego ADR 1.10.1.2: punkt formułuje ogólny obowiązek uwzględniania wymagań ochrony, ale dostępny literalny tekst nie potwierdza jednoznacznie szczegółowego obowiązku weryfikacji tożsamości przewoźnika w takim brzmieniu. Nie zmieniono pytania; potrzebny przepis szczególny albo decyzja specjalisty.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0262",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 1.9.5.3.6; 8.6.4",
+      "stem": "Znak tunelu podaje kategorię E. Co oznacza taka kategoria w systemie ograniczeń ADR?",
+      "options": {
+        "A": "To najbardziej restrykcyjna kategoria tunelu dla przewozu towarów niebezpiecznych",
+        "B": "W tunelu nie obowiązują żadne ograniczenia ADR",
+        "C": "W tunelu wolno przewozić wyłącznie towary klasy 3"
+      },
+      "correct_option": "A",
+      "explanation": "Kategoria E oznacza najsurowsze ograniczenia tunelowe w systemie ADR, dlatego nie wolno zakładać, że każdy przewóz może przez taki tunel przejechać. Nie oznacza to jednak, że tunel jest przeznaczony tylko dla jednej klasy ani że ograniczeń nie ma. Sprawdź kod tunelowy towaru, rodzaj przewozu i wyjątki. Podstawa: ADR 1.9.5.3.6 i 8.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.6.3–8.6.4: kod tunelowy trzeba interpretować według sposobu przewozu i kodu w kolumnie 15 tabeli A; nie wolno rozszerzać zakazu poza wynikającą z kodu kategorię.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0263",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.3.2",
+      "stem": "W jednej jednostce transportowej przewożone są różne towary niebezpieczne o odmiennych kodach tunelowych. Którą zasadę trzeba zastosować, gdy ograniczenia ADR mają zastosowanie?",
+      "options": {
+        "A": "Użyć kodu przypisanego towarowi o najmniejszej masie",
+        "B": "Uwzględnić najbardziej restrykcyjny z mających zastosowanie kodów",
+        "C": "Pominąć kody, jeśli towary jadą na jednym dokumencie"
+      },
+      "correct_option": "B",
+      "explanation": "Gdy przewożone towary mają różne kody tunelowe, nie wybiera się kodu według masy ładunku ani nie pomija go dlatego, że wszystko wpisano do jednego dokumentu. Trzeba ustalić najbardziej restrykcyjny kod, który ma zastosowanie do tej jednostki transportowej, i uwzględnić przewidziane wyjątki. Podstawa: ADR 8.6.3.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.6.3–8.6.4: kod tunelowy trzeba interpretować według sposobu przewozu i kodu w kolumnie 15 tabeli A; nie wolno rozszerzać zakazu poza wynikającą z kodu kategorię.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0264",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.3.1",
+      "stem": "W kolumnie 15 tabeli A dla pozycji UN w miejscu kodu ograniczenia tunelowego występuje znak „(-)”. Co oznacza ten zapis w zakresie tego kodu?",
+      "options": {
+        "A": "Automatyczny zakaz przejazdu przez każdy tunel",
+        "B": "Obowiązek użycia wyłącznie drogi ekspresowej",
+        "C": "Nie przypisano ograniczenia tunelowego ADR z tego tytułu, co nie uchyla innych przepisów i znaków drogowych"
+      },
+      "correct_option": "C",
+      "explanation": "Zapis „(-)” oznacza, że w tabeli A nie przypisano tej pozycji kodu ograniczenia tunelowego ADR. Nie jest to automatyczny zakaz wjazdu ani nakaz korzystania wyłącznie z drogi ekspresowej. Nadal trzeba stosować inne przepisy, znaki drogowe i ograniczenia dotyczące konkretnej trasy. Podstawa: ADR 8.6.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.6.3–8.6.4: kod tunelowy trzeba interpretować według sposobu przewozu i kodu w kolumnie 15 tabeli A; nie wolno rozszerzać zakazu poza wynikającą z kodu kategorię.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0274",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.1.3",
+      "stem": "Na terminalu tymczasowo składuje się towary niebezpieczne ADR. Plac jest nieoświetlony i ogólnodostępny. Co wymaga poprawy?",
+      "options": {
+        "A": "Plac powinien być odpowiednio zabezpieczony i oświetlony oraz, gdy to możliwe i właściwe, niedostępny dla osób postronnych",
+        "B": "Wystarczy pozostawić niebezpieczne towary na otwartym placu",
+        "C": "Ochrona terminalu nie ma związku z ADR"
+      },
+      "correct_option": "A",
+      "explanation": "Miejsce tymczasowego składowania towarów ADR powinno być odpowiednio zabezpieczone i oświetlone; tam, gdzie to możliwe i właściwe, należy też ograniczyć dostęp osób postronnych. Pozostawienie ładunku na nieoświetlonym, ogólnodostępnym placu nie spełnia tych zasad. Chodzi o zmniejszenie ryzyka kradzieży, ingerencji i innych zdarzeń. Podstawa: ADR 1.10.1.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje identyfikację, zabezpieczenie miejsc tymczasowego składowania, szkolenie i skuteczne środki przeciwdziałające kradzieży; szczegółowe obowiązki zależą od wskazanego punktu.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0275",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.2.3",
+      "stem": "Nowy pracownik ma wykonywać zadania związane z przewozem ADR. Która zasada dotyczy szkolenia z ochrony przed niewłaściwym użyciem towarów?",
+      "options": {
+        "A": "Szkolenie odbywa się tylko po incydencie",
+        "B": "Przy zatrudnieniu należy zapewnić lub zweryfikować szkolenie i okresowo je uzupełniać",
+        "C": "Zawsze wystarcza samo prawo jazdy"
+      },
+      "correct_option": "B",
+      "explanation": "Osoba rozpoczynająca pracę związaną z przewozem ADR powinna mieć odpowiednie szkolenie z ochrony lub trzeba sprawdzić, czy je odbyła; szkolenie uzupełnia się okresowo. Nie należy czekać z nim do incydentu ani zakładać, że samo prawo jazdy wystarcza. Zakres szkolenia zależy od obowiązków pracownika. Podstawa: ADR 1.10.2.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje identyfikację, zabezpieczenie miejsc tymczasowego składowania, szkolenie i skuteczne środki przeciwdziałające kradzieży; szczegółowe obowiązki zależą od wskazanego punktu.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0278",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2, przypis dotyczący IMDG 5.4.2.4",
+      "stem": "Certyfikat pakowania kontenera przekazano przez EDI, a kolejny przewoźnik wymaga papierowego egzemplarza. Co, według wymogów IMDG przywołanych w ADR 5.4.2, powinien zapewnić przewoźnik?",
+      "options": {
+        "A": "Na papierze wzmiankę „Original received electronically” i nazwisko osoby podpisującej zapisane wielkimi literami",
+        "B": "Wyłącznie numer faktury bez wskazania osoby podpisującej",
+        "C": "Usunięcie informacji o elektronicznym otrzymaniu oryginału"
+      },
+      "correct_option": "A",
+      "explanation": "Jeśli certyfikat pakowania kontenera otrzymano elektronicznie, a następnie przygotowuje się jego wersję papierową, trzeba zachować wymaganą wzmiankę „Original received electronically” oraz nazwisko osoby podpisującej zapisane wielkimi literami. Numer faktury nie zastępuje tych danych, a usunięcie wzmianki zaciera sposób otrzymania oryginału. Podstawa: ADR 5.4.2 i przywołany IMDG (przepisy dla przewozu morskiego) 5.4.2.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2–1.1.4.3 oraz 5.4.2: transport łączony podlega regułom właściwym dla danego odcinka, a certyfikat pakowania i elektroniczny obieg dokumentu mają określone warunki.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0286",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.1.5",
+      "stem": "Sztuka przesyłki ADR ma strzałki kierunkowe na dwóch przeciwległych bokach. W jakiej pozycji należy co do zasady ustawić ją w pojeździe?",
+      "options": {
+        "A": "Dowolnie na boku, jeśli jest przypięta pasem i nie przesuwa się podczas jazdy",
+        "B": "Strzałkami w dół, aby zachować stabilność",
+        "C": "Zgodnie z kierunkiem strzałek, czyli strzałkami do góry"
+      },
+      "correct_option": "C",
+      "explanation": "Strzałki kierunkowe pokazują, jak należy ustawić oznakowaną sztukę przesyłki; co do zasady strzałki mają być skierowane ku górze. Ułożenie na boku lub strzałkami w dół nie spełnia tego wskazania tylko dlatego, że ładunek został przypięty pasem. Trzeba też przestrzegać pozostałych zasad zabezpieczenia ładunku. Podstawa: ADR 7.5.1.5.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.5.1.5 i 7.5.7.1–7.5.7.2: przesyłki trzeba ustawić zgodnie ze strzałkami i zabezpieczyć przed przesuwaniem bez uszkadzania opakowań.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0290",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.2",
+      "stem": "Pakujący przygotowuje sztuki przesyłek z towarami niebezpiecznymi do transportu ADR. Który obowiązek należy do pakującego?",
+      "options": {
+        "A": "Ustalić trasę oraz ograniczenia przejazdu na podstawie mapy",
+        "B": "Sprawdzić aktualność uprawnień kierowcy przed załadunkiem",
+        "C": "Przestrzeganie wymagań dotyczących warunków pakowania, znakowania i nalepek na sztukach przesyłek"
+      },
+      "correct_option": "C",
+      "explanation": "Pakujący odpowiada za przestrzeganie wymagań odnoszących się do przygotowania sztuk przesyłek, w tym właściwego pakowania, znakowania i umieszczania nalepek. Wyznaczanie trasy ani wystawianie prawa jazdy nie jest tym obowiązkiem. Zaplanowanie trasy i sprawdzenie prawa jazdy to inne zadania niż prawidłowe pakowanie. Podstawa: ADR 1.4.3.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.4.2–1.4.3: odbiorca, pakujący, załadowca i rozładowca mają odrębne obowiązki, których nie usuwa podpis ani przekazanie czynności podwykonawcy.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0292",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.3.1.1",
+      "stem": "W tabeli A ADR przy towarze nie ma zezwolenia na przewóz luzem kodem BK w kolumnie 10 ani VC w kolumnie 17. Co oznacza to zasadniczo?",
+      "options": {
+        "A": "Nie wolno przewozić tego towaru luzem tą drogą bez odrębnej właściwej podstawy",
+        "B": "Wszystkie towary ADR wolno przewozić luzem, jeżeli ładunek jest przykryty i odpowiednio zamocowany",
+        "C": "Wystarczy pisemna zgoda kierowcy"
+      },
+      "correct_option": "A",
+      "explanation": "Przewóz luzem jest dopuszczalny tylko wtedy, gdy ADR przewiduje go dla danego towaru i spełnione są warunki dotyczące m.in. pojazdu oraz sposobu przewozu. Brak odpowiedniego kodu BK lub VC oznacza, że nie wolno automatycznie przyjąć, iż taki przewóz jest dozwolony. Zgoda kierowcy sama nie stanowi podstawy prawnej i nie zastępuje wymaganych warunków. Podstawa: ADR 7.3.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 7.3.1.1 i kolumnami 10/17 tabeli A: przewóz luzem wymaga wyraźnego dopuszczenia dla konkretnego towaru; brak właściwego wpisu nie daje swobody przewozu luzem.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0293",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 8.3.1",
+      "stem": "Do jednostki transportowej przewożącej towary niebezpieczne ma wsiąść przypadkowy pasażer, który nie należy do załogi. Co wynika z ogólnego wymogu ADR 8.3.1?",
+      "options": {
+        "A": "Może jechać, jeśli zajmuje wolny fotel",
+        "B": "Może jechać, gdy ma kamizelkę odblaskową",
+        "C": "Nie powinno się przewozić osób niebędących członkami załogi"
+      },
+      "correct_option": "C",
+      "explanation": "Zasadą ADR jest, że w jednostce transportowej przewożącej towary niebezpieczne nie przewozi się osób niebędących członkami załogi. Wolne miejsce siedzące ani kamizelka odblaskowa nie czynią przypadkowego pasażera członkiem załogi i nie uchylają ograniczenia. Należy stosować tę regułę w zakresie, w jakim dany przewóz podlega ADR. Podstawa: ADR 8.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.3.1 i 8.3.3: w jednostce przewożącej towary niebezpieczne nie przewozi się osób spoza załogi wbrew przepisom, a załoga nie otwiera samowolnie sztuk przesyłek.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0300",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.1.4",
+      "stem": "Podczas przewozu ADR pasażer pełniący rolę członka załogi nie ma żadnego dokumentu tożsamości ze zdjęciem. Co wymaga ADR 1.10.1.4?",
+      "options": {
+        "A": "Wystarczy znać numer telefonu pracodawcy",
+        "B": "Wystarczy dokument bez zdjęcia",
+        "C": "Każdy członek załogi powinien mieć przy sobie dokument tożsamości ze zdjęciem"
+      },
+      "correct_option": "C",
+      "explanation": "Każdy członek załogi objęty tym wymaganiem powinien mieć przy sobie dokument tożsamości zawierający fotografię. Sam numer telefonu pracodawcy ani dokument bez zdjęcia nie spełnia tego warunku. Wymóg ochrony pomaga potwierdzić, kto uczestniczy w przewozie towarów niebezpiecznych. Podstawa: ADR 1.10.1.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje identyfikację, zabezpieczenie miejsc tymczasowego składowania, szkolenie i skuteczne środki przeciwdziałające kradzieży; szczegółowe obowiązki zależą od wskazanego punktu.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0301",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 8.2.1.1",
+      "stem": "Kierowca realizuje przewóz towarów niebezpiecznych, dla którego wymagane jest zaświadczenie ADR. Co musi wykazać, aby uzyskać takie zaświadczenie?",
+      "options": {
+        "A": "Samo posiadanie prawa jazdy odpowiedniej kategorii",
+        "B": "Ukończyć właściwy kurs i zdać egzamin ADR",
+        "C": "Wyłącznie doświadczenie w transporcie krajowym"
+      },
+      "correct_option": "B",
+      "explanation": "Zaświadczenie ADR kierowcy uzyskuje się po odbyciu odpowiedniego szkolenia i zdaniu wymaganego egzaminu. Samo prawo jazdy nie potwierdza znajomości szczególnych zasad przewozu towarów niebezpiecznych, a doświadczenie w transporcie krajowym nie zastępuje kursu i egzaminu. Wymóg zależy od rodzaju przewozu i ewentualnych wyłączeń. Podstawa: ADR 8.2.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.2.1: zaświadczenie ADR kierowcy i prawo jazdy odpowiedniej kategorii są odrębnymi wymaganiami; szkolenie i egzamin nie zastępują uprawnień do kierowania.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0304",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.2.2(a)",
+      "stem": "Firma przewozi towary niebezpieczne dużego ryzyka w zakresie objętym ADR 1.10.3.2. Który element powinien zawierać plan ochrony?",
+      "options": {
+        "A": "Wyłącznie numer telefonu kierowcy",
+        "B": "Podział odpowiedzialności za ochronę między uprawnione i kompetentne osoby",
+        "C": "Wyłącznie listę stacji paliw"
+      },
+      "correct_option": "B",
+      "explanation": "Plan ochrony towarów niebezpiecznych dużego ryzyka musi jasno określać, kto odpowiada za poszczególne działania ochronne, a osoby te powinny być kompetentne i odpowiednio uprawnione. Sam numer telefonu kierowcy ani lista stacji paliw nie określają podziału odpowiedzialności. Plan obejmuje również inne elementy wskazane w ADR. Podstawa: ADR 1.10.3.2.2(a).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje identyfikację, zabezpieczenie miejsc tymczasowego składowania, szkolenie i skuteczne środki przeciwdziałające kradzieży; szczegółowe obowiązki zależą od wskazanego punktu.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0305",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.3",
+      "stem": "Przewożone są towary niebezpieczne dużego ryzyka, do których ma zastosowanie ADR 1.10.3.3. Jakie zabezpieczenie jest wymagane?",
+      "options": {
+        "A": "Stosowanie skutecznych środków zapobiegania kradzieży pojazdu i ładunku",
+        "B": "Wyłącznie naklejka z nazwą firmy na pojeździe",
+        "C": "Brak zabezpieczenia poza zamknięciem okna kierowcy"
+      },
+      "correct_option": "A",
+      "explanation": "Przewóz towarów dużego ryzyka wymaga skutecznych środków ograniczających kradzież pojazdu i ładunku, stosowanych zgodnie z odpowiednimi wymaganiami. Sama naklejka firmowa ani zamknięte okno nie zapewniają takiej ochrony. Zabezpieczenia nie mogą przy tym utrudniać działań ratowniczych. Podstawa: ADR 1.10.3.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje identyfikację, zabezpieczenie miejsc tymczasowego składowania, szkolenie i skuteczne środki przeciwdziałające kradzieży; szczegółowe obowiązki zależą od wskazanego punktu.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0310",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 8.4.1",
+      "stem": "Towary i ich ilości powodują zastosowanie nadzoru nad pojazdem z ADR 8.4.1. Gdzie w pierwszej kolejności można bez dozoru zaparkować pojazd?",
+      "options": {
+        "A": "W dowolnym miejscu przy drodze",
+        "B": "W zabezpieczonej bazie albo na zabezpieczonym terenie zakładu",
+        "C": "Zawsze na poboczu autostrady"
+      },
+      "correct_option": "B",
+      "explanation": "Jeśli przewóz wymaga nadzoru, ADR określa kolejność dopuszczalnych sposobów postoju. W pierwszej kolejności można skorzystać z zabezpieczonej bazy lub zabezpieczonego terenu zakładu. Dowolne miejsce przy drodze ani pobocze autostrady nie zapewniają same w sobie wymaganego zabezpieczenia. Podstawa: ADR 8.4.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.4.1: przy wymaganym nadzorze wybór postoju nie jest dowolny; należy stosować kolejność i warunki dopuszczonych miejsc.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0312",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 1.2.1",
+      "stem": "Co obejmuje definicja „przewozu” w ADR 1.2.1, oprócz przemieszczania pojazdu z towarem niebezpiecznym?",
+      "options": {
+        "A": "Wyłącznie przejazd po drodze publicznej",
+        "B": "Również postoje konieczne ze względu na warunki transportu oraz przebywanie towarów w pojazdach przed, podczas i po przemieszczeniu w odpowiednich warunkach",
+        "C": "Wyłącznie załadunek w fabryce"
+      },
+      "correct_option": "B",
+      "explanation": "W ADR „przewóz” to nie tylko sam przejazd pojazdu po drodze. Definicja obejmuje również postoje konieczne ze względu na warunki transportu oraz odpowiednie przebywanie towarów w pojazdach przed, w trakcie i po przemieszczaniu. Nie ogranicza się więc wyłącznie do jazdy lub załadunku w fabryce. Podstawa: ADR 1.2.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z definicją „przewóz” w ADR 1.2.1: obejmuje nie tylko przemieszczenie, ale także postoje wynikające z warunków transportu oraz odpowiednie okresy przebywania towaru w jednostce transportowej.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0319",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 9.1.1.2 (definicje pojazdów EX/II i EX/III)",
+      "stem": "Jakie oznaczenie typu pojazdu stosuje ADR 9.1.1.2 do pojazdu przeznaczonego do przewozu materiałów i przedmiotów wybuchowych klasy 1?",
+      "options": {
+        "A": "EX/II albo EX/III",
+        "B": "Typ FL",
+        "C": "Typ AT stosowany również do przewozu materiałów wybuchowych klasy 1"
+      },
+      "correct_option": "A",
+      "explanation": "EX/II i EX/III to kategorie pojazdów przeznaczonych do przewozu materiałów i przedmiotów wybuchowych klasy 1. Typy FL i AT dotyczą innych przewozów, więc nie są zamiennikami oznaczeń EX. Wybór typu zależy od konstrukcji pojazdu i rodzaju ładunku, a nie od samego faktu, że przewóz podlega ADR. Podstawa: ADR 9.1.1.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 9.1.1.2: EX/II i EX/III to kategorie pojazdów dla materiałów i przedmiotów wybuchowych klasy 1; FL i AT odnoszą się do innych kategorii przewozu.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    }
+  ]
+}
