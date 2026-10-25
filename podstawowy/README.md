@@ -113,3 +113,4 @@ Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogó
 
 - [B-01–04 — kontrola duplikatów, czytelności i słowniczek](raporty/etap-4x7-bank-czytelnosc-01-04-2026-10-25.md)
 - [B-05–08 — kontrola duplikatów, czytelności i dystraktorów](raporty/etap-4x7-bank-czytelnosc-05-08-2026-10-25.md)
+- [B-09–13 — kontrola duplikatów, czytelności i dystraktorów](raporty/etap-4x7-bank-czytelnosc-09-13-2026-10-25.md)
