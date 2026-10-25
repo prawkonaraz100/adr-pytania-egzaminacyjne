@@ -45,6 +45,12 @@ Odpowiedzialność cywilna to odrębny obszar od szczegółowego podziału obowi
 - zakładanie, że znajomość numeru zlecenia albo polecenie przełożonego uchyla ADR;
 - mylenie obowiązków ADR z rozstrzygnięciem odpowiedzialności cywilnej.
 
+Najczęstsze pułapki wynikające z pytań tego działu:
+- Przypisywanie całej odpowiedzialności wyłącznie kierowcy — różni uczestnicy mają odrębne obowiązki, zależne od wykonywanej czynności (ADR 1.4).
+- Uznawanie, że kierowca może zaakceptować uszkodzone opakowanie, jeśli załadunek już zaplanowano — niezgodność trzeba wyjaśnić przed przewozem (ADR 1.4 i 7.5.1).
+- Mylenie szkolenia do konkretnego zadania z kursem kierowcy ADR — szkolenie musi odpowiadać obowiązkom pracownika (ADR 1.3).
+- Traktowanie polecenia przełożonego jako zwolnienia z wymagań ADR — polecenie nie usuwa obowiązków bezpieczeństwa uczestników (ADR 1.4).
+
 ## Scenariusze praktyczne
 1. **Wadliwe opakowanie.** Pakujący zauważa niezgodne opakowanie. Wstrzymuje przekazanie przesyłki, ustala właściwe poprawki i dopiero potem przekazuje ją dalej.
 2. **Pęknięta przesyłka przy załadunku.** Załadowca zauważa pęknięcie przed umieszczeniem w pojeździe. Nie maskuje go folią; wstrzymuje załadunek i zgłasza niezgodność.
@@ -149,16 +155,4 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 
 
 
-## Najczęstsze błędy kursantów
 
-Te pomyłki pojawiają się w typowych odpowiedziach błędnych w banku. Zanim wybierzesz odpowiedź, sprawdź, który warunek przepisu rozstrzyga daną sytuację.
-
-- Przypisywanie całej odpowiedzialności wyłącznie kierowcy — różni uczestnicy mają odrębne obowiązki, zależne od wykonywanej czynności (ADR 1.4).
-- Uznawanie, że kierowca może zaakceptować uszkodzone opakowanie, jeśli załadunek już zaplanowano — niezgodność trzeba wyjaśnić przed przewozem (ADR 1.4 i 7.5.1).
-- Mylenie szkolenia do konkretnego zadania z kursem kierowcy ADR — szkolenie musi odpowiadać obowiązkom pracownika (ADR 1.3).
-- Traktowanie polecenia przełożonego jako zwolnienia z wymagań ADR — polecenie nie usuwa obowiązków bezpieczeństwa uczestników (ADR 1.4).
-
-Niejasne pojęcia wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
-
-## Słowniczek
-Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
