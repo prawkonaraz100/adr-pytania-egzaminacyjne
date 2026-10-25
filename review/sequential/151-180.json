@@ -22,9 +22,9 @@
       "exact_record_snapshot": {
         "stem": "Na przesyłce znajduje się nalepka 2.3. Jakiego podstawowego zagrożenia należy się spodziewać?",
         "options": {
-          "A": "Wyłącznie niepalny gaz, który nie stwarza zagrożenia toksycznego",
+          "A": "Gaz niepalny klasy 2.2, bez oceny jego działania toksycznego",
           "B": "Toksyczne działanie gazu, szczególnie przy jego wdychaniu",
-          "C": "Wyłącznie żrąca ciecz klasy 8, bez zagrożenia gazowego"
+          "C": "Żrąca ciecz klasy 8, mimo symbolu wskazującego na gaz"
         },
         "correct_option": "B",
         "explanation": "Nalepka 2.3 oznacza gaz trujący, którego wdychanie może spowodować ciężkie zatrucie lub zagrożenie życia. Nie należy traktować go jako zwykłego gazu niepalnego bez zagrożenia toksycznego. Nie oznacza też żrącej cieczy klasy 8, ponieważ to inny rodzaj materiału i inne oznakowanie. Podstawa: ADR 5.2.2.2.2.",
@@ -104,8 +104,8 @@
       "exact_record_snapshot": {
         "stem": "Jakie rozróżnienie między klasą 4.1 a 4.3 jest prawidłowe?",
         "options": {
-          "A": "4.1: m.in. stałe zapalne; 4.3: materiały wydzielające palny gaz z wodą",
-          "B": "Klasy 4.1 i 4.3 oznaczają ten sam rodzaj zagrożenia, tylko opisany innymi numerami",
+          "A": "4.1 obejmuje między innymi stałe zapalne, a 4.3 materiały wydzielające palny gaz w kontakcie z wodą",
+          "B": "Klasa 4.1 oraz 4.3 opisują te same stałe materiały zapalne, ale mają różne limity pakowania",
           "C": "Klasa 4.3 dotyczy gazów pod ciśnieniem, a nie materiałów reagujących z wodą"
         },
         "correct_option": "A",
@@ -145,8 +145,8 @@
       "exact_record_snapshot": {
         "stem": "Dlaczego materiał samonagrzewający się z klasy 4.2 wymaga zachowania ostrożności podczas przewozu?",
         "options": {
-          "A": "Reaguje wyłącznie z wodą, ale nie nagrzewa się samoczynnie",
-          "B": "Może nagrzewać się samoistnie i doprowadzić do zapłonu",
+          "A": "Wydziela palny gaz po kontakcie z wodą, podobnie jak materiał klasy 4.3",
+          "B": "Może się nagrzewać samoczynnie i zapalić nawet bez otwartego płomienia",
           "C": "Jest bezpieczny, dopóki nie zetknie się z płomieniem"
         },
         "correct_option": "B",
@@ -186,9 +186,9 @@
       "exact_record_snapshot": {
         "stem": "Po rozszczelnieniu opakowania klasy 4.3 świadek proponuje polanie wycieku wodą. Jak powinien zareagować kierowca?",
         "options": {
-          "A": "Zawsze polać wyciek wodą, ponieważ materiały klasy 4.3 nie reagują z nią",
+          "A": "Polać niewielką ilością wody w celu rozcieńczenia wycieku",
           "B": "Sprawdzić reakcję, dolewając niewielką ilość wody ręcznie do wycieku",
-          "C": "Nie polewać wodą bez potwierdzenia właściwej procedury i wskazań służb"
+          "C": "Unikać polewania wodą i sprawdzić instrukcje oraz zagrożenia towaru"
         },
         "correct_option": "C",
         "explanation": "Materiały klasy 4.3 mogą wydzielać palny gaz podczas kontaktu z wodą, dlatego polewanie wycieku może pogorszyć sytuację. Kierowca nie powinien improwizować ani sprawdzać reakcji przez dolanie choćby odrobiny wody. Należy zabezpieczyć ludzi i postępować według właściwych instrukcji oraz zaleceń służb. Podstawa: ADR 2.2.43 i 5.4.3.4.",
@@ -229,7 +229,7 @@
         "options": {
           "A": "Tak, dzięki właściwościom utleniającym może nasilać spalanie",
           "B": "Nie, klasa 5.1 oznacza materiały obojętne wobec pożaru",
-          "C": "Nie, klasa 5.1 dotyczy wyłącznie materiałów promieniotwórczych"
+          "C": "Klasa 5.1 oznacza materiały promieniotwórcze, które wymagają osłon"
         },
         "correct_option": "A",
         "explanation": "Materiały klasy 5.1 są utleniaczami: mogą dostarczać tlenu lub w inny sposób wspomagać spalanie, przez co pożar innych materiałów może stać się intensywniejszy. Nie oznacza to, że są obojętne wobec ognia. Klasa 5.1 nie dotyczy też materiałów promieniotwórczych, które należą do klasy 7. Podstawa: ADR 2.2.51.1.1.",
@@ -268,9 +268,9 @@
       "exact_record_snapshot": {
         "stem": "Która odpowiedź właściwie rozróżnia klasy 5.1 i 5.2?",
         "options": {
-          "A": "Obie klasy to wyłącznie grupy pakowania, bez różnicy w rodzaju zagrożenia",
-          "B": "Klasa 5.1 obejmuje materiały utleniające, a 5.2 nadtlenki organiczne",
-          "C": "Klasa 5.1 dotyczy gazów trujących, a 5.2 materiałów zakaźnych i ich próbek"
+          "A": "Obie grupy opisują utleniacze, różniące się głównie limitami",
+          "B": "Klasa 5.1 to utleniacze, a 5.2 to nadtlenki organiczne z odrębnymi zagrożeniami",
+          "C": "Klasa 5.1 dotyczy gazów trujących, a 5.2 zakaźnych próbek przewożonych do badań laboratoryjnych"
         },
         "correct_option": "B",
         "explanation": "Klasa 5.1 obejmuje materiały utleniające, które mogą nasilać spalanie, natomiast klasa 5.2 obejmuje nadtlenki organiczne, mające odrębne właściwości i zagrożenia. To nie są jedynie grupy pakowania, lecz dwie różne klasy ADR. Gazy trujące i materiały zakaźne należą do innych klas, dlatego C również jest błędne. Podstawa: ADR 2.2.51 i 2.2.52.",
@@ -309,9 +309,9 @@
       "exact_record_snapshot": {
         "stem": "Co należy rozpoznać po nalepce ostrzegawczej 6.1?",
         "options": {
-          "A": "Wyłącznie zagrożenie infekcją przypisane klasie 6.2",
-          "B": "Wyłącznie działanie żrące przypisane klasie 8",
-          "C": "Zagrożenie związane z materiałem trującym"
+          "A": "Zagrożenie zakaźne klasy 6.2, wymagające ostrożności biologicznej",
+          "B": "Działanie żrące klasy 8, związane z uszkodzeniem skóry",
+          "C": "Materiał trujący z klasy 6.1, mogący szkodzić np. przy wdychaniu"
         },
         "correct_option": "C",
         "explanation": "Nalepka 6.1 ostrzega przed materiałem trującym, który może zaszkodzić zdrowiu na przykład po wdychaniu, połknięciu lub kontakcie. Nie oznacza materiału zakaźnego klasy 6.2 ani materiału żrącego klasy 8. Rozpoznanie właściwej nalepki jest ważne, bo od rodzaju zagrożenia zależą środki ostrożności i sposób reagowania. Podstawa: ADR 5.2.2.2.2 i 2.2.61.",
@@ -351,7 +351,7 @@
         "stem": "Jaka różnica między klasą 6.2 a 6.1 jest prawidłowa?",
         "options": {
           "A": "Klasa 6.2 dotyczy materiałów zakaźnych, a 6.1 materiałów trujących",
-          "B": "Klasa 6.2 obejmuje wyłącznie gazy niepalne przewożone pod ciśnieniem",
+          "B": "Klasa 6.2 obejmuje gazy niepalne klasy 2.2, przewożone w butlach",
           "C": "Klasy 6.1 i 6.2 są kodami tunelowymi, a nie odrębnymi klasami zagrożeń"
         },
         "correct_option": "A",
@@ -393,7 +393,7 @@
         "options": {
           "A": "Tak, jeśli pojazd ma tablice pomarańczowe i kierowca posiada prawo jazdy",
           "B": "Nie. Niektóre przewozy klasy 7 wymagają szkolenia specjalistycznego",
-          "C": "Tak, bo każdy przewóz klasy 7 należy bez wyjątku do kursu podstawowego ADR"
+          "C": "Tak, jeśli kierowca zna numer UN i ma tablice pomarańczowe"
         },
         "correct_option": "B",
         "explanation": "Kurs podstawowy ADR nie uprawnia automatycznie do każdego przewozu klasy 7, ponieważ część przewozów materiałów promieniotwórczych wymaga specjalistycznego szkolenia. Pomarańczowe tablice nie zastąpią przygotowania kierowcy. Trzeba jednak sprawdzić wyjątki przewidziane w ADR, na przykład S12, a nie zakładać jednej zasady dla wszystkich przesyłek. Podstawa: ADR 8.2.1.4 i 8.5.",
@@ -432,8 +432,8 @@
       "exact_record_snapshot": {
         "stem": "Jakie zagrożenie powinien brać pod uwagę kierowca widząc nalepkę klasy 8?",
         "options": {
-          "A": "Wyłącznie promieniowanie jonizujące, typowe dla materiałów klasy 7",
-          "B": "Wyłącznie palność cieczy, bez ryzyka uszkodzenia skóry lub innych tkanek",
+          "A": "Promieniowanie jonizujące, które sygnalizuje nalepka klasy 7",
+          "B": "Zapalność cieczy, którą oznacza czerwona nalepka klasy 3",
           "C": "Działanie żrące, które może poważnie uszkodzić skórę i tkanki"
         },
         "correct_option": "C",
@@ -474,8 +474,8 @@
         "stem": "Nalepka ostrzegawcza 9A może być wymagana podczas przewozu jakich baterii, zgodnie z odpowiednią pozycją ADR 2025?",
         "options": {
           "A": "Wybrane baterie litowe i sodowo-jonowe, np. UN 3551 lub UN 3552",
-          "B": "Wyłącznie materiały zakaźne, bez względu na ich numer UN i warunki przewozu",
-          "C": "Wyłącznie butle z gazami klasy 2, niezależnie od zawartości i oznakowania"
+          "B": "Przesyłki z materiałami zakaźnymi klasy 6.2, np. próbkami medycznymi",
+          "C": "Butle z gazem klasy 2.2, przewożone w klatce ochronnej"
         },
         "correct_option": "A",
         "explanation": "Nalepka 9A jest przewidziana między innymi dla określonych baterii litowych i sodowo-jonowych, zgodnie z ich klasyfikacją i warunkami przewozu. Nie dotyczy automatycznie każdej baterii ani materiałów zakaźnych czy butli z gazem. Dlatego należy sprawdzić numer UN i właściwą pozycję ADR. Podstawa: ADR 5.2.2.2.2 i tabela A, np. UN 3551–3552.",
@@ -596,9 +596,9 @@
       "exact_record_snapshot": {
         "stem": "Dyspozytor numeru alarmowego pyta kierowcę o przewożoną substancję. Co należy mu przekazać?",
         "options": {
-          "A": "Podać znane dane o towarze i zdarzeniu, np. numer UN",
-          "B": "Podać tylko markę i model pojazdu, pomijając przewożony towar",
-          "C": "Wymyślić numer UN, jeśli dokumenty są chwilowo niedostępne"
+          "A": "Przekazać potwierdzone dane o ładunku i zdarzeniu, np. numer UN oraz miejsce",
+          "B": "Podać markę, numer rejestracyjny i opis pojazdu, pomijając rodzaj przewożonego towaru",
+          "C": "Podać przypuszczalny numer UN bez potwierdzenia w dokumentach"
         },
         "correct_option": "A",
         "explanation": "Podczas zgłaszania wypadku służby potrzebują sprawdzonych informacji o przewożonym towarze i zdarzeniu, na przykład numeru UN z dokumentu. Dzięki temu mogą dobrać właściwe działania ratownicze. Marka samochodu nie wystarczy, a podanie przypadkowego numeru UN może niebezpiecznie wprowadzić w błąd. Podstawa: ADR 5.4.3.4.",
@@ -801,9 +801,9 @@
       "exact_record_snapshot": {
         "stem": "Na numerowanej pomarańczowej tablicy ADR numer zagrożenia zaczyna się od X. Co to oznacza dla prób użycia wody?",
         "options": {
-          "A": "Woda jest zawsze właściwym środkiem do gaszenia tego materiału",
+          "A": "Można użyć wody, gdy strażak nie widzi płomieni przy wycieku",
           "B": "Litera X oznacza, że materiał nie reaguje niebezpiecznie z wodą",
-          "C": "Możliwa jest niebezpieczna reakcja z wodą; nie improwizuj"
+          "C": "Materiał może gwałtownie reagować z wodą; trzeba unikać improwizacji"
         },
         "correct_option": "C",
         "explanation": "Litera X przed numerem zagrożenia ostrzega, że materiał może niebezpiecznie reagować z wodą. Jej użycie bez rozpoznania sytuacji mogłoby zwiększyć zagrożenie, dlatego nie wolno improwizować podczas wycieku lub pożaru. X nie oznacza, że woda jest obojętna albo zawsze najlepsza. Podstawa: ADR 5.3.2.3.1.",
@@ -924,8 +924,8 @@
       "exact_record_snapshot": {
         "stem": "Dla danego towaru nie znaleziono w kolumnach 10 i 17 tabeli A ani kodu BK/VC, ani wyraźnego odesłania dopuszczającego przewóz luzem. Co wynika z ADR 7.3.1.1?",
         "options": {
-          "A": "Przewóz luzem zawsze wolno, gdy plandeka szczelnie osłania ładunek",
-          "B": "Kierowca sam może dopuścić przewóz luzem dla materiału stałego",
+          "A": "Wystarczy szczelna plandeka i zabezpieczenie przed pyleniem",
+          "B": "Kierowca może wybrać przewóz luzem, jeśli materiał jest stały",
           "C": "Nie, brak wskazania w ADR oznacza brak podstawy do przewozu luzem"
         },
         "correct_option": "C",
@@ -966,8 +966,8 @@
         "stem": "Dla towaru w kolumnie 15 tabeli A widnieje kod tunelowy (-). Jakie znaczenie ma ten zapis?",
         "options": {
           "A": "Kod (-) oznacza brak ograniczenia tunelowego ADR dla tego towaru",
-          "B": "Kod pozwala ignorować znaki zakazu dla każdego tunelu na trasie",
-          "C": "Kod zakazuje przejazdu przez wszystkie tunele kategorii od A do E"
+          "B": "Kod pozwala zignorować znak zakazu dla tunelu kategorii E, jeśli ładunek jest mały",
+          "C": "Kod zakazuje wjazdu do tuneli od kategorii A do E"
         },
         "correct_option": "A",
         "explanation": "Kod tunelowy „(-)” oznacza brak ograniczenia tunelowego wynikającego z kodu ADR przypisanego do tej pozycji. Nie zwalnia to kierowcy z przestrzegania znaków drogowych ani innych ograniczeń obowiązujących na trasie. Zapis nie jest więc zgodą na ignorowanie zakazów i nie oznacza zakazu wjazdu do wszystkich tuneli, dlatego B i C są błędne. Podstawa: ADR 8.6.3.1.",

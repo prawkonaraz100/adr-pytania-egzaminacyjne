@@ -1142,7 +1142,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wyłączony przewóz bez warunku oznakowania LQ nie jest automatycznie liczony do najostrzejszego kodu."
+          "rationale": "Ten wariant („Tak, sumuje się kody także dla przesyłek objętych wyłączeniem 1.1.3”) nie spełnia opisanego warunku ADR. Wyłączony przewóz bez warunku oznakowania LQ nie jest automatycznie liczony do najostrzejszego kodu."
         },
         "B": {
           "expected_correct": true,
@@ -1150,7 +1150,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Klasa 3 nie wprowadza opisanego automatycznego odstępstwa od tej zasady."
+          "rationale": "Ten wariant („Tak, jeśli na pokładzie jest ciecz klasy 3 w opakowaniu detalicznym”) nie spełnia opisanego warunku ADR. Klasa 3 nie wprowadza opisanego automatycznego odstępstwa od tej zasady."
         }
       },
       "observed_answer_key": "B",
@@ -1164,9 +1164,9 @@
         "module_id": "ADR-B-11",
         "stem": "Towary są rzeczywiście przewożone zgodnie z wyłączeniami rozdziału ADR 1.1.3. Jednostka transportowa nie wymaga oznakowania LQ na podstawie 3.4.13 (z uwzględnieniem 3.4.14). Czy te towary uwzględnia się przy ustalaniu kodu ograniczeń tunelowych?",
         "options": {
-          "A": "Tak, sumuje się kody wszystkich towarów również przy takim wyłączeniu",
+          "A": "Tak, sumuje się kody także dla przesyłek objętych wyłączeniem 1.1.3",
           "B": "Nie, przewozy na tych zasadach nie podlegają takim ograniczeniom tunelowym",
-          "C": "Tak, gdy w pojeździe znajduje się ciecz zapalna zaliczana do klasy 3"
+          "C": "Tak, jeśli na pokładzie jest ciecz klasy 3 w opakowaniu detalicznym"
         },
         "correct_option": "B",
         "explanation": "Nie każdy ładunek niebezpieczny podlega ograniczeniom tunelowym w taki sam sposób. Jeżeli przewóz rzeczywiście korzysta z podanych wyłączeń ADR i nie zachodzi wskazany wyjątek dotyczący oznakowania LQ, towarów tych nie uwzględnia się przy wyznaczaniu kodu tunelowego. Sama obecność klasy 3 ani założenie, że wszystkie kody zawsze się liczą, jest błędne. Podstawa: ADR 8.6.3.3.",

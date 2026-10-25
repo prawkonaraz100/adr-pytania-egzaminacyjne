@@ -22,9 +22,9 @@
       "exact_record_snapshot": {
         "stem": "Co oznacza dla ograniczeń ADR kategoria tunelu A?",
         "options": {
-          "A": "Najostrzejsze ograniczenia ADR i zakaz wjazdu dla wszystkich ciężarówek bez wyjątku",
+          "A": "Zakaz wjazdu dla ciężarówek z ładunkiem ADR, tak jak przy kategorii E",
           "B": "Brak ograniczeń tunelowych ADR wynikających z klasyfikacji A–E",
-          "C": "Zakaz przejazdu dla każdej ciężarówki"
+          "C": "Zakaz dla ciężarówek przewożących materiały klasy 3"
         },
         "correct_option": "B",
         "explanation": "Kategoria tunelu A oznacza brak ograniczeń tunelowych wynikających z klasyfikacji ADR A–E. Nie jest to kategoria z najostrzejszymi ograniczeniami ani bezwzględny zakaz dla ciężarówek. Nadal obowiązują znaki drogowe i inne ograniczenia. Kategoria A nie znosi ograniczeń wynikających ze znaków drogowych, zakazów masowych ani innych lokalnych zasad. Podstawa: ADR 1.9.5.2.2 i 8.6.",
@@ -104,9 +104,9 @@
       "exact_record_snapshot": {
         "stem": "Przewozisz towar w sztukach przesyłek z kodem ograniczenia tunelowego D/E, a przewóz podlega ograniczeniom tunelowym ADR. Przez który tunel nie możesz przejechać ze względu na ten kod?",
         "options": {
-          "A": "Tunelu kategorii A, gdyż jest oznaczony jako najbardziej ograniczony",
-          "B": "Tuneli kategorii E",
-          "C": "Wszystkich tuneli kategorii B–E"
+          "A": "Tunelu kategorii A, ponieważ litera D oznacza największe ograniczenia",
+          "B": "Tunelu kategorii E w przewozie sztuk przesyłek oznaczonych kodem D/E",
+          "C": "Tuneli B, C, D i E, ponieważ kod D/E jest na pojeździe"
         },
         "correct_option": "B",
         "explanation": "Zapis D/E ma różny skutek zależnie od sposobu przewozu. W pytaniu chodzi o sztuki przesyłek, więc zakaz związany z tym kodem dotyczy tunelu kategorii E; dla przewozu luzem lub w cysternie reguła może być inna. Nie należy odczytywać liter jako zakazu w tunelach A ani automatycznie we wszystkich B–E. Podstawa: ADR 8.6.4.",
@@ -1170,9 +1170,9 @@
       "exact_record_snapshot": {
         "stem": "Czy wolno piętrzyć sztuki przesyłek ADR, których konstrukcja nie przewiduje piętrzenia?",
         "options": {
-          "A": "Tak, jeśli dolne opakowanie jest cięższe",
-          "B": "Nie",
-          "C": "Tak, jeśli wszystkie sztuki przesyłek są spięte jednym pasem"
+          "A": "Tak, gdy dolne opakowanie jest cięższe i utrzymuje stos",
+          "B": "Nie, jeżeli opakowania nie są przystosowane do piętrzenia",
+          "C": "Tak, gdy stos utrzymuje jeden pas, mimo braku wytrzymałości opakowań"
         },
         "correct_option": "B",
         "explanation": "Opakowania mogą ulec zgnieceniu albo przewrócić się, jeśli postawi się jedne na drugich bez odpowiedniej konstrukcji. Dlatego nie wolno piętrzyć sztuk przesyłek, które nie są do tego przeznaczone. Cięższy karton na dole ani spięcie całego stosu pasem nie zastępują wymaganej wytrzymałości opakowań. Podstawa: ADR 7.5.7.2.",

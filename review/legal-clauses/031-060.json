@@ -14,7 +14,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędny wariant: „Najostrzejsze ograniczenia ADR i zakaz wjazdu dla wszystkich ciężarówek bez wyjątku”. Kategoria tunelu A oznacza brak ograniczeń tunelowych wynikających z klasyfikacji ADR A–E. Nie jest to kategoria z najostrzejszymi ograniczeniami ani bezwzględny zakaz dla ciężarówek. Nadal obowiązują znaki drogowe i inne ograniczenia. Podstawa: ADR 1.9.5.2.2 i 8.6."
+          "rationale": "Błędny wariant: „Zakaz wjazdu dla ciężarówek z ładunkiem ADR, tak jak przy kategorii E”. Kategoria tunelu A oznacza brak ograniczeń tunelowych wynikających z klasyfikacji ADR A–E. Nie jest to kategoria z najostrzejszymi ograniczeniami ani bezwzględny zakaz dla ciężarówek. Nadal obowiązują znaki drogowe i inne ograniczenia. Podstawa: ADR 1.9.5.2.2 i 8.6."
         },
         "B": {
           "expected_correct": true,
@@ -22,7 +22,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Kategoria A nie zakazuje każdej ciężarówce przejazdu."
+          "rationale": "Ten wariant („Zakaz dla ciężarówek przewożących materiały klasy 3”) nie spełnia opisanego warunku ADR. Kategoria A nie zakazuje każdej ciężarówce przejazdu."
         }
       },
       "observed_answer_key": "B",
@@ -36,9 +36,9 @@
         "module_id": "ADR-B-11",
         "stem": "Co oznacza dla ograniczeń ADR kategoria tunelu A?",
         "options": {
-          "A": "Najostrzejsze ograniczenia ADR i zakaz wjazdu dla wszystkich ciężarówek bez wyjątku",
+          "A": "Zakaz wjazdu dla ciężarówek z ładunkiem ADR, tak jak przy kategorii E",
           "B": "Brak ograniczeń tunelowych ADR wynikających z klasyfikacji A–E",
-          "C": "Zakaz przejazdu dla każdej ciężarówki"
+          "C": "Zakaz dla ciężarówek przewożących materiały klasy 3"
         },
         "correct_option": "B",
         "explanation": "Kategoria tunelu A oznacza brak ograniczeń tunelowych wynikających z klasyfikacji ADR A–E. Nie jest to kategoria z najostrzejszymi ograniczeniami ani bezwzględny zakaz dla ciężarówek. Nadal obowiązują znaki drogowe i inne ograniczenia. Kategoria A nie znosi ograniczeń wynikających ze znaków drogowych, zakazów masowych ani innych lokalnych zasad. Podstawa: ADR 1.9.5.2.2 i 8.6.",
@@ -108,7 +108,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Kod D/E dla sztuk przesyłek nie dotyczy kategorii A."
+          "rationale": "Ten wariant („Tunelu kategorii A, ponieważ litera D oznacza największe ograniczenia”) nie spełnia opisanego warunku ADR. Kod D/E dla sztuk przesyłek nie dotyczy kategorii A."
         },
         "B": {
           "expected_correct": true,
@@ -116,7 +116,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "B–E jest zbyt szerokim zakazem dla sztuk przesyłek z kodem D/E."
+          "rationale": "Ten wariant („Tuneli B, C, D i E, ponieważ kod D/E jest na pojeździe”) nie spełnia opisanego warunku ADR. B–E jest zbyt szerokim zakazem dla sztuk przesyłek z kodem D/E."
         }
       },
       "observed_answer_key": "B",
@@ -130,9 +130,9 @@
         "module_id": "ADR-B-11",
         "stem": "Przewozisz towar w sztukach przesyłek z kodem ograniczenia tunelowego D/E, a przewóz podlega ograniczeniom tunelowym ADR. Przez który tunel nie możesz przejechać ze względu na ten kod?",
         "options": {
-          "A": "Tunelu kategorii A, gdyż jest oznaczony jako najbardziej ograniczony",
-          "B": "Tuneli kategorii E",
-          "C": "Wszystkich tuneli kategorii B–E"
+          "A": "Tunelu kategorii A, ponieważ litera D oznacza największe ograniczenia",
+          "B": "Tunelu kategorii E w przewozie sztuk przesyłek oznaczonych kodem D/E",
+          "C": "Tuneli B, C, D i E, ponieważ kod D/E jest na pojeździe"
         },
         "correct_option": "B",
         "explanation": "Zapis D/E ma różny skutek zależnie od sposobu przewozu. W pytaniu chodzi o sztuki przesyłek, więc zakaz związany z tym kodem dotyczy tunelu kategorii E; dla przewozu luzem lub w cysternie reguła może być inna. Nie należy odczytywać liter jako zakazu w tunelach A ani automatycznie we wszystkich B–E. Podstawa: ADR 8.6.4.",
@@ -1330,7 +1330,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Cięższe dolne opakowanie nie legalizuje piętrzenia bez konstrukcyjnego dopuszczenia."
+          "rationale": "Ten wariant („Tak, gdy dolne opakowanie jest cięższe i utrzymuje stos”) nie spełnia opisanego warunku ADR. Cięższe dolne opakowanie nie legalizuje piętrzenia bez konstrukcyjnego dopuszczenia."
         },
         "B": {
           "expected_correct": true,
@@ -1338,7 +1338,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Pojedynczy pas nie zmienia wytrzymałości konstrukcji opakowania."
+          "rationale": "Ten wariant („Tak, gdy stos utrzymuje jeden pas, mimo braku wytrzymałości opakowań”) nie spełnia opisanego warunku ADR. Pojedynczy pas nie zmienia wytrzymałości konstrukcji opakowania."
         }
       },
       "observed_answer_key": "B",
@@ -1352,9 +1352,9 @@
         "module_id": "ADR-B-09",
         "stem": "Czy wolno piętrzyć sztuki przesyłek ADR, których konstrukcja nie przewiduje piętrzenia?",
         "options": {
-          "A": "Tak, jeśli dolne opakowanie jest cięższe",
-          "B": "Nie",
-          "C": "Tak, jeśli wszystkie sztuki przesyłek są spięte jednym pasem"
+          "A": "Tak, gdy dolne opakowanie jest cięższe i utrzymuje stos",
+          "B": "Nie, jeżeli opakowania nie są przystosowane do piętrzenia",
+          "C": "Tak, gdy stos utrzymuje jeden pas, mimo braku wytrzymałości opakowań"
         },
         "correct_option": "B",
         "explanation": "Opakowania mogą ulec zgnieceniu albo przewrócić się, jeśli postawi się jedne na drugich bez odpowiedniej konstrukcji. Dlatego nie wolno piętrzyć sztuk przesyłek, które nie są do tego przeznaczone. Cięższy karton na dole ani spięcie całego stosu pasem nie zastępują wymaganej wytrzymałości opakowań. Podstawa: ADR 7.5.7.2.",

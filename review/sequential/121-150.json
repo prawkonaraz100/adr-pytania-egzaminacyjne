@@ -63,9 +63,9 @@
       "exact_record_snapshot": {
         "stem": "Firma przewozi towary niebezpieczne dużego ryzyka objęte wymaganiami 1.10.3.2. Co powinna wdrożyć?",
         "options": {
-          "A": "Wdrożyć tylko mocowanie ładunku, bez oceny ryzyka kradzieży",
-          "B": "Przygotować procedury pożarowe, pomijając ochronę i zgłaszanie incydentów",
-          "C": "Opracować plan ochrony transportu zgodny z ADR 1.10.3.2"
+          "A": "Wdrożyć nadzór plomb i mocowanie, pomijając ryzyko przejęcia pojazdu",
+          "B": "Opracować procedurę gaszenia i ewakuacji bez zasad ochrony transportu",
+          "C": "Opracować plan ochrony transportu obejmujący wymagania ADR 1.10.3.2"
         },
         "correct_option": "C",
         "explanation": "Przy towarach niebezpiecznych dużego ryzyka samo mocowanie ładunku i przygotowanie na pożar nie wystarczają. Uczestnicy objęci wymaganiem muszą mieć plan ochrony przewozu, który pomaga zapobiegać kradzieży i celowemu nadużyciu towaru. Plan obejmuje również sposób reagowania na zagrożenia ochrony. Podstawa: ADR 1.10.3.2.",
@@ -105,8 +105,8 @@
         "stem": "Co oznacza określenie „towary niebezpieczne” w umowie ADR?",
         "options": {
           "A": "Materiały lub przedmioty zakazane albo warunkowo dopuszczone do przewozu",
-          "B": "Wyłącznie materiały klasy 3, czyli ciecze zapalne, a nie inne klasy",
-          "C": "Każdy towar powyżej 1000 kg, nawet jeśli nie ma właściwości niebezpiecznych"
+          "B": "Materiały klasy 3 i ciecze zapalne, jeśli jadą w opakowaniach certyfikowanych",
+          "C": "Towar cięższy od tony, nawet jeśli jego właściwości nie są niebezpieczne"
         },
         "correct_option": "A",
         "explanation": "Towarem niebezpiecznym w rozumieniu ADR może być materiał lub przedmiot, którego przewóz jest zakazany albo dozwolony tylko po spełnieniu określonych warunków. Nie chodzi wyłącznie o jedną klasę, na przykład ciecze zapalne. Sama masa ponad tysiąc kilogramów również nie wystarcza, by uznać zwykły towar za niebezpieczny. Podstawa: art. 1(b) umowy ADR.",
@@ -227,8 +227,8 @@
       "exact_record_snapshot": {
         "stem": "Co oznacza podklasa 1.1 materiałów i przedmiotów wybuchowych?",
         "options": {
-          "A": "Zagrożenie wybuchem masowym",
-          "B": "Wyłącznie działanie żrące",
+          "A": "Zagrożenie wybuchem masowym, mogącym objąć niemal cały ładunek",
+          "B": "Oddziaływanie żrące na stal i skórę, charakterystyczne dla klasy 8",
           "C": "Wydzielanie gazu palnego w kontakcie z wodą"
         },
         "correct_option": "A",
@@ -351,8 +351,8 @@
         "stem": "Nadawca nie zna dokładnego składu odpadu bez nieproporcjonalnych kosztów. Czy może zawsze nadać grupę pakowania III?",
         "options": {
           "A": "Nie; stosuje zasady klasyfikacji odpadu i dostępne dane o zagrożeniach",
-          "B": "Tak, automatycznie wybiera grupę III dla każdego odpadu o nieznanym składzie",
-          "C": "Tak, jeśli opakowanie ma znak UN, nawet bez oceny właściwości odpadu"
+          "B": "Tak, nadaje grupę III, gdy brakuje wyników badań składu odpadu",
+          "C": "Tak, wystarcza symbol UN na opakowaniu bez oceny odpadu"
         },
         "correct_option": "A",
         "explanation": "Nieznany dokładny skład odpadu nie oznacza, że wolno automatycznie przypisać mu najniższy stopień zagrożenia. Trzeba wykorzystać dostępne informacje i szczególne reguły klasyfikacji odpadów, z uwzględnieniem wyjątków. Znak UN na pojemniku nie potwierdza sam z siebie grupy III; przy wątpliwościach należy przyjąć odpowiednio ostrożne podejście. Podstawa: ADR 2.1.3.5.5.",
@@ -473,8 +473,8 @@
       "exact_record_snapshot": {
         "stem": "Na jakich powierzchniach kontenera wymagającego nalepek dużego formatu ADR co do zasady się je umieszcza?",
         "options": {
-          "A": "Na obu bokach i obu końcach kontenera, co do zasady",
-          "B": "Wyłącznie na jednym końcu kontenera, aby ograniczyć liczbę nalepek",
+          "A": "Na obu bokach oraz obu końcach kontenera, w wymaganych miejscach",
+          "B": "Na drzwiach i jednym boku kontenera, jeśli oznakowanie jest czytelne",
           "C": "Na dachu kontenera, żeby oznakowanie było widoczne z góry"
         },
         "correct_option": "A",
@@ -514,9 +514,9 @@
       "exact_record_snapshot": {
         "stem": "Nalepki kontenera ADR są niewidoczne z zewnątrz pojazdu. Co może być wymagane według 5.3.1.3?",
         "options": {
-          "A": "Zastąpić nalepki widoczne tylko w dokumencie przewozowym",
+          "A": "Przenieść informację o nalepkach do listu przewozowego dla służb",
           "B": "Powtórzyć wymagane duże nalepki na bokach i z tyłu pojazdu",
-          "C": "Usunąć oznakowanie z kontenera, aby nie było sprzecznych znaków"
+          "C": "Zdjąć zasłonięte nalepki z kontenera, zostawiając numer UN"
         },
         "correct_option": "B",
         "explanation": "Gdy kontener stoi na pojeździe tak, że jego wymagane duże nalepki nie są widoczne z zewnątrz, może być konieczne powtórzenie oznakowania na pojeździe. Ma to umożliwić rozpoznanie zagrożenia podczas kontroli i zdarzenia. Sam dokument przewozowy nie zastępuje widocznych nalepek, a ich usunięcie pogłębiłoby problem. Podstawa: ADR 5.3.1.3.",
@@ -556,8 +556,8 @@
         "stem": "Kto odpowiada za spełnienie wymagań pakowania i wspólnego pakowania w ADR 1.4.3.2?",
         "options": {
           "A": "Odbiorca, który przyjmuje przesyłkę dopiero po zakończeniu rozładunku",
-          "B": "Kierowca, który odpowiada wyłącznie za bezpieczeństwo podczas jazdy",
-          "C": "Pakujący, odpowiedzialny za właściwe przygotowanie opakowań"
+          "B": "Kierowca, bo kontroluje zamknięcie drzwi i stateczność ładunku",
+          "C": "Pakujący, który odpowiada za stosowanie zasad pakowania i pakowania razem"
         },
         "correct_option": "C",
         "explanation": "Pakujący decyduje o przygotowaniu towarów do umieszczenia w opakowaniach, dlatego odpowiada za przestrzeganie zasad pakowania, w tym pakowania razem, jeśli ma ono zastosowanie. Nie można przerzucać tej czynności wyłącznie na odbiorcę po rozładunku ani na kierowcę podczas jazdy. Właściwe pakowanie zmniejsza ryzyko uszkodzenia i niebezpiecznych reakcji. Podstawa: ADR 1.4.3.2.",
@@ -637,9 +637,9 @@
       "exact_record_snapshot": {
         "stem": "Czy jednostka transportowa przewożąca ADR na zasadach 8.3.1 może zabrać pasażera niebędącego członkiem załogi?",
         "options": {
-          "A": "Tak, pasażer może jechać, jeśli trasa przebiega wyłącznie na terenie Polski",
-          "B": "Nie; osoby spoza załogi nie mogą podróżować w tej jednostce",
-          "C": "Tak, pasażer może siedzieć z przodu, jeśli ma zapięte pasy"
+          "A": "Tak, gdy pasażer jedzie od magazynu do bramy na terenie Polski",
+          "B": "Nie; zakaz dotyczy osób spoza załogi także na krótkim odcinku przewozu ADR",
+          "C": "Tak, gdy pasażer siedzi z przodu i ma zapięte pasy bezpieczeństwa"
         },
         "correct_option": "B",
         "explanation": "Przy przewozach objętych zasadą ADR 8.3.1 w jednostce transportowej mogą przebywać członkowie załogi, ale nie przypadkowi pasażerowie. Obecność dodatkowej osoby zwiększałaby liczbę ludzi narażonych podczas zdarzenia. Jazda wyłącznie po Polsce ani miejsce pasażera na przednim siedzeniu nie tworzą wyjątku. Podstawa: ADR 8.3.1.",
@@ -801,8 +801,8 @@
       "exact_record_snapshot": {
         "stem": "Zwykły kontener ładunkowy ze sztukami przesyłek ADR (nie kontener-cysterna) będzie najpierw przewożony drogą, a następnie drogą morską. Jaki dodatkowy dokument może wymagać ADR 5.4.2?",
         "options": {
-          "A": "Jedynie dokumentu przewozowego ADR, bez wymaganego certyfikatu pakowania kontenera",
-          "B": "Wyłącznie świadectwa dopuszczenia pojazdu drogowego zamiast certyfikatu pakowania",
+          "A": "Dokumentu ADR bez potwierdzenia pakowania kontenera",
+          "B": "Świadectwa dopuszczenia pojazdu drogowego zamiast dokumentu potwierdzającego prawidłowe pakowanie kontenera",
           "C": "Certyfikat pakowania kontenera/pojazdu, gdy zachodzą warunki tego przepisu"
         },
         "correct_option": "C",
@@ -883,9 +883,9 @@
       "exact_record_snapshot": {
         "stem": "Kontener z oznakowaniem IMDG po rejsie morskim jedzie drogą. Co trzeba sprawdzić?",
         "options": {
-          "A": "Czy można usunąć wszystkie wymagane nalepki",
-          "B": "Warunki uznania IMDG i obowiązki ADR",
-          "C": "Czy rejs automatycznie zniósł wszystkie przepisy ADR"
+          "A": "Zdjąć znaki ADR po rejsie, jeśli na kontenerze są znaki morskie",
+          "B": "Warunki uznania znaków IMDG i pozostałe obowiązki ADR na drodze",
+          "C": "Uznać morski dokument przewozowy za wystarczający na całej trasie"
         },
         "correct_option": "B",
         "explanation": "Kontener po rejsie morskim może mieć oznakowanie IMDG dopuszczone także na określonym odcinku drogowym. Kierowca powinien sprawdzić warunki takiego uznania i pozostałe wymagania ADR. Nie wolno automatycznie usuwać nalepek ani zakładać, że wcześniejszy rejs zwolnił z wszystkich zasad drogowych. Podstawa: ADR 1.1.4.2.1.",
@@ -965,9 +965,9 @@
       "exact_record_snapshot": {
         "stem": "Przy przewozie objętym 8.4.1 ADR jaki postój bez bezpośredniego nadzoru może być dopuszczony?",
         "options": {
-          "A": "Skorzystać z zabezpieczonej bazy lub terenu chronionego zakładu",
-          "B": "Można wybrać dowolne pobocze bez kontroli dostępu i innych zabezpieczeń",
-          "C": "Wybrać parking wyłącznie według ceny, bez sprawdzania wymogów ADR"
+          "A": "Skorzystać z zabezpieczonej bazy lub terenu zakładu, jeśli jest dostępny",
+          "B": "Stanąć na poboczu drogi z dostępem publicznym, jeśli kierowca czuwa",
+          "C": "Wybrać parking z monitoringiem bez sprawdzenia kolejności z ADR"
         },
         "correct_option": "A",
         "explanation": "Gdy przewóz wymaga nadzoru zgodnie z ADR 8.4.1, pojazdu nie można pozostawić po prostu w dowolnym miejscu. Odpowiednio zabezpieczona baza lub teren chronionego zakładu może spełniać warunki postoju bez bezpośredniego nadzoru. Cena parkingu czy wygodne pobocze nie decydują o dopuszczalności takiego postoju. Podstawa: ADR 8.4.1.",
@@ -1006,9 +1006,9 @@
       "exact_record_snapshot": {
         "stem": "Gdzie podczas przewozu powinno znajdować się wymagane świadectwo dopuszczenia samochodu ciężarowego typu FL (pojazdu silnikowego, nie naczepy), zgodnie z ogólną zasadą ADR?",
         "options": {
-          "A": "Zostawić świadectwo u odbiorcy, by mógł je odebrać dopiero po rozładunku",
-          "B": "Mieć je w kabinie wraz z wymaganymi dokumentami przewozu",
-          "C": "Przechowywać je wyłącznie w archiwum szkolenia, a nie w pojeździe"
+          "A": "Zostawić świadectwo w archiwum floty i okazać później",
+          "B": "Mieć wymagane świadectwo w kabinie razem z dokumentami przewozu",
+          "C": "Trzymać je w dokumentacji ośrodka razem z zaświadczeniem kierowcy"
         },
         "correct_option": "B",
         "explanation": "Świadectwo dopuszczenia pojazdu FL potwierdza spełnienie szczególnych wymagań technicznych dla tego rodzaju pojazdu. Gdy jest wymagane, należy je mieć w kabinie razem z innymi dokumentami, aby można je było okazać podczas kontroli. Dokument pozostawiony u odbiorcy lub w archiwum szkolenia nie spełnia tego celu. Podstawa: ADR 8.1.2.2(a).",
@@ -1052,8 +1052,8 @@
       "exact_record_snapshot": {
         "stem": "Czy w kabinie trzeba mieć zaświadczenie o przeszkoleniu kierowcy ADR, gdy jest ono wymagane według 8.2.1?",
         "options": {
-          "A": "Nie, wystarczy ustne zapewnienie kierowcy, że ma aktualne zaświadczenie ADR",
-          "B": "Tak, ale tylko wtedy, gdy pojazd przekracza granicę państwa",
+          "A": "Nie, wystarcza ustne zapewnienie kierowcy i numer kursu ADR",
+          "B": "Tak, ale należy go sprawdzić dopiero przy przekroczeniu granicy państwa",
           "C": "Tak, gdy jest wymagane, zgodnie z obowiązkiem dokumentacyjnym 8.1.2.2"
         },
         "correct_option": "C",
@@ -1094,8 +1094,8 @@
         "stem": "Do pracy przy przewozie ADR skierowano ciągnik samochodowy z naczepą. Jak ADR traktuje taki zestaw przy wymaganiach odnoszących się do jednostki transportowej?",
         "options": {
           "A": "Jako jedną jednostkę obejmującą pojazd silnikowy i przyczepę lub naczepę",
-          "B": "Zawsze jako dwie osobne jednostki przy obliczaniu ilości przewożonego towaru",
-          "C": "Jako jedną jednostkę wyłącznie wtedy, gdy naczepa jest całkowicie pusta"
+          "B": "Jako dwie niezależne jednostki do obliczenia ilości dla progu ADR 1.1.3.6",
+          "C": "Jako jeden pojazd dopiero po odłączeniu pustej naczepy"
         },
         "correct_option": "A",
         "explanation": "Ciągnik samochodowy z naczepą traktuje się jako jedną jednostkę transportową w rozumieniu ADR. Ma to znaczenie na przykład przy obliczaniu ilości towarów objętych określonymi zwolnieniami. Nie liczy się ich automatycznie jako dwóch oddzielnych jednostek, a obecność ładunku w naczepie nie zmienia samej definicji. Podstawa: ADR 1.2.1.",
@@ -1136,7 +1136,7 @@
         "options": {
           "A": "Zaświadczenie ADR wystarczy, jeśli kierowca nie wykonuje załadunku ani rozładunku",
           "B": "Zaświadczenie ADR nie zastępuje prawa jazdy odpowiedniej kategorii dla zestawu",
-          "C": "Zaświadczenie ADR pozwala prowadzić każdy pojazd bez dodatkowej kategorii prawa jazdy"
+          "C": "Zaświadczenie ADR zastępuje kategorię prawa jazdy po ukończeniu kursu"
         },
         "correct_option": "B",
         "explanation": "Zaświadczenie ADR dotyczy przygotowania do przewozu towarów niebezpiecznych, a prawo jazdy uprawnia do prowadzenia odpowiedniego pojazdu. Kierowca potrzebuje obu uprawnień, gdy są wymagane. Zaświadczenie ADR nie pozwala prowadzić zestawu bez właściwej kategorii, niezależnie od tego, czy wykonuje się załadunek. Podstawa: ADR 8.2.1 i przepisy o uprawnieniach kierowców.",
@@ -1175,8 +1175,8 @@
       "exact_record_snapshot": {
         "stem": "Jak sprawdza się limit ilości ograniczonej (LQ) dla konkretnego numeru UN?",
         "options": {
-          "A": "Według jednego limitu 1000 litrów, stosowanego jednakowo do wszystkich towarów",
-          "B": "Według masy całego pojazdu, bez sprawdzania opakowania i rodzaju materiału",
+          "A": "Według 1000 litrów na samochód, bez odczytania limitu z tabeli A",
+          "B": "Według ładowności pojazdu, a nie wielkości opakowania wewnętrznego",
           "C": "Według limitu LQ dla opakowania wewnętrznego z tabeli A i warunków działu 3.4"
         },
         "correct_option": "C",
