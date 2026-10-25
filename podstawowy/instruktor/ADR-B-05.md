@@ -56,3 +56,77 @@ Fikcyjna mapa kolizji, instrukcje pisemne ADR 5.4.3, lista wyposażenia 8.1.5, z
 
 ## Podstawy do sprawdzenia
 ADR 2025, Dz.U. 2025 poz. 642 ze sprostowaniem Dz.U. 2025 poz. 1575 oraz program kursu ADR, Dz.U. 2021 poz. 2150. Przed prowadzeniem zajęć porównaj wymagania z obowiązującym tekstem urzędowym i uzyskaj odbiór instruktorski.
+
+## Prowadzenie trzech scenariuszy praktycznych
+
+Pracuj na fikcyjnych dokumentach i kartach, bez prawdziwych towarów niebezpiecznych. Przed każdym ćwiczeniem przypomnij cel, poproś kursanta o głośne uzasadnienie decyzji i sprawdzaj zarówno bezpieczeństwo, jak i umiejętność znalezienia podstawy ADR. Nie oceniaj samej litery odpowiedzi.
+
+### 1. SC-ADR-B-05 — Awaria: bezpieczne zgłoszenie i dostępność sprzętu
+
+**Sytuacja:** Po awarii kierowca zatrzymał się bezpiecznie. Gaśnica jest zasłonięta ładunkiem, a kierowca nie zna jeszcze dokładnej przyczyny zdarzenia.
+
+**Jak poprowadzić:**
+1. Nie narażaj siebie; oceń miejsce zdarzenia i ostrzeż innych w granicach własnych możliwości.
+2. Jeśli silnik nie jest potrzebny do działania urządzeń obsługowych, wyłącz go i zastosuj instrukcje pisemne.
+3. Wezwij pomoc bez zwłoki; podaj lokalizację, charakter zdarzenia i sprawdzone informacje o ładunku, nie zgaduj składu po zapachu.
+4. Przed wyjazdem sprawdzaj, czy wymagana gaśnica jest sprawna i łatwo dostępna; nie traktuj sprzętu zasłoniętego ładunkiem jako gotowego do użycia.
+
+**Na co patrzeć:** Kursant przekazuje sprawdzone informacje bez zgadywania, rozumie rolę wyłączenia silnika i sprawdza rzeczywistą dostępność gaśnicy. Poproś kursanta, aby własnymi słowami powiedział, dlaczego ta kolejność działań ogranicza ryzyko.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant skupia się na jednym elemencie (np. samym sprzęcie, znaku lub dokumencie). Wyjaśnij, że bezpieczna decyzja wymaga sprawdzenia całej sytuacji, zgodności danych i ograniczeń działania.
+
+**Pytania powiązane:** `ADR-B-0013`, `ADR-B-0015`, `ADR-B-0169`, `ADR-B-0585`, `ADR-B-0593`, `ADR-B-0594`
+
+**Granica bezpieczeństwa:** Ćwiczenie na sucho; pierwsza pomoc i gaśnice wymagają osobnych zajęć z instruktorem.
+
+### 2. SC-ADR-B-05-02 — Awaria na poboczu: pierwsze decyzje kierowcy
+
+**Sytuacja:** Po awarii kierowca zatrzymuje pojazd na poboczu. Nie ma widocznego ognia, ale czuje nieznany zapach w pobliżu ładunku i widzi, że inni kierowcy zbliżają się, aby pomóc.
+
+**Jak poprowadzić:**
+1. Nie próbuj ustalać substancji przez wąchanie i nie zbliżaj się do podejrzanego miejsca.
+2. Ostrzeż osoby z bezpiecznej odległości, oceń możliwość oddalenia się i wezwij pomoc.
+3. Przekaż służbom lokalizację, opis zdarzenia i tylko te dane o towarze, które potrafisz potwierdzić z dokumentów.
+4. Stosuj instrukcje pisemne ADR w granicach bezpieczeństwa; nie podejmuj działań, do których nie masz przeszkolenia.
+
+**Na co patrzeć:** Kursant podaje kolejność bezpiecznych działań. Kursant przekazuje sprawdzone informacje i nie próbuje rozpoznać substancji po zapachu. Poproś kursanta, aby własnymi słowami powiedział, dlaczego ta kolejność działań ogranicza ryzyko.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant chce dokończyć czynność mimo niezgodności. Wyjaśnij, że pośpiech nie usuwa zagrożenia: najpierw trzeba przerwać niebezpieczne działanie, ostrzec właściwe osoby i wyjaśnić problem.
+
+**Pytania powiązane:** `ADR-B-0013`, `ADR-B-0015`, `ADR-B-0169`, `ADR-B-0220`
+
+**Granica bezpieczeństwa:** Sucha symulacja na karcie; bez prawdziwego wycieku, oparów ani pożaru.
+
+### 3. SC-ADR-B-05-03 — Pożar przy przestrzeni ładunkowej
+
+**Sytuacja:** Na planszy szkoleniowej widać dym przy drzwiach przestrzeni ładunkowej pojazdu z towarami niebezpiecznymi. Kursant ma wybrać działania, zanim dotrą służby.
+
+**Jak poprowadzić:**
+1. Nie otwieraj przestrzeni ładunkowej i nie próbuj gasić pożaru obejmującego ładunek.
+2. Ostrzeż osoby w pobliżu, oddal się w bezpieczne miejsce i wezwij służby.
+3. Przygotuj dostępne dokumenty i informacje o ładunku do przekazania ratownikom, jeśli można to zrobić bezpiecznie.
+4. Nie wracaj do pojazdu ani nie podejmuj kolejnych działań bez oceny sytuacji i poleceń służb.
+
+**Na co patrzeć:** Kursant rozpoznaje granice bezpiecznego działania i nie otwiera ładowni. Kursant wskazuje wezwanie służb i przekazanie informacji. Poproś kursanta, aby własnymi słowami powiedział, dlaczego ta kolejność działań ogranicza ryzyko.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant zakłada, że obecność elementu oznacza automatyczną zgodność. Wyjaśnij, że znaczenie mają również stan, dostępność, poprawne użycie i warunki konkretnego przewozu.
+
+**Pytania powiązane:** `ADR-B-0013`, `ADR-B-0015`, `ADR-B-0169`, `ADR-B-0222`, `ADR-B-0223`
+
+**Granica bezpieczeństwa:** Tylko plansza lub film szkoleniowy; bez ognia i prawdziwego ładunku.
+
+## Pytania kontrolne na koniec zajęć
+
+Omów pytania: `ADR-B-0013`, `ADR-B-0015`, `ADR-B-0169`, `ADR-B-0585`, `ADR-B-0593`, `ADR-B-0594`, `ADR-B-0220`, `ADR-B-0222`. Przy każdej odpowiedzi poproś kursanta o wyjaśnienie, dlaczego jest poprawna i dlaczego jeden z pozostałych wariantów wprowadza w błąd.
+
+## Pytania do dodatkowego omówienia
+
+Brak danych o rzeczywistych wynikach kursantów — repo nie rejestruje statystyk błędnych odpowiedzi. Dlatego poniższe ID to kandydaci do omówienia na podstawie tematów scenariuszy, a nie ranking empirycznej trudności: `ADR-B-0593`, `ADR-B-0594`, `ADR-B-0220`, `ADR-B-0222`, `ADR-B-0223`. Zwróć szczególną uwagę na rozróżnianie podobnych pojęć i na to, czy kursant nie pomija warunku bezpieczeństwa.
+
+## Kontrola zgodności materiałów
+
+- Moduł: `ADR-B-05`; kompetencje w mapie: `ADR-B-05-K01`, `ADR-B-05-K02`, `ADR-B-05-K03`, `ADR-B-05-K04`, `ADR-B-05-K05`, `ADR-B-05-K06`, `ADR-B-05-K07`, `ADR-B-05-K08`, `ADR-B-05-K09`, `ADR-B-05-K10`, `ADR-B-05-K11`, `ADR-B-05-K12`, `ADR-B-05-K13`, `ADR-B-05-K14`, `ADR-B-05-K15`.
+- Podstawy ADR zapisane w mapie kompetencji do porównania z lekcją: 5.4.3; 5.4.3.4; 5.4.3.4; program praktyczny; 8.1.4.5; program praktyczny, zał. 1.
+- Wszystkie 9 unikalnych ID z ćwiczeń sprawdzono względem bieżącego banku; każde istnieje i należy do `ADR-B-05`.
+- Lekcja: [ADR-B-05](../lekcje/ADR-B-05.md). Scenariusze: [plik JSON](../praktyka/scenariusze-13-dzialow.json) — wyszukaj identyfikatory SC wymienione powyżej.
+- Nie zmieniono podstaw prawnych ani statusów pytań bez potwierdzonej rozbieżności w urzędowym tekście ADR. To nie zastępuje recenzji specjalisty.

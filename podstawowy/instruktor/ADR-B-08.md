@@ -46,3 +46,77 @@ Podstawa programu: Dz.U. 2021 poz. 2150 zał. 1(h). ADR Dz.U. 2025 poz. 642 i sp
 
 ## Podstawy do sprawdzenia
 ADR 2025, Dz.U. 2025 poz. 642 ze sprostowaniem Dz.U. 2025 poz. 1575 oraz program kursu ADR, Dz.U. 2021 poz. 2150. Przed prowadzeniem zajęć porównaj wymagania z obowiązującym tekstem urzędowym i uzyskaj odbiór instruktorski.
+
+## Prowadzenie trzech scenariuszy praktycznych
+
+Pracuj na fikcyjnych dokumentach i kartach, bez prawdziwych towarów niebezpiecznych. Przed każdym ćwiczeniem przypomnij cel, poproś kursanta o głośne uzasadnienie decyzji i sprawdzaj zarówno bezpieczeństwo, jak i umiejętność znalezienia podstawy ADR. Nie oceniaj samej litery odpowiedzi.
+
+### 1. SC-ADR-B-08 — Kontrola wyposażenia pojazdu i każdego członka załogi
+
+**Sytuacja:** Przed wyjazdem załoga odkrywa, że dwie osoby mają jedną kamizelkę ostrzegawczą, a w pojeździe są latarka, ale brakuje wymaganych rękawic ochronnych i ochrony oczu.
+
+**Jak poprowadzić:**
+1. Sprawdź wymagania dla konkretnego przewozu i odrębnie sprawność oraz dostępność wyposażenia pojazdu.
+2. Ustal, które elementy muszą być dostępne dla każdego członka załogi.
+3. Nie zastępuj kamizelki trójkątem ostrzegawczym ani rękawic i ochrony oczu latarką.
+4. Uzupełnij brakujące elementy przed wyjazdem i dopiero potem zakończ kontrolę.
+
+**Na co patrzeć:** Kursant odróżnia wyposażenie osobiste od wyposażenia pojazdu i rozumie, że elementy ochronne nie zastępują się wzajemnie. Poproś kursanta, aby własnymi słowami powiedział, dlaczego ta kolejność działań ogranicza ryzyko.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant skupia się na jednym elemencie (np. samym sprzęcie, znaku lub dokumencie). Wyjaśnij, że bezpieczna decyzja wymaga sprawdzenia całej sytuacji, zgodności danych i ograniczeń działania.
+
+**Pytania powiązane:** `ADR-B-0418`, `ADR-B-0551`, `ADR-B-0566`, `ADR-B-0596`, `ADR-B-0597`
+
+**Granica bezpieczeństwa:** Symulacja kontroli na liście kontrolnej, bez ćwiczenia z prawdziwym sprzętem gaśniczym.
+
+### 2. SC-ADR-B-08-02 — Kontrola gaśnicy przed wyjazdem
+
+**Sytuacja:** Kierowca sprawdza pojazd i zauważa, że jedna z gaśnic jest zasłonięta ładunkiem, a druga ma uszkodzone mocowanie.
+
+**Jak poprowadzić:**
+1. Sprawdź wymagania dla danego pojazdu i przewozu, w tym liczbę oraz pojemność gaśnic.
+2. Sprawdź stan, ważność przeglądu, mocowanie i możliwość szybkiego dostępu do każdej wymaganej gaśnicy.
+3. Usuń niezgodność przed wyjazdem; sama obecność sprzętu w pojeździe nie wystarcza.
+4. Nie przemieszczaj ładunku w sposób, który tworzy nowe ryzyko lub uszkadza opakowania.
+
+**Na co patrzeć:** Kursant kontroluje stan i dostępność sprzętu, nie tylko jego obecność. Poproś kursanta, aby własnymi słowami powiedział, dlaczego ta kolejność działań ogranicza ryzyko.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant chce dokończyć czynność mimo niezgodności. Wyjaśnij, że pośpiech nie usuwa zagrożenia: najpierw trzeba przerwać niebezpieczne działanie, ostrzec właściwe osoby i wyjaśnić problem.
+
+**Pytania powiązane:** `ADR-B-0022`, `ADR-B-0023`, `ADR-B-0024`, `ADR-B-0596`, `ADR-B-0597`
+
+**Granica bezpieczeństwa:** Lista kontrolna i sprzęt treningowy; nie ćwiczyć pożaru.
+
+### 3. SC-ADR-B-08-03 — Wyposażenie osobiste dla całej załogi
+
+**Sytuacja:** Przed wyjazdem kierowca odkrywa, że w pojeździe są rękawice i okulary ochronne tylko dla jednej osoby, chociaż załoga liczy dwie osoby.
+
+**Jak poprowadzić:**
+1. Sprawdź wymagania ADR dotyczące wyposażenia osobistego dla każdego członka załogi.
+2. Porównaj wymagane elementy z tym, co jest dostępne i w jakim stanie.
+3. Uzupełnij braki przed wyjazdem; nie uznawaj latarki czy kamizelki za zamiennik rękawic lub ochrony oczu.
+4. Wyjaśnij załodze, że rękawice nie upoważniają do dotykania nieznanej substancji.
+
+**Na co patrzeć:** Kursant sprawdza wyposażenie każdej osoby i wskazuje ograniczenia środków ochrony. Poproś kursanta, aby własnymi słowami powiedział, dlaczego ta kolejność działań ogranicza ryzyko.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant zakłada, że obecność elementu oznacza automatyczną zgodność. Wyjaśnij, że znaczenie mają również stan, dostępność, poprawne użycie i warunki konkretnego przewozu.
+
+**Pytania powiązane:** `ADR-B-0022`, `ADR-B-0023`, `ADR-B-0024`, `ADR-B-0418`
+
+**Granica bezpieczeństwa:** Ćwiczenie na liście kontrolnej i bezpiecznym sprzęcie demonstracyjnym.
+
+## Pytania kontrolne na koniec zajęć
+
+Omów pytania: `ADR-B-0418`, `ADR-B-0551`, `ADR-B-0566`, `ADR-B-0596`, `ADR-B-0597`, `ADR-B-0022`, `ADR-B-0023`, `ADR-B-0024`. Przy każdej odpowiedzi poproś kursanta o wyjaśnienie, dlaczego jest poprawna i dlaczego jeden z pozostałych wariantów wprowadza w błąd.
+
+## Pytania do dodatkowego omówienia
+
+Brak danych o rzeczywistych wynikach kursantów — repo nie rejestruje statystyk błędnych odpowiedzi. Dlatego poniższe ID to kandydaci do omówienia na podstawie tematów scenariuszy, a nie ranking empirycznej trudności: `ADR-B-0596`, `ADR-B-0597`, `ADR-B-0022`, `ADR-B-0023`, `ADR-B-0024`. Zwróć szczególną uwagę na rozróżnianie podobnych pojęć i na to, czy kursant nie pomija warunku bezpieczeństwa.
+
+## Kontrola zgodności materiałów
+
+- Moduł: `ADR-B-08`; kompetencje w mapie: `ADR-B-08-K01`, `ADR-B-08-K02`, `ADR-B-08-K03`, `ADR-B-08-K04`, `ADR-B-08-K05`, `ADR-B-08-K06`, `ADR-B-08-K07`, `ADR-B-08-K08`.
+- Podstawy ADR zapisane w mapie kompetencji do porównania z lekcją: 8.1.4.1; 8.1.4.2; 8.1.4.4–5; 8.1.5.2; 8.1.5.3; 9.1, 9.2.
+- Wszystkie 8 unikalnych ID z ćwiczeń sprawdzono względem bieżącego banku; każde istnieje i należy do `ADR-B-08`.
+- Lekcja: [ADR-B-08](../lekcje/ADR-B-08.md). Scenariusze: [plik JSON](../praktyka/scenariusze-13-dzialow.json) — wyszukaj identyfikatory SC wymienione powyżej.
+- Nie zmieniono podstaw prawnych ani statusów pytań bez potwierdzonej rozbieżności w urzędowym tekście ADR. To nie zastępuje recenzji specjalisty.
