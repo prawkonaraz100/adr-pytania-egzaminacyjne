@@ -1,206 +1,127 @@
 # ADR-B-13 — Dokumenty kierowcy i dokument przewozowy
 
 ## Po co to jest?
+Dokumenty i instrukcje pozwalają sprawdzić, co jest przewożone, na jakich warunkach i jak postępować w razie zdarzenia. Niekompletny dokument albo instrukcje w niezrozumiałym języku mogą utrudnić bezpieczny przewóz i reakcję służb. Przed wyjazdem sprawdź dokument przewozowy, wymagane dokumenty dodatkowe i instrukcje pisemne jako odrębne elementy.
 
-Dokumenty pozwalają sprawdzić, co naprawdę przewozisz, jakie zagrożenia występują i jakie warunki trzeba spełnić. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych, a **numer UN** to czterocyfrowy numer identyfikujący pozycję towaru. Dokument przewozowy i instrukcje pisemne mają różne funkcje — jeden nie zastępuje drugiego. Przykład: jeśli numer UN na papierach nie zgadza się z oznakowaniem przesyłki, wyjaśnij rozbieżność przed wyjazdem, zamiast samodzielnie zgadywać właściwy zapis.
+## Czego się nauczysz
+- sprawdzać podstawowe dane dokumentu przewozowego ADR;
+- rozróżniać dokument przewozowy i instrukcje pisemne;
+- sprawdzać, czy instrukcje są dostępne i zrozumiałe dla całej załogi;
+- rozpoznawać, kiedy wymagane są dokumenty dodatkowe;
+- sprawdzać warunki przewozu drogowego po odcinku morskim.
 
-> **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
+## 1. Dokument przewozowy — co sprawdzić
+Sprawdź, czy dokument zawiera wymagane informacje dla konkretnego przewozu, m.in. oznaczenie UN przed numerem, właściwą nazwę przewozową, klasę i inne wymagane elementy opisu, liczbę i rodzaj sztuk przesyłek, ilość, jeśli jest wymagana, oraz dane nadawcy i odbiorcy. Właściwy zestaw pól zależy od towaru i przepisów, dlatego nie traktuj tej listy jako zamiennika kontroli ADR 5.4.1.1.1.
 
-## Jak korzystać z tej lekcji
+Nie dopisuj danych na podstawie przypuszczeń. Jeśli brakuje wymaganej informacji i nie ma zastosowania odpowiedni wyjątek, poproś odpowiedzialnego uczestnika o poprawienie dokumentu przed wyjazdem.
 
-1. Zacznij od celów nauki i głównych sekcji tematycznych u góry dokumentu. Czytaj je po kolei i zatrzymaj się przy przykładzie z pracy kierowcy.
-2. Gdy pojawia się skrót lub kod ADR, sprawdź wyjaśnienie w tekście i wskazany punkt przepisu — nie ucz się samego symbolu bez zrozumienia, co oznacza.
-3. Sekcje niżej z nagłówkami typu „Utrwalanie przez scenariusz”, „Zadanie instruktorskie”, „plan dydaktyczny” lub „uzupełnienie” są materiałem uzupełniającym i archiwum ćwiczeń. Mogą powtarzać temat główny; wybierz powiązane pytania i scenariusze zamiast czytać powtórzenia jak nowy rozdział.
-4. Pytania w banku są materiałem roboczym `needs_review`. Sam wynik testu nie potwierdza zaliczenia ćwiczeń praktycznych ani prawnej poprawności materiału.
+## 2. Co ma być dostępne w kabinie
+Przed wyjazdem sprawdź, czy wymagane dokumenty są dostępne dla załogi. Oprócz dokumentu przewozowego mogą być wymagane inne dokumenty zależnie od towaru, pojazdu i rodzaju przewozu. Sprawdź, czy dany przewóz wymaga zaświadczenia kierowcy, świadectwa dopuszczenia pojazdu lub dodatkowego dokumentu. Nie zakładaj, że jeden dokument zastępuje pozostałe.
 
-## Cele
-Rozpoznawać elementy dokumentu przewozowego ADR i dokumenty wymagane w kabinie, bez mieszania ich z zaświadczeniem ukończenia kursu czy zwykłą fakturą.
+## 3. Instrukcje pisemne ADR
+Instrukcje pisemne to odrębny dokument o ustalonym wzorze, przeznaczony do użycia w razie zdarzenia. Zgodnie z ADR 5.4.3.1–5.4.3.4 powinny być dostępne dla załogi w kabinie. Przewoźnik zapewnia je w języku, który każdy członek załogi potrafi czytać i rozumieć. Standardowy wzór ma cztery strony.
 
-## 1. Co mówi dokument przewozowy?
+Instrukcje muszą być łatwo dostępne, a nie schowane w miejscu, którego nie da się szybko otworzyć. Przed wyjazdem członkowie załogi powinni znać ich treść i wiedzieć, jak z nich korzystać. Firmowa kartka lub sam numer telefonu do dyspozytora nie zastępują wymaganych instrukcji.
 
-ADR 5.4.1.1.1 wymaga odpowiednich informacji o towarze, m.in.:
+## 4. Dokumenty dodatkowe i sytuacje szczególne
+W zależności od przewozu mogą być wymagane dodatkowe dokumenty, świadectwa lub zapisy. Sprawdź wymóg w przepisie właściwym dla towaru i pojazdu; nie zakładaj, że zawsze obowiązuje ten sam zestaw.
 
-- **UN** i czterocyfrowy numer (litera a);
-- prawidłowa nazwa przewozowa (b);
-- odpowiednie numery nalepek, klasę zagrożenia i grupę pakowania, jeśli ma zastosowanie (c,d);
-- liczbę i rodzaj sztuk przesyłek (e);
-- ilość towaru w przewidzianej jednostce (f);
-- wymagane dane nadawcy i odbiorcy (g,h);
-- w odpowiednich przypadkach kod tunelowy i inne wymagane wpisy.
+Dokument przygotowany dla odcinka morskiego nie znosi automatycznie wszystkich wymagań odcinka drogowego. Sprawdź, czy warunki zastosowania ADR 1.1.4.2 są spełnione i czy dla danego przewozu wymagany jest dodatkowy wpis. Dokument IMDG może być istotny dla odcinka morskiego, ale sam nie potwierdza kompletności dokumentacji drogowej.
 
-Szczegółowy opis konkretnego towaru może wymagać dodatkowych informacji, a niektóre przewozy korzystają z wyłączeń. Nie uzupełniaj pustego pola z pamięci, jeśli nie możesz zidentyfikować podstawy prawnej.
+## Typowe błędy kursantów
+- pomijanie wymaganej nazwy przewozowej lub innych danych;
+- zgadywanie brakujących informacji zamiast ich potwierdzenia;
+- traktowanie instrukcji pisemnych jako części dokumentu przewozowego albo ich zamiennika;
+- wożenie instrukcji w niezrozumiałym języku lub w niedostępnym miejscu;
+- zakładanie, że dokument morski wystarcza na odcinku drogowym;
+- uznawanie, że prawo jazdy lub inny dokument automatycznie zastępuje zaświadczenie ADR, gdy jest wymagane.
 
-## 2. Co ma być w kabinie?
+## Scenariusze praktyczne
+1. **Niekompletny dokument.** Przed wyjazdem kierowca zauważa brak nazwy przewozowej albo wymaganych danych nadawcy/odbiorcy. Nie zgaduje; prosi odpowiedzialnego uczestnika o wyjaśnienie i uzupełnienie przed rozpoczęciem przewozu.
+2. **Instrukcje niezrozumiałe dla załogi.** Kierowca otrzymał instrukcje w języku, którego członek załogi nie rozumie, albo dokument jest niedostępny w kabinie. Przed wyjazdem trzeba zapewnić właściwą, dostępną wersję i zapoznanie załogi z jej treścią.
+3. **Kontener po rejsie morskim.** Kierowca sprawdza dokumenty dla odcinka drogowego i warunki ADR 1.1.4.2, zamiast zakładać, że dokument morski wystarcza.
+4. **Dokument dodatkowy.** Kursant otrzymuje fikcyjną kartę przewozu i ustala, czy wymagane jest dodatkowe świadectwo lub wpis. Braku nie uzupełnia z pamięci; wskazuje, które źródło trzeba sprawdzić.
 
-ADR 8.1.2 przewiduje dokument przewozowy, instrukcje pisemne i dokument ze zdjęciem dla każdego członka załogi, o ile odpowiednie wymagania mają zastosowanie. Dodatkowo — gdy dany przewóz tego wymaga — **zaświadczenie kierowcy ADR**, **świadectwo dopuszczenia pojazdu** i inne wskazane dokumenty.
-
-Nie każdy pojazd przewożący ADR wymaga tego samego zestawu. Szczególna kategoria pojazdu lub towar może zmienić obowiązki. **Wyjątek w 2026 r.:** umowa wielostronna **M364** dopuszcza pod określonymi warunkami przechowywanie świadectwa dopuszczenia **naczepy** w dostępnym, bezpiecznym i zabezpieczonym przed warunkami atmosferycznymi miejscu na tej naczepie, a nie koniecznie w kabinie. Należy sprawdzić podpisy państw na trasie oraz okres ważności umowy; nie rozszerzać wyjątku na samochody silnikowe. [Rejestr odstępstw](../../docs/ODSTEPSTWA-ADR-2026.md).
-
-## 3. Instrukcje pisemne
-
-Instrukcje według wzoru ADR 5.4.3.4 powinny być łatwo dostępne dla załogi. Ich zadanie to wsparcie bezpiecznego zachowania podczas awarii. Własnoręczny skrót kierowcy nie zastępuje dokumentu wymaganego przez ADR.
-
-## 4. Dodatkowe dokumenty
-
-Przewóz w łańcuchu drogowym i morskim może wymagać dodatkowego zapisu według 5.4.1.1.7, a kontener kierowany na statek — certyfikatu pakowania według 5.4.2. Dla określonych kategorii pojazdów wymagane jest świadectwo dopuszczenia według 9.1.3.
-
-## 5. Przykładowy test dokumentacyjny
-
-Nadawca przekazuje kierowcy opis towaru zawierający samą nazwę handlową „rozcieńczalnik”. Jakie pytanie trzeba zadać? Czy określono prawidłową pozycję UN, klasę i dane wymagane przez 5.4.1.1.1? Sama nazwa handlowa nie jest gwarancją poprawnego opisu.
-
-Pytania: `0037`–`0039`, `0068`–`0070`, `0087`–`0090`, `0145`–`0146`.
-
-**Źródła:** ADR 5.4.1–5.4.3, 8.1.2, 8.2.1, 9.1.3. Przed publikacją potrzebny jest przykładowy dokument przewozowy opracowany na podstawie prawdziwej pozycji UN i zweryfikowany pod kątem wymaganych pól.
-
-## Akty prawne
-
-- [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
-- [Sprostowanie Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
-- [Ramowy program kursu Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
-
-## Ćwiczenie z dokumentem ADR (szkic)
-
-Na przykładowym dokumencie wskaż zapis `UN` i numer identyfikacyjny (0226), liczbę oraz rodzaj przesyłek (0227) oraz lokalizację i dostępność instrukcji pisemnych w kabinie (0228). Podstawa: ADR 5.4.1.1.1(a),(e), 5.4.3.1, 8.1.2.3. Nie zastępuje realnej kontroli prawnej dokumentów i wyjątków.
-
-## Dalsze ćwiczenia z dokumentacją (szkic)
-
-Uczeń uzupełnia wymagane dane odbiorcy (0233) w standardowym opisie i rozpoznaje niedopuszczalność zastąpienia czterostronicowych instrukcji firmową notatką (0234). Źródła: ADR 5.4.1.1.1(h), 5.4.3.2 i 5.4.3.4. Wyjątki oraz poprawne przypadki mają zostać skontrolowane z urzędowym tekstem.
-
-## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
-
-**Sytuacja:** Dokument zawiera nazwę handlową, lecz nie ma wymaganego numeru UN i danych odbiorcy.
-
-**Ćwiczenie:** Wskaż odpowiednie pola wymaganej dokumentacji przewozowej. Kursant wyjaśnia samodzielnie warunki i ograniczenia, zamiast zapamiętywać literę odpowiedzi.
-
-**Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
-
-**Podstawa do weryfikacji:** ADR 5.4.1.1.1; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
-
-## Zadanie sytuacyjne ADR-B-0250 (etap 2)
-
-Uczestnik rozwiązuje przypadek z pytania ADR-B-0250, wskazuje podstawę, warunki i typowy błąd. Wynik testu nie jest zatwierdzeniem praktyki; materiał do ostatecznej kontroli polskiego ADR 2025 i sprostowania.
-
-## Sytuacja kontrolna ADR-B-0287 (etap 2)
-
-Wymagany dokument przewozowy dotyczy przewozu ADR realizowanego zgodnie z 1.1.4.2.1 w łańcuchu morskim lub lotniczym. Jakiego dodatkowego wpisu wymaga 5.4.1.1.7? Uczeń ma wyjaśnić uzasadnienie i warunki prawne 5.4.1.1.7 oraz wskazać błędną praktykę. To szkic wymagający porównania z polskim Dz.U. 642, sprostowaniem 1575 i niezależnej recenzji.
-
-## Kontrola dokumentów ADR-B-0306
-
-Sprawdź dokumenty kabinowe wg ADR 8.1.2.1–2: dokumenty przewozowe, instrukcje, dokument ze zdjęciem i stosowne dodatkowe zaświadczenia. Instruktor ćwiczy dobór według sytuacji, nie automatyczne uznanie każdego dokumentu za wymagany zawsze.
-
-## Zadanie instruktorskie: Dokumenty (etap 2, 23.10.2026)
-
-**Symulacja bez rzeczywistych towarów:** Kursant kompletuję dokumentację przewozu i rozpoznaje dokumenty warunkowe oraz instrukcje pisemne.
-
-**Odniesienie do weryfikacji:** ADR 8.1.2, 5.4.1, 5.4.3.
-
-**Obserwowalne kryterium:** Nie żąda wszystkich świadectw niezależnie od przewozu.
-
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
-
-## Uzupełnienie powiązań z pytaniami — ADR-B-13 (23.10.2026)
-
-Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
-
-### ADR-B-0039 — Ile stron liczy standardowy wzór instrukcji pisemnych ADR?
-
-ADR określa czterostronicowy wzór instrukcji pisemnych, które pomagają załodze w razie wypadku.
-
-**Podstawa do kontroli:** ADR 2025, 5.4.3.4. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
-
-## Program dydaktyczny tematu 1(m) — dokumentacja transportowa (23.10.2026)
-
-**Czas:** 45 minut teorii. Kursant uczy się kontrolować kompletność dokumentów przewozowych, danych nadawcy i odbiorcy, opisu UN, instrukcji pisemnych i wymaganych dodatkowych wpisów. Stosuje przykłady fikcyjne, nie podpisuje realnych dokumentów za inne podmioty.
-
-| Kompetencja | Cel | Odniesienie | Pytania robocze |
-|---|---|---|---:|
-| ADR-B-13-K01 | Numer UN i właściwa nazwa przewozowa | 5.4.1.1.1(a),(b) | 3 |
-| ADR-B-13-K02 | Dokument: liczba, rodzaj przesyłek i ilość | 5.4.1.1.1(e),(f) | 3 |
-| ADR-B-13-K03 | Dane odbiorcy i nadawcy | 5.4.1.1.1(g),(h) | 3 |
-| ADR-B-13-K04 | Wzór i liczba stron instrukcji pisemnych | 5.4.3.4 | 3 |
-| ADR-B-13-K05 | Dokumenty i dowód tożsamości załogi | 8.1.2.1 | 3 |
-| ADR-B-13-K06 | Dodatkowy wpis w transporcie kombinowanym | 5.4.1.1.7 | 3 |
-| ADR-B-13-K07 | Dostępność dokumentów w kabinie | 8.1.2.3 | 3 |
-| ADR-B-13-K08 | Dodatkowe dokumenty zależnie od rodzaju ładunku | 8.1.2, 5.4 | 3 |
-
-| Minuty | Przebieg | Sprawdzenie |
-|---|---|---|
-| 0–10 | Schemat dokumentu z opisem UN, nazwą przewozową, klasą, grupą pakowania | Wskazuje wymagane pola i ich kolejność na fikcyjnym wzorze |
-| 10–20 | Dane nadawcy/odbiorcy, ilość i rodzaj przesyłek | Wychwytuje brakujące lub niezgodne informacje |
-| 20–30 | Instrukcje pisemne 5.4.3 i dokumenty kierowcy | Odróżnia dokument przewozowy od instrukcji i zaświadczenia ADR |
-| 30–40 | Szczególne wpisy: ODPAD, przewóz multimodalny, niewyczyszczony pusty kontener | Rozpoznaje, że wpisy zależą od spełnienia warunków konkretnego ustępu |
-| 40–45 | Ocena na fikcyjnym komplecie dokumentów | Przekazuje listę braków, wskazuje przepis i właściwy podmiot do korekty |
-
-### Arkusz kontroli dla ucznia
-
-Przygotuj trzy fikcyjne dokumenty: (A) poprawny opis towaru w ADR, (B) odpad niebezpieczny z brakiem wymaganego oznaczenia słownego, (C) morsko-drogowy łańcuch z warunkowym wpisem i certyfikatem pakowania kontenera. Uczeń zapisuje: pole, stwierdzona rozbieżność, numer rozdziału, kto może ją wyjaśnić. Nie używać danych realnych klientów.
-
-Ocena „rozumie / wymaga wyjaśnienia / nieocenione” z krótkim uzasadnieniem. Błąd krytyczny: uznanie samego napisu „ODPAD” za wystarczający opis UN albo uznanie, że każdy dojazd do portu wymaga dodatkowego wpisu. Materiał jest roboczy i wymaga polskiej recenzji prawnej.
-
-Podstawa programu: Dz.U. 2021 poz. 2150 zał.1(m); ADR 2025 5.4.1, 5.4.2, 5.4.3 i 8.1.2 (Dz.U. poz.642 ze sprostowaniem poz.1575). Dokumentacja szkoleniowa nie jest dokumentem przewozowym; status banku pozostaje needs_review, zero verified.
-
-## Karta kursanta — dokumenty przed wyjazdem (24.10.2026)
-
-- Porównaj dokument przewozowy z rzeczywistym towarem, oznakowaniem i wymaganymi dokumentami dodatkowymi. Numer UN, nazwa przewozowa, klasa i pozostałe wpisy pełnią różne funkcje.
-- Instrukcje pisemne i wymagane dokumenty powinny być dostępne dla załogi; przy brakach lub sprzecznościach wyjaśnij je przed rozpoczęciem przewozu.
-- **Błąd do uniknięcia:** nie zastępuj numeru UN numerem rejestracyjnym, kodem tunelowym ani samą nazwą handlową.
-
-Powtórka w banku: ADR-B-0226, 0508 oraz dokumenty związane z przewozem kombinowanym.
-
-## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
-
-### Powiązane pytania w banku
-- ADR-B-0039 — instrukcje pisemne
-- ADR-B-0226 — dokumenty przed wyjazdem
-- ADR-B-0250 — dokument przewozowy
-- ADR-B-0287 i ADR-B-0306 — kontrola dokumentów
-- ADR-B-0508 — dodatkowe dane dokumentacyjne
-
-### Przykład z pracy kierowcy
-Przed wyjazdem porównaj dokument przewozowy z ładunkiem, numerem UN i oznakowaniem. Jeśli dane się nie zgadzają lub brakuje wymaganego dokumentu, wyjaśnij to przed rozpoczęciem przewozu. Instrukcje pisemne nie zastępują dokumentu przewozowego i odwrotnie.
-
-**Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, A/B/C i podstawę prawną.
-
-## Uzupełnienie odbioru 4x1 — dokumenty i instrukcje pisemne (ADR-B-0577–0579, 0586–0590, 0598–0601)
-
-### Dokument przewozowy przed wyjazdem
-
-Sprawdź komplet danych wymaganych dla konkretnego przewozu: oznaczenie „UN” przed numerem, właściwą nazwę przewozową, klasę i inne wymagane elementy opisu, liczbę i rodzaj sztuk przesyłek, ilość — jeśli jest wymagana — oraz dane nadawcy i odbiorcy. Nie wpisuj danych na podstawie przypuszczeń. Gdy brakuje wymaganej informacji i nie zachodzi wyjątek, poproś odpowiedzialnego uczestnika o poprawienie dokumentu przed wyjazdem. Podstawa do sprawdzenia: ADR 5.4.1.1.1.
-
-### Instrukcje pisemne to osobny dokument
-
-Instrukcje pisemne mają ustalony wzór i powinny być dostępne dla załogi w kabinie. Przed wyjazdem każdy członek załogi powinien znać ich treść i wiedzieć, jak z nich korzystać; dokument w niezrozumiałym języku albo zamknięty w niedostępnym schowku nie spełnia praktycznego celu. Nie zastępuj ich firmową kartką ani numerem telefonu. Podstawa do sprawdzenia: ADR 5.4.3.1–5.4.3.4 oraz 8.1.2.3.
-
-### Przewóz po odcinku morskim
-
-Dokument przygotowany dla odcinka morskiego nie znosi automatycznie wszystkich wymagań dla odcinka drogowego. Sprawdź, czy warunki zastosowania ADR 1.1.4.2 są spełnione i czy dla danego przewozu wymagany jest dodatkowy wpis. Podstawa do sprawdzenia: ADR 1.1.4.2.1 i 5.4.1.1.7.
-
-**Scenariusz 1 — niekompletny dokument:** przed wyjazdem kierowca zauważa brak nazwy przewozowej lub wymaganych danych nadawcy/odbiorcy. Nie zgaduje i nie rusza, dopóki odpowiedzialna osoba nie wyjaśni braku.
-
-**Scenariusz 2 — instrukcje nieprzydatne w nagłym zdarzeniu:** kierowca otrzymał instrukcje w niezrozumiałym języku albo nie ma do nich dostępu. Przed wyjazdem należy zapewnić właściwą, dostępną wersję i zapoznanie załogi z jej treścią.
-
-**Scenariusz 3 — kontener z portu:** kierowca sprawdza dokumenty dla odcinka drogowego i warunki wyjątku zamiast zakładać, że dokument IMDG wystarcza sam w sobie.
-
-Powiązane pytania robocze: ADR-B-0577–0579, ADR-B-0586–0590 i ADR-B-0598–0601. Wszystkie pozostają `needs_review`; wskazanie punktu ADR nie zastępuje kontroli polskiego tekstu.
+Ćwiczenia wykonuje się na fikcyjnych dokumentach. Nie kopiuj danych rzeczywistych klientów i nie traktuj quizu jako zaliczenia praktyki.
 
 ## Co musisz zapamiętać
-
-- Porównaj dokument przewozowy z towarem, numerem UN, oznakowaniem i wymaganymi dokumentami dodatkowymi.
-- Instrukcje pisemne służą do postępowania w razie awarii; nie zastępują dokumentu przewozowego.
-- Brak lub rozbieżność wymaganych danych trzeba wyjaśnić przed rozpoczęciem przewozu.
-- Podstawy do dalszej nauki: ADR 5.4.1 i 5.4.3.
+- Dokument przewozowy musi zawierać wymagane dane dla konkretnego towaru.
+- Nie zgaduj brakujących informacji; wyjaśnij je przed wyjazdem.
+- Instrukcje pisemne są odrębnym dokumentem, mają ustalony wzór i cztery strony.
+- Instrukcje muszą być dostępne i zrozumiałe dla każdego członka załogi.
+- Dokument morski nie zwalnia automatycznie z wymagań ADR dla odcinka drogowego.
 
 ## Sprawdź się
+- Jakie podstawowe informacje sprawdzasz w dokumencie przewozowym?
+- Czym instrukcje pisemne różnią się od dokumentu przewozowego?
+- Ile stron ma standardowy wzór instrukcji pisemnych?
+- Co robisz, gdy członek załogi nie rozumie instrukcji?
+- Dlaczego dokument morski nie zawsze wystarcza na drodze?
 
-Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
-
-- `ADR-B-0508`
-- `ADR-B-0525`
-- `ADR-B-0530`
+Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0037`
 - `ADR-B-0038`
 - `ADR-B-0039`
-- `ADR-B-0068`
-- `ADR-B-0069`
+- `ADR-B-0250`
+- `ADR-B-0287`
+- `ADR-B-0306`
+- `ADR-B-0577`
+- `ADR-B-0586`
 
-**Scenariusz z pracy kierowcy:** [SC-ADR-B-13 — ADR-B-13](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-13`; jest to symulacja, nie zaliczenie zajęć praktycznych).
+Scenariusz z pracy kierowcy: [SC-ADR-B-13 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
+
+## Powiązane pytania w banku
+- ADR-B-0037
+- ADR-B-0038
+- ADR-B-0039
+- ADR-B-0068
+- ADR-B-0069
+- ADR-B-0070
+- ADR-B-0087
+- ADR-B-0088
+- ADR-B-0089
+- ADR-B-0090
+- ADR-B-0145
+- ADR-B-0146
+- ADR-B-0175
+- ADR-B-0214
+- ADR-B-0215
+- ADR-B-0216
+- ADR-B-0226
+- ADR-B-0227
+- ADR-B-0228
+- ADR-B-0233
+- ADR-B-0234
+- ADR-B-0250
+- ADR-B-0287
+- ADR-B-0306
+- ADR-B-0508
+- ADR-B-0523
+- ADR-B-0524
+- ADR-B-0525
+- ADR-B-0530
+- ADR-B-0531
+- ADR-B-0532
+- ADR-B-0533
+- ADR-B-0536
+- ADR-B-0537
+- ADR-B-0538
+- ADR-B-0577
+- ADR-B-0578
+- ADR-B-0579
+- ADR-B-0586
+- ADR-B-0587
+- ADR-B-0588
+- ADR-B-0589
+- ADR-B-0590
+- ADR-B-0598
+- ADR-B-0599
+- ADR-B-0600
+- ADR-B-0601
+
+## Podstawa prawna
+- ADR 2025: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf): 1.1.4.2, 5.4.1.1.1, 5.4.1.1.7, 5.4.3.1–5.4.3.4, 8.1.2.3 i inne wymagania zależne od przewozu.
+- Ustawa z 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych, z późniejszymi zmianami.
+- Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
+
+Status materiału i pytań: needs_review; szczegółowe pola dokumentu i wyjątki wymagają niezależnej kontroli polskiego tekstu.
