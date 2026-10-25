@@ -765,12 +765,12 @@
       "exact_record_snapshot": {
         "stem": "Na jedną ciężarówkę mają trafić sztuki przesyłek ADR oznaczone różnymi nalepkami ostrzegawczymi. Pracownik twierdzi, że wystarczy, iż wszystkie opakowania są szczelne. Co jest właściwe?",
         "options": {
-          "A": "Można załadować je bez sprawdzenia zgodności, jeśli nie mają takiej samej nalepki",
-          "B": "Wystarczy sprawdzić, czy opakowania mają identyczne wymiary",
+          "A": "Załadować według miejsca dostawy",
+          "B": "Sprawdzić, czy opakowania mają zbliżone wymiary i podobny sposób zamykania",
           "C": "Sprawdzić tabelę 7.5.2 i wyjątki"
         },
         "correct_option": "C",
-        "explanation": "Różne nalepki ostrzegawcze mogą oznaczać towary, których nie wolno przewozić razem bez spełnienia szczególnych warunków. Przed wspólnym załadunkiem trzeba sprawdzić tabelę ADR 7.5.2 oraz wyjątki. Szczelność opakowań albo ich jednakowe rozmiary nie rozstrzygają o dopuszczalności takiego połączenia. Podstawa: ADR 7.5.2.",
+        "explanation": "Różne nalepki ostrzegawcze mogą oznaczać towary, których nie wolno przewozić razem bez spełnienia szczególnych warunków. Przed wspólnym załadunkiem trzeba sprawdzić tabelę ADR 7.5.2 oraz wyjątki. Kolejność dostaw i rozmiar opakowań nie rozstrzygają o dozwolonym wspólnym załadunku. Podstawa: ADR 7.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -807,11 +807,11 @@
         "stem": "Obok kartonów ADR załadowano ciężką maszynę niebędącą towarem niebezpiecznym. Co wymaga ADR przy jej mocowaniu?",
         "options": {
           "A": "Zabezpieczyć także maszynę przed przesunięciem",
-          "B": "Mocuje się tylko przesyłki ADR, ponieważ inne rzeczy nie podlegają 7.5.7.1",
-          "C": "Wystarczy ułożyć maszynę przy tylnej ścianie, niezależnie od jej masy i mocowania"
+          "B": "Mocować jedynie paczki ADR",
+          "C": "Ustawić ciężką maszynę przy tylnej ścianie i uznać, że jej masa wystarczy do stabilizacji"
         },
         "correct_option": "A",
-        "explanation": "Ciężka maszyna może przesunąć się podczas gwałtownego hamowania i uderzyć w opakowania ADR, nawet jeśli sama nie jest towarem niebezpiecznym. Dlatego również ją trzeba zabezpieczyć przed przemieszczaniem. Przepisy o mocowaniu dotyczą ładunku w pojeździe, a nie wyłącznie przesyłek ADR; oparcie maszyny o tylną ścianę bez właściwego zabezpieczenia nie wystarcza. Podstawa: ADR 7.5.7.1.",
+        "explanation": "Ciężka maszyna może przesunąć się podczas gwałtownego hamowania i uderzyć w opakowania ADR, nawet jeśli sama nie jest towarem niebezpiecznym. Dlatego również ją trzeba zabezpieczyć przed przemieszczaniem. Zasady mocowania obejmują również ciężką maszynę, a samo oparcie jej o ścianę nie zabezpiecza przed ruchem. Podstawa: ADR 7.5.7.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -847,12 +847,12 @@
       "exact_record_snapshot": {
         "stem": "Po rozładunku towaru niebezpiecznego przewożonego luzem pojazd ma zostać ponownie załadowany dokładnie tym samym towarem. Czy ADR zawsze wymaga czyszczenia przed ponownym załadunkiem?",
         "options": {
-          "A": "Tak, również przy identycznym towarze, bez żadnego wyjątku",
+          "A": "Oczyścić także przy tym samym towarze",
           "B": "Nie, przy tym samym towarze istnieje wyjątek",
-          "C": "Nie, ponieważ pojazdu do przewozu luzem nigdy nie trzeba czyścić"
+          "C": "Pominąć czyszczenie pojazdu po kolejnych przewozach luzem, jeżeli zachowano zamknięcia"
         },
         "correct_option": "B",
-        "explanation": "Po przewozie luzem zasadą jest oczyszczenie pojazdu lub kontenera przed kolejnym załadunkiem, aby resztki wcześniejszego towaru nie zanieczyściły nowego. Jeśli jednak następny ładunek jest dokładnie tym samym towarem, ADR przewiduje wyjątek. Nie oznacza to, że czyszczenie nigdy nie jest wymagane ani że zawsze jest obowiązkowe bez wyjątków. Podstawa: ADR 7.5.8.2.",
+        "explanation": "Po przewozie luzem zasadą jest oczyszczenie pojazdu lub kontenera przed kolejnym załadunkiem, aby resztki wcześniejszego towaru nie zanieczyściły nowego. Jeśli jednak następny ładunek jest dokładnie tym samym towarem, ADR przewiduje wyjątek. Przy identycznym ładunku istnieje wyjątek, ale nie uprawnia on do rezygnacji z czyszczenia po każdym przewozie. Podstawa: ADR 7.5.8.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -888,12 +888,12 @@
       "exact_record_snapshot": {
         "stem": "Przed załadunkiem ADR kierowca pokazuje jedynie fakturę handlową, a wymaganych dokumentów przewozowych nie da się skontrolować. Jak postąpić zgodnie z kontrolą przewidzianą w 7.5.1?",
         "options": {
-          "A": "Rozpocząć załadunek, bo sprawdzenie dokumentów dotyczy tylko rozładunku",
-          "B": "Załadować towary i uzupełnić dokumentację dopiero po przyjeździe do odbiorcy",
+          "A": "Załadować po okazaniu faktury",
+          "B": "Uzupełnić brakujące dokumenty po przyjeździe do odbiorcy, a załadunek wykonać na podstawie zamówienia",
           "C": "Wstrzymać załadunek do wymaganej kontroli"
         },
         "correct_option": "C",
-        "explanation": "Przed rozpoczęciem załadunku należy sprawdzić wymagane dokumenty oraz zgodność planowanego przewozu z warunkami ADR. Faktura handlowa nie zastępuje dokumentacji przewozowej wymaganej dla towarów niebezpiecznych. Nie wolno odkładać kontroli do rozładunku ani liczyć na uzupełnienie braków dopiero po dostawie, dlatego A i B są błędne. Podstawa: ADR 7.5.1.2.",
+        "explanation": "Przed rozpoczęciem załadunku należy sprawdzić wymagane dokumenty oraz zgodność planowanego przewozu z warunkami ADR. Faktura handlowa nie zastępuje dokumentacji przewozowej wymaganej dla towarów niebezpiecznych. Faktura i późniejsze uzupełnienie dokumentów nie zastępują wymaganej kontroli przed załadunkiem. Podstawa: ADR 7.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",

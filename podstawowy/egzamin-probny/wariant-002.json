@@ -102,8 +102,8 @@
       "module_id": "ADR-B-09",
       "stem": "Przed załadunkiem ADR kierowca pokazuje jedynie fakturę handlową, a wymaganych dokumentów przewozowych nie da się skontrolować. Jak postąpić zgodnie z kontrolą przewidzianą w 7.5.1?",
       "options": {
-        "A": "Rozpocząć załadunek, bo sprawdzenie dokumentów dotyczy tylko rozładunku",
-        "B": "Załadować towary i uzupełnić dokumentację dopiero po przyjeździe do odbiorcy",
+        "A": "Załadować po okazaniu faktury",
+        "B": "Uzupełnić brakujące dokumenty po przyjeździe do odbiorcy, a załadunek wykonać na podstawie zamówienia",
         "C": "Wstrzymać załadunek do wymaganej kontroli"
       },
       "image": null
@@ -391,8 +391,8 @@
       "stem": "Po rozładunku ADR w skrzyni ładunkowej wykryto pozostałości wycieku. Na miejscu nie ma możliwości bezpiecznego czyszczenia. Co przewiduje ADR 7.5.8.1?",
       "options": {
         "A": "Zabezpieczyć pojazd i przewieźć go do miejsca czyszczenia",
-        "B": "Załadować ponownie, a kontener oczyścić po kolejnej dostawie",
-        "C": "Zignorować pozostałości, jeśli opakowanie jest już puste i nie cieknie"
+        "B": "Doładować towar po zgłoszeniu pozostałości",
+        "C": "Odmówić czyszczenia, jeśli materiał nie wydostaje się już z pustego opakowania"
       },
       "image": null
     },
@@ -414,9 +414,9 @@
       "module_id": "ADR-B-07",
       "stem": "Przewoźnik chce oprzeć się na informacjach przekazanych przez nadawcę w zakresie dopuszczalności przewozu. Czy ADR to przewiduje?",
       "options": {
-        "A": "Nie, nigdy nie wolno korzystać z danych innych uczestników przewozu",
+        "A": "Nie korzystać z danych nadawcy",
         "B": "Tak, w zakresie przewidzianym w 1.4.2.2.2",
-        "C": "Tak, wtedy wszystkie obowiązki przewoźnika automatycznie znikają"
+        "C": "Przyjąć informacje nadawcy jako zwolnienie przewoźnika z jego pozostałych obowiązków"
       },
       "image": null
     }
