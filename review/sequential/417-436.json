@@ -22,12 +22,12 @@
       "exact_record_snapshot": {
         "stem": "Jednostka transportowa ADR o DMC dokładnie 3,5 t jest objęta pełnym reżimem 8.1.4.1. Ile gaśnic minimalnie wymaga tabela?",
         "options": {
-          "A": "Wystarczy jedna gaśnica 6 kg, bo jej pojemność przekracza wymagane minimum",
-          "B": "Wymagane są trzy gaśnice, których łączna pojemność wynosi co najmniej 12 kg",
+          "A": "Jedna gaśnica 6 kg wystarcza ze względu na masę proszku",
+          "B": "Wymagane są trzy gaśnice o łącznej pojemności co najmniej 12 kg, jak dla jednostek o DMC powyżej 7,5 t",
           "C": "Wymagane są co najmniej dwie gaśnice o łącznej pojemności minimum 4 kg"
         },
         "correct_option": "C",
-        "explanation": "Dla jednostki transportowej o DMC dokładnie 3,5 t w podanym reżimie wymagane są co najmniej dwie gaśnice o łącznej pojemności minimum 4 kg. Jedna gaśnica 6 kg nie spełnia warunku minimalnej liczby, a trzy gaśnice 12 kg to wymóg z wyższego przedziału masy. Sprawdź zarówno liczbę, jak i pojemność. Podstawa: ADR 8.1.4.1.",
+        "explanation": "Dla jednostki transportowej o DMC dokładnie 3,5 t w podanym reżimie wymagane są co najmniej dwie gaśnice o łącznej pojemności minimum 4 kg. Jedna gaśnica 6 kg nie spełnia warunku minimalnej liczby, a trzy gaśnice 12 kg to wymóg z wyższego przedziału masy. Jedna gaśnica 6 kg nie spełnia wymaganej liczby, a trzy gaśnice 12 kg nie są tą wartością minimalną. Podstawa: ADR 8.1.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -64,11 +64,11 @@
         "stem": "Pojazd ADR DMC 6 t w pełnym reżimie 8.1.4.1 ma jedną gaśnicę 8 kg. Czy spełnia minimalną liczbę?",
         "options": {
           "A": "Nie; wymagane są co najmniej dwie gaśnice, nawet jeśli jedna ma 8 kg",
-          "B": "Tak; łączna masa środka gaśniczego wystarcza niezależnie od liczby urządzeń",
-          "C": "Tak; jedna gaśnica wystarcza, gdy w pojeździe podróżuje dwóch członków załogi"
+          "B": "Tak; wystarczy 8 kg proszku w jednym urządzeniu",
+          "C": "Tak; drugi członek załogi może zastąpić brakującą gaśnicę odpowiednim przeszkoleniem"
         },
         "correct_option": "A",
-        "explanation": "Dla pojazdu o DMC 6 t wymagane są co najmniej dwie gaśnice oraz łączna pojemność co najmniej 8 kg w przeliczeniu na proszek. Jedna gaśnica 8 kg spełnia warunek łącznej pojemności, ale nie wymaganą liczbę urządzeń. Liczba gaśnic i ich łączna pojemność to dwa osobne warunki, więc B i C są błędne. Podstawa: ADR 8.1.4.1.",
+        "explanation": "Dla pojazdu o DMC 6 t wymagane są co najmniej dwie gaśnice oraz łączna pojemność co najmniej 8 kg w przeliczeniu na proszek. Jedna gaśnica 8 kg spełnia warunek łącznej pojemności, ale nie wymaganą liczbę urządzeń. Masa proszku w jednym urządzeniu nie wystarcza, a przeszkolony pasażer nie zastępuje drugiej gaśnicy. Podstawa: ADR 8.1.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -145,12 +145,12 @@
       "exact_record_snapshot": {
         "stem": "Jednostka ADR powyżej 7,5 t ma dwie gaśnice: 2 kg i 6 kg. Czy łączna masa proszku spełnia minimum pełnego reżimu?",
         "options": {
-          "A": "Tak; jedna gaśnica 6 kg wystarczy, nawet gdy łączna pojemność jest mniejsza",
-          "B": "Tak; dwie gaśnice spełniają wymaganie niezależnie od ich łącznej pojemności",
+          "A": "Tak; jedna gaśnica 6 kg wystarcza przy dwóch urządzeniach",
+          "B": "Tak; liczba dwóch gaśnic oznacza spełnienie warunku łącznej masy",
           "C": "Nie; dla tej kategorii DMC wymagane jest co najmniej 12 kg łącznie"
         },
         "correct_option": "C",
-        "explanation": "Dla jednostki o DMC powyżej 7,5 t wymagane są co najmniej dwie gaśnice o łącznej pojemności minimum 12 kg w przeliczeniu na proszek. Zestaw 2 kg i 6 kg daje razem tylko 8 kg, więc jest niewystarczający. Sama liczba gaśnic ani pojemność jednej z nich nie zastępują wymaganego minimum łącznego. Podstawa: ADR 8.1.4.1.",
+        "explanation": "Dla jednostki o DMC powyżej 7,5 t wymagane są co najmniej dwie gaśnice o łącznej pojemności minimum 12 kg w przeliczeniu na proszek. Zestaw 2 kg i 6 kg daje razem tylko 8 kg, więc jest niewystarczający. Jedna gaśnica 6 kg nie wystarczy, a obecność dwóch urządzeń nie zastępuje wymogu łącznych 12 kg. Podstawa: ADR 8.1.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -186,12 +186,12 @@
       "exact_record_snapshot": {
         "stem": "Towary ADR jadą w ilościach korzystających z wyłączenia 1.1.3.6. Ile minimum przenośnych gaśnic według 8.1.4.2?",
         "options": {
-          "A": "Nie jest wymagane żadne urządzenie gaśnicze przy wyłączeniu 1.1.3.6",
-          "B": "Zawsze wymagane są dwie gaśnice o łącznej pojemności co najmniej 12 kg",
+          "A": "Bez gaśnicy przy wyłączeniu 1.1.3.6",
+          "B": "Dwie gaśnice o łącznej pojemności 12 kg, jak dla cięższej jednostki w pełnym reżimie",
           "C": "Co najmniej jedna gaśnica 2 kg proszku lub równoważna"
         },
         "correct_option": "C",
-        "explanation": "Przy przewozie korzystającym z wyłączenia ADR 1.1.3.6 nadal wymagane jest co najmniej jedno przenośne urządzenie gaśnicze o pojemności 2 kg proszku lub równoważnej. Wyłączenie nie oznacza braku wyposażenia przeciwpożarowego, a dwie gaśnice 12 kg nie są w tym przypadku automatycznie wymagane. Podstawa: ADR 8.1.4.2.",
+        "explanation": "Przy przewozie korzystającym z wyłączenia ADR 1.1.3.6 nadal wymagane jest co najmniej jedno przenośne urządzenie gaśnicze o pojemności 2 kg proszku lub równoważnej. Wyłączenie nie oznacza braku wyposażenia przeciwpożarowego, a dwie gaśnice 12 kg nie są w tym przypadku automatycznie wymagane. Wyłączenie nie usuwa gaśnicy; dwie o łącznej masie 12 kg nie są minimum tego wyłączenia. Podstawa: ADR 8.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -227,12 +227,12 @@
       "exact_record_snapshot": {
         "stem": "Gaśnica w pojeździe ADR ma miniony termin następnej wymaganej kontroli. Czy można uznać ją za właściwie przygotowaną do przewozu?",
         "options": {
-          "A": "Tak, jeśli obudowa wygląda dobrze i nie widać uszkodzeń zewnętrznych",
+          "A": "Ocenić wygląd obudowy zamiast daty kontroli",
           "B": "Nie; termin wymaganej kontroli nie może być przekroczony",
-          "C": "Tak, jeśli przewożony towar należy wyłącznie do klasy 3"
+          "C": "Klasa 3 pozwala odstąpić od kontroli"
         },
         "correct_option": "B",
-        "explanation": "Gaśnica musi mieć aktualne oznaczenie wymaganej kontroli; przekroczony termin oznacza, że nie spełnia wymagań przygotowania do przewozu. Dobry wygląd zewnętrzny nie potwierdza sprawności ani ważności kontroli. Nie ma też ogólnego wyjątku tylko dlatego, że przewożony jest towar klasy 3. Podstawa: ADR 8.1.4.4–8.1.4.5.",
+        "explanation": "Gaśnica musi mieć aktualne oznaczenie wymaganej kontroli; przekroczony termin oznacza, że nie spełnia wymagań przygotowania do przewozu. Dobry wygląd zewnętrzny nie potwierdza sprawności ani ważności kontroli. Dobry wygląd obudowy i klasa 3 nie zwalniają z ważnej kontroli gaśnicy. Podstawa: ADR 8.1.4.4–8.1.4.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -268,12 +268,12 @@
       "exact_record_snapshot": {
         "stem": "W pojeździe ADR gaśnice umieszczono w zamkniętej skrzyni bez szybkiego dostępu dla załogi. Co wymaga 8.1.4.5?",
         "options": {
-          "A": "Gaśnice można przechowywać w schowku, do którego załoga ma dostęp dopiero po zatrzymaniu",
-          "B": "Dostęp do gaśnic może być zapewniony dopiero po zakończeniu rozładunku pojazdu",
+          "A": "Gaśnice mogą pozostać w skrytce, do której załoga dotrze po zatrzymaniu i otwarciu ładowni",
+          "B": "Wystarczy dostęp po rozładunku",
           "C": "Gaśnice muszą być łatwo dostępne i chronione przed warunkami pogodowymi"
         },
         "correct_option": "C",
-        "explanation": "Gaśnice powinny być łatwo dostępne dla załogi i chronione przed wpływem warunków pogodowych. Zamknięcie ich w skrzyni, do której nie ma szybkiego dostępu, może uniemożliwić użycie w potrzebnej chwili. Nie wystarczy, że sprzęt znajduje się w pojeździe — liczy się także jego właściwe umieszczenie. Podstawa: ADR 8.1.4.5.",
+        "explanation": "Gaśnice powinny być łatwo dostępne dla załogi i chronione przed wpływem warunków pogodowych. Zamknięcie ich w skrzyni, do której nie ma szybkiego dostępu, może uniemożliwić użycie w potrzebnej chwili. Skrytka wymagająca długiego szukania i dostęp dopiero po rozładunku nie są właściwym rozwiązaniem. Podstawa: ADR 8.1.4.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
