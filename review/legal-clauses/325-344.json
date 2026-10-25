@@ -306,12 +306,12 @@
         "module_id": "ADR-B-03",
         "stem": "Dokładna analiza mieszaniny nie jest możliwa bez nieproporcjonalnych kosztów lub wysiłku. Co przewiduje ADR 2.1.3.5.2?",
         "options": {
-          "A": "Zawsze wybrać klasę 9 bez sprawdzania rzeczywistych zagrożeń mieszaniny",
+          "A": "Oznaczyć mieszaninę jako klasę 9",
           "B": "Użyć składnika o największym zagrożeniu",
-          "C": "Wybrać klasę na podstawie koloru cieczy, a nie jej właściwości"
+          "C": "Wybrać klasę mieszaniny na podstawie wyglądu cieczy i oceny pracownika magazynu"
         },
         "correct_option": "B",
-        "explanation": "Gdy ustalenie składu lub klasyfikacji mieszaniny wymagałoby nieproporcjonalnych kosztów albo wysiłku, ADR przewiduje zastosowanie zasady opartej na składniku stwarzającym największe zagrożenie. Nie wolno wybierać klasy po kolorze ani automatycznie przypisywać klasy 9. Rozwiązanie musi wynikać z dostępnych danych o zagrożeniach. Podstawa: ADR 2.1.3.5.2.",
+        "explanation": "Gdy ustalenie składu lub klasyfikacji mieszaniny wymagałoby nieproporcjonalnych kosztów albo wysiłku, ADR przewiduje zastosowanie zasady opartej na składniku stwarzającym największe zagrożenie. Nie wolno wybierać klasy po kolorze ani automatycznie przypisywać klasy 9. Sama klasa 9 ani wygląd cieczy nie zastępują analizy rzeczywistych zagrożeń składników. Podstawa: ADR 2.1.3.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -353,11 +353,11 @@
         "stem": "W mieszaninie występują różne zagrożenia, a jedno z nich dotyczy substancji klasy 2. Jaki przepis określa szczególną kolejność pierwszeństwa?",
         "options": {
           "A": "ADR 2.1.3.5.3",
-          "B": "ADR 8.1.4.1 — zasady dotyczące gaśnic i wyposażenia pojazdu",
-          "C": "ADR 5.4.3.4 — instrukcje pisemne na wypadek zdarzenia"
+          "B": "ADR 8.1.4.1",
+          "C": "ADR 5.4.3.4 dotyczący instrukcji na wypadek zdarzenia podczas przewozu"
         },
         "correct_option": "A",
-        "explanation": "Gdy mieszanina może stwarzać kilka zagrożeń, trzeba ustalić, która właściwość decyduje o jej klasyfikacji. ADR 2.1.3.5.3 podaje szczególną kolejność dla określonych przypadków, w tym wskazanych zagrożeń związanych z klasą 2. Nie stosuje się tej reguły automatycznie do każdej mieszaniny — najpierw sprawdź, czy spełnia warunki przepisu. Przepisy o gaśnicach i instrukcjach awaryjnych służą innym celom. Podstawa: ADR 2.1.3.5.3.",
+        "explanation": "Gdy mieszanina może stwarzać kilka zagrożeń, trzeba ustalić, która właściwość decyduje o jej klasyfikacji. ADR 2.1.3.5.3 podaje szczególną kolejność dla określonych przypadków, w tym wskazanych zagrożeń związanych z klasą 2. Nie stosuje się tej reguły automatycznie do każdej mieszaniny — najpierw sprawdź, czy spełnia warunki przepisu. Przepisy o gaśnicach i instrukcjach awaryjnych nie określają pierwszeństwa zagrożeń mieszaniny. Podstawa: ADR 2.1.3.5.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
