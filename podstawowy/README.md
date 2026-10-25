@@ -36,6 +36,10 @@
 ## Raporty i materiały
 
 - [Raport etapu 4q — przegląd oczami kursanta](raporty/etap-4q-przeglad-kursanta-2026-10-24.md)
+- [Etap 4x1 — odbiór dydaktyczny lekcji 01–04](raporty/etap-4x1-lekcje-01-04-2026-10-25.md)
+- [Etap 4x1 — odbiór dydaktyczny lekcji 05–08](raporty/etap-4x1-lekcje-05-08-2026-10-25.md)
+- [Etap 4x1 — odbiór dydaktyczny lekcji 09–13](raporty/etap-4x1-lekcje-09-13-2026-10-25.md)
+- [Etap 4x1 — końcowa kontrola egzaminu i pakietu recenzyjnego](raporty/etap-4x1-kontrola-egzaminu-i-pakietu-2026-10-25.md)
 - [Kompetencje i cele](kompetencje.json)
 - [Analiza luk i matryca pokrycia](../docs/POKRYCIE-KURSU.md)
 - [Program kursu podstawowego](../docs/PROGRAM-PODSTAWOWY.md)
@@ -60,7 +64,7 @@ Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **86/60
 ## Status weryfikacji
 
 - Bank: 609 `needs_review`, 0 `verified`.
-- Lekcje: 13 szkiców z mapą pytań i przykładami; wymagają niezależnego odbioru dydaktycznego i prawnego.
+- Lekcje: 13 szkiców po odbiorze dydaktycznym etapu 4x1; wymagają nadal niezależnej recenzji prawnej i formalnego odbioru instruktorskiego.
 - Praktyka: 3 scenariusze do przeprowadzenia i udokumentowania przez instruktora; repozytorium nie poświadcza, że ćwiczenia odbyły się.
 - Prawo: pełne porównanie każdego punktu z polskim tekstem urzędowym i sprostowaniem oraz niezależna recenzja specjalisty pozostają otwarte.
 
