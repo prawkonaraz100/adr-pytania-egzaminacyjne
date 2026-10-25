@@ -1,157 +1,126 @@
 # ADR-B-10 — Transport kombinowany: droga, kolej i morze
 
 ## Po co to jest?
+Kontener może przebyć część trasy statkiem lub koleją, a następnie jechać drogą. Dokumenty i oznakowanie z wcześniejszego odcinka nie zwalniają automatycznie z wymagań obowiązujących na odcinku drogowym. Przed wyjazdem ustal, które przepisy mają zastosowanie i czy wszystkie wymagane informacje są dostępne.
 
-Ładunek może podróżować drogą, koleją i morzem, ale zmiana środka transportu nie znosi automatycznie wymagań odcinka drogowego. **ADR** dotyczy przewozu drogowego; **RID** to przepisy dotyczące międzynarodowego przewozu koleją, **IMDG Code** — morski kodeks przewozu towarów niebezpiecznych, a **ICAO** oznacza Międzynarodową Organizację Lotnictwa Cywilnego, której instrukcje obejmują przewóz lotniczy. Przykład: po rejsie morskim sprawdź, czy dokumenty i oznakowanie spełniają warunki dalszej jazdy ciężarówką, zamiast zakładać, że dokument morski załatwia wszystko.
-
-> **Wersja robocza 22.10.2026** — wymaga sprawdzenia przez niezależnego specjalistę ADR. Materiał szkoleniowy, nie oficjalny bank pytań ani potwierdzenie odbycia kursu.
-
-## Jak korzystać z tej lekcji
-
-1. Zacznij od celów nauki i głównych sekcji tematycznych u góry dokumentu. Czytaj je po kolei i zatrzymaj się przy przykładzie z pracy kierowcy.
-2. Gdy pojawia się skrót lub kod ADR, sprawdź wyjaśnienie w tekście i wskazany punkt przepisu — nie ucz się samego symbolu bez zrozumienia, co oznacza.
-3. Sekcje niżej z nagłówkami typu „Utrwalanie przez scenariusz”, „Zadanie instruktorskie”, „plan dydaktyczny” lub „uzupełnienie” są materiałem uzupełniającym i archiwum ćwiczeń. Mogą powtarzać temat główny; wybierz powiązane pytania i scenariusze zamiast czytać powtórzenia jak nowy rozdział.
-4. Pytania w banku są materiałem roboczym `needs_review`. Sam wynik testu nie potwierdza zaliczenia ćwiczeń praktycznych ani prawnej poprawności materiału.
-
-## Cel
-
-Kierowca powinien rozumieć, że część trasy drogą, a część koleją lub statkiem **nie usuwa obowiązków ADR**, lecz może uruchamiać szczególne zasady dokumentacji i oznakowania.
+## Czego się nauczysz
+- odróżniać ADR, RID i IMDG jako przepisy dla różnych gałęzi transportu;
+- sprawdzać dokumenty po odcinku morskim;
+- rozumieć, kiedy może być wymagany dodatkowy wpis w dokumencie ADR;
+- sprawdzać certyfikat pakowania kontenera lub pojazdu, gdy jest wymagany;
+- wyjaśniać braki przed rozpoczęciem odcinka drogowego.
 
 ## 1. Trzy nazwy, trzy gałęzie transportu
-
-- **ADR** — drogowy przewóz towarów niebezpiecznych.
-- **RID** — kolejowy przewóz towarów niebezpiecznych.
-- **IMDG** — międzynarodowy kodeks morski towarów niebezpiecznych.
-
-Nie należy zamieniać tych dokumentów miejscami. ADR może w określonych przypadkach uznać oznakowanie lub wymagania stosowane w transporcie morskim, lecz wyłącznie zgodnie z warunkami przepisów dotyczących łańcucha transportowego.
+ADR dotyczy drogowego przewozu towarów niebezpiecznych, RID — przewozu koleją, a IMDG — przewozu morskiego. W transporcie kombinowanym jeden ładunek może podlegać różnym wymaganiom na kolejnych odcinkach. Nie zakładaj, że dokument przygotowany dla jednego środka transportu zawsze wystarcza dla następnego.
 
 ## 2. Kontener po rejsie morskim
-
-Kontener przyjeżdża do portu na statku i ma oznakowanie zgodne z IMDG. Przed wyjazdem drogą nie można automatycznie stwierdzić, że wszystkie wymagania ADR przestały obowiązywać. Sprawdza się m.in. 1.1.4.2, dokumenty i to, co jest wymagane dla konkretnego sposobu transportu.
-
-Nie należy także dowolnie usuwać nalepek i tablic bez ustalenia, co wymaga ADR i przepisy transportu kombinowanego.
+Po odbiorze kontenera w porcie sprawdź dokumenty, oznakowanie i warunki dalszego przewozu drogowego. ADR 1.1.4.2 określa warunki, na jakich mogą być stosowane określone rozwiązania dla przewozu kombinowanego; nie jest to automatyczne zwolnienie ze wszystkich wymagań ADR. Sprawdź, czy dany przypadek mieści się w warunkach przepisu.
 
 ## 3. Dodatkowy zapis w dokumencie ADR
+W zależności od zastosowanego wyjątku i sytuacji przewozowej może być wymagany dodatkowy zapis w dokumencie. Sprawdź właściwy przepis i komplet wymaganych danych. Nie dopisuj informacji na podstawie domysłu i nie zakładaj, że dokument morski automatycznie zawiera wszystko, czego wymaga odcinek drogowy.
 
-Jeżeli mają zastosowanie warunki **1.1.4.2.1**, w dokumencie przewozowym występuje określona wzmianka o przewozie zgodnym z tym punktem (5.4.1.1.7). Uczeń powinien rozpoznać, że taki zapis jest **warunkowy**, a nie wymagany przy każdej jeździe do portu.
+## 4. Certyfikat pakowania kontenera lub pojazdu
+W odpowiednich przypadkach dokumentacja obejmuje certyfikat pakowania kontenera/pojazdu. Ustal, czy wymóg dotyczy danego przewozu i czy dokument jest dostępny oraz spójny z dokumentami przewozowymi. Nie uznawaj samego faktu, że kontener dotarł z portu, za dowód kompletności dokumentacji.
 
-## 4. Certyfikat pakowania kontenera/pojazdu
+## Typowe błędy kursantów
+- utożsamianie ADR, RID i IMDG;
+- zakładanie, że dokument morski wystarcza na odcinku drogowym;
+- pomijanie warunków wyjątku dla przewozu kombinowanego;
+- brak wymaganych dodatkowych zapisów;
+- pomijanie certyfikatu pakowania, gdy jest wymagany;
+- dopisywanie brakujących danych bez potwierdzenia.
 
-W sytuacji, gdy drogowy przewóz towarów niebezpiecznych w kontenerze poprzedza morski, ADR 5.4.2 przewiduje przekazanie przewoźnikowi morskiemu certyfikatu pakowania kontenera/pojazdu zgodnego z IMDG. Ma on potwierdzać prawidłowe przygotowanie jednostki transportowej. Funkcje dokumentu przewozowego i certyfikatu mogą w określonym przypadku być połączone.
-
-**Ważne:** to nie jest zaświadczenie kierowcy ADR ani świadectwo dopuszczenia pojazdu, ale inny dokument o innej roli.
-
-## 5. Przykładowy scenariusz
-
-Firma ładuje do kontenera przesyłki ADR. Kontener jedzie ciężarówką do portu, skąd ma odpłynąć statkiem. Pytania kontrolne:
-1. Jakie wymagania dotyczą drogowego etapu?
-2. Czy można warunkowo skorzystać z zasad IMDG dla odpowiedniego oznakowania?
-3. Jakie dokumenty i certyfikat pakowania są wymagane?
-4. Kto odpowiada za przygotowanie kontenera i dane w dokumentacji?
-5. Co należy sprawdzić po przekazaniu kontenera przewoźnikowi morskiemu?
-
-## 6. Powtórka
-
-Pytania: `ADR-B-0028`–`0030`, `0061`–`0062`, `0119`, `0140`–`0142`.
-
-**Źródła:** ADR 2025, 1.1.4.2, 1.1.4.3, 5.4.1.1.7, 5.4.2; wymagania IMDG na morskim odcinku. Ostateczny materiał wymaga szczegółowej kontroli wyjątków multimodalnych.
-
-## Akty prawne
-
-- [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
-- [Sprostowanie — Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
-- [Program kursu — Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
-
-## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
-
-**Sytuacja:** Przewóz towaru ADR obejmuje odcinek drogowy i morski.
-
-**Ćwiczenie:** Sprawdź szczególne warunki przewozu, dodatkowy zapis i kompletność dokumentacji. Kursant wyjaśnia samodzielnie warunki i ograniczenia, zamiast zapamiętywać literę odpowiedzi.
-
-**Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
-
-**Podstawa do weryfikacji:** ADR 1.1.4.2.1, 5.4.1.1.7; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
-
-## Zadanie sytuacyjne ADR-B-0247 (etap 2)
-
-Uczestnik rozwiązuje przypadek z pytania ADR-B-0247, wskazuje podstawę, warunki i typowy błąd. Wynik testu nie jest zatwierdzeniem praktyki; materiał do ostatecznej kontroli polskiego ADR 2025 i sprostowania.
-
-## Studium dokumentów transportu kombinowanego — 0277–0278
-
-Na ćwiczeniu kursant sprawdza, czy przewóz naprawdę korzysta z 1.1.4.2.1, wówczas ustala wymagany wpis z 5.4.1.1.7. Dla kontenera przewożonego następnie statkiem wskazuje podmiot odpowiedzialny za świadectwo pakowania według 5.4.2. Nie przenosi tych wymogów na wszystkie przewozy, nie utożsamia świadectwa pakowania z zaświadczeniem ADR kierowcy. Materiał `needs_review`, do kontroli polskiego tekstu Dz.U. 642 i sprostowania 1575.
-
-## Zadanie instruktorskie: Transport multimodalny (etap 2, 23.10.2026)
-
-**Symulacja bez rzeczywistych towarów:** Kursant analizuje odcinek morsko-drogowy i dokument IMDG; wskazuje warunki odstępstwa i dodatkowe informacje wymagane przez ADR.
-
-**Odniesienie do weryfikacji:** ADR 1.1.4.2.1–1.1.4.2.3.
-
-**Obserwowalne kryterium:** Nie uznaje IMDG za bezwarunkowe zwolnienie z ADR.
-
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
-
-## Plan dydaktyczny tematu 1(j) — transport kombinowany (23.10.2026)
-
-**Wymiar:** 45 min. Kierowca kursu podstawowego analizuje drogowy odcinek łańcucha łączącego kolej, prom lub statek; nie szkoli się w obsłudze cystern. Ważne rozróżnienie między obowiązkami ADR, RID i IMDG, warunkami uznania innych przepisów i dokumentami.
-
-| Cel roboczy | Co obserwujemy | Podstawa | Pytania |
-|---|---|---|---:|
-| ADR-B-10-K01 | Zasady uznawania IMDG przy odcinku drogowym | 1.1.4.2 | 10 |
-| ADR-B-10-K02 | Dodatkowy wpis w dokumencie przy 1.1.4.2.1 | 5.4.1.1.7 | 4 |
-| ADR-B-10-K03 | Dokumentacja i certyfikat pakowania kontenera | 5.4.2 | 10 |
-| ADR-B-10-K04 | Różnice między wymaganiami ADR, RID i IMDG | 1.1.4 | 11 |
-| ADR-B-10-K05 | Warunki zwolnień oraz obowiązki drogowego odcinka | 1.1.4.2; 1.1.4.7, 5.4.1.1.24 | 19 |
-
-| Czas | Aktywność prowadzącego | Wynik |
-|---|---|---|
-| 0–10 | Pokazuje schemat trasy drogowo-morskiej i drogowo-kolejowej | Kursant wyodrębnia odcinki i ich reżimy prawne |
-| 10–20 | Porównuje uznanie IMDG/ICAO na warunkach ADR 1.1.4.2 | Nie interpretuje uznania jako bezwarunkowego zwolnienia ADR |
-| 20–30 | Dokumenty 5.4.1.1.7 i certyfikat pakowania 5.4.2 | Odróżnia wpis do dokumentu przewozowego i świadectwo pakowania |
-| 30–40 | Przewóz pojazdu promem lub koleją, ADR 1.1.4.5 | Wskazuje konieczność sprawdzenia stosowania przepisów danej gałęzi |
-| 40–45 | Quiz z uzasadnieniem i wskazaniem źródła | Nie stosuje wyjątku bez sprawdzenia wszystkich warunków |
-
-**Przypadek A:** kontener z prawidłowym oznakowaniem IMDG ma być przewieziony drogą; kursant wybiera wymagane kontrole, nie usuwa dowolnie oznakowania. **Przypadek B:** samochód z towarem ADR zostaje przewieziony promem; uczestnik rozdziela drogowy i morski odcinek oraz dokumentację. **Przypadek C:** przesyłka do portu nie korzysta z 1.1.4.2.1; uczestnik ocenia, czy wymagany jest warunkowy wpis 5.4.1.1.7.
-
-Karty wyłącznie fikcyjne; ocena: „rozumie / wymaga wyjaśnienia / nieocenione”, decyzja, warunek, punkt przepisu. Program Dz.U. 2021 poz. 2150 zał. 1(j), ADR 2025 1.1.4, 5.4.1, 5.4.2 (Dz.U. poz. 642 ze sprostowaniem poz. 1575). Przykłady wymagają pełnej niezależnej kontroli prawnej, nie ma verified.
-
-## Karta kursanta — transport kombinowany (24.10.2026)
-
-- Rozdziel wymagania dla odcinka drogowego, kolejowego i morskiego. Zastosowanie przepisów innej gałęzi nie zwalnia automatycznie z ADR na drodze.
-- Sprawdź, czy warunki wyjątku rzeczywiście zostały spełnione, czy oznakowanie pozostaje prawidłowe i czy dokument przewozowy zawiera wymagane informacje.
-- **Błąd do uniknięcia:** sam dojazd do portu lub obecność dokumentu IMDG nie jest ogólnym zwolnieniem z ADR.
-
-Powtórka w banku: ADR-B-0247, 0277–0278, 0396, 0441.
-
-## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
-
-### Powiązane pytania w banku
-- ADR-B-0247 — przewóz kombinowany
-- ADR-B-0277–0278 — dokumenty i kontener
-- ADR-B-0396 i ADR-B-0441 — warunki przewozu kombinowanego
-
-### Przykład z pracy kierowcy
-Kontener przyjeżdża z portu z dokumentami dla odcinka morskiego. Nie zakładaj, że dokument IMDG sam w sobie znosi wymagania drogowego odcinka ADR. Sprawdź wymagane dokumenty i warunki stosowania ewentualnego wyjątku.
-
-**Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, wszystkie warianty A/B/C i podstawę prawną.
+## Scenariusze praktyczne
+1. **Kontener po rejsie.** Kierowca odbiera kontener w porcie. Dokumenty przygotowano dla odcinka morskiego, ale część danych drogowych wymaga wyjaśnienia. Kierowca sprawdza warunki ADR 1.1.4.2 i nie zakłada automatycznego zwolnienia.
+2. **Brak dodatkowego wpisu.** W fikcyjnym dokumencie brakuje informacji, która może być wymagana dla konkretnego odcinka drogowego. Kursant ustala podstawę i prosi odpowiedzialnego uczestnika o uzupełnienie przed wyjazdem.
+3. **Certyfikat pakowania.** Kursant porównuje dokument przewozowy z certyfikatem pakowania kontenera/pojazdu i wyjaśnia, dlaczego trzeba sprawdzić, czy certyfikat jest wymagany.
+4. **Niekompletna dokumentacja w terminalu.** Kierowca nie dopisuje brakujących danych samodzielnie na podstawie przypuszczeń; wyjaśnia niezgodność przed przejęciem ładunku do przewozu drogowego.
 
 ## Co musisz zapamiętać
-
-- Przepisy dla kolei lub morza nie znoszą automatycznie wymagań dla odcinka drogowego.
-- Sprawdź, czy dany wyjątek rzeczywiście ma zastosowanie i czy dokumenty oraz oznakowanie spełniają jego warunki.
-- RID dotyczy kolei, IMDG Code przewozu morskiego, a ICAO jest organizacją lotnictwa cywilnego; nie używaj tych skrótów zamiennie.
-- Podstawy do dalszej nauki: ADR 1.1.4.2 i 5.4.1.
+- ADR, RID i IMDG dotyczą różnych gałęzi transportu.
+- Dokument morski nie zwalnia automatycznie z wymagań drogowych.
+- Sprawdź warunki ADR 1.1.4.2 i ewentualny dodatkowy wpis.
+- Ustal, czy certyfikat pakowania kontenera/pojazdu jest wymagany.
 
 ## Sprawdź się
+- Czym różnią się ADR, RID i IMDG?
+- Dlaczego dokument morski nie zawsze wystarcza na drodze?
+- Co trzeba ustalić przed zastosowaniem ADR 1.1.4.2?
+- Kiedy należy sprawdzić certyfikat pakowania?
+- Dlaczego nie wolno zgadywać brakujących danych w dokumencie?
 
-Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
-
-- `ADR-B-0396`
-- `ADR-B-0511`
+Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0028`
 - `ADR-B-0029`
 - `ADR-B-0030`
-- `ADR-B-0061`
-- `ADR-B-0062`
-- `ADR-B-0119`
+- `ADR-B-0247`
+- `ADR-B-0277`
+- `ADR-B-0278`
+- `ADR-B-0396`
+- `ADR-B-0511`
 
-**Scenariusz z pracy kierowcy:** [SC-ADR-B-10 — ADR-B-10](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-10`; jest to symulacja, nie zaliczenie zajęć praktycznych).
+Scenariusz z pracy kierowcy: [SC-ADR-B-10 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
+
+## Powiązane pytania w banku
+- ADR-B-0028
+- ADR-B-0029
+- ADR-B-0030
+- ADR-B-0061
+- ADR-B-0062
+- ADR-B-0119
+- ADR-B-0140
+- ADR-B-0141
+- ADR-B-0142
+- ADR-B-0203
+- ADR-B-0204
+- ADR-B-0205
+- ADR-B-0206
+- ADR-B-0247
+- ADR-B-0277
+- ADR-B-0278
+- ADR-B-0320
+- ADR-B-0321
+- ADR-B-0381
+- ADR-B-0382
+- ADR-B-0383
+- ADR-B-0384
+- ADR-B-0385
+- ADR-B-0386
+- ADR-B-0387
+- ADR-B-0388
+- ADR-B-0389
+- ADR-B-0390
+- ADR-B-0391
+- ADR-B-0392
+- ADR-B-0393
+- ADR-B-0394
+- ADR-B-0395
+- ADR-B-0396
+- ADR-B-0397
+- ADR-B-0398
+- ADR-B-0437
+- ADR-B-0438
+- ADR-B-0439
+- ADR-B-0440
+- ADR-B-0441
+- ADR-B-0442
+- ADR-B-0443
+- ADR-B-0444
+- ADR-B-0445
+- ADR-B-0446
+- ADR-B-0447
+- ADR-B-0448
+- ADR-B-0449
+- ADR-B-0450
+- ADR-B-0451
+- ADR-B-0452
+- ADR-B-0453
+- ADR-B-0454
+- ADR-B-0511
+
+## Podstawa prawna
+- ADR 2025: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf): 1.1.4.2, 5.4.1 i właściwe wymagania dotyczące dokumentu/certyfikatu pakowania.
+- Ustawa z 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych, z późniejszymi zmianami.
+- Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
+
+Status materiału i pytań: needs_review; zastosowanie wyjątku i dokumenty trzeba sprawdzić dla konkretnego przewozu.

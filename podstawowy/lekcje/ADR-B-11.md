@@ -1,182 +1,119 @@
 # ADR-B-11 — Tunele i ograniczenia tras
 
 ## Po co to jest?
+Nie każdy tunel jest dostępny dla każdego przewozu towarów niebezpiecznych. Błędne odczytanie kodu tunelowego może doprowadzić do wjazdu na trasę objętą ograniczeniem. Kierowca powinien sprawdzić kod przypisany do towaru i postać przewozu, a następnie zaplanować dozwoloną trasę.
 
-Ograniczenia tunelowe pomagają dobrać trasę do zagrożenia, które przewozi pojazd. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych; kod tunelowy należy odczytać z właściwego wpisu towaru i zastosować do konkretnego sposobu przewozu. **LQ** oznacza ilości ograniczone (*Limited Quantities*) i ma odrębne warunki oznakowania oraz przewozu. Przykład: przed wjazdem do tunelu kategorii E sprawdź kod i to, czy przewozisz sztuki przesyłek, czy ładunek w innej postaci — nie wybieraj trasy wyłącznie po klasie towaru.
+## Czego się nauczysz
+- rozumieć kategorie tuneli A–E;
+- odczytywać kod tunelowy z tabeli A;
+- uwzględniać różnicę między cysterną a sztukami przesyłek w kodzie D/E;
+- ustalać kod dla jednostki przewożącej różne towary;
+- reagować bezpiecznie na zdarzenie w tunelu.
 
-> **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
+## 1. Kategorie tuneli A–E
+Kategorie tuneli określają ograniczenia dla przewozu towarów niebezpiecznych. Kategorię wskazuje oznakowanie tunelu. Ograniczenia należy porównać z kodem tunelowym właściwym dla przewożonego towaru i sposobu przewozu. Nie wybieraj trasy wyłącznie dlatego, że tunel jest krótszy lub wygodniejszy.
 
-## Jak korzystać z tej lekcji
+## 2. Kod tunelowy i postać przewozu
+Kod tunelowy odczytaj z kolumny 15 tabeli A przy właściwym towarze. Jeśli kod zawiera zapis D/E, sprawdź postać przewozu: dla cystern ograniczenie obejmuje tunele D i E, a dla sztuk przesyłek — kategorię E. Nie przenoś reguły z jednej postaci przewozu na drugą.
 
-1. Zacznij od celów nauki i głównych sekcji tematycznych u góry dokumentu. Czytaj je po kolei i zatrzymaj się przy przykładzie z pracy kierowcy.
-2. Gdy pojawia się skrót lub kod ADR, sprawdź wyjaśnienie w tekście i wskazany punkt przepisu — nie ucz się samego symbolu bez zrozumienia, co oznacza.
-3. Sekcje niżej z nagłówkami typu „Utrwalanie przez scenariusz”, „Zadanie instruktorskie”, „plan dydaktyczny” lub „uzupełnienie” są materiałem uzupełniającym i archiwum ćwiczeń. Mogą powtarzać temat główny; wybierz powiązane pytania i scenariusze zamiast czytać powtórzenia jak nowy rozdział.
-4. Pytania w banku są materiałem roboczym `needs_review`. Sam wynik testu nie potwierdza zaliczenia ćwiczeń praktycznych ani prawnej poprawności materiału.
+Jeżeli kod towaru wskazuje brak ograniczenia tunelowego w tabeli, nie oznacza to zwolnienia z innych znaków drogowych, ograniczeń lokalnych ani wymagań bezpieczeństwa.
 
-## Cele
-Odczytywać kategorię tunelu i kod ograniczeń, różnicować przewóz w sztukach przesyłek, luzem i w cysternach oraz podejmować bezpieczne decyzje o trasie.
-
-## 1. Kategorie A–E
-
-Tunele mogą mieć kategorie oznaczające różny poziom ograniczeń przewozu ADR. **A** oznacza brak ograniczeń wynikających z takiej kategoryzacji ADR, co nie znosi innych zasad ruchu. Kategorie pozostałe mogą ograniczać określone kody towarów.
-
-Kod dla danego towaru znajdziesz w tabeli A (kolumna 15); dział 8.6 opisuje sposób jego stosowania. Symbol **(-)** oznacza, że nie przypisano mu ograniczenia tunelowego.
-
-## 2. Kod E i D/E
-
-Przy przewozie **objętym ograniczeniami tunelowymi** kod E powoduje zakaz wjazdu do tunelu kategorii E. Kod **D/E** wymaga rozróżnienia sposobu przewozu: w sztukach przesyłek oznacza zwykle zakaz dla E, natomiast przy przewozie luzem lub w cysternach dotyczy D i E. Nie można zastosować identycznej reguły niezależnie od rodzaju operacji.
-
-Jeśli w jednostce są towary o różnych kodach, stosuje się najbardziej restrykcyjny kod z tych, które rzeczywiście mają zastosowanie (8.6.3.2).
-
-## 3. Wyłączenia i oznakowanie
-
-ADR 8.6.3.3 odnosi się do przewozów z wyłączeń rozdziału 1.1.3, z istotnym przypadkiem dotyczącym oznakowania 3.4.13 i 3.4.14. Nie zapamiętuj reguły „mała ilość = zawsze wolno przez tunel”. Najpierw ustal stosowane wyłączenie, jego warunki i oznakowanie jednostki.
+## 3. Różne kody w jednej jednostce transportowej
+Jeśli jednostka przewozi towary z różnymi kodami tunelowymi, ustal kod dla całego ładunku zgodnie z ADR 8.6.3.2. Nie wybieraj kodu na podstawie masy towaru ani wygody. Przed wjazdem sprawdź ograniczenie na oznakowaniu tunelu i zastosuj właściwą regułę dla całej jednostki.
 
 ## 4. Zdarzenie w tunelu
+W razie awarii lub pożaru w tunelu nie otwieraj ładowni ani przesyłek, aby samodzielnie sprawdzić zawartość. Zadbaj o bezpieczeństwo, zastosuj instrukcje pisemne w granicach własnych możliwości i wezwij pomoc. Nie wjeżdżaj do tunelu, jeśli przewóz jest objęty ograniczeniem; wybierz dozwoloną trasę.
 
-Kierowca jest zobowiązany stosować sygnalizację, urządzenia i polecenia obsługi tunelu. W wypadku z ładunkiem ADR chroni życie, zawiadamia służby, nie wchodzi w rozlew ani nie podejmuje gaszenia pożaru przedziału ładunkowego. W razie dymu/pożaru priorytetem jest bezpieczna ewakuacja zgodnie z lokalnymi procedurami, a nie ratowanie towaru.
+## Typowe błędy kursantów
+- odczytywanie kodu z pamięci zamiast z tabeli A;
+- pomijanie kategorii tunelu na oznakowaniu;
+- traktowanie kodu D/E jednakowo dla cystern i sztuk przesyłek;
+- wybieranie kodu dla mieszanego ładunku według masy lub wygody;
+- zakładanie, że brak ograniczenia tunelowego znosi inne ograniczenia;
+- otwieranie ładowni w celu sprawdzenia towaru po zdarzeniu.
 
-## 5. Ćwiczenia na trasie
+## Scenariusze praktyczne
+1. **Ładunek z kodami D i E.** Jedna jednostka przewozi towary z różnymi kodami. Kierowca odczytuje kolumnę 15 tabeli A i ustala kod dla całego ładunku zgodnie z ADR 8.6.3.2.
+2. **Tunel objęty zakazem.** Znak tunelu wskazuje ograniczenie dla danego przewozu. Kierowca nie wjeżdża mimo krótszej trasy i wybiera dozwolony objazd.
+3. **D/E w różnych postaciach przewozu.** Kursant porównuje przewóz w cysternie i w sztukach przesyłek, a następnie wyjaśnia, dlaczego ograniczenia różnią się w tych przypadkach.
+4. **Pożar w tunelu.** Na fikcyjnej karcie kursant wskazuje bezpieczne działania, nie otwiera ładowni i nie podejmuje improwizowanej interwencji przy towarze.
 
-- Pokaż różnicę między kodami E i D/E.
-- Odczytaj kod z kolumny 15 dla konkretnego numeru UN.
-- Oceń trasę z tunelem D oraz E dla sztuk przesyłek (uwzględnij inne znaki drogowe).
-- Omów, dlaczego zwolnienie 1.1.3 trzeba sprawdzić razem z wyjątkiem 3.4.13.
-
-Pytania: `0031`–`0033`, `0063`–`0065`, `0083`–`0086`, `0143`.
-
-**Źródła:** ADR 1.9.5, 3.2 tabela A kol. 15, 8.6.3–8.6.4, 5.4.3.4. Jest to materiał podstawowy: nie zastępuje ćwiczeń ewakuacyjnych i zasad właściwego zarządcy tunelu.
-
-## Akty prawne
-
-- [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
-- [Sprostowanie Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
-- [Ramowy program kursu Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
-
-## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
-
-**Sytuacja:** Planowana trasa wiedzie tunelem kategorii D, a przewóz w sztukach przesyłek ma kod D/E.
-
-**Ćwiczenie:** Rozróżnij kod tunelowy dla sposobu przewozu oraz niezależne znaki drogowe. Kursant wyjaśnia samodzielnie warunki i ograniczenia, zamiast zapamiętywać literę odpowiedzi.
-
-**Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
-
-**Podstawa do weryfikacji:** ADR 8.6.3–8.6.4; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
-
-## Zadanie sytuacyjne ADR-B-0248 (etap 2)
-
-Uczestnik rozwiązuje przypadek z pytania ADR-B-0248, wskazuje podstawę, warunki i typowy błąd. Wynik testu nie jest zatwierdzeniem praktyki; materiał do ostatecznej kontroli polskiego ADR 2025 i sprostowania.
-
-## Scenariusze graniczne tuneli — 0262–0264
-
-Kursant rozróżnia kategorię tunelu E, zasadę najbardziej restrykcyjnego kodu w przewozie mieszanym i znaczenie „(-)”. Ćwiczenie polega na analizie rzeczywistej pozycji UN i sposobu przewozu, nie na automatycznym uznaniu przejazdu za dozwolony. ADR 1.9.5.3, 8.6.3–8.6.4. Materiał wymaga niezależnej recenzji i formalnego porównania z polskim tekstem Dz.U. 642 wraz ze sprostowaniem.
-
-## Tunel — awaria z pożarem przestrzeni ładunkowej (0308)
-
-Załoga nie podejmuje gaszenia pożaru wewnątrz przestrzeni ładunkowej; odsuwa się, powiadamia ratowników i postępuje według instrukcji ADR 5.4.3.4. Symulacja wyłącznie teoretyczna. Nie utożsamiać jej z zaliczeniem praktycznym.
-
-## Zadanie instruktorskie: Tunele (etap 2, 23.10.2026)
-
-**Symulacja bez rzeczywistych towarów:** Kursant porównuje oznakowanie jednostki ADR i oznakowanie LQ wymagane przez 3.4.13; ustala ograniczenie kategorii E.
-
-**Odniesienie do weryfikacji:** ADR 8.6.3.3, 8.6.4, 3.4.13–3.4.14.
-
-**Obserwowalne kryterium:** Nie pomija warunku oznakowania LQ.
-
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
-
-## Plan nauczania 1(k) — tunele i ograniczenia ruchu (23.10.2026)
-
-**Czas teorii:** 45 minut. Wykorzystujemy fikcyjną mapę i numery UN; nie organizujemy przejazdu rzeczywistym ładunkiem ADR przez tunel. Temat obejmuje kategorie tuneli A–E, kod z kolumny (15) tabeli A, interpretację kodów mieszanych, odstępstwa i zachowanie w razie zdarzenia.
-
-| Kompetencja | Zakres | Punkt ADR | Pytania robocze |
-|---|---|---|---:|
-| ADR-B-11-K01 | Kategorie tuneli A–E | 1.9.5.3 | 6 |
-| ADR-B-11-K02 | Kod E, D/E i rodzaj przewozu | 8.6.4 | 7 |
-| ADR-B-11-K03 | Kod w kolumnie 15 tabeli A | 8.6.3.1 | 4 |
-| ADR-B-11-K04 | Najbardziej restrykcyjny kod w jednostce | 8.6.3.2 | 4 |
-| ADR-B-11-K05 | Rozumienie znaczenia kodu tunelowego (-) i jego ograniczeń | 8.6.3.1 | 4 |
-| ADR-B-11-K06 | Wyłączenia 1.1.3 i przypadek 3.4.13 | 8.6.3.3 | 3 |
-| ADR-B-11-K07 | Zachowanie podczas pożaru w tunelu | program kursu lit. k, 5.4.3.4 | 4 |
-
-| Minuty | Scenariusz | Obserwowana umiejętność |
-|---|---|---|
-| 0–10 | Zasady kategorii A–E i oznakowanie tunelu | Rozpoznaje kategorię, nie traktuje A jak zakazu uniwersalnego |
-| 10–20 | Kody (D/E), (B/D) i (-) w tabeli 8.6.4 | Rozróżnia dopuszczenia dla sztuk przesyłek, luzem i cystern (bez szkolenia obsługi cystern) |
-| 20–30 | Różne towary w jednej jednostce transportowej | Sprawdza zasadę najbardziej restrykcyjnego ograniczenia i wyłączeń |
-| 30–40 | Fikcyjne LQ i znak tunelu E | Weryfikuje 3.4.13/3.4.14 i zakres rzeczywistego ograniczenia |
-| 40–45 | Pożar w tunelu — bezpieczeństwo i instrukcje pisemne | Nie podejmuje gaszenia przestrzeni ładunkowej i informuje służby |
-
-### Arkusz decyzyjny instruktora
-
-Uczestnik otrzymuje trzy fikcyjne trasy: tunel D, tunel E, wariant bez tunelu. Dla każdego przewozu zaznacza kod ADR, sposób przewozu, wyjątek, decyzję i numer ustępu 8.6; nie korzysta z domniemanych ograniczeń na podstawie samego numeru klasy. Instruktor zapisuje „rozumie / wymaga wyjaśnienia / nieocenione” oraz błąd warunków. Ćwiczenie ma charakter papierowy i nie jest realizacją praktycznego kursu P1–P3.
-
-Podstawa: program zał. 1 pkt 1(k) Dz.U. 2021 poz. 2150; ADR 2025 1.9.5, 3.2 tabela A, 8.6, 5.4.3 (Dz.U. poz. 642 i sprostowanie poz. 1575). Scenariusze wymagają kontroli polskiego tekstu urzędowego i recenzji, nie ma verified.
-
-## Karta kursanta — ograniczenia tunelowe (24.10.2026)
-
-- Odczytaj kod tunelowy z właściwego wpisu i zastosuj go do rzeczywistego sposobu przewozu. Ten sam kod może działać inaczej dla sztuk przesyłek i przewozu luzem.
-- Symbol „(-)” nie oznacza ani nakazu przejazdu konkretnym tunelem, ani prawa do ignorowania znaków drogowych.
-- **Błąd do uniknięcia:** nie wybieraj trasy wyłącznie na podstawie klasy towaru; sprawdź kod, formę przewozu, oznakowanie tunelu i lokalne ograniczenia.
-
-Powtórka w banku: ADR-B-0262–0264, 0431, 0487–0488.
-
-## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
-
-### Powiązane pytania w banku
-- ADR-B-0248 — ograniczenia tunelowe
-- ADR-B-0262–0264 — kody tunelowe
-- ADR-B-0308 — pożar w tunelu
-- ADR-B-0431 — symbol (-)
-- ADR-B-0487–0488 — kod D/E
-
-### Przykłady z pracy kierowcy
-**Kod tunelowy:** nie wybieraj trasy wyłącznie po klasie towaru. Sprawdź kod tunelowy, formę przewozu i znaki przy tunelu. Dla kodu D/E wynik może zależeć od sposobu przewozu.
-
-**Pożar w tunelu:** nie próbuj samodzielnie gasić pożaru przestrzeni ładunkowej ani otwierać przesyłek. Zapewnij sobie bezpieczeństwo, ostrzeż innych i wezwij pomoc. Powiązane pytanie: ADR-B-0308.
-
-**Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, A/B/C i podstawę prawną.
-
-## Uzupełnienie odbioru 4x1 — kody tunelowe i decyzja w trasie (ADR-B-0574–0576, 0591–0604)
-
-Kod tunelowy odczytaj z kolumny 15 tabeli A przy właściwym towarze. Potem sprawdź kategorię tunelu na oznakowaniu i sposób przewozu. Nie wyznaczaj trasy wyłącznie na podstawie klasy towaru, rejestracji pojazdu ani tego, że tunel jest krótszą drogą.
-
-### Kilka kodów w jednej jednostce transportowej
-
-Jeżeli jednostka przewozi towary z różnymi kodami tunelowymi, ustal kod dla całego ładunku zgodnie z ADR 8.6.3.2 — nie wybieraj kodu na podstawie masy towaru ani wygody. W przypadku kodu „(-)” ADR nie przypisuje danemu towarowi ograniczenia tunelowego w tabeli, ale nadal obowiązują inne znaki drogowe i lokalne ograniczenia. Podstawa do sprawdzenia: ADR 3.2.1, kolumna 15 oraz 8.6.3.1–8.6.3.2.
-
-### Kod D/E zależy od postaci przewozu
-
-Przy kodzie zawierającym ukośnik sprawdź, czy towar jedzie w cysternie, czy w sztukach przesyłek. Dla kodu D/E ograniczenie dla cysterny obejmuje tunele D i E, a dla sztuk przesyłek — kategorię E. Nie przenoś reguły z jednej postaci przewozu na drugą. Podstawa do sprawdzenia: ADR 8.6.4.
-
-### Przed wjazdem i podczas zdarzenia
-
-Jeśli znak tunelu ogranicza przewóz, wybierz dozwoloną trasę; poprawny dokument nie uchyla zakazu. Gdy do zdarzenia dojdzie w tunelu, nie otwieraj ładowni ani nie improwizuj przy pożarze. Zatrzymaj pojazd w sposób bezpieczny, zastosuj instrukcje pisemne i wezwij pomoc zgodnie z sytuacją. Podstawa do sprawdzenia: ADR 8.6.3–8.6.4 oraz 5.4.3.4.
-
-**Scenariusz 1 — planowanie trasy:** w jednej jednostce są towary z kodami D i E. Kierowca sprawdza właściwą regułę dla ładunku i postaci przewozu, a następnie planuje trasę zgodną z ograniczeniami.
-
-**Scenariusz 2 — tunel zamknięty dla tego przewozu:** kierowca nie wjeżdża mimo krótszej trasy. Wybiera dozwolony objazd; w razie zdarzenia w tunelu priorytetem jest bezpieczeństwo i wezwanie służb, nie sprawdzanie ładunku przez otwarcie przesyłek.
-
-Powiązane pytania robocze: ADR-B-0574–0576 i ADR-B-0591–0604. Wszystkie pozostają `needs_review`; podane podstawy wymagają niezależnej kontroli polskiego tekstu.
+Ćwiczenia odbywają się na mapie i fikcyjnych kartach, nie podczas rzeczywistego przewozu.
 
 ## Co musisz zapamiętać
-
-- Sprawdź kod tunelowy w odpowiednim wpisie oraz sposób przewozu, zanim wybierzesz trasę.
-- Kody tunelowe nie zastępują znaków drogowych ani lokalnych ograniczeń ruchu.
-- Przy awarii w tunelu nie narażaj siebie: ostrzeż innych i wezwij służby, nie otwieraj przesyłek.
-- Podstawy do dalszej nauki: ADR 8.6.3–8.6.4 oraz instrukcje pisemne 5.4.3.
+- Kod tunelowy odczytuj z kolumny 15 tabeli A.
+- Sprawdź kategorię tunelu na oznakowaniu.
+- D/E ma inne zastosowanie dla cystern i sztuk przesyłek.
+- Przy różnych kodach ustal kod dla całej jednostki zgodnie z ADR.
+- Nie wjeżdżaj wbrew ograniczeniu; podczas zdarzenia nie otwieraj przesyłek.
 
 ## Sprawdź się
+- Gdzie znajdziesz kod tunelowy?
+- Dlaczego trzeba uwzględnić postać przewozu przy kodzie D/E?
+- Jak ustalasz kod dla jednostki z różnymi towarami?
+- Co robisz, gdy tunel jest objęty ograniczeniem?
+- Jak reagujesz na zdarzenie w tunelu?
 
-Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
-
-- `ADR-B-0487`
-- `ADR-B-0539`
-- `ADR-B-0540`
+Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0031`
 - `ADR-B-0032`
 - `ADR-B-0033`
-- `ADR-B-0063`
-- `ADR-B-0064`
+- `ADR-B-0248`
+- `ADR-B-0262`
+- `ADR-B-0308`
+- `ADR-B-0574`
+- `ADR-B-0604`
 
-**Scenariusz z pracy kierowcy:** [SC-ADR-B-11 — ADR-B-11](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-11`; jest to symulacja, nie zaliczenie zajęć praktycznych).
+Scenariusz z pracy kierowcy: [SC-ADR-B-11 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
+
+## Powiązane pytania w banku
+- ADR-B-0031
+- ADR-B-0032
+- ADR-B-0033
+- ADR-B-0063
+- ADR-B-0064
+- ADR-B-0065
+- ADR-B-0083
+- ADR-B-0084
+- ADR-B-0085
+- ADR-B-0086
+- ADR-B-0143
+- ADR-B-0174
+- ADR-B-0207
+- ADR-B-0208
+- ADR-B-0209
+- ADR-B-0210
+- ADR-B-0248
+- ADR-B-0262
+- ADR-B-0263
+- ADR-B-0264
+- ADR-B-0308
+- ADR-B-0322
+- ADR-B-0430
+- ADR-B-0431
+- ADR-B-0432
+- ADR-B-0433
+- ADR-B-0434
+- ADR-B-0435
+- ADR-B-0487
+- ADR-B-0488
+- ADR-B-0489
+- ADR-B-0490
+- ADR-B-0512
+- ADR-B-0539
+- ADR-B-0540
+- ADR-B-0574
+- ADR-B-0575
+- ADR-B-0576
+- ADR-B-0591
+- ADR-B-0592
+- ADR-B-0602
+- ADR-B-0603
+- ADR-B-0604
+
+## Podstawa prawna
+- ADR 2025: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf): 3.2 tabela A, kolumna 15; 8.6.3.1–8.6.3.2 i 8.6.4; instrukcje pisemne 5.4.3.4.
+- Ustawa z 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych, z późniejszymi zmianami.
+- Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
+
+Status materiału i pytań: needs_review; kod dla konkretnego ładunku i ograniczenia wymagają kontroli w aktualnym wpisie ADR.
