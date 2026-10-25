@@ -58,11 +58,11 @@
         "stem": "Kontener zawiera towary niebezpieczne należące do więcej niż jednej klasy. Jak ustalić, jakie nalepki dużego formatu są wymagane na zewnątrz?",
         "options": {
           "A": "Sprawdzić wymagania ADR i umieścić komplet wymaganych nalepek we właściwych miejscach",
-          "B": "Zawsze umieścić tylko nalepkę klasy o najwyższym numerze, bez sprawdzania pozostałych klas",
-          "C": "Umieścić dowolną jedną nalepkę, jeśli na drzwiach znajduje się numer UN i dokumenty są dostępne"
+          "B": "Wybrać nalepkę klasy o najwyższym numerze, ponieważ według tego poglądu ta klasa ma pierwszeństwo nad pozostałymi zagrożeniami",
+          "C": "Wybrać nalepkę według numeru UN z dokumentu"
         },
         "correct_option": "A",
-        "explanation": "Oznakowanie kontenera dobiera się na podstawie rzeczywiście przewożonych towarów i odpowiednich reguł ADR, a nie według najwyższego numeru klasy. Jedna przypadkowa nalepka ani sam numer UN nie pokazują wszystkich wymaganych rodzajów zagrożenia. Przed odjazdem trzeba sprawdzić, czy kontener ma komplet wymaganych nalepek. Podstawa: ADR 5.3.1.1–5.3.1.4.",
+        "explanation": "Oznakowanie kontenera dobiera się na podstawie rzeczywiście przewożonych towarów i odpowiednich reguł ADR, a nie według najwyższego numeru klasy. Jedna przypadkowa nalepka ani sam numer UN nie pokazują wszystkich wymaganych rodzajów zagrożenia. Wyższy numer klasy nie daje pierwszeństwa, a sam numer UN nie zastępuje zestawu nalepek. Podstawa: ADR 5.3.1.1–5.3.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -98,12 +98,12 @@
       "exact_record_snapshot": {
         "stem": "Po rozładunku kontenera usunięto część towaru, ale pozostały niebezpieczne pozostałości. Czy można od razu usunąć nalepki dużego formatu?",
         "options": {
-          "A": "Tak, po zdjęciu większości opakowań nalepki zawsze stają się zbędne, nawet jeśli pozostały resztki towaru",
-          "B": "Tak, jeśli kierowca podpisał dokument rozładunku i potwierdził odbiór części ładunku",
+          "A": "Zdjąć nalepki po rozładunku większej części towaru, nawet gdy pozostały niebezpieczne resztki w kontenerze",
+          "B": "Zdjąć nalepki po podpisaniu protokołu rozładunku",
           "C": "Nie; pozostawić oznakowanie do spełnienia warunków ADR, w tym oczyszczenia"
         },
         "correct_option": "C",
-        "explanation": "Pozostałości towaru niebezpiecznego mogą nadal stwarzać zagrożenie, dlatego samo częściowe opróżnienie nie uprawnia do zdjęcia oznakowania. Podpis na dokumencie rozładunku również nie potwierdza, że zagrożenie zniknęło. Oznakowanie usuwa się dopiero wtedy, gdy spełnione są warunki ADR dotyczące opróżnienia i oczyszczenia. Podstawa: ADR 5.3.1.1.5.",
+        "explanation": "Pozostałości towaru niebezpiecznego mogą nadal stwarzać zagrożenie, dlatego samo częściowe opróżnienie nie uprawnia do zdjęcia oznakowania. Podpis na dokumencie rozładunku również nie potwierdza, że zagrożenie zniknęło. Rozładowanie większości towaru i podpisanie protokołu nie usuwają pozostałego zagrożenia. Podstawa: ADR 5.3.1.1.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
