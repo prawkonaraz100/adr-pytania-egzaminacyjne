@@ -163,3 +163,8 @@ Raporty ETAPU 4x7
 - [B-05–08](raporty/etap-4x12-slowniczek-lekcje-05-08-2026-10-25.md)
 - [B-09–13](raporty/etap-4x12-slowniczek-lekcje-09-13-2026-10-25.md)
 - [Raport końcowy ETAPU 4x12](raporty/etap-4x12-raport-koncowy-2026-10-25.md)
+
+
+## Raporty końcowe
+
+- [Etap 4x18 — egzamin próbny i pakiet recenzyjny](raporty/etap-4x18-raport-koncowy-2026-10-25.md)
