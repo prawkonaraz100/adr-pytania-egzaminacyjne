@@ -42,3 +42,77 @@ Karty wyłącznie fikcyjne; ocena: „rozumie / wymaga wyjaśnienia / nieocenion
 
 ## Podstawy do sprawdzenia
 ADR 2025, Dz.U. 2025 poz. 642 ze sprostowaniem Dz.U. 2025 poz. 1575 oraz program kursu ADR, Dz.U. 2021 poz. 2150. Przed prowadzeniem zajęć porównaj wymagania z obowiązującym tekstem urzędowym i uzyskaj odbiór instruktorski.
+
+## Prowadzenie trzech scenariuszy praktycznych
+
+Prowadź ćwiczenia na fikcyjnych dokumentach i kartach. Nie używaj prawdziwych towarów niebezpiecznych. Poproś kursanta o głośne uzasadnienie kolejnych decyzji i sprawdź, czy potrafi wskazać, które dane musi zweryfikować. Bezpieczna decyzja i rozumienie podstawy są ważniejsze niż szybkie wskazanie litery.
+
+### 1. SC-ADR-B-10 — Kontener po rejsie morskim — dalszy odcinek drogowy
+
+**Sytuacja:** Kierowca odbiera kontener w porcie. Dokumenty przygotowano dla odcinka morskiego, a część danych drogowych wymaga wyjaśnienia.
+
+**Jak poprowadzić:**
+1. Sprawdź dokumenty i oznakowanie kontenera przed przejęciem ładunku.
+2. Ustal, czy konkretne warunki wyjątku dla przewozu kombinowanego są spełnione.
+3. Nie zakładaj, że dokument morski automatycznie zwalnia z wymagań ADR na drodze.
+4. Wyjaśnij braki przed wyjazdem i zapisz, jakie źródło trzeba sprawdzić.
+
+**Na co patrzeć:** Kursant rozróżnia odcinek morski i drogowy oraz nie stosuje wyjątku bez sprawdzenia warunków. Dopytaj, co kursant zrobi, jeśli zabraknie danych lub nie może potwierdzić wymogu.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant zakłada, że poprzedni przewóz, dokument lub polecenie wystarcza. Wyjaśnij, że trzeba sprawdzić wymagania dla aktualnego ładunku, odcinka trasy i sytuacji, a brak informacji nie jest zgodą.
+
+**Pytania powiązane:** `ADR-B-0396`, `ADR-B-0511`
+
+**Granica bezpieczeństwa:** Użyj fikcyjnego kompletu dokumentów i kontenera szkoleniowego.
+
+### 2. SC-ADR-B-10-02 — Dokumenty po rejsie morskim
+
+**Sytuacja:** Kierowca odbiera kontener w porcie. Ma dokumenty morskie, ale nie wie, czy spełniają wymagania dalszego odcinka drogowego.
+
+**Jak poprowadzić:**
+1. Porównaj dokumenty z oznakowaniem i danymi towaru.
+2. Sprawdź warunki ADR 1.1.4.2 dla konkretnego przewozu.
+3. Ustal, czy potrzebny jest dodatkowy wpis lub certyfikat pakowania.
+4. Nie uzupełniaj braków na podstawie domysłu; wyjaśnij je przed wyjazdem.
+
+**Na co patrzeć:** Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR. Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność. Dopytaj, co kursant zrobi, jeśli zabraknie danych lub nie może potwierdzić wymogu.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant wybiera najkrótszą lub najłatwiejszą drogę działania bez sprawdzenia ograniczeń. Wyjaśnij, że plan trzeba dopasować do kodu, dokumentów i warunków przewozu, nawet jeśli oznacza to objazd albo wstrzymanie czynności.
+
+**Pytania powiązane:** `ADR-B-0028`, `ADR-B-0029`, `ADR-B-0030`, `ADR-B-0396`, `ADR-B-0511`
+
+**Granica bezpieczeństwa:** Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.
+
+### 3. SC-ADR-B-10-03 — Niezgodność certyfikatu pakowania
+
+**Sytuacja:** Certyfikat pakowania kontenera zawiera identyfikator, który nie zgadza się z dokumentem przewozowym.
+
+**Jak poprowadzić:**
+1. Porównaj identyfikator kontenera i dane ładunku na dokumentach.
+2. Sprawdź, czy certyfikat jest wymagany i dotyczy tej jednostki.
+3. Wstrzymaj przejęcie do wyjaśnienia rozbieżności.
+4. Nie uznawaj samej obecności podpisanego dokumentu za dowód zgodności.
+
+**Na co patrzeć:** Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR. Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność. Dopytaj, co kursant zrobi, jeśli zabraknie danych lub nie może potwierdzić wymogu.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant chce uzupełnić brakujące informacje na podstawie przypuszczeń. Wyjaśnij, że dane w dokumentach i uprawnienia osób muszą być potwierdzone; zgadywanie może doprowadzić do błędnej decyzji.
+
+**Pytania powiązane:** `ADR-B-0028`, `ADR-B-0029`, `ADR-B-0030`
+
+**Granica bezpieczeństwa:** Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.
+
+## Pytania kontrolne na koniec zajęć
+
+Omów pytania: `ADR-B-0396`, `ADR-B-0511`, `ADR-B-0028`, `ADR-B-0029`, `ADR-B-0030`. Kursant ma wyjaśnić poprawną odpowiedź, wskazać, co jest mylące w co najmniej jednym dystraktorze, oraz podać źródło w ADR lub dokumentacji.
+
+## Pytania do dodatkowego omówienia
+
+Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empirycznie „najtrudniejszych” pytań. Pytania do dodatkowego omówienia wybieraj z tematów scenariuszy: `ADR-B-0396`, `ADR-B-0511`, `ADR-B-0028`, `ADR-B-0029`, `ADR-B-0030`. To kandydaci dydaktyczni, nie ranking. Sprawdź szczególnie, czy kursant rozróżnia podobne terminy, odczytuje właściwą tabelę i nie pomija warunków szczególnych.
+
+## Kontrola zgodności materiałów
+
+- Moduł: `ADR-B-10`; kompetencje w mapie: `ADR-B-10-K01`, `ADR-B-10-K02`, `ADR-B-10-K03`, `ADR-B-10-K04`, `ADR-B-10-K05`.
+- Podstawy zapisane w mapie kompetencji do porównania z lekcją: 1.1.4.2; 5.4.1.1.7; 5.4.2; 1.1.4; 1.1.4.2; 1.1.4.7, 5.4.1.1.24.
+- Wszystkie 5 unikalnych ID pytań z ćwiczeń istnieją w banku i należą do `ADR-B-10`.
+- Lekcja: [ADR-B-10](../lekcje/ADR-B-10.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
+- Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
