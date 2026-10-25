@@ -10,12 +10,12 @@ Otwarty projekt autorskiej bazy pytań do nauki na **polski egzamin ADR dla kier
 
 ## Stan na 25.10.2026 — po etapie 4t
 
-- [x] Bank ADR podstawowy: **569 pytań**; **569 `needs_review` / 0 `verified`**.
+- [x] Bank ADR podstawowy: **579 pytań**; **579 `needs_review` / 0 `verified`**.
 - [x] 104/104 wewnętrznych celów teorii ma pytania robocze; 3/3 cele praktyczne mają scenariusze, ale wykonanie wymaga rzeczywistych zajęć i potwierdzenia instruktora.
 - [x] 13/13 lekcji ma mapę ID pytań i przykłady praktyczne; Quality Gate sprawdza, że wskazane ID istnieją w banku.
 - [x] Dodano egzamin próbny 30-pytaniowy (60 min, próg treningowy 20/30), osobny klucz i generator wariantów proporcjonalnych do 13 działów.
 - [x] Quality Gate sprawdza unikalne ID egzaminu, zgodność klucza i powtarzalność wariantu 001.
-- [x] Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą” wynosi **71/569 = 12,48%**; każdy z 13 działów jest poniżej 18%.
+- [x] Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą” wynosi **80/579 = 13,82%**; każdy z 13 działów jest poniżej 18%.
 - [ ] Pełne porównanie polskiego tekstu ADR 2025 i sprostowania oraz niezależna recenzja wszystkich odpowiedzi A/B/C.
 - [ ] Odbiór merytoryczny lekcji przez instruktora i rzeczywiste wykonanie ćwiczeń praktycznych.
 
