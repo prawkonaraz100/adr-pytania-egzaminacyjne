@@ -4,12 +4,19 @@ import tempfile
 import unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
-from answer_length_bias import check, main
+from answer_length_bias import check, main, measure
 
 def rec(module,answers,key):
     return {"module_id":module,"options":dict(zip("ABC",answers)),"correct_option":key}
 
 class BiasMetricTests(unittest.TestCase):
+    def test_b08_and_b12_below_fourteen_percent(self):
+        bank = Path(__file__).resolve().parents[1] / "podstawowy" / "questions.jsonl"
+        rows = [json.loads(line) for line in bank.read_text(encoding="utf-8").splitlines() if line.strip()]
+        stats = measure(rows)
+        for module in ("ADR-B-08", "ADR-B-12"):
+            self.assertLess(stats[module]["strict"] / stats[module]["total"], 0.14, module)
+
     def test_strict_longest_excludes_ties(self):
         rows=[rec("ADR-B-01",["short","longest","mid"],"B"),
               rec("ADR-B-01",["same","same","tiny"],"A"),

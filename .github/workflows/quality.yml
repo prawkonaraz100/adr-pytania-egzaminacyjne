@@ -24,8 +24,8 @@ jobs:
         run: python scripts/check_mock_exam_variants.py
       - name: Report shortest-answer and absolute-word leakage (advisory, Stage 4v)
         run: python scripts/answer_leakage_metrics.py
-      - name: Enforce global and per-module correct-answer length bias threshold (18%)
-        run: python scripts/answer_length_bias.py --threshold 0.18 --strict
+      - name: Enforce global and per-module correct-answer length bias threshold (16%)
+        run: python scripts/answer_length_bias.py --threshold 0.16 --strict
       - name: Enforce minimum learner-facing explanation length (300 characters)
         run: python scripts/check_explanation_quality.py --minimum 300
       - name: Block new near-duplicate questions

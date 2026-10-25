@@ -221,5 +221,73 @@
     "report": "review/batches/4x16-literal-comparison-batch5-0010-0337.md",
     "data": "review/batches/4x16-literal-comparison-batch5-0010-0337.json"
   },
-  "literal_comparison_note": "223 questions have textual comparison records against full Polish ADR 2025 text copies published by MI. All remain needs_review pending independent A/B/C specialist review and final confirmation against the legally authoritative Dz.U. text/corrigendum. ADR-B-0162 and complex waste-classification/table-specific items remain open."
+  "literal_comparison_note": "223 questions have textual comparison records against full Polish ADR 2025 text copies published by MI. All remain needs_review pending independent A/B/C specialist review and final confirmation against the legally authoritative Dz.U. text/corrigendum. ADR-B-0162 and complex waste-classification/table-specific items remain open.",
+  "stage4x18": {
+    "bank_blob_sha": "ec1bb5391aa9875e2a1aa7bdb138fb79b3bf72dd",
+    "question_count": 609,
+    "status_counts": {
+      "needs_review": 609,
+      "verified": 0
+    },
+    "formal_approvals": 0,
+    "mock_exam_variants": [
+      {
+        "variant": 1,
+        "path": "podstawowy/egzamin-probny/wariant-001.json",
+        "key": "podstawowy/egzamin-probny/klucz-001.json",
+        "question_count": 30,
+        "modules": 13,
+        "answers_ABC": "10/10/10"
+      },
+      {
+        "variant": 2,
+        "path": "podstawowy/egzamin-probny/wariant-002.json",
+        "key": "podstawowy/egzamin-probny/klucz-002.json",
+        "question_count": 30,
+        "modules": 13,
+        "answers_ABC": "10/10/10"
+      },
+      {
+        "variant": 3,
+        "path": "podstawowy/egzamin-probny/wariant-003.json",
+        "key": "podstawowy/egzamin-probny/klucz-003.json",
+        "question_count": 30,
+        "modules": 13,
+        "answers_ABC": "10/10/10"
+      },
+      {
+        "variant": 4,
+        "path": "podstawowy/egzamin-probny/wariant-004.json",
+        "key": "podstawowy/egzamin-probny/klucz-004.json",
+        "question_count": 30,
+        "modules": 13,
+        "answers_ABC": "10/10/10"
+      },
+      {
+        "variant": 5,
+        "path": "podstawowy/egzamin-probny/wariant-005.json",
+        "key": "podstawowy/egzamin-probny/klucz-005.json",
+        "question_count": 30,
+        "modules": 13,
+        "answers_ABC": "10/10/10"
+      }
+    ],
+    "priority_review_ids": [
+      "ADR-B-0073",
+      "ADR-B-0074",
+      "ADR-B-0253",
+      "ADR-B-0283",
+      "ADR-B-0420",
+      "ADR-B-0422",
+      "ADR-B-0484",
+      "ADR-B-0144",
+      "ADR-B-0249",
+      "ADR-B-0274",
+      "ADR-B-0275",
+      "ADR-B-0300",
+      "ADR-B-0304",
+      "ADR-B-0305"
+    ],
+    "note": "Priority list is not exhaustive. Every question remains needs_review until a real specialist approves it; all ADR 2027 sensitivity registers remain relevant."
+  }
 }

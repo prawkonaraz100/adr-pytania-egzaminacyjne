@@ -95,12 +95,12 @@ Format treningowy: 30 pytań, 60 minut, próg 20/30 (2/3). Każdy wariant obejmu
 ```bash
 python scripts/validate.py
 python scripts/coverage.py
-python scripts/answer_length_bias.py --threshold 0.18 --strict-global
+python scripts/answer_length_bias.py --threshold 0.16 --strict
 python scripts/check_explanation_quality.py --minimum 300
 python -m unittest discover -s tests -v
 ```
 
-Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 78/609 = 12,81%, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
+Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 75/609 = 12,32%, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
 
 ## Status weryfikacji
 
@@ -114,7 +114,7 @@ Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 78/609 
 
 ## Aktualizacja po audycie pokrycia 4t
 
-Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogólnych zasad odpowiedzialności cywilnej wskazanych w ADR 8.2.2.3.2(k). Raport: [ETAP 4t](raporty/etap-4t-pokrycie-programu-2026-10-25.md). Bank ma obecnie 609 pytań, wszystkie `needs_review`, 0 `verified`; wskaźnik „poprawna = najdłuższa” wynosi 78/609 = 12,81% według ścisłego kryterium CI.
+Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogólnych zasad odpowiedzialności cywilnej wskazanych w ADR 8.2.2.3.2(k). Raport: [ETAP 4t](raporty/etap-4t-pokrycie-programu-2026-10-25.md). Bank ma obecnie 609 pytań, wszystkie `needs_review`, 0 `verified`; wskaźnik „poprawna = najdłuższa” wynosi 75/609 = 12,32% według ścisłego kryterium CI.
 
 
 ## Raporty ETAPU 4x17 — odbiór lekcji i scenariuszy
@@ -163,3 +163,8 @@ Raporty ETAPU 4x7
 - [B-05–08](raporty/etap-4x12-slowniczek-lekcje-05-08-2026-10-25.md)
 - [B-09–13](raporty/etap-4x12-slowniczek-lekcje-09-13-2026-10-25.md)
 - [Raport końcowy ETAPU 4x12](raporty/etap-4x12-raport-koncowy-2026-10-25.md)
+
+
+## Raporty końcowe
+
+- [Etap 4x18 — egzamin próbny i pakiet recenzyjny](raporty/etap-4x18-raport-koncowy-2026-10-25.md)
