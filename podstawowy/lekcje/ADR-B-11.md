@@ -11,7 +11,7 @@ Nie każdy tunel jest dostępny dla każdego przewozu towarów niebezpiecznych. 
 - reagować bezpiecznie na zdarzenie w tunelu.
 
 ## 1. Kategorie tuneli A–E
-Kategorie tuneli określają ograniczenia dla przewozu towarów niebezpiecznych. Kategorię wskazuje oznakowanie tunelu. Ograniczenia należy porównać z kodem tunelowym właściwym dla przewożonego towaru i sposobu przewozu. Nie wybieraj trasy wyłącznie dlatego, że tunel jest krótszy lub wygodniejszy.
+Kategorie tuneli określają ograniczenia dla przewozu towarów niebezpiecznych. Kategorię wskazuje oznakowanie tunelu. Kategoria A nie wprowadza ograniczeń tunelowych ADR wynikających z systemu A–E, a E jest najbardziej restrykcyjna. Ograniczenia należy porównać z kodem tunelowym właściwym dla przewożonego towaru i sposobu przewozu. Nie wybieraj trasy wyłącznie dlatego, że tunel jest krótszy lub wygodniejszy.
 
 
 ### Co oznaczają kategorie i kod „(-)”
@@ -21,7 +21,7 @@ Kod tunelowy B1000C zawiera warunek zależny od ilości materiału wybuchowego n
 ## 2. Kod tunelowy i postać przewozu
 Kod tunelowy odczytaj z kolumny 15 tabeli A przy właściwym towarze. Jeśli kod zawiera zapis D/E, sprawdź postać przewozu: dla cystern ograniczenie obejmuje tunele D i E, a dla sztuk przesyłek — kategorię E. Nie przenoś reguły z jednej postaci przewozu na drugą.
 
-Jeżeli kod towaru wskazuje brak ograniczenia tunelowego w tabeli, nie oznacza to zwolnienia z innych znaków drogowych, ograniczeń lokalnych ani wymagań bezpieczeństwa.
+Jeżeli kod towaru wskazuje brak ograniczenia tunelowego w tabeli jako „(-)”, nie oznacza to zwolnienia z innych znaków drogowych, ograniczeń lokalnych ani wymagań bezpieczeństwa. Dla towarów wybuchowych kod taki jak B1000C wiąże ograniczenie kategorii B z progiem 1000 kg netto materiału wybuchowego; przy dokładnie 1000 kg próg „powyżej 1000 kg” nie jest przekroczony, ale nadal obowiązują ograniczenia dla kategorii C, D i E. Odczytaj cały kod, a nie tylko pierwszą literę.
 
 ## 3. Różne kody w jednej jednostce transportowej
 Jeśli jednostka przewozi towary z różnymi kodami tunelowymi, ustal kod dla całego ładunku zgodnie z ADR 8.6.3.2. Nie wybieraj kodu na podstawie masy towaru ani wygody. Przed wjazdem sprawdź ograniczenie na oznakowaniu tunelu i zastosuj właściwą regułę dla całej jednostki.
@@ -52,7 +52,9 @@ Po zdarzeniu nie otwieraj przestrzeni ładunkowej i nie próbuj samodzielnie gas
 Ćwiczenia odbywają się na mapie i fikcyjnych kartach, nie podczas rzeczywistego przewozu.
 
 ## Co musisz zapamiętać
-- Kod tunelowy odczytuj z kolumny 15 tabeli A.
+- Jeżeli jednostka transportowa przewozi towary w LQ i wymaga oznakowania pojazdu z ADR 3.4.13 (z uwzględnieniem 3.4.14), sprawdź też szczególne ograniczenie z ADR 8.6.3.3 i 8.6.4 — w tej sytuacji może obowiązywać zakaz wjazdu do tunelu kategorii E. Nie zakładaj, że samo LQ zawsze znosi ograniczenia.
+
+Kod tunelowy odczytuj z kolumny 15 tabeli A.
 - Sprawdź kategorię tunelu na oznakowaniu.
 - D/E ma inne zastosowanie dla cystern i sztuk przesyłek.
 - Przy różnych kodach ustal kod dla całej jednostki zgodnie z ADR.
