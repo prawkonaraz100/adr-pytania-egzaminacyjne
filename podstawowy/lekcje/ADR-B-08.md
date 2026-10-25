@@ -15,9 +15,17 @@ Liczba i pojemność gaśnic zależą od wymagań ADR dla pojazdu, jego dopuszcz
 
 Gaśnice muszą być sprawne, mieć wymagane oznaczenia i terminy przeglądu, być prawidłowo zamocowane oraz łatwo dostępne. Gaśnica przeterminowana, uszkodzona, zasłonięta ładunkiem lub leżąca luzem może nie spełniać wymagań. Usuń niezgodność przed wyjazdem.
 
+
+### Minimalne gaśnice — sprawdź DMC i warunki przewozu
+Nie stosuj jednego zestawu gaśnic do wszystkich pojazdów. W pełnym reżimie ADR 8.1.4.1 minimalna liczba i łączna pojemność gaśnic zależą od dopuszczalnej masy całkowitej jednostki transportowej: do 3,5 t włącznie — co najmniej dwie gaśnice o łącznej pojemności co najmniej 4 kg; powyżej 3,5 t do 7,5 t włącznie — co najmniej dwie gaśnice o łącznej pojemności co najmniej 8 kg; powyżej 7,5 t — co najmniej dwie gaśnice o łącznej pojemności co najmniej 12 kg, z uwzględnieniem wymagań co do minimalnej pojemności gaśnicy dla silnika/kabiny. Sprawdź aktualny tekst tabeli 8.1.4.1 i rodzaj gaśnic; powyższe progi nie zastępują kontroli wszystkich szczegółów.
+
+Przy przewozie korzystającym z wyłączenia 1.1.3.6 stosuje się odrębne minimum z 8.1.4.2 — co najmniej jedną przenośną gaśnicę o minimalnej pojemności właściwej dla tego przepisu. Nie wnioskuj, że wyłączenie 1.1.3.6 oznacza brak gaśnicy. Gaśnice muszą mieć wymagane oznaczenia kontroli, być w terminie, sprawne, odpowiednio zamocowane i łatwo dostępne (8.1.4.4–8.1.4.5).
 ## 2. Wyposażenie osobiste załogi
 Sprawdź osobno wyposażenie wymagane dla pojazdu i dla każdego członka załogi. Kamizelka ostrzegawcza, latarka, rękawice ochronne i ochrona oczu mają różne funkcje i nie zastępują się wzajemnie. Jeżeli wymóg dotyczy każdego członka załogi, jedna kamizelka dla dwóch osób nie wystarczy. Zwykłe rękawice nie muszą chronić przed konkretnym towarem; nie dotykaj nieznanej substancji nawet wtedy, gdy masz rękawice.
 
+
+### Wyposażenie według zagrożenia
+Wyposażenie ogólne z ADR 8.1.5.2 obejmuje m.in. kliny pod koła w wymaganej liczbie, odpowiednie ostrzegawcze elementy dla każdego członka załogi, ochronę rąk i oczu oraz inne elementy wskazane w wykazie. Jedna kamizelka lub para rękawic nie jest automatycznie wyposażeniem dla całej załogi. Wyposażenie dodatkowe zależy od nalepek i rodzaju towaru: dla określonych przewozów z nalepką 2.3 lub 6.1 mogą być wymagane maski ucieczkowe dla członków załogi; dla niektórych klas wymagane są również elementy do ograniczania rozlewu, takie jak łopata, osłona odpływu lub pojemnik. Wyjątki zależą od nalepki i konkretnego przepisu, dlatego sprawdź ADR 8.1.5.3 oraz przypisy, zamiast zakładać, że cały zestaw jest zawsze taki sam. Nie używaj wyposażenia do działań, które narażałyby cię na kontakt z nieznaną substancją.
 ## 3. Pojazdy wymagające dodatkowego dopuszczenia
 Nie każdy pojazd przewożący towary niebezpieczne wymaga takiego samego świadectwa. Sprawdź, czy rodzaj pojazdu i przewozu należy do kategorii objętych wymaganiem dodatkowego świadectwa dopuszczenia ADR. Nie wnioskuj wyłącznie z wyglądu pojazdu ani z tego, że wcześniej przewoził towary niebezpieczne. Przed wyjazdem sprawdź dokumenty pojazdu, ich ważność i zgodność z planowanym przewozem.
 

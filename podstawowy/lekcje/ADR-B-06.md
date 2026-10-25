@@ -16,6 +16,11 @@ Na sztuce przesyłki mogą występować wymagane znaki i nalepki wskazujące m.i
 ## 2. Pomarańczowa tablica na pojeździe
 Tablice pomarańczowe stosuje się w przypadkach określonych ADR. W odpowiednich konfiguracjach mogą zawierać numer rozpoznawczy zagrożenia u góry i numer UN u dołu. Nie myl tych numerów: numer UN wskazuje pozycję towaru, a numer zagrożenia opisuje rodzaj zagrożenia według systemu ADR. Nie każdy przewóz wykorzystuje tę samą konfigurację tablic; sprawdź wymagania dla danego pojazdu i ładunku.
 
+
+### Odczytywanie numeru zagrożenia
+Na numerowanej tablicy pomarańczowej numer rozpoznawczy zagrożenia znajduje się u góry, a numer UN — na dole. W dolnym polu wpisuje się czterocyfrowy numer UN bez poprzedzających go liter „UN”; litery te są wymagane w standardowym opisie towaru w dokumencie przewozowym, ale nie w dolnym polu tablicy. Standardowa tablica ma wymiary określone w ADR 5.3.2.2.1; wyjątki i tolerancje stosuje się tylko w warunkach wskazanych przepisem.
+
+Pierwsza cyfra numeru rozpoznawczego zagrożenia wskazuje ogólny rodzaj zagrożenia: 2 — wydzielanie gazu, 3 — palność cieczy/par/gazów lub zdolność do samonagrzewania cieczy, 4 — palność materiałów stałych lub zdolność do samonagrzewania materiałów stałych, 5 — działanie utleniające, 6 — toksyczność lub ryzyko zakażenia, 7 — promieniotwórczość, 8 — działanie żrące, 9 — ryzyko gwałtownej reakcji samorzutnej. Powtórzenie cyfry zwykle wskazuje nasilenie danego zagrożenia. Litera X przed numerem ostrzega, że substancja reaguje niebezpiecznie z wodą; w takim przypadku wody nie używa się bez szczególnych wskazań specjalistycznych. Numer 33 wskazuje silnie palną ciecz, a 80 — materiał żrący; pełny kod trzeba odczytać w kontekście ADR.
 ## 3. Nalepka na przesyłce a nalepka dużego formatu
 Nalepki na sztukach przesyłek i nalepki dużego formatu na kontenerze, pojeździe lub jednostce transportowej mają różne zastosowanie. Muszą być właściwe, czytelne i umieszczone zgodnie z wymaganiami. Nie zastępuj nalepki nazwą handlową ani przypadkowym znakiem. Gdy nalepka jest nieczytelna lub oznakowanie nie pasuje do dokumentów, wyjaśnij niezgodność i popraw oznakowanie przed wyjazdem.
 
