@@ -7,7 +7,7 @@
 - [Wariant 003 — arkusz pytań](wariant-003.json)
 - [Wariant 003 — klucz i wyjaśnienia](klucz-003.json)
 
-**Wyłącznie trening wewnętrzny.** Bank źródłowy ma 579 pytań `needs_review` i 0 `verified`. To nie jest oficjalny arkusz. Bramka verified-only pozostaje bez zmian.
+**Wyłącznie trening wewnętrzny.** Bank źródłowy ma 585 pytań `needs_review` i 0 `verified`. To nie jest oficjalny arkusz. Bramka verified-only pozostaje bez zmian.
 
 ## Generowanie kolejnego wariantu
 
