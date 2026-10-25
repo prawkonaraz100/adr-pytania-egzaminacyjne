@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Samo posiadanie wyposażenia nie wystarcza. Sprzęt musi być właściwy dla przewozu, sprawny i dostępny, a pojazd może wymagać świadectwa dopuszczenia pojazdu — dokumentu potwierdzającego, że dany typ pojazdu spełnia specjalne wymagania ADR, gdy mają one zastosowanie ([słowniczek](../SLOWNICZEK.md#swiadectwo-dopuszczenia-pojazdu)). Przed wyjazdem sprawdź wymagania konkretnego przewozu, a nie tylko to, czy w kabinie znajduje się lista wyposażenia.
+Samo posiadanie wyposażenia nie wystarcza. Sprzęt musi być właściwy dla przewozu, sprawny i dostępny, a pojazd może wymagać świadectwa dopuszczenia pojazdu — dokumentu potwierdzającego, że dany typ pojazdu spełnia specjalne wymagania ADR ([słowniczek](../SLOWNICZEK.md#adr)), gdy mają one zastosowanie ([słowniczek](../SLOWNICZEK.md#swiadectwo-dopuszczenia-pojazdu)). Przed wyjazdem sprawdź wymagania konkretnego przewozu, a nie tylko to, czy w kabinie znajduje się lista wyposażenia.
 
 ## Czego się nauczysz
 - sprawdzać wymagane gaśnice z uwzględnieniem pojazdu i przewozu;
