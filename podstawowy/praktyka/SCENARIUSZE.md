@@ -1,6 +1,6 @@
-# ADR podstawowy — scenariusze praktyczne dla instruktora (szkic)
+# ADR podstawowy — scenariusze praktyczne dla instruktora
 
-**Status: projekt materiału, NIE zaliczenie szkolenia.** Data 22.10.2026. Program odwołuje się do ćwiczeń praktycznych wymaganych w załączniku nr 1 do rozporządzenia o kursach ADR (Dz.U. 2021 poz. 2150) i do instrukcji pisemnych ADR 2025, 5.4.3.4. Szczegóły należy zatwierdzić z osobą uprawnioną do prowadzenia zajęć.
+**Status: materiał szkoleniowy do odbioru instruktorskiego, nie zaliczenie szkolenia.** Program odwołuje się do ćwiczeń praktycznych wymaganych w załączniku nr 1 do rozporządzenia o kursach ADR (Dz.U. 2021 poz. 2150) i do instrukcji pisemnych ADR 2025, 5.4.3.4. Szczegóły należy zatwierdzić z osobą uprawnioną do prowadzenia zajęć.
 
 ## Zakres i zasada bezpieczeństwa
 
@@ -292,3 +292,26 @@ Każdy scenariusz zawiera sytuację, kroki kierowcy, błędy z wyjaśnieniem, po
 | `SC-ADR-B-13-03` | ADR-B-13 | Instrukcje pisemne w nieznanym języku | ADR-B-0037, ADR-B-0038, ADR-B-0039, ADR-B-0577, ADR-B-0578, ADR-B-0579 |
 
 Każdy scenariusz zawiera sytuację, kroki kierowcy, błędy z wyjaśnieniem, podstawę ADR, pytania, kryteria oceny i granice bezpieczeństwa. Ćwiczenia są symulacjami, nie potwierdzają odbycia zajęć praktycznych.
+
+
+## Aktualny indeks 39 scenariuszy — etap 4x6
+
+W każdym dziale są dokładnie trzy scenariusze. Pełny opis, kroki, pytania, kryteria i granice bezpieczeństwa znajdują się w [scenariusze-13-dzialow.json](scenariusze-13-dzialow.json). Instruktor korzysta z odpowiedniego pliku `podstawowy/instruktor/ADR-B-XX.md`; kursant przechodzi scenariusze po lekcji i pytaniach działu.
+
+| Dział | Scenariusze |
+|---|---|
+| ADR-B-01 | `SC-ADR-B-01`, `SC-ADR-B-01-02`, `SC-ADR-B-01-03` |
+| ADR-B-02 | `SC-ADR-B-02`, `SC-ADR-B-02-02`, `SC-ADR-B-02-03` |
+| ADR-B-03 | `SC-ADR-B-03`, `SC-ADR-B-03-02`, `SC-ADR-B-03-03` |
+| ADR-B-04 | `SC-ADR-B-04`, `SC-ADR-B-04-02`, `SC-ADR-B-04-03` |
+| ADR-B-05 | `SC-ADR-B-05`, `SC-ADR-B-05-02`, `SC-ADR-B-05-03` |
+| ADR-B-06 | `SC-ADR-B-06`, `SC-ADR-B-06-02`, `SC-ADR-B-06-03` |
+| ADR-B-07 | `SC-ADR-B-07`, `SC-ADR-B-07-02`, `SC-ADR-B-07-03` |
+| ADR-B-08 | `SC-ADR-B-08`, `SC-ADR-B-08-02`, `SC-ADR-B-08-03` |
+| ADR-B-09 | `SC-ADR-B-09`, `SC-ADR-B-09-02`, `SC-ADR-B-09-03` |
+| ADR-B-10 | `SC-ADR-B-10`, `SC-ADR-B-10-02`, `SC-ADR-B-10-03` |
+| ADR-B-11 | `SC-ADR-B-11`, `SC-ADR-B-11-02`, `SC-ADR-B-11-03` |
+| ADR-B-12 | `SC-ADR-B-12`, `SC-ADR-B-12-02`, `SC-ADR-B-12-03` |
+| ADR-B-13 | `SC-ADR-B-13`, `SC-ADR-B-13-02`, `SC-ADR-B-13-03` |
+
+**Kolejność nauki:** lekcja → pytania działu i explanation → trzy scenariusze → warianty egzaminu próbnego 001–005 z odpowiadającymi im kluczami. Scenariusze i egzaminy są treningowe; nie zastępują zajęć praktycznych ani niezależnej kontroli prawnej.
