@@ -65,4 +65,4 @@ Lista priorytetowa obejmuje ADR-B-0073, 0074, 0253, 0283, 0420, 0422, 0484 oraz 
 
 ## 5. Ograniczenia
 
-Nie oznaczono żadnego pytania jako `verified`; nie twierdzimy, że automatyczne testy stanowią potwierdzenie prawne. Arkusze pozostają materiałem treningowym, `publication_authorized: false`. Kontrole danych i metryk wykonano na treści pobranej z GitHuba; ostateczny status testów jednostkowych i Quality Gate potwierdzi CI w PR.
+Nie oznaczono żadnego pytania jako `verified`; nie twierdzimy, że automatyczne testy stanowią potwierdzenie prawne. Arkusze pozostają materiałem treningowym, `publication_authorized: false`. Preflight metryk i spójności arkuszy wykonano na aktualnej treści GitHuba. Quality Gate CI zakończył się PASS w runie [#40242501757](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/40242501757), obejmującym testy jednostkowe, synchronizację snapshotów audytu, walidację wariantów/kluczy, limity długości odpowiedzi oraz explanation. Testy automatyczne nie stanowią recenzji prawnej.
