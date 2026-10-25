@@ -19,11 +19,11 @@
         "stem": "Kontener z towarem ADR wymaga nalepek dużego formatu. Gdzie co do zasady należy je umieścić?",
         "options": {
           "A": "Umieścić je na obu bokach i obu końcach kontenera",
-          "B": "Wyłącznie na drzwiach, jeśli numer UN jest czytelny i dostępny dla służb",
-          "C": "Tylko na dachu, aby oznakowanie było widoczne z góry podczas postoju"
+          "B": "Umieścić nalepki na drzwiach kontenera oraz przy zamkach, by kontrolujący mógł je odczytać",
+          "C": "Umieścić je na dachu i nad drzwiczkami"
         },
         "correct_option": "A",
-        "explanation": "Wymagane nalepki dużego formatu na kontenerze umieszcza się w miejscach przewidzianych przez ADR, co do zasady na obu bokach i na obu końcach. Jedna nalepka na drzwiach albo oznakowanie wyłącznie na dachu nie zapewnia wymaganego oznaczenia z różnych stron. Przed wyjazdem należy sprawdzić kompletność i rozmieszczenie nalepek. Podstawa: ADR 5.3.1.1.4.",
+        "explanation": "Wymagane nalepki dużego formatu na kontenerze umieszcza się w miejscach przewidzianych przez ADR, co do zasady na obu bokach i na obu końcach. Jedna nalepka na drzwiach albo oznakowanie wyłącznie na dachu nie zapewnia wymaganego oznaczenia z różnych stron. Drzwi i dach nie zastępują oznaczeń umieszczonych na wymaganych ścianach kontenera. Podstawa: ADR 5.3.1.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -59,12 +59,12 @@
       "exact_record_snapshot": {
         "stem": "Nalepka dużego formatu na kontenerze została uszkodzona tak, że nie można rozpoznać jej symbolu. Co należy zrobić przed dalszym przewozem?",
         "options": {
-          "A": "Zostawić ją, jeśli numer UN jest podany w dokumentach i kierowca zna towar",
+          "A": "Zostawić uszkodzony znak, jeśli numer UN znajduje się w dokumentach przewozowych i można go odczytać",
           "B": "Wymienić ją na czytelną nalepkę zgodną z ADR",
-          "C": "Dopisać flamastrem nazwę handlową, bez odtwarzania wzoru nalepki"
+          "C": "Dopisać nazwę handlową na uszkodzonej nalepce"
         },
         "correct_option": "B",
-        "explanation": "Nalepka dużego formatu musi pozostawać czytelna i pozwalać rozpoznać zagrożenie. Sam numer UN w dokumentach ani znajomość towaru przez kierowcę nie zastępują oznakowania zewnętrznego. Dopisanie nazwy handlowej nie odtwarza wymaganego wzoru, więc przed dalszym przewozem trzeba usunąć niezgodność. Podstawa: ADR 5.3.1.7.",
+        "explanation": "Nalepka dużego formatu musi pozostawać czytelna i pozwalać rozpoznać zagrożenie. Sam numer UN w dokumentach ani znajomość towaru przez kierowcę nie zastępują oznakowania zewnętrznego. Dopisanie nazwy handlowej nie odtwarza wymaganego wzoru, więc przed dalszym przewozem trzeba usunąć niezgodność. Dokument z numerem UN i odręczna nazwa nie naprawią uszkodzonej nalepki. Podstawa: ADR 5.3.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -100,12 +100,12 @@
       "exact_record_snapshot": {
         "stem": "Kontener został rozładowany, ale nie został oczyszczony z niebezpiecznych pozostałości. Czy można usunąć jego nalepki dużego formatu?",
         "options": {
-          "A": "Tak, jeżeli odbiorca podpisał potwierdzenie rozładunku i odebrał towar",
-          "B": "Tak, jeżeli kierowca uzna, że pozostałości są zbyt małe, by stwarzać zagrożenie",
+          "A": "Po podpisaniu odbioru",
+          "B": "Po ocenie kierowcy, że pozostałe resztki nie zagrażają otoczeniu",
           "C": "Nie; zachować oznakowanie do spełnienia warunków ADR"
         },
         "correct_option": "C",
-        "explanation": "Sam rozładunek nie zawsze usuwa zagrożenie, ponieważ w kontenerze mogą pozostać niebezpieczne resztki. Podpis odbiorcy ani własna ocena kierowcy nie zastępują warunków ADR dotyczących usunięcia oznakowania. Należy pozostawić oznaczenia, dopóki wymagane warunki nie zostaną spełnione. Podstawa: ADR 5.3.1.1.5.",
+        "explanation": "Sam rozładunek nie zawsze usuwa zagrożenie, ponieważ w kontenerze mogą pozostać niebezpieczne resztki. Podpis odbiorcy ani własna ocena kierowcy nie zastępują warunków ADR dotyczących usunięcia oznakowania. Podpis odbioru ani ocena kierowcy nie stanowią warunku usunięcia oznakowania. Podstawa: ADR 5.3.1.1.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -141,12 +141,12 @@
       "exact_record_snapshot": {
         "stem": "Kontener przewozi towar, dla którego wymagane są nalepki dużego formatu. Na jednym boku umieszczono nalepkę innej klasy, niezgodną z ładunkiem. Co należy zrobić?",
         "options": {
-          "A": "Pozostawić ją, ponieważ dodatkowe nalepki nie wpływają na rozpoznanie zagrożenia",
-          "B": "Zakryć ją dowolną kartką, nie sprawdzając pozostałych oznaczeń",
+          "A": "Pozostawić dodatkową nalepkę jako informację o poprzednim ładunku",
+          "B": "Zakryć błędną kartką",
           "C": "Usunąć błędną nalepkę i sprawdzić całe oznakowanie"
         },
         "correct_option": "C",
-        "explanation": "Oznakowanie nie może wprowadzać w błąd co do zagrożeń przewożonego ładunku. Nalepka innej klasy może spowodować, że ratownicy lub inni uczestnicy błędnie ocenią sytuację. Trzeba usunąć nieprawidłowe oznaczenie i zweryfikować komplet nalepek wymaganych dla danego przewozu; przypadkowe zakrycie kartką nie jest prawidłowym rozwiązaniem. Podstawa: ADR 5.3.1.1 i 5.3.1.7.",
+        "explanation": "Oznakowanie nie może wprowadzać w błąd co do zagrożeń przewożonego ładunku. Nalepka innej klasy może spowodować, że ratownicy lub inni uczestnicy błędnie ocenią sytuację. Trzeba usunąć nieprawidłowe oznaczenie i zweryfikować komplet nalepek wymaganych dla danego przewozu; przypadkowe zakrycie kartką nie jest prawidłowym rozwiązaniem. Pozostawienie starej nalepki i przypadkowe zakrycie błędnej może mylić służby. Podstawa: ADR 5.3.1.1 i 5.3.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
