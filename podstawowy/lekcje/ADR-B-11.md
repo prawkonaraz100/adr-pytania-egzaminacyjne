@@ -14,7 +14,7 @@ Nie każdy tunel jest dostępny dla każdego przewozu towarów niebezpiecznych. 
 - reagować bezpiecznie na zdarzenie w tunelu.
 
 ## 1. Kategorie tuneli A–E
-Kategorie tuneli określają ograniczenia dla przewozu towarów niebezpiecznych. Kategorię wskazuje oznakowanie tunelu. Kategoria A nie wprowadza ograniczeń tunelowych ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)) wynikających z systemu A–E, a E jest najbardziej restrykcyjna. Ograniczenia należy porównać z kodem tunelowym właściwym dla przewożonego towaru i sposobu przewozu. Nie wybieraj trasy wyłącznie dlatego, że tunel jest krótszy lub wygodniejszy.
+Kategorie tuneli A–E (poziomy ograniczeń dla przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#kategoria-tunelu-a-e)) wskazują, jakie przewozy mogą przez nie przejeżdżać. Kierowca porównuje kategorię z kodem tunelowym ładunku i nie wybiera tunelu objętego zakazem. Kategoria A nie wprowadza ograniczeń tunelowych ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)) wynikających z systemu A–E, a E jest najbardziej restrykcyjna. Ograniczenia należy porównać z kodem tunelowym właściwym dla przewożonego towaru i sposobu przewozu. Nie wybieraj trasy wyłącznie dlatego, że tunel jest krótszy lub wygodniejszy.
 
 
 ### Co oznaczają kategorie i kod „(-)”
