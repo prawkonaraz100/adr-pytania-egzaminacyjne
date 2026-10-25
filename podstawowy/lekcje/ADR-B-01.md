@@ -198,6 +198,28 @@ Zleceniodawca mówi: „To tylko kilka sztuk, więc ADR nie obowiązuje”. Nie 
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
 
+## Uzupełnienie odbioru 4x1 — przypadki z banku 0570–0609
+
+Ta sekcja łączy przykłady z aktualnymi pytaniami; nie zastępuje sprawdzenia konkretnego wpisu w ADR ani decyzji osoby odpowiedzialnej za klasyfikację.
+
+### Obliczanie wyłączenia ilościowego — ADR 1.1.3.6
+
+Nie wystarczy zważyć całego ładunku i porównać go z jednym limitem. Najpierw odczytaj kategorię transportową każdego towaru z właściwego wpisu, ustal ilość w jednostce właściwej dla tego towaru, a następnie zastosuj zasady i współczynniki z ADR 1.1.3.6.4. W przykładzie szkoleniowym 100 jednostek kategorii 2 i 600 kategorii 3 daje wynik 100 × 3 + 600 = 900; 250 jednostek kategorii 2 i 300 kategorii 3 daje 250 × 3 + 300 = 1050, czyli przekracza próg 1000. To ćwiczenia rachunkowe na fikcyjnych danych — rzeczywisty przewóz wymaga sprawdzenia kategorii, jednostek i wszystkich warunków wyłączenia.
+
+### EQ — ilości wyłączone
+
+EQ (*Excepted Quantities*, ilości wyłączone) nie oznaczają „dowolnie małego ładunku bez warunków”. Sprawdź, czy konkretny numer UN i kod EQ pozwalają zastosować ten mechanizm, czy spełniono wymagania dotyczące opakowań i oznakowania oraz czy zachowano limit liczby sztuk przesyłek. Gdy dokument przewozowy wymaga wskazania liczby sztuk, nie pomijaj jej: uzupełnij dane przed wyjazdem, zamiast liczyć, że kontrola zaakceptuje sam opis EQ. Podstawa do sprawdzenia: ADR 3.5.1–3.5.6.
+
+### LQ — masa opakowania i oznakowanie
+
+LQ (*Limited Quantities*, ilości ograniczone) także podlega warunkom. Co do zasady limit masy brutto opakowania zewnętrznego wynosi 30 kg, z odrębnymi zasadami dla określonych tacek z folią; sprawdź rodzaj opakowania i wszystkie warunki ADR 3.4.2. Sam znak LQ nie legalizuje opakowania ważącego 32 kg, jeśli przekracza ono limit mający zastosowanie. Jeśli przepisy wymagają znaku LQ, pozostaw go prawidłowy i czytelny — nie usuwaj go dla wygody ani nie zastępuj wpisem na liście dostawy. Podstawa do sprawdzenia: ADR 3.4.2 i 3.4.7.1.
+
+### Przewóz prywatny, wymagane zaświadczenie i zakaz przewozu
+
+Prywatny cel przewozu nie daje automatycznego zwolnienia. Trzeba sprawdzić warunki ADR 1.1.3.1(a), w tym charakter użycia, sposób zapakowania i zabezpieczenie przed wyciekiem w normalnych warunkach. Gdy przewóz wymaga zaświadczenia kierowcy na podstawie działu 8.2, zwykłe prawo jazdy ani telefoniczne zapewnienie pracodawcy go nie zastępują. Przed załadunkiem sprawdź też konkretny numer UN i tabelę A: jeśli przewóz danej substancji w opisanej postaci jest zabroniony, poprawne dokumenty ani wyposażenie nie uchylają zakazu. Podstawa do sprawdzenia: ADR 1.1.3.1(a), 2.1, 3.2 tabela A i 8.2.1.1.
+
+**Powiązane pytania robocze:** ADR-B-0570–0573, ADR-B-0595 oraz ADR-B-0605–0609. Wszystkie pozostają `needs_review`; wyjaśnienia i wskazane punkty nie są jeszcze niezależnie zatwierdzone prawnie.
+
 ## Co musisz zapamiętać
 
 - Najpierw ustal towar i warunki przewozu; nie zakładaj zwolnienia na podstawie samej małej ilości.

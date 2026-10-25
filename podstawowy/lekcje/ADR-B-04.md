@@ -155,6 +155,16 @@ To przykłady z pytań roboczych `needs_review`, a nie niezależna recenzja praw
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
 
+## Uzupełnienie odbioru 4x1 — nadzór i postój (ADR-B-0580–0581)
+
+Zanim zaplanujesz przerwę, sprawdź konkretny wpis towaru i przepisy szczególne, w tym kolumnę 19 tabeli A: obowiązek z ADR 8.4 nie dotyczy automatycznie każdego ładunku ADR. Jeśli ma zastosowanie, nie wybieraj postoju wyłącznie dlatego, że jest wygodny. Stosuj wymagany nadzór albo dopuszczalne miejsce postoju i kolejność wskazaną w ADR 8.4.1; jeżeli warunków nie da się spełnić, skontaktuj się z dyspozytorem i ustal zgodne rozwiązanie przed pozostawieniem pojazdu. Telefoniczna zgoda firmy nie znosi wymagań przepisu.
+
+**Scenariusz 1 — planowana przerwa:** kierowca widzi zwykły parking przy trasie. Najpierw sprawdza, czy dla przewożonego towaru obowiązuje 8.4, a następnie wybiera miejsce zgodne z przepisem. Uzasadnienie: nie każdy parking spełnia wymagania dla przewozu objętego nadzorem.
+
+**Scenariusz 2 — dyspozytor naciska na postój:** dyspozytor proponuje zostawienie pojazdu bez nadzoru na zwykłym parkingu, choć obowiązuje 8.4. Kierowca nie traktuje polecenia jako wyjątku; sprawdza dopuszczalne miejsca, zgłasza brak zgodnej opcji i ustala bezpieczne rozwiązanie. Uzasadnienie: obowiązki ADR wynikają z warunków przewozu, a nie z wygody planowania.
+
+**Powiązane pytania robocze:** ADR-B-0580–0581, ADR-B-0310 i ADR-B-0347. Podstawa do kontroli: ADR 8.4, 8.5 i właściwe przepisy szczególne. Pytania pozostają `needs_review`.
+
 ## Co musisz zapamiętać
 
 - Zakaz palenia, zasada dotycząca silnika i zakaz otwierania przesyłek dotyczą różnych czynności — sprawdzaj właściwy przepis.

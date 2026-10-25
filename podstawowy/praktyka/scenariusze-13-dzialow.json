@@ -8,21 +8,31 @@
     {
       "id": "SC-ADR-B-01",
       "module_id": "ADR-B-01",
-      "title": "Kontrola drogowa: czy przewóz korzysta ze zwolnienia?",
-      "situation": "Przed wyjazdem kierowca słyszy, że ładunku jest mało, więc ADR nie obowiązuje.",
+      "title": "Kontrola drogowa: zwolnienia, ilości i dopuszczalność przewozu",
+      "situation": "Przed wyjazdem nadawca mówi, że ładunku jest mało i oznakowanie LQ/EQ wystarczy. W dokumentach brakuje danych, a jedna przesyłka waży 32 kg brutto.",
       "steps": [
-        "Poproś o numer UN, nazwę przewozową, opakowanie i ilość.",
-        "Porównaj dane z właściwym wpisem i ustal, który wyjątek może mieć zastosowanie.",
-        "Sprawdź warunki wyjątku oraz obowiązki, które nadal obowiązują.",
-        "Jeśli brakuje danych, zgłoś rozbieżność i wyjaśnij ją przed rozpoczęciem przewozu."
+        "Ustal numer UN, nazwę przewozową, kategorię transportową, ilość, rodzaj opakowania i cel przewozu; nie zakładaj zwolnienia na podstawie samej małej ilości lub prywatnego celu.",
+        "Jeśli sprawdzasz 1.1.3.6, odczytaj kategorię każdego towaru i zastosuj właściwe współczynniki oraz jednostki; nie licz wyłącznie masy całkowitej.",
+        "Dla EQ sprawdź dopuszczenie towaru, kod, opakowania, liczbę sztuk i wymagane wpisy; dla LQ sprawdź limit brutto i wymagane oznakowanie.",
+        "Sprawdź, czy przewóz jest dopuszczony i czy kierowca ma wymagane zaświadczenie; w razie braku danych lub zakazu wstrzymaj wyjazd i wyjaśnij problem z odpowiedzialnym uczestnikiem."
       ],
       "question_ids": [
         "ADR-B-0002",
         "ADR-B-0259",
-        "ADR-B-0526"
+        "ADR-B-0526",
+        "ADR-B-0570",
+        "ADR-B-0571",
+        "ADR-B-0572",
+        "ADR-B-0573",
+        "ADR-B-0595",
+        "ADR-B-0605",
+        "ADR-B-0606",
+        "ADR-B-0607",
+        "ADR-B-0608",
+        "ADR-B-0609"
       ],
       "assessment_criteria": [
-        "Kursant odróżnia zwolnienia i wskazuje dane potrzebne do decyzji."
+        "Kursant odróżnia 1.1.3.1, 1.1.3.6, EQ i LQ, potrafi wykonać proste obliczenie i wskazuje, że dokumenty nie uchylają zakazu przewozu."
       ],
       "safety_boundary": "Symulacja na fikcyjnych dokumentach; bez prawdziwych towarów niebezpiecznych."
     },
@@ -69,20 +79,24 @@
     {
       "id": "SC-ADR-B-04",
       "module_id": "ADR-B-04",
-      "title": "Załadunek: e-papieros i pracujący silnik",
-      "situation": "Podczas rozładunku pracownik chce użyć e-papierosa, a operator prosi o pozostawienie silnika włączonego dla wygody.",
+      "title": "Załadunek i planowanie postoju pod nadzorem",
+      "situation": "Przy załadunku operator chce użyć e-papierosa i zostawić silnik włączony. Później dyspozytor proponuje zwykły parking, choć dla przewożonego towaru mogą obowiązywać wymagania nadzoru.",
       "steps": [
-        "Rozdziel zakaz palenia i podobnych urządzeń od zasady dotyczącej silnika.",
-        "Ustal, czy silnik rzeczywiście napędza urządzenie przeładunkowe i czy zachodzi przepisowy wyjątek.",
-        "Nie zakładaj, że e-papieros jest wyłączony z zakazu, bo nie ma tradycyjnego płomienia.",
-        "Wyjaśnij niezgodność z osobą prowadzącą czynności przed kontynuacją."
+        "Rozdziel zakaz palenia i podobnych urządzeń od zasady dotyczącej silnika; sprawdź właściwy przepis dla każdej czynności.",
+        "Nie otwieraj samowolnie opakowań; zgłoś niezgodność przed kontynuowaniem czynności.",
+        "Przed przerwą sprawdź tabelę A i przepisy szczególne, aby ustalić, czy stosuje się ADR 8.4 i 8.5.",
+        "Jeżeli obowiązuje nadzór, wybierz miejsce zgodne z wymaganiami i ich kolejnością; nie traktuj polecenia dyspozytora jako zwolnienia."
       ],
       "question_ids": [
         "ADR-B-0010",
-        "ADR-B-0012"
+        "ADR-B-0012",
+        "ADR-B-0580",
+        "ADR-B-0581",
+        "ADR-B-0310",
+        "ADR-B-0347"
       ],
       "assessment_criteria": [
-        "Kursant rozróżnia różne przepisy i wskazuje właściwy punkt ADR."
+        "Kursant rozdziela zakazy załadunkowe od wymagań postoju oraz uzasadnia wybór miejsca właściwym punktem ADR."
       ],
       "safety_boundary": "Scenariusz rozmowy; bez rzeczywistego załadunku towarów niebezpiecznych."
     },
