@@ -309,12 +309,12 @@
       "exact_record_snapshot": {
         "stem": "Na przesyłce, dla której ADR wymaga numeru UN, naniesiono same cyfry „1203” bez poprzedzających liter. Co jest prawidłowe?",
         "options": {
-          "A": "Na opakowaniu wystarczy podać cyfry 1203 bez liter UN przed nimi",
-          "B": "Wystarczy numer UN w dokumencie, choć opakowanie wymaga oznakowania",
+          "A": "Wystarczą same cyfry 1203 na paczce",
+          "B": "Wystarczy numer UN w dokumencie przewozowym, bo numer na paczce nie wymaga poprzedzających liter",
           "C": "Poprawić znakowanie, dodając litery „UN” przed numerem"
         },
         "correct_option": "C",
-        "explanation": "Numer UN służy do identyfikacji towaru i na opakowaniu, gdy wymagane jest takie oznakowanie, powinien być poprzedzony literami „UN”. Same cyfry „1203” nie są wówczas pełnym wymaganym zapisem. Dokument przewozowy nie zastępuje oznakowania, które musi znajdować się na sztuce przesyłki. Podstawa: ADR 5.2.1.1.",
+        "explanation": "Numer UN służy do identyfikacji towaru i na opakowaniu, gdy wymagane jest takie oznakowanie, powinien być poprzedzony literami „UN”. Same cyfry „1203” nie są wówczas pełnym wymaganym zapisem. Dokument przewozowy nie zastępuje oznakowania, które musi znajdować się na sztuce przesyłki. Dokument i same cyfry na opakowaniu nie zastępują pełnego oznaczenia. Podstawa: ADR 5.2.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -351,11 +351,11 @@
         "stem": "Paczka jest oznaczona główną nalepką ADR, ale według odpowiedniej pozycji w tabeli A wymaga też nalepki zagrożenia dodatkowego. Jak ją przygotować?",
         "options": {
           "A": "Umieścić nalepki wymagane przez ADR, także dla zagrożenia dodatkowego",
-          "B": "Pominąć nalepkę dodatkową, gdy numer UN znajduje się już w dokumencie przewozowym",
-          "C": "Zastąpić wymagane nalepki opisem zagrożenia w języku polskim na opakowaniu"
+          "B": "Pominąć dodatkową nalepkę, skoro numer UN i oba rodzaje zagrożeń podano w dokumencie przewozowym",
+          "C": "Wydrukować opis zagrożenia na kartonie"
         },
         "correct_option": "A",
-        "explanation": "Niektóre towary stwarzają więcej niż jedno zagrożenie, dlatego na opakowaniu mogą być potrzebne nalepki główna i dodatkowa. Trzeba sprawdzić wymagania właściwej pozycji UN i umieścić wszystkie wymagane nalepki. Sam wpis w dokumencie albo odręczny opis na kartonie nie zastępuje oznaczeń ADR. Podstawa: ADR 3.2 tabela A, kolumna 5 i 5.2.2.1.",
+        "explanation": "Niektóre towary stwarzają więcej niż jedno zagrożenie, dlatego na opakowaniu mogą być potrzebne nalepki główna i dodatkowa. Trzeba sprawdzić wymagania właściwej pozycji UN i umieścić wszystkie wymagane nalepki. Numer w dokumentach oraz opis na kartonie nie zastępują nalepki dodatkowej. Podstawa: ADR 3.2 tabela A, kolumna 5 i 5.2.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -391,12 +391,12 @@
       "exact_record_snapshot": {
         "stem": "Na numerowanej pomarańczowej tablicy ADR dwa oznaczenia są rozdzielone poziomą czarną linią. Co oznacza górne oznaczenie?",
         "options": {
-          "A": "Numer UN identyfikujący konkretny materiał niebezpieczny w przewozie",
+          "A": "Numer UN określający przewożony towar, który według tego poglądu widnieje w górnym polu tablicy",
           "B": "Kod Kemlera, czyli numer rozpoznawczy zagrożenia na górze tablicy",
-          "C": "Numer zaświadczenia ADR potwierdzającego kwalifikacje kierowcy pojazdu"
+          "C": "Numer świadectwa kierowcy ADR"
         },
         "correct_option": "B",
-        "explanation": "Na numerowanej pomarańczowej tablicy górny numer to numer rozpoznawczy zagrożenia, nazywany też kodem Kemlera; opisuje rodzaj zagrożenia stwarzanego przez materiał. Dolny numer UN identyfikuje konkretny towar. Górne oznaczenie nie jest ani numerem UN, ani numerem zaświadczenia kierowcy, więc A i C są błędne. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Na numerowanej pomarańczowej tablicy górny numer to numer rozpoznawczy zagrożenia, nazywany też kodem Kemlera; opisuje rodzaj zagrożenia stwarzanego przez materiał. Dolny numer UN identyfikuje konkretny towar. Numer UN jest w dolnym polu, a numer zaświadczenia nie pojawia się na tablicy. Podstawa: ADR 5.3.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -432,12 +432,12 @@
       "exact_record_snapshot": {
         "stem": "Standardowa pomarańczowa tablica ADR ma 400 × 300 mm. Czy w 5.3.2.2.1 przewidziano też dopuszczalne rozwiązanie dla pojazdu, na którym nie ma miejsca na standardową tablicę?",
         "options": {
-          "A": "Nie, wymiar tablicy zawsze musi wynosić dokładnie 400 × 300 mm",
-          "B": "Tak, dowolny rozmiar tablicy jest dopuszczalny bez żadnych warunków",
+          "A": "Użyć wymiaru 400 × 300 mm mimo braku miejsca",
+          "B": "Zamontować tablicę o rozmiarze wybranym przez firmę, o ile czarny nadruk pozostaje dobrze widoczny",
           "C": "Tak, w określonych warunkach tablica może mieć 300 × 120 mm"
         },
         "correct_option": "C",
-        "explanation": "Standardowa tablica pomarańczowa ADR ma 400 na 300 mm, ale gdy konstrukcja pojazdu nie pozwala na jej zamocowanie, przepis przewiduje określony mniejszy format 300 na 120 mm. Nie oznacza to jednak zgody na dowolne zmniejszanie tablic. Nieprawdą jest również, że ADR wyklucza każdą możliwość odstępstwa od standardowego wymiaru. Podstawa: ADR 5.3.2.2.1.",
+        "explanation": "Standardowa tablica pomarańczowa ADR ma 400 na 300 mm, ale gdy konstrukcja pojazdu nie pozwala na jej zamocowanie, przepis przewiduje określony mniejszy format 300 na 120 mm. Nie oznacza to jednak zgody na dowolne zmniejszanie tablic. Firma nie wybiera rozmiaru tablicy samodzielnie; wyjątek ma ściśle określone wymiary. Podstawa: ADR 5.3.2.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -474,11 +474,11 @@
         "stem": "Na pomarańczowej tablicy ADR występuje dwukrotnie cyfra 3 w numerze rozpoznawczym zagrożenia, np. „33”. Jaką zasadę należy zastosować?",
         "options": {
           "A": "Powtórzona cyfra wskazuje silniejsze dane zagrożenie",
-          "B": "Druga cyfra zawsze wskazuje kategorię tunelu, niezależnie od pierwszej cyfry",
-          "C": "Powtórzenie cyfry oznacza, że dany materiał został wyłączony z wymagań ADR"
+          "B": "Odczytać drugą cyfrę jako kategorię tunelu właściwą dla przewożonego materiału",
+          "C": "Uznać dwie cyfry za znak zwolnienia z ADR"
         },
         "correct_option": "A",
-        "explanation": "Jeśli cyfra w numerze rozpoznawczym zagrożenia jest powtórzona, co do zasady oznacza to nasilenie zagrożenia wskazywanego przez tę cyfrę. Dlatego numer 33 sygnalizuje silną zapalność, a nie kategorię tunelu. Powtórzenie cyfry nie oznacza też zwolnienia z ADR — to informacja ostrzegawcza, którą należy prawidłowo odczytać. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Jeśli cyfra w numerze rozpoznawczym zagrożenia jest powtórzona, co do zasady oznacza to nasilenie zagrożenia wskazywanego przez tę cyfrę. Dlatego numer 33 sygnalizuje silną zapalność, a nie kategorię tunelu. Druga cyfra nie opisuje tunelu ani nie oznacza zwolnienia z przepisów. Podstawa: ADR 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -514,12 +514,12 @@
       "exact_record_snapshot": {
         "stem": "Przed przewozem wymagana tablica ADR na pojeździe jest zabrudzona i jej cyfry stały się nieczytelne. Co trzeba zrobić?",
         "options": {
-          "A": "Pozostawić tablicę, jeśli dokument przewozowy zawiera numer UN",
+          "A": "Zostawić nieczytelną tablicę i posłużyć się czytelnym dokumentem UN przechowywanym w kabinie",
           "B": "Przywrócić czytelność wymaganego oznakowania przed przewozem",
-          "C": "Zakryć cyfry i zastąpić je wyłącznie notatką kierowcy"
+          "C": "Przepisać numer zagrożenia do notatki kierowcy"
         },
         "correct_option": "B",
-        "explanation": "Tablica ADR pomaga służbom szybko rozpoznać zagrożenie i przewożony materiał, dlatego jej oznaczenia muszą być czytelne. Jeśli brud zasłania cyfry, należy przywrócić widoczność oznakowania przed przewozem. Sam dokument przewozowy ani własna notatka kierowcy nie zastępują wymaganej tablicy. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Tablica ADR pomaga służbom szybko rozpoznać zagrożenie i przewożony materiał, dlatego jej oznaczenia muszą być czytelne. Jeśli brud zasłania cyfry, należy przywrócić widoczność oznakowania przed przewozem. Dokument w kabinie i notatka kierowcy nie zastępują widocznej tablicy. Podstawa: ADR 5.3.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -555,12 +555,12 @@
       "exact_record_snapshot": {
         "stem": "Numer rozpoznawczy zagrożenia na tablicy ADR zaczyna się cyfrą 8. Jakie zagrożenie sygnalizuje ta cyfra?",
         "options": {
-          "A": "Radioaktywność, niezależnie od pozostałych cyfr",
-          "B": "Brak szczególnych zagrożeń",
+          "A": "Promieniotwórczość",
+          "B": "Brak zagrożenia przy przewozie",
           "C": "Działanie żrące materiału"
         },
         "correct_option": "C",
-        "explanation": "Cyfra 8 na początku numeru rozpoznawczego zagrożenia oznacza, że materiał stwarza zagrożenie żrące. Dalsze cyfry mogą wskazywać dodatkowe właściwości lub nasilenie zagrożenia, więc numer trzeba odczytać w całości. Promieniotwórczość jest związana z klasą 7, a brak zagrożenia nie wynika z cyfry 8. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Cyfra 8 na początku numeru rozpoznawczego zagrożenia oznacza, że materiał stwarza zagrożenie żrące. Dalsze cyfry mogą wskazywać dodatkowe właściwości lub nasilenie zagrożenia, więc numer trzeba odczytać w całości. Ósemka wskazuje żrące działanie, a nie promieniowanie ani brak ryzyka. Podstawa: ADR 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
