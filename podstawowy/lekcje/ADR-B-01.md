@@ -70,6 +70,7 @@ Tabela A rozdziału 3.2, kolumna 2, zawiera nazwę i opis pozycji UN. Nie zastę
 
 ## Sprawdź się
 
+- Czym różnią się wyłączenie prywatne, LQ, EQ i 1.1.3.6?
 - Jakie dane trzeba znać przed obliczeniem 1.1.3.6?
 - Dlaczego znak LQ nie wystarcza, gdy opakowanie przekracza limit?
 - Co oznacza kod E0?
