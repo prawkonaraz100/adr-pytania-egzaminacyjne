@@ -58,10 +58,11 @@ W dokumencie przewozowym dla odpowiednich odpadów słowo „ODPAD” uzupełnia
 
 ## Sprawdź się
 
+- Jak reagujesz na nieznany wyciek przy kanalizacji?
 - Dlaczego nie wolno rozpoznawać substancji po zapachu?
-- Co oznacza słowo „ODPAD” w dokumencie przewozowym?
+- Co oznacza słowo ODPAD w dokumencie przewozowym?
 - Kiedy trzeba oczyścić przestrzeń ładunkową?
-- Dlaczego nie wolno automatycznie wybierać najłagodniejszej grupy pakowania dla nieznanego odpadu?
+- Dlaczego nie wolno automatycznie wybierać najłagodniejszej grupy pakowania?
 
 Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0007`
