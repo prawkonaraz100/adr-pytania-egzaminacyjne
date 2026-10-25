@@ -161,5 +161,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+Poniższe pomyłki wynikają z typowych nieporozumień widocznych w pytaniach tego działu. Przy każdej odpowiedzi sprawdź warunek, który rozstrzyga sytuację, zamiast zapamiętywać samą literę.
+
+- Traktowanie małej ilości jako automatycznego zwolnienia — trzeba sprawdzić konkretną pozycję, ilość i warunki wyłączenia, nie tylko wielkość ładunku (ADR 1.1.3.1 i 1.1.3.6).
+- Mylenie zaświadczenia ADR z prawem jazdy — dokumenty potwierdzają różne uprawnienia i żaden nie zastępuje drugiego (ADR 8.2.1 oraz przepisy o prawie jazdy).
+- Zakładanie, że szkolenie kierowcy wystarcza każdemu pracownikowi — szkolenie dobiera się do rzeczywistych zadań osoby (ADR 1.3).
+- Uznawanie, że dokumenty pozwalają przewieźć towar zakazany — najpierw trzeba sprawdzić dopuszczalność przewozu w tabeli A (ADR 2.1 i 3.2).
+
+W razie niejasnych pojęć skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).

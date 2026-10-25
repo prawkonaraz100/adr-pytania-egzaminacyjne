@@ -158,5 +158,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+Poniższe pomyłki wynikają z typowych nieporozumień widocznych w pytaniach tego działu. Przy każdej odpowiedzi sprawdź warunek, który rozstrzyga sytuację, zamiast zapamiętywać samą literę.
+
+- Uznawanie, że słowo „ODPAD” zastępuje numer UN lub inne dane dokumentu — to dodatkowa informacja, a nie zamiennik danych ADR (ADR 5.4.1.1.3.1).
+- Automatyczne przypisywanie odpadowi grupy pakowania III, gdy nie znamy składu — klasyfikację opiera się na dostępnych danych i właściwych regułach dla odpadów (ADR 2.1.3.5.5).
+- Zakładanie, że mała ilość odpadu oznacza zwolnienie — trzeba osobno sprawdzić klasyfikację, ilość i warunki wyłączenia (ADR 1.1.3 oraz 2.1).
+- Pomijanie ryzyka środowiskowego po rozlewie — chroń odpływy tylko wtedy, gdy można to zrobić bez narażania siebie; unikaj kontaktu z nieznaną substancją (ADR 5.4.3.4 i 5.2.1.8).
+
+W razie niejasnych pojęć skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
