@@ -11,7 +11,7 @@ Zanim ruszysz w trasę, ustal, czy ładunek podlega ADR i jakie obowiązki dotyc
 - odnajdywać nazwę przewozową w tabeli A.
 
 ## 1. Co reguluje ADR?
-ADR obejmuje m.in. klasyfikację zagrożeń, dopuszczalność przewozu, pakowanie, oznakowanie, dokumentację, wymagania wobec pojazdów i obowiązki uczestników. Warunki zależą od konkretnego towaru, ilości, opakowania i sposobu przewozu. Wyłączenie części wymagań nie znosi automatycznie wszystkich zasad bezpieczeństwa.
+ADR obejmuje m.in. klasyfikację zagrożeń, dopuszczalność przewozu, pakowanie, oznakowanie, dokumentację, wymagania wobec pojazdów i obowiązki uczestników. W ujęciu ADR towary niebezpieczne to towary, których międzynarodowy przewóz drogowy jest zabroniony albo dopuszczony wyłącznie na warunkach określonych w załącznikach A i B. Warunki zależą od konkretnego towaru, ilości, opakowania i sposobu przewozu. Wyłączenie części wymagań nie znosi automatycznie wszystkich zasad bezpieczeństwa.
 
 ## 2. Kto co robi?
 - **Nadawca** klasyfikuje towar i przekazuje informacje przewozowe.
