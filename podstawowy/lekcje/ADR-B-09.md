@@ -17,7 +17,7 @@ Zgodnie z ADR 7.5.1 sprawdź, czy pojazd i przesyłki nadają się do planowaneg
 ### Niezgodność przed rozpoczęciem czynności
 ADR 7.5.1.2 wymaga, aby przed załadunkiem sprawdzić pojazd, przesyłki i dokumenty pod kątem oczywistych niezgodności. Jeżeli stan pojazdu, wyposażenia lub sztuki przesyłki może zagrażać bezpieczeństwu, nie rozpoczynaj załadunku, dopóki problem nie zostanie usunięty lub wyjaśniony. Nie przykrywaj uszkodzenia plandeką i nie uznawaj aktualnego świadectwa pojazdu za dowód, że późniejsze uszkodzenie nie ma znaczenia.
 ## 2. Wspólny załadunek i żywność
-Nie wszystkie towary można ładować razem. Sprawdź wymagania dotyczące wspólnego załadunku, w tym rozdzielenia niektórych materiałów oraz warunki ochrony żywności, pasz i innych towarów konsumpcyjnych. Nie polegaj wyłącznie na odległości między paletami ani na ustnym zapewnieniu, że „zawsze tak się robi”. W razie wątpliwości sprawdź właściwy przepis ADR 7.5.2 i wymagania dotyczące danego towaru.
+Nie wszystkie towary można ładować razem. Sprawdź wymagania dotyczące wspólnego załadunku, w tym rozdzielenia niektórych materiałów oraz warunki ochrony żywności, pasz i innych towarów konsumpcyjnych. Jedną z metod oddzielenia wymienionych w ADR 7.5.4(c) jest pozostawienie co najmniej 0,8 m wolnej przestrzeni, jeśli metoda ta ma zastosowanie do danego przewozu; nie jest to uniwersalny wymóg dla każdej sytuacji. Sprawdź też, czy tabela A przypisuje przepis CV28 w kolumnie 18 oraz jakie warunki trzeba spełnić. Nie polegaj wyłącznie na odległości między paletami ani na ustnym zapewnieniu, że „zawsze tak się robi”. W razie wątpliwości sprawdź ADR 7.5.2, 7.5.4 i 7.5.11.
 
 
 ### Wspólny załadunek — sprawdź tabelę zgodności
