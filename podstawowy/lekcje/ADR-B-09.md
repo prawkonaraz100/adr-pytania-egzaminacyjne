@@ -171,3 +171,18 @@ Przed załadunkiem widzisz uszkodzone opakowanie lub pozostałości po poprzedni
 - Mocowanie ma utrzymać ładunek bez uszkadzania opakowań; niezgodności wyjaśnij przed odjazdem.
 - Przewóz luzem wymaga dopuszczenia dla konkretnego towaru i spełnienia warunków dotyczących pojazdu.
 - Podstawy do dalszej nauki: ADR 7.3, 7.5.1, 7.5.7 i 7.5.8.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0518`
+- `ADR-B-0554`
+- `ADR-B-0558`
+- `ADR-B-0025`
+- `ADR-B-0026`
+- `ADR-B-0027`
+- `ADR-B-0058`
+- `ADR-B-0059`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-09 — ADR-B-09](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-09`; jest to symulacja, nie zaliczenie zajęć praktycznych).
