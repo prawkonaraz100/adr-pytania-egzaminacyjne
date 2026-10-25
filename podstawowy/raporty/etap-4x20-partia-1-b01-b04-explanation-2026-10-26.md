@@ -40,10 +40,12 @@ Każde explanation ma 2–4 zdania i kończy się krótką podstawą ADR. Wszyst
 | B-13 | 4/47 | 8.51% |
 
 - Liczba rekordów: 609; unikalne ID: 609.
-- Explanation minimum: 254 znaków; poniżej 200 znaków: 0.
+- Explanation minimum: 300 znaków; poniżej 200 znaków: 0. Explanation ADR-B-0196, ADR-B-0398 i ADR-B-0440 mają odpowiednio 373, 355 i 409 znaków.
 - Wszystkie pytania pozostają `needs_review`; `verified`: 0.
 - Dodano regresyjny warunek w `tests/test_stage4u_module_metrics.py`: B-01 i B-04 muszą pozostać ≤14%; dotychczasowy limit pozostałych modułów 18% zachowano.
 
 ## Ograniczenia
 
-Zmiany dotyczyły wyłącznie długości dystraktorów i czytelności wyjaśnień, bez zmiany klucza. Testy wykonane przez Quality Gate CI w PR; w tym środowisku nie uruchomiono lokalnego checkoutu repozytorium. Wszelkie rozstrzygnięcia prawne pozostają do specjalistycznej recenzji.
+Zaktualizowano też warianty egzaminów próbnych 001–005 i klucze: wszystkie 10 plików wskazuje nowy blob banku, a explanation w kluczach zsynchronizowano z bankiem. Dla pytań 0149 i 0102, jeśli występują w arkuszach, zaktualizowano odpowiednią opcję z zachowaniem jej litery w arkuszu.
+
+Zmiany dotyczyły wyłącznie długości dystraktorów i czytelności wyjaśnień, bez zmiany poprawnej litery. Testy wykonane przez Quality Gate CI w PR; w tym środowisku nie uruchomiono lokalnego checkoutu repozytorium. Wszelkie rozstrzygnięcia prawne pozostają do specjalistycznej recenzji.
