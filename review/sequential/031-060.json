@@ -228,8 +228,8 @@
         "stem": "Czego powinno dotyczyć szkolenie z ochrony towarów niebezpiecznych?",
         "options": {
           "A": "Rozpoznawania ryzyka kradzieży i nadużycia oraz reagowania na naruszenia ochrony",
-          "B": "Wyłącznie ochrony ładunku przed uszkodzeniem podczas hamowania, bez ochrony przed nadużyciem",
-          "C": "Wyłącznie zasad pakowania i kodów UN, bez procedur zgłaszania incydentów ochrony"
+          "B": "Zasad mocowania palet przed przesuwaniem podczas jazdy i hamowania",
+          "C": "Odczytywania numerów UN i doboru opakowań zamiast ochrony przed nieuprawnionym dostępem"
         },
         "correct_option": "A",
         "explanation": "Szkolenie z ochrony ma nauczyć pracownika zauważać próby kradzieży, nieuprawnionego dostępu lub niewłaściwego wykorzystania towaru oraz wiedzieć, jak reagować. Nie ogranicza się do mocowania przesyłek podczas hamowania ani wyłącznie do numerów UN i pakowania. Ważne są też zasady zgłaszania podejrzanych zdarzeń. Podstawa: ADR 1.10.2.2.",
@@ -269,7 +269,7 @@
         "stem": "W jaki sposób numer identyfikacyjny towaru niebezpiecznego podaje się w dokumencie przewozowym ADR?",
         "options": {
           "A": "Jako sam numer rejestracyjny auta",
-          "B": "Wyłącznie słowem „niebezpieczny”, bez numeru UN i innych wymaganych danych",
+          "B": "Zapisem „niebezpieczny” oraz nazwą handlową przesyłki zamiast numeru UN",
           "C": "Z literami UN przed czterocyfrowym numerem"
         },
         "correct_option": "C",
@@ -393,7 +393,7 @@
         "options": {
           "A": "Dopiero po pierwszym samodzielnie wykonanym przewozie",
           "B": "Przed samodzielnym przejęciem tych obowiązków",
-          "C": "Wyłącznie podczas okresowego odnowienia uprawnień kierowcy"
+          "C": "Podczas okresowego odnowienia uprawnień kierowcy, po rozpoczęciu pracy przy towarach"
         },
         "correct_option": "B",
         "explanation": "Pracownik musi znać zasady bezpieczeństwa, zanim samodzielnie zacznie wykonywać czynności związane z towarami niebezpiecznymi. Bez odpowiedniego szkolenia może je wykonywać tylko pod bezpośrednim nadzorem osoby już przeszkolonej. Pierwszy samodzielny przewóz nie może być próbą nauki, a odnowienie kursu kierowcy nie jest jedyną sytuacją wymagającą szkolenia. Podstawa: ADR 1.3.1.",
@@ -433,8 +433,8 @@
         "stem": "Dlaczego szkolenie pracowników dotyczące ADR trzeba okresowo uzupełniać?",
         "options": {
           "A": "Żeby uwzględniać zmiany wymagań i przepisów",
-          "B": "Wyłącznie wtedy, gdy zmieni się numer UN przewożonego towaru",
-          "C": "Tylko w razie zmiany stanowiska pracy, niezależnie od zmian przepisów"
+          "B": "Po zmianie numeru UN przewożonego materiału na inny numer",
+          "C": "Po zmianie stanowiska pracy, nawet gdy wcześniej zaktualizowano wymagania"
         },
         "correct_option": "A",
         "explanation": "Zasady ADR i rodzaje wykonywanych prac mogą się zmieniać, dlatego wiedzę pracowników trzeba odpowiednio aktualizować. Dzięki szkoleniu przypominającemu osoba obsługująca przesyłki nie działa według nieaktualnych reguł. Nie należy czekać wyłącznie na zmianę numeru UN ani uzależniać szkolenia tylko od zmiany stanowiska. Podstawa: ADR 1.3.2.4.",
@@ -557,7 +557,7 @@
         "options": {
           "A": "Właściwości utleniające, mogące nasilać pożar",
           "B": "Radioaktywność",
-          "C": "Zawsze mają silne właściwości żrące, niezależnie od działania utleniającego"
+          "C": "Właściwości silnie żrące, mogące uszkodzić elementy pojazdu i opakowania"
         },
         "correct_option": "A",
         "explanation": "Klasa 5.1 obejmuje materiały utleniające, które mogą nasilać pożar. Nie oznacza to, że są promieniotwórcze ani że wszystkie mają silne właściwości żrące niezależnie od działania utleniającego. Sprawdź oznaczenie klasy i warunki dla konkretnego materiału. Właściwości utleniające mogą zwiększyć intensywność spalania innych materiałów, dlatego ryzyka nie ocenia się wyłącznie po palności samej substancji. Podstawa: ADR 2.2.51.1.1.",
@@ -637,7 +637,7 @@
       "exact_record_snapshot": {
         "stem": "Czy przy przewozie odpadów niebezpiecznych słowo „ODPAD” zastępuje numer UN w dokumencie ADR?",
         "options": {
-          "A": "Tak, zawsze",
+          "A": "Tak, po wpisaniu słowa „ODPAD” z nazwą i adresem odbiorcy",
           "B": "Nie, numer UN nadal jest wymagany, jeśli właściwe przepisy wymagają dokumentu ADR",
           "C": "Tak, wystarczy umieszczenie odpadu w opakowaniu posiadającym certyfikację UN"
         },
@@ -803,7 +803,7 @@
         "options": {
           "A": "W dowolnym języku wybranym przez nadawcę, nawet niezrozumiałym dla kierowcy",
           "B": "W języku zrozumiałym dla każdego członka załogi",
-          "C": "Wyłącznie po francusku"
+          "C": "Po francusku, bo ADR opracowano w Genewie"
         },
         "correct_option": "B",
         "explanation": "Instrukcje pisemne mają pomóc załodze działać w sytuacji zagrożenia, dlatego każdy członek załogi musi rozumieć język, w którym je otrzymuje. Dokument niezrozumiały dla kierowcy może okazać się bezużyteczny podczas awarii. Nie wystarczy więc dowolny język wybrany przez nadawcę ani obowiązkowo sam francuski. Podstawa: ADR 5.4.3.2.",
@@ -843,7 +843,7 @@
         "stem": "Co oznacza powtórzenie cyfry w numerze rozpoznawczym zagrożenia na tablicy ADR?",
         "options": {
           "A": "Nasilenie zagrożenia wyrażanego tą cyfrą",
-          "B": "Oznacza dwa różne zagrożenia, niezależnie od znaczenia cyfr",
+          "B": "Występowanie dwóch różnych zagrożeń opisanych jednakową cyfrą",
           "C": "Oznacza, że materiał nie wymaga innych nalepek ostrzegawczych"
         },
         "correct_option": "A",
@@ -1090,7 +1090,7 @@
         "options": {
           "A": "Tak, dla każdego członka załogi",
           "B": "Wystarczy jedna kamizelka na całą jednostkę transportową",
-          "C": "Kamizelka jest wymagana tylko u kierowcy, a nie u pozostałych członków załogi"
+          "C": "Dla kierowcy, gdy pozostali członkowie załogi mają pozostać w kabinie"
         },
         "correct_option": "A",
         "explanation": "Kamizelka ostrzegawcza sprawia, że członek załogi jest lepiej widoczny, zwłaszcza podczas postoju awaryjnego lub pracy obok pojazdu. Każda osoba w załodze potrzebuje własnej kamizelki, gdy stosuje się wymagania wyposażenia ADR. Jedna kamizelka na wszystkich ani wyposażenie wyłącznie kierowcy nie wystarczą. Podstawa: ADR 8.1.5.2.",
@@ -1212,7 +1212,7 @@
         "stem": "Czy zbyt mocno zaciągnięty pas mocujący może naruszać wymagania ADR?",
         "options": {
           "A": "Tak, jeżeli może uszkodzić lub zdeformować opakowanie",
-          "B": "Nie, pas zawsze trzeba zaciągnąć do granic możliwości",
+          "B": "Nie, mocniejsze napięcie pasów zwiększa stabilność nawet przy odkształcaniu kartonu",
           "C": "Nie, jeśli ładunek jest lekki"
         },
         "correct_option": "A",
