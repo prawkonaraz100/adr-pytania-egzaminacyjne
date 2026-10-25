@@ -43,3 +43,19 @@ Liczba linków to stan końcowy kotwic inline w lekcjach; obejmuje też odsyłac
 
 ## Ograniczenia
 Nie zmieniano merytorycznych odpowiedzi ani podstaw prawnych w banku. Redakcja językowa nie jest niezależną weryfikacją prawną; materiały i pytania pozostają do odbioru specjalisty.
+
+
+## Dodatkowa kontrola czytelności — dwie lekcje
+
+Po scaleniu partii wykonano osobny przegląd dwóch lekcji wybranych do kontroli języka: B-03 i B-11. Była to próba jakościowa, nie dowód pełnego audytu wszystkich 13 lekcji.
+
+| Lekcja | Przed | Po | Zmiana |
+|---|---|---|---|
+| B-03 | „MARINE POLLUTANT” występowało bez polskiego objaśnienia, a relację z „ENVIRONMENTALLY HAZARDOUS” opisano abstrakcyjnie. | Dodano krótkie polskie znaczenia obu określeń i prostą instrukcję, by sprawdzić warunki ADR 5.4.1.1.18, zamiast traktować je jako automatyczne zamienniki. | 2 określenia objaśnione w kontekście; bez zmiany reguły prawnej. |
+| B-11 | „Jednostka” w zdaniu o wielu kodach tunelowych mogła być odczytana jako dowolny przedmiot lub kontener. | Przy pierwszym użyciu dodano prostą definicję jednostki transportowej i link do kotwicy słowniczka. | 1 objaśnienie inline. |
+
+### Przykłady przed → po
+1. **B-03 — wpis w dokumencie:** „wpis „MARINE POLLUTANT” może mieć znaczenie w warunkach określonych przepisem” → „„MARINE POLLUTANT” („zanieczyszczający środowisko morskie”) […] sprawdź warunki ADR 5.4.1.1.18”.
+2. **B-11 — różne kody:** „Jeśli jednostka przewozi towary z różnymi kodami tunelowymi” → „Jeśli jednostka transportowa (pojazd silnikowy z przyczepą lub naczepą, gdy tworzą zestaw; [słowniczek](../SLOWNICZEK.md#jednostka-transportowa)) […]”.
+3. **Ograniczenie przeglądu:** w tej próbie nie wykryto podstawy do zmiany numerów przepisów ani wymagań liczbowych. Nie oznacza to niezależnej weryfikacji prawnej całego podręcznika.
+
