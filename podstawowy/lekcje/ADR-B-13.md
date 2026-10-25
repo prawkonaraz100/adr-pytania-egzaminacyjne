@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Dokumenty i instrukcje pozwalają sprawdzić, co jest przewożone, na jakich warunkach i jak postępować w razie zdarzenia. Niekompletny dokument albo instrukcje w niezrozumiałym języku mogą utrudnić bezpieczny przewóz i reakcję służb. Przed wyjazdem sprawdź dokument przewozowy, wymagane dokumenty dodatkowe i instrukcje pisemne (dokument z ustalonymi wskazówkami dla załogi na wypadek zdarzenia; ma być dostępny i zrozumiały; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne)) jako odrębne elementy.
+Dokumenty i instrukcje pozwalają sprawdzić, co jest przewożone, na jakich warunkach i jak postępować w razie zdarzenia. Niekompletny dokument albo instrukcje w niezrozumiałym języku mogą utrudnić bezpieczny przewóz i reakcję służb. Przed wyjazdem sprawdź dokument przewozowy (zapis wymaganych danych o towarze i przewozie; [słowniczek](../SLOWNICZEK.md#dokument-przewozowy)), wymagane dokumenty dodatkowe i instrukcje pisemne (dokument z ustalonymi wskazówkami dla załogi na wypadek zdarzenia; ma być dostępny i zrozumiały; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne)) jako odrębne elementy.
 
 ## Czego się nauczysz
 - sprawdzać podstawowe dane dokumentu przewozowego ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr));
@@ -14,7 +14,7 @@ Dokumenty i instrukcje pozwalają sprawdzić, co jest przewożone, na jakich war
 - sprawdzać warunki przewozu drogowego po odcinku morskim.
 
 ## 1. Dokument przewozowy — co sprawdzić
-Sprawdź, czy dokument zawiera wymagane informacje dla konkretnego przewozu, m.in. oznaczenie UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A; [słowniczek](../SLOWNICZEK.md#numer-un)) przed numerem, właściwą nazwę przewozową, klasę i inne wymagane elementy opisu, liczbę i rodzaj sztuk przesyłek, ilość, jeśli jest wymagana, oraz dane nadawcy i odbiorcy. Właściwy zestaw pól zależy od towaru i przepisów, dlatego nie traktuj tej listy jako zamiennika kontroli ADR 5.4.1.1.1.
+Sprawdź, czy dokument zawiera wymagane dane dla konkretnego przewozu, w tym numer UN, właściwą nazwę przewozową, klasę i pozostałe wymagane informacje. Zestaw pól zależy od towaru, dlatego porównaj dokument z ADR 5.4.1.1.1 zamiast zakładać, że jedna lista pasuje do każdego ładunku.
 
 Nie dopisuj danych na podstawie przypuszczeń. Jeśli brakuje wymaganej informacji i nie ma zastosowania odpowiedni wyjątek, poproś odpowiedzialnego uczestnika o poprawienie dokumentu przed wyjazdem.
 
