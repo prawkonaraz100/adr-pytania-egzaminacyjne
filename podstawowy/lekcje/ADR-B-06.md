@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Oznakowanie pomaga służbom i uczestnikom przewozu rozpoznać rodzaj zagrożenia oraz powiązać przesyłkę z dokumentacją. Nieczytelna nalepka, błędny numer UN albo rozbieżność na tablicy pomarańczowej może utrudnić prawidłową reakcję. Przed wyjazdem porównaj oznakowanie z dokumentem i właściwym wpisem ADR.
+Oznakowanie pomaga służbom i uczestnikom przewozu rozpoznać rodzaj zagrożenia oraz powiązać przesyłkę z dokumentacją. Nieczytelna nalepka, błędny numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A; [słowniczek](../SLOWNICZEK.md#numer-un)) albo rozbieżność na tablicy pomarańczow (oznaczenie pojazdu używane w określonych przewozach; numerowana tablica może pokazywać zagrożenie i numer UN; [słowniczek](../SLOWNICZEK.md#tablica-pomaranczowa))ej może utrudnić prawidłową reakcję. Przed wyjazdem porównaj oznakowanie z dokumentem i właściwym wpisem ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)).
 
 ## Czego się nauczysz
 - odróżniać numer UN od numeru rozpoznawczego zagrożenia;
@@ -17,7 +17,7 @@ Oznakowanie pomaga służbom i uczestnikom przewozu rozpoznać rodzaj zagrożeni
 Na sztuce przesyłki mogą występować wymagane znaki i nalepki wskazujące m.in. numer UN i klasę zagrożenia. Numer UN identyfikuje towar; nalepka ostrzegawcza wskazuje rodzaj zagrożenia. To różne informacje i nie zastępują się wzajemnie. Sprawdź cały znak i wymagane dane, a nie tylko jeden symbol.
 
 ## 2. Pomarańczowa tablica na pojeździe
-Tablice pomarańczowe stosuje się w przypadkach określonych ADR. W odpowiednich konfiguracjach mogą zawierać numer rozpoznawczy zagrożenia u góry i numer UN u dołu. Nie myl tych numerów: numer UN wskazuje pozycję towaru, a numer zagrożenia opisuje rodzaj zagrożenia według systemu ADR. Nie każdy przewóz wykorzystuje tę samą konfigurację tablic; sprawdź wymagania dla danego pojazdu i ładunku.
+Tablice pomarańczowe są wymagane tylko w określonych rodzajach przewozu. Zanim uznasz, że tablica jest potrzebna lub zbędna, sprawdź wymagania dla danego towaru i konfiguracji pojazdu (ADR 5.3.2). W odpowiednich konfiguracjach mogą zawierać numer rozpoznawczy zagrożenia (liczba na górze numerowanej tablicy pomarańczowej, opisująca rodzaj zagrożenia; [słowniczek](../SLOWNICZEK.md#numer-rozpoznawczy-zagrozenia)) u góry i numer UN u dołu. Nie myl tych numerów: numer UN wskazuje pozycję towaru, a numer zagrożenia opisuje rodzaj zagrożenia według systemu ADR. Nie każdy przewóz wykorzystuje tę samą konfigurację tablic; sprawdź wymagania dla danego pojazdu i ładunku.
 
 
 ### Odczytywanie numeru zagrożenia
