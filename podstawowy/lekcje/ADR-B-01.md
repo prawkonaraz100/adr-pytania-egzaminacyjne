@@ -148,3 +148,14 @@ Scenariusz mapowy: SC-ADR-B-01 w pliku [scenariuszy praktycznych](../praktyka/sc
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status pytań: needs_review. Wskazanie przepisu nie oznacza niezależnego potwierdzenia każdego pytania.
+
+
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-01` — **Kontrola drogowa: zwolnienia, ilości i dopuszczalność przewozu**
+- `SC-ADR-B-01-02` — **Przed wyjazdem: ustalenie, czy można skorzystać ze zwolnienia**
+- `SC-ADR-B-01-03` — **Kontrola dokumentów: polecenie nie uchyla zakazu**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
