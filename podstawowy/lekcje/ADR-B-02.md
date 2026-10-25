@@ -75,6 +75,7 @@ Nie rozpoznawaj towaru po zapachu, wyglądzie cieczy ani nazwie handlowej. Odczy
 
 ## Sprawdź się
 
+- Jakie informacje tabeli A pomagają ustalić klasę i oznakowanie?
 - Czym różnią się klasa, grupa pakowania i numer UN?
 - Dlaczego przy klasie 4.3 nie wolno automatycznie używać wody?
 - Co odróżnia 5.1 od 5.2?
