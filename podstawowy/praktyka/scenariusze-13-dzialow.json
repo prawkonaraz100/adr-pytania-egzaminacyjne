@@ -623,6 +623,303 @@
         "Kursant uzasadnia wybór miejsca wymaganiami, nie samą wygodą."
       ],
       "safety_boundary": "Symulacja na mapie i fikcyjnej karcie przewozu."
+    },
+    {
+      "id": "SC-ADR-B-05-02",
+      "module_id": "ADR-B-05",
+      "title": "Awaria na poboczu: pierwsze decyzje kierowcy",
+      "situation": "Po awarii kierowca zatrzymuje pojazd na poboczu. Nie ma widocznego ognia, ale czuje nieznany zapach w pobliżu ładunku i widzi, że inni kierowcy zbliżają się, aby pomóc.",
+      "steps": [
+        "Nie próbuj ustalać substancji przez wąchanie i nie zbliżaj się do podejrzanego miejsca.",
+        "Ostrzeż osoby z bezpiecznej odległości, oceń możliwość oddalenia się i wezwij pomoc.",
+        "Przekaż służbom lokalizację, opis zdarzenia i tylko te dane o towarze, które potrafisz potwierdzić z dokumentów.",
+        "Stosuj instrukcje pisemne ADR w granicach bezpieczeństwa; nie podejmuj działań, do których nie masz przeszkolenia."
+      ],
+      "common_errors": [
+        {
+          "error": "Pójść sprawdzić źródło zapachu.",
+          "why": "Opary mogą być szkodliwe albo łatwopalne, a zapach nie pozwala bezpiecznie rozpoznać substancji."
+        },
+        {
+          "error": "Rozpocząć samodzielne ratowanie ładunku.",
+          "why": "Priorytetem jest bezpieczeństwo ludzi; nieznane zagrożenie pozostaw służbom."
+        }
+      ],
+      "adr_basis": [
+        "ADR 5.4.3.4",
+        "ADR 5.4.3.5",
+        "ADR 8.1.5"
+      ],
+      "question_ids": [
+        "ADR-B-0013",
+        "ADR-B-0015",
+        "ADR-B-0169",
+        "ADR-B-0220"
+      ],
+      "assessment_criteria": [
+        "Kursant podaje kolejność bezpiecznych działań.",
+        "Kursant przekazuje sprawdzone informacje i nie próbuje rozpoznać substancji po zapachu."
+      ],
+      "safety_boundary": "Sucha symulacja na karcie; bez prawdziwego wycieku, oparów ani pożaru."
+    },
+    {
+      "id": "SC-ADR-B-05-03",
+      "module_id": "ADR-B-05",
+      "title": "Pożar przy przestrzeni ładunkowej",
+      "situation": "Na planszy szkoleniowej widać dym przy drzwiach przestrzeni ładunkowej pojazdu z towarami niebezpiecznymi. Kursant ma wybrać działania, zanim dotrą służby.",
+      "steps": [
+        "Nie otwieraj przestrzeni ładunkowej i nie próbuj gasić pożaru obejmującego ładunek.",
+        "Ostrzeż osoby w pobliżu, oddal się w bezpieczne miejsce i wezwij służby.",
+        "Przygotuj dostępne dokumenty i informacje o ładunku do przekazania ratownikom, jeśli można to zrobić bezpiecznie.",
+        "Nie wracaj do pojazdu ani nie podejmuj kolejnych działań bez oceny sytuacji i poleceń służb."
+      ],
+      "common_errors": [
+        {
+          "error": "Otworzyć drzwi, aby sprawdzić, co się pali.",
+          "why": "Dopływ powietrza i kontakt z nieznanym ładunkiem mogą zwiększyć zagrożenie."
+        },
+        {
+          "error": "Użyć gaśnicy bez oceny ryzyka.",
+          "why": "Załoga nie podejmuje gaszenia pożaru przedziału ładunkowego z towarami niebezpiecznymi."
+        }
+      ],
+      "adr_basis": [
+        "ADR 5.4.3.4",
+        "ADR 8.1.4",
+        "ADR 8.1.5"
+      ],
+      "question_ids": [
+        "ADR-B-0013",
+        "ADR-B-0015",
+        "ADR-B-0169",
+        "ADR-B-0222",
+        "ADR-B-0223"
+      ],
+      "assessment_criteria": [
+        "Kursant rozpoznaje granice bezpiecznego działania i nie otwiera ładowni.",
+        "Kursant wskazuje wezwanie służb i przekazanie informacji."
+      ],
+      "safety_boundary": "Tylko plansza lub film szkoleniowy; bez ognia i prawdziwego ładunku."
+    },
+    {
+      "id": "SC-ADR-B-06-02",
+      "module_id": "ADR-B-06",
+      "title": "Rozbieżność numeru na tablicy i w dokumentach",
+      "situation": "Przed wyjazdem kierowca widzi tablicę pomarańczową z numerami, które nie pasują do dokumentu przewozowego. Załadowca zapewnia, że to stary wpis i można ruszać.",
+      "steps": [
+        "Nie zakładaj, że rozbieżność jest nieistotna; porównaj numer UN i numer rozpoznawczy zagrożenia z właściwym wpisem.",
+        "Sprawdź, czy tablica i nalepki są wymagane dla tej konfiguracji przewozu oraz czy są czytelne.",
+        "Zgłoś rozbieżność i wstrzymaj wyjazd do czasu potwierdzenia prawidłowego oznakowania.",
+        "Nie przepisuj numerów z pamięci ani na podstawie podobnego przewozu."
+      ],
+      "common_errors": [
+        {
+          "error": "Pomylić numer UN z numerem zagrożenia.",
+          "why": "Numery mają różne funkcje i nie można ich zamieniać."
+        },
+        {
+          "error": "Zaufać zapewnieniu bez sprawdzenia.",
+          "why": "Błędne oznakowanie może utrudnić identyfikację ładunku podczas kontroli lub zdarzenia."
+        }
+      ],
+      "adr_basis": [
+        "ADR 5.3.2",
+        "ADR 5.2",
+        "ADR 3.2 tabela A"
+      ],
+      "question_ids": [
+        "ADR-B-0016",
+        "ADR-B-0017",
+        "ADR-B-0018",
+        "ADR-B-0507",
+        "ADR-B-0562"
+      ],
+      "assessment_criteria": [
+        "Kursant rozróżnia oba numery i wskazuje potrzebę wyjaśnienia niezgodności."
+      ],
+      "safety_boundary": "Fikcyjne tablice i dokumenty; nie oznaczać rzeczywistego pojazdu."
+    },
+    {
+      "id": "SC-ADR-B-06-03",
+      "module_id": "ADR-B-06",
+      "title": "Nalepka zasłonięta podczas załadunku",
+      "situation": "Po załadowaniu palety część nalepki na sztuce przesyłki została zasłonięta folią i nie można jej odczytać. Kierowca chce zostawić przesyłkę na końcu naczepy.",
+      "steps": [
+        "Sprawdź oznakowanie każdej właściwej sztuki przesyłki i upewnij się, że wymagane znaki pozostają widoczne i czytelne.",
+        "Nie uznawaj położenia palety za usprawiedliwienie nieczytelnego oznakowania.",
+        "Poproś o bezpieczne poprawienie ułożenia lub oznakowania zgodnie z wymaganiami, bez naruszania opakowania.",
+        "Przed odjazdem ponownie sprawdź oznakowanie i porównaj je z dokumentami."
+      ],
+      "common_errors": [
+        {
+          "error": "Zostawić przesyłkę, bo nalepka jest widoczna częściowo.",
+          "why": "Częściowo zasłonięty znak może nie przekazywać pełnej informacji o zagrożeniu."
+        },
+        {
+          "error": "Dodać przypadkową nalepkę bez weryfikacji.",
+          "why": "Znak musi odpowiadać właściwej klasyfikacji i wymaganiom, a nie być dobierany na oko."
+        }
+      ],
+      "adr_basis": [
+        "ADR 5.2",
+        "ADR 5.3.1.2"
+      ],
+      "question_ids": [
+        "ADR-B-0016",
+        "ADR-B-0017",
+        "ADR-B-0018"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje potrzebę czytelnego oznakowania i kontroli przed wyjazdem."
+      ],
+      "safety_boundary": "Ćwiczenie na atrapach opakowań i wydrukowanych znakach."
+    },
+    {
+      "id": "SC-ADR-B-07-02",
+      "module_id": "ADR-B-07",
+      "title": "Niejasny podział obowiązków przy uszkodzonym opakowaniu",
+      "situation": "Przy rampie kierowca widzi pęknięte opakowanie. Załadowca twierdzi, że odpowiada wyłącznie nadawca, a dokumenty są już gotowe.",
+      "steps": [
+        "Zatrzymaj załadunek uszkodzonej sztuki i nie pozwól maskować pęknięcia.",
+        "Zgłoś problem odpowiedzialnym uczestnikom i ustal bezpieczne rozwiązanie przed dalszym przewozem.",
+        "Rozróżnij obowiązki nadawcy, pakującego, załadowcy, przewoźnika i kierowcy według ich ról.",
+        "Nie traktuj kompletnego dokumentu jako dowodu, że opakowanie nadaje się do przewozu."
+      ],
+      "common_errors": [
+        {
+          "error": "Kontynuować, bo uszkodzenie powstało przed przyjazdem kierowcy.",
+          "why": "Widoczna niezgodność nadal wymaga reakcji; nie należy przekazywać jej dalej bez rozwiązania."
+        },
+        {
+          "error": "Zakładać, że za wszystko odpowiada jedna osoba.",
+          "why": "ADR rozdziela obowiązki między uczestników zależnie od wykonywanej czynności."
+        }
+      ],
+      "adr_basis": [
+        "ADR 1.4.2",
+        "ADR 1.4.3",
+        "ADR 7.5.1"
+      ],
+      "question_ids": [
+        "ADR-B-0019",
+        "ADR-B-0020",
+        "ADR-B-0021",
+        "ADR-B-0517",
+        "ADR-B-0567"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje potrzebę zatrzymania załadunku i rozdziela role uczestników."
+      ],
+      "safety_boundary": "Symulacja na zdjęciu lub makiecie; bez rzeczywistych towarów."
+    },
+    {
+      "id": "SC-ADR-B-07-03",
+      "module_id": "ADR-B-07",
+      "title": "Przekazanie instrukcji pisemnych nowemu członkowi załogi",
+      "situation": "Do kursu dołącza nowy członek załogi. Kierowca zauważa, że instrukcje pisemne są w języku, którego ta osoba nie rozumie, i schowane w teczce pod siedzeniem.",
+      "steps": [
+        "Sprawdź, czy instrukcje pisemne są dostępne w kabinie i czy każdy członek załogi potrafi je czytać i rozumieć.",
+        "Zgłoś brak odpowiedniej wersji językowej i zapewnij jej dostarczenie przed wyjazdem.",
+        "Upewnij się, że załoga wie, gdzie znaleźć instrukcje i jak z nich korzystać w razie zdarzenia.",
+        "Nie traktuj ustnego streszczenia ani numeru telefonu do dyspozytora jako automatycznego zamiennika wymaganych instrukcji."
+      ],
+      "common_errors": [
+        {
+          "error": "Założyć, że jeden członek załogi przetłumaczy instrukcje w razie wypadku.",
+          "why": "W sytuacji stresowej każdy członek załogi musi mieć dostęp do zrozumiałych instrukcji."
+        },
+        {
+          "error": "Zostawić dokumenty w miejscu trudno dostępnym.",
+          "why": "Instrukcje muszą być łatwo dostępne, nie tylko znajdować się gdzieś w pojeździe."
+        }
+      ],
+      "adr_basis": [
+        "ADR 5.4.3.1",
+        "ADR 5.4.3.2",
+        "ADR 5.4.3.4"
+      ],
+      "question_ids": [
+        "ADR-B-0019",
+        "ADR-B-0020",
+        "ADR-B-0021"
+      ],
+      "assessment_criteria": [
+        "Kursant rozpoznaje wymóg dostępności i zrozumiałości instrukcji dla całej załogi."
+      ],
+      "safety_boundary": "Ćwiczenie na fikcyjnych instrukcjach i bez danych rzeczywistych."
+    },
+    {
+      "id": "SC-ADR-B-08-02",
+      "module_id": "ADR-B-08",
+      "title": "Kontrola gaśnicy przed wyjazdem",
+      "situation": "Kierowca sprawdza pojazd i zauważa, że jedna z gaśnic jest zasłonięta ładunkiem, a druga ma uszkodzone mocowanie.",
+      "steps": [
+        "Sprawdź wymagania dla danego pojazdu i przewozu, w tym liczbę oraz pojemność gaśnic.",
+        "Sprawdź stan, ważność przeglądu, mocowanie i możliwość szybkiego dostępu do każdej wymaganej gaśnicy.",
+        "Usuń niezgodność przed wyjazdem; sama obecność sprzętu w pojeździe nie wystarcza.",
+        "Nie przemieszczaj ładunku w sposób, który tworzy nowe ryzyko lub uszkadza opakowania."
+      ],
+      "common_errors": [
+        {
+          "error": "Uznać, że gaśnica spełnia wymaganie, bo jest na liście wyposażenia.",
+          "why": "Sprzęt musi być sprawny, zamocowany i dostępny w razie potrzeby."
+        },
+        {
+          "error": "Zostawić gaśnicę luzem w kabinie.",
+          "why": "Może się przemieścić podczas hamowania i nie być dostępna w bezpieczny sposób."
+        }
+      ],
+      "adr_basis": [
+        "ADR 8.1.4",
+        "ADR 8.1.5"
+      ],
+      "question_ids": [
+        "ADR-B-0022",
+        "ADR-B-0023",
+        "ADR-B-0024",
+        "ADR-B-0596",
+        "ADR-B-0597"
+      ],
+      "assessment_criteria": [
+        "Kursant kontroluje stan i dostępność sprzętu, nie tylko jego obecność."
+      ],
+      "safety_boundary": "Lista kontrolna i sprzęt treningowy; nie ćwiczyć pożaru."
+    },
+    {
+      "id": "SC-ADR-B-08-03",
+      "module_id": "ADR-B-08",
+      "title": "Wyposażenie osobiste dla całej załogi",
+      "situation": "Przed wyjazdem kierowca odkrywa, że w pojeździe są rękawice i okulary ochronne tylko dla jednej osoby, chociaż załoga liczy dwie osoby.",
+      "steps": [
+        "Sprawdź wymagania ADR dotyczące wyposażenia osobistego dla każdego członka załogi.",
+        "Porównaj wymagane elementy z tym, co jest dostępne i w jakim stanie.",
+        "Uzupełnij braki przed wyjazdem; nie uznawaj latarki czy kamizelki za zamiennik rękawic lub ochrony oczu.",
+        "Wyjaśnij załodze, że rękawice nie upoważniają do dotykania nieznanej substancji."
+      ],
+      "common_errors": [
+        {
+          "error": "Przyjąć, że jedna para wystarczy dla całej załogi.",
+          "why": "Wymagane wyposażenie osobiste powinno być dostępne dla każdej osoby, której dotyczy wymóg."
+        },
+        {
+          "error": "Dotknąć wycieku, bo załoga ma rękawice.",
+          "why": "Nieznana substancja może wymagać specjalnej ochrony; nie wolno podejmować niebezpiecznego kontaktu."
+        }
+      ],
+      "adr_basis": [
+        "ADR 8.1.5.2",
+        "ADR 5.4.3.4"
+      ],
+      "question_ids": [
+        "ADR-B-0022",
+        "ADR-B-0023",
+        "ADR-B-0024",
+        "ADR-B-0418"
+      ],
+      "assessment_criteria": [
+        "Kursant sprawdza wyposażenie każdej osoby i wskazuje ograniczenia środków ochrony."
+      ],
+      "safety_boundary": "Ćwiczenie na liście kontrolnej i bezpiecznym sprzęcie demonstracyjnym."
     }
   ]
 }
