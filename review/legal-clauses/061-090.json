@@ -84,8 +84,8 @@
         "stem": "Dlaczego przy drogowym etapie transportu morskiego nie należy automatycznie usuwać oznakowania zagrożeń z kontenera?",
         "options": {
           "A": "Bo wymagania dotyczą kolejnych etapów przewozu",
-          "B": "Ponieważ dokument przewozowy zawsze zastępuje oznakowanie",
-          "C": "Ponieważ oznakowanie IMDG zawsze jest identyczne z oznakowaniem ADR"
+          "B": "Ponieważ dokument przewozowy może zastąpić nalepki podczas drogi do portu",
+          "C": "Ponieważ oznaczenia IMDG i ADR mają identyczne wymagania w transporcie"
         },
         "correct_option": "A",
         "explanation": "Kontener może mieć oznakowanie wymagane na etapie morskim, które ADR w określonych warunkach uznaje również podczas jazdy drogą. Przed usunięciem nalepek trzeba ustalić wymagania dla całego łańcucha przewozu. Dokument nie zastępuje automatycznie oznakowania, a znaki IMDG nie zawsze są identyczne ze znakami ADR. Podstawa: ADR 1.1.4.2.",
@@ -179,7 +179,7 @@
         "options": {
           "A": "Stosuje się kod oznaczający największe ograniczenia",
           "B": "Wybiera się kod najłagodniejszy, żeby zachować trasę i uniknąć objazdu",
-          "C": "Zawsze przyjmuje się kod A"
+          "C": "Kod A, bo przewozi się kilka towarów"
         },
         "correct_option": "A",
         "explanation": "Gdy w jednej jednostce przewożone są różne towary objęte kodami tunelowymi, trzeba uwzględnić kod powodujący największe ograniczenia. Wybór najłagodniejszego kodu tylko po to, by uniknąć objazdu, jest nieprawidłowy; nie zawsze przyjmuje się też kod A. Uwzględnij wyłączenia i sposób przewozu. Podstawa: ADR 8.6.3.2–8.6.3.3.",
@@ -225,8 +225,8 @@
         "stem": "Co oznacza zapis „(-)” jako kod ograniczeń tunelowych dla danego towaru?",
         "options": {
           "A": "Brak ograniczeń tunelowych ADR wynikających z tego kodu",
-          "B": "Całkowity zakaz korzystania z dróg",
-          "C": "Nakaz jazdy tylko nocą, gdy ruch jest mniejszy i tunel wydaje się bezpieczniejszy"
+          "B": "Zakaz korzystania z dróg publicznych na trasie przewozu",
+          "C": "Nakaz jazdy nocą, gdy ruch jest mniejszy i łatwiej minąć inne pojazdy"
         },
         "correct_option": "A",
         "explanation": "Zapis „(-)” oznacza brak przypisanego ograniczenia tunelowego ADR z tego tytułu. Nie oznacza zakazu korzystania ze wszystkich dróg ani nakazu jazdy tylko nocą. Nadal trzeba stosować znaki drogowe i pozostałe przepisy. Znak opisuje kod ograniczeń tunelowych dla danej pozycji, a nie ogólną dopuszczalność przejazdu po całej trasie. Podstawa: ADR 8.6.3.1.",
@@ -271,7 +271,7 @@
         "module_id": "ADR-B-12",
         "stem": "Dlaczego obszar terminalu, na którym czasowo składuje się niebezpieczny ładunek podczas transportu, powinien być odpowiednio zabezpieczony?",
         "options": {
-          "A": "Aby umożliwić dostęp tylko osobom przypadkowym",
+          "A": "Aby ułatwić odbiór przesyłek kierowcom",
           "B": "Ponieważ zabezpieczenie zastępuje obowiązek właściwego znakowania",
           "C": "By ograniczyć nieuprawniony dostęp i ryzyko naruszenia ochrony"
         },
@@ -366,8 +366,8 @@
         "stem": "Którą informację o odbiorcy trzeba co do zasady zamieścić w dokumencie przewozowym ADR?",
         "options": {
           "A": "Nazwę i adres odbiorcy",
-          "B": "Wyłącznie kod pocztowy miejsca rozładunku",
-          "C": "Jedynie dane kontaktowe spedytora zamiast odbiorcy"
+          "B": "Kod pocztowy miejsca rozładunku zamiast danych odbiorcy",
+          "C": "Dane kontaktowe spedytora obsługującego zlecenie zamiast danych odbiorcy"
         },
         "correct_option": "A",
         "explanation": "Nazwa i adres odbiorcy pozwalają ustalić, komu ma zostać przekazany niebezpieczny ładunek. Sam kod pocztowy nie identyfikuje odbiorcy, a dane spedytora nie są jego automatycznym zamiennikiem. W dokumencie przewozowym wpisuje się co do zasady dane odbiorcy, z uwzględnieniem wyjątków ADR. Podstawa: ADR 5.4.1.1.1(h).",
@@ -412,8 +412,8 @@
         "module_id": "ADR-B-13",
         "stem": "Jakie informacje o opakowanych towarach niebezpiecznych powinny się znaleźć w dokumencie przewozowym ADR?",
         "options": {
-          "A": "Wyłącznie sumaryczną masę pojazdu i ładunku",
-          "B": "Tylko numery UN, bez liczby i rodzaju sztuk przesyłek",
+          "A": "Masę pojazdu i ładunku",
+          "B": "Numery UN przewożonych towarów bez podawania liczby i rodzaju opakowań",
           "C": "Liczba i określenie sztuk przesyłek, jeśli występują"
         },
         "correct_option": "C",
@@ -461,7 +461,7 @@
         "options": {
           "A": "Tak, w odpowiedni sposób według rodzaju towaru",
           "B": "Nie, jeżeli towary są w sztukach przesyłek",
-          "C": "Zawsze wystarcza sama liczba palet bez ilości towaru"
+          "C": "Liczba palet przewożonych w pojeździe zamiast ilości towaru"
         },
         "correct_option": "A",
         "explanation": "Całkowita ilość przewożonego towaru niebezpiecznego jest istotna przy ocenie warunków przewozu i ewentualnych wyłączeń. Dlatego w dokumencie podaje się ją we właściwej dla towaru jednostce. Samo policzenie palet ani fakt, że ładunek jest w opakowaniach, nie zastępują wymaganej informacji o ilości. Podstawa: ADR 5.4.1.1.1(f).",
@@ -694,7 +694,7 @@
         "module_id": "ADR-B-08",
         "stem": "W jednostce transportowej przewożącej towary, dla których obowiązuje 8.1.5.2, znajduje się kierowca i drugi członek załogi. Ile kamizelek ostrzegawczych potrzeba?",
         "options": {
-          "A": "Jedna, ponieważ używa jej wyłącznie kierowca",
+          "A": "Jedna, bo drugi członek załogi korzysta ze sprzętu wspólnego z kierowcą",
           "B": "Dwie, po jednej dla każdej osoby",
           "C": "Trzy, po jednej dla każdej osi pojazdu"
         },
@@ -742,8 +742,8 @@
         "stem": "Jaką podstawową ochronę oczu wymaga 8.1.5.2 dla członka załogi, gdy mają zastosowanie te przepisy?",
         "options": {
           "A": "Ochronę oczu, np. okulary ochronne",
-          "B": "Wyłącznie przyciemnione okulary przeciwsłoneczne",
-          "C": "Wyłącznie kask, który nie chroni oczu"
+          "B": "Przyciemnione okulary do jazdy w słońcu używane do ochrony przed rozpryskami",
+          "C": "Kask roboczy bez osłony twarzy używany zamiast okularów ochronnych"
         },
         "correct_option": "A",
         "explanation": "Okulary ochronne lub inna właściwa ochrona oczu zmniejszają ryzyko urazu, gdy podczas zdarzenia pojawią się rozpryski lub inne zagrożenia. Zwykłe okulary przeciwsłoneczne nie są automatycznie środkiem ochronnym, a sam kask może nie osłaniać oczu. Każdy członek załogi powinien mieć odpowiednie wyposażenie. Podstawa: ADR 8.1.5.2.",
@@ -788,8 +788,8 @@
         "module_id": "ADR-B-08",
         "stem": "Dla jakich nalepek ostrzegawczych ADR 8.1.5.3 wymaga maski ucieczkowej dla każdego członka załogi?",
         "options": {
-          "A": "Tylko 3 i 8",
-          "B": "Tylko 9 i 9A",
+          "A": "3 lub 8",
+          "B": "9 lub 9A",
           "C": "2.3 lub 6.1"
         },
         "correct_option": "C",
@@ -1023,9 +1023,9 @@
         "module_id": "ADR-B-09",
         "stem": "Planujesz doładować do żywności przesyłki ADR z nalepką 6.1. Co trzeba ustalić, zanim zastosujesz zasady oddzielenia z 7.5.4?",
         "options": {
-          "A": "Tylko czy przesyłki mieszczą się na podłodze pojazdu",
+          "A": "Czy przesyłki zmieszczą się na podłodze pojazdu obok żywności",
           "B": "Czy dla danej pozycji UN w tabeli A przypisano przepis CV28 (kolumna 18) i jakie są wymagane warunki oddzielenia",
-          "C": "Wyłącznie maksymalną prędkość dojazdu"
+          "C": "Dopuszczalną prędkość dojazdu z żywnością na miejsce rozładunku"
         },
         "correct_option": "B",
         "explanation": "Przy przewozie towaru obok żywności trzeba najpierw ustalić, czy dla konkretnego numeru UN przewidziano wymóg oddzielenia. Informacja CV28 znajduje się w kolumnie 18 tabeli A, a sama nalepka 6.1 nie oznacza automatycznie zastosowania tego przepisu. Wolne miejsce na podłodze ani prędkość jazdy nie rozstrzygają o bezpieczeństwie wspólnego ładunku. Podstawa: ADR 7.5.4 i CV28.",
@@ -1071,7 +1071,7 @@
         "stem": "Na trasie znajduje się tunel kategorii E. Przewozisz sztuki przesyłek z kodem tunelowym E, a jednostka podlega ograniczeniom z 8.6.4. Co robisz?",
         "options": {
           "A": "Przejeżdżasz, jeżeli towar mieści się w dwóch kartonach",
-          "B": "Przejeżdżasz tylko pod warunkiem jazdy nocą",
+          "B": "Przejeżdżasz nocą, gdy natężenie ruchu w tunelu jest mniejsze",
           "C": "Wybierasz trasę bez tunelu kategorii E"
         },
         "correct_option": "C",
@@ -1119,7 +1119,7 @@
         "options": {
           "A": "Nie, kod D/E zakazuje każdej kategorii A–E",
           "B": "Tak, kod D/E w sztukach przesyłek zakazuje dopiero kategorii E",
-          "C": "Nie, kod D/E zawsze zakazuje kategorii D niezależnie od sposobu przewozu"
+          "C": "Nie, kod D/E obejmuje też tunel D przy sztukach przesyłek, tak jak przy przewozie luzem"
         },
         "correct_option": "B",
         "explanation": "Kod D/E trzeba odczytać w zależności od sposobu przewozu. Przy sztukach przesyłek oznacza on zakaz przejazdu przez tunel kategorii E, dlatego sam ten kod nie wyklucza tunelu D. Nie jest to ogólny zakaz wszystkich tuneli A–E; mogą jednak obowiązywać niezależne ograniczenia drogowe. Podstawa: ADR 8.6.4.",
@@ -1164,9 +1164,9 @@
         "module_id": "ADR-B-11",
         "stem": "Towary są rzeczywiście przewożone zgodnie z wyłączeniami rozdziału ADR 1.1.3. Jednostka transportowa nie wymaga oznakowania LQ na podstawie 3.4.13 (z uwzględnieniem 3.4.14). Czy te towary uwzględnia się przy ustalaniu kodu ograniczeń tunelowych?",
         "options": {
-          "A": "Tak, zawsze uwzględnia się ich kody",
+          "A": "Tak, sumuje się kody wszystkich towarów również przy takim wyłączeniu",
           "B": "Nie, przewozy na tych zasadach nie podlegają takim ograniczeniom tunelowym",
-          "C": "Tak, ale tylko jeśli w pojeździe są materiały klasy 3"
+          "C": "Tak, gdy w pojeździe znajduje się ciecz zapalna zaliczana do klasy 3"
         },
         "correct_option": "B",
         "explanation": "Nie każdy ładunek niebezpieczny podlega ograniczeniom tunelowym w taki sam sposób. Jeżeli przewóz rzeczywiście korzysta z podanych wyłączeń ADR i nie zachodzi wskazany wyjątek dotyczący oznakowania LQ, towarów tych nie uwzględnia się przy wyznaczaniu kodu tunelowego. Sama obecność klasy 3 ani założenie, że wszystkie kody zawsze się liczą, jest błędne. Podstawa: ADR 8.6.3.3.",
@@ -1399,8 +1399,8 @@
         "module_id": "ADR-B-13",
         "stem": "Gdzie w jednostce transportowej należy przechowywać instrukcje pisemne ADR zgodnie z 8.1.2.3?",
         "options": {
-          "A": "Wyłącznie w ładowni, pod pozostałymi sztukami przesyłek",
-          "B": "Wyłącznie u odbiorcy",
+          "A": "W ładowni obok opakowań, żeby informacje były blisko towaru",
+          "B": "W dokumentacji odbiorcy przygotowanej do rozładunku",
           "C": "W kabinie pojazdu, w miejscu łatwo dostępnym dla załogi"
         },
         "correct_option": "C",
