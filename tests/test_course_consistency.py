@@ -102,10 +102,10 @@ class CourseConsistencyTests(unittest.TestCase):
             folder = root / "podstawowy" / "praktyka"
             folder.mkdir(parents=True)
             scenarios = [
-                {"id": f"SC-ADR-B-{i:02d}", "module_id": f"ADR-B-{i:02d}",
+                {"id": f"SC-ADR-B-{i:02d}-{j:02d}", "module_id": f"ADR-B-{i:02d}",
                  "steps": ["1", "2", "3"], "question_ids": ["ADR-B-9999"],
                  "safety_boundary": "simulation only"}
-                for i in range(1, 14)
+                for i in range(1, 14) for j in range(1, 4)
             ]
             (folder / "scenariusze-13-dzialow.json").write_text(
                 json.dumps({"scenarios": scenarios}), encoding="utf-8")
