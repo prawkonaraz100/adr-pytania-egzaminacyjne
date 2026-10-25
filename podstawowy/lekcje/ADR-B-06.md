@@ -52,7 +52,7 @@ Nie zakładaj, że oznakowanie jest poprawne tylko dlatego, że pojazd wcześnie
 - zakładanie, że każda konfiguracja przewozu wymaga identycznej tablicy.
 
 Najczęstsze pułapki wynikające z pytań tego działu:
-- Mylenie numeru UN z klasą zagrożenia — numer UN identyfikuje pozycję towaru, a klasa opisuje rodzaj zagrożenia (ADR 1.2.1 i 3.2 tabela A).
+- Mylenie numeru UN z klasą zagrożenia — numer UN identyfikuje pozycję towaru, a klasa opisuje rodzaj zagrożenia (ADR 1.2.1 i 3.2 tabela A; [słowniczek](../SLOWNICZEK.md#tabela-a)).
 - Zakładanie, że nalepka na opakowaniu i duży znak na pojeździe mają identyczne wymagania — sprawdź, do jakiej jednostki i postaci przewozu odnosi się oznakowanie (ADR 5.2 i 5.3).
 - Odczytywanie numeru zagrożenia bez sprawdzenia tablicy pomarańczowej i kontekstu — nie zastępuje on numeru UN (ADR 5.3.2).
 - Uznawanie, że jedno oznaczenie zastępuje wszystkie pozostałe — wymagane oznakowanie zależy od klasyfikacji i sposobu przewozu (ADR 5.2–5.3).
