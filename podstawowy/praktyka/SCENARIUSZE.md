@@ -2,6 +2,27 @@
 
 **Status: materiał szkoleniowy do odbioru instruktorskiego, nie zaliczenie szkolenia.** Program odwołuje się do ćwiczeń praktycznych wymaganych w załączniku nr 1 do rozporządzenia o kursach ADR (Dz.U. 2021 poz. 2150) i do instrukcji pisemnych ADR 2025, 5.4.3.4. Szczegóły należy zatwierdzić z osobą uprawnioną do prowadzenia zajęć.
 
+## Scenariusze dla kursanta — działy B-01–B-03
+
+Scenariusze w pliku `scenariusze-13-dzialow.json` są ćwiczeniami na fikcyjnych dokumentach i sytuacjach. W każdym przypadku kursant powinien powiedzieć **co robi**, **czego nie robi** i **dlaczego**. Instruktor może użyć pól `common_mistakes`, `legal_basis` i `learner_takeaway` jako krótkiej karty omówienia. Nie należy traktować samej odpowiedzi w quizie jako zaliczenia praktyki.
+
+### B-01 — wyłączenia i dopuszczalność przewozu
+- `SC-ADR-B-01`: sprawdź numer UN, kategorię, ilość, LQ/EQ, dopuszczalność przewozu i wymagane zaświadczenie.
+- `SC-ADR-B-01-02`: wyjaśnij, dlaczego mała paczka nie oznacza automatycznego zwolnienia.
+- `SC-ADR-B-01-03`: nie ruszaj z brakującymi danymi; polecenie dyspozytora nie uchyla ADR.
+
+### B-02 — klasy i rozpoznawanie zagrożeń
+- `SC-ADR-B-02`: przy klasie 4.3 nie zmywaj zabrudzenia wodą.
+- `SC-ADR-B-02-02`: nie dotykaj nieznanej plamy i nie neutralizuj jej domowymi środkami.
+- `SC-ADR-B-02-03`: porównaj numer UN, nazwę, klasę i nalepki; rozbieżność wyjaśnij przed przyjęciem.
+
+### B-03 — wycieki, środowisko i odpady
+- `SC-ADR-B-03`: nie wąchaj, nie dotykaj i nie spłukuj cieczy do kanalizacji.
+- `SC-ADR-B-03-02`: zachowaj dystans i przekaż służbom tylko sprawdzone obserwacje.
+- `SC-ADR-B-03-03`: przed kolejnym załadunkiem sprawdź pozostałości i wymagania czyszczenia.
+
+Powiązane question IDs, kryteria oceny i podstawy ADR znajdują się w rekordach scenariuszy. Wszystkie 9 scenariuszy sprawdzono pod kątem istnienia pytań i zgodności ich `module_id` z działem scenariusza.
+
 ## Zakres i zasada bezpieczeństwa
 
 Ćwiczenia muszą być prowadzone w warunkach odpowiednich do nadzorowanych zajęć. Nie wykorzystuje się prawdziwej niebezpiecznej substancji ani nie naraża kursantów na działanie ognia, oparów lub innych zagrożeń. Ćwiczenia ogniowe odbywają się wyłącznie na przygotowanym stanowisku szkoleniowym z zabezpieczeniem i instruktorem.
