@@ -9,30 +9,30 @@
 
 | Pytanie | Dział | Zdania | Znaki | Klucz | Klucz ściśle najdłuższy | Wynik redakcyjny |
 |---|---|---:|---:|---|---|---|
-| ADR-B-0546 | ADR-B-06 | 4 | 337 | B | nie | podstawa nie na końcu |
-| ADR-B-0547 | ADR-B-06 | 4 | 352 | A | nie | podstawa nie na końcu |
-| ADR-B-0548 | ADR-B-06 | 4 | 348 | C | nie | podstawa nie na końcu |
-| ADR-B-0549 | ADR-B-06 | 4 | 315 | B | nie | podstawa nie na końcu |
-| ADR-B-0550 | ADR-B-06 | 4 | 325 | A | nie | podstawa nie na końcu |
-| ADR-B-0551 | ADR-B-08 | 4 | 352 | C | nie | podstawa nie na końcu |
-| ADR-B-0552 | ADR-B-08 | 4 | 310 | B | nie | podstawa nie na końcu |
-| ADR-B-0553 | ADR-B-08 | 4 | 327 | C | nie | podstawa nie na końcu |
-| ADR-B-0554 | ADR-B-09 | 4 | 321 | A | nie | podstawa nie na końcu |
-| ADR-B-0555 | ADR-B-09 | 4 | 314 | B | nie | podstawa nie na końcu |
-| ADR-B-0556 | ADR-B-09 | 4 | 337 | C | nie | podstawa nie na końcu |
-| ADR-B-0557 | ADR-B-09 | 4 | 337 | A | nie | podstawa nie na końcu |
-| ADR-B-0558 | ADR-B-09 | 4 | 395 | B | nie | podstawa nie na końcu |
-| ADR-B-0559 | ADR-B-09 | 4 | 338 | C | nie | podstawa nie na końcu |
-| ADR-B-0560 | ADR-B-09 | 4 | 369 | B | nie | podstawa nie na końcu |
-| ADR-B-0561 | ADR-B-06 | 4 | 351 | A | nie | podstawa nie na końcu |
-| ADR-B-0562 | ADR-B-06 | 4 | 319 | B | nie | podstawa nie na końcu |
-| ADR-B-0563 | ADR-B-06 | 4 | 308 | C | nie | podstawa nie na końcu |
-| ADR-B-0564 | ADR-B-06 | 4 | 368 | C | nie | podstawa nie na końcu |
-| ADR-B-0565 | ADR-B-06 | 4 | 279 | A | nie | długość, podstawa nie na końcu |
-| ADR-B-0566 | ADR-B-08 | 4 | 344 | B | nie | podstawa nie na końcu |
-| ADR-B-0567 | ADR-B-07 | 4 | 366 | A | nie | podstawa nie na końcu |
-| ADR-B-0568 | ADR-B-07 | 3 | 335 | B | nie | podstawa nie na końcu |
-| ADR-B-0569 | ADR-B-07 | 4 | 371 | C | nie | podstawa nie na końcu |
+| ADR-B-0546 | ADR-B-06 | 4 | 337 | B | nie | PASS redakcyjny |
+| ADR-B-0547 | ADR-B-06 | 4 | 352 | A | nie | PASS redakcyjny |
+| ADR-B-0548 | ADR-B-06 | 4 | 348 | C | nie | PASS redakcyjny |
+| ADR-B-0549 | ADR-B-06 | 4 | 315 | B | nie | PASS redakcyjny |
+| ADR-B-0550 | ADR-B-06 | 4 | 325 | A | nie | PASS redakcyjny |
+| ADR-B-0551 | ADR-B-08 | 4 | 352 | C | nie | PASS redakcyjny |
+| ADR-B-0552 | ADR-B-08 | 4 | 310 | B | nie | PASS redakcyjny |
+| ADR-B-0553 | ADR-B-08 | 4 | 327 | C | nie | PASS redakcyjny |
+| ADR-B-0554 | ADR-B-09 | 4 | 321 | A | nie | PASS redakcyjny |
+| ADR-B-0555 | ADR-B-09 | 4 | 314 | B | nie | PASS redakcyjny |
+| ADR-B-0556 | ADR-B-09 | 4 | 337 | C | nie | PASS redakcyjny |
+| ADR-B-0557 | ADR-B-09 | 4 | 337 | A | nie | PASS redakcyjny |
+| ADR-B-0558 | ADR-B-09 | 4 | 395 | B | nie | PASS redakcyjny |
+| ADR-B-0559 | ADR-B-09 | 4 | 338 | C | nie | PASS redakcyjny |
+| ADR-B-0560 | ADR-B-09 | 4 | 369 | B | nie | PASS redakcyjny |
+| ADR-B-0561 | ADR-B-06 | 4 | 351 | A | nie | PASS redakcyjny |
+| ADR-B-0562 | ADR-B-06 | 4 | 319 | B | nie | PASS redakcyjny |
+| ADR-B-0563 | ADR-B-06 | 4 | 308 | C | nie | PASS redakcyjny |
+| ADR-B-0564 | ADR-B-06 | 4 | 368 | C | nie | PASS redakcyjny |
+| ADR-B-0565 | ADR-B-06 | 4 | 336 | A | nie | PASS redakcyjny |
+| ADR-B-0566 | ADR-B-08 | 4 | 344 | B | nie | PASS redakcyjny |
+| ADR-B-0567 | ADR-B-07 | 4 | 366 | A | nie | PASS redakcyjny |
+| ADR-B-0568 | ADR-B-07 | 3 | 335 | B | nie | PASS redakcyjny |
+| ADR-B-0569 | ADR-B-07 | 4 | 371 | C | nie | PASS redakcyjny |
 
 ## Wymagane dalsze działania
 
