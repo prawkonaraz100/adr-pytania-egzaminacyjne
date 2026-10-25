@@ -16,11 +16,11 @@ DEFAULT_PATH = ROOT / "podstawowy" / "questions.jsonl"
 THRESHOLD = 0.60
 
 # Existing pairs reviewed manually. 0071/0072 test different DMC bands and
-# distinct numerical thresholds. 0169/0585 repeat the same accessibility case;
-# that pair is retained temporarily until the B-05–08 cleanup rewrites 0585.
+# distinct numerical thresholds. 0330/0337 test different ADR exclusions:
+# class 5.2 versus class 6.2. Confirmed duplicate 0169/0585 was resolved by
+# rewriting 0585 to test mounting/protection against damage rather than access.
 REVIEWED_PAIR_ALLOWLIST = {
     ("ADR-B-0071", "ADR-B-0072"): "Same rule, different DMC band; answers test distinct threshold.",
-    ("ADR-B-0169", "ADR-B-0585"): "Confirmed near-duplicate; scheduled for rewrite in B-05–08 batch.",
     ("ADR-B-0330", "ADR-B-0337"): "Same procedural question but distinct ADR exclusions: class 5.2 versus class 6.2.",
 }
 STOP = {"jakie", "jaki", "ktora", "ktore", "ktory", "przy", "podczas", "zgodnie",
