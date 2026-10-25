@@ -60,6 +60,24 @@ Każda symulacja ma pomóc kursantowi wyjaśnić decyzję własnymi słowami: co
 - SC-ADR-B-09: oceń pozostałości, opakowania i mocowanie przed wyjazdem.
 - SC-ADR-B-09-02: nieznane pozostałości wyjaśnij przed kolejnym załadunkiem.
 - SC-ADR-B-09-03: zabezpiecz cały ładunek i potwierdź dopuszczenie przewozu luzem.
+## Scenariusze dla kursanta — działy B-10–B-12
+
+Przy każdym ćwiczeniu kursant powinien wyjaśnić własnymi słowami: co sprawdza, dlaczego nie wybiera skrótu i kiedy zatrzymuje czynność. Pola common_mistakes, legal_basis i learner_takeaway w rekordach scenariuszy pomagają przeprowadzić omówienie po ćwiczeniu. To symulacje, nie dowód wykonania zajęć praktycznych.
+
+### B-10 — transport kombinowany
+- SC-ADR-B-10: dokument morski nie oznacza automatycznego zwolnienia z wymagań drogowych.
+- SC-ADR-B-10-02: sprawdź warunki ADR 1.1.4.2 i nie zgaduj brakujących danych.
+- SC-ADR-B-10-03: porównaj identyfikator kontenera z certyfikatem i dokumentem przewozowym.
+
+### B-11 — tunele i planowanie trasy
+- SC-ADR-B-11: ustal kod dla całej jednostki i porównaj go ze znakiem tunelu.
+- SC-ADR-B-11-02: nawigacja nie uchyla zakazu przejazdu.
+- SC-ADR-B-11-03: nie wybieraj najłagodniejszego kodu; zastosuj regułę ADR dla całego ładunku.
+
+### B-12 — ochrona przewozu
+- SC-ADR-B-12: sprawdź plan ochrony i zweryfikuj odbiorcę.
+- SC-ADR-B-12-02: zmianę postoju uzgodnij zgodnie z procedurą ochrony.
+- SC-ADR-B-12-03: numer zlecenia nie zastępuje potwierdzenia tożsamości i uprawnienia odbiorcy.
 ## Zakres i zasada bezpieczeństwa
 
 Ćwiczenia muszą być prowadzone w warunkach odpowiednich do nadzorowanych zajęć. Nie wykorzystuje się prawdziwej niebezpiecznej substancji ani nie naraża kursantów na działanie ognia, oparów lub innych zagrożeń. Ćwiczenia ogniowe odbywają się wyłącznie na przygotowanym stanowisku szkoleniowym z zabezpieczeniem i instruktorem.
