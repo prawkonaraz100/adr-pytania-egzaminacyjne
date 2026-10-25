@@ -24,11 +24,20 @@ Warianty są przeznaczone wyłącznie do nauki. Każdy arkusz ma 30 pytań, 60 m
 
 Bank zawiera 609 pytań `needs_review` i 0 `verified`. Arkusze mają `publication_authorized: false` i nie są oficjalnymi arkuszami ani materiałem do formalnej oceny. Klucze i explanation są synchronizowane z bankiem przez Quality Gate.
 
-## Wynik kontroli etapu 4x10
+## Wynik kontroli etapu 4x18
 
 - Warianty 001–005 mają po 30 unikalnych pytań; żadne ID nie powtarza się między wariantami.
-- Każdy wariant obejmuje 13 działów z zachowaniem dotychczasowego rozkładu działów.
+- Każdy wariant obejmuje wszystkie 13 działów; każdy dział ma 2 lub 3 pytania, zgodnie z proporcjonalnym rozkładem w arkuszu 30-pytaniowym.
+- Arkusze i klucze mają wspólny `source_bank_head`, odpowiadający aktualnemu blobowi `questions.jsonl`; Quality Gate liczy SHA Git blob i porównuje go z każdym arkuszem oraz kluczem.
 - Rozkład poprawnych liter po zmianie kolejności opcji: każdy wariant A/B/C = 10/10/10.
 - Najdłuższa seria tej samej poprawnej litery: 001=3, 002=3, 003=3, 004=3, 005=2.
 - Walidator: `scripts/check_mock_exam_variants.py`; testy: `tests/test_mock_exam_variants.py`.
 - Raport audytu języka: [Etap 4x10](../raporty/etap-4x10-egzaminy-jezyk-kursanta-2026-10-25.md).
+
+
+## Kontrola etapu 4x18
+
+- Migawka banku: `ec1bb5391aa9875e2a1aa7bdb138fb79b3bf72dd` (609 rekordów; 0 duplikatów ID).
+- Wszystkie 5 arkuszy i 5 kluczy wskazują tę samą migawkę; test sprawdza zgodność ID, treści, działu, opcji, poprawnej odpowiedzi i explanation z bankiem.
+- Każdy wariant ma 30 pytań bez powtórzeń, wszystkie 13 działów (po 2–3 pytania), A/B/C = 10/10/10 i serię tej samej litery nie dłuższą niż 3.
+- Walidator oblicza Git blob SHA-1 z aktualnego pliku banku i blokuje rozjazd metadanych źródła. Testy: `tests/test_mock_exam_variants.py`.
