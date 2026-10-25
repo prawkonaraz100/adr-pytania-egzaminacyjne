@@ -215,10 +215,10 @@ Pełna, maszynowo sprawdzana mapa kroków i ID pytań znajduje się w `scenarius
 
 | Dział | Sytuacja | Pytania do powtórki |
 |---|---|---|
-| ADR-B-01 | Kontrola drogowa: czy przewóz korzysta ze zwolnienia? | ADR-B-0002, ADR-B-0259, ADR-B-0526 |
+| ADR-B-01 | Kontrola zwolnień, ilości i dopuszczalności przewozu | ADR-B-0002, ADR-B-0259, ADR-B-0526, ADR-B-0570–0573, ADR-B-0595, ADR-B-0605–0609 |
 | ADR-B-02 | Rozładunek: mokre opakowanie z nalepką 4.3 | ADR-B-0006, ADR-B-0510 |
 | ADR-B-03 | Wyciek przy kratce kanalizacyjnej | ADR-B-0009, ADR-B-0514 |
-| ADR-B-04 | Załadunek: e-papieros i pracujący silnik | ADR-B-0010, ADR-B-0012 |
+| ADR-B-04 | Załadunek, źródła zapłonu i wymagany nadzór postoju | ADR-B-0010, ADR-B-0012, ADR-B-0310, ADR-B-0347, ADR-B-0580–0581 |
 | ADR-B-05 | Wypadek i zagrożenie przy przesyłce | ADR-B-0013, ADR-B-0015, ADR-B-0169 |
 | ADR-B-06 | Kontrola oznakowania kontenera | ADR-B-0507, ADR-B-0546, ADR-B-0562 |
 | ADR-B-07 | Uszkodzone opakowanie mimo poprawnych dokumentów | ADR-B-0020, ADR-B-0517, ADR-B-0567, ADR-B-0568, ADR-B-0569 |
