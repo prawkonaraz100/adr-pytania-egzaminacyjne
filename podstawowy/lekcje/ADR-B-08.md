@@ -158,3 +158,18 @@ Te pytania pozostają `needs_review`; przykłady wymagają niezależnej recenzji
 - DMC to dopuszczalna masa całkowita; nie stosuj jednego wymogu do każdego pojazdu bez sprawdzenia rodzaju przewozu i zwolnień.
 - Jeśli ADR wymaga świadectwa dopuszczenia, sprawdź jego ważność i dostępność — nie zastępuj go ustnym zapewnieniem firmy.
 - Podstawy do dalszej nauki: ADR 8.1.4 i 9.1.3.1.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0418`
+- `ADR-B-0551`
+- `ADR-B-0566`
+- `ADR-B-0022`
+- `ADR-B-0023`
+- `ADR-B-0024`
+- `ADR-B-0056`
+- `ADR-B-0057`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-08 — ADR-B-08](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-08`; jest to symulacja, nie zaliczenie zajęć praktycznych).
