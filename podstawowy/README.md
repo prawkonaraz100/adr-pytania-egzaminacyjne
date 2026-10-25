@@ -43,6 +43,8 @@
 - [Etap 4x2 — redakcja podręcznikowa lekcji 01–04](raporty/etap-4x2-redakcja-lekcji-01-04-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 05–08](raporty/etap-4x2-redakcja-lekcji-05-08-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 09–12](raporty/etap-4x2-redakcja-lekcji-09-12-2026-10-25.md)
+- [Etap 4x2 — redakcja podręcznikowa lekcji 13](raporty/etap-4x2-redakcja-lekcji-13-2026-10-25.md)
+- Materiały dla instruktora: [B-13](instruktor/ADR-B-13.md).
 - Materiały dla instruktora: [B-09](instruktor/ADR-B-09.md), [B-10](instruktor/ADR-B-10.md), [B-11](instruktor/ADR-B-11.md), [B-12](instruktor/ADR-B-12.md).
 - Materiały dla instruktora: [B-05](instruktor/ADR-B-05.md), [B-06](instruktor/ADR-B-06.md), [B-07](instruktor/ADR-B-07.md), [B-08](instruktor/ADR-B-08.md).
 - Materiały dla instruktora: [B-01](instruktor/ADR-B-01.md), [B-02](instruktor/ADR-B-02.md), [B-03](instruktor/ADR-B-03.md), [B-04](instruktor/ADR-B-04.md).
@@ -70,7 +72,7 @@ Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **86/60
 ## Status weryfikacji
 
 - Bank: 609 `needs_review`, 0 `verified`.
-- Lekcje: etap 4x1 — odbiór dydaktyczny 13/13; etap 4x2 — ujednolicono redakcyjnie B-01–B-12. B-13 i końcowa aktualizacja pakietu pozostają do wykonania. Wszystkie nadal wymagają niezależnej recenzji prawnej i formalnego odbioru instruktorskiego.
+- Lekcje: etap 4x1 — odbiór dydaktyczny 13/13; etap 4x2 — ujednolicono redakcyjnie B-01–B-13. Aktualizacja egzaminów próbnych i pakietu recenzyjnego pozostaje osobnym krokiem. Wszystkie lekcje nadal wymagają niezależnej recenzji prawnej i formalnego odbioru instruktorskiego.
 - Praktyka: 3 scenariusze do przeprowadzenia i udokumentowania przez instruktora; repozytorium nie poświadcza, że ćwiczenia odbyły się.
 - Prawo: pełne porównanie każdego punktu z polskim tekstem urzędowym i sprostowaniem oraz niezależna recenzja specjalisty pozostają otwarte.
 
