@@ -167,3 +167,18 @@ Przed wyjazdem porównaj dokument przewozowy z ładunkiem, numerem UN i oznakowa
 - Instrukcje pisemne służą do postępowania w razie awarii; nie zastępują dokumentu przewozowego.
 - Brak lub rozbieżność wymaganych danych trzeba wyjaśnić przed rozpoczęciem przewozu.
 - Podstawy do dalszej nauki: ADR 5.4.1 i 5.4.3.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0508`
+- `ADR-B-0525`
+- `ADR-B-0530`
+- `ADR-B-0037`
+- `ADR-B-0038`
+- `ADR-B-0039`
+- `ADR-B-0068`
+- `ADR-B-0069`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-13 — ADR-B-13](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-13`; jest to symulacja, nie zaliczenie zajęć praktycznych).
