@@ -22,8 +22,8 @@
       "exact_record_snapshot": {
         "stem": "Jakie szkolenie powinien otrzymać pracownik nadawcy, którego obowiązki dotyczą przewozu towarów niebezpiecznych?",
         "options": {
-          "A": "Wyłącznie ogólne szkolenie BHP, bez zagadnień ADR związanych z jego obowiązkami",
-          "B": "Zawsze tylko specjalistyczny kurs kierowcy z 8.2, niezależnie od rodzaju pracy magazynowej",
+          "A": "Ogólne szkolenie BHP bez omówienia wymagań ADR dotyczących pracy nadawcy",
+          "B": "Kurs specjalistyczny kierowcy zamiast szkolenia do pracy przy nadawaniu",
           "C": "Szkolenie z wymagań ADR dotyczących jego pracy"
         },
         "correct_option": "C",
@@ -63,9 +63,9 @@
       "exact_record_snapshot": {
         "stem": "Czy przewóz niewielkiej ilości towarów niebezpiecznych automatycznie zwalnia kierowcę ze wszystkich wymagań ADR?",
         "options": {
-          "A": "Tak, niezależnie od rodzaju towaru",
+          "A": "Tak, gdy ładunek jest niewielki względem ładowności pojazdu",
           "B": "Nie, zwolnienia zależą od warunków określonych w ADR",
-          "C": "Tak, jeśli kierowca jedzie tylko po Polsce"
+          "C": "Tak, jeśli przewóz odbywa się na trasie krajowej"
         },
         "correct_option": "B",
         "explanation": "Mała ilość towaru nie oznacza, że przewóz jest całkowicie poza ADR. Zanim kierowca skorzysta ze zwolnienia, trzeba sprawdzić rodzaj towaru, jego ilość oraz sposób zapakowania. Sama jazda po Polsce ani niewielki ładunek nie dają automatycznego zwolnienia ze wszystkich obowiązków. Podstawa: ADR 1.1.3.",
@@ -227,8 +227,8 @@
       "exact_record_snapshot": {
         "stem": "Która cecha jest charakterystyczna dla materiałów klasy 4.3 ADR?",
         "options": {
-          "A": "Zawsze są gazami pod ciśnieniem i nie reagują z wodą",
-          "B": "Są wyłącznie cieczami żrącymi",
+          "A": "Są gazami pod ciśnieniem, których głównym ryzykiem jest rozerwanie butli",
+          "B": "Są cieczami żrącymi, powodującymi oparzenia skóry i korozję metalu",
           "C": "W kontakcie z wodą wydzielają gazy palne"
         },
         "correct_option": "C",
@@ -392,7 +392,7 @@
         "stem": "Czy podczas czynności ładunkowych ADR wolno palić e-papierosa w pobliżu pojazdu?",
         "options": {
           "A": "Tak, bo elektroniczne urządzenie nie ma otwartego płomienia jak zwykły papieros",
-          "B": "Tak, ale tylko kierowcy",
+          "B": "Tak, gdy e-papierosa używa kierowca, a załadunek prowadzi magazynier",
           "C": "Nie, zakaz obejmuje również e-papierosy i podobne urządzenia"
         },
         "correct_option": "C",
@@ -475,7 +475,7 @@
         "options": {
           "A": "Zwiększyć obroty silnika",
           "B": "Wyłączyć silnik, chyba że zachodzi przewidziany przepisami wyjątek",
-          "C": "Zawsze pozostawić silnik włączony podczas załadunku, aby zasilał instalację pojazdu"
+          "C": "Pozostawić silnik włączony, aby ogrzewał kabinę podczas załadunku"
         },
         "correct_option": "B",
         "explanation": "Podczas załadunku lub rozładunku silnik zwykle powinien być wyłączony, żeby ograniczyć niepotrzebne zagrożenia w pobliżu towarów niebezpiecznych. Nie trzeba utrzymywać go na wysokich obrotach ani zawsze pozostawiać włączonego. Wyjątek może dotyczyć sytuacji, gdy silnik jest potrzebny do obsługi urządzeń i pozwalają na to odpowiednie przepisy. Podstawa: ADR 8.3.6.",
@@ -514,9 +514,9 @@
       "exact_record_snapshot": {
         "stem": "Gdzie podczas przewozu powinny znajdować się instrukcje pisemne ADR?",
         "options": {
-          "A": "Wyłącznie w biurze przewoźnika, skąd dyspozytor odczyta je telefonicznie",
+          "A": "W biurze przewoźnika, skąd dyspozytor przekaże informacje przez telefon",
           "B": "W kabinie załogi, w łatwo dostępnym miejscu",
-          "C": "Tylko u odbiorcy przesyłki"
+          "C": "W dokumentacji odbiorcy przygotowanej do rozładunku"
         },
         "correct_option": "B",
         "explanation": "Instrukcje pisemne opisują, co załoga ma zrobić, gdy dojdzie do awarii, na przykład wycieku lub pożaru. W stresującej sytuacji nie ma czasu szukać ich w biurze przewoźnika ani prosić o nie odbiorcy. Dlatego powinny znajdować się w kabinie, w miejscu łatwo dostępnym dla załogi. Podstawa: ADR 5.4.3.1.",
@@ -598,7 +598,7 @@
         "options": {
           "A": "Tak, aby załoga mogła łatwo po nie sięgnąć",
           "B": "Pod ładunkiem, bez możliwości wyjęcia w trasie",
-          "C": "Wyłącznie w zamkniętym magazynie przewoźnika"
+          "C": "W magazynie przewoźnika, skąd wydaje się je po zgłoszeniu awarii"
         },
         "correct_option": "A",
         "explanation": "Gaśnica przyda się tylko wtedy, gdy załoga może szybko ją wyjąć i bezpiecznie użyć zgodnie z instrukcjami. Powinna więc być zamocowana w łatwo dostępnym miejscu i chroniona przed uszkodzeniem lub warunkami, które pogorszą jej działanie. Schowanie jej pod ładunkiem albo pozostawienie w magazynie sprawiłoby, że nie pomoże w sytuacji awaryjnej. Podstawa: ADR 8.1.4.5.",
@@ -760,9 +760,9 @@
       "exact_record_snapshot": {
         "stem": "Kto zgodnie z ADR przekazuje załodze pojazdu wymagane instrukcje pisemne?",
         "options": {
-          "A": "Wyłącznie policja",
+          "A": "Policja podczas kontroli pojazdu przed rozpoczęciem przewozu",
           "B": "Przewoźnik",
-          "C": "Każdorazowo odbiorca"
+          "C": "Odbiorca, który przyjmuje niebezpieczną przesyłkę"
         },
         "correct_option": "B",
         "explanation": "To przewoźnik ma zapewnić załodze instrukcje pisemne, które wyjaśniają sposób postępowania w razie zdarzenia. Powinny być w języku zrozumiałym dla członków załogi, inaczej trudno byłoby z nich skorzystać pod presją czasu. Nie jest to obowiązek policji ani każdorazowo odbiorcy przesyłki. Podstawa: ADR 1.4.2.2.6 i 5.4.3.2.",
@@ -1008,8 +1008,8 @@
         "stem": "Na jakiej podstawie należy ustalić, czy sztuki przesyłek z różnymi nalepkami ostrzegawczymi ADR wolno załadować do jednego pojazdu?",
         "options": {
           "A": "Na podstawie zasad i tabeli zakazów ładowania razem w ADR 7.5.2",
-          "B": "Wyłącznie na podstawie koloru opakowań",
-          "C": "Tylko według wolnego miejsca w pojeździe i rozmieszczenia palet na podłodze"
+          "B": "Według podobieństwa barw i symboli na opakowaniach",
+          "C": "Według wolnej przestrzeni i możliwości rozdzielenia palet pasami"
         },
         "correct_option": "A",
         "explanation": "Dopuszczalność wspólnego załadunku wynika z zasad i tabeli zakazów ładowania razem w ADR 7.5.2. Kolor opakowań ani wolne miejsce i rozmieszczenie palet nie rozstrzygają, czy dane towary można przewozić razem. Przed załadunkiem sprawdź klasyfikację, nalepki i ewentualne przepisy szczególne. Podstawa: ADR 7.5.2.",
@@ -1050,7 +1050,7 @@
         "options": {
           "A": "Tak, aby nie przemieszczały się w normalnych warunkach jazdy",
           "B": "Wystarczy położyć je luźno na podłodze",
-          "C": "Należy ustawić je zawsze na boku"
+          "C": "Ułożyć przesyłki na boku, aby obniżyć środek ciężkości ładunku"
         },
         "correct_option": "A",
         "explanation": "Podczas hamowania lub skręcania niezabezpieczona przesyłka może się przesunąć, przewrócić albo uszkodzić. Dlatego trzeba tak rozmieścić i umocować ładunek, by pozostał stabilny w zwykłych warunkach jazdy. Luźne ułożenie na podłodze ani ustawienie każdego opakowania na boku nie zapewniają bezpieczeństwa. Podstawa: ADR 7.5.7.1.",
@@ -1131,8 +1131,8 @@
         "stem": "Jeśli przewóz towarów niebezpiecznych obejmuje odcinek drogowy i morski, które przepisy mogą być istotne?",
         "options": {
           "A": "ADR i przepisy morskie",
-          "B": "Wyłącznie wewnętrzny regulamin magazynu",
-          "C": "Wyłącznie przepisy o parkowaniu"
+          "B": "Regulamin magazynu dotyczący przechowywania towarów",
+          "C": "Przepisy o parkowaniu pojazdów w terminalu morskim"
         },
         "correct_option": "A",
         "explanation": "Gdy towar jedzie ciężarówką do portu, a następnie statkiem, poszczególne odcinki podlegają właściwym dla nich zasadom bezpieczeństwa. Dla drogi istotny jest ADR, a dla morza odpowiednie przepisy morskie. Sam regulamin magazynu ani zasady parkowania nie obejmują wymagań przewozu niebezpiecznego ładunku. Podstawa: ADR 1.1.4.2.",
@@ -1171,7 +1171,7 @@
       "exact_record_snapshot": {
         "stem": "Czy sztuka przesyłki przygotowana zgodnie z kodeksem morskim IMDG może, w określonych warunkach ADR, uczestniczyć w dalszym przewozie drogowym w łańcuchu obejmującym transport morski?",
         "options": {
-          "A": "Nie, nigdy",
+          "A": "Nie, przed jazdą drogową trzeba ponownie przygotować przesyłkę według pełnego ADR",
           "B": "Tak, pod warunkami ADR dla odcinka drogowego",
           "C": "Tak, bez jakichkolwiek wymagań na odcinku drogowym"
         },
