@@ -1,5 +1,8 @@
 # ADR-B-03 — Ochrona środowiska, wycieki i odpady
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Po uszkodzeniu przesyłki kierowca może spotkać się z wyciekiem, oparami albo pozostałościami po rozładunku. Nieprawidłowa reakcja może narazić ludzi i doprowadzić do skażenia kanalizacji lub wód. Najpierw chroń siebie i innych, a potem stosuj instrukcje i wymagania właściwe dla sytuacji.
 
