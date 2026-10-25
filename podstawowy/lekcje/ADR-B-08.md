@@ -14,7 +14,7 @@ Samo posiadanie wyposażenia nie wystarcza. Sprzęt musi być właściwy dla prz
 - reagować na brak, uszkodzenie lub niedostępność sprzętu przed wyjazdem.
 
 ## 1. Gaśnice — wymagania zależą od przewozu
-Liczba i pojemność gaśnic zależą od wymagań ADR dla pojazdu, jego dopuszczalnej masy całkowitej (DMC) oraz warunków przewozu i ewentualnego zastosowania wyłączenia. Nie zakładaj jednego zestawu dla każdego pojazdu. Sprawdź ADR 8.1.4 i właściwe wymagania dla konkretnej konfiguracji.
+Liczba i pojemność gaśnic zależą od wymagań ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)) dla pojazdu, jego dopuszczalnej masy całkowitej (DMC (dopuszczalna masa całkowita pojazdu, czyli maksymalna masa pojazdu wraz z ładunkiem; [słowniczek](../SLOWNICZEK.md#dmc))) oraz warunków przewozu i ewentualnego zastosowania wyłączenia. Nie zakładaj jednego zestawu dla każdego pojazdu. Sprawdź ADR 8.1.4 i właściwe wymagania dla konkretnej konfiguracji.
 
 Gaśnice muszą być sprawne, mieć wymagane oznaczenia i terminy przeglądu, być prawidłowo zamocowane oraz łatwo dostępne. Gaśnica przeterminowana, uszkodzona, zasłonięta ładunkiem lub leżąca luzem może nie spełniać wymagań. Usuń niezgodność przed wyjazdem.
 
@@ -33,7 +33,7 @@ Przy pełnych wymaganiach ADR 8.1.4.1 minimalne wyposażenie jednostki transport
 | Powyżej 3,5 t do 7,5 t włącznie | 2 | 8 kg |
 | Powyżej 7,5 t | 2 | 12 kg |
 
-Przy przewozie na warunkach wyłączenia ilościowego ADR 1.1.3.6 zasadnicze wymaganie z ADR 8.1.4.2 to co najmniej jedna przenośna gaśnica o pojemności **2 kg proszku** lub odpowiedniej równoważnej skuteczności. Nie myl tej odrębnej reguły z tabelą dla pełnego zakresu ADR. Sama łączna masa nie wystarczy, jeżeli wymagana liczba gaśnic nie została spełniona. Podstawa do kontroli: ADR 8.1.4.1–8.1.4.2 (pytania ADR-B-0022, 0071–0073, 0282 i 0417–0421).
+Przy przewozie na warunkach wyłączenia ilościowego ADR 1.1.3.6 (wyłączenie ilościowe, które ogranicza część wymagań tylko po spełnieniu warunków i obliczeniu ilości; [słowniczek](../SLOWNICZEK.md#adr-1-1-3-6-wylaczenie-ilosciowe)) zasadnicze wymaganie z ADR 8.1.4.2 to co najmniej jedna przenośna gaśnica o pojemności **2 kg proszku** lub odpowiedniej równoważnej skuteczności. Nie myl tej odrębnej reguły z tabelą dla pełnego zakresu ADR. Sama łączna masa nie wystarczy, jeżeli wymagana liczba gaśnic nie została spełniona. Podstawa do kontroli: ADR 8.1.4.1–8.1.4.2 (pytania ADR-B-0022, 0071–0073, 0282 i 0417–0421).
 
 ## 2. Wyposażenie osobiste załogi
 Sprawdź osobno wyposażenie wymagane dla pojazdu i dla każdego członka załogi. Kamizelka ostrzegawcza, latarka, rękawice ochronne i ochrona oczu mają różne funkcje i nie zastępują się wzajemnie. Jeżeli wymóg dotyczy każdego członka załogi, jedna kamizelka dla dwóch osób nie wystarczy. Zwykłe rękawice nie muszą chronić przed konkretnym towarem; nie dotykaj nieznanej substancji nawet wtedy, gdy masz rękawice.
@@ -46,7 +46,7 @@ Nie każdy pojazd przewożący towary niebezpieczne wymaga takiego samego świad
 
 
 ### Typ pojazdu i świadectwo dopuszczenia
-Świadectwo dopuszczenia ADR jest wymagane tylko dla określonych rodzajów pojazdów i przewozów, a nie automatycznie dla każdego samochodu przewożącego jakąkolwiek ilość towaru niebezpiecznego. Pojazdy EX/II i EX/III są określonymi typami pojazdów przeznaczonych do przewozu materiałów i przedmiotów wybuchowych klasy 1; sprawdź definicję i wymagania ADR 9.1.1.2. Jeżeli dla danego pojazdu wymagane jest świadectwo dopuszczenia, musi ono być ważne i dostępne w pojeździe podczas przewozu (ADR 9.1.3.1 oraz 8.1.2.2(a)). Istnieją czasowe wyjątki wynikające z umów wielostronnych. W banku pytań wskazano umowę M364 i warunkowy wyjątek dotyczący naczepy do 31 grudnia 2026 r.; przed zastosowaniem sprawdź oryginalny tekst umowy, aktualną ważność, rodzaj pojazdu i spełnienie wszystkich warunków. Sama informacja o umowie nie zastępuje dokumentu ani nie rozszerza wyjątku na ciągnik lub inny pojazd. Jeżeli dla danego pojazdu wymagane jest świadectwo, musi ono być ważne i dostępne zgodnie z ADR 9.1.3.1 i wymaganiami dokumentacyjnymi 8.1.2.2. Informacja firmy, że pojazd kiedyś przeszedł badanie, nie zastępuje aktualnego świadectwa. Nie rozpoczynaj przewozu, gdy wymagany dokument jest nieważny lub niedostępny.
+Świadectwo dopuszczenia ADR jest wymagane tylko dla określonych rodzajów pojazdów i przewozów, a nie automatycznie dla każdego samochodu przewożącego jakąkolwiek ilość towaru niebezpiecznego. Pojazdy EX/II (oznaczenia typów pojazdów do określonych przewozów materiałów wybuchowych; [słowniczek](../SLOWNICZEK.md#ex-ii-i-ex-iii)) i EX/III są określonymi typami pojazdów przeznaczonych do przewozu materiałów i przedmiotów wybuchowych klasy 1; sprawdź definicję i wymagania ADR 9.1.1.2. Jeżeli dla danego pojazdu wymagane jest świadectwo dopuszczenia, musi ono być ważne i dostępne w pojeździe podczas przewozu (ADR 9.1.3.1 oraz 8.1.2.2(a)). Istnieją czasowe wyjątki wynikające z umów wielostronnych. W banku pytań wskazano umowę M364 i warunkowy wyjątek dotyczący naczepy do 31 grudnia 2026 r.; przed zastosowaniem sprawdź oryginalny tekst umowy, aktualną ważność, rodzaj pojazdu i spełnienie wszystkich warunków. Sama informacja o umowie nie zastępuje dokumentu ani nie rozszerza wyjątku na ciągnik lub inny pojazd. Jeżeli dla danego pojazdu wymagane jest świadectwo, musi ono być ważne i dostępne zgodnie z ADR 9.1.3.1 i wymaganiami dokumentacyjnymi 8.1.2.2. Informacja firmy, że pojazd kiedyś przeszedł badanie, nie zastępuje aktualnego świadectwa. Nie rozpoczynaj przewozu, gdy wymagany dokument jest nieważny lub niedostępny.
 ## Typowe błędy kursantów
 - stosowanie tej samej liczby gaśnic dla każdego pojazdu;
 - ignorowanie DMC i warunków zastosowania wyłączenia;
@@ -75,7 +75,7 @@ Nie każdy pojazd przewożący towary niebezpieczne wymaga takiego samego świad
 - Co należy zrobić, gdy gaśnica ma nieważny przegląd?
 - Jak odróżnić wyposażenie pojazdu od wyposażenia osobistego?
 - Dlaczego jedna kamizelka dla dwóch członków załogi może nie wystarczyć?
-- Kiedy trzeba sprawdzić świadectwo dopuszczenia pojazdu?
+- Kiedy trzeba sprawdzić świadectwo dopuszczenia pojazdu (dokument wymagany dla określonych typów pojazdów i przewozów, nie dla każdego pojazdu ADR; [słowniczek](../SLOWNICZEK.md#swiadectwo-dopuszczenia-pojazdu))?
 
 Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0022`
