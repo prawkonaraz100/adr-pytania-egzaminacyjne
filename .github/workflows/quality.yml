@@ -20,6 +20,8 @@ jobs:
         run: python scripts/validate.py
       - name: Check coverage map
         run: python scripts/coverage.py
+      - name: Validate mock exam variants, answer keys, and learner-facing balance
+        run: python scripts/check_mock_exam_variants.py
       - name: Report shortest-answer and absolute-word leakage (advisory, Stage 4v)
         run: python scripts/answer_leakage_metrics.py
       - name: Enforce global and per-module correct-answer length bias threshold (18%)

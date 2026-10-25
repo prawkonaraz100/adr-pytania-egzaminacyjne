@@ -1,0 +1,140 @@
+#!/usr/bin/env python3
+"""Validate learner-facing mock exam variants and keys against the current bank."""
+import json
+import re
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+EXAMS = ROOT / "podstawowy" / "egzamin-probny"
+LETTERS = "ABC"
+
+
+def remap_explanation(text, mapping):
+    # Remap explicit references to answer choices when the printed option order changes.
+    text = re.sub(
+        r"\b(warianty|odpowiedzi)\s+([ABC])\s+i\s+([ABC])\b",
+        lambda m: f"{m.group(1)} {mapping.get(m.group(2), m.group(2))} i {mapping.get(m.group(3), m.group(3))}",
+        text,
+        flags=re.IGNORECASE,
+    )
+    return re.sub(
+        r"\b(odpowiedź|opcja|wariant|warianty|odpowiedzi)\s+([ABC])\b",
+        lambda m: f"{m.group(1)} {mapping.get(m.group(2), m.group(2))}",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+
+def longest_run(values):
+    best = run = 0
+    previous = None
+    for value in values:
+        run = run + 1 if value == previous else 1
+        previous = value
+        best = max(best, run)
+    return best
+
+
+def heuristic_warnings(rows):
+    warnings = []
+    cue = re.compile(
+        r"\b(bo|ponieważ|dlatego|oznacza|wskazuje|wynika|nie jest|nie są|nie oznacza|"
+        r"nie zastępuje|zamiast|natomiast|jednak|należy|trzeba|pozwala|wymaga|może)\b",
+        re.IGNORECASE,
+    )
+    for row in rows:
+        explanation = (row.get("explanation") or "").strip()
+        reasons = []
+        if re.match(r"^(?:ADR\s*)?\d+(?:\.\d+){1,}", explanation, re.IGNORECASE):
+            reasons.append("zaczyna się od numeru przepisu")
+        module_refs = set(re.findall(r"ADR-B-\d{2}", explanation))
+        if len(module_refs) > 3:
+            reasons.append(f"zawiera {len(module_refs)} odwołań do działów")
+        if not cue.search(explanation):
+            reasons.append("brak prostego sygnału wyjaśniającego")
+        if reasons:
+            warnings.append((row.get("id", "<brak-ID>"), "; ".join(reasons)))
+    return warnings
+
+
+def audit(root=ROOT):
+    bank_path = root / "podstawowy" / "questions.jsonl"
+    rows = [json.loads(line) for line in bank_path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    bank = {row["id"]: row for row in rows}
+    errors, stats, all_ids = [], [], []
+    for number in range(1, 6):
+        variant_path = root / "podstawowy" / "egzamin-probny" / f"wariant-{number:03}.json"
+        key_path = root / "podstawowy" / "egzamin-probny" / f"klucz-{number:03}.json"
+        exam, key = json.loads(variant_path.read_text(encoding="utf-8")), json.loads(key_path.read_text(encoding="utf-8"))
+        questions, answers = exam.get("questions", []), key.get("answers", [])
+        prefix = f"wariant-{number:03}"
+        if len(questions) != 30 or len(answers) != 30:
+            errors.append(f"{prefix}: arkusz/klucz musi mieć dokładnie 30 pytań")
+        if exam.get("publication_authorized") is not False or "answer_key_internal_only" in exam:
+            errors.append(f"{prefix}: arkusz nie może ujawniać klucza ani być zatwierdzony do publikacji")
+        ids = [q.get("id") for q in questions]
+        if len(ids) != len(set(ids)):
+            errors.append(f"{prefix}: powtórzone ID w arkuszu")
+        all_ids.extend(ids)
+        actual_modules = dict(sorted(Counter(q.get("module_id") for q in questions).items()))
+        declared_modules = dict(sorted(exam.get("module_distribution", {}).items()))
+        if actual_modules != declared_modules or len(actual_modules) != 13:
+            errors.append(f"{prefix}: rozkład działów nie zgadza się z deklaracją albo brakuje działu")
+        letters = []
+        for index, q in enumerate(questions):
+            qid = q.get("id")
+            source = bank.get(qid)
+            answer = answers[index] if index < len(answers) else {}
+            if source is None:
+                errors.append(f"{prefix}: {qid} nie istnieje w banku")
+                continue
+            if answer.get("id") != qid or answer.get("number") != q.get("number"):
+                errors.append(f"{prefix}: klucz nie zachowuje kolejności/ID przy {qid}")
+            if q.get("number") != index + 1:
+                errors.append(f"{prefix}: numeracja arkusza nie jest ciągła przy {qid}")
+            if q.get("module_id") != source.get("module_id") or q.get("stem") != source.get("stem"):
+                errors.append(f"{prefix}: treść pytania lub dział nie zgadza się z bankiem: {qid}")
+            options = q.get("options", {})
+            if Counter(options.values()) != Counter(source.get("options", {}).values()):
+                errors.append(f"{prefix}: zestaw odpowiedzi różni się od banku: {qid}")
+                continue
+            mapping = {old: next((new for new in LETTERS if options.get(new) == source["options"][old]), None) for old in LETTERS}
+            correct_letter = answer.get("correct_option")
+            if correct_letter not in LETTERS or options.get(correct_letter) != source["options"][source["correct_option"]]:
+                errors.append(f"{prefix}: poprawna odpowiedź w kluczu nie wskazuje tekstu poprawnego z banku: {qid}")
+            if answer.get("explanation") != remap_explanation(source.get("explanation", ""), mapping):
+                errors.append(f"{prefix}: explanation w kluczu nie jest zsynchronizowane z bankiem: {qid}")
+            if len((answer.get("explanation") or "").strip()) < 200:
+                errors.append(f"{prefix}: explanation poniżej 200 znaków: {qid}")
+            letters.append(correct_letter)
+        freq = {letter: letters.count(letter) for letter in LETTERS}
+        max_run = longest_run(letters)
+        if any(freq[letter] < 8 for letter in LETTERS):
+            errors.append(f"{prefix}: każda litera musi wystąpić co najmniej 8 razy, rozkład={freq}")
+        if max_run > 3:
+            errors.append(f"{prefix}: seria tej samej litery ma długość {max_run} (>3)")
+        stats.append({"variant": number, "letters": freq, "longest_run": max_run, "modules": actual_modules})
+    if len(all_ids) != len(set(all_ids)):
+        errors.append("Powtarzające się ID między wariantami 001–005")
+    return errors, stats, heuristic_warnings(rows)
+
+
+def main():
+    errors, stats, warnings = audit()
+    for item in stats:
+        print(f"Variant {item['variant']:03}: A/B/C={item['letters']['A']}/{item['letters']['B']}/{item['letters']['C']}; max_run={item['longest_run']}; modules={len(item['modules'])}")
+    print(f"Explanation heuristic warnings: {len(warnings)}")
+    for qid, reason in warnings:
+        print(f"  WARN {qid}: {reason}")
+    if errors:
+        print("FAIL: mock exam validation")
+        for error in errors:
+            print("  " + error)
+        return 1
+    print("PASS: five variants and keys match the current bank; letter distribution and run limits pass.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

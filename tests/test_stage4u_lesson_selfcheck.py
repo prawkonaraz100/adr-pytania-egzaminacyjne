@@ -1,10 +1,14 @@
 """Stage 4u regression checks: lesson self-check and mock exam variant 003."""
 import json
 import re
+import sys
 import unittest
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from check_mock_exam_variants import remap_explanation
 
 class Stage4uSelfCheckTests(unittest.TestCase):
     def test_all_lessons_link_valid_questions_and_scenarios(self):
@@ -49,20 +53,33 @@ class Stage4uSelfCheckTests(unittest.TestCase):
             self.assertEqual(variant["pass_mark_correct"], 20)
             self.assertFalse(variant["publication_authorized"])
             self.assertFalse(key["publication_authorized"])
+            paper_by_id = {q["id"]: q for q in questions}
             for q in questions:
                 self.assertIn(q["id"], bank)
                 source = bank[q["id"]]
                 self.assertEqual(q["module_id"], source["module_id"])
                 self.assertEqual(q["stem"], source["stem"])
-                self.assertEqual(q["options"], source["options"])
+                self.assertEqual(Counter(q["options"].values()), Counter(source["options"].values()))
             for answer in answers:
                 source = bank[answer["id"]]
-                self.assertEqual(answer["correct_option"], source["correct_option"])
-                self.assertEqual(answer["explanation"], source["explanation"])
+                paper = paper_by_id[answer["id"]]
+                mapping = {old: next(new for new in "ABC" if paper["options"][new] == source["options"][old]) for old in "ABC"}
+                self.assertEqual(paper["options"][answer["correct_option"]], source["options"][source["correct_option"]])
+                self.assertEqual(answer["explanation"], remap_explanation(source["explanation"], mapping))
                 self.assertEqual(answer["legal_basis"], [s.get("reference", "") for s in source.get("sources", [])])
             distribution = {letter: sum(1 for a in answers if a["correct_option"] == letter) for letter in "ABC"}
-            if number in (4, 5):
-                self.assertLessEqual(max(distribution.values()) - min(distribution.values()), 3, f"unbalanced key in variant {number}: {distribution}")
+            self.assertEqual(distribution, {"A": 10, "B": 10, "C": 10})
+            self.assertLessEqual(max_run([a["correct_option"] for a in answers]), 3, f"unbalanced run in variant {number}")
+
+def max_run(values):
+    best = run = 0
+    previous = None
+    for value in values:
+        run = run + 1 if value == previous else 1
+        previous = value
+        best = max(best, run)
+    return best
+
 
 if __name__ == "__main__":
     unittest.main()

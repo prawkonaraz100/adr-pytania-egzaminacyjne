@@ -32,23 +32,31 @@
 
 ## Egzamin próbny — tylko do treningu wewnętrznego
 
+Najpierw rozwiąż arkusz bez podglądania klucza. Klucze są zebrane w osobnej sekcji niż arkusze, aby ograniczyć przypadkowe podejrzenie odpowiedzi. Ponieważ repozytorium jest publiczne, nie jest to techniczna blokada dostępu — przed próbą nie otwieraj sekcji kluczy.
+
+### Arkusze
+
 - [Wariant 001 — arkusz pytań](egzamin-probny/wariant-001.json)
-- [Wariant 001 — klucz i wyjaśnienia](egzamin-probny/klucz-001.json)
 - [Wariant 002 — arkusz pytań](egzamin-probny/wariant-002.json)
-- [Wariant 002 — klucz i wyjaśnienia](egzamin-probny/klucz-002.json)
 - [Wariant 003 — arkusz pytań](egzamin-probny/wariant-003.json)
-- [Wariant 003 — klucz i wyjaśnienia](egzamin-probny/klucz-003.json)
 - [Wariant 004 — arkusz pytań](egzamin-probny/wariant-004.json)
-- [Wariant 004 — klucz i wyjaśnienia](egzamin-probny/klucz-004.json)
 - [Wariant 005 — arkusz pytań](egzamin-probny/wariant-005.json)
+
+### Klucze — otwórz dopiero po rozwiązaniu
+
+- [Wariant 001 — klucz i wyjaśnienia](egzamin-probny/klucz-001.json)
+- [Wariant 002 — klucz i wyjaśnienia](egzamin-probny/klucz-002.json)
+- [Wariant 003 — klucz i wyjaśnienia](egzamin-probny/klucz-003.json)
+- [Wariant 004 — klucz i wyjaśnienia](egzamin-probny/klucz-004.json)
 - [Wariant 005 — klucz i wyjaśnienia](egzamin-probny/klucz-005.json)
 - [Instrukcja egzaminów próbnych](egzamin-probny/README.md)
-- Format treningowy: 30 pytań, 60 minut, próg 20/30 (2/3). Generator dobiera pytania proporcjonalnie z 13 działów.
-- **Zastrzeżenie:** wszystkie pytania pozostają `needs_review`, więc egzamin nie jest zatwierdzonym testem do formalnej oceny ani oficjalnym arkuszem.
+
+Format treningowy: 30 pytań, 60 minut, próg 20/30 (2/3). Każdy wariant obejmuje wszystkie 13 działów. Pytania pozostają `needs_review`; to nie jest oficjalny ani zatwierdzony egzamin.
 
 ## Raporty i materiały
 
 - [Raport etapu 4q — przegląd oczami kursanta](raporty/etap-4q-przeglad-kursanta-2026-10-24.md)
+- [Etap 4x10 — egzaminy próbne i język kursanta](raporty/etap-4x10-egzaminy-jezyk-kursanta-2026-10-25.md)
 - [Etap 4x1 — odbiór dydaktyczny lekcji 01–04](raporty/etap-4x1-lekcje-01-04-2026-10-25.md)
 - [Etap 4x1 — odbiór dydaktyczny lekcji 05–08](raporty/etap-4x1-lekcje-05-08-2026-10-25.md)
 - [Etap 4x1 — odbiór dydaktyczny lekcji 09–13](raporty/etap-4x1-lekcje-09-13-2026-10-25.md)
