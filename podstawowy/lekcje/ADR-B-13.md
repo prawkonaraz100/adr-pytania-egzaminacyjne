@@ -161,6 +161,28 @@ Przed wyjazdem porównaj dokument przewozowy z ładunkiem, numerem UN i oznakowa
 
 **Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, A/B/C i podstawę prawną.
 
+## Uzupełnienie odbioru 4x1 — dokumenty i instrukcje pisemne (ADR-B-0577–0579, 0586–0590, 0598–0601)
+
+### Dokument przewozowy przed wyjazdem
+
+Sprawdź komplet danych wymaganych dla konkretnego przewozu: oznaczenie „UN” przed numerem, właściwą nazwę przewozową, klasę i inne wymagane elementy opisu, liczbę i rodzaj sztuk przesyłek, ilość — jeśli jest wymagana — oraz dane nadawcy i odbiorcy. Nie wpisuj danych na podstawie przypuszczeń. Gdy brakuje wymaganej informacji i nie zachodzi wyjątek, poproś odpowiedzialnego uczestnika o poprawienie dokumentu przed wyjazdem. Podstawa do sprawdzenia: ADR 5.4.1.1.1.
+
+### Instrukcje pisemne to osobny dokument
+
+Instrukcje pisemne mają ustalony wzór i powinny być dostępne dla załogi w kabinie. Przed wyjazdem każdy członek załogi powinien znać ich treść i wiedzieć, jak z nich korzystać; dokument w niezrozumiałym języku albo zamknięty w niedostępnym schowku nie spełnia praktycznego celu. Nie zastępuj ich firmową kartką ani numerem telefonu. Podstawa do sprawdzenia: ADR 5.4.3.1–5.4.3.4 oraz 8.1.2.3.
+
+### Przewóz po odcinku morskim
+
+Dokument przygotowany dla odcinka morskiego nie znosi automatycznie wszystkich wymagań dla odcinka drogowego. Sprawdź, czy warunki zastosowania ADR 1.1.4.2 są spełnione i czy dla danego przewozu wymagany jest dodatkowy wpis. Podstawa do sprawdzenia: ADR 1.1.4.2.1 i 5.4.1.1.7.
+
+**Scenariusz 1 — niekompletny dokument:** przed wyjazdem kierowca zauważa brak nazwy przewozowej lub wymaganych danych nadawcy/odbiorcy. Nie zgaduje i nie rusza, dopóki odpowiedzialna osoba nie wyjaśni braku.
+
+**Scenariusz 2 — instrukcje nieprzydatne w nagłym zdarzeniu:** kierowca otrzymał instrukcje w niezrozumiałym języku albo nie ma do nich dostępu. Przed wyjazdem należy zapewnić właściwą, dostępną wersję i zapoznanie załogi z jej treścią.
+
+**Scenariusz 3 — kontener z portu:** kierowca sprawdza dokumenty dla odcinka drogowego i warunki wyjątku zamiast zakładać, że dokument IMDG wystarcza sam w sobie.
+
+Powiązane pytania robocze: ADR-B-0577–0579, ADR-B-0586–0590 i ADR-B-0598–0601. Wszystkie pozostają `needs_review`; wskazanie punktu ADR nie zastępuje kontroli polskiego tekstu.
+
 ## Co musisz zapamiętać
 
 - Porównaj dokument przewozowy z towarem, numerem UN, oznakowaniem i wymaganymi dokumentami dodatkowymi.
