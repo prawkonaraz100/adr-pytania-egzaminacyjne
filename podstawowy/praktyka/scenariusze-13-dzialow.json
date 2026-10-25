@@ -920,6 +920,387 @@
         "Kursant sprawdza wyposażenie każdej osoby i wskazuje ograniczenia środków ochrony."
       ],
       "safety_boundary": "Ćwiczenie na liście kontrolnej i bezpiecznym sprzęcie demonstracyjnym."
+    },
+    {
+      "id": "SC-ADR-B-09-02",
+      "module_id": "ADR-B-09",
+      "title": "Oględziny przed załadunkiem",
+      "situation": "Kierowca zauważa pozostałości nieznanego materiału na podłodze i uszkodzoną deskę przed przyjazdem nowego ładunku.",
+      "steps": [
+        "Nie rozpoczynaj załadunku, dopóki nie zostanie ocenione znaczenie pozostałości.",
+        "Nie dotykaj pozostałości i nie próbuj mieszać ich ze środkiem czyszczącym.",
+        "Zgłoś uszkodzenie i uzgodnij oczyszczenie lub naprawę.",
+        "Po usunięciu problemu ponownie sprawdź, czy przestrzeń nadaje się do przewozu."
+      ],
+      "common_errors": [
+        {
+          "error": "Załadować, bo pozostałość jest mała",
+          "why": "może zanieczyścić lub wejść w reakcję z nowym towarem."
+        },
+        {
+          "error": "Przykryć uszkodzenie",
+          "why": "ukrycie problemu nie przywraca bezpieczeństwa."
+        }
+      ],
+      "adr_basis": [
+        "ADR 7.5.1",
+        "ADR 7.5.8.1"
+      ],
+      "question_ids": [
+        "ADR-B-0025",
+        "ADR-B-0026",
+        "ADR-B-0027",
+        "ADR-B-0518"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-09-03",
+      "module_id": "ADR-B-09",
+      "title": "Mocowanie przed dłuższą trasą",
+      "situation": "Pas przesuwa się po opakowaniu, a ciężki element obok palet nie jest zabezpieczony.",
+      "steps": [
+        "Sprawdź mocowanie całego ładunku, nie tylko przesyłek ADR.",
+        "Zabezpiecz ciężki element przed przemieszczeniem.",
+        "Skoryguj pas tak, aby nie uszkadzał opakowania.",
+        "Sprawdź stabilność i widoczność wymaganych znaków."
+      ],
+      "common_errors": [
+        {
+          "error": "Zacisnąć pas aż do deformacji kartonu",
+          "why": "uszkodzenie opakowania może naruszyć jego ochronę."
+        },
+        {
+          "error": "Pominąć ciężki element, bo nie jest ADR",
+          "why": "każdy ładunek musi być bezpiecznie zamocowany."
+        }
+      ],
+      "adr_basis": [
+        "ADR 7.5.7.1",
+        "ADR 7.5.1"
+      ],
+      "question_ids": [
+        "ADR-B-0025",
+        "ADR-B-0026",
+        "ADR-B-0027",
+        "ADR-B-0554",
+        "ADR-B-0558"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-10-02",
+      "module_id": "ADR-B-10",
+      "title": "Dokumenty po rejsie morskim",
+      "situation": "Kierowca odbiera kontener w porcie. Ma dokumenty morskie, ale nie wie, czy spełniają wymagania dalszego odcinka drogowego.",
+      "steps": [
+        "Porównaj dokumenty z oznakowaniem i danymi towaru.",
+        "Sprawdź warunki ADR 1.1.4.2 dla konkretnego przewozu.",
+        "Ustal, czy potrzebny jest dodatkowy wpis lub certyfikat pakowania.",
+        "Nie uzupełniaj braków na podstawie domysłu; wyjaśnij je przed wyjazdem."
+      ],
+      "common_errors": [
+        {
+          "error": "Uznać dokument morski za automatycznie wystarczający",
+          "why": "wyjątek działa tylko w określonych warunkach."
+        },
+        {
+          "error": "Skopiować dane z poprzedniego zlecenia",
+          "why": "muszą odpowiadać aktualnemu ładunkowi."
+        }
+      ],
+      "adr_basis": [
+        "ADR 1.1.4.2",
+        "ADR 5.4.1"
+      ],
+      "question_ids": [
+        "ADR-B-0028",
+        "ADR-B-0029",
+        "ADR-B-0030",
+        "ADR-B-0396",
+        "ADR-B-0511"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-10-03",
+      "module_id": "ADR-B-10",
+      "title": "Niezgodność certyfikatu pakowania",
+      "situation": "Certyfikat pakowania kontenera zawiera identyfikator, który nie zgadza się z dokumentem przewozowym.",
+      "steps": [
+        "Porównaj identyfikator kontenera i dane ładunku na dokumentach.",
+        "Sprawdź, czy certyfikat jest wymagany i dotyczy tej jednostki.",
+        "Wstrzymaj przejęcie do wyjaśnienia rozbieżności.",
+        "Nie uznawaj samej obecności podpisanego dokumentu za dowód zgodności."
+      ],
+      "common_errors": [
+        {
+          "error": "Użyć certyfikatu z poprzedniego przewozu",
+          "why": "może dotyczyć innego ładunku lub kontenera."
+        },
+        {
+          "error": "Zignorować rozbieżność, bo dokument jest podpisany",
+          "why": "podpis nie potwierdza poprawności danych."
+        }
+      ],
+      "adr_basis": [
+        "ADR 5.4.2",
+        "ADR 1.1.4.2"
+      ],
+      "question_ids": [
+        "ADR-B-0028",
+        "ADR-B-0029",
+        "ADR-B-0030"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-11-02",
+      "module_id": "ADR-B-11",
+      "title": "Objazd tunelu z ograniczeniem",
+      "situation": "Nawigacja proponuje krótszą trasę przez tunel, którego znak ogranicza przejazd określonych towarów.",
+      "steps": [
+        "Odczytaj kod tunelowy w kolumnie 15 tabeli A dla towaru.",
+        "Porównaj kod z kategorią tunelu na znaku.",
+        "Jeżeli ograniczenie obejmuje ten przewóz, wybierz dozwoloną trasę.",
+        "Nie traktuj nawigacji jako źródła zwalniającego z ograniczeń."
+      ],
+      "common_errors": [
+        {
+          "error": "Wjechać, bo nawigacja tak prowadzi",
+          "why": "nie zastępuje ona sprawdzenia ADR."
+        },
+        {
+          "error": "Odczytać kod z pamięci",
+          "why": "kod musi dotyczyć konkretnego towaru i postaci przewozu."
+        }
+      ],
+      "adr_basis": [
+        "ADR 3.2 tabela A, kolumna 15",
+        "ADR 8.6.3",
+        "ADR 8.6.4"
+      ],
+      "question_ids": [
+        "ADR-B-0031",
+        "ADR-B-0032",
+        "ADR-B-0033",
+        "ADR-B-0487",
+        "ADR-B-0539",
+        "ADR-B-0540"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-11-03",
+      "module_id": "ADR-B-11",
+      "title": "Różne kody tunelowe w jednym ładunku",
+      "situation": "Jedna jednostka przewozi towary z różnymi kodami tunelowymi. Kierowca chce wybrać kod najłagodniejszy.",
+      "steps": [
+        "Odczytaj kody dla wszystkich przewożonych towarów.",
+        "Zastosuj regułę ADR dla całej jednostki, nie wybieraj kodu według masy lub wygody.",
+        "Sprawdź kategorię tunelu i zaplanuj dozwoloną trasę.",
+        "Jeśli nie możesz ustalić kodu, wyjaśnij dane przed wjazdem na trasę."
+      ],
+      "common_errors": [
+        {
+          "error": "Wybrać kod dotyczący największej palety",
+          "why": "nie jest to reguła dla ładunku mieszanego."
+        },
+        {
+          "error": "Pominąć postać przewozu przy D/E",
+          "why": "ograniczenie może różnić się dla cystern i sztuk przesyłek."
+        }
+      ],
+      "adr_basis": [
+        "ADR 8.6.3.2",
+        "ADR 8.6.4",
+        "ADR 3.2 tabela A, kolumna 15"
+      ],
+      "question_ids": [
+        "ADR-B-0031",
+        "ADR-B-0032",
+        "ADR-B-0033",
+        "ADR-B-0574"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-12-02",
+      "module_id": "ADR-B-12",
+      "title": "Zmiana planowanego postoju",
+      "situation": "Planowane miejsce postoju jest zamknięte, a przewóz może podlegać szczególnym wymaganiom ochrony.",
+      "steps": [
+        "Sprawdź procedurę ochrony i warunki planu dla tego przewozu.",
+        "Nie ujawniaj niepotrzebnie szczegółów ładunku i zabezpieczeń.",
+        "Uzgodnij zgodne miejsce z odpowiedzialną osobą.",
+        "Zgłoś zmianę zgodnie z procedurą; nie wybieraj miejsca wyłącznie dla wygody."
+      ],
+      "common_errors": [
+        {
+          "error": "Wybrać dowolny parking",
+          "why": "plan ochrony musi uwzględniać bezpieczne postępowanie przy zmianie warunków."
+        },
+        {
+          "error": "Wysłać szczegóły ładunku do niezweryfikowanej osoby",
+          "why": "informacje powinny trafiać tylko do uprawnionych."
+        }
+      ],
+      "adr_basis": [
+        "ADR 1.10.1",
+        "ADR 1.10.3.2"
+      ],
+      "question_ids": [
+        "ADR-B-0034",
+        "ADR-B-0035",
+        "ADR-B-0036",
+        "ADR-B-0304",
+        "ADR-B-0519"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-12-03",
+      "module_id": "ADR-B-12",
+      "title": "Niepewne uprawnienie odbiorcy",
+      "situation": "Odbiorca zna numer zlecenia, ale nie potrafi potwierdzić tożsamości ani upoważnienia do odbioru.",
+      "steps": [
+        "Nie wydawaj ładunku tylko na podstawie numeru zlecenia.",
+        "Zweryfikuj tożsamość i uprawnienie według procedury.",
+        "Zgłoś rozbieżność i zaczekaj na potwierdzenie.",
+        "Unikaj konfrontacji, jeśli mogłaby stworzyć zagrożenie."
+      ],
+      "common_errors": [
+        {
+          "error": "Przekazać towar, bo osoba zna numer",
+          "why": "numer może być znany osobie nieuprawnionej."
+        },
+        {
+          "error": "Samodzielnie konfrontować podejrzaną osobę",
+          "why": "bezpieczniej uruchomić procedurę i wezwać pomoc."
+        }
+      ],
+      "adr_basis": [
+        "ADR 1.10.1.4",
+        "ADR 1.10.3.2"
+      ],
+      "question_ids": [
+        "ADR-B-0034",
+        "ADR-B-0035",
+        "ADR-B-0036",
+        "ADR-B-0582"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-13-02",
+      "module_id": "ADR-B-13",
+      "title": "Brak danych w dokumencie przewozowym",
+      "situation": "Przed wyjazdem kierowca zauważa brak wymaganej informacji o towarze lub ilości. Nadawca proponuje uzupełnienie jej później.",
+      "steps": [
+        "Porównaj dokument z właściwym wpisem ADR i oznakowaniem.",
+        "Ustal, które dane są wymagane dla tego przewozu.",
+        "Poproś odpowiedzialnego uczestnika o poprawienie dokumentu przed wyjazdem.",
+        "Zachowaj zgodność dokumentu, oznakowania i rzeczywistego ładunku."
+      ],
+      "common_errors": [
+        {
+          "error": "Ruszyć i uzupełnić dane po drodze",
+          "why": "potrzebne informacje muszą być dostępne przy kontroli lub zdarzeniu."
+        },
+        {
+          "error": "Przepisać ilość z poprzedniego dokumentu",
+          "why": "dane muszą odpowiadać aktualnemu ładunkowi."
+        }
+      ],
+      "adr_basis": [
+        "ADR 5.4.1",
+        "ADR 3.2 tabela A"
+      ],
+      "question_ids": [
+        "ADR-B-0037",
+        "ADR-B-0038",
+        "ADR-B-0039",
+        "ADR-B-0508",
+        "ADR-B-0525",
+        "ADR-B-0530"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-13-03",
+      "module_id": "ADR-B-13",
+      "title": "Instrukcje pisemne w nieznanym języku",
+      "situation": "Instrukcje pisemne są w kabinie, ale jeden członek załogi nie rozumie ich języka.",
+      "steps": [
+        "Sprawdź, czy instrukcje są właściwe, łatwo dostępne i zrozumiałe dla całej załogi.",
+        "Zapewnij właściwą wersję językową przed wyjazdem.",
+        "Upewnij się, że każdy członek załogi wie, gdzie znaleźć instrukcje.",
+        "Nie traktuj ustnego streszczenia jako automatycznego zamiennika instrukcji."
+      ],
+      "common_errors": [
+        {
+          "error": "Założyć, że kolega przetłumaczy je w trakcie zdarzenia",
+          "why": "w stresie liczy się szybki dostęp do zrozumiałej informacji."
+        },
+        {
+          "error": "Schować instrukcje poza kabiną",
+          "why": "muszą być łatwo dostępne."
+        }
+      ],
+      "adr_basis": [
+        "ADR 5.4.3.1",
+        "ADR 5.4.3.2",
+        "ADR 5.4.3.4"
+      ],
+      "question_ids": [
+        "ADR-B-0037",
+        "ADR-B-0038",
+        "ADR-B-0039",
+        "ADR-B-0577",
+        "ADR-B-0578",
+        "ADR-B-0579"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych."
     }
   ]
 }

@@ -89,11 +89,16 @@ class CourseConsistencyTests(unittest.TestCase):
         self.assertIn("egzamin-probny/wariant-001.json", readme)
         self.assertIn("raporty/etap-4q-przeglad-kursanta-2026-10-24.md", readme)
 
-    def test_practical_scenario_map_covers_13_modules_and_existing_question_ids(self):
+    def test_practical_scenario_map_has_three_scenarios_per_module_and_existing_question_ids(self):
         root = Path(__file__).resolve().parents[1]
         bank = [json.loads(line) for line in
                 (root / "podstawowy" / "questions.jsonl").read_text(encoding="utf-8").splitlines()
                 if line.strip()]
+        scenarios = json.loads((root / "podstawowy" / "praktyka" / "scenariusze-13-dzialow.json").read_text(encoding="utf-8"))["scenarios"]
+        counts = {f"ADR-B-{n:02d}": 0 for n in range(1, 14)}
+        for scenario in scenarios:
+            counts[scenario["module_id"]] += 1
+        self.assertTrue(all(count >= 3 for count in counts.values()), counts)
         self.assertEqual(validate_practical_scenario_map(root, bank), [])
 
     def test_practical_scenario_map_rejects_missing_question_id(self):
