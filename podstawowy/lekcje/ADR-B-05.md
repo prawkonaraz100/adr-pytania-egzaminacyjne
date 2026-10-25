@@ -8,7 +8,7 @@ Po wypadku lub awarii najważniejsze jest, aby nie powiększyć zagrożenia. Kie
 
 ## Czego się nauczysz
 - ustalać bezpieczną kolejność pierwszych działań po zdarzeniu;
-- korzystać z instrukcji pisemnych w granicach bezpieczeństwa;
+- korzystać z instrukcji pisemnych (gotowych wskazówek dla załogi na wypadek zdarzenia; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne)) w granicach bezpieczeństwa;
 - rozpoznawać, kiedy nie podejmować gaszenia ani kontaktu z substancją;
 - przekazywać służbom wiarygodne dane o miejscu, zdarzeniu i ładunku;
 - sprawdzać dostępność i stan wyposażenia przed wyjazdem.
