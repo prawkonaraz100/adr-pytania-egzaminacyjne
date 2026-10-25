@@ -14,7 +14,7 @@ Wiele zagrożeń można ograniczyć przed wyjazdem: sprawdzając warunki załadu
 - wyjaśniać, dlaczego polecenie dyspozytora nie uchyla wymagań ADR.
 
 ## 1. Załadunek: palenie, silnik i otwieranie opakowań
-ADR 8.3.5 zabrania palenia podczas czynności ładunkowych w pojazdach oraz w ich pobliżu; obejmuje to również e-papierosy i podobne urządzenia. ADR 8.3.6 co do zasady wymaga wyłączenia silnika, z określonym wyjątkiem, gdy jest potrzebny do napędzania urządzeń przeładunkowych i prawo na to pozwala. ADR 8.3.3 zabrania kierowcy i pomocnikowi otwierania opakowań zawierających towary niebezpieczne. To odrębne reguły, z różnymi warunkami i wyjątkami.
+Podczas załadunku i rozładunku nie pal w pojeździe ani w jego pobliżu. Zakaz obejmuje też e-papierosy i podobne urządzenia, bo mogą stanowić źródło zapłonu (ADR 8.3.5). ADR 8.3.6 co do zasady wymaga wyłączenia silnika, z określonym wyjątkiem, gdy jest potrzebny do napędzania urządzeń przeładunkowych i prawo na to pozwala. ADR 8.3.3 zabrania kierowcy i pomocnikowi otwierania opakowań zawierających towary niebezpieczne. To odrębne reguły, z różnymi warunkami i wyjątkami.
 
 
 ### Dodatkowe zasady załogi i pojazdu
