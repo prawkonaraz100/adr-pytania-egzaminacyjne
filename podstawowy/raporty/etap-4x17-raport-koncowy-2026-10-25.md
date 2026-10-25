@@ -8,11 +8,11 @@
 
 | PR | Zakres | Quality Gate |
 |---|---|---|
-| [#372](../../pull/372) | B-01–03 | PASS; poprawiono brak linku do słowniczka w B-06? Nie — ten błąd wystąpił w partii #373. |
-| [#373](../../pull/373) | B-04–06 | PASS po poprawce: pierwsze użycie „Tabela A” w B-06 otrzymało link do kotwicy słowniczka. |
-| [#374](../../pull/374) | B-07–09 | PASS |
-| [#375](../../pull/375) | B-10–12 | PASS |
-| [#376](../../pull/376) | B-13 | PASS |
+| [PR #372](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/372) | B-01–03 | PASS |
+| [PR #373](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/373) | B-04–06 | PASS po poprawce pierwszego użycia „Tabela A” w B-06 |
+| [PR #374](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/374) | B-07–09 | PASS |
+| [PR #375](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/375) | B-10–12 | PASS |
+| [PR #376](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/pull/376) | B-13 | PASS |
 
 ## Co wykonano
 
