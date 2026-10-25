@@ -168,7 +168,7 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 W banku pojawiają się następujące typowe pomyłki. W realnej pracy nie zgaduj — sprawdź warunek ADR właściwy dla towaru i sposobu przewozu.
 
 - Uznawanie, że dokument dla transportu morskiego zawsze wystarcza na drodze — sprawdź warunki ADR 1.1.4.2 i wymagane dodatkowe wpisy (ADR 1.1.4.2 i 5.4.1).
-- Sprawdzanie wyłącznie numeru UN bez pozostałych danych — dokument musi spełniać wymagania właściwe dla konkretnego przewozu (ADR 5.4.1).
+- Sprawdzanie wyłącznie numeru UN ([słowniczek](../SLOWNICZEK.md#numer-un)) bez pozostałych danych — dokument musi spełniać wymagania właściwe dla konkretnego przewozu (ADR 5.4.1).
 - Traktowanie podpisanej faktury, logo armatora lub telefonu odbiorcy jako zamiennika dokumentacji ADR — sprawdź treść i warunki wyjątku, nie wygląd dokumentu (ADR 1.1.4.2).
 
 Niejasne terminy wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
