@@ -9,7 +9,7 @@ Po uszkodzeniu przesyłki kierowca może spotkać się z wyciekiem, oparami albo
 ## Czego się nauczysz
 - rozpoznawać zagrożenie dla środowiska;
 - reagować na wyciek bez dotykania substancji i wdychania oparów;
-- rozumieć, że odpad nadal wymaga klasyfikacji ADR;
+- rozumieć, że odpad nadal wymaga klasyfikacji ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr));
 - rozpoznawać wymagane informacje w dokumencie przewozowym odpadu;
 - wiedzieć, kiedy pojazd i przestrzeń ładunkową trzeba oczyścić.
 
@@ -18,7 +18,7 @@ Niektóre towary mogą szkodzić środowisku, zwłaszcza wodnemu. Znak zagrożen
 
 
 ### Kiedy znak jest wymagany i gdzie go umieścić
-Wyjątek od znaku zagrożenia dla środowiska zależy od rodzaju opakowania i ilości. Co do zasady ADR 5.2.1.8.1 przewiduje limit do 5 l dla cieczy i do 5 kg netto dla ciał stałych w odpowiednim opakowaniu pojedynczym lub wewnętrznym, pod warunkiem spełnienia pozostałych kryteriów. Butelka wewnętrzna 6 l nie mieści się w limicie 5 l; dokładnie 5 l lub 5 kg mieści się w granicy „nie więcej niż”, ale nie zwalnia z pozostałych warunków. Nie zakładaj, że samo użycie opakowania kombinowanego automatycznie uruchamia wyjątek. Gdy znak jest wymagany, umieść go zgodnie z ADR 5.2.1.8.2; na jednostkach transportowych mogą mieć zastosowanie odrębne wymagania ADR 5.3.6. Standardowy znak środowiskowy na wskazanej jednostce transportowej ma co najmniej 250 × 250 mm (ADR 5.3.6.2). Dla kontenera-cysterny lub cysterny przenośnej o pojemności do 3000 l przepis może dopuścić zmniejszenie do co najmniej 100 × 100 mm, gdy brakuje odpowiedniej powierzchni i spełnione są pozostałe warunki. Nie przenoś na ten znak automatycznie wymiarów znaku na sztuce przesyłki; sprawdź też warunki zastosowania ADR 5.3.6.1.
+Wyjątek od znaku zagrożenia dla środowiska zależy od rodzaju opakowania i ilości. Dla niektórych opakowań ADR pozwala nie umieszczać znaku zagrożenia środowiskowego, jeśli ilość nie przekracza 5 l cieczy albo 5 kg netto ciała stałego i spełnione są pozostałe warunki. Sama mała ilość nie wystarcza — sprawdź też rodzaj opakowania i kryteria ADR 5.2.1.8.1. Butelka wewnętrzna 6 l nie mieści się w limicie 5 l; dokładnie 5 l lub 5 kg mieści się w granicy „nie więcej niż”, ale nie zwalnia z pozostałych warunków. Nie zakładaj, że samo użycie opakowania kombinowanego automatycznie uruchamia wyjątek. Gdy znak jest wymagany, umieść go zgodnie z ADR 5.2.1.8.2; na jednostkach transportowych mogą mieć zastosowanie odrębne wymagania ADR 5.3.6. Standardowy znak środowiskowy na wskazanej jednostce transportowej ma co najmniej 250 × 250 mm (ADR 5.3.6.2). Dla kontenera-cysterny lub cysterny przenośnej o pojemności do 3000 l przepis może dopuścić zmniejszenie do co najmniej 100 × 100 mm, gdy brakuje odpowiedniej powierzchni i spełnione są pozostałe warunki. Nie przenoś na ten znak automatycznie wymiarów znaku na sztuce przesyłki; sprawdź też warunki zastosowania ADR 5.3.6.1.
 
 Jeśli materiał spełnia kryteria zagrożenia środowiskowego, dokument przewozowy może wymagać dodatkowego wpisu „ENVIRONMENTALLY HAZARDOUS” zgodnie z ADR 5.4.1.1.18. Sprawdź wyjątki i sposób transportu kombinowanego: wpis „MARINE POLLUTANT” może mieć znaczenie w warunkach określonych przepisem, ale nie zakładaj automatycznej zamienności określeń w każdej sytuacji. Znak na opakowaniu, nalepka klasy i wpis w dokumencie pełnią różne funkcje.
 ## 2. Wyciek lub opary — bezpieczna kolejność
@@ -26,16 +26,16 @@ Jeśli materiał spełnia kryteria zagrożenia środowiskowego, dokument przewoz
 2. Nie wchodź w rozlew ani opary; oddal się w bezpieczne miejsce i ostrzeż osoby w pobliżu.
 3. Nie spłukuj nieznanej substancji do kanalizacji i nie uruchamiaj źródeł zapłonu.
 4. Powiadom odpowiedzialne osoby lub służby i podaj sprawdzone informacje.
-5. Stosuj instrukcje pisemne ADR 5.4.3.4 tylko w granicach bezpieczeństwa.
+5. Stosuj instrukcje pisemn (ustalony dokument z działaniami dla załogi w razie zdarzenia; ma być dostępny i zrozumiały; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne))e ADR 5.4.3.4 tylko w granicach bezpieczeństwa.
 
 Ograniczanie dopływu uwolnionego materiału do kanalizacji lub cieków wodnych jest właściwe tylko wtedy, gdy można to zrobić bezpiecznie. Nie podejmuj działań wymagających specjalnego wyposażenia ani takich, które narażałyby cię na kontakt z substancją.
 
 Po wycieku, który zanieczyścił pojazd, ADR 7.5.8.1 wymaga oczyszczenia tak szybko, jak to możliwe, a w każdym razie przed ponownym załadunkiem. Mogą obowiązywać odrębne zasady dla nieoczyszczonych pustych opakowań.
 
 ## 3. Odpady niebezpieczne
-Słowo „odpad” nie oznacza zwolnienia z ADR. Odpady klasyfikuje się według zagrożeń. ADR 2.1.3.5.5 przewiduje szczególne, warunkowe zasady w określonych przypadkach, gdy dokładny skład nie jest znany; przepis zawiera ograniczenia i nie pozwala automatycznie wybierać najłagodniejszej grupy pakowania.
+Słowo „odpad” nie oznacza zwolnienia z ADR. Odpady klasyfikuje się według zagrożeń. ADR 2.1.3.5.5 przewiduje szczególne, warunkowe zasady w określonych przypadkach, gdy dokładny skład nie jest znany; przepis zawiera ograniczenia i nie pozwala automatycznie wybierać najłagodniejszej grupy pakowania (oznaczenie stopnia zagrożenia, stosowane tylko dla towarów, dla których ADR je przewiduje; [słowniczek](../SLOWNICZEK.md#grupa-pakowania)).
 
-W dokumencie przewozowym dla odpowiednich odpadów słowo „ODPAD” uzupełnia prawidłową nazwę przewozową zgodnie z ADR 5.4.1.1.3.1. Nie zastępuje numeru UN ani pozostałych wymaganych danych. Kod odpadu sam w sobie nie zastępuje danych ADR.
+W dokumencie przewozowym dla odpowiednich odpadów słowo „ODPAD” uzupełnia prawidłową nazwę przewozową zgodnie z ADR 5.4.1.1.3.1. Nie zastępuje numeru UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A; [słowniczek](../SLOWNICZEK.md#numer-un)) ani pozostałych wymaganych danych. Kod odpadu sam w sobie nie zastępuje danych ADR.
 
 
 ### Nieznany skład odpadu — granice uproszczonej klasyfikacji

@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Wiele zagrożeń można ograniczyć przed wyjazdem: sprawdzając warunki załadunku, unikając źródeł zapłonu, nie otwierając samowolnie przesyłek i wybierając zgodne z ADR miejsce postoju. Po uszkodzeniu opakowania priorytetem jest bezpieczeństwo ludzi, a nie samodzielne badanie zawartości.
+Wiele zagrożeń można ograniczyć przed wyjazdem: sprawdzając warunki załadunku, unikając źródeł zapłonu, nie otwierając samowolnie przesyłek i wybierając zgodne z ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)) miejsce postoju. Po uszkodzeniu opakowania priorytetem jest bezpieczeństwo ludzi, a nie samodzielne badanie zawartości.
 
 ## Czego się nauczysz
 - rozróżniać zakaz palenia, zasady dotyczące silnika i zakaz otwierania opakowań;
@@ -14,16 +14,16 @@ Wiele zagrożeń można ograniczyć przed wyjazdem: sprawdzając warunki załadu
 - wyjaśniać, dlaczego polecenie dyspozytora nie uchyla wymagań ADR.
 
 ## 1. Załadunek: palenie, silnik i otwieranie opakowań
-ADR 8.3.5 zabrania palenia podczas czynności ładunkowych w pojazdach oraz w ich pobliżu; obejmuje to również e-papierosy i podobne urządzenia. ADR 8.3.6 co do zasady wymaga wyłączenia silnika, z określonym wyjątkiem, gdy jest potrzebny do napędzania urządzeń przeładunkowych i prawo na to pozwala. ADR 8.3.3 zabrania kierowcy i pomocnikowi otwierania opakowań zawierających towary niebezpieczne. To odrębne reguły, z różnymi warunkami i wyjątkami.
+Podczas załadunku i rozładunku nie pal w pojeździe ani w jego pobliżu. Zakaz obejmuje też e-papierosy i podobne urządzenia, bo mogą stanowić źródło zapłonu (ADR 8.3.5). ADR 8.3.6 co do zasady wymaga wyłączenia silnika, z określonym wyjątkiem, gdy jest potrzebny do napędzania urządzeń przeładunkowych i prawo na to pozwala. ADR 8.3.3 zabrania kierowcy i pomocnikowi otwierania opakowań zawierających towary niebezpieczne. To odrębne reguły, z różnymi warunkami i wyjątkami.
 
 
 ### Dodatkowe zasady załogi i pojazdu
 Oprócz zakazu palenia (ADR 8.3.5), zasady dotyczące silnika (8.3.6) i zakazu otwierania sztuk przesyłek (8.3.3), sprawdź również inne wymagania załogi: przewóz pasażerów niebędących członkami załogi jest zabroniony w warunkach ADR 8.3.1; członkowie załogi powinni umieć używać gaśnic (8.3.2); przenośne lampy nie mogą mieć metalowych części, które mogą powodować iskrzenie (8.3.4). W określonych zestawach pojazdu z ABS i przyczepy o maksymalnej masie przekraczającej 3,5 t wymagane połączenia elektryczne muszą pozostać podłączone podczas przewozu (ADR 8.3.8 i 9.2.2.6). Przed załadunkiem lub rozładunkiem kontrola może ujawnić niezgodność pojazdu, wyposażenia lub dokumentów: wstrzymaj odpowiednią czynność do czasu usunięcia problemu, z uwzględnieniem ADR 7.5.1.2–7.5.1.3.
 ## 2. Uszkodzone opakowanie, rozlew lub opary
-Nie dotykaj substancji, nie wdychaj oparów i nie rozpoznawaj zawartości po zapachu. Ostrzeż osoby w pobliżu, oddal się w bezpieczne miejsce i powiadom odpowiedzialne osoby lub służby. Stosuj instrukcje pisemne tylko w granicach własnego bezpieczeństwa. Nie zakładaj, że zwykłe rękawice chronią przed nieznaną substancją.
+Nie dotykaj substancji, nie wdychaj oparów i nie rozpoznawaj zawartości po zapachu. Ostrzeż osoby w pobliżu, oddal się w bezpieczne miejsce i powiadom odpowiedzialne osoby lub służby. Stosuj instrukcje pisemn (ustalony dokument z działaniami dla załogi w razie zdarzenia; ma być dostępny i zrozumiały; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne))e tylko w granicach własnego bezpieczeństwa. Nie zakładaj, że zwykłe rękawice chronią przed nieznaną substancją.
 
 ## 3. Bezpieczny postój i nadzór
-ADR 8.4 nie dotyczy automatycznie każdego przewozu ADR. Sprawdź konkretny wpis towaru, w tym kolumnę 19 tabeli A, i przepisy szczególne. Jeśli wymagania mają zastosowanie, wybierz dopuszczalne miejsce i stosuj kolejność wskazaną w ADR 8.4.1. Zwykły parking nie zawsze będzie odpowiedni.
+ADR 8.4 nie dotyczy automatycznie każdego przewozu ADR. Sprawdź konkretny wpis towaru, w tym kolumnę 19 tabeli A (wykaz ADR, w którym dla numeru UN sprawdzasz m.in. klasę i warunki przewozu; [słowniczek](../SLOWNICZEK.md#tabela-a)), i przepisy szczególne. Jeśli wymagania mają zastosowanie, wybierz dopuszczalne miejsce i stosuj kolejność wskazaną w ADR 8.4.1. Zwykły parking nie zawsze będzie odpowiedni.
 
 Jeżeli nie możesz spełnić warunków postoju, skontaktuj się z dyspozytorem i ustal zgodne rozwiązanie przed pozostawieniem pojazdu. Telefoniczna zgoda firmy nie znosi wymagań. W planowaniu uwzględnij pierwszeństwo zabezpieczonej bazy lub terenu zakładu przed dalszymi alternatywami, zgodnie z warunkami ADR. Niezależnie od obowiązku nadzoru, ADR 8.3.7 dotyczy hamulca postojowego; w określonych przypadkach przyczep bez hamulca stosuje się kliny zgodnie z przepisem.
 
