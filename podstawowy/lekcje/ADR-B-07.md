@@ -145,5 +145,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+Te pomyłki pojawiają się w typowych odpowiedziach błędnych w banku. Zanim wybierzesz odpowiedź, sprawdź, który warunek przepisu rozstrzyga daną sytuację.
+
+- Przypisywanie całej odpowiedzialności wyłącznie kierowcy — różni uczestnicy mają odrębne obowiązki, zależne od wykonywanej czynności (ADR 1.4).
+- Uznawanie, że kierowca może zaakceptować uszkodzone opakowanie, jeśli załadunek już zaplanowano — niezgodność trzeba wyjaśnić przed przewozem (ADR 1.4 i 7.5.1).
+- Mylenie szkolenia do konkretnego zadania z kursem kierowcy ADR — szkolenie musi odpowiadać obowiązkom pracownika (ADR 1.3).
+- Traktowanie polecenia przełożonego jako zwolnienia z wymagań ADR — polecenie nie usuwa obowiązków bezpieczeństwa uczestników (ADR 1.4).
+
+Niejasne pojęcia wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
