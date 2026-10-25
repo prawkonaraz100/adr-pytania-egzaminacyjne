@@ -1,5 +1,8 @@
 # ADR-B-09 — Przygotowanie do załadunku, mocowanie i przewóz luzem
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Nieprawidłowy załadunek może uszkodzić opakowanie, spowodować przemieszczenie ładunku lub doprowadzić do reakcji pozostałości poprzedniego towaru z nowym. Przed rozpoczęciem pracy sprawdź stan przestrzeni ładunkowej, opakowań i plan mocowania. Przewóz luzem jest odrębnym sposobem przewozu i wymaga sprawdzenia, czy dany towar i pojazd są do tego dopuszczone.
 
