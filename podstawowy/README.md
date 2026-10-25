@@ -109,6 +109,14 @@ Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 77/609 
 Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogólnych zasad odpowiedzialności cywilnej wskazanych w ADR 8.2.2.3.2(k). Raport: [ETAP 4t](raporty/etap-4t-pokrycie-programu-2026-10-25.md). Bank ma obecnie 609 pytań, wszystkie `needs_review`, 0 `verified`; wskaźnik „poprawna = najdłuższa” wynosi 77/609 = 12,64% według ścisłego kryterium CI.
 
 
+## Raporty ETAPU 4x9
+
+- [B-01–04 — spójność i ryzyka](raporty/etap-4x9-spojnosc-01-04-2026-10-25.md)
+- [B-05–08 — spójność i ryzyka](raporty/etap-4x9-spojnosc-05-08-2026-10-25.md)
+- [B-09–13 — spójność i ryzyka](raporty/etap-4x9-spojnosc-09-13-2026-10-25.md)
+- [Raport końcowy 4x9](raporty/etap-4x9-raport-koncowy-2026-10-25.md)
+- [Lista kontrolna specjalisty na zmianę ADR](../review/specialist/ETAP-4X9-ADR-2027-LISTA-KONTROLNA.md)
+
 ## Raporty ETAPU 4x8
 
 - [B-01–04 — dystraktory i wyjaśnienia](raporty/etap-4x8-dystraktory-wyjasnienia-01-04-2026-10-25.md)
