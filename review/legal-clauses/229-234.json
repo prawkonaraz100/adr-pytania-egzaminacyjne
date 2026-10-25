@@ -14,15 +14,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Zgodne z ogólną zasadą ustępu 5.4.3.4: Ratownicy potrzebują dokumentów przewozowych i informacji o towarach niebezpiecznych, żeby wybrać odpowiedni sposób działania. Kierowca powinien udostępnić je, o ile może zrobić to bez ryzyka. Plan urlopów czy rachunek za paliwo nie pomagają rozpoznać zagrożenia związanego z ładunkiem. Podstawa: ADR 5.4.3.4."
+          "rationale": "Poprawna: ratownikom należy udostępnić wymagane dokumenty i informacje o ładunku, jeżeli można to zrobić bezpiecznie. Podstawa: ADR 5.4.3.1–5.4.3.4."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Odpowiedź „Wyłącznie plan urlopów kierowcy” nie realizuje bezpiecznej procedury dla opisanego przypadku według 5.4.3.4. Wymaga formalnej recenzji w języku polskim."
+          "rationale": "Niepoprawna: sama nazwa handlowa nie zastępuje wymaganych danych identyfikacyjnych i dokumentów. Podstawa: ADR 5.4.3."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Odpowiedź „Jedynie dokument potwierdzający zapłatę za paliwo” nie realizuje bezpiecznej procedury dla opisanego przypadku według 5.4.3.4. Wymaga formalnej recenzji w języku polskim."
+          "rationale": "Niepoprawna: bezpiecznie dostępnych dokumentów nie należy celowo wstrzymywać do końca działań ratowniczych. Podstawa: ADR 5.4.3.1–5.4.3.4."
         }
       },
       "observed_answer_key": "A",
@@ -37,11 +37,11 @@
         "stem": "Po wypadku służby ratownicze przyjeżdżają do bezpiecznie zatrzymanego pojazdu ADR. Co kierowca powinien udostępnić ratownikom, o ile może to zrobić bez ryzyka?",
         "options": {
           "A": "Udostępnić wymagane informacje i dokumenty dotyczące przewożonego ładunku ADR",
-          "B": "Przekazać plan urlopów, harmonogram pracy i inne informacje kadrowe kierowcy",
-          "C": "Pokazać dowód zapłaty za paliwo oraz dokumenty eksploatacyjne i serwisowe pojazdu"
+          "B": "Przekazać wyłącznie nazwę handlową ładunku, bez dokumentu przewozowego i numeru UN",
+          "C": "Udostępnić dokumenty dopiero po zakończeniu działań ratowniczych, nawet jeśli są bezpiecznie dostępne"
         },
         "correct_option": "A",
-        "explanation": "Ratownicy potrzebują dokumentów przewozowych i informacji o towarach niebezpiecznych, żeby wybrać odpowiedni sposób działania. Kierowca powinien udostępnić je, o ile może zrobić to bez ryzyka. Plan urlopów czy rachunek za paliwo nie pomagają rozpoznać zagrożenia związanego z ładunkiem. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Ratownicy potrzebują dokumentów przewozowych i sprawdzonych informacji o towarze niebezpiecznym, aby ocenić zagrożenie i dobrać działania. Kierowca powinien udostępnić je, jeśli może to zrobić bez ryzyka i bez wchodzenia w strefę niebezpieczną. Sama nazwa handlowa może nie wystarczyć, a bezpiecznie dostępnych dokumentów nie należy celowo wstrzymywać. Podstawa: ADR 5.4.3.1–5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",

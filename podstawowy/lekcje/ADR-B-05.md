@@ -14,9 +14,9 @@ Po wypadku lub awarii najważniejsze jest, aby nie powiększyć zagrożenia. Kie
 Nie wchodź w strefę wycieku, oparów ani pożaru, jeśli narażałoby to ciebie lub inne osoby. Nie dotykaj substancji i nie próbuj jej rozpoznawać po zapachu. Ostrzeż osoby w pobliżu, oddal się w bezpieczne miejsce i postępuj według instrukcji pisemnych oraz poleceń służb.
 
 ## 2. Pierwsze czynności po zdarzeniu
-Zatrzymaj się w możliwie bezpiecznym miejscu i oceń sytuację bez narażania siebie. Zabezpiecz miejsce w granicach swoich możliwości, ostrzeż osoby postronne i wezwij właściwą pomoc. Przekaż lokalizację, charakter zdarzenia oraz sprawdzone dane z dokumentów o przewożonym towarze. Nie zgaduj, nie dopowiadaj nieznanych szczegółów i nie opóźniaj wezwania pomocy, czekając na pełne ustalenie przyczyny.
+Zatrzymaj się w możliwie bezpiecznym miejscu i oceń sytuację bez narażania siebie. Zabezpiecz miejsce w granicach swoich możliwości, ostrzeż osoby postronne i wezwij właściwą pomoc. Przekaż lokalizację, charakter zdarzenia oraz sprawdzone dane z dokumentów o przewożonym towarze, w tym numer UN, jeśli można go bezpiecznie odczytać. Zapewnij ratownikom łatwy dostęp do dokumentów przewozowych, o ile nie wymaga to wejścia w strefę zagrożenia (ADR 5.4.3.1–5.4.3.3). Nie zgaduj, nie dopowiadaj nieznanych szczegółów i nie opóźniaj wezwania pomocy, czekając na pełne ustalenie przyczyny.
 
-Instrukcje pisemne ADR mają ustalony wzór i powinny być dostępne dla załogi w kabinie. Przewoźnik zapewnia je w języku, który każdy członek załogi potrafi czytać i rozumieć. Instrukcje muszą być dostępne, a nie zamknięte w miejscu, do którego załoga nie ma szybkiego dostępu.
+Instrukcje pisemne ADR muszą mieć wzór wymagany w 5.4.3.4 i być dostępne w kabinie. Przewoźnik przekazuje je załodze przed rozpoczęciem przewozu (ADR 5.4.3.1) i zapewnia język, który każdy członek załogi potrafi czytać i rozumieć (5.4.3.2). Członkowie załogi powinni przeczytać je przed wyjazdem i wiedzieć, jak zastosować je w praktyce (5.4.3.3). Instrukcje muszą być dostępne, a nie zamknięte w miejscu, do którego załoga nie ma szybkiego dostępu.
 
 
 ### Szczegóły z instrukcji pisemnych

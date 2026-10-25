@@ -437,15 +437,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dolny numer to UN, a nie górny."
+          "rationale": "Niepoprawna: numer UN znajduje się w dolnym, a nie górnym polu tablicy. Podstawa: ADR 5.3.2.2.2."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Górny numer dotyczy rozpoznania zagrożenia."
+          "rationale": "Poprawna: górne pole zawiera numer rozpoznawczy zagrożenia, nazywany kodem Kemlera. Podstawa: ADR 5.3.2.2.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Zaświadczenie kierowcy to inny dokument."
+          "rationale": "Niepoprawna: górne pole nie jest numerem klasy; zawiera kod rozpoznawczy zagrożenia. Podstawa: ADR 5.3.2.2.2."
         }
       },
       "observed_answer_key": "B",
@@ -461,10 +461,10 @@
         "options": {
           "A": "Numer UN określający przewożony towar, który według tego poglądu widnieje w górnym polu tablicy",
           "B": "Kod Kemlera, czyli numer rozpoznawczy zagrożenia na górze tablicy",
-          "C": "Numer świadectwa kierowcy ADR"
+          "C": "Numer klasy towaru, bez wskazania rodzaju zagrożenia"
         },
         "correct_option": "B",
-        "explanation": "Na numerowanej pomarańczowej tablicy górny numer to numer rozpoznawczy zagrożenia, nazywany też kodem Kemlera; opisuje rodzaj zagrożenia stwarzanego przez materiał. Dolny numer UN identyfikuje konkretny towar. Numer UN jest w dolnym polu, a numer zaświadczenia nie pojawia się na tablicy. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Na numerowanej pomarańczowej tablicy górny numer to numer rozpoznawczy zagrożenia, nazywany też kodem Kemlera; opisuje rodzaj zagrożenia stwarzanego przez materiał. Dolny numer UN identyfikuje konkretny towar, a numer klasy nie zastępuje kodu zagrożenia. Dlatego A i C nie opisują prawidłowo górnego pola. Podstawa: ADR 5.3.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
