@@ -1189,7 +1189,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Kolejność dokumentu nie rozstrzyga o kodzie tunelu."
+          "rationale": "Nie kolejność wpisów w dokumencie, lecz najsurowszy kod mający zastosowanie do całej jednostki decyduje o ograniczeniach (ADR 8.6.3.2)."
         },
         "B": {
           "expected_correct": false,
@@ -1211,7 +1211,7 @@
         "module_id": "ADR-B-11",
         "stem": "W jednostce transportowej objętej ADR masz dwa towary z różnymi kodami tunelowymi. Jaki kod obowiązuje dla całego ładunku?",
         "options": {
-          "A": "Kod pierwszego towaru wpisanego do dokumentu",
+          "A": "Kod towaru umieszczonego jako pierwszy w dokumencie przewozowym, ponieważ to kolejność wpisów ma decydować o ograniczeniach",
           "B": "Kod towaru o większej masie",
           "C": "Kod powodujący największe ograniczenia tunelowe"
         },
