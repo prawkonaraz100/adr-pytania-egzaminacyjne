@@ -44,11 +44,23 @@ Jeżeli nie możesz spełnić warunków postoju, skontaktuj się z dyspozytorem 
 - Polecenie dyspozytora nie zwalnia z wymagań ADR.
 
 ## Sprawdź się
-- Kiedy zakaz palenia obejmuje e-papierosy?
+
 - Czym różni się zasada dotycząca silnika od zakazu otwierania przesyłek?
 - Gdzie sprawdzisz, czy dla konkretnego towaru wymagany jest nadzór?
 - Co zrobić, gdy dyspozytor wskazuje miejsce niespełniające wymagań?
 - Dlaczego nie należy dotykać nieznanej substancji nawet w rękawicach?
+
+Pytania do samodzielnego sprawdzenia w banku:
+- `ADR-B-0010`
+- `ADR-B-0011`
+- `ADR-B-0012`
+- `ADR-B-0180`
+- `ADR-B-0279`
+- `ADR-B-0280`
+- `ADR-B-0310`
+- `ADR-B-0580`
+
+Scenariusz z pracy kierowcy: [SC-ADR-B-04 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
 
 ## Powiązane pytania w banku
 - ADR-B-0010
