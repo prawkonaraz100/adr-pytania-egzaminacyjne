@@ -1,6 +1,6 @@
-# ETAP 4l — bieżący pełny indeks dla specjalisty ADR, 0001–0566
+# ETAP 4w4 — bieżący pełny indeks dla specjalisty ADR, 0001–0609
 
-Data migawki: 23.10.2026. Źródło: aktualny `podstawowy/questions.jsonl` w gałęzi 4l; przy odbiorze recenzent musi odnotować SHA commita po scaleniu i hash ocenianego rekordu. Wszystkie 566 pytań `needs_review`, 0 `verified`, 0 formalnych akceptacji. **Żaden wpis nie stanowi potwierdzenia poprawności prawnej.** Poprzedni indeks 0001–0519 i indeksy zakresowe pozostają jako dokumenty historyczne.
+Data migawki: 25.10.2026. Źródło: `podstawowy/questions.jsonl` w etapie 4w4; przy odbiorze recenzent musi odnotować SHA commita po scaleniu i hash ocenianego rekordu. Wszystkie 609 pytań `needs_review`, 0 `verified`, 0 formalnych akceptacji. **Żaden wpis nie stanowi potwierdzenia poprawności prawnej.** Poprzedni indeks 0001–0519 i indeksy zakresowe pozostają jako dokumenty historyczne.
 
 Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależnego sprawdzenia poprawności wzoru. Rejestr 4k zgłasza otwartą literalną weryfikację polskiego ADR dla wszystkich 545 pozycji.
 
