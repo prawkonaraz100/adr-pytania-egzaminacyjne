@@ -49,6 +49,11 @@ Plan ochrony powinien uwzględniać realne środki ograniczające kradzież i do
 - zakładanie, że plan ochrony dotyczy wyłącznie jazdy, a nie postoju;
 - traktowanie zgody dyspozytora jako zwolnienia z wymagań ADR.
 
+Najczęstsze pułapki wynikające z pytań tego działu:
+- Uznawanie telefonu, e-maila lub oznakowania pojazdu za wystarczającą weryfikację przewoźnika — potwierdź tożsamość i upoważnienie zgodnie z procedurą ochrony (ADR 1.10.1.2).
+- Mylenie ochrony przewozu z mocowaniem ładunku — security zapobiega kradzieży i nieuprawnionemu dostępowi, a mocowanie ogranicza przemieszczanie (ADR 1.10 i 7.5.7).
+- Zakładanie, że plan ochrony dotyczy tylko jazdy — środki ochrony trzeba uwzględnić także podczas postoju i przekazania ładunku (ADR 1.10.3.2).
+
 ## Scenariusze praktyczne
 1. **Nieuprawniony odbiorca.** Osoba zna numer zlecenia, ale nie potrafi potwierdzić tożsamości i uprawnienia. Kierowca nie przekazuje ładunku do czasu weryfikacji.
 2. **Zmiana miejsca postoju.** Planowany punkt przestaje być dostępny. Kierowca korzysta z procedury, nie ujawnia niepotrzebnie szczegółów ładunku i uzgadnia zgodne miejsce.
@@ -149,15 +154,4 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 
 
 
-## Najczęstsze błędy kursantów
 
-W banku pojawiają się następujące typowe pomyłki. W realnej pracy nie zgaduj — sprawdź warunek ADR właściwy dla towaru i sposobu przewozu.
-
-- Uznawanie telefonu, e-maila lub oznakowania pojazdu za wystarczającą weryfikację przewoźnika — potwierdź tożsamość i upoważnienie zgodnie z procedurą ochrony (ADR 1.10.1.2).
-- Mylenie ochrony przewozu z mocowaniem ładunku — security zapobiega kradzieży i nieuprawnionemu dostępowi, a mocowanie ogranicza przemieszczanie (ADR 1.10 i 7.5.7).
-- Zakładanie, że plan ochrony dotyczy tylko jazdy — środki ochrony trzeba uwzględnić także podczas postoju i przekazania ładunku (ADR 1.10.3.2).
-
-Niejasne terminy wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
-
-## Słowniczek
-Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
