@@ -207,3 +207,18 @@ Na etykiecie widzisz symbol płomienia, ale nie znasz dokładnej klasy. Nie klas
 - Numer UN, klasa i grupa pakowania oznaczają różne informacje.
 - Jeśli oznaczenie nie zgadza się z dokumentem, wyjaśnij rozbieżność przed przewozem.
 - Podstawy do dalszej nauki: ADR część 2, tabela A w 3.2 i oznakowanie w 5.2.2.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0006`
+- `ADR-B-0510`
+- `ADR-B-0004`
+- `ADR-B-0005`
+- `ADR-B-0042`
+- `ADR-B-0043`
+- `ADR-B-0044`
+- `ADR-B-0094`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-02 — ADR-B-02](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-02`; jest to symulacja, nie zaliczenie zajęć praktycznych).
