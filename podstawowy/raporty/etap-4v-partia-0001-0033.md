@@ -8,7 +8,7 @@ Zmiana: podmieniono dystraktory zawierające „zawsze”, „nigdy”, „wył�
 
 | Metryka | Przed | Po |
 |---|---:|---:|
-| Poprawna ściśle najkrótsza | 256/569 | 261/569 |
+| Poprawna ściśle najkrótsza | 256/569 | 257/569 |
 | Poprawna ściśle najdłuższa | 71/569 | 70/569 |
 | Słowa absolutne w dystraktorach | 375/1138 | 355/1138 |
 | Słowa absolutne w poprawnych | 26/569 | 26/569 |
