@@ -13,15 +13,29 @@ Kontener może przebyć część trasy statkiem lub koleją, a następnie jecha�
 ## 1. Trzy nazwy, trzy gałęzie transportu
 ADR dotyczy drogowego przewozu towarów niebezpiecznych, RID — przewozu koleją, a IMDG — przewozu morskiego. W transporcie kombinowanym jeden ładunek może podlegać różnym wymaganiom na kolejnych odcinkach. Nie zakładaj, że dokument przygotowany dla jednego środka transportu zawsze wystarcza dla następnego.
 
+
+### Odcinek drogowy i niedrogowy
+ADR, RID i IMDG dotyczą różnych gałęzi przewozu, dlatego ustal, jakie przepisy regulują każdy odcinek. ADR 1.1.4.5 określa szczególne sytuacje, gdy pojazd lub jednostka jest przewożona koleją albo promem, a także warunki uzgodnień międzynarodowych. Zastosowanie reguł innej gałęzi na danym odcinku nie oznacza automatycznie, że dowolne wymagania ADR można pominąć. Jeżeli przepisy różnych gałęzi pozostają w konflikcie, stosuj właściwą regułę ADR i odpowiednią konwencję dla konkretnego odcinka, a nie własne założenie.
 ## 2. Kontener po rejsie morskim
 Po odbiorze kontenera w porcie sprawdź dokumenty, oznakowanie i warunki dalszego przewozu drogowego. ADR 1.1.4.2 określa warunki, na jakich mogą być stosowane określone rozwiązania dla przewozu kombinowanego; nie jest to automatyczne zwolnienie ze wszystkich wymagań ADR. Sprawdź, czy dany przypadek mieści się w warunkach przepisu.
 
+
+### Kiedy oznakowanie lub dokument innej gałęzi może być uznany
+ADR 1.1.4.2 przewiduje określone warunki stosowania części oznakowania i dokumentów IMDG lub ICAO TI na odcinku drogowym. To wyjątek warunkowy, a nie całkowite zwolnienie z ADR. Sprawdź, czy przesyłka, kontener i etap przewozu spełniają wszystkie warunki właściwego podpunktu, w tym sytuacje, gdy towar jest niebezpieczny według ADR, ale nie jest tak klasyfikowany w innej gałęzi. Jeśli warunki wyjątku nie są spełnione, trzeba zapewnić oznakowanie i dokumentację wymagane dla drogi.
 ## 3. Dodatkowy zapis w dokumencie ADR
 W zależności od zastosowanego wyjątku i sytuacji przewozowej może być wymagany dodatkowy zapis w dokumencie. Sprawdź właściwy przepis i komplet wymaganych danych. Nie dopisuj informacji na podstawie domysłu i nie zakładaj, że dokument morski automatycznie zawiera wszystko, czego wymaga odcinek drogowy.
 
+
+### Świadectwo pakowania i specjalne wpisy
+ADR 5.4.2 przewiduje świadectwo pakowania kontenera lub pojazdu dla odpowiednich ładunków przeznaczonych do transportu morskiego. W określonych warunkach funkcja świadectwa i dokumentu przewozowego może być połączona w jednym dokumencie; nie oznacza to, że certyfikat jest wymagany dla każdego rodzaju jednostki, np. każdej przenośnej cysterny. Sprawdź, kto przekazuje dokument przewoźnikowi morskiemu i czy chodzi o kontener, pojazd czy inną jednostkę.
+
+Jeżeli zastosowano wyjątek ADR 1.1.4.2, sprawdź także specjalny wpis wymagany przez 5.4.1.1.7. Dla określonych butli DOT przywożonych lub wywożonych zgodnie z ADR 1.1.4.7 mogą być wymagane szczególne wpisy z 5.4.1.1.24, a także warunki dotyczące napełniania, oznakowania, badań okresowych i miejsca docelowego. Nie napełniaj butli po upływie terminu badania tylko dlatego, że jest dopuszczona do przewozu w innym systemie.
 ## 4. Certyfikat pakowania kontenera lub pojazdu
 W odpowiednich przypadkach dokumentacja obejmuje certyfikat pakowania kontenera/pojazdu. Ustal, czy wymóg dotyczy danego przewozu i czy dokument jest dostępny oraz spójny z dokumentami przewozowymi. Nie uznawaj samego faktu, że kontener dotarł z portu, za dowód kompletności dokumentacji.
 
+
+### Historyczne i szczególne wyjątki
+Niektóre przepisy ADR zawierają warunki przejściowe lub szczególne dla określonych cystern przenośnych IMO oraz butli DOT. Data budowy lub zagraniczne zatwierdzenie samo w sobie nie daje bezwarunkowego prawa przewozu. Sprawdź dokładny zakres wyjątku, towar, wymagania techniczne, stan badań i wymagany wpis w dokumencie. Jeśli nie potwierdzono wszystkich warunków, nie zakładaj, że wyjątek ma zastosowanie.
 ## Typowe błędy kursantów
 - utożsamianie ADR, RID i IMDG;
 - zakładanie, że dokument morski wystarcza na odcinku drogowym;
