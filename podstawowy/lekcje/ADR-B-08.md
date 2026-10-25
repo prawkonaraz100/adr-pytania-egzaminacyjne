@@ -20,6 +20,18 @@ Gaśnice muszą być sprawne, mieć wymagane oznaczenia i terminy przeglądu, by
 Nie stosuj jednego zestawu gaśnic do wszystkich pojazdów. W pełnym reżimie ADR 8.1.4.1 minimalna liczba i łączna pojemność gaśnic zależą od dopuszczalnej masy całkowitej jednostki transportowej: do 3,5 t włącznie — co najmniej dwie gaśnice o łącznej pojemności co najmniej 4 kg; powyżej 3,5 t do 7,5 t włącznie — co najmniej dwie gaśnice o łącznej pojemności co najmniej 8 kg; powyżej 7,5 t — co najmniej dwie gaśnice o łącznej pojemności co najmniej 12 kg, z uwzględnieniem wymagań co do minimalnej pojemności gaśnicy dla silnika/kabiny. Sprawdź aktualny tekst tabeli 8.1.4.1 i rodzaj gaśnic; powyższe progi nie zastępują kontroli wszystkich szczegółów.
 
 Przy przewozie korzystającym z wyłączenia 1.1.3.6 stosuje się odrębne minimum z 8.1.4.2 — co najmniej jedną przenośną gaśnicę proszkową o pojemności co najmniej 2 kg lub gaśnicę z innym środkiem o równoważnej skuteczności, jeśli spełnia warunki przepisu. Nie wnioskuj, że wyłączenie 1.1.3.6 oznacza brak gaśnicy. Gaśnice muszą mieć wymagane oznaczenia kontroli, być w terminie, sprawne, odpowiednio zamocowane i łatwo dostępne (8.1.4.4–8.1.4.5).
+### Ile gaśnic i jaka pojemność?
+
+Przy pełnych wymaganiach ADR 8.1.4.1 minimalne wyposażenie jednostki transportowej zależy od dopuszczalnej masy całkowitej (DMC):
+
+| DMC jednostki | Minimalna liczba gaśnic | Minimalna łączna pojemność, w przeliczeniu na proszek |
+|---|---:|---:|
+| Do 3,5 t włącznie | 2 | 4 kg |
+| Powyżej 3,5 t do 7,5 t włącznie | 2 | 8 kg |
+| Powyżej 7,5 t | 2 | 12 kg |
+
+Przy przewozie na warunkach wyłączenia ilościowego ADR 1.1.3.6 zasadnicze wymaganie z ADR 8.1.4.2 to co najmniej jedna przenośna gaśnica o pojemności **2 kg proszku** lub odpowiedniej równoważnej skuteczności. Nie myl tej odrębnej reguły z tabelą dla pełnego zakresu ADR. Sama łączna masa nie wystarczy, jeżeli wymagana liczba gaśnic nie została spełniona. Podstawa do kontroli: ADR 8.1.4.1–8.1.4.2 (pytania ADR-B-0022, 0071–0073, 0282 i 0417–0421).
+
 ## 2. Wyposażenie osobiste załogi
 Sprawdź osobno wyposażenie wymagane dla pojazdu i dla każdego członka załogi. Kamizelka ostrzegawcza, latarka, rękawice ochronne i ochrona oczu mają różne funkcje i nie zastępują się wzajemnie. Jeżeli wymóg dotyczy każdego członka załogi, jedna kamizelka dla dwóch osób nie wystarczy. Zwykłe rękawice nie muszą chronić przed konkretnym towarem; nie dotykaj nieznanej substancji nawet wtedy, gdy masz rękawice.
 
