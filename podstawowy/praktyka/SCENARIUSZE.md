@@ -258,3 +258,19 @@ Każdy z działów B-01–B-04 ma teraz trzy scenariusze w pliku JSON: scenarius
 | `SC-ADR-B-04-03` | ADR-B-04 | Postój zaplanowany, ale miejsce nie spełnia wymagań | ADR-B-0010, ADR-B-0011, ADR-B-0012, ADR-B-0310, ADR-B-0347 |
 
 Każdy nowy rekord zawiera opis sytuacji, kroki kierowcy, typowe błędy wraz z wyjaśnieniem, podstawę ADR, powiązane pytania, kryteria oceny i granice bezpieczeństwa. Powiązania sprawdzono względem banku: wszystkie wskazane ID istnieją i należą do wskazanego działu.
+
+
+## Etap 4x5 — dodatkowe scenariusze B-05–B-08
+
+| ID scenariusza | Dział | Sytuacja | Pytania do powtórki |
+|---|---|---|---|
+| `SC-ADR-B-05-02` | ADR-B-05 | Awaria na poboczu: pierwsze decyzje kierowcy | ADR-B-0013, ADR-B-0015, ADR-B-0169, ADR-B-0220 |
+| `SC-ADR-B-05-03` | ADR-B-05 | Pożar przy przestrzeni ładunkowej | ADR-B-0013, ADR-B-0015, ADR-B-0169, ADR-B-0222, ADR-B-0223 |
+| `SC-ADR-B-06-02` | ADR-B-06 | Rozbieżność numeru na tablicy i w dokumentach | ADR-B-0016, ADR-B-0017, ADR-B-0018, ADR-B-0507, ADR-B-0562 |
+| `SC-ADR-B-06-03` | ADR-B-06 | Nalepka zasłonięta podczas załadunku | ADR-B-0016, ADR-B-0017, ADR-B-0018 |
+| `SC-ADR-B-07-02` | ADR-B-07 | Niejasny podział obowiązków przy uszkodzonym opakowaniu | ADR-B-0019, ADR-B-0020, ADR-B-0021, ADR-B-0517, ADR-B-0567 |
+| `SC-ADR-B-07-03` | ADR-B-07 | Przekazanie instrukcji pisemnych nowemu członkowi załogi | ADR-B-0019, ADR-B-0020, ADR-B-0021 |
+| `SC-ADR-B-08-02` | ADR-B-08 | Kontrola gaśnicy przed wyjazdem | ADR-B-0022, ADR-B-0023, ADR-B-0024, ADR-B-0596, ADR-B-0597 |
+| `SC-ADR-B-08-03` | ADR-B-08 | Wyposażenie osobiste dla całej załogi | ADR-B-0022, ADR-B-0023, ADR-B-0024, ADR-B-0418 |
+
+Każdy scenariusz zawiera sytuację, kroki kierowcy, błędy z wyjaśnieniem, podstawę ADR, pytania, kryteria oceny i granice bezpieczeństwa. Ćwiczenia są symulacjami, nie potwierdzają odbycia zajęć praktycznych.
