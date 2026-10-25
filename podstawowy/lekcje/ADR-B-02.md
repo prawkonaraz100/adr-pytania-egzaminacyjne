@@ -7,14 +7,14 @@
 Nalepki i dane przewozowe pomagają rozpoznać zagrożenie przed załadunkiem, podczas kontroli i po wypadku. Nie klasyfikuj towaru po kolorze cieczy, nazwie handlowej ani jednym symbolu. Jeśli opakowanie z nalepką 4.3 jest mokre, nie polewaj go wodą: materiały tej klasy mogą wydzielać palny gaz w kontakcie z wodą.
 
 ## Czego się nauczysz
-- odczytywać numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A ([słowniczek](../SLOWNICZEK.md#tabela-a)); [słowniczek](../SLOWNICZEK.md#numer-un)) i podstawowe informacje z tabeli A;
+- odczytywać numer UN (czterocyfrowy identyfikator towaru; [słowniczek](../SLOWNICZEK.md#numer-un)) i używać go do znalezienia właściwego wpisu w tabeli A ([słowniczek](../SLOWNICZEK.md#tabela-a));
 - rozróżniać klasy i podklasy zagrożeń;
-- odróżniać klasę, grupę pakowania (oznaczenie stopnia zagrożenia, stosowane tylko dla towarów, dla których ADR ([słowniczek](../SLOWNICZEK.md#adr)) je przewiduje; [słowniczek](../SLOWNICZEK.md#grupa-pakowania)) i numer UN;
+- odróżniać klasę zagrożenia od grupy pakowania (oznaczenia stopnia zagrożenia stosowanego tylko dla niektórych towarów; [słowniczek](../SLOWNICZEK.md#grupa-pakowania)) i numeru UN; ADR to przepisy określające warunki drogowego przewozu towarów niebezpiecznych ([słowniczek](../SLOWNICZEK.md#adr)).
 - rozumieć ograniczenia podstawowego rozpoznawania klas 1 i 7;
 - wyjaśniać, co zrobić, gdy nalepka i dokumenty nie pasują.
 
 ## 1. Jak rozpoznawać towar
-O klasie decydują właściwości towaru oraz kryteria ADR, a nie kolor opakowania czy nazwa handlowa. Gdy etykieta i dokumenty się różnią, nie zgaduj — wyjaśnij rozbieżność przed przewozem. Tabela A w rozdziale 3.2 zawiera m.in. numer UN (kol. 1), nazwę i opis (kol. 2), klasę (kol. 3a), kod klasyfikacyjn (oznaczenie doprecyzowujące rodzaj zagrożenia w obrębie klasy; [słowniczek](../SLOWNICZEK.md#kod-klasyfikacyjny))y (kol. 3b), grupę pakowania, jeśli występuje (kol. 4), nalepki (kol. 5) i dalsze warunki przewozu. Jeśli dane są niepełne lub sprzeczne z oznakowaniem, wyjaśnij rozbieżność przed przewozem.
+O klasie decydują właściwości towaru oraz kryteria ADR, a nie kolor opakowania czy nazwa handlowa. Gdy etykieta i dokumenty się różnią, nie zgaduj — wyjaśnij rozbieżność przed przewozem. Tabela A w rozdziale 3.2 zawiera m.in. numer UN (kol. 1), nazwę i opis (kol. 2), klasę (kol. 3a), kod klasyfikacyjny (oznaczenie doprecyzowujące rodzaj zagrożenia w obrębie klasy; [słowniczek](../SLOWNICZEK.md#kod-klasyfikacyjny)) (kol. 3b), grupę pakowania, jeśli występuje (kol. 4), nalepki (kol. 5) i dalsze warunki przewozu. Jeśli dane są niepełne lub sprzeczne z oznakowaniem, wyjaśnij rozbieżność przed przewozem.
 
 ## 2. Klasy ADR
 | Klasa | Główne zagrożenie | Na co uważać |
