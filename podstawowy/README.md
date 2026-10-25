@@ -123,6 +123,7 @@ Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogó
 - [B-04–06 — raport partii 2](raporty/etap-4x17-lekcje-scenariusze-04-06-2026-10-25.md)
 - [B-07–09 — raport partii 3](raporty/etap-4x17-lekcje-scenariusze-07-09-2026-10-25.md)
 - [B-10–12 — raport partii 4](raporty/etap-4x17-lekcje-scenariusze-10-12-2026-10-25.md)
+- [B-13 — raport partii 5](raporty/etap-4x17-lekcje-scenariusze-13-2026-10-25.md)
 
 ## Raporty ETAPU 4x9
 
