@@ -110,7 +110,7 @@
       "number": 12,
       "id": "ADR-B-0488",
       "correct_option": "A",
-      "explanation": "Przy przewozie luzem kod tunelowy D/E oznacza zakaz przejazdu przez tunele kategorii D i E. Nie można ograniczyć go wyłącznie do kategorii E, jak przy sztukach przesyłek, ani przenosić na niego dowolnego zakazu dla A i B. Zawsze trzeba odczytać kod z uwzględnieniem formy przewozu. Podstawa: ADR 8.6.4, kod D/E.",
+      "explanation": "Kod D/E rozróżnia przewóz w cysternie od pozostałych sposobów przewozu: pierwsza litera dotyczy cystern, a druga przewozu innego niż w cysternie. Przewóz luzem nie jest przewozem w cysternie, więc z tego kodu wynika zakaz w tunelu kategorii E, a nie automatycznie D i E. Podstawa: ADR 8.6.4, kod D/E.",
       "legal_basis": [
         "ADR 2025, 8.6.4, kod D/E"
       ]
