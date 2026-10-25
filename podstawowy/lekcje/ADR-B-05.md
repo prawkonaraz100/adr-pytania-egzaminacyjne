@@ -230,3 +230,18 @@ Jeśli ogień obejmuje przestrzeń ładunkową, nie otwieraj jej, by zobaczyć, 
 - Ostrzeż innych i wezwij służby. Korzystaj z instrukcji pisemnych, jeśli możesz zrobić to bezpiecznie.
 - Nie otwieraj przestrzeni ładunkowej objętej pożarem. Ćwiczenia P1–P3 musi rzeczywiście przeprowadzić i ocenić instruktor.
 - Podstawy do dalszej nauki: ADR 5.4.3.4 i 5.4.3 oraz właściwe przepisy o wyposażeniu i działaniach awaryjnych.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0013`
+- `ADR-B-0015`
+- `ADR-B-0169`
+- `ADR-B-0014`
+- `ADR-B-0049`
+- `ADR-B-0050`
+- `ADR-B-0104`
+- `ADR-B-0105`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-05 — ADR-B-05](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-05`; jest to symulacja, nie zaliczenie zajęć praktycznych).
