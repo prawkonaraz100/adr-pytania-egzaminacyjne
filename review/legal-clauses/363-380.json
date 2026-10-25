@@ -743,9 +743,18 @@
       "clause": "ADR 2025, 1.4.2.2.1(e)",
       "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
       "answer_review": {
-        "A": "Poprawna: obowiązki przewoźnika obejmują sprawdzenie masy i załadunku w zakresie ADR. Podstawa: ADR 1.4.2.2.1(e).",
-        "B": "Niepoprawna: zabezpieczenie ładunku nie usuwa obowiązku kontroli dopuszczalnej masy. Podstawa: ADR 1.4.2.2.1(e).",
-        "C": "Niepoprawna: obowiązek sprawdzenia masy nie dotyczy wyłącznie przewozu w cysternie. Podstawa: ADR 1.4.2.2.1(e)."
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawna: obowiązki przewoźnika obejmują sprawdzenie masy i załadunku w zakresie ADR. Podstawa: ADR 1.4.2.2.1(e)."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Niepoprawna: zabezpieczenie ładunku nie usuwa obowiązku kontroli dopuszczalnej masy. Podstawa: ADR 1.4.2.2.1(e)."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Niepoprawna: obowiązek sprawdzenia masy nie dotyczy wyłącznie przewozu w cysternie. Podstawa: ADR 1.4.2.2.1(e)."
+        }
       },
       "observed_answer_key": "A",
       "notes_on_conditions": "Podział odpowiedzialności zależy od roli, konkretnej czynności i warunków ADR; przed publikacją wymagana recenzja specjalisty.",
