@@ -10,7 +10,7 @@ Bezpieczny przewóz wymaga współpracy nadawcy, przewoźnika, załadowcy, pakuj
 - rozróżniać podstawowe obowiązki uczestników przewozu;
 - rozpoznawać sytuacje, w których trzeba zatrzymać czynność i wyjaśnić niezgodność;
 - rozumieć rolę pakującego i załadowcy przy opakowaniu;
-- wiedzieć, kto zapewnia załodze instrukcje pisemn (ustalony dokument z działaniami dla załogi w razie zdarzenia; ma być dostępny i zrozumiały; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne))e;
+- wiedzieć, kto zapewnia załodze instrukcje pisemne (dokument z ustalonymi wskazówkami dla załogi na wypadek zdarzenia; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne));
 - odróżniać obowiązki ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)) od ogólnej odpowiedzialności cywilnej.
 
 ## 1. Podział obowiązków
