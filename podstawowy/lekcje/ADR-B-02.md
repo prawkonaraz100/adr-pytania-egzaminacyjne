@@ -74,11 +74,23 @@ Nie rozpoznawaj towaru po zapachu, wyglądzie cieczy ani nazwie handlowej. Odczy
 - Rozpoznanie klasy 1 lub 7 nie zastępuje wymagań specjalistycznych.
 
 ## Sprawdź się
-- Jakie informacje tabeli A pomagają ustalić klasę i oznakowanie?
+
 - Czym różnią się klasa, grupa pakowania i numer UN?
 - Dlaczego przy klasie 4.3 nie wolno automatycznie używać wody?
 - Co odróżnia 5.1 od 5.2?
 - Dlaczego symbol jednej nalepki nie wystarcza do pełnej oceny?
+
+Pytania do samodzielnego sprawdzenia w banku:
+- `ADR-B-0004`
+- `ADR-B-0005`
+- `ADR-B-0006`
+- `ADR-B-0265`
+- `ADR-B-0284`
+- `ADR-B-0307`
+- `ADR-B-0315`
+- `ADR-B-0510`
+
+Scenariusz z pracy kierowcy: [SC-ADR-B-02 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
 
 ## Powiązane pytania w banku
 - ADR-B-0004
