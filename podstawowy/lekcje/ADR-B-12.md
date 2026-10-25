@@ -15,11 +15,21 @@ Sprawdź, czy przewóz obejmuje towary dużego ryzyka i czy wymagany jest plan o
 
 Nie ujawniaj niepotrzebnie osobom nieuprawnionym informacji o rodzaju ładunku, trasie, postoju ani szczegółach zabezpieczeń. Stosuj procedurę firmy, ale pamiętaj, że procedura wewnętrzna nie znosi wymagań ADR.
 
+
+### Towary dużego ryzyka i progi
+Nie każdy towar niebezpieczny automatycznie jest towarem dużego ryzyka w rozumieniu ADR 1.10.3.1.2. Sprawdź tabelę dla konkretnego zagrożenia, postaci przewozu i progu ilościowego. Próg podany dla cysterny nie może być automatycznie zastosowany do sztuk przesyłek; oznaczenia przypisów w tabeli określają, jak interpretować dany wiersz. Wpis 0 kg oznacza, że każda dodatnia ilość objęta odpowiednim wpisem spełnia próg ilościowy dla tej kategorii — ale nadal trzeba potwierdzić właściwą pozycję i postać przewozu.
+
+Plan ochrony dla towarów dużego ryzyka powinien określać odpowiedzialność za ochronę, wykaz lub charakter przewożonych materiałów, ocenę zagrożeń na różnych etapach i miejscach przewozu, środki ograniczające ryzyko, procedury zgłaszania i reagowania na naruszenia, przegląd i aktualizację planu oraz ograniczenie dostępu do szczegółowych informacji. Obejmuje też właściwe zabezpieczenia podczas postoju. Urządzenia antykradzieżowe nie mogą uniemożliwiać ratownikom dostępu w sytuacji awaryjnej.
 ## 2. Kontrola dostępu i tożsamości
 Przekazanie ładunku wymaga potwierdzenia, że odbiorca jest uprawniony. Znajomość numeru zlecenia lub nazwy firmy sama w sobie nie dowodzi uprawnienia. Jeśli tożsamość lub upoważnienie budzą wątpliwości, wstrzymaj przekazanie i wyjaśnij sprawę z odpowiedzialną osobą.
 
 Podobnie sprawdź tożsamość członków załogi zgodnie z procedurą, gdy jest to wymagane. Nie ujawniaj danych osobowych ani szczegółów ochrony poza zakresem niezbędnym do realizacji obowiązków.
 
+
+### Weryfikacja osób i szkolenie ochronne
+Przed przekazaniem towaru sprawdź tożsamość i uprawnienie odbiorcy lub przewoźnika zgodnie z procedurą. Sam numer zlecenia nie wystarcza. ADR 1.10 przewiduje środki zapobiegające nieuprawnionemu dostępowi do przesyłek i miejsc czasowego składowania; niekontrolowane wejście z ulicy może wymagać ograniczenia dostępu. Członkowie załogi powinni mieć przy sobie wymagany dokument tożsamości ze zdjęciem w sytuacjach wskazanych w ADR.
+
+Szkolenie ochronne dotyczy zagrożeń wynikających z niewłaściwego wykorzystania towarów niebezpiecznych, środków ochrony i procedur. Należy je przeprowadzić przed podjęciem obowiązków wymagających takiego przygotowania, uzupełniać w wymaganych sytuacjach i dokumentować zgodnie z ADR 1.10.2.2–1.10.2.4. Szczegóły planu ochrony udostępniaj tylko osobom, które potrzebują ich do wykonywania zadań.
 ## 3. Postój i naruszenie zabezpieczeń
 Plan ochrony powinien uwzględniać realne środki ograniczające kradzież i dostęp osób nieuprawnionych również podczas postoju. Jeśli zaplanowane miejsce przestaje być dostępne, korzystaj z zatwierdzonej procedury i uzgodnij zgodne miejsce z odpowiedzialną osobą. Nie wybieraj dowolnego postoju wyłącznie z wygody.
 

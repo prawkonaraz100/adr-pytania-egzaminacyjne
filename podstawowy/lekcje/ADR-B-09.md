@@ -13,9 +13,17 @@ Nieprawidłowy załadunek może uszkodzić opakowanie, spowodować przemieszczen
 ## 1. Kontrola przed załadunkiem
 Zgodnie z ADR 7.5.1 sprawdź, czy pojazd i przesyłki nadają się do planowanego załadunku. Zwróć uwagę na uszkodzenia, wycieki, pozostałości poprzedniego ładunku, stan podłogi i możliwość bezpiecznego rozmieszczenia towaru. Jeśli widzisz niezgodność, nie rozpoczynaj załadunku, dopóki nie zostanie wyjaśniona.
 
+
+### Niezgodność przed rozpoczęciem czynności
+ADR 7.5.1.2 wymaga, aby przed załadunkiem sprawdzić pojazd, przesyłki i dokumenty pod kątem oczywistych niezgodności. Jeżeli stan pojazdu, wyposażenia lub sztuki przesyłki może zagrażać bezpieczeństwu, nie rozpoczynaj załadunku, dopóki problem nie zostanie usunięty lub wyjaśniony. Nie przykrywaj uszkodzenia plandeką i nie uznawaj aktualnego świadectwa pojazdu za dowód, że późniejsze uszkodzenie nie ma znaczenia.
 ## 2. Wspólny załadunek i żywność
 Nie wszystkie towary można ładować razem. Sprawdź wymagania dotyczące wspólnego załadunku, w tym rozdzielenia niektórych materiałów oraz warunki ochrony żywności, pasz i innych towarów konsumpcyjnych. Nie polegaj wyłącznie na odległości między paletami ani na ustnym zapewnieniu, że „zawsze tak się robi”. W razie wątpliwości sprawdź właściwy przepis ADR 7.5.2 i wymagania dotyczące danego towaru.
 
+
+### Wspólny załadunek — sprawdź tabelę zgodności
+Nie rozstrzygaj zgodności wspólnego załadunku na podstawie samych klas ani oddzielnych dokumentów przewozowych. Zastosuj tabelę i uwagi ADR 7.5.2.1, a dla sztuk przesyłek klasy 1 także reguły grup zgodności z 7.5.2.2. Oznaczenia łączone, np. klasa główna i zagrożenie dodatkowe, nie oznaczają automatycznie dwóch niezależnych palet — liczy się właściwa klasyfikacja przesyłki. Szczególne uwagi tabeli mogą zmieniać dopuszczalność konkretnego połączenia; nie interpretuj ich jako ogólnego pozwolenia na załadunek materiałów wybuchowych z dowolnym utleniaczem. Dwa oddzielne dokumenty nie legalizują wspólnego załadunku zabronionego przez ADR.
+
+Przy żywności, paszach i innych towarach konsumpcyjnych sprawdź wymagane oddzielenie od określonych towarów niebezpiecznych. Nie zakładaj, że sama odległość między paletami wystarczy.
 ## 3. Mocowanie i piętrzenie
 Ładunek trzeba zabezpieczyć przed przesuwaniem, przewróceniem i uszkodzeniem podczas normalnego transportu. Pas mocujący powinien utrzymywać ładunek, ale zbyt mocne zaciśnięcie może zdeformować lub uszkodzić opakowanie. Zasady mocowania stosuje się również do ładunków niebędących towarami niebezpiecznymi przewożonych obok przesyłek ADR. Nie zakładaj, że ciężka maszyna jest bezpieczna tylko dlatego, że nie ma oznakowania ADR.
 
@@ -25,6 +33,9 @@ Jeżeli pozostałości poprzedniego ładunku mogą reagować z nowym towarem alb
 ## 5. Przewóz luzem
 Przewóz luzem nie oznacza dowolnego wysypania lub wylania towaru do pojazdu. Sprawdź, czy dana pozycja ADR dopuszcza taki sposób przewozu i czy pojazd lub kontener spełnia wymagania. Nie podejmuj załadunku luzem wyłącznie dlatego, że towar nie jest w sztukach przesyłek.
 
+
+### Warunki przewozu luzem
+Sprawdź kolumnę 17 tabeli A i wymagania ADR 7.3, w tym warunki dotyczące rodzaju pojazdu/kontenera, konstrukcji, zamknięć i zabezpieczenia przed wysypaniem lub uwolnieniem. Samo dopuszczenie towaru do przewozu luzem nie oznacza, że każdy dostępny pojazd jest odpowiedni. Jeżeli zamknięcia nie zapobiegają uwolnieniu towaru, nie rozpoczynaj jazdy. Przewóz luzem nie jest wyborem logistycznym, który można zastosować tylko dla oszczędności czasu.
 ## Typowe błędy kursantów
 - rozpoczynanie załadunku mimo pozostałości lub uszkodzeń;
 - zakładanie, że wszystkie towary można ładować razem;
