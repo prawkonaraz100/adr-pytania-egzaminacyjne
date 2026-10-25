@@ -7,7 +7,7 @@
 
 ## Potwierdzone problemy i poprawki
 - **B-01:** akapit wprowadzający powtarzał rozwinięcie ADR i zawierał zagnieżdżony odsyłacz do tabeli A w definicji numeru UN. Zastąpiono go krótszymi zdaniami: czym jest ADR, jak znaleźć numer UN i czym różnią się LQ, EQ oraz wyłączenie z ADR 1.1.3.6. Każdy termin ma odsyłacz bezpośrednio przy pierwszym użyciu.
-- **B-02:** znaleziono uszkodzony ciąg „kod klasyfikacyjn…y”, powstały przy wstawianiu definicji. Przywrócono prawidłowe brzmienie „kod klasyfikacyjny” i uproszczono dwa punkty listy, żeby definicje nie były zagnieżdżone w kilku nawiasach.
+- **B-02:** znaleziono uszkodzony ciąg „kod klasyfikacyjn…y”, powstały przy wstawianiu definicji. Przywrócono prawidłowe brzmienie „kod klasyfikacyjny” i uproszczono dwa punkty listy. Pierwszy przebieg CI wskazał też, że skrót ADR w punkcie o grupie pakowania nie miał objaśnienia w tym samym elemencie listy; dodano tam krótkie rozwinięcie i link do hasła.
 - **B-03 i B-04:** w sprawdzonym zakresie nie wykryto analogicznego uszkodzenia składniowego wymagającego poprawki w tej partii. Nie zmieniano ich merytoryki.
 
 ## Przykłady przed → po
@@ -24,7 +24,7 @@
 ## Kontrola przed PR
 - Zmieniono 2 lekcje; 2 główne akapity i 3 elementy listy poprawiono lub uproszczono.
 - Bank: bez zmian; ID i poprawne litery bez zmian; brak nowych statusów `verified`.
-- Kontrola składni lokalna w ramach odczytanej treści: uszkodzony fragment w B-02 usunięty; odsyłacze B-01 kierują do kotwic słowniczka. Pełny test `tests/test_learner_glossary.py` i Quality Gate muszą potwierdzić CI przed scaleniem.
+- Kontrola składni lokalna w ramach odczytanej treści: uszkodzony fragment w B-02 usunięty; odsyłacze B-01 kierują do kotwic słowniczka. Po poprawce wskazanej przez CI ponownie uruchomiono Quality Gate; wynik końcowy należy potwierdzić przed scaleniem.
 - W tej partii nie zmieniano explanation w banku, więc wskaźnik „poprawna = jedyna najdłuższa” i długość explanation pozostają bez zmian.
 
 ## Ograniczenia
