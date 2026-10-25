@@ -52,3 +52,11 @@ Recenzent przekazuje formularz z polami: ID, data kontroli, recenzent, źródło
 - **Kontrola spójności:** Quality Gate sprawdza, czy każda lekcja i instrukcja zawiera odwołania do wszystkich trzech scenariuszy swojego działu, a wszystkie identyfikatory pytań istnieją w banku i należą do właściwego modułu. To kontrola strukturalna, nie potwierdzenie poprawności prawnej.
 
 Przed recenzją specjalista ma zapisać commit SHA i pracować na jednej migawce. Dla każdego pytania sprawdzić treść, trzy odpowiedzi, explanation dla początkującego kierowcy, podstawę prawną i zakres kursu. Osobno sprawdzić, czy trzy scenariusze działu są spójne z lekcją i pytaniami oraz czy wszystkie warianty egzaminu i klucze są zgodne z tą samą migawką banku. Nie ustawiać `verified` na podstawie samego przejścia testów automatycznych.
+
+
+## Uzupełnienie procedury — etap 4x18
+
+- Migawka banku po redakcji dystraktorów: 609 rekordów, SHA blob `ec1bb5391aa9875e2a1aa7bdb138fb79b3bf72dd`; arkusze 001–005 i klucze mają wskazywać dokładnie tę migawkę.
+- Priorytetowe rekordy do ponownego odczytu: ADR-B-0073, 0074, 0253, 0283, 0420, 0422, 0484 (wyposażenie i kontrole) oraz ADR-B-0144, 0249, 0274, 0275, 0300, 0304, 0305 (postój, identyfikacja, ochrona i szkolenia). Sprawdź szczególnie zakres stosowania wymogu, warunki i wyjątki — nie tylko numer punktu.
+- Rejestry pytań wrażliwych na edycję ADR 2027 są w `podstawowy/raporty/etap-4x9-wrazliwosc-01-04.json`, `...-05-08.json`, `...-09-13.json`. Są to flagi do kontroli, nie stwierdzenie, że przepisy się zmieniły.
+- Status `verified` nadaje wyłącznie specjalista po rzeczywistej recenzji. Wymagane są źródło urzędowe i sprostowanie, analiza A/B/C, warunki i wyjątki, data oraz prawdziwa tożsamość recenzenta zgodnie z procedurą repo. Nie przenoś statusu z poprzedniej migawki na nowy rekord bez ponownego sprawdzenia.
