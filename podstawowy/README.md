@@ -43,6 +43,7 @@
 - [Etap 4x2 — redakcja podręcznikowa lekcji 01–04](raporty/etap-4x2-redakcja-lekcji-01-04-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 05–08](raporty/etap-4x2-redakcja-lekcji-05-08-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 09–12](raporty/etap-4x2-redakcja-lekcji-09-12-2026-10-25.md)
+- [Raport końcowy etapu 4x5 — scenariusze i egzaminy próbne](raporty/etap-4x5-raport-koncowy-2026-10-25.md)
 - [Etap 4x3 — zgodność banku z podręcznikiem B-01–B-04](raporty/etap-4x3-pokrycie-banku-01-04-2026-10-25.md)
 - [Etap 4x3 — zgodność banku z podręcznikiem B-05–B-08](raporty/etap-4x3-pokrycie-banku-05-08-2026-10-25.md)
 - [Etap 4x3 — zgodność banku z podręcznikiem B-09–B-12](raporty/etap-4x3-pokrycie-banku-09-12-2026-10-25.md)
