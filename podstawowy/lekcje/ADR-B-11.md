@@ -27,7 +27,7 @@ Kod tunelowy znajdziesz w kolumnie 15 tabeli A przy konkretnym towarze. Porówna
 Jeżeli kod towaru wskazuje brak ograniczenia tunelowego w tabeli jako „(-)”, nie oznacza to zwolnienia z innych znaków drogowych, ograniczeń lokalnych ani wymagań bezpieczeństwa. Dla towarów wybuchowych kod taki jak B1000C wiąże ograniczenie kategorii B z progiem 1000 kg netto materiału wybuchowego; przy dokładnie 1000 kg próg „powyżej 1000 kg” nie jest przekroczony, ale nadal obowiązują ograniczenia dla kategorii C, D i E. Odczytaj cały kod, a nie tylko pierwszą literę.
 
 ## 3. Różne kody w jednej jednostce transportowej
-Jeśli jednostka przewozi towary z różnymi kodami tunelowymi, ustal kod dla całego ładunku zgodnie z ADR 8.6.3.2. Nie wybieraj kodu na podstawie masy towaru ani wygody. Przed wjazdem sprawdź ograniczenie na oznakowaniu tunelu i zastosuj właściwą regułę dla całej jednostki.
+Jeśli jednostka transportowa (pojazd silnikowy z przyczepą lub naczepą, gdy tworzą zestaw; [słowniczek](../SLOWNICZEK.md#jednostka-transportowa)) przewozi towary z różnymi kodami tunelowymi, ustal kod dla całego ładunku zgodnie z ADR 8.6.3.2. Nie wybieraj kodu na podstawie masy towaru ani wygody. Przed wjazdem sprawdź ograniczenie na oznakowaniu tunelu i zastosuj właściwą regułę dla całej jednostki.
 
 
 ### Łączenie kodów i postać przewozu
