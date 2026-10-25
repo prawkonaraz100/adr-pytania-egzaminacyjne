@@ -30,12 +30,12 @@
         "module_id": "ADR-B-12",
         "stem": "Firma opracowuje plan ochrony dla towarów dużego ryzyka. Jak ma określić odpowiedzialność za ochronę?",
         "options": {
-          "A": "Powierzyć ochronę przypadkowemu odbiorcy, bez sprawdzenia jego kompetencji i uprawnień",
-          "B": "Nie przypisywać nikomu zadań, aby wszyscy wspólnie odpowiadali za ochronę ładunku",
+          "A": "Przekazać zadania firmie ochrony bez oceny kwalifikacji",
+          "B": "Pozostawić odpowiedzialność zbiorową, nie określając osób ani ich konkretnych uprawnień w planie",
           "C": "Przypisać zadania kompetentnym osobom z odpowiednimi uprawnieniami"
         },
         "correct_option": "C",
-        "explanation": "Plan ochrony powinien wskazywać konkretne osoby odpowiedzialne za poszczególne działania oraz zapewniać, że mają odpowiednie kompetencje i uprawnienia. Pozostawienie odpowiedzialności nieokreślonej utrudnia reakcję na zagrożenie, a przypadkowy odbiorca nie jest automatycznie właściwą osobą. Role muszą być ustalone z góry. Podstawa: ADR 1.10.3.2.2(a).",
+        "explanation": "Plan ochrony powinien wskazywać konkretne osoby odpowiedzialne za poszczególne działania oraz zapewniać, że mają odpowiednie kompetencje i uprawnienia. Pozostawienie odpowiedzialności nieokreślonej utrudnia reakcję na zagrożenie, a przypadkowy odbiorca nie jest automatycznie właściwą osobą. Zlecenie zewnętrznej ochronie i odpowiedzialność zbiorowa nie zastępują wskazania kompetentnych osób. Podstawa: ADR 1.10.3.2.2(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -76,12 +76,12 @@
         "module_id": "ADR-B-12",
         "stem": "Co plan ochrony towarów dużego ryzyka powinien zawierać w zakresie przewożonych materiałów?",
         "options": {
-          "A": "Wpisać nazwę spedytora i dane organizacyjne, bez określania rodzaju przewożonych towarów",
+          "A": "Wpisać dane spedytora i firmowe oznaczenia",
           "B": "Określić rodzaje przewożonych towarów niebezpiecznych lub grupy towarów objęte planem",
-          "C": "Podać numery rejestracyjne pojazdów używanych przez firmę, bez określenia przewożonego ładunku"
+          "C": "Opisać wszystkie pojazdy, numery ich rejestracji i planowane miejsca postoju, nie określając towarów"
         },
         "correct_option": "B",
-        "explanation": "Plan ochrony powinien określać, jakie towary niebezpieczne lub grupy towarów obejmuje. Sama nazwa spedytora czy numery rejestracyjne pojazdów nie opisują, przed jakim ładunkiem trzeba się chronić. Informacja o rodzajach towarów pozwala dopasować środki ochrony do rzeczywistego ryzyka. Podstawa: ADR 1.10.3.2.2(b).",
+        "explanation": "Plan ochrony powinien określać, jakie towary niebezpieczne lub grupy towarów obejmuje. Sama nazwa spedytora czy numery rejestracyjne pojazdów nie opisują, przed jakim ładunkiem trzeba się chronić. Dane spedytora i lista pojazdów nie określają rodzaju towarów objętych planem ochrony. Podstawa: ADR 1.10.3.2.2(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -122,12 +122,12 @@
         "module_id": "ADR-B-12",
         "stem": "Przy ocenie zagrożeń w planie ochrony przeanalizowano tylko jazdę autostradą. Jakie inne miejsca lub etapy trzeba uwzględnić?",
         "options": {
-          "A": "Uwzględnić wyłącznie czas jazdy i przerwy kierowcy, bez oceny postojów i przechowywania ładunku",
-          "B": "Sprawdzić jedynie miejsce wystawienia faktury i adres biura przewoźnika, bez analizy trasy",
+          "A": "Przeanalizować czas jazdy i postoje kierowcy",
+          "B": "Skupić plan ochrony na adresie biura i dokumentach księgowych, pomijając miejsca przechowywania towaru",
           "C": "Uwzględnić postoje, ładunek pozostawiony w pojeździe i etapy intermodalne"
         },
         "correct_option": "C",
-        "explanation": "Ocena zagrożeń ochronnych nie powinna ograniczać się do samej jazdy. Należy uwzględnić również postoje wymagane przez transport, czasowe przebywanie ładunku w pojeździe i operacje intermodalne, jeśli występują. Godziny obiadu czy miejsce wystawienia faktury nie opisują ryzyka kradzieży lub nieuprawnionego dostępu. Podstawa: ADR 1.10.3.2.2(c).",
+        "explanation": "Ocena zagrożeń ochronnych nie powinna ograniczać się do samej jazdy. Należy uwzględnić również postoje wymagane przez transport, czasowe przebywanie ładunku w pojeździe i operacje intermodalne, jeśli występują. Same godziny jazdy i dane biura pomijają ryzyka postoju, przechowywania i przeładunków. Podstawa: ADR 1.10.3.2.2(c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -168,12 +168,12 @@
         "module_id": "ADR-B-12",
         "stem": "Plan ochrony towarów dużego ryzyka obejmuje ryzyko na trasie. Co powinien określać w zakresie przeciwdziałania ryzyku?",
         "options": {
-          "A": "Wskazać przewidywaną godzinę posiłku kierowcy jako główny środek ochrony przewożonego towaru",
-          "B": "Opisać markę i model ciężarówki, nie wskazując działań ograniczających rozpoznane zagrożenia",
+          "A": "Ustalić stałe pory posiłku kierowcy",
+          "B": "Opisać wyposażenie i model ciężarówki, nie określając żadnych działań ograniczających ryzyka na trasie",
           "C": "Określić praktyczne działania, które ograniczają rozpoznane zagrożenia dla ochrony towaru"
         },
         "correct_option": "C",
-        "explanation": "Plan ochrony powinien zawierać praktyczne działania ograniczające rozpoznane zagrożenia, dopasowane do danego przewozu. Godzina obiadu ani model ciężarówki nie stanowią środków ochrony. Plan ma pomagać zapobiegać kradzieży i nadużyciu towarów dużego ryzyka oraz określać, jak działać w razie problemu. Podstawa: ADR 1.10.3.2.2(d).",
+        "explanation": "Plan ochrony powinien zawierać praktyczne działania ograniczające rozpoznane zagrożenia, dopasowane do danego przewozu. Godzina obiadu ani model ciężarówki nie stanowią środków ochrony. Stałe pory posiłków i opis modelu pojazdu nie są środkami reagowania na konkretne zagrożenia. Podstawa: ADR 1.10.3.2.2(d).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -214,12 +214,12 @@
         "module_id": "ADR-B-12",
         "stem": "Firma odnotowała próbę nieuprawnionego dostępu do ładunku dużego ryzyka. Jakie procedury muszą być zawarte w planie ochrony?",
         "options": {
-          "A": "Opisać harmonogram przerw i sposób rozliczania czasu pracy, bez procedury zgłaszania incydentów",
-          "B": "Ująć procedurę reklamacji kosztów poniesionych przez przewoźnika, zamiast reakcji na naruszenia ochrony",
+          "A": "Przekazać incydenty do działu reklamacji",
+          "B": "Zamieścić zasady rozliczania szkód i wniosków o odszkodowanie zamiast procedury reakcji na naruszenia ochrony",
           "C": "Opisać zgłaszanie zagrożeń i naruszeń ochrony oraz sposób reagowania na takie incydenty"
         },
         "correct_option": "C",
-        "explanation": "Plan ochrony musi opisywać, jak zgłaszać zagrożenia, incydenty i naruszenia ochrony oraz jak na nie reagować. Harmonogram przerw czy procedura reklamacji kosztów nie przygotowują pracowników do takich zdarzeń. Jasne zasady zgłoszenia pomagają szybko uruchomić odpowiednie działania i ograniczyć skutki incydentu. Podstawa: ADR 1.10.3.2.2(e).",
+        "explanation": "Plan ochrony musi opisywać, jak zgłaszać zagrożenia, incydenty i naruszenia ochrony oraz jak na nie reagować. Harmonogram przerw czy procedura reklamacji kosztów nie przygotowują pracowników do takich zdarzeń. Reklamacja szkody i rozliczanie kosztów nie zastępują procedur zgłaszania incydentu i reagowania. Podstawa: ADR 1.10.3.2.2(e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -260,12 +260,12 @@
         "module_id": "ADR-B-12",
         "stem": "Firma ma plan ochrony od kilku lat, lecz zmieniła trasę i charakter ładunków. Jakie działania przewiduje ADR?",
         "options": {
-          "A": "Zachować zakaz zmian planu, nawet jeśli trasa i rodzaj ładunku uległy zmianie",
+          "A": "Nie zmieniać planu po zatwierdzeniu",
           "B": "Przewidzieć ocenę, sprawdzanie, przegląd i aktualizację planu ochrony",
-          "C": "Usunąć plan automatycznie po kilku latach, bez oceny aktualnych zagrożeń"
+          "C": "Przygotować nowy plan dopiero po upływie kilku lat, niezależnie od zmian w trasach i ładunkach"
         },
         "correct_option": "B",
-        "explanation": "Plan ochrony nie powinien pozostawać niezmieniony, gdy zmieniają się trasy, rodzaje ładunków lub sposób organizacji przewozu. ADR przewiduje ocenę, sprawdzanie, przegląd i aktualizację planu. Zakaz zmian lub automatyczne usunięcie dokumentu nie rozwiązuje problemu; plan ma nadal odpowiadać aktualnym zagrożeniom. Podstawa: ADR 1.10.3.2.2(f).",
+        "explanation": "Plan ochrony nie powinien pozostawać niezmieniony, gdy zmieniają się trasy, rodzaje ładunków lub sposób organizacji przewozu. ADR przewiduje ocenę, sprawdzanie, przegląd i aktualizację planu. Zamrożenie planu albo odkładanie aktualizacji na kilka lat pomija zmiany w trasach i ładunkach. Podstawa: ADR 1.10.3.2.2(f).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -306,12 +306,12 @@
         "module_id": "ADR-B-12",
         "stem": "Dokumenty planu ochrony zawierają informacje o przewozach wysokiego ryzyka. Co powinno być opisane w planie?",
         "options": {
-          "A": "Opisać wyłącznie wzór pieczątki działu transportu, bez zasad ochrony danych przewozowych",
-          "B": "Udostępniać publicznie pełne trasy przewozów bez ograniczeń i bez sprawdzania uprawnień odbiorców",
+          "A": "Zapisać sposób korzystania z pieczątki firmowej",
+          "B": "Udostępniać pełne trasy transportu osobom zainteresowanym i rozsyłać dokumenty bez kontroli uprawnień",
           "C": "Opisać sposoby ochrony informacji transportowych przed dostępem osób nieuprawnionych"
         },
         "correct_option": "C",
-        "explanation": "Plan ochrony powinien określać, jak zabezpiecza się informacje związane z przewozem, aby nie trafiały do osób nieuprawnionych. Publikowanie pełnych tras bez ograniczeń może zwiększyć ryzyko, a wzór pieczątki nie chroni danych. Należy opisać odpowiednie środki ochrony informacji transportowych. Podstawa: ADR 1.10.3.2.2(g).",
+        "explanation": "Plan ochrony powinien określać, jak zabezpiecza się informacje związane z przewozem, aby nie trafiały do osób nieuprawnionych. Publikowanie pełnych tras bez ograniczeń może zwiększyć ryzyko, a wzór pieczątki nie chroni danych. Pieczątka firmy i publiczne przekazywanie tras nie chronią wrażliwych informacji o przewozie. Podstawa: ADR 1.10.3.2.2(g).",
         "sources": [
           {
             "code": "ADR-2025-PL",
