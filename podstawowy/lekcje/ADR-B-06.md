@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Oznakowanie pomaga służbom i uczestnikom przewozu rozpoznać rodzaj zagrożenia oraz powiązać przesyłkę z dokumentacją. Nieczytelna nalepka, błędny numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A ([słowniczek](../SLOWNICZEK.md#tabela-a)); [słowniczek](../SLOWNICZEK.md#numer-un)) albo rozbieżność na tablicy pomarańczowej (oznaczenie pojazdu używane w określonych przewozach; numerowana tablica może pokazywać zagrożenie i numer UN; [słowniczek](../SLOWNICZEK.md#tablica-pomaranczowa)) może utrudnić prawidłową reakcję. Przed wyjazdem porównaj oznakowanie z dokumentem i właściwym wpisem ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)).
+Oznakowanie pomaga rozpoznać zagrożenie i sprawdzić, czy ładunek zgadza się z dokumentami. Numer UN to czterocyfrowy identyfikator towaru ([słowniczek](../SLOWNICZEK.md#numer-un)); tablica pomarańczowa jest oznaczeniem pojazdu stosowanym w określonych przewozach ([słowniczek](../SLOWNICZEK.md#tablica-pomaranczowa)). Jeśli numer, nalepka albo tablica są nieczytelne lub nie pasują do dokumentów, nie zgaduj — wyjaśnij rozbieżność przed wyjazdem. Porównaj oznakowanie z właściwym wpisem ADR, czyli przepisami drogowymi dla towarów niebezpiecznych ([słowniczek](../SLOWNICZEK.md#adr)).
 
 ## Czego się nauczysz
 - odróżniać numer UN od numeru rozpoznawczego zagrożenia (liczby opisującej rodzaj zagrożenia na górze tablicy pomarańczowej; [słowniczek](../SLOWNICZEK.md#numer-rozpoznawczy-zagrozenia));
