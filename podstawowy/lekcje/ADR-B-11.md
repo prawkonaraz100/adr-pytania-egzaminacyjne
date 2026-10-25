@@ -143,3 +143,18 @@ Powtórka w banku: ADR-B-0262–0264, 0431, 0487–0488.
 - Kody tunelowe nie zastępują znaków drogowych ani lokalnych ograniczeń ruchu.
 - Przy awarii w tunelu nie narażaj siebie: ostrzeż innych i wezwij służby, nie otwieraj przesyłek.
 - Podstawy do dalszej nauki: ADR 8.6.3–8.6.4 oraz instrukcje pisemne 5.4.3.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0487`
+- `ADR-B-0539`
+- `ADR-B-0540`
+- `ADR-B-0031`
+- `ADR-B-0032`
+- `ADR-B-0033`
+- `ADR-B-0063`
+- `ADR-B-0064`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-11 — ADR-B-11](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-11`; jest to symulacja, nie zaliczenie zajęć praktycznych).

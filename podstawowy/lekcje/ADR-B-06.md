@@ -151,3 +151,18 @@ Po rozładunku kontenera nie usuwaj oznaczeń automatycznie. Najpierw ustal, czy
 - Porównaj oznakowanie z dokumentami i wymaganiami dla danego przewozu.
 - Po rozładunku nie usuwaj oznaczeń automatycznie, jeśli pozostają niebezpieczne pozostałości.
 - Podstawy do dalszej nauki: ADR 5.2.2, 5.3.1 i 5.3.2.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0507`
+- `ADR-B-0546`
+- `ADR-B-0562`
+- `ADR-B-0016`
+- `ADR-B-0017`
+- `ADR-B-0018`
+- `ADR-B-0051`
+- `ADR-B-0052`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-06 — ADR-B-06](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-06`; jest to symulacja, nie zaliczenie zajęć praktycznych).

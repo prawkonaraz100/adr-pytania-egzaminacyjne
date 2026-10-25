@@ -161,3 +161,18 @@ To przykłady z pytań roboczych `needs_review`, a nie niezależna recenzja praw
 - Przy rozlewie unikaj kontaktu i oparów; nie podejmuj działań, których nie możesz wykonać bezpiecznie.
 - Gdy ADR nakłada warunki nadzorowania postoju, stosuj określoną kolejność miejsc, a nie dowolny parking.
 - Podstawy do dalszej nauki: ADR 8.3.3, 8.3.5–8.3.7, 8.4 i właściwe przepisy szczególne.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0010`
+- `ADR-B-0012`
+- `ADR-B-0011`
+- `ADR-B-0047`
+- `ADR-B-0048`
+- `ADR-B-0102`
+- `ADR-B-0103`
+- `ADR-B-0130`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-04 — ADR-B-04](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-04`; jest to symulacja, nie zaliczenie zajęć praktycznych).

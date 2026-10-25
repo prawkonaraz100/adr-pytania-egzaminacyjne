@@ -204,3 +204,18 @@ Zleceniodawca mówi: „To tylko kilka sztuk, więc ADR nie obowiązuje”. Nie 
 - LQ, EQ i zwolnienie z 1.1.3.6 to różne mechanizmy — sprawdź warunki każdego osobno.
 - Szkolenie pracownika z działu 1.3 nie zastępuje wymaganego zaświadczenia kierowcy z działu 8.2.
 - Podstawy do dalszej nauki: ADR 1.1.3, 1.3, 1.4 i 8.2.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0002`
+- `ADR-B-0259`
+- `ADR-B-0526`
+- `ADR-B-0001`
+- `ADR-B-0003`
+- `ADR-B-0040`
+- `ADR-B-0041`
+- `ADR-B-0091`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-01 — ADR-B-01](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-01`; jest to symulacja, nie zaliczenie zajęć praktycznych).
