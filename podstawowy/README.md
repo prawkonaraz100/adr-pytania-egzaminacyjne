@@ -140,6 +140,10 @@ Raporty ETAPU 4x7
 - [Raport końcowy ETAPU 4x7](raporty/etap-4x7-raport-koncowy-2026-10-25.md)
 
 
+## Raport ETAPU 4x15 — śledzenie powiązań dydaktycznych
+
+- [Raport śledzenia lekcji, banku, instruktora i scenariuszy](../review/batches/etap-4x15-traceability-2026-10-25.md)
+
 ## Raport ETAPU 4x14 — integralność pakietu recenzyjnego
 
 - [Raport integralności pakietu i testu CI](../review/batches/etap-4x14-integralnosc-pakietu-2026-10-25.md)
