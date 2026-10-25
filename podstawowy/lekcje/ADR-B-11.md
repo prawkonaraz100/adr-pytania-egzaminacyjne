@@ -1,5 +1,8 @@
 # ADR-B-11 — Tunele i ograniczenia tras
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Nie każdy tunel jest dostępny dla każdego przewozu towarów niebezpiecznych. Błędne odczytanie kodu tunelowego może doprowadzić do wjazdu na trasę objętą ograniczeniem. Kierowca powinien sprawdzić kod przypisany do towaru i postać przewozu, a następnie zaplanować dozwoloną trasę.
 
