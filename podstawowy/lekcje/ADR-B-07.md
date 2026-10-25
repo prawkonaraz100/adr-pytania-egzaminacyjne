@@ -1,5 +1,8 @@
 # ADR-B-07 — Obowiązki uczestników przewozu
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Bezpieczny przewóz wymaga współpracy nadawcy, przewoźnika, załadowcy, pakującego, napełniającego, odbiorcy i kierowcy. Każdy ma własne obowiązki. Jeśli opakowanie jest uszkodzone, dokumentacja niepełna albo instrukcje nie zostały przekazane, nie wystarczy stwierdzić, że „ktoś inny za to odpowiada”.
 

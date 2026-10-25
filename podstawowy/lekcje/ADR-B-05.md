@@ -1,5 +1,8 @@
 # ADR-B-05 — Wypadek, awaria i pierwsza pomoc
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Po wypadku lub awarii najważniejsze jest, aby nie powiększyć zagrożenia. Kierowca nie ma obowiązku improwizować przy nieznanej substancji ani podejmować działań przekraczających jego możliwości. Ma zadbać o własne bezpieczeństwo, ostrzec innych, wezwać pomoc i przekazać sprawdzone informacje.
 

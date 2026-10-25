@@ -1,5 +1,8 @@
 # ADR-B-08 — Wyposażenie, gaśnice i świadectwo pojazdu
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Samo posiadanie wyposażenia nie wystarcza. Sprzęt musi być właściwy dla przewozu, sprawny i dostępny, a pojazd może wymagać dodatkowego świadectwa dopuszczenia. Przed wyjazdem sprawdź wymagania konkretnego przewozu, a nie tylko to, czy w kabinie znajduje się lista wyposażenia.
 

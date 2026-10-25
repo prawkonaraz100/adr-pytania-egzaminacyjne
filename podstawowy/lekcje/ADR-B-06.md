@@ -1,5 +1,8 @@
 # ADR-B-06 — Numery UN, nalepki ostrzegawcze i tablice
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Oznakowanie pomaga służbom i uczestnikom przewozu rozpoznać rodzaj zagrożenia oraz powiązać przesyłkę z dokumentacją. Nieczytelna nalepka, błędny numer UN albo rozbieżność na tablicy pomarańczowej może utrudnić prawidłową reakcję. Przed wyjazdem porównaj oznakowanie z dokumentem i właściwym wpisem ADR.
 
