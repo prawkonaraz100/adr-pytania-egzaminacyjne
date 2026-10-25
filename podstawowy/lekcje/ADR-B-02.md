@@ -14,7 +14,7 @@ Nalepki i dane przewozowe pomagają rozpoznać zagrożenie przed załadunkiem, p
 - wyjaśniać, co zrobić, gdy nalepka i dokumenty nie pasują.
 
 ## 1. Jak rozpoznawać towar
-Klasyfikacja wynika z właściwości towaru i przepisów ADR. Tabela A w rozdziale 3.2 zawiera m.in. numer UN (kol. 1), nazwę i opis (kol. 2), klasę (kol. 3a), kod klasyfikacyjn (oznaczenie doprecyzowujące rodzaj zagrożenia w obrębie klasy; [słowniczek](../SLOWNICZEK.md#kod-klasyfikacyjny))y (kol. 3b), grupę pakowania, jeśli występuje (kol. 4), nalepki (kol. 5) i dalsze warunki przewozu. Jeśli dane są niepełne lub sprzeczne z oznakowaniem, wyjaśnij rozbieżność przed przewozem.
+O klasie decydują właściwości towaru oraz kryteria ADR, a nie kolor opakowania czy nazwa handlowa. Gdy etykieta i dokumenty się różnią, nie zgaduj — wyjaśnij rozbieżność przed przewozem. Tabela A w rozdziale 3.2 zawiera m.in. numer UN (kol. 1), nazwę i opis (kol. 2), klasę (kol. 3a), kod klasyfikacyjn (oznaczenie doprecyzowujące rodzaj zagrożenia w obrębie klasy; [słowniczek](../SLOWNICZEK.md#kod-klasyfikacyjny))y (kol. 3b), grupę pakowania, jeśli występuje (kol. 4), nalepki (kol. 5) i dalsze warunki przewozu. Jeśli dane są niepełne lub sprzeczne z oznakowaniem, wyjaśnij rozbieżność przed przewozem.
 
 ## 2. Klasy ADR
 | Klasa | Główne zagrożenie | Na co uważać |
