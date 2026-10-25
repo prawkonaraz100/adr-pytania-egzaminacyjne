@@ -7,12 +7,12 @@
 - [Wariant 003 — arkusz pytań](wariant-003.json)
 - [Wariant 003 — klucz i wyjaśnienia](klucz-003.json)
 
-**Wyłącznie trening wewnętrzny.** Bank źródłowy ma 597 pytań `needs_review` i 0 `verified`. To nie jest oficjalny arkusz. Bramka verified-only pozostaje bez zmian.
+**Wyłącznie trening wewnętrzny.** Bank źródłowy ma 609 pytań `needs_review` i 0 `verified`. To nie jest oficjalny arkusz. Bramka verified-only pozostaje bez zmian.
 
 ## Generowanie kolejnego wariantu
 
 ```bash
-python scripts/draft_mock_exam.py --seed 20261025 --variant 2 --source-head 18217e9f454377c39c75711165fd54f61919ffbb --exclude podstawowy/egzamin-probny/wariant-001.json --output podstawowy/egzamin-probny/wariant-002.json --key-output podstawowy/egzamin-probny/klucz-002.json
+python scripts/draft_mock_exam.py --seed 20261025 --variant 2 --source-head e1eb80d9db9bb5f475bb655fc08b47b7a866bb64 --exclude podstawowy/egzamin-probny/wariant-001.json --output podstawowy/egzamin-probny/wariant-002.json --key-output podstawowy/egzamin-probny/klucz-002.json
 ```
 
 Wariant 002 wyklucza wszystkie ID z wariantu 001, gdy dostępna pula pozwala. Ten sam seed, bank i plik wykluczeń dają ten sam zestaw. Bez `--seed` losowany jest seed. Dobór jest proporcjonalny i obejmuje wszystkie 13 działów. Próg treningowy 20/30 (2/3), czas 60 minut.

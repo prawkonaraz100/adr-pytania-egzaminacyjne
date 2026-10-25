@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 25.10.2026, po audycie pokrycia: 597 pytań roboczych; 597 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 25.10.2026, po audycie pokrycia: 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Jak korzystać z kursu
 
@@ -55,11 +55,11 @@ python scripts/check_explanation_quality.py --minimum 300
 python -m unittest discover -s tests -v
 ```
 
-Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/597 = 14,07%**, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
+Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **86/609 = 14,12%**, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
 
 ## Status weryfikacji
 
-- Bank: 597 `needs_review`, 0 `verified`.
+- Bank: 609 `needs_review`, 0 `verified`.
 - Lekcje: 13 szkiców z mapą pytań i przykładami; wymagają niezależnego odbioru dydaktycznego i prawnego.
 - Praktyka: 3 scenariusze do przeprowadzenia i udokumentowania przez instruktora; repozytorium nie poświadcza, że ćwiczenia odbyły się.
 - Prawo: pełne porównanie każdego punktu z polskim tekstem urzędowym i sprostowaniem oraz niezależna recenzja specjalisty pozostają otwarte.
@@ -69,4 +69,4 @@ Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/59
 
 ## Aktualizacja po audycie pokrycia 4t
 
-Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogólnych zasad odpowiedzialności cywilnej wskazanych w ADR 8.2.2.3.2(k). Raport: [ETAP 4t](raporty/etap-4t-pokrycie-programu-2026-10-25.md). Bank ma obecnie 597 pytań, wszystkie `needs_review`, 0 `verified`; wskaźnik „poprawna = najdłuższa” wynosi 84/597 = 14,07% według ścisłego kryterium CI.
+Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogólnych zasad odpowiedzialności cywilnej wskazanych w ADR 8.2.2.3.2(k). Raport: [ETAP 4t](raporty/etap-4t-pokrycie-programu-2026-10-25.md). Bank ma obecnie 609 pytań, wszystkie `needs_review`, 0 `verified`; wskaźnik „poprawna = najdłuższa” wynosi 86/609 = 14,12% według ścisłego kryterium CI.
