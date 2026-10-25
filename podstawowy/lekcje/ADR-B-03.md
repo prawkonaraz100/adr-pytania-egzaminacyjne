@@ -13,6 +13,11 @@ Po uszkodzeniu przesyłki kierowca może spotkać się z wyciekiem, oparami albo
 ## 1. Zagrożenie dla środowiska
 Niektóre towary mogą szkodzić środowisku, zwłaszcza wodnemu. Znak zagrożenia środowiskowego przedstawia czarne drzewo i martwą rybę w rombie. Nie zastępuje on innych wymaganych nalepek ani oznakowania. Sprawdź konkretny wpis i wymagania ADR, zamiast zakładać, że sam znak określa wszystkie obowiązki.
 
+
+### Kiedy znak jest wymagany i gdzie go umieścić
+Wyjątek od znaku zagrożenia dla środowiska zależy od rodzaju opakowania i ilości: ADR 5.2.1.8.1 określa warunki, w których znak może nie być wymagany dla małych ilości w opakowaniach pojedynczych lub wewnętrznych; nie zakładaj, że samo użycie opakowania kombinowanego automatycznie uruchamia wyjątek. Sprawdź dokładny limit dla cieczy i ciał stałych oraz warunki przepisu. Gdy znak jest wymagany, umieść go zgodnie z ADR 5.2.1.8.2; na jednostkach transportowych mogą mieć zastosowanie odrębne wymagania ADR 5.3.6. Znak środowiskowy ma standardowy wymiar określony w 5.3.6.2, a zmniejszenie jest dopuszczalne tylko w warunkach przewidzianych przepisem.
+
+Jeśli materiał spełnia kryteria zagrożenia środowiskowego, dokument przewozowy może wymagać dodatkowego wpisu „ENVIRONMENTALLY HAZARDOUS” zgodnie z ADR 5.4.1.1.18. Sprawdź wyjątki i sposób transportu kombinowanego: wpis „MARINE POLLUTANT” może mieć znaczenie w warunkach określonych przepisem, ale nie zakładaj automatycznej zamienności określeń w każdej sytuacji. Znak na opakowaniu, nalepka klasy i wpis w dokumencie pełnią różne funkcje.
 ## 2. Wyciek lub opary — bezpieczna kolejność
 1. Nie dotykaj substancji i nie próbuj jej rozpoznawać po zapachu.
 2. Nie wchodź w rozlew ani opary; oddal się w bezpieczne miejsce i ostrzeż osoby w pobliżu.
@@ -29,6 +34,11 @@ Słowo „odpad” nie oznacza zwolnienia z ADR. Odpady klasyfikuje się według
 
 W dokumencie przewozowym dla odpowiednich odpadów słowo „ODPAD” uzupełnia prawidłową nazwę przewozową zgodnie z ADR 5.4.1.1.3.1. Nie zastępuje numeru UN ani pozostałych wymaganych danych. Kod odpadu sam w sobie nie zastępuje danych ADR.
 
+
+### Nieznany skład odpadu — granice uproszczonej klasyfikacji
+ADR 2.1.3.5.5 nie jest uniwersalnym pozwoleniem na wybór grupy pakowania III. Można go zastosować wyłącznie po spełnieniu warunków tego przepisu i z uwzględnieniem wyjątków oraz pierwszeństwa klasyfikacji wskazanego w ADR 2.1.3.5.3. Szczególne zagrożenia, m.in. klasy 1, 2, 5.2, 6.2, materiały piroforyczne klasy 4.2 i niektóre materiały klasy 7, mogą wyłączać lub zmieniać możliwość zastosowania uproszczenia. Jeżeli skład mieszaniny jest trudny do ustalenia, stosuje się właściwe reguły klasyfikacji mieszanin (ADR 2.1.3.5.2–2.1.3.5.4), a gdy istnieje odpowiednia pozycja bardziej szczegółowa, nie wybiera się automatycznie ogólnej pozycji i.n.o. (ADR 2.1.3.6). Podstawą mogą być wiarygodne informacje o właściwościach składników i wiedza odpowiedzialnego podmiotu; nie wolno wpisywać przypadkowego numeru UN.
+
+Dla pustego, nieoczyszczonego opakowania lub kontenera stosuje się odrębne wymagania. Jeśli pojazd/kontener jedzie do odpowiedniego miejsca czyszczenia po rozładunku, sprawdź, czy dokument wymaga odpowiedniej adnotacji o przewozie pustego, nieoczyszczonego opakowania lub jednostki (ADR 5.4.1.1.6.3(b)).
 ## 4. Praktyczne przykłady
 - **Opary przy drzwiach ładowni:** unikaj wdychania i kontaktu. Nie wchodź w chmurę i nie sprawdzaj substancji dotykiem ani zapachem.
 - **Wyciek przy kratce kanalizacyjnej:** ostrzeż innych, nie spłukuj cieczy i wezwij odpowiednią pomoc.
