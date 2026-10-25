@@ -109,15 +109,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta opcja proponuje „W archiwum przewoźnika, bo kontrola może zadzwonić do firmy i poczekać na przesłanie dokumentów”, ale pomija warunek opisany w poprawnej opcji („Przy załodze w pojeździe, zgodnie z listą dokumentów wymaganą przez ADR”). Zestawić z ADR 2025, 8.1.2.1; pełna kontrola prawna nadal oczekuje na specjalistę."
+          "rationale": "Ta opcja proponuje „W archiwum przewoźnika, aby firma mogła przesłać dokumenty na żądanie podczas kontroli.”, ale pomija warunek opisany w poprawnej opcji („Przy załodze w pojeździe, zgodnie z wykazem dokumentów wymaganych dla tego przewozu.”). Zestawić z ADR 2025, 8.1.2.1; pełna kontrola prawna nadal oczekuje na specjalistę."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ta opcja proponuje „U odbiorcy, który potwierdzi przyjęcie ładunku po dostawie i prześle kopię dokumentów kierowcy”, ale pomija warunek opisany w poprawnej opcji („Przy załodze w pojeździe, zgodnie z listą dokumentów wymaganą przez ADR”). Zestawić z ADR 2025, 8.1.2.1; pełna kontrola prawna nadal oczekuje na specjalistę."
+          "rationale": "Ta opcja proponuje „U odbiorcy, który może potwierdzić dostawę i później przekazać kopię dokumentów.”, ale pomija warunek opisany w poprawnej opcji („Przy załodze w pojeździe, zgodnie z wykazem dokumentów wymaganych dla tego przewozu.”). Zestawić z ADR 2025, 8.1.2.1; pełna kontrola prawna nadal oczekuje na specjalistę."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawna opcja: Przy załodze w pojeździe, zgodnie z listą dokumentów wymaganą przez ADR. Wyjaśnienie: Dokumenty wymagane dla przewozu muszą być dostępne załodze w pojeździe, aby można je było okazać podczas kontroli lub wykorzystać w razie zdarzenia. Archiwum firmy ani dokumenty u odbiorcy nie pomagają, gdy kierowca nie ma ich przy sobie. Sprawdź listę właściwą dla danego przewozu, bo wymagania zależą od sytuacji. Podstawa: ADR 8.1.2.1."
+          "rationale": "Poprawna opcja: Przy załodze w pojeździe, zgodnie z wykazem dokumentów wymaganych dla tego przewozu.. Wyjaśnienie: Dokumenty wymagane dla przewozu muszą być dostępne załodze w pojeździe, aby można je było okazać podczas kontroli lub wykorzystać w razie zdarzenia. Archiwum firmy ani dokumenty u odbiorcy nie pomagają, gdy kierowca nie ma ich przy sobie. Sprawdź listę właściwą dla danego przewozu, bo wymagania zależą od sytuacji. Podstawa: ADR 8.1.2.1."
         }
       },
       "observed_answer_key": "C",
@@ -131,9 +131,9 @@
         "module_id": "ADR-B-13",
         "stem": "Kierowca przewozi towary niebezpieczne i podczas kontroli ma okazać dokumenty wymagane dla tego przewozu. Gdzie powinny być dostępne?",
         "options": {
-          "A": "W archiwum przewoźnika, bo kontrola może zadzwonić do firmy i poczekać na przesłanie dokumentów",
-          "B": "U odbiorcy, który potwierdzi przyjęcie ładunku po dostawie i prześle kopię dokumentów kierowcy",
-          "C": "Przy załodze w pojeździe, zgodnie z listą dokumentów wymaganą przez ADR"
+          "A": "W archiwum przewoźnika, aby firma mogła przesłać dokumenty na żądanie podczas kontroli.",
+          "B": "U odbiorcy, który może potwierdzić dostawę i później przekazać kopię dokumentów.",
+          "C": "Przy załodze w pojeździe, zgodnie z wykazem dokumentów wymaganych dla tego przewozu."
         },
         "correct_option": "C",
         "explanation": "Dokumenty wymagane dla przewozu muszą być dostępne załodze w pojeździe, aby można je było okazać podczas kontroli lub wykorzystać w razie zdarzenia. Archiwum firmy ani dokumenty u odbiorcy nie pomagają, gdy kierowca nie ma ich przy sobie. Sprawdź listę właściwą dla danego przewozu, bo wymagania zależą od sytuacji. Podstawa: ADR 8.1.2.1.",
@@ -259,15 +259,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta opcja proponuje „Wjechać, jeśli tunel jest najkrótszą drogą i nie ma korka, nawet gdy oznakowanie ogranicza przewóz”, ale pomija warunek opisany w poprawnej opcji („Sprawdzić ograniczenie i wybrać trasę zgodną z kodem tunelowym oraz znakami”). Zestawić z ADR 2025, 8.6.3; 8.6.4; pełna kontrola prawna nadal oczekuje na specjalistę."
+          "rationale": "Ta opcja proponuje „Wjechać, jeśli tunel jest najkrótszą drogą, nawet gdy znak ogranicza przewóz tego towaru.”, ale pomija warunek opisany w poprawnej opcji („Sprawdzić kod tunelowy i znaki, a następnie wybrać dozwoloną trasę zgodną z ograniczeniami.”). Zestawić z ADR 2025, 8.6.3; 8.6.4; pełna kontrola prawna nadal oczekuje na specjalistę."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawna opcja: Sprawdzić ograniczenie i wybrać trasę zgodną z kodem tunelowym oraz znakami. Wyjaśnienie: Przed wjazdem trzeba sprawdzić, czy przewóz może korzystać z danego tunelu, biorąc pod uwagę kod tunelowy i oznakowanie drogi. Krótsza trasa nie uchyla ograniczenia, a prawidłowy numer UN w dokumencie nie daje automatycznego prawa wjazdu. W razie zakazu należy wybrać dozwoloną trasę. Podstawa: ADR 8.6.3 i 8.6.4."
+          "rationale": "Poprawna opcja: Sprawdzić kod tunelowy i znaki, a następnie wybrać dozwoloną trasę zgodną z ograniczeniami.. Wyjaśnienie: Przed wjazdem trzeba sprawdzić, czy przewóz może korzystać z danego tunelu, biorąc pod uwagę kod tunelowy i oznakowanie drogi. Krótsza trasa nie uchyla ograniczenia, a prawidłowy numer UN w dokumencie nie daje automatycznego prawa wjazdu. W razie zakazu należy wybrać dozwoloną trasę. Podstawa: ADR 8.6.3 i 8.6.4."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ta opcja proponuje „Zignorować znak, jeśli numer UN jest prawidłowo zapisany w dokumencie, a ładunek nie wykazuje wycieku”, ale pomija warunek opisany w poprawnej opcji („Sprawdzić ograniczenie i wybrać trasę zgodną z kodem tunelowym oraz znakami”). Zestawić z ADR 2025, 8.6.3; 8.6.4; pełna kontrola prawna nadal oczekuje na specjalistę."
+          "rationale": "Ta opcja proponuje „Zignorować znak, jeśli numer UN jest prawidłowy, a pojazd i ładunek wyglądają na bezpieczne.”, ale pomija warunek opisany w poprawnej opcji („Sprawdzić kod tunelowy i znaki, a następnie wybrać dozwoloną trasę zgodną z ograniczeniami.”). Zestawić z ADR 2025, 8.6.3; 8.6.4; pełna kontrola prawna nadal oczekuje na specjalistę."
         }
       },
       "observed_answer_key": "B",
@@ -281,9 +281,9 @@
         "module_id": "ADR-B-11",
         "stem": "Pojazd z towarem ADR dojeżdża do tunelu, którego oznakowanie ogranicza przejazd danego rodzaju przewozu. Co powinien zrobić kierowca?",
         "options": {
-          "A": "Wjechać, jeśli tunel jest najkrótszą drogą i nie ma korka, nawet gdy oznakowanie ogranicza przewóz",
-          "B": "Sprawdzić ograniczenie i wybrać trasę zgodną z kodem tunelowym oraz znakami",
-          "C": "Zignorować znak, jeśli numer UN jest prawidłowo zapisany w dokumencie, a ładunek nie wykazuje wycieku"
+          "A": "Wjechać, jeśli tunel jest najkrótszą drogą, nawet gdy znak ogranicza przewóz tego towaru.",
+          "B": "Sprawdzić kod tunelowy i znaki, a następnie wybrać dozwoloną trasę zgodną z ograniczeniami.",
+          "C": "Zignorować znak, jeśli numer UN jest prawidłowy, a pojazd i ładunek wyglądają na bezpieczne."
         },
         "correct_option": "B",
         "explanation": "Przed wjazdem trzeba sprawdzić, czy przewóz może korzystać z danego tunelu, biorąc pod uwagę kod tunelowy i oznakowanie drogi. Krótsza trasa nie uchyla ograniczenia, a prawidłowy numer UN w dokumencie nie daje automatycznego prawa wjazdu. W razie zakazu należy wybrać dozwoloną trasę. Podstawa: ADR 8.6.3 i 8.6.4.",
@@ -309,15 +309,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta opcja proponuje „Kontynuować jazdę do końca tunelu bez względu na sytuację, aby nie zatrzymywać się w tunelu”, ale pomija warunek opisany w poprawnej opcji („Zatrzymać się w bezpieczny sposób, zastosować instrukcje awaryjne i wezwać pomoc”). Zestawić z ADR 2025, 5.4.3.4; pełna kontrola prawna nadal oczekuje na specjalistę."
+          "rationale": "Ta opcja proponuje „Kontynuować jazdę do końca tunelu, nawet gdy zdarzenie zagraża załodze i innym użytkownikom drogi.”, ale pomija warunek opisany w poprawnej opcji („Zatrzymać pojazd w bezpieczny sposób, zastosować instrukcje pisemne i wezwać odpowiednie służby.”). Zestawić z ADR 2025, 5.4.3.4; pełna kontrola prawna nadal oczekuje na specjalistę."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ta opcja proponuje „Otworzyć przestrzeń ładunkową, aby sprawdzić, czy towar się pali, zanim kierowca wezwie pomoc”, ale pomija warunek opisany w poprawnej opcji („Zatrzymać się w bezpieczny sposób, zastosować instrukcje awaryjne i wezwać pomoc”). Zestawić z ADR 2025, 5.4.3.4; pełna kontrola prawna nadal oczekuje na specjalistę."
+          "rationale": "Ta opcja proponuje „Otworzyć ładownię, aby sprawdzić towar, zanim kierowca poinformuje służby o zdarzeniu i zagrożeniu.”, ale pomija warunek opisany w poprawnej opcji („Zatrzymać pojazd w bezpieczny sposób, zastosować instrukcje pisemne i wezwać odpowiednie służby.”). Zestawić z ADR 2025, 5.4.3.4; pełna kontrola prawna nadal oczekuje na specjalistę."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawna opcja: Zatrzymać się w bezpieczny sposób, zastosować instrukcje awaryjne i wezwać pomoc. Wyjaśnienie: W tunelu nie należy improwizować ani narażać się na kontakt z dymem lub ładunkiem. Zatrzymaj pojazd tak bezpiecznie, jak pozwalają warunki, zastosuj instrukcje pisemne i alarmuj służby. Jazda dalej może pogorszyć sytuację, a otwieranie ładowni naraża kierowcę na dodatkowe zagrożenie. Podstawa: ADR 5.4.3.4."
+          "rationale": "Poprawna opcja: Zatrzymać pojazd w bezpieczny sposób, zastosować instrukcje pisemne i wezwać odpowiednie służby.. Wyjaśnienie: W tunelu nie należy improwizować ani narażać się na kontakt z dymem lub ładunkiem. Zatrzymaj pojazd tak bezpiecznie, jak pozwalają warunki, zastosuj instrukcje pisemne i alarmuj służby. Jazda dalej może pogorszyć sytuację, a otwieranie ładowni naraża kierowcę na dodatkowe zagrożenie. Podstawa: ADR 5.4.3.4."
         }
       },
       "observed_answer_key": "C",
@@ -331,9 +331,9 @@
         "module_id": "ADR-B-11",
         "stem": "Podczas przejazdu przez tunel dochodzi do pożaru lub innego zdarzenia. Jaka powinna być pierwsza decyzja kierowcy?",
         "options": {
-          "A": "Kontynuować jazdę do końca tunelu bez względu na sytuację, aby nie zatrzymywać się w tunelu",
-          "B": "Otworzyć przestrzeń ładunkową, aby sprawdzić, czy towar się pali, zanim kierowca wezwie pomoc",
-          "C": "Zatrzymać się w bezpieczny sposób, zastosować instrukcje awaryjne i wezwać pomoc"
+          "A": "Kontynuować jazdę do końca tunelu, nawet gdy zdarzenie zagraża załodze i innym użytkownikom drogi.",
+          "B": "Otworzyć ładownię, aby sprawdzić towar, zanim kierowca poinformuje służby o zdarzeniu i zagrożeniu.",
+          "C": "Zatrzymać pojazd w bezpieczny sposób, zastosować instrukcje pisemne i wezwać odpowiednie służby."
         },
         "correct_option": "C",
         "explanation": "W tunelu nie należy improwizować ani narażać się na kontakt z dymem lub ładunkiem. Zatrzymaj pojazd tak bezpiecznie, jak pozwalają warunki, zastosuj instrukcje pisemne i alarmuj służby. Jazda dalej może pogorszyć sytuację, a otwieranie ładowni naraża kierowcę na dodatkowe zagrożenie. Podstawa: ADR 5.4.3.4.",
