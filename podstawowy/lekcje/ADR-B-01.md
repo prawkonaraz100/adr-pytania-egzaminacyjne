@@ -69,11 +69,23 @@ Tabela A rozdziału 3.2, kolumna 2, zawiera nazwę i opis pozycji UN. Nie zastę
 - Wyłączenie nie uchyla zakazu przewozu ani wszystkich pozostałych obowiązków.
 
 ## Sprawdź się
-- Czym różnią się cztery mechanizmy wyłączeń?
+
 - Jakie dane trzeba znać przed obliczeniem 1.1.3.6?
 - Dlaczego znak LQ nie wystarcza, gdy opakowanie przekracza limit?
 - Co oznacza kod E0?
 - Dlaczego dokument nie uchyla zakazu przewozu?
+
+Pytania do samodzielnego sprawdzenia w banku:
+- `ADR-B-0001`
+- `ADR-B-0002`
+- `ADR-B-0003`
+- `ADR-B-0259`
+- `ADR-B-0570`
+- `ADR-B-0595`
+- `ADR-B-0605`
+- `ADR-B-0273`
+
+Scenariusz z pracy kierowcy: [SC-ADR-B-01 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
 
 ## Powiązane pytania w banku
 - ADR-B-0001
