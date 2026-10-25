@@ -3,6 +3,7 @@ from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/"scripts"))
 from draft_mock_exam import draw_exam,load_bank
+from check_mock_exam_variants import remap_explanation
 class DraftExamTests(unittest.TestCase):
  def test_sample_ids_exist_and_key_matches(self):
   bank=load_bank(ROOT/"podstawowy"/"questions.jsonl");ids={q["id"] for q in bank}
@@ -15,12 +16,14 @@ class DraftExamTests(unittest.TestCase):
   for paper in e["questions"]:
    current=by_id[paper["id"]]
    self.assertEqual(paper["stem"],current["stem"])
-   self.assertEqual(paper["options"],current["options"])
+   self.assertEqual(Counter(paper["options"].values()),Counter(current["options"].values()))
+   mapping={old:next(new for new in "ABC" if paper["options"][new]==current["options"][old]) for old in "ABC"}
    self.assertEqual(paper["image"],current["image"])
   for answer in k["answers"]:
-   current=by_id[answer["id"]]
-   self.assertEqual(answer["correct_option"],current["correct_option"])
-   self.assertEqual(answer["explanation"],current["explanation"])
+   current=by_id[answer["id"]];paper=next(q for q in e["questions"] if q["id"]==answer["id"])
+   mapping={old:next(new for new in "ABC" if paper["options"][new]==current["options"][old]) for old in "ABC"}
+   self.assertEqual(paper["options"][answer["correct_option"]],current["options"][current["correct_option"]])
+   self.assertEqual(answer["explanation"],remap_explanation(current["explanation"],mapping))
  def test_checked_in_variant_matches_its_seed(self):
   rows=load_bank(ROOT/"podstawowy"/"questions.jsonl")
   exam,_=draw_exam(rows,20261024)
@@ -44,8 +47,10 @@ class DraftExamTests(unittest.TestCase):
   by_id={q["id"]:q for q in rows}
   self.assertTrue(set(second_ids)<=set(by_id))
   for ans in key["answers"]:
-   self.assertEqual(ans["correct_option"],by_id[ans["id"]]["correct_option"])
-   self.assertEqual(ans["explanation"],by_id[ans["id"]]["explanation"])
+   current=by_id[ans["id"]];paper=next(q for q in second["questions"] if q["id"]==ans["id"])
+   mapping={old:next(new for new in "ABC" if paper["options"][new]==current["options"][old]) for old in "ABC"}
+   self.assertEqual(paper["options"][ans["correct_option"]],current["options"][current["correct_option"]])
+   self.assertEqual(ans["explanation"],remap_explanation(current["explanation"],mapping))
  def test_cli_writes_separate_exam_and_key(self):
   with tempfile.TemporaryDirectory() as td:
    e,k=Path(td)/"e.json",Path(td)/"k.json";p=subprocess.run([sys.executable,str(ROOT/"scripts"/"draft_mock_exam.py"),"--seed","99","--output",str(e),"--key-output",str(k)],capture_output=True,text=True)
