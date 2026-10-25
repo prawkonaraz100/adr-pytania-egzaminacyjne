@@ -9,7 +9,7 @@ Po uszkodzeniu przesyłki kierowca może spotkać się z wyciekiem, oparami albo
 ## Czego się nauczysz
 - rozpoznawać zagrożenie dla środowiska;
 - reagować na wyciek bez dotykania substancji i wdychania oparów;
-- rozumieć, że odpad nadal wymaga klasyfikacji ADR;
+- rozumieć, że odpad nadal wymaga klasyfikacji ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr));
 - rozpoznawać wymagane informacje w dokumencie przewozowym odpadu;
 - wiedzieć, kiedy pojazd i przestrzeń ładunkową trzeba oczyścić.
 
@@ -26,16 +26,16 @@ Jeśli materiał spełnia kryteria zagrożenia środowiskowego, dokument przewoz
 2. Nie wchodź w rozlew ani opary; oddal się w bezpieczne miejsce i ostrzeż osoby w pobliżu.
 3. Nie spłukuj nieznanej substancji do kanalizacji i nie uruchamiaj źródeł zapłonu.
 4. Powiadom odpowiedzialne osoby lub służby i podaj sprawdzone informacje.
-5. Stosuj instrukcje pisemne ADR 5.4.3.4 tylko w granicach bezpieczeństwa.
+5. Stosuj instrukcje pisemn (ustalony dokument z działaniami dla załogi w razie zdarzenia; ma być dostępny i zrozumiały; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne))e ADR 5.4.3.4 tylko w granicach bezpieczeństwa.
 
 Ograniczanie dopływu uwolnionego materiału do kanalizacji lub cieków wodnych jest właściwe tylko wtedy, gdy można to zrobić bezpiecznie. Nie podejmuj działań wymagających specjalnego wyposażenia ani takich, które narażałyby cię na kontakt z substancją.
 
 Po wycieku, który zanieczyścił pojazd, ADR 7.5.8.1 wymaga oczyszczenia tak szybko, jak to możliwe, a w każdym razie przed ponownym załadunkiem. Mogą obowiązywać odrębne zasady dla nieoczyszczonych pustych opakowań.
 
 ## 3. Odpady niebezpieczne
-Słowo „odpad” nie oznacza zwolnienia z ADR. Odpady klasyfikuje się według zagrożeń. ADR 2.1.3.5.5 przewiduje szczególne, warunkowe zasady w określonych przypadkach, gdy dokładny skład nie jest znany; przepis zawiera ograniczenia i nie pozwala automatycznie wybierać najłagodniejszej grupy pakowania.
+Słowo „odpad” nie oznacza zwolnienia z ADR. Odpady klasyfikuje się według zagrożeń. ADR 2.1.3.5.5 przewiduje szczególne, warunkowe zasady w określonych przypadkach, gdy dokładny skład nie jest znany; przepis zawiera ograniczenia i nie pozwala automatycznie wybierać najłagodniejszej grupy pakowania (oznaczenie stopnia zagrożenia, stosowane tylko dla towarów, dla których ADR je przewiduje; [słowniczek](../SLOWNICZEK.md#grupa-pakowania)).
 
-W dokumencie przewozowym dla odpowiednich odpadów słowo „ODPAD” uzupełnia prawidłową nazwę przewozową zgodnie z ADR 5.4.1.1.3.1. Nie zastępuje numeru UN ani pozostałych wymaganych danych. Kod odpadu sam w sobie nie zastępuje danych ADR.
+W dokumencie przewozowym dla odpowiednich odpadów słowo „ODPAD” uzupełnia prawidłową nazwę przewozową zgodnie z ADR 5.4.1.1.3.1. Nie zastępuje numeru UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A; [słowniczek](../SLOWNICZEK.md#numer-un)) ani pozostałych wymaganych danych. Kod odpadu sam w sobie nie zastępuje danych ADR.
 
 
 ### Nieznany skład odpadu — granice uproszczonej klasyfikacji
