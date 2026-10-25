@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Ochrona przewozu (security — zapobieganie kradzieży, sabotażowi i nieuprawnionemu dostępowi; [słowniczek](../SLOWNICZEK.md#security-ochrona-przewozu)) ma ograniczać ryzyko przejęcia ładunku. To inne zadanie niż mocowanie, które zapobiega przesuwaniu się towaru podczas jazdy (ADR 1.10 i 7.5.7). Jest czymś innym niż zwykłe zabezpieczenie ładunku przed przesuwaniem. Szczególne wymagania mogą dotyczyć towarów dużego ryzyka (towary, których kradzież lub niewłaściwe użycie może prowadzić do poważnych skutków; [słowniczek](../SLOWNICZEK.md#towary-duzego-ryzyka)) i obejmować także postoje, kontrolę dostępu oraz sposób przekazywania informacji.
+Ochrona przewozu (security — zapobieganie kradzieży, sabotażowi i nieuprawnionemu dostępowi; [słowniczek](../SLOWNICZEK.md#security-ochrona-przewozu)) ma ograniczać ryzyko przejęcia ładunku. To inne zadanie niż mocowanie, które zapobiega przesuwaniu się towaru podczas jazdy (ADR ([słowniczek](../SLOWNICZEK.md#adr)) 1.10 i 7.5.7). Jest czymś innym niż zwykłe zabezpieczenie ładunku przed przesuwaniem. Szczególne wymagania mogą dotyczyć towarów dużego ryzyka (towary, których kradzież lub niewłaściwe użycie może prowadzić do poważnych skutków; [słowniczek](../SLOWNICZEK.md#towary-duzego-ryzyka)) i obejmować także postoje, kontrolę dostępu oraz sposób przekazywania informacji.
 
 ## Czego się nauczysz
 - odróżniać ochronę przewozu od mocowania ładunku;
@@ -14,7 +14,7 @@ Ochrona przewozu (security — zapobieganie kradzieży, sabotażowi i nieuprawni
 - reagować na nieuprawniony dostęp lub naruszenie procedury.
 
 ## 1. Kluczowe zasady ochrony
-Sprawdź, czy przewóz obejmuje towary dużego ryzyka i czy wymagany jest plan ochrony (plan środków zapobiegania kradzieży, sabotażowi i nieuprawnionemu dostępowi, gdy ADR go wymaga; [słowniczek](../SLOWNICZEK.md#plan-ochrony)). Dla towarów innych niż klasa 7 wykaz i progi sprawdza się w tabeli A (wykaz ADR, w którym dla numeru UN sprawdzasz m.in. klasę i warunki przewozu; [słowniczek](../SLOWNICZEK.md#tabela-a))DR 1.10.3.1.2; progi mogą zależeć od sposobu przewozu. Próg 3000 l dla cystern nie przenosi się automatycznie na sztuki przesyłek, a oznaczenia przypisów w tabeli trzeba czytać zgodnie z ich treścią. Nie każda ciecz klasy 3 automatycznie jest towarem dużego ryzyka.
+Sprawdź, czy przewóz obejmuje towary dużego ryzyka i czy wymagany jest plan ochrony (plan środków zapobiegania kradzieży, sabotażowi i nieuprawnionemu dostępowi, gdy ADR go wymaga; [słowniczek](../SLOWNICZEK.md#plan-ochrony)). Dla towarów innych niż klasa 7 wykaz i progi sprawdza się w tabeli A (wykaz ADR, w którym dla numeru UN ([słowniczek](../SLOWNICZEK.md#numer-un)) sprawdzasz m.in. klasę i warunki przewozu; [słowniczek](../SLOWNICZEK.md#tabela-a))DR 1.10.3.1.2; progi mogą zależeć od sposobu przewozu. Próg 3000 l dla cystern nie przenosi się automatycznie na sztuki przesyłek, a oznaczenia przypisów w tabeli trzeba czytać zgodnie z ich treścią. Nie każda ciecz klasy 3 automatycznie jest towarem dużego ryzyka.
 
 Plan powinien uwzględniać właściwe środki zapobiegania kradzieży i nieuprawnionemu dostępowi, w tym podczas postoju. Szczegółowe wymagania zależą od przewozu i odpowiednich punktów ADR 1.10.
 
