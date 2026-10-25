@@ -11,7 +11,9 @@ Ochrona przewozu (*security*) dotyczy zapobiegania kradzieży, sabotażowi i nie
 - reagować na nieuprawniony dostęp lub naruszenie procedury.
 
 ## 1. Kluczowe zasady ochrony
-Sprawdź, czy przewóz obejmuje towary dużego ryzyka i czy wymagany jest plan ochrony. Plan powinien uwzględniać właściwe środki zapobiegania kradzieży i nieuprawnionemu dostępowi, w tym podczas postoju. Szczegółowe wymagania zależą od przewozu i odpowiednich punktów ADR 1.10.
+Sprawdź, czy przewóz obejmuje towary dużego ryzyka i czy wymagany jest plan ochrony. Dla towarów innych niż klasa 7 wykaz i progi sprawdza się w tabeli ADR 1.10.3.1.2; progi mogą zależeć od sposobu przewozu. Próg 3000 l dla cystern nie przenosi się automatycznie na sztuki przesyłek, a oznaczenia przypisów w tabeli trzeba czytać zgodnie z ich treścią. Nie każda ciecz klasy 3 automatycznie jest towarem dużego ryzyka.
+
+Plan powinien uwzględniać właściwe środki zapobiegania kradzieży i nieuprawnionemu dostępowi, w tym podczas postoju. Szczegółowe wymagania zależą od przewozu i odpowiednich punktów ADR 1.10.
 
 Nie ujawniaj niepotrzebnie osobom nieuprawnionym informacji o rodzaju ładunku, trasie, postoju ani szczegółach zabezpieczeń. Stosuj procedurę firmy, ale pamiętaj, że procedura wewnętrzna nie znosi wymagań ADR.
 
@@ -21,7 +23,7 @@ Nie każdy towar niebezpieczny automatycznie jest towarem dużego ryzyka w rozum
 
 Plan ochrony dla towarów dużego ryzyka powinien określać odpowiedzialność za ochronę, wykaz lub charakter przewożonych materiałów, ocenę zagrożeń na różnych etapach i miejscach przewozu, środki ograniczające ryzyko, procedury zgłaszania i reagowania na naruszenia, przegląd i aktualizację planu oraz ograniczenie dostępu do szczegółowych informacji. Obejmuje też właściwe zabezpieczenia podczas postoju. Urządzenia antykradzieżowe nie mogą uniemożliwiać ratownikom dostępu w sytuacji awaryjnej.
 ## 2. Kontrola dostępu i tożsamości
-Przekazanie ładunku wymaga potwierdzenia, że odbiorca jest uprawniony. Znajomość numeru zlecenia lub nazwy firmy sama w sobie nie dowodzi uprawnienia. Jeśli tożsamość lub upoważnienie budzą wątpliwości, wstrzymaj przekazanie i wyjaśnij sprawę z odpowiedzialną osobą.
+Przekazanie ładunku wymaga potwierdzenia, że odbiorca jest uprawniony. Znajomość numeru zlecenia lub nazwy firmy sama w sobie nie dowodzi uprawnienia. Jeśli tożsamość lub upoważnienie budzą wątpliwości, wstrzymaj przekazanie i wyjaśnij sprawę z odpowiedzialną osobą. ADR 1.10.1.2 wymaga odpowiedniej identyfikacji przewoźnika, a 1.10.1.4 — dokumentu tożsamości ze zdjęciem dla członków załogi w zakresie tego przepisu.
 
 Podobnie sprawdź tożsamość członków załogi zgodnie z procedurą, gdy jest to wymagane. Nie ujawniaj danych osobowych ani szczegółów ochrony poza zakresem niezbędnym do realizacji obowiązków.
 
@@ -31,9 +33,11 @@ Przed przekazaniem towaru sprawdź tożsamość i uprawnienie odbiorcy lub przew
 
 Szkolenie ochronne dotyczy zagrożeń wynikających z niewłaściwego wykorzystania towarów niebezpiecznych, środków ochrony i procedur. Należy je przeprowadzić przed podjęciem obowiązków wymagających takiego przygotowania, uzupełniać w wymaganych sytuacjach i dokumentować zgodnie z ADR 1.10.2.2–1.10.2.4. Szczegóły planu ochrony udostępniaj tylko osobom, które potrzebują ich do wykonywania zadań.
 ## 3. Postój i naruszenie zabezpieczeń
+Plan ochrony według ADR 1.10.3.2.2 powinien określać m.in. odpowiedzialne osoby, ocenę zagrożeń, środki ochrony, procedury zgłaszania i postępowania przy incydencie oraz sposób przeglądu planu. Sama lista numerów alarmowych nie zastępuje tych elementów. W miejscach, do których stosuje się ADR 8.4.1, wybierz postój zgodny z właściwą kolejnością i warunkami.
+
 Plan ochrony powinien uwzględniać realne środki ograniczające kradzież i dostęp osób nieuprawnionych również podczas postoju. Jeśli zaplanowane miejsce przestaje być dostępne, korzystaj z zatwierdzonej procedury i uzgodnij zgodne miejsce z odpowiedzialną osobą. Nie wybieraj dowolnego postoju wyłącznie z wygody.
 
-Jeśli zauważysz próbę nieuprawnionego dostępu, utratę kontroli nad ładunkiem albo naruszenie zabezpieczeń, nie konfrontuj samodzielnie osób, jeśli mogłoby to stworzyć zagrożenie. Zabezpiecz własne bezpieczeństwo i zgłoś zdarzenie zgodnie z procedurą.
+Środki zapobiegania kradzieży i nieuprawnionemu przejęciu pojazdu muszą być skuteczne przez przewóz zgodnie z ADR 1.10.3.3, ale nie mogą utrudniać działań ratowniczych. Jeśli zauważysz próbę nieuprawnionego dostępu, utratę kontroli nad ładunkiem albo naruszenie zabezpieczeń, nie konfrontuj samodzielnie osób, jeśli mogłoby to stworzyć zagrożenie. Zabezpiecz własne bezpieczeństwo i zgłoś zdarzenie zgodnie z procedurą.
 
 ## Typowe błędy kursantów
 - mylenie ochrony security z mocowaniem ładunku;
