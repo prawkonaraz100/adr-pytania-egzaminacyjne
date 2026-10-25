@@ -237,63 +237,84 @@
     {
       "id": "SC-ADR-B-11",
       "module_id": "ADR-B-11",
-      "title": "Wybór trasy przez tunel z ograniczeniami",
-      "situation": "Kierowca ma dwie przesyłki z różnymi kodami tunelowymi, a trasa prowadzi przez tunel kategorii C.",
+      "title": "Planowanie trasy i ograniczenia tunelowe",
+      "situation": "Jedna jednostka transportowa przewozi towary z różnymi kodami tunelowymi. Trasa obejmuje tunel z oznakowaniem ograniczającym przejazd; kierowca musi też znać pierwsze działania w razie zdarzenia w tunelu.",
       "steps": [
-        "Odczytaj kody tunelowe z właściwych wpisów i dokumentów.",
-        "Ustal ograniczenia dla wszystkich przesyłek i rzeczywistej postaci przewozu.",
-        "Sprawdź znaki drogowe i lokalne ograniczenia; nie kieruj się wyłącznie klasą towaru.",
-        "Wybierz dozwoloną trasę, a niejasne dane wyjaśnij przed wjazdem."
+        "Odczytaj kod tunelowy każdego towaru z kolumny 15 tabeli A i ustal kod dla całej jednostki zgodnie z ADR 8.6.3.2.",
+        "Sprawdź kategorię tunelu na oznakowaniu i uwzględnij rzeczywistą postać przewozu; kod D/E działa inaczej dla cystern i sztuk przesyłek.",
+        "Nie wjeżdżaj, jeśli przewóz jest objęty zakazem; wybierz trasę dozwoloną i uwzględnij niezależne znaki drogowe.",
+        "W razie zdarzenia w tunelu nie otwieraj ładowni ani przesyłek; zapewnij bezpieczeństwo, zastosuj instrukcje pisemne i wezwij pomoc."
       ],
       "question_ids": [
         "ADR-B-0487",
         "ADR-B-0539",
-        "ADR-B-0540"
+        "ADR-B-0540",
+        "ADR-B-0574",
+        "ADR-B-0575",
+        "ADR-B-0576",
+        "ADR-B-0591",
+        "ADR-B-0592",
+        "ADR-B-0602",
+        "ADR-B-0603",
+        "ADR-B-0604"
       ],
       "assessment_criteria": [
-        "Kursant bierze pod uwagę wszystkie przesyłki, kod i kategorię tunelu."
+        "Kursant odczytuje kod, uwzględnia sposób przewozu i ograniczenia dla całego ładunku oraz wskazuje bezpieczną reakcję na zdarzenie."
       ],
       "safety_boundary": "Ćwiczenie na mapie; bez rzeczywistego przejazdu z towarem niebezpiecznym."
     },
     {
       "id": "SC-ADR-B-12",
       "module_id": "ADR-B-12",
-      "title": "Nieznana osoba chce odebrać ładunek",
-      "situation": "Na parkingu osoba zna numer zlecenia, ale nie może potwierdzić tożsamości zgodnie z procedurą przewoźnika.",
+      "title": "Ochrona przewozu i weryfikacja uprawnienia do odbioru",
+      "situation": "Przewóz towaru dużego ryzyka wymaga zabezpieczenia postoju. W trakcie dostawy osoba zna numer zlecenia, ale nie potrafi potwierdzić uprawnienia do odbioru.",
       "steps": [
-        "Nie przekazuj ładunku wyłącznie na podstawie znajomości numeru zlecenia.",
-        "Sprawdź tożsamość i uprawnienie do odbioru według procedury firmy.",
-        "Zgłoś niezgodność dyspozytorowi lub osobie odpowiedzialnej i chroń informacje o ładunku.",
-        "Stosuj właściwe wymagania ochronne, jeśli przewóz obejmuje towary dużego ryzyka."
+        "Stosuj plan ochrony właściwy dla przewozu i uwzględniający zabezpieczenie podczas postoju.",
+        "Nie ujawniaj niepotrzebnie informacji o ładunku ani szczegółów zabezpieczeń osobom nieuprawnionym.",
+        "Zweryfikuj tożsamość i uprawnienie do odbioru według procedury; nie przekazuj ładunku tylko na podstawie numeru zlecenia.",
+        "Zgłoś rozbieżność odpowiedzialnej osobie i postępuj zgodnie z właściwymi wymaganiami ochronnymi."
       ],
       "question_ids": [
         "ADR-B-0304",
         "ADR-B-0305",
-        "ADR-B-0519"
+        "ADR-B-0519",
+        "ADR-B-0582"
       ],
       "assessment_criteria": [
-        "Kursant odróżnia ochronę przed nieuprawnionym dostępem od zwykłego mocowania."
+        "Kursant rozumie, że ochrona obejmuje postój i kontrolę dostępu, a numer zlecenia nie jest dowodem uprawnienia."
       ],
       "safety_boundary": "Symulacja rozmowy na fikcyjnych dokumentach; nie ujawniaj prawdziwych danych."
     },
     {
       "id": "SC-ADR-B-13",
       "module_id": "ADR-B-13",
-      "title": "Kontrola dokumentów przed wyjazdem",
-      "situation": "Podczas kontroli dokument przewozowy nie zawiera liter UN przed numerem towaru, a kod tunelowy wymaga wpisu.",
+      "title": "Kontrola dokumentów i instrukcji przed wyjazdem",
+      "situation": "Przed odjazdem kierowca zauważa brak wymaganych danych w dokumencie, a instrukcje pisemne są w niezrozumiałym języku. Ładunek przyjechał wcześniej drogą morską.",
       "steps": [
-        "Porównaj numer UN, nazwę przewozową, klasę i inne wymagane informacje z właściwym wpisem.",
-        "Sprawdź, czy dokument zawiera wymagany kod tunelowy i dane dodatkowe dla tego przewozu.",
-        "Nie zgaduj brakujących danych; uzyskaj poprawny dokument od odpowiedzialnego uczestnika.",
-        "Nie rozpoczynaj przewozu, dopóki niezgodność nie zostanie wyjaśniona."
+        "Porównaj numer UN, nazwę przewozową, klasę, dane nadawcy/odbiorcy i pozostałe wymagane elementy z właściwym wpisem ADR.",
+        "Uzupełnij brakujące dane przez odpowiedzialnego uczestnika; nie zgaduj ilości ani nie dopisuj danych bez potwierdzenia.",
+        "Sprawdź, czy instrukcje pisemne mają właściwy wzór, są zrozumiałe dla załogi i łatwo dostępne w kabinie.",
+        "Dla odcinka po transporcie morskim sprawdź warunki ADR 1.1.4.2 i wymagane dodatkowe wpisy; nie zakładaj automatycznego zwolnienia."
       ],
       "question_ids": [
         "ADR-B-0508",
         "ADR-B-0525",
-        "ADR-B-0530"
+        "ADR-B-0530",
+        "ADR-B-0577",
+        "ADR-B-0578",
+        "ADR-B-0579",
+        "ADR-B-0586",
+        "ADR-B-0587",
+        "ADR-B-0588",
+        "ADR-B-0589",
+        "ADR-B-0590",
+        "ADR-B-0598",
+        "ADR-B-0599",
+        "ADR-B-0600",
+        "ADR-B-0601"
       ],
       "assessment_criteria": [
-        "Kursant wskazuje brakujące pola i rozumie, że instrukcje pisemne nie zastępują dokumentu przewozowego."
+        "Kursant rozdziela dokument przewozowy od instrukcji pisemnych i sprawdza warunki zastosowania przepisów dla transportu kombinowanego."
       ],
       "safety_boundary": "Użyj fikcyjnego dokumentu przewozowego; nie kopiuj danych rzeczywistych klientów."
     }

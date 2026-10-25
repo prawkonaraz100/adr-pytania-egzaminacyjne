@@ -137,6 +137,28 @@ Powtórka w banku: ADR-B-0262–0264, 0431, 0487–0488.
 
 **Status:** przykłady są dydaktyczne; bank pozostaje `needs_review`. Przed użyciem egzaminacyjnym należy sprawdzić klucz, A/B/C i podstawę prawną.
 
+## Uzupełnienie odbioru 4x1 — kody tunelowe i decyzja w trasie (ADR-B-0574–0576, 0591–0604)
+
+Kod tunelowy odczytaj z kolumny 15 tabeli A przy właściwym towarze. Potem sprawdź kategorię tunelu na oznakowaniu i sposób przewozu. Nie wyznaczaj trasy wyłącznie na podstawie klasy towaru, rejestracji pojazdu ani tego, że tunel jest krótszą drogą.
+
+### Kilka kodów w jednej jednostce transportowej
+
+Jeżeli jednostka przewozi towary z różnymi kodami tunelowymi, ustal kod dla całego ładunku zgodnie z ADR 8.6.3.2 — nie wybieraj kodu na podstawie masy towaru ani wygody. W przypadku kodu „(-)” ADR nie przypisuje danemu towarowi ograniczenia tunelowego w tabeli, ale nadal obowiązują inne znaki drogowe i lokalne ograniczenia. Podstawa do sprawdzenia: ADR 3.2.1, kolumna 15 oraz 8.6.3.1–8.6.3.2.
+
+### Kod D/E zależy od postaci przewozu
+
+Przy kodzie zawierającym ukośnik sprawdź, czy towar jedzie w cysternie, czy w sztukach przesyłek. Dla kodu D/E ograniczenie dla cysterny obejmuje tunele D i E, a dla sztuk przesyłek — kategorię E. Nie przenoś reguły z jednej postaci przewozu na drugą. Podstawa do sprawdzenia: ADR 8.6.4.
+
+### Przed wjazdem i podczas zdarzenia
+
+Jeśli znak tunelu ogranicza przewóz, wybierz dozwoloną trasę; poprawny dokument nie uchyla zakazu. Gdy do zdarzenia dojdzie w tunelu, nie otwieraj ładowni ani nie improwizuj przy pożarze. Zatrzymaj pojazd w sposób bezpieczny, zastosuj instrukcje pisemne i wezwij pomoc zgodnie z sytuacją. Podstawa do sprawdzenia: ADR 8.6.3–8.6.4 oraz 5.4.3.4.
+
+**Scenariusz 1 — planowanie trasy:** w jednej jednostce są towary z kodami D i E. Kierowca sprawdza właściwą regułę dla ładunku i postaci przewozu, a następnie planuje trasę zgodną z ograniczeniami.
+
+**Scenariusz 2 — tunel zamknięty dla tego przewozu:** kierowca nie wjeżdża mimo krótszej trasy. Wybiera dozwolony objazd; w razie zdarzenia w tunelu priorytetem jest bezpieczeństwo i wezwanie służb, nie sprawdzanie ładunku przez otwarcie przesyłek.
+
+Powiązane pytania robocze: ADR-B-0574–0576 i ADR-B-0591–0604. Wszystkie pozostają `needs_review`; podane podstawy wymagają niezależnej kontroli polskiego tekstu.
+
 ## Co musisz zapamiętać
 
 - Sprawdź kod tunelowy w odpowiednim wpisie oraz sposób przewozu, zanim wybierzesz trasę.
