@@ -1,5 +1,5 @@
 {
-  "stage": "stage4w4_basic_coverage",
+  "stage": "stage4x6_basic_instructor_and_learning_path",
   "snapshot_date": "2026-10-25",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
@@ -142,7 +142,64 @@
     "verify official Polish original act and correction page for each question",
     "check A/B/C independently and clear every ambiguity",
     "review SVG against original ADR pattern",
-    "record authentic reviewer/date/evidence/hash before any verified status"
+    "record authentic reviewer/date/evidence/hash before any verified status",
+    "check all 13 lessons and 13 instructor guides against the 39 scenario IDs and module-local question IDs",
+    "check the five training exam variants and five keys against the current question bank; publication_authorized must remain false until independent approval",
+    "confirm explanations are understandable to a novice driver and assess each A/B/C independently"
   ],
-  "release_allowed": false
+  "release_allowed": false,
+  "practical_scenario_count": 39,
+  "scenarios_by_module": {
+    "ADR-B-01": 3,
+    "ADR-B-02": 3,
+    "ADR-B-03": 3,
+    "ADR-B-04": 3,
+    "ADR-B-05": 3,
+    "ADR-B-06": 3,
+    "ADR-B-07": 3,
+    "ADR-B-08": 3,
+    "ADR-B-09": 3,
+    "ADR-B-10": 3,
+    "ADR-B-11": 3,
+    "ADR-B-12": 3,
+    "ADR-B-13": 3
+  },
+  "mock_exam_variants": [
+    {
+      "variant": "001",
+      "file": "podstawowy/egzamin-probny/wariant-001.json",
+      "key_file": "podstawowy/egzamin-probny/klucz-001.json",
+      "publication_authorized": false
+    },
+    {
+      "variant": "002",
+      "file": "podstawowy/egzamin-probny/wariant-002.json",
+      "key_file": "podstawowy/egzamin-probny/klucz-002.json",
+      "publication_authorized": false
+    },
+    {
+      "variant": "003",
+      "file": "podstawowy/egzamin-probny/wariant-003.json",
+      "key_file": "podstawowy/egzamin-probny/klucz-003.json",
+      "publication_authorized": false
+    },
+    {
+      "variant": "004",
+      "file": "podstawowy/egzamin-probny/wariant-004.json",
+      "key_file": "podstawowy/egzamin-probny/klucz-004.json",
+      "publication_authorized": false
+    },
+    {
+      "variant": "005",
+      "file": "podstawowy/egzamin-probny/wariant-005.json",
+      "key_file": "podstawowy/egzamin-probny/klucz-005.json",
+      "publication_authorized": false
+    }
+  ],
+  "course_materials": {
+    "lessons": "podstawowy/lekcje/ADR-B-01.md ... ADR-B-13.md",
+    "instructor_guides": "podstawowy/instruktor/ADR-B-01.md ... ADR-B-13.md",
+    "scenario_map": "podstawowy/praktyka/scenariusze-13-dzialow.json",
+    "scenario_guide": "podstawowy/praktyka/SCENARIUSZE.md"
+  }
 }
