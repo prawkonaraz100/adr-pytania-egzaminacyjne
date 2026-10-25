@@ -9,7 +9,7 @@ Nalepki i dane przewozowe pomagają rozpoznać zagrożenie przed załadunkiem, p
 ## Czego się nauczysz
 - odczytywać numer UN (czterocyfrowy identyfikator towaru; [słowniczek](../SLOWNICZEK.md#numer-un)) i używać go do znalezienia właściwego wpisu w tabeli A ([słowniczek](../SLOWNICZEK.md#tabela-a));
 - rozróżniać klasy i podklasy zagrożeń;
-- odróżniać klasę zagrożenia od grupy pakowania (oznaczenia stopnia zagrożenia stosowanego tylko dla niektórych towarów; [słowniczek](../SLOWNICZEK.md#grupa-pakowania)) i numeru UN;
+- odróżniać klasę zagrożenia od grupy pakowania (oznaczenia stopnia zagrożenia stosowanego tylko dla niektórych towarów; [słowniczek](../SLOWNICZEK.md#grupa-pakowania)) i numeru UN; ADR to przepisy określające warunki drogowego przewozu towarów niebezpiecznych ([słowniczek](../SLOWNICZEK.md#adr)).
 - rozumieć ograniczenia podstawowego rozpoznawania klas 1 i 7;
 - wyjaśniać, co zrobić, gdy nalepka i dokumenty nie pasują.
 
