@@ -74,9 +74,9 @@ Porównano pytanie, odpowiedzi A/B/C, klucz i explanation z odpowiednim punktem 
 | ADR-B-0272 | ADR 2025, 1.1.3.6.4 | Zgodne w zakresie sprawdzonego punktu | 1.1.3.6.4: 200 × 3 + 500 = 1100, więc wynik przekracza 1000. |
 | ADR-B-0323 | ADR 2025, 1.1.3.6.4 | Zgodne w zakresie sprawdzonego punktu | 1.1.3.6.4: dla różnych kategorii trzeba obliczyć sumę ważoną, a nie sprawdzać każdą kategorię osobno. |
 | ADR-B-0606 | ADR 2025, 1.1.3.6.3–1.1.3.6.4 | Zgodne w zakresie sprawdzonego punktu | 1.1.3.6.3–1.1.3.6.4: trzeba ustalić kategorię i ilość w odpowiedniej jednostce; masa całego ładunku nie wystarcza. |
-
 | ADR-B-0197 | ADR 2025, 8.1.4.2 | Zgodne w zakresie sprawdzonego punktu | ADR 8.1.4.2: alternatywny środek gaśniczy musi mieć równoważną skuteczność dla wymaganych klas pożarów; sama masa nie wystarcza. |
 | ADR-B-0282 | ADR 2025, 8.1.4.2 | Zgodne w zakresie sprawdzonego punktu | ADR 8.1.4.2: wyłączenie 1.1.3.6 nie znosi wymogu co najmniej jednej przenośnej gaśnicy 2 kg proszku lub równoważnej skuteczności. |
+
 
 ## Szczególna kontrola ADR 1.1.3.6
 
