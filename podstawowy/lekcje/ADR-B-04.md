@@ -45,6 +45,7 @@ Jeżeli nie możesz spełnić warunków postoju, skontaktuj się z dyspozytorem 
 
 ## Sprawdź się
 
+- Kiedy zakaz palenia obejmuje e-papierosy?
 - Czym różni się zasada dotycząca silnika od zakazu otwierania przesyłek?
 - Gdzie sprawdzisz, czy dla konkretnego towaru wymagany jest nadzór?
 - Co zrobić, gdy dyspozytor wskazuje miejsce niespełniające wymagań?
