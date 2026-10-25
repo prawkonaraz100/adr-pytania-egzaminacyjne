@@ -24,7 +24,7 @@
     "all_status": "needs_review",
     "verified": 0
   },
-  "note": "Liczniki odnoszą się do pozycji porównawczych, nie do unikalnych ID pytań; ten sam ID może pojawić się w porównaniu innego punktu. Porównanie tekstowe nie jest formalnym zatwierdzeniem specjalisty. Partia 13 zamyka 599 pozycji porównawczych manifestu; pytania 0604–0609, dodane poza pierwotnym zakresem manifestu, nie są liczone jako pozycje partii 13. Zamknięcie manifestu nie jest formalną akceptacją specjalisty.",
+  "note": "Liczniki odnoszą się do pozycji porównawczych, nie do unikalnych ID pytań; ten sam ID może pojawić się w porównaniu innego punktu. Porównanie tekstowe nie jest formalnym zatwierdzeniem specjalisty. Partia 13 zamyka 599 pozycji porównawczych manifestu; pytania 0604–0609, dodane poza pierwotnym zakresem manifestu, nie są liczone jako pozycje partii 13. Zamknięcie manifestu nie jest formalną akceptacją specjalisty. Dodatkowo, po zamknięciu manifestu, literalnie potwierdzono i zsynchronizowano pięć historycznych rekordów pozostawionych wcześniej jako niepotwierdzone (ADR-B-0162, 0458, 0120, 0211, 0249); rekord 0457 zsynchronizowano z potwierdzeniem już zapisanym w partii 10. Patrz follow-up. Nie zmienia to liczby 599 pozycji manifestu ani nie stanowi formalnego zatwierdzenia specjalisty.",
   "batch7": {
     "file_json": "review/batches/4x16-literal-comparison-batch7-0370-0417.json",
     "file_report": "review/batches/4x16-literal-comparison-batch7-0370-0417.md",
@@ -115,5 +115,25 @@
     "formal_specialist_approvals": 0
   },
   "completed_after_batch13": 599,
-  "remaining_after_batch13": 0
+  "remaining_after_batch13": 0,
+  "follow_up_literal_confirmations": {
+    "file_json": "review/batches/4x16-follow-up-literal-confirmations.json",
+    "file_report": "review/batches/4x16-follow-up-literal-confirmations.md",
+    "source": "Polski tekst ADR 2025, tom I, PDF str. 109 (1.10.1.2 i tabela 1.10.3.1.2), tom I/tabela A PDF str. 620 dla UN 3551/3552 i nalepki 9A; sprostowanie Dz.U. 2025 poz. 1575.",
+    "positions": 5,
+    "ids": [
+      "ADR-B-0162",
+      "ADR-B-0458",
+      "ADR-B-0120",
+      "ADR-B-0211",
+      "ADR-B-0249"
+    ],
+    "previously_open_now_confirmed": 5,
+    "previously_confirmed_reconciled": [
+      "ADR-B-0457"
+    ],
+    "question_changes": 0,
+    "status_changes": 0,
+    "formal_specialist_approvals": 0
+  }
 }
