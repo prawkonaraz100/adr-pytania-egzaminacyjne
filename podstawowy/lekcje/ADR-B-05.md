@@ -18,6 +18,9 @@ Zatrzymaj się w możliwie bezpiecznym miejscu i oceń sytuację bez narażania 
 
 Instrukcje pisemne ADR mają ustalony wzór i powinny być dostępne dla załogi w kabinie. Przewoźnik zapewnia je w języku, który każdy członek załogi potrafi czytać i rozumieć. Instrukcje muszą być dostępne, a nie zamknięte w miejscu, do którego załoga nie ma szybkiego dostępu.
 
+
+### Szczegóły z instrukcji pisemnych
+Instrukcje pisemne przewidują działania dostosowane do sytuacji, ale nie nakazują narażania się. Jeśli w pobliżu są palne opary, nie pal, nie używaj e-papierosów i nie włączaj urządzeń, które mogą wywołać iskrę. W miarę możliwości oddal się na stronę nawietrzną, ostrzeż inne osoby i przekaż ratownikom dostępne dokumenty przewozowe, jeśli możesz to zrobić bez ryzyka. Jeżeli odzież została skażona, nie przenoś skażenia na kabinę, siedzenia ani inne osoby; postępuj według instrukcji i wezwij odpowiednią pomoc. Nie wchodź do rozlewu, by odczytać etykietę lub założyć osłonę odpływu. Ograniczanie wycieku można próbować tylko wtedy, gdy jest to bezpieczne i mieści się w przeszkoleniu.
 ## 3. Pożar i gaśnice
 Nie podejmuj gaszenia pożaru przedziału ładunkowego z towarami niebezpiecznymi. Przy innych małych pożarach sprzęt można rozważyć wyłącznie wtedy, gdy warunki są bezpieczne, działanie mieści się w przeszkoleniu i nie opóźnia ewakuacji ani wezwania pomocy. Stosuj instrukcję obsługi sprzętu i przerwij działanie, gdy warunki przestają być bezpieczne.
 
