@@ -89,3 +89,21 @@ Po zmianach zsynchronizowano `exact_record_snapshot` w `review/sequential` oraz 
 - Wyłącznie kurs podstawowy; nie rozpoczęto kursu cystern.
 - Żadne pytanie nie zostało oznaczone jako `verified`.
 - Wymagany jest PASS pełnego Quality Gate CI przed scaleniem.
+
+
+## Naprawa czerwonego Quality Gate — potwierdzone logi CI
+
+Pierwszy czerwony przebieg: [run 40194287828](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/40194287828) oraz równoległy [run 40194269443](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/40194269443). Oba zatrzymały się na dwóch testach jednostkowych:
+
+1. `test_variant_003_ids_answer_key_and_no_overlap`: wariant 003 miał stare opcje dla `ADR-B-0039` („Jedną/Cztery/Dziesięć”), podczas gdy bank zawierał „Trzy/Cztery/Pięć”; klucz 003 miał też stare explanation. Zsynchronizowano opcje wariantu i wyjaśnienie klucza z bankiem, bez zmiany poprawnej litery B.
+2. `test_shortest_and_absolute_rates_per_module`: w B-13 poprawna odpowiedź była najkrótszą opcją w 21/47 pytań, powyżej progu 38%. W pięciu pytaniach (`ADR-B-0037`, `0038`, `0087`, `0088`, `0145`) skrócono mylące, lecz realistyczne dystraktory tak, by nie dało się zgadywać po samej długości. Nie zmieniono kluczy ani sensu prawnego.
+
+Po poprawkach odświeżono techniczne snapshoty w `review/sequential` i `review/legal-clauses`; nie ustawiono żadnego statusu na `verified`.
+
+### Kontrola ilościowa po poprawce
+- Bank: 609 pytań, duplikaty ID: 0.
+- Poprawna odpowiedź jest jedyną najdłuższą: 83/609 = 13.63% (próg 18%).
+- B-13: poprawna odpowiedź jest najkrótsza w 16/47 = 34.04% (próg 38%).
+- Explanation: minimum 300 znaków; poniżej 200: 0. Wszystkie pytania pozostają `needs_review`.
+
+Pełny status końcowego CI odczytaj z historii PR #318; raport nie deklaruje PASS, dopóki ostatni commit gałęzi nie przejdzie obu jobów.
