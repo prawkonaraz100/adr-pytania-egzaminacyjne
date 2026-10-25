@@ -243,3 +243,8 @@ Nie znaleziono potwierdzonej sprzeczności wymagającej zmiany pytania, klucza l
 ## Granice audytu
 
 Wynik jest kontrolą pokrycia dydaktycznego, nie niezależną recenzją prawną. Szczegółowe minima i wyjątki należy porównać z urzędowym ADR 2025 (Dz.U. 2025 poz. 642 ze sprostowaniem poz. 1575). Wszystkie pytania pozostają `needs_review`.
+
+
+## Kontrola końcowa treści
+
+Uzupełniono szczegóły odczytu numeru zagrożenia z tablicy pomarańczowej, obowiązki nadawcy/przewoźnika/załadowcy oraz minima gaśnic i wyposażenie osobiste zależne od DMC i zagrożeń. Skorygowano również rozróżnienie formatu numeru UN: na dolnym polu tablicy pomarańczowej podaje się czterocyfrowy numer bez liter „UN”; litery „UN” poprzedzają numer w standardowym opisie towaru w dokumencie przewozowym. Bank pytań i klucze pozostają bez zmian.
