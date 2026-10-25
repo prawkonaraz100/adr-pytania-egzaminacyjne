@@ -14,7 +14,7 @@ Samo posiadanie wyposażenia nie wystarcza. Sprzęt musi być właściwy dla prz
 - reagować na brak, uszkodzenie lub niedostępność sprzętu przed wyjazdem.
 
 ## 1. Gaśnice — wymagania zależą od przewozu
-Liczba i pojemność gaśnic zależą od wymagań ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)) dla pojazdu, jego dopuszczalnej masy całkowitej (DMC (dopuszczalna masa całkowita pojazdu, czyli maksymalna masa pojazdu wraz z ładunkiem; [słowniczek](../SLOWNICZEK.md#dmc))) oraz warunków przewozu i ewentualnego zastosowania wyłączenia. Nie zakładaj jednego zestawu dla każdego pojazdu. Sprawdź ADR 8.1.4 i właściwe wymagania dla konkretnej konfiguracji.
+To, ile gaśnic i jakiej pojemności trzeba mieć, zależy od pojazdu i rodzaju przewozu. Sprawdź dopuszczalną masę całkowitą (DMC — maksymalną masę pojazdu wraz z ładunkiem; [słowniczek](../SLOWNICZEK.md#dmc)) oraz to, czy ma zastosowanie wyłączenie. Nie zakładaj, że jeden zestaw pasuje do każdej ciężarówki (ADR 8.1.4).
 
 Gaśnice muszą być sprawne, mieć wymagane oznaczenia i terminy przeglądu, być prawidłowo zamocowane oraz łatwo dostępne. Gaśnica przeterminowana, uszkodzona, zasłonięta ładunkiem lub leżąca luzem może nie spełniać wymagań. Usuń niezgodność przed wyjazdem.
 
