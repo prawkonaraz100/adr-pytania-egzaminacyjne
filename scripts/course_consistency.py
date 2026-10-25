@@ -107,8 +107,8 @@ def validate_practical_scenario_map(root: Path, questions):
     expected = {f"ADR-B-{n:02d}" for n in range(1, 14)}
     modules = [s.get("module_id") for s in scenarios]
     counts = {module: modules.count(module) for module in expected}
-    if set(modules) != expected or any(counts[module] < 1 for module in expected):
-        errors.append("Practical scenario map must cover all 13 modules with at least one scenario each")
+    if set(modules) != expected or any(counts[module] < 3 for module in expected):
+        errors.append("Practical scenario map must contain at least three scenarios for each of 13 modules")
     ids = [s.get("id") for s in scenarios]
     if len(ids) != len(set(ids)):
         errors.append("Practical scenario map contains duplicate scenario IDs")
