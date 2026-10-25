@@ -161,6 +161,18 @@ Nadawca przekazał dokumenty, ale podczas kontroli zauważasz uszkodzone opakowa
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
 
+## Uzupełnienie odbioru 4x1 — pakujący i załadowca (ADR-B-0583–0584)
+
+Obowiązki uczestników zależą od ich roli. Jeśli pakujący zauważy, że opakowanie lub oznakowanie nie spełnia wymagań, nie może uznać, że prawidłowy numer UN w dokumencie naprawia ten problem. Niezgodność trzeba usunąć przed przekazaniem przesyłki. Podstawa do sprawdzenia: ADR 1.4.3.2.1.
+
+Jeśli załadowca widzi uszkodzoną sztukę przesyłki jeszcze przed umieszczeniem jej w pojeździe, powinien wstrzymać załadunek tej sztuki i wyjaśnić stan opakowania. Zakrycie uszkodzenia folią ani umieszczenie sztuki na końcu pojazdu nie dowodzi, że jest bezpieczna. Podstawa do sprawdzenia: ADR 1.4.3.1.1 i 7.5.1.
+
+**Scenariusz 1 — wadliwe opakowanie:** pakujący widzi, że opakowanie nie spełnia wymagań. Zatrzymuje przekazanie przesyłki, ustala właściwe poprawki i dopiero potem kieruje ją do dalszego etapu. Uzasadnienie: prawidłowe dokumenty nie zastępują wymaganego opakowania.
+
+**Scenariusz 2 — uszkodzenie przy załadunku:** załadowca zauważa pęknięcie przed umieszczeniem przesyłki w pojeździe. Nie zakrywa pęknięcia i nie ładuje jej „na końcu”; wstrzymuje tę czynność i zgłasza niezgodność. Uzasadnienie: uszkodzenie może spowodować uwolnienie zawartości w czasie przewozu.
+
+Powiązane pytania robocze: ADR-B-0583–0584. Status: `needs_review`; podane punkty ADR wymagają niezależnego porównania z polskim tekstem urzędowym.
+
 ## Co musisz zapamiętać
 
 - Obowiązki nadawcy, przewoźnika, załadowcy, kierowcy i odbiorcy nie są identyczne.
