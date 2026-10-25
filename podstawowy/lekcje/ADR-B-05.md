@@ -1,259 +1,127 @@
-# Lekcja ADR-B-05 — Wypadek, awaria i pierwsza pomoc
+# ADR-B-05 — Wypadek, awaria i pierwsza pomoc
 
 ## Po co to jest?
+Po wypadku lub awarii najważniejsze jest, aby nie powiększyć zagrożenia. Kierowca nie ma obowiązku improwizować przy nieznanej substancji ani podejmować działań przekraczających jego możliwości. Ma zadbać o własne bezpieczeństwo, ostrzec innych, wezwać pomoc i przekazać sprawdzone informacje.
 
-Po wypadku najważniejsze jest, by nie stać się kolejną osobą poszkodowaną. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych; jej instrukcje pomagają rozpoznać zagrożenie i przekazać służbom informacje o ładunku. P1–P3 to robocze oznaczenia ćwiczeń praktycznych prowadzonych przez instruktora, a nie test online. Przykład: jeśli z uszkodzonej przesyłki wydobywa się chmura gazu, nie wchodź w nią po poszkodowanego bez oceny zagrożenia — oddal się, ostrzeż innych i wezwij służby.
+## Czego się nauczysz
+- ustalać bezpieczną kolejność pierwszych działań po zdarzeniu;
+- korzystać z instrukcji pisemnych w granicach bezpieczeństwa;
+- rozpoznawać, kiedy nie podejmować gaszenia ani kontaktu z substancją;
+- przekazywać służbom wiarygodne dane o miejscu, zdarzeniu i ładunku;
+- sprawdzać dostępność i stan wyposażenia przed wyjazdem.
 
-> **Wersja robocza 22.10.2026 · wymaga recenzji instruktora i doradcy ADR.** Materiał do przygotowania kierowcy na kurs ADR podstawowy; nie zastępuje instrukcji pisemnych w pojeździe, poleceń służb ani rzeczywistych ćwiczeń pierwszej pomocy, pożaru i awarii.
-
-## Jak korzystać z tej lekcji
-
-1. Zacznij od celów nauki i głównych sekcji tematycznych u góry dokumentu. Czytaj je po kolei i zatrzymaj się przy przykładzie z pracy kierowcy.
-2. Gdy pojawia się skrót lub kod ADR, sprawdź wyjaśnienie w tekście i wskazany punkt przepisu — nie ucz się samego symbolu bez zrozumienia, co oznacza.
-3. Sekcje niżej z nagłówkami typu „Utrwalanie przez scenariusz”, „Zadanie instruktorskie”, „plan dydaktyczny” lub „uzupełnienie” są materiałem uzupełniającym i archiwum ćwiczeń. Mogą powtarzać temat główny; wybierz powiązane pytania i scenariusze zamiast czytać powtórzenia jak nowy rozdział.
-4. Pytania w banku są materiałem roboczym `needs_review`. Sam wynik testu nie potwierdza zaliczenia ćwiczeń praktycznych ani prawnej poprawności materiału.
-
-## Efekty nauki
-
-Po tej lekcji kierowca powinien:
-- rozpoznać, kiedy własne działania mogą spowodować drugą ofiarę;
-- wskazać kolejność podstawowych czynności w wypadku, o ile można je wykonać bezpiecznie;
-- powiadomić służby i przekazać im informacje o zagrożeniu;
-- wyjaśnić różnicę między początkowym pożarem silnika/opon/hamulców a pożarem przedziału ładunkowego;
-- wskazać środki ostrzegawcze, postępowanie z rozlewem i skażoną odzieżą;
-- rozumieć, dlaczego ćwiczenia z gaśnicą i pierwszej pomocy wymagają instruktora.
-
-## 1. Najważniejsza zasada: nie narażaj siebie
-
-Towary ADR mogą być zapalne, trujące, żrące, zakaźne, promieniotwórcze albo stwarzać inne zagrożenia. Widoczna kałuża nie daje odpowiedzi, jaki to materiał. Nie dotykaj rozlewu, nie wchodź w niego i nie wdychaj oparów. Jeśli możliwe, pozostań po **stronie nawietrznej** (tak, aby wiatr nie niósł oparów na ciebie). Nie zbliżaj postronnych do uszkodzonych opakowań.
-
-**Nie otwieraj opakowań, nie wąchaj substancji i nie próbuj samodzielnie identyfikować jej przez dotyk.** Takie działania mogą zwiększyć zagrożenie.
-
-Podstawa: ADR 2025, 5.4.3.4 — wzór instrukcji pisemnych, czynności w sytuacji wypadku i awarii.
+## 1. Najpierw bezpieczeństwo własne
+Nie wchodź w strefę wycieku, oparów ani pożaru, jeśli narażałoby to ciebie lub inne osoby. Nie dotykaj substancji i nie próbuj jej rozpoznawać po zapachu. Ostrzeż osoby w pobliżu, oddal się w bezpieczne miejsce i postępuj według instrukcji pisemnych oraz poleceń służb.
 
 ## 2. Pierwsze czynności po zdarzeniu
+Zatrzymaj się w możliwie bezpiecznym miejscu i oceń sytuację bez narażania siebie. Zabezpiecz miejsce w granicach swoich możliwości, ostrzeż osoby postronne i wezwij właściwą pomoc. Przekaż lokalizację, charakter zdarzenia oraz sprawdzone dane z dokumentów o przewożonym towarze. Nie zgaduj, nie dopowiadaj nieznanych szczegółów i nie opóźniaj wezwania pomocy, czekając na pełne ustalenie przyczyny.
 
-Wykonuj **tylko, jeżeli jest to możliwe i bezpieczne**:
+Instrukcje pisemne ADR mają ustalony wzór i powinny być dostępne dla załogi w kabinie. Przewoźnik zapewnia je w języku, który każdy członek załogi potrafi czytać i rozumieć. Instrukcje muszą być dostępne, a nie zamknięte w miejscu, do którego załoga nie ma szybkiego dostępu.
 
-1. Zahamuj pojazd, wyłącz silnik; użyj głównego wyłącznika akumulatora, jeśli jest dostępny.
-2. Unikaj źródeł zapłonu: nie pal, nie używaj e-papierosa ani nie włączaj niepotrzebnych urządzeń elektrycznych.
-3. Wezwij odpowiednie służby ratownicze. W Polsce numer alarmowy to **112**; opisz lokalizację, rodzaj zdarzenia, oznakowanie, dokument przewozowy i znane numery UN. Nie podawaj zmyślonych danych.
-4. Załóż kamizelkę ostrzegawczą, ustaw stojące znaki ostrzegawcze, jeśli możesz to zrobić bezpiecznie.
-5. Zapewnij ratownikom łatwy dostęp do dokumentów przewozowych i informacji o ładunku.
-6. Odseparuj osoby od zagrożenia; oddal się i stosuj do poleceń ratowników.
+## 3. Pożar i gaśnice
+Nie podejmuj gaszenia pożaru przedziału ładunkowego z towarami niebezpiecznymi. Przy innych małych pożarach sprzęt można rozważyć wyłącznie wtedy, gdy warunki są bezpieczne, działanie mieści się w przeszkoleniu i nie opóźnia ewakuacji ani wezwania pomocy. Stosuj instrukcję obsługi sprzętu i przerwij działanie, gdy warunki przestają być bezpieczne.
 
-Przy dużej chmurze, gwałtownym wycieku lub rozwiniętym pożarze **oddalenie się i wezwanie pomocy** są ważniejsze niż ratowanie przesyłki.
-
-Podstawa: ADR 2025, 5.4.3.4, wzór instrukcji pisemnych.
-
-## 3. Pożar: czego nie robić
-
-| Sytuacja | Zasada dla załogi |
-|---|---|
-| Mały pożar w początkowej fazie, np. opony, hamulców lub komory silnika | Gaśnicę wolno użyć, jeśli jest to właściwe i bezpieczne; kierowca musi znać sprzęt i drogę odwrotu |
-| Pożar obejmujący przedział ładunkowy | **Załoga nie powinna podejmować samodzielnego gaszenia tego pożaru.** Oddalić się i wezwać służby |
-| Nieznana reakcja materiału z wodą | Nie używać wody „na próbę”; towary niektórych klas reagują z nią niebezpiecznie |
-
-Instrukcje ADR nie dają upoważnienia do działań ratowniczych przekraczających szkolenie kierowcy.
-
-Podstawa: ADR 2025, 5.4.3.4 oraz odpowiednie zasady dla klas i towarów.
+Gaśnica wymagana przez ADR musi być sprawna, prawidłowo zamocowana i łatwo dostępna. Gaśnica zasłonięta ładunkiem albo leżąca luzem, skąd może wypaść podczas hamowania, nie jest przygotowana do bezpiecznego użycia. Sprawdź ją przed wyjazdem i usuń niezgodność.
 
 ## 4. Wyciek i ochrona środowiska
-
-Jeśli można to zrobić **właściwie i bezpiecznie** przy użyciu wyposażenia pojazdu:
-- ogranicz przedostawanie się materiału do kanalizacji, rzek lub zbiorników wodnych;
-- nie dotykaj substancji i nie zbieraj jej bez odpowiednich środków i oceny ryzyka;
-- poinformuj służby o rodzaju wycieku i o tym, gdzie może trafić substancja.
-
-Zanieczyszczone ubrania i użyte wyposażenie ochronne zdejmij i usuń **w bezpieczny sposób**, zgodnie z instrukcjami i zaleceniami właściwych służb.
-
-Podstawa: ADR 2025, 5.4.3.4.
-
-## 5. Pierwsza pomoc — zakres wiedzy kierowcy
-
-Nie istnieje jedna „recepta ADR” na każde zatrucie, oparzenie czy uraz. Rodzaj pomocy zależy od substancji, ekspozycji i stanu człowieka.
-
-Zasady do nauczenia na kursie:
-- oceniaj własne bezpieczeństwo i nie wchodź bez ochrony w skażoną strefę;
-- wezwij odpowiednie służby, przekaż możliwe informacje o towarze i ekspozycji;
-- słuchaj poleceń dyspozytora, a czynności pierwszej pomocy wykonuj stosownie do swoich umiejętności;
-- nie dopuszczaj do dodatkowego narażenia i nie pozwól osobom postronnym dotykać rozlewu;
-- działaj według rzeczywistego instruktażu, a nie tylko zapamiętanej odpowiedzi testowej.
-
-**Wymagane zajęcia praktyczne:** ćwiczenia udzielania pierwszej pomocy do rodzaju obrażeń spowodowanych towarem niebezpiecznym, pod nadzorem instruktora. Lekcja ani quiz **nie zaliczają** praktycznego kursu ADR.
-
-Źródło: rozporządzenie o kursach, Dz.U. 2021 poz. 2150, załącznik nr 1, część 3.
-
-## 6. Trzy ćwiczenia z instruktorem — nie do automatycznego zaliczenia
-
-**Ćwiczenie A: gaśnica.** Instruktor demonstruje bezpieczne użycie gaśnicy, uczestnik ćwiczy pod nadzorem. Sprawdzać rozpoznanie rodzaju pożaru, zachowanie odległości i przerwanie akcji w razie zagrożenia.
-
-**Ćwiczenie B: pierwsza pomoc.** Scenariusze z obrażeniami i potencjalnym narażeniem chemicznym; instruktor ocenia rozpoznanie niebezpieczeństwa, powiadomienie służb i poprawność działań w granicach szkolenia.
-
-**Ćwiczenie C: wypadek/awaria.** Symulacja: zatrzymanie pojazdu, identyfikacja zagrożenia, ostrzeżenie innych, użycie środków ochronnych, przekazanie służbom dokumentów.
-
-Dla ewidencji kursu konieczne osobne **potwierdzenie instruktora i obecności**. Nie wolno zaliczać praktyki na podstawie samego testu wielokrotnego wyboru.
-
-## 7. Pytania powiązane z lekcją
-
-`ADR-B-0013`, `0014`, `0015`, `0049`, `0050`, `0104`–`0113`.
-
-## Podstawa prawna i materiały referencyjne
-
-- [Dz.U. 2025 poz. 642 — ADR 2025](https://dziennikustaw.gov.pl/DU/2025/642) wraz ze [sprostowaniem poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf).
-- [Ministerstwo Infrastruktury — ADR 2025 (tomy pomocnicze)](https://www.gov.pl/web/infrastruktura/towary-niebezpieczne), część 5.4.3.4.
-- [Program kursu i ćwiczeń praktycznych — Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf), załącznik nr 1.
-
-**Bramka:** recenzent powinien sprawdzić wszystkie procedury i scenariusze z aktualnym tekstem instrukcji pisemnych i zakresem szkolenia. Obecna wersja jest **draft / needs_review**.
-
-## Ćwiczenia decyzyjne — zatrzymanie, wyciek i pożar (szkic)
-
-Przećwiczyć na suchych scenariuszach: bezpieczne zatrzymanie, światła awaryjne, hamulec i silnik (0219), wezwanie służb (0220), stronę nawietrzną (0221), zakaz gaszenia ładowni (0222), ograniczoną możliwość użycia gaśnicy (0223), odgrodzenie osób postronnych (0224) i ocenę własnego bezpieczeństwa przed pomocą (0225). Źródło: ADR 2025, instrukcje pisemne 5.4.3.4. Bez narażania na substancje i bez automatycznego zaliczenia ćwiczeń P1–P3; wymaga recenzji instruktora.
-
-## Scenariusze P1–P3: dalsze pytania przygotowawcze (szkic)
-
-Ćwiczyć bezpieczne przekazanie informacji ratownikom (0229), reakcję na skażoną odzież (0230), bezpieczne użycie środków ostrzegawczych (0231) i mocowanie gaśnicy (0232). Kierowca nie naraża siebie na kontakt z towarem, nie wykonuje działań ratowniczych ponad przygotowanie. Źródła: ADR 5.4.3.4, 8.1.4.5 i 8.1.5.2; wymaga zatwierdzenia instruktora.
-
-## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
-
-**Sytuacja do analizy:** Po uszkodzeniu opakowania pojawiają się opary, a obok leży osoba poszkodowana.
-
-**Zadanie kursanta:** wyjaśnić, co należy sprawdzić przed podjęciem działania, jak rozpoznać warunki graniczne i czego nie należy robić. Uczeń wybiera stronę nawietrzną, wzywa służby i nie wchodzi do strefy zagrożenia bez przeszkolenia i ochrony.
-
-**Kontrola instruktora:** kursant uzasadnia wybór własnymi słowami, wskazuje istotny warunek lub wyjątek i potrafi opisać bezpieczne zachowanie. Prawidłowe rozwiązanie quizu nie jest potwierdzeniem wykonania czynności praktycznych.
-
-**Punkty do porównania z urzędową publikacją:** ADR 5.4.3.4; [ADR 2025 Dz.U. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). To **szkic dydaktyczny**, bez udokumentowanej niezależnej recenzji tekstu prawa ani zatwierdzenia instruktora.
-
-## Zadanie instruktorskie: Zdarzenie i pierwsza pomoc (uzupełnienie etapu 2, 23.10.2026)
-
-**Scenariusz bez rzeczywistych towarów niebezpiecznych:** W symulacji wycieku oraz pożaru przestrzeni ładunkowej kursant wskazuje kolejność: własne bezpieczeństwo, ostrzeżenie, pomoc, informacje dla służb; nie rozpoczyna działań przy realnym ładunku.
-
-**Podstawa do sprawdzenia przez instruktora:** ADR 5.4.3.4, 8.1.5; program praktyczny Dz.U. 2021 poz. 2150.
-
-**Obserwowalne kryterium:** Nie proponuje gaszenia pożaru przestrzeni ładunkowej przez załogę; rozróżnia ćwiczenie od zaliczenia praktyki.
-
-**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
-
-## Uzupełnienie powiązań z pytaniami — ADR-B-05 (23.10.2026)
-
-Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
-
-### ADR-B-0015 — Jak powinny być zamontowane gaśnice wymagane przez ADR?
-
-Gaśnice mają być dostępne dla załogi i zabezpieczone przed warunkami, które mogłyby je uszkodzić.
-
-**Podstawa do kontroli:** ADR 2025, 8.1.4.5. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
-
-### ADR-B-0050 — W jakim języku przewoźnik ma zapewnić załodze instrukcje pisemne ADR?
-
-Instrukcje muszą być przekazane członkom załogi w języku, który potrafią przeczytać i zrozumieć.
-
-**Podstawa do kontroli:** ADR 2025, 5.4.3.2. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
-
-### ADR-B-0169 — Gaśnica ADR w pojeździe jest zasłonięta ładunkiem i nie można jej szybko wyjąć. Co trzeba poprawić?
-
-Wymagane gaśnice muszą być łatwo dostępne dla załogi i odpowiednio chronione przed działaniem pogody.
-
-**Podstawa do kontroli:** ADR 2025, 8.1.4.5. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
-
-### ADR-B-0232 — Podczas kontroli gaśnica wymagana w pojeździe ADR leży luzem za siedzeniem, skąd może wypaść podczas hamowania. Co należy poprawić?
-
-Gaśnice przewożone jako wyposażenie ADR powinny być prawidłowo zamocowane, zabezpieczone przed warunkami zewnętrznymi i łatwo dostępne dla załogi.
-
-**Podstawa do kontroli:** ADR 2025, 8.1.4.5. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
-
-## Plan instruktażowy 1(e) — awaria, pierwsza pomoc, bezpieczeństwo (23.10.2026)
-
-**Wymiar:** 45 minut teorii oraz niezależne, nadzorowane ćwiczenia praktyczne. Temat obejmuje reakcję na wypadek, środki zapobiegawcze, bezpieczeństwo ruchu, podstawy pierwszej pomocy, ograniczenia gaszenia pożarów i stosowanie wyposażenia; quiz nie zastępuje praktyki.
-
-| Kompetencja | Cel | Referencje | Pytania robocze |
-|---|---|---|---:|
-| ADR-B-05-K01 | Lokalizacja i znajomość instrukcji pisemnych | 5.4.3 | 4 |
-| ADR-B-05-K02 | Bezpieczne zatrzymanie i wyłączenie silnika | 5.4.3.4 | 3 |
-| ADR-B-05-K03 | Powiadomienie służb i informacje o ładunku | 5.4.3.4 | 3 |
-| ADR-B-05-K04 | Unikanie oparów i wybór strony nawietrznej | 5.4.3.4 | 4 |
-| ADR-B-05-K05 | Zakaz gaszenia pożaru ładowni | 5.4.3.4 | 3 |
-| ADR-B-05-K06 | Mały pożar opon, hamulców lub silnika | 5.4.3.4 | 4 |
-| ADR-B-05-K07 | Przekazanie dokumentów ratownikom | 5.4.3.4 | 3 |
-| ADR-B-05-K08 | Skażona odzież i środki ochrony | 5.4.3.4 | 3 |
-| ADR-B-05-K09 | Ostrzeganie osób postronnych i ewakuacja | 5.4.3.4 | 3 |
-| ADR-B-05-K10 | Kamizelka i znaki ostrzegawcze | 5.4.3.4 | 3 |
-| ADR-B-05-K11 | Ocena bezpieczeństwa udzielania pierwszej pomocy | 5.4.3.4; program praktyczny | 3 |
-| ADR-B-05-K12 | Mocowanie/dostępność gaśnic | 8.1.4.5 | 3 |
-| ADR-B-05-K13 | Praktyczne używanie gaśnicy (instruktaż) | program praktyczny, zał. 1 | 0 |
-| ADR-B-05-K14 | Praktyczne czynności pierwszej pomocy (instruktaż) | program praktyczny, zał. 1 | 0 |
-| ADR-B-05-K15 | Praktyczny scenariusz wypadku/awarii | program praktyczny, zał. 1 | 0 |
-
-### Przebieg 45 minut teorii
-
-| Czas | Zdarzenie dydaktyczne | Dowód opanowania |
-|---|---|---|
-| 0–10 min | Pierwsze decyzje kierowcy, bezpieczne zatrzymanie i zabezpieczenie miejsca | Rozróżnia bezpieczeństwo ludzi od ochrony mienia |
-| 10–20 min | Powiadomienie służb, instrukcje pisemne i dokumenty przewozowe | Przekazuje lokalizację, rodzaj ładunku i obserwowane zagrożenie bez wchodzenia w strefę wycieku |
-| 20–30 min | Porównanie małego pożaru hamulców z pożarem przestrzeni ładunkowej | Zna granice własnego działania i konieczność wycofania |
-| 30–40 min | Zasady pierwszej pomocy tylko w warunkach bezpiecznych dla ratownika | Weryfikuje zagrożenia przed podejściem, wybiera bezpieczne wezwanie pomocy |
-| 40–45 min | Sprawdzenie z uzasadnieniem | Podaje podstawę i opisuje, co należy przećwiczyć fizycznie |
-
-### Ocena i materiały
-
-Fikcyjna mapa kolizji, instrukcje pisemne ADR 5.4.3, lista wyposażenia 8.1.5, zestaw kart ról uczestników i dokumentów przekazywanych ratownikom. Kryteria: „rozumie / wymaga wyjaśnienia / nieocenione”, z zapisaniem błędnej reakcji i uzasadnieniem. **Trzy praktyczne cele ADR-B-05-K13–K15 pozostają poza zaliczeniem teoretycznym.** Realizacja P1–P3 musi być odnotowana osobno przez instruktora.
-
-Źródła: urzędowy program Dz.U. 2021 poz. 2150, zał. 1 temat e i przepisy o praktyce; ADR 2025 5.4.3, 8.1.4, 8.1.5 w Dz.U. 642 i sprostowaniu 1575. Wszystkie materiały pozostają szkicem, do kontroli prawa i odbioru instruktażu.
-
-## Karta kursanta — awaria i pierwsza pomoc (24.10.2026)
-
-- Najpierw chroń siebie i innych, oceń zagrożenie i wezwij służby. Przekaż miejsce zdarzenia, znane informacje o ładunku i dokumenty ratownikom, jeśli można to zrobić bezpiecznie.
-- Nie próbuj gasić pożaru obejmującego przestrzeń ładunkową i nie otwieraj uszkodzonych przesyłek. Mały pożar elementu pojazdu to inna sytuacja, ale działanie jest dopuszczalne tylko przy zachowaniu bezpieczeństwa.
-- **Błąd do uniknięcia:** test online nie zalicza ćwiczeń. P1–P3 muszą zostać przeprowadzone i ocenione przez instruktora, z osobnym zapisem realizacji.
-
-Powtórka w banku: ADR-B-0308, 0362, 0435. Ćwiczenia praktyczne: P1–P3 w `podstawowy/praktyka/SCENARIUSZE.md`.
-
-## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
-
-### Powiązane pytania w banku
-
-- ADR-B-0015 — gaśnice
-- ADR-B-0050 — instrukcje pisemne
-- ADR-B-0169 i ADR-B-0232 — dostępność gaśnicy
-- ADR-B-0308 — pożar przestrzeni ładunkowej
-- ADR-B-0362 i ADR-B-0435 — reakcja na zdarzenie
-
-### Przykład z pracy kierowcy
-
-Jeśli ogień obejmuje przestrzeń ładunkową, nie otwieraj jej, by zobaczyć, co się pali. Oddal się, ostrzeż innych i wezwij służby. Inne działania mogą być rozważane wyłącznie w granicach instrukcji i bezpieczeństwa. Powiązane pytania: ADR-B-0308, ADR-B-0362 i ADR-B-0435. Ćwiczenia praktyczne P1–P3 wykonuje i potwierdza instruktor; quiz nie jest zaliczeniem praktyki.
-
-**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
-
-## Uzupełnienie odbioru 4x1 — dostępność sprzętu i zgłoszenie zdarzenia (ADR-B-0585, 0593–0594)
-
-**Gaśnica przed wyjazdem.** Nie wystarczy, że gaśnica znajduje się gdzieś w pojeździe. Musi być wymagana dla danego przewozu, sprawna i umieszczona tak, aby załoga mogła ją łatwo wyjąć. Jeśli została zasłonięta lub unieruchomiona przez ładunek, usuń niezgodność przed ruszeniem; nie przekładaj jej sprawdzenia na moment awarii. Podstawa do sprawdzenia: ADR 8.1.4.5.
-
-**Po awarii — silnik i wezwanie pomocy.** Gdy pojazd jest już zatrzymany w bezpiecznym miejscu, postępuj według instrukcji pisemnych. Jeśli silnik nie jest potrzebny do działania urządzeń obsługowych, wyłącz go zgodnie z procedurą. Wzywając pomoc, przekaż miejsce, rodzaj zdarzenia i sprawdzone informacje o ładunku. Nie próbuj rozpoznawać substancji po zapachu i nie opóźniaj zgłoszenia, czekając na pełne wyjaśnienie przyczyny.
-
-**Scenariusz 1 — gaśnica pod ładunkiem:** przed odjazdem kierowca odkrywa, że gaśnica jest zasłonięta. Nie rozpoczyna jazdy, dopóki sprzęt nie będzie prawidłowo dostępny. Uzasadnienie: sprzęt, którego nie można szybko użyć, nie spełnia celu bezpieczeństwa.
-
-**Scenariusz 2 — zgłoszenie po awarii:** kierowca nie zna jeszcze dokładnej przyczyny, ale wie, gdzie jest i co się stało. Wzywa pomoc, podaje fakty i dostępne dane o towarze, nie zgaduje składu na podstawie zapachu. Uzasadnienie: szybkie, wiarygodne informacje pomagają służbom ocenić zagrożenie.
-
-Powiązane pytania robocze: ADR-B-0585, ADR-B-0593–0594. Podstawa do kontroli: ADR 8.1.4.5 i 5.4.3.4. Status wszystkich pytań pozostaje `needs_review`.
+Nie dotykaj uwolnionej substancji, nie wdychaj oparów i nie uruchamiaj źródeł zapłonu w pobliżu potencjalnie palnego uwolnienia. Nie podejmuj samodzielnie działań wymagających specjalnego wyposażenia. Ostrzeż innych, powiadom służby i zastosuj instrukcje pisemne tylko wtedy, gdy jest to bezpieczne.
+
+## 5. Pierwsza pomoc — granice działania kierowcy
+Najpierw sprawdź, czy możesz podejść bez narażenia siebie i poszkodowanego na dodatkowe zagrożenie, w tym skażenie. Wezwij pomoc i przekazuj informacje o możliwym towarze niebezpiecznym. Wykonuj czynności pierwszej pomocy odpowiednie do sytuacji i własnego przeszkolenia. Nie wchodź do strefy skażenia i nie podejmuj czynności, których nie umiesz bezpiecznie wykonać.
+
+## Typowe błędy kursantów
+- wchodzenie w rozlew lub opary, by sprawdzić zawartość;
+- rozpoznawanie substancji po zapachu;
+- gaszenie pożaru przedziału ładunkowego;
+- opóźnianie wezwania pomocy do czasu ustalenia wszystkich szczegółów;
+- podawanie służbom przypuszczeń jako faktów;
+- wożenie gaśnicy niezamocowanej lub zasłoniętej ładunkiem;
+- uznawanie, że test online potwierdza wykonanie ćwiczeń praktycznych.
+
+## Scenariusze praktyczne
+1. **Gaśnica zasłonięta ładunkiem.** Przed wyjazdem kierowca zauważa, że nie może szybko wyjąć wymaganej gaśnicy. Nie rusza, dopóki sprzęt nie będzie sprawny, prawidłowo zamocowany i dostępny.
+2. **Awaria i nieznana przyczyna.** Kierowca zatrzymał pojazd w bezpiecznym miejscu, ale nie zna składu uwolnionej substancji. Wzywa pomoc, podaje lokalizację, opis zdarzenia i sprawdzone dane; nie zgaduje po zapachu.
+3. **Gaśnica leży luzem.** Podczas kontroli gaśnica może wypaść przy hamowaniu. Kierowca poprawia zamocowanie zgodnie z wymaganiami, zamiast uznawać samą obecność gaśnicy za wystarczającą.
+4. **Poszkodowany przy wycieku.** Kursant na fikcyjnej karcie sytuacyjnej ocenia bezpieczeństwo miejsca, ostrzega innych, wzywa pomoc i opisuje działania, które może wykonać bez narażenia siebie.
+5. **Pożar przy ładowni.** Kursant rozpoznaje, że załoga nie podejmuje gaszenia pożaru przedziału ładunkowego; priorytetem są bezpieczne oddalenie, alarmowanie i postępowanie według instrukcji.
+
+Wszystkie ćwiczenia wykonuje się na fikcyjnych kartach lub przygotowanym stanowisku szkoleniowym. Nie używa się prawdziwych towarów niebezpiecznych i nie zalicza praktyki na podstawie samego quizu.
 
 ## Co musisz zapamiętać
-
-- Najpierw oceń bezpieczeństwo miejsca; nie wchodź w opary ani nie dotykaj nieznanej substancji.
-- Ostrzeż innych i wezwij służby. Korzystaj z instrukcji pisemnych, jeśli możesz zrobić to bezpiecznie.
-- Nie otwieraj przestrzeni ładunkowej objętej pożarem. Ćwiczenia P1–P3 musi rzeczywiście przeprowadzić i ocenić instruktor.
-- Podstawy do dalszej nauki: ADR 5.4.3.4 i 5.4.3 oraz właściwe przepisy o wyposażeniu i działaniach awaryjnych.
+- Nie narażaj siebie, aby ratować ładunek.
+- Ostrzeż innych, wezwij pomoc i podawaj sprawdzone informacje.
+- Nie wchodź w wyciek ani opary i nie rozpoznawaj substancji po zapachu.
+- Nie gaś pożaru przedziału ładunkowego z towarami niebezpiecznymi.
+- Gaśnica musi być sprawna, zamocowana i łatwo dostępna.
+- Instrukcje pisemne muszą być dostępne i zrozumiałe dla całej załogi.
 
 ## Sprawdź się
+- Jakie informacje przekazujesz służbom po zdarzeniu?
+- Dlaczego nie wolno rozpoznawać substancji po zapachu?
+- Kiedy załoga nie podejmuje gaszenia pożaru?
+- Co trzeba poprawić, gdy gaśnica jest zasłonięta albo leży luzem?
+- Dlaczego instrukcje pisemne muszą być zrozumiałe dla każdego członka załogi?
 
-Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
-
+Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0013`
 - `ADR-B-0015`
 - `ADR-B-0169`
-- `ADR-B-0014`
-- `ADR-B-0049`
-- `ADR-B-0050`
-- `ADR-B-0104`
-- `ADR-B-0105`
+- `ADR-B-0220`
+- `ADR-B-0222`
+- `ADR-B-0232`
+- `ADR-B-0585`
+- `ADR-B-0593`
 
-**Scenariusz z pracy kierowcy:** [SC-ADR-B-05 — ADR-B-05](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-05`; jest to symulacja, nie zaliczenie zajęć praktycznych).
+Scenariusz z pracy kierowcy: [SC-ADR-B-05 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
+
+## Powiązane pytania w banku
+- ADR-B-0013
+- ADR-B-0014
+- ADR-B-0015
+- ADR-B-0049
+- ADR-B-0050
+- ADR-B-0104
+- ADR-B-0105
+- ADR-B-0106
+- ADR-B-0107
+- ADR-B-0108
+- ADR-B-0109
+- ADR-B-0110
+- ADR-B-0111
+- ADR-B-0112
+- ADR-B-0113
+- ADR-B-0165
+- ADR-B-0166
+- ADR-B-0167
+- ADR-B-0168
+- ADR-B-0169
+- ADR-B-0182
+- ADR-B-0183
+- ADR-B-0184
+- ADR-B-0185
+- ADR-B-0186
+- ADR-B-0187
+- ADR-B-0219
+- ADR-B-0220
+- ADR-B-0221
+- ADR-B-0222
+- ADR-B-0223
+- ADR-B-0224
+- ADR-B-0225
+- ADR-B-0229
+- ADR-B-0230
+- ADR-B-0231
+- ADR-B-0232
+- ADR-B-0493
+- ADR-B-0494
+- ADR-B-0516
+- ADR-B-0585
+- ADR-B-0593
+- ADR-B-0594
+
+## Podstawa prawna
+- ADR 2025: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf): 5.4.3.4, 8.1.4.5, 8.1.5 i właściwe instrukcje pisemne.
+- Ustawa z 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych, z późniejszymi zmianami.
+- Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
+
+Status materiału i pytań: needs_review; opis nie zastępuje praktycznego szkolenia z pierwszej pomocy i sprzętu gaśniczego.

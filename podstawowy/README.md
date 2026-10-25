@@ -41,6 +41,8 @@
 - [Etap 4x1 — odbiór dydaktyczny lekcji 09–13](raporty/etap-4x1-lekcje-09-13-2026-10-25.md)
 - [Etap 4x1 — końcowa kontrola egzaminu i pakietu recenzyjnego](raporty/etap-4x1-kontrola-egzaminu-i-pakietu-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 01–04](raporty/etap-4x2-redakcja-lekcji-01-04-2026-10-25.md)
+- [Etap 4x2 — redakcja podręcznikowa lekcji 05–08](raporty/etap-4x2-redakcja-lekcji-05-08-2026-10-25.md)
+- Materiały dla instruktora: [B-05](instruktor/ADR-B-05.md), [B-06](instruktor/ADR-B-06.md), [B-07](instruktor/ADR-B-07.md), [B-08](instruktor/ADR-B-08.md).
 - Materiały dla instruktora: [B-01](instruktor/ADR-B-01.md), [B-02](instruktor/ADR-B-02.md), [B-03](instruktor/ADR-B-03.md), [B-04](instruktor/ADR-B-04.md).
 - [Kompetencje i cele](kompetencje.json)
 - [Analiza luk i matryca pokrycia](../docs/POKRYCIE-KURSU.md)
@@ -66,7 +68,7 @@ Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **86/60
 ## Status weryfikacji
 
 - Bank: 609 `needs_review`, 0 `verified`.
-- Lekcje: etap 4x1 — odbiór dydaktyczny 13/13; etap 4x2 — ujednolicono redakcyjnie B-01–B-04, kolejne partie w toku. Wszystkie nadal wymagają niezależnej recenzji prawnej i formalnego odbioru instruktorskiego.
+- Lekcje: etap 4x1 — odbiór dydaktyczny 13/13; etap 4x2 — ujednolicono redakcyjnie B-01–B-08. Pozostałe partie w toku. Wszystkie nadal wymagają niezależnej recenzji prawnej i formalnego odbioru instruktorskiego.
 - Praktyka: 3 scenariusze do przeprowadzenia i udokumentowania przez instruktora; repozytorium nie poświadcza, że ćwiczenia odbyły się.
 - Prawo: pełne porównanie każdego punktu z polskim tekstem urzędowym i sprostowaniem oraz niezależna recenzja specjalisty pozostają otwarte.
 
