@@ -59,12 +59,12 @@
       "exact_record_snapshot": {
         "stem": "W pojeździe przewożono 250 jednostek kategorii transportowej 2 i 300 kategorii 3. Czy obliczony wynik przekracza próg 1000?",
         "options": {
-          "A": "Nie: suma wynosi 550, a zatem nie przekracza progu, jeśli tylko dodamy ilości",
+          "A": "Nie: wynik wynosi 800, jeśli kategorię 2 błędnie pomnożymy przez 2 zamiast przez 3",
           "B": "Tak: 250 razy 3 plus 300 daje 1050, czyli wynik przekracza 1000",
           "C": "Nie: obie kategorie zawsze korzystają osobno z limitu 1000"
         },
         "correct_option": "B",
-        "explanation": "Dla kategorii 2 trzeba zastosować mnożnik 3, a dla kategorii 3 mnożnik 1: 250 × 3 + 300 daje 1050. Sama suma 550 jest zaniżona, a oddzielne stosowanie limitów ignoruje zasadę dla ładunku mieszanego. Próg 1000 został przekroczony, więc wyłączenie z tego przepisu nie działa dla takiego zestawu ilości. Podstawa: ADR 1.1.3.6.4.",
+        "explanation": "Kategoria 2 ma mnożnik 3, a kategoria 3 — mnożnik 1, więc 250 × 3 + 300 = 1050 i próg 1000 zostaje przekroczony. Wynik 800 powstałby przez błędne użycie mnożnika 2, a samo dodanie ilości albo oddzielne limity dla kategorii pomijają regułę ładunku mieszanego. Przed zastosowaniem wyłączenia sprawdź również pozostałe warunki dla przewożonych towarów. Podstawa: ADR 1.1.3.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
