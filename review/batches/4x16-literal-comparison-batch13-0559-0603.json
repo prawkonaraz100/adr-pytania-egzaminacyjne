@@ -1,0 +1,1468 @@
+{
+  "stage": "4x16",
+  "batch": "part-13",
+  "date": "2026-10-25",
+  "base_commit": "d85902c193edf2abd89e6daeab87af0a9a302a33",
+  "comparison_count": 45,
+  "scope": {
+    "new_questions": "ADR-B-0559–ADR-B-0603",
+    "ids": [
+      "ADR-B-0559",
+      "ADR-B-0560",
+      "ADR-B-0561",
+      "ADR-B-0562",
+      "ADR-B-0563",
+      "ADR-B-0564",
+      "ADR-B-0565",
+      "ADR-B-0566",
+      "ADR-B-0567",
+      "ADR-B-0568",
+      "ADR-B-0569",
+      "ADR-B-0570",
+      "ADR-B-0571",
+      "ADR-B-0572",
+      "ADR-B-0573",
+      "ADR-B-0574",
+      "ADR-B-0575",
+      "ADR-B-0576",
+      "ADR-B-0577",
+      "ADR-B-0578",
+      "ADR-B-0579",
+      "ADR-B-0580",
+      "ADR-B-0581",
+      "ADR-B-0582",
+      "ADR-B-0583",
+      "ADR-B-0584",
+      "ADR-B-0585",
+      "ADR-B-0586",
+      "ADR-B-0587",
+      "ADR-B-0588",
+      "ADR-B-0589",
+      "ADR-B-0590",
+      "ADR-B-0591",
+      "ADR-B-0592",
+      "ADR-B-0593",
+      "ADR-B-0594",
+      "ADR-B-0595",
+      "ADR-B-0596",
+      "ADR-B-0597",
+      "ADR-B-0598",
+      "ADR-B-0599",
+      "ADR-B-0600",
+      "ADR-B-0601",
+      "ADR-B-0602",
+      "ADR-B-0603"
+    ]
+  },
+  "method": "Literal editorial comparison of the question stem, each A/B/C option, keyed answer and learner explanation against the cited ADR 2025 clauses. Legal publication: Dz.U. 2025 poz. 642; corrigendum Dz.U. 2025 poz. 1575. Ministry-hosted Polish text was used as a reading aid. This is not formal specialist approval.",
+  "legal_publication": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "polish_text_tom_i": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+  "polish_text_tom_ii": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+  "erratum": "https://eli.gov.pl/api/acts/DU/2025/1575/text.pdf",
+  "summary": {
+    "reviewed": 45,
+    "consistent_in_scope": 45,
+    "confirmed_corrections": 0,
+    "unable_to_confirm": 0,
+    "question_changes": 0,
+    "status_changes": 0,
+    "formal_specialist_approvals": 0
+  },
+  "records": [
+    {
+      "id": "ADR-B-0559",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.3.1.1; 3.2.1 tabela A",
+      "stem": "Załadowca proponuje przewóz luzem, ponieważ pozwoli to zaoszczędzić czas, ale wpis ADR dla towaru nie przewiduje takiego sposobu przewozu. Czy można przyjąć tę propozycję?",
+      "options": {
+        "A": "Tak, jeśli przewoźnik wyrazi zgodę na piśmie i przyjmie odpowiedzialność za wybrany sposób przewozu",
+        "B": "Tak, jeśli ładunek jest niewielki i obie strony uznają ryzyko za akceptowalne",
+        "C": "Nie; wygoda i zgoda stron nie zastępują dopuszczenia przewozu luzem w ADR"
+      },
+      "correct_option": "C",
+      "explanation": "Sposób przewozu musi być dopuszczony przez ADR dla danego towaru i spełniać wszystkie właściwe warunki. Zgoda stron, mała ilość ani oszczędność czasu nie mogą zastąpić wymagań klasyfikacyjnych i technicznych. Jeśli przewóz luzem nie jest dopuszczony, trzeba użyć innego zgodnego sposobu przewozu. Podstawa: ADR 7.3.1.1 i tabela A w 3.2.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 7.3.1.1; 3.2.1 tabela A. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 7.3.1.1; 3.2.1 tabela A."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 7.3.1.1; 3.2.1 tabela A."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Sposób przewozu musi być dopuszczony przez ADR dla danego towaru i spełniać wszystkie właściwe warunki. Zgoda stron, mała ilość ani oszczędność czasu nie mogą zastąpić wymagań klasyfikacyjnych i technicznych. Jeśli przewóz luzem nie jest do"
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0560",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.1.2",
+      "stem": "Przed załadunkiem pojazdu ADR kontrolujący stwierdza, że wyposażenie lub stan pojazdu nie pozwalają bezpiecznie wykonać przewozu. Co jest właściwym postępowaniem?",
+      "options": {
+        "A": "Rozpocząć załadunek, a usterkę odnotować po dostawie i przekazać informację do działu technicznego",
+        "B": "Wstrzymać załadunek do czasu usunięcia niezgodności i potwierdzenia, że przewóz może być bezpieczny",
+        "C": "Załadować tylko część towaru bez sprawdzenia, czy problem nadal występuje i czy pojazd jest bezpieczny"
+      },
+      "correct_option": "B",
+      "explanation": "Jeżeli stan pojazdu lub jego wyposażenia może zagrażać bezpieczeństwu, nie należy rozpoczynać załadunku i przewozu, dopóki niezgodność nie zostanie usunięta. Zapisanie usterki po dostawie ani zmniejszenie ilości bez ponownej oceny nie rozwiązuje problemu. Najpierw trzeba zapewnić zgodność i bezpieczeństwo, a dopiero potem kontynuować czynności. Podstawa: ADR 7.5.1.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 7.5.1.2. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 7.5.1.2."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Jeżeli stan pojazdu lub jego wyposażenia może zagrażać bezpieczeństwu, nie należy rozpoczynać załadunku i przewozu, dopóki niezgodność nie zostanie usunięta. Zapisanie usterki po dostawie ani zmniejszenie ilości bez ponownej oceny nie rozwi"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 7.5.1.2."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0561",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.1.1.4",
+      "stem": "Kontener z towarem ADR wymaga nalepek dużego formatu. Gdzie co do zasady należy je umieścić?",
+      "options": {
+        "A": "Umieścić je na obu bokach i obu końcach kontenera",
+        "B": "Umieścić nalepki na drzwiach kontenera oraz przy zamkach, by kontrolujący mógł je odczytać",
+        "C": "Umieścić je na dachu i nad drzwiczkami"
+      },
+      "correct_option": "A",
+      "explanation": "Wymagane nalepki dużego formatu na kontenerze umieszcza się w miejscach przewidzianych przez ADR, co do zasady na obu bokach i na obu końcach. Jedna nalepka na drzwiach albo oznakowanie wyłącznie na dachu nie zapewnia wymaganego oznaczenia z różnych stron. Drzwi i dach nie zastępują oznaczeń umieszczonych na wymaganych ścianach kontenera. Podstawa: ADR 5.3.1.1.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.3.1.1.4. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Wymagane nalepki dużego formatu na kontenerze umieszcza się w miejscach przewidzianych przez ADR, co do zasady na obu bokach i na obu końcach. Jedna nalepka na drzwiach albo oznakowanie wyłącznie na dachu nie zapewnia wymaganego oznaczenia "
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.3.1.1.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.3.1.1.4."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0562",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.1.7",
+      "stem": "Nalepka dużego formatu na kontenerze została uszkodzona tak, że nie można rozpoznać jej symbolu. Co należy zrobić przed dalszym przewozem?",
+      "options": {
+        "A": "Zostawić uszkodzony znak, jeśli numer UN znajduje się w dokumentach przewozowych i można go odczytać",
+        "B": "Wymienić ją na czytelną nalepkę zgodną z ADR",
+        "C": "Dopisać nazwę handlową na uszkodzonej nalepce"
+      },
+      "correct_option": "B",
+      "explanation": "Nalepka dużego formatu musi pozostawać czytelna i pozwalać rozpoznać zagrożenie. Sam numer UN (identyfikator towaru niebezpiecznego) w dokumentach ani znajomość towaru przez kierowcę nie zastępują oznakowania zewnętrznego. Dopisanie nazwy handlowej nie odtwarza wymaganego wzoru, więc przed dalszym przewozem trzeba usunąć niezgodność. Dokument z numerem UN i odręczna nazwa nie naprawią uszkodzonej nalepki. Podstawa: ADR 5.3.1.7.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.3.1.7. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.3.1.7."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Nalepka dużego formatu musi pozostawać czytelna i pozwalać rozpoznać zagrożenie. Sam numer UN (identyfikator towaru niebezpiecznego) w dokumentach ani znajomość towaru przez kierowcę nie zastępują oznakowania zewnętrznego. Dopisanie nazwy h"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.3.1.7."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0563",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.1.1.5",
+      "stem": "Kontener został rozładowany, ale nie został oczyszczony z niebezpiecznych pozostałości. Czy można usunąć jego nalepki dużego formatu?",
+      "options": {
+        "A": "Po podpisaniu odbioru",
+        "B": "Po ocenie kierowcy, że pozostałe resztki nie zagrażają otoczeniu",
+        "C": "Nie; zachować oznakowanie do spełnienia warunków ADR"
+      },
+      "correct_option": "C",
+      "explanation": "Po rozładunku w kontenerze mogą nadal pozostać niebezpieczne resztki, dlatego samo potwierdzenie odbioru nie wystarcza do usunięcia nalepek. Kierowca nie powinien opierać się wyłącznie na własnej ocenie; oznakowanie usuwa się dopiero po spełnieniu warunków ADR. W razie wątpliwości trzeba ustalić, czy wymagane czyszczenie lub inne warunki usunięcia oznakowania zostały spełnione. Podstawa: ADR 5.3.1.1.5.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.3.1.1.5. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.3.1.1.5."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.3.1.1.5."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Po rozładunku w kontenerze mogą nadal pozostać niebezpieczne resztki, dlatego samo potwierdzenie odbioru nie wystarcza do usunięcia nalepek. Kierowca nie powinien opierać się wyłącznie na własnej ocenie; oznakowanie usuwa się dopiero po spe"
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0564",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.1.1; 5.3.1.7",
+      "stem": "Kontener przewozi towar, dla którego wymagane są nalepki dużego formatu. Na jednym boku umieszczono nalepkę innej klasy, niezgodną z ładunkiem. Co należy zrobić?",
+      "options": {
+        "A": "Pozostawić dodatkową nalepkę jako informację o poprzednim ładunku",
+        "B": "Zakryć błędną kartką",
+        "C": "Usunąć błędną nalepkę i sprawdzić całe oznakowanie"
+      },
+      "correct_option": "C",
+      "explanation": "Oznakowanie nie może wprowadzać w błąd co do zagrożeń przewożonego ładunku. Nalepka innej klasy może spowodować, że ratownicy lub inni uczestnicy błędnie ocenią sytuację. Trzeba usunąć nieprawidłowe oznaczenie i zweryfikować komplet nalepek wymaganych dla danego przewozu; przypadkowe zakrycie kartką nie jest prawidłowym rozwiązaniem. Pozostawienie starej nalepki i przypadkowe zakrycie błędnej może mylić służby. Podstawa: ADR 5.3.1.1 i 5.3.1.7.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.3.1.1; 5.3.1.7. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.3.1.1; 5.3.1.7."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.3.1.1; 5.3.1.7."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Oznakowanie nie może wprowadzać w błąd co do zagrożeń przewożonego ładunku. Nalepka innej klasy może spowodować, że ratownicy lub inni uczestnicy błędnie ocenią sytuację. Trzeba usunąć nieprawidłowe oznaczenie i zweryfikować komplet nalepek"
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0565",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.1.7",
+      "stem": "Pojazd ma pomarańczowe tablice wymagane dla przewozu. Po zakończeniu przewozu niebezpieczny towar usunięto, ale zbiornik nie został oczyszczony ani odgazowany. Jak postąpić z tablicami?",
+      "options": {
+        "A": "Nie zdejmować tablic przed spełnieniem warunków ADR",
+        "B": "Zawsze zdjąć tablice natychmiast po opróżnieniu, niezależnie od pozostałości",
+        "C": "Zostawić tylko dolny numer UN, a górny numer zagrożenia zamalować"
+      },
+      "correct_option": "A",
+      "explanation": "Samo opróżnienie zbiornika nie oznacza, że przestał on stwarzać zagrożenie. Jeśli nie został odpowiednio oczyszczony ani odgazowany, oznakowanie może nadal być wymagane. Nie zdejmuj tablic ani nie zamalowuj numerów; kierowca powinien najpierw potwierdzić stan zbiornika i właściwe warunki usunięcia oznakowania. Podstawa: ADR 5.3.2.1.7.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.3.2.1.7. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Samo opróżnienie zbiornika nie oznacza, że przestał on stwarzać zagrożenie. Jeśli nie został odpowiednio oczyszczony ani odgazowany, oznakowanie może nadal być wymagane. Nie zdejmuj tablic ani nie zamalowuj numerów; kierowca powinien najpie"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.3.2.1.7."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.3.2.1.7."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0566",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 9.1.3.1; 8.1.2.2",
+      "stem": "Pojazd należy do rodzaju, dla którego wymagane jest świadectwo dopuszczenia ADR. Jakie znaczenie ma ważność tego świadectwa?",
+      "options": {
+        "A": "To tylko dokument archiwalny; wystarczy, że pojazd kiedyś przeszedł badanie",
+        "B": "Świadectwo musi być ważne i dostępne podczas przewozu",
+        "C": "Można je zastąpić zdjęciem dowodu rejestracyjnego, nawet jeśli świadectwo wygasło"
+      },
+      "correct_option": "B",
+      "explanation": "Jeżeli ADR wymaga dla danego pojazdu świadectwa dopuszczenia, musi ono być ważne i dostępne zgodnie z przepisami. Dawne badanie nie potwierdza aktualnego dopuszczenia, a zdjęcie dowodu rejestracyjnego nie zastępuje świadectwa. Przed wyjazdem należy sprawdzić dokument i upewnić się, że obejmuje właściwy pojazd. Podstawa: ADR 9.1.3.1 i 8.1.2.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 9.1.3.1; 8.1.2.2. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 9.1.3.1; 8.1.2.2."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Jeżeli ADR wymaga dla danego pojazdu świadectwa dopuszczenia, musi ono być ważne i dostępne zgodnie z przepisami. Dawne badanie nie potwierdza aktualnego dopuszczenia, a zdjęcie dowodu rejestracyjnego nie zastępuje świadectwa. Przed wyjazde"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 9.1.3.1; 8.1.2.2."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0567",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 415; ADR 8.2.2.3.2(k)",
+      "stem": "Kierowca podczas manewru na placu przez własną nieuwagę uszkodził zaparkowany samochód. Co ogólnie może wynikać z odpowiedzialności cywilnej?",
+      "options": {
+        "A": "Może powstać obowiązek naprawienia szkody, jeśli spełniono przesłanki odpowiedzialności.",
+        "B": "Zawsze odpowiada wyłącznie właściciel pojazdu, nawet gdy kierowca wyrządził szkodę z własnej winy.",
+        "C": "Mandat drogowy automatycznie zastępuje wszelkie roszczenia cywilne o naprawienie szkody."
+      },
+      "correct_option": "A",
+      "explanation": "Odpowiedzialność cywilna może oznaczać obowiązek naprawienia szkody, gdy ktoś ze swojej winy wyrządzi ją drugiej osobie. Nie oznacza to, że każda kolizja automatycznie przesądza o winie kierowcy; trzeba ustalić okoliczności i podstawę odpowiedzialności. Sam mandat nie zastępuje ewentualnego roszczenia o szkodę. Podstawa: ADR 8.2.2.3.2(k); Kodeks cywilny, art. 415.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 415; ADR 8.2.2.3.2(k). Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Odpowiedzialność cywilna może oznaczać obowiązek naprawienia szkody, gdy ktoś ze swojej winy wyrządzi ją drugiej osobie. Nie oznacza to, że każda kolizja automatycznie przesądza o winie kierowcy; trzeba ustalić okoliczności i podstawę odpow"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 415; ADR 8.2.2.3.2(k)."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 415; ADR 8.2.2.3.2(k)."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0568",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 471; ADR 8.2.2.3.2(k)",
+      "stem": "Przewoźnik nie wykonał prawidłowo umowy dostawy, a kontrahent wskazuje, że poniósł z tego powodu szkodę. Jaka zasada ma ogólnie znaczenie?",
+      "options": {
+        "A": "Odszkodowanie przysługuje zawsze, nawet gdy niewykonanie wynikało z okoliczności, za które dłużnik nie odpowiada.",
+        "B": "Może powstać obowiązek naprawienia szkody wynikłej z niewykonania lub nienależytego wykonania zobowiązania.",
+        "C": "Odpowiedzialność umowna dotyczy wyłącznie przewoźnika, który nie ma ważnego zaświadczenia ADR."
+      },
+      "correct_option": "B",
+      "explanation": "Jeśli umowa nie została wykonana prawidłowo, może powstać obowiązek naprawienia szkody, ale znaczenie mają też ustawowe warunki i przyczyna problemu. Odszkodowanie nie jest automatyczne w każdej sytuacji, a brak zaświadczenia ADR nie jest jedyną możliwą podstawą odpowiedzialności. Podstawa: ADR 8.2.2.3.2(k); Kodeks cywilny, art. 471.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 471; ADR 8.2.2.3.2(k). Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 471; ADR 8.2.2.3.2(k)."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Jeśli umowa nie została wykonana prawidłowo, może powstać obowiązek naprawienia szkody, ale znaczenie mają też ustawowe warunki i przyczyna problemu. Odszkodowanie nie jest automatyczne w każdej sytuacji, a brak zaświadczenia ADR nie jest j"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 471; ADR 8.2.2.3.2(k)."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0569",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 415 i 471; ADR 8.2.2.3.2(k)",
+      "stem": "Po naruszeniu wymogu ADR firma pyta, czy kierowca musi automatycznie osobiście zapłacić każdą szkodę związaną ze zdarzeniem. Która odpowiedź jest najtrafniejsza?",
+      "options": {
+        "A": "Odpowiedzialność cywilna nigdy nie dotyczy przewozu towarów niebezpiecznych.",
+        "B": "Każde naruszenie ADR automatycznie oznacza, że kierowca osobiście zapłaci pełną wartość szkody, bez badania okoliczności.",
+        "C": "Odpowiedzialność trzeba ocenić na podstawie właściwych przepisów i okoliczności zdarzenia."
+      },
+      "correct_option": "C",
+      "explanation": "Samo stwierdzenie naruszenia ADR nie rozstrzyga automatycznie, kto i w jakim zakresie odpowiada cywilnie za szkodę. Trzeba ustalić, jaka zasada ma zastosowanie, co spowodowało szkodę i kto ponosi odpowiedzialność. Nie można też zakładać, że przewóz ADR jest całkowicie wyłączony spod odpowiedzialności cywilnej. Podstawa: ADR 8.2.2.3.2(k); Kodeks cywilny, art. 415 i 471.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 415 i 471; ADR 8.2.2.3.2(k). Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 415 i 471; ADR 8.2.2.3.2(k)."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 415 i 471; ADR 8.2.2.3.2(k)."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Samo stwierdzenie naruszenia ADR nie rozstrzyga automatycznie, kto i w jakim zakresie odpowiada cywilnie za szkodę. Trzeba ustalić, jaka zasada ma zastosowanie, co spowodowało szkodę i kto ponosi odpowiedzialność. Nie można też zakładać, że"
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0570",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "stem": "Kierowca ma 100 jednostek kategorii transportowej 2 i 600 kategorii 3 w sztukach przesyłek. Ile wynosi wynik ADR 1.1.3.6.4?",
+      "options": {
+        "A": "900: kategorię 2 mnoży się przez 3, a kategorię 3 dodaje",
+        "B": "700: dodaj ilości bez mnożników",
+        "C": "1200: obie kategorie trzeba przemnożyć przez 2 niezależnie od ilości"
+      },
+      "correct_option": "A",
+      "explanation": "W przewozie mieszanym 100 jednostek kategorii 2 liczy się potrójnie, a 600 jednostek kategorii 3 dodaje bez mnożnika, więc wynik to 900. Zwykłe dodawanie pomija mnożnik kategorii 2, a podwojenie wszystkiego nie wynika z tabeli. Wynik nie przekracza progu 1000, lecz pozostałe warunki wyłączenia również trzeba sprawdzić. Podstawa: ADR 1.1.3.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 1.1.3.6.4. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: W przewozie mieszanym 100 jednostek kategorii 2 liczy się potrójnie, a 600 jednostek kategorii 3 dodaje bez mnożnika, więc wynik to 900. Zwykłe dodawanie pomija mnożnik kategorii 2, a podwojenie wszystkiego nie wynika z tabeli. Wynik nie pr"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.1.3.6.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.1.3.6.4."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0571",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "stem": "W pojeździe przewożono 250 jednostek kategorii transportowej 2 i 300 kategorii 3. Czy obliczony wynik przekracza próg 1000?",
+      "options": {
+        "A": "Nie: wynik wynosi 800, jeśli kategorię 2 błędnie pomnożymy przez 2 zamiast przez 3",
+        "B": "Tak: 250 razy 3 plus 300 daje 1050, czyli wynik przekracza 1000",
+        "C": "Nie: obie kategorie zawsze korzystają osobno z limitu 1000"
+      },
+      "correct_option": "B",
+      "explanation": "Kategoria 2 ma mnożnik 3, a kategoria 3 — mnożnik 1, więc 250 × 3 + 300 = 1050 i próg 1000 zostaje przekroczony. Wynik 800 powstałby przez błędne użycie mnożnika 2, a samo dodanie ilości albo oddzielne limity dla kategorii pomijają regułę ładunku mieszanego. Przed zastosowaniem wyłączenia sprawdź również pozostałe warunki dla przewożonych towarów. Podstawa: ADR 1.1.3.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 1.1.3.6.4. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.1.3.6.4."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Kategoria 2 ma mnożnik 3, a kategoria 3 — mnożnik 1, więc 250 × 3 + 300 = 1050 i próg 1000 zostaje przekroczony. Wynik 800 powstałby przez błędne użycie mnożnika 2, a samo dodanie ilości albo oddzielne limity dla kategorii pomijają regułę ł"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.1.3.6.4."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0572",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 3.5.1–3.5.6",
+      "stem": "Magazyn przygotował 990 sztuk przesyłek EQ w jednym pojeździe. Co jeszcze należy ocenić oprócz liczby sztuk?",
+      "options": {
+        "A": "Tylko jednakową masę wszystkich sztuk, ponieważ ograniczenie dotyczy masy",
+        "B": "Tablice przy każdej sztuce EQ",
+        "C": "Wymagane warunki pakowania, oznakowania oraz dokumentacji EQ"
+      },
+      "correct_option": "C",
+      "explanation": "Liczba 990 nie przekracza granicy 1000 sztuk EQ (ilości wyłączone) w pojeździe lub kontenerze, ale to nie wystarcza do uznania przewozu za zgodny. Jednakowa masa nie zastępuje wymaganego pakowania, a tablica dla każdej sztuki nie jest zasadą EQ. Kierowca powinien sprawdzić także pozostałe warunki, zanim uzna wyłączenie za właściwe. Podstawa: ADR 3.5.1–3.5.6.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 3.5.1–3.5.6. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 3.5.1–3.5.6."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 3.5.1–3.5.6."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Liczba 990 nie przekracza granicy 1000 sztuk EQ (ilości wyłączone) w pojeździe lub kontenerze, ale to nie wystarcza do uznania przewozu za zgodny. Jednakowa masa nie zastępuje wymaganego pakowania, a tablica dla każdej sztuki nie jest zasad"
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0573",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 3.5.6",
+      "stem": "Dokumenty przesyłek w ilościach wyłączonych EQ nie podają liczby sztuk przesyłek. Co należy zrobić przed rozpoczęciem przewozu?",
+      "options": {
+        "A": "Uzupełnić wymagany wpis o ilościach EQ i liczbie sztuk przesyłek",
+        "B": "Wystarczy podpis i nazwa przewoźnika",
+        "C": "Pominąć wpis, jeżeli wszystkie opakowania są małe i mieszczą się na palecie"
+      },
+      "correct_option": "A",
+      "explanation": "Co najmniej jeden dokument towarzyszący przewozowi EQ musi wskazywać, że chodzi o ilości wyłączone, oraz podawać liczbę sztuk przesyłek. Sam podpis nadawcy ani niewielka wielkość opakowań nie zastępują takiej informacji. Kierowca powinien wyjaśnić brak przed rozpoczęciem przewozu. Podstawa: ADR 3.5.6.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 3.5.6. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Co najmniej jeden dokument towarzyszący przewozowi EQ musi wskazywać, że chodzi o ilości wyłączone, oraz podawać liczbę sztuk przesyłek. Sam podpis nadawcy ani niewielka wielkość opakowań nie zastępują takiej informacji. Kierowca powinien w"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 3.5.6."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 3.5.6."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0574",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.3.2",
+      "stem": "Jedna jednostka transportowa przewozi towary o kodach tunelowych D i E. Jak należy ustalić kod ograniczenia dla całego ładunku?",
+      "options": {
+        "A": "Przyjąć kod towaru o większej masie, ponieważ większa ilość ma pierwszeństwo",
+        "B": "Zastosować bardziej restrykcyjny z przypisanych kodów tunelowych",
+        "C": "Wybrać zawsze kod E, niezależnie od tego, czy drugi kod jest surowszy"
+      },
+      "correct_option": "B",
+      "explanation": "Gdy jedna jednostka wiezie towary z różnymi kodami tunelowymi, dla całego ładunku stosuje się bardziej restrykcyjny z nich. Masa poszczególnych towarów nie jest zasadą wyboru kodu, a automatyczny wybór E może przeoczyć surowsze ograniczenie. Kierowca planuje trasę według wyniku dla całej jednostki. Podstawa: ADR 8.6.3.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.6.3.2. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.6.3.2."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Gdy jedna jednostka wiezie towary z różnymi kodami tunelowymi, dla całego ładunku stosuje się bardziej restrykcyjny z nich. Masa poszczególnych towarów nie jest zasadą wyboru kodu, a automatyczny wybór E może przeoczyć surowsze ograniczenie"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.6.3.2."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0575",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 3.2.1 kolumna 15; 8.6.3.1",
+      "stem": "Gdzie znaleźć przypisany towarowi ADR kod ograniczenia przewozu przez tunele?",
+      "options": {
+        "A": "W numerze rejestracyjnym pojazdu używanego do konkretnego przewozu",
+        "B": "W kodzie pocztowym odbiorcy wskazanym w dokumentach handlowych",
+        "C": "W kolumnie 15 tabeli A przy odpowiednim numerze UN towaru"
+      },
+      "correct_option": "C",
+      "explanation": "Kod ograniczeń tunelowych znajduje się przy danym towarze w kolumnie 15 tabeli A ADR. Rejestracja pojazdu ani kod pocztowy odbiorcy nie określają tego kodu. Następnie trzeba sprawdzić przepisy dotyczące tuneli i sposób przewozu, bo od nich zależy rzeczywisty zakaz przejazdu. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 3.2.1 kolumna 15; 8.6.3.1. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 3.2.1 kolumna 15; 8.6.3.1."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 3.2.1 kolumna 15; 8.6.3.1."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Kod ograniczeń tunelowych znajduje się przy danym towarze w kolumnie 15 tabeli A ADR. Rejestracja pojazdu ani kod pocztowy odbiorcy nie określają tego kodu. Następnie trzeba sprawdzić przepisy dotyczące tuneli i sposób przewozu, bo od nich "
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0576",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.4",
+      "stem": "Towar z kodem D/E jedzie w sztukach przesyłek. Których tuneli nie wolno użyć ze względu na ten kod?",
+      "options": {
+        "A": "Tuneli kategorii E, ponieważ towar jedzie w sztukach przesyłek",
+        "B": "Tuneli kategorii D i E, jak dla tego kodu w przewozie luzem",
+        "C": "Wszystkich tuneli od kategorii B do E bez względu na rodzaj przewozu"
+      },
+      "correct_option": "A",
+      "explanation": "Kod D/E czyta się inaczej zależnie od sposobu przewozu: przy sztukach przesyłek zakaz wynikający z tego kodu dotyczy tuneli kategorii E. Odpowiedź o D i E odnosi się do innej postaci przewozu, a zakaz kategorii B–E byłby za szeroki. Kierowca powinien sprawdzić postać ładunku przed wyborem trasy. Podstawa: ADR 8.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.6.4. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Kod D/E czyta się inaczej zależnie od sposobu przewozu: przy sztukach przesyłek zakaz wynikający z tego kodu dotyczy tuneli kategorii E. Odpowiedź o D i E odnosi się do innej postaci przewozu, a zakaz kategorii B–E byłby za szeroki. Kierowc"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.6.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.6.4."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0577",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1(a)",
+      "stem": "W dokumencie ADR podano czterocyfrowy identyfikator towaru, lecz nie dopisano liter UN. Jak należy poprawić wpis?",
+      "options": {
+        "A": "Dodać liczbę pojazdów na końcu identyfikatora zamiast liter UN",
+        "B": "Umieścić litery UN przed czterocyfrowym numerem towaru",
+        "C": "Zastąpić go kodem magazynowym używanym wyłącznie przez nadawcę"
+      },
+      "correct_option": "B",
+      "explanation": "Numer identyfikacyjny towaru niebezpiecznego w dokumencie podaje się z oznaczeniem UN przed czterema cyframi. Liczba pojazdów ani kod magazynowy nie zastępują tego identyfikatora. Przy kontroli dokumentu trzeba też sprawdzić dalsze wymagane elementy opisu, a nie tylko sam numer. Podstawa: ADR 5.4.1.1.1(a).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.1.1.1(a). Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(a)."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Numer identyfikacyjny towaru niebezpiecznego w dokumencie podaje się z oznaczeniem UN przed czterema cyframi. Liczba pojazdów ani kod magazynowy nie zastępują tego identyfikatora. Przy kontroli dokumentu trzeba też sprawdzić dalsze wymagane"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(a)."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0578",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1(e)",
+      "stem": "W dokumencie podano numer UN i klasę, ale brakuje wymaganej liczby oraz rodzaju sztuk przesyłek. Co należy zrobić?",
+      "options": {
+        "A": "Pominąć te dane, ponieważ numer UN zawiera już pełny opis opakowania",
+        "B": "Wpisać wyłącznie rejestrację pojazdu zamiast danych o sztukach przesyłek",
+        "C": "Uzupełnić wymaganą liczbę i opis rodzaju sztuk przesyłek"
+      },
+      "correct_option": "C",
+      "explanation": "Dokument przewozowy ma informować nie tylko o rodzaju towaru, lecz także o liczbie i rodzaju sztuk przesyłek, gdy wymagają tego przepisy. Sam numer UN (identyfikator towaru niebezpiecznego) nie mówi, ile przesyłek załadowano, a rejestracja pojazdu nie zastępuje tych danych. Przed przewozem trzeba uzupełnić brakujące informacje. Podstawa: ADR 5.4.1.1.1(e).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.1.1.1(e). Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(e)."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(e)."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Dokument przewozowy ma informować nie tylko o rodzaju towaru, lecz także o liczbie i rodzaju sztuk przesyłek, gdy wymagają tego przepisy. Sam numer UN (identyfikator towaru niebezpiecznego) nie mówi, ile przesyłek załadowano, a rejestracja "
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0579",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1(h)",
+      "stem": "Dokument ADR nie zawiera adresu odbiorcy, choć nie zachodzi żaden przewidziany wyjątek. Co zrobić przed wyjazdem?",
+      "options": {
+        "A": "Wyjaśnić brak i uzyskać wymagany adres oraz dane odbiorcy",
+        "B": "Wpisać numer telefonu kierowcy w miejsce adresu odbiorcy, aby możliwy był kontakt",
+        "C": "Pozostawić pole puste, jeżeli numer UN i klasa towaru są prawidłowe"
+      },
+      "correct_option": "A",
+      "explanation": "Dokument przewozowy co do zasady wymaga nazwy i adresu odbiorcy; jeżeli wyjątek nie ma zastosowania, te informacje trzeba uzupełnić. Telefon kierowcy nie identyfikuje odbiorcy, a numer UN (identyfikator towaru niebezpiecznego) i klasa opisują towar, nie miejsce jego dostarczenia. Kierowca powinien wyjaśnić brak jeszcze przed rozpoczęciem trasy. Podstawa: ADR 5.4.1.1.1(h).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.1.1.1(h). Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Dokument przewozowy co do zasady wymaga nazwy i adresu odbiorcy; jeżeli wyjątek nie ma zastosowania, te informacje trzeba uzupełnić. Telefon kierowcy nie identyfikuje odbiorcy, a numer UN (identyfikator towaru niebezpiecznego) i klasa opisu"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(h)."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(h)."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0580",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 8.4; 8.5",
+      "stem": "Przy danym przewozie mają zastosowanie wymagania ADR dotyczące nadzoru i postoju. Kierowca planuje przerwę. Co powinien zrobić?",
+      "options": {
+        "A": "Zatrzymać się na pierwszym wolnym poboczu, bo krótka przerwa wyłącza wymogi postoju",
+        "B": "Wybrać miejsce spełniające właściwe wymagania nadzoru lub zabezpieczenia postoju",
+        "C": "Zostawić pojazd na dowolnym parkingu, jeśli dokumenty ładunku są w kabinie"
+      },
+      "correct_option": "B",
+      "explanation": "Jeżeli dany przewóz podlega wymaganiom ADR dotyczącym postoju, kierowca musi uwzględnić je także podczas planowania przerwy. Krótki postój ani dokumenty schowane w kabinie nie zastępują wymaganego nadzoru lub zabezpieczenia miejsca. Zastosowanie zależy od warunków przewozu i właściwych przepisów. Podstawa: ADR 8.4 i 8.5.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.4; 8.5. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.4; 8.5."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Jeżeli dany przewóz podlega wymaganiom ADR dotyczącym postoju, kierowca musi uwzględnić je także podczas planowania przerwy. Krótki postój ani dokumenty schowane w kabinie nie zastępują wymaganego nadzoru lub zabezpieczenia miejsca. Zastoso"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.4; 8.5."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0581",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 8.4; 8.5",
+      "stem": "Dyspozytor proponuje pozostawienie pojazdu bez nadzoru na zwykłym parkingu, mimo że dla tego przewozu stosuje się ADR 8.4. Jak postąpić?",
+      "options": {
+        "A": "Uzgodnić postój zgodny z wymaganiami ADR, a w razie braku odpowiedniego miejsca wyjaśnić bezpieczną alternatywę",
+        "B": "Zastosować polecenie dyspozytora, ponieważ firma przejmuje wtedy całą odpowiedzialność",
+        "C": "Zostawić pojazd bez zabezpieczenia, jeśli kierowca wróci przed końcem swojej przerwy"
+      },
+      "correct_option": "A",
+      "explanation": "Polecenie dyspozytora nie znosi wymagań dotyczących postoju. Kierowca powinien znaleźć miejsce zgodne z zasadami, które mają zastosowanie do tego przewozu, a jeśli nie jest dostępne, uzgodnić rozwiązanie spełniające przepisy. Sam zamiar szybkiego powrotu nie zastępuje zabezpieczenia. Podstawa: ADR 8.4 i 8.5.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.4; 8.5. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Polecenie dyspozytora nie znosi wymagań dotyczących postoju. Kierowca powinien znaleźć miejsce zgodne z zasadami, które mają zastosowanie do tego przewozu, a jeśli nie jest dostępne, uzgodnić rozwiązanie spełniające przepisy. Sam zamiar szy"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.4; 8.5."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.4; 8.5."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0582",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.2; 1.10.3.3",
+      "stem": "Przewóz towaru dużego ryzyka wymaga uwzględnienia zabezpieczenia podczas postoju. Co powinien obejmować plan ochrony?",
+      "options": {
+        "A": "Wyłącznie dane kontaktowe spedytora i godzinę dostawy, bez zasad postoju",
+        "B": "Środki ochrony ładunku w czasie przewozu, w tym sposób ograniczenia ryzyka podczas postoju",
+        "C": "Jedynie trasę najszybszą do celu, nawet jeśli miejsca postoju nie są bezpieczne ani chronione"
+      },
+      "correct_option": "B",
+      "explanation": "Plan ochrony dla towarów dużego ryzyka powinien uwzględniać realne środki zabezpieczenia przewozu, także wtedy, gdy pojazd stoi. Sam numer telefonu lub najszybsza trasa nie opisują, jak ograniczyć ryzyko kradzieży albo nieuprawnionego dostępu. Konkretne środki zależą od przewozu i planu ochrony. Podstawa: ADR 1.10.3.2 i 1.10.3.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 1.10.3.2; 1.10.3.3. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.10.3.2; 1.10.3.3."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Plan ochrony dla towarów dużego ryzyka powinien uwzględniać realne środki zabezpieczenia przewozu, także wtedy, gdy pojazd stoi. Sam numer telefonu lub najszybsza trasa nie opisują, jak ograniczyć ryzyko kradzieży albo nieuprawnionego dostę"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.10.3.2; 1.10.3.3."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0583",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.2.1",
+      "stem": "Pakujący zauważa przed wysyłką, że opakowanie nie spełnia wymagań dla danego towaru ADR. Co powinien zrobić?",
+      "options": {
+        "A": "Wysłać je, jeśli kierowca zgodzi się zachować większy odstęp od innych pojazdów",
+        "B": "Uzupełnić wymagane opakowanie i oznakowanie przed przekazaniem przesyłki do przewozu",
+        "C": "Pozostawić niezgodność, jeśli dokument przewozowy zawiera poprawny numer UN"
+      },
+      "correct_option": "B",
+      "explanation": "Pakujący odpowiada za spełnienie wymagań, które ADR nakłada na pakowanie i oznakowanie sztuk przesyłek. Ostrożna jazda nie naprawia wadliwego opakowania, a prawidłowy numer UN (identyfikator towaru niebezpiecznego) w dokumencie nie zastępuje oznaczeń na przesyłce. Niezgodność trzeba usunąć przed przekazaniem towaru. Podstawa: ADR 1.4.3.2.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 1.4.3.2.1. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.4.3.2.1."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Pakujący odpowiada za spełnienie wymagań, które ADR nakłada na pakowanie i oznakowanie sztuk przesyłek. Ostrożna jazda nie naprawia wadliwego opakowania, a prawidłowy numer UN (identyfikator towaru niebezpiecznego) w dokumencie nie zastępuj"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.4.3.2.1."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0584",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.1.1; 7.5.1",
+      "stem": "Załadowca widzi uszkodzoną sztukę przesyłki ADR jeszcze przed umieszczeniem jej w pojeździe. Jak powinien postąpić?",
+      "options": {
+        "A": "Załadować ją na końcu, aby łatwiej było ją obserwować podczas jazdy",
+        "B": "Zasłonić uszkodzenie folią i pozostawić bez sprawdzenia, czy opakowanie nadal jest bezpieczne",
+        "C": "Wstrzymać załadunek tej sztuki i wyjaśnić uszkodzenie przed dopuszczeniem jej do przewozu"
+      },
+      "correct_option": "C",
+      "explanation": "Uszkodzona sztuka przesyłki może uwolnić niebezpieczną zawartość podczas jazdy. Umieszczenie jej na końcu lub zakrycie folią nie potwierdza, że opakowanie jest bezpieczne. Załadowca powinien nie dopuścić do załadunku niezgodnej przesyłki, dopóki problem nie zostanie prawidłowo rozwiązany; samo ostrożne obchodzenie się z nią nie wystarczy. Podstawa: ADR 1.4.3.1.1 i 7.5.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 1.4.3.1.1; 7.5.1. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.4.3.1.1; 7.5.1."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.4.3.1.1; 7.5.1."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Uszkodzona sztuka przesyłki może uwolnić niebezpieczną zawartość podczas jazdy. Umieszczenie jej na końcu lub zakrycie folią nie potwierdza, że opakowanie jest bezpieczne. Załadowca powinien nie dopuścić do załadunku niezgodnej przesyłki, d"
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0585",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 8.1.4.5",
+      "stem": "Podczas kontroli przed wyjazdem kierowca zauważa, że gaśnica ADR jest luźno zamocowana i może uderzać o elementy pojazdu. Co powinien zrobić?",
+      "options": {
+        "A": "Zostawić ją luzem, jeśli wskaźnik ciśnienia pokazuje gotowość do użycia i plomba jest cała",
+        "B": "Zamocować ją w odpowiednim uchwycie, aby nie przesuwała się i nie uległa uszkodzeniu",
+        "C": "Wsunąć ją pod ładunek, aby zabezpieczyć przed przesuwaniem w trakcie hamowania"
+      },
+      "correct_option": "B",
+      "explanation": "Gaśnica musi być sprawna, dobrze zamocowana i chroniona przed uszkodzeniem podczas jazdy. Zielony wskaźnik i nienaruszona plomba nie wystarczą, jeśli sprzęt może uderzać o elementy pojazdu; schowanie jej pod ładunkiem również może uniemożliwić użycie. Przed wyjazdem sprawdź uchwyt i dostępność gaśnicy. Podstawa: ADR 8.1.4.5.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.1.4.5. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.1.4.5."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Gaśnica musi być sprawna, dobrze zamocowana i chroniona przed uszkodzeniem podczas jazdy. Zielony wskaźnik i nienaruszona plomba nie wystarczą, jeśli sprzęt może uderzać o elementy pojazdu; schowanie jej pod ładunkiem również może uniemożli"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.1.4.5."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0586",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.3.4",
+      "stem": "Instrukcje pisemne ADR mają ustalony wzór. Firma chce zastąpić je krótką kartką z własnym logo. Co należy zrobić?",
+      "options": {
+        "A": "Zachować pełny, wymagany wzór instrukcji pisemnych ADR",
+        "B": "Użyć skrótu firmowego, jeśli kierowca zapamiętał zasady, bez pełnego wzoru",
+        "C": "Użyć skróconej wersji firmowej, jeśli omawia podstawowe zagrożenia, zamiast wzoru ADR"
+      },
+      "correct_option": "A",
+      "explanation": "Instrukcje pisemne ADR mają ustalony wzór, aby załoga mogła szybko znaleźć działania potrzebne podczas zdarzenia. Skrócona wersja firmowa może pominąć wymagane informacje, nawet jeśli opisuje główne zagrożenia; zapamiętanie zasad nie zastępuje instrukcji, a telefon dyspozytora nie podaje kroków awaryjnych. Przed wyjazdem sprawdź pełny wzór i jego dostępność. Podstawa: ADR 5.4.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.3.4. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Instrukcje pisemne ADR mają ustalony wzór, aby załoga mogła szybko znaleźć działania potrzebne podczas zdarzenia. Skrócona wersja firmowa może pominąć wymagane informacje, nawet jeśli opisuje główne zagrożenia; zapamiętanie zasad nie zastęp"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.4."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0587",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.3.3",
+      "stem": "Instrukcje pisemne są w kabinie, ale kierowca nie przeczytał ich i nie wie, gdzie znaleźć informacje o zagrożeniu ładunku. Co powinno się wydarzyć przed wyjazdem?",
+      "options": {
+        "A": "Wystarczy, że instrukcje są w kabinie; ich treść poznaje się dopiero po wypadku",
+        "B": "Załoga powinna zapoznać się z instrukcjami i ładunkiem przed rozpoczęciem przewozu",
+        "C": "Instrukcje czyta wyłącznie pracownik biura, bo kierowca ma tylko prowadzić pojazd i nie obsługuje dokumentów"
+      },
+      "correct_option": "B",
+      "explanation": "Instrukcje mają pomóc załodze działać w pierwszych chwilach zdarzenia, więc trzeba znać ich treść przed jazdą. Samo schowanie dokumentu w kabinie nie przygotowuje kierowcy, a pracownik biura nie zastępuje zapoznania się członków załogi. Sprawdź też, jakie towary faktycznie załadowano. Podstawa: ADR 5.4.3.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.3.3. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.3."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Instrukcje mają pomóc załodze działać w pierwszych chwilach zdarzenia, więc trzeba znać ich treść przed jazdą. Samo schowanie dokumentu w kabinie nie przygotowuje kierowcy, a pracownik biura nie zastępuje zapoznania się członków załogi. Spr"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.3."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0588",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 8.1.2.1",
+      "stem": "Kierowca przewozi towary niebezpieczne i podczas kontroli ma okazać dokumenty wymagane dla tego przewozu. Gdzie powinny być dostępne?",
+      "options": {
+        "A": "W archiwum przewoźnika, aby firma mogła przesłać dokumenty na żądanie podczas kontroli.",
+        "B": "U odbiorcy, który może potwierdzić dostawę i później przekazać kopię dokumentów.",
+        "C": "Przy załodze w pojeździe, zgodnie z wykazem dokumentów wymaganych dla tego przewozu."
+      },
+      "correct_option": "C",
+      "explanation": "Dokumenty wymagane dla przewozu muszą być dostępne załodze w pojeździe, aby można je było okazać podczas kontroli lub wykorzystać w razie zdarzenia. Archiwum firmy ani dokumenty u odbiorcy nie pomagają, gdy kierowca nie ma ich przy sobie. Sprawdź listę właściwą dla danego przewozu, bo wymagania zależą od sytuacji. Podstawa: ADR 8.1.2.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.1.2.1. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.1.2.1."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.1.2.1."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Dokumenty wymagane dla przewozu muszą być dostępne załodze w pojeździe, aby można je było okazać podczas kontroli lub wykorzystać w razie zdarzenia. Archiwum firmy ani dokumenty u odbiorcy nie pomagają, gdy kierowca nie ma ich przy sobie. S"
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0589",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.3.2",
+      "stem": "Kierowca otrzymał instrukcje pisemne w języku, którego nie rozumie. Co powinien zrobić przed rozpoczęciem przewozu?",
+      "options": {
+        "A": "Poprosić o zrozumiałą wersję instrukcji pisemnych dla całej załogi, zanim pojazd wyruszy w trasę",
+        "B": "Zachować instrukcje bez zmian, bo ich oficjalny wzór wystarcza, nawet gdy kierowca nie rozumie treści",
+        "C": "Polegać na telefonicznym tłumaczeniu dyspozytora podczas zdarzenia, zamiast wcześniej uzyskać zrozumiałą wersję"
+      },
+      "correct_option": "A",
+      "explanation": "Instrukcje mają prowadzić załogę w stresującej sytuacji, dlatego muszą być zrozumiałe dla osób, które z nich korzystają. Sam poprawny wygląd dokumentu nie pomaga, gdy kierowca nie potrafi odczytać poleceń. Obietnica tłumaczenia przez telefon może opóźnić działanie i nie zastępuje właściwej wersji językowej. Podstawa: ADR 5.4.3.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.3.2. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Instrukcje mają prowadzić załogę w stresującej sytuacji, dlatego muszą być zrozumiałe dla osób, które z nich korzystają. Sam poprawny wygląd dokumentu nie pomaga, gdy kierowca nie potrafi odczytać poleceń. Obietnica tłumaczenia przez telefo"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.2."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.2."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0590",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.3.1; 8.1.2.3",
+      "stem": "Instrukcje pisemne ADR znajdują się w kabinie, ale są zamknięte w schowku, do którego załoga nie ma dostępu podczas jazdy. Co należy poprawić?",
+      "options": {
+        "A": "Umieścić instrukcje w kabinie tak, by załoga szybko mogła po nie sięgnąć",
+        "B": "Zostawić je w schowku, jeśli kierowca pamięta numer telefonu alarmowego",
+        "C": "Przenieść je do biura, a w pojeździe pozostawić tylko dokument przewozowy"
+      },
+      "correct_option": "A",
+      "explanation": "W nagłym zdarzeniu załoga musi móc szybko odczytać instrukcje, dlatego powinny być łatwo dostępne w kabinie. Pamięć kierowcy nie zastępuje pełnych wskazówek, a dokument w biurze jest poza zasięgiem podczas zdarzenia. Przed wyjazdem sprawdź nie tylko obecność instrukcji, lecz także możliwość ich natychmiastowego użycia. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.3.1; 8.1.2.3. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: W nagłym zdarzeniu załoga musi móc szybko odczytać instrukcje, dlatego powinny być łatwo dostępne w kabinie. Pamięć kierowcy nie zastępuje pełnych wskazówek, a dokument w biurze jest poza zasięgiem podczas zdarzenia. Przed wyjazdem sprawdź "
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.1; 8.1.2.3."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.1; 8.1.2.3."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0591",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.3; 8.6.4",
+      "stem": "Pojazd z towarem ADR dojeżdża do tunelu, którego oznakowanie ogranicza przejazd danego rodzaju przewozu. Co powinien zrobić kierowca?",
+      "options": {
+        "A": "Wjechać, jeśli tunel jest najkrótszą drogą, nawet gdy znak ogranicza przewóz tego towaru.",
+        "B": "Sprawdzić kod tunelowy i znaki, a następnie wybrać dozwoloną trasę zgodną z ograniczeniami.",
+        "C": "Zignorować znak, jeśli numer UN jest prawidłowy, a pojazd i ładunek wyglądają na bezpieczne."
+      },
+      "correct_option": "B",
+      "explanation": "Przed wjazdem trzeba sprawdzić, czy przewóz może korzystać z danego tunelu, biorąc pod uwagę kod tunelowy i oznakowanie drogi. Krótsza trasa nie uchyla ograniczenia, a prawidłowy numer UN (identyfikator towaru niebezpiecznego) w dokumencie nie daje automatycznego prawa wjazdu. W razie zakazu należy wybrać dozwoloną trasę. Podstawa: ADR 8.6.3 i 8.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.6.3; 8.6.4. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.6.3; 8.6.4."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Przed wjazdem trzeba sprawdzić, czy przewóz może korzystać z danego tunelu, biorąc pod uwagę kod tunelowy i oznakowanie drogi. Krótsza trasa nie uchyla ograniczenia, a prawidłowy numer UN (identyfikator towaru niebezpiecznego) w dokumencie "
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.6.3; 8.6.4."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0592",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 5.4.3.4",
+      "stem": "Podczas przejazdu przez tunel dochodzi do pożaru lub innego zdarzenia. Jaka powinna być pierwsza decyzja kierowcy?",
+      "options": {
+        "A": "Kontynuować jazdę do końca tunelu, nawet gdy zdarzenie zagraża załodze i innym użytkownikom drogi.",
+        "B": "Otworzyć ładownię, aby sprawdzić towar, zanim kierowca poinformuje służby o zdarzeniu i zagrożeniu.",
+        "C": "Zatrzymać pojazd w bezpieczny sposób, zastosować instrukcje pisemne i wezwać odpowiednie służby."
+      },
+      "correct_option": "C",
+      "explanation": "W tunelu nie należy improwizować ani narażać się na kontakt z dymem lub ładunkiem. Zatrzymaj pojazd tak bezpiecznie, jak pozwalają warunki, zastosuj instrukcje pisemne i alarmuj służby. Jazda dalej może pogorszyć sytuację, a otwieranie ładowni naraża kierowcę na dodatkowe zagrożenie. Podstawa: ADR 5.4.3.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.3.4. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.4."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.4."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: W tunelu nie należy improwizować ani narażać się na kontakt z dymem lub ładunkiem. Zatrzymaj pojazd tak bezpiecznie, jak pozwalają warunki, zastosuj instrukcje pisemne i alarmuj służby. Jazda dalej może pogorszyć sytuację, a otwieranie łado"
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0593",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "stem": "Po awarii kierowca zatrzymał pojazd w bezpiecznym miejscu. Co powinien zrobić z silnikiem, jeśli nie jest potrzebny do działania urządzeń obsługowych?",
+      "options": {
+        "A": "Wyłączyć silnik i zabezpieczyć pojazd zgodnie z instrukcjami awaryjnymi",
+        "B": "Pozostawić silnik włączony, aby łatwiej było odjechać bez sprawdzania sytuacji",
+        "C": "Zwiększyć obroty silnika, żeby szybciej przewietrzyć kabinę"
+      },
+      "correct_option": "A",
+      "explanation": "Po zatrzymaniu awaryjnym trzeba ograniczyć dodatkowe zagrożenia i postępować według instrukcji pisemnych; wyłączenie silnika jest jednym z podstawowych działań, jeśli nie zachodzi przewidziany wyjątek. Pozostawienie go włączonego bez potrzeby nie zwiększa bezpieczeństwa, a wysokie obroty nie są metodą bezpiecznego przewietrzania. Podstawa: ADR 5.4.3.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.3.4. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Po zatrzymaniu awaryjnym trzeba ograniczyć dodatkowe zagrożenia i postępować według instrukcji pisemnych; wyłączenie silnika jest jednym z podstawowych działań, jeśli nie zachodzi przewidziany wyjątek. Pozostawienie go włączonego bez potrze"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.4."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0594",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.4",
+      "stem": "Wzywając pomoc po zdarzeniu z towarem ADR, kierowca nie zna jeszcze pełnej przyczyny awarii. Jakie informacje powinien przekazać?",
+      "options": {
+        "A": "Zgadywać skład substancji na podstawie zapachu, aby nie opóźniać rozmowy ani zgłoszenia",
+        "B": "Podać miejsce zdarzenia, sytuację i dostępne, sprawdzone informacje o ładunku",
+        "C": "Poczekać z wezwaniem pomocy, aż firma ustali wszystkie szczegóły"
+      },
+      "correct_option": "B",
+      "explanation": "Służby potrzebują szybko znać miejsce i charakter zdarzenia oraz informacje o ładunku, które można bezpiecznie i wiarygodnie ustalić. Zgadywanie na podstawie zapachu może wprowadzić ratowników w błąd, a czekanie na pełny raport opóźnia pomoc. Przekazuj fakty, a nie przypuszczenia. Podstawa: ADR 5.4.3.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.3.4. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.4."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Służby potrzebują szybko znać miejsce i charakter zdarzenia oraz informacje o ładunku, które można bezpiecznie i wiarygodnie ustalić. Zgadywanie na podstawie zapachu może wprowadzić ratowników w błąd, a czekanie na pełny raport opóźnia pomo"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.3.4."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0595",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 1.1.3.1(a)",
+      "stem": "Osoba prywatna przewozi niewielką ilość produktu niebezpiecznego do własnego użytku. Czy sam prywatny cel automatycznie zwalnia ją z ADR?",
+      "options": {
+        "A": "Nie; muszą być spełnione konkretne warunki dotyczące opakowania i przeznaczenia",
+        "B": "Tak, każdy przewóz prywatny jest zawsze wyłączony z ADR",
+        "C": "Tak, jeśli produkt jest w dowolnym opakowaniu i nie ma dokumentów"
+      },
+      "correct_option": "A",
+      "explanation": "Wyłączenie dla osoby prywatnej zależy od spełnienia warunków, między innymi dotyczących opakowania do sprzedaży detalicznej i przeznaczenia na użytek osobisty lub domowy. Sam prywatny cel ani brak dokumentów nie wystarczą, jeśli warunki nie są spełnione. W razie wątpliwości sprawdź konkretny przepis i towar. Podstawa: ADR 1.1.3.1(a).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 1.1.3.1(a). Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Wyłączenie dla osoby prywatnej zależy od spełnienia warunków, między innymi dotyczących opakowania do sprzedaży detalicznej i przeznaczenia na użytek osobisty lub domowy. Sam prywatny cel ani brak dokumentów nie wystarczą, jeśli warunki nie"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.1.3.1(a)."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.1.3.1(a)."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0596",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 8.1.5.2",
+      "stem": "Wymagane wyposażenie ochronne ADR obejmuje kamizelkę ostrzegawczą dla członka załogi. Jedna kamizelka jest wspólna dla dwóch osób. Co należy poprawić?",
+      "options": {
+        "A": "Zapewnić odpowiednie wyposażenie każdemu członkowi załogi, którego dotyczy wymóg",
+        "B": "Zostawić jedną kamizelkę, jeśli obie osoby pracują na zmianę i nie opuszczają kabiny jednocześnie",
+        "C": "Zastąpić drugą kamizelkę trójkątem ostrzegawczym w kabinie, bo oba elementy ostrzegają innych"
+      },
+      "correct_option": "A",
+      "explanation": "Wyposażenie osobiste musi być dostępne dla każdego członka załogi, którego dotyczy wymaganie, a nie tylko dla jednej osoby w pojeździe. Praca na zmianę nie gwarantuje, że obie osoby będą mogły bezpiecznie oznaczyć swoją obecność w tym samym czasie. Trójkąt ostrzegawczy ma inną funkcję i nie zastępuje kamizelki. Podstawa: ADR 8.1.5.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.1.5.2. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Wyposażenie osobiste musi być dostępne dla każdego członka załogi, którego dotyczy wymaganie, a nie tylko dla jednej osoby w pojeździe. Praca na zmianę nie gwarantuje, że obie osoby będą mogły bezpiecznie oznaczyć swoją obecność w tym samym"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.1.5.2."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.1.5.2."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0597",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 8.1.5.2",
+      "stem": "Załoga ma latarkę, ale nie ma wymaganych rękawic ochronnych ani ochrony oczu. Czy jedna rzecz może zastąpić pozostałe elementy wyposażenia?",
+      "options": {
+        "A": "Tak, latarka wystarcza, jeśli jest mocna, ma zapasowe baterie i dobrze oświetla miejsce pracy",
+        "B": "Tak, kierowca może użyć rękawic roboczych dopiero po zdarzeniu, jeśli nie ma widocznego wycieku",
+        "C": "Nie; wymagane elementy pełnią różne funkcje i trzeba zapewnić komplet wyposażenia"
+      },
+      "correct_option": "C",
+      "explanation": "Latarka pomaga oświetlić miejsce, ale nie chroni dłoni ani oczu przed zagrożeniem. Zwykłe rękawice nie zawsze odpowiadają wymaganiom, a odkładanie wyposażenia do czasu zdarzenia oznacza, że nie będzie go wtedy pod ręką. Przed wyjazdem sprawdź komplet wyposażenia wymaganego dla przewozu. Podstawa: ADR 8.1.5.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 8.1.5.2. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.1.5.2."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 8.1.5.2."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Latarka pomaga oświetlić miejsce, ale nie chroni dłoni ani oczu przed zagrożeniem. Zwykłe rękawice nie zawsze odpowiadają wymaganiom, a odkładanie wyposażenia do czasu zdarzenia oznacza, że nie będzie go wtedy pod ręką. Przed wyjazdem spraw"
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0598",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1(a)–(b)",
+      "stem": "W dokumencie przewozowym wpisano numer UN i nazwę handlową produktu, ale brakuje wymaganej nazwy przewozowej ADR. Czy dokument jest gotowy?",
+      "options": {
+        "A": "Tak, nazwa handlowa może zastąpić nazwę przewozową, gdy numer UN jest poprawny",
+        "B": "Nie; uzupełnić wymagany opis towaru zgodnie z zasadami ADR przed rozpoczęciem przewozu",
+        "C": "Tak, jeśli kierowca potrafi ustnie wyjaśnić zawartość i przekazać dodatkowe informacje podczas kontroli"
+      },
+      "correct_option": "B",
+      "explanation": "Numer UN (identyfikator towaru niebezpiecznego) i nazwa handlowa nie zawsze wystarczają do prawidłowego opisu towaru niebezpiecznego. Dokument musi zawierać wymagane elementy opisu, w tym właściwą nazwę przewozową; sam numer ani ustne wyjaśnienie kierowcy nie naprawiają braku. Przed wyjazdem trzeba uzupełnić zapis zgodnie z zasadami ADR. Podstawa: ADR 5.4.1.1.1(a)–(b).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.1.1.1(a)–(b). Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(a)–(b)."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Numer UN (identyfikator towaru niebezpiecznego) i nazwa handlowa nie zawsze wystarczają do prawidłowego opisu towaru niebezpiecznego. Dokument musi zawierać wymagane elementy opisu, w tym właściwą nazwę przewozową; sam numer ani ustne wyjaś"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(a)–(b)."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0599",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1(e)–(f)",
+      "stem": "W dokumencie przewozowym podano liczbę opakowań, ale pominięto wymaganą informację o ilości towaru. Co powinien zrobić kierowca przed wyjazdem?",
+      "options": {
+        "A": "Poprosić o uzupełnienie wymaganej ilości i jednostki miary, jeśli wymaga ich opis przewozu",
+        "B": "Przyjąć dokument bez zmian, bo liczba opakowań wskazuje ilość towaru i jest wystarczająca",
+        "C": "Wpisać szacowaną ilość samodzielnie, nawet jeśli nie ma danych od nadawcy, i skorygować ją po dostawie"
+      },
+      "correct_option": "A",
+      "explanation": "Liczba sztuk przesyłek i ilość znajdującego się w nich towaru to różne informacje. Gdy dla danego przewozu wymagane jest podanie ilości, trzeba ją wpisać w dokumencie w odpowiedniej formie; nie należy zastępować jej liczbą opakowań ani zgadywać wartości. Brak trzeba wyjaśnić z nadawcą przed rozpoczęciem transportu. Podstawa: ADR 5.4.1.1.1(e)–(f).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.1.1.1(e)–(f). Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Liczba sztuk przesyłek i ilość znajdującego się w nich towaru to różne informacje. Gdy dla danego przewozu wymagane jest podanie ilości, trzeba ją wpisać w dokumencie w odpowiedniej formie; nie należy zastępować jej liczbą opakowań ani zgad"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(e)–(f)."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(e)–(f)."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0600",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1(g)–(h)",
+      "stem": "Dokument przewozowy zawiera dane odbiorcy, ale brakuje nazwy i adresu nadawcy. Nie wskazano żadnego wyjątku. Jak postąpić?",
+      "options": {
+        "A": "Zostawić dokument bez zmian, ponieważ adres odbiorcy wystarcza do identyfikacji przesyłki",
+        "B": "Wpisać adres kierowcy, bo to on odpowiada za dostarczenie ładunku",
+        "C": "Uzyskać brakujące dane nadawcy i uzupełnić dokument przed rozpoczęciem przewozu"
+      },
+      "correct_option": "C",
+      "explanation": "Dokument przewozowy co do zasady zawiera nazwę i adres zarówno nadawcy, jak i odbiorcy. Dane odbiorcy nie zastępują informacji o nadawcy, a adres kierowcy nie opisuje, kto nadał przesyłkę. Jeżeli nie ma zastosowania wyjątek przewidziany przepisami, brakujące dane należy uzyskać i uzupełnić przed wyjazdem. Podstawa: ADR 5.4.1.1.1(g)–(h).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz C, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 5.4.1.1.1(g)–(h). Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(g)–(h)."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 5.4.1.1.1(g)–(h)."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Wariant C odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Dokument przewozowy co do zasady zawiera nazwę i adres zarówno nadawcy, jak i odbiorcy. Dane odbiorcy nie zastępują informacji o nadawcy, a adres kierowcy nie opisuje, kto nadał przesyłkę. Jeżeli nie ma zastosowania wyjątek przewidziany prz"
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0601",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 1.1.4.2.1; 5.4.1.1.7",
+      "stem": "Ładunek przyjechał drogą morską, a dokumenty przygotowano według IMDG. Przewoźnik rozpoczyna dalszy odcinek drogowy. Co powinien sprawdzić?",
+      "options": {
+        "A": "Czy sam dokument IMDG usuwa wszystkie obowiązki drogowe i wymagane wpisy dla przewozu",
+        "B": "Czy warunki zastosowania ADR 1.1.4.2 są spełnione i czy dodano wymagany wpis dla tego przewozu",
+        "C": "Czy wystarczy ustne potwierdzenie spedytora, że nie trzeba już sprawdzać dokumentów ani warunków przewozu"
+      },
+      "correct_option": "B",
+      "explanation": "W przewozie łączącym transport morski i drogowy ADR dopuszcza określone zasady uznawania dokumentów, ale tylko po spełnieniu właściwych warunków. Nie oznacza to automatycznego zniesienia wszystkich wymagań drogowych. Przed wyjazdem trzeba sprawdzić, czy dany przypadek mieści się w przepisie i czy dokument zawiera wymagany dodatkowy wpis. Podstawa: ADR 1.1.4.2.1 i 5.4.1.1.7.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 1.1.4.2.1; 5.4.1.1.7. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.1.4.2.1; 5.4.1.1.7."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: W przewozie łączącym transport morski i drogowy ADR dopuszcza określone zasady uznawania dokumentów, ale tylko po spełnieniu właściwych warunków. Nie oznacza to automatycznego zniesienia wszystkich wymagań drogowych. Przed wyjazdem trzeba s"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.1.4.2.1; 5.4.1.1.7."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0602",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 1.9.5.3; 8.6.4",
+      "stem": "Na planowanej trasie znajduje się tunel kategorii E, a przewożony towar ma kod tunelowy ograniczający przejazd przez tę kategorię. Czy kierowca może wjechać, jeśli tunel skraca trasę?",
+      "options": {
+        "A": "Tak, gdy przejazd jest krótszy i kierowca nie widzi zagrożenia na wlocie",
+        "B": "Nie; powinien uwzględnić kategorię tunelu i wybrać trasę dozwoloną dla tego przewozu",
+        "C": "Tak, jeżeli numer UN znajduje się w dokumencie i tablice pojazdu są prawidłowe"
+      },
+      "correct_option": "B",
+      "explanation": "Kod tunelowy i kategoria tunelu służą do ustalenia, czy dany przewóz może korzystać z konkretnego odcinka drogi. Krótsza trasa ani poprawne dokumenty nie uchylają ograniczenia. Kierowca powinien sprawdzić trasę przed dojazdem do tunelu i wybrać dozwolony przejazd, zamiast podejmować decyzję dopiero przy wlocie. Podstawa: ADR 1.9.5.3 i 8.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz B, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 1.9.5.3; 8.6.4. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wariant A jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.9.5.3; 8.6.4."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant B odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Kod tunelowy i kategoria tunelu służą do ustalenia, czy dany przewóz może korzystać z konkretnego odcinka drogi. Krótsza trasa ani poprawne dokumenty nie uchylają ograniczenia. Kierowca powinien sprawdzić trasę przed dojazdem do tunelu i wy"
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 1.9.5.3; 8.6.4."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0603",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 3.2.1, kolumna 15; 8.6.3.1",
+      "stem": "W kolumnie 15 tabeli A przy towarze widnieje kod tunelowy „(-)”. Co oznacza to dla ograniczeń tunelowych ADR?",
+      "options": {
+        "A": "Kod ten sam w sobie nie nakłada ograniczenia tunelowego ADR dla tego towaru",
+        "B": "Oznacza bezwzględny zakaz wjazdu do każdego tunelu, niezależnie od oznakowania",
+        "C": "Pozwala wjechać do dowolnego tunelu nawet wtedy, gdy obowiązuje odrębny zakaz drogowy"
+      },
+      "correct_option": "A",
+      "explanation": "Kod „(-)” oznacza, że dla tego towaru nie przypisano ograniczenia tunelowego według tabeli ADR. Nie należy mylić go z zakazem wjazdu. Jednocześnie nie daje on prawa do ignorowania innych znaków drogowych ani lokalnych ograniczeń, które mogą obowiązywać niezależnie od kodu ADR. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano twierdzenie pytania, klucz A, treść odpowiedzi A/B/C i explanation z zakresem wskazanego przepisu: ADR 2025, 3.2.1, kolumna 15; 8.6.3.1. Wyjaśnienie odróżnia poprawną regułę od dystraktorów i nie rozszerza jej poza opisane warunki. Brak potwierdzonej sprzeczności wymagającej zmiany banku; wynik nie jest formalnym zatwierdzeniem specjalisty.",
+      "option_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Wariant A odpowiada regule przedstawionej w pytaniu i wyjaśnieniu: Kod „(-)” oznacza, że dla tego towaru nie przypisano ograniczenia tunelowego według tabeli ADR. Nie należy mylić go z zakazem wjazdu. Jednocześnie nie daje on prawa do ignorowania innych znaków drogowych ani lokalnych ograniczeń, które mogą"
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wariant B jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 3.2.1, kolumna 15; 8.6.3.1."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wariant C jest dystraktorem. W tym scenariuszu nie spełnia warunku wskazanego w pytaniu; porównaj go z regułą i ograniczeniami opisanymi w explanation oraz w ADR 2025, 3.2.1, kolumna 15; 8.6.3.1."
+        }
+      },
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    }
+  ]
+}

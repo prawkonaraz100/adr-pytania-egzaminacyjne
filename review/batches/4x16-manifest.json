@@ -24,7 +24,7 @@
     "all_status": "needs_review",
     "verified": 0
   },
-  "note": "Liczniki odnoszą się do pozycji porównawczych, nie do unikalnych ID pytań; ten sam ID może pojawić się w porównaniu innego punktu. Porównanie tekstowe nie jest formalnym zatwierdzeniem specjalisty.",
+  "note": "Liczniki odnoszą się do pozycji porównawczych, nie do unikalnych ID pytań; ten sam ID może pojawić się w porównaniu innego punktu. Porównanie tekstowe nie jest formalnym zatwierdzeniem specjalisty. Partia 13 zamyka 599 pozycji porównawczych manifestu; pytania 0604–0609, dodane poza pierwotnym zakresem manifestu, nie są liczone jako pozycje partii 13. Zamknięcie manifestu nie jest formalną akceptacją specjalisty.",
   "batch7": {
     "file_json": "review/batches/4x16-literal-comparison-batch7-0370-0417.json",
     "file_report": "review/batches/4x16-literal-comparison-batch7-0370-0417.md",
@@ -101,5 +101,19 @@
     "status_changes": 0
   },
   "completed_after_batch12": 554,
-  "remaining_after_batch12": 45
+  "remaining_after_batch12": 45,
+  "batch13": {
+    "file_json": "review/batches/4x16-literal-comparison-batch13-0559-0603.json",
+    "file_report": "review/batches/4x16-literal-comparison-batch13-0559-0603.md",
+    "comparison_positions": 45,
+    "reviewed": 45,
+    "consistent_in_scope": 45,
+    "confirmed_corrections": 0,
+    "unable_to_confirm": 0,
+    "question_changes": 0,
+    "status_changes": 0,
+    "formal_specialist_approvals": 0
+  },
+  "completed_after_batch13": 599,
+  "remaining_after_batch13": 0
 }
