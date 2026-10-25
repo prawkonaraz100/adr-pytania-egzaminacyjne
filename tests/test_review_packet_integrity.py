@@ -43,6 +43,43 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertEqual(actual, declared)
         self.assertEqual(len(actual), 13)
 
+
+    def test_ledger_evidence_counts_match_manifest_without_implying_approval(self):
+        ledger_path = ROOT / self.manifest["source_ledger"]
+        ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
+        entries = ledger["entries"]
+        self.assertEqual(len(entries), len(self.bank))
+        not_retrieved = sum(
+            row["official_polish_pdf_exact_section_access"] == "not_retrieved_not_literally_compared"
+            for row in entries
+        )
+        targeted_pending = sum(
+            row["official_polish_pdf_exact_section_access"] == "targeted_source_checked_full_literal_comparison_pending"
+            for row in entries
+        )
+        targeted_results = sum(bool(row.get("literal_comparison_result")) for row in entries)
+        ministry_compared = sum(
+            row["official_polish_pdf_exact_section_access"].startswith(
+                "textually_compared_against_full_polish_ADR_2025_text_copy_published_by_Ministry"
+            )
+            for row in entries
+        )
+        counts = self.manifest["literal_comparison_status_counts"]
+        self.assertEqual(self.manifest["unresolved_literal_comparisons"], not_retrieved)
+        self.assertEqual(counts["official_polish_text_not_retrieved"], not_retrieved)
+        self.assertEqual(counts["targeted_source_checked_full_literal_comparison_pending"], targeted_pending)
+        self.assertEqual(counts["records_with_recorded_targeted_comparison_result"], targeted_results)
+        self.assertEqual(
+            counts["compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending"],
+            ministry_compared,
+        )
+        self.assertEqual(counts["specialist_reviews_pending"], len(self.bank))
+        self.assertEqual(counts["verified"], 0)
+        self.assertEqual(sum((not_retrieved, targeted_pending, ministry_compared)), len(self.bank))
+        self.assertTrue(all(row["verification_status"] == "needs_review" for row in entries))
+        self.assertTrue(all(row["abc_independent_specialist_review"] == "pending" for row in entries))
+        self.assertTrue(all(row["release_approved"] is False for row in entries))
+
     def test_specialist_index_covers_all_bank_ids(self):
         content = (REVIEW / "REJESTR-AKTUALNY-0001-0609.md").read_text(encoding="utf-8")
         indexed = set(re.findall(r"\|\s*(ADR-B-\d{4})\s*\|", content))

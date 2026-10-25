@@ -1,6 +1,6 @@
 # Etap 4x16 — raport końcowy literalnego porównania z ADR 2025
 
-**Zakres manifestu zakończony: 599/599 pozycji, 0 nierozstrzygniętych w zakresie manifestu.** Ostatnia partia: PR #370, ADR-B-0559–0603.
+**Zakres manifestu partii obejmował 599/599 pozycji, z 0 brakującymi wpisami w tym zakresie.** To potwierdza kompletność pokrycia manifestem, nie pełne literalne porównanie prawne każdego pytania. Aktualny rejestr 609 rekordów wykazuje 376 tekstów urzędowych niepobranych, 10 porównań ukierunkowanych oczekujących i 223 wpisy z wynikiem porównania ukierunkowanego; wszystkie pytania nadal `needs_review`. Ostatnia partia: PR #370, ADR-B-0559–0603.
 
 ## Wyniki według partii
 

@@ -54,3 +54,8 @@ Stan migawki banku po wyrównaniu dystraktorów: 609 pytań, wszystkie `needs_re
 **Priorytet do niezależnej kontroli prawnej:** pytania zależne od wartości liczbowych, wyposażenia, terminów kontroli, postojów i ochrony przewozu, w szczególności ADR-B-0073, ADR-B-0074, ADR-B-0253, ADR-B-0283, ADR-B-0420, ADR-B-0422, ADR-B-0484, ADR-B-0144, ADR-B-0249, ADR-B-0274, ADR-B-0275, ADR-B-0300, ADR-B-0304 i ADR-B-0305. To lista priorytetowa, nie wyczerpująca: wszystkie 609 pytań nadal wymagają indywidualnej recenzji. Dla pytań wrażliwych na aktualizację ADR należy też wykorzystać rejestry `podstawowy/raporty/etap-4x9-wrazliwosc-01-04.json`, `...-05-08.json` i `...-09-13.json`.
 
 Nie zmieniaj `verification_status` na `verified` automatycznie. Zmiana tego statusu wymaga rzeczywistej recenzji specjalisty, potwierdzenia polskiego tekstu urzędowego ADR i sprostowania, oceny każdej odpowiedzi A/B/C oraz wpisu z prawdziwą tożsamością recenzenta w procesie zatwierdzania. Wskaźniki jakości, testy i automatyczne porównania nie stanowią opinii prawnej.
+
+
+## Etap 4x19 — uzgodnienie licznika dowodów
+
+Rejestr 609 rekordów rozbija stan na 376 wpisów, gdzie dokładny tekst urzędowy nie został pobrany, 10 porównań ukierunkowanych oczekujących na pełne porównanie i 223 wpisy z zapisanym wynikiem porównania ukierunkowanego. **To nie oznacza 223 pytań zatwierdzonych prawnie:** wszystkie 609 pozostają `needs_review`, a recenzja A/B/C przez specjalistę jest pending. Szczegóły: [raport etapu 4x19](batches/etap-4x19-uzgodnienie-pakietu-2026-10-25.md).
