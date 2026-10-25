@@ -1,12 +1,12 @@
 # Etap 4w — audyt pokrycia programu kursu podstawowego ADR
 
-**Punkt odniesienia:** `main` `efd48dd4a849729864dc5ac8b1ed9d6abb13a988`, bank 569 pytań (ADR-B-0001–0569); 13 działów, 106 roboczych kompetencji. Data audytu: 25.10.2026.
+**Punkt odniesienia:** `main` `efd48dd4a849729864dc5ac8b1ed9d6abb13a988`, bank 569 pytań (ADR-B-0001–0569); 13 działów, 107 roboczych kompetencji. Data audytu: 25.10.2026.
 
 **Dokumenty nadrzędne:** [ADR 2025, 8.2.2.3.2](https://unece.org/adr-2025-files), [polski ramowy program kursu początkowego podstawowego, Dz.U. 2021 poz. 2150, zał. 1](https://www.dziennikustaw.gov.pl/DU/2021/2150), [program redakcyjny](../docs/PROGRAM-PODSTAWOWY.md) i [mapa kompetencji](../podstawowy/kompetencje.json).
 
 ## Wniosek i interpretacja
 
-- **103/103 kompetencji teoretycznych ma co najmniej jedno istniejące ID pytania, 0 luk typu „brak jakiegokolwiek pytania” w aktualnej mapie.** Liczba pytań i pokrycie tematyczne nie dowodzą poprawności ani rzeczywistej głębokości nauczania.
+- **104/104 kompetencji teoretycznych ma co najmniej jedno istniejące ID pytania, 0 luk typu „brak jakiegokolwiek pytania” w aktualnej mapie.** Liczba pytań i pokrycie tematyczne nie dowodzą poprawności ani rzeczywistej głębokości nauczania.
 - **3 kompetencje praktyczne nie mają pytań z założenia:** odpowiadają im ćwiczenia P1–P3 w `podstawowy/praktyka/SCENARIUSZE.md`. Oznaczono je „nie dotyczy quizu”, a nie „uzupełnione testem”. Obecność scenariusza nie jest potwierdzeniem wykonania praktyki.
 - **0 pytań bez przypisania i 0 nieistniejących ID w mapie.** Wszystkie pytania pozostają `needs_review` — brak podstaw do automatycznego `verified`.
 - Polski program to 13 tematów (a–m), a ADR 8.2.2.3.2 wymienia minimalne zagadnienia, które nie muszą mieć identycznego porządku z wewnętrznymi 13 działami. Dotyczy to zwłaszcza odpowiedzialności cywilnej, przewozu kombinowanego, załadunku i rozładunku; nie wolno porównywać tematów tylko po numerze litery.
@@ -31,7 +31,7 @@
 | l | ADR-B-12 | Ochrona przewozu przed nieuprawnionym dostępem | 43 | 6 | NIE | Pełna recenzja ADR i dydaktyki: otwarta |
 | m | ADR-B-13 | Dokumentacja przewozowa | 35 | 8 | NIE | Pełna recenzja ADR i dydaktyki: otwarta |
 
-## Mapa wszystkich 106 kompetencji → istniejące ID pytań → luka
+## Mapa wszystkich 107 kompetencji → istniejące ID pytań → luka
 
 **Definicja luki w tej tabeli:** „TAK” tylko przy teoretycznej kompetencji bez istniejącego ID w banku. „N/D — praktyka” oznacza ćwiczenie wymagające instruktora, nie brak pytań. Status recenzji merytorycznej nie wynika z tej kolumny.
 
