@@ -129,6 +129,40 @@ def validate_practical_scenario_map(root: Path, questions):
     return errors
 
 
+
+def validate_learning_material_links(root: Path, questions):
+    """Require every lesson and instructor guide to link its three scenarios and valid same-module question IDs."""
+    scenario_path = root / "podstawowy/praktyka/scenariusze-13-dzialow.json"
+    try:
+        scenarios = json.loads(scenario_path.read_text(encoding="utf-8"))["scenarios"]
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        return [f"Cannot validate learning-material scenario links: {exc}"]
+    errors = []
+    by_question = {q["id"]: q for q in questions}
+    by_scenario = {s.get("id"): s for s in scenarios}
+    for number in range(1, 14):
+        module = f"ADR-B-{number:02d}"
+        expected_scenarios = [s for s in scenarios if s.get("module_id") == module]
+        for folder in ("lekcje", "instruktor"):
+            path = root / "podstawowy" / folder / f"{module}.md"
+            if not path.is_file():
+                errors.append(f"Missing {folder} learning material: {module}")
+                continue
+            body = path.read_text(encoding="utf-8")
+            if "scenariusze-13-dzialow.json" not in body:
+                errors.append(f"{folder} material does not link the scenario map: {module}")
+            for scenario in expected_scenarios:
+                sid = scenario.get("id")
+                if not sid or sid not in by_scenario or sid not in body:
+                    errors.append(f"{folder} material missing module scenario link: {module} / {sid}")
+            for qid in set(re.findall(r"ADR-B-\\d{4}", body)):
+                if qid not in by_question:
+                    errors.append(f"{folder} material references missing question: {module} / {qid}")
+                elif by_question[qid].get("module_id") != module:
+                    errors.append(f"{folder} material references question from another module: {module} / {qid}")
+    return errors
+
+
 def audit(root: Path):
     failures = []
     warnings = []
@@ -149,6 +183,7 @@ def audit(root: Path):
         failures.append("IDs are not consecutive from ADR-B-0001")
     failures.extend(validate_image_assets(root, questions))
     failures.extend(validate_practical_scenario_map(root, questions))
+    failures.extend(validate_learning_material_links(root, questions))
     failures.extend(validate_reviewer_manifest(root, questions))
     modules = {f"ADR-B-{n:02d}" for n in range(1, 14)}
     if {q["module_id"] for q in questions} != modules:
