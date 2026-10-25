@@ -155,7 +155,7 @@ def validate_learning_material_links(root: Path, questions):
                 sid = scenario.get("id")
                 if not sid or sid not in by_scenario or sid not in body:
                     errors.append(f"{folder} material missing module scenario link: {module} / {sid}")
-            for qid in set(re.findall(r"ADR-B-\\d{4}", body)):
+            for qid in set(re.findall(r"ADR-B-\d{4}", body)):
                 if qid not in by_question:
                     errors.append(f"{folder} material references missing question: {module} / {qid}")
                 elif by_question[qid].get("module_id") != module:
