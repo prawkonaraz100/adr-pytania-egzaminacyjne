@@ -59,3 +59,22 @@ Po scaleniu partii wykonano osobny przegląd dwóch lekcji wybranych do kontroli
 2. **B-11 — różne kody:** „Jeśli jednostka przewozi towary z różnymi kodami tunelowymi” → „Jeśli jednostka transportowa (pojazd silnikowy z przyczepą lub naczepą, gdy tworzą zestaw; [słowniczek](../SLOWNICZEK.md#jednostka-transportowa)) […]”.
 3. **Ograniczenie przeglądu:** w tej próbie nie wykryto podstawy do zmiany numerów przepisów ani wymagań liczbowych. Nie oznacza to niezależnej weryfikacji prawnej całego podręcznika.
 
+
+
+## Kontrola naprawcza po odbiorze — 25.10.2026, wieczór
+
+Po wcześniejszych partiach etapu 4x13 sprawdzono jeszcze raz rzeczywiste pliki na świeżym main. Ta kontrola wykazała kilka usterek w automatycznie wstawionych definicjach, których nie odzwierciedlała sama liczba odsyłaczy:
+
+| Partia | Potwierdzone problemy | Naprawa | CI |
+|---|---|---|---|
+| B-01–04 | B-01: zagnieżdżony odsyłacz i powtarzające się objaśnienie ADR; B-02: uszkodzone słowo „kod klasyfikacyjny” i brak objaśnienia ADR przy pierwszym użyciu | Uproszczono wstęp B-01; poprawiono termin i pierwsze użycie ADR w B-02 | PASS — [PR #366](../pull/366), [run #40236972670](../actions/runs/40236972670) |
+| B-05–08 | B-05: zagnieżdżone objaśnienie numeru UN; CI wskazało brak kotwicy ADR w B-05, tabeli A w B-06 i ADR w B-08 | Uproszczono pierwsze objaśnienia, dodano brakujące odsyłacze i definicję świadectwa dopuszczenia pojazdu | PASS — [PR #367](../pull/367), [run #40237227963](../actions/runs/40237227963) |
+| B-09–13 | B-12: uszkodzony ciąg „))DR 1.10.3.1.2” | Naprawiono tekst i uproszczono wyjaśnienie sprawdzania progów dla towarów dużego ryzyka | PASS — [PR #368](../pull/368), [run #40237340053](../actions/runs/40237340053) |
+
+### Dodatkowy wynik kontroli
+- Potwierdzone uszkodzenia składni lub braków objaśnień: **6 problemów** (B-01, B-02, B-05, B-06, B-08, B-12), poprawione.
+- Akapity/elementy listy uproszczone lub poprawione: 8; dodano bezpośrednią definicję świadectwa dopuszczenia pojazdu w B-08.
+- Test tests/test_learner_glossary.py początkowo zablokował PR #366 i #367, ponieważ pierwsze użycia nie miały odsyłacza w tym samym akapicie. Po poprawkach wszystkie trzy PR-y naprawcze uzyskały PASS Quality Gate.
+- Bank pytań, klucze egzaminów, poprawne litery i statusy weryfikacji nie zostały zmienione. Żadnego pytania nie oznaczono jako verified.
+- Nie uruchomiono testów w osobnym lokalnym checkout; testy zostały wykonane przez CI GitHub. Nie deklarujemy lokalnego PASS.
+- Nie dodano nowych twierdzeń prawnych ani nie zmieniano wartości progowych. Wszystkie pytania pozostają do niezależnej kontroli specjalisty ADR.
