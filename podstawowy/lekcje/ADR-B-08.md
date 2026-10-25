@@ -152,6 +152,16 @@ Te pytania pozostają `needs_review`; przykłady wymagają niezależnej recenzji
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
 
+## Uzupełnienie odbioru 4x1 — wyposażenie osobiste załogi (ADR-B-0596–0597)
+
+Przed wyjazdem sprawdź nie tylko wyposażenie pojazdu, lecz także elementy wymagane dla członków załogi. Kamizelka ostrzegawcza, latarka, rękawice ochronne i ochrona oczu pełnią różne funkcje — nie zastępują się wzajemnie. Jeżeli wymóg dotyczy każdego członka załogi, jedna wspólna kamizelka nie rozwiązuje problemu. Zwykłe rękawice nie muszą odpowiadać wymogom dla danego przewozu, a wyposażenia nie wolno odkładać do chwili wystąpienia zdarzenia.
+
+**Scenariusz 1 — dwie osoby, jedna kamizelka:** podczas kontroli przed wyjazdem załoga odkrywa, że ma tylko jedną kamizelkę dla dwóch osób. Uzupełnia wyposażenie tak, aby każdy członek załogi miał wymagany element. Uzasadnienie: sytuacja awaryjna może wymagać jednoczesnego opuszczenia kabiny przez obie osoby.
+
+**Scenariusz 2 — latarka bez ochrony dłoni i oczu:** kierowca nie uznaje latarki za zamiennik pozostałego wyposażenia; sprawdza listę wymagań i uzupełnia brakujące elementy przed odjazdem. Uzasadnienie: oświetlenie pomaga widzieć, ale nie chroni przed kontaktem z substancją.
+
+Podstawa do sprawdzenia: ADR 8.1.5.2. Pytania ADR-B-0596–0597 pozostają `needs_review`.
+
 ## Co musisz zapamiętać
 
 - Sprawdź osobno liczbę gaśnic, ich łączną pojemność, stan i dostępność.
