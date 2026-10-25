@@ -13,7 +13,7 @@ class LessonQuestionReferenceTests(unittest.TestCase):
             path = ROOT / "podstawowy" / "lekcje" / f"ADR-B-{n:02d}.md"
             self.assertTrue(path.is_file(), f"missing lesson {path.name}")
             content = path.read_text(encoding="utf-8")
-            canonical = "## Powiązane pytania w banku" in content
+            canonical = all(marker in content for marker in ("## Po co to jest?", "## Czego się nauczysz", "## Typowe błędy kursantów", "## Scenariusze praktyczne", "## Co musisz zapamiętać", "## Sprawdź się", "## Powiązane pytania w banku", "## Podstawa prawna"))
             self.assertTrue(canonical or "Mapa pytań i przykład praktyczny" in content,
                             f"{path.name}: missing question map")
             refs = set(ID_RE.findall(content))
