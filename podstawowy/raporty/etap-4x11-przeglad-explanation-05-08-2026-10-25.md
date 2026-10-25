@@ -46,7 +46,7 @@ Rozszerzony walidator `scripts/check_explanation_heuristics.py` nadal sprawdza w
 ## Wskaźniki banku
 
 - Wskaźnik „poprawna = jedyna najdłuższa”: **77/609 = 12,64%** globalnie; według raportu 4x10 każdy dział ≤16%. Zmiany dotyczyły tylko explanation, więc długości odpowiedzi A/B/C się nie zmieniły.
-- Minimum explanation: **251 znaków** po poprawkach; wszystkie powyżej 200.
+- Minimum explanation: **300 znaków** po poprawkach; wszystkie spełniają próg Quality Gate 300 znaków (a więc także wymagane minimum 200).
 - Statusy: **609 `needs_review`, 0 `verified`**.
 - Klucze egzaminów próbnych 001–005 nie wymagają zmian: nie zmieniono pytań, opcji ani poprawnych liter.
 
