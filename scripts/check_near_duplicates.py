@@ -21,6 +21,7 @@ THRESHOLD = 0.60
 REVIEWED_PAIR_ALLOWLIST = {
     ("ADR-B-0071", "ADR-B-0072"): "Same rule, different DMC band; answers test distinct threshold.",
     ("ADR-B-0169", "ADR-B-0585"): "Confirmed near-duplicate; scheduled for rewrite in B-05–08 batch.",
+    ("ADR-B-0330", "ADR-B-0337"): "Same procedural question but distinct ADR exclusions: class 5.2 versus class 6.2.",
 }
 STOP = {"jakie", "jaki", "ktora", "ktore", "ktory", "przy", "podczas", "zgodnie",
         "przewozu", "przewoz", "przed", "nalezy", "powinien", "powinna", "towaru",
