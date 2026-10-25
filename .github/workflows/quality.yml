@@ -26,6 +26,8 @@ jobs:
         run: python scripts/answer_length_bias.py --threshold 0.18 --strict
       - name: Enforce minimum learner-facing explanation length (300 characters)
         run: python scripts/check_explanation_quality.py --minimum 300
+      - name: Block new near-duplicate questions
+        run: python scripts/check_near_duplicates.py --threshold 0.60
       - name: List near-duplicate wording candidates (advisory)
         run: python scripts/similarity.py --threshold 0.45 --limit 15
       - name: Report verified-only release gate (non-exporting)

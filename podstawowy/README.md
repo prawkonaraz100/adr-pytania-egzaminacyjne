@@ -2,6 +2,10 @@
 
 **Stan na 25.10.2026, po audycie pokrycia: 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
+## Słowniczek
+
+- [Słowniczek ADR dla kursanta](SLOWNICZEK.md) — proste definicje skrótów, oznakowania i pojęć używanych w lekcjach i pytaniach.
+
 ## Jak korzystać z kursu
 
 1. **Lekcja działu** — przeczytaj ją od początku do końca, zwracając uwagę na przykłady z pracy kierowcy i sekcję „Co musisz zapamiętać”.
