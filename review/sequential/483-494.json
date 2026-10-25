@@ -65,10 +65,10 @@
         "options": {
           "A": "Tak, jeżeli trasa prowadzi przez tunel E",
           "B": "Nie, ponieważ łopatę i pojemnik przewiduje się tu dla gazów klasy 2.2, nie dla cieczy żrących",
-          "C": "Tak; przy nalepce 8 wymagane są łopata, osłona odpływu i pojemnik"
+          "C": "Nie; ten zestaw dotyczy określonych materiałów w postaci stałej, a nie samej cieczy oznaczonej nalepką 8."
         },
         "correct_option": "C",
-        "explanation": "Dla cieczy oznaczonych nalepką 8 zestaw wyposażenia obejmuje łopatę, osłonę otworu kanalizacyjnego i pojemnik do zbierania pozostałości, zgodnie z warunkami ADR. Nie zależy to od przejazdu przez tunel E, a wymaganie nie dotyczy wyłącznie gazów. Wymóg nie zależy od tunelu E i nie dotyczy w tym przypadku gazu klasy 2.2 zamiast cieczy żrącej. Podstawa: ADR 8.1.5.3, przypis 4.",
+        "explanation": "Nie. Wymóg przewożenia łopaty, osłony odpływu i pojemnika z ADR 8.1.5.3 dotyczy określonych towarów przewożonych w postaci stałej, oznaczonych m.in. nalepką 8; sama ciecz żrąca z tą nalepką nie uruchamia tego warunku. Nie zależy to od tunelu E, a gazy klasy 2.2 nie są powodem tego wymogu. Podstawa: ADR 8.1.5.3, przypis 4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -83,7 +83,7 @@
       "supplementary_source_url": "https://unece.org/adr-2025-files",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Odpowiedź wymaga ostatecznej kontroli polskiego tekstu urzędowego i wszystkich warunków szczególnych. Etap 4b: zamieniono bez zmiany treści warianty A i C, klucz C; niezależna recenzja wymagana.",
+      "source_risk_note": "Potwierdzona korekta: wyposażenie z ADR 8.1.5.3, przypis 4, zależy od określonej postaci towaru. Nie oznaczono jako verified; niezależna recenzja wymagana.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
@@ -231,8 +231,8 @@
           "B": "Kod D/E wyklucza tylko tunele kategorii A i B przy każdym przewozie",
           "C": "Przy przewozie luzem kod D/E wyklucza tunele kategorii D i E"
         },
-        "correct_option": "C",
-        "explanation": "Przy przewozie luzem kod tunelowy D/E oznacza zakaz przejazdu przez tunele kategorii D i E. Nie można ograniczyć go wyłącznie do kategorii E, jak przy sztukach przesyłek, ani przenosić na niego dowolnego zakazu dla A i B. Zawsze trzeba odczytać kod z uwzględnieniem formy przewozu. Podstawa: ADR 8.6.4, kod D/E.",
+        "correct_option": "A",
+        "explanation": "Kod D/E rozróżnia przewóz w cysternie od pozostałych sposobów przewozu: pierwsza litera dotyczy cystern, a druga przewozu innego niż w cysternie. Przewóz luzem nie jest przewozem w cysternie, więc z tego kodu wynika zakaz w tunelu kategorii E, a nie automatycznie D i E. Podstawa: ADR 8.6.4, kod D/E.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -247,7 +247,7 @@
       "supplementary_source_url": "https://unece.org/adr-2025-files",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Odpowiedź wymaga ostatecznej kontroli polskiego tekstu urzędowego i wszystkich warunków szczególnych.",
+      "source_risk_note": "Potwierdzona korekta: przy kodzie D/E przewóz luzem stosuje drugą część kodu (E), a nie część dla cystern (D). Nie oznaczono jako verified; niezależna recenzja wymagana.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
