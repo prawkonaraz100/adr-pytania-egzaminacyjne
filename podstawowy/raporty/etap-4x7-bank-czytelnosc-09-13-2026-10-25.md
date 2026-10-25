@@ -7,9 +7,9 @@
 
 ## Czytelność wyjaśnień
 Rozwinięto skróty i terminy w 22 wyjaśnieniach:
-`ADR-B-0038`, `ADR-B-0085`, `ADR-B-0209`, `ADR-B-0214`, `ADR-B-0215`, `ADR-B-0226`, `ADR-B-0227`, `ADR-B-0233`, `ADR-B-0248`, `ADR-B-0278`, `ADR-B-0322`, `ADR-B-0382`, `ADR-B-0384`, `ADR-B-0388`, `ADR-B-0398`, `ADR-B-0508`, `ADR-B-0512`, `ADR-B-0536`, `ADR-B-0537`, `ADR-B-0540`, `ADR-B-0578`, `ADR-B-0579`, `ADR-B-0591`, `ADR-B-0598`.
+`ADR-B-0038`, `ADR-B-0085`, `ADR-B-0209`, `ADR-B-0214`, `ADR-B-0227`, `ADR-B-0233`, `ADR-B-0248`, `ADR-B-0278`, `ADR-B-0322`, `ADR-B-0382`, `ADR-B-0384`, `ADR-B-0388`, `ADR-B-0398`, `ADR-B-0508`, `ADR-B-0512`, `ADR-B-0536`, `ADR-B-0537`, `ADR-B-0540`, `ADR-B-0578`, `ADR-B-0579`, `ADR-B-0591`, `ADR-B-0598`.
 
-Uwaga: lista zawiera 24 identyfikatory kontrolowane w tej partii; 22 explanation wymagały faktycznej zmiany. Pozostałe pozycje z automatycznego skanu miały już wyjaśnione skróty lub wystarczające objaśnienie w treści. Dodane definicje dotyczą m.in. LQ (ilości ograniczone), numeru UN (identyfikator towaru niebezpiecznego), IMDG (przepisy dla przewozu morskiego) i RID (przepisy dla przewozu kolejowego).
+Dodane definicje dotyczą m.in. LQ (ilości ograniczone), numeru UN (identyfikator towaru niebezpiecznego), IMDG (przepisy dla przewozu morskiego) i RID (przepisy dla przewozu kolejowego).
 
 Zaktualizowano klucze egzaminów próbnych 001–005 dla zmienionych wyjaśnień, odświeżono pola `source_bank_head` we wszystkich wariantach oraz snapshoty w rejestrach `review/sequential/` i `review/legal-clauses/`. Te aktualizacje nie oznaczają ponownej recenzji prawnej.
 
