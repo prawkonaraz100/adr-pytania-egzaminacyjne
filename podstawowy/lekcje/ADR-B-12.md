@@ -1,5 +1,8 @@
 # ADR-B-12 — Ochrona przewozu towarów niebezpiecznych
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Ochrona przewozu (*security*) dotyczy zapobiegania kradzieży, sabotażowi i nieuprawnionemu dostępowi do towarów niebezpiecznych. Jest czymś innym niż zwykłe zabezpieczenie ładunku przed przesuwaniem. Szczególne wymagania mogą dotyczyć towarów dużego ryzyka i obejmować także postoje, kontrolę dostępu oraz sposób przekazywania informacji.
 
