@@ -268,12 +268,12 @@
       "exact_record_snapshot": {
         "stem": "W jaki sposób numer identyfikacyjny towaru niebezpiecznego podaje się w dokumencie przewozowym ADR?",
         "options": {
-          "A": "Jako sam numer rejestracyjny auta",
-          "B": "Zapisem „niebezpieczny” oraz nazwą handlową przesyłki zamiast numeru UN",
+          "A": "Sam czterocyfrowy numer bez liter „UN”, jeśli nazwa towaru jest poprawna",
+          "B": "Nazwa handlowa i klasa zagrożenia, bez numeru UN",
           "C": "Z literami UN przed czterocyfrowym numerem"
         },
         "correct_option": "C",
-        "explanation": "Numer UN zapisuje się z literami „UN” przed czterocyfrowym numerem, aby jednoznacznie zidentyfikować towar niebezpieczny. Sam numer rejestracyjny auta ani ogólne słowo „niebezpieczny” bez numeru UN nie zastępują tego zapisu. Sprawdź też pozostałe wymagane informacje w dokumencie. Podstawa: ADR 5.4.1.1.1(a).",
+        "explanation": "Numer UN zapisuje się z literami „UN” przed czterocyfrowym numerem, aby jednoznacznie zidentyfikować towar niebezpieczny. Sam numer bez prefiksu lub nazwa handlowa połączona z klasą nie zastępują tego zapisu. Sprawdź też pozostałe wymagane informacje w dokumencie i nie dopisuj identyfikatora na podstawie domysłu. Podstawa: ADR 5.4.1.1.1(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -310,11 +310,11 @@
         "stem": "Czy w dokumencie przewozowym ADR potrzebna jest prawidłowa nazwa przewozowa towaru?",
         "options": {
           "A": "Tak, zgodnie z zasadami ADR",
-          "B": "Nie, wystarcza imię kierowcy",
-          "C": "Nie, wystarcza numer faktury"
+          "B": "Nie, jeśli numer UN jest prawidłowy i pozwala ustalić towar",
+          "C": "Nie, gdy na opakowaniu znajduje się nazwa handlowa produktu"
         },
         "correct_option": "A",
-        "explanation": "Prawidłowa nazwa przewozowa pomaga kierowcy, przewoźnikowi i służbom ustalić, jaki towar jest transportowany. Samo imię kierowcy lub numer faktury nie określają rodzaju substancji ani wymagań bezpieczeństwa. Dlatego nazwa jest częścią opisu towaru w dokumencie przewozowym, obok innych wymaganych informacji. Podstawa: ADR 5.4.1.1.1(b).",
+        "explanation": "Prawidłowa nazwa przewozowa pomaga kierowcy, przewoźnikowi i służbom ustalić, jaki towar jest transportowany. Sam numer UN ani nazwa handlowa na opakowaniu nie zastępują wymaganej nazwy w dokumencie. Dlatego należy podać nazwę zgodną z ADR wraz z pozostałymi wymaganymi informacjami. Podstawa: ADR 5.4.1.1.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -350,12 +350,12 @@
       "exact_record_snapshot": {
         "stem": "Ile stron liczy standardowy wzór instrukcji pisemnych ADR?",
         "options": {
-          "A": "Jedną",
+          "A": "Trzy",
           "B": "Cztery",
-          "C": "Dziesięć"
+          "C": "Pięć"
         },
         "correct_option": "B",
-        "explanation": "Instrukcje pisemne ADR mają ustalony, czterostronicowy wzór, żeby załoga mogła szybko znaleźć informacje potrzebne przy zdarzeniu. Jedna strona nie oddaje pełnego wzoru, a dziesięć stron nie odpowiada standardowi ADR. Najważniejsze jest, aby przed wyjazdem wiedzieć, gdzie instrukcje leżą i co zawierają. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne ADR mają ustalony, czterostronicowy wzór, żeby załoga mogła szybko znaleźć informacje potrzebne przy zdarzeniu. Trzy strony nie obejmują całego wzoru, a pięć nie odpowiada standardowej formie określonej w ADR. Najważniejsze jest, aby przed wyjazdem wiedzieć, gdzie instrukcje leżą i co zawierają. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
