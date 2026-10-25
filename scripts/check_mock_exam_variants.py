@@ -62,7 +62,7 @@ def heuristic_warnings(rows):
 def audit(root=ROOT):
     bank_path = root / "podstawowy" / "questions.jsonl"
     bank_bytes = bank_path.read_bytes()
-    bank_blob_sha = hashlib.sha1(b"blob " + str(len(bank_bytes)).encode("ascii") + b"\\0" + bank_bytes).hexdigest()
+    bank_blob_sha = hashlib.sha1(b"blob " + str(len(bank_bytes)).encode("ascii") + bytes([0]) + bank_bytes).hexdigest()
     rows = [json.loads(line) for line in bank_bytes.decode("utf-8").splitlines() if line.strip()]
     bank = {row["id"]: row for row in rows}
     errors, stats, all_ids = [], [], []
