@@ -24,6 +24,11 @@ Podstawa ogólna: ADR 1.4, w tym 1.4.2–1.4.3.
 ## 3. Szkolenie a zaświadczenie kierowcy
 Szkolenie ADR 1.3 jest dostosowane do zadań pracownika uczestniczącego w przewozie. Nie jest tym samym co zaświadczenie kierowcy wymagane w przypadkach określonych w ADR 8.2. Pracownik przygotowujący dokumenty nie uzyskuje automatycznie uprawnień kierowcy ADR po szkoleniu stanowiskowym.
 
+
+### Dokumentowanie szkolenia i zmiana pracy
+Pracodawca prowadzi zapisy szkolenia ADR 1.3 i udostępnia je właściwej władzy na żądanie (ADR 1.3.3). Przy rozpoczęciu pracy w nowym przedsiębiorstwie sprawdza się, czy wcześniejsze szkolenie pracownika odpowiada zadaniom, które ma wykonywać; sama nazwa stanowiska lub szkolne wykształcenie nie potwierdzają zakresu szkolenia. Szkolenie trzeba uzupełniać, gdy zmieniają się wymagania lub obowiązki. Pracownik bez wymaganego przygotowania może wykonywać związane z ADR czynności tylko pod bezpośrednim nadzorem osoby przeszkolonej (ADR 1.3.1).
+
+Szkolenie funkcjonalne dobiera się do realnych zadań pracownika. Jeżeli obsługuje on łańcuch drogowo-morski lub kolejowy, należy uwzględnić wymagania innych gałęzi transportu w zakresie, w jakim dotyczą jego pracy (ADR 1.3.2.2). Zaświadczenie kierowcy ADR uzyskuje się po wymaganym szkoleniu i zdaniu egzaminu; nie zastępuje ono prawa jazdy właściwej kategorii ani dokumentów przewozowych. Dla niektórych przewozów, w tym określonych przewozów klasy 7, trzeba sprawdzić dodatkowe wymagania szkoleniowe i przepisy szczególne.
 ## 4. Cztery mechanizmy, których nie wolno mylić
 | Mechanizm | Podstawa | Co sprawdzić |
 |---|---|---|

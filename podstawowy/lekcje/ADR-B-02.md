@@ -30,9 +30,15 @@ Klasyfikacja wynika z właściwości towaru i przepisów ADR. Tabela A w rozdzia
 | 8 | Materiały żrące | Mogą uszkadzać tkanki i materiały |
 | 9 | Różne materiały i przedmioty niebezpieczne | Niektóre towary mają nalepkę 9A |
 
+
+### Klasa 1 — podstawowe różnice podklas
+W klasie 1 podklasa 1.1 oznacza zagrożenie wybuchem masowym; 1.2 — zagrożenie rozrzutem, bez zagrożenia wybuchem masowym; 1.3 — zagrożenie pożarem z niewielkim zagrożeniem wybuchem lub rozrzutem albo jednym i drugim, ale bez zagrożenia wybuchem masowym; 1.5 obejmuje bardzo mało wrażliwe materiały z zagrożeniem wybuchem masowym, a 1.6 skrajnie mało wrażliwe przedmioty bez zagrożenia wybuchem masowym. „Bardzo mało wrażliwe” nie oznacza „bez zagrożenia”. Szczegółowa klasyfikacja materiałów klasy 1 wymaga stosowania kryteriów ADR, a nie samego rozpoznania nalepki.
 ## 3. Grupa pakowania to nie klasa
 W klasach, w których stosuje się grupy pakowania, I oznacza wysoki, II średni, a III niski stopień zagrożenia według właściwych kryteriów. Nie wszystkie towary mają grupę pakowania. Klasa opisuje rodzaj zagrożenia, grupa pakowania — jego stopień, gdy ma zastosowanie, a numer UN identyfikuje pozycję.
 
+
+### Grupa pakowania i kolumny tabeli A
+Tam, gdzie ADR stosuje grupy pakowania, I oznacza wysoki, II średni, a III niski stopień zagrożenia według kryteriów właściwych dla danej klasy. Nie wszystkie pozycje mają grupę pakowania. W tabeli A numer UN znajduje się w kolumnie 1, nazwa i opis w kolumnie 2, klasa w kolumnie 3a, grupa pakowania — jeśli dotyczy — w kolumnie 4, nalepki w kolumnie 5, limit LQ w kolumnie 7a, kod EQ w kolumnie 7b, kod tunelowy w kolumnie 15, a informacje o nadzorze/postoju mogą być wskazane w kolumnie 19. Sprawdź właściwy wpis, zamiast przenosić limit lub regułę z innego towaru.
 ## 4. Rozpoznawanie nalepek i przypadki szczególne
 Nalepkę czytaj jako całość: kolor, symbol, kształt i numer. Opisy ćwiczeniowe z tej lekcji obejmują:
 - wzór 4.1 — czerwone i białe pasy pionowe;
@@ -50,6 +56,11 @@ Opisy słowne nie zastępują sprawdzenia oficjalnego wzoru nalepki.
 **Klasa 9 — baterie sodowo-jonowe:** ADR 2025 zawiera pozycję UN 3551. Przed przewozem sprawdź konkretny wpis w tabeli A i warunki dotyczące baterii.
 **Klasy 1 i 7:** podstawowe rozpoznanie zagrożenia nie zastępuje specjalistycznych wymagań dla przewozu.
 
+
+### Nalepki zagrożenia dodatkowego i baterie sodowo-jonowe
+Jeśli tabela A wymaga nalepki zagrożenia głównego i dodatkowego, obie informacje mają znaczenie; jedna nalepka nie zastępuje drugiej. Nalepka 2.3 oznacza gaz trujący, 6.1 — materiał trujący, a 9A jest odrębnym wzorem stosowanym w określonych przewozach baterii.
+
+W ADR 2025 pozycje UN 3551 i UN 3552 dotyczą baterii sodowo-jonowych w różnych postaciach przewozu; sprawdź dokładną nazwę w tabeli A, a nie tylko to, że to „bateria”. Wymagania klasyfikacyjne dla baterii obejmują warunki dotyczące badań typu oraz konstrukcji ogniw/baterii, w tym ochronę przed zwarciem zewnętrznym i niebezpiecznym prądem wstecznym, gdy te warunki mają zastosowanie. Samo badanie pojedynczych ogniw nie zawsze potwierdza spełnienie wymagań dla całego typu baterii. Materiały promieniotwórcze klasy 7 również wymagają sprawdzenia odpowiednich kryteriów i przepisów szczególnych; kurs podstawowy nie daje automatycznie uprawnień do każdego przewozu klasy 7.
 ## 5. Gdy nalepka i dokumenty nie pasują
 Nie rozpoznawaj towaru po zapachu, wyglądzie cieczy ani nazwie handlowej. Odczytaj pełną nalepkę, numer UN i dokumenty, a następnie porównaj je z tabelą A. Zagrożenia dodatkowe mogą wpływać na wymagane oznakowanie. Rozbieżność wyjaśnij przed przewozem.
 

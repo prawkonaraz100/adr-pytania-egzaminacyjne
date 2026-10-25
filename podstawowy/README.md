@@ -43,6 +43,7 @@
 - [Etap 4x2 — redakcja podręcznikowa lekcji 01–04](raporty/etap-4x2-redakcja-lekcji-01-04-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 05–08](raporty/etap-4x2-redakcja-lekcji-05-08-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 09–12](raporty/etap-4x2-redakcja-lekcji-09-12-2026-10-25.md)
+- [Etap 4x3 — zgodność banku z podręcznikiem B-01–B-04](raporty/etap-4x3-pokrycie-banku-01-04-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 13](raporty/etap-4x2-redakcja-lekcji-13-2026-10-25.md)
 - Materiały dla instruktora: [B-13](instruktor/ADR-B-13.md).
 - Materiały dla instruktora: [B-09](instruktor/ADR-B-09.md), [B-10](instruktor/ADR-B-10.md), [B-11](instruktor/ADR-B-11.md), [B-12](instruktor/ADR-B-12.md).
