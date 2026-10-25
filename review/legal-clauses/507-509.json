@@ -36,12 +36,12 @@
         "module_id": "ADR-B-06",
         "stem": "Kierowca przed odjazdem zauważa, że na numerowanej tablicy pomarańczowej górne pole zawiera „1203”, a dolne „33”. Dokument przewozowy wskazuje numer UN 1203. Co powinien wyjaśnić przed rozpoczęciem przewozu?",
         "options": {
-          "A": "Sprawdzić, czy numer UN 1203 może pozostać w górnym polu, jeśli jest czytelny",
+          "A": "Utrzymać numer UN w górnym polu tablicy, jeśli numer jest czytelny i zgadza się z dokumentem przewozowym",
           "B": "Sprawdzić, czy numery UN i zagrożenia nie zostały zamienione miejscami",
-          "C": "Sprawdzić, czy pozioma linia rozdzielająca pola powinna być zastąpiona linią pionową"
+          "C": "Zastąpić poziomą linię rozdzielającą pola linią pionową"
         },
         "correct_option": "B",
-        "explanation": "Na tablicy pomarańczowej numer rozpoznawczy zagrożenia znajduje się w górnym polu, a numer UN w dolnym. Jeśli widnieją odwrotnie, oznakowanie jest niezgodne i trzeba wyjaśnić to przed odjazdem. Pozioma linia jest właściwym elementem tablicy, więc zastępowanie jej pionową nie rozwiązuje problemu. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Na tablicy pomarańczowej numer rozpoznawczy zagrożenia znajduje się w górnym polu, a numer UN w dolnym. Jeśli widnieją odwrotnie, oznakowanie jest niezgodne i trzeba wyjaśnić to przed odjazdem. Pozioma linia jest właściwym elementem tablicy, więc zastępowanie jej pionową nie rozwiązuje problemu. Czytelny numer w niewłaściwym polu nadal jest błędem; linia ma pozostać pozioma. Podstawa: ADR 5.3.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
