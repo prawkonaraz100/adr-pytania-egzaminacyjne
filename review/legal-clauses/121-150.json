@@ -1142,15 +1142,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ten wariant („Zostawić świadectwo w archiwum floty i okazać później”) nie spełnia opisanego warunku ADR. Odbiorca nie jest miejscem przechowywania świadectwa samochodu ciężarowego FL podczas jazdy."
+          "rationale": "Niepoprawna: sam skan w telefonie i oryginał w archiwum nie spełniają wymogu posiadania wymaganego świadectwa w pojeździe. Podstawa: ADR 8.1.2.2(a)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wymagane świadectwo pojazdu silnikowego FL jest co do zasady w kabinie."
+          "rationale": "Poprawna: wymagane świadectwo dopuszczenia pojazdu powinno być dostępne w kabinie podczas przewozu. Wyjątek M364 należy stosować tylko do naczepy i po sprawdzeniu jego warunków oraz obowiązywania. Podstawa: ADR 8.1.2.2(a); umowa M364."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten wariant („Trzymać je w dokumentacji ośrodka razem z zaświadczeniem kierowcy”) nie spełnia opisanego warunku ADR. Archiwum szkolenia nie zastępuje wymaganego dokumentu pojazdu."
+          "rationale": "Niepoprawna: dokumentacja ośrodka nie zastępuje świadectwa wymaganego w pojeździe. Podstawa: ADR 8.1.2.2(a)."
         }
       },
       "observed_answer_key": "B",
@@ -1164,12 +1164,12 @@
         "module_id": "ADR-B-13",
         "stem": "Gdzie podczas przewozu powinno znajdować się wymagane świadectwo dopuszczenia samochodu ciężarowego typu FL (pojazdu silnikowego, nie naczepy), zgodnie z ogólną zasadą ADR?",
         "options": {
-          "A": "Zostawić świadectwo w archiwum floty i okazać później",
+          "A": "Wystarczy skan w telefonie",
           "B": "Mieć wymagane świadectwo w kabinie razem z dokumentami przewozu",
-          "C": "Trzymać je w dokumentacji ośrodka razem z zaświadczeniem kierowcy"
+          "C": "Pozostawić świadectwo w biurze, a w kabinie trzymać tylko zaświadczenie kierowcy ADR"
         },
         "correct_option": "B",
-        "explanation": "Świadectwo dopuszczenia pojazdu FL potwierdza spełnienie szczególnych wymagań technicznych dla tego rodzaju pojazdu. Gdy jest wymagane, należy je mieć w kabinie razem z innymi dokumentami, aby można je było okazać podczas kontroli. Dokument pozostawiony u odbiorcy lub w archiwum szkolenia nie spełnia tego celu. Podstawa: ADR 8.1.2.2(a).",
+        "explanation": "Świadectwo dopuszczenia pojazdu FL potwierdza spełnienie szczególnych wymagań technicznych dla tego rodzaju pojazdu. Gdy jest wymagane, należy je mieć w kabinie razem z innymi dokumentami, aby można je było okazać podczas kontroli. Sam skan w telefonie lub dokument pozostawiony w biurze nie zastępuje wymaganego świadectwa w pojeździe. Podstawa: ADR 8.1.2.2(a); sprawdź też warunki ewentualnej umowy wielostronnej.",
         "sources": [
           {
             "code": "ADR-2025-PL",

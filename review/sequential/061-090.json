@@ -1086,14 +1086,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W czasie kontroli ADR kierowca ma dokument przewozowy i instrukcje pisemne, ale nie ma przy sobie wymaganego dokumentu ze zdjęciem. Co jest niezgodne?",
+        "stem": "Który dokument spełnia wymóg identyfikacji członka załogi ze zdjęciem, gdy ma zastosowanie ADR 1.10.1.4?",
         "options": {
-          "A": "Brak dodatkowego dziennika tankowania",
-          "B": "Brak umowy o pracę w dwóch egzemplarzach",
-          "C": "Brak dokumentu identyfikującego członka załogi ze zdjęciem"
+          "A": "Karta bez zdjęcia, z nazwiskiem",
+          "B": "Wspólna lista nazwisk całej załogi bez indywidualnych dokumentów ze zdjęciem",
+          "C": "Własny dokument tożsamości ze zdjęciem dla każdego członka załogi"
         },
         "correct_option": "C",
-        "explanation": "Przy przewozie objętym tym wymogiem każdy członek załogi musi mieć własny dokument tożsamości ze zdjęciem. Pozwala to potwierdzić, kto rzeczywiście uczestniczy w transporcie niebezpiecznego ładunku. Dziennik tankowania ani kopie umowy o pracę nie zastępują dokumentu identyfikacyjnego. Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).",
+        "explanation": "W zakresie ADR 1.10.1.4 każdy członek załogi powinien mieć własny dokument tożsamości ze zdjęciem. Karta bez fotografii nie pozwala wiarygodnie potwierdzić tożsamości, a wspólna lista nie jest indywidualnym dokumentem. Sprawdź też, czy wymagane dokumenty są dostępne podczas przewozu. Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1129,12 +1129,12 @@
       "exact_record_snapshot": {
         "stem": "Czy kierowca zawsze może zastąpić instrukcje pisemne ADR własnoręcznie sporządzoną notatką?",
         "options": {
-          "A": "Tak, pod warunkiem dołączenia mapy",
+          "A": "Tak, jeśli notatka odtwarza z pamięci najważniejsze punkty instrukcji",
           "B": "Nie, instrukcje powinny być zgodne z określonym wzorem ADR",
-          "C": "Tak, gdy zna klasy przewożonych towarów"
+          "C": "Tak, wystarczy e-mail firmy"
         },
         "correct_option": "B",
-        "explanation": "Instrukcje pisemne pomagają załodze w sytuacji awaryjnej, dlatego ich układ i treść mają odpowiadać ustalonemu wzorowi ADR. Własna notatka, nawet uzupełniona mapą, może pominąć ważne działania i nie jest zamiennikiem instrukcji. Sama znajomość klas towarów także nie zwalnia z posiadania właściwego dokumentu. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne pomagają załodze w sytuacji awaryjnej, dlatego ich układ i treść mają odpowiadać ustalonemu wzorowi ADR. Własna notatka lub firmowe streszczenie może pominąć ważne działania i nie zastępuje wymaganych instrukcji. Sama znajomość klas towarów także nie zwalnia z posiadania właściwego dokumentu. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",

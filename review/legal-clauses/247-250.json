@@ -147,15 +147,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada zasadzie ADR 2025, 1.10.1.4; 8.1.2.1, ponieważ proponuje: Wyłącznie karty rabatowej stacji paliw. Wymagana recenzja specjalisty."
+          "rationale": "Niepoprawna: wspólna lista nazwisk bez indywidualnych dokumentów ze zdjęciem nie spełnia wymogu identyfikacji. Podstawa: ADR 1.10.1.4."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "W odpowiednim zakresie wymagane jest, aby każdy członek załogi miał przy sobie dokument tożsamości ze zdjęciem."
+          "rationale": "Poprawna: wymagany jest dokument tożsamości ze zdjęciem każdego członka załogi, gdy przepis ma zastosowanie. Podstawa: ADR 1.10.1.4 i 8.1.2.1."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada zasadzie ADR 2025, 1.10.1.4; 8.1.2.1, ponieważ proponuje: Zawsze wydruku historii przeglądarki telefonu. Wymagana recenzja specjalisty."
+          "rationale": "Niepoprawna: dokument tylko kierowcy nie obejmuje pozostałych członków załogi. Podstawa: ADR 1.10.1.4."
         }
       },
       "observed_answer_key": "B",
@@ -168,12 +168,12 @@
         "module_id": "ADR-B-13",
         "stem": "Załoga wykonuje przewóz ADR podlegający wymaganiom 1.10.1.4. Jakiego dokumentu nie należy pomijać podczas kontroli?",
         "options": {
-          "A": "Wyłącznie karty rabatowej stacji paliw",
+          "A": "Wspólna lista nazwisk członków załogi bez ich indywidualnych dokumentów ze zdjęciem",
           "B": "Dokumentu tożsamości ze zdjęciem każdego członka załogi",
-          "C": "Zawsze wydruku historii przeglądarki telefonu"
+          "C": "Dokument ze zdjęciem tylko dla kierowcy, bez dokumentu dla pozostałych członków załogi"
         },
         "correct_option": "B",
-        "explanation": "Dokument tożsamości ze zdjęciem pozwala podczas kontroli potwierdzić, kto należy do załogi przewożącej towar niebezpieczny. Gdy obowiązuje ten wymóg, każdy członek załogi powinien mieć własny dokument. Karta rabatowa stacji paliw ani historia przeglądarki telefonu nie zastępują identyfikacji. Podstawa: ADR 1.10.1.4 i 8.1.2.1.",
+        "explanation": "Wymaganie dotyczy indywidualnego dokumentu tożsamości ze zdjęciem dla każdego członka załogi, gdy ADR 1.10.1.4 ma zastosowanie. Lista nazwisk nie potwierdza tożsamości konkretnej osoby, a dokument samego kierowcy nie obejmuje pozostałych członków załogi. Sprawdź dokumenty wszystkich osób uczestniczących w przewozie. Podstawa: ADR 1.10.1.4 i 8.1.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
