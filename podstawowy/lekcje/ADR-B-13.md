@@ -1,5 +1,8 @@
 # ADR-B-13 — Dokumenty kierowcy i dokument przewozowy
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Dokumenty i instrukcje pozwalają sprawdzić, co jest przewożone, na jakich warunkach i jak postępować w razie zdarzenia. Niekompletny dokument albo instrukcje w niezrozumiałym języku mogą utrudnić bezpieczny przewóz i reakcję służb. Przed wyjazdem sprawdź dokument przewozowy, wymagane dokumenty dodatkowe i instrukcje pisemne jako odrębne elementy.
 
