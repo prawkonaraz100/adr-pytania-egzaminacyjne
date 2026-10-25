@@ -144,3 +144,18 @@ Powtórka w banku: ADR-B-0249, 0300, 0304–0305, 0458–0460.
 - Stosuj procedurę weryfikacji tożsamości i uprawnienia do odbioru.
 - Wymagania zależą od właściwych danych i progów; sama klasa towaru nie przesądza o wszystkich obowiązkach.
 - Podstawy do dalszej nauki: ADR 1.10, w szczególności 1.10.1 i właściwe postanowienia o towarach dużego ryzyka.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0304`
+- `ADR-B-0305`
+- `ADR-B-0519`
+- `ADR-B-0034`
+- `ADR-B-0035`
+- `ADR-B-0036`
+- `ADR-B-0066`
+- `ADR-B-0067`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-12 — ADR-B-12](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-12`; jest to symulacja, nie zaliczenie zajęć praktycznych).
