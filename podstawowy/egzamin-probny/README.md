@@ -12,7 +12,7 @@
 ## Generowanie kolejnego wariantu
 
 ```bash
-python scripts/draft_mock_exam.py --seed 20261025 --variant 2 --source-head 5f5a516bb27b3704455b1420030c450d9077f14e --exclude podstawowy/egzamin-probny/wariant-001.json --output podstawowy/egzamin-probny/wariant-002.json --key-output podstawowy/egzamin-probny/klucz-002.json
+python scripts/draft_mock_exam.py --seed 20261025 --variant 2 --source-head e1eb80d9db9bb5f475bb655fc08b47b7a866bb64 --exclude podstawowy/egzamin-probny/wariant-001.json --output podstawowy/egzamin-probny/wariant-002.json --key-output podstawowy/egzamin-probny/klucz-002.json
 ```
 
 Wariant 002 wyklucza wszystkie ID z wariantu 001, gdy dostępna pula pozwala. Ten sam seed, bank i plik wykluczeń dają ten sam zestaw. Bez `--seed` losowany jest seed. Dobór jest proporcjonalny i obejmuje wszystkie 13 działów. Próg treningowy 20/30 (2/3), czas 60 minut.
