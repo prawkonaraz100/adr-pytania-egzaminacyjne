@@ -23,7 +23,7 @@
         "stem": "Przewoźnik stwierdził przed wyjazdem naruszenie wymagań ADR. Kiedy według 1.4.2.2.3 może przekazać przesyłkę do dalszego przewozu?",
         "options": {
           "A": "Po usunięciu wykrytego naruszenia wymagań ADR",
-          "B": "Po podpisaniu przez kierowcę protokołu wykrytej niezgodności",
+          "B": "Po podpisaniu protokołu naruszenia",
           "C": "Po upływie ustalonego czasu postoju i zgłoszeniu dyspozytorowi"
         },
         "correct_option": "A",
@@ -65,7 +65,7 @@
         "options": {
           "A": "Dojechać do bazy, jeśli naruszenie nie utrudnia prowadzenia pojazdu",
           "B": "Zatrzymać przewóz możliwie szybko i bezpiecznie",
-          "C": "Powiadomić dyspozytora i kontynuować jazdę do planowego postoju"
+          "C": "Zgłosić problem i dojechać do postoju"
         },
         "correct_option": "B",
         "explanation": "Jeśli w drodze zostanie wykryte naruszenie, które może zagrażać bezpieczeństwu, przewoźnik powinien zatrzymać przewóz tak szybko, jak to możliwe, ale w sposób bezpieczny dla ruchu i ludzi. Nie należy kontynuować jazdy za wszelką cenę. Dojazd do bazy lub planowego postoju nie jest bezpiecznym rozwiązaniem przy zagrożeniu. Podstawa: ADR 1.4.2.2.4.",
@@ -104,7 +104,7 @@
       "exact_record_snapshot": {
         "stem": "Nadawca korzysta z pracy innych uczestników przewozu ADR. Czy to automatycznie usuwa obowiązek nadawcy dbania o zgodność przesyłki?",
         "options": {
-          "A": "Uznać, że przygotowanie ładunku należy już do pakującego",
+          "A": "Uznać, że odpowiada tylko pakujący",
           "B": "Nadal zadbać o zgodność przesyłki z wymogami ADR",
           "C": "Przyjąć dane z faktury jako dowód poprawnego przygotowania"
         },
@@ -147,7 +147,7 @@
         "options": {
           "A": "Firma, na której zlecenie działa nadawca",
           "B": "Firma pakująca, gdy towar trafił już do magazynu nadawcy",
-          "C": "Kierowca, gdy odbierze ładunek i otrzyma dokumenty dostawy"
+          "C": "Kierowca dopiero po odbiorze ładunku"
         },
         "correct_option": "A",
         "explanation": "Jeżeli nadawca działa w imieniu innej firmy, a nie wie, że ładunek jest niebezpieczny, podmiot zlecający powinien przekazać mu tę informację na piśmie wraz z wymaganymi danymi i dokumentami. Przypadkowy przechodzień ani kierowca po zakończeniu przewozu nie zastąpią tego obowiązku. Dane trzeba przekazać przed przygotowaniem przewozu, nie po odbiorze. Podstawa: ADR 1.4.2.1.3.",
@@ -188,7 +188,7 @@
         "options": {
           "A": "Oznakować sztuki przesyłek i umieścić nalepki ADR",
           "B": "Zamieścić numer UN w dokumencie i przekazać paczki do transportu",
-          "C": "Przekazać paczki, a opis zawartości przesłać kierowcy"
+          "C": "Wysłać opis do kierowcy zamiast nalepek"
         },
         "correct_option": "A",
         "explanation": "Pakujący odpowiada za przygotowanie sztuk przesyłek zgodnie z wymaganiami, w tym za wymagane oznakowanie i nalepki. Samo wpisanie numeru UN w dokumencie nie naprawia braku oznaczeń na opakowaniu. Opis wysłany kierowcy nie zastępuje nalepek wymaganych na opakowaniu. W praktyce kierowca musi sprawdzić zgodność przed kolejnym etapem przewozu. Podstawa: ADR 1.4.3.2(b).",
@@ -229,7 +229,7 @@
         "options": {
           "A": "Porównać masę produktów i ułożyć cięższy towar na dole",
           "B": "Sprawdzić wymagania dotyczące wspólnego pakowania",
-          "C": "Uzgodnić z odbiorcą układ towarów w jednym opakowaniu"
+          "C": "Uzgodnić pakowanie z odbiorcą"
         },
         "correct_option": "B",
         "explanation": "Pakujący musi przestrzegać zasad pakowania, także wtedy, gdy kilka towarów ma trafić do jednego opakowania. Podobna masa ani życzenie odbiorcy nie przesądzają, że wspólne pakowanie jest dozwolone. Układ cięższych produktów i zgoda odbiorcy nie dowodzą zgodności łączenia towarów. Podstawa: ADR 1.4.3.2(a).",
@@ -270,7 +270,7 @@
         "options": {
           "A": "Porównać rzeczywisty towar z dokumentami przewozu",
           "B": "Porównać oznakowanie naczepy z grafiką w zleceniu transportowym",
-          "C": "Sprawdzić termin dostawy i liczbę palet w harmonogramie"
+          "C": "Sprawdzić liczbę palet w harmonogramie"
         },
         "correct_option": "A",
         "explanation": "Przed rozładunkiem należy upewnić się, że przesyłki odpowiadają informacjom w dokumentach i są właściwymi towarami do przyjęcia. Kolor naczepy ani cena paliwa nie pozwalają potwierdzić zawartości. Grafika naczepy, liczba palet i termin dostawy nie wystarczą do identyfikacji ładunku. Podstawa: ADR 1.4.3.7.1(a).",
@@ -311,7 +311,7 @@
         "options": {
           "A": "Przenieść uszkodzoną paczkę na wydzielony koniec rampy i rozładowywać dalej",
           "B": "Przerwać rozładunek do wdrożenia środków bezpieczeństwa",
-          "C": "Wyładować pozostałe paczki, a uszkodzoną sprawdzić po zakończeniu pracy"
+          "C": "Sprawdzić szkodę po rozładunku"
         },
         "correct_option": "B",
         "explanation": "Jeśli podczas rozładunku stwierdzono poważne uszkodzenie opakowania, które może zagrażać bezpieczeństwu, rozładunku nie wolno rozpoczynać albo trzeba go przerwać. Zignorowanie uszkodzenia lub przyspieszenie pracy zwiększa ryzyko wycieku i narażenia ludzi. Odsunięcie paczki na rampę lub sprawdzenie jej dopiero po pracy może zwiększyć zagrożenie. Podstawa: ADR 1.4.3.7.1(b).",
@@ -352,7 +352,7 @@
         "options": {
           "A": "Rozładowca w zakresie czyszczenia po rozładunku",
           "B": "Kierowca kolejnego zestawu, który przyjedzie po nowy ładunek",
-          "C": "Osoba zatwierdzająca fakturę za wykonany transport"
+          "C": "Osoba zatwierdzająca fakturę"
         },
         "correct_option": "A",
         "explanation": "Rozładowca powinien dopilnować oczyszczenia i, jeśli to konieczne, odkażenia pojazdu lub kontenera po rozładunku, gdy wymagają tego przepisy. Nie jest to zadanie przypadkowego kierowcy ani osoby wystawiającej fakturę. Kolejny kierowca ani księgowość nie zastępują obowiązków rozładowcy. Podstawa: ADR 1.4.3.7.1(d).",
@@ -393,7 +393,7 @@
         "options": {
           "A": "Usunąć oznaczenia ADR zbędne po oczyszczeniu",
           "B": "Zamienić wcześniejsze nalepki na oznaczenia kolejnego ładunku",
-          "C": "Zachować nalepki do następnej kontroli dokumentów kontenera"
+          "C": "Pozostawić nalepki do kolejnej kontroli"
         },
         "correct_option": "A",
         "explanation": "Po rozładunku i oczyszczeniu należy usunąć duże nalepki i oznaczenia, które nie są już wymagane. Pozostawienie ich bez sprawdzenia może błędnie sugerować, że pojazd lub kontener nadal przewozi wskazane zagrożenie. Znakowanie przyszłego ładunku przed jego oceną i pozostawienie zbędnych nalepek może mylić odbiorców. Podstawa: ADR 1.4.3.7.1(e).",
