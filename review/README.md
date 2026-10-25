@@ -45,3 +45,12 @@ To **przykład schematu**, nie rzeczywista recenzja. Niczego takiego jeszcze nie
 ## Ograniczenie
 
 Plik już wcześniej wygenerowany i niezależnie przechowywany nie jest automatycznie wycofywany po aktualizacji pytań; publikujący musi przypinać wydanie do dokładnego commita oraz ponownie uruchamiać bramkę przed każdą publikacją. Nie publikować z katalogu `dist/` bez wersjonowania.
+
+
+## Aktualizacja etapu 4x18 — egzamin próbny i priorytety recenzji
+
+Stan migawki banku po wyrównaniu dystraktorów: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych akceptacji. Arkusze 001–005 i ich klucze są przypięte do bieżącego Git blob SHA banku; test blokujący sprawdza aktualność migawki, kompletność 30 pytań, wszystkie 13 działów, zgodność poprawnej litery i explanation z bankiem oraz brak duplikatów.
+
+**Priorytet do niezależnej kontroli prawnej:** pytania zależne od wartości liczbowych, wyposażenia, terminów kontroli, postojów i ochrony przewozu, w szczególności ADR-B-0073, ADR-B-0074, ADR-B-0253, ADR-B-0283, ADR-B-0420, ADR-B-0422, ADR-B-0484, ADR-B-0144, ADR-B-0249, ADR-B-0274, ADR-B-0275, ADR-B-0300, ADR-B-0304 i ADR-B-0305. To lista priorytetowa, nie wyczerpująca: wszystkie 609 pytań nadal wymagają indywidualnej recenzji. Dla pytań wrażliwych na aktualizację ADR należy też wykorzystać rejestry `podstawowy/raporty/etap-4x9-wrazliwosc-01-04.json`, `...-05-08.json` i `...-09-13.json`.
+
+Nie zmieniaj `verification_status` na `verified` automatycznie. Zmiana tego statusu wymaga rzeczywistej recenzji specjalisty, potwierdzenia polskiego tekstu urzędowego ADR i sprostowania, oceny każdej odpowiedzi A/B/C oraz wpisu z prawdziwą tożsamością recenzenta w procesie zatwierdzania. Wskaźniki jakości, testy i automatyczne porównania nie stanowią opinii prawnej.
