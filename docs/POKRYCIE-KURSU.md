@@ -1,15 +1,15 @@
 # ADR podstawowy — aktualne pokrycie kursu
 
-**Stan aktualny po audycie 4w: 25.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
+**Stan aktualny po etapie 4w4: 25.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
 
 ## Co naprawdę zostało ukończone?
 
-- **569 autorskich pytań** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **569 needs_review / 0 verified**.
+- **609 autorskich pytań** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **609 needs_review / 0 verified**.
 - **104/104 kompetencji teoretycznych** ma co najmniej jedno pytanie w wersji roboczej. **0/104** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
-- Rozkład prawidłowych opcji: A=190, B=192, C=187.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **80/569 = 14,06%**; wszystkie 13 działów są poniżej 18%.
+- Rozkład prawidłowych opcji: A=205, B=207, C=197.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **86/609 = 14,12%**; wszystkie 13 działów są poniżej 18%.
 - [Audyt 4w](../podstawowy/raporty/etap-4w-program-13-dzialow-mapa-luk.md) dokumentuje wszystkie 107 kompetencji i ID; [kontrola 13 lekcji](../podstawowy/raporty/etap-4w-przeglad-13-lekcji-odsylacze.md) usunęła błędny skrót zakresu w B-09. Dane liczbowe dotyczą bieżącego banku, natomiast niższe sekcje dokumentu zachowują historię poprzednich etapów.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
 
