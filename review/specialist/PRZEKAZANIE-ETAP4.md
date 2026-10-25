@@ -60,3 +60,26 @@ Dosłowna polska kontrola **0/542 nowych porównań** w poprzednim audycie 4k: `
 ## Aneks 4m — wynik partii ADR-B-06
 
 Po redakcji pięciu wariantów w module ADR-B-06, lokalny próg długości odpowiedzi jest spełniony (**14/35 = 40,0%**); aktualny wskaźnik globalny to **365/545 = 67,0%**. Nadal brak 545 autoryzacji prawnych, wszystkie pytania `needs_review`. Publiczny egzamin jest zablokowany. Szczegóły: `review/batches/stage4m-length-bias-batch4-b06.md`.
+
+
+## Aktualny aneks 4x6 — przekazanie do recenzji (25.10.2026)
+
+Ten aneks jest aktualnym podsumowaniem stanu i zastępuje starsze liczby historyczne powyżej przy planowaniu recenzji.
+
+- **Zakres:** wyłącznie kurs podstawowy ADR.
+- **Bank:** `podstawowy/questions.jsonl` — 609 pytań ADR-B-0001–ADR-B-0609; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- **Indeks:** [REJESTR-AKTUALNY-0001-0609.md](REJESTR-AKTUALNY-0001-0609.md).
+- **Manifest:** [PAKIET-0609-MANIFEST.json](PAKIET-0609-MANIFEST.json); źródłowy rejestr porównań prawnych: `review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json`.
+- **Lekcje i materiały instruktora:** po 13 plików w `podstawowy/lekcje/` i `podstawowy/instruktor/`; w każdym pliku znajdują się odwołania do trzech scenariuszy właściwego działu.
+- **Praktyka:** 39 scenariuszy, po 3 dla każdego z 13 działów, w `podstawowy/praktyka/scenariusze-13-dzialow.json`; instrukcja: `podstawowy/praktyka/SCENARIUSZE.md`.
+- **Egzaminy treningowe:** warianty i klucze 001–005 w `podstawowy/egzamin-probny/`; nie są oficjalnymi arkuszami, `publication_authorized: false`.
+
+### Co specjalista ma sprawdzić
+
+1. Dla każdego z 609 pytań osobno: stem, poprawność A/B/C, jednoznaczność, explanation (prosty język, 2–5 zdań), właściwy punkt ADR 2025, wpływ sprostowania Dz.U. 2025 poz. 1575 oraz zgodność z zakresem kursu podstawowego.
+2. Porównać wszystkie odwołania prawne z urzędowym polskim tekstem Dz.U. 2025 poz. 642 i sprostowaniem, a nie wyłącznie z materiałami pomocniczymi.
+3. Zweryfikować zgodność scenariuszy z lekcjami, bankiem i rzeczywistymi wymaganiami bezpieczeństwa; potwierdzić, że symulacje nie są opisywane jako wykonane ćwiczenia.
+4. Sprawdzić wszystkie pięć wariantów i kluczy z aktualnym bankiem, rozkład działów, brak powtórzeń i spójność explanation. Nie uznawać egzaminów za zatwierdzone.
+5. Zgłaszać poprawki z ID, dokładnym przepisem, uzasadnieniem oraz osobną oceną A/B/C. Nierozstrzygnięte przypadki pozostają zablokowane.
+
+Nie zmieniać żadnego statusu na `verified` bez rzeczywistego, niezależnego protokołu recenzji. Wersja i SHA repo muszą zostać zapisane przed rozpoczęciem recenzji.

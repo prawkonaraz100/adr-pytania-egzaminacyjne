@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from course_consistency import audit, validate_image_assets, validate_reviewer_manifest, validate_practical_scenario_map
+from course_consistency import audit, validate_image_assets, validate_reviewer_manifest, validate_practical_scenario_map, validate_learning_material_links
 from answer_length_bias import measure as measure_answer_length_bias
 
 
@@ -100,6 +100,14 @@ class CourseConsistencyTests(unittest.TestCase):
             counts[scenario["module_id"]] += 1
         self.assertTrue(all(count >= 3 for count in counts.values()), counts)
         self.assertEqual(validate_practical_scenario_map(root, bank), [])
+
+
+    def test_lessons_and_instructor_guides_link_all_module_scenarios_and_questions(self):
+        root = Path(__file__).resolve().parents[1]
+        bank = [json.loads(line) for line in
+                (root / "podstawowy" / "questions.jsonl").read_text(encoding="utf-8").splitlines()
+                if line.strip()]
+        self.assertEqual(validate_learning_material_links(root, bank), [])
 
     def test_practical_scenario_map_rejects_missing_question_id(self):
         with tempfile.TemporaryDirectory() as tmp:

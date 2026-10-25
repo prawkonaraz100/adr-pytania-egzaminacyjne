@@ -4,10 +4,11 @@
 
 ## Jak korzystać z kursu
 
-1. Zacznij od właściwej lekcji z tabeli poniżej. Czytaj część wprowadzającą, przykład z pracy kierowcy i pytania powtórkowe.
-2. Rozwiąż pytania wskazane w lekcji, a następnie użyj pełnego banku `questions.jsonl` do dalszej nauki.
-3. Przy każdym pytaniu przeczytaj wyjaśnienie i sprawdź wskazany punkt ADR. Jeśli widzisz sprzeczność, nie zgaduj — oznacz ją do przeglądu.
-4. Scenariusze praktyczne P1–P3 są materiałem dla instruktora. Nie zastępują rzeczywistych zajęć ani oceny instruktora.
+1. **Lekcja działu** — przeczytaj ją od początku do końca, zwracając uwagę na przykłady z pracy kierowcy i sekcję „Co musisz zapamiętać”.
+2. **Pytania działu** — rozwiąż pytania z tego samego działu w `questions.jsonl`. Po każdej odpowiedzi przeczytaj explanation, także gdy odpowiedź była poprawna.
+3. **Jak czytać explanation po błędzie** — najpierw sprawdź, dlaczego wskazana odpowiedź jest poprawna; potem porównaj to z wybraną przez siebie opcją i przeczytaj, na czym polega jej błąd. Na końcu otwórz wskazany punkt ADR. Nie ucz się samej litery; ucz się warunku, który rozstrzyga sytuację.
+4. **Trzy scenariusze działu** — po pytaniach otwórz mapę `praktyka/scenariusze-13-dzialow.json` i znajdź trzy identyfikatory podane na końcu lekcji. Opisz bezpieczną kolejność działań, czego nie wolno robić i dlaczego. Scenariusze są symulacjami, nie dowodem wykonania praktyki.
+5. **Egzaminy próbne 001–005** — dopiero po przerobieniu lekcji, pytań i scenariuszy rozwiąż warianty 001, 002, 003, 004 i 005. Każdy ma osobny klucz. Po sprawdzeniu wróć do lekcji działów, w których popełniłeś błędy. To materiały treningowe, nie oficjalny egzamin ani zatwierdzony test.
 
 | Kolejność | Lekcja | Temat | Plik |
 |---:|---|---|---|
@@ -29,7 +30,15 @@
 
 - [Wariant 001 — arkusz pytań](egzamin-probny/wariant-001.json)
 - [Wariant 001 — klucz i wyjaśnienia](egzamin-probny/klucz-001.json)
-- [Instrukcja generowania kolejnych wariantów](egzamin-probny/README.md)
+- [Wariant 002 — arkusz pytań](egzamin-probny/wariant-002.json)
+- [Wariant 002 — klucz i wyjaśnienia](egzamin-probny/klucz-002.json)
+- [Wariant 003 — arkusz pytań](egzamin-probny/wariant-003.json)
+- [Wariant 003 — klucz i wyjaśnienia](egzamin-probny/klucz-003.json)
+- [Wariant 004 — arkusz pytań](egzamin-probny/wariant-004.json)
+- [Wariant 004 — klucz i wyjaśnienia](egzamin-probny/klucz-004.json)
+- [Wariant 005 — arkusz pytań](egzamin-probny/wariant-005.json)
+- [Wariant 005 — klucz i wyjaśnienia](egzamin-probny/klucz-005.json)
+- [Instrukcja egzaminów próbnych](egzamin-probny/README.md)
 - Format treningowy: 30 pytań, 60 minut, próg 20/30 (2/3). Generator dobiera pytania proporcjonalnie z 13 działów.
 - **Zastrzeżenie:** wszystkie pytania pozostają `needs_review`, więc egzamin nie jest zatwierdzonym testem do formalnej oceny ani oficjalnym arkuszem.
 
@@ -44,6 +53,7 @@
 - [Etap 4x2 — redakcja podręcznikowa lekcji 05–08](raporty/etap-4x2-redakcja-lekcji-05-08-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 09–12](raporty/etap-4x2-redakcja-lekcji-09-12-2026-10-25.md)
 - [Raport końcowy etapu 4x5 — scenariusze i egzaminy próbne](raporty/etap-4x5-raport-koncowy-2026-10-25.md)
+- [Raport końcowy etapu 4x6 — ścieżka kursanta, spójność i pakiet recenzyjny](raporty/etap-4x6-raport-koncowy-2026-10-25.md)
 - [Etap 4x3 — zgodność banku z podręcznikiem B-01–B-04](raporty/etap-4x3-pokrycie-banku-01-04-2026-10-25.md)
 - [Etap 4x3 — zgodność banku z podręcznikiem B-05–B-08](raporty/etap-4x3-pokrycie-banku-05-08-2026-10-25.md)
 - [Etap 4x3 — zgodność banku z podręcznikiem B-09–B-12](raporty/etap-4x3-pokrycie-banku-09-12-2026-10-25.md)
@@ -83,8 +93,8 @@ Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 83/609 
 ## Status weryfikacji
 
 - Bank: 609 `needs_review`, 0 `verified`.
-- Lekcje: etap 4x1 — odbiór dydaktyczny 13/13; etap 4x2 — ujednolicono redakcyjnie B-01–B-13. Aktualizacja egzaminów próbnych i pakietu recenzyjnego pozostaje osobnym krokiem. Wszystkie lekcje nadal wymagają niezależnej recenzji prawnej i formalnego odbioru instruktorskiego.
-- Praktyka: 3 scenariusze do przeprowadzenia i udokumentowania przez instruktora; repozytorium nie poświadcza, że ćwiczenia odbyły się.
+- Lekcje: etap 4x1 — odbiór dydaktyczny 13/13; etap 4x2 — ujednolicono redakcyjnie B-01–B-13. Ścieżka kursanta i materiały instruktora są połączone ze wszystkimi 39 scenariuszami; pakiet recenzyjny obejmuje 609 pytań i warianty 001–005. Wszystkie lekcje nadal wymagają niezależnej recenzji prawnej i formalnego odbioru instruktorskiego.
+- Praktyka: 39 scenariuszy sytuacyjnych — po 3 w każdym dziale — oraz ćwiczenia P1–P3 do rzeczywistego przeprowadzenia i udokumentowania przez instruktora; repozytorium nie poświadcza, że ćwiczenia odbyły się.
 - Prawo: pełne porównanie każdego punktu z polskim tekstem urzędowym i sprostowaniem oraz niezależna recenzja specjalisty pozostają otwarte.
 
 **Nie przechodź do kursu cystern ani innych specjalizacji przed zamknięciem kursu podstawowego i niezależną weryfikacją.**

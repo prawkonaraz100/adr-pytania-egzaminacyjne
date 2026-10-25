@@ -1,10 +1,10 @@
-# Instrukcja niezależnej recenzji banku ADR podstawowego — wersja 1 (23.10.2026)
+# Instrukcja niezależnej recenzji banku ADR podstawowego — stan aktualny 25.10.2026
 
-**Cel:** weryfikacja każdego z 506 pytań osobno — treści, klucza, odpowiedzi A/B/C, wyjaśnienia i wszystkich wyjątków — przez rzeczywistego specjalistę ADR. Żadne pytanie nie zostało zatwierdzone. **Nie publikować banku ani egzaminu próbnego opartego na potrzebujących recenzji pytaniach.**
+**Cel:** weryfikacja każdego z 609 pytań osobno — treści, klucza, odpowiedzi A/B/C, wyjaśnienia i wszystkich wyjątków — przez rzeczywistego specjalistę ADR. Stan: 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. **Nie publikować banku ani egzaminu próbnego opartego na potrzebujących recenzji pytaniach.**
 
 ## Materiały wejściowe
 
-1. Pełny indeks [aktualny wykaz pytań 0001–0542](REJESTR-AKTUALNY-0001-0542.md), oryginalne rekordy w `podstawowy/questions.jsonl`.
+1. Pełny indeks [aktualny wykaz pytań 0001–0609](REJESTR-AKTUALNY-0001-0609.md), manifest [PAKIET-0609-MANIFEST.json](PAKIET-0609-MANIFEST.json), oryginalne rekordy w `podstawowy/questions.jsonl`.
 2. Urzędowe polskie ADR 2025 — [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl); program kursu [Dz.U. 2021 poz. 2150](https://eli.gov.pl/eli/DU/2021/2150/ogl).
 3. Audyty redakcyjne `review/sequential/`, analizy wariantów `review/legal-clauses/`, raporty `review/batches/`, matryca `podstawowy/kompetencje.json`, materiały 13 lekcji i `podstawowy/praktyka/SCENARIUSZE.md`.
 4. Procedura zatwierdzania: `review/README.md` i skrypt `scripts/release_gate.py`.
@@ -40,3 +40,15 @@ Recenzent przekazuje formularz z polami: ID, data kontroli, recenzent, źródło
 - **Literalny rejestr:** `review/legal-polish/stage4k-literal-verification-ledger-0001-0542.json` zawiera faktycznie nieporównane pozycje; angielska publikacja UNECE ani pomocniczy tekst MI nie są dowodem odczytu urzędowej strony PDF. Zapisz stronę/tom, jednostkę redakcyjną, wynik sprostowania, wyjątki oraz osobną ocenę A/B/C.
 - **Egzamin próbny:** `scripts/mock_exam.py` musi pozostać fail-closed. Rekord `needs_review` (nawet z grafiką) jest niedopuszczony do losowania i publicznej publikacji. Testy syntetyczne wyłącznie w katalogach tymczasowych.
 - Raport przekazania i gotowości: `review/batches/stage4l-readiness-0542.md`. Żadnego `verified` bez indywidualnego prawdziwego protokołu.
+
+
+## Aktualny zakres odbioru dydaktycznego — 4x6
+
+- **Bank:** 609 rekordów, wszystkie `needs_review`, 0 `verified`.
+- **Lekcje:** `podstawowy/lekcje/ADR-B-01.md` … `ADR-B-13.md`.
+- **Materiały instruktora:** `podstawowy/instruktor/ADR-B-01.md` … `ADR-B-13.md`.
+- **Scenariusze:** 39 wpisów, po trzy na dział, w `podstawowy/praktyka/scenariusze-13-dzialow.json` i przewodniku `podstawowy/praktyka/SCENARIUSZE.md`.
+- **Egzaminy próbne:** `podstawowy/egzamin-probny/wariant-001.json` … `wariant-005.json` oraz odpowiadające im `klucz-001.json` … `klucz-005.json`. Wszystkie są treningowe i mają pozostać niezatwierdzone.
+- **Kontrola spójności:** Quality Gate sprawdza, czy każda lekcja i instrukcja zawiera odwołania do wszystkich trzech scenariuszy swojego działu, a wszystkie identyfikatory pytań istnieją w banku i należą do właściwego modułu. To kontrola strukturalna, nie potwierdzenie poprawności prawnej.
+
+Przed recenzją specjalista ma zapisać commit SHA i pracować na jednej migawce. Dla każdego pytania sprawdzić treść, trzy odpowiedzi, explanation dla początkującego kierowcy, podstawę prawną i zakres kursu. Osobno sprawdzić, czy trzy scenariusze działu są spójne z lekcją i pytaniami oraz czy wszystkie warianty egzaminu i klucze są zgodne z tą samą migawką banku. Nie ustawiać `verified` na podstawie samego przejścia testów automatycznych.

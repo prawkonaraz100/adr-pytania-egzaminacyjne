@@ -173,3 +173,14 @@ Scenariusz mapowy: SC-ADR-B-02 w pliku [scenariuszy praktycznych](../praktyka/sc
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; opisy nalepek i szczegółowe podstawy wymagają niezależnej kontroli.
+
+
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-02` — **Rozładunek: mokre opakowanie z nalepką 4.3**
+- `SC-ADR-B-02-02` — **Przy rozładunku: nieznana substancja na opakowaniu**
+- `SC-ADR-B-02-03` — **Sprawdzenie klasy i grupy pakowania przed przyjęciem**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
