@@ -15,6 +15,11 @@ ADR 1.4 przypisuje uczestnikom przewozu obowiązki zależne od roli. Nadawca odp
 
 Przewoźnik zapewnia załodze wymagane instrukcje pisemne. Nie zakładaj, że przekazanie obowiązku jednej osobie usuwa obowiązki innych uczestników.
 
+
+### Obowiązki szczegółowe — nadawca, przewoźnik i załadowca
+Nadawca przekazuje prawidłowe informacje o towarze i nie może uznać, że zlecenie części pracy innemu podmiotowi automatycznie usuwa jego obowiązki. Jeśli nadawca działa w imieniu innej firmy, musi otrzymać informację o niebezpiecznym charakterze ładunku. Przewoźnik sprawdza, czy towar jest dopuszczony do przewozu, czy otrzymał wymagane informacje i dokumenty, czy pojazd nie jest przeciążony oraz czy oznakowanie i wyposażenie są właściwe. Jeżeli przed wyjazdem wykryje naruszenie, nie powinien przekazywać przesyłki do dalszego przewozu, dopóki niezgodność nie zostanie usunięta; naruszenie wykryte w drodze wymaga bezpiecznej reakcji i zgłoszenia zgodnie z ADR.
+
+Załadowca sprawdza, czy przesyłka nie jest uszkodzona, czy opakowanie nie przecieka, czy towary można ładować razem i czy spełniono wymagania dotyczące rozdzielenia od żywności. Po załadunku w kontenerze sprawdza wymagane oznakowanie jednostki. Może korzystać z wiarygodnych informacji innych uczestników, lecz nie może ignorować widocznej niezgodności.
 ## 2. Przykłady dla kierowcy
 - **Opakowanie niezgodne:** pakujący zauważa, że opakowanie nie spełnia wymagań. Nie przekazuje go dalej do przewozu, dopóki niezgodność nie zostanie rozwiązana.
 - **Uszkodzona sztuka:** załadowca zauważa pęknięcie przed umieszczeniem przesyłki w pojeździe. Wstrzymuje załadunek tej sztuki i zgłasza problem.
