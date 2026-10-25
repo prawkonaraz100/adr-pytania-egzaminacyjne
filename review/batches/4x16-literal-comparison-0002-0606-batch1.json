@@ -789,40 +789,6 @@
       "specialist_review": "pending"
     },
     {
-      "id": "ADR-B-0570",
-      "module_id": "ADR-B-01",
-      "clause": "ADR 2025, 1.1.3.6.4",
-      "stem": "Kierowca ma 100 jednostek kategorii transportowej 2 i 600 kategorii 3 w sztukach przesyłek. Ile wynosi wynik ADR 1.1.3.6.4?",
-      "options": {
-        "A": "900: kategorię 2 mnoży się przez 3, a kategorię 3 dodaje",
-        "B": "700: dodaj ilości bez mnożników",
-        "C": "1200: obie kategorie trzeba przemnożyć przez 2 niezależnie od ilości"
-      },
-      "correct_option": "A",
-      "explanation": "W przewozie mieszanym 100 jednostek kategorii 2 liczy się potrójnie, a 600 jednostek kategorii 3 dodaje bez mnożnika, więc wynik to 900. Zwykłe dodawanie pomija mnożnik kategorii 2, a podwojenie wszystkiego nie wynika z tabeli. Wynik nie przekracza progu 1000, lecz pozostałe warunki wyłączenia również trzeba sprawdzić. Podstawa: ADR 1.1.3.6.4.",
-      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
-      "note": "1.1.3.6.4: 100 × 3 + 600 = 900; sprawdza się też pozostałe warunki wyłączenia.",
-      "verification_status": "needs_review",
-      "specialist_review": "pending"
-    },
-    {
-      "id": "ADR-B-0571",
-      "module_id": "ADR-B-01",
-      "clause": "ADR 2025, 1.1.3.6.4",
-      "stem": "W pojeździe przewożono 250 jednostek kategorii transportowej 2 i 300 kategorii 3. Czy obliczony wynik przekracza próg 1000?",
-      "options": {
-        "A": "Nie: wynik wynosi 800, jeśli kategorię 2 błędnie pomnożymy przez 2 zamiast przez 3",
-        "B": "Tak: 250 razy 3 plus 300 daje 1050, czyli wynik przekracza 1000",
-        "C": "Nie: obie kategorie zawsze korzystają osobno z limitu 1000"
-      },
-      "correct_option": "B",
-      "explanation": "Kategoria 2 ma mnożnik 3, a kategoria 3 — mnożnik 1, więc 250 × 3 + 300 = 1050 i próg 1000 zostaje przekroczony. Wynik 800 powstałby przez błędne użycie mnożnika 2, a samo dodanie ilości albo oddzielne limity dla kategorii pomijają regułę ładunku mieszanego. Przed zastosowaniem wyłączenia sprawdź również pozostałe warunki dla przewożonych towarów. Podstawa: ADR 1.1.3.6.4.",
-      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
-      "note": "1.1.3.6.4: 250 × 3 + 300 = 1050, czyli więcej niż 1000.",
-      "verification_status": "needs_review",
-      "specialist_review": "pending"
-    },
-    {
       "id": "ADR-B-0606",
       "module_id": "ADR-B-01",
       "clause": "ADR 2025, 1.1.3.6.3–1.1.3.6.4",
@@ -836,6 +802,40 @@
       "explanation": "Wyłączenie ilościowe nie opiera się wyłącznie na masie całego ładunku. Należy sprawdzić kategorię transportową poszczególnych towarów i zastosować zasady obliczenia określone w ADR, uwzględniając właściwe progi oraz ewentualne współczynniki. Sama ładowność pojazdu ani wspólny próg dla wszystkich materiałów nie rozstrzygają, czy wyłączenie ma zastosowanie. Podstawa: ADR 1.1.3.6.3–1.1.3.6.4.",
       "result": "zgodne_w_zakresie_sprawdzonego_punktu",
       "note": "1.1.3.6.3–1.1.3.6.4: trzeba ustalić kategorię i ilość w odpowiedniej jednostce; masa całego ładunku nie wystarcza.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0197",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 8.1.4.2",
+      "stem": "Pojazd jedzie z towarami ADR na warunkach zwolnienia 1.1.3.6. Zamiast gaśnicy proszkowej 2 kg przewoźnik proponuje gaśnicę z innym środkiem. Co trzeba sprawdzić?",
+      "options": {
+        "A": "Sprawdzić skuteczność dla pożarów A, B i C oraz równoważność",
+        "B": "Sprawdzić samą masę gaśnicy razem z uchwytem",
+        "C": "Wybrać gaśnicę do sprzętu elektrycznego bez oceny skuteczności dla pożarów A, B i C"
+      },
+      "correct_option": "A",
+      "explanation": "Przy zwolnieniu ilościowym 1.1.3.6 nadal potrzebna jest odpowiednia gaśnica o skuteczności co najmniej równoważnej wymaganym 2 kg proszku. Inny środek gaśniczy może spełnić wymóg, jeśli nadaje się do wskazanych rodzajów pożaru. Sama masa z uchwytem i przeznaczenie do sprzętu elektrycznego nie dowodzą wymaganej skuteczności. Podstawa: ADR 8.1.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "ADR 8.1.4.2: alternatywny środek gaśniczy musi mieć równoważną skuteczność dla wymaganych klas pożarów; sama masa nie wystarcza.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0282",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 8.1.4.2",
+      "stem": "Drogowy przewóz ADR korzysta z wyłączenia 1.1.3.6, a jednostka transportowa nie ma żadnej gaśnicy. Jakie jest minimalne wyposażenie według ADR 8.1.4.2?",
+      "options": {
+        "A": "Bez gaśnicy przy wyłączeniu 1.1.3.6",
+        "B": "Jedna przenośna gaśnica 2 kg proszku lub równoważna",
+        "C": "Zestaw pojemników z wodą oraz materiałów do tłumienia ognia zastępujący gaśnicę"
+      },
+      "correct_option": "B",
+      "explanation": "Nawet gdy przewóz korzysta z wyłączenia ilościowego ADR 1.1.3.6, pojazd musi mieć co najmniej jedną przenośną gaśnicę o skuteczności odpowiadającej 2 kg proszku. Wyłączenie nie oznacza braku jakiegokolwiek wyposażenia przeciwpożarowego. Brak gaśnicy i pojemniki z wodą nie zastępują przenośnej gaśnicy wymaganej przez ADR. Podstawa: ADR 8.1.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "ADR 8.1.4.2: wyłączenie 1.1.3.6 nie znosi wymogu co najmniej jednej przenośnej gaśnicy 2 kg proszku lub równoważnej skuteczności.",
       "verification_status": "needs_review",
       "specialist_review": "pending"
     }
