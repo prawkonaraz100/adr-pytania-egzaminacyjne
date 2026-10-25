@@ -289,5 +289,23 @@
       "ADR-B-0305"
     ],
     "note": "Priority list is not exhaustive. Every question remains needs_review until a real specialist approves it; all ADR 2027 sensitivity registers remain relevant."
+  },
+  "literal_comparison_status_counts": {
+    "official_polish_text_not_retrieved": 376,
+    "targeted_source_checked_full_literal_comparison_pending": 10,
+    "records_with_recorded_targeted_comparison_result": 223,
+    "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 223,
+    "specialist_reviews_pending": 609,
+    "verified": 0
+  },
+  "stage4x19": {
+    "purpose": "Reconcile ledger evidence states; counts describe evidence coverage, not legal approval",
+    "ledger_entry_count": 609,
+    "count_definitions": {
+      "unresolved_literal_comparisons": "Records where exact official Polish clause text was not retrieved and therefore not literally compared",
+      "targeted_source_checked_full_literal_comparison_pending": "Records where a source was checked but the full literal comparison remains pending",
+      "records_with_recorded_targeted_comparison_result": "Records with a targeted result recorded; this is not specialist approval or full Gazette confirmation"
+    },
+    "not_verified_warning": "All 609 questions remain needs_review. A targeted comparison result does not constitute verified status."
   }
 }
