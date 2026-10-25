@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Validate learner-facing mock exam variants and keys against the current bank."""
+import hashlib
 import json
 import re
 from collections import Counter
@@ -60,7 +61,9 @@ def heuristic_warnings(rows):
 
 def audit(root=ROOT):
     bank_path = root / "podstawowy" / "questions.jsonl"
-    rows = [json.loads(line) for line in bank_path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    bank_bytes = bank_path.read_bytes()
+    bank_blob_sha = hashlib.sha1(b"blob " + str(len(bank_bytes)).encode("ascii") + b"\\0" + bank_bytes).hexdigest()
+    rows = [json.loads(line) for line in bank_bytes.decode("utf-8").splitlines() if line.strip()]
     bank = {row["id"]: row for row in rows}
     errors, stats, all_ids = [], [], []
     for number in range(1, 6):
@@ -69,6 +72,10 @@ def audit(root=ROOT):
         exam, key = json.loads(variant_path.read_text(encoding="utf-8")), json.loads(key_path.read_text(encoding="utf-8"))
         questions, answers = exam.get("questions", []), key.get("answers", [])
         prefix = f"wariant-{number:03}"
+        if exam.get("source_bank_head") != bank_blob_sha:
+            errors.append(f"{prefix}: source_bank_head nie wskazuje aktualnego blobu questions.jsonl")
+        if key.get("source_bank_head") != bank_blob_sha:
+            errors.append(f"{prefix}: klucz nie wskazuje aktualnego blobu questions.jsonl")
         if len(questions) != 30 or len(answers) != 30:
             errors.append(f"{prefix}: arkusz/klucz musi mieć dokładnie 30 pytań")
         if exam.get("publication_authorized") is not False or "answer_key_internal_only" in exam:
@@ -81,6 +88,8 @@ def audit(root=ROOT):
         declared_modules = dict(sorted(exam.get("module_distribution", {}).items()))
         if actual_modules != declared_modules or len(actual_modules) != 13:
             errors.append(f"{prefix}: rozkład działów nie zgadza się z deklaracją albo brakuje działu")
+        if sum(actual_modules.values()) != 30 or any(count not in (2, 3) for count in actual_modules.values()):
+            errors.append(f"{prefix}: oczekiwano 30 pytań i 2–3 pytań z każdego z 13 działów")
         letters = []
         for index, q in enumerate(questions):
             qid = q.get("id")
