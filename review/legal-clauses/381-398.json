@@ -335,11 +335,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Czy jest kolorowy”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.3; nie jest właściwy w tym scenariuszu."
+          "rationale": "Ten dystraktor opisuje częsty błąd: Sprawdzić wyłącznie numer UN, pomijając pozostałe dodatkowe wpisy wymagane przez ADR. Nie zastępuje to warunku wskazanego w poprawnej odpowiedzi ani wymagań właściwego przepisu. Ta zmiana jest redakcyjna; status prawny nadal needs_review."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Czy kierowca podpisał fakturę”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.3; nie jest właściwy w tym scenariuszu."
+          "rationale": "Ten dystraktor opisuje częsty błąd: Czy podpisano fakturę i przekazano kopię spedytorowi bez sprawdzenia wymaganych wpisów ADR. Nie zastępuje to warunku wskazanego w poprawnej odpowiedzi ani wymagań właściwego przepisu. Ta zmiana jest redakcyjna; status prawny nadal needs_review."
         }
       },
       "observed_answer_key": "A",
@@ -353,7 +353,7 @@
         "stem": "Dokument IMDG/ICAO może w określonym łańcuchu zastępować dokument przewozowy ADR. Co trzeba sprawdzić?",
         "options": {
           "A": "Sprawdzić, czy zawiera dodatkowe dane wymagane przez ADR",
-          "B": "Czy ma kolorowe logo armatora",
+          "B": "Sprawdzić wyłącznie numer UN, pomijając pozostałe dodatkowe wpisy wymagane przez ADR",
           "C": "Czy podpisano fakturę i przekazano kopię spedytorowi bez sprawdzenia wymaganych wpisów ADR"
         },
         "correct_option": "A",
