@@ -1047,9 +1047,18 @@
       "clause": "8.1.5.2",
       "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/8.1",
       "answer_review": {
-        "A": "Poprawna: ADR 8.1.5.2 wymaga klina pod koła dobranego do masy pojazdu i średnicy koła.",
-        "B": "Niepoprawna: wymogu klina nie ograniczono wyłącznie do jednostek o DMC powyżej 7,5 t. Podstawa: ADR 8.1.5.2.",
-        "C": "Niepoprawna: klin dobiera się do masy pojazdu i średnicy koła, nie wyłącznie do klasy ładunku. Podstawa: ADR 8.1.5.2."
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawna: ADR 8.1.5.2 wymaga klina pod koła dobranego do masy pojazdu i średnicy koła."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Niepoprawna: wymogu klina nie ograniczono wyłącznie do jednostek o DMC powyżej 7,5 t. Podstawa: ADR 8.1.5.2."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Niepoprawna: klin dobiera się do masy pojazdu i średnicy koła, nie wyłącznie do klasy ładunku. Podstawa: ADR 8.1.5.2."
+        }
       },
       "observed_answer_key": "A",
       "notes_on_conditions": "Klin dobiera się według dopuszczalnej masy i średnicy koła.",
