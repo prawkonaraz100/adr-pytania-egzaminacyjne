@@ -50,3 +50,77 @@ Ocena: „rozumie / wymaga wyjaśnienia / nieocenione”, źródło odpowiedzi i
 
 ## Podstawy do sprawdzenia
 ADR 2025, Dz.U. 2025 poz. 642 ze sprostowaniem Dz.U. 2025 poz. 1575 oraz program kursu ADR, Dz.U. 2021 poz. 2150. Przed prowadzeniem zajęć porównaj wymagania z obowiązującym tekstem urzędowym i uzyskaj odbiór instruktorski.
+
+## Prowadzenie trzech scenariuszy praktycznych
+
+Prowadź ćwiczenia na fikcyjnych dokumentach i kartach. Nie używaj prawdziwych towarów niebezpiecznych. Poproś kursanta o głośne uzasadnienie kolejnych decyzji i sprawdź, czy potrafi wskazać, które dane musi zweryfikować. Bezpieczna decyzja i rozumienie podstawy są ważniejsze niż szybkie wskazanie litery.
+
+### 1. SC-ADR-B-09 — Kontrola przed załadunkiem i mocowania
+
+**Sytuacja:** Kierowca widzi pozostałości poprzedniego ładunku i pas, który deformuje opakowanie.
+
+**Jak poprowadzić:**
+1. Nie rozpoczynaj załadunku, dopóki nie zostaną wyjaśnione pozostałości mogące reagować z nowym towarem.
+2. Sprawdź stan opakowania i przestrzeni ładunkowej.
+3. Skoryguj mocowanie tak, by ładunek był zabezpieczony, ale opakowanie nie zostało uszkodzone.
+4. Dla przewozu luzem sprawdź dopuszczenie towaru i wymagania pojazdu.
+
+**Na co patrzeć:** Kursant wskazuje niezgodności przed odjazdem i nie myli przewozu luzem z przewozem w opakowaniach. Dopytaj, co kursant zrobi, jeśli zabraknie danych lub nie może potwierdzić wymogu.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant zakłada, że poprzedni przewóz, dokument lub polecenie wystarcza. Wyjaśnij, że trzeba sprawdzić wymagania dla aktualnego ładunku, odcinka trasy i sytuacji, a brak informacji nie jest zgodą.
+
+**Pytania powiązane:** `ADR-B-0518`, `ADR-B-0554`, `ADR-B-0558`
+
+**Granica bezpieczeństwa:** Korzystaj z pustych makiet opakowań i pasów szkoleniowych.
+
+### 2. SC-ADR-B-09-02 — Oględziny przed załadunkiem
+
+**Sytuacja:** Kierowca zauważa pozostałości nieznanego materiału na podłodze i uszkodzoną deskę przed przyjazdem nowego ładunku.
+
+**Jak poprowadzić:**
+1. Nie rozpoczynaj załadunku, dopóki nie zostanie ocenione znaczenie pozostałości.
+2. Nie dotykaj pozostałości i nie próbuj mieszać ich ze środkiem czyszczącym.
+3. Zgłoś uszkodzenie i uzgodnij oczyszczenie lub naprawę.
+4. Po usunięciu problemu ponownie sprawdź, czy przestrzeń nadaje się do przewozu.
+
+**Na co patrzeć:** Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR. Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność. Dopytaj, co kursant zrobi, jeśli zabraknie danych lub nie może potwierdzić wymogu.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant wybiera najkrótszą lub najłatwiejszą drogę działania bez sprawdzenia ograniczeń. Wyjaśnij, że plan trzeba dopasować do kodu, dokumentów i warunków przewozu, nawet jeśli oznacza to objazd albo wstrzymanie czynności.
+
+**Pytania powiązane:** `ADR-B-0025`, `ADR-B-0026`, `ADR-B-0027`, `ADR-B-0518`
+
+**Granica bezpieczeństwa:** Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.
+
+### 3. SC-ADR-B-09-03 — Mocowanie przed dłuższą trasą
+
+**Sytuacja:** Pas przesuwa się po opakowaniu, a ciężki element obok palet nie jest zabezpieczony.
+
+**Jak poprowadzić:**
+1. Sprawdź mocowanie całego ładunku, nie tylko przesyłek ADR.
+2. Zabezpiecz ciężki element przed przemieszczeniem.
+3. Skoryguj pas tak, aby nie uszkadzał opakowania.
+4. Sprawdź stabilność i widoczność wymaganych znaków.
+
+**Na co patrzeć:** Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR. Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność. Dopytaj, co kursant zrobi, jeśli zabraknie danych lub nie może potwierdzić wymogu.
+
+**Typowy błąd i proste wyjaśnienie:** Kursant chce uzupełnić brakujące informacje na podstawie przypuszczeń. Wyjaśnij, że dane w dokumentach i uprawnienia osób muszą być potwierdzone; zgadywanie może doprowadzić do błędnej decyzji.
+
+**Pytania powiązane:** `ADR-B-0025`, `ADR-B-0026`, `ADR-B-0027`, `ADR-B-0554`, `ADR-B-0558`
+
+**Granica bezpieczeństwa:** Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.
+
+## Pytania kontrolne na koniec zajęć
+
+Omów pytania: `ADR-B-0518`, `ADR-B-0554`, `ADR-B-0558`, `ADR-B-0025`, `ADR-B-0026`, `ADR-B-0027`. Kursant ma wyjaśnić poprawną odpowiedź, wskazać, co jest mylące w co najmniej jednym dystraktorze, oraz podać źródło w ADR lub dokumentacji.
+
+## Pytania do dodatkowego omówienia
+
+Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empirycznie „najtrudniejszych” pytań. Pytania do dodatkowego omówienia wybieraj z tematów scenariuszy: `ADR-B-0554`, `ADR-B-0558`, `ADR-B-0025`, `ADR-B-0026`, `ADR-B-0027`. To kandydaci dydaktyczni, nie ranking. Sprawdź szczególnie, czy kursant rozróżnia podobne terminy, odczytuje właściwą tabelę i nie pomija warunków szczególnych.
+
+## Kontrola zgodności materiałów
+
+- Moduł: `ADR-B-09`; kompetencje w mapie: `ADR-B-09-K01`, `ADR-B-09-K02`, `ADR-B-09-K03`, `ADR-B-09-K04`, `ADR-B-09-K05`, `ADR-B-09-K06`, `ADR-B-09-K07`, `ADR-B-09-K08`, `ADR-B-09-K09`.
+- Podstawy zapisane w mapie kompetencji do porównania z lekcją: 7.5.2; 7.5.7.1; 7.5.4; 7.5.1.5; 7.5.7.2; 7.5.8.1–7.5.8.2; 7.5.1; 7.3.
+- Wszystkie 6 unikalnych ID pytań z ćwiczeń istnieją w banku i należą do `ADR-B-09`.
+- Lekcja: [ADR-B-09](../lekcje/ADR-B-09.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
+- Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
