@@ -1,5 +1,8 @@
 # ADR-B-01 — Podstawy ADR, uczestnicy przewozu i wyłączenia
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Zanim ruszysz w trasę, ustal, czy ładunek podlega ADR i jakie obowiązki dotyczą tego przewozu. „Mało towaru” ani prywatny cel nie oznaczają automatycznie zwolnienia. ADR to europejska umowa dotycząca drogowego przewozu towarów niebezpiecznych. Numer UN identyfikuje konkretną pozycję w wykazie. LQ oznacza ilości ograniczone, EQ — ilości wyłączone; to inne mechanizmy niż ADR 1.1.3.6.
 
