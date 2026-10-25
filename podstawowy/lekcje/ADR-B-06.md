@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Oznakowanie pomaga służbom i uczestnikom przewozu rozpoznać rodzaj zagrożenia oraz powiązać przesyłkę z dokumentacją. Nieczytelna nalepka, błędny numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A ([słowniczek](../SLOWNICZEK.md#tabela-a)); [słowniczek](../SLOWNICZEK.md#numer-un)) albo rozbieżność na tablicy pomarańczowej (oznaczenie pojazdu używane w określonych przewozach; numerowana tablica może pokazywać zagrożenie i numer UN; [słowniczek](../SLOWNICZEK.md#tablica-pomaranczowa)) może utrudnić prawidłową reakcję. Przed wyjazdem porównaj oznakowanie z dokumentem i właściwym wpisem ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)).
+Oznakowanie pomaga rozpoznać zagrożenie i sprawdzić, czy ładunek zgadza się z dokumentami. Numer UN to czterocyfrowy identyfikator towaru ([słowniczek](../SLOWNICZEK.md#numer-un)); tablica pomarańczowa jest oznaczeniem pojazdu stosowanym w określonych przewozach ([słowniczek](../SLOWNICZEK.md#tablica-pomaranczowa)). Jeśli numer, nalepka albo tablica są nieczytelne lub nie pasują do dokumentów, nie zgaduj — wyjaśnij rozbieżność przed wyjazdem. Porównaj oznakowanie z właściwym wpisem ADR, czyli przepisami drogowymi dla towarów niebezpiecznych ([słowniczek](../SLOWNICZEK.md#adr)).
 
 ## Czego się nauczysz
 - odróżniać numer UN od numeru rozpoznawczego zagrożenia (liczby opisującej rodzaj zagrożenia na górze tablicy pomarańczowej; [słowniczek](../SLOWNICZEK.md#numer-rozpoznawczy-zagrozenia));
@@ -132,7 +132,7 @@ Scenariusz z pracy kierowcy: [SC-ADR-B-06 — scenariusz praktyczny](../praktyka
 - ADR-B-0565
 
 ## Podstawa prawna
-- ADR 2025: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf): 3.2 tabela A, 5.2, 5.3.1.2 i 5.3.2.3.2.
+- ADR 2025: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf): 3.2 tabela A ([słowniczek](../SLOWNICZEK.md#tabela-a)), 5.2, 5.3.1.2 i 5.3.2.3.2.
 - Ustawa z 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych, z późniejszymi zmianami.
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
