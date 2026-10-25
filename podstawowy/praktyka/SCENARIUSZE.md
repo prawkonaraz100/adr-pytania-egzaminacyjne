@@ -42,6 +42,24 @@ W każdej symulacji kursant powinien wyjaśnić, co robi, czego nie robi i dlacz
 - `SC-ADR-B-06-02`: odróżnij numer UN od numeru rozpoznawczego zagrożenia.
 - `SC-ADR-B-06-03`: nie odjeżdżaj z nalepką zasłoniętą lub nieczytelną.
 
+## Scenariusze dla kursanta — działy B-07–B-09
+
+Każda symulacja ma pomóc kursantowi wyjaśnić decyzję własnymi słowami: co robi, czego nie robi i dlaczego. W rekordach scenariuszy pola common_mistakes, legal_basis i learner_takeaway służą do krótkiego omówienia po ćwiczeniu. Nie zastępują prawdziwych zajęć praktycznych.
+
+### B-07 — role uczestników i opakowanie
+- SC-ADR-B-07: rozpoznaj niezgodne opakowanie i nie przekazuj go do przewozu.
+- SC-ADR-B-07-02: nie przerzucaj całej odpowiedzialności na nadawcę; zatrzymaj załadunek uszkodzonej sztuki.
+- SC-ADR-B-07-03: sprawdź, czy instrukcje pisemne są dostępne i zrozumiałe dla każdego członka załogi.
+
+### B-08 — wyposażenie
+- SC-ADR-B-08: sprawdź wyposażenie pojazdu i każdej osoby osobno.
+- SC-ADR-B-08-02: sprawdź nie tylko obecność gaśnicy, ale też stan, mocowanie i dostępność.
+- SC-ADR-B-08-03: środki ochrony osobistej nie zastępują się wzajemnie.
+
+### B-09 — kontrola załadunku i mocowanie
+- SC-ADR-B-09: oceń pozostałości, opakowania i mocowanie przed wyjazdem.
+- SC-ADR-B-09-02: nieznane pozostałości wyjaśnij przed kolejnym załadunkiem.
+- SC-ADR-B-09-03: zabezpiecz cały ładunek i potwierdź dopuszczenie przewozu luzem.
 ## Zakres i zasada bezpieczeństwa
 
 Ćwiczenia muszą być prowadzone w warunkach odpowiednich do nadzorowanych zajęć. Nie wykorzystuje się prawdziwej niebezpiecznej substancji ani nie naraża kursantów na działanie ognia, oparów lub innych zagrożeń. Ćwiczenia ogniowe odbywają się wyłącznie na przygotowanym stanowisku szkoleniowym z zabezpieczeniem i instruktorem.
