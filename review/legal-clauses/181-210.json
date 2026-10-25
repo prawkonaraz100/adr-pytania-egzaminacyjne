@@ -435,9 +435,18 @@
       "clause": "5.3.2.2.2",
       "source_2025_comparison_url": "https://www.adr-digitaal.nl/adr/adr2025/5.3",
       "answer_review": {
-        "A": "Niepoprawna: numer UN znajduje się w dolnym, a nie górnym polu tablicy. Podstawa: ADR 5.3.2.2.2.",
-        "B": "Poprawna: górne pole zawiera numer rozpoznawczy zagrożenia, nazywany kodem Kemlera. Podstawa: ADR 5.3.2.2.2.",
-        "C": "Niepoprawna: górne pole nie jest numerem klasy; zawiera kod rozpoznawczy zagrożenia. Podstawa: ADR 5.3.2.2.2."
+        "A": {
+          "expected_correct": false,
+          "rationale": "Niepoprawna: numer UN znajduje się w dolnym, a nie górnym polu tablicy. Podstawa: ADR 5.3.2.2.2."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawna: górne pole zawiera numer rozpoznawczy zagrożenia, nazywany kodem Kemlera. Podstawa: ADR 5.3.2.2.2."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Niepoprawna: górne pole nie jest numerem klasy; zawiera kod rozpoznawczy zagrożenia. Podstawa: ADR 5.3.2.2.2."
+        }
       },
       "observed_answer_key": "B",
       "notes_on_conditions": "Są również puste tablice pomarańczowe przy odpowiednich przewozach.",
