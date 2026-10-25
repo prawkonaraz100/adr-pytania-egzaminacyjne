@@ -224,6 +224,18 @@ Jeśli ogień obejmuje przestrzeń ładunkową, nie otwieraj jej, by zobaczyć, 
 
 **Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
 
+## Uzupełnienie odbioru 4x1 — dostępność sprzętu i zgłoszenie zdarzenia (ADR-B-0585, 0593–0594)
+
+**Gaśnica przed wyjazdem.** Nie wystarczy, że gaśnica znajduje się gdzieś w pojeździe. Musi być wymagana dla danego przewozu, sprawna i umieszczona tak, aby załoga mogła ją łatwo wyjąć. Jeśli została zasłonięta lub unieruchomiona przez ładunek, usuń niezgodność przed ruszeniem; nie przekładaj jej sprawdzenia na moment awarii. Podstawa do sprawdzenia: ADR 8.1.4.5.
+
+**Po awarii — silnik i wezwanie pomocy.** Gdy pojazd jest już zatrzymany w bezpiecznym miejscu, postępuj według instrukcji pisemnych. Jeśli silnik nie jest potrzebny do działania urządzeń obsługowych, wyłącz go zgodnie z procedurą. Wzywając pomoc, przekaż miejsce, rodzaj zdarzenia i sprawdzone informacje o ładunku. Nie próbuj rozpoznawać substancji po zapachu i nie opóźniaj zgłoszenia, czekając na pełne wyjaśnienie przyczyny.
+
+**Scenariusz 1 — gaśnica pod ładunkiem:** przed odjazdem kierowca odkrywa, że gaśnica jest zasłonięta. Nie rozpoczyna jazdy, dopóki sprzęt nie będzie prawidłowo dostępny. Uzasadnienie: sprzęt, którego nie można szybko użyć, nie spełnia celu bezpieczeństwa.
+
+**Scenariusz 2 — zgłoszenie po awarii:** kierowca nie zna jeszcze dokładnej przyczyny, ale wie, gdzie jest i co się stało. Wzywa pomoc, podaje fakty i dostępne dane o towarze, nie zgaduje składu na podstawie zapachu. Uzasadnienie: szybkie, wiarygodne informacje pomagają służbom ocenić zagrożenie.
+
+Powiązane pytania robocze: ADR-B-0585, ADR-B-0593–0594. Podstawa do kontroli: ADR 8.1.4.5 i 5.4.3.4. Status wszystkich pytań pozostaje `needs_review`.
+
 ## Co musisz zapamiętać
 
 - Najpierw oceń bezpieczeństwo miejsca; nie wchodź w opary ani nie dotykaj nieznanej substancji.
