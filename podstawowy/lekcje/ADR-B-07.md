@@ -30,7 +30,7 @@ Załadowca sprawdza, czy przesyłka nie jest uszkodzona, czy opakowanie nie prze
 - **Załoga i pasażerowie:** nie zakładaj, że każdy pasażer może być przewożony w pojeździe z towarami niebezpiecznymi. Sprawdź właściwe wymagania i dopuszczalność konkretnej sytuacji. ADR 8.3.1 ogranicza przewóz osób niebędących członkami załogi w objętych nim warunkach; zgodnie z 8.3.2 członkowie załogi powinni znać sposób użycia gaśnic.
 
 ## 3. Pakujący i załadowca
-Pakujący nie powinien przekazywać przesyłki, jeśli opakowanie lub oznakowanie nie spełnia wymagań. Załadowca nie powinien umieszczać w pojeździe uszkodzonej sztuki przesyłki. Zakrycie pęknięcia folią ani umieszczenie przesyłki na końcu pojazdu nie naprawia niezgodności. Prawidłowy numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A; [słowniczek](../SLOWNICZEK.md#numer-un)) w dokumencie nie zastępuje bezpiecznego opakowania.
+Pakujący nie powinien przekazywać przesyłki, jeśli opakowanie lub oznakowanie nie spełnia wymagań. Załadowca nie powinien umieszczać w pojeździe uszkodzonej sztuki przesyłki. Zakrycie pęknięcia folią ani umieszczenie przesyłki na końcu pojazdu nie naprawia niezgodności. Prawidłowy numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A ([słowniczek](../SLOWNICZEK.md#tabela-a)); [słowniczek](../SLOWNICZEK.md#numer-un)) w dokumencie nie zastępuje bezpiecznego opakowania.
 
 
 ### Pakujący, napełniający, rozładowca i odbiorca
