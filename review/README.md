@@ -1,5 +1,7 @@
 # Niezależny przegląd ADR — zatwierdzanie pojedynczych rekordów
 
+> **Bieżący stan (etap 4x14):** 609 pytań w `podstawowy/questions.jsonl`; wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. Aktualny indeks: `specialist/REJESTR-AKTUALNY-0001-0609.md`; manifest: `specialist/PAKIET-0609-MANIFEST.json`. W repo znajduje się 13 lekcji, 13 materiałów instruktora, 39 scenariuszy i 5 wariantów egzaminu próbnego z osobnymi kluczami. Poniższe analizy historyczne obejmują wskazane w nich zakresy i nie zastępują indywidualnej recenzji wszystkich 609 pytań.
+
 **Stan początkowy: 0 zatwierdzonych pytań.** `approvals.jsonl` jest celowo pusty. W projekcie **nie wolno** samodzielnie wpisywać fikcyjnych recenzentów ani dat.
 
 ## Indywidualny przegląd wariantów A/B/C
