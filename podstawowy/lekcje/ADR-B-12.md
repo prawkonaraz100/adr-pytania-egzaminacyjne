@@ -145,5 +145,16 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+W banku pojawiają się następujące typowe pomyłki. W realnej pracy nie zgaduj — sprawdź warunek ADR właściwy dla towaru i sposobu przewozu.
+
+- Uznawanie telefonu, e-maila lub oznakowania pojazdu za wystarczającą weryfikację przewoźnika — potwierdź tożsamość i upoważnienie zgodnie z procedurą ochrony (ADR 1.10.1.2).
+- Mylenie ochrony przewozu z mocowaniem ładunku — security zapobiega kradzieży i nieuprawnionemu dostępowi, a mocowanie ogranicza przemieszczanie (ADR 1.10 i 7.5.7).
+- Zakładanie, że plan ochrony dotyczy tylko jazdy — środki ochrony trzeba uwzględnić także podczas postoju i przekazania ładunku (ADR 1.10.3.2).
+
+Niejasne terminy wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).

@@ -143,5 +143,16 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+W banku pojawiają się następujące typowe pomyłki. W realnej pracy nie zgaduj — sprawdź warunek ADR właściwy dla towaru i sposobu przewozu.
+
+- Wybór trasy bez porównania kodu tunelowego z kategorią tunelu — odczytaj kod z kolumny 15 tabeli A i sprawdź oznakowanie na trasie (ADR 3.2 tabela A, kolumna 15; 8.6).
+- Traktowanie kodu D/E jednakowo dla cystern i sztuk przesyłek — zastosowanie zależy od postaci przewozu, więc sprawdź właściwą regułę (ADR 8.6.3).
+- Zakładanie, że najkrótsza trasa zawsze jest dozwolona — ograniczenie tunelowe trzeba uwzględnić w planowaniu przejazdu (ADR 8.6).
+
+Niejasne terminy wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
