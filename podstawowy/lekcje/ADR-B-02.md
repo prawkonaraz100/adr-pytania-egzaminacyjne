@@ -7,9 +7,9 @@
 Nalepki i dane przewozowe pomagają rozpoznać zagrożenie przed załadunkiem, podczas kontroli i po wypadku. Nie klasyfikuj towaru po kolorze cieczy, nazwie handlowej ani jednym symbolu. Jeśli opakowanie z nalepką 4.3 jest mokre, nie polewaj go wodą: materiały tej klasy mogą wydzielać palny gaz w kontakcie z wodą.
 
 ## Czego się nauczysz
-- odczytywać numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A; [słowniczek](../SLOWNICZEK.md#numer-un)) i podstawowe informacje z tabeli A;
+- odczytywać numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A ([słowniczek](../SLOWNICZEK.md#tabela-a)); [słowniczek](../SLOWNICZEK.md#numer-un)) i podstawowe informacje z tabeli A;
 - rozróżniać klasy i podklasy zagrożeń;
-- odróżniać klasę, grupę pakowania (oznaczenie stopnia zagrożenia, stosowane tylko dla towarów, dla których ADR je przewiduje; [słowniczek](../SLOWNICZEK.md#grupa-pakowania)) i numer UN;
+- odróżniać klasę, grupę pakowania (oznaczenie stopnia zagrożenia, stosowane tylko dla towarów, dla których ADR ([słowniczek](../SLOWNICZEK.md#adr)) je przewiduje; [słowniczek](../SLOWNICZEK.md#grupa-pakowania)) i numer UN;
 - rozumieć ograniczenia podstawowego rozpoznawania klas 1 i 7;
 - wyjaśniać, co zrobić, gdy nalepka i dokumenty nie pasują.
 
