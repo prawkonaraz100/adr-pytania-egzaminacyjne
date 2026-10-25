@@ -2,7 +2,7 @@
 
 Data migawki: 25.10.2026. Źródło: `podstawowy/questions.jsonl` w etapie 4w4; przy odbiorze recenzent musi odnotować SHA commita po scaleniu i hash ocenianego rekordu. Wszystkie 609 pytań `needs_review`, 0 `verified`, 0 formalnych akceptacji. **Żaden wpis nie stanowi potwierdzenia poprawności prawnej.** Poprzedni indeks 0001–0519 i indeksy zakresowe pozostają jako dokumenty historyczne.
 
-Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależnego sprawdzenia poprawności wzoru. Rejestr 4k zgłasza otwartą literalną weryfikację polskiego ADR dla wszystkich 545 pozycji.
+Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależnego sprawdzenia poprawności wzoru. Etap 4x16, partia 1: wykonano tekstowe porównanie 48 pytań wysokiego ryzyka z kopią pełnego polskiego tekstu ADR 2025 udostępnioną przez MI; 551 porównań pozostaje nierozstrzygniętych. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz roboczy | Referencja ADR 2025 | Image | Literalne PL | Status |
 |---|---|---|---|---|---|---|---|---|

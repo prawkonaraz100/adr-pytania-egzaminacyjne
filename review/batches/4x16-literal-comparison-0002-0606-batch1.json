@@ -1,0 +1,847 @@
+{
+  "stage": "4x16",
+  "batch": "001-048-priority",
+  "date": "2026-10-25",
+  "base_commit": "136e4fe0481563c118c8fd653db2c1c69b11df6a",
+  "question_count": 48,
+  "priority_scope": [
+    "classification",
+    "transport documentation",
+    "marking",
+    "ADR 1.1.3.6"
+  ],
+  "method": "Compared each question stem, A/B/C, key and explanation with the cited clause in the full Polish ADR 2025 text copy published by the Ministry of Infrastructure; checked the scope of the 2025 corrigendum. This is a textual cross-check, not formal legal approval: the Ministry explicitly states that its copy is auxiliary and the legally authoritative source remains the text promulgated in Dziennik Ustaw.",
+  "legal_publication": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "polish_text_copy": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+  "erratum": "https://eli.gov.pl/api/acts/DU/2025/1575/text.pdf",
+  "summary": {
+    "consistent_in_scope": 48,
+    "requires_correction": 0,
+    "unable_to_confirm": 0,
+    "question_changes": 0,
+    "status_changes": 0,
+    "formal_specialist_approvals": 0
+  },
+  "records": [
+    {
+      "id": "ADR-B-0002",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 1.1.3",
+      "stem": "Czy przewóz niewielkiej ilości towarów niebezpiecznych automatycznie zwalnia kierowcę ze wszystkich wymagań ADR?",
+      "options": {
+        "A": "Tak, gdy ładunek jest niewielki względem ładowności pojazdu",
+        "B": "Nie, zwolnienia zależą od warunków określonych w ADR",
+        "C": "Tak, jeśli przewóz odbywa się na trasie krajowej"
+      },
+      "correct_option": "B",
+      "explanation": "Mała ilość towaru nie oznacza, że przewóz jest całkowicie poza ADR. Zanim kierowca skorzysta ze zwolnienia, trzeba sprawdzić rodzaj towaru, jego ilość oraz sposób zapakowania. Sama jazda po Polsce ani niewielki ładunek nie dają automatycznego zwolnienia ze wszystkich obowiązków. Podstawa: ADR 1.1.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "1.1.3: zwolnienia zależą od konkretnych warunków; mała ilość sama nie zwalnia ze wszystkich wymagań.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0003",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 8.2.1",
+      "stem": "Do czego służy zaświadczenie ADR kierowcy?",
+      "options": {
+        "A": "Zastępuje prawo jazdy, jeśli kierowca ukończył kurs ADR i zdał egzamin na przewóz materiałów niebezpiecznych",
+        "B": "Zezwala przewozić dowolny ładunek bez innych dokumentów",
+        "C": "Potwierdza odpowiednie przeszkolenie kierowcy do przewozu objętego wymaganiem ADR"
+      },
+      "correct_option": "C",
+      "explanation": "Zaświadczenie ADR pokazuje, że kierowca przeszedł wymagane szkolenie i zdał egzamin do określonego rodzaju przewozu. Nie jest jednak prawem jazdy i nie zastępuje dokumentów potrzebnych dla ładunku. Dlatego nawet z ważnym zaświadczeniem trzeba mieć właściwe uprawnienia do prowadzenia pojazdu i spełnić pozostałe wymagania przewozu. Podstawa: ADR 8.2.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "8.2.1: zaświadczenie potwierdza wymagane szkolenie kierowcy, ale nie zastępuje prawa jazdy ani innych dokumentów.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0004",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.3.1.1",
+      "stem": "Do której klasy ADR należą materiały ciekłe zapalne, takie jak benzyna?",
+      "options": {
+        "A": "Klasa 3",
+        "B": "Klasa 8",
+        "C": "Klasa 6.2"
+      },
+      "correct_option": "A",
+      "explanation": "Benzyna jest cieczą, której pary mogą się zapalić, dlatego zalicza się ją do klasy 3 — cieczy zapalnych. Klasa 8 dotyczy działania żrącego, a 6.2 materiałów zakaźnych, więc opisują inne zagrożenia. Gdy rozpoznajesz klasę towaru, zwracaj uwagę na rodzaj zagrożenia, a nie samą nazwę produktu. Podstawa: ADR 2.2.3.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.3.1.1: klasa 3 obejmuje materiały ciekłe zapalne; klasy 8 i 6.2 opisują inne zagrożenia.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0005",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.8.1.1",
+      "stem": "Jakie zagrożenie oznacza klasa 8 ADR?",
+      "options": {
+        "A": "Zagrożenie promieniotwórcze",
+        "B": "Działanie żrące",
+        "C": "Zagrożenie zakażeniem"
+      },
+      "correct_option": "B",
+      "explanation": "Klasa 8 ostrzega, że towar może działać żrąco, na przykład poważnie uszkodzić skórę lub niektóre materiały. Nie chodzi tu o promieniowanie ani o zakażenie — te zagrożenia należą do innych klas. Rozpoznanie działania żrącego pomaga zachować ostrożność przy uszkodzonym opakowaniu lub wycieku. Podstawa: ADR 2.2.8.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.8: klasa 8 dotyczy materiałów żrących, nie promieniotwórczych ani zakaźnych.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0006",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.43.1.1",
+      "stem": "Która cecha jest charakterystyczna dla materiałów klasy 4.3 ADR?",
+      "options": {
+        "A": "Są gazami sprężonymi bez reakcji z wodą",
+        "B": "Są cieczami żrącymi, a nie reagują z wodą",
+        "C": "W kontakcie z wodą wydzielają gazy palne"
+      },
+      "correct_option": "C",
+      "explanation": "Klasa 4.3 obejmuje materiały, które w kontakcie z wodą wydzielają gazy palne. Nie oznacza to, że są to zawsze gazy pod ciśnieniem ani wyłącznie ciecze żrące. Kierowca powinien rozpoznać ryzyko reakcji z wodą i sprawdzić oznakowanie. Nie wnioskuj o sposobie postępowania wyłącznie z ogólnej nazwy materiału; sprawdź właściwe instrukcje bezpieczeństwa. Podstawa: ADR 2.2.43.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.43.1.1: klasa 4.3 obejmuje materiały reagujące z wodą z wydzielaniem gazów palnych.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0007",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.2.1.8",
+      "stem": "Jaki symbol znajduje się na znaku dla materiałów zagrażających środowisku?",
+      "options": {
+        "A": "Symbol martwej ryby i drzewa",
+        "B": "Dwa skrzyżowane młotki",
+        "C": "Błyskawicę w żółtym trójkącie"
+      },
+      "correct_option": "A",
+      "explanation": "Znak z martwą rybą i drzewem ostrzega, że uwolnienie towaru może zaszkodzić środowisku, na przykład wodzie i organizmom żyjącym w rzekach. Skrzyżowane młotki ani błyskawica nie są tym znakiem. Nie myl też tego symbolu z numerem klasy ADR: jest to dodatkowe oznaczenie stosowane w określonych przypadkach. Podstawa: ADR 5.2.1.8.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.2.1.8: znak środowiskowy ostrzega o zagrożeniu dla środowiska i nie zastępuje klasyfikacji.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0008",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.4.1.1.3.1",
+      "stem": "W dokumencie przewozowym ADR dla odpadu niebezpiecznego niebędącego odpadem promieniotwórczym dodano słowo „ODPAD” przed prawidłową nazwą przewozową. Co to oznacza?",
+      "options": {
+        "A": "Że można pominąć numer UN i inne dane identyfikacyjne przewożonej substancji",
+        "B": "Że przesyłka jest odpadem objętym zasadami przewozu ADR",
+        "C": "Że przewóz nie podlega już przepisom ADR"
+      },
+      "correct_option": "B",
+      "explanation": "Słowo „ODPAD” mówi osobie sprawdzającej dokument, że przewożony towar niebezpieczny jest odpadem, a nie zwykłym produktem. Nie usuwa to numeru UN ani obowiązku podania pozostałych danych przewozowych. Nie oznacza również, że odpady przestają podlegać ADR. Dla określonych przypadków, w tym odpadów promieniotwórczych, przewidziano odrębne zasady. Podstawa: ADR 5.4.1.1.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.1.1.3.1: słowo ODPAD ma zastosowanie w określonych przypadkach i nie usuwa wymaganych danych towaru.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0016",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.2.2",
+      "stem": "Na numerowanej pomarańczowej tablicy ADR, gdzie znajduje się numer UN?",
+      "options": {
+        "A": "W górnej części tablicy",
+        "B": "W dolnej części tablicy",
+        "C": "Na odwrocie tablicy"
+      },
+      "correct_option": "B",
+      "explanation": "Na numerowanej tablicy pomarańczowej górny numer informuje o rodzaju zagrożenia, a dolny czterocyfrowy numer UN (identyfikator towaru niebezpiecznego) pozwala ustalić, jaki towar jest przewożony. Dlatego numeru UN szukasz na dole, a nie u góry ani na odwrocie tablicy. Takie rozróżnienie ułatwia służbom szybkie rozpoznanie zagrożenia podczas zdarzenia. Podstawa: ADR 5.3.2.2.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.3.2.2.2: górny numer oznacza zagrożenie, dolny czterocyfrowy numer UN identyfikuje towar.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0017",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.3.1",
+      "stem": "Co oznacza litera X przed numerem rozpoznawczym zagrożenia na tablicy ADR?",
+      "options": {
+        "A": "Towar reaguje niebezpiecznie z wodą",
+        "B": "Pojazd jest pusty",
+        "C": "Towar został zwolniony ze wszystkich obowiązków ADR"
+      },
+      "correct_option": "A",
+      "explanation": "Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą. Podczas wycieku lub pożaru ta informacja ma znaczenie dla doboru działań ratowniczych: użycie wody bez oceny zagrożenia może nasilić reakcję. Litera X nie oznacza pustego pojazdu ani zwolnienia z przepisów, dlatego B i C są błędne. Podstawa: ADR 5.3.2.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.3.2.3.1: litera X ostrzega o niebezpiecznej reakcji z wodą.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0018",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.2.1",
+      "stem": "Jakie są standardowe wymiary tablicy pomarańczowej ADR?",
+      "options": {
+        "A": "40 × 30 cm",
+        "B": "20 × 10 cm",
+        "C": "60 × 60 cm"
+      },
+      "correct_option": "A",
+      "explanation": "Standardowa pomarańczowa tablica ADR ma 40 cm szerokości i 30 cm wysokości. Dzięki ujednoliconemu rozmiarowi oznakowanie jest rozpoznawalne dla innych uczestników ruchu i służb. Wymiary 20 × 10 cm i 60 × 60 cm nie są standardem; przepisy przewidują jednak określone tolerancje i szczególny przypadek zmniejszonej tablicy. Podstawa: ADR 5.3.2.2.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.3.2.2.1: standardowy rozmiar tablicy to 400 × 300 mm; przepisy przewidują ograniczone wyjątki.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0037",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1 (a)",
+      "stem": "W jaki sposób numer identyfikacyjny towaru niebezpiecznego podaje się w dokumencie przewozowym ADR?",
+      "options": {
+        "A": "Sam czterocyfrowy numer bez liter „UN”, jeśli nazwa towaru jest poprawna",
+        "B": "Nazwa handlowa i klasa, bez numeru UN",
+        "C": "Z literami UN przed czterocyfrowym numerem"
+      },
+      "correct_option": "C",
+      "explanation": "Numer UN zapisuje się z literami „UN” przed czterocyfrowym numerem, aby jednoznacznie zidentyfikować towar niebezpieczny. Sam numer bez prefiksu lub nazwa handlowa połączona z klasą nie zastępują tego zapisu. Sprawdź też pozostałe wymagane informacje w dokumencie i nie dopisuj identyfikatora na podstawie domysłu. Podstawa: ADR 5.4.1.1.1(a).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.1.1.1(a): numer UN w dokumencie poprzedzają litery UN.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0038",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1 (b)",
+      "stem": "Czy w dokumencie przewozowym ADR potrzebna jest prawidłowa nazwa przewozowa towaru?",
+      "options": {
+        "A": "Tak, zgodnie z zasadami ADR",
+        "B": "Nie, numer UN wystarczy",
+        "C": "Nie, gdy na opakowaniu znajduje się nazwa handlowa produktu"
+      },
+      "correct_option": "A",
+      "explanation": "Prawidłowa nazwa przewozowa pomaga kierowcy, przewoźnikowi i służbom ustalić, jaki towar jest transportowany. Sam numer UN (identyfikator towaru niebezpiecznego) ani nazwa handlowa na opakowaniu nie zastępują wymaganej nazwy w dokumencie. Dlatego należy podać nazwę zgodną z ADR wraz z pozostałymi wymaganymi informacjami. Podstawa: ADR 5.4.1.1.1(b).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.1.1.1(b): dokument wymaga prawidłowej nazwy przewozowej, nie tylko nazwy handlowej.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0042",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.2.1.1",
+      "stem": "Do której klasy ADR zalicza się gazy?",
+      "options": {
+        "A": "Klasy 8",
+        "B": "Klasy 2",
+        "C": "Klasy 3"
+      },
+      "correct_option": "B",
+      "explanation": "Klasa 2 obejmuje gazy, które mogą stwarzać różne zagrożenia, na przykład palność, toksyczność lub zagrożenia związane z ciśnieniem. Klasa 3 dotyczy cieczy zapalnych, a klasa 8 materiałów żrących, więc nie są to właściwe odpowiedzi na pytanie o klasę gazów. Rozpoznanie klasy jest pierwszym krokiem do ustalenia wymagań przewozu. Podstawa: ADR 2.2.2.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.2: gazy należą do klasy 2.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0043",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.62.1.1",
+      "stem": "Jaka klasa ADR dotyczy materiałów zakaźnych?",
+      "options": {
+        "A": "Klasa 4.2",
+        "B": "Klasa 6.2",
+        "C": "Klasa 6.1 (materiały trujące)"
+      },
+      "correct_option": "B",
+      "explanation": "Materiały zakaźne mogą zawierać drobnoustroje wywołujące choroby, dlatego w ADR mają własną klasę 6.2. Nie należy mylić jej z klasą 6.1, która dotyczy działania trującego, ani z klasą 4.2. Takie rozróżnienie jest ważne przy sprawdzaniu nalepek, dokumentów i środków ostrożności. Podstawa: ADR 2.2.62.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.62: materiały zakaźne należą do klasy 6.2, a trujące do 6.1.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0044",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.51.1.1",
+      "stem": "Co jest głównym zagrożeniem materiałów klasy 5.1?",
+      "options": {
+        "A": "Właściwości utleniające, mogące nasilać pożar",
+        "B": "Radioaktywność",
+        "C": "Właściwości silnie żrące, mogące uszkodzić elementy pojazdu i opakowania"
+      },
+      "correct_option": "A",
+      "explanation": "Klasa 5.1 obejmuje materiały utleniające, które mogą nasilać pożar. Nie oznacza to, że są promieniotwórcze ani że wszystkie mają silne właściwości żrące niezależnie od działania utleniającego. Sprawdź oznaczenie klasy i warunki dla konkretnego materiału. Właściwości utleniające mogą zwiększyć intensywność spalania innych materiałów, dlatego ryzyka nie ocenia się wyłącznie po palności samej substancji. Podstawa: ADR 2.2.51.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.51: klasa 5.1 dotyczy materiałów utleniających.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0045",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.2.1.8",
+      "stem": "Jak postąpić ze znakiem dla materiału zagrażającego środowisku na sztuce przesyłki, gdy przepisy ADR wymagają takiego znaku?",
+      "options": {
+        "A": "Zastąpić go dodatkowym wpisem w dokumencie przewozowym",
+        "B": "Zamiast niego umieścić nalepkę klasy 9",
+        "C": "Umieścić go zgodnie z zasadami znakowania"
+      },
+      "correct_option": "C",
+      "explanation": "Znak zagrożenia dla środowiska ostrzega przed szkodą, którą uwolniony towar może wyrządzić przyrodzie. Jeśli ADR wymaga go na sztuce przesyłki, trzeba umieścić go na opakowaniu zgodnie z zasadami oznakowania. Sam wpis w dokumencie ani nalepka klasy 9 nie zastępują automatycznie tego znaku. Podstawa: ADR 5.2.1.8.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.2.1.8: wymagany znak środowiskowy umieszcza się na sztuce przesyłki zgodnie z zasadami znakowania.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0046",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.4.1.1.1 (a); 5.4.1.1.3.1",
+      "stem": "Czy przy przewozie odpadów niebezpiecznych słowo „ODPAD” zastępuje numer UN w dokumencie ADR?",
+      "options": {
+        "A": "Tak, po wpisaniu słowa „ODPAD” z nazwą i adresem odbiorcy",
+        "B": "Nie, numer UN nadal jest wymagany, jeśli właściwe przepisy wymagają dokumentu ADR",
+        "C": "Tak, wystarczy umieszczenie odpadu w opakowaniu posiadającym certyfikację UN"
+      },
+      "correct_option": "B",
+      "explanation": "Określenie „ODPAD” mówi, że przewożony materiał jest odpadem, lecz nie identyfikuje konkretnego towaru niebezpiecznego. Do tego służy numer UN (identyfikator towaru niebezpiecznego) i inne informacje przewozowe, jeśli dla transportu wymagany jest dokument ADR. Nawet opakowanie z oznaczeniem UN nie daje prawa do pominięcia numeru w opisie. Podstawa: ADR 5.4.1.1.1(a) i 5.4.1.1.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.1.1.1(a), 5.4.1.1.3.1: słowo ODPAD nie zastępuje numeru UN.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0051",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.3.1",
+      "stem": "Co oznacza powtórzenie cyfry w numerze rozpoznawczym zagrożenia na tablicy ADR?",
+      "options": {
+        "A": "Nasilenie zagrożenia wyrażanego tą cyfrą",
+        "B": "Występowanie dwóch różnych zagrożeń opisanych jednakową cyfrą",
+        "C": "Oznacza, że materiał nie wymaga innych nalepek ostrzegawczych"
+      },
+      "correct_option": "A",
+      "explanation": "Powtórzenie cyfry w numerze rozpoznawczym zagrożenia zwykle oznacza zwiększenie natężenia zagrożenia określonego tą cyfrą. Nie oznacza automatycznie dwóch niezależnych zagrożeń ani braku obowiązku stosowania innych nalepek. Kierowca powinien odczytywać cały numer zgodnie z zasadami ADR, a nie traktować powtórzenia jako ozdoby tablicy. Podstawa: ADR 5.3.2.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.3.2.3.1: powtórzenie cyfry zwykle nasila odpowiadające jej zagrożenie.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0052",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.2.2",
+      "stem": "Jaki jest podstawowy kolor tablicy ADR z numerem UN i numerem rozpoznawczym zagrożenia?",
+      "options": {
+        "A": "Pomarańczowy z czarnymi oznaczeniami",
+        "B": "Żółty z czarnymi numerami",
+        "C": "Biały z czerwonymi numerami"
+      },
+      "correct_option": "A",
+      "explanation": "Standardowa tablica ADR jest pomarańczowa, a jej oznaczenia są czarne. Na właściwie oznakowanym pojeździe może pomagać służbom rozpoznać przewożony towar i zagrożenie na podstawie numerów. Żółta tablica z czarnymi cyframi ani biała z czerwonymi cyframi nie są standardowym wariantem opisanym w tym wymaganiu, dlatego B i C odpadają. Podstawa: ADR 5.3.2.2.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.3.2.2: tablica jest pomarańczowa z czarnymi oznaczeniami.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0053",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.2.3.1",
+      "stem": "Co może oznaczać numer rozpoznawczy zagrożenia rozpoczynający się od cyfry 8?",
+      "options": {
+        "A": "Zagrożenie utleniające",
+        "B": "Zagrożenie promieniotwórcze",
+        "C": "Zagrożenie żrące"
+      },
+      "correct_option": "C",
+      "explanation": "Cyfra 8 w numerze rozpoznawczym zagrożenia wskazuje na właściwości żrące, czyli możliwość uszkodzenia skóry lub materiałów. Nie jest symbolem promieniowania ani utleniania. Przy ocenie ładunku trzeba odczytać cały numer, bo pozostałe cyfry mogą podawać dodatkowe informacje o zagrożeniu. Podstawa: ADR 5.3.2.3.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.3.2.3.1: cyfra 8 oznacza właściwości żrące; cały numer należy odczytać w kontekście.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0061",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.1.1.7",
+      "stem": "Jaki dodatkowy zapis przewiduje ADR w dokumencie przewozowym, jeśli przewóz odbywa się zgodnie z 1.1.4.2.1?",
+      "options": {
+        "A": "PRZEWÓZ ZGODNY Z 1.1.3.6",
+        "B": "PRZEWÓZ ZGODNY Z 5.4.3.1",
+        "C": "PRZEWÓZ ZGODNY Z 1.1.4.2.1"
+      },
+      "correct_option": "C",
+      "explanation": "Gdy podczas przewozu drogowego stosuje się szczególne zasady dla łańcucha z transportem morskim lub lotniczym, dokument musi zawierać właściwą informację o tym odstępstwie. Dlatego wpis odwołuje się do 1.1.4.2.1, a nie do odrębnych punktów 1.1.3.6 czy 5.4.3.1. Podanie niewłaściwego numeru mogłoby wprowadzić w błąd kontrolującego. Podstawa: ADR 5.4.1.1.7.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.1.1.7: gdy stosuje się 1.1.4.2.1, dokument wymaga dodatkowego wpisu odnoszącego się do tego przepisu.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0068",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1 (h)",
+      "stem": "Którą informację o odbiorcy trzeba co do zasady zamieścić w dokumencie przewozowym ADR?",
+      "options": {
+        "A": "Nazwę i adres odbiorcy",
+        "B": "Kod pocztowy miejsca rozładunku zamiast danych odbiorcy",
+        "C": "Dane kontaktowe spedytora obsługującego zlecenie zamiast danych odbiorcy"
+      },
+      "correct_option": "A",
+      "explanation": "Nazwa i adres odbiorcy pozwalają ustalić, komu ma zostać przekazany niebezpieczny ładunek. Sam kod pocztowy nie identyfikuje odbiorcy, a dane spedytora nie są jego automatycznym zamiennikiem. W dokumencie przewozowym wpisuje się co do zasady dane odbiorcy, z uwzględnieniem wyjątków ADR. Podstawa: ADR 5.4.1.1.1(h).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.1.1.1(h): co do zasady dokument zawiera nazwę i adres odbiorcy.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0069",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1 (e)",
+      "stem": "Jakie informacje o opakowanych towarach niebezpiecznych powinny się znaleźć w dokumencie przewozowym ADR?",
+      "options": {
+        "A": "Masę pojazdu i ładunku",
+        "B": "Numery UN przewożonych towarów bez podawania liczby i rodzaju opakowań",
+        "C": "Liczba i określenie sztuk przesyłek, jeśli występują"
+      },
+      "correct_option": "C",
+      "explanation": "Liczba i rodzaj sztuk przesyłek mówią, ile opakowań z towarem niebezpiecznym znajduje się w ładunku i w jakiej są formie. Sama masa całej ciężarówki ani lista numerów UN nie pokazują tych informacji. Dlatego dokument powinien odpowiednio opisywać sztuki przesyłek, gdy występują. Podstawa: ADR 5.4.1.1.1(e).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.1.1.1(e): dokument podaje liczbę i opis sztuk przesyłek, gdy występują.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0070",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1 (f)",
+      "stem": "Czy w standardowym dokumencie ADR podaje się całkowitą ilość przewożonego towaru niebezpiecznego?",
+      "options": {
+        "A": "Tak, w odpowiedni sposób według rodzaju towaru",
+        "B": "Nie, jeżeli towary są w sztukach przesyłek",
+        "C": "Liczba palet przewożonych w pojeździe zamiast ilości towaru"
+      },
+      "correct_option": "A",
+      "explanation": "Całkowita ilość przewożonego towaru niebezpiecznego jest istotna przy ocenie warunków przewozu i ewentualnych wyłączeń. Dlatego w dokumencie podaje się ją we właściwej dla towaru jednostce. Samo policzenie palet ani fakt, że ładunek jest w opakowaniach, nie zastępują wymaganej informacji o ilości. Podstawa: ADR 5.4.1.1.1(f).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.1.1.1(f): całkowitą ilość podaje się w jednostce właściwej dla rodzaju towaru.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0073",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 8.1.4.2",
+      "stem": "Jaka jest **minimalna** pojemność przenośnej gaśnicy proszkowej wymagana przez ADR 8.1.4.2 dla jednostki transportowej przewożącej towary niebezpieczne zgodnie z 1.1.3.6?",
+      "options": {
+        "A": "6 kg — wymagane jako absolutne minimum także przy 1.1.3.6",
+        "B": "2 kg (albo równoważna skuteczność innego odpowiedniego środka gaśniczego)",
+        "C": "0 kg — przy 1.1.3.6 gaśnica nie jest wymagana"
+      },
+      "correct_option": "B",
+      "explanation": "Przy przewozie korzystającym z wyłączenia 1.1.3.6 nadal trzeba mieć odpowiednią gaśnicę, a minimalna pojemność wynosi 2 kg proszku lub środek o równoważnej skuteczności. Gaśnica 6 kg może spełnić ten wymóg, ale 6 kg nie jest wymaganym minimum. Twierdzenie, że nie potrzeba żadnej gaśnicy, jest błędne. Podstawa: ADR 8.1.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "8.1.4.2: także przy wyłączeniu 1.1.3.6 wymagane jest minimum jednej przenośnej gaśnicy o pojemności 2 kg lub równoważnej skuteczności.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0089",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.7",
+      "stem": "Przewóz drogowy odbywa się na szczególnych warunkach 1.1.4.2.1 w łańcuchu morsko-drogowym. Jaki dodatkowy zapis jest wymagany w dokumencie ADR?",
+      "options": {
+        "A": "PRZEWÓZ ZGODNY Z 5.4.3.2",
+        "B": "PRZEWÓZ ZGODNY Z 1.1.3.6",
+        "C": "PRZEWÓZ ZGODNY Z 1.1.4.2.1"
+      },
+      "correct_option": "C",
+      "explanation": "Gdy przewóz drogowy jest częścią podróży morskiej i korzysta z warunków 1.1.4.2.1, trzeba wskazać tę podstawę w dokumencie przewozowym. Wpis informuje kontrolującego, dlaczego zastosowano szczególne zasady. Numery 5.4.3.2 i 1.1.3.6 odnoszą się do innych zagadnień, więc nie zastępują właściwego zapisu. Podstawa: ADR 5.4.1.1.7.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.4.1.1.7: zapis dla 1.1.4.2.1 nie jest zamienny z odwołaniem do innych punktów.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0093",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 3.4; 1.1.3.6",
+      "stem": "Przedsiębiorca twierdzi, że oznakowanie LQ zawsze oznacza wyłączenie na podstawie 1.1.3.6. Czy ma rację?",
+      "options": {
+        "A": "Nie; LQ z działu 3.4 i próg 1.1.3.6 mają inne warunki i sposób liczenia",
+        "B": "Tak; znak LQ potwierdza limit ilości przypisany kategoriom transportowym",
+        "C": "Tak; znak LQ na opakowaniu zastępuje obliczenie punktów 1.1.3.6"
+      },
+      "correct_option": "A",
+      "explanation": "Oznaczenie LQ (od ang. limited quantities — ilości ograniczone) dotyczy przewozu w ilościach ograniczonych z określonymi limitami i sposobem pakowania. Wyłączenie z 1.1.3.6 opiera się natomiast na innych zasadach, między innymi ilości towarów na jednostkę transportową. Dlatego nie można traktować obu mechanizmów jako tego samego zwolnienia, także w przewozie międzynarodowym. Podstawa: ADR 3.4 i 1.1.3.6.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "3.4 (LQ) i 1.1.3.6 mają odrębne warunki, limity i sposób obliczania.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0094",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.41.1.1",
+      "stem": "Która klasa ADR obejmuje materiały stałe zapalne?",
+      "options": {
+        "A": "4.2",
+        "B": "4.1",
+        "C": "4.3"
+      },
+      "correct_option": "B",
+      "explanation": "Materiały stałe zapalne zalicza się do klasy 4.1, ponieważ mogą łatwo się zapalać w warunkach określonych w ADR. Klasa 4.2 dotyczy między innymi materiałów samonagrzewających się, a 4.3 tych, które w kontakcie z wodą wydzielają gazy palne. Różne zagrożenia oznaczają inne zasady postępowania. Podstawa: ADR 2.2.41.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.41: klasa 4.1 obejmuje materiały stałe zapalne; 4.2 i 4.3 opisują inne zagrożenia.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0095",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.42.1.1",
+      "stem": "Która klasa ADR dotyczy materiałów zdolnych do samozapalenia?",
+      "options": {
+        "A": "4.1",
+        "B": "5.2",
+        "C": "4.2"
+      },
+      "correct_option": "C",
+      "explanation": "Klasa 4.2 obejmuje materiały, które mogą samoczynnie się zapalać albo niebezpiecznie nagrzewać bez typowego zewnętrznego źródła zapłonu. Nie należy ich mylić z innymi materiałami stałymi zapalnymi klasy 4.1 ani nadtlenkami organicznymi klasy 5.2. Rozpoznanie tego zagrożenia pomaga odpowiednio chronić ładunek. Podstawa: ADR 2.2.42.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.42: klasa 4.2 dotyczy materiałów podatnych na samozapalenie.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0096",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.52.1.1",
+      "stem": "Do której klasy ADR zalicza się nadtlenki organiczne?",
+      "options": {
+        "A": "5.2",
+        "B": "5.1",
+        "C": "6.1"
+      },
+      "correct_option": "A",
+      "explanation": "Nadtlenki organiczne należą do klasy 5.2, ponieważ mogą ulegać niebezpiecznemu rozkładowi i wymagają szczególnej ostrożności. Klasa 5.1 dotyczy innych materiałów utleniających, a 6.1 materiałów trujących. Podobieństwo nazw zagrożeń nie oznacza, że klasy można stosować zamiennie. Podstawa: ADR 2.2.52.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.52: klasa 5.2 obejmuje nadtlenki organiczne, nie klasę 5.1 ani 6.1.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0097",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.61.1.1",
+      "stem": "Która klasa ADR oznacza materiały trujące?",
+      "options": {
+        "A": "6.2",
+        "B": "6.1",
+        "C": "8"
+      },
+      "correct_option": "B",
+      "explanation": "Klasa 6.1 obejmuje materiały trujące, które mogą zaszkodzić człowiekowi między innymi po wdychaniu, połknięciu lub kontakcie z organizmem. Klasa 6.2 dotyczy materiałów zakaźnych, a klasa 8 — materiałów żrących, więc opisują inne rodzaje zagrożenia. Rozróżnienie klas pomaga prawidłowo odczytać dokumenty i oznakowanie, dlatego A i C nie pasują do materiałów trujących. Podstawa: ADR 2.2.61.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.61: klasa 6.1 obejmuje materiały trujące; 6.2 oznacza materiały zakaźne.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0098",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.7.1",
+      "stem": "Do jakiej klasy ADR zaliczono materiały promieniotwórcze?",
+      "options": {
+        "A": "Klasa 6.2",
+        "B": "Klasa 9",
+        "C": "Klasa 7"
+      },
+      "correct_option": "C",
+      "explanation": "Materiały promieniotwórcze należą do klasy 7, ponieważ stwarzają zagrożenie związane z promieniowaniem jonizującym. Klasa 6.2 odnosi się do materiałów zakaźnych, a klasa 9 obejmuje różne inne zagrożenia, więc nie są zamienne z klasą 7. Przewóz materiałów promieniotwórczych może wiązać się także z dodatkowymi wymaganiami szkoleniowymi, zależnie od wykonywanych czynności. Podstawa: ADR 2.2.7.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.7: materiały promieniotwórcze należą do klasy 7.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0099",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.2.9.1.1; 5.2.2.2.2",
+      "stem": "Jaką klasę zagrożenia ADR przedstawiają nalepki ostrzegawcze wzoru 9 i 9A, jeżeli są wymagane dla towaru?",
+      "options": {
+        "A": "Klasa 9 — różne materiały i przedmioty niebezpieczne",
+        "B": "Klasa 5.1 — materiały utleniające, niezależnie od ich postaci",
+        "C": "Klasa 8 — materiały żrące, niezależnie od ich opakowania"
+      },
+      "correct_option": "A",
+      "explanation": "Nalepki wzoru 9 oraz 9A wskazują na klasę 9, czyli różne materiały i przedmioty niebezpieczne. Wzór 9A może być stosowany przy określonych bateriach litowych i sodowo-jonowych, ale nie oznacza klas 5.1 ani 8. Nie należy też utożsamiać go ze znakiem używanym przy niektórych zwolnieniach dla baterii. Podstawa: ADR 2.2.9 i 5.2.2.2.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.2.9 i 5.2.2.2.2: wzory 9/9A odnoszą się do klasy 9; szczególne zastosowanie 9A zależy od towaru.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0114",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.2.1.1",
+      "stem": "Na opakowaniu zawierającym materiał niebezpieczny, dla którego ADR wymaga oznakowania numerem UN, jak należy podać ten numer?",
+      "options": {
+        "A": "Umieścić litery UN bezpośrednio przed właściwym czterocyfrowym numerem",
+        "B": "Podać wewnętrzny numer magazynowy, zgodny z fakturą nadawcy",
+        "C": "Wpisać numer zagrożenia z górnego pola tablicy pomarańczowej"
+      },
+      "correct_option": "A",
+      "explanation": "Jeżeli ADR wymaga podania numeru UN na sztuce przesyłki, numer zapisuje się jako czterocyfrowy numer poprzedzony literami „UN”. Pozwala to jednoznacznie rozpoznać towar według systemu stosowanego w przewozie międzynarodowym. Wewnętrzny kod produktu nadawcy ani numer rozpoznawczy zagrożenia z tablicy pomarańczowej nie zastępują oznaczenia UN na opakowaniu, dlatego B i C są błędne. Podstawa: ADR 5.2.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.2.1.1: gdy wymagane jest oznakowanie numerem UN, podaje się właściwy czterocyfrowy numer z prefiksem UN.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0115",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.2.2.1.1",
+      "stem": "Kierowca zauważa, że na sztuce przesyłki brakuje wymaganej nalepki ostrzegawczej. Co jest poprawne?",
+      "options": {
+        "A": "Pozostawić przesyłkę bez nalepki, jeśli numer UN jest czytelny",
+        "B": "Uzupełnić wymagane nalepki przed rozpoczęciem przewozu",
+        "C": "Zastąpić brakującą nalepkę opisem zagrożenia w dokumencie"
+      },
+      "correct_option": "B",
+      "explanation": "Wymagana nalepka ostrzegawcza przekazuje osobom obsługującym przesyłkę informację o rodzaju zagrożenia. Jeśli nalepki brakuje, nie należy rozpoczynać przewozu, dopóki oznakowanie nie zostanie prawidłowo uzupełnione. Czytelny numer UN (identyfikator towaru niebezpiecznego) nie zastępuje nalepki, a opis w dokumencie przewozowym nie naprawia braków na opakowaniu, więc A i C są błędne. Podstawa: ADR 5.2.2.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.2.2.1.1: brakującą wymaganą nalepkę trzeba uzupełnić; numer UN i dokument jej nie zastępują.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0124",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 2.1.1; 3.2 tabela A",
+      "stem": "Nadawca chce przewieźć nowy materiał niebezpieczny. Co powinien ustalić przed wyborem sposobu przewozu?",
+      "options": {
+        "A": "Sprawdzić trasę i czas dostawy, lecz pominąć klasyfikację oraz warunki ADR",
+        "B": "Sprawdzić, czy materiał wolno przewozić i jakie warunki ADR obowiązują",
+        "C": "Wybrać pojazd według czasu jazdy i odległości, bez oceny materiału"
+      },
+      "correct_option": "B",
+      "explanation": "Zanim nadawca wybierze pojazd i sposób przewozu, musi ustalić, jak sklasyfikowano materiał oraz czy i na jakich warunkach można go transportować. Pomagają w tym właściwa pozycja i wymagania tabeli A ADR. Sama długość trasy lub przewidywany czas jazdy nie odpowiadają na pytanie o dopuszczalność przewozu. Podstawa: ADR 2.1.1 i 3.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "2.1.1 i 3.2: przed wyborem sposobu przewozu ustala się klasyfikację i właściwą pozycję towaru.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0125",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 3.2.1, tabela A kol. (1)",
+      "stem": "W której kolumnie tabeli A ADR znajduje się numer UN materiału?",
+      "options": {
+        "A": "Kolumna 4, w której podaje się grupę pakowania",
+        "B": "Kolumna 15, zawierająca informacje o ograniczeniach tunelowych",
+        "C": "Kolumna 1 tabeli A, przeznaczona na numer UN"
+      },
+      "correct_option": "C",
+      "explanation": "Numer UN pozwala odszukać konkretną pozycję towaru w tabeli A, dlatego umieszczono go w jej pierwszej kolumnie. Pozostałe kolumny służą do ustalania innych danych, na przykład grupy pakowania czy ograniczeń tunelowych. Kolumny 4 i 15 nie są miejscem przeznaczonym na identyfikator UN. Podstawa: ADR 3.2.1, tabela A.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "3.2.1 tabela A, kolumna 1: numer UN identyfikuje pozycję towaru.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0128",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 3.2.1 tabela A kol. (3a)",
+      "stem": "Gdzie w tabeli A ADR podany jest numer klasy zagrożenia przypisany materiałowi?",
+      "options": {
+        "A": "Kolumna 1, w której wpisano numer UN identyfikujący towar",
+        "B": "Kolumna 4, w której podano grupę pakowania, gdy ma zastosowanie",
+        "C": "Kolumna 3a, w której wskazano klasę zagrożenia towaru"
+      },
+      "correct_option": "C",
+      "explanation": "Klasa zagrożenia pomaga ustalić, z jakim rodzajem niebezpieczeństwa mamy do czynienia. W tabeli A odczytuje się ją z kolumny 3a; kolumna 1 służy do numeru UN, a 4 do grupy pakowania, gdy jest przypisana. Dzięki takiemu układowi można odróżnić identyfikację towaru od jego właściwości. Podstawa: ADR 3.2.1, tabela A.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "3.2.1 tabela A, kolumna 3a: wskazuje klasę zagrożenia.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0132",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.1.2",
+      "stem": "Na jakich powierzchniach kontenera wymagającego nalepek dużego formatu ADR co do zasady się je umieszcza?",
+      "options": {
+        "A": "Na obu bokach oraz obu końcach kontenera, w wymaganych miejscach",
+        "B": "Na drzwiach i jednym boku kontenera, jeśli oznakowanie jest czytelne",
+        "C": "Na dachu kontenera, żeby oznakowanie było widoczne z góry"
+      },
+      "correct_option": "A",
+      "explanation": "Duże nalepki ostrzegawcze mają być widoczne z różnych stron kontenera, aby osoby obsługujące transport mogły rozpoznać zagrożenie. Co do zasady umieszcza się je na obu bokach oraz na obu końcach odpowiedniego kontenera. Sam dach lub jeden koniec nie zapewniają wymaganego oznakowania; istnieją też szczególne zasady dla niektórych jednostek. Podstawa: ADR 5.3.1.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.3.1.2: duże nalepki co do zasady umieszcza się na obu bokach i obu końcach odpowiedniej jednostki.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0133",
+      "module_id": "ADR-B-06",
+      "clause": "ADR 2025, 5.3.1.3",
+      "stem": "Nalepki kontenera ADR są niewidoczne z zewnątrz pojazdu. Co może być wymagane według 5.3.1.3?",
+      "options": {
+        "A": "Przenieść informację o nalepkach do listu przewozowego dla służb",
+        "B": "Powtórzyć wymagane duże nalepki na bokach i z tyłu pojazdu",
+        "C": "Zdjąć zasłonięte nalepki z kontenera, zostawiając numer UN"
+      },
+      "correct_option": "B",
+      "explanation": "Gdy kontener stoi na pojeździe tak, że jego wymagane duże nalepki nie są widoczne z zewnątrz, może być konieczne powtórzenie oznakowania na pojeździe. Ma to umożliwić rozpoznanie zagrożenia podczas kontroli i zdarzenia. Sam dokument przewozowy nie zastępuje widocznych nalepek, a ich usunięcie pogłębiłoby problem. Podstawa: ADR 5.3.1.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "5.3.1.3: gdy nalepki kontenera nie są widoczne z zewnątrz, może być wymagane powtórzenie ich na pojeździe.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0149",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 3.2 tabela A kol. (7a); 3.4.1",
+      "stem": "Jak sprawdza się limit ilości ograniczonej (LQ) dla konkretnego numeru UN?",
+      "options": {
+        "A": "Według 1000 litrów na samochód, bez odczytania limitu z tabeli A",
+        "B": "Według ładowności pojazdu, a nie wielkości opakowania wewnętrznego",
+        "C": "Według limitu LQ dla opakowania wewnętrznego z tabeli A i warunków działu 3.4"
+      },
+      "correct_option": "C",
+      "explanation": "Limit LQ (od ang. limited quantities — ilości ograniczone) zależy od konkretnego towaru i jest podany w kolumnie 7a tabeli A, z dodatkowymi warunkami pakowania w dziale 3.4. Nie istnieje jeden limit 1000 litrów dla wszystkich materiałów. Sama masa całego samochodu też nie zastępuje sprawdzenia ilości w opakowaniach wewnętrznych. Podstawa: ADR 3.2 tabela A i 3.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "3.2 tabela A, kolumna 7a i dział 3.4: limit LQ zależy od towaru i warunków pakowania.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0259",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 1.1.3.6.3",
+      "stem": "Wszystkie towary na jednostce transportowej zaliczono do kategorii transportowej 3. Jaki limit ilości z tabeli ADR 1.1.3.6.3 obowiązuje co do zasady dla tej kategorii?",
+      "options": {
+        "A": "333 jednostki ilościowe",
+        "B": "1 000 jednostek ilościowych",
+        "C": "Bez ograniczenia ilościowego"
+      },
+      "correct_option": "B",
+      "explanation": "Przy kategorii transportowej 3 tabela ADR przewiduje co do zasady limit 1000 jednostek ilościowych dla przewozu korzystającego z 1.1.3.6. Nie jest to limit 333 ani całkowity brak ograniczeń. Trzeba jednak prawidłowo obliczyć ilość towaru i uwzględnić szczególne warunki przewozu. Podstawa: ADR 1.1.3.6.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "1.1.3.6.3: dla kategorii 3 wartość wynosi co do zasady 1000, z uwzględnieniem przypisów i pozycji szczególnych.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0271",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "stem": "W jednostce transportowej przewożone są towary kategorii transportowej 2 w ilości 100 jednostek i kategorii 3 w ilości 600 jednostek (ilości obliczone według ADR). Ile wynosi suma punktów według 1.1.3.6.4?",
+      "options": {
+        "A": "700",
+        "B": "900",
+        "C": "1 200"
+      },
+      "correct_option": "B",
+      "explanation": "Dla kategorii transportowej 2 stosuje się mnożnik 3, a dla kategorii 3 mnożnik 1. Obliczenie to 100 × 3 + 600 = 900 punktów, czyli wynik nie przekracza progu 1000 dla tego wyłączenia. Nie wystarczy dodać ilości 100 i 600 bez uwzględnienia kategorii. Sprawdź też pozostałe warunki zastosowania wyłączenia. Podstawa: ADR 1.1.3.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "1.1.3.6.4: 100 × 3 + 600 = 900, więc wynik nie przekracza 1000.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0272",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "stem": "Jednostka transportowa przewozi 200 jednostek kategorii transportowej 2 i 500 jednostek kategorii 3. Co wynika z samego wyniku obliczenia 1.1.3.6.4?",
+      "options": {
+        "A": "Suma wynosi 1100, więc przekracza próg 1000",
+        "B": "Suma wynosi 700, więc próg nie został przekroczony",
+        "C": "Suma wynosi 500, bo pomija się kategorię 2"
+      },
+      "correct_option": "A",
+      "explanation": "W obliczeniu według 1.1.3.6.4 jednostki kategorii transportowej 2 mnoży się przez 3, a jednostki kategorii 3 dodaje bez tego mnożnika. Wynik to 200 × 3 + 500 = 1100, czyli więcej niż próg 1000. Wynik 700 pomija mnożnik, a 500 pomija całą kategorię 2, dlatego oba są błędne. W praktyce trzeba sprawdzić też, czy towary i przewóz spełniają pozostałe warunki wyłączenia. Podstawa: ADR 1.1.3.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "1.1.3.6.4: 200 × 3 + 500 = 1100, więc wynik przekracza 1000.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0323",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "stem": "W jednej jednostce transportowej przewożone są razem towary kategorii transportowej 2 i 3. Jak należy ocenić zwolnienie ilościowe z ADR 1.1.3.6?",
+      "options": {
+        "A": "Wystarczy osobno porównać każdą kategorię ze swoim limitem, bez uwzględniania drugiej",
+        "B": "Trzeba zastosować sumowanie ważone z 1.1.3.6.4 do wszystkich przewożonych kategorii",
+        "C": "Każdy przewóz mieszany automatycznie nie podlega ADR"
+      },
+      "correct_option": "B",
+      "explanation": "Przy mieszanym ładunku z kategorii transportowych 2 i 3 nie porównuje się każdej ilości osobno z limitem. Należy pomnożyć ilości przez odpowiednie współczynniki i zsumować wyniki, a następnie sprawdzić próg wyłączenia. Założenie, że każdy przewóz mieszany automatycznie jest zwolniony, jest błędne. Podstawa: ADR 1.1.3.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "1.1.3.6.4: dla różnych kategorii trzeba obliczyć sumę ważoną, a nie sprawdzać każdą kategorię osobno.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0606",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 1.1.3.6.3–1.1.3.6.4",
+      "stem": "Kierowca ocenia przewóz według wyłączenia ilościowego z ADR 1.1.3.6 i sprawdza tylko masę całego ładunku. Czy to wystarcza?",
+      "options": {
+        "A": "Tak, ponieważ każdy towar niebezpieczny ma ten sam próg ilościowy",
+        "B": "Nie; trzeba ustalić kategorię transportową każdego towaru i zastosować właściwe zasady obliczenia",
+        "C": "Tak, jeśli ładunek mieści się w przestrzeni bagażowej i nie przekracza dopuszczalnej masy pojazdu"
+      },
+      "correct_option": "B",
+      "explanation": "Wyłączenie ilościowe nie opiera się wyłącznie na masie całego ładunku. Należy sprawdzić kategorię transportową poszczególnych towarów i zastosować zasady obliczenia określone w ADR, uwzględniając właściwe progi oraz ewentualne współczynniki. Sama ładowność pojazdu ani wspólny próg dla wszystkich materiałów nie rozstrzygają, czy wyłączenie ma zastosowanie. Podstawa: ADR 1.1.3.6.3–1.1.3.6.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "1.1.3.6.3–1.1.3.6.4: trzeba ustalić kategorię i ilość w odpowiedniej jednostce; masa całego ładunku nie wystarcza.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0197",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 8.1.4.2",
+      "stem": "Pojazd jedzie z towarami ADR na warunkach zwolnienia 1.1.3.6. Zamiast gaśnicy proszkowej 2 kg przewoźnik proponuje gaśnicę z innym środkiem. Co trzeba sprawdzić?",
+      "options": {
+        "A": "Sprawdzić skuteczność dla pożarów A, B i C oraz równoważność",
+        "B": "Sprawdzić samą masę gaśnicy razem z uchwytem",
+        "C": "Wybrać gaśnicę do sprzętu elektrycznego bez oceny skuteczności dla pożarów A, B i C"
+      },
+      "correct_option": "A",
+      "explanation": "Przy zwolnieniu ilościowym 1.1.3.6 nadal potrzebna jest odpowiednia gaśnica o skuteczności co najmniej równoważnej wymaganym 2 kg proszku. Inny środek gaśniczy może spełnić wymóg, jeśli nadaje się do wskazanych rodzajów pożaru. Sama masa z uchwytem i przeznaczenie do sprzętu elektrycznego nie dowodzą wymaganej skuteczności. Podstawa: ADR 8.1.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "ADR 8.1.4.2: alternatywny środek gaśniczy musi mieć równoważną skuteczność dla wymaganych klas pożarów; sama masa nie wystarcza.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0282",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 8.1.4.2",
+      "stem": "Drogowy przewóz ADR korzysta z wyłączenia 1.1.3.6, a jednostka transportowa nie ma żadnej gaśnicy. Jakie jest minimalne wyposażenie według ADR 8.1.4.2?",
+      "options": {
+        "A": "Bez gaśnicy przy wyłączeniu 1.1.3.6",
+        "B": "Jedna przenośna gaśnica 2 kg proszku lub równoważna",
+        "C": "Zestaw pojemników z wodą oraz materiałów do tłumienia ognia zastępujący gaśnicę"
+      },
+      "correct_option": "B",
+      "explanation": "Nawet gdy przewóz korzysta z wyłączenia ilościowego ADR 1.1.3.6, pojazd musi mieć co najmniej jedną przenośną gaśnicę o skuteczności odpowiadającej 2 kg proszku. Wyłączenie nie oznacza braku jakiegokolwiek wyposażenia przeciwpożarowego. Brak gaśnicy i pojemniki z wodą nie zastępują przenośnej gaśnicy wymaganej przez ADR. Podstawa: ADR 8.1.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "ADR 8.1.4.2: wyłączenie 1.1.3.6 nie znosi wymogu co najmniej jednej przenośnej gaśnicy 2 kg proszku lub równoważnej skuteczności.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    }
+  ],
+  "caveats": [
+    "No question was marked verified.",
+    "Final confirmation against the legally authoritative Gazette text and independent specialist review of each A/B/C remain pending."
+  ]
+}
