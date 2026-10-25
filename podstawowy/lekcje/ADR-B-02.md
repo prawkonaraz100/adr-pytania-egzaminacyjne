@@ -1,5 +1,8 @@
 # ADR-B-02 — Klasy towarów i rozpoznawanie zagrożeń
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Nalepki i dane przewozowe pomagają rozpoznać zagrożenie przed załadunkiem, podczas kontroli i po wypadku. Nie klasyfikuj towaru po kolorze cieczy, nazwie handlowej ani jednym symbolu. Jeśli opakowanie z nalepką 4.3 jest mokre, nie polewaj go wodą: materiały tej klasy mogą wydzielać palny gaz w kontakcie z wodą.
 
