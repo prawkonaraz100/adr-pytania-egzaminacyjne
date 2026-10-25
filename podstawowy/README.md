@@ -114,6 +114,7 @@ Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogó
 - [B-01–04 — dystraktory i wyjaśnienia](raporty/etap-4x8-dystraktory-wyjasnienia-01-04-2026-10-25.md)
 - [B-05–08 — dystraktory i wyjaśnienia](raporty/etap-4x8-dystraktory-wyjasnienia-05-08-2026-10-25.md)
 - [B-09–13 — dystraktory i wyjaśnienia](raporty/etap-4x8-dystraktory-wyjasnienia-09-13-2026-10-25.md)
+- [Raport końcowy ETAPU 4x8](raporty/etap-4x8-raport-koncowy-2026-10-25.md)
 
 Raporty ETAPU 4x7
 
