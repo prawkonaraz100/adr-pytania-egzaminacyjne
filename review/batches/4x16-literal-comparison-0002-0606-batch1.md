@@ -73,21 +73,22 @@ Porównano pytanie, odpowiedzi A/B/C, klucz i explanation z odpowiednim punktem 
 | ADR-B-0271 | ADR 2025, 1.1.3.6.4 | Zgodne w zakresie sprawdzonego punktu | 1.1.3.6.4: 100 × 3 + 600 = 900, więc wynik nie przekracza 1000. |
 | ADR-B-0272 | ADR 2025, 1.1.3.6.4 | Zgodne w zakresie sprawdzonego punktu | 1.1.3.6.4: 200 × 3 + 500 = 1100, więc wynik przekracza 1000. |
 | ADR-B-0323 | ADR 2025, 1.1.3.6.4 | Zgodne w zakresie sprawdzonego punktu | 1.1.3.6.4: dla różnych kategorii trzeba obliczyć sumę ważoną, a nie sprawdzać każdą kategorię osobno. |
-| ADR-B-0570 | ADR 2025, 1.1.3.6.4 | Zgodne w zakresie sprawdzonego punktu | 1.1.3.6.4: 100 × 3 + 600 = 900; sprawdza się też pozostałe warunki wyłączenia. |
-| ADR-B-0571 | ADR 2025, 1.1.3.6.4 | Zgodne w zakresie sprawdzonego punktu | 1.1.3.6.4: 250 × 3 + 300 = 1050, czyli więcej niż 1000. |
 | ADR-B-0606 | ADR 2025, 1.1.3.6.3–1.1.3.6.4 | Zgodne w zakresie sprawdzonego punktu | 1.1.3.6.3–1.1.3.6.4: trzeba ustalić kategorię i ilość w odpowiedniej jednostce; masa całego ładunku nie wystarcza. |
+
+| ADR-B-0197 | ADR 2025, 8.1.4.2 | Zgodne w zakresie sprawdzonego punktu | ADR 8.1.4.2: alternatywny środek gaśniczy musi mieć równoważną skuteczność dla wymaganych klas pożarów; sama masa nie wystarcza. |
+| ADR-B-0282 | ADR 2025, 8.1.4.2 | Zgodne w zakresie sprawdzonego punktu | ADR 8.1.4.2: wyłączenie 1.1.3.6 nie znosi wymogu co najmniej jednej przenośnej gaśnicy 2 kg proszku lub równoważnej skuteczności. |
 
 ## Szczególna kontrola ADR 1.1.3.6
 
 - **ADR-B-0002:** zwolnienia zależą od warunków ADR; sama mała ilość nie zwalnia ze wszystkich wymagań.
 - **ADR-B-0093:** LQ (ilości ograniczone, dział 3.4) to inny mechanizm niż 1.1.3.6.
 - **ADR-B-0073:** przy zastosowaniu 1.1.3.6 nadal obowiązuje wymóg gaśnicy z 8.1.4.2.
+- **ADR-B-0197:** alternatywny środek gaśniczy musi wykazywać równoważną skuteczność.
+- **ADR-B-0282:** wyłączenie ilościowe nie usuwa wymogu minimalnej gaśnicy.
 - **ADR-B-0259:** dla kategorii 3 tabela 1.1.3.6.3 wskazuje co do zasady wartość 1000, z uwzględnieniem przypisów i pozycji szczególnych.
 - **ADR-B-0271:** 100 × 3 + 600 = 900.
 - **ADR-B-0272:** 200 × 3 + 500 = 1100.
 - **ADR-B-0323:** przy różnych kategoriach stosuje się sumowanie ważone z 1.1.3.6.4.
-- **ADR-B-0570:** 100 × 3 + 600 = 900.
-- **ADR-B-0571:** 250 × 3 + 300 = 1050.
 - **ADR-B-0606:** sama masa całego ładunku nie wystarcza; trzeba ustalić kategorie i ilości zgodnie z ADR.
 
 ## Sprostowanie
