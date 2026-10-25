@@ -147,7 +147,7 @@ Ocena: „rozumie / wymaga wyjaśnienia / nieocenione”, źródło odpowiedzi i
 - Przewóz luzem wymaga dopuszczenia dla konkretnego towaru oraz spełnienia wymagań dotyczących pojazdu i sposobu przewozu. Sam kod towaru, krótka trasa ani zgoda odbiorcy nie wystarczają.
 - **Błąd do uniknięcia:** nie naprawiaj niezgodności pozornie — folia, wolna jazda lub obserwacja przez drugi pojazd nie zastępują prawidłowego opakowania i mocowania.
 
-Powtórka w banku: ADR-B-0546–0560, w tym 0554–0560.
+Powtórka w banku: ADR-B-0554–0560 — kontrola przed załadunkiem i przewóz luzem. Pytania ADR-B-0546–0550 należą do działu oznakowania (B-06), a ADR-B-0551–0553 do wyposażenia pojazdu (B-08).
 
 ## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
 
