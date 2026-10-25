@@ -154,3 +154,18 @@ Te przykłady odzwierciedlają pytania robocze `needs_review`; przed użyciem na
 - Nie spłukuj nieznanej substancji do kanalizacji i nie zakładaj, że mała ilość jest bezpieczna.
 - Określenie „odpad” nie zastępuje klasyfikacji ani wymaganych danych dokumentu.
 - Podstawy do dalszej nauki: ADR 2.1, 5.4.1.1.3 i 5.4.3.4.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0009`
+- `ADR-B-0514`
+- `ADR-B-0007`
+- `ADR-B-0008`
+- `ADR-B-0045`
+- `ADR-B-0046`
+- `ADR-B-0100`
+- `ADR-B-0101`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-03 — ADR-B-03](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-03`; jest to symulacja, nie zaliczenie zajęć praktycznych).
