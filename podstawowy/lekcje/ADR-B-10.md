@@ -1,5 +1,8 @@
 # ADR-B-10 — Transport kombinowany: droga, kolej i morze
 
+
+> **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
+
 ## Po co to jest?
 Kontener może przebyć część trasy statkiem lub koleją, a następnie jechać drogą. Dokumenty i oznakowanie z wcześniejszego odcinka nie zwalniają automatycznie z wymagań obowiązujących na odcinku drogowym. Przed wyjazdem ustal, które przepisy mają zastosowanie i czy wszystkie wymagane informacje są dostępne.
 
