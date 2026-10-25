@@ -219,10 +219,10 @@ Pełna, maszynowo sprawdzana mapa kroków i ID pytań znajduje się w `scenarius
 | ADR-B-02 | Rozładunek: mokre opakowanie z nalepką 4.3 | ADR-B-0006, ADR-B-0510 |
 | ADR-B-03 | Wyciek przy kratce kanalizacyjnej | ADR-B-0009, ADR-B-0514 |
 | ADR-B-04 | Załadunek, źródła zapłonu i wymagany nadzór postoju | ADR-B-0010, ADR-B-0012, ADR-B-0310, ADR-B-0347, ADR-B-0580–0581 |
-| ADR-B-05 | Wypadek i zagrożenie przy przesyłce | ADR-B-0013, ADR-B-0015, ADR-B-0169 |
+| ADR-B-05 | Awaria: bezpieczne zgłoszenie i dostępność sprzętu | ADR-B-0013, ADR-B-0015, ADR-B-0169, ADR-B-0585, ADR-B-0593–0594 |
 | ADR-B-06 | Kontrola oznakowania kontenera | ADR-B-0507, ADR-B-0546, ADR-B-0562 |
-| ADR-B-07 | Uszkodzone opakowanie mimo poprawnych dokumentów | ADR-B-0020, ADR-B-0517, ADR-B-0567, ADR-B-0568, ADR-B-0569 |
-| ADR-B-08 | Kontrola wyposażenia i świadectwa pojazdu | ADR-B-0418, ADR-B-0551, ADR-B-0566 |
+| ADR-B-07 | Niezgodne opakowanie i uszkodzona sztuka przesyłki | ADR-B-0020, ADR-B-0517, ADR-B-0567–0569, ADR-B-0583–0584 |
+| ADR-B-08 | Kontrola wyposażenia pojazdu i każdego członka załogi | ADR-B-0418, ADR-B-0551, ADR-B-0566, ADR-B-0596–0597 |
 | ADR-B-09 | Kontrola przed załadunkiem i mocowania | ADR-B-0518, ADR-B-0554, ADR-B-0558 |
 | ADR-B-10 | Kontener po rejsie morskim — dalszy odcinek drogowy | ADR-B-0396, ADR-B-0511 |
 | ADR-B-11 | Wybór trasy przez tunel z ograniczeniami | ADR-B-0487, ADR-B-0539, ADR-B-0540 |
