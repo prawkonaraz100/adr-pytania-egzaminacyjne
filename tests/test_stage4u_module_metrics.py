@@ -13,7 +13,13 @@ class Stage4uModuleMetricsTests(unittest.TestCase):
    self.assertGreaterEqual(len(q["explanation"]),300)
    by_module[q["module_id"]].append(q)
   self.assertEqual(len(by_module),13)
+  strict_by_module={}
   for module,records in by_module.items():
-   longest=sum(q["options"][q["correct_option"]].__len__()>max(len(v) for k,v in q["options"].items() if k!=q["correct_option"]) for q in records)
+   longest=sum(len(q["options"][q["correct_option"]])>max(len(v) for k,v in q["options"].items() if k!=q["correct_option"]) for q in records)
+   strict_by_module[module]=(longest,len(records))
    self.assertLessEqual(100*longest/len(records),18.0,f"{module}: {longest}/{len(records)}")
+  # Stage 4x20 regression target: B-01 and B-04 must stay at or below 14%.
+  for module in ("ADR-B-01","ADR-B-04"):
+   longest,total=strict_by_module[module]
+   self.assertLessEqual(100*longest/total,14.0,f"{module}: {longest}/{total}; target <=14%")
 if __name__=="__main__": unittest.main()
