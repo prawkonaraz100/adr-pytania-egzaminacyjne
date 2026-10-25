@@ -186,5 +186,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+Poniższe pomyłki wynikają z typowych nieporozumień widocznych w pytaniach tego działu. Przy każdej odpowiedzi sprawdź warunek, który rozstrzyga sytuację, zamiast zapamiętywać samą literę.
+
+- Mylenie klas o podobnych numerach, np. 4.1, 4.2 i 4.3 — oznaczają różne zagrożenia; odczytaj opis klasy, a nie zapamiętuj sam numer (ADR część 2).
+- Traktowanie klasy jako numeru UN — numer UN identyfikuje konkretną pozycję, a klasa opisuje rodzaj zagrożenia (ADR 1.2.1 i 3.2 tabela A).
+- Zakładanie, że jedna nalepka pokazuje wszystkie zagrożenia — towar może wymagać dodatkowych oznaczeń zgodnie z jego klasyfikacją (ADR 5.2.2).
+- Wnioskowanie o klasie tylko z nazwy handlowej — sprawdź klasyfikację i właściwą pozycję w tabeli A (ADR 2.1 i 3.2).
+
+W razie niejasnych pojęć skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
