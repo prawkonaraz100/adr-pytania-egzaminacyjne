@@ -46,6 +46,11 @@ Sprawdź kolumnę 17 tabeli A i wymagania ADR 7.3, w tym warunki dotyczące rodz
 - pomijanie mocowania ładunku niebędącego towarem ADR;
 - uznawanie, że przewóz luzem jest dozwolony bez sprawdzenia wpisu i pojazdu.
 
+Najczęstsze pułapki wynikające z pytań tego działu:
+- Wspólny załadunek ocenia się po kolorze opakowań lub wspólnym odbiorcy — sprawdź tabelę 7.5.2.1 i właściwe warunki ADR, bo kolor ani adres dostawy nie rozstrzygają zgodności (ADR 7.5.2.1).
+- Uznawanie zgodności opakowania za zgodę na wspólny załadunek — są to odrębne wymagania; sprawdź zarówno opakowanie, jak i zgodność towarów (ADR 4.1 i 7.5.2).
+- Zbyt mocne mocowanie lub pomijanie pozostałości poprzedniego ładunku — zabezpieczenie nie może uszkadzać opakowania, a zanieczyszczenie trzeba wyjaśnić (ADR 7.5.7 i 7.5.8).
+
 ## Scenariusze praktyczne
 1. **Pozostałości poprzedniego ładunku.** Kierowca widzi pozostałości w przestrzeni ładunkowej, a nowy towar może z nimi reagować. Nie rozpoczyna załadunku; najpierw wyjaśnia i usuwa niezgodność zgodnie z procedurą.
 2. **Pas deformuje opakowanie.** Pas mocujący jest tak mocno zaciągnięty, że odkształca karton. Kursant koryguje mocowanie tak, by ładunek nie przemieszczał się, a opakowanie nie było uszkadzane.
@@ -145,15 +150,4 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 
 
 
-## Najczęstsze błędy kursantów
 
-W banku pojawiają się następujące typowe pomyłki. W realnej pracy nie zgaduj — sprawdź warunek ADR właściwy dla towaru i sposobu przewozu.
-
-- Wspólny załadunek ocenia się po kolorze opakowań lub wspólnym odbiorcy — sprawdź tabelę 7.5.2.1 i właściwe warunki ADR, bo kolor ani adres dostawy nie rozstrzygają zgodności (ADR 7.5.2.1).
-- Uznawanie zgodności opakowania za zgodę na wspólny załadunek — są to odrębne wymagania; sprawdź zarówno opakowanie, jak i zgodność towarów (ADR 4.1 i 7.5.2).
-- Zbyt mocne mocowanie lub pomijanie pozostałości poprzedniego ładunku — zabezpieczenie nie może uszkadzać opakowania, a zanieczyszczenie trzeba wyjaśnić (ADR 7.5.7 i 7.5.8).
-
-Niejasne terminy wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
-
-## Słowniczek
-Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
