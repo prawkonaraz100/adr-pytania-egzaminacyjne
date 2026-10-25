@@ -35,7 +35,7 @@
       "module_id": "ADR-B-03",
       "stem": "Czy przy przewozie odpadów niebezpiecznych słowo „ODPAD” zastępuje numer UN w dokumencie ADR?",
       "options": {
-        "A": "Tak, zawsze",
+        "A": "Tak, po wpisaniu słowa „ODPAD” z nazwą i adresem odbiorcy",
         "B": "Nie, numer UN nadal jest wymagany, jeśli właściwe przepisy wymagają dokumentu ADR",
         "C": "Tak, wystarczy umieszczenie odpadu w opakowaniu posiadającym certyfikację UN"
       },
@@ -120,8 +120,8 @@
       "stem": "Dlaczego przy drogowym etapie transportu morskiego nie należy automatycznie usuwać oznakowania zagrożeń z kontenera?",
       "options": {
         "A": "Bo wymagania dotyczą kolejnych etapów przewozu",
-        "B": "Ponieważ dokument przewozowy zawsze zastępuje oznakowanie",
-        "C": "Ponieważ oznakowanie IMDG zawsze jest identyczne z oznakowaniem ADR"
+        "B": "Ponieważ dokument przewozowy może zastąpić nalepki podczas drogi do portu",
+        "C": "Ponieważ oznaczenia IMDG i ADR mają identyczne wymagania w transporcie"
       },
       "image": null
     },
@@ -133,7 +133,7 @@
       "options": {
         "A": "Właściwości utleniające, mogące nasilać pożar",
         "B": "Radioaktywność",
-        "C": "Zawsze mają silne właściwości żrące, niezależnie od działania utleniającego"
+        "C": "Właściwości silnie żrące, mogące uszkodzić elementy pojazdu i opakowania"
       },
       "image": null
     },
@@ -169,7 +169,7 @@
       "options": {
         "A": "Nie, kod D/E zakazuje każdej kategorii A–E",
         "B": "Tak, kod D/E w sztukach przesyłek zakazuje dopiero kategorii E",
-        "C": "Nie, kod D/E zawsze zakazuje kategorii D niezależnie od sposobu przewozu"
+        "C": "Nie, kod D/E obejmuje też tunel D przy sztukach przesyłek, tak jak przy przewozie luzem"
       },
       "image": null
     },
@@ -360,7 +360,7 @@
       "stem": "W jaki sposób numer identyfikacyjny towaru niebezpiecznego podaje się w dokumencie przewozowym ADR?",
       "options": {
         "A": "Jako sam numer rejestracyjny auta",
-        "B": "Wyłącznie słowem „niebezpieczny”, bez numeru UN i innych wymaganych danych",
+        "B": "Zapisem „niebezpieczny” oraz nazwą handlową przesyłki zamiast numeru UN",
         "C": "Z literami UN przed czterocyfrowym numerem"
       },
       "image": null
