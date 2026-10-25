@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Nieprawidłowy załadunek może uszkodzić opakowanie, spowodować przemieszczenie ładunku lub doprowadzić do reakcji pozostałości poprzedniego towaru z nowym. Przed rozpoczęciem pracy sprawdź stan przestrzeni ładunkowej, opakowań i plan mocowania. Przewóz luzem oznacza przewóz bez osobnych sztuk przesyłek, ale wolno go stosować tylko wtedy, gdy ADR dopuszcza go dla danego towaru i pojazdu. Przed załadunkiem sprawdź właściwy wpis i wymagania (ADR 7.3).
+Nieprawidłowy załadunek może uszkodzić opakowanie, spowodować przemieszczenie ładunku lub doprowadzić do reakcji pozostałości poprzedniego towaru z nowym. Przed rozpoczęciem pracy sprawdź stan przestrzeni ładunkowej, opakowań i plan mocowania. Przewóz luzem (przewóz bez osobnych sztuk przesyłek; [słowniczek](../SLOWNICZEK.md#przewoz-luzem)) wolno stosować tylko wtedy, gdy ADR dopuszcza go dla danego towaru i pojazdu. Przed załadunkiem sprawdź właściwy wpis i wymagania (ADR 7.3).
 
 ## Czego się nauczysz
 - przeprowadzać kontrolę przed załadunkiem;
