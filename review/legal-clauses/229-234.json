@@ -12,9 +12,18 @@
       "clause": "5.4.3.4",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
-        "A": "Poprawna: ratownikom należy udostępnić wymagane dokumenty i informacje o ładunku, jeżeli można to zrobić bezpiecznie. Podstawa: ADR 5.4.3.1–5.4.3.4.",
-        "B": "Niepoprawna: sama nazwa handlowa nie zastępuje wymaganych danych identyfikacyjnych i dokumentów. Podstawa: ADR 5.4.3.",
-        "C": "Niepoprawna: bezpiecznie dostępnych dokumentów nie należy celowo wstrzymywać do końca działań ratowniczych. Podstawa: ADR 5.4.3.1–5.4.3.4."
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawna: ratownikom należy udostępnić wymagane dokumenty i informacje o ładunku, jeżeli można to zrobić bezpiecznie. Podstawa: ADR 5.4.3.1–5.4.3.4."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Niepoprawna: sama nazwa handlowa nie zastępuje wymaganych danych identyfikacyjnych i dokumentów. Podstawa: ADR 5.4.3."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Niepoprawna: bezpiecznie dostępnych dokumentów nie należy celowo wstrzymywać do końca działań ratowniczych. Podstawa: ADR 5.4.3.1–5.4.3.4."
+        }
       },
       "observed_answer_key": "A",
       "notes_on_conditions": "Ocena obowiązuje dla opisanego scenariusza; szczegółowe wyjątki i oficjalne polskie brzmienie wymagają porównania.",
