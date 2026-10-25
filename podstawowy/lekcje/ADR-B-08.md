@@ -137,5 +137,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+Te pomyłki pojawiają się w typowych odpowiedziach błędnych w banku. Zanim wybierzesz odpowiedź, sprawdź, który warunek przepisu rozstrzyga daną sytuację.
+
+- Zakładanie, że każda jednostka przewozu wymaga identycznej gaśnicy i wyposażenia — wymagania zależą od pojazdu, przewozu i warunków ADR (ADR 8.1.4 i 8.1.5).
+- Mylenie liczby gaśnic z ich łączną pojemnością — sprawdź odpowiednie wymagania dla danego pojazdu i przewozu (ADR 8.1.4).
+- Uznawanie, że gaśnica może być niedostępna, jeśli jest na pojeździe — musi być sprawna, odpowiednio zamocowana i dostępna (ADR 8.1.4).
+- Pomijanie wyposażenia osobistego członków załogi lub wymaganego świadectwa pojazdu — sprawdź listę dokumentów i wyposażenia dla konkretnego przewozu (ADR 8.1.2, 8.1.5 i 9.1.3).
+
+Niejasne pojęcia wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
