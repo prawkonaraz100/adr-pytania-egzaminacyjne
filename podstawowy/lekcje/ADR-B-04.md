@@ -28,7 +28,7 @@ Jeżeli nie możesz spełnić warunków postoju, skontaktuj się z dyspozytorem 
 ### Kolejność miejsc postoju i zabezpieczenie pojazdu
 Najpierw ustal, czy dany towar i ilość podlegają wymaganiom nadzoru. Sprawdź kolumnę 19 tabeli A oraz przepisy szczególne 8.5. Jeśli stosuje się ADR 8.4.1, kolejność alternatyw ma znaczenie: w pierwszej kolejności zabezpieczona baza lub zabezpieczony teren zakładu; jeśli niedostępne — odpowiedni parking dozorowany, którego osoba nadzorująca zna rodzaj ładunku i wie, gdzie znaleźć kierowcę; następnie inne dopuszczone miejsce parkingowe, jeżeli spełnia warunki przepisu; a jako ostatnią alternatywę odpowiednio odosobniony teren, z dala od drogi publicznej, zabudowań mieszkalnych i miejsc zwykłego ruchu lub gromadzenia się ludzi. Zastosuj dokładne warunki ADR 8.4.1(a)–(c), nie samą ogólną kolejność.
 
-Niezależnie od nadzoru użyj hamulca postojowego zgodnie z ADR 8.3.7. Przyczepę bez własnego urządzenia hamującego zabezpiecza się co najmniej jednym klinem pod koło, gdy przepis tego wymaga; klin należy do wymaganego wyposażenia. Polecenie dyspozytora nie uchyla wymagań, a krótka przerwa nie stanowi automatycznego wyjątku.
+Niezależnie od nadzoru użyj hamulca postojowego zgodnie z ADR 8.3.7. Przyczepę bez własnego urządzenia hamującego zabezpiecza się co najmniej jednym klinem pod koło, gdy przepis tego wymaga (ADR 8.3.7); klin należy do wymaganego wyposażenia określonego w ADR 8.1.5.2. Polecenie dyspozytora nie uchyla wymagań, a krótka przerwa nie stanowi automatycznego wyjątku.
 ## Typowe błędy kursantów
 - zakładanie, że zakaz palenia nie dotyczy e-papierosów;
 - mieszanie zasad o paleniu, pracy silnika i otwieraniu opakowań;
