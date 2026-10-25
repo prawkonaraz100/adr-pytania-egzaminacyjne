@@ -1,185 +1,115 @@
 # ADR-B-08 — Wyposażenie, gaśnice i świadectwo pojazdu
 
 ## Po co to jest?
+Samo posiadanie wyposażenia nie wystarcza. Sprzęt musi być właściwy dla przewozu, sprawny i dostępny, a pojazd może wymagać dodatkowego świadectwa dopuszczenia. Przed wyjazdem sprawdź wymagania konkretnego przewozu, a nie tylko to, czy w kabinie znajduje się lista wyposażenia.
 
-Przed wyjazdem kierowca powinien sprawdzić, czy pojazd ma wymagane wyposażenie i dokumenty. **DMC** oznacza dopuszczalną masę całkowitą pojazdu; od rodzaju pojazdu, przewozu i zastosowanych zwolnień mogą zależeć konkretne wymagania dotyczące gaśnic. **ADR** to europejska umowa o drogowym przewozie towarów niebezpiecznych. Przykład: jeśli firma mówi, że pojazd ma ważne świadectwo dopuszczenia, ale nie można go okazać, nie zakładaj, że ustne zapewnienie zastępuje wymagany dokument.
+## Czego się nauczysz
+- sprawdzać wymagane gaśnice z uwzględnieniem pojazdu i przewozu;
+- rozróżniać wyposażenie pojazdu i wyposażenie osobiste załogi;
+- rozumieć, że elementy ochronne nie zastępują się wzajemnie;
+- ustalać, czy pojazd wymaga świadectwa dopuszczenia;
+- reagować na brak, uszkodzenie lub niedostępność sprzętu przed wyjazdem.
 
-> **Wersja robocza 22.10.2026.** Wymaga niezależnej recenzji specjalisty ADR i kontroli szczegółowych wyjątków. Nie zastępuje obowiązkowego kursu i jego ćwiczeń.
+## 1. Gaśnice — wymagania zależą od przewozu
+Liczba i pojemność gaśnic zależą od wymagań ADR dla pojazdu, jego dopuszczalnej masy całkowitej (DMC) oraz warunków przewozu i ewentualnego zastosowania wyłączenia. Nie zakładaj jednego zestawu dla każdego pojazdu. Sprawdź ADR 8.1.4 i właściwe wymagania dla konkretnej konfiguracji.
 
-## Jak korzystać z tej lekcji
+Gaśnice muszą być sprawne, mieć wymagane oznaczenia i terminy przeglądu, być prawidłowo zamocowane oraz łatwo dostępne. Gaśnica przeterminowana, uszkodzona, zasłonięta ładunkiem lub leżąca luzem może nie spełniać wymagań. Usuń niezgodność przed wyjazdem.
 
-1. Zacznij od celów nauki i głównych sekcji tematycznych u góry dokumentu. Czytaj je po kolei i zatrzymaj się przy przykładzie z pracy kierowcy.
-2. Gdy pojawia się skrót lub kod ADR, sprawdź wyjaśnienie w tekście i wskazany punkt przepisu — nie ucz się samego symbolu bez zrozumienia, co oznacza.
-3. Sekcje niżej z nagłówkami typu „Utrwalanie przez scenariusz”, „Zadanie instruktorskie”, „plan dydaktyczny” lub „uzupełnienie” są materiałem uzupełniającym i archiwum ćwiczeń. Mogą powtarzać temat główny; wybierz powiązane pytania i scenariusze zamiast czytać powtórzenia jak nowy rozdział.
-4. Pytania w banku są materiałem roboczym `needs_review`. Sam wynik testu nie potwierdza zaliczenia ćwiczeń praktycznych ani prawnej poprawności materiału.
-
-## Cele
-Rozumieć minimalne wymagania wyposażenia w zależności od rodzaju przewozu i dopuszczalnej masy całkowitej (DMC), rozpoznać podstawowe środki ochrony i przypadki wymagające świadectwa dopuszczenia.
-
-## 1. Gaśnice zależą od DMC i rodzaju zwolnienia
-
-Poniższe minima obowiązują przy stosowaniu pełnego 8.1.4.1. Łączna masa to przeliczenie na proszek lub równoważną zdolność gaśniczą zgodnie z ADR.
-
-| DMC jednostki transportowej | Minimalna łączna pojemność | Wymagana liczba gaśnic |
-|---|---:|---:|
-| Do 3,5 t | 4 kg | co najmniej 2 |
-| Powyżej 3,5 t do 7,5 t | 8 kg | co najmniej 2 |
-| Powyżej 7,5 t | 12 kg | co najmniej 2 |
-
-Tabela nie wyczerpuje wymagań dotyczących minimalnej pojemności jednej z gaśnic, pożarów silnika/kabiny ani odpowiednich rodzajów gaśnic. Sprawdzaj pełny punkt 8.1.4.1. Przy **1.1.3.6** występuje odrębne wymaganie co najmniej jednej gaśnicy 2 kg (8.1.4.2).
-
-Gaśnice muszą być sprawne, prawidłowo sprawdzone i dostępne dla załogi. Nie wystarczy posiadanie przeterminowanego egzemplarza.
-
-## 2. Wyposażenie załogi
-
-Jeżeli stosuje się 8.1.5, wymagane są m.in. klin pod koła, dwa stojące znaki ostrzegawcze, odpowiednia kamizelka, latarka, rękawice i ochrona oczu. Część elementów jest na **pojazd**, część na **każdego członka załogi**. Odpowiedni sprzęt zależy też od nalepki, np. maska ucieczkowa dla nalepek 2.3 lub 6.1 według 8.1.5.3.
-
-Nie zakładaj, że identyczne wyposażenie wystarczy do każdego rodzaju towaru lub zwolnienia.
+## 2. Wyposażenie osobiste załogi
+Sprawdź osobno wyposażenie wymagane dla pojazdu i dla każdego członka załogi. Kamizelka ostrzegawcza, latarka, rękawice ochronne i ochrona oczu mają różne funkcje i nie zastępują się wzajemnie. Jeżeli wymóg dotyczy każdego członka załogi, jedna kamizelka dla dwóch osób nie wystarczy. Zwykłe rękawice nie muszą chronić przed konkretnym towarem; nie dotykaj nieznanej substancji nawet wtedy, gdy masz rękawice.
 
 ## 3. Pojazdy wymagające dodatkowego dopuszczenia
+Nie każdy pojazd przewożący towary niebezpieczne wymaga takiego samego świadectwa. Sprawdź, czy rodzaj pojazdu i przewozu należy do kategorii objętych wymaganiem dodatkowego świadectwa dopuszczenia ADR. Nie wnioskuj wyłącznie z wyglądu pojazdu ani z tego, że wcześniej przewoził towary niebezpieczne. Przed wyjazdem sprawdź dokumenty pojazdu, ich ważność i zgodność z planowanym przewozem.
 
-Część 9 przewiduje wymagania dla szczególnych kategorii pojazdów (m.in. EX/II, EX/III, FL, AT, MEMU). **Nie każdy samochód przewożący sztuki przesyłek ADR potrzebuje odrębnego świadectwa dopuszczenia**. Zasadniczo ADR 8.1.2.2 przewiduje przewożenie wymaganego świadectwa dopuszczenia w kabinie. **W 2026 r. trzeba dodatkowo sprawdzić umowę wielostronną M364**: u jej sygnatariuszy, pod określonymi warunkami, świadectwo **naczepy** wolno przechowywać poza kabiną w bezpiecznym i dostępnym miejscu na naczepie, zabezpieczonym przed pogodą. Wyjątek nie daje automatycznie tego samego prawa dla pojazdu silnikowego. Szczegółowe zasady wydawania świadectw w Polsce opisuje TDT. [Rejestr odstępstw](../../docs/ODSTEPSTWA-ADR-2026.md).
+## Typowe błędy kursantów
+- stosowanie tej samej liczby gaśnic dla każdego pojazdu;
+- ignorowanie DMC i warunków zastosowania wyłączenia;
+- uznawanie, że sama obecność gaśnicy wystarcza, nawet gdy jest przeterminowana lub niedostępna;
+- traktowanie kamizelki, latarki, rękawic i ochrony oczu jako zamienników;
+- uznawanie, że każdy pojazd ADR wymaga identycznego świadectwa albo że żaden go nie wymaga.
 
-## 4. Pytania kontrolne
+## Scenariusze praktyczne
+1. **Gaśnica z przekroczonym terminem przeglądu.** Podczas kontroli kierowca zauważa, że termin przeglądu jednej z wymaganych gaśnic minął. Nie ignoruje tego; wyjaśnia niezgodność i zapewnia wymagany sprawny sprzęt przed wyjazdem.
+2. **Brak wyposażenia dla drugiej osoby.** Dwie osoby w załodze mają jedną kamizelkę ostrzegawczą. Kierowca sprawdza listę wymagań i uzupełnia wyposażenie tak, by każdy członek załogi miał wymagany element.
+3. **Gaśnica zasłonięta ładunkiem.** Sprzętu nie można szybko wyjąć. Kierowca poprawia rozmieszczenie ładunku lub mocowanie sprzętu przed ruszeniem.
+4. **Rękawice nieznanej odporności.** Po uszkodzeniu opakowania kierowca nie wie, czy rękawice chronią przed substancją. Nie dotyka przesyłki; oddala się, ostrzega innych i postępuje zgodnie z instrukcjami.
+5. **Świadectwo pojazdu.** Przed wyjazdem kursant otrzymuje fikcyjny dokument pojazdu i opis przewozu. Ustala, czy dla tej konfiguracji wymagane jest świadectwo dopuszczenia i sprawdza jego ważność.
 
-- Jaka minimalna łączna pojemność gaśnic przy DMC 3,5 / 6 / 12 t?
-- Czym różni się reżim 8.1.4.2 od 8.1.4.1?
-- Ile kamizelek potrzeba dla dwóch członków załogi?
-- Czy maska ucieczkowa jest wymagana przy każdej klasie?
-- Kiedy potrzebne jest świadectwo dopuszczenia pojazdu?
-
-Pytania: `0022`–`0024`, `0056`–`0057`, `0071`–`0077`, `0137`.
-
-**Źródła:** ADR 8.1.2, 8.1.4, 8.1.5, 9.1–9.2; [TDT — świadectwa ADR](https://www.tdt.gov.pl/zalatw-sprawe/towary-niebezpieczne/swiadectwa-adr/). Liczby i wyjątki wymagają końcowego sprawdzenia.
-
-## Akty prawne
-
-- [ADR 2025 — Dz.U. poz. 642](https://dziennikustaw.gov.pl/DU/2025/642)
-- [Sprostowanie Dz.U. 2025 poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf)
-- [Ramowy program kursu Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf)
-
-## Utrwalanie przez scenariusz — przegląd etapu 2 (23.10.2026)
-
-**Sytuacja:** Przed wyjazdem stwierdzono, że gaśnica jest źle zamocowana.
-
-**Ćwiczenie:** Oceń wymagania bezpiecznego mocowania, ochrony przed warunkami atmosferycznymi i dostępności gaśnicy. Kursant wyjaśnia samodzielnie warunki i ograniczenia, zamiast zapamiętywać literę odpowiedzi.
-
-**Sprawdzenie instruktora:** opisać decyzję, warunek i typowy błąd; quiz nie jest zaliczeniem wymaganych ćwiczeń praktycznych.
-
-**Podstawa do weryfikacji:** ADR 8.1.4.5; [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642), [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl). Jest to szkic, nie zatwierdzona interpretacja prawa.
-
-## Zestaw sytuacyjny wyposażenia 0251–0254 (szkic)
-
-Przed wyjazdem kursant sprawdza klin **dla każdego pojazdu**, kamizelki oraz ochronę oczu **dla każdego członka załogi**, i dodatkową maskę ucieczkową dla nalepek 2.3/6.1. Przedmiotem ćwiczenia jest lista kontrolna ADR 8.1.5.2–3, a nie pozorne zaliczenie P1–P3. Źródło: Dz.U. 2025 poz. 642; sprostowanie poz. 1575. Wymagana indywidualna kontrola urzędowego tekstu i recenzja specjalisty.
-
-## Kontrola gaśnic w przypadkach granicznych — 0282–0283
-
-Scenariusz 0282: minimalna gaśnica dla przewozu objętego wyłączeniem 1.1.3.6 — ADR 8.1.4.2. Scenariusz 0283: wymagania kontroli okresowej i terminu przydatności — ADR 8.1.4.4. Pytania szkicowe, bez zastępowania fizycznej kontroli i bez podpisanej recenzji prawa.
-
-## Zadanie instruktorskie: Pojazdy i wyposażenie (etap 2, 23.10.2026)
-
-**Symulacja bez rzeczywistych towarów:** Na fikcyjnych kartach pojazdów kursant rozpoznaje EX/II i EX/III, ocenia warunkowość dopuszczenia i wyposażenia.
-
-**Odniesienie do weryfikacji:** ADR 9.1.1.2, 8.1.4, 8.1.5.
-
-**Obserwowalne kryterium:** Nie uznaje, że każda ciężarówka wymaga specjalnego świadectwa.
-
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
-
-## Uzupełnienie powiązań z pytaniami — ADR-B-08 (23.10.2026)
-
-Poniższe akapity są roboczymi wyjaśnieniami do nauki i nie zastępują indywidualnej recenzji prawnika ADR. Odwołania wymagają sprawdzenia z Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575.
-
-### ADR-B-0074 — Podczas kontroli okazuje się, że termin przeglądu jednej z wymaganych gaśnic ADR minął. Co powinien zrobić kierowca?
-
-ADR wymaga sprawnych gaśnic z ważnym terminem badania lub dopuszczonego użytkowania. Samo nienaruszenie plomby nie wystarcza.
-
-**Podstawa do kontroli:** ADR 2025, 8.1.4.4; 8.1.4.5. **Zadanie kursanta:** wskaż decyzję i rozpoznaj, które warunki lub wyjątki należy sprawdzić przed jej podjęciem. Status redakcyjny: `needs_review`.
-
-## Program prowadzenia lekcji 1(h) — 23.10.2026
-
-**Wymiar:** 2 × 45 minut. Zakres: wyposażenie techniczne pojazdu, środki ochronne załogi i gaśnice; rozróżnienie wymagań według masy jednostki, rodzaju ładunku i zastosowanych wyłączeń (ADR 8.1.4, 8.1.5, 9.1–9.2).
-
-| Kompetencja | Treść | Przepis | Liczba pytań roboczych |
-|---|---|---|---:|
-| ADR-B-08-K01 | Gaśnice pełny reżim i masa jednostki | 8.1.4.1 | 7 |
-| ADR-B-08-K02 | Gaśnica przy 1.1.3.6 | 8.1.4.2 | 4 |
-| ADR-B-08-K03 | Stan techniczny, ważność i dostępność gaśnic | 8.1.4.4–5 | 5 |
-| ADR-B-08-K04 | Klin pod koło | 8.1.5.2 | 3 |
-| ADR-B-08-K05 | Kamizelki i latarki dla członków załogi | 8.1.5.2 | 3 |
-| ADR-B-08-K06 | Rękawice i ochrona oczu | 8.1.5.2 | 3 |
-| ADR-B-08-K07 | Wyposażenie dodatkowe właściwe dla nalepek | 8.1.5.3 | 7 |
-| ADR-B-08-K08 | Wyposażenie techniczne i wymagania pojazdu | 9.1, 9.2 | 3 |
-
-| Czas | Działanie dydaktyczne | Sprawdzenie |
-|---|---|---|
-| 0–15 min | Schemat pojazdu, dwa rodzaje wyposażenia | Kursant rozróżnia sprzęt jednostki od osobistego |
-| 15–35 min | Tabela gaśnic 8.1.4.1, przypadki graniczne masy i wyłączenia 1.1.3.6 | Oblicza minimalny zestaw i nie myli pojemności z liczbą sztuk |
-| 35–45 min | Dostępność i stan sprzętu | Wskazuje konieczne kontrole i właściwe rozmieszczenie |
-| 45–65 min | Wyposażenie 8.1.5 zależne od nalepek i liczby załogi | Dobiera wymagane elementy do fikcyjnego manifestu |
-| 65–80 min | Środki techniczne pojazdu i klinowanie | Wskazuje obowiązki bez instruktażu warsztatowego |
-| 80–90 min | Studium dwóch sytuacji i ocena | Uzasadnia decyzję dokładnym ustępem |
-
-**Sytuacja 1:** Jednostka 7,5 t ma dwie gaśnice o nieprawidłowej łącznej zawartości — zastosuj tabelę wagową. **Sytuacja 2:** Dwie osoby w załodze i wymagane wyposażenie osobiste tylko dla jednej — oceń kompletność bez pomylenia sprzętu pojazdu ze sprzętem osoby. Materiały: karty fikcyjnych pojazdów, mas i nalepek, tablica gaśnic i zdjęcia wzorcowego wyposażenia. Sprawdzenie indywidualne: „rozumie / wymaga wyjaśnienia / nieocenione”, argumentacja i wynik na karcie. Nie dotykać prawdziwego towaru ADR. Praktyczne używanie gaśnicy znajduje się w P1 i wymaga oddzielnej rzeczywistej obecności.
-
-Podstawa programu: Dz.U. 2021 poz. 2150 zał. 1(h). ADR Dz.U. 2025 poz. 642 i sprostowanie poz. 1575. Materiał szkoleniowy wymaga dalszej niezależnej kontroli; zero verified.
-
-## Karta kursanta — wyposażenie i dokumenty pojazdu (24.10.2026)
-
-- Sprawdź osobno liczbę gaśnic, ich łączną pojemność, stan techniczny i dostępność. Spełnienie jednego warunku nie kompensuje braku innego.
-- Świadectwo dopuszczenia jest wymagane dla określonych rodzajów pojazdów, a nie automatycznie dla każdego samochodu. Jeśli jest wymagane, sprawdź jego ważność i dostępność.
-- **Błąd do uniknięcia:** nie zastępuj świadectwa dowodem rejestracyjnym ani ustnym zapewnieniem firmy; w razie wątpliwości wstrzymaj wyjazd do wyjaśnienia.
-
-Powtórka w banku: ADR-B-0418–0423, 0551–0553 i 0566.
-
-## Mapa pytań i przykład praktyczny — etap 4p (24.10.2026)
-
-### Powiązane pytania w banku
-
-- ADR-B-0074 — stan gaśnicy
-- ADR-B-0251–0254 — wyposażenie
-- ADR-B-0282–0283 — liczba i pojemność gaśnic
-- ADR-B-0418–0423 — wymagania wyposażenia
-- ADR-B-0551–0553 i ADR-B-0566 — świadectwo dopuszczenia
-
-### Przykłady z pracy kierowcy
-
-**Gaśnice:** liczba urządzeń i łączna masa środka gaśniczego to dwa osobne warunki. Jedna ciężka gaśnica nie zawsze zastąpi wymaganą liczbę mniejszych. Powiązane pytanie: ADR-B-0418 (ADR 8.1.4.1).
-
-**Świadectwo dopuszczenia:** jeśli dany typ pojazdu musi je mieć, nie zastępuj dokumentu ustnym zapewnieniem firmy ani dowodem rejestracyjnym. Przed wyjazdem sprawdź ważność i dostępność dokumentu. Powiązane pytania: ADR-B-0551 i ADR-B-0566 (ADR 9.1.3.1 i 8.1.2.2).
-
-Te pytania pozostają `needs_review`; przykłady wymagają niezależnej recenzji przed szkoleniem.
-
-**Status dydaktyczny i prawny:** mapa wskazuje miejsca do ćwiczenia, nie zatwierdza pytań. Bank pozostaje w statusie `needs_review`; przed użyciem egzaminacyjnym należy zweryfikować klucz, wszystkie warianty A/B/C i wskazane przepisy.
-
-## Uzupełnienie odbioru 4x1 — wyposażenie osobiste załogi (ADR-B-0596–0597)
-
-Przed wyjazdem sprawdź nie tylko wyposażenie pojazdu, lecz także elementy wymagane dla członków załogi. Kamizelka ostrzegawcza, latarka, rękawice ochronne i ochrona oczu pełnią różne funkcje — nie zastępują się wzajemnie. Jeżeli wymóg dotyczy każdego członka załogi, jedna wspólna kamizelka nie rozwiązuje problemu. Zwykłe rękawice nie muszą odpowiadać wymogom dla danego przewozu, a wyposażenia nie wolno odkładać do chwili wystąpienia zdarzenia.
-
-**Scenariusz 1 — dwie osoby, jedna kamizelka:** podczas kontroli przed wyjazdem załoga odkrywa, że ma tylko jedną kamizelkę dla dwóch osób. Uzupełnia wyposażenie tak, aby każdy członek załogi miał wymagany element. Uzasadnienie: sytuacja awaryjna może wymagać jednoczesnego opuszczenia kabiny przez obie osoby.
-
-**Scenariusz 2 — latarka bez ochrony dłoni i oczu:** kierowca nie uznaje latarki za zamiennik pozostałego wyposażenia; sprawdza listę wymagań i uzupełnia brakujące elementy przed odjazdem. Uzasadnienie: oświetlenie pomaga widzieć, ale nie chroni przed kontaktem z substancją.
-
-Podstawa do sprawdzenia: ADR 8.1.5.2. Pytania ADR-B-0596–0597 pozostają `needs_review`.
+Ćwiczenia wykonuje się na listach kontrolnych i fikcyjnych dokumentach. Nie używa się prawdziwych towarów niebezpiecznych ani nie udaje się zaliczenia praktyki.
 
 ## Co musisz zapamiętać
-
-- Sprawdź osobno liczbę gaśnic, ich łączną pojemność, stan i dostępność.
-- DMC to dopuszczalna masa całkowita; nie stosuj jednego wymogu do każdego pojazdu bez sprawdzenia rodzaju przewozu i zwolnień.
-- Jeśli ADR wymaga świadectwa dopuszczenia, sprawdź jego ważność i dostępność — nie zastępuj go ustnym zapewnieniem firmy.
-- Podstawy do dalszej nauki: ADR 8.1.4 i 9.1.3.1.
+- Gaśnice dobiera się według wymagań konkretnego pojazdu i przewozu.
+- Sprawność, termin przeglądu, mocowanie i dostępność sprzętu są równie ważne jak jego obecność.
+- Wyposażenie osobiste sprawdzaj dla każdego członka załogi.
+- Kamizelka, latarka, rękawice i ochrona oczu nie zastępują się wzajemnie.
+- Sprawdź, czy konkretny pojazd wymaga świadectwa dopuszczenia ADR.
 
 ## Sprawdź się
+- Od czego zależą wymagania dotyczące gaśnic?
+- Co należy zrobić, gdy gaśnica ma nieważny przegląd?
+- Jak odróżnić wyposażenie pojazdu od wyposażenia osobistego?
+- Dlaczego jedna kamizelka dla dwóch członków załogi może nie wystarczyć?
+- Kiedy trzeba sprawdzić świadectwo dopuszczenia pojazdu?
 
-Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
-
-- `ADR-B-0418`
-- `ADR-B-0551`
-- `ADR-B-0566`
+Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0022`
 - `ADR-B-0023`
 - `ADR-B-0024`
-- `ADR-B-0056`
-- `ADR-B-0057`
+- `ADR-B-0074`
+- `ADR-B-0251`
+- `ADR-B-0282`
+- `ADR-B-0418`
+- `ADR-B-0596`
 
-**Scenariusz z pracy kierowcy:** [SC-ADR-B-08 — ADR-B-08](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-08`; jest to symulacja, nie zaliczenie zajęć praktycznych).
+Scenariusz z pracy kierowcy: [SC-ADR-B-08 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
+
+## Powiązane pytania w banku
+- ADR-B-0022
+- ADR-B-0023
+- ADR-B-0024
+- ADR-B-0056
+- ADR-B-0057
+- ADR-B-0071
+- ADR-B-0072
+- ADR-B-0073
+- ADR-B-0074
+- ADR-B-0075
+- ADR-B-0076
+- ADR-B-0077
+- ADR-B-0137
+- ADR-B-0171
+- ADR-B-0176
+- ADR-B-0197
+- ADR-B-0198
+- ADR-B-0251
+- ADR-B-0252
+- ADR-B-0253
+- ADR-B-0254
+- ADR-B-0282
+- ADR-B-0283
+- ADR-B-0319
+- ADR-B-0417
+- ADR-B-0418
+- ADR-B-0419
+- ADR-B-0420
+- ADR-B-0421
+- ADR-B-0422
+- ADR-B-0423
+- ADR-B-0483
+- ADR-B-0484
+- ADR-B-0485
+- ADR-B-0486
+- ADR-B-0509
+- ADR-B-0551
+- ADR-B-0552
+- ADR-B-0553
+- ADR-B-0566
+- ADR-B-0596
+- ADR-B-0597
+
+## Podstawa prawna
+- ADR 2025: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf): 8.1.4, 8.1.5.2 oraz właściwe wymagania świadectwa dopuszczenia pojazdu.
+- Ustawa z 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych, z późniejszymi zmianami.
+- Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
+
+Status materiału i pytań: needs_review; dokładne wyposażenie i wymagania świadectwa trzeba potwierdzić dla konkretnego przewozu.
