@@ -239,7 +239,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Tak, jeśli wygląda na nieuszkodzoną”) jest sprzeczny z regułą przywołaną w ADR 2025, 8.1.4.4–8.1.4.5 w opisanej sytuacji; wymaga niezależnej kontroli."
+          "rationale": "Wariant A („Ocenić wygląd obudowy zamiast daty kontroli i uznać gaśnicę za sprawną”) jest błędny: wygląd obudowy nie zastępuje wymaganej kontroli i aktualnego oznaczenia terminu."
         },
         "B": {
           "expected_correct": true,
@@ -260,7 +260,7 @@
         "module_id": "ADR-B-08",
         "stem": "Gaśnica w pojeździe ADR ma miniony termin następnej wymaganej kontroli. Czy można uznać ją za właściwie przygotowaną do przewozu?",
         "options": {
-          "A": "Ocenić wygląd obudowy zamiast daty kontroli",
+          "A": "Ocenić wygląd obudowy zamiast daty kontroli i uznać gaśnicę za sprawną",
           "B": "Nie; termin wymaganej kontroli nie może być przekroczony",
           "C": "Klasa 3 pozwala odstąpić od kontroli"
         },
