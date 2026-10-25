@@ -141,5 +141,16 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+W banku pojawiają się następujące typowe pomyłki. W realnej pracy nie zgaduj — sprawdź warunek ADR właściwy dla towaru i sposobu przewozu.
+
+- Wspólny załadunek ocenia się po kolorze opakowań lub wspólnym odbiorcy — sprawdź tabelę 7.5.2.1 i właściwe warunki ADR, bo kolor ani adres dostawy nie rozstrzygają zgodności (ADR 7.5.2.1).
+- Uznawanie zgodności opakowania za zgodę na wspólny załadunek — są to odrębne wymagania; sprawdź zarówno opakowanie, jak i zgodność towarów (ADR 4.1 i 7.5.2).
+- Zbyt mocne mocowanie lub pomijanie pozostałości poprzedniego ładunku — zabezpieczenie nie może uszkadzać opakowania, a zanieczyszczenie trzeba wyjaśnić (ADR 7.5.7 i 7.5.8).
+
+Niejasne terminy wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
