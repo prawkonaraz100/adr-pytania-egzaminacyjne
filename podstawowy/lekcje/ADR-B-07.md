@@ -10,11 +10,11 @@ Bezpieczny przewóz wymaga współpracy nadawcy, przewoźnika, załadowcy, pakuj
 - rozróżniać podstawowe obowiązki uczestników przewozu;
 - rozpoznawać sytuacje, w których trzeba zatrzymać czynność i wyjaśnić niezgodność;
 - rozumieć rolę pakującego i załadowcy przy opakowaniu;
-- wiedzieć, kto zapewnia załodze instrukcje pisemne;
-- odróżniać obowiązki ADR od ogólnej odpowiedzialności cywilnej.
+- wiedzieć, kto zapewnia załodze instrukcje pisemne (dokument z ustalonymi wskazówkami dla załogi na wypadek zdarzenia; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne));
+- odróżniać obowiązki ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)) od ogólnej odpowiedzialności cywilnej.
 
 ## 1. Podział obowiązków
-ADR 1.4 przypisuje uczestnikom przewozu obowiązki zależne od roli. Nadawca odpowiada za właściwe informacje i klasyfikację w zakresie swoich zadań; przewoźnik organizuje zgodny przewóz; załadowca i pakujący odpowiadają za właściwe czynności i stan przesyłek w zakresie ich obowiązków; kierowca przestrzega wymagań dotyczących pojazdu, dokumentów, wyposażenia i bezpieczeństwa. Odbiorca realizuje obowiązki związane z odbiorem i rozładunkiem.
+ADR rozdziela obowiązki według tego, co robi dana osoba lub firma. Nadawca, przewoźnik, załadowca i kierowca mają różne zadania, więc polecenie jednej osoby nie zwalnia pozostałych z ich obowiązków (ADR 1.4). Nadawca odpowiada za właściwe informacje i klasyfikację w zakresie swoich zadań; przewoźnik organizuje zgodny przewóz; załadowca i pakujący odpowiadają za właściwe czynności i stan przesyłek w zakresie ich obowiązków; kierowca przestrzega wymagań dotyczących pojazdu, dokumentów, wyposażenia i bezpieczeństwa. Odbiorca realizuje obowiązki związane z odbiorem i rozładunkiem.
 
 Przewoźnik zapewnia załodze wymagane instrukcje pisemne. Nie zakładaj, że przekazanie obowiązku jednej osobie usuwa obowiązki innych uczestników.
 
@@ -30,7 +30,7 @@ Załadowca sprawdza, czy przesyłka nie jest uszkodzona, czy opakowanie nie prze
 - **Załoga i pasażerowie:** nie zakładaj, że każdy pasażer może być przewożony w pojeździe z towarami niebezpiecznymi. Sprawdź właściwe wymagania i dopuszczalność konkretnej sytuacji. ADR 8.3.1 ogranicza przewóz osób niebędących członkami załogi w objętych nim warunkach; zgodnie z 8.3.2 członkowie załogi powinni znać sposób użycia gaśnic.
 
 ## 3. Pakujący i załadowca
-Pakujący nie powinien przekazywać przesyłki, jeśli opakowanie lub oznakowanie nie spełnia wymagań. Załadowca nie powinien umieszczać w pojeździe uszkodzonej sztuki przesyłki. Zakrycie pęknięcia folią ani umieszczenie przesyłki na końcu pojazdu nie naprawia niezgodności. Prawidłowy numer UN w dokumencie nie zastępuje bezpiecznego opakowania.
+Pakujący nie powinien przekazywać przesyłki, jeśli opakowanie lub oznakowanie nie spełnia wymagań. Załadowca nie powinien umieszczać w pojeździe uszkodzonej sztuki przesyłki. Zakrycie pęknięcia folią ani umieszczenie przesyłki na końcu pojazdu nie naprawia niezgodności. Prawidłowy numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A; [słowniczek](../SLOWNICZEK.md#numer-un)) w dokumencie nie zastępuje bezpiecznego opakowania.
 
 
 ### Pakujący, napełniający, rozładowca i odbiorca
