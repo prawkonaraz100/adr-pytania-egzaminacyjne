@@ -143,5 +143,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+Te pomyłki pojawiają się w typowych odpowiedziach błędnych w banku. Zanim wybierzesz odpowiedź, sprawdź, który warunek przepisu rozstrzyga daną sytuację.
+
+- Mylenie numeru UN z klasą zagrożenia — numer UN identyfikuje pozycję towaru, a klasa opisuje rodzaj zagrożenia (ADR 1.2.1 i 3.2 tabela A).
+- Zakładanie, że nalepka na opakowaniu i duży znak na pojeździe mają identyczne wymagania — sprawdź, do jakiej jednostki i postaci przewozu odnosi się oznakowanie (ADR 5.2 i 5.3).
+- Odczytywanie numeru zagrożenia bez sprawdzenia tablicy pomarańczowej i kontekstu — nie zastępuje on numeru UN (ADR 5.3.2).
+- Uznawanie, że jedno oznaczenie zastępuje wszystkie pozostałe — wymagane oznakowanie zależy od klasyfikacji i sposobu przewozu (ADR 5.2–5.3).
+
+Niejasne pojęcia wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
