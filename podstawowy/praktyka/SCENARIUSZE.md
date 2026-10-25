@@ -23,6 +23,25 @@ Scenariusze w pliku `scenariusze-13-dzialow.json` są ćwiczeniami na fikcyjnych
 
 Powiązane question IDs, kryteria oceny i podstawy ADR znajdują się w rekordach scenariuszy. Wszystkie 9 scenariuszy sprawdzono pod kątem istnienia pytań i zgodności ich `module_id` z działem scenariusza.
 
+## Scenariusze dla kursanta — działy B-04–B-06
+
+W każdej symulacji kursant powinien wyjaśnić, co robi, czego nie robi i dlaczego. Pola `common_mistakes`, `legal_basis` i `learner_takeaway` w pliku scenariuszy pomagają instruktorowi omówić błąd bez żargonu. Scenariusze są ćwiczeniami na fikcyjnych danych i nie dowodzą wykonania zajęć praktycznych.
+
+### B-04 — załadunek, silnik i nadzór postoju
+- `SC-ADR-B-04`: oddziel zakaz palenia od zasady dotyczącej silnika i sprawdź, czy postój podlega nadzorowi.
+- `SC-ADR-B-04-02`: e-papieros i silnik pracujący tylko dla wygody nie są automatycznymi wyjątkami.
+- `SC-ADR-B-04-03`: wybierz miejsce postoju według warunków ADR, nie wyłącznie według odległości.
+
+### B-05 — awaria, gaśnice i pierwsza pomoc
+- `SC-ADR-B-05`: nieznana przyczyna awarii nie zwalnia z wezwania pomocy i sprawdzenia dostępności sprzętu.
+- `SC-ADR-B-05-02`: nie wąchaj substancji i nie zgaduj jej składu.
+- `SC-ADR-B-05-03`: nie gaś pożaru obejmującego przedział ładunkowy z towarami niebezpiecznymi.
+
+### B-06 — tablice pomarańczowe i nalepki
+- `SC-ADR-B-06`: porównaj oznakowanie z dokumentami i wpisem ADR.
+- `SC-ADR-B-06-02`: odróżnij numer UN od numeru rozpoznawczego zagrożenia.
+- `SC-ADR-B-06-03`: nie odjeżdżaj z nalepką zasłoniętą lub nieczytelną.
+
 ## Zakres i zasada bezpieczeństwa
 
 Ćwiczenia muszą być prowadzone w warunkach odpowiednich do nadzorowanych zajęć. Nie wykorzystuje się prawdziwej niebezpiecznej substancji ani nie naraża kursantów na działanie ognia, oparów lub innych zagrożeń. Ćwiczenia ogniowe odbywają się wyłącznie na przygotowanym stanowisku szkoleniowym z zabezpieczeniem i instruktorem.
