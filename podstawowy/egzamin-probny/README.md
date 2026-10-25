@@ -13,7 +13,7 @@
 
 **Wyłącznie trening wewnętrzny.** Bank źródłowy ma 609 pytań `needs_review` i 0 `verified`. To nie jest oficjalny arkusz. Bramka verified-only pozostaje bez zmian.
 
-## Wynik końcowej kontroli 4x1 (25.10.2026)
+## Wynik końcowej kontroli 4x1 i 4x5 (25.10.2026)
 
 - Warianty 001–003: po 30 pytań, wszystkie 13 działów, brak duplikatów i brak wspólnych ID między wariantami.
 - Każdy klucz ma kolejność zgodną z arkuszem; klucze, wyjaśnienia, odpowiedzi i treści pytań zgodne z bankiem na źródłowym SHA `e1eb80d9db9bb5f475bb655fc08b47b7a866bb64`.
