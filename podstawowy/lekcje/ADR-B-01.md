@@ -38,7 +38,7 @@ Szkolenie funkcjonalne dobiera się do realnych zadań pracownika. Jeżeli obsł
 | Wyłączenie zależne od charakteru przewozu, np. określony przewóz prywatny | ADR 1.1.3.1 | Cel przewozu, charakter użycia, opakowanie i zabezpieczenie przed wyciekiem |
 | Ilości ograniczone — LQ | ADR 3.4 | Numer UN, limity, rodzaj opakowania, oznakowanie |
 | Ilości wyłączone — EQ | ADR 3.5 | Kod EQ, opakowania, oznakowanie i limity |
-| Wyłączenie zależne od ilości na jednostkę transportową | ADR 1.1.3.6 | Kategorię transportow (kategoria z tabeli A używana między innymi przy obliczaniu wyłączenia ilościowego; [słowniczek](../SLOWNICZEK.md#kategoria-transportowa))ą, jednostkę ilości, współczynniki i obowiązki pozostające |
+| Wyłączenie zależne od ilości na jednostkę transportową | ADR 1.1.3.6 | kategorię transportową — oznaczenie z tabeli A używane między innymi przy obliczaniu wyłączenia ilościowego ([słowniczek](../SLOWNICZEK.md#kategoria-transportowa)), jednostkę ilości, współczynniki i obowiązki pozostające |
 
 ### 4.1. Obliczenia 1.1.3.6
 Najpierw odczytaj kategorię transportową i ilość w odpowiedniej jednostce dla każdej pozycji. Dla kategorii 3 limit co do zasady wynosi 1000 jednostek ilościowych, a dla mieszanego ładunku stosuje się obliczenie z mnożnikami według ADR 1.1.3.6.3–1.1.3.6.4. Nie porównuj osobno każdej kategorii z limitem: wynik liczysz dla całego ładunku objętego tym wyłączeniem. Przykłady szkoleniowe dla kategorii 2 i 3: 100 × 3 + 600 = 900; 200 × 3 + 500 = 1100. Pierwszy wynik jest niższy od 1000, drugi przekracza 1000. To fikcyjne dane — w rzeczywistym przewozie potwierdź kategorię, jednostkę i wszystkie warunki.
@@ -62,6 +62,12 @@ Tabela A rozdziału 3.2 zawiera w kolumnie 1 numer UN, a w kolumnie 2 nazwę i o
 - mylenie szkolenia 1.3 z zaświadczeniem kierowcy z 8.2;
 - obliczanie limitu bez sprawdzenia kategorii i jednostek;
 - zakładanie, że dokumenty uchylają zakaz przewozu.
+
+Najczęstsze pułapki wynikające z pytań tego działu:
+- Traktowanie małej ilości jako automatycznego zwolnienia — trzeba sprawdzić konkretną pozycję, ilość i warunki wyłączenia, nie tylko wielkość ładunku (ADR 1.1.3.1 i 1.1.3.6).
+- Mylenie zaświadczenia ADR z prawem jazdy — dokumenty potwierdzają różne uprawnienia i żaden nie zastępuje drugiego (ADR 8.2.1 oraz przepisy o prawie jazdy).
+- Zakładanie, że szkolenie kierowcy wystarcza każdemu pracownikowi — szkolenie dobiera się do rzeczywistych zadań osoby (ADR 1.3).
+- Uznawanie, że dokumenty pozwalają przewieźć towar zakazany — najpierw trzeba sprawdzić dopuszczalność przewozu w tabeli A (ADR 2.1 i 3.2).
 
 ## Scenariusze praktyczne
 1. **Paleta farb do sprzedaży.** Nadawca twierdzi, że przewóz jest prywatny i ilość niewielka. Kierowca sprawdza numer UN, nazwę, kategorię, ilość, opakowanie i cel przewozu; nie stosuje wyłączenia bez potwierdzenia warunków.
@@ -165,16 +171,4 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 
 
 
-## Najczęstsze błędy kursantów
 
-Poniższe pomyłki wynikają z typowych nieporozumień widocznych w pytaniach tego działu. Przy każdej odpowiedzi sprawdź warunek, który rozstrzyga sytuację, zamiast zapamiętywać samą literę.
-
-- Traktowanie małej ilości jako automatycznego zwolnienia — trzeba sprawdzić konkretną pozycję, ilość i warunki wyłączenia, nie tylko wielkość ładunku (ADR 1.1.3.1 i 1.1.3.6).
-- Mylenie zaświadczenia ADR z prawem jazdy — dokumenty potwierdzają różne uprawnienia i żaden nie zastępuje drugiego (ADR 8.2.1 oraz przepisy o prawie jazdy).
-- Zakładanie, że szkolenie kierowcy wystarcza każdemu pracownikowi — szkolenie dobiera się do rzeczywistych zadań osoby (ADR 1.3).
-- Uznawanie, że dokumenty pozwalają przewieźć towar zakazany — najpierw trzeba sprawdzić dopuszczalność przewozu w tabeli A (ADR 2.1 i 3.2).
-
-W razie niejasnych pojęć skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md).
-
-## Słowniczek
-Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).

@@ -60,7 +60,7 @@ Opisy słowne nie zastępują sprawdzenia oficjalnego wzoru nalepki.
 **Klasy 1 i 7:** podstawowe rozpoznanie zagrożenia nie zastępuje specjalistycznych wymagań dla przewozu.
 
 
-### Nalepki zagrożenia dodatkowe (drugie lub kolejne zagrożenie, które też trzeba uwzględnić przy oznakowaniu i postępowaniu; [słowniczek](../SLOWNICZEK.md#zagrozenie-dodatkowe))go i baterie sodowo-jonowe
+### Nalepki zagrożenia dodatkowego ([słowniczek](../SLOWNICZEK.md#zagrozenie-dodatkowe)) i baterie sodowo-jonowe
 Jeśli tabela A wymaga nalepki zagrożenia głównego i dodatkowego, obie informacje mają znaczenie; jedna nalepka nie zastępuje drugiej. Nalepka 2.3 oznacza gaz trujący, 6.1 — materiał trujący, a 9A jest odrębnym wzorem stosowanym w określonych przewozach baterii.
 
 W ADR 2025 pozycje UN 3551 i UN 3552 dotyczą baterii sodowo-jonowych w różnych postaciach przewozu; sprawdź dokładną nazwę w tabeli A, a nie tylko to, że to „bateria”. Wymagania klasyfikacyjne dla baterii obejmują warunki dotyczące badań typu oraz konstrukcji ogniw/baterii, w tym ochronę przed zwarciem zewnętrznym i niebezpiecznym prądem wstecznym, gdy te warunki mają zastosowanie. Samo badanie pojedynczych ogniw nie zawsze potwierdza spełnienie wymagań dla całego typu baterii. Wymagania dla baterii sodowo-jonowych sprawdza się w ADR 2.2.9.1.7.2 oraz w odpowiednich przepisach dotyczących badań typu w Podręczniku badań i kryteriów ONZ, część III, podsekcja 38.3; sprawdź warunki właściwe dla UN 3551 lub UN 3552, zamiast zakładać, że każda bateria ma ten sam sposób pakowania. Materiały promieniotwórcze klasy 7 również wymagają sprawdzenia odpowiednich kryteriów i przepisów szczególnych; kurs podstawowy nie daje automatycznie uprawnień do każdego przewozu klasy 7.
@@ -76,6 +76,12 @@ Nie rozpoznawaj towaru po zapachu, wyglądzie cieczy ani nazwie handlowej. Odczy
 - rozpoznawanie towaru po samym kolorze lub symbolu;
 - zakładanie, że wszystkie towary tej samej klasy mają takie same warunki;
 - uznawanie, że podstawowe rozpoznanie klasy 1 lub 7 zastępuje wymagania specjalistyczne.
+
+Najczęstsze pułapki wynikające z pytań tego działu:
+- Mylenie klas o podobnych numerach, np. 4.1, 4.2 i 4.3 — oznaczają różne zagrożenia; odczytaj opis klasy, a nie zapamiętuj sam numer (ADR część 2).
+- Traktowanie klasy jako numeru UN — numer UN identyfikuje konkretną pozycję, a klasa opisuje rodzaj zagrożenia (ADR 1.2.1 i 3.2 tabela A).
+- Zakładanie, że jedna nalepka pokazuje wszystkie zagrożenia — towar może wymagać dodatkowych oznaczeń zgodnie z jego klasyfikacją (ADR 5.2.2).
+- Wnioskowanie o klasie tylko z nazwy handlowej — sprawdź klasyfikację i właściwą pozycję w tabeli A (ADR 2.1 i 3.2).
 
 ## Scenariusze praktyczne
 1. **Mokra przesyłka klasy 4.3.** Pracownik chce zmyć zabrudzenie wodą. Zatrzymaj czynność, nie dotykaj przesyłki, zachowaj dystans i powiadom osobę odpowiedzialną.
@@ -190,16 +196,4 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 
 
 
-## Najczęstsze błędy kursantów
 
-Poniższe pomyłki wynikają z typowych nieporozumień widocznych w pytaniach tego działu. Przy każdej odpowiedzi sprawdź warunek, który rozstrzyga sytuację, zamiast zapamiętywać samą literę.
-
-- Mylenie klas o podobnych numerach, np. 4.1, 4.2 i 4.3 — oznaczają różne zagrożenia; odczytaj opis klasy, a nie zapamiętuj sam numer (ADR część 2).
-- Traktowanie klasy jako numeru UN — numer UN identyfikuje konkretną pozycję, a klasa opisuje rodzaj zagrożenia (ADR 1.2.1 i 3.2 tabela A).
-- Zakładanie, że jedna nalepka pokazuje wszystkie zagrożenia — towar może wymagać dodatkowych oznaczeń zgodnie z jego klasyfikacją (ADR 5.2.2).
-- Wnioskowanie o klasie tylko z nazwy handlowej — sprawdź klasyfikację i właściwą pozycję w tabeli A (ADR 2.1 i 3.2).
-
-W razie niejasnych pojęć skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md).
-
-## Słowniczek
-Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
