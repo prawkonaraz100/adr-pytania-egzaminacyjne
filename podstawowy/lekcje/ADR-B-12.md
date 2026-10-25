@@ -138,6 +138,16 @@ Powtórka w banku: ADR-B-0249, 0300, 0304–0305, 0458–0460.
 
 **Status:** pytania pozostają `needs_review`; przykłady nie są niezależną recenzją prawną.
 
+## Uzupełnienie odbioru 4x1 — plan ochrony podczas postoju (ADR-B-0582)
+
+Jeśli przewóz dotyczy towaru dużego ryzyka, nie zakładaj, że zwykła procedura postoju wystarczy. Plan ochrony powinien uwzględniać rzeczywiste środki ograniczające kradzież i nieuprawniony dostęp, także w czasie postoju; szczegóły zależą od przewozu i właściwych wymagań ADR. Kierowca stosuje ustaloną procedurę, chroni informacje o ładunku i zgłasza sytuację, w której nie można spełnić wymagań. Sam numer telefonu ani wybór najkrótszej trasy nie stanowią planu ochrony.
+
+**Scenariusz 1 — zmiana postoju:** planowany punkt postoju przestaje być dostępny. Kierowca nie ujawnia osobom postronnym szczegółów ładunku, korzysta z zatwierdzonej procedury i uzgadnia zgodne miejsce z odpowiedzialną osobą. Uzasadnienie: bezpieczeństwo przewozu obejmuje również postoje i kontrolę dostępu.
+
+**Scenariusz 2 — nieuprawniony odbiór:** osoba zna numer zlecenia, ale nie potrafi potwierdzić tożsamości i uprawnienia. Kierowca nie przekazuje ładunku do czasu weryfikacji. Uzasadnienie: znajomość numeru zlecenia nie dowodzi prawa do odbioru.
+
+Podstawa do sprawdzenia: ADR 1.10.3.2–1.10.3.3. Pytanie ADR-B-0582 i pozostałe pytania w tej lekcji pozostają `needs_review`; materiał nie jest planem ochrony dla rzeczywistego przewozu.
+
 ## Co musisz zapamiętać
 
 - Ochrona przewozu to zapobieganie kradzieży i nieuprawnionemu dostępowi, a nie samo mocowanie ładunku.
