@@ -26,7 +26,7 @@ Nalepki na sztukach przesyłek i nalepki dużego formatu na kontenerze, pojeźdz
 
 
 ### Nalepki dużego formatu na kontenerze i pojeździe
-Wymagane nalepki dużego formatu muszą być umieszczone w miejscach wskazanych przez ADR, widoczne i czytelne. Jeśli jednostka zawiera towary z więcej niż jednej klasy, ustal wymagane nalepki według odpowiednich zasad 5.3.1.1–5.3.1.4; nie wybieraj ich według uznania. Uszkodzona, zasłonięta lub niezgodna nalepka musi zostać poprawiona przed dalszym przewozem. Po rozładunku nie usuwaj nalepek automatycznie: gdy pozostają niebezpieczne pozostałości lub jednostka nie została oczyszczona, oznakowanie może nadal być wymagane. Usunięcie nalepek i tablic zależy od spełnienia warunków ADR, a nie wyłącznie od tego, że zniknęły widoczne sztuki przesyłek.
+Wymagane nalepki dużego formatu muszą być umieszczone w miejscach wskazanych przez ADR, widoczne i czytelne. Jeśli jednostka zawiera towary z więcej niż jednej klasy, ustal wymagane nalepki według odpowiednich zasad 5.3.1.1–5.3.1.4; nie wybieraj ich według uznania. Uszkodzona, zasłonięta lub niezgodna nalepka musi zostać poprawiona przed dalszym przewozem. Po rozładunku nie usuwaj nalepek automatycznie: gdy pozostają niebezpieczne pozostałości lub jednostka nie została oczyszczona, oznakowanie może nadal być wymagane. Usunięcie nalepek i tablic zależy od spełnienia warunków ADR, a nie wyłącznie od tego, że zniknęły widoczne sztuki przesyłek. Przy wątpliwościach sprawdź dokładne warunki ADR 5.3.1.1.4–5.3.1.1.5, 5.3.1.3 i 5.3.1.7; dla tablic pomarańczowych stosuj ADR 5.3.2.1.7, 5.3.2.2.1–5.3.2.2.2 i 5.3.2.3.1.
 ## 4. Sprawdzanie oznakowania
 Przed wyjazdem porównaj:
 1. numer UN i dane w dokumentach;
