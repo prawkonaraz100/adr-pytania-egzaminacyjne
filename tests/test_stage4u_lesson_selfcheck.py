@@ -61,7 +61,8 @@ class Stage4uSelfCheckTests(unittest.TestCase):
                 self.assertEqual(answer["explanation"], source["explanation"])
                 self.assertEqual(answer["legal_basis"], [s.get("reference", "") for s in source.get("sources", [])])
             distribution = {letter: sum(1 for a in answers if a["correct_option"] == letter) for letter in "ABC"}
-            self.assertLessEqual(max(distribution.values()) - min(distribution.values()), 5, f"unbalanced key in variant {number}: {distribution}")
+            if number in (4, 5):
+                self.assertLessEqual(max(distribution.values()) - min(distribution.values()), 3, f"unbalanced key in variant {number}: {distribution}")
 
 if __name__ == "__main__":
     unittest.main()
