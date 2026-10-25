@@ -112,11 +112,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nie są tym samym zestawem warunków."
+          "rationale": "Ten wariant („Tak; znak LQ potwierdza limit ilości przypisany kategoriom transportowym”) nie spełnia opisanego warunku ADR. Nie są tym samym zestawem warunków."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Sama międzynarodowość przewozu nie łączy obu zwolnień."
+          "rationale": "Ten wariant („Tak; znak LQ na opakowaniu zastępuje obliczenie punktów 1.1.3.6”) nie spełnia opisanego warunku ADR. Sama międzynarodowość przewozu nie łączy obu zwolnień."
         }
       },
       "observed_answer_key": "A",
@@ -130,9 +130,9 @@
         "module_id": "ADR-B-01",
         "stem": "Przedsiębiorca twierdzi, że oznakowanie LQ zawsze oznacza wyłączenie na podstawie 1.1.3.6. Czy ma rację?",
         "options": {
-          "A": "Nie; LQ (3.4) i 1.1.3.6 mają odrębne warunki zastosowania.",
-          "B": "Tak; LQ i wyłączenie 1.1.3.6 to te same zasady stosowane zamiennie",
-          "C": "Tak; znak LQ automatycznie daje wyłączenie 1.1.3.6 dla każdego przewozu"
+          "A": "Nie; LQ z działu 3.4 i próg 1.1.3.6 mają inne warunki i sposób liczenia",
+          "B": "Tak; znak LQ potwierdza limit ilości przypisany kategoriom transportowym",
+          "C": "Tak; znak LQ na opakowaniu zastępuje obliczenie punktów 1.1.3.6"
         },
         "correct_option": "A",
         "explanation": "Oznaczenie LQ dotyczy przewozu w ilościach ograniczonych z określonymi limitami i sposobem pakowania. Wyłączenie z 1.1.3.6 opiera się natomiast na innych zasadach, między innymi ilości towarów na jednostkę transportową. Dlatego nie można traktować obu mechanizmów jako tego samego zwolnienia, także w przewozie międzynarodowym. Podstawa: ADR 3.4 i 1.1.3.6.",
@@ -539,7 +539,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Uruchamianie odbiorników elektrycznych może być źródłem zapłonu."
+          "rationale": "Ten wariant („Włączyć wentylator kabiny i oświetlenie robocze, aby zbadać awarię”) nie spełnia opisanego warunku ADR. Uruchamianie odbiorników elektrycznych może być źródłem zapłonu."
         }
       },
       "observed_answer_key": "A",
@@ -555,7 +555,7 @@
         "options": {
           "A": "Unikać ich, nie palić i nie uruchamiać urządzeń elektrycznych, jeśli można to zrobić bezpiecznie",
           "B": "Sprawdzić obecność palnych oparów zapalniczką, trzymaną z dala od samego rozlewu",
-          "C": "Włączyć wszystkie dostępne odbiorniki elektryczne pojazdu, aby sprawdzić ich prawidłowe działanie"
+          "C": "Włączyć wentylator kabiny i oświetlenie robocze, aby zbadać awarię"
         },
         "correct_option": "A",
         "explanation": "Palne opary mogą zapalić się od płomienia, iskry lub urządzenia elektrycznego. Dlatego podczas zdarzenia należy unikać źródeł zapłonu i wykonywać tylko czynności, które są bezpieczne. Zapalniczka nie służy do sprawdzania oparów, a włączanie niepotrzebnych urządzeń zwiększa ryzyko. Podstawa: ADR 5.4.3.4.",
@@ -676,11 +676,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Numer rejestracyjny sam nie identyfikuje rodzaju przewożonego zagrożenia."
+          "rationale": "Ten wariant („Podać numer rejestracyjny i miejsce wypadku, lecz pominąć dane o niebezpiecznym ładunku”) nie spełnia opisanego warunku ADR. Numer rejestracyjny sam nie identyfikuje rodzaju przewożonego zagrożenia."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Liczba kilometrów nie zastępuje opisu zdarzenia i UN."
+          "rationale": "Ten wariant („Podać trasę i nazwę przewoźnika, pomijając rodzaj zdarzenia”) nie spełnia opisanego warunku ADR. Liczba kilometrów nie zastępuje opisu zdarzenia i UN."
         }
       },
       "observed_answer_key": "A",
@@ -694,9 +694,9 @@
         "module_id": "ADR-B-05",
         "stem": "Do jakich informacji kierowca powinien sięgnąć, zgłaszając służbom wypadek z towarem niebezpiecznym?",
         "options": {
-          "A": "Przekazać służbom dostępne informacje o zdarzeniu i towarze ADR",
-          "B": "Podać wyłącznie numer rejestracyjny pojazdu i pominąć rodzaj zagrożenia",
-          "C": "Podać wyłącznie przebieg trasy i pominąć informacje o samym zdarzeniu"
+          "A": "Przekazać służbom dostępne dane o zdarzeniu oraz towarze, np. numer UN",
+          "B": "Podać numer rejestracyjny i miejsce wypadku, lecz pominąć dane o niebezpiecznym ładunku",
+          "C": "Podać trasę i nazwę przewoźnika, pomijając rodzaj zdarzenia"
         },
         "correct_option": "A",
         "explanation": "Ratownicy muszą wiedzieć, co wydarzyło się na miejscu i jakie towary niebezpieczne znajdują się w pojeździe, żeby dobrać bezpieczny sposób działania. Dlatego warto przekazać im możliwie pełne dostępne informacje o zdarzeniu i ładunku. Sam numer rejestracyjny albo przebieg pojazdu nie wystarczy do rozpoznania zagrożenia. Podstawa: ADR 5.4.3.4.",
@@ -1099,11 +1099,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wewnętrzny numer produktu nie zastępuje oznakowania ADR."
+          "rationale": "Ten wariant („Podać wewnętrzny numer magazynowy, zgodny z fakturą nadawcy”) nie spełnia opisanego warunku ADR. Wewnętrzny numer produktu nie zastępuje oznakowania ADR."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Numer rozpoznawczy zagrożenia jest czym innym niż numer UN."
+          "rationale": "Ten wariant („Wpisać numer zagrożenia z górnego pola tablicy pomarańczowej”) nie spełnia opisanego warunku ADR. Numer rozpoznawczy zagrożenia jest czym innym niż numer UN."
         }
       },
       "observed_answer_key": "A",
@@ -1117,9 +1117,9 @@
         "module_id": "ADR-B-06",
         "stem": "Na opakowaniu zawierającym materiał niebezpieczny, dla którego ADR wymaga oznakowania numerem UN, jak należy podać ten numer?",
         "options": {
-          "A": "Z literami UN przed czterocyfrowym numerem",
-          "B": "Wyłącznie jako wewnętrzny numer produktu nadawcy",
-          "C": "Wyłącznie jako numer rozpoznawczy zagrożenia z pomarańczowej tablicy"
+          "A": "Umieścić litery UN bezpośrednio przed właściwym czterocyfrowym numerem",
+          "B": "Podać wewnętrzny numer magazynowy, zgodny z fakturą nadawcy",
+          "C": "Wpisać numer zagrożenia z górnego pola tablicy pomarańczowej"
         },
         "correct_option": "A",
         "explanation": "Jeżeli ADR wymaga podania numeru UN na sztuce przesyłki, numer zapisuje się jako czterocyfrowy numer poprzedzony literami „UN”. Pozwala to jednoznacznie rozpoznać towar według systemu stosowanego w przewozie międzynarodowym. Wewnętrzny kod produktu nadawcy ani numer rozpoznawczy zagrożenia z tablicy pomarańczowej nie zastępują oznaczenia UN na opakowaniu, dlatego B i C są błędne. Podstawa: ADR 5.2.1.1.",
@@ -1330,11 +1330,11 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Przewóz morski nie znosi wszystkich wymagań na odcinku drogowym."
+          "rationale": "Ten wariant („Uznać dokument IMDG za wystarczający do pominięcia kontroli drogowej po przeprawie morskiej”) nie spełnia opisanego warunku ADR. Przewóz morski nie znosi wszystkich wymagań na odcinku drogowym."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nie wolno automatycznie zdejmować oznakowania IMDG."
+          "rationale": "Ten wariant („Zdjąć znaki IMDG po wyładunku ze statku i pozostawić pusty kontener”) nie spełnia opisanego warunku ADR. Nie wolno automatycznie zdejmować oznakowania IMDG."
         },
         "C": {
           "expected_correct": true,
@@ -1352,9 +1352,9 @@
         "module_id": "ADR-B-10",
         "stem": "Ładunek był transportowany morzem i ma oznakowanie według IMDG. Co należy ustalić przed jego drogową częścią przewozu?",
         "options": {
-          "A": "Że wcześniejszy transport morski zawsze znosi wszystkie przepisy ADR",
-          "B": "Że oznakowanie morskie wolno zawsze usunąć",
-          "C": "Zasady uznania oznakowania IMDG i pozostałe wymogi ADR"
+          "A": "Uznać dokument IMDG za wystarczający do pominięcia kontroli drogowej po przeprawie morskiej",
+          "B": "Zdjąć znaki IMDG po wyładunku ze statku i pozostawić pusty kontener",
+          "C": "Sprawdzić zasady uznawania oznakowania IMDG i pozostałe wymogi ADR na drodze"
         },
         "correct_option": "C",
         "explanation": "Ładunek przybyły statkiem może mieć oznakowanie IMDG, które w określonych warunkach jest uznawane również na etapie drogowym. Przed wyjazdem trzeba sprawdzić te warunki i pozostałe wymagania ADR. Sam rejs nie usuwa wszystkich obowiązków drogowych i nie pozwala automatycznie zdjąć oznakowania. Podstawa: ADR 1.1.4.2.",
