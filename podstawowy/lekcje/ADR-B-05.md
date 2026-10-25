@@ -141,5 +141,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+Te pomyłki pojawiają się w typowych odpowiedziach błędnych w banku. Zanim wybierzesz odpowiedź, sprawdź, który warunek przepisu rozstrzyga daną sytuację.
+
+- Ograniczenie się do podania samej lokalizacji podczas alarmowania — jeśli są dostępne, przekaż też informacje o zdarzeniu i przewożonym towarze; nie narażaj się, by je zdobyć (ADR 5.4.3.4).
+- Próba dotykania lub rozpoznawania wycieku zapachem — może spowodować zatrucie albo oparzenie; oddal się i stosuj instrukcje pisemne (ADR 5.4.3.4).
+- Założenie, że każdą awarię trzeba samodzielnie ugasić — działania podejmuj tylko w granicach instrukcji, przeszkolenia i bezpiecznych warunków (ADR 5.4.3.4).
+- Pomijanie informacji o ładunku, które są już dostępne w dokumentach — dokumenty i instrukcje pomagają służbom rozpoznać zagrożenie (ADR 5.4.3.4).
+
+Niejasne pojęcia wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
