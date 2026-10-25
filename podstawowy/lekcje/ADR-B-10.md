@@ -140,3 +140,18 @@ Kontener przyjeżdża z portu z dokumentami dla odcinka morskiego. Nie zakładaj
 - Sprawdź, czy dany wyjątek rzeczywiście ma zastosowanie i czy dokumenty oraz oznakowanie spełniają jego warunki.
 - RID dotyczy kolei, IMDG Code przewozu morskiego, a ICAO jest organizacją lotnictwa cywilnego; nie używaj tych skrótów zamiennie.
 - Podstawy do dalszej nauki: ADR 1.1.4.2 i 5.4.1.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0396`
+- `ADR-B-0511`
+- `ADR-B-0028`
+- `ADR-B-0029`
+- `ADR-B-0030`
+- `ADR-B-0061`
+- `ADR-B-0062`
+- `ADR-B-0119`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-10 — ADR-B-10](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-10`; jest to symulacja, nie zaliczenie zajęć praktycznych).
