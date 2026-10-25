@@ -1,0 +1,891 @@
+{
+  "stage": "4x16",
+  "batch": "part-7",
+  "date": "2026-10-25",
+  "base_commit": "9fd6665e69b9a94480166080b1c82cca6181c02e",
+  "comparison_count": 48,
+  "scope": {
+    "new_questions": "ADR-B-0370–ADR-B-0417",
+    "ids": [
+      "ADR-B-0370",
+      "ADR-B-0371",
+      "ADR-B-0372",
+      "ADR-B-0373",
+      "ADR-B-0374",
+      "ADR-B-0375",
+      "ADR-B-0376",
+      "ADR-B-0377",
+      "ADR-B-0378",
+      "ADR-B-0379",
+      "ADR-B-0380",
+      "ADR-B-0381",
+      "ADR-B-0382",
+      "ADR-B-0383",
+      "ADR-B-0384",
+      "ADR-B-0385",
+      "ADR-B-0386",
+      "ADR-B-0387",
+      "ADR-B-0388",
+      "ADR-B-0389",
+      "ADR-B-0390",
+      "ADR-B-0391",
+      "ADR-B-0392",
+      "ADR-B-0393",
+      "ADR-B-0394",
+      "ADR-B-0395",
+      "ADR-B-0396",
+      "ADR-B-0397",
+      "ADR-B-0398",
+      "ADR-B-0399",
+      "ADR-B-0400",
+      "ADR-B-0401",
+      "ADR-B-0402",
+      "ADR-B-0403",
+      "ADR-B-0404",
+      "ADR-B-0405",
+      "ADR-B-0406",
+      "ADR-B-0407",
+      "ADR-B-0408",
+      "ADR-B-0409",
+      "ADR-B-0410",
+      "ADR-B-0411",
+      "ADR-B-0412",
+      "ADR-B-0413",
+      "ADR-B-0414",
+      "ADR-B-0415",
+      "ADR-B-0416",
+      "ADR-B-0417"
+    ]
+  },
+  "method": "Textual cross-check of the stem, A/B/C key and explanation against the cited clauses in the Polish ADR 2025 text (MI-hosted full-text copies used as an aid), with Dz.U. 2025 poz. 642 as authoritative publication and Dz.U. 2025 poz. 1575 corrigendum considered where relevant. This is not formal specialist approval.",
+  "legal_publication": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "polish_text_tom_i": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+  "polish_text_tom_ii": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+  "erratum": "https://eli.gov.pl/api/acts/DU/2025/1575/text.pdf",
+  "summary": {
+    "consistent_in_scope": 48,
+    "requires_correction": 0,
+    "unable_to_confirm": 0,
+    "question_changes": 0,
+    "status_changes": 0,
+    "formal_specialist_approvals": 0
+  },
+  "records": [
+    {
+      "id": "ADR-B-0370",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.7.1(b)",
+      "stem": "Podczas rozładunku ADR stwierdzono poważne uszkodzenie opakowania. Co rozładowca powinien zrobić zgodnie z 1.4.3.7.1(b)?",
+      "options": {
+        "A": "Przenieść uszkodzoną paczkę na wydzielony koniec rampy i rozładowywać dalej",
+        "B": "Przerwać rozładunek do wdrożenia środków bezpieczeństwa",
+        "C": "Sprawdzić szkodę po rozładunku"
+      },
+      "correct_option": "B",
+      "explanation": "Jeśli podczas rozładunku stwierdzono poważne uszkodzenie opakowania, które może zagrażać bezpieczeństwu, rozładunku nie wolno rozpoczynać albo trzeba go przerwać. Zignorowanie uszkodzenia lub przyspieszenie pracy zwiększa ryzyko wycieku i narażenia ludzi. Odsunięcie paczki na rampę lub sprawdzenie jej dopiero po pracy może zwiększyć zagrożenie. Podstawa: ADR 1.4.3.7.1(b).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0371",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.7.1(d)",
+      "stem": "Po wyładunku ADR w pojeździe zostały niebezpieczne pozostałości, które wymagają oczyszczenia. Kto ma zapewnić ich usunięcie w ramach swoich obowiązków?",
+      "options": {
+        "A": "Rozładowca w zakresie czyszczenia po rozładunku",
+        "B": "Kierowca kolejnego zestawu, który przyjedzie po nowy ładunek",
+        "C": "Osoba zatwierdzająca fakturę"
+      },
+      "correct_option": "A",
+      "explanation": "Rozładowca powinien dopilnować oczyszczenia i, jeśli to konieczne, odkażenia pojazdu lub kontenera po rozładunku, gdy wymagają tego przepisy. Nie jest to zadanie przypadkowego kierowcy ani osoby wystawiającej fakturę. Kolejny kierowca ani księgowość nie zastępują obowiązków rozładowcy. Podstawa: ADR 1.4.3.7.1(d).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0372",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.7.1(e)",
+      "stem": "Po całkowitym rozładowaniu i oczyszczeniu kontenera ADR pozostawiono nalepki wielkiego formatu, które nie są już wymagane. Co powinien zrobić rozładowca?",
+      "options": {
+        "A": "Usunąć oznaczenia ADR zbędne po oczyszczeniu",
+        "B": "Zamienić wcześniejsze nalepki na oznaczenia kolejnego ładunku",
+        "C": "Pozostawić nalepki do kolejnej kontroli"
+      },
+      "correct_option": "A",
+      "explanation": "Po rozładunku i oczyszczeniu należy usunąć duże nalepki i oznaczenia, które nie są już wymagane. Pozostawienie ich bez sprawdzenia może błędnie sugerować, że pojazd lub kontener nadal przewozi wskazane zagrożenie. Znakowanie przyszłego ładunku przed jego oceną i pozostawienie zbędnych nalepek może mylić odbiorców. Podstawa: ADR 1.4.3.7.1(e).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0373",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.1.1(e)",
+      "stem": "Załadowca ma przygotować do przewozu sztuki ADR i żywność w jednym pojeździe. Co powinien sprawdzić?",
+      "options": {
+        "A": "Sprawdzić wymagane oddzielenie żywności i pasz od towarów ADR",
+        "B": "Sprawdzić parametry pojazdu i jego wysokość",
+        "C": "Porównać daty i rodzaj faktur dla żywności oraz towarów ADR przed wspólnym załadunkiem"
+      },
+      "correct_option": "A",
+      "explanation": "Załadowca powinien sprawdzić, czy towary ADR mogą być ładowane razem z żywnością lub paszą oraz czy wymagane jest ich oddzielenie. Waga produktów ani data faktury nie rozstrzygają o bezpieczeństwie takiego połączenia. Wysokość pojazdu i daty faktur nie wskazują, czy ładunek wymaga oddzielenia od żywności. Podstawa: ADR 1.4.3.1.1(e).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0374",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.2.2.1(f)",
+      "stem": "Przewoźnik ma przewieźć towary niebezpieczne, ale nie sprawdził wymaganych nalepek i tablic pojazdu. Co powinien zrobić zgodnie z ADR 1.4.2.2.1?",
+      "options": {
+        "A": "Sprawdzić oznakowanie wymagane na jednostce",
+        "B": "Uznać nalepki na pojeździe za zbędne",
+        "C": "Zlecić kontrolę oznakowania dopiero podczas przekazania towaru odbiorcy po zakończeniu trasy"
+      },
+      "correct_option": "A",
+      "explanation": "Przewoźnik powinien sprawdzić, czy jednostka transportowa ma wymagane nalepki i tablice identyfikacyjne. Nie są one dobrowolną dekoracją ani czymś, co można uzupełnić dopiero po dostawie. Nalepki opakowań i późniejsza kontrola u odbiorcy nie zastępują oznakowania pojazdu przed wyjazdem. Podstawa: ADR 1.4.2.2.1(f).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0375",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.2.2.2",
+      "stem": "Przewoźnik chce oprzeć się na informacjach przekazanych przez nadawcę w zakresie dopuszczalności przewozu. Czy ADR to przewiduje?",
+      "options": {
+        "A": "Nie korzystać z danych nadawcy",
+        "B": "Tak, w zakresie przewidzianym w 1.4.2.2.2",
+        "C": "Przyjąć informacje nadawcy jako zwolnienie przewoźnika z jego pozostałych obowiązków"
+      },
+      "correct_option": "B",
+      "explanation": "ADR pozwala przewoźnikowi w określonych kwestiach polegać na informacjach przekazanych przez innych uczestników przewozu. Nie oznacza to jednak, że wszystkie jego obowiązki znikają lub że może ignorować zauważone naruszenia. Odrzucenie danych nadawcy i przyjęcie zwolnienia ze wszystkich obowiązków to dwa błędne skrajne podejścia. Podstawa: ADR 1.4.2.2.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0376",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 8.3.2",
+      "stem": "Kierowca przewozu ADR nie zna sposobu używania wymaganej gaśnicy. Co mówi 8.3.2?",
+      "options": {
+        "A": "Załoga musi umieć używać gaśnicy",
+        "B": "Nie trzeba znać obsługi gaśnicy przed rozpoczęciem przewozu",
+        "C": "Gaśnicy wolno używać wyłącznie po dostawie towaru"
+      },
+      "correct_option": "A",
+      "explanation": "Każdy członek załogi powinien wiedzieć, jak prawidłowo używać wymaganego wyposażenia gaśniczego. Sam fakt, że gaśnica znajduje się w pojeździe, nie wystarcza, jeśli nikt nie umie jej obsłużyć. Umiejętność ta nie oznacza jednak obowiązku gaszenia każdego pożaru, niezależnie od zagrożenia. Podstawa: ADR 8.3.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0377",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.2.3.1–1.4.2.3.2",
+      "stem": "Odbiorca zauważył, że rozładunek powinien poprzedzać wymagane usunięcie zagrożenia. Czy może pominąć obowiązki rozładunkowe wynikające z ADR?",
+      "options": {
+        "A": "Tak, samo przyjęcie roli odbiorcy zwalnia z pozostałych obowiązków",
+        "B": "Nie; odbiorca ma obowiązki przy odbiorze i dalszych czynnościach",
+        "C": "Tak, podpisanie dokumentu pozwala pominąć dalsze czynności"
+      },
+      "correct_option": "B",
+      "explanation": "Odbiorca również ma obowiązki ADR związane z przyjęciem towaru i czynnościami po rozładunku. Nie może uznać, że samo przyjęcie dokumentu zwalnia go z dalszych działań. Należy wykonać wymagane kontrole i postąpić z pozostałościami oraz oznakowaniem zgodnie z przepisami. Podstawa: ADR 1.4.2.3.1–1.4.2.3.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0378",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.1.1(c)",
+      "stem": "Załadowca umieszcza towar ADR w kontenerze, po czym kontener wymaga oznakowania. Kto ma dopełnić wymogów oznakowania po załadunku?",
+      "options": {
+        "A": "Załadowca odpowiada za wymagane oznakowanie",
+        "B": "Wyłącznie kierowca pojazdu osobowego, nawet bez udziału w załadunku",
+        "C": "Dowolna osoba na parkingu, bez uzgodnienia z załadowcą"
+      },
+      "correct_option": "A",
+      "explanation": "Załadowca odpowiada za określone czynności związane z umieszczeniem wymaganych oznaczeń na kontenerze po załadunku. Nie można przerzucić tego obowiązku na przypadkową osobę ani na kierowcę pojazdu niezwiązanego z przewozem. Oznaczenia muszą odpowiadać rzeczywistemu ładunkowi i wymaganiom ADR. Podstawa: ADR 1.4.3.1.1(c).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0379",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.2.2.1(e)",
+      "stem": "Przewoźnik kontroluje masę i załadunek pojazdu ADR. Czy jego obowiązki obejmują sprawdzenie, czy pojazd nie jest przeciążony?",
+      "options": {
+        "A": "Tak, sprawdza masę i załadunek w swoim zakresie",
+        "B": "Nie, masa pojazdu nie ma znaczenia, jeśli ładunek jest zabezpieczony",
+        "C": "Tylko wtedy, gdy przewóz odbywa się cysterną"
+      },
+      "correct_option": "A",
+      "explanation": "Przewoźnik powinien sprawdzić, czy masa pojazdu i ładunku nie przekracza dopuszczalnych wartości, w zakresie wymaganym przez ADR. Zabezpieczenie palet pasami nie zmniejsza ich masy, a obowiązek nie dotyczy wyłącznie przewozu w cysternie. Jeśli w trakcie kontroli wyjdzie niezgodność, nie wolno jej ignorować tylko dlatego, że ładunek jest stabilnie zamocowany. Podstawa: ADR 1.4.2.2.1(e).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0380",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.2.1.2",
+      "stem": "Nadawca korzysta z danych technicznych dostarczonych przez pakującego. Czy może je wykorzystać do spełnienia części obowiązków wymienionych w 1.4.2.1.1?",
+      "options": {
+        "A": "Tak, w przypadkach wyliczonych w 1.4.2.1.2",
+        "B": "Nie, musi zignorować wszystkie dane od innych uczestników",
+        "C": "Tak, a zarazem traci wszystkie pozostałe obowiązki"
+      },
+      "correct_option": "A",
+      "explanation": "Nadawca może w określonych przypadkach oprzeć się na danych technicznych lub informacjach otrzymanych od innych uczestników, zgodnie z zakresem wskazanym w ADR. Nie oznacza to, że powinien ignorować dostępne dane albo że przestaje odpowiadać za pozostałe obowiązki. Informacje muszą być odpowiednie do konkretnego wymagania. Podstawa: ADR 1.4.2.1.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z działem 1.4 ADR: treść odpowiedzi odpowiada przypisaniu obowiązków rozładowcy, załadowcy, przewoźnika, nadawcy i odbiorcy. Dokumentacja, oznakowanie i kontrola masy nie zastępują odrębnych obowiązków uczestników.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0381",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.1(a)",
+      "stem": "W łańcuchu drogowym i morskim opakowanie nie jest oznaczone zgodnie z ADR, lecz podlega dopuszczeniu według 1.1.4.2.1. Jakie oznakowanie musi mieć?",
+      "options": {
+        "A": "Oznakowanie zgodne z IMDG lub ICAO dla danego etapu",
+        "B": "Ręczny opis zagrożenia na opakowaniu, jeśli kierowca potwierdzi jego czytelność",
+        "C": "Bez nalepki z numerem UN"
+      },
+      "correct_option": "A",
+      "explanation": "W określonym łańcuchu drogowym połączonym z transportem morskim lub lotniczym ADR może uznać oznakowanie zgodne z IMDG albo instrukcjami ICAO, jeśli spełniono warunki przepisu. Nie wolno zastępować go dowolnym ręcznym ostrzeżeniem ani całkiem rezygnować z oznakowania. Ręczny opis kierowcy ani pominięcie wymaganej nalepki nie zastępują właściwego oznakowania IMDG lub ICAO. Podstawa: ADR 1.1.4.2.1(a).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0382",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.1(b)",
+      "stem": "W łańcuchu z etapem morskim zastosowano przywilej 1.1.4.2.1 dla wspólnego pakowania w jednej sztuce przesyłki. Które wymagania mogą określać pakowanie razem?",
+      "options": {
+        "A": "Zasady przewozu żywności",
+        "B": "Wymagania IMDG lub instrukcje ICAO",
+        "C": "Warunki pakowania ustalone przez kierowcę ze spedytorem, bez sprawdzenia IMDG ani instrukcji ICAO"
+      },
+      "correct_option": "B",
+      "explanation": "W przewozie łączącym drogę z morzem lub lotnictwem warunki pakowania razem mogą wynikać z właściwych przepisów IMDG (przepisy dla przewozu morskiego) albo instrukcji ICAO, jeśli zastosowanie ma wyjątek ADR. Nie wystarczy kierować się podobną wagą towarów ani własnym uznaniem. Zasady żywności ani uzgodnienie ze spedytorem nie zastępują warunków pakowania dla danej gałęzi przewozu. Podstawa: ADR 1.1.4.2.1(b).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0383",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.1(c)",
+      "stem": "Kontener w łańcuchu morskim oznakowano według IMDG zamiast oznaczeń wymaganych w ADR 5.3. Co może dopuścić 1.1.4.2.1(c)?",
+      "options": {
+        "A": "Oznakowanie IMDG, jeśli spełniono warunki ADR",
+        "B": "Usunąć nalepki kontenera",
+        "C": "Zastąpić wymagane oznakowanie tablicą reklamową spedytora z nazwą firmy i opisem towaru"
+      },
+      "correct_option": "A",
+      "explanation": "W określonym łańcuchu morskim ADR dopuszcza użycie nalepek i oznakowania zgodnych z IMDG zamiast części oznakowania ADR, ale tylko po spełnieniu warunków przepisu. Nie wolno usuwać wszystkich oznaczeń ani zastępować ich reklamą. Usunięcie oznakowania i reklama spedytora nie zastępują oznaczeń wymaganych dla kontenera. Podstawa: ADR 1.1.4.2.1(c).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0384",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.1(c); 5.3.2.1.1",
+      "stem": "Kontener w łańcuchu morskim korzysta z oznakowania IMDG na podstawie 1.1.4.2.1(c). Co z oznakowaniem pojazdu drogowego?",
+      "options": {
+        "A": "Zdjąć pomarańczowe tablice pojazdu po przybyciu kontenera z oznakowaniem IMDG",
+        "B": "Zachować wymagane tablice pomarańczowe według 5.3.2.1.1",
+        "C": "Użyć etykiety spedytora"
+      },
+      "correct_option": "B",
+      "explanation": "Nawet gdy kontener korzysta z oznakowania IMDG (przepisy dla przewozu morskiego), wyjątek nie usuwa automatycznie wszystkich obowiązków dotyczących pojazdu. Należy zachować wymagane oznakowanie drogowe wskazane w przepisie, w tym odpowiednie tablice pomarańczowe. Po oznakowaniu kontenera IMDG pojazd drogowy nadal musi mieć własne wymagane tablice. Podstawa: ADR 1.1.4.2.1(c) i 5.3.2.1.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0385",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.1(c)",
+      "stem": "Pusty, nieoczyszczony kontener-cysterna przybywa morzem i jedzie do punktu czyszczenia. Jak długo określona reguła oznakowania IMDG z 1.1.4.2.1(c) pozostaje istotna?",
+      "options": {
+        "A": "Do przekazania kontenera do stacji czyszczenia",
+        "B": "Przez 10 km od portu",
+        "C": "Do chwili opuszczenia terminalu, chociaż kontener nadal nie został oczyszczony"
+      },
+      "correct_option": "A",
+      "explanation": "Szczególna zasada może obejmować pusty, nieoczyszczony kontener-cysternę przywożony morzem także podczas przewozu do miejsca czyszczenia. Nie kończy się automatycznie po kilku kilometrach ani w chwili opuszczenia statku. Odległość dziesięciu kilometrów i opuszczenie terminalu nie przesądzają o końcu wymogu. Podstawa: ADR 1.1.4.2.1(c).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0386",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.1 akapit końcowy",
+      "stem": "Towar jest niebezpieczny według klas 1–9 ADR, ale nie jest uznawany za niebezpieczny według właściwego IMDG/ICAO. Czy wyjątek 1.1.4.2.1 może wtedy automatycznie zadziałać?",
+      "options": {
+        "A": "Tak, po samym dojeździe do portu",
+        "B": "Nie; przypadek ten jest wyłączony z odstępstwa",
+        "C": "Tak, jeżeli towar ma niewielką masę i nie wymaga ponownej klasyfikacji przy zmianie środka transportu"
+      },
+      "correct_option": "B",
+      "explanation": "Odstępstwo dla łańcucha morskiego lub lotniczego ma wyraźne ograniczenia. Nie można go automatycznie zastosować do towaru, który jest niebezpieczny według ADR, ale nie jest tak klasyfikowany według właściwych zasad IMDG lub ICAO. Dojazd do portu ani niewielka masa nie zmieniają klasyfikacji towaru w obu systemach. Podstawa: ADR 1.1.4.2.1, akapit końcowy.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0387",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.2",
+      "stem": "Pojazd inny niż przewożący wskazane kontenery ma nalepki wielkiego formatu według IMDG, ale nie zgodnie z ADR 5.3.1. Kiedy 1.1.4.2.2 dopuszcza taki przewóz?",
+      "options": {
+        "A": "Tylko w łańcuchu morskim, z tablicami ADR 5.3.2",
+        "B": "Bez tablic i bez dokumentu, jeśli ładunek był już na statku",
+        "C": "Zawsze na dowolnej trasie drogowej, bez sprawdzania warunków wyjątku"
+      },
+      "correct_option": "A",
+      "explanation": "Dopuszczenie dotyczące nalepek IMDG na pojeździe ma określony zakres i dotyczy odpowiedniego łańcucha transportowego z etapem morskim. Warunkiem pozostaje zachowanie wymaganych tablic pomarańczowych ADR. Nie jest to zgoda na dowolny przewóz drogowy bez dokumentów i oznakowania. Podstawa: ADR 1.1.4.2.2 i 5.3.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0388",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.3",
+      "stem": "Dokument IMDG/ICAO może w określonym łańcuchu zastępować dokument przewozowy ADR. Co trzeba sprawdzić?",
+      "options": {
+        "A": "Sprawdzić, czy zawiera dodatkowe dane wymagane przez ADR",
+        "B": "Sprawdzić wyłącznie numer UN, pomijając pozostałe dodatkowe wpisy wymagane przez ADR",
+        "C": "Czy podpisano fakturę i przekazano kopię spedytorowi bez sprawdzenia wymaganych wpisów ADR"
+      },
+      "correct_option": "A",
+      "explanation": "Dokument IMDG (dla transportu morskiego) lub ICAO może zastąpić dokument ADR tylko w określonych warunkach, dlatego trzeba sprawdzić wszystkie dodatkowe dane wymagane na odcinku drogowym. Sam numer UN nie potwierdza kompletności wpisów, a podpisana faktura i jej kopia dla spedytora nie zastępują dokumentu przewozowego. Sprawdź warunki konkretnego wyjątku. Podstawa: ADR 1.1.4.2.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0389",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.1",
+      "stem": "Łańcuch obejmuje przewóz drogą i morzem. Czy dopuszczenie z 1.1.4.2.1 oznacza, że nie trzeba spełniać żadnych wymagań na drodze?",
+      "options": {
+        "A": "Tak, wszystkie zasady drogowe znikają",
+        "B": "Nie; wyjątek obejmuje tylko określone wymagania",
+        "C": "Tak, wystarczy oznaczenie kontenera logo armatora"
+      },
+      "correct_option": "B",
+      "explanation": "Odstępstwo dla przewozu połączonego z transportem morskim dotyczy tylko określonych wymagań i działa pod warunkami wskazanymi w ADR. Nie zwalnia automatycznie z całego prawa drogowego ani z obowiązków bezpieczeństwa. Logo armatora nie zastępuje dokumentów, oznakowania i pozostałych wymagań. Podstawa: ADR 1.1.4.2.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0390",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "stem": "Towar niebezpieczny ma jechać w zwykłym kontenerze drogą, a następnie statkiem. Jaki dokument przewiduje 5.4.2?",
+      "options": {
+        "A": "Certyfikat pakowania kontenera/pojazdu dla przewoźnika morskiego",
+        "B": "Wyłącznie zezwolenie na parkowanie wydane przez terminal portowy",
+        "C": "Wyłącznie fakturę VAT jako dowód przekazania kontenera do przewozu morskiego"
+      },
+      "correct_option": "A",
+      "explanation": "W określonym łańcuchu drogowym i morskim osoby odpowiedzialne za pakowanie kontenera lub pojazdu powinny przekazać przewoźnikowi morskiemu wymagane świadectwo pakowania. Samo zezwolenie na parkowanie czy faktura VAT nie opisują sposobu przygotowania ładunku. Dokument służy potwierdzeniu spełnienia właściwych wymagań pakowania. Podstawa: ADR 5.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0391",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "stem": "Kto według ADR 5.4.2 ma przekazać przewoźnikowi morskiemu świadectwo pakowania kontenera?",
+      "options": {
+        "A": "Przewoźnik drogowy, nawet jeśli nie odpowiadał za pakowanie kontenera",
+        "B": "Osoby odpowiedzialne za pakowanie kontenera",
+        "C": "Odbiorca, który podpisuje odbiór i dopiero potem zleca przygotowanie dokumentu"
+      },
+      "correct_option": "B",
+      "explanation": "Certyfikat pakowania potwierdza prawidłowe rozmieszczenie i zabezpieczenie ładunku w kontenerze lub pojeździe do przewozu morskiego. Dostarczają go osoby odpowiedzialne za pakowanie, ponieważ to one mogą potwierdzić wykonane czynności. Przewoźnik drogowy ani odbiorca nie zastępują automatycznie osoby pakującej. Podstawa: ADR 5.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0392",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "stem": "Czy funkcję świadectwa pakowania kontenera i dokumentu przewozowego ADR wolno w określonych warunkach połączyć w jednym dokumencie?",
+      "options": {
+        "A": "Nie; oba dokumenty muszą zawsze pozostać osobne, nawet jeśli zawierają te same dane",
+        "B": "Tak, jeśli dokument zawiera wymagane oświadczenie oraz dane osoby odpowiedzialnej",
+        "C": "Tak; dokumenty można połączyć, pomijając oświadczenie i dane osoby odpowiedzialnej"
+      },
+      "correct_option": "B",
+      "explanation": "ADR dopuszcza połączenie świadectwa pakowania kontenera i dokumentu przewozowego w jednym dokumencie, jeśli zawiera on wymagane oświadczenie oraz identyfikację osoby odpowiedzialnej. Nie trzeba tworzyć kilku plików tylko dla samej liczby dokumentów, ale nie można też pominąć wymaganych informacji. Podstawa: ADR 5.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0393",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "stem": "W morskim łańcuchu transportowym ładunek jest przewożony w pojeździe, a nie kontenerze. Co mówi ADR 5.4.2 o świadectwie pakowania pojazdu?",
+      "options": {
+        "A": "Nie; świadectwo pakowania pojazdu nie może być dołączone do dokumentu przewozowego",
+        "B": "Może być dołączone do dokumentu przewozowego, jeśli spełniono wymagania ADR",
+        "C": "Musi zastąpić dokument przewozowy oraz prawo jazdy kierowcy"
+      },
+      "correct_option": "B",
+      "explanation": "Dla przewozu pojazdu w określonym łańcuchu morskim ADR dopuszcza dołączenie świadectwa pakowania pojazdu do dokumentu przewozowego. Nie jest więc prawdą, że świadectwo nigdy nie jest dopuszczalne ani że zastępuje prawo jazdy. Należy spełnić wymagania dokumentacyjne dotyczące konkretnego przewozu. Podstawa: ADR 5.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0394",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "stem": "Czy ADR 5.4.2 wymaga świadectwa pakowania kontenera dla przenośnej cysterny wyłącznie z tego powodu, że będzie przewożona statkiem?",
+      "options": {
+        "A": "Nie; samo przewożenie przenośnej cysterny statkiem nie wymaga takiego świadectwa",
+        "B": "Tak; świadectwo jest wymagane dla każdej przenośnej cysterny przewożonej statkiem",
+        "C": "Tak; świadectwo jest wymagane tylko wtedy, gdy cysterna jest pusta i czysta"
+      },
+      "correct_option": "A",
+      "explanation": "Świadectwo pakowania kontenera z ADR 5.4.2 nie jest wymagane wyłącznie dlatego, że przenośna cysterna będzie przewożona statkiem; przepis przewiduje tu wyjątek. Nie oznacza to jednak zwolnienia z wszelkich dokumentów lub zabezpieczeń. Trzeba sprawdzić wymagania właściwe dla przenośnej cysterny i danego łańcucha transportowego. Podstawa: ADR 5.4.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0395",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.1.1.7",
+      "stem": "Kierowca korzysta z odstępstwa ADR 1.1.4.2.1. Jaki wpis dokumentowy przewiduje 5.4.1.1.7?",
+      "options": {
+        "A": "Wpisać wymaganą informację, że przewóz odbywa się zgodnie z przepisem 1.1.4.2.1 ADR",
+        "B": "Wpisać ogólne hasło „bezpieczny ładunek”, bez podania podstawy zastosowanego odstępstwa",
+        "C": "Wpisać numer telefonu odbiorcy, bez informacji o przepisie, na podstawie którego przewóz się odbywa"
+      },
+      "correct_option": "A",
+      "explanation": "Jeśli przewóz korzysta z odstępstwa ADR 1.1.4.2.1, dokument przewozowy musi zawierać wymaganą adnotację o zgodności z tym przepisem. Ogólne hasło „bezpieczny ładunek” ani sam numer telefonu odbiorcy nie informują, z jakiej zasady korzysta przewóz. Wpis powinien odpowiadać treści wymaganej przez ADR. Podstawa: ADR 5.4.1.1.7.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0396",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2",
+      "stem": "Kontener z towarem niebezpiecznym wyrusza drogą do portu. Czy sam przejazd do portu uprawnia do niestosowania całego ADR?",
+      "options": {
+        "A": "Tak; sam dojazd do portu zawsze wyłącza cały przewóz drogowy spod ADR",
+        "B": "Nie; ADR obowiązuje, chyba że spełniono warunki konkretnego wyjątku",
+        "C": "Tak; zagraniczna rejestracja pojazdu automatycznie znosi wymagania ADR"
+      },
+      "correct_option": "B",
+      "explanation": "Sam dojazd z towarem niebezpiecznym do portu nie zwalnia automatycznie z ADR. Wymagania nadal obowiązują, chyba że konkretny wyjątek ma zastosowanie i spełniono wszystkie jego warunki. Zagraniczna rejestracja pojazdu nie zmienia zakresu obowiązków przewozowych. Podstawa: ADR 1.1.4.2. Wyjątek trzeba ocenić na podstawie rzeczywistych warunków przewozu.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0397",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.1(a)",
+      "stem": "W łańcuchu obejmującym transport lotniczy paczka spełnia ICAO TI zamiast części wymagań oznakowania ADR. Która zasada może mieć zastosowanie?",
+      "options": {
+        "A": "Oznakowanie ICAO TI może być uznane warunkowo, po spełnieniu właściwych wymagań ADR",
+        "B": "Każdy przejazd drogowy po locie jest całkowicie zwolniony z wymagań ADR",
+        "C": "Wystarczy naklejka linii lotniczej, nawet bez spełnienia warunków przewidzianych w ADR"
+      },
+      "correct_option": "A",
+      "explanation": "ADR może uznać określone oznakowanie zgodne z ICAO TI w łańcuchu obejmującym transport lotniczy, ale tylko wtedy, gdy spełniono warunki wskazane w przepisie. Nie oznacza to, że wszystkie wymagania drogowe znikają ani że wystarczy naklejka przewoźnika lotniczego. Trzeba sprawdzić konkretną przesyłkę i zakres odstępstwa. Podstawa: ADR 1.1.4.2.1(a).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0398",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.3",
+      "stem": "W transporcie drogowym z odcinkiem morskim przed przewozem ktoś proponuje zastąpić dokument transportowy IMDG ustnym telefonem. Co wynika z 1.1.4.2.3?",
+      "options": {
+        "A": "Ustna rozmowa telefoniczna zawsze może zastąpić dokument przewozowy wymagany przy towarach niebezpiecznych",
+        "B": "Zastąpienie dokumentu jest możliwe tylko w określonym zakresie dla IMDG/ICAO i po spełnieniu warunków ADR",
+        "C": "Kolor kontenera wystarczy do ustalenia dokumentacji, ponieważ określa rodzaj przewożonego towaru"
+      },
+      "correct_option": "B",
+      "explanation": "Przepis pozwala w określonych sytuacjach użyć dokumentu IMDG (przepisy dla przewozu morskiego) lub ICAO z wymaganymi danymi, a nie zastąpić go ustną rozmową telefoniczną. Telefon nie zapewnia kompletnej dokumentacji potrzebnej przy kontroli lub wypadku. Przed rozpoczęciem jazdy należy sprawdzić, czy dokument i jego dodatkowe informacje spełniają warunki ADR. Podstawa: ADR 1.1.4.2.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.1.4.2.1–1.1.4.2.3, 5.4.1.1.7 i 5.4.2: wyjątki dla łańcucha drogowo-morskiego/lotniczego są warunkowe, nie usuwają wszystkich wymagań drogowych, a dodatkowe wpisy i certyfikat pakowania obowiązują w określonych przypadkach.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0399",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.2.2(a)",
+      "stem": "Firma opracowuje plan ochrony dla towarów dużego ryzyka. Jak ma określić odpowiedzialność za ochronę?",
+      "options": {
+        "A": "Przekazać zadania firmie ochrony bez oceny kwalifikacji",
+        "B": "Pozostawić odpowiedzialność zbiorową, nie określając osób ani ich konkretnych uprawnień w planie",
+        "C": "Przypisać zadania kompetentnym osobom z odpowiednimi uprawnieniami"
+      },
+      "correct_option": "C",
+      "explanation": "Plan ochrony powinien wskazywać konkretne osoby odpowiedzialne za poszczególne działania oraz zapewniać, że mają odpowiednie kompetencje i uprawnienia. Pozostawienie odpowiedzialności nieokreślonej utrudnia reakcję na zagrożenie, a przypadkowy odbiorca nie jest automatycznie właściwą osobą. Zlecenie zewnętrznej ochronie i odpowiedzialność zbiorowa nie zastępują wskazania kompetentnych osób. Podstawa: ADR 1.10.3.2.2(a).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0400",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.2.2(b)",
+      "stem": "Co plan ochrony towarów dużego ryzyka powinien zawierać w zakresie przewożonych materiałów?",
+      "options": {
+        "A": "Wpisać dane spedytora i firmowe oznaczenia",
+        "B": "Określić rodzaje przewożonych towarów niebezpiecznych lub grupy towarów objęte planem",
+        "C": "Opisać wszystkie pojazdy, numery ich rejestracji i planowane miejsca postoju, nie określając towarów"
+      },
+      "correct_option": "B",
+      "explanation": "Plan ochrony powinien określać, jakie towary niebezpieczne lub grupy towarów obejmuje. Sama nazwa spedytora czy numery rejestracyjne pojazdów nie opisują, przed jakim ładunkiem trzeba się chronić. Dane spedytora i lista pojazdów nie określają rodzaju towarów objętych planem ochrony. Podstawa: ADR 1.10.3.2.2(b).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0401",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.2.2(c)",
+      "stem": "Przy ocenie zagrożeń w planie ochrony przeanalizowano tylko jazdę autostradą. Jakie inne miejsca lub etapy trzeba uwzględnić?",
+      "options": {
+        "A": "Przeanalizować czas jazdy i postoje kierowcy",
+        "B": "Skupić plan ochrony na adresie biura i dokumentach księgowych, pomijając miejsca przechowywania towaru",
+        "C": "Uwzględnić postoje, ładunek pozostawiony w pojeździe i etapy intermodalne"
+      },
+      "correct_option": "C",
+      "explanation": "Ocena zagrożeń ochronnych nie powinna ograniczać się do samej jazdy. Należy uwzględnić również postoje wymagane przez transport, czasowe przebywanie ładunku w pojeździe i operacje intermodalne, jeśli występują. Same godziny jazdy i dane biura pomijają ryzyka postoju, przechowywania i przeładunków. Podstawa: ADR 1.10.3.2.2(c).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0402",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.2.2(d)",
+      "stem": "Plan ochrony towarów dużego ryzyka obejmuje ryzyko na trasie. Co powinien określać w zakresie przeciwdziałania ryzyku?",
+      "options": {
+        "A": "Ustalić stałe pory posiłku kierowcy",
+        "B": "Opisać wyposażenie i model ciężarówki, nie określając żadnych działań ograniczających ryzyka na trasie",
+        "C": "Określić praktyczne działania, które ograniczają rozpoznane zagrożenia dla ochrony towaru"
+      },
+      "correct_option": "C",
+      "explanation": "Plan ochrony powinien określać konkretne działania, które ograniczają rozpoznane zagrożenia podczas danego przewozu. Godzina obiadu ani model ciężarówki nie wskazują, jak zapobiegać kradzieży lub nieuprawnionemu dostępowi. Wybierz środki odnoszące się do ryzyka na trasie, postoju i ładunku. Podstawa: ADR 1.10.3.2.2(d).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0403",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.2.2(e)",
+      "stem": "Firma odnotowała próbę nieuprawnionego dostępu do ładunku dużego ryzyka. Jakie procedury muszą być zawarte w planie ochrony?",
+      "options": {
+        "A": "Przekazać incydenty do działu reklamacji",
+        "B": "Zamieścić zasady rozliczania szkód i wniosków o odszkodowanie zamiast procedury reakcji na naruszenia ochrony",
+        "C": "Opisać zgłaszanie zagrożeń i naruszeń ochrony oraz sposób reagowania na takie incydenty"
+      },
+      "correct_option": "C",
+      "explanation": "Plan ochrony musi opisywać sposób zgłaszania zagrożeń, incydentów i naruszeń oraz działania podejmowane po ich wykryciu. Harmonogram przerw ani procedura reklamacji kosztów nie wyjaśniają, jak pracownik ma zgłosić próbę nieuprawnionego dostępu. Potrzebna jest jasna ścieżka powiadomienia i reakcji. Podstawa: ADR 1.10.3.2.2(e).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0404",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.2.2(f)",
+      "stem": "Firma ma plan ochrony od kilku lat, lecz zmieniła trasę i charakter ładunków. Jakie działania przewiduje ADR?",
+      "options": {
+        "A": "Nie zmieniać planu po zatwierdzeniu",
+        "B": "Przewidzieć ocenę, sprawdzanie, przegląd i aktualizację planu ochrony",
+        "C": "Przygotować nowy plan dopiero po upływie kilku lat, niezależnie od zmian w trasach i ładunkach"
+      },
+      "correct_option": "B",
+      "explanation": "Plan ochrony nie powinien pozostawać niezmieniony, gdy zmieniają się trasy, rodzaje ładunków lub sposób organizacji przewozu. ADR przewiduje ocenę, sprawdzanie, przegląd i aktualizację planu. Zamrożenie planu albo odkładanie aktualizacji na kilka lat pomija zmiany w trasach i ładunkach. Podstawa: ADR 1.10.3.2.2(f).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0405",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.2.2(g)",
+      "stem": "Dokumenty planu ochrony zawierają informacje o przewozach wysokiego ryzyka. Co powinno być opisane w planie?",
+      "options": {
+        "A": "Zapisać sposób korzystania z pieczątki firmowej",
+        "B": "Udostępniać pełne trasy transportu osobom zainteresowanym i rozsyłać dokumenty bez kontroli uprawnień",
+        "C": "Opisać sposoby ochrony informacji transportowych przed dostępem osób nieuprawnionych"
+      },
+      "correct_option": "C",
+      "explanation": "Plan ochrony powinien określać, jak zabezpiecza się informacje związane z przewozem, aby nie trafiały do osób nieuprawnionych. Publikowanie pełnych tras bez ograniczeń może zwiększyć ryzyko, a wzór pieczątki nie chroni danych. Pieczątka firmy i publiczne przekazywanie tras nie chronią wrażliwych informacji o przewozie. Podstawa: ADR 1.10.3.2.2(g).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0406",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.2.2(h)",
+      "stem": "Kto powinien otrzymywać szczegółowe informacje o przewozie dużego ryzyka w ramach zasad ochrony?",
+      "options": {
+        "A": "Każdy zainteresowany, nawet jeśli nie potrzebuje danych do swoich obowiązków",
+        "B": "Wyłącznie osoby spoza firmy, ponieważ pracownicy nie powinni znać tych danych",
+        "C": "Udostępniać dane osobom, które potrzebują ich do swoich zadań, zgodnie z ADR"
+      },
+      "correct_option": "C",
+      "explanation": "Szczegółowe informacje o przewozie dużego ryzyka należy udostępniać osobom, które potrzebują ich do wykonania swoich obowiązków. Nie oznacza to przekazywania danych każdemu, kto o nie poprosi. Zasada „need-to-know” nie może jednak blokować informacji, których przekazania wymagają inne przepisy ADR. Podstawa: ADR 1.10.3.2.2(h).",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0407",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.3",
+      "stem": "Pojazd przewozi towary dużego ryzyka objęte 1.10.3.3. Kiedy urządzenia zabezpieczające przed kradzieżą mają być skuteczne?",
+      "options": {
+        "A": "Zabezpieczenia mają działać przed odjazdem, a po rozpoczęciu jazdy można je wyłączyć",
+        "B": "Zabezpieczenia mają być skuteczne przez cały przewóz, zgodnie z warunkami ADR",
+        "C": "Urządzenia muszą działać tylko podczas kontroli drogowej, a na postoju mogą być wyłączone"
+      },
+      "correct_option": "B",
+      "explanation": "Wymagane zabezpieczenia antykradzieżowe mają działać przez cały czas przewozu, zgodnie z warunkami ADR. Uruchomienie ich tylko przed odjazdem lub dopiero podczas kontroli nie zapewnia ciągłej ochrony ładunku. Środki ochronne powinny być stosowane tak długo, jak wymaga tego dany przewóz. Podstawa: ADR 1.10.3.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0408",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.3",
+      "stem": "Montaż blokady antykradzieżowej pojazdu dużego ryzyka uniemożliwiłby ratownikom dostęp w wypadku. Jak ocenić takie rozwiązanie?",
+      "options": {
+        "A": "Blokada jest obowiązkowa nawet wtedy, gdy uniemożliwia ratownikom dostęp do pojazdu",
+        "B": "Zabezpieczenie nie powinno utrudniać działań ratowniczych w razie wypadku",
+        "C": "Blokadę można stosować bez informowania kierowcy o sposobie jej odblokowania"
+      },
+      "correct_option": "B",
+      "explanation": "Zabezpieczenie przed kradzieżą ma chronić ładunek, ale nie może uniemożliwiać ratownikom działania podczas wypadku. Blokada, która odcina dostęp do pojazdu w sytuacji awaryjnej, może stworzyć dodatkowe niebezpieczeństwo. Dlatego środki ochrony należy dobrać tak, by nie utrudniały reagowania ratowniczego. Podstawa: ADR 1.10.3.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0409",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.2.2",
+      "stem": "Nowy pracownik poznaje zagrożenia związane z niewłaściwym wykorzystaniem towarów niebezpiecznych. Co obejmuje właściwe szkolenie ochronne?",
+      "options": {
+        "A": "Szkolenie obejmuje głównie zasady higieny i bezpiecznego przygotowania posiłków",
+        "B": "Szkolenie skupia się na urlopach, grafiku zmian i rozliczaniu czasu pracy",
+        "C": "Szkolenie uczy rozpoznawać zagrożenia ochronne i ograniczać ryzyko nadużycia"
+      },
+      "correct_option": "C",
+      "explanation": "Szkolenie ochronne powinno wyjaśniać, jakie zagrożenia mogą wynikać z kradzieży lub niewłaściwego użycia towarów niebezpiecznych, jak je rozpoznawać i jak ograniczać ryzyko. Przepisy gastronomiczne ani urlopowe nie przygotowują do takich sytuacji. Wiedza ma pomóc pracownikowi działać zgodnie z procedurami ochrony. Podstawa: ADR 1.10.2.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0410",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.2.2",
+      "stem": "Pracownik ma dostęp do planu ochrony dotyczącego swoich zadań. Co powinno obejmować jego szkolenie?",
+      "options": {
+        "A": "Pracownik poznaje historię firmy i wszystkie jej dane organizacyjne, bez wyjątków",
+        "B": "Każdemu kierowcy należy ujawnić cały plan ochrony, nawet gdy nie dotyczy jego zadań",
+        "C": "Pracownik poznaje te elementy planu ochrony, które są potrzebne do jego obowiązków"
+      },
+      "correct_option": "C",
+      "explanation": "Zakres szkolenia powinien odpowiadać roli pracownika i jego obowiązkom, dlatego powinien znać te elementy planu ochrony, które dotyczą wykonywanych zadań. Nie oznacza to ujawniania całego planu wszystkim kierowcom bez potrzeby. Informacje przekazuje się odpowiednim osobom w zakresie niezbędnym do pracy. Podstawa: ADR 1.10.2.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0411",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.2.3",
+      "stem": "Kiedy należy przeprowadzać wymagane szkolenie z ochrony dla osób uczestniczących w przewozie ADR?",
+      "options": {
+        "A": "Szkolenie jest potrzebne dopiero po wypadku lub stwierdzonym naruszeniu ochrony",
+        "B": "Szkolenie odbywa się przed powierzeniem zadań i jest okresowo uzupełniane",
+        "C": "Szkolenie wystarczy przeprowadzić raz, bez względu na późniejsze obowiązki pracownika"
+      },
+      "correct_option": "B",
+      "explanation": "Szkolenie ochronne należy zapewnić osobie, gdy powierza się jej zadania związane z przewozem, a wiedzę trzeba okresowo uzupełniać. Czekanie do wypadku oznaczałoby szkolenie dopiero po wystąpieniu zagrożenia. Regularne odświeżanie pomaga utrzymać znajomość procedur i rozpoznawać nowe ryzyka. Podstawa: ADR 1.10.2.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0412",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.2.4",
+      "stem": "Inspektor wymaga dokumentacji szkoleń dotyczących ochrony. Jak powinien postąpić pracodawca?",
+      "options": {
+        "A": "Podać wyłącznie dane kontaktowe instruktora, bez zachowywania dokumentacji przebiegu szkolenia",
+        "B": "Odmówić przekazania zapisów, ponieważ ADR nie wymaga dokumentowania szkoleń ochronnych",
+        "C": "Przechowywać dokumentację szkoleń i udostępnić ją uprawnionemu organowi na żądanie"
+      },
+      "correct_option": "C",
+      "explanation": "Pracodawca powinien przechowywać dokumentację szkoleń ochronnych i udostępnić ją uprawnionemu organowi na żądanie. Sam kontakt do instruktora nie potwierdza, że szkolenie się odbyło ani czego dotyczyło. Dokumentacja pozwala wykazać wykonanie obowiązku, dlatego nie można odmówić jej prowadzenia, powołując się na brak wymogu. Podstawa: ADR 1.10.2.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0413",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.1.2",
+      "stem": "Do terminalu zgłasza się kierowca po odbiór towarów niebezpiecznych. Skąd można ustalić, czy reprezentuje właściwego przewoźnika?",
+      "options": {
+        "A": "Sprawdzić tożsamość przewoźnika i upewnić się, że kierowca jest upoważniony do odbioru",
+        "B": "Uznać numer rejestracyjny i oznakowanie pojazdu za wystarczające bez sprawdzenia upoważnienia",
+        "C": "Wydać ładunek każdemu kierowcy, który zna nazwę odbiorcy oraz numer zlecenia"
+      },
+      "correct_option": "A",
+      "explanation": "Przed wydaniem towaru trzeba potwierdzić tożsamość przewoźnika i upoważnienie kierowcy do odbioru. Numer rejestracyjny i oznakowanie pojazdu nie dowodzą same w sobie, że osoba reprezentuje właściwą firmę, a znajomość nazwy odbiorcy i numeru zlecenia również może być niewystarczająca. W razie wątpliwości wstrzymaj wydanie i sprawdź uprawnienie. Podstawa: ADR 1.10.1.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0414",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.1.2",
+      "stem": "Przedsiębiorstwo przekazuje ładunek ADR nowemu przewoźnikowi. Ten zna numer zlecenia, ale jego tożsamość nie została sprawdzona. Co należy zrobić?",
+      "options": {
+        "A": "Wydać ładunek, bo znajomość numeru zlecenia potwierdza tożsamość przewoźnika",
+        "B": "Najpierw potwierdzić tożsamość przewoźnika zgodnie z procedurą ochrony",
+        "C": "Pominąć procedury, jeśli kierowca zapewnia, że zna firmę i miejsce dostawy"
+      },
+      "correct_option": "B",
+      "explanation": "Znajomość numeru zlecenia nie potwierdza, że osoba przybyła po ładunek działa w imieniu uprawnionego przewoźnika. Przed wydaniem towaru trzeba najpierw sprawdzić tożsamość przewoźnika, zamiast pomijać procedury bezpieczeństwa. To ważny środek ochrony przed nieuprawnionym dostępem. Podstawa: ADR 1.10.1.2.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0415",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.1.3",
+      "stem": "W terminalu do czasowego składowania niebezpiecznych przesyłek prowadzi niekontrolowane wejście od ulicy. Jakie działanie odpowiada 1.10.1.3?",
+      "options": {
+        "A": "Zabezpieczyć teren, oświetlić go, gdy to możliwe, i ograniczyć dostęp osób postronnych",
+        "B": "Pozostawić wejście bez kontroli, jeśli obiekt jest zamykany dopiero po zakończeniu zmiany",
+        "C": "Ustawić reklamę na bramie i uznać ją za wystarczające zabezpieczenie przed wejściem osób postronnych"
+      },
+      "correct_option": "A",
+      "explanation": "Miejsce czasowego składowania towarów niebezpiecznych powinno być odpowiednio zabezpieczone, oświetlone tam, gdzie to możliwe, i chronione przed dostępem osób nieupoważnionych. Pozostawienie wejścia bez kontroli nie spełnia tego celu, a reklama na bramie nie stanowi zabezpieczenia. Chodzi o ograniczenie kradzieży i ingerencji w ładunek. Podstawa: ADR 1.10.1.3.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0416",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.1.4",
+      "stem": "W trakcie przewozu ADR kierowca ma dowód ze zdjęciem, ale drugi członek załogi ma wyłącznie identyfikator bez fotografii. Co jest wymagane?",
+      "options": {
+        "A": "Każdy członek załogi objęty wymogiem musi mieć dokument tożsamości ze zdjęciem",
+        "B": "Wystarczy dokument ze zdjęciem kierowcy, który prowadzi pojazd podczas przewozu",
+        "C": "Można zastąpić dokument ze zdjęciem ustnym podaniem danych osobowych przez członka załogi"
+      },
+      "correct_option": "A",
+      "explanation": "Każdy członek załogi objęty wymaganiem powinien mieć podczas przewozu dokument tożsamości ze zdjęciem. Dokument kierowcy nie zastępuje dokumentu drugiej osoby, a ustne podanie imienia nie pozwala wiarygodnie potwierdzić tożsamości. Wymóg wspiera ochronę przewozu towarów niebezpiecznych. Podstawa: ADR 1.10.1.4.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 1.10.1–1.10.3: ochrona obejmuje kontrolę uprawnienia, ograniczenie dostępu i informacji, określenie odpowiedzialnych osób, ocenę ryzyka, procedury reagowania oraz szkolenia i ich dokumentację.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    },
+    {
+      "id": "ADR-B-0417",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 8.1.4.1",
+      "stem": "Jednostka transportowa ADR o DMC dokładnie 3,5 t jest objęta pełnym reżimem 8.1.4.1. Ile gaśnic minimalnie wymaga tabela?",
+      "options": {
+        "A": "Jedna gaśnica 6 kg wystarcza ze względu na masę proszku",
+        "B": "Wymagane są trzy gaśnice o łącznej pojemności co najmniej 12 kg, jak dla jednostek o DMC powyżej 7,5 t",
+        "C": "Wymagane są co najmniej dwie gaśnice o łącznej pojemności minimum 4 kg"
+      },
+      "correct_option": "C",
+      "explanation": "Dla jednostki o DMC dokładnie 3,5 t w warunkach pytania tabela wymaga co najmniej dwóch gaśnic o łącznej pojemności minimum 4 kg. Jedna gaśnica 6 kg nie spełnia minimalnej liczby, a zestaw 12 kg dotyczy wyższego przedziału masy. Liczbę gaśnic i ich łączną pojemność trzeba sprawdzić osobno, bo są to dwa wymagania, które muszą być spełnione jednocześnie. Podstawa: ADR 8.1.4.1.",
+      "result": "zgodne_w_zakresie_sprawdzonego_punktu",
+      "note": "Porównano z ADR 8.1.4.1: dla jednostki o DMC nieprzekraczającej 3,5 t w warunkach pytania wymagane są co najmniej dwie gaśnice o łącznej pojemności minimum 4 kg; liczba i łączna pojemność to osobne warunki.",
+      "verification_status": "needs_review",
+      "specialist_review": "pending"
+    }
+  ]
+}
