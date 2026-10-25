@@ -36,6 +36,14 @@ W odpowiednich przypadkach dokumentacja obejmuje certyfikat pakowania kontenera/
 
 ### Historyczne i szczególne wyjątki
 Niektóre przepisy ADR zawierają warunki przejściowe lub szczególne dla określonych cystern przenośnych IMO oraz butli DOT. Data budowy lub zagraniczne zatwierdzenie samo w sobie nie daje bezwarunkowego prawa przewozu. Sprawdź dokładny zakres wyjątku, towar, wymagania techniczne, stan badań i wymagany wpis w dokumencie. Jeśli nie potwierdzono wszystkich warunków, nie zakładaj, że wyjątek ma zastosowanie.
+## 5. Inne gałęzie transportu i szczególne przypadki
+
+ADR 1.1.4.5 opisuje określone sytuacje, w których przewóz drogowy jest częścią łańcucha obejmującego kolej lub żeglugę śródlądową. Nie oznacza to, że kierowca sam wybiera dogodny zestaw przepisów: trzeba sprawdzić, czy dana umowa i jej zakres obejmują odcinek drogowy oraz które wymagania ADR pozostają w mocy. Jeżeli wymagania różnych regulacji są sprzeczne, stosuje się regułę z właściwego punktu ADR, a nie dowolną decyzję kierowcy.
+
+ADR 1.1.4.3 przewiduje warunkowe zasady dla niektórych cystern przenośnych IMO zatwierdzonych przed 1 stycznia 2003 r. Sama data budowy nie wystarcza: trzeba sprawdzić stan badań i kontroli, wymagania właściwe dla towaru oraz warunki tego przepisu. Nie rozszerzaj wyjątku automatycznie na nowsze cysterny.
+
+ADR 1.1.4.7 dotyczy określonych butli DOT dopuszczonych według amerykańskich przepisów. Dla wskazanych przypadków importu (1.1.4.7.1) lub eksportu (1.1.4.7.2) obowiązują szczególne warunki, w tym wymagania dotyczące napełniania, badań okresowych, oznakowania i dodatkowej wzmianki w dokumencie przewozowym zgodnie z 5.4.1.1.24. Po upływie terminu badania nie wolno napełniać butli; przewóz do badania może być dopuszczony wyłącznie na warunkach przepisu. Nie traktuj tego jako ogólnego zwolnienia wszystkich butli DOT z ADR.
+
 ## Typowe błędy kursantów
 - utożsamianie ADR, RID i IMDG;
 - zakładanie, że dokument morski wystarcza na odcinku drogowym;
