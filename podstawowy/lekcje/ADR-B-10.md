@@ -7,14 +7,14 @@
 Kontener może przebyć część trasy statkiem lub koleją, a następnie jechać drogą. Dokumenty i oznakowanie z wcześniejszego odcinka nie zwalniają automatycznie z wymagań obowiązujących na odcinku drogowym. Przed wyjazdem ustal, które przepisy mają zastosowanie i czy wszystkie wymagane informacje są dostępne.
 
 ## Czego się nauczysz
-- odróżniać ADR, RID i IMDG jako przepisy dla różnych gałęzi transportu;
+- odróżniać ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)), RID (RID dotyczy przewozu koleją, a IMDG przewozu morskiego; na drodze nadal sprawdzasz wymagania ADR; [słowniczek](../SLOWNICZEK.md#rid-imdg)) i IMDG jako przepisy dla różnych gałęzi transportu;
 - sprawdzać dokumenty po odcinku morskim;
 - rozumieć, kiedy może być wymagany dodatkowy wpis w dokumencie ADR;
 - sprawdzać certyfikat pakowania kontenera lub pojazdu, gdy jest wymagany;
 - wyjaśniać braki przed rozpoczęciem odcinka drogowego.
 
 ## 1. Trzy nazwy, trzy gałęzie transportu
-ADR dotyczy drogowego przewozu towarów niebezpiecznych, RID — przewozu koleją, a IMDG — przewozu morskiego. W transporcie kombinowanym jeden ładunek może podlegać różnym wymaganiom na kolejnych odcinkach. Nie zakładaj, że dokument przygotowany dla jednego środka transportu zawsze wystarcza dla następnego.
+ADR opisuje przewóz drogowy, RID — kolejowy, a IMDG — morski. Gdy kontener zmienia środek transportu, sprawdź dokumenty i warunki dla odcinka drogowego; dokument morski sam w sobie nie zwalnia z ADR (ADR 1.1.4.2). W transporcie kombinowanym jeden ładunek może podlegać różnym wymaganiom na kolejnych odcinkach. Nie zakładaj, że dokument przygotowany dla jednego środka transportu zawsze wystarcza dla następnego.
 
 
 ### Odcinek drogowy i niedrogowy
