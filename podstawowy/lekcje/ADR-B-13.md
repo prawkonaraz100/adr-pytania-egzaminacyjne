@@ -14,7 +14,7 @@ Dokumenty i instrukcje pozwalają sprawdzić, co jest przewożone, na jakich war
 - sprawdzać warunki przewozu drogowego po odcinku morskim.
 
 ## 1. Dokument przewozowy — co sprawdzić
-Sprawdź, czy dokument zawiera wymagane dane dla konkretnego przewozu, w tym numer UN, właściwą nazwę przewozową, klasę i pozostałe wymagane informacje. Zestaw pól zależy od towaru, dlatego porównaj dokument z ADR 5.4.1.1.1 zamiast zakładać, że jedna lista pasuje do każdego ładunku.
+Sprawdź, czy dokument zawiera wymagane dane dla konkretnego przewozu, w tym numer UN ([słowniczek](../SLOWNICZEK.md#numer-un)), właściwą nazwę przewozową, klasę i pozostałe wymagane informacje. Zestaw pól zależy od towaru, dlatego porównaj dokument z ADR 5.4.1.1.1 zamiast zakładać, że jedna lista pasuje do każdego ładunku.
 
 Nie dopisuj danych na podstawie przypuszczeń. Jeśli brakuje wymaganej informacji i nie ma zastosowania odpowiedni wyjątek, poproś odpowiedzialnego uczestnika o poprawienie dokumentu przed wyjazdem.
 
