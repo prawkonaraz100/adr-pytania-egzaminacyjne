@@ -50,6 +50,7 @@
 - [Etap 4x3 — raport końcowy i kontrola egzaminów próbnych](raporty/etap-4x3-podsumowanie-koncowe-2026-10-25.md)
 - [Etap 4x4 — spójność i język kursanta B-01–B-04](raporty/etap-4x4-spojnosc-jezyka-01-04-2026-10-25.md)
 - [Etap 4x4 — spójność i język kursanta B-05–B-08](raporty/etap-4x4-spojnosc-jezyka-05-08-2026-10-25.md)
+- [Etap 4x4 — spójność i język kursanta B-09–B-12](raporty/etap-4x4-spojnosc-jezyka-09-12-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 13](raporty/etap-4x2-redakcja-lekcji-13-2026-10-25.md)
 - Materiały dla instruktora: [B-13](instruktor/ADR-B-13.md).
 - Materiały dla instruktora: [B-09](instruktor/ADR-B-09.md), [B-10](instruktor/ADR-B-10.md), [B-11](instruktor/ADR-B-11.md), [B-12](instruktor/ADR-B-12.md).
@@ -74,7 +75,7 @@ python scripts/check_explanation_quality.py --minimum 300
 python -m unittest discover -s tests -v
 ```
 
-Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **85/609 = 13,96%**, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
+Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 85/609 = 13,96%, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
 
 ## Status weryfikacji
 

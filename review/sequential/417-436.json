@@ -719,12 +719,12 @@
       "exact_record_snapshot": {
         "stem": "Jaki element dokumentacji pomaga ustalić kod ograniczenia tunelowego dla towaru ADR?",
         "options": {
-          "A": "Numer dowodu osobistego pasażera pozwala określić kod tunelowy towaru",
-          "B": "Kod pocztowy odbiorcy jest wystarczający do ustalenia ograniczeń tunelowych",
+          "A": "W kolumnie 18, gdzie opisuje się szczególne wymagania dotyczące przewozu i załadunku towaru",
+          "B": "W kolumnie 12, gdzie podaje się dane o typie cysterny oraz wymaganiach dotyczących jej użycia",
           "C": "Kod znajduje się w kolumnie 15 tabeli A przy odpowiednim numerze UN"
         },
         "correct_option": "C",
-        "explanation": "Kod ograniczenia tunelowego należy odczytać z kolumny 15 tabeli A dla właściwego numeru UN. Dane przewozowe pomagają powiązać kod z faktycznie przewożonym towarem, a nie z osobą kierowcy czy adresem odbiorcy. Na tej podstawie planuje się trasę z uwzględnieniem zakazów tunelowych. Podstawa: ADR 3.2, tabela A, kolumna 15 oraz 8.6.3.1.",
+        "explanation": "Kod ograniczeń tunelowych znajduje się w kolumnie 15 tabeli A przy właściwej pozycji UN. Kolumna 18 zawiera przepisy szczególne dotyczące przewozu, a kolumna 12 dotyczy informacji o cysternach; żadna z nich nie zastępuje kodu tunelowego. Po odczytaniu kodu porównaj go z kategorią tunelu i postacią przewozu. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",

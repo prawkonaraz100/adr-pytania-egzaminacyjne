@@ -469,15 +469,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Kierowca autobusu”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+          "rationale": "Niepoprawna: przewoźnik drogowy nie zastępuje osoby odpowiedzialnej za pakowanie w potwierdzeniu czynności pakowania. Podstawa: ADR 5.4.2."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Obowiązek spoczywa na osobach odpowiedzialnych za pakowanie kontenera. Pozostaje kontrola polskiego tekstu."
+          "rationale": "Poprawna: certyfikat pakowania przekazują osoby odpowiedzialne za zapakowanie kontenera/pojazdu. Podstawa: ADR 5.4.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Dowolny pracownik ochrony portu”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 5.4.2; nie jest właściwy w tym scenariuszu."
+          "rationale": "Niepoprawna: odbiorca nie zastępuje automatycznie osób odpowiedzialnych za pakowanie i nie może potwierdzić czynności, których nie wykonał. Podstawa: ADR 5.4.2."
         }
       },
       "observed_answer_key": "B",
@@ -490,12 +490,12 @@
         "module_id": "ADR-B-10",
         "stem": "Kto według ADR 5.4.2 ma przekazać przewoźnikowi morskiemu świadectwo pakowania kontenera?",
         "options": {
-          "A": "Kierowca autobusu wyznaczony przez firmę do odbioru dokumentów",
+          "A": "Przewoźnik drogowy, nawet jeśli nie odpowiadał za pakowanie kontenera",
           "B": "Osoby odpowiedzialne za pakowanie kontenera",
-          "C": "Pracownik ochrony portu, który nie uczestniczył w pakowaniu kontenera"
+          "C": "Odbiorca, który podpisuje odbiór i dopiero potem zleca przygotowanie dokumentu"
         },
         "correct_option": "B",
-        "explanation": "Świadectwo pakowania kontenera przekazują przewoźnikowi morskiemu osoby odpowiedzialne za pakowanie. Nie jest to zadanie przypadkowego pracownika ochrony ani kierowcy autobusu. Osoba odpowiedzialna musi potwierdzić informacje zgodnie z wymaganiami dotyczącymi przygotowania kontenera do transportu. Podstawa: ADR 5.4.2.",
+        "explanation": "Certyfikat pakowania potwierdza prawidłowe rozmieszczenie i zabezpieczenie ładunku w kontenerze lub pojeździe do przewozu morskiego. Dostarczają go osoby odpowiedzialne za pakowanie, ponieważ to one mogą potwierdzić wykonane czynności. Przewoźnik drogowy ani odbiorca nie zastępują automatycznie osoby pakującej. Podstawa: ADR 5.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
