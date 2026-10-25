@@ -44,6 +44,12 @@ Najpierw sprawdź, czy możesz podejść bez narażenia siebie i poszkodowanego 
 - wożenie gaśnicy niezamocowanej lub zasłoniętej ładunkiem;
 - uznawanie, że test online potwierdza wykonanie ćwiczeń praktycznych.
 
+Najczęstsze pułapki wynikające z pytań tego działu:
+- Ograniczenie się do podania samej lokalizacji podczas alarmowania — jeśli są dostępne, przekaż też informacje o zdarzeniu i przewożonym towarze; nie narażaj się, by je zdobyć (ADR 5.4.3.4).
+- Próba dotykania lub rozpoznawania wycieku zapachem — może spowodować zatrucie albo oparzenie; oddal się i stosuj instrukcje pisemne (ADR 5.4.3.4).
+- Założenie, że każdą awarię trzeba samodzielnie ugasić — działania podejmuj tylko w granicach instrukcji, przeszkolenia i bezpiecznych warunków (ADR 5.4.3.4).
+- Pomijanie informacji o ładunku, które są już dostępne w dokumentach — dokumenty i instrukcje pomagają służbom rozpoznać zagrożenie (ADR 5.4.3.4).
+
 ## Scenariusze praktyczne
 1. **Gaśnica zasłonięta ładunkiem.** Przed wyjazdem kierowca zauważa, że nie może szybko wyjąć wymaganej gaśnicy. Nie rusza, dopóki sprzęt nie będzie sprawny, prawidłowo zamocowany i dostępny.
 2. **Awaria i nieznana przyczyna.** Kierowca zatrzymał pojazd w bezpiecznym miejscu, ale nie zna składu uwolnionej substancji. Wzywa pomoc, podaje lokalizację, opis zdarzenia i sprawdzone dane; nie zgaduje po zapachu.
@@ -145,16 +151,4 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 
 
 
-## Najczęstsze błędy kursantów
 
-Te pomyłki pojawiają się w typowych odpowiedziach błędnych w banku. Zanim wybierzesz odpowiedź, sprawdź, który warunek przepisu rozstrzyga daną sytuację.
-
-- Ograniczenie się do podania samej lokalizacji podczas alarmowania — jeśli są dostępne, przekaż też informacje o zdarzeniu i przewożonym towarze; nie narażaj się, by je zdobyć (ADR 5.4.3.4).
-- Próba dotykania lub rozpoznawania wycieku zapachem — może spowodować zatrucie albo oparzenie; oddal się i stosuj instrukcje pisemne (ADR 5.4.3.4).
-- Założenie, że każdą awarię trzeba samodzielnie ugasić — działania podejmuj tylko w granicach instrukcji, przeszkolenia i bezpiecznych warunków (ADR 5.4.3.4).
-- Pomijanie informacji o ładunku, które są już dostępne w dokumentach — dokumenty i instrukcje pomagają służbom rozpoznać zagrożenie (ADR 5.4.3.4).
-
-Niejasne pojęcia wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
-
-## Słowniczek
-Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
