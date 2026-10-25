@@ -274,3 +274,21 @@ Każdy nowy rekord zawiera opis sytuacji, kroki kierowcy, typowe błędy wraz z 
 | `SC-ADR-B-08-03` | ADR-B-08 | Wyposażenie osobiste dla całej załogi | ADR-B-0022, ADR-B-0023, ADR-B-0024, ADR-B-0418 |
 
 Każdy scenariusz zawiera sytuację, kroki kierowcy, błędy z wyjaśnieniem, podstawę ADR, pytania, kryteria oceny i granice bezpieczeństwa. Ćwiczenia są symulacjami, nie potwierdzają odbycia zajęć praktycznych.
+
+
+## Etap 4x5 — dodatkowe scenariusze B-09–B-13
+
+| ID scenariusza | Dział | Sytuacja | Pytania do powtórki |
+|---|---|---|---|
+| `SC-ADR-B-09-02` | ADR-B-09 | Oględziny przed załadunkiem | ADR-B-0025, ADR-B-0026, ADR-B-0027, ADR-B-0518 |
+| `SC-ADR-B-09-03` | ADR-B-09 | Mocowanie przed dłuższą trasą | ADR-B-0025, ADR-B-0026, ADR-B-0027, ADR-B-0554, ADR-B-0558 |
+| `SC-ADR-B-10-02` | ADR-B-10 | Dokumenty po rejsie morskim | ADR-B-0028, ADR-B-0029, ADR-B-0030, ADR-B-0396, ADR-B-0511 |
+| `SC-ADR-B-10-03` | ADR-B-10 | Niezgodność certyfikatu pakowania | ADR-B-0028, ADR-B-0029, ADR-B-0030 |
+| `SC-ADR-B-11-02` | ADR-B-11 | Objazd tunelu z ograniczeniem | ADR-B-0031, ADR-B-0032, ADR-B-0033, ADR-B-0487, ADR-B-0539, ADR-B-0540 |
+| `SC-ADR-B-11-03` | ADR-B-11 | Różne kody tunelowe w jednym ładunku | ADR-B-0031, ADR-B-0032, ADR-B-0033, ADR-B-0574 |
+| `SC-ADR-B-12-02` | ADR-B-12 | Zmiana planowanego postoju | ADR-B-0034, ADR-B-0035, ADR-B-0036, ADR-B-0304, ADR-B-0519 |
+| `SC-ADR-B-12-03` | ADR-B-12 | Niepewne uprawnienie odbiorcy | ADR-B-0034, ADR-B-0035, ADR-B-0036, ADR-B-0582 |
+| `SC-ADR-B-13-02` | ADR-B-13 | Brak danych w dokumencie przewozowym | ADR-B-0037, ADR-B-0038, ADR-B-0039, ADR-B-0508, ADR-B-0525, ADR-B-0530 |
+| `SC-ADR-B-13-03` | ADR-B-13 | Instrukcje pisemne w nieznanym języku | ADR-B-0037, ADR-B-0038, ADR-B-0039, ADR-B-0577, ADR-B-0578, ADR-B-0579 |
+
+Każdy scenariusz zawiera sytuację, kroki kierowcy, błędy z wyjaśnieniem, podstawę ADR, pytania, kryteria oceny i granice bezpieczeństwa. Ćwiczenia są symulacjami, nie potwierdzają odbycia zajęć praktycznych.
