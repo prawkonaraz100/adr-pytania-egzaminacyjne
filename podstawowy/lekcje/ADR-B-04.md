@@ -40,6 +40,12 @@ Niezależnie od nadzoru użyj hamulca postojowego zgodnie z ADR 8.3.7. Przyczep�
 - uznawanie, że ADR 8.4 dotyczy wszystkich przewozów ADR albo że każdy parking jest dopuszczalny;
 - traktowanie polecenia dyspozytora jako wyjątku od przepisu.
 
+Najczęstsze pułapki wynikające z pytań tego działu:
+- Uznawanie, że e-papieros nie może być źródłem zagrożenia — zakaz podczas czynności ładunkowych obejmuje również takie urządzenia (ADR 8.3.5).
+- Otwieranie przesyłki, bo pojazd stoi na parkingu lub ktoś telefonicznie wyraził zgodę — postój nie uchyla zasad bezpieczeństwa; nie otwieraj samowolnie sztuk przesyłek (ADR 8.3.3).
+- Pozostawianie silnika włączonego bez potrzeby podczas załadunku — wyłącz go, chyba że jest potrzebny do urządzeń i zachodzi przewidziany przepisem wyjątek (ADR 8.3.6).
+- Zakładanie, że nadzór pojazdu dotyczy wszystkich towarów jednakowo — sprawdź przepis S w kolumnie 19 tabeli A i warunki dotyczące ilości (ADR 8.4.1 i tabela A, kolumna 19).
+
 ## Scenariusze praktyczne
 1. **E-papieros przy załadunku.** Pracownik chce użyć e-papierosa obok pojazdu. Kierowca wskazuje zakaz palenia i podobnych urządzeń podczas czynności manipulacyjnych; nie traktuje e-papierosa jako wyjątku.
 2. **Silnik i urządzenia przeładunkowe.** Operator chce zostawić silnik włączony „na wszelki wypadek”. Kierowca sprawdza, czy zachodzi konkretny wyjątek dotyczący napędzania urządzeń przeładunkowych. Wygoda nie jest podstawą do pozostawienia silnika włączonego.
@@ -144,16 +150,4 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 
 
 
-## Najczęstsze błędy kursantów
 
-Poniższe pomyłki wynikają z typowych nieporozumień widocznych w pytaniach tego działu. Przy każdej odpowiedzi sprawdź warunek, który rozstrzyga sytuację, zamiast zapamiętywać samą literę.
-
-- Uznawanie, że e-papieros nie może być źródłem zagrożenia — zakaz podczas czynności ładunkowych obejmuje również takie urządzenia (ADR 8.3.5).
-- Otwieranie przesyłki, bo pojazd stoi na parkingu lub ktoś telefonicznie wyraził zgodę — postój nie uchyla zasad bezpieczeństwa; nie otwieraj samowolnie sztuk przesyłek (ADR 8.3.3).
-- Pozostawianie silnika włączonego bez potrzeby podczas załadunku — wyłącz go, chyba że jest potrzebny do urządzeń i zachodzi przewidziany przepisem wyjątek (ADR 8.3.6).
-- Zakładanie, że nadzór pojazdu dotyczy wszystkich towarów jednakowo — sprawdź przepis S w kolumnie 19 tabeli A i warunki dotyczące ilości (ADR 8.4.1 i tabela A, kolumna 19).
-
-W razie niejasnych pojęć skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md).
-
-## Słowniczek
-Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
