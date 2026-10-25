@@ -167,3 +167,18 @@ Nadawca przekazał dokumenty, ale podczas kontroli zauważasz uszkodzone opakowa
 - Zauważona niezgodność wymaga reakcji w granicach własnych obowiązków; zapewnienie innej osoby nie zastępuje sprawdzenia.
 - Odpowiedzialność cywilna nie oznacza automatycznej winy kierowcy przy każdym zdarzeniu — trzeba ustalić podstawę prawną i fakty.
 - Powtórz pytania ADR-B-0567–0569; podstawy ogólne: ADR 8.2.2.3.2(k), Kodeks cywilny art. 415 i 471. Zastosowanie w konkretnym przewozie wymaga fachowej oceny.
+
+## Sprawdź się
+
+Po przeczytaniu lekcji odpowiedz na pytania z [banku pytań](../questions.jsonl). Najpierw spróbuj samodzielnie, potem przeczytaj wyjaśnienie poprawnej i obu błędnych odpowiedzi. Klucze mają status `needs_review` i wymagają akceptacji specjalisty.
+
+- `ADR-B-0020`
+- `ADR-B-0517`
+- `ADR-B-0567`
+- `ADR-B-0568`
+- `ADR-B-0569`
+- `ADR-B-0019`
+- `ADR-B-0021`
+- `ADR-B-0054`
+
+**Scenariusz z pracy kierowcy:** [SC-ADR-B-07 — ADR-B-07](../praktyka/scenariusze-13-dzialow.json) (odszukaj scenariusz o ID `SC-ADR-B-07`; jest to symulacja, nie zaliczenie zajęć praktycznych).
