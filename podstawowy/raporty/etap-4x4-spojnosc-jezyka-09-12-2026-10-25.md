@@ -8,7 +8,7 @@
 ## Wynik ilościowy
 
 - Bank: 609 pytań; duplikaty ID: 0.
-- Poprawna odpowiedź jest jedyną najdłuższą: 87/609 = 14.29% (limit 18%).
+- Poprawna odpowiedź jest jedyną najdłuższą: 85/609 = 13.96% (limit 18%).
 - Explanation w całym banku: 300–457 znaków; poniżej 200: 0; powyżej 500: 0; poza zakresem 2–5 zdań: 0.
 - Statusy: 609 `needs_review`, 0 `verified`.
 - Brak zmian ID, `module_id` i kluczy odpowiedzi. Egzaminy próbne 001–002 zsynchronizowano z nową treścią pytań i explanation; nie zmieniano zestawów ID.
@@ -23,7 +23,7 @@
 6. **Dystraktory — ADR-B-0434.** Zastąpiono niepasujące identyfikatory pasażera i kod pocztowy błędnym wskazaniem kolumn 18 i 12 tabeli A, co lepiej sprawdza rozumienie struktury tabeli.
 7. **Dystraktory — ADR-B-0212.** Zastąpiono ogólnik o „jednym kierowcy” niepełnym planem ograniczonym do plomb i zabezpieczenia pojazdu. Explanation wskazuje, których elementów planu nadal brakuje.
 
-Po edycji zsynchronizowano snapshoty w `review/sequential` i `review/legal-clauses` dla ADR-B-0212, 0391 i 0434, bez zmiany statusu recenzji. Zsynchronizowano też treść pytań i klucze wariantów próbnych 001–002. Nie stwierdzono potwierdzonego błędu wymagającego zmiany klucza ani przypisania działu.
+Po pierwszym uruchomieniu CI kontrola per-moduł wykryła wskaźnik „poprawna = najdłuższa” 8/43 w B-11 i 8/44 w B-12. Po wydłużeniu wiarygodnych dystraktorów wynik wynosi odpowiednio 7/43 = 16,28% i 7/44 = 15,91%; oba działy mieszczą się poniżej limitu 18%. Po edycji zsynchronizowano snapshoty w `review/sequential` i `review/legal-clauses` dla ADR-B-0212, 0391 i 0434, bez zmiany statusu recenzji. Zsynchronizowano też treść pytań i klucze wariantów próbnych 001–002. Nie stwierdzono potwierdzonego błędu wymagającego zmiany klucza ani przypisania działu.
 
 ## Pełna lista sprawdzonych pytań
 
