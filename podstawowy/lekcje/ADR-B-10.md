@@ -159,5 +159,16 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 
+
+## Najczęstsze błędy kursantów
+
+W banku pojawiają się następujące typowe pomyłki. W realnej pracy nie zgaduj — sprawdź warunek ADR właściwy dla towaru i sposobu przewozu.
+
+- Uznawanie, że dokument dla transportu morskiego zawsze wystarcza na drodze — sprawdź warunki ADR 1.1.4.2 i wymagane dodatkowe wpisy (ADR 1.1.4.2 i 5.4.1).
+- Sprawdzanie wyłącznie numeru UN bez pozostałych danych — dokument musi spełniać wymagania właściwe dla konkretnego przewozu (ADR 5.4.1).
+- Traktowanie podpisanej faktury, logo armatora lub telefonu odbiorcy jako zamiennika dokumentacji ADR — sprawdź treść i warunki wyjątku, nie wygląd dokumentu (ADR 1.1.4.2).
+
+Niejasne terminy wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
+
 ## Słowniczek
 Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
