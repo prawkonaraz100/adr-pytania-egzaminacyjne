@@ -56,6 +56,7 @@ Format treningowy: 30 pytań, 60 minut, próg 20/30 (2/3). Każdy wariant obejmu
 ## Raporty i materiały
 
 - [Raport etapu 4q — przegląd oczami kursanta](raporty/etap-4q-przeglad-kursanta-2026-10-24.md)
+- [Etap 4x10 — egzaminy próbne i język kursanta](raporty/etap-4x10-egzaminy-jezyk-kursanta-2026-10-25.md)
 - [Etap 4x1 — odbiór dydaktyczny lekcji 01–04](raporty/etap-4x1-lekcje-01-04-2026-10-25.md)
 - [Etap 4x1 — odbiór dydaktyczny lekcji 05–08](raporty/etap-4x1-lekcje-05-08-2026-10-25.md)
 - [Etap 4x1 — odbiór dydaktyczny lekcji 09–13](raporty/etap-4x1-lekcje-09-13-2026-10-25.md)
