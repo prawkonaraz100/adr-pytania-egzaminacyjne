@@ -317,6 +317,312 @@
         "Kursant rozdziela dokument przewozowy od instrukcji pisemnych i sprawdza warunki zastosowania przepisów dla transportu kombinowanego."
       ],
       "safety_boundary": "Użyj fikcyjnego dokumentu przewozowego; nie kopiuj danych rzeczywistych klientów."
+    },
+    {
+      "id": "SC-ADR-B-01-02",
+      "module_id": "ADR-B-01",
+      "title": "Przed wyjazdem: ustalenie, czy można skorzystać ze zwolnienia",
+      "situation": "Kierowca odbiera niewielką przesyłkę. Nadawca twierdzi, że skoro opakowanie jest małe, nie trzeba sprawdzać wymagań ADR. Dokument zawiera numer UN, ale brakuje informacji o ilości i rodzaju opakowania.",
+      "steps": [
+        "Nie przyjmuj automatycznie, że mała przesyłka oznacza zwolnienie; ustal wszystkie dane towaru i sposób przewozu.",
+        "Odczytaj numer UN i właściwy wpis w tabeli A; sprawdź, czy przewóz jest dopuszczony i jakie warunki mają zastosowanie.",
+        "Jeśli rozważasz 1.1.3.6, policz ilości według kategorii transportowej i właściwego współczynnika, a nie według samej liczby paczek.",
+        "Poproś o potwierdzenie brakujących danych przed wyjazdem. Nie zgaduj i nie traktuj oznakowania LQ/EQ jako zamiennika pozostałych wymagań."
+      ],
+      "common_errors": [
+        {
+          "error": "Uznać, że mała paczka zawsze jest zwolniona.",
+          "why": "Zwolnienia zależą od rodzaju towaru i konkretnych warunków, a nie od samego rozmiaru paczki."
+        },
+        {
+          "error": "Obliczać wyłączenie tylko na podstawie masy całego ładunku.",
+          "why": "Dla 1.1.3.6 trzeba znać właściwą kategorię i zastosować regułę obliczenia."
+        }
+      ],
+      "adr_basis": [
+        "ADR 1.1.3.1",
+        "ADR 1.1.3.6",
+        "ADR 3.2 tabela A",
+        "ADR 3.4",
+        "ADR 3.5"
+      ],
+      "question_ids": [
+        "ADR-B-0001",
+        "ADR-B-0002",
+        "ADR-B-0003",
+        "ADR-B-0259",
+        "ADR-B-0570"
+      ],
+      "assessment_criteria": [
+        "Kursant wymienia dane potrzebne do oceny zwolnienia.",
+        "Kursant odróżnia LQ/EQ od wyłączenia 1.1.3.6.",
+        "Kursant wstrzymuje wyjazd, jeśli brakuje danych koniecznych do sprawdzenia wymagań."
+      ],
+      "safety_boundary": "Symulacja na fikcyjnych dokumentach; bez prawdziwych towarów niebezpiecznych."
+    },
+    {
+      "id": "SC-ADR-B-01-03",
+      "module_id": "ADR-B-01",
+      "title": "Kontrola dokumentów: polecenie nie uchyla zakazu",
+      "situation": "Dyspozytor prosi kierowcę, by zabrał towar, mimo że w dokumentach nie ma pewności co do właściwej pozycji i warunków przewozu. Kierowca słyszy, że dokument można uzupełnić później.",
+      "steps": [
+        "Porównaj dane w dokumentach z etykietą i właściwym wpisem ADR.",
+        "Ustal, czy przewóz danej substancji jest dopuszczony w planowanej postaci i ilości.",
+        "Nie ruszaj z niepełnymi danymi, które uniemożliwiają sprawdzenie zgodności; poproś odpowiedzialnego uczestnika o wyjaśnienie.",
+        "Zapisz, jaka informacja wymaga potwierdzenia. Nie wpisuj danych na podstawie przypuszczeń."
+      ],
+      "common_errors": [
+        {
+          "error": "Uznać ustne polecenie dyspozytora za zgodę na przewóz.",
+          "why": "Polecenie organizacyjne nie zmienia wymagań ani zakazów ADR."
+        },
+        {
+          "error": "Wpisać najbardziej prawdopodobną nazwę towaru.",
+          "why": "Błędne dane mogą prowadzić do złego oznakowania i niewłaściwej reakcji podczas zdarzenia."
+        }
+      ],
+      "adr_basis": [
+        "ADR 1.1.2.3",
+        "ADR 1.1.3",
+        "ADR 3.2 tabela A",
+        "ADR 5.4.1"
+      ],
+      "question_ids": [
+        "ADR-B-0001",
+        "ADR-B-0002",
+        "ADR-B-0003"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje, dlaczego brak danych trzeba wyjaśnić przed wyjazdem.",
+        "Kursant nie uznaje polecenia dyspozytora za odstępstwo od ADR."
+      ],
+      "safety_boundary": "Symulacja rozmowy i fikcyjnych dokumentów."
+    },
+    {
+      "id": "SC-ADR-B-02-02",
+      "module_id": "ADR-B-02",
+      "title": "Przy rozładunku: nieznana substancja na opakowaniu",
+      "situation": "Podczas rozładunku pracownik widzi mokrą plamę na opakowaniu i chce przetrzeć ją szmatką. Na opakowaniu widnieje nalepka ostrzegawcza, ale kierowca nie odczytał jeszcze numeru UN.",
+      "steps": [
+        "Zatrzymaj rozładunek tej sztuki i nie dotykaj plamy.",
+        "Odczytaj oznakowanie z bezpiecznej odległości; sprawdź numer UN, klasę i właściwy wpis ADR.",
+        "Ostrzeż osoby w pobliżu i zgłoś sytuację osobie odpowiedzialnej.",
+        "Jeżeli istnieje ryzyko uwolnienia substancji, postępuj według instrukcji pisemnych i wezwij pomoc; nie próbuj neutralizować jej domowymi środkami."
+      ],
+      "common_errors": [
+        {
+          "error": "Przetrzeć plamę, żeby sprawdzić jej kolor lub zapach.",
+          "why": "Kontakt może narazić kierowcę na substancję niebezpieczną, a zapach nie jest bezpieczną metodą identyfikacji."
+        },
+        {
+          "error": "Zakładać, że sama nalepka wystarcza do ustalenia wszystkich działań.",
+          "why": "Trzeba uwzględnić cały wpis i instrukcje właściwe dla konkretnego towaru."
+        }
+      ],
+      "adr_basis": [
+        "ADR 3.2 tabela A",
+        "ADR 5.2",
+        "ADR 5.4.3.4"
+      ],
+      "question_ids": [
+        "ADR-B-0004",
+        "ADR-B-0005",
+        "ADR-B-0006",
+        "ADR-B-0510"
+      ],
+      "assessment_criteria": [
+        "Kursant rozróżnia klasę zagrożenia od pełnej identyfikacji towaru.",
+        "Kursant zatrzymuje czynność i nie dotyka nieznanej substancji."
+      ],
+      "safety_boundary": "Ćwiczenie na zdjęciu opakowania lub karcie; bez rzeczywistych substancji."
+    },
+    {
+      "id": "SC-ADR-B-02-03",
+      "module_id": "ADR-B-02",
+      "title": "Sprawdzenie klasy i grupy pakowania przed przyjęciem",
+      "situation": "Na karcie przewozowej wpisano towar, a na opakowaniu jest inna nalepka niż na kopii dokumentu. Pracownik mówi, że liczy się tylko numer UN.",
+      "steps": [
+        "Porównaj numer UN, prawidłową nazwę przewozową, klasę i pozostałe dane wymagane dla wpisu.",
+        "Nie uznawaj jednej zgodnej informacji za dowód, że całe oznakowanie jest poprawne.",
+        "Wstrzymaj przyjęcie do czasu wyjaśnienia rozbieżności przez odpowiedzialnego uczestnika.",
+        "Zanotuj, które dane się nie zgadzają; nie poprawiaj dokumentu ani nalepki bez potwierdzenia właściwych informacji."
+      ],
+      "common_errors": [
+        {
+          "error": "Sprawdzać tylko numer UN.",
+          "why": "Pozostałe elementy wpisu i oznakowania również mogą być wymagane, a ich rozbieżność może wskazywać na błąd."
+        },
+        {
+          "error": "Wybrać nalepkę, która wygląda najbardziej podobnie.",
+          "why": "Oznakowanie wynika z właściwej klasyfikacji i nie powinno być dobierane na oko."
+        }
+      ],
+      "adr_basis": [
+        "ADR 2.1",
+        "ADR 3.2 tabela A",
+        "ADR 5.2"
+      ],
+      "question_ids": [
+        "ADR-B-0004",
+        "ADR-B-0005",
+        "ADR-B-0006"
+      ],
+      "assessment_criteria": [
+        "Kursant wskazuje co najmniej trzy elementy do porównania.",
+        "Kursant zgłasza rozbieżność zamiast zgadywać."
+      ],
+      "safety_boundary": "Symulacja z kartami i wydrukowanymi symbolami."
+    },
+    {
+      "id": "SC-ADR-B-03-02",
+      "module_id": "ADR-B-03",
+      "title": "Nieznany wyciek podczas postoju",
+      "situation": "Na parkingu kierowca zauważa ciecz wypływającą spod sąsiedniego pojazdu przewożącego towary niebezpieczne. Nie wie, jaki to materiał ani skąd dokładnie wypływa.",
+      "steps": [
+        "Nie zbliżaj się do cieczy i nie próbuj jej rozpoznawać po zapachu ani dotykiem.",
+        "Ostrzeż osoby w pobliżu z bezpiecznej odległości i nie pozwól im wejść w obszar zagrożenia.",
+        "Powiadom odpowiednie służby i podaj dokładną lokalizację oraz to, co rzeczywiście widzisz.",
+        "Nie spłukuj cieczy do kanalizacji i nie podejmuj działań wymagających specjalnego sprzętu."
+      ],
+      "common_errors": [
+        {
+          "error": "Podejść bliżej, aby odczytać nalepkę.",
+          "why": "Nie warto wchodzić w potencjalną strefę skażenia; dane można przekazać służbom z bezpiecznego miejsca."
+        },
+        {
+          "error": "Spłukać rozlew wodą.",
+          "why": "Może to rozprzestrzenić substancję i zanieczyścić kanalizację."
+        }
+      ],
+      "adr_basis": [
+        "ADR 5.4.3.4",
+        "ADR 5.4.3.5",
+        "ADR 7.5.8.1"
+      ],
+      "question_ids": [
+        "ADR-B-0007",
+        "ADR-B-0008",
+        "ADR-B-0009",
+        "ADR-B-0514"
+      ],
+      "assessment_criteria": [
+        "Kursant zachowuje bezpieczny dystans.",
+        "Kursant alarmuje i nie próbuje samodzielnie usuwać nieznanej substancji."
+      ],
+      "safety_boundary": "Symulacja na mapie parkingu i karcie sytuacji; bez rzeczywistego wycieku."
+    },
+    {
+      "id": "SC-ADR-B-03-03",
+      "module_id": "ADR-B-03",
+      "title": "Pozostałości po rozładunku przed kolejnym ładunkiem",
+      "situation": "Po rozładunku kierowca zauważa nieznane pozostałości na podłodze przestrzeni ładunkowej. Kolejny towar jest już gotowy do załadunku, a dyspozytor chce uniknąć opóźnienia.",
+      "steps": [
+        "Wstrzymaj kolejny załadunek, dopóki nie zostanie ocenione znaczenie pozostałości.",
+        "Nie dotykaj ani nie mieszaj pozostałości z innym materiałem.",
+        "Zgłoś problem i ustal bezpieczny sposób oczyszczenia zgodny z właściwymi wymaganiami.",
+        "Wróć do załadunku dopiero wtedy, gdy przestrzeń jest odpowiednia dla nowego towaru."
+      ],
+      "common_errors": [
+        {
+          "error": "Zignorować niewielką ilość pozostałości.",
+          "why": "Nawet mała ilość może zanieczyścić nowy ładunek lub wejść z nim w niebezpieczną reakcję."
+        },
+        {
+          "error": "Wyczyścić powierzchnię przypadkowym środkiem.",
+          "why": "Nieznana substancja może reagować ze środkiem czyszczącym; najpierw trzeba ustalić bezpieczną procedurę."
+        }
+      ],
+      "adr_basis": [
+        "ADR 7.5.8.1",
+        "ADR 7.5.1"
+      ],
+      "question_ids": [
+        "ADR-B-0007",
+        "ADR-B-0008",
+        "ADR-B-0009"
+      ],
+      "assessment_criteria": [
+        "Kursant nie rozpoczyna załadunku przed wyjaśnieniem pozostałości.",
+        "Kursant odwołuje się do obowiązku oczyszczenia, gdy zachodzą warunki przepisu."
+      ],
+      "safety_boundary": "Ćwiczenie na makiecie z fikcyjnymi pozostałościami."
+    },
+    {
+      "id": "SC-ADR-B-04-02",
+      "module_id": "ADR-B-04",
+      "title": "Załadunek: e-papieros i pracujący silnik",
+      "situation": "Podczas załadunku kierowca zauważa, że pracownik używa e-papierosa przy pojeździe, a silnik pozostaje włączony bez wyraźnej potrzeby.",
+      "steps": [
+        "Przerwij czynność, jeśli warunki naruszają wymagania bezpieczeństwa, i zgłoś sytuację osobie odpowiedzialnej.",
+        "Sprawdź właściwe zasady ADR dotyczące palenia i podobnych urządzeń w trakcie czynności ładunkowych.",
+        "Sprawdź odrębnie wymóg dotyczący silnika; nie zakładaj, że oba zakazy mają identyczne wyjątki.",
+        "Kontynuuj dopiero wtedy, gdy czynności odbywają się zgodnie z właściwymi wymaganiami."
+      ],
+      "common_errors": [
+        {
+          "error": "Uważać, że e-papieros nie podlega zasadom dotyczącym palenia.",
+          "why": "Urządzenia wytwarzające płomień lub podobne źródło zapłonu mogą być objęte ograniczeniem; trzeba sprawdzić właściwe brzmienie ADR."
+        },
+        {
+          "error": "Zakładać, że włączenie silnika jest zawsze zakazane albo zawsze dozwolone.",
+          "why": "Zasada zależy od sytuacji i przewidzianych wyjątków, więc wymaga odrębnego sprawdzenia."
+        }
+      ],
+      "adr_basis": [
+        "ADR 7.5.9",
+        "ADR 8.3.5"
+      ],
+      "question_ids": [
+        "ADR-B-0010",
+        "ADR-B-0011",
+        "ADR-B-0012",
+        "ADR-B-0580",
+        "ADR-B-0581"
+      ],
+      "assessment_criteria": [
+        "Kursant rozdziela wymagania dotyczące palenia od wymagań dotyczących silnika.",
+        "Kursant potrafi wskazać potrzebę sprawdzenia konkretnego punktu ADR."
+      ],
+      "safety_boundary": "Symulacja rozmowy; nie używać urządzeń ani pojazdu podczas demonstracji."
+    },
+    {
+      "id": "SC-ADR-B-04-03",
+      "module_id": "ADR-B-04",
+      "title": "Postój zaplanowany, ale miejsce nie spełnia wymagań",
+      "situation": "Kierowca zbliża się do planowanego postoju. Dopiero teraz zauważa, że miejsce może nie spełniać warunków nadzoru wymaganych dla danego ładunku.",
+      "steps": [
+        "Sprawdź w dokumentach i tabeli A, czy towar podlega wymaganiom ADR 8.4 lub odpowiednim przepisom szczególnym.",
+        "Nie wjeżdżaj na przypadkowy parking tylko dlatego, że jest najbliżej.",
+        "Skontaktuj się z dyspozytorem, ale decyzję oprzyj na rzeczywistych wymaganiach i wybierz zgodne miejsce.",
+        "Jeśli nie możesz potwierdzić zgodnego miejsca, zatrzymaj się w bezpiecznej lokalizacji i uzgodnij dalsze działanie."
+      ],
+      "common_errors": [
+        {
+          "error": "Uznać zgodę dyspozytora za zastępstwo wymaganej ochrony.",
+          "why": "Polecenie firmowe nie uchyla wymagań ADR dotyczących nadzoru i postoju."
+        },
+        {
+          "error": "Zakładać, że wszystkie parkingi są równoważne.",
+          "why": "Dla określonych towarów mogą obowiązywać szczególne warunki wyboru miejsca i nadzoru."
+        }
+      ],
+      "adr_basis": [
+        "ADR 8.4",
+        "ADR 8.5",
+        "ADR 3.2 tabela A"
+      ],
+      "question_ids": [
+        "ADR-B-0010",
+        "ADR-B-0011",
+        "ADR-B-0012",
+        "ADR-B-0310",
+        "ADR-B-0347"
+      ],
+      "assessment_criteria": [
+        "Kursant sprawdza, czy wymagania nadzoru mają zastosowanie.",
+        "Kursant uzasadnia wybór miejsca wymaganiami, nie samą wygodą."
+      ],
+      "safety_boundary": "Symulacja na mapie i fikcyjnej karcie przewozu."
     }
   ]
 }
