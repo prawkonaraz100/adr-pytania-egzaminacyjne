@@ -7,14 +7,14 @@
 Nalepki i dane przewozowe pomagają rozpoznać zagrożenie przed załadunkiem, podczas kontroli i po wypadku. Nie klasyfikuj towaru po kolorze cieczy, nazwie handlowej ani jednym symbolu. Jeśli opakowanie z nalepką 4.3 jest mokre, nie polewaj go wodą: materiały tej klasy mogą wydzielać palny gaz w kontakcie z wodą.
 
 ## Czego się nauczysz
-- odczytywać numer UN i podstawowe informacje z tabeli A;
+- odczytywać numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A; [słowniczek](../SLOWNICZEK.md#numer-un)) i podstawowe informacje z tabeli A;
 - rozróżniać klasy i podklasy zagrożeń;
-- odróżniać klasę, grupę pakowania i numer UN;
+- odróżniać klasę, grupę pakowania (oznaczenie stopnia zagrożenia, stosowane tylko dla towarów, dla których ADR je przewiduje; [słowniczek](../SLOWNICZEK.md#grupa-pakowania)) i numer UN;
 - rozumieć ograniczenia podstawowego rozpoznawania klas 1 i 7;
 - wyjaśniać, co zrobić, gdy nalepka i dokumenty nie pasują.
 
 ## 1. Jak rozpoznawać towar
-Klasyfikacja wynika z właściwości towaru i przepisów ADR. Tabela A w rozdziale 3.2 zawiera m.in. numer UN (kol. 1), nazwę i opis (kol. 2), klasę (kol. 3a), kod klasyfikacyjny (kol. 3b), grupę pakowania, jeśli występuje (kol. 4), nalepki (kol. 5) i dalsze warunki przewozu. Jeśli dane są niepełne lub sprzeczne z oznakowaniem, wyjaśnij rozbieżność przed przewozem.
+Klasyfikacja wynika z właściwości towaru i przepisów ADR. Tabela A w rozdziale 3.2 zawiera m.in. numer UN (kol. 1), nazwę i opis (kol. 2), klasę (kol. 3a), kod klasyfikacyjn (oznaczenie doprecyzowujące rodzaj zagrożenia w obrębie klasy; [słowniczek](../SLOWNICZEK.md#kod-klasyfikacyjny))y (kol. 3b), grupę pakowania, jeśli występuje (kol. 4), nalepki (kol. 5) i dalsze warunki przewozu. Jeśli dane są niepełne lub sprzeczne z oznakowaniem, wyjaśnij rozbieżność przed przewozem.
 
 ## 2. Klasy ADR
 | Klasa | Główne zagrożenie | Na co uważać |
@@ -41,7 +41,7 @@ W klasach, w których stosuje się grupy pakowania, I oznacza wysoki, II średni
 
 
 ### Grupa pakowania i kolumny tabeli A
-Tam, gdzie ADR stosuje grupy pakowania, I oznacza wysoki, II średni, a III niski stopień zagrożenia według kryteriów właściwych dla danej klasy. Nie wszystkie pozycje mają grupę pakowania. W tabeli A numer UN znajduje się w kolumnie 1, nazwa i opis w kolumnie 2, klasa w kolumnie 3a, grupa pakowania — jeśli dotyczy — w kolumnie 4, nalepki w kolumnie 5, limit LQ w kolumnie 7a, kod EQ w kolumnie 7b, kod tunelowy w kolumnie 15, a informacje o nadzorze/postoju mogą być wskazane w kolumnie 19. Sprawdź właściwy wpis, zamiast przenosić limit lub regułę z innego towaru.
+Tam, gdzie ADR stosuje grupy pakowania, I oznacza wysoki, II średni, a III niski stopień zagrożenia według kryteriów właściwych dla danej klasy. Nie wszystkie pozycje mają grupę pakowania. W tabeli A numer UN znajduje się w kolumnie 1, nazwa i opis w kolumnie 2, klasa w kolumnie 3a, grupa pakowania — jeśli dotyczy — w kolumnie 4, nalepki w kolumnie 5, limit LQ (ilości ograniczone – uproszczone zasady dla niektórych towarów w małych opakowaniach, po spełnieniu limitów; [słowniczek](../SLOWNICZEK.md#lq-ilosci-ograniczone)) w kolumnie 7a, kod EQ (ilości wyłączone – osobne zasady dla bardzo małych ilości, z własnymi limitami; [słowniczek](../SLOWNICZEK.md#eq-ilosci-wylaczone)) w kolumnie 7b, kod tunelowy (oznaczenie używane do sprawdzenia, czy dany ładunek może przejechać przez tunel danej kategorii; [słowniczek](../SLOWNICZEK.md#kod-ograniczenia-przejazdu-przez-tunele)) w kolumnie 15, a informacje o nadzorze/postoju mogą być wskazane w kolumnie 19. Sprawdź właściwy wpis, zamiast przenosić limit lub regułę z innego towaru.
 ## 4. Rozpoznawanie nalepek i przypadki szczególne
 Nalepkę czytaj jako całość: kolor, symbol, kształt i numer. Opisy ćwiczeniowe z tej lekcji obejmują:
 - wzór 4.1 — czerwone i białe pasy pionowe;
@@ -60,7 +60,7 @@ Opisy słowne nie zastępują sprawdzenia oficjalnego wzoru nalepki.
 **Klasy 1 i 7:** podstawowe rozpoznanie zagrożenia nie zastępuje specjalistycznych wymagań dla przewozu.
 
 
-### Nalepki zagrożenia dodatkowego i baterie sodowo-jonowe
+### Nalepki zagrożenia dodatkowe (drugie lub kolejne zagrożenie, które też trzeba uwzględnić przy oznakowaniu i postępowaniu; [słowniczek](../SLOWNICZEK.md#zagrozenie-dodatkowe))go i baterie sodowo-jonowe
 Jeśli tabela A wymaga nalepki zagrożenia głównego i dodatkowego, obie informacje mają znaczenie; jedna nalepka nie zastępuje drugiej. Nalepka 2.3 oznacza gaz trujący, 6.1 — materiał trujący, a 9A jest odrębnym wzorem stosowanym w określonych przewozach baterii.
 
 W ADR 2025 pozycje UN 3551 i UN 3552 dotyczą baterii sodowo-jonowych w różnych postaciach przewozu; sprawdź dokładną nazwę w tabeli A, a nie tylko to, że to „bateria”. Wymagania klasyfikacyjne dla baterii obejmują warunki dotyczące badań typu oraz konstrukcji ogniw/baterii, w tym ochronę przed zwarciem zewnętrznym i niebezpiecznym prądem wstecznym, gdy te warunki mają zastosowanie. Samo badanie pojedynczych ogniw nie zawsze potwierdza spełnienie wymagań dla całego typu baterii. Wymagania dla baterii sodowo-jonowych sprawdza się w ADR 2.2.9.1.7.2 oraz w odpowiednich przepisach dotyczących badań typu w Podręczniku badań i kryteriów ONZ, część III, podsekcja 38.3; sprawdź warunki właściwe dla UN 3551 lub UN 3552, zamiast zakładać, że każda bateria ma ten sam sposób pakowania. Materiały promieniotwórcze klasy 7 również wymagają sprawdzenia odpowiednich kryteriów i przepisów szczególnych; kurs podstawowy nie daje automatycznie uprawnień do każdego przewozu klasy 7.
