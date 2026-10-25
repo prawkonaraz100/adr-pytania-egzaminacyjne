@@ -1,9 +1,24 @@
-# Przekazanie specjaliście ADR — historia etapów 4g–4l i aktualny aneks 4m
+# Przekazanie specjaliście ADR — aktualny stan pakietu i historia wcześniejszych etapów
+
+## Aktualny snapshot pakietu — etap 4x14
+
+Stan sprawdzony na `main` przed etapem 4x14: commit `385e4386bb91f026dd795acc3c1e1f04df54f1e1`.
+
+- **Bank:** 609 pytań, ID ADR-B-0001–ADR-B-0609; 609 `needs_review`, 0 `verified`; 0 formalnych zatwierdzeń.
+- **Indeks specjalisty:** [REJESTR-AKTUALNY-0001-0609.md](REJESTR-AKTUALNY-0001-0609.md) zawiera wszystkie 609 ID.
+- **Manifest:** [PAKIET-0609-MANIFEST.json](PAKIET-0609-MANIFEST.json); rozkład modułów został porównany z bankiem i zgadza się dla wszystkich 13 działów. Manifest wykazuje 599 nierozstrzygniętych porównań literalnych; odczytaj rejestr źródłowy przed recenzją i nie traktuj braku wpisu jako potwierdzenia.
+- **Lekcje:** 13 plików `podstawowy/lekcje/ADR-B-01.md`–`ADR-B-13.md`; materiały instruktora: 13 plików w `podstawowy/instruktor/`.
+- **Praktyka:** 39 scenariuszy, dokładnie 3 na każdy z 13 działów; symulacje nie poświadczają, że praktyka została przeprowadzona.
+- **Egzaminy próbne:** warianty i klucze 001–005, po 30 pytań na wariant; materiały treningowe, nieoficjalne i niezatwierdzone.
+- **Słowniczek:** `podstawowy/SLOWNICZEK.md`; raport czytelności i objaśnień inline: [raport końcowy 4x13](../../podstawowy/raporty/etap-4x13-raport-koncowy-2026-10-25.md).
+- **Kontrole automatyczne:** Quality Gate obejmuje testy jednostkowe, strukturę banku, odwołania lekcji, słowniczek, scenariusze, warianty egzaminu i wskaźniki jakości. PASS CI nie jest opinią prawną.
+
+**Ważne:** dalsze sekcje poniżej zachowują historyczne raporty i decyzje z wcześniejszych etapów. Gdy zawierają starsze liczby (np. 542 pytania), nie opisują bieżącego snapshotu; aktualny stan określa powyższa sekcja i manifest 0609.
 
 ## Co obejmuje pakiet
 
-- **Bank:** `podstawowy/questions.jsonl`, 542 pytania; każdy rekord ma własną odpowiedź A/B/C, wyjaśnienie, konkretne odwołania ADR i status `needs_review`.
-- **Indeks aktualny:** `review/specialist/REJESTR-AKTUALNY-0001-0542.md` — 519 wierszy z ID, działem, kluczem i źródłem; poprzednie rejestry `REJESTR-0001-0506.md`, `REJESTR-0507-0509.md`, `REJESTR-0510-0512.md`, `REJESTR-0513-0519.md` pozostają jako **historyczne migawki**.
+- **Bank historycznej migawki:** wcześniejsza wersja obejmowała 542 pytania; aktualny stan to 609 pytań, zgodnie z sekcją „Aktualny snapshot pakietu — etap 4x14”.
+- **Indeks historyczny:** `review/specialist/REJESTR-AKTUALNY-0001-0542.md` to migawka starszej wersji; aktualny indeks to `review/specialist/REJESTR-AKTUALNY-0001-0609.md`. Poprzednie rejestry `REJESTR-0001-0506.md`, `REJESTR-0507-0509.md`, `REJESTR-0510-0512.md`, `REJESTR-0513-0519.md` pozostają jako **historyczne migawki**.
 - **Instrukcja i formularz:** `review/specialist/INSTRUKCJA-RECENZJI.md` i `FORMULARZ-UWAG.md`, bez wstawionych fikcyjnych recenzentów.
 - **Wstępne audyty:** `review/sequential/` i `review/legal-clauses/`, podsumowania w `review/batches/`, w tym `stage4a-quality-001-506.md` (sygnały jakości), `stage4d-coverage-and-0507-0509.md` oraz dwa raporty nowych scenariuszy, `stage4e-polish-clause-0507-0519.md` (ograniczone źródłowo porównanie z polskim tekstem pomocniczym).
 - **Kurs podstawowy:** 13 plików `podstawowy/lekcje/ADR-B-01.md` ... `ADR-B-13.md`, 3 rzeczywiste cele P1–P3 w `podstawowy/praktyka/SCENARIUSZE.md`, karty `docs/POWTORKI-13-DZIALOW.md` i `docs/SLOWNIK-TERMINOLOGII-ADR.md`.
