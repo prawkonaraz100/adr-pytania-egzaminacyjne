@@ -47,6 +47,7 @@
 - [Etap 4x3 — zgodność banku z podręcznikiem B-05–B-08](raporty/etap-4x3-pokrycie-banku-05-08-2026-10-25.md)
 - [Etap 4x3 — zgodność banku z podręcznikiem B-09–B-12](raporty/etap-4x3-pokrycie-banku-09-12-2026-10-25.md)
 - [Etap 4x3 — zgodność banku z podręcznikiem B-13](raporty/etap-4x3-pokrycie-banku-13-2026-10-25.md)
+- [Etap 4x3 — raport końcowy i kontrola egzaminów próbnych](raporty/etap-4x3-podsumowanie-koncowe-2026-10-25.md)
 - [Etap 4x2 — redakcja podręcznikowa lekcji 13](raporty/etap-4x2-redakcja-lekcji-13-2026-10-25.md)
 - Materiały dla instruktora: [B-13](instruktor/ADR-B-13.md).
 - Materiały dla instruktora: [B-09](instruktor/ADR-B-09.md), [B-10](instruktor/ADR-B-10.md), [B-11](instruktor/ADR-B-11.md), [B-12](instruktor/ADR-B-12.md).
