@@ -1076,11 +1076,11 @@
         "stem": "Przesyłka ADR jedzie ciężarówką do portu, ale nie korzysta z warunkowego uznania przepisów transportu morskiego z 1.1.4.2.1. Czy sam dojazd do portu powoduje obowiązek wpisu z 5.4.1.1.7?",
         "options": {
           "A": "Nie, ten dodatkowy wpis dotyczy przewozu wykonywanego zgodnie z 1.1.4.2.1",
-          "B": "Tak, każdy przewóz drogowy kończący się w porcie wymaga identycznego wpisu",
-          "C": "Tak, jeśli port znajduje się w tym samym kraju"
+          "B": "Dopisać adnotację dla każdego kursu do portu, również gdy 1.1.4.2.1 nie jest stosowany",
+          "C": "Dopisać ją ze względu na położenie portu w kraju"
         },
         "correct_option": "A",
-        "explanation": "Dodatkowa adnotacja o 1.1.4.2.1 jest potrzebna, gdy przewóz rzeczywiście korzysta z warunkowego uznania wymagań innej gałęzi transportu. Sam dojazd ciężarówki do portu nie uruchamia tego obowiązku. Położenie portu w kraju lub za granicą także nie zastępuje sprawdzenia warunków odstępstwa. Podstawa: ADR 5.4.1.1.7.",
+        "explanation": "Dodatkowa adnotacja o 1.1.4.2.1 jest potrzebna, gdy przewóz rzeczywiście korzysta z warunkowego uznania wymagań innej gałęzi transportu. Sam dojazd ciężarówki do portu nie uruchamia tego obowiązku. Samo położenie portu w kraju ani planowany rejs nie oznaczają jeszcze zastosowania tego odstępstwa. Podstawa: ADR 5.4.1.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1122,12 +1122,12 @@
         "module_id": "ADR-B-10",
         "stem": "Kontener z towarami niebezpiecznymi jedzie drogą, a następnie ma być załadowany na statek. Kto, zgodnie z ADR 5.4.2, dostarcza przewoźnikowi morskiemu certyfikat pakowania kontenera?",
         "options": {
-          "A": "Wyłącznie kierowca, nawet jeśli nie uczestniczył w pakowaniu",
+          "A": "Kierowca przewożący kontener",
           "B": "Osoby odpowiedzialne za pakowanie kontenera",
-          "C": "Wyłącznie odbiorca po zakończeniu rejsu"
+          "C": "Odbiorca, który podpisuje odbiór towarów i później przekazuje dokumentację do armatora"
         },
         "correct_option": "B",
-        "explanation": "Certyfikat pakowania kontenera potwierdza spełnienie wymagań przygotowania ładunku przed przewozem morskim. Dlatego za jego przekazanie przewoźnikowi morskiemu odpowiadają osoby odpowiedzialne za pakowanie. Nie można automatycznie przerzucić tego na kierowcę, który nie uczestniczył w pakowaniu, ani na odbiorcę po rejsie. Podstawa: ADR 5.4.2.",
+        "explanation": "Certyfikat pakowania kontenera potwierdza spełnienie wymagań przygotowania ładunku przed przewozem morskim. Dlatego za jego przekazanie przewoźnikowi morskiemu odpowiadają osoby odpowiedzialne za pakowanie. Kierowca i odbiorca nie przejmują samoczynnie zadania osoby odpowiadającej za pakowanie kontenera. Podstawa: ADR 5.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1169,12 +1169,12 @@
         "module_id": "ADR-B-10",
         "stem": "Ładunek niebezpieczny najpierw jest przewożony koleją, a potem dalej ciężarówką. Jaką zasadę należy przyjąć przy ocenie obu etapów?",
         "options": {
-          "A": "Wystarczą zawsze same przepisy RID także w części drogowej",
-          "B": "ADR ma automatycznie zastosowanie do całej trasy kolejowej i drogowej zamiast RID",
+          "A": "RID na całej trasie, także po przeładunku towaru na samochód ciężarowy",
+          "B": "ADR dla obu odcinków trasy",
           "C": "RID dla kolei, ADR dla drogi, z wyjątkami"
         },
         "correct_option": "C",
-        "explanation": "Kolejowy odcinek transportu towarów niebezpiecznych podlega zasadom RID, a drogowy zasadom ADR, z uwzględnieniem przewidzianych wyjątków. Sam fakt użycia kolei nie oznacza, że RID zastępuje wszystkie przepisy na drodze. Nie jest też tak, że ADR automatycznie wypiera RID na torach. Podstawa: ADR 1.1.4.2–1.1.4.3.",
+        "explanation": "Kolejowy odcinek transportu towarów niebezpiecznych podlega zasadom RID, a drogowy zasadom ADR, z uwzględnieniem przewidzianych wyjątków. Sam fakt użycia kolei nie oznacza, że RID zastępuje wszystkie przepisy na drodze. Na drodze nie stosuje się automatycznie wyłącznie RID, a kolej nie przechodzi na ADR z samej zmiany środka. Podstawa: ADR 1.1.4.2–1.1.4.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1217,11 +1217,11 @@
         "stem": "Kontener po rejsie morskim jest oznakowany zgodnie z IMDG, ale inaczej niż w typowym przewozie drogowym. Kiedy można opierać się na uznaniu części wymagań IMDG przez ADR?",
         "options": {
           "A": "Po spełnieniu warunków ADR 1.1.4.2.1",
-          "B": "Zawsze, jeśli kierowca ma prawo jazdy odpowiedniej kategorii",
-          "C": "Tylko wtedy, gdy wszystkie nalepki na kontenerze zostaną usunięte przed wyjazdem z portu"
+          "B": "Po okazaniu prawa jazdy",
+          "C": "Po usunięciu nalepek IMDG z kontenera, aby umieszczono go na pojeździe z samymi tablicami ADR"
         },
         "correct_option": "A",
-        "explanation": "ADR może uznać wybrane wymagania morskiego IMDG na odcinku drogowym tylko wtedy, gdy spełnione są szczególne warunki dla takiego łańcucha przewozu. Samo prawo jazdy kierowcy ani fakt odbycia rejsu nie wystarczą. Usunięcie wszystkich nalepek mogłoby naruszyć wymagania oznakowania. Podstawa: ADR 1.1.4.2.1.",
+        "explanation": "ADR może uznać wybrane wymagania morskiego IMDG na odcinku drogowym tylko wtedy, gdy spełnione są szczególne warunki dla takiego łańcucha przewozu. Samo prawo jazdy kierowcy ani fakt odbycia rejsu nie wystarczą. Prawo jazdy ani zdjęcie nalepek IMDG nie zastępują warunków uznania przewidzianych w ADR. Podstawa: ADR 1.1.4.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
