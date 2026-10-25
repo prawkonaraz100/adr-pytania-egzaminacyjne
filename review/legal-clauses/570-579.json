@@ -1,0 +1,475 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0570",
+      "order": 570,
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawna opcja: W przewozie mieszanym 100 jednostek kategorii 2 liczy się potrójnie, a 600 jednostek kategorii 3 dodaje bez mnożnika, więc wynik to 900. Zwykłe dodawanie pomija mnożnik kategorii 2, a podwojenie wszystkiego nie wynika z tabeli. Wynik nie przekracza progu 1000, lecz pozostałe warunki wyłączenia również trzeba sprawdzić. Podstawa: ADR 1.1.3.6.4."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Dodawanie bez mnożnika pomija wymóg dla kategorii 2. Podstawa: ADR 2025, 1.1.3.6.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Mnożenie obu kategorii przez 2 nie wynika z ADR. Podstawa: ADR 2025, 1.1.3.6.4."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0570",
+        "module_id": "ADR-B-01",
+        "stem": "Kierowca ma 100 jednostek kategorii transportowej 2 i 600 kategorii 3 w sztukach przesyłek. Ile wynosi wynik ADR 1.1.3.6.4?",
+        "options": {
+          "A": "900: kategorię 2 mnoży się przez 3, a kategorię 3 dodaje",
+          "B": "700: dodaj ilości bez mnożników",
+          "C": "1200: obie kategorie trzeba przemnożyć przez 2 niezależnie od ilości"
+        },
+        "correct_option": "A",
+        "explanation": "W przewozie mieszanym 100 jednostek kategorii 2 liczy się potrójnie, a 600 jednostek kategorii 3 dodaje bez mnożnika, więc wynik to 900. Zwykłe dodawanie pomija mnożnik kategorii 2, a podwojenie wszystkiego nie wynika z tabeli. Wynik nie przekracza progu 1000, lecz pozostałe warunki wyłączenia również trzeba sprawdzić. Podstawa: ADR 1.1.3.6.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0571",
+      "order": 571,
+      "clause": "ADR 2025, 1.1.3.6.4",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Sama suma nie uwzględnia mnożnika kategorii 2. Podstawa: ADR 2025, 1.1.3.6.4."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawna opcja: Dla kategorii 2 trzeba zastosować mnożnik 3, a dla kategorii 3 mnożnik 1: 250 × 3 + 300 daje 1050. Sama suma 550 jest zaniżona, a oddzielne stosowanie limitów ignoruje zasadę dla ładunku mieszanego. Próg 1000 został przekroczony, więc wyłączenie z tego przepisu nie działa dla takiego zestawu ilości. Podstawa: ADR 1.1.3.6.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Oddzielne limity nie zastępują obliczenia mieszanego. Podstawa: ADR 2025, 1.1.3.6.4."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0571",
+        "module_id": "ADR-B-01",
+        "stem": "W pojeździe przewożono 250 jednostek kategorii transportowej 2 i 300 kategorii 3. Czy obliczony wynik przekracza próg 1000?",
+        "options": {
+          "A": "Nie: suma wynosi 550, a zatem nie przekracza progu, jeśli tylko dodamy ilości",
+          "B": "Tak: 250 razy 3 plus 300 daje 1050, czyli wynik przekracza 1000",
+          "C": "Nie: obie kategorie zawsze korzystają osobno z limitu 1000"
+        },
+        "correct_option": "B",
+        "explanation": "Dla kategorii 2 trzeba zastosować mnożnik 3, a dla kategorii 3 mnożnik 1: 250 × 3 + 300 daje 1050. Sama suma 550 jest zaniżona, a oddzielne stosowanie limitów ignoruje zasadę dla ładunku mieszanego. Próg 1000 został przekroczony, więc wyłączenie z tego przepisu nie działa dla takiego zestawu ilości. Podstawa: ADR 1.1.3.6.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0572",
+      "order": 572,
+      "clause": "ADR 2025, 3.5.1–3.5.6",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Jednakowa masa nie zastępuje wymagań dla EQ. Podstawa: ADR 2025, 3.5.1–3.5.6."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "EQ nie wymaga pomarańczowej tablicy przy każdej sztuce. Podstawa: ADR 2025, 3.5.1–3.5.6."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Poprawna opcja: Liczba 990 nie przekracza granicy 1000 sztuk EQ w pojeździe lub kontenerze, ale to nie wystarcza do uznania przewozu za zgodny. Jednakowa masa nie zastępuje wymaganego pakowania, a tablica dla każdej sztuki nie jest zasadą EQ. Kierowca powinien sprawdzić także pozostałe warunki, zanim uzna wyłączenie za właściwe. Podstawa: ADR 3.5.1–3.5.6."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0572",
+        "module_id": "ADR-B-01",
+        "stem": "Magazyn przygotował 990 sztuk przesyłek EQ w jednym pojeździe. Co jeszcze należy ocenić oprócz liczby sztuk?",
+        "options": {
+          "A": "Tylko jednakową masę wszystkich sztuk, ponieważ ograniczenie dotyczy masy",
+          "B": "Tablice przy każdej sztuce EQ",
+          "C": "Wymagane warunki pakowania, oznakowania oraz dokumentacji EQ"
+        },
+        "correct_option": "C",
+        "explanation": "Liczba 990 nie przekracza granicy 1000 sztuk EQ w pojeździe lub kontenerze, ale to nie wystarcza do uznania przewozu za zgodny. Jednakowa masa nie zastępuje wymaganego pakowania, a tablica dla każdej sztuki nie jest zasadą EQ. Kierowca powinien sprawdzić także pozostałe warunki, zanim uzna wyłączenie za właściwe. Podstawa: ADR 3.5.1–3.5.6.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.5.1–3.5.6",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0573",
+      "order": 573,
+      "clause": "ADR 2025, 3.5.6",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawna opcja: Co najmniej jeden dokument towarzyszący przewozowi EQ musi wskazywać, że chodzi o ilości wyłączone, oraz podawać liczbę sztuk przesyłek. Sam podpis nadawcy ani niewielka wielkość opakowań nie zastępują takiej informacji. Kierowca powinien wyjaśnić brak przed rozpoczęciem przewozu. Podstawa: ADR 3.5.6."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Podpis nadawcy nie zastępuje wpisu EQ z liczbą sztuk. Podstawa: ADR 2025, 3.5.6."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Małe opakowania nie wyłączają obowiązku dokumentacyjnego. Podstawa: ADR 2025, 3.5.6."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0573",
+        "module_id": "ADR-B-01",
+        "stem": "Dokumenty przesyłek w ilościach wyłączonych EQ nie podają liczby sztuk przesyłek. Co należy zrobić przed rozpoczęciem przewozu?",
+        "options": {
+          "A": "Uzupełnić wymagany wpis o ilościach EQ i liczbie sztuk przesyłek",
+          "B": "Wystarczy podpis i nazwa przewoźnika",
+          "C": "Pominąć wpis, jeżeli wszystkie opakowania są małe i mieszczą się na palecie"
+        },
+        "correct_option": "A",
+        "explanation": "Co najmniej jeden dokument towarzyszący przewozowi EQ musi wskazywać, że chodzi o ilości wyłączone, oraz podawać liczbę sztuk przesyłek. Sam podpis nadawcy ani niewielka wielkość opakowań nie zastępują takiej informacji. Kierowca powinien wyjaśnić brak przed rozpoczęciem przewozu. Podstawa: ADR 3.5.6.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.5.6",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0574",
+      "order": 574,
+      "clause": "ADR 2025, 8.6.3.2",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Nie wybiera się kodu według masy towarów. Podstawa: ADR 2025, 8.6.3.2."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawna opcja: Gdy jedna jednostka wiezie towary z różnymi kodami tunelowymi, dla całego ładunku stosuje się bardziej restrykcyjny z nich. Masa poszczególnych towarów nie jest zasadą wyboru kodu, a automatyczny wybór E może przeoczyć surowsze ograniczenie. Kierowca planuje trasę według wyniku dla całej jednostki. Podstawa: ADR 8.6.3.2."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Nie wolno wybierać E automatycznie bez porównania restrykcyjności. Podstawa: ADR 2025, 8.6.3.2."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0574",
+        "module_id": "ADR-B-11",
+        "stem": "Jedna jednostka transportowa przewozi towary o kodach tunelowych D i E. Jak należy ustalić kod ograniczenia dla całego ładunku?",
+        "options": {
+          "A": "Przyjąć kod towaru o większej masie, ponieważ większa ilość ma pierwszeństwo",
+          "B": "Zastosować bardziej restrykcyjny z przypisanych kodów tunelowych",
+          "C": "Wybrać zawsze kod E, niezależnie od tego, czy drugi kod jest surowszy"
+        },
+        "correct_option": "B",
+        "explanation": "Gdy jedna jednostka wiezie towary z różnymi kodami tunelowymi, dla całego ładunku stosuje się bardziej restrykcyjny z nich. Masa poszczególnych towarów nie jest zasadą wyboru kodu, a automatyczny wybór E może przeoczyć surowsze ograniczenie. Kierowca planuje trasę według wyniku dla całej jednostki. Podstawa: ADR 8.6.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0575",
+      "order": 575,
+      "clause": "ADR 2025, 3.2.1 kolumna 15; 8.6.3.1",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Numer rejestracyjny nie wyznacza kodu tunelowego. Podstawa: ADR 2025, 3.2.1 kolumna 15; 8.6.3.1."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Kod pocztowy miejsca dostawy nie wyznacza ograniczenia towaru. Podstawa: ADR 2025, 3.2.1 kolumna 15; 8.6.3.1."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Poprawna opcja: Kod ograniczeń tunelowych znajduje się przy danym towarze w kolumnie 15 tabeli A ADR. Rejestracja pojazdu ani kod pocztowy odbiorcy nie określają tego kodu. Następnie trzeba sprawdzić przepisy dotyczące tuneli i sposób przewozu, bo od nich zależy rzeczywisty zakaz przejazdu. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0575",
+        "module_id": "ADR-B-11",
+        "stem": "Gdzie znaleźć przypisany towarowi ADR kod ograniczenia przewozu przez tunele?",
+        "options": {
+          "A": "W numerze rejestracyjnym pojazdu używanego do konkretnego przewozu",
+          "B": "W kodzie pocztowym odbiorcy wskazanym w dokumentach handlowych",
+          "C": "W kolumnie 15 tabeli A przy odpowiednim numerze UN towaru"
+        },
+        "correct_option": "C",
+        "explanation": "Kod ograniczeń tunelowych znajduje się przy danym towarze w kolumnie 15 tabeli A ADR. Rejestracja pojazdu ani kod pocztowy odbiorcy nie określają tego kodu. Następnie trzeba sprawdzić przepisy dotyczące tuneli i sposób przewozu, bo od nich zależy rzeczywisty zakaz przejazdu. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.2.1 kolumna 15; 8.6.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0576",
+      "order": 576,
+      "clause": "ADR 2025, 8.6.4",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawna opcja: Kod D/E czyta się inaczej zależnie od sposobu przewozu: przy sztukach przesyłek zakaz wynikający z tego kodu dotyczy tuneli kategorii E. Odpowiedź o D i E odnosi się do innej postaci przewozu, a zakaz kategorii B–E byłby za szeroki. Kierowca powinien sprawdzić postać ładunku przed wyborem trasy. Podstawa: ADR 8.6.4."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "D i E dotyczą przy kodzie D/E innej postaci przewozu. Podstawa: ADR 2025, 8.6.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Zakaz dla B–E byłby szerszy niż wskazuje ten kod. Podstawa: ADR 2025, 8.6.4."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0576",
+        "module_id": "ADR-B-11",
+        "stem": "Towar z kodem D/E jedzie w sztukach przesyłek. Których tuneli nie wolno użyć ze względu na ten kod?",
+        "options": {
+          "A": "Tuneli kategorii E, ponieważ towar jedzie w sztukach przesyłek",
+          "B": "Tuneli kategorii D i E, jak dla tego kodu w przewozie luzem",
+          "C": "Wszystkich tuneli od kategorii B do E bez względu na rodzaj przewozu"
+        },
+        "correct_option": "A",
+        "explanation": "Kod D/E czyta się inaczej zależnie od sposobu przewozu: przy sztukach przesyłek zakaz wynikający z tego kodu dotyczy tuneli kategorii E. Odpowiedź o D i E odnosi się do innej postaci przewozu, a zakaz kategorii B–E byłby za szeroki. Kierowca powinien sprawdzić postać ładunku przed wyborem trasy. Podstawa: ADR 8.6.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0577",
+      "order": 577,
+      "clause": "ADR 2025, 5.4.1.1.1(a)",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Liczba pojazdów nie zastępuje liter UN. Podstawa: ADR 2025, 5.4.1.1.1(a)."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Poprawna opcja: Numer identyfikacyjny towaru niebezpiecznego w dokumencie podaje się z oznaczeniem UN przed czterema cyframi. Liczba pojazdów ani kod magazynowy nie zastępują tego identyfikatora. Przy kontroli dokumentu trzeba też sprawdzić dalsze wymagane elementy opisu, a nie tylko sam numer. Podstawa: ADR 5.4.1.1.1(a)."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Kod magazynowy nie jest numerem UN towaru. Podstawa: ADR 2025, 5.4.1.1.1(a)."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0577",
+        "module_id": "ADR-B-13",
+        "stem": "W dokumencie ADR podano czterocyfrowy identyfikator towaru, lecz nie dopisano liter UN. Jak należy poprawić wpis?",
+        "options": {
+          "A": "Dodać liczbę pojazdów na końcu identyfikatora zamiast liter UN",
+          "B": "Umieścić litery UN przed czterocyfrowym numerem towaru",
+          "C": "Zastąpić go kodem magazynowym używanym wyłącznie przez nadawcę"
+        },
+        "correct_option": "B",
+        "explanation": "Numer identyfikacyjny towaru niebezpiecznego w dokumencie podaje się z oznaczeniem UN przed czterema cyframi. Liczba pojazdów ani kod magazynowy nie zastępują tego identyfikatora. Przy kontroli dokumentu trzeba też sprawdzić dalsze wymagane elementy opisu, a nie tylko sam numer. Podstawa: ADR 5.4.1.1.1(a).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0578",
+      "order": 578,
+      "clause": "ADR 2025, 5.4.1.1.1(e)",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Sam numer UN nie podaje wymaganych sztuk przesyłek. Podstawa: ADR 2025, 5.4.1.1.1(e)."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Rejestracja pojazdu nie zastępuje liczby i rodzaju opakowań. Podstawa: ADR 2025, 5.4.1.1.1(e)."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Poprawna opcja: Dokument przewozowy ma informować nie tylko o rodzaju towaru, lecz także o liczbie i rodzaju sztuk przesyłek, gdy wymagają tego przepisy. Sam numer UN nie mówi, ile przesyłek załadowano, a rejestracja pojazdu nie zastępuje tych danych. Przed przewozem trzeba uzupełnić brakujące informacje. Podstawa: ADR 5.4.1.1.1(e)."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0578",
+        "module_id": "ADR-B-13",
+        "stem": "W dokumencie podano numer UN i klasę, ale brakuje wymaganej liczby oraz rodzaju sztuk przesyłek. Co należy zrobić?",
+        "options": {
+          "A": "Pominąć te dane, ponieważ numer UN zawiera już pełny opis opakowania",
+          "B": "Wpisać wyłącznie rejestrację pojazdu zamiast danych o sztukach przesyłek",
+          "C": "Uzupełnić wymaganą liczbę i opis rodzaju sztuk przesyłek"
+        },
+        "correct_option": "C",
+        "explanation": "Dokument przewozowy ma informować nie tylko o rodzaju towaru, lecz także o liczbie i rodzaju sztuk przesyłek, gdy wymagają tego przepisy. Sam numer UN nie mówi, ile przesyłek załadowano, a rejestracja pojazdu nie zastępuje tych danych. Przed przewozem trzeba uzupełnić brakujące informacje. Podstawa: ADR 5.4.1.1.1(e).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(e)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0579",
+      "order": 579,
+      "clause": "ADR 2025, 5.4.1.1.1(h)",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawna opcja: Dokument przewozowy co do zasady wymaga nazwy i adresu odbiorcy; jeżeli wyjątek nie ma zastosowania, te informacje trzeba uzupełnić. Telefon kierowcy nie identyfikuje odbiorcy, a numer UN i klasa opisują towar, nie miejsce jego dostarczenia. Kierowca powinien wyjaśnić brak jeszcze przed rozpoczęciem trasy. Podstawa: ADR 5.4.1.1.1(h)."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Telefon kierowcy nie identyfikuje odbiorcy. Podstawa: ADR 2025, 5.4.1.1.1(h)."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Numer UN i klasa nie zastępują adresu odbiorcy. Podstawa: ADR 2025, 5.4.1.1.1(h)."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0579",
+        "module_id": "ADR-B-13",
+        "stem": "Dokument ADR nie zawiera adresu odbiorcy, choć nie zachodzi żaden przewidziany wyjątek. Co zrobić przed wyjazdem?",
+        "options": {
+          "A": "Wyjaśnić brak i uzyskać wymagany adres oraz dane odbiorcy",
+          "B": "Wpisać numer telefonu kierowcy w miejsce adresu odbiorcy, aby możliwy był kontakt",
+          "C": "Pozostawić pole puste, jeżeli numer UN i klasa towaru są prawidłowe"
+        },
+        "correct_option": "A",
+        "explanation": "Dokument przewozowy co do zasady wymaga nazwy i adresu odbiorcy; jeżeli wyjątek nie ma zastosowania, te informacje trzeba uzupełnić. Telefon kierowcy nie identyfikuje odbiorcy, a numer UN i klasa opisują towar, nie miejsce jego dostarczenia. Kierowca powinien wyjaśnić brak jeszcze przed rozpoczęciem trasy. Podstawa: ADR 5.4.1.1.1(h).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(h)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}

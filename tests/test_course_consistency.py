@@ -6,6 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from course_consistency import audit, validate_image_assets, validate_reviewer_manifest, validate_practical_scenario_map
+from answer_length_bias import measure as measure_answer_length_bias
 
 
 class CourseConsistencyTests(unittest.TestCase):
@@ -76,7 +77,10 @@ class CourseConsistencyTests(unittest.TestCase):
         readme = (root / "podstawowy" / "README.md").read_text(encoding="utf-8")
         self.assertIn(f"{len(bank)} `needs_review`, 0 `verified`", readme)
         self.assertNotIn("216 rekordów", readme)
-        self.assertIn("71/569 = 12,48%", readme)
+        stats = measure_answer_length_bias(bank)
+        strict = sum(group["strict"] for group in stats.values())
+        metric = f"{strict}/{len(bank)} = {100 * strict / len(bank):.2f}%".replace(".", ",")
+        self.assertIn(metric, readme)
         for number in range(1, 14):
             module = f"ADR-B-{number:02d}"
             lesson = root / "podstawowy" / "lekcje" / f"{module}.md"

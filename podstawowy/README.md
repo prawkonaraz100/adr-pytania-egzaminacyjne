@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 25.10.2026, po audycie pokrycia: 569 pytań roboczych; 569 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 25.10.2026, po audycie pokrycia: 579 pytań roboczych; 579 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Jak korzystać z kursu
 
@@ -55,11 +55,11 @@ python scripts/check_explanation_quality.py --minimum 300
 python -m unittest discover -s tests -v
 ```
 
-Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **71/569 = 12,48%**, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
+Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **80/579 = 13,82%**, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
 
 ## Status weryfikacji
 
-- Bank: 566 `needs_review`, 0 `verified`.
+- Bank: 579 `needs_review`, 0 `verified`.
 - Lekcje: 13 szkiców z mapą pytań i przykładami; wymagają niezależnego odbioru dydaktycznego i prawnego.
 - Praktyka: 3 scenariusze do przeprowadzenia i udokumentowania przez instruktora; repozytorium nie poświadcza, że ćwiczenia odbyły się.
 - Prawo: pełne porównanie każdego punktu z polskim tekstem urzędowym i sprostowaniem oraz niezależna recenzja specjalisty pozostają otwarte.
