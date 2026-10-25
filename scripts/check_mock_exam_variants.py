@@ -13,13 +13,13 @@ LETTERS = "ABC"
 def remap_explanation(text, mapping):
     # Remap explicit references to answer choices when the printed option order changes.
     text = re.sub(
-        r"\\b(warianty|odpowiedzi)\\s+([ABC])\\s+i\\s+([ABC])\\b",
+        r"\b(warianty|odpowiedzi)\s+([ABC])\s+i\s+([ABC])\b",
         lambda m: f"{m.group(1)} {mapping.get(m.group(2), m.group(2))} i {mapping.get(m.group(3), m.group(3))}",
         text,
         flags=re.IGNORECASE,
     )
     return re.sub(
-        r"\\b(odpowiedź|opcja|wariant|warianty|odpowiedzi)\\s+([ABC])\\b",
+        r"\b(odpowiedź|opcja|wariant|warianty|odpowiedzi)\s+([ABC])\b",
         lambda m: f"{m.group(1)} {mapping.get(m.group(2), m.group(2))}",
         text,
         flags=re.IGNORECASE,
@@ -39,16 +39,16 @@ def longest_run(values):
 def heuristic_warnings(rows):
     warnings = []
     cue = re.compile(
-        r"\\b(bo|ponieważ|dlatego|oznacza|wskazuje|wynika|nie jest|nie są|nie oznacza|"
-        r"nie zastępuje|zamiast|natomiast|jednak|należy|trzeba|pozwala|wymaga|może)\\b",
+        r"\b(bo|ponieważ|dlatego|oznacza|wskazuje|wynika|nie jest|nie są|nie oznacza|"
+        r"nie zastępuje|zamiast|natomiast|jednak|należy|trzeba|pozwala|wymaga|może)\b",
         re.IGNORECASE,
     )
     for row in rows:
         explanation = (row.get("explanation") or "").strip()
         reasons = []
-        if re.match(r"^(?:ADR\\s*)?\\d+(?:\\.\\d+){1,}", explanation, re.IGNORECASE):
+        if re.match(r"^(?:ADR\s*)?\d+(?:\.\d+){1,}", explanation, re.IGNORECASE):
             reasons.append("zaczyna się od numeru przepisu")
-        module_refs = set(re.findall(r"ADR-B-\\d{2}", explanation))
+        module_refs = set(re.findall(r"ADR-B-\d{2}", explanation))
         if len(module_refs) > 3:
             reasons.append(f"zawiera {len(module_refs)} odwołań do działów")
         if not cue.search(explanation):
