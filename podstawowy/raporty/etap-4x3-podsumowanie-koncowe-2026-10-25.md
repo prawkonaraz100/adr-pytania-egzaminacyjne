@@ -50,3 +50,8 @@ Nie zmieniono banku, ID pytań, kluczy ani przypisań `module_id`. Dlatego regen
 ## Ograniczenia i dalsza kontrola
 
 Audyt sprawdza pokrycie dydaktyczne i spójność referencji, ale nie stanowi niezależnej opinii prawnej. Wszystkie pytania nadal wymagają recenzji — nie zmieniono żadnego statusu na `verified`. Przed publicznym użyciem należy przeprowadzić niezależną recenzję ADR i formalny odbiór instruktorski.
+
+
+## Korekta końcowej kontroli treści
+
+W końcowym przeglądzie po audycie poprawiono opis tablicy pomarańczowej w B-06: dolne pole zawiera czterocyfrowy numer UN bez liter „UN”. Jednocześnie dopilnowano, by uzupełnienia dla B-06–B-08 obejmowały szczegółowy odczyt tablicy, obowiązki uczestników i wyposażenie zależne od DMC/zagrożeń. Nie zmieniono banku ani przypisań pytań.
