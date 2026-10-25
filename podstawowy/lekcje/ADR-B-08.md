@@ -14,7 +14,7 @@ Samo posiadanie wyposażenia nie wystarcza. Sprzęt musi być właściwy dla prz
 - reagować na brak, uszkodzenie lub niedostępność sprzętu przed wyjazdem.
 
 ## 1. Gaśnice — wymagania zależą od przewozu
-To, ile gaśnic i jakiej pojemności trzeba mieć, zależy od pojazdu i rodzaju przewozu. Sprawdź dopuszczalną masę całkowitą (DMC — maksymalną masę pojazdu wraz z ładunkiem; [słowniczek](../SLOWNICZEK.md#dmc)) oraz to, czy ma zastosowanie wyłączenie. Nie zakładaj, że jeden zestaw pasuje do każdej ciężarówki (ADR 8.1.4).
+To, ile gaśnic i jakiej pojemności trzeba mieć, zależy od pojazdu i rodzaju przewozu. Sprawdź dopuszczalną masę całkowitą (DMC — maksymalną masę pojazdu wraz z ładunkiem; [słowniczek](../SLOWNICZEK.md#dmc)) oraz to, czy ma zastosowanie wyłączenie. Nie zakładaj, że jeden zestaw pasuje do każdej ciężarówki (ADR ([słowniczek](../SLOWNICZEK.md#adr)) 8.1.4).
 
 Gaśnice muszą być sprawne, mieć wymagane oznaczenia i terminy przeglądu, być prawidłowo zamocowane oraz łatwo dostępne. Gaśnica przeterminowana, uszkodzona, zasłonięta ładunkiem lub leżąca luzem może nie spełniać wymagań. Usuń niezgodność przed wyjazdem.
 
