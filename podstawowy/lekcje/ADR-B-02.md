@@ -40,7 +40,7 @@ Nalepkę czytaj jako całość: kolor, symbol, kształt i numer. Opisy ćwiczeni
 - wzór 5.1 — płomień nad okręgiem na żółtym tle;
 - wzór 3 — płomień na czerwonym tle;
 - wzór 6.1 — czaszka i skrzyżowane piszczele;
-- symbol butli na zielonym tle z numerem 2 — wzór nalepki gazowej.
+- symbol białej butli na zielonym tle z numerem 2 — gazy niepalne i nietrujące.
 Opisy słowne nie zastępują sprawdzenia oficjalnego wzoru nalepki.
 
 **Klasa 4.2:** materiały podatne na samozapalenie lub samonagrzewanie; sprawdź właściwe kryteria klasyfikacji.
