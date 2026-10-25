@@ -225,9 +225,9 @@ Pełna, maszynowo sprawdzana mapa kroków i ID pytań znajduje się w `scenarius
 | ADR-B-08 | Kontrola wyposażenia pojazdu i każdego członka załogi | ADR-B-0418, ADR-B-0551, ADR-B-0566, ADR-B-0596–0597 |
 | ADR-B-09 | Kontrola przed załadunkiem i mocowania | ADR-B-0518, ADR-B-0554, ADR-B-0558 |
 | ADR-B-10 | Kontener po rejsie morskim — dalszy odcinek drogowy | ADR-B-0396, ADR-B-0511 |
-| ADR-B-11 | Wybór trasy przez tunel z ograniczeniami | ADR-B-0487, ADR-B-0539, ADR-B-0540 |
-| ADR-B-12 | Nieznana osoba chce odebrać ładunek | ADR-B-0304, ADR-B-0305, ADR-B-0519 |
-| ADR-B-13 | Kontrola dokumentów przed wyjazdem | ADR-B-0508, ADR-B-0525, ADR-B-0530 |
+| ADR-B-11 | Planowanie trasy i ograniczenia tunelowe | ADR-B-0487, ADR-B-0539–0540, ADR-B-0574–0576, ADR-B-0591–0604 |
+| ADR-B-12 | Ochrona przewozu i weryfikacja uprawnienia do odbioru | ADR-B-0304–0305, ADR-B-0519, ADR-B-0582 |
+| ADR-B-13 | Kontrola dokumentów i instrukcji przed wyjazdem | ADR-B-0508, ADR-B-0525, ADR-B-0530, ADR-B-0577–0579, ADR-B-0586–0590, ADR-B-0598–0601 |
 
 ### Wspólny schemat pracy kursanta
 
