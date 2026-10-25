@@ -24,6 +24,9 @@ Przewoźnik zapewnia załodze wymagane instrukcje pisemne. Nie zakładaj, że pr
 ## 3. Pakujący i załadowca
 Pakujący nie powinien przekazywać przesyłki, jeśli opakowanie lub oznakowanie nie spełnia wymagań. Załadowca nie powinien umieszczać w pojeździe uszkodzonej sztuki przesyłki. Zakrycie pęknięcia folią ani umieszczenie przesyłki na końcu pojazdu nie naprawia niezgodności. Prawidłowy numer UN w dokumencie nie zastępuje bezpiecznego opakowania.
 
+
+### Pakujący, napełniający, rozładowca i odbiorca
+Pakujący stosuje wymagania pakowania, a następnie zapewnia wymagane oznakowanie i wspólne pakowanie zgodne z ADR. Napełniający ma obowiązki związane z bezpiecznym napełnianiem i sprawdzeniem właściwego stanu urządzeń oraz zamknięć w zakresie przypisanym mu przez ADR. Rozładowca sprawdza, czy rozładunek może się odbyć bezpiecznie, reaguje na uszkodzone przesyłki i usuwa niebezpieczne pozostałości w zakresie swoich obowiązków. Po rozładunku sprawdza też, czy wymagane zamknięcia i otwory są prawidłowo zabezpieczone, oraz usuwa nieaktualne oznakowanie dopiero wtedy, gdy ADR na to pozwala. Zlecenie pracy zewnętrznej firmie nie oznacza automatycznego wygaśnięcia wszystkich obowiązków podmiotu, któremu ADR je przypisuje.
 ## 4. Odpowiedzialność cywilna
 Odpowiedzialność cywilna to odrębny obszar od szczegółowego podziału obowiązków ADR. Nie wyciągaj wniosków o odpowiedzialności prawnej konkretnej osoby bez ustalenia faktów, roli uczestnika i właściwych przepisów. W materiale szkoleniowym ucz się rozpoznawać obowiązek i zgłaszać niezgodność, a nie rozstrzygać spór prawny na podstawie samego opisu.
 

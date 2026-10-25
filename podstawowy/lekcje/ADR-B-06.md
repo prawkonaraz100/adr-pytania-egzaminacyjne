@@ -19,6 +19,9 @@ Tablice pomarańczowe stosuje się w przypadkach określonych ADR. W odpowiednic
 ## 3. Nalepka na przesyłce a nalepka dużego formatu
 Nalepki na sztukach przesyłek i nalepki dużego formatu na kontenerze, pojeździe lub jednostce transportowej mają różne zastosowanie. Muszą być właściwe, czytelne i umieszczone zgodnie z wymaganiami. Nie zastępuj nalepki nazwą handlową ani przypadkowym znakiem. Gdy nalepka jest nieczytelna lub oznakowanie nie pasuje do dokumentów, wyjaśnij niezgodność i popraw oznakowanie przed wyjazdem.
 
+
+### Nalepki dużego formatu na kontenerze i pojeździe
+Wymagane nalepki dużego formatu muszą być umieszczone w miejscach wskazanych przez ADR, widoczne i czytelne. Jeśli jednostka zawiera towary z więcej niż jednej klasy, ustal wymagane nalepki według odpowiednich zasad 5.3.1.1–5.3.1.4; nie wybieraj ich według uznania. Uszkodzona, zasłonięta lub niezgodna nalepka musi zostać poprawiona przed dalszym przewozem. Po rozładunku nie usuwaj nalepek automatycznie: gdy pozostają niebezpieczne pozostałości lub jednostka nie została oczyszczona, oznakowanie może nadal być wymagane. Usunięcie nalepek i tablic zależy od spełnienia warunków ADR, a nie wyłącznie od tego, że zniknęły widoczne sztuki przesyłek.
 ## 4. Sprawdzanie oznakowania
 Przed wyjazdem porównaj:
 1. numer UN i dane w dokumentach;
