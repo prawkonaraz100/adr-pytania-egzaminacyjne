@@ -8,7 +8,7 @@ Nie każdy tunel jest dostępny dla każdego przewozu towarów niebezpiecznych. 
 
 ## Czego się nauczysz
 - rozumieć kategorie tuneli A–E;
-- odczytywać kod tunelowy z tabeli A (wykaz ADR, w którym dla numeru UN sprawdzasz m.in. klasę i warunki przewozu; [słowniczek](../SLOWNICZEK.md#tabela-a));
+- odczytywać kod tunelowy z tabeli A (wykaz ADR ([słowniczek](../SLOWNICZEK.md#adr)), w którym dla numeru UN ([słowniczek](../SLOWNICZEK.md#numer-un)) sprawdzasz m.in. klasę i warunki przewozu; [słowniczek](../SLOWNICZEK.md#tabela-a));
 - uwzględniać różnicę między cysterną a sztukami przesyłek w kodzie D/E;
 - ustalać kod dla jednostki przewożącej różne towary;
 - reagować bezpiecznie na zdarzenie w tunelu.
