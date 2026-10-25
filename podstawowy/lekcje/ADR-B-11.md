@@ -130,3 +130,14 @@ Scenariusz z pracy kierowcy: [SC-ADR-B-11 — scenariusz praktyczny](../praktyka
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; kod dla konkretnego ładunku i ograniczenia wymagają kontroli w aktualnym wpisie ADR.
+
+
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-11` — **Planowanie trasy i ograniczenia tunelowe**
+- `SC-ADR-B-11-02` — **Objazd tunelu z ograniczeniem**
+- `SC-ADR-B-11-03` — **Różne kody tunelowe w jednym ładunku**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
