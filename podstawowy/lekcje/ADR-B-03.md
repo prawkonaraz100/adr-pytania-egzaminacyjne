@@ -57,11 +57,23 @@ W dokumencie przewozowym dla odpowiednich odpadów słowo „ODPAD” uzupełnia
 - Po zanieczyszczeniu pojazdu sprawdź wymóg oczyszczenia przed kolejnym załadunkiem.
 
 ## Sprawdź się
-- Jak reagujesz na nieznany wyciek przy kanalizacji?
+
 - Dlaczego nie wolno rozpoznawać substancji po zapachu?
 - Co oznacza słowo „ODPAD” w dokumencie przewozowym?
 - Kiedy trzeba oczyścić przestrzeń ładunkową?
 - Dlaczego nie wolno automatycznie wybierać najłagodniejszej grupy pakowania dla nieznanego odpadu?
+
+Pytania do samodzielnego sprawdzenia w banku:
+- `ADR-B-0007`
+- `ADR-B-0008`
+- `ADR-B-0009`
+- `ADR-B-0178`
+- `ADR-B-0276`
+- `ADR-B-0294`
+- `ADR-B-0295`
+- `ADR-B-0343`
+
+Scenariusz z pracy kierowcy: [SC-ADR-B-03 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
 
 ## Powiązane pytania w banku
 - ADR-B-0007
