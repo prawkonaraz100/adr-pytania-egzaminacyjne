@@ -47,6 +47,11 @@ Dokument przygotowany dla odcinka morskiego nie znosi automatycznie wszystkich w
 - zakładanie, że dokument morski wystarcza na odcinku drogowym;
 - uznawanie, że prawo jazdy lub inny dokument automatycznie zastępuje zaświadczenie ADR (dokument potwierdzający wymagane szkolenie i egzamin kierowcy dla danego zakresu przewozu; [słowniczek](../SLOWNICZEK.md#zaswiadczenie-kierowcy-adr)), gdy jest wymagane.
 
+Najczęstsze pułapki wynikające z pytań tego działu:
+- Zastępowanie wymaganych instrukcji pisemnych skrótem firmy lub numerem telefonu — instrukcje mają ustalony wzór i muszą być dostępne dla załogi (ADR 5.4.3).
+- Uznawanie, że telefon lub skan zawsze zastępuje wymagany dokument — sprawdź, jaki dokument musi znajdować się w pojeździe i czy jest dostępny w wymaganej postaci (ADR 8.1.2 i 9.1.3).
+- Pomijanie danych wymaganych w dokumencie przewozowym, np. danych nadawcy/odbiorcy lub zagrożenia dodatkowego — popraw kontakt telefoniczny nie zastępuje obowiązkowych wpisów (ADR 5.4.1).
+
 ## Scenariusze praktyczne
 1. **Niekompletny dokument.** Przed wyjazdem kierowca zauważa brak nazwy przewozowej albo wymaganych danych nadawcy/odbiorcy. Nie zgaduje; prosi odpowiedzialnego uczestnika o wyjaśnienie i uzupełnienie przed rozpoczęciem przewozu.
 2. **Instrukcje niezrozumiałe dla załogi.** Kierowca otrzymał instrukcje w języku, którego członek załogi nie rozumie, albo dokument jest niedostępny w kabinie. Przed wyjazdem trzeba zapewnić właściwą, dostępną wersję i zapoznanie załogi z jej treścią.
@@ -150,15 +155,4 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 
 
 
-## Najczęstsze błędy kursantów
 
-W banku pojawiają się następujące typowe pomyłki. W realnej pracy nie zgaduj — sprawdź warunek ADR właściwy dla towaru i sposobu przewozu.
-
-- Zastępowanie wymaganych instrukcji pisemnych skrótem firmy lub numerem telefonu — instrukcje mają ustalony wzór i muszą być dostępne dla załogi (ADR 5.4.3).
-- Uznawanie, że telefon lub skan zawsze zastępuje wymagany dokument — sprawdź, jaki dokument musi znajdować się w pojeździe i czy jest dostępny w wymaganej postaci (ADR 8.1.2 i 9.1.3).
-- Pomijanie danych wymaganych w dokumencie przewozowym, np. danych nadawcy/odbiorcy lub zagrożenia dodatkowego — popraw kontakt telefoniczny nie zastępuje obowiązkowych wpisów (ADR 5.4.1).
-
-Niejasne terminy wyjaśnia [Słowniczek ADR dla kursanta](../SLOWNICZEK.md).
-
-## Słowniczek
-Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).

@@ -78,6 +78,13 @@ Przy każdym ćwiczeniu kursant powinien wyjaśnić własnymi słowami: co spraw
 - SC-ADR-B-12: sprawdź plan ochrony i zweryfikuj odbiorcę.
 - SC-ADR-B-12-02: zmianę postoju uzgodnij zgodnie z procedurą ochrony.
 - SC-ADR-B-12-03: numer zlecenia nie zastępuje potwierdzenia tożsamości i uprawnienia odbiorcy.
+## Scenariusze dla kursanta — dział B-13
+
+Przy każdym ćwiczeniu kursant powinien powiedzieć, co sprawdza, dlaczego nie zgaduje brakujących danych i co musi być dostępne przed wyjazdem. Pola common_mistakes, legal_basis i learner_takeaway w rekordach scenariuszy pomagają omówić odpowiedź prostym językiem. Scenariusze są symulacjami, nie dowodem realizacji zajęć praktycznych.
+
+- SC-ADR-B-13: porównaj dokument przewozowy, instrukcje pisemne i wymagania dla odcinka drogowego.
+- SC-ADR-B-13-02: nie zgaduj brakujących danych i nie odkładaj ich do uzupełnienia po wyjeździe.
+- SC-ADR-B-13-03: instrukcje pisemne muszą być zrozumiałe dla każdego członka załogi.
 ## Zakres i zasada bezpieczeństwa
 
 Ćwiczenia muszą być prowadzone w warunkach odpowiednich do nadzorowanych zajęć. Nie wykorzystuje się prawdziwej niebezpiecznej substancji ani nie naraża kursantów na działanie ognia, oparów lub innych zagrożeń. Ćwiczenia ogniowe odbywają się wyłącznie na przygotowanym stanowisku szkoleniowym z zabezpieczeniem i instruktorem.
