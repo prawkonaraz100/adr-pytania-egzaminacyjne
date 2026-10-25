@@ -56,6 +56,12 @@ Dla pustego, nieoczyszczonego opakowania lub kontenera stosuje się odrębne wym
 - pomijanie słowa „ODPAD”, gdy jest wymagane, albo traktowanie go jako zamiennika nazwy przewozowej i numeru UN;
 - ponowny załadunek przed oczyszczeniem pojazdu, gdy ADR tego wymaga.
 
+Najczęstsze pułapki wynikające z pytań tego działu:
+- Uznawanie, że słowo „ODPAD” zastępuje numer UN lub inne dane dokumentu — to dodatkowa informacja, a nie zamiennik danych ADR (ADR 5.4.1.1.3.1).
+- Automatyczne przypisywanie odpadowi grupy pakowania III, gdy nie znamy składu — klasyfikację opiera się na dostępnych danych i właściwych regułach dla odpadów (ADR 2.1.3.5.5).
+- Zakładanie, że mała ilość odpadu oznacza zwolnienie — trzeba osobno sprawdzić klasyfikację, ilość i warunki wyłączenia (ADR 1.1.3 oraz 2.1).
+- Pomijanie ryzyka środowiskowego po rozlewie — chroń odpływy tylko wtedy, gdy można to zrobić bez narażania siebie; unikaj kontaktu z nieznaną substancją (ADR 5.4.3.4 i 5.2.1.8).
+
 ## Scenariusze praktyczne
 1. **Wyciek przy odpływie.** Kierowca zauważa nieznaną ciecz blisko kratki kanalizacyjnej. Nie dotyka jej, nie rozpoznaje zapachem, ostrzega osoby w pobliżu, oddala się i powiadamia odpowiedzialne osoby lub służby.
 2. **Opakowanie i opary.** Po awarii przy drzwiach ładowni widać pary. Kierowca nie wchodzi w chmurę i nie zgaduje, co się uwolniło. Z bezpiecznego miejsca ostrzega innych i stosuje instrukcje w granicach bezpieczeństwa.
@@ -162,16 +168,4 @@ Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlacze
 
 
 
-## Najczęstsze błędy kursantów
 
-Poniższe pomyłki wynikają z typowych nieporozumień widocznych w pytaniach tego działu. Przy każdej odpowiedzi sprawdź warunek, który rozstrzyga sytuację, zamiast zapamiętywać samą literę.
-
-- Uznawanie, że słowo „ODPAD” zastępuje numer UN lub inne dane dokumentu — to dodatkowa informacja, a nie zamiennik danych ADR (ADR 5.4.1.1.3.1).
-- Automatyczne przypisywanie odpadowi grupy pakowania III, gdy nie znamy składu — klasyfikację opiera się na dostępnych danych i właściwych regułach dla odpadów (ADR 2.1.3.5.5).
-- Zakładanie, że mała ilość odpadu oznacza zwolnienie — trzeba osobno sprawdzić klasyfikację, ilość i warunki wyłączenia (ADR 1.1.3 oraz 2.1).
-- Pomijanie ryzyka środowiskowego po rozlewie — chroń odpływy tylko wtedy, gdy można to zrobić bez narażania siebie; unikaj kontaktu z nieznaną substancją (ADR 5.4.3.4 i 5.2.1.8).
-
-W razie niejasnych pojęć skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md).
-
-## Słowniczek
-Niejasne terminy znajdziesz w [Słowniczku ADR dla kursanta](../SLOWNICZEK.md).
