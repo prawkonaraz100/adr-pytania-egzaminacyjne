@@ -13,11 +13,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja „Użyć skrótu firmowego, jeśli kierowca zapamiętał zasady, bez pełnego wzoru” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Zachować pełny, wymagany wzór instrukcji pisemnych ADR”. Instrukcje pisemne mają ustalony wzór, aby załoga mogła szybko znaleźć właściwe działania w nagłym zdarzeniu. Skrót firmowy może pominąć ważne informacje, a sam numer telefonu nie opisuje, co zrobić od razu. Przed wyjazdem sprawdź, czy w kabinie jest właściwy wzór i komplet stron. Podstawa: ADR 5.4.3.4. Podstawa wskazana do sprawdzenia: ADR 2025, 5.4.3.4."
+          "rationale": "Ten dystraktor opisuje częsty błąd: Użyć skrótu firmowego, jeśli kierowca zapamiętał zasady, bez pełnego wzoru. Nie zastępuje to warunku wskazanego w poprawnej odpowiedzi ani wymagań właściwego przepisu. Ta zmiana jest redakcyjna; status prawny nadal needs_review."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja „Zastąpić instrukcje telefonem dyspozytora i listą kontaktów” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Zachować pełny, wymagany wzór instrukcji pisemnych ADR”. Instrukcje pisemne mają ustalony wzór, aby załoga mogła szybko znaleźć właściwe działania w nagłym zdarzeniu. Skrót firmowy może pominąć ważne informacje, a sam numer telefonu nie opisuje, co zrobić od razu. Przed wyjazdem sprawdź, czy w kabinie jest właściwy wzór i komplet stron. Podstawa: ADR 5.4.3.4. Podstawa wskazana do sprawdzenia: ADR 2025, 5.4.3.4."
+          "rationale": "Ten dystraktor opisuje częsty błąd: Użyć skróconej wersji firmowej, jeśli omawia podstawowe zagrożenia, zamiast wzoru ADR. Nie zastępuje to warunku wskazanego w poprawnej odpowiedzi ani wymagań właściwego przepisu. Ta zmiana jest redakcyjna; status prawny nadal needs_review."
         }
       },
       "observed_answer_key": "A",
@@ -33,7 +33,7 @@
         "options": {
           "A": "Zachować pełny, wymagany wzór instrukcji pisemnych ADR",
           "B": "Użyć skrótu firmowego, jeśli kierowca zapamiętał zasady, bez pełnego wzoru",
-          "C": "Zastąpić instrukcje telefonem dyspozytora i listą kontaktów"
+          "C": "Użyć skróconej wersji firmowej, jeśli omawia podstawowe zagrożenia, zamiast wzoru ADR"
         },
         "correct_option": "A",
         "explanation": "Instrukcje pisemne mają ustalony wzór, aby załoga mogła szybko znaleźć właściwe działania w nagłym zdarzeniu. Skrót firmowy może pominąć ważne informacje, a sam numer telefonu nie opisuje, co zrobić od razu. Przed wyjazdem sprawdź, czy w kabinie jest właściwy wzór i komplet stron. Podstawa: ADR 5.4.3.4.",
