@@ -138,3 +138,11 @@ Raporty ETAPU 4x7
 - [B-05–08 — kontrola duplikatów, czytelności i dystraktorów](raporty/etap-4x7-bank-czytelnosc-05-08-2026-10-25.md)
 - [B-09–13 — kontrola duplikatów, czytelności i dystraktorów](raporty/etap-4x7-bank-czytelnosc-09-13-2026-10-25.md)
 - [Raport końcowy ETAPU 4x7](raporty/etap-4x7-raport-koncowy-2026-10-25.md)
+
+
+## Raporty ETAPU 4x12 — słowniczek i język kursanta
+
+- [B-01–04](raporty/etap-4x12-slowniczek-lekcje-01-04-2026-10-25.md)
+- [B-05–08](raporty/etap-4x12-slowniczek-lekcje-05-08-2026-10-25.md)
+- [B-09–13](raporty/etap-4x12-slowniczek-lekcje-09-13-2026-10-25.md)
+- [Raport końcowy ETAPU 4x12](raporty/etap-4x12-raport-koncowy-2026-10-25.md)
