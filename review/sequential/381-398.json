@@ -23,11 +23,11 @@
         "stem": "W łańcuchu drogowym i morskim opakowanie nie jest oznaczone zgodnie z ADR, lecz podlega dopuszczeniu według 1.1.4.2.1. Jakie oznakowanie musi mieć?",
         "options": {
           "A": "Oznakowanie zgodne z IMDG lub ICAO dla danego etapu",
-          "B": "Dowolne ręczne ostrzeżenie wystawione przez kierowcę przed wyjazdem",
-          "C": "Brak oznakowania, jeśli dokument przewozowy zawiera numer UN"
+          "B": "Ręczny opis zagrożenia na opakowaniu, jeśli kierowca potwierdzi jego czytelność",
+          "C": "Bez nalepki z numerem UN"
         },
         "correct_option": "A",
-        "explanation": "W określonym łańcuchu drogowym połączonym z transportem morskim lub lotniczym ADR może uznać oznakowanie zgodne z IMDG albo instrukcjami ICAO, jeśli spełniono warunki przepisu. Nie wolno zastępować go dowolnym ręcznym ostrzeżeniem ani całkiem rezygnować z oznakowania. Trzeba sprawdzić, który zestaw wymagań ma zastosowanie do przesyłki. Podstawa: ADR 1.1.4.2.1(a).",
+        "explanation": "W określonym łańcuchu drogowym połączonym z transportem morskim lub lotniczym ADR może uznać oznakowanie zgodne z IMDG albo instrukcjami ICAO, jeśli spełniono warunki przepisu. Nie wolno zastępować go dowolnym ręcznym ostrzeżeniem ani całkiem rezygnować z oznakowania. Ręczny opis kierowcy ani pominięcie wymaganej nalepki nie zastępują właściwego oznakowania IMDG lub ICAO. Podstawa: ADR 1.1.4.2.1(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -63,12 +63,12 @@
       "exact_record_snapshot": {
         "stem": "W łańcuchu z etapem morskim zastosowano przywilej 1.1.4.2.1 dla wspólnego pakowania w jednej sztuce przesyłki. Które wymagania mogą określać pakowanie razem?",
         "options": {
-          "A": "Zawsze zasady przewozu żywności i pasz",
+          "A": "Zasady przewozu żywności",
           "B": "Wymagania IMDG lub instrukcje ICAO",
-          "C": "Wyłącznie osobiste uznanie kierowcy, bez stosowania przepisów"
+          "C": "Warunki pakowania ustalone przez kierowcę ze spedytorem, bez sprawdzenia IMDG ani instrukcji ICAO"
         },
         "correct_option": "B",
-        "explanation": "W przewozie łączącym drogę z morzem lub lotnictwem warunki pakowania razem mogą wynikać z właściwych przepisów IMDG albo instrukcji ICAO, jeśli zastosowanie ma wyjątek ADR. Nie wystarczy kierować się podobną wagą towarów ani własnym uznaniem. Trzeba sprawdzić wymagania dla danego etapu i przesyłki. Podstawa: ADR 1.1.4.2.1(b).",
+        "explanation": "W przewozie łączącym drogę z morzem lub lotnictwem warunki pakowania razem mogą wynikać z właściwych przepisów IMDG albo instrukcji ICAO, jeśli zastosowanie ma wyjątek ADR. Nie wystarczy kierować się podobną wagą towarów ani własnym uznaniem. Zasady żywności ani uzgodnienie ze spedytorem nie zastępują warunków pakowania dla danej gałęzi przewozu. Podstawa: ADR 1.1.4.2.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -105,11 +105,11 @@
         "stem": "Kontener w łańcuchu morskim oznakowano według IMDG zamiast oznaczeń wymaganych w ADR 5.3. Co może dopuścić 1.1.4.2.1(c)?",
         "options": {
           "A": "Oznakowanie IMDG, jeśli spełniono warunki ADR",
-          "B": "Usunięcie wszystkich oznakowań, nawet wymaganych na odcinku drogowym",
-          "C": "Dowolna tablica reklamowa zamiast nalepek ostrzegawczych"
+          "B": "Usunąć nalepki kontenera",
+          "C": "Zastąpić wymagane oznakowanie tablicą reklamową spedytora z nazwą firmy i opisem towaru"
         },
         "correct_option": "A",
-        "explanation": "W określonym łańcuchu morskim ADR dopuszcza użycie nalepek i oznakowania zgodnych z IMDG zamiast części oznakowania ADR, ale tylko po spełnieniu warunków przepisu. Nie wolno usuwać wszystkich oznaczeń ani zastępować ich reklamą. Trzeba też sprawdzić, jakie wymagania nadal dotyczą pojazdu drogowego. Podstawa: ADR 1.1.4.2.1(c).",
+        "explanation": "W określonym łańcuchu morskim ADR dopuszcza użycie nalepek i oznakowania zgodnych z IMDG zamiast części oznakowania ADR, ale tylko po spełnieniu warunków przepisu. Nie wolno usuwać wszystkich oznaczeń ani zastępować ich reklamą. Usunięcie oznakowania i reklama spedytora nie zastępują oznaczeń wymaganych dla kontenera. Podstawa: ADR 1.1.4.2.1(c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -145,12 +145,12 @@
       "exact_record_snapshot": {
         "stem": "Kontener w łańcuchu morskim korzysta z oznakowania IMDG na podstawie 1.1.4.2.1(c). Co z oznakowaniem pojazdu drogowego?",
         "options": {
-          "A": "Usunąć każdą tablicę pomarańczową, gdy kontener ma oznakowanie IMDG",
+          "A": "Zdjąć pomarańczowe tablice pojazdu po przybyciu kontenera z oznakowaniem IMDG",
           "B": "Zachować wymagane tablice pomarańczowe według 5.3.2.1.1",
-          "C": "Pojazd musi mieć wyłącznie etykietę spedytora, bez innych tablic"
+          "C": "Użyć etykiety spedytora"
         },
         "correct_option": "B",
-        "explanation": "Nawet gdy kontener korzysta z oznakowania IMDG, wyjątek nie usuwa automatycznie wszystkich obowiązków dotyczących pojazdu. Należy zachować wymagane oznakowanie drogowe wskazane w przepisie, w tym odpowiednie tablice pomarańczowe. Etykieta spedytora nie zastępuje oznakowania wymaganego przez ADR. Podstawa: ADR 1.1.4.2.1(c) i 5.3.2.1.1.",
+        "explanation": "Nawet gdy kontener korzysta z oznakowania IMDG, wyjątek nie usuwa automatycznie wszystkich obowiązków dotyczących pojazdu. Należy zachować wymagane oznakowanie drogowe wskazane w przepisie, w tym odpowiednie tablice pomarańczowe. Po oznakowaniu kontenera IMDG pojazd drogowy nadal musi mieć własne wymagane tablice. Podstawa: ADR 1.1.4.2.1(c) i 5.3.2.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -187,11 +187,11 @@
         "stem": "Pusty, nieoczyszczony kontener-cysterna przybywa morzem i jedzie do punktu czyszczenia. Jak długo określona reguła oznakowania IMDG z 1.1.4.2.1(c) pozostaje istotna?",
         "options": {
           "A": "Do przekazania kontenera do stacji czyszczenia",
-          "B": "Tylko przez pierwszych 10 km od portu, niezależnie od miejsca czyszczenia",
-          "C": "Wyłącznie przed rozładunkiem statku, nie podczas dojazdu do czyszczenia"
+          "B": "Przez 10 km od portu",
+          "C": "Do chwili opuszczenia terminalu, chociaż kontener nadal nie został oczyszczony"
         },
         "correct_option": "A",
-        "explanation": "Szczególna zasada może obejmować pusty, nieoczyszczony kontener-cysternę przywożony morzem także podczas przewozu do miejsca czyszczenia. Nie kończy się automatycznie po kilku kilometrach ani w chwili opuszczenia statku. Trzeba sprawdzić dokładne warunki przepisu i moment przekazania do stacji czyszczenia. Podstawa: ADR 1.1.4.2.1(c).",
+        "explanation": "Szczególna zasada może obejmować pusty, nieoczyszczony kontener-cysternę przywożony morzem także podczas przewozu do miejsca czyszczenia. Nie kończy się automatycznie po kilku kilometrach ani w chwili opuszczenia statku. Odległość dziesięciu kilometrów i opuszczenie terminalu nie przesądzają o końcu wymogu. Podstawa: ADR 1.1.4.2.1(c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -227,12 +227,12 @@
       "exact_record_snapshot": {
         "stem": "Towar jest niebezpieczny według klas 1–9 ADR, ale nie jest uznawany za niebezpieczny według właściwego IMDG/ICAO. Czy wyjątek 1.1.4.2.1 może wtedy automatycznie zadziałać?",
         "options": {
-          "A": "Tak, nawet gdy IMDG lub ICAO nie uznaje towaru za niebezpieczny",
+          "A": "Tak, po samym dojeździe do portu",
           "B": "Nie; przypadek ten jest wyłączony z odstępstwa",
-          "C": "Tak, jeśli masa jest mniejsza niż 5 kg i nie sprawdza się klasyfikacji"
+          "C": "Tak, jeżeli towar ma niewielką masę i nie wymaga ponownej klasyfikacji przy zmianie środka transportu"
         },
         "correct_option": "B",
-        "explanation": "Odstępstwo dla łańcucha morskiego lub lotniczego ma wyraźne ograniczenia. Nie można go automatycznie zastosować do towaru, który jest niebezpieczny według ADR, ale nie jest tak klasyfikowany według właściwych zasad IMDG lub ICAO. Mała masa nie znosi tego wyłączenia. Podstawa: ADR 1.1.4.2.1, akapit końcowy.",
+        "explanation": "Odstępstwo dla łańcucha morskiego lub lotniczego ma wyraźne ograniczenia. Nie można go automatycznie zastosować do towaru, który jest niebezpieczny według ADR, ale nie jest tak klasyfikowany według właściwych zasad IMDG lub ICAO. Dojazd do portu ani niewielka masa nie zmieniają klasyfikacji towaru w obu systemach. Podstawa: ADR 1.1.4.2.1, akapit końcowy.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -310,11 +310,11 @@
         "stem": "Dokument IMDG/ICAO może w określonym łańcuchu zastępować dokument przewozowy ADR. Co trzeba sprawdzić?",
         "options": {
           "A": "Sprawdzić, czy zawiera dodatkowe dane wymagane przez ADR",
-          "B": "Czy dokument jest kolorowy i ma logo armatora na każdej stronie",
-          "C": "Czy kierowca podpisał fakturę i otrzymał kopię od spedytora"
+          "B": "Czy ma kolorowe logo armatora",
+          "C": "Czy podpisano fakturę i przekazano kopię spedytorowi bez sprawdzenia wymaganych wpisów ADR"
         },
         "correct_option": "A",
-        "explanation": "Dokument IMDG lub ICAO może w określonych warunkach zastąpić dokument ADR, ale nadal trzeba sprawdzić, czy zawiera dodatkowe informacje wymagane na drodze. Kolor dokumentu ani podpis na fakturze nie potwierdzają spełnienia tych wymagań. Przed wyjazdem należy uzupełnić brakujące dane, jeśli są wymagane. Podstawa: ADR 1.1.4.2.3.",
+        "explanation": "Dokument IMDG lub ICAO może w określonych warunkach zastąpić dokument ADR, ale nadal trzeba sprawdzić, czy zawiera dodatkowe informacje wymagane na drodze. Kolor dokumentu ani podpis na fakturze nie potwierdzają spełnienia tych wymagań. Logo armatora i podpisana faktura nie odpowiadają na pytanie o dodatkowe wymagane dane ADR. Podstawa: ADR 1.1.4.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
