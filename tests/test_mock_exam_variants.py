@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from check_mock_exam_variants import audit, longest_run
+from check_mock_exam_variants import audit, longest_run, near_duplicate_pairs
 
 
 class MockExamVariantBalanceTests(unittest.TestCase):
@@ -18,6 +18,15 @@ class MockExamVariantBalanceTests(unittest.TestCase):
             self.assertEqual(len(item["modules"]), 13)
             self.assertEqual(sum(item["modules"].values()), 30)
             self.assertTrue(all(count in (2, 3) for count in item["modules"].values()))
+
+    def test_near_duplicate_guard(self):
+        rows = [
+            {"id": "A", "stem": "Kierowca przed wyjazdem sprawdza wymagane dokumenty przewozowe towaru niebezpiecznego"},
+            {"id": "B", "stem": "Kierowca przed wyjazdem sprawdza wymagane dokumenty przewozowe towaru niebezpiecznego!"},
+            {"id": "C", "stem": "Jakie są kategorie tuneli drogowych wskazane w ADR?"},
+        ]
+        self.assertEqual(near_duplicate_pairs(rows), [("A", "B")])
+        self.assertEqual(near_duplicate_pairs([rows[0], rows[2]]), [])
 
     def test_run_counter(self):
         self.assertEqual(longest_run(list("AABBBCC")), 3)
