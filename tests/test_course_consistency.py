@@ -101,6 +101,32 @@ class CourseConsistencyTests(unittest.TestCase):
         self.assertTrue(all(count >= 3 for count in counts.values()), counts)
         self.assertEqual(validate_practical_scenario_map(root, bank), [])
 
+        # Keep each practical exercise focused: 1–3 directly relevant questions.
+        by_id = {row["id"]: row for row in bank}
+        for scenario in scenarios:
+            question_ids = scenario.get("question_ids", [])
+            self.assertGreaterEqual(
+                len(question_ids), 1,
+                f"{scenario.get('id')} must link at least one question",
+            )
+            self.assertLessEqual(
+                len(question_ids), 3,
+                f"{scenario.get('id')} must link no more than three focused questions",
+            )
+            self.assertEqual(
+                len(question_ids), len(set(question_ids)),
+                f"{scenario.get('id')} repeats a question ID",
+            )
+            for question_id in question_ids:
+                self.assertIn(
+                    question_id, by_id,
+                    f"{scenario.get('id')} references missing question {question_id}",
+                )
+                self.assertEqual(
+                    by_id[question_id].get("module_id"), scenario.get("module_id"),
+                    f"{scenario.get('id')} links question {question_id} from another module",
+                )
+
 
     def test_lessons_and_instructor_guides_link_all_module_scenarios_and_questions(self):
         root = Path(__file__).resolve().parents[1]
