@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x45 (26.10.2026)
+
+- Bank blob SHA: `0630175487431cee0c94ca5d7906e336a1842b3b`.
+- 609 pytań, wszystkie `needs_review`, zero `verified`; nie ma formalnych zatwierdzeń.
+- Redakcyjne korekty próby 40 i sformułowań z kolejek nie stanowią recenzji prawnej. 376 porównań literalnych pozostaje nierozstrzygniętych; 40 wpisów kolejek 4x40/4x44 nadal wymaga sprawdzenia przez specjalistę.
+
 # Instrukcja niezależnej recenzji banku ADR podstawowego — stan aktualny 26.10.2026
 
 **Cel:** weryfikacja każdego z 609 pytań osobno — treści, klucza, odpowiedzi A/B/C, wyjaśnienia i wszystkich wyjątków — przez rzeczywistego specjalistę ADR. Stan: 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. **Nie publikować banku ani egzaminu próbnego opartego na potrzebujących recenzji pytaniach.**
