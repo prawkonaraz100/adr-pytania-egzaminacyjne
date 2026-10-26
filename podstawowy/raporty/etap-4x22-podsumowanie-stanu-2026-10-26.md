@@ -24,6 +24,8 @@ Raport `podstawowy/raporty/etap-4x22-sprostowanie-1575-2026-10-26.md` zawiera li
 | Rekordy bez `literal_comparison_result` | 318 |
 | Wśród 318 otwartych: mają cytat MI, ale nadal oczekują porównania | 51 |
 | Wśród 318 otwartych: nadal bez literalnego cytatu | 267 |
+| Spośród 267 bez cytatu: konkretna blokada pobrania zapisana | 72 |
+| Spośród 267 bez cytatu: jeszcze bez indywidualnej próby pobrania zapisanej w ledgerze | 195 |
 | Rekordy z dokładną stroną PDF Dz.U. 2025 poz. 642 potwierdzoną w ledgerze | 0 |
 | Rekordy oznaczone `verified` | 0 |
 | Potwierdzone zmiany pytań/kluczy w etapie 4x22 | 0 |
@@ -42,6 +44,8 @@ Raport `podstawowy/raporty/etap-4x22-sprostowanie-1575-2026-10-26.md` zawiera li
 ## 4. Co pozostaje otwarte
 
 Etap 4x22 **nie jest zakończony**. Z 318 rekordów bez wyniku porównania 267 nadal nie ma literalnego cytatu, a 51 ma fragment z kopii MI, ale nie ma potwierdzonego mapowania do strony prawnie wiążącego Dz.U. 2025 poz. 642. Dla żadnego cytatu nie zapisano potwierdzonej strony pliku Dz.U.; paginacji kopii MI nie przenoszono na Dziennik Ustaw.
+
+Z 267 rekordów bez cytatu, dla 72 zapisano konkretną blokadę i następny krok; dla pozostałych 195 ledger nadal wymaga indywidualnej próby pobrania oraz albo cytatu, albo konkretnego powodu niepowodzenia. Nie należy traktować ich jako sprawdzonych.
 
 Dalsze partie muszą najpierw odzyskać właściwe strony źródłowe dla progów liczbowych i wyjątków, w szczególności:
 - ADR 5.2.1.8.1 i 5.3.6.2 — progi i wymiary oznakowania środowiskowego;
