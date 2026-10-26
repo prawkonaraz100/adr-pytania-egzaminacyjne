@@ -153,19 +153,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępna ocena na podstawie ADR 7.5.8.1: Wyciek z opakowania może pozostawić w pojeździe substancję zagrażającą ludziom oraz następnym przesyłkom. Dlatego trzeba oczyścić przestrzeń ładunkową jak najszybciej i przed ponownym załadunkiem. Kładzenie nowych paczek na zabrudzeniu albo odkładanie czyszczenia do przeglądu jest niebezpieczne. Podstawa: ADR 7.5.8.1."
+          "rationale": "ADR requires cleaning as soon as possible; waiting two days solely for the next load is not the intended rule."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant „Położyć nowe przesyłki bezpośrednio na miejscu wycieku” pomija lub narusza obowiązek określony w ADR 7.5.8.1; pełna polska recenzja oczekuje."
+          "rationale": "Cleaning is not meant to be postponed until just before the next load if it can be done sooner."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant „Odroczyć czyszczenie do następnego przeglądu technicznego” pomija lub narusza obowiązek określony w ADR 7.5.8.1; pełna polska recenzja oczekuje."
+          "rationale": "Drying or loss of smell does not remove dangerous residue from the cargo space."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wymagana kontrola szczegółowego zastosowania przepisu, w tym wyjątków; bez zatwierdzenia niezależnego specjalisty.",
+      "notes_on_conditions": "Etap 4x34: zaktualizowano redakcyjny snapshot po rozróżnieniu powtórzeń; oficjalne porównanie pełnego polskiego tekstu i akceptacja specjalisty nadal oczekują.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -173,14 +173,14 @@
       "question_snapshot": {
         "id": "ADR-B-0238",
         "module_id": "ADR-B-09",
-        "stem": "Po rozładunku zapakowanych towarów ADR zauważono, że zawartość jednej przesyłki wyciekła do przestrzeni ładunkowej. Co należy zrobić przed ponownym załadunkiem?",
+        "stem": "Po wycieku z przesyłki pojazd został rozładowany, a kolejny załadunek zaplanowano dopiero za dwa dni. Kiedy należy oczyścić przestrzeń ładunkową?",
         "options": {
-          "A": "Oczyścić pojazd niezwłocznie przed ponownym załadunkiem towaru",
-          "B": "Ułożyć nowe przesyłki na miejscu wycieku, aby odizolować zabrudzoną podłogę",
-          "C": "Odłożyć czyszczenie do najbliższego przeglądu technicznego pojazdu"
+          "A": "Oczyścić ją jak najszybciej, nie czekać do dnia kolejnego załadunku",
+          "B": "Oczyścić ją dopiero tuż przed kolejnym załadunkiem, nawet jeśli oznacza to kilkudniową zwłokę",
+          "C": "Wystarczy wysuszyć miejsce wycieku, jeśli po pewnym czasie nie czuć zapachu"
         },
         "correct_option": "A",
-        "explanation": "Wyciek z opakowania może pozostawić w pojeździe substancję zagrażającą ludziom oraz następnym przesyłkom. Dlatego trzeba oczyścić przestrzeń ładunkową jak najszybciej i przed ponownym załadunkiem. Kładzenie nowych paczek na zabrudzeniu albo odkładanie czyszczenia do przeglądu jest niebezpieczne. Podstawa: ADR 7.5.8.1.",
+        "explanation": "Po wycieku nie należy zostawiać zabrudzonej przestrzeni ładunkowej na później. ADR wymaga oczyszczenia pojazdu tak szybko, jak to możliwe, a w każdym razie przed kolejnym załadunkiem. Kilkudniowe czekanie nie spełnia zasady pilnego działania, a wysuszenie miejsca bez usunięcia substancji nie usuwa zagrożenia. Podstawa: ADR 7.5.8.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
