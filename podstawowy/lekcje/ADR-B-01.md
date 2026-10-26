@@ -38,7 +38,7 @@ Szkolenie funkcjonalne dobiera się do realnych zadań pracownika. Jeżeli obsł
 | Wyłączenie zależne od charakteru przewozu, np. określony przewóz prywatny | ADR 1.1.3.1 | Cel przewozu, charakter użycia, opakowanie i zabezpieczenie przed wyciekiem |
 | Ilości ograniczone — LQ | ADR 3.4 | Numer UN, limity, rodzaj opakowania, oznakowanie |
 | Ilości wyłączone — EQ | ADR 3.5 | Kod EQ, opakowania, oznakowanie i limity |
-| Wyłączenie zależne od ilości na jednostkę transportową | ADR 1.1.3.6 | kategorię transportową — oznaczenie z tabeli A używane między innymi przy obliczaniu wyłączenia ilościowego ([słowniczek](../SLOWNICZEK.md#kategoria-transportowa)), jednostkę ilości, współczynniki i obowiązki pozostające |
+| Wyłączenie zależne od ilości na jednostkę transportową | ADR 1.1.3.6 | kategorię transportową — grupę używaną do ustalenia zasad obliczenia ilości ([słowniczek](../SLOWNICZEK.md#kategoria-transportowa)), jednostkę ilości, współczynniki i obowiązki pozostające |
 
 ### 4.1. Obliczenia 1.1.3.6
 Najpierw odczytaj kategorię transportową i ilość w odpowiedniej jednostce dla każdej pozycji. Dla kategorii 3 limit co do zasady wynosi 1000 jednostek ilościowych, a dla mieszanego ładunku stosuje się obliczenie z mnożnikami według ADR 1.1.3.6.3–1.1.3.6.4. Nie porównuj osobno każdej kategorii z limitem: wynik liczysz dla całego ładunku objętego tym wyłączeniem. Przykłady szkoleniowe dla kategorii 2 i 3: 100 × 3 + 600 = 900; 200 × 3 + 500 = 1100. Pierwszy wynik jest niższy od 1000, drugi przekracza 1000. To fikcyjne dane — w rzeczywistym przewozie potwierdź kategorię, jednostkę i wszystkie warunki.
@@ -53,6 +53,8 @@ EQ nie oznacza dowolnie małej ilości bez warunków. Sprawdź, czy wpis towaru 
 Prywatny cel nie daje automatycznego zwolnienia. ADR 1.1.3.1(a)(i) dotyczy towarów zapakowanych do sprzedaży detalicznej i przeznaczonych do osobistego lub domowego użytku. Opakowanie musi być zabezpieczone przed wyciekiem w normalnych warunkach przewozu; dla niektórych cieczy obowiązują dodatkowe limity ilości. Wyłączenie nie obejmuje automatycznie towarów przewożonych do sprzedaży ani każdego opakowania. Paleta farb przewożona do dalszej sprzedaży nie staje się przewozem prywatnym dlatego, że jest niewielka. Sprawdź także, czy towar w danej postaci jest dopuszczony do przewozu — dokumenty i wyposażenie nie uchylają zakazu.
 
 ## 5. Tabela A i nazwa przewozowa
+
+**Przykład przed wyjazdem.** Otrzymujesz kilka przesyłek, a nadawca mówi, że „to tylko małe ilości”. Nie podejmuj decyzji na podstawie wyglądu paczek: odczytaj wpis każdego towaru, sprawdź limit i opakowanie, a jeśli korzystasz z 1.1.3.6, wykonaj obliczenie dla całej jednostki transportowej zgodnie z właściwą kategorią i współczynnikiem. Jeżeli brakuje danych, wstrzymaj wyjazd do czasu wyjaśnienia. Podstawa: ADR 1.1.3.6.3–1.1.3.6.4, 3.2 tabela A i 3.4–3.5.
 Tabela A rozdziału 3.2 zawiera w kolumnie 1 numer UN, a w kolumnie 2 nazwę i opis pozycji (ADR 3.2.1). Nie zastępuj nazwy przewozowej nazwą handlową ani przypuszczeniem. Porównaj numer UN, nazwę, klasę i pozostałe wymagane dane z dokumentami.
 
 ## Typowe błędy kursantów
