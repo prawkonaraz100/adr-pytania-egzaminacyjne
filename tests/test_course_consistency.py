@@ -128,6 +128,43 @@ class CourseConsistencyTests(unittest.TestCase):
                 )
 
 
+    def test_practical_scenarios_are_learner_facing_and_explain_the_decision(self):
+        root = Path(__file__).resolve().parents[1]
+        scenarios = json.loads(
+            (root / "podstawowy" / "praktyka" / "scenariusze-13-dzialow.json")
+            .read_text(encoding="utf-8")
+        )["scenarios"]
+        self.assertEqual(len(scenarios), 39)
+        for scenario in scenarios:
+            sid = scenario.get("id", "<missing-id>")
+            self.assertTrue(scenario.get("situation", "").strip(), f"{sid}: missing situation")
+            self.assertGreaterEqual(
+                len(scenario.get("steps", [])), 3,
+                f"{sid}: needs at least three actionable learner steps",
+            )
+            self.assertTrue(
+                scenario.get("assessment_criteria"),
+                f"{sid}: missing observable assessment criteria",
+            )
+            self.assertTrue(
+                scenario.get("learner_takeaway", "").strip(),
+                f"{sid}: missing plain-language takeaway",
+            )
+            self.assertTrue(
+                scenario.get("legal_basis"),
+                f"{sid}: missing ADR basis",
+            )
+            mistakes = scenario.get("common_mistakes", [])
+            errors = scenario.get("common_errors", [])
+            self.assertTrue(
+                len(mistakes) >= 2 or len(errors) >= 2,
+                f"{sid}: needs at least two typical learner mistakes",
+            )
+            if errors:
+                for item in errors:
+                    self.assertTrue(item.get("error", "").strip(), f"{sid}: mistake without label")
+                    self.assertTrue(item.get("why", "").strip(), f"{sid}: mistake without plain explanation")
+
     def test_lessons_and_instructor_guides_link_all_module_scenarios_and_questions(self):
         root = Path(__file__).resolve().parents[1]
         bank = [json.loads(line) for line in
