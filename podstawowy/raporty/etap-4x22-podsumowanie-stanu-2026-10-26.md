@@ -146,3 +146,12 @@ Nie należy deklarować sukcesu całego etapu ani zatwierdzać pytań, dopóki t
 - Wśród otwartych 2 mają cytaty pomocnicze MI (ADR-B-0570–0571), 27 nie ma cytatu. Dla wszystkich 29 zapisano przyczynę i następny krok.
 - Strony PDF Dz.U. potwierdzone: 0; brak potwierdzonych zmian pytań/kluczy i 0 `verified`.
 - Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0552-0591-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0552-0591.json`.
+
+
+## Aktualizacja po partii 0592–0609 i podsumowanie przebiegu
+
+- Świeży `main` na wejściu: `61f8c70619825a443ccfedeb962f1527e77ea1ab`.
+- Sprawdzono 18 rekordów; 5 miało już wynik, 13 nadal oczekuje na urzędowe porównanie.
+- Wśród otwartych 4 mają cytaty pomocnicze MI, 9 nie ma cytatu. Dla wszystkich 13 zapisano przyczynę i następny krok.
+- Pełny zakres 0192–0609 przejrzano w 11 partiach. Ledger nadal zawiera 291 rekordów z `literal_comparison_result` i 318 bez tego pola; żaden nowy literalny cytat ze stroną Dz.U. 2025 nie został potwierdzony w tym przebiegu, bo właściwy PDF nie był odczytywalny.
+- Nie zmieniono pytań/kluczy; 0 `verified`. Raport końcowy: `podstawowy/raporty/etap-4x22-literalne-dowody-0592-0609-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0592-0609.json`.
