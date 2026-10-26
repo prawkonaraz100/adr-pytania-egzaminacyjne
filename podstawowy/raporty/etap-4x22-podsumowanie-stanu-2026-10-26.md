@@ -128,3 +128,12 @@ Nie należy deklarować sukcesu całego etapu ani zatwierdzać pytań, dopóki t
 - Wśród otwartych 11 ma cytaty pomocnicze MI, a 28 nie ma cytatu. Dla wszystkich 39 zapisano przyczynę i następny krok.
 - Strony PDF Dz.U. potwierdzone: 0; brak potwierdzonych poprawek pytań/kluczy i 0 `verified`.
 - Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0472-0511-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0472-0511.json`.
+
+
+## Aktualizacja po partii 0512–0551
+
+- Świeży `main` na wejściu: `8b02eb4f5fed1cd7ba09dfd670afd3c652f64135`.
+- Sprawdzono 40 rekordów; 10 miało już wynik, 30 nadal oczekuje na urzędowe porównanie.
+- Wśród otwartych 2 mają cytaty pomocnicze MI, 28 nie ma cytatu. Dla wszystkich 30 zapisano przyczynę i następny krok.
+- Strony PDF Dz.U. potwierdzone: 0; brak potwierdzonych zmian pytań/kluczy i 0 `verified`.
+- Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0512-0551-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0512-0551.json`.
