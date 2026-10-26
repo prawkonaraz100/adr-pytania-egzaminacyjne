@@ -37,7 +37,8 @@ Wszystkie 9 wyjaśnień ma 2–5 zdań i mieści się w zakresie 200–500 znak�
 - Liczba rekordów: 609.
 - Duplikaty ID: 0.
 - Statusy `verified`: 0; statusy `needs_review`: 609.
-- Nie zmieniono poprawnych liter ani opcji A/B/C.
+- Nie zmieniono poprawnych liter ani opcji A/B/C w banku.
+- Po wykryciu przez CI niezgodności metadanych, zsynchronizowano `source_bank_head` we wszystkich pięciu wariantach egzaminu oraz wyjaśnienie klucza 004 dla pytania ADR-B-0602. Pozostałe klucze nie zawierały zmienionych ID.
 - Wskaźnik „poprawna = jedyna najdłuższa” w banku pozostaje bez zmian, ponieważ nie edytowano opcji odpowiedzi.
 
 ## Ograniczenia
