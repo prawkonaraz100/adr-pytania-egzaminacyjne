@@ -33,6 +33,8 @@ Jeśli jednostka transportowa (pojazd silnikowy z przyczepą lub naczepą, gdy t
 ### Łączenie kodów i postać przewozu
 Przy kodach różnych towarów zastosuj regułę ADR 8.6.3.2 dla całej jednostki. Dla kodu D/E ograniczenie zależy od postaci przewozu: dla cystern obowiązuje zakaz w tunelach D i E, natomiast dla sztuk przesyłek — w kategorii E; dla przewozu luzem sprawdź konkretną regułę przypisaną do kodu i postaci przewozu. Kody takie jak B/D również trzeba interpretować zgodnie z tabelą ADR 8.6.4, a nie według pierwszej litery wybranej z wygody. Przy kodzie zależnym od ilości, np. B1000C, policz właściwą ilość netto materiału wybuchowego przed wyborem trasy.
 ## 4. Zdarzenie w tunelu
+
+**Przykład planowania trasy.** Nawigacja proponuje krótszą drogę przez tunel, ale kod przypisany do towaru może ograniczać przejazd. Zatrzymaj planowanie i porównaj kod z kategorią tunelu na znakach. Jeśli ograniczenie ma zastosowanie, wybierz dozwoloną trasę; nie próbuj rozstrzygać na podstawie samej pierwszej litery kodu. Podstawa: ADR 3.2 tabela A, kolumna 15, oraz 8.6.3–8.6.4.
 W razie awarii lub pożaru w tunelu nie otwieraj ładowni ani przesyłek, aby samodzielnie sprawdzić zawartość. Zadbaj o bezpieczeństwo, zastosuj instrukcje pisemne (dokument z ustalonymi wskazówkami dla załogi na wypadek zdarzenia; ma być dostępny i zrozumiały; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne)) w granicach własnych możliwości i wezwij pomoc. Nie wjeżdżaj do tunelu, jeśli przewóz jest objęty ograniczeniem; wybierz dozwoloną trasę.
 
 

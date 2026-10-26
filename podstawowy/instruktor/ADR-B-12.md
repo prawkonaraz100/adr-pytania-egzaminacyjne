@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, karty o
 
 **Obserwowalne kryterium:** Nie ujawnia danych o realnej trasie.
 
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Materiał wymaga niezależnej recenzji; nie jest dowodem zaliczenia ćwiczenia praktycznego ani akceptacji prawnej pytania.
 
 
 
@@ -119,3 +119,13 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - Wszystkie 7 unikalnych ID pytań z ćwiczeń istnieją w banku i należą do `ADR-B-12`.
 - Lekcja: [ADR-B-12](../lekcje/ADR-B-12.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
 - Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Ćwicz na fikcyjnych danych, bez ujawniania rzeczywistych tras, danych osób ani szczegółów zabezpieczeń. Kursant ma odróżnić ochronę przed kradzieżą i nieuprawnionym dostępem od mocowania ładunku oraz wyjaśnić, co zrobi, gdy nie może potwierdzić uprawnienia odbiorcy.
+
+- `SC-ADR-B-12` — ochrona przewozu i weryfikacja uprawnienia do odbioru.
+- `SC-ADR-B-12-02` — zmiana planowanego postoju.
+- `SC-ADR-B-12-03` — niepewne uprawnienie odbiorcy.
+
+Pytania kontrolne: `ADR-B-0034`, `ADR-B-0035`, `ADR-B-0036`, `ADR-B-0249`, `ADR-B-0274`, `ADR-B-0304`, `ADR-B-0399`, `ADR-B-0455`, `ADR-B-0519`, `ADR-B-0582`. Typowe pomyłki: utożsamienie ochrony przewozu z mocowaniem, wydanie ładunku na podstawie samego numeru zlecenia i ujawnianie szczegółów ochrony osobom, które ich nie potrzebują.
