@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteri
 
 **Obserwowalne kryterium:** Odróżnia obowiązek sprawdzenia od uprawnienia do działania.
 
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Materiał wymaga niezależnej recenzji; nie jest dowodem zaliczenia ćwiczenia praktycznego ani akceptacji prawnej pytania.
 
 
 
@@ -117,3 +117,13 @@ Brak danych o rzeczywistych wynikach kursantów — repo nie rejestruje statysty
 - Wszystkie 9 unikalnych ID z ćwiczeń sprawdzono względem bieżącego banku; każde istnieje i należy do `ADR-B-07`.
 - Lekcja: [ADR-B-07](../lekcje/ADR-B-07.md). Scenariusze: [plik JSON](../praktyka/scenariusze-13-dzialow.json) — wyszukaj identyfikatory SC wymienione powyżej.
 - Nie zmieniono podstaw prawnych ani statusów pytań bez potwierdzonej rozbieżności w urzędowym tekście ADR. To nie zastępuje recenzji specjalisty.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Poprowadź kursanta przez sytuację niezgodnego opakowania, a potem przez podział obowiązków. Zamiast pytać jedynie „kto odpowiada?”, zapytaj, jaka czynność została wykonana i kto ma obowiązek ją sprawdzić. Podkreśl, że polecenie przełożonego ani poprawny dokument nie czynią uszkodzonej przesyłki bezpieczną.
+
+- `SC-ADR-B-07` — niezgodne opakowanie i uszkodzona sztuka.
+- `SC-ADR-B-07-02` — niejasny podział obowiązków.
+- `SC-ADR-B-07-03` — instrukcje pisemne dla nowego członka załogi.
+
+Pytania kontrolne: `ADR-B-0019`, `ADR-B-0020`, `ADR-B-0021`, `ADR-B-0369`, `ADR-B-0375`, `ADR-B-0380`, `ADR-B-0477`, `ADR-B-0482`, `ADR-B-0567`, `ADR-B-0584`. Częste pomyłki: przypisywanie wszystkich obowiązków tylko kierowcy, przekazanie uszkodzonej przesyłki i mylenie instrukcji pisemnych z kontaktem telefonicznym do dyspozytora.
