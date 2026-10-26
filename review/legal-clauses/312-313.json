@@ -59,15 +59,15 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja „Sama deklaracja, że towar jest tani” nie spełnia warunków określonych w ADR 2025, 1.1.3.1(a)(i); pełne polskie zestawienie pending."
+          "rationale": "Opakowanie detaliczne nie wystarcza, jeśli nie zabezpiecza zawartości przed wyciekiem podczas normalnego przewozu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja „Zgoda każdego pasażera bez względu na zabezpieczenie” nie spełnia warunków określonych w ADR 2025, 1.1.3.1(a)(i); pełne polskie zestawienie pending."
+          "rationale": "Wymóg dokumentu przewozowego nie jest tym warunkiem wyłączenia; liczy się m.in. przeznaczenie i zabezpieczenie opakowania zgodnie z ADR 1.1.3.1(a)(i)."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Przy 1.1.3.1(a)(i) należy sprawdzić indywidualne ilości i rodzaj opakowania; pełne sprawdzenie Dz.U. i sprostowania pending.",
+      "notes_on_conditions": "Przy 1.1.3.1(a)(i) należy sprawdzić indywidualne ilości i rodzaj opakowania; pełne sprawdzenie Dz.U. i sprostowania pending. Dystraktory zredagowano redakcyjnie; pełne porównanie z polskim tekstem urzędowym i niezależna aprobata specjalisty nadal wymagane.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -77,11 +77,11 @@
         "stem": "Osoba prywatna przewozi niebezpieczny produkt w opakowaniu detalicznym do własnego użytku domowego. Jaki warunek jest istotny dla wyłączenia z ADR 1.1.3.1(a)(i)?",
         "options": {
           "A": "Zapewnienie środków zapobiegających wyciekowi zawartości w normalnych warunkach przewozu",
-          "B": "Sama deklaracja, że towar jest tani",
-          "C": "Zgoda każdego pasażera bez względu na zabezpieczenie"
+          "B": "Samo opakowanie detaliczne wystarcza, nawet gdy nie chroni przed wyciekiem.",
+          "C": "Wyłączenie działa tylko wtedy, gdy nadawca wystawi pełny dokument ADR."
         },
         "correct_option": "A",
-        "explanation": "Osoba prywatna może korzystać z tego wyłączenia dla produktów w opakowaniach detalicznych przeznaczonych do osobistego lub domowego użytku, ale musi zabezpieczyć je przed wyciekiem w normalnych warunkach przewozu. Sama niska cena ani zgoda pasażerów nie spełniają tego warunku. Dla niektórych cieczy obowiązują też dodatkowe limity. Podstawa: ADR 1.1.3.1(a)(i).",
+        "explanation": "Osoba prywatna może skorzystać z wyłączenia dla produktu w opakowaniu detalicznym przeznaczonym do użytku osobistego lub domowego, ale musi też zabezpieczyć zawartość przed wyciekiem w normalnych warunkach przewozu. Samo oryginalne opakowanie nie wystarcza, jeśli nie jest szczelne, a pełny dokument ADR nie jest warunkiem tego wyłączenia. Sprawdź również, czy spełnione są pozostałe warunki, w tym szczególne limity dla niektórych cieczy. Podstawa: ADR 1.1.3.1(a)(i).",
         "sources": [
           {
             "code": "ADR-2025-PL",
