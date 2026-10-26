@@ -55,7 +55,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant „Materiał zawsze sam jest cieczą łatwopalną” nie odpowiada zagrożeniu opisanemu w ADR 2025, 2.2.51.1.1. Kontrola tekstu polskiego oczekuje."
+          "rationale": "Klasa 5.1 oznacza zagrożenie utleniające, a nie automatycznie ciecz łatwopalną; błędna odpowiedź myli dwa różne rodzaje zagrożenia."
         },
         "B": {
           "expected_correct": true,
@@ -63,11 +63,11 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant „Towar nigdy nie wymaga oddzielenia od substancji palnych” nie odpowiada zagrożeniu opisanemu w ADR 2025, 2.2.51.1.1. Kontrola tekstu polskiego oczekuje."
+          "rationale": "Samo zamknięcie opakowania nie znosi wymagań dotyczących wspólnego załadunku i rozdzielenia materiałów; trzeba sprawdzić reguły ADR dla konkretnych towarów."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Pytania odnoszą się do identyfikacji klasy, nie przesądzają o wszystkich zagrożeniach konkretnej pozycji UN. Wymagane porównanie z oficjalnym polskim tekstem i sprostowaniem.",
+      "notes_on_conditions": "Pytania odnoszą się do identyfikacji klasy, nie przesądzają o wszystkich zagrożeniach konkretnej pozycji UN. Wymagane porównanie z oficjalnym polskim tekstem i sprostowaniem. Dystraktory zredagowano redakcyjnie; pełne porównanie z polskim tekstem urzędowym i niezależna aprobata specjalisty nadal wymagane.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -76,12 +76,12 @@
         "module_id": "ADR-B-02",
         "stem": "Opis towaru ADR wskazuje klasę 5.1 i odpowiednią nalepkę. Jakie zagrożenie należy uwzględnić?",
         "options": {
-          "A": "Materiał zawsze sam jest cieczą łatwopalną",
+          "A": "Materiał musi być cieczą łatwopalną, bo klasa 5.1 opisuje łatwopalność.",
           "B": "Materiał utleniający może spowodować lub nasilić spalanie innych materiałów",
-          "C": "Towar nigdy nie wymaga oddzielenia od substancji palnych"
+          "C": "Można go ładować razem z materiałami palnymi bez sprawdzania zasad rozdzielenia, jeśli opakowania są zamknięte."
         },
         "correct_option": "B",
-        "explanation": "Materiały klasy 5.1 są utleniające: mogą wspierać spalanie lub nasilać pożar innych materiałów, nawet jeśli same nie są łatwopalne. Nie oznacza to, że każdy taki towar jest cieczą palną ani że zawsze można go trzymać obok materiałów palnych. Trzeba uwzględnić wymagane warunki pakowania i oddzielania. Podstawa: ADR 2.2.51.1.1.",
+        "explanation": "Materiały klasy 5.1 są utleniające: mogą podtrzymywać spalanie albo nasilać pożar innych materiałów, nawet jeśli same nie są łatwopalne. Klasa 5.1 nie oznacza automatycznie cieczy łatwopalnej, a zamknięte opakowanie nie znosi wymagań dotyczących wspólnego załadunku i rozdzielenia. Dlatego trzeba sprawdzić właściwości konkretnego towaru i reguły załadunku, zamiast kierować się samym opakowaniem. Podstawa: ADR 2.2.51.1.1 i 7.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",

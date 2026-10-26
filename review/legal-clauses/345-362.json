@@ -377,7 +377,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Taka lampa jest zawsze obowiązkowa”) nie spełnia obowiązku opisanego w ADR 2025, 8.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Krótki czas użycia nie usuwa możliwości powstania iskry; lampa nadal musi spełniać wymaganie konstrukcyjne."
         },
         "B": {
           "expected_correct": true,
@@ -385,11 +385,11 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Wystarczy założyć słuchawki”) nie spełnia obowiązku opisanego w ADR 2025, 8.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Niskie napięcie nie gwarantuje, że metalowe części nie będą iskrzyć; trzeba dobrać lampę zgodną z ADR 8.3.4."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana.",
+      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana. Dystraktory zredagowano redakcyjnie; pełne porównanie z polskim tekstem urzędowym i niezależna aprobata specjalisty nadal wymagane.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -398,12 +398,12 @@
         "module_id": "ADR-B-04",
         "stem": "Na parkingu kierowca pojazdu ADR chce użyć przenośnej lampy, której metalowa część może wytwarzać iskry. Co stanowi ADR 8.3.4?",
         "options": {
-          "A": "Taka lampa jest zawsze obowiązkowa, niezależnie od warunków postoju",
+          "A": "Można użyć lampy z metalową częścią, która może iskrzyć, jeśli włącza się ją tylko na krótko.",
           "B": "Lampa nie może mieć metalowych części mogących iskrzyć",
-          "C": "Wystarczy założyć słuchawki ochronne, by móc używać dowolnej lampy"
+          "C": "Niskie napięcie lampy wystarcza, nawet jeśli jej metalowe części mogą powodować iskrzenie."
         },
         "correct_option": "B",
-        "explanation": "Przenośna lampa używana przy pojeździe ADR nie może mieć metalowych części, które mogą powodować iskrzenie i zapalić palne opary. Nie chodzi o obowiązek posiadania dowolnej lampy ani o używanie słuchawek. Sprzęt oświetleniowy powinien być dobrany tak, by nie tworzył dodatkowego źródła zapłonu. Podstawa: ADR 8.3.4.",
+        "explanation": "Przenośna lampa używana przy pojeździe objętym ADR nie może mieć metalowych części zdolnych do iskrzenia, bo iskra może zapalić palne opary. Krótki czas użycia nie usuwa tego ryzyka, a niskie napięcie samo w sobie nie oznacza, że konstrukcja lampy jest bezpieczna. Wybierz sprzęt, który spełnia wymaganie, zamiast próbować kompensować jego wadę ostrożnością. Podstawa: ADR 8.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
