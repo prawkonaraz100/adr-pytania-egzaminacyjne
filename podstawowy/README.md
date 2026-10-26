@@ -55,6 +55,8 @@ Format treningowy: 30 pytań, 60 minut, próg 20/30 (2/3). Każdy wariant obejmu
 
 ## Raporty i materiały
 
+- [Etap 4x52 — próbka 60 explanation i kontrola scenariuszy](raporty/etap-4x52-proba60-czytelnosc-2026-10-26.md)
+
 - [Etap 4x51 — próbka 60 explanation i kontrola scenariuszy](raporty/etap-4x51-proba60-scenariusze-2026-10-26.md)
 
 - [Etap 4x42 — scenariusze praktyczne i ścieżka klucza do lekcji](raporty/etap-4x42-scenariusze-egzaminy-2026-10-26.md)
