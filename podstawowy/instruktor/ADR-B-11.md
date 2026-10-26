@@ -120,3 +120,13 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - Wszystkie 14 unikalnych ID pytań z ćwiczeń istnieją w banku i należą do `ADR-B-11`.
 - Lekcja: [ADR-B-11](../lekcje/ADR-B-11.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
 - Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Pracuj na mapie i fikcyjnych kodach z tabeli A. Kursant powinien najpierw ustalić postać przewozu, potem odczytać kod i kategorię tunelu, a na końcu uzasadnić wybór trasy. Przy kodach złożonych liczy się właściwa reguła, nie wygoda.
+
+- `SC-ADR-B-11` — planowanie trasy i ograniczenia tunelowe.
+- `SC-ADR-B-11-02` — objazd tunelu z ograniczeniem.
+- `SC-ADR-B-11-03` — różne kody tunelowe w jednym ładunku.
+
+Pytania kontrolne: `ADR-B-0031`, `ADR-B-0032`, `ADR-B-0033`, `ADR-B-0248`, `ADR-B-0262`, `ADR-B-0430`, `ADR-B-0574`, `ADR-B-0591`, `ADR-B-0604`. Typowe pomyłki: utożsamienie D/E dla cystern i sztuk przesyłek, wybór kodu według wygody oraz pominięcie kodów innych towarów w tej samej jednostce.
