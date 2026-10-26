@@ -91,17 +91,21 @@ Sprawdzono wszystkie pliki `podstawowy/lekcje/ADR-B-01.md` … `ADR-B-13.md` pod
 
 ## Egzaminy i pakiet recenzenta
 
-- Przeliczono pięć arkuszy i kluczy 001–005 według świeżego banku `questions.jsonl` (blob SHA `7d69e28fb83341ff225d402da30ef38bac7dd047`).
+- Przeliczono pięć arkuszy i kluczy 001–005 według świeżego banku `questions.jsonl` (blob SHA `15fd07c36cd05fb59222fa6f15e4693d1d6a2664`).
 - Poprawne litery i explanation w kluczach odpowiadają aktualnym pytaniom; brak nieznanych ID. Wszystkie warianty zachowują status treningowy `publication_authorized=false`.
 - Zaktualizowano manifest, źródłowe SHA w obu kolejkach 4x40/4x44, bieżący rejestr i instrukcje przekazania. **376 nierozstrzygniętych porównań literalnych** pozostaje otwartych; nie traktowano kolejki jako potwierdzenia prawnego.
 
 ## Kontrole przed PR
 
 - Bank: 609 unikatowych ID, **609 `needs_review`**, 0 `verified`.
-- Explanation: minimum **291 znaków**; osiem nowych tekstów ma 291–379 znaków i 4–5 zdań.
+- Explanation: minimum **300 znaków**; osiem nowych tekstów ma 300–406 znaków i 4–5 zdań.
 - Wskaźnik „poprawna = jedyna najdłuższa”: **72/609 = 11,82%** globalnie, maksimum działu **14,29%**, limit 18%.
 - Formalne porównanie z polskim tekstem ADR 2025 (Dz.U. 2025 poz. 642 i sprostowanie poz. 1575) pozostaje zadaniem niezależnego specjalisty.
 
 ## Dalsza luka jakości
 
 W następnej partii warto zweryfikować pod kątem dydaktyki **powtarzające się schematy odpowiedzi w egzaminie** oraz krótkie automatyczne uzasadnienia w pozostałych 549 pytaniach spoza tej próby, bez ruszania niepotwierdzonych rozstrzygnięć prawnych.
+
+## Naprawy po pierwszym przebiegu CI
+
+Pierwsze uruchomienia Quality Gate wykryły: za krótkie explanation ADR-B-0422, pominięcie odwołania ADR 7.3.2 w ADR-B-0139, niezsynchronizowane `review/README.md` oraz zaburzenie rozkładu A/B/C po błędnym przywróceniu kolejności odpowiedzi z banku w wariantach treningowych. Przywrócono oryginalne permutacje pięciu wariantów i poprawne litery ich kluczy; zaktualizowano tylko treści explanation, migawkę banku i pozostałe wskazania. Nie zmieniono odpowiedzi źródłowych.
