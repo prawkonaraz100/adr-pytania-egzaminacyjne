@@ -13,6 +13,9 @@ Bieżący snapshot po etapie 4x42: 609 pytań `needs_review`, 0 `verified`, 0 fo
 5. Egzaminy próbne: `podstawowy/egzamin-probny/wariant-001.json`–`wariant-005.json` i odpowiadające im `klucz-001.json`–`klucz-005.json`; kontrola synchronizacji i biasu: `scripts/check_mock_exam_variants.py`.
 6. Lista wrażliwości na przyszłą edycję: `review/specialist/ETAP-4X9-ADR-2027-LISTA-KONTROLNA.md`.
 
+
+7. Kolejka uzupełniająca 4x44: `review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json` zawiera następną partię 20 ID z listy bez dosłownego cytatu MI, bez powtórzeń względem kolejki 4x40. Kolejność jest heurystyczna; każde pytanie nadal wymaga niezależnego porównania z urzędowym tekstem.
+
 ## Kolejność pracy recenzenta
 
 - Potwierdź **rzeczywistą tożsamość i kompetencję recenzenta** (nie twórz fikcyjnych nazwisk ani dat).

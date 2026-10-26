@@ -7,6 +7,7 @@
 - **Kurs:** 13 lekcji, 13 materiałów instruktorskich, 39 scenariuszy, 90 haseł słowniczka.
 - **Egzaminy:** warianty/klucze 001–005, każdy 30 pytań i wszystkie 13 działów; A/B/C = 10/10/10, maksymalna seria 3, 150 unikalnych ID. Klucze są zgodne z bankiem po mapowaniu liter opcji; od etapu 4x42 każde 150 wpisów kluczy zawiera też `lesson_path` do istniejącej lekcji właściwego działu.
 - **Próba explanation:** 60 nowych ID, ziarno `4292026`, 0 potwierdzonych problemów; 301–454 znaki, 3–5 zdań.
+- **Kolejka uzupełniająca 4x44:** [20 kolejnych pytań](KOLEJKA-PRIORYTETOWA-4X44.json), wybrane z pozostałych rekordów bez cytatu MI, bez powtórzeń względem kolejki 4x40. To wyłącznie priorytetyzacja; status porównania pozostaje `pending`.
 - **Otwarte dowody prawne:** 121 pozycji bez zapisanego dosłownego fragmentu MI ([lista](ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md)); odrębnie 376 porównań z pełnym tekstem polskim ADR pozostaje nierozstrzygniętych, a 10 rekordów wymaga dokończenia porównania. Wszystkie pytania nadal `needs_review`.
 - Raport 4x29: [druga próbka i egzaminy](../../podstawowy/raporty/etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md).
 - Raport 4x42: [scenariusze i odnośniki kluczy do lekcji](../../podstawowy/raporty/etap-4x42-scenariusze-egzaminy-2026-10-26.md).

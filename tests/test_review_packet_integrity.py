@@ -181,6 +181,46 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertEqual(self.manifest["status_counts"]["needs_review"], 609)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
 
+    def test_secondary_priority_legal_review_queue_stays_synchronized(self):
+        queue_path = REVIEW / "KOLEJKA-PRIORYTETOWA-4X44.json"
+        queue = json.loads(queue_path.read_text(encoding="utf-8"))
+        missing_quote_path = REVIEW / "ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md"
+        missing_quote_text = missing_quote_path.read_text(encoding="utf-8")
+        missing_quote_ids = set(re.findall(r"^-\s+(ADR-B-\d{4})\s*$", missing_quote_text, flags=re.MULTILINE))
+        primary = json.loads((REVIEW / "KOLEJKA-PRIORYTETOWA-4X40.json").read_text(encoding="utf-8"))
+        bank_bytes = (BASIC / "questions.jsonl").read_bytes()
+        bank_blob_sha = hashlib.sha1(
+            b"blob " + str(len(bank_bytes)).encode("ascii") + bytes([0]) + bank_bytes
+        ).hexdigest()
+
+        self.assertEqual(queue["stage"], "4x44_secondary_priority_legal_review_queue")
+        self.assertEqual(queue["source_bank_blob_sha"], bank_blob_sha)
+        self.assertEqual(queue["queue_count"], 20)
+        self.assertEqual(queue["full_missing_quote_count"], len(missing_quote_ids))
+        self.assertEqual(len(queue["records"]), 20)
+        self.assertEqual(len({row["id"] for row in queue["records"]}), 20)
+        primary_ids = {row["id"] for row in primary["records"]}
+        queue_ids = {row["id"] for row in queue["records"]}
+        self.assertTrue(queue_ids.issubset(missing_quote_ids))
+        self.assertTrue(queue_ids.isdisjoint(primary_ids))
+        manifest_queue = self.manifest["secondary_priority_legal_review_queue"]
+        self.assertEqual(manifest_queue["source_bank_blob_sha"], bank_blob_sha)
+        self.assertEqual(manifest_queue["queue_count"], 20)
+        self.assertEqual(manifest_queue["path"], "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json")
+        for row in queue["records"]:
+            with self.subTest(question_id=row["id"]):
+                source = self.by_id.get(row["id"])
+                self.assertIsNotNone(source)
+                self.assertEqual(row["module_id"], source["module_id"])
+                self.assertEqual(row["question"], source["stem"])
+                self.assertEqual(row["legal_basis"], [s["reference"] for s in source["sources"]])
+                self.assertEqual(row["verification_status"], "needs_review")
+                self.assertEqual(row["official_gazette_comparison"], "pending")
+                self.assertIsNone(row["official_gazette_page"])
+                self.assertTrue(row["priority_reasons"])
+                self.assertTrue(row["required_specialist_action"])
+                self.assertTrue(row["why_not_auto_resolved"])
+
     def test_priority_legal_review_queue_stays_synchronized(self):
         queue_path = REVIEW / "KOLEJKA-PRIORYTETOWA-4X40.json"
         queue = json.loads(queue_path.read_text(encoding="utf-8"))
