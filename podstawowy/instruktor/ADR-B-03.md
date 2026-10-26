@@ -123,7 +123,7 @@ W repozytorium nie ma statystyk błędów rzeczywistych kursantów, więc nie da
 - Pytania wymienione w ćwiczeniach: 4; identyfikatory zweryfikowano względem aktualnego banku i przypisania do modułu.
 - Źródłem merytorycznym pozostaje lekcja `../lekcje/ADR-B-03.md`, a scenariusze znajdują się w [mapie scenariuszy](../praktyka/scenariusze-13-dzialow.json). Numery ADR należy porównywać z aktualnym polskim tekstem ADR 2025 (Dz.U. 2025 poz. 642 i sprostowanie poz. 1575); ten dodatek nie jest formalną recenzją prawną.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Poprowadź kursanta od ochrony ludzi i środowiska do dokumentacji odpadu. Nie zaczynaj od recytowania numerów punktów: pokaż fikcyjną kartę wycieku, zapytaj, co można bezpiecznie ustalić z dystansu, a następnie pokaż, jakie dane są potrzebne do klasyfikacji odpadu. Nie pozwalaj na „testowanie” nieznanej substancji.
 
