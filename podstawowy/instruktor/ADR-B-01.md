@@ -10,11 +10,11 @@ Materiały przeniesione z lekcji: plany zajęć, mapy kompetencji, zadania instr
 
 **Obserwowalne kryterium:** Odróżnia wyłączenie warunkowe od całkowitego zwolnienia; nie zakłada, że samo określenie «prywatny» wystarcza.
 
-**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
+**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Materiał pozostaje do niezależnej recenzji ADR.
 
 
 
-## Uporządkowany plan realizacji lekcji — wersja robocza 23.10.2026
+## Plan realizacji lekcji
 
 **Miejsce w programie:** temat 1(a) załącznika nr 1 do rozporządzenia w sprawie prowadzenia kursów ADR: wymagania ogólne, przepisy i definicje, szkolenie osób zaangażowanych oraz wyłączenia. Ramowy wymiar tego tematu: **2 godziny lekcyjne** (45 minut każda). Nie doliczać tej lekcji do czasu ćwiczeń praktycznych.
 
@@ -134,3 +134,13 @@ W repozytorium nie ma statystyk błędów rzeczywistych kursantów, więc nie da
 - Podstawy zapisane w mapie kompetencji do sprawdzenia: 1.1, 1.2; 1.3; 8.2.1; 1.1.3.1; 3.4, 3.5; 1.1.3.6; 2.1, 3.2, 3.3.
 - Pytania wymienione w ćwiczeniach: 15; identyfikatory zweryfikowano względem aktualnego banku i przypisania do modułu.
 - Źródłem merytorycznym pozostaje lekcja `../lekcje/ADR-B-01.md`, a scenariusze znajdują się w [mapie scenariuszy](../praktyka/scenariusze-13-dzialow.json). Numery ADR należy porównywać z aktualnym polskim tekstem ADR 2025 (Dz.U. 2025 poz. 642 i sprostowanie poz. 1575); ten dodatek nie jest formalną recenzją prawną.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Prowadź zajęcia w tej samej kolejności co lekcja kursanta: role uczestników i szkolenie, rozróżnienie 1.1.3.1 / 1.1.3.6 / LQ / EQ, następnie sprawdzanie tabeli A i dopuszczalności przewozu. Na fikcyjnych dokumentach poproś kursanta o wskazanie danych, których brakuje do decyzji; nie wymagaj zgadywania limitu bez wpisu konkretnego towaru.
+
+- `SC-ADR-B-01` — kontrola drogowa: zwolnienia, ilości i dopuszczalność przewozu.
+- `SC-ADR-B-01-02` — przed wyjazdem: ustalenie, czy można skorzystać ze zwolnienia.
+- `SC-ADR-B-01-03` — kontrola dokumentów: polecenie nie uchyla zakazu.
+
+Na koniec omów pytania `ADR-B-0001`, `ADR-B-0002`, `ADR-B-0003`, `ADR-B-0259`, `ADR-B-0570`, `ADR-B-0595`, `ADR-B-0605`, `ADR-B-0607`, `ADR-B-0608`, `ADR-B-0609`. Zwróć uwagę na częste pomyłki: „mała ilość” nie jest samodzielnym zwolnieniem, LQ i EQ mają inne warunki niż 1.1.3.6, a zaświadczenie ADR nie zastępuje prawa jazdy. Wytłumacz błąd przez wskazanie pominiętego warunku, nie przez samo odczytanie numeru przepisu.

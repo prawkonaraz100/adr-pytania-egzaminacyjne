@@ -19,14 +19,14 @@ O klasie decydują właściwości towaru oraz kryteria ADR, a nie kolor opakowan
 ## 2. Klasy ADR
 | Klasa | Główne zagrożenie | Na co uważać |
 |---|---|---|
-| 1 | Materiały i przedmioty wybuchowe | Podklasy, np. 1.1 — wybuch masowy; istnieją grupy zgodności |
+| 1 | Materiały i przedmioty wybuchowe | Podklasy, np. 1.1 — wybuch masowy (wybuch mogący objąć niemal cały ładunek); istnieją grupy zgodności (oznaczenia używane do określenia zgodności materiałów wybuchowych przy wspólnym przewozie) |
 | 2 | Gazy | Mogą być palne, niepalne lub trujące |
 | 3 | Materiały ciekłe zapalne | Nie każda ciecz należy do klasy 3 |
 | 4.1 | Materiały stałe zapalne i inne określone materiałami | Nie mylić z 4.2 i 4.3 |
 | 4.2 | Materiały podatne na samozapalenie lub samonagrzewanie | Ryzyko może wystąpić bez zewnętrznego źródła zapłonu |
 | 4.3 | Materiały wydzielające palne gazy w kontakcie z wodą | Nie używaj wody na podstawie domysłu |
-| 5.1 | Materiały utleniające | Mogą nasilać pożar |
-| 5.2 | Nadtlenki organiczne | Mogą ulegać egzotermicznemu rozkładowi |
+| 5.1 | Materiały utleniające (mogące nasilać spalanie innych materiałów) | Mogą nasilać pożar |
+| 5.2 | Nadtlenki organiczne (związki, które w określonych warunkach mogą rozkładać się z wydzieleniem ciepła) | Mogą ulegać niebezpiecznemu rozkładowi |
 | 6.1 | Materiały trujące | Ryzyko toksycznego oddziaływania |
 | 6.2 | Materiały zakaźne | Zagrożenie biologiczne; sprawdź klasyfikację materiału |
 | 7 | Materiały promieniotwórcze | Sama nalepka nie zastępuje wymagań specjalistycznych |
@@ -68,6 +68,8 @@ W ADR 2025 pozycje UN 3551 i UN 3552 dotyczą baterii sodowo-jonowych w różnyc
 Przykładowe punkty klasyfikacyjne: klasa 1 — ADR 2.2.1.1.5 (podklasy); klasa 2 — 2.2.2.1.1–2.2.2.1.2; klasa 3 — 2.2.3.1.1; klasa 4.1 — 2.2.41.1.1; klasa 4.2 — 2.2.42.1.1; klasa 4.3 — 2.2.43.1.1; klasa 5.1 — 2.2.51.1.1; klasa 5.2 — 2.2.52.1.1–2.2.52.1.4; klasa 6.1 — 2.2.61.1.1; klasa 6.2 — 2.2.62.1.1–2.2.62.1.2; klasa 7 — 2.2.7.1 i właściwe kryteria szczegółowe; klasa 8 — 2.2.8.1.1; klasa 9 — 2.2.9.1.1. Dla klasy 7 sprawdź też kryteria kategorii przesyłki i właściwe przepisy szczegółowe w ADR 2.2.7.1.1, 2.2.7.2.2.1 i 2.2.7.2.2.6; samo rozpoznanie klasy nie wystarcza do ustalenia wszystkich warunków przewozu. Dla baterii sodowo-jonowych sprawdź odpowiednio ADR 2.2.9.1.7.2(a), (c) i (d) oraz właściwe wymagania badań typu. Przy oznaczeniach sprawdź też wzory nalepek w ADR 5.2.2.2.2. To mapa do szukania przepisu, a nie zamiennik klasyfikacji konkretnego towaru.
 
 ## 5. Gdy nalepka i dokumenty nie pasują
+
+**Przykład z rozładunku.** Na opakowaniu widzisz nalepkę, ale dokument podaje inną klasę albo inny numer UN. Nie próbuj samodzielnie „dopasować” oznaczenia do zawartości i nie opieraj się wyłącznie na kolorze. Wstrzymaj przyjęcie tej przesyłki, porównaj dokument z właściwym wpisem w tabeli A i poproś odpowiedzialnego uczestnika o wyjaśnienie rozbieżności. Dzięki temu nie podejmiesz działań właściwych dla innego zagrożenia. Podstawa: ADR 3.2 tabela A, 5.2.2.
 Nie rozpoznawaj towaru po zapachu, wyglądzie cieczy ani nazwie handlowej. Odczytaj pełną nalepkę, numer UN i dokumenty, a następnie porównaj je z tabelą A. Zagrożenia dodatkowe mogą wpływać na wymagane oznakowanie. Rozbieżność wyjaśnij przed przewozem.
 
 ## Typowe błędy kursantów

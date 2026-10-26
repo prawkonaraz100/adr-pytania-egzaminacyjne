@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, mapy kompetencji, zadania instr
 
 **Obserwowalne kryterium:** Nie przypisuje numeru UN wyłącznie na podstawie koloru nalepki.
 
-**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
+**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Materiał pozostaje do niezależnej recenzji ADR.
 
 
 
@@ -136,3 +136,13 @@ W repozytorium nie ma statystyk błędów rzeczywistych kursantów, więc nie da
 - Podstawy zapisane w mapie kompetencji do sprawdzenia: 2.2.1; 2.2.2; 2.2.3; 2.2.41; 2.2.42; 2.2.43; 2.2.51; 2.2.52; 2.2.61; 2.2.62; 2.2.7; 2.2.8; 2.2.9; 2.1, 3.2.
 - Pytania wymienione w ćwiczeniach: 4; identyfikatory zweryfikowano względem aktualnego banku i przypisania do modułu.
 - Źródłem merytorycznym pozostaje lekcja `../lekcje/ADR-B-02.md`, a scenariusze znajdują się w [mapie scenariuszy](../praktyka/scenariusze-13-dzialow.json). Numery ADR należy porównywać z aktualnym polskim tekstem ADR 2025 (Dz.U. 2025 poz. 642 i sprostowanie poz. 1575); ten dodatek nie jest formalną recenzją prawną.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Pracuj od rozpoznania zagrożenia do sprawdzenia dokumentu. Użyj fikcyjnych etykiet i kart wpisów UN; kursant powinien wyjaśnić różnicę między klasą, podklasą i grupą pakowania oraz wskazać, kiedy sam symbol nie wystarcza. Nie używaj prawdziwych substancji ani nie zlecaj improwizowanych prób reakcji chemicznych.
+
+- `SC-ADR-B-02` — rozładunek: mokre opakowanie z nalepką 4.3.
+- `SC-ADR-B-02-02` — przy rozładunku: nieznana substancja na opakowaniu.
+- `SC-ADR-B-02-03` — sprawdzenie klasy i grupy pakowania przed przyjęciem.
+
+Na koniec omów pytania `ADR-B-0004`, `ADR-B-0005`, `ADR-B-0006`, `ADR-B-0042`, `ADR-B-0043`, `ADR-B-0044`, `ADR-B-0265`, `ADR-B-0307`, `ADR-B-0315`, `ADR-B-0510`. Typowe pomyłki to utożsamienie klasy z grupą pakowania, mylenie materiałów trujących z zakaźnymi oraz traktowanie klasy 4.3 jak zwykłej cieczy. Proś kursanta o uzasadnienie na podstawie właściwości i tabeli A, nie koloru lub nazwy handlowej.
