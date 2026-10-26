@@ -91,3 +91,8 @@ Bank ma nowy blob SHA `99c06e736c0e5812e97d4ff02567dbf741629434` po pojedynczej 
 - Raport: `podstawowy/raporty/etap-4x39-przeglad-explanation-i-synchronizacja-2026-10-26.md`.
 
 Kontrola nie jest formalną weryfikacją prawną i nie upoważnia do publikacji egzaminu.
+
+
+## Priorytety otwartej recenzji — etap 4x40
+
+Najpierw można przejrzeć 20 rekordów z `review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json`. Kolejka została uszeregowana na podstawie sygnałów z treści (liczby/progi, wyjątki, sprzęt/dokumenty, klasy ryzyka, tunele), a nie na podstawie ustalenia błędu prawnego. Dla każdego rekordu trzeba niezależnie porównać treść z oficjalnym polskim tekstem Dz.U. 2025 poz. 642 i sprostowaniem poz. 1575, zapisać cytat oraz stronę i ocenić A/B/C. Nie kontynuować prób wydobywania cytatów z MI/PDF. Nie zmieniać statusu `needs_review` bez formalnego protokołu.
