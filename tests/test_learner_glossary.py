@@ -9,6 +9,7 @@ GLOSSARY = ROOT / "podstawowy" / "SLOWNICZEK.md"
 # Canonical learner-facing terms. Slugs are explicit HTML anchors in SLOWNICZEK.md.
 TERMS = {
     "ADR": (r"\bADR\b", ("adr",)),
+    "Nadawca": (r"\bnadawc(?:a|y|ę|ą|e)\b", ("nadawca",)),
     "Numer UN": (r"\bnumer(?:u)?\s+UN\b|\bUN\b", ("numer-un",)),
     "LQ — ilości ograniczone": (r"\bLQ\b", ("lq-ilosci-ograniczone",)),
     "EQ — ilości wyłączone": (r"\bEQ\b", ("eq-ilosci-wylaczone",)),
@@ -97,6 +98,18 @@ class LearnerGlossaryTests(unittest.TestCase):
                         any(f"SLOWNICZEK.md#{slug}" in paragraph for slug in slugs),
                         f"{path.name}: pierwsze użycie „{heading}” nie ma objaśnienia ani linku do kotwicy w tym samym akapicie/list item",
                     )
+
+
+    def test_glossary_anchors_and_exact_headings_are_unique(self):
+        glossary = GLOSSARY.read_text(encoding="utf-8")
+        anchors = re.findall(r'<a id="([^"]+)"></a>', glossary)
+        duplicate_anchors = sorted({slug for slug in anchors if anchors.count(slug) > 1})
+        self.assertEqual(duplicate_anchors, [], f"duplicate glossary anchors: {duplicate_anchors}")
+
+        headings = [heading.strip() for heading in re.findall(r"(?im)^\| \*\*(.*?)\*\*", glossary) if heading.strip()]
+        normalized = [heading.casefold() for heading in headings]
+        duplicate_headings = sorted({heading for heading in normalized if normalized.count(heading) > 1})
+        self.assertEqual(duplicate_headings, [], f"duplicate glossary headings: {duplicate_headings}")
 
 if __name__ == "__main__":
     unittest.main()

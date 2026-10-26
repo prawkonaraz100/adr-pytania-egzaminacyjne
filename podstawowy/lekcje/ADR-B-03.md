@@ -67,7 +67,7 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 ## Scenariusze praktyczne
 1. **Wyciek przy odpływie.** Kierowca zauważa nieznaną ciecz blisko kratki kanalizacyjnej. Nie dotyka jej, nie rozpoznaje zapachem, ostrzega osoby w pobliżu, oddala się i powiadamia odpowiedzialne osoby lub służby.
 2. **Opakowanie i opary.** Po awarii przy drzwiach ładowni widać pary. Kierowca nie wchodzi w chmurę i nie zgaduje, co się uwolniło. Z bezpiecznego miejsca ostrzega innych i stosuje instrukcje w granicach bezpieczeństwa.
-3. **Nieznany skład odpadu.** Nadawca nie zna dokładnego składu. Kursant wskazuje brakujące informacje i wyjaśnia, dlaczego nie wolno nadawać przypadkowego numeru UN ani automatycznie wybierać najłagodniejszej grupy pakowania.
+3. **Nieznany skład odpadu.** [Nadawca](../SLOWNICZEK.md#nadawca) nie zna dokładnego składu. Kursant wskazuje brakujące informacje i wyjaśnia, dlaczego nie wolno nadawać przypadkowego numeru UN ani automatycznie wybierać najłagodniejszej grupy pakowania.
 4. **Dokument i oczyszczenie.** Wyciek zanieczyścił przestrzeń ładunkową. Przed następnym załadunkiem kierowca sprawdza wymóg oczyszczenia i upewnia się, że dokument odpadu zawiera wymagane dane. Ćwiczenia wykonuje się na fikcyjnych kartach, bez rzeczywistego wycieku.
 
 ## Co musisz zapamiętać
