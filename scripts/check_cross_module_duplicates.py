@@ -21,7 +21,8 @@ STOP = {
 
 
 def normalize(text):
-    text = unicodedata.normalize("NFKD", str(text or "").casefold())
+    text = str(text or "").casefold().replace("ł", "l")
+    text = unicodedata.normalize("NFKD", text)
     text = "".join(ch for ch in text if not unicodedata.combining(ch))
     return re.sub(r"[^a-z0-9]+", " ", text).strip()
 
