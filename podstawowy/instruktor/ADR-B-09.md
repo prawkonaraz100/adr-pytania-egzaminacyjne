@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, karty o
 
 **Obserwowalne kryterium:** Nie dopuszcza uszkodzonego ładunku do przewozu.
 
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Materiał wymaga niezależnej recenzji; nie jest dowodem zaliczenia ćwiczenia praktycznego ani akceptacji prawnej pytania.
 
 
 
@@ -124,3 +124,13 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - Wszystkie 6 unikalnych ID pytań z ćwiczeń istnieją w banku i należą do `ADR-B-09`.
 - Lekcja: [ADR-B-09](../lekcje/ADR-B-09.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
 - Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Użyj fikcyjnej karty załadunku i rysunku przestrzeni ładunkowej. Poproś kursanta, aby wskazał: co sprawdzi przed załadunkiem, co może uszkodzić opakowanie, jakie towary mogą wymagać rozdzielenia oraz jak potwierdzi dopuszczenie przewozu luzem. Nie podawaj 0,8 m jako uniwersalnej zasady — to jedna z metod tylko wtedy, gdy właściwy przepis ma zastosowanie.
+
+- `SC-ADR-B-09` — kontrola przed załadunkiem i mocowania.
+- `SC-ADR-B-09-02` — oględziny przed załadunkiem.
+- `SC-ADR-B-09-03` — mocowanie przed dłuższą trasą.
+
+Pytania kontrolne: `ADR-B-0025`, `ADR-B-0026`, `ADR-B-0027`, `ADR-B-0200`, `ADR-B-0235`, `ADR-B-0286`, `ADR-B-0424`, `ADR-B-0518`, `ADR-B-0554`, `ADR-B-0560`. Błędy do omówienia: założenie, że wszystkie towary można ładować razem; zbyt mocne mocowanie; przewóz luzem bez sprawdzenia dopuszczenia.
