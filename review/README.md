@@ -1,5 +1,7 @@
 # Niezależny przegląd ADR — zatwierdzanie pojedynczych rekordów
 
+- [Etap 4x43 — aktualność pakietu recenzyjnego](../podstawowy/raporty/etap-4x43-aktualnosc-pakietu-recenzyjnego-2026-10-26.md)
+
 ## Etap 4x25 — czytelność explanation i zgodność egzaminów
 
 - [Raport końcowy 4x25](../podstawowy/raporty/etap-4x25-raport-koncowy-2026-10-26.md): 609 pytań sprawdzonych w partiach; jedna korekta końcowa ADR-B-0197; 0 potwierdzonych duplikatów.
