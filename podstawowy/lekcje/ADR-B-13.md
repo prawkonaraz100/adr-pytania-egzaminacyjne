@@ -39,6 +39,10 @@ W zależności od przewozu mogą być wymagane dodatkowe dokumenty, świadectwa 
 
 Dokument przygotowany dla odcinka morskiego nie znosi automatycznie wszystkich wymagań odcinka drogowego. Sprawdź, czy warunki zastosowania ADR 1.1.4.2.1 są spełnione i czy wymagany jest wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1” zgodnie z 5.4.1.1.7. Dla niektórych naczep bank wskazuje umowę wielostronną M364 i datę 31 grudnia 2026 r.; jest to warunkowy wyjątek, a nie ogólne zwolnienie. Przed zastosowaniem sprawdź aktualny tekst umowy, jej zakres, datę obowiązywania oraz to, czy konkretny pojazd spełnia wszystkie warunki. Dokument IMDG (RID dotyczy przewozu koleją, a IMDG przewozu morskiego; na drodze nadal sprawdzasz wymagania ADR; [słowniczek](../SLOWNICZEK.md#rid-imdg)) może być istotny dla odcinka morskiego, ale sam nie potwierdza kompletności dokumentacji drogowej.
 
+## Przykład przed wyjazdem
+
+Kierowca dostaje dokument, w którym wpisano nazwę handlową, ale brakuje wymaganej nazwy przewozowej lub danych o ilości. Nie uzupełnia braków na podstawie przypuszczeń. Porównuje opis z właściwym wpisem ADR, prosi odpowiedzialnego uczestnika o poprawienie dokumentu i sprawdza, czy instrukcje pisemne są dostępne w języku zrozumiałym dla załogi. Nie rusza, dopóki brak nie zostanie wyjaśniony. Podstawa: ADR 5.4.1.1.1 i 5.4.3.
+
 ## Typowe błędy kursantów
 - pomijanie wymaganej nazwy przewozowej lub innych danych;
 - zgadywanie brakujących informacji zamiast ich potwierdzenia;
