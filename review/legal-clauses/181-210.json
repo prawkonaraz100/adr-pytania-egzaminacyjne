@@ -155,7 +155,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Załoga nie ma obowiązku gasić każdego pożaru, nawet gdy to ryzykowne."
+          "rationale": "Sama dostępność gaśnicy nie oznacza, że należy rozpocząć gaszenie bez oceny ryzyka; bezpieczeństwo załogi ma pierwszeństwo."
         },
         "B": {
           "expected_correct": true,
@@ -163,11 +163,11 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Otwieranie opakowań nie jest wymagane do gaszenia hamulców."
+          "rationale": "Otwieranie przesyłki nie jest sposobem doboru gaśnicy i może zwiększyć narażenie na towar niebezpieczny."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Nie należy gasić pożaru obejmującego ładownię.",
+      "notes_on_conditions": "Nie należy gasić pożaru obejmującego ładownię. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
       "editorial_result": "no_additional_key_conflict_found_in_this_pass",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -177,12 +177,12 @@
         "module_id": "ADR-B-05",
         "stem": "Pali się niewielka część hamulca pojazdu ADR, ogień jest w początkowej fazie, a droga ewakuacji pozostaje bezpieczna. Co przewidują instrukcje?",
         "options": {
-          "A": "Kierowca zawsze musi gasić każdy pożar pojazdu, nawet gdy nie jest to bezpieczne",
+          "A": "Kierowca powinien rozpocząć gaszenie, gdy ma gaśnicę pod ręką, nawet jeśli warunki nie są bezpieczne.",
           "B": "Rozważyć gaśnicę przy małym pożarze w początkowej fazie, jeśli to bezpieczne",
-          "C": "Otworzyć opakowania ładunku przed użyciem gaśnicy, by sprawdzić ich zawartość"
+          "C": "Najpierw otworzyć jedno opakowanie ładunku, aby sprawdzić jego zawartość i dopiero wtedy dobrać sposób gaszenia."
         },
         "correct_option": "B",
-        "explanation": "Przy niewielkim pożarze hamulców we wczesnej fazie załoga może użyć odpowiedniej gaśnicy, jeśli działanie nie naraża jej na niebezpieczeństwo. Nie ma jednak obowiązku gaszenia każdego pożaru za wszelką cenę. Otwieranie opakowań z niebezpiecznym ładunkiem nie jest przygotowaniem do bezpiecznego gaszenia. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Przy małym pożarze na wczesnym etapie załoga może rozważyć użycie gaśnicy tylko wtedy, gdy działanie jest właściwe i bezpieczne. Sama dostępność gaśnicy nie oznacza, że trzeba ryzykować życie, a otwieranie przesyłek nie jest sposobem sprawdzania ładunku i może zwiększyć narażenie. Jeśli nie da się działać bezpiecznie, oddal się i powiadom służby. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
