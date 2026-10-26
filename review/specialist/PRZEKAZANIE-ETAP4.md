@@ -1,12 +1,12 @@
 ## Aktualizacja redakcyjna 4x46 (26.10.2026)
 
-- Bank blob SHA: `7d69e28fb83341ff225d402da30ef38bac7dd047`; 609 pytań `needs_review`, 0 `verified`.
+- Bank blob SHA: `15fd07c36cd05fb59222fa6f15e4693d1d6a2664`; 609 pytań `needs_review`, 0 `verified`.
 - Osiem wyjaśnień uproszczono po deterministycznej próbie 60 nowych ID. To kontrola dydaktyczna, nie ocena zgodności prawnej. Dotychczasowe kolejki i 376 nierozstrzygniętych porównań literalnych pozostają otwarte.
 - [Raport 4x46](../../podstawowy/raporty/etap-4x46-proba60-i-synchronizacja-2026-10-26.md).
 
 ## Bieżąca migawka — etap 4x45 (26.10.2026)
 
-- Bank blob SHA: `7d69e28fb83341ff225d402da30ef38bac7dd047`.
+- Bank blob SHA: `15fd07c36cd05fb59222fa6f15e4693d1d6a2664`.
 - 609 pytań, wszystkie `needs_review`, zero `verified`; nie ma formalnych zatwierdzeń.
 - Redakcyjne korekty próby 40 i sformułowań z kolejek nie stanowią recenzji prawnej. 376 porównań literalnych pozostaje nierozstrzygniętych; 40 wpisów kolejek 4x40/4x44 nadal wymaga sprawdzenia przez specjalistę.
 
