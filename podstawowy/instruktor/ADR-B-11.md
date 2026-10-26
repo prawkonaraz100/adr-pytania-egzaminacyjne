@@ -2,6 +2,9 @@
 
 Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, karty obserwacji i kryteria informacji zwrotnej. Nie są dowodem przeprowadzenia zajęć ani zaliczenia kursanta. Nie wpisuj fikcyjnych dat, ocen ani podpisów.
 
+**Słowniczek pojęć dla kursanta:** [SLOWNICZEK.md](../SLOWNICZEK.md).
+
+
 ## Zadanie instruktorskie: Tunele
 
 **Symulacja bez rzeczywistych towarów:** Kursant porównuje oznakowanie jednostki ADR i oznakowanie LQ wymagane przez 3.4.13; ustala ograniczenie kategorii E.
