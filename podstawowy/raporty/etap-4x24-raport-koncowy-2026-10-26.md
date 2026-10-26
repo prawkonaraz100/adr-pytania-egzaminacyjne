@@ -14,8 +14,8 @@
 | Wskaźnik | Wynik |
 |---|---:|
 | Rekordy z puli 172 przejrzane w pięciu partiach | 172 |
-| Dosłowne fragmenty MI wydobyte | 47 |
-| Rekordy nadal bez dosłownego fragmentu MI | 125 |
+| Dosłowne fragmenty MI wydobyte | 44 |
+| Rekordy nadal bez dosłownego fragmentu MI | 128 |
 | Pytania KC sprawdzone osobno | 3 |
 | Potwierdzone sprzeczności | 0 |
 | Pytania/klucze zmienione | 0 |
@@ -31,7 +31,7 @@
 | 3 — stage4x24-mi-literal-batch3-0427-0501-2026-10-26.json | 40 | 7 | 33 |
 | 4 — stage4x24-mi-literal-batch4-0502-0578-2026-10-26.json | 40 | 1 | 39 |
 | 5 — stage4x24-mi-literal-batch5-0579-0599-2026-10-26.json | 15 | 7 | 8 |
-| **Razem** | **172** | **47** | **125** |
+| **Razem** | **172** | **44** | **128** |
 
 ## Kodeks cywilny — ADR-B-0567–0569
 
@@ -46,11 +46,11 @@ Wniosek: pytania 0567–0569 zachowują ostrożne brzmienie. Nie twierdzą, że 
 
 W dostępnej warstwie tekstowej MI nie udało się wydobyć dokładnego brzmienia właściwego podpunktu albo właściwego wiersza tabeli dla 125 rekordów. Dotyczy to m.in. kodów tunelowych, tabeli wspólnego załadunku, kodów BK/VC, świadectw i kategorii pojazdów, progów ilościowych, dokumentacji przewozowej, oznakowania oraz baterii sodowo-jonowych. W tych przypadkach nie zastępowano cytatu parafrazą, nie wyciągano wniosku o zgodności i nie zmieniano odpowiedzi na podstawie pamięci.
 
-**Lista 125 ID bez dosłownego fragmentu:**
-
+**Lista 128 ID bez dosłownego fragmentu:**
 - ADR-B-0026
 - ADR-B-0032
 - ADR-B-0033
+- ADR-B-0036
 - ADR-B-0058
 - ADR-B-0060
 - ADR-B-0079
@@ -91,6 +91,8 @@ W dostępnej warstwie tekstowej MI nie udało się wydobyć dokładnego brzmieni
 - ADR-B-0379
 - ADR-B-0402
 - ADR-B-0403
+- ADR-B-0409
+- ADR-B-0410
 - ADR-B-0427
 - ADR-B-0428
 - ADR-B-0433
@@ -173,7 +175,6 @@ W dostępnej warstwie tekstowej MI nie udało się wydobyć dokładnego brzmieni
 - ADR-B-0599
 - ADR-B-0600
 - ADR-B-0602
-
 ## Ograniczenia i status formalny
 
 - Fragment MI jest pomocniczym źródłem polskojęzycznym, ale nie zastępuje porównania z ogłoszonym tekstem prawnym.
