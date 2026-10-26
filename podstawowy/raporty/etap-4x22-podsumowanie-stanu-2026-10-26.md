@@ -65,3 +65,12 @@ Nie należy deklarować sukcesu całego etapu ani zatwierdzać pytań, dopóki t
 - Bezpośredni PDF ELI oraz wybrane podzielone skany nie dały się odczytać przez limit treści/timeout. **Nie odnaleziono żadnej strony PDF Dz.U.**; nie przenoszono paginacji MI na Dz.U.
 - Nie stwierdzono potwierdzonej rozbieżności z tekstem wiążącym, bo porównanie z tym tekstem pozostaje zablokowane. Brak zmian pytań/kluczy; 0 `verified`.
 - Szczegóły: `podstawowy/raporty/etap-4x22-literalne-dowody-0192-0231-2026-10-26.md` oraz `review/batches/stage4x22-literal-0192-0231.json`.
+
+
+## Aktualizacja po partii 0232–0271
+
+- Świeży `main` na wejściu: `463c94d720d7fca71540895612bb8b9f396095c1`.
+- Przejrzano 40 rekordów; 29 miało już wynik, 11 nadal oczekuje na urzędowe porównanie.
+- Dla wszystkich 11 otwartych rekordów zapisano indywidualną przyczynę i następny krok. Trzy mają cytat z pomocniczego tekstu MI, ale bez strony Dz.U.; osiem nie ma cytatu.
+- Strony PDF Dz.U. znalezione: 0; nie przypisywano stron z paginacji MI. Brak potwierdzonych poprawek pytań/kluczy; statusy pozostają `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0232-0271-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0232-0271.json`.
