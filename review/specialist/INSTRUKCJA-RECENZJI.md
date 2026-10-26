@@ -96,3 +96,9 @@ Kontrola nie jest formalną weryfikacją prawną i nie upoważnia do publikacji 
 ## Priorytety otwartej recenzji — etap 4x40
 
 Najpierw można przejrzeć 20 rekordów z `review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json`. Kolejka została uszeregowana na podstawie sygnałów z treści (liczby/progi, wyjątki, sprzęt/dokumenty, klasy ryzyka, tunele), a nie na podstawie ustalenia błędu prawnego. Dla każdego rekordu trzeba niezależnie porównać treść z oficjalnym polskim tekstem Dz.U. 2025 poz. 642 i sprostowaniem poz. 1575, zapisać cytat oraz stronę i ocenić A/B/C. Nie kontynuować prób wydobywania cytatów z MI/PDF. Nie zmieniać statusu `needs_review` bez formalnego protokołu.
+
+
+
+## Integralność kolejki 4x40 — kontrola CI
+
+Quality Gate sprawdza, czy 20 pozycji kolejki istnieje w banku i na liście rekordów bez cytatu MI, czy ich dział/pytanie/podstawa odpowiadają aktualnemu bankowi, czy snapshot SHA jest aktualny i czy wszystkie statusy pozostają `needs_review`. Kolejka nadal jest tylko priorytetyzacją, nie oceną poprawności prawnej.
