@@ -87,7 +87,6 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0574`
 - `ADR-B-0604`
 
-Scenariusz z pracy kierowcy: [SC-ADR-B-11 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
 
 ## Powiązane pytania w banku
 - ADR-B-0031
@@ -151,7 +150,5 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 - `SC-ADR-B-11-03` — **Różne kody tunelowe w jednym ładunku**
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
 
 
