@@ -141,7 +141,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         )
         quote_list = REVIEW / "ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md"
         quote_text = quote_list.read_text(encoding="utf-8")
-        quote_ids = re.findall(r"^- (ADR-B-\\d{4})$", quote_text, flags=re.MULTILINE)
+        quote_ids = re.findall(r"^- (ADR-B-\d{4})$", quote_text, flags=re.MULTILINE)
         self.assertEqual(len(quote_ids), 121)
         self.assertEqual(len(set(quote_ids)), 121)
         self.assertTrue(set(quote_ids).issubset(self.by_id))
