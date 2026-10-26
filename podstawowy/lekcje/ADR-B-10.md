@@ -68,6 +68,16 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 3. **Certyfikat pakowania.** Kursant porównuje dokument przewozowy z certyfikatem pakowania kontenera/pojazdu i wyjaśnia, dlaczego trzeba sprawdzić, czy certyfikat jest wymagany.
 4. **Niekompletna dokumentacja w terminalu.** Kierowca nie dopisuje brakujących danych samodzielnie na podstawie przypuszczeń; wyjaśnia niezgodność przed przejęciem ładunku do przewozu drogowego.
 
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-10` — **Kontener po rejsie morskim — dalszy odcinek drogowy**
+- `SC-ADR-B-10-02` — **Dokumenty po rejsie morskim**
+- `SC-ADR-B-10-03` — **Niezgodność certyfikatu pakowania**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
+
 ## Co musisz zapamiętać
 - ADR, RID i IMDG dotyczą różnych gałęzi transportu.
 - Dokument morski nie zwalnia automatycznie z wymagań drogowych.
@@ -91,6 +101,7 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0396`
 - `ADR-B-0511`
 
+Ćwiczenie po pytaniach: [SC-ADR-B-10](../praktyka/scenariusze-13-dzialow.json) — opowiedz bezpieczne czynności kierowcy, a potem sprawdź kroki w scenariuszu.
 
 ## Powiązane pytania w banku
 - ADR-B-0028
@@ -155,16 +166,3 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; zastosowanie wyjątku i dokumenty trzeba sprawdzić dla konkretnego przewozu.
-
-
-## Trzy scenariusze praktyczne do przejścia po pytaniach
-
-Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
-
-- `SC-ADR-B-10` — **Kontener po rejsie morskim — dalszy odcinek drogowy**
-- `SC-ADR-B-10-02` — **Dokumenty po rejsie morskim**
-- `SC-ADR-B-10-03` — **Niezgodność certyfikatu pakowania**
-
-Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
