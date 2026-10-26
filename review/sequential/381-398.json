@@ -719,12 +719,12 @@
       "exact_record_snapshot": {
         "stem": "W transporcie drogowym z odcinkiem morskim przed przewozem ktoś proponuje zastąpić dokument transportowy IMDG ustnym telefonem. Co wynika z 1.1.4.2.3?",
         "options": {
-          "A": "Ustna rozmowa telefoniczna zawsze może zastąpić dokument przewozowy wymagany przy towarach niebezpiecznych",
+          "A": "Przyjąć ustne potwierdzenie nadawcy, jeśli dane są w zleceniu, bez dokumentu wymaganego ADR.",
           "B": "Zastąpienie dokumentu jest możliwe tylko w określonym zakresie dla IMDG/ICAO i po spełnieniu warunków ADR",
-          "C": "Kolor kontenera wystarczy do ustalenia dokumentacji, ponieważ określa rodzaj przewożonego towaru"
+          "C": "Wykorzystać listę ładunkową terminala zamiast dokumentu przewozowego, jeśli zawiera numer UN i nazwę towaru."
         },
         "correct_option": "B",
-        "explanation": "Przy przewozie kombinowanym dokument IMDG (dla morza) albo dokument ICAO (dla lotnictwa) może być wykorzystany tylko w zakresie i na warunkach określonych w ADR. Telefon nie zawiera wymaganych danych, a kolor kontenera nie zastępuje dokumentacji. Przed ruszeniem sprawdź, czy dokument ma wymagane informacje dla odcinka drogowego. Podstawa: ADR 1.1.4.2.3.",
+        "explanation": "W transporcie kombinowanym dokument morski IMDG lub lotniczy ICAO może być wykorzystany tylko w zakresie i na warunkach określonych w ADR. Ustne potwierdzenie ani sama lista terminala nie zastępują automatycznie dokumentu z wymaganymi danymi. Przed odcinkiem drogowym sprawdź, czy zastosowany dokument spełnia warunki wyjątku i zawiera potrzebne informacje. Podstawa: ADR 1.1.4.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
