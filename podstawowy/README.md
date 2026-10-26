@@ -253,3 +253,8 @@ Raporty ETAPU 4x7
 
 
 - [Etap 4x50 — próbka 60 explanation i synchronizacja pakietu recenzyjnego](raporty/etap-4x50-proba60-explanation-2026-10-26.md)
+
+## Etapy 4x59–4x60 — ćwiczenia praktyczne i powiązania z bankiem
+
+- [Raport końcowy 4x59](raporty/etap-4x59-raport-koncowy-2026-10-26.md): 39 pytań decyzyjnych w scenariuszach, losowa próba 60 explanation, jedna korekta redakcyjna, pełny PASS CI.
+- [Mapa powiązań 4x60](raporty/etap-4x60-mapa-scenariusze-bank-2026-10-26.md): 75 unikalnych ID przypisanych do scenariuszy, propozycja ręcznej kontroli pozostałych tematów praktycznych bez sztucznego mnożenia odsyłaczy.
