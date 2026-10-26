@@ -1,3 +1,4 @@
+import json
 import re
 import unittest
 from pathlib import Path
@@ -119,7 +120,7 @@ class LearnerGlossaryTests(unittest.TestCase):
     def test_instructor_guides_link_glossary_and_all_scenarios(self):
         files = sorted(INSTRUCTORS.glob("ADR-B-*.md"))
         self.assertEqual(len(files), 13)
-        scenario_data = __import__("json").loads(SCENARIOS.read_text(encoding="utf-8"))
+        scenario_data = json.loads(SCENARIOS.read_text(encoding="utf-8"))
         scenario_ids = {item["id"] for item in scenario_data["scenarios"]}
         for path in files:
             module_number = path.stem[-2:]
@@ -148,7 +149,7 @@ class LearnerGlossaryTests(unittest.TestCase):
         for path in files:
             module = f"ADR-B-{path.stem[-2:]}"
             text = path.read_text(encoding="utf-8")
-            ids = set(re.findall(r"ADR-B-\\d{4}", text))
+            ids = set(re.findall(r"ADR-B-\d{4}", text))
             for question_id in ids:
                 with self.subTest(file=path.relative_to(ROOT).as_posix(), question=question_id):
                     self.assertIn(question_id, by_id, "question ID nie istnieje w banku")
