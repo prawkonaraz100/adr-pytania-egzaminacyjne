@@ -125,7 +125,7 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - Lekcja: [ADR-B-09](../lekcje/ADR-B-09.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
 - Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Użyj fikcyjnej karty załadunku i rysunku przestrzeni ładunkowej. Poproś kursanta, aby wskazał: co sprawdzi przed załadunkiem, co może uszkodzić opakowanie, jakie towary mogą wymagać rozdzielenia oraz jak potwierdzi dopuszczenie przewozu luzem. Nie podawaj 0,8 m jako uniwersalnej zasady — to jedna z metod tylko wtedy, gdy właściwy przepis ma zastosowanie.
 
