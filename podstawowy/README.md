@@ -100,7 +100,7 @@ python scripts/check_explanation_quality.py --minimum 300
 python -m unittest discover -s tests -v
 ```
 
-Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 71/609 = 11,66%, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
+Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 70/609 = 11,49%, próg Quality Gate: 18%. Wewnętrzna mapa 104 kompetencji teoretycznych ma pytania robocze, ale to nie dowodzi poprawności prawnej ani wystarczającej głębokości nauczania.
 
 ## Status weryfikacji
 
@@ -114,7 +114,7 @@ Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 71/609 
 
 ## Aktualizacja po audycie pokrycia 4t
 
-Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogólnych zasad odpowiedzialności cywilnej wskazanych w ADR 8.2.2.3.2(k). Raport: [ETAP 4t](raporty/etap-4t-pokrycie-programu-2026-10-25.md). Bank ma obecnie 609 pytań, wszystkie `needs_review`, 0 `verified`; wskaźnik „poprawna = najdłuższa” wynosi 71/609 = 11,66% według ścisłego kryterium CI.
+Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogólnych zasad odpowiedzialności cywilnej wskazanych w ADR 8.2.2.3.2(k). Raport: [ETAP 4t](raporty/etap-4t-pokrycie-programu-2026-10-25.md). Bank ma obecnie 609 pytań, wszystkie `needs_review`, 0 `verified`; wskaźnik „poprawna = najdłuższa” wynosi 70/609 = 11,49% według ścisłego kryterium CI.
 
 
 ## Raporty ETAPU 4x17 — odbiór lekcji i scenariuszy
