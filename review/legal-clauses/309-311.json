@@ -55,7 +55,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („W dowolnym miejscu przy drodze”) jest niezgodny z rozróżnieniem z ADR 2025, 8.4.1; pozostaje kontrola oficjalnej polskiej wersji."
+          "rationale": "Niezabezpieczony parking publiczny nie jest równoważny zabezpieczonej bazie lub terenowi zakładu w pierwszej kolejności postoju."
         },
         "B": {
           "expected_correct": true,
@@ -63,11 +63,11 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Zawsze na poboczu autostrady”) jest niezgodny z rozróżnieniem z ADR 2025, 8.4.1; pozostaje kontrola oficjalnej polskiej wersji."
+          "rationale": "Krótki czas postoju nie zwalnia z wymagań nadzoru ani nie czyni pobocza właściwym miejscem."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Konieczne sprawdzenie konkretnych klasyfikacji i wyjątków; pełna kontrola polskiego Dz.U. oraz sprostowania nie została wykonana.",
+      "notes_on_conditions": "Konieczne sprawdzenie konkretnych klasyfikacji i wyjątków; pełna kontrola polskiego Dz.U. oraz sprostowania nie została wykonana. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -76,12 +76,12 @@
         "module_id": "ADR-B-04",
         "stem": "Towary i ich ilości powodują zastosowanie nadzoru nad pojazdem z ADR 8.4.1. Gdzie w pierwszej kolejności można bez dozoru zaparkować pojazd?",
         "options": {
-          "A": "W dowolnym miejscu przy drodze",
+          "A": "Na najbliższym parkingu publicznym, nawet jeśli nie jest zabezpieczony, bo to najprostsze rozwiązanie.",
           "B": "W zabezpieczonej bazie albo na zabezpieczonym terenie zakładu",
-          "C": "Zawsze na poboczu autostrady"
+          "C": "Na poboczu, jeśli postój będzie krótszy niż 15 minut, mimo że przewóz wymaga nadzoru."
         },
         "correct_option": "B",
-        "explanation": "Jeśli przewóz wymaga nadzoru, ADR określa kolejność dopuszczalnych sposobów postoju. W pierwszej kolejności można skorzystać z zabezpieczonej bazy lub zabezpieczonego terenu zakładu. Dowolne miejsce przy drodze ani pobocze autostrady nie zapewniają same w sobie wymaganego zabezpieczenia. Podstawa: ADR 8.4.1.",
+        "explanation": "Gdy przewóz podlega wymaganiom nadzoru, ADR określa kolejność dopuszczalnych miejsc postoju. W pierwszej kolejności należy skorzystać z zabezpieczonej bazy lub odpowiednio zabezpieczonego terenu zakładu. Krótki postój ani wygoda nie sprawiają, że zwykłe pobocze lub niezabezpieczony parking stają się równoważne. Podstawa: ADR 8.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
