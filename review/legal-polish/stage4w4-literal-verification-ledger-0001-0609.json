@@ -38,6 +38,10 @@
     {
       "url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
       "result": "Part 5: 48 questions screened. 32 textually consistent in scope; 16 remain unresolved because they require direct checking of detailed waste-classification exceptions, a specific loading-prohibition table row, class 7 criteria, or corrigendum applicability to UN 3551."
+    },
+    {
+      "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "result": "Opened via web; rejected because content length exceeded 10 MiB. Split ELI scan files were also attempted (02 timed out; 15 exceeded 24 MB limit; 41 exceeded 10 MiB limit). Relevant Gazette page mapping for clauses in batch 0192–0231 not yet established; no official page numbers inferred."
     }
   ],
   "entries": [
@@ -5195,13 +5199,15 @@
       "ministry_polish_text_copy": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
       "ministry_polish_text_copy_status": "auxiliary_copy_not_source_of_law",
       "stage4x22_source_attempt": {
-        "batch": "stage4x22-literal-0152-0191",
+        "batch": "stage4x22-literal-0192-0231",
         "date": "2026-10-26",
         "clause": "1.4.2.3.2",
-        "source_attempted": "Ministerstwo Infrastruktury ADR 2025 tom I/II PL; Dz.U. 2025 poz. 642",
-        "status": "exact_quote_not_retrieved",
-        "reason": "Nie uzyskano dosłownego obowiązku odbiorcy usunięcia niezgodności przed zwrotem kontenera.",
-        "next_action": "Pobrać i otworzyć dokładną stronę odpowiedniego tomu MI, zapisać literalny polski cytat i numery stron, następnie wskazać stronę Dz.U. 2025 poz. 642. Nie zgadywać i nie oznaczać verified."
+        "source_attempted": "Dz.U. 2025 poz. 642, oficjalne pliki PDF ELI/Dziennik Ustaw; dodatkowo wyszukiwane materiały MI wyłącznie pomocniczo",
+        "status": "official_gazette_page_not_retrieved",
+        "reason": "Nie udało się pobrać ani odczytać właściwego fragmentu prawnie wiążącego PDF Dz.U. 2025 poz. 642. W poprzednim przebiegu również nie uzyskano literalnego cytatu z aktualnego tomu MI.",
+        "next_action": "Ustalić plik skanowy Dz.U. obejmujący dział 1.4, otworzyć odpowiednią stronę obrazu/OCR i zapisać numer strony Dz.U.; do tego czasu nie rozstrzygać cytatu literalnie.",
+        "no_page_inferred": true,
+        "verification_status": "needs_review"
       }
     },
     {
@@ -5338,13 +5344,15 @@
       "ministry_polish_text_copy": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
       "ministry_polish_text_copy_status": "auxiliary_copy_not_source_of_law",
       "stage4x22_source_attempt": {
-        "batch": "stage4x22-literal-0152-0191",
+        "batch": "stage4x22-literal-0192-0231",
         "date": "2026-10-26",
         "clause": "7.5.7.1",
-        "source_attempted": "Ministerstwo Infrastruktury ADR 2025 tom I/II PL; Dz.U. 2025 poz. 642",
-        "status": "exact_quote_not_retrieved",
-        "reason": "Nie uzyskano dokładnego brzmienia ogólnego obowiązku zabezpieczenia wszystkich ładunków przed przemieszczaniem.",
-        "next_action": "Pobrać i otworzyć dokładną stronę odpowiedniego tomu MI, zapisać literalny polski cytat i numery stron, następnie wskazać stronę Dz.U. 2025 poz. 642. Nie zgadywać i nie oznaczać verified."
+        "source_attempted": "Dz.U. 2025 poz. 642, oficjalne pliki PDF ELI/Dziennik Ustaw; dodatkowo wyszukiwane materiały MI wyłącznie pomocniczo",
+        "status": "official_gazette_page_not_retrieved",
+        "reason": "Nie uzyskano dosłownego brzmienia 7.5.7.1 z PDF Dz.U. 2025 poz. 642; dostępne wyszukiwanie zwracało pomocnicze lub starsze materiały, których nie wolno traktować jako źródła wiążącego.",
+        "next_action": "Odnaleźć właściwy skan Dz.U. dla części 7.5, porównać brzmienie 7.5.7.1 i zapisać stronę PDF Dz.U.",
+        "no_page_inferred": true,
+        "verification_status": "needs_review"
       }
     },
     {
@@ -5383,7 +5391,18 @@
         "comparison_scope": "literal excerpt recorded; exact row/conditions require confirmation against official Dz.U. PDF and specialist review",
         "question_id": "ADR-B-0201"
       },
-      "stage4x22_literal_evidence_status": "literal_quote_recorded_from_MI_copy; exact Dz.U. 2025 poz. 642 page open; specialist review pending"
+      "stage4x22_literal_evidence_status": "literal_quote_recorded_from_MI_copy; exact Dz.U. 2025 poz. 642 page open; specialist review pending",
+      "stage4x22_source_attempt": {
+        "batch": "stage4x22-literal-0192-0231",
+        "date": "2026-10-26",
+        "clause": "7.5.8.2",
+        "source_attempted": "Dz.U. 2025 poz. 642, oficjalne pliki PDF ELI/Dziennik Ustaw; dodatkowo wyszukiwane materiały MI wyłącznie pomocniczo",
+        "status": "official_gazette_page_not_retrieved",
+        "reason": "Istnieje fragment z pomocniczego PDF MI (PDF 615 / druk 604), ale nie udało się odnaleźć dokładnej strony w skanowanym PDF Dz.U. 2025 poz. 642. Pytanie i explanation są zgodne z zakresem cytatu MI; to nie jest potwierdzenie urzędowe.",
+        "next_action": "Zmapować fragment 7.5.8.2 na jeden z plików D20250642-xx.pdf, odczytać stronę skanu Dz.U. i porównać kontekst poprzedniego zdania.",
+        "no_page_inferred": true,
+        "verification_status": "needs_review"
+      }
     },
     {
       "id": "ADR-B-0202",
@@ -5407,13 +5426,15 @@
       "ministry_polish_text_copy": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
       "ministry_polish_text_copy_status": "auxiliary_copy_not_source_of_law",
       "stage4x22_source_attempt": {
-        "batch": "stage4x22-literal-0152-0191",
+        "batch": "stage4x22-literal-0192-0231",
         "date": "2026-10-26",
         "clause": "7.5.1.2",
-        "source_attempted": "Ministerstwo Infrastruktury ADR 2025 tom I/II PL; Dz.U. 2025 poz. 642",
-        "status": "exact_quote_not_retrieved",
-        "reason": "Nie uzyskano pełnego tekstu warunków kontroli przed załadunkiem i skutku braku wymaganych dokumentów.",
-        "next_action": "Pobrać i otworzyć dokładną stronę odpowiedniego tomu MI, zapisać literalny polski cytat i numery stron, następnie wskazać stronę Dz.U. 2025 poz. 642. Nie zgadywać i nie oznaczać verified."
+        "source_attempted": "Dz.U. 2025 poz. 642, oficjalne pliki PDF ELI/Dziennik Ustaw; dodatkowo wyszukiwane materiały MI wyłącznie pomocniczo",
+        "status": "official_gazette_page_not_retrieved",
+        "reason": "Nie uzyskano strony PDF Dz.U. 2025 poz. 642 z pełnym punktem 7.5.1.2. Wyszukiwanie zwracało fragment z materiału pomocniczego, ale nie potwierdzało mapowania na skan Dziennika Ustaw.",
+        "next_action": "Odnaleźć urzędowy skan części 7.5 i porównać warunek kontroli dokumentów oraz oględzin przed załadunkiem.",
+        "no_page_inferred": true,
+        "verification_status": "needs_review"
       }
     },
     {
@@ -5476,20 +5497,31 @@
       "ministry_polish_text_copy_status": "auxiliary_copy_not_source_of_law",
       "literal_clause": "5.4.2",
       "literal_evidence": {
-        "source": "Ministerstwo Infrastruktury, ADR 2025, tom II PL",
-        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
-        "pdf_page": 279,
-        "printed_page": 268,
+        "source": "Ministerstwo Infrastruktury, pomocniczy tekst ADR 2025, punkt 5.4.2",
+        "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+        "pdf_page": null,
+        "printed_page": null,
         "clause": "5.4.2",
-        "short_quote": "Certyfikat pakowania kontenera/pojazdu powinien być dostarczony przewoźnikowi morskiemu, gdy wymagają tego warunki przewozu kombinowanego.",
+        "short_quote": "Jeżeli przewóz towarów niebezpiecznych znajdujących się w kontenerze dokonywany jest bezpośrednio przed przewozem morskim, certyfikat pakowania kontenera/pojazdu zgodny z przepisami rozdziału 5.4.2 Kodeksu IMDG,⁵,⁹ powinien być dostarczony przewoźnikowi morskiemu przez odpowiedzialnych za pakowanie kontenera.",
         "gazette_source": "https://dziennikustaw.gov.pl/DU/2025/642",
         "gazette_pdf_page": null,
-        "gazette_page_status": "not_retrieved_exact_pdf_page_in_this_batch; do not infer from MI copy",
+        "gazette_page_status": "not_retrieved; no page inferred from MI copy",
         "source_status": "auxiliary_copy_not_source_of_law",
-        "comparison_scope": "literal excerpt recorded; exact row/conditions require confirmation against official Dz.U. PDF and specialist review",
+        "comparison_scope": "MI wording corrected from prior paraphrase; official Dz.U. comparison still pending",
         "question_id": "ADR-B-0204"
       },
-      "stage4x22_literal_evidence_status": "literal_quote_recorded_from_MI_copy; exact Dz.U. 2025 poz. 642 page open; specialist review pending"
+      "stage4x22_literal_evidence_status": "literal_quote_recorded_from_MI_copy; exact Dz.U. 2025 poz. 642 page open; specialist review pending",
+      "stage4x22_source_attempt": {
+        "batch": "stage4x22-literal-0192-0231",
+        "date": "2026-10-26",
+        "clause": "5.4.2",
+        "source_attempted": "Dz.U. 2025 poz. 642, oficjalne pliki PDF ELI/Dziennik Ustaw; dodatkowo wyszukiwane materiały MI wyłącznie pomocniczo",
+        "status": "official_gazette_page_not_retrieved",
+        "reason": "W ledgerze znajdował się skrót/parafraza oznaczona jako short_quote. Wyszukiwanie aktualnego pomocniczego PDF MI ujawniło dokładniejsze brzmienie, ale strona prawnie wiążącego PDF Dz.U. nadal nie została odnaleziona.",
+        "next_action": "Potwierdzić ten sam tekst na skanie Dz.U. 2025 poz. 642 i zapisać rzeczywisty numer strony urzędowej.",
+        "no_page_inferred": true,
+        "verification_status": "needs_review"
+      }
     },
     {
       "id": "ADR-B-0205",
@@ -5511,7 +5543,18 @@
       "literal_comparison_batch": "stage4x21-literal-0137-0300",
       "literal_comparison_date": "2026-10-26",
       "ministry_polish_text_copy": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
-      "ministry_polish_text_copy_status": "auxiliary_copy_not_source_of_law"
+      "ministry_polish_text_copy_status": "auxiliary_copy_not_source_of_law",
+      "stage4x22_source_attempt": {
+        "batch": "stage4x22-literal-0192-0231",
+        "date": "2026-10-26",
+        "clause": "1.1.4.2; 1.1.4.3",
+        "source_attempted": "Dz.U. 2025 poz. 642, oficjalne pliki PDF ELI/Dziennik Ustaw; dodatkowo wyszukiwane materiały MI wyłącznie pomocniczo",
+        "status": "official_gazette_page_not_retrieved",
+        "reason": "Nie udało się pobrać właściwej strony urzędowego PDF dla 1.1.4.2–1.1.4.3. Testy otwarcia całego text.pdf przekraczają limit treści, a próby otwarcia plików podzielonych przez ELI zwracają timeout/limit; nie ustalono jeszcze, który plik zawiera dokładny ustęp.",
+        "next_action": "Ustalić zakres stron dla części 1.1 w spisie skanów Dz.U., następnie otworzyć odpowiedni plik i zanotować stronę; nie wnioskować z RID ani z ADR 2023.",
+        "no_page_inferred": true,
+        "verification_status": "needs_review"
+      }
     },
     {
       "id": "ADR-B-0206",
@@ -5591,7 +5634,18 @@
         "comparison_scope": "literal excerpt recorded; exact row/conditions require confirmation against official Dz.U. PDF and specialist review",
         "question_id": "ADR-B-0208"
       },
-      "stage4x22_literal_evidence_status": "literal_quote_recorded_from_MI_copy; exact Dz.U. 2025 poz. 642 page open; specialist review pending"
+      "stage4x22_literal_evidence_status": "literal_quote_recorded_from_MI_copy; exact Dz.U. 2025 poz. 642 page open; specialist review pending",
+      "stage4x22_source_attempt": {
+        "batch": "stage4x22-literal-0192-0231",
+        "date": "2026-10-26",
+        "clause": "8.6.3.1; 8.6.4",
+        "source_attempted": "Dz.U. 2025 poz. 642, oficjalne pliki PDF ELI/Dziennik Ustaw; dodatkowo wyszukiwane materiały MI wyłącznie pomocniczo",
+        "status": "official_gazette_page_not_retrieved",
+        "reason": "Fragment 8.6.3.1 jest zapisany z pomocniczego PDF MI (PDF 677 / druk 666), ale dokładna strona urzędowego skanu Dz.U. 2025 poz. 642 nie została pobrana. W zakresie cytatu MI klucz C i explanation są zgodne.",
+        "next_action": "Odnaleźć stronę 8.6.3.1–8.6.4 w jednym z oficjalnych plików D20250642-xx.pdf i zanotować numer strony PDF Dz.U.",
+        "no_page_inferred": true,
+        "verification_status": "needs_review"
+      }
     },
     {
       "id": "ADR-B-0209",
@@ -5657,13 +5711,15 @@
       "ministry_polish_text_copy": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
       "ministry_polish_text_copy_status": "auxiliary_copy_not_source_of_law",
       "stage4x22_source_attempt": {
-        "batch": "stage4x22-literal-0152-0191",
+        "batch": "stage4x22-literal-0192-0231",
         "date": "2026-10-26",
         "clause": "1.10.1.2",
-        "source_attempted": "Ministerstwo Infrastruktury ADR 2025 tom I/II PL; Dz.U. 2025 poz. 642",
-        "status": "exact_quote_not_retrieved",
-        "reason": "Nie uzyskano dokładnego tekstu obowiązku weryfikacji tożsamości przewoźnika przed wydaniem towaru.",
-        "next_action": "Pobrać i otworzyć dokładną stronę odpowiedniego tomu MI, zapisać literalny polski cytat i numery stron, następnie wskazać stronę Dz.U. 2025 poz. 642. Nie zgadywać i nie oznaczać verified."
+        "source_attempted": "Dz.U. 2025 poz. 642, oficjalne pliki PDF ELI/Dziennik Ustaw; dodatkowo wyszukiwane materiały MI wyłącznie pomocniczo",
+        "status": "official_gazette_page_not_retrieved",
+        "reason": "Nie uzyskano strony urzędowego PDF Dz.U. z literalnym tekstem 1.10.1.2. Wyszukiwanie zwracało starsze akty i materiały pomocnicze; nie uznaję ich za dowód dla edycji 2025.",
+        "next_action": "Otworzyć właściwy skan Dz.U. 2025 poz. 642 dla działu 1.10 i zapisać literalny cytat wraz ze stroną.",
+        "no_page_inferred": true,
+        "verification_status": "needs_review"
       }
     },
     {
@@ -5709,13 +5765,15 @@
       "ministry_polish_text_copy": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
       "ministry_polish_text_copy_status": "auxiliary_copy_not_source_of_law",
       "stage4x22_source_attempt": {
-        "batch": "stage4x22-literal-0152-0191",
+        "batch": "stage4x22-literal-0192-0231",
         "date": "2026-10-26",
         "clause": "1.10.3.3",
-        "source_attempted": "Ministerstwo Infrastruktury ADR 2025 tom I/II PL; Dz.U. 2025 poz. 642",
-        "status": "exact_quote_not_retrieved",
-        "reason": "Nie uzyskano dosłownego wymogu utrzymywania skuteczności środków ochrony towarów dużego ryzyka.",
-        "next_action": "Pobrać i otworzyć dokładną stronę odpowiedniego tomu MI, zapisać literalny polski cytat i numery stron, następnie wskazać stronę Dz.U. 2025 poz. 642. Nie zgadywać i nie oznaczać verified."
+        "source_attempted": "Dz.U. 2025 poz. 642, oficjalne pliki PDF ELI/Dziennik Ustaw; dodatkowo wyszukiwane materiały MI wyłącznie pomocniczo",
+        "status": "official_gazette_page_not_retrieved",
+        "reason": "Nie uzyskano strony urzędowego PDF Dz.U. z literalnym tekstem 1.10.3.3. Wyszukiwanie zwracało RID/ADR 2023, a to nie wystarcza do potwierdzenia polskiego tekstu ADR 2025.",
+        "next_action": "Otworzyć właściwy skan Dz.U. 2025 poz. 642 dla działu 1.10.3.3 i porównać wymóg ciągłej skuteczności zabezpieczeń.",
+        "no_page_inferred": true,
+        "verification_status": "needs_review"
       }
     },
     {
@@ -17336,5 +17394,57 @@
     "verification_status": "needs_review",
     "specialist_review": "pending",
     "note": "Exact passages for these 40 provisions were not present in the retrieved MI excerpts. Clause-specific reasons and next retrieval actions were recorded rather than fabricating quotations or page numbers."
+  },
+  "stage4x22_batch_0192_0231": {
+    "date": "2026-10-26",
+    "ids_checked": [
+      "ADR-B-0192",
+      "ADR-B-0193",
+      "ADR-B-0194",
+      "ADR-B-0195",
+      "ADR-B-0196",
+      "ADR-B-0197",
+      "ADR-B-0198",
+      "ADR-B-0199",
+      "ADR-B-0200",
+      "ADR-B-0201",
+      "ADR-B-0202",
+      "ADR-B-0203",
+      "ADR-B-0204",
+      "ADR-B-0205",
+      "ADR-B-0206",
+      "ADR-B-0207",
+      "ADR-B-0208",
+      "ADR-B-0209",
+      "ADR-B-0210",
+      "ADR-B-0211",
+      "ADR-B-0212",
+      "ADR-B-0213",
+      "ADR-B-0214",
+      "ADR-B-0215",
+      "ADR-B-0216",
+      "ADR-B-0217",
+      "ADR-B-0218",
+      "ADR-B-0219",
+      "ADR-B-0220",
+      "ADR-B-0221",
+      "ADR-B-0222",
+      "ADR-B-0223",
+      "ADR-B-0224",
+      "ADR-B-0225",
+      "ADR-B-0226",
+      "ADR-B-0227",
+      "ADR-B-0228",
+      "ADR-B-0229",
+      "ADR-B-0230",
+      "ADR-B-0231"
+    ],
+    "prior_comparison_results": 31,
+    "missing_official_comparison_result": 9,
+    "official_dz_u_pages_retrieved": 0,
+    "mi_excerpt_records_reviewed": 3,
+    "confirmed_question_or_key_corrections": 0,
+    "status": "partial_source_attempts_recorded; official_DzU_comparison_pending",
+    "note": "No Gazette page number or quote was inferred. The 0204 short_quote was corrected to the literal wording found in the current MI auxiliary PDF; the Gazette page remains unverified."
   }
 }

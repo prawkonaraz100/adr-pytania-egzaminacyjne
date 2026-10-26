@@ -55,3 +55,13 @@ Dalsze partie muszą najpierw odzyskać właściwe strony źródłowe dla progó
 - pozostałe rekordy, których exact text/page jest wskazany w `stage4x22_source_attempt`.
 
 Nie należy deklarować sukcesu całego etapu ani zatwierdzać pytań, dopóki te dowody nie zostaną uzyskane i porównane z urzędowym tekstem. Wszystkie pytania pozostają `needs_review`; niezależna akceptacja specjalisty nadal jest wymagana.
+
+
+## Aktualizacja po partii 0192–0231
+
+- Świeży `main` na wejściu: `502a39482a2545d4d03ffb8146e51c49f8bed754`.
+- Sprawdzono 40 rekordów. 31 miało już wynik porównania; 9 nadal nie ma wyniku urzędowego porównania.
+- Dla 9 otwartych rekordów zapisano konkretną próbę źródłową i następny krok. W 3 przypadkach zachowano cytat z MI jako materiał pomocniczy; w ADR-B-0204 skorygowano parafrazę do brzmienia znalezionego w pomocniczym tekście MI.
+- Bezpośredni PDF ELI oraz wybrane podzielone skany nie dały się odczytać przez limit treści/timeout. **Nie odnaleziono żadnej strony PDF Dz.U.**; nie przenoszono paginacji MI na Dz.U.
+- Nie stwierdzono potwierdzonej rozbieżności z tekstem wiążącym, bo porównanie z tym tekstem pozostaje zablokowane. Brak zmian pytań/kluczy; 0 `verified`.
+- Szczegóły: `podstawowy/raporty/etap-4x22-literalne-dowody-0192-0231-2026-10-26.md` oraz `review/batches/stage4x22-literal-0192-0231.json`.
