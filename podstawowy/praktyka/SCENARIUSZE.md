@@ -4,7 +4,7 @@
 
 ## Scenariusze dla kursanta — działy B-01–B-03
 
-Scenariusze w pliku `scenariusze-13-dzialow.json` są ćwiczeniami na fikcyjnych dokumentach i sytuacjach. W każdym przypadku kursant powinien powiedzieć **co robi**, **czego nie robi** i **dlaczego**. Instruktor może użyć pól `common_mistakes`, `legal_basis` i `learner_takeaway` jako krótkiej karty omówienia. Nie należy traktować samej odpowiedzi w quizie jako zaliczenia praktyki.
+Scenariusze w pliku `scenariusze-13-dzialow.json` są ćwiczeniami na fikcyjnych dokumentach i sytuacjach. **Kolejność pracy kursanta:** najpierw przeczytaj `situation`, odpowiedz własnymi słowami na `learner_question`, a dopiero potem porównaj swoją decyzję z listą `steps`, typowymi błędami `common_mistakes`, wytłumaczeniem `learner_takeaway` i odpowiednimi `question_ids`. Dzięki temu poznajesz powód decyzji, a nie tylko gotowe kroki. W każdym przypadku kursant powinien powiedzieć **co robi**, **czego nie robi** i **dlaczego**. Instruktor może użyć pól `common_mistakes`, `legal_basis` i `learner_takeaway` jako krótkiej karty omówienia. Nie należy traktować samej odpowiedzi w quizie jako zaliczenia praktyki.
 
 ### B-01 — wyłączenia i dopuszczalność przewozu
 - `SC-ADR-B-01`: sprawdź numer UN, kategorię, ilość, LQ/EQ, dopuszczalność przewozu i wymagane zaświadczenie.
