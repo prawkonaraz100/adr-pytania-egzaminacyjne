@@ -83,3 +83,12 @@ Nie należy deklarować sukcesu całego etapu ani zatwierdzać pytań, dopóki t
 - Dla 10 otwartych rekordów zapisano przyczynę i następny krok. Dwa mają cytaty pomocnicze MI; dla ADR-B-0278 poprawiono parafrazę do dokładnego tekstu MI. Strony Dz.U. nie potwierdzono.
 - Nie znaleziono urzędowych stron PDF i nie zmieniono pytań/kluczy; 0 `verified`.
 - Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0272-0311-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0272-0311.json`.
+
+
+## Aktualizacja po partii 0312–0351
+
+- Świeży `main` na wejściu: `0d8b5560e76c7f22d837bca191cb4785bfd186c5`.
+- Przejrzano 40 rekordów; 11 miało już wynik, 29 nadal oczekuje na urzędowe porównanie.
+- Dla wszystkich 29 otwartych rekordów zapisano konkretny powód blokady i następny krok. Zakres obejmuje m.in. klasyfikację odpadów, UN 3551, klasę 7, pojazdy EX/II/EX/III, wspólny załadunek i nadzór postoju.
+- Strony PDF Dz.U. znalezione: 0; nie zmieniono pytań/kluczy i nie nadano `verified`.
+- Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0312-0351-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0312-0351.json`.
