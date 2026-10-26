@@ -130,7 +130,8 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
             b"blob " + str(len(bank_bytes)).encode("ascii") + bytes([0]) + bank_bytes
         ).hexdigest()
         self.assertEqual(self.manifest["current_bank_blob_sha"], blob_sha)
-        self.assertEqual(self.manifest["stage4x29"]["source_bank_blob_sha"], blob_sha)
+        self.assertRegex(self.manifest["stage4x29"]["source_bank_blob_sha"], r"^[0-9a-f]{40}$")
+        self.assertEqual(self.manifest["stage4x31"]["source_bank_blob_sha"], blob_sha)
         self.assertEqual(self.manifest["stage4x29"]["sample_size"], 60)
         self.assertEqual(self.manifest["stage4x29"]["key_mismatches_after_letter_remapping"], 0)
 

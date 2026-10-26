@@ -1,5 +1,5 @@
 {
-  "stage": "stage4x29_current_review_snapshot",
+  "stage": "stage4x31_current_review_snapshot",
   "snapshot_date": "2026-10-26",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
@@ -309,7 +309,7 @@
     },
     "not_verified_warning": "All 609 questions remain needs_review. A targeted comparison result does not constitute verified status."
   },
-  "current_bank_blob_sha": "ed0dee6e93f21cbb758c3d088a4d02e0aaed9fc4",
+  "current_bank_blob_sha": "99c06e736c0e5812e97d4ff02567dbf741629434",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -562,5 +562,21 @@
     "strictly_longest_rate_each_variant": "0/30",
     "verified": 0,
     "report": "podstawowy/raporty/etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md"
+  },
+  "stage4x31": {
+    "status": "complete_explanation_readability_regression_fix",
+    "question_count": 609,
+    "question_changed": "ADR-B-0540",
+    "explanation_rewritten": 1,
+    "false_alarm_not_changed": "ADR-B-0319 (m.in. abbreviation caused naive sentence counter split)",
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 73,
+    "strictly_longest_rate": 0.1199,
+    "min_explanation_chars": 300,
+    "source_bank_blob_sha": "99c06e736c0e5812e97d4ff02567dbf741629434",
+    "exam_variants_resynced": 5,
+    "exam_keys_resynced": 5,
+    "verified": 0,
+    "report": "podstawowy/raporty/etap-4x31-czytelnosc-zdan-explanation-2026-10-26.md"
   }
 }

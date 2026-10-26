@@ -2,13 +2,14 @@
 
 ## Bieżący snapshot po etapie 4x29
 
-- Punkt wyjścia: `main` `a98fc53093eb944133110386e412c31fb54d1826`; bank blob SHA `ed0dee6e93f21cbb758c3d088a4d02e0aaed9fc4`.
+- Punkt wyjścia: `main` `a98fc53093eb944133110386e412c31fb54d1826`; bank blob SHA `99c06e736c0e5812e97d4ff02567dbf741629434`.
 - **Bank:** 609 pytań ADR-B-0001–ADR-B-0609; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - **Kurs:** 13 lekcji, 13 materiałów instruktorskich, 39 scenariuszy, 90 haseł słowniczka.
 - **Egzaminy:** warianty/klucze 001–005, każdy 30 pytań i wszystkie 13 działów; A/B/C = 10/10/10, maksymalna seria 3, 150 unikalnych ID. Klucze są zgodne z bankiem po mapowaniu liter opcji.
 - **Próba explanation:** 60 nowych ID, ziarno `4292026`, 0 potwierdzonych problemów; 301–454 znaki, 3–5 zdań.
 - **Otwarte dowody prawne:** 121 pozycji bez zapisanego dosłownego fragmentu MI ([lista](ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md)); odrębnie 376 porównań z pełnym tekstem polskim ADR pozostaje nierozstrzygniętych, a 10 rekordów wymaga dokończenia porównania. Wszystkie pytania nadal `needs_review`.
-- Raport: [Etap 4x29](../../podstawowy/raporty/etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md).
+- Raport 4x29: [druga próbka i egzaminy](../../podstawowy/raporty/etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md).
+- Raport 4x31: [czytelność zdań explanation](../../podstawowy/raporty/etap-4x31-czytelnosc-zdan-explanation-2026-10-26.md); zmieniono tylko wyjaśnienie ADR-B-0540, zsynchronizowano bank i klucze.
 
 
 ## Historyczny snapshot pakietu — etap 4x20 (nie opisuje bieżącego stanu)
