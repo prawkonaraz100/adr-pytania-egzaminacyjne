@@ -121,3 +121,5 @@ Lokalne testy nie są dostępne przez GitHub API; nie deklaruję ich wykonania. 
 ## CI: wykryte i naprawione rozbieżności migawki
 
 Pierwsze przebiegi CI wykazały, że po zmianie explanation należało zaktualizować również `source_bank_head` w wariantach 001–005 i kluczach 001–005 oraz `current_bank_blob_sha`/`source_bank_blob_sha` w manifeście i obu kolejkach specjalisty. Wszystkie wskazane pola zsynchronizowano z blob SHA banku `626def46002cb4b065c402d0f30a9936ae30cf7d`. Końcowy wynik CI jest jeszcze wymagany przed scaleniem.
+
+Dodatkowo CI wykrył dwa dokumenty instruktażowe specjalisty, które nie wskazywały nowego SHA: `review/specialist/INSTRUKCJA-RECENZJI.md` i `review/specialist/PRZEKAZANIE-ETAP4.md`. Dodano w nich krótką sekcję aktualnej migawki 4x50 i zachowano starsze aneksy jako historię. Po tej poprawce wymagany jest końcowy PASS CI.
