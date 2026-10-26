@@ -59,6 +59,16 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 3. **Ciężka maszyna obok przesyłek ADR.** Maszyna nie jest towarem niebezpiecznym, ale musi być bezpiecznie zamocowana. Kursant sprawdza mocowanie całego ładunku, a nie tylko oznakowanych przesyłek.
 4. **Przewóz luzem.** Przed załadunkiem kursant sprawdza dopuszczenie towaru do przewozu luzem i wymagania wobec pojazdu; nie traktuje braku opakowań jako zgody na taki przewóz.
 
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-09` — **Kontrola przed załadunkiem i mocowania**
+- `SC-ADR-B-09-02` — **Oględziny przed załadunkiem**
+- `SC-ADR-B-09-03` — **Mocowanie przed dłuższą trasą**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
+
 ## Co musisz zapamiętać
 - Kontrola przed załadunkiem obejmuje pojazd, przesyłki i przestrzeń ładunkową.
 - Sprawdź zgodność wspólnego załadunku i wymagania ochrony żywności.
@@ -82,6 +92,7 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0286`
 - `ADR-B-0518`
 
+Ćwiczenie po pytaniach: [SC-ADR-B-09](../praktyka/scenariusze-13-dzialow.json) — opowiedz bezpieczne czynności kierowcy, a potem sprawdź kroki w scenariuszu.
 
 ## Powiązane pytania w banku
 - ADR-B-0025
@@ -137,16 +148,3 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; zgodność wspólnego załadunku i przewozu luzem trzeba sprawdzić dla konkretnego towaru.
-
-
-## Trzy scenariusze praktyczne do przejścia po pytaniach
-
-Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
-
-- `SC-ADR-B-09` — **Kontrola przed załadunkiem i mocowania**
-- `SC-ADR-B-09-02` — **Oględziny przed załadunkiem**
-- `SC-ADR-B-09-03` — **Mocowanie przed dłuższą trasą**
-
-Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
