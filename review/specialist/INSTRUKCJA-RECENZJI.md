@@ -81,3 +81,13 @@ Kontrola redakcyjna, spójność plików ani PASS CI nie stanowią potwierdzenia
 ## Aktualizacja bieżącej migawki — etap 4x31
 
 Bank ma nowy blob SHA `99c06e736c0e5812e97d4ff02567dbf741629434` po pojedynczej korekcie redakcyjnej explanation ADR-B-0540. Warianty i klucze 001–005 wskazują ten SHA. Nie zmieniono stemu, opcji, poprawnej litery ani statusu `needs_review`. Test CI sprawdza 2–5 zdań oraz maksymalnie 35 słów na zdanie, z ochroną typowych skrótów (np. „m.in.”) przed fałszywym podziałem.
+
+
+## Aktualizacja przeglądu redakcyjnego — etapy 4x30–4x39 (26.10.2026)
+
+- Etapy 4x30–4x38: przegląd zmian w dystraktorach, duplikatach, podpowiedziach leksykalnych i wyjaśnieniach; lista zmian znajduje się w raportach etapów 4x32 i 4x34–4x38 w `podstawowy/raporty/`.
+- Etap 4x39: ręczny przegląd 50 explanation (zmienione pytania z 4x30–4x38 i ADR-B-0586–0609). Nie znaleziono potwierdzonego problemu językowego wymagającego zmiany; ADR-B-0479 to fałszywy alarm prostej heurystyki.
+- Warianty/klucze 001–005 wskazują bieżący bank SHA `8a16afb47c5d5a9e460092b7e474b4a3e8a5a8d9`; statusy 609 `needs_review`, 0 `verified`.
+- Raport: `podstawowy/raporty/etap-4x39-przeglad-explanation-i-synchronizacja-2026-10-26.md`.
+
+Kontrola nie jest formalną weryfikacją prawną i nie upoważnia do publikacji egzaminu.
