@@ -107,6 +107,7 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0418`
 - `ADR-B-0596`
 
+Ćwiczenie po pytaniach: [SC-ADR-B-08](../praktyka/scenariusze-13-dzialow.json) — porównaj własną decyzję z krokami kierowcy.
 
 ## Powiązane pytania w banku
 - ADR-B-0022
