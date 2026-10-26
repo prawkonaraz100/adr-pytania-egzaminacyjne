@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Ochrona przewozu (security — zapobieganie kradzieży, sabotażowi i nieuprawnionemu dostępowi; [słowniczek](../SLOWNICZEK.md#security-ochrona-przewozu)) ma ograniczać ryzyko przejęcia ładunku. Mocowanie zapobiega przesuwaniu się towaru podczas jazdy; ochrona przewozu dotyczy kradzieży, sabotażu i dostępu osób nieuprawnionych (ADR 1.10 i 7.5.7). Szczególne wymagania mogą dotyczyć towarów dużego ryzyka (towary, których kradzież lub niewłaściwe użycie może prowadzić do poważnych skutków; [słowniczek](../SLOWNICZEK.md#towary-duzego-ryzyka)) i obejmować także postoje, kontrolę dostępu oraz sposób przekazywania informacji.
+Ochrona przewozu (security — zapobieganie kradzieży, sabotażowi i nieuprawnionemu dostępowi; [słowniczek](../SLOWNICZEK.md#security-ochrona-przewozu)) ma ograniczać ryzyko przejęcia ładunku. Mocowanie zapobiega przesuwaniu się towaru podczas jazdy; ochrona przewozu dotyczy kradzieży, sabotażu i dostępu osób nieuprawnionych ([ADR](../SLOWNICZEK.md#adr) 1.10 i 7.5.7). Szczególne wymagania mogą dotyczyć towarów dużego ryzyka (towary, których kradzież lub niewłaściwe użycie może prowadzić do poważnych skutków; [słowniczek](../SLOWNICZEK.md#towary-duzego-ryzyka)) i obejmować także postoje, kontrolę dostępu oraz sposób przekazywania informacji.
 
 ## Czego się nauczysz
 - odróżniać ochronę przewozu od mocowania ładunku;
