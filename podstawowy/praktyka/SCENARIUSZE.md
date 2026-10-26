@@ -29,7 +29,7 @@ W każdej symulacji kursant powinien wyjaśnić, co robi, czego nie robi i dlacz
 
 ### B-04 — załadunek, silnik i nadzór postoju
 - `SC-ADR-B-04`: oddziel zakaz palenia od zasady dotyczącej silnika i sprawdź, czy postój podlega nadzorowi.
-- `SC-ADR-B-04-02`: e-papieros i silnik pracujący tylko dla wygody nie są automatycznymi wyjątkami.
+- `SC-ADR-B-04-02`: e-papieros i silnik pracujący tylko dla wygody nie są automatycznymi wyjątkami; pytania odnoszą się wyłącznie do palenia i pracy silnika.
 - `SC-ADR-B-04-03`: wybierz miejsce postoju według warunków ADR, nie wyłącznie według odległości.
 
 ### B-05 — awaria, gaśnice i pierwsza pomoc
@@ -77,7 +77,7 @@ Przy każdym ćwiczeniu kursant powinien wyjaśnić własnymi słowami: co spraw
 ### B-12 — ochrona przewozu
 - SC-ADR-B-12: sprawdź plan ochrony i zweryfikuj odbiorcę.
 - SC-ADR-B-12-02: zmianę postoju uzgodnij zgodnie z procedurą ochrony.
-- SC-ADR-B-12-03: numer zlecenia nie zastępuje potwierdzenia tożsamości i uprawnienia odbiorcy.
+- SC-ADR-B-12-03: numer zlecenia nie zastępuje potwierdzenia tożsamości przewoźnika; scenariusz dopasowano do ADR 1.10.1.2.
 ## Scenariusze dla kursanta — dział B-13
 
 Przy każdym ćwiczeniu kursant powinien powiedzieć, co sprawdza, dlaczego nie zgaduje brakujących danych i co musi być dostępne przed wyjazdem. Pola common_mistakes, legal_basis i learner_takeaway w rekordach scenariuszy pomagają omówić odpowiedź prostym językiem. Scenariusze są symulacjami, nie dowodem realizacji zajęć praktycznych.
@@ -337,7 +337,7 @@ Każdy z działów B-01–B-04 ma teraz trzy scenariusze w pliku JSON: scenarius
 | `SC-ADR-B-02-03` | ADR-B-02 | Sprawdzenie klasy i grupy pakowania przed przyjęciem | ADR-B-0004, ADR-B-0005, ADR-B-0006 |
 | `SC-ADR-B-03-02` | ADR-B-03 | Nieznany wyciek podczas postoju | ADR-B-0007, ADR-B-0008, ADR-B-0009, ADR-B-0514 |
 | `SC-ADR-B-03-03` | ADR-B-03 | Pozostałości po rozładunku przed kolejnym ładunkiem | ADR-B-0007, ADR-B-0008, ADR-B-0009 |
-| `SC-ADR-B-04-02` | ADR-B-04 | Załadunek: e-papieros i pracujący silnik | ADR-B-0010, ADR-B-0011, ADR-B-0012, ADR-B-0580, ADR-B-0581 |
+| `SC-ADR-B-04-02` | ADR-B-04 | Załadunek: e-papieros i pracujący silnik | ADR-B-0010, ADR-B-0012 |
 | `SC-ADR-B-04-03` | ADR-B-04 | Postój zaplanowany, ale miejsce nie spełnia wymagań | ADR-B-0010, ADR-B-0011, ADR-B-0012, ADR-B-0310, ADR-B-0347 |
 
 Każdy nowy rekord zawiera opis sytuacji, kroki kierowcy, typowe błędy wraz z wyjaśnieniem, podstawę ADR, powiązane pytania, kryteria oceny i granice bezpieczeństwa. Powiązania sprawdzono względem banku: wszystkie wskazane ID istnieją i należą do wskazanego działu.
@@ -349,11 +349,11 @@ Każdy nowy rekord zawiera opis sytuacji, kroki kierowcy, typowe błędy wraz z 
 |---|---|---|---|
 | `SC-ADR-B-05-02` | ADR-B-05 | Awaria na poboczu: pierwsze decyzje kierowcy | ADR-B-0013, ADR-B-0015, ADR-B-0169, ADR-B-0220 |
 | `SC-ADR-B-05-03` | ADR-B-05 | Pożar przy przestrzeni ładunkowej | ADR-B-0013, ADR-B-0015, ADR-B-0169, ADR-B-0222, ADR-B-0223 |
-| `SC-ADR-B-06-02` | ADR-B-06 | Rozbieżność numeru na tablicy i w dokumentach | ADR-B-0016, ADR-B-0017, ADR-B-0018, ADR-B-0507, ADR-B-0562 |
+| `SC-ADR-B-06-02` | ADR-B-06 | Rozbieżność numeru na tablicy i w dokumentach | ADR-B-0016, ADR-B-0507, ADR-B-0217 |
 | `SC-ADR-B-06-03` | ADR-B-06 | Nalepka zasłonięta podczas załadunku | ADR-B-0016, ADR-B-0017, ADR-B-0018 |
 | `SC-ADR-B-07-02` | ADR-B-07 | Niejasny podział obowiązków przy uszkodzonym opakowaniu | ADR-B-0019, ADR-B-0020, ADR-B-0021, ADR-B-0517, ADR-B-0567 |
 | `SC-ADR-B-07-03` | ADR-B-07 | Przekazanie instrukcji pisemnych nowemu członkowi załogi | ADR-B-0019, ADR-B-0020, ADR-B-0021 |
-| `SC-ADR-B-08-02` | ADR-B-08 | Kontrola gaśnicy przed wyjazdem | ADR-B-0022, ADR-B-0023, ADR-B-0024, ADR-B-0596, ADR-B-0597 |
+| `SC-ADR-B-08-02` | ADR-B-08 | Kontrola gaśnicy przed wyjazdem | ADR-B-0074, ADR-B-0423, ADR-B-0283 |
 | `SC-ADR-B-08-03` | ADR-B-08 | Wyposażenie osobiste dla całej załogi | ADR-B-0022, ADR-B-0023, ADR-B-0024, ADR-B-0418 |
 
 Każdy scenariusz zawiera sytuację, kroki kierowcy, błędy z wyjaśnieniem, podstawę ADR, pytania, kryteria oceny i granice bezpieczeństwa. Ćwiczenia są symulacjami, nie potwierdzają odbycia zajęć praktycznych.
@@ -363,14 +363,14 @@ Każdy scenariusz zawiera sytuację, kroki kierowcy, błędy z wyjaśnieniem, po
 
 | ID scenariusza | Dział | Sytuacja | Pytania do powtórki |
 |---|---|---|---|
-| `SC-ADR-B-09-02` | ADR-B-09 | Oględziny przed załadunkiem | ADR-B-0025, ADR-B-0026, ADR-B-0027, ADR-B-0518 |
-| `SC-ADR-B-09-03` | ADR-B-09 | Mocowanie przed dłuższą trasą | ADR-B-0025, ADR-B-0026, ADR-B-0027, ADR-B-0554, ADR-B-0558 |
+| `SC-ADR-B-09-02` | ADR-B-09 | Oględziny przed załadunkiem | ADR-B-0554, ADR-B-0080 |
+| `SC-ADR-B-09-03` | ADR-B-09 | Mocowanie przed dłuższą trasą | ADR-B-0026, ADR-B-0518, ADR-B-0235 |
 | `SC-ADR-B-10-02` | ADR-B-10 | Dokumenty po rejsie morskim | ADR-B-0028, ADR-B-0029, ADR-B-0030, ADR-B-0396, ADR-B-0511 |
 | `SC-ADR-B-10-03` | ADR-B-10 | Niezgodność certyfikatu pakowania | ADR-B-0028, ADR-B-0029, ADR-B-0030 |
 | `SC-ADR-B-11-02` | ADR-B-11 | Objazd tunelu z ograniczeniem | ADR-B-0031, ADR-B-0032, ADR-B-0033, ADR-B-0487, ADR-B-0539, ADR-B-0540 |
 | `SC-ADR-B-11-03` | ADR-B-11 | Różne kody tunelowe w jednym ładunku | ADR-B-0031, ADR-B-0032, ADR-B-0033, ADR-B-0574 |
-| `SC-ADR-B-12-02` | ADR-B-12 | Zmiana planowanego postoju | ADR-B-0034, ADR-B-0035, ADR-B-0036, ADR-B-0304, ADR-B-0519 |
-| `SC-ADR-B-12-03` | ADR-B-12 | Niepewne uprawnienie odbiorcy | ADR-B-0034, ADR-B-0035, ADR-B-0036, ADR-B-0582 |
+| `SC-ADR-B-12-02` | ADR-B-12 | Zmiana planowanego postoju | ADR-B-0304, ADR-B-0582, ADR-B-0407 |
+| `SC-ADR-B-12-03` | ADR-B-12 | Niezweryfikowany przewoźnik przy odbiorze ładunku | ADR-B-0120, ADR-B-0211, ADR-B-0414 |
 | `SC-ADR-B-13-02` | ADR-B-13 | Brak danych w dokumencie przewozowym | ADR-B-0037, ADR-B-0038, ADR-B-0039, ADR-B-0508, ADR-B-0525, ADR-B-0530 |
 | `SC-ADR-B-13-03` | ADR-B-13 | Instrukcje pisemne w nieznanym języku | ADR-B-0037, ADR-B-0038, ADR-B-0039, ADR-B-0577, ADR-B-0578, ADR-B-0579 |
 
@@ -398,3 +398,18 @@ W każdym dziale są dokładnie trzy scenariusze. Pełny opis, kroki, pytania, k
 | ADR-B-13 | `SC-ADR-B-13`, `SC-ADR-B-13-02`, `SC-ADR-B-13-03` |
 
 **Kolejność nauki:** lekcja → pytania działu i explanation → trzy scenariusze → warianty egzaminu próbnego 001–005 z odpowiadającymi im kluczami. Scenariusze i egzaminy są treningowe; nie zastępują zajęć praktycznych ani niezależnej kontroli prawnej.
+
+
+## Etap 4x53 — dopasowanie scenariuszy do pytań (26.10.2026)
+
+Porównano tytuł, sytuację, kroki i cel każdego scenariusza z treścią powiązanych pytań. Potwierdzono i poprawiono siedem niedopasowań w zestawach pytań lub opisie:
+
+- `SC-ADR-B-04-02`: usunięto pytanie o nadzór postoju z ćwiczenia o e-papierosie i pracującym silniku.
+- `SC-ADR-B-06-02`: zastąpiono pytanie o reakcję na wodę przy numerze zaczynającym się od X pytaniem o znaczenie cyfry 8 w numerze zagrożenia.
+- `SC-ADR-B-08-02`: usunięto pytanie o kamizelkę, dodano pytanie o brak oznaczenia terminu kontroli gaśnicy.
+- `SC-ADR-B-09-02`: usunięto pytania o ogólne mocowanie, dodano pytanie o termin oczyszczenia po pozostałościach.
+- `SC-ADR-B-09-03`: usunięto pytanie o zamknięcia przewozu luzem; dodano pytanie o niezamocowane skrzynie i usunięto niepasującą podstawę ADR 7.3.1.1.
+- `SC-ADR-B-12-02`: zastąpiono pytanie o dokument tożsamości członka załogi pytaniem o skuteczność urządzeń zabezpieczających w trakcie przewozu.
+- `SC-ADR-B-12-03`: dopasowano nazwę, sytuację, kroki, błędy i podstawę do weryfikacji tożsamości przewoźnika według ADR 1.10.1.2; usunięto nieprecyzyjne przedstawienie tego jako wymogu identyfikacji odbiorcy.
+
+Po zmianach wszystkie 39 scenariuszy ma istniejące `question_ids` z właściwego `module_id`; nie zmieniano banku, kluczy ani statusów pytań. Raport szczegółowy: [etap 4x53](../raporty/etap-4x53-spojnosc-scenariuszy-pytania-2026-10-26.md).
