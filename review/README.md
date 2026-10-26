@@ -1,5 +1,11 @@
 # Niezależny przegląd ADR — zatwierdzanie pojedynczych rekordów
 
+## Etap 4x25 — audyt czytelności explanation
+
+- [Raport partii ADR-B-0001–0050](../podstawowy/raporty/etap-4x25-explanation-0001-0050-2026-10-26.md): przeczytano 50 pytań, 0 zmian, 0 potwierdzonych duplikatów, 4 przeczenia sprawdzone.
+- [Zbiorczy rejestr 4x24 — rekordy bez dosłownego fragmentu MI](specialist/ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md): 121 ID według świeżego indeksu; dalsze poszukiwania cytatów zakończone.
+
+
 > **Bieżący stan (etap 4x20, 26.10.2026):** 609 pytań w `podstawowy/questions.jsonl`; wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. Aktualny indeks: `specialist/REJESTR-AKTUALNY-0001-0609.md`; manifest: `specialist/PAKIET-0609-MANIFEST.json`. W repo znajduje się 13 lekcji, 13 materiałów instruktora, 39 scenariuszy, słowniczek 90 haseł i 5 zregenerowanych wariantów egzaminu z kluczami. W każdym wariancie wskaźnik „poprawna = jedyna najdłuższa” wynosi 0/30; rozkład A/B/C to 10/10/10. [Raport końcowy 4x20](../podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md). Analizy historyczne nie zastępują niezależnej recenzji wszystkich pytań.
 
 **Stan początkowy: 0 zatwierdzonych pytań.** `approvals.jsonl` jest celowo pusty. W projekcie **nie wolno** samodzielnie wpisywać fikcyjnych recenzentów ani dat.
