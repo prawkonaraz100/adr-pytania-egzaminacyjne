@@ -225,3 +225,8 @@ Raporty ETAPU 4x7
 ## Etap 4x40 — kolejka priorytetowa recenzji prawnej
 
 - [Raport 4x40](raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md) i [kolejka dla specjalisty](../review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json). Kolejka ułatwia planowanie recenzji, ale nie jest potwierdzeniem poprawności prawnej. Wszystkie pytania pozostają `needs_review`.
+
+
+## Etap 4x45 — próbka explanation i przegląd kolejek prawnych
+
+- [Raport 4x45](raporty/etap-4x45-proba40-kolejki-recenzji-2026-10-26.md): próbka 40 explanation (ziarno `4292026`), cztery korekty wyjaśnień, sześć doprecyzowań sformułowań w kolejkach 4x40/4x44. Wszystkie 40 pozycji nadal wymaga recenzji prawnej; bank pozostaje `needs_review`.
