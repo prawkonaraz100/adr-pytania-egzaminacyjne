@@ -10,7 +10,7 @@
 Skryptowy przegląd całego banku porównał znormalizowane treści pytań, zestawy odpowiedzi oraz podobieństwo leksykalne w obrębie każdego działu. Wynik przed zmianami: **0 identycznych treści pytań, 0 identycznych zestawów trzech odpowiedzi**. Heurystyka podobieństwa wskazywała parę ADR-B-0071/0072; po ręcznym odczycie uznano ją za uzasadnioną — sprawdza różne progi minimalnej łącznej pojemności gaśnic dla różnych przedziałów DMC, a nie ten sam próg.
 
 Ręczny przegląd wykrył jednak powtarzające się schematy dydaktyczne, których próg leksykalny nie wykrywał:
-- **ADR-B-0059 / 0078 / 0237 — piętrzenie opakowań:** B-05? Nie — wszystkie trzy pytania należą do B-09. Pytanie 0078 przeredagowano tak, by sprawdzało osobny przypadek mokrego i zdeformowanego opakowania z oznaczeniem piętrzenia. Podstawa: ADR 7.5.1.3 i 7.5.7.2.
+- **ADR-B-0059 / 0078 / 0237 — piętrzenie opakowań:** Wszystkie trzy pytania należą do B-09. Pytanie 0078 przeredagowano tak, by sprawdzało osobny przypadek mokrego i zdeformowanego opakowania z oznaczeniem piętrzenia. Podstawa: ADR 7.5.1.3 i 7.5.7.2.
 - **ADR-B-0009 / 0238 — oczyszczenie po wycieku:** 0009 sprawdza obowiązek oczyszczenia przed ponownym załadunkiem; 0238 przeredagowano, by sprawdzało pilność — oczyścić tak szybko, jak to możliwe, a nie czekać do planowanego załadunku za dwa dni. Podstawa: ADR 7.5.8.1.
 - **ADR-B-0048 / 0243 — otwieranie sztuk przesyłek:** 0048 przeredagowano, by sprawdzało, kogo obejmuje zakaz (całą załogę, nie tylko kierowcę), a nie powtarzało ogólne pytanie „czy wolno otwierać”. Podstawa: ADR 8.3.3.
 
