@@ -17,7 +17,7 @@ Zanim ruszysz w trasę, ustal, czy ładunek podlega ADR — przepisom drogowym d
 ADR obejmuje m.in. klasyfikację zagrożeń, dopuszczalność przewozu, pakowanie, oznakowanie, dokumentację, wymagania wobec pojazdów i obowiązki uczestników. W ADR „towary niebezpieczne” to towary, których przewóz drogą jest zakazany albo dozwolony tylko po spełnieniu konkretnych warunków. Dlatego przed wyjazdem sprawdź wpis towaru i wymagania z załączników A i B. Warunki zależą od konkretnego towaru, ilości, opakowania i sposobu przewozu. Wyłączenie części wymagań nie znosi automatycznie wszystkich zasad bezpieczeństwa.
 
 ## 2. Kto co robi?
-- **Nadawca** klasyfikuje towar i przekazuje informacje przewozowe.
+- **[Nadawca](../SLOWNICZEK.md#nadawca)** klasyfikuje towar i przekazuje informacje przewozowe.
 - **Przewoźnik** organizuje przewóz zgodnie z wymaganiami i zapewnia wymagane instrukcje.
 - **Załadowca** odpowiada za swoje obowiązki podczas załadunku.
 - **Odbiorca** realizuje obowiązki związane z odbiorem i rozładunkiem.
