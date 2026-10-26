@@ -1,5 +1,5 @@
 {
-  "stage": "stage4x39_current_review_snapshot",
+  "stage": "stage4x40_priority_legal_review_queue",
   "snapshot_date": "2026-10-26",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
@@ -672,5 +672,17 @@
       "ADR-B-0608",
       "ADR-B-0609"
     ]
+  },
+  "priority_legal_review_queue": {
+    "stage": "4x40",
+    "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
+    "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
+    "queue_count": 20,
+    "source_bank_blob_sha": "8a16afb47c5d5a9e460092b7e474b4a3e8a5a8d9",
+    "source_missing_quote_ids": 121,
+    "unresolved_literal_comparisons": 376,
+    "legal_review_status": "pending",
+    "verification_status": "needs_review",
+    "formal_approval": false
   }
 }
