@@ -52,7 +52,7 @@ ADR-B-0301, ADR-B-0302, ADR-B-0303, ADR-B-0304, ADR-B-0305, ADR-B-0306, ADR-B-03
 
 ## Synchronizacja śladów audytu i egzaminów
 
-Po zmianie wyjaśnień zsynchronizowano dokładne snapshoty w `review/sequential` i `review/legal-clauses` dla wszystkich zmienionych rekordów. Zaktualizowano `source_bank_head` w wariantach i kluczach egzaminu próbnego 001–005. Poprawne litery i kolejność pytań egzaminacyjnych pozostały bez zmian.
+Po zmianie wyjaśnień zsynchronizowano dokładne snapshoty w `review/sequential` i `review/legal-clauses` dla wszystkich zmienionych rekordów. Zaktualizowano `source_bank_head` w wariantach i kluczach egzaminu próbnego 001–005. CI ujawniło także nieaktualne kopie opcji i kluczy w wariantach; zsynchronizowano teksty pytań z bankiem, zachowując zestaw trzech opcji, a następnie uporządkowano ich kolejność w arkuszach i zaktualizowano litery oraz odwołania w kluczach. Każdy wariant ma teraz rozkład A/B/C = 10/10/10, bez serii dłuższej niż 1. Kolejność pytań i skład wariantów pozostały bez zmian.
 
 ## Ograniczenia
 
