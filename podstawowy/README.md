@@ -213,3 +213,8 @@ Raporty ETAPU 4x7
 ## Etap 4x38 — ręczna ocena podpowiedzi
 
 - [Raport oceny fraz wspólnych dla pytania i odpowiedzi](raporty/etap-4x38-reczna-ocena-podpowiedzi-2026-10-26.md).
+
+
+## Etap 4x39 — przegląd wyjaśnień i synchronizacja (2026-10-26)
+
+- [Raport 4x39](raporty/etap-4x39-przeglad-explanation-i-synchronizacja-2026-10-26.md): ręcznie przejrzano 50 explanation, odwołania w lekcjach i synchronizację kluczy 001–005. Nie znaleziono potwierdzonego wyjaśnienia do przepisania; wszystkie pytania pozostają `needs_review`.
