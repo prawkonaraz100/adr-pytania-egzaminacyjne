@@ -124,7 +124,7 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - Lekcja: [ADR-B-13](../lekcje/ADR-B-13.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
 - Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Prowadź kontrolę dokumentów w kolejności opisanej w lekcji: sprawdź opis towaru, dane wymagane dla konkretnego przewozu, dokumenty kierowcy i pojazdu oraz instrukcje pisemne. Kursant ma wskazać brakujące dane i wyjaśnić, dlaczego nie wolno ich zgadywać.
 
