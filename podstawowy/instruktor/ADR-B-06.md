@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteri
 
 **Obserwowalne kryterium:** Nie przenosi automatycznie reguł sztuki przesyłki na kontener.
 
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Materiał wymaga niezależnej recenzji; nie jest dowodem zaliczenia ćwiczenia praktycznego ani akceptacji prawnej pytania.
 
 
 
@@ -120,3 +120,13 @@ Brak danych o rzeczywistych wynikach kursantów — repo nie rejestruje statysty
 - Wszystkie 6 unikalnych ID z ćwiczeń sprawdzono względem bieżącego banku; każde istnieje i należy do `ADR-B-06`.
 - Lekcja: [ADR-B-06](../lekcje/ADR-B-06.md). Scenariusze: [plik JSON](../praktyka/scenariusze-13-dzialow.json) — wyszukaj identyfikatory SC wymienione powyżej.
 - Nie zmieniono podstaw prawnych ani statusów pytań bez potwierdzonej rozbieżności w urzędowym tekście ADR. To nie zastępuje recenzji specjalisty.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Użyj fikcyjnych zdjęć opakowań i tablic. Kursant ma rozpoznać, które oznaczenie identyfikuje towar, które wskazuje zagrożenie, i dlaczego trzeba sprawdzić całość. Nie ćwicz na aktywnym pojeździe przewożącym towary niebezpieczne.
+
+- `SC-ADR-B-06` — kontrola oznakowania kontenera.
+- `SC-ADR-B-06-02` — rozbieżność numeru na tablicy i w dokumentach.
+- `SC-ADR-B-06-03` — nalepka zasłonięta podczas załadunku.
+
+Pytania kontrolne: `ADR-B-0016`, `ADR-B-0017`, `ADR-B-0018`, `ADR-B-0507`, `ADR-B-0546`, `ADR-B-0549`, `ADR-B-0562`. Błędy do omówienia: mylenie numeru UN z numerem zagrożenia, wybór dowolnego rozmiaru tablicy i uznawanie, że oznakowanie może być zasłonięte, jeśli dokumenty są poprawne.
