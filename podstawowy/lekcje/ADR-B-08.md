@@ -47,6 +47,10 @@ Nie każdy pojazd przewożący towary niebezpieczne wymaga takiego samego świad
 
 ### Typ pojazdu i świadectwo dopuszczenia
 Świadectwo dopuszczenia ADR jest wymagane tylko dla określonych rodzajów pojazdów i przewozów, a nie automatycznie dla każdego samochodu przewożącego jakąkolwiek ilość towaru niebezpiecznego. Pojazdy EX/II (oznaczenia typów pojazdów do określonych przewozów materiałów wybuchowych; [słowniczek](../SLOWNICZEK.md#ex-ii-i-ex-iii)) i EX/III są określonymi typami pojazdów przeznaczonych do przewozu materiałów i przedmiotów wybuchowych klasy 1; sprawdź definicję i wymagania ADR 9.1.1.2. Jeżeli dla danego pojazdu wymagane jest świadectwo dopuszczenia, musi ono być ważne i dostępne w pojeździe podczas przewozu (ADR 9.1.3.1 oraz 8.1.2.2(a)). Istnieją czasowe wyjątki wynikające z umów wielostronnych. W banku pytań wskazano umowę M364 i warunkowy wyjątek dotyczący naczepy do 31 grudnia 2026 r.; przed zastosowaniem sprawdź oryginalny tekst umowy, aktualną ważność, rodzaj pojazdu i spełnienie wszystkich warunków. Sama informacja o umowie nie zastępuje dokumentu ani nie rozszerza wyjątku na ciągnik lub inny pojazd. Jeżeli dla danego pojazdu wymagane jest świadectwo, musi ono być ważne i dostępne zgodnie z ADR 9.1.3.1 i wymaganiami dokumentacyjnymi 8.1.2.2. Informacja firmy, że pojazd kiedyś przeszedł badanie, nie zastępuje aktualnego świadectwa. Nie rozpoczynaj przewozu, gdy wymagany dokument jest nieważny lub niedostępny.
+## Przykład przed wyjazdem
+
+Przed trasą kierowca sprawdza tabelę wyposażenia dla konkretnej jednostki transportowej i warunków przewozu. Następnie sprawdza osobno każdą gaśnicę: stan, termin przeglądu, mocowanie i dostępność. Na końcu upewnia się, że każdy członek załogi ma wymagane wyposażenie osobiste. Nie zakładaj, że sama obecność sprzętu oznacza zgodność. Podstawa: ADR 8.1.4–8.1.5.
+
 ## Typowe błędy kursantów
 - stosowanie tej samej liczby gaśnic dla każdego pojazdu;
 - ignorowanie DMC i warunków zastosowania wyłączenia;

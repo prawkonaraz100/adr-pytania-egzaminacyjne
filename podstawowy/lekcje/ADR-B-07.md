@@ -38,6 +38,10 @@ Pakujący stosuje wymagania pakowania, a następnie zapewnia wymagane oznakowani
 ## 4. Odpowiedzialność cywilna
 Odpowiedzialność cywilna to odrębny obszar od szczegółowego podziału obowiązków ADR. Nie wyciągaj wniosków o odpowiedzialności prawnej konkretnej osoby bez ustalenia faktów, roli uczestnika i właściwych przepisów. W materiale szkoleniowym ucz się rozpoznawać obowiązek i zgłaszać niezgodność, a nie rozstrzygać spór prawny na podstawie samego opisu.
 
+## Przykład z załadunku
+
+Załadowca zauważa uszkodzone opakowanie, a nadawca twierdzi, że dokumenty są prawidłowe i kierowca może je zabrać. Sam dokument nie naprawia opakowania. Wstrzymaj załadunek tej sztuki, wskaż konkretną niezgodność i uzgodnij jej usunięcie z uczestnikiem odpowiedzialnym za daną czynność. Każdy uczestnik odpowiada za własne obowiązki — nie oznacza to, że wszyscy mają identyczny zakres zadań. Podstawa: ADR 1.4.2–1.4.3 i 7.5.1.
+
 ## Typowe błędy kursantów
 - twierdzenie, że za wszystko odpowiada tylko kierowca albo tylko nadawca;
 - kontynuowanie załadunku mimo widocznego uszkodzenia;

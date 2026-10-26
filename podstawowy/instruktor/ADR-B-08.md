@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteri
 
 **Obserwowalne kryterium:** Nie uznaje, że każda ciężarówka wymaga specjalnego świadectwa.
 
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Materiał wymaga niezależnej recenzji; nie jest dowodem zaliczenia ćwiczenia praktycznego ani akceptacji prawnej pytania.
 
 
 
@@ -120,3 +120,13 @@ Brak danych o rzeczywistych wynikach kursantów — repo nie rejestruje statysty
 - Wszystkie 8 unikalnych ID z ćwiczeń sprawdzono względem bieżącego banku; każde istnieje i należy do `ADR-B-08`.
 - Lekcja: [ADR-B-08](../lekcje/ADR-B-08.md). Scenariusze: [plik JSON](../praktyka/scenariusze-13-dzialow.json) — wyszukaj identyfikatory SC wymienione powyżej.
 - Nie zmieniono podstaw prawnych ani statusów pytań bez potwierdzonej rozbieżności w urzędowym tekście ADR. To nie zastępuje recenzji specjalisty.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Zastosuj listę kontrolną dla fikcyjnego pojazdu: typ pojazdu, warunki przewozu, gaśnice, wyposażenie osobiste oraz ewentualne świadectwo dopuszczenia. Kursant ma wskazać, z którego wymagania wynika każdy element i co trzeba zrobić, jeśli sprzęt jest niedostępny lub niesprawny. Nie podawaj jednego zestawu jako obowiązującego dla każdego pojazdu.
+
+- `SC-ADR-B-08` — kontrola wyposażenia pojazdu i każdego członka załogi.
+- `SC-ADR-B-08-02` — kontrola gaśnicy przed wyjazdem.
+- `SC-ADR-B-08-03` — wyposażenie osobiste dla całej załogi.
+
+Pytania kontrolne: `ADR-B-0022`, `ADR-B-0023`, `ADR-B-0024`, `ADR-B-0074`, `ADR-B-0251`, `ADR-B-0282`, `ADR-B-0418`, `ADR-B-0596`, `ADR-B-0597`. Typowe pomyłki: przyjęcie, że każda ciężarówka potrzebuje tego samego zestawu gaśnic; pominięcie DMC; uznanie, że jedna kamizelka lub gaśnica wystarczy niezależnie od liczby członków załogi i warunków.
