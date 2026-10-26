@@ -1,6 +1,17 @@
 # Przekazanie specjaliście ADR — aktualny stan pakietu i historia wcześniejszych etapów
 
-## Aktualny snapshot pakietu — etap 4x20
+## Bieżący snapshot po etapie 4x29
+
+- Punkt wyjścia: `main` `a98fc53093eb944133110386e412c31fb54d1826`; bank blob SHA `ed0dee6e93f21cbb758c3d088a4d02e0aaed9fc4`.
+- **Bank:** 609 pytań ADR-B-0001–ADR-B-0609; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- **Kurs:** 13 lekcji, 13 materiałów instruktorskich, 39 scenariuszy, 90 haseł słowniczka.
+- **Egzaminy:** warianty/klucze 001–005, każdy 30 pytań i wszystkie 13 działów; A/B/C = 10/10/10, maksymalna seria 3, 150 unikalnych ID. Klucze są zgodne z bankiem po mapowaniu liter opcji.
+- **Próba explanation:** 60 nowych ID, ziarno `4292026`, 0 potwierdzonych problemów; 301–454 znaki, 3–5 zdań.
+- **Otwarte dowody prawne:** 121 pozycji bez zapisanego dosłownego fragmentu MI ([lista](ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md)); odrębnie 376 porównań z pełnym tekstem polskim ADR pozostaje nierozstrzygniętych, a 10 rekordów wymaga dokończenia porównania. Wszystkie pytania nadal `needs_review`.
+- Raport: [Etap 4x29](../../podstawowy/raporty/etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md).
+
+
+## Historyczny snapshot pakietu — etap 4x20 (nie opisuje bieżącego stanu)
 
 Stan sprawdzony na `main`: commit `433138970888c47251a7c7a0228f0e2351b372b6`; bank blob SHA `46e7d1a0c28d21dce01b054be8513ef7db1f6210`.
 
