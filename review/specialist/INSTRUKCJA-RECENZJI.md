@@ -1,13 +1,17 @@
-# Instrukcja niezależnej recenzji banku ADR podstawowego — stan aktualny 25.10.2026
+# Instrukcja niezależnej recenzji banku ADR podstawowego — stan aktualny 26.10.2026
 
 **Cel:** weryfikacja każdego z 609 pytań osobno — treści, klucza, odpowiedzi A/B/C, wyjaśnienia i wszystkich wyjątków — przez rzeczywistego specjalistę ADR. Stan: 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. **Nie publikować banku ani egzaminu próbnego opartego na potrzebujących recenzji pytaniach.**
 
 ## Materiały wejściowe
 
+Bieżący snapshot: 609 pytań `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. Pakiet został odświeżony po etapie 4x20; zobacz [raport końcowy](../../podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md). Egzaminy 001–005 zostały wygenerowane ponownie, lecz są wyłącznie materiałami treningowymi.
+
 1. Pełny indeks [aktualny wykaz pytań 0001–0609](REJESTR-AKTUALNY-0001-0609.md), manifest [PAKIET-0609-MANIFEST.json](PAKIET-0609-MANIFEST.json), oryginalne rekordy w `podstawowy/questions.jsonl`.
 2. Urzędowe polskie ADR 2025 — [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl); program kursu [Dz.U. 2021 poz. 2150](https://eli.gov.pl/eli/DU/2021/2150/ogl).
 3. Audyty redakcyjne `review/sequential/`, analizy wariantów `review/legal-clauses/`, raporty `review/batches/`, matryca `podstawowy/kompetencje.json`, materiały 13 lekcji i `podstawowy/praktyka/SCENARIUSZE.md`.
 4. Procedura zatwierdzania: `review/README.md` i skrypt `scripts/release_gate.py`.
+5. Egzaminy próbne: `podstawowy/egzamin-probny/wariant-001.json`–`wariant-005.json` i odpowiadające im `klucz-001.json`–`klucz-005.json`; kontrola synchronizacji i biasu: `scripts/check_mock_exam_variants.py`.
+6. Lista wrażliwości na przyszłą edycję: `review/specialist/ETAP-4X9-ADR-2027-LISTA-KONTROLNA.md`.
 
 ## Kolejność pracy recenzenta
 
