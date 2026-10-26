@@ -61,6 +61,16 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 
 Ćwiczenia odbywają się na mapie i fikcyjnych kartach, nie podczas rzeczywistego przewozu.
 
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-11` — **Planowanie trasy i ograniczenia tunelowe**
+- `SC-ADR-B-11-02` — **Objazd tunelu z ograniczeniem**
+- `SC-ADR-B-11-03` — **Różne kody tunelowe w jednym ładunku**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
+
 ## Co musisz zapamiętać
 - Jeżeli jednostka transportowa przewozi towary w LQ i wymaga oznakowania pojazdu z ADR 3.4.13 (z uwzględnieniem 3.4.14), sprawdź też szczególne ograniczenie z ADR 8.6.3.3 i 8.6.4 — w tej sytuacji może obowiązywać zakaz wjazdu do tunelu kategorii E. Nie zakładaj, że samo LQ zawsze znosi ograniczenia.
 
@@ -87,6 +97,7 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0574`
 - `ADR-B-0604`
 
+Ćwiczenie po pytaniach: [SC-ADR-B-11](../praktyka/scenariusze-13-dzialow.json) — opowiedz bezpieczne czynności kierowcy, a potem sprawdź kroki w scenariuszu.
 
 ## Powiązane pytania w banku
 - ADR-B-0031
@@ -139,16 +150,3 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; kod dla konkretnego ładunku i ograniczenia wymagają kontroli w aktualnym wpisie ADR.
-
-
-## Trzy scenariusze praktyczne do przejścia po pytaniach
-
-Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
-
-- `SC-ADR-B-11` — **Planowanie trasy i ograniczenia tunelowe**
-- `SC-ADR-B-11-02` — **Objazd tunelu z ograniczeniem**
-- `SC-ADR-B-11-03` — **Różne kody tunelowe w jednym ładunku**
-
-Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
