@@ -34,6 +34,8 @@ Przy żywności, paszach i innych towarach konsumpcyjnych sprawdź wymagane oddz
 Jeżeli pozostałości poprzedniego ładunku mogą reagować z nowym towarem albo przestrzeń ładunkowa jest zanieczyszczona wyciekiem, wyjaśnij problem przed załadunkiem. ADR 7.5.8.1 określa obowiązek oczyszczenia w sytuacji, gdy wyciek zanieczyścił pojazd, najpóźniej przed ponownym załadunkiem. Nie zakładaj, że mała ilość pozostałości jest zawsze bezpieczna.
 
 ## 5. Przewóz luzem
+
+**Przykład z magazynu.** Przed załadunkiem nadawca proponuje wysypać towar bez opakowań, bo „tak będzie szybciej”. Kierowca nie przyjmuje tej propozycji bez sprawdzenia, czy pozycja ADR dopuszcza przewóz luzem i czy pojazd lub kontener spełnia wymagania. Równolegle sprawdza, czy pozostałości poprzedniego ładunku nie stwarzają zagrożenia i czy cały ładunek będzie zabezpieczony. Podstawa: ADR 7.3.1.1, 7.5.1 i 7.5.8.1.
 Przewóz luzem nie oznacza dowolnego wysypania lub wylania towaru do pojazdu. Sprawdź, czy dana pozycja ADR dopuszcza taki sposób przewozu i czy pojazd lub kontener spełnia wymagania. Nie podejmuj załadunku luzem wyłącznie dlatego, że towar nie jest w sztukach przesyłek.
 
 
