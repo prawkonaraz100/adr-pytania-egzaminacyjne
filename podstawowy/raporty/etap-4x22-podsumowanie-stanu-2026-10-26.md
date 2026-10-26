@@ -74,3 +74,12 @@ Nie należy deklarować sukcesu całego etapu ani zatwierdzać pytań, dopóki t
 - Dla wszystkich 11 otwartych rekordów zapisano indywidualną przyczynę i następny krok. Trzy mają cytat z pomocniczego tekstu MI, ale bez strony Dz.U.; osiem nie ma cytatu.
 - Strony PDF Dz.U. znalezione: 0; nie przypisywano stron z paginacji MI. Brak potwierdzonych poprawek pytań/kluczy; statusy pozostają `needs_review`.
 - Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0232-0271-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0232-0271.json`.
+
+
+## Aktualizacja po partii 0272–0311
+
+- Świeży `main` na wejściu: `07b79ea6c693aa4bd4057093390e0d6ba7c6f78c`.
+- Sprawdzono 40 rekordów; 30 miało już wynik, 10 nadal oczekuje na urzędowe porównanie.
+- Dla 10 otwartych rekordów zapisano przyczynę i następny krok. Dwa mają cytaty pomocnicze MI; dla ADR-B-0278 poprawiono parafrazę do dokładnego tekstu MI. Strony Dz.U. nie potwierdzono.
+- Nie znaleziono urzędowych stron PDF i nie zmieniono pytań/kluczy; 0 `verified`.
+- Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0272-0311-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0272-0311.json`.
