@@ -27,7 +27,7 @@
           "C": "1 200"
         },
         "correct_option": "B",
-        "explanation": "Dla kategorii transportowej 2 stosuje się mnożnik 3, a dla kategorii 3 mnożnik 1. Obliczenie to 100 × 3 + 600 = 900 punktów, czyli wynik nie przekracza progu 1000 dla tego wyłączenia. Nie wystarczy dodać ilości 100 i 600 bez uwzględnienia kategorii. Sprawdź też pozostałe warunki zastosowania wyłączenia. Podstawa: ADR 1.1.3.6.4.",
+        "explanation": "ADR 1.1.3.6 to wyłączenie ilościowe, przy którym dla niektórych kategorii ilości mnoży się przez współczynnik przed zsumowaniem punktów. Kategoria 2 ma mnożnik 3, a kategoria 3 mnożnik 1, więc obliczenie wynosi 100 × 3 + 600 = 900 punktów. Samo dodanie 100 i 600 pomija regułę; wynik nie przekracza progu 1000, ale trzeba spełnić też pozostałe warunki wyłączenia. Podstawa: ADR 1.1.3.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -68,7 +68,7 @@
           "C": "Suma wynosi 500, bo pomija się kategorię 2"
         },
         "correct_option": "A",
-        "explanation": "W obliczeniu według 1.1.3.6.4 jednostki kategorii transportowej 2 mnoży się przez 3, a jednostki kategorii 3 dodaje bez tego mnożnika. Wynik to 200 × 3 + 500 = 1100, czyli więcej niż próg 1000. Wynik 700 pomija mnożnik, a 500 pomija całą kategorię 2, dlatego oba są błędne. W praktyce trzeba sprawdzić też, czy towary i przewóz spełniają pozostałe warunki wyłączenia. Podstawa: ADR 1.1.3.6.4.",
+        "explanation": "ADR 1.1.3.6 to wyłączenie ilościowe, w którym ilości dla różnych kategorii transportowych trzeba przeliczyć według właściwych współczynników. Dla kategorii 2 mnożnik wynosi 3, a dla kategorii 3 wynosi 1, dlatego 200 × 3 + 500 = 1100 punktów. To więcej niż próg 1000, więc sam wynik nie pozwala skorzystać z tego wyłączenia; trzeba sprawdzić także pozostałe warunki ADR. Podstawa: ADR 1.1.3.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
