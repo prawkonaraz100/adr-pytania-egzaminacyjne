@@ -21,7 +21,7 @@ Scenariusze w pliku `scenariusze-13-dzialow.json` są ćwiczeniami na fikcyjnych
 - `SC-ADR-B-03-02`: zachowaj dystans i przekaż służbom tylko sprawdzone obserwacje.
 - `SC-ADR-B-03-03`: przed kolejnym załadunkiem sprawdź pozostałości i wymagania czyszczenia.
 
-Powiązane question IDs, kryteria oceny i podstawy ADR znajdują się w rekordach scenariuszy. Wszystkie 9 scenariuszy sprawdzono pod kątem istnienia pytań i zgodności ich `module_id` z działem scenariusza.
+Powiązane question IDs, kryteria oceny i podstawy ADR znajdują się w rekordach scenariuszy. Wszystkie 39 scenariuszy sprawdzono pod kątem istnienia pytań i zgodności ich `module_id` z działem scenariusza.
 
 ## Scenariusze dla kursanta — działy B-04–B-06
 
@@ -325,7 +325,7 @@ Pełna, maszynowo sprawdzana mapa kroków i ID pytań znajduje się w `scenarius
 Dla każdego scenariusza instruktor zapisuje faktycznie zaobserwowane kroki, błędy krytyczne i potrzebę ponownej próby. Formularz uzupełnia się wyłącznie podczas rzeczywistych zajęć. Wszystkie pytania i scenariusze pozostają materiałami roboczymi `needs_review`; nie stanowią niezależnej recenzji prawnej.
 
 
-## Etap 4x5 — dodatkowe scenariusze B-01–B-04
+## Dodatkowe scenariusze B-01–B-04
 
 Każdy z działów B-01–B-04 ma teraz trzy scenariusze w pliku JSON: scenariusz bazowy oraz dwa nowe przypadki sytuacyjne. Scenariusze są symulacjami, nie potwierdzają odbycia zajęć praktycznych.
 
@@ -343,7 +343,7 @@ Każdy z działów B-01–B-04 ma teraz trzy scenariusze w pliku JSON: scenarius
 Każdy nowy rekord zawiera opis sytuacji, kroki kierowcy, typowe błędy wraz z wyjaśnieniem, podstawę ADR, powiązane pytania, kryteria oceny i granice bezpieczeństwa. Powiązania sprawdzono względem banku: wszystkie wskazane ID istnieją i należą do wskazanego działu.
 
 
-## Etap 4x5 — dodatkowe scenariusze B-05–B-08
+## Dodatkowe scenariusze B-05–B-08
 
 | ID scenariusza | Dział | Sytuacja | Pytania do powtórki |
 |---|---|---|---|
@@ -359,7 +359,7 @@ Każdy nowy rekord zawiera opis sytuacji, kroki kierowcy, typowe błędy wraz z 
 Każdy scenariusz zawiera sytuację, kroki kierowcy, błędy z wyjaśnieniem, podstawę ADR, pytania, kryteria oceny i granice bezpieczeństwa. Ćwiczenia są symulacjami, nie potwierdzają odbycia zajęć praktycznych.
 
 
-## Etap 4x5 — dodatkowe scenariusze B-09–B-13
+## Dodatkowe scenariusze B-09–B-13
 
 | ID scenariusza | Dział | Sytuacja | Pytania do powtórki |
 |---|---|---|---|
@@ -377,7 +377,7 @@ Każdy scenariusz zawiera sytuację, kroki kierowcy, błędy z wyjaśnieniem, po
 Każdy scenariusz zawiera sytuację, kroki kierowcy, błędy z wyjaśnieniem, podstawę ADR, pytania, kryteria oceny i granice bezpieczeństwa. Ćwiczenia są symulacjami, nie potwierdzają odbycia zajęć praktycznych.
 
 
-## Aktualny indeks 39 scenariuszy — etap 4x6
+## Indeks wszystkich 39 scenariuszy
 
 W każdym dziale są dokładnie trzy scenariusze. Pełny opis, kroki, pytania, kryteria i granice bezpieczeństwa znajdują się w [scenariusze-13-dzialow.json](scenariusze-13-dzialow.json). Instruktor korzysta z odpowiedniego pliku `podstawowy/instruktor/ADR-B-XX.md`; kursant przechodzi scenariusze po lekcji i pytaniach działu.
 
