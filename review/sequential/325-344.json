@@ -389,10 +389,10 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Dla określonego odpadu możliwa jest zarówno ogólna pozycja i.n.o., jak i bardziej szczegółowa właściwa pozycja zbiorcza. Co nakazuje ADR 2.1.3.6?",
+        "stem": "Dla odpadu pasują dwa wpisy ADR: pozycja zbiorcza i.n.o. oraz wpis opisujący go dokładniej. Jak zdecydować, którego użyć zgodnie z ADR 2.1.3.6?",
         "options": {
-          "A": "Wybrać ogólną pozycję, bo jest najprostsza do wpisania w dokumentach",
-          "B": "Wybrać najbardziej szczegółową właściwą pozycję",
+          "A": "Wybrać ogólną pozycję i.n.o., bo jest najprostsza do wpisania w dokumentach i nie wymaga dopasowania właściwości odpadu do węższego wpisu",
+          "B": "Użyć wpisu najlepiej dopasowanego do rzeczywistych właściwości odpadu",
           "C": "Zawsze nadać UN 3082, niezależnie od właściwości odpadu"
         },
         "correct_option": "B",
