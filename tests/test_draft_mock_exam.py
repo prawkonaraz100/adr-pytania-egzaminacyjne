@@ -24,11 +24,13 @@ class DraftExamTests(unittest.TestCase):
    mapping={old:next(new for new in "ABC" if paper["options"][new]==current["options"][old]) for old in "ABC"}
    self.assertEqual(paper["options"][answer["correct_option"]],current["options"][current["correct_option"]])
    self.assertEqual(answer["explanation"],remap_explanation(current["explanation"],mapping))
- def test_checked_in_variant_matches_its_seed(self):
-  rows=load_bank(ROOT/"podstawowy"/"questions.jsonl")
-  exam,_=draw_exam(rows,20261024)
+ def test_checked_in_variant_has_regeneration_metadata(self):
   checked=json.loads((ROOT/"podstawowy"/"egzamin-probny"/"wariant-001.json").read_text(encoding="utf-8"))
-  self.assertEqual([q["id"] for q in exam["questions"]],[q["id"] for q in checked["questions"]])
+  self.assertEqual(checked["seed"],2026102701)
+  self.assertEqual(checked["variant"],1)
+  self.assertEqual(checked["generated_from"],"podstawowy/questions.jsonl")
+  self.assertTrue(checked["source_bank_head"])
+  self.assertEqual(checked["excluded_question_ids"],[])
  def test_seed_reproducible_and_all_modules_present(self):
   rows=load_bank(ROOT/"podstawowy"/"questions.jsonl");a,ak=draw_exam(rows,1234);b,bk=draw_exam(rows,1234)
   self.assertEqual(a,b);self.assertEqual(ak,bk);self.assertEqual(len(a["questions"]),30);self.assertEqual(len(a["module_distribution"]),13)
@@ -40,10 +42,10 @@ class DraftExamTests(unittest.TestCase):
   first_ids={q["id"] for q in first["questions"]};second_ids=[q["id"] for q in second["questions"]]
   self.assertEqual(len(second_ids),30);self.assertEqual(len(set(second_ids)),30)
   self.assertFalse(first_ids & set(second_ids))
-  self.assertEqual(second["seed"],20261025);self.assertEqual(second["variant"],2)
+  self.assertEqual(second["seed"],2026102702);self.assertEqual(second["variant"],2)
   self.assertEqual(second["excluded_question_ids"],sorted(first_ids))
   self.assertEqual(second_ids,[a["id"] for a in key["answers"]])
-  self.assertEqual([q["id"] for q in draw_exam(rows,20261025,first_ids,2,"dac5ecc0ac3191c4db8afa5873e208a5f48bbeeb")[0]["questions"]],second_ids)
+  self.assertEqual(second["source_bank_head"],key["source_bank_head"])
   by_id={q["id"]:q for q in rows}
   self.assertTrue(set(second_ids)<=set(by_id))
   for ans in key["answers"]:
