@@ -218,3 +218,8 @@ Raporty ETAPU 4x7
 ## Etap 4x39 — przegląd wyjaśnień i synchronizacja (2026-10-26)
 
 - [Raport 4x39](raporty/etap-4x39-przeglad-explanation-i-synchronizacja-2026-10-26.md): ręcznie przejrzano 50 explanation, odwołania w lekcjach i synchronizację kluczy 001–005. Nie znaleziono potwierdzonego wyjaśnienia do przepisania; wszystkie pytania pozostają `needs_review`.
+
+
+## Etap 4x40 — kolejka priorytetowa recenzji prawnej
+
+- [Raport 4x40](raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md) i [kolejka dla specjalisty](../review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json). Kolejka ułatwia planowanie recenzji, ale nie jest potwierdzeniem poprawności prawnej. Wszystkie pytania pozostają `needs_review`.
