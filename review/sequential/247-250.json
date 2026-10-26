@@ -64,11 +64,11 @@
         "stem": "Spedytor planuje trasę przez tunel. Gdzie w tabeli A ADR sprawdza się kod ograniczenia tunelowego konkretnego towaru?",
         "options": {
           "A": "W kolumnie 15",
-          "B": "Zawsze w kolumnie 1",
-          "C": "Wyłącznie w nazwie nadawcy"
+          "B": "W kolumnie 1, gdzie numer UN identyfikuje towar, bez potrzeby sprawdzania kolumny 15.",
+          "C": "W kolumnie 7a, ponieważ zawiera limit ilości ograniczonych dla danego towaru."
         },
         "correct_option": "A",
-        "explanation": "Kod ograniczeń tunelowych dla danego towaru znajduje się w kolumnie 15 tabeli A ADR. Kierowca lub osoba planująca trasę odczytuje kod, a następnie sprawdza zasady rozdziału 8.6, by ustalić, czy przejazd przez konkretny tunel jest dopuszczalny. Kolumna 1 podaje numer UN (identyfikator towaru niebezpiecznego), a nazwa nadawcy nie określa ograniczeń tunelowych. Podstawa: ADR 3.2.1 i 8.6.3.1.",
+        "explanation": "Kod ograniczeń tunelowych znajduje się w kolumnie 15 tabeli A ADR; następnie trzeba zastosować reguły rozdziału 8.6 do konkretnej trasy i postaci przewozu. Kolumna 1 podaje numer UN, który pomaga znaleźć właściwy wpis, ale nie zastępuje kodu tunelowego. Kolumna 7a dotyczy limitu ilości ograniczonych (LQ), a nie ograniczeń przejazdu przez tunele. Podstawa: ADR 3.2 tabela A, kolumny 1 i 15; 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
