@@ -1,13 +1,20 @@
-## Bieżąca migawka — etap 4x51 (26.10.2026)
+## Bieżąca migawka — etap 4x52 (26.10.2026)
 
-- Bank blob SHA: `67de32798b610d75c0f40cd6f1e9a8552a87382e`.
+- Bank blob SHA: `a94a5ff910ed57cebe758b1edcf8dcaa37c6c584`.
+- Bank: 609 `needs_review`, 0 `verified`, brak formalnych zatwierdzeń.
+- Próbka 60 explanation (seed `2026102652`): 2 redakcyjne korekty; 39 scenariuszy sprawdzonych bez braków strukturalnych.
+- [Raport 4x52](../podstawowy/raporty/etap-4x52-proba60-czytelnosc-2026-10-26.md).
+
+## Poprzednia migawka — etap 4x51 (26.10.2026)
+
+- Bank blob SHA: `a94a5ff910ed57cebe758b1edcf8dcaa37c6c584`.
 - Bank: 609 `needs_review`, 0 `verified`, brak formalnych zatwierdzeń.
 - Próbka 60 explanation (seed `2026102651`): 5 redakcyjnych korekt; 39 scenariuszy sprawdzonych bez braków strukturalnych.
 - [Raport 4x51](../podstawowy/raporty/etap-4x51-proba60-scenariusze-2026-10-26.md).
 
 ## Poprzednia migawka — etap 4x50 (26.10.2026)
 
-- Bank blob SHA: `67de32798b610d75c0f40cd6f1e9a8552a87382e`.
+- Bank blob SHA: `a94a5ff910ed57cebe758b1edcf8dcaa37c6c584`.
 - Bank: 609 `needs_review`, 0 `verified`, brak formalnych zatwierdzeń.
 - Próbka 60 explanation (seed `2026102650`): 3 redakcyjne korekty; klucze i podstawy ADR zachowano, pełna recenzja polskiego tekstu ADR pozostaje otwarta.
 - [Raport 4x50](../podstawowy/raporty/etap-4x50-proba60-explanation-2026-10-26.md).
