@@ -4,7 +4,7 @@
 
 ## Materiały wejściowe
 
-Bieżący snapshot: 609 pytań `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. Pakiet został odświeżony po etapie 4x20; zobacz [raport końcowy](../../podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md). Egzaminy 001–005 zostały wygenerowane ponownie, lecz są wyłącznie materiałami treningowymi.
+Bieżący snapshot po etapie 4x29: 609 pytań `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń; bank blob SHA `ed0dee6e93f21cbb758c3d088a4d02e0aaed9fc4`. Najnowszy raport próbki i synchronizacji: [Etap 4x29](../../podstawowy/raporty/etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md). Egzaminy 001–005 są wyłącznie materiałami treningowymi, a klucze porównano z bankiem z uwzględnieniem zmiany liter przy przestawieniu opcji.
 
 1. Pełny indeks [aktualny wykaz pytań 0001–0609](REJESTR-AKTUALNY-0001-0609.md), manifest [PAKIET-0609-MANIFEST.json](PAKIET-0609-MANIFEST.json), oryginalne rekordy w `podstawowy/questions.jsonl`.
 2. Urzędowe polskie ADR 2025 — [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl); program kursu [Dz.U. 2021 poz. 2150](https://eli.gov.pl/eli/DU/2021/2150/ogl).
@@ -64,3 +64,15 @@ Przed recenzją specjalista ma zapisać commit SHA i pracować na jednej migawce
 - Priorytetowe rekordy do ponownego odczytu: ADR-B-0073, 0074, 0253, 0283, 0420, 0422, 0484 (wyposażenie i kontrole) oraz ADR-B-0144, 0249, 0274, 0275, 0300, 0304, 0305 (postój, identyfikacja, ochrona i szkolenia). Sprawdź szczególnie zakres stosowania wymogu, warunki i wyjątki — nie tylko numer punktu.
 - Rejestry pytań wrażliwych na edycję ADR 2027 są w `podstawowy/raporty/etap-4x9-wrazliwosc-01-04.json`, `...-05-08.json`, `...-09-13.json`. Są to flagi do kontroli, nie stwierdzenie, że przepisy się zmieniły.
 - Status `verified` nadaje wyłącznie specjalista po rzeczywistej recenzji. Wymagane są źródło urzędowe i sprostowanie, analiza A/B/C, warunki i wyjątki, data oraz prawdziwa tożsamość recenzenta zgodnie z procedurą repo. Nie przenoś statusu z poprzedniej migawki na nowy rekord bez ponownego sprawdzenia.
+
+
+## Aktualizacja pakietu po etapach 4x25–4x29
+
+- **4x25:** przejrzano bank redakcyjnie; dodatkowa korekta językowa dotyczyła ADR-B-0197. Bez zmian statusów prawnych.
+- **4x26:** zsynchronizowano 13 lekcji, 13 materiałów instruktora, 39 scenariuszy i pięć wariantów egzaminu.
+- **4x27:** usunięto powtarzające się odsyłacze redakcyjne; bank i odpowiedzi bez zmian.
+- **4x28:** potwierdzono pokrycie ID lekcji/banku, powiązania 39 scenariuszy oraz unikalność 90 kotwic słowniczka; w próbce 60 explanation nie znaleziono potwierdzonego przypadku do przepisania.
+- **4x29:** druga próbka 60 nowych explanation (ziarno `4292026`) nie wykazała potwierdzonego przypadku wymagającego przepisania. Warianty i klucze 001–005 zgodne z aktualnym bankiem po uwzględnieniu przestawiania liter.
+- **Dowody do recenzji:** [121 pozycji bez zapisanego dosłownego fragmentu MI](ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md); odrębnie 376 porównań z pełnym polskim tekstem urzędowym pozostaje nierozstrzygniętych, a 10 rekordów wymaga dokończenia porównania. Te kategorie nie są zamienne.
+
+Kontrola redakcyjna, spójność plików ani PASS CI nie stanowią potwierdzenia poprawności prawnej. Wszystkie 609 pytań pozostają `needs_review`.

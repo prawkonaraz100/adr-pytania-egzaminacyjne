@@ -2,6 +2,14 @@
 
 Warianty są przeznaczone wyłącznie do nauki. Każdy arkusz ma 30 pytań, 60 minut i próg treningowy 20/30. Odpowiedzi A/B/C są wyrównane, a najdłuższa seria tej samej poprawnej litery nie przekracza trzech.
 
+## Jak interpretować wynik
+
+- **20–30 poprawnych odpowiedzi:** osiągasz próg treningowy tego arkusza, ale nie jest to oficjalne potwierdzenie kwalifikacji ani dowód, że wszystkie zagadnienia opanowano.
+- **0–19 poprawnych odpowiedzi:** wróć do nauki przed kolejną próbą. Zapisz ID pytań, na które odpowiedziałeś błędnie, i sprawdź ich `module_id` w banku.
+- **Po każdym błędzie:** przeczytaj explanation do końca: najpierw sens poprawnej odpowiedzi, potem przyczynę błędu pozostałych opcji, a na końcu wskazany punkt ADR. Nie ucz się samej litery, bo warianty mogą mieć inne kolejności A/B/C.
+- **Powtórka:** otwórz lekcję właściwego działu, przećwicz trzy scenariusze tego działu i dopiero wtedy rozwiąż inny wariant.
+- **Status materiału:** wszystkie pytania pozostają `needs_review`; wynik jest wyłącznie informacją do samodzielnej nauki.
+
 ## Arkusze — rozwiąż przed otwarciem klucza
 
 - [Wariant 001 — arkusz pytań](wariant-001.json)
