@@ -1,0 +1,373 @@
+{
+  "stage": "4x44_secondary_priority_legal_review_queue",
+  "date": "2026-10-26",
+  "scope": "ADR-BASIC-ONLY",
+  "source_bank_blob_sha": "8a16afb47c5d5a9e460092b7e474b4a3e8a5a8d9",
+  "queue_basis": "Następna partia 20 ID z 121 rekordów bez zapisanego dosłownego fragmentu MI; wyłączono 20 ID z kolejki 4x40. Ranking heurystyczny premiuje liczby, wyjątki, klasy/oznakowanie o istotnym ryzyku, dokumenty i wymagania pojazdu.",
+  "queue_count": 20,
+  "full_missing_quote_count": 121,
+  "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
+  "policy": "Priorytet nie oznacza błędu. Nie zmieniać odpowiedzi ani statusu bez porównania z urzędowym tekstem i rzeczywistej recenzji specjalisty.",
+  "records": [
+    {
+      "id": "ADR-B-0528",
+      "module_id": "ADR-B-01",
+      "question": "Magazynier umieszcza przesyłki oznaczone EQ w opakowaniu zbiorczym. Oznaczenia wewnętrznych sztuk nie są widoczne. Jakie dodatkowe oznakowanie opakowania zbiorczego przewiduje ADR 3.5.4.3?",
+      "legal_basis": [
+        "ADR 2025, 3.5.4.3"
+      ],
+      "priority_score": 9,
+      "priority_reasons": [
+        "wymagane dodatkowe oznakowanie EQ opakowania zbiorczego",
+        "konkretna reguła w ADR 3.5.4.3"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0541",
+      "module_id": "ADR-B-02",
+      "question": "Na pokazanym schemacie nalepki ADR kierowca widzi zielony romb, symbol butli i cyfrę 2. Który rodzaj zagrożenia przedstawia wzór nalepki 2.2?",
+      "legal_basis": [
+        "ADR 2025, 5.2.2.2.2; 2.2.2.1.2"
+      ],
+      "priority_score": 6,
+      "priority_reasons": [
+        "wzór nalepki klasy 2.2",
+        "identyfikacja symbolu i numeru klasy"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0542",
+      "module_id": "ADR-B-02",
+      "question": "Na autorskim schemacie nalepki widoczny jest czerwony romb z białym płomieniem i cyfrą 3. Jaką klasę towarów niebezpiecznych reprezentuje ten wzór?",
+      "legal_basis": [
+        "ADR 2025, 5.2.2.2.2; 2.2.3.1.1"
+      ],
+      "priority_score": 6,
+      "priority_reasons": [
+        "wzór nalepki klasy 3",
+        "identyfikacja symbolu i numeru klasy"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0579",
+      "module_id": "ADR-B-13",
+      "question": "Dokument ADR nie zawiera adresu odbiorcy, choć nie zachodzi żaden przewidziany wyjątek. Co zrobić przed wyjazdem?",
+      "legal_basis": [
+        "ADR 2025, 5.4.1.1.1(h)"
+      ],
+      "priority_score": 6,
+      "priority_reasons": [
+        "wymagane dane odbiorcy w dokumencie",
+        "warunek wyjątku i treść dokumentu"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0060",
+      "module_id": "ADR-B-09",
+      "question": "Czy zbyt mocno zaciągnięty pas mocujący może naruszać wymagania ADR?",
+      "legal_basis": [
+        "ADR 2025, 7.5.7.1"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "wymóg mocowania ładunku",
+        "możliwa relacja między uszkodzeniem opakowania a zgodnością ADR"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0319",
+      "module_id": "ADR-B-08",
+      "question": "Jakie oznaczenie typu pojazdu stosuje ADR 9.1.1.2 do pojazdu przeznaczonego do przewozu materiałów i przedmiotów wybuchowych klasy 1?",
+      "legal_basis": [
+        "ADR 2025, 9.1.1.2 (definicje pojazdów EX/II i EX/III)"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "typ pojazdu EX/II i EX/III",
+        "wymagania konstrukcyjne/dopuszczeniowe"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0379",
+      "module_id": "ADR-B-07",
+      "question": "Przewoźnik kontroluje masę i załadunek pojazdu ADR. Czy jego obowiązki obejmują sprawdzenie, czy pojazd nie jest przeciążony?",
+      "legal_basis": [
+        "ADR 2025, 1.4.2.2.1(e)"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "obowiązki przewoźnika i kontrola przeciążenia",
+        "podział odpowiedzialności uczestników"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0427",
+      "module_id": "ADR-B-09",
+      "question": "Ładowca próbuje uzasadnić wspólny załadunek materiału wybuchowego i dowolnego materiału utleniającego, powołując się na uwagę (d). Co jest prawidłowe?",
+      "legal_basis": [
+        "ADR 2025, 7.5.2.1, uwaga (d)"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "wspólny załadunek materiałów wybuchowych",
+        "interpretacja uwagi do ADR 7.5.2.1"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0428",
+      "module_id": "ADR-B-09",
+      "question": "Załadowca przewozi wyłącznie sztuki przesyłek klasy 1 o różnych grupach zgodności. Która reguła decyduje o wspólnym załadunku?",
+      "legal_basis": [
+        "ADR 2025, 7.5.2.2"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "grupy zgodności klasy 1",
+        "reguła wspólnego załadunku"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0448",
+      "module_id": "ADR-B-10",
+      "question": "Butla wielokrotnego napełniania dopuszczona w USA ma być napełniona w Polsce w celu eksportu zgodnie z ADR 1.1.4.7.2. Dokąd może być kierowany taki eksport w ramach tego przepisu?",
+      "legal_basis": [
+        "ADR 2025, 1.1.4.7.2"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "wyjątek eksportowy dla butli DOT",
+        "zakres zastosowania ADR 1.1.4.7.2"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0473",
+      "module_id": "ADR-B-04",
+      "question": "Pojazd ADR z układem ABS ciągnie przyczepę o maksymalnej masie ponad 3,5 t. Co 8.3.8 wymaga od połączeń elektrycznych, o których mowa w 9.2.2.6, podczas przewozu?",
+      "legal_basis": [
+        "ADR 2025, 8.3.8"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "połączenia elektryczne i ABS przy zestawie",
+        "konkretny wymóg wyposażenia pojazdu"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0495",
+      "module_id": "ADR-B-02",
+      "question": "Przesyłka klasy 1 ma podklasę 1.2. Jakie zagrożenie odróżnia ją od podklasy 1.1?",
+      "legal_basis": [
+        "ADR 2025, 2.2.1.1.5, podklasa 1.2"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "definicja podklasy 1.2",
+        "rozróżnienie skutków wybuchu"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0496",
+      "module_id": "ADR-B-02",
+      "question": "Materiał wybuchowy klasy 1 ma podklasę 1.3. Które połączenie zagrożeń odpowiada ADR?",
+      "legal_basis": [
+        "ADR 2025, 2.2.1.1.5, podklasa 1.3"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "definicja podklasy 1.3",
+        "kombinacja zagrożeń klasy 1"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0498",
+      "module_id": "ADR-B-02",
+      "question": "Podklasa 1.6 dotyczy skrajnie mało wrażliwych przedmiotów wybuchowych. Jakie zagrożenie masowe określa definicja?",
+      "legal_basis": [
+        "ADR 2025, 2.2.1.1.5, podklasa 1.6"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "definicja podklasy 1.6",
+        "warunki dotyczące zagrożenia masowego"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0525",
+      "module_id": "ADR-B-13",
+      "question": "Plan przewozu ADR prowadzi przez tunel z ograniczeniami, a dla towaru w kolumnie (15) podano kod D/E. Co należy umieścić w wymaganym dokumencie przewozowym?",
+      "legal_basis": [
+        "ADR 2025, 5.4.1.1.1(k)"
+      ],
+      "priority_score": 5,
+      "priority_reasons": [
+        "wpis o kodzie tunelowym w dokumencie",
+        "wymagany zapis ADR 5.4.1.1.1(k)"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0453",
+      "module_id": "ADR-B-10",
+      "question": "W łańcuchu importu gazu w butli DOT przewoźnik korzysta z ADR 1.1.4.7.1. Jaką specjalną wzmiankę powinien przewidywać dokument przewozowy?",
+      "legal_basis": [
+        "ADR 2025, 5.4.1.1.24"
+      ],
+      "priority_score": 4,
+      "priority_reasons": [
+        "wymagana wzmianka w dokumencie przy butlach DOT",
+        "szczególny zapis ADR 5.4.1.1.24"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0474",
+      "module_id": "ADR-B-04",
+      "question": "Przed załadunkiem ADR kontrola dokumentów ujawnia niespełnienie wymagań przez kierowcę lub pojazd. Jak należy postąpić w ramach 7.5.1.2?",
+      "legal_basis": [
+        "ADR 2025, 7.5.1.2"
+      ],
+      "priority_score": 4,
+      "priority_reasons": [
+        "kontrola przed załadunkiem",
+        "obowiązek wstrzymania czynności przy niezgodności"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0482",
+      "module_id": "ADR-B-07",
+      "question": "Załadowca odebrał dane o ładunku ADR od innego uczestnika i chce na ich podstawie zweryfikować wymagane oznakowanie kontenera po załadunku. Co wynika z 1.4.3.1.2?",
+      "legal_basis": [
+        "ADR 2025, 1.4.3.1.2; 1.4.3.1.1(d)"
+      ],
+      "priority_score": 4,
+      "priority_reasons": [
+        "obowiązki załadowcy dotyczące oznakowania",
+        "podział obowiązków w ADR 1.4.3.1"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0600",
+      "module_id": "ADR-B-13",
+      "question": "Dokument przewozowy zawiera dane odbiorcy, ale brakuje nazwy i adresu nadawcy. Nie wskazano żadnego wyjątku. Jak postąpić?",
+      "legal_basis": [
+        "ADR 2025, 5.4.1.1.1(g)–(h)"
+      ],
+      "priority_score": 4,
+      "priority_reasons": [
+        "wymagane dane nadawcy w dokumencie",
+        "warunek wyjątku i kompletność danych"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    },
+    {
+      "id": "ADR-B-0131",
+      "module_id": "ADR-B-04",
+      "question": "Kiedy szczególne wymagania nadzoru pojazdu z 8.4 ADR mają zastosowanie?",
+      "legal_basis": [
+        "ADR 2025, 8.4.1; 8.5; 3.2 tabela A kol. (19)"
+      ],
+      "priority_score": 3,
+      "priority_reasons": [
+        "nadzór pojazdu i wymagania szczególne",
+        "zależność od wpisu ADR i przewozu"
+      ],
+      "verification_status": "needs_review",
+      "official_gazette_page": null,
+      "official_gazette_comparison": "pending",
+      "required_specialist_action": "Porównać treść pytania, A/B/C, explanation i punkt ADR z urzędowym polskim tekstem Dz.U. 2025 poz. 642 oraz sprostowaniem poz. 1575; zapisać dokładną stronę i cytat. W razie niejednoznaczności pozostawić sprawę nierozstrzygniętą i zgłosić specjaliście.",
+      "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
+    }
+  ]
+}
