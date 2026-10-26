@@ -4,7 +4,7 @@
 
 ## Materiały wejściowe
 
-Bieżący snapshot po etapie 4x29: 609 pytań `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń; bank blob SHA `ed0dee6e93f21cbb758c3d088a4d02e0aaed9fc4`. Najnowszy raport próbki i synchronizacji: [Etap 4x29](../../podstawowy/raporty/etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md). Egzaminy 001–005 są wyłącznie materiałami treningowymi, a klucze porównano z bankiem z uwzględnieniem zmiany liter przy przestawieniu opcji.
+Bieżący snapshot po etapie 4x29: 609 pytań `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń; bank blob SHA `99c06e736c0e5812e97d4ff02567dbf741629434`. Najnowszy raport próbki i synchronizacji: [Etap 4x29](../../podstawowy/raporty/etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md). Egzaminy 001–005 są wyłącznie materiałami treningowymi, a klucze porównano z bankiem z uwzględnieniem zmiany liter przy przestawieniu opcji.
 
 1. Pełny indeks [aktualny wykaz pytań 0001–0609](REJESTR-AKTUALNY-0001-0609.md), manifest [PAKIET-0609-MANIFEST.json](PAKIET-0609-MANIFEST.json), oryginalne rekordy w `podstawowy/questions.jsonl`.
 2. Urzędowe polskie ADR 2025 — [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl); program kursu [Dz.U. 2021 poz. 2150](https://eli.gov.pl/eli/DU/2021/2150/ogl).
@@ -76,3 +76,8 @@ Przed recenzją specjalista ma zapisać commit SHA i pracować na jednej migawce
 - **Dowody do recenzji:** [121 pozycji bez zapisanego dosłownego fragmentu MI](ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md); odrębnie 376 porównań z pełnym polskim tekstem urzędowym pozostaje nierozstrzygniętych, a 10 rekordów wymaga dokończenia porównania. Te kategorie nie są zamienne.
 
 Kontrola redakcyjna, spójność plików ani PASS CI nie stanowią potwierdzenia poprawności prawnej. Wszystkie 609 pytań pozostają `needs_review`.
+
+
+## Aktualizacja bieżącej migawki — etap 4x31
+
+Bank ma nowy blob SHA `99c06e736c0e5812e97d4ff02567dbf741629434` po pojedynczej korekcie redakcyjnej explanation ADR-B-0540. Warianty i klucze 001–005 wskazują ten SHA. Nie zmieniono stemu, opcji, poprawnej litery ani statusu `needs_review`. Test CI sprawdza 2–5 zdań oraz maksymalnie 35 słów na zdanie, z ochroną typowych skrótów (np. „m.in.”) przed fałszywym podziałem.
