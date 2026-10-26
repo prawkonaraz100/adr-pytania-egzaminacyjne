@@ -8,6 +8,8 @@
 
 ## Jak korzystać z kursu
 
+Po opanowaniu czterech działów B-01, B-06, B-08 i B-13 przejdź [kartę kontroli przed wyjazdem](praktyka/KARTA-KONTROLI-PRZED-WYJAZDEM.md) — jeden prosty przykład łączący wyłączenia, oznakowanie, wyposażenie i dokumenty. Ćwicz na fikcyjnej dokumentacji, nie jako rzeczywistą kontrolę pojazdu.
+
 1. **Lekcja działu** — przeczytaj ją od początku do końca, zwracając uwagę na przykłady z pracy kierowcy i sekcję „Co musisz zapamiętać”.
 2. **Pytania działu** — rozwiąż pytania z tego samego działu w `questions.jsonl`. Po każdej odpowiedzi przeczytaj explanation, także gdy odpowiedź była poprawna.
 3. **Jak czytać explanation po błędzie** — najpierw sprawdź, dlaczego wskazana odpowiedź jest poprawna; potem porównaj to z wybraną przez siebie opcją i przeczytaj, na czym polega jej błąd. Na końcu otwórz wskazany punkt ADR. Nie ucz się samej litery; ucz się warunku, który rozstrzyga sytuację.
