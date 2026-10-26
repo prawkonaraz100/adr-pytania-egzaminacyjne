@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, karty o
 
 **Obserwowalne kryterium:** Nie uznaje IMDG za bezwarunkowe zwolnienie z ADR.
 
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Materiał wymaga niezależnej recenzji; nie jest dowodem zaliczenia ćwiczenia praktycznego ani akceptacji prawnej pytania.
 
 
 
@@ -116,3 +116,13 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - Wszystkie 5 unikalnych ID pytań z ćwiczeń istnieją w banku i należą do `ADR-B-10`.
 - Lekcja: [ADR-B-10](../lekcje/ADR-B-10.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
 - Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Przygotuj dokumenty dla fikcyjnego odcinka morskiego i drogowego. Kursant ma rozdzielić wymagania dla każdej gałęzi i wskazać, jakie warunki trzeba sprawdzić, zanim zastosuje wyjątek. Nie oceniaj po samym rozpoznaniu skrótu IMDG; ważne jest uzasadnienie, dlaczego dokumenty jednego odcinka mogą nie wystarczyć dla następnego.
+
+- `SC-ADR-B-10` — kontener po rejsie morskim, dalszy odcinek drogowy.
+- `SC-ADR-B-10-02` — dokumenty po rejsie morskim.
+- `SC-ADR-B-10-03` — niezgodność certyfikatu pakowania.
+
+Pytania kontrolne: `ADR-B-0028`, `ADR-B-0029`, `ADR-B-0030`, `ADR-B-0247`, `ADR-B-0277`, `ADR-B-0320`, `ADR-B-0388`, `ADR-B-0396`, `ADR-B-0437`, `ADR-B-0511`. Typowe błędy: uznanie dokumentu morskiego za automatyczne zwolnienie z ADR; dopisanie danych bez potwierdzenia; pominięcie certyfikatu pakowania, gdy jest wymagany.
