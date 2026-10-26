@@ -97,7 +97,6 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0418`
 - `ADR-B-0596`
 
-Scenariusz z pracy kierowcy: [SC-ADR-B-08 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
 
 ## Powiązane pytania w banku
 - ADR-B-0022
@@ -160,7 +159,5 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 - `SC-ADR-B-08-03` — **Wyposażenie osobiste dla całej załogi**
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
 
 

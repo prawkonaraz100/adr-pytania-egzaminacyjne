@@ -118,7 +118,7 @@ Brak danych o rzeczywistych wynikach kursantów — repo nie rejestruje statysty
 - Lekcja: [ADR-B-07](../lekcje/ADR-B-07.md). Scenariusze: [plik JSON](../praktyka/scenariusze-13-dzialow.json) — wyszukaj identyfikatory SC wymienione powyżej.
 - Nie zmieniono podstaw prawnych ani statusów pytań bez potwierdzonej rozbieżności w urzędowym tekście ADR. To nie zastępuje recenzji specjalisty.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Poprowadź kursanta przez sytuację niezgodnego opakowania, a potem przez podział obowiązków. Zamiast pytać jedynie „kto odpowiada?”, zapytaj, jaka czynność została wykonana i kto ma obowiązek ją sprawdzić. Podkreśl, że polecenie przełożonego ani poprawny dokument nie czynią uszkodzonej przesyłki bezpieczną.
 
