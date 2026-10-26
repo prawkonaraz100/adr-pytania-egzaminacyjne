@@ -92,3 +92,12 @@ Nie należy deklarować sukcesu całego etapu ani zatwierdzać pytań, dopóki t
 - Dla wszystkich 29 otwartych rekordów zapisano konkretny powód blokady i następny krok. Zakres obejmuje m.in. klasyfikację odpadów, UN 3551, klasę 7, pojazdy EX/II/EX/III, wspólny załadunek i nadzór postoju.
 - Strony PDF Dz.U. znalezione: 0; nie zmieniono pytań/kluczy i nie nadano `verified`.
 - Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0312-0351-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0312-0351.json`.
+
+
+## Aktualizacja po partii 0352–0391
+
+- Świeży `main` na wejściu: `6d9ef1b5be1482407375caf41b3a4e2832c50dc1`.
+- Sprawdzono 40 rekordów; 8 miało już wynik, 32 nadal oczekują na urzędowe porównanie.
+- Wśród otwartych 7 ma cytaty z pomocniczego tekstu MI, ale 25 nie ma cytatu. Dla wszystkich 32 zapisano przyczynę i następny krok.
+- Nie odnaleziono stron PDF Dz.U.; brak potwierdzonych zmian pytań/kluczy, 0 `verified`.
+- Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0352-0391-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0352-0391.json`.
