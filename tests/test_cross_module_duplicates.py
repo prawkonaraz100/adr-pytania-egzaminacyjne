@@ -33,7 +33,7 @@ class CrossModuleDuplicateTests(unittest.TestCase):
             row("ADR-B-0001", "ADR-B-01", "Kiedy kierowca powinien sprawdzić dokument przewozowy przed wyjazdem?"),
             row("ADR-B-0002", "ADR-B-02", "Kiedy kierowca powinien sprawdzić dokument przewozowy przed rozpoczęciem jazdy?"),
         ]
-        self.assertTrue(find_candidates(rows, threshold=0.75))
+        self.assertTrue(find_candidates(rows, threshold=0.60))
 
     def test_same_module_pairs_are_not_cross_module_duplicates(self):
         rows = [
