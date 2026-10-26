@@ -72,7 +72,7 @@ Czytano treść pytania, poprawną odpowiedź i explanation; oceniono zrozumiał
 | ADR-B-0125 | Bez zmian: jasny sens, istotny błędny wariant i podstawa ADR |
 | ADR-B-0157 | Bez zmian: jasny sens, istotny błędny wariant i podstawa ADR |
 
-**Wynik:** 1/60 zmieniono (ADR-B-0188); 59/60 bez zmian. W ADR-B-0188 stary tekst dwukrotnie mówił, że cyfry i dokument nie zastępują wymaganego oznakowania, a zaczynał się małą literą. Nowy tekst ma cztery krótkie zdania, 277 znaków. Podstawa nadal ADR 5.2.1.1. Wszystkie pytania zachowują `needs_review`.
+**Wynik:** 1/60 zmieniono (ADR-B-0188); 59/60 bez zmian. W ADR-B-0188 stary tekst dwukrotnie mówił, że cyfry i dokument nie zastępują wymaganego oznakowania, a zaczynał się małą literą. Nowy tekst ma pięć krótkich zdań, 344 znaków. Podstawa nadal ADR 5.2.1.1. Wszystkie pytania zachowują `needs_review`.
 
 ## Kontrola 13 lekcji
 
@@ -99,6 +99,6 @@ Przejrzano każdy plik ADR-B-01–13. Każdy zawiera sekcję `Co musisz zapamię
 - Bank: 609 pytań, 609 `needs_review`, 0 `verified`.
 - Duplikaty ID: 0.
 - Poprawna = jedyna najdłuższa: 72/609 = 11.82% (limit 18%).
-- Najkrótsze explanation: 277 znaków.
+- Najkrótsze explanation: 300 znaków.
 - Nie znaleziono potwierdzonej nowej luki programu uzasadniającej dodanie pytań. Dlatego nie zmieniano numeracji ani wariantów egzaminu próbnego; zmienione explanation nie występuje w żadnym z kluczy 001–005.
 - Snapshoty A/B/C i sekwencyjny dla ADR-B-0188 zsynchronizowane z bankiem. Wciąż wymagana jest niezależna recenzja prawa.
