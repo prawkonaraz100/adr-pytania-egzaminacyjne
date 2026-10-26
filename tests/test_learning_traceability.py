@@ -61,6 +61,23 @@ class LearningTraceabilityTests(unittest.TestCase):
                             "scenario links to a question from a different module",
                         )
 
+    def test_mock_exam_keys_link_each_answer_to_the_matching_lesson(self):
+        for number in range(1, 6):
+            key_path = BASIC / "egzamin-probny" / f"klucz-{number:03d}.json"
+            key = json.loads(key_path.read_text(encoding="utf-8"))
+            self.assertEqual(len(key["answers"]), 30, f"{key_path.name}: expected 30 answers")
+            for answer in key["answers"]:
+                question_id = answer["id"]
+                with self.subTest(key=key_path.name, question_id=question_id):
+                    self.assertIn(question_id, self.by_id, "key ID absent from bank")
+                    module = self.by_id[question_id]["module_id"]
+                    expected = f"../lekcje/{module}.md"
+                    self.assertEqual(answer.get("lesson_path"), expected,
+                                     "key answer must link to the lesson for its bank module")
+                    lesson_path = (key_path.parent / answer["lesson_path"]).resolve()
+                    self.assertTrue(lesson_path.is_file(), f"lesson link target missing: {lesson_path}")
+                    self.assertEqual(lesson_path.name, f"{module}.md")
+
     def test_each_lesson_and_instructor_links_all_three_scenarios(self):
         for number in range(1, 14):
             module = f"ADR-B-{number:02d}"
