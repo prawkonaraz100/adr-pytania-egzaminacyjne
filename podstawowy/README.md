@@ -203,3 +203,8 @@ Raporty ETAPU 4x7
 ## Etap 4x36 — podpowiedzi leksykalne
 
 - [Raport skanu i korekt](raporty/etap-4x36-podpowiedzi-leksykalne-2026-10-26.md).
+
+
+## Etap 4x37 — rozdzielenie powtórzeń w dziale B-11
+
+- [Raport: kod tunelowy (-) i znaki drogowe](raporty/etap-4x37-powtorzenie-kodu-tunelowego-2026-10-26.md).

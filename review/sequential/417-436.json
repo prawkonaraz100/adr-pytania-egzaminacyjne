@@ -594,14 +594,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Towar ma kod ograniczenia tunelowego (-) w kolumnie (15) tabeli A. Jak interpretować ten znak?",
+        "stem": "Kod tunelowy „(-)” znajduje się w kolumnie 15 tabeli A. Na trasie jest jednak znak drogowy ograniczający wjazd do tunelu. Co ma zrobić kierowca?",
         "options": {
-          "A": "Symbol oznacza, że towar musi przejechać wyłącznie tunelem kategorii E",
-          "B": "Symbol oznacza bezwzględny zakaz wjazdu do każdego tunelu drogowego, bez wyjątków",
-          "C": "Symbol oznacza brak przypisanego ograniczenia tunelowego ADR dla tego towaru"
+          "A": "Zignorować znak, ponieważ kod (-) znosi wszystkie ograniczenia tunelowe i lokalne niezależnie od ich podstawy",
+          "B": "Wjechać wyłącznie do tunelu kategorii E, bo zapis (-) wskazuje tę kategorię",
+          "C": "Zastosować znak drogowy; (-) oznacza brak ograniczenia tunelowego ADR dla tego towaru"
         },
         "correct_option": "C",
-        "explanation": "Symbol „(-)” w kolumnie 15 tabeli A oznacza, że dla tego towaru nie przypisano ograniczenia tunelowego wynikającego z kodu ADR. Nie nakazuje przejazdu tunelem kategorii E ani nie zakazuje wszystkich tuneli. Kierowca nadal musi przestrzegać znaków drogowych i innych ograniczeń obowiązujących na trasie. Podstawa: ADR 8.6.3.1.",
+        "explanation": "Kod „(-)” oznacza, że ADR nie przypisał temu towarowi własnego ograniczenia tunelowego, ale nie unieważnia znaków drogowych ani innych zasad trasy. Dlatego kierowca musi stosować się do znaku przy tunelu. Nie oznacza to ani ogólnego zwolnienia z ograniczeń, ani nakazu użycia tunelu kategorii E. Podstawa: ADR 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
