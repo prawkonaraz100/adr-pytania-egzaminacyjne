@@ -2,6 +2,9 @@
 
 Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, karty obserwacji i kryteria informacji zwrotnej. Nie są dowodem przeprowadzenia zajęć ani zaliczenia kursanta. Nie wpisuj fikcyjnych dat, ocen ani podpisów.
 
+**Słowniczek pojęć dla kursanta:** [SLOWNICZEK.md](../SLOWNICZEK.md).
+
+
 ## Zadanie instruktorskie: Transport multimodalny
 
 **Symulacja bez rzeczywistych towarów:** Kursant analizuje odcinek morsko-drogowy i dokument IMDG; wskazuje warunki odstępstwa i dodatkowe informacje wymagane przez ADR.
