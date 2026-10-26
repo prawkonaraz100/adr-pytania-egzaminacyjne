@@ -121,7 +121,7 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - Lekcja: [ADR-B-11](../lekcje/ADR-B-11.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
 - Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Pracuj na mapie i fikcyjnych kodach z tabeli A. Kursant powinien najpierw ustalić postać przewozu, potem odczytać kod i kategorię tunelu, a na końcu uzasadnić wybór trasy. Przy kodach złożonych liczy się właściwa reguła, nie wygoda.
 
