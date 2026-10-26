@@ -186,7 +186,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         queue = json.loads(queue_path.read_text(encoding="utf-8"))
         missing_quote_path = REVIEW / "ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md"
         missing_quote_text = missing_quote_path.read_text(encoding="utf-8")
-        missing_quote_ids = set(re.findall(r"^- (ADR-B-\\d{4})$", missing_quote_text, flags=re.MULTILINE))
+        missing_quote_ids = set(re.findall(r"^- (ADR-B-\d{4})$", missing_quote_text, flags=re.MULTILINE))
         primary = json.loads((REVIEW / "KOLEJKA-PRIORYTETOWA-4X40.json").read_text(encoding="utf-8"))
         bank_bytes = (BASIC / "questions.jsonl").read_bytes()
         bank_blob_sha = hashlib.sha1(
