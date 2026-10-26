@@ -9,6 +9,7 @@ GLOSSARY = ROOT / "podstawowy" / "SLOWNICZEK.md"
 # Canonical learner-facing terms. Slugs are explicit HTML anchors in SLOWNICZEK.md.
 TERMS = {
     "ADR": (r"\bADR\b", ("adr",)),
+    "Nadawca": (r"\bnadawc(?:a|y|ę|ą|e)\b", ("nadawca",)),
     "Numer UN": (r"\bnumer(?:u)?\s+UN\b|\bUN\b", ("numer-un",)),
     "LQ — ilości ograniczone": (r"\bLQ\b", ("lq-ilosci-ograniczone",)),
     "EQ — ilości wyłączone": (r"\bEQ\b", ("eq-ilosci-wylaczone",)),
