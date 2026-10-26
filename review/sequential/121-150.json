@@ -266,14 +266,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Która grupa pakowania, tam gdzie ADR stosuje grupy I, II i III, oznacza wysoki stopień zagrożenia?",
+        "stem": "Gdy dana pozycja ADR przewiduje grupy pakowania I, II i III, jak porządkują one poziom zagrożenia?",
         "options": {
-          "A": "Grupy I, II i III oznaczają jednakowy poziom zagrożenia",
-          "B": "Grupa I oznacza wysoki stopień zagrożenia",
-          "C": "Grupa III oznacza najwyższy stopień zagrożenia"
+          "A": "Wszystkie trzy grupy oznaczają ten sam poziom zagrożenia",
+          "B": "I — wysoki, II — średni, III — niski",
+          "C": "I — niski, II — średni, III — wysoki"
         },
         "correct_option": "B",
-        "explanation": "Grupa pakowania, jeśli dana pozycja ADR w ogóle ją stosuje, pokazuje poziom zagrożenia stwarzanego przez materiał. Grupa I oznacza wysoki stopień zagrożenia, grupa II — średni, a grupa III — niski. Nie są to trzy równoważne oznaczenia, a grupa III nie oznacza najwyższego ryzyka, dlatego A i C są błędne. Podstawa: ADR 2.1.1.3.",
+        "explanation": "Jeśli dana pozycja ADR stosuje grupy pakowania, I oznacza wysoki, II średni, a III niski stopień zagrożenia. Nie są to równoważne oznaczenia, więc stwierdzenie, że wszystkie grupy oznaczają to samo, jest błędne. Odwrócenie skali też prowadzi do pomyłki: grupa III nie oznacza najwyższego zagrożenia. Podstawa: ADR 2.1.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",

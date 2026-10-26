@@ -69,3 +69,11 @@ Bank zawiera 609 pytań `needs_review` i 0 `verified`. Arkusze mają `publicatio
 - Migawka banku i kluczy: `99c06e736c0e5812e97d4ff02567dbf741629434`.
 - Po redakcji wyjaśnienia ADR-B-0540 zsynchronizowano `source_bank_head` we wszystkich wariantach i kluczach 001–005.
 - Wszystkie warianty pozostają materiałami treningowymi; pytania nadal mają status `needs_review`.
+
+
+## Etap 4x34 — kontrola powtórzeń i podpowiedzi (2026-10-26)
+
+- Migawka aktualnego banku: `7c7573215da82caeabe9543eb47dfc9703ecf622`.
+- Zmieniono pytania ADR-B-0048, ADR-B-0078, ADR-B-0127 i ADR-B-0238; warianty i klucze 001–005 wskazują aktualny blob banku.
+- Wariant 002 i jego klucz zaktualizowano dla ADR-B-0078; pozostałe warianty zachowały zestaw pytań.
+- Status prawny pozostaje bez zmian: 609 pytań `needs_review`, 0 `verified`, brak formalnej zgody na publikację.
