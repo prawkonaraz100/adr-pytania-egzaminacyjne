@@ -119,3 +119,11 @@ Nie zmieniać żadnego statusu na `verified` bez rzeczywistego, niezależnego pr
 - Odwołania do pytań w lekcjach sprawdzono dla zmienionych ID i zakresu 0586–0609. Warianty i klucze 001–005 wskazują bieżący bank SHA; brak rozbieżności explanation w kluczach dla sprawdzonych ID.
 - Raport: `podstawowy/raporty/etap-4x39-przeglad-explanation-i-synchronizacja-2026-10-26.md`.
 - Wszystkie 609 pytań nadal `needs_review`; 0 `verified`; 0 formalnych akceptacji. Redakcyjny przegląd i CI nie zastępują literalnej kontroli przez specjalistę.
+
+
+## Aktualizacja — etap 4x40: kolejka priorytetowa recenzji prawnej (26.10.2026)
+
+- Utworzono `review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json` z 20 rekordami z listy 121 ID bez dosłownego fragmentu MI.
+- Kolejność premiuje liczby/progi, wyjątki, pojazdy wymagające dopuszczenia, baterie i klasy o istotnym ryzyku, kody tunelowe oraz dokumentację. To tylko heurystyka kolejności, nie ocena poprawności prawnej.
+- Manifest nadal wskazuje 376 nierozstrzygniętych porównań; lista 121 ID bez cytatu MI jest odrębną miarą. Nie podejmować kolejnych prób wydobywania MI/PDF; użyć oficjalnego tekstu Dz.U. 2025 poz. 642 i sprostowania poz. 1575.
+- Raport: `podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md`. Statusy banku pozostają `needs_review`.
