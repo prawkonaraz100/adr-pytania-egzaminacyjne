@@ -30,6 +30,8 @@ jobs:
         run: python scripts/check_explanation_quality.py --minimum 300
       - name: Block new near-duplicate questions
         run: python scripts/check_near_duplicates.py --threshold 0.60
+      - name: Block cross-module duplicate questions
+        run: python scripts/check_cross_module_duplicates.py --threshold 0.80
       - name: List near-duplicate wording candidates (advisory)
         run: python scripts/similarity.py --threshold 0.45 --limit 15
       - name: Review explanation heuristic candidates (advisory)
