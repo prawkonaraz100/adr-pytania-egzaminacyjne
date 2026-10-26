@@ -1,6 +1,6 @@
 {
-  "stage": "stage4x14_review_packet_integrity",
-  "snapshot_date": "2026-10-25",
+  "stage": "stage4x20_complete",
+  "snapshot_date": "2026-10-26",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
   "last_id": "ADR-B-0609",
@@ -208,7 +208,8 @@
     "practical_scenarios": 39,
     "mock_exam_variants": 5,
     "mock_exam_keys": 5,
-    "glossary_terms": 90
+    "glossary_terms": 90,
+    "questions": 609
   },
   "last_literal_comparison_batch": {
     "id": "4x16-literal-comparison-batch5-0010-0337",
@@ -307,5 +308,93 @@
       "records_with_recorded_targeted_comparison_result": "Records with a targeted result recorded; this is not specialist approval or full Gazette confirmation"
     },
     "not_verified_warning": "All 609 questions remain needs_review. A targeted comparison result does not constitute verified status."
+  },
+  "current_bank_blob_sha": "46e7d1a0c28d21dce01b054be8513ef7db1f6210",
+  "stage4x20": {
+    "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
+    "explanation_records_manually_read": 609,
+    "explanations_rewritten": 68,
+    "question_count": 609,
+    "status_counts": {
+      "needs_review": 609,
+      "verified": 0
+    },
+    "formal_approvals": 0,
+    "mock_exam_bias_limit": 0.18,
+    "mock_exam_variants": [
+      {
+        "variant": "001",
+        "file": "podstawowy/egzamin-probny/wariant-001.json",
+        "key_file": "podstawowy/egzamin-probny/klucz-001.json",
+        "seed": 2026102701,
+        "question_count": 30,
+        "modules": 13,
+        "strict_longest_correct": "0/30",
+        "answer_distribution": "10/10/10",
+        "max_same_letter_run": 3,
+        "publication_authorized": false
+      },
+      {
+        "variant": "002",
+        "file": "podstawowy/egzamin-probny/wariant-002.json",
+        "key_file": "podstawowy/egzamin-probny/klucz-002.json",
+        "seed": 2026102702,
+        "question_count": 30,
+        "modules": 13,
+        "strict_longest_correct": "0/30",
+        "answer_distribution": "10/10/10",
+        "max_same_letter_run": 3,
+        "publication_authorized": false
+      },
+      {
+        "variant": "003",
+        "file": "podstawowy/egzamin-probny/wariant-003.json",
+        "key_file": "podstawowy/egzamin-probny/klucz-003.json",
+        "seed": 2026102703,
+        "question_count": 30,
+        "modules": 13,
+        "strict_longest_correct": "0/30",
+        "answer_distribution": "10/10/10",
+        "max_same_letter_run": 3,
+        "publication_authorized": false
+      },
+      {
+        "variant": "004",
+        "file": "podstawowy/egzamin-probny/wariant-004.json",
+        "key_file": "podstawowy/egzamin-probny/klucz-004.json",
+        "seed": 2026102704,
+        "question_count": 30,
+        "modules": 13,
+        "strict_longest_correct": "0/30",
+        "answer_distribution": "10/10/10",
+        "max_same_letter_run": 3,
+        "publication_authorized": false
+      },
+      {
+        "variant": "005",
+        "file": "podstawowy/egzamin-probny/wariant-005.json",
+        "key_file": "podstawowy/egzamin-probny/klucz-005.json",
+        "seed": 2026102705,
+        "question_count": 30,
+        "modules": 13,
+        "strict_longest_correct": "0/30",
+        "answer_distribution": "10/10/10",
+        "max_same_letter_run": 3,
+        "publication_authorized": false
+      }
+    ],
+    "unique_exam_question_ids_across_variants": 150,
+    "scenario_count": 39,
+    "glossary_terms": 90,
+    "open_legal_review": {
+      "official_polish_text_not_retrieved": 376,
+      "targeted_source_checked_full_literal_comparison_pending": 10,
+      "records_with_targeted_comparison_result": 223,
+      "specialist_reviews_pending": 609
+    },
+    "report": "podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md",
+    "exam_report": "podstawowy/raporty/etap-4x20-egzaminy-001-005-2026-10-26.md",
+    "explanation_part_14_report": "podstawowy/raporty/etap-4x20-partia-14-explanation-0601-0609-2026-10-26.md",
+    "legal_approval_warning": "No editorial audit or CI result constitutes expert approval. Do not set verified without a real specialist protocol."
   }
 }

@@ -1,6 +1,6 @@
 # Niezależny przegląd ADR — zatwierdzanie pojedynczych rekordów
 
-> **Bieżący stan (etap 4x14):** 609 pytań w `podstawowy/questions.jsonl`; wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. Aktualny indeks: `specialist/REJESTR-AKTUALNY-0001-0609.md`; manifest: `specialist/PAKIET-0609-MANIFEST.json`. W repo znajduje się 13 lekcji, 13 materiałów instruktora, 39 scenariuszy i 5 wariantów egzaminu próbnego z osobnymi kluczami. Poniższe analizy historyczne obejmują wskazane w nich zakresy i nie zastępują indywidualnej recenzji wszystkich 609 pytań.
+> **Bieżący stan (etap 4x20, 26.10.2026):** 609 pytań w `podstawowy/questions.jsonl`; wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. Aktualny indeks: `specialist/REJESTR-AKTUALNY-0001-0609.md`; manifest: `specialist/PAKIET-0609-MANIFEST.json`. W repo znajduje się 13 lekcji, 13 materiałów instruktora, 39 scenariuszy, słowniczek 90 haseł i 5 zregenerowanych wariantów egzaminu z kluczami. W każdym wariancie wskaźnik „poprawna = jedyna najdłuższa” wynosi 0/30; rozkład A/B/C to 10/10/10. [Raport końcowy 4x20](../podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md). Analizy historyczne nie zastępują niezależnej recenzji wszystkich pytań.
 
 **Stan początkowy: 0 zatwierdzonych pytań.** `approvals.jsonl` jest celowo pusty. W projekcie **nie wolno** samodzielnie wpisywać fikcyjnych recenzentów ani dat.
 
