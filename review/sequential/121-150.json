@@ -191,7 +191,7 @@
           "C": "Kolumna 1 tabeli A, przeznaczona na numer UN"
         },
         "correct_option": "C",
-        "explanation": "Numer UN pozwala odszukać konkretną pozycję towaru w tabeli A, dlatego umieszczono go w jej pierwszej kolumnie. Pozostałe kolumny służą do ustalania innych danych, na przykład grupy pakowania czy ograniczeń tunelowych. Kolumny 4 i 15 nie są miejscem przeznaczonym na identyfikator UN. Podstawa: ADR 3.2.1, tabela A.",
+        "explanation": "Numer UN to czterocyfrowy identyfikator towaru niebezpiecznego. W tabeli A ADR znajduje się w kolumnie 1, dzięki czemu można znaleźć właściwą pozycję i sprawdzić jej wymagania. Kolumny 4 i 15 służą do innych danych, takich jak grupa pakowania lub ograniczenia tunelowe, więc nie zastępują numeru UN. Podstawa: ADR 3.2.1, tabela A.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -314,7 +314,7 @@
           "C": "Kolumna 3a, w której wskazano klasę zagrożenia towaru"
         },
         "correct_option": "C",
-        "explanation": "Klasa zagrożenia pomaga ustalić, z jakim rodzajem niebezpieczeństwa mamy do czynienia. W tabeli A odczytuje się ją z kolumny 3a; kolumna 1 służy do numeru UN, a 4 do grupy pakowania, gdy jest przypisana. Dzięki takiemu układowi można odróżnić identyfikację towaru od jego właściwości. Podstawa: ADR 3.2.1, tabela A.",
+        "explanation": "Numer UN to czterocyfrowy identyfikator towaru, a nie jego klasa zagrożenia. W tabeli A numer UN znajduje się w kolumnie 1, klasę odczytuje się z kolumny 3a, a grupę pakowania — jeśli jest przypisana — z kolumny 4. Dzięki temu nie pomylisz identyfikacji towaru z rodzajem zagrożenia. Podstawa: ADR 3.2.1, tabela A.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -355,7 +355,7 @@
           "C": "Tak, wystarcza symbol UN na opakowaniu bez oceny odpadu"
         },
         "correct_option": "A",
-        "explanation": "Nieznany dokładny skład odpadu nie oznacza, że wolno automatycznie przypisać mu najniższy stopień zagrożenia. Trzeba wykorzystać dostępne informacje i szczególne reguły klasyfikacji odpadów, z uwzględnieniem wyjątków. Znak UN na pojemniku nie potwierdza sam z siebie grupy III; przy wątpliwościach należy przyjąć odpowiednio ostrożne podejście. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Nieznany dokładny skład odpadu nie oznacza, że wolno automatycznie przypisać mu grupę pakowania III, czyli najniższy stopień zagrożenia wśród grup pakowania. Trzeba wykorzystać dostępne informacje i szczególne reguły klasyfikacji odpadów. Numer UN, czyli czterocyfrowy identyfikator towaru, sam nie potwierdza grupy pakowania. Przy wątpliwościach nie zgaduj i zastosuj właściwą regułę ADR. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -683,7 +683,7 @@
           "C": "Między innymi EX/II, EX/III, FL, AT i MEMU"
         },
         "correct_option": "C",
-        "explanation": "Nie wszystkie pojazdy przewożące towary ADR wymagają specjalnego świadectwa dopuszczenia z części 9. Dotyczy to określonych kategorii, takich jak EX/II, EX/III, FL, AT oraz MEMU, zgodnie z warunkami dla tych pojazdów. Zwykła puszka farby w aucie osobowym ani bezpieczny ładunek w dostawczym nie oznaczają automatycznie takiego wymogu. Podstawa: ADR 9.1.2.1 i 9.1.3.",
+        "explanation": "Nie każdy pojazd ADR wymaga świadectwa dopuszczenia z części 9. EX/II i EX/III to typy pojazdów do określonych materiałów wybuchowych; FL i AT to kategorie pojazdów przeznaczonych do określonych przewozów cysternowych. MEMU oznacza mobilną jednostkę do wytwarzania materiałów wybuchowych. Sprawdź kategorię wymaganą dla konkretnego ładunku, zamiast zakładać, że każda ciężarówka ma te same wymagania. Podstawa: ADR 9.1.2.1 i 9.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -847,7 +847,7 @@
           "C": "ADR — kolej, RID — droga, IMDG — żegluga śródlądowa"
         },
         "correct_option": "A",
-        "explanation": "Towary niebezpieczne mogą być przewożone różnymi rodzajami transportu, a każdy ma własny zestaw przepisów. ADR dotyczy drogi, RID kolei, a IMDG przewozu morskiego. Warianty B i C zamieniają te zakresy, więc mogą prowadzić do zastosowania niewłaściwych wymagań przy zmianie środka transportu. Podstawa: ADR 1.1.4.2–1.1.4.3.",
+        "explanation": "Dla towarów niebezpiecznych różne środki transportu mają własne przepisy. ADR dotyczy drogi, RID to przepisy dla przewozu kolejowego, a IMDG to międzynarodowy kodeks przewozu drogą morską. Gdy ładunek zmienia środek transportu, trzeba sprawdzić wymagania każdego odcinka, zamiast przenosić zasady jednego rodzaju transportu na wszystkie pozostałe. Podstawa: ADR 1.1.4.2–1.1.4.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -888,7 +888,7 @@
           "C": "Uznać morski dokument przewozowy za wystarczający na całej trasie"
         },
         "correct_option": "B",
-        "explanation": "Kontener po rejsie morskim może mieć oznakowanie IMDG dopuszczone także na określonym odcinku drogowym. Kierowca powinien sprawdzić warunki takiego uznania i pozostałe wymagania ADR. Nie wolno automatycznie usuwać nalepek ani zakładać, że wcześniejszy rejs zwolnił z wszystkich zasad drogowych. Podstawa: ADR 1.1.4.2.1.",
+        "explanation": "IMDG to międzynarodowy kodeks przewozu towarów niebezpiecznych drogą morską. Jego oznakowanie może być uznane na odcinku drogowym tylko wtedy, gdy spełniono warunki przewozu kombinowanego przewidziane w ADR. Kierowca powinien sprawdzić, jakie oznaczenia muszą pozostać i jakie inne wymagania drogowe nadal obowiązują. Sam rejs nie daje automatycznego zwolnienia. Podstawa: ADR 1.1.4.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1011,7 +1011,7 @@
           "C": "Pozostawić świadectwo w biurze, a w kabinie trzymać tylko zaświadczenie kierowcy ADR"
         },
         "correct_option": "B",
-        "explanation": "Świadectwo dopuszczenia pojazdu FL potwierdza spełnienie szczególnych wymagań technicznych dla tego rodzaju pojazdu. Gdy jest wymagane, należy je mieć w kabinie razem z innymi dokumentami, aby można je było okazać podczas kontroli. Sam skan w telefonie lub dokument pozostawiony w biurze nie zastępuje wymaganego świadectwa w pojeździe. Podstawa: ADR 8.1.2.2(a); sprawdź też warunki ewentualnej umowy wielostronnej.",
+        "explanation": "FL to kategoria pojazdu używanego w ADR przy określonych przewozach cieczy lub gazów palnych w cysternach. Jeśli dla takiego pojazdu wymagane jest świadectwo dopuszczenia, trzeba mieć je w pojeździe i móc okazać podczas kontroli. Sam skan w telefonie lub dokument pozostawiony w biurze nie zastępuje wymaganego świadectwa. Sprawdź też, czy kategoria pojazdu odpowiada planowanemu ładunkowi. Podstawa: ADR 8.1.2.2(a) i 9.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
