@@ -94,4 +94,4 @@ Proste objaśnienia pojęć spotykanych w lekcjach i pytaniach. Definicje pomaga
 | **Znak zagrożenia środowiskowego** <a id="znak-zagrozenia-srodowiskowego"></a> | Znak wymagany dla niektórych towarów, gdy spełnione są kryteria ADR. Nie należy go stosować ani pomijać wyłącznie na podstawie wyglądu produktu. | ADR 5.2.1.8; 5.3.6 |
 | **Kontener** <a id="kontener"></a> | Jednostka ładunkowa używana w transporcie, która musi spełniać odpowiednie wymagania ADR dla przewozu danego towaru. | ADR 1.2.1; część 7 |
 | **Kontrola drogowa** <a id="kontrola-drogowa"></a> | Sprawdzenie dokumentów, oznakowania, wyposażenia i zgodności przewozu przez uprawnione służby. Kierowca powinien przedstawić wymagane dokumenty i nie zgadywać brakujących danych. | ADR 1.8.1; przepisy krajowe |
-
+| **Nadawca** <a id="nadawca"></a> | Osoba lub firma, która przekazuje towar do przewozu i przekazuje dane potrzebne do jego prawidłowego opisania. W ADR ma obowiązki dotyczące m.in. informacji o towarze i dokumentacji. | ADR 1.2.1; 1.4.2.1 |
