@@ -90,7 +90,6 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0507`
 - `ADR-B-0562`
 
-Scenariusz z pracy kierowcy: [SC-ADR-B-06 — scenariusz praktyczny](../praktyka/scenariusze-13-dzialow.json).
 
 ## Powiązane pytania w banku
 - ADR-B-0016
@@ -156,7 +155,5 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 - `SC-ADR-B-06-03` — **Nalepka zasłonięta podczas załadunku**
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
 
 
