@@ -62,3 +62,10 @@ Bank zawiera 609 pytań `needs_review` i 0 `verified`. Arkusze mają `publicatio
 - Każdy wariant ma 30 pytań, 13 działów, brak powtórzeń w arkuszu i między wariantami, rozkład A/B/C 10/10/10 oraz najdłuższą serię tej samej poprawnej litery nie większą niż 3.
 - Klucze są zsynchronizowane z poprawnymi opcjami i explanation banku; explanation mają co najmniej 200 znaków.
 - Pełny raport: [Etap 4x26 — raport końcowy](../raporty/etap-4x26-raport-koncowy-2026-10-26.md).
+
+
+## Aktualizacja synchronizacji — etap 4x31
+
+- Migawka banku i kluczy: `99c06e736c0e5812e97d4ff02567dbf741629434`.
+- Po redakcji wyjaśnienia ADR-B-0540 zsynchronizowano `source_bank_head` we wszystkich wariantach i kluczach 001–005.
+- Wszystkie warianty pozostają materiałami treningowymi; pytania nadal mają status `needs_review`.
