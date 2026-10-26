@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x45 (26.10.2026)
 
-- Bank blob SHA: `0630175487431cee0c94ca5d7906e336a1842b3b`.
+- Bank blob SHA: `31fa3773a0b1e96e3ef892c22897cd7bf8661a8b`.
 - 609 pytań, wszystkie `needs_review`, zero `verified`; nie ma formalnych zatwierdzeń.
 - Redakcyjne korekty próby 40 i sformułowań z kolejek nie stanowią recenzji prawnej. 376 porównań literalnych pozostaje nierozstrzygniętych; 40 wpisów kolejek 4x40/4x44 nadal wymaga sprawdzenia przez specjalistę.
 
