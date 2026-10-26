@@ -137,7 +137,7 @@ W repozytorium nie ma statystyk błędów rzeczywistych kursantów, więc nie da
 - Pytania wymienione w ćwiczeniach: 4; identyfikatory zweryfikowano względem aktualnego banku i przypisania do modułu.
 - Źródłem merytorycznym pozostaje lekcja `../lekcje/ADR-B-02.md`, a scenariusze znajdują się w [mapie scenariuszy](../praktyka/scenariusze-13-dzialow.json). Numery ADR należy porównywać z aktualnym polskim tekstem ADR 2025 (Dz.U. 2025 poz. 642 i sprostowanie poz. 1575); ten dodatek nie jest formalną recenzją prawną.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Pracuj od rozpoznania zagrożenia do sprawdzenia dokumentu. Użyj fikcyjnych etykiet i kart wpisów UN; kursant powinien wyjaśnić różnicę między klasą, podklasą i grupą pakowania oraz wskazać, kiedy sam symbol nie wystarcza. Nie używaj prawdziwych substancji ani nie zlecaj improwizowanych prób reakcji chemicznych.
 
