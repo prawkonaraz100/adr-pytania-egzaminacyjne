@@ -208,3 +208,8 @@ Raporty ETAPU 4x7
 ## Etap 4x37 — rozdzielenie powtórzeń w dziale B-11
 
 - [Raport: kod tunelowy (-) i znaki drogowe](raporty/etap-4x37-powtorzenie-kodu-tunelowego-2026-10-26.md).
+
+
+## Etap 4x38 — ręczna ocena podpowiedzi
+
+- [Raport oceny fraz wspólnych dla pytania i odpowiedzi](raporty/etap-4x38-reczna-ocena-podpowiedzi-2026-10-26.md).
