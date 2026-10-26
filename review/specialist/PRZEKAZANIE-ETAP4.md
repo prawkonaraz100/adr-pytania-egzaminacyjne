@@ -110,3 +110,12 @@ Ten aneks jest aktualnym podsumowaniem stanu i zastępuje starsze liczby history
 5. Zgłaszać poprawki z ID, dokładnym przepisem, uzasadnieniem oraz osobną oceną A/B/C. Nierozstrzygnięte przypadki pozostają zablokowane.
 
 Nie zmieniać żadnego statusu na `verified` bez rzeczywistego, niezależnego protokołu recenzji. Wersja i SHA repo muszą zostać zapisane przed rozpoczęciem recenzji.
+
+
+## Aktualizacja bieżącej migawki — etap 4x39 (2026-10-26)
+
+- Bieżący commit `main`: `cb91b0e1c63bf31c148db6bf7c75da6cdde0ef10`; bank blob SHA: `8a16afb47c5d5a9e460092b7e474b4a3e8a5a8d9`.
+- Etap 4x39 ręcznie objął 50 explanation: 26 pytań zmienionych w etapach 4x30–4x38 oraz ADR-B-0586–0609. Nie znaleziono potwierdzonego wyjaśnienia wymagającego przepisania; fałszywy alarm ADR-B-0479 udokumentowano w raporcie.
+- Odwołania do pytań w lekcjach sprawdzono dla zmienionych ID i zakresu 0586–0609. Warianty i klucze 001–005 wskazują bieżący bank SHA; brak rozbieżności explanation w kluczach dla sprawdzonych ID.
+- Raport: `podstawowy/raporty/etap-4x39-przeglad-explanation-i-synchronizacja-2026-10-26.md`.
+- Wszystkie 609 pytań nadal `needs_review`; 0 `verified`; 0 formalnych akceptacji. Redakcyjny przegląd i CI nie zastępują literalnej kontroli przez specjalistę.
