@@ -2,6 +2,8 @@
 
 **Status: materiał szkoleniowy do odbioru instruktorskiego, nie zaliczenie szkolenia.** Program odwołuje się do ćwiczeń praktycznych wymaganych w załączniku nr 1 do rozporządzenia o kursach ADR (Dz.U. 2021 poz. 2150) i do instrukcji pisemnych ADR 2025, 5.4.3.4. Szczegóły należy zatwierdzić z osobą uprawnioną do prowadzenia zajęć.
 
+**Instruktor:** do każdego scenariusza korzystaj z [karty oceny i omówienia](KARTA-OCENY-SCENARIUSZY.md) — zawiera kolejność przeprowadzenia ćwiczenia, typowe błędy i sposób przekazania informacji zwrotnej, bez udawania formalnego zaliczenia zajęć.
+
 ## Scenariusze dla kursanta — działy B-01–B-03
 
 Scenariusze w pliku `scenariusze-13-dzialow.json` są ćwiczeniami na fikcyjnych dokumentach i sytuacjach. **Kolejność pracy kursanta:** najpierw przeczytaj `situation`, odpowiedz własnymi słowami na `learner_question`, a dopiero potem porównaj swoją decyzję z listą `steps`, typowymi błędami `common_mistakes`, wytłumaczeniem `learner_takeaway` i odpowiednimi `question_ids`. Dzięki temu poznajesz powód decyzji, a nie tylko gotowe kroki. W każdym przypadku kursant powinien powiedzieć **co robi**, **czego nie robi** i **dlaczego**. Instruktor może użyć pól `common_mistakes`, `legal_basis` i `learner_takeaway` jako krótkiej karty omówienia. Nie należy traktować samej odpowiedzi w quizie jako zaliczenia praktyki.
