@@ -70,6 +70,16 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 3. **Nieznany skład odpadu.** [Nadawca](../SLOWNICZEK.md#nadawca) nie zna dokładnego składu. Kursant wskazuje brakujące informacje i wyjaśnia, dlaczego nie wolno nadawać przypadkowego numeru UN ani automatycznie wybierać najłagodniejszej grupy pakowania.
 4. **Dokument i oczyszczenie.** Wyciek zanieczyścił przestrzeń ładunkową. Przed następnym załadunkiem kierowca sprawdza wymóg oczyszczenia i upewnia się, że dokument odpadu zawiera wymagane dane. Ćwiczenia wykonuje się na fikcyjnych kartach, bez rzeczywistego wycieku.
 
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-03` — **Wyciek przy kratce kanalizacyjnej**
+- `SC-ADR-B-03-02` — **Nieznany wyciek podczas postoju**
+- `SC-ADR-B-03-03` — **Pozostałości po rozładunku przed kolejnym ładunkiem**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
+
 ## Co musisz zapamiętać
 - Przy wycieku najpierw chroń siebie i innych; nie dotykaj substancji i nie rozpoznawaj jej po zapachu.
 - Nie spłukuj nieznanej substancji do kanalizacji.
@@ -155,16 +165,3 @@ Scenariusz mapowy: SC-ADR-B-03 w pliku [scenariuszy praktycznych](../praktyka/sc
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; klasyfikacja konkretnego odpadu i szczegółowe warunki prawne wymagają niezależnej weryfikacji.
-
-
-## Trzy scenariusze praktyczne do przejścia po pytaniach
-
-Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
-
-- `SC-ADR-B-03` — **Wyciek przy kratce kanalizacyjnej**
-- `SC-ADR-B-03-02` — **Nieznany wyciek podczas postoju**
-- `SC-ADR-B-03-03` — **Pozostałości po rozładunku przed kolejnym ładunkiem**
-
-Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
