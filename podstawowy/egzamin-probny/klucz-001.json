@@ -65,7 +65,7 @@
       "number": 7,
       "id": "ADR-B-0141",
       "correct_option": "B",
-      "explanation": "Towary niebezpieczne mogą być przewożone różnymi rodzajami transportu, a każdy ma własny zestaw przepisów. ADR dotyczy drogi, RID kolei, a IMDG przewozu morskiego. Warianty B i C zamieniają te zakresy, więc mogą prowadzić do zastosowania niewłaściwych wymagań przy zmianie środka transportu. Podstawa: ADR 1.1.4.2–1.1.4.3.",
+      "explanation": "Dla towarów niebezpiecznych różne środki transportu mają własne przepisy. ADR dotyczy drogi, RID to przepisy dla przewozu kolejowego, a IMDG to międzynarodowy kodeks przewozu drogą morską. Gdy ładunek zmienia środek transportu, trzeba sprawdzić wymagania każdego odcinka, zamiast przenosić zasady jednego rodzaju transportu na wszystkie pozostałe. Podstawa: ADR 1.1.4.2–1.1.4.3.",
       "legal_basis": [
         "ADR 2025, 1.1.4.2; 1.1.4.3"
       ]
@@ -101,7 +101,7 @@
       "number": 11,
       "id": "ADR-B-0129",
       "correct_option": "C",
-      "explanation": "Nieznany dokładny skład odpadu nie oznacza, że wolno automatycznie przypisać mu najniższy stopień zagrożenia. Trzeba wykorzystać dostępne informacje i szczególne reguły klasyfikacji odpadów, z uwzględnieniem wyjątków. Znak UN na pojemniku nie potwierdza sam z siebie grupy III; przy wątpliwościach należy przyjąć odpowiednio ostrożne podejście. Podstawa: ADR 2.1.3.5.5.",
+      "explanation": "Nieznany dokładny skład odpadu nie oznacza, że wolno automatycznie przypisać mu grupę pakowania III, czyli najniższy stopień zagrożenia wśród grup pakowania. Trzeba wykorzystać dostępne informacje i szczególne reguły klasyfikacji odpadów. Numer UN, czyli czterocyfrowy identyfikator towaru, sam nie potwierdza grupy pakowania. Przy wątpliwościach nie zgaduj i zastosuj właściwą regułę ADR. Podstawa: ADR 2.1.3.5.5.",
       "legal_basis": [
         "ADR 2025, 2.1.3.5.5"
       ]
@@ -278,5 +278,5 @@
       ]
     }
   ],
-  "source_bank_head": "d5e8f67e3e9ec317bf73d6c2be322e1ae05d3909"
+  "source_bank_head": "dcccc7164973069eb608a689d17caafcbbe1f3d1"
 }
