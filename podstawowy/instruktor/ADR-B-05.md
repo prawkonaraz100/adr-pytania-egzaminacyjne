@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteri
 
 **Obserwowalne kryterium:** Nie proponuje gaszenia pożaru przestrzeni ładunkowej przez załogę; rozróżnia ćwiczenie od zaliczenia praktyki.
 
-**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
+**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Materiał wymaga niezależnej recenzji ADR.
 
 
 
@@ -131,7 +131,7 @@ Brak danych o rzeczywistych wynikach kursantów — repo nie rejestruje statysty
 - Lekcja: [ADR-B-05](../lekcje/ADR-B-05.md). Scenariusze: [plik JSON](../praktyka/scenariusze-13-dzialow.json) — wyszukaj identyfikatory SC wymienione powyżej.
 - Nie zmieniono podstaw prawnych ani statusów pytań bez potwierdzonej rozbieżności w urzędowym tekście ADR. To nie zastępuje recenzji specjalisty.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Prowadź kursanta od oceny bezpieczeństwa miejsca do alarmowania i przekazania danych. Nie oceniaj gotowości do działania po samej pamięci numeru przepisu: kursant ma wyjaśnić, dlaczego nie wolno wchodzić w wyciek, wąchać substancji ani gasić pożaru przedziału ładunkowego.
 
