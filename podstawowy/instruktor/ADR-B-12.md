@@ -120,7 +120,7 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - Lekcja: [ADR-B-12](../lekcje/ADR-B-12.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
 - Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Ćwicz na fikcyjnych danych, bez ujawniania rzeczywistych tras, danych osób ani szczegółów zabezpieczeń. Kursant ma odróżnić ochronę przed kradzieżą i nieuprawnionym dostępem od mocowania ładunku oraz wyjaśnić, co zrobi, gdy nie może potwierdzić uprawnienia odbiorcy.
 
