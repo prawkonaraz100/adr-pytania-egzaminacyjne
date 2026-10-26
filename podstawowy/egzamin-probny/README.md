@@ -88,3 +88,7 @@ Bank zawiera 609 pytań `needs_review` i 0 `verified`. Arkusze mają `publicatio
 - Zgodność zestawów pytań, poprawnych liter i wyjaśnień z bankiem: 5/5, brak rozbieżności; wszystkie arkusze nadal są treningowe i niezatwierdzone.
 - Zmodyfikowano wyłącznie osiem wyjaśnień w banku (bez zmiany poprawnych liter, opcji A/B/C lub przypisań działów).
 - Szczegóły: [raport 4x46](../raporty/etap-4x46-proba60-i-synchronizacja-2026-10-26.md).
+
+## Synchronizacja po 4x47
+
+- Aktualny bank blob SHA: `6de0159ce4d80799104a01170c42e363623045eb`. Wszystkie warianty 001–005 i ich klucze zachowują te same pytania i poprawne litery; zaktualizowano migawkę banku. ADR-B-0403 nie należy do pięciu obecnych wariantów.
