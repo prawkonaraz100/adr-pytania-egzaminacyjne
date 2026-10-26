@@ -2,6 +2,9 @@
 
 Materiały przeniesione z lekcji: plany zajęć, mapy kompetencji, zadania instruktorskie, kryteria obserwacji i informacje zwrotne. Nie są dowodem przeprowadzenia zajęć ani zaliczenia kursanta. Nie wpisuj fikcyjnych dat, ocen ani podpisów.
 
+**Słowniczek pojęć dla kursanta:** [SLOWNICZEK.md](../SLOWNICZEK.md).
+
+
 ## Zadanie instruktorskie: Klasy i zagrożenia
 
 **Scenariusz bez rzeczywistych towarów niebezpiecznych:** Na fikcyjnej liście UN kursant odczytuje klasę i opis, wyjaśnia różnicę pomiędzy podklasą 1.1, klasą 7 i 9 oraz wskazuje, kiedy nie można rozpoznać towaru po samej nalepce.
