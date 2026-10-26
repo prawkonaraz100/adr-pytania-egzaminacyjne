@@ -1,6 +1,6 @@
 ## Migawka aktualna — etap 4x50 (2026-10-26)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `626def46002cb4b065c402d0f30a9936ae30cf7d`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `67de32798b610d75c0f40cd6f1e9a8552a87382e`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. To jest bieżący snapshot; poniższe starsze aneksy zachowano jako historię.
 - Raport redakcyjny 4x50: `podstawowy/raporty/etap-4x50-proba60-explanation-2026-10-26.md`.
 
