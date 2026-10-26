@@ -2,6 +2,9 @@
 
 Materiały przeniesione z lekcji: plany zajęć, mapy kompetencji, zadania instruktorskie, kryteria obserwacji i informacje zwrotne. Nie są dowodem przeprowadzenia zajęć ani zaliczenia kursanta. Nie wpisuj fikcyjnych dat, ocen ani podpisów.
 
+**Słowniczek pojęć dla kursanta:** [SLOWNICZEK.md](../SLOWNICZEK.md).
+
+
 ## Zadanie instruktorskie: Odpady niebezpieczne
 
 **Scenariusz bez rzeczywistych towarów niebezpiecznych:** Nadawca zgłasza odpad o nieznanym dokładnie składzie. Kursant wskazuje, jakich informacji i warunków wymaga dalsza klasyfikacja, zamiast samodzielnie nadawać przypadkowy numer UN.
