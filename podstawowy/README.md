@@ -55,6 +55,8 @@ Format treningowy: 30 pytań, 60 minut, próg 20/30 (2/3). Każdy wariant obejmu
 
 ## Raporty i materiały
 
+- [Etap 4x56 — próbka 60 explanation: fałszywe alarmy](raporty/etap-4x56-proba60-false-alarms-2026-10-26.md)
+
 - [Etap 4x55 — audyt odsyłaczy lekcji, instruktora i scenariuszy](raporty/etap-4x55-audyt-odsyłaczy-2026-10-26.md)
 
 - [Etap 4x54 — synchronizacja starszego indeksu scenariuszy](raporty/etap-4x54-synchronizacja-indeksu-scenariuszy-2026-10-26.md)
