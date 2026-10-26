@@ -3,6 +3,7 @@
 These checks prove file/count consistency only. They do not establish legal correctness
 or authorize any question as verified.
 """
+import hashlib
 import json
 import re
 import unittest
@@ -122,6 +123,38 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertEqual(self.manifest["artifact_counts"]["mock_exam_variants"], 5)
         self.assertEqual(self.manifest["artifact_counts"]["mock_exam_keys"], 5)
 
+
+    def test_current_snapshot_and_open_quote_list_stay_synchronized(self):
+        bank_bytes = (BASIC / "questions.jsonl").read_bytes()
+        blob_sha = hashlib.sha1(
+            b"blob " + str(len(bank_bytes)).encode("ascii") + bytes([0]) + bank_bytes
+        ).hexdigest()
+        self.assertEqual(self.manifest["current_bank_blob_sha"], blob_sha)
+        self.assertEqual(self.manifest["stage4x29"]["source_bank_blob_sha"], blob_sha)
+        self.assertEqual(self.manifest["stage4x29"]["sample_size"], 60)
+        self.assertEqual(self.manifest["stage4x29"]["key_mismatches_after_letter_remapping"], 0)
+
+        open_items = self.manifest["specialist_open_items"]
+        self.assertEqual(
+            open_items["official_polish_text_not_retrieved"],
+            self.manifest["unresolved_literal_comparisons"],
+        )
+        quote_list = REVIEW / "ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md"
+        quote_text = quote_list.read_text(encoding="utf-8")
+        quote_ids = re.findall(r"^- (ADR-B-\d{4})$", quote_text, flags=re.MULTILINE)
+        self.assertEqual(len(quote_ids), 121)
+        self.assertEqual(len(set(quote_ids)), 121)
+        self.assertTrue(set(quote_ids).issubset(self.by_id))
+        self.assertEqual(open_items["ministerial_copy_exact_quote_not_saved"], len(quote_ids))
+        self.assertEqual(open_items["targeted_source_checked_full_literal_comparison_pending"], 10)
+
+        self.assertTrue((BASIC / "raporty" / "etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md").is_file())
+        exam_guide = (BASIC / "egzamin-probny" / "README.md").read_text(encoding="utf-8")
+        self.assertIn("Jak interpretować wynik", exam_guide)
+        review_guide = (REVIEW / "INSTRUKCJA-RECENZJI.md").read_text(encoding="utf-8")
+        self.assertIn("etapach 4x25–4x29", review_guide)
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 609)
+        self.assertEqual(self.manifest["status_counts"]["verified"], 0)
 
 if __name__ == "__main__":
     unittest.main()
