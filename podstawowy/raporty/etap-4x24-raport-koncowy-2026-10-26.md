@@ -14,8 +14,8 @@
 | Wskaźnik | Wynik |
 |---|---:|
 | Rekordy z puli 172 przejrzane w pięciu partiach | 172 |
-| Dosłowne fragmenty MI wydobyte | 44 |
-| Rekordy nadal bez dosłownego fragmentu MI | 128 |
+| Dosłowne fragmenty MI wydobyte | 52 |
+| Rekordy nadal bez dosłownego fragmentu MI | 120 |
 | Pytania KC sprawdzone osobno | 3 |
 | Potwierdzone sprzeczności | 0 |
 | Pytania/klucze zmienione | 0 |
@@ -31,7 +31,7 @@
 | 3 — stage4x24-mi-literal-batch3-0427-0501-2026-10-26.json | 40 | 7 | 33 |
 | 4 — stage4x24-mi-literal-batch4-0502-0578-2026-10-26.json | 40 | 1 | 39 |
 | 5 — stage4x24-mi-literal-batch5-0579-0599-2026-10-26.json | 15 | 7 | 8 |
-| **Razem** | **172** | **44** | **128** |
+| **Razem** | **172** | **52** | **120** |
 
 ## Kodeks cywilny — ADR-B-0567–0569
 
@@ -46,7 +46,7 @@ Wniosek: pytania 0567–0569 zachowują ostrożne brzmienie. Nie twierdzą, że 
 
 W dostępnej warstwie tekstowej MI nie udało się wydobyć dokładnego brzmienia właściwego podpunktu albo właściwego wiersza tabeli dla 125 rekordów. Dotyczy to m.in. kodów tunelowych, tabeli wspólnego załadunku, kodów BK/VC, świadectw i kategorii pojazdów, progów ilościowych, dokumentacji przewozowej, oznakowania oraz baterii sodowo-jonowych. W tych przypadkach nie zastępowano cytatu parafrazą, nie wyciągano wniosku o zgodności i nie zmieniano odpowiedzi na podstawie pamięci.
 
-**Lista 128 ID bez dosłownego fragmentu:**
+**Lista 120 ID bez dosłownego fragmentu:**
 - ADR-B-0026
 - ADR-B-0032
 - ADR-B-0033
@@ -60,18 +60,15 @@ W dostępnej warstwie tekstowej MI nie udało się wydobyć dokładnego brzmieni
 - ADR-B-0131
 - ADR-B-0137
 - ADR-B-0138
-- ADR-B-0139
 - ADR-B-0141
 - ADR-B-0144
 - ADR-B-0148
 - ADR-B-0162
 - ADR-B-0172
-- ADR-B-0173
 - ADR-B-0181
 - ADR-B-0202
 - ADR-B-0239
 - ADR-B-0262
-- ADR-B-0292
 - ADR-B-0301
 - ADR-B-0310
 - ADR-B-0312
@@ -129,7 +126,6 @@ W dostępnej warstwie tekstowej MI nie udało się wydobyć dokładnego brzmieni
 - ADR-B-0502
 - ADR-B-0508
 - ADR-B-0510
-- ADR-B-0512
 - ADR-B-0520
 - ADR-B-0521
 - ADR-B-0522
@@ -154,10 +150,7 @@ W dostępnej warstwie tekstowej MI nie udało się wydobyć dokładnego brzmieni
 - ADR-B-0550
 - ADR-B-0554
 - ADR-B-0555
-- ADR-B-0556
-- ADR-B-0557
 - ADR-B-0558
-- ADR-B-0559
 - ADR-B-0560
 - ADR-B-0561
 - ADR-B-0562
