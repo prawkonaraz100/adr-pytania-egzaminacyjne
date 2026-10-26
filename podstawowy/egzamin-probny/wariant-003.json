@@ -3,7 +3,7 @@
   "exam_type": "ADR_BASIC_PRACTICE_DRAFT",
   "publication_authorized": false,
   "legal_review_status": "NOT_APPROVED_ALL_QUESTIONS_NEEDS_REVIEW",
-  "seed": 2026102603,
+  "seed": 2026102703,
   "variant": 3,
   "generated_from": "podstawowy/questions.jsonl",
   "source_bank_head": "46e7d1a0c28d21dce01b054be8513ef7db1f6210",
@@ -31,42 +31,330 @@
   "questions": [
     {
       "number": 1,
-      "id": "ADR-B-0529",
-      "module_id": "ADR-B-01",
-      "stem": "Pracownik punktu przeładunkowego ma kontakt z niebezpiecznymi substancjami podczas typowych obowiązków. Jaki element szkolenia odpowiada wymaganiu ADR 1.3.2.3?",
-      "options": {
-        "A": "Zagrożenia, środki ochronne i reagowanie na zdarzenia",
-        "C": "Szkolenie dotyczy głównie grafiku kierowców i planowania zużycia paliwa",
-        "B": "Szkolenie obejmuje wyłącznie archiwizowanie faktur i dokumentów księgowych"
-      },
-      "image": null
-    },
-    {
-      "number": 2,
       "id": "ADR-B-0189",
       "module_id": "ADR-B-06",
       "stem": "Paczka jest oznaczona główną nalepką ADR, ale według odpowiedniej pozycji w tabeli A wymaga też nalepki zagrożenia dodatkowego. Jak ją przygotować?",
       "options": {
-        "A": "Umieścić nalepki wymagane przez ADR, także dla zagrożenia dodatkowego",
-        "C": "Pominąć dodatkową nalepkę, skoro numer UN i oba rodzaje zagrożeń podano w dokumencie przewozowym",
+        "C": "Umieścić nalepki wymagane przez ADR, także dla zagrożenia dodatkowego",
+        "A": "Pominąć dodatkową nalepkę, skoro numer UN i oba rodzaje zagrożeń podano w dokumencie przewozowym",
         "B": "Wydrukować opis zagrożenia na kartonie"
       },
       "image": null
     },
     {
-      "number": 3,
-      "id": "ADR-B-0177",
-      "module_id": "ADR-B-03",
-      "stem": "Po rozładunku ADR w skrzyni ładunkowej wykryto pozostałości wycieku. Na miejscu nie ma możliwości bezpiecznego czyszczenia. Co przewiduje ADR 7.5.8.1?",
+      "number": 2,
+      "id": "ADR-B-0425",
+      "module_id": "ADR-B-09",
+      "stem": "Na przesyłce z materiałami klasy 1 występuje kod zgodności 1.4S. Jakie znaczenie może mieć to dla ładowania z towarami innych klas?",
       "options": {
-        "A": "Zabezpieczyć pojazd i przewieźć go do miejsca czyszczenia",
-        "B": "Doładować towar po zgłoszeniu pozostałości",
-        "C": "Odmówić czyszczenia, jeśli materiał nie wydostaje się już z pustego opakowania"
+        "B": "Kod 1.4S pozwala usunąć wszystkie nalepki, gdy przewóz odbywa się drogą",
+        "C": "Kod 1.4S oznacza bezwzględny zakaz przewozu drogowego w każdych warunkach",
+        "A": "Kod może pozwalać na wspólny załadunek, jeśli spełniono warunki uwagi (a)"
+      },
+      "image": null
+    },
+    {
+      "number": 3,
+      "id": "ADR-B-0367",
+      "module_id": "ADR-B-07",
+      "stem": "Pakujący ukończył pakowanie ADR, lecz sztuki przesyłek nie mają wymaganego oznakowania. Co jest jego obowiązkiem?",
+      "options": {
+        "A": "Oznakować sztuki przesyłek i umieścić nalepki ADR",
+        "B": "Zamieścić numer UN w dokumencie i przekazać paczki do transportu",
+        "C": "Wysłać opis do kierowcy zamiast nalepek"
       },
       "image": null
     },
     {
       "number": 4,
+      "id": "ADR-B-0603",
+      "module_id": "ADR-B-11",
+      "stem": "W kolumnie 15 tabeli A przy towarze widnieje kod tunelowy „(-)”. Co oznacza to dla ograniczeń tunelowych ADR?",
+      "options": {
+        "A": "Kod ten sam w sobie nie nakłada ograniczenia tunelowego ADR dla tego towaru",
+        "C": "Oznacza bezwzględny zakaz wjazdu do każdego tunelu, niezależnie od oznakowania",
+        "B": "Pozwala wjechać do dowolnego tunelu nawet wtedy, gdy obowiązuje odrębny zakaz drogowy"
+      },
+      "image": null
+    },
+    {
+      "number": 5,
+      "id": "ADR-B-0065",
+      "module_id": "ADR-B-11",
+      "stem": "Co oznacza zapis „(-)” jako kod ograniczeń tunelowych dla danego towaru?",
+      "options": {
+        "B": "Brak ograniczeń tunelowych ADR wynikających z tego kodu",
+        "A": "Zakaz korzystania z dróg publicznych na trasie przewozu",
+        "C": "Nakaz jazdy nocą, gdy ruch jest mniejszy i łatwiej minąć inne pojazdy"
+      },
+      "image": null
+    },
+    {
+      "number": 6,
+      "id": "ADR-B-0289",
+      "module_id": "ADR-B-02",
+      "stem": "Nalepka wzoru 6.1 ma symbol czaszki ze skrzyżowanymi piszczelami. Jakie zagrożenie rozpoznaje kierowca?",
+      "options": {
+        "C": "Materiały zakaźne klasy 6.2",
+        "A": "Materiały trujące klasy 6.1",
+        "B": "Materiały żrące klasy 8"
+      },
+      "image": null
+    },
+    {
+      "number": 7,
+      "id": "ADR-B-0086",
+      "module_id": "ADR-B-11",
+      "stem": "W jednostce transportowej objętej ADR masz dwa towary z różnymi kodami tunelowymi. Jaki kod obowiązuje dla całego ładunku?",
+      "options": {
+        "B": "Kod towaru umieszczonego jako pierwszy w dokumencie przewozowym, ponieważ to kolejność wpisów ma decydować o ograniczeniach",
+        "A": "Kod towaru o większej masie",
+        "C": "Kod powodujący największe ograniczenia tunelowe"
+      },
+      "image": null
+    },
+    {
+      "number": 8,
+      "id": "ADR-B-0398",
+      "module_id": "ADR-B-10",
+      "stem": "W transporcie drogowym z odcinkiem morskim przed przewozem ktoś proponuje zastąpić dokument transportowy IMDG ustnym telefonem. Co wynika z 1.1.4.2.3?",
+      "options": {
+        "A": "Ustna rozmowa telefoniczna zawsze może zastąpić dokument przewozowy wymagany przy towarach niebezpiecznych",
+        "C": "Zastąpienie dokumentu jest możliwe tylko w określonym zakresie dla IMDG/ICAO i po spełnieniu warunków ADR",
+        "B": "Kolor kontenera wystarczy do ustalenia dokumentacji, ponieważ określa rodzaj przewożonego towaru"
+      },
+      "image": null
+    },
+    {
+      "number": 9,
+      "id": "ADR-B-0554",
+      "module_id": "ADR-B-09",
+      "stem": "Przed załadunkiem kierowca widzi, że podłoga pojazdu jest zabrudzona pozostałościami poprzedniego ładunku, które mogą reagować z nowym towarem ADR. Co powinien zrobić?",
+      "options": {
+        "A": "Zażądać oczyszczenia i usunięcia niezgodności przed załadunkiem",
+        "C": "Załadować towar, jeśli opakowania są zamknięte i kierowca nie zauważył wycieku",
+        "B": "Przykryć zabrudzenia kartonem i rozpocząć przewóz bez dodatkowej kontroli podłogi"
+      },
+      "image": null
+    },
+    {
+      "number": 10,
+      "id": "ADR-B-0077",
+      "module_id": "ADR-B-08",
+      "stem": "Dla jakich nalepek ostrzegawczych ADR 8.1.5.3 wymaga maski ucieczkowej dla każdego członka załogi?",
+      "options": {
+        "A": "Klasy 3 i 8",
+        "C": "9 lub 9A",
+        "B": "2.3 lub 6.1"
+      },
+      "image": null
+    },
+    {
+      "number": 11,
+      "id": "ADR-B-0120",
+      "module_id": "ADR-B-12",
+      "stem": "Nadawca chce przekazać towary niebezpieczne firmie przewozowej, której tożsamości nie zweryfikowano. Co wynika z ADR 1.10.1.2?",
+      "options": {
+        "A": "Przekazać towar tylko przewoźnikowi o sprawdzonej tożsamości",
+        "C": "Pominąć weryfikację, jeśli firma poda numer telefonu i adres e-mail",
+        "B": "Sprawdzać tożsamość jedynie przy pustych opakowaniach po towarach ADR"
+      },
+      "image": null
+    },
+    {
+      "number": 12,
+      "id": "ADR-B-0355",
+      "module_id": "ADR-B-04",
+      "stem": "W czasie wypadku przy ładunku ADR gromadzą się opary. Gdzie w miarę możliwości powinna przebywać załoga?",
+      "options": {
+        "C": "Pozostać po stronie nawietrznej i unikać oparów",
+        "A": "Zawsze stać pod pojazdem, niezależnie od kierunku wiatru",
+        "B": "Stać przy wylocie par bez ochrony, aby obserwować wyciek"
+      },
+      "image": null
+    },
+    {
+      "number": 13,
+      "id": "ADR-B-0408",
+      "module_id": "ADR-B-12",
+      "stem": "Montaż blokady antykradzieżowej pojazdu dużego ryzyka uniemożliwiłby ratownikom dostęp w wypadku. Jak ocenić takie rozwiązanie?",
+      "options": {
+        "A": "Blokada jest obowiązkowa nawet wtedy, gdy uniemożliwia ratownikom dostęp do pojazdu",
+        "C": "Zabezpieczenie nie powinno utrudniać działań ratowniczych w razie wypadku",
+        "B": "Blokadę można stosować bez informowania kierowcy o sposobie jej odblokowania"
+      },
+      "image": null
+    },
+    {
+      "number": 14,
+      "id": "ADR-B-0038",
+      "module_id": "ADR-B-13",
+      "stem": "Czy w dokumencie przewozowym ADR potrzebna jest prawidłowa nazwa przewozowa towaru?",
+      "options": {
+        "A": "Tak, zgodnie z zasadami ADR",
+        "B": "Nie, numer UN wystarczy",
+        "C": "Nie, gdy na opakowaniu znajduje się nazwa handlowa produktu"
+      },
+      "image": null
+    },
+    {
+      "number": 15,
+      "id": "ADR-B-0371",
+      "module_id": "ADR-B-07",
+      "stem": "Po wyładunku ADR w pojeździe zostały niebezpieczne pozostałości, które wymagają oczyszczenia. Kto ma zapewnić ich usunięcie w ramach swoich obowiązków?",
+      "options": {
+        "B": "Rozładowca w zakresie czyszczenia po rozładunku",
+        "C": "Kierowca kolejnego zestawu, który przyjedzie po nowy ładunek",
+        "A": "Osoba zatwierdzająca fakturę"
+      },
+      "image": null
+    },
+    {
+      "number": 16,
+      "id": "ADR-B-0008",
+      "module_id": "ADR-B-03",
+      "stem": "W dokumencie przewozowym ADR dla odpadu niebezpiecznego niebędącego odpadem promieniotwórczym dodano słowo „ODPAD” przed prawidłową nazwą przewozową. Co to oznacza?",
+      "options": {
+        "A": "Że można pominąć numer UN i inne dane identyfikacyjne przewożonej substancji",
+        "B": "Że przesyłka jest odpadem objętym zasadami przewozu ADR",
+        "C": "Że przewóz nie podlega już przepisom ADR"
+      },
+      "image": null
+    },
+    {
+      "number": 17,
+      "id": "ADR-B-0495",
+      "module_id": "ADR-B-02",
+      "stem": "Przesyłka klasy 1 ma podklasę 1.2. Jakie zagrożenie odróżnia ją od podklasy 1.1?",
+      "options": {
+        "B": "Podklasa 1.2 oznacza wybuch masowy całego ładunku bez rozrzutu",
+        "C": "Podklasa 1.2 wiąże się z rozrzutem, ale bez zagrożenia wybuchem masowym",
+        "A": "Podklasa 1.2 oznacza wyłącznie zagrożenie żrące, bez skutków wybuchu i rozrzutu"
+      },
+      "image": null
+    },
+    {
+      "number": 18,
+      "id": "ADR-B-0331",
+      "module_id": "ADR-B-03",
+      "stem": "Dokładna analiza mieszaniny nie jest możliwa bez nieproporcjonalnych kosztów lub wysiłku. Co przewiduje ADR 2.1.3.5.2?",
+      "options": {
+        "A": "Oznaczyć mieszaninę jako klasę 9",
+        "C": "Użyć składnika o największym zagrożeniu",
+        "B": "Wybrać klasę mieszaniny na podstawie wyglądu cieczy i oceny pracownika magazynu"
+      },
+      "image": null
+    },
+    {
+      "number": 19,
+      "id": "ADR-B-0058",
+      "module_id": "ADR-B-09",
+      "stem": "Na przesyłce ADR widnieją strzałki kierunkowe wskazujące górę. Jak należy ją ustawić?",
+      "options": {
+        "A": "W dowolnej pozycji, jeśli opakowanie jest zamknięte",
+        "B": "Przeciwnie do kierunku strzałek, aby obniżyć środek ciężkości",
+        "C": "Zgodnie ze strzałkami"
+      },
+      "image": null
+    },
+    {
+      "number": 20,
+      "id": "ADR-B-0145",
+      "module_id": "ADR-B-13",
+      "stem": "Gdzie podczas przewozu powinno znajdować się wymagane świadectwo dopuszczenia samochodu ciężarowego typu FL (pojazdu silnikowego, nie naczepy), zgodnie z ogólną zasadą ADR?",
+      "options": {
+        "A": "Wystarczy skan w telefonie",
+        "B": "Mieć wymagane świadectwo w kabinie razem z dokumentami przewozu",
+        "C": "Pozostawić świadectwo w biurze, a w kabinie trzymać tylko zaświadczenie kierowcy ADR"
+      },
+      "image": null
+    },
+    {
+      "number": 21,
+      "id": "ADR-B-0251",
+      "module_id": "ADR-B-08",
+      "stem": "W jednostce transportowej ADR są dwa pojazdy. Ile klinów pod koła wymaga ogólna lista wyposażenia ADR 8.1.5.2?",
+      "options": {
+        "A": "Jeden klin pod koła dla każdego pojazdu",
+        "C": "Jeden klin na cały zestaw",
+        "B": "Hamulec postojowy zastępuje kliny i wystarcza dla wszystkich pojazdów w jednostce"
+      },
+      "image": null
+    },
+    {
+      "number": 22,
+      "id": "ADR-B-0393",
+      "module_id": "ADR-B-10",
+      "stem": "W morskim łańcuchu transportowym ładunek jest przewożony w pojeździe, a nie kontenerze. Co mówi ADR 5.4.2 o świadectwie pakowania pojazdu?",
+      "options": {
+        "A": "Nie; świadectwo pakowania pojazdu nie może być dołączone do dokumentu przewozowego",
+        "B": "Może być dołączone do dokumentu przewozowego, jeśli spełniono wymagania ADR",
+        "C": "Musi zastąpić dokument przewozowy oraz prawo jazdy kierowcy"
+      },
+      "image": null
+    },
+    {
+      "number": 23,
+      "id": "ADR-B-0357",
+      "module_id": "ADR-B-04",
+      "stem": "Kierowca chce otworzyć opakowanie ADR, aby sprawdzić, czy nie pojawił się wyciek. Co przewiduje 8.3.3?",
+      "options": {
+        "C": "Kierowcy nie wolno otwierać opakowania",
+        "B": "Można je otwierać w rękawicach ochronnych, jeśli towar wygląda bezpiecznie",
+        "A": "Można je otwierać po godzinie postoju, jeśli nie widać wycieku"
+      },
+      "image": null
+    },
+    {
+      "number": 24,
+      "id": "ADR-B-0108",
+      "module_id": "ADR-B-05",
+      "stem": "W którym przypadku instrukcje pisemne dopuszczają użycie gaśnicy przez członków załogi, jeżeli działanie jest odpowiednie i bezpieczne?",
+      "options": {
+        "B": "Do małego, wczesnego pożaru opon, hamulców lub silnika, jeśli to bezpieczne",
+        "A": "Do każdego pożaru ładunku, nawet jeśli ogień szybko się rozprzestrzenia",
+        "C": "Do gaszenia całego pojazdu, gdy ogień obejmuje już kabinę i przedział ładunkowy"
+      },
+      "image": null
+    },
+    {
+      "number": 25,
+      "id": "ADR-B-0383",
+      "module_id": "ADR-B-10",
+      "stem": "Kontener w łańcuchu morskim oznakowano według IMDG zamiast oznaczeń wymaganych w ADR 5.3. Co może dopuścić 1.1.4.2.1(c)?",
+      "options": {
+        "B": "Oznakowanie IMDG, jeśli spełniono warunki ADR",
+        "A": "Usunąć nalepki kontenera",
+        "C": "Zastąpić wymagane oznakowanie tablicą reklamową spedytora z nazwą firmy i opisem towaru"
+      },
+      "image": null
+    },
+    {
+      "number": 26,
+      "id": "ADR-B-0144",
+      "module_id": "ADR-B-12",
+      "stem": "Przy przewozie objętym 8.4.1 ADR jaki postój bez bezpośredniego nadzoru może być dopuszczony?",
+      "options": {
+        "A": "Skorzystać z zabezpieczonej bazy lub terenu zakładu, jeśli jest dostępny",
+        "B": "Stanąć na poboczu drogi z dostępem publicznym, jeśli kierowca czuwa",
+        "C": "Wybrać parking z monitoringiem bez sprawdzenia, czy spełnia wymagania ADR"
+      },
+      "image": null
+    },
+    {
+      "number": 27,
+      "id": "ADR-B-0564",
+      "module_id": "ADR-B-06",
+      "stem": "Kontener przewozi towar, dla którego wymagane są nalepki dużego formatu. Na jednym boku umieszczono nalepkę innej klasy, niezgodną z ładunkiem. Co należy zrobić?",
+      "options": {
+        "C": "Pozostawić dodatkową nalepkę jako informację o poprzednim ładunku",
+        "A": "Zakryć błędną kartką",
+        "B": "Usunąć błędną nalepkę i sprawdzić całe oznakowanie"
+      },
+      "image": null
+    },
+    {
+      "number": 28,
       "id": "ADR-B-0221",
       "module_id": "ADR-B-05",
       "stem": "Z uszkodzonego opakowania wydostają się opary, a kierowca jest już w bezpiecznej odległości. Gdzie powinien pozostać zgodnie z instrukcjami ADR?",
@@ -78,314 +366,26 @@
       "image": null
     },
     {
-      "number": 5,
-      "id": "ADR-B-0458",
-      "module_id": "ADR-B-12",
-      "stem": "W tabeli 1.10.3.1.2 przy rodzaju przewozu wpisano literę a. Jak rozumieć taki zapis?",
-      "options": {
-        "B": "Oznacza, że dana kolumna nie ma zastosowania do wskazanego przypadku",
-        "A": "Oznacza obowiązek umieszczenia nalepki z literą A na każdej sztuce przesyłki",
-        "C": "Oznacza próg ilościowy wynoszący dokładnie 100 kilogramów dla danego towaru"
-      },
-      "image": null
-    },
-    {
-      "number": 6,
-      "id": "ADR-B-0581",
-      "module_id": "ADR-B-04",
-      "stem": "Dyspozytor proponuje pozostawienie pojazdu bez nadzoru na zwykłym parkingu, mimo że dla tego przewozu stosuje się ADR 8.4. Jak postąpić?",
-      "options": {
-        "A": "Uzgodnić postój zgodny z wymaganiami ADR, a w razie braku odpowiedniego miejsca wyjaśnić bezpieczną alternatywę",
-        "B": "Zastosować polecenie dyspozytora, ponieważ firma przejmuje wtedy całą odpowiedzialność",
-        "C": "Zostawić pojazd bez zabezpieczenia, jeśli kierowca wróci przed końcem swojej przerwy"
-      },
-      "image": null
-    },
-    {
-      "number": 7,
-      "id": "ADR-B-0206",
-      "module_id": "ADR-B-10",
-      "stem": "Kontener po rejsie morskim jest oznakowany zgodnie z IMDG, ale inaczej niż w typowym przewozie drogowym. Kiedy można opierać się na uznaniu części wymagań IMDG przez ADR?",
-      "options": {
-        "B": "Po spełnieniu warunków ADR 1.1.4.2.1",
-        "C": "Po okazaniu prawa jazdy",
-        "A": "Po usunięciu nalepek IMDG z kontenera, aby umieszczono go na pojeździe z samymi tablicami ADR"
-      },
-      "image": null
-    },
-    {
-      "number": 8,
-      "id": "ADR-B-0066",
-      "module_id": "ADR-B-12",
-      "stem": "Dlaczego obszar terminalu, na którym czasowo składuje się niebezpieczny ładunek podczas transportu, powinien być odpowiednio zabezpieczony?",
-      "options": {
-        "A": "Aby ułatwić odbiór przesyłek kierowcom",
-        "C": "Ponieważ zabezpieczenie zastępuje obowiązek właściwego znakowania",
-        "B": "By ograniczyć nieuprawniony dostęp i ryzyko naruszenia ochrony"
-      },
-      "image": null
-    },
-    {
-      "number": 9,
-      "id": "ADR-B-0473",
-      "module_id": "ADR-B-04",
-      "stem": "Pojazd ADR z układem ABS ciągnie przyczepę o maksymalnej masie ponad 3,5 t. Co 8.3.8 wymaga od połączeń elektrycznych, o których mowa w 9.2.2.6, podczas przewozu?",
-      "options": {
-        "B": "Połączenia można rozłączyć podczas jazdy, jeśli kierowca nie hamuje",
-        "C": "Złącza elektryczne muszą być podłączone tylko podczas załadunku i rozładunku",
-        "A": "Złącza elektryczne z 9.2.2.6 muszą pozostać podłączone podczas przewozu"
-      },
-      "image": null
-    },
-    {
-      "number": 10,
-      "id": "ADR-B-0492",
-      "module_id": "ADR-B-09",
-      "stem": "Dwie przesyłki nie mogą zostać załadowane razem na podstawie ADR 7.5.2. Czy wystawienie dwóch oddzielnych dokumentów przewozowych znosi zakaz?",
-      "options": {
-        "A": "Tak; oddzielny dokument zawsze pozwala załadować przesyłki razem",
-        "B": "Tak; wystarczy, że kierowca ma kontakt telefoniczny z nadawcą",
-        "C": "Nie; dwa dokumenty nie znoszą zakazu wspólnego załadunku z ADR"
-      },
-      "image": null
-    },
-    {
-      "number": 11,
-      "id": "ADR-B-0452",
-      "module_id": "ADR-B-10",
-      "stem": "Termin badania butli DOT objętej 1.1.4.7.2 upłynął. Czy przepis przewiduje możliwość przewozu jej do wykonania wymaganego badania, także z przejazdami pośrednimi?",
-      "options": {
-        "A": "Nie; po terminie badania nie wolno przewozić butli w żadnym celu",
-        "C": "Tak; można przewieźć ją tylko bez dokumentu przewozowego i bez kontroli",
-        "B": "Tak; można przewieźć ją w celu badania, również przez etapy pośrednie"
-      },
-      "image": null
-    },
-    {
-      "number": 12,
-      "id": "ADR-B-0061",
-      "module_id": "ADR-B-10",
-      "stem": "Jaki dodatkowy zapis przewiduje ADR w dokumencie przewozowym, jeśli przewóz odbywa się zgodnie z 1.1.4.2.1?",
-      "options": {
-        "B": "PRZEWÓZ ZGODNY Z 1.1.3.6",
-        "A": "PRZEWÓZ ZGODNY Z 5.4.3.1",
-        "C": "PRZEWÓZ ZGODNY Z 1.1.4.2.1"
-      },
-      "image": null
-    },
-    {
-      "number": 13,
-      "id": "ADR-B-0368",
-      "module_id": "ADR-B-07",
-      "stem": "Pakujący zamierza umieścić razem dwa towary niebezpieczne. Czego musi przestrzegać?",
-      "options": {
-        "B": "Porównać masę produktów i ułożyć cięższy towar na dole",
-        "A": "Sprawdzić wymagania dotyczące wspólnego pakowania",
-        "C": "Uzgodnić pakowanie z odbiorcą"
-      },
-      "image": null
-    },
-    {
-      "number": 14,
-      "id": "ADR-B-0539",
-      "module_id": "ADR-B-11",
-      "stem": "Kierowca przewozi na jednej jednostce transportowej dwie przesyłki w sztukach: z kodami tunelowymi D/E i B/D. Na trasie jest tunel kategorii C, a pojazd podlega ograniczeniom ADR. Co powinien ustalić przed wyborem przejazdu?",
-      "options": {
-        "C": "Zakazać wjazdu do tunelu C, ponieważ kod D/E zawiera literę D",
-        "B": "Kod B/D dla sztuk przesyłek wyklucza tunele D i E, ale nie samą kategorię C",
-        "A": "Pominąć oba kody tunelowe, ponieważ towary są opisane w oddzielnych pozycjach"
-      },
-      "image": null
-    },
-    {
-      "number": 15,
-      "id": "ADR-B-0088",
-      "module_id": "ADR-B-13",
-      "stem": "Czy kierowca zawsze może zastąpić instrukcje pisemne ADR własnoręcznie sporządzoną notatką?",
-      "options": {
-        "B": "Tak, jeśli notatka odtwarza z pamięci najważniejsze punkty instrukcji",
-        "C": "Nie, instrukcje powinny być zgodne z określonym wzorem ADR",
-        "A": "Tak, wystarczy e-mail firmy"
-      },
-      "image": null
-    },
-    {
-      "number": 16,
-      "id": "ADR-B-0503",
-      "module_id": "ADR-B-06",
-      "stem": "Na górze tablicy pomarańczowej widnieje numer rozpoznawczy zagrożenia 30. Co oznacza cyfra 3 w tym numerze?",
-      "options": {
-        "A": "Żrące właściwości towaru, np. działanie na skórę oraz możliwość uszkodzenia metalowych pojemników",
-        "B": "Palność materiałów stałych",
-        "C": "Palność cieczy, par lub gazów; także ciecz samonagrzewająca się"
-      },
-      "image": null
-    },
-    {
-      "number": 17,
-      "id": "ADR-B-0136",
-      "module_id": "ADR-B-07",
-      "stem": "Czy jednostka transportowa przewożąca ADR na zasadach 8.3.1 może zabrać pasażera niebędącego członkiem załogi?",
-      "options": {
-        "C": "Tak, gdy pasażer jedzie od magazynu do bramy na terenie Polski",
-        "A": "Nie; zakaz dotyczy osób spoza załogi także na krótkim odcinku przewozu ADR",
-        "B": "Tak, gdy pasażer siedzi z przodu i ma zapięte pasy bezpieczeństwa"
-      },
-      "image": null
-    },
-    {
-      "number": 18,
-      "id": "ADR-B-0510",
-      "module_id": "ADR-B-02",
-      "stem": "Kierowca przed rozładunkiem dostrzega mokre opakowanie z nalepką klasy 4.3. Pracownik proponuje polewać je wodą, żeby usunąć zabrudzenia. Jakie zagrożenie należy uwzględnić?",
-      "options": {
-        "C": "Kontakt z wodą może uwolnić palny gaz, który z powietrzem tworzy mieszaninę wybuchową",
-        "A": "Kontakt z wodą oznacza przede wszystkim ryzyko promieniowania jonizującego z opakowania",
-        "B": "Kontakt z wodą zmienia klasyfikację 4.3 na klasę 8 i usuwa ryzyko wydzielania gazu"
-      },
-      "image": null
-    },
-    {
-      "number": 19,
-      "id": "ADR-B-0604",
-      "module_id": "ADR-B-11",
-      "stem": "Towar ma kod tunelowy D/E i jest przewożony w cysternie. Jakie ograniczenie wynika z tego kodu dla przejazdu przez tunele?",
-      "options": {
-        "B": "Kod D/E dotyczy wyłącznie przewozu w sztukach przesyłek, więc cysterna nie podlega ograniczeniu",
-        "A": "Zakaz dotyczy tylko tuneli kategorii A i B, ponieważ są najbezpieczniejsze",
-        "C": "Dla przewozu w cysternie kod D/E oznacza ograniczenie przejazdu przez tunele kategorii D i E"
-      },
-      "image": null
-    },
-    {
-      "number": 20,
-      "id": "ADR-B-0484",
-      "module_id": "ADR-B-08",
-      "stem": "W pojeździe ADR przewożona jest ciecz oznaczona wyłącznie nalepką nr 8. Czy według 8.1.5.3 zestaw do ograniczenia rozlewu obejmuje łopatę, osłonę odpływu i pojemnik?",
-      "options": {
-        "A": "Tak, jeżeli trasa prowadzi przez tunel E",
-        "B": "Nie, ponieważ łopatę i pojemnik przewiduje się tu dla gazów klasy 2.2, nie dla cieczy żrących",
-        "C": "Nie; ten zestaw dotyczy określonych materiałów w postaci stałej, a nie samej cieczy oznaczonej nalepką 8."
-      },
-      "image": null
-    },
-    {
-      "number": 21,
-      "id": "ADR-B-0154",
-      "module_id": "ADR-B-02",
-      "stem": "Dlaczego materiał samonagrzewający się z klasy 4.2 wymaga zachowania ostrożności podczas przewozu?",
-      "options": {
-        "A": "Wydziela palny gaz po kontakcie z wodą, podobnie jak materiał klasy 4.3",
-        "B": "Może się nagrzewać samoczynnie i zapalić nawet bez otwartego płomienia",
-        "C": "Jest bezpieczny, dopóki nie zetknie się z płomieniem"
-      },
-      "image": null
-    },
-    {
-      "number": 22,
-      "id": "ADR-B-0308",
-      "module_id": "ADR-B-11",
-      "stem": "W tunelu dochodzi do pożaru przestrzeni ładunkowej pojazdu ADR. Co wynika z instrukcji pisemnych ADR dla załogi?",
-      "options": {
-        "A": "Załoga powinna samodzielnie gasić pożar wewnątrz przestrzeni ładunkowej",
-        "C": "Załoga powinna otworzyć uszkodzone sztuki przesyłek",
-        "B": "Załoga nie powinna podejmować gaszenia pożaru przestrzeni ładunkowej; powinna zapewnić bezpieczeństwo i wezwać pomoc"
-      },
-      "image": null
-    },
-    {
-      "number": 23,
-      "id": "ADR-B-0173",
-      "module_id": "ADR-B-09",
-      "stem": "Dla danego towaru nie znaleziono w kolumnach 10 i 17 tabeli A ani kodu BK/VC, ani wyraźnego odesłania dopuszczającego przewóz luzem. Co wynika z ADR 7.3.1.1?",
-      "options": {
-        "B": "Wystarczy szczelna plandeka i zabezpieczenie przed pyleniem",
-        "A": "Kierowca może wybrać przewóz luzem, jeśli materiał jest stały",
-        "C": "Nie, brak wskazania w ADR oznacza brak podstawy do przewozu luzem"
-      },
-      "image": null
-    },
-    {
-      "number": 24,
-      "id": "ADR-B-0402",
-      "module_id": "ADR-B-12",
-      "stem": "Plan ochrony towarów dużego ryzyka obejmuje ryzyko na trasie. Co powinien określać w zakresie przeciwdziałania ryzyku?",
-      "options": {
-        "B": "Ustalić stałe pory posiłku kierowcy",
-        "C": "Opisać wyposażenie i model ciężarówki, nie określając żadnych działań ograniczających ryzyka na trasie",
-        "A": "Określić praktyczne działania, które ograniczają rozpoznane zagrożenia dla ochrony towaru"
-      },
-      "image": null
-    },
-    {
-      "number": 25,
-      "id": "ADR-B-0341",
-      "module_id": "ADR-B-03",
-      "stem": "Kto ma prawo samodzielnie zastąpić klasyfikację ADR odpadu przypadkowym numerem UN z innego towaru?",
-      "options": {
-        "C": "Każdy kierowca może wybrać numer UN na podstawie podobieństwa nazwy",
-        "B": "Pracownik magazynu bez danych może skopiować numer z poprzedniego ładunku",
-        "A": "Nikt; numer UN wymaga właściwej klasyfikacji"
-      },
-      "image": null
-    },
-    {
-      "number": 26,
-      "id": "ADR-B-0123",
-      "module_id": "ADR-B-01",
-      "stem": "Co oznacza określenie „towary niebezpieczne” w umowie ADR?",
-      "options": {
-        "A": "Materiały lub przedmioty zakazane albo warunkowo dopuszczone do przewozu",
-        "B": "Materiały klasy 3 i ciecze zapalne, jeśli jadą w opakowaniach certyfikowanych",
-        "C": "Towar cięższy od tony, nawet jeśli jego właściwości nie są niebezpieczne"
-      },
-      "image": null
-    },
-    {
-      "number": 27,
-      "id": "ADR-B-0222",
-      "module_id": "ADR-B-05",
-      "stem": "Podczas przewozu ADR ogień objął przedział ładunkowy z towarami niebezpiecznymi. Co powinien zrobić członek załogi?",
-      "options": {
-        "B": "Nie podejmować gaszenia pożaru przedziału ładunkowego i oddalić się w bezpieczne miejsce",
-        "A": "Rozpocząć gaszenie ładowni podręczną gaśnicą w każdej sytuacji",
-        "C": "Otworzyć wszystkie opakowania, aby sprawdzić źródło pożaru"
-      },
-      "image": null
-    },
-    {
-      "number": 28,
-      "id": "ADR-B-0286",
-      "module_id": "ADR-B-09",
-      "stem": "Sztuka przesyłki ADR ma strzałki kierunkowe na dwóch przeciwległych bokach. W jakiej pozycji należy co do zasady ustawić ją w pojeździe?",
-      "options": {
-        "A": "Dowolnie na boku, jeśli jest przypięta pasem i nie przesuwa się podczas jazdy",
-        "B": "Strzałkami w dół, aby zachować stabilność",
-        "C": "Zgodnie z kierunkiem strzałek, czyli strzałkami do góry"
-      },
-      "image": null
-    },
-    {
       "number": 29,
-      "id": "ADR-B-0590",
-      "module_id": "ADR-B-13",
-      "stem": "Instrukcje pisemne ADR znajdują się w kabinie, ale są zamknięte w schowku, do którego załoga nie ma dostępu podczas jazdy. Co należy poprawić?",
+      "id": "ADR-B-0040",
+      "module_id": "ADR-B-01",
+      "stem": "Kiedy pracownik przedsiębiorstwa wykonujący obowiązki związane z ADR powinien odbyć odpowiednie przeszkolenie?",
       "options": {
-        "B": "Umieścić instrukcje w kabinie tak, by załoga szybko mogła po nie sięgnąć",
-        "C": "Zostawić je w schowku, jeśli kierowca pamięta numer telefonu alarmowego",
-        "A": "Przenieść je do biura, a w pojeździe pozostawić tylko dokument przewozowy"
+        "A": "Dopiero po pierwszym samodzielnie wykonanym przewozie",
+        "B": "Przed samodzielnym przejęciem tych obowiązków",
+        "C": "Podczas okresowego odnowienia uprawnień kierowcy, po rozpoczęciu pracy przy towarach"
       },
       "image": null
     },
     {
       "number": 30,
-      "id": "ADR-B-0418",
-      "module_id": "ADR-B-08",
-      "stem": "Pojazd ADR DMC 6 t w pełnym reżimie 8.1.4.1 ma jedną gaśnicę 8 kg. Czy spełnia minimalną liczbę?",
+      "id": "ADR-B-0149",
+      "module_id": "ADR-B-01",
+      "stem": "Jak sprawdza się limit ilości ograniczonej (LQ) dla konkretnego numeru UN?",
       "options": {
-        "B": "Nie; wymagane są co najmniej dwie gaśnice, nawet jeśli jedna ma 8 kg",
-        "A": "Tak; wystarczy 8 kg proszku w jednym urządzeniu",
-        "C": "Tak; drugi członek załogi może zastąpić brakującą gaśnicę odpowiednim przeszkoleniem"
+        "C": "Według 1000 litrów na samochód, bez odczytania limitu z tabeli A",
+        "B": "Według całkowitej ilości towaru w pojeździe, bez względu na limit opakowania wewnętrznego",
+        "A": "Według limitu LQ dla opakowania wewnętrznego z tabeli A i warunków działu 3.4"
       },
       "image": null
     }
