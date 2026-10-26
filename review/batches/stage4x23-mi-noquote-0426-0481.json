@@ -1,0 +1,1085 @@
+{
+  "stage": "4x23",
+  "batch": "no-quote-records-0426-0481",
+  "date": "2026-10-26",
+  "main_base": "bf9b5ea2e43fb322078964ffed29daa32904f485",
+  "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+  "counts": {
+    "records_in_batch": 40,
+    "with_literal_mi_quote": 13,
+    "quote_supports_rule": 12,
+    "partial_or_not_retrieved": 28,
+    "confirmed_discrepancies": 0,
+    "question_or_key_changes": 0,
+    "verified": 0
+  },
+  "records": [
+    {
+      "id": "ADR-B-0426",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.5.2.1 tabela"
+      ],
+      "question": "Jedna paleta ma nalepkę 4.1 oraz dodatkową 1. Czy kolumna '4.1 + 1' tabeli 7.5.2.1 oznacza dwie niezależne palety?",
+      "options": {
+        "A": "Tak; wpis oznacza dwie osobne palety w tej samej jednostce transportowej",
+        "B": "Nie; zapis odnosi się do dwóch nalepek na jednej sztuce przesyłki",
+        "C": "Oznacza dwa odrębne ładunki, które trzeba rozdzielić dokumentami"
+      },
+      "correct_option": "B",
+      "explanation": "Zapis „4.1 + 1” w tabeli oznacza jedną sztukę przesyłki z dwiema nalepkami: wzoru 4.1 oraz wzoru 1. Nie oznacza dwóch oddzielnych palet ani dwóch ładunków wymagających osobnych dokumentów. To rozróżnienie pomaga prawidłowo odczytać tabelę i ocenić możliwość wspólnego załadunku. Podstawa: ADR 7.5.2.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": "Sztuki przesyłek zaopatrzone w różne nalepki ostrzegawcze mogą zostać załadowane do tego samego pojazdu lub kontenera, tylko wtedy, gdy jest to dozwolone na podstawie poniższej tabeli."
+      },
+      "literal_comparison_result": "częściowe_porównanie_MI — cytat potwierdza ogólną regułę, ale nie rozstrzyga całego szczegółu pytania.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0427",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.5.2.1, uwaga (d)"
+      ],
+      "question": "Ładowca próbuje uzasadnić wspólny załadunek materiału wybuchowego i dowolnego materiału utleniającego, powołując się na uwagę (d). Co jest prawidłowe?",
+      "options": {
+        "A": "Ładowca może sam ustalić zasady bez sprawdzania tabeli ADR",
+        "B": "Wszystkie materiały wybuchowe można łączyć z dowolnymi utleniaczami",
+        "C": "Uwaga (d) obejmuje tylko wskazane materiały i określone warunki"
+      },
+      "correct_option": "C",
+      "explanation": "Uwaga (d) w tabeli wspólnego załadunku dotyczy tylko wskazanych materiałów i konkretnych warunków. Nie daje ogólnej zgody na łączenie wszystkich materiałów wybuchowych z dowolnymi utleniaczami. Trzeba sprawdzić dokładny wpis tabeli i zastosować go do klasyfikacji przewożonych przesyłek. Podstawa: ADR 7.5.2.1, uwaga (d).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0428",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.5.2.2"
+      ],
+      "question": "Załadowca przewozi wyłącznie sztuki przesyłek klasy 1 o różnych grupach zgodności. Która reguła decyduje o wspólnym załadunku?",
+      "options": {
+        "A": "Należy zastosować zasady dotyczące bagażu podręcznego pasażerów",
+        "B": "Wspólny załadunek można ustalić wyłącznie na podstawie koloru opakowań",
+        "C": "Decyduje tabela zgodności grup materiałów wybuchowych 7.5.2.2"
+      },
+      "correct_option": "C",
+      "explanation": "Przy wspólnym załadunku różnych materiałów klasy 1 nie wystarczy porównać nazw ani kolorów opakowań. Należy uwzględnić przypisane grupy zgodności i tabelę ADR, która określa, które kombinacje są dopuszczalne. Zasady te służą ograniczeniu ryzyka niebezpiecznej reakcji między materiałami wybuchowymi. Podstawa: ADR 7.5.2.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0429",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.5.2.1"
+      ],
+      "question": "Sztuki przesyłek ADR mają zostać załadowane razem, lecz nie spełniają warunków tabeli 7.5.2.1. Czy odrębne dokumenty przewozowe same w sobie legalizują załadunek do jednego pojazdu?",
+      "options": {
+        "A": "Tak, jeśli każda przesyłka ma własny dokument z odrębnym numerem",
+        "B": "Nie; osobne dokumenty nie znoszą zakazu wspólnego załadunku",
+        "C": "Tak, jeśli wszystkie przesyłki przewozi ten sam przewoźnik"
+      },
+      "correct_option": "B",
+      "explanation": "Oddzielne dokumenty przewozowe nie znoszą zakazu wspólnego załadunku. Jeśli tabela ADR nie dopuszcza przewożenia danych sztuk razem, nie wolno umieszczać ich w jednej jednostce transportowej tylko dlatego, że każda ma własny numer lub dokument. Najpierw sprawdź zgodność ładunku, a potem dokumentację. Podstawa: ADR 7.5.2.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": "Sztuki przesyłek zaopatrzone w różne nalepki ostrzegawcze mogą zostać załadowane do tego samego pojazdu lub kontenera, tylko wtedy, gdy jest to dozwolone na podstawie poniższej tabeli."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0432",
+      "module_id": "ADR-B-11",
+      "clause": [
+        "ADR 2025, 8.6.3.2"
+      ],
+      "question": "Jednostka przewozi dwa towary ADR z różnymi kodami ograniczeń tunelowych. Jak ustala się zakres ograniczeń?",
+      "options": {
+        "A": "Kierowca może dowolnie wybrać kod, który ułatwia przejazd trasą",
+        "B": "Zakres ograniczeń ustala się wyłącznie według tańszego z przewożonych towarów",
+        "C": "Stosuje się kod najbardziej restrykcyjny, właściwy dla danego przewozu"
+      },
+      "correct_option": "C",
+      "explanation": "Gdy w jednej jednostce transportowej znajdują się towary o różnych kodach tunelowych, trzeba ustalić kod najbardziej restrykcyjny dla danego rodzaju przewozu. Nie wolno dowolnie wybrać wygodniejszego kodu ani kierować się ceną ładunku. To pozwala prawidłowo ocenić, przez które tunele można przejechać. Podstawa: ADR 8.6.3.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": "Jeżeli w jednostce transportowej znajdują się towary niebezpieczne, dla których wskazano różne kody ograniczeń przewozu przez tunele, to do całego ładunku stosuje się ten ze wskazanych kodów, który odpowiada największym ograniczeniom."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0433",
+      "module_id": "ADR-B-11",
+      "clause": [
+        "ADR 2025, 1.9.5.3.5"
+      ],
+      "question": "Znak przed tunelem zawiera literę E dla przewozu towarów niebezpiecznych. Do czego odnosi się ograniczenie?",
+      "options": {
+        "A": "Dotyczy jednostek transportowych, którym ADR zakazuje wjazdu do tunelu E",
+        "B": "Zakaz obejmuje bez wyjątku wszystkie samochody osobowe poruszające się tą drogą",
+        "C": "Ograniczenie dotyczy wyłącznie karetek oraz innych pojazdów ratowniczych"
+      },
+      "correct_option": "A",
+      "explanation": "Litera na znaku tunelowym określa kategorię tunelu i pomaga ustalić, czy dany przewóz ADR może wjechać do środka. Ograniczenie nie jest ogólnym zakazem dla wszystkich samochodów osobowych ani przepisem dotyczącym wyłącznie karetek. Trzeba porównać kategorię tunelu z kodem przewożonego towaru. Podstawa: ADR 1.9.5.3.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0435",
+      "module_id": "ADR-B-11",
+      "clause": [
+        "ADR 2025, 5.4.3.4"
+      ],
+      "question": "Podczas pożaru przestrzeni ładunkowej w tunelu członek załogi chce ją otworzyć i samodzielnie gasić. Co wynika z instrukcji pisemnej?",
+      "options": {
+        "A": "Nie gasić samodzielnie pożaru obejmującego przestrzeń ładunkową",
+        "B": "Otworzyć przedział i wejść do środka, aby ugasić źródło ognia",
+        "C": "Polać ładunek wodą od razu, nawet jeśli jego właściwości nie są znane"
+      },
+      "correct_option": "A",
+      "explanation": "Gdy pożar obejmuje przestrzeń ładunkową z towarami niebezpiecznymi, załoga nie powinna otwierać przedziału ani próbować gasić pożaru od środka. Powinna oddalić się w bezpieczne miejsce, ostrzec innych i wezwać służby. Wejście do ładowni może narazić ją na ogień i niebezpieczne opary, a polewanie nieznanego ładunku wodą może nasilić reakcję. Podstawa: ADR 5.4.3.4.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0436",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.5.1.2; 1.4.3.1.1(b)"
+      ],
+      "question": "Do załadunku ADR przygotowano uszkodzoną sztukę przesyłki. Kierowca proponuje przykrycie jej czystą plandeką zamiast oceny stanu opakowania. Co powinien zrobić załadowca?",
+      "options": {
+        "A": "Nie dopuścić uszkodzonej przesyłki z wyciekiem do przewozu",
+        "B": "Przykryć opakowanie plandeką i załadować je bez sprawdzania uszkodzenia",
+        "C": "Otworzyć opakowanie i przelać zawartość samodzielnie, bez odpowiednich uprawnień"
+      },
+      "correct_option": "A",
+      "explanation": "Przed załadunkiem załadowca powinien sprawdzić stan sztuk przesyłek i nie przekazywać do przewozu opakowania, którego uszkodzenie lub wyciek zagraża bezpieczeństwu. Przykrycie plandeką ukrywa problem, ale go nie usuwa; samodzielne przelewanie zawartości może być niebezpieczne. Należy wstrzymać załadunek do usunięcia niezgodności. Podstawa: ADR 7.5.1.2 i 1.4.3.1.1(b).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": "przy wydawaniu do przewozu opakowanych towarów niebezpiecznych [...] sprawdzić, czy opakowania nie są uszkodzone."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0437",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.5.1"
+      ],
+      "question": "Ciężarówka z ładunkiem ADR jest przewożona na wagonie kolejowym na jednym odcinku trasy. Jakie przepisy zgodnie z ADR 1.1.4.5.1 są właściwe dla tego odcinka?",
+      "options": {
+        "A": "Stosować wyłącznie ADR, nawet na odcinku, na którym pojazd jest przewożony koleją",
+        "B": "Stosować tylko krajowe przepisy o czasie pracy kierowcy, bez przepisów przewozowych",
+        "C": "Na tym odcinku stosować przepisy właściwe dla przewozu koleją"
+      },
+      "correct_option": "C",
+      "explanation": "Jeśli pojazd przewożący towary ADR jest transportowany koleją, dla odcinka kolejowego stosuje się odpowiednie przepisy tej gałęzi transportu. Nie oznacza to, że wszystkie odcinki drogowe nagle podlegają wyłącznie regułom kolejowym. Trzeba rozdzielić wymagania dla poszczególnych etapów podróży. Podstawa: ADR 1.1.4.5.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0438",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.5.1"
+      ],
+      "question": "Samochód ADR jest transportowany promem, a później kontynuuje jazdę drogą. Którego odcinka dotyczy reguła 1.1.4.5.1 o przepisach innej gałęzi przewozu?",
+      "options": {
+        "A": "Reguła dotyczy jedynie postoju pojazdu przed wjazdem na prom",
+        "B": "Reguła obejmuje wszystkie wcześniejsze i późniejsze odcinki drogowe bez ograniczeń",
+        "C": "Reguła dotyczy odcinka, na którym pojazd jest przewożony promem"
+      },
+      "correct_option": "C",
+      "explanation": "Reguła dotycząca przepisów innej gałęzi transportu odnosi się do odcinka, na którym pojazd faktycznie jest przewożony promem lub koleją. Nie obejmuje automatycznie całej drogi przed i po tym etapie. Na odcinkach drogowych nadal stosuje się ADR, z uwzględnieniem konkretnych wyjątków. Podstawa: ADR 1.1.4.5.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0439",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.5.2"
+      ],
+      "question": "Państwa będące stronami ADR chcą uzgodnić stosowanie ADR na odcinku, na którym pojazdy przewożone są koleją. Czy 1.1.4.5.2 przewiduje taką możliwość?",
+      "options": {
+        "A": "Nie; ADR bezwzględnie zakazuje wszelkich uzgodnień dla odcinków kolejowych",
+        "B": "Tak; strony mogą uzgodnić dowolne zasady, nawet sprzeczne z konwencjami",
+        "C": "Tak, jeśli uzgodnienie jest zgodne z właściwymi umowami międzynarodowymi"
+      },
+      "correct_option": "C",
+      "explanation": "Strony ADR mogą uzgodnić stosowanie ADR na określonym odcinku, na którym pojazd przewożony jest inną gałęzią transportu, ale uzgodnienie musi być zgodne z właściwymi umowami międzynarodowymi. Nie jest to dowolne zwolnienie ani działanie zakazane w każdej sytuacji. Liczą się warunki przewidziane w przepisie. Podstawa: ADR 1.1.4.5.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0440",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.5.2"
+      ],
+      "question": "Uzgodnienie z 1.1.4.5.2 rozszerza stosowanie ADR na niedrogowy etap podróży. Czy strony mogą dołączyć do niego wymagania dodatkowe?",
+      "options": {
+        "A": "Tak; można dodać wymagania na warunkach określonych w ADR 1.1.4.5.2",
+        "B": "Nie; każda zmiana lub dodatkowy warunek jest bezwzględnie zakazany",
+        "C": "Tak; wystarczy ustne żądanie kierowcy bez formalnego uzgodnienia stron"
+      },
+      "correct_option": "A",
+      "explanation": "Przy transporcie kombinowanym strony mogą uzgodnić dodatkowe warunki dla odcinka niedrogowego, ale tylko w granicach wskazanych w ADR i z zachowaniem właściwych konwencji. Nie jest prawdą, że każdy dodatkowy warunek jest zakazany; jednocześnie ustne żądanie kierowcy samo w sobie nie stanowi uzgodnienia stron. Przed wyjazdem sprawdź, czy uzgodnienie istnieje i obejmuje dany odcinek. Podstawa: ADR 1.1.4.5.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0441",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.5.2"
+      ],
+      "question": "Kto zgodnie z ADR 1.1.4.5.2 zgłasza uzgodnienie dotyczące stosowania ADR na niedrogowym odcinku do sekretariatu UNECE?",
+      "options": {
+        "A": "Każdy kierowca realizujący przewóz zgłasza uzgodnienie do sekretariatu UNECE",
+        "B": "Dowolny odbiorca towarów niebezpiecznych przekazuje zgłoszenie do UNECE",
+        "C": "Zgłoszenia dokonuje państwo, które zainicjowało uzgodnienie"
+      },
+      "correct_option": "C",
+      "explanation": "To państwo, które zainicjowało uzgodnienie dotyczące stosowania ADR na odcinku niedrogowym, zgłasza je sekretariatowi UNECE. Obowiązek ten nie spoczywa na każdym kierowcy ani na odbiorcy towaru, ponieważ uzgodnienie ma charakter między państwami. Po zgłoszeniu sekretariat przekazuje informację pozostałym stronom zgodnie z procedurą. Podstawa: ADR 1.1.4.5.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0442",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.5.3"
+      ],
+      "question": "Umowa międzynarodowa dotycząca innej gałęzi transportu zgodnie ze swoim zakresem obejmuje także określony odcinek drogowy. Jak według ADR 1.1.4.5.3 stosuje się jej wymagania?",
+      "options": {
+        "A": "Konwencja wyłącza automatycznie wszystkie wymagania ADR, niezależnie od sprzeczności",
+        "B": "Umowa innej gałęzi transportu nigdy nie może dotyczyć odcinka drogowego",
+        "C": "Stosuje się jej wymagania razem z tymi zasadami ADR, które nie są sprzeczne"
+      },
+      "correct_option": "C",
+      "explanation": "Jeśli właściwa konwencja dotycząca innej gałęzi transportu obejmuje także dany odcinek drogowy, jej wymagania stosuje się razem z tymi przepisami ADR, które nie są z nią sprzeczne. Nie oznacza to automatycznego wyłączenia całego ADR ani całkowitego zakazu stosowania konwencji. Trzeba porównać zakres obu zestawów zasad. Podstawa: ADR 1.1.4.5.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0443",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.5.3"
+      ],
+      "question": "W sytuacji opisanej w ADR 1.1.4.5.3 wymaganie ADR jest sprzeczne z odpowiednią konwencją regulującą inną gałąź przewozu, której zakres obejmuje odcinek drogowy. Co przewiduje przepis?",
+      "options": {
+        "A": "Zawsze trzeba spełnić obie sprzeczne normy jednocześnie, bez żadnego wyjątku",
+        "B": "Kierowca sam wybiera, którą z dwóch sprzecznych norm zastosować",
+        "C": "Sprzecznego wymagania ADR nie stosuje się na objętym umową odcinku drogowym"
+      },
+      "correct_option": "C",
+      "explanation": "Jeśli na odcinku drogowym objętym szczególną konwencją występuje sprzeczność z wymaganiem ADR, stosuje się regułę z ADR 1.1.4.5.3: sprzeczne wymaganie ADR nie ma zastosowania w tym zakresie. Nie trzeba próbować spełnić dwóch niezgodnych norm jednocześnie ani wybierać dowolnej wersji. Podstawa: ADR 1.1.4.5.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0444",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.3"
+      ],
+      "question": "W dokumencie opisano cysternę przenośną IMO typu 2 zbudowaną i zatwierdzoną przed 1 stycznia 2003 r., ale niezgodną z rozdziałami 6.7 lub 6.8 ADR. Czy sama dawna data zatwierdzenia daje bezwarunkowe prawo przewozu?",
+      "options": {
+        "A": "Tak; data sprzed 2003 r. zwalnia cysternę ze wszystkich późniejszych wymagań",
+        "B": "Nie; oprócz daty potrzebne jest spełnienie warunków badań i kontroli",
+        "C": "Tak; wystarczy pomalować cysternę na pomarańczowo i umieścić tablice"
+      },
+      "correct_option": "B",
+      "explanation": "Starsza cysterna IMO może korzystać z historycznego odstępstwa tylko wtedy, gdy spełnia określone warunki, w tym wymagane badania i kontrole. Sama data budowy sprzed 2003 r. ani pomarańczowe malowanie nie wystarczają. Trzeba sprawdzić aktualny stan kontroli oraz pozostałe wymagania dotyczące danego towaru. Podstawa: ADR 1.1.4.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Cysterny przenośne typu IMO (typy 1, 2, 5 i 7), które nie spełniają wymagań działów 6.7 lub 6.8, lecz które zostały wyprodukowane i dopuszczone przed 1 stycznia 2003 r. [...] mogą być używane nadal pod warunkiem, że spełniają wymagania [...] badań okresowych i prób."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0445",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.3"
+      ],
+      "question": "Cysterna przenośna IMO z 2001 r. spełnia część warunków historycznego wyjątku ADR 1.1.4.3. Które przepisy dotyczące konkretnego towaru nadal należy sprawdzić?",
+      "options": {
+        "A": "Sprawdzić wyłącznie kolor ramy cysterny i widoczność jej oznakowania",
+        "B": "Sprawdzić tylko rozkład promów, którymi cysterna będzie przewożona",
+        "C": "Sprawdzić tabelę A i rozdział 4.2 ADR dla przewożonego towaru"
+      },
+      "correct_option": "C",
+      "explanation": "Nawet gdy starsza cysterna IMO kwalifikuje się do wyjątku, trzeba sprawdzić wymagania dla konkretnego towaru w tabeli A oraz przepisy dotyczące przewozu w cysternach przenośnych. Kolor ramy i rozkład promów nie potwierdzają zgodności. Wyjątek od części wymagań technicznych nie znosi wszystkich warunków przewozu. Podstawa: ADR 1.1.4.3 oraz 4.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Ponadto powinny one spełniać wymagania odpowiednich instrukcji podanych w kolumnach (10) i (11) w tabeli A w dziale 3.2 oraz przepisów działu 4.2 ADR."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0446",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.3"
+      ],
+      "question": "Dwie cysterny przenośne IMO zostały zbudowane według IMDG: jedna przed 2003 r., druga w 2005 r. Czy można automatycznie stosować historyczne odstępstwo ADR 1.1.4.3 do obu?",
+      "options": {
+        "A": "Tak; o zastosowaniu wyjątku zawsze decyduje kierowca podczas kontroli",
+        "B": "Tak; każda cysterna IMO korzysta z wyjątku bez względu na datę budowy",
+        "C": "Nie; wyjątek dotyczy cystern zbudowanych przed 1 stycznia 2003 r."
+      },
+      "correct_option": "C",
+      "explanation": "Historyczne odstępstwo ADR 1.1.4.3 ma ograniczony zakres i dotyczy określonych cystern IMO zbudowanych i zatwierdzonych przed 1 stycznia 2003 r. Nie można rozszerzyć go automatycznie na nowszą cysternę z 2005 r. Niezależnie trzeba spełnić pozostałe warunki przepisu i wymagania dla ładunku. Podstawa: ADR 1.1.4.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "[...] zostały wyprodukowane i dopuszczone przed 1 stycznia 2003 r. [...] mogą być używane nadal pod warunkiem, że spełniają wymagania [...] badań okresowych i prób."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0447",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.7.1"
+      ],
+      "question": "Do Polski drogą morską sprowadzono gaz w butli wielokrotnego napełniania zatwierdzonej przez amerykański DOT według 49 CFR 178. Jaką dodatkową możliwość przewozu przewiduje ADR 1.1.4.7.1?",
+      "options": {
+        "A": "Przewóz od czasowego składowania do użytkownika końcowego",
+        "B": "Napełniać butlę w Polsce bez kontroli, bo wcześniej zatwierdził ją amerykański DOT",
+        "C": "Zwolnić butlę automatycznie ze wszystkich wymagań dotyczących przewozu gazów"
+      },
+      "correct_option": "A",
+      "explanation": "Dla określonych butli DOT sprowadzonych w łańcuchu obejmującym transport morski ADR przewiduje warunkową możliwość dalszego przewozu od miejsca czasowego składowania do użytkownika końcowego. Nie pozwala to na dowolne napełnianie butli w Polsce ani na pominięcie wszystkich wymagań dla gazów. Trzeba spełnić dokładne warunki wyjątku. Podstawa: ADR 1.1.4.7.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0448",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.7.2"
+      ],
+      "question": "Butla wielokrotnego napełniania dopuszczona w USA ma być napełniona w Polsce w celu eksportu zgodnie z ADR 1.1.4.7.2. Dokąd może być kierowany taki eksport w ramach tego przepisu?",
+      "options": {
+        "A": "Eksportować do dowolnego państwa będącego stroną ADR, bez dalszych warunków",
+        "B": "Kierować eksport wyłącznie do przewoźnika zarejestrowanego w Polsce",
+        "C": "Eksportować wyłącznie do państw, które nie są stronami ADR"
+      },
+      "correct_option": "C",
+      "explanation": "Wyjątek eksportowy dla butli DOT dotyczy napełniania i przewozu w celu wywozu do państw, które nie są stronami ADR, z zachowaniem pozostałych warunków. Amerykańskie zatwierdzenie samo w sobie nie uprawnia do eksportu do dowolnego kraju. Ważne jest przeznaczenie przewozu i spełnienie warunków przepisu. Podstawa: ADR 1.1.4.7.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0449",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.7.2(a)"
+      ],
+      "question": "Przy korzystaniu z ADR 1.1.4.7.2 dla butli DOT przeznaczonej na eksport, według jakich zasad musi odbywać się napełnienie?",
+      "options": {
+        "A": "Napełniać według dowolnych instrukcji spedytora, nawet jeśli nie są zgodne z prawem",
+        "B": "Pominąć wymagania techniczne, jeżeli przewóz obejmuje odcinek morski",
+        "C": "Stosować właściwe wymagania amerykańskiego Code of Federal Regulations"
+      },
+      "correct_option": "C",
+      "explanation": "Przy zastosowaniu wyjątku eksportowego butlę DOT trzeba napełnić zgodnie z właściwymi wymaganiami amerykańskiego Code of Federal Regulations. Nie można zastąpić ich dowolnymi instrukcjami spedytora ani pominąć wymagań technicznych tylko dlatego, że część trasy odbywa się promem. Odstępstwo działa wyłącznie w opisanych granicach. Podstawa: ADR 1.1.4.7.2(a).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0450",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.7.2(b)"
+      ],
+      "question": "Naczynie ciśnieniowe DOT korzysta z wyjątku eksportowego ADR 1.1.4.7.2. Jakie przepisy wyznaczają jego oznakowanie i nalepki?",
+      "options": {
+        "A": "Zastosować dowolne oznakowanie wybrane przez sprzedawcę butli",
+        "B": "Kierować się wyłącznie regulaminem konkretnego promu morskiego",
+        "C": "Rozdział 5.2 ADR określa wymagane oznakowanie i nalepki"
+      },
+      "correct_option": "C",
+      "explanation": "Odstępstwo dla butli DOT przeznaczonej na eksport nie znosi wymagań dotyczących oznakowania i nalepek ADR. W tym zakresie trzeba zastosować rozdział 5.2, a nie dowolny znak sprzedawcy czy regulamin promu. Przed przewozem należy sprawdzić, czy wszystkie wymagane oznaczenia są obecne i czytelne. Podstawa: ADR 1.1.4.7.2(b).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0451",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.7.2(c)"
+      ],
+      "question": "Dla butli DOT przeznaczonej do eksportu w reżimie 1.1.4.7.2 upłynął termin badania okresowego. Czy można ją ponownie napełnić przed badaniem?",
+      "options": {
+        "A": "Tak, można napełnić butlę przed badaniem, jeśli pozostaje pełna",
+        "B": "Nie; po upływie terminu badania okresowego butli nie wolno napełniać",
+        "C": "Tak, jeśli odbiorca pisemnie zaakceptuje brak aktualnego badania okresowego butli"
+      },
+      "correct_option": "B",
+      "explanation": "Jeżeli upłynął termin badania okresowego butli DOT objętej tym wyjątkiem, nie wolno jej ponownie napełniać przed wykonaniem wymaganego badania. To, że butla jest pełna lub odbiorca podpisał dokument, nie uchyla tego zakazu. Trzeba odróżnić możliwość przewozu do badania od prawa do dalszego napełniania. Podstawa: ADR 1.1.4.7.2(c).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0452",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 1.1.4.7.2(c)"
+      ],
+      "question": "Termin badania butli DOT objętej 1.1.4.7.2 upłynął. Czy przepis przewiduje możliwość przewozu jej do wykonania wymaganego badania, także z przejazdami pośrednimi?",
+      "options": {
+        "A": "Nie; po terminie badania nie wolno przewozić butli w żadnym celu",
+        "B": "Tak; można przewieźć ją tylko bez dokumentu przewozowego i bez kontroli",
+        "C": "Tak; można przewieźć ją w celu badania, również przez etapy pośrednie"
+      },
+      "correct_option": "C",
+      "explanation": "ADR odróżnia zakaz napełniania butli po upływie terminu badania od możliwości przewiezienia jej do wykonania wymaganego badania. Taki przewóz może być dopuszczony, również z etapami pośrednimi, jeśli spełniono warunki przepisu. Nie oznacza to, że można napełniać ją ponownie bez kontroli. Podstawa: ADR 1.1.4.7.2(c).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0453",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 5.4.1.1.24"
+      ],
+      "question": "W łańcuchu importu gazu w butli DOT przewoźnik korzysta z ADR 1.1.4.7.1. Jaką specjalną wzmiankę powinien przewidywać dokument przewozowy?",
+      "options": {
+        "A": "Wystarczy numer telefonu kierowcy zamiast danych o przewozie",
+        "B": "W dokumencie wpisuje się jedynie słowo „gaz”, bez dodatkowej wzmianki",
+        "C": "Dodać wzmiankę o przewozie zgodnym z 1.1.4.7.1 według 5.4.1.1.24"
+      },
+      "correct_option": "C",
+      "explanation": "Przy imporcie butli DOT na warunkach ADR 1.1.4.7.1 dokument przewozowy powinien zawierać specjalną wzmiankę wskazującą zastosowany wyjątek. Sam numer telefonu lub ogólne słowo „gaz” nie pozwalają ustalić, na jakiej podstawie odbywa się przewóz. Wpis powinien odpowiadać właściwemu wariantowi przepisu. Podstawa: ADR 5.4.1.1.24.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0454",
+      "module_id": "ADR-B-10",
+      "clause": [
+        "ADR 2025, 5.4.1.1.24"
+      ],
+      "question": "W wywozie gazów w butlach DOT korzystającym z ADR 1.1.4.7.2 jaki wariant wpisu z 5.4.1.1.24 jest właściwy?",
+      "options": {
+        "A": "Wpis dotyczy zawsze 1.1.4.7.1, bez względu na rodzaj operacji",
+        "B": "Nie trzeba wpisu, jeśli butla ma właściwe nalepki i oznakowanie",
+        "C": "W dokumencie umieścić wzmiankę o przewozie zgodnym z 1.1.4.7.2"
+      },
+      "correct_option": "C",
+      "explanation": "Butle DOT to butle wykonane lub zatwierdzone według amerykańskich wymagań DOT, które w określonych sytuacjach mogą być przewożone na warunkach ADR. Przy wywozie korzystającym z przepisu 1.1.4.7.2 dokument przewozowy musi zawierać właściwą wzmiankę o tym wariancie. Wpis dotyczący importu nie pasuje do każdej operacji, a nalepki nie zastępują wymaganego wpisu. Podstawa: ADR 5.4.1.1.24 i 1.1.4.7.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0464",
+      "module_id": "ADR-B-03",
+      "clause": [
+        "ADR 2025, 5.2.1.8.2"
+      ],
+      "question": "Na sztuce przesyłki wymagany jest znak materiału niebezpiecznego dla środowiska. Gdzie powinien być umieszczony względem oznaczenia numeru UN?",
+      "options": {
+        "A": "Znak umieszcza się wyłącznie w dokumentach kierowcy zamiast na sztuce przesyłki",
+        "B": "Znak umieszcza się tylko po wewnętrznej stronie wieka opakowania",
+        "C": "Znak umieszcza się w pobliżu oznaczeń wymaganych przez 5.2.1.1"
+      },
+      "correct_option": "C",
+      "explanation": "Jeśli znak zagrożenia dla środowiska jest wymagany na sztuce przesyłki, należy umieścić go w pobliżu oznaczeń określonych w ADR 5.2.1.1. Znak na dokumencie lub ukryty wewnątrz wieka nie spełnia celu widocznego oznakowania opakowania. Trzeba zachować także wymagania dotyczące czytelności i trwałości. Podstawa: ADR 5.2.1.8.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": "Znak dla materiału zagrażającego środowisku powinien być umieszczony w pobliżu znaków wymaganych w 5.2.1.1."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0465",
+      "module_id": "ADR-B-03",
+      "clause": [
+        "ADR 2025, 5.4.1.1.18"
+      ],
+      "question": "Materiał klasy 3 spełnia także kryteria zagrożenia dla środowiska, a wyjątki 5.2.1.8.1 nie mają zastosowania. Który dodatkowy wpis zwykle należy zamieścić w dokumencie ADR?",
+      "options": {
+        "A": "Wystarczy podać numer rejestracyjny pojazdu, bez żadnego wpisu o zagrożeniu dla środowiska",
+        "B": "Wymagany wpis: ENVIRONMENTALLY HAZARDOUS lub MARINE POLLUTANT/ENVIRONMENTALLY HAZARDOUS",
+        "C": "Wystarczy umieścić sam znak graficzny ryby, bez tekstu w dokumencie przewozowym"
+      },
+      "correct_option": "B",
+      "explanation": "Jeśli towar klasy 1–9 spełnia kryteria zagrożenia dla środowiska wodnego i nie ma zastosowania wyjątek, dokument przewozowy powinien zawierać odpowiednią dodatkową wzmiankę. Sam numer rejestracyjny ani graficzny znak bez tekstu nie zastępują wymaganego wpisu. Trzeba sprawdzić też przewidziane w ADR wyjątki. Podstawa: ADR 5.4.1.1.18.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": "dokument przewozowy powinien zawierać dodatkowy zapis „ZAGRAŻAJĄCY ŚRODOWISKU” lub „MARINE POLLUTANT / ENVIRONMENTALLY HAZARDOUS”."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0466",
+      "module_id": "ADR-B-03",
+      "clause": [
+        "ADR 2025, 5.4.1.1.18"
+      ],
+      "question": "Towar ma numer UN 3077 i spełnia kryteria zagrożenia środowiskowego. Czy 5.4.1.1.18 wymaga dla niego dodatkowego wpisu ENVIRONMENTALLY HAZARDOUS?",
+      "options": {
+        "A": "Tak, zawsze trzeba dodać wpis środowiskowy, niezależnie od numeru UN",
+        "B": "Tak, ale tylko wtedy, gdy trasa obejmuje przejazd przez tunel",
+        "C": "Nie; UN 3077 i 3082 są wyłączone z tego dodatkowego wpisu"
+      },
+      "correct_option": "C",
+      "explanation": "Dla UN 3077 i UN 3082 — czterocyfrowych numerów identyfikujących materiały zagrażające środowisku — ADR przewiduje wyjątek od dodatkowej wzmianki środowiskowej w dokumencie, o której mowa w 5.4.1.1.18. Nie trzeba dodawać jej automatycznie dla tych dwóch numerów, a ograniczenie nie zależy od tego, czy trasa prowadzi przez tunel. Pozostałe wymagane dane dokumentu nadal obowiązują. Podstawa: ADR 5.4.1.1.18.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": "Tego dodatkowego zapisu nie stosuje się do UN 3077 i UN 3082 oraz w przypadku wyłączeń podanych w 5.2.1.8.1."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0467",
+      "module_id": "ADR-B-03",
+      "clause": [
+        "ADR 2025, 5.4.1.1.18"
+      ],
+      "question": "W morsko-drogowym łańcuchu przewozu dokument dla materiału niebezpiecznego dla środowiska zawiera określenie MARINE POLLUTANT. Jak ocenić je w zakresie 5.4.1.1.18?",
+      "options": {
+        "A": "MARINE POLLUTANT może być zaakceptowane na warunkach 5.4.1.1.18",
+        "B": "Należy je zawsze skreślić i zastąpić numerem faktury przewozowej",
+        "C": "Określenie to jest dozwolone wyłącznie przy przewozie materiałów klasy 7"
+      },
+      "correct_option": "A",
+      "explanation": "W łańcuchu transportowym obejmującym morze ADR może dopuścić wzmiankę „MARINE POLLUTANT” zgodną z IMDG, czyli kodeksem przewozu towarów niebezpiecznych morzem, w warunkach określonych w przepisie. Nie należy automatycznie skreślać jej ani zastępować numerem faktury. Dopuszczalność zależy od zastosowania właściwego wyjątku i pozostałych danych dokumentu. Podstawa: ADR 5.4.1.1.18.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": "W przypadku przewozu w łańcuchu transportowym obejmującym przewóz morski dopuszcza się stosowanie zapisu „MARINE POLLUTANT”."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0468",
+      "module_id": "ADR-B-03",
+      "clause": [
+        "ADR 2025, 5.3.6.1"
+      ],
+      "question": "Pojazd wymaga nalepek wielkiego formatu i przewozi towary zagrażające środowisku wodnemu. Kiedy znak środowiskowy według 5.3.6 może być dodatkowo wymagany na jednostce?",
+      "options": {
+        "A": "Znak dodaje się wyłącznie wtedy, gdy przewoźnik chce wyróżnić przesyłkę reklamowo",
+        "B": "Znak środowiskowy nigdy nie występuje na jednostce, tylko na kartonie",
+        "C": "Znak może być wymagany, jeśli 5.3.6.1 ma zastosowanie i nie działa wyjątek"
+      },
+      "correct_option": "C",
+      "explanation": "Znak zagrożenia dla środowiska może być wymagany również na określonych pojazdach lub jednostkach, jeśli spełnione są warunki ADR 5.3.6. Nie ogranicza się on wyłącznie do pojedynczych kartonów ani nie jest znakiem marketingowym. Trzeba sprawdzić, czy jednostka wymaga nalepek wielkiego formatu i czy nie działa wyjątek. Podstawa: ADR 5.3.6.1 oraz 5.2.1.8.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": "Jeżeli wymagane jest umieszczenie dużej nalepki ostrzegawczej, zgodnie z przepisami rozdziału 5.3.1, to [...] pojazdy zawierające materiały zagrażające środowisku [...] powinny być oznakowane znakiem dla materiałów zagrażających środowisku [...] Wymaganie to nie dotyczy wyjątków podanych w 5.2.1.8.1."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0473",
+      "module_id": "ADR-B-04",
+      "clause": [
+        "ADR 2025, 8.3.8"
+      ],
+      "question": "Pojazd ADR z układem ABS ciągnie przyczepę o maksymalnej masie ponad 3,5 t. Co 8.3.8 wymaga od połączeń elektrycznych, o których mowa w 9.2.2.6, podczas przewozu?",
+      "options": {
+        "A": "Połączenia można rozłączyć podczas jazdy, jeśli kierowca nie hamuje",
+        "B": "Złącza elektryczne muszą być podłączone tylko podczas załadunku i rozładunku",
+        "C": "Złącza elektryczne z 9.2.2.6 muszą pozostać podłączone podczas przewozu"
+      },
+      "correct_option": "C",
+      "explanation": "W opisanym zestawie pojazdu z ABS i przyczepy o wskazanej masie złącza elektryczne wymagane przez ADR muszą pozostać podłączone podczas przewozu. Nie wystarczy podłączyć ich tylko przy załadunku, a rozłączenie podczas jazdy może pozbawić zestaw wymaganego działania układu. Nie ma też wyjątku zależnego od tego, czy kierowca akurat hamuje. Podstawa: ADR 8.3.8 i 9.2.2.6.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0474",
+      "module_id": "ADR-B-04",
+      "clause": [
+        "ADR 2025, 7.5.1.2"
+      ],
+      "question": "Przed załadunkiem ADR kontrola dokumentów ujawnia niespełnienie wymagań przez kierowcę lub pojazd. Jak należy postąpić w ramach 7.5.1.2?",
+      "options": {
+        "A": "Wstrzymać załadunek do usunięcia niezgodności, chyba że ADR przewiduje wyjątek",
+        "B": "Załadować przesyłkę mimo niezgodności, jeśli dostawa jest pilna i odbiorca wyraził zgodę",
+        "C": "Załadować, a brak wymagań opisać później w uwagach do faktury"
+      },
+      "correct_option": "A",
+      "explanation": "Jeśli kontrola dokumentów lub oględziny przed załadunkiem ujawnią niezgodność z wymaganiami ADR, załadunku nie należy rozpoczynać, dopóki problem nie zostanie usunięty, chyba że przepis przewiduje wyjątek. Pilność dostawy ani dopisek na fakturze nie legalizują niezgodnego przewozu. Podstawa: ADR 7.5.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0475",
+      "module_id": "ADR-B-04",
+      "clause": [
+        "ADR 2025, 7.5.1.2"
+      ],
+      "question": "Przed załadunkiem kontenera pojawia się uszkodzenie jego ściany mogące naruszyć ochronę opakowań. Jak stosuje się 7.5.1.2?",
+      "options": {
+        "A": "Aktualne dopuszczenie kontenera pozwala zignorować uszkodzenie jego ściany",
+        "B": "Wystarczy przykleić taśmę bez oceny, czy opakowania będą bezpieczne",
+        "C": "Uszkodzenie zagrażające integralności kontenera wyklucza jego załadunek"
+      },
+      "correct_option": "C",
+      "explanation": "Uszkodzenie ściany kontenera, które może naruszyć jego integralność lub bezpieczeństwo przesyłek, trzeba potraktować jako powód do wstrzymania załadunku. Aktualne dopuszczenie kontenera nie sprawia, że każde późniejsze uszkodzenie jest nieszkodliwe. Zwykła taśma bez oceny nie potwierdza bezpiecznego stanu. Podstawa: ADR 7.5.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0476",
+      "module_id": "ADR-B-04",
+      "clause": [
+        "ADR 2025, 7.5.1.3"
+      ],
+      "question": "Podczas rozładunku ADR wykryto uszkodzone wyposażenie pojazdu sprzeczne z wymaganiami. Jaką zasadę 7.5.1.3 należy rozważyć?",
+      "options": {
+        "A": "Rozładunek nie podlega kontroli zgodności, bo przewóz już się zakończył",
+        "B": "Każdy brak wyposażenia można pominąć po przyjeździe do odbiorcy",
+        "C": "Wstrzymać rozładunek, chyba że ADR przewiduje zastosowanie wyjątku"
+      },
+      "correct_option": "C",
+      "explanation": "Kontrola zgodności ma znaczenie również przed rozładunkiem. Jeśli stan pojazdu lub wyposażenia nie spełnia wymagań, rozładunek należy wstrzymać, chyba że ADR przewiduje wyjątek dla konkretnej sytuacji. Zakończenie jazdy nie usuwa ryzyka, które może wystąpić podczas manipulowania ładunkiem. Podstawa: ADR 7.5.1.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0477",
+      "module_id": "ADR-B-07",
+      "clause": [
+        "ADR 2025, 1.4.2.3.3"
+      ],
+      "question": "Odbiorca ADR korzysta z zewnętrznej firmy rozładunkowej. Czy przez samo zlecenie rozładunku przestaje odpowiadać za obowiązki, które ADR nakłada na odbiorcę?",
+      "options": {
+        "A": "Tak, wszystkie obowiązki odbiorcy przechodzą automatycznie na podwykonawcę",
+        "B": "Nie; odbiorca nadal odpowiada za obowiązki nałożone na niego przez ADR",
+        "C": "Tak, jeśli umowa z podwykonawcą zapisuje przejęcie całej odpowiedzialności"
+      },
+      "correct_option": "B",
+      "explanation": "Odbiorca nie przestaje odpowiadać za swoje obowiązki ADR tylko dlatego, że zlecił rozładunek innej firmie. Umowa może rozdzielać zadania, ale nie usuwa obowiązków, które przepisy nadal nakładają na odbiorcę. Musi on zapewnić, że wymagane czynności zostaną wykonane prawidłowo. Podstawa: ADR 1.4.2.3.1–1.4.2.3.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Jeżeli odbiorca korzysta z usług innych uczestników przewozu (w zakresie rozładunku, czyszczenia, odkażania, itp.), to powinien zastosować odpowiednie środki w celu zapewnienia zgodności z wymaganiami ADR podanymi w 1.4.2.3.1 i 1.4.2.3.2."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę użytą w pytaniu; nie stwierdzono sprzeczności w tym zakresie.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0478",
+      "module_id": "ADR-B-07",
+      "clause": [
+        "ADR 2025, 1.4.3.7.2"
+      ],
+      "question": "Rozładowca korzysta ze specjalistycznego zakładu odkażania kontenera po przewozie ADR. Które stwierdzenie oddaje jego odpowiedzialność?",
+      "options": {
+        "A": "Odpowiedzialność kończy się po przekazaniu kontenera do zakładu odkażania",
+        "B": "Zakład odkażający automatycznie przejmuje wszystkie obowiązki rozładowcy",
+        "C": "Rozładowca nadal odpowiada za zgodność swoich działań z ADR"
+      },
+      "correct_option": "C",
+      "explanation": "Zlecenie czyszczenia lub odkażania wyspecjalizowanej firmie nie zwalnia automatycznie rozładowcy z odpowiedzialności za wykonanie obowiązków ADR. Trzeba zapewnić, że prace zostaną wykonane w sposób zgodny z wymaganiami, a nie zakładać, że samo przekazanie kontenera kończy sprawę. Podstawa: ADR 1.4.3.7.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0479",
+      "module_id": "ADR-B-07",
+      "clause": [
+        "ADR 2025, 1.4.3.1.2"
+      ],
+      "question": "Załadowca ocenia zakaz wspólnego załadunku, wykorzystując zgodne dane przekazane mu przez nadawcę. Czy ADR dopuszcza oparcie się na takich danych przy odpowiednich obowiązkach?",
+      "options": {
+        "A": "Nie; załadowca nigdy nie może korzystać z informacji od innych uczestników",
+        "B": "Tak; wtedy można pominąć zakazy wspólnego załadunku zapisane w ADR",
+        "C": "Tak, w zakresie obowiązków wskazanych w 1.4.3.1.2(a), (d) i (e)"
+      },
+      "correct_option": "C",
+      "explanation": "ADR pozwala załadowcy opierać się na określonych danych przekazanych przez nadawcę lub innych uczestników w zakresie wskazanym w przepisie. Nie daje to prawa do pomijania zakazów wspólnego załadunku ani do ignorowania sprzecznych informacji. Dane trzeba wykorzystać w granicach odpowiednich obowiązków. Podstawa: ADR 1.4.3.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0480",
+      "module_id": "ADR-B-07",
+      "clause": [
+        "ADR 2025, 1.4.3.7.1(d)(i)"
+      ],
+      "question": "Rozładowca zakończył rozładunek pojazdu i na jego zewnętrznej powierzchni pozostały niebezpieczne resztki powstałe podczas operacji. Co nakazuje ADR?",
+      "options": {
+        "A": "Niezwłocznie usunąć pozostałości zgodnie z wymaganiami ADR 1.4.3.7.1(d)(i)",
+        "B": "Pozostawić resztki do następnej dostawy i nie sprawdzać powierzchni pojazdu ponownie",
+        "C": "Zakryć pozostałości zwykłą etykietą i nie podejmować dalszych działań"
+      },
+      "correct_option": "A",
+      "explanation": "Po rozładunku rozładowca powinien niezwłocznie usunąć niebezpieczne pozostałości, które przylgnęły do zewnętrznej powierzchni pojazdu lub kontenera. Pozostawienie ich do następnej dostawy może narazić innych na kontakt z substancją. Zwykła etykieta nie usuwa pozostałości ani zagrożenia. Podstawa: ADR 1.4.3.7.1(d)(i).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0481",
+      "module_id": "ADR-B-07",
+      "clause": [
+        "ADR 2025, 1.4.3.7.1(d)(ii)"
+      ],
+      "question": "Po operacji rozładunku odpowiedniej jednostki ADR pracownik zamierza pozostawić otwarte zawory i otwory inspekcyjne. Co wynika z 1.4.3.7.1(d)(ii)?",
+      "options": {
+        "A": "Pozostawić zawory i otwory otwarte do kolejnego transportu bez sprawdzenia ich stanu",
+        "B": "Wystarczy poinformować biuro spedycji o niezakończonej czynności",
+        "C": "Dopilnować zamknięcia zaworów i otworów inspekcyjnych po operacji"
+      },
+      "correct_option": "C",
+      "explanation": "Po rozładunku należy dopilnować zamknięcia zaworów i otworów inspekcyjnych, jeśli wymaga tego właściwy przepis. Pozostawienie ich otwartych może doprowadzić do wycieku lub narażenia podczas dalszego transportu. Wiadomość do biura nie zastępuje fizycznego zabezpieczenia urządzenia. Podstawa: ADR 1.4.3.7.1(d)(ii).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": null,
+        "retrieval_note": "Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego."
+      },
+      "literal_comparison_result": "fragment_MI_nieodzyskany_w_partii — Dokładny fragment właściwego podpunktu nie został wydobyty z MI ADR 2025 PL w tej partii; nie użyto parafrazy jako cytatu i nie oceniono pytania jako zgodnego.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    }
+  ]
+}
