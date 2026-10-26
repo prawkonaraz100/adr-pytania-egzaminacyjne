@@ -59,7 +59,7 @@ Każda symulacja ma pomóc kursantowi wyjaśnić decyzję własnymi słowami: co
 ### B-09 — kontrola załadunku i mocowanie
 - SC-ADR-B-09: oceń pozostałości, opakowania i mocowanie przed wyjazdem.
 - SC-ADR-B-09-02: nieznane pozostałości wyjaśnij przed kolejnym załadunkiem.
-- SC-ADR-B-09-03: zabezpiecz cały ładunek i potwierdź dopuszczenie przewozu luzem.
+- SC-ADR-B-09-03: zabezpiecz cały ładunek, w tym ciężkie elementy obok palet, i nie napinaj pasów tak mocno, by uszkadzały opakowania.
 ## Scenariusze dla kursanta — działy B-10–B-12
 
 Przy każdym ćwiczeniu kursant powinien wyjaśnić własnymi słowami: co sprawdza, dlaczego nie wybiera skrótu i kiedy zatrzymuje czynność. Pola common_mistakes, legal_basis i learner_takeaway w rekordach scenariuszy pomagają przeprowadzić omówienie po ćwiczeniu. To symulacje, nie dowód wykonania zajęć praktycznych.
@@ -77,7 +77,7 @@ Przy każdym ćwiczeniu kursant powinien wyjaśnić własnymi słowami: co spraw
 ### B-12 — ochrona przewozu
 - SC-ADR-B-12: sprawdź plan ochrony i zweryfikuj odbiorcę.
 - SC-ADR-B-12-02: zmianę postoju uzgodnij zgodnie z procedurą ochrony.
-- SC-ADR-B-12-03: numer zlecenia nie zastępuje potwierdzenia tożsamości przewoźnika; scenariusz dopasowano do ADR 1.10.1.2.
+- SC-ADR-B-12-03: numer zlecenia nie zastępuje potwierdzenia tożsamości przewoźnika; scenariusz i pytania dopasowano do ADR 1.10.1.2.
 ## Scenariusze dla kursanta — dział B-13
 
 Przy każdym ćwiczeniu kursant powinien powiedzieć, co sprawdza, dlaczego nie zgaduje brakujących danych i co musi być dostępne przed wyjazdem. Pola common_mistakes, legal_basis i learner_takeaway w rekordach scenariuszy pomagają omówić odpowiedź prostym językiem. Scenariusze są symulacjami, nie dowodem realizacji zajęć praktycznych.
@@ -303,13 +303,13 @@ Pełna, maszynowo sprawdzana mapa kroków i ID pytań znajduje się w `scenarius
 | ADR-B-03 | Wyciek przy kratce kanalizacyjnej | ADR-B-0009, ADR-B-0514 |
 | ADR-B-04 | Załadunek, źródła zapłonu i wymagany nadzór postoju | ADR-B-0010, ADR-B-0012, ADR-B-0310, ADR-B-0347, ADR-B-0580–0581 |
 | ADR-B-05 | Awaria: bezpieczne zgłoszenie i dostępność sprzętu | ADR-B-0013, ADR-B-0015, ADR-B-0169, ADR-B-0585, ADR-B-0593–0594 |
-| ADR-B-06 | Kontrola oznakowania kontenera | ADR-B-0507, ADR-B-0546, ADR-B-0562 |
+| ADR-B-06 | Kontrola oznakowania kontenera | ADR-B-0016, ADR-B-0217, ADR-B-0507, ADR-B-0546, ADR-B-0562 |
 | ADR-B-07 | Niezgodne opakowanie i uszkodzona sztuka przesyłki | ADR-B-0020, ADR-B-0517, ADR-B-0567–0569, ADR-B-0583–0584 |
 | ADR-B-08 | Kontrola wyposażenia pojazdu i każdego członka załogi | ADR-B-0418, ADR-B-0551, ADR-B-0566, ADR-B-0596–0597 |
-| ADR-B-09 | Kontrola przed załadunkiem i mocowania | ADR-B-0518, ADR-B-0554, ADR-B-0558 |
+| ADR-B-09 | Kontrola przed załadunkiem i mocowania | ADR-B-0026, ADR-B-0080, ADR-B-0235, ADR-B-0518, ADR-B-0554 |
 | ADR-B-10 | Kontener po rejsie morskim — dalszy odcinek drogowy | ADR-B-0396, ADR-B-0511 |
 | ADR-B-11 | Planowanie trasy i ograniczenia tunelowe | ADR-B-0487, ADR-B-0539–0540, ADR-B-0574–0576, ADR-B-0591–0604 |
-| ADR-B-12 | Ochrona przewozu i weryfikacja uprawnienia do odbioru | ADR-B-0304–0305, ADR-B-0519, ADR-B-0582 |
+| ADR-B-12 | Ochrona przewozu i weryfikacja przewoźnika oraz postoju | ADR-B-0120, ADR-B-0211, ADR-B-0304–0305, ADR-B-0407, ADR-B-0414, ADR-B-0582 |
 | ADR-B-13 | Kontrola dokumentów i instrukcji przed wyjazdem | ADR-B-0508, ADR-B-0525, ADR-B-0530, ADR-B-0577–0579, ADR-B-0586–0590, ADR-B-0598–0601 |
 
 ### Wspólny schemat pracy kursanta
@@ -413,3 +413,10 @@ Porównano tytuł, sytuację, kroki i cel każdego scenariusza z treścią powi�
 - `SC-ADR-B-12-03`: dopasowano nazwę, sytuację, kroki, błędy i podstawę do weryfikacji tożsamości przewoźnika według ADR 1.10.1.2; usunięto nieprecyzyjne przedstawienie tego jako wymogu identyfikacji odbiorcy.
 
 Po zmianach wszystkie 39 scenariuszy ma istniejące `question_ids` z właściwego `module_id`; nie zmieniano banku, kluczy ani statusów pytań. Raport szczegółowy: [etap 4x53](../raporty/etap-4x53-spojnosc-scenariuszy-pytania-2026-10-26.md).
+
+
+## Etap 4x54 — synchronizacja starszych indeksów (26.10.2026)
+
+Przejrzano powtórzone podsumowania w tym pliku i dopasowano je do aktualnych rekordów JSON po etapie 4x53. Zmieniono trzy zbiorcze wiersze pytań (B-06, B-09, B-12) oraz skrót opisu scenariusza B-09-03. Usunięto z aktualnego opisu B-09-03 nieaktualną wskazówkę o przewozie luzem; uzupełniono B-06 o pytanie wyjaśniające numer rozpoznawczy zagrożenia, a B-12 o pytania dotyczące weryfikacji przewoźnika i zabezpieczeń postoju.
+
+Nie zmieniono rekordów scenariuszy, banku pytań, poprawnych odpowiedzi ani statusów. Szczegółowa kontrola zgodności znajduje się w [raporcie etapu 4x53](../raporty/etap-4x53-spojnosc-scenariuszy-pytania-2026-10-26.md). Ten wpis usuwa rozbieżności redakcyjne między starszym indeksem a aktualnym JSON; nie jest recenzją prawną.
