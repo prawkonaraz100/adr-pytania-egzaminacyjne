@@ -116,3 +116,8 @@ Zaktualizowano snapshoty `review/sequential/` i `review/legal-clauses/` dla ID 0
 ## Testy i ograniczenia
 
 Lokalne testy nie są dostępne przez GitHub API; nie deklaruję ich wykonania. CI musi potwierdzić PASS dla pełnego zestawu testów. Korekty są redakcyjne i nie stanowią formalnej recenzji prawnej.
+
+
+## CI: wykryte i naprawione rozbieżności migawki
+
+Pierwsze przebiegi CI wykazały, że po zmianie explanation należało zaktualizować również `source_bank_head` w wariantach 001–005 i kluczach 001–005 oraz `current_bank_blob_sha`/`source_bank_blob_sha` w manifeście i obu kolejkach specjalisty. Wszystkie wskazane pola zsynchronizowano z blob SHA banku `626def46002cb4b065c402d0f30a9936ae30cf7d`. Końcowy wynik CI jest jeszcze wymagany przed scaleniem.
