@@ -1,0 +1,737 @@
+{
+  "stage": "4x23",
+  "batch": "priority-clauses-0325-0470",
+  "date": "2026-10-26",
+  "main_base": "0fa13e667214899aa4a9f38facc8de6cfcd75a22",
+  "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+  "counts": {
+    "records_compared": 30,
+    "quote_sufficient": 25,
+    "partial_or_insufficient": 5,
+    "confirmed_discrepancies": 0,
+    "question_or_key_changes": 0,
+    "verified": 0
+  },
+  "records": [
+    {
+      "id": "ADR-B-0325",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.5",
+      "question": "Z powodu nieznanego składu odpadu nadawca ma wątpliwości co do poziomu zagrożenia. Którą zasadę stosuje w ramach ADR 2.1.3.5.5?",
+      "options": {
+        "A": "Przyjmuje najwyższy poziom zagrożenia",
+        "B": "Automatycznie wybiera grupę III",
+        "C": "Rezygnuje z numeru UN, gdy nadawca nie zna dokładnego składu odpadu"
+      },
+      "correct_option": "A",
+      "explanation": "Jeśli skład odpadu jest nieznany i stosuje się procedurę ADR 2.1.3.5.5, a dostępne dane nie pozwalają pewnie ustalić poziomu zagrożenia, przyjmuje się najwyższy poziom zgodnie z warunkami przepisu. Nie wybieraj automatycznie grupy III ani nie rezygnuj z numeru UN (czterocyfrowego identyfikatora towaru niebezpiecznego). Nadawca musi zastosować właściwe dane i procedurę klasyfikacji. Podstawa: ADR 2.1.3.5.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "W razie wątpliwości, należy przyjąć najwyższy poziom niebezpieczeństwa."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0326",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.5",
+      "question": "Odpad o nieznanym dokładnie składzie zawiera substancję klasy 4.3. Czy wolno zastosować uproszczoną procedurę ADR 2.1.3.5.5?",
+      "options": {
+        "A": "Tak, bez żadnych ograniczeń",
+        "B": "Nie, materiały klasy 4.3 są wyłączone z tej procedury",
+        "C": "Tak, jeśli kierowca zna nazwę odpadu"
+      },
+      "correct_option": "B",
+      "explanation": "Nie każdy odpad o nieznanym składzie można sklasyfikować uproszczoną metodą. Materiały klasy 4.3 są wyłączone z procedury wskazanej w pytaniu, więc nie wystarczy nazwa odpadu ani zgoda kierowcy, by jej użyć. Trzeba zastosować właściwe zasady klasyfikacji dla danego zagrożenia. Podstawa: ADR 2.1.3.5.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Procedura ta nie może być stosowana w odniesieniu do odpadów zawierających [...] materiały klasy 4.3 [...]"
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0327",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.5",
+      "question": "Nadawca chce sklasyfikować nieznany dokładnie odpad jako UN 3077 lub 3082 w grupie III. Kiedy dopuszcza to ADR 2.1.3.5.5?",
+      "options": {
+        "A": "Kiedy jest to odpad komunalny",
+        "B": "Kiedy wykazano, że odpad ma wyłącznie właściwości zagrażające środowisku",
+        "C": "Zawsze, gdy odpadu jest mniej niż tona, niezależnie od jego składu i właściwości"
+      },
+      "correct_option": "B",
+      "explanation": "UN 3077 i UN 3082 to numery identyfikujące materiały zagrażające środowisku; można zastosować tę drogę klasyfikacji odpadu tylko wtedy, gdy ustalono, że odpad ma wyłącznie właściwości niebezpieczne dla środowiska i spełnia warunki danej pozycji. Sama mała ilość lub fakt, że to odpad komunalny, nie wystarczają. Inne zagrożenia wymagają odrębnej klasyfikacji. Podstawa: ADR 2.1.3.5.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Jeżeli wiadome jest, że odpad ma tylko właściwości zagrażające środowisku, to może być zaliczony do III grupy pakowania, pod UN 3077 lub UN 3082."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0328",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.5",
+      "question": "W odpadzie o nieustalonym dokładnie składzie można wykazać, że jego właściwości nie odpowiadają poziomowi grupy pakowania I. Jakie domyślne rozwiązanie dopuszcza ADR 2.1.3.5.5 przy spełnieniu pozostałych warunków?",
+      "options": {
+        "A": "Odpowiednią pozycję i.n.o. grupy II",
+        "B": "Zawsze dowolną pozycję grupy III, nawet gdy dostępne dane wskazują na wyższe zagrożenie",
+        "C": "Całkowity brak klasyfikacji"
+      },
+      "correct_option": "A",
+      "explanation": "Jeżeli wykazano, że odpad nie ma właściwości odpowiadających grupie pakowania I, przepis może dopuścić odpowiednią pozycję i.n.o. grupy II, o ile spełniono pozostałe warunki. Nie oznacza to prawa do dowolnego wyboru grupy III ani całkowitego pominięcia klasyfikacji. Należy uwzględnić również wyłączenia procedury. Podstawa: ADR 2.1.3.5.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Jeżeli [...] możliwe jest wykazanie, że właściwości odpadu nie odpowiadają kryteriom I grupy pakowania, to odpad może zostać zaklasyfikowany domyślnie do II grupy pakowania do najodpowiedniejszej pozycji I.N.O."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0329",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.5",
+      "question": "Odpad ma nieznany dokładnie skład, ale wiadomo, że zawiera materiał zakazany do przewozu według przepisów klasyfikacyjnych. Czy 2.1.3.5.5 pozwala nadać mu dowolny numer UN?",
+      "options": {
+        "A": "Tak, wystarczy dopisać słowo ODPAD",
+        "B": "Nie, procedury tej nie stosuje się do towarów niedopuszczonych do przewozu",
+        "C": "Tak, jeśli pojazd ma gaśnicę"
+      },
+      "correct_option": "B",
+      "explanation": "Uproszczona procedura klasyfikacji odpadu nie pozwala nadać dowolnego numeru UN (czterocyfrowego identyfikatora towaru niebezpiecznego) materiałowi, którego przewóz jest zakazany. Dopisek „ODPAD” ani obecność gaśnicy nie legalizują przewozu niedopuszczonej substancji. Najpierw trzeba ustalić, czy materiał w ogóle może być przewożony na warunkach ADR. Podstawa: ADR 2.1.3.5.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Procedura ta nie może być stosowana [...] do materiałów, które nie są dopuszczone do przewozu zgodnie z 2.2.x.2."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0330",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.3; 2.1.3.5.5",
+      "question": "Nieznany dokładnie odpad zawiera materiał należący do klasy 5.2. Co z procedurą 2.1.3.5.5?",
+      "options": {
+        "A": "Można ją zawsze zastosować",
+        "B": "Nie można jej zastosować, bo klasa 5.2 znajduje się w wyłączeniu przez 2.1.3.5.3",
+        "C": "Stosuje się ją dopiero po rozładunku"
+      },
+      "correct_option": "B",
+      "explanation": "Procedury dla odpadu o nieznanym składzie nie można stosować bez sprawdzenia listy wyłączeń. Materiały klasy 5.2 należą do kategorii wyłączonej przez powiązanie z ADR 2.1.3.5.3, więc nie wystarczy poczekać do rozładunku ani użyć dowolnego opakowania. Trzeba zastosować właściwe zasady klasyfikacji. Podstawa: ADR 2.1.3.5.3 i 2.1.3.5.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "(g) materiały klasy 5.2; [...] Procedura ta nie może być stosowana [...] do odpadów zawierających materiały wymienione w 2.1.3.5.3 [...]"
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0332",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.3",
+      "question": "W mieszaninie występują różne zagrożenia, a jedno z nich dotyczy substancji klasy 2. Jaki przepis określa szczególną kolejność pierwszeństwa?",
+      "options": {
+        "A": "ADR 2.1.3.5.3",
+        "B": "ADR 8.1.4.1",
+        "C": "ADR 5.4.3.4 dotyczący instrukcji na wypadek zdarzenia podczas przewozu"
+      },
+      "correct_option": "A",
+      "explanation": "Gdy mieszanina może stwarzać kilka zagrożeń, trzeba ustalić, która właściwość decyduje o jej klasyfikacji. ADR 2.1.3.5.3 podaje szczególną kolejność dla określonych przypadków, w tym wskazanych zagrożeń związanych z klasą 2. Nie stosuje się tej reguły automatycznie do każdej mieszaniny — najpierw sprawdź, czy spełnia warunki przepisu. Przepisy o gaśnicach i instrukcjach awaryjnych nie określają pierwszeństwa zagrożeń mieszaniny. Podstawa: ADR 2.1.3.5.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Jeżeli charakterystyki zagrożeń [...] odpowiadają więcej niż jednej klasie [...] klasyfikowane [...] na podstawie następującego uszeregowania pierwszeństwa"
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0337",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.3; 2.1.3.5.5",
+      "question": "Nieznany dokładnie odpad zawiera materiały zakaźne klasy 6.2. Czy procedura 2.1.3.5.5 obejmuje taki odpad?",
+      "options": {
+        "A": "Nie, klasa 6.2 jest wyłączona",
+        "B": "Tak, uproszczenie obejmuje wszystkie klasy bez wyjątków",
+        "C": "Tak, wystarczy opakowanie metalowe, nawet gdy klasa jest wyłączona"
+      },
+      "correct_option": "A",
+      "explanation": "Nie każdy odpad o nieznanym składzie może być klasyfikowany uproszczoną procedurą. Jeśli zawiera materiały zakaźne klasy 6.2, zastosowanie tej drogi jest wyłączone, więc nie wystarczy metalowe opakowanie ani ogólna zgoda na przewóz. Trzeba ustalić klasyfikację zgodnie z właściwymi zasadami ADR. Podstawa: ADR 2.1.3.5.3 i 2.1.3.5.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "(i) materiały zakaźne klasy 6.2. [...] Procedura ta nie może być stosowana [...] do odpadów zawierających materiały wymienione w 2.1.3.5.3"
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0338",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.3; 2.1.3.5.5",
+      "question": "Odpad o nieznanym dokładnie składzie zawiera materiał samozapalny klasy 4.2 o właściwościach piroforycznych. Jak traktować procedurę 2.1.3.5.5?",
+      "options": {
+        "A": "Zawsze przypisać grupę III, nawet jeśli przepis wyłącza procedurę",
+        "B": "Nie dla klas wymienionych w 2.1.3.5.3",
+        "C": "Pominąć zagrożenia dodatkowe i nie stosować kolejności pierwszeństwa"
+      },
+      "correct_option": "B",
+      "explanation": "Materiały piroforyczne klasy 4.2 są wymienione wśród przypadków, których nie obejmuje uproszczona procedura dla odpadu o nieznanym składzie. Nie wolno więc automatycznie przypisać grupy III ani pominąć zagrożeń dodatkowych. Należy zastosować właściwą metodę klasyfikacji dla tych materiałów. Podstawa: ADR 2.1.3.5.3 i 2.1.3.5.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "(f) materiały piroforyczne klasy 4.2; [...] Procedura ta nie może być stosowana [...] do odpadów zawierających materiały wymienione w 2.1.3.5.3"
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0339",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.3; 2.1.3.5.5",
+      "question": "Podczas klasyfikacji odpadu z nieznanym dokładnie składem ktoś proponuje skorzystać z 2.1.3.5.5 mimo występowania materiałów wybuchowych klasy 1. Co jest prawidłowe?",
+      "options": {
+        "A": "Procedura uproszczona obejmuje wszystkie klasy i nie przewiduje wyjątków",
+        "B": "Nie stosuje się jej dla substancji wyłączonych w 2.1.3.5.3",
+        "C": "Wystarczy zgoda kierowcy, niezależnie od klasyfikacji odpadu"
+      },
+      "correct_option": "B",
+      "explanation": "Uproszczona procedura klasyfikacji odpadu nie obejmuje wszystkich klas. Jeśli odpad zawiera materiały wybuchowe klasy 1 wymienione w przepisie wyłączającym, nie można użyć tej procedury tylko dlatego, że skład jest nieznany. Zgoda kierowcy nie zastępuje klasyfikacji zgodnej z ADR. Podstawa: ADR 2.1.3.5.3 i 2.1.3.5.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "(b) materiały klasy 1; [...] Procedura ta nie może być stosowana [...] do odpadów zawierających materiały wymienione w 2.1.3.5.3"
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0340",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.3",
+      "question": "Występujące w mieszaninie zagrożenie spełnia warunki substancji samoreaktywnej klasy 4.1. Czy można zignorować specjalne pierwszeństwo z 2.1.3.5.3?",
+      "options": {
+        "A": "Tak, wystarczy nalepka klasy 9, nawet gdy obowiązuje szczególna kolejność",
+        "B": "Nie, stosuje się kolejność z 2.1.3.5.3",
+        "C": "Tak, jeśli materiał nie ma zapachu, więc nie trzeba sprawdzać klasyfikacji"
+      },
+      "correct_option": "B",
+      "explanation": "Gdy mieszanina spełnia warunki klasyfikacji jako substancja samoreaktywna klasy 4.1, trzeba zastosować szczególną kolejność zagrożeń z ADR. Nie można zastąpić jej nalepką klasy 9 tylko dlatego, że tak jest wygodniej. Brak zapachu nie pozwala ocenić klasyfikacji, więc również nie uzasadnia pominięcia wymaganej procedury. Podstawa: ADR 2.1.3.5.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "(e) materiały samoreaktywne i materiały wybuchowe odczulone stałe klasy 4.1"
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0341",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.5; 2.1.3.6",
+      "question": "Kto ma prawo samodzielnie zastąpić klasyfikację ADR odpadu przypadkowym numerem UN z innego towaru?",
+      "options": {
+        "A": "Każdy kierowca może wybrać numer UN na podstawie podobieństwa nazwy",
+        "B": "Pracownik magazynu bez danych może skopiować numer z poprzedniego ładunku",
+        "C": "Nikt; numer UN wymaga właściwej klasyfikacji"
+      },
+      "correct_option": "C",
+      "explanation": "numer UN (identyfikator towaru niebezpiecznego) musi wynikać z klasyfikacji towaru lub odpadu według ADR, a nie z wygody osoby przygotowującej ładunek. Kierowca ani pracownik bez danych o odpadzie nie mogą zastąpić tej procedury przypadkowym numerem. Nieprawidłowy numer może prowadzić do błędnych dokumentów i środków bezpieczeństwa. Podstawa: ADR 2.1.3.5.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "jego zaklasyfikowanie do numeru UN i do grupy pakowania [...] może opierać się na wiedzy nadawcy odpadu, z uwzględnieniem wszystkich dostępnych danych technicznych"
+      },
+      "literal_comparison_result": "częściowo_zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę ogólną, ale nie rozstrzyga wszystkich szczegółów scenariusza.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0342",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.3(a)",
+      "question": "W odpadzie występuje ryzyko klasy 7 i inne zagrożenie, a rozpatrywana sytuacja nie podlega wyjątkom z 2.1.3.5.3(a). Która odpowiedź oddaje zasadę pierwszeństwa?",
+      "options": {
+        "A": "Klasa 7 ma pierwszeństwo z określonymi wyjątkami",
+        "B": "Klasa 7 nie występuje w ADR i nie trzeba jej uwzględniać",
+        "C": "Pierwszeństwo ma zawsze składnik o najmniejszej masie, niezależnie od klasy"
+      },
+      "correct_option": "A",
+      "explanation": "Klasa 7 oznacza materiały promieniotwórcze. Przy klasyfikowaniu odpadu ADR stosuje szczególną zasadę pierwszeństwa dla tej klasy, ale przepis przewiduje wyjątki — dlatego poprawna odpowiedź uwzględnia oba elementy. Nie można pomijać klasy 7, a sama masa składników nie zastępuje reguł klasyfikacji. Podstawa: ADR 2.1.3.5.3(a).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "(a) materiały klasy 7 (z wyjątkiem materiałów promieniotwórczych w sztukach przesyłek wyłączonych [...], gdzie pierwszeństwo mają inne właściwości niebezpieczne)"
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0343",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 2.1.3.5.5",
+      "question": "Czy dla odpadu o nieznanym dokładnie składzie samo zakwalifikowanie jako odpadu usuwa konieczność ustalenia właściwej grupy pakowania?",
+      "options": {
+        "A": "Tak, odpady nigdy nie otrzymują grupy pakowania",
+        "B": "Nie; trzeba ustalić grupę pakowania, gdy ma zastosowanie",
+        "C": "Tak, mała masa pozwala pominąć przypisanie grupy pakowania"
+      },
+      "correct_option": "B",
+      "explanation": "Samo nazwanie materiału odpadem nie zwalnia z ustalenia jego klasyfikacji. Dla odpadu o nieznanym dokładnie składzie trzeba zastosować procedurę ADR, ustalić właściwy numer UN (identyfikator towaru niebezpiecznego) i grupę pakowania, jeśli ma zastosowanie. Mała ilość nie jest powodem, by pominąć te czynności. Podstawa: ADR 2.1.3.5.5. Przepis określa sposób klasyfikowania, a nie automatyczne zwolnienie dla odpadów.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "jego zaklasyfikowanie do numeru UN i do grupy pakowania [...] może opierać się na wiedzy nadawcy odpadu"
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0390",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "question": "Towar niebezpieczny ma jechać w zwykłym kontenerze drogą, a następnie statkiem. Jaki dokument przewiduje 5.4.2?",
+      "options": {
+        "A": "Certyfikat pakowania kontenera/pojazdu dla przewoźnika morskiego",
+        "B": "Wyłącznie zezwolenie na parkowanie wydane przez terminal portowy",
+        "C": "Wyłącznie fakturę VAT jako dowód przekazania kontenera do przewozu morskiego"
+      },
+      "correct_option": "A",
+      "explanation": "W określonym łańcuchu drogowym i morskim osoby odpowiedzialne za pakowanie kontenera lub pojazdu powinny przekazać przewoźnikowi morskiemu wymagane świadectwo pakowania. Samo zezwolenie na parkowanie czy faktura VAT nie opisują sposobu przygotowania ładunku. Dokument służy potwierdzeniu spełnienia właściwych wymagań pakowania. Podstawa: ADR 5.4.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "certyfikat pakowania kontenera/pojazdu [...] powinien być dostarczony przewoźnikowi morskiemu przez odpowiedzialnych za pakowanie kontenera."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0391",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "question": "Kto według ADR 5.4.2 ma przekazać przewoźnikowi morskiemu świadectwo pakowania kontenera?",
+      "options": {
+        "A": "Przewoźnik drogowy, nawet jeśli nie odpowiadał za pakowanie kontenera",
+        "B": "Osoby odpowiedzialne za pakowanie kontenera",
+        "C": "Odbiorca, który podpisuje odbiór i dopiero potem zleca przygotowanie dokumentu"
+      },
+      "correct_option": "B",
+      "explanation": "Certyfikat pakowania potwierdza prawidłowe rozmieszczenie i zabezpieczenie ładunku w kontenerze lub pojeździe do przewozu morskiego. Dostarczają go osoby odpowiedzialne za pakowanie, ponieważ to one mogą potwierdzić wykonane czynności. Przewoźnik drogowy ani odbiorca nie zastępują automatycznie osoby pakującej. Podstawa: ADR 5.4.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "certyfikat pakowania kontenera/pojazdu [...] powinien być dostarczony przewoźnikowi morskiemu przez odpowiedzialnych za pakowanie kontenera."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0392",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "question": "Czy funkcję świadectwa pakowania kontenera i dokumentu przewozowego ADR wolno w określonych warunkach połączyć w jednym dokumencie?",
+      "options": {
+        "A": "Nie; oba dokumenty muszą zawsze pozostać osobne, nawet jeśli zawierają te same dane",
+        "B": "Tak, jeśli dokument zawiera wymagane oświadczenie oraz dane osoby odpowiedzialnej",
+        "C": "Tak; dokumenty można połączyć, pomijając oświadczenie i dane osoby odpowiedzialnej"
+      },
+      "correct_option": "B",
+      "explanation": "ADR dopuszcza połączenie świadectwa pakowania kontenera i dokumentu przewozowego w jednym dokumencie, jeśli zawiera on wymagane oświadczenie oraz identyfikację osoby odpowiedzialnej. Nie trzeba tworzyć kilku plików tylko dla samej liczby dokumentów, ale nie można też pominąć wymaganych informacji. Podstawa: ADR 5.4.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Funkcje dokumentu przewozowego wymaganego w 5.4.1 i certyfikatu pakowania kontenera/pojazdu [...] może pełnić jeden dokument."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0393",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "question": "W morskim łańcuchu transportowym ładunek jest przewożony w pojeździe, a nie kontenerze. Co mówi ADR 5.4.2 o świadectwie pakowania pojazdu?",
+      "options": {
+        "A": "Nie; świadectwo pakowania pojazdu nie może być dołączone do dokumentu przewozowego",
+        "B": "Może być dołączone do dokumentu przewozowego, jeśli spełniono wymagania ADR",
+        "C": "Musi zastąpić dokument przewozowy oraz prawo jazdy kierowcy"
+      },
+      "correct_option": "B",
+      "explanation": "Dla przewozu pojazdu w określonym łańcuchu morskim ADR dopuszcza dołączenie świadectwa pakowania pojazdu do dokumentu przewozowego. Nie jest więc prawdą, że świadectwo nigdy nie jest dopuszczalne ani że zastępuje prawo jazdy. Należy spełnić wymagania dokumentacyjne dotyczące konkretnego przewozu. Podstawa: ADR 5.4.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Jeżeli przewóz drogowy towarów niebezpiecznych znajdujących się w pojeździe dokonywany jest bezpośrednio przed przewozem morskim, to do dokumentu przewozowego powinien być również dołączony certyfikat pakowania kontenera/pojazdu"
+      },
+      "literal_comparison_result": "częściowo_zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę ogólną, ale nie rozstrzyga wszystkich szczegółów scenariusza.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0394",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 5.4.2",
+      "question": "Czy ADR 5.4.2 wymaga świadectwa pakowania kontenera dla przenośnej cysterny wyłącznie z tego powodu, że będzie przewożona statkiem?",
+      "options": {
+        "A": "Nie; samo przewożenie przenośnej cysterny statkiem nie wymaga takiego świadectwa",
+        "B": "Tak; świadectwo jest wymagane dla każdej przenośnej cysterny przewożonej statkiem",
+        "C": "Tak; świadectwo jest wymagane tylko wtedy, gdy cysterna jest pusta i czysta"
+      },
+      "correct_option": "A",
+      "explanation": "Świadectwo pakowania kontenera z ADR 5.4.2 nie jest wymagane wyłącznie dlatego, że przenośna cysterna będzie przewożona statkiem; przepis przewiduje tu wyjątek. Nie oznacza to jednak zwolnienia z wszelkich dokumentów lub zabezpieczeń. Trzeba sprawdzić wymagania właściwe dla przenośnej cysterny i danego łańcucha transportowego. Podstawa: ADR 5.4.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Jeżeli przewóz towarów niebezpiecznych znajdujących się w kontenerze dokonywany jest bezpośrednio przed przewozem morskim, certyfikat pakowania kontenera/pojazdu [...] powinien być dostarczony przewoźnikowi morskiemu"
+      },
+      "literal_comparison_result": "cytat_niewystarczający_do_potwierdzenia — cytat nie rozstrzyga wyjątku dotyczącego przenośnej cysterny; pozostawić do sprawdzenia przez specjalistę.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0455",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.1.2",
+      "question": "Dla towarów niebezpiecznych innych niż klasa 7, gdzie ADR określa wykaz i progi uznania za towary dużego ryzyka?",
+      "options": {
+        "A": "W tabeli 1.10.3.1.2 ADR, gdzie podano towary dużego ryzyka i ich progi",
+        "B": "Wyłącznie w instrukcji pisemnej kierowcy opisanej w punkcie 5.4.3 ADR",
+        "C": "Wyłącznie w dowodzie rejestracyjnym pojazdu wykorzystywanego do przewozu"
+      },
+      "correct_option": "A",
+      "explanation": "Dla towarów niebezpiecznych innych niż klasa 7 to tabela ADR 1.10.3.1.2 określa, które towary uznaje się za duże ryzyko i jakie ilości mają znaczenie. Instrukcja pisemna ani dowód rejestracyjny nie zastępują tej tabeli. Trzeba odczytać odpowiedni wpis i próg dla konkretnego sposobu przewozu. Podstawa: ADR 1.10.3.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Towarami niebezpiecznymi dużego ryzyka klas innych niż klasa 7 są towary wskazane w tabeli 1.10.3.1.2 poniżej, przewożone w ilościach większych niż wskazane w tej tabeli."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0456",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.1.2, przypis (c)",
+      "question": "W tabeli 1.10.3.1.2 obok zagrożenia podano próg 3000 l dla przewozu w cysternie. Czy taki próg wolno automatycznie zastosować do sztuk przesyłek?",
+      "options": {
+        "A": "Tak; próg 3000 l można stosować do każdego sposobu przewozu bez rozróżnienia",
+        "B": "Nie; trzeba odczytać próg z kolumny odpowiadającej sposobowi przewozu",
+        "C": "Tak; wystarczy, że kierowca posiada ważne zaświadczenie ADR"
+      },
+      "correct_option": "B",
+      "explanation": "Tabela ADR o ochronie przewozu podaje różne progi zależnie od sposobu transportu. Próg 3000 litrów dla przewozu w zbiorniku (cysternie) nie może być automatycznie użyty dla towaru w osobnych opakowaniach, czyli sztukach przesyłek. Odczytaj kolumnę odpowiadającą temu, jak towar jest rzeczywiście przewożony; zaświadczenie kierowcy nie zmienia tych wartości. Podstawa: ADR 1.10.3.1.2 i przypis (c).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Wartość umieszczona w tej kolumnie ma zastosowanie tylko wtedy, gdy przewóz w cysternie jest dopuszczony, zgodnie z działem 3.2 tabela A kolumna (10) lub (12)."
+      },
+      "literal_comparison_result": "częściowo_zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę ogólną, ale nie rozstrzyga wszystkich szczegółów scenariusza.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0457",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.1.2, przypis (b)",
+      "question": "W tabeli 1.10.3.1.2 przy danym zagrożeniu w kolumnie przewozu w sztukach przesyłek podano oznaczenie przypisu b. Co ono oznacza?",
+      "options": {
+        "A": "Przypis oznacza stały próg 1000 kg, niezależnie od rodzaju towaru i sposobu przewozu",
+        "B": "Przypis oznacza, że każda ilość staje się towarem dużego ryzyka, bez wyjątków",
+        "C": "Dla wskazanego sposobu przewozu 1.10.3 nie stosuje się niezależnie od ilości"
+      },
+      "correct_option": "C",
+      "explanation": "Przypis b w tabeli 1.10.3.1.2 oznacza, że dla danego rodzaju przewozu wymagania tego punktu nie mają zastosowania, niezależnie od ilości. Nie należy więc automatycznie przyjmować progu 1000 kg ani uznawać każdej ilości za towar dużego ryzyka. Trzeba jednak uwzględnić pozostałe przepisy ADR, które nadal mogą obowiązywać. Podstawa: ADR 1.10.3.1.2, przypis (b).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Niezależnie od ilości towarów, przepisy rozdziału 1.10.3 nie mają zastosowania."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0458",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.1.2, przypis (a)",
+      "question": "W tabeli 1.10.3.1.2 przy rodzaju przewozu wpisano literę a. Jak rozumieć taki zapis?",
+      "options": {
+        "A": "Oznacza, że dana kolumna nie ma zastosowania do wskazanego przypadku",
+        "B": "Oznacza obowiązek umieszczenia nalepki z literą A na każdej sztuce przesyłki",
+        "C": "Oznacza próg ilościowy wynoszący dokładnie 100 kilogramów dla danego towaru"
+      },
+      "correct_option": "A",
+      "explanation": "Litera „a” w tabeli ADR 1.10.3.1.2 jest odsyłaczem do przypisu, który wyjaśnia, że dana kolumna nie ma zastosowania w opisanym przypadku. Nie jest to nalepka, którą trzeba umieścić na opakowaniu, ani liczba określająca próg 100 kg. Należy czytać przypis razem z odpowiednim wierszem tabeli, a nie dopisywać mu własne znaczenie. Podstawa: ADR 1.10.3.1.2, przypis (a).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "a Nie dotyczy."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0459",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.1.2",
+      "question": "Dla danego towaru w tabeli ochrony 1.10.3.1.2 występuje próg 0 kg dla sztuk przesyłek. Co to oznacza przy przewozie dodatniej ilości objętej tym przepisem?",
+      "options": {
+        "A": "Można przewieźć dowolną ilość, nie sprawdzając wymagań ochrony ani tabeli ADR",
+        "B": "Próg jest przekroczony dla dodatniej ilości, z uwzględnieniem warunków ADR",
+        "C": "Wymagania ochronne stosuje się dopiero od 3000 kg przewożonego materiału"
+      },
+      "correct_option": "B",
+      "explanation": "Jeśli w tabeli dla danego rodzaju przewozu podano próg 0 kg, każda dodatnia ilość objęta zakresem przepisu przekracza ten próg. Nie oznacza to jednak pominięcia wszystkich pozostałych warunków i wyłączeń rozdziału 1.10. Trzeba sprawdzić klasyfikację towaru oraz konkretną kolumnę tabeli. Podstawa: ADR 1.10.3.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "Towarami niebezpiecznymi dużego ryzyka [...] są towary wskazane w tabeli 1.10.3.1.2 [...] przewożone w ilościach większych niż wskazane w tej tabeli."
+      },
+      "literal_comparison_result": "częściowo_zgodne_w_zakresie_cytatu_MI — cytat wspiera regułę ogólną, ale nie rozstrzyga wszystkich szczegółów scenariusza.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0460",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.3.1.2",
+      "question": "Czy fakt, że materiał jest w klasie 3, automatycznie oznacza zaliczenie do towarów niebezpiecznych dużego ryzyka we wszystkich przewozach?",
+      "options": {
+        "A": "Tak; każda ciecz klasy 3 zawsze jest towarem dużego ryzyka, niezależnie od ilości",
+        "B": "Tak; klasyfikacja do klasy 3 oznacza, że nie przewidziano żadnych wyjątków",
+        "C": "Nie; trzeba uwzględnić grupę pakowania, sposób przewozu i próg tabeli"
+      },
+      "correct_option": "C",
+      "explanation": "Sama klasa 3 nie oznacza, że każdy przewóz jest przewozem towarów niebezpiecznych dużego ryzyka. Trzeba sprawdzić właściwą grupę pakowania, postać przewozu i progi podane w tabeli ADR 1.10.3.1.2. Dlatego nie można przyjąć, że wszystkie ciecze klasy 3 zawsze spełniają kryteria, ani że nie istnieją wyjątki ilościowe. Podstawa: ADR 1.10.3.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "3 Materiały zapalne ciekłe I i II grupy pakowania — Cysterna: 3 000 l; Sztuki przesyłek: b."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0461",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.2.1.8.1",
+      "question": "Pojedyncze opakowanie zawiera 4 litry cieczy spełniającej kryteria zagrożenia dla środowiska wodnego. Kiedy może działać wyjątek od znaku środowiskowego?",
+      "options": {
+        "A": "Wyjątek może mieć zastosowanie, gdy spełniono warunki 5.2.1.8.1 dla opakowania do 5 l",
+        "B": "Wyjątek obejmuje wszystkie beczki o pojemności do 50 l, niezależnie od spełnienia warunków przepisu",
+        "C": "Wyjątek dotyczy tylko cieczy, które w ogóle nie podlegają klasyfikacji ADR"
+      },
+      "correct_option": "A",
+      "explanation": "Dla niektórych pojedynczych opakowań z cieczą niebezpieczną dla środowiska ADR przewiduje wyjątek od znaku, jeśli ilość nie przekracza 5 litrów i spełnione są pozostałe warunki. Nie oznacza to ogólnego zwolnienia dla każdej beczki ani dla towarów, które w ogóle nie podlegają ADR. Podstawa: ADR 5.2.1.8.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "z wyłączeniem opakowań pojedynczych oraz opakowań wewnętrznych w opakowaniach kombinowanych [...] nie więcej niż 5 l materiałów ciekłych, lub nie więcej niż 5 kg netto materiałów stałych."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0462",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.2.1.8.1",
+      "question": "Opakowanie kombinowane ma butelki wewnętrzne z materiałem niebezpiecznym dla środowiska, każda zawiera 6 litrów. Czy sam fakt użycia opakowania kombinowanego uruchamia wyjątek 5.2.1.8.1?",
+      "options": {
+        "A": "Tak; limit 5 l odnosi się tylko do całego opakowania zewnętrznego",
+        "B": "Tak; wystarczy, że suma cieczy w opakowaniu kombinowanym nie przekracza 30 l",
+        "C": "Nie; pojedyncza butelka 6 l przekracza limit 5 l określony w 5.2.1.8.1"
+      },
+      "correct_option": "C",
+      "explanation": "Limit 5 litrów w tym wyjątku odnosi się do ilości w pojedynczym opakowaniu wewnętrznym lub pojedynczym, zależnie od rodzaju opakowania. Butelka o pojemności 6 litrów przekracza limit, nawet jeśli znajduje się w opakowaniu kombinowanym. Sama suma cieczy w opakowaniu zewnętrznym nie zastępuje sprawdzenia każdego właściwego opakowania. Podstawa: ADR 5.2.1.8.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "nie więcej niż 5 l materiałów ciekłych, lub nie więcej niż 5 kg netto materiałów stałych."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0463",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.2.1.8.1",
+      "question": "W opakowaniu pojedynczym przewozi się dokładnie 5 kg netto stałego materiału zagrażającego środowisku wodnemu. Jak rozumieć ilościowy warunek wyjątku od znaku?",
+      "options": {
+        "A": "Limit dotyczy zawsze masy brutto całego opakowania, nie zawartości netto",
+        "B": "Znak jest wymagany bez wyjątku, gdy zawartość wynosi dokładnie 5 kg netto",
+        "C": "Dokładnie 5 kg netto mieści się w limicie wskazanym w 5.2.1.8.1"
+      },
+      "correct_option": "C",
+      "explanation": "Dla stałych materiałów zagrażających środowisku wskazany limit wynosi 5 kg netto, a wartość dokładnie równa limitowi mieści się w sformułowaniu „nie więcej niż”. Nie należy mylić masy netto z brutto ani automatycznie wymagać znaku przy każdej ilości. Pozostałe warunki wyjątku nadal muszą być spełnione. Podstawa: ADR 5.2.1.8.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "nie więcej niż 5 l materiałów ciekłych, lub nie więcej niż 5 kg netto materiałów stałych."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0469",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.3.6.2",
+      "question": "Jaki standardowy minimalny wymiar znaku środowiskowego przewiduje ADR 5.3.6.2 dla oznakowania kontenera, bez zastosowania szczególnego zmniejszenia wymiarów?",
+      "options": {
+        "A": "50 × 50 mm — wymiar standardowy bez zastosowania zmniejszenia",
+        "B": "100 × 100 mm — wymiar standardowy bez zastosowania zmniejszenia",
+        "C": "250 × 250 mm — wymiar standardowy bez zastosowania zmniejszenia"
+      },
+      "correct_option": "C",
+      "explanation": "Standardowy znak środowiskowy dla wskazanych jednostek transportowych ma co najmniej 250 × 250 mm, chyba że zastosowanie ma szczególne zmniejszenie dopuszczone w ADR. Rozmiary 50 × 50 mm lub 100 × 100 mm nie są standardowym wymiarem dla tego przypadku. Zawsze trzeba sprawdzić warunki wyjątku przed zmniejszeniem znaku. Podstawa: ADR 5.3.6.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "minimalne wymiary powinny wynosić 250 mm × 250 mm."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0470",
+      "module_id": "ADR-B-03",
+      "clause": "ADR 2025, 5.3.6.2",
+      "question": "Kontener-cysterna ma pojemność 2500 l i niewystarczającą powierzchnię na standardowy znak środowiskowy. Co dopuszcza 5.3.6.2?",
+      "options": {
+        "A": "Można zmniejszyć znak do co najmniej 100 × 100 mm, gdy spełniono warunki przepisu",
+        "B": "Znak można całkowicie pominąć na każdej cysternie, gdy brakuje miejsca na ścianie",
+        "C": "Znak można zastąpić reklamą firmy, jeśli brakuje miejsca na ścianie"
+      },
+      "correct_option": "A",
+      "explanation": "Dla kontenera-cysterny lub cysterny przenośnej o pojemności do 3000 litrów ADR może dopuścić mniejszy znak środowiskowy, gdy dostępna powierzchnia jest niewystarczająca i spełnione są warunki przepisu. Nie oznacza to prawa do całkowitego pominięcia znaku ani zastąpienia go reklamą. Podstawa: ADR 5.3.6.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "Ministerstwo Infrastruktury, ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+        "quote": "W przypadku kontenerów-cystern lub cystern przenośnych o pojemności nie większej niż 3 000 litrów [...] wymiary znaku można zmniejszyć do 100 mm × 100 mm."
+      },
+      "literal_comparison_result": "zgodne_w_zakresie_cytatu_MI — brak sprzeczności w zakresie tego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review"
+    }
+  ]
+}
