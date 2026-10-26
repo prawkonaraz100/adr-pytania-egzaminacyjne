@@ -63,6 +63,16 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 
 Wszystkie ćwiczenia wykonuje się na fikcyjnych kartach lub przygotowanym stanowisku szkoleniowym. Nie używa się prawdziwych towarów niebezpiecznych i nie zalicza praktyki na podstawie samego quizu.
 
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-05` — **Awaria: bezpieczne zgłoszenie i dostępność sprzętu**
+- `SC-ADR-B-05-02` — **Awaria na poboczu: pierwsze decyzje kierowcy**
+- `SC-ADR-B-05-03` — **Pożar przy przestrzeni ładunkowej**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
+
 ## Co musisz zapamiętać
 - Nie narażaj siebie, aby ratować ładunek.
 - Ostrzeż innych, wezwij pomoc i podawaj sprawdzone informacje.
@@ -88,6 +98,7 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0585`
 - `ADR-B-0593`
 
+Ćwiczenie po pytaniach: [SC-ADR-B-05](../praktyka/scenariusze-13-dzialow.json) — porównaj własną decyzję z krokami kierowcy.
 
 ## Powiązane pytania w banku
 - ADR-B-0013
@@ -140,16 +151,3 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; opis nie zastępuje praktycznego szkolenia z pierwszej pomocy i sprzętu gaśniczego.
-
-
-## Trzy scenariusze praktyczne do przejścia po pytaniach
-
-Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
-
-- `SC-ADR-B-05` — **Awaria: bezpieczne zgłoszenie i dostępność sprzętu**
-- `SC-ADR-B-05-02` — **Awaria na poboczu: pierwsze decyzje kierowcy**
-- `SC-ADR-B-05-03` — **Pożar przy przestrzeni ładunkowej**
-
-Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-

@@ -67,6 +67,16 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 
 Ćwiczenia prowadź na fikcyjnych dokumentach i makietach. Nie oznaczaj rzeczywistego pojazdu w ramach ćwiczenia.
 
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-06` — **Kontrola oznakowania kontenera**
+- `SC-ADR-B-06-02` — **Rozbieżność numeru na tablicy i w dokumentach**
+- `SC-ADR-B-06-03` — **Nalepka zasłonięta podczas załadunku**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
+
 ## Co musisz zapamiętać
 - Numer UN i numer rozpoznawczy zagrożenia to nie to samo.
 - Nalepka na sztuce przesyłki i nalepka dużego formatu mają różne zastosowanie.
@@ -90,6 +100,7 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0507`
 - `ADR-B-0562`
 
+Ćwiczenie po pytaniach: [SC-ADR-B-06](../praktyka/scenariusze-13-dzialow.json) — porównaj własną decyzję z krokami kierowcy.
 
 ## Powiązane pytania w banku
 - ADR-B-0016
@@ -144,16 +155,3 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; konkretne wymagania oznakowania należy sprawdzać w aktualnym polskim tekście ADR.
-
-
-## Trzy scenariusze praktyczne do przejścia po pytaniach
-
-Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
-
-- `SC-ADR-B-06` — **Kontrola oznakowania kontenera**
-- `SC-ADR-B-06-02` — **Rozbieżność numeru na tablicy i w dokumentach**
-- `SC-ADR-B-06-03` — **Nalepka zasłonięta podczas załadunku**
-
-Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
