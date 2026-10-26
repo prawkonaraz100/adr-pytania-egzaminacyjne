@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plan dydaktyczny, arkusz kontroli i zadanie in
 
 **Obserwowalne kryterium:** Nie żąda wszystkich świadectw niezależnie od przewozu.
 
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Materiał wymaga niezależnej recenzji; nie jest dowodem zaliczenia ćwiczenia praktycznego ani akceptacji prawnej pytania.
 
 
 
@@ -123,3 +123,13 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - Wszystkie 18 unikalnych ID pytań z ćwiczeń istnieją w banku i należą do `ADR-B-13`.
 - Lekcja: [ADR-B-13](../lekcje/ADR-B-13.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
 - Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Prowadź kontrolę dokumentów w kolejności opisanej w lekcji: sprawdź opis towaru, dane wymagane dla konkretnego przewozu, dokumenty kierowcy i pojazdu oraz instrukcje pisemne. Kursant ma wskazać brakujące dane i wyjaśnić, dlaczego nie wolno ich zgadywać.
+
+- `SC-ADR-B-13` — kontrola dokumentów i instrukcji przed wyjazdem.
+- `SC-ADR-B-13-02` — brak danych w dokumencie przewozowym.
+- `SC-ADR-B-13-03` — instrukcje pisemne w nieznanym języku.
+
+Pytania kontrolne: `ADR-B-0037`, `ADR-B-0038`, `ADR-B-0039`, `ADR-B-0508`, `ADR-B-0525`, `ADR-B-0530`, `ADR-B-0577`, `ADR-B-0586`, `ADR-B-0590`, `ADR-B-0601`. Częste pomyłki: uznanie nazwy handlowej za nazwę przewozową, dopisywanie brakujących informacji z pamięci oraz traktowanie telefonu do dyspozytora jako zamiennika wymaganych instrukcji.
