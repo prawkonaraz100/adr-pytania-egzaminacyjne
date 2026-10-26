@@ -55,6 +55,8 @@ Format treningowy: 30 pytań, 60 minut, próg 20/30 (2/3). Każdy wariant obejmu
 
 ## Raporty i materiały
 
+- [Etap 4x54 — synchronizacja starszego indeksu scenariuszy](raporty/etap-4x54-synchronizacja-indeksu-scenariuszy-2026-10-26.md)
+
 - [Etap 4x53 — spójność scenariuszy praktycznych z pytaniami](raporty/etap-4x53-spojnosc-scenariuszy-pytania-2026-10-26.md)
 
 - [Etap 4x52 — próbka 60 explanation i kontrola scenariuszy](raporty/etap-4x52-proba60-czytelnosc-2026-10-26.md)
