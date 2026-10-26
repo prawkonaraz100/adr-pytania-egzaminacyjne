@@ -65,7 +65,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
                 self.assertIn("needs_review", content)
                 self.assertIn("verified", content)
         handoff = (REVIEW / "PRZEKAZANIE-ETAP4.md").read_text(encoding="utf-8")
-        self.assertIn("etap 4x42", handoff.lower())
+        self.assertIn("etapie 4x42", handoff.lower())
         self.assertIn("etap-4x42-scenariusze-egzaminy-2026-10-26.md", handoff)
         self.assertIn("lesson_path", handoff)
 
