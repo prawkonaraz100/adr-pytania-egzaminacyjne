@@ -28,6 +28,10 @@ Warianty są przeznaczone wyłącznie do nauki. Każdy arkusz ma 30 pytań, 60 m
 
 **Uwaga o dostępie:** klucze są rozdzielone od arkuszy w nawigacji, ale repozytorium jest publiczne, więc nie ma technicznego ograniczenia dostępu. Przed zakończeniem próby nie otwieraj plików kluczy.
 
+## Po błędzie — wróć do właściwej lekcji
+
+Każdy wpis w plikach `klucz-001.json`–`klucz-005.json` zawiera `lesson_path`, wskazujący lekcję odpowiadającą działowi pytania. Po przeczytaniu explanation otwórz tę lekcję, przejrzyj jej scenariusze w `../praktyka/scenariusze-13-dzialow.json`, a następnie powtórz pytania działu. Quality Gate sprawdza, czy każdy odnośnik prowadzi do istniejącej lekcji właściwego modułu.
+
 ## Status prawny
 
 Bank zawiera 609 pytań `needs_review` i 0 `verified`. Arkusze mają `publication_authorized: false` i nie są oficjalnymi arkuszami ani materiałem do formalnej oceny. Klucze i explanation są synchronizowane z bankiem przez Quality Gate.
