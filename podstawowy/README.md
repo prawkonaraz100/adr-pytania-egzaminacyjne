@@ -238,3 +238,6 @@ Raporty ETAPU 4x7
 ## Etap 4x47 — przegląd 13 sygnałów
 
 - [Raport 4x47](raporty/etap-4x47-13-sygnalow-heurystyki-2026-10-26.md): po sprawdzeniu 13 sygnałów heurystyki usunięto jedną potwierdzoną niezgodność explanation z A/B/C (ADR-B-0403). Dwanaście tekstów pozostawiono bez zmian; wszystkie nadal `needs_review`.
+
+
+- [Etap 4x50 — próbka 60 explanation i synchronizacja pakietu recenzyjnego](raporty/etap-4x50-proba60-explanation-2026-10-26.md)

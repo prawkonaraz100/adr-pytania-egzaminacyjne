@@ -1,9 +1,9 @@
-## Bieżąca migawka — etap 4x46 (26.10.2026)
+## Bieżąca migawka — etap 4x50 (26.10.2026)
 
-- Bank blob SHA: `6de0159ce4d80799104a01170c42e363623045eb`.
+- Bank blob SHA: `626def46002cb4b065c402d0f30a9936ae30cf7d`.
 - Bank: 609 `needs_review`, 0 `verified`, brak formalnych zatwierdzeń.
-- Próba 60 nowych pytań względem 4x45: 8 redakcyjnych korekt explanation; pełne porównanie z urzędowym polskim ADR i niezależna recenzja pozostają otwarte.
-- [Raport 4x46](../podstawowy/raporty/etap-4x46-proba60-i-synchronizacja-2026-10-26.md).
+- Próbka 60 explanation (seed `2026102650`): 3 redakcyjne korekty; klucze i podstawy ADR zachowano, pełna recenzja polskiego tekstu ADR pozostaje otwarta.
+- [Raport 4x50](../podstawowy/raporty/etap-4x50-proba60-explanation-2026-10-26.md).
 
 ## Bieżąca migawka — etap 4x45 (26.10.2026)
 
