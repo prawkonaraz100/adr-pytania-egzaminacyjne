@@ -188,3 +188,8 @@ Raporty ETAPU 4x7
 ## Raport ETAPU 4x28 — końcowa spójność kursu
 
 - [Raport końcowy: powiązania pytań, terminologia i losowa próba 60 wyjaśnień](raporty/etap-4x28-koncowa-spojnosc-kursu-2026-10-26.md)
+
+
+## Etap 4x34 — kontrola duplikatów i podpowiedzi
+
+- [Raport: duplikaty, podpowiedzi i synchronizacja egzaminów 001–005](raporty/etap-4x34-duplikaty-podpowiedzi-egzaminy-2026-10-26.md).
