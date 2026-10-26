@@ -55,6 +55,8 @@ Format treningowy: 30 pytań, 60 minut, próg 20/30 (2/3). Każdy wariant obejmu
 
 ## Raporty i materiały
 
+- [Etap 4x42 — scenariusze praktyczne i ścieżka klucza do lekcji](raporty/etap-4x42-scenariusze-egzaminy-2026-10-26.md)
+
 - [Etap 4x32 — raport końcowy jakości dystraktorów i wyjaśnień](raporty/etap-4x32-raport-koncowy-2026-10-26.md)
 
 - [Raport etapu 4q — przegląd oczami kursanta](raporty/etap-4q-przeglad-kursanta-2026-10-24.md)
