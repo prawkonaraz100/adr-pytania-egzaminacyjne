@@ -37,6 +37,27 @@ def longest_run(values):
     return best
 
 
+def near_duplicate_pairs(questions, threshold=0.70):
+    """Flag likely redundant exam questions; deterministic editorial heuristic.
+
+    Compare token sets of stems after basic punctuation normalization.
+    Only flag at least five shared meaningful tokens to avoid short-question noise.
+    This is a regression guard, not a verdict that two legal questions are identical.
+    """
+    def words(stem):
+        return set(re.findall(r"[^\\W_]{3,}", stem.casefold(), flags=re.UNICODE))
+    flagged = []
+    for i, left in enumerate(questions):
+        a = words(left.get("stem", ""))
+        for right in questions[i + 1:]:
+            c = words(right.get("stem", ""))
+            common = a & c
+            union = a | c
+            if union and len(common) >= 5 and len(common) / len(union) >= threshold:
+                flagged.append((left.get("id"), right.get("id")))
+    return flagged
+
+
 def heuristic_warnings(rows):
     warnings = []
     cue = re.compile(
@@ -81,6 +102,8 @@ def audit(root=ROOT):
         if exam.get("publication_authorized") is not False or "answer_key_internal_only" in exam:
             errors.append(f"{prefix}: arkusz nie może ujawniać klucza ani być zatwierdzony do publikacji")
         ids = [q.get("id") for q in questions]
+        for left_id, right_id in near_duplicate_pairs(questions):
+            errors.append(f"{prefix}: potencjalnie powtórzone pytania {left_id} i {right_id}; sprawdź sens i podstawę ADR")
         if len(ids) != len(set(ids)):
             errors.append(f"{prefix}: powtórzone ID w arkuszu")
         all_ids.extend(ids)
