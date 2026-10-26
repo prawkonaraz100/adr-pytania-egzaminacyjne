@@ -45,6 +45,30 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertEqual(len(actual), 13)
 
 
+    def test_current_review_guides_match_the_current_bank_snapshot(self):
+        bank_bytes = (BASIC / "questions.jsonl").read_bytes()
+        bank_blob_sha = hashlib.sha1(
+            b"blob " + str(len(bank_bytes)).encode("ascii") + bytes([0]) + bank_bytes
+        ).hexdigest()
+        self.assertEqual(self.manifest["current_bank_blob_sha"], bank_blob_sha)
+        current_docs = [
+            REVIEW / "INSTRUKCJA-RECENZJI.md",
+            REVIEW / "PRZEKAZANIE-ETAP4.md",
+            REVIEW / "REJESTR-AKTUALNY-0001-0609.md",
+            ROOT / "review" / "README.md",
+        ]
+        for path in current_docs:
+            content = path.read_text(encoding="utf-8")
+            with self.subTest(path=str(path.relative_to(ROOT))):
+                self.assertIn(bank_blob_sha, content, "review guidance must identify current bank snapshot")
+                self.assertIn("609", content, "review guidance must show current question count")
+                self.assertIn("needs_review", content)
+                self.assertIn("verified", content)
+        handoff = (REVIEW / "PRZEKAZANIE-ETAP4.md").read_text(encoding="utf-8")
+        self.assertIn("etapie 4x42", handoff.lower())
+        self.assertIn("etap-4x42-scenariusze-egzaminy-2026-10-26.md", handoff)
+        self.assertIn("lesson_path", handoff)
+
     def test_ledger_evidence_counts_match_manifest_without_implying_approval(self):
         ledger_path = ROOT / self.manifest["source_ledger"]
         ledger = json.loads(ledger_path.read_text(encoding="utf-8"))

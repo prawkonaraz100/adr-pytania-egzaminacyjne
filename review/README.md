@@ -1,5 +1,7 @@
 # Niezależny przegląd ADR — zatwierdzanie pojedynczych rekordów
 
+- [Etap 4x43 — aktualność pakietu recenzyjnego](../podstawowy/raporty/etap-4x43-aktualnosc-pakietu-recenzyjnego-2026-10-26.md)
+
 ## Etap 4x25 — czytelność explanation i zgodność egzaminów
 
 - [Raport końcowy 4x25](../podstawowy/raporty/etap-4x25-raport-koncowy-2026-10-26.md): 609 pytań sprawdzonych w partiach; jedna korekta końcowa ADR-B-0197; 0 potwierdzonych duplikatów.
@@ -12,7 +14,7 @@
 - [Zbiorczy rejestr 4x24 — rekordy bez dosłownego fragmentu MI](specialist/ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md): 121 ID według świeżego indeksu; dalsze poszukiwania cytatów zakończone.
 
 
-> **Bieżący stan (etap 4x20, 26.10.2026):** 609 pytań w `podstawowy/questions.jsonl`; wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. Aktualny indeks: `specialist/REJESTR-AKTUALNY-0001-0609.md`; manifest: `specialist/PAKIET-0609-MANIFEST.json`. W repo znajduje się 13 lekcji, 13 materiałów instruktora, 39 scenariuszy, słowniczek 90 haseł i 5 zregenerowanych wariantów egzaminu z kluczami. W każdym wariancie wskaźnik „poprawna = jedyna najdłuższa” wynosi 0/30; rozkład A/B/C to 10/10/10. [Raport końcowy 4x20](../podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md). Analizy historyczne nie zastępują niezależnej recenzji wszystkich pytań.
+> **Bieżący stan (etap 4x42, 26.10.2026):** bank blob SHA `8a16afb47c5d5a9e460092b7e474b4a3e8a5a8d9`; 609 pytań w `podstawowy/questions.jsonl`; wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. Aktualny indeks: `specialist/REJESTR-AKTUALNY-0001-0609.md`; manifest: `specialist/PAKIET-0609-MANIFEST.json`. W repo znajduje się 13 lekcji, 13 materiałów instruktora, 39 scenariuszy, słowniczek 90 haseł i 5 wariantów egzaminu z kluczami. Każda odpowiedź w kluczach zawiera `lesson_path` do właściwej lekcji; blokujący test sprawdza wszystkie 150 odnośników. W każdym wariancie wskaźnik „poprawna = jedyna najdłuższa” wynosi 0/30; rozkład A/B/C to 10/10/10. [Raport końcowy 4x20](../podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md); [raport 4x42](../podstawowy/raporty/etap-4x42-scenariusze-egzaminy-2026-10-26.md). Analizy historyczne nie zastępują niezależnej recenzji wszystkich pytań.
 
 **Stan początkowy: 0 zatwierdzonych pytań.** `approvals.jsonl` jest celowo pusty. W projekcie **nie wolno** samodzielnie wpisywać fikcyjnych recenzentów ani dat.
 
