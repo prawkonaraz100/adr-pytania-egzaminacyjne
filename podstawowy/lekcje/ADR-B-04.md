@@ -57,6 +57,16 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 4. **Nocny postój.** Kierowca sprawdza tabelę A i przepisy szczególne, by ustalić, czy wymagany jest nadzór. Jeśli tak, wybiera miejsce zgodne z ADR 8.4.1.
 5. **Brak zgodnego miejsca.** Dyspozytor proponuje zwykły parking, choć obowiązuje nadzór. Kierowca sprawdza dopuszczalne alternatywy, zgłasza brak zgodnej opcji i uzgadnia bezpieczne rozwiązanie. Nie pozostawia pojazdu wbrew wymaganiom.
 
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-04` — **Załadunek i planowanie postoju pod nadzorem**
+- `SC-ADR-B-04-02` — **Załadunek: e-papieros i pracujący silnik**
+- `SC-ADR-B-04-03` — **Postój zaplanowany, ale miejsce nie spełnia wymagań**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
+
 ## Co musisz zapamiętać
 - Zakaz palenia, zasada dotycząca silnika i zakaz otwierania przesyłek dotyczą różnych czynności.
 - Przy rozlewie unikaj kontaktu i oparów; nie podejmuj działań, których nie możesz wykonać bezpiecznie.
@@ -139,16 +149,3 @@ Scenariusz mapowy: SC-ADR-B-04 w pliku [scenariuszy praktycznych](../praktyka/sc
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; szczegółowe warunki postoju wymagają niezależnej recenzji.
-
-
-## Trzy scenariusze praktyczne do przejścia po pytaniach
-
-Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
-
-- `SC-ADR-B-04` — **Załadunek i planowanie postoju pod nadzorem**
-- `SC-ADR-B-04-02` — **Załadunek: e-papieros i pracujący silnik**
-- `SC-ADR-B-04-03` — **Postój zaplanowany, ale miejsce nie spełnia wymagań**
-
-Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
