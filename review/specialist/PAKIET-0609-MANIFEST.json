@@ -222,7 +222,7 @@
     "report": "review/batches/4x16-literal-comparison-batch5-0010-0337.md",
     "data": "review/batches/4x16-literal-comparison-batch5-0010-0337.json"
   },
-  "literal_comparison_note": "287 rekordów ma zapisany wynik kontroli celowanej w ledgerze, w tym 64 rekordy z cytatem/odniesieniem w partiach 1–9. Pełny status porównania z kopią ministerialną pozostaje 223; nowe cytaty nie oznaczają pełnego porównania wszystkich A/B/C ani końcowego mapowania do pliku/strony Dz.U. Wszystkie pytania pozostają needs_review.",
+  "literal_comparison_note": "291 rekordów ma zapisany wynik kontroli celowanej w ledgerze, w tym 68 rekordów z cytatem/odniesieniem dodanym w ramach etapu 4x21. Pełny status porównania z kopią ministerialną pozostaje 223; nowe cytaty nie oznaczają pełnego porównania wszystkich A/B/C ani końcowego mapowania do pliku/strony Dz.U. Wszystkie pytania pozostają needs_review.",
   "stage4x18": {
     "bank_blob_sha": "ec1bb5391aa9875e2a1aa7bdb138fb79b3bf72dd",
     "question_count": 609,
@@ -294,7 +294,7 @@
   "literal_comparison_status_counts": {
     "official_polish_text_not_retrieved": 376,
     "targeted_source_checked_full_literal_comparison_pending": 10,
-    "records_with_recorded_targeted_comparison_result": 287,
+    "records_with_recorded_targeted_comparison_result": 291,
     "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 223,
     "specialist_reviews_pending": 609,
     "verified": 0
@@ -389,7 +389,7 @@
     "open_legal_review": {
       "official_polish_text_not_retrieved": 376,
       "targeted_source_checked_full_literal_comparison_pending": 10,
-      "records_with_targeted_comparison_result": 287,
+      "records_with_targeted_comparison_result": 291,
       "specialist_reviews_pending": 609
     },
     "report": "podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md",
@@ -398,8 +398,8 @@
     "legal_approval_warning": "No editorial audit or CI result constitutes expert approval. Do not set verified without a real specialist protocol."
   },
   "stage4x21": {
-    "status": "batches_001_0609_recorded; final reconciliation pending",
-    "last_batch": "stage4x21-literal-0583-0609",
+    "status": "partial_open_specialist_review_required",
+    "last_batch": "stage4x21-reconcile-10-targeted",
     "records_in_batch": 26,
     "records_with_saved_literal_quote": 7,
     "records_still_open_in_batch": 19,
@@ -409,6 +409,13 @@
     "source_copy": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
     "legal_source": "https://dziennikustaw.gov.pl/DU/2025/642",
     "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf",
-    "note": "Ministerial copy is auxiliary. Exact Gazette split-file/page mapping and specialist approval remain pending; all questions stay needs_review."
+    "note": "Ministerial copy is auxiliary. Exact Gazette split-file/page mapping and specialist approval remain pending; all questions stay needs_review.",
+    "records_in_scope": 386,
+    "original_not_retrieved_records": 376,
+    "records_with_new_literal_quote_or_partial_quote": 68,
+    "records_without_new_literal_quote": 318,
+    "targeted_pending_records": 10,
+    "official_gazette_page_file_mapping_complete": false,
+    "final_report": "podstawowy/raporty/etap-4x21-raport-koncowy-2026-10-26.md"
   }
 }
