@@ -2,6 +2,9 @@
 
 Materiały przeniesione z lekcji: plan dydaktyczny, arkusz kontroli i zadanie instruktorskie. Nie są dowodem przeprowadzenia zajęć ani zaliczenia kursanta. Nie wpisuj fikcyjnych dat, ocen ani podpisów.
 
+**Słowniczek pojęć dla kursanta:** [SLOWNICZEK.md](../SLOWNICZEK.md).
+
+
 ## Zadanie instruktorskie: Dokumenty
 
 **Symulacja bez rzeczywistych towarów:** Kursant kompletuję dokumentację przewozu i rozpoznaje dokumenty warunkowe oraz instrukcje pisemne.

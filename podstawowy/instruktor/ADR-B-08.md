@@ -2,6 +2,9 @@
 
 Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteria obserwacji i informacja zwrotna. Nie są dowodem przeprowadzenia zajęć ani zaliczenia kursanta. Nie wpisuj fikcyjnych dat, ocen ani podpisów.
 
+**Słowniczek pojęć dla kursanta:** [SLOWNICZEK.md](../SLOWNICZEK.md).
+
+
 ## Zadanie instruktorskie: Pojazdy i wyposażenie
 
 **Symulacja bez rzeczywistych towarów:** Na fikcyjnych kartach pojazdów kursant rozpoznaje EX/II i EX/III, ocenia warunkowość dopuszczenia i wyposażenia.

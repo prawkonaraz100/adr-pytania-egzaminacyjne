@@ -1,10 +1,15 @@
+import json
 import re
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 LESSONS = ROOT / "podstawowy" / "lekcje"
-GLOSSARY = ROOT / "podstawowy" / "SLOWNICZEK.md"
+INSTRUCTORS = ROOT / "podstawowy" / "instruktor"
+BASIC = ROOT / "podstawowy"
+SCENARIOS = BASIC / "praktyka" / "scenariusze-13-dzialow.json"
+QUESTIONS = BASIC / "questions.jsonl"
+GLOSSARY = BASIC / "SLOWNICZEK.md"
 
 # Canonical learner-facing terms. Slugs are explicit HTML anchors in SLOWNICZEK.md.
 TERMS = {
@@ -110,6 +115,60 @@ class LearnerGlossaryTests(unittest.TestCase):
         normalized = [heading.casefold() for heading in headings]
         duplicate_headings = sorted({heading for heading in normalized if normalized.count(heading) > 1})
         self.assertEqual(duplicate_headings, [], f"duplicate glossary headings: {duplicate_headings}")
+
+
+    def test_instructor_guides_link_glossary_and_all_scenarios(self):
+        files = sorted(INSTRUCTORS.glob("ADR-B-*.md"))
+        self.assertEqual(len(files), 13)
+        scenario_data = json.loads(SCENARIOS.read_text(encoding="utf-8"))
+        scenario_ids = {item["id"] for item in scenario_data["scenarios"]}
+        for path in files:
+            module_number = path.stem[-2:]
+            expected = {
+                f"SC-ADR-B-{module_number}",
+                f"SC-ADR-B-{module_number}-02",
+                f"SC-ADR-B-{module_number}-03",
+            }
+            text = path.read_text(encoding="utf-8")
+            with self.subTest(instructor=path.name):
+                self.assertIn("../SLOWNICZEK.md", text, "brak odsyłacza do słowniczka")
+                self.assertTrue(expected.issubset(scenario_ids), f"brak scenariusza w JSON: {expected - scenario_ids}")
+                for scenario_id in expected:
+                    self.assertIn(scenario_id, text, f"brak odwołania do {scenario_id}")
+
+    def test_question_ids_in_lessons_and_instructor_guides_exist_in_their_module(self):
+        bank = [
+            __import__("json").loads(line)
+            for line in QUESTIONS.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        ]
+        by_id = {question["id"]: question for question in bank}
+        self.assertEqual(len(by_id), len(bank), "duplikaty ID w banku")
+        files = sorted(LESSONS.glob("ADR-B-*.md")) + sorted(INSTRUCTORS.glob("ADR-B-*.md"))
+        self.assertEqual(len(files), 26)
+        for path in files:
+            module = f"ADR-B-{path.stem[-2:]}"
+            text = path.read_text(encoding="utf-8")
+            ids = set(re.findall(r"ADR-B-\d{4}", text))
+            for question_id in ids:
+                with self.subTest(file=path.relative_to(ROOT).as_posix(), question=question_id):
+                    self.assertIn(question_id, by_id, "question ID nie istnieje w banku")
+                    self.assertEqual(by_id[question_id]["module_id"], module, "question ID wskazuje inny dział")
+
+    def test_scenario_question_ids_exist_and_match_scenario_module(self):
+        bank = [
+            __import__("json").loads(line)
+            for line in QUESTIONS.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        ]
+        by_id = {question["id"]: question for question in bank}
+        scenario_data = __import__("json").loads(SCENARIOS.read_text(encoding="utf-8"))
+        self.assertEqual(len(scenario_data["scenarios"]), 39)
+        for scenario in scenario_data["scenarios"]:
+            with self.subTest(scenario=scenario["id"]):
+                for question_id in scenario["question_ids"]:
+                    self.assertIn(question_id, by_id, "scenario question ID nie istnieje")
+                    self.assertEqual(by_id[question_id]["module_id"], scenario["module_id"])
 
 if __name__ == "__main__":
     unittest.main()

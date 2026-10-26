@@ -2,6 +2,9 @@
 
 Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteria obserwacji i informacja zwrotna. Nie są dowodem przeprowadzenia zajęć ani zaliczenia kursanta. Nie wpisuj fikcyjnych dat, ocen ani podpisów.
 
+**Słowniczek pojęć dla kursanta:** [SLOWNICZEK.md](../SLOWNICZEK.md).
+
+
 ## Zadanie instruktorskie: Zdarzenie i pierwsza pomoc
 
 **Scenariusz bez rzeczywistych towarów niebezpiecznych:** W symulacji wycieku oraz pożaru przestrzeni ładunkowej kursant wskazuje kolejność: własne bezpieczeństwo, ostrzeżenie, pomoc, informacje dla służb; nie rozpoczyna działań przy realnym ładunku.
