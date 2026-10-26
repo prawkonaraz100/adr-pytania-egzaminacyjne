@@ -742,8 +742,7 @@
       ],
       "question_ids": [
         "ADR-B-0010",
-        "ADR-B-0012",
-        "ADR-B-0580"
+        "ADR-B-0012"
       ],
       "assessment_criteria": [
         "Kursant rozdziela wymagania dotyczące palenia od wymagań dotyczących silnika.",
@@ -931,7 +930,7 @@
       "question_ids": [
         "ADR-B-0016",
         "ADR-B-0507",
-        "ADR-B-0170"
+        "ADR-B-0217"
       ],
       "assessment_criteria": [
         "Kursant rozróżnia oba numery i wskazuje potrzebę wyjaśnienia niezgodności."
@@ -1113,7 +1112,7 @@
       "question_ids": [
         "ADR-B-0074",
         "ADR-B-0423",
-        "ADR-B-0596"
+        "ADR-B-0283"
       ],
       "assessment_criteria": [
         "Kursant kontroluje stan i dostępność sprzętu, nie tylko jego obecność."
@@ -1201,8 +1200,7 @@
       ],
       "question_ids": [
         "ADR-B-0554",
-        "ADR-B-0026",
-        "ADR-B-0518"
+        "ADR-B-0080"
       ],
       "assessment_criteria": [
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
@@ -1248,7 +1246,7 @@
       "question_ids": [
         "ADR-B-0026",
         "ADR-B-0518",
-        "ADR-B-0558"
+        "ADR-B-0235"
       ],
       "assessment_criteria": [
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
@@ -1258,13 +1256,13 @@
       "common_mistakes": [
         "Zabezpieczenie tylko oznakowanych przesyłek — pozostały ładunek również nie może przemieszczać się w sposób zagrażający bezpieczeństwu.",
         "Zaciśnięcie pasa do odkształcenia kartonu — mocowanie nie może uszkodzić opakowania.",
-        "Założenie, że przewóz luzem jest zawsze dopuszczony — sprawdź wpis towaru i wymagania wobec pojazdu."
+        "Pozostawienie ciężkiego elementu bez mocowania — może przesunąć się i zagrozić przesyłkom."
       ],
       "legal_basis": [
         "ADR 7.5.7.1",
-        "ADR 7.3.1.1"
+        "ADR 7.5.1"
       ],
-      "learner_takeaway": "Zabezpiecz cały ładunek, a przewóz luzem rozpocznij dopiero po potwierdzeniu, że jest dopuszczony."
+      "learner_takeaway": "Zabezpiecz cały ładunek, a pasy prowadź tak, by nie przesuwały się ani nie uszkadzały opakowań."
     },
     {
       "id": "SC-ADR-B-10-02",
@@ -1481,7 +1479,7 @@
       "question_ids": [
         "ADR-B-0304",
         "ADR-B-0582",
-        "ADR-B-0519"
+        "ADR-B-0407"
       ],
       "assessment_criteria": [
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
@@ -1501,31 +1499,35 @@
     {
       "id": "SC-ADR-B-12-03",
       "module_id": "ADR-B-12",
-      "title": "Niepewne uprawnienie odbiorcy",
-      "situation": "Odbiorca zna numer zlecenia, ale nie potrafi potwierdzić tożsamości ani upoważnienia do odbioru.",
+      "title": "Niezweryfikowany przewoźnik przy odbiorze ładunku",
+      "situation": "Osoba zgłasza się po ładunek w imieniu przewoźnika, ale firma nie potwierdziła jej tożsamości ani uprawnienia do odbioru.",
       "steps": [
-        "Nie wydawaj ładunku tylko na podstawie numeru zlecenia.",
-        "Zweryfikuj tożsamość i uprawnienie według procedury.",
-        "Zgłoś rozbieżność i zaczekaj na potwierdzenie.",
-        "Unikaj konfrontacji, jeśli mogłaby stworzyć zagrożenie."
+        "Nie przekazuj towaru przewoźnikowi ani podwykonawcy, którego tożsamości nie zweryfikowano.",
+        "Sprawdź dane firmy i uprawnienie do odbioru zgodnie z procedurą przedsiębiorstwa.",
+        "Zgłoś rozbieżność odpowiedzialnej osobie i zaczekaj na potwierdzenie.",
+        "Nie traktuj znajomości numeru zlecenia jako wystarczającego potwierdzenia."
       ],
       "common_errors": [
         {
-          "error": "Przekazać towar, bo osoba zna numer",
-          "why": "numer może być znany osobie nieuprawnionej."
+          "error": "Przekazać towar, bo osoba zna numer zlecenia.",
+          "why": "Numer może być znany osobie nieuprawnionej i nie potwierdza tożsamości przewoźnika."
         },
         {
-          "error": "Samodzielnie konfrontować podejrzaną osobę",
-          "why": "bezpieczniej uruchomić procedurę i wezwać pomoc."
+          "error": "Zignorować brak potwierdzenia firmy.",
+          "why": "Przed przekazaniem towaru trzeba sprawdzić, czy odbiór wykonuje właściwy przewoźnik."
+        },
+        {
+          "error": "Samodzielnie konfrontować podejrzaną osobę.",
+          "why": "Bezpieczniej uruchomić procedurę i zgłosić sprawę odpowiedzialnej osobie."
         }
       ],
       "adr_basis": [
-        "ADR 1.10.1.4",
-        "ADR 1.10.3.2"
+        "ADR 1.10.1.2"
       ],
       "question_ids": [
         "ADR-B-0120",
-        "ADR-B-0304"
+        "ADR-B-0211",
+        "ADR-B-0414"
       ],
       "assessment_criteria": [
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
@@ -1538,10 +1540,9 @@
         "Przekazanie informacji o zabezpieczeniach — nie ujawniaj szczegółów osobom, których uprawnienia są niepewne."
       ],
       "legal_basis": [
-        "ADR 1.10.1.2",
-        "ADR 1.10.3.2.2"
+        "ADR 1.10.1.2"
       ],
-      "learner_takeaway": "Nie wydawaj ładunku bez sprawdzenia tożsamości i uprawnienia odbiorcy."
+      "learner_takeaway": "Nie przekazuj ładunku przewoźnikowi, którego tożsamości i uprawnienia nie potwierdzono."
     },
     {
       "id": "SC-ADR-B-13-02",
