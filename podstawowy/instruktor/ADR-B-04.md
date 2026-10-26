@@ -14,7 +14,7 @@ Materiały przeniesione z lekcji: plany zajęć, mapy kompetencji, zadania instr
 
 
 
-## Scenariusz nauczania tematu 1(d) — kontrola 23.10.2026
+## Scenariusz nauczania tematu 1(d) — bezpieczeństwo załadunku i postoju
 
 **Urzędowy wymiar:** 1 godzina lekcyjna (45 minut). **Zakres:** Zapobieganie źródłom zapłonu, kontrola zgodności przed załadunkiem, zakaz palenia i otwierania opakowań, nadzór i zabezpieczenie postoju. Materiał szkoleniowy, nie potwierdzenie odbycia kursu ani recenzja ekspercka.
 
@@ -125,3 +125,13 @@ W repozytorium nie ma statystyk błędów rzeczywistych kursantów, więc nie da
 - Podstawy zapisane w mapie kompetencji do sprawdzenia: 8.3.5; 8.3.3; 8.3.6; 5.4.3.4; 5.4.3.4; 8.3.2, 7.5.1.2, 7.5.1.3; 8.4, 8.5; 8.3.1, 8.3.8.
 - Pytania wymienione w ćwiczeniach: 7; identyfikatory zweryfikowano względem aktualnego banku i przypisania do modułu.
 - Źródłem merytorycznym pozostaje lekcja `../lekcje/ADR-B-04.md`, a scenariusze znajdują się w [mapie scenariuszy](../praktyka/scenariusze-13-dzialow.json). Numery ADR należy porównywać z aktualnym polskim tekstem ADR 2025 (Dz.U. 2025 poz. 642 i sprostowanie poz. 1575); ten dodatek nie jest formalną recenzją prawną.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Zajęcia prowadź na fikcyjnych kartach załadunku i mapie parkingu. Najpierw poproś kursanta, by wskazał, co sprawdzi przed rozpoczęciem załadunku; następnie niech uzasadni, czy planowane miejsce postoju spełnia wymagania dla danego towaru. Oddziel zakaz palenia i źródeł zapłonu od wymagań dotyczących pracy silnika oraz nadzoru — nie są to identyczne reguły.
+
+- `SC-ADR-B-04` — załadunek i planowanie postoju pod nadzorem.
+- `SC-ADR-B-04-02` — e-papieros i pracujący silnik.
+- `SC-ADR-B-04-03` — planowany postój, który nie spełnia wymagań.
+
+Pytania kontrolne: `ADR-B-0010`, `ADR-B-0011`, `ADR-B-0012`, `ADR-B-0345`, `ADR-B-0355`, `ADR-B-0362`, `ADR-B-0471`, `ADR-B-0476`, `ADR-B-0580`, `ADR-B-0581`. Częste pomyłki: uznanie, że najbliższy parking jest zawsze dopuszczalny; traktowanie zgody dyspozytora jako wyjątku; mylenie obowiązku nadzoru z zabezpieczeniem pojazdu podczas każdego postoju.

@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, mapy kompetencji, zadania instr
 
 **Obserwowalne kryterium:** Wskazuje potrzebę oceny wyłączeń i danych od nadawcy.
 
-**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
+**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Materiał pozostaje do niezależnej recenzji ADR.
 
 
 
@@ -122,3 +122,13 @@ W repozytorium nie ma statystyk błędów rzeczywistych kursantów, więc nie da
 - Podstawy zapisane w mapie kompetencji do sprawdzenia: 2.2.9.1.10, 5.2.1.8; 5.2.1.8, 5.3.6, 5.4.1.1.18; 5.4.1.1.3.1; 7.5.8.1; 5.4.3.4; 2.1, 3.3, 5.4.1.1.3.
 - Pytania wymienione w ćwiczeniach: 4; identyfikatory zweryfikowano względem aktualnego banku i przypisania do modułu.
 - Źródłem merytorycznym pozostaje lekcja `../lekcje/ADR-B-03.md`, a scenariusze znajdują się w [mapie scenariuszy](../praktyka/scenariusze-13-dzialow.json). Numery ADR należy porównywać z aktualnym polskim tekstem ADR 2025 (Dz.U. 2025 poz. 642 i sprostowanie poz. 1575); ten dodatek nie jest formalną recenzją prawną.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Poprowadź kursanta od ochrony ludzi i środowiska do dokumentacji odpadu. Nie zaczynaj od recytowania numerów punktów: pokaż fikcyjną kartę wycieku, zapytaj, co można bezpiecznie ustalić z dystansu, a następnie pokaż, jakie dane są potrzebne do klasyfikacji odpadu. Nie pozwalaj na „testowanie” nieznanej substancji.
+
+- `SC-ADR-B-03` — wyciek przy kratce kanalizacyjnej.
+- `SC-ADR-B-03-02` — nieznany wyciek podczas postoju.
+- `SC-ADR-B-03-03` — pozostałości po rozładunku przed kolejnym ładunkiem.
+
+Pytania kontrolne: `ADR-B-0007`, `ADR-B-0008`, `ADR-B-0009`, `ADR-B-0325`, `ADR-B-0332`, `ADR-B-0344`, `ADR-B-0461`, `ADR-B-0469`, `ADR-B-0514`. Częste pomyłki do omówienia: „ODPAD” nie zastępuje nazwy przewozowej ani numeru UN; mały wyciek nadal może wymagać reakcji; nieznanego składu nie wolno klasyfikować na chybił trafił.
