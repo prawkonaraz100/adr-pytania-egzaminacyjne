@@ -441,7 +441,7 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.1 i 8.1.2.3: instrukcje pisemne przewozi się w kabinie w miejscu łatwo dostępnym. Odpowiedź B nie oddaje wymaganego działania."
+          "rationale": "Ustne omówienie nie zastępuje instrukcji pisemnych dostępnych w kabinie w chwili zdarzenia."
         },
         "C": {
           "expected_correct": true,
@@ -449,7 +449,7 @@
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.1 i 8.1.2.3: instrukcje pisemne przewozi się w kabinie w miejscu łatwo dostępnym. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending.",
+      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.1 i 8.1.2.3: instrukcje pisemne przewozi się w kabinie w miejscu łatwo dostępnym. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
       "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -460,11 +460,11 @@
         "stem": "Instrukcje pisemne ADR znajdują się w wymaganym pojeździe, lecz są zamknięte w niedostępnej podczas jazdy skrzynce na zewnątrz kabiny. Co powinno się zmienić?",
         "options": {
           "A": "Przenieść instrukcje do biura spedytora, gdzie będą bezpiecznie przechowywane",
-          "B": "Zastąpić instrukcje pisemne numerem telefonu dyspozytora firmy",
+          "B": "Zostawić instrukcje poza kabiną, jeśli przed wyjazdem kierowca otrzymał ustne omówienie.",
           "C": "Umieścić instrukcje w kabinie załogi, w miejscu łatwo dostępnym"
         },
         "correct_option": "C",
-        "explanation": "Instrukcje pisemne mają pomóc załodze podczas awarii, więc muszą znajdować się w kabinie w miejscu łatwo dostępnym. Zamknięta skrzynka poza kabiną utrudnia szybkie skorzystanie z nich. Dokument pozostawiony u spedytora ani sam numer telefonu do firmy nie zastępują instrukcji. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
+        "explanation": "Instrukcje pisemne mają być dostępne w kabinie, aby załoga mogła szybko z nich skorzystać podczas awarii lub innego zdarzenia. Ustne omówienie może pomóc w nauce, ale nie zastępuje instrukcji dostępnych w pojeździe. Przeniesienie ich do biura lub pozostawienie poza kabiną opóźnia reakcję, gdy liczy się czas. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
