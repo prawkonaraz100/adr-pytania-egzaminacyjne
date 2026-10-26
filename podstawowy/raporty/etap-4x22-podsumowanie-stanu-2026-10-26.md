@@ -155,3 +155,11 @@ Nie należy deklarować sukcesu całego etapu ani zatwierdzać pytań, dopóki t
 - Wśród otwartych 4 mają cytaty pomocnicze MI, 9 nie ma cytatu. Dla wszystkich 13 zapisano przyczynę i następny krok.
 - Pełny zakres 0192–0609 przejrzano w 11 partiach. Ledger nadal zawiera 291 rekordów z `literal_comparison_result` i 318 bez tego pola; żaden nowy literalny cytat ze stroną Dz.U. 2025 nie został potwierdzony w tym przebiegu, bo właściwy PDF nie był odczytywalny.
 - Nie zmieniono pytań/kluczy; 0 `verified`. Raport końcowy: `podstawowy/raporty/etap-4x22-literalne-dowody-0592-0609-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0592-0609.json`.
+
+
+## Ponowna próba dla 0112–0151
+
+- Świeży `main`: `b095799701d34714dbaa4b192c4a2f04dbd6cdf2`.
+- Wszystkie 40 rekordów w zakresie mają teraz aktualny zapis próby bezpośredniego źródła. 26 ma wcześniejszy wynik tekstowy oparty na kopii MI, 14 nie ma `literal_comparison_result`, a 4 mają cytat MI.
+- Nie znaleziono stron PDF Dz.U. 2025; żaden wcześniejszy wynik MI nie został uznany za potwierdzenie urzędowe. Nowych porównań z Dz.U.: 0; poprawki pytań: 0.
+- Raport: `podstawowy/raporty/etap-4x22-retry-0112-0151-2026-10-26.md`; rejestr: `review/batches/stage4x22-retry-0112-0151.json`.
