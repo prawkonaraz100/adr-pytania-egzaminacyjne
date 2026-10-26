@@ -791,7 +791,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Telefon zawsze wystarczy”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.3; nie jest właściwy w tym scenariuszu."
+          "rationale": "Ustne potwierdzenie nie zastępuje automatycznie dokumentu przewozowego z wymaganymi danymi."
         },
         "B": {
           "expected_correct": true,
@@ -799,11 +799,11 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („O dokumentach decyduje kolor kontenera”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.3; nie jest właściwy w tym scenariuszu."
+          "rationale": "Lista terminala nie zastępuje automatycznie dokumentu przewozowego wymaganego na warunkach ADR."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -812,12 +812,12 @@
         "module_id": "ADR-B-10",
         "stem": "W transporcie drogowym z odcinkiem morskim przed przewozem ktoś proponuje zastąpić dokument transportowy IMDG ustnym telefonem. Co wynika z 1.1.4.2.3?",
         "options": {
-          "A": "Ustna rozmowa telefoniczna zawsze może zastąpić dokument przewozowy wymagany przy towarach niebezpiecznych",
+          "A": "Przyjąć ustne potwierdzenie nadawcy, jeśli dane są w zleceniu, bez dokumentu wymaganego ADR.",
           "B": "Zastąpienie dokumentu jest możliwe tylko w określonym zakresie dla IMDG/ICAO i po spełnieniu warunków ADR",
-          "C": "Kolor kontenera wystarczy do ustalenia dokumentacji, ponieważ określa rodzaj przewożonego towaru"
+          "C": "Wykorzystać listę ładunkową terminala zamiast dokumentu przewozowego, jeśli zawiera numer UN i nazwę towaru."
         },
         "correct_option": "B",
-        "explanation": "Przy przewozie kombinowanym dokument IMDG (dla morza) albo dokument ICAO (dla lotnictwa) może być wykorzystany tylko w zakresie i na warunkach określonych w ADR. Telefon nie zawiera wymaganych danych, a kolor kontenera nie zastępuje dokumentacji. Przed ruszeniem sprawdź, czy dokument ma wymagane informacje dla odcinka drogowego. Podstawa: ADR 1.1.4.2.3.",
+        "explanation": "W transporcie kombinowanym dokument morski IMDG lub lotniczy ICAO może być wykorzystany tylko w zakresie i na warunkach określonych w ADR. Ustne potwierdzenie ani sama lista terminala nie zastępują automatycznie dokumentu z wymaganymi danymi. Przed odcinkiem drogowym sprawdź, czy zastosowany dokument spełnia warunki wyjątku i zawiera potrzebne informacje. Podstawa: ADR 1.1.4.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
