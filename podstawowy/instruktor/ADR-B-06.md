@@ -2,6 +2,9 @@
 
 Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteria obserwacji i informacja zwrotna. Nie są dowodem przeprowadzenia zajęć ani zaliczenia kursanta. Nie wpisuj fikcyjnych dat, ocen ani podpisów.
 
+**Słowniczek pojęć dla kursanta:** [SLOWNICZEK.md](../SLOWNICZEK.md).
+
+
 ## Zadanie instruktorskie: Oznakowanie
 
 **Symulacja bez rzeczywistych towarów:** Na modelu sztuki przesyłki, kontenera i pojazdu kursant identyfikuje różne obowiązki umieszczania nalepek, dużych nalepek i tablic.
