@@ -64,6 +64,16 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 
 Ćwiczenia są symulacjami na fikcyjnych danych. Nie umieszczaj w nich prawdziwych informacji o trasie, zabezpieczeniach ani tożsamości osób.
 
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-12` — **Ochrona przewozu i weryfikacja uprawnienia do odbioru**
+- `SC-ADR-B-12-02` — **Zmiana planowanego postoju**
+- `SC-ADR-B-12-03` — **Niepewne uprawnienie odbiorcy**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
+
 ## Co musisz zapamiętać
 - Ochrona przewozu to nie to samo co mocowanie ładunku.
 - Sprawdź, czy przewóz wymaga planu ochrony.
@@ -88,6 +98,7 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0519`
 - `ADR-B-0582`
 
+Ćwiczenie po pytaniach: [SC-ADR-B-12](../praktyka/scenariusze-13-dzialow.json) — opowiedz bezpieczne czynności kierowcy, a potem sprawdź kroki w scenariuszu.
 
 ## Powiązane pytania w banku
 - ADR-B-0034
@@ -141,16 +152,3 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; wymagania planu ochrony należy potwierdzić dla konkretnego przewozu.
-
-
-## Trzy scenariusze praktyczne do przejścia po pytaniach
-
-Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
-
-- `SC-ADR-B-12` — **Ochrona przewozu i weryfikacja uprawnienia do odbioru**
-- `SC-ADR-B-12-02` — **Zmiana planowanego postoju**
-- `SC-ADR-B-12-03` — **Niepewne uprawnienie odbiorcy**
-
-Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
