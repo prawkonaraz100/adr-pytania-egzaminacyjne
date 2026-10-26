@@ -14,6 +14,7 @@ class MockExamVariantBalanceTests(unittest.TestCase):
         for item in stats:
             self.assertEqual(item["letters"], {"A": 10, "B": 10, "C": 10})
             self.assertLessEqual(item["longest_run"], 3)
+            self.assertLessEqual(item["strictly_longest_rate"], 0.18)
             self.assertEqual(len(item["modules"]), 13)
             self.assertEqual(sum(item["modules"].values()), 30)
             self.assertTrue(all(count in (2, 3) for count in item["modules"].values()))
