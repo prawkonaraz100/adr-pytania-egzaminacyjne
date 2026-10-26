@@ -101,7 +101,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Tak, zawsze według uznania”) nie spełnia obowiązku opisanego w ADR 2025, 8.4.1(a)–(b); wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Wygoda nie pozwala pominąć wcześniejszej opcji postoju wskazanej w ADR 8.4.1(a), gdy jest dostępna."
         },
         "B": {
           "expected_correct": true,
@@ -109,11 +109,11 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Tak, gdy kierowca ma telefon”) nie spełnia obowiązku opisanego w ADR 2025, 8.4.1(a)–(b); wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Zgoda dyspozytora nie znosi kolejności dopuszczalnych miejsc postoju określonej w ADR."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana.",
+      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -122,12 +122,12 @@
         "module_id": "ADR-B-04",
         "stem": "Przy przewozie wymagającym nadzoru 8.4.1 dostępny jest parking z dozorcą spełniający wymogi lit. (a). Czy można zamiast niego wybrać zwykły parking z lit. (b)?",
         "options": {
-          "A": "Tak, można wybrać dowolny parking według własnego uznania",
+          "A": "Wybrać parking (b), choć dostępny jest (a).",
           "B": "Opcję (b) stosuje się dopiero, gdy brak parkingu z (a)",
-          "C": "Tak, jeśli kierowca ma telefon i może skontaktować się z firmą"
+          "C": "Zgoda dyspozytora wystarczy, by wybrać parking (b), mimo dostępności opcji (a)."
         },
         "correct_option": "B",
-        "explanation": "ADR określa kolejność rozwiązań dla postoju pojazdu wymagającego nadzoru. Parking z litery (b) można wybrać dopiero wtedy, gdy nie jest dostępna wcześniejsza opcja z litery (a). Telefon kierowcy ani jego preferencje nie pozwalają pominąć tej kolejności i wybrać dowolnego parkingu. Podstawa: ADR 8.4.1(a)–(b).",
+        "explanation": "ADR ustala kolejność rozwiązań dla pojazdu wymagającego nadzoru, ponieważ celem jest ograniczenie dostępu osób nieuprawnionych i zapewnienie możliwości szybkiej reakcji. Parking z litery (b) można wybrać dopiero wtedy, gdy wcześniejsza opcja z litery (a) nie jest dostępna. Wygoda kierowcy ani zgoda dyspozytora nie pozwalają pominąć tej kolejności, nawet jeśli oba miejsca wydają się bezpieczne. Podstawa: ADR 8.4.1(a)–(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -151,15 +151,15 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Na dowolnym chodniku”) nie spełnia obowiązku opisanego w ADR 2025, 8.4.1(c); wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Oświetlenie parkingu samo nie spełnia warunków odosobnionego terenu z ADR 8.4.1(c)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Na pasie awaryjnym autostrady jako rutynowe rozwiązanie”) nie spełnia obowiązku opisanego w ADR 2025, 8.4.1(c); wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Włączenie świateł awaryjnych nie czyni pasa awaryjnego dopuszczalnym miejscem rutynowego postoju."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana.",
+      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -169,11 +169,11 @@
         "stem": "W przewozie objętym 8.4.1 nie ma zabezpieczonej bazy, parkingu dozorowanego ani odpowiedniego parkingu publicznego. Gdzie można rozważyć postój?",
         "options": {
           "A": "Na odosobnionym terenie spełniającym warunki lit. (c)",
-          "B": "Na dowolnym chodniku",
-          "C": "Na pasie awaryjnym autostrady jako rutynowe rozwiązanie"
+          "B": "Na oświetlonym parkingu przy sklepie.",
+          "C": "Na pasie awaryjnym z włączonymi światłami, jeśli nie ma innego miejsca."
         },
         "correct_option": "A",
-        "explanation": "Jeżeli wcześniejsze bezpieczne miejsca postoju nie są dostępne, można rozważyć odpowiednio odosobniony teren spełniający warunki ADR. Dowolny chodnik lub pas awaryjny nie stają się prawidłowym miejscem postoju tylko dlatego, że są wolne. Trzeba sprawdzić wszystkie warunki wskazane dla tej ostatniej alternatywy. Podstawa: ADR 8.4.1(c).",
+        "explanation": "Jeśli wcześniejsze dopuszczalne miejsca postoju nie są dostępne, można rozważyć odosobniony teren spełniający warunki ADR. Samo oświetlenie parkingu nie czyni go odosobnionym, a światła awaryjne nie zamieniają pasa awaryjnego w wymagane miejsce postoju. Trzeba sprawdzić położenie terenu i odległość od drogi, zabudowań oraz ludzi. Podstawa: ADR 8.4.1(c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -193,7 +193,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Plac, na którym codziennie gromadzą się mieszkańcy”) nie spełnia obowiązku opisanego w ADR 2025, 8.4.1(c); wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Pozostanie w kabinie nie sprawia, że plac przy drodze jest odosobnionym terenem z dala od ruchu."
         },
         "B": {
           "expected_correct": true,
@@ -201,11 +201,11 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Dowolny przystanek autobusowy”) nie spełnia obowiązku opisanego w ADR 2025, 8.4.1(c); wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Pusty w danej chwili przystanek nadal jest miejscem przeznaczonym dla ludzi, a nie odosobnionym terenem."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana.",
+      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -214,12 +214,12 @@
         "module_id": "ADR-B-04",
         "stem": "Który teren odpowiada warunkowi lit. (c) w 8.4.1, gdy wcześniejsze rodzaje parkingów nie są dostępne?",
         "options": {
-          "A": "Plac, na którym regularnie gromadzą się mieszkańcy i odbywa się ruch pieszy",
+          "A": "Na placu przy drodze, jeśli kierowca zostaje w kabinie i może stale obserwować otoczenie.",
           "B": "Na odosobnionym terenie z dala od drogi, zabudowań i zgromadzeń ludzi",
-          "C": "Dowolny przystanek autobusowy"
+          "C": "Na pustym przystanku autobusowym."
         },
         "correct_option": "B",
-        "explanation": "Odosobnione miejsce postoju powinno znajdować się z dala od drogi publicznej i zabudowań mieszkalnych, a także od miejsc zwykłego ruchu lub gromadzenia się ludzi. Przystanek autobusowy czy zatłoczony plac nie spełniają celu tej zasady. To rozwiązanie stosuje się dopiero przy braku wcześniejszych opcji. Podstawa: ADR 8.4.1(c).",
+        "explanation": "Odosobnione miejsce z ADR 8.4.1(c) ma być oddalone od drogi publicznej, zabudowań mieszkalnych i miejsc, w których zwykle gromadzą się ludzie. Pozostanie w kabinie nie usuwa ryzyka związanego z ruchem na placu przy drodze, a przystanek autobusowy nadal jest miejscem przeznaczonym dla ludzi. To rozwiązanie rozważa się dopiero po braku wcześniejszych opcji. Podstawa: ADR 8.4.1(c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -473,15 +473,15 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Zawsze pod pojazdem”) nie spełnia obowiązku opisanego w ADR 2025, 5.4.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Lepszy widok nie usuwa ryzyka, że wiatr przeniesie opary w kierunku załogi stojącej po stronie zawietrznej."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Przy wylocie par bez zabezpieczenia”) nie spełnia obowiązku opisanego w ADR 2025, 5.4.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Rozpoznawanie substancji po zapachu może doprowadzić do wdychania niebezpiecznych oparów."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana.",
+      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -491,11 +491,11 @@
         "stem": "W czasie wypadku przy ładunku ADR gromadzą się opary. Gdzie w miarę możliwości powinna przebywać załoga?",
         "options": {
           "A": "Pozostać po stronie nawietrznej i unikać oparów",
-          "B": "Zawsze stać pod pojazdem, niezależnie od kierunku wiatru",
-          "C": "Stać przy wylocie par bez ochrony, aby obserwować wyciek"
+          "B": "Po stronie zawietrznej, dla lepszego widoku, jeśli kierowca stoi z dala od pojazdu.",
+          "C": "Rozpoznać substancję po zapachu."
         },
         "correct_option": "A",
-        "explanation": "Jeśli w miejscu zdarzenia unoszą się opary, załoga powinna w miarę możliwości stanąć po stronie nawietrznej, tak by wiatr nie niósł chmury w jej kierunku. Przebywanie przy wylocie par lub pod pojazdem nie chroni przed wdychaniem. Najpierw trzeba ograniczyć narażenie i stosować się do instrukcji ratowniczych. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Gdy unoszą się opary, załoga powinna w miarę możliwości stanąć po stronie nawietrznej, tak aby wiatr nie niósł chmury w jej kierunku. Lepszy widok na wyciek nie uzasadnia stania po stronie, w którą przemieszczają się opary. Nie wolno też rozpoznawać substancji po zapachu, bo wdychanie jej może być niebezpieczne. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -607,7 +607,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Zawsze, gdy kierowcy jest zimno”) nie spełnia obowiązku opisanego w ADR 2025, 8.3.6; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Zasilanie kabiny samo nie spełnia wyjątku dotyczącego napędzania urządzeń przeładunkowych."
         },
         "B": {
           "expected_correct": true,
@@ -615,11 +615,11 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Zawsze podczas ADR bez wyjątku”) nie spełnia obowiązku opisanego w ADR 2025, 8.3.6; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Sama praca pompy nie wystarcza, jeśli nie wymaga ona napędu silnika pojazdu."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana.",
+      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -628,12 +628,12 @@
         "module_id": "ADR-B-04",
         "stem": "W czasie rozładunku pompa musi pracować z napędu silnika pojazdu. Kiedy może on pozostać włączony?",
         "options": {
-          "A": "Zawsze, gdy kierowcy jest zimno, nawet gdy silnik nie napędza urządzeń",
+          "A": "Włączyć silnik dla zasilania kabiny.",
           "B": "Gdy napędza konieczne urządzenie i prawo krajowe to dopuszcza",
-          "C": "Zawsze podczas przewozu ADR, niezależnie od urządzeń i przepisów krajowych"
+          "C": "Zostawić silnik włączony, gdy pompa pracuje, nawet jeśli nie wymaga napędu silnika pojazdu."
         },
         "correct_option": "B",
-        "explanation": "Silnik pojazdu może pozostać włączony w tym wyjątku tylko wtedy, gdy jest potrzebny do napędzania urządzeń załadunkowych lub rozładunkowych i dopuszczają to przepisy krajowe. Sam chłód kierowcy ani ogólna zasada „zawsze włączony” nie spełniają tych warunków. W pozostałych sytuacjach stosuje się zasadę wyłączenia silnika. Podstawa: ADR 8.3.6.",
+        "explanation": "Zasadą jest wyłączenie silnika podczas czynności przeładunkowych, a wyjątek dotyczy sytuacji, gdy silnik jest potrzebny do napędzania urządzenia i pozwalają na to przepisy krajowe. Zasilanie kabiny samo w sobie nie uzasadnia pozostawienia silnika włączonego. Sama praca pompy również nie wystarcza, jeśli nie wymaga ona napędu z silnika pojazdu. Podstawa: ADR 8.3.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
