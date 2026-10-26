@@ -35,3 +35,13 @@ Bank zawiera 609 pytań `needs_review` i 0 `verified`. Arkusze mają `publicatio
 - Raport: [Etap 4x20 — regeneracja egzaminów 001–005](../raporty/etap-4x20-egzaminy-001-005-2026-10-26.md).
 
 **Status prawny:** 609 pytań `needs_review`, 0 `verified`; arkusze są wyłącznie materiałem treningowym, `publication_authorized: false`.
+
+
+## Etap 4x25 — końcowa kontrola synchronizacji (2026-10-26)
+
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`.
+- Warianty 001–005: każdy ma 30 pytań i 30 odpowiedzi w kluczu; brak duplikatów w arkuszach i między wariantami.
+- Każdy arkusz i klucz wskazuje aktualny blob `questions.jsonl`; treść, moduł, zestaw odpowiedzi, poprawna litera i explanation zostały porównane z bankiem z uwzględnieniem przestawiania liter A/B/C.
+- Rozkład poprawnych odpowiedzi dla każdego wariantu: A/B/C = 10/10/10; najdłuższa seria tej samej litery = 3; 13 działów reprezentowanych w każdym arkuszu.
+- Korekta explanation ADR-B-0197 nie wymagała zmiany pytań w arkuszach, ponieważ ten ID nie występuje w wariantach 001–005. Zaktualizowano wyłącznie metadane źródła w arkuszach i kluczach.
+- Raport pełny: [Etap 4x25 — raport końcowy](../raporty/etap-4x25-raport-koncowy-2026-10-26.md).

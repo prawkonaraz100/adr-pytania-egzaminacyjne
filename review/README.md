@@ -1,5 +1,11 @@
 # Niezależny przegląd ADR — zatwierdzanie pojedynczych rekordów
 
+## Etap 4x25 — czytelność explanation i zgodność egzaminów
+
+- [Raport końcowy 4x25](../podstawowy/raporty/etap-4x25-raport-koncowy-2026-10-26.md): 609 pytań sprawdzonych w partiach; jedna korekta końcowa ADR-B-0197; 0 potwierdzonych duplikatów.
+- [Rejestr zbiorczy 4x24 bez cytatu MI](specialist/ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md): 121 ID według świeżego indeksu; bez dalszego wydobywania cytatów.
+
+
 ## Etap 4x25 — audyt czytelności explanation
 
 - [Raport partii ADR-B-0001–0050](../podstawowy/raporty/etap-4x25-explanation-0001-0050-2026-10-26.md): przeczytano 50 pytań, 0 zmian, 0 potwierdzonych duplikatów, 4 przeczenia sprawdzone.
