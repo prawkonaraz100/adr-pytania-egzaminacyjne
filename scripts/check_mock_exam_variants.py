@@ -101,6 +101,11 @@ def audit(root=ROOT):
                 continue
             if answer.get("id") != qid or answer.get("number") != q.get("number"):
                 errors.append(f"{prefix}: klucz nie zachowuje kolejności/ID przy {qid}")
+            expected_lesson_path = f"../lekcje/{source.get('module_id')}.md"
+            if answer.get("lesson_path") != expected_lesson_path:
+                errors.append(f"{prefix}: brak odnośnika do właściwej lekcji dla {qid}; oczekiwano {expected_lesson_path}")
+            if not (root / "podstawowy" / "lekcje" / f"{source.get('module_id')}.md").is_file():
+                errors.append(f"{prefix}: plik lekcji nie istnieje dla {qid}: {source.get('module_id')}")
             if q.get("number") != index + 1:
                 errors.append(f"{prefix}: numeracja arkusza nie jest ciągła przy {qid}")
             if q.get("module_id") != source.get("module_id") or q.get("stem") != source.get("stem"):
