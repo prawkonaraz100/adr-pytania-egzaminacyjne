@@ -81,3 +81,10 @@ Bank zawiera 609 pytań `needs_review` i 0 `verified`. Arkusze mają `publicatio
 - Zmieniono pytania ADR-B-0048, ADR-B-0078, ADR-B-0127 i ADR-B-0238; warianty i klucze 001–005 wskazują aktualny blob banku.
 - Wariant 002 i jego klucz zaktualizowano dla ADR-B-0078; pozostałe warianty zachowały zestaw pytań.
 - Status prawny pozostaje bez zmian: 609 pytań `needs_review`, 0 `verified`, brak formalnej zgody na publikację.
+
+## Kontrola po etapie 4x46 (26.10.2026)
+
+- Pięć wariantów 001–005 oraz pięć kluczy zsynchronizowano z bankiem o blob SHA `7d69e28fb83341ff225d402da30ef38bac7dd047`.
+- Zgodność zestawów pytań, poprawnych liter i wyjaśnień z bankiem: 5/5, brak rozbieżności; wszystkie arkusze nadal są treningowe i niezatwierdzone.
+- Zmodyfikowano wyłącznie osiem wyjaśnień w banku (bez zmiany poprawnych liter, opcji A/B/C lub przypisań działów).
+- Szczegóły: [raport 4x46](../raporty/etap-4x46-proba60-i-synchronizacja-2026-10-26.md).

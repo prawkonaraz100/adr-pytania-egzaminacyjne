@@ -230,3 +230,7 @@ Raporty ETAPU 4x7
 ## Etap 4x45 — próbka explanation i przegląd kolejek prawnych
 
 - [Raport 4x45](raporty/etap-4x45-proba40-kolejki-recenzji-2026-10-26.md): próbka 40 explanation (ziarno `4292026`), cztery korekty wyjaśnień, sześć doprecyzowań sformułowań w kolejkach 4x40/4x44. Wszystkie 40 pozycji nadal wymaga recenzji prawnej; bank pozostaje `needs_review`.
+
+## Etap 4x46 — próbka 60 i synchronizacja egzaminów
+
+- [Raport 4x46](raporty/etap-4x46-proba60-i-synchronizacja-2026-10-26.md): deterministyczna próbka 60 innych ID niż w 4x45; osiem ludzkich wyjaśnień poprawiono, 52 pozostawiono po sprawdzeniu. Skontrolowano 13 lekcji, 39 scenariuszy, pięć arkuszy egzaminu i pięć kluczy oraz pakiet recenzenta. Wszystkie pytania nadal `needs_review`.
