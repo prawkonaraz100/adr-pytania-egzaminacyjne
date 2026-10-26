@@ -1,19 +1,19 @@
 # Przekazanie specjaliście ADR — aktualny stan pakietu i historia wcześniejszych etapów
 
-## Aktualny snapshot pakietu — etap 4x14
+## Aktualny snapshot pakietu — etap 4x20
 
-Stan sprawdzony na `main` przed etapem 4x14: commit `385e4386bb91f026dd795acc3c1e1f04df54f1e1`.
+Stan sprawdzony na `main`: commit `433138970888c47251a7c7a0228f0e2351b372b6`; bank blob SHA `46e7d1a0c28d21dce01b054be8513ef7db1f6210`.
 
-- **Bank:** 609 pytań, ID ADR-B-0001–ADR-B-0609; 609 `needs_review`, 0 `verified`; 0 formalnych zatwierdzeń.
-- **Indeks specjalisty:** [REJESTR-AKTUALNY-0001-0609.md](REJESTR-AKTUALNY-0001-0609.md) zawiera wszystkie 609 ID.
-- **Manifest:** [PAKIET-0609-MANIFEST.json](PAKIET-0609-MANIFEST.json); rozkład modułów został porównany z bankiem i zgadza się dla wszystkich 13 działów. Manifest wykazuje 599 nierozstrzygniętych porównań literalnych; odczytaj rejestr źródłowy przed recenzją i nie traktuj braku wpisu jako potwierdzenia.
-- **Lekcje:** 13 plików `podstawowy/lekcje/ADR-B-01.md`–`ADR-B-13.md`; materiały instruktora: 13 plików w `podstawowy/instruktor/`.
-- **Praktyka:** 39 scenariuszy, dokładnie 3 na każdy z 13 działów; symulacje nie poświadczają, że praktyka została przeprowadzona.
-- **Egzaminy próbne:** warianty i klucze 001–005, po 30 pytań na wariant; materiały treningowe, nieoficjalne i niezatwierdzone.
-- **Słowniczek:** `podstawowy/SLOWNICZEK.md`; raport czytelności i objaśnień inline: [raport końcowy 4x13](../../podstawowy/raporty/etap-4x13-raport-koncowy-2026-10-25.md).
-- **Kontrole automatyczne:** Quality Gate obejmuje testy jednostkowe, strukturę banku, odwołania lekcji, słowniczek, scenariusze, warianty egzaminu i wskaźniki jakości. PASS CI nie jest opinią prawną.
+- **Bank:** 609 pytań ADR-B-0001–ADR-B-0609; 609 `needs_review`, 0 `verified`; 0 formalnych zatwierdzeń.
+- **Indeks i manifest:** [REJESTR-AKTUALNY-0001-0609.md](REJESTR-AKTUALNY-0001-0609.md) i [PAKIET-0609-MANIFEST.json](PAKIET-0609-MANIFEST.json). 376 literalnych porównań pełnego polskiego tekstu pozostaje nierozstrzygniętych; 10 wymaga dokończenia porównania, a 223 zapisane porównania nadal wymagają potwierdzenia specjalisty i tekstu Dz.U.
+- **Lekcje i instruktor:** 13 lekcji i 13 plików instruktorskich.
+- **Praktyka:** 39 scenariuszy, dokładnie 3 na każdy dział; scenariusze symulacyjne nie poświadczają wykonania zajęć.
+- **Egzaminy:** warianty i klucze 001–005, 30 pytań na wariant. Każdy ma wszystkie 13 działów, brak powtórzeń w zestawie 150 ID, A/B/C = 10/10/10, maksymalną serię 3 i 0% pytań z poprawną odpowiedzią jako jedyną najdłuższą. Materiały pozostają nieoficjalne.
+- **Słowniczek:** 90 haseł w `podstawowy/SLOWNICZEK.md`.
+- **Redakcja:** 609 explanation przejrzano; 68 przepisano/doprecyzowano w etapie 4x20. Nie zmieniono statusów na `verified`.
+- **Raport końcowy:** [Etap 4x20](../../podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md).
 
-**Ważne:** dalsze sekcje poniżej zachowują historyczne raporty i decyzje z wcześniejszych etapów. Gdy zawierają starsze liczby (np. 542 pytania), nie opisują bieżącego snapshotu; aktualny stan określa powyższa sekcja i manifest 0609.
+**Ważne:** raporty historyczne poniżej zachowują dawne migawki i decyzje. Gdy podają starsze liczby, nie opisują bieżącego stanu. PASS CI, redakcja językowa i automatyczne porównania nie stanowią opinii prawnej.
 
 ## Co obejmuje pakiet
 
