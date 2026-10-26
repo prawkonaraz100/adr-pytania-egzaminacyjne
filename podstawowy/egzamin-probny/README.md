@@ -24,20 +24,14 @@ Warianty są przeznaczone wyłącznie do nauki. Każdy arkusz ma 30 pytań, 60 m
 
 Bank zawiera 609 pytań `needs_review` i 0 `verified`. Arkusze mają `publication_authorized: false` i nie są oficjalnymi arkuszami ani materiałem do formalnej oceny. Klucze i explanation są synchronizowane z bankiem przez Quality Gate.
 
-## Wynik kontroli etapu 4x18
+## Etap 4x20 — regeneracja wariantów 001–005 (2026-10-26)
 
-- Warianty 001–005 mają po 30 unikalnych pytań; żadne ID nie powtarza się między wariantami.
-- Każdy wariant obejmuje wszystkie 13 działów; każdy dział ma 2 lub 3 pytania, zgodnie z proporcjonalnym rozkładem w arkuszu 30-pytaniowym.
-- Arkusze i klucze mają wspólny `source_bank_head`, odpowiadający aktualnemu blobowi `questions.jsonl`; Quality Gate liczy SHA Git blob i porównuje go z każdym arkuszem oraz kluczem.
-- Rozkład poprawnych liter po zmianie kolejności opcji: każdy wariant A/B/C = 10/10/10.
-- Najdłuższa seria tej samej poprawnej litery: 001=3, 002=3, 003=3, 004=3, 005=2.
-- Walidator: `scripts/check_mock_exam_variants.py`; testy: `tests/test_mock_exam_variants.py`.
-- Raport audytu języka: [Etap 4x10](../raporty/etap-4x10-egzaminy-jezyk-kursanta-2026-10-25.md).
+- Migawka banku: `46e7d1a0c28d21dce01b054be8513ef7db1f6210` (609 pytań; ADR-B-0001–ADR-B-0609).
+- Warianty 001–005 i odpowiadające im klucze zostały wygenerowane ponownie z aktualnego banku. Każdy wariant ma 30 pytań, obejmuje wszystkie 13 działów (po 2–3 pytania na dział), a ID nie powtarzają się ani w wariancie, ani między wariantami.
+- Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 001=0/30 (0%), 002=0/30 (0%), 003=0/30 (0%), 004=0/30 (0%), 005=0/30 (0%); próg kontrolny wynosi 18%.
+- Rozkład poprawnych liter A/B/C: każdy wariant 10/10/10. Najdłuższa seria tej samej litery: każdy wariant ≤3.
+- Warianty i klucze wskazują ten sam blob banku. Wyjaśnienia w kluczach są mapowane do kolejności odpowiedzi na arkuszu.
+- Quality Gate: `scripts/check_mock_exam_variants.py` blokuje również przekroczenie 18% w dowolnym wariancie; test regresyjny w `tests/test_mock_exam_variants.py`.
+- Raport: [Etap 4x20 — regeneracja egzaminów 001–005](../raporty/etap-4x20-egzaminy-001-005-2026-10-26.md).
 
-
-## Kontrola etapu 4x18
-
-- Migawka banku: `ec1bb5391aa9875e2a1aa7bdb138fb79b3bf72dd` (609 rekordów; 0 duplikatów ID).
-- Wszystkie 5 arkuszy i 5 kluczy wskazują tę samą migawkę; test sprawdza zgodność ID, treści, działu, opcji, poprawnej odpowiedzi i explanation z bankiem.
-- Każdy wariant ma 30 pytań bez powtórzeń, wszystkie 13 działów (po 2–3 pytania), A/B/C = 10/10/10 i serię tej samej litery nie dłuższą niż 3.
-- Walidator oblicza Git blob SHA-1 z aktualnego pliku banku i blokuje rozjazd metadanych źródła. Testy: `tests/test_mock_exam_variants.py`.
+**Status prawny:** 609 pytań `needs_review`, 0 `verified`; arkusze są wyłącznie materiałem treningowym, `publication_authorized: false`.

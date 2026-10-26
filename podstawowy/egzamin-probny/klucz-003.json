@@ -2,22 +2,248 @@
   "schema_version": "1.0",
   "exam_type": "ADR_BASIC_PRACTICE_DRAFT",
   "publication_authorized": false,
-  "seed": 2026102505,
+  "seed": 2026102703,
   "question_count": 30,
   "pass_mark_correct": 20,
   "pass_mark_fraction": "2/3",
   "answers": [
     {
       "number": 1,
-      "id": "ADR-B-0407",
+      "id": "ADR-B-0189",
+      "correct_option": "C",
+      "explanation": "Niektóre towary stwarzają więcej niż jedno zagrożenie, dlatego opakowanie może wymagać nalepki głównej i dodatkowej. Sprawdź numer UN — czterocyfrowy identyfikator towaru — i wymagania właściwej pozycji tabeli A, a następnie umieść wszystkie wymagane nalepki. Sam numer w dokumencie ani opis na kartonie nie zastępują nalepki dodatkowej. Podstawa: ADR 3.2 tabela A, kolumna 5, oraz 5.2.2.1.",
+      "legal_basis": [
+        "ADR 2025, 3.2 tabela A kol. (5); 5.2.2.1"
+      ]
+    },
+    {
+      "number": 2,
+      "id": "ADR-B-0425",
       "correct_option": "A",
-      "explanation": "Wymagane zabezpieczenia antykradzieżowe mają działać przez cały czas przewozu, zgodnie z warunkami ADR. Uruchomienie ich tylko przed odjazdem lub dopiero podczas kontroli nie zapewnia ciągłej ochrony ładunku. Środki ochronne powinny być stosowane tak długo, jak wymaga tego dany przewóz. Podstawa: ADR 1.10.3.3.",
+      "explanation": "Kod zgodności 1.4S wiąże się ze szczególną możliwością wspólnego załadunku określoną w uwadze do tabeli ADR. Nie oznacza to prawa do usunięcia nalepek ani ogólnego zakazu przewozu drogowego. Trzeba zastosować dokładnie warunki wskazane w tabeli i pozostałe wymagania ADR. Podstawa: ADR 7.5.2.1, uwaga (a).",
+      "legal_basis": [
+        "ADR 2025, 7.5.2.1, uwaga (a)"
+      ]
+    },
+    {
+      "number": 3,
+      "id": "ADR-B-0367",
+      "correct_option": "A",
+      "explanation": "Pakujący odpowiada za przygotowanie sztuk przesyłek zgodnie z wymaganiami, w tym za wymagane oznakowanie i nalepki. Numer UN to czterocyfrowy identyfikator towaru niebezpiecznego; wpisanie go w dokumencie nie naprawia braku oznaczeń na samym opakowaniu. Opis wysłany kierowcy także nie zastępuje nalepek. W praktyce kierowca powinien zgłosić niezgodność przed dalszym przewozem. Podstawa: ADR 1.4.3.2(b).",
+      "legal_basis": [
+        "ADR 2025, 1.4.3.2(b)"
+      ]
+    },
+    {
+      "number": 4,
+      "id": "ADR-B-0603",
+      "correct_option": "A",
+      "explanation": "Znak „(-)” w kolumnie 15 tabeli A oznacza, że dla tego towaru sam ADR nie przypisuje ograniczenia tunelowego. Nie jest to zakaz wjazdu, ale też nie daje prawa do pominięcia innych znaków drogowych lub lokalnych ograniczeń. Kierowca nadal musi stosować się do oznakowania trasy. Podstawa: ADR 3.2, tabela A, kolumna 15; 8.6.3.1.",
+      "legal_basis": [
+        "ADR 2025, 3.2.1, kolumna 15; 8.6.3.1"
+      ]
+    },
+    {
+      "number": 5,
+      "id": "ADR-B-0065",
+      "correct_option": "B",
+      "explanation": "Zapis „(-)” oznacza brak przypisanego ograniczenia tunelowego ADR z tego tytułu. Nie oznacza zakazu korzystania ze wszystkich dróg ani nakazu jazdy tylko nocą. Nadal trzeba stosować znaki drogowe i pozostałe przepisy. Znak opisuje kod ograniczeń tunelowych dla danej pozycji, a nie ogólną dopuszczalność przejazdu po całej trasie. Podstawa: ADR 8.6.3.1.",
+      "legal_basis": [
+        "ADR 2025, 8.6.3.1"
+      ]
+    },
+    {
+      "number": 6,
+      "id": "ADR-B-0289",
+      "correct_option": "A",
+      "explanation": "Nalepka 6.1 z czaszką i skrzyżowanymi piszczelami ostrzega przed materiałem trującym. Materiały zakaźne klasy 6.2 mają inny symbol, a materiały żrące należą do klasy 8. Numer klasy i symbol należy odczytywać razem, aby nie pomylić zagrożenia toksycznego z zakaźnym lub żrącym. Podstawa: ADR 5.2.2.2.2.",
+      "legal_basis": [
+        "ADR 2025, 5.2.2.2.2"
+      ]
+    },
+    {
+      "number": 7,
+      "id": "ADR-B-0086",
+      "correct_option": "C",
+      "explanation": "Gdy w pojeździe znajdują się różne towary objęte ograniczeniami tunelowymi, wybiera się kod powodujący najsurowsze ograniczenia spośród kodów mających zastosowanie. Nie decyduje kolejność w dokumencie ani masa najcięższego towaru. Przy wyborze uwzględnia się także wyłączenia i sposób przewozu. Podstawa: ADR 8.6.3.2–8.6.3.3.",
+      "legal_basis": [
+        "ADR 2025, 8.6.3.2–8.6.3.3"
+      ]
+    },
+    {
+      "number": 8,
+      "id": "ADR-B-0398",
+      "correct_option": "C",
+      "explanation": "Przy przewozie kombinowanym dokument IMDG (dla morza) albo dokument ICAO (dla lotnictwa) może być wykorzystany tylko w zakresie i na warunkach określonych w ADR. Telefon nie zawiera wymaganych danych, a kolor kontenera nie zastępuje dokumentacji. Przed ruszeniem sprawdź, czy dokument ma wymagane informacje dla odcinka drogowego. Podstawa: ADR 1.1.4.2.3.",
+      "legal_basis": [
+        "ADR 2025, 1.1.4.2.3"
+      ]
+    },
+    {
+      "number": 9,
+      "id": "ADR-B-0554",
+      "correct_option": "A",
+      "explanation": "Przed załadunkiem trzeba sprawdzić, czy pojazd i jego przestrzeń ładunkowa nadają się do bezpiecznego przewozu. Pozostałości mogą wejść w reakcję z nowym towarem lub uszkodzić opakowania, więc należy je usunąć przed załadunkiem. Zamknięte opakowania ani przykrycie zabrudzeń nie usuwają zagrożenia. Podstawa: ADR 7.5.1.2.",
+      "legal_basis": [
+        "ADR 2025, 7.5.1.2"
+      ]
+    },
+    {
+      "number": 10,
+      "id": "ADR-B-0077",
+      "correct_option": "B",
+      "explanation": "Materiały oznaczone nalepką 2.3 lub 6.1 mogą działać trująco, dlatego ADR przewiduje dla załogi maskę ucieczkową. Służy ona do bezpiecznego oddalenia się z niebezpiecznej strefy, a nie do dowolnego prowadzenia działań ratowniczych. Same nalepki 3 i 8 albo 9 i 9A nie są podstawą tego szczególnego wymogu. Podstawa: ADR 8.1.5.3.",
+      "legal_basis": [
+        "ADR 2025, 8.1.5.3"
+      ]
+    },
+    {
+      "number": 11,
+      "id": "ADR-B-0120",
+      "correct_option": "A",
+      "explanation": "Uczestnicy przewozu powinni upewnić się, że przekazują towary niebezpieczne właściwemu, zidentyfikowanemu odbiorcy lub przewoźnikowi. Weryfikacja tożsamości ogranicza ryzyko kradzieży i nieuprawnionego przejęcia ładunku. Sam numer telefonu i adres e-mail nie dowodzą, że firma jest tym, za kogo się podaje, a zasady nie dotyczą wyłącznie pustych opakowań. Podstawa: ADR 1.10.1.2.",
+      "legal_basis": [
+        "ADR 2025, 1.10.1.2"
+      ]
+    },
+    {
+      "number": 12,
+      "id": "ADR-B-0355",
+      "correct_option": "C",
+      "explanation": "Jeśli w miejscu zdarzenia unoszą się opary, załoga powinna w miarę możliwości stanąć po stronie nawietrznej, tak by wiatr nie niósł chmury w jej kierunku. Przebywanie przy wylocie par lub pod pojazdem nie chroni przed wdychaniem. Najpierw trzeba ograniczyć narażenie i stosować się do instrukcji ratowniczych. Podstawa: ADR 5.4.3.4.",
+      "legal_basis": [
+        "ADR 2025, 5.4.3.4"
+      ]
+    },
+    {
+      "number": 13,
+      "id": "ADR-B-0408",
+      "correct_option": "C",
+      "explanation": "Zabezpieczenie przed kradzieżą ma chronić ładunek, ale nie może uniemożliwiać ratownikom działania podczas wypadku. Blokada, która odcina dostęp do pojazdu w sytuacji awaryjnej, może stworzyć dodatkowe niebezpieczeństwo. Dlatego środki ochrony należy dobrać tak, by nie utrudniały reagowania ratowniczego. Podstawa: ADR 1.10.3.3.",
       "legal_basis": [
         "ADR 2025, 1.10.3.3"
       ]
     },
     {
-      "number": 2,
+      "number": 14,
+      "id": "ADR-B-0038",
+      "correct_option": "A",
+      "explanation": "Prawidłowa nazwa przewozowa pomaga kierowcy, przewoźnikowi i służbom ustalić, jaki towar jest transportowany. Sam numer UN (identyfikator towaru niebezpiecznego) ani nazwa handlowa na opakowaniu nie zastępują wymaganej nazwy w dokumencie. Dlatego należy podać nazwę zgodną z ADR wraz z pozostałymi wymaganymi informacjami. Podstawa: ADR 5.4.1.1.1(b).",
+      "legal_basis": [
+        "ADR 2025, 5.4.1.1.1 (b)"
+      ]
+    },
+    {
+      "number": 15,
+      "id": "ADR-B-0371",
+      "correct_option": "B",
+      "explanation": "Rozładowca powinien dopilnować oczyszczenia i, jeśli to konieczne, odkażenia pojazdu lub kontenera po rozładunku, gdy wymagają tego przepisy. Nie jest to zadanie przypadkowego kierowcy ani osoby wystawiającej fakturę. Kolejny kierowca ani księgowość nie zastępują obowiązków rozładowcy. Podstawa: ADR 1.4.3.7.1(d).",
+      "legal_basis": [
+        "ADR 2025, 1.4.3.7.1(d)"
+      ]
+    },
+    {
+      "number": 16,
+      "id": "ADR-B-0008",
+      "correct_option": "B",
+      "explanation": "Słowo „ODPAD” mówi osobie sprawdzającej dokument, że przewożony towar niebezpieczny jest odpadem, a nie zwykłym produktem. Nie usuwa to numeru UN ani obowiązku podania pozostałych danych przewozowych. Nie oznacza również, że odpady przestają podlegać ADR. Dla określonych przypadków, w tym odpadów promieniotwórczych, przewidziano odrębne zasady. Podstawa: ADR 5.4.1.1.3.1.",
+      "legal_basis": [
+        "ADR 2025, 5.4.1.1.3.1"
+      ]
+    },
+    {
+      "number": 17,
+      "id": "ADR-B-0495",
+      "correct_option": "C",
+      "explanation": "Podklasa 1.2 oznacza, że głównym zagrożeniem jest rozrzut, ale nie wybuch masowy całego ładunku, który charakteryzuje podklasę 1.1. Nie jest to zagrożenie żrące, ponieważ materiały wybuchowe należą do klasy 1. Rozpoznanie podklasy pomaga zrozumieć, jakie skutki może mieć zdarzenie z przesyłką. Podstawa: ADR 2.2.1.1.5, podklasa 1.2.",
+      "legal_basis": [
+        "ADR 2025, 2.2.1.1.5, podklasa 1.2"
+      ]
+    },
+    {
+      "number": 18,
+      "id": "ADR-B-0331",
+      "correct_option": "C",
+      "explanation": "Gdy ustalenie składu lub klasyfikacji mieszaniny wymagałoby nieproporcjonalnych kosztów albo wysiłku, ADR przewiduje zastosowanie zasady opartej na składniku stwarzającym największe zagrożenie. Nie wolno wybierać klasy po kolorze ani automatycznie przypisywać klasy 9. Sama klasa 9 ani wygląd cieczy nie zastępują analizy rzeczywistych zagrożeń składników. Podstawa: ADR 2.1.3.5.2.",
+      "legal_basis": [
+        "ADR 2025, 2.1.3.5.2"
+      ]
+    },
+    {
+      "number": 19,
+      "id": "ADR-B-0058",
+      "correct_option": "C",
+      "explanation": "Strzałki kierunkowe pokazują, w jakim ustawieniu opakowanie powinno znajdować się podczas przewozu, aby zawartość pozostała w odpowiedniej pozycji. Dlatego należy ustawić przesyłkę zgodnie z nimi. Samo zamknięcie opakowania nie pozwala obracać go dowolnie, a ustawienie strzałek w dół odwraca wymagany kierunek. Podstawa: ADR 7.5.1.5.",
+      "legal_basis": [
+        "ADR 2025, 7.5.1.5"
+      ]
+    },
+    {
+      "number": 20,
+      "id": "ADR-B-0145",
+      "correct_option": "B",
+      "explanation": "FL to kategoria pojazdu używanego w ADR przy określonych przewozach cieczy lub gazów palnych w cysternach. Jeśli dla takiego pojazdu wymagane jest świadectwo dopuszczenia, trzeba mieć je w pojeździe i móc okazać podczas kontroli. Sam skan w telefonie lub dokument pozostawiony w biurze nie zastępuje wymaganego świadectwa. Sprawdź też, czy kategoria pojazdu odpowiada planowanemu ładunkowi. Podstawa: ADR 8.1.2.2(a) i 9.1.3.",
+      "legal_basis": [
+        "ADR 2025, 8.1.2.2(a)",
+        "Umowa wielostronna M364, pkt 1 (warunkowy wyjątek dla naczepy do 31.12.2026)"
+      ]
+    },
+    {
+      "number": 21,
+      "id": "ADR-B-0251",
+      "correct_option": "A",
+      "explanation": "Klin pod koło chroni pojazd przed stoczeniem się podczas postoju. Jeśli jednostka transportowa składa się z dwóch pojazdów, ogólna lista wyposażenia wymaga odpowiedniego klina dla każdego z nich. Jeden klin dla całego zestawu i sam hamulec postojowy nie spełniają podanego wymogu. Podstawa: ADR 8.1.5.2.",
+      "legal_basis": [
+        "ADR 2025, 8.1.5.2"
+      ]
+    },
+    {
+      "number": 22,
+      "id": "ADR-B-0393",
+      "correct_option": "B",
+      "explanation": "Dla przewozu pojazdu w określonym łańcuchu morskim ADR dopuszcza dołączenie świadectwa pakowania pojazdu do dokumentu przewozowego. Nie jest więc prawdą, że świadectwo nigdy nie jest dopuszczalne ani że zastępuje prawo jazdy. Należy spełnić wymagania dokumentacyjne dotyczące konkretnego przewozu. Podstawa: ADR 5.4.2.",
+      "legal_basis": [
+        "ADR 2025, 5.4.2"
+      ]
+    },
+    {
+      "number": 23,
+      "id": "ADR-B-0357",
+      "correct_option": "C",
+      "explanation": "Kierowca i jego pomocnik nie mogą otwierać sztuk przesyłek zawierających towary niebezpieczne. Rękawice ani odczekanie godziny nie tworzą wyjątku od tej zasady. Jeśli podejrzewasz wyciek, nie otwieraj opakowania samodzielnie; postępuj zgodnie z procedurą bezpieczeństwa i powiadom odpowiednie osoby. Podstawa: ADR 8.3.3.",
+      "legal_basis": [
+        "ADR 2025, 8.3.3"
+      ]
+    },
+    {
+      "number": 24,
+      "id": "ADR-B-0108",
+      "correct_option": "B",
+      "explanation": "Gaśnica przewożona w pojeździe może pomóc przy niewielkim pożarze opon, hamulców lub silnika, jeśli jest to właściwe i bezpieczne. Nie oznacza to uprawnienia do walki z każdym pożarem ładunku. Gdy ogień obejmuje przedział ładunkowy albo cały pojazd, priorytetem staje się oddalenie od zagrożenia i wezwanie pomocy. Podstawa: ADR 5.4.3.4.",
+      "legal_basis": [
+        "ADR 2025, 5.4.3.4"
+      ]
+    },
+    {
+      "number": 25,
+      "id": "ADR-B-0383",
+      "correct_option": "B",
+      "explanation": "W określonym łańcuchu morskim ADR dopuszcza użycie nalepek i oznakowania zgodnych z IMDG (kodeksem przewozu towarów niebezpiecznych morzem) zamiast części oznakowania ADR, ale tylko po spełnieniu warunków przepisu. Nie wolno usuwać wszystkich oznaczeń ani zastępować ich reklamą. Reklama spedytora nie jest oznakowaniem bezpieczeństwa. Podstawa: ADR 1.1.4.2.1(c).",
+      "legal_basis": [
+        "ADR 2025, 1.1.4.2.1(c)"
+      ]
+    },
+    {
+      "number": 26,
+      "id": "ADR-B-0144",
+      "correct_option": "A",
+      "explanation": "Gdy przewóz wymaga nadzoru zgodnie z ADR 8.4.1, pojazdu nie można pozostawić po prostu w dowolnym miejscu. Odpowiednio zabezpieczona baza lub teren chronionego zakładu może spełniać warunki postoju bez bezpośredniego nadzoru. Cena parkingu czy wygodne pobocze nie decydują o dopuszczalności takiego postoju. Podstawa: ADR 8.4.1.",
+      "legal_basis": [
+        "ADR 2025, 8.4.1"
+      ]
+    },
+    {
+      "number": 27,
       "id": "ADR-B-0564",
       "correct_option": "B",
       "explanation": "Oznakowanie nie może wprowadzać w błąd co do zagrożeń przewożonego ładunku. Nalepka innej klasy może spowodować, że ratownicy lub inni uczestnicy błędnie ocenią sytuację. Trzeba usunąć nieprawidłowe oznaczenie i zweryfikować komplet nalepek wymaganych dla danego przewozu; przypadkowe zakrycie kartką nie jest prawidłowym rozwiązaniem. Pozostawienie starej nalepki i przypadkowe zakrycie błędnej może mylić służby. Podstawa: ADR 5.3.1.1 i 5.3.1.7.",
@@ -26,255 +252,30 @@
       ]
     },
     {
-      "number": 3,
-      "id": "ADR-B-0515",
-      "correct_option": "C",
-      "explanation": "Podczas załadunku i rozładunku silnik powinien być wyłączony, chyba że zachodzi przewidziany wyjątek związany z napędem urządzeń obsługujących te operacje i pozwalają na to przepisy lokalne. Ogrzewanie kabiny ani obecność kierowcy w środku nie stanowią takiego wyjątku. Dlatego silnik należy wyłączyć. Podstawa: ADR 8.3.6.",
-      "legal_basis": [
-        "ADR 2025, 8.3.6"
-      ]
-    },
-    {
-      "number": 4,
-      "id": "ADR-B-0326",
-      "correct_option": "A",
-      "explanation": "Nie każdy odpad o nieznanym składzie można sklasyfikować uproszczoną metodą. Materiały klasy 4.3 są wyłączone z procedury wskazanej w pytaniu, więc nie wystarczy nazwa odpadu ani zgoda kierowcy, by jej użyć. Trzeba zastosować właściwe zasady klasyfikacji dla danego zagrożenia. Podstawa: ADR 2.1.3.5.5.",
-      "legal_basis": [
-        "ADR 2025, 2.1.3.5.5"
-      ]
-    },
-    {
-      "number": 5,
-      "id": "ADR-B-0178",
-      "correct_option": "B",
-      "explanation": "Nieznane opary mogą być trujące lub drażniące, a ich wdychanie groźne nawet bez bezpośredniego dotykania towaru. Kierowca powinien odsunąć się od chmury, unikać kontaktu i kierować się instrukcjami. Pozostawanie obok wycieku albo wąchanie par z bliska tylko zwiększa narażenie. Podstawa: ADR 5.4.3.4.",
-      "legal_basis": [
-        "ADR 2025, 5.4.3.4"
-      ]
-    },
-    {
-      "number": 6,
-      "id": "ADR-B-0320",
-      "correct_option": "C",
-      "explanation": "W łańcuchu obejmującym transport morski lub lotniczy ADR dopuszcza określone odstępstwa dotyczące opakowań i oznakowania zgodnych z IMDG (kodeksem przewozu towarów niebezpiecznych morzem) lub wymaganiami ICAO (instrukcjami dla przewozu lotniczego). Nie jest to bezwarunkowe zwolnienie z całego ADR. Trzeba sprawdzić, czy spełniono dokładnie warunki przepisu dla danej przesyłki. Podstawa: ADR 1.1.4.2.1.",
-      "legal_basis": [
-        "ADR 2025, 1.1.4.2.1"
-      ]
-    },
-    {
-      "number": 7,
-      "id": "ADR-B-0596",
-      "correct_option": "A",
-      "explanation": "Wyposażenie osobiste musi być dostępne dla każdego członka załogi, którego dotyczy wymaganie, a nie tylko dla jednej osoby w pojeździe. Praca na zmianę nie gwarantuje, że obie osoby będą mogły bezpiecznie oznaczyć swoją obecność w tym samym czasie. Trójkąt ostrzegawczy ma inną funkcję i nie zastępuje kamizelki. Podstawa: ADR 8.1.5.2.",
-      "legal_basis": [
-        "ADR 2025, 8.1.5.2"
-      ]
-    },
-    {
-      "number": 8,
-      "id": "ADR-B-0609",
-      "correct_option": "B",
-      "explanation": "Oznaczenie LQ (od ang. limited quantities — ilości ograniczone) pozwala osobom obsługującym przesyłkę rozpoznać, że zastosowano szczególne zasady dla ilości ograniczonych. Nie jest to dekoracja, którą można usunąć dla wygody. Jeżeli dany pakunek podlega obowiązkowi oznakowania, znak musi pozostać prawidłowy i czytelny; informacja na liście dostawy nie zastępuje oznaczenia opakowania. Podstawa: ADR 3.4.7.1.",
-      "legal_basis": [
-        "ADR 2025, 3.4.7.1"
-      ]
-    },
-    {
-      "number": 9,
-      "id": "ADR-B-0591",
-      "correct_option": "C",
-      "explanation": "Przed wjazdem trzeba sprawdzić, czy przewóz może korzystać z danego tunelu, biorąc pod uwagę kod tunelowy i oznakowanie drogi. Krótsza trasa nie uchyla ograniczenia, a prawidłowy numer UN (identyfikator towaru niebezpiecznego) w dokumencie nie daje automatycznego prawa wjazdu. W razie zakazu należy wybrać dozwoloną trasę. Podstawa: ADR 8.6.3 i 8.6.4.",
-      "legal_basis": [
-        "ADR 2025, 8.6.3; 8.6.4"
-      ]
-    },
-    {
-      "number": 10,
-      "id": "ADR-B-0003",
-      "correct_option": "A",
-      "explanation": "Zaświadczenie ADR pokazuje, że kierowca przeszedł wymagane szkolenie i zdał egzamin do określonego rodzaju przewozu. Nie jest jednak prawem jazdy i nie zastępuje dokumentów potrzebnych dla ładunku. Dlatego nawet z ważnym zaświadczeniem trzeba mieć właściwe uprawnienia do prowadzenia pojazdu i spełnić pozostałe wymagania przewozu. Podstawa: ADR 8.2.1.",
-      "legal_basis": [
-        "ADR 2025, 8.2.1"
-      ]
-    },
-    {
-      "number": 11,
-      "id": "ADR-B-0377",
-      "correct_option": "B",
-      "explanation": "Odbiorca również ma obowiązki ADR związane z przyjęciem towaru i czynnościami po rozładunku. Nie może uznać, że samo przyjęcie dokumentu zwalnia go z dalszych działań. Należy wykonać wymagane kontrole i postąpić z pozostałościami oraz oznakowaniem zgodnie z przepisami. Podstawa: ADR 1.4.2.3.1–1.4.2.3.2.",
-      "legal_basis": [
-        "ADR 2025, 1.4.2.3.1–1.4.2.3.2"
-      ]
-    },
-    {
-      "number": 12,
-      "id": "ADR-B-0429",
-      "correct_option": "C",
-      "explanation": "Oddzielne dokumenty przewozowe nie znoszą zakazu wspólnego załadunku. Jeśli tabela ADR nie dopuszcza przewożenia danych sztuk razem, nie wolno umieszczać ich w jednej jednostce transportowej tylko dlatego, że każda ma własny numer lub dokument. Najpierw sprawdź zgodność ładunku, a potem dokumentację. Podstawa: ADR 7.5.2.1.",
-      "legal_basis": [
-        "ADR 2025, 7.5.2.1"
-      ]
-    },
-    {
-      "number": 13,
-      "id": "ADR-B-0518",
-      "correct_option": "A",
-      "explanation": "Mocowanie ma zapobiegać przesuwaniu się ładunku, ale nie może uszkadzać ani deformować opakowań. Jeśli pas zgniata opakowanie, trzeba zmienić sposób lub siłę mocowania, a nie zostawiać go w tej postaci ani dociągać mocniej. Bezpieczny ładunek musi pozostać stabilny i nieuszkodzony. Podstawa: ADR 7.5.7.1.",
-      "legal_basis": [
-        "ADR 2025, 7.5.7.1"
-      ]
-    },
-    {
-      "number": 14,
-      "id": "ADR-B-0308",
-      "correct_option": "B",
-      "explanation": "Gdy pożar obejmuje przestrzeń ładunkową z towarami niebezpiecznymi, załoga nie powinna próbować gasić go od środka. Należy odejść w bezpieczne miejsce, ostrzec innych i wezwać służby. Otwieranie przesyłek może uwolnić niebezpieczną zawartość, a samodzielne gaszenie naraża załogę. Podstawa: ADR 5.4.3.4.",
-      "legal_basis": [
-        "ADR 2025, 5.4.3.4"
-      ]
-    },
-    {
-      "number": 15,
-      "id": "ADR-B-0017",
-      "correct_option": "C",
-      "explanation": "Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą. Podczas wycieku lub pożaru ta informacja ma znaczenie dla doboru działań ratowniczych: użycie wody bez oceny zagrożenia może nasilić reakcję. Litera X nie oznacza pustego pojazdu ani zwolnienia z przepisów, dlatego B i C są błędne. Podstawa: ADR 5.3.2.3.1.",
-      "legal_basis": [
-        "ADR 2025, 5.3.2.3.1"
-      ]
-    },
-    {
-      "number": 16,
-      "id": "ADR-B-0447",
-      "correct_option": "A",
-      "explanation": "Dla określonych butli DOT sprowadzonych w łańcuchu obejmującym transport morski ADR przewiduje warunkową możliwość dalszego przewozu od miejsca czasowego składowania do użytkownika końcowego. Nie pozwala to na dowolne napełnianie butli w Polsce ani na pominięcie wszystkich wymagań dla gazów. Trzeba spełnić dokładne warunki wyjątku. Podstawa: ADR 1.1.4.7.1.",
-      "legal_basis": [
-        "ADR 2025, 1.1.4.7.1"
-      ]
-    },
-    {
-      "number": 17,
-      "id": "ADR-B-0266",
-      "correct_option": "B",
-      "explanation": "Materiały klasy 5.1 są utleniające: mogą wspierać spalanie lub nasilać pożar innych materiałów, nawet jeśli same nie są łatwopalne. Nie oznacza to, że każdy taki towar jest cieczą palną ani że zawsze można go trzymać obok materiałów palnych. Trzeba uwzględnić wymagane warunki pakowania i oddzielania. Podstawa: ADR 2.2.51.1.1.",
-      "legal_basis": [
-        "ADR 2025, 2.2.51.1.1"
-      ]
-    },
-    {
-      "number": 18,
-      "id": "ADR-B-0348",
-      "correct_option": "C",
-      "explanation": "Jeżeli wcześniejsze bezpieczne miejsca postoju nie są dostępne, można rozważyć odpowiednio odosobniony teren spełniający warunki ADR. Dowolny chodnik lub pas awaryjny nie stają się prawidłowym miejscem postoju tylko dlatego, że są wolne. Trzeba sprawdzić wszystkie warunki wskazane dla tej ostatniej alternatywy. Podstawa: ADR 8.4.1(c).",
-      "legal_basis": [
-        "ADR 2025, 8.4.1(c)"
-      ]
-    },
-    {
-      "number": 19,
-      "id": "ADR-B-0532",
-      "correct_option": "A",
-      "explanation": "Pojemnik opróżniony, lecz nieoczyszczony, nadal może zawierać niebezpieczne pozostałości. W dokumencie trzeba więc użyć właściwego określenia, np. „PUSTY, NIEOCZYSZCZONY” albo „POZOSTAŁOŚĆ PO OSTATNIEJ ZAWARTOŚCI”, zależnie od sytuacji. Sam fakt opróżnienia nie usuwa zagrożenia, a numer magazynowy nie zastępuje opisu ADR. Podstawa: ADR 5.4.1.1.6.1.",
-      "legal_basis": [
-        "ADR 2025, 5.4.1.1.6.1"
-      ]
-    },
-    {
-      "number": 20,
-      "id": "ADR-B-0127",
-      "correct_option": "B",
-      "explanation": "Grupa pakowania, jeśli dana pozycja ADR w ogóle ją stosuje, pokazuje poziom zagrożenia stwarzanego przez materiał. Grupa I oznacza wysoki stopień zagrożenia, grupa II — średni, a grupa III — niski. Nie są to trzy równoważne oznaczenia, a grupa III nie oznacza najwyższego ryzyka, dlatego A i C są błędne. Podstawa: ADR 2.1.1.3.",
-      "legal_basis": [
-        "ADR 2025, 2.1.1.3"
-      ]
-    },
-    {
-      "number": 21,
-      "id": "ADR-B-0179",
-      "correct_option": "C",
-      "explanation": "Słowo „ODPAD” informuje, że przewożona substancja jest odpadem, ale nie zastępuje jej identyfikacji. Dokument przewozowy nadal musi zawierać wymagany numer UN (identyfikator towaru niebezpiecznego) oraz pozostałe dane, jeżeli mają zastosowanie. Zamknięte beczki ani krajowy charakter trasy nie powodują, że samo słowo „ODPAD” wystarcza. Podstawa: ADR 5.4.1.1.1 i 5.4.1.1.3.1.",
-      "legal_basis": [
-        "ADR 2025, 5.4.1.1.1; 5.4.1.1.3.1"
-      ]
-    },
-    {
-      "number": 22,
-      "id": "ADR-B-0511",
-      "correct_option": "A",
-      "explanation": "W łańcuchu obejmującym przewóz morski ADR dopuszcza określone odstępstwo, gdy sztuki przesyłek spełniają właściwe wymagania oznakowania i nalepek IMDG, czyli kodeksu przewozu towarów niebezpiecznych morzem. Sam fakt, że kontener przybył do portu, nie wystarcza; trzeba potwierdzić warunki przepisu. Usunięcie nalepek i zastąpienie ich numerem rejestracyjnym byłoby nieprawidłowe. Podstawa: ADR 1.1.4.2.1(a).",
-      "legal_basis": [
-        "ADR 2025, 1.1.4.2.1(a)"
-      ]
-    },
-    {
-      "number": 23,
-      "id": "ADR-B-0159",
-      "correct_option": "B",
-      "explanation": "Klasa 6.2 obejmuje materiały zakaźne, które mogą zawierać drobnoustroje lub inne czynniki zdolne wywołać chorobę. Klasa 6.1 dotyczy natomiast materiałów trujących, stwarzających zagrożenie toksyczne. Nie są to gazy pod ciśnieniem ani kody tunelowe, lecz osobne klasy zagrożeń z innymi wymaganiami. Podstawa: ADR 2.2.62 i 2.2.61.",
-      "legal_basis": [
-        "ADR 2025, 2.2.62.1.1; 2.2.61.1.1"
-      ]
-    },
-    {
-      "number": 24,
-      "id": "ADR-B-0118",
-      "correct_option": "C",
-      "explanation": "Odbiorca jest uczestnikiem przewozu ADR i ma własne obowiązki dotyczące przyjęcia ładunku. Nie powinien odmawiać przyjęcia bez ważnego powodu ani bez potrzeby opóźniać wykonania obowiązków po rozładunku. Wygoda odbiorcy nie oznacza dowolności, ale nie jest też prawdą, że nie ma żadnych obowiązków ADR. Podstawa: ADR 1.4.2.3.1.",
-      "legal_basis": [
-        "ADR 2025, 1.4.2.3.1"
-      ]
-    },
-    {
-      "number": 25,
-      "id": "ADR-B-0493",
-      "correct_option": "A",
-      "explanation": "Mały, początkowy pożar hamulców, opon lub silnika można próbować gasić tylko wtedy, gdy jest to właściwe i bezpieczne. Nie oznacza to obowiązku walki z każdym pożarem ani narażania życia załogi. Jeśli ogień obejmuje ładunek lub sytuacja staje się niebezpieczna, należy się oddalić i powiadomić służby. Podstawa: ADR 5.4.3.4, instrukcje pisemne.",
-      "legal_basis": [
-        "ADR 2025, 5.4.3.4 (instrukcje pisemne)"
-      ]
-    },
-    {
-      "number": 26,
-      "id": "ADR-B-0287",
-      "correct_option": "B",
-      "explanation": "Jeżeli przewóz odbywa się w warunkach szczególnego przepisu 1.1.4.2.1, w dokumencie trzeba zamieścić wymagane oświadczenie o zgodności z tym przepisem. Nie wystarczy wpisać numer rejsu ani stwierdzić, że ADR w ogóle nie ma zastosowania. Zakres zastosowania wyjątków należy ocenić dla konkretnego łańcucha transportowego. Podstawa: ADR 5.4.1.1.7.",
-      "legal_basis": [
-        "ADR 2025, 5.4.1.1.7"
-      ]
-    },
-    {
-      "number": 27,
-      "id": "ADR-B-0410",
-      "correct_option": "C",
-      "explanation": "Zakres szkolenia powinien odpowiadać roli pracownika i jego obowiązkom, dlatego powinien znać te elementy planu ochrony, które dotyczą wykonywanych zadań. Nie oznacza to ujawniania całego planu wszystkim kierowcom bez potrzeby. Informacje przekazuje się odpowiednim osobom w zakresie niezbędnym do pracy. Podstawa: ADR 1.10.2.2.",
-      "legal_basis": [
-        "ADR 2025, 1.10.2.2"
-      ]
-    },
-    {
       "number": 28,
-      "id": "ADR-B-0039",
-      "correct_option": "A",
-      "explanation": "Instrukcje pisemne ADR mają ustalony, czterostronicowy wzór, żeby załoga mogła szybko znaleźć informacje potrzebne przy zdarzeniu. Trzy strony nie obejmują całego wzoru, a pięć nie odpowiada standardowej formie określonej w ADR. Najważniejsze jest, aby przed wyjazdem wiedzieć, gdzie instrukcje leżą i co zawierają. Podstawa: ADR 5.4.3.4.",
+      "id": "ADR-B-0221",
+      "correct_option": "C",
+      "explanation": "Gdy z opakowania wydostają się opary, najlepiej zachować bezpieczną odległość i stanąć po stronie nawietrznej, aby wiatr nie kierował chmury w stronę kierowcy. Podchodzenie blisko wycieku lub pozostawanie po stronie zawietrznej zwiększa ryzyko wdychania substancji. Należy unikać kontaktu z uwolnionym materiałem. Podstawa: ADR 5.4.3.4.",
       "legal_basis": [
         "ADR 2025, 5.4.3.4"
       ]
     },
     {
       "number": 29,
-      "id": "ADR-B-0422",
+      "id": "ADR-B-0040",
       "correct_option": "B",
-      "explanation": "Gaśnica musi mieć aktualne oznaczenie wymaganej kontroli; przekroczony termin oznacza, że nie spełnia wymagań przygotowania do przewozu. Dobry wygląd zewnętrzny nie potwierdza sprawności ani ważności kontroli. Dobry wygląd obudowy i klasa 3 nie zwalniają z ważnej kontroli gaśnicy. Podstawa: ADR 8.1.4.4–8.1.4.5.",
+      "explanation": "Pracownik musi znać zasady bezpieczeństwa, zanim samodzielnie zacznie wykonywać czynności związane z towarami niebezpiecznymi. Bez odpowiedniego szkolenia może je wykonywać tylko pod bezpośrednim nadzorem osoby już przeszkolonej. Pierwszy samodzielny przewóz nie może być próbą nauki, a odnowienie kursu kierowcy nie jest jedyną sytuacją wymagającą szkolenia. Podstawa: ADR 1.3.1.",
       "legal_basis": [
-        "ADR 2025, 8.1.4.4–8.1.4.5"
+        "ADR 2025, 1.3.1"
       ]
     },
     {
       "number": 30,
-      "id": "ADR-B-0105",
-      "correct_option": "C",
-      "explanation": "Ratownicy muszą wiedzieć, co wydarzyło się na miejscu i jakie towary niebezpieczne znajdują się w pojeździe, żeby dobrać bezpieczny sposób działania. Dlatego warto przekazać im możliwie pełne dostępne informacje o zdarzeniu i ładunku. Sam numer rejestracyjny albo przebieg pojazdu nie wystarczy do rozpoznania zagrożenia. Podstawa: ADR 5.4.3.4.",
+      "id": "ADR-B-0149",
+      "correct_option": "A",
+      "explanation": "Limit LQ (od ang. limited quantities — ilości ograniczone) zależy od konkretnego towaru i jest podany w kolumnie 7a tabeli A, z dodatkowymi warunkami pakowania w dziale 3.4. Nie istnieje jeden limit 1000 litrów dla wszystkich materiałów. Sama masa całego samochodu też nie zastępuje sprawdzenia ilości w opakowaniach wewnętrznych. Podstawa: ADR 3.2 tabela A i 3.4.",
       "legal_basis": [
-        "ADR 2025, 5.4.3.4"
+        "ADR 2025, 3.2 tabela A kol. (7a); 3.4.1"
       ]
     }
   ],

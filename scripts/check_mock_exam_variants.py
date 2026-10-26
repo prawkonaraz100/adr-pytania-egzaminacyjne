@@ -91,6 +91,7 @@ def audit(root=ROOT):
         if sum(actual_modules.values()) != 30 or any(count not in (2, 3) for count in actual_modules.values()):
             errors.append(f"{prefix}: oczekiwano 30 pytań i 2–3 pytań z każdego z 13 działów")
         letters = []
+        strictly_longest_correct = 0
         for index, q in enumerate(questions):
             qid = q.get("id")
             source = bank.get(qid)
@@ -116,14 +117,22 @@ def audit(root=ROOT):
                 errors.append(f"{prefix}: explanation w kluczu nie jest zsynchronizowane z bankiem: {qid}")
             if len((answer.get("explanation") or "").strip()) < 200:
                 errors.append(f"{prefix}: explanation poniżej 200 znaków: {qid}")
+            choice_lengths = {letter: len(options[letter]) for letter in LETTERS}
+            max_length = max(choice_lengths.values())
+            if choice_lengths[correct_letter] == max_length and sum(value == max_length for value in choice_lengths.values()) == 1:
+                strictly_longest_correct += 1
             letters.append(correct_letter)
+        strict_rate = strictly_longest_correct / len(questions) if questions else 0.0
+        if strict_rate > 0.18:
+            errors.append(f"{prefix}: poprawna odpowiedź jest jedyną najdłuższą w {strictly_longest_correct}/30 pytań ({strict_rate:.1%}; limit 18%)")
         freq = {letter: letters.count(letter) for letter in LETTERS}
         max_run = longest_run(letters)
         if any(freq[letter] < 8 for letter in LETTERS):
             errors.append(f"{prefix}: każda litera musi wystąpić co najmniej 8 razy, rozkład={freq}")
         if max_run > 3:
             errors.append(f"{prefix}: seria tej samej litery ma długość {max_run} (>3)")
-        stats.append({"variant": number, "letters": freq, "longest_run": max_run, "modules": actual_modules})
+        stats.append({"variant": number, "letters": freq, "longest_run": max_run, "modules": actual_modules,
+                      "strictly_longest_correct": strictly_longest_correct, "strictly_longest_rate": strict_rate})
     if len(all_ids) != len(set(all_ids)):
         errors.append("Powtarzające się ID między wariantami 001–005")
     return errors, stats, heuristic_warnings(rows)
