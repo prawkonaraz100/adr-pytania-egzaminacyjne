@@ -126,6 +126,11 @@ Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogó
 - [B-13 — raport partii 5](raporty/etap-4x17-lekcje-scenariusze-13-2026-10-25.md)
 - [Raport końcowy etapu 4x17](raporty/etap-4x17-raport-koncowy-2026-10-25.md)
 
+## Raporty ETAPU 4x20
+
+- [Partia 1 — wyrównanie B-01/B-04 i explanation 0196/0398/0440](raporty/etap-4x20-partia-1-b01-b04-explanation-2026-10-26.md)
+- [Partia 2 — audyt explanation 0001–0050](raporty/etap-4x20-partia-2-explanation-0001-0050-2026-10-26.md)
+
 ## Raporty ETAPU 4x9
 
 - [B-01–04 — spójność i ryzyka](raporty/etap-4x9-spojnosc-01-04-2026-10-25.md)
