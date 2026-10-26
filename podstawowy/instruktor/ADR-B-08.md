@@ -121,7 +121,7 @@ Brak danych o rzeczywistych wynikach kursantów — repo nie rejestruje statysty
 - Lekcja: [ADR-B-08](../lekcje/ADR-B-08.md). Scenariusze: [plik JSON](../praktyka/scenariusze-13-dzialow.json) — wyszukaj identyfikatory SC wymienione powyżej.
 - Nie zmieniono podstaw prawnych ani statusów pytań bez potwierdzonej rozbieżności w urzędowym tekście ADR. To nie zastępuje recenzji specjalisty.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Zastosuj listę kontrolną dla fikcyjnego pojazdu: typ pojazdu, warunki przewozu, gaśnice, wyposażenie osobiste oraz ewentualne świadectwo dopuszczenia. Kursant ma wskazać, z którego wymagania wynika każdy element i co trzeba zrobić, jeśli sprzęt jest niedostępny lub niesprawny. Nie podawaj jednego zestawu jako obowiązującego dla każdego pojazdu.
 
