@@ -1,0 +1,968 @@
+{
+  "date": "2026-10-26",
+  "stage": "4x24",
+  "batch": "1/4 — pierwsze 37 ID z raportu oraz osobne sprawdzenie KC 0567–0569",
+  "base_main": "5293c24941ee2262968a38991e6c57f3df1dcb20",
+  "comparison_basis": "MI ADR 2025 PL (pomocniczy), Dz.U. 2025 poz. 642 ze sprostowaniem poz. 1575 — mapowanie do stron Dz.U. pozostaje pending",
+  "mi_sources": [
+    {
+      "title": "ADR 2025 PL, tom I",
+      "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-abd1-1b9ba4100e70"
+    },
+    {
+      "title": "ADR 2025 PL, tom II",
+      "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+    }
+  ],
+  "records": [
+    {
+      "id": "ADR-B-0013",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.1",
+      "question": "Gdzie podczas przewozu powinny znajdować się instrukcje pisemne ADR?",
+      "options": {
+        "A": "W biurze przewoźnika, skąd dyspozytor przekaże informacje przez telefon",
+        "B": "W kabinie załogi, w łatwo dostępnym miejscu",
+        "C": "W aktach odbiorcy w punkcie rozładunku"
+      },
+      "correct_option": "B",
+      "explanation": "Instrukcje pisemne opisują, co załoga ma zrobić, gdy dojdzie do awarii, na przykład wycieku lub pożaru. W stresującej sytuacji nie ma czasu szukać ich w biurze przewoźnika ani prosić o nie odbiorcy. Dlatego powinny znajdować się w kabinie, w miejscu łatwo dostępnym dla załogi. Podstawa: ADR 5.4.3.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom II",
+        "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+        "quote": "W kabinie kierowcy, w miejscu łatwo dostępnym, powinny być przewożone instrukcje pisemne w formie podanej w 5.4.3.4, stanowiące pomoc w razie zaistnienia wypadku podczas przewozu."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0014",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.3",
+      "question": "Co powinni zrobić członkowie załogi przed rozpoczęciem przewozu ADR?",
+      "options": {
+        "A": "Przeczytać instrukcje dopiero po wystąpieniu wypadku i rozpoczęciu działań",
+        "B": "Zostawić instrukcje u nadawcy",
+        "C": "Zapoznać się z przewożonymi towarami i instrukcjami na wypadek zdarzenia"
+      },
+      "correct_option": "C",
+      "explanation": "Jeszcze przed wyjazdem załoga powinna wiedzieć, jakie towary przewozi i jakie podstawowe zagrożenia mogą wystąpić. Dzięki temu w razie zdarzenia łatwiej zastosuje instrukcje pisemne zamiast dopiero wtedy czytać je po raz pierwszy. Zostawienie instrukcji u nadawcy lub odkładanie zapoznania się z nimi do chwili wypadku nie przygotowuje do bezpiecznej reakcji. Podstawa: ADR 5.4.3.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom II",
+        "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+        "quote": "Przed rozpoczęciem przewozu, członkowie załogi pojazdu powinni dowiedzieć się jakie towary niebezpieczne są załadowane oraz sprawdzić w instrukcjach pisemnych, jakie czynności powinny być podjęte w razie zaistnienia wypadku lub zagrożenia."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0020",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.1.1 (b)",
+      "question": "Czy załadowca może przekazać do przewozu uszkodzone opakowanie z wyciekającym towarem niebezpiecznym?",
+      "options": {
+        "A": "Tak, jeśli wyciek z uszkodzonego opakowania jest niewielki i ledwie widoczny",
+        "B": "Tak, jeżeli kierowca podpisze oświadczenie",
+        "C": "Nie, dopóki uszkodzenie nie zostanie usunięte"
+      },
+      "correct_option": "C",
+      "explanation": "Uszkodzone opakowanie, z którego wycieka towar niebezpieczny, może zagrozić kierowcy, innym ładunkom i środowisku. Załadowca nie powinien przekazywać takiej sztuki przesyłki do przewozu, dopóki problem nie zostanie prawidłowo usunięty. Niewielki wyciek ani podpis kierowcy nie sprawiają, że uszkodzone opakowanie staje się bezpieczne. Podstawa: ADR 1.4.3.1.1(b).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-ab4c-90b913bb0a10",
+        "quote": "Nie powinien on wydać sztuki przesyłki, której opakowanie jest uszkodzone, dopóki nie zostaną usunięte uszkodzenia, w szczególności, jeżeli opakowanie jest nieszczelne, są wycieki materiału niebezpiecznego lub istnieje możliwość ich wystąpienia; obowiązek ten dotyczy również próżnych nieoczyszczonych opakowań."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0026",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.7.1",
+      "question": "Jak należy zabezpieczyć sztuki przesyłki ADR na pojeździe?",
+      "options": {
+        "A": "Tak, aby nie przemieszczały się w normalnych warunkach jazdy",
+        "B": "Wystarczy położyć je luźno na podłodze",
+        "C": "Ułożyć przesyłki na boku, aby obniżyć środek ciężkości ładunku"
+      },
+      "correct_option": "A",
+      "explanation": "Podczas hamowania lub skręcania niezabezpieczona przesyłka może się przesunąć, przewrócić albo uszkodzić. Dlatego trzeba tak rozmieścić i umocować ładunek, by pozostał stabilny w zwykłych warunkach jazdy. Luźne ułożenie na podłodze ani ustawienie każdego opakowania na boku nie zapewniają bezpieczeństwa. Podstawa: ADR 7.5.7.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0029",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2.1",
+      "question": "Czy sztuka przesyłki przygotowana zgodnie z kodeksem morskim IMDG może, w określonych warunkach ADR, uczestniczyć w dalszym przewozie drogowym w łańcuchu obejmującym transport morski?",
+      "options": {
+        "A": "Nie, przed jazdą drogową trzeba ponownie przygotować przesyłkę według pełnego ADR",
+        "B": "Tak, pod warunkami ADR dla odcinka drogowego",
+        "C": "Tak, bo wystarczy zgodność z IMDG"
+      },
+      "correct_option": "B",
+      "explanation": "IMDG to międzynarodowy kodeks przewozu towarów niebezpiecznych drogą morską. W określonych sytuacjach ADR pozwala uznać przesyłkę przygotowaną według tego kodeksu także na drogowym odcinku przewozu. Nie jest to automatyczna zgoda na jazdę bez sprawdzenia dokumentów i wymagań drogowych. Kierowca i przewoźnik muszą ustalić, które zasady nadal obowiązują. Podstawa: ADR 1.1.4.2.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-ab4c-90b913bb0a10",
+        "quote": "Sztuki przesyłek, kontenery, cysterny przenośne, kontenery-cysterny i MEGC, które nie spełniają wymagań ADR dotyczących pakowania, pakowania razem, oznakowania i stosowania nalepek ostrzegawczych, ale są zgodne z wymaganiami Kodeksu IMDG lub Instrukcji Technicznych ICAO, powinny być dopuszczone do przewozu w łańcuchu transportowym zawierającym przewóz morski lub lotniczy pod następującymi warunkami:"
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0032",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.4",
+      "question": "Co oznacza kod ograniczeń tunelowych E, jeżeli zgodnie z ADR 8.6 przewóz podlega ograniczeniom tunelowym?",
+      "options": {
+        "A": "Nakaz jazdy tunelem E przeznaczonym dla takich ładunków",
+        "B": "Zakaz przejazdu tunelami A–E",
+        "C": "Zakaz przejazdu przez tunel kategorii E"
+      },
+      "correct_option": "C",
+      "explanation": "Jeżeli dany przewóz podlega ograniczeniom tunelowym, kod E zabrania przejazdu przez tunel kategorii E. Nie nakazuje korzystać właśnie z takiego tunelu i nie oznacza zakazu w każdej kategorii od A do E. Przed wyborem trasy kierowca powinien ustalić, czy ograniczenia mają zastosowanie do jego przewozu. Podstawa: ADR 8.6.4.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0033",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.4",
+      "question": "Przewozisz towar w sztukach przesyłek z kodem ograniczenia tunelowego D/E, a przewóz podlega ograniczeniom tunelowym ADR. Przez który tunel nie możesz przejechać ze względu na ten kod?",
+      "options": {
+        "A": "Tunelu kategorii A, ponieważ litera D oznacza największe ograniczenia",
+        "B": "Tunelu kategorii E w przewozie sztuk przesyłek oznaczonych kodem D/E",
+        "C": "Tuneli B, C, D i E, ponieważ kod D/E jest na pojeździe"
+      },
+      "correct_option": "B",
+      "explanation": "Zapis D/E ma różny skutek zależnie od sposobu przewozu. W pytaniu chodzi o sztuki przesyłek, więc zakaz związany z tym kodem dotyczy tunelu kategorii E; dla przewozu luzem lub w cysternie reguła może być inna. Nie należy odczytywać liter jako zakazu w tunelach A ani automatycznie we wszystkich B–E. Podstawa: ADR 8.6.4.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0036",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.2.2",
+      "question": "Czego powinno dotyczyć szkolenie z ochrony towarów niebezpiecznych?",
+      "options": {
+        "A": "Rozpoznawania ryzyka kradzieży i nadużycia oraz reagowania na naruszenia ochrony",
+        "B": "Zasad mocowania palet przed przesuwaniem podczas jazdy i hamowania",
+        "C": "Odczytywania numerów UN i doboru opakowań zamiast ochrony przed nieuprawnionym dostępem"
+      },
+      "correct_option": "A",
+      "explanation": "Szkolenie z ochrony przewozu uczy, jak ograniczać ryzyko kradzieży, nieuprawnionego dostępu i niewłaściwego wykorzystania towaru. Nie chodzi tylko o to, by pasy mocujące trzymały ładunek podczas hamowania — to zabezpieczenie fizyczne, a nie ochrona przewozu (*security*). Pracownik powinien znać zagrożenia związane ze swoimi zadaniami i wiedzieć, komu zgłosić podejrzaną sytuację. Podstawa: ADR 1.10.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-abd1-1b9ba4100e70",
+        "quote": "Szkolenie w zakresie ochrony powinno obejmować rozpoznanie i charakterystykę zagrożeń, metody wykrywania i usuwania zagrożeń oraz działania podejmowane w przypadku naruszenia bezpieczeństwa."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0049",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.3",
+      "question": "Kiedy załoga powinna zapoznać się z pisemnymi instrukcjami ADR dotyczącymi postępowania w razie wypadku?",
+      "options": {
+        "A": "Przed rozpoczęciem przewozu",
+        "B": "Dopiero gdy zacznie się wyciek",
+        "C": "Po przekazaniu ładunku odbiorcy"
+      },
+      "correct_option": "A",
+      "explanation": "Przed podróżą załoga powinna wiedzieć, co zrobić przy wypadku, pożarze lub wycieku, i gdzie znaleźć pisemne instrukcje. Podczas awarii może nie być czasu na czytanie wszystkiego od początku. Dlatego zapoznanie się z nimi dopiero po wycieku albo po dostarczeniu ładunku jest spóźnione. Podstawa: ADR 5.4.3.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom II",
+        "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+        "quote": "Przed rozpoczęciem przewozu, członkowie załogi pojazdu powinni dowiedzieć się jakie towary niebezpieczne są załadowane oraz sprawdzić w instrukcjach pisemnych, jakie czynności powinny być podjęte w razie zaistnienia wypadku lub zagrożenia."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0050",
+      "module_id": "ADR-B-05",
+      "clause": "ADR 2025, 5.4.3.2",
+      "question": "W jakim języku przewoźnik ma zapewnić załodze instrukcje pisemne ADR?",
+      "options": {
+        "A": "W dowolnym języku wybranym przez nadawcę, nawet niezrozumiałym dla kierowcy",
+        "B": "W języku zrozumiałym dla każdego członka załogi",
+        "C": "Po francusku, bo ADR opracowano w Genewie"
+      },
+      "correct_option": "B",
+      "explanation": "Instrukcje pisemne mają pomóc załodze działać w sytuacji zagrożenia, dlatego każdy członek załogi musi rozumieć język, w którym je otrzymuje. Dokument niezrozumiały dla kierowcy może okazać się bezużyteczny podczas awarii. Nie wystarczy więc dowolny język wybrany przez nadawcę ani obowiązkowo sam francuski. Podstawa: ADR 5.4.3.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom II",
+        "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+        "quote": "Przed rozpoczęciem przewozu przewoźnik powinien dostarczyć załodze pojazdu instrukcje sporządzone w języku(-ach), które każdy członek załogi pojazdu może przeczytać i zrozumieć przed rozpoczęciem przewozu."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0054",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.1.1 (b)",
+      "question": "Czy załadowca może wydać przewoźnikowi uszkodzone opakowanie, z którego może wyciekać towar niebezpieczny?",
+      "options": {
+        "A": "Tak, bez ograniczeń",
+        "B": "Nie, dopóki uszkodzenie nie zostanie naprawione zgodnie z zasadami",
+        "C": "Tak, wystarczy zasłonić miejsce wycieku zwykłą taśmą bez usunięcia uszkodzenia"
+      },
+      "correct_option": "B",
+      "explanation": "Uszkodzona przesyłka, z której wycieka niebezpieczna zawartość, może narazić ludzi i zabrudzić pojazd. Dlatego załadowca nie może przekazać jej do przewozu, dopóki uszkodzenie nie zostanie właściwie usunięte. Zaklejenie miejsca wycieku taśmą bez sprawdzenia bezpieczeństwa ani zgoda na przewóz bez ograniczeń nie rozwiązują problemu. Podstawa: ADR 1.4.3.1.1(b).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-abd1-1b9ba4100e70",
+        "quote": "Nie powinien on wydać sztuki przesyłki, której opakowanie jest uszkodzone, dopóki nie zostaną usunięte uszkodzenia, w szczególności, jeżeli opakowanie jest nieszczelne, są wycieki materiału niebezpiecznego lub istnieje możliwość ich wystąpienia; obowiązek ten dotyczy również próżnych nieoczyszczonych opakowań."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0058",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.1.5",
+      "question": "Na przesyłce ADR widnieją strzałki kierunkowe wskazujące górę. Jak należy ją ustawić?",
+      "options": {
+        "A": "W dowolnej pozycji, jeśli opakowanie jest zamknięte",
+        "B": "Przeciwnie do kierunku strzałek, aby obniżyć środek ciężkości",
+        "C": "Zgodnie ze strzałkami"
+      },
+      "correct_option": "C",
+      "explanation": "Strzałki kierunkowe pokazują, w jakim ustawieniu opakowanie powinno znajdować się podczas przewozu, aby zawartość pozostała w odpowiedniej pozycji. Dlatego należy ustawić przesyłkę zgodnie z nimi. Samo zamknięcie opakowania nie pozwala obracać go dowolnie, a ustawienie strzałek w dół odwraca wymagany kierunek. Podstawa: ADR 7.5.1.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0060",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.7.1",
+      "question": "Czy zbyt mocno zaciągnięty pas mocujący może naruszać wymagania ADR?",
+      "options": {
+        "A": "Tak, jeżeli może uszkodzić lub zdeformować opakowanie",
+        "B": "Nie, mocniejsze napięcie pasów zwiększa stabilność nawet przy odkształcaniu kartonu",
+        "C": "Nie, jeśli ładunek jest lekki"
+      },
+      "correct_option": "A",
+      "explanation": "Mocowanie ma zabezpieczać ładunek przed przesuwaniem, ale nie może uszkadzać ani deformować opakowań. Jeśli pas zgniata karton lub pojemnik, trzeba zmienić sposób ułożenia albo rozłożyć nacisk; maksymalne napięcie nie jest celem samym w sobie. Twierdzenie, że pas zawsze należy dociągnąć do granic możliwości, jest więc błędne, podobnie jak uznanie lekkiego ładunku za wyjątek. Podstawa: ADR 7.5.7.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0066",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.1.3",
+      "question": "Dlaczego obszar terminalu, na którym czasowo składuje się niebezpieczny ładunek podczas transportu, powinien być odpowiednio zabezpieczony?",
+      "options": {
+        "A": "Aby ułatwić odbiór przesyłek kierowcom",
+        "B": "Ponieważ zabezpieczenie zastępuje obowiązek właściwego znakowania",
+        "C": "By ograniczyć nieuprawniony dostęp i ryzyko naruszenia ochrony"
+      },
+      "correct_option": "C",
+      "explanation": "Ładunek niebezpieczny wymaga ochrony także wtedy, gdy chwilowo znajduje się w terminalu lub na placu, a nie tylko podczas jazdy. Kontrola dostępu utrudnia kradzież i nieuprawnione działania przy przesyłkach. Takie zabezpieczenie nie służy wpuszczaniu przypadkowych osób i nie zastępuje prawidłowego oznakowania towaru. Podstawa: ADR 1.10.1.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-abd1-1b9ba4100e70",
+        "quote": "Miejsca używane do czasowego przechowywania towarów niebezpiecznych podczas ich przewozu, znajdujące się w obrębie terminali, placów przeładunkowych, baz transportowych, placów postojowych i stacji rozrządowych powinny być odpowiednio chronione, dobrze oświetlone, a także – o ile jest to możliwe i wskazane – niedostępne dla osób postronnych."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0079",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.7.1",
+      "question": "Na palecie ADR pasy mocujące zaczynają odkształcać opakowania. Jaka jest prawidłowa reakcja?",
+      "options": {
+        "A": "Dokręcić pasy, ponieważ mocowanie ma być maksymalnie ciasne",
+        "B": "Pozostawić pasy bez zmian, bo uszkodzenie opakowań nie ma znaczenia",
+        "C": "Dostosować mocowanie tak, by nie uszkadzało ani nie deformowało opakowań"
+      },
+      "correct_option": "C",
+      "explanation": "Pasy powinny unieruchomić paletę, ale ich napięcie nie może uszkodzić ani zdeformować opakowań. Gdy opakowanie zaczyna się odkształcać, trzeba poprawić sposób mocowania, na przykład zmienić rozmieszczenie pasów lub zastosować odpowiednie zabezpieczenie nacisku. Dokręcanie pasów może doprowadzić do uszkodzenia i wycieku, a pozostawienie problemu bez reakcji nie zapewnia bezpiecznego przewozu. Podstawa: ADR 7.5.7.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0083",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.4",
+      "question": "Na trasie znajduje się tunel kategorii E. Przewozisz sztuki przesyłek z kodem tunelowym E, a jednostka podlega ograniczeniom z 8.6.4. Co robisz?",
+      "options": {
+        "A": "Przejeżdżasz, jeżeli towar mieści się w dwóch kartonach",
+        "B": "Przejeżdżasz nocą, gdy natężenie ruchu w tunelu jest mniejsze",
+        "C": "Wybierasz trasę bez tunelu kategorii E"
+      },
+      "correct_option": "C",
+      "explanation": "Kod tunelowy E oznacza nałożenie na przewóz objęty tym ograniczeniem zakazu przejazdu przez tunel kategorii E. Kierowca powinien sprawdzić trasę i wybrać objazd, zamiast liczyć na to, że mała liczba kartonów albo pora nocna zmieni warunki przewozu. Żadna z tych okoliczności sama w sobie nie znosi ograniczenia tunelowego, dlatego A i B są błędne. Podstawa: ADR 8.6.4.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0084",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 8.6.4",
+      "question": "Jednostka transportowa podlega ograniczeniom tunelowym ADR i przewozi sztuki przesyłek z kodem D/E. Czy wolno jej wjechać do tunelu kategorii D na podstawie samego kodu ADR?",
+      "options": {
+        "A": "Nie, kod D/E zakazuje każdej kategorii A–E",
+        "B": "Tak, kod D/E w sztukach przesyłek zakazuje dopiero kategorii E",
+        "C": "Nie, kod D/E obejmuje też tunel D przy sztukach przesyłek, tak jak przy przewozie luzem"
+      },
+      "correct_option": "B",
+      "explanation": "Kod D/E trzeba odczytać w zależności od sposobu przewozu. Przy sztukach przesyłek oznacza on zakaz przejazdu przez tunel kategorii E, dlatego sam ten kod nie wyklucza tunelu D. Nie jest to ogólny zakaz wszystkich tuneli A–E; mogą jednak obowiązywać niezależne ograniczenia drogowe. Podstawa: ADR 8.6.4.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0117",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.2.1.1",
+      "question": "Który uczestnik powinien udostępnić przewoźnikowi dane i dokumenty wymagane do wykonania przewozu ADR?",
+      "options": {
+        "A": "Nadawca przesyłki ADR",
+        "B": "Przypadkowa osoba postronna spotkana na parkingu",
+        "C": "Odbiorca, ale dopiero po zakończeniu rozładunku"
+      },
+      "correct_option": "A",
+      "explanation": "Nadawca wie, jaki towar przekazuje do transportu, i dlatego powinien dostarczyć przewoźnikowi wymagane informacje oraz dokumenty. Bez nich trudno ustalić właściwe zasady przewozu. Przypadkowy przechodzień czy odbiorca dopiero po rozładunku nie mogą zastąpić nadawcy w tym obowiązku. Podstawa: ADR 1.4.2.1.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-abd1-1b9ba4100e70",
+        "quote": "zaopatrzyć przewoźnika w informacje i dane w formie możliwej do odczytania oraz, jeżeli to konieczne, w wymagane dokumenty przewozowe oraz dokumenty towarzyszące"
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0118",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.2.3.1",
+      "question": "Odbiorca towaru ADR chce odmówić przyjęcia przesyłki wyłącznie z powodu wygody, mimo braku ważnego powodu. Jaką zasadę wskazuje ADR?",
+      "options": {
+        "A": "Odbiorca może odmówić bez ważnego powodu, jeśli termin lub wygoda mu nie odpowiada",
+        "B": "Nie odmawiać bez ważnego powodu ani nie opóźniać czynności po rozładunku",
+        "C": "Odbiorca nie ma obowiązków ADR i może dowolnie odkładać przyjęcie przesyłki"
+      },
+      "correct_option": "B",
+      "explanation": "Odbiorca jest uczestnikiem przewozu ADR i ma własne obowiązki dotyczące przyjęcia ładunku. Nie powinien odmawiać przyjęcia bez ważnego powodu ani bez potrzeby opóźniać wykonania obowiązków po rozładunku. Wygoda odbiorcy nie oznacza dowolności, ale nie jest też prawdą, że nie ma żadnych obowiązków ADR. Podstawa: ADR 1.4.2.3.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-abd1-1b9ba4100e70",
+        "quote": "Odbiorca zobowiązany jest nie opóźniać przyjęcia towarów, jeżeli takie opóźnienie nie jest konieczne oraz sprawdzić, po rozładunku, czy zostały spełnione odnoszące się do niego wymagania ADR."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0120",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 1.10.1.2",
+      "question": "Nadawca chce przekazać towary niebezpieczne firmie przewozowej, której tożsamości nie zweryfikowano. Co wynika z ADR 1.10.1.2?",
+      "options": {
+        "A": "Przekazać towar tylko przewoźnikowi o sprawdzonej tożsamości",
+        "B": "Pominąć weryfikację, jeśli firma poda numer telefonu i adres e-mail",
+        "C": "Sprawdzać tożsamość jedynie przy pustych opakowaniach po towarach ADR"
+      },
+      "correct_option": "A",
+      "explanation": "Uczestnicy przewozu powinni upewnić się, że przekazują towary niebezpieczne właściwemu, zidentyfikowanemu odbiorcy lub przewoźnikowi. Weryfikacja tożsamości ogranicza ryzyko kradzieży i nieuprawnionego przejęcia ładunku. Sam numer telefonu i adres e-mail nie dowodzą, że firma jest tym, za kogo się podaje, a zasady nie dotyczą wyłącznie pustych opakowań. Podstawa: ADR 1.10.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-abd1-1b9ba4100e70",
+        "quote": "Towary niebezpieczne mogą być wydane do przewozu wyłącznie przewoźnikowi odpowiednio zidentyfikowanemu."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0127",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 2.1.1.3",
+      "question": "Która grupa pakowania, tam gdzie ADR stosuje grupy I, II i III, oznacza wysoki stopień zagrożenia?",
+      "options": {
+        "A": "Grupy I, II i III oznaczają jednakowy poziom zagrożenia",
+        "B": "Grupa I oznacza wysoki stopień zagrożenia",
+        "C": "Grupa III oznacza najwyższy stopień zagrożenia"
+      },
+      "correct_option": "B",
+      "explanation": "Grupa pakowania, jeśli dana pozycja ADR w ogóle ją stosuje, pokazuje poziom zagrożenia stwarzanego przez materiał. Grupa I oznacza wysoki stopień zagrożenia, grupa II — średni, a grupa III — niski. Nie są to trzy równoważne oznaczenia, a grupa III nie oznacza najwyższego ryzyka, dlatego A i C są błędne. Podstawa: ADR 2.1.1.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0131",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 8.4.1; 8.5; 3.2 tabela A kol. (19)",
+      "question": "Kiedy szczególne wymagania nadzoru pojazdu z 8.4 ADR mają zastosowanie?",
+      "options": {
+        "A": "Dla każdej przesyłki ADR, bez względu na rodzaj towaru i ilość",
+        "B": "Zależnie od uznania kierowcy, nawet jeśli przepisy nie wymagają nadzoru",
+        "C": "Dla określonych towarów i ilości wskazanych w przepisach szczególnych"
+      },
+      "correct_option": "C",
+      "explanation": "Niektóre towary niebezpieczne wymagają szczególnego nadzoru nad pojazdem ze względu na rodzaj i ilość ładunku. Takie obowiązki ustala się na podstawie odpowiednich przepisów wskazanych w tabeli A, a nie dla każdej przesyłki bez wyjątku. Sam kierowca nie może dowolnie zdecydować, że wymóg go nie dotyczy. Podstawa: ADR 8.4, 8.5 i tabela A kolumna 19.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0134",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.2",
+      "question": "Kto odpowiada za spełnienie wymagań pakowania i wspólnego pakowania w ADR 1.4.3.2?",
+      "options": {
+        "A": "Odbiorca, który przyjmuje przesyłkę dopiero po zakończeniu rozładunku",
+        "B": "Kierowca, bo kontroluje zamknięcie drzwi i stateczność ładunku",
+        "C": "Pakujący, który odpowiada za stosowanie zasad pakowania i pakowania razem"
+      },
+      "correct_option": "C",
+      "explanation": "Pakujący decyduje o przygotowaniu towarów do umieszczenia w opakowaniach, dlatego odpowiada za przestrzeganie zasad pakowania, w tym pakowania razem, jeśli ma ono zastosowanie. Nie można przerzucać tej czynności wyłącznie na odbiorcę po rozładunku ani na kierowcę podczas jazdy. Właściwe pakowanie zmniejsza ryzyko uszkodzenia i niebezpiecznych reakcji. Podstawa: ADR 1.4.3.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-abd1-1b9ba4100e70",
+        "quote": "Pakujący powinien stosować się w szczególności do: (a) wymagań dotyczących warunków pakowania, w tym pakowania razem; oraz (b) wymagań dotyczących oznakowania i stosowania nalepek ostrzegawczych, w przypadku, gdy przygotowuje sztuki przesyłek do przewozu."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0135",
+      "module_id": "ADR-B-07",
+      "clause": "ADR 2025, 1.4.3.7.1(b)",
+      "question": "Przed rozładunkiem rozładowca widzi uszkodzenie mogące spowodować niebezpieczny wyciek. Co robi?",
+      "options": {
+        "A": "Wstrzymać rozładunek do wdrożenia środków zapewniających bezpieczeństwo",
+        "B": "Rozpocząć rozładunek natychmiast, bez zabezpieczenia uszkodzonego opakowania",
+        "C": "Otworzyć opakowanie, aby samodzielnie ustalić skład jego zawartości"
+      },
+      "correct_option": "A",
+      "explanation": "Uszkodzenie opakowania może spowodować wyciek właśnie podczas rozładunku, kiedy ludzie stoją blisko przesyłek. Dlatego rozładowca powinien wstrzymać operację do czasu zastosowania odpowiednich środków bezpieczeństwa. Rozładunek bez zabezpieczenia lub samodzielne otwieranie opakowania nie rozwiązuje zagrożenia. Podstawa: ADR 1.4.3.7.1(b).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-abd1-1b9ba4100e70",
+        "quote": "sprawdzić przed i podczas rozładunku, czy opakowania, cysterna, pojazd lub kontener nie są uszkodzone w stopniu zagrażającym bezpieczeństwu czynności rozładunkowych. W przypadku stwierdzenia takiego uszkodzenia, upewnić się, że rozładunek nie będzie się odbywać do czasu zastosowania odpowiednich środków"
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0137",
+      "module_id": "ADR-B-08",
+      "clause": "ADR 2025, 9.1.2.1; 9.1.3",
+      "question": "Dla jakich kategorii pojazdów ADR przewiduje szczególne dopuszczenie według części 9?",
+      "options": {
+        "A": "Każdego samochodu osobowego z puszką farby",
+        "B": "Każdego dostawczego przewożącego niegroźny towar",
+        "C": "Między innymi EX/II, EX/III, FL, AT i MEMU"
+      },
+      "correct_option": "C",
+      "explanation": "Nie każdy pojazd ADR wymaga świadectwa dopuszczenia z części 9. EX/II i EX/III to typy pojazdów do określonych materiałów wybuchowych; FL i AT to kategorie pojazdów przeznaczonych do określonych przewozów cysternowych. MEMU oznacza mobilną jednostkę do wytwarzania materiałów wybuchowych. Sprawdź kategorię wymaganą dla konkretnego ładunku, zamiast zakładać, że każda ciężarówka ma te same wymagania. Podstawa: ADR 9.1.2.1 i 9.1.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0138",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.1.2",
+      "question": "Kontrola przed załadunkiem ADR wykazuje niezgodność wyposażenia pojazdu z wymaganiami. Co należy zrobić?",
+      "options": {
+        "A": "Nie rozpoczynać załadunku przed usunięciem stwierdzonej niezgodności",
+        "B": "Załadować mimo niezgodności, jeżeli do odbiorcy pozostała krótka trasa",
+        "C": "Przekazać ocenę wyposażenia odbiorcy dopiero po dostawie"
+      },
+      "correct_option": "A",
+      "explanation": "Przed załadunkiem trzeba upewnić się, że pojazd i jego wymagane wyposażenie nadają się do bezpiecznego przewozu. Jeśli kontrola ujawni niezgodność, załadunku nie należy rozpoczynać do jej usunięcia. Krótka trasa nie usuwa obowiązków, a odkładanie całej oceny na odbiorcę byłoby zbyt późne. Podstawa: ADR 7.5.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0139",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.3.1.1; 3.2 tabela A kol. (10),(17)",
+      "question": "W jakim przypadku ADR 7.3.1.1 dopuszcza przewóz towarów niebezpiecznych luzem w pojeździe lub kontenerze?",
+      "options": {
+        "A": "Gdy opakowania nie mieszczą się na palecie, można je przewieźć luzem bez dodatkowych warunków",
+        "B": "Gdy tabela A zawiera kod BK/VC albo odesłanie do przepisu szczególnego i spełniono warunki",
+        "C": "Gdy pojazd ma plandekę, a przewoźnik zatwierdził przewóz luzem bez sprawdzania tabeli"
+      },
+      "correct_option": "B",
+      "explanation": "Przewóz luzem oznacza transport towaru bez typowych sztuk przesyłek i wolno go zastosować tylko tam, gdzie ADR wyraźnie na to pozwala. Trzeba sprawdzić odpowiedni kod BK, VC lub szczególne odesłanie w tabeli A oraz wymagane warunki. Sama plandeka albo decyzja przewoźnika nie wystarcza do zalegalizowania przewozu luzem. Podstawa: ADR 7.3.1.1 oraz warunki 7.3.2 lub 7.3.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0141",
+      "module_id": "ADR-B-10",
+      "clause": "ADR 2025, 1.1.4.2; 1.1.4.3",
+      "question": "Który zestaw odpowiada gałęziom transportu towarów niebezpiecznych?",
+      "options": {
+        "A": "ADR — droga, RID — kolej, IMDG — morze",
+        "B": "ADR — morze, RID — lotnictwo, IMDG — droga",
+        "C": "ADR — kolej, RID — droga, IMDG — żegluga śródlądowa"
+      },
+      "correct_option": "A",
+      "explanation": "Dla towarów niebezpiecznych różne środki transportu mają własne przepisy. ADR dotyczy drogi, RID to przepisy dla przewozu kolejowego, a IMDG to międzynarodowy kodeks przewozu drogą morską. Gdy ładunek zmienia środek transportu, trzeba sprawdzić wymagania każdego odcinka, zamiast przenosić zasady jednego rodzaju transportu na wszystkie pozostałe. Podstawa: ADR 1.1.4.2–1.1.4.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0144",
+      "module_id": "ADR-B-12",
+      "clause": "ADR 2025, 8.4.1",
+      "question": "Przy przewozie objętym 8.4.1 ADR jaki postój bez bezpośredniego nadzoru może być dopuszczony?",
+      "options": {
+        "A": "Skorzystać z zabezpieczonej bazy lub terenu zakładu, jeśli jest dostępny",
+        "B": "Stanąć na poboczu drogi z dostępem publicznym, jeśli kierowca czuwa",
+        "C": "Wybrać parking z monitoringiem bez sprawdzenia, czy spełnia wymagania ADR"
+      },
+      "correct_option": "A",
+      "explanation": "Gdy przewóz wymaga nadzoru zgodnie z ADR 8.4.1, pojazdu nie można pozostawić po prostu w dowolnym miejscu. Odpowiednio zabezpieczona baza lub teren chronionego zakładu może spełniać warunki postoju bez bezpośredniego nadzoru. Cena parkingu czy wygodne pobocze nie decydują o dopuszczalności takiego postoju. Podstawa: ADR 8.4.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0148",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 8.2.1; prawo krajowe o uprawnieniach do kierowania",
+      "question": "Kierowca ma aktualne zaświadczenie ADR, ale nie ma prawa jazdy odpowiedniej kategorii na prowadzony zestaw. Co z tego wynika?",
+      "options": {
+        "A": "Zaświadczenie ADR wystarczy, jeśli kierowca nie wykonuje załadunku ani rozładunku",
+        "B": "Zaświadczenie ADR nie zastępuje prawa jazdy odpowiedniej kategorii dla zestawu",
+        "C": "Zaświadczenie ADR zastępuje kategorię prawa jazdy po ukończeniu kursu"
+      },
+      "correct_option": "B",
+      "explanation": "Zaświadczenie ADR dotyczy przygotowania do przewozu towarów niebezpiecznych, a prawo jazdy uprawnia do prowadzenia odpowiedniego pojazdu. Kierowca potrzebuje obu uprawnień, gdy są wymagane. Zaświadczenie ADR nie pozwala prowadzić zestawu bez właściwej kategorii, niezależnie od tego, czy wykonuje się załadunek. Podstawa: ADR 8.2.1 i przepisy o uprawnieniach kierowców.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0162",
+      "module_id": "ADR-B-02",
+      "clause": "ADR 2025, 5.2.2.2.2 (model nr 9A); 3.2 tabela A: UN 3551, UN 3552; 2.2.9.1.7.2",
+      "question": "Nalepka ostrzegawcza 9A może być wymagana podczas przewozu jakich baterii, zgodnie z odpowiednią pozycją ADR 2025?",
+      "options": {
+        "A": "Wybrane baterie litowe i sodowo-jonowe, np. UN 3551 lub UN 3552",
+        "B": "Przesyłki z materiałami zakaźnymi klasy 6.2, np. próbkami medycznymi",
+        "C": "Butle z gazem klasy 2.2, przewożone w klatce ochronnej"
+      },
+      "correct_option": "A",
+      "explanation": "Nalepka 9A jest przewidziana między innymi dla określonych baterii litowych i sodowo-jonowych, zgodnie z ich klasyfikacją i warunkami przewozu. Nie dotyczy automatycznie każdej baterii ani materiałów zakaźnych czy butli z gazem. Dlatego należy sprawdzić numer UN (identyfikator towaru niebezpiecznego) i właściwą pozycję ADR. Podstawa: ADR 5.2.2.2.2 i tabela A, np. UN 3551–3552.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0172",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.5.1.5",
+      "question": "Opakowanie ADR ma strzałki kierunkowe, a pracownik chce je położyć na boku, aby zmieściło się pod pasem. Co jest właściwe?",
+      "options": {
+        "A": "Odwrócić opakowanie, jeśli ładunek jest cięższy od opakowania",
+        "B": "Ustawić opakowanie zgodnie z kierunkiem wskazanym strzałkami",
+        "C": "Położyć na boku, jeśli pasy mocujące pozostają mocno napięte"
+      },
+      "correct_option": "B",
+      "explanation": "Strzałki kierunkowe na opakowaniu wskazują wymaganą pozycję sztuki przesyłki podczas przewozu. Opakowanie należy więc ustawić zgodnie z tym oznaczeniem, nawet jeśli ułożenie go na boku wydaje się wygodniejsze dla mocowania. Ciężar ładunku ani mocno napięte pasy nie pozwalają zignorować strzałek, ponieważ mogą zwiększyć ryzyko wycieku lub uszkodzenia. Podstawa: ADR 7.5.1.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0173",
+      "module_id": "ADR-B-09",
+      "clause": "ADR 2025, 7.3.1.1; 3.2 tabela A kol. (10),(17)",
+      "question": "Dla danego towaru nie znaleziono w kolumnach 10 i 17 tabeli A ani kodu BK/VC, ani wyraźnego odesłania dopuszczającego przewóz luzem. Co wynika z ADR 7.3.1.1?",
+      "options": {
+        "A": "Wystarczy szczelna plandeka i zabezpieczenie przed pyleniem",
+        "B": "Kierowca może wybrać przewóz luzem, jeśli materiał jest stały",
+        "C": "Nie, brak wskazania w ADR oznacza brak podstawy do przewozu luzem"
+      },
+      "correct_option": "C",
+      "explanation": "Przewóz luzem wolno zastosować tylko wtedy, gdy ADR wyraźnie dopuszcza taką metodę dla konkretnego towaru. Jeśli w tabeli A nie ma odpowiedniego kodu BK, VC ani szczególnego odesłania, nie można samodzielnie uznać przewozu luzem za dozwolony. Szczelna plandeka ani zgoda kierowcy nie zastępują przepisu; istnieją też odrębne reguły dla pustych opakowań. Podstawa: ADR 7.3.1.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0181",
+      "module_id": "ADR-B-04",
+      "clause": "ADR 2025, 8.4.1",
+      "question": "W przewozie objętym wymaganiami 8.4 ADR kierowca nie znajduje chronionego depozytu ani właściwego terenu zakładu. Co powinien zrobić?",
+      "options": {
+        "A": "Wybrać dowolne pobocze, bo brak miejsca zwalnia z dalszych poszukiwań",
+        "B": "Sprawdzić inne miejsca dopuszczone w 8.4.1, zamiast parkować dowolnie",
+        "C": "Uznać, że po pierwszej nieudanej próbie nie trzeba już szukać miejsca zgodnego z 8.4.1"
+      },
+      "correct_option": "B",
+      "explanation": "Przy przewozach wymagających nadzoru ADR określa, gdzie i pod jakimi warunkami można pozostawić pojazd. Gdy najlepiej chronione miejsce jest niedostępne, trzeba sprawdzić kolejne dopuszczone rozwiązania w odpowiedniej kolejności. Brak miejsca w bazie nie oznacza prawa do postoju na dowolnym poboczu ani końca obowiązków. Podstawa: ADR 8.4.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0600",
+      "module_id": "ADR-B-13",
+      "clause": "ADR 2025, 5.4.1.1.1(g)–(h)",
+      "question": "Dokument przewozowy zawiera dane odbiorcy, ale brakuje nazwy i adresu nadawcy. Nie wskazano żadnego wyjątku. Jak postąpić?",
+      "options": {
+        "A": "Zostawić dokument bez zmian, ponieważ adres odbiorcy wystarcza do identyfikacji przesyłki",
+        "B": "Wpisać adres kierowcy, bo to on odpowiada za dostarczenie ładunku",
+        "C": "Uzyskać brakujące dane nadawcy i uzupełnić dokument przed rozpoczęciem przewozu"
+      },
+      "correct_option": "C",
+      "explanation": "Dokument przewozowy co do zasady zawiera nazwę i adres zarówno nadawcy, jak i odbiorcy. Dane odbiorcy nie zastępują informacji o nadawcy, a adres kierowcy nie opisuje, kto nadał przesyłkę. Jeżeli nie ma zastosowania wyjątek przewidziany przepisami, brakujące dane należy uzyskać i uzupełnić przed wyjazdem. Podstawa: ADR 5.4.1.1.1(g)–(h).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0602",
+      "module_id": "ADR-B-11",
+      "clause": "ADR 2025, 1.9.5.3; 8.6.4",
+      "question": "Na planowanej trasie znajduje się tunel kategorii E, a przewożony towar ma kod tunelowy ograniczający przejazd przez tę kategorię. Czy kierowca może wjechać, jeśli tunel skraca trasę?",
+      "options": {
+        "A": "Tak, gdy przejazd jest krótszy i kierowca nie widzi zagrożenia na wlocie",
+        "B": "Nie; powinien uwzględnić kategorię tunelu i wybrać trasę dozwoloną dla tego przewozu",
+        "C": "Tak, jeżeli numer UN znajduje się w dokumencie i tablice pojazdu są prawidłowe"
+      },
+      "correct_option": "B",
+      "explanation": "Kod tunelowy wskazuje ograniczenia przejazdu przez określone kategorie tuneli. Jeśli kod towaru wyklucza tunel kategorii E, kierowca nie może wjechać tylko dlatego, że droga jest krótsza albo dokumenty są poprawne. Powinien zaplanować dozwoloną trasę przed dojazdem do tunelu. Podstawa: ADR 1.9.5.3 i 8.6.4.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — nie wpisano parafrazy jako cytatu; wymaga dalszego odczytu dokładnego podpunktu lub właściwego wiersza tabeli.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_unresolved",
+      "source_attempt_reason": "W dostępnej warstwie tekstowej MI ADR 2025 nie udało się wyodrębnić dokładnego brzmienia właściwego podpunktu/wiersza tabeli. Nie uznano parafrazy za cytat; rekord pozostaje otwarty."
+    },
+    {
+      "id": "ADR-B-0608",
+      "module_id": "ADR-B-01",
+      "clause": "ADR 2025, 2.1; 3.2, tabela A",
+      "question": "W tabeli A ADR przy danym numerze UN wskazano warunek, który zabrania przewozu tej substancji w opisanej postaci. Nadawca mimo to przygotował dokumenty. Co powinien zrobić przewoźnik?",
+      "options": {
+        "A": "Wstrzymać przewóz i wyjaśnić zakaz; prawidłowy dokument nie uchyla ograniczenia",
+        "B": "Rozpocząć przewóz, jeśli kierowca otrzymał instrukcje pisemne i gaśnice są sprawne",
+        "C": "Zastąpić numer UN nazwą handlową, aby nie wskazywać ograniczenia w tabeli"
+      },
+      "correct_option": "A",
+      "explanation": "Numer UN to czterocyfrowy identyfikator przypisany towarowi niebezpiecznemu; jego wpis w dokumencie nie oznacza jeszcze, że przewóz jest dozwolony w każdej postaci. Trzeba sprawdzić wymagania przy tym numerze w tabeli A ADR. Jeśli przewóz w opisanych warunkach jest zabroniony, należy go wstrzymać i wyjaśnić sprawę z nadawcą; dokumenty ani wyposażenie nie uchylają zakazu. Podstawa: ADR 2.1 i 3.2, tabela A.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-abd1-1b9ba4100e70",
+        "quote": "Towary niebezpieczne, które są wymienione lub zdefiniowane w podrozdziale 2.2.x.2 każdej klasy, nie są dopuszczone do przewozu."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; zakres wniosku ograniczony do wskazanego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch1_literal_quote",
+      "source_attempt_reason": null
+    }
+  ],
+  "kc_records": [
+    {
+      "id": "ADR-B-0567",
+      "source": "Kodeks cywilny, tekst jednolity Dz.U. 2025 poz. 1071",
+      "legal_source": "Kodeks cywilny, tekst jednolity Dz.U. 2025 poz. 1071, art. 415",
+      "source_url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+      "quote": "Kto z winy swej wyrządził drugiemu szkodę, obowiązany jest do jej naprawienia.",
+      "comparison_result": "zgodne_w_zakresie_cytatu",
+      "conclusion": "Treść pytania jest ogólna i ostrożna: samo uszkodzenie auta nie przesądza automatycznie o odpowiedzialności; art. 415 wymaga szkody wyrządzonej z winy. Nie potwierdzono sprzeczności ani nie zmieniono pytania.",
+      "official_gazette_comparison": "not_applicable_to_MI_ADR; KC source cited",
+      "verification_status": "needs_review",
+      "verified": false,
+      "question_or_key_changed": false
+    },
+    {
+      "id": "ADR-B-0568",
+      "source": "Kodeks cywilny, tekst jednolity Dz.U. 2025 poz. 1071",
+      "legal_source": "Kodeks cywilny, tekst jednolity Dz.U. 2025 poz. 1071, art. 471",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250001071/T/D20251071L.pdf",
+      "quote": "Dłużnik obowiązany jest do naprawienia szkody wynikłej z niewykonania lub nienależytego wykonania zobowiązania, chyba że niewykonanie lub nienależyte wykonanie jest następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi.",
+      "comparison_result": "zgodne_w_zakresie_cytatu",
+      "conclusion": "Wyjaśnienie poprawnie zachowuje wyjątek dla okoliczności, za które dłużnik nie odpowiada. Nie potwierdzono sprzeczności ani nie zmieniono pytania.",
+      "official_gazette_comparison": "not_applicable_to_MI_ADR; KC source cited",
+      "verification_status": "needs_review",
+      "verified": false,
+      "question_or_key_changed": false
+    },
+    {
+      "id": "ADR-B-0569",
+      "source": "Kodeks cywilny, tekst jednolity Dz.U. 2025 poz. 1071",
+      "legal_source": "Kodeks cywilny, tekst jednolity Dz.U. 2025 poz. 1071, art. 415 i 471",
+      "source_url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+      "quote": "Art. 415: Kto z winy swej wyrządził drugiemu szkodę, obowiązany jest do jej naprawienia. Art. 471: Dłużnik obowiązany jest do naprawienia szkody wynikłej z niewykonania lub nienależytego wykonania zobowiązania, chyba że niewykonanie lub nienależyte wykonanie jest następstwem okoliczności, za które dłużnik odpowiedzialności nie ponosi.",
+      "comparison_result": "zgodne_w_zakresie_cytatu",
+      "conclusion": "Wniosek, że samo naruszenie ADR nie przesądza automatycznie o osobistej odpowiedzialności za pełną szkodę, nie jest sprzeczny z przytoczonymi artykułami. Zakres odpowiedzialności zależy od podstawy prawnej i faktów. Nie zmieniono pytania.",
+      "official_gazette_comparison": "not_applicable_to_MI_ADR; KC source cited",
+      "verification_status": "needs_review",
+      "verified": false,
+      "question_or_key_changed": false
+    }
+  ],
+  "summary": {
+    "target_ids": 37,
+    "mi_exact_quotes_retrieved": 15,
+    "mi_exact_quote_still_missing": 22,
+    "KC_records_checked": 3,
+    "confirmed_discrepancies": 0,
+    "question_or_key_changes": 0,
+    "verified": 0,
+    "all_statuses_needs_review": true
+  },
+  "remaining_open_ids": [
+    "ADR-B-0026",
+    "ADR-B-0032",
+    "ADR-B-0033",
+    "ADR-B-0058",
+    "ADR-B-0060",
+    "ADR-B-0079",
+    "ADR-B-0083",
+    "ADR-B-0084",
+    "ADR-B-0127",
+    "ADR-B-0131",
+    "ADR-B-0137",
+    "ADR-B-0138",
+    "ADR-B-0139",
+    "ADR-B-0141",
+    "ADR-B-0144",
+    "ADR-B-0148",
+    "ADR-B-0162",
+    "ADR-B-0172",
+    "ADR-B-0173",
+    "ADR-B-0181",
+    "ADR-B-0600",
+    "ADR-B-0602"
+  ]
+}
