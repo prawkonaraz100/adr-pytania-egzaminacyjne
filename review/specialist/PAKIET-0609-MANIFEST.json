@@ -685,5 +685,14 @@
     "verification_status": "needs_review",
     "formal_approval": false,
     "quality_gate_test": "tests/test_review_packet_integrity.py::test_priority_legal_review_queue_stays_synchronized"
+  },
+  "secondary_priority_legal_review_queue": {
+    "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
+    "source_bank_blob_sha": "8a16afb47c5d5a9e460092b7e474b4a3e8a5a8d9",
+    "queue_count": 20,
+    "full_missing_quote_count": 121,
+    "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
+    "all_statuses": "needs_review",
+    "official_gazette_comparison": "pending"
   }
 }
