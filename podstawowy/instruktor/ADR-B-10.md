@@ -117,7 +117,7 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - Lekcja: [ADR-B-10](../lekcje/ADR-B-10.md). Scenariusze: [mapa scenariuszy](../praktyka/scenariusze-13-dzialow.json) — wyszukaj wskazane ID.
 - Bez potwierdzonej rozbieżności z oficjalnym tekstem ADR nie zmieniano podstaw prawnych ani banku. Dodatek wymaga niezależnego odbioru specjalisty.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Przygotuj dokumenty dla fikcyjnego odcinka morskiego i drogowego. Kursant ma rozdzielić wymagania dla każdej gałęzi i wskazać, jakie warunki trzeba sprawdzić, zanim zastosuje wyjątek. Nie oceniaj po samym rozpoznaniu skrótu IMDG; ważne jest uzasadnienie, dlaczego dokumenty jednego odcinka mogą nie wystarczyć dla następnego.
 
