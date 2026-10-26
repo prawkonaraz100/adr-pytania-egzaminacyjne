@@ -106,8 +106,8 @@ class LearnerGlossaryTests(unittest.TestCase):
         duplicate_anchors = sorted({slug for slug in anchors if anchors.count(slug) > 1})
         self.assertEqual(duplicate_anchors, [], f"duplicate glossary anchors: {duplicate_anchors}")
 
-        headings = re.findall(r"(?im)^\\| \\*\\*(.*?)\\*\\*", glossary)
-        normalized = [heading.strip().casefold() for heading in headings]
+        headings = [heading.strip() for heading in re.findall(r"(?im)^\\| \\*\\*(.*?)\\*\\*", glossary) if heading.strip()]
+        normalized = [heading.casefold() for heading in headings]
         duplicate_headings = sorted({heading for heading in normalized if normalized.count(heading) > 1})
         self.assertEqual(duplicate_headings, [], f"duplicate glossary headings: {duplicate_headings}")
 
