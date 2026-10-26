@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, karty o
 
 **Obserwowalne kryterium:** Nie ujawnia danych o realnej trasie.
 
-Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Jest to szkic do niezależnej recenzji, nie dowód zaliczenia ćwiczenia praktycznego ani legalna akceptacja pytania.
+Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obserwację i zalecenie. Materiał wymaga niezależnej recenzji; nie jest dowodem zaliczenia ćwiczenia praktycznego ani akceptacji prawnej pytania.
 
 
 
