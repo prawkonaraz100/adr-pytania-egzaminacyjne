@@ -234,3 +234,7 @@ Raporty ETAPU 4x7
 ## Etap 4x46 — próbka 60 i synchronizacja egzaminów
 
 - [Raport 4x46](raporty/etap-4x46-proba60-i-synchronizacja-2026-10-26.md): deterministyczna próbka 60 innych ID niż w 4x45; osiem ludzkich wyjaśnień poprawiono, 52 pozostawiono po sprawdzeniu. Skontrolowano 13 lekcji, 39 scenariuszy, pięć arkuszy egzaminu i pięć kluczy oraz pakiet recenzenta. Wszystkie pytania nadal `needs_review`.
+
+## Etap 4x47 — przegląd 13 sygnałów
+
+- [Raport 4x47](raporty/etap-4x47-13-sygnalow-heurystyki-2026-10-26.md): po sprawdzeniu 13 sygnałów heurystyki usunięto jedną potwierdzoną niezgodność explanation z A/B/C (ADR-B-0403). Dwanaście tekstów pozostawiono bez zmian; wszystkie nadal `needs_review`.
