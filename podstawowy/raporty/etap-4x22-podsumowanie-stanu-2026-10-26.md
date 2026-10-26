@@ -163,3 +163,11 @@ Nie należy deklarować sukcesu całego etapu ani zatwierdzać pytań, dopóki t
 - Wszystkie 40 rekordów w zakresie mają teraz aktualny zapis próby bezpośredniego źródła. 26 ma wcześniejszy wynik tekstowy oparty na kopii MI, 14 nie ma `literal_comparison_result`, a 4 mają cytat MI.
 - Nie znaleziono stron PDF Dz.U. 2025; żaden wcześniejszy wynik MI nie został uznany za potwierdzenie urzędowe. Nowych porównań z Dz.U.: 0; poprawki pytań: 0.
 - Raport: `podstawowy/raporty/etap-4x22-retry-0112-0151-2026-10-26.md`; rejestr: `review/batches/stage4x22-retry-0112-0151.json`.
+
+
+## Ponowna próba dla 0152–0191
+
+- Świeży `main`: `97b02e0d5365cda108c8dbb30100361f223b4056`.
+- Wszystkie 40 rekordów ponownie sprawdzono. 36 ma wcześniejszy wynik tekstowy, 4 nie mają `literal_comparison_result`; 10 ma cytaty MI.
+- Wszystkie 40 nadal nie mają potwierdzonej strony PDF Dz.U. 2025. Wynik MI nie został uznany za urzędowe potwierdzenie. Nowych porównań z Dz.U.: 0; poprawki pytań: 0.
+- Raport: `podstawowy/raporty/etap-4x22-retry-0152-0191-2026-10-26.md`; rejestr: `review/batches/stage4x22-retry-0152-0191.json`.
