@@ -45,7 +45,7 @@ def near_duplicate_pairs(questions, threshold=0.70):
     This is a regression guard, not a verdict that two legal questions are identical.
     """
     def words(stem):
-        return set(re.findall(r"[^\\W_]{3,}", stem.casefold(), flags=re.UNICODE))
+        return set(re.findall(r"[a-ząćęłńóśźż0-9]{3,}", stem.casefold(), flags=re.UNICODE))
     flagged = []
     for i, left in enumerate(questions):
         a = words(left.get("stem", ""))
