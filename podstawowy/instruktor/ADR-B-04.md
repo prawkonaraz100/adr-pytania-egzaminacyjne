@@ -2,6 +2,9 @@
 
 Materiały przeniesione z lekcji: plany zajęć, mapy kompetencji, zadania instruktorskie, kryteria obserwacji i informacje zwrotne. Nie są dowodem przeprowadzenia zajęć ani zaliczenia kursanta. Nie wpisuj fikcyjnych dat, ocen ani podpisów.
 
+**Słowniczek pojęć dla kursanta:** [SLOWNICZEK.md](../SLOWNICZEK.md).
+
+
 ## Zadanie instruktorskie: Bezpieczeństwo postoju
 
 **Scenariusz bez rzeczywistych towarów niebezpiecznych:** Na mapie trzech hipotetycznych miejsc postoju kursant analizuje, czy wymagany jest nadzór i porównuje kolejność dopuszczalnych miejsc.
