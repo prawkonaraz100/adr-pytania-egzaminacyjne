@@ -7,7 +7,7 @@
 W transporcie kombinowanym (jeden ładunek przewożony różnymi środkami transportu; [słowniczek](../SLOWNICZEK.md#transport-kombinowany)) kontener może część trasy pokonać statkiem lub koleją, a następnie ciężarówką. Dokumenty i oznakowanie z wcześniejszego odcinka nie zwalniają automatycznie z wymagań obowiązujących na odcinku drogowym. Przed wyjazdem ustal, które przepisy mają zastosowanie i czy wszystkie wymagane informacje są dostępne.
 
 ## Czego się nauczysz
-- odróżniać ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)), RID (RID dotyczy przewozu koleją, a IMDG przewozu morskiego; na drodze nadal sprawdzasz wymagania ADR; [słowniczek](../SLOWNICZEK.md#rid-imdg)) i IMDG jako przepisy dla różnych gałęzi transportu;
+- odróżniać ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)), RID (przepisy dla przewozu koleją; [słowniczek](../SLOWNICZEK.md#rid-imdg)) i IMDG jako przepisy dla różnych gałęzi transportu;
 - sprawdzać dokumenty po odcinku morskim;
 - rozumieć, kiedy może być wymagany dodatkowy wpis w dokumencie ADR;
 - sprawdzać certyfikat pakowania kontenera lub pojazdu, gdy jest wymagany;
