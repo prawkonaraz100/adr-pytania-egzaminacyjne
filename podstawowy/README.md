@@ -193,3 +193,8 @@ Raporty ETAPU 4x7
 ## Etap 4x34 — kontrola duplikatów i podpowiedzi
 
 - [Raport: duplikaty, podpowiedzi i synchronizacja egzaminów 001–005](raporty/etap-4x34-duplikaty-podpowiedzi-egzaminy-2026-10-26.md).
+
+
+## Etap 4x35 — duplikaty między działami
+
+- [Raport audytu i blokującego testu CI](raporty/etap-4x35-audyt-duplikatow-miedzy-dzialami-2026-10-26.md).
