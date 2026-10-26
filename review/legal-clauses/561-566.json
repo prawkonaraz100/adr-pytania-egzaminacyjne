@@ -201,15 +201,15 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Samo opróżnienie nie dowodzi, że zbiornik jest oczyszczony i wolny od niebezpiecznych pozostałości. Ocenę oprzeć na ADR 2025, 5.3.2.1.7; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "Zamknięcie dokumentu nie potwierdza, że zbiornik jest oczyszczony lub odgazowany i że można usunąć oznakowanie."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nie wolno samowolnie zamalowywać części tablic; oznakowanie zmienia się wyłącznie zgodnie z ADR. Ocenę oprzeć na ADR 2025, 5.3.2.1.7; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "Nie wolno samodzielnie usuwać numeru UN z tablicy; oznakowanie usuwa się lub zmienia zgodnie z warunkami ADR."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wstępny audyt redakcyjny; pełne porównanie polskiego tekstu Dz.U. 2025 poz. 642 i sprostowania oraz niezależna recenzja A/B/C pozostają otwarte.",
+      "notes_on_conditions": "Wstępny audyt redakcyjny; pełne porównanie polskiego tekstu Dz.U. 2025 poz. 642 i sprostowania oraz niezależna recenzja A/B/C pozostają otwarte. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -220,11 +220,11 @@
         "stem": "Pojazd ma pomarańczowe tablice wymagane dla przewozu. Po zakończeniu przewozu niebezpieczny towar usunięto, ale zbiornik nie został oczyszczony ani odgazowany. Jak postąpić z tablicami?",
         "options": {
           "A": "Nie zdejmować tablic przed spełnieniem warunków ADR",
-          "B": "Zawsze zdjąć tablice natychmiast po opróżnieniu, niezależnie od pozostałości",
-          "C": "Zostawić tylko dolny numer UN, a górny numer zagrożenia zamalować"
+          "B": "Zdjąć tablice po opróżnieniu, jeśli dokument przewozowy został zamknięty, niezależnie od stanu zbiornika.",
+          "C": "Zostawić tablice, ale usunąć numer UN, bo po opróżnieniu nie wskazuje już zawartości."
         },
         "correct_option": "A",
-        "explanation": "Samo opróżnienie zbiornika nie oznacza, że przestał on stwarzać zagrożenie. Jeśli nie został odpowiednio oczyszczony ani odgazowany, oznakowanie może nadal być wymagane. Nie zdejmuj tablic ani nie zamalowuj numerów; kierowca powinien najpierw potwierdzić stan zbiornika i właściwe warunki usunięcia oznakowania. Podstawa: ADR 5.3.2.1.7.",
+        "explanation": "Samo opróżnienie zbiornika ani zamknięcie dokumentu nie dowodzą, że nie pozostało zagrożenie. Dopóki zbiornik nie spełnia warunków ADR dotyczących oczyszczenia lub odgazowania, wymagane oznakowanie może nadal być potrzebne. Nie wolno też samodzielnie usuwać jednego z numerów z tablicy. Sprawdź rzeczywisty stan zbiornika i warunki usunięcia oznakowania. Podstawa: ADR 5.3.2.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
