@@ -1,0 +1,1032 @@
+{
+  "date": "2026-10-26",
+  "stage": "4x24",
+  "batch": "4 — 40 rekordów, zakres ADR-B-0502–0578",
+  "base_main": "00c37a92e7b0ffa970538f27c9894b3915022373",
+  "comparison_basis": "MI ADR 2025 PL (pomocniczy); Dz.U. 2025 poz. 642 i sprostowanie poz. 1575 pozostają pending",
+  "mi_sources": [
+    {
+      "title": "ADR 2025 PL tom I",
+      "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-ab4c-90b913bb0a10"
+    },
+    {
+      "title": "ADR 2025 PL tom II",
+      "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+    }
+  ],
+  "records": [
+    {
+      "id": "ADR-B-0502",
+      "module_id": "ADR-B-02",
+      "clause": [
+        "ADR 2025, 2.2.9.1.7.2(d)"
+      ],
+      "question": "Bateria sodowo-jonowa z równolegle połączonymi ogniwami nie ma rozwiązania chroniącego przed niebezpiecznym przepływem wstecznym prądu. Czy spełnia 2.2.9.1.7.2?",
+      "options": {
+        "A": "Tak; kartonowe opakowanie wystarcza, nawet bez zabezpieczenia elektrycznego",
+        "B": "Tak; ochrona przed przepływem wstecznym jest potrzebna wyłącznie przy pełnym naładowaniu",
+        "C": "Nie; potrzebne jest zabezpieczenie przed niebezpiecznym prądem wstecznym"
+      },
+      "correct_option": "C",
+      "explanation": "Przy równolegle połączonych ogniwach trzeba zapobiec niebezpiecznemu przepływowi wstecznemu prądu, np. za pomocą odpowiednich diod lub bezpieczników. Karton ani brak naładowania nie zastępują zabezpieczenia konstrukcyjnego. Liczy się skuteczna ochrona w warunkach przewozu. Podstawa: ADR 2.2.9.1.7.2(d).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0508",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.1(a)"
+      ],
+      "question": "Przed wyjazdem kierowca sprawdza dokument przewozowy dla benzyny. W polu identyfikacji zapisano „1203 BENZYNA”, bez liter „UN”. Jaką niezgodność powinien zgłosić do poprawy dokumentu?",
+      "options": {
+        "A": "Dodać wymagane litery „UN” przed numerem 1203",
+        "B": "Zastąpić numer 1203 kodem tunelowym, który powinien poprzedzać nazwę benzyny",
+        "C": "Zastąpić numer UN numerem rejestracyjnym pojazdu przewożącego benzynę"
+      },
+      "correct_option": "A",
+      "explanation": "W opisie towaru niebezpiecznego numer UN (identyfikator towaru niebezpiecznego) zapisuje się z literami „UN” przed czterema cyframi, na przykład „UN 1203”. Sam zapis „1203” nie spełnia w pełni tego wymogu. Kod tunelowy opisuje ograniczenia trasy, a numer rejestracyjny identyfikuje pojazd — żaden z nich nie zastępuje numeru UN. Podstawa: ADR 5.4.1.1.1(a).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0510",
+      "module_id": "ADR-B-02",
+      "clause": [
+        "ADR 2025, 2.2.43.1.1"
+      ],
+      "question": "Kierowca przed rozładunkiem dostrzega mokre opakowanie z nalepką klasy 4.3. Pracownik proponuje polewać je wodą, żeby usunąć zabrudzenia. Jakie zagrożenie należy uwzględnić?",
+      "options": {
+        "A": "Kontakt z wodą może uwolnić palny gaz, który z powietrzem tworzy mieszaninę wybuchową",
+        "B": "Kontakt z wodą oznacza przede wszystkim ryzyko promieniowania jonizującego z opakowania",
+        "C": "Kontakt z wodą zmienia klasyfikację 4.3 na klasę 8 i usuwa ryzyko wydzielania gazu"
+      },
+      "correct_option": "A",
+      "explanation": "Materiały klasy 4.3 mogą reagować z wodą i wydzielać palny gaz, który w połączeniu z powietrzem może tworzyć mieszaninę wybuchową. Dlatego mokrego opakowania nie należy po prostu polewać wodą ani uznawać, że zmieniło klasę na 8. Trzeba odsunąć ludzi i postępować zgodnie z instrukcjami. Podstawa: ADR 2.2.43.1.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0512",
+      "module_id": "ADR-B-11",
+      "clause": [
+        "ADR 2025, 8.6.4; 3.4.13; 3.4.14"
+      ],
+      "question": "Dyspozytor planuje przejazd przez tunel kategorii E. Jednostka transportowa przewozi towary w ilościach ograniczonych LQ i wymaga znaku pojazdu zgodnie z 3.4.13, z uwzględnieniem 3.4.14. Jaką trasę powinien wybrać, gdy mają zastosowanie ograniczenia ADR 8.6.4?",
+      "options": {
+        "A": "Można jechać przez tunel E, bo oznakowanie LQ nie wprowadza żadnych ograniczeń tunelowych",
+        "B": "Można jechać przez tunel E, jeśli pojazd nie musi mieć tablic pomarańczowych",
+        "C": "Należy wybrać trasę omijającą tunel E, gdy kod LQ powoduje takie ograniczenie"
+      },
+      "correct_option": "C",
+      "explanation": "Jeżeli jednostka transportowa musi mieć znak LQ (od ang. limited quantities — ilości ograniczone) zgodnie z 3.4.13, z uwzględnieniem 3.4.14, kod tunelowy może zakazywać wjazdu do kategorii E. Nie oznacza to zakazu dla każdej przesyłki LQ bez względu na ilość i oznakowanie. Przed wyborem trasy sprawdź, czy znak na jednostce jest wymagany. Podstawa: ADR 8.6.4 oraz 3.4.13–3.4.14.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0516",
+      "module_id": "ADR-B-05",
+      "clause": [
+        "ADR 2025, 5.4.3.3"
+      ],
+      "question": "Przed odjazdem kierowca odbiera od przewoźnika instrukcje pisemne ADR, ale nie zdążył zapoznać się z działaniami na wypadek awarii dotyczącej przewożonego towaru. Co powinien zrobić?",
+      "options": {
+        "A": "Przed odjazdem poznać właściwości towaru i instrukcje, a wątpliwości wyjaśnić",
+        "B": "Przeczytać instrukcje dopiero po zatrzymaniu na pierwszym parkingu",
+        "C": "Sprawdzić tylko numer UN i pozostawić instrukcje do analizy służbom ratowniczym"
+      },
+      "correct_option": "A",
+      "explanation": "Przed rozpoczęciem podróży członkowie załogi muszą poznać przewożone towary i zapoznać się z instrukcjami pisemnymi dotyczącymi wypadku lub awarii. Nie należy odkładać lektury do pierwszego parkingu ani pozostawiać jej ratownikom. Znajomość instrukcji pozwala szybko i bezpiecznie zareagować, gdy wydarzy się incydent. Podstawa: ADR 5.4.3.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL",
+        "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+        "quote": "Przed rozpoczęciem przewozu, członkowie załogi pojazdu powinni dowiedzieć się jakie towary niebezpieczne są załadowane oraz sprawdzić w instrukcjach pisemnych, jakie czynności powinny być podjęte w razie zaistnienia wypadku lub zagrożenia."
+      },
+      "literal_comparison_result": "fragment_MI_wydobyty — cytat dosłowny; wniosek ograniczony do przytoczonego fragmentu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_literal_quote",
+      "source_attempt_reason": null
+    },
+    {
+      "id": "ADR-B-0520",
+      "module_id": "ADR-B-01",
+      "clause": [
+        "ADR 2025, 1.3.3"
+      ],
+      "question": "Inspektor właściwej władzy prosi pracodawcę o dokumentację szkolenia ADR 1.3 pracownika kompletującego przesyłki. Jak powinien postąpić pracodawca?",
+      "options": {
+        "A": "Udostępnić właściwej władzy ewidencję szkolenia na jej żądanie",
+        "B": "Przekazać jedynie podpis pracownika, bez dokumentacji szkolenia",
+        "C": "Udostępnić ewidencję tylko po ponownym przeszkoleniu pracownika"
+      },
+      "correct_option": "A",
+      "explanation": "Pracodawca powinien przechowywać zapisy szkolenia ADR 1.3 i udostępnić je właściwej władzy na żądanie. Sam podpis pracownika nie pokazuje pełnej dokumentacji szkolenia, a ponowne szkolenie nie jest warunkiem okazania już istniejących zapisów. Ewidencja pozwala potwierdzić spełnienie obowiązku szkoleniowego. Podstawa: ADR 1.3.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0521",
+      "module_id": "ADR-B-01",
+      "clause": [
+        "ADR 2025, 1.3.3"
+      ],
+      "question": "Pracownik przechodzi do nowego przedsiębiorstwa i ma wykonywać czynności podlegające szkoleniu ADR 1.3. Co należy sprawdzić przy rozpoczęciu zatrudnienia?",
+      "options": {
+        "A": "Sprawdzić wyłącznie, czy nazwa nowego stanowiska jest identyczna z poprzednią i opisuje te same zadania",
+        "B": "Zweryfikować zapisy dotyczące wcześniejszego szkolenia przed przydzieleniem zadań ADR",
+        "C": "Sprawdzić jedynie świadectwo ukończenia szkoły, bez weryfikacji wcześniejszego szkolenia ADR"
+      },
+      "correct_option": "B",
+      "explanation": "Przy rozpoczęciu nowego zatrudnienia należy sprawdzić zapisy wcześniejszego szkolenia pracownika, aby ustalić, czy przygotowanie odpowiada jego nowym obowiązkom. Sama zgodność nazwy stanowiska ani świadectwo szkolne nie potwierdzają szkolenia ADR. W razie braków trzeba zapewnić wymagane przeszkolenie. Podstawa: ADR 1.3.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0522",
+      "module_id": "ADR-B-01",
+      "clause": [
+        "ADR 2025, 1.3.2.2"
+      ],
+      "question": "Pracownik terminalu obsługuje drogowo-morski łańcuch transportowy z towarami niebezpiecznymi. Jakie szkolenie funkcjonalne dotyczące innych gałęzi transportu przewiduje ADR?",
+      "options": {
+        "A": "Szkolenie obejmuje wyłącznie drogowy odcinek, bez operacji przeładunkowych",
+        "B": "Wystarczy szkolenie z dokumentacji magazynowej, bez wymagań innych gałęzi transportu",
+        "C": "Szkolenie powinno uwzględniać wymagania właściwe dla pozostałych gałęzi transportu"
+      },
+      "correct_option": "C",
+      "explanation": "Gdy towar jedzie częścią trasy ciężarówką, a dalej statkiem, pracownik terminalu może uczestniczyć także w przeładunku i dokumentacji dla kolejnego etapu. Dlatego szkolenie musi obejmować zasady innych gałęzi transportu, jeśli dotyczą jego pracy; samo szkolenie drogowe lub magazynowe nie wystarczy. Zakres dobiera się do wykonywanych zadań. Podstawa: ADR 1.3.2.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0523",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.1(c)"
+      ],
+      "question": "W dokumencie przewozowym kierowca widzi klasę zagrożenia głównego, ale towar ma też nalepkę zagrożenia dodatkowego wskazaną w tabeli A. Jak zapisać numer tego zagrożenia dodatkowego?",
+      "options": {
+        "A": "Numer nalepki zagrożenia dodatkowego należy podać w nawiasie przy opisie towaru",
+        "B": "Wystarczy podać kolor nalepki dodatkowej i nazwę handlową, bez numeru zagrożenia",
+        "C": "Numer zagrożenia dodatkowego zastępuje numer klasy głównej i usuwa go z opisu"
+      },
+      "correct_option": "A",
+      "explanation": "Jeśli dla towaru wymagane jest wskazanie zagrożenia dodatkowego, jego numer nalepki podaje się w nawiasach w odpowiednim opisie przewozowym. Sam kolor nalepki nie identyfikuje dokładnie zagrożenia, a zastąpienie nim klasy głównej zniekształca opis towaru. Trzeba zachować oba wymagane elementy. Podstawa: ADR 5.4.1.1.1(c).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0524",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.1(d)"
+      ],
+      "question": "Dla przewożonego towaru tabela A podaje grupę pakowania II. Kierowca sprawdza opis towaru w dokumencie przewozowym. Jak powinna być uwzględniona ta informacja?",
+      "options": {
+        "A": "Zastąpić grupę pakowania II numerem rejestracyjnym pojazdu w dokumencie",
+        "B": "Uwzględnić grupę pakowania II w wymaganym opisie przewożonego towaru",
+        "C": "Wpisać grupę pakowania wyłącznie do instrukcji pisemnych załogi"
+      },
+      "correct_option": "B",
+      "explanation": "Jeżeli tabela A przypisuje towarowi grupę pakowania, wymaganą grupę należy uwzględnić w dokumencie przewozowym. Numer rejestracyjny pojazdu nie ma z nią związku, a instrukcje pisemne nie zastępują opisu w dokumencie. Grupa pakowania pomaga określić stopień zagrożenia danego materiału. Podstawa: ADR 5.4.1.1.1(d).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0525",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.1(k)"
+      ],
+      "question": "Plan przewozu ADR prowadzi przez tunel z ograniczeniami, a dla towaru w kolumnie (15) podano kod D/E. Co należy umieścić w wymaganym dokumencie przewozowym?",
+      "options": {
+        "A": "Dodać numer rejestracyjny za każdym oznaczeniem klasy zagrożenia",
+        "B": "Wpisać słowny opis trasy, pomijając kod tunelowy wskazany w tabeli A",
+        "C": "Wpisać właściwy kod ograniczenia tunelowego w nawiasach w dokumencie"
+      },
+      "correct_option": "C",
+      "explanation": "Kod ograniczenia tunelowego, gdy jest wymagany, wpisuje się w dokumencie przewozowym w nawiasach. Sam opis trasy bez kodu może nie przekazać wymaganej informacji, a numer rejestracyjny nie ma z tym związku. Przepis przewiduje wyjątek w określonej sytuacji, np. gdy trasa nie prowadzi przez tunele objęte ograniczeniami. Podstawa: ADR 5.4.1.1.1(k).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0528",
+      "module_id": "ADR-B-01",
+      "clause": [
+        "ADR 2025, 3.5.4.3"
+      ],
+      "question": "Magazynier umieszcza przesyłki oznaczone EQ w opakowaniu zbiorczym. Oznaczenia wewnętrznych sztuk nie są widoczne. Jakie dodatkowe oznakowanie opakowania zbiorczego przewiduje ADR 3.5.4.3?",
+      "options": {
+        "A": "Dodać numer rejestracyjny pojazdu zamiast oznaczeń wymaganych dla EQ",
+        "B": "Pozostawić tylko znak EQ, nawet jeśli oznakowanie wewnętrznych sztuk nie jest widoczne",
+        "C": "Umieścić napis OVERPACK oraz odpowiednie oznaczenia EQ na opakowaniu zbiorczym"
+      },
+      "correct_option": "C",
+      "explanation": "Jeżeli znaki EQ (ilości wyłączone) na wewnętrznych sztukach przesyłek nie są widoczne na opakowaniu zbiorczym, trzeba umieścić wymagane oznaczenie opakowania zbiorczego „OVERPACK” i odpowiednie znaki EQ. Numer rejestracyjny nie jest oznakowaniem przesyłki, a sam napis OVERPACK bez znaków może nie przekazać wymaganych informacji. Podstawa: ADR 3.5.4.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0529",
+      "module_id": "ADR-B-01",
+      "clause": [
+        "ADR 2025, 1.3.2.3"
+      ],
+      "question": "Pracownik punktu przeładunkowego ma kontakt z niebezpiecznymi substancjami podczas typowych obowiązków. Jaki element szkolenia odpowiada wymaganiu ADR 1.3.2.3?",
+      "options": {
+        "A": "Zagrożenia, środki ochronne i reagowanie na zdarzenia",
+        "B": "Szkolenie dotyczy głównie grafiku kierowców i planowania zużycia paliwa",
+        "C": "Szkolenie obejmuje wyłącznie archiwizowanie faktur i dokumentów księgowych"
+      },
+      "correct_option": "A",
+      "explanation": "Szkolenie bezpieczeństwa ma wyjaśniać zagrożenia związane z towarami niebezpiecznymi, bezpieczne postępowanie i reakcję w sytuacji awaryjnej. Harmonogram kierowców ani księgowanie dokumentów nie przygotowują pracownika do rozpoznania ryzyka i ochrony ludzi. Zakres szkolenia powinien odpowiadać jego obowiązkom. Podstawa: ADR 1.3.2.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0530",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.3"
+      ],
+      "question": "Kierowca odbiera odpad niebezpieczny inny niż radioaktywny. Nazwa przewozowa w dokumencie nie zawiera wymaganego słowa wskazującego odpad. Co należy zweryfikować zgodnie z ADR 5.4.1.1.3?",
+      "options": {
+        "A": "Wystarczy oznaczyć odpad na fakturze, bez poprawiania dokumentu przewozowego ADR",
+        "B": "Dodać słowo ODPAD przed nazwą przewozową, gdy wymaga tego ADR 5.4.1.1.3",
+        "C": "Zastąpić numer UN dowolnym kodem odpadu, bez nazwy przewozowej ADR"
+      },
+      "correct_option": "B",
+      "explanation": "Dla odpowiedniego odpadu niepromieniotwórczego w dokumencie przewozowym przed właściwą nazwą przewozową należy umieścić słowo „ODPAD”, jeśli nie jest już częścią tej nazwy. Sama adnotacja na fakturze nie zastępuje wymaganego opisu ADR, a kod odpadu nie zastępuje numeru UN — czterocyfrowego identyfikatora towaru niebezpiecznego — ani nazwy przewozowej. Podstawa: ADR 5.4.1.1.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0531",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.5"
+      ],
+      "question": "Uszkodzoną sztukę przesyłki ADR umieszczono zgodnie z przepisami w opakowaniu awaryjnym typu salvage packaging. Co należy dodać do dokumentu przewozowego?",
+      "options": {
+        "A": "Dodać tylko oświadczenie kierowcy, że opakowanie awaryjne jest wystarczająco mocne",
+        "B": "Podać kolor opakowania awaryjnego, ale pominąć jego rodzaj w opisie towaru",
+        "C": "Po opisie towaru dodać wymagane określenie opakowania awaryjnego"
+      },
+      "correct_option": "C",
+      "explanation": "Gdy uszkodzoną sztukę umieszczono w opakowaniu awaryjnym typu salvage packaging, dokument przewozowy powinien zawierać określenie „SALVAGE PACKAGING” po opisie towaru. Oświadczenie kierowcy o wytrzymałości opakowania ani jego kolor nie spełniają tego wymogu. Wpis pozwala rozpoznać szczególny sposób zabezpieczenia przesyłki. Podstawa: ADR 5.4.1.1.5.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0532",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.6.1"
+      ],
+      "question": "Po opróżnieniu pojemnika, który pozostaje nieoczyszczony i zawiera pozostałości materiału ADR klasy innej niż 7, sporządza się wymagany dokument przewozowy. Jak uwzględnić stan pojemnika?",
+      "options": {
+        "A": "Dodać określenie pusty, nieoczyszczony lub pozostałość po zawartości",
+        "B": "Pominąć pozostałości w dokumencie, ponieważ pojemnik został już opróżniony",
+        "C": "Zastąpić opis materiału numerem magazynowym przypisanym do pojemnika"
+      },
+      "correct_option": "A",
+      "explanation": "Pojemnik opróżniony, lecz nieoczyszczony, nadal może zawierać niebezpieczne pozostałości. W dokumencie trzeba więc użyć właściwego określenia, np. „PUSTY, NIEOCZYSZCZONY” albo „POZOSTAŁOŚĆ PO OSTATNIEJ ZAWARTOŚCI”, zależnie od sytuacji. Sam fakt opróżnienia nie usuwa zagrożenia, a numer magazynowy nie zastępuje opisu ADR. Podstawa: ADR 5.4.1.1.6.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0533",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.4.1"
+      ],
+      "question": "Towary ADR nadawane są w Polsce do innego państwa. Dokument przewozowy sporządzono wyłącznie po polsku, bez zastosowania odpowiedniego porozumienia językowego. Co wynika z 5.4.1.4.1?",
+      "options": {
+        "A": "Język polski zawsze wystarcza w przewozie międzynarodowym, bez dodatkowej wersji",
+        "B": "Dodać wersję w języku angielskim, francuskim albo niemieckim, zgodnie z ADR",
+        "C": "Zastąpić tekst dokumentu symbolami nalepek, bo są rozpoznawalne międzynarodowo"
+      },
+      "correct_option": "B",
+      "explanation": "Przy przewozie międzynarodowym dokument powinien być sporządzony w języku urzędowym kraju nadania, a gdy nie jest to angielski, francuski ani niemiecki, należy dodać jeden z tych języków, z uwzględnieniem przewidzianych wyjątków. Polski tekst sam w sobie nie zawsze wystarczy. Symbole nalepek nie zastępują wymaganej treści dokumentu. Podstawa: ADR 5.4.1.4.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0534",
+      "module_id": "ADR-B-01",
+      "clause": [
+        "ADR 2025, 3.4.11"
+      ],
+      "question": "Na terminalu połączono kilka opakowań LQ w opakowanie zbiorcze. Oznaczenia LQ poszczególnych sztuk są niewidoczne. Jak powinno być oznakowane opakowanie zbiorcze?",
+      "options": {
+        "A": "Oznakować znakiem LQ i napisem OVERPACK, zgodnie z 3.4.11",
+        "B": "Umieścić wyłącznie numery UN, pomijając wymagany napis opakowania zbiorczego",
+        "C": "Włożyć listę przewozową pod folię i uznać ją za zastępstwo oznakowania LQ"
+      },
+      "correct_option": "A",
+      "explanation": "Jeśli znaki LQ (od ang. limited quantities — ilości ograniczone) na poszczególnych opakowaniach są zasłonięte w opakowaniu zbiorczym, opakowanie zbiorcze musi zostać odpowiednio oznakowane, w tym znakiem LQ i napisem „OVERPACK”, zgodnie z warunkami przepisu. Same numery UN ani ukryty list przewozowy nie zastępują tych oznaczeń. Podstawa: ADR 3.4.11.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0536",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.1"
+      ],
+      "question": "Na kontroli dokumentów stwierdzono, że opis pozycji ADR zawiera właściwe dane UN, nazwę przewozową, klasę, grupę pakowania i kod tunelowy, ale zapisano je w przypadkowej kolejności. Co należy sprawdzić?",
+      "options": {
+        "A": "Sprawdzić, czy kolejność danych można dowolnie zmieniać bez wpływu na wymagania ADR",
+        "B": "Umieścić kod tunelowy przed numerem UN, niezależnie od pozostałych elementów opisu",
+        "C": "Sprawdzić, czy dane z 5.4.1.1.1 podano w wymaganej kolejności"
+      },
+      "correct_option": "C",
+      "explanation": "Dane wymagane w opisie towaru nie mogą być wpisywane w przypadkowej kolejności. ADR określa kolejność podstawowych elementów, takich jak numer UN (identyfikator towaru niebezpiecznego), nazwa przewozowa, klasa, grupa pakowania i kod tunelowy, z uwzględnieniem szczególnych wyjątków. Dowolna zamiana pól może utrudnić prawidłowe odczytanie dokumentu. Podstawa: ADR 5.4.1.1.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0537",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.1(f)"
+      ],
+      "question": "W jednym dokumencie przewozowym wykazano dwa różne towary niebezpieczne, o innych numerach UN. Co należy sprawdzić przy podawaniu całkowitej ilości zgodnie z 5.4.1.1.1(f)?",
+      "options": {
+        "A": "Podać całkowitą ilość osobno dla każdego rodzaju towaru niebezpiecznego",
+        "B": "Wpisać jedną łączną liczbę dla całego ładunku, bez rozróżniania różnych towarów",
+        "C": "Zastąpić ilość towaru masą własną pojazdu, aby uprościć dokumentację"
+      },
+      "correct_option": "A",
+      "explanation": "Gdy dokument obejmuje kilka różnych towarów niebezpiecznych, ilość należy podać oddzielnie dla każdego właściwie rozróżnionego rodzaju towaru i w wymaganej jednostce. Jedna suma bez rozdzielenia może ukryć, ile przypada na konkretny numer UN (identyfikator towaru niebezpiecznego). Masa własna pojazdu nie jest ilością przewożonego towaru. Podstawa: ADR 5.4.1.1.1(f).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0538",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.4.2"
+      ],
+      "question": "Nadawca dzieli przesyłkę między dwa pojazdy, bo nie mieści się w jednym. Jak rozwiązuje kwestię dokumentów przewozowych według 5.4.1.4.2?",
+      "options": {
+        "A": "Wystawić jeden dokument i pozostawić go tylko w jednym z pojazdów zestawu",
+        "B": "Dokument lub kopia dla każdej załadowanej jednostki transportowej",
+        "C": "Zastąpić dokumentację ustnym przekazaniem informacji każdemu z kierowców"
+      },
+      "correct_option": "B",
+      "explanation": "Jeżeli ładunek zostaje rozdzielony między kilka jednostek transportowych, dokumentacja musi być dostępna dla każdej z nich. Dlatego należy przygotować tyle odrębnych dokumentów lub kopii, ile załadowano jednostek. Jeden dokument pozostawiony w wybranym pojeździe ani ustne przekazanie danych nie zapewnia wymaganej dokumentacji pozostałym kierowcom. Podstawa: ADR 5.4.1.4.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0541",
+      "module_id": "ADR-B-02",
+      "clause": [
+        "ADR 2025, 5.2.2.2.2; 2.2.2.1.2"
+      ],
+      "question": "Na pokazanym schemacie nalepki ADR kierowca widzi zielony romb, symbol butli i cyfrę 2. Który rodzaj zagrożenia przedstawia wzór nalepki 2.2?",
+      "options": {
+        "A": "Gaz palny, który wymaga nalepki ostrzegawczej wzoru 2.1.",
+        "B": "Gaz niepalny i nietrujący, oznaczany nalepką wzoru 2.2.",
+        "C": "Gaz trujący, oznaczany nalepką wzoru 2.3."
+      },
+      "correct_option": "B",
+      "explanation": "Zielona nalepka z symbolem butli i cyfrą 2 oznacza klasę 2.2, czyli gaz niepalny i nietrujący. Gaz palny należy do klasy 2.1, a gaz trujący do 2.3; ich nalepki różnią się wyglądem i oznaczeniem. Przy rozpoznawaniu zagrożenia należy patrzeć na cały wzór, a nie tylko na symbol butli. Podstawa: ADR 5.2.2.2.2 i 2.2.2.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0542",
+      "module_id": "ADR-B-02",
+      "clause": [
+        "ADR 2025, 5.2.2.2.2; 2.2.3.1.1"
+      ],
+      "question": "Na autorskim schemacie nalepki widoczny jest czerwony romb z białym płomieniem i cyfrą 3. Jaką klasę towarów niebezpiecznych reprezentuje ten wzór?",
+      "options": {
+        "A": "Klasa 3: materiały ciekłe zapalne, oznaczane czerwonym rombem z płomieniem.",
+        "B": "Klasa 2.1: gazy palne pod ciśnieniem, oznaczane nalepką z symbolem płomienia.",
+        "C": "Klasa 4.1: materiały stałe zapalne, które mają odrębny wzór nalepki ADR."
+      },
+      "correct_option": "A",
+      "explanation": "Czerwony romb z płomieniem i cyfrą 3 oznacza klasę 3, czyli materiały ciekłe zapalne. Gazy palne należą do klasy 2.1, a materiały stałe zapalne do 4.1, więc sam płomień nie wystarcza do rozpoznania klasy. Kolor tła, numer i pełny wzór nalepki trzeba odczytać łącznie. Podstawa: ADR 5.2.2.2.2 i 2.2.3.1.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0546",
+      "module_id": "ADR-B-06",
+      "clause": [
+        "ADR 2025, 5.3.1.1; 5.3.1.2"
+      ],
+      "question": "Po załadunku opakowań ADR do kontenera stwierdzono, że wymagane nalepki dużego formatu są nieczytelne. Co należy zrobić przed rozpoczęciem przewozu?",
+      "options": {
+        "A": "Rozpocząć przewóz, bo wystarczy oznakowanie na samych opakowaniach i dokumenty w kabinie",
+        "B": "Uzupełnić lub wymienić wymagane oznakowanie kontenera tak, aby było czytelne",
+        "C": "Zastąpić nalepki dużego formatu kartką z numerem UN oraz nazwą towaru"
+      },
+      "correct_option": "B",
+      "explanation": "Kontener musi mieć wymagane oznakowanie dużego formatu w stanie czytelnym, aby zagrożenie można było rozpoznać z zewnątrz. Nalepki na pojedynczych opakowaniach nie zastępują oznakowania wymaganego na kontenerze, a zwykła kartka z numerem UN — czterocyfrowym identyfikatorem towaru niebezpiecznego — nie jest nalepką ADR. Przed wyjazdem trzeba usunąć niezgodność. Podstawa: ADR 5.3.1.1 i 5.3.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0547",
+      "module_id": "ADR-B-06",
+      "clause": [
+        "ADR 2025, 5.3.1.1–5.3.1.4"
+      ],
+      "question": "Kontener zawiera towary niebezpieczne należące do więcej niż jednej klasy. Jak ustalić, jakie nalepki dużego formatu są wymagane na zewnątrz?",
+      "options": {
+        "A": "Sprawdzić wymagania ADR i umieścić komplet wymaganych nalepek we właściwych miejscach",
+        "B": "Wybrać nalepkę klasy o najwyższym numerze, ponieważ według tego poglądu ta klasa ma pierwszeństwo nad pozostałymi zagrożeniami",
+        "C": "Wybrać nalepkę według numeru UN z dokumentu"
+      },
+      "correct_option": "A",
+      "explanation": "Oznakowanie kontenera dobiera się na podstawie rzeczywiście przewożonych towarów i odpowiednich reguł ADR, a nie według najwyższego numeru klasy. Jedna przypadkowa nalepka ani sam numer UN (identyfikator towaru niebezpiecznego) nie pokazują wszystkich wymaganych rodzajów zagrożenia. Wyższy numer klasy nie daje pierwszeństwa, a sam numer UN nie zastępuje zestawu nalepek. Podstawa: ADR 5.3.1.1–5.3.1.4.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0549",
+      "module_id": "ADR-B-06",
+      "clause": [
+        "ADR 2025, 5.3.1.7"
+      ],
+      "question": "Ktoś proponuje namalować wymagany znak na kontenerze w kolorze i kształcie dowolnie dobranym przez firmę. Czy taki znak zastąpi nalepkę dużego formatu ADR?",
+      "options": {
+        "A": "Tak, jeśli firma doda obok nazwę towaru i numer UN, aby wyjaśnić znaczenie znaku",
+        "B": "Nie; oznakowanie musi odpowiadać wymaganiom ADR dotyczącym wzoru i czytelności",
+        "C": "Tak, jeśli znak jest większy od wymaganej nalepki i dobrze widoczny z drogi"
+      },
+      "correct_option": "B",
+      "explanation": "Nalepki dużego formatu muszą spełniać wymagania ADR dotyczące wzoru, wyglądu i czytelności. Dowolny rysunek firmowy nie staje się prawidłową nalepką tylko dlatego, że zawiera nazwę towaru albo jest duży. Przed przewozem należy użyć właściwego oznakowania przewidzianego dla danego zagrożenia. Podstawa: ADR 5.3.1.7.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0550",
+      "module_id": "ADR-B-06",
+      "clause": [
+        "ADR 2025, 5.3.1.1; 5.3.1.7"
+      ],
+      "question": "Na pojeździe przewożącym towary niebezpieczne w kontenerze nalepki dużego formatu są zasłonięte przez inne ładunki. Jak powinien postąpić załadowca lub przewoźnik przed wyjazdem?",
+      "options": {
+        "A": "Usunąć przeszkodę albo poprawić rozmieszczenie, aby wymagane oznakowanie było widoczne",
+        "B": "Pozostawić je zasłonięte, ponieważ służby mogą odczytać dokument przewozowy i ustalić zagrożenie z jego treści",
+        "C": "Dodać numer telefonu kierowcy oraz nazwę firmy zamiast odsłaniać wymagane nalepki"
+      },
+      "correct_option": "A",
+      "explanation": "Wymagane oznakowanie musi być widoczne i czytelne z zewnątrz, aby służby i inni uczestnicy mogli rozpoznać zagrożenie. Dokument przewozowy nie zastępuje nalepek, a numer telefonu nie przekazuje informacji o klasie zagrożenia. Przed ruszeniem należy odsłonić oznakowanie i sprawdzić jego stan. Podstawa: ADR 5.3.1.1 i 5.3.1.7.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0554",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.5.1.2"
+      ],
+      "question": "Przed załadunkiem kierowca widzi, że podłoga pojazdu jest zabrudzona pozostałościami poprzedniego ładunku, które mogą reagować z nowym towarem ADR. Co powinien zrobić?",
+      "options": {
+        "A": "Zażądać oczyszczenia i usunięcia niezgodności przed załadunkiem",
+        "B": "Załadować towar, jeśli opakowania są zamknięte i kierowca nie zauważył wycieku",
+        "C": "Przykryć zabrudzenia kartonem i rozpocząć przewóz bez dodatkowej kontroli podłogi"
+      },
+      "correct_option": "A",
+      "explanation": "Przed załadunkiem trzeba sprawdzić, czy pojazd i jego przestrzeń ładunkowa nadają się do bezpiecznego przewozu. Pozostałości mogą wejść w reakcję z nowym towarem lub uszkodzić opakowania, więc należy je usunąć przed załadunkiem. Zamknięte opakowania ani przykrycie zabrudzeń nie usuwają zagrożenia. Podstawa: ADR 7.5.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0555",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.5.1.2"
+      ],
+      "question": "Podczas kontroli przed załadunkiem stwierdzono, że opakowanie jednej sztuki przesyłki jest uszkodzone i może przeciekać. Co należy zrobić?",
+      "options": {
+        "A": "Załadować je na końcu, aby łatwiej je obserwować podczas całej trasy i w razie potrzeby reagować",
+        "B": "Nie ładować uszkodzonej przesyłki do czasu naprawy lub wymiany opakowania",
+        "C": "Owinąć ją zwykłą folią bez sprawdzenia zgodności opakowania i bez potwierdzenia szczelności"
+      },
+      "correct_option": "B",
+      "explanation": "Uszkodzona sztuka przesyłki, z której może wydostać się towar niebezpieczny, nie powinna zostać załadowana w takim stanie. Załadunek na końcu ani zwykła folia nie gwarantują szczelności i zgodności opakowania. Nadawca lub odpowiedzialny uczestnik powinien usunąć niezgodność przed przewozem. Podstawa: ADR 7.5.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0556",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.3.1.1; 7.3.2"
+      ],
+      "question": "W dokumentach towar ma kod dopuszczający przewóz luzem, ale dostępny pojazd nie spełnia wymagań dla tego rodzaju przewozu. Czy można załadować towar luzem?",
+      "options": {
+        "A": "Tak, ponieważ sam kod towaru wystarcza, nawet gdy pojazd nie spełnia wymagań technicznych",
+        "B": "Tak, jeśli kierowca jedzie krótką trasą i może zatrzymać się przy pierwszej oznace problemu",
+        "C": "Nie; muszą być spełnione warunki dla towaru, pojazdu i sposobu przewozu"
+      },
+      "correct_option": "C",
+      "explanation": "Kod dopuszczający przewóz luzem nie oznacza, że można użyć dowolnego pojazdu. Trzeba spełnić warunki ADR dotyczące konkretnego towaru, konstrukcji i wyposażenia pojazdu oraz sposobu przewozu. Krótka trasa nie zwalnia z tych wymagań, więc należy wybrać właściwy pojazd albo inny dopuszczony sposób przewozu. Podstawa: ADR 7.3.1.1 i 7.3.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0557",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 3.2.1 tabela A kolumna 17; 7.3"
+      ],
+      "question": "Przygotowano ładunek do przewozu luzem, lecz nie sprawdzono, czy tabela A ADR dopuszcza taki sposób przewozu dla danego numeru UN. Co należy zrobić?",
+      "options": {
+        "A": "Sprawdzić wpis towaru i warunki przewozu luzem w ADR przed załadunkiem",
+        "B": "Przyjąć, że każdy towar stały można przewozić luzem, jeśli jego opakowania są niewygodne do transportu",
+        "C": "Rozstrzygnąć wyłącznie na podstawie zgody odbiorcy oraz ustaleń handlowych między stronami"
+      },
+      "correct_option": "A",
+      "explanation": "Przewóz luzem jest dozwolony tylko dla towarów i w warunkach przewidzianych przez ADR. Przed załadunkiem należy sprawdzić wpis towaru i odpowiednie wymagania, w tym właściwe kody i warunki. Stan skupienia ani zgoda odbiorcy nie stanowią samodzielnej podstawy prawnej do przewozu luzem. Podstawa: ADR 3.2.1, tabela A, kolumna 17 oraz 7.3.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0558",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.3.3; 7.5.7.1"
+      ],
+      "question": "Po załadunku luzem kierowca zauważa, że zamknięcia przestrzeni ładunkowej nie zabezpieczają przed wysypaniem towaru. Co powinien zrobić przed odjazdem?",
+      "options": {
+        "A": "Odjechać powoli, aby ograniczyć wysypywanie i kontrolować ładunek przez pierwsze kilometry trasy",
+        "B": "Wstrzymać wyjazd i doprowadzić zabezpieczenia do stanu odpowiedniego dla przewozu",
+        "C": "Poprosić inny pojazd, by jechał za nim i obserwował ładunek oraz ostrzegł o ewentualnym wysypaniu"
+      },
+      "correct_option": "B",
+      "explanation": "Przed odjazdem ładunek luzem i jego przestrzeń przewozowa muszą być zabezpieczone zgodnie z wymaganiami właściwymi dla danego przewozu. Wolna jazda ani obserwacja przez inny pojazd nie zapobiegają wysypaniu i nie usuwają niezgodności. Trzeba poprawić zamknięcia i sprawdzić zabezpieczenie przed rozpoczęciem trasy. Podstawa: ADR 7.3.3 oraz 7.5.7.1, odpowiednio do zastosowanego sposobu przewozu.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0559",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.3.1.1; 3.2.1 tabela A"
+      ],
+      "question": "Załadowca proponuje przewóz luzem, ponieważ pozwoli to zaoszczędzić czas, ale wpis ADR dla towaru nie przewiduje takiego sposobu przewozu. Czy można przyjąć tę propozycję?",
+      "options": {
+        "A": "Tak, jeśli przewoźnik wyrazi zgodę na piśmie i przyjmie odpowiedzialność za wybrany sposób przewozu",
+        "B": "Tak, jeśli ładunek jest niewielki i obie strony uznają ryzyko za akceptowalne",
+        "C": "Nie; wygoda i zgoda stron nie zastępują dopuszczenia przewozu luzem w ADR"
+      },
+      "correct_option": "C",
+      "explanation": "Sposób przewozu musi być dopuszczony przez ADR dla danego towaru i spełniać wszystkie właściwe warunki. Zgoda stron, mała ilość ani oszczędność czasu nie mogą zastąpić wymagań klasyfikacyjnych i technicznych. Jeśli przewóz luzem nie jest dopuszczony, trzeba użyć innego zgodnego sposobu przewozu. Podstawa: ADR 7.3.1.1 i tabela A w 3.2.1.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0560",
+      "module_id": "ADR-B-09",
+      "clause": [
+        "ADR 2025, 7.5.1.2"
+      ],
+      "question": "Przed załadunkiem pojazdu ADR kontrolujący stwierdza, że wyposażenie lub stan pojazdu nie pozwalają bezpiecznie wykonać przewozu. Co jest właściwym postępowaniem?",
+      "options": {
+        "A": "Rozpocząć załadunek, a usterkę odnotować po dostawie i przekazać informację do działu technicznego",
+        "B": "Wstrzymać załadunek do czasu usunięcia niezgodności i potwierdzenia, że przewóz może być bezpieczny",
+        "C": "Załadować tylko część towaru bez sprawdzenia, czy problem nadal występuje i czy pojazd jest bezpieczny"
+      },
+      "correct_option": "B",
+      "explanation": "Jeżeli stan pojazdu lub jego wyposażenia może zagrażać bezpieczeństwu, nie należy rozpoczynać załadunku i przewozu, dopóki niezgodność nie zostanie usunięta. Zapisanie usterki po dostawie ani zmniejszenie ilości bez ponownej oceny nie rozwiązuje problemu. Najpierw trzeba zapewnić zgodność i bezpieczeństwo, a dopiero potem kontynuować czynności. Podstawa: ADR 7.5.1.2.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0561",
+      "module_id": "ADR-B-06",
+      "clause": [
+        "ADR 2025, 5.3.1.1.4"
+      ],
+      "question": "Kontener z towarem ADR wymaga nalepek dużego formatu. Gdzie co do zasady należy je umieścić?",
+      "options": {
+        "A": "Umieścić je na obu bokach i obu końcach kontenera",
+        "B": "Umieścić nalepki na drzwiach kontenera oraz przy zamkach, by kontrolujący mógł je odczytać",
+        "C": "Umieścić je na dachu i nad drzwiczkami"
+      },
+      "correct_option": "A",
+      "explanation": "Wymagane nalepki dużego formatu na kontenerze umieszcza się w miejscach przewidzianych przez ADR, co do zasady na obu bokach i na obu końcach. Jedna nalepka na drzwiach albo oznakowanie wyłącznie na dachu nie zapewnia wymaganego oznaczenia z różnych stron. Drzwi i dach nie zastępują oznaczeń umieszczonych na wymaganych ścianach kontenera. Podstawa: ADR 5.3.1.1.4.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0562",
+      "module_id": "ADR-B-06",
+      "clause": [
+        "ADR 2025, 5.3.1.7"
+      ],
+      "question": "Nalepka dużego formatu na kontenerze została uszkodzona tak, że nie można rozpoznać jej symbolu. Co należy zrobić przed dalszym przewozem?",
+      "options": {
+        "A": "Zostawić uszkodzony znak, jeśli numer UN znajduje się w dokumentach przewozowych i można go odczytać",
+        "B": "Wymienić ją na czytelną nalepkę zgodną z ADR",
+        "C": "Dopisać nazwę handlową na uszkodzonej nalepce"
+      },
+      "correct_option": "B",
+      "explanation": "Nalepka dużego formatu musi pozostawać czytelna i pozwalać rozpoznać zagrożenie. Sam numer UN (identyfikator towaru niebezpiecznego) w dokumentach ani znajomość towaru przez kierowcę nie zastępują oznakowania zewnętrznego. Dopisanie nazwy handlowej nie odtwarza wymaganego wzoru, więc przed dalszym przewozem trzeba usunąć niezgodność. Dokument z numerem UN i odręczna nazwa nie naprawią uszkodzonej nalepki. Podstawa: ADR 5.3.1.7.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0564",
+      "module_id": "ADR-B-06",
+      "clause": [
+        "ADR 2025, 5.3.1.1; 5.3.1.7"
+      ],
+      "question": "Kontener przewozi towar, dla którego wymagane są nalepki dużego formatu. Na jednym boku umieszczono nalepkę innej klasy, niezgodną z ładunkiem. Co należy zrobić?",
+      "options": {
+        "A": "Pozostawić dodatkową nalepkę jako informację o poprzednim ładunku",
+        "B": "Zakryć błędną kartką",
+        "C": "Usunąć błędną nalepkę i sprawdzić całe oznakowanie"
+      },
+      "correct_option": "C",
+      "explanation": "Oznakowanie nie może wprowadzać w błąd co do zagrożeń przewożonego ładunku. Nalepka innej klasy może spowodować, że ratownicy lub inni uczestnicy błędnie ocenią sytuację. Trzeba usunąć nieprawidłowe oznaczenie i zweryfikować komplet nalepek wymaganych dla danego przewozu; przypadkowe zakrycie kartką nie jest prawidłowym rozwiązaniem. Pozostawienie starej nalepki i przypadkowe zakrycie błędnej może mylić służby. Podstawa: ADR 5.3.1.1 i 5.3.1.7.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0565",
+      "module_id": "ADR-B-06",
+      "clause": [
+        "ADR 2025, 5.3.2.1.7"
+      ],
+      "question": "Pojazd ma pomarańczowe tablice wymagane dla przewozu. Po zakończeniu przewozu niebezpieczny towar usunięto, ale zbiornik nie został oczyszczony ani odgazowany. Jak postąpić z tablicami?",
+      "options": {
+        "A": "Nie zdejmować tablic przed spełnieniem warunków ADR",
+        "B": "Zawsze zdjąć tablice natychmiast po opróżnieniu, niezależnie od pozostałości",
+        "C": "Zostawić tylko dolny numer UN, a górny numer zagrożenia zamalować"
+      },
+      "correct_option": "A",
+      "explanation": "Samo opróżnienie zbiornika nie oznacza, że przestał on stwarzać zagrożenie. Jeśli nie został odpowiednio oczyszczony ani odgazowany, oznakowanie może nadal być wymagane. Nie zdejmuj tablic ani nie zamalowuj numerów; kierowca powinien najpierw potwierdzić stan zbiornika i właściwe warunki usunięcia oznakowania. Podstawa: ADR 5.3.2.1.7.",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0577",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.1(a)"
+      ],
+      "question": "W dokumencie ADR podano czterocyfrowy identyfikator towaru, lecz nie dopisano liter UN. Jak należy poprawić wpis?",
+      "options": {
+        "A": "Dodać liczbę pojazdów na końcu identyfikatora zamiast liter UN",
+        "B": "Umieścić litery UN przed czterocyfrowym numerem towaru",
+        "C": "Zastąpić go kodem magazynowym używanym wyłącznie przez nadawcę"
+      },
+      "correct_option": "B",
+      "explanation": "Numer UN — czterocyfrowy identyfikator towaru niebezpiecznego — zapisuje się w dokumencie z literami „UN” przed cyframi. Liczba pojazdów ani kod magazynowy nie zastępują tego identyfikatora. Przy kontroli dokumentu trzeba też sprawdzić dalsze wymagane elementy opisu, a nie tylko sam numer. Podstawa: ADR 5.4.1.1.1(a).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    },
+    {
+      "id": "ADR-B-0578",
+      "module_id": "ADR-B-13",
+      "clause": [
+        "ADR 2025, 5.4.1.1.1(e)"
+      ],
+      "question": "W dokumencie podano numer UN i klasę, ale brakuje wymaganej liczby oraz rodzaju sztuk przesyłek. Co należy zrobić?",
+      "options": {
+        "A": "Pominąć te dane, ponieważ numer UN zawiera już pełny opis opakowania",
+        "B": "Wpisać wyłącznie rejestrację pojazdu zamiast danych o sztukach przesyłek",
+        "C": "Uzupełnić wymaganą liczbę i opis rodzaju sztuk przesyłek"
+      },
+      "correct_option": "C",
+      "explanation": "Dokument przewozowy ma informować nie tylko o rodzaju towaru, lecz także o liczbie i rodzaju sztuk przesyłek, gdy wymagają tego przepisy. Sam numer UN (identyfikator towaru niebezpiecznego) nie mówi, ile przesyłek załadowano, a rejestracja pojazdu nie zastępuje tych danych. Przed przewozem trzeba uzupełnić brakujące informacje. Podstawa: ADR 5.4.1.1.1(e).",
+      "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
+      "mi_evidence": null,
+      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny fragment wskazanego podpunktu/tabeli nie został odzyskany w tej partii; parafrazy nie zapisano jako cytatu.",
+      "confirmed_discrepancy": false,
+      "question_or_key_changed": false,
+      "official_gazette_comparison": "pending",
+      "verification_status": "needs_review",
+      "comparison_source": "stage4x24_batch4_unresolved",
+      "source_attempt_reason": "W tej partii nie wyodrębniono dosłownego brzmienia wskazanego podpunktu lub tabeli w MI ADR 2025 PL. Pozostaje otwarte do dalszego odczytu."
+    }
+  ],
+  "summary": {
+    "target_ids": 40,
+    "mi_exact_quotes_retrieved": 1,
+    "mi_exact_quote_still_missing": 39,
+    "confirmed_discrepancies": 0,
+    "question_or_key_changes": 0,
+    "verified": 0
+  },
+  "remaining_open_ids": [
+    "ADR-B-0502",
+    "ADR-B-0508",
+    "ADR-B-0510",
+    "ADR-B-0512",
+    "ADR-B-0520",
+    "ADR-B-0521",
+    "ADR-B-0522",
+    "ADR-B-0523",
+    "ADR-B-0524",
+    "ADR-B-0525",
+    "ADR-B-0528",
+    "ADR-B-0529",
+    "ADR-B-0530",
+    "ADR-B-0531",
+    "ADR-B-0532",
+    "ADR-B-0533",
+    "ADR-B-0534",
+    "ADR-B-0536",
+    "ADR-B-0537",
+    "ADR-B-0538",
+    "ADR-B-0541",
+    "ADR-B-0542",
+    "ADR-B-0546",
+    "ADR-B-0547",
+    "ADR-B-0549",
+    "ADR-B-0550",
+    "ADR-B-0554",
+    "ADR-B-0555",
+    "ADR-B-0556",
+    "ADR-B-0557",
+    "ADR-B-0558",
+    "ADR-B-0559",
+    "ADR-B-0560",
+    "ADR-B-0561",
+    "ADR-B-0562",
+    "ADR-B-0564",
+    "ADR-B-0565",
+    "ADR-B-0577",
+    "ADR-B-0578"
+  ]
+}
