@@ -121,7 +121,7 @@ Brak danych o rzeczywistych wynikach kursantów — repo nie rejestruje statysty
 - Lekcja: [ADR-B-06](../lekcje/ADR-B-06.md). Scenariusze: [plik JSON](../praktyka/scenariusze-13-dzialow.json) — wyszukaj identyfikatory SC wymienione powyżej.
 - Nie zmieniono podstaw prawnych ani statusów pytań bez potwierdzonej rozbieżności w urzędowym tekście ADR. To nie zastępuje recenzji specjalisty.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Użyj fikcyjnych zdjęć opakowań i tablic. Kursant ma rozpoznać, które oznaczenie identyfikuje towar, które wskazuje zagrożenie, i dlaczego trzeba sprawdzić całość. Nie ćwicz na aktywnym pojeździe przewożącym towary niebezpieczne.
 

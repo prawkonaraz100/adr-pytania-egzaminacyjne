@@ -135,7 +135,7 @@ W repozytorium nie ma statystyk błędów rzeczywistych kursantów, więc nie da
 - Pytania wymienione w ćwiczeniach: 15; identyfikatory zweryfikowano względem aktualnego banku i przypisania do modułu.
 - Źródłem merytorycznym pozostaje lekcja `../lekcje/ADR-B-01.md`, a scenariusze znajdują się w [mapie scenariuszy](../praktyka/scenariusze-13-dzialow.json). Numery ADR należy porównywać z aktualnym polskim tekstem ADR 2025 (Dz.U. 2025 poz. 642 i sprostowanie poz. 1575); ten dodatek nie jest formalną recenzją prawną.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Prowadź zajęcia w tej samej kolejności co lekcja kursanta: role uczestników i szkolenie, rozróżnienie 1.1.3.1 / 1.1.3.6 / LQ / EQ, następnie sprawdzanie tabeli A i dopuszczalności przewozu. Na fikcyjnych dokumentach poproś kursanta o wskazanie danych, których brakuje do decyzji; nie wymagaj zgadywania limitu bez wpisu konkretnego towaru.
 
