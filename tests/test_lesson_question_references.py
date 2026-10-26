@@ -24,5 +24,22 @@ class LessonQuestionReferenceTests(unittest.TestCase):
                 wrong = sorted(qid for qid in refs if by_id[qid]["module_id"] != expected_module)
                 self.assertFalse(wrong, f"{path.name}: question IDs from another module: {wrong}")
 
+
+    def test_every_bank_question_is_referenced_by_its_own_lesson(self):
+        bank = [
+            json.loads(line)
+            for line in (ROOT / "podstawowy" / "questions.jsonl").read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        ]
+        for number in range(1, 14):
+            module = f"ADR-B-{number:02d}"
+            path = ROOT / "podstawowy" / "lekcje" / f"{module}.md"
+            lesson_ids = set(ID_RE.findall(path.read_text(encoding="utf-8")))
+            expected_ids = {q["id"] for q in bank if q["module_id"] == module}
+            self.assertTrue(
+                expected_ids.issubset(lesson_ids),
+                f"{module}: questions missing from its lesson: {sorted(expected_ids - lesson_ids)}",
+            )
+
 if __name__ == "__main__":
     unittest.main()
