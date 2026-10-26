@@ -130,14 +130,18 @@
       "correct_option": "A",
       "explanation": "Przewóz luzem jest dozwolony tylko wtedy, gdy ADR dopuszcza go dla danego towaru i spełniono warunki dotyczące pojazdu oraz sposobu przewozu. Kody BK i VC w tabeli A wskazują odpowiednio dopuszczone typy kontenerów do przewozu luzem oraz szczególne warunki przewozu luzem; brak właściwego zezwolenia oznacza, że nie wolno uznać takiego przewozu za dozwolony. Zgoda kierowcy nie zastępuje podstawy prawnej. Podstawa: ADR 7.3.1.1, tabela A kolumny 10 i 17.",
       "comparison_basis": "MI ADR 2025 PL (pomocniczy), strona Dz.U. do potwierdzenia przez specjalistę",
-      "mi_evidence": null,
-      "literal_comparison_result": "fragment_MI_nadal_niewydobyty — dokładny tekst właściwego podpunktu lub wiersza tabeli nie został wydobyty; nie wpisano parafrazy jako cytatu.",
+      "mi_evidence": {
+        "source": "MI ADR 2025 PL, tom I",
+        "url": "https://www.gov.pl/attachment/f833868b-a0c1-4ff2-ab4c-90b913bb0a10",
+        "quote": "[…] wówczas przewóz luzem nie jest dozwolony. Przepisy ogólne i przepisy dodatkowe dotyczące przewozu luzem podane są w działach 7.1 i 7.3."
+      },
+      "literal_comparison_result": "fragment tabeli A: cytat zawiera końcową regułę, ale początek zdania jest pominięty i jawnie oznaczony wielokropkiem; interpretować wyłącznie razem z kolumnami 10/17.",
       "confirmed_discrepancy": false,
       "question_or_key_changed": false,
       "official_gazette_comparison": "pending",
       "verification_status": "needs_review",
-      "comparison_source": "stage4x24_batch2_unresolved",
-      "source_attempt_reason": "W tej partii nie udało się wyodrębnić dokładnego brzmienia podpunktu/tabeli w MI ADR 2025 PL; pozostaje otwarte do kolejnej próby."
+      "comparison_source": "stage4x24_additional_literal_extraction",
+      "source_attempt_reason": null
     },
     {
       "id": "ADR-B-0301",
@@ -1038,8 +1042,8 @@
   ],
   "summary": {
     "target_ids": 40,
-    "mi_exact_quotes_retrieved": 15,
-    "mi_exact_quote_still_missing": 25,
+    "mi_exact_quotes_retrieved": 16,
+    "mi_exact_quote_still_missing": 24,
     "confirmed_discrepancies": 0,
     "question_or_key_changes": 0,
     "verified": 0
@@ -1048,7 +1052,6 @@
     "ADR-B-0202",
     "ADR-B-0239",
     "ADR-B-0262",
-    "ADR-B-0292",
     "ADR-B-0301",
     "ADR-B-0310",
     "ADR-B-0312",
