@@ -128,6 +128,8 @@ Dodano kompetencję `ADR-B-07-K07` i pytania `ADR-B-0567–0569` dotyczące ogó
 
 - [Partia 3 — audyt explanation 0051–0100](raporty/etap-4x20-partia-3-explanation-0051-0100-2026-10-26.md)
 
+- [Partia 4 — audyt explanation 0101–0150](raporty/etap-4x20-partia-4-explanation-0101-0150-2026-10-26.md)
+
 ## Raporty ETAPU 4x20
 
 - [Partia 1 — wyrównanie B-01/B-04 i explanation 0196/0398/0440](raporty/etap-4x20-partia-1-b01-b04-explanation-2026-10-26.md)
