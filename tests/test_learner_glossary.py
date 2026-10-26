@@ -98,5 +98,17 @@ class LearnerGlossaryTests(unittest.TestCase):
                         f"{path.name}: pierwsze użycie „{heading}” nie ma objaśnienia ani linku do kotwicy w tym samym akapicie/list item",
                     )
 
+
+    def test_glossary_anchors_and_exact_headings_are_unique(self):
+        glossary = GLOSSARY.read_text(encoding="utf-8")
+        anchors = re.findall(r'<a id="([^"]+)"></a>', glossary)
+        duplicate_anchors = sorted({slug for slug in anchors if anchors.count(slug) > 1})
+        self.assertEqual(duplicate_anchors, [], f"duplicate glossary anchors: {duplicate_anchors}")
+
+        headings = re.findall(r"(?im)^\\| \\*\\*(.*?)\\*\\*", glossary)
+        normalized = [heading.strip().casefold() for heading in headings]
+        duplicate_headings = sorted({heading for heading in normalized if normalized.count(heading) > 1})
+        self.assertEqual(duplicate_headings, [], f"duplicate glossary headings: {duplicate_headings}")
+
 if __name__ == "__main__":
     unittest.main()
