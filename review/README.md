@@ -1,6 +1,13 @@
-## Bieżąca migawka — etap 4x50 (26.10.2026)
+## Bieżąca migawka — etap 4x51 (26.10.2026)
 
-- Bank blob SHA: `626def46002cb4b065c402d0f30a9936ae30cf7d`.
+- Bank blob SHA: `67de32798b610d75c0f40cd6f1e9a8552a87382e`.
+- Bank: 609 `needs_review`, 0 `verified`, brak formalnych zatwierdzeń.
+- Próbka 60 explanation (seed `2026102651`): 5 redakcyjnych korekt; 39 scenariuszy sprawdzonych bez braków strukturalnych.
+- [Raport 4x51](../podstawowy/raporty/etap-4x51-proba60-scenariusze-2026-10-26.md).
+
+## Poprzednia migawka — etap 4x50 (26.10.2026)
+
+- Bank blob SHA: `67de32798b610d75c0f40cd6f1e9a8552a87382e`.
 - Bank: 609 `needs_review`, 0 `verified`, brak formalnych zatwierdzeń.
 - Próbka 60 explanation (seed `2026102650`): 3 redakcyjne korekty; klucze i podstawy ADR zachowano, pełna recenzja polskiego tekstu ADR pozostaje otwarta.
 - [Raport 4x50](../podstawowy/raporty/etap-4x50-proba60-explanation-2026-10-26.md).
