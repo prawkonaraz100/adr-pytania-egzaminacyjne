@@ -10,6 +10,8 @@ Warianty są przeznaczone wyłącznie do nauki. Każdy arkusz ma 30 pytań, 60 m
 - **Powtórka:** otwórz lekcję właściwego działu, przećwicz trzy scenariusze tego działu i dopiero wtedy rozwiąż inny wariant.
 - **Status materiału:** wszystkie pytania pozostają `needs_review`; wynik jest wyłącznie informacją do samodzielnej nauki.
 
+**Karta powtórki:** [wypełnij kartę analizy wyniku](KARTA-ANALIZY-WYNIKU.md) — zapisz ID błędnych pytań, wyjaśnij mylące warianty i wróć do scenariuszy właściwego działu. To pomoc do samodzielnej nauki, nie zapis oficjalnego wyniku.
+
 ## Arkusze — rozwiąż przed otwarciem klucza
 
 - [Wariant 001 — arkusz pytań](wariant-001.json)
