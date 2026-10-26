@@ -110,3 +110,12 @@ Nie należy deklarować sukcesu całego etapu ani zatwierdzać pytań, dopóki t
 - Wśród otwartych 9 ma cytaty pomocnicze MI, a 27 nie ma cytatu; dla wszystkich 36 zapisano przyczynę i następny krok.
 - Strony PDF Dz.U. potwierdzone: 0; brak potwierdzonych zmian pytań/kluczy i 0 `verified`.
 - Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0392-0431-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0392-0431.json`.
+
+
+## Aktualizacja po partii 0432–0471
+
+- Świeży `main` na wejściu: `779dfa1b00a9025c9b4924067515b4ac260f17cd`.
+- Sprawdzono 40 rekordów; 2 miały już wynik, 38 nadal oczekuje na urzędowe porównanie.
+- Dla 38 otwartych zapisano przyczynę i następny krok. W szczególności progi tabeli 1.10.3.1.2, 5.2.1.8.1 oraz wymiary znaku z 5.3.6.2 pozostają niepotwierdzone w Dz.U. 2025.
+- Wyszukiwanie zwracało teksty Dz.U. 2023/2019, odrzucone jako niewłaściwa edycja. Strony Dz.U. 2025 znalezione: 0; brak zmian pytań/kluczy i 0 `verified`.
+- Raport: `podstawowy/raporty/etap-4x22-literalne-dowody-0432-0471-2026-10-26.md`; rejestr: `review/batches/stage4x22-literal-0432-0471.json`.
