@@ -50,7 +50,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteri
 
 Fikcyjna mapa kolizji, instrukcje pisemne ADR 5.4.3, lista wyposażenia 8.1.5, zestaw kart ról uczestników i dokumentów przekazywanych ratownikom. Kryteria: „rozumie / wymaga wyjaśnienia / nieocenione”, z zapisaniem błędnej reakcji i uzasadnieniem. **Trzy praktyczne cele ADR-B-05-K13–K15 pozostają poza zaliczeniem teoretycznym.** Realizacja P1–P3 musi być odnotowana osobno przez instruktora.
 
-Źródła: urzędowy program Dz.U. 2021 poz. 2150, zał. 1 temat e i przepisy o praktyce; ADR 2025 5.4.3, 8.1.4, 8.1.5 w Dz.U. 642 i sprostowaniu 1575. Wszystkie materiały pozostają szkicem, do kontroli prawa i odbioru instruktażu.
+Źródła: urzędowy program Dz.U. 2021 poz. 2150, zał. 1 temat e i przepisy o praktyce; ADR 2025 5.4.3, 8.1.4, 8.1.5 w Dz.U. 642 i sprostowaniu 1575. Materiały wymagają niezależnej kontroli prawnej i odbioru instruktażu.
 
 
 
@@ -130,3 +130,13 @@ Brak danych o rzeczywistych wynikach kursantów — repo nie rejestruje statysty
 - Wszystkie 9 unikalnych ID z ćwiczeń sprawdzono względem bieżącego banku; każde istnieje i należy do `ADR-B-05`.
 - Lekcja: [ADR-B-05](../lekcje/ADR-B-05.md). Scenariusze: [plik JSON](../praktyka/scenariusze-13-dzialow.json) — wyszukaj identyfikatory SC wymienione powyżej.
 - Nie zmieniono podstaw prawnych ani statusów pytań bez potwierdzonej rozbieżności w urzędowym tekście ADR. To nie zastępuje recenzji specjalisty.
+
+## Synchronizacja z lekcją i scenariuszami — etap 4x26
+
+Prowadź kursanta od oceny bezpieczeństwa miejsca do alarmowania i przekazania danych. Nie oceniaj gotowości do działania po samej pamięci numeru przepisu: kursant ma wyjaśnić, dlaczego nie wolno wchodzić w wyciek, wąchać substancji ani gasić pożaru przedziału ładunkowego.
+
+- `SC-ADR-B-05` — awaria: bezpieczne zgłoszenie i dostępność sprzętu.
+- `SC-ADR-B-05-02` — awaria na poboczu: pierwsze decyzje kierowcy.
+- `SC-ADR-B-05-03` — pożar przy przestrzeni ładunkowej.
+
+Pytania kontrolne: `ADR-B-0013`, `ADR-B-0015`, `ADR-B-0169`, `ADR-B-0220`, `ADR-B-0222`, `ADR-B-0232`, `ADR-B-0585`, `ADR-B-0593`, `ADR-B-0594`. Błędy do omówienia: próba ustalenia substancji po zapachu, narażenie siebie przy ratowaniu dokumentów oraz przekonanie, że każdą sytuację można rozwiązać gaśnicą.

@@ -35,6 +35,10 @@ Nie dotykaj uwolnionej substancji, nie wdychaj oparów i nie uruchamiaj źróde�
 ## 5. Pierwsza pomoc — granice działania kierowcy
 Najpierw sprawdź, czy możesz podejść bez narażenia siebie i poszkodowanego na dodatkowe zagrożenie, w tym skażenie. Wezwij pomoc i przekazuj informacje o możliwym towarze niebezpiecznym. Wykonuj czynności pierwszej pomocy odpowiednie do sytuacji i własnego przeszkolenia. Nie wchodź do strefy skażenia i nie podejmuj czynności, których nie umiesz bezpiecznie wykonać.
 
+## Przykład z pobocza
+
+Po awarii kierowca widzi osobę zbliżającą się do rozlanej substancji. Nie podchodzi do niej, jeśli nie może zrobić tego bezpiecznie. Ostrzega innych, oddala się od oparów, wzywa służby i przekazuje wyłącznie sprawdzone informacje z bezpiecznego miejsca. Nie wraca do kabiny po dokumenty, jeśli wymagałoby to wejścia w strefę zagrożenia. Podstawa: ADR 5.4.3 i instrukcje pisemne.
+
 ## Typowe błędy kursantów
 - wchodzenie w rozlew lub opary, by sprawdzić zawartość;
 - rozpoznawanie substancji po zapachu;
