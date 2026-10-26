@@ -2,6 +2,8 @@
 
 **Status: materiał szkoleniowy do odbioru instruktorskiego, nie zaliczenie szkolenia.** Program odwołuje się do ćwiczeń praktycznych wymaganych w załączniku nr 1 do rozporządzenia o kursach ADR (Dz.U. 2021 poz. 2150) i do instrukcji pisemnych ADR 2025, 5.4.3.4. Szczegóły należy zatwierdzić z osobą uprawnioną do prowadzenia zajęć.
 
+**Ćwiczenie łączące cztery działy:** [karta kontroli przed wyjazdem](KARTA-KONTROLI-PRZED-WYJAZDEM.md) — B-01, B-06, B-08 i B-13, krok po kroku na fikcyjnej dokumentacji.
+
 **Instruktor:** do każdego scenariusza korzystaj z [karty oceny i omówienia](KARTA-OCENY-SCENARIUSZY.md) — zawiera kolejność przeprowadzenia ćwiczenia, typowe błędy i sposób przekazania informacji zwrotnej, bez udawania formalnego zaliczenia zajęć.
 
 ## Scenariusze dla kursanta — działy B-01–B-03
