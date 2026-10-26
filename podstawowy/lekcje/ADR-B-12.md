@@ -36,6 +36,8 @@ Przed przekazaniem towaru sprawdź tożsamość i uprawnienie odbiorcy lub przew
 
 Szkolenie ochronne dotyczy zagrożeń wynikających z niewłaściwego wykorzystania towarów niebezpiecznych, środków ochrony i procedur. Należy je przeprowadzić przed podjęciem obowiązków wymagających takiego przygotowania, uzupełniać w wymaganych sytuacjach i dokumentować zgodnie z ADR 1.10.2.2–1.10.2.4. Szczegóły planu ochrony udostępniaj tylko osobom, które potrzebują ich do wykonywania zadań.
 ## 3. Postój i naruszenie zabezpieczeń
+
+**Przykład przy odbiorze.** Osoba przy rampie zna numer zlecenia, ale nie potrafi potwierdzić, że jest uprawniona do odbioru. Kierowca nie wydaje przesyłki tylko na podstawie tej informacji. Wstrzymuje przekazanie i sprawdza tożsamość oraz upoważnienie zgodnie z procedurą. Jeśli zauważy naruszenie zabezpieczeń, nie podejmuje niebezpiecznej konfrontacji — oddala się w bezpieczne miejsce i zgłasza zdarzenie. Podstawa: ADR 1.10.1 i 1.10.3, gdy dotyczą danego przewozu.
 Plan ochrony według ADR 1.10.3.2.2 powinien określać m.in. odpowiedzialne osoby, ocenę zagrożeń, środki ochrony, procedury zgłaszania i postępowania przy incydencie oraz sposób przeglądu planu. Sama lista numerów alarmowych nie zastępuje tych elementów. W miejscach, do których stosuje się ADR 8.4.1, wybierz postój zgodny z właściwą kolejnością i warunkami.
 
 Plan ochrony powinien uwzględniać realne środki ograniczające kradzież i dostęp osób nieuprawnionych również podczas postoju. Jeśli zaplanowane miejsce przestaje być dostępne, korzystaj z zatwierdzonej procedury i uzgodnij zgodne miejsce z odpowiedzialną osobą. Nie wybieraj dowolnego postoju wyłącznie z wygody.
