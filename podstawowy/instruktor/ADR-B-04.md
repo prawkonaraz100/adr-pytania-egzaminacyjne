@@ -10,7 +10,7 @@ Materiały przeniesione z lekcji: plany zajęć, mapy kompetencji, zadania instr
 
 **Obserwowalne kryterium:** Nie uznaje dowolnego pobocza za bezwarunkowo dopuszczalne miejsce postoju.
 
-**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Szkic do niezależnej recenzji ADR.
+**Informacja zwrotna:** instruktor zapisuje oddzielnie `rozumie / wymaga wyjaśnienia / nieocenione`, przykład popełnionego błędu i zalecenie ponownej próby. Ocena tego zadania nie stanowi odbioru prawnego pytania ani zaliczenia obowiązkowych ćwiczeń praktycznych. Materiał wymaga niezależnej recenzji ADR.
 
 
 
@@ -126,7 +126,7 @@ W repozytorium nie ma statystyk błędów rzeczywistych kursantów, więc nie da
 - Pytania wymienione w ćwiczeniach: 7; identyfikatory zweryfikowano względem aktualnego banku i przypisania do modułu.
 - Źródłem merytorycznym pozostaje lekcja `../lekcje/ADR-B-04.md`, a scenariusze znajdują się w [mapie scenariuszy](../praktyka/scenariusze-13-dzialow.json). Numery ADR należy porównywać z aktualnym polskim tekstem ADR 2025 (Dz.U. 2025 poz. 642 i sprostowanie poz. 1575); ten dodatek nie jest formalną recenzją prawną.
 
-## Synchronizacja z lekcją i scenariuszami — etap 4x26
+## Prowadzenie zajęć: lekcja i scenariusze
 
 Zajęcia prowadź na fikcyjnych kartach załadunku i mapie parkingu. Najpierw poproś kursanta, by wskazał, co sprawdzi przed rozpoczęciem załadunku; następnie niech uzasadni, czy planowane miejsce postoju spełnia wymagania dla danego towaru. Oddziel zakaz palenia i źródeł zapłonu od wymagań dotyczących pracy silnika oraz nadzoru — nie są to identyczne reguły.
 
