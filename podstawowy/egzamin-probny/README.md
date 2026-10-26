@@ -45,3 +45,12 @@ Bank zawiera 609 pytań `needs_review` i 0 `verified`. Arkusze mają `publicatio
 - Rozkład poprawnych odpowiedzi dla każdego wariantu: A/B/C = 10/10/10; najdłuższa seria tej samej litery = 3; 13 działów reprezentowanych w każdym arkuszu.
 - Korekta explanation ADR-B-0197 nie wymagała zmiany pytań w arkuszach, ponieważ ten ID nie występuje w wariantach 001–005. Zaktualizowano wyłącznie metadane źródła w arkuszach i kluczach.
 - Raport pełny: [Etap 4x25 — raport końcowy](../raporty/etap-4x25-raport-koncowy-2026-10-26.md).
+
+
+## Etap 4x26 — ponowna synchronizacja po redakcji podręcznika (2026-10-26)
+
+- Lekcje i materiały instruktora zostały zredagowane; bank nie zmienił się od wygenerowania wariantów.
+- Warianty 001–005 i klucze ponownie zsynchronizowano z aktualnym `questions.jsonl`, zachowując wybór ID i proporcje działów oraz odświeżając kolejność błędnych odpowiedzi. `source_bank_head` pozostaje blob SHA banku: `ed0dee6e93f21cbb758c3d088a4d02e0aaed9fc4`.
+- Każdy wariant ma 30 pytań, 13 działów, brak powtórzeń w arkuszu i między wariantami, rozkład A/B/C 10/10/10 oraz najdłuższą serię tej samej poprawnej litery nie większą niż 3.
+- Klucze są zsynchronizowane z poprawnymi opcjami i explanation banku; explanation mają co najmniej 200 znaków.
+- Pełny raport: [Etap 4x26 — raport końcowy](../raporty/etap-4x26-raport-koncowy-2026-10-26.md).
