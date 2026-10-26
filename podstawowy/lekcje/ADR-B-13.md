@@ -64,6 +64,16 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 
 Ćwiczenia wykonuje się na fikcyjnych dokumentach. Nie kopiuj danych rzeczywistych klientów i nie traktuj quizu jako zaliczenia praktyki.
 
+## Trzy scenariusze praktyczne do przejścia po pytaniach
+
+Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
+
+- `SC-ADR-B-13` — **Kontrola dokumentów i instrukcji przed wyjazdem**
+- `SC-ADR-B-13-02` — **Brak danych w dokumencie przewozowym**
+- `SC-ADR-B-13-03` — **Instrukcje pisemne w nieznanym języku**
+
+Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
+
 ## Co musisz zapamiętać
 - Dokument przewozowy musi zawierać wymagane dane dla konkretnego towaru.
 - Nie zgaduj brakujących informacji; wyjaśnij je przed wyjazdem.
@@ -88,6 +98,7 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0577`
 - `ADR-B-0586`
 
+Ćwiczenie po pytaniach: [SC-ADR-B-13](../praktyka/scenariusze-13-dzialow.json) — opowiedz bezpieczne czynności kierowcy, a potem sprawdź kroki w scenariuszu.
 
 ## Powiązane pytania w banku
 - ADR-B-0037
@@ -144,16 +155,3 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; szczegółowe pola dokumentu i wyjątki wymagają niezależnej kontroli polskiego tekstu.
-
-
-## Trzy scenariusze praktyczne do przejścia po pytaniach
-
-Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
-
-- `SC-ADR-B-13` — **Kontrola dokumentów i instrukcji przed wyjazdem**
-- `SC-ADR-B-13-02` — **Brak danych w dokumencie przewozowym**
-- `SC-ADR-B-13-03` — **Instrukcje pisemne w nieznanym języku**
-
-Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
-
-
