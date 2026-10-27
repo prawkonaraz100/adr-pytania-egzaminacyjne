@@ -14,15 +14,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędny wariant: „Zakaz wjazdu dla ciężarówek z ładunkiem ADR, tak jak przy kategorii E”. Kategoria tunelu A oznacza brak ograniczeń tunelowych wynikających z klasyfikacji ADR A–E. Nie jest to kategoria z najostrzejszymi ograniczeniami ani bezwzględny zakaz dla ciężarówek. Nadal obowiązują znaki drogowe i inne ograniczenia. Podstawa: ADR 1.9.5.2.2 i 8.6."
+          "rationale": "Błędny wariant: „Zakaz wjazdu dla ciężarówek z ładunkiem ADR, tak jak przy kategorii E”. Kategoria A nie wprowadza ograniczenia tunelowego wynikającego z klasyfikacji ADR A–E; nadal obowiązują inne znaki i ograniczenia."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Kategoria tunelu A oznacza brak ograniczeń tunelowych wynikających z klasyfikacji ADR A–E. Nie jest to kategoria z najostrzejszymi ograniczeniami ani bezwzględny zakaz dla ciężarówek. Nadal obowiązują znaki drogowe i inne ograniczenia. Kategoria A nie znosi ograniczeń wynikających ze znaków drogowych, zakazów masowych ani innych lokalnych zasad. Podstawa: ADR 1.9.5.2.2 i 8.6."
+          "rationale": "Kategoria tunelu A oznacza, że sama klasyfikacja ADR A–E nie wprowadza ograniczenia tunelowego dla danego przewozu. Nie oznacza to zakazu dla wszystkich pojazdów ADR (jak w opcji A) ani zakazu tylko dla klasy 3 (jak w opcji C). Nadal obowiązują inne znaki drogowe, zakazy masowe i ograniczenia lokalne, więc kierowca musi sprawdzić całą trasę. Podstawa: ADR 1.9.5.2.2 i 8.6."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten wariant („Zakaz dla ciężarówek przewożących materiały klasy 3”) nie spełnia opisanego warunku ADR. Kategoria A nie zakazuje każdej ciężarówce przejazdu."
+          "rationale": "Błędny wariant: „Zakaz dla ciężarówek przewożących materiały klasy 3”. Kategoria A nie zakazuje przejazdu tylko dla klasy 3; ograniczenia trzeba odczytywać z właściwego kodu tunelowego i znaków na trasie."
         }
       },
       "observed_answer_key": "B",
@@ -41,7 +41,7 @@
           "C": "Zakaz dla ciężarówek przewożących materiały klasy 3"
         },
         "correct_option": "B",
-        "explanation": "Kategoria tunelu A oznacza brak ograniczeń tunelowych wynikających z klasyfikacji ADR A–E. Nie jest to kategoria z najostrzejszymi ograniczeniami ani bezwzględny zakaz dla ciężarówek. Nadal obowiązują znaki drogowe i inne ograniczenia. Kategoria A nie znosi ograniczeń wynikających ze znaków drogowych, zakazów masowych ani innych lokalnych zasad. Podstawa: ADR 1.9.5.2.2 i 8.6.",
+        "explanation": "Kategoria tunelu A oznacza, że sama klasyfikacja ADR A–E nie wprowadza ograniczenia tunelowego dla danego przewozu. Nie oznacza to zakazu dla wszystkich pojazdów ADR (jak w opcji A) ani zakazu tylko dla klasy 3 (jak w opcji C). Nadal obowiązują inne znaki drogowe, zakazy masowe i ograniczenia lokalne, więc kierowca musi sprawdzić całą trasę. Podstawa: ADR 1.9.5.2.2 i 8.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -51,7 +51,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "editorial_update_after_stage4x69": "Explanation redrafted for clarity only; correct option B and ADR reference unchanged. Legal status remains needs_review."
     },
     {
       "id": "ADR-B-0032",
