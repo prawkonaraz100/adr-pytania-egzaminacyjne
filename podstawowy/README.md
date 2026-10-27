@@ -8,6 +8,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x88 — kontrola M364 i ADR-B-0145](raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md)
 - [Etap 4x87 — próbka 60, spójność kursu i egzaminów](raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md)
 - [Etap 4x86 — próbka 60, spójność terminologii i kontroli odsyłaczy](raporty/etap-4x86-proba60-spojnosc-kursu-2026-10-27.md)
 - [Etap 4x85 — scenariusze, próbka 60 explanation i synchronizacja egzaminów](raporty/etap-4x85-scenariusze-proba60-2026-10-27.md)

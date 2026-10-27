@@ -580,24 +580,18 @@
     "report": "podstawowy/raporty/etap-4x31-czytelnosc-zdan-explanation-2026-10-26.md"
   },
   "latest_editorial_update": {
-    "stage": "4x87",
-    "report": "podstawowy/raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md",
+    "stage": "4x88",
+    "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md",
     "questions_count": 609,
-    "questions_rewritten": [
-      "ADR-B-0101",
-      "ADR-B-0186",
-      "ADR-B-0258",
-      "ADR-B-0356",
-      "ADR-B-0470",
-      "ADR-B-0484"
+    "question_reviewed": "ADR-B-0145",
+    "question_changed": false,
+    "official_sources_checked": [
+      "UNECE ADR multilateral agreements M364",
+      "UNECE M364 PDF",
+      "Polish Ministry of Infrastructure Official Journal item 37"
     ],
-    "terminology_normalized": [],
-    "lessons_reviewed": [
-      "ADR-B-10",
-      "ADR-B-11",
-      "ADR-B-12",
-      "ADR-B-13"
-    ],
+    "m364_expiry": "2026-12-31",
+    "m364_scope": "trailer approval certificate only; not the motor vehicle FL asked about",
     "scenarios": 39,
     "exam_variants": 5,
     "verified": 0,
@@ -628,21 +622,18 @@
   "scenario_count": 39,
   "mock_exam_variant_count": 5,
   "editorial_update": {
-    "stage": "4x87",
+    "stage": "4x88",
     "date": "2026-10-27",
     "source_bank_blob_sha": "4a1a5d7f1ca8a5124eb096cd228aa92952fac6da",
-    "summary": "Deterministyczna próbka 60 explanation; po ręcznym przeglądzie urealniono dystraktory w ADR-B-0101, 0186, 0356, 0484, 0258 i 0470, bez zmiany poprawnych liter. Zaktualizowano migawki sekwencyjne i A/B/C oraz source_bank_head wariantów/kluczy 001–005. Przejrzano lekcje B-10–B-13, 39 scenariuszy i 5 wariantów; nie znaleziono potwierdzonej luki programu ani rzeczywistej rozbieżności klucza. Pełna niezależna kontrola prawna nadal oczekuje.",
+    "summary": "Sprawdzono oficjalny wpis M364 w UNECE i polską publikację. M364 jest wykazana jako ważna do 31.12.2026 dla sygnatariuszy, a wyjątek dotyczy świadectwa dopuszczenia przyczepy, nie samochodu silnikowego FL w ADR-B-0145. Poprawna odpowiedź B pozostaje bez zmian; bank, egzaminy i klucze nie wymagają synchronizacji treści.",
     "question_count": 609,
     "needs_review": 609,
     "verified": 0,
     "formal_approvals": 0,
     "scenarios": 39,
     "exam_variants": 5,
-    "strictly_longest_correct": 73,
-    "strictly_longest_rate": 0.1199,
-    "min_explanation_chars": 300,
-    "explanations_under_200": 0,
-    "report": "podstawowy/raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md"
+    "source_bank_unchanged": true,
+    "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
   "stage4x87": {
     "seed": 2026102787,
@@ -673,5 +664,18 @@
     "review_status": "needs_review",
     "report": "podstawowy/raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md",
     "sample_exclusion_note": "Wykluczono wszystkie ID z raportów 4x84 i 4x85 oraz jawnie znane korekty 4x86. Raport 4x86 nie publikuje pełnej listy wszystkich 60 ID, więc pełnego braku przecięcia z nieujawnioną częścią tamtej próbki nie da się potwierdzić."
+  },
+  "stage4x88": {
+    "date": "2026-10-27",
+    "question_id": "ADR-B-0145",
+    "question_changed": false,
+    "correct_option": "B",
+    "official_source_status": "M364 listed by UNECE as valid through 2026-12-31; Poland is a signatory; no revocation date shown in the current listing",
+    "scope": "trailer certificate only; no exception for the motor vehicle FL asked about",
+    "bank_changed": false,
+    "bank_blob_sha": "4a1a5d7f1ca8a5124eb096cd228aa92952fac6da",
+    "verified": 0,
+    "status": "needs_review",
+    "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   }
 }

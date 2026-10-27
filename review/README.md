@@ -1,3 +1,11 @@
+## Aktualizacja prawna 4x88 — M364 (27.10.2026)
+
+- Oficjalne źródła UNECE i polska publikacja potwierdzają, że M364 dotyczy świadectwa dopuszczenia przyczepy i wskazuje termin ważności do 31.12.2026.
+- W ADR-B-0145 pytanie dotyczy samochodu silnikowego FL, nie naczepy; poprawna odpowiedź B pozostaje bez zmian.
+- Przed wykorzystaniem materiału po 31.12.2026 ponownie sprawdź oficjalny status umowy.
+- [Raport 4x88](../podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md).
+- Bank nie zmienił się: 609 `needs_review`, 0 `verified`; blob SHA `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
+
 ## Bieżąca migawka — etap 4x87 (27.10.2026)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
