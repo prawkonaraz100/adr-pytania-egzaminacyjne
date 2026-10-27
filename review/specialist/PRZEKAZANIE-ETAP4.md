@@ -1,4 +1,13 @@
-## Bieżąca migawka — etap 4x87 (27.10.2026)
+## Bieżąca migawka — etap 4x95 (27.10.2026)
+
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `7a2f4615e652f69d4079bf622098c8dd586c1ae1`.
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; bez formalnych zatwierdzeń.
+- Próbka 60 (seed `2026102795`): 8 explanation/dystraktorów poprawionych, 52 bez zmian; minimum 300 znaków.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%.
+- Warianty egzaminu 001–005 i klucze wskazują aktualny bank. Scenariusze: 39; statusy prawne pozostają do niezależnej recenzji.
+- Raport: `podstawowy/raporty/etap-4x95-proba60-spojnosc-wartosci-adr2027-2026-10-27.md`.
+
+## Historyczna migawka — etap 4x87 (27.10.2026)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.

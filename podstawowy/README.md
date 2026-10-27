@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 27.10.2026, etap 4x94: 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 27.10.2026, etap 4x95: 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -297,3 +297,9 @@ Raporty ETAPU 4x7
 ## Etap 4x79 — przegląd scenariuszy i lekcji
 
 - [Raport 4x79](raporty/etap-4x79-przeglad-scenariuszy-lekcji-proba60-2026-10-27.md): audyt scenariuszy B-06–13 i lekcji B-01–04, metryki banku oraz ograniczenie doboru nowej próby explanation bez powtarzania wcześniejszych ID.
+
+
+## Najnowsze raporty jakości
+
+- [Etap 4x95 — próbka 60, spójność wartości ADR i mapa wpływu 2027](raporty/etap-4x95-proba60-spojnosc-wartosci-adr2027-2026-10-27.md)
+- [Etap 4x95 — migawka audytu dla specjalisty](../review/specialist/ETAP-4X95-MIGAWKA-AUDYTU.md)
