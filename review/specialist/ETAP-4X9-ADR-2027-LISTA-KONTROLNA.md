@@ -1,6 +1,6 @@
 # Etap 4x9 — lista kontrolna dla specjalisty ADR (kurs podstawowy)
 
-**Status: do niezależnego sprawdzenia.** Lista nie oznacza zatwierdzenia prawnego ani pewności zmian ADR 2027. Bank: 609 `needs_review`, 0 `verified`.
+**Status: do niezależnego sprawdzenia.** Lista nie oznacza zatwierdzenia prawnego. Zmiany ADR 2027 zostały odnotowane w UN Treaty Collection jako wejście w życie (C.N.395.2026.TREATIES-XI.B.14 z 9.10.2026), ze skutkiem od 1.01.2027. Bank: 609 `needs_review`, 0 `verified`.
 
 ## Kontrola źródła 4x88 — umowa M364 (27.10.2026)
 
@@ -68,3 +68,14 @@ Dodano [pełny indeks skryptowy dla banku 609 pytań](../../podstawowy/raporty/e
 Najważniejszy termin do ponownej kontroli: M364, wskazana w ostatnim sprawdzeniu jako ważna do 31.12.2026. Przed użyciem materiału po tej dacie należy ponownie sprawdzić oficjalną listę UNECE i polską publikację. Nie zakładać przedłużenia bez urzędowego potwierdzenia.
 
 Bank pozostaje 609 `needs_review`, 0 `verified`. Nie zmieniono odpowiedzi, nie regenerowano egzaminów i nie nadano zatwierdzeń.
+
+
+## Etap 4x94 — status formalny ADR 2027 oraz M369 (27.10.2026)
+
+- UN Treaty Collection wymienia C.N.395.2026.TREATIES-XI.B.14 z 9.10.2026 jako **Entry into force** dla zmian załączników A i B ADR. Zmiany mają wejść w życie 1.01.2027. Źródło: [UNTC — status ADR](https://treaties.un.org/Pages/ViewDetails.aspx?chapter=11&clang=_en&mtdsg_no=XI-B-14&src=IND).
+- Oficjalne listy zmian do crosswalku: [UNECE ADR 2025 files / draft amendments for 1.01.2027](https://unece.org/adr-2025-files): ECE/TRANS/WP.15/274, Corr.1, Add.1 i Add.1/Corr.1. Nie zastępować ich ogólnym opisem marketingowym; każdy punkt porównać z pytaniem i lekcją.
+- Mapa wpływu 4x94: [raport w repo](../../podstawowy/raporty/etap-4x94-status-adr-2027-m369-mapa-wplywu-2026-10-27.md).
+- Priorytet: ADR-B-0099, ADR-B-0162, ADR-B-0315, ADR-B-0499–0502 — sprawdzić szczegółowo wymagania baterii, UN 3551/3552 i przepisy 2.2.9.1.7/5.2.2. W tym etapie nie potwierdzono konkretnej sprzeczności, więc pytań nie zmieniono.
+- M369 dotyczy przewozu oleju napędowego i jest wskazana jako ważna do 31.12.2026; Polska podpisała 30.06.2026. Źródła: [UNECE — umowy wielostronne](https://unece.org/transport/road-transport/adr-multilateral-agreements), [MI — obwieszczenie M369, poz. 17](https://www.gov.pl/web/infrastruktura/obwieszczenie-ministra-infrastruktury-z-dnia-30-czerwca-2026-r). W obecnym banku nie znaleziono pytań o M369, UN 1202, normy EN 590/15940/16709/16734 ani olej napędowy.
+- M364 i M369 są odrębnymi umowami; przed użyciem materiału po 31.12.2026 sprawdzić obie ponownie. Nie zakładać automatycznego przedłużenia.
+- Bank pozostaje 609 `needs_review`, 0 `verified`; w etapie 4x94 nie zmieniano odpowiedzi ani kluczy.
