@@ -1,6 +1,6 @@
 # Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x80
 
-Data migawki: 27.10.2026, etap 4x80. Źródło: aktualny `main`/gałąź PR #538 po synchronizacji wyjaśnień. Bank blob SHA `440ff9e0acad53b7527dde81cb55a2301f8f47e9`. Wszystkie 609 pytań pozostają `needs_review`, 0 `verified`, 0 formalnych akceptacji.
+Data migawki: 27.10.2026, etap 4x80. Źródło: aktualny `main`/gałąź PR #538 po synchronizacji wyjaśnień. Bank blob SHA `eb571414151c237e2c4854a84483fc55198b902d`. Wszystkie 609 pytań pozostają `needs_review`, 0 `verified`, 0 formalnych akceptacji.
 
 Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależnego sprawdzenia poprawności wzoru. Etap 4x16, partie 1–9: porównano 413 pozycji porównawczych; 186 pozostaje nierozstrzygniętych. Dwie potwierdzone rozbieżności poprawiono w ADR-B-0484 i ADR-B-0488; ADR-B-0457 i ADR-B-0458 nadal wymagają literalnego potwierdzenia przypisów tabeli 1.10.3.1.2. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane.
 
