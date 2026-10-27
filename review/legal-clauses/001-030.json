@@ -954,20 +954,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Obsługa parkingu nie odpowiada za klasyfikację przesyłki jako nadawca."
+          "rationale": "Przewoźnik sprawdza informacje i dokumenty, ale nie zastępuje nadawcy w klasyfikacji towaru."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Nadawca ma obowiązek upewnić się co do klasyfikacji i dopuszczenia."
+          "rationale": "Nadawca odpowiada za prawidłową klasyfikację przed nadaniem."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Losowy kierowca nie zastępuje obowiązków nadawcy."
+          "rationale": "Załadowca kontroluje stan i oznakowanie, lecz nie przejmuje podstawowego obowiązku klasyfikacji."
         }
       },
       "observed_answer_key": "B",
       "notes_on_conditions": "Nadawca może korzystać z danych innych uczestników, ale nie traci własnych obowiązków.",
-      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "editorial_result": "distractors_and_explanation_revised_editorial_review_only_legal_approval_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -976,12 +976,12 @@
         "module_id": "ADR-B-07",
         "stem": "Kto przede wszystkim ma zadbać, by towar niebezpieczny był prawidłowo sklasyfikowany przed nadaniem?",
         "options": {
-          "A": "Obsługa parkingu",
+          "A": "Przewoźnik, bo przed wyjazdem sprawdza informacje i dokumenty przewozowe",
           "B": "Nadawca",
-          "C": "Przypadkowy kierowca z sąsiedniego pojazdu"
+          "C": "Załadowca, bo kontroluje stan i oznakowanie sztuk przesyłek"
         },
         "correct_option": "B",
-        "explanation": "Zanim towar niebezpieczny wyruszy w drogę, trzeba ustalić, czym jest i jakie zagrożenia stwarza, bo od tego zależą wymagania dotyczące jego przewozu. Za prawidłowe sklasyfikowanie i sprawdzenie dopuszczalności odpowiada przede wszystkim nadawca. Nie można przerzucić tego zadania na obsługę parkingu ani przypadkowego kierowcę. Podstawa: ADR 1.4.2.1.1(a).",
+        "explanation": "Nadawca musi prawidłowo sklasyfikować towar przed jego nadaniem, bo od tej decyzji zależą wymagane dokumenty, opakowanie i oznakowanie. Przewoźnik sprawdza przekazane informacje i dokumenty, a załadowca wykonuje własne kontrole przy załadunku, ale te zadania nie zastępują klasyfikacji nadawcy. Podstawa: ADR 1.4.2.1.1(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
