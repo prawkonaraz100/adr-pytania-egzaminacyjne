@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x70 (27.10.2026)
+
+- Bank blob SHA: `b07a5587233e3d086100add9966b3abf599bf7b1`; 609 pytań `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- W ADR-B-0497 poprawiono wewnętrzną sprzeczność odpowiedzi C: „Tak” → „Nie”. Zachowano poprawną literę C, podstawę ADR 2.2.1.1.5 i status `needs_review`.
+- Warianty i klucze 001–005 wskazują aktualny bank; pytanie ADR-B-0497 nie występuje w tych arkuszach.
+- Raport: [Etap 4x70](../../podstawowy/raporty/etap-4x70-korekta-ADR-B-0497-2026-10-27.md).
+
 ## Bieżąca migawka — etap 4x69 (27.10.2026)
 
 - Bank blob SHA: `a2c17c5bc8ebcd9d7f138f3c773132d6913674db`.
