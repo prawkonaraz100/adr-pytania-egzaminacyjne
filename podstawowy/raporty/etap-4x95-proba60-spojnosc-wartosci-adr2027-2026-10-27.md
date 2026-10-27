@@ -83,7 +83,7 @@ Mapa 4x94 wymienia siedem pytań z B-02, których treść wymaga porównania z p
 - Wskaźnik „poprawna = jedyna najdłuższa”: 11,99% globalnie; maksimum działu 14,29% (B-02 i B-03).
 - Bank: 609 unikalnych pytań, 609 `needs_review`, 0 `verified`.
 - Nowe pytania: 0; poprawione explanation: 8; pytania z poprawionymi dystraktorami: 6; naprawiony opis odpowiedzi w kluczu egzaminu: 1.
-- Wynik Quality Gate dla tej partii zostanie odnotowany po uruchomieniu CI na PR. Nie uruchamiano lokalnych testów w repozytorium; wykonano statyczny preflight na pobranych plikach przez GitHub, a testy automatyczne mają być potwierdzone przez CI.
+- Preflight statyczny wykonano na pobranych plikach przez GitHub; nie uruchamiano lokalnego checkoutu repozytorium. Quality Gate CI: **PASS** — [run #40559510300](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/40559510300), commit `aac8fd7e5d111652bef868a2bbe0c2ea006d087c`. Zaliczone testy struktury, spójności banku, scenariuszy, egzaminów, pakietu recenzyjnego oraz migawki audytów sekwencyjnego i klauzulowego.
 
 
 ## Dodatkowa kontrola wskaźnika po CI
