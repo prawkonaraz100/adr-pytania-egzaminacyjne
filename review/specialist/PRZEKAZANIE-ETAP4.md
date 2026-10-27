@@ -1,13 +1,13 @@
-## Bieżąca migawka — etap 4x104 (27.10.2026)
+## Bieżąca migawka — etap 4x106 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `d9b60f583d5176d0f34ace407933d4d883c9b911`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `2b192c816b06b2e5503c146b7617d3d433fcc112`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`.
-- Pokrycie: 107 kompetencji na mapie (104 teoretyczne, 3 praktyczne); 609 pytań przypisanych bez brakujących ID i bez odwołań między modułami.
-- Liczby aktualne: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 73/609 = 11,99%, maksimum działu 14,29%.
-- Etap 4x100 naprawił nieaktualne liczby w `docs/POKRYCIE-KURSU.md` i dodał test blokujący ich rozjazd z bankiem.
-- Raport: `podstawowy/raporty/etap-4x104-proba40-lekcje-01-05-2026-10-27.md`.
-- Scenariusze: 39, po 3 na dział; egzaminy: warianty 001–005 i klucze.
-- Wszystkie pytania wymagają niezależnej kontroli specjalisty ADR.
+- Pokrycie: 107 kompetencji (104 teoria, 3 praktyka), 39 scenariuszy i 5 treningowych wariantów egzaminu.
+- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 73/609 = 11,99%, maksimum działu 14,29%; explanation minimum 300 znaków.
+- W etapie 4x106 poprawiono wyłącznie błędny dystraktor A pytania ADR-B-0211. Poprawna litera C, explanation i podstawa ADR 1.10.1.2 nie uległy zmianie. Snapshot sekwencyjny zaktualizowano.
+- Egzaminy 001–005 i klucze wskazują aktualny blob; 150 unikalnych ID, rozkład A/B/C 10/10/10 i maksymalna seria 3.
+- Raport: `podstawowy/raporty/etap-4x106-proba60-dystraktory-egzaminy-2026-10-27.md`.
+- Wszystkie pytania nadal wymagają niezależnej kontroli specjalisty ADR.
 
 ## Historyczna migawka — etap 4x87 (27.10.2026)
 
