@@ -390,11 +390,11 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Odpowiedź \"Wyłącznie wymogi dotyczące koloru ramy\" nie odpowiada warunkom ani skutkom ADR 1.1.4.3; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+          "rationale": "Samo oznakowanie cysterny nie potwierdza, że dany towar może być w niej przewożony na wymaganych warunkach."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Odpowiedź \"Jedynie rozkład jazdy promów\" nie odpowiada warunkom ani skutkom ADR 1.1.4.3; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+          "rationale": "Historyczny wyjątek nie zwalnia z weryfikacji wymagań właściwych dla konkretnego towaru i cysterny."
         },
         "C": {
           "expected_correct": true,
@@ -412,12 +412,12 @@
         "module_id": "ADR-B-10",
         "stem": "Cysterna przenośna IMO z 2001 r. spełnia część warunków historycznego wyjątku ADR 1.1.4.3. Które przepisy dotyczące konkretnego towaru nadal należy sprawdzić?",
         "options": {
-          "A": "Sprawdzić wyłącznie kolor ramy cysterny i widoczność jej oznakowania",
-          "B": "Sprawdzić tylko rozkład promów, którymi cysterna będzie przewożona",
+          "A": "Sprawdzić tylko oznakowanie cysterny, bez sprawdzania wpisu towaru",
+          "B": "Uznać, że wyjątek historyczny zwalnia z wymagań dla przewożonego towaru",
           "C": "Sprawdzić tabelę A i rozdział 4.2 ADR dla przewożonego towaru"
         },
         "correct_option": "C",
-        "explanation": "Nawet gdy starsza cysterna IMO kwalifikuje się do wyjątku, trzeba sprawdzić wymagania dla konkretnego towaru w tabeli A oraz przepisy dotyczące przewozu w cysternach przenośnych. Kolor ramy i rozkład promów nie potwierdzają zgodności. Wyjątek od części wymagań technicznych nie znosi wszystkich warunków przewozu. Podstawa: ADR 1.1.4.3 oraz 4.2.",
+        "explanation": "Nawet jeśli starsza cysterna spełnia warunki historycznego wyjątku, trzeba nadal sprawdzić, czy sam towar może być przewożony w tej cysternie i jakie warunki przewozu obowiązują. Samo oznakowanie cysterny ani sam wyjątek nie zastępują sprawdzenia wpisu w tabeli A i rozdziału 4.2. Podstawa: ADR 1.1.4.3 i 4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
