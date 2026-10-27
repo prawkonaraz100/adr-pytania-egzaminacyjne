@@ -8,6 +8,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x83 — końcowa kontrola ścieżki kursanta i egzaminów 001–005](raporty/etap-4x83-kontrola-koncowa-sciezki-egzaminy-2026-10-27.md)
+
 - [Etap 4x82 — odbiór kursanta B-01–04, scenariusze i próbka 60 explanation](raporty/etap-4x82-odbior-kursanta-lekcje01-04-scenariusze-proba60-2026-10-27.md)
 
 - [Etap 4x81 — odbiór kursanta B-10–13, scenariusze i próbka 60 explanation](raporty/etap-4x81-odbior-kursanta-lekcje10-13-scenariusze-proba60-2026-10-27.md)
