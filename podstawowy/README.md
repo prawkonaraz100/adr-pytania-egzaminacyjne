@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 27.10.2026, etap 4x104 (PR #562 scalony; Quality Gate PASS): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 27.10.2026, etap 4x106 (korekta dystraktora ADR-B-0211; PR w toku CI): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99% (maksimum działu 14,29%). Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -8,6 +8,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x106 — próbka 60, dystraktor ADR-B-0211 i regresja kursu](raporty/etap-4x106-proba60-dystraktory-egzaminy-2026-10-27.md)
 - [Etap 4x104 — próbka 40 explanation i odbiór lekcji B-01–B-05](raporty/etap-4x104-proba40-lekcje-01-05-2026-10-27.md)
 - [Etap 4x103 — próbka 40 explanation i odbiór lekcji B-06–B-13](raporty/etap-4x103-proba40-lekcje-06-13-2026-10-27.md)
 - [Etap 4x102 — różnorodność pytań kompetencji i synchronizacja migawki](raporty/etap-4x102-roznorodnosc-kompetencji-2026-10-27.md)
