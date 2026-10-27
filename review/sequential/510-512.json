@@ -102,14 +102,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Dyspozytor planuje przejazd przez tunel kategorii E. Jednostka transportowa przewozi towary w ilościach ograniczonych LQ i wymaga znaku pojazdu zgodnie z 3.4.13, z uwzględnieniem 3.4.14. Jaką trasę powinien wybrać, gdy mają zastosowanie ograniczenia ADR 8.6.4?",
+        "stem": "Jednostka transportowa przewozi towary w ilościach ograniczonych (LQ) i musi być oznakowana zgodnie z ADR 3.4.13 z uwzględnieniem 3.4.14. Jaką trasę wybrać, gdy ma zastosowanie ograniczenie ADR 8.6.4?",
         "options": {
-          "A": "Można jechać przez tunel E, bo oznakowanie LQ nie wprowadza żadnych ograniczeń tunelowych",
+          "A": "Można jechać przez tunel E, bo oznakowanie LQ nie wiąże się z ograniczeniami tunelowymi",
           "B": "Można jechać przez tunel E, jeśli pojazd nie musi mieć tablic pomarańczowych",
-          "C": "Należy wybrać trasę omijającą tunel E, gdy kod LQ powoduje takie ograniczenie"
+          "C": "Ominąć tunel kategorii E, gdy jednostka podlega oznakowaniu LQ z 3.4.13–3.4.14"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli jednostka transportowa musi mieć znak LQ (od ang. limited quantities — ilości ograniczone) zgodnie z 3.4.13, z uwzględnieniem 3.4.14, kod tunelowy może zakazywać wjazdu do kategorii E. Nie oznacza to zakazu dla każdej przesyłki LQ bez względu na ilość i oznakowanie. Przed wyborem trasy sprawdź, czy znak na jednostce jest wymagany. Podstawa: ADR 8.6.4 oraz 3.4.13–3.4.14.",
+        "explanation": "ADR 8.6.4 wprowadza ograniczenie dla jednostek transportowych i kontenerów, których oznakowanie jest wymagane na podstawie 3.4.13 z uwzględnieniem 3.4.14: nie mogą przejeżdżać przez tunele kategorii E. Nie chodzi tu o zwykły kod tunelowy z kolumny 15, lecz o warunki oznakowania LQ dla jednostki. Sam brak tablic pomarańczowych nie znosi tego ograniczenia. Podstawa: ADR 8.6.4 oraz 3.4.13–3.4.14.",
         "sources": [
           {
             "code": "ADR-2025-PL",
