@@ -8,6 +8,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x81 — odbiór kursanta B-10–13, scenariusze i próbka 60 explanation](raporty/etap-4x81-odbior-kursanta-lekcje10-13-scenariusze-proba60-2026-10-27.md)
+
 - [Etap 4x80 — lekcje B-05–09, scenariusze i próba 60](raporty/etap-4x80-lekcje-05-09-scenariusze-proba60-2026-10-27.md)
 
 ## Jak korzystać z kursu
