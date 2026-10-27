@@ -14,7 +14,7 @@ Bezpieczny przewóz wymaga współpracy [nadawcy](../SLOWNICZEK.md#nadawca), prz
 - odróżniać obowiązki ADR (przepisy określające warunki drogowego przewozu towarów niebezpiecznych; [słowniczek](../SLOWNICZEK.md#adr)) od ogólnej odpowiedzialności cywilnej.
 
 ## 1. Podział obowiązków
-ADR rozdziela obowiązki według tego, co robi dana osoba lub firma. Nadawca, przewoźnik, załadowca i kierowca mają różne zadania, więc polecenie jednej osoby nie zwalnia pozostałych z ich obowiązków (ADR 1.4). Nadawca odpowiada za właściwe informacje i klasyfikację w zakresie swoich zadań; przewoźnik organizuje zgodny przewóz; załadowca i pakujący odpowiadają za właściwe czynności i stan przesyłek w zakresie ich obowiązków; kierowca przestrzega wymagań dotyczących pojazdu, dokumentów, wyposażenia i bezpieczeństwa. Odbiorca realizuje obowiązki związane z odbiorem i rozładunkiem.
+ADR rozdziela obowiązki według tego, co robi dana osoba lub firma. Nadawca, przewoźnik, załadowca i kierowca mają różne zadania, więc polecenie jednej osoby nie zwalnia pozostałych z ich obowiązków (ADR 1.4). Nadawca odpowiada za właściwe informacje i klasyfikację, czyli przypisanie towaru do odpowiedniej pozycji i zagrożenia według ADR, w zakresie swoich zadań; przewoźnik organizuje zgodny przewóz; załadowca i pakujący odpowiadają za właściwe czynności i stan przesyłek w zakresie ich obowiązków; kierowca przestrzega wymagań dotyczących pojazdu, dokumentów, wyposażenia i bezpieczeństwa. Odbiorca realizuje obowiązki związane z odbiorem i rozładunkiem.
 
 Przewoźnik zapewnia załodze wymagane instrukcje pisemne. Nie zakładaj, że przekazanie obowiązku jednej osobie usuwa obowiązki innych uczestników.
 
