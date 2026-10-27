@@ -1,11 +1,13 @@
-## Bieżąca migawka — etap 4x104 (27.10.2026)
+## Bieżąca migawka — etap 4x106 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `d9b60f583d5176d0f34ace407933d4d883c9b911`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `236819b5e6ea555285ad74d4a94ce6471bac2287`.
 - Bank: 609 pytań `needs_review`, 0 `verified`.
-- Pokrycie: 107 kompetencji (104 teoria, 3 praktyka); brak pytań nieprzypisanych i błędnych odwołań między modułami.
-- Aktualne metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 73/609 = 11,99%; maksimum działu 14,29%.
-- Raport: [Etap 4x104 — próbka 40 explanation i odbiór lekcji B-01–B-05](../podstawowy/raporty/etap-4x104-proba40-lekcje-01-05-2026-10-27.md).
-- Status prawny wszystkich pytań pozostaje `needs_review`; odbiór specjalisty jest otwarty.
+- Korekta dydaktyczna: dystraktor A w ADR-B-0211 skrócono do wiarygodnej pomyłki; poprawna litera i podstawa ADR bez zmian.
+- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 73/609 = 11,99%; maksimum działu 14,29%.
+- Scenariusze: 39/39 z poprawnymi odwołaniami do pytań właściwego modułu.
+- Egzaminy 001–005 i klucze wskazują aktualny bank; brak rozbieżności po mapowaniu liter.
+- Raport: [Etap 4x106](../podstawowy/raporty/etap-4x106-proba60-dystraktory-egzaminy-2026-10-27.md).
+- Status prawny pozostaje `needs_review`; recenzja specjalisty nadal otwarta.
 
 ## Aktualizacja etapu 4x89 — próbka, wyłączenia i status M364 (27.10.2026)
 

@@ -1,15 +1,13 @@
-## Bieżąca migawka — etap 4x104 (27.10.2026)
+## Bieżąca migawka — etap 4x106 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `d9b60f583d5176d0f34ace407933d4d883c9b911`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `236819b5e6ea555285ad74d4a94ce6471bac2287`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
-- Próbka redakcyjna 40 explanation, seed `41042026`: poprawiono dystraktory/explanation w ADR-B-0244, ADR-B-0339, ADR-B-0371, ADR-B-0445 i ADR-B-0529; poprawne litery i statusy pozostały bez zmian.
-- Lekcje B-10–B-13 sprawdzono pod kątem sensu dla początkującego, przykładów, podsumowań i zgodności z pytaniami. W tym przeglądzie nie potwierdzono błędu merytorycznego wymagającego zmiany tekstu lekcji.
-- Scenariusze: 39, po 3 na każdy dział; brak nieistniejących lub przypisanych do złego działu `question_ids`.
-- Egzaminy 001–005: po 30 unikalnych pytań, wszystkie 13 działów, A/B/C 10/10/10, maksymalna seria 3. Porównanie z bankiem po uwzględnieniu przestawiania opcji nie wykazało rzeczywistej rozbieżności klucza. Metadane `source_bank_head` i klucze wskazują aktualny bank.
-- „Poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%. Explanation poniżej 200 znaków: 0; minimum: 300 znaków.
-- Raport: [Etap 4x87 — próbka 60, spójność kursu i egzaminów](../../podstawowy/raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md).
-- Zastrzeżenie próbki: raport 4x86 nie wymienia pełnych 60 wylosowanych ID. Wykluczono wszystkie ID widoczne w raportach 4x84 i 4x85 oraz jawnie wymienione korekty 4x86, ale brak przecięcia z nieujawnioną częścią próbki 4x86 nie może być potwierdzony.
-- Wymagana niezależna recenzja prawna pozostaje otwarta; nie nadano statusu `verified`.
+- Etap 4x106: dystraktor A w ADR-B-0211 urealniony; klucz C i podstawa ADR 1.10.1.2 bez zmian. Migawka sekwencyjna odświeżona.
+- Próbka 60 explanation: 300–457 znaków, 3–5 zdań; 0 wymagało korekty.
+- Scenariusze 39/39 i warianty egzaminu 001–005 zgodne z aktualnym bankiem.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%.
+- Raport: [Etap 4x106](../../podstawowy/raporty/etap-4x106-proba60-dystraktory-egzaminy-2026-10-27.md).
+- Niezależna recenzja prawna pozostaje otwarta; statusów nie zmieniano.
 
 # Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x87
 
