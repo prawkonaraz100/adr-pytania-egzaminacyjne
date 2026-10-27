@@ -157,11 +157,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "W opisanej sytuacji odpowiedź „Pozostawić silnik na biegu jałowym” jest sprzeczna z działaniem wynikającym z ADR 2025, 8.3.6; potwierdzenie polskiego brzmienia nadal wymagane."
+          "rationale": "Pozostawienie silnika na biegu jałowym bez potrzeby nie spełnia zasady wyłączenia silnika podczas załadunku."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "W opisanej sytuacji odpowiedź „Wyłączyć wyłącznie światła” jest sprzeczna z działaniem wynikającym z ADR 2025, 8.3.6; potwierdzenie polskiego brzmienia nadal wymagane."
+          "rationale": "Krótki czas załadunku sam w sobie nie tworzy wyjątku od zasady wyłączenia silnika."
         }
       },
       "observed_answer_key": "A",
@@ -177,10 +177,10 @@
         "options": {
           "A": "Wyłączyć silnik",
           "B": "Pozostawić silnik na biegu jałowym",
-          "C": "Wyłączyć wyłącznie światła"
+          "C": "Pozostawić silnik włączony, jeśli załadunek trwa tylko kilka minut"
         },
         "correct_option": "A",
-        "explanation": "Podczas załadunku silnik powinien być wyłączony, jeśli nie jest potrzebny do obsługi urządzeń i nie zachodzi przewidziany wyjątek. Ogranicza to niepotrzebne zagrożenia przy manipulowaniu towarem. Pozostawienie silnika na biegu jałowym bez potrzeby albo wyłączenie samych świateł nie spełnia zasady. Podstawa: ADR 8.3.6.",
+        "explanation": "Podczas załadunku silnik powinien być wyłączony, jeśli nie jest potrzebny do obsługi urządzeń i nie zachodzi przewidziany wyjątek. Krótki czas operacji nie tworzy sam w sobie wyjątku, a pozostawienie silnika na biegu jałowym bez potrzeby nie spełnia zasady. Ogranicza to niepotrzebne zagrożenia w miejscu pracy. Podstawa: ADR 8.3.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",

@@ -381,11 +381,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Kierowca kolejnego zestawu, który przyjedzie po nowy ładunek”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Po rozładunku rozładowca powinien zapewnić oczyszczenie pojazdu lub kontenera, gdy wymagają tego przepisy. Nie można przerzucić tego obowiązku na kolejnego kierowcę ani osobę zajmującą się fakturą, bo nie wykonują oni roli rozładowcy. Pozostałości trzeba usunąć przed kolejnym załadunkiem zgodnie z wymaganiami. Podstawa: ADR 1.4.3.7.1(d). Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Kolejny kierowca nie staje się przez to osobą odpowiedzialną za oczyszczenie po poprzednim rozładunku."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Osoba zatwierdzająca fakturę”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Po rozładunku rozładowca powinien zapewnić oczyszczenie pojazdu lub kontenera, gdy wymagają tego przepisy. Nie można przerzucić tego obowiązku na kolejnego kierowcę ani osobę zajmującą się fakturą, bo nie wykonują oni roli rozładowcy. Pozostałości trzeba usunąć przed kolejnym załadunkiem zgodnie z wymaganiami. Podstawa: ADR 1.4.3.7.1(d). Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Przygotowanie dokumentu przez nadawcę nie przenosi na niego automatycznie obowiązków związanych z rozładunkiem."
         }
       },
       "observed_answer_key": "A",
@@ -400,10 +400,10 @@
         "options": {
           "A": "Rozładowca w zakresie czyszczenia po rozładunku",
           "B": "Kierowca kolejnego zestawu, który przyjedzie po nowy ładunek",
-          "C": "Osoba zatwierdzająca fakturę"
+          "C": "Nadawca, bo przygotował dokument przewozowy"
         },
         "correct_option": "A",
-        "explanation": "Po rozładunku rozładowca powinien zapewnić oczyszczenie pojazdu lub kontenera, gdy wymagają tego przepisy. Nie można przerzucić tego obowiązku na kolejnego kierowcę ani osobę zajmującą się fakturą, bo nie wykonują oni roli rozładowcy. Pozostałości trzeba usunąć przed kolejnym załadunkiem zgodnie z wymaganiami. Podstawa: ADR 1.4.3.7.1(d).",
+        "explanation": "Po rozładunku rozładowca powinien zapewnić oczyszczenie pojazdu lub kontenera, gdy wymagają tego przepisy. Obowiązku nie przenosi się automatycznie na nadawcę ani kolejnego kierowcę, ponieważ ADR rozdziela role uczestników. Pozostałości trzeba usunąć przed następnym załadunkiem zgodnie z wymaganiami. Podstawa: ADR 1.4.3.7.1(d).",
         "sources": [
           {
             "code": "ADR-2025-PL",
