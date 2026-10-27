@@ -22,7 +22,7 @@ Sprawdzono 15 scenariuszy B-05–B-09. Każdy ma co najmniej trzy kroki, wniosek
 ## 2. Losowa próbka 60 explanation
 
 - Seed: `202610270084`; PRNG LCG (`state = 1664525 × state + 1013904223 mod 2^32`) i Fisher–Yates.
-- Wynik redakcyjny: **60/60 bez potrzeby przepisywania**. Każde explanation ma 3–5 zdań i 300–422 znaki; brak krótkich wyjaśnień. W próbie nie znaleziono zdań dłuższych niż 35 słów.
+- Wynik redakcyjny: **59/60 pozostawiono bez zmian**; wyjaśnienie ADR-B-0116 zaktualizowano równolegle z korektą dystraktora, aby odpowiadało nowemu błędnemu wariantowi. Explanation w próbce mają 3–5 zdań i 300–422 znaki; brak krótkich wyjaśnień. W próbie nie znaleziono zdań dłuższych niż 35 słów.
 - Próbka to kontrola redakcyjna, nie formalne zatwierdzenie prawne.
 
 ID próbki:
