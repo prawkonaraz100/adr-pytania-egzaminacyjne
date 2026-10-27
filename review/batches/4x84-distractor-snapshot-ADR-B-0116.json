@@ -1,0 +1,26 @@
+{
+  "stage": "4x84",
+  "changed_id": "ADR-B-0116",
+  "changed_fields": [
+    "options.B",
+    "explanation"
+  ],
+  "reason": "Przegląd dystraktorów wykazał odpowiedź o jawnym ukrywaniu wycieku przed osobami postronnymi. Zastąpiono ją wiarygodniejszą, lecz nadal błędną strategią: zabezpieczeniem pasem i kontynuowaniem jazdy po chwilowym ustaniu wycieku.",
+  "before": {
+    "option_B": "Zamknąć drzwi ładowni i kontynuować jazdę, aby osoby postronne nie zauważyły wycieku",
+    "explanation": "Przewożenie opakowania, z którego wycieka niebezpieczny materiał, może zagrażać kierowcy i innym uczestnikom ruchu. Gdy przewoźnik stwierdzi taką niezgodność, nie powinien rozpoczynać przewozu, dopóki problem nie zostanie usunięty. Krótka trasa ani zamknięcie drzwi nie czynią wycieku bezpiecznym. Podstawa: ADR 1.4.2.2."
+  },
+  "after": {
+    "option_B": "Zabezpieczyć przesyłkę pasem i kontynuować jazdę, jeśli wyciek chwilowo ustanie",
+    "explanation": "Uszkodzone opakowanie z wyciekiem może narażać kierowcę, innych uczestników ruchu i środowisko, więc nie wolno kontynuować przewozu, dopóki niezgodność nie zostanie usunięta. Krótka trasa nie zmniejsza zagrożenia, a pas mocujący ani chwilowe ustanie wycieku nie naprawiają opakowania. Wstrzymaj przewóz i zgłoś problem, aby bezpiecznie usunąć przyczynę. Podstawa: ADR 1.4.2.2."
+  },
+  "unchanged": {
+    "correct_option": "C",
+    "module_id": "ADR-B-07",
+    "sources": [
+      "ADR 2025, 1.4.2.2.1(c); 1.4.2.2.3–1.4.2.2.4"
+    ],
+    "verification_status": "needs_review"
+  },
+  "legal_review": "Nie zmieniono klucza, klasyfikacji ani podstawy prawnej. Korekta dydaktyczna, nie formalna weryfikacja prawna."
+}
