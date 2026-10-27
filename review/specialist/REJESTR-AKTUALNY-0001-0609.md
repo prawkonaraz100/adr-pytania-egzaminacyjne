@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x104 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `e21550ddc8e2a340d6988b94f65ff84244ba22f8`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `d9b60f583d5176d0f34ace407933d4d883c9b911`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Próbka redakcyjna 40 explanation, seed `41042026`: poprawiono dystraktory/explanation w ADR-B-0244, ADR-B-0339, ADR-B-0371, ADR-B-0445 i ADR-B-0529; poprawne litery i statusy pozostały bez zmian.
 - Lekcje B-10–B-13 sprawdzono pod kątem sensu dla początkującego, przykładów, podsumowań i zgodności z pytaniami. W tym przeglądzie nie potwierdzono błędu merytorycznego wymagającego zmiany tekstu lekcji.
