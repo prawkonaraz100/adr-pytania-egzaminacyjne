@@ -8,6 +8,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x89 — próbka 60, status umów i wyłączenia ADR](raporty/etap-4x89-proba60-status-umow-wylaczenia-2026-10-27.md)
+
 - [Etap 4x88 — kontrola M364 i ADR-B-0145](raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md)
 - [Etap 4x87 — próbka 60, spójność kursu i egzaminów](raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md)
 - [Etap 4x86 — próbka 60, spójność terminologii i kontroli odsyłaczy](raporty/etap-4x86-proba60-spojnosc-kursu-2026-10-27.md)
