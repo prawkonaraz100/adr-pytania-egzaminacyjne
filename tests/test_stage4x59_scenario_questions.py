@@ -24,5 +24,19 @@ class ScenarioLearnerQuestionsTest(unittest.TestCase):
                     self.assertIn(id, by_id)
                     self.assertEqual(s["module_id"], by_id[id]["module_id"])
 
+
+    def test_scenarios_do_not_all_repeat_the_same_question_set_per_module(self):
+        data = json.loads((ROOT / "podstawowy/praktyka/scenariusze-13-dzialow.json").read_text(encoding="utf-8"))
+        groups = {}
+        for scenario in data["scenarios"]:
+            groups.setdefault(scenario["module_id"], []).append(
+                frozenset(scenario.get("question_ids", []))
+            )
+        for module, sets in groups.items():
+            with self.subTest(module=module):
+                self.assertEqual(len(sets), 3, f"{module}: expected exactly three scenarios")
+                self.assertGreaterEqual(len(set(sets)), 2,
+                    f"{module}: all three scenarios link the identical question set")
+
 if __name__ == "__main__":
     unittest.main()
