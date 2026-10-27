@@ -19,8 +19,8 @@ Scenariusze w pliku `scenariusze-13-dzialow.json` są ćwiczeniami na fikcyjnych
 
 ### B-02 — klasy i rozpoznawanie zagrożeń
 - `SC-ADR-B-02`: przy klasie 4.3 nie zmywaj zabrudzenia wodą.
-- `SC-ADR-B-02-02`: nie dotykaj nieznanej plamy i nie neutralizuj jej domowymi środkami.
-- `SC-ADR-B-02-03`: porównaj numer UN, nazwę, klasę i nalepki; rozbieżność wyjaśnij przed przyjęciem.
+- `SC-ADR-B-02-02`: rozróżnij zagrożenie klasy 8 od klasy 4.3; nie dotykaj mokrej plamy ani nie polewaj jej wodą.
+- `SC-ADR-B-02-03`: rozpoznaj klasy 3, 8 i 4.3 na przykładach benzyny, materiału żrącego i materiału reagującego z wodą; porównaj oznakowanie z dokumentami.
 
 ### B-03 — wycieki, środowisko i odpady
 - `SC-ADR-B-03`: nie wąchaj, nie dotykaj i nie spłukuj cieczy do kanalizacji.

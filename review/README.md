@@ -1,13 +1,11 @@
-## Bieżąca migawka — etap 4x96 (27.10.2026)
+## Bieżąca migawka — etap 4x98 (27.10.2026)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `445c2d76652f2dccf5735f928083388484e147bc`.
-- Bank: 609 pytań `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
-- Próbka 60 explanation, seed `2026102796`: 0 potwierdzonych zmian explanation; długość 302–438 znaków.
-- „Poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%.
-- Raport: [Etap 4x96](../podstawowy/raporty/etap-4x96-proba60-integracja-2026-10-27.md); ID próbki i wykluczenia: [JSON](../podstawowy/raporty/etap-4x96-wykluczenia-prob.json).
-- Synchronizowano manifest, rejestr i kolejki recenzyjne oraz odświeżono audyty dla ADR-B-0092, ADR-B-0137 i ADR-B-0360.
-- Zastrzeżenie: pełna niezależność od nieujawnionej części próby 4x86 nie jest dowiedziona.
-- Status wszystkich pytań pozostaje `needs_review`; odbiór specjalisty jest otwarty.
+- Bank: 609 pytań `needs_review`, 0 `verified`; bez formalnych zatwierdzeń.
+- Scenariusze: 39, po 3 na dział. Dwa potwierdzone rozjazdy opisu i pytań w B-02 zostały skorygowane bez zmiany banku.
+- Raport: [Etap 4x98 — dopasowanie scenariuszy do pytań](../podstawowy/raporty/etap-4x98-dopasowanie-scenariuszy-pytania-2026-10-27.md).
+- Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%.
+- Status prawny wszystkich pytań pozostaje `needs_review`; odbiór specjalisty jest otwarty.
 
 ## Aktualizacja etapu 4x89 — próbka, wyłączenia i status M364 (27.10.2026)
 
