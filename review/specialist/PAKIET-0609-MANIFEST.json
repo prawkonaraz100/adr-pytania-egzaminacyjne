@@ -1,5 +1,5 @@
 {
-  "stage": "stage4x85_scenario_review_and_explanation_sample",
+  "stage": "stage4x86_explanation_sample_course_consistency_and_reference_audit",
   "snapshot_date": "2026-10-27",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
@@ -309,7 +309,7 @@
     },
     "not_verified_warning": "All 609 questions remain needs_review. A targeted comparison result does not constitute verified status."
   },
-  "current_bank_blob_sha": "7a02299fd6fc0cd944abd8b84840b535d371fad9",
+  "current_bank_blob_sha": "c8643aaa4a712e7abefd54bf933120dfe0747f3b",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -573,24 +573,27 @@
     "strictly_longest_correct": 73,
     "strictly_longest_rate": 0.1199,
     "min_explanation_chars": 300,
-    "source_bank_blob_sha": "7a02299fd6fc0cd944abd8b84840b535d371fad9",
+    "source_bank_blob_sha": "c8643aaa4a712e7abefd54bf933120dfe0747f3b",
     "exam_variants_resynced": 5,
     "exam_keys_resynced": 5,
     "verified": 0,
     "report": "podstawowy/raporty/etap-4x31-czytelnosc-zdan-explanation-2026-10-26.md"
   },
   "latest_editorial_update": {
-    "stage": "4x80",
-    "report": "podstawowy/raporty/etap-4x80-lekcje-05-09-scenariusze-proba60-2026-10-27.md",
-    "questions_rewritten": [
-      "ADR-B-0008",
-      "ADR-B-0037",
-      "ADR-B-0327",
-      "ADR-B-0547"
-    ],
+    "stage": "4x86",
+    "report": "podstawowy/raporty/etap-4x86-proba60-spojnosc-kursu-2026-10-27.md",
     "questions_count": 609,
+    "questions_rewritten": [
+      "ADR-B-0021",
+      "ADR-B-0208",
+      "ADR-B-0341",
+      "ADR-B-0501"
+    ],
+    "terminology_normalized": [
+      "ADR-B-0372",
+      "ADR-B-0387"
+    ],
     "scenarios": 39,
-    "scenarios_structural_errors": 0,
     "verified": 0,
     "status": "needs_review"
   },
@@ -599,7 +602,7 @@
     "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
     "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
     "queue_count": 20,
-    "source_bank_blob_sha": "7a02299fd6fc0cd944abd8b84840b535d371fad9",
+    "source_bank_blob_sha": "c8643aaa4a712e7abefd54bf933120dfe0747f3b",
     "source_missing_quote_ids": 121,
     "unresolved_literal_comparisons": 376,
     "legal_review_status": "pending",
@@ -609,7 +612,7 @@
   },
   "secondary_priority_legal_review_queue": {
     "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
-    "source_bank_blob_sha": "7a02299fd6fc0cd944abd8b84840b535d371fad9",
+    "source_bank_blob_sha": "c8643aaa4a712e7abefd54bf933120dfe0747f3b",
     "queue_count": 20,
     "full_missing_quote_count": 121,
     "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
@@ -619,8 +622,20 @@
   "scenario_count": 39,
   "mock_exam_variant_count": 5,
   "editorial_update": {
-    "stage": "4x85",
+    "stage": "4x86",
     "date": "2026-10-27",
-    "summary": "Reviewed 39 practical scenarios and 60 explanation records; improved distractors and explanations in ADR-B-0117, ADR-B-0210, ADR-B-0415, ADR-B-0503; synchronized exam variants/keys 001–005. All questions remain needs_review."
+    "source_bank_blob_sha": "c8643aaa4a712e7abefd54bf933120dfe0747f3b",
+    "summary": "Przejrzano deterministyczną próbkę 60 explanation spoza ID wymienionych w raportach 4x84 i 4x85; poprawiono dystraktory/treść w ADR-B-0021, ADR-B-0208, ADR-B-0341 i ADR-B-0501 oraz ujednolicono terminologię w ADR-B-0372 i ADR-B-0387. Zaktualizowano migawki sekwencyjne i A/B/C oraz source_bank_head egzaminów 001–005. Pełna niezależna kontrola prawna nadal oczekuje.",
+    "question_count": 609,
+    "needs_review": 609,
+    "verified": 0,
+    "formal_approvals": 0,
+    "scenarios": 39,
+    "exam_variants": 5,
+    "strictly_longest_correct": 73,
+    "strictly_longest_rate": 0.1199,
+    "min_explanation_chars": 300,
+    "explanations_under_200": 0,
+    "report": "podstawowy/raporty/etap-4x86-proba60-spojnosc-kursu-2026-10-27.md"
   }
 }
