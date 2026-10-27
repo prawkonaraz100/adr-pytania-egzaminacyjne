@@ -260,3 +260,8 @@ Raporty ETAPU 4x7
 
 - [Raport końcowy 4x59](raporty/etap-4x59-raport-koncowy-2026-10-26.md): 39 pytań decyzyjnych w scenariuszach, losowa próba 60 explanation, jedna korekta redakcyjna, pełny PASS CI.
 - [Mapa powiązań 4x60](raporty/etap-4x60-mapa-scenariusze-bank-2026-10-26.md): 75 unikalnych ID przypisanych do scenariuszy, propozycja ręcznej kontroli pozostałych tematów praktycznych bez sztucznego mnożenia odsyłaczy.
+
+
+## Etap 4x69 — spójność scenariuszy i lekcji
+
+- [Raport B-01–04](raporty/etap-4x69-spojnosc-01-04-2026-10-27.md): scenariusze i pytania sprawdzone pod kątem istniejących ID oraz modułów; usunięto powtórzenie redakcyjne w B-02.
