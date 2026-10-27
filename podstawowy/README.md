@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 27.10.2026, etap 4x98 (po scaleniu 4x97): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 27.10.2026, etap 4x99 (po scaleniu 4x98): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -8,6 +8,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x99 — synchronizacja indeksów scenariuszy B-02](raporty/etap-4x99-synchronizacja-indeksow-scenariuszy-2026-10-27.md)
 - [Etap 4x98 — dopasowanie scenariuszy praktycznych do pytań](raporty/etap-4x98-dopasowanie-scenariuszy-pytania-2026-10-27.md)
 - [Etap 4x97 — regresja bieżącej migawki i indeksów kursu](raporty/etap-4x97-regresja-snapshotu-2026-10-27.md)
 - [Etap 4x96 — próbka 60 i synchronizacja pakietu recenzyjnego](raporty/etap-4x96-proba60-integracja-2026-10-27.md)
