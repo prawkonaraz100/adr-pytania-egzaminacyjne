@@ -1,10 +1,10 @@
-## Bieżąca migawka — etap 4x99 (27.10.2026)
+## Bieżąca migawka — etap 4x100 (27.10.2026)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `445c2d76652f2dccf5735f928083388484e147bc`.
-- Bank: 609 pytań `needs_review`, 0 `verified`; bez formalnych zatwierdzeń.
-- Etap 4x99 zsynchronizował tytuły i `question_ids` dwóch scenariuszy B-02 w mapie JSON, indeksie scenariuszy, lekcji i materiałach instruktora.
-- Raport: [Etap 4x99 — synchronizacja indeksów scenariuszy](../podstawowy/raporty/etap-4x99-synchronizacja-indeksow-scenariuszy-2026-10-27.md).
-- Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%.
+- Bank: 609 pytań `needs_review`, 0 `verified`.
+- Pokrycie: 107 kompetencji (104 teoria, 3 praktyka); brak pytań nieprzypisanych i błędnych odwołań między modułami.
+- Aktualne metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 73/609 = 11,99%; maksimum działu 14,29%.
+- Raport: [Etap 4x100 — metryki pokrycia](../podstawowy/raporty/etap-4x100-metryki-pokrycia-2026-10-27.md).
 - Status prawny wszystkich pytań pozostaje `needs_review`; odbiór specjalisty jest otwarty.
 
 ## Aktualizacja etapu 4x89 — próbka, wyłączenia i status M364 (27.10.2026)
