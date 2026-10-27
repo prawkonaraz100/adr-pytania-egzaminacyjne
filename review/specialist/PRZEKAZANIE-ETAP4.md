@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x69 (27.10.2026)
+
+- Bank blob SHA: `a2c17c5bc8ebcd9d7f138f3c773132d6913674db`.
+- 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- 13 lekcji, 39 scenariuszy praktycznych, pięć wariantów egzaminu próbnego 001–005; brak zmian ID i poprawnych liter w etapie 4x69.
+- Zmieniono wyłącznie explanation pytania `ADR-B-0031` oraz powiązanie pytań w `SC-ADR-B-07-02`; Quality Gate blokuje teraz identyczne zestawy pytań scenariuszy w tym samym module.
+- Ostatni raport: [Etap 4x69 — raport końcowy](../../podstawowy/raporty/etap-4x69-raport-koncowy-2026-10-27.md).
+- 376 literalnych porównań prawnych pozostaje nierozstrzygniętych. Wymagana jest niezależna recenzja specjalisty; nie oznaczono żadnego pytania jako `verified`.
+
 ## Migawka aktualna — etap 4x50 (2026-10-26)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `ca4193261b018613083182c199ec3317984b24a4`.
