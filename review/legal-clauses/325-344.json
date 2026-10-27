@@ -515,7 +515,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Dowolny świadek załadunku”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.5; nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Załadowca ocenia przesyłki podczas załadunku, lecz 2.1.3.5.5 wymienia wiedzę nadawcy jako podstawę tej szczególnej klasyfikacji odpadu."
         },
         "B": {
           "expected_correct": true,
@@ -523,7 +523,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Wyłącznie kierowca pojazdu mijającego transport”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.5; nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Przewoźnik sprawdza dokumenty, ale sama kontrola przed wyjazdem nie zastępuje wskazanej w przepisie wiedzy nadawcy."
         }
       },
       "observed_answer_key": "B",
@@ -536,12 +536,12 @@
         "module_id": "ADR-B-03",
         "stem": "Kto jest wskazany w ADR 2.1.3.5.5 jako podmiot, którego wiedza może stanowić podstawę przypisania odpadu do UN i grupy pakowania?",
         "options": {
-          "A": "Dowolny świadek załadunku",
+          "A": "Załadowca, ponieważ widzi stan opakowania odpadu podczas załadunku",
           "B": "Nadawca",
-          "C": "Wyłącznie kierowca pojazdu mijającego transport"
+          "C": "Przewoźnik, ponieważ kontroluje dokumenty odpadu przed wyruszeniem"
         },
         "correct_option": "B",
-        "explanation": "ADR wskazuje nadawcę jako podmiot, którego wiedza o odpadzie może być podstawą klasyfikacji w opisanej procedurze. Przypadkowy świadek ani kierowca mijającego pojazdu nie odpowiadają za przekazanie informacji o składzie i właściwościach odpadu. Nadal trzeba spełnić warunki procedury i uwzględnić jej wyłączenia. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Przy nieznanym dokładnie składzie odpadu ADR dopuszcza oparcie klasyfikacji na wiedzy nadawcy i dostępnych danych o odpadzie. Załadowca sprawdza opakowania, a przewoźnik dokumenty, lecz samo wykonywanie tych czynności nie zastępuje wiedzy nadawcy wskazanej w tym przepisie. Trzeba też spełnić warunki i ograniczenia procedury. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
