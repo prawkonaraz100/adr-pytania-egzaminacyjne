@@ -54,7 +54,7 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 - Założenie, że każdą awarię trzeba samodzielnie ugasić — działania podejmuj tylko w granicach instrukcji, przeszkolenia i bezpiecznych warunków (ADR 5.4.3.4).
 - Pomijanie informacji o ładunku, które są już dostępne w dokumentach — dokumenty i instrukcje pomagają służbom rozpoznać zagrożenie (ADR 5.4.3.4).
 
-## Krótkie przykłady sytuacyjne
+## Scenariusze praktyczne
 
 Poniższe krótkie przykłady służą do omówienia treści lekcji. Nie zastępują trzech pełnych scenariuszy z mapy praktycznej, które mają osobne kroki, typowe błędy, podstawę ADR i powiązane pytania.
 1. **Gaśnica zasłonięta ładunkiem.** Przed wyjazdem kierowca zauważa, że nie może szybko wyjąć wymaganej gaśnicy. Nie rusza, dopóki sprzęt nie będzie sprawny, prawidłowo zamocowany i dostępny.
