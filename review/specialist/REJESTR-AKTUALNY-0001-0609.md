@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x87 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `33291e82a0a019d373d1ef22fed6c1a4177bd0e4`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Próbka redakcyjna 60 explanation, seed `2026102787`: poprawiono wiarygodność dystraktorów i doprecyzowano wyjaśnienia w ADR-B-0101, ADR-B-0186, ADR-B-0258, ADR-B-0356, ADR-B-0470 i ADR-B-0484. Poprawne litery i statusy pozostały bez zmian.
 - Lekcje B-10–B-13 sprawdzono pod kątem sensu dla początkującego, przykładów, podsumowań i zgodności z pytaniami. W tym przeglądzie nie potwierdzono błędu merytorycznego wymagającego zmiany tekstu lekcji.
@@ -13,7 +13,7 @@
 
 # Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x87
 
-Data migawki: 27.10.2026, etap 4x87. Bank blob SHA `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`. Wszystkie 609 pytań pozostają `needs_review`, 0 `verified`, 0 formalnych akceptacji.
+Data migawki: 27.10.2026, etap 4x87. Bank blob SHA `33291e82a0a019d373d1ef22fed6c1a4177bd0e4`. Wszystkie 609 pytań pozostają `needs_review`, 0 `verified`, 0 formalnych akceptacji.
 
 Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależnego sprawdzenia poprawności wzoru. Etap 4x16, partie 1–9: porównano 413 pozycji porównawczych; 186 pozostaje nierozstrzygniętych. Dwie potwierdzone rozbieżności poprawiono w ADR-B-0484 i ADR-B-0488; ADR-B-0457 i ADR-B-0458 nadal wymagają literalnego potwierdzenia przypisów tabeli 1.10.3.1.2. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane.
 
@@ -530,7 +530,7 @@ Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależn
 | ADR-B-0509 | ADR-B-08 | ADR-B-08-K04 | Przed wyjazdem zestaw ADR składa się z samochodu ciężarowego i przyczepy. Na wyposażeniu jest jeden klin pod koło, dobrany do samochodu. Co powinien sprawdzić kierowca przy kompletowaniu wyposażenia obu pojazdów? | C | ADR 2025, 8.1.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0510 | ADR-B-02 | ADR-B-02-K06 | Kierowca przed rozładunkiem dostrzega mokre opakowanie z nalepką klasy 4.3. Pracownik proponuje polewać je wodą, żeby usunąć zabrudzenia. Jakie zagrożenie należy uwzględnić? | A | ADR 2025, 2.2.43.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0511 | ADR-B-10 | ADR-B-10-K01 | Po rejsie morskim kierowca przejmuje kontener z opakowanym towarem niebezpiecznym. Sztuki przesyłek są oznakowane zgodnie z IMDG, ale nie w pełni według ADR. Kiedy można rozważyć przyjęcie ich do dalszego przewozu drogowego na podstawie 1.1.4.2.1(a)? | B | ADR 2025, 1.1.4.2.1(a) | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0512 | ADR-B-11 | ADR-B-11-K06 | Dyspozytor planuje przejazd przez tunel kategorii E. Jednostka transportowa przewozi towary w ilościach ograniczonych LQ i wymaga znaku pojazdu zgodnie z 3.4.13, z uwzględnieniem 3.4.14. Jaką trasę powinien wybrać, gdy mają zastosowanie ograniczenia ADR 8.6.4? | C | ADR 2025, 8.6.4; 3.4.13; 3.4.14 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0512 | ADR-B-11 | ADR-B-11-K06 | Jednostka transportowa przewozi towary w ilościach ograniczonych (LQ) i musi być oznakowana zgodnie z ADR 3.4.13 z uwzględnieniem 3.4.14. Jaką trasę wybrać, gdy ma zastosowanie ograniczenie ADR 8.6.4? | C | ADR 2025, 8.6.4; 3.4.13; 3.4.14 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0513 | ADR-B-01 | ADR-B-01-K02 | Nowy pracownik terminalu zaczyna obsługiwać dokumenty towarów niebezpiecznych. Nie odbył jeszcze szkolenia ADR odpowiedniego do swoich obowiązków. Jak może wykonywać te zadania do czasu wymaganego przeszkolenia? | B | ADR 2025, 1.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0514 | ADR-B-03 | ADR-B-03-K03 | Po rozładunku ADR załadowca odkrywa, że z jednej sztuki przesyłki wyciekła niebezpieczna ciecz na podłogę kontenera. Planowany jest kolejny załadunek. Kiedy kontener może zostać ponownie załadowany? | A | ADR 2025, 7.5.8.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0515 | ADR-B-04 | ADR-B-04-K03 | W trakcie rozładunku sztuk przesyłek ADR pracownik prosi kierowcę o pozostawienie uruchomionego silnika dla ogrzania kabiny. Silnik nie napędza urządzenia rozładunkowego. Jak postąpić? | C | ADR 2025, 8.3.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
