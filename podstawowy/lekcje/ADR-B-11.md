@@ -72,9 +72,8 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
 ## Co musisz zapamiętać
-- Jeżeli jednostka transportowa przewozi towary w LQ i wymaga oznakowania pojazdu z ADR 3.4.13 (z uwzględnieniem 3.4.14), sprawdź też szczególne ograniczenie z ADR 8.6.3.3 i 8.6.4 — w tej sytuacji może obowiązywać zakaz wjazdu do tunelu kategorii E. Nie zakładaj, że samo LQ zawsze znosi ograniczenia.
-
-Kod tunelowy odczytuj z kolumny 15 tabeli A.
+- **Przewóz w LQ (ilościach ograniczonych)** także może podlegać ograniczeniom: jeśli jednostka wymaga oznakowania zgodnie z ADR 3.4.13, z uwzględnieniem 3.4.14, sprawdź ADR 8.6.3.3 i 8.6.4 przed wyborem tunelu kategorii E. Samo LQ nie gwarantuje możliwości wjazdu.
+- Kod tunelowy odczytuj z kolumny 15 tabeli A.
 - Sprawdź kategorię tunelu na oznakowaniu.
 - D/E ma inne zastosowanie dla cystern i sztuk przesyłek.
 - Przy różnych kodach ustal kod dla całej jednostki zgodnie z ADR.
