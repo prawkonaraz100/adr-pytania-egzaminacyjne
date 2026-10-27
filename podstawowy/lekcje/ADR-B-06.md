@@ -59,7 +59,7 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 - Odczytywanie numeru zagrożenia bez sprawdzenia tablicy pomarańczowej i kontekstu — nie zastępuje on numeru UN (ADR 5.3.2).
 - Uznawanie, że jedno oznaczenie zastępuje wszystkie pozostałe — wymagane oznakowanie zależy od klasyfikacji i sposobu przewozu (ADR 5.2–5.3).
 
-## Krótkie przykłady sytuacyjne
+## Scenariusze praktyczne
 
 Poniższe krótkie przykłady służą do omówienia treści lekcji. Nie zastępują trzech pełnych scenariuszy z mapy praktycznej, które mają osobne kroki, typowe błędy, podstawę ADR i powiązane pytania.
 1. **Nieczytelna nalepka na kontenerze.** Przed wyjazdem kierowca zauważa, że nalepka dużego formatu jest nieczytelna, a tablica pomarańczowa nie pasuje do dokumentów. Porównuje oznakowanie z dokumentacją i właściwym wpisem; wyjazd następuje dopiero po wyjaśnieniu i poprawieniu niezgodności.
