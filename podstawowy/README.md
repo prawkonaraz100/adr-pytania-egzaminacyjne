@@ -8,6 +8,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x97 — regresja bieżącej migawki i indeksów kursu](raporty/etap-4x97-regresja-snapshotu-2026-10-27.md)
 - [Etap 4x96 — próbka 60 i synchronizacja pakietu recenzyjnego](raporty/etap-4x96-proba60-integracja-2026-10-27.md)
 - [Etap 4x96 — seed, lista próbki i jawne wykluczenia](raporty/etap-4x96-wykluczenia-prob.json)
 - [Etap 4x94 — status ADR 2027, M369 i mapa wpływu](raporty/etap-4x94-status-adr-2027-m369-mapa-wplywu-2026-10-27.md)
