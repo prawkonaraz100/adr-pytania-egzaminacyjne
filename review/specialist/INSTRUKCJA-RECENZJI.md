@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x106 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `2b192c816b06b2e5503c146b7617d3d433fcc112`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `236819b5e6ea555285ad74d4a94ce6471bac2287`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
 - Etap 4x106: próbka 60 explanation, przegląd 39 scenariuszy, synchronizacja egzaminów i korekta dydaktyczna ADR-B-0211.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%; explanation minimum 300 znaków.
