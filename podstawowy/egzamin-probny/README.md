@@ -1,5 +1,13 @@
 # Egzamin próbny ADR podstawowy — materiały treningowe
 
+## Najnowsza synchronizacja — etap 4x85 (27.10.2026)
+
+- Aktualny blob banku: `7a02299fd6fc0cd944abd8b84840b535d371fad9`.
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`.
+- Warianty i klucze 001–005 sprawdzono ponownie po korekcie dydaktycznej. Każdy wariant ma 30 unikalnych pytań, obejmuje 13 działów, rozkład klucza A/B/C 10/10/10 i maksymalną serię 3; brak rozbieżności treści, klucza lub explanation.
+- Raport: [Etap 4x85 — scenariusze, próbka 60 i synchronizacja](../raporty/etap-4x85-scenariusze-proba60-2026-10-27.md).
+
+
 Warianty są przeznaczone wyłącznie do nauki. Każdy arkusz ma 30 pytań, 60 minut i próg treningowy 20/30. Odpowiedzi A/B/C są wyrównane, a najdłuższa seria tej samej poprawnej litery nie przekracza trzech.
 
 ## Jak interpretować wynik

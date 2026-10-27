@@ -1,0 +1,89 @@
+{
+  "stage": "4x85",
+  "date": "2026-10-27",
+  "bank_blob_sha": "7a02299fd6fc0cd944abd8b84840b535d371fad9",
+  "changed_questions": [
+    {
+      "id": "ADR-B-0117",
+      "changed_fields": [
+        "options.B",
+        "options.C",
+        "explanation"
+      ],
+      "before": {
+        "options": {
+          "B": "Przypadkowa osoba postronna spotkana na parkingu",
+          "C": "Odbiorca, ale dopiero po zakończeniu rozładunku"
+        }
+      },
+      "after": {
+        "options": {
+          "B": "Przewoźnik, który ma samodzielnie ustalić wszystkie dane o towarze bez informacji od nadawcy",
+          "C": "Odbiorca, który może przekazać wymagane dane dopiero po dostawie"
+        },
+        "explanation": "To nadawca powinien przekazać przewoźnikowi informacje i dokumenty wymagane do przewozu, ponieważ zna towar przekazywany do transportu. Przewoźnik ma sprawdzić, czy je otrzymał, ale nie powinien wymyślać brakujących danych. Odbiorca nie może przekazać ich dopiero po dostawie, bo zgodność trzeba ustalić przed rozpoczęciem przewozu. Podstawa: ADR 1.4.2.1.1."
+      },
+      "correct_option": "A",
+      "module_id": "ADR-B-07",
+      "legal_basis": "ADR 1.4.2.1.1",
+      "verification_status": "needs_review",
+      "reason": "Dwa niewiarygodne dystraktory zastąpiono realistycznymi pomyłkami dotyczącymi podziału obowiązków; klucz bez zmian."
+    },
+    {
+      "id": "ADR-B-0210",
+      "changed_fields": [
+        "options.C",
+        "explanation"
+      ],
+      "before": {
+        "option_C": "Przenosić sztuki przesyłek do wyjścia ewakuacyjnego, zanim wezwie się pomoc"
+      },
+      "after": {
+        "option_C": "Pozostać przy pojeździe i czekać na służby, zamiast od razu skorzystać z wyjścia ewakuacyjnego",
+        "explanation": "Przy pożarze obejmującym przedział ładunkowy priorytetem jest ochrona życia: oddal się bezpiecznie, skorzystaj z wyjścia ewakuacyjnego i powiadom służby. Nie otwieraj ładowni ani nie próbuj gasić jej pożaru — instrukcje pisemne ADR wyraźnie zabraniają takiej interwencji. Pozostawanie przy pojeździe zamiast ewakuacji również naraża ludzi i opóźnia wezwanie pomocy. Podstawa: ADR 5.4.3.4."
+      },
+      "correct_option": "B",
+      "module_id": "ADR-B-11",
+      "legal_basis": "ADR 5.4.3.4; 1.9.5",
+      "verification_status": "needs_review",
+      "reason": "Dystraktor przeredagowano na wiarygodny błąd: pozostawanie przy pojeździe zamiast ewakuacji."
+    },
+    {
+      "id": "ADR-B-0415",
+      "changed_fields": [
+        "options.C",
+        "explanation"
+      ],
+      "before": {
+        "option_C": "Ustawić reklamę na bramie i uznać ją za wystarczające zabezpieczenie przed wejściem osób postronnych"
+      },
+      "after": {
+        "option_C": "Zamknąć wyłącznie drzwi kontenera i nie kontrolować dostępu do miejsca składowania",
+        "explanation": "Miejsce czasowego składowania towarów niebezpiecznych powinno być odpowiednio zabezpieczone, oświetlone tam, gdzie to możliwe, i chronione przed dostępem osób nieupoważnionych. Samo zamknięcie drzwi kontenera nie zabezpiecza całego terenu ani wejścia do składowiska. Trzeba ograniczyć nieuprawniony dostęp zgodnie z wymaganiami ochrony. Podstawa: ADR 1.10.1.3."
+      },
+      "correct_option": "A",
+      "module_id": "ADR-B-12",
+      "legal_basis": "ADR 1.10.1.3",
+      "verification_status": "needs_review",
+      "reason": "Absurdalny wariant o reklamie zastąpiono realistycznym, lecz niewystarczającym zabezpieczeniem samych drzwi kontenera."
+    },
+    {
+      "id": "ADR-B-0503",
+      "changed_fields": [
+        "explanation"
+      ],
+      "before": {
+        "explanation": "Cyfra 3 w numerze rozpoznawczym zagrożenia wskazuje na palność cieczy, par lub gazów, a w określonych przypadkach także cieczy samonagrzewającej się. Nie oznacza działania żrącego ani typowej palności materiałów stałych. Cyfra 3 nie oznacza działania żrącego ani palności ciał stałych. Podstawa: ADR 5.3.2.3.1."
+      },
+      "after": {
+        "explanation": "Cyfra 3 w numerze rozpoznawczym zagrożenia oznacza, że towar może stwarzać zagrożenie związane z palnością cieczy, par lub gazów; w określonych przypadkach obejmuje też ciecz samonagrzewającą się. Nie wskazuje na działanie żrące ani na typową palność materiałów stałych — te opisy dotyczą innych zagrożeń. Czytaj cały numer i sprawdź właściwy wpis ADR, zamiast wnioskować z samej tablicy. Podstawa: ADR 5.3.2.3.1."
+      },
+      "correct_option": "C",
+      "module_id": "ADR-B-06",
+      "legal_basis": "ADR 5.3.2.3.1",
+      "verification_status": "needs_review",
+      "reason": "Usunięto powtórzenie i uproszczono objaśnienie bez zmiany sensu prawnego."
+    }
+  ],
+  "legal_review_note": "Zmiany redakcyjne, nie formalna weryfikacja prawna. Nie nadano verified."
+}

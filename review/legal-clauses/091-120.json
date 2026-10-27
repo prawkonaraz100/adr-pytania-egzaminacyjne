@@ -1236,20 +1236,20 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Nadawca dostarcza informacje i wymagane dokumenty."
+          "rationale": "Nadawca przekazuje przewoźnikowi informacje i dokumenty potrzebne do przewozu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Postronny nie jest podmiotem obowiązanym do przygotowania dokumentacji."
+          "rationale": "Przewoźnik ma sprawdzić kompletność otrzymanych informacji, ale nie zastępuje nadawcy przez samodzielne zgadywanie danych o towarze."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Odbiorca po rozładunku nie zastępuje nadawcy przed przewozem."
+          "rationale": "Dane są potrzebne przed przewozem; przekazanie ich dopiero po dostawie następuje za późno."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Przewoźnik ma również obowiązek sprawdzenia danych przed jazdą.",
-      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "notes_on_conditions": "Pytanie dotyczy podstawowego obowiązku nadawcy przed przewozem. Dystraktory i explanation poprawiono redakcyjnie; pełna recenzja prawna pozostaje otwarta.",
+      "editorial_result": "distractors_reworded_for_common_role_confusions_key_unchanged",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -1259,11 +1259,11 @@
         "stem": "Który uczestnik powinien udostępnić przewoźnikowi dane i dokumenty wymagane do wykonania przewozu ADR?",
         "options": {
           "A": "Nadawca przesyłki ADR",
-          "B": "Przypadkowa osoba postronna spotkana na parkingu",
-          "C": "Odbiorca, ale dopiero po zakończeniu rozładunku"
+          "B": "Przewoźnik, który ma samodzielnie ustalić wszystkie dane o towarze bez informacji od nadawcy",
+          "C": "Odbiorca, który może przekazać wymagane dane dopiero po dostawie"
         },
         "correct_option": "A",
-        "explanation": "Nadawca wie, jaki towar przekazuje do transportu, i dlatego powinien dostarczyć przewoźnikowi wymagane informacje oraz dokumenty. Bez nich trudno ustalić właściwe zasady przewozu. Przypadkowy przechodzień czy odbiorca dopiero po rozładunku nie mogą zastąpić nadawcy w tym obowiązku. Podstawa: ADR 1.4.2.1.1.",
+        "explanation": "To nadawca powinien przekazać przewoźnikowi informacje i dokumenty wymagane do przewozu, ponieważ zna towar przekazywany do transportu. Przewoźnik ma sprawdzić, czy je otrzymał, ale nie powinien wymyślać brakujących danych. Odbiorca nie może przekazać ich dopiero po dostawie, bo zgodność trzeba ustalić przed rozpoczęciem przewozu. Podstawa: ADR 1.4.2.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",

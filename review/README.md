@@ -1,4 +1,14 @@
-## Bieżąca migawka — etap 4x80 (27.10.2026)
+## Bieżąca migawka — etap 4x85 (27.10.2026)
+
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `7a02299fd6fc0cd944abd8b84840b535d371fad9`.
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- Próba 60 explanation (seed `2026102785`): 4 wpisy zmienione po ręcznym czytaniu: ADR-B-0117, ADR-B-0210, ADR-B-0415 i ADR-B-0503. Poprawiono trzy zestawy dystraktorów (łącznie 4 opcje błędne) i cztery wyjaśnienia; klucze A/B/C pozostały bez zmian.
+- 39 scenariuszy sprawdzono pod kątem realistyczności, kroków kierowcy, wyjaśnienia błędów, podstaw ADR i pytań z właściwego działu. Nie znaleziono potwierdzonej sprzeczności prawnej ani luki wymagającej nowego pytania.
+- Egzaminy 001–005 oraz klucze zsynchronizowano z aktualnym blobem banku; w wariancie 001 zaktualizowano pytanie ADR-B-0210, a w wariancie 005 ADR-B-0117 i explanation ADR-B-0503.
+- Raport: [Etap 4x85 — scenariusze i próba 60](../podstawowy/raporty/etap-4x85-scenariusze-proba60-2026-10-27.md).
+- Snapshoty sekwencyjne i A/B/C odświeżone dla zmienionych ID. Nie nadano statusu `verified`.
+
+## Poprzednia migawka — etap 4x80 (27.10.2026)
 
 - Bank blob SHA: `440ff9e0acad53b7527dde81cb55a2301f8f47e9`.
 - 609 pytań, 609 `needs_review`, 0 `verified`; 39 scenariuszy i 5 wariantów egzaminu próbnego z kluczami.

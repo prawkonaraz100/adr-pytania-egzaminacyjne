@@ -1,12 +1,14 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 26.10.2026, po redakcji podręcznika: 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 27.10.2026, etap 4x85: 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
 - [Słowniczek ADR dla kursanta](SLOWNICZEK.md) — proste definicje skrótów, oznakowania i pojęć używanych w lekcjach i pytaniach.
 
 ## Raporty jakości
+
+- [Etap 4x85 — scenariusze, próbka 60 explanation i synchronizacja egzaminów](raporty/etap-4x85-scenariusze-proba60-2026-10-27.md)
 
 - [Etap 4x83 — końcowa kontrola ścieżki kursanta i egzaminów 001–005](raporty/etap-4x83-kontrola-koncowa-sciezki-egzaminy-2026-10-27.md)
 
