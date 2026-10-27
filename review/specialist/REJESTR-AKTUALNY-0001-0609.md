@@ -1,12 +1,12 @@
 ## Bieżąca migawka — etap 4x85 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `0fe63ff3de7821077baa8b4a94a5bec10647fd26`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `7a02299fd6fc0cd944abd8b84840b535d371fad9`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
-- Próbka explanation: 60 ID (seed `2026102785`); poprawiono ADR-B-0503 (usunięto powtórzenie) i ADR-B-0210 (wyjaśnienie dystraktora po korekcie opcji). Pozostałe 58 wyjaśnień bez zmian.
-- Skorygowano jeden dystraktor w ADR-B-0210, bez zmiany klucza B. Egzamin 001 i klucz 001 zsynchronizowane; warianty/klucze 001–005 wskazują aktualny bank.
-- 39 scenariuszy sprawdzono pod kątem kroków kierowcy, błędów z uzasadnieniem, podstaw ADR i powiązanych pytań. Nie znaleziono potwierdzonej sprzeczności prawnej wymagającej zmiany scenariusza ani niepokrytego tematu wymagającego nowego pytania.
+- Próba 60 explanation (seed `2026102785`): 4 wpisy zmienione po ręcznym czytaniu: ADR-B-0117, ADR-B-0210, ADR-B-0415 i ADR-B-0503. Poprawiono trzy zestawy dystraktorów (łącznie 4 opcje błędne) i cztery wyjaśnienia; klucze A/B/C pozostały bez zmian.
+- 39 scenariuszy sprawdzono pod kątem realistyczności, kroków kierowcy, wyjaśnienia błędów, podstaw ADR i pytań z właściwego działu. Nie znaleziono potwierdzonej sprzeczności prawnej ani luki wymagającej nowego pytania.
+- Egzaminy 001–005 oraz klucze zsynchronizowano z aktualnym blobem banku; w wariancie 001 zaktualizowano pytanie ADR-B-0210, a w wariancie 005 ADR-B-0117 i explanation ADR-B-0503.
 - Raport: [Etap 4x85 — scenariusze i próba 60](../../podstawowy/raporty/etap-4x85-scenariusze-proba60-2026-10-27.md).
-- Snapshoty sekwencyjne i przeglądu A/B/C odświeżone dla ADR-B-0210 i ADR-B-0503. Nie nadano statusu `verified`.
+- Snapshoty sekwencyjne i A/B/C odświeżone dla zmienionych ID. Nie nadano statusu `verified`.
 
 # Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x85
 
