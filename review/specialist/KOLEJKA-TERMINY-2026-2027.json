@@ -1,0 +1,54 @@
+{
+  "stage": "4x86_time_sensitive_agreement_audit",
+  "snapshot_date": "2026-10-27",
+  "scope": "ADR-BASIC-ONLY",
+  "source_bank_blob_sha": "7a02299fd6fc0cd944abd8b84840b535d371fad9",
+  "agreement": "M364",
+  "agreement_title": "Dokumenty przewożone w jednostce transportowej zgodnie z ADR 8.1.2.2",
+  "expiry_date": "2026-12-31",
+  "status_on_snapshot_date": "Oficjalny wykaz UNECE podaje ważność do 31.12.2026; polskie obwieszczenie Ministra Infrastruktury (Dz. Urz. MI 2025 poz. 37) potwierdza ten termin. Nie zmieniono odpowiedzi; przed użyciem po tej dacie należy ponownie sprawdzić aktualny tekst i listę umów.",
+  "official_sources": [
+    {
+      "title": "Dziennik Urzędowy Ministra Infrastruktury 2025 poz. 37 — Umowa M364",
+      "url": "https://www.gov.pl/attachment/cea0faed-9de2-4c02-a423-0c7f19619a77"
+    },
+    {
+      "title": "UNECE — wykaz umów wielostronnych ADR",
+      "url": "https://unece.org/transport/road-transport/adr-multilateral-agreements"
+    }
+  ],
+  "lesson_refs": [
+    "podstawowy/lekcje/ADR-B-08.md",
+    "podstawowy/lekcje/ADR-B-13.md"
+  ],
+  "records": [
+    {
+      "id": "ADR-B-0145",
+      "module_id": "ADR-B-13",
+      "legal_basis": [
+        "ADR 2025, 8.1.2.2(a)",
+        "Umowa wielostronna M364, pkt 1–2"
+      ],
+      "verification_status": "needs_review",
+      "priority": "high",
+      "reason": "Explanation wspomina wyjątek dotyczący świadectwa dopuszczenia dla przyczepy przechowywanego na przyczepie; termin umowy przypada 31.12.2026.",
+      "required_action": "Przed użyciem po 31.12.2026 sprawdzić w urzędowym wykazie, czy M364 została przedłużona, zastąpiona lub wypowiedziana; jeśli nie, ocenić czy explanation wymaga aktualizacji. Nie zmieniać klucza bez potwierdzenia."
+    },
+    {
+      "id": "ADR-B-0198",
+      "module_id": "ADR-B-08",
+      "legal_basis": [
+        "ADR 2025, 8.1.2.2(a)",
+        "ADR 2025, 9.1.3.1",
+        "Umowa wielostronna M364, pkt 1–2"
+      ],
+      "verification_status": "needs_review",
+      "priority": "high",
+      "reason": "Explanation omawia ogólną zasadę dokumentu dla pojazdu silnikowego i odrębny wyjątek dla naczepy M364 z terminem 31.12.2026.",
+      "required_action": "Przed użyciem po 31.12.2026 sprawdzić status M364 i upewnić się, że tekst nadal wyraźnie odróżnia pojazd silnikowy od naczepy. Nie zmieniać klucza bez potwierdzenia."
+    }
+  ],
+  "answer_changes_made": false,
+  "verification_status": "needs_review",
+  "formal_approval": false
+}
