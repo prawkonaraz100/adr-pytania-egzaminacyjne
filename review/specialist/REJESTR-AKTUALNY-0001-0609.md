@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x87 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `33291e82a0a019d373d1ef22fed6c1a4177bd0e4`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `7a2f4615e652f69d4079bf622098c8dd586c1ae1`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Próbka redakcyjna 60 explanation, seed `2026102787`: poprawiono wiarygodność dystraktorów i doprecyzowano wyjaśnienia w ADR-B-0101, ADR-B-0186, ADR-B-0258, ADR-B-0356, ADR-B-0470 i ADR-B-0484. Poprawne litery i statusy pozostały bez zmian.
 - Lekcje B-10–B-13 sprawdzono pod kątem sensu dla początkującego, przykładów, podsumowań i zgodności z pytaniami. W tym przeglądzie nie potwierdzono błędu merytorycznego wymagającego zmiany tekstu lekcji.
@@ -13,7 +13,7 @@
 
 # Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x87
 
-Data migawki: 27.10.2026, etap 4x87. Bank blob SHA `33291e82a0a019d373d1ef22fed6c1a4177bd0e4`. Wszystkie 609 pytań pozostają `needs_review`, 0 `verified`, 0 formalnych akceptacji.
+Data migawki: 27.10.2026, etap 4x87. Bank blob SHA `7a2f4615e652f69d4079bf622098c8dd586c1ae1`. Wszystkie 609 pytań pozostają `needs_review`, 0 `verified`, 0 formalnych akceptacji.
 
 Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależnego sprawdzenia poprawności wzoru. Etap 4x16, partie 1–9: porównano 413 pozycji porównawczych; 186 pozostaje nierozstrzygniętych. Dwie potwierdzone rozbieżności poprawiono w ADR-B-0484 i ADR-B-0488; ADR-B-0457 i ADR-B-0458 nadal wymagają literalnego potwierdzenia przypisów tabeli 1.10.3.1.2. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane.
 
