@@ -16,6 +16,6 @@
 ## Kontrola prawna i wersjonowanie
 
 - Podstawę zmian w rekordach sprawdzono względem przywołanych punktów ADR 2025. To audyt redakcyjny i zgodności wskazanego przepisu, nie niezależna recenzja prawna.
-- ADR-B-0512 doprecyzowano tak, aby nie mylić ograniczenia dla jednostek wymagających oznakowania zgodnie z 3.4.13 i 3.4.14 z kodem tunelowym z kolumny 15.
+- ADR-B-0512 doprecyzowano tak, aby nie mylić ograniczenia dla jednostek wymagających oznakowania zgodnie z 3.4.13 i 3.4.14 z kodem tunelowym z kolumny 15. Skrócono także poprawną opcję, zachowując jej sens i literę C, aby nie zwiększała wskaźnika „poprawna = jedyna najdłuższa”.
 - Kandydaci ADR 2027 dotyczący baterii pozostają niezmienieni i wymagają porównania przez specjalistę: ADR-B-0099, 0162, 0315, 0499, 0500, 0501, 0502.
 - Żadnego pytania nie oznaczono jako `verified`; nie zmieniono ID ani poprawnej litery.
