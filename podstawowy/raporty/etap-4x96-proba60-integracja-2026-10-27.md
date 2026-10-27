@@ -111,7 +111,7 @@ Trzy zmienione rekordy banku w gałęzi 4x96, wykryte przez porównanie z wejśc
 - `ADR-B-0137` — zastąpiono absurdalne dystraktory wiarygodnymi pomyłkami o zakresie obowiązku posiadania świadectwa dopuszczenia pojazdu; ADR 9.1.2.1 i 9.1.3.
 - `ADR-B-0360` — poprawiono dystraktor dotyczący zakazu palenia w trakcie załadunku i rozładunku; ADR 8.3.5.
 
-Poprawna litera nie została zmieniona. Odświeżono migawki audytu sekwencyjnego dla tych trzech ID. Te korekty nie zostały uznane za formalną weryfikację prawną.
+Poprawna litera nie została zmieniona. Odświeżono migawki audytu sekwencyjnego oraz audytu A/B/C w `review/legal-clauses/` dla tych trzech ID; zaktualizowano także racjonalizacje błędnych opcji. Te korekty nie zostały uznane za formalną weryfikację prawną.
 
 ## 5. Następny sensowny krok
 
