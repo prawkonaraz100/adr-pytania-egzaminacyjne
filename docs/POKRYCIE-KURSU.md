@@ -8,8 +8,8 @@
 - **104/104 kompetencji teoretycznych** ma co najmniej jedno pytanie w wersji roboczej. **0/104** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
-- Rozkład prawidłowych opcji: A=205, B=207, C=197.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **86/609 = 14,12%**; wszystkie 13 działów są poniżej 18%.
+- Rozkład prawidłowych opcji: A=206, B=207, C=196.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **73/609 = 11,99%**; maksimum działu to 14,29%, a wszystkie 13 działów są poniżej 18%.
 - [Audyt 4w](../podstawowy/raporty/etap-4w-program-13-dzialow-mapa-luk.md) dokumentuje wszystkie 107 kompetencji i ID; [kontrola 13 lekcji](../podstawowy/raporty/etap-4w-przeglad-13-lekcji-odsylacze.md) usunęła błędny skrót zakresu w B-09. Dane liczbowe dotyczą bieżącego banku, natomiast niższe sekcje dokumentu zachowują historię poprzednich etapów.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
 
@@ -19,19 +19,19 @@
 
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
-| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 35 | 0 | Lekcja + mapa pytań |
+| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 40 | 0 | Lekcja + mapa pytań |
+| ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 45 | 0 | Lekcja + mapa pytań |
-| ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 46 | 0 | Lekcja + mapa pytań |
-| ADR-B-08 | Wyposażenie | 8/8 | 0 | 40 | 0 | Lekcja + mapa pytań |
+| ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 48 | 0 | Lekcja + mapa pytań |
+| ADR-B-08 | Wyposażenie | 8/8 | 0 | 42 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 55 | 0 | Lekcja + mapa pytań |
-| ADR-B-11 | Tunele | 7/7 | 0 | 35 | 0 | Lekcja + mapa pytań |
-| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 43 | 0 | Lekcja + mapa pytań |
-| ADR-B-13 | Dokumentacja | 8/8 | 0 | 35 | 0 | Lekcja + mapa pytań |
+| ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
+| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
+| ADR-B-13 | Dokumentacja | 8/8 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | **Razem** | | **104/104** | **3** | **609** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
