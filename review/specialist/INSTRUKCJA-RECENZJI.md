@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x80 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `440ff9e0acad53b7527dde81cb55a2301f8f47e9`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `eb571414151c237e2c4854a84483fc55198b902d`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - W `ADR-B-0497` poprawiono sprzeczny początek odpowiedzi C („Tak”) na „Nie”; klucz C i podstawa ADR 2.2.1.1.5 pozostały bez zmian. To korekta spójności odpowiedzi, nie niezależna akceptacja prawna.
 - Raport etapu 4x70: `podstawowy/raporty/etap-4x70-korekta-ADR-B-0497-2026-10-27.md`.
