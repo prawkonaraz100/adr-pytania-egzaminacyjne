@@ -1,13 +1,13 @@
-## Bieżąca migawka — etap 4x106 (27.10.2026)
+## Bieżąca migawka — etap 4x107 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `236819b5e6ea555285ad74d4a94ce6471bac2287`.
-- Bank: 609 pytań `needs_review`, 0 `verified`.
-- Korekta dydaktyczna: dystraktor A w ADR-B-0211 skrócono do wiarygodnej pomyłki; poprawna litera i podstawa ADR bez zmian.
-- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 73/609 = 11,99%; maksimum działu 14,29%.
-- Scenariusze: 39/39 z poprawnymi odwołaniami do pytań właściwego modułu.
-- Egzaminy 001–005 i klucze wskazują aktualny bank; brak rozbieżności po mapowaniu liter.
-- Raport: [Etap 4x106](../podstawowy/raporty/etap-4x106-proba60-dystraktory-egzaminy-2026-10-27.md).
-- Status prawny pozostaje `needs_review`; recenzja specjalisty nadal otwarta.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `a48ac7d92432436e18b1b0adc2188d63a6bc6189`.
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- Próbka 40, seed `41072026`; wykluczono wszystkie ID wspomniane w raportach 4x103–4x106 (183 unikalne ID). Raport: `podstawowy/raporty/etap-4x107-proba40-dystraktory-lekcje-2026-10-28.md`.
+- Poprawiono wiarygodność dystraktorów i dopasowano explanation w ADR-B-0009, ADR-B-0329, ADR-B-0401 i ADR-B-0441. Poprawne litery i podstawy ADR bez zmian; migawki sekwencyjne i A/B/C odświeżono.
+- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków.
+- Lekcje: 13/13 ma wyłącznie istniejące ID z właściwego działu; scenariusze: 39/39 z istniejącymi pytaniami właściwego modułu.
+- Egzaminy 001–005 i klucze wskazują bieżący blob banku; CI sprawdza zgodność opcji, kluczy, explanation i rozkładu liter.
+- Niezależna recenzja prawna pozostaje otwarta; statusów nie zmieniono.
 
 ## Aktualizacja etapu 4x89 — próbka, wyłączenia i status M364 (27.10.2026)
 
