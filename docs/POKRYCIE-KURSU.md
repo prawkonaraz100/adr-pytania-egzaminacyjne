@@ -1,6 +1,6 @@
 # ADR podstawowy — aktualne pokrycie kursu
 
-**Stan aktualny po etapie 4x100: 27.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
+**Stan aktualny po etapie 4x102: 27.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
 
 ## Co naprawdę zostało ukończone?
 
