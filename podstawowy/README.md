@@ -8,6 +8,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x102 — różnorodność pytań kompetencji i synchronizacja migawki](raporty/etap-4x102-roznorodnosc-kompetencji-2026-10-27.md)
 - [Etap 4x101 — zgodność mapy kompetencji i głębokości pokrycia](raporty/etap-4x101-glebokosc-pokrycia-kompetencji-2026-10-27.md)
 - [Etap 4x100 — korekta metryk pokrycia kursu](raporty/etap-4x100-metryki-pokrycia-2026-10-27.md)
 - [Etap 4x99 — synchronizacja indeksów scenariuszy B-02](raporty/etap-4x99-synchronizacja-indeksow-scenariuszy-2026-10-27.md)
