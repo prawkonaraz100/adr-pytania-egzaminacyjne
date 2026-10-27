@@ -1,3 +1,12 @@
+## Aktualizacja etapu 4x89 — próbka, wyłączenia i status M364 (27.10.2026)
+
+- [Raport 4x89](../podstawowy/raporty/etap-4x89-proba60-status-umow-wylaczenia-2026-10-27.md).
+- Bank: 609 pytań `needs_review`, 0 `verified`; blob SHA `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
+- Próbka redakcyjna seed `2026102789`: 60 explanation sprawdzonych; 0 potwierdzonych korekt. Pełna lista ID i ograniczenie braku pełnej listy próbkowej w raporcie 4x86 są jawnie zapisane.
+- M364 występuje w ADR-B-0145 i ADR-B-0198. Aktualny wpis UNECE podaje ważność do 31.12.2026; dotyczy warunkowego wyjątku dla przyczepy, nie pojazdu silnikowego.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 11,99%, maksimum działu 14,29%; explanation minimum 300 znaków.
+- Egzaminy 001–005 zgodne z treścią poprawnych opcji w banku; 0 rozbieżności. Wszystkie 39 scenariuszy przechodzą kontrole referencji i struktury.
+
 ## Aktualizacja prawna 4x88 — M364 (27.10.2026)
 
 - Oficjalne źródła UNECE i polska publikacja potwierdzają, że M364 dotyczy świadectwa dopuszczenia przyczepy i wskazuje termin ważności do 31.12.2026.
