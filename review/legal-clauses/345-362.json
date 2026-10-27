@@ -699,15 +699,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Zakaz dotyczy wyłącznie fotela kierowcy”) nie spełnia obowiązku opisanego w ADR 2025, 8.3.5; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Zakaz nie ogranicza się do wnętrza kabiny podczas załadunku i rozładunku."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wariant B oddaje warunek przepisowy: Zakaz obejmuje wnętrze pojazdu oraz jego pobliże podczas manipulowania ładunkiem. Pozostaje do porównania z pełnym polskim brzmieniem."
+          "rationale": "Zakaz palenia obejmuje również pobliże pojazdu podczas manipulowania ładunkiem."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Palenie jest obowiązkowe”) nie spełnia obowiązku opisanego w ADR 2025, 8.3.5; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "To, że nie trwa tankowanie, nie tworzy wyjątku od zakazu palenia przy załadunku lub rozładunku."
         }
       },
       "observed_answer_key": "B",
@@ -722,10 +722,10 @@
         "options": {
           "A": "Zakaz dotyczy wyłącznie kabiny, a nie strefy obok pojazdu podczas załadunku",
           "B": "Zakaz palenia obowiązuje też przy pojeździe podczas załadunku i rozładunku",
-          "C": "Palenie jest obowiązkowe, by pracownicy zauważyli obecność kierowcy"
+          "C": "Palenie poza kabiną jest dozwolone, jeśli nie trwa tankowanie"
         },
         "correct_option": "B",
-        "explanation": "Podczas załadunku i rozładunku zakaz palenia obejmuje także pobliże pojazdu, a nie tylko kabinę. Nawet gdy ktoś stoi na zewnątrz, palenie może stworzyć źródło zapłonu w pobliżu towarów niebezpiecznych. Obecność kierowcy nie wymaga palenia, a światła awaryjne nie zmieniają tego zakazu. Podstawa: ADR 8.3.5.",
+        "explanation": "Podczas załadunku i rozładunku zakaz palenia obejmuje również pobliże pojazdu, a nie tylko kabinę. Wyjście na zewnątrz nie znosi zakazu, a brak tankowania nie oznacza, że można palić przy towarach niebezpiecznych. Trzeba usunąć źródła zapłonu z miejsca pracy i stosować się do wymagań bezpieczeństwa. Podstawa: ADR 8.3.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
