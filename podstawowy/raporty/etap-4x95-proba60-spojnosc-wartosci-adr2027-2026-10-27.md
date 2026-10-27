@@ -14,7 +14,7 @@ Na wejściowym `main` ostatni workflow Quality Gate zakończył się PASS: [run 
 - Bank: 609 pytań, 609 unikalnych ID (`ADR-B-0001`–`ADR-B-0609`).
 - Status: 609 `needs_review`, 0 `verified`.
 - Najkrótsze explanation: 300 znaków; poniżej 200 znaków: 0.
-- „Poprawna = jedyna najdłuższa” po zmianach: 74/609 = **12,15%**.
+- „Poprawna = jedyna najdłuższa” po zmianach: 73/609 = **11,99%**.
 - Maksimum w pojedynczym dziale: B-02 = 8/56 i B-03 = 7/49 = **14,29%**; każdy dział pozostaje poniżej 18%.
 - Scenariusze: 39; brak nieistniejących `question_ids` i brak ID z niewłaściwego modułu.
 - Warianty 001–005: każdy ma 30 pytań i 30 unikalnych ID. Wszystkie pięć pól `source_bank_head` zsynchronizowano z aktualnym blobem banku `7a2f4615e652f69d4079bf622098c8dd586c1ae1`.
@@ -80,7 +80,12 @@ Mapa 4x94 wymienia siedem pytań z B-02, których treść wymaga porównania z p
 ## 5. Metryki i status
 
 - Explanation po zmianach: minimum 300 znaków, 0 poniżej 200.
-- Wskaźnik „poprawna = jedyna najdłuższa”: 12,15% globalnie; maksimum działu 14,29% (B-02 i B-03).
+- Wskaźnik „poprawna = jedyna najdłuższa”: 11,99% globalnie; maksimum działu 14,29% (B-02 i B-03).
 - Bank: 609 unikalnych pytań, 609 `needs_review`, 0 `verified`.
 - Nowe pytania: 0; poprawione explanation: 8; pytania z poprawionymi dystraktorami: 6; naprawiony opis odpowiedzi w kluczu egzaminu: 1.
 - Wynik Quality Gate dla tej partii zostanie odnotowany po uruchomieniu CI na PR. Nie uruchamiano lokalnych testów w repozytorium; wykonano statyczny preflight na pobranych plikach przez GitHub, a testy automatyczne mają być potwierdzone przez CI.
+
+
+## Dodatkowa kontrola wskaźnika po CI
+
+Po pierwszym CI skrócono poprawną opcję w ADR-B-0512, bez zmiany sensu prawnego ani poprawnej litery. To usunęło dodatkowy przypadek „poprawna = jedyna najdłuższa” w B-11. Końcowy wynik statycznego preflight: 73/609 = 11,99% globalnie; maksimum 14,29% w B-02 i B-03; wszystkie explanation co najmniej 300 znaków. Warianty i klucze 001–005 oraz pakiet recenzyjny zsynchronizowano z nowym blobem banku.
