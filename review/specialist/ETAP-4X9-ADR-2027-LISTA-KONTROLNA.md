@@ -51,3 +51,20 @@ Pełne wykazy do selekcji przez specjalistę:
 Łącznie 258 automatycznych flag (258 różnych ID). To **szerokie kandydatury do porównania**, nie 258 potwierdzonych zmian przepisów. Wykaz zawiera pozycje oznaczone ostrożnościowo, które mogą nie wymagać zmiany po recenzji. Pozostałe rekordy nie są przez sam brak flagi zwolnione z przeglądu prawnego.
 
 Źródła urzędowe: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [Dz.U. 2025 poz. 1575](https://dziennikustaw.gov.pl/DU/2025/1575).
+
+
+## Etap 4x93 — pełny indeks kandydatów wrażliwych na zmianę ADR (27.10.2026)
+
+Dodano [pełny indeks skryptowy dla banku 609 pytań](../../podstawowy/raporty/etap-4x93-pelny-indeks-wartosci-wrazliwych-adr-2026-10-27.md). Jest to lista wpływu zmian, a nie lista błędów. Kategorie nakładają się, a wystąpienia liczb w błędnych odpowiedziach nie oznaczają sprzeczności.
+
+- Wyłączenia / LQ / EQ / limity: 49 kandydatów.
+- Wymiary oznakowania: 5.
+- Gaśnice / wyposażenie: 58.
+- Kody tunelowe: 40.
+- Terminy / umowy: 9.
+- Dokumenty / transport kombinowany / DOT: 160.
+- Potwierdzone błędy prawne w tym skanie: 0; pytań zmienionych: 0.
+
+Najważniejszy termin do ponownej kontroli: M364, wskazana w ostatnim sprawdzeniu jako ważna do 31.12.2026. Przed użyciem materiału po tej dacie należy ponownie sprawdzić oficjalną listę UNECE i polską publikację. Nie zakładać przedłużenia bez urzędowego potwierdzenia.
+
+Bank pozostaje 609 `needs_review`, 0 `verified`. Nie zmieniono odpowiedzi, nie regenerowano egzaminów i nie nadano zatwierdzeń.
