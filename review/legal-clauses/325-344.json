@@ -745,15 +745,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Każdy kierowca”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.5; nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Podobieństwo nazwy towaru nie wystarcza do ustalenia klasyfikacji i numeru UN."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Pracownik magazynu bez danych o odpadzie”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.5; nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Numer z poprzedniego ładunku nie potwierdza klasyfikacji nowego odpadu."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Wariant C jest zgodny z przedstawioną w pytaniu zasadą: ADR 2.1.3.5.5 określa podstawy przypisania numeru UN, a nie prawo do losowego wyboru. Wymaga jeszcze niezależnego porównania z polskim brzmieniem aktu."
+          "rationale": "Należy zastosować procedurę klasyfikacji odpadu i ustalić numer UN na podstawie dostępnych danych."
         }
       },
       "observed_answer_key": "C",
@@ -764,14 +764,14 @@
       "question_snapshot": {
         "id": "ADR-B-0341",
         "module_id": "ADR-B-03",
-        "stem": "Kto ma prawo samodzielnie zastąpić klasyfikację ADR odpadu przypadkowym numerem UN z innego towaru?",
+        "stem": "Odpadowi nie przypisano jeszcze numeru UN, a nadawca nie zna dokładnego składu. Jak powinien postąpić przed wpisaniem danych do dokumentu?",
         "options": {
-          "A": "Każdy kierowca może wybrać numer UN na podstawie podobieństwa nazwy",
-          "B": "Pracownik magazynu bez danych może skopiować numer z poprzedniego ładunku",
-          "C": "Nikt; numer UN wymaga właściwej klasyfikacji"
+          "A": "Wybrać numer UN towaru o podobnej nazwie, jeśli jego klasa wydaje się taka sama",
+          "B": "Skopiować numer z poprzedniego odpadu, jeśli opakowanie wygląda podobnie",
+          "C": "Zastosować procedurę klasyfikacji odpadu i ustalić właściwy numer UN"
         },
         "correct_option": "C",
-        "explanation": "Numer UN to czterocyfrowy identyfikator towaru niebezpiecznego; dla odpadu trzeba go ustalić na podstawie właściwej klasyfikacji. Kierowca nie może go wybrać tylko dlatego, że nazwa odpadu przypomina inny produkt. Również magazynier nie może skopiować numeru z poprzedniego ładunku bez danych, bo błędny numer prowadzi do błędnych środków bezpieczeństwa. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Nie wybieraj numeru UN tylko dlatego, że nazwa lub klasa odpadu wydaje się podobna: podobieństwo nie potwierdza tej samej klasyfikacji. Skopiowanie numeru z poprzedniego odpadu też nie wystarcza, bo podobny wygląd opakowania nie potwierdza takiego samego składu. Nadawca powinien zastosować procedurę klasyfikacji odpadu na podstawie dostępnych danych, a potem ustalić właściwy numer UN. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -781,7 +781,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "editorial_result": "distractors_and_explanation_revised_editorial_review_only_legal_approval_pending"
     },
     {
       "id": "ADR-B-0342",

@@ -1288,20 +1288,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Kod D/E nie jest grupą pakowania."
+          "rationale": "Kod D/E nie jest grupą pakowania; grupy pakowania oznacza się I, II lub III tam, gdzie mają zastosowanie."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nie określa rodzaju gaśnicy."
+          "rationale": "Kod tunelowy nie określa wyposażenia gaśniczego; to regulują inne punkty ADR."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Kod D/E dotyczy ograniczeń tuneli zależnie od sposobu przewozu."
+          "rationale": "Kod D/E jest kodem ograniczeń przejazdu przez tunele, a jego zastosowanie zależy od sposobu przewozu."
         }
       },
       "observed_answer_key": "C",
       "notes_on_conditions": "W sztukach przesyłek zakaz E, w cysternach/luzem D i E.",
-      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "editorial_result": "distractors_and_explanation_revised_editorial_review_only_legal_approval_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -1310,12 +1310,12 @@
         "module_id": "ADR-B-11",
         "stem": "W dolnej części komórki kolumny 15 tabeli A widnieje zapis „(D/E)”. Czego dotyczy to oznaczenie?",
         "options": {
-          "A": "Nie dotyczy grupy pakowania; wskazuje ograniczenia trasy i przejazdu przez tunele",
+          "A": "Oznaczenia grupy pakowania, podobne do I, II lub III",
           "B": "Wymaganego środka gaśniczego i liczby gaśnic na wyposażeniu pojazdu",
           "C": "Kodu ograniczeń tunelowych ADR, zależnego od sposobu przewozu"
         },
         "correct_option": "C",
-        "explanation": "Kod D/E w kolumnie 15 tabeli A jest kodem ograniczeń tunelowych, a nie oznaczeniem grupy pakowania ani wyposażenia gaśniczego. Przy ustalaniu trasy trzeba uwzględnić kod i sposób przewozu wskazany w ADR, ponieważ dla różnych sposobów przewozu mogą obowiązywać różne ograniczenia. Gaśnice określa się na podstawie innych przepisów, więc B jest błędne. Podstawa: ADR 8.6.3.1 i 8.6.4.",
+        "explanation": "Zapis D/E w kolumnie 15 tabeli A oznacza kod ograniczeń przejazdu przez tunele, a jego zastosowanie zależy od sposobu przewozu. Nie jest to grupa pakowania, oznaczana tam, gdzie ma zastosowanie, cyfrą rzymską I, II lub III; nie określa też wyposażenia gaśniczego. Przy planowaniu trasy porównaj kod z kategorią tunelu. Podstawa: ADR 3.2, tabela A, kolumna 15; 8.6.3.1 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
