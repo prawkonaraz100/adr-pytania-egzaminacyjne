@@ -60,6 +60,6 @@ Po zmianie banku zaktualizowano `source_bank_head` we wszystkich wariantach i kl
 
 ## 6. Testy i ograniczenia
 
-Nie uruchomiono testów lokalnych: dostępne połączenie umożliwia pracę z repozytorium przez GitHub, ale nie udostępnia lokalnego checkoutu. Pełny Quality Gate GitHub Actions na PR jest warunkiem scalenia. Kontrole skryptowe na pobranych plikach potwierdziły spójność metryk, scenariuszy, wariantów, kluczy i migawki audytu.
+Testów lokalnych nie uruchomiono: dostępne połączenie pozwala pracować przez GitHub, ale nie udostępnia lokalnego checkoutu. Pierwsze przebiegi CI ujawniły nieaktualną migawkę recenzji klauzul ADR-B-0211 oraz stare hashe kolejek prawnych w manifeście; wszystkie zostały odświeżone. Końcowy Quality Gate PASS: [run #40599172063](https://github.com/prawkonaraz100/adr-pytania-egzaminacyjne/actions/runs/40599172063), w tym 139 testów jednostkowych oraz kontrole synchronizacji.
 
 Nie dodano nowych pytań, ponieważ nie wykryto luki programu potwierdzonej w tej próbce. Nie zmieniono żadnej poprawnej litery i nie oznaczono pytania jako `verified`. Nie rozpoczęto kursu cystern ani innego kursu.
