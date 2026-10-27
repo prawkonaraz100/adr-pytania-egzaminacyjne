@@ -1,13 +1,12 @@
-## Bieżąca migawka — etap 4x96 (27.10.2026)
+## Bieżąca migawka — etap 4x98 (27.10.2026)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `445c2d76652f2dccf5735f928083388484e147bc`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; bez formalnych zatwierdzeń.
-- Próbka 60 explanation, seed `2026102796`: 60 sprawdzonych razem z A/B/C i podstawą ADR; 0 potwierdzonych zmian explanation, długość 302–438 znaków.
-- „Poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%; 39 scenariuszy; pięć wariantów i kluczy egzaminu.
-- Naprawiono snapshot banku w manifeście i kolejkach recenzyjnych oraz odświeżono audyt sekwencyjny i A/B/C dla ADR-B-0092, ADR-B-0137 i ADR-B-0360.
-- Raport: `podstawowy/raporty/etap-4x96-proba60-integracja-2026-10-27.md`; lista ID i wykluczeń: `podstawowy/raporty/etap-4x96-wykluczenia-prob.json`.
-- Ograniczenie: raport 4x86 nie publikuje pełnej listy swojej próbki; brak przecięcia z jej nieujawnioną częścią pozostaje nieudowodniony.
-- Wszystkie pytania pozostają `needs_review`; pakiet nie jest formalnie zatwierdzony.
+- „Poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%; minimum explanation 300 znaków.
+- Scenariusze: 39, po 3 na dział. Etap 4x98 poprawił dwa potwierdzone rozjazdy dydaktyczne w B-02 między opisem scenariusza a zakresem powiązanych pytań; bank i klucze nie zostały zmienione.
+- Raport: `podstawowy/raporty/etap-4x98-dopasowanie-scenariuszy-pytania-2026-10-27.md`.
+- Próbka 4x96 i jej ograniczenie pozostają opisane w raporcie 4x96; raport 4x86 nie publikuje pełnej listy swojej próbki.
+- Wszystkie pytania nadal wymagają niezależnej kontroli specjalisty ADR.
 
 ## Historyczna migawka — etap 4x87 (27.10.2026)
 
