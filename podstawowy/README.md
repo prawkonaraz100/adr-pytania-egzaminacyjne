@@ -310,4 +310,8 @@ Raporty ETAPU 4x7
 ## Najnowsze raporty jakości
 
 - [Etap 4x95 — próbka 60, spójność wartości ADR i mapa wpływu 2027](raporty/etap-4x95-proba60-spojnosc-wartosci-adr2027-2026-10-27.md)
+- [Etap 4x100 — aktualizacja metryk pokrycia](raporty/etap-4x100-metryki-pokrycia-2026-10-27.md)
+- [Etap 4x101 — głębokość pokrycia kompetencji](raporty/etap-4x101-glebokosc-pokrycia-kompetencji-2026-10-27.md)
+- [Etap 4x102 — różnorodność kompetencji](raporty/etap-4x102-roznorodnosc-kompetencji-2026-10-27.md)
+- [Etap 4x103 — próbka 40 explanation i odbiór lekcji B-06–B-13](raporty/etap-4x103-proba40-lekcje-06-13-2026-10-27.md)
 - [Etap 4x95 — migawka audytu dla specjalisty](../review/specialist/ETAP-4X95-MIGAWKA-AUDYTU.md)
