@@ -88,3 +88,10 @@ Bank pozostaje 609 `needs_review`, 0 `verified`. Nie zmieniono odpowiedzi, nie r
 - ADR-B-0512 dotyczy ADR 2025 8.6.4 oraz 3.4.13–3.4.14; jego wyjaśnienie zostało doprecyzowane. Przy aktualizacji do 2027 ponownie sprawdzić rozdział o ograniczeniach tunelowych, ale nie zmieniać odpowiedzi bez porównania z konkretnym oficjalnym punktem.
 - W rejestrze M369 sprawdzić datę ważności 31.12.2026; nie zakładać przedłużenia bez urzędowego potwierdzenia. Przeszukanie bieżącego banku nie wykazało pytań odwołujących się do M369.
 - Nie traktować streszczenia UNECE jako wystarczającej podstawy do aktualizacji wartości. Zapisać numer punktu ADR, wynik audytu A/B/C i źródło urzędowe dla każdego zmienianego pytania.
+
+
+### Końcowa migawka po korekcie długości odpowiedzi — 27.10.2026
+
+- Aktualny blob banku: `7a2f4615e652f69d4079bf622098c8dd586c1ae1`.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29% (B-02 i B-03). Wartość w B-11 wróciła do 6/43 = 13,95% po skróceniu poprawnej opcji w ADR-B-0512.
+- Wszystkie 609 pytań pozostają `needs_review`; nie nadano statusu `verified`.
