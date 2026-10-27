@@ -1,11 +1,13 @@
-## Bieżąca migawka — etap 4x95 (27.10.2026)
+## Bieżąca migawka — etap 4x96 (27.10.2026)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `445c2d76652f2dccf5735f928083388484e147bc`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; bez formalnych zatwierdzeń.
-- Próbka 60 (seed `2026102795`): 8 explanation/dystraktorów poprawionych, 52 bez zmian; minimum 300 znaków.
-- Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%.
-- Warianty egzaminu 001–005 i klucze wskazują aktualny bank. Scenariusze: 39; statusy prawne pozostają do niezależnej recenzji.
-- Raport: `podstawowy/raporty/etap-4x95-proba60-spojnosc-wartosci-adr2027-2026-10-27.md`.
+- Próbka 60 explanation, seed `2026102796`: 60 sprawdzonych razem z A/B/C i podstawą ADR; 0 potwierdzonych zmian explanation, długość 302–438 znaków.
+- „Poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%; 39 scenariuszy; pięć wariantów i kluczy egzaminu.
+- Naprawiono snapshot banku w manifeście i kolejkach recenzyjnych oraz odświeżono audyt sekwencyjny i A/B/C dla ADR-B-0092, ADR-B-0137 i ADR-B-0360.
+- Raport: `podstawowy/raporty/etap-4x96-proba60-integracja-2026-10-27.md`; lista ID i wykluczeń: `podstawowy/raporty/etap-4x96-wykluczenia-prob.json`.
+- Ograniczenie: raport 4x86 nie publikuje pełnej listy swojej próbki; brak przecięcia z jej nieujawnioną częścią pozostaje nieudowodniony.
+- Wszystkie pytania pozostają `needs_review`; pakiet nie jest formalnie zatwierdzony.
 
 ## Historyczna migawka — etap 4x87 (27.10.2026)
 
