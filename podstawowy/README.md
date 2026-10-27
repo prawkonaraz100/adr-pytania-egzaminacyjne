@@ -8,6 +8,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x86 — umowy wielostronne i terminy wrażliwe na zmianę](raporty/etap-4x86-wrazliwe-umowy-wielostronne-2026-10-27.md)
+
 - [Etap 4x85 — scenariusze, próbka 60 explanation i synchronizacja egzaminów](raporty/etap-4x85-scenariusze-proba60-2026-10-27.md)
 
 - [Etap 4x83 — końcowa kontrola ścieżki kursanta i egzaminów 001–005](raporty/etap-4x83-kontrola-koncowa-sciezki-egzaminy-2026-10-27.md)
