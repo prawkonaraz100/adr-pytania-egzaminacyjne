@@ -147,15 +147,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant „10 cm” nie jest zgodny z opisanym w ADR 2025, 5.3.2.2.1 rozróżnieniem oznaczeń i wymaga niezależnego potwierdzenia."
+          "rationale": "20 cm nie jest standardową wysokością tablicy pomarańczowej ADR."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wstępne odniesienie do ADR 2025, 5.3.2.2.1: Standardowa tablica pomarańczowa ma wymiary 40 × 30 cm. Przepisy przewidują także określone tolerancje i szczególne przypadki mniejszych tablic."
+          "rationale": "30 cm to standardowa wysokość tablicy pomarańczowej ADR."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant „80 cm” nie jest zgodny z opisanym w ADR 2025, 5.3.2.2.1 rozróżnieniem oznaczeń i wymaga niezależnego potwierdzenia."
+          "rationale": "40 cm nie jest standardową wysokością tablicy; nie należy mylić jej z szerokością 40 cm."
         }
       },
       "observed_answer_key": "B",
@@ -168,12 +168,12 @@
         "module_id": "ADR-B-06",
         "stem": "Zespół przygotowuje standardową pomarańczową tablicę ADR o szerokości 40 cm. Jaka jest jej standardowa wysokość przed uwzględnieniem wyjątków i tolerancji?",
         "options": {
-          "A": "10 cm",
+          "A": "20 cm",
           "B": "30 cm",
-          "C": "80 cm"
+          "C": "40 cm"
         },
         "correct_option": "B",
-        "explanation": "Standardowa tablica pomarańczowa ADR ma 40 cm szerokości i 30 cm wysokości. Ujednolicone wymiary ułatwiają odczyt oznakowania przez służby i innych uczestników ruchu. Wysokość 10 lub 80 cm nie jest standardem, choć ADR dopuszcza określone tolerancje oraz szczególny przypadek zmniejszonej tablicy. Podstawa: ADR 5.3.2.2.1.",
+        "explanation": "Standardowa tablica pomarańczowa ADR ma 40 cm szerokości i 30 cm wysokości. Jednolite wymiary pomagają służbom i innym uczestnikom ruchu szybko odczytać oznakowanie. Wysokość 20 lub 40 cm nie jest wymiarem standardowym, choć ADR dopuszcza określone tolerancje i szczególny przypadek zmniejszonej tablicy. Podstawa: ADR 5.3.2.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",

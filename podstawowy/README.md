@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 27.10.2026, etap 4x86: 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 27.10.2026, etap 4x87: 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -8,6 +8,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x87 — próbka 60, spójność kursu i egzaminów](raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md)
 - [Etap 4x86 — próbka 60, spójność terminologii i kontroli odsyłaczy](raporty/etap-4x86-proba60-spojnosc-kursu-2026-10-27.md)
 - [Etap 4x85 — scenariusze, próbka 60 explanation i synchronizacja egzaminów](raporty/etap-4x85-scenariusze-proba60-2026-10-27.md)
 

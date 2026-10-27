@@ -1,17 +1,19 @@
-## Bieżąca migawka — etap 4x86 (27.10.2026)
+## Bieżąca migawka — etap 4x87 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `a8650eb0fa9c24112f2d640d5a9dca04d10ccd2a`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
-- Przegląd 4x86: 60 wyjaśnień spoza ID wymienionych w dostępnych raportach 4x84 i 4x85; poprawiono cztery pytania/wyjaśnienia (ADR-B-0021, ADR-B-0208, ADR-B-0341, ADR-B-0501) i ujednolicono nazewnictwo w ADR-B-0372 oraz ADR-B-0387. Migawki sekwencyjne i A/B/C oraz warianty/klucze 001–005 zsynchronizowane. Pełna niezależna kontrola prawna pozostaje wymagana.
-- Próba 60 explanation (seed `2026102785`): 4 wpisy zmienione po ręcznym czytaniu: ADR-B-0117, ADR-B-0210, ADR-B-0415 i ADR-B-0503. Poprawiono trzy zestawy dystraktorów (łącznie 4 opcje błędne) i cztery wyjaśnienia; klucze A/B/C pozostały bez zmian.
-- 39 scenariuszy sprawdzono pod kątem realistyczności, kroków kierowcy, wyjaśnienia błędów, podstaw ADR i pytań z właściwego działu. Nie znaleziono potwierdzonej sprzeczności prawnej ani luki wymagającej nowego pytania.
-- Egzaminy 001–005 oraz klucze zsynchronizowano z aktualnym blobem banku; w wariancie 001 zaktualizowano pytanie ADR-B-0210, a w wariancie 005 ADR-B-0117 i explanation ADR-B-0503.
-- Raport: [Etap 4x85 — scenariusze i próba 60](../../podstawowy/raporty/etap-4x85-scenariusze-proba60-2026-10-27.md).
-- Snapshoty sekwencyjne i A/B/C odświeżone dla zmienionych ID. Nie nadano statusu `verified`.
+- Próbka redakcyjna 60 explanation, seed `2026102787`: poprawiono wiarygodność dystraktorów i doprecyzowano wyjaśnienia w ADR-B-0101, ADR-B-0186, ADR-B-0258, ADR-B-0356, ADR-B-0470 i ADR-B-0484. Poprawne litery i statusy pozostały bez zmian.
+- Lekcje B-10–B-13 sprawdzono pod kątem sensu dla początkującego, przykładów, podsumowań i zgodności z pytaniami. W tym przeglądzie nie potwierdzono błędu merytorycznego wymagającego zmiany tekstu lekcji.
+- Scenariusze: 39, po 3 na każdy dział; brak nieistniejących lub przypisanych do złego działu `question_ids`.
+- Egzaminy 001–005: po 30 unikalnych pytań, wszystkie 13 działów, A/B/C 10/10/10, maksymalna seria 3. Porównanie z bankiem po uwzględnieniu przestawiania opcji nie wykazało rzeczywistej rozbieżności klucza. Metadane `source_bank_head` i klucze wskazują aktualny bank.
+- „Poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%. Explanation poniżej 200 znaków: 0; minimum: 300 znaków.
+- Raport: [Etap 4x87 — próbka 60, spójność kursu i egzaminów](../../podstawowy/raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md).
+- Zastrzeżenie próbki: raport 4x86 nie wymienia pełnych 60 wylosowanych ID. Wykluczono wszystkie ID widoczne w raportach 4x84 i 4x85 oraz jawnie wymienione korekty 4x86, ale brak przecięcia z nieujawnioną częścią próbki 4x86 nie może być potwierdzony.
+- Wymagana niezależna recenzja prawna pozostaje otwarta; nie nadano statusu `verified`.
 
-# Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x85
+# Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x87
 
-Data migawki: 27.10.2026, etap 4x86. Źródło: gałąź kontroli scenariuszy i próby explanation. Bank blob SHA `a8650eb0fa9c24112f2d640d5a9dca04d10ccd2a`. Wszystkie 609 pytań pozostają `needs_review`, 0 `verified`, 0 formalnych akceptacji.
+Data migawki: 27.10.2026, etap 4x87. Bank blob SHA `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`. Wszystkie 609 pytań pozostają `needs_review`, 0 `verified`, 0 formalnych akceptacji.
 
 Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależnego sprawdzenia poprawności wzoru. Etap 4x16, partie 1–9: porównano 413 pozycji porównawczych; 186 pozostaje nierozstrzygniętych. Dwie potwierdzone rozbieżności poprawiono w ADR-B-0484 i ADR-B-0488; ADR-B-0457 i ADR-B-0458 nadal wymagają literalnego potwierdzenia przypisów tabeli 1.10.3.1.2. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane.
 

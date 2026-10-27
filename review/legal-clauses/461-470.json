@@ -437,15 +437,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Dla kontenera-cysterny lub cysterny przenośnej o pojemności do 3000 l i zbyt małej dostępnej powierzchni przepis dopuszcza zmniejszenie wymiarów."
+          "rationale": "Zmniejszenie znaku może być dopuszczone dla cysterny do 3000 l, jeśli spełniono warunki ADR."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Całkowite pominięcie znaku przy każdej pojemności): pomija warunek albo zaprzecza zakresowi ADR 5.3.6.2. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Brak miejsca nie daje automatycznego prawa do pominięcia wymaganego znaku."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Zastąpienie znaku reklamą firmy): pomija warunek albo zaprzecza zakresowi ADR 5.3.6.2. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Zmniejszenie wymaga spełnienia warunków przepisu; nie można pomijać kontroli pojemności i dostępnej powierzchni."
         }
       },
       "observed_answer_key": "A",
@@ -461,10 +461,10 @@
         "options": {
           "A": "Można zmniejszyć znak do co najmniej 100 × 100 mm, gdy spełniono warunki przepisu",
           "B": "Znak można całkowicie pominąć na każdej cysternie, gdy brakuje miejsca na ścianie",
-          "C": "Znak można zastąpić reklamą firmy, jeśli brakuje miejsca na ścianie"
+          "C": "Znak można zmniejszyć bez sprawdzania pojemności cysterny ani warunków miejsca"
         },
         "correct_option": "A",
-        "explanation": "Dla kontenera-cysterny lub cysterny przenośnej o pojemności do 3000 litrów ADR może dopuścić mniejszy znak środowiskowy, gdy dostępna powierzchnia jest niewystarczająca i spełnione są warunki przepisu. Nie oznacza to prawa do całkowitego pominięcia znaku ani zastąpienia go reklamą. Podstawa: ADR 5.3.6.2.",
+        "explanation": "Dla kontenera-cysterny lub cysterny przenośnej o pojemności do 3000 litrów ADR może dopuścić mniejszy znak środowiskowy, gdy dostępna powierzchnia jest niewystarczająca i spełniono pozostałe warunki przepisu. Nie oznacza to prawa do całkowitego pominięcia znaku ani do zmniejszania go bez sprawdzenia warunków. Podstawa: ADR 5.3.6.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",

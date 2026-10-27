@@ -1,10 +1,15 @@
-## Bieżąca migawka — etap 4x86 (27.10.2026)
+## Bieżąca migawka — etap 4x87 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `a8650eb0fa9c24112f2d640d5a9dca04d10ccd2a` (przed korektą końcową explanation ADR-B-0341; zostanie odświeżony w raporcie po aktualizacji).
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
-- Etap 4x86: audyt redakcyjny 60 rekordów; sześć pytań miało potwierdzone problemy z dystraktorami lub terminologią i zostało skorygowanych: ADR-B-0021, ADR-B-0208, ADR-B-0341, ADR-B-0372, ADR-B-0387, ADR-B-0501. Zachowano poprawne litery i statusy.
-- Scenariusze: 39 (3 na każdy z 13 działów); egzamin próbny: warianty i klucze 001–005.
-- Raport etapu: [4x86 — próbka 60, spójność i synchronizacja](../../podstawowy/raporty/etap-4x86-proba60-spojnosc-kursu-2026-10-27.md).
+- Próbka redakcyjna 60 explanation, seed `2026102787`: poprawiono wiarygodność dystraktorów i doprecyzowano wyjaśnienia w ADR-B-0101, ADR-B-0186, ADR-B-0258, ADR-B-0356, ADR-B-0470 i ADR-B-0484. Poprawne litery i statusy pozostały bez zmian.
+- Lekcje B-10–B-13 sprawdzono pod kątem sensu dla początkującego, przykładów, podsumowań i zgodności z pytaniami. W tym przeglądzie nie potwierdzono błędu merytorycznego wymagającego zmiany tekstu lekcji.
+- Scenariusze: 39, po 3 na każdy dział; brak nieistniejących lub przypisanych do złego działu `question_ids`.
+- Egzaminy 001–005: po 30 unikalnych pytań, wszystkie 13 działów, A/B/C 10/10/10, maksymalna seria 3. Porównanie z bankiem po uwzględnieniu przestawiania opcji nie wykazało rzeczywistej rozbieżności klucza. Metadane `source_bank_head` i klucze wskazują aktualny bank.
+- „Poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%. Explanation poniżej 200 znaków: 0; minimum: 300 znaków.
+- Raport: [Etap 4x87 — próbka 60, spójność kursu i egzaminów](../../podstawowy/raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md).
+- Zastrzeżenie próbki: raport 4x86 nie wymienia pełnych 60 wylosowanych ID. Wykluczono wszystkie ID widoczne w raportach 4x84 i 4x85 oraz jawnie wymienione korekty 4x86, ale brak przecięcia z nieujawnioną częścią próbki 4x86 nie może być potwierdzony.
+- Wymagana niezależna recenzja prawna pozostaje otwarta; nie nadano statusu `verified`.
 
 ## Poprzednia migawka — etap 4x80 (27.10.2026)
 
