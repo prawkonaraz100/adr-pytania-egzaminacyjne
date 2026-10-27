@@ -1,6 +1,7 @@
 """Regression guard for the latest ADR-basic editorial snapshot and handoff."""
 import hashlib
 import json
+import re
 import unittest
 from pathlib import Path
 
@@ -11,18 +12,26 @@ SAMPLE = BASIC / "raporty" / "etap-4x96-wykluczenia-prob.json"
 MANIFEST = ROOT / "review" / "specialist" / "PAKIET-0609-MANIFEST.json"
 
 
-class Stage4x97CurrentSnapshotTests(unittest.TestCase):
+class CurrentSnapshotTests(unittest.TestCase):
     def test_current_stage_is_linked_from_learner_and_specialist_indexes(self):
         learner = (BASIC / "README.md").read_text(encoding="utf-8")
         handoff = (ROOT / "review" / "specialist" / "PRZEKAZANIE-ETAP4.md").read_text(encoding="utf-8")
         review_index = (ROOT / "review" / "README.md").read_text(encoding="utf-8")
-        self.assertIn("etap 4x99 (po scaleniu 4x98)", learner)
+        status = re.search(r"\*\*Stan na [^,]+, etap (4x\d+)", learner)
+        self.assertIsNotNone(status)
+        stage = status.group(1)
+        self.assertIn(f"Bieżąca migawka — etap {stage}", handoff)
+        self.assertIn(f"Bieżąca migawka — etap {stage}", review_index)
+        reports_section = learner.split("## Raporty jakości", 1)[1]
+        first_link = re.search(r"- \[Etap (4x\d+) — [^\]]+\]\(raporty/([^)]+)\)", reports_section)
+        self.assertIsNotNone(first_link)
+        self.assertEqual(first_link.group(1), stage)
+        current_report = first_link.group(2)
+        self.assertTrue((BASIC / "raporty" / current_report).is_file())
+        self.assertIn(current_report, handoff)
+        self.assertIn(current_report, review_index)
         self.assertIn("raporty/etap-4x96-proba60-integracja-2026-10-27.md", learner)
         self.assertIn("raporty/etap-4x96-wykluczenia-prob.json", learner)
-        self.assertIn("Bieżąca migawka — etap 4x99", handoff)
-        self.assertIn("etap-4x99-synchronizacja-indeksow-scenariuszy-2026-10-27.md", handoff)
-        self.assertIn("Bieżąca migawka — etap 4x99", review_index)
-        self.assertIn("etap-4x99-synchronizacja-indeksow-scenariuszy-2026-10-27.md", review_index)
         self.assertTrue(REPORT.is_file())
         self.assertTrue(SAMPLE.is_file())
 
