@@ -36,6 +36,10 @@ Jeżeli pozostałości poprzedniego ładunku mogą reagować z nowym towarem alb
 ## 5. Przewóz luzem
 
 **Przykład z magazynu.** Przed załadunkiem [nadawca](../SLOWNICZEK.md#nadawca) proponuje wysypać towar bez opakowań, bo „tak będzie szybciej”. Kierowca nie przyjmuje tej propozycji bez sprawdzenia, czy pozycja ADR dopuszcza przewóz luzem i czy pojazd lub kontener spełnia wymagania. Równolegle sprawdza, czy pozostałości poprzedniego ładunku nie stwarzają zagrożenia i czy cały ładunek będzie zabezpieczony. Podstawa: ADR 7.3.1.1, 7.5.1 i 7.5.8.1.
+**Przed podjęciem decyzji o przewozie luzem:** odszukaj dany towar w tabeli A i sprawdź, czy wskazano dopuszczenie dla tego sposobu przewozu (np. kod BK lub VC w odpowiedniej kolumnie). Jeśli brak dopuszczenia lub właściwego odesłania, nie wystarczy szczelna plandeka ani to, że towar jest stały — nie rozpoczynaj przewozu luzem bez wyjaśnienia (ADR 7.3.1.1).
+
+**Przed ponownym załadunkiem po przewozie luzem:** sprawdź, czy pojazd wymaga oczyszczenia. Wskazany w ADR 7.5.8.2 wyjątek dotyczy ponownego załadunku tego samego towaru, nie dowolnego innego ładunku. Rękawice, oznakowanie ani mniejsza masa kolejnego towaru nie zastępują wymaganej czynności.
+
 Przewóz luzem nie oznacza dowolnego wysypania lub wylania towaru do pojazdu. Sprawdź, czy dana pozycja ADR dopuszcza taki sposób przewozu i czy pojazd lub kontener spełnia wymagania. Nie podejmuj załadunku luzem wyłącznie dlatego, że towar nie jest w sztukach przesyłek.
 
 
