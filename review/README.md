@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x106 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `2b192c816b06b2e5503c146b7617d3d433fcc112`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `236819b5e6ea555285ad74d4a94ce6471bac2287`.
 - Bank: 609 pytań `needs_review`, 0 `verified`.
 - Korekta dydaktyczna: dystraktor A w ADR-B-0211 skrócono do wiarygodnej pomyłki; poprawna litera i podstawa ADR bez zmian.
 - Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 73/609 = 11,99%; maksimum działu 14,29%.
