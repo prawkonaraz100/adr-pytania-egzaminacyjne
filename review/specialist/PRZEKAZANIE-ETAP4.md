@@ -1,11 +1,10 @@
-## Bieżąca migawka — etap 4x98 (27.10.2026)
+## Bieżąca migawka — etap 4x99 (27.10.2026)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `445c2d76652f2dccf5735f928083388484e147bc`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; bez formalnych zatwierdzeń.
 - „Poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%; minimum explanation 300 znaków.
-- Scenariusze: 39, po 3 na dział. Etap 4x98 poprawił dwa potwierdzone rozjazdy dydaktyczne w B-02 między opisem scenariusza a zakresem powiązanych pytań; bank i klucze nie zostały zmienione.
-- Raport: `podstawowy/raporty/etap-4x98-dopasowanie-scenariuszy-pytania-2026-10-27.md`.
-- Próbka 4x96 i jej ograniczenie pozostają opisane w raporcie 4x96; raport 4x86 nie publikuje pełnej listy swojej próbki.
+- Scenariusze: 39, po 3 na dział. W etapie 4x99 zsynchronizowano tytuły i pytania w indeksie scenariuszy, lekcji i przewodniku instruktora dla B-02.
+- Raport: `podstawowy/raporty/etap-4x99-synchronizacja-indeksow-scenariuszy-2026-10-27.md`.
 - Wszystkie pytania nadal wymagają niezależnej kontroli specjalisty ADR.
 
 ## Historyczna migawka — etap 4x87 (27.10.2026)

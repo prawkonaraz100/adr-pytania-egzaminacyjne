@@ -339,8 +339,8 @@ Każdy z działów B-01–B-04 ma teraz trzy scenariusze w pliku JSON: scenarius
 |---|---|---|---|
 | `SC-ADR-B-01-02` | ADR-B-01 | Przed wyjazdem: ustalenie, czy można skorzystać ze zwolnienia | ADR-B-0001, ADR-B-0002, ADR-B-0003, ADR-B-0259, ADR-B-0570 |
 | `SC-ADR-B-01-03` | ADR-B-01 | Kontrola dokumentów: polecenie nie uchyla zakazu | ADR-B-0001, ADR-B-0002, ADR-B-0003 |
-| `SC-ADR-B-02-02` | ADR-B-02 | Przy rozładunku: nieznana substancja na opakowaniu | ADR-B-0004, ADR-B-0005, ADR-B-0006, ADR-B-0510 |
-| `SC-ADR-B-02-03` | ADR-B-02 | Sprawdzenie klasy i grupy pakowania przed przyjęciem | ADR-B-0004, ADR-B-0005, ADR-B-0006 |
+| `SC-ADR-B-02-02` | ADR-B-02 | Rozpoznanie klas i zagrożeń przed rozładunkiem | ADR-B-0005, ADR-B-0006, ADR-B-0510 |
+| `SC-ADR-B-02-03` | ADR-B-02 | Rozpoznawanie klas zagrożenia przed przyjęciem | ADR-B-0004, ADR-B-0005, ADR-B-0006 |
 | `SC-ADR-B-03-02` | ADR-B-03 | Nieznany wyciek podczas postoju | ADR-B-0007, ADR-B-0008, ADR-B-0009, ADR-B-0514 |
 | `SC-ADR-B-03-03` | ADR-B-03 | Pozostałości po rozładunku przed kolejnym ładunkiem | ADR-B-0007, ADR-B-0008, ADR-B-0009 |
 | `SC-ADR-B-04-02` | ADR-B-04 | Załadunek: e-papieros i pracujący silnik | ADR-B-0010, ADR-B-0012 |

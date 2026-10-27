@@ -86,8 +86,8 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 
 ## Scenariusze praktyczne
 1. **Mokra przesyłka klasy 4.3.** Pracownik chce zmyć zabrudzenie wodą. Zatrzymaj czynność, nie dotykaj przesyłki, zachowaj dystans i powiadom osobę odpowiedzialną.
-2. **Zagrożenie dodatkowe.** W dokumentacji pojawia się zagrożenie dodatkowe, a na przesyłce trzeba sprawdzić nalepki. Porównaj pełne oznakowanie, numer UN i tabelę A; nie wnioskuj z koloru opakowania.
-3. **Nieznana klasa.** Na etykiecie widać płomień, ale nie wiadomo, która klasa ma zastosowanie. Odczytaj całą nalepkę, numer UN i dokumenty; wyjaśnij rozbieżność przed przewozem.
+2. **Dwie klasy podczas rozładunku.** Jedna przesyłka ma nalepkę klasy 8, druga — klasy 4.3. Rozróżnij działanie żrące od zagrożenia reakcji z wodą; nie dotykaj plamy ani nie polewaj przesyłki wodą.
+3. **Rozpoznanie klas przed przyjęciem.** Porównaj benzynę (klasa 3), materiał żrący (klasa 8) i materiał klasy 4.3. Sprawdź klasę, numer UN, nazwę i nalepkę; rozbieżność wyjaśnij przed przyjęciem.
 4. **Fikcyjna lista UN.** Porównaj pozycję klasy 1, klasy 7 i klasy 9. Wyjaśnij, dlaczego sama nalepka nie potwierdza spełnienia wszystkich wymagań. Ćwiczenie jest tekstowe i nie zastępuje specjalistycznego szkolenia.
 
 ## Trzy scenariusze praktyczne do przejścia po pytaniach
@@ -95,8 +95,8 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json). Wyszukaj i omów wszystkie trzy przypadki tego działu:
 
 - `SC-ADR-B-02` — **Rozładunek: mokre opakowanie z nalepką 4.3**
-- `SC-ADR-B-02-02` — **Przy rozładunku: nieznana substancja na opakowaniu**
-- `SC-ADR-B-02-03` — **Sprawdzenie klasy i grupy pakowania przed przyjęciem**
+- `SC-ADR-B-02-02` — **Rozpoznanie klas i zagrożeń przed rozładunkiem**
+- `SC-ADR-B-02-03` — **Rozpoznawanie klas zagrożenia przed przyjęciem**
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 

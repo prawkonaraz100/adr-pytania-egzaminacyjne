@@ -89,37 +89,37 @@ Scenariusze są ćwiczeniami na fikcyjnych dokumentach i kartach. Instruktor nie
 
 **Granica bezpieczeństwa:** Ćwiczenie na zdjęciu lub fikcyjnej karcie; bez prawdziwych substancji.
 
-### 2. SC-ADR-B-02-02 — Przy rozładunku: nieznana substancja na opakowaniu
+### 2. SC-ADR-B-02-02 — Rozpoznanie klas i zagrożeń przed rozładunkiem
 
-**Sytuacja:** Podczas rozładunku pracownik widzi mokrą plamę na opakowaniu i chce przetrzeć ją szmatką. Na opakowaniu widnieje nalepka ostrzegawcza, ale kierowca nie odczytał jeszcze numeru UN.
+**Sytuacja:** Podczas rozładunku są dwie przesyłki: jedna ma nalepkę klasy 8, a druga jest mokra i oznaczona klasą 4.3. Pracownik chce przetrzeć plamę na drugiej przesyłce.
 
 **Jak poprowadzić:**
-1. Zatrzymaj rozładunek tej sztuki i nie dotykaj plamy.
-2. Odczytaj oznakowanie z bezpiecznej odległości; sprawdź numer UN, klasę i właściwy wpis ADR.
-3. Ostrzeż osoby w pobliżu i zgłoś sytuację osobie odpowiedzialnej.
-4. Jeżeli istnieje ryzyko uwolnienia substancji, postępuj według instrukcji pisemnych i wezwij pomoc; nie próbuj neutralizować jej domowymi środkami.
+1. Poproś kursanta, by wstrzymał czynność i wyjaśnił, dlaczego nie dotyka mokrej plamy.
+2. Niech porówna klasy 8 i 4.3: działanie żrące wobec możliwości wydzielania palnego gazu w kontakcie z wodą.
+3. Poproś o wskazanie danych, które trzeba sprawdzić z bezpiecznej odległości: oznakowanie, numer UN i dokumenty.
+4. Omów, dlaczego nie wolno polewać przesyłki wodą ani neutralizować jej domowymi środkami.
 
-**Na co patrzeć:** Kursant rozróżnia klasę zagrożenia od pełnej identyfikacji towaru. Kursant zatrzymuje czynność i nie dotyka nieznanej substancji. Sprawdź też, czy kursant umie wyjaśnić, czego nie wie i gdzie bezpiecznie zweryfikować dane.
+**Na co patrzeć:** Kursant rozróżnia zagrożenia klasy 8 i 4.3, nie dotyka plamy i nie polewa przesyłki wodą.
 
-**Typowy błąd i proste wyjaśnienie:** Kursant zgaduje po wyglądzie lub poleceniu innej osoby. Wyjaśnij, że symbol albo polecenie nie zastępuje sprawdzenia właściwego wpisu, dokumentu i ograniczeń dla danego przypadku.
+**Typowy błąd i proste wyjaśnienie:** „To tylko zabrudzenie” — wyjaśnij, że mokre opakowanie może oznaczać wyciek, a kontakt z substancją lub wodą może zwiększyć zagrożenie.
 
-**Pytania powiązane:** `ADR-B-0004`, `ADR-B-0005`, `ADR-B-0006`, `ADR-B-0510`
+**Pytania powiązane:** `ADR-B-0005`, `ADR-B-0006`, `ADR-B-0510`
 
 **Granica bezpieczeństwa:** Ćwiczenie na zdjęciu opakowania lub karcie; bez rzeczywistych substancji.
 
-### 3. SC-ADR-B-02-03 — Sprawdzenie klasy i grupy pakowania przed przyjęciem
+### 3. SC-ADR-B-02-03 — Rozpoznawanie klas zagrożenia przed przyjęciem
 
-**Sytuacja:** Na karcie przewozowej wpisano towar, a na opakowaniu jest inna nalepka niż na kopii dokumentu. Pracownik mówi, że liczy się tylko numer UN.
+**Sytuacja:** Przed przyjęciem ładunku kierowca sprawdza trzy towary: benzynę, materiał żrący i materiał oznaczony klasą 4.3. Musi rozpoznać klasę każdego towaru oraz podstawowe zagrożenie.
 
 **Jak poprowadzić:**
-1. Porównaj numer UN, prawidłową nazwę przewozową, klasę i pozostałe dane wymagane dla wpisu.
-2. Nie uznawaj jednej zgodnej informacji za dowód, że całe oznakowanie jest poprawne.
-3. Wstrzymaj przyjęcie do czasu wyjaśnienia rozbieżności przez odpowiedzialnego uczestnika.
-4. Zanotuj, które dane się nie zgadzają; nie poprawiaj dokumentu ani nalepki bez potwierdzenia właściwych informacji.
+1. Poproś kursanta o wskazanie klasy 3 dla benzyny, klasy 8 dla materiału żrącego i klasy 4.3 dla materiału reagującego z wodą.
+2. Niech porówna numer UN, nazwę przewozową, klasę i nalepkę z dokumentami.
+3. Zapytaj, co powinien zrobić, jeśli dokument i nalepka się różnią. Oczekiwana odpowiedź: wstrzymać przyjęcie i wyjaśnić rozbieżność, nie poprawiać danych na wyczucie.
+4. Zaznacz, że ten scenariusz ćwiczy rozpoznawanie klas, a nie grup pakowania.
 
-**Na co patrzeć:** Kursant wskazuje co najmniej trzy elementy do porównania. Kursant zgłasza rozbieżność zamiast zgadywać. Sprawdź też, czy kursant umie wyjaśnić, czego nie wie i gdzie bezpiecznie zweryfikować dane.
+**Na co patrzeć:** Kursant prawidłowo wskazuje trzy klasy, podaje ich podstawowe zagrożenia i nie uznaje jednej zgodnej informacji za dowód poprawności całej przesyłki.
 
-**Typowy błąd i proste wyjaśnienie:** Kursant pomija kolejność działań i od razu wybiera najwygodniejsze rozwiązanie. Wyjaśnij, że najpierw trzeba ustalić zagrożenie i warunki, a dopiero potem podjąć zgodną i bezpieczną decyzję.
+**Typowy błąd i proste wyjaśnienie:** Mylenie klasy z grupą pakowania — klasa wskazuje rodzaj zagrożenia, a grupa pakowania, gdy występuje, opisuje stopień zagrożenia według właściwych kryteriów.
 
 **Pytania powiązane:** `ADR-B-0004`, `ADR-B-0005`, `ADR-B-0006`
 
