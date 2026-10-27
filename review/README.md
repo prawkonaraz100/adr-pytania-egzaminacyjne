@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x69 (27.10.2026)
+
+- Bank blob SHA: `a2c17c5bc8ebcd9d7f138f3c773132d6913674db`.
+- 609 pytań, 609 `needs_review`, 0 `verified`; 39 scenariuszy i 5 wariantów egzaminu próbnego z kluczami.
+- Raport: [Etap 4x69](../podstawowy/raporty/etap-4x69-raport-koncowy-2026-10-27.md).
+- Żadna zmiana redakcyjna ani PASS CI nie stanowi formalnego zatwierdzenia prawnego.
+
 ## Bieżąca migawka — etap 4x52 (26.10.2026)
 
 - Bank blob SHA: `ca4193261b018613083182c199ec3317984b24a4`.
