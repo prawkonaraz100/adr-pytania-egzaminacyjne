@@ -106,12 +106,12 @@ To są kontrole danych przed CI, nie zastępują uruchomienia testów repozytori
 
 ## 4. Zmiany w pytaniach i podstawy
 
-Trzy zmiany w banku obecne na gałęzi przed ukończeniem raportu pozostają zachowane:
-- `ADR-B-0290` — urealniono błędne odpowiedzi dotyczące zakresu obowiązków pakującego; ADR 1.4.3.2.
-- `ADR-B-0304` — urealniono dystraktory o planie ochrony; ADR 1.10.3.2.2(a).
-- `ADR-B-0364` — rozróżniono bezpieczne zatrzymanie przewozu od kontynuowania jazdy po wykryciu naruszenia zagrażającego bezpieczeństwu; ADR 1.4.2.2.4.
+Trzy zmienione rekordy banku w gałęzi 4x96, wykryte przez porównanie z wejściowym `main`:
+- `ADR-B-0092` — urealniono dystraktor dotyczący szkolenia i bezpośredniego nadzoru nad pracownikiem; ADR 1.3.1.
+- `ADR-B-0137` — zastąpiono absurdalne dystraktory wiarygodnymi pomyłkami o zakresie obowiązku posiadania świadectwa dopuszczenia pojazdu; ADR 9.1.2.1 i 9.1.3.
+- `ADR-B-0360` — poprawiono dystraktor dotyczący zakazu palenia w trakcie załadunku i rozładunku; ADR 8.3.5.
 
-Poprawna litera nie została zmieniona. Te korekty nie zostały uznane za formalną weryfikację prawną.
+Poprawna litera nie została zmieniona. Odświeżono migawki audytu sekwencyjnego dla tych trzech ID. Te korekty nie zostały uznane za formalną weryfikację prawną.
 
 ## 5. Następny sensowny krok
 
