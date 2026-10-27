@@ -202,20 +202,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Odpowiedź \"Każdy kierowca przewożący ładunek\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.2; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+          "rationale": "Błędne: samo położenie odcinka na terytorium państwa nie oznacza, że to państwo zainicjowało uzgodnienie i ma obowiązek zgłoszenia."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Odpowiedź \"Dowolny odbiorca towarów niebezpiecznych\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.2; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+          "rationale": "Błędne: przepis nie nakłada automatycznie osobnego zgłoszenia na każde państwo uczestniczące w uzgodnieniu."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Państwo inicjujące przekazuje uzgodnienie sekretariatowi UNECE, który informuje o nim pozostałe strony."
+          "rationale": "Poprawne: zgłoszenia do sekretariatu UNECE dokonuje państwo, które zainicjowało uzgodnienie."
         }
       },
       "observed_answer_key": "C",
       "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków. Etap 4b: zamiana miejsc opcji B i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
-      "editorial_result": "pending_specialist_review",
+      "editorial_result": "distractors_and_explanation_revised_4x107_specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -224,12 +224,12 @@
         "module_id": "ADR-B-10",
         "stem": "Kto zgodnie z ADR 1.1.4.5.2 zgłasza uzgodnienie dotyczące stosowania ADR na niedrogowym odcinku do sekretariatu UNECE?",
         "options": {
-          "A": "Każdy kierowca realizujący przewóz zgłasza uzgodnienie do sekretariatu UNECE",
-          "B": "Dowolny odbiorca towarów niebezpiecznych przekazuje zgłoszenie do UNECE",
+          "A": "Zgłasza je państwo, na którego terytorium leży dany odcinek, nawet jeśli nie zainicjowało uzgodnienia",
+          "B": "Każde państwo uczestniczące w uzgodnieniu składa osobne zgłoszenie do sekretariatu UNECE",
           "C": "Zgłoszenia dokonuje państwo, które zainicjowało uzgodnienie"
         },
         "correct_option": "C",
-        "explanation": "To państwo, które zainicjowało uzgodnienie dotyczące stosowania ADR na odcinku niedrogowym, zgłasza je sekretariatowi UNECE. Obowiązek ten nie spoczywa na każdym kierowcy ani na odbiorcy towaru, ponieważ uzgodnienie ma charakter między państwami. Po zgłoszeniu sekretariat przekazuje informację pozostałym stronom zgodnie z procedurą. Podstawa: ADR 1.1.4.5.2.",
+        "explanation": "Zgłoszenia do sekretariatu UNECE dokonuje państwo, które zainicjowało uzgodnienie dotyczące stosowania ADR na odcinku niedrogowym. Nie musi to być państwo, na którego terytorium leży odcinek, ani każde państwo uczestniczące w uzgodnieniu. To zadanie państw w procedurze międzynarodowej, a nie kierowcy ani odbiorcy. Podstawa: ADR 1.1.4.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
