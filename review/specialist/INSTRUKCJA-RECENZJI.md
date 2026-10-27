@@ -1,11 +1,11 @@
-## Bieżąca migawka — etap 4x104 (27.10.2026)
+## Bieżąca migawka — etap 4x106 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `d9b60f583d5176d0f34ace407933d4d883c9b911`.
-- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; bez formalnych zatwierdzeń.
-- Próbka 40 (seed `41042026`): pięć pytań z dystraktorami i explanation poprawionymi; minimum 300 znaków.
-- Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%.
-- Warianty egzaminu 001–005 i klucze wskazują aktualny bank. Scenariusze: 39; statusy prawne pozostają do niezależnej recenzji.
-- Raport: `podstawowy/raporty/etap-4x104-proba40-lekcje-01-05-2026-10-27.md`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `2b192c816b06b2e5503c146b7617d3d433fcc112`.
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
+- Etap 4x106: próbka 60 explanation, przegląd 39 scenariuszy, synchronizacja egzaminów i korekta dydaktyczna ADR-B-0211.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%; explanation minimum 300 znaków.
+- Raport: `podstawowy/raporty/etap-4x106-proba60-dystraktory-egzaminy-2026-10-27.md`.
+- Wszystkie pytania wymagają niezależnej recenzji prawnej; nie nadano statusu `verified`.
 
 ## Historyczna migawka — etap 4x89 (27.10.2026)
 
