@@ -4,7 +4,7 @@
 > **Nieznane skróty i terminy?** Przy pierwszym spotkaniu z fachowym pojęciem skorzystaj ze [Słowniczka ADR dla kursanta](../SLOWNICZEK.md), w którym znajdziesz krótkie objaśnienia i punkty ADR do sprawdzenia.
 
 ## Po co to jest?
-Nie każdy tunel jest dostępny dla każdego przewozu towarów niebezpiecznych. Błędne odczytanie kodu tunelowego (kod, którego zastosowanie przy literach D/E zależy od tego, czy towar jedzie w cysternie, czy w sztukach przesyłki; [słowniczek](../SLOWNICZEK.md#kod-tunelowy-d-e)) może doprowadzić do wjazdu na trasę objętą ograniczeniem. Kierowca powinien sprawdzić kod przypisany do towaru i postać przewozu, a następnie zaplanować dozwoloną trasę.
+Nie każdy tunel jest dostępny dla każdego przewozu towarów niebezpiecznych. Błędne odczytanie kodu tunelowego (oznaczenia, które pomaga ustalić, przez które kategorie tuneli można przewozić dany towar; przy kodzie D/E ważny jest też sposób przewozu; [słowniczek](../SLOWNICZEK.md#kod-tunelowy-d-e)) może doprowadzić do wjazdu na trasę objętą ograniczeniem. Kierowca powinien sprawdzić kod przypisany do towaru i postać przewozu, a następnie zaplanować dozwoloną trasę.
 
 ## Czego się nauczysz
 - rozumieć kategorie tuneli A–E;
