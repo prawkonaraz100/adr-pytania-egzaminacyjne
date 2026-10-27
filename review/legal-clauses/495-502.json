@@ -298,20 +298,20 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Ogniwa i baterie objęte tym punktem wymagają skutecznych środków zapobiegania zwarciom zewnętrznym."
+          "rationale": "Wymaganie ochrony przed zewnętrznym zwarciem dotyczy projektowanego typu ogniwa."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Wyłącznie wymagania oznakowania tablicy rejestracyjnej. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2(c). Wymaga niezależnego przeglądu."
+          "rationale": "Ograniczenie ryzyka uszkodzenia mechanicznego nie zastępuje odrębnej ochrony przed zewnętrznym zwarciem."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Wyłącznie minimalnej długości pojazdu. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2(c). Wymaga niezależnego przeglądu."
+          "rationale": "Warunek nie jest ograniczony wyłącznie do ogniw litowych; pytanie dotyczy ogniwa sodowo-jonowego."
         }
       },
       "observed_answer_key": "A",
       "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę.",
-      "editorial_result": "pending_specialist_review",
+      "editorial_result": "distractors_and_explanation_revised_editorial_review_only_legal_approval_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -321,11 +321,11 @@
         "stem": "Nowy projekt ogniwa sodowo-jonowego przewidziany do wpisu UN 3551 nie zapobiega zewnętrznemu zwarciu. Którego warunku 2.2.9.1.7.2 nie spełnia?",
         "options": {
           "A": "Typ ogniwa musi być skutecznie zabezpieczony przed zewnętrznym zwarciem",
-          "B": "Jedynym warunkiem jest prawidłowe oznakowanie tablicy rejestracyjnej pojazdu",
-          "C": "Jedynym warunkiem jest zachowanie minimalnej długości pojazdu podczas przewozu"
+          "B": "Wystarczy ograniczyć ryzyko uszkodzenia mechanicznego; zewnętrznego zwarcia nie trzeba osobno uwzględniać",
+          "C": "Wymóg ochrony przed zwarciem dotyczy tylko ogniw litowych, nie sodowo-jonowych"
         },
         "correct_option": "A",
-        "explanation": "Ogniwa i baterie objęte tym przepisem muszą być skutecznie zabezpieczone przed zwarciem zewnętrznym. Samo oznakowanie pojazdu lub jego długość nie rozwiązuje tego problemu, bo nie zapobiega kontaktowi elektrycznemu między biegunami. Konstrukcja i przygotowanie baterii muszą ograniczać ryzyko zwarcia podczas przewozu. Podstawa: ADR 2.2.9.1.7.2(c).",
+        "explanation": "Ogniwo sodowo-jonowe musi być skutecznie zabezpieczone przed zwarciem zewnętrznym, bo kontakt między biegunami może spowodować niebezpieczne nagrzanie. Ochrona wyłącznie przed uszkodzeniem mechanicznym nie dowodzi, że zwarcie jest wykluczone; ten warunek nie dotyczy tylko ogniw litowych. Podstawa: ADR 2.2.9.1.7.2(c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
