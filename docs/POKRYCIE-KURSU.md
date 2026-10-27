@@ -5,7 +5,7 @@
 ## Co naprawdę zostało ukończone?
 
 - **609 autorskich pytań** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **609 needs_review / 0 verified**.
-- **104/104 kompetencji teoretycznych** ma co najmniej jedno pytanie w wersji roboczej. **0/104** ma pytanie zatwierdzone przez niezależnego eksperta.
+- **104/104 kompetencji teoretycznych** ma co najmniej dwa pytania robocze. **0/104** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
 - Rozkład prawidłowych opcji: A=206, B=207, C=196.
