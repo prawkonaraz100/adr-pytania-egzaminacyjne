@@ -265,3 +265,4 @@ Raporty ETAPU 4x7
 ## Etap 4x69 — spójność scenariuszy i lekcji
 
 - [Raport B-01–04](raporty/etap-4x69-spojnosc-01-04-2026-10-27.md): scenariusze i pytania sprawdzone pod kątem istniejących ID oraz modułów; usunięto powtórzenie redakcyjne w B-02.
+- [Raport B-05–08](raporty/etap-4x69-scenariusze-05-08-2026-10-27.md): wykryto i naprawiono identyczny zestaw pytań w dwóch scenariuszach B-07; Quality Gate blokuje teraz takie powtórzenia.
