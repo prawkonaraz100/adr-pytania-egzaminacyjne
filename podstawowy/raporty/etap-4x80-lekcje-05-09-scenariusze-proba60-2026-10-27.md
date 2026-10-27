@@ -89,3 +89,14 @@ Wszystkie działy pozostają poniżej progu 18%. Minimum explanation po poprawka
 ## 7. Zastrzeżenie
 
 To przegląd dydaktyczny i strukturalny, nie formalna recenzja prawna. Wszystkie pytania nadal wymagają niezależnego odbioru specjalisty ADR i zachowują `needs_review`.
+
+
+## Naprawa Quality Gate — migawki po aktualizacji pytań
+
+Po redakcji explanation cztery migawki techniczne pozostały nieaktualne, choć treść pytań była już poprawiona. Odświeżono wyłącznie snapshoty zgodnie z bieżącym `questions.jsonl`:
+- `ADR-B-0008`: `review/sequential/001-030.json` i `review/legal-clauses/001-030.json`;
+- `ADR-B-0037`: `review/sequential/031-060.json` i `review/legal-clauses/031-060.json`;
+- `ADR-B-0327`: `review/sequential/325-344.json` i `review/legal-clauses/325-344.json`;
+- `ADR-B-0547`: `review/sequential/546-560.json` i `review/legal-clauses/546-560.json`.
+
+Migawki odzwierciedlają aktualne stem/options/klucz/explanation/źródła oraz status `needs_review`. Nie zmieniano poprawnych liter ani statusów weryfikacji, nie dopisano potwierdzenia zgodności prawnej. CI dla migawki końcowej `6a79da829043618b04444e3195c4b331a3d6382c` zakończyło się PASS (Quality Gate run `40475992925`); weryfikacja tekstu urzędowego i recenzja specjalisty pozostają otwarte.
