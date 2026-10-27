@@ -515,15 +515,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Pozostawić skażoną odzież do następnego dnia”) nie spełnia obowiązku opisanego w ADR 2025, 5.4.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Brak widocznego zabrudzenia nie wyklucza skażenia, więc odzieży nie należy pozostawiać na sobie."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wariant B oddaje warunek przepisowy: Instrukcja każe zdjąć skażone elementy i bezpiecznie je usunąć. Pozostaje do porównania z pełnym polskim brzmieniem."
+          "rationale": "Poprawna odpowiedź każe bezpiecznie zdjąć skażone elementy i postąpić z nimi zgodnie z instrukcjami."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Przenieść skażenie na siedzenie samochodu”) nie spełnia obowiązku opisanego w ADR 2025, 5.4.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Zwykłe pranie bez ostrzeżenia o możliwym skażeniu może narazić osoby, które będą obsługiwać odzież."
         }
       },
       "observed_answer_key": "B",
@@ -536,12 +536,12 @@
         "module_id": "ADR-B-04",
         "stem": "Po kontakcie z wyciekiem ADR część odzieży została skażona. Jakie działanie przewiduje instrukcja pisemna?",
         "options": {
-          "A": "Pozostawić skażoną odzież do następnego dnia i kontynuować pracę",
+          "A": "Pozostawić odzież na sobie, jeśli nie widać zabrudzenia",
           "B": "Zdjąć skażoną odzież i środki ochrony oraz bezpiecznie je usunąć",
-          "C": "Przenieść skażenie na siedzenie samochodu, by nie blokować ładowni"
+          "C": "Przekazać odzież do zwykłego prania bez ostrzeżenia o możliwym skażeniu"
         },
         "correct_option": "B",
-        "explanation": "Skażona odzież i środki ochrony mogą nadal przenosić niebezpieczną substancję, więc należy je bezpiecznie zdjąć i odpowiednio usunąć. Pozostawienie ich do następnego dnia przedłuża kontakt, a przeniesienie skażenia na siedzenie zanieczyszcza kolejne powierzchnie. Działaj zgodnie z instrukcjami i bez narażania innych. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Skażona odzież i środki ochrony mogą przenosić niebezpieczną substancję, nawet gdy zabrudzenie nie jest widoczne. Należy bezpiecznie zdjąć skażone elementy i postąpić z nimi zgodnie z instrukcjami; wygląd odzieży nie potwierdza, że jest czysta. Nie przekazuj jej do zwykłego prania bez informacji o możliwym skażeniu, bo naraża to kolejne osoby. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
