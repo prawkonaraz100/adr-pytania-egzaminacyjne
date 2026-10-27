@@ -19,10 +19,12 @@ ADR-B-0602, ADR-B-0304, ADR-B-0373, ADR-B-0383, ADR-B-0444, ADR-B-0081, ADR-B-05
 
 ## 2. Potwierdzona korekta ADR-B-0211
 
-Pytanie dotyczy sprawdzenia tożsamości i upoważnienia przewoźnika przed wydaniem towaru. Zmieniono wyłącznie błędną opcję A; poprawna litera C, treść pytania, explanation, podstawa ADR i status pozostały bez zmian.
+Pytanie dotyczy sprawdzenia tożsamości i upoważnienia przewoźnika przed wydaniem towaru. Zmieniono błędne opcje A i B, aby obie przedstawiały wiarygodne, ale niepełne sposoby weryfikacji. Poprawna litera C, treść pytania, explanation, podstawa ADR i status pozostały bez zmian.
 
-- **Przed:** „Towar można wydać każdej osobie, która zna numer zamówienia i nazwę odbiorcy; nie trzeba sprawdzać, jakiego przewoźnika reprezentuje ani czy ma upoważnienie do odbioru”.
-- **Po:** „Wydać po samym numerze zamówienia, bez sprawdzania upoważnienia do odbioru”.
+- **Opcja A przed:** „Towar można wydać każdej osobie, która zna numer zamówienia i nazwę odbiorcy; nie trzeba sprawdzać, jakiego przewoźnika reprezentuje ani czy ma upoważnienie do odbioru”.
+- **Opcja A po:** „Wydać po samym numerze zamówienia, bez sprawdzania upoważnienia do odbioru”.
+- **Opcja B przed:** „Towar wolno wydać bez weryfikacji, jeśli kierowca nie żąda kopii dokumentów”.
+- **Opcja B po:** „Wystarczy porównać nazwę przewoźnika na pojeździe z dokumentem; nie trzeba sprawdzać upoważnienia do odbioru”.
 - **Dlaczego:** nowa opcja opisuje realistyczną pomyłkę — utożsamienie znajomości danych zamówienia z prawem do odbioru — bez nadmiernego naprowadzania długością. Aktualne explanation już wyjaśnia, dlaczego sam numer zamówienia lub nazwa odbiorcy nie potwierdzają upoważnienia.
 - **Podstawa:** ADR 1.10.1.2.
 - Migawka przed/po: [snapshot ADR-B-0211](../../review/batches/4x106-distractor-snapshot-ADR-B-0211.json).
@@ -42,7 +44,7 @@ Nie zmieniano scenariuszy, ponieważ kontrola nie wykazała potwierdzonego błę
 
 Po zmianie banku zaktualizowano `source_bank_head` we wszystkich wariantach i kluczach 001–005. ADR-B-0211 nie występuje w żadnym z pięciu arkuszy, więc nie trzeba było zmieniać treści wariantów ani kluczy. Zaktualizowano również migawkę próbki 4x96, manifest pakietu recenzyjnego i bieżące indeksy specjalisty.
 
-- Nowy blob `podstawowy/questions.jsonl`: `2b192c816b06b2e5503c146b7617d3d433fcc112`.
+- Nowy blob `podstawowy/questions.jsonl`: `236819b5e6ea555285ad74d4a94ce6471bac2287`.
 - 5 wariantów × 30 pytań; brak duplikatów w arkuszach i 150 unikalnych ID łącznie.
 - Każdy wariant: 13 działów, A/B/C = 10/10/10, maksymalna seria tej samej litery = 3.
 - Synchronizacja klucza po mapowaniu liter: bez rozbieżności.
