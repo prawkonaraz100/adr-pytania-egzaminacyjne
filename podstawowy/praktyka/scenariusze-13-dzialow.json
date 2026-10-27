@@ -545,13 +545,13 @@
     {
       "id": "SC-ADR-B-02-02",
       "module_id": "ADR-B-02",
-      "title": "Przy rozładunku: nieznana substancja na opakowaniu",
-      "situation": "Podczas rozładunku pracownik widzi mokrą plamę na opakowaniu i chce przetrzeć ją szmatką. Na opakowaniu widnieje nalepka ostrzegawcza, ale kierowca nie odczytał jeszcze numeru UN.",
+      "title": "Rozpoznanie klas i zagrożeń przed rozładunkiem",
+      "situation": "Podczas rozładunku są dwie przesyłki: jedna ma nalepkę klasy 8, a druga jest mokra i oznaczona klasą 4.3. Pracownik chce przetrzeć plamę na drugiej przesyłce, zanim ustalono bezpieczne postępowanie.",
       "steps": [
-        "Zatrzymaj rozładunek tej sztuki i nie dotykaj plamy.",
-        "Odczytaj oznakowanie z bezpiecznej odległości; sprawdź numer UN, klasę i właściwy wpis ADR.",
-        "Ostrzeż osoby w pobliżu i zgłoś sytuację osobie odpowiedzialnej.",
-        "Jeżeli istnieje ryzyko uwolnienia substancji, postępuj według instrukcji pisemnych i wezwij pomoc; nie próbuj neutralizować jej domowymi środkami."
+        "Nie dotykaj mokrej plamy ani nie próbuj rozpoznawać substancji po zapachu; wstrzymaj czynność przy uszkodzonej przesyłce.",
+        "Z bezpiecznej odległości odczytaj oznakowanie i numer UN, a następnie sprawdź dane w dokumentach.",
+        "Rozróżnij zagrożenia: klasa 8 oznacza działanie żrące, a klasa 4.3 może wydzielać palny gaz w kontakcie z wodą.",
+        "Nie polewaj przesyłki klasy 4.3 wodą; ostrzeż osoby w pobliżu, zgłoś niezgodność i stosuj instrukcje pisemne, jeśli sytuacja tego wymaga."
       ],
       "common_errors": [
         {
@@ -559,8 +559,12 @@
           "why": "Kontakt może narazić kierowcę na substancję niebezpieczną, a zapach nie jest bezpieczną metodą identyfikacji."
         },
         {
-          "error": "Zakładać, że sama nalepka wystarcza do ustalenia wszystkich działań.",
-          "why": "Trzeba uwzględnić cały wpis i instrukcje właściwe dla konkretnego towaru."
+          "error": "Potraktować nalepki klasy 8 i 4.3 jako takie samo zagrożenie.",
+          "why": "Klasa 8 oznacza działanie żrące, a klasa 4.3 może wydzielać palny gaz po kontakcie z wodą."
+        },
+        {
+          "error": "Polewać mokrą przesyłkę wodą.",
+          "why": "Przy klasie 4.3 woda może wywołać wydzielanie palnego gazu i zwiększyć zagrożenie."
         }
       ],
       "adr_basis": [
@@ -574,14 +578,14 @@
         "ADR-B-0510"
       ],
       "assessment_criteria": [
-        "Kursant rozróżnia klasę zagrożenia od pełnej identyfikacji towaru.",
-        "Kursant zatrzymuje czynność i nie dotyka nieznanej substancji."
+        "Kursant rozróżnia podstawowe zagrożenie klasy 8 od zagrożenia klasy 4.3.",
+        "Kursant wyjaśnia, dlaczego mokrej przesyłki klasy 4.3 nie wolno polewać wodą ani dotykać bez oceny zagrożenia."
       ],
       "safety_boundary": "Ćwiczenie na zdjęciu opakowania lub karcie; bez rzeczywistych substancji.",
       "common_mistakes": [
         "Wytarcie plamy szmatką — powoduje bezpośredni kontakt i może rozprzestrzenić substancję.",
         "Założenie klasy tylko z wyglądu — trzeba sprawdzić pełne oznakowanie i dokumenty.",
-        "Samodzielna neutralizacja domowymi środkami — może wywołać niebezpieczną reakcję."
+        "Polewanie wodą materiału klasy 4.3 — może spowodować wydzielanie palnego gazu."
       ],
       "legal_basis": [
         "ADR 2.1",
@@ -589,28 +593,32 @@
         "ADR 5.2.2.2.2",
         "ADR 5.4.3.4"
       ],
-      "learner_takeaway": "Nieznanej plamy nie wycieraj ani nie neutralizuj. Najpierw zachowaj dystans, ostrzeż innych i zgłoś zdarzenie.",
-      "learner_question": "Jak zareagujesz na nieznaną plamę przy przesyłce i dlaczego nie użyjesz domowych środków?"
+      "learner_takeaway": "Nie dotykaj mokrej plamy. Najpierw bezpiecznie odczytaj oznakowanie: klasa 8 jest żrąca, a klasa 4.3 może reagować z wodą.",
+      "learner_question": "Jak rozróżnisz zagrożenie klasy 8 i 4.3, zanim zdecydujesz, co zrobić z mokrą przesyłką?"
     },
     {
       "id": "SC-ADR-B-02-03",
       "module_id": "ADR-B-02",
-      "title": "Sprawdzenie klasy i grupy pakowania przed przyjęciem",
-      "situation": "Na karcie przewozowej wpisano towar, a na opakowaniu jest inna nalepka niż na kopii dokumentu. Pracownik mówi, że liczy się tylko numer UN.",
+      "title": "Rozpoznawanie klas zagrożenia przed przyjęciem",
+      "situation": "Przed przyjęciem ładunku kierowca sprawdza trzy towary: benzynę, materiał żrący i materiał oznaczony klasą 4.3. Musi rozpoznać klasę każdego towaru oraz podstawowe zagrożenie, zanim dopuści przesyłki do dalszej obsługi.",
       "steps": [
-        "Porównaj numer UN, prawidłową nazwę przewozową, klasę i pozostałe dane wymagane dla wpisu.",
-        "Nie uznawaj jednej zgodnej informacji za dowód, że całe oznakowanie jest poprawne.",
-        "Wstrzymaj przyjęcie do czasu wyjaśnienia rozbieżności przez odpowiedzialnego uczestnika.",
-        "Zanotuj, które dane się nie zgadzają; nie poprawiaj dokumentu ani nalepki bez potwierdzenia właściwych informacji."
+        "Porównaj numer UN, prawidłową nazwę przewozową, klasę i nalepkę z danymi w dokumentach.",
+        "Rozpoznaj podstawowe klasy w przykładach: benzyna należy do klasy 3, materiały żrące do klasy 8, a materiały klasy 4.3 mogą wydzielać palny gaz w kontakcie z wodą.",
+        "Nie zakładaj, że jedna zgodna informacja oznacza poprawność całego oznakowania; sprawdź pozostałe wymagane dane.",
+        "Jeśli dokument i nalepka się różnią, wstrzymaj przyjęcie i wyjaśnij rozbieżność z odpowiedzialnym uczestnikiem. Nie poprawiaj oznakowania na wyczucie."
       ],
       "common_errors": [
         {
-          "error": "Sprawdzać tylko numer UN.",
-          "why": "Pozostałe elementy wpisu i oznakowania również mogą być wymagane, a ich rozbieżność może wskazywać na błąd."
+          "error": "Uznawać, że wystarczy znać numer UN.",
+          "why": "Kierowca powinien umieć odczytać także klasę i oznakowanie, ponieważ to one pomagają rozpoznać zagrożenie."
+        },
+        {
+          "error": "Traktować klasę 8 i 4.3 jako to samo zagrożenie.",
+          "why": "Klasa 8 oznacza działanie żrące, natomiast klasa 4.3 wiąże się z wydzielaniem palnego gazu w kontakcie z wodą."
         },
         {
           "error": "Wybrać nalepkę, która wygląda najbardziej podobnie.",
-          "why": "Oznakowanie wynika z właściwej klasyfikacji i nie powinno być dobierane na oko."
+          "why": "Oznakowanie wynika z klasyfikacji i danych przewozowych, a nie z wyglądu."
         }
       ],
       "adr_basis": [
@@ -624,22 +632,26 @@
         "ADR-B-0006"
       ],
       "assessment_criteria": [
-        "Kursant wskazuje co najmniej trzy elementy do porównania.",
-        "Kursant zgłasza rozbieżność zamiast zgadywać."
+        "Kursant prawidłowo wskazuje klasy 3, 8 i 4.3 w przykładach.",
+        "Kursant wymienia co najmniej trzy elementy, które porównuje w dokumentach i oznakowaniu.",
+        "Kursant wstrzymuje przyjęcie, gdy dane się nie zgadzają, zamiast zgadywać."
       ],
       "safety_boundary": "Symulacja z kartami i wydrukowanymi symbolami.",
       "common_mistakes": [
-        "Uznanie numeru UN za jedyny potrzebny element — klasa, nazwa i pozostałe wymagane dane również muszą się zgadzać.",
-        "Ignorowanie różnicy między dokumentem a nalepką — rozbieżność może zmienić ocenę zagrożenia.",
-        "Samodzielne poprawianie etykiety lub dokumentu bez potwierdzenia — może utrwalić błędną klasyfikację."
+        "Uznanie numeru UN za jedyny potrzebny element — klasa i nalepki też przekazują ważne informacje.",
+        "Ignorowanie różnicy między klasami — każda klasa wiąże się z innym rodzajem zagrożenia.",
+        "Samodzielne poprawianie dokumentu lub nalepki bez potwierdzenia — może utrwalić błędną klasyfikację."
       ],
       "legal_basis": [
         "ADR 2.1",
+        "ADR 2.2.3.1.1",
+        "ADR 2.2.8.1.1",
+        "ADR 2.2.43.1.1",
         "ADR 3.2 tabela A",
         "ADR 5.2.2.2.2"
       ],
-      "learner_takeaway": "Numer UN, klasa, nazwa i nalepki muszą tworzyć spójny opis. Rozbieżność trzeba wyjaśnić, a nie poprawiać na wyczucie.",
-      "learner_question": "Jak ustalisz, które oznaczenie jest poprawne, gdy dokumenty i nalepki się różnią?"
+      "learner_takeaway": "Klasa opisuje rodzaj zagrożenia. Porównaj klasę, nazwę, numer UN i nalepkę; rozbieżność wyjaśnij przed przyjęciem.",
+      "learner_question": "Jakie podstawowe zagrożenia odróżniają klasę 3, klasę 8 i klasę 4.3?"
     },
     {
       "id": "SC-ADR-B-03-02",
