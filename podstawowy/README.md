@@ -8,6 +8,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x90 — próbka 60 i rejestr wartości zależnych od aktualizacji ADR](raporty/etap-4x90-proba60-rejestr-wartosci-adr-2026-10-27.md)
+
 - [Etap 4x89 — próbka 60, status umów i wyłączenia ADR](raporty/etap-4x89-proba60-status-umow-wylaczenia-2026-10-27.md)
 
 - [Etap 4x88 — kontrola M364 i ADR-B-0145](raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md)
