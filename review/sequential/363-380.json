@@ -269,11 +269,11 @@
         "stem": "Rozładowca zamierza wyładować przesyłki ADR z innego pojazdu niż podany w dokumentach. Co należy zweryfikować przed rozładunkiem?",
         "options": {
           "A": "Porównać rzeczywisty towar z dokumentami przewozu",
-          "B": "Porównać oznakowanie naczepy z grafiką w zleceniu transportowym",
-          "C": "Sprawdzić liczbę palet w harmonogramie"
+          "B": "Porównać tylko numer UN na oznakowaniu, pomijając nazwę i pozostałe dane w dokumentach",
+          "C": "Sprawdzić wyłącznie liczbę palet i uznać, że ich zawartość zgadza się z dokumentami"
         },
         "correct_option": "A",
-        "explanation": "Przed rozładunkiem należy upewnić się, że przesyłki odpowiadają informacjom w dokumentach i są właściwymi towarami do przyjęcia. Kolor naczepy ani cena paliwa nie pozwalają potwierdzić zawartości. Grafika naczepy, liczba palet i termin dostawy nie wystarczą do identyfikacji ładunku. Podstawa: ADR 1.4.3.7.1(a).",
+        "explanation": "Przed rozładunkiem trzeba porównać faktycznie dostarczony towar z dokumentami, aby nie przyjąć innej przesyłki niż zadeklarowana. Sam numer UN pomaga rozpoznać towar, ale nie zastępuje sprawdzenia całego opisu i pozostałych danych; liczba palet nie potwierdza zawartości. Jeśli dane się nie zgadzają, wyjaśnij rozbieżność przed dalszym postępowaniem. Podstawa: ADR 1.4.3.7.1(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -474,11 +474,11 @@
         "stem": "Przewoźnik ma przewieźć towary niebezpieczne, ale nie sprawdził wymaganych nalepek i tablic pojazdu. Co powinien zrobić zgodnie z ADR 1.4.2.2.1?",
         "options": {
           "A": "Sprawdzić oznakowanie wymagane na jednostce",
-          "B": "Uznać nalepki na pojeździe za zbędne",
-          "C": "Zlecić kontrolę oznakowania dopiero podczas przekazania towaru odbiorcy po zakończeniu trasy"
+          "B": "Uznać, że nalepki na opakowaniach zastępują wymagane oznakowanie pojazdu",
+          "C": "Sprawdzić wyłącznie dokumenty i zostawić kontrolę tablic na czas dostawy"
         },
         "correct_option": "A",
-        "explanation": "Przewoźnik powinien sprawdzić, czy jednostka transportowa ma wymagane nalepki i tablice identyfikacyjne. Nie są one dobrowolną dekoracją ani czymś, co można uzupełnić dopiero po dostawie. Nalepki opakowań i późniejsza kontrola u odbiorcy nie zastępują oznakowania pojazdu przed wyjazdem. Podstawa: ADR 1.4.2.2.1(f).",
+        "explanation": "Przewoźnik przed rozpoczęciem przewozu powinien sprawdzić, czy jednostka ma wymagane nalepki i tablice identyfikacyjne. Nalepki na opakowaniach nie zastępują oznakowania wymaganego na pojeździe, a sprawdzenie dopiero po dostawie następuje za późno. Dlatego trzeba skontrolować oznakowanie przed wyjazdem, a nie odkładać obowiązku. Podstawa: ADR 1.4.2.2.1(f).",
         "sources": [
           {
             "code": "ADR-2025-PL",

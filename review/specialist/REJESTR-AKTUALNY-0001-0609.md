@@ -1,8 +1,8 @@
-## Bieżąca migawka — etap 4x87 (27.10.2026)
+## Bieżąca migawka — etap 4x103 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `445c2d76652f2dccf5735f928083388484e147bc`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `3b164c228974667246ffae98438975c8f649a74d`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
-- Próbka redakcyjna 60 explanation, seed `2026102787`: poprawiono wiarygodność dystraktorów i doprecyzowano wyjaśnienia w ADR-B-0101, ADR-B-0186, ADR-B-0258, ADR-B-0356, ADR-B-0470 i ADR-B-0484. Poprawne litery i statusy pozostały bez zmian.
+- Próbka redakcyjna 40 explanation, seed `41032026`: poprawiono dystraktory/explanation w ADR-B-0007, ADR-B-0369 i ADR-B-0374; poprawne litery i statusy pozostały bez zmian.
 - Lekcje B-10–B-13 sprawdzono pod kątem sensu dla początkującego, przykładów, podsumowań i zgodności z pytaniami. W tym przeglądzie nie potwierdzono błędu merytorycznego wymagającego zmiany tekstu lekcji.
 - Scenariusze: 39, po 3 na każdy dział; brak nieistniejących lub przypisanych do złego działu `question_ids`.
 - Egzaminy 001–005: po 30 unikalnych pytań, wszystkie 13 działów, A/B/C 10/10/10, maksymalna seria 3. Porównanie z bankiem po uwzględnieniu przestawiania opcji nie wykazało rzeczywistej rozbieżności klucza. Metadane `source_bank_head` i klucze wskazują aktualny bank.

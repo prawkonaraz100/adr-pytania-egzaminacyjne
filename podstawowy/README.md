@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 27.10.2026, etap 4x102 (po scaleniu 4x101): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 27.10.2026, etap 4x103 (bieżąca gałąź robocza, oczekuje na PASS CI): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -8,6 +8,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x103 — próbka 40 explanation i odbiór lekcji B-06–B-13](raporty/etap-4x103-proba40-lekcje-06-13-2026-10-27.md)
 - [Etap 4x102 — różnorodność pytań kompetencji i synchronizacja migawki](raporty/etap-4x102-roznorodnosc-kompetencji-2026-10-27.md)
 - [Etap 4x101 — zgodność mapy kompetencji i głębokości pokrycia](raporty/etap-4x101-glebokosc-pokrycia-kompetencji-2026-10-27.md)
 - [Etap 4x100 — korekta metryk pokrycia kursu](raporty/etap-4x100-metryki-pokrycia-2026-10-27.md)
@@ -310,4 +311,8 @@ Raporty ETAPU 4x7
 ## Najnowsze raporty jakości
 
 - [Etap 4x95 — próbka 60, spójność wartości ADR i mapa wpływu 2027](raporty/etap-4x95-proba60-spojnosc-wartosci-adr2027-2026-10-27.md)
+- [Etap 4x100 — aktualizacja metryk pokrycia](raporty/etap-4x100-metryki-pokrycia-2026-10-27.md)
+- [Etap 4x101 — głębokość pokrycia kompetencji](raporty/etap-4x101-glebokosc-pokrycia-kompetencji-2026-10-27.md)
+- [Etap 4x102 — różnorodność kompetencji](raporty/etap-4x102-roznorodnosc-kompetencji-2026-10-27.md)
+- [Etap 4x103 — próbka 40 explanation i odbiór lekcji B-06–B-13](raporty/etap-4x103-proba40-lekcje-06-13-2026-10-27.md)
 - [Etap 4x95 — migawka audytu dla specjalisty](../review/specialist/ETAP-4X95-MIGAWKA-AUDYTU.md)
