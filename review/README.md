@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x70 (27.10.2026)
+
+- Bank blob SHA: `b07a5587233e3d086100add9966b3abf599bf7b1`.
+- 609 pytań, 609 `needs_review`, 0 `verified`; 39 scenariuszy i 5 wariantów egzaminu próbnego z kluczami.
+- Skorygowano sprzeczne „Tak/Nie” w odpowiedzi C pytania ADR-B-0497; zachowano literę C i status `needs_review`.
+- Raport: [Etap 4x70](../podstawowy/raporty/etap-4x70-korekta-ADR-B-0497-2026-10-27.md).
+
 ## Bieżąca migawka — etap 4x69 (27.10.2026)
 
 - Bank blob SHA: `a2c17c5bc8ebcd9d7f138f3c773132d6913674db`.
