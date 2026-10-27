@@ -79,3 +79,12 @@ Bank pozostaje 609 `needs_review`, 0 `verified`. Nie zmieniono odpowiedzi, nie r
 - M369 dotyczy przewozu oleju napędowego i jest wskazana jako ważna do 31.12.2026; Polska podpisała 30.06.2026. Źródła: [UNECE — umowy wielostronne](https://unece.org/transport/road-transport/adr-multilateral-agreements), [MI — obwieszczenie M369, poz. 17](https://www.gov.pl/web/infrastruktura/obwieszczenie-ministra-infrastruktury-z-dnia-30-czerwca-2026-r). W obecnym banku nie znaleziono pytań o M369, UN 1202, normy EN 590/15940/16709/16734 ani olej napędowy.
 - M364 i M369 są odrębnymi umowami; przed użyciem materiału po 31.12.2026 sprawdzić obie ponownie. Nie zakładać automatycznego przedłużenia.
 - Bank pozostaje 609 `needs_review`, 0 `verified`; w etapie 4x94 nie zmieniano odpowiedzi ani kluczy.
+
+
+## Uzupełnienie z etapu 4x95 — kontrola na 27.10.2026
+
+- Aktualny bank: 609 pytań; wszystkie `needs_review`, bez `verified`. Migawka bieżących korekt: [ETAP-4X95-MIGAWKA-AUDYTU.md](ETAP-4X95-MIGAWKA-AUDYTU.md).
+- W pierwszej kolejności porównać z oficjalnymi zmianami ADR 2027 pytania ADR-B-0099, 0162, 0315, 0499, 0500, 0501 i 0502 oraz lekcję B-02 i scenariusze tego działu. Sprawdzić klasyfikację, numery UN, nalepki, badania i wymagania techniczne baterii sodowo-jonowych.
+- ADR-B-0512 dotyczy ADR 2025 8.6.4 oraz 3.4.13–3.4.14; jego wyjaśnienie zostało doprecyzowane. Przy aktualizacji do 2027 ponownie sprawdzić rozdział o ograniczeniach tunelowych, ale nie zmieniać odpowiedzi bez porównania z konkretnym oficjalnym punktem.
+- W rejestrze M369 sprawdzić datę ważności 31.12.2026; nie zakładać przedłużenia bez urzędowego potwierdzenia. Przeszukanie bieżącego banku nie wykazało pytań odwołujących się do M369.
+- Nie traktować streszczenia UNECE jako wystarczającej podstawy do aktualizacji wartości. Zapisać numer punktu ADR, wynik audytu A/B/C i źródło urzędowe dla każdego zmienianego pytania.
