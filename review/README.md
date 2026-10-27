@@ -1,10 +1,10 @@
-## Bieżąca migawka — etap 4x103 (27.10.2026)
+## Bieżąca migawka — etap 4x104 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `3b164c228974667246ffae98438975c8f649a74d`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `e21550ddc8e2a340d6988b94f65ff84244ba22f8`.
 - Bank: 609 pytań `needs_review`, 0 `verified`.
 - Pokrycie: 107 kompetencji (104 teoria, 3 praktyka); brak pytań nieprzypisanych i błędnych odwołań między modułami.
 - Aktualne metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 73/609 = 11,99%; maksimum działu 14,29%.
-- Raport: [Etap 4x103 — próbka 40 explanation i odbiór lekcji B-06–B-13](../podstawowy/raporty/etap-4x103-proba40-lekcje-06-13-2026-10-27.md).
+- Raport: [Etap 4x104 — próbka 40 explanation i odbiór lekcji B-01–B-05](../podstawowy/raporty/etap-4x104-proba40-lekcje-01-05-2026-10-27.md).
 - Status prawny wszystkich pytań pozostaje `needs_review`; odbiór specjalisty jest otwarty.
 
 ## Aktualizacja etapu 4x89 — próbka, wyłączenia i status M364 (27.10.2026)
