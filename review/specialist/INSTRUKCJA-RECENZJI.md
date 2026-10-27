@@ -1,3 +1,15 @@
+## Bieżąca migawka — etap 4x89 (27.10.2026)
+
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`.
+- „Poprawna = jedyna najdłuższa”: 73/609 = 11.99%; maksimum działu: 14.29%.
+- Explanation minimum 300 znaków; poniżej 200: 0.
+- Scenariusze: 39, po 3 na dział; brak nieistniejących lub obcych ID.
+- Egzaminy próbne 001–005: wszystkie source_bank_head wskazują powyższy blob, 30 pytań na arkusz; 0 rozbieżności klucza w porównaniu treści poprawnej opcji.
+- Próbka redakcyjna seed `2026102789`: 60 explanation sprawdzonych; 0 potwierdzonych poprawek. Raport: [Etap 4x89](../../podstawowy/raporty/etap-4x89-proba60-status-umow-wylaczenia-2026-10-27.md).
+- M364 występuje w ADR-B-0145 i ADR-B-0198; aktualny wpis UNECE wskazuje termin 31.12.2026. Przed użyciem po tej dacie sprawdzić oficjalny status ponownie. Wyjątku dla przyczepy nie stosować do pojazdu silnikowego.
+- Pełna niezależna recenzja prawna nadal wymagana; brak formalnych zatwierdzeń.
+
 ## Bieżąca migawka — etap 4x87 (27.10.2026)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
