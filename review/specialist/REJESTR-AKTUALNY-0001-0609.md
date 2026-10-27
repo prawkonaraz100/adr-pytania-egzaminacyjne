@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x106 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `2b192c816b06b2e5503c146b7617d3d433fcc112`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `236819b5e6ea555285ad74d4a94ce6471bac2287`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Etap 4x106: dystraktor A w ADR-B-0211 urealniony; klucz C i podstawa ADR 1.10.1.2 bez zmian. Migawka sekwencyjna odświeżona.
 - Próbka 60 explanation: 300–457 znaków, 3–5 zdań; 0 wymagało korekty.
