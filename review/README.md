@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x95 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `7a2f4615e652f69d4079bf622098c8dd586c1ae1`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `445c2d76652f2dccf5735f928083388484e147bc`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; bez formalnych zatwierdzeń.
 - Próbka 60 (seed `2026102795`): 8 explanation/dystraktorów poprawionych, 52 bez zmian; minimum 300 znaków.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%.
