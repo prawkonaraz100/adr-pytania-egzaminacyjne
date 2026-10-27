@@ -194,7 +194,7 @@ class CourseConsistencyTests(unittest.TestCase):
             (folder / "scenariusze-13-dzialow.json").write_text(
                 json.dumps({"scenarios": scenarios}), encoding="utf-8")
             errors = validate_practical_scenario_map(root, bank)
-            self.assertTrue(any("duplicate question set" in err for err in errors))
+            self.assertTrue(any("duplicate exact question set" in err for err in errors))
 
     def test_practical_scenario_map_rejects_missing_question_id(self):
         with tempfile.TemporaryDirectory() as tmp:
