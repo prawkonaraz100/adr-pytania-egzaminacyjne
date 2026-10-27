@@ -4,6 +4,8 @@
 
 **Ćwiczenie łączące cztery działy:** [karta kontroli przed wyjazdem](KARTA-KONTROLI-PRZED-WYJAZDEM.md) — B-01, B-06, B-08 i B-13, krok po kroku na fikcyjnej dokumentacji.
 
+**Rozróżnienie materiałów:** krótkie przykłady sytuacyjne w plikach lekcji są pomocniczymi przykładami do omówienia; trzy pełne scenariusze każdego działu znajdują się w `scenariusze-13-dzialow.json` i mają własne kroki, typowe błędy, podstawę ADR, kryteria oceny oraz `question_ids`.
+
 **Instruktor:** do każdego scenariusza korzystaj z [karty oceny i omówienia](KARTA-OCENY-SCENARIUSZY.md) — zawiera kolejność przeprowadzenia ćwiczenia, typowe błędy i sposób przekazania informacji zwrotnej, bez udawania formalnego zaliczenia zajęć.
 
 ## Scenariusze dla kursanta — działy B-01–B-03
