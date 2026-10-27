@@ -6,6 +6,10 @@
 
 - [Słowniczek ADR dla kursanta](SLOWNICZEK.md) — proste definicje skrótów, oznakowania i pojęć używanych w lekcjach i pytaniach.
 
+## Raporty jakości
+
+- [Etap 4x80 — lekcje B-05–09, scenariusze i próba 60](raporty/etap-4x80-lekcje-05-09-scenariusze-proba60-2026-10-27.md)
+
 ## Jak korzystać z kursu
 
 Po opanowaniu czterech działów B-01, B-06, B-08 i B-13 przejdź [kartę kontroli przed wyjazdem](praktyka/KARTA-KONTROLI-PRZED-WYJAZDEM.md) — jeden prosty przykład łączący wyłączenia, oznakowanie, wyposażenie i dokumenty. Ćwicz na fikcyjnej dokumentacji, nie jako rzeczywistą kontrolę pojazdu.
