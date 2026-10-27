@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x69 (27.10.2026)
+
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `a2c17c5bc8ebcd9d7f138f3c773132d6913674db`.
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- Raport końcowy 4x69: [kontrola spójności scenariuszy i próbka explanation](../../podstawowy/raporty/etap-4x69-raport-koncowy-2026-10-27.md).
+- 39 scenariuszy, warianty i klucze 001–005; pełna recenzja prawna pozostaje otwarta.
+
 ## Migawka aktualna — etap 4x50 (2026-10-26)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `ca4193261b018613083182c199ec3317984b24a4`.
