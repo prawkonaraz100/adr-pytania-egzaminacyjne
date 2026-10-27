@@ -1382,20 +1382,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Gaszenie ładowni przez kierowcę w pożarze tunelu jest niebezpieczne."
+          "rationale": "Otwarcie ładowni i próba gaszenia pożaru obejmującego przedział ładunkowy naraża załogę; instrukcje pisemne nie przewidują takiej interwencji."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Priorytet to bezpieczeństwo, ewakuacja, wezwanie służb."
+          "rationale": "Ewakuacja, ostrzeżenie i powiadomienie służb chronią życie i odpowiadają priorytetom instrukcji pisemnych."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Przenoszenie przesyłek do wyjścia w pożarze nie jest właściwym działaniem."
+          "rationale": "Pozostawanie przy pojeździe zamiast ewakuacji opóźnia opuszczenie strefy zagrożenia i może narazić załogę."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Dodatkowo stosować lokalne systemy ewakuacji tunelowej.",
-      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "notes_on_conditions": "Scenariusz zakłada pożar obejmujący przedział ładunkowy; nie należy mylić go z małym pożarem opony, hamulca, silnika lub kabiny. Zmieniono wyłącznie redakcyjny dystraktor C i wyjaśnienie; niezależna recenzja ADR nadal wymagana.",
+      "editorial_result": "distractor_reworded_for_realistic_common_mistake_key_unchanged",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -1406,10 +1406,10 @@
         "options": {
           "A": "Otworzyć ładownię i próbować gasić ogień mimo dymu oraz ryzyka dla kierowcy",
           "B": "Zadbać o własne bezpieczeństwo, ewakuować się i powiadomić służby",
-          "C": "Przenosić sztuki przesyłek do wyjścia ewakuacyjnego, zanim wezwie się pomoc"
+          "C": "Pozostać przy pojeździe i czekać na służby, zamiast od razu skorzystać z wyjścia ewakuacyjnego"
         },
         "correct_option": "B",
-        "explanation": "Pożar przedziału ładunkowego z towarami niebezpiecznymi w tunelu wymaga przede wszystkim ochrony życia i bezpiecznej ewakuacji. Kierowca powinien stosować oznaczenia wyjść i alarmować służby, a nie samodzielnie gasić płonącą ładownię. Przenoszenie przesyłek do wyjścia ewakuacyjnego również narażałoby ludzi. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Przy pożarze obejmującym przedział ładunkowy priorytetem jest ochrona życia: oddal się bezpiecznie, skorzystaj z wyjścia ewakuacyjnego i powiadom służby. Nie otwieraj ładowni ani nie próbuj gasić jej pożaru — instrukcje pisemne ADR wyraźnie zabraniają takiej interwencji. Pozostawanie przy pojeździe zamiast ewakuacji również naraża ludzi i opóźnia wezwanie pomocy. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
