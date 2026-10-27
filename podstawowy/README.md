@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 27.10.2026, etap 4x92: 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 27.10.2026, etap 4x93: 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -8,6 +8,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x93 — pełny indeks wartości wrażliwych na zmianę ADR](raporty/etap-4x93-pelny-indeks-wartosci-wrazliwych-adr-2026-10-27.md)
 - [Etap 4x92 — odbiór lekcji B-06–B-13, próbka 60 i kontrola wartości](raporty/etap-4x92-odbior-b06-13-proba60-wartosci-2026-10-27.md)
 - [Etap 4x91 — próbka 60, spójność wartości ADR i odbiór B-01–B-05](raporty/etap-4x91-proba60-spojnosc-wartosci-lekcje-2026-10-27.md)
 - [Etap 4x90 — próbka 60 i rejestr wartości zależnych od aktualizacji ADR](raporty/etap-4x90-proba60-rejestr-wartosci-adr-2026-10-27.md)
