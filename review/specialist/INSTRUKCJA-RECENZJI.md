@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x86 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `c8643aaa4a712e7abefd54bf933120dfe0747f3b` (przed korektą końcową explanation ADR-B-0341; zostanie odświeżony w raporcie po aktualizacji).
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `a8650eb0fa9c24112f2d640d5a9dca04d10ccd2a` (przed korektą końcową explanation ADR-B-0341; zostanie odświeżony w raporcie po aktualizacji).
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Etap 4x86: audyt redakcyjny 60 rekordów; sześć pytań miało potwierdzone problemy z dystraktorami lub terminologią i zostało skorygowanych: ADR-B-0021, ADR-B-0208, ADR-B-0341, ADR-B-0372, ADR-B-0387, ADR-B-0501. Zachowano poprawne litery i statusy.
 - Scenariusze: 39 (3 na każdy z 13 działów); egzamin próbny: warianty i klucze 001–005.
