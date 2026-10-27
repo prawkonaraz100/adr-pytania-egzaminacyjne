@@ -26,7 +26,7 @@ class ScenarioQuestionAlignmentTests(unittest.TestCase):
     def test_unloading_scenario_names_both_classes_in_its_situation_and_links_them(self):
         scenario = self.scenarios["SC-ADR-B-02-02"]
         self.assertIn("klasy 8", scenario["situation"].lower())
-        self.assertIn("klasy 4.3", scenario["situation"].lower())
+        self.assertIn("klasą 4.3", scenario["situation"].lower())
         self.assertEqual(set(scenario["question_ids"]), {"ADR-B-0005", "ADR-B-0006", "ADR-B-0510"})
         self.assertIn("klas", scenario["title"].lower())
         self.assertIn("wod", " ".join(scenario["steps"]).lower())
