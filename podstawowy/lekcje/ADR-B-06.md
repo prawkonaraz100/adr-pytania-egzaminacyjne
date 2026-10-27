@@ -60,6 +60,8 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 - Uznawanie, że jedno oznaczenie zastępuje wszystkie pozostałe — wymagane oznakowanie zależy od klasyfikacji i sposobu przewozu (ADR 5.2–5.3).
 
 ## Scenariusze praktyczne
+
+Poniższe krótkie przykłady służą do omówienia treści lekcji. Nie zastępują trzech pełnych scenariuszy z mapy praktycznej, które mają osobne kroki, typowe błędy, podstawę ADR i powiązane pytania.
 1. **Nieczytelna nalepka na kontenerze.** Przed wyjazdem kierowca zauważa, że nalepka dużego formatu jest nieczytelna, a tablica pomarańczowa nie pasuje do dokumentów. Porównuje oznakowanie z dokumentacją i właściwym wpisem; wyjazd następuje dopiero po wyjaśnieniu i poprawieniu niezgodności.
 2. **Numer UN na sztuce przesyłki.** Kursant sprawdza, czy wymagany numer UN jest prawidłowo wskazany i czy nie myli go z numerem zagrożenia.
 3. **Dwa rodzaje oznakowania.** Na karcie przewozowej pokazano nalepkę na kartonie i nalepkę dużego formatu na kontenerze. Kursant wyjaśnia, do czego służy każde oznaczenie i gdzie powinno być widoczne.

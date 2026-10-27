@@ -58,6 +58,8 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 - Zbyt mocne mocowanie lub pomijanie pozostałości poprzedniego ładunku — zabezpieczenie nie może uszkadzać opakowania, a zanieczyszczenie trzeba wyjaśnić (ADR 7.5.7 i 7.5.8).
 
 ## Scenariusze praktyczne
+
+Poniższe krótkie przykłady służą do omówienia treści lekcji. Nie zastępują trzech pełnych scenariuszy z mapy praktycznej, które mają osobne kroki, typowe błędy, podstawę ADR i powiązane pytania.
 1. **Pozostałości poprzedniego ładunku.** Kierowca widzi pozostałości w przestrzeni ładunkowej, a nowy towar może z nimi reagować. Nie rozpoczyna załadunku; najpierw wyjaśnia i usuwa niezgodność zgodnie z procedurą.
 2. **Pas deformuje opakowanie.** Pas mocujący jest tak mocno zaciągnięty, że odkształca karton. Kursant koryguje mocowanie tak, by ładunek nie przemieszczał się, a opakowanie nie było uszkadzane.
 3. **Ciężka maszyna obok przesyłek ADR.** Maszyna nie jest towarem niebezpiecznym, ale musi być bezpiecznie zamocowana. Kursant sprawdza mocowanie całego ładunku, a nie tylko oznakowanych przesyłek.

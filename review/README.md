@@ -1,6 +1,6 @@
-## Bieżąca migawka — etap 4x70 (27.10.2026)
+## Bieżąca migawka — etap 4x80 (27.10.2026)
 
-- Bank blob SHA: `0c7d8177875eb503bd87ffd8e324d46b5e5f2585`.
+- Bank blob SHA: `3591bb51290e59626211089c2d35df49ef57fb74`.
 - 609 pytań, 609 `needs_review`, 0 `verified`; 39 scenariuszy i 5 wariantów egzaminu próbnego z kluczami.
 - Skorygowano sprzeczne „Tak/Nie” w odpowiedzi C pytania ADR-B-0497; zachowano literę C i status `needs_review`.
 - Raport: [Etap 4x70](../podstawowy/raporty/etap-4x70-korekta-ADR-B-0497-2026-10-27.md).
@@ -116,3 +116,8 @@ Nie zmieniaj `verification_status` na `verified` automatycznie. Zmiana tego stat
 ## Etap 4x19 — uzgodnienie licznika dowodów
 
 Rejestr 609 rekordów rozbija stan na 376 wpisów, gdzie dokładny tekst urzędowy nie został pobrany, 10 porównań ukierunkowanych oczekujących na pełne porównanie i 223 wpisy z zapisanym wynikiem porównania ukierunkowanego. **To nie oznacza 223 pytań zatwierdzonych prawnie:** wszystkie 609 pozostają `needs_review`, a recenzja A/B/C przez specjalistę jest pending. Szczegóły: [raport etapu 4x19](batches/etap-4x19-uzgodnienie-pakietu-2026-10-25.md).
+
+
+## Aktualizacja 4x80
+
+Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`. Zaktualizowano cztery explanation (ADR-B-0008, 0037, 0327, 0547), bez zmiany kluczy; warianty egzaminu i klucze zsynchronizowano z aktualnym bankiem. Scenariusze: 39, trzy na dział. Raport: `podstawowy/raporty/etap-4x80-lekcje-05-09-scenariusze-proba60-2026-10-27.md`.

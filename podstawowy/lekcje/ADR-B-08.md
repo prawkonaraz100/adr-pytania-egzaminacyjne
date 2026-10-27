@@ -65,6 +65,8 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 - Pomijanie wyposażenia osobistego członków załogi lub wymaganego świadectwa pojazdu — sprawdź listę dokumentów i wyposażenia dla konkretnego przewozu (ADR 8.1.2, 8.1.5 i 9.1.3).
 
 ## Scenariusze praktyczne
+
+Poniższe krótkie przykłady służą do omówienia treści lekcji. Nie zastępują trzech pełnych scenariuszy z mapy praktycznej, które mają osobne kroki, typowe błędy, podstawę ADR i powiązane pytania.
 1. **Gaśnica z przekroczonym terminem przeglądu.** Podczas kontroli kierowca zauważa, że termin przeglądu jednej z wymaganych gaśnic minął. Nie ignoruje tego; wyjaśnia niezgodność i zapewnia wymagany sprawny sprzęt przed wyjazdem.
 2. **Brak wyposażenia dla drugiej osoby.** Dwie osoby w załodze mają jedną kamizelkę ostrzegawczą. Kierowca sprawdza listę wymagań i uzupełnia wyposażenie tak, by każdy członek załogi miał wymagany element.
 3. **Gaśnica zasłonięta ładunkiem.** Sprzętu nie można szybko wyjąć. Kierowca poprawia rozmieszczenie ładunku lub mocowanie sprzętu przed ruszeniem.
