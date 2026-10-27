@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x104 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `e21550ddc8e2a340d6988b94f65ff84244ba22f8`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `d9b60f583d5176d0f34ace407933d4d883c9b911`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; bez formalnych zatwierdzeń.
 - Próbka 40 (seed `41042026`): pięć pytań z dystraktorami i explanation poprawionymi; minimum 300 znaków.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%.
