@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x86 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `c8643aaa4a712e7abefd54bf933120dfe0747f3b`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `a8650eb0fa9c24112f2d640d5a9dca04d10ccd2a`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Przegląd 4x86: 60 wyjaśnień spoza ID wymienionych w dostępnych raportach 4x84 i 4x85; poprawiono cztery pytania/wyjaśnienia (ADR-B-0021, ADR-B-0208, ADR-B-0341, ADR-B-0501) i ujednolicono nazewnictwo w ADR-B-0372 oraz ADR-B-0387. Migawki sekwencyjne i A/B/C oraz warianty/klucze 001–005 zsynchronizowane. Pełna niezależna kontrola prawna pozostaje wymagana.
 - Próba 60 explanation (seed `2026102785`): 4 wpisy zmienione po ręcznym czytaniu: ADR-B-0117, ADR-B-0210, ADR-B-0415 i ADR-B-0503. Poprawiono trzy zestawy dystraktorów (łącznie 4 opcje błędne) i cztery wyjaśnienia; klucze A/B/C pozostały bez zmian.
@@ -11,7 +11,7 @@
 
 # Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x85
 
-Data migawki: 27.10.2026, etap 4x86. Źródło: gałąź kontroli scenariuszy i próby explanation. Bank blob SHA `c8643aaa4a712e7abefd54bf933120dfe0747f3b`. Wszystkie 609 pytań pozostają `needs_review`, 0 `verified`, 0 formalnych akceptacji.
+Data migawki: 27.10.2026, etap 4x86. Źródło: gałąź kontroli scenariuszy i próby explanation. Bank blob SHA `a8650eb0fa9c24112f2d640d5a9dca04d10ccd2a`. Wszystkie 609 pytań pozostają `needs_review`, 0 `verified`, 0 formalnych akceptacji.
 
 Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależnego sprawdzenia poprawności wzoru. Etap 4x16, partie 1–9: porównano 413 pozycji porównawczych; 186 pozostaje nierozstrzygniętych. Dwie potwierdzone rozbieżności poprawiono w ADR-B-0484 i ADR-B-0488; ADR-B-0457 i ADR-B-0458 nadal wymagają literalnego potwierdzenia przypisów tabeli 1.10.3.1.2. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane. Wszystkie pytania nadal mają status needs_review; końcowa kontrola specjalisty i potwierdzenie względem prawnie wiążącego tekstu Dz.U. pozostają wymagane.
 
