@@ -15,9 +15,9 @@ Na wejściowym `main` ostatni workflow Quality Gate zakończył się PASS: [run 
 - Status: 609 `needs_review`, 0 `verified`.
 - Najkrótsze explanation: 300 znaków; poniżej 200 znaków: 0.
 - „Poprawna = jedyna najdłuższa” po zmianach: 74/609 = **12,15%**.
-- Maksimum w pojedynczym dziale: B-11 = 7/43 = **16,28%**; każdy dział pozostaje poniżej 18%.
+- Maksimum w pojedynczym dziale: B-02 = 8/56 i B-03 = 7/49 = **14,29%**; każdy dział pozostaje poniżej 18%.
 - Scenariusze: 39; brak nieistniejących `question_ids` i brak ID z niewłaściwego modułu.
-- Warianty 001–005: każdy ma 30 pytań i 30 unikalnych ID. Wszystkie pięć pól `source_bank_head` zsynchronizowano z aktualnym blobem banku `33291e82a0a019d373d1ef22fed6c1a4177bd0e4`.
+- Warianty 001–005: każdy ma 30 pytań i 30 unikalnych ID. Wszystkie pięć pól `source_bank_head` zsynchronizowano z aktualnym blobem banku `7a2f4615e652f69d4079bf622098c8dd586c1ae1`.
 
 ## 2. Próbka 60 — wynik ręcznej oceny
 
@@ -36,7 +36,7 @@ Wszystkie 60 wyjaśnień sprawdzono w kontekście pytania, opcji A/B/C, poprawne
 | ADR-B-0366 | Explanation nie odpowiadało dokładnie dystraktorowi o obowiązku pakującego | Przepisano wyjaśnienie, rozdzielając obowiązek firmy zlecającej, pakującego i kierowcy | 1.4.2.1.3 |
 | ADR-B-0512 | Wyjaśnienie nie odróżniało ograniczenia tunelowego dla jednostki oznakowanej LQ od kodu tunelowego z kolumny 15 | Doprecyzowano pytanie, poprawną treść i explanation; wyjaśniono zastosowanie ograniczenia kategorii E | 8.6.4, 3.4.13–3.4.14 |
 
-W żadnym pytaniu nie zmieniono ID ani poprawnej litery. Nie zmieniano klucza merytorycznego. Osiem rekordów nadal ma `needs_review`.
+W żadnym pytaniu nie zmieniono ID ani poprawnej litery. Dodatkowo skrócono treść poprawnej opcji w ADR-B-0512, by usunąć niezamierzony sygnał długości odpowiedzi; poprawna litera C pozostała bez zmian. Nie zmieniano klucza merytorycznego. Osiem rekordów nadal ma `needs_review`.
 
 ### Pozostałe 52 ID — fałszywy alarm, bez zmiany
 
@@ -80,7 +80,7 @@ Mapa 4x94 wymienia siedem pytań z B-02, których treść wymaga porównania z p
 ## 5. Metryki i status
 
 - Explanation po zmianach: minimum 300 znaków, 0 poniżej 200.
-- Wskaźnik „poprawna = jedyna najdłuższa”: 12,15% globalnie; maksimum działu 16,28% (B-11).
+- Wskaźnik „poprawna = jedyna najdłuższa”: 12,15% globalnie; maksimum działu 14,29% (B-02 i B-03).
 - Bank: 609 unikalnych pytań, 609 `needs_review`, 0 `verified`.
 - Nowe pytania: 0; poprawione explanation: 8; pytania z poprawionymi dystraktorami: 6; naprawiony opis odpowiedzi w kluczu egzaminu: 1.
 - Wynik Quality Gate dla tej partii zostanie odnotowany po uruchomieniu CI na PR. Nie uruchamiano lokalnych testów w repozytorium; wykonano statyczny preflight na pobranych plikach przez GitHub, a testy automatyczne mają być potwierdzone przez CI.
