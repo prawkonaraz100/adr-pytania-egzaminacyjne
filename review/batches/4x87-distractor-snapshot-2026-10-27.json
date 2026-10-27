@@ -1,0 +1,196 @@
+{
+  "stage": "4x87",
+  "date": "2026-10-27",
+  "seed": 2026102787,
+  "sample_size": 60,
+  "excluded_ids_known_from_4x84_4x85": true,
+  "exclusion_limit": "Raport 4x86 nie wymienia wszystkich 60 wylosowanych ID; nie można dowieść pełnego braku przecięcia z nieujawnioną częścią tej próby.",
+  "sample_ids": [
+    "ADR-B-0241",
+    "ADR-B-0025",
+    "ADR-B-0186",
+    "ADR-B-0099",
+    "ADR-B-0224",
+    "ADR-B-0323",
+    "ADR-B-0184",
+    "ADR-B-0167",
+    "ADR-B-0353",
+    "ADR-B-0067",
+    "ADR-B-0597",
+    "ADR-B-0484",
+    "ADR-B-0258",
+    "ADR-B-0234",
+    "ADR-B-0178",
+    "ADR-B-0262",
+    "ADR-B-0462",
+    "ADR-B-0020",
+    "ADR-B-0520",
+    "ADR-B-0094",
+    "ADR-B-0201",
+    "ADR-B-0288",
+    "ADR-B-0446",
+    "ADR-B-0523",
+    "ADR-B-0049",
+    "ADR-B-0508",
+    "ADR-B-0475",
+    "ADR-B-0565",
+    "ADR-B-0356",
+    "ADR-B-0516",
+    "ADR-B-0593",
+    "ADR-B-0031",
+    "ADR-B-0602",
+    "ADR-B-0604",
+    "ADR-B-0136",
+    "ADR-B-0358",
+    "ADR-B-0101",
+    "ADR-B-0359",
+    "ADR-B-0280",
+    "ADR-B-0089",
+    "ADR-B-0206",
+    "ADR-B-0236",
+    "ADR-B-0445",
+    "ADR-B-0085",
+    "ADR-B-0221",
+    "ADR-B-0391",
+    "ADR-B-0220",
+    "ADR-B-0250",
+    "ADR-B-0470",
+    "ADR-B-0050",
+    "ADR-B-0103",
+    "ADR-B-0438",
+    "ADR-B-0376",
+    "ADR-B-0023",
+    "ADR-B-0008",
+    "ADR-B-0425",
+    "ADR-B-0459",
+    "ADR-B-0053",
+    "ADR-B-0317",
+    "ADR-B-0456"
+  ],
+  "manual_review_result": {
+    "changed_count": 6,
+    "unchanged_count": 54,
+    "correct_letters_changed": 0,
+    "verification_status_changed": 0
+  },
+  "changed_questions": [
+    {
+      "id": "ADR-B-0101",
+      "module_id": "ADR-B-03",
+      "correct_option": "C",
+      "reason": "Dwie pierwotne błędne opcje opisywały skrajnie nierozsądne działania. Zmieniono je na częste, ale niebezpieczne pomyłki: zbliżanie się w celu odczytania etykiety i poleganie na zwykłych rękawicach przy zbieraniu wycieku.",
+      "before_options": {
+        "A": "Przejść przez rozlew, aby sprawdzić jego głębokość",
+        "B": "Spróbować zebrać nieznany materiał szmatką, bez oceny zagrożeń i właściwych środków ochronnych"
+      },
+      "after_options": {
+        "A": "Zbliżyć się, aby odczytać oznaczenie opakowania przed oddaleniem się",
+        "B": "Założyć zwykłe rękawice i zebrać rozlew, zanim ustali się zagrożenie",
+        "C": "Nie wchodzić w rozlew ani go nie dotykać, unikać wdychania oparów"
+      },
+      "after_explanation": "Nieznana ciecz po uszkodzeniu opakowania może być trująca, żrąca albo wydzielać niebezpieczne opary, dlatego kierowca nie powinien wchodzić w rozlew, dotykać go ani ich wdychać. Zbliżanie się tylko po to, by odczytać etykietę, może narazić go na kontakt z substancją; zwykłe rękawice nie muszą chronić przed danym materiałem i nie pozwalają bezpiecznie zbierać wycieku. Najpierw oddal się, ostrzeż innych i wezwij pomoc, korzystając z dokumentów tylko z bezpiecznego miejsca. Podstawa: ADR 5.4.3.4.",
+      "legal_basis": [
+        "ADR 2025, 5.4.3.4"
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0186",
+      "module_id": "ADR-B-05",
+      "correct_option": "A",
+      "reason": "Zaproszenie obserwatorów do kabiny było mało wiarygodne. Zastąpiono je ryzykiem podejścia do pojazdu, aby samodzielnie odczytać oznakowanie.",
+      "before_options": {
+        "C": "Zaprosić obserwatorów do kabiny, by obejrzeli dokumenty i sprawdzili oznaczenia"
+      },
+      "after_options": {
+        "A": "Ostrzec ludzi, by się nie zbliżali, i wezwać odpowiednie służby",
+        "B": "Poprosić obserwatorów, by przenieśli uszkodzone paczki poza obszar zagrożenia",
+        "C": "Podejść bliżej pojazdu, by samodzielnie odczytać oznaczenia i ustalić rodzaj zagrożenia"
+      },
+      "after_explanation": "Osoby obserwujące wypadek mogą nie rozpoznawać zagrożeń związanych z uwolnionym towarem, dlatego kierowca powinien ostrzec je przed zbliżaniem się i wezwać odpowiednie służby. Nie proś postronnych o przenoszenie uszkodzonych przesyłek ani nie wracaj do pojazdu tylko po to, by odczytać oznaczenia. Informacje o ładunku przekazuj z bezpiecznego miejsca, jeśli są dostępne. Podstawa: ADR 5.4.3.4.",
+      "legal_basis": [
+        "ADR 2025, 5.4.3.4"
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0258",
+      "module_id": "ADR-B-06",
+      "correct_option": "B",
+      "reason": "Wymiary 10 cm i 80 cm były skrajnie nieprawdopodobne. Zmieniono je na 20 cm i 40 cm, zachowując 30 cm jako prawidłową wysokość.",
+      "before_options": {
+        "A": "10 cm",
+        "C": "80 cm"
+      },
+      "after_options": {
+        "A": "20 cm",
+        "B": "30 cm",
+        "C": "40 cm"
+      },
+      "after_explanation": "Standardowa tablica pomarańczowa ADR ma 40 cm szerokości i 30 cm wysokości. Jednolite wymiary pomagają służbom i innym uczestnikom ruchu szybko odczytać oznakowanie. Wysokość 20 lub 40 cm nie jest wymiarem standardowym, choć ADR dopuszcza określone tolerancje i szczególny przypadek zmniejszonej tablicy. Podstawa: ADR 5.3.2.2.1.",
+      "legal_basis": [
+        "ADR 2025, 5.3.2.2.1"
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0356",
+      "module_id": "ADR-B-04",
+      "correct_option": "B",
+      "reason": "Przeniesienie skażenia na siedzenie było żartobliwie oczywiste. Zastąpiono je błędami polegającymi na uznaniu odzieży za bezpieczną bez widocznego zabrudzenia oraz przekazaniu jej do zwykłego prania bez ostrzeżenia.",
+      "before_options": {
+        "A": "Pozostawić skażoną odzież do następnego dnia i kontynuować pracę",
+        "C": "Przenieść skażenie na siedzenie samochodu, by nie blokować ładowni"
+      },
+      "after_options": {
+        "A": "Pozostawić odzież na sobie, jeśli nie widać zabrudzenia",
+        "B": "Zdjąć skażoną odzież i środki ochrony oraz bezpiecznie je usunąć",
+        "C": "Przekazać odzież do zwykłego prania bez ostrzeżenia o możliwym skażeniu"
+      },
+      "after_explanation": "Skażona odzież i środki ochrony mogą przenosić niebezpieczną substancję, nawet gdy zabrudzenie nie jest widoczne. Należy bezpiecznie zdjąć skażone elementy i postąpić z nimi zgodnie z instrukcjami; wygląd odzieży nie potwierdza, że jest czysta. Nie przekazuj jej do zwykłego prania bez informacji o możliwym skażeniu, bo naraża to kolejne osoby. Podstawa: ADR 5.4.3.4.",
+      "legal_basis": [
+        "ADR 2025, 5.4.3.4"
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0470",
+      "module_id": "ADR-B-03",
+      "correct_option": "A",
+      "reason": "Reklama firmy jako zamiennik znaku była oczywiście absurdalna. Zastąpiono ją pomyłką polegającą na zmniejszeniu znaku bez sprawdzenia warunków ADR.",
+      "before_options": {
+        "C": "Znak można zastąpić reklamą firmy, jeśli brakuje miejsca na ścianie"
+      },
+      "after_options": {
+        "A": "Można zmniejszyć znak do co najmniej 100 × 100 mm, gdy spełniono warunki przepisu",
+        "B": "Znak można całkowicie pominąć na każdej cysternie, gdy brakuje miejsca na ścianie",
+        "C": "Znak można zmniejszyć bez sprawdzania pojemności cysterny ani warunków miejsca"
+      },
+      "after_explanation": "Dla kontenera-cysterny lub cysterny przenośnej o pojemności do 3000 litrów ADR może dopuścić mniejszy znak środowiskowy, gdy dostępna powierzchnia jest niewystarczająca i spełniono pozostałe warunki przepisu. Nie oznacza to prawa do całkowitego pominięcia znaku ani do zmniejszania go bez sprawdzenia warunków. Podstawa: ADR 5.3.6.2.",
+      "legal_basis": [
+        "ADR 2025, 5.3.6.2"
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0484",
+      "module_id": "ADR-B-08",
+      "correct_option": "C",
+      "reason": "Odwołanie do gazów klasy 2.2 nie pasowało do sytuacji cieczy żrącej i było mało wiarygodne. Zastąpiono je błędnym uogólnieniem, że wymaganie dotyczy każdej cieczy żrącej bez względu na warunki.",
+      "before_options": {
+        "B": "Nie, ponieważ łopatę i pojemnik przewiduje się tu dla gazów klasy 2.2, nie dla cieczy żrących"
+      },
+      "after_options": {
+        "A": "Tak, jeżeli trasa prowadzi przez tunel E",
+        "B": "Tak; wymóg dotyczy każdej cieczy żrącej, niezależnie od jej ilości",
+        "C": "Nie; ten zestaw dotyczy określonych materiałów w postaci stałej, a nie samej cieczy oznaczonej nalepką 8."
+      },
+      "after_explanation": "Nie. Wymóg przewożenia łopaty, osłony odpływu i pojemnika z ADR 8.1.5.3 dotyczy określonych towarów przewożonych w postaci stałej i spełniających warunki przepisu; sama ciecz żrąca z nalepką 8 nie wystarcza. Nie zależy to od tego, czy trasa prowadzi przez tunel E, a sama klasa zagrożenia nie zastępuje sprawdzenia postaci materiału. Podstawa: ADR 8.1.5.3, przypis 4.",
+      "legal_basis": [
+        "ADR 2025, 8.1.5.3, przypis 4"
+      ],
+      "verification_status": "needs_review"
+    }
+  ],
+  "legal_note": "Wyłącznie korekta dydaktyczna dystraktorów i explanation. Podstawy ADR nie zmieniano; nie jest to niezależna weryfikacja prawna."
+}
