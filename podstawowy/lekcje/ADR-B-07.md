@@ -55,7 +55,7 @@ Najczęstsze pułapki wynikające z pytań tego działu:
 - Mylenie szkolenia do konkretnego zadania z kursem kierowcy ADR — szkolenie musi odpowiadać obowiązkom pracownika (ADR 1.3).
 - Traktowanie polecenia przełożonego jako zwolnienia z wymagań ADR — polecenie nie usuwa obowiązków bezpieczeństwa uczestników (ADR 1.4).
 
-## Krótkie przykłady sytuacyjne
+## Scenariusze praktyczne
 
 Poniższe krótkie przykłady służą do omówienia treści lekcji. Nie zastępują trzech pełnych scenariuszy z mapy praktycznej, które mają osobne kroki, typowe błędy, podstawę ADR i powiązane pytania.
 1. **Wadliwe opakowanie.** Pakujący zauważa niezgodne opakowanie. Wstrzymuje przekazanie przesyłki, ustala właściwe poprawki i dopiero potem przekazuje ją dalej.
