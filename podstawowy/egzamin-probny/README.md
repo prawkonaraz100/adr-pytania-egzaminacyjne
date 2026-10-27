@@ -1,12 +1,11 @@
-# Egzamin próbny ADR podstawowy — materiały treningowe
+## Najnowsza synchronizacja — etap 4x87 (27.10.2026)
 
-## Najnowsza synchronizacja — etap 4x85 (27.10.2026)
-
-- Aktualny blob banku: `7a02299fd6fc0cd944abd8b84840b535d371fad9`.
+- Aktualny blob banku: `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`.
-- Warianty i klucze 001–005 sprawdzono ponownie po korekcie dydaktycznej. Każdy wariant ma 30 unikalnych pytań, obejmuje 13 działów, rozkład klucza A/B/C 10/10/10 i maksymalną serię 3; brak rozbieżności treści, klucza lub explanation.
-- Raport: [Etap 4x85 — scenariusze, próbka 60 i synchronizacja](../raporty/etap-4x85-scenariusze-proba60-2026-10-27.md).
-
+- Po próbce 60 poprawiono wyłącznie błędne opcje i explanation pytań ADR-B-0101, ADR-B-0186, ADR-B-0258, ADR-B-0356, ADR-B-0470 i ADR-B-0484. Żadna poprawna litera się nie zmieniła.
+- Warianty i klucze 001–005 mają zaktualizowane `source_bank_head`. Każdy ma 30 pytań, 13 działów, brak duplikatów, A/B/C 10/10/10 i maksymalną serię 3.
+- Porównanie kluczy z bankiem uwzględnia przestawianie kolejności opcji; nie wykryto rzeczywistej rozbieżności.
+- Raport: [Etap 4x87 — próbka 60, spójność kursu i egzaminów](../raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md).
 
 Warianty są przeznaczone wyłącznie do nauki. Każdy arkusz ma 30 pytań, 60 minut i próg treningowy 20/30. Odpowiedzi A/B/C są wyrównane, a najdłuższa seria tej samej poprawnej litery nie przekracza trzech.
 
