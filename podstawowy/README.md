@@ -317,3 +317,8 @@ Raporty ETAPU 4x7
 - [Etap 4x102 — różnorodność kompetencji](raporty/etap-4x102-roznorodnosc-kompetencji-2026-10-27.md)
 - [Etap 4x103 — próbka 40 explanation i odbiór lekcji B-06–B-13](raporty/etap-4x103-proba40-lekcje-06-13-2026-10-27.md)
 - [Etap 4x95 — migawka audytu dla specjalisty](../review/specialist/ETAP-4X95-MIGAWKA-AUDYTU.md)
+
+
+## Etap 4x105 — kontrola próbki, scenariuszy i egzaminów
+
+- [Raport 4x105](raporty/etap-4x105-proba40-scenariusze-egzaminy-2026-10-27.md): próbka 40 explanation spoza ID z etapów 4x103–4x104, przegląd 39 scenariuszy oraz synchronizacja wariantów i kluczy 001–005. Bank bez zmian; 609 pytań `needs_review`, 0 `verified`; wskaźnik „poprawna = jedyna najdłuższa” 11,99% globalnie i maksymalnie 14,29% w dziale.
