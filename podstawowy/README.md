@@ -268,3 +268,4 @@ Raporty ETAPU 4x7
 - [Raport B-05–08](raporty/etap-4x69-scenariusze-05-08-2026-10-27.md): wykryto i naprawiono identyczny zestaw pytań w dwóch scenariuszach B-07; Quality Gate blokuje teraz takie powtórzenia.
 - [Raport B-09–13](raporty/etap-4x69-scenariusze-09-13-2026-10-27.md): kontrola pytań i scenariuszy, poprawione explanation ADR-B-0031.
 - [Raport końcowy 4x69](raporty/etap-4x69-raport-koncowy-2026-10-27.md): kontrola 39 scenariuszy i wszystkich 20 pozostałych, niepowtarzanych ID explanation.
+- [Etap 4x70 — korekta ADR-B-0497](raporty/etap-4x70-korekta-ADR-B-0497-2026-10-27.md): naprawiono sprzeczne „Tak/Nie” w odpowiedzi C zgodnie z ADR 2.2.1.1.5; status pozostaje `needs_review`.
