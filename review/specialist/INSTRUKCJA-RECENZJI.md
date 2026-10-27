@@ -1,6 +1,6 @@
-## Bieżąca migawka — etap 4x70 (27.10.2026)
+## Bieżąca migawka — etap 4x80 (27.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `0c7d8177875eb503bd87ffd8e324d46b5e5f2585`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `3591bb51290e59626211089c2d35df49ef57fb74`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - W `ADR-B-0497` poprawiono sprzeczny początek odpowiedzi C („Tak”) na „Nie”; klucz C i podstawa ADR 2.2.1.1.5 pozostały bez zmian. To korekta spójności odpowiedzi, nie niezależna akceptacja prawna.
 - Raport etapu 4x70: `podstawowy/raporty/etap-4x70-korekta-ADR-B-0497-2026-10-27.md`.
@@ -137,3 +137,8 @@ Najpierw można przejrzeć 20 rekordów z `review/specialist/KOLEJKA-PRIORYTETOW
 ## Integralność kolejki 4x40 — kontrola CI
 
 Quality Gate sprawdza, czy 20 pozycji kolejki istnieje w banku i na liście rekordów bez cytatu MI, czy ich dział/pytanie/podstawa odpowiadają aktualnemu bankowi, czy snapshot SHA jest aktualny i czy wszystkie statusy pozostają `needs_review`. Kolejka nadal jest tylko priorytetyzacją, nie oceną poprawności prawnej.
+
+
+## Aktualizacja 4x80
+
+Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`. Zaktualizowano cztery explanation (ADR-B-0008, 0037, 0327, 0547), bez zmiany kluczy; warianty egzaminu i klucze zsynchronizowano z aktualnym bankiem. Scenariusze: 39, trzy na dział. Raport: `podstawowy/raporty/etap-4x80-lekcje-05-09-scenariusze-proba60-2026-10-27.md`.
