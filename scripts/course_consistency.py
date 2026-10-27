@@ -113,8 +113,19 @@ def validate_practical_scenario_map(root: Path, questions):
     if len(ids) != len(set(ids)):
         errors.append("Practical scenario map contains duplicate scenario IDs")
     by_id = {q["id"]: q for q in questions}
+    question_sets = {}
     for scenario in scenarios:
         ident = scenario.get("id", "<unknown>")
+        question_ids = scenario.get("question_ids", [])
+        if len(question_ids) == len(set(question_ids)) and question_ids:
+            key = (scenario.get("module_id"), tuple(sorted(question_ids)))
+            prior = question_sets.get(key)
+            if prior:
+                errors.append(
+                    f"Practical scenarios duplicate exact question set within module: {prior} / {ident}"
+                )
+            else:
+                question_sets[key] = ident
         if len(scenario.get("steps", [])) < 3:
             errors.append(f"Practical scenario has fewer than 3 steps: {ident}")
         if not scenario.get("question_ids"):

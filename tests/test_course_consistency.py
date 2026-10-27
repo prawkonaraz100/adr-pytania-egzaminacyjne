@@ -172,6 +172,30 @@ class CourseConsistencyTests(unittest.TestCase):
                 if line.strip()]
         self.assertEqual(validate_learning_material_links(root, bank), [])
 
+    def test_practical_scenario_map_rejects_duplicate_question_sets(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            folder = root / "podstawowy" / "praktyka"
+            folder.mkdir(parents=True)
+            scenarios = []
+            bank = []
+            for i in range(1, 14):
+                module = f"ADR-B-{i:02d}"
+                qid = f"ADR-B-{i:04d}"
+                bank.append({"id": qid, "module_id": module})
+                for j in range(1, 4):
+                    scenarios.append({
+                        "id": f"SC-{module}-{j}",
+                        "module_id": module,
+                        "steps": ["1", "2", "3"],
+                        "question_ids": [qid],
+                        "safety_boundary": "simulation only",
+                    })
+            (folder / "scenariusze-13-dzialow.json").write_text(
+                json.dumps({"scenarios": scenarios}), encoding="utf-8")
+            errors = validate_practical_scenario_map(root, bank)
+            self.assertTrue(any("duplicate exact question set" in err for err in errors))
+
     def test_practical_scenario_map_rejects_missing_question_id(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
