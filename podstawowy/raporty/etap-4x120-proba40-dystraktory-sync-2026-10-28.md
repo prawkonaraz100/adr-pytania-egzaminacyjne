@@ -32,7 +32,7 @@ ID, poprawne litery, podstawy prawne i statusy weryfikacji pozostały bez zmian.
 
 ## Wskaźnik długości odpowiedzi
 
-„Poprawna = jedyna najdłuższa”: 70/609 = 11.49%; maksimum działu 14.29%.
+„Poprawna = jedyna najdłuższa”: 72/609 = 11.82%; maksimum działu 14.58%.
 
 | Dział | Pytania | Poprawna jedyną najdłuższą | Odsetek |
 |---|---:|---:|---:|
