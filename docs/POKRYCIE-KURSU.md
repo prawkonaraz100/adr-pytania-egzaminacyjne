@@ -1,8 +1,8 @@
 # ADR podstawowy — aktualne pokrycie kursu
 
-**Kontrola mapy odświeżona w etapie 4x135: 28.10.2026.** Szczegółowa [macierz kompetencji i 628 pytań](../podstawowy/raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md) zawiera aktualne powiązania i rozdziela teorię od trzech celów praktycznych. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
+**Kontrola mapy odświeżona w etapie 4x135: 29.10.2026.** Szczegółowa [macierz kompetencji i 628 pytań](../podstawowy/raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md) zawiera aktualne powiązania i rozdziela teorię od trzech celów praktycznych. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
 
-**Stan aktualny po etapie 4x135: 28.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
+**Stan aktualny po etapie 4x135: 29.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
 
 ## Co naprawdę zostało ukończone?
 
