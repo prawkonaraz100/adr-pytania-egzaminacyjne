@@ -625,15 +625,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "E-papieros może być źródłem zapłonu; brak płomienia nie gwarantuje bezpieczeństwa."
+          "rationale": "Zasilanie akumulatorowe nie gwarantuje, że urządzenie nie może wywołać zapłonu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Poza kabiną przy rozlewie nadal występuje zagrożenie zapłonem."
+          "rationale": "Poza kabiną nadal mogą występować palne opary, więc ryzyko zapłonu pozostaje."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Urządzeń zapłonowych należy unikać w obecności palnych par."
+          "rationale": "W pobliżu palnych oparów trzeba unikać potencjalnych źródeł zapłonu."
         }
       },
       "observed_answer_key": "C",
@@ -647,12 +647,12 @@
         "module_id": "ADR-B-04",
         "stem": "Po awarii materiału ADR wyczuwalne są palne opary. Dlaczego nie należy używać e-papierosa w pobliżu wycieku?",
         "options": {
-          "A": "Bezpieczny, bo urządzenie nie wytwarza tradycyjnego płomienia",
-          "B": "Bezpieczny poza kabiną, nawet gdy w pobliżu występuje wyciek",
+          "A": "Nie stanowi źródła zapłonu, jeśli jest zasilany akumulatorem",
+          "B": "Można go używać poza kabiną, jeśli nie widać otwartego płomienia",
           "C": "Może być źródłem zapłonu i zwiększać zagrożenie"
         },
         "correct_option": "C",
-        "explanation": "Palne opary mogą zapalić się od iskry albo rozgrzanego urządzenia, dlatego przy wycieku trzeba unikać potencjalnych źródeł zapłonu. E-papieros nie staje się bezpieczny tylko dlatego, że nie ma tradycyjnego płomienia lub używa się go poza kabiną. Trzeba oddalić się od zagrożenia i stosować instrukcje. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Palne opary mogą zapalić się od iskry albo rozgrzanego urządzenia, dlatego przy wycieku trzeba unikać potencjalnych źródeł zapłonu. Zasilanie akumulatorowe nie gwarantuje, że urządzenie nie wywoła zapłonu, a brak widocznego płomienia nie czyni używania e-papierosa bezpiecznym. Oddal się od zagrożenia i stosuj instrukcje pisemne zamiast eksperymentować przy wycieku. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -661,6 +661,9 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       }
     },
