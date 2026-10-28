@@ -1,10 +1,10 @@
-## Bieżąca migawka — etap 4x109 (28.10.2026)
+## Bieżąca migawka — etap 4x110 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `6fd194bfc51ff19c38e4dee598a9fae499e953a3`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `47b9c144b6b59c88338bad92fc7897e620d14a0c`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
-- Próbka 40, seed `41092026`; wykluczono 263 ID jawnie zapisane w rejestrze etapów 4x103–4x108. Raport: `podstawowy/raporty/etap-4x109-proba40-spojnosc-scenariusze-egzaminy-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x109-wykluczenia-proby.json`.
-- Poprawiono dystraktory i explanation w ADR-B-0194, ADR-B-0575, ADR-B-0083 i ADR-B-0561. Poprawne litery i statusy pozostały bez zmian; pełna kontrola prawna nadal wymaga specjalisty.
-- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków.
+- Próbka 40, seed `41092027`; pula po wykluczeniu 303 jawnych ID z rejestru 4x109: 306. Raport: `podstawowy/raporty/etap-4x110-proba40-kontrola-wyjasnien-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x110-wykluczenia-proby.json`.
+- Poprawiono ADR-B-0194, ADR-B-0217 i ADR-B-0324; poprawne litery i statusy pozostały bez zmian.
+- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 70/609 = 11,49%, maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
 - Lekcje 13/13; scenariusze 39/39 z poprawnymi question_ids; egzaminy 001–005 po 30 pytań, A/B/C 10/10/10, maksymalna seria 3.
 - Lokalny `git clone` nie powiódł się z powodu błędu DNS; lokalnego PASS nie deklarowano. Wymagany pełny PASS GitHub Actions Quality Gate.
 - Status wszystkich pytań pozostaje `needs_review`; nie nadano `verified`.
