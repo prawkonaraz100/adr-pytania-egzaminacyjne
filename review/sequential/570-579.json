@@ -221,14 +221,16 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Gdzie znaleźć przypisany towarowi ADR kod ograniczenia przewozu przez tunele?",
+        "id": "ADR-B-0575",
+        "module_id": "ADR-B-11",
+        "stem": "W której kolumnie tabeli A sprawdzasz kod ograniczenia przejazdu przez tunele przypisany towarowi?",
         "options": {
-          "A": "W numerze rejestracyjnym pojazdu używanego do konkretnego przewozu",
-          "B": "W kodzie pocztowym odbiorcy wskazanym w dokumentach handlowych",
-          "C": "W kolumnie 15 tabeli A przy odpowiednim numerze UN towaru"
+          "A": "W kolumnie 14 tabeli A, przy kategorii transportowej towaru.",
+          "B": "W kolumnie 4 tabeli A, przy grupie pakowania.",
+          "C": "W kolumnie 15 tabeli A, przy odpowiednim numerze UN towaru."
         },
         "correct_option": "C",
-        "explanation": "Kod ograniczeń tunelowych znajduje się przy danym towarze w kolumnie 15 tabeli A ADR. Rejestracja pojazdu ani kod pocztowy odbiorcy nie określają tego kodu. Następnie trzeba sprawdzić przepisy dotyczące tuneli i sposób przewozu, bo od nich zależy rzeczywisty zakaz przejazdu. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1.",
+        "explanation": "Kolumna 15 tabeli A podaje kod ograniczenia przejazdu przez tunele dla danego towaru, więc tam należy go sprawdzić. Kolumna 14 dotyczy kategorii transportowej, a kolumna 4 grupy pakowania; obie są ważnymi danymi, ale nie zastępują kodu tunelowego. Po odczytaniu kodu trzeba jeszcze uwzględnić kategorię tunelu i sposób przewozu. Podstawa: ADR 3.2.1, tabela A, kolumny 4, 14 i 15; 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -243,10 +245,10 @@
       "supplementary_source_url": "https://unece.org/adr-2025-files",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Targeted clause checked with ADR 2025 texts; full Polish literal comparison and specialist approval outstanding.",
+      "source_risk_note": "Redakcja dydaktyczna wykonana w 4x109; dokładna kontrola polskiego tekstu urzędowego i niezależna akceptacja specjalisty nadal wymagane.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
-      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+      "review_outcome": "editorial_revision_pending_independent_legal_review"
     },
     {
       "id": "ADR-B-0576",
