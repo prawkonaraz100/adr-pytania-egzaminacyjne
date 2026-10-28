@@ -44,7 +44,7 @@ Nie dodano nowych pytań: ten przegląd nie potwierdził konkretnej luki program
   - ADR-B-12: 5/44 = 11.36%; klucze A/B/C: 14/13/17.
   - ADR-B-13: 6/47 = 12.77%; klucze A/B/C: 15/15/17.
 
-Wyniki powyżej są kontrolą wstępną na danych pobranych z gałęzi. Scalenie wymaga PASS repozytoryjnego Quality Gate CI na końcowym commicie PR.
+Wyniki powyżej są kontrolą wstępną na danych pobranych z gałęzi. Testy lokalne nie były uruchamiane w tym środowisku; jako wymagany test wykonano repozytoryjny Quality Gate CI. Scalenie wymaga PASS repozytoryjnego Quality Gate CI na końcowym commicie PR.
 
 ## Podstawa prawna do niezależnej recenzji
 
