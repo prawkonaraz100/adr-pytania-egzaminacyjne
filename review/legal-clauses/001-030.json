@@ -719,7 +719,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Górne pole zawiera numer rozpoznawczy zagrożenia."
+          "rationale": "Górne pole zawiera numer rozpoznawczy zagrożenia, nie numer UN."
         },
         "B": {
           "expected_correct": true,
@@ -727,7 +727,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Numer UN nie jest wymagany na odwrocie zamiast od frontu tablicy."
+          "rationale": "Numer UN nie znajduje się przy linii podziału; jest w dolnym polu."
         }
       },
       "observed_answer_key": "B",
@@ -741,12 +741,12 @@
         "module_id": "ADR-B-06",
         "stem": "Na numerowanej pomarańczowej tablicy ADR, gdzie znajduje się numer UN?",
         "options": {
-          "A": "W górnej części tablicy",
+          "A": "W górnej części, nad numerem rozpoznawczym zagrożenia",
           "B": "W dolnej części tablicy",
-          "C": "Na odwrocie tablicy"
+          "C": "W środkowej części, przy poziomej linii podziału"
         },
         "correct_option": "B",
-        "explanation": "Na numerowanej tablicy pomarańczowej górny numer informuje o rodzaju zagrożenia, a dolny czterocyfrowy numer UN (identyfikator towaru niebezpiecznego) pozwala ustalić, jaki towar jest przewożony. Dlatego numeru UN szukasz na dole, a nie u góry ani na odwrocie tablicy. Takie rozróżnienie ułatwia służbom szybkie rozpoznanie zagrożenia podczas zdarzenia. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Na numerowanej tablicy pomarańczowej górne pole pokazuje numer rozpoznawczy zagrożenia, a dolne zawiera numer UN, czyli czterocyfrowy identyfikator towaru niebezpiecznego. Nie szukaj go nad numerem zagrożenia ani przy linii podziału — to nie są miejsca numeru UN. To rozróżnienie pomaga szybko ustalić, jaki towar jest przewożony i jakie zagrożenie trzeba rozpoznać. Podstawa: ADR 5.3.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
