@@ -1249,7 +1249,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten wariant („Jako jeden pojazd dopiero po odłączeniu pustej naczepy”) nie spełnia opisanego warunku ADR. Pustość naczepy nie jest kryterium definicji."
+          "rationale": "Definicja jednostki transportowej obejmuje pojazd silnikowy i przyczepę lub naczepę; nie zależy od tego, czy naczepa jest pusta."
         }
       },
       "observed_answer_key": "A",
@@ -1265,7 +1265,7 @@
         "options": {
           "A": "Jako jedną jednostkę obejmującą pojazd silnikowy i przyczepę lub naczepę",
           "B": "Jako dwie niezależne jednostki do obliczenia ilości dla progu ADR 1.1.3.6",
-          "C": "Jako jeden pojazd dopiero po odłączeniu pustej naczepy"
+          "C": "Zestaw można traktować jako jedną jednostkę tylko wtedy, gdy naczepa jest pusta."
         },
         "correct_option": "A",
         "explanation": "Ciągnik samochodowy z naczepą traktuje się jako jedną jednostkę transportową w rozumieniu ADR. Ma to znaczenie na przykład przy obliczaniu ilości towarów objętych określonymi zwolnieniami. Nie liczy się ich automatycznie jako dwóch oddzielnych jednostek, a obecność ładunku w naczepie nie zmienia samej definicji. Podstawa: ADR 1.2.1.",
