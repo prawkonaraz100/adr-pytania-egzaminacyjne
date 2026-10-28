@@ -1,13 +1,13 @@
-## Bieżąca migawka — etap 4x110 (28.10.2026)
+## Bieżąca migawka — etap 4x111 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `c2bf003935faf9e51ae8b03759e456006049ef5b`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `a0d901b67548cd9ae66eeb8fa09b7c8264640e3c`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
-- Próbka 40 ziarno `41102026`: wykluczono 303 identyfikatory wymienione w artefaktach etapów 4x103–4x109; pula 306. Raport: `podstawowy/raporty/etap-4x110-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x110-wykluczenia-proby.json`.
-- Urealniono dystraktory i dopasowano explanation w ADR-B-0016, ADR-B-0109 i ADR-B-0164; poprawne litery i podstawy prawne bez zmian.
-- Egzaminy 001–005 i klucze zsynchronizowano z bieżącym bankiem; po 30 pytań, 30 unikalnych ID, A/B/C 10/10/10. Poprawiono mapowanie liter explanation w kluczu 001.
-- Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82%; maksimum działu 14,29%. Explanation minimum 300 znaków; poniżej 200: 0.
-- Scenariusze: 39; lekcje: 13. Niezależna recenzja prawna pozostaje otwarta, statusów nie zmieniono.
-- Lokalny `git clone` nie powiódł się z powodu braku rozpoznania `github.com`; lokalnego PASS nie deklarowano. Wymagany PASS GitHub Actions Quality Gate dla PR #569.
+- Próbka 40, seed `41112026`; wykluczono 343 ID z jawnego rejestru etapów 4x103–4x109, próbki 4x110 i pytań zmienionych w 4x110; pula 266. Raport: `podstawowy/raporty/etap-4x111-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x111-wykluczenia-proby.json`.
+- Urealniono dystraktory i dopasowano explanation w ADR-B-0082, ADR-B-0123, ADR-B-0296, ADR-B-0351 i ADR-B-0423; poprawne litery, ID i podstawy prawne bez zmian.
+- Egzaminy 001–005 wskazują bieżący blob; każdy ma 30 pytań, brak duplikatów, rozkład A/B/C 10/10/10. Żadne z pięciu zmienionych ID nie występuje w wariantach, więc nie zmieniano ich treści ani kluczy.
+- Metryki: „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
+- Scenariusze: 39; lekcje: 13. Migawki audytu odświeżone, ale niezależna recenzja prawna pozostaje otwarta.
+- Lokalny `git clone` nie powiódł się z powodu braku rozpoznania `github.com`; lokalnego PASS nie deklarowano. Wymagany PASS GitHub Actions Quality Gate dla PR 4x111.
 
 ## Aktualizacja etapu 4x89 — próbka, wyłączenia i status M364 (27.10.2026)
 

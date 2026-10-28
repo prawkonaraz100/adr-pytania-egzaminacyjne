@@ -285,15 +285,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Tylko światła awaryjne”) nie spełnia obowiązku opisanego w ADR 2025, 8.3.7; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Światła awaryjne ostrzegają innych, ale nie unieruchamiają pojazdu."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wariant B oddaje warunek przepisowy: Nie wolno pozostawiać pojazdu ADR na postoju bez zastosowania hamulca postojowego. Pozostaje do porównania z pełnym polskim brzmieniem."
+          "rationale": "Hamulec postojowy ogranicza ryzyko niekontrolowanego ruszenia pojazdu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Wyłącznie wyłączenie radia”) nie spełnia obowiązku opisanego w ADR 2025, 8.3.7; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Pozostawienie pojazdu na biegu i płaski teren nie zastępują hamulca postojowego."
         }
       },
       "observed_answer_key": "B",
@@ -308,10 +308,10 @@
         "options": {
           "A": "Włączyć tylko światła awaryjne, bez zabezpieczenia pojazdu hamulcem postojowym",
           "B": "Zaciągnąć hamulec postojowy",
-          "C": "Wyłączyć radio i zostawić pojazd bez użycia hamulca postojowego"
+          "C": "Zostawić pojazd na biegu, jeśli teren jest płaski, bez hamulca postojowego"
         },
         "correct_option": "B",
-        "explanation": "Po zaparkowaniu pojazdu objętego tym wymaganiem należy użyć hamulca postojowego, aby zapobiec jego niekontrolowanemu ruszeniu. Światła awaryjne ostrzegają innych, ale nie unieruchamiają pojazdu. Wyłączenie radia nie ma wpływu na bezpieczeństwo postoju i nie zastępuje hamulca. Podstawa: ADR 8.3.7. Zabezpieczenie trzeba zastosować również na płaskim terenie.",
+        "explanation": "Po zaparkowaniu pojazdu objętego tym wymaganiem należy użyć hamulca postojowego, aby zapobiec jego niekontrolowanemu ruszeniu. Światła awaryjne ostrzegają innych, ale nie unieruchamiają pojazdu; pozostawienie go na biegu i płaski teren nie zastępują hamulca postojowego. Podstawa: ADR 8.3.7. Zabezpieczenie trzeba zastosować również na płaskim terenie.",
         "sources": [
           {
             "code": "ADR-2025-PL",

@@ -108,15 +108,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Towary niebezpieczne to materiały/przedmioty zabronione lub warunkowo dopuszczone do przewozu."
+          "rationale": "Definicja obejmuje materiały lub przedmioty zakazane albo dopuszczone warunkowo do przewozu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ten wariant („Materiały klasy 3 i ciecze zapalne, jeśli jadą w opakowaniach certyfikowanych”) nie spełnia opisanego warunku ADR. Klasa 3 to tylko jedna z klas ADR."
+          "rationale": "Towary niebezpieczne nie ograniczają się do klasy 3 ani do cieczy zapalnych."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten wariant („Towar cięższy od tony, nawet jeśli jego właściwości nie są niebezpieczne”) nie spełnia opisanego warunku ADR. Sama masa powyżej 1000 kg nie definiuje towaru niebezpiecznego."
+          "rationale": "Duża ilość sama nie czyni materiału towarem niebezpiecznym; znaczenie mają jego właściwości i klasyfikacja."
         }
       },
       "observed_answer_key": "A",
@@ -132,10 +132,10 @@
         "options": {
           "A": "Materiały lub przedmioty zakazane albo warunkowo dopuszczone do przewozu",
           "B": "Materiały klasy 3 i ciecze zapalne, jeśli jadą w opakowaniach certyfikowanych",
-          "C": "Towar cięższy od tony, nawet jeśli jego właściwości nie są niebezpieczne"
+          "C": "Każdy materiał przewożony w dużej ilości, niezależnie od jego właściwości"
         },
         "correct_option": "A",
-        "explanation": "Towarem niebezpiecznym w rozumieniu ADR może być materiał lub przedmiot, którego przewóz jest zakazany albo dozwolony tylko po spełnieniu określonych warunków. Nie chodzi wyłącznie o jedną klasę, na przykład ciecze zapalne. Sama masa ponad tysiąc kilogramów również nie wystarcza, by uznać zwykły towar za niebezpieczny. Podstawa: art. 1(b) umowy ADR.",
+        "explanation": "Towarem niebezpiecznym w rozumieniu ADR może być materiał lub przedmiot, którego przewóz jest zakazany albo dozwolony tylko po spełnieniu określonych warunków. Nie chodzi wyłącznie o jedną klasę, na przykład ciecze zapalne. Sama duża ilość również nie wystarcza, by uznać zwykły materiał za towar niebezpieczny — znaczenie mają jego właściwości i klasyfikacja. Podstawa: art. 1(b) umowy ADR.",
         "sources": [
           {
             "code": "ADR-2025-PL",
