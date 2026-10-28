@@ -202,19 +202,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Po korekcie długości wariantu A: „Wystarczy wpisanie oznaczenia odpadu na fakturze towarzyszącej przesyłce.”. Dystraktor nadal nie spełnia warunku opisanego w ADR 2025, 5.4.1.1.3; wymagane ostateczne sprawdzenie szczególnego warunku przez specjalistę."
+          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Po korekcie długości wariantu B: „Wpisanie słowa ODPAD przed nazwą przewozową, gdy wymagane.”. ADR 2025, 5.4.1.1.3: ADR 5.4.1.1.3 wymaga poprzedzenia właściwej nazwy przewozowej słowem WASTE/ODPAD, jeśli nie jest już częścią nazwy."
+          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Kod odpadu nie zastępuje opisu przewozowego ADR z właściwym numerem UN."
+          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Ostateczna kontrola uwzględnia sposób przewozu, wyjątki, polską terminologię i sprostowanie; obecnie brak niezależnej akceptacji. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending.",
+      "notes_on_conditions": "Ostateczna kontrola uwzględnia sposób przewozu, wyjątki, polską terminologię i sprostowanie; obecnie brak niezależnej akceptacji. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending. Etap 4x116: redakcja językowa/dystraktorów; nie stanowi zatwierdzenia prawnego.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -224,12 +224,12 @@
         "module_id": "ADR-B-13",
         "stem": "Kierowca odbiera odpad niebezpieczny inny niż radioaktywny. Nazwa przewozowa w dokumencie nie zawiera wymaganego słowa wskazującego odpad. Co należy zweryfikować zgodnie z ADR 5.4.1.1.3?",
         "options": {
-          "A": "Wystarczy oznaczyć odpad na fakturze, bez poprawiania dokumentu przewozowego ADR",
+          "A": "Dopisać słowo ODPAD tylko w wewnętrznym systemie firmy, bez zmiany dokumentu ADR",
           "B": "Dodać słowo ODPAD przed nazwą przewozową, gdy wymaga tego ADR 5.4.1.1.3",
-          "C": "Zastąpić numer UN dowolnym kodem odpadu, bez nazwy przewozowej ADR"
+          "C": "Zastąpić nazwę przewozową kodem odpadu, jeżeli kod znajduje się w dokumentach handlowych"
         },
         "correct_option": "B",
-        "explanation": "Dla odpowiedniego odpadu niepromieniotwórczego w dokumencie przewozowym przed właściwą nazwą przewozową należy umieścić słowo „ODPAD”, jeśli nie jest już częścią tej nazwy. Sama adnotacja na fakturze nie zastępuje wymaganego opisu ADR, a kod odpadu nie zastępuje numeru UN — czterocyfrowego identyfikatora towaru niebezpiecznego — ani nazwy przewozowej. Podstawa: ADR 5.4.1.1.3.",
+        "explanation": "Dla odpowiedniego odpadu niepromieniotwórczego w dokumencie przewozowym przed właściwą nazwą przewozową trzeba umieścić słowo „ODPAD”, jeśli nie jest już częścią tej nazwy. Wpis w wewnętrznym systemie firmy nie poprawia dokumentu, który towarzyszy przewozowi. Kod odpadu także nie zastępuje wymaganej nazwy przewozowej ani numeru UN, czyli czterocyfrowego identyfikatora towaru niebezpiecznego. Podstawa: ADR 5.4.1.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
