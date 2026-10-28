@@ -43,6 +43,7 @@ Przeczytano treść pytania, A/B/C, poprawną literę i explanation jak początk
 - Explanation przepisano na 3 zdania: zakaz i jego sens, wyjaśnienie dlaczego wolne miejsce/kamizelka nie znoszą wymogu, a na końcu podstawa ADR 8.3.1.
 - Uzasadnienie: dotychczasowe „nie powinno się” brzmiało jak zalecenie, choć ADR 8.3.1 formułuje zakaz przewożenia osób spoza załogi w zakresie stosowania przepisu. Zmiana jest redakcyjnym doprecyzowaniem, nie zatwierdzeniem prawnym.
 - Zaktualizowano migawki `review/legal-clauses/291-293.json` i `review/sequential/291-293.json`. ID 0293 nie występuje w wariantach egzaminu 001–005; odświeżono w nich jedynie metadane źródłowego SHA banku.
+- W lekcji B-07 doprecyzowano opis zakazu i scenariusz pasażera spoza załogi, tak aby podręcznik nie osłabiał zakazu do samego zalecenia.
 
 ## Kontrola synchronizacji
 
