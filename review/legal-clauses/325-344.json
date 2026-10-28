@@ -55,15 +55,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Tak, bez żadnych ograniczeń”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.5; nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Błędna: nazwa odpadu i dane ogólne nie znoszą wyłączenia procedury dla klasy 4.3."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wariant B jest zgodny z przedstawioną w pytaniu zasadą: ADR wyłącza z procedury odpady zawierające materiały klasy 4.3. Wymaga jeszcze niezależnego porównania z polskim brzmieniem aktu."
+          "rationale": "Poprawna: ADR 2.1.3.5.5 wyłącza materiały klasy 4.3 z tej uproszczonej procedury; wymaga niezależnego porównania z polskim tekstem urzędowym."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Tak, jeśli kierowca zna nazwę odpadu”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.5; nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Błędna: kod katalogowy i karta przekazania nie uchylają wyłączenia materiałów klasy 4.3."
         }
       },
       "observed_answer_key": "B",
@@ -76,12 +76,12 @@
         "module_id": "ADR-B-03",
         "stem": "Odpad o nieznanym dokładnie składzie zawiera substancję klasy 4.3. Czy wolno zastosować uproszczoną procedurę ADR 2.1.3.5.5?",
         "options": {
-          "A": "Tak, bez żadnych ograniczeń",
+          "A": "Tak, jeśli nazwa odpadu i dostępne dane pozwalają określić jego ogólne zagrożenie, bez sprawdzania wyłączeń procedury.",
           "B": "Nie, materiały klasy 4.3 są wyłączone z tej procedury",
-          "C": "Tak, jeśli kierowca zna nazwę odpadu"
+          "C": "Tak, jeżeli znany jest kod katalogowy odpadu i dostępna jest karta przekazania."
         },
         "correct_option": "B",
-        "explanation": "Nie każdy odpad o nieznanym składzie można sklasyfikować uproszczoną metodą. Materiały klasy 4.3 są wyłączone z procedury wskazanej w pytaniu, więc nie wystarczy nazwa odpadu ani zgoda kierowcy, by jej użyć. Trzeba zastosować właściwe zasady klasyfikacji dla danego zagrożenia. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Procedury ADR 2.1.3.5.5 nie wolno stosować do odpadu zawierającego materiał klasy 4.3, nawet gdy znasz nazwę odpadu lub jego kod katalogowy. Te informacje pomagają opisać odpad, ale nie znoszą wyłączenia wskazanego w ADR. Trzeba zastosować inną właściwą procedurę klasyfikacji. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
