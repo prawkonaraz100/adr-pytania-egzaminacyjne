@@ -2,7 +2,7 @@
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `a0d901b67548cd9ae66eeb8fa09b7c8264640e3c`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
-- Próbka 40, seed `41112026`; wykluczono 343 ID z jawnego rejestru etapów 4x103–4x110 i pięć pytań poprawionych w tej partii; pula 266. Raport: `podstawowy/raporty/etap-4x111-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x111-wykluczenia-proby.json`.
+- Próbka 40, seed `41112026`; wykluczono 343 ID z jawnego rejestru etapów 4x103–4x109, próbki 4x110 i pytań zmienionych w 4x110; pula 266. Raport: `podstawowy/raporty/etap-4x111-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x111-wykluczenia-proby.json`.
 - Urealniono dystraktory i dopasowano explanation w ADR-B-0082, ADR-B-0123, ADR-B-0296, ADR-B-0351 i ADR-B-0423; poprawne litery, ID i podstawy prawne bez zmian.
 - Egzaminy 001–005 wskazują bieżący blob; każdy ma 30 pytań, brak duplikatów, rozkład A/B/C 10/10/10. Żadne z pięciu zmienionych ID nie występuje w wariantach, więc nie zmieniano ich treści ani kluczy.
 - Metryki: „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
