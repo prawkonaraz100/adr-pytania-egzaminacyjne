@@ -56,15 +56,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "W tabeli ADR 7.5.2.1 połączenie sztuki z nalepkami 5.2 + 1 i sztuki z nalepką 5.2 jest wskazane jako dozwolone. „5.2 + 1” oznacza dwie nalepki na tej samej sztuce przesyłki, a nie dwie palety. Nadal należy sprawdzić pozostałe wymogi."
+          "rationale": "Tabela 7.5.2.1 dopuszcza wskazane połączenie nalepek, przy spełnieniu pozostałych warunków."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ten dystraktor opisuje częsty błąd: Nie, każda dodatkowa nalepka 1 bezwarunkowo zakazuje załadunku z klasą 5.2. Nie zastępuje to warunku wskazanego w poprawnej odpowiedzi ani wymagań właściwego przepisu. Ta zmiana jest redakcyjna; status prawny nadal needs_review."
+          "rationale": "Dodatkowa nalepka klasy 1 nie tworzy automatycznego zakazu; trzeba odczytać właściwą tabelę."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten dystraktor opisuje częsty błąd: Od tego, czy opakowania spełniają wymagania UN, nawet bez sprawdzenia tabeli 7.5.2.1. Nie zastępuje to warunku wskazanego w poprawnej odpowiedzi ani wymagań właściwego przepisu. Ta zmiana jest redakcyjna; status prawny nadal needs_review."
+          "rationale": "Oznaczenie UN dotyczy opakowania i nie zastępuje kontroli dopuszczalności wspólnego załadunku."
         }
       },
       "observed_answer_key": "A",
@@ -77,12 +77,12 @@
         "module_id": "ADR-B-09",
         "stem": "Jedna sztuka przesyłki ADR ma jednocześnie nalepki 5.2 i 1 (oznaczenie „5.2 + 1”), a druga ma wyłącznie nalepkę 5.2. Czy tabela 7.5.2.1 dopuszcza ich wspólny załadunek na podstawie tych nalepek?",
         "options": {
-          "A": "Tak, w tabeli dla przecięcia 5.2 + 1 z 5.2 przewidziano dopuszczenie, z zachowaniem pozostałych warunków ADR",
-          "B": "Nie, każda dodatkowa nalepka 1 bezwarunkowo zakazuje załadunku z klasą 5.2",
-          "C": "Od tego, czy opakowania spełniają wymagania UN, nawet bez sprawdzenia tabeli 7.5.2.1"
+          "A": "Tak, tabela 7.5.2.1 dopuszcza to połączenie nalepek, jeśli spełniono pozostałe warunki ADR.",
+          "B": "Nie, dodatkowa nalepka klasy 1 zakazuje wspólnego załadunku z klasą 5.2 w każdym przypadku, bez wyjątków.",
+          "C": "Tak, oznaczenie UN na obu opakowaniach wystarcza, więc tabeli wspólnego załadunku nie trzeba sprawdzać."
         },
         "correct_option": "A",
-        "explanation": "W tym przypadku tabelę 7.5.2.1 odczytuje się dla połączenia nalepek 5.2 + 1 oraz 5.2; samo dodatkowe oznaczenie klasy 1 nie tworzy automatycznego zakazu. Z drugiej strony opakowanie z oznaczeniem UN, potwierdzającym zgodność typu opakowania z wymaganymi badaniami, nie wystarcza samo w sobie, bo dopuszczenie opakowania i zgodność wspólnego załadunku to osobne wymagania. Nie rozstrzyga też kolor kartonów. Podstawa: ADR 7.5.2.1.",
+        "explanation": "Wspólny załadunek ocenia się według tabeli 7.5.2.1 dla konkretnego połączenia nalepek 5.2 + 1 oraz 5.2; dodatkowa nalepka klasy 1 nie oznacza automatycznego zakazu. Oznaczenie UN na opakowaniu potwierdza wymagania dotyczące samego opakowania, ale nie rozstrzyga, czy dwa towary można przewozić razem. Dlatego trzeba sprawdzić tabelę i właściwe wyjątki przed załadunkiem. Podstawa: ADR 7.5.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -93,7 +93,7 @@
         "legal_basis_version": "ADR-2025-PL",
         "image": null
       },
-      "editorial_result": "preliminary_after_semantic_diversification_needs_review"
+      "editorial_result": "editorial_revision_pending_independent_legal_review"
     }
   ]
 }
