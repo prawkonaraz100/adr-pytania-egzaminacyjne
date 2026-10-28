@@ -186,12 +186,12 @@
       "exact_record_snapshot": {
         "stem": "W wymaganym dokumencie przewozowym ADR znajduje się numer UN, ale brakuje nazwy i adresu odbiorcy. Co trzeba uzupełnić przy standardowych zasadach dokumentowania?",
         "options": {
-          "A": "Wpisać numer konta bankowego kierowcy zamiast danych odbiorcy przesyłki",
-          "B": "Uzupełnić nazwę i adres odbiorcy zgodnie z wymaganiami dokumentu ADR",
-          "C": "Dodać wyłącznie numer rejestracyjny ciągnika używanego do przewozu"
+          "A": "Wpisać dane nadawcy i numer UN, zakładając, że odbiorcę można ustalić z innych dokumentów przewozowych.",
+          "B": "Uzupełnić pełną nazwę odbiorcy oraz jego adres w odpowiednim polu dokumentu przewozowego ADR.",
+          "C": "Wpisać adres miejsca rozładunku zamiast nazwy i adresu odbiorcy, jeśli zgadza się z trasą."
         },
         "correct_option": "B",
-        "explanation": "W standardowym dokumencie przewozowym ADR należy podać wymagane dane odbiorcy, w tym nazwę i adres, z uwzględnieniem ewentualnych wyjątków przewidzianych w przepisach. Sam numer UN (identyfikator towaru niebezpiecznego) nie pozwala ustalić, komu przesyłka ma zostać dostarczona. Numer konta kierowcy ani numer rejestracyjny pojazdu nie identyfikują odbiorcy, więc nie mogą zastąpić brakujących danych. Podstawa: ADR 5.4.1.1.1(h).",
+        "explanation": "W dokumencie ADR trzeba podać wymaganą nazwę i adres odbiorcy, bo numer UN identyfikuje towar, a nie osobę, która ma go otrzymać. Dane nadawcy nie zastępują danych odbiorcy, a sam adres miejsca rozładunku nie musi identyfikować odbiorcy. Przed wyjazdem uzupełnij brakujące dane zgodnie z wymaganym układem dokumentu. Podstawa: ADR 5.4.1.1.1(h).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -206,7 +206,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Wymaga pełnego porównania oficjalnego tekstu ADR 2025 i sprostowania; nie poświadczono prawnej recenzji.",
+      "source_risk_note": "Wymaga pełnego porównania oficjalnego tekstu ADR 2025 i sprostowania; nie poświadczono prawnej recenzji. Etap 4x108: odświeżono migawkę po korekcie redakcyjnej; status prawny pozostaje needs_review, niezależna recenzja wymagana.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
