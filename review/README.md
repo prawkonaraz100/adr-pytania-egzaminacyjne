@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x107 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `a48ac7d92432436e18b1b0adc2188d63a6bc6189`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `0a00e88a3fb26e709ef508b93e24aed4e9c1f4a3`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Próbka 40, seed `41072026`; wykluczono wszystkie ID wspomniane w raportach 4x103–4x106 (183 unikalne ID). Raport: `podstawowy/raporty/etap-4x107-proba40-dystraktory-lekcje-2026-10-28.md`.
 - Poprawiono wiarygodność dystraktorów i dopasowano explanation w ADR-B-0009, ADR-B-0329, ADR-B-0401 i ADR-B-0441. Poprawne litery i podstawy ADR bez zmian; migawki sekwencyjne i A/B/C odświeżono.
