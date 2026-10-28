@@ -3,6 +3,7 @@
 - Data: 2026-10-28.
 - Świeży punkt wejścia: `main` `1b9c1db026c1333bdefaeba25e40d6826b4fbe34`.
 - Gałąź: `stage4x125-proba40-jakosc-dystraktorow`.
+- Końcowy blob `questions.jsonl`: `36985d2be9667dad581f241d68f7df76ea47e0d5`.
 - Zakres: wyłącznie kurs podstawowy ADR.
 - Seed: `41252026`; deterministyczne tasowanie Fisher–Yates nad bankiem po wykluczeniu `sample_ids`, `edited_ids` i zapisanych follow-upów z etapów 4x122–4x124.
 
