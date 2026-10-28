@@ -55,15 +55,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Zgodne z ADR ADR 2025, 8.3.5: ADR zabrania palenia podczas czynności manipulacyjnych zarówno w pojeździe, jak i w jego pobliżu."
+          "rationale": "Poprawne: zakaz palenia obejmuje wnętrze pojazdu i jego bezpośrednie otoczenie podczas czynności manipulacyjnych."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w tym scenariuszu: Palenie jest zawsze dozwolone po wyłączeniu zapłonu. Wymaga kontroli urzędowego polskiego brzmienia."
+          "rationale": "Błędne: wyłączenie zapłonu ani chwilowe wstrzymanie pracy nie uchyla zakazu palenia."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w tym scenariuszu: Zakaz dotyczy jedynie tuneli kategorii E. Wymaga kontroli urzędowego polskiego brzmienia."
+          "rationale": "Błędne: zakaz nie ogranicza się do tuneli kategorii E; dotyczy wskazanych czynności przy pojeździe."
         }
       },
       "observed_answer_key": "A",
@@ -76,12 +76,12 @@
         "module_id": "ADR-B-04",
         "stem": "Podczas rozładunku ADR kierowca widzi osobę palącą wewnątrz pojazdu. Jak ocenia to ADR 8.3.5?",
         "options": {
-          "A": "Palenie jest zabronione podczas czynności manipulacyjnych w pobliżu pojazdu i wewnątrz pojazdu",
-          "B": "Palenie jest zawsze dozwolone po wyłączeniu zapłonu",
-          "C": "Zakaz dotyczy jedynie tuneli kategorii E"
+          "A": "Palenie jest zabronione podczas czynności manipulacyjnych w pobliżu pojazdu i wewnątrz pojazdu.",
+          "B": "Palenie można dopuścić po wyłączeniu zapłonu, jeśli załadunek lub rozładunek chwilowo wstrzymano.",
+          "C": "Zakaz obowiązuje wyłącznie w tunelach kategorii E i nie dotyczy postoju przy rozładunku."
         },
         "correct_option": "A",
-        "explanation": "Podczas załadunku i rozładunku zakaz palenia obejmuje zarówno wnętrze pojazdu, jak i jego bezpośrednie otoczenie. Wyłączenie zapłonu nie zmienia tej zasady, a przepis nie ogranicza się do tuneli kategorii E. Celem jest ograniczenie ryzyka zapłonu w trakcie manipulowania towarami niebezpiecznymi. Podstawa: ADR 8.3.5.",
+        "explanation": "Podczas załadunku i rozładunku zakaz palenia obejmuje wnętrze pojazdu oraz jego bezpośrednie otoczenie. Wyłączenie zapłonu ani chwilowa przerwa w czynnościach nie uchylają zakazu, a przepis nie ogranicza się do tuneli kategorii E. Celem jest ograniczenie ryzyka zapłonu w czasie obsługi towarów niebezpiecznych. Podstawa: ADR 8.3.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -91,7 +91,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "editorial_result": "distractors_and_explanation_revised_4x108_specialist_review_pending"
     },
     {
       "id": "ADR-B-0281",
