@@ -152,6 +152,8 @@ Pytania do samodzielnego sprawdzenia w banku:
 
 - ADR-B-0614
 
+- ADR-B-0626
+
 ## Podstawa prawna
 - ADR 2025: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf): 5.4.3.4, 8.1.4.5, 8.1.5 i właściwe instrukcje pisemne.
 - Ustawa z 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych, z późniejszymi zmianami.
