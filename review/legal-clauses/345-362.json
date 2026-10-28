@@ -791,7 +791,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Tylko prywatne wiadomości”) nie spełnia obowiązku opisanego w ADR 2025, 5.4.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Dostęp do dokumentów nie powinien być odkładany do czasu zakończenia działań ratowniczych."
         },
         "B": {
           "expected_correct": true,
@@ -799,7 +799,7 @@
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Paragon z parkingu”) nie spełnia obowiązku opisanego w ADR 2025, 5.4.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Sam numer UN ustnie nie zastępuje dostępu do pełnych dokumentów przewozowych."
         }
       },
       "observed_answer_key": "B",
@@ -812,12 +812,12 @@
         "module_id": "ADR-B-04",
         "stem": "Po wypadku jednostki ADR na miejscu pojawia się służba ratownicza. Co załoga powinna mieć łatwo dostępne dla ratowników?",
         "options": {
-          "A": "Tylko prywatne wiadomości",
+          "A": "Udostępnić dokumenty dopiero po zakończeniu działań ratowniczych",
           "B": "Dokumenty przewozowe",
-          "C": "Paragon z parkingu"
+          "C": "Podać ustnie numer UN, ale pozostawić dokumenty w zamkniętej kabinie"
         },
         "correct_option": "B",
-        "explanation": "Dokumenty przewozowe pozwalają ratownikom ustalić, jaki towar niebezpieczny znajduje się w pojeździe i jakie zagrożenia mogą wystąpić. Załoga powinna mieć je łatwo dostępne, by przekazać je służbom po zdarzeniu. Prywatne wiadomości i paragon parkingowy nie zawierają tych informacji, więc nie mogą zastąpić dokumentów. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Dokumenty przewozowe zawierają więcej informacji niż sam numer UN, więc powinny być łatwo dostępne ratownikom. Odkładanie ich do końca działań albo podawanie wyłącznie numeru ustnie może opóźnić rozpoznanie ładunku i dobór bezpiecznych działań. Załoga powinna zapewnić służbom dostęp do dokumentów, gdy jest to bezpieczne. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
