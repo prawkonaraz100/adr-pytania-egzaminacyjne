@@ -193,19 +193,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Wskazany przepis wyraźnie obejmuje pusty, nieoczyszczony kontener-cysternę do przekazania na czyszczenie. Pozostaje kontrola polskiego tekstu."
+          "rationale": "Poprawna: określona reguła obejmuje także dalszy przewóz pustego, nieoczyszczonego kontenera-cysterny do miejsca czyszczenia; pełne porównanie polskiego tekstu jest nadal wymagane."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Tylko przez pierwszych 10 km”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(c); nie jest właściwy w tym scenariuszu."
+          "rationale": "Błędna: zakończenie odcinka morskiego nie kończy automatycznie stosowania warunku w opisanej sytuacji."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Wyłącznie przed rozładunkiem statku”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1(c); nie jest właściwy w tym scenariuszu."
+          "rationale": "Błędna: samo opuszczenie terminalu nie przesądza o końcu obowiązku, jeśli kontener nie został jeszcze przekazany do czyszczenia."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola. Etap 4x123: poprawiono dydaktyczne dystraktory i explanation bez zmiany klucza; status remains needs_review.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -215,11 +215,11 @@
         "stem": "Pusty, nieoczyszczony kontener-cysterna przybywa morzem i jedzie do punktu czyszczenia. Jak długo określona reguła oznakowania IMDG z 1.1.4.2.1(c) pozostaje istotna?",
         "options": {
           "A": "Do przekazania kontenera do stacji czyszczenia",
-          "B": "Przez 10 km od portu",
+          "B": "Do zakończenia odcinka morskiego; po wyładunku na ląd reguła już nie ma znaczenia.",
           "C": "Do chwili opuszczenia terminalu, chociaż kontener nadal nie został oczyszczony"
         },
         "correct_option": "A",
-        "explanation": "Szczególna zasada może obejmować pusty, nieoczyszczony kontener-cysternę przywożony morzem także podczas przewozu do miejsca czyszczenia. Nie kończy się automatycznie po kilku kilometrach ani w chwili opuszczenia statku. Odległość dziesięciu kilometrów i opuszczenie terminalu nie przesądzają o końcu wymogu. Podstawa: ADR 1.1.4.2.1(c).",
+        "explanation": "Ta reguła może obejmować pusty, nieoczyszczony kontener-cysternę przywożony morzem także podczas dalszego przewozu do miejsca czyszczenia. Nie kończy się automatycznie wraz z rejsem ani po opuszczeniu terminalu; sama odległość od portu nie rozstrzyga o obowiązku. Podstawa: ADR 1.1.4.2.1(c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -285,19 +285,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Dopuszczenie dotyczy określonego łańcucha morskiego oraz wymaga zachowania wymogów pomarańczowych tablic ADR. Pozostaje kontrola polskiego tekstu."
+          "rationale": "Poprawna: wyjątek ma ograniczony zakres i wymaga zachowania tablic pomarańczowych ADR w odpowiednim łańcuchu morskim; pełne porównanie polskiego tekstu pozostaje wymagane."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Bez żadnych tablic i bez dokumentu”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.2; nie jest właściwy w tym scenariuszu."
+          "rationale": "Błędna: określone nalepki IMDG nie zastępują wymaganych tablic pomarańczowych ADR."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Zawsze na dowolnej trasie drogowej”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.2; nie jest właściwy w tym scenariuszu."
+          "rationale": "Błędna: wcześniejszy odcinek morski nie oznacza automatycznego zastosowania wyjątku na każdej trasie drogowej."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola.",
+      "notes_on_conditions": "Dopuszczalność multimodalna jest ściśle warunkowa, nie stanowi automatycznego zwolnienia z ADR. Potrzebna pełna polska kontrola. Etap 4x123: poprawiono dydaktyczne dystraktory i explanation bez zmiany klucza; status remains needs_review.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -307,11 +307,11 @@
         "stem": "Pojazd inny niż przewożący wskazane kontenery ma nalepki dużego formatu według IMDG, ale nie zgodnie z ADR 5.3.1. Kiedy 1.1.4.2.2 dopuszcza taki przewóz?",
         "options": {
           "A": "Tylko w łańcuchu morskim, z tablicami ADR 5.3.2",
-          "B": "Bez tablic i bez dokumentu, jeśli ładunek był już na statku",
-          "C": "Zawsze na dowolnej trasie drogowej, bez sprawdzania warunków wyjątku"
+          "B": "Użyć nalepek IMDG zamiast wymaganych tablic pomarańczowych ADR, skoro ładunek przybył statkiem.",
+          "C": "Zastosować oznakowanie IMDG na każdej trasie drogowej po rejsie, bez sprawdzania warunków wyjątku."
         },
         "correct_option": "A",
-        "explanation": "Dopuszczenie dotyczące nalepek IMDG (kodeksu oznakowania towarów niebezpiecznych w transporcie morskim) na pojeździe ma określony zakres i dotyczy odpowiedniego łańcucha transportowego z etapem morskim. Warunkiem pozostaje zachowanie wymaganych tablic pomarańczowych ADR. Nie jest to zgoda na dowolny przewóz drogowy bez dokumentów i oznakowania. Podstawa: ADR 1.1.4.2.2 i 5.3.2.",
+        "explanation": "ADR 1.1.4.2.2 może dopuścić określone oznakowanie IMDG w łańcuchu morskim, ale nie znosi wymogu tablic pomarańczowych ADR ani nie działa bezwarunkowo. Trzeba potwierdzić, że przewóz mieści się w wyjątku i spełnia jego warunki; sam wcześniejszy rejs nie wystarcza. Podstawa: ADR 1.1.4.2.2 i 5.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
