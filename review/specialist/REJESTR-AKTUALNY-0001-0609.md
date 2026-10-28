@@ -1,4 +1,4 @@
-> Bieżący snapshot po etapie 4x124 (28.10.2026): bank blob SHA `ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6`; 609 pytań `needs_review`, 0 `verified`. Ostatni raport: `podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md`. Ta redakcja nie oznacza zatwierdzenia prawnego.
+> Bieżący snapshot po etapie 4x124 (28.10.2026): bank blob SHA `36985d2be9667dad581f241d68f7df76ea47e0d5`; 609 pytań `needs_review`, 0 `verified`. Ostatni raport: `podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md`. Ta redakcja nie oznacza zatwierdzenia prawnego.
 
 ## Bieżąca migawka — etap 4x120 (28.10.2026)
 
@@ -244,7 +244,7 @@ Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależn
 | ADR-B-0170 | ADR-B-06 | ADR-B-06-K04 | Na numerowanej pomarańczowej tablicy ADR numer zagrożenia zaczyna się od X. Co to oznacza dla prób użycia wody? | C | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0171 | ADR-B-08 | ADR-B-08-K07 | Zgodnie z 8.1.5.3, dla sztuk przesyłki oznaczonych nalepką 6.1 jakie dodatkowe wyposażenie dla każdego członka załogi jest wymagane, jeśli przepis ma zastosowanie? | A | ADR 2025, 8.1.5.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0172 | ADR-B-09 | ADR-B-09-K04 | Opakowanie ADR ma strzałki kierunkowe, a pracownik chce je położyć na boku, aby zmieściło się pod pasem. Co jest właściwe? | B | ADR 2025, 7.5.1.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0173 | ADR-B-09 | ADR-B-09-K09 | Dla danego towaru nie znaleziono w kolumnach 10 i 17 tabeli A ani kodu BK/VC, ani wyraźnego odesłania dopuszczającego przewóz luzem. Co wynika z ADR 7.3.1.1? | C | ADR 2025, 7.3.1.1; 3.2 tabela A kol. (10),(17) | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0173 | ADR-B-09 | ADR-B-09-K09 | W kolumnie 17 tabeli A nie znaleziono kodu BK/VC ani wyraźnego odesłania dopuszczającego przewóz luzem. Co wynika z ADR 7.3.1.1? | C | ADR 2025, 7.3.1.1; 3.2 tabela A kol. (10),(17) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0174 | ADR-B-11 | ADR-B-11-K05 | Dla towaru w kolumnie 15 tabeli A widnieje kod tunelowy (-). Jakie znaczenie ma ten zapis? | A | ADR 2025, 8.6.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0175 | ADR-B-13 | ADR-B-13-K05 | W kabinie pojazdu ADR dwaj członkowie załogi mają po jednym dokumencie tożsamości, ale tylko jeden zawiera fotografię. Co trzeba zweryfikować? | B | ADR 2025, 1.10.1.4; 8.1.2.1 (d) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0176 | ADR-B-08 | ADR-B-08-K03 | Kontrolujesz wymaganą gaśnicę ADR. Plomba jest nienaruszona, ale nie ma oznaczenia terminu kolejnego przeglądu ani maksymalnego okresu użytkowania. Czy sama plomba wystarcza? | B | ADR 2025, 8.1.4.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
@@ -684,3 +684,6 @@ Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależn
 | ADR-B-0607 | ADR-B-01 | ADR-B-01-K03 | Kierowca ma ważne prawo jazdy, ale nie ma zaświadczenia ADR. Przewóz przekracza warunki wyłączenia, przy których zaświadczenie nie jest wymagane. Czy może rozpocząć jazdę? | C | ADR 2025, 8.2.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0608 | ADR-B-01 | ADR-B-01-K07 | W tabeli A ADR przy danym numerze UN wskazano warunek, który zabrania przewozu tej substancji w opisanej postaci. Nadawca mimo to przygotował dokumenty. Co powinien zrobić przewoźnik? | A | ADR 2025, 2.1; 3.2, tabela A | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0609 | ADR-B-01 | ADR-B-01-K05 | Przesyłki LQ są prawidłowo zapakowane, ale kierowca chce usunąć oznaczenie ilości ograniczonych z opakowania, aby wyglądało jak zwykła przesyłka. Czy może? | B | ADR 2025, 3.4.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+
+Najnowsza redakcyjna partia 4x125 (2026-10-28): [raport próbki 40, dystraktorów i synchronizacji](../../podstawowy/raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md). Bank bieżący: 609 pytań, wszystkie `needs_review`, 0 `verified`.
