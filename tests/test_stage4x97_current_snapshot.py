@@ -47,7 +47,7 @@ class CurrentSnapshotTests(unittest.TestCase):
         self.assertEqual(sample["source_bank_blob_sha"], bank_sha)
         self.assertEqual(manifest["current_bank_blob_sha"], bank_sha)
         self.assertEqual(len(sample["sample_ids"]), 40)
-        self.assertEqual(len(set(sample["sample_ids"])), 60)
+        self.assertEqual(len(set(sample["sample_ids"])), 40)
         self.assertTrue(set(sample["sample_ids"]).issubset(by_id))
         excluded = set(sample["excluded_ids"])
         self.assertTrue(set(sample["sample_ids"]).isdisjoint(excluded))
