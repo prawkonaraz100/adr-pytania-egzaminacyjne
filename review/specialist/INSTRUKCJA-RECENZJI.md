@@ -1,3 +1,5 @@
+> **Bieżąca migawka 4x121 (28.10.2026):** bank `podstawowy/questions.jsonl`, 609 pytań, blob SHA `f18b273e3451730a4efc28e10cd0ff16b03807f5`; wszystkie `needs_review`, 0 `verified`. Najnowszy raport redakcyjny: `podstawowy/raporty/etap-4x121-proba40-explanations-sync-2026-10-28.md`. Recenzję prawną nadal musi wykonać specjalista.
+
 ## Bieżąca migawka — etap 4x120 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `04ace7f478868d0901bbc45fb26af3d866e18538`.
