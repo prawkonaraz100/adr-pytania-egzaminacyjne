@@ -3,7 +3,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](INSTRUKCJA-KURSANTA.md): sposób rozwiązania, liczenie wyniku, korzystanie z wyjaśnień i powrót do lekcji.
 - Parametry oficjalnego egzaminu podstawowego: 30 pytań jednokrotnego wyboru, 60 minut, co najmniej 2/3 poprawnych odpowiedzi, czyli 20/30 — rozporządzenie Dz.U. 2024 poz. 964, § 9–11 ([ELI — akt obowiązujący](https://eli.gov.pl/eli/DU/2024/964/ogl)).
 - Ważne: arkusze 001–005 są materiałami treningowymi, nie oficjalnym katalogiem pytań. Wynik próby nie daje uprawnień ADR.
-- Aktualny bank: 620 pytań, blob SHA `8b1ef0c516d2e9777ccec719a913bc9bf7e118c6`; wszystkie `needs_review`, 0 `verified`.
+- Aktualny bank: 620 pytań, blob SHA `c6e6bfc2708576a656ef44d68b68ce6d4d836581`; wszystkie `needs_review`, 0 `verified`.
 - Warianty/klucze 001–005: po 30 pytań, 13 działów, 150 unikalnych ID łącznie; A/B/C = 10/10/10 w każdym wariancie; publikacja nieautoryzowana.
 - Raport pakietu i instrukcji: [etap 4x135](../raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md).
 - Najnowszy przegląd spójności: [etap 4x131](../raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md).
