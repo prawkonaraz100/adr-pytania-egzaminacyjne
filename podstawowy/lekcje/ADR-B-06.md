@@ -79,6 +79,9 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+### Ćwiczenie: numery na tablicy różnią się od dokumentów
+Przed wyjazdem kierowca zauważa, że numer na tablicy pomarańczowej nie zgadza się z dokumentem. **Kolejne decyzje:** (1) rozdziela numer UN i numer rozpoznawczy zagrożenia; (2) odczytuje właściwy wpis ADR i sprawdza wymagany rodzaj tablicy; (3) zgłasza rozbieżność i wstrzymuje wyjazd do wyjaśnienia; (4) sprawdza czytelność i zgodność oznaczenia po poprawce. **Dlaczego:** błędne numery mogą wprowadzić w błąd osoby kontrolujące i służby ratownicze. Pytania: `ADR-B-0016`, `ADR-B-0507`, `ADR-B-0217`; scenariusz `SC-ADR-B-06-02`. Podstawa: ADR 5.3.2.2.2 i 5.3.2.3.1.
+
 ## Co musisz zapamiętać
 - Numer UN i numer rozpoznawczy zagrożenia to nie to samo.
 - Nalepka na sztuce przesyłki i nalepka dużego formatu mają różne zastosowanie.
