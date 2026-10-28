@@ -45,7 +45,7 @@ Wszystkie siedem zmienionych explanation ma 2–5 zdań i 365–432 znaki. Najpi
 - Warianty i klucze egzaminów próbnych 001–005 wskazują nowy bank SHA `ed7e1842d6f15d1ecde54ea3319d9efe3ef7a728`.
 - Wariant 004 zsynchronizowano z nowymi opcjami `ADR-B-0390`; wariant 005 — z nowymi opcjami `ADR-B-0510`. Klucze 004 i 005 otrzymały aktualne explanation dla tych pytań.
 - Klucz 001 dla `ADR-B-0489` pozostawiono z wyjaśnieniem zmapowanym do liter w arkuszu; test sprawdza to mapowanie, a nie surowy tekst explanation z banku.
-- Odświeżono migawki `review/legal-clauses/` i `review/sequential/` dla zakresów 241–246, 282–283, 381–398, 417–436, 447–454, 510–512 i 526–533. Wszystkie pozostają oznaczone jako wymagające niezależnej recenzji.
+- Odświeżono migawki `review/legal-clauses/` i `review/sequential/` dla zakresów 241–246, 282–283, 381–398, 417–436, 455–460, 510–512 i 526–533. Wszystkie pozostają oznaczone jako wymagające niezależnej recenzji.
 - Sprawdzono 13 lekcji i 39 scenariuszy pod kątem istnienia odwołań; nie zmieniano treści lekcji ani scenariuszy, ponieważ nie wykryto potwierdzonej sprzeczności wynikającej z tej partii.
 
 ## 4. Quality Gate — preflight
