@@ -1,13 +1,12 @@
-## Bieżąca migawka — etap 4x109 (28.10.2026)
+## Bieżąca migawka — etap 4x110 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `6fd194bfc51ff19c38e4dee598a9fae499e953a3`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `c2bf003935faf9e51ae8b03759e456006049ef5b`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
-- Próbka 40, seed `41092026`; wykluczono 263 ID jawnie zapisane w rejestrze etapów 4x103–4x108. Raport: `podstawowy/raporty/etap-4x109-proba40-spojnosc-scenariusze-egzaminy-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x109-wykluczenia-proby.json`.
-- Poprawiono dystraktory i explanation w ADR-B-0194, ADR-B-0575, ADR-B-0083 i ADR-B-0561. Poprawne litery i statusy pozostały bez zmian; pełna kontrola prawna nadal wymaga specjalisty.
-- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków.
-- Lekcje 13/13; scenariusze 39/39 z poprawnymi question_ids; egzaminy 001–005 po 30 pytań, A/B/C 10/10/10, maksymalna seria 3.
-- Lokalny `git clone` nie powiódł się z powodu błędu DNS; lokalnego PASS nie deklarowano. Wymagany pełny PASS GitHub Actions Quality Gate.
-- Status wszystkich pytań pozostaje `needs_review`; nie nadano `verified`.
+- Próbka 40, seed `41102026`; konserwatywnie wykluczono 303 identyfikatory występujące w artefaktach etapów 4x103–4x109. Raport: `podstawowy/raporty/etap-4x110-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x110-wykluczenia-proby.json`.
+- Zmieniono wyłącznie dystraktory i dopasowane explanation w ADR-B-0016, ADR-B-0109 i ADR-B-0164; poprawne litery i podstawy prawne pozostały bez zmian.
+- Egzaminy 001–005 i klucze wskazują bieżący blob; po 30 pytań, bez duplikatów, A/B/C 10/10/10. Status wszystkich pytań pozostaje `needs_review`.
+- Metryki: „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków.
+- Niezależna recenzja prawna nadal wymagana; CI PR #569 jest jedyną podstawą do potwierdzenia Quality Gate.
 
 # Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x87
 
