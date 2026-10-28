@@ -155,15 +155,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawne: 5.4.3.3 nakazuje zapoznanie się z instrukcjami przed podróżą."
+          "rationale": "Poprawna: kierowca musi poznać zagrożenia towaru i instrukcje przed rozpoczęciem jazdy."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędne: odłożenie zapoznania się do pierwszego parkingu narusza 5.4.3.3."
+          "rationale": "Błędna: odkładanie lektury do postoju oznacza, że kierowca rusza bez przygotowania."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędne: sam numer UN nie zastępuje zapoznania załogi z instrukcjami."
+          "rationale": "Błędna: ustne streszczenie nie zastępuje zapoznania się z pełnymi instrukcjami pisemnymi."
         }
       },
       "observed_answer_key": "A",
@@ -177,12 +177,12 @@
         "module_id": "ADR-B-05",
         "stem": "Przed odjazdem kierowca odbiera od przewoźnika instrukcje pisemne ADR, ale nie zdążył zapoznać się z działaniami na wypadek awarii dotyczącej przewożonego towaru. Co powinien zrobić?",
         "options": {
-          "A": "Przed odjazdem poznać właściwości towaru i instrukcje, a wątpliwości wyjaśnić",
-          "B": "Przeczytać instrukcje dopiero po zatrzymaniu na pierwszym parkingu",
-          "C": "Sprawdzić tylko numer UN i pozostawić instrukcje do analizy służbom ratowniczym"
+          "A": "Przed odjazdem poznać właściwości towaru i przeczytać instrukcje, a wątpliwości wyjaśnić",
+          "B": "Zapoznać się z instrukcjami dopiero po pierwszym postoju, jeśli trasa jest krótka",
+          "C": "Poprosić dyspozytora o ustne streszczenie zamiast przeczytać instrukcje"
         },
         "correct_option": "A",
-        "explanation": "Przed rozpoczęciem podróży członkowie załogi muszą poznać przewożone towary i zapoznać się z instrukcjami pisemnymi dotyczącymi wypadku lub awarii. Nie należy odkładać lektury do pierwszego parkingu ani pozostawiać jej ratownikom. Znajomość instrukcji pozwala szybko i bezpiecznie zareagować, gdy wydarzy się incydent. Podstawa: ADR 5.4.3.3.",
+        "explanation": "Przed rozpoczęciem jazdy kierowca musi znać zagrożenia przewożonego towaru i przeczytać instrukcje pisemne, bo podczas awarii może nie być czasu na naukę. Krótka trasa ani ustne streszczenie dyspozytora nie zastępują dokumentu i przygotowania. Wątpliwości trzeba wyjaśnić przed odjazdem. Podstawa: ADR 5.4.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
