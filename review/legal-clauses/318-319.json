@@ -55,15 +55,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępna zgodność z zakresem ADR 2025, 9.1.1.2 (definicje pojazdów EX/II i EX/III): ADR definiuje pojazdy EX/II i EX/III jako pojazdy do przewozu materiałów i przedmiotów wybuchowych klasy 1. Nie oznacza to, że każdy przewóz klasy 1 wymaga dowolnie wybranego pojazdu EX — szczegółowe warunki trzeba sprawdzić osobno."
+          "rationale": "Poprawne: EX/II i EX/III to typy pojazdów przeznaczone do przewozu materiałów i przedmiotów wybuchowych klasy 1."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Wyłącznie FL”) sprzeczny z regułą lub definicją z ADR 2025, 9.1.1.2 (definicje pojazdów EX/II i EX/III); indywidualna kontrola urzędowego tekstu polskiego pending."
+          "rationale": "Błędne: FL jest kategorią pojazdu do określonych przewozów cysternowych, a nie oznaczeniem pojazdu do materiałów wybuchowych."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Wyłącznie AT”) sprzeczny z regułą lub definicją z ADR 2025, 9.1.1.2 (definicje pojazdów EX/II i EX/III); indywidualna kontrola urzędowego tekstu polskiego pending."
+          "rationale": "Błędne: AT to inny typ pojazdu-cysterny; nie zastępuje kategorii EX/II ani EX/III."
         }
       },
       "observed_answer_key": "A",
@@ -81,7 +81,7 @@
           "C": "Typ AT stosowany również do przewozu materiałów wybuchowych klasy 1"
         },
         "correct_option": "A",
-        "explanation": "EX/II i EX/III to kategorie pojazdów przeznaczonych do przewozu materiałów i przedmiotów wybuchowych klasy 1. FL oznacza określony typ pojazdu-cysterny do przewozu m.in. niektórych cieczy zapalnych lub gazów, a AT — inny typ pojazdu-cysterny zdefiniowany w ADR. Nie są to klasy towarów ani zamienne oznaczenia. Właściwy typ zależy od konstrukcji pojazdu i ładunku. Podstawa: ADR 9.1.1.2.",
+        "explanation": "EX/II i EX/III to typy pojazdów przeznaczonych do przewozu materiałów i przedmiotów wybuchowych klasy 1. FL dotyczy określonych przewozów cieczy zapalnych lub gazów w cysternach, a AT innego typu pojazdu-cysterny. Nie są to zamienne oznaczenia: właściwy typ zależy od pojazdu i ładunku, więc FL ani AT nie zastępują EX/II lub EX/III. Podstawa: ADR 9.1.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -91,7 +91,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "editorial_result": "distractors_and_explanation_revised_4x108_specialist_review_pending"
     }
   ]
 }
