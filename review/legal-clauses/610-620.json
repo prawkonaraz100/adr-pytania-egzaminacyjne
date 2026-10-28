@@ -16,7 +16,7 @@
           "C": "Kolumnę 2 — kod tunelowy towaru."
         },
         "correct_option": "A",
-        "explanation": "Kolumna 5 tabeli A wskazuje wzory nalepek ostrzegawczych wymaganych dla danej pozycji, więc pomaga przygotować właściwe oznakowanie. Kolumna 4 dotyczy grupy pakowania, a kolumna 2 podaje nazwę i opis towaru; nie zastępują one informacji o nalepkach. Podstawa: ADR 3.2.1, tabela A, kolumna 5.",
+        "explanation": "Kolumna 5 tabeli A wskazuje wzory nalepek ostrzegawczych wymaganych dla danej pozycji, więc pomaga przygotować właściwe oznakowanie. Kolumna 4 dotyczy grupy pakowania, a kolumna 2 podaje nazwę i opis towaru; nie zastępują one informacji o nalepkach. Kierowca powinien porównać wymaganie z pozycją towaru, a nie wybierać oznaczenie na podstawie samej nazwy handlowej. Podstawa: ADR 3.2.1, tabela A, kolumna 5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -30,15 +30,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Opcja A jest poprawna: Kolumnę 5 — wymagane nalepki zagrożeń.. Kolumna 5 tabeli A wskazuje wzory nalepek ostrzegawczych wymaganych dla danej pozycji, więc pomaga przygotować właściwe oznakowanie. Kolumna 4 dotyczy grupy pakowania, a kolumna 2 podaje nazwę i opis towaru; nie zastępują one informacji o nalepkach. Podstawa: ADR 3.2.1, tabela A, kolumna 5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja A jest poprawna: Kolumnę 5 — wymagane nalepki zagrożeń.. Kolumna 5 tabeli A wskazuje wzory nalepek ostrzegawczych wymaganych dla danej pozycji, więc pomaga przygotować właściwe oznakowanie. Kolumna 4 dotyczy grupy pakowania, a kolumna 2 podaje nazwę i opis towaru; nie zastępują one informacji o nalepkach. Kierowca powinien porównać wymaganie z pozycją towaru, a nie wybierać oznaczenie na podstawie samej nazwy handlowej. Podstawa: ADR 3.2.1, tabela A, kolumna 5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Kolumnę 4 — masę netto każdej sztuki przesyłki.. Kolumna 5 tabeli A wskazuje wzory nalepek ostrzegawczych wymaganych dla danej pozycji, więc pomaga przygotować właściwe oznakowanie. Kolumna 4 dotyczy grupy pakowania, a kolumna 2 podaje nazwę i opis towaru; nie zastępują one informacji o nalepkach. Podstawa: ADR 3.2.1, tabela A, kolumna 5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja B jest błędna: Kolumnę 4 — masę netto każdej sztuki przesyłki.. Kolumna 5 tabeli A wskazuje wzory nalepek ostrzegawczych wymaganych dla danej pozycji, więc pomaga przygotować właściwe oznakowanie. Kolumna 4 dotyczy grupy pakowania, a kolumna 2 podaje nazwę i opis towaru; nie zastępują one informacji o nalepkach. Kierowca powinien porównać wymaganie z pozycją towaru, a nie wybierać oznaczenie na podstawie samej nazwy handlowej. Podstawa: ADR 3.2.1, tabela A, kolumna 5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: Kolumnę 2 — kod tunelowy towaru.. Kolumna 5 tabeli A wskazuje wzory nalepek ostrzegawczych wymaganych dla danej pozycji, więc pomaga przygotować właściwe oznakowanie. Kolumna 4 dotyczy grupy pakowania, a kolumna 2 podaje nazwę i opis towaru; nie zastępują one informacji o nalepkach. Podstawa: ADR 3.2.1, tabela A, kolumna 5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja C jest błędna: Kolumnę 2 — kod tunelowy towaru.. Kolumna 5 tabeli A wskazuje wzory nalepek ostrzegawczych wymaganych dla danej pozycji, więc pomaga przygotować właściwe oznakowanie. Kolumna 4 dotyczy grupy pakowania, a kolumna 2 podaje nazwę i opis towaru; nie zastępują one informacji o nalepkach. Kierowca powinien porównać wymaganie z pozycją towaru, a nie wybierać oznaczenie na podstawie samej nazwy handlowej. Podstawa: ADR 3.2.1, tabela A, kolumna 5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         }
       },
       "observed_answer_key": "A",
@@ -152,9 +152,9 @@
         "module_id": "ADR-B-03",
         "stem": "Kierowca zauważa rozlew nieznanej substancji i drażniące opary. Nie ma odpowiedniego sprzętu ochronnego. Jak powinien postąpić?",
         "options": {
-          "A": "Zbliżyć się ostrożnie i rozpoznać substancję po zapachu przed wezwaniem pomocy.",
+          "A": "Rozpoznać substancję po zapachu, a potem dopiero powiadomić służby.",
           "B": "Przetrzeć rozlew materiałem z kabiny, a potem sprawdzić, czy opakowanie nadal cieknie.",
-          "C": "Nie dotykać rozlewu, odejść od oparów i wezwać pomoc."
+          "C": "Nie dotykać rozlewu; odejść od oparów, ostrzec innych i wezwać służby."
         },
         "correct_option": "C",
         "explanation": "Nieznaną substancję trzeba traktować jako zagrożenie: nie dotykać jej i nie próbować rozpoznawać po zapachu. Zbliżenie się do rozlewu lub wycieranie go bez odpowiedniego wyposażenia może spowodować kontakt ze szkodliwą substancją; bezpieczniej oddalić się i powiadomić służby. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
@@ -171,7 +171,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Zbliżyć się ostrożnie i rozpoznać substancję po zapachu przed wezwaniem pomocy.. Nieznaną substancję trzeba traktować jako zagrożenie: nie dotykać jej i nie próbować rozpoznawać po zapachu. Zbliżenie się do rozlewu lub wycieranie go bez odpowiedniego wyposażenia może spowodować kontakt ze szkodliwą substancją; bezpieczniej oddalić się i powiadomić służby. Podstawa: instrukcje pisemne ADR 5.4.3.4. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja A jest błędna: Rozpoznać substancję po zapachu, a potem dopiero powiadomić służby.. Nieznaną substancję trzeba traktować jako zagrożenie: nie dotykać jej i nie próbować rozpoznawać po zapachu. Zbliżenie się do rozlewu lub wycieranie go bez odpowiedniego wyposażenia może spowodować kontakt ze szkodliwą substancją; bezpieczniej oddalić się i powiadomić służby. Podstawa: instrukcje pisemne ADR 5.4.3.4. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "B": {
           "expected_correct": false,
@@ -179,7 +179,7 @@
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Opcja C jest poprawna: Nie dotykać rozlewu, odejść od oparów i wezwać pomoc.. Nieznaną substancję trzeba traktować jako zagrożenie: nie dotykać jej i nie próbować rozpoznawać po zapachu. Zbliżenie się do rozlewu lub wycieranie go bez odpowiedniego wyposażenia może spowodować kontakt ze szkodliwą substancją; bezpieczniej oddalić się i powiadomić służby. Podstawa: instrukcje pisemne ADR 5.4.3.4. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja C jest poprawna: Nie dotykać rozlewu; odejść od oparów, ostrzec innych i wezwać służby.. Nieznaną substancję trzeba traktować jako zagrożenie: nie dotykać jej i nie próbować rozpoznawać po zapachu. Zbliżenie się do rozlewu lub wycieranie go bez odpowiedniego wyposażenia może spowodować kontakt ze szkodliwą substancją; bezpieczniej oddalić się i powiadomić służby. Podstawa: instrukcje pisemne ADR 5.4.3.4. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         }
       },
       "observed_answer_key": "C",
@@ -199,9 +199,9 @@
         "module_id": "ADR-B-05",
         "stem": "Ogień obejmuje przedział ładunkowy pojazdu przewożącego towary niebezpieczne. Płomienie wydają się niewielkie. Co powinien zrobić członek załogi?",
         "options": {
-          "A": "Nie gasić ładowni; oddalić się i wezwać służby.",
-          "B": "Otworzyć drzwi ładowni, aby ustalić źródło ognia przed podjęciem decyzji.",
-          "C": "Spróbować ugasić ładunek gaśnicą, jeśli płomienie nie są jeszcze wysokie."
+          "A": "Nie gasić pożaru ładowni; oddalić się w bezpieczne miejsce i wezwać służby.",
+          "B": "Otworzyć drzwi ładowni, by ocenić źródło ognia przed wezwaniem pomocy.",
+          "C": "Użyć gaśnicy, jeśli ogień w ładowni wydaje się mały i możliwy do opanowania."
         },
         "correct_option": "A",
         "explanation": "Instrukcje pisemne ADR zabraniają załodze gaszenia pożaru w przedziale ładunkowym z towarami niebezpiecznymi; nawet małe płomienie nie są powodem do otwierania ładowni i ryzykowania kontaktu z ładunkiem. Otwieranie drzwi lub użycie gaśnicy może zwiększyć zagrożenie, dlatego priorytetem jest oddalenie się i wezwanie pomocy. Podstawa: ADR 5.4.3.4, instrukcje pisemne.",
@@ -218,15 +218,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Opcja A jest poprawna: Nie gasić ładowni; oddalić się i wezwać służby.. Instrukcje pisemne ADR zabraniają załodze gaszenia pożaru w przedziale ładunkowym z towarami niebezpiecznymi; nawet małe płomienie nie są powodem do otwierania ładowni i ryzykowania kontaktu z ładunkiem. Otwieranie drzwi lub użycie gaśnicy może zwiększyć zagrożenie, dlatego priorytetem jest oddalenie się i wezwanie pomocy. Podstawa: ADR 5.4.3.4, instrukcje pisemne. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja A jest poprawna: Nie gasić pożaru ładowni; oddalić się w bezpieczne miejsce i wezwać służby.. Instrukcje pisemne ADR zabraniają załodze gaszenia pożaru w przedziale ładunkowym z towarami niebezpiecznymi; nawet małe płomienie nie są powodem do otwierania ładowni i ryzykowania kontaktu z ładunkiem. Otwieranie drzwi lub użycie gaśnicy może zwiększyć zagrożenie, dlatego priorytetem jest oddalenie się i wezwanie pomocy. Podstawa: ADR 5.4.3.4, instrukcje pisemne. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Otworzyć drzwi ładowni, aby ustalić źródło ognia przed podjęciem decyzji.. Instrukcje pisemne ADR zabraniają załodze gaszenia pożaru w przedziale ładunkowym z towarami niebezpiecznymi; nawet małe płomienie nie są powodem do otwierania ładowni i ryzykowania kontaktu z ładunkiem. Otwieranie drzwi lub użycie gaśnicy może zwiększyć zagrożenie, dlatego priorytetem jest oddalenie się i wezwanie pomocy. Podstawa: ADR 5.4.3.4, instrukcje pisemne. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja B jest błędna: Otworzyć drzwi ładowni, by ocenić źródło ognia przed wezwaniem pomocy.. Instrukcje pisemne ADR zabraniają załodze gaszenia pożaru w przedziale ładunkowym z towarami niebezpiecznymi; nawet małe płomienie nie są powodem do otwierania ładowni i ryzykowania kontaktu z ładunkiem. Otwieranie drzwi lub użycie gaśnicy może zwiększyć zagrożenie, dlatego priorytetem jest oddalenie się i wezwanie pomocy. Podstawa: ADR 5.4.3.4, instrukcje pisemne. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: Spróbować ugasić ładunek gaśnicą, jeśli płomienie nie są jeszcze wysokie.. Instrukcje pisemne ADR zabraniają załodze gaszenia pożaru w przedziale ładunkowym z towarami niebezpiecznymi; nawet małe płomienie nie są powodem do otwierania ładowni i ryzykowania kontaktu z ładunkiem. Otwieranie drzwi lub użycie gaśnicy może zwiększyć zagrożenie, dlatego priorytetem jest oddalenie się i wezwanie pomocy. Podstawa: ADR 5.4.3.4, instrukcje pisemne. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja C jest błędna: Użyć gaśnicy, jeśli ogień w ładowni wydaje się mały i możliwy do opanowania.. Instrukcje pisemne ADR zabraniają załodze gaszenia pożaru w przedziale ładunkowym z towarami niebezpiecznymi; nawet małe płomienie nie są powodem do otwierania ładowni i ryzykowania kontaktu z ładunkiem. Otwieranie drzwi lub użycie gaśnicy może zwiększyć zagrożenie, dlatego priorytetem jest oddalenie się i wezwanie pomocy. Podstawa: ADR 5.4.3.4, instrukcje pisemne. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         }
       },
       "observed_answer_key": "A",
@@ -247,11 +247,11 @@
         "stem": "Na górnym polu pomarańczowej tablicy ADR numer rozpoznawczy zagrożenia zaczyna się literą X. Jaką informację powinien zapamiętać kierowca?",
         "options": {
           "A": "Litera X oznacza, że wodą można gasić każdy pożar bez dodatkowych ustaleń.",
-          "B": "X ostrzega, że towar może niebezpiecznie reagować z wodą.",
+          "B": "X ostrzega, że towar może reagować niebezpiecznie z wodą; nie improwizuj.",
           "C": "Litera X informuje wyłącznie o wybuchu i nie dotyczy reakcji z wodą."
         },
         "correct_option": "B",
-        "explanation": "Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że substancja reaguje niebezpiecznie z wodą. Nie oznacza to wyłącznie zagrożenia wybuchem ani zgody na użycie wody; w razie zdarzenia trzeba przekazać tę informację służbom i postępować zgodnie z instrukcjami. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że substancja reaguje niebezpiecznie z wodą. Nie oznacza to wyłącznie zagrożenia wybuchem ani zgody na użycie wody; w razie zdarzenia trzeba przekazać tę informację służbom i postępować zgodnie z instrukcjami. Nie dobieraj środka gaśniczego na podstawie domysłu; przekaż oznaczenie służbom. Podstawa: ADR 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -265,15 +265,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Litera X oznacza, że wodą można gasić każdy pożar bez dodatkowych ustaleń.. Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że substancja reaguje niebezpiecznie z wodą. Nie oznacza to wyłącznie zagrożenia wybuchem ani zgody na użycie wody; w razie zdarzenia trzeba przekazać tę informację służbom i postępować zgodnie z instrukcjami. Podstawa: ADR 5.3.2.3.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja A jest błędna: Litera X oznacza, że wodą można gasić każdy pożar bez dodatkowych ustaleń.. Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że substancja reaguje niebezpiecznie z wodą. Nie oznacza to wyłącznie zagrożenia wybuchem ani zgody na użycie wody; w razie zdarzenia trzeba przekazać tę informację służbom i postępować zgodnie z instrukcjami. Nie dobieraj środka gaśniczego na podstawie domysłu; przekaż oznaczenie służbom. Podstawa: ADR 5.3.2.3.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Opcja B jest poprawna: X ostrzega, że towar może niebezpiecznie reagować z wodą.. Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że substancja reaguje niebezpiecznie z wodą. Nie oznacza to wyłącznie zagrożenia wybuchem ani zgody na użycie wody; w razie zdarzenia trzeba przekazać tę informację służbom i postępować zgodnie z instrukcjami. Podstawa: ADR 5.3.2.3.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja B jest poprawna: X ostrzega, że towar może reagować niebezpiecznie z wodą; nie improwizuj.. Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że substancja reaguje niebezpiecznie z wodą. Nie oznacza to wyłącznie zagrożenia wybuchem ani zgody na użycie wody; w razie zdarzenia trzeba przekazać tę informację służbom i postępować zgodnie z instrukcjami. Nie dobieraj środka gaśniczego na podstawie domysłu; przekaż oznaczenie służbom. Podstawa: ADR 5.3.2.3.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: Litera X informuje wyłącznie o wybuchu i nie dotyczy reakcji z wodą.. Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że substancja reaguje niebezpiecznie z wodą. Nie oznacza to wyłącznie zagrożenia wybuchem ani zgody na użycie wody; w razie zdarzenia trzeba przekazać tę informację służbom i postępować zgodnie z instrukcjami. Podstawa: ADR 5.3.2.3.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja C jest błędna: Litera X informuje wyłącznie o wybuchu i nie dotyczy reakcji z wodą.. Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że substancja reaguje niebezpiecznie z wodą. Nie oznacza to wyłącznie zagrożenia wybuchem ani zgody na użycie wody; w razie zdarzenia trzeba przekazać tę informację służbom i postępować zgodnie z instrukcjami. Nie dobieraj środka gaśniczego na podstawie domysłu; przekaż oznaczenie służbom. Podstawa: ADR 5.3.2.3.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         }
       },
       "observed_answer_key": "B",
@@ -293,9 +293,9 @@
         "module_id": "ADR-B-06",
         "stem": "Na tablicy pomarańczowej widnieje numer rozpoznawczy zagrożenia 33. Co oznacza powtórzenie cyfry 3?",
         "options": {
-          "A": "Towar zawsze jest gazem trującym i nie trzeba sprawdzać numeru UN.",
+          "A": "To gaz trujący; numeru UN nie trzeba sprawdzać.",
           "B": "Powtórzenie cyfry oznacza automatyczne zwolnienie z ograniczeń przewozu.",
-          "C": "33 wskazuje nasilone zagrożenie związane z palnością."
+          "C": "33 wskazuje nasilone zagrożenie palnością; sprawdź też numer UN."
         },
         "correct_option": "C",
         "explanation": "Powtórzenie cyfry w numerze rozpoznawczym zagrożenia wskazuje na nasilenie zagrożenia opisywanego tą cyfrą; przy numerze 33 chodzi o silne zagrożenie związane z palnością. Sam numer zagrożenia nie zastępuje numeru UN i nie daje zwolnienia z wymagań, dlatego kierowca powinien porównać oznakowanie z dokumentami. Podstawa: ADR 5.3.2.3.1.",
@@ -312,7 +312,7 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Towar zawsze jest gazem trującym i nie trzeba sprawdzać numeru UN.. Powtórzenie cyfry w numerze rozpoznawczym zagrożenia wskazuje na nasilenie zagrożenia opisywanego tą cyfrą; przy numerze 33 chodzi o silne zagrożenie związane z palnością. Sam numer zagrożenia nie zastępuje numeru UN i nie daje zwolnienia z wymagań, dlatego kierowca powinien porównać oznakowanie z dokumentami. Podstawa: ADR 5.3.2.3.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja A jest błędna: To gaz trujący; numeru UN nie trzeba sprawdzać.. Powtórzenie cyfry w numerze rozpoznawczym zagrożenia wskazuje na nasilenie zagrożenia opisywanego tą cyfrą; przy numerze 33 chodzi o silne zagrożenie związane z palnością. Sam numer zagrożenia nie zastępuje numeru UN i nie daje zwolnienia z wymagań, dlatego kierowca powinien porównać oznakowanie z dokumentami. Podstawa: ADR 5.3.2.3.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "B": {
           "expected_correct": false,
@@ -320,7 +320,7 @@
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Opcja C jest poprawna: 33 wskazuje nasilone zagrożenie związane z palnością.. Powtórzenie cyfry w numerze rozpoznawczym zagrożenia wskazuje na nasilenie zagrożenia opisywanego tą cyfrą; przy numerze 33 chodzi o silne zagrożenie związane z palnością. Sam numer zagrożenia nie zastępuje numeru UN i nie daje zwolnienia z wymagań, dlatego kierowca powinien porównać oznakowanie z dokumentami. Podstawa: ADR 5.3.2.3.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja C jest poprawna: 33 wskazuje nasilone zagrożenie palnością; sprawdź też numer UN.. Powtórzenie cyfry w numerze rozpoznawczym zagrożenia wskazuje na nasilenie zagrożenia opisywanego tą cyfrą; przy numerze 33 chodzi o silne zagrożenie związane z palnością. Sam numer zagrożenia nie zastępuje numeru UN i nie daje zwolnienia z wymagań, dlatego kierowca powinien porównać oznakowanie z dokumentami. Podstawa: ADR 5.3.2.3.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         }
       },
       "observed_answer_key": "C",
@@ -340,7 +340,7 @@
         "module_id": "ADR-B-09",
         "stem": "Opakowanie kombinowane zawiera opakowania wewnętrzne z cieczą i podlega wymogowi strzałek kierunkowych. Gdzie należy umieścić strzałki?",
         "options": {
-          "A": "Na dwóch przeciwległych pionowych bokach opakowania.",
+          "A": "Na dwóch przeciwległych pionowych bokach, aby oznaczenie było czytelne.",
           "B": "Wyłącznie na górnej powierzchni, nawet jeśli po ustawieniu nie będą widoczne z boku.",
           "C": "Na jednym dowolnym boku; ważne, aby były narysowane większą czcionką."
         },
@@ -359,7 +359,7 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Opcja A jest poprawna: Na dwóch przeciwległych pionowych bokach opakowania.. Jeśli dla danej sztuki przesyłki wymagane są strzałki kierunkowe, należy umieścić je na dwóch przeciwległych pionowych bokach, by obsługa mogła rozpoznać właściwe ustawienie. Sam znak na górze lub tylko na jednym boku nie spełnia tego wymogu; potem przesyłkę trzeba także ułożyć zgodnie ze strzałkami. Podstawa: ADR 5.2.1.10.1 i 7.5.1.5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja A jest poprawna: Na dwóch przeciwległych pionowych bokach, aby oznaczenie było czytelne.. Jeśli dla danej sztuki przesyłki wymagane są strzałki kierunkowe, należy umieścić je na dwóch przeciwległych pionowych bokach, by obsługa mogła rozpoznać właściwe ustawienie. Sam znak na górze lub tylko na jednym boku nie spełnia tego wymogu; potem przesyłkę trzeba także ułożyć zgodnie ze strzałkami. Podstawa: ADR 5.2.1.10.1 i 7.5.1.5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "B": {
           "expected_correct": false,
@@ -388,7 +388,7 @@
         "stem": "Na palecie można ustawić kilka warstw opakowań, ale dolne opakowanie zaczyna się uginać pod ciężarem. Co należy zrobić przed wyjazdem?",
         "options": {
           "A": "Pozostawić stos, jeśli pasy są napięte i ładunek nie przesuwa się na boki.",
-          "B": "Zmienić układ, aby ciężar nie uszkadzał opakowań.",
+          "B": "Zmienić układ ładunku i mocowanie, by ciężar nie uszkadzał opakowań.",
           "C": "Dodać kolejną warstwę, aby równomiernie rozłożyć ciężar na palecie."
         },
         "correct_option": "B",
@@ -410,7 +410,7 @@
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Opcja B jest poprawna: Zmienić układ, aby ciężar nie uszkadzał opakowań.. Ładunek musi być ułożony i zabezpieczony tak, by normalne warunki jazdy nie uszkodziły opakowań. Jeśli dolne opakowanie się ugina, stos nie jest bezpieczny nawet wtedy, gdy pasy ograniczają przesuwanie; dokładanie kolejnej warstwy zwiększa obciążenie, więc trzeba zmienić układ przed ruszeniem. Podstawa: ADR 7.5.7.1–7.5.7.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja B jest poprawna: Zmienić układ ładunku i mocowanie, by ciężar nie uszkadzał opakowań.. Ładunek musi być ułożony i zabezpieczony tak, by normalne warunki jazdy nie uszkodziły opakowań. Jeśli dolne opakowanie się ugina, stos nie jest bezpieczny nawet wtedy, gdy pasy ograniczają przesuwanie; dokładanie kolejnej warstwy zwiększa obciążenie, więc trzeba zmienić układ przed ruszeniem. Podstawa: ADR 7.5.7.1–7.5.7.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "C": {
           "expected_correct": false,
@@ -436,7 +436,7 @@
         "options": {
           "A": "Ważność zależy wyłącznie od tego, jak długo kierowca pracuje u danego przewoźnika.",
           "B": "Zaświadczenie jest ważne przez rok i nie można go odnowić po szkoleniu.",
-          "C": "Co do zasady pięć lat, z możliwością odnowienia."
+          "C": "Co do zasady pięć lat; sprawdź datę końcową i zasady odnowienia zgodnie z ADR."
         },
         "correct_option": "C",
         "explanation": "Zaświadczenie ADR kierowcy ma ograniczony okres ważności, co do zasady pięć lat, dlatego przed przyjęciem zlecenia trzeba sprawdzić datę końcową i zakres uprawnień. Zatrudnienie u tego samego przewoźnika nie przedłuża dokumentu, a twierdzenie o jednym roku pomija przewidzianą procedurę odnowienia. Podstawa: ADR 8.2.2.8.2.",
@@ -461,7 +461,7 @@
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Opcja C jest poprawna: Co do zasady pięć lat, z możliwością odnowienia.. Zaświadczenie ADR kierowcy ma ograniczony okres ważności, co do zasady pięć lat, dlatego przed przyjęciem zlecenia trzeba sprawdzić datę końcową i zakres uprawnień. Zatrudnienie u tego samego przewoźnika nie przedłuża dokumentu, a twierdzenie o jednym roku pomija przewidzianą procedurę odnowienia. Podstawa: ADR 8.2.2.8.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja C jest poprawna: Co do zasady pięć lat; sprawdź datę końcową i zasady odnowienia zgodnie z ADR.. Zaświadczenie ADR kierowcy ma ograniczony okres ważności, co do zasady pięć lat, dlatego przed przyjęciem zlecenia trzeba sprawdzić datę końcową i zakres uprawnień. Zatrudnienie u tego samego przewoźnika nie przedłuża dokumentu, a twierdzenie o jednym roku pomija przewidzianą procedurę odnowienia. Podstawa: ADR 8.2.2.8.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         }
       },
       "observed_answer_key": "C",
@@ -483,10 +483,10 @@
         "options": {
           "A": "Pozostawić dokument w oryginalnym języku i polecić kierowcy ustne streszczenie.",
           "B": "Wystarczy, że instrukcje rozumie kierowca prowadzący, nawet jeśli reszta załogi ich nie czyta.",
-          "C": "Instrukcje w języku zrozumiałym dla każdego członka załogi."
+          "C": "Zapewnić instrukcje w języku, który każdy członek załogi może czytać i zrozumieć."
         },
         "correct_option": "C",
-        "explanation": "Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Podstawa: ADR 5.4.3.2.",
+        "explanation": "Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Przed wyjazdem trzeba więc sprawdzić nie tylko obecność dokumentu, lecz także to, czy cała załoga może z niego skorzystać. Podstawa: ADR 5.4.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -500,15 +500,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Pozostawić dokument w oryginalnym języku i polecić kierowcy ustne streszczenie.. Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Podstawa: ADR 5.4.3.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja A jest błędna: Pozostawić dokument w oryginalnym języku i polecić kierowcy ustne streszczenie.. Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Przed wyjazdem trzeba więc sprawdzić nie tylko obecność dokumentu, lecz także to, czy cała załoga może z niego skorzystać. Podstawa: ADR 5.4.3.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Wystarczy, że instrukcje rozumie kierowca prowadzący, nawet jeśli reszta załogi ich nie czyta.. Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Podstawa: ADR 5.4.3.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja B jest błędna: Wystarczy, że instrukcje rozumie kierowca prowadzący, nawet jeśli reszta załogi ich nie czyta.. Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Przed wyjazdem trzeba więc sprawdzić nie tylko obecność dokumentu, lecz także to, czy cała załoga może z niego skorzystać. Podstawa: ADR 5.4.3.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Opcja C jest poprawna: Instrukcje w języku zrozumiałym dla każdego członka załogi.. Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Podstawa: ADR 5.4.3.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Opcja C jest poprawna: Zapewnić instrukcje w języku, który każdy członek załogi może czytać i zrozumieć.. Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Przed wyjazdem trzeba więc sprawdzić nie tylko obecność dokumentu, lecz także to, czy cała załoga może z niego skorzystać. Podstawa: ADR 5.4.3.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
         }
       },
       "observed_answer_key": "C",
