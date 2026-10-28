@@ -32,7 +32,7 @@ Nie zmieniano ID pytań, poprawnych liter ani podstaw prawnych. Po wyrównaniu o
 
 ## 4. Egzaminy próbne 001–005
 
-Wszystkie pięć wariantów i pięć kluczy wskazuje aktualny blob banku `4f6deeca86fea1b746039ab74db7c48f43abbfd0`. Każdy wariant zawiera 30 unikalnych pytań. Kontrola mapowania liter na tekst odpowiedzi i explanation wykryła jeden istniejący rozjazd: wyjaśnienie w kluczu 001 dla ADR-B-0489 mówiło, że mylącą opcją jest C, podczas gdy w aktualnym wariancie jest to A. Klucz poprawiono do tekstu z banku. Ponowna kontrola pięciu kluczy: brak rozbieżności tekstu poprawnej odpowiedzi lub explanation.
+Wszystkie pięć wariantów i pięć kluczy wskazuje aktualny blob banku `4f6deeca86fea1b746039ab74db7c48f43abbfd0`. Każdy wariant zawiera 30 unikalnych pytań. Kontrola mapowania liter wykazała, że explanation ADR-B-0489 w kluczu 001 musi używać litery po przestawieniu opcji: bankowa opcja A odpowiada opcji C w wariancie, więc odniesienie do C jest prawidłowe. Przywrócono wyjaśnienie z zachowaniem tego mapowania. Ponowna kontrola pięciu kluczy: brak rozbieżności tekstu poprawnej odpowiedzi lub explanation po mapowaniu.
 
 ## 5. Metryki Quality Gate po zmianach
 
