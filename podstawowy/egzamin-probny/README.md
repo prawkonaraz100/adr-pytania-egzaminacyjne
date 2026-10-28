@@ -1,3 +1,11 @@
+## Najnowsza synchronizacja — etap 4x118 (28.10.2026)
+
+- Aktualny blob banku: `28d809ccbf973fc8101f456eb9ab0144165110f1`.
+- Bank: 609 pytań; wszystkie `needs_review`, 0 `verified`; minimum explanation 300 znaków.
+- Etap 4x118: poprawiono dystraktory i explanation w ADR-B-0028, 0054, 0354, 0492 i 0535; poprawne litery i podstawy ADR bez zmian.
+- Zmienione ID nie występują w wariantach 001–005. Zsynchronizowano `source_bank_head` wszystkich wariantów i kluczy.
+- To wewnętrzne materiały treningowe, nie oficjalny egzamin ani zatwierdzony pakiet.
+
 ## Najnowsza synchronizacja — etap 4x113 (28.10.2026)
 
 - Aktualny blob banku: `2675c0636a421bf3b4347ad0117087d6ec633321`.
