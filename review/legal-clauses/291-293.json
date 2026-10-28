@@ -113,7 +113,7 @@
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Zestawiono regułę ADR 2025, 8.3.1 z opisem: W jednostce transportowej z towarami niebezpiecznymi przewóz pasażerów spoza załogi jest zabroniony, z uwzględnieniem zakresu stosowania ADR."
+          "rationale": "ADR 8.3.1 zabrania przewożenia osób spoza załogi w jednostce objętej tym wymaganiem. To wstępny przegląd redakcyjny; porównanie pełnego polskiego tekstu i zatwierdzenie specjalisty pozostają wymagane."
         }
       },
       "observed_answer_key": "C",
@@ -129,10 +129,10 @@
         "options": {
           "A": "Może jechać, jeśli zajmuje wolny fotel",
           "B": "Może jechać, gdy ma kamizelkę odblaskową",
-          "C": "Nie powinno się przewozić osób niebędących członkami załogi"
+          "C": "Nie wolno przewozić osób, które nie są członkami załogi"
         },
         "correct_option": "C",
-        "explanation": "Zasadą ADR jest, że w jednostce transportowej przewożącej towary niebezpieczne nie przewozi się osób niebędących członkami załogi. Wolne miejsce siedzące ani kamizelka odblaskowa nie czynią przypadkowego pasażera członkiem załogi i nie uchylają ograniczenia. Należy stosować tę regułę w zakresie, w jakim dany przewóz podlega ADR. Podstawa: ADR 8.3.1.",
+        "explanation": "ADR zabrania przewożenia w jednostce transportowej osób, które nie są członkami załogi, więc przypadkowy pasażer nie może po prostu dołączyć do kursu. Wolny fotel ani kamizelka odblaskowa nie zmieniają jego statusu i nie uchylają zakazu; kierowca powinien odmówić przewozu takiej osoby. Podstawa: ADR 8.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -141,6 +141,9 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       }
     }
