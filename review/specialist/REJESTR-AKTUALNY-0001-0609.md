@@ -1,3 +1,5 @@
+> Bieżący snapshot po etapie 4x122 (28.10.2026): bank blob SHA `00d8dcc732fccefb5f5bbf021eec204533a75708`; 609 pytań `needs_review`, 0 `verified`. Raport: `podstawowy/raporty/etap-4x122-proba40-explanations-sync-2026-10-28.md`. Ta aktualizacja nie oznacza zatwierdzenia żadnego pytania.
+
 > Bieżący snapshot po etapie 4x121 (28.10.2026): bank blob SHA `f18b273e3451730a4efc28e10cd0ff16b03807f5`; 609 pytań `needs_review`, 0 `verified`. Ostatni raport: `podstawowy/raporty/etap-4x121-proba40-explanations-sync-2026-10-28.md`. Ta aktualizacja nie oznacza zatwierdzenia żadnego pytania.
 
 ## Bieżąca migawka — etap 4x120 (28.10.2026)
