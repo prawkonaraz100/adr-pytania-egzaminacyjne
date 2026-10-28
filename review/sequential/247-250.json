@@ -143,14 +143,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Załoga wykonuje przewóz ADR podlegający wymaganiom 1.10.1.4. Jakiego dokumentu nie należy pomijać podczas kontroli?",
+        "stem": "Podczas kontroli okazuje się, że członek załogi ma dokument tożsamości ze zdjęciem w biurze, a nie przy sobie. Czy spełnia wymaganie ADR 1.10.1.4?",
         "options": {
-          "A": "Wspólna lista nazwisk członków załogi bez ich indywidualnych dokumentów ze zdjęciem",
-          "B": "Dokumentu tożsamości ze zdjęciem każdego członka załogi",
-          "C": "Dokument ze zdjęciem tylko dla kierowcy, bez dokumentu dla pozostałych członków załogi"
+          "A": "Tak, jeśli kierowca może przesłać zdjęcie dokumentu po kontroli",
+          "B": "Nie; każdy członek załogi objęty tym wymogiem powinien mieć własny dokument ze zdjęciem przy sobie",
+          "C": "Tak, jeśli przewoźnik ma listę nazwisk załogi w kabinie"
         },
         "correct_option": "B",
-        "explanation": "Wymaganie dotyczy indywidualnego dokumentu tożsamości ze zdjęciem dla każdego członka załogi, gdy ADR 1.10.1.4 ma zastosowanie. Lista nazwisk nie potwierdza tożsamości konkretnej osoby, a dokument samego kierowcy nie obejmuje pozostałych członków załogi. Sprawdź dokumenty wszystkich osób uczestniczących w przewozie. Podstawa: ADR 1.10.1.4 i 8.1.2.1.",
+        "explanation": "Nie. ADR 1.10.1.4 wymaga, by każdy członek załogi, którego dotyczy przepis, miał przy sobie własny dokument tożsamości ze zdjęciem podczas przewozu. Zdjęcie przesłane później ani lista nazwisk nie pozwalają sprawdzić dokumentu przez kontrolującego w danej chwili. Dlatego dokument powinien być dostępny bezpośrednio u danej osoby. Podstawa: ADR 1.10.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
