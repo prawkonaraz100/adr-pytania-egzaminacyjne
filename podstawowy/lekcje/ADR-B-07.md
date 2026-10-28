@@ -27,7 +27,7 @@ Załadowca sprawdza, czy przesyłka nie jest uszkodzona, czy opakowanie nie prze
 - **Opakowanie niezgodne:** pakujący zauważa, że opakowanie nie spełnia wymagań. Nie przekazuje go dalej do przewozu, dopóki niezgodność nie zostanie rozwiązana.
 - **Uszkodzona sztuka:** załadowca zauważa pęknięcie przed umieszczeniem przesyłki w pojeździe. Wstrzymuje załadunek tej sztuki i zgłasza problem.
 - **Brak instrukcji:** załoga nie otrzymała instrukcji pisemnych albo nie potrafi ich zrozumieć. Przed wyjazdem należy zapewnić właściwe instrukcje w zrozumiałym języku.
-- **Załoga i pasażerowie:** nie zakładaj, że każdy pasażer może być przewożony w pojeździe z towarami niebezpiecznymi. Sprawdź właściwe wymagania i dopuszczalność konkretnej sytuacji. ADR 8.3.1 ogranicza przewóz osób niebędących członkami załogi w objętych nim warunkach; zgodnie z 8.3.2 członkowie załogi powinni znać sposób użycia gaśnic.
+- **Załoga i pasażerowie:** ADR 8.3.1 zabrania przewożenia w jednostce transportowej z towarami niebezpiecznymi osób, które nie są członkami załogi. Wolny fotel, kamizelka odblaskowa ani zgoda pracodawcy nie zmieniają tej zasady. Zgodnie z 8.3.2 członkowie załogi powinni znać sposób użycia gaśnic.
 
 ## 3. Pakujący i załadowca
 Pakujący nie powinien przekazywać przesyłki, jeśli opakowanie lub oznakowanie nie spełnia wymagań. Załadowca nie powinien umieszczać w pojeździe uszkodzonej sztuki przesyłki. Zakrycie pęknięcia folią ani umieszczenie przesyłki na końcu pojazdu nie naprawia niezgodności. Prawidłowy numer UN (czterocyfrowy identyfikator, po którym odnajdujesz towar w tabeli A ([słowniczek](../SLOWNICZEK.md#tabela-a)); [słowniczek](../SLOWNICZEK.md#numer-un)) w dokumencie nie zastępuje bezpiecznego opakowania.
@@ -61,7 +61,7 @@ Poniższe krótkie przykłady służą do omówienia treści lekcji. Nie zastęp
 1. **Wadliwe opakowanie.** Pakujący zauważa niezgodne opakowanie. Wstrzymuje przekazanie przesyłki, ustala właściwe poprawki i dopiero potem przekazuje ją dalej.
 2. **Pęknięta przesyłka przy załadunku.** Załadowca zauważa pęknięcie przed umieszczeniem w pojeździe. Nie maskuje go folią; wstrzymuje załadunek i zgłasza niezgodność.
 3. **Brak instrukcji pisemnych.** Kierowca sprawdza, czy instrukcje są dostępne i zrozumiałe dla wszystkich członków załogi. Nie traktuje numeru telefonu do dyspozytora jako zamiennika dokumentu.
-4. **Przewóz pasażerów.** Na podstawie fikcyjnej sytuacji kursant sprawdza, czy przewóz pasażera jest dopuszczalny w danych warunkach; nie przyjmuje automatycznie, że zgoda pracodawcy wystarczy.
+4. **Przewóz pasażerów.** Osoba spoza załogi prosi o podwiezienie. Kierowca odmawia przewozu, bo wolny fotel ani zgoda pracodawcy nie uchylają zakazu z ADR 8.3.1.
 
 Scenariusze są ćwiczeniami na fikcyjnych dokumentach; nie potwierdzają przeprowadzenia obowiązkowych zajęć praktycznych.
 
