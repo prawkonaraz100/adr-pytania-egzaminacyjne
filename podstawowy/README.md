@@ -8,6 +8,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x109 — próbka 40, spójność, scenariusze i egzaminy](raporty/etap-4x109-proba40-spojnosc-scenariusze-egzaminy-2026-10-28.md)
+- [Etap 4x109 — seed, lista próbki i wykluczenia](raporty/etap-4x109-wykluczenia-proby.json)
 - [Etap 4x108 — próbka 40, dystraktory i regresja kursu](raporty/etap-4x108-proba40-dystraktory-regresja-2026-10-28.md)
 - [Etap 4x108 — seed, lista próbki i wykluczenia](raporty/etap-4x108-wykluczenia-proby.json)
 - [Etap 4x107 — próbka 40, dystraktory i spójność kursu](raporty/etap-4x107-proba40-dystraktory-lekcje-2026-10-28.md)
