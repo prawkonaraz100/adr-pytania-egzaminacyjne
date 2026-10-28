@@ -9,34 +9,34 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź odpowiada wymaganiu ADR 5.3.1.1.4. Wymagane nalepki dużego formatu na kontenerze umieszcza się w miejscach przewidzianych przez ADR, co do zasady na obu bokach i na obu końcach. Jedna nalepka na drzwiach albo oznakowanie wyłącznie na dachu nie zapewnia wymaganego oznaczenia z różnych stron. Przed wyjazdem należy sprawdzić kompletność i rozmieszczenie nalepek. Podstawa: ADR 5.3.1.1.4."
+          "rationale": "Brak nalepek na obu końcach oznacza niekompletne oznakowanie; należy je uzupełnić przed wyjazdem."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Jedna nalepka na drzwiach nie zapewnia wymaganego oznakowania z boków i końców kontenera. Ocenę oprzeć na ADR 2025, 5.3.1.1.4; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "Nalepki na bokach i numery UN w dokumentach nie zastępują nalepek na końcach kontenera."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Samo umieszczenie znaku na dachu nie spełnia wymogu oznakowania z boków i końców. Ocenę oprzeć na ADR 2025, 5.3.1.1.4; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "Wpis w dokumencie nie zastępuje wymaganego fizycznego oznakowania kontenera."
         }
       },
       "observed_answer_key": "A",
       "notes_on_conditions": "Wstępny audyt redakcyjny; pełne porównanie polskiego tekstu Dz.U. 2025 poz. 642 i sprostowania oraz niezależna recenzja A/B/C pozostają otwarte.",
-      "editorial_result": "pending_specialist_review",
+      "editorial_result": "question_reframed_to_apply_placement_rule; specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0561",
         "module_id": "ADR-B-06",
-        "stem": "Kontener z towarem ADR wymaga nalepek dużego formatu. Gdzie co do zasady należy je umieścić?",
+        "stem": "Podczas kontroli przed wyjazdem kierowca widzi, że kontener ma wymagane nalepki dużego formatu na obu bokach, ale nie ma ich na żadnym końcu. Co powinien zrobić?",
         "options": {
-          "A": "Umieścić je na obu bokach i obu końcach kontenera",
-          "B": "Umieścić nalepki na drzwiach kontenera oraz przy zamkach, by kontrolujący mógł je odczytać",
-          "C": "Umieścić je na dachu i nad drzwiczkami"
+          "A": "Uzupełnić brakujące nalepki na obu końcach przed rozpoczęciem przewozu.",
+          "B": "Wyjechać, ponieważ nalepki na obu bokach wystarczają, gdy numery UN są w dokumentach.",
+          "C": "Zastąpić nalepki na końcach wpisem o towarze w dokumencie przewozowym."
         },
         "correct_option": "A",
-        "explanation": "Wymagane nalepki dużego formatu na kontenerze umieszcza się w miejscach przewidzianych przez ADR, co do zasady na obu bokach i na obu końcach. Jedna nalepka na drzwiach albo oznakowanie wyłącznie na dachu nie zapewnia wymaganego oznaczenia z różnych stron. Drzwi i dach nie zastępują oznaczeń umieszczonych na wymaganych ścianach kontenera. Podstawa: ADR 5.3.1.1.4.",
+        "explanation": "Brak nalepek na końcach oznacza, że kontener nie jest oznakowany ze wszystkich wymaganych stron, więc przed wyjazdem trzeba uzupełnić oznakowanie. Same nalepki na bokach ani informacje w dokumencie nie zastępują nalepek fizycznych na końcach. Sprawdź oznakowanie z każdej wymaganej strony, zanim pojazd wyjedzie. Podstawa: ADR 5.3.1.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
