@@ -147,15 +147,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Wspólna lista nazwisk członków załogi bez ich indywidualnych dokumentów ze zdjęciem”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Wymaganie dotyczy indywidualnego dokumentu tożsamości ze zdjęciem dla każdego członka załogi, gdy ADR 1.10.1.4 ma zastosowanie. Lista nazwisk nie potwierdza tożsamości konkretnej osoby, a dokument samego kierowcy nie obejmuje pozostałych członków załogi. Sprawdź dokumenty wszystkich osób uczestniczących w przewozie. Podstawa: ADR 1.10.1.4 i 8.1.2.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Zdjęcie przesłane po kontroli nie jest dokumentem, który członek załogi ma przy sobie."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Wymaganie dotyczy indywidualnego dokumentu tożsamości ze zdjęciem dla każdego członka załogi, gdy ADR 1.10.1.4 ma zastosowanie. Lista nazwisk nie potwierdza tożsamości konkretnej osoby, a dokument samego kierowcy nie obejmuje pozostałych członków załogi. Sprawdź dokumenty wszystkich osób uczestniczących w przewozie. Podstawa: ADR 1.10.1.4 i 8.1.2.1. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Właściwa odpowiedź: każda osoba objęta wymogiem ma przy sobie własny dokument ze zdjęciem."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Dokument ze zdjęciem tylko dla kierowcy, bez dokumentu dla pozostałych członków załogi”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Wymaganie dotyczy indywidualnego dokumentu tożsamości ze zdjęciem dla każdego członka załogi, gdy ADR 1.10.1.4 ma zastosowanie. Lista nazwisk nie potwierdza tożsamości konkretnej osoby, a dokument samego kierowcy nie obejmuje pozostałych członków załogi. Sprawdź dokumenty wszystkich osób uczestniczących w przewozie. Podstawa: ADR 1.10.1.4 i 8.1.2.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Lista nazwisk nie zastępuje indywidualnego dokumentu tożsamości ze zdjęciem."
         }
       },
       "observed_answer_key": "B",
@@ -166,14 +166,14 @@
       "question_snapshot": {
         "id": "ADR-B-0250",
         "module_id": "ADR-B-13",
-        "stem": "Załoga wykonuje przewóz ADR podlegający wymaganiom 1.10.1.4. Jakiego dokumentu nie należy pomijać podczas kontroli?",
+        "stem": "Podczas kontroli okazuje się, że członek załogi ma dokument tożsamości ze zdjęciem w biurze, a nie przy sobie. Czy spełnia wymaganie ADR 1.10.1.4?",
         "options": {
-          "A": "Wspólna lista nazwisk członków załogi bez ich indywidualnych dokumentów ze zdjęciem",
-          "B": "Dokumentu tożsamości ze zdjęciem każdego członka załogi",
-          "C": "Dokument ze zdjęciem tylko dla kierowcy, bez dokumentu dla pozostałych członków załogi"
+          "A": "Tak, jeśli kierowca może przesłać zdjęcie dokumentu po kontroli",
+          "B": "Nie; każdy członek załogi objęty tym wymogiem powinien mieć własny dokument ze zdjęciem przy sobie",
+          "C": "Tak, jeśli przewoźnik ma listę nazwisk załogi w kabinie"
         },
         "correct_option": "B",
-        "explanation": "Wymaganie dotyczy indywidualnego dokumentu tożsamości ze zdjęciem dla każdego członka załogi, gdy ADR 1.10.1.4 ma zastosowanie. Lista nazwisk nie potwierdza tożsamości konkretnej osoby, a dokument samego kierowcy nie obejmuje pozostałych członków załogi. Sprawdź dokumenty wszystkich osób uczestniczących w przewozie. Podstawa: ADR 1.10.1.4 i 8.1.2.1.",
+        "explanation": "Nie. ADR 1.10.1.4 wymaga, by każdy członek załogi, którego dotyczy przepis, miał przy sobie własny dokument tożsamości ze zdjęciem podczas przewozu. Zdjęcie przesłane później ani lista nazwisk nie pozwalają sprawdzić dokumentu przez kontrolującego w danej chwili. Dlatego dokument powinien być dostępny bezpośrednio u danej osoby. Podstawa: ADR 1.10.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
