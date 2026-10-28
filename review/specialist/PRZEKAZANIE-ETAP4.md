@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x107 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `a48ac7d92432436e18b1b0adc2188d63a6bc6189`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `0a00e88a3fb26e709ef508b93e24aed4e9c1f4a3`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Próbka 40, seed `41072026`; wykluczono wszystkie ID wspomniane w raportach 4x103–4x106 (183 unikalne ID). Raport: `podstawowy/raporty/etap-4x107-proba40-dystraktory-lekcje-2026-10-28.md`.
 - Poprawiono wiarygodność dystraktorów i dopasowano explanation w ADR-B-0009, ADR-B-0329, ADR-B-0401 i ADR-B-0441. Poprawne litery i podstawy ADR bez zmian; migawki sekwencyjne i A/B/C odświeżono.
@@ -17,7 +17,7 @@
 - Lekcje B-10–B-13 sprawdzono pod kątem sensu dla początkującego, przykładów, podsumowań i zgodności z pytaniami. W tym przeglądzie nie potwierdzono błędu merytorycznego wymagającego zmiany tekstu lekcji.
 - Scenariusze: 39, po 3 na każdy dział; brak nieistniejących lub przypisanych do złego działu `question_ids`.
 - Egzaminy 001–005: po 30 unikalnych pytań, wszystkie 13 działów, A/B/C 10/10/10, maksymalna seria 3. Porównanie z bankiem po uwzględnieniu przestawiania opcji nie wykazało rzeczywistej rozbieżności klucza. Metadane `source_bank_head` i klucze wskazują aktualny bank.
-- „Poprawna = jedyna najdłuższa”: 73/609 = 11,99%; maksimum działu 14,29%. Explanation poniżej 200 znaków: 0; minimum: 300 znaków.
+- „Poprawna = jedyna najdłuższa”: 72/609 = 11,82%; maksimum działu 14,29%. Explanation poniżej 200 znaków: 0; minimum: 300 znaków.
 - Raport: [Etap 4x87 — próbka 60, spójność kursu i egzaminów](../../podstawowy/raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md).
 - Zastrzeżenie próbki: raport 4x86 nie wymienia pełnych 60 wylosowanych ID. Wykluczono wszystkie ID widoczne w raportach 4x84 i 4x85 oraz jawnie wymienione korekty 4x86, ale brak przecięcia z nieujawnioną częścią próbki 4x86 nie może być potwierdzony.
 - Wymagana niezależna recenzja prawna pozostaje otwarta; nie nadano statusu `verified`.
