@@ -1130,12 +1130,12 @@
       "exact_record_snapshot": {
         "stem": "Jeśli przewóz towarów niebezpiecznych obejmuje odcinek drogowy i morski, które przepisy mogą być istotne?",
         "options": {
-          "A": "ADR i przepisy morskie",
-          "B": "Regulamin magazynu dotyczący przechowywania towarów",
-          "C": "Przepisy o parkowaniu pojazdów w terminalu morskim"
+          "A": "ADR dla odcinka drogowego oraz przepisy morskie, w tym IMDG, dla odcinka morskiego.",
+          "B": "Stosować wyłącznie IMDG, ponieważ odcinek morski podlega temu kodeksowi, a on obejmuje całą trasę.",
+          "C": "Stosować wyłącznie ADR na całej trasie, ponieważ przewóz rozpoczyna się ciężarówką."
         },
         "correct_option": "A",
-        "explanation": "Gdy towar jedzie ciężarówką do portu, a potem statkiem, dla poszczególnych odcinków mogą obowiązywać różne zasady. ADR dotyczy drogi, a IMDG to międzynarodowy kodeks przewozu towarów niebezpiecznych drogą morską. Regulamin magazynu ani zasady parkowania nie zastępują wymagań przewozowych. Sprawdź, jakie dokumenty i oznakowanie są potrzebne na każdym etapie. Podstawa: ADR 1.1.4.2.",
+        "explanation": "W przewozie łączącym drogę i morze trzeba sprawdzić przepisy właściwe dla obu odcinków: ADR dla drogi i IMDG dla morza. Sam udział statku nie sprawia, że IMDG zastępuje wymagania drogowe; tak samo rozpoczęcie trasy ciężarówką nie oznacza, że ADR reguluje morski odcinek. Przed przekazaniem ładunku sprawdź dokumenty i oznakowanie dla każdego etapu. Podstawa: ADR 1.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1150,7 +1150,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów.",
+      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów. Etap 4x118: dystraktory zredagowano; nie jest to zatwierdzenie prawne, status needs_review.",
       "expert_review_priority": "standard_expert_review",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
