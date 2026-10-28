@@ -1169,7 +1169,7 @@
           "C": "Tak, jeśli na pokładzie jest ciecz klasy 3 w opakowaniu detalicznym"
         },
         "correct_option": "B",
-        "explanation": "Jeśli przewóz rzeczywiście korzysta z wyłączeń ADR 1.1.3 i nie zachodzi wyjątek dotyczący oznakowania LQ (ilości ograniczonych), tych towarów nie uwzględnia się przy ustalaniu kodu ograniczeń tunelowych. Sama obecność cieczy klasy 3 nie zmienia tej reguły, a założenie, że zawsze trzeba zsumować wszystkie kody, jest błędne. Najpierw sprawdź, czy warunki wyłączenia są spełnione. Podstawa: ADR 8.6.3.3.",
+        "explanation": "Najpierw sprawdź, czy przewóz rzeczywiście spełnia warunki wyłączenia z ADR 1.1.3. Jeśli tak, towaru co do zasady nie dolicza się do ustalania kodu ograniczeń tunelowych, z uwzględnieniem szczególnego wyjątku dotyczącego oznakowania LQ (ilości ograniczonych). Nie zakładaj, że zawsze trzeba sumować wszystkie kody ani że sama obecność cieczy klasy 3 zmienia wynik. Podstawa: ADR 8.6.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
