@@ -5,7 +5,7 @@
 - Ważne: arkusze 001–005 są materiałami treningowymi, nie oficjalnym katalogiem pytań. Wynik próby nie daje uprawnień ADR.
 - Aktualny bank: 620 pytań, blob SHA `8b1ef0c516d2e9777ccec719a913bc9bf7e118c6`; wszystkie `needs_review`, 0 `verified`.
 - Warianty/klucze 001–005: po 30 pytań, 13 działów, 150 unikalnych ID łącznie; A/B/C = 10/10/10 w każdym wariancie; publikacja nieautoryzowana.
-- Raport pakietu i instrukcji: [etap 4x132](../raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md).
+- Raport pakietu i instrukcji: [etap 4x135](../raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md).
 - Najnowszy przegląd spójności: [etap 4x131](../raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md).
 
 ## Najnowsza synchronizacja — etap 4x130 (28.10.2026)
