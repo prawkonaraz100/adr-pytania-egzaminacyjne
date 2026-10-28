@@ -966,12 +966,12 @@
       "exact_record_snapshot": {
         "stem": "Czy załadowca może wydać przewoźnikowi uszkodzone opakowanie, z którego może wyciekać towar niebezpieczny?",
         "options": {
-          "A": "Tak, bez ograniczeń",
-          "B": "Nie, dopóki uszkodzenie nie zostanie naprawione zgodnie z zasadami",
-          "C": "Tak, wystarczy zasłonić miejsce wycieku zwykłą taśmą bez usunięcia uszkodzenia"
+          "A": "Może wydać opakowanie, jeżeli oznakowanie jest czytelne i wyciek nie powiększa się.",
+          "B": "Nie, dopóki opakowanie nie zostanie prawidłowo naprawione i sprawdzone przed przewozem.",
+          "C": "Może zabezpieczyć opakowanie taśmą na miejscu i wydać je, jeśli nie widać dalszego wycieku."
         },
         "correct_option": "B",
-        "explanation": "Uszkodzona przesyłka, z której wycieka niebezpieczna zawartość, może narazić ludzi i zabrudzić pojazd. Dlatego załadowca nie może przekazać jej do przewozu, dopóki uszkodzenie nie zostanie właściwie usunięte. Zaklejenie miejsca wycieku taśmą bez sprawdzenia bezpieczeństwa ani zgoda na przewóz bez ograniczeń nie rozwiązują problemu. Podstawa: ADR 1.4.3.1.1(b).",
+        "explanation": "Opakowania, z którego może wyciekać towar niebezpieczny, nie wolno po prostu wydać do przewozu. Czytelne oznakowanie ani mały wyciek nie czynią go bezpiecznym; doraźne zaklejenie bez właściwej oceny i naprawy nie usuwa ryzyka. Załadowca ma wstrzymać przekazanie do czasu usunięcia niezgodności zgodnie z wymaganiami. Podstawa: ADR 1.4.3.1.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -986,7 +986,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów.",
+      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów. Etap 4x118: dystraktory zredagowano; nie jest to zatwierdzenie prawne, status needs_review.",
       "expert_review_priority": "standard_expert_review",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
