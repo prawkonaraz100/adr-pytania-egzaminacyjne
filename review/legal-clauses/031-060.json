@@ -1096,20 +1096,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Zgoda bez ograniczeń nie znosi obowiązków załadowcy."
+          "rationale": "Czytelne oznakowanie i niewielki wyciek nie usuwają obowiązku bezpiecznego opakowania."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Uszkodzone i nieszczelne opakowanie wymaga usunięcia niezgodności."
+          "rationale": "Uszkodzenie trzeba prawidłowo naprawić i sprawdzić przed przekazaniem do przewozu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Zakrycie taśmą bez przywrócenia zgodności nie wystarcza."
+          "rationale": "Doraźna taśma bez oceny i właściwej naprawy nie potwierdza, że opakowanie jest bezpieczne."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Nie mylić zwykłych opakowań z zasadami stosowania opakowań ratunkowych.",
-      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "notes_on_conditions": "Nie mylić zwykłych opakowań z zasadami stosowania opakowań ratunkowych. Etap 4x118: dystraktory zredagowano; klucz i podstawa prawna bez zmian; niezależna recenzja specjalisty nadal wymagana.",
+      "editorial_result": "distractors_rephrased_4x118; correct key and legal basis unchanged; specialist review pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -1118,12 +1118,12 @@
         "module_id": "ADR-B-07",
         "stem": "Czy załadowca może wydać przewoźnikowi uszkodzone opakowanie, z którego może wyciekać towar niebezpieczny?",
         "options": {
-          "A": "Tak, bez ograniczeń",
-          "B": "Nie, dopóki uszkodzenie nie zostanie naprawione zgodnie z zasadami",
-          "C": "Tak, wystarczy zasłonić miejsce wycieku zwykłą taśmą bez usunięcia uszkodzenia"
+          "A": "Może wydać opakowanie, jeżeli oznakowanie jest czytelne i wyciek nie powiększa się.",
+          "B": "Nie, dopóki opakowanie nie zostanie prawidłowo naprawione i sprawdzone przed przewozem.",
+          "C": "Może zabezpieczyć opakowanie taśmą na miejscu i wydać je, jeśli nie widać dalszego wycieku."
         },
         "correct_option": "B",
-        "explanation": "Uszkodzona przesyłka, z której wycieka niebezpieczna zawartość, może narazić ludzi i zabrudzić pojazd. Dlatego załadowca nie może przekazać jej do przewozu, dopóki uszkodzenie nie zostanie właściwie usunięte. Zaklejenie miejsca wycieku taśmą bez sprawdzenia bezpieczeństwa ani zgoda na przewóz bez ograniczeń nie rozwiązują problemu. Podstawa: ADR 1.4.3.1.1(b).",
+        "explanation": "Opakowania, z którego może wyciekać towar niebezpieczny, nie wolno po prostu wydać do przewozu. Czytelne oznakowanie ani mały wyciek nie czynią go bezpiecznym; doraźne zaklejenie bez właściwej oceny i naprawy nie usuwa ryzyka. Załadowca ma wstrzymać przekazanie do czasu usunięcia niezgodności zgodnie z wymaganiami. Podstawa: ADR 1.4.3.1.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",

@@ -423,19 +423,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wariant A oddaje warunek przepisowy: Instrukcja pisemna nakazuje unikać chodzenia po rozlewach i kontaktu z materiałami. Pozostaje do porównania z pełnym polskim brzmieniem."
+          "rationale": "Nie wchodzić w rozlew ani nie dotykać substancji; zachować bezpieczną odległość."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Wchodzić w rozlew, jeśli ma buty robocze”) nie spełnia obowiązku opisanego w ADR 2025, 5.4.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Zwykłe rękawice i brak widocznych oparów nie dowodzą, że można bezpiecznie podejść."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Najpierw spróbować substancji”) nie spełnia obowiązku opisanego w ADR 2025, 5.4.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Strona zawietrzna może prowadzić opary w stronę kierowcy; nie należy podchodzić po etykietę."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana.",
+      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana. Etap 4x118: dystraktory zredagowano; klucz i podstawa prawna bez zmian; niezależna recenzja specjalisty nadal wymagana.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -444,12 +444,12 @@
         "module_id": "ADR-B-04",
         "stem": "Podczas awarii towary niebezpieczne rozlały się obok pojazdu. Kierowca chce wejść w kałużę, aby odczytać etykietę. Co wskazuje instrukcja pisemna?",
         "options": {
-          "A": "Nie wchodzić w rozlew ani nie dotykać substancji",
-          "B": "Wejść w rozlew, jeśli założono zwykłe buty robocze i rękawice",
-          "C": "Spróbować substancji, aby rozpoznać ją po smaku lub zapachu"
+          "A": "Nie wchodzić w rozlew ani nie dotykać substancji; zachować bezpieczną odległość.",
+          "B": "Podejść w zwykłych rękawicach roboczych, jeśli rozlew jest mały i nie widać oparów.",
+          "C": "Pozostać po stronie zawietrznej, jeśli z tej strony etykieta jest lepiej widoczna, i nie dotykać cieczy."
         },
         "correct_option": "A",
-        "explanation": "Rozlana substancja może powodować oparzenia, zatrucie lub inne zagrożenia, nawet jeśli jej wygląd nie budzi podejrzeń. Nie wchodź w rozlew i nie dotykaj materiału, żeby odczytać etykietę; zachowaj bezpieczny dystans i stosuj instrukcje awaryjne. Próbowanie substancji jest szczególnie niebezpieczne. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Rozlew może być toksyczny, żrący lub reagować z otoczeniem, nawet jeśli jest mały i nie czuć zapachu. Nie wchodź w substancję ani nie podchodź tylko po to, by odczytać etykietę; zwykłe rękawice i ustawienie się po stronie zawietrznej nie gwarantują ochrony. Oddal się bezpiecznie, ostrzeż innych i postępuj zgodnie z instrukcjami pisemnymi. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",

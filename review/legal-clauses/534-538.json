@@ -61,20 +61,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Po korekcie długości wariantu A: „Liczbę pojazdów, które uprzednio pokonały trasę przewozu.”. Dystraktor nadal nie spełnia warunku opisanego w ADR 2025, 3.4.12; wymagane ostateczne sprawdzenie szczególnego warunku przez specjalistę."
+          "rationale": "Liczba opakowań nie jest wymaganą informacją o łącznej masie brutto."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Po korekcie długości wariantu B: „Całkowitą masę brutto przewożonych towarów LQ.”. ADR 2025, 3.4.12: ADR 3.4.12 wymaga, aby nadawca uprzednio poinformował przewoźnika w identyfikowalny sposób o łącznej masie brutto LQ."
+          "rationale": "Wymagane jest przekazanie całkowitej masy brutto LQ przed przewozem."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Harmonogram zmian nie zastępuje wymaganej informacji o całkowitej masie brutto towarów LQ."
+          "rationale": "Masa netto pomija opakowania, więc nie zastępuje łącznej masy brutto."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending.",
-      "editorial_result": "pending_specialist_review",
+      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending. Etap 4x118: dystraktory zredagowano; klucz i podstawa prawna bez zmian; niezależna recenzja specjalisty nadal wymagana.",
+      "editorial_result": "distractors_rephrased_4x118; correct key and legal basis unchanged; specialist review pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -83,12 +83,12 @@
         "module_id": "ADR-B-01",
         "stem": "Nadawca przekazuje przewoźnikowi partię towarów w ilościach ograniczonych LQ. Jaką informację powinien przed przewozem przekazać mu w możliwej do udokumentowania formie?",
         "options": {
-          "A": "Podać liczbę pojazdów, które wcześniej pokonały planowaną trasę dostawy",
+          "A": "Podać liczbę opakowań i sztuk, a masę brutto pozostawić przewoźnikowi do oszacowania.",
           "B": "Przekazać całkowitą masę brutto przewożonych towarów w ilościach ograniczonych LQ",
-          "C": "Podać wyłącznie szczegółowy harmonogram zmian kierowców oraz plan przerw na trasie"
+          "C": "Przekazać wyłącznie masę netto zawartości LQ, ponieważ opakowania nie są częścią towaru."
         },
         "correct_option": "B",
-        "explanation": "Nadawca towarów w ilościach ograniczonych powinien przed przewozem przekazać przewoźnikowi informację o całkowitej masie brutto LQ (od ang. limited quantities — ilości ograniczone) w sposób, który można udokumentować. Liczba pojazdów na danej trasie ani grafik kierowców nie pozwalają ustalić ilości LQ. Informacja musi dotrzeć do przewoźnika przed rozpoczęciem przewozu. Podstawa: ADR 3.4.12.",
+        "explanation": "Przy przewozie LQ (ilości ograniczonych) nadawca musi przed przewozem przekazać przewoźnikowi całkowitą masę brutto tych towarów w formie możliwej do udokumentowania. Sama liczba opakowań nie pokazuje ich łącznej masy, a masa netto pomija opakowania. Ta informacja ma dotrzeć do przewoźnika przed rozpoczęciem przewozu. Podstawa: ADR 3.4.12.",
         "sources": [
           {
             "code": "ADR-2025-PL",
