@@ -19,7 +19,7 @@ Pełny seed, lista próbki i wykluczenia znajdują się w [manifeście próby](e
 
 - **33 pytania** pozostawiono bez zmian: explanation były zrozumiałe, miały 2–5 zdań i wyjaśniały sens poprawnej odpowiedzi oraz główną pomyłkę.
 - **7 pytań** miało potwierdzone słabości dystraktorów; poprawiono łącznie **14 błędnych opcji** i dopasowano explanation do nowych odpowiedzi.
-- Dodatkowo wykryto i naprawiono rozbieżność explanation w kluczu egzaminu 001 dla `ADR-B-0489`; klucz literowy wariantu pozostał bez zmian.
+- Przy walidacji klucza 001 sprawdzono też `ADR-B-0489`: wyjaśnienie zawiera odwołanie do litery odpowiedzi, które w arkuszu jest celowo mapowane na inną literę niż w banku. Zachowano właściwe brzmienie dla kolejności opcji w wariancie.
 - Nie dodano nowych pytań. Nie zmieniono ID, poprawnych odpowiedzi ani podstaw prawnych. Zmiany są redakcyjne i nie stanowią niezależnej weryfikacji prawnej.
 
 | ID | Podstawa | Potwierdzony problem | Zmiana |
@@ -44,7 +44,7 @@ Wszystkie siedem zmienionych explanation ma 2–5 zdań i 365–432 znaki. Najpi
 
 - Warianty i klucze egzaminów próbnych 001–005 wskazują nowy bank SHA `ed7e1842d6f15d1ecde54ea3319d9efe3ef7a728`.
 - Wariant 004 zsynchronizowano z nowymi opcjami `ADR-B-0390`; wariant 005 — z nowymi opcjami `ADR-B-0510`. Klucze 004 i 005 otrzymały aktualne explanation dla tych pytań.
-- W kluczu 001 poprawiono explanation dla `ADR-B-0489`, które błędnie odwoływało się do innej litery w opisie pomyłki. Litera klucza po uwzględnieniu kolejności opcji w wariancie nie uległa zmianie.
+- Klucz 001 dla `ADR-B-0489` pozostawiono z wyjaśnieniem zmapowanym do liter w arkuszu; test sprawdza to mapowanie, a nie surowy tekst explanation z banku.
 - Odświeżono migawki `review/legal-clauses/` i `review/sequential/` dla zakresów 241–246, 282–283, 381–398, 417–436, 447–454, 510–512 i 526–533. Wszystkie pozostają oznaczone jako wymagające niezależnej recenzji.
 - Sprawdzono 13 lekcji i 39 scenariuszy pod kątem istnienia odwołań; nie zmieniano treści lekcji ani scenariuszy, ponieważ nie wykryto potwierdzonej sprzeczności wynikającej z tej partii.
 
