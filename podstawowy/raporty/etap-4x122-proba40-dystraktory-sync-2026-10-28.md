@@ -4,7 +4,7 @@
 - Punkt wejścia: świeży `main`, commit `54bfc33446ad735be9ef86e721eac746c6c8da6d` (PR #582, etap 4x121, już scalony).
 - Zakres: wyłącznie kurs podstawowy ADR.
 - Bank przed zmianami: 609 pytań, blob `f18b273e3451730a4efc28e10cd0ff16b03807f5`.
-- Bank po zmianach: 609 pytań, blob `6612e0241dc9e9b3a01f6b456f58d141dc53ada9`.
+- Bank po zmianach: 609 pytań, blob `5d3bb481e372a45c89b30812841e76e9d91d542f`.
 - Wszystkie pytania pozostają `needs_review`; żadne nie zostało oznaczone jako `verified`.
 
 ## Porządek PR i dziennik
@@ -35,6 +35,8 @@ ADR-B-0335, ADR-B-0156, ADR-B-0291, ADR-B-0444, ADR-B-0461
 | ADR-B-0376 | Dystraktor C zmieniony na „Wystarczy przeczytać etykietę gaśnicy dopiero podczas pożaru”; explanation dopasowane. | Sprawdza pomyłkę między doraźnym czytaniem etykiety a wcześniejszą znajomością obsługi. |
 | ADR-B-0432 | Dystraktory odnoszą się teraz do wyboru najkrótszej trasy i masy największego towaru; explanation dopasowane. | Poprzedni dystraktor oparty na cenie ładunku był nienaturalny. Nowe opcje sprawdzają wiarygodne, lecz błędne uproszczenia przy różnych kodach tunelowych. |
 | ADR-B-0471 | Dystraktor B zmieniony na zgodę kierowcy i pasażera oraz deklarowaną znajomość zagrożeń; explanation dopasowane. | Sprawdza błędne przekonanie, że zgoda i świadomość ryzyka mogą zastąpić wymaganie ADR. |
+| ADR-B-0288 (follow-up poza próbką) | Rozbudowano wszystkie opcje o cechy nalepek, by nie dało się rozpoznać odpowiedzi tylko po długości. | Bada rozróżnianie pełnego wzoru nalepki, nie samego symbolu. |
+| ADR-B-0290 (follow-up poza próbką) | Zastąpiono oczywisty dystraktor o trasie bardziej wiarygodną pomyłką między obowiązkami pakującego i przewoźnika; explanation dopasowane. | Sprawdza, czy kursant rozumie, że kontrola trasy nie zastępuje odpowiedzialności pakującego za opakowanie i oznakowanie. |
 
 W żadnym z pięciu pytań próbki nie zmieniono ID, poprawnej litery ani podstawy prawnej. Dwa dodatkowe follow-upy poza próbką (ADR-B-0288 i ADR-B-0290) wykorzystano do poprawy czytelności wzoru nalepki i wiarygodności pomyłki dotyczącej obowiązków pakującego. Nie wykryto potwierdzonej sprzeczności prawnej wymagającej zmiany klucza. Pozostałe 35 pytań próbki pozostawiono bez zmian.
 
