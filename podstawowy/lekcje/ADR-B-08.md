@@ -85,6 +85,25 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+## Praktyka kierowcy — decyzje krok po kroku
+
+### Sytuacja 1: gaśnica jest, ale nie da się jej wyjąć
+1. Przed wyjazdem sprawdź, jakie gaśnice są wymagane dla tego pojazdu i przewozu.
+2. Obejrzyj każdą wymaganą gaśnicę: stan, termin przeglądu, zamocowanie i dostępność.
+3. Jeśli ładunek zasłania gaśnicę albo mocowanie jest uszkodzone, usuń niezgodność przed ruszeniem.
+4. Po poprawce sprawdź, czy sprzęt można bezpiecznie i szybko wyjąć, nie przesuwając niebezpiecznie ładunku.
+
+**Typowy błąd:** odhaczenie samej obecności gaśnicy. To błąd, bo w razie zdarzenia sprzęt niedostępny lub nieprawidłowo zamocowany może nie spełnić swojej funkcji. Podstawa do sprawdzenia: ADR 8.1.4.
+
+### Sytuacja 2: załoga ma tylko jeden zestaw wyposażenia osobistego
+1. Sprawdź, ile osób tworzy załogę i jakie wyposażenie wymaga dany przewóz.
+2. Porównaj wymagane elementy z wyposażeniem dla każdej osoby oddzielnie.
+3. Uzupełnij braki przed wyjazdem; latarka, kamizelka, rękawice i ochrona oczu nie są zamiennikami.
+4. Wyjaśnij załodze, że samo posiadanie rękawic nie oznacza, iż można dotykać nieznanej substancji.
+
+**Typowy błąd:** traktowanie jednego wspólnego zestawu jako wystarczającego dla wszystkich. To błąd, ponieważ część wyposażenia ma być dostępna dla każdego członka załogi. Podstawa do sprawdzenia: ADR 8.1.5.2 i 8.3.2.
+Pytania do omówienia: ADR-B-0074, ADR-B-0423, ADR-B-0596, ADR-B-0597.
+
 ## Co musisz zapamiętać
 - Gaśnice dobiera się według wymagań konkretnego pojazdu i przewozu.
 - Sprawność, termin przeglądu, mocowanie i dostępność sprzętu są równie ważne jak jego obecność.
