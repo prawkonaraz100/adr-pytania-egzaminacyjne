@@ -1,4 +1,4 @@
-> **Bieżąca migawka 4x124 (28.10.2026):** bank `podstawowy/questions.jsonl`, 609 pytań, blob SHA `ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6`; wszystkie `needs_review`, 0 `verified`. Najnowszy raport: `podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md`. Przegląd prawny nadal musi wykonać specjalista.
+> **Bieżąca migawka 4x124 (28.10.2026):** bank `podstawowy/questions.jsonl`, 609 pytań, blob SHA `36985d2be9667dad581f241d68f7df76ea47e0d5`; wszystkie `needs_review`, 0 `verified`. Najnowszy raport: `podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md`. Przegląd prawny nadal musi wykonać specjalista.
 
 ## Bieżąca migawka — etap 4x120 (28.10.2026)
 
@@ -232,3 +232,6 @@ Quality Gate sprawdza, czy 20 pozycji kolejki istnieje w banku i na liście reko
 ## Aktualizacja 4x80
 
 Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`. Zaktualizowano cztery explanation (ADR-B-0008, 0037, 0327, 0547), bez zmiany kluczy; warianty egzaminu i klucze zsynchronizowano z aktualnym bankiem. Scenariusze: 39, trzy na dział. Raport: `podstawowy/raporty/etap-4x80-lekcje-05-09-scenariusze-proba60-2026-10-27.md`.
+
+
+Najnowsza redakcyjna partia 4x125 (2026-10-28): [raport próbki 40, dystraktorów i synchronizacji](../../podstawowy/raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md). Bank bieżący: 609 pytań, wszystkie `needs_review`, 0 `verified`.
