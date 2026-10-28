@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x132 (28.10.2026)
 
-- Bank: 609 pytań `needs_review`, 0 `verified`; bieżący blob SHA `595d47e4f7a15cc93a5c42cd8285d153529f906c`.
+- Bank: 609 pytań `needs_review`, 0 `verified`; bieżący blob SHA `9fa7e964d86b0bd0c38f97a80b5965777d69d7da`.
 - Raport: `podstawowy/raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md`.
 - Pakiet obejmuje 13 lekcji, 13 materiałów instruktorskich, 39 scenariuszy, 90 haseł słowniczka oraz 5 wariantów i 5 kluczy egzaminu próbnego.
 - Instrukcja kursanta: `podstawowy/egzamin-probny/INSTRUKCJA-KURSANTA.md`. Parametry oficjalnego egzaminu podstawowego potwierdza Dz.U. 2024 poz. 964, § 9–11: 30 pytań, 60 minut, próg 2/3 (20/30). Nasze warianty pozostają treningowe i nie są oficjalnym katalogiem.
@@ -8,7 +8,7 @@
 
 ## Bieżąca migawka — etap 4x131 (28.10.2026)
 
-- Bank: 609 pytań `needs_review`, 0 `verified`; blob SHA `595d47e4f7a15cc93a5c42cd8285d153529f906c`.
+- Bank: 609 pytań `needs_review`, 0 `verified`; blob SHA `9fa7e964d86b0bd0c38f97a80b5965777d69d7da`.
 - Raport: `podstawowy/raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md`.
 - Przejrzano ADR-B-0586–0609; jedna niespójność redakcyjna w ADR-B-0586 została poprawiona. Lekcje 13/13 i scenariusze 39/39 mają prawidłowe odwołania do banku.
 - Warianty i klucze próbne 001–005 zsynchronizowane; publikacja nieautoryzowana. Wszystkie pytania nadal wymagają niezależnej recenzji prawnej.
