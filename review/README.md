@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x122 (28.10.2026)
+
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `bc5656006e7d5ced7065ef099dca814bb6fa9f15`.
+- Raport: `podstawowy/raporty/etap-4x122-proba40-explanations-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x122-wykluczenia-proby.json`.
+- Próbka 40, seed `41222026`, 302 ID wyłączone, pula 307; zmieniono ADR-B-0326 i ADR-B-0361, bez zmiany poprawnych liter.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 71/609 = 11,66%; maksimum działu 14,29%; explanation minimum 300 znaków.
+- Warianty 001–005 i klucze zsynchronizowano z aktualnym blobem banku. Status prawny nadal otwarty; nie nadano `verified`.
+
 ## Bieżąca migawka — etap 4x121 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `f18b273e3451730a4efc28e10cd0ff16b03807f5`.
