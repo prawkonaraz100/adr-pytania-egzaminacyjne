@@ -145,9 +145,9 @@
       "exact_record_snapshot": {
         "stem": "Podczas kontroli okazuje się, że członek załogi ma dokument tożsamości ze zdjęciem w biurze, a nie przy sobie. Czy spełnia wymaganie ADR 1.10.1.4?",
         "options": {
-          "A": "Tak, jeśli kierowca może przesłać zdjęcie dokumentu po kontroli",
+          "A": "Tak, jeśli kierowca ma zdjęcie dokumentu w telefonie i może je okazać podczas kontroli drogowej.",
           "B": "Nie; każdy członek załogi objęty tym wymogiem powinien mieć własny dokument ze zdjęciem przy sobie",
-          "C": "Tak, jeśli przewoźnik ma listę nazwisk załogi w kabinie"
+          "C": "Tak, jeśli przewoźnik ma w kabinie aktualną listę załogi oraz numery dokumentów wszystkich członków."
         },
         "correct_option": "B",
         "explanation": "Nie. ADR 1.10.1.4 wymaga, by każdy członek załogi, którego dotyczy przepis, miał przy sobie własny dokument tożsamości ze zdjęciem podczas przewozu. Zdjęcie przesłane później ani lista nazwisk nie pozwalają sprawdzić dokumentu przez kontrolującego w danej chwili. Dlatego dokument powinien być dostępny bezpośrednio u danej osoby. Podstawa: ADR 1.10.1.4.",
