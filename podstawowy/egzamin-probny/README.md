@@ -1,3 +1,12 @@
+## Bieżąca instrukcja i parametry — etap 4x132 (28.10.2026)
+
+- [Instrukcja kursanta do egzaminu próbnego](INSTRUKCJA-KURSANTA.md): sposób rozwiązania, liczenie wyniku, korzystanie z wyjaśnień i powrót do lekcji.
+- Parametry oficjalnego egzaminu podstawowego: 30 pytań jednokrotnego wyboru, 60 minut, co najmniej 2/3 poprawnych odpowiedzi, czyli 20/30 — rozporządzenie Dz.U. 2024 poz. 964, § 9–11 ([ELI — akt obowiązujący](https://eli.gov.pl/eli/DU/2024/964/ogl)).
+- Ważne: arkusze 001–005 są materiałami treningowymi, nie oficjalnym katalogiem pytań. Wynik próby nie daje uprawnień ADR.
+- Aktualny bank: 609 pytań, blob SHA `595d47e4f7a15cc93a5c42cd8285d153529f906c`; wszystkie `needs_review`, 0 `verified`.
+- Warianty/klucze 001–005: po 30 pytań, 13 działów, 150 unikalnych ID łącznie; A/B/C = 10/10/10 w każdym wariancie; publikacja nieautoryzowana.
+- Najnowszy przegląd spójności: [etap 4x131](../raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md).
+
 ## Najnowsza synchronizacja — etap 4x130 (28.10.2026)
 
 - Aktualny blob banku: `36985d2be9667dad581f241d68f7df76ea47e0d5`.
