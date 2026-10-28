@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x135 (28.10.2026)
 
-- Bank: 620 pytań `needs_review`, 0 `verified`; blob SHA `8b1ef0c516d2e9777ccec719a913bc9bf7e118c6`.
+- Bank: 620 pytań `needs_review`, 0 `verified`; blob SHA `c6e6bfc2708576a656ef44d68b68ce6d4d836581`.
 - Raport: `podstawowy/raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md`.
 - Pakiet: 13 lekcji, 13 materiałów instruktorskich, 39 scenariuszy, 90 haseł słowniczka, 5 wariantów i 5 kluczy. Nowe pytania ADR-B-0610–0620 są robocze i wymagają niezależnej recenzji.
 - Bez formalnych zatwierdzeń; zachować `needs_review` i nie zmieniać na `verified` bez udokumentowanej recenzji specjalisty.
