@@ -9,6 +9,8 @@
 ## Raporty jakości
 
 - [Etap 4x124 — pozostała pula 25, spójność i explanation](raporty/etap-4x124-proba25-spojnosc-2026-10-28.md)
+
+- [Etap 4x125 — próbka 40, wyjaśnienia i dystraktory](raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md)
 - [Etap 4x124 — manifest próbki i wykluczenia](raporty/etap-4x124-wykluczenia-proby.json)
 - [Etap 4x123 — próbka 40, dystraktory i explanation](raporty/etap-4x123-proba40-explanations-dystraktory-sync-2026-10-28.md)
 - [Etap 4x123 — seed, lista próby i wykluczenia](raporty/etap-4x123-wykluczenia-proby.json)
