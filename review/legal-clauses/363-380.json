@@ -608,19 +608,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Każdy członek załogi powinien wiedzieć, jak prawidłowo używać wymaganego wyposażenia gaśniczego. Sam fakt, że gaśnica znajduje się w pojeździe, nie wystarcza, jeśli nikt nie umie jej obsłużyć. Umiejętność ta nie oznacza jednak obowiązku gaszenia każdego pożaru, niezależnie od zagrożenia. Podstawa: ADR 8.3.2. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Właściwe: członek załogi powinien umieć obsługiwać wymagany sprzęt gaśniczy."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Nie trzeba znać obsługi gaśnicy przed rozpoczęciem przewozu”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Każdy członek załogi powinien wiedzieć, jak prawidłowo używać wymaganego wyposażenia gaśniczego. Sam fakt, że gaśnica znajduje się w pojeździe, nie wystarcza, jeśli nikt nie umie jej obsłużyć. Umiejętność ta nie oznacza jednak obowiązku gaszenia każdego pożaru, niezależnie od zagrożenia. Podstawa: ADR 8.3.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Nieprawidłowe: brak wcześniejszej znajomości obsługi może uniemożliwić bezpieczne użycie gaśnicy."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Gaśnicy wolno używać wyłącznie po dostawie towaru”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Każdy członek załogi powinien wiedzieć, jak prawidłowo używać wymaganego wyposażenia gaśniczego. Sam fakt, że gaśnica znajduje się w pojeździe, nie wystarcza, jeśli nikt nie umie jej obsłużyć. Umiejętność ta nie oznacza jednak obowiązku gaszenia każdego pożaru, niezależnie od zagrożenia. Podstawa: ADR 8.3.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Nieprawidłowe: w sytuacji awaryjnej nie ma gwarancji czasu na naukę z etykiety; obsługę należy znać wcześniej."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Podział odpowiedzialności zależy od roli, konkretnej czynności i warunków ADR; przed publikacją wymagana recenzja specjalisty.",
+      "notes_on_conditions": "Podział odpowiedzialności zależy od roli, konkretnej czynności i warunków ADR; przed publikacją wymagana recenzja specjalisty. Etap 4x122: zaktualizowano dystraktory i rationale; klucz bez zmian.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -631,10 +631,10 @@
         "options": {
           "A": "Załoga musi umieć używać gaśnicy",
           "B": "Nie trzeba znać obsługi gaśnicy przed rozpoczęciem przewozu",
-          "C": "Gaśnicy wolno używać wyłącznie po dostawie towaru"
+          "C": "Wystarczy przeczytać etykietę gaśnicy dopiero podczas pożaru"
         },
         "correct_option": "A",
-        "explanation": "Każdy członek załogi powinien wiedzieć, jak prawidłowo używać wymaganego wyposażenia gaśniczego. Sam fakt, że gaśnica znajduje się w pojeździe, nie wystarcza, jeśli nikt nie umie jej obsłużyć. Umiejętność ta nie oznacza jednak obowiązku gaszenia każdego pożaru, niezależnie od zagrożenia. Podstawa: ADR 8.3.2.",
+        "explanation": "Każdy członek załogi powinien wiedzieć, jak prawidłowo używać wymaganego wyposażenia gaśniczego. Sama obecność gaśnicy nie wystarczy, jeśli nikt nie umie jej obsłużyć; czytanie etykiety dopiero podczas pożaru nie zastępuje wcześniejszego zapoznania się z urządzeniem. Ta umiejętność nie oznacza jednak obowiązku gaszenia każdego pożaru, niezależnie od zagrożenia. Podstawa: ADR 8.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
