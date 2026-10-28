@@ -36,7 +36,7 @@ ADR-B-0335, ADR-B-0156, ADR-B-0291, ADR-B-0444, ADR-B-0461
 | ADR-B-0432 | Dystraktory odnoszą się teraz do wyboru najkrótszej trasy i masy największego towaru; explanation dopasowane. | Poprzedni dystraktor oparty na cenie ładunku był nienaturalny. Nowe opcje sprawdzają wiarygodne, lecz błędne uproszczenia przy różnych kodach tunelowych. |
 | ADR-B-0471 | Dystraktor B zmieniony na zgodę kierowcy i pasażera oraz deklarowaną znajomość zagrożeń; explanation dopasowane. | Sprawdza błędne przekonanie, że zgoda i świadomość ryzyka mogą zastąpić wymaganie ADR. |
 
-W żadnym z pięciu pytań nie zmieniono ID, poprawnej litery ani podstawy prawnej. Nie wykryto w próbce potwierdzonej sprzeczności prawnej wymagającej zmiany klucza. W pozostałych 35 pytaniach nie znaleziono potwierdzonej słabości wymagającej redakcji; ich explanation pozostawiono bez zmian.
+W żadnym z pięciu pytań próbki nie zmieniono ID, poprawnej litery ani podstawy prawnej. Dwa dodatkowe follow-upy poza próbką (ADR-B-0288 i ADR-B-0290) wykorzystano do poprawy czytelności wzoru nalepki i wiarygodności pomyłki dotyczącej obowiązków pakującego. Nie wykryto potwierdzonej sprzeczności prawnej wymagającej zmiany klucza. Pozostałe 35 pytań próbki pozostawiono bez zmian.
 
 ## Przykłady przed/po
 
@@ -49,28 +49,28 @@ W żadnym z pięciu pytań nie zmieniono ID, poprawnej litery ani podstawy prawn
 - Rekordy: 609; unikalne ID: 609; duplikaty ID: 0.
 - Statusy: 609 `needs_review`, 0 `verified`.
 - Explanation poniżej 200 znaków: 0; minimum w banku: 300 znaków.
-- „Poprawna = jedyna najdłuższa”: 74/609 = 12,15%, limit ≤18%.
-- Maksimum działu: B-11 — 7/43 = 16,28%, nadal poniżej limitu 18%.
+- „Poprawna = jedyna najdłuższa”: 70/609 = 11,49%, limit ≤18%.
+- Maksimum działu: B-11 — 6/43 = 13,95%, poniżej ostrzejszego progu działowego 14%.
 
 | Dział | Pytań | Poprawna jedyną najdłuższą | Odsetek |
 |---|---:|---:|---:|
 | B-01 | 45 | 6 | 13,33% |
-| B-02 | 56 | 8 | 14,29% |
+| B-02 | 56 | 7 | 12,50% |
 | B-03 | 49 | 5 | 10,20% |
-| B-04 | 46 | 7 | 15,22% |
+| B-04 | 46 | 6 | 13,04% |
 | B-05 | 43 | 5 | 11,63% |
 | B-06 | 45 | 6 | 13,33% |
-| B-07 | 48 | 7 | 14,58% |
+| B-07 | 48 | 6 | 12,50% |
 | B-08 | 42 | 3 | 7,14% |
 | B-09 | 46 | 5 | 10,87% |
 | B-10 | 55 | 4 | 7,27% |
-| B-11 | 43 | 7 | 16,28% |
+| B-11 | 43 | 6 | 13,95% |
 | B-12 | 44 | 5 | 11,36% |
 | B-13 | 47 | 6 | 12,77% |
 
 ## Synchronizacja
-- Zaktualizowano migawki `review/legal-clauses` i `review/sequential` dla pięciu zmienionych ID.
-- Zaktualizowano `source_bank_head` w wariantach i kluczach egzaminu próbnego 001–005. Nie zmieniono składu wariantów ani kluczy odpowiedzi.
+- Zaktualizowano migawki `review/legal-clauses` i `review/sequential` dla siedmiu zmienionych ID: pięciu z próbki oraz follow-upów ADR-B-0288 i ADR-B-0290.
+- Zaktualizowano `source_bank_head` w wariantach i kluczach egzaminu próbnego 001–005. Nie zmieniono składu wariantów ani kluczy odpowiedzi. Żadne z siedmiu zmienionych ID nie występuje w wariantach 001–005.
 - Manifest próby i wykluczeń: [etap 4x122 — manifest](etap-4x122-wykluczenia-proby.json).
 - Pakiet recenzyjny i indeksy zaktualizowano do nowego blob SHA; statusy i zastrzeżenie o niezależnej recenzji pozostają bez zmian.
 
