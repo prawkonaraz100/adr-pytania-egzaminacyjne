@@ -305,12 +305,12 @@
       "exact_record_snapshot": {
         "stem": "W dokumencie ADR podano czterocyfrowy identyfikator towaru, lecz nie dopisano liter UN. Jak należy poprawić wpis?",
         "options": {
-          "A": "Dodać liczbę pojazdów na końcu identyfikatora zamiast liter UN",
+          "A": "Wpisać sam numer czterocyfrowy bez prefiksu UN, bo cyfry wystarczają do identyfikacji.",
           "B": "Umieścić litery UN przed czterocyfrowym numerem towaru",
-          "C": "Zastąpić go kodem magazynowym używanym wyłącznie przez nadawcę"
+          "C": "Zastąpić numer UN nazwą handlową producenta, jeśli opis wydaje się jednoznaczny."
         },
         "correct_option": "B",
-        "explanation": "Numer UN — czterocyfrowy identyfikator towaru niebezpiecznego — zapisuje się w dokumencie z literami „UN” przed cyframi. Liczba pojazdów ani kod magazynowy nie zastępują tego identyfikatora. Przy kontroli dokumentu trzeba też sprawdzić dalsze wymagane elementy opisu, a nie tylko sam numer. Podstawa: ADR 5.4.1.1.1(a).",
+        "explanation": "W dokumencie przewozowym numer UN zapisuje się z literami „UN” przed czterema cyframi, aby jednoznacznie wskazać identyfikator towaru niebezpiecznego. Same cyfry nie spełniają wymaganego formatu, a nazwa handlowa producenta nie zastępuje numeru UN. Sprawdź także pozostałe elementy opisu przewozowego. Podstawa: ADR 5.4.1.1.1(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
