@@ -699,19 +699,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Kierowca może dowolnie wybrać kod, który ułatwia przejazd trasą”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Gdy w jednej jednostce transportowej znajdują się towary o różnych kodach tunelowych, trzeba ustalić kod najbardziej restrykcyjny dla danego rodzaju przewozu. Nie wolno dowolnie wybrać wygodniejszego kodu ani kierować się ceną ładunku. To pozwala prawidłowo ocenić, przez które tunele można przejechać. Podstawa: ADR 8.6.3.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Nieprawidłowe: wygoda trasy nie rozstrzyga, które ograniczenie ma zastosowanie do przewożonego ładunku."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Zakres ograniczeń ustala się wyłącznie według tańszego z przewożonych towarów”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Gdy w jednej jednostce transportowej znajdują się towary o różnych kodach tunelowych, trzeba ustalić kod najbardziej restrykcyjny dla danego rodzaju przewozu. Nie wolno dowolnie wybrać wygodniejszego kodu ani kierować się ceną ładunku. To pozwala prawidłowo ocenić, przez które tunele można przejechać. Podstawa: ADR 8.6.3.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Nieprawidłowe: nie wybiera się kodu tylko według masy największego towaru, nawet jeśli inny ładunek podlega surowszemu ograniczeniu."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Gdy w jednej jednostce transportowej znajdują się towary o różnych kodach tunelowych, trzeba ustalić kod najbardziej restrykcyjny dla danego rodzaju przewozu. Nie wolno dowolnie wybrać wygodniejszego kodu ani kierować się ceną ładunku. To pozwala prawidłowo ocenić, przez które tunele można przejechać. Podstawa: ADR 8.6.3.2. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Właściwe: przy różnych kodach trzeba ustalić ograniczenie zgodnie z regułą ADR 8.6.3.2."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending. Etap 4x122: zaktualizowano dystraktory i rationale; klucz bez zmian. Etap 4x122: poprawiono wiarygodność dystraktorów, klucz i status needs_review bez zmian. Etap 4x122: dystraktory dopracowane, poprawna litera i status bez zmian.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -720,12 +720,12 @@
         "module_id": "ADR-B-11",
         "stem": "Jednostka przewozi dwa towary ADR z różnymi kodami ograniczeń tunelowych. Jak ustala się zakres ograniczeń?",
         "options": {
-          "A": "Kierowca może dowolnie wybrać kod, który ułatwia przejazd trasą",
-          "B": "Zakres ograniczeń ustala się wyłącznie według tańszego z przewożonych towarów",
+          "A": "Wybiera kod tunelowy, który pozwala przejechać najkrótszą trasą",
+          "B": "Stosuje kod towaru o największej masie, nawet jeśli inny towar ma kod z surowszym ograniczeniem",
           "C": "Stosuje się kod najbardziej restrykcyjny, właściwy dla danego przewozu"
         },
         "correct_option": "C",
-        "explanation": "Gdy w jednej jednostce transportowej znajdują się towary o różnych kodach tunelowych, trzeba ustalić kod najbardziej restrykcyjny dla danego rodzaju przewozu. Nie wolno dowolnie wybrać wygodniejszego kodu ani kierować się ceną ładunku. To pozwala prawidłowo ocenić, przez które tunele można przejechać. Podstawa: ADR 8.6.3.2.",
+        "explanation": "Gdy w jednej jednostce przewożone są towary o różnych kodach tunelowych, trzeba ustalić ograniczenie właściwe dla całego ładunku, zgodnie z regułą ADR. Nie wybiera się kodu według najkrótszej trasy ani masy największego towaru, bo wygoda i udział masowy nie rozstrzygają o ograniczeniu. Dzięki temu kierowca nie wjedzie do tunelu zakazanego dla części ładunku. Podstawa: ADR 8.6.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",

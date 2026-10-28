@@ -672,19 +672,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Gaśnica musi być łatwo dostępna i osłonięta od warunków atmosferycznych."
+          "rationale": "Właściwe: gaśnica ma być łatwo dostępna, aby załoga mogła szybko z niej skorzystać."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Zasłonięta ładunkiem gaśnica nie jest łatwo dostępna."
+          "rationale": "Nieprawidłowe: gaśnica pod ładunkiem nie jest łatwo dostępna."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Pozostawienie gaśnicy w magazynie nie realizuje wymogu na jednostce."
+          "rationale": "Nieprawidłowe: konieczność przełożenia ładunku opóźnia dostęp i może uniemożliwić szybkie użycie."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Dodatkowo obowiązują kontrola, data przeglądu i minimalna skuteczność.",
+      "notes_on_conditions": "Dodatkowo obowiązują kontrola, data przeglądu i minimalna skuteczność. Etap 4x122: zaktualizowano dystraktory i rationale; klucz bez zmian.",
       "editorial_result": "no_additional_key_conflict_found_in_this_pass",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -696,10 +696,10 @@
         "options": {
           "A": "Tak, aby załoga mogła łatwo po nie sięgnąć",
           "B": "Pod ładunkiem, bez możliwości wyjęcia w trasie",
-          "C": "W magazynie przewoźnika, skąd wydaje się je po zgłoszeniu awarii"
+          "C": "W miejscu dostępnym dopiero po przełożeniu części ładunku"
         },
         "correct_option": "A",
-        "explanation": "Gaśnica przyda się tylko wtedy, gdy załoga może szybko ją wyjąć i bezpiecznie użyć zgodnie z instrukcjami. Powinna więc być zamocowana w łatwo dostępnym miejscu i chroniona przed uszkodzeniem lub warunkami, które pogorszą jej działanie. Schowanie jej pod ładunkiem albo pozostawienie w magazynie sprawiłoby, że nie pomoże w sytuacji awaryjnej. Podstawa: ADR 8.1.4.5.",
+        "explanation": "Gaśnica pomoże tylko wtedy, gdy załoga może szybko ją wyjąć i bezpiecznie użyć zgodnie z instrukcjami. Musi więc być prawidłowo zamocowana i łatwo dostępna; jeśli trzeba najpierw przełożyć ładunek, dostęp może być zbyt utrudniony. Schowanie jej pod ładunkiem również nie spełnia celu tego wymagania. Podstawa: ADR 8.1.4.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",

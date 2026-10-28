@@ -637,12 +637,12 @@
       "exact_record_snapshot": {
         "stem": "Jednostka przewozi dwa towary ADR z różnymi kodami ograniczeń tunelowych. Jak ustala się zakres ograniczeń?",
         "options": {
-          "A": "Kierowca może dowolnie wybrać kod, który ułatwia przejazd trasą",
-          "B": "Zakres ograniczeń ustala się wyłącznie według tańszego z przewożonych towarów",
+          "A": "Wybiera kod tunelowy, który pozwala przejechać najkrótszą trasą",
+          "B": "Stosuje kod towaru o największej masie, nawet jeśli inny towar ma kod z surowszym ograniczeniem",
           "C": "Stosuje się kod najbardziej restrykcyjny, właściwy dla danego przewozu"
         },
         "correct_option": "C",
-        "explanation": "Gdy w jednej jednostce transportowej znajdują się towary o różnych kodach tunelowych, trzeba ustalić kod najbardziej restrykcyjny dla danego rodzaju przewozu. Nie wolno dowolnie wybrać wygodniejszego kodu ani kierować się ceną ładunku. To pozwala prawidłowo ocenić, przez które tunele można przejechać. Podstawa: ADR 8.6.3.2.",
+        "explanation": "Gdy w jednej jednostce przewożone są towary o różnych kodach tunelowych, trzeba ustalić ograniczenie właściwe dla całego ładunku, zgodnie z regułą ADR. Nie wybiera się kodu według najkrótszej trasy ani masy największego towaru, bo wygoda i udział masowy nie rozstrzygają o ograniczeniu. Dzięki temu kierowca nie wjedzie do tunelu zakazanego dla części ładunku. Podstawa: ADR 8.6.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
