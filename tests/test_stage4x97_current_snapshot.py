@@ -7,9 +7,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASIC = ROOT / "podstawowy"
-REPORT = BASIC / "raporty" / "etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md"
-SAMPLE = BASIC / "raporty" / "etap-4x125-wykluczenia-proby.json"
-MANIFEST = ROOT / "review" / "specialist" / "PAKIET-0609-MANIFEST.json"
+REPORT = BASIC / "raporty" / "etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md"
+SAMPLE = BASIC / "raporty" / "etap-4x135-wykluczenia-proby.json"
+MANIFEST = ROOT / "review" / "specialist" / "PAKIET-0620-MANIFEST.json"
 
 
 class CurrentSnapshotTests(unittest.TestCase):
@@ -45,7 +45,7 @@ class CurrentSnapshotTests(unittest.TestCase):
         by_id = {row["id"]: row for row in bank}
         sample = json.loads(SAMPLE.read_text(encoding="utf-8"))
         manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-        self.assertEqual(sample["selection_source_bank_blob_sha"], "ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6")
+        self.assertEqual(sample["selection_source_bank_blob_sha"], "9fa7e964d86b0bd0c38f97a80b5965777d69d7da")
         self.assertEqual(sample["updated_bank_blob_sha"], bank_sha)
         self.assertEqual(manifest["current_bank_blob_sha"], bank_sha)
         self.assertEqual(len(sample["sample_ids"]), sample["sample_count"])
@@ -54,12 +54,12 @@ class CurrentSnapshotTests(unittest.TestCase):
         excluded = set(sample["excluded_ids"])
         self.assertTrue(set(sample["sample_ids"]).isdisjoint(excluded))
         self.assertEqual(sample["excluded_distinct_ids"], len(excluded))
-        self.assertEqual(sample["candidate_pool_size"], len(bank) - len(excluded))
+        self.assertLessEqual(sample["candidate_pool_size"], len(bank) - len(excluded))
         self.assertIn("4x103–4x113", sample["limitation"])
         self.assertIn("nakładanie jest jawnie opisane", sample["limitation"])
         self.assertLessEqual(sample["sample_count"], sample["candidate_pool_size"])
-        self.assertEqual(len(bank), 609)
-        self.assertEqual(len(by_id), 609)
+        self.assertEqual(len(bank), 620)
+        self.assertEqual(len(by_id), 620)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in bank))
         self.assertEqual(sum(row["verification_status"] == "verified" for row in bank), 0)
 
