@@ -1,8 +1,8 @@
 ## Najnowsza synchronizacja — etap 4x122 (28.10.2026)
 
-- Aktualny blob banku: `6612e0241dc9e9b3a01f6b456f58d141dc53ada9`.
+- Aktualny blob banku: `5d3bb481e372a45c89b30812841e76e9d91d542f`.
 - Bank: 609 pytań; wszystkie `needs_review`, 0 `verified`; minimum explanation 300 znaków.
-- W próbce 40 urealniono pięć dystraktorów i dopasowano pięć explanation. Nie zmieniono ID, poprawnych liter ani składu wariantów; zsynchronizowano `source_bank_head` w pięciu wariantach i kluczach.
+- W próbce 40 urealniono pięć dystraktorów i dopasowano pięć explanation; poza próbką wykonano dwa celowane follow-upy. Nie zmieniono poprawnych liter ani składu wariantów; zsynchronizowano `source_bank_head` w pięciu wariantach i kluczach.
 - Raport: [Etap 4x122](../raporty/etap-4x122-proba40-dystraktory-sync-2026-10-28.md); manifest: [próba i wykluczenia](../raporty/etap-4x122-wykluczenia-proby.json).
 
 ## Najnowsza synchronizacja — etap 4x120 (28.10.2026)
