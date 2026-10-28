@@ -1,6 +1,13 @@
-## Bieżąca migawka — etap 4x124 (28.10.2026)
+## Bieżąca migawka — etap 4x125 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `36985d2be9667dad581f241d68f7df76ea47e0d5`.
+- Raport: `podstawowy/raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x125-wykluczenia-proby.json`.
+- Sprawdzono 40 pytań; poprawiono treść ADR-B-0173 i dystraktory/explanation ADR-B-0425, ADR-B-0488 oraz ADR-B-0608. Warianty/klucze 001–005 zsynchronizowane; A/B/C = 10/10/10.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 69/609 = 11,33%; maksimum działu 13,95%; explanation minimum 300 znaków.
+
+## Bieżąca migawka — etap 4x124 (28.10.2026)
+
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6`.
 - Raport: `podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x124-wykluczenia-proby.json`.
 - Sprawdzono wszystkie 25 ID pozostałe po wykluczeniach 4x114–4x123; poprawiono jedno sformułowanie zakazu w ADR-B-0293 (ADR 8.3.1).
 - Wskaźnik „poprawna = jedyna najdłuższa”: 69/609 = 11,33%; maksimum działu 13,95%; explanation minimum 300 znaków.
