@@ -309,7 +309,7 @@
     },
     "not_verified_warning": "All 609 questions remain needs_review. A targeted comparison result does not constitute verified status."
   },
-  "current_bank_blob_sha": "28d809ccbf973fc8101f456eb9ab0144165110f1",
+  "current_bank_blob_sha": "35549752d913c85daf1fc3c9492d9c04fce777a1",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -675,10 +675,10 @@
     "status": "needs_review",
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
-  "latest_report": "podstawowy/raporty/etap-4x116-proba40-jakosc-dystraktorow-2026-10-28.md",
-  "latest_sample": "podstawowy/raporty/etap-4x118-wykluczenia-proby.json",
-  "latest_sample_seed": 41182026,
-  "latest_sample_count": 25,
+  "latest_report": "podstawowy/raporty/etap-4x119-proba40-spojnosc-2026-10-28.md",
+  "latest_sample": "podstawowy/raporty/etap-4x119-wykluczenia-proby.json",
+  "latest_sample_seed": 41192026,
+  "latest_sample_count": 40,
   "stage4x109": {
     "date": "2026-10-28",
     "sample_size": 40,
@@ -703,8 +703,8 @@
     "sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
     "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
   },
-  "latest_editorial_stage": "4x118",
-  "latest_editorial_report": "podstawowy/raporty/etap-4x118-proba25-dystraktory-sync-2026-10-28.md",
+  "latest_editorial_stage": "4x119",
+  "latest_editorial_report": "podstawowy/raporty/etap-4x119-proba40-spojnosc-2026-10-28.md",
   "stage4x112": {
     "source_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
     "sample_size": 40,
@@ -876,5 +876,32 @@
     "verification_status": "needs_review",
     "legal_review_pending": true,
     "overlap_note": "ADR-B-0535 was also in the 4x117 sample; this was a targeted follow-up, not counted among the 25 disjoint sample IDs."
+  },
+  "stage4x119": {
+    "source_bank_blob_sha": "35549752d913c85daf1fc3c9492d9c04fce777a1",
+    "sample_size": 40,
+    "seed": 41192026,
+    "excluded_sample_ids_from_stages": "4x114–4x118",
+    "recovered_ids_from_closed_pr579": [
+      "ADR-B-0193",
+      "ADR-B-0197",
+      "ADR-B-0223",
+      "ADR-B-0458",
+      "ADR-B-0496",
+      "ADR-B-0505",
+      "ADR-B-0577"
+    ],
+    "questions_changed": 7,
+    "questions_reviewed_in_sample": 40,
+    "sample_questions_rewritten": 0,
+    "explanation_min_chars": 300,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 72,
+    "strictly_longest_rate": 0.1182,
+    "maximum_module_rate": 0.1429,
+    "verification_status": "needs_review",
+    "legal_review_pending": true,
+    "report": "podstawowy/raporty/etap-4x119-proba40-spojnosc-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x119-wykluczenia-proby.json"
   }
 }
