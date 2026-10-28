@@ -9,7 +9,7 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawna opcja: „Zachować pełny, wymagany wzór instrukcji pisemnych ADR”. Instrukcje pisemne mają ustalony wzór, aby załoga mogła szybko znaleźć właściwe działania w nagłym zdarzeniu. Skrót firmowy może pominąć ważne informacje, a sam numer telefonu nie opisuje, co zrobić od razu. Przed wyjazdem sprawdź, czy w kabinie jest właściwy wzór i komplet stron. Podstawa: ADR 5.4.3.4. To wstępna ocena redakcyjna; niezależna kontrola przepisu pozostaje otwarta."
+          "rationale": "Poprawna opcja: „Zachować pełny, wymagany wzór instrukcji pisemnych ADR”. Stały wzór pozwala załodze szybko odnaleźć działania w nagłym zdarzeniu. Opcja B błędnie uznaje, że zapamiętanie zasad zastępuje dokument; opcja C dopuszcza skrócenie, które może pominąć wymagane kroki. Przed wyjazdem sprawdź pełny wzór i jego dostępność. Podstawa: ADR 5.4.3.4. Redakcja nie oznacza zatwierdzenia prawnego."
         },
         "B": {
           "expected_correct": false,
@@ -36,7 +36,7 @@
           "C": "Użyć skróconej wersji firmowej, jeśli omawia podstawowe zagrożenia, zamiast wzoru ADR"
         },
         "correct_option": "A",
-        "explanation": "Instrukcje pisemne ADR mają ustalony wzór, aby załoga mogła szybko znaleźć działania potrzebne podczas zdarzenia. Skrócona wersja firmowa może pominąć wymagane informacje, nawet jeśli opisuje główne zagrożenia; zapamiętanie zasad nie zastępuje instrukcji, a telefon dyspozytora nie podaje kroków awaryjnych. Przed wyjazdem sprawdź pełny wzór i jego dostępność. Podstawa: ADR 5.4.3.",
+        "explanation": "Instrukcje pisemne mają stały wzór, aby kierowca w stresie szybko znalazł właściwe działania. Odpowiedź B błędnie zakłada, że zapamiętane zasady zastąpią dokument; odpowiedź C dopuszcza skrócenie instrukcji, które może pominąć ważne kroki. Przed wyjazdem sprawdź pełny wzór i jego dostępność w kabinie. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
