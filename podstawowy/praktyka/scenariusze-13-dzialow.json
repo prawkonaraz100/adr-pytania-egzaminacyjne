@@ -495,12 +495,12 @@
       "id": "SC-ADR-B-01-03",
       "module_id": "ADR-B-01",
       "title": "Kontrola dokumentów: polecenie nie uchyla zakazu",
-      "situation": "Dyspozytor prosi kierowcę, by zabrał towar, mimo że w dokumentach nie ma pewności co do właściwej pozycji i warunków przewozu. Kierowca słyszy, że dokument można uzupełnić później.",
+      "situation": "Podczas kontroli przed wyjazdem kierowca znajduje w dokumentach numer UN i nazwę handlową, ale nie może potwierdzić wymaganej nazwy przewozowej. Dyspozytor namawia, by ruszyć.",
       "steps": [
-        "Porównaj dane w dokumentach z etykietą i właściwym wpisem ADR.",
-        "Ustal, czy przewóz danej substancji jest dopuszczony w planowanej postaci i ilości.",
-        "Nie ruszaj z niepełnymi danymi, które uniemożliwiają sprawdzenie zgodności; poproś odpowiedzialnego uczestnika o wyjaśnienie.",
-        "Zapisz, jaka informacja wymaga potwierdzenia. Nie wpisuj danych na podstawie przypuszczeń."
+        "Zatrzymaj przygotowania i porównaj numer UN oraz wymagany opis z tabelą A ADR 3.2.",
+        "Poproś nadawcę o uzupełnienie lub wyjaśnienie danych, których brakuje; nie dopisuj ich z pamięci.",
+        "Sprawdź, czy przewóz jest w ogóle dopuszczony i czy istnieją dodatkowe warunki lub zakazy.",
+        "Wyrusz dopiero po usunięciu niezgodności; samo polecenie dyspozytora nie zastępuje wymaganego dokumentu."
       ],
       "common_errors": [
         {
@@ -529,18 +529,17 @@
       ],
       "safety_boundary": "Symulacja rozmowy i fikcyjnych dokumentów.",
       "common_mistakes": [
-        "Uzupełnianie dokumentu na podstawie domysłu — może wprowadzić błędne dane o towarze.",
-        "Uznanie polecenia dyspozytora za zgodę na odstępstwo — polecenie służbowe nie uchyla ADR.",
-        "Skupienie się na jednym poprawnym polu — numer UN nie potwierdza, że cały przewóz jest dopuszczony."
+        "Pójście na skróty zamiast weryfikacji — może utrwalić niezgodność lub zagrożenie.",
+        "Przyjmowanie przypuszczenia za potwierdzenie — wymagane dane trzeba sprawdzić w dokumentach i właściwym przepisie.",
+        "Działanie bez oceny bezpieczeństwa — kierowca nie powinien narażać siebie ani osób postronnych."
       ],
       "legal_basis": [
-        "ADR 2.1",
         "ADR 3.2 tabela A",
-        "ADR 5.4.1",
-        "ADR 7.5.1.2"
+        "ADR 5.4.1.1.1",
+        "ADR 1.4.2.1"
       ],
-      "learner_takeaway": "Poprawny numer UN nie naprawia brakującego opisu ani nie uchyla zakazu przewozu.",
-      "learner_question": "Co robisz, kiedy brakuje danych, a dyspozytor nalega na wyjazd?"
+      "learner_takeaway": "Najpierw sprawdź dane i bezpieczeństwo, potem podejmuj decyzję. W razie niezgodności wyjaśnij ją przed kontynuowaniem.",
+      "learner_question": "Jakie cztery kroki wykonasz i dlaczego nie warto pomijać weryfikacji?"
     },
     {
       "id": "SC-ADR-B-02-02",
@@ -600,12 +599,12 @@
       "id": "SC-ADR-B-02-03",
       "module_id": "ADR-B-02",
       "title": "Rozpoznawanie klas zagrożenia przed przyjęciem",
-      "situation": "Przed przyjęciem ładunku kierowca sprawdza trzy towary: benzynę, materiał żrący i materiał oznaczony klasą 4.3. Musi rozpoznać klasę każdego towaru oraz podstawowe zagrożenie, zanim dopuści przesyłki do dalszej obsługi.",
+      "situation": "Przed przyjęciem przesyłek magazynier widzi benzynę oznaczoną klasą 3, materiał żrący klasy 8 oraz przesyłkę z nalepką oznaczoną klasą 4.3; jeden dokument podaje inną klasę niż nalepka.",
       "steps": [
-        "Porównaj numer UN, prawidłową nazwę przewozową, klasę i nalepkę z danymi w dokumentach.",
-        "Rozpoznaj podstawowe klasy w przykładach: benzyna należy do klasy 3, materiały żrące do klasy 8, a materiały klasy 4.3 mogą wydzielać palny gaz w kontakcie z wodą.",
-        "Nie zakładaj, że jedna zgodna informacja oznacza poprawność całego oznakowania; sprawdź pozostałe wymagane dane.",
-        "Jeśli dokument i nalepka się różnią, wstrzymaj przyjęcie i wyjaśnij rozbieżność z odpowiedzialnym uczestnikiem. Nie poprawiaj oznakowania na wyczucie."
+        "Nie opieraj się na samym kolorze ani jednym symbolu: odczytaj numer klasy i pełną nalepkę.",
+        "Dla każdej przesyłki porównaj numer UN, nazwę i klasę z dokumentem oraz tabelą A.",
+        "Wstrzymaj przyjęcie przesyłki z rozbieżnością; nie poprawiaj nalepki na podstawie domysłu.",
+        "Zgłoś rozbieżność nadawcy lub odpowiedzialnej osobie i kontynuuj dopiero po jej wyjaśnieniu."
       ],
       "common_errors": [
         {
@@ -638,20 +637,17 @@
       ],
       "safety_boundary": "Symulacja z kartami i wydrukowanymi symbolami.",
       "common_mistakes": [
-        "Uznanie numeru UN za jedyny potrzebny element — klasa i nalepki też przekazują ważne informacje.",
-        "Ignorowanie różnicy między klasami — każda klasa wiąże się z innym rodzajem zagrożenia.",
-        "Samodzielne poprawianie dokumentu lub nalepki bez potwierdzenia — może utrwalić błędną klasyfikację."
+        "Pójście na skróty zamiast weryfikacji — może utrwalić niezgodność lub zagrożenie.",
+        "Przyjmowanie przypuszczenia za potwierdzenie — wymagane dane trzeba sprawdzić w dokumentach i właściwym przepisie.",
+        "Działanie bez oceny bezpieczeństwa — kierowca nie powinien narażać siebie ani osób postronnych."
       ],
       "legal_basis": [
-        "ADR 2.1",
-        "ADR 2.2.3.1.1",
-        "ADR 2.2.8.1.1",
-        "ADR 2.2.43.1.1",
         "ADR 3.2 tabela A",
-        "ADR 5.2.2.2.2"
+        "ADR 5.2.2.2.2",
+        "ADR 7.5.1"
       ],
-      "learner_takeaway": "Klasa opisuje rodzaj zagrożenia. Porównaj klasę, nazwę, numer UN i nalepkę; rozbieżność wyjaśnij przed przyjęciem.",
-      "learner_question": "Jakie podstawowe zagrożenia odróżniają klasę 3, klasę 8 i klasę 4.3?"
+      "learner_takeaway": "Najpierw sprawdź dane i bezpieczeństwo, potem podejmuj decyzję. W razie niezgodności wyjaśnij ją przed kontynuowaniem.",
+      "learner_question": "Jakie cztery kroki wykonasz i dlaczego nie warto pomijać weryfikacji?"
     },
     {
       "id": "SC-ADR-B-03-02",
@@ -705,12 +701,12 @@
       "id": "SC-ADR-B-03-03",
       "module_id": "ADR-B-03",
       "title": "Pozostałości po rozładunku przed kolejnym ładunkiem",
-      "situation": "Po rozładunku kierowca zauważa nieznane pozostałości na podłodze przestrzeni ładunkowej. Kolejny towar jest już gotowy do załadunku, a dyspozytor chce uniknąć opóźnienia.",
+      "situation": "Po rozładunku kierowca widzi ślad cieczy na podłodze pojazdu. Następny ładunek czeka, a operator proponuje położyć na plamie karton.",
       "steps": [
-        "Wstrzymaj kolejny załadunek, dopóki nie zostanie ocenione znaczenie pozostałości.",
-        "Nie dotykaj ani nie mieszaj pozostałości z innym materiałem.",
-        "Zgłoś problem i ustal bezpieczny sposób oczyszczenia zgodny z właściwymi wymaganiami.",
-        "Wróć do załadunku dopiero wtedy, gdy przestrzeń jest odpowiednia dla nowego towaru."
+        "Wstrzymaj kolejny załadunek i nie dotykaj ani nie rozmazuj pozostałości.",
+        "Ustal bez narażania siebie, czy pojazd jest zanieczyszczony wyciekiem z przesyłki.",
+        "Powiadom odpowiedzialną osobę i zorganizuj odpowiednie bezpieczne oczyszczenie, zamiast maskować zabrudzenie.",
+        "Ponownie sprawdź stan przestrzeni ładunkowej; następny załadunek rozpocznij dopiero, gdy wymóg czyszczenia zostanie spełniony."
       ],
       "common_errors": [
         {
@@ -737,17 +733,16 @@
       ],
       "safety_boundary": "Ćwiczenie na makiecie z fikcyjnymi pozostałościami.",
       "common_mistakes": [
-        "Załadunek nowego towaru nad pozostałościami — pozostałości mogą zanieczyścić nowy ładunek lub z nim reagować.",
-        "Mieszanie albo dotykanie nieznanych resztek — może stworzyć dodatkowe zagrożenie.",
-        "Uznanie, że mała plama jest zawsze niegroźna — wymóg oczyszczenia zależy od zdarzenia i właściwego przepisu."
+        "Pójście na skróty zamiast weryfikacji — może utrwalić niezgodność lub zagrożenie.",
+        "Przyjmowanie przypuszczenia za potwierdzenie — wymagane dane trzeba sprawdzić w dokumentach i właściwym przepisie.",
+        "Działanie bez oceny bezpieczeństwa — kierowca nie powinien narażać siebie ani osób postronnych."
       ],
       "legal_basis": [
-        "ADR 2.1.3.5.5",
-        "ADR 5.4.1.1.6.3(b)",
-        "ADR 7.5.8.1"
+        "ADR 7.5.8.1",
+        "ADR 5.4.3.4"
       ],
-      "learner_takeaway": "Pozostałości po poprzednim ładunku trzeba ocenić przed kolejnym załadunkiem; gdy przepis wymaga czyszczenia, nie omijaj go dla oszczędności czasu.",
-      "learner_question": "Co trzeba ustalić przed następnym załadunkiem po zauważeniu pozostałości?"
+      "learner_takeaway": "Najpierw sprawdź dane i bezpieczeństwo, potem podejmuj decyzję. W razie niezgodności wyjaśnij ją przed kontynuowaniem.",
+      "learner_question": "Jakie cztery kroki wykonasz i dlaczego nie warto pomijać weryfikacji?"
     },
     {
       "id": "SC-ADR-B-04-02",
