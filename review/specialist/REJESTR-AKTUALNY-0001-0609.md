@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x118
+
+- Raport: [pozostała próbka 25, dystraktory i synchronizacja](../../podstawowy/raporty/etap-4x118-proba25-dystraktory-sync-2026-10-28.md) (28.10.2026).
+- Bank: 609 pytań `ADR-B-0001–ADR-B-0609`, blob SHA `28d809ccbf973fc8101f456eb9ab0144165110f1`; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- Przejrzano 25 ID rozłącznych z próbkami 4x116 i 4x117 oraz dodatkowo ADR-B-0535 jako jawnie oznaczony follow-up. Poprawiono dystraktory i explanation w ADR-B-0028, 0054, 0354, 0492 i 0535.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82%; minimum explanation 300 znaków. Egzaminy 001–005 wskazują bieżący blob banku.
+- Przegląd redakcyjny nie zastępuje kontroli urzędowego tekstu ADR i niezależnej recenzji specjalisty. Zachować `needs_review`.
+
 ## Bieżąca migawka — etap 4x117 (28.10.2026)
 
 - Raport: [próbka 40, explanation i dystraktory](podstawowy/raporty/etap-4x117-proba40-jakosc-dystraktorow-2026-10-28.md); manifest: `podstawowy/raporty/etap-4x117-wykluczenia-proby.json`.
