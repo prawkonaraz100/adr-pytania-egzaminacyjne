@@ -7,8 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASIC = ROOT / "podstawowy"
-REPORT = BASIC / "raporty" / "etap-4x121-proba40-explanations-sync-2026-10-28.md"
-SAMPLE = BASIC / "raporty" / "etap-4x121-wykluczenia-proby.json"
+REPORT = BASIC / "raporty" / "etap-4x122-proba40-explanations-dystraktory-sync-2026-10-28.md"
+SAMPLE = BASIC / "raporty" / "etap-4x122-wykluczenia-proby.json"
 MANIFEST = ROOT / "review" / "specialist" / "PAKIET-0609-MANIFEST.json"
 
 
@@ -54,7 +54,7 @@ class CurrentSnapshotTests(unittest.TestCase):
         self.assertTrue(set(sample["sample_ids"]).isdisjoint(excluded))
         self.assertEqual(sample["excluded_distinct_ids"], len(excluded))
         self.assertEqual(sample["candidate_pool_size"], len(bank) - len(excluded))
-        self.assertIn("4x103–4x113", sample["limitation"])
+        self.assertIn("4x114–4x121", sample["limitation"])
         self.assertIn("nakładanie jest jawnie opisane", sample["limitation"])
         self.assertLessEqual(sample["sample_count"], sample["candidate_pool_size"])
         self.assertEqual(len(bank), 609)
