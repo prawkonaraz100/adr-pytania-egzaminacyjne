@@ -1284,20 +1284,20 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Etap drogowy podlega ADR, morski właściwym regułom IMDG."
+          "rationale": "ADR reguluje odcinek drogowy, a przepisy morskie, w tym IMDG, mogą mieć zastosowanie do odcinka morskiego."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Regulamin magazynu nie zastępuje wymagań ADR/IMDG."
+          "rationale": "IMDG ma znaczenie dla odcinka morskiego, ale nie zastępuje automatycznie ADR na odcinku drogowym."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Przepisy o parkowaniu nie regulują całego multimodalnego przewozu."
+          "rationale": "To, że podróż zaczyna się ciężarówką, nie sprawia, że ADR reguluje odcinek morski."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Warunkowe uznanie wymagań IMDG przez ADR nie znosi wszystkich obowiązków na drodze.",
-      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "notes_on_conditions": "Warunkowe uznanie wymagań IMDG przez ADR nie znosi wszystkich obowiązków na drodze. Etap 4x117: dystraktory zredagowano; klucz i podstawa prawna bez zmian; niezależna recenzja specjalisty nadal wymagana.",
+      "editorial_result": "distractors_rephrased_4x117; correct key and legal basis unchanged; specialist review pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -1307,11 +1307,11 @@
         "stem": "Jeśli przewóz towarów niebezpiecznych obejmuje odcinek drogowy i morski, które przepisy mogą być istotne?",
         "options": {
           "A": "ADR i przepisy morskie",
-          "B": "Regulamin magazynu dotyczący przechowywania towarów",
-          "C": "Przepisy o parkowaniu pojazdów w terminalu morskim"
+          "B": "Stosować wyłącznie IMDG, ponieważ odcinek morski podlega temu kodeksowi, a on obejmuje całą trasę.",
+          "C": "Stosować wyłącznie ADR na całej trasie, ponieważ przewóz rozpoczyna się ciężarówką."
         },
         "correct_option": "A",
-        "explanation": "Gdy towar jedzie ciężarówką do portu, a potem statkiem, dla poszczególnych odcinków mogą obowiązywać różne zasady. ADR dotyczy drogi, a IMDG to międzynarodowy kodeks przewozu towarów niebezpiecznych drogą morską. Regulamin magazynu ani zasady parkowania nie zastępują wymagań przewozowych. Sprawdź, jakie dokumenty i oznakowanie są potrzebne na każdym etapie. Podstawa: ADR 1.1.4.2.",
+        "explanation": "W przewozie łączącym drogę i morze trzeba sprawdzić przepisy właściwe dla obu odcinków: ADR dla drogi i IMDG dla morza. Sam udział statku nie sprawia, że IMDG zastępuje wymagania drogowe; tak samo rozpoczęcie trasy ciężarówką nie oznacza, że ADR reguluje morski odcinek. Przed przekazaniem ładunku sprawdź dokumenty i oznakowanie dla każdego etapu. Podstawa: ADR 1.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
