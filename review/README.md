@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x118 (28.10.2026)
+
+- Bank `podstawowy/questions.jsonl`: blob SHA `c7690500784676272a886d28ec0831a1975704c5`; 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- Raport etapu: `../podstawowy/raporty/etap-4x118-proba40-jakosc-dystraktorow-2026-10-28.md`; manifest próby: `../podstawowy/raporty/etap-4x118-wykluczenia-proby.json`.
+- Przepisano explanation w ADR-B-0193, 0197, 0223, 0354, 0458, 0496, 0505 i 0577; urealniono dystraktory w sześciu pytaniach. Żadnej poprawnej litery ani ID nie zmieniono.
+- Metryki: „poprawna = jedyna najdłuższa” 72/609 = 11,82%; maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
+- Sprawdzono 13 lekcji, 39 scenariuszy i pięć wariantów oraz kluczy egzaminu. Status prawny nadal wymaga niezależnej recenzji specjalisty.
+
 ## Bieżąca migawka — etap 4x117 (28.10.2026)
 
 - Raport: [próbka 40, explanation i dystraktory](podstawowy/raporty/etap-4x117-proba40-jakosc-dystraktorow-2026-10-28.md); manifest: `podstawowy/raporty/etap-4x117-wykluczenia-proby.json`.
