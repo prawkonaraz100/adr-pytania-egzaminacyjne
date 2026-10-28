@@ -2,8 +2,8 @@
   "stage": "4x117",
   "seed": 41172026,
   "algorithm": "LCG state=(1664525*state+1013904223) mod 2^32; Fisher–Yates over bank rows not in the union of prior 4x116 exclusions and samples",
-  "source_bank_blob_sha": "ed7e1842d6f15d1ecde54ea3319d9efe3ef7a728",
-  "updated_bank_blob_sha": "809986a71cf9911b8c33366c3b53b0db4a59889f",
+  "source_bank_blob_sha": "30b9212b2feff4232440416c9ab4052e93cc1f4a",
+  "updated_bank_blob_sha": "30b9212b2feff4232440416c9ab4052e93cc1f4a",
   "source_bank_count": 609,
   "excluded_count": 583,
   "excluded_distinct_ids": 583,
@@ -622,7 +622,7 @@
     "ADR-B-0608",
     "ADR-B-0609"
   ],
-  "limitation": "The remaining pool is defined by the recorded 4x116 manifest. Earlier 4x103–4x106 reports do not consistently distinguish sampled IDs from other IDs discussed; this manifest records the reproducible pool, not undocumented historical sampling.",
+  "limitation": "Konserwatywne wykluczenie jawnych ID z raportów 4x103–4x106; to nie dowodzi braku nakładania z nieudokumentowanymi próbkami.",
   "verification_status": "needs_review",
   "legal_review_pending": true
 }
