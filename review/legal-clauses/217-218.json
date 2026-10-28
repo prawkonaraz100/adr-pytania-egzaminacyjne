@@ -14,15 +14,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Powtórzenie cyfry 8 w numerze zagrożenia wyraża nasilenie żrącego działania."
+          "rationale": "Powtórzona cyfra 8 wzmacnia znaczenie zagrożenia żrącego. Podstawa: ADR 5.3.2.3.1."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Sam numer nie dowodzi braku innych zagrożeń ani nie zastępuje dokumentacji."
+          "rationale": "Powtórzona cyfra 8 oznacza większe nasilenie zagrożenia, więc nie jest to zwykłe zagrożenie bez wzmocnienia. Podstawa: ADR 5.3.2.3.1."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Cyfry numeru zagrożenia nie służą do numerowania kolejnych przesyłek."
+          "rationale": "Zapis 88 nie oznacza dwóch odrębnych zagrożeń żrących; powtórzenie cyfry wzmacnia jej znaczenie. Podstawa: ADR 5.3.2.3.1."
         }
       },
       "observed_answer_key": "A",
@@ -37,11 +37,11 @@
         "stem": "Na tablicy pomarańczowej w górnym polu jest numer rozpoznawczy zagrożenia 88. Co informuje kierowcę podwójna cyfra 8?",
         "options": {
           "A": "Zagrożenie żrące jest nasilone",
-          "B": "Przyjąć, że numer 88 oznacza jedną klasę bez innych zagrożeń",
-          "C": "Druga ósemka to numer paczki"
+          "B": "Zagrożenie żrące, ale bez zwiększenia nasilenia przez powtórzenie cyfry.",
+          "C": "Dwa osobne zagrożenia żrące, z których każde ma takie samo znaczenie."
         },
         "correct_option": "A",
-        "explanation": "Numer rozpoznawczy zagrożenia 88 oznacza nasilone zagrożenie żrące: powtórzenie cyfry 8 wzmacnia znaczenie tego rodzaju zagrożenia. Nie oznacza to jednak, że towar ma tylko jedno zagrożenie albo że druga ósemka jest numerem paczki. Odczytuj cały numer zgodnie z tabelą ADR, zamiast przypisywać każdej cyfrze osobną funkcję. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "W numerze rozpoznawczym zagrożenia powtórzona cyfra 8 wzmacnia znaczenie zagrożenia żrącego. Nie oznacza to dwóch osobnych materiałów ani dwóch niezależnych klas zagrożenia. Kierowca odczytuje cały numer zgodnie z ADR, zamiast przypisywać każdej cyfrze oddzielną funkcję. To ułatwia rozpoznanie stopnia zagrożenia. Podstawa: ADR 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",

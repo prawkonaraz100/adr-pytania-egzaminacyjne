@@ -106,15 +106,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant „Automatyczny zakaz przejazdu przez każdy tunel” jest błędnym uproszczeniem zasad ADR ADR 2025, 8.6.3.1; przed publikacją sprawdzić polskie brzmienie."
+          "rationale": "Kod „(-)” nie unieważnia znaków drogowych ani nie pozwala ignorować ograniczenia przed tunelem. Podstawa: ADR 8.6.3.1 i 1.9.5.3.5."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant „Obowiązek użycia wyłącznie drogi ekspresowej” jest błędnym uproszczeniem zasad ADR ADR 2025, 8.6.3.1; przed publikacją sprawdzić polskie brzmienie."
+          "rationale": "Brak kodu tunelowego nie jest zgodą na wjazd wbrew znakowi drogowemu. Podstawa: ADR 8.6.3.1 i 1.9.5.3.5."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Wstępna wykładnia ADR 2025, 8.6.3.1: Symbol „(-)” oznacza brak przypisanego ograniczenia przejazdu przez tunele wynikającego z kodu ADR; inne wymagania mogą nadal obowiązywać."
+          "rationale": "Kierowca musi stosować się do znaków i pozostałych przepisów; kod „(-)” oznacza jedynie brak przypisanego ograniczenia tunelowego ADR. Podstawa: ADR 8.6.3.1 i 1.9.5.3.5."
         }
       },
       "observed_answer_key": "C",
@@ -126,14 +126,14 @@
       "question_snapshot": {
         "id": "ADR-B-0264",
         "module_id": "ADR-B-11",
-        "stem": "W kolumnie 15 tabeli A dla pozycji UN w miejscu kodu ograniczenia tunelowego występuje znak „(-)”. Co oznacza ten zapis w zakresie tego kodu?",
+        "stem": "W kolumnie 15 tabeli A przy towarze widnieje kod „(-)”, ale przed tunelem stoi znak ograniczający wjazd. Jak powinien postąpić kierowca?",
         "options": {
-          "A": "Automatyczny zakaz przejazdu przez każdy tunel",
-          "B": "Obowiązek użycia wyłącznie drogi ekspresowej",
-          "C": "Nie przypisano ograniczenia tunelowego ADR z tego tytułu, co nie uchyla innych przepisów i znaków drogowych"
+          "A": "Zignorować znak, bo kod „(-)” unieważnia ograniczenia drogowe.",
+          "B": "Wjechać, jeśli dokument przewozowy potwierdza brak kodu ograniczenia.",
+          "C": "Zastosować się do znaku i innych przepisów drogowych; kod „(-)” ich nie uchyla."
         },
         "correct_option": "C",
-        "explanation": "Zapis „(-)” oznacza, że w tabeli A nie przypisano tej pozycji kodu ograniczenia tunelowego ADR. Nie jest to automatyczny zakaz wjazdu ani nakaz korzystania wyłącznie z drogi ekspresowej. Nadal trzeba stosować inne przepisy, znaki drogowe i ograniczenia dotyczące konkretnej trasy. Podstawa: ADR 8.6.3.1.",
+        "explanation": "Kod „(-)” oznacza, że ADR nie przypisał towarowi własnego ograniczenia tunelowego, ale nie unieważnia znaków drogowych ani innych zasad trasy. Jeśli znak przed tunelem ogranicza wjazd, kierowca musi go uwzględnić i wybrać dozwolony przejazd. Decyzję trzeba oprzeć na całej sytuacji drogowej, a nie wyłącznie na wpisie w tabeli A. Podstawa: ADR 8.6.3.1 i 1.9.5.3.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",

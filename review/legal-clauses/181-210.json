@@ -202,15 +202,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ukrywanie dokumentów utrudnia działania ratowników."
+          "rationale": "Dokumenty dostępne bez ryzyka należy udostępnić służbom, a nie ukrywać z powodu danych o ładunku. Podstawa: ADR 5.4.3.4."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Sam numer rejestracyjny nie zastępuje opisu towarów."
+          "rationale": "Gdy dokument jest bezpiecznie dostępny, nie należy polegać wyłącznie na pamięci kierowcy. Podstawa: ADR 5.4.3.4."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Ratownikom trzeba udostępnić dokumenty i informacje o niebezpiecznych towarach."
+          "rationale": "Dokumenty przewozowe zawierają dane potrzebne do oceny ładunku; udostępnij je, jeśli możesz zrobić to bezpiecznie. Podstawa: ADR 5.4.3.4."
         }
       },
       "observed_answer_key": "C",
@@ -224,12 +224,12 @@
         "module_id": "ADR-B-05",
         "stem": "Straż pożarna dojeżdża do uszkodzonego pojazdu ADR. Dokument przewozowy jest bezpiecznie dostępny w kabinie. Co jest zgodne z instrukcjami?",
         "options": {
-          "A": "Schować dokumenty przed służbami, ponieważ zawierają dane ładunku",
-          "B": "Przekazać służbom tylko numer rejestracyjny, bez informacji o niebezpiecznych towarach",
+          "A": "Odmówić dostępu do dokumentów, bo zawierają informacje o ładunku.",
+          "B": "Odtworzyć informacje wyłącznie z pamięci, nawet gdy dokument jest bezpiecznie dostępny.",
           "C": "Udostępnić ratownikom dokumenty przewozowe i możliwie dokładne informacje o ładunku"
         },
         "correct_option": "C",
-        "explanation": "Ratownicy muszą wiedzieć, jakie towary niebezpieczne są w uszkodzonym pojeździe, aby dobrać odpowiednie środki. Jeśli dokumenty przewozowe są bezpiecznie dostępne, trzeba ułatwić służbom ich uzyskanie i przekazać sprawdzone informacje. Ukrycie dokumentów albo podanie wyłącznie numeru rejestracyjnego utrudnia akcję. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Ratownicy potrzebują wiarygodnych danych o przewożonych towarach, aby dobrać bezpieczne działania. Jeśli dokument jest bezpiecznie dostępny, należy ułatwić służbom jego uzyskanie i przekazać sprawdzone informacje. Nie należy blokować dostępu do dokumentu ani polegać wyłącznie na pamięci, gdy można bezpiecznie skorzystać z dokumentacji. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
