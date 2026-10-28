@@ -2,9 +2,9 @@
 
 - Data: 2026-10-28.
 - Punkt wejścia: świeży `main` po PR #580, commit `109dfac0134ce81adc527751aa0bd359cc17da4a`.
-- Bank po poprawkach: 609 pytań; blob SHA `6cf4ff901a092fe445844a970b862000e6ce03bf`; wszystkie `needs_review`, 0 `verified`.
+- Bank po poprawkach: 609 pytań; blob SHA `04ace7f478868d0901bbc45fb26af3d866e18538`; wszystkie `needs_review`, 0 `verified`.
 - Próbka: 40 ID, seed `411202026`, kandydaci po wykluczeniu 450 unikalnych ID: 159.
-- Explanation w próbce: 40/40 przeczytano; 0 wymagało przepisywania, bo każde wyjaśnienie ma 2–5 zdań, co najmniej 300 znaków, najpierw wyjaśnia sens odpowiedzi, omawia mylące warianty i kończy podstawą.
+- Explanation w próbce: 40/40 przeczytano; 4 wymagały dopasowania po zmianie dystraktorów, bo każde wyjaśnienie ma 2–5 zdań, co najmniej 300 znaków, najpierw wyjaśnia sens odpowiedzi, omawia mylące warianty i kończy podstawą.
 - Dystraktory: 4 pytania z bieżącej próbki poprawiono; dodatkowo 5 celowanych follow-upów poza próbą, gdyż w tych pytaniach znaleziono oczywiste lub słabo dydaktyczne błędne opcje.
 
 ## Zmiany w dystraktorach
@@ -27,7 +27,7 @@ ID, poprawne litery, podstawy prawne i statusy weryfikacji pozostały bez zmian.
 
 - Przejrzano 40 pytań z 13 działów; 36 pozostawiono bez zmian, a 4 pytania w próbie otrzymały poprawione dystraktory.
 - Dodatkowe 5 follow-upów nie wlicza się do próbki 40.
-- Explanation przepisane: 0; minimum explanation w całym banku: 300 znaków; poniżej 200: 0.
+- Explanation przepisane/dopasowane: 4; minimum explanation w całym banku: 300 znaków; poniżej 200: 0.
 - Bank: 609 rekordów, 0 zduplikowanych ID, 609 `needs_review`, 0 `verified`.
 
 ## Wskaźnik długości odpowiedzi
@@ -42,19 +42,19 @@ ID, poprawne litery, podstawy prawne i statusy weryfikacji pozostały bez zmian.
 | ADR-B-04 | 46 | 6 | 13.04% |
 | ADR-B-05 | 43 | 5 | 11.63% |
 | ADR-B-06 | 45 | 6 | 13.33% |
-| ADR-B-07 | 48 | 6 | 12.50% |
+| ADR-B-07 | 48 | 7 | 14.58% |
 | ADR-B-08 | 42 | 3 | 7.14% |
 | ADR-B-09 | 46 | 5 | 10.87% |
 | ADR-B-10 | 55 | 4 | 7.27% |
 | ADR-B-11 | 43 | 6 | 13.95% |
 | ADR-B-12 | 44 | 5 | 11.36% |
-| ADR-B-13 | 47 | 5 | 10.64% |
+| ADR-B-13 | 47 | 6 | 12.77% |
 
 ## Spójność lekcji, scenariuszy i egzaminów
 
 - 13 lekcji i 39 scenariuszy pozostają bez zmian merytorycznych; pytania nie zmieniły ID ani poprawnej litery.
 - Warianty i klucze 001–005 zachowują zestawy 30 ID, kolejność ID w wariancie i kluczu jest zgodna, a klucze nie wymagają remapowania liter.
-- Odświeżono `source_bank_head` w każdym wariancie i kluczu do SHA `6cf4ff901a092fe445844a970b862000e6ce03bf`.
+- Odświeżono `source_bank_head` w każdym wariancie i kluczu do SHA `04ace7f478868d0901bbc45fb26af3d866e18538`.
 - Zmienione migawki audytu zachowują `needs_review`; żadne pytanie nie zostało oznaczone jako `verified`.
 
 ## Ograniczenia próbkowania
