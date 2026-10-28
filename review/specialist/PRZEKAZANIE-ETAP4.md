@@ -1,9 +1,9 @@
 ## Bieżąca migawka — etap 4x122 (28.10.2026)
 
-- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `6612e0241dc9e9b3a01f6b456f58d141dc53ada9`.
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `5d3bb481e372a45c89b30812841e76e9d91d542f`.
 - Raport: `podstawowy/raporty/etap-4x122-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x122-wykluczenia-proby.json`.
 - Próbka 40; poprawiono pięć dystraktorów i dopasowano pięć explanation; poprawne litery i ID bez zmian.
-- „Poprawna = jedyna najdłuższa”: 74/609 = 12,15%; maksimum działu 16,28%; minimum explanation 300 znaków.
+- „Poprawna = jedyna najdłuższa”: 70/609 = 11,49%; maksimum działu 13,95%; minimum explanation 300 znaków.
 - Warianty i klucze 001–005 wskazują aktualny SHA banku. Recenzja prawna specjalisty pozostaje wymagana.
 
 ## Bieżąca migawka — etap 4x121 (28.10.2026)
