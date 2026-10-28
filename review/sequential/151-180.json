@@ -553,14 +553,13 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po awarii materiału ADR wyczuwalne są palne opary. Dlaczego nie należy używać e-papierosa w pobliżu wycieku?",
         "options": {
-          "A": "Bezpieczny, bo urządzenie nie wytwarza tradycyjnego płomienia",
-          "B": "Bezpieczny poza kabiną, nawet gdy w pobliżu występuje wyciek",
+          "A": "Nie stanowi źródła zapłonu, jeśli jest zasilany akumulatorem",
+          "B": "Można go używać poza kabiną, jeśli nie widać otwartego płomienia",
           "C": "Może być źródłem zapłonu i zwiększać zagrożenie"
         },
         "correct_option": "C",
-        "explanation": "Palne opary mogą zapalić się od iskry albo rozgrzanego urządzenia, dlatego przy wycieku trzeba unikać potencjalnych źródeł zapłonu. E-papieros nie staje się bezpieczny tylko dlatego, że nie ma tradycyjnego płomienia lub używa się go poza kabiną. Trzeba oddalić się od zagrożenia i stosować instrukcje. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Palne opary mogą zapalić się od iskry albo rozgrzanego urządzenia, dlatego przy wycieku trzeba unikać potencjalnych źródeł zapłonu. Zasilanie akumulatorowe nie gwarantuje, że urządzenie nie wywoła zapłonu, a brak widocznego płomienia nie czyni używania e-papierosa bezpiecznym. Oddal się od zagrożenia i stosuj instrukcje pisemne zamiast eksperymentować przy wycieku. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -569,7 +568,10 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "id": "ADR-B-0164",
+        "module_id": "ADR-B-04",
+        "stem": "Po awarii materiału ADR wyczuwalne są palne opary. Dlaczego nie należy używać e-papierosa w pobliżu wycieku?"
       },
       "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
       "supplementary_source_url": null,
