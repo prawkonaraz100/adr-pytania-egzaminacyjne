@@ -1,12 +1,15 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 28.10.2026, etap 4x116 (próbka 40, jakość dystraktorów i synchronizacja egzaminów): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 28.10.2026, etap 4x117 (próbka 40, explanation i dystraktory): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82% (maksimum działu 14,29%). Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
 - [Słowniczek ADR dla kursanta](SLOWNICZEK.md) — proste definicje skrótów, oznakowania i pojęć używanych w lekcjach i pytaniach.
 
 ## Raporty jakości
+
+- [Etap 4x117 — próbka 40, explanation i dystraktory](raporty/etap-4x117-proba40-jakosc-dystraktorow-2026-10-28.md)
+- [Etap 4x117 — seed, próbka i wykluczenia](raporty/etap-4x117-wykluczenia-proby.json)
 
 - [Etap 4x116 — próbka 40, jakość dystraktorów i synchronizacja](raporty/etap-4x116-proba40-jakosc-dystraktorow-2026-10-28.md)
 - [Etap 4x116 — seed, próbka i wykluczenia](raporty/etap-4x116-wykluczenia-proby.json)
