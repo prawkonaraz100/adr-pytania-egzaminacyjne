@@ -100,6 +100,9 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+### Ćwiczenie: dokument nie zgadza się z nalepką
+Magazynier widzi na przesyłce nalepkę klasy 4.3, lecz dokument wskazuje inną klasę. **Co robi:** (1) nie otwiera przesyłki; (2) z bezpiecznej odległości odczytuje UN i całą nalepkę; (3) porównuje dane z tabelą A; (4) wstrzymuje przyjęcie do czasu wyjaśnienia. **Dlaczego:** jeden poprawny symbol nie wystarcza do identyfikacji zagrożenia. Powtórz `ADR-B-0004`, `ADR-B-0005`, `ADR-B-0006` i `SC-ADR-B-02-03`. Podstawa do sprawdzenia: ADR 3.2 tabela A, 5.2.2.2.2.
+
 ## Co musisz zapamiętać
 - Czytaj pełną nalepkę i sprawdzaj numer UN oraz dokumenty.
 - Klasa, grupa pakowania i numer UN oznaczają różne informacje.
