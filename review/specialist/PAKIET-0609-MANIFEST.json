@@ -1,5 +1,5 @@
 {
-  "stage": "stage4x108_distractor_review_and_sample40",
+  "stage": "stage4x109_sample40_consistency_exam_sync",
   "snapshot_date": "2026-10-28",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
@@ -309,7 +309,7 @@
     },
     "not_verified_warning": "All 609 questions remain needs_review. A targeted comparison result does not constitute verified status."
   },
-  "current_bank_blob_sha": "685a14690ed68e7c4fff7ff741d48dffa526eb3f",
+  "current_bank_blob_sha": "6fd194bfc51ff19c38e4dee598a9fae499e953a3",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -596,7 +596,7 @@
     "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
     "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
     "queue_count": 20,
-    "source_bank_blob_sha": "685a14690ed68e7c4fff7ff741d48dffa526eb3f",
+    "source_bank_blob_sha": "6fd194bfc51ff19c38e4dee598a9fae499e953a3",
     "source_missing_quote_ids": 121,
     "unresolved_literal_comparisons": 376,
     "legal_review_status": "pending",
@@ -606,7 +606,7 @@
   },
   "secondary_priority_legal_review_queue": {
     "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
-    "source_bank_blob_sha": "685a14690ed68e7c4fff7ff741d48dffa526eb3f",
+    "source_bank_blob_sha": "6fd194bfc51ff19c38e4dee598a9fae499e953a3",
     "queue_count": 20,
     "full_missing_quote_count": 121,
     "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
@@ -672,8 +672,32 @@
     "status": "needs_review",
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
-  "latest_report": "podstawowy/raporty/etap-4x108-proba40-dystraktory-regresja-2026-10-28.md",
-  "latest_sample": "podstawowy/raporty/etap-4x108-wykluczenia-proby.json",
-  "latest_sample_seed": 41082026,
-  "latest_sample_count": 40
+  "latest_report": "podstawowy/raporty/etap-4x109-proba40-spojnosc-scenariusze-egzaminy-2026-10-28.md",
+  "latest_sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
+  "latest_sample_seed": 41092026,
+  "latest_sample_count": 40,
+  "stage4x109": {
+    "date": "2026-10-28",
+    "sample_size": 40,
+    "questions_rewritten": [
+      "ADR-B-0194",
+      "ADR-B-0575",
+      "ADR-B-0083",
+      "ADR-B-0561"
+    ],
+    "exam_key_explanation_rewritten": [],
+    "correct_letters_changed": 0,
+    "scenarios_checked": 39,
+    "exam_variants_checked": 5,
+    "exam_real_mismatches_before_fix": 0,
+    "exam_real_mismatches_after_fix": 0,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 72,
+    "strictly_longest_rate": 0.11822660098522167,
+    "verified": 0,
+    "review_status": "needs_review",
+    "report": "podstawowy/raporty/etap-4x109-proba40-spojnosc-scenariusze-egzaminy-2026-10-28.md",
+    "sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
+    "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
+  }
 }

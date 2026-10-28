@@ -1,12 +1,14 @@
-## Bieżąca migawka — etap 4x108 (28.10.2026)
+## Bieżąca migawka — etap 4x109 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `685a14690ed68e7c4fff7ff741d48dffa526eb3f`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `6fd194bfc51ff19c38e4dee598a9fae499e953a3`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
-- Próbka 40, seed `41082026`; wykluczono 183 ID z raportów 4x103–4x106 oraz 40 ID próbki 4x107. Raport: `podstawowy/raporty/etap-4x108-proba40-dystraktory-regresja-2026-10-28.md`.
-- Poprawiono dystraktory i explanation w ADR-B-0233, ADR-B-0280, ADR-B-0323, ADR-B-0342, ADR-B-0389 i ADR-B-0437; skrócono explanation ADR-B-0319 do 4 zdań. Poprawne litery i podstawy ADR bez zmian; migawki sekwencyjne i A/B/C odświeżono.
-- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 71/609 = 11,66%, maksimum działu 14,29%; explanation minimum 300 znaków.
-- Lekcje: 13/13 z odwołaniami do istniejących pytań właściwego działu; scenariusze 39/39 bez brakujących lub międzydziałowych ID.
-- Egzaminy 001–005 i klucze wskazują bieżący blob banku; testy CI sprawdzają synchronizację i rozkład kluczy.
+- Próbka 40, seed `41092026`; pula po wykluczeniu 263 jawnych ID z rejestru 4x108: 346. Raport: `podstawowy/raporty/etap-4x109-proba40-spojnosc-scenariusze-egzaminy-2026-10-28.md`; manifest próbki: `podstawowy/raporty/etap-4x109-wykluczenia-proby.json`.
+- Urealniono dystraktory i dopasowano explanation w ADR-B-0194, ADR-B-0575, ADR-B-0083 i ADR-B-0561; ID, poprawne litery i statusy pozostały bez zmian. Zmieniono aspekt pytania ADR-B-0194, by odróżnić je od ADR-B-0053.
+- Wstępne porównanie ciągów zgłosiło pozorną różnicę w ADR-B-0489; po prawidłowym mapowaniu liter potwierdzono, że klucz 001 był zgodny i nie wymagał zmiany merytorycznej. Wariant 005 i klucz 005 zsynchronizowano z nowym brzmieniem ADR-B-0575.
+- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
+- Lekcje: 13/13 odwołań do właściwego działu; scenariusze: 39/39 z co najmniej 3 krokami i poprawnymi referencjami do pytań.
+- Egzaminy 001–005: po 30 unikalnych pytań, rozkład A/B/C 10/10/10, maksymalna seria 3; po korekcie klucza 001 brak rozbieżności treści klucza z wariantem.
+- Lokalny `git clone` nie powiódł się z powodu błędu DNS (`github.com` nie został rozwiązany). Pełny PASS wymaga CI w PR; lokalnego PASS nie deklarowano.
 - Niezależna recenzja prawna pozostaje otwarta; statusów nie zmieniono.
 
 ## Aktualizacja etapu 4x89 — próbka, wyłączenia i status M364 (27.10.2026)

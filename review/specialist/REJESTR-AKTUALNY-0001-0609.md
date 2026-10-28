@@ -1,13 +1,13 @@
-## Bieżąca migawka — etap 4x108 (28.10.2026)
+## Bieżąca migawka — etap 4x109 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `685a14690ed68e7c4fff7ff741d48dffa526eb3f`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `6fd194bfc51ff19c38e4dee598a9fae499e953a3`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
-- Próbka 40, seed `41082026`; wykluczono 183 ID z raportów 4x103–4x106 oraz 40 ID próbki 4x107. Raport: `podstawowy/raporty/etap-4x108-proba40-dystraktory-regresja-2026-10-28.md`.
-- Poprawiono dystraktory i explanation w ADR-B-0233, ADR-B-0280, ADR-B-0323, ADR-B-0342, ADR-B-0389 i ADR-B-0437; skrócono explanation ADR-B-0319 do 4 zdań. Poprawne litery i podstawy ADR bez zmian; migawki sekwencyjne i A/B/C odświeżono.
-- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 71/609 = 11,66%, maksimum działu 14,29%; explanation minimum 300 znaków.
-- Lekcje: 13/13 z odwołaniami do istniejących pytań właściwego działu; scenariusze 39/39 bez brakujących lub międzydziałowych ID.
-- Egzaminy 001–005 i klucze wskazują bieżący blob banku; testy CI sprawdzają synchronizację i rozkład kluczy.
-- Niezależna recenzja prawna pozostaje otwarta; statusów nie zmieniono.
+- Próbka 40, seed `41092026`; wykluczono 263 ID jawnie zapisane w rejestrze etapów 4x103–4x108. Raport: `podstawowy/raporty/etap-4x109-proba40-spojnosc-scenariusze-egzaminy-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x109-wykluczenia-proby.json`.
+- Poprawiono dystraktory i explanation w ADR-B-0194, ADR-B-0575, ADR-B-0083 i ADR-B-0561. Poprawne litery i statusy pozostały bez zmian; pełna kontrola prawna nadal wymaga specjalisty.
+- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków.
+- Lekcje 13/13; scenariusze 39/39 z poprawnymi question_ids; egzaminy 001–005 po 30 pytań, A/B/C 10/10/10, maksymalna seria 3.
+- Lokalny `git clone` nie powiódł się z powodu błędu DNS; lokalnego PASS nie deklarowano. Wymagany pełny PASS GitHub Actions Quality Gate.
+- Status wszystkich pytań pozostaje `needs_review`; nie nadano `verified`.
 
 # Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x87
 
@@ -210,7 +210,7 @@ Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależn
 | ADR-B-0191 | ADR-B-06 | ADR-B-06-K05 | Standardowa pomarańczowa tablica ADR ma 400 × 300 mm. Czy w 5.3.2.2.1 przewidziano też dopuszczalne rozwiązanie dla pojazdu, na którym nie ma miejsca na standardową tablicę? | C | ADR 2025, 5.3.2.2.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0192 | ADR-B-06 | ADR-B-06-K06 | Na pomarańczowej tablicy ADR występuje dwukrotnie cyfra 3 w numerze rozpoznawczym zagrożenia, np. „33”. Jaką zasadę należy zastosować? | A | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0193 | ADR-B-06 | ADR-B-06-K07 | Przed przewozem wymagana tablica ADR na pojeździe jest zabrudzona i jej cyfry stały się nieczytelne. Co trzeba zrobić? | B | ADR 2025, 5.3.2.2.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0194 | ADR-B-06 | ADR-B-06-K08 | Numer rozpoznawczy zagrożenia na tablicy ADR zaczyna się cyfrą 8. Jakie zagrożenie sygnalizuje ta cyfra? | C | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0194 | ADR-B-06 | ADR-B-06-K08 | Na tablicy pomarańczowej numer rozpoznawczy zagrożenia to 88. Co oznacza powtórzenie cyfry 8? | C | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0195 | ADR-B-07 | ADR-B-07-K04 | Po rozładunku kontenera ADR odbiorca stwierdza niezgodność z wymaganiami, za którą odpowiada zgodnie z 1.4.2.3.2. Czy może od razu zwrócić kontener przewoźnikowi? | A | ADR 2025, 1.4.2.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0196 | ADR-B-07 | ADR-B-07-K06 | Kierowca ADR stwierdza, że osoba niezwiązana z załogą chce jechać pojazdem jako pasażer podczas przewozu objętego 8.3.1. Co jest poprawne? | B | ADR 2025, 8.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0197 | ADR-B-08 | ADR-B-08-K02 | Pojazd jedzie z towarami ADR na warunkach zwolnienia 1.1.3.6. Zamiast gaśnicy proszkowej 2 kg przewoźnik proponuje gaśnicę z innym środkiem. Co trzeba sprawdzić? | A | ADR 2025, 8.1.4.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
@@ -579,7 +579,7 @@ Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależn
 | ADR-B-0558 | ADR-B-09 | ADR-B-09-K09 | Po załadunku luzem kierowca zauważa, że zamknięcia przestrzeni ładunkowej nie zabezpieczają przed wysypaniem towaru. Co powinien zrobić przed odjazdem? | B | ADR 2025, 7.3.3; 7.5.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0559 | ADR-B-09 | ADR-B-09-K09 | Załadowca proponuje przewóz luzem, ponieważ pozwoli to zaoszczędzić czas, ale wpis ADR dla towaru nie przewiduje takiego sposobu przewozu. Czy można przyjąć tę propozycję? | C | ADR 2025, 7.3.1.1; 3.2.1 tabela A | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0560 | ADR-B-09 | ADR-B-09-K08 | Przed załadunkiem pojazdu ADR kontrolujący stwierdza, że wyposażenie lub stan pojazdu nie pozwalają bezpiecznie wykonać przewozu. Co jest właściwym postępowaniem? | B | ADR 2025, 7.5.1.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0561 | ADR-B-06 | ADR-B-06-K09 | Kontener z towarem ADR wymaga nalepek dużego formatu. Gdzie co do zasady należy je umieścić? | A | ADR 2025, 5.3.1.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0561 | ADR-B-06 | ADR-B-06-K09 | Podczas kontroli przed wyjazdem kierowca widzi, że kontener ma wymagane nalepki dużego formatu na obu bokach, ale nie ma ich na żadnym końcu. Co powinien zrobić? | A | ADR 2025, 5.3.1.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0562 | ADR-B-06 | ADR-B-06-K09 | Nalepka dużego formatu na kontenerze została uszkodzona tak, że nie można rozpoznać jej symbolu. Co należy zrobić przed dalszym przewozem? | B | ADR 2025, 5.3.1.7 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0563 | ADR-B-06 | ADR-B-06-K09 | Kontener został rozładowany, ale nie został oczyszczony z niebezpiecznych pozostałości. Czy można usunąć jego nalepki dużego formatu? | C | ADR 2025, 5.3.1.1.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0564 | ADR-B-06 | ADR-B-06-K09 | Kontener przewozi towar, dla którego wymagane są nalepki dużego formatu. Na jednym boku umieszczono nalepkę innej klasy, niezgodną z ładunkiem. Co należy zrobić? | C | ADR 2025, 5.3.1.1; 5.3.1.7 | — | NIEROZSTRZYGNIĘTE | needs_review |
@@ -593,7 +593,7 @@ Niektóre pytania mają autorskie schematy SVG w `image`, wymagające niezależn
 | ADR-B-0572 | ADR-B-01 | ADR-B-01-K05 | Magazyn przygotował 990 sztuk przesyłek EQ w jednym pojeździe. Co jeszcze należy ocenić oprócz liczby sztuk? | C | ADR 2025, 3.5.1–3.5.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0573 | ADR-B-01 | ADR-B-01-K05 | Dokumenty przesyłek w ilościach wyłączonych EQ nie podają liczby sztuk przesyłek. Co należy zrobić przed rozpoczęciem przewozu? | A | ADR 2025, 3.5.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0574 | ADR-B-11 | ADR-B-11-K04 | Jedna jednostka transportowa przewozi towary o kodach tunelowych D i E. Jak należy ustalić kod ograniczenia dla całego ładunku? | B | ADR 2025, 8.6.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0575 | ADR-B-11 | ADR-B-11-K03 | Gdzie znaleźć przypisany towarowi ADR kod ograniczenia przewozu przez tunele? | C | ADR 2025, 3.2.1 kolumna 15; 8.6.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0575 | ADR-B-11 | ADR-B-11-K03 | W której kolumnie tabeli A sprawdzasz kod ograniczenia przejazdu przez tunele przypisany towarowi? | C | ADR 2025, 3.2.1 kolumna 15; 8.6.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0576 | ADR-B-11 | ADR-B-11-K02 | Towar z kodem D/E jedzie w sztukach przesyłek. Których tuneli nie wolno użyć ze względu na ten kod? | A | ADR 2025, 8.6.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0577 | ADR-B-13 | ADR-B-13-K01 | W dokumencie ADR podano czterocyfrowy identyfikator towaru, lecz nie dopisano liter UN. Jak należy poprawić wpis? | B | ADR 2025, 5.4.1.1.1(a) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0578 | ADR-B-13 | ADR-B-13-K02 | W dokumencie podano numer UN i klasę, ale brakuje wymaganej liczby oraz rodzaju sztuk przesyłek. Co należy zrobić? | C | ADR 2025, 5.4.1.1.1(e) | — | NIEROZSTRZYGNIĘTE | needs_review |

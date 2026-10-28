@@ -924,12 +924,12 @@
       "exact_record_snapshot": {
         "stem": "Na trasie znajduje się tunel kategorii E. Przewozisz sztuki przesyłek z kodem tunelowym E, a jednostka podlega ograniczeniom z 8.6.4. Co robisz?",
         "options": {
-          "A": "Przejeżdżasz, jeżeli towar mieści się w dwóch kartonach",
-          "B": "Przejeżdżasz nocą, gdy natężenie ruchu w tunelu jest mniejsze",
-          "C": "Wybierasz trasę bez tunelu kategorii E"
+          "A": "Wjechać, bo ograniczenie kodu E dotyczy wyłącznie przewozu w cysternie.",
+          "B": "Wjechać poza godzinami szczytu, gdy ruch w tunelu jest mniejszy.",
+          "C": "Wybrać trasę bez tunelu kategorii E."
         },
         "correct_option": "C",
-        "explanation": "Kod tunelowy E oznacza nałożenie na przewóz objęty tym ograniczeniem zakazu przejazdu przez tunel kategorii E. Kierowca powinien sprawdzić trasę i wybrać objazd, zamiast liczyć na to, że mała liczba kartonów albo pora nocna zmieni warunki przewozu. Żadna z tych okoliczności sama w sobie nie znosi ograniczenia tunelowego, dlatego A i B są błędne. Podstawa: ADR 8.6.4.",
+        "explanation": "Jeśli przewóz podlega ograniczeniu kodu E, kierowca powinien ominąć tunel kategorii E. Nie ma ogólnej zasady, że ograniczenie dotyczy wyłącznie cystern; trzeba odczytać kod dla towaru i uwzględnić postać przewozu zgodnie z ADR. Godzina przejazdu ani natężenie ruchu nie znoszą ograniczenia. Podstawa: ADR 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -944,7 +944,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów.",
+      "source_risk_note": "Redakcja dydaktyczna wykonana w 4x109; dokładna kontrola polskiego tekstu urzędowego i niezależna akceptacja specjalisty nadal wymagane.",
       "expert_review_priority": "standard_expert_review",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"

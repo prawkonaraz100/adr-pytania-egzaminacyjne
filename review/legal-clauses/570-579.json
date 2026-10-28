@@ -244,34 +244,34 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Numer rejestracyjny nie wyznacza kodu tunelowego. Podstawa: ADR 2025, 3.2.1 kolumna 15; 8.6.3.1."
+          "rationale": "Kolumna 14 podaje kategorię transportową, nie kod ograniczenia tunelowego."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Kod pocztowy miejsca dostawy nie wyznacza ograniczenia towaru. Podstawa: ADR 2025, 3.2.1 kolumna 15; 8.6.3.1."
+          "rationale": "Kolumna 4 podaje grupę pakowania, a nie kod tunelowy."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawna opcja: Kod ograniczeń tunelowych znajduje się przy danym towarze w kolumnie 15 tabeli A ADR. Rejestracja pojazdu ani kod pocztowy odbiorcy nie określają tego kodu. Następnie trzeba sprawdzić przepisy dotyczące tuneli i sposób przewozu, bo od nich zależy rzeczywisty zakaz przejazdu. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1."
+          "rationale": "Kod ograniczenia przejazdu przez tunele znajduje się w kolumnie 15 tabeli A."
         }
       },
       "observed_answer_key": "C",
       "notes_on_conditions": "Sytuacja dydaktyczna podstawowego ADR. Należy zweryfikować szczególne warunki i wyjątki w polskim tekście urzędowym i sprostowaniu przed akceptacją.",
-      "editorial_result": "pending_specialist_review",
+      "editorial_result": "wording_and_distractors_refined_in_stage_4x109; specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0575",
         "module_id": "ADR-B-11",
-        "stem": "Gdzie znaleźć przypisany towarowi ADR kod ograniczenia przewozu przez tunele?",
+        "stem": "W której kolumnie tabeli A sprawdzasz kod ograniczenia przejazdu przez tunele przypisany towarowi?",
         "options": {
-          "A": "W numerze rejestracyjnym pojazdu używanego do konkretnego przewozu",
-          "B": "W kodzie pocztowym odbiorcy wskazanym w dokumentach handlowych",
-          "C": "W kolumnie 15 tabeli A przy odpowiednim numerze UN towaru"
+          "A": "W kolumnie 14 tabeli A, przy kategorii transportowej towaru.",
+          "B": "W kolumnie 4 tabeli A, przy grupie pakowania.",
+          "C": "W kolumnie 15 tabeli A, przy odpowiednim numerze UN towaru."
         },
         "correct_option": "C",
-        "explanation": "Kod ograniczeń tunelowych znajduje się przy danym towarze w kolumnie 15 tabeli A ADR. Rejestracja pojazdu ani kod pocztowy odbiorcy nie określają tego kodu. Następnie trzeba sprawdzić przepisy dotyczące tuneli i sposób przewozu, bo od nich zależy rzeczywisty zakaz przejazdu. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1.",
+        "explanation": "Kolumna 15 tabeli A podaje kod ograniczenia przejazdu przez tunele dla danego towaru, więc tam należy go sprawdzić. Kolumna 14 dotyczy kategorii transportowej, a kolumna 4 grupy pakowania; obie są ważnymi danymi, ale nie zastępują kodu tunelowego. Po odczytaniu kodu trzeba jeszcze uwzględnić kategorię tunelu i sposób przewozu. Podstawa: ADR 3.2.1, tabela A, kolumny 4, 14 i 15; 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
