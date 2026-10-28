@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 28.10.2026, etap 4x116 (próbka 40, jakość dystraktorów i synchronizacja egzaminów): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 28.10.2026, etap 4x117 (przegląd pozostałej puli i jakość dystraktorów): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11.82% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -345,3 +345,6 @@ Raporty ETAPU 4x7
 ## Etap 4x105 — kontrola próbki, scenariuszy i egzaminów
 
 - [Raport 4x105](raporty/etap-4x105-proba40-scenariusze-egzaminy-2026-10-27.md): próbka 40 explanation spoza ID z etapów 4x103–4x104, przegląd 39 scenariuszy oraz synchronizacja wariantów i kluczy 001–005. Bank bez zmian; 609 pytań `needs_review`, 0 `verified`; wskaźnik „poprawna = jedyna najdłuższa” 11,99% globalnie i maksymalnie 14,29% w dziale.
+
+
+Najnowszy przegląd: [Etap 4x117 — pozostała pula, dystraktory i synchronizacja](raporty/etap-4x117-proba26-dystraktory-sync-2026-10-28.md).
