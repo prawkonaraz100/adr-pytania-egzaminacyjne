@@ -483,10 +483,10 @@
         "options": {
           "A": "Wstrzymać przewóz i wyjaśnić zakaz; prawidłowy dokument nie uchyla ograniczenia",
           "B": "Rozpocząć przewóz, jeśli kierowca otrzymał instrukcje pisemne i gaśnice są sprawne",
-          "C": "Zastąpić numer UN nazwą handlową, aby nie wskazywać ograniczenia w tabeli"
+          "C": "Rozpocząć przewóz, bo nadawca przygotował dokumenty i przyjął odpowiedzialność za dopuszczenie towaru"
         },
         "correct_option": "A",
-        "explanation": "Numer UN to czterocyfrowy identyfikator przypisany towarowi niebezpiecznemu; jego wpis w dokumencie nie oznacza jeszcze, że przewóz jest dozwolony w każdej postaci. Trzeba sprawdzić wymagania przy tym numerze w tabeli A ADR. Jeśli przewóz w opisanych warunkach jest zabroniony, należy go wstrzymać i wyjaśnić sprawę z nadawcą; dokumenty ani wyposażenie nie uchylają zakazu. Podstawa: ADR 2.1 i 3.2, tabela A.",
+        "explanation": "Numer UN to czterocyfrowy identyfikator towaru niebezpiecznego, ale sam wpis w dokumencie nie oznacza, że przewóz jest dozwolony w każdej postaci. Trzeba sprawdzić wymagania przypisane temu numerowi w tabeli A ADR. Jeśli przewóz w opisanych warunkach jest zabroniony, należy go wstrzymać i wyjaśnić sprawę z nadawcą; przygotowanie dokumentów ani odpowiedzialność nadawcy nie uchylają zakazu. Podstawa: ADR 2.1 i 3.2, tabela A.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -500,15 +500,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawna opcja: „Wstrzymać przewóz i wyjaśnić zakaz; prawidłowy dokument nie uchyla ograniczenia”. Dokumenty i wyposażenie nie czynią dozwolonym towaru, którego przewóz jest zabroniony w danych warunkach. Przed rozpoczęciem transportu trzeba sprawdzić wymagania dotyczące konkretnego numeru UN, postaci towaru i ewentualnych warunków szczególnych. Jeśli tabela ADR nie dopuszcza takiego przewozu, należy go wstrzymać i wyjaśnić sytuację z nadawcą. Podstawa: ADR 2.1 i 3.2, tabela A. To wstępna ocena redakcyjna; niezależna kontrola przepisu pozostaje otwarta."
+          "rationale": "Prawidłowe: jeśli ADR zabrania przewozu w opisanej postaci, trzeba go wstrzymać i wyjaśnić ograniczenie."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja „Rozpocząć przewóz, jeśli kierowca otrzymał instrukcje pisemne i gaśnice są sprawne” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Wstrzymać przewóz i wyjaśnić zakaz; prawidłowy dokument nie uchyla ograniczenia”. Dokumenty i wyposażenie nie czynią dozwolonym towaru, którego przewóz jest zabroniony w danych warunkach. Przed rozpoczęciem transportu trzeba sprawdzić wymagania dotyczące konkretnego numeru UN, postaci towaru i ewentualnych warunków szczególnych. Jeśli tabela ADR nie dopuszcza takiego przewozu, należy go wstrzymać i wyjaśnić sytuację z nadawcą. Podstawa: ADR 2.1 i 3.2, tabela A. Podstawa do sprawdzenia: ADR 2025, 2.1; 3.2, tabela A."
+          "rationale": "Błędne: instrukcje i sprawne wyposażenie nie uchylają zakazu przewozu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja „Zastąpić numer UN nazwą handlową, aby nie wskazywać ograniczenia w tabeli” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Wstrzymać przewóz i wyjaśnić zakaz; prawidłowy dokument nie uchyla ograniczenia”. Dokumenty i wyposażenie nie czynią dozwolonym towaru, którego przewóz jest zabroniony w danych warunkach. Przed rozpoczęciem transportu trzeba sprawdzić wymagania dotyczące konkretnego numeru UN, postaci towaru i ewentualnych warunków szczególnych. Jeśli tabela ADR nie dopuszcza takiego przewozu, należy go wstrzymać i wyjaśnić sytuację z nadawcą. Podstawa: ADR 2.1 i 3.2, tabela A. Podstawa do sprawdzenia: ADR 2025, 2.1; 3.2, tabela A."
+          "rationale": "Błędne: przygotowanie dokumentów ani odpowiedzialność nadawcy nie czynią dozwolonym przewozu zakazanego przez ADR."
         }
       },
       "observed_answer_key": "A",
