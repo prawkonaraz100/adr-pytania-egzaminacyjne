@@ -1,6 +1,6 @@
 ## Najnowsza synchronizacja — etap 4x117 (28.10.2026)
 
-- Aktualny blob banku: `809986a71cf9911b8c33366c3b53b0db4a59889f`.
+- Aktualny blob banku: `30b9212b2feff4232440416c9ab4052e93cc1f4a`.
 - Bank: 609 pytań; wszystkie `needs_review`, 0 `verified`; minimum explanation 300 znaków.
 - Etap 4x117: zmieniono dystraktory i explanation w ADR-B-0028, ADR-B-0054, ADR-B-0354, ADR-B-0492 i ADR-B-0535; zachowano poprawne litery i podstawy prawne. Żadne z tych ID nie występuje w wariantach 001–005.
 - Zaktualizowano `source_bank_head` wszystkich wariantów i kluczy 001–005; test synchronizacji CI ma potwierdzić zgodność.
