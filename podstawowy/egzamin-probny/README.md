@@ -1,6 +1,6 @@
 ## Najnowsza synchronizacja — etap 4x120 (28.10.2026)
 
-- Aktualny blob banku: `0cea7c033fbde2a2f5e6b8be6e7d2f4a88f08759`.
+- Aktualny blob banku: `6cf4ff901a092fe445844a970b862000e6ce03bf`.
 - Bank: 609 pytań; wszystkie `needs_review`, 0 `verified`; minimum explanation 300 znaków.
 - Próbka 4x120: 40 ID, seed `411202026`; 4 pytania w próbie otrzymały poprawione dystraktory, bez zmiany ID, poprawnych liter i podstaw prawnych; 5 dodatkowych celowanych follow-upów opisano osobno.
 - Warianty i klucze 001–005 zachowują zestawy pytań i są zsynchronizowane z aktualnym blobem banku; żaden klucz nie wymagał remapowania.
