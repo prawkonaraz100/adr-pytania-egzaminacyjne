@@ -63,6 +63,11 @@ def validate_reviewer_manifest(root: Path, questions):
         manifest = json.loads(current.read_text(encoding="utf-8"))
         ledger_file = root / manifest["source_ledger"]
         ledger = json.loads(ledger_file.read_text(encoding="utf-8"))
+        entries = list(ledger.get("entries", []))
+        supplemental_path = manifest.get("supplemental_source_ledger")
+        if supplemental_path:
+            supplemental = json.loads((root / supplemental_path).read_text(encoding="utf-8"))
+            entries.extend(supplemental.get("entries", []))
     except (OSError, ValueError, KeyError, TypeError) as exc:
         return [f"Broken specialist manifest/Polish legal ledger: {exc}"]
     by_id = {q["id"]: q for q in questions}
@@ -71,7 +76,6 @@ def validate_reviewer_manifest(root: Path, questions):
     live_statuses = dict(Counter(q.get("verification_status") for q in questions))
     if manifest.get("status_counts") != {name: live_statuses.get(name, 0) for name in ("needs_review", "verified")}:
         errors.append("Specialist manifest status counts are stale")
-    entries = ledger.get("entries", [])
     if len(entries) != len(questions) or len({e["id"] for e in entries}) != len(questions) or {e["id"] for e in entries} != set(by_id):
         errors.append("Literal Polish verification ledger does not match the current bank IDs")
     else:

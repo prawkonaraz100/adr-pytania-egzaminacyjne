@@ -162,6 +162,9 @@ Pytania do samodzielnego sprawdzenia w banku:
 
 Scenariusz mapowy: SC-ADR-B-03 w pliku [scenariuszy praktycznych](../praktyka/scenariusze-13-dzialow.json).
 
+- ADR-B-0612
+- ADR-B-0613
+
 ## Podstawa prawna
 - ADR 2025: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf): 2.1.3.5.5, 2.2.9.1.10, 5.2.1.8.3, 5.3.6, 5.4.1.1.3.1, 5.4.3.4 i 7.5.8.1.
 - Ustawa z 19 sierpnia 2011 r. o przewozie towarów niebezpiecznych, z późniejszymi zmianami.
