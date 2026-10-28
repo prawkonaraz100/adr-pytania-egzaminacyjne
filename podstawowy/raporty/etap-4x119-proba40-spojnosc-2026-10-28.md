@@ -71,3 +71,10 @@ Wszystkie poniższe pytania przeczytano pod kątem sensu poprawnej odpowiedzi, w
 - Statusy banku: 609 `needs_review`, 0 `verified`.
 - Metryki: 11,82% globalnie; maksimum działu 14,29%; minimum explanation 300 znaków.
 - Próba rozłączna z 4x114–4x118 i siedmioma odzyskanymi ID; wykluczono 179 unikalnych ID, pula liczy 430. Nie deklaruje się rozłączności z każdą wcześniejszą próbą 4x103–4x113.
+
+
+## Naprawa CI po otwarciu PR
+
+- Dwa uruchomienia Quality Gate (#40660980968 i #40660972908) kończyły się błędem w testach `test_priority_legal_review_queue_stays_synchronized` i `test_secondary_priority_legal_review_queue_stays_synchronized`.
+- Przyczyna: kolejki `review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json` oraz `KOLEJKA-PRIORYTETOWA-4X44.json`, a także odpowiadające im wpisy w manifeście, nadal wskazywały poprzedni SHA banku `28d809ccbf973fc8101f456eb9ab0144165110f1` zamiast aktualnego `35549752d913c85daf1fc3c9492d9c04fce777a1`.
+- Naprawa ograniczona do metadanych źródłowego SHA; pytania, klucze i statusy weryfikacji nie zostały zmienione. Próba lokalnego klonowania nie była możliwa z powodu błędu DNS `Could not resolve host: github.com`; końcowy wynik testów potwierdza CI.
