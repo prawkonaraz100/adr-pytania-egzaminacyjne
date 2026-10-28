@@ -1130,12 +1130,12 @@
       "exact_record_snapshot": {
         "stem": "Jeśli przewóz towarów niebezpiecznych obejmuje odcinek drogowy i morski, które przepisy mogą być istotne?",
         "options": {
-          "A": "ADR i przepisy morskie",
-          "B": "Regulamin magazynu dotyczący przechowywania towarów",
-          "C": "Przepisy o parkowaniu pojazdów w terminalu morskim"
+          "A": "ADR na odcinku drogowym oraz IMDG na odcinku morskim",
+          "B": "Wyłącznie RID, ponieważ przepisy kolejowe obejmują także drogę do portu",
+          "C": "Wyłącznie IMDG na całej trasie, również podczas jazdy ciężarówką"
         },
         "correct_option": "A",
-        "explanation": "Gdy towar jedzie ciężarówką do portu, a potem statkiem, dla poszczególnych odcinków mogą obowiązywać różne zasady. ADR dotyczy drogi, a IMDG to międzynarodowy kodeks przewozu towarów niebezpiecznych drogą morską. Regulamin magazynu ani zasady parkowania nie zastępują wymagań przewozowych. Sprawdź, jakie dokumenty i oznakowanie są potrzebne na każdym etapie. Podstawa: ADR 1.1.4.2.",
+        "explanation": "Gdy towar jedzie ciężarówką do portu, a potem statkiem, na poszczególnych odcinkach stosuje się odpowiednie wymagania: ADR dotyczy drogi, a IMDG jest kodeksem przewozu towarów niebezpiecznych morzem. RID dotyczy kolei, więc nie zastępuje przepisów drogowych, a IMDG nie obejmuje automatycznie całej jazdy ciężarówką. Sprawdź wymagania dla każdego etapu trasy. Podstawa: ADR 1.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1150,7 +1150,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów.",
+      "source_risk_note": "Wymaga sprawdzenia dokładnego zastosowania wskazanego przepisu ADR, wyjątków i osobnej oceny błędnych wariantów. Etap 4x117: snapshot zsynchronizowany po redakcji; recenzja prawna nadal oczekuje.",
       "expert_review_priority": "standard_expert_review",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
