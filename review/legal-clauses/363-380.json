@@ -474,11 +474,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Sama możliwość zmieszczenia ładunku nie rozstrzyga, czy towary wolno przewozić razem; zgodność trzeba sprawdzić przed załadunkiem."
+          "rationale": "Kontrolę zgodności i ewentualnego oddzielenia trzeba przeprowadzić przed załadunkiem, nie dopiero po nim."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Szczelność opakowań nie znosi zakazów wspólnego załadunku ani wymagań oddzielenia żywności."
+          "rationale": "Szczelne opakowanie nie znosi zakazów wspólnego załadunku ani wymagań oddzielenia żywności."
         }
       },
       "observed_answer_key": "A",
@@ -492,8 +492,8 @@
         "stem": "Załadowca ma przygotować do przewozu sztuki ADR i żywność w jednym pojeździe. Co powinien sprawdzić?",
         "options": {
           "A": "Sprawdzić wymagane oddzielenie żywności i pasz od towarów ADR",
-          "B": "Sprawdzić tylko, czy ładunek zmieści się w pojeździe, a oddzielenie ustalić po załadunku.",
-          "C": "Założyć, że szczelne opakowania pozwalają pominąć zasady wspólnego załadunku."
+          "B": "Załadować, a oddzielenie ustalić później.",
+          "C": "Szczelne opakowania znoszą zakaz wspólnego załadunku."
         },
         "correct_option": "A",
         "explanation": "Załadowca musi sprawdzić, czy towary niebezpieczne można przewozić obok żywności lub paszy i czy trzeba je oddzielić. Sama wolna przestrzeń pojazdu nie rozstrzyga zgodności, a szczelne opakowanie nie znosi zasad wspólnego załadunku. Jeśli oddzielenie jest wymagane, wybierz metodę dopuszczoną przez ADR i ogranicz ryzyko skażenia żywności. Podstawa: ADR 1.4.3.1.1(e) i 7.5.4.",
