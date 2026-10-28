@@ -24,7 +24,7 @@ Próbę wylosowano deterministycznie z puli po wykluczeniu 263 ID jawnie zapisan
 | ADR-B-0561 | Pytanie było niemal duplikatem ADR-B-0299: oba pytały ogólnie o rozmieszczenie nalepek na kontenerze. | Zmieniono je w scenariusz kontroli przed wyjazdem: brak nalepek na obu końcach mimo oznakowania boków. Poprawna litera A bez zmian; explanation wyjaśnia, że dokument nie zastępuje oznakowania fizycznego. | ADR 5.3.1.1.4 |
 | ADR-B-0083 | „Dwa kartony” był przypadkowym dystraktorem w pytaniu o ograniczenie tunelowe. | Zastąpiono go częstą pomyłką, że kod E dotyczy tylko cystern; druga opcja sprawdza błędne założenie, że pora dnia znosi ograniczenie. Poprawna litera C bez zmian. | ADR 8.6.4 |
 
-Nie zmieniano ID, kluczy w banku ani statusów recenzji. Odświeżono snapshoty sekwencyjne i audytu A/B/C dla wszystkich czterech rekordów. W banku explanation czterech zmienionych pozycji mają odpowiednio 315, 388, 311 i 337 znaków.
+Nie zmieniano ID, poprawnych liter ani statusów recenzji. Odświeżono snapshoty sekwencyjne i audytu A/B/C dla wszystkich czterech rekordów. Długości zmienionych explanation: ADR-B-0194 — 315 znaków; ADR-B-0575 — 388; ADR-B-0083 — 311; ADR-B-0561 — 337.
 
 ## 3. Kontrola scenariuszy praktycznych
 
