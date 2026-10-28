@@ -2,7 +2,7 @@
   "stage": "4x118",
   "seed": 41182026,
   "algorithm": "LCG state=(1664525*state+1013904223) mod 2^32; Fisher–Yates over current bank rows after union of 4x116 exclusions/samples and 4x117 sample IDs",
-  "source_bank_blob_sha": "b763f639efe11f972d4c3047dc8238334f9ff9f2",
+  "source_bank_blob_sha": "28d809ccbf973fc8101f456eb9ab0144165110f1",
   "updated_bank_blob_sha": "28d809ccbf973fc8101f456eb9ab0144165110f1",
   "source_bank_count": 609,
   "excluded_count": 584,
@@ -624,5 +624,6 @@
   ],
   "limitation": "Konserwatywnie wykluczono jawne ID z prób 4x116 i 4x117; 25 nowych ID jest rozłącznych względem tych manifestów. ADR-B-0535 jest celowanym follow-upem po 4x117, a nakładanie jest jawnie opisane i nie liczy się do próbki 25. Raporty 4x103–4x106 nie zawsze odróżniają ID faktycznie losowane od tylko omawianych; to nie dowodzi braku nakładania z nieudokumentowanymi próbkami.",
   "verification_status": "needs_review",
-  "legal_review_pending": true
+  "legal_review_pending": true,
+  "selection_source_bank_blob_sha": "b763f639efe11f972d4c3047dc8238334f9ff9f2"
 }
