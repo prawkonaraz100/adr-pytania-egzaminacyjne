@@ -75,6 +75,26 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+## Praktyka kierowcy — decyzje krok po kroku
+
+### Sytuacja 1: pozostałości po poprzednim ładunku
+1. Zanim rozpoczniesz nowy załadunek, obejrzyj przestrzeń ładunkową i opakowania.
+2. Jeśli widzisz pozostałości nieznanej substancji, nie dotykaj jej, nie wąchaj i nie stosuj przypadkowego środka czyszczącego.
+3. Wstrzymaj załadunek i zgłoś problem osobie odpowiedzialnej. Trzeba ustalić, czy przestrzeń wymaga oczyszczenia lub innego działania przed kolejnym ładunkiem.
+4. Po usunięciu niezgodności ponownie sprawdź, czy przestrzeń nadaje się do bezpiecznego załadunku.
+
+**Typowy błąd:** uznanie, że niewielka pozostałość nie ma znaczenia. To błąd, ponieważ jej skład i możliwa reakcja z nowym towarem mogą być nieznane. Podstawa do sprawdzenia: ADR 7.5.1 i 7.5.8.1.
+
+### Sytuacja 2: pas mocujący odkształca opakowanie
+1. Zatrzymaj mocowanie i sprawdź, czy opakowanie nie zostało uszkodzone.
+2. Zabezpiecz cały ładunek, w tym elementy niebędące towarami niebezpiecznymi.
+3. Ułóż mocowanie tak, aby ładunek nie mógł się niebezpiecznie przesunąć, ale opakowanie nie było zgniatane.
+4. Przed wyjazdem sprawdź stabilność całego ładunku i stan przesyłek.
+
+**Typowy błąd:** maksymalne dociągnięcie pasa bez sprawdzenia opakowania. To błąd, bo mocowanie ma ograniczać ruch ładunku, a nie niszczyć opakowanie. Podstawa do sprawdzenia: ADR 7.5.7.1.
+
+Pytania do omówienia: ADR-B-0518, ADR-B-0554, ADR-B-0558, ADR-B-0235.
+
 ## Co musisz zapamiętać
 - Kontrola przed załadunkiem obejmuje pojazd, przesyłki i przestrzeń ładunkową.
 - Sprawdź zgodność wspólnego załadunku i wymagania ochrony żywności.
