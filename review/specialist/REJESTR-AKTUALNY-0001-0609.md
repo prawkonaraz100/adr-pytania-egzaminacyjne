@@ -1,12 +1,13 @@
-## Bieżąca migawka — etap 4x110 (28.10.2026)
+## Bieżąca migawka — etap 4x111 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `c2bf003935faf9e51ae8b03759e456006049ef5b`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `a0d901b67548cd9ae66eeb8fa09b7c8264640e3c`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
-- Próbka 40, seed `41102026`; konserwatywnie wykluczono 303 identyfikatory występujące w artefaktach etapów 4x103–4x109. Raport: `podstawowy/raporty/etap-4x110-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x110-wykluczenia-proby.json`.
-- Zmieniono wyłącznie dystraktory i dopasowane explanation w ADR-B-0016, ADR-B-0109 i ADR-B-0164; poprawne litery i podstawy prawne pozostały bez zmian.
-- Egzaminy 001–005 i klucze wskazują bieżący blob; po 30 pytań, bez duplikatów, A/B/C 10/10/10. Status wszystkich pytań pozostaje `needs_review`.
-- Metryki: „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków.
-- Niezależna recenzja prawna nadal wymagana; CI PR #569 jest jedyną podstawą do potwierdzenia Quality Gate.
+- Próbka 40, seed `41112026`; wykluczono 343 ID z jawnego rejestru etapów 4x103–4x110 i pięć pytań poprawionych w tej partii; pula 266. Raport: `podstawowy/raporty/etap-4x111-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x111-wykluczenia-proby.json`.
+- Urealniono dystraktory i dopasowano explanation w ADR-B-0082, ADR-B-0123, ADR-B-0296, ADR-B-0351 i ADR-B-0423; poprawne litery, ID i podstawy prawne bez zmian.
+- Egzaminy 001–005 wskazują bieżący blob; każdy ma 30 pytań, brak duplikatów, rozkład A/B/C 10/10/10. Żadne z pięciu zmienionych ID nie występuje w wariantach, więc nie zmieniano ich treści ani kluczy.
+- Metryki: „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
+- Scenariusze: 39; lekcje: 13. Migawki audytu odświeżone, ale niezależna recenzja prawna pozostaje otwarta.
+- Lokalny `git clone` nie powiódł się z powodu braku rozpoznania `github.com`; lokalnego PASS nie deklarowano. Wymagany PASS GitHub Actions Quality Gate dla PR 4x111.
 
 # Bieżący pełny indeks dla specjalisty ADR, 0001–0609 — stan etapu 4x87
 
