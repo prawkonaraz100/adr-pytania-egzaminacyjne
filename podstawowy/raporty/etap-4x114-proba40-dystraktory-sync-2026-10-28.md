@@ -65,4 +65,4 @@ Podstawy prawne dla zmienionych pozycji pozostają zgodne z istniejącymi źród
 | ADR-B-12 | 44 | 14/13/17 | 6/44 (13.64%) | 303 |
 | ADR-B-13 | 47 | 15/15/17 | 5/47 (10.64%) | 308 |
 
-Wykonano preflight na danych pobranych z GitHub. Nie uruchamiano testów w lokalnym checkout repozytorium; wynik końcowy zależy od pełnego CI na PR. Nie oznaczono żadnego pytania jako `verified`.
+Wykonano preflight na danych pobranych z GitHub. Testy w lokalnym checkout nie były dostępne w tym trybie pracy; GitHub Actions Quality Gate zakończył się PASS (139 testów, kontrola struktury, mapy kompetencji, wariantów/kluczy, explanation, podobieństw i migawek audytów). Nie oznaczono żadnego pytania jako `verified`.
