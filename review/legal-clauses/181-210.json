@@ -1241,15 +1241,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Kategoria B nie zamyka każdego tunelu dla każdego ADR."
+          "rationale": "Błędna: kategoria B nie oznacza automatycznego zakazu dla każdego przewozu ADR; trzeba sprawdzić kod towaru."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Kategoria E jest szerzej ograniczająca niż B."
+          "rationale": "Poprawna: kategoria E wiąże się z szerszymi ograniczeniami niż kategoria B."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Kategorie dotyczą zagrożeń, nie wyłącznie wysokości pojazdów."
+          "rationale": "Błędna: kategorie tuneli określają ograniczenia przewozu towarów niebezpiecznych, a nie wyłącznie wymiary pojazdu."
         }
       },
       "observed_answer_key": "B",
@@ -1264,11 +1264,11 @@
         "stem": "Na trasie znajdują się tunele kategorii B i E. Które twierdzenie prawidłowo opisuje znaczenie ich kategorii ADR?",
         "options": {
           "A": "Tunel B automatycznie zakazuje każdej ciężarówce ADR wjazdu, niezależnie od kodu",
-          "B": "Tunel E nakłada szersze ograniczenia niż tunel B",
-          "C": "Obie kategorie dotyczą wyłącznie wysokości pojazdu, a nie przewożonego ładunku"
+          "B": "Tunel kategorii E nakłada szersze ograniczenia przewozu niż tunel kategorii B",
+          "C": "Kategoria tunelu dotyczy tylko wymiarów pojazdu, nie przewożonego ładunku"
         },
         "correct_option": "B",
-        "explanation": "Kategoria tunelu E wiąże się z szerszymi ograniczeniami przewozu towarów niebezpiecznych niż kategoria B. Przy planowaniu przejazdu trzeba jednak zestawić kategorię z kodem konkretnego ładunku. Nie ma automatycznego zakazu dla każdej ciężarówki w tunelu B, a kategorie nie służą tylko do określania wysokości pojazdu. Podstawa: ADR 1.9.5.2.2 i 8.6.4.",
+        "explanation": "Kategoria E wiąże się z szerszymi ograniczeniami przewozu towarów niebezpiecznych niż kategoria B. Przed przejazdem trzeba porównać oznakowanie tunelu z kodem tunelowym konkretnego towaru i sposobem jego przewozu. Kategoria B nie zakazuje automatycznie każdej ciężarówce ADR wjazdu, a kategorie nie opisują wyłącznie wymiarów pojazdu. Podstawa: ADR 1.9.5.2.2 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
