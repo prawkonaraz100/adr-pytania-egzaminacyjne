@@ -1,15 +1,13 @@
-## Bieżąca migawka — etap 4x109 (28.10.2026)
+## Bieżąca migawka — etap 4x110 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `6fd194bfc51ff19c38e4dee598a9fae499e953a3`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `47b9c144b6b59c88338bad92fc7897e620d14a0c`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
-- Próbka 40, seed `41092026`; pula po wykluczeniu 263 jawnych ID z rejestru 4x108: 346. Raport: `podstawowy/raporty/etap-4x109-proba40-spojnosc-scenariusze-egzaminy-2026-10-28.md`; manifest próbki: `podstawowy/raporty/etap-4x109-wykluczenia-proby.json`.
-- Urealniono dystraktory i dopasowano explanation w ADR-B-0194, ADR-B-0575, ADR-B-0083 i ADR-B-0561; ID, poprawne litery i statusy pozostały bez zmian. Zmieniono aspekt pytania ADR-B-0194, by odróżnić je od ADR-B-0053.
-- Wstępne porównanie ciągów zgłosiło pozorną różnicę w ADR-B-0489; po prawidłowym mapowaniu liter potwierdzono, że klucz 001 był zgodny i nie wymagał zmiany merytorycznej. Wariant 005 i klucz 005 zsynchronizowano z nowym brzmieniem ADR-B-0575.
-- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
-- Lekcje: 13/13 odwołań do właściwego działu; scenariusze: 39/39 z co najmniej 3 krokami i poprawnymi referencjami do pytań.
-- Egzaminy 001–005: po 30 unikalnych pytań, rozkład A/B/C 10/10/10, maksymalna seria 3; po korekcie klucza 001 brak rozbieżności treści klucza z wariantem.
-- Lokalny `git clone` nie powiódł się z powodu błędu DNS (`github.com` nie został rozwiązany). Pełny PASS wymaga CI w PR; lokalnego PASS nie deklarowano.
-- Niezależna recenzja prawna pozostaje otwarta; statusów nie zmieniono.
+- Próbka 40, seed `41092027`; pula po wykluczeniu 303 jawnych ID z rejestru 4x109: 306. Raport: `podstawowy/raporty/etap-4x110-proba40-kontrola-wyjasnien-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x110-wykluczenia-proby.json`.
+- Poprawiono ADR-B-0194, ADR-B-0217 i ADR-B-0324; poprawne litery i statusy pozostały bez zmian.
+- Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 70/609 = 11,49%, maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
+- Lekcje 13/13; scenariusze 39/39 z poprawnymi question_ids; egzaminy 001–005 po 30 pytań, A/B/C 10/10/10, maksymalna seria 3.
+- Lokalny `git clone` nie powiódł się z powodu błędu DNS; lokalnego PASS nie deklarowano. Wymagany pełny PASS GitHub Actions Quality Gate.
+- Status wszystkich pytań pozostaje `needs_review`; nie nadano `verified`.
 
 ## Aktualizacja etapu 4x89 — próbka, wyłączenia i status M364 (27.10.2026)
 
