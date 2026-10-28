@@ -6,8 +6,7 @@
 
 - [Słowniczek ADR dla kursanta](SLOWNICZEK.md) — proste definicje skrótów, oznakowania i pojęć używanych w lekcjach i pytaniach.
 
-## Raporty
-- Etap 4x129 — [praktyczne decyzje kierowcy w lekcjach B-07–B-09](raporty/etap-4x129-praktyczne-decyzje-lekcje-07-09-2026-10-28.md). jakości
+## Raporty jakości
 
 - [Etap 4x125 — próbka 40, wyjaśnienia i dystraktory](raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md)
 - [Etap 4x125 — seed, lista próby i wykluczenia](raporty/etap-4x125-wykluczenia-proby.json)
@@ -354,6 +353,9 @@ Raporty ETAPU 4x7
 
 
 ## Najnowsze raporty jakości
+
+- [Etap 4x129 — praktyczne decyzje kierowcy w lekcjach B-07–B-09](raporty/etap-4x129-praktyczne-decyzje-lekcje-07-09-2026-10-28.md)
+
 
 - [Etap 4x95 — próbka 60, spójność wartości ADR i mapa wpływu 2027](raporty/etap-4x95-proba60-spojnosc-wartosci-adr2027-2026-10-27.md)
 - [Etap 4x100 — aktualizacja metryk pokrycia](raporty/etap-4x100-metryki-pokrycia-2026-10-27.md)
