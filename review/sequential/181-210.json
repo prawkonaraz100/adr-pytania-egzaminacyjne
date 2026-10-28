@@ -553,18 +553,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na tablicy pomarańczowej numer rozpoznawczy zagrożenia to 88. Co oznacza powtórzenie cyfry 8?",
+        "stem": "Po zdarzeniu ratownik prosi kierowcę o odczytanie oznaczeń z pomarańczowej tablicy. Widnieją na niej liczby 88 nad 1831. Jak powinien przekazać te dane?",
         "options": {
-          "A": "Oznacza dwa niezależne rodzaje zagrożenia, z których drugie jest promieniotwórcze.",
-          "B": "Oznacza zagrożenie żrące, ale powtórzenie cyfry nie wpływa na jego nasilenie.",
-          "C": "Oznacza nasilone zagrożenie żrące; powtórzenie cyfry wskazuje na większe nasilenie zagrożenia."
+          "A": "88 to numer UN identyfikujący towar, a 1831 to numer zagrożenia.",
+          "B": "Wystarczy podać tylko numer UN 1831, bo zastępuje on numer zagrożenia.",
+          "C": "88 to numer rozpoznawczy zagrożenia, a 1831 to numer UN towaru."
         },
         "correct_option": "C",
-        "explanation": "Numer 88 oznacza, że zagrożenie żrące jest nasilone; powtórzenie cyfry w numerze rozpoznawczym sygnalizuje silniejsze działanie tego samego rodzaju zagrożenia. Nie oznacza to dwóch niezależnych zagrożeń ani braku ryzyka. Odczytaj cały numer, bo pozostałe cyfry mogą dodawać inne informacje. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Przekaż oba numery z prawidłową nazwą: 88 w górnym polu to numer rozpoznawczy zagrożenia, a 1831 w dolnym polu to numer UN identyfikujący towar. Zamiana ich ról może wprowadzić ratowników w błąd, a sam numer UN nie zastępuje informacji o rodzaju zagrożenia. Odczytaj je z tablicy i dokumentów, nie zgaduj. Podstawa: ADR 5.3.2.2.1 i 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1",
+            "reference": "ADR 2025, 5.3.2.2.1; 5.3.2.3.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
