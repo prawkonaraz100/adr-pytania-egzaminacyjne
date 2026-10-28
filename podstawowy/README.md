@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 28.10.2026, etap 4x124 (pozostała pula 25 pytań i spójność): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 69/609 = 11,33% (maksimum działu 13,95%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 28.10.2026, etap 4x125 (próbka 40: wyjaśnienia i dystraktory): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 69/609 = 11,33% (maksimum działu 13,95%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -8,9 +8,9 @@
 
 ## Raporty jakości
 
-- [Etap 4x124 — pozostała pula 25, spójność i explanation](raporty/etap-4x124-proba25-spojnosc-2026-10-28.md)
-
 - [Etap 4x125 — próbka 40, wyjaśnienia i dystraktory](raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md)
+- [Etap 4x125 — seed, lista próby i wykluczenia](raporty/etap-4x125-wykluczenia-proby.json)
+- [Etap 4x124 — pozostała pula 25, spójność i explanation](raporty/etap-4x124-proba25-spojnosc-2026-10-28.md)
 - [Etap 4x124 — manifest próbki i wykluczenia](raporty/etap-4x124-wykluczenia-proby.json)
 - [Etap 4x123 — próbka 40, dystraktory i explanation](raporty/etap-4x123-proba40-explanations-dystraktory-sync-2026-10-28.md)
 - [Etap 4x123 — seed, lista próby i wykluczenia](raporty/etap-4x123-wykluczenia-proby.json)
