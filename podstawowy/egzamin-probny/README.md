@@ -1,3 +1,10 @@
+## Najnowsza synchronizacja — etap 4x122 (28.10.2026)
+
+- Aktualny blob banku: `00d8dcc732fccefb5f5bbf021eec204533a75708`.
+- Bank: 609 pytań; wszystkie `needs_review`, 0 `verified`; minimum explanation 300 znaków.
+- W próbce 40 dopracowano ADR-B-0026, ADR-B-0250, ADR-B-0362 i ADR-B-0542. Zaktualizowano migawki audytu; w wariancie 004 zmieniono opcję ADR-B-0026, a klucz zachowuje tę samą poprawną literę.
+- Wszystkie warianty i klucze 001–005 wskazują nowy blob banku. Raport: [Etap 4x122](../raporty/etap-4x122-proba40-explanations-sync-2026-10-28.md); manifest: [próba i wykluczenia](../raporty/etap-4x122-wykluczenia-proby.json).
+
 ## Najnowsza synchronizacja — etap 4x121 (28.10.2026)
 
 - Aktualny blob banku: `f18b273e3451730a4efc28e10cd0ff16b03807f5`.
