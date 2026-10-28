@@ -228,11 +228,11 @@
         "stem": "Dla tego samego kodu tunelowego D/E towar jest przewożony luzem, przy spełnieniu warunków takiego przewozu. Które tunele są objęte zakazem z tego kodu?",
         "options": {
           "A": "Przy przewozie luzem kod D/E wyklucza wyłącznie tunele kategorii E",
-          "B": "Kod D/E wyklucza tylko tunele kategorii A i B przy każdym przewozie",
+          "B": "Kod D/E wyklucza tunele D i E niezależnie od tego, czy towar jedzie luzem, w sztukach przesyłek czy w cysternie",
           "C": "Przy przewozie luzem kod D/E wyklucza tunele kategorii D i E"
         },
         "correct_option": "A",
-        "explanation": "Kod D/E rozróżnia przewóz w cysternie od pozostałych sposobów przewozu: pierwsza litera dotyczy cystern, a druga przewozu innego niż w cysternie. Przewóz luzem nie jest przewozem w cysternie, więc z tego kodu wynika zakaz w tunelu kategorii E, a nie automatycznie D i E. Podstawa: ADR 8.6.4, kod D/E.",
+        "explanation": "Kod D/E rozróżnia przewóz w cysternie od innych sposobów przewozu: pierwsza litera dotyczy cystern, a druga pozostałych przewozów. Dla przewozu luzem stosuje się regułę dla transportu innego niż w cysternie, więc z tego kodu wynika zakaz tunelu kategorii E. Nie wolno automatycznie przenosić reguły cysternowej na przewóz luzem. Podstawa: ADR 8.6.4, kod D/E.",
         "sources": [
           {
             "code": "ADR-2025-PL",
