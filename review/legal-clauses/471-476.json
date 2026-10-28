@@ -14,15 +14,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowa odpowiedź: Tak, gdy posiada dowód osobisty. Pozostaje sprzeczna z obowiązkiem albo zakazem wynikającym z ADR 8.3.1. Wymaga dodatkowej eksperckiej kontroli."
+          "rationale": "Nieprawidłowe: dokument tożsamości i krótki dystans nie tworzą wyjątku od zakazu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowa odpowiedź: Tak, jeżeli przejazd ma mniej niż 10 km. Pozostaje sprzeczna z obowiązkiem albo zakazem wynikającym z ADR 8.3.1. Wymaga dodatkowej eksperckiej kontroli."
+          "rationale": "Nieprawidłowe: zgoda obu osób i znajomość zagrożeń nie uchylają wymagania ADR."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR 8.3.1 zabrania przewozu osób innych niż członkowie załogi w jednostkach transportowych z towarami niebezpiecznymi."
+          "rationale": "Właściwe: ADR 8.3.1 ogranicza przewóz osób do członków załogi."
         }
       },
       "observed_answer_key": "C",
@@ -37,11 +37,11 @@
         "stem": "Przewóz towarów niebezpiecznych objęty ADR odbywa się ciężarówką; znajomy kierowcy chce jechać na wolnym fotelu, nie będąc członkiem załogi. Czy jest to dozwolone?",
         "options": {
           "A": "Tak, jeśli pasażer ma dokument tożsamości i jedzie tylko krótki odcinek",
-          "B": "Tak, gdy podróż trwa mniej niż dziesięć kilometrów i pojazd jedzie wolno",
+          "B": "Tak, jeśli kierowca i pasażer wyrażą zgodę, a pasażer zna zagrożenia",
           "C": "Nie; poza członkami załogi nie wolno przewozić pasażerów w tej jednostce"
         },
         "correct_option": "C",
-        "explanation": "W jednostce transportowej przewożącej towary niebezpieczne nie wolno zabierać pasażerów, którzy nie są członkami załogi. Dowód osobisty ani krótki dystans nie tworzą wyjątku od tej zasady. Ograniczenie ma zmniejszać liczbę osób narażonych na skutki wypadku z towarami niebezpiecznymi. Podstawa: ADR 8.3.1.",
+        "explanation": "W jednostce transportowej przewożącej towary niebezpieczne nie wolno zabierać osób, które nie są członkami załogi. Dokument tożsamości, zgoda kierowcy i znajomość zagrożeń nie tworzą wyjątku od tej zasady. Ograniczenie ma zmniejszać liczbę osób narażonych na skutki wypadku z towarami niebezpiecznymi. Podstawa: ADR 8.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
