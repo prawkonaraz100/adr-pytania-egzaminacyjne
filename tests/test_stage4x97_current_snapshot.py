@@ -55,7 +55,7 @@ class CurrentSnapshotTests(unittest.TestCase):
         self.assertEqual(sample["excluded_distinct_ids"], len(excluded))
         self.assertEqual(sample["candidate_pool_size"], len(bank) - len(excluded))
         self.assertIn("4x103–4x106", sample["limitation"])
-        self.assertIn("nie dowodzi pełnej rozłączności", sample["limitation"])
+        self.assertIn("nie dowodzi braku nakładania", sample["limitation"])
         self.assertEqual(len(bank), 609)
         self.assertEqual(len(by_id), 609)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in bank))
