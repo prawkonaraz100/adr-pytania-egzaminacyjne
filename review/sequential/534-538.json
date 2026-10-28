@@ -63,12 +63,12 @@
       "exact_record_snapshot": {
         "stem": "Nadawca przekazuje przewoźnikowi partię towarów w ilościach ograniczonych LQ. Jaką informację powinien przed przewozem przekazać mu w możliwej do udokumentowania formie?",
         "options": {
-          "A": "Podać liczbę pojazdów, które wcześniej pokonały planowaną trasę dostawy",
+          "A": "Podać liczbę opakowań i sztuk, a masę brutto pozostawić przewoźnikowi do oszacowania.",
           "B": "Przekazać całkowitą masę brutto przewożonych towarów w ilościach ograniczonych LQ",
-          "C": "Podać wyłącznie szczegółowy harmonogram zmian kierowców oraz plan przerw na trasie"
+          "C": "Przekazać wyłącznie masę netto zawartości LQ, ponieważ opakowania nie są częścią towaru."
         },
         "correct_option": "B",
-        "explanation": "Nadawca towarów w ilościach ograniczonych powinien przed przewozem przekazać przewoźnikowi informację o całkowitej masie brutto LQ (od ang. limited quantities — ilości ograniczone) w sposób, który można udokumentować. Liczba pojazdów na danej trasie ani grafik kierowców nie pozwalają ustalić ilości LQ. Informacja musi dotrzeć do przewoźnika przed rozpoczęciem przewozu. Podstawa: ADR 3.4.12.",
+        "explanation": "Przy przewozie LQ (ilości ograniczonych) nadawca musi przed przewozem przekazać przewoźnikowi całkowitą masę brutto tych towarów w formie możliwej do udokumentowania. Sama liczba opakowań nie pokazuje ich łącznej masy, a masa netto pomija opakowania. Ta informacja ma dotrzeć do przewoźnika przed rozpoczęciem przewozu. Podstawa: ADR 3.4.12.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -83,10 +83,10 @@
       "supplementary_source_url": "https://unece.org/adr-2025-files",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Dosłowne polskie brzmienie Dz.U. 2025 poz. 642 i wpływ sprostowania 1575 niepotwierdzone; wymaga recenzenta. Etap 4m: poprawiono wyłącznie zwięzłość wariantów; niezależne potwierdzenie znaczenia przed wydaniem konieczne.",
+      "source_risk_note": "Dosłowne polskie brzmienie Dz.U. 2025 poz. 642 i wpływ sprostowania 1575 niepotwierdzone; wymaga recenzenta. Etap 4m: poprawiono wyłącznie zwięzłość wariantów; niezależne potwierdzenie znaczenia przed wydaniem konieczne. Etap 4x117: dystraktory zredagowano; nie jest to zatwierdzenie prawne, status needs_review.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
-      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+      "review_outcome": "editorial_distractors_revised_4x117; not legally approved"
     },
     {
       "id": "ADR-B-0536",
