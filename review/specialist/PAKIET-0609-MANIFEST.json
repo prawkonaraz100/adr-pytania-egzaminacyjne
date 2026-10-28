@@ -1,5 +1,5 @@
 {
-  "stage": "stage4x131_lesson_bank_scenario_consistency",
+  "stage": "stage4x132_review_packet_and_learner_exam_guide",
   "snapshot_date": "2026-10-28",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
@@ -145,7 +145,8 @@
     "record authentic reviewer/date/evidence/hash before any verified status",
     "check all 13 lessons and 13 instructor guides against the 39 scenario IDs and module-local question IDs",
     "check the five training exam variants and five keys against the current question bank; publication_authorized must remain false until independent approval",
-    "confirm explanations are understandable to a novice driver and assess each A/B/C independently"
+    "confirm explanations are understandable to a novice driver and assess each A/B/C independently",
+    "Sprawdzić instrukcję egzaminu próbnego pod kątem zgodności parametrów oficjalnego egzaminu podstawowego z Dz.U. 2024 poz. 964, § 9–11; rozdzielać oficjalne wymagania od statusu autorskich wariantów treningowych."
   ],
   "release_allowed": false,
   "practical_scenario_count": 39,
@@ -209,7 +210,8 @@
     "mock_exam_variants": 5,
     "mock_exam_keys": 5,
     "glossary_terms": 90,
-    "questions": 609
+    "questions": 609,
+    "learner_exam_instructions": 1
   },
   "last_literal_comparison_batch": {
     "id": "4x16-literal-comparison-batch5-0010-0337",
@@ -675,7 +677,7 @@
     "status": "needs_review",
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
-  "latest_report": "podstawowy/raporty/etap-4x123-proba40-explanations-dystraktory-sync-2026-10-28.md",
+  "latest_report": "podstawowy/raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md",
   "latest_sample": "podstawowy/raporty/etap-4x123-wykluczenia-proby.json",
   "latest_sample_seed": 41232026,
   "latest_sample_count": 40,
@@ -998,5 +1000,36 @@
     "verification_status": "needs_review",
     "formal_approval": false,
     "unique_candidates_remaining_after_4x123": 25
+  },
+  "learner_exam_instruction": "podstawowy/egzamin-probny/INSTRUKCJA-KURSANTA.md",
+  "exam_parameters_confirmed": {
+    "source": "Rozporządzenie Ministra Infrastruktury z 26 czerwca 2024 r., Dz.U. 2024 poz. 964",
+    "status": "obowiązujący",
+    "sections": [
+      "§ 9 ust. 1 i 3 pkt 1",
+      "§ 10 pkt 1",
+      "§ 11"
+    ],
+    "basic_exam_questions": 30,
+    "minutes": 60,
+    "minimum_correct_fraction": "2/3",
+    "minimum_correct_count": 20,
+    "training_variants_are_official": false
+  },
+  "stage4x132": {
+    "status": "review_packet_and_learner_exam_instruction_updated",
+    "report": "podstawowy/raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md",
+    "learner_exam_instruction": "podstawowy/egzamin-probny/INSTRUKCJA-KURSANTA.md",
+    "official_exam_parameters_source": "Dz.U. 2024 poz. 964, § 9–11",
+    "verification_status": "needs_review",
+    "formal_approvals": 0,
+    "official_exam_parameters": {
+      "questions": 30,
+      "time_limit_minutes": 60,
+      "pass_mark_fraction": "2/3",
+      "pass_mark_correct": 20,
+      "source": "Dz.U. 2024 poz. 964, § 9–11",
+      "status": "official_exam_parameters_confirmed; training variants not official"
+    }
   }
 }

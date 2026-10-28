@@ -2,16 +2,19 @@
 
 ## Ostatnia kontrola jakości
 
+- [Etap 4x132 — pakiet recenzyjny i instrukcja egzaminu](raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md): odświeżono listę kontrolną specjalisty i dodano instrukcję do egzaminu próbnego.
 - [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md): przejrzano pytania ADR-B-0586–0609; poprawiono jedną niespójność redakcyjną; 39 scenariuszy i 13 lekcji bez brakujących/błędnych referencji.
 
-**Stan na 28.10.2026, etap 4x131 (spójność lekcji, banku, scenariuszy i egzaminu): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 69/609 = 11,33% (maksimum działu 13,95%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 28.10.2026, etap 4x132 (pakiet recenzyjny i instrukcja egzaminu próbnego): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 69/609 = 11,33% (maksimum działu 13,95%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
 - [Słowniczek ADR dla kursanta](SLOWNICZEK.md) — proste definicje skrótów, oznakowania i pojęć używanych w lekcjach i pytaniach.
+- [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
 
+- [Etap 4x132 — pakiet recenzyjny i instrukcja egzaminu](raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md)
 - [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md)
 - [Etap 4x125 — próbka 40, wyjaśnienia i dystraktory](raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md)
 - [Etap 4x125 — seed, lista próby i wykluczenia](raporty/etap-4x125-wykluczenia-proby.json)

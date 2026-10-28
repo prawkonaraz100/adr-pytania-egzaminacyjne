@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x132 (28.10.2026)
+
+- Bank: 609 pytań `needs_review`, 0 `verified`; bieżący blob SHA `595d47e4f7a15cc93a5c42cd8285d153529f906c`.
+- Raport: `podstawowy/raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md`.
+- Pakiet obejmuje 13 lekcji, 13 materiałów instruktorskich, 39 scenariuszy, 90 haseł słowniczka oraz 5 wariantów i 5 kluczy egzaminu próbnego.
+- Instrukcja kursanta: `podstawowy/egzamin-probny/INSTRUKCJA-KURSANTA.md`. Parametry oficjalnego egzaminu podstawowego potwierdza Dz.U. 2024 poz. 964, § 9–11: 30 pytań, 60 minut, próg 2/3 (20/30). Nasze warianty pozostają treningowe i nie są oficjalnym katalogiem.
+- Nie ma formalnych zatwierdzeń. Zachować `needs_review`; `verified` wyłącznie po prawdziwej, udokumentowanej recenzji specjalisty.
+
 ## Bieżąca migawka — etap 4x131 (28.10.2026)
 
 - Bank: 609 pytań `needs_review`, 0 `verified`; blob SHA `595d47e4f7a15cc93a5c42cd8285d153529f906c`.
