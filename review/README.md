@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x115 (28.10.2026)
+
+- Bank: 609 pytań `ADR-B-0001–ADR-B-0609`, blob SHA `5d902f8ceae765eb7cd2da1a89982667f01d7ce5`; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- Próbka redakcyjna: 40 pytań, seed `41152026`; raport `podstawowy/raporty/etap-4x115-proba40-dystraktory-sync-2026-10-28.md`, manifest `podstawowy/raporty/etap-4x115-wykluczenia-proby.json`.
+- Poprawiono 16 błędnych opcji w 8 pytaniach (ADR-B-0065, 0185, 0217, 0264, 0318, 0340, 0424, 0446), bez zmiany ID, poprawnych liter i podstaw prawnych.
+- Metryki: „poprawna = jedyna najdłuższa” 73/609 = 11,99%, maksimum działu 14,29%; explanation poniżej 200 znaków: 0.
+- Lekcje: 13/13; scenariusze: 39/39; brak nieistniejących ID i odwołań między działami. Egzaminy 001–005 i klucze sprawdzono i zsynchronizowano; każdy wariant ma 30 pytań.
+- Status prawny pozostaje otwarty. Redakcja i automatyczne kontrole nie zastępują niezależnej recenzji; nie nadawać statusu `verified`.
+
 ## Bieżąca migawka — etap 4x114 (28.10.2026)
 
 - Bank: 609 pytań `ADR-B-0001–ADR-B-0609`, blob SHA `04d7246d074d6f12fc46e91b4b47fc0e2364f0f0`; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
