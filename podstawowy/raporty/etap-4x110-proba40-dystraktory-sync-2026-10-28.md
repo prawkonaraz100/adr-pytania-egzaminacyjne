@@ -31,7 +31,7 @@ Nie zmieniono ID, poprawnych liter ani podstaw prawnych pytań. Nie znaleziono p
 - Zaktualizowano kopie odpowiedzi ADR-B-0164 w wariancie 001 i ADR-B-0109 w wariancie 004; poprawiono odpowiadające im explanation w kluczach.
 - Kontrola wszystkich pięciu wariantów: po 30 pytań, 30 unikalnych ID, brak pytań spoza banku i brak różnic w zestawach odpowiedzi. Klucze zachowują poprawną literę dla tekstu poprawnej odpowiedzi.
 - Kontrola A/B/C w kluczach każdego wariantu: 10/10/10.
-- Wykryto i naprawiono dodatkowy rozjazd: explanation ADR-B-0489 w kluczu 001 nie odpowiadało bieżącemu bankowi. Klucz zsynchronizowano z bankiem; poprawna odpowiedź nie uległa zmianie.
+- Wstępne porównanie surowych tekstów zgłosiło pozorną rozbieżność w ADR-B-0489. Po uwzględnieniu mapowania liter A/B/C w wariancie 001 potwierdzono, że explanation klucza było zgodne; zachowano prawidłowo zmapowany tekst i nie wprowadzono zmiany merytorycznej.
 
 ## 4. Quality Gate — metryki banku
 
