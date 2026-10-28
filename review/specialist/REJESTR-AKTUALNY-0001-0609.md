@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x117 (28.10.2026)
+
+- Raport: [próbka 40, explanation i dystraktory](podstawowy/raporty/etap-4x117-proba40-jakosc-dystraktorow-2026-10-28.md); manifest: `podstawowy/raporty/etap-4x117-wykluczenia-proby.json`.
+- Bieżący bank `podstawowy/questions.jsonl`: blob SHA `b763f639efe11f972d4c3047dc8238334f9ff9f2`; 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- Przepisano explanation w ADR-B-0085, ADR-B-0203 i ADR-B-0278; w ADR-B-0203 urealniono dystraktor C. Nie zmieniono ID ani poprawnej litery.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82%; maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
+- 13 lekcji i 39 scenariuszy sprawdzono pod kątem referencji; warianty i klucze 001–005 wskazują powyższy blob.
+- Pełny Quality Gate CI dla PR #577 musi przejść przed scaleniem. Nie nadawać statusu `verified`.
+
 ## Bieżąca migawka — etap 4x116
 
 - Raport etapu 4x116: [próbka 40, jakość dystraktorów i synchronizacja](../../podstawowy/raporty/etap-4x116-proba40-jakosc-dystraktorow-2026-10-28.md). (28.10.2026)
