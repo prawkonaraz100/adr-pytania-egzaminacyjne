@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x131 (28.10.2026)
+
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; bieżący blob SHA `595d47e4f7a15cc93a5c42cd8285d153529f906c`.
+- Raport: `podstawowy/raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md`.
+- Przegląd redakcyjny ADR-B-0586–0609: 24 pytania, 1 poprawka explanation (0586), klucze i opcje bez zmian.
+- Lekcje: 13; scenariusze: 39 (3 na dział); warianty/klucze próbne: 001–005.
+- Nie jest to zatwierdzenie prawne. Porównać pełny polski tekst Dz.U. 2025 poz. 642 i sprostowanie poz. 1575; nie zmieniać statusu bez niezależnej recenzji.
+
 > **Bieżąca migawka 4x124 (28.10.2026):** bank `podstawowy/questions.jsonl`, 609 pytań, blob SHA `36985d2be9667dad581f241d68f7df76ea47e0d5`; wszystkie `needs_review`, 0 `verified`. Najnowszy raport: `podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md`. Przegląd prawny nadal musi wykonać specjalista.
 
 ## Bieżąca migawka — etap 4x120 (28.10.2026)
