@@ -63,12 +63,12 @@
       "exact_record_snapshot": {
         "stem": "Odpad o nieznanym dokładnie składzie zawiera substancję klasy 4.3. Czy wolno zastosować uproszczoną procedurę ADR 2.1.3.5.5?",
         "options": {
-          "A": "Tak, bez żadnych ograniczeń",
+          "A": "Tak, jeśli nazwa odpadu i dostępne dane pozwalają określić jego ogólne zagrożenie, bez sprawdzania wyłączeń procedury.",
           "B": "Nie, materiały klasy 4.3 są wyłączone z tej procedury",
-          "C": "Tak, jeśli kierowca zna nazwę odpadu"
+          "C": "Tak, jeżeli znany jest kod katalogowy odpadu i dostępna jest karta przekazania."
         },
         "correct_option": "B",
-        "explanation": "Nie każdy odpad o nieznanym składzie można sklasyfikować uproszczoną metodą. Materiały klasy 4.3 są wyłączone z procedury wskazanej w pytaniu, więc nie wystarczy nazwa odpadu ani zgoda kierowcy, by jej użyć. Trzeba zastosować właściwe zasady klasyfikacji dla danego zagrożenia. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Procedury ADR 2.1.3.5.5 nie wolno stosować do odpadu zawierającego materiał klasy 4.3, nawet gdy znasz nazwę odpadu lub jego kod katalogowy. Te informacje pomagają opisać odpad, ale nie znoszą wyłączenia wskazanego w ADR. Trzeba zastosować inną właściwą procedurę klasyfikacji. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -83,7 +83,7 @@
       "supplementary_source_url": "https://www.euraca.eu/media/ewof3ibp/adr-2025-vol-i.pdf",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Polish legal text and corrigendum comparison pending",
+      "source_risk_note": "Polish legal text and corrigendum comparison pending Etap 4x123: poprawiono dydaktyczne dystraktory i explanation bez zmiany klucza; status needs_review.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"

@@ -745,19 +745,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wariant A oddaje warunek przepisowy: Instrukcja zabrania tworzenia źródeł zapłonu, w tym uruchamiania urządzeń elektrycznych. Pozostaje do porównania z pełnym polskim brzmieniem."
+          "rationale": "Poprawna: w pobliżu palnych oparów trzeba unikać urządzeń mogących stać się źródłem zapłonu; polskie brzmienie ADR nadal wymaga niezależnej kontroli."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Uruchomić wszystkie odbiorniki”) nie spełnia obowiązku opisanego w ADR 2025, 5.4.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Błędna: wentylator nie gwarantuje bezpiecznego rozproszenia oparów, a jego włączenie może wytworzyć źródło zapłonu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Włączyć zapalniczkę dla sprawdzenia zapachu”) nie spełnia obowiązku opisanego w ADR 2025, 5.4.3.4; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Błędna: brak widocznego płomienia nie oznacza braku palnych oparów ani bezpieczeństwa uruchamiania urządzeń."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana.",
+      "notes_on_conditions": "Należy uwzględnić konkretne warunki przewozu, przepisy szczególne i dopuszczalne wyjątki; specjalistyczna kontrola pozostaje wymagana. Etap 4x123: poprawiono dydaktyczne dystraktory i explanation bez zmiany klucza; status remains needs_review.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -767,11 +767,11 @@
         "stem": "Po awarii kierowca rozważa włączenie urządzenia elektrycznego w pobliżu palnych oparów. Co nakazuje instrukcja pisemna ADR?",
         "options": {
           "A": "Unikać źródeł zapłonu i nie włączać urządzeń",
-          "B": "Uruchomić wszystkie odbiorniki elektryczne, aby sprawdzić instalację",
-          "C": "Włączyć zapalniczkę, by rozpoznać zapach substancji"
+          "B": "Włączyć wentylator kabiny, aby rozproszyć opary przed dalszym działaniem.",
+          "C": "Uruchomić oświetlenie i urządzenia pomocnicze, jeśli nie widać płomienia."
         },
         "correct_option": "A",
-        "explanation": "Przy palnych oparach iskra lub włączone urządzenie elektryczne może doprowadzić do pożaru albo wybuchu. Dlatego należy unikać źródeł zapłonu i nie uruchamiać urządzeń, które mogą go wywołać. Nie włączaj odbiorników ani zapalniczki, by sprawdzać zapach; oddal się i postępuj według instrukcji pisemnej. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Przy palnych oparach urządzenie elektryczne może wywołać iskrę, a wentylator nie gwarantuje bezpiecznego rozproszenia substancji. Nie uruchamiaj wentylacji ani innych odbiorników w pobliżu wycieku, nawet jeśli nie widać płomienia. Oddal się, ostrzeż innych i postępuj według instrukcji pisemnych. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",

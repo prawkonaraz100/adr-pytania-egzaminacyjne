@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x123 (28.10.2026)
+
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `dd247b2a1fe219c6b0a4643755c7cc820b842eeb`.
+- Raport: `podstawowy/raporty/etap-4x123-proba40-explanations-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x123-wykluczenia-proby.json`.
+- Próbka 40, seed `41232026`, 544 wykluczone ID, pula 65; cztery poprawki w próbce i dwa jawne follow-upy.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 69/609 = 11,33%; maksimum działu 13,95%; explanation minimum 300 znaków.
+- Warianty/klucze 001–005 wskazują aktualny blob banku; recenzja prawna nadal wymaga specjalisty.
+
 ## Bieżąca migawka — etap 4x122 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `5d3bb481e372a45c89b30812841e76e9d91d542f`.

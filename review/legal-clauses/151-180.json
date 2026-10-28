@@ -719,19 +719,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Nie należy wchodzić do ładowni z pożarem."
+          "rationale": "Błędna: nawet gdy ogień wygląda na niewielki, podejście do ładowni z gaśnicą może narazić załogę na gwałtowne rozprzestrzenienie pożaru."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Pożaru przestrzeni ładunkowej załoga nie gasi samodzielnie."
+          "rationale": "Poprawna: instrukcje pisemne nie przewidują samodzielnego gaszenia pożaru przestrzeni ładunkowej; należy oddalić się i wezwać pomoc."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Otwieranie opakowań w pożarze zwiększa ryzyko."
+          "rationale": "Błędna: otwarcie drzwi może zwiększyć dopływ tlenu lub uwolnić niebezpieczne substancje, zamiast poprawić bezpieczeństwo."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Oddalić się, ostrzec innych, powiadomić służby.",
+      "notes_on_conditions": "Oddalić się, ostrzec innych, powiadomić służby. Etap 4x123: poprawiono dydaktyczne dystraktory i explanation bez zmiany klucza; status remains needs_review.",
       "editorial_result": "no_additional_key_conflict_found_in_this_pass",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -741,12 +741,12 @@
         "module_id": "ADR-B-05",
         "stem": "Załoga pojazdu ADR widzi płomienie obejmujące już przestrzeń ładunkową. Co przewidują instrukcje pisemne?",
         "options": {
-          "A": "Wejść do ładowni z gaśnicą, nawet gdy ogień obejmuje cały ładunek",
+          "A": "Podejść do drzwi ładowni i użyć gaśnicy, jeśli płomienie wydają się niewielkie.",
           "B": "Nie gasić samodzielnie pożaru ładowni; odejść i wezwać służby",
-          "C": "Otworzyć opakowania, by służby mogły szybciej ugasić ogień"
+          "C": "Otworzyć drzwi ładowni, aby ocenić źródło ognia przed wezwaniem służb."
         },
         "correct_option": "B",
-        "explanation": "Pożar obejmujący przedział ładunkowy może szybko stworzyć zagrożenie przekraczające możliwości załogi. Nie należy samodzielnie wchodzić do ładowni ani otwierać przesyłek, by gasić taki ogień. Trzeba oddalić się, ostrzec innych i wezwać służby; niewielkie pożary silnika lub hamulców są oceniane inaczej. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Gdy ogień obejmuje lub może objąć przestrzeń ładunkową, załoga nie powinna podejmować samodzielnego gaszenia ani otwierać ładowni, bo dopływ tlenu i uwolnienie towaru mogą zwiększyć zagrożenie. Nawet jeśli płomienie wyglądają na niewielkie, bezpieczniej oddalić się, ostrzec innych i wezwać służby. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
