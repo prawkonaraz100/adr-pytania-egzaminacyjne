@@ -1,6 +1,6 @@
 ## Najnowsza synchronizacja — etap 4x107 (28.10.2026)
 
-- Aktualny blob banku: `a48ac7d92432436e18b1b0adc2188d63a6bc6189`.
+- Aktualny blob banku: `0a00e88a3fb26e709ef508b93e24aed4e9c1f4a3`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`.
 - Próbka 40: poprawiono dystraktory i dopasowano explanation dla ADR-B-0009, ADR-B-0329, ADR-B-0401 i ADR-B-0441; klucze odpowiedzi nie uległy zmianie.
 - Warianty i klucze 001–005 wskazują bieżący blob banku. Każdy arkusz ma 30 pytań, 13 działów, brak duplikatów, A/B/C 10/10/10 i maksymalną serię 3.
