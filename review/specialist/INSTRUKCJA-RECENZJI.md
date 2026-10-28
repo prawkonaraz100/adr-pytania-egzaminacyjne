@@ -1,9 +1,11 @@
-## Bieżąca migawka — etap 4x115 (28.10.2026)
+## Bieżąca migawka — etap 4x116
 
-- Bank: 609 pytań `ADR-B-0001–ADR-B-0609`, blob SHA `aa6c4184014808849f154ab07bf6acc99cbe4701`; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
+- Raport etapu 4x116: [próbka 40, jakość dystraktorów i synchronizacja](../../podstawowy/raporty/etap-4x116-proba40-jakosc-dystraktorow-2026-10-28.md). (28.10.2026)
+
+- Bank: 609 pytań `ADR-B-0001–ADR-B-0609`, blob SHA `ed7e1842d6f15d1ecde54ea3319d9efe3ef7a728`; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Próbka redakcyjna: 40 pytań, seed `41152026`; raport `podstawowy/raporty/etap-4x115-proba40-dystraktory-sync-2026-10-28.md`, manifest `podstawowy/raporty/etap-4x115-wykluczenia-proby.json`.
 - Poprawiono 16 błędnych opcji w 8 pytaniach (ADR-B-0065, 0185, 0217, 0264, 0318, 0340, 0424, 0446), bez zmiany ID, poprawnych liter i podstaw prawnych.
-- Metryki: „poprawna = jedyna najdłuższa” 73/609 = 11,99%, maksimum działu 14,29%; explanation poniżej 200 znaków: 0.
+- Metryki: „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation poniżej 200 znaków: 0.
 - Lekcje: 13/13; scenariusze: 39/39; brak nieistniejących ID i odwołań między działami. Egzaminy 001–005 i klucze sprawdzono i zsynchronizowano; każdy wariant ma 30 pytań.
 - Status prawny pozostaje otwarty. Redakcja i automatyczne kontrole nie zastępują niezależnej recenzji; nie nadawać statusu `verified`.
 
@@ -32,7 +34,7 @@
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`.
-- „Poprawna = jedyna najdłuższa”: 73/609 = 11.99%; maksimum działu: 14.29%.
+- „Poprawna = jedyna najdłuższa”: 72/609 = 11.82%; maksimum działu: 14.29%.
 - Explanation minimum 300 znaków; poniżej 200: 0.
 - Scenariusze: 39, po 3 na dział; brak nieistniejących lub obcych ID.
 - Egzaminy próbne 001–005: wszystkie source_bank_head wskazują powyższy blob, 30 pytań na arkusz; 0 rozbieżności klucza w porównaniu treści poprawnej opcji.
