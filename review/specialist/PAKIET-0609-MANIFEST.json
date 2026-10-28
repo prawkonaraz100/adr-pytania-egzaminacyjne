@@ -1,5 +1,5 @@
 {
-  "stage": "stage4x121_sample40_explanation_sync",
+  "stage": "stage4x122_sample40_distractor_sync",
   "snapshot_date": "2026-10-28",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
@@ -309,7 +309,7 @@
     },
     "not_verified_warning": "All 609 questions remain needs_review. A targeted comparison result does not constitute verified status."
   },
-  "current_bank_blob_sha": "f18b273e3451730a4efc28e10cd0ff16b03807f5",
+  "current_bank_blob_sha": "6612e0241dc9e9b3a01f6b456f58d141dc53ada9",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -673,9 +673,9 @@
     "status": "needs_review",
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
-  "latest_report": "podstawowy/raporty/etap-4x120-proba40-dystraktory-sync-2026-10-28.md",
-  "latest_sample": "podstawowy/raporty/etap-4x121-wykluczenia-proby.json",
-  "latest_sample_seed": 41212026,
+  "latest_report": "podstawowy/raporty/etap-4x122-proba40-dystraktory-sync-2026-10-28.md",
+  "latest_sample": "podstawowy/raporty/etap-4x122-wykluczenia-proby.json",
+  "latest_sample_seed": 41222026,
   "latest_sample_count": 40,
   "stage4x109": {
     "date": "2026-10-28",
@@ -701,8 +701,8 @@
     "sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
     "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
   },
-  "latest_editorial_stage": "4x121",
-  "latest_editorial_report": "podstawowy/raporty/etap-4x121-proba40-explanations-sync-2026-10-28.md",
+  "latest_editorial_stage": "4x122",
+  "latest_editorial_report": "podstawowy/raporty/etap-4x122-proba40-dystraktory-sync-2026-10-28.md",
   "stage4x112": {
     "source_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
     "sample_size": 40,
@@ -936,5 +936,32 @@
     ],
     "verification_status": "needs_review",
     "formal_approval": false
+  },
+  "stage4x122": {
+    "source_bank_blob_sha": "6612e0241dc9e9b3a01f6b456f58d141dc53ada9",
+    "selection_source_bank_blob_sha": "f18b273e3451730a4efc28e10cd0ff16b03807f5",
+    "sample_size": 40,
+    "seed": 41222026,
+    "questions_changed": [
+      "ADR-B-0015",
+      "ADR-B-0306",
+      "ADR-B-0376",
+      "ADR-B-0432",
+      "ADR-B-0471"
+    ],
+    "distractors_rewritten": 5,
+    "explanations_rewritten": 5,
+    "correct_letters_changed": 0,
+    "question_count": 609,
+    "explanations_under_200": 0,
+    "minimum_explanation_chars": 300,
+    "strictly_longest_correct": 74,
+    "strictly_longest_rate": 0.12151067323481117,
+    "maximum_module_rate": 0.16279069767441862,
+    "verification_status": "needs_review",
+    "legal_review_pending": true,
+    "report": "podstawowy/raporty/etap-4x122-proba40-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x122-wykluczenia-proby.json",
+    "limitation": "Pełna rozłączność z etapami 4x103–4x106 nie jest potwierdzona z powodu braku kompletnych manifestów ID."
   }
 }
