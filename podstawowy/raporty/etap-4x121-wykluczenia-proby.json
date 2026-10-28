@@ -2,7 +2,7 @@
   "stage": "4x121",
   "date": "2026-10-28",
   "seed": 41212026,
-  "algorithm": "LCG state=(1664525*state+1013904223) mod 2^32; Fisher–Yates over questions.jsonl after excluding the sample and reviewed/edited IDs recorded for stages 4x114–4x120. Cross-check against additional edited-ID fields confirmed no overlap with the selected 40.",
+  "algorithm": "LCG state=(1664525*state+1013904223) mod 2^32; Fisher–Yates over questions.jsonl after excluding sample_ids, changed_ids, reviewed_outside_sample_ids, follow_up_ids and edited_ids explicitly listed in 4x114–4x120 manifests. Then cross-checked the selected 40 against the additional edited_question_ids and changed_distractor_ids fields; no overlap was found.",
   "selection_source_bank_blob_sha": "04ace7f478868d0901bbc45fb26af3d866e18538",
   "updated_bank_blob_sha": "f18b273e3451730a4efc28e10cd0ff16b03807f5",
   "source_bank_count": 609,
@@ -331,7 +331,7 @@
   ],
   "verification_status": "needs_review",
   "legal_review_pending": true,
-  "limitation": "Próbka jest rozłączna względem próbek i jawnie zapisanych zmian etapów 4x114–4x120. Dla etapów 4x103–4x113 nie wszystkie historyczne listy prób są kompletne; ewentualne nakładanie jest jawnie opisane i nie można go całkowicie wykluczyć.",
+  "limitation": "The initial deterministic draw used 347 candidates after the explicitly listed sample/review exclusions; a secondary cross-check against additional edited-ID fields reduced the eligible pool to 346 and confirmed that none of the 40 selected IDs overlaps those extra records. The sample is disjoint from the recorded samples/changes in 4x114–4x120. For stages 4x103–4x113, not all historical sample lists are complete; any possible overlap is explicitly noted and cannot be ruled out.",
   "source_bank_blob_sha": "f18b273e3451730a4efc28e10cd0ff16b03807f5",
   "excluded_distinct_ids": 263
 }
