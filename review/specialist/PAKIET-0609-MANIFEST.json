@@ -676,9 +676,9 @@
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
   "latest_report": "podstawowy/raporty/etap-4x116-proba40-jakosc-dystraktorow-2026-10-28.md",
-  "latest_sample": "podstawowy/raporty/etap-4x116-wykluczenia-proby.json",
-  "latest_sample_seed": 41162026,
-  "latest_sample_count": 40,
+  "latest_sample": "podstawowy/raporty/etap-4x117-wykluczenia-proby.json",
+  "latest_sample_seed": 41172026,
+  "latest_sample_count": 26,
   "stage4x109": {
     "date": "2026-10-28",
     "sample_size": 40,
@@ -703,8 +703,8 @@
     "sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
     "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
   },
-  "latest_editorial_stage": "4x116",
-  "latest_editorial_report": "podstawowy/raporty/etap-4x116-proba40-jakosc-dystraktorow-2026-10-28.md",
+  "latest_editorial_stage": "4x117",
+  "latest_editorial_report": "podstawowy/raporty/etap-4x117-proba26-dystraktory-sync-2026-10-28.md",
   "stage4x112": {
     "source_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
     "sample_size": 40,
@@ -825,5 +825,31 @@
     "exam_key_remapping_checked": [
       "ADR-B-0489"
     ]
+  },
+  "stage4x117": {
+    "source_bank_blob_sha": "30b9212b2feff4232440416c9ab4052e93cc1f4a",
+    "selection_source_bank_blob_sha": "ed7e1842d6f15d1ecde54ea3319d9efe3ef7a728",
+    "sample_size": 26,
+    "seed": 41172026,
+    "report": "podstawowy/raporty/etap-4x117-proba26-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x117-wykluczenia-proby.json",
+    "questions_changed": [
+      "ADR-B-0028",
+      "ADR-B-0054",
+      "ADR-B-0354",
+      "ADR-B-0492",
+      "ADR-B-0535"
+    ],
+    "distractors_rewritten": 10,
+    "explanations_rewritten": 5,
+    "scenarios_checked": 39,
+    "lessons_checked": 13,
+    "exam_variants_checked": 5,
+    "exam_keys_checked": 5,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 72,
+    "strictly_longest_rate": 0.1182,
+    "verification_status": "needs_review",
+    "legal_review_pending": true
   }
 }
