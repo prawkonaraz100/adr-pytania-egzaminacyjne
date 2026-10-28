@@ -7,8 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASIC = ROOT / "podstawowy"
-REPORT = BASIC / "raporty" / "etap-4x115-proba40-dystraktory-sync-2026-10-28.md"
-SAMPLE = BASIC / "raporty" / "etap-4x115-wykluczenia-proby.json"
+REPORT = BASIC / "raporty" / "etap-4x116-proba40-jakosc-dystraktorow-2026-10-28.md"
+SAMPLE = BASIC / "raporty" / "etap-4x116-wykluczenia-proby.json"
 MANIFEST = ROOT / "review" / "specialist" / "PAKIET-0609-MANIFEST.json"
 
 
@@ -54,8 +54,8 @@ class CurrentSnapshotTests(unittest.TestCase):
         self.assertTrue(set(sample["sample_ids"]).isdisjoint(excluded))
         self.assertEqual(sample["excluded_distinct_ids"], len(excluded))
         self.assertEqual(sample["candidate_pool_size"], len(bank) - len(excluded))
-        self.assertIn("4x103–4x108", sample["limitation"])
-        self.assertIn("nie dowodzi disjointness", sample["limitation"])
+        self.assertIn("4x103–4x106", sample["limitation"])
+        self.assertIn("nie dowodzi pełnej rozłączności", sample["limitation"])
         self.assertEqual(len(bank), 609)
         self.assertEqual(len(by_id), 609)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in bank))
