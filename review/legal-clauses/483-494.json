@@ -437,20 +437,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Tak, zawsze. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 7.5.2.1 uwaga 1; 5.4.1.4.2 w opisanym scenariuszu."
+          "rationale": "Dokumenty nie zmieniają fizycznego wspólnego załadunku; zakaz nadal obowiązuje."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Tak, jeśli kierowca ma telefon do nadawcy. Nie spełnia wyjątku, limitu lub zakazu wskazanego przez ADR 7.5.2.1 uwaga 1; 5.4.1.4.2 w opisanym scenariuszu."
+          "rationale": "Ustna zgoda nadawcy nie tworzy wyjątku od wymagań ADR."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Uwaga o odrębnych dokumentach dla niezgodnych przesyłek nie ustanawia wyjątku od zakazu umieszczania ich w jednym pojeździe."
+          "rationale": "Odrębne dokumenty nie znoszą zakazu wspólnego załadunku."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne.",
-      "editorial_result": "pending_specialist_review",
+      "notes_on_conditions": "Wymagane indywidualne zbadanie wyjątków w pełnej polskiej publikacji i niezależna recenzja ADR; wyniki tylko redakcyjne. Etap 4x117: dystraktory zredagowano; klucz i podstawa prawna bez zmian; niezależna recenzja specjalisty nadal wymagana.",
+      "editorial_result": "distractors_rephrased_4x117; correct key and legal basis unchanged; specialist review pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -459,12 +459,12 @@
         "module_id": "ADR-B-09",
         "stem": "Dwie przesyłki nie mogą zostać załadowane razem na podstawie ADR 7.5.2. Czy wystawienie dwóch oddzielnych dokumentów przewozowych znosi zakaz?",
         "options": {
-          "A": "Tak; oddzielny dokument zawsze pozwala załadować przesyłki razem",
-          "B": "Tak; wystarczy, że kierowca ma kontakt telefoniczny z nadawcą",
+          "A": "Rozdzielić przesyłki tylko w dokumentach, ale pozostawić je razem w pojeździe.",
+          "B": "Uzyskać telefoniczne potwierdzenie od nadawcy i na tej podstawie wspólnie załadować przesyłki.",
           "C": "Nie; dwa dokumenty nie znoszą zakazu wspólnego załadunku z ADR"
         },
         "correct_option": "C",
-        "explanation": "Dwa osobne dokumenty przewozowe nie pozwalają umieścić razem przesyłek, których wspólny załadunek jest zakazany. Dokumenty opisują przewóz, ale nie znoszą wymagań dotyczących zgodności towarów. Telefon do nadawcy również nie tworzy wyjątku; trzeba rozdzielić przesyłki albo zastosować inne zgodne rozwiązanie. Podstawa: ADR 7.5.2.1, uwaga 1, oraz 5.4.1.4.2.",
+        "explanation": "Zakaz wspólnego załadunku dotyczy rzeczywistego umieszczenia przesyłek razem, a nie tego, ile dokumentów wystawiono. Rozdzielenie dokumentów lub telefoniczna zgoda nadawcy nie tworzy wyjątku od ADR. Trzeba rozdzielić przesyłki albo wybrać inne rozwiązanie, które rzeczywiście spełnia wymagania. Podstawa: ADR 7.5.2.1, uwaga 1, oraz 5.4.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
