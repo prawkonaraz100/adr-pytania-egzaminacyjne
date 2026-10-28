@@ -2,13 +2,14 @@
 
 ## Ostatnia kontrola jakości
 
-- [Etap 4x135 — audyt głębokości kompetencji i nowe pytania 0610–0620](raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md): 11 nowych pytań sytuacyjnych, 53 kompetencje z 3–4 pytaniami przesiane pod kątem różnorodności; bank 620 pytań.
+- [Etap 4x135 — kontynuacja pogłębienia kompetencji 0621–0628](raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md): 8 nowych pytań sytuacyjnych; bank 628 pytań.
+- [Etap 4x135 — audyt głębokości kompetencji i pytania 0610–0620](raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md): wcześniejsza partia 11 pytań.
 - [Etap 4x135 — lista ID i wyłączenia partii](raporty/etap-4x135-wykluczenia-proby.json)
 
 - [Etap 4x132 — pakiet recenzyjny i instrukcja egzaminu](raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md): odświeżono listę kontrolną specjalisty i dodano instrukcję do egzaminu próbnego.
 - [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md): przejrzano pytania ADR-B-0586–0609; poprawiono jedną niespójność redakcyjną; 39 scenariuszy i 13 lekcji bez brakujących/błędnych referencji.
 
-**Stan na 28.10.2026, etap 4x135: 620 pytań roboczych; 620 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 69/620 = 11,13% (maksimum działu 13,95%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 29.10.2026, etap 4x135: 628 pytań roboczych; 628 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 70/628 = 11,15% (maksimum działu 13,95%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -17,7 +18,8 @@
 
 ## Raporty jakości
 
-- [Etap 4x135 — audyt głębokości kompetencji i nowe pytania 0610–0620](raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md)
+- [Etap 4x135 — kontynuacja 0621–0628](raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md)
+- [Etap 4x135 — audyt głębokości kompetencji 0610–0620](raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md)
 - [Etap 4x135 — lista ID i wyłączenia partii](raporty/etap-4x135-wykluczenia-proby.json)
 - [Etap 4x132 — pakiet recenzyjny i instrukcja egzaminu](raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md)
 - [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md)
