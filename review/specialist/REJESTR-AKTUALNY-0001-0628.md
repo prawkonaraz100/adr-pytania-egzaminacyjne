@@ -735,15 +735,15 @@ Przed ewentualną zmianą statusu specjalista powinien sprawdzić pełny tekst A
 
 Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Porównać treść pytania, każdą odpowiedź A/B/C i explanation z pełnym polskim tekstem ADR 2025, Dz.U. 2025 poz. 642, ze sprostowaniem poz. 1575.
 
-| ID | Dział | Kompetencja | Pytanie | Klucz roboczy | Referencja ADR 2025 | Literalne PL | Status |
-|---|---|---|---|---|---|---|---|
-| ADR-B-0621 | ADR-B-02 | ADR-B-02-K05 | Na przesyłce znajduje się nalepka klasy 4.2. Jakie zagrożenie wskazuje ta klasa? | A | ADR 2025, 2.2.42.1.1 | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0622 | ADR-B-02 | ADR-B-02-K08 | Kierowca ma przewieźć towar oznaczony jako klasa 5.2. Co powinien rozpoznać z tego oznaczenia? | B | ADR 2025, 2.2.52.1.1; 2.2.52.1.4 | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0623 | ADR-B-02 | ADR-B-02-K09 | Dokument przewozowy wskazuje towar klasy 6.1. Które zagrożenie jest związane z tą klasą? | C | ADR 2025, 2.2.61.1.1 | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0624 | ADR-B-02 | ADR-B-02-K11 | Na przesyłce znajduje się oznakowanie klasy 7. Co powinien z niego wywnioskować kierowca? | A | ADR 2025, 2.2.7.1.1 | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0625 | ADR-B-02 | ADR-B-02-K12 | Co oznacza oznakowanie przesyłki jako klasa 8? | B | ADR 2025, 2.2.8.1.1 | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0626 | ADR-B-05 | ADR-B-05-K11 | Po wypadku kierowca widzi poszkodowanego obok rozlewu, a w powietrzu czuć drażniące opary. Co powinien zrobić najpierw? | C | ADR 2025, 5.4.3.4, instrukcje pisemne | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0627 | ADR-B-06 | ADR-B-06-K02 | Przed wyjazdem kierowca sprawdza przesyłkę i widzi, że brakuje nalepki zagrożenia dodatkowego wymaganej dla danego towaru. Co powinien zrobić? | A | ADR 2025, 3.2 tabela A, kolumna 5; 5.2.2.1.1 | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0628 | ADR-B-09 | ADR-B-09-K02 | Podczas przygotowania ładunku pasy nie pozwalają przesyłkom przesuwać się, ale jeden z pasów mocno wgniata opakowanie. Co powinien zrobić kierowca? | B | ADR 2025, 7.5.7.1 | NIEROZSTRZYGNIĘTE | needs_review |
+| ID | Dział | Kompetencja | Pytanie | Klucz roboczy | Referencja ADR 2025 | Image | Literalne PL | Status |
+|---|---|---|---|---|---|---|---|---|
+| ADR-B-0621 | ADR-B-02 | ADR-B-02-K05 | Na przesyłce znajduje się nalepka klasy 4.2. Jakie zagrożenie wskazuje ta klasa? | A | ADR 2025, 2.2.42.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0622 | ADR-B-02 | ADR-B-02-K08 | Kierowca ma przewieźć towar oznaczony jako klasa 5.2. Co powinien rozpoznać z tego oznaczenia? | B | ADR 2025, 2.2.52.1.1 i 2.2.52.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0623 | ADR-B-02 | ADR-B-02-K09 | Dokument przewozowy wskazuje towar klasy 6.1. Które zagrożenie jest związane z tą klasą? | C | ADR 2025, 2.2.61.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0624 | ADR-B-02 | ADR-B-02-K11 | Na przesyłce znajduje się oznakowanie klasy 7. Co powinien z niego wywnioskować kierowca? | A | ADR 2025, 2.2.7.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0625 | ADR-B-02 | ADR-B-02-K12 | Co oznacza oznakowanie przesyłki jako klasa 8? | B | ADR 2025, 2.2.8.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0626 | ADR-B-05 | ADR-B-05-K11 | Po wypadku kierowca widzi poszkodowanego obok rozlewu, a w powietrzu czuć drażniące opary. Co powinien zrobić najpierw? | C | ADR 2025, 5.4.3.4, instrukcje pisemne | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0627 | ADR-B-06 | ADR-B-06-K02 | Przed wyjazdem kierowca sprawdza przesyłkę i widzi, że brakuje nalepki zagrożenia dodatkowego wymaganej dla danego towaru. Co powinien zrobić? | A | ADR 2025, 3.2 tabela A, kolumna 5; 5.2.2.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0628 | ADR-B-09 | ADR-B-09-K02 | Podczas przygotowania ładunku pasy nie pozwalają przesyłkom przesuwać się, ale jeden z pasów mocno wgniata opakowanie. Co powinien zrobić kierowca? | B | ADR 2025, 7.5.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 Bank bieżący: 628 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `7f604f8a1b3aead06c77b4d56b319917f11f0dba`.
