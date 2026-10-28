@@ -300,11 +300,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Po korekcie długości wariantu B: „Pominąć informację o pozostałościach, ponieważ pojemnik został już opróżniony.”. Dystraktor nadal nie spełnia warunku opisanego w ADR 2025, 5.4.1.1.6.1; wymagane ostateczne sprawdzenie szczególnego warunku przez specjalistę."
+          "rationale": "Samo określenie pojemnika jako pustego pomija informację o pozostałościach i ostatniej zawartości, gdy wymaga jej ADR."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Numer magazynowy nie zastępuje wymaganych informacji ADR o pustym nieoczyszczonym środku."
+          "rationale": "Właściwy opis musi uwzględniać nieoczyszczony stan pojemnika i ostatnią zawartość, a nie tylko słowo „pusty”."
         }
       },
       "observed_answer_key": "A",
@@ -320,7 +320,7 @@
         "options": {
           "A": "Dodać określenie pusty, nieoczyszczony lub pozostałość po zawartości",
           "B": "Pominąć pozostałości w dokumencie, ponieważ pojemnik został już opróżniony",
-          "C": "Zastąpić opis materiału numerem magazynowym przypisanym do pojemnika"
+          "C": "Wpisać tylko, że pojemnik jest pusty, bez wskazania ostatniej zawartości."
         },
         "correct_option": "A",
         "explanation": "Pojemnik opróżniony, lecz nieoczyszczony, nadal może zawierać niebezpieczne pozostałości. W dokumencie trzeba więc użyć właściwego określenia, np. „PUSTY, NIEOCZYSZCZONY” albo „POZOSTAŁOŚĆ PO OSTATNIEJ ZAWARTOŚCI”, zależnie od sytuacji. Sam fakt opróżnienia nie usuwa zagrożenia, a numer magazynowy nie zastępuje opisu ADR. Podstawa: ADR 5.4.1.1.6.1.",
