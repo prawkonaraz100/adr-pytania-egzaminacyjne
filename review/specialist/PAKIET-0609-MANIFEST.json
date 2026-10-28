@@ -1,5 +1,5 @@
 {
-  "stage": "stage4x114_sample40_distractors_exam_sync",
+  "stage": "stage4x115_sample40_distractors_exam_sync",
   "snapshot_date": "2026-10-28",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
@@ -309,7 +309,7 @@
     },
     "not_verified_warning": "All 609 questions remain needs_review. A targeted comparison result does not constitute verified status."
   },
-  "current_bank_blob_sha": "04d7246d074d6f12fc46e91b4b47fc0e2364f0f0",
+  "current_bank_blob_sha": "5d902f8ceae765eb7cd2da1a89982667f01d7ce5",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -596,7 +596,7 @@
     "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
     "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
     "queue_count": 20,
-    "source_bank_blob_sha": "04d7246d074d6f12fc46e91b4b47fc0e2364f0f0",
+    "source_bank_blob_sha": "5d902f8ceae765eb7cd2da1a89982667f01d7ce5",
     "source_missing_quote_ids": 121,
     "unresolved_literal_comparisons": 376,
     "legal_review_status": "pending",
@@ -606,7 +606,7 @@
   },
   "secondary_priority_legal_review_queue": {
     "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
-    "source_bank_blob_sha": "04d7246d074d6f12fc46e91b4b47fc0e2364f0f0",
+    "source_bank_blob_sha": "5d902f8ceae765eb7cd2da1a89982667f01d7ce5",
     "queue_count": 20,
     "full_missing_quote_count": 121,
     "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
@@ -672,9 +672,9 @@
     "status": "needs_review",
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
-  "latest_report": "podstawowy/raporty/etap-4x114-proba40-dystraktory-sync-2026-10-28.md",
-  "latest_sample": "podstawowy/raporty/etap-4x114-wykluczenia-proby.json",
-  "latest_sample_seed": 41142026,
+  "latest_report": "podstawowy/raporty/etap-4x115-proba40-dystraktory-sync-2026-10-28.md",
+  "latest_sample": "podstawowy/raporty/etap-4x115-wykluczenia-proby.json",
+  "latest_sample_seed": 41152026,
   "latest_sample_count": 40,
   "stage4x109": {
     "date": "2026-10-28",
@@ -700,8 +700,8 @@
     "sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
     "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
   },
-  "latest_editorial_stage": "4x114",
-  "latest_editorial_report": "podstawowy/raporty/etap-4x114-proba40-dystraktory-sync-2026-10-28.md",
+  "latest_editorial_stage": "4x115",
+  "latest_editorial_report": "podstawowy/raporty/etap-4x115-proba40-dystraktory-sync-2026-10-28.md",
   "stage4x112": {
     "source_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
     "sample_size": 40,
@@ -752,6 +752,35 @@
     ],
     "distractors_rewritten": 9,
     "explanations_rewritten": 6,
+    "correct_letters_changed": 0,
+    "scenarios_checked": 39,
+    "lessons_checked": 13,
+    "exam_variants_checked": 5,
+    "exam_keys_checked": 5,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 73,
+    "strictly_longest_rate": 0.1199,
+    "verification_status": "needs_review",
+    "legal_review_pending": true
+  },
+  "stage4x115": {
+    "source_bank_blob_sha": "5d902f8ceae765eb7cd2da1a89982667f01d7ce5",
+    "sample_size": 40,
+    "seed": 41152026,
+    "report": "podstawowy/raporty/etap-4x115-proba40-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x115-wykluczenia-proby.json",
+    "questions_changed": [
+      "ADR-B-0065",
+      "ADR-B-0185",
+      "ADR-B-0217",
+      "ADR-B-0264",
+      "ADR-B-0318",
+      "ADR-B-0340",
+      "ADR-B-0424",
+      "ADR-B-0446"
+    ],
+    "distractors_rewritten": 16,
+    "explanations_rewritten": 8,
     "correct_letters_changed": 0,
     "scenarios_checked": 39,
     "lessons_checked": 13,
