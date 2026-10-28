@@ -75,6 +75,9 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+### Ćwiczenie: zapach przy pojeździe po awarii
+Kierowca po zatrzymaniu na poboczu czuje nieznany zapach, a inni kierowcy podchodzą pomóc. **Kolejne decyzje:** (1) nie próbuje rozpoznać substancji przez wąchanie; (2) ostrzega ludzi z bezpiecznej odległości; (3) wzywa pomoc i podaje miejsce oraz widoczne okoliczności; (4) przekazuje sprawdzone informacje o ładunku z dokumentów, bez zgadywania. **Dlaczego:** zbliżenie się do oparów i improwizowana interwencja mogą narazić kolejne osoby. Pytania: `ADR-B-0106`, `ADR-B-0220`, `ADR-B-0594`; scenariusz `SC-ADR-B-05-02`. Podstawa: ADR 5.4.3.4.
+
 ## Co musisz zapamiętać
 - Nie narażaj siebie, aby ratować ładunek.
 - Ostrzeż innych, wezwij pomoc i podawaj sprawdzone informacje.
