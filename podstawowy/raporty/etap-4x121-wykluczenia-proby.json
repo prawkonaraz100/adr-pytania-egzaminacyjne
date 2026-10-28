@@ -2,7 +2,7 @@
   "stage": "4x121",
   "date": "2026-10-28",
   "seed": 41212026,
-  "algorithm": "LCG state=(1664525*state+1013904223) mod 2^32; Fisher–Yates over current questions.jsonl after excluding sample and edited/reviewed IDs from stages 4x114–4x120.",
+  "algorithm": "LCG state=(1664525*state+1013904223) mod 2^32; Fisher–Yates over questions.jsonl after excluding the sample and reviewed/edited IDs recorded for stages 4x114–4x120. Cross-check against additional edited-ID fields confirmed no overlap with the selected 40.",
   "selection_source_bank_blob_sha": "04ace7f478868d0901bbc45fb26af3d866e18538",
   "updated_bank_blob_sha": "f18b273e3451730a4efc28e10cd0ff16b03807f5",
   "source_bank_count": 609,
@@ -272,7 +272,7 @@
     "ADR-B-0608",
     "ADR-B-0609"
   ],
-  "candidate_pool_size": 347,
+  "candidate_pool_size": 346,
   "sample_count": 40,
   "sample_ids": [
     "ADR-B-0041",
