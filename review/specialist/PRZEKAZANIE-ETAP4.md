@@ -1,10 +1,10 @@
 ## Bieżąca migawka — etap 4x109 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `6fef1127a79f460a883a09df26e3d5010b909a3b`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `6fd194bfc51ff19c38e4dee598a9fae499e953a3`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
 - Próbka 40, seed `41092026`; pula po wykluczeniu 263 jawnych ID z rejestru 4x108: 346. Raport: `podstawowy/raporty/etap-4x109-proba40-spojnosc-scenariusze-egzaminy-2026-10-28.md`; manifest próbki: `podstawowy/raporty/etap-4x109-wykluczenia-proby.json`.
-- Urealniono dystraktory i dopasowano explanation w ADR-B-0194, ADR-B-0575 i ADR-B-0083; ID, poprawne litery i statusy pozostały bez zmian. Zmieniono aspekt pytania ADR-B-0194, by odróżnić je od ADR-B-0053.
-- Wykryto i poprawiono wyjaśnienie klucza wariantu 001 dla ADR-B-0489, które odnosiło się do liter banku zamiast liter po przestawieniu opcji w arkuszu. Wariant 005 i klucz 005 zsynchronizowano z nowym brzmieniem ADR-B-0575.
+- Urealniono dystraktory i dopasowano explanation w ADR-B-0194, ADR-B-0575, ADR-B-0083 i ADR-B-0561; ID, poprawne litery i statusy pozostały bez zmian. Zmieniono aspekt pytania ADR-B-0194, by odróżnić je od ADR-B-0053.
+- Wstępne porównanie ciągów zgłosiło pozorną różnicę w ADR-B-0489; po prawidłowym mapowaniu liter potwierdzono, że klucz 001 był zgodny i nie wymagał zmiany merytorycznej. Wariant 005 i klucz 005 zsynchronizowano z nowym brzmieniem ADR-B-0575.
 - Metryki: A=206, B=207, C=196; „poprawna = jedyna najdłuższa” 72/609 = 11,82%, maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
 - Lekcje: 13/13 odwołań do właściwego działu; scenariusze: 39/39 z co najmniej 3 krokami i poprawnymi referencjami do pytań.
 - Egzaminy 001–005: po 30 unikalnych pytań, rozkład A/B/C 10/10/10, maksymalna seria 3; po korekcie klucza 001 brak rozbieżności treści klucza z wariantem.
