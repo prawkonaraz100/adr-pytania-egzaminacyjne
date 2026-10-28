@@ -1048,15 +1048,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Sama plandeka nie daje zgody na przewóz luzem."
+          "rationale": "Błędne: osłona i zabezpieczenie przed pyleniem nie upoważniają do przewozu luzem, jeśli ADR nie dopuszcza tej metody dla towaru."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Stan stały i decyzja kierowcy nie zastępują upoważnienia."
+          "rationale": "Błędne: sam fakt, że materiał jest stały, nie oznacza dopuszczenia do przewozu luzem."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Bez kodu BK/VC lub wyraźnego odesłania do punktu brak ogólnej zgody na bulk."
+          "rationale": "Prawidłowe: przewóz luzem wymaga wyraźnej podstawy w ADR dla konkretnego towaru."
         }
       },
       "observed_answer_key": "C",
@@ -1068,14 +1068,14 @@
       "question_snapshot": {
         "id": "ADR-B-0173",
         "module_id": "ADR-B-09",
-        "stem": "Dla danego towaru nie znaleziono w kolumnach 10 i 17 tabeli A ani kodu BK/VC, ani wyraźnego odesłania dopuszczającego przewóz luzem. Co wynika z ADR 7.3.1.1?",
+        "stem": "W kolumnie 17 tabeli A nie znaleziono kodu BK/VC ani wyraźnego odesłania dopuszczającego przewóz luzem. Co wynika z ADR 7.3.1.1?",
         "options": {
           "A": "Wystarczy szczelna plandeka i zabezpieczenie przed pyleniem",
           "B": "Kierowca może wybrać przewóz luzem, jeśli materiał jest stały",
           "C": "Nie, brak wskazania w ADR oznacza brak podstawy do przewozu luzem"
         },
         "correct_option": "C",
-        "explanation": "Przewóz luzem wolno zastosować tylko wtedy, gdy ADR wyraźnie dopuszcza taką metodę dla konkretnego towaru. Jeśli w tabeli A nie ma odpowiedniego kodu BK, VC ani szczególnego odesłania, nie można samodzielnie uznać przewozu luzem za dozwolony. Szczelna plandeka ani zgoda kierowcy nie zastępują przepisu; istnieją też odrębne reguły dla pustych opakowań. Podstawa: ADR 7.3.1.1.",
+        "explanation": "Przewóz luzem wolno zastosować tylko wtedy, gdy ADR wyraźnie dopuszcza tę metodę dla konkretnego towaru. Jeśli w kolumnie 17 tabeli A nie ma odpowiedniego kodu BK/VC ani szczególnego odesłania, kierowca nie może sam uznać, że przewóz luzem jest dozwolony. Szczelna plandeka ani fakt, że materiał jest stały, nie zastępują wymaganej podstawy w ADR. Podstawa: ADR 7.3.1.1 oraz 3.2, tabela A, kolumna 17.",
         "sources": [
           {
             "code": "ADR-2025-PL",

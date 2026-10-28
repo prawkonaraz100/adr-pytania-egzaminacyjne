@@ -7,8 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASIC = ROOT / "podstawowy"
-REPORT = BASIC / "raporty" / "etap-4x124-proba25-spojnosc-2026-10-28.md"
-SAMPLE = BASIC / "raporty" / "etap-4x124-wykluczenia-proby.json"
+REPORT = BASIC / "raporty" / "etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md"
+SAMPLE = BASIC / "raporty" / "etap-4x125-wykluczenia-proby.json"
 MANIFEST = ROOT / "review" / "specialist" / "PAKIET-0609-MANIFEST.json"
 
 
@@ -45,7 +45,8 @@ class CurrentSnapshotTests(unittest.TestCase):
         by_id = {row["id"]: row for row in bank}
         sample = json.loads(SAMPLE.read_text(encoding="utf-8"))
         manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-        self.assertEqual(sample["source_bank_blob_sha"], bank_sha)
+        self.assertEqual(sample["selection_source_bank_blob_sha"], "ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6")
+        self.assertEqual(sample["updated_bank_blob_sha"], bank_sha)
         self.assertEqual(manifest["current_bank_blob_sha"], bank_sha)
         self.assertEqual(len(sample["sample_ids"]), sample["sample_count"])
         self.assertEqual(len(set(sample["sample_ids"])), sample["sample_count"])
