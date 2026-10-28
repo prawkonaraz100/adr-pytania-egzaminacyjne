@@ -597,7 +597,7 @@
     "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
     "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
     "queue_count": 20,
-    "source_bank_blob_sha": "5d3bb481e372a45c89b30812841e76e9d91d542f",
+    "source_bank_blob_sha": "dd247b2a1fe219c6b0a4643755c7cc820b842eeb",
     "source_missing_quote_ids": 121,
     "unresolved_literal_comparisons": 376,
     "legal_review_status": "pending",
@@ -607,7 +607,7 @@
   },
   "secondary_priority_legal_review_queue": {
     "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
-    "source_bank_blob_sha": "5d3bb481e372a45c89b30812841e76e9d91d542f",
+    "source_bank_blob_sha": "dd247b2a1fe219c6b0a4643755c7cc820b842eeb",
     "queue_count": 20,
     "full_missing_quote_count": 121,
     "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
@@ -938,7 +938,7 @@
     "formal_approval": false
   },
   "stage4x122": {
-    "source_bank_blob_sha": "5d3bb481e372a45c89b30812841e76e9d91d542f",
+    "source_bank_blob_sha": "dd247b2a1fe219c6b0a4643755c7cc820b842eeb",
     "selection_source_bank_blob_sha": "f18b273e3451730a4efc28e10cd0ff16b03807f5",
     "sample_size": 40,
     "seed": 41222026,
@@ -972,35 +972,18 @@
     ]
   },
   "stage4x123": {
-    "source_bank_blob_sha": "dd247b2a1fe219c6b0a4643755c7cc820b842eeb",
-    "selection_source_bank_blob_sha": "5d3bb481e372a45c89b30812841e76e9d91d542f",
-    "sample_size": 40,
-    "seed": 41232026,
-    "excluded_count": 544,
-    "candidate_pool_size": 65,
     "report": "podstawowy/raporty/etap-4x123-proba40-explanations-dystraktory-sync-2026-10-28.md",
-    "manifest": "podstawowy/raporty/etap-4x123-wykluczenia-proby.json",
-    "questions_changed": [
+    "sample_manifest": "podstawowy/raporty/etap-4x123-wykluczenia-proby.json",
+    "source_bank_blob_sha": "dd247b2a1fe219c6b0a4643755c7cc820b842eeb",
+    "changed_ids": [
       "ADR-B-0024",
       "ADR-B-0166",
-      "ADR-B-0326",
-      "ADR-B-0361",
       "ADR-B-0385",
-      "ADR-B-0387"
-    ],
-    "distractors_revised": 11,
-    "explanations_rewritten": 6,
-    "followups_outside_sample": [
+      "ADR-B-0387",
       "ADR-B-0326",
       "ADR-B-0361"
     ],
-    "strictly_longest_correct": 69,
-    "strictly_longest_rate": 0.1133,
-    "maximum_module_rate": 0.1395,
-    "minimum_explanation_characters": 300,
-    "explanations_under_200": 0,
     "verification_status": "needs_review",
-    "legal_review_pending": true,
-    "review_scope": "editorial_first_pass_only_not_legally_approved"
+    "formal_approval": false
   }
 }
