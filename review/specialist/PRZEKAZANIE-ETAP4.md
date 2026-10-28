@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x119 (28.10.2026)
+
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `35549752d913c85daf1fc3c9492d9c04fce777a1`.
+- Raport: `podstawowy/raporty/etap-4x119-proba40-spojnosc-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x119-wykluczenia-proby.json`.
+- Próbka: 40 ID, seed `41192026`, wykluczenia względem etapów 4x114–4x118 oraz 7 ID odzyskanych z zamkniętego PR #579.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 11,82% globalnie; maksimum działu 14,29%; explanation minimum 300 znaków.
+- PR #579 zamknięto bez scalania; 7 unikalnych zmian redakcyjnych przeniesiono na świeżą gałąź, zaktualizowano migawki audytu i źródło banku w egzaminach. Brak zmian poprawnych liter. Niezależna recenzja prawna nadal oczekuje.
+
 ## Bieżąca migawka — etap 4x118
 
 - Raport: [pozostała próbka 25, dystraktory i synchronizacja](../../podstawowy/raporty/etap-4x118-proba25-dystraktory-sync-2026-10-28.md) (28.10.2026).

@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x119 (28.10.2026)
+
+- Bank blob SHA: `35549752d913c85daf1fc3c9492d9c04fce777a1`; 609 pytań, wszystkie `needs_review`, 0 `verified`.
+- Raport redakcyjny: `podstawowy/raporty/etap-4x119-proba40-spojnosc-2026-10-28.md`; manifest próby: `podstawowy/raporty/etap-4x119-wykluczenia-proby.json`.
+- Próbka 40 (seed `41192026`) spełniła kryteria redakcyjne; 7 unikalnych zmian z zamkniętego PR #579 przeniesiono do banku i migawek audytu. Pełna recenzja prawna pozostaje otwarta.
+
 ## Bieżąca migawka — etap 4x118
 
 - Raport: [pozostała próbka 25, dystraktory i synchronizacja](../../podstawowy/raporty/etap-4x118-proba25-dystraktory-sync-2026-10-28.md) (28.10.2026).
