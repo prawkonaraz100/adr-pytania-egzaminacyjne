@@ -1095,15 +1095,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Kod (-) oznacza brak przypisanego ograniczenia tunelowego ADR."
+          "rationale": "Poprawna: kod (-) oznacza brak ograniczenia tunelowego wynikającego z kodu ADR dla tej pozycji."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Inne znaki drogowe nadal obowiązują, więc nie ma bezwarunkowej zgody."
+          "rationale": "Błędna: mała ilość nie pozwala ignorować znaków drogowych ani innych ograniczeń."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "(-) nie jest całkowitym zakazem tuneli."
+          "rationale": "Błędna: kod (-) nie oznacza ograniczenia tylko do tuneli kategorii E."
         }
       },
       "observed_answer_key": "A",
@@ -1118,11 +1118,11 @@
         "stem": "Dla towaru w kolumnie 15 tabeli A widnieje kod tunelowy (-). Jakie znaczenie ma ten zapis?",
         "options": {
           "A": "Kod (-) oznacza brak ograniczenia tunelowego ADR dla tego towaru",
-          "B": "Kod pozwala zignorować znak zakazu dla tunelu kategorii E, jeśli ładunek jest mały",
-          "C": "Kod zakazuje wjazdu do tuneli od kategorii A do E"
+          "B": "Kod (-) pozwala pominąć zakaz tunelu przy małej ilości ładunku",
+          "C": "Kod (-) dotyczy tylko tuneli kategorii E; inne trzeba sprawdzić osobno"
         },
         "correct_option": "A",
-        "explanation": "Kod tunelowy „(-)” oznacza brak ograniczenia tunelowego wynikającego z kodu ADR przypisanego do tej pozycji. Nie zwalnia to kierowcy z przestrzegania znaków drogowych ani innych ograniczeń obowiązujących na trasie. Zapis nie jest więc zgodą na ignorowanie zakazów i nie oznacza zakazu wjazdu do wszystkich tuneli, dlatego B i C są błędne. Podstawa: ADR 8.6.3.1.",
+        "explanation": "Kod tunelowy „(-)” oznacza brak ograniczenia tunelowego wynikającego z kodu ADR przypisanego do danej pozycji towaru. Nie daje jednak prawa do ignorowania znaków drogowych ani innych ograniczeń na trasie, nawet przy małej ilości ładunku. Nie oznacza też, że należy sprawdzać wyłącznie tunele kategorii E. Podstawa: ADR 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",

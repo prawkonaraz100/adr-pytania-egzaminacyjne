@@ -1,5 +1,5 @@
 {
-  "stage": "stage4x111_sample40_distractors_exam_sync",
+  "stage": "stage4x112_sample40_distractors_exam_sync",
   "snapshot_date": "2026-10-28",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
@@ -309,7 +309,7 @@
     },
     "not_verified_warning": "All 609 questions remain needs_review. A targeted comparison result does not constitute verified status."
   },
-  "current_bank_blob_sha": "a0d901b67548cd9ae66eeb8fa09b7c8264640e3c",
+  "current_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -596,7 +596,7 @@
     "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
     "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
     "queue_count": 20,
-    "source_bank_blob_sha": "a0d901b67548cd9ae66eeb8fa09b7c8264640e3c",
+    "source_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
     "source_missing_quote_ids": 121,
     "unresolved_literal_comparisons": 376,
     "legal_review_status": "pending",
@@ -606,7 +606,7 @@
   },
   "secondary_priority_legal_review_queue": {
     "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
-    "source_bank_blob_sha": "a0d901b67548cd9ae66eeb8fa09b7c8264640e3c",
+    "source_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
     "queue_count": 20,
     "full_missing_quote_count": 121,
     "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
@@ -701,5 +701,22 @@
     "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
   },
   "latest_editorial_stage": "4x111",
-  "latest_editorial_report": "podstawowy/raporty/etap-4x111-proba40-dystraktory-sync-2026-10-28.md"
+  "latest_editorial_report": "podstawowy/raporty/etap-4x111-proba40-dystraktory-sync-2026-10-28.md",
+  "stage4x112": {
+    "source_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
+    "sample_size": 40,
+    "seed": 41122026,
+    "report": "podstawowy/raporty/etap-4x112-proba40-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x112-wykluczenia-proby.json",
+    "questions_changed": [
+      "ADR-B-0498",
+      "ADR-B-0525",
+      "ADR-B-0224",
+      "ADR-B-0110",
+      "ADR-B-0174",
+      "ADR-B-0207"
+    ],
+    "verification_status": "needs_review",
+    "legal_review_pending": true
+  }
 }
