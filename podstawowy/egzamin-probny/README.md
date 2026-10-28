@@ -1,3 +1,11 @@
+## Najnowsza synchronizacja — etap 4x130 (28.10.2026)
+
+- Aktualny blob banku: `36985d2be9667dad581f241d68f7df76ea47e0d5`.
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; minimum explanation 300 znaków.
+- Odtworzono arkusze i klucze 001–005 z aktualnych tekstów banku. Wszystkie 150 ID są unikalne między wariantami; każdy wariant ma 30 pytań z 13 działów, rozkład A/B/C 10/10/10 i maksymalną serię tej samej litery ≤3.
+- Każdy klucz ma aktualne poprawne litery, explanation i odnośnik do lekcji. Warianty pozostają wyłącznie do treningu wewnętrznego; nie są zatwierdzone do publikacji.
+- Raport: [Etap 4x130](../raporty/etap-4x130-praktyczne-decyzje-egzaminy-10-13-2026-10-28.md).
+
 ## Najnowsza synchronizacja — etap 4x122 (28.10.2026)
 
 - Aktualny blob banku: `5d3bb481e372a45c89b30812841e76e9d91d542f`.

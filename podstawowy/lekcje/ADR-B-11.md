@@ -71,6 +71,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+## Praktyka kierowcy — decyzje krok po kroku
+
+### Sytuacja 1: znak tunelu wskazuje ograniczenie
+1. Przed wyborem trasy odczytaj kod tunelowy z dokumentacji właściwego towaru, w tym z kolumny 15 tabeli A ADR.
+2. Odczytaj kategorię tunelu na znaku i porównaj ją z kodem oraz postacią przewozu.
+3. Jeśli przewóz jest objęty zakazem, nie wjeżdżaj do tunelu; wybierz dozwoloną trasę.
+4. Gdy na jednostce są towary z różnymi kodami, ustal regułę dla całego ładunku według ADR, zamiast wybierać kod według masy lub wygody.
+
+**Typowy błąd:** wybór najkrótszej trasy bez sprawdzenia ograniczenia. To błąd, ponieważ kategoria tunelu i kod towaru razem decydują o dopuszczalności przejazdu. Podstawa do sprawdzenia: ADR 3.2 tabela A, kolumna 15 oraz 8.6.3.
+Pytania do omówienia: ADR-B-0539, ADR-B-0592, ADR-B-0591, ADR-B-0487, ADR-B-0604.
+
 ## Co musisz zapamiętać
 - **Przewóz w LQ (ilościach ograniczonych)** także może podlegać ograniczeniom: jeśli jednostka wymaga oznakowania zgodnie z ADR 3.4.13, z uwzględnieniem 3.4.14, sprawdź ADR 8.6.3.3 i 8.6.4 przed wyborem tunelu kategorii E. Samo LQ nie gwarantuje możliwości wjazdu.
 - Kod tunelowy odczytuj z kolumny 15 tabeli A.

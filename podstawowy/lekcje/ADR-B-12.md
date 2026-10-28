@@ -74,6 +74,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+## Praktyka kierowcy — decyzje krok po kroku
+
+### Sytuacja 1: odbiorca nie potrafi potwierdzić uprawnienia
+1. Nie przekazuj ładunku tylko dlatego, że osoba zna numer zlecenia lub nazwę firmy.
+2. Sprawdź tożsamość i uprawnienie do odbioru zgodnie z procedurą przewoźnika i wymaganiami ochrony danego przewozu.
+3. Jeśli nadal są wątpliwości, wstrzymaj przekazanie i skontaktuj się z odpowiedzialną osobą bez ujawniania zbędnych informacji o ładunku.
+4. Gdy podejrzewasz naruszenie zabezpieczeń, nie konfrontuj samodzielnie osoby, jeśli mogłoby to stworzyć zagrożenie; zabezpiecz siebie i zgłoś zdarzenie.
+
+**Typowy błąd:** wydanie ładunku na podstawie samej znajomości numeru zlecenia. To błąd, ponieważ numer nie dowodzi, że dana osoba jest uprawniona do odbioru. Podstawa do sprawdzenia: ADR 1.10.1.4 i 1.10.3.2.
+Pytania do omówienia: ADR-B-0120, ADR-B-0304, ADR-B-0582, ADR-B-0414.
+
 ## Co musisz zapamiętać
 - Ochrona przewozu to nie to samo co mocowanie ładunku.
 - Sprawdź, czy przewóz wymaga planu ochrony.

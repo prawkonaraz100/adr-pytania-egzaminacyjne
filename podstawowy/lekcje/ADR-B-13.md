@@ -74,6 +74,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+## Praktyka kierowcy — decyzje krok po kroku
+
+### Sytuacja 1: brakuje danych w dokumencie przewozowym
+1. Przed odjazdem porównaj dokument z rzeczywistym ładunkiem i informacjami przekazanymi przez nadawcę.
+2. Sprawdź, czy opis towaru i wymagane dane są kompletne; nie zgaduj brakujących numerów ani nazw.
+3. Zgłoś rozbieżność odpowiedzialnemu uczestnikowi i wstrzymaj rozpoczęcie przewozu, dopóki dokument nie zostanie wyjaśniony i uzupełniony zgodnie z wymaganiami.
+4. Osobno sprawdź, czy instrukcje pisemne są w kabinie i czy cała załoga potrafi je czytać i rozumieć.
+
+**Typowy błąd:** dopisanie brakującej informacji z pamięci lub założenie, że instrukcje pisemne zastępują dokument przewozowy. To błąd, ponieważ dokument przewozowy identyfikuje ładunek, a instrukcje opisują działania załogi w razie zdarzenia. Podstawa do sprawdzenia: ADR 5.4.1.1.1 i 5.4.3.1–5.4.3.4.
+Pytania do omówienia: ADR-B-0508, ADR-B-0589, ADR-B-0601, ADR-B-0578, ADR-B-0587.
+
 ## Co musisz zapamiętać
 - Dokument przewozowy musi zawierać wymagane dane dla konkretnego towaru.
 - Nie zgaduj brakujących informacji; wyjaśnij je przed wyjazdem.
