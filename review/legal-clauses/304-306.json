@@ -101,19 +101,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Tylko faktura handlowa i polisa OC”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: W kabinie powinny znajdować się wymagane dokumenty przewozowe i instrukcje pisemne, a także dokument tożsamości ze zdjęciem członków załogi. Dodatkowe świadectwa lub zaświadczenia są potrzebne wtedy, gdy dotyczą konkretnego przewozu. Faktura i rozpiska godzin pracy nie zastępują dokumentów wskazanych w ADR. Podstawa: ADR 8.1.2.1–8.1.2.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Nieprawidłowe: nawet jeśli są dokument przewozowy i instrukcje, pominięto dokumenty tożsamości, gdy ADR ich wymaga."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Wyłącznie rozpiska godzin pracy”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: W kabinie powinny znajdować się wymagane dokumenty przewozowe i instrukcje pisemne, a także dokument tożsamości ze zdjęciem członków załogi. Dodatkowe świadectwa lub zaświadczenia są potrzebne wtedy, gdy dotyczą konkretnego przewozu. Faktura i rozpiska godzin pracy nie zastępują dokumentów wskazanych w ADR. Podstawa: ADR 8.1.2.1–8.1.2.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Nieprawidłowe: znajomość procedur przez kierowcę nie zastępuje instrukcji pisemnych wymaganych w pojeździe."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: W kabinie powinny znajdować się wymagane dokumenty przewozowe i instrukcje pisemne, a także dokument tożsamości ze zdjęciem członków załogi. Dodatkowe świadectwa lub zaświadczenia są potrzebne wtedy, gdy dotyczą konkretnego przewozu. Faktura i rozpiska godzin pracy nie zastępują dokumentów wskazanych w ADR. Podstawa: ADR 8.1.2.1–8.1.2.2. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Właściwe: zestaw obejmuje dokumenty przewozowe, instrukcje oraz inne dokumenty wymagane dla konkretnego przewozu."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wymóg musi mieć zastosowanie do przewożonego towaru i rodzaju przewozu; szczególne wyłączenia oraz polski urzędowy tekst i sprostowanie oczekują na literalną recenzję.",
+      "notes_on_conditions": "Wymóg musi mieć zastosowanie do przewożonego towaru i rodzaju przewozu; szczególne wyłączenia oraz polski urzędowy tekst i sprostowanie oczekują na literalną recenzję. Etap 4x122: zaktualizowano dystraktory i rationale; klucz bez zmian.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -122,12 +122,12 @@
         "module_id": "ADR-B-13",
         "stem": "Kierowca prowadzi przewóz ADR, dla którego wymagane są dokumenty przewidziane w 8.1.2. Który zestaw powinien znajdować się w kabinie?",
         "options": {
-          "A": "Tylko faktura handlowa i polisa OC",
-          "B": "Wyłącznie rozpiska godzin pracy",
+          "A": "Dokument przewozowy ADR i instrukcje pisemne, bez indywidualnych dokumentów tożsamości załogi",
+          "B": "Dokumenty przewozowe i dokument kierowcy, bez instrukcji pisemnych, jeśli kierowca zna procedury",
           "C": "Dokumenty przewozowe, instrukcje pisemne oraz wymagane dokumenty identyfikacyjne załogi; pozostałe zaświadczenia, jeśli mają zastosowanie"
         },
         "correct_option": "C",
-        "explanation": "W kabinie powinny znajdować się wymagane dokumenty przewozowe i instrukcje pisemne, a także dokument tożsamości ze zdjęciem członków załogi. Dodatkowe świadectwa lub zaświadczenia są potrzebne wtedy, gdy dotyczą konkretnego przewozu. Faktura i rozpiska godzin pracy nie zastępują dokumentów wskazanych w ADR. Podstawa: ADR 8.1.2.1–8.1.2.2.",
+        "explanation": "W kabinie muszą znajdować się dokumenty wymagane dla danego przewozu, w tym dokumenty przewozowe i instrukcje pisemne, a gdy wymaga tego ADR — także dokumenty identyfikacyjne członków załogi. Sam dokument przewozowy bez wymaganych dokumentów załogi nie wystarczy; znajomość procedur nie zastępuje instrukcji pisemnych. Dodatkowe zaświadczenia są potrzebne wtedy, gdy dotyczą konkretnego przewozu. Podstawa: ADR 8.1.2.1–8.1.2.2 oraz 1.10.1.4, gdy ma zastosowanie.",
         "sources": [
           {
             "code": "ADR-2025-PL",
