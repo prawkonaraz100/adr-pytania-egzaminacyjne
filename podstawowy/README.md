@@ -354,6 +354,9 @@ Raporty ETAPU 4x7
 
 ## Najnowsze raporty jakości
 
+- [Etap 4x130 — praktyczne decyzje B-10–B-13 i synchronizacja egzaminów](raporty/etap-4x130-praktyczne-decyzje-egzaminy-10-13-2026-10-28.md)
+
+
 - [Etap 4x129 — praktyczne decyzje kierowcy w lekcjach B-07–B-09](raporty/etap-4x129-praktyczne-decyzje-lekcje-07-09-2026-10-28.md)
 
 
