@@ -8,6 +8,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x108 — próbka 40, dystraktory i regresja kursu](raporty/etap-4x108-proba40-dystraktory-regresja-2026-10-28.md)
+- [Etap 4x108 — seed, lista próbki i wykluczenia](raporty/etap-4x108-wykluczenia-proby.json)
 - [Etap 4x107 — próbka 40, dystraktory i spójność kursu](raporty/etap-4x107-proba40-dystraktory-lekcje-2026-10-28.md)
 - [Etap 4x107 — seed, lista próbki i wykluczenia](raporty/etap-4x107-wykluczenia-proby.json)
 - [Etap 4x106 — próbka 60, dystraktor ADR-B-0211 i regresja kursu](raporty/etap-4x106-proba60-dystraktory-egzaminy-2026-10-27.md)
