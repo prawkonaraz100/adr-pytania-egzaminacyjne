@@ -78,6 +78,17 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+## Praktyka kierowcy — decyzje krok po kroku
+
+### Sytuacja 1: kontener po odcinku morskim
+1. Przed odjazdem z terminalu sprawdź dokumenty dotyczące przewozu drogowego, a nie tylko papiery używane na statku.
+2. Porównaj dane towaru i oznakowanie z dokumentacją; sprawdź, czy dla tej sytuacji wymagany jest certyfikat pakowania kontenera/pojazdu.
+3. Jeśli brakuje danych albo dokumenty są sprzeczne, wstrzymaj rozpoczęcie odcinka drogowego i poproś odpowiedzialnego uczestnika o wyjaśnienie.
+4. Nie dopisuj brakujących informacji z domysłu i nie zakładaj, że sam przyjazd kontenera z portu potwierdza kompletność dokumentów.
+
+**Typowy błąd:** uznanie dokumentów morskich za automatyczny zamiennik dokumentów drogowych. To błąd, ponieważ każdy odcinek może mieć własne wymagania, a wyjątki działają tylko w określonych warunkach. Podstawa do sprawdzenia: ADR 1.1.4.2 i 5.4.1.
+Pytania do omówienia: ADR-B-0396, ADR-B-0511, ADR-B-0204, ADR-B-0030.
+
 ## Co musisz zapamiętać
 - ADR, RID i IMDG dotyczą różnych gałęzi transportu.
 - Dokument morski nie zwalnia automatycznie z wymagań drogowych.
