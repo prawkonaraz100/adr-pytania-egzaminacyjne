@@ -75,6 +75,26 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+## Praktyka kierowcy — decyzje krok po kroku
+
+### Sytuacja 1: pęknięta sztuka na rampie
+1. Zatrzymaj przyjęcie tej sztuki; nie pozwalaj zakryć pęknięcia folią ani ładować jej „na próbę”.
+2. Zgłoś niezgodność załadowcy i osobie odpowiedzialnej za przesyłkę. Ustal, kto ma doprowadzić opakowanie do zgodności.
+3. Sprawdź ponownie przesyłkę i dokumenty po usunięciu problemu. Dokument z poprawną nazwą towaru nie czyni uszkodzonego opakowania bezpiecznym.
+4. Rusz dopiero wtedy, gdy przesyłka może być przewożona zgodnie z wymaganiami.
+
+**Typowy błąd:** przyjęcie przesyłki, bo „nadawca odpowiada za opakowanie”. To błąd, ponieważ podział obowiązków nie oznacza, że inni uczestnicy mogą ignorować widoczną niezgodność. Podstawa do sprawdzenia: ADR 1.4.2–1.4.3 i 7.5.1.
+
+### Sytuacja 2: instrukcje w niezrozumiałym języku
+1. Przed wyjazdem sprawdź, czy instrukcje pisemne są dostępne w kabinie.
+2. Upewnij się, że każdy członek załogi potrafi je przeczytać i zrozumieć.
+3. Jeśli brakuje właściwej wersji, zgłoś problem i uzyskaj instrukcje przed rozpoczęciem przewozu.
+4. Nie zastępuj wymaganych instrukcji ustnym streszczeniem ani samym numerem telefonu do dyspozytora.
+
+**Typowy błąd:** założenie, że wystarczy, iż instrukcje są w kabinie. To nie wystarcza, jeśli członek załogi nie potrafi z nich skorzystać w zdarzeniu. Podstawa do sprawdzenia: ADR 5.4.3.1–5.4.3.3.
+
+Pytania do omówienia: ADR-B-0020, ADR-B-0019, ADR-B-0479.
+
 ## Co musisz zapamiętać
 - Obowiązki zależą od roli uczestnika i nie znoszą się automatycznie wzajemnie.
 - Nie przekazuj ani nie ładuj przesyłki, gdy opakowanie jest niezgodne lub uszkodzone.
