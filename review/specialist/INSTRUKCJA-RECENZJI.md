@@ -1,4 +1,4 @@
-> **Bieżąca migawka 4x122 (28.10.2026):** bank `podstawowy/questions.jsonl`, 609 pytań, blob SHA `5d3bb481e372a45c89b30812841e76e9d91d542f`; wszystkie `needs_review`, 0 `verified`. Najnowszy raport: `podstawowy/raporty/etap-4x122-proba40-dystraktory-sync-2026-10-28.md`. Recenzję prawną nadal musi wykonać specjalista.
+> **Bieżąca migawka 4x123 (28.10.2026):** bank `podstawowy/questions.jsonl`, 609 pytań, blob SHA `dd247b2a1fe219c6b0a4643755c7cc820b842eeb`; wszystkie `needs_review`, 0 `verified`. Najnowszy raport: `podstawowy/raporty/etap-4x123-proba40-explanations-dystraktory-sync-2026-10-28.md`. Recenzję prawną nadal musi wykonać specjalista.
 
 ## Bieżąca migawka — etap 4x120 (28.10.2026)
 
