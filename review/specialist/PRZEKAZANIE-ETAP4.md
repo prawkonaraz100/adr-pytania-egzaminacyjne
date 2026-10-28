@@ -1,9 +1,9 @@
 ## Bieżąca migawka — etap 4x120 (28.10.2026)
 
-- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `6cf4ff901a092fe445844a970b862000e6ce03bf`.
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `04ace7f478868d0901bbc45fb26af3d866e18538`.
 - Raport: `podstawowy/raporty/etap-4x120-proba40-dystraktory-sync-2026-10-28.md`; manifest próby: `podstawowy/raporty/etap-4x120-wykluczenia-proby.json`.
-- Próbka 40, seed `411202026`: 4 pytania w próbie poprawione dystraktory, 5 dodatkowych celowanych follow-upów poza próbką; 0 explanation przepisanych.
-- Wskaźnik „poprawna = jedyna najdłuższa”: 70/609 = 11,49%; maksimum działu 14,29%; minimum explanation 300 znaków.
+- Próbka 40, seed `411202026`: 4 pytania w próbie poprawione dystraktory, 4 explanation dopasowano; 5 dodatkowych celowanych follow-upów poza próbką.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82%; maksimum działu 14,58%; minimum explanation 300 znaków.
 - Warianty i klucze 001–005 wskazują aktualny SHA banku; niezależna recenzja prawna pozostaje otwarta.
 
 ## Bieżąca migawka — etap 4x119 (28.10.2026)
