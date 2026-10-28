@@ -1,13 +1,13 @@
-## Bieżąca migawka — etap 4x112 (28.10.2026)
+## Bieżąca migawka — etap 4x113 (28.10.2026)
 
-- Aktualny blob SHA `podstawowy/questions.jsonl`: `4f6deeca86fea1b746039ab74db7c48f43abbfd0`.
+- Aktualny blob SHA `podstawowy/questions.jsonl`: `2675c0636a421bf3b4347ad0117087d6ec633321`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
-- Próbka 40, seed `41122026`; 383 ID wykluczono konserwatywnie na podstawie raportów 4x103–4x106 i manifestów 4x107–4x111; pula 226. Raport: `podstawowy/raporty/etap-4x112-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x112-wykluczenia-proby.json`.
-- Urealniono dystraktory i dopasowano explanation w ADR-B-0498, ADR-B-0525, ADR-B-0224, ADR-B-0110, ADR-B-0174 i ADR-B-0207; poprawne litery, ID i podstawy prawne bez zmian.
-- Egzaminy 001–005 wskazują aktualny blob; każdy ma 30 pytań i brak powtórzeń. Wyjaśnienie ADR-B-0489 w kluczu 001 zachowuje literę po przestawieniu opcji (bankowa A odpowiada wariantowej C); zgodność jest oceniana po mapowaniu liter.
-- Metryki: „poprawna = jedyna najdłuższa” 71/609 = 11,66%, maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
+- Próbka 40, seed `41132026`; 423 ID wykluczono z zapisanych list 4x107–4x112; pula 186. Raport: `podstawowy/raporty/etap-4x113-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x113-wykluczenia-proby.json`.
+- Urealniono dystraktory i dopasowano explanation w ADR-B-0035, ADR-B-0143, ADR-B-0516, ADR-B-0292, ADR-B-0199 i ADR-B-0345; poprawne litery, ID i podstawy prawne bez zmian.
+- Egzaminy 001–005 wskazują aktualny blob; każdy ma 30 pytań i brak powtórzeń. ADR-B-0035 znajduje się w wariancie 005; jego opcje i explanation klucza zsynchronizowano.
+- Metryki: „poprawna = jedyna najdłuższa” 74/609 = 12,15%, maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
 - Scenariusze: 39; lekcje: 13. Migawki audytu odświeżone; niezależna recenzja prawna pozostaje otwarta.
-- Lokalne testy nie mogły zostać uruchomione bez lokalnego checkoutu; nie deklarowano lokalnego PASS. Wymagany pełny PASS GitHub Actions Quality Gate dla PR #571.
+- Lokalne testy nie mogły zostać uruchomione bez lokalnego checkoutu; nie deklarowano lokalnego PASS. Wymagany pełny PASS GitHub Actions Quality Gate dla PR 572.
 
 
 ## Historyczna migawka — etap 4x87 (27.10.2026)

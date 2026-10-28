@@ -63,12 +63,12 @@
       "exact_record_snapshot": {
         "stem": "W tabeli A ADR przy towarze nie ma zezwolenia na przewóz luzem kodem BK w kolumnie 10 ani VC w kolumnie 17. Co oznacza to zasadniczo?",
         "options": {
-          "A": "Nie wolno przewozić tego towaru luzem tą drogą bez odrębnej właściwej podstawy",
-          "B": "Wszystkie towary ADR wolno przewozić luzem, jeżeli ładunek jest przykryty i odpowiednio zamocowany",
-          "C": "Wystarczy pisemna zgoda kierowcy"
+          "A": "Sprawdzić, czy ADR dopuszcza przewóz luzem dla tego towaru i dobrać właściwy sposób przewozu",
+          "B": "Brak kodu w kolumnie 10 nie przeszkadza, jeśli kontener jest szczelny i przykryty",
+          "C": "Zgoda nadawcy wystarczy, gdy kierowca zna towar i ma sprawny pojazd"
         },
         "correct_option": "A",
-        "explanation": "Przewóz luzem jest dozwolony tylko wtedy, gdy ADR dopuszcza go dla danego towaru i spełniono warunki dotyczące pojazdu oraz sposobu przewozu. Kody BK i VC w tabeli A wskazują odpowiednio dopuszczone typy kontenerów do przewozu luzem oraz szczególne warunki przewozu luzem; brak właściwego zezwolenia oznacza, że nie wolno uznać takiego przewozu za dozwolony. Zgoda kierowcy nie zastępuje podstawy prawnej. Podstawa: ADR 7.3.1.1, tabela A kolumny 10 i 17.",
+        "explanation": "Przewóz luzem jest dozwolony tylko wtedy, gdy ADR dopuszcza go dla konkretnego towaru i spełniono właściwe warunki. Szczelny kontener ani zgoda nadawcy nie zastępują wymaganego kodu i warunków przewozu. Przed załadunkiem sprawdź wpis towaru w tabeli A oraz wymagania dla przewozu luzem. Podstawa: ADR 3.2.1 tabela A, kolumny 10 i 17, oraz 7.3.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",

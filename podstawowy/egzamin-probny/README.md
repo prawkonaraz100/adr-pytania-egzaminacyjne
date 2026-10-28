@@ -1,7 +1,10 @@
-## Najnowsza synchronizacja — etap 4x112 (28.10.2026)
+## Najnowsza synchronizacja — etap 4x113 (28.10.2026)
 
-- Aktualny blob banku: `4f6deeca86fea1b746039ab74db7c48f43abbfd0`.
+- Aktualny blob banku: `2675c0636a421bf3b4347ad0117087d6ec633321`.
 - Bank: 609 pytań; wszystkie `needs_review`, 0 `verified`; minimum explanation 300 znaków.
+- Etap 4x113: próbka 40, seed `41132026`; poprawiono dystraktory i explanation w ADR-B-0035, ADR-B-0143, ADR-B-0516, ADR-B-0292, ADR-B-0199 i ADR-B-0345. Zachowano ID, poprawne litery i podstawy ADR.
+- ADR-B-0035 występuje w wariancie 005; jego opcje zostały przestawione zgodnie z mapowaniem wariantu, a explanation klucza 005 zsynchronizowano z bankiem.
+- Wszystkie warianty i klucze 001–005 wskazują aktualny blob banku; każdy wariant ma 30 unikalnych pytań. Raport: [Etap 4x113](../raporty/etap-4x113-proba40-dystraktory-sync-2026-10-28.md); manifest: [seed, próbka i wykluczenia](../raporty/etap-4x113-wykluczenia-proby.json).
 - Etap 4x112: przejrzano próbkę 40 (seed `41122026`); poprawiono wiarygodność dystraktorów i explanation dla ADR-B-0498, ADR-B-0525, ADR-B-0224, ADR-B-0110, ADR-B-0174 i ADR-B-0207. Zachowano ID, poprawne litery i podstawy prawne.
 - Dla ADR-B-0489 sprawdzono mapowanie litery w explanation klucza 001 (bankowa A → wariantowa C); wszystkie klucze 001–005 zgadzają się z tekstem poprawnej opcji i explanation banku po mapowaniu.
 - Warianty i klucze 001–005 wskazują bieżący blob banku; każdy wariant ma 30 unikalnych pytań.

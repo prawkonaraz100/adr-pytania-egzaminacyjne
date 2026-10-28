@@ -865,15 +865,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Różne nalepki nie zezwalają automatycznie na mieszany załadunek."
+          "rationale": "Błędna: miejsce dostawy i osobne dokumenty nie rozstrzygają, czy towary wolno ładować razem."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Identyczne rozmiary nie przesądzają o zgodności."
+          "rationale": "Błędna: szczelność i podobne wymiary nie zastępują sprawdzenia zgodności wspólnego załadunku."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Trzeba zastosować tabelę zakazów ładowania razem i właściwe wyjątki."
+          "rationale": "Poprawna: tabelę 7.5.2 i właściwe wyjątki trzeba sprawdzić przed umieszczeniem przesyłek razem."
         }
       },
       "observed_answer_key": "C",
@@ -887,12 +887,12 @@
         "module_id": "ADR-B-09",
         "stem": "Na jedną ciężarówkę mają trafić sztuki przesyłek ADR oznaczone różnymi nalepkami ostrzegawczymi. Pracownik twierdzi, że wystarczy, iż wszystkie opakowania są szczelne. Co jest właściwe?",
         "options": {
-          "A": "Załadować według miejsca dostawy",
-          "B": "Sprawdzić, czy opakowania mają zbliżone wymiary i podobny sposób zamykania",
-          "C": "Sprawdzić tabelę 7.5.2 i wyjątki"
+          "A": "Załadować według miejsca dostawy, bo osobne dokumenty rozdzielają odpowiedzialność",
+          "B": "Uznać szczelność i podobne wymiary opakowań za wystarczające do wspólnego załadunku",
+          "C": "Sprawdzić tabelę 7.5.2 i wyjątki przed wspólnym załadunkiem"
         },
         "correct_option": "C",
-        "explanation": "Różne nalepki ostrzegawcze mogą oznaczać towary, których nie wolno przewozić razem bez spełnienia szczególnych warunków. Przed wspólnym załadunkiem trzeba sprawdzić tabelę ADR 7.5.2 oraz wyjątki. Kolejność dostaw i rozmiar opakowań nie rozstrzygają o dozwolonym wspólnym załadunku. Podstawa: ADR 7.5.2.",
+        "explanation": "Przed wspólnym załadunkiem porównaj nalepki przesyłek z tabelą zgodności ADR 7.5.2 i sprawdź, czy nie ma zakazu lub dodatkowego warunku. Szczelne opakowania, ich rozmiar i osobne dokumenty nie znoszą ograniczeń wspólnego załadunku. Dopiero potwierdzenie zgodności pozwala zaplanować rozmieszczenie przesyłek. Podstawa: ADR 7.5.2.1–7.5.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
