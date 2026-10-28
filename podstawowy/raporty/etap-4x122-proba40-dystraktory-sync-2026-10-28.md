@@ -69,7 +69,7 @@ W żadnym z pięciu pytań nie zmieniono ID, poprawnej litery ani podstawy prawn
 | B-13 | 47 | 6 | 12,77% |
 
 ## Synchronizacja
-- Zaktualizowano migiwaki `review/legal-clauses` i `review/sequential` dla pięciu zmienionych ID.
+- Zaktualizowano migawki `review/legal-clauses` i `review/sequential` dla pięciu zmienionych ID.
 - Zaktualizowano `source_bank_head` w wariantach i kluczach egzaminu próbnego 001–005. Nie zmieniono składu wariantów ani kluczy odpowiedzi.
 - Manifest próby i wykluczeń: [etap 4x122 — manifest](etap-4x122-wykluczenia-proby.json).
 - Pakiet recenzyjny i indeksy zaktualizowano do nowego blob SHA; statusy i zastrzeżenie o niezależnej recenzji pozostają bez zmian.
