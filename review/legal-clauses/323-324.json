@@ -9,15 +9,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A (Wystarczy osobno porównać każdą kategorię ze swoim limitem, bez uwzględniania drugiej) pomija wymagany sposób oceny wynikający z ADR 2025, 1.1.3.6.4. Pełne indywidualne porównanie polskiego przepisu pozostaje otwarte."
+          "rationale": "Błędne: przy mieszanych kategoriach transportowych nie wystarczy osobne porównanie każdej ilości z limitem."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wstępna ocena spójna z ADR 2025, 1.1.3.6.4: Przy mieszanych kategoriach 2 i 3 nie sprawdza się limitów oddzielnie; według 1.1.3.6.4 sumuje się ilości z odpowiednimi współczynnikami i ocenia wynik. Należy sprawdzić jednostki i konkretne wpisy tabeli A."
+          "rationale": "Poprawne: ilości trzeba przeliczyć według właściwych współczynników, zsumować i porównać z progiem."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C (Każdy przewóz mieszany automatycznie nie podlega ADR) pomija wymagany sposób oceny wynikający z ADR 2025, 1.1.3.6.4. Pełne indywidualne porównanie polskiego przepisu pozostaje otwarte."
+          "rationale": "Błędne: zwykła suma bez współczynników nie jest metodą obliczenia przewidzianą w ADR 1.1.3.6.4."
         }
       },
       "observed_answer_key": "B",
@@ -30,12 +30,12 @@
         "module_id": "ADR-B-01",
         "stem": "W jednej jednostce transportowej przewożone są razem towary kategorii transportowej 2 i 3. Jak należy ocenić zwolnienie ilościowe z ADR 1.1.3.6?",
         "options": {
-          "A": "Wystarczy osobno porównać każdą kategorię ze swoim limitem, bez uwzględniania drugiej",
-          "B": "Trzeba zastosować sumowanie ważone z 1.1.3.6.4 do wszystkich przewożonych kategorii",
-          "C": "Każdy przewóz mieszany automatycznie nie podlega ADR"
+          "A": "Porównać każdą kategorię osobno z jej limitem i pominąć ilości z pozostałych kategorii, nawet przy mieszanym ładunku.",
+          "B": "Zastosować sumowanie ważone z ADR 1.1.3.6.4, a potem porównać wynik z właściwym progiem.",
+          "C": "Zsumować ilości wszystkich kategorii bez współczynników i porównać wynik z limitem."
         },
         "correct_option": "B",
-        "explanation": "Przy mieszanym ładunku z kategorii transportowych 2 i 3 nie porównuje się każdej ilości osobno z limitem. Należy pomnożyć ilości przez odpowiednie współczynniki i zsumować wyniki, a następnie sprawdzić próg wyłączenia. Założenie, że każdy przewóz mieszany automatycznie jest zwolniony, jest błędne. Podstawa: ADR 1.1.3.6.4.",
+        "explanation": "Przy mieszanym ładunku z kategorii transportowych 2 i 3 trzeba obliczyć sumę ważoną według współczynników ADR 1.1.3.6.4, a następnie porównać wynik z progiem wyłączenia. Nie wystarczy porównać każdej kategorii osobno ani zsumować ilości bez współczynników. Dopiero wynik obliczenia pozwala ustalić, czy spełniono warunek wyłączenia. Podstawa: ADR 1.1.3.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -45,7 +45,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "editorial_result": "distractors_and_explanation_revised_4x108_specialist_review_pending"
     },
     {
       "id": "ADR-B-0324",

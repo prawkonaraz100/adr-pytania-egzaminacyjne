@@ -793,15 +793,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wariant A jest zgodny z przedstawioną w pytaniu zasadą: W 2.1.3.5.3(a) wskazano materiały klasy 7 wraz z wyraźnymi zastrzeżeniami. Wymaga jeszcze niezależnego porównania z polskim brzmieniem aktu."
+          "rationale": "Poprawne: klasa 7 ma pierwszeństwo w opisanej procedurze, z uwzględnieniem wyjątków wskazanych w ADR."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Klasa 7 nie występuje w ADR”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.3(a); nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Błędne: nie należy odkładać klasy 7 do końca klasyfikacji, gdy przepis nadaje jej pierwszeństwo."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Pierwszeństwo ma zawsze najmniejsza masa składnika”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.3(a); nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Błędne: udział masowy składnika nie zastępuje szczególnej reguły pierwszeństwa dla klasy 7."
         }
       },
       "observed_answer_key": "A",
@@ -814,12 +814,12 @@
         "module_id": "ADR-B-03",
         "stem": "W odpadzie występuje ryzyko klasy 7 i inne zagrożenie, a rozpatrywana sytuacja nie podlega wyjątkom z 2.1.3.5.3(a). Która odpowiedź oddaje zasadę pierwszeństwa?",
         "options": {
-          "A": "Klasa 7 ma pierwszeństwo z określonymi wyjątkami",
-          "B": "Klasa 7 nie występuje w ADR i nie trzeba jej uwzględniać",
-          "C": "Pierwszeństwo ma zawsze składnik o najmniejszej masie, niezależnie od klasy"
+          "A": "Klasa 7 ma pierwszeństwo przy klasyfikacji odpadu, z wyjątkami wskazanymi w ADR 2.1.3.5.3(a).",
+          "B": "Najpierw rozpatrzyć inne zagrożenie, a klasę 7 uwzględnić dopiero po pełnej klasyfikacji odpadu zgodnie z ADR.",
+          "C": "O pierwszeństwie decyduje udział masowy składnika, nie szczególna reguła klasy 7."
         },
         "correct_option": "A",
-        "explanation": "Klasa 7 oznacza materiały promieniotwórcze. Przy klasyfikowaniu odpadu ADR stosuje szczególną zasadę pierwszeństwa dla tej klasy, ale przepis przewiduje wyjątki — dlatego poprawna odpowiedź uwzględnia oba elementy. Nie można pomijać klasy 7, a sama masa składników nie zastępuje reguł klasyfikacji. Podstawa: ADR 2.1.3.5.3(a).",
+        "explanation": "Klasa 7 oznacza materiały promieniotwórcze. W opisanej sytuacji ADR przewiduje szczególną zasadę pierwszeństwa dla tej klasy, z wyjątkami wskazanymi w przepisie. Nie należy najpierw kończyć klasyfikacji innych zagrożeń ani zastępować reguły ADR porównaniem mas składników. Podstawa: ADR 2.1.3.5.3(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -829,7 +829,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "editorial_result": "distractors_and_explanation_revised_4x108_specialist_review_pending"
     },
     {
       "id": "ADR-B-0343",

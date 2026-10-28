@@ -350,12 +350,12 @@
       "exact_record_snapshot": {
         "stem": "Łańcuch obejmuje przewóz drogą i morzem. Czy dopuszczenie z 1.1.4.2.1 oznacza, że nie trzeba spełniać żadnych wymagań na drodze?",
         "options": {
-          "A": "Tak, wszystkie zasady drogowe znikają",
-          "B": "Nie; wyjątek obejmuje tylko określone wymagania",
-          "C": "Tak, wystarczy oznaczenie kontenera logo armatora"
+          "A": "Tak; dokument morski zwalnia z całego ADR na drogowym odcinku, jeśli ładunek pozostał w tym samym kontenerze.",
+          "B": "Nie; odstępstwo obejmuje tylko wymagania wyraźnie wskazane w ADR, a pozostałe nadal obowiązują.",
+          "C": "Tak; dokument IMDG może zastąpić wszystkie wymagania ADR, jeśli zawiera opis towaru."
         },
         "correct_option": "B",
-        "explanation": "Odstępstwo dla przewozu połączonego z transportem morskim dotyczy tylko określonych wymagań i działa pod warunkami wskazanymi w ADR. Nie zwalnia automatycznie z całego prawa drogowego ani z obowiązków bezpieczeństwa. Logo armatora nie zastępuje dokumentów, oznakowania i pozostałych wymagań. Podstawa: ADR 1.1.4.2.1.",
+        "explanation": "Nie. ADR 1.1.4.2.1 przewiduje odstępstwo tylko w określonych warunkach i dla wskazanych wymagań; nie wyłącza całego ADR na drodze. Sam przewóz statkiem ani dokument IMDG nie oznaczają, że można pominąć kontrolę dokumentów, oznakowania i innych wymagań drogowych. Przed wyjazdem sprawdź, czy konkretny wyjątek ma zastosowanie do tej trasy. Podstawa: ADR 1.1.4.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -370,7 +370,7 @@
       "supplementary_source_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Polish official text and corrigendum comparison pending",
+      "source_risk_note": "Polish official text and corrigendum comparison pending Etap 4x108: odświeżono migawkę po korekcie redakcyjnej; status prawny pozostaje needs_review, niezależna recenzja wymagana.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"

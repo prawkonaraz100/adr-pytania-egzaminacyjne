@@ -1,11 +1,11 @@
-## Najnowsza synchronizacja — etap 4x107 (28.10.2026)
+## Najnowsza synchronizacja — etap 4x108 (28.10.2026)
 
-- Aktualny blob banku: `0a00e88a3fb26e709ef508b93e24aed4e9c1f4a3`.
+- Aktualny blob banku: `685a14690ed68e7c4fff7ff741d48dffa526eb3f`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`.
-- Próbka 40: poprawiono dystraktory i dopasowano explanation dla ADR-B-0009, ADR-B-0329, ADR-B-0401 i ADR-B-0441; klucze odpowiedzi nie uległy zmianie.
+- Próbka 40: urealniono dystraktory ADR-B-0233, ADR-B-0280, ADR-B-0323, ADR-B-0342, ADR-B-0389 i ADR-B-0437; uproszczono explanation ADR-B-0319. Żadna poprawna litera ani podstawa ADR nie uległa zmianie.
 - Warianty i klucze 001–005 wskazują bieżący blob banku. Każdy arkusz ma 30 pytań, 13 działów, brak duplikatów, A/B/C 10/10/10 i maksymalną serię 3.
-- Zmienione pytania nie występują w pięciu wariantach, więc ich tekstów w arkuszach nie trzeba było aktualizować; pełną zgodność banku i kluczy ponownie sprawdza Quality Gate.
-- Raport: [Etap 4x107 — próbka 40 i regresja kursu](../raporty/etap-4x107-proba40-dystraktory-lekcje-2026-10-28.md).
+- Zmienione pytania nie występują w wariantach, dlatego nie trzeba było zmieniać treści arkuszy; CI nadal sprawdza ich zgodność z bankiem.
+- Raport: [Etap 4x108 — próbka 40 i regresja kursu](../raporty/etap-4x108-proba40-dystraktory-regresja-2026-10-28.md).
 
 ## Jak interpretować wynik
 

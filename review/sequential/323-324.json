@@ -22,12 +22,12 @@
       "exact_record_snapshot": {
         "stem": "W jednej jednostce transportowej przewożone są razem towary kategorii transportowej 2 i 3. Jak należy ocenić zwolnienie ilościowe z ADR 1.1.3.6?",
         "options": {
-          "A": "Wystarczy osobno porównać każdą kategorię ze swoim limitem, bez uwzględniania drugiej",
-          "B": "Trzeba zastosować sumowanie ważone z 1.1.3.6.4 do wszystkich przewożonych kategorii",
-          "C": "Każdy przewóz mieszany automatycznie nie podlega ADR"
+          "A": "Porównać każdą kategorię osobno z jej limitem i pominąć ilości z pozostałych kategorii, nawet przy mieszanym ładunku.",
+          "B": "Zastosować sumowanie ważone z ADR 1.1.3.6.4, a potem porównać wynik z właściwym progiem.",
+          "C": "Zsumować ilości wszystkich kategorii bez współczynników i porównać wynik z limitem."
         },
         "correct_option": "B",
-        "explanation": "Przy mieszanym ładunku z kategorii transportowych 2 i 3 nie porównuje się każdej ilości osobno z limitem. Należy pomnożyć ilości przez odpowiednie współczynniki i zsumować wyniki, a następnie sprawdzić próg wyłączenia. Założenie, że każdy przewóz mieszany automatycznie jest zwolniony, jest błędne. Podstawa: ADR 1.1.3.6.4.",
+        "explanation": "Przy mieszanym ładunku z kategorii transportowych 2 i 3 trzeba obliczyć sumę ważoną według współczynników ADR 1.1.3.6.4, a następnie porównać wynik z progiem wyłączenia. Nie wystarczy porównać każdej kategorii osobno ani zsumować ilości bez współczynników. Dopiero wynik obliczenia pozwala ustalić, czy spełniono warunek wyłączenia. Podstawa: ADR 1.1.3.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -42,7 +42,7 @@
       "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Polish legal text and corrigendum comparison pending",
+      "source_risk_note": "Polish legal text and corrigendum comparison pending Etap 4x108: odświeżono migawkę po korekcie redakcyjnej; status prawny pozostaje needs_review, niezależna recenzja wymagana.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"

@@ -1,6 +1,6 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 28.10.2026, etap 4x107 (próbka 40 i kontrola dystraktorów): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 28.10.2026, etap 4x108 (próbka 40, dystraktory i regresja kursu): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 71/609 = 11,66% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -8,6 +8,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x108 — próbka 40, dystraktory i regresja kursu](raporty/etap-4x108-proba40-dystraktory-regresja-2026-10-28.md)
+- [Etap 4x108 — seed, lista próbki i wykluczenia](raporty/etap-4x108-wykluczenia-proby.json)
 - [Etap 4x107 — próbka 40, dystraktory i spójność kursu](raporty/etap-4x107-proba40-dystraktory-lekcje-2026-10-28.md)
 - [Etap 4x107 — seed, lista próbki i wykluczenia](raporty/etap-4x107-wykluczenia-proby.json)
 - [Etap 4x106 — próbka 60, dystraktor ADR-B-0211 i regresja kursu](raporty/etap-4x106-proba60-dystraktory-egzaminy-2026-10-27.md)

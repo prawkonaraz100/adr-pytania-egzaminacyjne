@@ -14,20 +14,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Odpowiedź \"Wyłącznie ADR niezależnie od kolei\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.1; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+          "rationale": "Błędne: nie należy automatycznie stosować wyłącznie ADR do odcinka, na którym pojazd jest przewożony koleją."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Odpowiedź \"Wyłącznie krajowe przepisy o czasie pracy kierowcy\" nie odpowiada warunkom ani skutkom ADR 1.1.4.5.1; stanowi nieprawidłowe uproszczenie lub niewłaściwy obowiązek."
+          "rationale": "Błędne: przepisy właściwe dla kolei nie oznaczają pominięcia wymagań dotyczących towarów niebezpiecznych."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Gdy pojazd objęty ADR jest przewożony inaczej niż drogą, do tego odcinka stosuje się przepisy właściwe dla użytej gałęzi transportu."
+          "rationale": "Poprawne: dla odcinka kolejowego stosuje się przepisy właściwe dla tej gałęzi transportu."
         }
       },
       "observed_answer_key": "C",
       "notes_on_conditions": "Zasady stosują się wyłącznie po spełnieniu przesłanek wskazanego ustępu; konieczna pełna kontrola polskiej publikacji urzędowej i wyjątków. Etap 4b: zamiana miejsc opcji B i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
-      "editorial_result": "pending_specialist_review",
+      "editorial_result": "distractors_and_explanation_revised_4x108_specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -36,12 +36,12 @@
         "module_id": "ADR-B-10",
         "stem": "Ciężarówka z ładunkiem ADR jest przewożona na wagonie kolejowym na jednym odcinku trasy. Jakie przepisy zgodnie z ADR 1.1.4.5.1 są właściwe dla tego odcinka?",
         "options": {
-          "A": "Stosować wyłącznie ADR, nawet na odcinku, na którym pojazd jest przewożony koleją",
-          "B": "Stosować tylko krajowe przepisy o czasie pracy kierowcy, bez przepisów przewozowych",
-          "C": "Na tym odcinku stosować przepisy właściwe dla przewozu koleją"
+          "A": "Stosować ADR przez cały odcinek, bo dokument drogowy towarzyszy ładunkowi także na wagonie.",
+          "B": "Stosować przepisy kolejowe, ale pominąć wymagania dotyczące towarów niebezpiecznych, bo przewożony jest cały pojazd.",
+          "C": "Na odcinku kolejowym stosować przepisy właściwe dla kolei, a na odcinku drogowym oceniać wymagania ADR."
         },
         "correct_option": "C",
-        "explanation": "Jeśli pojazd przewożący towary ADR jest transportowany koleją, dla odcinka kolejowego stosuje się odpowiednie przepisy tej gałęzi transportu. Nie oznacza to, że wszystkie odcinki drogowe nagle podlegają wyłącznie regułom kolejowym. Trzeba rozdzielić wymagania dla poszczególnych etapów podróży. Podstawa: ADR 1.1.4.5.1.",
+        "explanation": "Na odcinku, na którym pojazd z ładunkiem jest przewożony koleją, stosuje się przepisy właściwe dla tej gałęzi transportu zgodnie z ADR 1.1.4.5.1. Nie oznacza to, że cały przejazd drogowy przestaje podlegać ADR ani że na kolei można pominąć wymagania dotyczące towarów niebezpiecznych. Rozdziel wymagania dla każdego etapu trasy. Podstawa: ADR 1.1.4.5.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",

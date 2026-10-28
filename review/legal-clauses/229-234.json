@@ -202,20 +202,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Odpowiedź „Numer konta bankowego kierowcy zamiast odbiorcy” nie realizuje bezpiecznej procedury dla opisanego przypadku według 5.4.1.1.1(h). Wymaga formalnej recenzji w języku polskim."
+          "rationale": "Błędne: dane nadawcy nie zastępują wymaganej nazwy i adresu odbiorcy; nie wolno zakładać, że kontrolujący odczyta je z innego dokumentu."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Zgodne z ogólną zasadą ustępu 5.4.1.1.1(h): Nazwa i adres odbiorcy pozwalają ustalić, komu należy przekazać niebezpieczny ładunek. W standardowym dokumencie przewozowym te informacje są wymagane, z uwzględnieniem przewidzianych wyjątków. Numer konta kierowcy ani sama rejestracja ciągnika nie identyfikują odbiorcy. Podstawa: ADR 5.4.1.1.1(h)."
+          "rationale": "Poprawne: dokument musi zawierać wymaganą nazwę i adres odbiorcy."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Odpowiedź „Tylko numer rejestracyjny ciągnika” nie realizuje bezpiecznej procedury dla opisanego przypadku według 5.4.1.1.1(h). Wymaga formalnej recenzji w języku polskim."
+          "rationale": "Błędne: adres miejsca rozładunku nie zastępuje automatycznie danych identyfikujących odbiorcę."
         }
       },
       "observed_answer_key": "B",
       "notes_on_conditions": "Ocena obowiązuje dla opisanego scenariusza; szczegółowe wyjątki i oficjalne polskie brzmienie wymagają porównania.",
-      "editorial_result": "preliminary_authoring_check_only",
+      "editorial_result": "distractors_and_explanation_revised_4x108_specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -224,12 +224,12 @@
         "module_id": "ADR-B-13",
         "stem": "W wymaganym dokumencie przewozowym ADR znajduje się numer UN, ale brakuje nazwy i adresu odbiorcy. Co trzeba uzupełnić przy standardowych zasadach dokumentowania?",
         "options": {
-          "A": "Wpisać numer konta bankowego kierowcy zamiast danych odbiorcy przesyłki",
-          "B": "Uzupełnić nazwę i adres odbiorcy zgodnie z wymaganiami dokumentu ADR",
-          "C": "Dodać wyłącznie numer rejestracyjny ciągnika używanego do przewozu"
+          "A": "Wpisać dane nadawcy i numer UN, zakładając, że odbiorcę można ustalić z innych dokumentów przewozowych.",
+          "B": "Uzupełnić pełną nazwę odbiorcy oraz jego adres w odpowiednim polu dokumentu przewozowego ADR.",
+          "C": "Wpisać adres miejsca rozładunku zamiast nazwy i adresu odbiorcy, jeśli zgadza się z trasą."
         },
         "correct_option": "B",
-        "explanation": "W standardowym dokumencie przewozowym ADR należy podać wymagane dane odbiorcy, w tym nazwę i adres, z uwzględnieniem ewentualnych wyjątków przewidzianych w przepisach. Sam numer UN (identyfikator towaru niebezpiecznego) nie pozwala ustalić, komu przesyłka ma zostać dostarczona. Numer konta kierowcy ani numer rejestracyjny pojazdu nie identyfikują odbiorcy, więc nie mogą zastąpić brakujących danych. Podstawa: ADR 5.4.1.1.1(h).",
+        "explanation": "W dokumencie ADR trzeba podać wymaganą nazwę i adres odbiorcy, bo numer UN identyfikuje towar, a nie osobę, która ma go otrzymać. Dane nadawcy nie zastępują danych odbiorcy, a sam adres miejsca rozładunku nie musi identyfikować odbiorcy. Przed wyjazdem uzupełnij brakujące dane zgodnie z wymaganym układem dokumentu. Podstawa: ADR 5.4.1.1.1(h).",
         "sources": [
           {
             "code": "ADR-2025-PL",

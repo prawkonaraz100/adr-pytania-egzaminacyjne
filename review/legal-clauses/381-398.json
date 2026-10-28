@@ -378,15 +378,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Tak, wszystkie zasady drogowe znikają”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1; nie jest właściwy w tym scenariuszu."
+          "rationale": "Błędne: transport morski nie wyłącza automatycznie całego ADR na drogowym odcinku trasy."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawne w ograniczonym zakresie wskazanych warunków: Odstępstwo wylicza konkretne aspekty opakowań i oznakowania; nie jest ogólnym zwolnieniem z ADR. Pozostaje kontrola polskiego tekstu."
+          "rationale": "Poprawne: wyjątek działa tylko w określonym zakresie i po spełnieniu warunków."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Tak, wystarczy oznaczenie kontenera logo armatora”) nie uwzględnia obowiązku lub wyjątku wynikającego z ADR 2025, 1.1.4.2.1; nie jest właściwy w tym scenariuszu."
+          "rationale": "Błędne: sam dokument IMDG nie znosi wszystkich wymagań drogowych; trzeba sprawdzić zakres wyjątku."
         }
       },
       "observed_answer_key": "B",
@@ -399,12 +399,12 @@
         "module_id": "ADR-B-10",
         "stem": "Łańcuch obejmuje przewóz drogą i morzem. Czy dopuszczenie z 1.1.4.2.1 oznacza, że nie trzeba spełniać żadnych wymagań na drodze?",
         "options": {
-          "A": "Tak, wszystkie zasady drogowe znikają",
-          "B": "Nie; wyjątek obejmuje tylko określone wymagania",
-          "C": "Tak, wystarczy oznaczenie kontenera logo armatora"
+          "A": "Tak; dokument morski zwalnia z całego ADR na drogowym odcinku, jeśli ładunek pozostał w tym samym kontenerze.",
+          "B": "Nie; odstępstwo obejmuje tylko wymagania wyraźnie wskazane w ADR, a pozostałe nadal obowiązują.",
+          "C": "Tak; dokument IMDG może zastąpić wszystkie wymagania ADR, jeśli zawiera opis towaru."
         },
         "correct_option": "B",
-        "explanation": "Odstępstwo dla przewozu połączonego z transportem morskim dotyczy tylko określonych wymagań i działa pod warunkami wskazanymi w ADR. Nie zwalnia automatycznie z całego prawa drogowego ani z obowiązków bezpieczeństwa. Logo armatora nie zastępuje dokumentów, oznakowania i pozostałych wymagań. Podstawa: ADR 1.1.4.2.1.",
+        "explanation": "Nie. ADR 1.1.4.2.1 przewiduje odstępstwo tylko w określonych warunkach i dla wskazanych wymagań; nie wyłącza całego ADR na drodze. Sam przewóz statkiem ani dokument IMDG nie oznaczają, że można pominąć kontrolę dokumentów, oznakowania i innych wymagań drogowych. Przed wyjazdem sprawdź, czy konkretny wyjątek ma zastosowanie do tej trasy. Podstawa: ADR 1.1.4.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -414,7 +414,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "editorial_result": "distractors_and_explanation_revised_4x108_specialist_review_pending"
     },
     {
       "id": "ADR-B-0390",
