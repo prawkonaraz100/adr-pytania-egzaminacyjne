@@ -80,6 +80,9 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+### Ćwiczenie: kolejny załadunek po wycieku
+Po rozładunku na podłodze pojazdu widać pozostałości nieznanej cieczy; kolejna paleta już czeka. **Co robi:** (1) wstrzymuje załadunek; (2) nie dotyka ani nie przykrywa plamy; (3) zgłasza problem i uzgadnia bezpieczne oczyszczenie; (4) dopuszcza kolejny ładunek po usunięciu zanieczyszczenia. **Dlaczego:** pozostałości mogą narazić ludzi i uszkodzić następny towar. Powtórz `ADR-B-0009`, `ADR-B-0177`, `ADR-B-0514` i `SC-ADR-B-03-03`. Podstawa do sprawdzenia: ADR 7.5.8.1.
+
 ## Co musisz zapamiętać
 - Przy wycieku najpierw chroń siebie i innych; nie dotykaj substancji i nie rozpoznawaj jej po zapachu.
 - Nie spłukuj nieznanej substancji do kanalizacji.
