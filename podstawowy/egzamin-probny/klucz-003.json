@@ -19,11 +19,11 @@
     },
     {
       "number": 2,
-      "id": "ADR-B-0425",
-      "correct_option": "A",
-      "explanation": "Kod zgodności 1.4S może umożliwiać wspólny załadunek w szczególnej sytuacji, ale tylko po spełnieniu warunków wskazanych w ADR. Nie znosi automatycznie wszystkich zakazów ładowania razem, a sam kod nie zastępuje sprawdzenia uwagi (a). Dlatego przed załadunkiem trzeba sprawdzić tabelę i warunki dotyczące pozostałych towarów. Podstawa: ADR 7.5.2.1, uwaga (a).",
+      "id": "ADR-B-0628",
+      "correct_option": "B",
+      "explanation": "Ładunek musi być zabezpieczony przed przemieszczaniem, ale mocowanie nie może powodować uszkodzenia opakowań. Wgniecenie oznacza, że trzeba zmienić ułożenie, rozłożyć nacisk lub zastosować odpowiednie zabezpieczenie. Samo sprawdzenie, czy paleta się przesuwa, nie wystarcza, a dociągnięcie kolejnych pasów może zwiększyć szkody. Podstawa: ADR 7.5.7.1.",
       "legal_basis": [
-        "ADR 2025, 7.5.2.1, uwaga (a)"
+        "ADR 2025, 7.5.7.1"
       ],
       "lesson_path": "../lekcje/ADR-B-09.md"
     },
@@ -59,11 +59,11 @@
     },
     {
       "number": 6,
-      "id": "ADR-B-0289",
+      "id": "ADR-B-0623",
       "correct_option": "C",
-      "explanation": "Nalepka 6.1 z czaszką i skrzyżowanymi piszczelami ostrzega przed materiałem trującym. Materiały zakaźne klasy 6.2 mają inny symbol, a materiały żrące należą do klasy 8. Numer klasy i symbol należy odczytywać razem, aby nie pomylić zagrożenia toksycznego z zakaźnym lub żrącym. Podstawa: ADR 5.2.2.2.2.",
+      "explanation": "Klasa 6.1 dotyczy materiałów trujących, czyli takich, które mogą zaszkodzić organizmowi po wniknięciu do niego. Odpowiedź A opisuje klasę 6.2, a B klasę 8. Sama klasa nie mówi jeszcze, jak duże jest ryzyko w konkretnej sytuacji; kierowca powinien sprawdzić oznakowanie, dokumenty i instrukcje, a nie dotykać ani wąchać substancji. Podstawa: ADR 2.2.61.1.1.",
       "legal_basis": [
-        "ADR 2025, 5.2.2.2.2"
+        "ADR 2025, 2.2.61.1.1"
       ],
       "lesson_path": "../lekcje/ADR-B-02.md"
     },
