@@ -1048,20 +1048,20 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dwa kartony nie znoszą automatycznie kodu E."
+          "rationale": "Ograniczenie kodu E nie jest ogólnie ograniczone wyłącznie do cystern."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Jazda nocą nie jest ogólnym wyjątkiem od kodu E."
+          "rationale": "Pora dnia ani natężenie ruchu nie znoszą ograniczenia tunelowego."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Jeśli stosuje się ograniczenie E, należy ominąć tunel kategorii E."
+          "rationale": "Jeśli przewóz podlega kodowi E, należy ominąć tunel kategorii E."
         }
       },
       "observed_answer_key": "C",
       "notes_on_conditions": "Inne wyłączenia mogą zmienić stosowanie kodu, ale pytanie wprost je wyklucza.",
-      "editorial_result": "no_additional_key_conflict_found_in_this_pass",
+      "editorial_result": "wording_and_distractors_refined_in_stage_4x109; specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -1070,12 +1070,12 @@
         "module_id": "ADR-B-11",
         "stem": "Na trasie znajduje się tunel kategorii E. Przewozisz sztuki przesyłek z kodem tunelowym E, a jednostka podlega ograniczeniom z 8.6.4. Co robisz?",
         "options": {
-          "A": "Przejeżdżasz, jeżeli towar mieści się w dwóch kartonach",
-          "B": "Przejeżdżasz nocą, gdy natężenie ruchu w tunelu jest mniejsze",
-          "C": "Wybierasz trasę bez tunelu kategorii E"
+          "A": "Wjechać, bo ograniczenie kodu E dotyczy wyłącznie przewozu w cysternie.",
+          "B": "Wjechać poza godzinami szczytu, gdy ruch w tunelu jest mniejszy.",
+          "C": "Wybrać trasę bez tunelu kategorii E."
         },
         "correct_option": "C",
-        "explanation": "Kod tunelowy E oznacza nałożenie na przewóz objęty tym ograniczeniem zakazu przejazdu przez tunel kategorii E. Kierowca powinien sprawdzić trasę i wybrać objazd, zamiast liczyć na to, że mała liczba kartonów albo pora nocna zmieni warunki przewozu. Żadna z tych okoliczności sama w sobie nie znosi ograniczenia tunelowego, dlatego A i B są błędne. Podstawa: ADR 8.6.4.",
+        "explanation": "Jeśli przewóz podlega ograniczeniu kodu E, kierowca powinien ominąć tunel kategorii E. Nie ma ogólnej zasady, że ograniczenie dotyczy wyłącznie cystern; trzeba odczytać kod dla towaru i uwzględnić postać przewozu zgodnie z ADR. Godzina przejazdu ani natężenie ruchu nie znoszą ograniczenia. Podstawa: ADR 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
