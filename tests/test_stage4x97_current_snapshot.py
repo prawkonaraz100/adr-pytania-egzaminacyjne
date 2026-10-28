@@ -7,8 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASIC = ROOT / "podstawowy"
-REPORT = BASIC / "raporty" / "etap-4x96-proba60-integracja-2026-10-27.md"
-SAMPLE = BASIC / "raporty" / "etap-4x96-wykluczenia-prob.json"
+REPORT = BASIC / "raporty" / "etap-4x107-proba40-dystraktory-lekcje-2026-10-28.md"
+SAMPLE = BASIC / "raporty" / "etap-4x107-wykluczenia-proby.json"
 MANIFEST = ROOT / "review" / "specialist" / "PAKIET-0609-MANIFEST.json"
 
 
@@ -30,8 +30,8 @@ class CurrentSnapshotTests(unittest.TestCase):
         self.assertTrue((BASIC / "raporty" / current_report).is_file())
         self.assertIn(current_report, handoff)
         self.assertIn(current_report, review_index)
-        self.assertIn("raporty/etap-4x96-proba60-integracja-2026-10-27.md", learner)
-        self.assertIn("raporty/etap-4x96-wykluczenia-prob.json", learner)
+        self.assertIn("raporty/etap-4x107-proba40-dystraktory-lekcje-2026-10-28.md", learner)
+        self.assertIn("raporty/etap-4x107-wykluczenia-proby.json", learner)
         self.assertTrue(REPORT.is_file())
         self.assertTrue(SAMPLE.is_file())
 
@@ -46,15 +46,15 @@ class CurrentSnapshotTests(unittest.TestCase):
         manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(sample["source_bank_blob_sha"], bank_sha)
         self.assertEqual(manifest["current_bank_blob_sha"], bank_sha)
-        self.assertEqual(len(sample["sample_ids"]), 60)
-        self.assertEqual(len(set(sample["sample_ids"])), 60)
+        self.assertEqual(len(sample["sample_ids"]), 40)
+        self.assertEqual(len(set(sample["sample_ids"])), 40)
         self.assertTrue(set(sample["sample_ids"]).issubset(by_id))
         excluded = set(sample["excluded_ids"])
         self.assertTrue(set(sample["sample_ids"]).isdisjoint(excluded))
         self.assertEqual(sample["excluded_distinct_ids"], len(excluded))
         self.assertEqual(sample["candidate_pool_size"], len(bank) - len(excluded))
-        self.assertIn("4x86", sample["limitation"])
-        self.assertIn("cannot prove disjointness", sample["limitation"])
+        self.assertIn("4x103–4x106", sample["limitation"])
+        self.assertIn("nie dowodzi disjointness", sample["limitation"])
         self.assertEqual(len(bank), 609)
         self.assertEqual(len(by_id), 609)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in bank))

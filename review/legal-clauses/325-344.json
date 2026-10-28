@@ -193,15 +193,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant A („Tak, wystarczy dopisać słowo ODPAD”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.5; nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Błędne: nie wolno wybierać numeru UN na podstawie przypuszczenia o składniku odpadu; klasyfikacja musi wynikać z właściwych zasad."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wariant B jest zgodny z przedstawioną w pytaniu zasadą: Przepis wyraźnie wyklucza zastosowanie tej procedury do materiałów niedopuszczonych do przewozu. Wymaga jeszcze niezależnego porównania z polskim brzmieniem aktu."
+          "rationale": "Poprawne: procedura uproszczona nie uchyla zakazu przewozu materiału, który jest niedopuszczony do przewozu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Tak, jeśli pojazd ma gaśnicę”) jest niezgodny z zakresem wskazanego przepisu ADR 2025, 2.1.3.5.5; nie stanowi poprawnej alternatywy w opisanej sytuacji."
+          "rationale": "Błędne: opakowanie spełniające wymagania nie legalizuje przewozu zakazanego materiału; opakowanie i dopuszczalność przewozu to odrębne warunki."
         }
       },
       "observed_answer_key": "B",
@@ -214,12 +214,12 @@
         "module_id": "ADR-B-03",
         "stem": "Odpad ma nieznany dokładnie skład, ale wiadomo, że zawiera materiał zakazany do przewozu według przepisów klasyfikacyjnych. Czy 2.1.3.5.5 pozwala nadać mu dowolny numer UN?",
         "options": {
-          "A": "Tak, wystarczy dopisać słowo ODPAD",
-          "B": "Nie, procedury tej nie stosuje się do towarów niedopuszczonych do przewozu",
-          "C": "Tak, jeśli pojazd ma gaśnicę"
+          "A": "Tak, jeśli skład odpadu jest nieznany, można wybrać numer UN na podstawie najbardziej prawdopodobnego składnika",
+          "B": "Nie, procedura nie pozwala nadać numeru UN towarowi, którego przewóz jest zakazany",
+          "C": "Tak, jeśli opakowanie ma oznaczenie UN i spełnia wymagania dla wybranego numeru"
         },
         "correct_option": "B",
-        "explanation": "Uproszczona procedura klasyfikacji odpadu nie pozwala nadać dowolnego numeru UN (czterocyfrowego identyfikatora towaru niebezpiecznego) materiałowi, którego przewóz jest zakazany. Dopisek „ODPAD” ani obecność gaśnicy nie legalizują przewozu niedopuszczonej substancji. Najpierw trzeba ustalić, czy materiał w ogóle może być przewożony na warunkach ADR. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Uproszczona procedura klasyfikacji odpadu nie pozwala nadać numeru UN materiałowi, którego przewóz jest zakazany. Nie wolno wybierać numeru na podstawie przypuszczeń ani zakładać, że właściwe opakowanie samo dopuszcza towar do transportu. Najpierw trzeba ustalić, czy materiał w ogóle może być przewożony, a potem zastosować właściwe zasady klasyfikacji. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -229,7 +229,8 @@
         ],
         "legal_basis_version": "ADR-2025-PL",
         "image": null
-      }
+      },
+      "editorial_result": "distractors_and_explanation_revised_4x107_specialist_review_pending"
     },
     {
       "id": "ADR-B-0330",
