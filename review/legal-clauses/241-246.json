@@ -106,19 +106,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "W opisanej sytuacji odpowiedź „Tak, gdy ma rękawice” jest sprzeczna z działaniem wynikającym z ADR 2025, 8.3.3; potwierdzenie polskiego brzmienia nadal wymagane."
+          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "W opisanej sytuacji odpowiedź „Tak, jeżeli spedytor zgodzi się telefonicznie” jest sprzeczna z działaniem wynikającym z ADR 2025, 8.3.3; potwierdzenie polskiego brzmienia nadal wymagane."
+          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z ADR 2025, 8.3.3: Opakowanie z towarem niebezpiecznym powinno pozostać zamknięte podczas przewozu, ponieważ otwarcie może uwolnić niebezpieczną zawartość. Załodze nie wolno samodzielnie otwierać takich przesyłek. Rękawice ani telefoniczna zgoda spedytora nie uchylają tego zakazu. Podstawa: ADR 8.3.3."
+          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Znaczenie przepisów zależy od sytuacji i wyjątków. Potrzebna pełna kontrola dosłownego polskiego ADR 2025 ze sprostowaniem i niezależnym ekspertem.",
+      "notes_on_conditions": "Znaczenie przepisów zależy od sytuacji i wyjątków. Potrzebna pełna kontrola dosłownego polskiego ADR 2025 ze sprostowaniem i niezależnym ekspertem. Etap 4x116: redakcja językowa/dystraktorów; nie stanowi zatwierdzenia prawnego.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -128,12 +128,12 @@
         "module_id": "ADR-B-04",
         "stem": "Czy członek załogi ADR może otworzyć sztukę przesyłki z towarem niebezpiecznym podczas przewozu?",
         "options": {
-          "A": "Tak, jeśli załoga założy rękawice ochronne przed otwarciem",
-          "B": "Tak, jeśli spedytor zatwierdzi otwarcie przez telefon",
+          "A": "Tak, jeśli załoga założy rękawice ochronne i uzna, że otwarcie jest bezpieczne",
+          "B": "Tak, jeśli kierowca chce sprawdzić oznakowanie, a przesyłka nie wygląda na uszkodzoną",
           "C": "Nie wolno otwierać sztuk przesyłek ADR podczas przewozu"
         },
         "correct_option": "C",
-        "explanation": "Podczas przewozu sztuka przesyłki ADR powinna pozostać zamknięta, ponieważ jej otwarcie może uwolnić niebezpieczną zawartość i narazić załogę. Zakaz nie znika tylko dlatego, że członek załogi ma rękawice albo spedytor wyraził zgodę przez telefon. Jeśli pojawia się problem z przesyłką, należy postępować zgodnie z procedurami, a nie otwierać ją samowolnie. Podstawa: ADR 8.3.3.",
+        "explanation": "Podczas przewozu nie wolno otwierać sztuk przesyłek ADR, ponieważ można uwolnić niebezpieczną zawartość lub uszkodzić opakowanie. Rękawice nie znoszą tego zakazu, a chęć sprawdzenia oznakowania nie jest powodem do otwierania przesyłki. Jeśli etykieta jest niewidoczna albo pojawia się problem z opakowaniem, zatrzymaj się w bezpiecznym miejscu i postępuj zgodnie z właściwą procedurą. Podstawa: ADR 8.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",

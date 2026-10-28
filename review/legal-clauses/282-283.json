@@ -55,19 +55,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępna interpretacja ADR 2025, 8.1.4.4: Gaśnice wymagają okresowej kontroli i oznaczeń pozwalających ustalić miesiąc i rok następnego badania lub maksymalną dopuszczalną datę użytkowania."
+          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant „Uznać ją za dopuszczoną bez możliwości oceny terminu kontroli” pomija obowiązek określony w ADR 2025, 8.1.4.4; niezależna kontrola jeszcze wymagana."
+          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant „Wystarczy nakleić dowolną datę bez kontroli urządzenia” pomija obowiązek określony w ADR 2025, 8.1.4.4; niezależna kontrola jeszcze wymagana."
+          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wyłączenie i wymagania gaśnic zależą od przewozu oraz okresowej kontroli; literalne porównanie urzędowego polskiego tekstu i sprostowania pending.",
+      "notes_on_conditions": "Wyłączenie i wymagania gaśnic zależą od przewozu oraz okresowej kontroli; literalne porównanie urzędowego polskiego tekstu i sprostowania pending. Etap 4x116: redakcja językowa/dystraktorów; nie stanowi zatwierdzenia prawnego.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -77,11 +77,11 @@
         "stem": "Wymagana gaśnica w pojeździe ADR ma brakujące oznaczenie następnego terminu kontroli. Co należy zrobić?",
         "options": {
           "A": "Zapewnić gaśnicę spełniającą obowiązek kontroli i oznakowania terminu kolejnego badania",
-          "B": "Uznać ją za dopuszczoną bez możliwości oceny terminu kontroli",
-          "C": "Wystarczy nakleić dowolną datę bez kontroli urządzenia"
+          "B": "Uznać gaśnicę za gotową, jeżeli działa i plomba jest cała, mimo że brakuje oznaczenia terminu kontroli",
+          "C": "Samodzielnie dopisać termin z poprzedniej naklejki, bez sprawdzenia historii kontroli urządzenia"
         },
         "correct_option": "A",
-        "explanation": "Gaśnica musi przechodzić wymagane kontrole, a jej oznaczenia mają pozwalać ustalić termin kolejnego badania lub maksymalny czas użytkowania. Brak daty nie pozwala pewnie ocenić, czy urządzenie nadal spełnia wymagania. Nie wolno samodzielnie naklejać przypadkowej daty bez kontroli. Podstawa: ADR 8.1.4.4.",
+        "explanation": "Gaśnica musi przechodzić wymagane kontrole, a oznaczenie powinno pozwalać ustalić termin następnego badania lub maksymalny okres użytkowania. Sprawne działanie i cała plomba nie potwierdzają, że kontrola jest aktualna. Nie należy też przepisywać daty z poprzedniej naklejki bez sprawdzenia urządzenia i jego historii. Przed wyjazdem zapewnij gaśnicę spełniającą wymagania. Podstawa: ADR 8.1.4.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
