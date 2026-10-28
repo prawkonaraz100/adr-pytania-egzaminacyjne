@@ -88,6 +88,9 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+### Ćwiczenie: dyspozytor mówi „jedź, dokument wystarczy”
+Kierowca widzi niepełny opis towaru i nie może potwierdzić danych w tabeli A. **Co robi:** (1) porównuje numer UN z dokumentem; (2) wskazuje brakujące dane nadawcy; (3) sprawdza dopuszczalność przewozu; (4) odmawia rozpoczęcia jazdy do wyjaśnienia niezgodności. **Dlaczego:** polecenie firmy nie zastępuje wymagań dokumentacyjnych. Powtórz pytania `ADR-B-0002`, `ADR-B-0573`, `ADR-B-0608` i scenariusz `SC-ADR-B-01-03`. Podstawa do sprawdzenia: ADR 3.2 tabela A, 5.4.1.1.1.
+
 ## Co musisz zapamiętać
 - Najpierw ustal towar i właściwy wpis, potem oceniaj wyłączenie.
 - LQ, EQ, 1.1.3.1 i 1.1.3.6 to różne mechanizmy.
