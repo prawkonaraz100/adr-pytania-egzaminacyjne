@@ -160,11 +160,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada tabeli 1.10.3.1.2: Oznacza obowiązkową nalepkę A. Należy uwzględniać typ przewozu, próg i przypisy, zamiast pomijać wskazane ograniczenia."
+          "rationale": "Litera „a” odsyła do przypisu; nie nakazuje przenosić wartości z sąsiedniej kolumny."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada tabeli 1.10.3.1.2: To próg 100 kilogramów. Należy uwzględniać typ przewozu, próg i przypisy, zamiast pomijać wskazane ograniczenia."
+          "rationale": "Próg 100 kg nie wynika z samej litery w tabeli; należy odczytać właściwy przypis."
         }
       },
       "observed_answer_key": "A",
@@ -179,11 +179,11 @@
         "stem": "W tabeli 1.10.3.1.2 przy rodzaju przewozu wpisano literę a. Jak rozumieć taki zapis?",
         "options": {
           "A": "Oznacza, że dana kolumna nie ma zastosowania do wskazanego przypadku",
-          "B": "Oznacza obowiązek umieszczenia nalepki z literą A na każdej sztuce przesyłki",
-          "C": "Oznacza próg ilościowy wynoszący dokładnie 100 kilogramów dla danego towaru"
+          "B": "Wskazuje, że należy zastosować wartość z sąsiedniej kolumny tabeli.",
+          "C": "Oznacza próg 100 kg dla danego towaru, niezależnie od przypisu tabeli."
         },
         "correct_option": "A",
-        "explanation": "Litera „a” w tabeli ADR 1.10.3.1.2 jest odsyłaczem do przypisu, który wyjaśnia, że dana kolumna nie ma zastosowania w opisanym przypadku. Nie jest to nalepka, którą trzeba umieścić na opakowaniu, ani liczba określająca próg 100 kg. Należy czytać przypis razem z odpowiednim wierszem tabeli, a nie dopisywać mu własne znaczenie. Podstawa: ADR 1.10.3.1.2, przypis (a).",
+        "explanation": "Litera „a” jest odsyłaczem do przypisu tabeli, który mówi, że ta kolumna nie ma zastosowania w opisanym przypadku. Nie oznacza, że należy przenieść wartość z sąsiedniej kolumny ani że automatycznie obowiązuje próg 100 kg. Zawsze czytaj przypis razem z odpowiednim wierszem tabeli. Podstawa: ADR 1.10.3.1.2, przypis (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
