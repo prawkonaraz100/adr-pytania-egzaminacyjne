@@ -41,7 +41,7 @@ Skrypt porównał podobieństwo treści pytań wewnątrz każdej kompetencji teo
 | ADR-B-0613 | B-03-K05 | Rozlew nieznanej substancji i opary | ADR 5.4.3.4 |
 | ADR-B-0614 | B-05-K05 | Pożar ładowni nawet przy niewielkich płomieniach | ADR 5.4.3.4 |
 | ADR-B-0615 | B-06-K04 | Litera X i reakcja z wodą | ADR 5.3.2.3.1 |
-| ADR-B-0616 | B-06-K06 | Powtórzona cyfra i dalsza identyfikacja towaru | ADR 5.3.2.3.1 |
+| ADR-B-0616 | B-06-K01 | Identyfikacja towaru numerem UN i dokumentem, bez zgadywania po numerze zagrożenia | ADR 5.3.2.3.1; 5.4.1.1.1 |
 | ADR-B-0617 | B-09-K04 | Umiejscowienie strzałek kierunkowych | ADR 5.2.1.10.1; 7.5.1.5 |
 | ADR-B-0618 | B-09-K05 | Uginające się opakowanie przy piętrzeniu | ADR 7.5.7.1–7.5.7.2 |
 | ADR-B-0619 | B-01-K03 | Okres ważności zaświadczenia kierowcy | ADR 8.2.2.8.2 |
