@@ -3,7 +3,7 @@
 - Data: 2026-10-28.
 - Punkt wejścia: świeży `main` `f32658028db001698ca398ab5292221e8467886d` (po PR #578).
 - Bank po przeniesieniu zmian: 609 pytań; blob `35549752d913c85daf1fc3c9492d9c04fce777a1`; wszystkie `needs_review`, zero `verified`.
-- Seed próby: `41192026`; pula po wykluczeniach: 453; próba: 40 ID, bez powtórzeń.
+- Seed próby: `41192026`; pula po wykluczeniach: 430; próba: 40 ID, bez powtórzeń.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82%; maksimum działu 14,29%; minimum explanation 300 znaków; poniżej 200 znaków: 0.
 
 ## 1. PR #579 — rozstrzygnięcie
@@ -70,4 +70,4 @@ Wszystkie poniższe pytania przeczytano pod kątem sensu poprawnej odpowiedzi, w
 - Nowe zmiany w próbce 4x119: 0, ponieważ wszystkie 40 wyjaśnień spełniło kryteria redakcyjne.
 - Statusy banku: 609 `needs_review`, 0 `verified`.
 - Metryki: 11,82% globalnie; maksimum działu 14,29%; minimum explanation 300 znaków.
-- Próba rozłączna z 4x114–4x118 i siedmioma odzyskanymi ID. Nie deklaruje się rozłączności z każdą wcześniejszą próbą 4x103–4x113.
+- Próba rozłączna z 4x114–4x118 i siedmioma odzyskanymi ID; wykluczono 179 unikalnych ID, pula liczy 430. Nie deklaruje się rozłączności z każdą wcześniejszą próbą 4x103–4x113.
