@@ -59,11 +59,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Wyłącznie naklejka z nazwą firmy na pojeździe”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przewóz towarów dużego ryzyka wymaga skutecznych środków ograniczających kradzież pojazdu i ładunku, stosowanych zgodnie z odpowiednimi wymaganiami. Sama naklejka firmowa ani zamknięte okno nie zapewniają takiej ochrony. Zabezpieczenia nie mogą przy tym utrudniać działań ratowniczych. Podstawa: ADR 1.10.3.3. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Samo zamknięcie pojazdu i oznaczenie firmowe nie stanowią wystarczających środków ochrony dla towarów dużego ryzyka."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Brak zabezpieczenia poza zamknięciem okna kierowcy”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przewóz towarów dużego ryzyka wymaga skutecznych środków ograniczających kradzież pojazdu i ładunku, stosowanych zgodnie z odpowiednimi wymaganiami. Sama naklejka firmowa ani zamknięte okno nie zapewniają takiej ochrony. Zabezpieczenia nie mogą przy tym utrudniać działań ratowniczych. Podstawa: ADR 1.10.3.3. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Środki ochrony dotyczą także postojów, gdy pojazd i ładunek mogą być narażone na kradzież lub nieuprawniony dostęp."
         }
       },
       "observed_answer_key": "A",
@@ -77,11 +77,11 @@
         "stem": "Przewożone są towary niebezpieczne dużego ryzyka, do których ma zastosowanie ADR 1.10.3.3. Jakie zabezpieczenie jest wymagane?",
         "options": {
           "A": "Stosowanie skutecznych środków zapobiegania kradzieży pojazdu i ładunku",
-          "B": "Wyłącznie naklejka z nazwą firmy na pojeździe",
-          "C": "Brak zabezpieczenia poza zamknięciem okna kierowcy"
+          "B": "Ograniczyć ochronę do zamknięcia pojazdu i oznaczenia go nazwą firmy.",
+          "C": "Stosować dodatkowe zabezpieczenia tylko podczas jazdy, a nie podczas postoju."
         },
         "correct_option": "A",
-        "explanation": "Przewóz towarów dużego ryzyka wymaga skutecznych środków ograniczających kradzież pojazdu i ładunku, stosowanych zgodnie z odpowiednimi wymaganiami. Sama naklejka firmowa ani zamknięte okno nie zapewniają takiej ochrony. Zabezpieczenia nie mogą przy tym utrudniać działań ratowniczych. Podstawa: ADR 1.10.3.3.",
+        "explanation": "Towary niebezpieczne dużego ryzyka wymagają skutecznych środków, które ograniczają kradzież i nieuprawniony dostęp do pojazdu oraz ładunku. Sama naklejka firmowa lub zamknięte okno nie wystarczą, a zabezpieczenia trzeba stosować również podczas postoju, nie tylko w czasie jazdy. Środki ochrony nie mogą utrudniać działań ratowniczych. Podstawa: ADR 1.10.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",

@@ -1,3 +1,11 @@
+## Najnowsza synchronizacja — etap 4x120 (28.10.2026)
+
+- Aktualny blob banku: `04ace7f478868d0901bbc45fb26af3d866e18538`.
+- Bank: 609 pytań; wszystkie `needs_review`, 0 `verified`; minimum explanation 300 znaków.
+- Próbka 4x120: 40 ID, seed `411202026`; 4 pytania w próbie otrzymały poprawione dystraktory i dopasowane explanation, bez zmiany ID, poprawnych liter i podstaw prawnych; 5 dodatkowych celowanych follow-upów opisano osobno.
+- Warianty i klucze 001–005 zachowują zestawy pytań i są zsynchronizowane z aktualnym blobem banku; żaden klucz nie wymagał remapowania.
+- Raport: [Etap 4x120](../raporty/etap-4x120-proba40-dystraktory-sync-2026-10-28.md); manifest: [próba i wykluczenia](../raporty/etap-4x120-wykluczenia-proby.json).
+
 ## Najnowsza synchronizacja — etap 4x119 (28.10.2026)
 
 - Aktualny blob banku: `35549752d913c85daf1fc3c9492d9c04fce777a1`.

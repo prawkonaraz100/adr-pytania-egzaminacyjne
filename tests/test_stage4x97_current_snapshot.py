@@ -7,8 +7,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASIC = ROOT / "podstawowy"
-REPORT = BASIC / "raporty" / "etap-4x119-proba40-spojnosc-2026-10-28.md"
-SAMPLE = BASIC / "raporty" / "etap-4x119-wykluczenia-proby.json"
+REPORT = BASIC / "raporty" / "etap-4x120-proba40-dystraktory-sync-2026-10-28.md"
+SAMPLE = BASIC / "raporty" / "etap-4x120-wykluczenia-proby.json"
 MANIFEST = ROOT / "review" / "specialist" / "PAKIET-0609-MANIFEST.json"
 
 
