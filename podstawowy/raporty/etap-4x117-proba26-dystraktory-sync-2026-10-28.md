@@ -35,7 +35,7 @@ Ograniczenie: wcześniejsze raporty 4x103–4x106 nie zawsze odróżniają ID wy
 ## Scenariusze i egzaminy
 
 - Scenariusze: 39; brakujące wymagane pola lub niezgodne/nieistniejące question ID: 0.
-- Zmienione ID nie występują w arkuszach 001–005, więc nie zmieniano tekstu pytań ani kluczy w arkuszach. Zaktualizowano `source_bank_head` we wszystkich 5 wariantach i 5 kluczach do nowego blobu banku `809986a71cf9911b8c33366c3b53b0db4a59889f`.
+- Zmienione ID nie występują w arkuszach 001–005, więc nie zmieniano tekstu pytań ani kluczy w arkuszach. Zaktualizowano `source_bank_head` we wszystkich 5 wariantach i 5 kluczach do nowego blobu banku `30b9212b2feff4232440416c9ab4052e93cc1f4a`.
 - Zaktualizowano migawki prawne A/B/C oraz migawki sekwencyjne dla pięciu zmienionych ID. Ich status nadal wynosi `needs_review`; specjalista musi niezależnie potwierdzić treść prawną.
 
 ## Quality Gate — preflight
