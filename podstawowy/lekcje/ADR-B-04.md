@@ -67,6 +67,9 @@ Po przeczytaniu lekcji i rozwiązaniu pytań działu przejdź do [mapy scenarius
 
 Dla każdego przypadku opisz bezpieczną kolejność działań, wyjaśnij dlaczego pochopne rozwiązanie jest błędne i sprawdź powiązane pytania zapisane w scenariuszu. Scenariusze są symulacjami; nie zastępują rzeczywistych ćwiczeń pod nadzorem instruktora.
 
+### Ćwiczenie: parking wskazany przez dyspozytora
+Przed postojem kierowca zauważa, że wskazany parking może nie spełniać warunków nadzoru. **Kolejne decyzje:** (1) sprawdza kolumnę 19 tabeli A i właściwe przepisy szczególne; (2) ustala, czy ADR 8.4 dotyczy tego ładunku; (3) wybiera zgodne miejsce zgodnie z wymaganą kolejnością; (4) wyjaśnia zmianę planu z dyspozytorem bez traktowania jego zgody jako wyjątku. **Dlaczego:** wygoda ani polecenie służbowe nie znoszą warunków nadzoru. Pytania: `ADR-B-0310`, `ADR-B-0347`, `ADR-B-0581`; scenariusz `SC-ADR-B-04-03`. Podstawa: ADR 3.2 tabela A kolumna 19 i 8.4.1.
+
 ## Co musisz zapamiętać
 - Zakaz palenia, zasada dotycząca silnika i zakaz otwierania przesyłek dotyczą różnych czynności.
 - Przy rozlewie unikaj kontaktu i oparów; nie podejmuj działań, których nie możesz wykonać bezpiecznie.
