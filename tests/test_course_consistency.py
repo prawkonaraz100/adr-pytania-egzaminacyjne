@@ -81,6 +81,11 @@ class CourseConsistencyTests(unittest.TestCase):
         strict = sum(group["strict"] for group in stats.values())
         metric = f"{strict}/{len(bank)} = {100 * strict / len(bank):.2f}%".replace(".", ",")
         self.assertIn(metric, readme)
+        status_block = readme.split("## Słowniczek", 1)[0]
+        self.assertEqual(
+            status_block.count("Wskaźnik „poprawna = jedyna najdłuższa”"), 1,
+            "learner README must not duplicate the live answer-length metric",
+        )
         for number in range(1, 14):
             module = f"ADR-B-{number:02d}"
             lesson = root / "podstawowy" / "lekcje" / f"{module}.md"
