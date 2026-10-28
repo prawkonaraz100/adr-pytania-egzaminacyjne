@@ -714,16 +714,18 @@ Najnowsza redakcyjna partia 4x125 (2026-10-28): [raport próbki 40, dystraktoró
 
 Wszystkie rekordy poniżej mają status `needs_review`; nie są zatwierdzone. Porównać każdy wariant A/B/C z pełnym polskim tekstem ADR 2025 (Dz.U. 2025 poz. 642) i sprostowaniem poz. 1575.
 
-| ID | Dział / kompetencja | Podstawa do sprawdzenia | Zakres niezależnej kontroli |
-|---|---|---|---|
-| ADR-B-0610 | B-02 / K14 | 3.2.1 tabela A kol. 5 | Nalepki zagrożeń vs pozostałe kolumny tabeli A |
-| ADR-B-0611 | B-02 / K04 | 2.2.41.1.1; 2.2.42.1.1 | Różnica klasy 4.1 i 4.2 |
-| ADR-B-0612 | B-03 / K04 | 5.4.3.4 | Ochrona kanalizacji bez narażania załogi |
-| ADR-B-0613 | B-03 / K05 | 5.4.3.4 | Unikanie kontaktu z rozlewem i oparami |
-| ADR-B-0614 | B-05 / K05 | 5.4.3.4 | Zakaz gaszenia pożaru przedziału ładunkowego |
-| ADR-B-0615 | B-06 / K04 | 5.3.2.3.1 | Znaczenie litery X i reakcja z wodą |
-| ADR-B-0616 | B-06 / K06 | 5.3.2.3.1 | Powtórzenie cyfry w numerze rozpoznawczym zagrożenia |
-| ADR-B-0617 | B-09 / K04 | 5.2.1.10.1; 7.5.1.5 | Zastosowanie i rozmieszczenie strzałek kierunkowych |
-| ADR-B-0618 | B-09 / K05 | 7.5.7.1–7.5.7.2 | Stabilność stosu i ochrona opakowań przed uszkodzeniem |
-| ADR-B-0619 | B-01 / K03 | 8.2.2.8.2 | Okres ważności i odnowienie zaświadczenia kierowcy |
-| ADR-B-0620 | B-13 / K07 | 5.4.3.2 | Język instrukcji pisemnych zrozumiały dla każdego członka załogi |
+| ID | Dział | Kompetencja | Pytanie | Klucz roboczy | Referencja ADR 2025 | Image | Literalne PL | Status |
+|---|---|---|---|---|---|---|---|---|
+| ADR-B-0610 | ADR-B-02 | ADR-B-02-K14 | Przy sprawdzaniu wpisu towaru w tabeli A ADR kierowca chce ustalić, jakie nalepki ostrzegawcze są wymagane. Którą kolumnę powinien odczytać? | A | ADR 2025, 3.2.1, tabela A, kolumna 5 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0611 | ADR-B-02 | ADR-B-02-K04 | Na dokumencie przewozowym wskazano klasę 4.1. Które wyjaśnienie pomaga odróżnić ją od klasy 4.2? | C | ADR 2025, 2.2.41.1.1; 2.2.42.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0612 | ADR-B-03 | ADR-B-03-K04 | Po wycieku ciecz zbliża się do kratki kanalizacyjnej, ale do odpływu można dojść tylko przez opary. Co powinien zrobić kierowca? | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0613 | ADR-B-03 | ADR-B-03-K05 | Kierowca zauważa rozlew nieznanej substancji i drażniące opary. Nie ma odpowiedniego sprzętu ochronnego. Jak powinien postąpić? | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0614 | ADR-B-05 | ADR-B-05-K05 | Ogień obejmuje przedział ładunkowy pojazdu przewożącego towary niebezpieczne. Płomienie wydają się niewielkie. Co powinien zrobić członek załogi? | A | ADR 2025, 5.4.3.4, instrukcje pisemne | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0615 | ADR-B-06 | ADR-B-06-K04 | Na górnym polu pomarańczowej tablicy ADR numer rozpoznawczy zagrożenia zaczyna się literą X. Jaką informację powinien zapamiętać kierowca? | B | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0616 | ADR-B-06 | ADR-B-06-K06 | Na tablicy pomarańczowej widnieje numer rozpoznawczy zagrożenia 33. Co oznacza powtórzenie cyfry 3? | C | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0617 | ADR-B-09 | ADR-B-09-K04 | Opakowanie kombinowane zawiera opakowania wewnętrzne z cieczą i podlega wymogowi strzałek kierunkowych. Gdzie należy umieścić strzałki? | A | ADR 2025, 5.2.1.10.1; 7.5.1.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0618 | ADR-B-09 | ADR-B-09-K05 | Na palecie można ustawić kilka warstw opakowań, ale dolne opakowanie zaczyna się uginać pod ciężarem. Co należy zrobić przed wyjazdem? | B | ADR 2025, 7.5.7.1–7.5.7.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0619 | ADR-B-01 | ADR-B-01-K03 | Kierowca ma zaświadczenie ADR, ale nie pamięta, jak długo zachowuje ono ważność. Jaki okres powinien sprawdzić na dokumencie? | C | ADR 2025, 8.2.2.8.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0620 | ADR-B-13 | ADR-B-13-K07 | Załoga otrzymała instrukcje pisemne ADR, ale jeden członek nie potrafi przeczytać ich języka. Co powinien zapewnić przewoźnik przed wyjazdem? | C | ADR 2025, 5.4.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+Przed ewentualną zmianą statusu specjalista powinien sprawdzić pełny tekst ADR 2025 w Dz.U. 2025 poz. 642 i sprostowanie Dz.U. 2025 poz. 1575, ocenić każdą opcję A/B/C osobno i zapisać rzeczywisty protokół recenzji.
