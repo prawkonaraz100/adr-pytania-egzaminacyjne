@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x122 (28.10.2026)
+
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `00d8dcc732fccefb5f5bbf021eec204533a75708`.
+- Raport: `podstawowy/raporty/etap-4x122-proba40-explanations-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x122-wykluczenia-proby.json`.
+- Zmiany: ADR-B-0026, ADR-B-0250, ADR-B-0362 i ADR-B-0542. Niezależna recenzja prawna nadal wymagana.
+
 ## Bieżąca migawka — etap 4x121 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `f18b273e3451730a4efc28e10cd0ff16b03807f5`.
