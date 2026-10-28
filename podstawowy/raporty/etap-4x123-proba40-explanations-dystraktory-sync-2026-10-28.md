@@ -70,7 +70,8 @@ Te dwa rekordy są oznaczone jako follow-upy, a nie jako część próbki 40. We
 ## Synchronizacja audytów i egzaminów
 
 - Zsynchronizowano migaweczki `review/legal-clauses/` oraz `review/sequential/` dla ID 0024, 0166, 0326, 0361, 0385 i 0387. Zachowano `needs_review` i status oczekujący na pełne porównanie urzędowego tekstu polskiego.
-- Warianty i klucze egzaminu próbnego 001–005 wskazują aktualny blob banku `dd247b2a1fe219c6b0a4643755c7cc820b842eeb`. Żaden ze zmienionych ID nie występuje w tych arkuszach, więc ich skład i rozkład liter nie wymagały zmian.
+- W pierwszym CI wykryto rozjazd opcji/kluczy w wariantach oraz stare blob SHA w dwóch kolejkach recenzyjnych. Naprawiono przyczynę na tej samej gałęzi PR #586: warianty i klucze 001–005 zsynchronizowano z bieżącym bankiem, a każdy wariant ma 30 unikalnych ID i rozkład kluczy A/B/C = 10/10/10. W każdym pytaniu tekst opcji wskazanej w kluczu odpowiada aktualnej poprawnej odpowiedzi banku.
+- Zaktualizowano `source_bank_blob_sha` w pakiecie i obu kolejkach recenzyjnych oraz uzupełniono uczciwy opis ograniczeń manifestu próbki: pełnej rozłączności z 4x103–4x113 nie można potwierdzić, ponieważ część dawnych raportów nie zawierała kompletnych list ID.
 
 ## Metryki po zmianach
 
@@ -84,3 +85,8 @@ Te dwa rekordy są oznaczone jako follow-upy, a nie jako część próbki 40. We
 ## Ograniczenia
 
 To przegląd dydaktyczny i redakcyjny, nie niezależna opinia prawna. Nie nadano statusu `verified`; nie rozpoczęto kursu cystern ani innego kursu.
+
+
+## Naprawa Quality Gate dla PR #586
+
+Pierwszy przebieg CI (run `40695333120`) zakończył się niepowodzeniem w testach synchronizacji egzaminów i pakietu specjalisty. Przyczyny: (1) warianty/klucze wskazywały nieaktualne odpowiedzi po zmianie dystraktorów; (2) `source_bank_blob_sha` w `KOLEJKA-PRIORYTETOWA-4X40.json` i `KOLEJKA-PRIORYTETOWA-4X44.json` pozostał na wcześniejszym banku; (3) manifest próbki pomijał jawne ograniczenie rozłączności z 4x103–4x113. Poprawiono te trzy obszary na tej samej gałęzi, bez zmiany ID ani statusów prawnych. Końcowe PASS ma zostać potwierdzone przez ponownie uruchomiony GitHub Actions.
