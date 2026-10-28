@@ -2,7 +2,7 @@
 
 - Data: 2026-10-28.
 - Punkt wejścia: świeży `main` po PR #580, commit `109dfac0134ce81adc527751aa0bd359cc17da4a`.
-- Bank po poprawkach: 609 pytań; blob SHA `0cea7c033fbde2a2f5e6b8be6e7d2f4a88f08759`; wszystkie `needs_review`, 0 `verified`.
+- Bank po poprawkach: 609 pytań; blob SHA `6cf4ff901a092fe445844a970b862000e6ce03bf`; wszystkie `needs_review`, 0 `verified`.
 - Próbka: 40 ID, seed `411202026`, kandydaci po wykluczeniu 450 unikalnych ID: 159.
 - Explanation w próbce: 40/40 przeczytano; 0 wymagało przepisywania, bo każde wyjaśnienie ma 2–5 zdań, co najmniej 300 znaków, najpierw wyjaśnia sens odpowiedzi, omawia mylące warianty i kończy podstawą.
 - Dystraktory: 4 pytania z bieżącej próbki poprawiono; dodatkowo 5 celowanych follow-upów poza próbą, gdyż w tych pytaniach znaleziono oczywiste lub słabo dydaktyczne błędne opcje.
@@ -54,7 +54,7 @@ ID, poprawne litery, podstawy prawne i statusy weryfikacji pozostały bez zmian.
 
 - 13 lekcji i 39 scenariuszy pozostają bez zmian merytorycznych; pytania nie zmieniły ID ani poprawnej litery.
 - Warianty i klucze 001–005 zachowują zestawy 30 ID, kolejność ID w wariancie i kluczu jest zgodna, a klucze nie wymagają remapowania liter.
-- Odświeżono `source_bank_head` w każdym wariancie i kluczu do SHA `0cea7c033fbde2a2f5e6b8be6e7d2f4a88f08759`.
+- Odświeżono `source_bank_head` w każdym wariancie i kluczu do SHA `6cf4ff901a092fe445844a970b862000e6ce03bf`.
 - Zmienione migawki audytu zachowują `needs_review`; żadne pytanie nie zostało oznaczone jako `verified`.
 
 ## Ograniczenia próbkowania
