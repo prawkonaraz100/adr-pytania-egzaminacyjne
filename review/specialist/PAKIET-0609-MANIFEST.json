@@ -145,7 +145,8 @@
     "record authentic reviewer/date/evidence/hash before any verified status",
     "check all 13 lessons and 13 instructor guides against the 39 scenario IDs and module-local question IDs",
     "check the five training exam variants and five keys against the current question bank; publication_authorized must remain false until independent approval",
-    "confirm explanations are understandable to a novice driver and assess each A/B/C independently"
+    "confirm explanations are understandable to a novice driver and assess each A/B/C independently",
+    "Sprawdzić instrukcję egzaminu próbnego pod kątem zgodności parametrów oficjalnego egzaminu podstawowego z Dz.U. 2024 poz. 964, § 9–11; rozdzielać oficjalne wymagania od statusu autorskich wariantów treningowych."
   ],
   "release_allowed": false,
   "practical_scenario_count": 39,
@@ -209,7 +210,8 @@
     "mock_exam_variants": 5,
     "mock_exam_keys": 5,
     "glossary_terms": 90,
-    "questions": 609
+    "questions": 609,
+    "learner_exam_instructions": 1
   },
   "last_literal_comparison_batch": {
     "id": "4x16-literal-comparison-batch5-0010-0337",
@@ -1020,6 +1022,14 @@
     "learner_exam_instruction": "podstawowy/egzamin-probny/INSTRUKCJA-KURSANTA.md",
     "official_exam_parameters_source": "Dz.U. 2024 poz. 964, § 9–11",
     "verification_status": "needs_review",
-    "formal_approvals": 0
+    "formal_approvals": 0,
+    "official_exam_parameters": {
+      "questions": 30,
+      "time_limit_minutes": 60,
+      "pass_mark_fraction": "2/3",
+      "pass_mark_correct": 20,
+      "source": "Dz.U. 2024 poz. 964, § 9–11",
+      "status": "official_exam_parameters_confirmed; training variants not official"
+    }
   }
 }
