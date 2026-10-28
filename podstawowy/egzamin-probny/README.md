@@ -1,3 +1,11 @@
+## Najnowsza synchronizacja — etap 4x119 (28.10.2026)
+
+- Aktualny blob banku: `35549752d913c85daf1fc3c9492d9c04fce777a1`.
+- Bank: 609 pytań; wszystkie `needs_review`, 0 `verified`; minimum explanation 300 znaków.
+- Siedem unikalnych zmian z zamkniętego PR #579 przeniesiono na nową gałąź, bez zmiany poprawnych liter; zaktualizowano migawki audytu.
+- Warianty i klucze 001–005 zachowują ID i poprawne litery; odświeżono ich `source_bank_head`.
+- Raport próby 40: [etap 4x119](../raporty/etap-4x119-proba40-spojnosc-2026-10-28.md).
+
 ## Najnowsza synchronizacja — etap 4x118 (28.10.2026)
 
 - Aktualny blob banku: `28d809ccbf973fc8101f456eb9ab0144165110f1`.
