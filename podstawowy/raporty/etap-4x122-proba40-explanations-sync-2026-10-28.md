@@ -52,5 +52,5 @@ Wskaźnik per dział: B-01 6/45 (13,33%); B-02 8/56 (14,29%); B-03 5/49 (10,20%)
 
 - Odświeżono migawki `review/legal-clauses` i `review/sequential` dla ADR-B-0026, 0250, 0362 i 0542.
 - W wariancie 004 zaktualizowano opcję C pytania ADR-B-0026; w kluczu 004 dopasowano explanation. Zaktualizowano `source_bank_head` we wszystkich wariantach i kluczach 001–005 do `00d8dcc732fccefb5f5bbf021eec204533a75708`.
-- Raport i manifest próbki: [etap-4x122-proba40-explanations-sync-2026-10-28.md](etap-4x122-proba40-explanations-sync-2026-10-28.md), [manifest](etap-4x122-wykluczenia-proby.json).
+- Manifest próbki: [etap-4x122-wykluczenia-proby.json](etap-4x122-wykluczenia-proby.json).
 - Lokalnego checkoutu repo nie udostępnia bieżące środowisko; nie deklaruję testów lokalnych. PR musi przejść pełny GitHub Actions Quality Gate. Podstawa ADR-B-0362 i pozostałe zmienione rekordy nadal wymagają niezależnej kontroli specjalisty.
