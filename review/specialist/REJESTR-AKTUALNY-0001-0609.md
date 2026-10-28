@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x131 (28.10.2026)
+
+- Bank: 609 pytań `needs_review`, 0 `verified`; blob SHA `595d47e4f7a15cc93a5c42cd8285d153529f906c`.
+- Raport: `podstawowy/raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md`.
+- Przejrzano ADR-B-0586–0609; jedna niespójność redakcyjna w ADR-B-0586 została poprawiona. Lekcje 13/13 i scenariusze 39/39 mają prawidłowe odwołania do banku.
+- Warianty i klucze próbne 001–005 zsynchronizowane; publikacja nieautoryzowana. Wszystkie pytania nadal wymagają niezależnej recenzji prawnej.
+
 > Bieżący snapshot po etapie 4x124 (28.10.2026): bank blob SHA `36985d2be9667dad581f241d68f7df76ea47e0d5`; 609 pytań `needs_review`, 0 `verified`. Ostatni raport: `podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md`. Ta redakcja nie oznacza zatwierdzenia prawnego.
 
 ## Bieżąca migawka — etap 4x120 (28.10.2026)
