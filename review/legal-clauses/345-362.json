@@ -9,15 +9,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wariant A oddaje warunek przepisowy: Zabezpieczony teren zakładu jest podstawową alternatywą dla nadzoru. Pozostaje do porównania z pełnym polskim brzmieniem."
+          "rationale": "Poprawna: przy wymaganym nadzorze należy wybrać dostępny bezpieczny teren zakładu zgodnie z ADR."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B („Zawsze wybrać parking ogólnodostępny”) nie spełnia obowiązku opisanego w ADR 2025, 8.4.1; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Błędna: wygoda parkingu publicznego nie ma pierwszeństwa przed dostępnym zabezpieczonym miejscem."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant C („Pozostawić pojazd na poboczu”) nie spełnia obowiązku opisanego w ADR 2025, 8.4.1; wybranie go byłoby sprzeczne z zasadą wskazaną w pytaniu."
+          "rationale": "Błędna: pobocze nie zastępuje odpowiedniego miejsca postoju, gdy bezpieczny teren jest dostępny."
         }
       },
       "observed_answer_key": "A",
@@ -30,12 +30,12 @@
         "module_id": "ADR-B-04",
         "stem": "Pojazd ADR objęty 8.4.1 stoi bez dozoru na ogólnodostępnym parkingu, choć dostępny jest bezpieczny teren zakładu. Co jest właściwe?",
         "options": {
-          "A": "Użyć zabezpieczonego terenu",
-          "B": "Zawsze wybrać parking publiczny, choć dostępny jest teren chroniony",
-          "C": "Zostawić pojazd na poboczu, nawet gdy dostępny jest teren zabezpieczony"
+          "A": "Wybrać dostępny, odpowiednio zabezpieczony teren zakładu zgodnie z wymaganiami postoju",
+          "B": "Wybrać parking publiczny dla wygody, mimo dostępnego terenu chronionego",
+          "C": "Zatrzymać się na poboczu, bo to najkrótszy postój, zamiast użyć terenu chronionego"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli przewóz podlega wymaganiom nadzoru podczas postoju, należy w pierwszej kolejności skorzystać z zabezpieczonej bazy lub odpowiednio zabezpieczonego terenu zakładu, gdy jest dostępny. Zwykły parking publiczny lub pobocze nie są równoważnym rozwiązaniem. ADR określa kolejność dopuszczalnych alternatyw. Podstawa: ADR 8.4.1.",
+        "explanation": "Jeżeli pojazd podlega wymaganiom nadzoru podczas postoju, a bezpieczny teren zakładu jest dostępny, należy z niego skorzystać zgodnie z zasadami ADR. Wygoda parkingu publicznego ani bliskość pobocza nie zastępują bezpiecznego miejsca. Najpierw sprawdź, które wymagania postoju dotyczą tego przewozu. Podstawa: ADR 8.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
