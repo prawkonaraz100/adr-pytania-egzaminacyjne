@@ -1,12 +1,15 @@
 # ADR podstawowy — kurs i bank pytań
 
-**Stan na 28.10.2026, etap 4x113 (próbka 40, poprawa dystraktorów i synchronizacja egzaminów): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 74/609 = 12,15% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 28.10.2026, etap 4x114 (próbka 40, kontrola dystraktorów i synchronizacja egzaminów): 609 pytań roboczych; 609 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 73/609 = 11,99% (maksimum działu 14,29%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
 - [Słowniczek ADR dla kursanta](SLOWNICZEK.md) — proste definicje skrótów, oznakowania i pojęć używanych w lekcjach i pytaniach.
 
 ## Raporty jakości
+
+- [Etap 4x114 — próbka 40, dystraktory i synchronizacja egzaminów](raporty/etap-4x114-proba40-dystraktory-sync-2026-10-28.md)
+- [Etap 4x114 — seed, próbka i wykluczenia](raporty/etap-4x114-wykluczenia-proby.json)
 
 - [Etap 4x113 — próbka 40, dystraktory i synchronizacja](raporty/etap-4x113-proba40-dystraktory-sync-2026-10-28.md)
 - [Etap 4x113 — seed, próbka i wykluczenia](raporty/etap-4x113-wykluczenia-proby.json)

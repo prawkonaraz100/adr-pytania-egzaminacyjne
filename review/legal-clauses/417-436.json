@@ -745,15 +745,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Litera na znaku tunelowym określa kategorię tunelu i pomaga ustalić, czy dany przewóz ADR może wjechać do środka. Ograniczenie nie jest ogólnym zakazem dla wszystkich samochodów osobowych ani przepisem dotyczącym wyłącznie karetek. Trzeba porównać kategorię tunelu z kodem przewożonego towaru. Podstawa: ADR 1.9.5.3.5. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Znak kategorii E trzeba porównać z kodem tunelowym towaru, aby ustalić, czy dany przewóz może wjechać. Podstawa: ADR 1.9.5.3.5 i 8.6.3."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Zakaz obejmuje bez wyjątku wszystkie samochody osobowe poruszające się tą drogą”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Litera na znaku tunelowym określa kategorię tunelu i pomaga ustalić, czy dany przewóz ADR może wjechać do środka. Ograniczenie nie jest ogólnym zakazem dla wszystkich samochodów osobowych ani przepisem dotyczącym wyłącznie karetek. Trzeba porównać kategorię tunelu z kodem przewożonego towaru. Podstawa: ADR 1.9.5.3.5. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Nie każdy przewóz ADR jest automatycznie zabroniony; decyduje kod tunelowy i ograniczenie wskazane na znaku. Podstawa: ADR 1.9.5.3.5 i 8.6.3."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Ograniczenie dotyczy wyłącznie karetek oraz innych pojazdów ratowniczych”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Litera na znaku tunelowym określa kategorię tunelu i pomaga ustalić, czy dany przewóz ADR może wjechać do środka. Ograniczenie nie jest ogólnym zakazem dla wszystkich samochodów osobowych ani przepisem dotyczącym wyłącznie karetek. Trzeba porównać kategorię tunelu z kodem przewożonego towaru. Podstawa: ADR 1.9.5.3.5. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Sama nalepka klasy nie zastępuje sprawdzenia kodu tunelowego przypisanego do towaru. Podstawa: ADR 1.9.5.3.5 i 8.6.3."
         }
       },
       "observed_answer_key": "A",
@@ -767,11 +767,11 @@
         "stem": "Znak przed tunelem zawiera literę E dla przewozu towarów niebezpiecznych. Do czego odnosi się ograniczenie?",
         "options": {
           "A": "Dotyczy jednostek transportowych, którym ADR zakazuje wjazdu do tunelu E",
-          "B": "Zakaz obejmuje bez wyjątku wszystkie samochody osobowe poruszające się tą drogą",
-          "C": "Ograniczenie dotyczy wyłącznie karetek oraz innych pojazdów ratowniczych"
+          "B": "Zakaz obejmuje każdy przewóz ADR, nawet jeśli kod towaru nie ogranicza wjazdu do tej kategorii tunelu.",
+          "C": "O dopuszczalności decyduje sama nalepka klasy zagrożenia, bez sprawdzania kodu tunelowego."
         },
         "correct_option": "A",
-        "explanation": "Litera na znaku tunelowym określa kategorię tunelu i pomaga ustalić, czy dany przewóz ADR może wjechać do środka. Ograniczenie nie jest ogólnym zakazem dla wszystkich samochodów osobowych ani przepisem dotyczącym wyłącznie karetek. Trzeba porównać kategorię tunelu z kodem przewożonego towaru. Podstawa: ADR 1.9.5.3.5.",
+        "explanation": "Litera E na znaku oznacza kategorię tunelu, a kierowca musi porównać ją z kodem tunelowym towaru. Nie każdy przewóz ADR jest automatycznie zabroniony w każdym tunelu tej kategorii, więc trzeba sprawdzić konkretny kod, a nie zakładać zakazu dla wszystkich. Sama nalepka klasy zagrożenia również nie zastępuje tej kontroli. Podstawa: ADR 1.9.5.3.5 i 8.6.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",

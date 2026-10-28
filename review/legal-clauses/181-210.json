@@ -437,15 +437,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Niepoprawna: numer UN znajduje się w dolnym, a nie górnym polu tablicy. Podstawa: ADR 5.3.2.2.2."
+          "rationale": "Ta opcja opisuje dolne pole tablicy, gdzie znajduje się numer UN, a nie górne pole. Podstawa: ADR 5.3.2.2.2."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawna: górne pole zawiera numer rozpoznawczy zagrożenia, nazywany kodem Kemlera. Podstawa: ADR 5.3.2.2.2."
+          "rationale": "Górne pole zawiera numer rozpoznawczy zagrożenia, zwany też kodem Kemlera. Podstawa: ADR 5.3.2.2.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Niepoprawna: górne pole nie jest numerem klasy; zawiera kod rozpoznawczy zagrożenia. Podstawa: ADR 5.3.2.2.2."
+          "rationale": "Numer klasy nie zastępuje numeru rozpoznawczego zagrożenia umieszczonego w górnym polu. Podstawa: ADR 5.3.2.2.2."
         }
       },
       "observed_answer_key": "B",
@@ -459,12 +459,12 @@
         "module_id": "ADR-B-06",
         "stem": "Na numerowanej pomarańczowej tablicy ADR dwa oznaczenia są rozdzielone poziomą czarną linią. Co oznacza górne oznaczenie?",
         "options": {
-          "A": "Numer UN określający przewożony towar, który według tego poglądu widnieje w górnym polu tablicy",
+          "A": "Numer UN identyfikujący konkretny towar; na tablicy znajduje się w dolnym polu.",
           "B": "Kod Kemlera, czyli numer rozpoznawczy zagrożenia na górze tablicy",
           "C": "Numer klasy towaru, bez wskazania rodzaju zagrożenia"
         },
         "correct_option": "B",
-        "explanation": "Na numerowanej pomarańczowej tablicy górny numer to numer rozpoznawczy zagrożenia, nazywany też kodem Kemlera; opisuje rodzaj zagrożenia stwarzanego przez materiał. Dolny numer UN (identyfikator towaru niebezpiecznego) identyfikuje konkretny towar, a numer klasy nie zastępuje kodu zagrożenia. Dlatego A i C nie opisują prawidłowo górnego pola. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Górny numer na numerowanej tablicy pomarańczowej to numer rozpoznawczy zagrożenia, który opisuje rodzaj zagrożenia stwarzanego przez materiał. Numer UN identyfikuje konkretny towar i znajduje się w dolnym polu, więc A opisuje inne miejsce tablicy. Numer klasy także nie zastępuje górnego kodu. Podstawa: ADR 5.3.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
