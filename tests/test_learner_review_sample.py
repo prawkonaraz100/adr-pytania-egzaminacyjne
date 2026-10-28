@@ -10,7 +10,7 @@ class LearnerReviewSampleTests(unittest.TestCase):
         manifest = json.loads((ROOT / "podstawowy" / "raporty" / "etap-4q-probka.json").read_text(encoding="utf-8"))
         bank = [json.loads(line) for line in (ROOT / "podstawowy" / "questions.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
         by_id = {q["id"]: q for q in bank}
-        self.assertEqual(manifest["bank_count"], len(bank))
+        self.assertLessEqual(manifest["bank_count"], len(bank), "historical sample bank must not exceed current bank")
         self.assertEqual(manifest["seed"], 202610250050)
         self.assertEqual(manifest["selection"]["per_module"], 5)
         self.assertEqual(manifest["selection"]["total"], 65)
