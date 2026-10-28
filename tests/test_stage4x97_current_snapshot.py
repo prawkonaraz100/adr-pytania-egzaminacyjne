@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BASIC = ROOT / "podstawowy"
 REPORT = BASIC / "raporty" / "etap-4x117-proba40-jakosc-dystraktorow-2026-10-28.md"
-SAMPLE = BASIC / "raporty" / "etap-4x117-wykluczenia-proby.json"
+SAMPLE = BASIC / "raporty" / "etap-4x118-wykluczenia-proby.json"
 MANIFEST = ROOT / "review" / "specialist" / "PAKIET-0609-MANIFEST.json"
 
 
@@ -47,15 +47,16 @@ class CurrentSnapshotTests(unittest.TestCase):
         manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(sample["source_bank_blob_sha"], bank_sha)
         self.assertEqual(manifest["current_bank_blob_sha"], bank_sha)
-        self.assertEqual(len(sample["sample_ids"]), 40)
-        self.assertEqual(len(set(sample["sample_ids"])), 40)
+        self.assertEqual(len(sample["sample_ids"]), sample["sample_count"])
+        self.assertEqual(len(set(sample["sample_ids"])), sample["sample_count"])
         self.assertTrue(set(sample["sample_ids"]).issubset(by_id))
         excluded = set(sample["excluded_ids"])
         self.assertTrue(set(sample["sample_ids"]).isdisjoint(excluded))
         self.assertEqual(sample["excluded_distinct_ids"], len(excluded))
         self.assertEqual(sample["candidate_pool_size"], len(bank) - len(excluded))
         self.assertIn("4x103–4x106", sample["limitation"])
-        self.assertIn("nie dowodzi braku nakładania", sample["limitation"])
+        self.assertIn("nakładanie jest jawnie opisane", sample["limitation"])
+        self.assertEqual(sample["sample_count"], sample["candidate_pool_size"])
         self.assertEqual(len(bank), 609)
         self.assertEqual(len(by_id), 609)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in bank))
