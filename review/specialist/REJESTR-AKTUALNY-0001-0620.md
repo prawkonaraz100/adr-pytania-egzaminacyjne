@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x135 (28.10.2026)
 
-- Bank: 620 pytań `needs_review`, 0 `verified`; blob SHA `c2687bd5c0c2bb1e5ce689914324bc791afcda0d`.
+- Bank: 620 pytań `needs_review`, 0 `verified`; blob SHA `9d0c4b426bb1670361093ed1a7b5d023ee1fad06`.
 - Nowe ID: ADR-B-0610–0620 (11 pytań roboczych); raport: `podstawowy/raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md`.
 - Mapa: 107 kompetencji, 104 teoretyczne i 3 praktyczne; niezależna recenzja pozostaje otwarta.
 
