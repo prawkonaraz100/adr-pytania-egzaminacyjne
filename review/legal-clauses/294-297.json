@@ -101,15 +101,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja „Użyć e-papierosa, ale tylko przy otwartych drzwiach” nie odpowiada temu wymogowi w opisanej sytuacji; wymaga zatwierdzenia w polskim urzędowym brzmieniu."
+          "rationale": "Wyjście z kabiny nie usuwa ryzyka, jeśli w pobliżu znajdują się palne opary."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja „Włączyć dodatkowe urządzenia elektryczne, aby ułatwić oględziny” nie odpowiada temu wymogowi w opisanej sytuacji; wymaga zatwierdzenia w polskim urzędowym brzmieniu."
+          "rationale": "Brak widocznej iskry nie gwarantuje, że urządzenie elektryczne nie może spowodować zapłonu."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Porównanie z ADR 2025 ADR 2025, 5.4.3.4: W sytuacji awaryjnej pisemne instrukcje ADR nakazują unikać źródeł zapłonu, również e-papierosów i przełączania urządzeń elektrycznych."
+          "rationale": "Należy unikać papierosów, e-papierosów i urządzeń mogących stać się źródłem zapłonu."
         }
       },
       "observed_answer_key": "C",
@@ -122,12 +122,12 @@
         "module_id": "ADR-B-04",
         "stem": "Podczas awarii ADR kierowca chce sprawdzić ładunek, używając papierosa elektronicznego i przełączając urządzenia elektryczne. Co powinien zrobić?",
         "options": {
-          "A": "Użyć e-papierosa, ale tylko przy otwartych drzwiach",
-          "B": "Włączyć dodatkowe urządzenia elektryczne, aby ułatwić oględziny",
+          "A": "Przenieść się poza kabinę i użyć e-papierosa, zakładając, że nie ma ryzyka zapłonu",
+          "B": "Włączyć urządzenia elektryczne, jeśli nie widać iskry ani płomienia",
           "C": "Unikać źródeł zapłonu, nie palić ani nie używać e-papierosów i nie włączać urządzeń elektrycznych"
         },
         "correct_option": "C",
-        "explanation": "Podczas awarii należy unikać możliwych źródeł zapłonu: nie palić ani nie używać e-papierosów oraz nie włączać urządzeń elektrycznych, gdy może to wywołać zapłon. Otwarte drzwi nie czynią e-papierosa bezpiecznym, a dodatkowe urządzenia mogą stworzyć iskrę. Najpierw stosuj instrukcje awaryjne ADR. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Podczas awarii należy unikać możliwych źródeł zapłonu: nie palić ani nie używać e-papierosów oraz nie włączać urządzeń elektrycznych, gdy może to wywołać zapłon. Wyjście z kabiny nie usuwa zagrożenia, jeśli w pobliżu są palne opary, a brak widocznej iskry nie gwarantuje bezpieczeństwa urządzeń elektrycznych. Najpierw stosuj instrukcje awaryjne ADR. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
