@@ -250,15 +250,15 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Numer rejestracyjny nie zastępuje kodu tunelowego wymaganego w 5.4.1.1.1(k)."
+          "rationale": "Błędna: sama kategoria tunelu nie zastępuje kodu ograniczenia przypisanego do towaru."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ogólny opis trasy nie zastępuje kodu przypisanego do towaru, gdy wymagany jest wpis."
+          "rationale": "Błędna: opis trasy nie zastępuje wymaganego kodu w dokumencie."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR 5.4.1.1.1(k) wymaga kodu tunelowego w nawiasach, chyba że spełniono określony wyjątek dla trasy bez tunelu podlegającego ograniczeniom."
+          "rationale": "Poprawna: gdy wymagany, kod tunelowy wpisuje się w nawiasach w dokumencie przewozowym."
         }
       },
       "observed_answer_key": "C",
@@ -272,12 +272,12 @@
         "module_id": "ADR-B-13",
         "stem": "Plan przewozu ADR prowadzi przez tunel z ograniczeniami, a dla towaru w kolumnie (15) podano kod D/E. Co należy umieścić w wymaganym dokumencie przewozowym?",
         "options": {
-          "A": "Dodać numer rejestracyjny za każdym oznaczeniem klasy zagrożenia",
+          "A": "Wpisać samą kategorię tunelu, pomijając kod przypisany do towaru",
           "B": "Wpisać słowny opis trasy, pomijając kod tunelowy wskazany w tabeli A",
           "C": "Wpisać właściwy kod ograniczenia tunelowego w nawiasach w dokumencie"
         },
         "correct_option": "C",
-        "explanation": "Kod ograniczenia tunelowego, gdy jest wymagany, wpisuje się w dokumencie przewozowym w nawiasach. Sam opis trasy bez kodu może nie przekazać wymaganej informacji, a numer rejestracyjny nie ma z tym związku. Przepis przewiduje wyjątek w określonej sytuacji, np. gdy trasa nie prowadzi przez tunele objęte ograniczeniami. Podstawa: ADR 5.4.1.1.1(k).",
+        "explanation": "Gdy jest wymagany, kod ograniczenia tunelowego wpisuje się w dokumencie przewozowym w nawiasach, aby kolejny uczestnik przewozu mógł rozpoznać właściwe ograniczenie. Sama kategoria tunelu nie zastępuje kodu przypisanego do towaru, a opis trasy nie spełnia tego wymogu. Przed wyjazdem sprawdź kolumnę 15 tabeli A i właściwy zapis w dokumencie; wyjątki stosuj tylko wtedy, gdy ADR wyraźnie na to pozwala. Podstawa: ADR 5.4.1.1.1(k).",
         "sources": [
           {
             "code": "ADR-2025-PL",
