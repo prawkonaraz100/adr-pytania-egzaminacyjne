@@ -186,12 +186,12 @@
       "exact_record_snapshot": {
         "stem": "Kierowca odbiera odpad niebezpieczny inny niż radioaktywny. Nazwa przewozowa w dokumencie nie zawiera wymaganego słowa wskazującego odpad. Co należy zweryfikować zgodnie z ADR 5.4.1.1.3?",
         "options": {
-          "A": "Wystarczy oznaczyć odpad na fakturze, bez poprawiania dokumentu przewozowego ADR",
+          "A": "Dopisać słowo ODPAD tylko w wewnętrznym systemie firmy, bez zmiany dokumentu ADR",
           "B": "Dodać słowo ODPAD przed nazwą przewozową, gdy wymaga tego ADR 5.4.1.1.3",
-          "C": "Zastąpić numer UN dowolnym kodem odpadu, bez nazwy przewozowej ADR"
+          "C": "Zastąpić nazwę przewozową kodem odpadu, jeżeli kod znajduje się w dokumentach handlowych"
         },
         "correct_option": "B",
-        "explanation": "Dla odpowiedniego odpadu niepromieniotwórczego w dokumencie przewozowym przed właściwą nazwą przewozową należy umieścić słowo „ODPAD”, jeśli nie jest już częścią tej nazwy. Sama adnotacja na fakturze nie zastępuje wymaganego opisu ADR, a kod odpadu nie zastępuje numeru UN — czterocyfrowego identyfikatora towaru niebezpiecznego — ani nazwy przewozowej. Podstawa: ADR 5.4.1.1.3.",
+        "explanation": "Dla odpowiedniego odpadu niepromieniotwórczego w dokumencie przewozowym przed właściwą nazwą przewozową trzeba umieścić słowo „ODPAD”, jeśli nie jest już częścią tej nazwy. Wpis w wewnętrznym systemie firmy nie poprawia dokumentu, który towarzyszy przewozowi. Kod odpadu także nie zastępuje wymaganej nazwy przewozowej ani numeru UN, czyli czterocyfrowego identyfikatora towaru niebezpiecznego. Podstawa: ADR 5.4.1.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -206,7 +206,7 @@
       "supplementary_source_url": "https://unece.org/adr-2025-files",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Potwierdzono przedmiot ustępu na podstawie ADR 2025 EN; pełny literalny polski PDF Dz.U. 2025 poz. 642 wraz ze sprostowaniem i końcową oceną specjalisty pozostaje do sprawdzenia. Etap 4m: poprawiono wyłącznie zwięzłość wariantów; niezależne potwierdzenie znaczenia przed wydaniem konieczne.",
+      "source_risk_note": "Potwierdzono przedmiot ustępu na podstawie ADR 2025 EN; pełny literalny polski PDF Dz.U. 2025 poz. 642 wraz ze sprostowaniem i końcową oceną specjalisty pozostaje do sprawdzenia. Etap 4m: poprawiono wyłącznie zwięzłość wariantów; niezależne potwierdzenie znaczenia przed wydaniem konieczne. Etap 4x116: snapshot zsynchronizowany po redakcji; recenzja prawna nadal oczekuje.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
