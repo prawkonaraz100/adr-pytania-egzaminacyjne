@@ -2,7 +2,7 @@
   "stage": "4x114",
   "seed": 41142026,
   "algorithm": "LCG state=(1664525*state+1013904223) mod 2^32; Fisher–Yates over questions.jsonl after union of recorded excluded_ids and sample_ids from manifests 4x107–4x113",
-  "source_bank_blob_sha": "2675c0636a421bf3b4347ad0117087d6ec633321",
+  "source_bank_blob_sha": "04d7246d074d6f12fc46e91b4b47fc0e2364f0f0",
   "updated_bank_blob_sha": "04d7246d074d6f12fc46e91b4b47fc0e2364f0f0",
   "source_bank_count": 609,
   "excluded_count": 463,
@@ -514,5 +514,9 @@
     "ADR-B-0605",
     "ADR-B-0606",
     "ADR-B-0609"
-  ]
+  ],
+  "selection_source_bank_blob_sha": "2675c0636a421bf3b4347ad0117087d6ec633321",
+  "excluded_distinct_ids": 463,
+  "candidate_pool_size": 146,
+  "limitation": "Wykluczenia obejmują identyfikatory zapisane w manifestach oraz raportach etapów 4x103–4x113. Ponieważ nie wszystkie wcześniejsze raporty publikują pełne próbki, ten manifest nie dowodzi disjointness względem nieujawnionych ID z etapów 4x103–4x106."
 }
