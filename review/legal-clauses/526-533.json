@@ -300,11 +300,11 @@
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Samo określenie pojemnika jako pustego pomija informację o pozostałościach i ostatniej zawartości, gdy wymaga jej ADR."
+          "rationale": "Opróżnienie nie oznacza oczyszczenia; pozostałości mogą nadal stwarzać zagrożenie."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Właściwy opis musi uwzględniać nieoczyszczony stan pojemnika i ostatnią zawartość, a nie tylko słowo „pusty”."
+          "rationale": "Właściwy wpis musi oddawać wymagany stan i ostatnią zawartość, a nie tylko nazywać pojemnik pustym."
         }
       },
       "observed_answer_key": "A",
@@ -319,8 +319,8 @@
         "stem": "Po opróżnieniu pojemnika, który pozostaje nieoczyszczony i zawiera pozostałości materiału ADR klasy innej niż 7, sporządza się wymagany dokument przewozowy. Jak uwzględnić stan pojemnika?",
         "options": {
           "A": "Dodać określenie pusty, nieoczyszczony lub pozostałość po zawartości",
-          "B": "Pominąć pozostałości w dokumencie, ponieważ pojemnik został już opróżniony",
-          "C": "Wpisać tylko, że pojemnik jest pusty, bez wskazania ostatniej zawartości."
+          "B": "Pominąć opis, bo pojemnik jest już pusty.",
+          "C": "Wpisać tylko „pusty”, bez ostatniej zawartości."
         },
         "correct_option": "A",
         "explanation": "Pojemnik opróżniony, lecz nieoczyszczony, może nadal zawierać niebezpieczne pozostałości, dlatego dokument musi właściwie wskazywać jego stan i ostatnią zawartość. Sam wpis „pusty” może pominąć ważną informację, a numer magazynowy nie zastępuje wymaganego opisu ADR. Zastosuj określenie przewidziane dla konkretnej sytuacji, np. „PUSTY, NIEOCZYSZCZONY”. Podstawa: ADR 5.4.1.1.6.1.",
