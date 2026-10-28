@@ -481,7 +481,7 @@
         "module_id": "ADR-B-01",
         "stem": "W tabeli A ADR przy danym numerze UN wskazano warunek, który zabrania przewozu tej substancji w opisanej postaci. Nadawca mimo to przygotował dokumenty. Co powinien zrobić przewoźnik?",
         "options": {
-          "A": "Wstrzymać przewóz i wyjaśnić zakaz; prawidłowy dokument nie uchyla ograniczenia",
+          "A": "Wstrzymać przewóz i wyjaśnić zakaz przed wyjazdem; prawidłowy dokument nie uchyla ograniczenia",
           "B": "Rozpocząć przewóz, jeśli kierowca otrzymał instrukcje pisemne i gaśnice są sprawne",
           "C": "Rozpocząć przewóz, bo nadawca przygotował dokumenty i przyjął odpowiedzialność za dopuszczenie towaru"
         },
@@ -500,15 +500,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Prawidłowe: jeśli ADR zabrania przewozu w opisanej postaci, trzeba go wstrzymać i wyjaśnić ograniczenie."
+          "rationale": "Prawidłowe: wstrzymać przewóz, ponieważ dokument nie uchyla zakazu wynikającego z ADR."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędne: instrukcje i sprawne wyposażenie nie uchylają zakazu przewozu."
+          "rationale": "Błędne: sprawne wyposażenie i instrukcje nie znoszą zakazu przewozu w danej postaci."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędne: przygotowanie dokumentów ani odpowiedzialność nadawcy nie czynią dozwolonym przewozu zakazanego przez ADR."
+          "rationale": "Błędne: przygotowanie dokumentów i odpowiedzialność nadawcy nie czynią dozwolonym przewozu zakazanego przez ADR."
         }
       },
       "observed_answer_key": "A",
