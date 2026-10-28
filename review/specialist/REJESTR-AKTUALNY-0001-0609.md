@@ -1,4 +1,4 @@
-> Bieżący snapshot po etapie 4x123 (28.10.2026): bank blob SHA `dd247b2a1fe219c6b0a4643755c7cc820b842eeb`; 609 pytań `needs_review`, 0 `verified`. Ostatni raport: `podstawowy/raporty/etap-4x123-proba40-explanations-dystraktory-sync-2026-10-28.md`. Zmiany są redakcyjne i nie oznaczają zatwierdzenia żadnego pytania.
+> Bieżący snapshot po etapie 4x124 (28.10.2026): bank blob SHA `ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6`; 609 pytań `needs_review`, 0 `verified`. Ostatni raport: `podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md`. Ta redakcja nie oznacza zatwierdzenia prawnego.
 
 ## Bieżąca migawka — etap 4x120 (28.10.2026)
 
