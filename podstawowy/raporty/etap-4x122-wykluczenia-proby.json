@@ -4,8 +4,8 @@
   "seed": 41222026,
   "algorithm": "LCG state=(1664525*state+1013904223) mod 2^32; Fisher–Yates over questions.jsonl order after excluding recorded sample IDs and edited/follow-up IDs from available 4x107–4x121 manifests.",
   "selection_source_bank_blob_sha": "f18b273e3451730a4efc28e10cd0ff16b03807f5",
-  "source_bank_blob_sha": "6612e0241dc9e9b3a01f6b456f58d141dc53ada9",
-  "updated_bank_blob_sha": "6612e0241dc9e9b3a01f6b456f58d141dc53ada9",
+  "source_bank_blob_sha": "5d3bb481e372a45c89b30812841e76e9d91d542f",
+  "updated_bank_blob_sha": "5d3bb481e372a45c89b30812841e76e9d91d542f",
   "source_bank_count": 609,
   "excluded_ids": [
     "ADR-B-0003",
@@ -563,7 +563,9 @@
     "ADR-B-0306",
     "ADR-B-0376",
     "ADR-B-0432",
-    "ADR-B-0471"
+    "ADR-B-0471",
+    "ADR-B-0288",
+    "ADR-B-0290"
   ],
   "explanations_rewritten": 5,
   "distractors_revised_in_sample": [
@@ -576,5 +578,12 @@
   "correct_letters_changed": 0,
   "verification_status": "needs_review",
   "legal_review_pending": true,
-  "limitation": "Próbka jest rozłączna z zapisanymi ID z dostępnych manifestów 4x107–4x121. Dla etapów 4x103–4x106 nie ma kompletnych, oddzielnych manifestów ID w repo, więc pełna rozłączność względem ewentualnych nieujętych pytań z tych etapów nie jest potwierdzona; ewentualne nakładanie jest jawnie opisane w tym ograniczeniu."
+  "limitation": "Próbka jest rozłączna z zapisanymi ID z dostępnych manifestów 4x107–4x121. Dla etapów 4x103–4x106 nie ma kompletnych, oddzielnych manifestów ID w repo, więc pełna rozłączność względem ewentualnych nieujętych pytań z tych etapów nie jest potwierdzona; ewentualne nakładanie jest jawnie opisane w tym ograniczeniu.",
+  "additional_targeted_followups": [
+    "ADR-B-0288",
+    "ADR-B-0290"
+  ],
+  "additional_followup_explanation_rewrites": [
+    "ADR-B-0290"
+  ]
 }
