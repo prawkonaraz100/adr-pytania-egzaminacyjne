@@ -1,3 +1,10 @@
+## Najnowsza synchronizacja — etap 4x121 (28.10.2026)
+
+- Aktualny blob banku: `f18b273e3451730a4efc28e10cd0ff16b03807f5`.
+- Bank: 609 pytań; wszystkie `needs_review`, 0 `verified`; minimum explanation 300 znaków.
+- W próbce 40 poprawiono dystraktor i explanation ADR-B-0041 oraz doprecyzowano treść ADR-B-0426. Żaden z tych ID nie występuje w wariantach 001–005, więc nie zmieniono ich składu ani kluczy; zaktualizowano wyłącznie `source_bank_head` w pięciu wariantach i kluczach.
+- Raport: [Etap 4x121](../raporty/etap-4x121-proba40-explanations-sync-2026-10-28.md); manifest: [próba i wykluczenia](../raporty/etap-4x121-wykluczenia-proby.json).
+
 ## Najnowsza synchronizacja — etap 4x120 (28.10.2026)
 
 - Aktualny blob banku: `04ace7f478868d0901bbc45fb26af3d866e18538`.

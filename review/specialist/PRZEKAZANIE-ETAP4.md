@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x121 (28.10.2026)
+
+- Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `f18b273e3451730a4efc28e10cd0ff16b03807f5`.
+- Raport: `podstawowy/raporty/etap-4x121-proba40-explanations-sync-2026-10-28.md`; manifest próbki: `podstawowy/raporty/etap-4x121-wykluczenia-proby.json`.
+- W próbce 40 zmieniono dystraktor i explanation ADR-B-0041 oraz doprecyzowano treść ADR-B-0426. Brak zmiany poprawnych liter i statusów; niezależna recenzja prawna pozostaje otwarta.
+
 ## Bieżąca migawka — etap 4x120 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `04ace7f478868d0901bbc45fb26af3d866e18538`.
