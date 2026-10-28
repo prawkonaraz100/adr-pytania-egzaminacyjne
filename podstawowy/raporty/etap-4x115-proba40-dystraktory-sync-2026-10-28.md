@@ -2,7 +2,7 @@
 
 - Data: 2026-10-28.
 - Punkt wyjścia: `main` `033ce0df135451dc50836c6602f1eb4ac5b15625`, bank blob SHA `04d7246d074d6f12fc46e91b4b47fc0e2364f0f0`.
-- Bank po redakcji: 609 pytań, blob SHA `3a25f64eaad0268e6f52bb1880fc0779eea14198`; wszystkie statusy `needs_review`.
+- Bank po redakcji: 609 pytań, blob SHA `aa6c4184014808849f154ab07bf6acc99cbe4701`; wszystkie statusy `needs_review`.
 - Zakres: wyłącznie kurs podstawowy ADR.
 
 ## 1. Próba i powtarzalność
