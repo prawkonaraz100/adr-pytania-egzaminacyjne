@@ -1,5 +1,5 @@
 {
-  "stage": "stage4x123_sample40_explanation_distractor_sync",
+  "stage": "stage4x124_remaining_unique_sample25",
   "snapshot_date": "2026-10-28",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 609,
@@ -309,7 +309,7 @@
     },
     "not_verified_warning": "All 609 questions remain needs_review. A targeted comparison result does not constitute verified status."
   },
-  "current_bank_blob_sha": "dd247b2a1fe219c6b0a4643755c7cc820b842eeb",
+  "current_bank_blob_sha": "ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -701,8 +701,8 @@
     "sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
     "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
   },
-  "latest_editorial_stage": "4x123",
-  "latest_editorial_report": "podstawowy/raporty/etap-4x123-proba40-explanations-dystraktory-sync-2026-10-28.md",
+  "latest_editorial_stage": "4x124",
+  "latest_editorial_report": "podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md",
   "stage4x112": {
     "source_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
     "sample_size": 40,
@@ -985,5 +985,16 @@
     ],
     "verification_status": "needs_review",
     "formal_approval": false
+  },
+  "stage4x124": {
+    "report": "podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md",
+    "sample_manifest": "podstawowy/raporty/etap-4x124-wykluczenia-proby.json",
+    "source_bank_blob_sha": "ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6",
+    "changed_ids": [
+      "ADR-B-0293"
+    ],
+    "verification_status": "needs_review",
+    "formal_approval": false,
+    "unique_candidates_remaining_after_4x123": 25
   }
 }
