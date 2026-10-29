@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x154 (29.10.2026)
 
-- Bank: 639 pytań `needs_review`, 0 `verified`; blob SHA `9d82c5c1f6d6bda00c46dca47126891d509b9499`.
+- Bank: 645 pytań `needs_review`, 0 `verified`; blob SHA `04368d6c14cd1acb82d26319ce5a6c90866ecd66`.
 - Raport: `podstawowy/raporty/etap-4x154-luki-praktyczne-0640-0645-2026-10-29.md`.
 - Dodano ADR-B-0640–0645 dla celów praktycznych ADR-B-05-K13–K15; warianty i klucze 001–005, snapshoty audytów, mapa kompetencji i pakiet specjalisty wskazują aktualny bank.
 - A/B/C i explanation przejrzane redakcyjnie; pytania nie zastępują ćwiczeń praktycznych. Formalna kontrola tekstu ADR 2025 i niezależna akceptacja ekspercka nadal otwarte.
@@ -328,4 +328,4 @@ Najnowsza redakcyjna partia 4x125 (2026-10-28): [raport próbki 40, dystraktoró
 Pięć próbnych wariantów 001–005 uzyskało zgodność techniczną z bankiem: po 30 pozycji, 13/13 działów, A/B/C 10/10/10, łącznie 150 różnych ID; klucze i odwołania `legal_basis` odpowiadają rekordom źródłowym. Kontrola obecności wymaganych elementów lekcji: 13/13, mapa: 104 cele teoretyczne i 3 praktyczne. Automatyczna kontrola formy `explanation`: 638/638 w zakresie 300–500 znaków oraz 2–5 zdań. Szczegóły i ograniczenia w [raporcie](../../podstawowy/raporty/etap-4x138-audyt-zbiorczy-egzaminy-lekcje-2026-10-29.md). **Nie zatwierdza to legalności odpowiedzi, jakości dydaktycznej ani publikacji**. 638 `needs_review`; 0 `verified`; niezależna recenzja ADR 2025 nadal wymagana.
 
 
-**Bieżący snapshot po 4x153 (29.10.2026):** `questions.jsonl` blob SHA `9d82c5c1f6d6bda00c46dca47126891d509b9499`, 639 pytań `needs_review`, 0 `verified`. Zmieniono tylko wyjaśnienie ADR-B-0061 i synchronizację próbnego egzaminu 001; zatwierdzenie przez specjalistę pozostaje otwarte.
+**Bieżący snapshot po 4x154 (29.10.2026):** `questions.jsonl` blob SHA `04368d6c14cd1acb82d26319ce5a6c90866ecd66`, 645 pytań `needs_review`, 0 `verified`. Dodano ADR-B-0640–0645; pytania nie zastępują ćwiczeń praktycznych. Zatwierdzenie przez specjalistę pozostaje otwarte.
