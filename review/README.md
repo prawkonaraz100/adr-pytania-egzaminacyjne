@@ -1,9 +1,9 @@
-## Bieżąca migawka — etap 4x153 (29.10.2026)
+## Bieżąca migawka — etap 4x154 (29.10.2026)
 
 - Bank: 639 pytań `needs_review`, 0 `verified`; blob SHA `9d82c5c1f6d6bda00c46dca47126891d509b9499`.
-- Raport: `podstawowy/raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md`.
-- Dodano ADR-B-0639 dla kompetencji ADR-B-01-K01; warianty i klucze 001–005, snapshoty audytów, mapa kompetencji i pakiet specjalisty wskazują aktualny bank.
-- A/B/C i explanation przejrzane redakcyjnie; formalna kontrola tekstu ADR 2025 i niezależna akceptacja ekspercka nadal otwarte.
+- Raport: `podstawowy/raporty/etap-4x154-luki-praktyczne-0640-0645-2026-10-29.md`.
+- Dodano ADR-B-0640–0645 dla celów praktycznych ADR-B-05-K13–K15; warianty i klucze 001–005, snapshoty audytów, mapa kompetencji i pakiet specjalisty wskazują aktualny bank.
+- A/B/C i explanation przejrzane redakcyjnie; pytania nie zastępują ćwiczeń praktycznych. Formalna kontrola tekstu ADR 2025 i niezależna akceptacja ekspercka nadal otwarte.
 
 ## Historyczna migawka — etap 4x137 (29.10.2026)
 
