@@ -797,7 +797,7 @@ Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Por
 | ADR-B-0651 | ADR-B-05 | ADR-B-05-K15 | OSK planuje zaliczyć temat wypadku wyłącznie przez rozwiązanie testu wielokrotnego wyboru. Która ocena jest zgodna z ADR? | C | ADR 2025, 8.2.2.3.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 
-Bank bieżący: 651 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `57c45edaf97934d92eba84338166b474f211c5c1`.
+Bank bieżący: 651 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `1bf9ebb6616839704cc1b00599617caa46768b15`.
 
 
-**Bieżący snapshot po 4x155 (29.10.2026):** `questions.jsonl` blob SHA `57c45edaf97934d92eba84338166b474f211c5c1`, 651 pytań `needs_review`, 0 `verified`. Dodano ADR-B-0646–0651 jako pytania scenariuszowe wspierające ćwiczenia praktyczne; nie zastępują instruktażu.
+**Bieżący snapshot po 4x155 (29.10.2026):** `questions.jsonl` blob SHA `1bf9ebb6616839704cc1b00599617caa46768b15`, 651 pytań `needs_review`, 0 `verified`. Dodano ADR-B-0646–0651 jako pytania scenariuszowe wspierające ćwiczenia praktyczne; nie zastępują instruktażu.
