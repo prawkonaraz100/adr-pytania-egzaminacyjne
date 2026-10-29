@@ -194,7 +194,7 @@ Zamiast zapamiętywać samą nazwę przepisu, ćwicz rozpoznanie problemu i wska
 
 ### Dodatkowy wpis w dokumencie przy 1.1.4.2.1 — ADR-B-10-K02
 
-**Wyjaśnienie dla kursanta:** Gdy przewóz drogowy korzysta ze szczególnych zasad dla łańcucha morskiego lub lotniczego, dokument powinien wskazywać właściwą podstawę. ADR 1.1.3.6 to inne wyłączenie ilościowe, dotyczące określonych ilości towaru w jednostce transportowej, a 5.4.3.1 dotyczy instrukcji pisemnych.
+**Wyjaśnienie dla kursanta:** Gdy przewóz drogowy korzysta ze szczególnych zasad dla łańcucha morskiego lub lotniczego, dokument powinien wskazywać właściwą podstawę. ADR 1.1.3.6 to inne wyłączenie ilościowe, dotyczące określonych ilości towaru w jednostce transportowej, a 5.4.3.1 dotyczy [instrukcji pisemnych](../SLOWNICZEK.md#instrukcje-pisemne) — kart z czynnościami na wypadek zdarzenia.
 
 **Przykład z pracy:** Jaki dodatkowy zapis przewiduje ADR w dokumencie przewozowym, jeśli przewóz odbywa się zgodnie z 1.1.4.2.1?
 
@@ -204,7 +204,7 @@ Zamiast zapamiętywać samą nazwę przepisu, ćwicz rozpoznanie problemu i wska
 
 ### Dokumentacja i certyfikat pakowania kontenera — ADR-B-10-K03
 
-**Wyjaśnienie dla kursanta:** Przy przewozie zwykłego kontenera z towarami niebezpiecznymi drogą, a potem statkiem, może być wymagany certyfikat potwierdzający prawidłowe pakowanie kontenera lub pojazdu. Sam dokument drogowy nie zawsze wystarcza, a świadectwo dopuszczenia pojazdu nie pełni tej funkcji.
+**Wyjaśnienie dla kursanta:** Przy przewozie zwykłego kontenera z towarami niebezpiecznymi drogą, a potem statkiem, może być wymagany certyfikat potwierdzający prawidłowe pakowanie kontenera lub pojazdu. Sam dokument drogowy nie zawsze wystarcza, a [świadectwo dopuszczenia pojazdu](../SLOWNICZEK.md#swiadectwo-dopuszczenia-pojazdu), czyli dokument wymagany dla określonych typów pojazdów, nie pełni tej funkcji.
 
 **Przykład z pracy:** Zwykły kontener ładunkowy ze sztukami przesyłek ADR (nie kontener-cysterna) będzie najpierw przewożony drogą, a następnie drogą morską. Jaki dodatkowy dokument może wymagać ADR 5.4.2?
 
