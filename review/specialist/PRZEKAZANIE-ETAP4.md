@@ -7,7 +7,7 @@
 
 ## Historyczna migawka — etap 4x154 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `57c45edaf97934d92eba84338166b474f211c5c1`.
+- Bank: 645 pytań `needs_review`, 0 `verified`; blob SHA `04368d6c14cd1acb82d26319ce5a6c90866ecd66`.
 - Raport: `podstawowy/raporty/etap-4x154-luki-praktyczne-0640-0645-2026-10-29.md`.
 - Dodano ADR-B-0640–0645 dla celów praktycznych ADR-B-05-K13–K15; warianty i klucze 001–005, snapshoty audytów, mapa kompetencji i pakiet specjalisty wskazują aktualny bank.
 - A/B/C i explanation przejrzane redakcyjnie; pytania nie zastępują ćwiczeń praktycznych. Formalna kontrola tekstu ADR 2025 i niezależna akceptacja ekspercka nadal otwarte.
