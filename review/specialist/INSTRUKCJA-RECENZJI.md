@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x136 (29.10.2026)
 
-- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `ff60bc99b58068ce826bec80d7c12f3265dc1301`.
+- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 - Raport: `podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md`.
 - Nowe ID: ADR-B-0629–0638; nowe podstawy prawne pozostają do literalnej kontroli i niezależnej recenzji.
 - Pakiet: `review/specialist/PAKIET-0628-MANIFEST.json`; rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0628.md`.
