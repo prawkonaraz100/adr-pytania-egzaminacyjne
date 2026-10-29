@@ -245,7 +245,7 @@ Przeczytaj, jakie pytanie zada sobie kierowca w zwykłej sytuacji służbowej. N
 
 ### Dodatkowe dokumenty zależnie od rodzaju ładunku (ADR-B-13-K08)
 
-**Prostym językiem:** FL to kategoria pojazdu używanego w ADR przy określonych przewozach cieczy lub gazów palnych w cysternach. Jeśli dla takiego pojazdu wymagane jest świadectwo dopuszczenia, trzeba mieć je w pojeździe i móc okazać podczas kontroli.
+**Prostym językiem:** [FL](../SLOWNICZEK.md#pojazd-fl) to kategoria pojazdu używanego w ADR przy określonych przewozach cieczy lub gazów palnych w cysternach. Jeśli dla takiego pojazdu wymagane jest świadectwo dopuszczenia, trzeba mieć je w pojeździe i móc okazać podczas kontroli.
 
 **Sytuacja:** Gdzie podczas przewozu powinno znajdować się wymagane świadectwo dopuszczenia samochodu ciężarowego typu FL (pojazdu silnikowego, nie naczepy), zgodnie z ogólną zasadą ADR?
 
