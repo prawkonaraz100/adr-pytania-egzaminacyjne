@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x156
+
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `7bb78be3820e6f6a587ca4ef74b8b40f685efb60`.
+- Raport: `podstawowy/raporty/etap-4x156-przeglad-explanation-0611-0647-2026-10-29.md`.
+- Poprawiono 30 explanation, zachowując stem, A/B/C, klucz i podstawę ADR. Synchronizowane są arkusze/klucze 001–005 i manifesty recenzyjne.
+- Przegląd dydaktyczny nie stanowi niezależnego zatwierdzenia prawnego; wszystkie pytania pozostają `needs_review`.
+
 ## Bieżąca migawka — etap 4x155
 
 - Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `1bf9ebb6616839704cc1b00599617caa46768b15`.
