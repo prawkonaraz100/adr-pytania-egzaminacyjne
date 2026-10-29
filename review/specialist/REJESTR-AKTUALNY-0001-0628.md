@@ -1,5 +1,9 @@
 ## Bieżąca migawka — etap 4x136 (29.10.2026)
 
+- Nowe pytania ADR-B-0629–0638: [raport etapu 4x136](../../podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md).
+- Rejestr podstaw do niezależnej kontroli: [0629–0638](../legal-polish/stage4x136-legal-review-ledger-0629-0638.json).
+- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `ff60bc99b58068ce826bec80d7c12f3265dc1301`.
+
 - Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `9d0c4b426bb1670361093ed1a7b5d023ee1fad06`.
 - Nowe ID: ADR-B-0610–0638 (29 pytań roboczych); raport: `podstawowy/raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md`.
 - Mapa: 107 kompetencji, 104 teoretyczne i 3 praktyczne; niezależna recenzja pozostaje otwarta.
