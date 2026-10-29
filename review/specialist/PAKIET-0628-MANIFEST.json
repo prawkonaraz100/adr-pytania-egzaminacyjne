@@ -10,8 +10,8 @@
   },
   "formal_approvals": 0,
   "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0628.md",
-  "source_ledger": "review/legal-polish/stage4x136-legal-review-ledger-0629-0638.json",
-  "unresolved_literal_comparisons": 395,
+  "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
+  "unresolved_literal_comparisons": 405,
   "modules": {
     "ADR-B-01": {
       "questions": 46,
@@ -294,11 +294,11 @@
     "note": "Priority list is not exhaustive. Every question remains needs_review until a real specialist approves it; all ADR 2027 sensitivity registers remain relevant."
   },
   "literal_comparison_status_counts": {
-    "official_polish_text_not_retrieved": 395,
+    "official_polish_text_not_retrieved": 405,
     "targeted_source_checked_full_literal_comparison_pending": 10,
     "records_with_recorded_targeted_comparison_result": 291,
     "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 223,
-    "specialist_reviews_pending": 628,
+    "specialist_reviews_pending": 638,
     "verified": 0
   },
   "stage4x19": {
@@ -679,7 +679,7 @@
     "status": "needs_review",
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
-  "latest_report": "podstawowy/raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md",
+  "latest_report": "podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md",
   "latest_sample": "podstawowy/raporty/etap-4x135-wykluczenia-proby.json",
   "latest_sample_seed": 41232026,
   "latest_sample_count": 40,
@@ -708,7 +708,7 @@
     "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
   },
   "latest_editorial_stage": "4x124",
-  "latest_editorial_report": "podstawowy/raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md",
+  "latest_editorial_report": "podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md",
   "stage4x112": {
     "source_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
     "sample_size": 40,
@@ -1076,5 +1076,28 @@
       "ADR-B-0627",
       "ADR-B-0628"
     ]
+  },
+  "stage4x136": {
+    "status": "needs_review",
+    "date": "2026-10-29",
+    "bank_count": 638,
+    "new_ids": [
+      "ADR-B-0629",
+      "ADR-B-0630",
+      "ADR-B-0631",
+      "ADR-B-0632",
+      "ADR-B-0633",
+      "ADR-B-0634",
+      "ADR-B-0635",
+      "ADR-B-0636",
+      "ADR-B-0637",
+      "ADR-B-0638"
+    ],
+    "verification_status": "needs_review",
+    "formal_approvals": 0,
+    "report": "podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md",
+    "bank_blob_sha": "ff60bc99b58068ce826bec80d7c12f3265dc1301",
+    "question_count": 638,
+    "last_id": "ADR-B-0638"
   }
 }
