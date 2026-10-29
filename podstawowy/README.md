@@ -2,7 +2,7 @@
 
 ## Ostatnia kontrola jakości
 
-- [Etap 4x137 — scenariusze praktyczne](raporty/etap-4x137-scenariusze-praktyczne-2026-10-29.md): 4 dodatkowe scenariusze i powiązania z pytaniami 0629–0638.
+- [Etap 4x137 — scenariusze praktyczne](raporty/etap-4x137-scenariusze-praktyczne-2026-10-29.md): 4 scenariusze dopracowane i powiązania z pytaniami 0629–0638.
 - [Etap 4x136 — pogłębienie kompetencji 0629–0638](raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md): 10 nowych pytań sytuacyjnych; bank 638 pytań.
 - [Etap 4x135 — kontynuacja pogłębienia kompetencji 0621–0628](raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md): poprzednia partia 8 pytań.
 - [Etap 4x135 — audyt głębokości kompetencji i pytania 0610–0620](raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md): wcześniejsza partia 11 pytań.
