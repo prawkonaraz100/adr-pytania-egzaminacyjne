@@ -315,3 +315,7 @@ Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`. Zaktualizowano cztery 
 
 
 Najnowsza redakcyjna partia 4x125 (2026-10-28): [raport próbki 40, dystraktorów i synchronizacji](../../podstawowy/raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md). Bank bieżący: 609 pytań, wszystkie `needs_review`, 0 `verified`.
+
+## Uzupełnienie 4x138 — audyt zbiorczy (29.10.2026)
+
+Pięć próbnych wariantów 001–005 uzyskało zgodność techniczną z bankiem: po 30 pozycji, 13/13 działów, A/B/C 10/10/10, łącznie 150 różnych ID; klucze i odwołania `legal_basis` odpowiadają rekordom źródłowym. Kontrola obecności wymaganych elementów lekcji: 13/13, mapa: 104 cele teoretyczne i 3 praktyczne. Automatyczna kontrola formy `explanation`: 638/638 w zakresie 300–500 znaków oraz 2–5 zdań. Szczegóły i ograniczenia w [raporcie](../../podstawowy/raporty/etap-4x138-audyt-zbiorczy-egzaminy-lekcje-2026-10-29.md). **Nie zatwierdza to legalności odpowiedzi, jakości dydaktycznej ani publikacji**. 638 `needs_review`; 0 `verified`; niezależna recenzja ADR 2025 nadal wymagana.
