@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASIC = ROOT / "podstawowy"
-REPORT = BASIC / "raporty" / "etap-4x135-kontynuacja-0621-0628-2026-10-29.md"
+REPORT = BASIC / "raporty" / "etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md"
 SAMPLE = BASIC / "raporty" / "etap-4x135-wykluczenia-proby.json"
 MANIFEST = ROOT / "review" / "specialist" / "PAKIET-0628-MANIFEST.json"
 
@@ -58,8 +58,8 @@ class CurrentSnapshotTests(unittest.TestCase):
         self.assertIn("4x103–4x113", sample["limitation"])
         self.assertIn("nakładanie jest jawnie opisane", sample["limitation"])
         self.assertLessEqual(sample["sample_count"], sample["candidate_pool_size"])
-        self.assertEqual(len(bank), 628)
-        self.assertEqual(len(by_id), 628)
+        self.assertEqual(len(bank), 638)
+        self.assertEqual(len(by_id), 638)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in bank))
         self.assertEqual(sum(row["verification_status"] == "verified" for row in bank), 0)
 
