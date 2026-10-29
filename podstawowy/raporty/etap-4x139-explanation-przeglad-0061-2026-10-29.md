@@ -1,0 +1,7 @@
+# Etap 4x139 — drugi przegląd explanation, partia 1 (29.10.2026)
+
+Bazowy `main`: `a5992829c07ed54a93b99d4eaa5093275c80f347`. Zakres: początkowy kurs podstawowy, bez cystern. Automatyczny przegląd 638 rekordów: 0 wyjaśnień poniżej 300 lub powyżej 500 znaków; 0 poza ramą 2–5 zdań (uproszczony segmentator). Heurystyczna kolejka 37 potencjalnie trudniejszych tekstów to **kandydaci**, a nie błędy.
+
+Przeczytano ze stem, wariantami i podstawą w banku pierwsze przykłady: ADR-B-0061, 0089, 0093, 0215, 0209, 0063, 0233. Teksty 0093, 0215, 0209, 0063 i 0233 objaśniają sens i odróżniają błędne odpowiedzi; bez potrzeby ingerencji. ADR-B-0089 zawiera stosunkowo dużo numerów, ale nadal tłumaczy wybór. **ADR-B-0061** rozpoczynało od abstrakcyjnego sformułowania „szczególne zasady dla łańcucha morskiego lub lotniczego” i skomplikowanego wyliczenia numerów. Zastąpiono je konkretnym przykładem przesyłki jadącej statkiem/samolotem i następnie drogą oraz prostym wyjaśnieniem dwóch dystraktorów. Zachowano klucz C i podstawę ADR 5.4.1.1.7, 1.1.4.2.1, a także status `needs_review`; zsynchronizowano tekst w kluczu egzaminu 001.
+
+Zmiana redakcyjna nie jest weryfikacją literalnego tekstu ADR 2025. Testy lokalne nie zostały wykonane (brak checkoutu); odbiór następuje wyłącznie po PASS GitHub Quality Gate/CI. Kolejne partie powinny sprawdzać cały sens pytań i dopasowanie do błędnych odpowiedzi, bez mechanicznych przeróbek jasnych tekstów.
