@@ -133,3 +133,7 @@ Użyj fikcyjnych zdjęć opakowań i tablic. Kursant ma rozpoznać, które oznac
 - `SC-ADR-B-06-03` — nalepka zasłonięta podczas załadunku.
 
 Pytania kontrolne: `ADR-B-0016`, `ADR-B-0017`, `ADR-B-0018`, `ADR-B-0507`, `ADR-B-0546`, `ADR-B-0549`, `ADR-B-0562`. Błędy do omówienia: mylenie numeru UN z numerem zagrożenia, wybór dowolnego rozmiaru tablicy i uznawanie, że oznakowanie może być zasłonięte, jeśli dokumenty są poprawne.
+
+
+### Scenariusz SC-ADR-B-06, SC-ADR-B-06-02 i SC-ADR-B-06-03 — kontrola tablicy pomarańczowej
+Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, druga kod 80. Kursant ma zatrzymać wyjazd przy niezgodności i wyjaśnić, że cyfra 8 wskazuje działanie żrące, a kod należy czytać w całości. Pytania: ADR-B-0634–0637. Podstawy do sprawdzenia: ADR 5.3.2.2.1, 5.3.2.2.2 i 5.3.2.3.1.

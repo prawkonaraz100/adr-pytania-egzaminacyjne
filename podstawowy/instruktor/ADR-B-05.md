@@ -143,3 +143,7 @@ Prowadź kursanta od oceny bezpieczeństwa miejsca do alarmowania i przekazania 
 - `SC-ADR-B-05-03` — pożar przy przestrzeni ładunkowej.
 
 Pytania kontrolne: `ADR-B-0013`, `ADR-B-0015`, `ADR-B-0169`, `ADR-B-0220`, `ADR-B-0222`, `ADR-B-0232`, `ADR-B-0585`, `ADR-B-0593`, `ADR-B-0594`. Błędy do omówienia: próba ustalenia substancji po zapachu, narażenie siebie przy ratowaniu dokumentów oraz przekonanie, że każdą sytuację można rozwiązać gaśnicą.
+
+
+### Scenariusz SC-ADR-B-05, SC-ADR-B-05-02 i SC-ADR-B-05-03 — awaria i ratownicy
+Ćwicz sekwencję: bezpieczeństwo własne, ostrzeżenie osób postronnych, przekazanie ratownikom dostępnych informacji i unikanie kontaktu z nieznaną substancją. Nie wymagaj od kursanta wejścia w strefę zagrożenia. Pytania: ADR-B-0630–0633. Podstawy do sprawdzenia: ADR 5.4.3.4 i 8.1.5.2.

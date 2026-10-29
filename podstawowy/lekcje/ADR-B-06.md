@@ -170,3 +170,8 @@ Status materiału i pytań: needs_review; konkretne wymagania oznakowania należ
 ## Scenariusze: tablice pomarańczowe — ADR-B-0634–0637
 
 Przed wyjazdem sprawdź, czy tablice pomarańczowe są właściwe, czytelne i widoczne. Nie zakładaj, że mniejszy format jest dopuszczalny bez sprawdzenia warunków ADR. Numer rozpoznawczy zagrożenia pomaga rozpoznać charakter zagrożenia; powtórzona cyfra może wskazywać jego większe nasilenie, a cyfra 8 oznacza działanie żrące. Odczytuj kod w całości i sprawdzaj go z ADR 5.3.2.2.1, 5.3.2.2.2 i 5.3.2.3.1. Pytania ADR-B-0634, ADR-B-0635, ADR-B-0636 i ADR-B-0637 pozostają niezatwierdzone.
+
+
+### Scenariusz praktyczny SC-ADR-B-06-04
+
+Powiązane pytania: ADR-B-0634, ADR-B-0635, ADR-B-0636, ADR-B-0637. Przećwicz kontrolę wymiarów i czytelności tablicy pomarańczowej oraz odczyt kodu zagrożenia. Nie zakładaj, że mniejszy format jest dopuszczalny; odczytuj kod w całości. Wykonuj ćwiczenie na fikcyjnych materiałach; podstawy prawne i rozwiązanie wymagają niezależnej kontroli specjalisty.

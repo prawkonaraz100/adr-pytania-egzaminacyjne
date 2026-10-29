@@ -135,3 +135,7 @@ Poprowadź kursanta od ochrony ludzi i środowiska do dokumentacji odpadu. Nie z
 - `SC-ADR-B-03-03` — pozostałości po rozładunku przed kolejnym ładunkiem.
 
 Pytania kontrolne: `ADR-B-0007`, `ADR-B-0008`, `ADR-B-0009`, `ADR-B-0325`, `ADR-B-0332`, `ADR-B-0344`, `ADR-B-0461`, `ADR-B-0469`, `ADR-B-0514`. Częste pomyłki do omówienia: „ODPAD” nie zastępuje nazwy przewozowej ani numeru UN; mały wyciek nadal może wymagać reakcji; nieznanego składu nie wolno klasyfikować na chybił trafił.
+
+
+### Scenariusz SC-ADR-B-03-03 — dokument odpadu przed wyjazdem
+Przeprowadź ćwiczenie na fikcyjnym dokumencie. Kursant ma wskazać brak lub wątpliwość w opisie odpadu, wyjaśnić ją z osobą odpowiedzialną i zatrzymać wyjazd do czasu poprawienia dokumentu. Pytanie powiązane: ADR-B-0629. Nie traktuj ćwiczenia jako formalnej recenzji prawnej; sprawdź ADR 5.4.1.1.3.1.
