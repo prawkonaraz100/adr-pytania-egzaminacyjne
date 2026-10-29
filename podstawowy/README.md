@@ -2,6 +2,8 @@
 
 ## Ostatnia kontrola jakości
 
+- [Etap 4x155 — luki praktyczne i pytania ADR-B-0646–0651](raporty/etap-4x155-luki-praktyczne-0646-0651-2026-10-29.md): sześć scenariuszowych pytań do ćwiczeń z gaśnicy, pierwszej pomocy i wypadku; nie zastępują praktyki.
+
 - [Etap 4x154 — luki praktyczne i pytania ADR-B-0640–0645](raporty/etap-4x154-luki-praktyczne-0640-0645-2026-10-29.md): sześć pytań wspierających bezpieczne decyzje; nie zastępują instruktażu praktycznego.
 - [Etap 4x153 — luka kompetencji i pytanie ADR-B-0639](raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md): uzupełniono najmniej pokrytą kompetencję teoretyczną ADR-B-01-K01; wszystkie snapshoty i referencje banku zsynchronizowane.
 
@@ -19,7 +21,7 @@
 - [Etap 4x132 — pakiet recenzyjny i instrukcja egzaminu](raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md): odświeżono listę kontrolną specjalisty i dodano instrukcję do egzaminu próbnego.
 - [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md): przejrzano pytania ADR-B-0586–0609; poprawiono jedną niespójność redakcyjną; 39 scenariuszy i 13 lekcji bez brakujących/błędnych referencji.
 
-**Stan na 29.10.2026, etap 4x154: 645 pytań roboczych; 645 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/645 = 11,16% (maksimum działu poniżej 18%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 29.10.2026, etap 4x155: 651 pytań roboczych; 651 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/651 = 11,06% (maksimum działu poniżej 18%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -28,6 +30,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x155 — luki praktyczne i pytania ADR-B-0646–0651](raporty/etap-4x155-luki-praktyczne-0646-0651-2026-10-29.md)
 - [Etap 4x154 — luki praktyczne i pytania ADR-B-0640–0645](raporty/etap-4x154-luki-praktyczne-0640-0645-2026-10-29.md)
 - [Etap 4x153 — luka kompetencji i pytanie ADR-B-0639](raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md)
 - [Etap 4x152 — audyt referencji banku](raporty/etap-4x152-audyt-referencji-banku-2026-10-29.md)
