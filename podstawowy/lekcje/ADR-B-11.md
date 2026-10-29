@@ -160,3 +160,84 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; kod dla konkretnego ładunku i ograniczenia wymagają kontroli w aktualnym wpisie ADR.
+
+## Uzupełnienie 4x138 — decyzje w konkretnych sytuacjach
+
+Zamiast zapamiętywać samą nazwę przepisu, ćwicz rozpoznanie problemu i wskazanie bezpiecznego następnego kroku. Przykłady poniżej są pytaniami roboczymi z banku; nie stanowią zatwierdzenia przez specjalistę.
+
+### Kategorie tuneli A–E — ADR-B-11-K01
+
+**Wyjaśnienie dla kursanta:** Kategoria tunelu A oznacza, że sama klasyfikacja ADR A–E nie wprowadza ograniczenia tunelowego dla danego przewozu. Nie oznacza to zakazu dla wszystkich pojazdów ADR (jak w opcji A) ani zakazu tylko dla klasy 3 (jak w opcji C).
+
+**Przykład z pracy:** Co oznacza dla ograniczeń ADR kategoria tunelu A?
+
+**Co warto zrobić lub sprawdzić:** Brak ograniczeń tunelowych ADR wynikających z klasyfikacji A–E. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0031` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 1.9.5.3.
+
+### Kod E, D/E i rodzaj przewozu — ADR-B-11-K02
+
+**Wyjaśnienie dla kursanta:** Jeżeli dany przewóz podlega ograniczeniom tunelowym, kod E zabrania przejazdu przez tunel kategorii E. Nie nakazuje korzystać właśnie z takiego tunelu i nie oznacza zakazu w każdej kategorii od A do E.
+
+**Przykład z pracy:** Co oznacza kod ograniczeń tunelowych E, jeżeli zgodnie z ADR 8.6 przewóz podlega ograniczeniom tunelowym?
+
+**Co warto zrobić lub sprawdzić:** Zakaz przejazdu przez tunel kategorii E. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0032` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 8.6.4.
+
+### Kod w kolumnie 15 tabeli A — ADR-B-11-K03
+
+**Wyjaśnienie dla kursanta:** Kod tunelowy pomaga kierowcy ustalić, przez które tunele może przejechać z danym towarem niebezpiecznym. Szuka się go w kolumnie 15 tabeli A ADR, a nie w kolumnach 12 lub 18.
+
+**Przykład z pracy:** Gdzie w tabeli A ADR szuka się kodu ograniczeń tunelowych dla danego towaru?
+
+**Co warto zrobić lub sprawdzić:** W kolumnie 15. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0063` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 8.6.3.1.
+
+### Najbardziej restrykcyjny kod w jednostce — ADR-B-11-K04
+
+**Wyjaśnienie dla kursanta:** Gdy w jednej jednostce przewożone są różne towary objęte kodami tunelowymi, trzeba uwzględnić kod powodujący największe ograniczenia. Wybór najłagodniejszego kodu tylko po to, by uniknąć objazdu, jest nieprawidłowy; nie zawsze przyjmuje się też kod A.
+
+**Przykład z pracy:** Dla jednostki transportowej objętej ograniczeniami ADR przewozisz różne towary mające różne kody tunelowe. Jak ustala się kod dla całego ładunku?
+
+**Co warto zrobić lub sprawdzić:** Stosuje się kod oznaczający największe ograniczenia. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0064` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 8.6.3.2.
+
+### Rozumienie znaczenia kodu tunelowego (-) i jego ograniczeń — ADR-B-11-K05
+
+**Wyjaśnienie dla kursanta:** Kod „(-)” oznacza, że ADR nie przypisał tej pozycji własnego ograniczenia tunelowego. Nie oznacza to jednak zakazu dla kategorii E ani obowiązku uzyskania specjalnej zgody; kierowca nadal musi stosować znaki drogowe i pozostałe ograniczenia trasy.
+
+**Przykład z pracy:** Co oznacza zapis „(-)” jako kod ograniczeń tunelowych dla danego towaru?
+
+**Co warto zrobić lub sprawdzić:** Brak ograniczeń tunelowych ADR wynikających z tego kodu. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0065` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 8.6.3.1.
+
+### Wyłączenia 1.1.3 i przypadek 3.4.13 — ADR-B-11-K06
+
+**Wyjaśnienie dla kursanta:** Najpierw sprawdź, czy przewóz rzeczywiście spełnia warunki wyłączenia z ADR 1.1.3. Jeśli tak, towaru co do zasady nie dolicza się do ustalania kodu ograniczeń tunelowych, z uwzględnieniem szczególnego wyjątku dotyczącego oznakowania LQ (ilości ograniczonych).
+
+**Przykład z pracy:** Towary są rzeczywiście przewożone zgodnie z wyłączeniami rozdziału ADR 1.1.3. Jednostka transportowa nie wymaga oznakowania LQ na podstawie 3.4.13 (z uwzględnieniem 3.4.14). Czy te towary uwzględnia się przy ustalaniu kodu ograniczeń tunelowych?
+
+**Co warto zrobić lub sprawdzić:** Nie, przewozy na tych zasadach nie podlegają takim ograniczeniom tunelowym. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0085` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 8.6.3.3.
+
+### Zachowanie podczas pożaru w tunelu — ADR-B-11-K07
+
+**Wyjaśnienie dla kursanta:** Przy rozwiniętym pożarze przedziału ładunkowego nie próbuj samodzielnie gasić ognia; oddal się bezpiecznie i powiadom służby. Użycie gaśnicy przy ładowni albo podejście bliżej w celu rozpoznania źródła może narazić załogę na ogień, dym i reakcję towaru.
+
+**Przykład z pracy:** W tunelu podczas przewozu ADR wybucha rozwinięty pożar przedziału ładunkowego. Co jest właściwym priorytetem załogi?
+
+**Co warto zrobić lub sprawdzić:** Bezpiecznie się ewakuować, ostrzec służby i nie gasić pożaru ładowni. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0143` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR program kursu lit. k, 5.4.3.4.
+
+### Utrwal na scenariuszu
+
+Wybierz scenariusz działu ADR-B-11 z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json), odegraj rozmowę z dyspozytorem lub osobą na rampie i wyjaśnij, jakie dokumenty oraz warunki sprawdzisz przed decyzją. Nie zakładaj, że czyjeś polecenie znosi wymogi ADR.
+
+Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi porównać je z pełnym polskim tekstem ADR.
+
