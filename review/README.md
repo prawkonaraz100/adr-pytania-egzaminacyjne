@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x176 (29.10.2026)
+
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `7813e6a3d6006fe888728e38bf6b29a620aa5d0d`.
+- Raport: `podstawowy/raporty/etap-4x176-przeglad-explanation-10-2026-10-29.md`.
+- Przepisano 10 explanation; pytania, warianty, klucze, źródła i statusy bez zmian. Snapshoty audytów, egzaminy 001–005 i manifesty zsynchronizowane z bieżącym bankiem; niezależna recenzja ADR nadal wymagana.
+
 ## Bieżąca migawka — etap 4x175 (29.10.2026)
 
 - Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `7813e6a3d6006fe888728e38bf6b29a620aa5d0d`.
