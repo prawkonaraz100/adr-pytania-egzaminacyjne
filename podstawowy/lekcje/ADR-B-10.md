@@ -177,3 +177,64 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; zastosowanie wyjątku i dokumenty trzeba sprawdzić dla konkretnego przewozu.
+
+## Uzupełnienie 4x138 — decyzje w konkretnych sytuacjach
+
+Zamiast zapamiętywać samą nazwę przepisu, ćwicz rozpoznanie problemu i wskazanie bezpiecznego następnego kroku. Przykłady poniżej są pytaniami roboczymi z banku; nie stanowią zatwierdzenia przez specjalistę.
+
+### Zasady uznawania IMDG przy odcinku drogowym — ADR-B-10-K01
+
+**Wyjaśnienie dla kursanta:** Na odcinku drogowym stosujesz ADR, a na morskim również przepisy IMDG, czyli międzynarodowy kodeks przewozu towarów niebezpiecznych statkami. Błędna jest odpowiedź ograniczająca całą trasę do IMDG, bo pomija wymagania drogowe.
+
+**Przykład z pracy:** Jeśli przewóz towarów niebezpiecznych obejmuje odcinek drogowy i morski, które przepisy mogą być istotne?
+
+**Co warto zrobić lub sprawdzić:** ADR dla odcinka drogowego oraz przepisy morskie, w tym IMDG, dla odcinka morskiego.. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0028` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 1.1.4.2.
+
+### Dodatkowy wpis w dokumencie przy 1.1.4.2.1 — ADR-B-10-K02
+
+**Wyjaśnienie dla kursanta:** Gdy przewóz drogowy korzysta ze szczególnych zasad dla łańcucha morskiego lub lotniczego, dokument powinien wskazywać właściwą podstawę. ADR 1.1.3.6 to inne wyłączenie ilościowe, dotyczące określonych ilości towaru w jednostce transportowej, a 5.4.3.1 dotyczy instrukcji pisemnych.
+
+**Przykład z pracy:** Jaki dodatkowy zapis przewiduje ADR w dokumencie przewozowym, jeśli przewóz odbywa się zgodnie z 1.1.4.2.1?
+
+**Co warto zrobić lub sprawdzić:** PRZEWÓZ ZGODNY Z 1.1.4.2.1. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0061` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 5.4.1.1.7.
+
+### Dokumentacja i certyfikat pakowania kontenera — ADR-B-10-K03
+
+**Wyjaśnienie dla kursanta:** Przy przewozie zwykłego kontenera z towarami niebezpiecznymi drogą, a potem statkiem, może być wymagany certyfikat potwierdzający prawidłowe pakowanie kontenera lub pojazdu. Sam dokument drogowy nie zawsze wystarcza, a świadectwo dopuszczenia pojazdu nie pełni tej funkcji.
+
+**Przykład z pracy:** Zwykły kontener ładunkowy ze sztukami przesyłek ADR (nie kontener-cysterna) będzie najpierw przewożony drogą, a następnie drogą morską. Jaki dodatkowy dokument może wymagać ADR 5.4.2?
+
+**Co warto zrobić lub sprawdzić:** Certyfikat pakowania kontenera/pojazdu, gdy zachodzą warunki tego przepisu. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0140` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 5.4.2.
+
+### Różnice między wymaganiami ADR, RID i IMDG — ADR-B-10-K04
+
+**Wyjaśnienie dla kursanta:** Dla towarów niebezpiecznych różne środki transportu mają własne przepisy. ADR dotyczy drogi, RID to przepisy dla przewozu kolejowego, a IMDG to międzynarodowy kodeks przewozu drogą morską.
+
+**Przykład z pracy:** Który zestaw odpowiada gałęziom transportu towarów niebezpiecznych?
+
+**Co warto zrobić lub sprawdzić:** ADR — droga, RID — kolej, IMDG — morze. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0141` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 1.1.4.
+
+### Warunki zwolnień oraz obowiązki drogowego odcinka — ADR-B-10-K05
+
+**Wyjaśnienie dla kursanta:** IMDG to międzynarodowy kodeks przewozu towarów niebezpiecznych drogą morską. Jego oznakowanie może być uznane na odcinku drogowym tylko wtedy, gdy spełniono warunki przewozu kombinowanego przewidziane w ADR.
+
+**Przykład z pracy:** Kontener z oznakowaniem IMDG po rejsie morskim jedzie drogą. Co trzeba sprawdzić?
+
+**Co warto zrobić lub sprawdzić:** Warunki uznania znaków IMDG i pozostałe obowiązki ADR na drodze. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0142` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 1.1.4.2; 1.1.4.7, 5.4.1.1.24.
+
+### Utrwal na scenariuszu
+
+Wybierz scenariusz działu ADR-B-10 z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json), odegraj rozmowę z dyspozytorem lub osobą na rampie i wyjaśnij, jakie dokumenty oraz warunki sprawdzisz przed decyzją. Nie zakładaj, że czyjeś polecenie znosi wymogi ADR.
+
+Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi porównać je z pełnym polskim tekstem ADR.
+
