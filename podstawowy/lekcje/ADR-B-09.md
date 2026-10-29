@@ -184,3 +184,8 @@ Status materiału i pytań: needs_review; zgodność wspólnego załadunku i prz
 ## Scenariusz: żywność i pasza — ADR-B-0638
 
 Jeżeli obok towaru niebezpiecznego mają być przewożone żywność lub pasza, nie wystarczy sprawdzić, czy ładunki mieszczą się w pojeździe. Przed załadunkiem sprawdź właściwy wpis ADR i wymagane środki ostrożności lub rozdzielenia. Gdy warunków nie da się potwierdzić, wstrzymaj załadunek i wyjaśnij sprawę. Podstawa do niezależnej kontroli: ADR 7.5.4.
+
+
+### Scenariusz praktyczny SC-ADR-B-09-04
+
+Powiązane pytania: ADR-B-0638. Na papierowym planie ładowni sprawdź, jakie wymagania ADR należy ustalić przed wspólnym przewozem towaru niebezpiecznego i żywności lub paszy. Wykonuj ćwiczenie na fikcyjnych materiałach; podstawy prawne i rozwiązanie wymagają niezależnej kontroli specjalisty.
