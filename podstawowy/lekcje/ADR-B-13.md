@@ -168,3 +168,94 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; szczegółowe pola dokumentu i wyjątki wymagają niezależnej kontroli polskiego tekstu.
+
+## Uzupełnienie 4x138 — co sprawdzić przed decyzją
+
+Przeczytaj, jakie pytanie zada sobie kierowca w zwykłej sytuacji służbowej. Najważniejsza jest kolejność bezpiecznych działań, nie samo powtórzenie numeru przepisu.
+
+### Numer UN i właściwa nazwa przewozowa (ADR-B-13-K01)
+
+**Prostym językiem:** Numer UN (czterocyfrowy identyfikator towaru niebezpiecznego) zapisuje się z literami „UN” przed numerem, aby dokument jednoznacznie wskazywał przewożony materiał. Sam numer bez prefiksu ani nazwa handlowa połączona z klasą nie zastępują wymaganego zapisu.
+
+**Sytuacja:** W jaki sposób numer identyfikacyjny towaru niebezpiecznego podaje się w dokumencie przewozowym ADR?
+
+**Poprawny kierunek:** Z literami UN przed czterocyfrowym numerem. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0037`. **Podstawa do kontroli:** ADR 5.4.1.1.1(a),(b).
+
+### Dokument: liczba, rodzaj przesyłek i ilość (ADR-B-13-K02)
+
+**Prostym językiem:** Liczba i rodzaj sztuk przesyłek pokazują, ile opakowań z towarem znajduje się w ładunku i w jakiej są formie. Numer UN to czterocyfrowy identyfikator towaru niebezpiecznego, ale sam nie informuje, ile opakowań przewozisz.
+
+**Sytuacja:** Jakie informacje o opakowanych towarach niebezpiecznych powinny się znaleźć w dokumencie przewozowym ADR?
+
+**Poprawny kierunek:** Liczba i określenie sztuk przesyłek, jeśli występują. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0069`. **Podstawa do kontroli:** ADR 5.4.1.1.1(e),(f).
+
+### Dane odbiorcy i nadawcy (ADR-B-13-K03)
+
+**Prostym językiem:** Nazwa i adres odbiorcy pozwalają ustalić, komu ma zostać przekazany niebezpieczny ładunek. Sam kod pocztowy nie identyfikuje odbiorcy, a dane spedytora nie są jego automatycznym zamiennikiem.
+
+**Sytuacja:** Którą informację o odbiorcy trzeba co do zasady zamieścić w dokumencie przewozowym ADR?
+
+**Poprawny kierunek:** Nazwę i adres odbiorcy. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0068`. **Podstawa do kontroli:** ADR 5.4.1.1.1(g),(h).
+
+### Wzór i liczba stron instrukcji pisemnych (ADR-B-13-K04)
+
+**Prostym językiem:** Instrukcje pisemne ADR mają ustalony, czterostronicowy wzór, żeby załoga mogła szybko znaleźć informacje potrzebne przy zdarzeniu. Trzy strony nie obejmują całego wzoru, a pięć nie odpowiada standardowej formie określonej w ADR.
+
+**Sytuacja:** Ile stron liczy standardowy wzór instrukcji pisemnych ADR?
+
+**Poprawny kierunek:** Cztery. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0039`. **Podstawa do kontroli:** ADR 5.4.3.4.
+
+### Dokumenty i dowód tożsamości załogi (ADR-B-13-K05)
+
+**Prostym językiem:** W zakresie ADR 1.10.1.4 każdy członek załogi powinien mieć własny dokument tożsamości ze zdjęciem. Karta bez fotografii nie pozwala wiarygodnie potwierdzić tożsamości, a wspólna lista nie jest indywidualnym dokumentem.
+
+**Sytuacja:** Który dokument spełnia wymóg identyfikacji członka załogi ze zdjęciem, gdy ma zastosowanie ADR 1.10.1.4?
+
+**Poprawny kierunek:** Własny dokument tożsamości ze zdjęciem dla każdego członka załogi. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0087`. **Podstawa do kontroli:** ADR 8.1.2.1.
+
+### Dodatkowy wpis w transporcie kombinowanym (ADR-B-13-K06)
+
+**Prostym językiem:** Jeśli drogowy odcinek przewozu korzysta ze szczególnych zasad dla łańcucha morskiego, dokument powinien wskazać tę podstawę. ADR 1.1.3.6 to wyłączenie ilościowe dla określonych ilości towaru na jednostkę transportową, a 5.4.3.2 dotyczy instrukcji pisemnych — żaden z tych punktów nie zastępuje wpisu o przewozie kombinowanym.
+
+**Sytuacja:** Przewóz drogowy odbywa się na szczególnych warunkach 1.1.4.2.1 w łańcuchu morsko-drogowym. Jaki dodatkowy zapis jest wymagany w dokumencie ADR?
+
+**Poprawny kierunek:** PRZEWÓZ ZGODNY Z 1.1.4.2.1. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0089`. **Podstawa do kontroli:** ADR 5.4.1.1.7.
+
+### Dostępność dokumentów w kabinie (ADR-B-13-K07)
+
+**Prostym językiem:** W razie pożaru lub wycieku załoga musi móc natychmiast znaleźć instrukcje postępowania. Dlatego przechowuje się je w kabinie, w łatwo dostępnym miejscu.
+
+**Sytuacja:** Gdzie w jednostce transportowej należy przechowywać instrukcje pisemne ADR zgodnie z 8.1.2.3?
+
+**Poprawny kierunek:** W kabinie pojazdu, w miejscu łatwo dostępnym dla załogi. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0090`. **Podstawa do kontroli:** ADR 8.1.2.3.
+
+### Dodatkowe dokumenty zależnie od rodzaju ładunku (ADR-B-13-K08)
+
+**Prostym językiem:** FL to kategoria pojazdu używanego w ADR przy określonych przewozach cieczy lub gazów palnych w cysternach. Jeśli dla takiego pojazdu wymagane jest świadectwo dopuszczenia, trzeba mieć je w pojeździe i móc okazać podczas kontroli.
+
+**Sytuacja:** Gdzie podczas przewozu powinno znajdować się wymagane świadectwo dopuszczenia samochodu ciężarowego typu FL (pojazdu silnikowego, nie naczepy), zgodnie z ogólną zasadą ADR?
+
+**Poprawny kierunek:** Mieć wymagane świadectwo w kabinie razem z dokumentami przewozu. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0145`. **Podstawa do kontroli:** ADR 8.1.2, 5.4.
+
+### Ćwiczenie w realiach pracy
+
+Odegraj scenariusz z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json): jeden kursant jest kierowcą, drugi pracownikiem na placu lub dyspozytorem. Sprawdź informacje, wskaż ryzyko i wyjaśnij, kiedy trzeba wstrzymać czynność. Po ćwiczeniu wypisz jeden błąd, którego uniknąłeś.
+
+**Status:** `needs_review`; przedstawione wskazania ADR wymagają niezależnego sprawdzenia.
+
