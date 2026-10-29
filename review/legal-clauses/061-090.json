@@ -135,7 +135,7 @@
           "C": "W kolumnie 12"
         },
         "correct_option": "B",
-        "explanation": "Kod tunelowy pomaga kierowcy ustalić, przez które tunele może przejechać z danym towarem niebezpiecznym. Szuka się go w kolumnie 15 tabeli A ADR, a nie w kolumnach 12 lub 18. Sam kod trzeba jeszcze odczytać zgodnie z zasadami przewozu i ograniczeniami właściwymi dla konkretnej trasy. Podstawa: ADR 8.6.3.1.",
+        "explanation": "Kod ograniczeń tunelowych odczytuje się z kolumny 15 tabeli A, aby zaplanować trasę odpowiednią dla konkretnego towaru. Kolumny 12 i 18 podają inne informacje, więc szukanie kodu w tych miejscach prowadzi do błędu. Sam kod trzeba jeszcze zastosować do sposobu przewozu i kategorii tunelu. Podstawa: ADR 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1075,7 +1075,7 @@
           "C": "Wybrać trasę bez tunelu kategorii E."
         },
         "correct_option": "C",
-        "explanation": "Jeśli przewóz podlega ograniczeniu kodu E, kierowca powinien ominąć tunel kategorii E. Nie ma ogólnej zasady, że ograniczenie dotyczy wyłącznie cystern; trzeba odczytać kod dla towaru i uwzględnić postać przewozu zgodnie z ADR. Godzina przejazdu ani natężenie ruchu nie znoszą ograniczenia. Podstawa: ADR 8.6.4.",
+        "explanation": "Gdy sztuki przesyłek podlegają kodowi tunelowemu E, nie wolno z nimi wjeżdżać do tunelu kategorii E. Zakaz nie dotyczy wyłącznie cystern i nie znika poza godzinami szczytu, bo wynika z właściwości przewożonego towaru i zasad ADR. Sprawdź kod oraz kategorię tunelu i wybierz dopuszczalną trasę. Podstawa: ADR 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1404,7 +1404,7 @@
           "C": "W kabinie pojazdu, w miejscu łatwo dostępnym dla załogi"
         },
         "correct_option": "C",
-        "explanation": "W razie pożaru lub wycieku załoga musi móc natychmiast znaleźć instrukcje postępowania. Dlatego przechowuje się je w kabinie, w łatwo dostępnym miejscu. Dokument schowany pod ładunkiem może być nieosiągalny, a instrukcje pozostawione u odbiorcy nie pomogą kierowcy na trasie. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
+        "explanation": "Instrukcje pisemne powinny leżeć w kabinie, tak by załoga mogła szybko sięgnąć po nie podczas zdarzenia. Włożenie ich do ładowni nie zapewnia bezpiecznego dostępu przy wycieku, a dokumenty u odbiorcy nie pomogą podczas jazdy. Sprawdź obecność instrukcji i miejsce ich przechowywania przed odjazdem. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",

@@ -1,6 +1,12 @@
+## Bieżąca migawka — etap 4x158 (29.10.2026)
+
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `534c06f1a7c9a3e0d2faaf6534ec5555a7497475`.
+- Raport: `podstawowy/raporty/etap-4x158-przeglad-explanation-30-2026-10-29.md`.
+- Przepisano 30 explanation dla początkującego kursanta; treści pytań, A/B/C, klucze i podstawy prawne bez zmian. Zaktualizowano snapshoty audytu oraz powiązania z egzaminami 001–005. Redakcja nie jest formalną aprobatą prawną.
+
 ## Bieżąca migawka — etap 4x156
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `3d5674e418e2483dd15caca973a16f9fd478b252`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `534c06f1a7c9a3e0d2faaf6534ec5555a7497475`.
 - Raport: `podstawowy/raporty/etap-4x156-przeglad-explanation-0611-0647-2026-10-29.md`.
 - Drugi przegląd dydaktyczny: 30 poprawionych explanation; pytania, opcje, klucze i statusy bez zmian. Wszystkie pytania nadal wymagają niezależnej recenzji prawnej.
 
