@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x156 (29.10.2026)
+
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `7bb78be3820e6f6a587ca4ef74b8b40f685efb60`.
+- Raport jakości explanation: `podstawowy/raporty/etap-4x156-przeglad-explanation-0611-0647-2026-10-29.md`.
+- Redakcyjnie poprawiono explanation w 30 rekordach; klucze, pytania i podstawy prawne nie zmieniły się. Niezależna recenzja specjalisty pozostaje otwarta.
+
 ## Bieżąca migawka — etap 4x154 (29.10.2026)
 
 - Bank: 645 pytań `needs_review`, 0 `verified`; blob SHA `04368d6c14cd1acb82d26319ce5a6c90866ecd66`.
