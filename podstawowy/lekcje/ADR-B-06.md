@@ -175,3 +175,104 @@ Przed wyjazdem sprawdź, czy tablice pomarańczowe są właściwe, czytelne i wi
 ### Scenariusz praktyczny SC-ADR-B-06-04
 
 Powiązane pytania: ADR-B-0634, ADR-B-0635, ADR-B-0636, ADR-B-0637. Przećwicz kontrolę wymiarów i czytelności tablicy pomarańczowej oraz odczyt kodu zagrożenia. Nie zakładaj, że mniejszy format jest dopuszczalny; odczytuj kod w całości. Wykonuj ćwiczenie na fikcyjnych materiałach; podstawy prawne i rozwiązanie wymagają niezależnej kontroli specjalisty.
+
+## Uzupełnienie 4x138 — decyzje kierowcy i kompetencje
+
+Czytaj temat jak sytuację z pracy: najpierw rozpoznaj zagrożenie, potem wybierz bezpieczne działanie i wyjaśnij je własnymi słowami. Nie trzeba pamiętać całego przepisu na pamięć, ale trzeba wiedzieć, gdzie sprawdzić jego warunki.
+
+### Numer UN na sztuce przesyłki (ADR-B-06-K01)
+
+**Dlaczego to ważne:** Jeżeli ADR wymaga podania numeru UN na sztuce przesyłki, numer zapisuje się jako czterocyfrowy numer poprzedzony literami „UN”. Pozwala to jednoznacznie rozpoznać towar według systemu stosowanego w przewozie międzynarodowym.
+
+**Sytuacja do rozwiązania:** Na opakowaniu zawierającym materiał niebezpieczny, dla którego ADR wymaga oznakowania numerem UN, jak należy podać ten numer?
+
+**Prawidłowy kierunek działania:** Umieścić litery UN bezpośrednio przed właściwym czterocyfrowym numerem Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0114`; **podstawa do sprawdzenia:** 5.2.1.1.
+
+### Nalepki zagrożeń na opakowaniach (ADR-B-06-K02)
+
+**Dlaczego to ważne:** Wymagana nalepka ostrzegawcza przekazuje osobom obsługującym przesyłkę informację o rodzaju zagrożenia. Jeśli nalepki brakuje, nie należy rozpoczynać przewozu, dopóki oznakowanie nie zostanie prawidłowo uzupełnione.
+
+**Sytuacja do rozwiązania:** Kierowca zauważa, że na sztuce przesyłki brakuje wymaganej nalepki ostrzegawczej. Co jest poprawne?
+
+**Prawidłowy kierunek działania:** Uzupełnić wymagane nalepki przed rozpoczęciem przewozu Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0115`; **podstawa do sprawdzenia:** 5.2.2.1.1.
+
+### Tablice ADR: numer UN i zagrożenia (ADR-B-06-K03)
+
+**Dlaczego to ważne:** Na numerowanej tablicy pomarańczowej górne pole pokazuje numer rozpoznawczy zagrożenia, a dolne zawiera numer UN, czyli czterocyfrowy identyfikator towaru niebezpiecznego. Nie szukaj go nad numerem zagrożenia ani przy linii podziału — to nie są miejsca numeru UN.
+
+**Sytuacja do rozwiązania:** Na numerowanej pomarańczowej tablicy ADR, gdzie znajduje się numer UN?
+
+**Prawidłowy kierunek działania:** W dolnej części tablicy Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0016`; **podstawa do sprawdzenia:** 5.3.2.2.2; 5.3.2.3.1.
+
+### Znaczenie litery X (ADR-B-06-K04)
+
+**Dlaczego to ważne:** Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą. Podczas wycieku lub pożaru ta informacja ma znaczenie dla doboru działań ratowniczych: użycie wody bez oceny zagrożenia może nasilić reakcję.
+
+**Sytuacja do rozwiązania:** Co oznacza litera X przed numerem rozpoznawczym zagrożenia na tablicy ADR?
+
+**Prawidłowy kierunek działania:** Towar reaguje niebezpiecznie z wodą Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0017`; **podstawa do sprawdzenia:** 5.3.2.3.1.
+
+### Wymiary i rozmieszczenie tablic (ADR-B-06-K05)
+
+**Dlaczego to ważne:** Standardowa pomarańczowa tablica ADR ma 40 cm szerokości i 30 cm wysokości. Dzięki ujednoliconemu rozmiarowi oznakowanie jest rozpoznawalne dla innych uczestników ruchu i służb.
+
+**Sytuacja do rozwiązania:** Jakie są standardowe wymiary tablicy pomarańczowej ADR?
+
+**Prawidłowy kierunek działania:** 40 × 30 cm Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0018`; **podstawa do sprawdzenia:** 5.3.2.2.1.
+
+### Nasilenie zagrożenia przy powtórzeniu cyfry (ADR-B-06-K06)
+
+**Dlaczego to ważne:** Powtórzenie cyfry w numerze rozpoznawczym zagrożenia zwykle oznacza zwiększenie natężenia zagrożenia określonego tą cyfrą. Nie oznacza automatycznie dwóch niezależnych zagrożeń ani braku obowiązku stosowania innych nalepek.
+
+**Sytuacja do rozwiązania:** Co oznacza powtórzenie cyfry w numerze rozpoznawczym zagrożenia na tablicy ADR?
+
+**Prawidłowy kierunek działania:** Nasilenie zagrożenia wyrażanego tą cyfrą Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0051`; **podstawa do sprawdzenia:** 5.3.2.3.1.
+
+### Kolor i budowa tablicy (ADR-B-06-K07)
+
+**Dlaczego to ważne:** Standardowa tablica ADR jest pomarańczowa, a jej oznaczenia są czarne. Na właściwie oznakowanym pojeździe może pomagać służbom rozpoznać przewożony towar i zagrożenie na podstawie numerów.
+
+**Sytuacja do rozwiązania:** Jaki jest podstawowy kolor tablicy ADR z numerem UN i numerem rozpoznawczym zagrożenia?
+
+**Prawidłowy kierunek działania:** Pomarańczowy z czarnymi oznaczeniami Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0052`; **podstawa do sprawdzenia:** 5.3.2.2.2.
+
+### Znaczenie cyfry 8 (ADR-B-06-K08)
+
+**Dlaczego to ważne:** Cyfra 8 w numerze rozpoznawczym zagrożenia wskazuje na właściwości żrące, czyli możliwość uszkodzenia skóry lub materiałów. Nie jest symbolem promieniowania ani utleniania.
+
+**Sytuacja do rozwiązania:** Co może oznaczać numer rozpoznawczy zagrożenia rozpoczynający się od cyfry 8?
+
+**Prawidłowy kierunek działania:** Zagrożenie żrące Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0053`; **podstawa do sprawdzenia:** 5.3.2.3.1.
+
+### Nalepki na pojazdach i kontenerach (ADR-B-06-K09)
+
+**Dlaczego to ważne:** Duże nalepki ostrzegawcze mają być widoczne z różnych stron kontenera, aby osoby obsługujące transport mogły rozpoznać zagrożenie. Co do zasady umieszcza się je na obu bokach oraz na obu końcach odpowiedniego kontenera.
+
+**Sytuacja do rozwiązania:** Na jakich powierzchniach kontenera wymagającego nalepek dużego formatu ADR co do zasady się je umieszcza?
+
+**Prawidłowy kierunek działania:** Na obu bokach oraz obu końcach kontenera, w wymaganych miejscach Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0132`; **podstawa do sprawdzenia:** 5.3.1.
+
+### Przećwicz bezpieczną decyzję
+
+Wybierz scenariusz dla działu ADR-B-06 w [mapie ćwiczeń](../praktyka/scenariusze-13-dzialow.json). Opisz kolejno: jakie masz dane, co zrobisz jako pierwsze, czego nie zrobisz nawet pod presją czasu i skąd wiesz, że możesz bezpiecznie kontynuować. Przy awarii najpierw liczy się bezpieczeństwo ludzi.
+
+**Status:** `needs_review`; weryfikacja pełnego polskiego ADR 2025 i niezależna ocena specjalisty pozostają otwarte.
+ 

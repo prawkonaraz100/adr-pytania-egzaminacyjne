@@ -180,3 +180,94 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; dokładne wyposażenie i wymagania świadectwa trzeba potwierdzić dla konkretnego przewozu.
+
+## Uzupełnienie 4x138 — decyzje kierowcy i kompetencje
+
+Czytaj temat jak sytuację z pracy: najpierw rozpoznaj zagrożenie, potem wybierz bezpieczne działanie i wyjaśnij je własnymi słowami. Nie trzeba pamiętać całego przepisu na pamięć, ale trzeba wiedzieć, gdzie sprawdzić jego warunki.
+
+### Gaśnice pełny reżim i masa jednostki (ADR-B-08-K01)
+
+**Dlaczego to ważne:** DMC to dopuszczalna masa całkowita pojazdu, czyli maksymalna masa pojazdu razem z ładunkiem, określona dla niego w dokumentach. Przy jednostce transportowej powyżej 7,5 t, objętej pełnymi wymaganiami ADR, gaśnice muszą mieć łącznie skuteczność odpowiadającą co najmniej 12 kg proszku; 4 kg i 8 kg nie wystarczą.
+
+**Sytuacja do rozwiązania:** Jaka jest minimalna łączna pojemność gaśnic (w przeliczeniu na proszek) dla jednostki transportowej ADR o DMC powyżej 7,5 t, gdy stosuje się pełne wymagania 8.1.4.1?
+
+**Prawidłowy kierunek działania:** 12 kg Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0022`; **podstawa do sprawdzenia:** 8.1.4.1.
+
+### Gaśnica przy 1.1.3.6 (ADR-B-08-K02)
+
+**Dlaczego to ważne:** Przy przewozie korzystającym z wyłączenia ilościowego ADR 1.1.3.6 nadal trzeba mieć odpowiednią gaśnicę. Ten punkt pozwala stosować część uproszczeń po sprawdzeniu kategorii i ilości towaru, ale nie zwalnia z minimalnego wymagania gaśniczego.
+
+**Sytuacja do rozwiązania:** Jaka jest **minimalna** pojemność przenośnej gaśnicy proszkowej wymagana przez ADR 8.1.4.2 dla jednostki transportowej przewożącej towary niebezpieczne zgodnie z 1.1.3.6?
+
+**Prawidłowy kierunek działania:** 2 kg (albo równoważna skuteczność innego odpowiedniego środka gaśniczego) Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0073`; **podstawa do sprawdzenia:** 8.1.4.2.
+
+### Stan techniczny, ważność i dostępność gaśnic (ADR-B-08-K03)
+
+**Dlaczego to ważne:** Gaśnica ma być gotowa do użycia wtedy, gdy będzie potrzebna, dlatego wymagane badania i terminy użytkowania muszą być aktualne. Sama nienaruszona plomba nie potwierdza, że cały sprzęt spełnia wymagania.
+
+**Sytuacja do rozwiązania:** Podczas kontroli okazuje się, że termin przeglądu jednej z wymaganych gaśnic ADR minął. Co powinien zrobić kierowca?
+
+**Prawidłowy kierunek działania:** Doprowadzić wyposażenie do zgodności przed przewozem Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0074`; **podstawa do sprawdzenia:** 8.1.4.4–5.
+
+### Klin pod koło (ADR-B-08-K04)
+
+**Dlaczego to ważne:** Gdy stosuje się ADR 8.1.5.2, każdy pojazd jednostki transportowej powinien mieć klin pod koła odpowiedni do masy pojazdu i średnicy koła. Nie ogranicza się tego wymogu wyłącznie do pojazdów powyżej 7,5 t, a klina nie dobiera się według klasy towaru.
+
+**Sytuacja do rozwiązania:** Jakiego wyposażenia wymaga ADR dla każdego pojazdu jednostki transportowej, gdy zastosowanie ma 8.1.5.2?
+
+**Prawidłowy kierunek działania:** Klina pod koła dobranego do masy pojazdu i średnicy koła Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0023`; **podstawa do sprawdzenia:** 8.1.5.2.
+
+### Kamizelki i latarki dla członków załogi (ADR-B-08-K05)
+
+**Dlaczego to ważne:** Kamizelka ostrzegawcza sprawia, że członek załogi jest lepiej widoczny, zwłaszcza podczas postoju awaryjnego lub pracy obok pojazdu. Każda osoba w załodze potrzebuje własnej kamizelki, gdy stosuje się wymagania wyposażenia ADR.
+
+**Sytuacja do rozwiązania:** Czy podstawowy wykaz wyposażenia ADR wymaga dla załogi kamizelek ostrzegawczych?
+
+**Prawidłowy kierunek działania:** Tak, dla każdego członka załogi Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0057`; **podstawa do sprawdzenia:** 8.1.5.2.
+
+### Rękawice i ochrona oczu (ADR-B-08-K06)
+
+**Dlaczego to ważne:** Rękawice ochronne są jednym z elementów wyposażenia osobistego, które ma być dostępne dla każdego członka załogi. Dodatkowa gaśnica nie zastępuje wyposażenia osobistego, a ochrona oczu nie zastępuje rękawic — te elementy służą innym celom i mogą być wymagane równocześnie.
+
+**Sytuacja do rozwiązania:** Co musi być dostępne dla każdego członka załogi zgodnie z wykazem podstawowego wyposażenia ochronnego 8.1.5.2?
+
+**Prawidłowy kierunek działania:** Rękawice ochronne Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0024`; **podstawa do sprawdzenia:** 8.1.5.2.
+
+### Wyposażenie dodatkowe właściwe dla nalepek (ADR-B-08-K07)
+
+**Dlaczego to ważne:** Materiały oznaczone nalepką 2.3 lub 6.1 mogą działać trująco, dlatego ADR przewiduje dla załogi maskę ucieczkową. Służy ona do bezpiecznego oddalenia się z niebezpiecznej strefy, a nie do dowolnego prowadzenia działań ratowniczych.
+
+**Sytuacja do rozwiązania:** Dla jakich nalepek ostrzegawczych ADR 8.1.5.3 wymaga maski ucieczkowej dla każdego członka załogi?
+
+**Prawidłowy kierunek działania:** 2.3 lub 6.1 Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0077`; **podstawa do sprawdzenia:** 8.1.5.3.
+
+### Wyposażenie techniczne i wymagania pojazdu (ADR-B-08-K08)
+
+**Dlaczego to ważne:** Nie każdy pojazd ADR wymaga świadectwa dopuszczenia z części 9. [EX/II i EX/III](../SLOWNICZEK.md#ex-ii-i-ex-iii) to typy pojazdów do określonych materiałów wybuchowych; [FL](../SLOWNICZEK.md#pojazd-fl) i [AT](../SLOWNICZEK.md#pojazd-at) to kategorie pojazdów przeznaczonych do określonych przewozów cysternowych.
+
+**Sytuacja do rozwiązania:** Które typy pojazdów mogą wymagać świadectwa dopuszczenia ADR zgodnie z częścią 9?
+
+**Prawidłowy kierunek działania:** Między innymi [EX/II i EX/III](../SLOWNICZEK.md#ex-ii-i-ex-iii), [FL](../SLOWNICZEK.md#pojazd-fl), [AT](../SLOWNICZEK.md#pojazd-at) i [MEMU](../SLOWNICZEK.md#memu). Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0137`; **podstawa do sprawdzenia:** 9.1, 9.2.
+
+### Przećwicz bezpieczną decyzję
+
+Wybierz scenariusz dla działu ADR-B-08 w [mapie ćwiczeń](../praktyka/scenariusze-13-dzialow.json). Opisz kolejno: jakie masz dane, co zrobisz jako pierwsze, czego nie zrobisz nawet pod presją czasu i skąd wiesz, że możesz bezpiecznie kontynuować. Przy awarii najpierw liczy się bezpieczeństwo ludzi.
+
+**Status:** `needs_review`; weryfikacja pełnego polskiego ADR 2025 i niezależna ocena specjalisty pozostają otwarte.
+ 

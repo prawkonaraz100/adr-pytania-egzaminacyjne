@@ -170,3 +170,152 @@ Po wypadku, jeśli można to zrobić bez narażania siebie, przekaż ratownikom 
 ### Scenariusz praktyczny SC-ADR-B-05-04
 
 Powiązane pytania: ADR-B-0630, ADR-B-0631, ADR-B-0632, ADR-B-0633. Ćwicz bezpieczną kolejność działań po awarii: ochrona własna, ostrzeżenie osób postronnych, przekazanie informacji ratownikom i unikanie kontaktu z nieznaną substancją. Wykonuj ćwiczenie na fikcyjnych materiałach; podstawy prawne i rozwiązanie wymagają niezależnej kontroli specjalisty.
+
+## Uzupełnienie 4x138 — decyzje kierowcy i kompetencje
+
+Czytaj temat jak sytuację z pracy: najpierw rozpoznaj zagrożenie, potem wybierz bezpieczne działanie i wyjaśnij je własnymi słowami. Nie trzeba pamiętać całego przepisu na pamięć, ale trzeba wiedzieć, gdzie sprawdzić jego warunki.
+
+### Lokalizacja i znajomość instrukcji pisemnych (ADR-B-05-K01)
+
+**Dlaczego to ważne:** Instrukcje pisemne opisują, co załoga ma zrobić, gdy dojdzie do awarii, na przykład wycieku lub pożaru. W stresującej sytuacji nie ma czasu szukać ich w biurze przewoźnika ani prosić o nie odbiorcy.
+
+**Sytuacja do rozwiązania:** Gdzie podczas przewozu powinny znajdować się instrukcje pisemne ADR?
+
+**Prawidłowy kierunek działania:** W kabinie załogi, w łatwo dostępnym miejscu Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0013`; **podstawa do sprawdzenia:** 5.4.3.
+
+### Bezpieczne zatrzymanie i wyłączenie silnika (ADR-B-05-K02)
+
+**Dlaczego to ważne:** Po kolizji najpierw trzeba ograniczyć dalsze zagrożenia, o ile można to zrobić bezpiecznie: zabezpieczyć pojazd przed ruchem, wyłączyć silnik i użyć wyłącznika głównego akumulatora, jeśli jest dostępny. Samodzielne przeładowywanie towaru nie jest pierwszym krokiem.
+
+**Sytuacja do rozwiązania:** Po kolizji pojazdu ADR, jeśli jest to możliwe i bezpieczne, co należy zrobić z pojazdem zgodnie z instrukcjami pisemnymi?
+
+**Prawidłowy kierunek działania:** Zahamować pojazd, wyłączyć silnik i użyć wyłącznika głównego akumulatora, jeśli dostępny Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0104`; **podstawa do sprawdzenia:** 5.4.3.4.
+
+### Powiadomienie służb i informacje o ładunku (ADR-B-05-K03)
+
+**Dlaczego to ważne:** Ratownicy muszą wiedzieć, co wydarzyło się na miejscu i jakie towary niebezpieczne znajdują się w pojeździe, żeby dobrać bezpieczny sposób działania. Dlatego warto przekazać im możliwie pełne dostępne informacje o zdarzeniu i ładunku.
+
+**Sytuacja do rozwiązania:** Do jakich informacji kierowca powinien sięgnąć, zgłaszając służbom wypadek z towarem niebezpiecznym?
+
+**Prawidłowy kierunek działania:** Przekazać służbom dostępne dane o zdarzeniu oraz towarze, np. numer UN Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0105`; **podstawa do sprawdzenia:** 5.4.3.4.
+
+### Unikanie oparów i wybór strony nawietrznej (ADR-B-05-K04)
+
+**Dlaczego to ważne:** Wiatr może przenosić chmurę niebezpiecznych par i dymu od miejsca wycieku. Utrzymywanie się po stronie nawietrznej, z dala od strumienia oparów, zmniejsza ryzyko ich wdychania.
+
+**Sytuacja do rozwiązania:** Kierowca widzi chmurę par wydobywających się z uszkodzonej przesyłki ADR. Po której stronie miejsca zdarzenia powinien się utrzymywać?
+
+**Prawidłowy kierunek działania:** Nawietrznej, poza strumieniem dymu i oparów Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0106`; **podstawa do sprawdzenia:** 5.4.3.4.
+
+### Zakaz gaszenia pożaru ładowni (ADR-B-05-K05)
+
+**Dlaczego to ważne:** Pożar obejmujący przedział ładunkowy z towarami niebezpiecznymi może szybko stać się zbyt groźny dla załogi. Nie należy wchodzić do ładowni ani próbować samodzielnie gasić takiego pożaru; trzeba oddalić się i wezwać służby.
+
+**Sytuacja do rozwiązania:** Po awarii zapalają się towary niebezpieczne wewnątrz przedziału ładunkowego. Co zalecają instrukcje pisemne załodze?
+
+**Prawidłowy kierunek działania:** Nie gasić pożaru ładowni; oddalić się i wezwać służby ratunkowe Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0107`; **podstawa do sprawdzenia:** 5.4.3.4.
+
+### Mały pożar opon, hamulców lub silnika (ADR-B-05-K06)
+
+**Dlaczego to ważne:** Gaśnica przewożona w pojeździe może pomóc przy niewielkim pożarze opon, hamulców lub silnika, jeśli jest to właściwe i bezpieczne. Nie oznacza to uprawnienia do walki z każdym pożarem ładunku.
+
+**Sytuacja do rozwiązania:** W którym przypadku instrukcje pisemne dopuszczają użycie gaśnicy przez członków załogi, jeżeli działanie jest odpowiednie i bezpieczne?
+
+**Prawidłowy kierunek działania:** Do małego, wczesnego pożaru opon, hamulców lub silnika, jeśli to bezpieczne Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0108`; **podstawa do sprawdzenia:** 5.4.3.4.
+
+### Przekazanie dokumentów ratownikom (ADR-B-05-K07)
+
+**Dlaczego to ważne:** Dokument przewozowy zawiera dane, które pomagają ratownikom rozpoznać przewożony towar i dobrać bezpieczne działania. Dlatego załoga powinna zapewnić im łatwy dostęp do dokumentów, a nie zasłaniać je z obawy o informacje lub podawać wyłącznie numer UN ustnie.
+
+**Sytuacja do rozwiązania:** Jaki obowiązek informacyjny wobec ratowników mają członkowie załogi po wypadku z ADR?
+
+**Prawidłowy kierunek działania:** Zapewnić ratownikom łatwy dostęp do dokumentów przewozowych Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0109`; **podstawa do sprawdzenia:** 5.4.3.4.
+
+### Skażona odzież i środki ochrony (ADR-B-05-K08)
+
+**Dlaczego to ważne:** Skażona odzież i środki ochrony mogą przenosić niebezpieczną substancję na skórę oraz inne powierzchnie, nawet gdy nie widać mokrych śladów. Trzeba je bezpiecznie zdjąć i postąpić z nimi zgodnie z instrukcjami.
+
+**Sytuacja do rozwiązania:** Kierowca miał kontakt z uwolnioną substancją i jego ubranie zostało skażone. Co przewidują instrukcje pisemne ADR?
+
+**Prawidłowy kierunek działania:** Zdjąć skażoną odzież i użyte środki ochrony w bezpieczny sposób Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0110`; **podstawa do sprawdzenia:** 5.4.3.4.
+
+### Ostrzeganie osób postronnych i ewakuacja (ADR-B-05-K09)
+
+**Dlaczego to ważne:** Osoby postronne mogą nie wiedzieć, że z uszkodzonego pojazdu wydostaje się niebezpieczny materiał. Trzeba je ostrzec i polecić oddalenie się od zagrożenia, samemu stosując się do poleceń ratowników.
+
+**Sytuacja do rozwiązania:** Co należy zrobić w razie zagrożenia dla osób postronnych wokół wypadku z ADR?
+
+**Prawidłowy kierunek działania:** Ostrzec osoby, nakazać im odejść od zagrożenia i słuchać ratowników Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0111`; **podstawa do sprawdzenia:** 5.4.3.4.
+
+### Kamizelka i znaki ostrzegawcze (ADR-B-05-K10)
+
+**Dlaczego to ważne:** Po zdarzeniu drogowym załoga powinna być dobrze widoczna i ostrzec innych kierowców przed niebezpiecznym miejscem. Dlatego, jeśli można to zrobić bezpiecznie, zakłada kamizelki ostrzegawcze i ustawia stojące znaki ostrzegawcze.
+
+**Sytuacja do rozwiązania:** Jakich środków załoga powinna użyć podczas zabezpieczania miejsca zdarzenia, jeżeli jest to bezpieczne?
+
+**Prawidłowy kierunek działania:** Założyć kamizelkę ostrzegawczą i, jeśli bezpiecznie, ustawić znaki ostrzegawcze Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0112`; **podstawa do sprawdzenia:** 5.4.3.4.
+
+### Ocena bezpieczeństwa udzielania pierwszej pomocy (ADR-B-05-K11)
+
+**Dlaczego to ważne:** Pomoc poszkodowanemu nie może narażać ratownika na zatrucie lub skażenie tą samą substancją. Najpierw trzeba ocenić zagrożenie, zadbać o własne bezpieczeństwo i wezwać odpowiednie służby.
+
+**Sytuacja do rozwiązania:** Czy pomoc rannemu po kontakcie z niebezpieczną substancją zawsze polega na natychmiastowym wejściu ratownika do skażonej strefy?
+
+**Prawidłowy kierunek działania:** Nie; najpierw zadbać o własne bezpieczeństwo, ocenić zagrożenie i wezwać pomoc Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0113`; **podstawa do sprawdzenia:** 5.4.3.4; program praktyczny.
+
+### Mocowanie/dostępność gaśnic (ADR-B-05-K12)
+
+**Dlaczego to ważne:** Gaśnica pomoże tylko wtedy, gdy załoga może szybko ją wyjąć i bezpiecznie użyć zgodnie z instrukcjami. Musi więc być prawidłowo zamocowana i łatwo dostępna; jeśli trzeba najpierw przełożyć ładunek, dostęp może być zbyt utrudniony.
+
+**Sytuacja do rozwiązania:** Jak powinny być zamontowane gaśnice wymagane przez ADR?
+
+**Prawidłowy kierunek działania:** Tak, aby załoga mogła łatwo po nie sięgnąć Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0015`; **podstawa do sprawdzenia:** 8.1.4.5.
+
+### Praktyczne używanie gaśnicy (instruktaż) (ADR-B-05-K13)
+
+To umiejętność wykonywana podczas ćwiczeń pod opieką instruktora. Sam test wyboru odpowiedzi nie zastąpi przećwiczenia czynności i omówienia zasad bezpieczeństwa.
+
+**Podstawa programu:** program praktyczny, zał. 1. **Wykonaj ćwiczenie:** skorzystaj z mapy scenariuszy i poproś instruktora o ocenę kolejności działań.
+
+### Praktyczne czynności pierwszej pomocy (instruktaż) (ADR-B-05-K14)
+
+To umiejętność wykonywana podczas ćwiczeń pod opieką instruktora. Sam test wyboru odpowiedzi nie zastąpi przećwiczenia czynności i omówienia zasad bezpieczeństwa.
+
+**Podstawa programu:** program praktyczny, zał. 1. **Wykonaj ćwiczenie:** skorzystaj z mapy scenariuszy i poproś instruktora o ocenę kolejności działań.
+
+### Praktyczny scenariusz wypadku/awarii (ADR-B-05-K15)
+
+To umiejętność wykonywana podczas ćwiczeń pod opieką instruktora. Sam test wyboru odpowiedzi nie zastąpi przećwiczenia czynności i omówienia zasad bezpieczeństwa.
+
+**Podstawa programu:** program praktyczny, zał. 1. **Wykonaj ćwiczenie:** skorzystaj z mapy scenariuszy i poproś instruktora o ocenę kolejności działań.
+
+### Przećwicz bezpieczną decyzję
+
+Wybierz scenariusz dla działu ADR-B-05 w [mapie ćwiczeń](../praktyka/scenariusze-13-dzialow.json). Opisz kolejno: jakie masz dane, co zrobisz jako pierwsze, czego nie zrobisz nawet pod presją czasu i skąd wiesz, że możesz bezpiecznie kontynuować. Przy awarii najpierw liczy się bezpieczeństwo ludzi.
+
+**Status:** `needs_review`; weryfikacja pełnego polskiego ADR 2025 i niezależna ocena specjalisty pozostają otwarte.
+ 
