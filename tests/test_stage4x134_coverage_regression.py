@@ -28,16 +28,16 @@ class CurrentCoverageGate(unittest.TestCase):
             if c["delivery"] == "theory":
                 self.assertGreaterEqual(len(set(refs)), 3, c["id"])
             else:
-                # These are knowledge-prerequisite questions for safe decisions, not evidence that the practical skill was performed.
+                # These questions test prerequisites for safe decisions, not completion of the practical skill.
                 self.assertEqual(len(refs), 2, f"practical objective {c['id']} needs two linked knowledge-prerequisite questions")
-        lesson = (BASIC / "lekcje" / "ADR-B-05.md").read_text(encoding="utf-8")
-        self.assertIn("nie zastępują rzeczywistego ćwiczenia", lesson)
-        self.assertIn("instruktażu gaśnicy ani pierwszej pomocy", lesson)
             for question_id in refs:
                 self.assertIn(question_id, by_id)
                 self.assertEqual(by_id[question_id]["module_id"], c["module_id"])
                 covered.add(question_id)
         self.assertEqual(covered, set(by_id))
+        lesson = (BASIC / "lekcje" / "ADR-B-05.md").read_text(encoding="utf-8")
+        self.assertIn("nie zastępują rzeczywistego ćwiczenia", lesson)
+        self.assertIn("instruktażu gaśnicy ani pierwszej pomocy", lesson)
 
     def test_three_scenarios_per_module(self):
         data = json.loads((BASIC / "praktyka" / "scenariusze-13-dzialow.json").read_text(encoding="utf-8"))
