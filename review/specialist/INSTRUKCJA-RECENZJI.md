@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x155 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `57c45edaf97934d92eba84338166b474f211c5c1`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `1bf9ebb6616839704cc1b00599617caa46768b15`.
 - Raport: `podstawowy/raporty/etap-4x155-luki-praktyczne-0646-0651-2026-10-29.md`.
 - Dodano pytania ADR-B-0646–0651 do kompetencji praktycznych K13–K15 i zsynchronizowano snapshoty. Ćwiczenia praktyczne nadal muszą być wykonane pod nadzorem; literalne porównanie i niezależna recenzja pozostają otwarte.
 
