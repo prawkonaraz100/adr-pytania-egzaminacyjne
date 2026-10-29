@@ -171,3 +171,8 @@ Scenariusz mapowy: SC-ADR-B-03 w pliku [scenariuszy praktycznych](../praktyka/sc
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; klasyfikacja konkretnego odpadu i szczegółowe warunki prawne wymagają niezależnej weryfikacji.
+
+
+## Scenariusz: opis odpadu w dokumencie — ADR-B-0629
+
+Przed wyjazdem sprawdź, czy dokument przewozowy odpadu zawiera wymagany opis. Numer UN sam nie zastępuje pełnych danych. Jeśli oznaczenie odpadu budzi wątpliwości, wyjaśnij rozbieżność z osobą odpowiedzialną za dokumentację przed rozpoczęciem przewozu. Podstawa do sprawdzenia: ADR 5.4.1.1.3.1. Pytanie pozostaje niezatwierdzone.

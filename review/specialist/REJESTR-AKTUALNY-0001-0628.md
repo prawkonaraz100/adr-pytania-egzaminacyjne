@@ -1,7 +1,18 @@
-## Bieżąca migawka — etap 4x135 (28.10.2026)
+## Bieżąca migawka — etap 4x136 (29.10.2026)
 
-- Bank: 628 pytań `needs_review`, 0 `verified`; blob SHA `9d0c4b426bb1670361093ed1a7b5d023ee1fad06`.
-- Nowe ID: ADR-B-0610–0628 (11 pytań roboczych); raport: `podstawowy/raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md`.
+- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
+- Raport: `podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md`.
+- Nowe ID: ADR-B-0629–0638; nowe podstawy prawne pozostają do literalnej kontroli i niezależnej recenzji.
+- Pakiet: `review/specialist/PAKIET-0628-MANIFEST.json`; rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0628.md`.
+
+## Bieżąca migawka — etap 4x136 (29.10.2026)
+
+- Nowe pytania ADR-B-0629–0638: [raport etapu 4x136](../../podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md).
+- Rejestr podstaw do niezależnej kontroli: [0629–0638](../legal-polish/stage4x136-legal-review-ledger-0629-0638.json).
+- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
+
+- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `9d0c4b426bb1670361093ed1a7b5d023ee1fad06`.
+- Nowe ID: ADR-B-0610–0638 (29 pytań roboczych); raport: `podstawowy/raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md`.
 - Mapa: 107 kompetencji, 104 teoretyczne i 3 praktyczne; niezależna recenzja pozostaje otwarta.
 
 ## Bieżąca migawka — etap 4x132 (28.10.2026)
@@ -746,4 +757,15 @@ Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Por
 | ADR-B-0627 | ADR-B-06 | ADR-B-06-K02 | Przed wyjazdem kierowca sprawdza przesyłkę i widzi, że brakuje nalepki zagrożenia dodatkowego wymaganej dla danego towaru. Co powinien zrobić? | A | ADR 2025, 3.2 tabela A, kolumna 5; 5.2.2.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0628 | ADR-B-09 | ADR-B-09-K02 | Podczas przygotowania ładunku pasy nie pozwalają przesyłkom przesuwać się, ale jeden z pasów mocno wgniata opakowanie. Co powinien zrobić kierowca? | B | ADR 2025, 7.5.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-Bank bieżący: 628 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `7f604f8a1b3aead06c77b4d56b319917f11f0dba`.
+| ADR-B-0629 | ADR-B-03 | ADR-B-03-K02 | Przed wyjazdem kierowca zauważa, że dokument przewozowy odpadu może nie zawierać wymaganego oznaczenia „ODPAD”. Co powinien zrobić? | B | ADR 2025, 5.4.1.1.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0630 | ADR-B-05 | ADR-B-05-K07 | Po wypadku przyjeżdżają ratownicy. Kierowca może bezpiecznie przekazać im dokument przewozowy i instrukcje pisemne. Co powinien zrobić? | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0631 | ADR-B-05 | ADR-B-05-K08 | Po zdarzeniu na rękawie kierowcy może znajdować się nieznana substancja z uszkodzonej przesyłki. Co powinien zrobić? | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0632 | ADR-B-05 | ADR-B-05-K09 | W pobliżu miejsca awarii gromadzą się osoby postronne, a z przesyłki wydobywa się nieznana substancja. Jakie działanie jest właściwe? | A | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0633 | ADR-B-05 | ADR-B-05-K10 | Kierowca musi opuścić kabinę przy zdarzeniu drogowym, a sytuacja pozwala mu zrobić to bezpiecznie. Jakie wyposażenie osobiste powinien zastosować? | A | ADR 2025, 8.1.5.2; 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0634 | ADR-B-06 | ADR-B-06-K05 | Przed wyjazdem kierowca zauważa, że tablica pomarańczowa jest mniejsza od standardowego wymiaru, choć na pojeździe jest miejsce na prawidłową tablicę. Co powinien zrobić? | A | ADR 2025, 5.3.2.2.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0635 | ADR-B-06 | ADR-B-06-K06 | Na górze tablicy pomarańczowej numer rozpoznawczy zagrożenia zawiera powtórzoną cyfrę. Jak kierowca powinien to rozumieć? | C | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0636 | ADR-B-06 | ADR-B-06-K07 | Tablica pomarańczowa jest zabrudzona i jej oznaczenia trudno odczytać z typowej odległości. Co powinien zrobić kierowca przed jazdą? | B | ADR 2025, 5.3.2.2.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0637 | ADR-B-06 | ADR-B-06-K08 | Kierowca sprawdza oznaczenia przed wyjazdem i odczytuje kod 80. Jaki typ zagrożenia sygnalizuje w nim cyfra 8? | A | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0638 | ADR-B-09 | ADR-B-09-K03 | Przed załadunkiem kierowca dowiaduje się, że obok towaru niebezpiecznego mają być przewożone produkty spożywcze. Co powinien sprawdzić? | A | ADR 2025, 7.5.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+Bank bieżący: 638 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.

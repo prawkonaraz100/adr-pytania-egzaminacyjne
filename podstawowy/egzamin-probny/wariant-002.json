@@ -6,7 +6,7 @@
   "seed": 2026102702,
   "variant": 2,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "7f604f8a1b3aead06c77b4d56b319917f11f0dba",
+  "source_bank_head": "f06adebc34d982d8eb09b5e7569785cb1e7cf743",
   "excluded_question_ids": [
     "ADR-B-0017",
     "ADR-B-0034",
@@ -21,7 +21,6 @@
     "ADR-B-0164",
     "ADR-B-0213",
     "ADR-B-0237",
-    "ADR-B-0242",
     "ADR-B-0339",
     "ADR-B-0348",
     "ADR-B-0369",
@@ -32,12 +31,13 @@
     "ADR-B-0489",
     "ADR-B-0515",
     "ADR-B-0571",
-    "ADR-B-0585",
     "ADR-B-0586",
     "ADR-B-0590",
     "ADR-B-0605",
     "ADR-B-0621",
-    "ADR-B-0626"
+    "ADR-B-0626",
+    "ADR-B-0629",
+    "ADR-B-0630"
   ],
   "question_count": 30,
   "time_limit_minutes": 60,
@@ -62,13 +62,13 @@
   "questions": [
     {
       "number": 1,
-      "id": "ADR-B-0627",
+      "id": "ADR-B-0634",
       "module_id": "ADR-B-06",
-      "stem": "Przed wyjazdem kierowca sprawdza przesyłkę i widzi, że brakuje nalepki zagrożenia dodatkowego wymaganej dla danego towaru. Co powinien zrobić?",
+      "stem": "Przed wyjazdem kierowca zauważa, że tablica pomarańczowa jest mniejsza od standardowego wymiaru, choć na pojeździe jest miejsce na prawidłową tablicę. Co powinien zrobić?",
       "options": {
-        "A": "Zapewnić wszystkie wymagane nalepki przed przewozem i wyjaśnić niezgodność.",
-        "B": "Pozostawić przesyłkę bez dodatkowej nalepki, jeśli numer UN jest czytelny w dokumencie.",
-        "C": "Zastąpić brakującą nalepkę dopiskiem w dokumencie, żeby kontrola znała zagrożenie."
+        "A": "Wyjaśnić niezgodność i zapewnić prawidłową tablicę przed wyjazdem",
+        "B": "Zasłonić część tablicy, aby wyglądała na standardową, zamiast zapewnić prawidłowe oznakowanie pojazdu",
+        "C": "Rozpocząć przewóz, jeśli numery da się odczytać z bliska, bez sprawdzenia czy mniejszy format jest dopuszczony"
       },
       "image": null
     },
@@ -158,13 +158,13 @@
     },
     {
       "number": 9,
-      "id": "ADR-B-0107",
+      "id": "ADR-B-0631",
       "module_id": "ADR-B-05",
-      "stem": "Po awarii zapalają się towary niebezpieczne wewnątrz przedziału ładunkowego. Co zalecają instrukcje pisemne załodze?",
+      "stem": "Po zdarzeniu na rękawie kierowcy może znajdować się nieznana substancja z uszkodzonej przesyłki. Co powinien zrobić?",
       "options": {
-        "A": "Otworzyć przesyłki i zalać ładunek wodą bez sprawdzania zagrożenia",
-        "B": "Wejść do ładowni i gasić ogień niezależnie od jego rozmiaru",
-        "C": "Nie gasić pożaru ładowni; oddalić się i wezwać służby ratunkowe"
+        "A": "Otrzepać rękaw gołą dłonią i wrócić do pracy, mimo ryzyka przeniesienia nieznanej substancji",
+        "B": "Wyprać odzież w kabinie, nie informując nikogo i bez sprawdzenia rodzaju zanieczyszczenia",
+        "C": "Unikać kontaktu, oddalić się od źródła i stosować instrukcje oraz polecenia służb"
       },
       "image": null
     },

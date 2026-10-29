@@ -179,3 +179,8 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; zgodność wspólnego załadunku i przewozu luzem trzeba sprawdzić dla konkretnego towaru.
+
+
+## Scenariusz: żywność i pasza — ADR-B-0638
+
+Jeżeli obok towaru niebezpiecznego mają być przewożone żywność lub pasza, nie wystarczy sprawdzić, czy ładunki mieszczą się w pojeździe. Przed załadunkiem sprawdź właściwy wpis ADR i wymagane środki ostrożności lub rozdzielenia. Gdy warunków nie da się potwierdzić, wstrzymaj załadunek i wyjaśnij sprawę. Podstawa do niezależnej kontroli: ADR 7.5.4.

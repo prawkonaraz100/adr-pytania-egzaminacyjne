@@ -1,17 +1,17 @@
 # ADR podstawowy — aktualne pokrycie kursu
 
-**Kontrola mapy odświeżona w etapie 4x135: 29.10.2026.** Szczegółowa [macierz kompetencji i 628 pytań](../podstawowy/raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md) zawiera aktualne powiązania i rozdziela teorię od trzech celów praktycznych. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
+**Kontrola mapy odświeżona w etapie 4x136: 29.10.2026.** Szczegółowa [macierz kompetencji i 638 pytań](../podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md) zawiera aktualne powiązania i rozdziela teorię od trzech celów praktycznych. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
 
-**Stan aktualny po etapie 4x135: 29.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
+**Stan aktualny po etapie 4x136: 29.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
 
 ## Co naprawdę zostało ukończone?
 
-- **628 autorskich pytań** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **628 needs_review / 0 verified**.
+- **638 autorskich pytań** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **638 needs_review / 0 verified**.
 - **104/104 kompetencji teoretycznych** ma co najmniej dwa pytania robocze. **0/104** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
-- Rozkład prawidłowych opcji: A=212, B=213, C=203.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **70/628 = 11,15%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
+- Rozkład prawidłowych opcji: A=217, B=216, C=205.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **70/638 = 10,97%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
 - [Audyt 4w](../podstawowy/raporty/etap-4w-program-13-dzialow-mapa-luk.md) dokumentuje wszystkie 107 kompetencji i ID; [kontrola 13 lekcji](../podstawowy/raporty/etap-4w-przeglad-13-lekcji-odsylacze.md) usunęła błędny skrót zakresu w B-09. Dane liczbowe dotyczą bieżącego banku, natomiast niższe sekcje dokumentu zachowują historię poprzednich etapów.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
 
@@ -23,18 +23,18 @@
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 63 | 0 | Lekcja + mapa pytań |
-| ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 51 | 0 | Lekcja + mapa pytań |
+| ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 45 | 0 | Lekcja + mapa pytań |
-| ADR-B-06 | Oznakowanie | 9/9 | 0 | 48 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 49 | 0 | Lekcja + mapa pytań |
+| ADR-B-06 | Oznakowanie | 9/9 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 48 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 42 | 0 | Lekcja + mapa pytań |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 49 | 0 | Lekcja + mapa pytań |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 50 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **628** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **638** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

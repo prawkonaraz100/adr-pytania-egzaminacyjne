@@ -160,3 +160,8 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; opis nie zastępuje praktycznego szkolenia z pierwszej pomocy i sprzętu gaśniczego.
+
+
+## Scenariusze sytuacyjne — ADR-B-0630–0633
+
+Po wypadku, jeśli można to zrobić bez narażania siebie, przekaż ratownikom dostępne informacje o towarze i zagrożeniach (ADR 5.4.3.4). Nie dotykaj nieznanej substancji ani skażonej odzieży gołymi rękami; ogranicz kontakt i postępuj zgodnie z instrukcjami oraz poleceniami służb. Ostrzeż osoby postronne i nie pozwalaj im zbliżać się do zagrożenia. Kamizelkę ostrzegawczą zakładaj tylko wtedy, gdy można to zrobić bezpiecznie. Pytania ADR-B-0630, ADR-B-0631, ADR-B-0632 i ADR-B-0633 są szkicami do niezależnej kontroli, nie zastępują rzeczywistego ćwiczenia.

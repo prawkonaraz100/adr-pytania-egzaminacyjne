@@ -165,3 +165,8 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; konkretne wymagania oznakowania należy sprawdzać w aktualnym polskim tekście ADR.
+
+
+## Scenariusze: tablice pomarańczowe — ADR-B-0634–0637
+
+Przed wyjazdem sprawdź, czy tablice pomarańczowe są właściwe, czytelne i widoczne. Nie zakładaj, że mniejszy format jest dopuszczalny bez sprawdzenia warunków ADR. Numer rozpoznawczy zagrożenia pomaga rozpoznać charakter zagrożenia; powtórzona cyfra może wskazywać jego większe nasilenie, a cyfra 8 oznacza działanie żrące. Odczytuj kod w całości i sprawdzaj go z ADR 5.3.2.2.1, 5.3.2.2.2 i 5.3.2.3.1. Pytania ADR-B-0634, ADR-B-0635, ADR-B-0636 i ADR-B-0637 pozostają niezatwierdzone.
