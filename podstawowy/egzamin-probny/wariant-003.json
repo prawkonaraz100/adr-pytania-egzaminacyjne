@@ -6,7 +6,7 @@
   "seed": 2026102703,
   "variant": 3,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "7f604f8a1b3aead06c77b4d56b319917f11f0dba",
+  "source_bank_head": "2ca5bbe049352e32c155cdda117f4be120e4d096",
   "excluded_question_ids": [
     "ADR-B-0004",
     "ADR-B-0034",
@@ -67,7 +67,9 @@
     "ADR-B-0585",
     "ADR-B-0586",
     "ADR-B-0590",
-    "ADR-B-0605"
+    "ADR-B-0605",
+    "ADR-B-0108",
+    "ADR-B-0053"
   ],
   "question_count": 30,
   "time_limit_minutes": 60,
@@ -116,13 +118,13 @@
     },
     {
       "number": 3,
-      "id": "ADR-B-0053",
+      "id": "ADR-B-0635",
       "module_id": "ADR-B-06",
-      "stem": "Co może oznaczać numer rozpoznawczy zagrożenia rozpoczynający się od cyfry 8?",
+      "stem": "Na górze tablicy pomarańczowej numer rozpoznawczy zagrożenia zawiera powtórzoną cyfrę. Jak kierowca powinien to rozumieć?",
       "options": {
-        "A": "Zagrożenie utleniające",
-        "B": "Zagrożenie promieniotwórcze",
-        "C": "Zagrożenie żrące"
+        "A": "Powtórzenie cyfry może wskazywać na większe nasilenie danego zagrożenia",
+        "B": "Powtórzenie cyfry oznacza, że dolny numer UN jest nieważny i nie trzeba go już odczytywać",
+        "C": "Powtórzenie cyfry zawsze oznacza zakaz przewozu, niezależnie od pełnego kodu i warunków ADR"
       },
       "image": null
     },
@@ -344,13 +346,13 @@
     },
     {
       "number": 22,
-      "id": "ADR-B-0108",
+      "id": "ADR-B-0632",
       "module_id": "ADR-B-05",
-      "stem": "W którym przypadku instrukcje pisemne dopuszczają użycie gaśnicy przez członków załogi, jeżeli działanie jest odpowiednie i bezpieczne?",
+      "stem": "W pobliżu miejsca awarii gromadzą się osoby postronne, a z przesyłki wydobywa się nieznana substancja. Jakie działanie jest właściwe?",
       "options": {
-        "A": "Do małego, wczesnego pożaru opon, hamulców lub silnika, jeśli to bezpieczne",
-        "B": "Do każdego pożaru ładunku, nawet jeśli ogień szybko się rozprzestrzenia",
-        "C": "Do gaszenia całego pojazdu, gdy ogień obejmuje już kabinę i przedział ładunkowy"
+        "A": "Poprosić przypadkowe osoby o pomoc przy rozpoznaniu substancji, narażając je na nieznane zagrożenie",
+        "B": "Ostrzec ludzi, nie dopuszczać ich do strefy zagrożenia i wezwać służby",
+        "C": "Pozwolić im podejść, jeśli nie widać płomieni, mimo że opary lub kontakt z cieczą też mogą być niebezpieczne"
       },
       "image": null
     },
