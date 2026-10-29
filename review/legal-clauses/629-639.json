@@ -470,6 +470,53 @@
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0639",
+      "order": 639,
+      "clause": "ADR 2025, 1.1.1; układ załączników A i B, części 8–9",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0639",
+        "module_id": "ADR-B-01",
+        "stem": "Kierowca chce szybko znaleźć w ADR wymagania dotyczące załogi, wyposażenia i dokumentów. Które wskazanie części dokumentu jest prawidłowe?",
+        "options": {
+          "A": "Załącznik B, część 8, obejmuje załogę, wyposażenie, eksploatację i dokumenty, a część 9 dotyczy budowy i zatwierdzania pojazdów.",
+          "B": "Załącznik A, część 2, obejmuje wszystkie wymagania dla załogi i dokumentów, a załącznik B służy wyłącznie klasyfikacji towarów.",
+          "C": "Wymagania dotyczące załogi i dokumentów opisuje wyłącznie część 5 załącznika A, a część 8 dotyczy tylko opakowań i ich oznakowania."
+        },
+        "correct_option": "A",
+        "explanation": "Układ ADR pomaga szybko znaleźć właściwe wymagania. Załącznik B, część 8, opisuje załogę, wyposażenie, eksploatację pojazdu i dokumenty, a część 9 dotyczy konstrukcji oraz zatwierdzania pojazdów. Część 2 załącznika A dotyczy klasyfikacji, a część 5 procedur nadawczych, więc odpowiedzi B i C mylą zakresy. Podstawa: ADR 1.1.1 oraz układ załączników A i B, części 8–9.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.1; załącznik B, części 8–9",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Poprawna odpowiedź wskazuje załącznik B, część 8 dla załogi, wyposażenia, eksploatacji i dokumentów oraz część 9 dla konstrukcji i zatwierdzania pojazdów. Układ wynika z ADR 1.1.1."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Błędna odpowiedź przypisuje wymagania dla załogi i dokumentów części 2 załącznika A, która dotyczy klasyfikacji. Myli zakresy części ADR."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Błędna odpowiedź przypisuje wymagania dla załogi i dokumentów wyłącznie części 5 załącznika A, a część 8 ogranicza do opakowań. Część 5 dotyczy procedur nadawczych, zaś część 8 załogi, wyposażenia, eksploatacji i dokumentów."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Wstępna ocena redakcyjna oparta na strukturze ADR 2025. Pełne literalne porównanie polskiego tekstu i niezależna recenzja specjalisty pozostają otwarte.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
     }
   ]
 }

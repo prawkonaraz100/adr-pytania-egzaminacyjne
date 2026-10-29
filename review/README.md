@@ -1,18 +1,25 @@
-## Bieżąca migawka — etap 4x137 (29.10.2026)
+## Bieżąca migawka — etap 4x153 (29.10.2026)
+
+- Bank: 639 pytań `needs_review`, 0 `verified`; blob SHA `9d82c5c1f6d6bda00c46dca47126891d509b9499`.
+- Raport: `podstawowy/raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md`.
+- Dodano ADR-B-0639 dla kompetencji ADR-B-01-K01; warianty i klucze 001–005, snapshoty audytów, mapa kompetencji i pakiet specjalisty wskazują aktualny bank.
+- A/B/C i explanation przejrzane redakcyjnie; formalna kontrola tekstu ADR 2025 i niezależna akceptacja ekspercka nadal otwarte.
+
+## Historyczna migawka — etap 4x137 (29.10.2026)
 
 - Bank bez zmian: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 - Raport etapu: `podstawowy/raporty/etap-4x137-scenariusze-praktyczne-2026-10-29.md`.
 - Dopracowano istniejące scenariusze SC-ADR-B-03-03, SC-ADR-B-05/05-02/05-03, SC-ADR-B-06/06-02/06-03 i SC-ADR-B-09, wiążąc je z pytaniami ADR-B-0629–0638.
 - Mapa ma nadal 39 scenariuszy, po 3 na każdy z 13 działów; nowe statusy prawne nie zostały zatwierdzone.
 
-## Bieżąca migawka — etap 4x136 (29.10.2026)
+## Historyczna migawka — etap 4x136 (29.10.2026)
 
 - Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 - Raport: `podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md`.
 - Nowe ID: ADR-B-0629–0638; nowe podstawy prawne pozostają do literalnej kontroli i niezależnej recenzji.
 - Pakiet: `review/specialist/PAKIET-0628-MANIFEST.json`; rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0628.md`.
 
-## Bieżąca migawka — etap 4x135 (29.10.2026)
+## Historyczna migawka — etap 4x135 (29.10.2026)
 
 - Bank: 628 pytań `needs_review`, 0 `verified`; blob SHA `7f604f8a1b3aead06c77b4d56b319917f11f0dba`.
 - Raport: `podstawowy/raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md`.
@@ -20,7 +27,7 @@
 - Pakiet recenzyjny: `review/specialist/PAKIET-0628-MANIFEST.json`, rejestr `review/specialist/REJESTR-AKTUALNY-0001-0628.md`.
 - 13 lekcji, 39 scenariuszy, 5 wariantów i 5 kluczy; brak formalnych zatwierdzeń. Wszystkie pytania pozostają `needs_review`.
 
-## Bieżąca migawka — etap 4x132 (28.10.2026)
+## Historyczna migawka — etap 4x132 (28.10.2026)
 
 - Bank: 609 pytań `needs_review`, 0 `verified`; bieżący blob SHA `9fa7e964d86b0bd0c38f97a80b5965777d69d7da`.
 - Raport: `podstawowy/raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md`.
@@ -28,21 +35,21 @@
 - Instrukcja kursanta: `podstawowy/egzamin-probny/INSTRUKCJA-KURSANTA.md`. Parametry oficjalnego egzaminu podstawowego potwierdza Dz.U. 2024 poz. 964, § 9–11: 30 pytań, 60 minut, próg 2/3 (20/30). Nasze warianty pozostają treningowe i nie są oficjalnym katalogiem.
 - Nie ma formalnych zatwierdzeń. Zachować `needs_review`; `verified` wyłącznie po prawdziwej, udokumentowanej recenzji specjalisty.
 
-## Bieżąca migawka — etap 4x131 (28.10.2026)
+## Historyczna migawka — etap 4x131 (28.10.2026)
 
 - Bank: 609 pytań `needs_review`, 0 `verified`; blob SHA `9fa7e964d86b0bd0c38f97a80b5965777d69d7da`.
 - Raport: `podstawowy/raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md`.
 - Przejrzano ADR-B-0586–0609; jedna niespójność redakcyjna w ADR-B-0586 została poprawiona. Lekcje 13/13 i scenariusze 39/39 mają prawidłowe odwołania do banku.
 - Warianty i klucze próbne 001–005 zsynchronizowane; publikacja nieautoryzowana. Wszystkie pytania nadal wymagają niezależnej recenzji prawnej.
 
-## Bieżąca migawka — etap 4x125 (28.10.2026)
+## Historyczna migawka — etap 4x125 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `36985d2be9667dad581f241d68f7df76ea47e0d5`.
 - Raport: `podstawowy/raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x125-wykluczenia-proby.json`.
 - Sprawdzono 40 pytań; poprawiono treść ADR-B-0173 i dystraktory/explanation ADR-B-0425, ADR-B-0488 i ADR-B-0608. Warianty/klucze 001–005 zsynchronizowane; A/B/C = 10/10/10.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 69/609 = 11,33%; maksimum działu 13,95%; explanation minimum 300 znaków.
 
-## Bieżąca migawka — etap 4x124 (28.10.2026)
+## Historyczna migawka — etap 4x124 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6`.
 - Raport: `podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x124-wykluczenia-proby.json`.
@@ -50,7 +57,7 @@
 - Wskaźnik „poprawna = jedyna najdłuższa”: 69/609 = 11,33%; maksimum działu 13,95%; explanation minimum 300 znaków.
 - Warianty i klucze 001–005 wskazują aktualny blob banku; 30 unikalnych pytań i A/B/C = 10/10/10 w każdym wariancie. Status prawny pozostaje otwarty.
 
-## Bieżąca migawka — etap 4x122 (28.10.2026)
+## Historyczna migawka — etap 4x122 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `5d3bb481e372a45c89b30812841e76e9d91d542f`.
 - Raport: `podstawowy/raporty/etap-4x122-proba40-dystraktory-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x122-wykluczenia-proby.json`.
@@ -58,13 +65,13 @@
 - „Poprawna = jedyna najdłuższa”: 70/609 = 11,49%; maksimum działu 13,95%; minimum explanation 300 znaków.
 - Warianty i klucze 001–005 wskazują aktualny SHA banku. Recenzja prawna specjalisty pozostaje wymagana.
 
-## Bieżąca migawka — etap 4x121 (28.10.2026)
+## Historyczna migawka — etap 4x121 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `f18b273e3451730a4efc28e10cd0ff16b03807f5`.
 - Raport: `podstawowy/raporty/etap-4x121-proba40-explanations-sync-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x121-wykluczenia-proby.json`.
 - Zmiany: ADR-B-0041 (dystraktor C i explanation) oraz ADR-B-0426 (doprecyzowanie treści). Niezależna recenzja prawna nadal wymagana.
 
-## Bieżąca migawka — etap 4x120 (28.10.2026)
+## Historyczna migawka — etap 4x120 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `04ace7f478868d0901bbc45fb26af3d866e18538`.
 - Raport: `podstawowy/raporty/etap-4x120-proba40-dystraktory-sync-2026-10-28.md`; manifest próby: `podstawowy/raporty/etap-4x120-wykluczenia-proby.json`.
@@ -72,7 +79,7 @@
 - Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82%; maksimum działu 14,58%; minimum explanation 300 znaków.
 - Warianty i klucze 001–005 wskazują aktualny SHA banku; wszystkie pytania pozostają `needs_review`, a niezależna recenzja prawna pozostaje otwarta.
 
-## Bieżąca migawka — etap 4x119 (28.10.2026)
+## Historyczna migawka — etap 4x119 (28.10.2026)
 
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; blob SHA `35549752d913c85daf1fc3c9492d9c04fce777a1`.
 - Raport: `podstawowy/raporty/etap-4x119-proba40-spojnosc-2026-10-28.md`; manifest: `podstawowy/raporty/etap-4x119-wykluczenia-proby.json`.
@@ -80,7 +87,7 @@
 - Wskaźnik „poprawna = jedyna najdłuższa”: 11,82% globalnie; maksimum działu 14,29%; explanation minimum 300 znaków.
 - PR #579 zamknięto bez scalania; 7 unikalnych zmian redakcyjnych przeniesiono na świeżą gałąź, zaktualizowano migawki audytu i źródło banku w egzaminach. Brak zmian poprawnych liter. Niezależna recenzja prawna nadal oczekuje.
 
-## Bieżąca migawka — etap 4x118
+## Historyczna migawka — etap 4x118
 
 - Raport: [pozostała próbka 25, dystraktory i synchronizacja](../podstawowy/raporty/etap-4x118-proba25-dystraktory-sync-2026-10-28.md) (28.10.2026).
 - Bank: 609 pytań `ADR-B-0001–ADR-B-0609`, blob SHA `28d809ccbf973fc8101f456eb9ab0144165110f1`; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
@@ -88,7 +95,7 @@
 - Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82%; minimum explanation 300 znaków. Egzaminy 001–005 wskazują bieżący blob banku.
 - Przegląd redakcyjny nie zastępuje kontroli urzędowego tekstu ADR i niezależnej recenzji specjalisty. Zachować `needs_review`.
 
-## Bieżąca migawka — etap 4x117 (28.10.2026)
+## Historyczna migawka — etap 4x117 (28.10.2026)
 
 - Raport: [próbka 40, explanation i dystraktory](podstawowy/raporty/etap-4x117-proba40-jakosc-dystraktorow-2026-10-28.md); manifest: `podstawowy/raporty/etap-4x117-wykluczenia-proby.json`.
 - Bieżący bank `podstawowy/questions.jsonl`: blob SHA `b763f639efe11f972d4c3047dc8238334f9ff9f2`; 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
@@ -97,7 +104,7 @@
 - 13 lekcji i 39 scenariuszy sprawdzono pod kątem referencji; warianty i klucze 001–005 wskazują powyższy blob.
 - Pełny Quality Gate CI dla PR #577 musi przejść przed scaleniem. Nie nadawać statusu `verified`.
 
-## Bieżąca migawka — etap 4x116
+## Historyczna migawka — etap 4x116
 
 - Raport etapu 4x116: [próbka 40, jakość dystraktorów i synchronizacja](../podstawowy/raporty/etap-4x116-proba40-jakosc-dystraktorow-2026-10-28.md). (28.10.2026)
 
@@ -108,7 +115,7 @@
 - Lekcje: 13/13; scenariusze: 39/39; brak nieistniejących ID i odwołań między działami. Egzaminy 001–005 i klucze sprawdzono i zsynchronizowano; każdy wariant ma 30 pytań.
 - Status prawny pozostaje otwarty. Redakcja i automatyczne kontrole nie zastępują niezależnej recenzji; nie nadawać statusu `verified`.
 
-## Bieżąca migawka — etap 4x114 (28.10.2026)
+## Historyczna migawka — etap 4x114 (28.10.2026)
 
 - Bank: 609 pytań `ADR-B-0001–ADR-B-0609`, blob SHA `04d7246d074d6f12fc46e91b4b47fc0e2364f0f0`; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Próbka redakcyjna: 40 pytań, seed `41142026`; raport `podstawowy/raporty/etap-4x114-proba40-dystraktory-sync-2026-10-28.md`, manifest `podstawowy/raporty/etap-4x114-wykluczenia-proby.json`.
@@ -117,7 +124,7 @@
 - Lekcje: 13/13; scenariusze: 39/39; brak nieistniejących ID i odwołań między działami. Egzaminy 001–005 i klucze sprawdzono i zsynchronizowano z bieżącym bankiem; każdy wariant ma 30 pytań.
 - Status prawny pozostaje otwarty. Redakcja i automatyczne kontrole nie zastępują niezależnej recenzji; nie nadawać statusu `verified`.
 
-## Bieżąca migawka — etap 4x113 (28.10.2026)
+## Historyczna migawka — etap 4x113 (28.10.2026)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `2675c0636a421bf3b4347ad0117087d6ec633321`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`; brak formalnych zatwierdzeń.
@@ -145,7 +152,7 @@
 - [Raport 4x88](../podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md).
 - Bank nie zmienił się: 609 `needs_review`, 0 `verified`; blob SHA `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
 
-## Bieżąca migawka — etap 4x87 (27.10.2026)
+## Historyczna migawka — etap 4x87 (27.10.2026)
 
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `4a1a5d7f1ca8a5124eb096cd228aa92952fac6da`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
@@ -165,14 +172,14 @@
 - Skorygowano sprzeczne „Tak/Nie” w odpowiedzi C pytania ADR-B-0497; zachowano literę C i status `needs_review`.
 - Raport: [Etap 4x70](../podstawowy/raporty/etap-4x70-korekta-ADR-B-0497-2026-10-27.md).
 
-## Bieżąca migawka — etap 4x69 (27.10.2026)
+## Historyczna migawka — etap 4x69 (27.10.2026)
 
 - Bank blob SHA: `a2c17c5bc8ebcd9d7f138f3c773132d6913674db`.
 - 609 pytań, 609 `needs_review`, 0 `verified`; 39 scenariuszy i 5 wariantów egzaminu próbnego z kluczami.
 - Raport: [Etap 4x69](../podstawowy/raporty/etap-4x69-raport-koncowy-2026-10-27.md).
 - Żadna zmiana redakcyjna ani PASS CI nie stanowi formalnego zatwierdzenia prawnego.
 
-## Bieżąca migawka — etap 4x52 (26.10.2026)
+## Historyczna migawka — etap 4x52 (26.10.2026)
 
 - Bank blob SHA: `ca4193261b018613083182c199ec3317984b24a4`.
 - Bank: 609 `needs_review`, 0 `verified`, brak formalnych zatwierdzeń.
@@ -193,7 +200,7 @@
 - Próbka 60 explanation (seed `2026102650`): 3 redakcyjne korekty; klucze i podstawy ADR zachowano, pełna recenzja polskiego tekstu ADR pozostaje otwarta.
 - [Raport 4x50](../podstawowy/raporty/etap-4x50-proba60-explanation-2026-10-26.md).
 
-## Bieżąca migawka — etap 4x45 (26.10.2026)
+## Historyczna migawka — etap 4x45 (26.10.2026)
 
 - Bank blob SHA: `31fa3773a0b1e96e3ef892c22897cd7bf8661a8b`.
 - 609 pytań, wszystkie `needs_review`, zero `verified`; nie ma formalnych zatwierdzeń.
@@ -286,4 +293,4 @@ Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`. Zaktualizowano cztery 
 Najnowsza redakcyjna partia 4x125 (2026-10-28): [raport próbki 40, dystraktorów i synchronizacji](../../podstawowy/raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md). Bank bieżący: 609 pytań, wszystkie `needs_review`, 0 `verified`.
 
 
-**Bieżący snapshot po 4x139 (29.10.2026):** `questions.jsonl` blob SHA `3f5cf70d024f9f18f93a708961e948a8b249fa91`, 638 pytań `needs_review`, 0 `verified`. Zmieniono tylko wyjaśnienie ADR-B-0061 i synchronizację próbnego egzaminu 001; zatwierdzenie przez specjalistę pozostaje otwarte.
+**Bieżący snapshot po 4x153 (29.10.2026):** `questions.jsonl` blob SHA `9d82c5c1f6d6bda00c46dca47126891d509b9499`, 639 pytań `needs_review`, 0 `verified`. Zmieniono tylko wyjaśnienie ADR-B-0061 i synchronizację próbnego egzaminu 001; zatwierdzenie przez specjalistę pozostaje otwarte.

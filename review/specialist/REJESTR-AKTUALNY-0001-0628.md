@@ -774,8 +774,9 @@ Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Por
 | ADR-B-0636 | ADR-B-06 | ADR-B-06-K07 | Tablica pomarańczowa jest zabrudzona i jej oznaczenia trudno odczytać z typowej odległości. Co powinien zrobić kierowca przed jazdą? | B | ADR 2025, 5.3.2.2.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0637 | ADR-B-06 | ADR-B-06-K08 | Kierowca sprawdza oznaczenia przed wyjazdem i odczytuje kod 80. Jaki typ zagrożenia sygnalizuje w nim cyfra 8? | A | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0638 | ADR-B-09 | ADR-B-09-K03 | Przed załadunkiem kierowca dowiaduje się, że obok towaru niebezpiecznego mają być przewożone produkty spożywcze. Co powinien sprawdzić? | A | ADR 2025, 7.5.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0639 | ADR-B-01 | ADR-B-01-K01 | Kierowca chce szybko znaleźć w ADR wymagania dotyczące załogi, wyposażenia i dokumentów. Które wskazanie części dokumentu jest prawidłowe? | A | ADR 2025, 1.1.1; załącznik B, części 8–9 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-Bank bieżący: 638 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
+Bank bieżący: 639 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `9d82c5c1f6d6bda00c46dca47126891d509b9499`.
 
 
-**Bieżący snapshot po 4x139 (29.10.2026):** `questions.jsonl` blob SHA `3f5cf70d024f9f18f93a708961e948a8b249fa91`, 638 pytań `needs_review`, 0 `verified`. Zmieniono tylko wyjaśnienie ADR-B-0061 i synchronizację próbnego egzaminu 001; zatwierdzenie przez specjalistę pozostaje otwarte.
+**Bieżący snapshot po 4x153 (29.10.2026):** `questions.jsonl` blob SHA `9d82c5c1f6d6bda00c46dca47126891d509b9499`, 639 pytań `needs_review`, 0 `verified`. Zmieniono tylko wyjaśnienie ADR-B-0061 i synchronizację próbnego egzaminu 001; zatwierdzenie przez specjalistę pozostaje otwarte.
