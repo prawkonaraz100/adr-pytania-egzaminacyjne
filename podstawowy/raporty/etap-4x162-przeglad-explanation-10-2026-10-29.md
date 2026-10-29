@@ -12,4 +12,4 @@ Każde wyjaśnienie ma 2–5 zdań i 282–354 znaki: praktyczne uzasadnienie po
 
 ## Integralność i odbiór
 
-Zaktualizowano snapshoty sekwencyjnego i prawnego audytu dla rekordów w partii. Pełny Quality Gate CI musi przejść przed scaleniem; w razie czerwonego CI należy poprawić zależne snapshoty, manifesty, klucze i warianty w tym samym PR. Nie oznaczono żadnego pytania jako `verified`; bank nadal ma pozostawać w statusie `needs_review`. Niezależna recenzja specjalisty ADR nadal jest wymagana. Wyłącznie kurs podstawowy — bez kursu cystern.
+Zaktualizowano snapshoty sekwencyjnego i prawnego audytu dla rekordów w partii, synchronizację 5 wariantów egzaminu i 5 kluczy oraz odwołania do bieżącego blobu banku w manifestach i kolejkach. Pełny Quality Gate CI musi przejść przed scaleniem; w razie czerwonego CI należy poprawić zależne snapshoty, manifesty, klucze i warianty w tym samym PR. Nie oznaczono żadnego pytania jako `verified`; bank nadal ma pozostawać w statusie `needs_review`. Niezależna recenzja specjalisty ADR nadal jest wymagana. Wyłącznie kurs podstawowy — bez kursu cystern.
