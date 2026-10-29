@@ -137,3 +137,7 @@ Użyj fikcyjnej karty załadunku i rysunku przestrzeni ładunkowej. Poproś kurs
 - `SC-ADR-B-09-03` — mocowanie przed dłuższą trasą.
 
 Pytania kontrolne: `ADR-B-0025`, `ADR-B-0026`, `ADR-B-0027`, `ADR-B-0200`, `ADR-B-0235`, `ADR-B-0286`, `ADR-B-0424`, `ADR-B-0518`, `ADR-B-0554`, `ADR-B-0560`. Błędy do omówienia: założenie, że wszystkie towary można ładować razem; zbyt mocne mocowanie; przewóz luzem bez sprawdzenia dopuszczenia.
+
+
+### Scenariusz SC-ADR-B-09-04 — żywność lub pasza przy towarze niebezpiecznym
+Przedstaw papierowy plan ładowni i zapytaj, co trzeba sprawdzić przed zaakceptowaniem wspólnego przewozu. Oczekuj odwołania do właściwego wpisu ADR i wymagań rozdzielenia; samo zamknięcie opakowań żywności nie rozstrzyga sprawy. Pytanie: ADR-B-0638. Podstawa do sprawdzenia: ADR 7.5.4.
