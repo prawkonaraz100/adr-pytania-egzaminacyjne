@@ -152,3 +152,74 @@ Scenariusz mapowy: SC-ADR-B-04 w pliku [scenariuszy praktycznych](../praktyka/sc
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; szczegółowe warunki postoju wymagają niezależnej recenzji.
+
+## Uzupełnienie 4x138 — kompetencje krok po kroku
+
+Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw przeczytaj omówienie, a potem rozwiąż wskazane pytanie. Sam numer przepisu nie zastępuje sprawdzenia warunków przewozu.
+
+### Zakaz palenia i używania e-papierosów (ADR-B-04-K01)
+
+**Co to znaczy w praktyce:** Podczas załadunku i rozładunku ogranicza się źródła zapłonu, bo przy niektórych towarach mogą pojawić się palne pary lub gazy. Zakaz palenia obejmuje również e-papierosy, mimo że nie mają tradycyjnego płomienia. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Czy podczas czynności ładunkowych ADR wolno palić e-papierosa w pobliżu pojazdu?
+
+**Jak rozumować:** Nie, zakaz obejmuje również e-papierosy i podobne urządzenia To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0010`. **Podstawa do kontroli:** ADR 8.3.5.
+ 
+### Zakaz otwierania przesyłek przez załogę (ADR-B-04-K02)
+
+**Co to znaczy w praktyce:** Zamknięte opakowanie ma chronić ludzi i otoczenie przed niebezpieczną zawartością, a niekiedy także przed jej oparami. Kierowca ani inny członek załogi nie może samowolnie otwierać sztuki przesyłki, nawet żeby sprawdzić zapach; taki test może narazić go na zatrucie lub kontakt z substancją. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Czy kierowca może samowolnie otworzyć sztukę przesyłki zawierającą towar niebezpieczny?
+
+**Jak rozumować:** Nie, załodze nie wolno otwierać takich przesyłek To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0011`. **Podstawa do kontroli:** ADR 8.3.3.
+ 
+### Wyłączanie silnika przy załadunku/rozładunku (ADR-B-04-K03)
+
+**Co to znaczy w praktyce:** Podczas załadunku lub rozładunku silnik zwykle powinien być wyłączony, żeby ograniczyć niepotrzebne zagrożenia w pobliżu towarów niebezpiecznych. Nie trzeba utrzymywać go na wysokich obrotach ani zawsze pozostawiać włączonego. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Co do zasady należy zrobić z silnikiem podczas załadunku lub rozładunku towarów niebezpiecznych?
+
+**Jak rozumować:** Wyłączyć silnik, chyba że zachodzi przewidziany przepisami wyjątek To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0012`. **Podstawa do kontroli:** ADR 8.3.6.
+ 
+### Unikanie źródeł zapłonu przy awarii (ADR-B-04-K04)
+
+**Co to znaczy w praktyce:** Palne opary mogą zapalić się od płomienia, iskry lub urządzenia elektrycznego. Dlatego podczas zdarzenia należy unikać źródeł zapłonu i wykonywać tylko czynności, które są bezpieczne. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Podczas awarii wyczuwalny jest zapach oparów palnego towaru. Jak postępować z możliwymi źródłami zapłonu?
+
+**Jak rozumować:** Unikać źródeł zapłonu, nie palić ani nie włączać urządzeń elektrycznych To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0102`. **Podstawa do kontroli:** ADR 5.4.3.4.
+ 
+### Zapobieganie kontakcie z niebezpieczną substancją (ADR-B-04-K05)
+
+**Co to znaczy w praktyce:** Rozlana nieznana ciecz może działać trująco lub żrąco, nawet jeśli nie ma silnego zapachu. Kierowca powinien unikać kontaktu z rozlewem i oparami oraz oddalić się w bezpieczne miejsce. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Po uszkodzeniu opakowania ADR na jezdni jest rozlew nieznanej cieczy. Co ogranicza narażenie kierowcy?
+
+**Jak rozumować:** Unikać kontaktu i oparów oraz oddalić się w bezpieczne miejsce To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0130`. **Podstawa do kontroli:** ADR 5.4.3.4; 8.3.2, 7.5.1.2, 7.5.1.3.
+ 
+### Bezpieczny postój i nadzorowanie pojazdu (ADR-B-04-K06)
+
+**Co to znaczy w praktyce:** Niektóre towary niebezpieczne wymagają szczególnego nadzoru nad pojazdem ze względu na rodzaj i ilość ładunku. Takie obowiązki ustala się na podstawie odpowiednich przepisów wskazanych w tabeli A, a nie dla każdej przesyłki bez wyjątku. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Kiedy szczególne wymagania nadzoru pojazdu z 8.4 ADR mają zastosowanie?
+
+**Jak rozumować:** Dla określonych towarów i ilości wskazanych w przepisach szczególnych To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0131`. **Podstawa do kontroli:** ADR 8.4, 8.5; 8.3.1, 8.3.8.
+ 
+### Ćwiczenie na zakończenie lekcji
+
+Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz na głos: co zauważył kierowca, jaka jest pierwsza bezpieczna decyzja, czego nie wolno zakładać i co trzeba potwierdzić w dokumentach. Jeżeli brakuje danych, nie udawaj, że znasz odpowiedź — wskaż, z kim trzeba ją wyjaśnić.
+
+**Status:** materiał dydaktyczny `needs_review`; odniesienia do ADR 2025 wymagają niezależnej kontroli.
+ 
