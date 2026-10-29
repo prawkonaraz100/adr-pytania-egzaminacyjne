@@ -790,7 +790,14 @@ Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Por
 | ADR-B-0644 | ADR-B-05 | ADR-B-05-K15 | Po uszkodzeniu przesyłki ciecz może dostać się do kratki kanalizacyjnej. Na wyposażeniu jest sprzęt do ograniczania rozlewów. Co należy zrobić? | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0645 | ADR-B-05 | ADR-B-05-K15 | Po zdarzeniu drogowym z udziałem towaru niebezpiecznego sytuacja pozwala kierowcy bezpiecznie zatrzymać pojazd i opuścić kabinę. Który sposób działania jest właściwy? | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-Bank bieżący: 645 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `04368d6c14cd1acb82d26319ce5a6c90866ecd66`.
+Bank bieżący: 651 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `57c45edaf97934d92eba84338166b474f211c5c1`.
 
 
-**Bieżący snapshot po 4x154 (29.10.2026):** `questions.jsonl` blob SHA `04368d6c14cd1acb82d26319ce5a6c90866ecd66`, 645 pytań `needs_review`, 0 `verified`. Dodano ADR-B-0640–0645 jako pytania sprawdzające bezpieczne decyzje; praktyczny instruktaż nadal obowiązkowy.
+**Bieżący snapshot po 4x155 (29.10.2026):** `questions.jsonl` blob SHA `57c45edaf97934d92eba84338166b474f211c5c1`, 651 pytań `needs_review`, 0 `verified`. Dodano ADR-B-0646–0651 jako pytania scenariuszowe wspierające ćwiczenia praktyczne; nie zastępują instruktażu.
+
+| ADR-B-0646 | ADR-B-05 | ADR-B-05-K13 | Na szkoleniu podstawowym instruktor omawia gaśnice, ale chce pominąć ćwiczenie praktyczne, bo kursanci rozwiązali test. Czy to wystarcza? | B | ADR 2025, 8.2.2.3.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0647 | ADR-B-05 | ADR-B-05-K13 | Przed ćwiczeniem z gaśnicą kursant zauważa, że sprzęt jest schowany za bagażami i nie da się go szybko wyjąć. Co powinien zrobić? | A | ADR 2025, 8.1.4.5; 8.2.2.3.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0648 | ADR-B-05 | ADR-B-05-K14 | Podczas ćwiczenia pierwszej pomocy instruktor każe kursantowi podejść do poszkodowanego leżącego przy nieznanym wycieku. Co jest właściwą reakcją? | C | ADR 2025, 5.4.3.4; 8.2.2.3.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0649 | ADR-B-05 | ADR-B-05-K14 | W trakcie ćwiczenia pierwszej pomocy kursant zauważa, że rękawiczki ochronne są niedostępne, a poszkodowany może być skażony. Co powinien zrobić? | A | ADR 2025, 5.4.3.4; 8.2.2.3.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0650 | ADR-B-05 | ADR-B-05-K15 | Podczas ćwiczenia wypadkowego kierowca znajduje instrukcję pisemną w kabinie. Jak powinien jej użyć? | B | ADR 2025, 5.4.3.4; 8.2.2.3.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0651 | ADR-B-05 | ADR-B-05-K15 | OSK planuje zaliczyć temat wypadku wyłącznie przez rozwiązanie testu wielokrotnego wyboru. Która ocena jest zgodna z ADR? | C | ADR 2025, 8.2.2.3.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
