@@ -13,7 +13,7 @@ Wyjaśnienia mają 350–396 znaków i prowadzą od praktycznego sensu poprawnej
 - Nie zmieniano treści pytań, opcji A/B/C, kluczy, źródeł ani podstaw prawnych.
 - Status wszystkich rekordów pozostaje `needs_review`; nic nie oznaczono jako `verified`.
 - Liczba pytań pozostaje 651 (ADR-B-0001–0651).
-- Nie wykonano jeszcze lokalnego uruchomienia Quality Gate: zmiany zapisano przez GitHub API, a walidacja CI musi potwierdzić zgodność banku i snapshotów. Etap nie może być uznany za zakończony przed zielonym CI i scaleniem PR.
+- GitHub Actions Quality Gate dla PR #640: **PASS**, run #40939780473, job `structure-and-tests` zakończony sukcesem. Po pierwszym nieudanym przebiegu zsynchronizowano także flagi `editorial_read_through` dla 10 zredagowanych rekordów; ponowny pełny przebieg zaliczył testy, walidację banku, egzaminów, snapshotów sekwencyjnych i przeglądu klauzul prawnych. PR oczekuje na scalenie.
 
 ## ID i długości
 | ID | Znaki w explanation |
