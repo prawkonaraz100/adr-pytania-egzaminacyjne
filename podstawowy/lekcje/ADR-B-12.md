@@ -163,3 +163,74 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; wymagania planu ochrony należy potwierdzić dla konkretnego przewozu.
+
+## Uzupełnienie 4x138 — co sprawdzić przed decyzją
+
+Przeczytaj, jakie pytanie zada sobie kierowca w zwykłej sytuacji służbowej. Najważniejsza jest kolejność bezpiecznych działań, nie samo powtórzenie numeru przepisu.
+
+### Dokument tożsamości ze zdjęciem (ADR-B-12-K01)
+
+**Prostym językiem:** Dokument ze zdjęciem pozwala ustalić, kto należy do załogi przewożącej towar niebezpieczny, co ma znaczenie dla ochrony ładunku. Sama kopia dokumentu przewozowego lub potwierdzenie szkolenia nie zastępuje dokumentu tożsamości.
+
+**Sytuacja:** Jaki dokument tożsamości członek załogi powinien posiadać przy sobie podczas przewozu towarów niebezpiecznych objętego tym wymogiem?
+
+**Poprawny kierunek:** Własny dokument tożsamości zawierający fotografię. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0034`. **Podstawa do kontroli:** ADR 1.10.1.4.
+
+### Zabezpieczenie placów i składowania (ADR-B-12-K02)
+
+**Prostym językiem:** Place i terminale, w których towary niebezpieczne są czasowo składowane podczas przewozu, trzeba chronić przed dostępem osób nieuprawnionych. Ochrona nie dotyczy wyłącznie samego przeładunku, a znaki ostrzegawcze nie zastępują ograniczenia dostępu.
+
+**Sytuacja:** Jak według ADR należy zabezpieczyć obszary w terminalach, bazach i na placach wykorzystywane do czasowego składowania towarów niebezpiecznych w trakcie przewozu?
+
+**Poprawny kierunek:** Obszar należy odpowiednio zabezpieczyć przed dostępem osób nieuprawnionych. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0035`. **Podstawa do kontroli:** ADR 1.10.1.3.
+
+### Szkolenie z ochrony i przeciwdziałania zagrożeniom (ADR-B-12-K03)
+
+**Prostym językiem:** Szkolenie z ochrony przewozu uczy, jak ograniczać ryzyko kradzieży, nieuprawnionego dostępu i niewłaściwego wykorzystania towaru. Nie chodzi tylko o to, by pasy mocujące trzymały ładunek podczas hamowania — to zabezpieczenie fizyczne, a nie ochrona przewozu (*security*).
+
+**Sytuacja:** Czego powinno dotyczyć szkolenie z ochrony towarów niebezpiecznych?
+
+**Poprawny kierunek:** Rozpoznawania ryzyka kradzieży i nadużycia oraz reagowania na naruszenia ochrony. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0036`. **Podstawa do kontroli:** ADR 1.10.2.
+
+### Weryfikacja tożsamości przewoźnika (ADR-B-12-K04)
+
+**Prostym językiem:** Uczestnicy przewozu powinni upewnić się, że przekazują towary niebezpieczne właściwemu, zidentyfikowanemu odbiorcy lub przewoźnikowi. Weryfikacja tożsamości ogranicza ryzyko kradzieży i nieuprawnionego przejęcia ładunku.
+
+**Sytuacja:** Nadawca chce przekazać towary niebezpieczne firmie przewozowej, której tożsamości nie zweryfikowano. Co wynika z ADR 1.10.1.2?
+
+**Poprawny kierunek:** Przekazać towar tylko przewoźnikowi o sprawdzonej tożsamości. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0120`. **Podstawa do kontroli:** ADR 1.10.1.2.
+
+### Plan ochrony towarów dużego ryzyka (ADR-B-12-K05)
+
+**Prostym językiem:** Przy towarach niebezpiecznych dużego ryzyka samo mocowanie ładunku i przygotowanie na pożar nie wystarczają. Uczestnicy objęci wymaganiem muszą mieć plan ochrony przewozu, który pomaga zapobiegać kradzieży i celowemu nadużyciu towaru.
+
+**Sytuacja:** Firma przewozi towary niebezpieczne dużego ryzyka objęte wymaganiami 1.10.3.2. Co powinna wdrożyć?
+
+**Poprawny kierunek:** Opracować plan ochrony transportu obejmujący wymagania ADR 1.10.3.2. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0122`. **Podstawa do kontroli:** ADR 1.10.3.2; 1.10.3.1.2.
+
+### Zabezpieczenie postoju i przed kradzieżą pojazdu (ADR-B-12-K06)
+
+**Prostym językiem:** Gdy przewóz wymaga nadzoru zgodnie z ADR 8.4.1, pojazdu nie można pozostawić po prostu w dowolnym miejscu. Odpowiednio zabezpieczona baza lub teren chronionego zakładu może spełniać warunki postoju bez bezpośredniego nadzoru.
+
+**Sytuacja:** Przy przewozie objętym 8.4.1 ADR jaki postój bez bezpośredniego nadzoru może być dopuszczony?
+
+**Poprawny kierunek:** Skorzystać z zabezpieczonej bazy lub terenu zakładu, jeśli jest dostępny. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
+
+**Sprawdź się:** `ADR-B-0144`. **Podstawa do kontroli:** ADR 1.10.3.3, 8.4.
+
+### Ćwiczenie w realiach pracy
+
+Odegraj scenariusz z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json): jeden kursant jest kierowcą, drugi pracownikiem na placu lub dyspozytorem. Sprawdź informacje, wskaż ryzyko i wyjaśnij, kiedy trzeba wstrzymać czynność. Po ćwiczeniu wypisz jeden błąd, którego uniknąłeś.
+
+**Status:** `needs_review`; przedstawione wskazania ADR wymagają niezależnego sprawdzenia.
+
