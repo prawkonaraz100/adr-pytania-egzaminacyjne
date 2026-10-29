@@ -126,6 +126,7 @@ Pytania do samodzielnego sprawdzenia w banku:
 - ADR-B-0092
 - ADR-B-0093
 - ADR-B-0123
+- ADR-B-0639
 - ADR-B-0124
 - ADR-B-0125
 - ADR-B-0147
