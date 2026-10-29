@@ -6,7 +6,7 @@
   "seed": 2026102705,
   "variant": 5,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "7f604f8a1b3aead06c77b4d56b319917f11f0dba",
+  "source_bank_head": "2ca5bbe049352e32c155cdda117f4be120e4d096",
   "excluded_question_ids": [
     "ADR-B-0004",
     "ADR-B-0008",
@@ -127,7 +127,9 @@
     "ADR-B-0586",
     "ADR-B-0590",
     "ADR-B-0603",
-    "ADR-B-0605"
+    "ADR-B-0605",
+    "ADR-B-0051",
+    "ADR-B-0138"
   ],
   "question_count": 30,
   "time_limit_minutes": 60,
@@ -152,13 +154,13 @@
   "questions": [
     {
       "number": 1,
-      "id": "ADR-B-0051",
+      "id": "ADR-B-0637",
       "module_id": "ADR-B-06",
-      "stem": "Co oznacza powtórzenie cyfry w numerze rozpoznawczym zagrożenia na tablicy ADR?",
+      "stem": "Na górze tablicy pomarańczowej widnieje numer rozpoznawczy zagrożenia zaczynający się cyfrą 8. Co oznacza ta cyfra?",
       "options": {
-        "A": "Nasilenie zagrożenia wyrażanego tą cyfrą",
-        "B": "Występowanie dwóch różnych zagrożeń opisanych jednakową cyfrą",
-        "C": "Oznacza, że materiał nie wymaga innych nalepek ostrzegawczych"
+        "A": "Zagrożenie promieniowaniem jonizującym, które jest oznaczane inną cyfrą w numerze rozpoznawczym",
+        "B": "Zagrożenie wyłącznie pożarem, bez uwzględnienia działania żrącego wskazywanego przez kod",
+        "C": "Zagrożenie związane z działaniem żrącym"
       },
       "image": null
     },
@@ -188,13 +190,13 @@
     },
     {
       "number": 4,
-      "id": "ADR-B-0138",
+      "id": "ADR-B-0638",
       "module_id": "ADR-B-09",
-      "stem": "Kontrola przed załadunkiem ADR wykazuje niezgodność wyposażenia pojazdu z wymaganiami. Co należy zrobić?",
+      "stem": "Przed załadunkiem kierowca dowiaduje się, że obok towaru niebezpiecznego mają być przewożone produkty spożywcze. Co powinien sprawdzić?",
       "options": {
-        "A": "Nie rozpoczynać załadunku przed usunięciem stwierdzonej niezgodności",
-        "B": "Załadować mimo niezgodności, jeżeli do odbiorcy pozostała krótka trasa",
-        "C": "Przekazać ocenę wyposażenia odbiorcy dopiero po dostawie"
+        "A": "Wyłącznie to, czy oba ładunki mieszczą się w pojeździe, bez kontroli szczególnych zasad ADR",
+        "B": "Czy ADR wymaga rozdzielenia lub innych środków ostrożności",
+        "C": "Tylko to, czy opakowania spożywcze są zamknięte, bez sprawdzenia wymaganych środków rozdzielenia"
       },
       "image": null
     },
