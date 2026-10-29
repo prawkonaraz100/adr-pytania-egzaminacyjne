@@ -5,7 +5,7 @@ Data: 2026-10-29. Punkt wyjścia: świeży `main` po PR #644; bank 651 pytań, w
 ## Wybrane rekordy
 ADR-B-0058, ADR-B-0069, ADR-B-0088, ADR-B-0146, ADR-B-0147, ADR-B-0260, ADR-B-0340, ADR-B-0465, ADR-B-0495 i ADR-B-0504.
 
-Wybrano kolejne nieprzeglądane krótkie wyjaśnienia. Nowe teksty mają 343–380 znaków; objaśniają praktyczny sens odpowiedzi, dlaczego pozostałe opcje mylą oraz wskazują podstawę ADR.
+Wybrano kolejne nieprzeglądane krótkie wyjaśnienia. Nowe teksty mają 321–399 znaków; objaśniają praktyczny sens odpowiedzi, dlaczego pozostałe opcje mylą oraz wskazują podstawę ADR.
 
 ## Zakres zmian
 - Zmieniono wyłącznie pole `explanation` w `podstawowy/questions.jsonl`.
