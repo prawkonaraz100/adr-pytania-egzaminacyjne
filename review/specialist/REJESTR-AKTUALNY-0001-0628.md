@@ -778,4 +778,4 @@ Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Por
 Bank bieżący: 638 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 
 
-**Bieżący snapshot po 4x153 (29.10.2026):** `questions.jsonl` blob SHA `4171182f79c15fcb023541a68828945e82abbd16`, 639 pytań `needs_review`, 0 `verified`. Zmieniono tylko wyjaśnienie ADR-B-0061 i synchronizację próbnego egzaminu 001; zatwierdzenie przez specjalistę pozostaje otwarte.
+**Bieżący snapshot po 4x153 (29.10.2026):** `questions.jsonl` blob SHA `9d82c5c1f6d6bda00c46dca47126891d509b9499`, 639 pytań `needs_review`, 0 `verified`. Zmieniono tylko wyjaśnienie ADR-B-0061 i synchronizację próbnego egzaminu 001; zatwierdzenie przez specjalistę pozostaje otwarte.
