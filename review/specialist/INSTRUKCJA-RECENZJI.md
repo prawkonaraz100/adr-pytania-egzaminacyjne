@@ -273,3 +273,6 @@ Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`. Zaktualizowano cztery 
 
 
 Najnowsza redakcyjna partia 4x125 (2026-10-28): [raport próbki 40, dystraktorów i synchronizacji](../../podstawowy/raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md). Bank bieżący: 609 pytań, wszystkie `needs_review`, 0 `verified`.
+
+
+**Bieżący snapshot po 4x139 (29.10.2026):** `questions.jsonl` blob SHA `c503a96c654963f1dae0431ac35991d3195375d0`, 638 pytań `needs_review`, 0 `verified`. Zmieniono tylko wyjaśnienie ADR-B-0061 i synchronizację próbnego egzaminu 001; zatwierdzenie przez specjalistę pozostaje otwarte.
