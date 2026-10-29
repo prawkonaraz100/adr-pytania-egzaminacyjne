@@ -1,5 +1,12 @@
 ## Bieżąca migawka — etap 4x136 (29.10.2026)
 
+- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `ff60bc99b58068ce826bec80d7c12f3265dc1301`.
+- Raport: `podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md`.
+- Nowe ID: ADR-B-0629–0638; nowe podstawy prawne pozostają do literalnej kontroli i niezależnej recenzji.
+- Pakiet: `review/specialist/PAKIET-0628-MANIFEST.json`; rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0628.md`.
+
+## Bieżąca migawka — etap 4x136 (29.10.2026)
+
 - Nowe pytania ADR-B-0629–0638: [raport etapu 4x136](../../podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md).
 - Rejestr podstaw do niezależnej kontroli: [0629–0638](../legal-polish/stage4x136-legal-review-ledger-0629-0638.json).
 - Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `ff60bc99b58068ce826bec80d7c12f3265dc1301`.
@@ -751,3 +758,14 @@ Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Por
 | ADR-B-0628 | ADR-B-09 | ADR-B-09-K02 | Podczas przygotowania ładunku pasy nie pozwalają przesyłkom przesuwać się, ale jeden z pasów mocno wgniata opakowanie. Co powinien zrobić kierowca? | B | ADR 2025, 7.5.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 Bank bieżący: 628 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `7f604f8a1b3aead06c77b4d56b319917f11f0dba`.
+
+| ADR-B-0629 | ADR-B-03 | needs_review | ADR 2025, 5.4.1.1.3.1 |
+| ADR-B-0630 | ADR-B-05 | needs_review | ADR 2025, 5.4.3.4 |
+| ADR-B-0631 | ADR-B-05 | needs_review | ADR 2025, 5.4.3.4 |
+| ADR-B-0632 | ADR-B-05 | needs_review | ADR 2025, 5.4.3.4 |
+| ADR-B-0633 | ADR-B-05 | needs_review | ADR 2025, 8.1.5.2; 5.4.3.4 |
+| ADR-B-0634 | ADR-B-06 | needs_review | ADR 2025, 5.3.2.2.1 |
+| ADR-B-0635 | ADR-B-06 | needs_review | ADR 2025, 5.3.2.3.1 |
+| ADR-B-0636 | ADR-B-06 | needs_review | ADR 2025, 5.3.2.2.2 |
+| ADR-B-0637 | ADR-B-06 | needs_review | ADR 2025, 5.3.2.3.1 |
+| ADR-B-0638 | ADR-B-09 | needs_review | ADR 2025, 7.5.4 |
