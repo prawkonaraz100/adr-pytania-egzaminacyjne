@@ -187,7 +187,7 @@
           "C": "Wybrać zawsze kod E, niezależnie od tego, czy drugi kod jest surowszy"
         },
         "correct_option": "B",
-        "explanation": "Gdy jedna jednostka wiezie towary z różnymi kodami tunelowymi, dla całego ładunku stosuje się bardziej restrykcyjny z nich. Masa poszczególnych towarów nie jest zasadą wyboru kodu, a automatyczny wybór E może przeoczyć surowsze ograniczenie. Kierowca planuje trasę według wyniku dla całej jednostki. Podstawa: ADR 8.6.3.2.",
+        "explanation": "Jeżeli przewozisz towary z różnymi kodami tunelowymi, planując trasę dla całej jednostki transportowej, uwzględnij kod powodujący największe ograniczenia. Nie wybieraj kodu na podstawie masy towaru ani automatycznie litery E, bo inny kod może być bardziej restrykcyjny. Ustal kod mający zastosowanie do całego ładunku i dopiero wtedy wybierz trasę. Podstawa: ADR 8.6.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
