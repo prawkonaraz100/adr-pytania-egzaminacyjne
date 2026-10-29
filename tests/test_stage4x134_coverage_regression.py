@@ -28,7 +28,11 @@ class CurrentCoverageGate(unittest.TestCase):
             if c["delivery"] == "theory":
                 self.assertGreaterEqual(len(set(refs)), 3, c["id"])
             else:
-                self.assertEqual(refs, [], f"practical objective {c['id']} is not a written quiz")
+                # These are knowledge-prerequisite questions for safe decisions, not evidence that the practical skill was performed.
+                self.assertEqual(len(refs), 2, f"practical objective {c['id']} needs two linked knowledge-prerequisite questions")
+        lesson = (BASIC / "lekcje" / "ADR-B-05.md").read_text(encoding="utf-8")
+        self.assertIn("nie zastępują rzeczywistego ćwiczenia", lesson)
+        self.assertIn("instruktażu gaśnicy ani pierwszej pomocy", lesson)
             for question_id in refs:
                 self.assertIn(question_id, by_id)
                 self.assertEqual(by_id[question_id]["module_id"], c["module_id"])
