@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x136 (29.10.2026)
 
-- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `ff60bc99b58068ce826bec80d7c12f3265dc1301`.
+- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 - Raport: `podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md`.
 - Nowe ID: ADR-B-0629–0638; nowe podstawy prawne pozostają do literalnej kontroli i niezależnej recenzji.
 - Pakiet: `review/specialist/PAKIET-0628-MANIFEST.json`; rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0628.md`.
@@ -9,7 +9,7 @@
 
 - Nowe pytania ADR-B-0629–0638: [raport etapu 4x136](../../podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md).
 - Rejestr podstaw do niezależnej kontroli: [0629–0638](../legal-polish/stage4x136-legal-review-ledger-0629-0638.json).
-- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `ff60bc99b58068ce826bec80d7c12f3265dc1301`.
+- Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 
 - Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `9d0c4b426bb1670361093ed1a7b5d023ee1fad06`.
 - Nowe ID: ADR-B-0610–0638 (29 pytań roboczych); raport: `podstawowy/raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md`.
@@ -768,4 +768,4 @@ Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Por
 | ADR-B-0637 | ADR-B-06 | ADR-B-06-K08 | Kierowca sprawdza oznaczenia przed wyjazdem i odczytuje kod 80. Jaki typ zagrożenia sygnalizuje w nim cyfra 8? | A | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0638 | ADR-B-09 | ADR-B-09-K03 | Przed załadunkiem kierowca dowiaduje się, że obok towaru niebezpiecznego mają być przewożone produkty spożywcze. Co powinien sprawdzić? | A | ADR 2025, 7.5.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-Bank bieżący: 638 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `ff60bc99b58068ce826bec80d7c12f3265dc1301`.
+Bank bieżący: 638 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
