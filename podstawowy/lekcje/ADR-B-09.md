@@ -189,3 +189,104 @@ Jeżeli obok towaru niebezpiecznego mają być przewożone żywność lub pasza,
 ### Scenariusz praktyczny SC-ADR-B-09-04
 
 Powiązane pytania: ADR-B-0638. Na papierowym planie ładowni sprawdź, jakie wymagania ADR należy ustalić przed wspólnym przewozem towaru niebezpiecznego i żywności lub paszy. Wykonuj ćwiczenie na fikcyjnych materiałach; podstawy prawne i rozwiązanie wymagają niezależnej kontroli specjalisty.
+
+## Uzupełnienie 4x138 — decyzje w konkretnych sytuacjach
+
+Zamiast zapamiętywać samą nazwę przepisu, ćwicz rozpoznanie problemu i wskazanie bezpiecznego następnego kroku. Przykłady poniżej są pytaniami roboczymi z banku; nie stanowią zatwierdzenia przez specjalistę.
+
+### Zgodność przy ładowaniu razem — ADR-B-09-K01
+
+**Wyjaśnienie dla kursanta:** Dopuszczalność wspólnego załadunku wynika z zasad ADR 7.5.2 i tabeli zakazów ładowania razem. „Sztuka przesyłki” to pojedyncze opakowanie albo zestaw opakowań przygotowany jako jedna przesyłka.
+
+**Przykład z pracy:** Na jakiej podstawie należy ustalić, czy sztuki przesyłek z różnymi nalepkami ostrzegawczymi ADR wolno załadować do jednego pojazdu?
+
+**Co warto zrobić lub sprawdzić:** Na podstawie zasad i tabeli zakazów ładowania razem w ADR 7.5.2. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0025` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.5.2.
+
+### Mocowanie sztuk przesyłek — ADR-B-09-K02
+
+**Wyjaśnienie dla kursanta:** Podczas hamowania lub skręcania niezabezpieczona przesyłka może się przesunąć, przewrócić albo uszkodzić. Dlatego trzeba tak rozmieścić i umocować ładunek, by pozostał stabilny w zwykłych warunkach jazdy.
+
+**Przykład z pracy:** Jak należy zabezpieczyć sztuki przesyłki ADR na pojeździe?
+
+**Co warto zrobić lub sprawdzić:** Tak, aby nie przemieszczały się w normalnych warunkach jazdy. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0026` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.5.7.1.
+
+### Kontakt z żywnością i paszami — ADR-B-09-K03
+
+**Wyjaśnienie dla kursanta:** Niektórych towarów niebezpiecznych nie wolno ładować bez odpowiedniego oddzielenia od żywności lub pasz, bo wyciek może je skazić. Nie oznacza to zakazu dla każdej przesyłki ADR: trzeba sprawdzić wpis danego towaru i wymagane warunki.
+
+**Przykład z pracy:** Czy ograniczenia dotyczące kontaktu określonych towarów niebezpiecznych z żywnością mogą mieć znaczenie podczas załadunku?
+
+**Co warto zrobić lub sprawdzić:** Tak, dla przesyłek objętych odpowiednimi przepisami. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0027` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.5.4.
+
+### Strzałki kierunkowe — ADR-B-09-K04
+
+**Wyjaśnienie dla kursanta:** Strzałki kierunkowe pokazują, w jakim ustawieniu opakowanie powinno znajdować się podczas przewozu, aby zawartość pozostała w odpowiedniej pozycji. Dlatego należy ustawić przesyłkę zgodnie z nimi.
+
+**Przykład z pracy:** Na przesyłce ADR widnieją strzałki kierunkowe wskazujące górę. Jak należy ją ustawić?
+
+**Co warto zrobić lub sprawdzić:** Zgodnie ze strzałkami. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0058` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.5.1.5.
+
+### Piętrzenie opakowań — ADR-B-09-K05
+
+**Wyjaśnienie dla kursanta:** Opakowania mogą ulec zgnieceniu albo przewrócić się, jeśli postawi się jedne na drugich bez odpowiedniej konstrukcji. Dlatego nie wolno piętrzyć sztuk przesyłek, które nie są do tego przeznaczone.
+
+**Przykład z pracy:** Czy wolno piętrzyć sztuki przesyłek ADR, których konstrukcja nie przewiduje piętrzenia?
+
+**Co warto zrobić lub sprawdzić:** Nie, jeżeli opakowania nie są przystosowane do piętrzenia. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0059` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.5.7.2.
+
+### Unikanie nadmiernego naprężenia pasów — ADR-B-09-K06
+
+**Wyjaśnienie dla kursanta:** Mocowanie ma zabezpieczać ładunek przed przesuwaniem, ale nie może uszkadzać ani deformować opakowań. Jeśli pas zgniata karton lub pojemnik, trzeba zmienić sposób ułożenia albo rozłożyć nacisk; maksymalne napięcie nie jest celem samym w sobie.
+
+**Przykład z pracy:** Czy zbyt mocno zaciągnięty pas mocujący może naruszać wymagania ADR?
+
+**Co warto zrobić lub sprawdzić:** Tak, jeżeli może uszkodzić lub zdeformować opakowanie. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0060` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.5.7.1.
+
+### Czyszczenie pojazdu po rozładunku, także po wycieku — ADR-B-09-K07
+
+**Wyjaśnienie dla kursanta:** Pozostałości towaru niebezpiecznego mogą zanieczyścić kolejny ładunek i narazić ludzi. Pojazd należy oczyścić możliwie jak najszybciej, a w każdym razie przed następnym załadunkiem; nie czeka się na okresowy przegląd ani na zaschnięcie resztek.
+
+**Przykład z pracy:** Po rozładunku beczki ADR widać pozostałości jej zawartości na skrzyni ładunkowej. Kiedy najpóźniej należy oczyścić pojazd zgodnie z 7.5.8.1?
+
+**Co warto zrobić lub sprawdzić:** Przed ponownym załadunkiem, możliwie jak najszybciej. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0080` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.5.8.1–7.5.8.2.
+
+### Wstępna kontrola przed załadunkiem — ADR-B-09-K08
+
+**Wyjaśnienie dla kursanta:** Przed załadunkiem trzeba upewnić się, że pojazd i jego wymagane wyposażenie nadają się do bezpiecznego przewozu. Jeśli kontrola ujawni niezgodność, załadunku nie należy rozpoczynać do jej usunięcia.
+
+**Przykład z pracy:** Kontrola przed załadunkiem ADR wykazuje niezgodność wyposażenia pojazdu z wymaganiami. Co należy zrobić?
+
+**Co warto zrobić lub sprawdzić:** Nie rozpoczynać załadunku przed usunięciem stwierdzonej niezgodności. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0138` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.5.1.
+
+### Towary luzem: ogólne zasady podstawowe — ADR-B-09-K09
+
+**Wyjaśnienie dla kursanta:** Przewóz luzem to przewóz towaru bez typowych sztuk przesyłek, lecz nie jest dozwolony dla każdego materiału. Najpierw sprawdź w tabeli A właściwy kod BK lub VC albo odesłanie do przepisu szczególnego, a potem warunki dla pojazdu i ładunku.
+
+**Przykład z pracy:** W jakim przypadku ADR 7.3.1.1 dopuszcza przewóz towarów niebezpiecznych luzem w pojeździe lub kontenerze?
+
+**Co warto zrobić lub sprawdzić:** Gdy tabela A zawiera kod BK/VC albo odesłanie do przepisu szczególnego i spełniono warunki. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0139` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.3.
+
+### Utrwal na scenariuszu
+
+Wybierz scenariusz działu ADR-B-09 z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json), odegraj rozmowę z dyspozytorem lub osobą na rampie i wyjaśnij, jakie dokumenty oraz warunki sprawdzisz przed decyzją. Nie zakładaj, że czyjeś polecenie znosi wymogi ADR.
+
+Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi porównać je z pełnym polskim tekstem ADR.
+
