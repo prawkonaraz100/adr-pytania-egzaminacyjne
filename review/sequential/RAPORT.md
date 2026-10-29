@@ -96,3 +96,7 @@ Najważniejsze źródła dla obecnego etapu:
 `python scripts/check_sequential_audit.py` sprawdza wszystkie **216 kolejnych ID**, zestawia dokładny zapis tekstów A/B/C, klucza, wyjaśnienia i referencji z aktualnym JSONL oraz wykrywa nieaktualny przegląd po zmianie pytania. CI nie pozwala mylić tego pierwszego przebiegu z podpisaną akceptacją eksperta. `review/approvals.jsonl` pozostaje pusty.
 
 **Nie zgłaszać: „zweryfikowano prawnie 216 pytań” — to byłoby niezgodne z faktycznie wykonanym zakresem.**
+
+## Aktualizacja bieżącego banku — etap 4x153 (29.10.2026)
+
+Bank zawiera obecnie 639 pytań (`ADR-B-0001`–`ADR-B-0639`). Po dodaniu ADR-B-0639 partia `review/sequential/629-639.json` obejmuje 11 rekordów z aktualnymi snapshotami. Analogiczny zakres `review/legal-clauses/629-639.json` ma 639 wpisów łącznie w przeglądzie prawnym. Skrypty sprawdzają świeżość snapshotów i kompletność audytu; nie potwierdzają zgodności prawnej ani zatwierdzenia specjalisty. Wszystkie rekordy pozostają `needs_review`.
