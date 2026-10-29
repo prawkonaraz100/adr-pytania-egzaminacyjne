@@ -314,7 +314,7 @@
           "C": "Kolumna 3a, w której wskazano klasę zagrożenia towaru"
         },
         "correct_option": "C",
-        "explanation": "Numer UN to czterocyfrowy identyfikator towaru, a nie jego klasa zagrożenia. W tabeli A numer UN znajduje się w kolumnie 1, klasę odczytuje się z kolumny 3a, a grupę pakowania — jeśli jest przypisana — z kolumny 4. Dzięki temu nie pomylisz identyfikacji towaru z rodzajem zagrożenia. Podstawa: ADR 3.2.1, tabela A.",
+        "explanation": "Klasę zagrożenia towaru znajdziesz w kolumnie 3a tabeli A, dzięki czemu możesz powiązać wpis z odpowiednimi wymaganiami ADR. Kolumna 1 zawiera numer UN identyfikujący towar, a kolumna 4 podaje grupę pakowania, jeśli ma zastosowanie. To trzy różne informacje, których nie wolno ze sobą mylić. Podstawa: ADR 3.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -724,7 +724,7 @@
           "C": "Przekazać ocenę wyposażenia odbiorcy dopiero po dostawie"
         },
         "correct_option": "A",
-        "explanation": "Przed załadunkiem trzeba upewnić się, że pojazd i jego wymagane wyposażenie nadają się do bezpiecznego przewozu. Jeśli kontrola ujawni niezgodność, załadunku nie należy rozpoczynać do jej usunięcia. Krótka trasa nie usuwa obowiązków, a odkładanie całej oceny na odbiorcę byłoby zbyt późne. Podstawa: ADR 7.5.1.2.",
+        "explanation": "Gdy przed załadunkiem brakuje wymaganego wyposażenia lub jest ono niezgodne, należy usunąć problem przed przyjęciem ładunku. Krótka trasa nie zmniejsza ryzyka zdarzenia, a przerzucenie sprawdzenia na odbiorcę odkłada kontrolę na czas po przewozie. Sprawdzenie pojazdu należy wykonać odpowiednio wcześnie. Podstawa: ADR 7.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -929,7 +929,7 @@
           "C": "Bezpiecznie się ewakuować, ostrzec służby i nie gasić pożaru ładowni"
         },
         "correct_option": "C",
-        "explanation": "Przy rozwiniętym pożarze przedziału ładunkowego nie próbuj samodzielnie gasić ognia; oddal się bezpiecznie i powiadom służby. Użycie gaśnicy przy ładowni albo podejście bliżej w celu rozpoznania źródła może narazić załogę na ogień, dym i reakcję towaru. Najpierw chronisz ludzi, a nie ładunek. Podstawa: ADR 5.4.3.4.",
+        "explanation": "W razie rozwiniętego pożaru przedziału ładunkowego w tunelu priorytetem jest bezpieczna ewakuacja i powiadomienie służb. Samodzielne gaszenie lub podejście bliżej dla rozpoznania ognia może narazić załogę na dym, wysoką temperaturę i towar niebezpieczny. Nie próbuj ratować ładunku kosztem ludzi. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
