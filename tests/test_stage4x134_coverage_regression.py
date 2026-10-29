@@ -37,7 +37,7 @@ class CurrentCoverageGate(unittest.TestCase):
         self.assertEqual(covered, set(by_id))
         lesson = (BASIC / "lekcje" / "ADR-B-05.md").read_text(encoding="utf-8")
         self.assertIn("nie zastępują rzeczywistego ćwiczenia", lesson)
-        self.assertIn("instruktażu gaśnicy ani pierwszej pomocy", lesson)
+        self.assertIn("praktycznego szkolenia z pierwszej pomocy i sprzętu gaśniczego", lesson)
 
     def test_three_scenarios_per_module(self):
         data = json.loads((BASIC / "praktyka" / "scenariusze-13-dzialow.json").read_text(encoding="utf-8"))
