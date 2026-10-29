@@ -297,17 +297,23 @@ Czytaj temat jak sytuację z pracy: najpierw rozpoznaj zagrożenie, potem wybier
 
 ### Praktyczne używanie gaśnicy (instruktaż) (ADR-B-05-K13)
 
+**Pytania scenariuszowe do omówienia:** `ADR-B-0640`, `ADR-B-0641`, `ADR-B-0646`, `ADR-B-0647`. To przygotowanie do ćwiczenia, nie jego zamiennik.
+
 To umiejętność wykonywana podczas ćwiczeń pod opieką instruktora. Sam test wyboru odpowiedzi nie zastąpi przećwiczenia czynności i omówienia zasad bezpieczeństwa.
 
 **Podstawa programu:** program praktyczny, zał. 1. **Wykonaj ćwiczenie:** skorzystaj z mapy scenariuszy i poproś instruktora o ocenę kolejności działań.
 
 ### Praktyczne czynności pierwszej pomocy (instruktaż) (ADR-B-05-K14)
 
+**Pytania scenariuszowe do omówienia:** `ADR-B-0642`, `ADR-B-0643`, `ADR-B-0648`, `ADR-B-0649`. To przygotowanie do ćwiczenia, nie jego zamiennik.
+
 To umiejętność wykonywana podczas ćwiczeń pod opieką instruktora. Sam test wyboru odpowiedzi nie zastąpi przećwiczenia czynności i omówienia zasad bezpieczeństwa.
 
 **Podstawa programu:** program praktyczny, zał. 1. **Wykonaj ćwiczenie:** skorzystaj z mapy scenariuszy i poproś instruktora o ocenę kolejności działań.
 
 ### Praktyczny scenariusz wypadku/awarii (ADR-B-05-K15)
+
+**Pytania scenariuszowe do omówienia:** `ADR-B-0644`, `ADR-B-0645`, `ADR-B-0650`, `ADR-B-0651`. To przygotowanie do ćwiczenia, nie jego zamiennik.
 
 To umiejętność wykonywana podczas ćwiczeń pod opieką instruktora. Sam test wyboru odpowiedzi nie zastąpi przećwiczenia czynności i omówienia zasad bezpieczeństwa.
 

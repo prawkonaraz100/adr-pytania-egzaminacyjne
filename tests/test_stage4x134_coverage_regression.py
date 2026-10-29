@@ -13,7 +13,7 @@ class CurrentCoverageGate(unittest.TestCase):
     def test_theoretical_map_and_practical_scope(self):
         bank = [json.loads(line) for line in (BASIC / "questions.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
         by_id = {row["id"]: row for row in bank}
-        self.assertEqual(len(bank), 645)
+        self.assertEqual(len(bank), 651)
         self.assertEqual(len(by_id), len(bank))
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in bank))
         competencies = json.loads((BASIC / "kompetencje.json").read_text(encoding="utf-8"))["competencies"]
@@ -29,7 +29,7 @@ class CurrentCoverageGate(unittest.TestCase):
                 self.assertGreaterEqual(len(set(refs)), 3, c["id"])
             else:
                 # These questions test prerequisites for safe decisions, not completion of the practical skill.
-                self.assertEqual(len(refs), 2, f"practical objective {c['id']} needs two linked knowledge-prerequisite questions")
+                self.assertGreaterEqual(len(refs), 2, f"practical objective {c['id']} needs at least two linked knowledge-prerequisite questions")
             for question_id in refs:
                 self.assertIn(question_id, by_id)
                 self.assertEqual(by_id[question_id]["module_id"], c["module_id"])
