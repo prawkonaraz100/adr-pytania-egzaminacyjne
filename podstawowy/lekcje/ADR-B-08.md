@@ -261,7 +261,7 @@ Czytaj temat jak sytuację z pracy: najpierw rozpoznaj zagrożenie, potem wybier
 
 **Sytuacja do rozwiązania:** Które typy pojazdów mogą wymagać świadectwa dopuszczenia ADR zgodnie z częścią 9?
 
-**Prawidłowy kierunek działania:** Między innymi EX/II, EX/III, FL, AT i MEMU Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+**Prawidłowy kierunek działania:** Między innymi [EX/II i EX/III](../SLOWNICZEK.md#ex-ii-i-ex-iii), [FL](../SLOWNICZEK.md#pojazd-fl), [AT](../SLOWNICZEK.md#pojazd-at) i [MEMU](../SLOWNICZEK.md#memu). Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
 
 **Pytanie:** `ADR-B-0137`; **podstawa do sprawdzenia:** 9.1, 9.2.
 
