@@ -177,3 +177,84 @@ Pytania do samodzielnego sprawdzenia w banku:
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; odpowiedzialność cywilna i szczegółowe obowiązki wymagają niezależnej recenzji.
+
+## Uzupełnienie 4x138 — decyzje kierowcy i kompetencje
+
+Czytaj temat jak sytuację z pracy: najpierw rozpoznaj zagrożenie, potem wybierz bezpieczne działanie i wyjaśnij je własnymi słowami. Nie trzeba pamiętać całego przepisu na pamięć, ale trzeba wiedzieć, gdzie sprawdzić jego warunki.
+
+### Nadawca: klasyfikacja, dane i dokumenty (ADR-B-07-K01)
+
+**Dlaczego to ważne:** Nadawca musi prawidłowo sklasyfikować towar przed jego nadaniem, bo od tej decyzji zależą wymagane dokumenty, opakowanie i oznakowanie. Przewoźnik sprawdza przekazane informacje i dokumenty, a załadowca wykonuje własne kontrole przy załadunku, ale te zadania nie zastępują klasyfikacji nadawcy.
+
+**Sytuacja do rozwiązania:** Kto przede wszystkim ma zadbać, by towar niebezpieczny był prawidłowo sklasyfikowany przed nadaniem?
+
+**Prawidłowy kierunek działania:** Nadawca Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0021`; **podstawa do sprawdzenia:** 1.4.2.1.
+
+### Przewoźnik: instrukcje pisemne i kontrola bezpieczeństwa (ADR-B-07-K02)
+
+**Dlaczego to ważne:** To przewoźnik ma zapewnić załodze instrukcje pisemne, które wyjaśniają sposób postępowania w razie zdarzenia. Powinny być w języku zrozumiałym dla członków załogi, inaczej trudno byłoby z nich skorzystać pod presją czasu.
+
+**Sytuacja do rozwiązania:** Kto zgodnie z ADR przekazuje załodze pojazdu wymagane instrukcje pisemne?
+
+**Prawidłowy kierunek działania:** Przewoźnik Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0019`; **podstawa do sprawdzenia:** 1.4.2.2.
+
+### Załadowca: stan opakowań (ADR-B-07-K03)
+
+**Dlaczego to ważne:** Uszkodzone opakowanie, z którego wycieka towar niebezpieczny, może zagrozić kierowcy, innym ładunkom i środowisku. Załadowca nie powinien przekazywać takiej sztuki przesyłki do przewozu, dopóki problem nie zostanie prawidłowo usunięty.
+
+**Sytuacja do rozwiązania:** Czy załadowca może przekazać do przewozu uszkodzone opakowanie z wyciekającym towarem niebezpiecznym?
+
+**Prawidłowy kierunek działania:** Nie, dopóki uszkodzenie nie zostanie usunięte Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0020`; **podstawa do sprawdzenia:** 1.4.3.1.
+
+### Odbiorca: przyjęcie i dalsze obowiązki (ADR-B-07-K04)
+
+**Dlaczego to ważne:** Odbiorca jest uczestnikiem przewozu ADR i ma własne obowiązki dotyczące przyjęcia ładunku. Nie powinien odmawiać przyjęcia bez ważnego powodu ani bez potrzeby opóźniać wykonania obowiązków po rozładunku.
+
+**Sytuacja do rozwiązania:** Odbiorca towaru ADR chce odmówić przyjęcia przesyłki wyłącznie z powodu wygody, mimo braku ważnego powodu. Jaką zasadę wskazuje ADR?
+
+**Prawidłowy kierunek działania:** Nie odmawiać bez ważnego powodu ani nie opóźniać czynności po rozładunku Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0118`; **podstawa do sprawdzenia:** 1.4.2.3.
+
+### Pakujący, napełniający i rozładowca (ADR-B-07-K05)
+
+**Dlaczego to ważne:** Pakujący decyduje o przygotowaniu towarów do umieszczenia w opakowaniach, dlatego odpowiada za przestrzeganie zasad pakowania, w tym pakowania razem, jeśli ma ono zastosowanie. Nie można przerzucać tej czynności wyłącznie na odbiorcę po rozładunku ani na kierowcę podczas jazdy.
+
+**Sytuacja do rozwiązania:** Kto odpowiada za spełnienie wymagań pakowania i wspólnego pakowania w ADR 1.4.3.2?
+
+**Prawidłowy kierunek działania:** Pakujący, który odpowiada za stosowanie zasad pakowania i pakowania razem Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0134`; **podstawa do sprawdzenia:** 1.4.3.
+
+### Kierowca/załoga: obowiązki w drodze (ADR-B-07-K06)
+
+**Dlaczego to ważne:** Przy przewozach objętych zasadą ADR 8.3.1 w jednostce transportowej mogą przebywać członkowie załogi, ale nie przypadkowi pasażerowie. Obecność dodatkowej osoby zwiększałaby liczbę ludzi narażonych podczas zdarzenia.
+
+**Sytuacja do rozwiązania:** Czy jednostka transportowa przewożąca ADR na zasadach 8.3.1 może zabrać pasażera niebędącego członkiem załogi?
+
+**Prawidłowy kierunek działania:** Nie; zakaz dotyczy osób spoza załogi także na krótkim odcinku przewozu ADR Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0136`; **podstawa do sprawdzenia:** 8.1–8.5.
+
+### Podstawowe rozróżnienie odpowiedzialności cywilnej za szkodę i za niewykonanie zobowiązania (ADR-B-07-K07)
+
+**Dlaczego to ważne:** Odpowiedzialność cywilna może oznaczać obowiązek naprawienia szkody, gdy ktoś ze swojej winy wyrządzi ją drugiej osobie. Nie oznacza to, że każda kolizja automatycznie przesądza o winie kierowcy; trzeba ustalić okoliczności i podstawę odpowiedzialności.
+
+**Sytuacja do rozwiązania:** Kierowca podczas manewru na placu przez własną nieuwagę uszkodził zaparkowany samochód. Co ogólnie może wynikać z odpowiedzialności cywilnej?
+
+**Prawidłowy kierunek działania:** Może powstać obowiązek naprawienia szkody, jeśli spełniono przesłanki odpowiedzialności. Nie wybieraj odpowiedzi tylko dlatego, że brzmi fachowo — powiedz, jakie zagrożenie lub obowiązek za nią stoi.
+
+**Pytanie:** `ADR-B-0567`; **podstawa do sprawdzenia:** ADR 8.2.2.3.2(k); Kodeks cywilny art. 415, 471.
+
+### Przećwicz bezpieczną decyzję
+
+Wybierz scenariusz dla działu ADR-B-07 w [mapie ćwiczeń](../praktyka/scenariusze-13-dzialow.json). Opisz kolejno: jakie masz dane, co zrobisz jako pierwsze, czego nie zrobisz nawet pod presją czasu i skąd wiesz, że możesz bezpiecznie kontynuować. Przy awarii najpierw liczy się bezpieczeństwo ludzi.
+
+**Status:** `needs_review`; weryfikacja pełnego polskiego ADR 2025 i niezależna ocena specjalisty pozostają otwarte.
+ 
