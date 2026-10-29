@@ -86,7 +86,7 @@
           "C": "Pominąć kody, jeśli towary jadą na jednym dokumencie"
         },
         "correct_option": "B",
-        "explanation": "Gdy przewożone towary mają różne kody tunelowe, nie wybiera się kodu według masy ładunku ani nie pomija go dlatego, że wszystko wpisano do jednego dokumentu. Trzeba ustalić najbardziej restrykcyjny kod, który ma zastosowanie do tej jednostki transportowej, i uwzględnić przewidziane wyjątki. Podstawa: ADR 8.6.3.2.",
+        "explanation": "Gdy na jednym pojeździe jadą towary o różnych kodach tunelowych, trzeba uwzględnić najbardziej restrykcyjny z mających zastosowanie kodów. Najmniejsza masa nie decyduje o wyborze kodu, a wspólny dokument przewozowy nie usuwa ograniczenia. Zanim zaplanujesz trasę, porównaj wymagania dla wszystkich przewożonych towarów. Podstawa: ADR 8.6.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
