@@ -202,7 +202,7 @@ Przeczytaj, jakie pytanie zada sobie kierowca w zwykłej sytuacji służbowej. N
 
 **Prostym językiem:** Uczestnicy przewozu powinni upewnić się, że przekazują towary niebezpieczne właściwemu, zidentyfikowanemu odbiorcy lub przewoźnikowi. Weryfikacja tożsamości ogranicza ryzyko kradzieży i nieuprawnionego przejęcia ładunku.
 
-**Sytuacja:** Nadawca chce przekazać towary niebezpieczne firmie przewozowej, której tożsamości nie zweryfikowano. Co wynika z ADR 1.10.1.2?
+**Sytuacja:** [Nadawca](../SLOWNICZEK.md#nadawca), czyli osoba lub firma nadająca towar do przewozu, chce przekazać towary niebezpieczne firmie przewozowej, której tożsamości nie zweryfikowano. Co wynika z ADR 1.10.1.2?
 
 **Poprawny kierunek:** Przekazać towar tylko przewoźnikowi o sprawdzonej tożsamości. Zwróć uwagę, jakich informacji zabrakłoby przy pochopnej decyzji i kogo należałoby zapytać, zanim ruszysz dalej.
 
