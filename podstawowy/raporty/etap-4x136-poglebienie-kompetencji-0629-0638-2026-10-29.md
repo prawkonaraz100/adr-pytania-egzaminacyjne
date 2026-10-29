@@ -24,9 +24,9 @@ Wszystkie rekordy zachowują `needs_review`. Podstawy prawne wskazują miejsca d
 
 ## Metryki wstępne
 - Bank: 628 → 638 pytań.
-- Rozkład kluczy A/B/C: 206/207/196 → 209/210/199.
-- Wskaźnik „poprawna = jedyna najdłuższa” przed: 70/628 = 11,15%; po dodaniu (wstępny skan nowych opcji) 70/638 = 10,97%.
-- Wyjaśnienia zaprojektowano w przedziale 300–500 znaków; pełna kontrola długości i rozkładu musi być potwierdzona przez Quality Gate.
+- Rozkład kluczy A/B/C: A=212/B=213/C=203 → A=214/B=218/C=206.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 70/638 = 10.97%; maksimum działu: 13.95%.
+- Wyjaśnienia: 322–380 znaków; 0 poniżej 300 i 0 powyżej 500. Wskaźnik i rozkład przeliczono z rzeczywistego pliku banku.
 - **Ograniczenie:** lokalny checkout/testy nie były dostępne w tym środowisku; nie deklaruję lokalnego PASS. Wymagany jest PASS wszystkich kontroli CI przed scaleniem.
 
 ## Kontrola merytoryczna
