@@ -1,17 +1,17 @@
 # ADR podstawowy — aktualne pokrycie kursu
 
-**Kontrola mapy odświeżona w etapie 4x153: 29.10.2026.** Bank ma 639 pytań; raport [luki kompetencji i pytania ADR-B-0639](../podstawowy/raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md) opisuje nowe powiązanie. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
+**Kontrola mapy odświeżona w etapie 4x154: 29.10.2026.** Bank ma 645 pytań; raport [luki praktyczne i pytania ADR-B-0640–0645](../podstawowy/raporty/etap-4x154-luki-praktyczne-0640-0645-2026-10-29.md) opisuje nowe powiązania. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
 
-**Stan aktualny po etapie 4x153: 29.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
+**Stan aktualny po etapie 4x154: 29.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
 
 ## Co naprawdę zostało ukończone?
 
-- **639 autorskich pytań** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **639 needs_review / 0 verified**.
+- **645 autorskich pytań** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **645 needs_review / 0 verified**.
 - **104/104 kompetencji teoretycznych** ma co najmniej dwa pytania robocze. **0/104** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
-- Rozkład prawidłowych opcji: A=218, B=216, C=205.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **70/639 = 10,95%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
+- Rozkład prawidłowych opcji: A=218, B=218, C=209.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/645 = 11,16%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
 - [Audyt 4w](../podstawowy/raporty/etap-4w-program-13-dzialow-mapa-luk.md) dokumentuje wszystkie 107 kompetencji i ID; [kontrola 13 lekcji](../podstawowy/raporty/etap-4w-przeglad-13-lekcji-odsylacze.md) usunęła błędny skrót zakresu w B-09. Dane liczbowe dotyczą bieżącego banku, natomiast niższe sekcje dokumentu zachowują historię poprzednich etapów.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
 
@@ -25,7 +25,7 @@
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 63 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 49 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 48 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 42 | 0 | Lekcja + mapa pytań |
@@ -34,7 +34,7 @@
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **639** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **645** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
@@ -175,4 +175,4 @@ Audyt i uzupełnienie: [raport scenariuszy 13 działów](../podstawowy/raporty/e
 
 ## Aktualizacja odbiorcza 4x138 (29.10.2026)
 
-Po PR #600–#605 potwierdzono na źródłach repo: **639** pytań `needs_review`, **107** kompetencji wewnętrznej mapy (104 teoria, 3 praktyka), **39** scenariuszy (po 3/dział) i **13/13** lekcji z celami, typowymi błędami, scenariuszem, odsyłaczami do pytań i podstawami ADR. Pięć wariantów próbnych 001–005 zawiera po 30 pytań; każdy obejmuje wszystkie 13 działów, ma rozkład A/B/C **10/10/10** i zgodny z bieżącym bankiem klucz. Łącznie 150 unikalnych pytań, bez duplikatów między wariantami. **Nie przeprowadzono niezależnej prawnej akceptacji**; test techniczny nie zastępuje recenzji specjalisty. Szczegóły: [raport 4x138](../podstawowy/raporty/etap-4x138-audyt-zbiorczy-egzaminy-lekcje-2026-10-29.md). Kontrola automatyczna wyjaśnień: 639/639 o długości 300–500 znaków i 2–5 zdań według prostego segmentatora; osobna ocena jakości językowej pozostaje do wykonania.
+Po PR #600–#605 potwierdzono na źródłach repo: **639** pytań `needs_review`, **107** kompetencji wewnętrznej mapy (104 teoria, 3 praktyka), **39** scenariuszy (po 3/dział) i **13/13** lekcji z celami, typowymi błędami, scenariuszem, odsyłaczami do pytań i podstawami ADR. Pięć wariantów próbnych 001–005 zawiera po 30 pytań; każdy obejmuje wszystkie 13 działów, ma rozkład A/B/C **10/10/10** i zgodny z bieżącym bankiem klucz. Łącznie 150 unikalnych pytań, bez duplikatów między wariantami. **Nie przeprowadzono niezależnej prawnej akceptacji**; test techniczny nie zastępuje recenzji specjalisty. Szczegóły: [raport 4x138](../podstawowy/raporty/etap-4x138-audyt-zbiorczy-egzaminy-lekcje-2026-10-29.md). Kontrola automatyczna wyjaśnień: 645/645 o długości 300–500 znaków i 2–5 zdań według prostego segmentatora; osobna ocena jakości językowej pozostaje do wykonania.

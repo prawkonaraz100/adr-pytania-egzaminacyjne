@@ -35,9 +35,9 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteri
 | ADR-B-05-K10 | Kamizelka i znaki ostrzegawcze | 5.4.3.4 | 3 |
 | ADR-B-05-K11 | Ocena bezpieczeństwa udzielania pierwszej pomocy | 5.4.3.4; program praktyczny | 3 |
 | ADR-B-05-K12 | Mocowanie/dostępność gaśnic | 8.1.4.5 | 3 |
-| ADR-B-05-K13 | Praktyczne używanie gaśnicy (instruktaż) | program praktyczny, zał. 1 | 0 |
-| ADR-B-05-K14 | Praktyczne czynności pierwszej pomocy (instruktaż) | program praktyczny, zał. 1 | 0 |
-| ADR-B-05-K15 | Praktyczny scenariusz wypadku/awarii | program praktyczny, zał. 1 | 0 |
+| ADR-B-05-K13 | Praktyczne używanie gaśnicy (instruktaż) | program praktyczny, zał. 1; ADR 5.4.3.4 | 2 |
+| ADR-B-05-K14 | Praktyczne czynności pierwszej pomocy (instruktaż) | program praktyczny, zał. 1; ADR 5.4.3.4 (bezpieczne warunki działania) | 2 |
+| ADR-B-05-K15 | Praktyczny scenariusz wypadku/awarii | program praktyczny, zał. 1; ADR 5.4.3.4 | 2 |
 
 ### Przebieg 45 minut teorii
 
@@ -142,8 +142,8 @@ Prowadź kursanta od oceny bezpieczeństwa miejsca do alarmowania i przekazania 
 - `SC-ADR-B-05-02` — awaria na poboczu: pierwsze decyzje kierowcy.
 - `SC-ADR-B-05-03` — pożar przy przestrzeni ładunkowej.
 
-Pytania kontrolne: `ADR-B-0013`, `ADR-B-0015`, `ADR-B-0169`, `ADR-B-0220`, `ADR-B-0222`, `ADR-B-0232`, `ADR-B-0585`, `ADR-B-0593`, `ADR-B-0594`. Błędy do omówienia: próba ustalenia substancji po zapachu, narażenie siebie przy ratowaniu dokumentów oraz przekonanie, że każdą sytuację można rozwiązać gaśnicą.
+Pytania kontrolne: `ADR-B-0013`, `ADR-B-0015`, `ADR-B-0169`, `ADR-B-0220`, `ADR-B-0222`, `ADR-B-0232`, `ADR-B-0585`, `ADR-B-0593`, `ADR-B-0594`, `ADR-B-0640`–`ADR-B-0645`. Błędy do omówienia: próba ustalenia substancji po zapachu, narażenie siebie przy ratowaniu dokumentów oraz przekonanie, że każdą sytuację można rozwiązać gaśnicą.
 
 
 ### Scenariusz SC-ADR-B-05, SC-ADR-B-05-02 i SC-ADR-B-05-03 — awaria i ratownicy
-Ćwicz sekwencję: bezpieczeństwo własne, ostrzeżenie osób postronnych, przekazanie ratownikom dostępnych informacji i unikanie kontaktu z nieznaną substancją. Nie wymagaj od kursanta wejścia w strefę zagrożenia. Pytania: ADR-B-0630–0633. Podstawy do sprawdzenia: ADR 5.4.3.4 i 8.1.5.2.
+Ćwicz sekwencję: bezpieczeństwo własne, ostrzeżenie osób postronnych, przekazanie ratownikom dostępnych informacji i unikanie kontaktu z nieznaną substancją. Nie wymagaj od kursanta wejścia w strefę zagrożenia. Pytania: ADR-B-0630–0633 i ADR-B-0640–0645. Nowe pytania sprawdzają granice bezpiecznego działania; nie zastępują rzeczywistego instruktażu gaśnicy ani pierwszej pomocy. Podstawy do sprawdzenia: ADR 5.4.3.4 i 8.1.4.

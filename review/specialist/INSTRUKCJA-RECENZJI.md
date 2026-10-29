@@ -1,11 +1,17 @@
-## Bieżąca migawka — etap 4x137 (29.10.2026)
+## Bieżąca migawka — etap 4x154 (29.10.2026)
+
+- Bank: 645 pytań `needs_review`, 0 `verified`; blob SHA `04368d6c14cd1acb82d26319ce5a6c90866ecd66`.
+- Raport: `podstawowy/raporty/etap-4x154-luki-praktyczne-0640-0645-2026-10-29.md`.
+- Audyt A/B/C i wyjaśnień ADR-B-0640–0645 przygotowany; pełne literalne porównanie i niezależna recenzja pozostają otwarte.
+
+## Historyczna migawka — etap 4x137 (29.10.2026)
 
 - Bank bez zmian: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 - Raport etapu: `podstawowy/raporty/etap-4x137-scenariusze-praktyczne-2026-10-29.md`.
 - Dopracowano istniejące scenariusze SC-ADR-B-03-03, SC-ADR-B-05/05-02/05-03, SC-ADR-B-06/06-02/06-03 i SC-ADR-B-09, wiążąc je z pytaniami ADR-B-0629–0638.
 - Mapa ma nadal 39 scenariuszy, po 3 na każdy z 13 działów; nowe statusy prawne nie zostały zatwierdzone.
 
-## Bieżąca migawka — etap 4x136 (29.10.2026)
+## Historyczna migawka — etap 4x136 (29.10.2026)
 
 - Bank: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 - Raport: `podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md`.

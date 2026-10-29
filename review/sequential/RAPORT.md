@@ -100,3 +100,7 @@ Najważniejsze źródła dla obecnego etapu:
 ## Aktualizacja bieżącego banku — etap 4x153 (29.10.2026)
 
 Bank zawiera obecnie 639 pytań (`ADR-B-0001`–`ADR-B-0639`). Po dodaniu ADR-B-0639 partia `review/sequential/629-639.json` obejmuje 11 rekordów z aktualnymi snapshotami. Analogiczny zakres `review/legal-clauses/629-639.json` ma 639 wpisów łącznie w przeglądzie prawnym. Skrypty sprawdzają świeżość snapshotów i kompletność audytu; nie potwierdzają zgodności prawnej ani zatwierdzenia specjalisty. Wszystkie rekordy pozostają `needs_review`.
+
+## Aktualizacja bieżącego banku — etap 4x154 (29.10.2026)
+
+Bank zawiera 645 pytań (`ADR-B-0001`–`ADR-B-0645`), wszystkie `needs_review`. Partia `review/sequential/629-645.json` zawiera 17 snapshotów dla zakresu 0629–0645, a `review/legal-clauses/629-645.json` zawiera indywidualne wstępne uzasadnienia A/B/C dla tego zakresu. Dla ADR-B-0640–0645 zapisano wskazania ADR 5.4.3.4 oraz 8.1.4 dla gaśnic. To nie jest pełne literalne porównanie polskiego aktu ani niezależna recenzja eksperta.

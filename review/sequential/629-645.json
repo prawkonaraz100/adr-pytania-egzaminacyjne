@@ -1,5 +1,5 @@
 {
-  "batch": "629-639",
+  "batch": "629-645",
   "date": "2026-10-29",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
@@ -421,6 +421,240 @@
       "review_outcome": "editorial_first_pass_only_not_legally_approved",
       "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
       "expert_review_priority": "manual_attention"
+    },
+    {
+      "id": "ADR-B-0640",
+      "sequence": 640,
+      "exact_record_snapshot": {
+        "stem": "Podczas jazdy zauważasz mały pożar w komorze silnika. Ogień jest na razie ograniczony, a możesz bezpiecznie użyć gaśnicy i wycofać się. Jak postępujesz?",
+        "options": {
+          "A": "Zawsze gasić pożar samodzielnie, nawet gdy ogień szybko się rozprzestrzenia lub droga odwrotu jest zagrożona.",
+          "B": "Nie używać gaśnicy przy pożarze pojazdu; od razu odejść bez oceny sytuacji i alarmowania służb.",
+          "C": "Tylko jeśli pożar jest mały, działanie bezpieczne i zgodne z instrukcją pisemną, użyć gaśnicy."
+        },
+        "correct_option": "C",
+        "explanation": "Gaśnicy można użyć do małego, początkowego pożaru opon, hamulców lub komory silnika tylko wtedy, gdy jest to właściwe i bezpieczne. Nie wolno ryzykować uwięzienia przez ogień ani zwlekać z wezwaniem pomocy. Odpowiedzi A i B są skrajne: jedna nakazuje ryzykować, druga wyklucza dopuszczone działanie. Podstawa: ADR 5.4.3.4; wymagania dotyczące gaśnic określa 8.1.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4; 8.1.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "question_status": "needs_review",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "expert_review_priority": "manual_attention",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    },
+    {
+      "id": "ADR-B-0641",
+      "sequence": 641,
+      "exact_record_snapshot": {
+        "stem": "W przestrzeni ładunkowej pojazdu przewożącego towary niebezpieczne pojawił się ogień. Co powinien zrobić kierowca?",
+        "options": {
+          "A": "Podjąć próbę gaszenia ładowni gaśnicą, jeśli ogień wydaje się niewielki i nie ma dymu.",
+          "B": "Odejść od pożaru ładowni, ostrzec innych i wykonać instrukcje służb; nie próbować go gasić.",
+          "C": "Otworzyć przestrzeń ładunkową, ocenić pożar z bliska i dopiero wtedy wybrać działanie."
+        },
+        "correct_option": "B",
+        "explanation": "Załoga nie może podejmować próby gaszenia pożaru w przestrzeni ładunkowej. Należy oddalić się, ostrzec inne osoby i postępować zgodnie z instrukcjami pisemnymi oraz poleceniami służb. Odpowiedzi A i C narażają kierowcę na ogień, dym i kontakt z towarem; pozornie mały pożar nie zmienia zasady. Podstawa: ADR 5.4.3.4, wzór instrukcji pisemnych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "question_status": "needs_review",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "expert_review_priority": "manual_attention",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    },
+    {
+      "id": "ADR-B-0642",
+      "sequence": 642,
+      "exact_record_snapshot": {
+        "stem": "Po wypadku widzisz poszkodowaną osobę obok nieznanej cieczy, która wyciekła z przesyłki. Co jest właściwym pierwszym krokiem przed próbą pomocy?",
+        "options": {
+          "A": "Podejść przez rozlew i od razu chwycić poszkodowanego, bo udzielenie pomocy zawsze ma pierwszeństwo przed oceną zagrożenia.",
+          "B": "Zostać w miejscu i czekać bez ostrzegania innych, aż ktoś sam ustali, jaka substancja wyciekła.",
+          "C": "Nie wchodzić w rozlew; ostrzec służby, unikać kontaktu i postępować według instrukcji bezpieczeństwa."
+        },
+        "correct_option": "C",
+        "explanation": "Pomoc musi być udzielana bez tworzenia kolejnych poszkodowanych. Nie wchodź w rozlew ani nie dotykaj nieznanej substancji; ostrzeż służby i stosuj instrukcje, a do poszkodowanego zbliżaj się tylko wtedy, gdy jest to bezpieczne. A pomija zagrożenie dla ratownika, a B nie przewiduje alarmowania. Podstawa: ADR 5.4.3.4, instrukcje pisemne na wypadek awarii.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "question_status": "needs_review",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "expert_review_priority": "manual_attention",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    },
+    {
+      "id": "ADR-B-0643",
+      "sequence": 643,
+      "exact_record_snapshot": {
+        "stem": "Po incydencie kierowca zauważa, że jego odzież mogła zostać zabrudzona nieznaną substancją. Jak powinien ograniczyć dalsze zagrożenie?",
+        "options": {
+          "A": "Natychmiast zdjąć odzież gołymi rękami w kabinie, schować ją do bagażu i kontynuować jazdę bez zgłaszania zdarzenia.",
+          "B": "Zmyć substancję przypadkowym środkiem, nie sprawdzając instrukcji ani nie informując ratowników.",
+          "C": "Unikać kontaktu z zanieczyszczoną odzieżą, oddalić się i stosować instrukcje oraz polecenia ratowników."
+        },
+        "correct_option": "C",
+        "explanation": "Nieznana substancja może przenieść się na skórę, inne osoby lub wnętrze pojazdu. Unikaj dotykania zabrudzonej odzieży i stosuj instrukcje bezpieczeństwa oraz wskazówki ratowników; nie czyść jej przypadkowym środkiem. A i B mogą roznieść skażenie albo zwiększyć kontakt z substancją. Podstawa: ADR 5.4.3.4, instrukcje pisemne.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "question_status": "needs_review",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "expert_review_priority": "manual_attention",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    },
+    {
+      "id": "ADR-B-0644",
+      "sequence": 644,
+      "exact_record_snapshot": {
+        "stem": "Po uszkodzeniu przesyłki ciecz może dostać się do kratki kanalizacyjnej. Na wyposażeniu jest sprzęt do ograniczania rozlewów. Co należy zrobić?",
+        "options": {
+          "A": "Podejść bez ochrony, dotknąć cieczy i zatkać odpływ przypadkowym materiałem, niezależnie od zagrożenia.",
+          "B": "Jeśli jest to bezpieczne, użyć dostępnego wyposażenia do ochrony kanalizacji; w przeciwnym razie oddalić się i ostrzec służby.",
+          "C": "Pozostawić wyciek bez ostrzeżenia, ponieważ zabezpieczenie kanalizacji należy wyłącznie do straży pożarnej."
+        },
+        "correct_option": "B",
+        "explanation": "Jeżeli można to zrobić bezpiecznie, załoga powinna użyć dostępnego wyposażenia, by ograniczyć przedostanie się rozlewu do kanalizacji lub środowiska wodnego. Jeśli grozi to kontaktem z substancją, oddal się i ostrzeż służby zamiast działać za wszelką cenę. A naraża kierowcę, a C pomija możliwe bezpieczne działanie. Podstawa: ADR 5.4.3.4, instrukcje pisemne.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "question_status": "needs_review",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "expert_review_priority": "manual_attention",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    },
+    {
+      "id": "ADR-B-0645",
+      "sequence": 645,
+      "exact_record_snapshot": {
+        "stem": "Po zdarzeniu drogowym z udziałem towaru niebezpiecznego sytuacja pozwala kierowcy bezpiecznie zatrzymać pojazd i opuścić kabinę. Który sposób działania jest właściwy?",
+        "options": {
+          "A": "Najpierw podejść do ładunku i ustalić zapach substancji, a potem zadzwonić po pomoc, jeśli pojawią się objawy zagrożenia.",
+          "B": "Włączyć światła, kontynuować jazdę do miejsca dostawy i dopiero tam poinformować dyspozytora, żeby nie blokować drogi.",
+          "C": "Zatrzymać pojazd, unikać źródeł zapłonu, alarmować służby i udostępnić dokumenty, gdy to bezpieczne."
+        },
+        "correct_option": "C",
+        "explanation": "Po zdarzeniu trzeba najpierw ograniczyć ryzyko: bezpiecznie zatrzymać pojazd, unikać źródeł zapłonu i powiadomić właściwe służby. Dokumenty przewozowe powinny być dostępne dla ratowników, ale nie wolno narażać się, by je zdobyć. A zachęca do wąchania substancji, a B do kontynuowania przewozu bez oceny zagrożenia. Podstawa: ADR 5.4.3.4, instrukcje pisemne.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "question_status": "needs_review",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "expert_review_priority": "manual_attention",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
     }
   ]
 }
