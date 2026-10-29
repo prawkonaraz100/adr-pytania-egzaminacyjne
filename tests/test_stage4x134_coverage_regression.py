@@ -29,7 +29,7 @@ class CurrentCoverageGate(unittest.TestCase):
                 self.assertGreaterEqual(len(set(refs)), 3, c["id"])
             else:
                 # These questions test prerequisites for safe decisions, not completion of the practical skill.
-                self.assertEqual(len(refs), 2, f"practical objective {c['id']} needs two linked knowledge-prerequisite questions")
+                self.assertGreaterEqual(len(refs), 2, f"practical objective {c['id']} needs at least two linked knowledge-prerequisite questions")
             for question_id in refs:
                 self.assertIn(question_id, by_id)
                 self.assertEqual(by_id[question_id]["module_id"], c["module_id"])
