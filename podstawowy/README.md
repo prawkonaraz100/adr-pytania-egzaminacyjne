@@ -20,6 +20,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x137 — dopracowanie scenariuszy praktycznych](raporty/etap-4x137-scenariusze-praktyczne-2026-10-29.md)
 - [Etap 4x136 — pogłębienie kompetencji 0629–0638](raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md)
 - [Etap 4x135 — kontynuacja 0621–0628](raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md)
 - [Etap 4x135 — audyt głębokości kompetencji 0610–0620](raporty/etap-4x135-audyt-kompetencji-0610-0620-2026-10-28.md)
