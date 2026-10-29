@@ -2,6 +2,11 @@
 
 ## Ostatnia kontrola jakości
 
+- [Etap 4x153 — luka kompetencji i pytanie ADR-B-0639](raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md): uzupełniono najmniej pokrytą kompetencję teoretyczną ADR-B-01-K01; wszystkie snapshoty i referencje banku zsynchronizowane.
+- [Etap 4x152 — audyt referencji banku](raporty/etap-4x152-audyt-referencji-banku-2026-10-29.md): 10/10 plików egzaminów wskazywało aktualny blob; poprawiono manifest specjalisty.
+- [Etap 4x151 — zbiorcze podsumowanie explanation 0001–0638](raporty/etap-4x151-podsumowanie-explanation-0001-0638-2026-10-29.md): 5 wyjaśnień przepisanych w etapach 4x139–4x150.
+- [Etap 4x150 — przegląd explanation 0582–0638](raporty/etap-4x150-explanation-0582-0638-2026-10-29.md): 57 wyjaśnień bez zmian.
+
 - [Etap 4x137 — scenariusze praktyczne](raporty/etap-4x137-scenariusze-praktyczne-2026-10-29.md): 4 scenariusze dopracowane i powiązania z pytaniami 0629–0638.
 - [Etap 4x136 — pogłębienie kompetencji 0629–0638](raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md): 10 nowych pytań sytuacyjnych; bank 638 pytań.
 - [Etap 4x135 — kontynuacja pogłębienia kompetencji 0621–0628](raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md): poprzednia partia 8 pytań.
@@ -11,7 +16,7 @@
 - [Etap 4x132 — pakiet recenzyjny i instrukcja egzaminu](raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md): odświeżono listę kontrolną specjalisty i dodano instrukcję do egzaminu próbnego.
 - [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md): przejrzano pytania ADR-B-0586–0609; poprawiono jedną niespójność redakcyjną; 39 scenariuszy i 13 lekcji bez brakujących/błędnych referencji.
 
-**Stan na 29.10.2026, etap 4x137: 638 pytań roboczych; 638 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 70/638 = 10,97% (maksimum działu 13,95%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 29.10.2026, etap 4x153: 639 pytań roboczych; 639 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 70/639 = 10,95% (maksimum działu 13,95%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -20,6 +25,10 @@
 
 ## Raporty jakości
 
+- [Etap 4x153 — luka kompetencji i pytanie ADR-B-0639](raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md)
+- [Etap 4x152 — audyt referencji banku](raporty/etap-4x152-audyt-referencji-banku-2026-10-29.md)
+- [Etap 4x151 — podsumowanie explanation 0001–0638](raporty/etap-4x151-podsumowanie-explanation-0001-0638-2026-10-29.md)
+- [Etap 4x150 — przegląd explanation 0582–0638](raporty/etap-4x150-explanation-0582-0638-2026-10-29.md)
 - [Etap 4x137 — dopracowanie scenariuszy praktycznych](raporty/etap-4x137-scenariusze-praktyczne-2026-10-29.md)
 - [Etap 4x136 — pogłębienie kompetencji 0629–0638](raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md)
 - [Etap 4x135 — kontynuacja 0621–0628](raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md)
