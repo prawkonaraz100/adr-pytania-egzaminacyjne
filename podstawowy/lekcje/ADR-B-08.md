@@ -257,7 +257,7 @@ Czytaj temat jak sytuację z pracy: najpierw rozpoznaj zagrożenie, potem wybier
 
 ### Wyposażenie techniczne i wymagania pojazdu (ADR-B-08-K08)
 
-**Dlaczego to ważne:** Nie każdy pojazd ADR wymaga świadectwa dopuszczenia z części 9. EX/II i EX/III to typy pojazdów do określonych materiałów wybuchowych; FL i AT to kategorie pojazdów przeznaczonych do określonych przewozów cysternowych.
+**Dlaczego to ważne:** Nie każdy pojazd ADR wymaga świadectwa dopuszczenia z części 9. [EX/II i EX/III](../SLOWNICZEK.md#ex-ii-i-ex-iii) to typy pojazdów do określonych materiałów wybuchowych; [FL](../SLOWNICZEK.md#pojazd-fl) i [AT](../SLOWNICZEK.md#pojazd-at) to kategorie pojazdów przeznaczonych do określonych przewozów cysternowych.
 
 **Sytuacja do rozwiązania:** Które typy pojazdów mogą wymagać świadectwa dopuszczenia ADR zgodnie z częścią 9?
 
