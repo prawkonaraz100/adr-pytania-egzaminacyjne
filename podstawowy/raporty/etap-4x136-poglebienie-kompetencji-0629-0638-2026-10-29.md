@@ -24,7 +24,7 @@ Wszystkie rekordy zachowują `needs_review`. Podstawy prawne wskazują miejsca d
 
 ## Metryki wstępne
 - Bank: 628 → 638 pytań.
-- Rozkład kluczy A/B/C: A=212/B=213/C=203 → A=214/B=218/C=206.
+- Rozkład kluczy A/B/C po dodaniu: A=217/B=216/C=205.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 70/638 = 10.97%; maksimum działu: 13.95%.
 - Wyjaśnienia: 322–380 znaków; 0 poniżej 300 i 0 powyżej 500. Wskaźnik i rozkład przeliczono z rzeczywistego pliku banku.
 - **Ograniczenie:** lokalny checkout/testy nie były dostępne w tym środowisku; nie deklaruję lokalnego PASS. Wymagany jest PASS wszystkich kontroli CI przed scaleniem.
