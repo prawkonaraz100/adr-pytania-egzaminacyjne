@@ -204,3 +204,154 @@ Scenariusz mapowy: SC-ADR-B-02 w pliku [scenariuszy praktycznych](../praktyka/sc
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status materiału i pytań: needs_review; opisy nalepek i szczegółowe podstawy wymagają niezależnej kontroli.
+
+## Uzupełnienie 4x138 — kompetencje krok po kroku
+
+Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw przeczytaj omówienie, a potem rozwiąż wskazane pytanie. Sam numer przepisu nie zastępuje sprawdzenia warunków przewozu.
+
+### Klasa 1: materiały i przedmioty wybuchowe (rozpoznawanie) (ADR-B-02-K01)
+
+**Co to znaczy w praktyce:** Podklasa 1.1 oznacza zagrożenie wybuchem masowym, czyli takim, który może objąć praktycznie cały ładunek niemal jednocześnie. To inne niebezpieczeństwo niż żrące działanie substancji lub wydzielanie palnego gazu po kontakcie z wodą. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Co oznacza podklasa 1.1 materiałów i przedmiotów wybuchowych?
+
+**Jak rozumować:** Zagrożenie wybuchem masowym, mogącym objąć niemal cały ładunek To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0126`. **Podstawa do kontroli:** ADR 2.2.1.
+ 
+### Klasa 2: gazy (ADR-B-02-K02)
+
+**Co to znaczy w praktyce:** Klasa 2 obejmuje gazy, które mogą stwarzać różne zagrożenia, na przykład palność, toksyczność lub zagrożenia związane z ciśnieniem. Klasa 3 dotyczy cieczy zapalnych, a klasa 8 materiałów żrących, więc nie są to właściwe odpowiedzi na pytanie o klasę gazów. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Do której klasy ADR zalicza się gazy?
+
+**Jak rozumować:** Klasy 2 To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0042`. **Podstawa do kontroli:** ADR 2.2.2.
+ 
+### Klasa 3: materiały ciekłe zapalne (ADR-B-02-K03)
+
+**Co to znaczy w praktyce:** Benzyna jest cieczą, której pary mogą się zapalić, dlatego zalicza się ją do klasy 3 — cieczy zapalnych. Klasa 8 dotyczy działania żrącego, a 6.2 materiałów zakaźnych, więc opisują inne zagrożenia. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Do której klasy ADR należą materiały ciekłe zapalne, takie jak benzyna?
+
+**Jak rozumować:** Klasa 3 To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0004`. **Podstawa do kontroli:** ADR 2.2.3.
+ 
+### Klasa 4.1: materiały stałe zapalne (ADR-B-02-K04)
+
+**Co to znaczy w praktyce:** Materiały stałe zapalne zalicza się do klasy 4.1, ponieważ mogą łatwo się zapalać w warunkach określonych w ADR. Klasa 4.2 dotyczy między innymi materiałów samonagrzewających się, a 4.3 tych, które w kontakcie z wodą wydzielają gazy palne. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Która klasa ADR obejmuje materiały stałe zapalne?
+
+**Jak rozumować:** 4.1 To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0094`. **Podstawa do kontroli:** ADR 2.2.41.
+ 
+### Klasa 4.2: materiały samonagrzewające się / samozapalne (ADR-B-02-K05)
+
+**Co to znaczy w praktyce:** Klasa 4.2 obejmuje materiały, które mogą samoczynnie się zapalać albo niebezpiecznie nagrzewać bez typowego zewnętrznego źródła zapłonu. Nie należy ich mylić z innymi materiałami stałymi zapalnymi klasy 4.1 ani nadtlenkami organicznymi klasy 5.2. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Która klasa ADR dotyczy materiałów zdolnych do samozapalenia?
+
+**Jak rozumować:** 4.2 To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0095`. **Podstawa do kontroli:** ADR 2.2.42.
+ 
+### Klasa 4.3: reagujące z wodą (ADR-B-02-K06)
+
+**Co to znaczy w praktyce:** Klasa 4.3 obejmuje materiały, które w kontakcie z wodą wydzielają gazy palne. Nie oznacza to, że są to zawsze gazy pod ciśnieniem ani wyłącznie ciecze żrące. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Która cecha jest charakterystyczna dla materiałów klasy 4.3 ADR?
+
+**Jak rozumować:** W kontakcie z wodą wydzielają gazy palne To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0006`. **Podstawa do kontroli:** ADR 2.2.43.
+ 
+### Klasa 5.1: materiały utleniające (ADR-B-02-K07)
+
+**Co to znaczy w praktyce:** Klasa 5.1 obejmuje materiały utleniające, które mogą nasilać pożar. Nie oznacza to, że są promieniotwórcze ani że wszystkie mają silne właściwości żrące niezależnie od działania utleniającego. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Co jest głównym zagrożeniem materiałów klasy 5.1?
+
+**Jak rozumować:** Właściwości utleniające, mogące nasilać pożar To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0044`. **Podstawa do kontroli:** ADR 2.2.51.
+ 
+### Klasa 5.2: nadtlenki organiczne (ADR-B-02-K08)
+
+**Co to znaczy w praktyce:** Nadtlenki organiczne należą do klasy 5.2, ponieważ mogą ulegać niebezpiecznemu rozkładowi i wymagają szczególnej ostrożności. Klasa 5.1 dotyczy innych materiałów utleniających, a 6.1 materiałów trujących. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Do której klasy ADR zalicza się nadtlenki organiczne?
+
+**Jak rozumować:** 5.2 To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0096`. **Podstawa do kontroli:** ADR 2.2.52.
+ 
+### Klasa 6.1: materiały trujące (ADR-B-02-K09)
+
+**Co to znaczy w praktyce:** Klasa 6.1 obejmuje materiały trujące, które mogą zaszkodzić człowiekowi między innymi po wdychaniu, połknięciu lub kontakcie z organizmem. Klasa 6.2 dotyczy materiałów zakaźnych, a klasa 8 — materiałów żrących, więc opisują inne rodzaje zagrożenia. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Która klasa ADR oznacza materiały trujące?
+
+**Jak rozumować:** 6.1 To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0097`. **Podstawa do kontroli:** ADR 2.2.61.
+ 
+### Klasa 6.2: materiały zakaźne (ADR-B-02-K10)
+
+**Co to znaczy w praktyce:** Materiały zakaźne mogą zawierać drobnoustroje wywołujące choroby, dlatego w ADR mają własną klasę 6.2. Nie należy mylić jej z klasą 6.1, która dotyczy działania trującego, ani z klasą 4.2. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Jaka klasa ADR dotyczy materiałów zakaźnych?
+
+**Jak rozumować:** Klasa 6.2 To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0043`. **Podstawa do kontroli:** ADR 2.2.62.
+ 
+### Klasa 7: materiały promieniotwórcze (rozpoznawanie) (ADR-B-02-K11)
+
+**Co to znaczy w praktyce:** Materiały promieniotwórcze należą do klasy 7, ponieważ stwarzają zagrożenie związane z promieniowaniem jonizującym. Klasa 6.2 odnosi się do materiałów zakaźnych, a klasa 9 obejmuje różne inne zagrożenia, więc nie są zamienne z klasą 7. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Do jakiej klasy ADR zaliczono materiały promieniotwórcze?
+
+**Jak rozumować:** Klasa 7 To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0098`. **Podstawa do kontroli:** ADR 2.2.7.
+ 
+### Klasa 8: materiały żrące (ADR-B-02-K12)
+
+**Co to znaczy w praktyce:** Klasa 8 ostrzega, że towar może działać żrąco, na przykład poważnie uszkodzić skórę lub niektóre materiały. Nie chodzi tu o promieniowanie ani o zakażenie — te zagrożenia należą do innych klas. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Jakie zagrożenie oznacza klasa 8 ADR?
+
+**Jak rozumować:** Działanie żrące To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0005`. **Podstawa do kontroli:** ADR 2.2.8.
+ 
+### Klasa 9 i 9A: różne zagrożenia (ADR-B-02-K13)
+
+**Co to znaczy w praktyce:** Nalepki wzoru 9 oraz 9A wskazują na klasę 9, czyli różne materiały i przedmioty niebezpieczne. Wzór 9A może być stosowany przy określonych bateriach litowych i sodowo-jonowych, ale nie oznacza klas 5.1 ani 8. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Jaką klasę zagrożenia ADR przedstawiają nalepki ostrzegawcze wzoru 9 i 9A, jeżeli są wymagane dla towaru?
+
+**Jak rozumować:** Klasa 9 — różne materiały i przedmioty niebezpieczne To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0099`. **Podstawa do kontroli:** ADR 2.2.9.
+ 
+### Grupy pakowania, zagrożenia dodatkowe, tabela A (ADR-B-02-K14)
+
+**Co to znaczy w praktyce:** Jeśli dana pozycja ADR stosuje grupy pakowania, I oznacza wysoki, II średni, a III niski stopień zagrożenia. Nie są to równoważne oznaczenia, więc stwierdzenie, że wszystkie grupy oznaczają to samo, jest błędne. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Gdy dana pozycja ADR przewiduje grupy pakowania I, II i III, jak porządkują one poziom zagrożenia?
+
+**Jak rozumować:** I — wysoki, II — średni, III — niski To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0127`. **Podstawa do kontroli:** ADR 2.1, 3.2.
+ 
+### Ćwiczenie na zakończenie lekcji
+
+Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz na głos: co zauważył kierowca, jaka jest pierwsza bezpieczna decyzja, czego nie wolno zakładać i co trzeba potwierdzić w dokumentach. Jeżeli brakuje danych, nie udawaj, że znasz odpowiedź — wskaż, z kim trzeba ją wyjaśnić.
+
+**Status:** materiał dydaktyczny `needs_review`; odniesienia do ADR 2025 wymagają niezależnej kontroli.
+ 
