@@ -231,7 +231,7 @@
       "number": 23,
       "id": "ADR-B-0271",
       "correct_option": "B",
-      "explanation": "Dla kategorii transportowej 2 stosuje się mnożnik 3, a dla kategorii 3 mnożnik 1. Obliczenie to 100 × 3 + 600 = 900 punktów, czyli wynik nie przekracza progu 1000 dla tego wyłączenia. Nie wystarczy dodać ilości 100 i 600 bez uwzględnienia kategorii. Sprawdź też pozostałe warunki zastosowania wyłączenia. Podstawa: ADR 1.1.3.6.4.",
+      "explanation": "Punkty oblicza się osobno dla każdej kategorii transportowej, a potem dodaje wyniki: 100 × 3 dla kategorii 2 oraz 600 × 1 dla kategorii 3 daje 900 punktów. Samo dodanie ilości dałoby błędny wynik, bo pomija różne mnożniki. Wynik poniżej 1000 spełnia ten warunek ilościowy, ale przed zastosowaniem wyłączenia trzeba sprawdzić również pozostałe wymagania ADR. Podstawa: ADR 1.1.3.6.4.",
       "legal_basis": [
         "ADR 2025, 1.1.3.6.4"
       ],
@@ -308,5 +308,5 @@
       "lesson_path": "../lekcje/ADR-B-12.md"
     }
   ],
-  "source_bank_head": "9891fed014c116b6495ce1b3d3bd35e20cc5b90a"
+  "source_bank_head": "f16c0ecfdafe411587cddb61fa6b4ac7a453699e"
 }
