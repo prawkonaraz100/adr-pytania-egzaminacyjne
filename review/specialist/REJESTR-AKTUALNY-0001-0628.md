@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x154 (29.10.2026)
+
+- Bank: 645 pytań `needs_review`, 0 `verified`; blob SHA `04368d6c14cd1acb82d26319ce5a6c90866ecd66`.
+- Raport: `podstawowy/raporty/etap-4x154-luki-praktyczne-0640-0645-2026-10-29.md`.
+- Dodano ADR-B-0640–0645 dla bezpiecznych decyzji poprzedzających działania praktyczne; zaktualizowano mapę kompetencji, egzaminy 001–005 i klucze, snapshoty audytu oraz rejestry recenzyjne.
+- Pytania nie zastępują ćwiczeń praktycznych. Literalne porównanie polskiego tekstu i niezależna recenzja pozostają otwarte.
+
 ## Bieżąca migawka — etap 4x137 (29.10.2026)
 
 - Bank bez zmian: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
@@ -776,7 +783,14 @@ Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Por
 | ADR-B-0638 | ADR-B-09 | ADR-B-09-K03 | Przed załadunkiem kierowca dowiaduje się, że obok towaru niebezpiecznego mają być przewożone produkty spożywcze. Co powinien sprawdzić? | A | ADR 2025, 7.5.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0639 | ADR-B-01 | ADR-B-01-K01 | Kierowca chce szybko znaleźć w ADR wymagania dotyczące załogi, wyposażenia i dokumentów. Które wskazanie części dokumentu jest prawidłowe? | A | ADR 2025, 1.1.1; załącznik B, części 8–9 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-Bank bieżący: 639 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `9d82c5c1f6d6bda00c46dca47126891d509b9499`.
+| ADR-B-0640 | ADR-B-05 | ADR-B-05-K13 | Podczas jazdy zauważasz mały pożar w komorze silnika. Ogień jest na razie ograniczony, a możesz bezpiecznie użyć gaśnicy i wycofać się. Jak postępujesz? | C | ADR 2025, 5.4.3.4; 8.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0641 | ADR-B-05 | ADR-B-05-K13 | W przestrzeni ładunkowej pojazdu przewożącego towary niebezpieczne pojawił się ogień. Co powinien zrobić kierowca? | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0642 | ADR-B-05 | ADR-B-05-K14 | Po wypadku widzisz poszkodowaną osobę obok nieznanej cieczy, która wyciekła z przesyłki. Co jest właściwym pierwszym krokiem przed próbą pomocy? | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0643 | ADR-B-05 | ADR-B-05-K14 | Po incydencie kierowca zauważa, że jego odzież mogła zostać zabrudzona nieznaną substancją. Jak powinien ograniczyć dalsze zagrożenie? | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0644 | ADR-B-05 | ADR-B-05-K15 | Po uszkodzeniu przesyłki ciecz może dostać się do kratki kanalizacyjnej. Na wyposażeniu jest sprzęt do ograniczania rozlewów. Co należy zrobić? | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0645 | ADR-B-05 | ADR-B-05-K15 | Po zdarzeniu drogowym z udziałem towaru niebezpiecznego sytuacja pozwala kierowcy bezpiecznie zatrzymać pojazd i opuścić kabinę. Który sposób działania jest właściwy? | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+Bank bieżący: 645 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `04368d6c14cd1acb82d26319ce5a6c90866ecd66`.
 
 
-**Bieżący snapshot po 4x153 (29.10.2026):** `questions.jsonl` blob SHA `9d82c5c1f6d6bda00c46dca47126891d509b9499`, 639 pytań `needs_review`, 0 `verified`. Zmieniono tylko wyjaśnienie ADR-B-0061 i synchronizację próbnego egzaminu 001; zatwierdzenie przez specjalistę pozostaje otwarte.
+**Bieżący snapshot po 4x154 (29.10.2026):** `questions.jsonl` blob SHA `04368d6c14cd1acb82d26319ce5a6c90866ecd66`, 645 pytań `needs_review`, 0 `verified`. Dodano ADR-B-0640–0645 jako pytania sprawdzające bezpieczne decyzje; praktyczny instruktaż nadal obowiązkowy.
