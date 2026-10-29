@@ -164,12 +164,12 @@ Status materiału i pytań: needs_review; opis nie zastępuje praktycznego szkol
 
 ## Scenariusze sytuacyjne — ADR-B-0630–0633 i ADR-B-0640–0645
 
-Po wypadku, jeśli można to zrobić bez narażania siebie, przekaż ratownikom dostępne informacje o towarze i zagrożeniach (ADR 5.4.3.4). Nie dotykaj nieznanej substancji ani skażonej odzieży gołymi rękami; ogranicz kontakt i postępuj zgodnie z instrukcjami oraz poleceniami służb. Ostrzeż osoby postronne i nie pozwalaj im zbliżać się do zagrożenia. Kamizelkę ostrzegawczą zakładaj tylko wtedy, gdy można to zrobić bezpiecznie. Pytania ADR-B-0630–0633 oraz ADR-B-0640–0645 są szkicami do niezależnej kontroli; sprawdzają bezpieczne decyzje, ale nie zastępują rzeczywistego ćwiczenia.
+Po wypadku, jeśli można to zrobić bez narażania siebie, przekaż ratownikom dostępne informacje o towarze i zagrożeniach (ADR 5.4.3.4). Nie dotykaj nieznanej substancji ani skażonej odzieży gołymi rękami; ogranicz kontakt i postępuj zgodnie z instrukcjami oraz poleceniami służb. Ostrzeż osoby postronne i nie pozwalaj im zbliżać się do zagrożenia. Kamizelkę ostrzegawczą zakładaj tylko wtedy, gdy można to zrobić bezpiecznie. Pytania ADR-B-0630, ADR-B-0631, ADR-B-0632, ADR-B-0633 oraz ADR-B-0640, ADR-B-0641, ADR-B-0642, ADR-B-0643, ADR-B-0644 i ADR-B-0645 są szkicami do niezależnej kontroli; sprawdzają bezpieczne decyzje, ale nie zastępują rzeczywistego ćwiczenia.
 
 
 ### Scenariusz praktyczny SC-ADR-B-05-04
 
-Powiązane pytania: ADR-B-0630–0633 oraz ADR-B-0640–0645. Ćwicz bezpieczną kolejność działań po awarii: ochrona własna, ostrzeżenie osób postronnych, przekazanie informacji ratownikom i unikanie kontaktu z nieznaną substancją. Wykonuj ćwiczenie na fikcyjnych materiałach; podstawy prawne i rozwiązanie wymagają niezależnej kontroli specjalisty.
+Powiązane pytania: ADR-B-0630, ADR-B-0631, ADR-B-0632, ADR-B-0633, ADR-B-0640, ADR-B-0641, ADR-B-0642, ADR-B-0643, ADR-B-0644 i ADR-B-0645. Ćwicz bezpieczną kolejność działań po awarii: ochrona własna, ostrzeżenie osób postronnych, przekazanie informacji ratownikom i unikanie kontaktu z nieznaną substancją. Wykonuj ćwiczenie na fikcyjnych materiałach; podstawy prawne i rozwiązanie wymagają niezależnej kontroli specjalisty.
 
 ## Uzupełnienie 4x138 — decyzje kierowcy i kompetencje
 
