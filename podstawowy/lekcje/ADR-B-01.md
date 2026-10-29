@@ -173,3 +173,84 @@ Scenariusz mapowy: SC-ADR-B-01 w pliku [scenariuszy praktycznych](../praktyka/sc
 - Program kursu ADR: [Dz.U. 2021 poz. 2150](https://eli.gov.pl/api/acts/DU/2021/2150/text.pdf).
 
 Status pytań: needs_review. Wskazanie przepisu nie oznacza niezależnego potwierdzenia każdego pytania.
+
+## Uzupełnienie 4x138 — kompetencje krok po kroku
+
+Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw przeczytaj omówienie, a potem rozwiąż wskazane pytanie. Sam numer przepisu nie zastępuje sprawdzenia warunków przewozu.
+
+### Ramy prawne i definicje ADR (ADR-B-01-K01)
+
+**Co to znaczy w praktyce:** Towarem niebezpiecznym w rozumieniu ADR może być materiał lub przedmiot, którego przewóz jest zakazany albo dozwolony tylko po spełnieniu określonych warunków. Nie chodzi wyłącznie o jedną klasę, na przykład ciecze zapalne. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Co oznacza określenie „towary niebezpieczne” w umowie ADR?
+
+**Jak rozumować:** Materiały lub przedmioty zakazane albo warunkowo dopuszczone do przewozu To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0123`. **Podstawa do kontroli:** ADR 1.1, 1.2.
+ 
+### Szkolenie osób uczestniczących w przewozie (ADR-B-01-K02)
+
+**Co to znaczy w praktyce:** Pracownik nadawcy powinien wiedzieć, jak bezpiecznie wykonać swoje konkretne zadania przy towarach niebezpiecznych, np. sprawdzić informacje o przesyłce. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Jakie szkolenie powinien otrzymać pracownik nadawcy, którego obowiązki dotyczą przewozu towarów niebezpiecznych?
+
+**Jak rozumować:** Szkolenie z wymagań ADR dotyczących jego pracy To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0001`. **Podstawa do kontroli:** ADR 1.3.
+ 
+### Kiedy kierowca potrzebuje zaświadczenia ADR (ADR-B-01-K03)
+
+**Co to znaczy w praktyce:** Zaświadczenie ADR pokazuje, że kierowca przeszedł wymagane szkolenie i zdał egzamin do określonego rodzaju przewozu. Nie jest jednak prawem jazdy i nie zastępuje dokumentów potrzebnych dla ładunku. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Do czego służy zaświadczenie ADR kierowcy?
+
+**Jak rozumować:** Potwierdza odpowiednie przeszkolenie kierowcy do przewozu objętego wymaganiem ADR To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0003`. **Podstawa do kontroli:** ADR 8.2.1.
+ 
+### Wyłączenia ze względu na charakter przewozu (ADR-B-01-K04)
+
+**Co to znaczy w praktyce:** Mała ilość towaru nie oznacza, że przewóz jest całkowicie poza ADR. Zanim kierowca skorzysta ze zwolnienia, trzeba sprawdzić rodzaj towaru, jego ilość oraz sposób zapakowania. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Czy przewóz niewielkiej ilości towarów niebezpiecznych automatycznie zwalnia kierowcę ze wszystkich wymagań ADR?
+
+**Jak rozumować:** Nie, zwolnienia zależą od warunków określonych w ADR To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0002`. **Podstawa do kontroli:** ADR 1.1.3.1.
+ 
+### Ilości ograniczone LQ i wyłączone EQ (ADR-B-01-K05)
+
+**Co to znaczy w praktyce:** LQ oznacza ilości ograniczone: dla niektórych towarów można stosować uproszczenia, jeśli spełnione są limity i warunki pakowania. ADR 1.1.3.6 to inne wyłączenie ilościowe, które ocenia się na podstawie kategorii i ilości towaru w jednostce transportowej. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Przedsiębiorca twierdzi, że oznakowanie LQ zawsze oznacza wyłączenie na podstawie 1.1.3.6. Czy ma rację?
+
+**Jak rozumować:** Nie; LQ z działu 3.4 i próg 1.1.3.6 mają inne warunki i sposób liczenia To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0093`. **Podstawa do kontroli:** ADR 3.4, 3.5.
+ 
+### Progi i kategorie transportowe 1.1.3.6 (ADR-B-01-K06)
+
+**Co to znaczy w praktyce:** Mała ilość towaru nie oznacza, że przewóz jest całkowicie poza ADR. Zanim kierowca skorzysta ze zwolnienia, trzeba sprawdzić rodzaj towaru, jego ilość oraz sposób zapakowania. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Czy przewóz niewielkiej ilości towarów niebezpiecznych automatycznie zwalnia kierowcę ze wszystkich wymagań ADR?
+
+**Jak rozumować:** Nie, zwolnienia zależą od warunków określonych w ADR To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0002`. **Podstawa do kontroli:** ADR 1.1.3.6.
+ 
+### Towary zabronione i dopuszczone do przewozu (ADR-B-01-K07)
+
+**Co to znaczy w praktyce:** Zanim nadawca wybierze pojazd i sposób przewozu, musi ustalić, jak sklasyfikowano materiał oraz czy i na jakich warunkach można go transportować. Pomagają w tym właściwa pozycja i wymagania tabeli A ADR. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Nadawca chce przewieźć nowy materiał niebezpieczny. Co powinien ustalić przed wyborem sposobu przewozu?
+
+**Jak rozumować:** Sprawdzić, czy materiał wolno przewozić i jakie warunki ADR obowiązują To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0124`. **Podstawa do kontroli:** ADR 2.1, 3.2, 3.3.
+ 
+### Ćwiczenie na zakończenie lekcji
+
+Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz na głos: co zauważył kierowca, jaka jest pierwsza bezpieczna decyzja, czego nie wolno zakładać i co trzeba potwierdzić w dokumentach. Jeżeli brakuje danych, nie udawaj, że znasz odpowiedź — wskaż, z kim trzeba ją wyjaśnić.
+
+**Status:** materiał dydaktyczny `needs_review`; odniesienia do ADR 2025 wymagają niezależnej kontroli.
+ 

@@ -181,3 +181,74 @@ Przed wyjazdem sprawdź, czy dokument przewozowy odpadu zawiera wymagany opis. N
 ### Scenariusz praktyczny SC-ADR-B-03-04
 
 Powiązane pytania: ADR-B-0629. Ćwicz na fikcyjnym dokumencie odpadu: wykryj brak w opisie, wyjaśnij rozbieżność z osobą odpowiedzialną i nie rozpoczynaj przewozu przed poprawieniem dokumentu. Wykonuj ćwiczenie na fikcyjnych materiałach; podstawy prawne i rozwiązanie wymagają niezależnej kontroli specjalisty.
+
+## Uzupełnienie 4x138 — kompetencje krok po kroku
+
+Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw przeczytaj omówienie, a potem rozwiąż wskazane pytanie. Sam numer przepisu nie zastępuje sprawdzenia warunków przewozu.
+
+### Rozpoznawanie zagrożenia dla środowiska (ADR-B-03-K01)
+
+**Co to znaczy w praktyce:** Znak z martwą rybą i drzewem ostrzega, że materiał może zaszkodzić środowisku, na przykład wodzie i organizmom żyjącym w rzekach. Czaszka oznacza zagrożenie zatruciem, a płomień nad okręgiem wskazuje materiał utleniający, więc oba znaki opisują inne zagrożenia. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Jaki symbol znajduje się na znaku dla materiałów zagrażających środowisku?
+
+**Jak rozumować:** Symbol martwej ryby i drzewa To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0007`. **Podstawa do kontroli:** ADR 2.2.9.1.10, 5.2.1.8; 5.2.1.8, 5.3.6, 5.4.1.1.18.
+ 
+### Odpady niebezpieczne w dokumencie przewozowym (ADR-B-03-K02)
+
+**Co to znaczy w praktyce:** Słowo „ODPAD” przed nazwą przewozową informuje, że towar niebezpieczny jest przewożony jako odpad. Nie pozwala pominąć numeru UN (czterocyfrowego identyfikatora towaru niebezpiecznego) ani innych wymaganych danych i nie wyłącza automatycznie stosowania ADR. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** W dokumencie przewozowym ADR dla odpadu niebezpiecznego niebędącego odpadem promieniotwórczym dodano słowo „ODPAD” przed prawidłową nazwą przewozową. Co to oznacza?
+
+**Jak rozumować:** Że przesyłka jest odpadem objętym zasadami przewozu ADR To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0008`. **Podstawa do kontroli:** ADR 5.4.1.1.3.1.
+ 
+### Obowiązek oczyszczenia pojazdu po wycieku (ADR-B-03-K03)
+
+**Co to znaczy w praktyce:** Jeśli z opakowania wyciekła substancja niebezpieczna, resztki na podłodze mogą zanieczyścić kolejny ładunek albo narazić ludzi. Przed ponownym załadunkiem pojazd trzeba oczyścić zgodnie z ADR. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Podczas rozładunku sztuk przesyłek ADR stwierdzono, że zawartość jednego opakowania wyciekła i zabrudziła pojazd. Co należy zrobić przed ponownym załadunkiem?
+
+**Jak rozumować:** Oczyścić pojazd zgodnie z ADR przed ponownym załadunkiem To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0009`. **Podstawa do kontroli:** ADR 7.5.8.1.
+ 
+### Ochrona kanalizacji i wód podczas wypadku (ADR-B-03-K04)
+
+**Co to znaczy w praktyce:** Rozlana substancja może przedostać się przez kratkę do kanalizacji i zagrozić środowisku. Załoga może próbować temu zapobiec wyłącznie wtedy, gdy jest to właściwe i bezpieczne oraz dysponuje wymaganym wyposażeniem. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Po awarii z opakowania wypływa ciecz niebezpieczna w kierunku kratki kanalizacyjnej. Kiedy załoga może próbować zapobiec jej wpłynięciu do kanalizacji?
+
+**Jak rozumować:** Tylko jeśli to bezpieczne i właściwe, z odpowiednim wyposażeniem. To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0100`. **Podstawa do kontroli:** ADR 5.4.3.4.
+ 
+### Unikanie skażenia przy rozlewie (ADR-B-03-K05)
+
+**Co to znaczy w praktyce:** Nieznana ciecz po uszkodzeniu opakowania może być trująca, żrąca albo wydzielać niebezpieczne opary, dlatego kierowca nie powinien wchodzić w rozlew, dotykać go ani ich wdychać. Zbliżanie się tylko po to, by odczytać etykietę, może narazić go na kontakt z substancją; zwykłe rękawice nie muszą chronić przed danym materiałem i nie pozwalają bezpiecznie zbierać wycieku. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Zauważasz kałużę nieznanej substancji po uszkodzeniu opakowania ADR. Jak powinien zachować się kierowca?
+
+**Jak rozumować:** Nie wchodzić w rozlew ani go nie dotykać, unikać wdychania oparów To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0101`. **Podstawa do kontroli:** ADR 5.4.3.4.
+ 
+### Szczególne zasady klasyfikowania odpadów (ADR-B-03-K06)
+
+**Co to znaczy w praktyce:** Nieznany dokładny skład odpadu nie oznacza, że wolno automatycznie przypisać mu grupę pakowania III, czyli najniższy stopień zagrożenia wśród grup pakowania. Trzeba wykorzystać dostępne informacje i szczególne reguły klasyfikacji odpadów. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+
+**Przykład do przemyślenia:** Nadawca nie zna dokładnego składu odpadu bez nieproporcjonalnych kosztów. Czy może zawsze nadać grupę pakowania III?
+
+**Jak rozumować:** Nie; stosuje zasady klasyfikacji odpadu i dostępne dane o zagrożeniach To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
+
+**Sprawdź się:** `ADR-B-0129`. **Podstawa do kontroli:** ADR 2.1, 3.3, 5.4.1.1.3.
+ 
+### Ćwiczenie na zakończenie lekcji
+
+Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz na głos: co zauważył kierowca, jaka jest pierwsza bezpieczna decyzja, czego nie wolno zakładać i co trzeba potwierdzić w dokumentach. Jeżeli brakuje danych, nie udawaj, że znasz odpowiedź — wskaż, z kim trzeba ją wyjaśnić.
+
+**Status:** materiał dydaktyczny `needs_review`; odniesienia do ADR 2025 wymagają niezależnej kontroli.
+ 
