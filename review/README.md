@@ -7,21 +7,21 @@
 
 ## Bieżąca migawka — etap 4x208 (30.10.2026)
 
-- Bank 651 pytań `needs_review`, zero `verified`, SHA `1f19de9e17de568b4ed4802320aaceeab71a2912`.
+- Bank 651 pytań `needs_review`, zero `verified`, SHA `3a88e344cccb5f972fd3bdbdb9d65462f70b3390`.
 - Redakcja 10 explanation: ADR-B-0016, 0123, 0140, 0164, 0210, 0272, 0277, 0330, 0432, 0575.
 - Synchronizacja egzaminów 001–005 i snapshotów sequential/legal; niezależna recenzja nadal wymagana.
 - Raport: `podstawowy/raporty/etap-4x208-przeglad-explanation-10-2026-10-30.md`.
 
 ## Bieżąca migawka — etap 4x207 (30.10.2026)
 
-- Bank 651 pytań `needs_review`, zero `verified`, SHA `1f19de9e17de568b4ed4802320aaceeab71a2912`.
+- Bank 651 pytań `needs_review`, zero `verified`, SHA `3a88e344cccb5f972fd3bdbdb9d65462f70b3390`.
 - Redakcja 10 explanation: ADR-B-0007, 0022, 0103, 0142, 0189, 0224, 0314, 0321, 0376, 0606.
 - Synchronizacja egzaminów 001–005 i snapshotów sequential/legal; wymagany PASS CI i recenzja eksperta.
 - Raport: `podstawowy/raporty/etap-4x207-przeglad-explanation-10-2026-10-30.md`.
 
 ## Bieżąca migawka — etap 4x206 (30.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `1f19de9e17de568b4ed4802320aaceeab71a2912`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `3a88e344cccb5f972fd3bdbdb9d65462f70b3390`.
 - Drugi przegląd 10 explanation dla kursanta, raport: `podstawowy/raporty/etap-4x206-przeglad-explanation-10-2026-10-30.md`.
 - Zmieniono wyłącznie explanation dla ADR-B-0014, 0046, 0239, 0261, 0315, 0331, 0349, 0398, 0467 i 0545; snapshoty sequential/legal oraz egzaminy 001–005 zsynchronizowane.
 - Zmiany dydaktyczne nie stanowią zatwierdzenia prawnego; niezależna recenzja specjalisty nadal wymagana. Wyłącznie kurs podstawowy, bez cystern.
