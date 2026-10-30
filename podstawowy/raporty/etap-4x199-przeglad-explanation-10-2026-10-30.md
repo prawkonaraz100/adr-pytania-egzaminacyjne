@@ -19,8 +19,8 @@ Nie zmieniono treści pytań, opcji A/B/C, kluczy, źródeł ani statusów. Nie 
 Odświeżono istniejące snapshoty `review/sequential` i `review/legal-clauses` dla wszystkich dziesięciu ID:
 - ADR-B-0150 — 121-150
 - ADR-B-0196 — 181-210
-- ADR-B-0212 — 211-216
 - ADR-B-0296 — 294-297
+- ADR-B-0309 — 309-311
 - ADR-B-0298 — 298-300
 - ADR-B-0309 — 309-311
 - ADR-B-0370 — 363-380
