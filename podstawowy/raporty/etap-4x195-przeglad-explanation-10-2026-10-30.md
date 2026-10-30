@@ -27,7 +27,7 @@ Odświeżono snapshoty `review/sequential` i `review/legal-clauses` dla wszystki
 
 W snapshotach sekwencyjnych ustawiono `editorial_read_through.explanation = true`; sprawdzenie po zapisie potwierdziło, że wszystkie 10 tekstów w snapshotach sekwencyjnych i prawnych jest identycznych z bankiem.
 
-Zsynchronizowano `source_bank_head` we wszystkich wariantach i kluczach egzaminów próbnych 001–005. Klucz 004 zawiera ADR-B-0109 i ADR-B-0011, więc odświeżono w nim także oba pola explanation. CI wykryło również wcześniejszą niespójność explanation ADR-B-0537 w kluczu 005; zsynchronizowano je z niezmienionym rekordem banku (bez zmiany pytania ani klucza). Zaktualizowano aktualny SHA banku w manifestach i dokumentach pakietu recenzyjnego.
+Zsynchronizowano `source_bank_head` we wszystkich wariantach i kluczach egzaminów próbnych 001–005. Klucz 004 zawiera ADR-B-0109 i ADR-B-0011, więc odświeżono w nim także oba pola explanation. CI wykryło również wcześniejszą niespójność explanation ADR-B-0537 w kluczu 005 i snapshotach audytu; zsynchronizowano klucz oraz snapshoty sequential/legal z niezmienionym rekordem banku (bez zmiany pytania ani klucza). Zaktualizowano aktualny SHA banku w manifestach i dokumentach pakietu recenzyjnego.
 
 ## Kontrola różnic
 
