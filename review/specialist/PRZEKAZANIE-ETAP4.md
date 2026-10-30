@@ -1,3 +1,5 @@
+- Etap 4x218: przegląd 10 explanation (ADR-B-0050, 0056, 0068, 0234, 0312, 0411, 0416, 0477, 0516, 0519), raport `podstawowy/raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md`; nadal wszystkie `needs_review`.
+
 ## Bieżąca migawka — etap 4x217 (30.10.2026)
 
 Bank: 651 `needs_review`, zero `verified`; blob `4b843273ac549c0201b2a5985d01f17d09cdf8bc`. Raport: `podstawowy/raporty/etap-4x217-przeglad-explanation-10-2026-10-30.md`. Explanation: ADR-B-0562, 0393, 0460, 0561, 0444, 0553, 0385, 0470, 0549, 0485. Warianty/klucze 001–005 i snapshoty sequential/legal zsynchronizowane. Bez eksperckiego zatwierdzenia.
