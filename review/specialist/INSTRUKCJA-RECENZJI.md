@@ -1,7 +1,7 @@
-## Bieżąca migawka — etap 4x191 (30.10.2026)
+## Bieżąca migawka — etap 4x192 (30.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `d5449ff100bbcbd17eac07f72e230c6d4eb0b809`.
-- Raport: `podstawowy/raporty/etap-4x191-przeglad-explanation-10-2026-10-30.md`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `17b3c198ada510b6e25184cad16aa27afb2f78cd`.
+- Raport: `podstawowy/raporty/etap-4x192-przeglad-explanation-10-2026-10-30.md`.
 - Przepisano 10 wyjaśnień ADR-B-0009, 0042, 0255, 0301, 0351, 0379, 0528, 0551, 0590 i 0591. Pytania, A/B/C, klucze, źródła i statusy bez zmian; egzaminy 001–005 i istniejące snapshoty audytowe zsynchronizowano. Wszystkie rekordy nadal `needs_review`; redakcja nie zastępuje recenzji prawnej.
 
 ## Bieżąca migawka — etap 4x155 (29.10.2026)
