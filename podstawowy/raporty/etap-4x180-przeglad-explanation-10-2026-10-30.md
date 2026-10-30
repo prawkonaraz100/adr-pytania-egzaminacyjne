@@ -8,7 +8,7 @@ ADR-B-0024, ADR-B-0107, ADR-B-0112, ADR-B-0121, ADR-B-0182, ADR-B-0203, ADR-B-02
 Dobór wykonano po sprawdzeniu raportów 4x156–4x179. Wybrano kolejne nieprzeglądane wyjaśnienia o relatywnie najmniejszej długości i wymagające dopowiedzenia praktycznego. Pominięto pytania odnoszące się bezpośrednio do konstrukcji i wymagań cystern; zakres pozostaje ograniczony do kursu podstawowego.
 
 ## Redakcja
-Zmieniono wyłącznie pole `explanation` dla wskazanych 10 rekordów. Teksty mają 2–5 zdań i 281–343 znaki. Najpierw wyjaśniają praktyczny sens poprawnej odpowiedzi, następnie wskazują, dlaczego pozostałe odpowiedzi są mylące lub niewłaściwe, a na końcu podają krótką podstawę ADR.
+Zmieniono wyłącznie pole `explanation` dla wskazanych 10 rekordów. Teksty mają 2–5 zdań i 315–378 znaków. Najpierw wyjaśniają praktyczny sens poprawnej odpowiedzi, następnie wskazują, dlaczego pozostałe odpowiedzi są mylące lub niewłaściwe, a na końcu podają krótką podstawę ADR.
 
 Nie zmieniono treści pytań, wariantów A/B/C, kluczy, źródeł ani podstaw prawnych. Nie stwierdzono potwierdzonego błędu wymagającego zmiany pytania lub klucza. Wszystkie statusy pozostają `needs_review`; niczego nie oznaczono jako `verified`.
 
@@ -20,3 +20,7 @@ Nie zmieniono treści pytań, wariantów A/B/C, kluczy, źródeł ani podstaw pr
 
 ## Kontrola
 Pełny Quality Gate CI musi przejść przed scaleniem. Niezależna recenzja prawna specjalisty nadal pozostaje wymagana; redakcja dydaktyczna nie stanowi aprobaty prawnej.
+
+## Korekta po pierwszym przebiegu CI
+
+Pierwszy przebieg wykazał, że dwa wyjaśnienia miały mniej niż obowiązujące w repo minimum 300 znaków. Rozszerzono ADR-B-0024 i ADR-B-0112, bez zmiany sensu, pytania ani klucza. Po zmianie ponownie zsynchronizowano klucze 001–005, snapshoty audytu dla tych dwóch rekordów oraz SHA banku w manifeście, kolejkach i dokumentach pakietu specjalisty. Nie obniżono progu Quality Gate.
