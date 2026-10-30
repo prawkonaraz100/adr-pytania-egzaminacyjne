@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x193 (30.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `94377f6c2cbdd9a53b8f26c2a8a8bb55d9771bbb`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `13a955ade999a6027083fcc9b45d8455d90dd10d`.
 - Raport: `podstawowy/raporty/etap-4x193-przeglad-explanation-10-2026-10-30.md`.
 - Przepisano 10 wyjaśnień ADR-B-0009, 0042, 0255, 0301, 0351, 0379, 0528, 0551, 0590 i 0591. Pytania, A/B/C, klucze, źródła i statusy bez zmian; egzaminy 001–005 i istniejące snapshoty audytowe zsynchronizowano. Wszystkie rekordy nadal `needs_review`; redakcja nie zastępuje recenzji prawnej.
 
