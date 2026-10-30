@@ -16,7 +16,7 @@ Nie zmieniono treści pytań, opcji A/B/C, kluczy, źródeł ani statusów. Nie 
 
 ## Synchronizacja i kontrola
 
-Po zmianie banku należy zsynchronizować warianty i klucze egzaminów próbnych 001–005 z aktualnym blobem `questions.jsonl`, a także istniejące snapshoty `review/sequential` i `review/legal-clauses` dla ADR-B-0009, 0042, 0255, 0379 i 0528. Dla pozostałych pięciu ID nie było dotąd odpowiadających rekordów snapshotów w tych rejestrach. Należy również zaktualizować manifesty i dokumenty pakietu recenzyjnego wskazujące aktualny bank. PR może zostać scalony wyłącznie po pełnym PASS Quality Gate i CI.
+Po zmianie banku należy zsynchronizować warianty i klucze egzaminów próbnych 001–005 z aktualnym blobem `questions.jsonl`, a także snapshoty `review/sequential` i `review/legal-clauses` dla wszystkich dziesięciu ID; odświeżono wyłącznie istniejące rekordy, bez tworzenia fikcyjnych zatwierdzeń. Należy również zaktualizować manifesty i dokumenty pakietu recenzyjnego wskazujące aktualny bank. PR może zostać scalony wyłącznie po pełnym PASS Quality Gate i CI.
 
 ## Status
 
