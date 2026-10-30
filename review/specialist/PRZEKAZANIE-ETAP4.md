@@ -1,43 +1,47 @@
+## Bieżąca migawka — etap 4x212 (30.10.2026)
+
+Bank: 651 `needs_review`, zero `verified`; blob `deccfb155ac46912b36abb0ef1df16d2ddf01d5c`. Raport: `podstawowy/raporty/etap-4x212-przeglad-explanation-10-2026-10-30.md`. Wyjaśnienia: ADR-B-0005, 0049, 0083, 0128, 0175, 0176, 0459, 0524, 0555, 0597. Bez eksperckiego zatwierdzenia.
+
 ## Bieżąca migawka — etap 4x211 (30.10.2026)
 
-Bank: 651 `needs_review`, zero `verified`; blob `db7c479c7e13e6a7a2e108e9c24e287988699dd2`. Raport: `podstawowy/raporty/etap-4x211-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
+Bank: 651 `needs_review`, zero `verified`; blob `deccfb155ac46912b36abb0ef1df16d2ddf01d5c`. Raport: `podstawowy/raporty/etap-4x211-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
 
 ## Bieżąca migawka — etap 4x211 (30.10.2026)
 
-Bank: 651 `needs_review`, zero `verified`; blob `db7c479c7e13e6a7a2e108e9c24e287988699dd2`. Raport: `podstawowy/raporty/etap-4x211-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
+Bank: 651 `needs_review`, zero `verified`; blob `deccfb155ac46912b36abb0ef1df16d2ddf01d5c`. Raport: `podstawowy/raporty/etap-4x211-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
 
 ## Bieżąca migawka — etap 4x210 (30.10.2026)
 
-Bank: 651 `needs_review`, zero `verified`; blob `db7c479c7e13e6a7a2e108e9c24e287988699dd2`. Raport: `podstawowy/raporty/etap-4x210-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
+Bank: 651 `needs_review`, zero `verified`; blob `deccfb155ac46912b36abb0ef1df16d2ddf01d5c`. Raport: `podstawowy/raporty/etap-4x210-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
 
 ## Bieżąca migawka — etap 4x209 (30.10.2026)
 
-Bank: 651 `needs_review`, 0 `verified`; blob `db7c479c7e13e6a7a2e108e9c24e287988699dd2`. Raport: `podstawowy/raporty/etap-4x209-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
+Bank: 651 `needs_review`, 0 `verified`; blob `deccfb155ac46912b36abb0ef1df16d2ddf01d5c`. Raport: `podstawowy/raporty/etap-4x209-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
 
 ## Bieżąca migawka — etap 4x208 (30.10.2026)
 
-Bank: 651 `needs_review`, 0 `verified`; blob `db7c479c7e13e6a7a2e108e9c24e287988699dd2`. Raport: `podstawowy/raporty/etap-4x208-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
+Bank: 651 `needs_review`, 0 `verified`; blob `deccfb155ac46912b36abb0ef1df16d2ddf01d5c`. Raport: `podstawowy/raporty/etap-4x208-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
 
 ## Bieżąca migawka — etap 4x207 (30.10.2026)
 
-Bank: 651 `needs_review`, 0 `verified`; blob `db7c479c7e13e6a7a2e108e9c24e287988699dd2`. Raport: `podstawowy/raporty/etap-4x207-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
+Bank: 651 `needs_review`, 0 `verified`; blob `deccfb155ac46912b36abb0ef1df16d2ddf01d5c`. Raport: `podstawowy/raporty/etap-4x207-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
 
 ## Bieżąca migawka — etap 4x206 (30.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `db7c479c7e13e6a7a2e108e9c24e287988699dd2`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `deccfb155ac46912b36abb0ef1df16d2ddf01d5c`.
 - Raport: `podstawowy/raporty/etap-4x206-przeglad-explanation-10-2026-10-30.md`.
 - Poprawiono wyłącznie explanation dla ADR-B-0014, 0046, 0239, 0261, 0315, 0331, 0349, 0398, 0467 i 0545. Snapshoty sequential/legal oraz egzaminy 001–005 wskazują aktualny bank.
 - Brak zmian pytań, A/B/C, kluczy, źródeł i statusów; wszystkie rekordy pozostają `needs_review`. Niezależna recenzja prawna specjalisty nadal wymagana. Zakres wyłącznie kurs podstawowy ADR.
 
 ## Bieżąca migawka — etap 4x158 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `db7c479c7e13e6a7a2e108e9c24e287988699dd2`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `deccfb155ac46912b36abb0ef1df16d2ddf01d5c`.
 - Raport: `podstawowy/raporty/etap-4x158-przeglad-explanation-30-2026-10-29.md`.
 - Przepisano 30 explanation dla początkującego kursanta; treści pytań, A/B/C, klucze i podstawy prawne bez zmian. Zaktualizowano snapshoty audytu oraz powiązania z egzaminami 001–005. Redakcja nie jest formalną aprobatą prawną.
 
 ## Bieżąca migawka — etap 4x156
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `db7c479c7e13e6a7a2e108e9c24e287988699dd2`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `deccfb155ac46912b36abb0ef1df16d2ddf01d5c`.
 - Raport: `podstawowy/raporty/etap-4x156-przeglad-explanation-0611-0647-2026-10-29.md`.
 - Poprawiono 30 explanation, zachowując stem, A/B/C, klucz i podstawę ADR. Synchronizowane są arkusze/klucze 001–005 i manifesty recenzyjne.
 - Przegląd dydaktyczny nie stanowi niezależnego zatwierdzenia prawnego; wszystkie pytania pozostają `needs_review`.
