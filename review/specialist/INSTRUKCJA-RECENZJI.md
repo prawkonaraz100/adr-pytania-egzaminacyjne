@@ -1,8 +1,9 @@
-## Bieżąca migawka — etap 4x193 (30.10.2026)
+## Bieżąca migawka — etap 4x205 (30.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `864fca93ec15436701a2facb580ac86a61b031e7`.
-- Raport: `podstawowy/raporty/etap-4x193-przeglad-explanation-10-2026-10-30.md`.
-- Przepisano 10 wyjaśnień ADR-B-0009, 0042, 0255, 0301, 0351, 0379, 0528, 0551, 0590 i 0591. Pytania, A/B/C, klucze, źródła i statusy bez zmian; egzaminy 001–005 i istniejące snapshoty audytowe zsynchronizowano. Wszystkie rekordy nadal `needs_review`; redakcja nie zastępuje recenzji prawnej.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `1ee79de5029d1b3fe508d4fad0c58c74faf9da06`.
+- Raport: `podstawowy/raporty/etap-4x205-przeglad-explanation-10-2026-10-30.md`.
+- Poprawiono wyłącznie explanation dla ADR-B-0029, 0120, 0162, 0329, 0353, 0496, 0507, 0532, 0565 i 0607. Snapshoty sequential/legal oraz egzaminy 001–005 wskazują aktualny bank.
+- Brak zmian pytań, A/B/C, kluczy, źródeł i statusów; wszystkie rekordy pozostają `needs_review`. Niezależna recenzja prawna specjalisty nadal wymagana. Zakres wyłącznie kurs podstawowy ADR.
 
 ## Bieżąca migawka — etap 4x155 (29.10.2026)
 

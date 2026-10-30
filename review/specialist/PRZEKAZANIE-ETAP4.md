@@ -1,18 +1,19 @@
-## Bieżąca migawka — etap 4x193 (29.10.2026)
+## Bieżąca migawka — etap 4x205 (30.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `864fca93ec15436701a2facb580ac86a61b031e7`.
-- Raport: `podstawowy/raporty/etap-4x193-przeglad-explanation-10-2026-10-30.md`.
-- Kolejne 30 explanation zostało poprawionych prostym językiem dla kursanta. Pytania, A/B/C, klucze i podstawy prawne bez zmian. Zaktualizowano snapshoty audytu i egzaminy 001–005. Brak zatwierdzenia przez niezależnego specjalistę ADR.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `1ee79de5029d1b3fe508d4fad0c58c74faf9da06`.
+- Raport: `podstawowy/raporty/etap-4x205-przeglad-explanation-10-2026-10-30.md`.
+- Poprawiono wyłącznie explanation dla ADR-B-0029, 0120, 0162, 0329, 0353, 0496, 0507, 0532, 0565 i 0607. Snapshoty sequential/legal oraz egzaminy 001–005 wskazują aktualny bank.
+- Brak zmian pytań, A/B/C, kluczy, źródeł i statusów; wszystkie rekordy pozostają `needs_review`. Niezależna recenzja prawna specjalisty nadal wymagana. Zakres wyłącznie kurs podstawowy ADR.
 
 ## Bieżąca migawka — etap 4x158 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `864fca93ec15436701a2facb580ac86a61b031e7`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `1ee79de5029d1b3fe508d4fad0c58c74faf9da06`.
 - Raport: `podstawowy/raporty/etap-4x158-przeglad-explanation-30-2026-10-29.md`.
 - Przepisano 30 explanation dla początkującego kursanta; treści pytań, A/B/C, klucze i podstawy prawne bez zmian. Zaktualizowano snapshoty audytu oraz powiązania z egzaminami 001–005. Redakcja nie jest formalną aprobatą prawną.
 
 ## Bieżąca migawka — etap 4x156
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `864fca93ec15436701a2facb580ac86a61b031e7`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `1ee79de5029d1b3fe508d4fad0c58c74faf9da06`.
 - Raport: `podstawowy/raporty/etap-4x156-przeglad-explanation-0611-0647-2026-10-29.md`.
 - Poprawiono 30 explanation, zachowując stem, A/B/C, klucz i podstawę ADR. Synchronizowane są arkusze/klucze 001–005 i manifesty recenzyjne.
 - Przegląd dydaktyczny nie stanowi niezależnego zatwierdzenia prawnego; wszystkie pytania pozostają `needs_review`.
