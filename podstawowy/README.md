@@ -2,6 +2,11 @@
 
 ## Ostatnia kontrola jakości
 
+- [Etap 4x217 — drugi przegląd explanation](raporty/etap-4x217-przeglad-explanation-10-2026-10-30.md): 10 kolejnych wyjaśnień przepisanych dla kursanta; egzaminy i snapshoty zsynchronizowane.
+
+
+## Ostatnia kontrola jakości
+
 - [Etap 4x216 — drugi przegląd explanation](raporty/etap-4x216-przeglad-explanation-10-2026-10-30.md): 10 kolejnych wyjaśnień przepisanych dla kursanta; egzaminy i snapshoty zsynchronizowane.
 
 
