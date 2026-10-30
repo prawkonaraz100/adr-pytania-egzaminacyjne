@@ -1,3 +1,7 @@
+## Bieżąca migawka — etap 4x214 (30.10.2026)
+
+Bank: 651 `needs_review`, zero `verified`; blob `ad4a2e8a6f24688846944de4b1e6e4ff381f37ec`. Raport: `podstawowy/raporty/etap-4x214-przeglad-explanation-10-2026-10-30.md`. Wyjaśnienia: ADR-B-0045, 0053, 0090, 0113, 0138, 0194, 0222, 0503, 0592, 0635. Warianty i klucze 001–005 oraz snapshoty sequential/legal zsynchronizowane. Bez eksperckiego zatwierdzenia.
+
 ## Bieżąca migawka — etap 4x213 (30.10.2026)
 
 Bank: 651 `needs_review`, zero `verified`; blob `ad4a2e8a6f24688846944de4b1e6e4ff381f37ec`. Raport: `podstawowy/raporty/etap-4x213-przeglad-explanation-10-2026-10-30.md`. Wyjaśnienia: ADR-B-0004, 0106, 0143, 0156, 0211, 0288, 0474, 0476, 0478, 0631. Bez eksperckiego zatwierdzenia.
