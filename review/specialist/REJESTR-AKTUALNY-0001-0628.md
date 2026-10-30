@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x216 (30.10.2026)
+
+- Bank: 651 pytań `needs_review`, zero `verified`; blob SHA `591d3d737aa7f9ef846fd45ade45747af82be6e5`.
+- Raport: `podstawowy/raporty/etap-4x216-przeglad-explanation-10-2026-10-30.md`.
+- Drugi przegląd explanation: ADR-B-0040, 0343, 0347, 0382, 0399, 0482, 0530, 0552, 0567, 0568. Snapshoty sequential/legal i egzaminy próbne zsynchronizowane.
+- Statusy pozostają `needs_review`; brak zatwierdzeń prawnych. Zakres: kurs podstawowy ADR.
+
 ## Bieżąca migawka — etap 4x206 (30.10.2026)
 
 - Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `083ad93e9836c8066c10ca144b1568a2a88486ec`.

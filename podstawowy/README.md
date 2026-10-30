@@ -2,6 +2,11 @@
 
 ## Ostatnia kontrola jakości
 
+- [Etap 4x216 — drugi przegląd explanation](raporty/etap-4x216-przeglad-explanation-10-2026-10-30.md): 10 kolejnych wyjaśnień przepisanych dla kursanta; egzaminy i snapshoty zsynchronizowane.
+
+
+## Ostatnia kontrola jakości
+
 - [Etap 4x214 — drugi przegląd explanation](raporty/etap-4x214-przeglad-explanation-10-2026-10-30.md): 10 kolejnych wyjaśnień przepisanych dla kursanta; snapshoty i egzaminy próbne zsynchronizowane.
 - [Etap 4x155 — luki praktyczne i pytania ADR-B-0646–0651](raporty/etap-4x155-luki-praktyczne-0646-0651-2026-10-29.md): sześć scenariuszowych pytań do ćwiczeń z gaśnicy, pierwszej pomocy i wypadku; nie zastępują praktyki.
 
