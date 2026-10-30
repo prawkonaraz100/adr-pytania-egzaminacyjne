@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x215 (30.10.2026)
+
+- Bank: 651 pytań `needs_review`, zero `verified`; blob `083ad93e9836c8066c10ca144b1568a2a88486ec`.
+- Drugi przegląd: ADR-B-0035, 0036, 0038, 0039, 0129, 0322, 0466, 0511, 0531, 0610.
+- Egzaminy 001–005, snapshoty sequential/legal i pakiet recenzyjny zsynchronizowane; niezależna recenzja ekspercka nadal wymagana.
+- Raport: `podstawowy/raporty/etap-4x215-przeglad-explanation-10-2026-10-30.md`.
+
 ## Bieżąca migawka — etap 4x214 (30.10.2026)
 
 - Bank: 651 pytań `needs_review`, zero `verified`; blob `ad4a2e8a6f24688846944de4b1e6e4ff381f37ec`.
