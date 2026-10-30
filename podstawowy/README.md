@@ -1,3 +1,5 @@
+- [Etap 4x218 — przegląd 10 explanation](raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md): aktualizacja wyjaśnień dla kursanta.
+
 # ADR podstawowy — kurs i bank pytań
 
 ## Ostatnia kontrola jakości
