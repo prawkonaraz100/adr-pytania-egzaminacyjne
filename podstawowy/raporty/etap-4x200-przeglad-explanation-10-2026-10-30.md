@@ -6,7 +6,7 @@ Data: 2026-10-30. Punkt wyjścia: świeży `main`, commit `e0c9a0c4265984680ca77
 
 ADR-B-0450, ADR-B-0455, ADR-B-0536, ADR-B-0538, ADR-B-0571, ADR-B-0579, ADR-B-0172, ADR-B-0179, ADR-B-0373 i ADR-B-0006.
 
-Wybrano krótkie lub skrótowe wyjaśnienia spośród pytań, których nie obejmowały raporty 4x156–4x199. Dodatkowo wykluczono dziesięć pytań zmienionych w etapie 4x177. Wybrane explanation miały 374–378 znaków przed redakcją. Zakres wyłącznie kurs podstawowy.
+Wybrano krótkie lub skrótowe wyjaśnienia spośród pytań, których nie obejmowały raporty 4x156–4x199. Dodatkowo wykluczono dziesięć pytań zmienionych w etapie 4x177. Wybrane explanation miały 374–376 znaków przed redakcją. Zakres wyłącznie kurs podstawowy.
 
 ## Redakcja
 
