@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x206 (30.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `e0d22d6381f5f6fff745d79366c820ee3fa72118`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `db7c479c7e13e6a7a2e108e9c24e287988699dd2`.
 - Raport: `podstawowy/raporty/etap-4x206-przeglad-explanation-10-2026-10-30.md`.
 - Poprawiono wyłącznie explanation dla ADR-B-0014, 0046, 0239, 0261, 0315, 0331, 0349, 0398, 0467 i 0545. Snapshoty sequential/legal oraz egzaminy 001–005 wskazują aktualny bank.
 - Brak zmian pytań, A/B/C, kluczy, źródeł i statusów; wszystkie rekordy pozostają `needs_review`. Niezależna recenzja prawna specjalisty nadal wymagana. Zakres wyłącznie kurs podstawowy ADR.
