@@ -7,3 +7,8 @@ Zakres: ADR-B-0062, ADR-B-0114, ADR-B-0115, ADR-B-0139, ADR-B-0243, ADR-B-0325, 
 Wybrano dziesięć kolejnych wyjaśnień niezmienianych od bazy sprzed drugiego przeglądu 4x156. Wyłączono pytania dotyczące cystern i kursu specjalistycznego. Zmieniono tylko pole `explanation`: prosty język dla kursanta, 2–5 zdań, 200–500 znaków, kolejność: sens poprawnej odpowiedzi, wyjaśnienie błędnych wariantów, krótka podstawa ADR.
 
 Nie zmieniono treści pytań, odpowiedzi A/B/C, kluczy, źródeł ani statusów. Bank: 651 `needs_review`, zero `verified`. Nowy blob: `6cca7515fde98201064ffc17c9820fd3c176a8f6`. Wymagana synchronizacja egzaminów próbnych 001–005, snapshotów sequential/legal, manifestów i pełny PASS Quality Gate przed scaleniem. Redakcja dydaktyczna nie zastępuje recenzji prawnej. Wyłącznie kurs podstawowy.
+
+
+## Korekta Quality Gate
+
+Pierwszy przebieg CI wykrył, że explanation ADR-B-0243 miało 291 znaków, poniżej obowiązującego minimum 300. Rozszerzono je o praktyczną wskazówkę dla kursanta; teraz mieści się w limicie 300–500 znaków. Pozostałe wyjaśnienia spełniają limit. Nie zmieniono pytania, odpowiedzi ani statusu.
