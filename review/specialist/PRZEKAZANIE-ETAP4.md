@@ -1,3 +1,8 @@
+## Bieżąca migawka 4x218 — 2026-10-30
+
+- Bank: 651 rekordów `needs_review`, 0 `verified`; blob SHA `8f608f4f6f3a453a92709ca557b575ded88dc2f4`.
+- Raport: `podstawowy/raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md`. Drugi przegląd redakcyjny, nie zatwierdzenie prawne.
+
 - Etap 4x218: przegląd 10 explanation (ADR-B-0050, 0056, 0068, 0234, 0312, 0411, 0416, 0477, 0516, 0519), raport `podstawowy/raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md`; nadal wszystkie `needs_review`.
 
 ## Bieżąca migawka — etap 4x217 (30.10.2026)
