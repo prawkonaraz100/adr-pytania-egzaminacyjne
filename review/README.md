@@ -1,66 +1,66 @@
-## Bieżąca migawka — etap 4x198 (30.10.2026)
+## Bieżąca migawka — etap 4x199 (30.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
-- Drugi przegląd 10 explanation dla kursanta, raport: `podstawowy/raporty/etap-4x198-przeglad-explanation-10-2026-10-30.md`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; SHA `8f6986e39afe04853760771925636b5853fa7818`.
+- Drugi przegląd 10 explanation dla kursanta, raport: `podstawowy/raporty/etap-4x199-przeglad-explanation-10-2026-10-30.md`.
 - Zmiany redakcyjne bez zatwierdzenia prawnego; audyty i egzaminy synchronizowane do bieżącej migawki.
 
 ## Bieżąca migawka — etap 4x176 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `8f6986e39afe04853760771925636b5853fa7818`.
 - Raport: `podstawowy/raporty/etap-4x176-przeglad-explanation-10-2026-10-29.md`.
 - Przepisano 10 explanation; pytania, warianty, klucze, źródła i statusy bez zmian. Snapshoty audytów, egzaminy 001–005 i manifesty zsynchronizowane z bieżącym bankiem; niezależna recenzja ADR nadal wymagana.
 
 ## Bieżąca migawka — etap 4x176 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `8f6986e39afe04853760771925636b5853fa7818`.
 - Raport: `podstawowy/raporty/etap-4x176-przeglad-explanation-10-2026-10-29.md`.
 - Przepisano 10 explanation; pytania, warianty, klucze, źródła i statusy bez zmian. Snapshoty audytów, egzaminy 001–005 i manifesty zsynchronizowane z bieżącym bankiem; niezależna recenzja ADR nadal wymagana.
 
 ## Bieżąca migawka — etap 4x175 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `8f6986e39afe04853760771925636b5853fa7818`.
 - Raport: `podstawowy/raporty/etap-4x175-przeglad-explanation-10-2026-10-29.md`.
 - Przepisano 10 explanation; pytania, warianty, klucze, źródła i statusy bez zmian. Snapshoty audytów, egzaminy 001–005 i manifesty zsynchronizowane z bieżącym bankiem; niezależna recenzja ADR nadal wymagana.
 
 ## Bieżąca migawka — etap 4x174 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `8f6986e39afe04853760771925636b5853fa7818`.
 - Raport: `podstawowy/raporty/etap-4x174-przeglad-explanation-10-2026-10-29.md`.
 - Przepisano 10 explanation; pytania, warianty, klucze, źródła i statusy bez zmian. Snapshoty audytów, egzaminy 001–005 i manifesty synchronizowane z bieżącym bankiem; niezależna recenzja ADR nadal wymagana.
 
 ## Bieżąca migawka — etap 4x173 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `8f6986e39afe04853760771925636b5853fa7818`.
 - Raport: `podstawowy/raporty/etap-4x173-przeglad-explanation-10-2026-10-29.md`.
 - Przepisano 10 explanation; pytania, warianty, klucze, źródła i statusy bez zmian. Snapshoty audytów, egzaminy 001–005 i manifesty zsynchronizowane z bieżącym bankiem; niezależna recenzja ADR nadal wymagana.
 
 ## Bieżąca migawka — etap 4x172 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `8f6986e39afe04853760771925636b5853fa7818`.
 - Raport: `podstawowy/raporty/etap-4x172-przeglad-explanation-10-2026-10-29.md`.
 - Przepisano 10 explanation; pytania, warianty, klucze, źródła i statusy bez zmian. Snapshoty audytów, egzaminy 001–005 i manifesty synchronizowane z aktualnym bankiem; niezależna recenzja ADR nadal wymagana.
 
 ## Bieżąca migawka — etap 4x171 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `8f6986e39afe04853760771925636b5853fa7818`.
 - Raport: `podstawowy/raporty/etap-4x171-przeglad-explanation-10-2026-10-29.md`.
 - Przepisano 10 wyjaśnień dla kursanta. Pytania, opcje, klucze i podstawy prawne bez zmian. Snapshoty i egzaminy 001–005 zsynchronizowane; niezależna recenzja specjalisty ADR nadal wymagana.
 
 ## Bieżąca migawka — etap 4x159 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `8f6986e39afe04853760771925636b5853fa7818`.
 - Raport: `podstawowy/raporty/etap-4x159-przeglad-explanation-30-2026-10-29.md`.
 - Kolejne 30 explanation zostało poprawionych prostym językiem dla kursanta. Pytania, A/B/C, klucze i podstawy prawne bez zmian. Zaktualizowano snapshoty audytu i egzaminy 001–005. Brak zatwierdzenia przez niezależnego specjalistę ADR.
 
 ## Bieżąca migawka — etap 4x158 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `8f6986e39afe04853760771925636b5853fa7818`.
 - Raport: `podstawowy/raporty/etap-4x158-przeglad-explanation-30-2026-10-29.md`.
 - Przepisano 30 explanation dla początkującego kursanta; treści pytań, A/B/C, klucze i podstawy prawne bez zmian. Zaktualizowano snapshoty audytu oraz powiązania z egzaminami 001–005. Redakcja nie jest formalną aprobatą prawną.
 
 ## Bieżąca migawka — etap 4x156
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `a33ce9c37dca76e3e9d63855fde77f7c2544decd`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `8f6986e39afe04853760771925636b5853fa7818`.
 - Raport: `podstawowy/raporty/etap-4x156-przeglad-explanation-0611-0647-2026-10-29.md`.
 - Drugi przegląd dydaktyczny: 30 poprawionych explanation; pytania, opcje, klucze i statusy bez zmian. Wszystkie pytania nadal wymagają niezależnej recenzji prawnej.
 
