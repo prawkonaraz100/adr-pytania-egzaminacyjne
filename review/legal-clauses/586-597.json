@@ -197,15 +197,15 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawna opcja: „Umieścić instrukcje w kabinie tak, by załoga szybko mogła po nie sięgnąć”. W nagłym zdarzeniu załoga musi móc szybko odczytać instrukcje, dlatego powinny być łatwo dostępne w kabinie. Pamięć kierowcy nie zastępuje pełnych wskazówek, a dokument w biurze jest poza zasięgiem podczas zdarzenia. Przed wyjazdem sprawdź nie tylko obecność instrukcji, lecz także możliwość ich natychmiastowego użycia. Podstawa: ADR 5.4.3.1 i 8.1.2.3. To wstępna ocena redakcyjna; niezależna kontrola przepisu pozostaje otwarta."
+          "rationale": "Poprawna opcja: „Umieścić instrukcje w kabinie tak, by załoga szybko mogła po nie sięgnąć”. Instrukcje pisemne ADR mają pomóc załodze szybko zareagować podczas awarii, dlatego muszą być w kabinie i łatwo dostępne. Nie wystarczy, że kierowca pamięta numer alarmowy albo że dokument znajduje się w biurze lub w miejscu, do którego nie można sięgnąć. Przed odjazdem sprawdź, czy każdy członek załogi może natychmiast po nie sięgnąć. Podstawa: ADR 5.4.3.1 i 8.1.2.3. To wstępna ocena redakcyjna; niezależna kontrola przepisu pozostaje otwarta."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja „Zostawić je w schowku, jeśli kierowca pamięta numer telefonu alarmowego” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Umieścić instrukcje w kabinie tak, by załoga szybko mogła po nie sięgnąć”. W nagłym zdarzeniu załoga musi móc szybko odczytać instrukcje, dlatego powinny być łatwo dostępne w kabinie. Pamięć kierowcy nie zastępuje pełnych wskazówek, a dokument w biurze jest poza zasięgiem podczas zdarzenia. Przed wyjazdem sprawdź nie tylko obecność instrukcji, lecz także możliwość ich natychmiastowego użycia. Podstawa: ADR 5.4.3.1 i 8.1.2.3. Podstawa wskazana do sprawdzenia: ADR 2025, 5.4.3.1; 8.1.2.3."
+          "rationale": "Opcja „Zostawić je w schowku, jeśli kierowca pamięta numer telefonu alarmowego” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Umieścić instrukcje w kabinie tak, by załoga szybko mogła po nie sięgnąć”. Instrukcje pisemne ADR mają pomóc załodze szybko zareagować podczas awarii, dlatego muszą być w kabinie i łatwo dostępne. Nie wystarczy, że kierowca pamięta numer alarmowy albo że dokument znajduje się w biurze lub w miejscu, do którego nie można sięgnąć. Przed odjazdem sprawdź, czy każdy członek załogi może natychmiast po nie sięgnąć. Podstawa: ADR 5.4.3.1 i 8.1.2.3. Podstawa wskazana do sprawdzenia: ADR 2025, 5.4.3.1; 8.1.2.3."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja „Przenieść je do biura, a w pojeździe pozostawić tylko dokument przewozowy” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Umieścić instrukcje w kabinie tak, by załoga szybko mogła po nie sięgnąć”. W nagłym zdarzeniu załoga musi móc szybko odczytać instrukcje, dlatego powinny być łatwo dostępne w kabinie. Pamięć kierowcy nie zastępuje pełnych wskazówek, a dokument w biurze jest poza zasięgiem podczas zdarzenia. Przed wyjazdem sprawdź nie tylko obecność instrukcji, lecz także możliwość ich natychmiastowego użycia. Podstawa: ADR 5.4.3.1 i 8.1.2.3. Podstawa wskazana do sprawdzenia: ADR 2025, 5.4.3.1; 8.1.2.3."
+          "rationale": "Opcja „Przenieść je do biura, a w pojeździe pozostawić tylko dokument przewozowy” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Umieścić instrukcje w kabinie tak, by załoga szybko mogła po nie sięgnąć”. Instrukcje pisemne ADR mają pomóc załodze szybko zareagować podczas awarii, dlatego muszą być w kabinie i łatwo dostępne. Nie wystarczy, że kierowca pamięta numer alarmowy albo że dokument znajduje się w biurze lub w miejscu, do którego nie można sięgnąć. Przed odjazdem sprawdź, czy każdy członek załogi może natychmiast po nie sięgnąć. Podstawa: ADR 5.4.3.1 i 8.1.2.3. Podstawa wskazana do sprawdzenia: ADR 2025, 5.4.3.1; 8.1.2.3."
         }
       },
       "observed_answer_key": "A",
@@ -224,7 +224,7 @@
           "C": "Przenieść je do biura, a w pojeździe pozostawić tylko dokument przewozowy"
         },
         "correct_option": "A",
-        "explanation": "W nagłym zdarzeniu załoga musi móc szybko odczytać instrukcje, dlatego powinny być łatwo dostępne w kabinie. Pamięć kierowcy nie zastępuje pełnych wskazówek, a dokument w biurze jest poza zasięgiem podczas zdarzenia. Przed wyjazdem sprawdź nie tylko obecność instrukcji, lecz także możliwość ich natychmiastowego użycia. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
+        "explanation": "Instrukcje pisemne ADR mają pomóc załodze szybko zareagować podczas awarii, dlatego muszą być w kabinie i łatwo dostępne. Nie wystarczy, że kierowca pamięta numer alarmowy albo że dokument znajduje się w biurze lub w miejscu, do którego nie można sięgnąć. Przed odjazdem sprawdź, czy każdy członek załogi może natychmiast po nie sięgnąć. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -271,7 +271,7 @@
           "C": "Zignorować znak, jeśli numer UN jest prawidłowy, a pojazd i ładunek wyglądają na bezpieczne."
         },
         "correct_option": "B",
-        "explanation": "Przed wjazdem trzeba sprawdzić, czy przewóz może korzystać z danego tunelu, biorąc pod uwagę kod tunelowy i oznakowanie drogi. Krótsza trasa nie uchyla ograniczenia, a prawidłowy numer UN (identyfikator towaru niebezpiecznego) w dokumencie nie daje automatycznego prawa wjazdu. W razie zakazu należy wybrać dozwoloną trasę. Podstawa: ADR 8.6.3 i 8.6.4.",
+        "explanation": "Przed wjazdem do tunelu kierowca musi porównać kod tunelowy przewożonego towaru z kategorią tunelu i uwzględnić znaki na drodze. Krótsza trasa ani prawidłowy numer UN nie dają prawa do zignorowania zakazu. Jeżeli kod lub oznakowanie wyklucza przejazd, trzeba wybrać inną, dozwoloną trasę. Podstawa: ADR 8.6.3 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
