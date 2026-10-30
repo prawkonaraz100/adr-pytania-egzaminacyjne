@@ -135,7 +135,7 @@
           "C": "Sprawdzić, czy dane z 5.4.1.1.1 podano w wymaganej kolejności"
         },
         "correct_option": "C",
-        "explanation": "Dane wymagane w opisie towaru nie mogą być wpisywane w przypadkowej kolejności. ADR określa kolejność podstawowych elementów, takich jak numer UN (identyfikator towaru niebezpiecznego), nazwa przewozowa, klasa, grupa pakowania i kod tunelowy, z uwzględnieniem szczególnych wyjątków. Dowolna zamiana pól może utrudnić prawidłowe odczytanie dokumentu. Podstawa: ADR 5.4.1.1.1.",
+        "explanation": "Opis towaru w dokumencie przewozowym musi zachować kolejność elementów określoną w ADR. Nie wystarczy, że wszystkie dane są gdzieś wpisane: dowolne przestawienie nazwy przewozowej, numeru UN, klasy czy kodu tunelowego może utrudnić odczyt. Przed wyjazdem sprawdź wymagany układ i wyjątki. Podstawa: ADR 5.4.1.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -229,7 +229,7 @@
           "C": "Zastąpić dokumentację ustnym przekazaniem informacji każdemu z kierowców"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli ładunek zostaje rozdzielony między kilka jednostek transportowych, dokumentacja musi być dostępna dla każdej z nich. Dlatego należy przygotować tyle odrębnych dokumentów lub kopii, ile załadowano jednostek. Jeden dokument pozostawiony w wybranym pojeździe ani ustne przekazanie danych nie zapewnia wymaganej dokumentacji pozostałym kierowcom. Podstawa: ADR 5.4.1.4.2.",
+        "explanation": "Gdy jedna przesyłka jest podzielona między dwa pojazdy, dokument przewozowy lub jego kopia musi towarzyszyć każdej jednostce transportowej. Jeden egzemplarz pozostawiony tylko w pierwszym pojeździe nie dokumentuje ładunku w drugim. Ustne przekazanie danych kierowcy również nie zastępuje dokumentu. Podstawa: ADR 5.4.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
