@@ -27,7 +27,7 @@
           "C": "Pominąć oba kody tunelowe, ponieważ towary są opisane w oddzielnych pozycjach"
         },
         "correct_option": "B",
-        "explanation": "Przy kilku towarach trzeba zastosować najbardziej restrykcyjny kod tunelowy, ale z uwzględnieniem postaci przewozu. Dla sztuk przesyłek kod D/E ogranicza kategorię E, a B/D ogranicza kategorie D i E; sam kod B/D nie zakazuje kategorii C. Nie można pomijać kodów tylko dlatego, że towary są w oddzielnych przesyłkach. Podstawa: ADR 8.6.3.2 i 8.6.4.",
+        "explanation": "Dla przewozu w sztukach przesyłek kod tunelowy B/D zabrania przejazdu przez tunele kategorii D i E, ale nie C. Kod D/E dla takich przesyłek ogranicza kategorię E, więc w podanej sytuacji nie powoduje zakazu w tunelu C. Nie wolno pomijać kodów tylko dlatego, że towary są na dwóch pozycjach dokumentu. Przed trasą sprawdź najbardziej restrykcyjny właściwy kod. Podstawa: ADR 8.6.3.2 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
