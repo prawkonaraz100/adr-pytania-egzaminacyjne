@@ -22,11 +22,12 @@ Odświeżono istniejące snapshoty `review/sequential` i `review/legal-clauses` 
 - ADR-B-0134 i ADR-B-0141 — 121-150
 - ADR-B-0160 — 151-180
 - ADR-B-0208 — 181-210
+- ADR-B-0220 — 219-228
 - ADR-B-0302 — 301-303
 - ADR-B-0369 — 363-380
 - ADR-B-0418 — 417-436
 
-Dla ADR-B-0220 nie znaleziono istniejącego rekordu w dostępnych snapshotach sekwencyjnych ani prawnych (sprawdzono zakres 211-216 i sąsiednie zakresy); nie utworzono sztucznego wpisu ani nie zmieniono struktury audytu.
+Snapshoty dla wszystkich dziesięciu ID zostały odświeżone; rekord ADR-B-0220 znajduje się w plikach 219-228.
 
 Zsynchronizowano `source_bank_head` we wszystkich wariantach i kluczach egzaminów próbnych 001–005; każdy wariant zachowuje 30 pytań, a każdy klucz 30 odpowiedzi. Zaktualizowano explanation w kluczu 001 dla ADR-B-0369, gdzie występuje to pytanie. Zaktualizowano referencje SHA banku w README audytu, dokumentach pakietu specjalisty, kolejkach recenzyjnych i manifeście próbkowym.
 
