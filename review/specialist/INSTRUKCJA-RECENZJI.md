@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x156 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `de3458fe9606727277f74a10594ca838b33c86ff`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `1150fbbdab6d468fae71f42ff5d998e712ece2c7`.
 - Raport: `podstawowy/raporty/etap-4x156-przeglad-explanation-0611-0647-2026-10-29.md`.
 - Przepisano 30 wyjaśnień ADR-B-0611–0638 i ADR-B-0646–0647; nie zmieniono pytań, opcji ani kluczy. Egzaminy i manifesty odświeżone; wszystkie rekordy nadal `needs_review`. Redakcja nie zastępuje recenzji prawnej.
 
