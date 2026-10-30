@@ -18,3 +18,15 @@ Zmiana banku została zapisana na gałęzi `stage4x179-explanations-batch20`. Pr
 
 ## Ograniczenia
 Redakcja dydaktyczna nie stanowi niezależnej recenzji prawnej. Niezależny specjalista ADR nadal musi zweryfikować pytania i podstawy prawne. Zakres obejmuje wyłącznie kurs podstawowy; kurs cysterny pozostaje poza zakresem.
+
+## Naprawa Quality Gate (30.10.2026)
+
+Pierwszy przebieg CI wykazał:
+- rozbieżne explanation w kluczach wariantów 004–005 dla ADR-B-0559, ADR-B-0430 i ADR-B-0254;
+- nieaktualny SHA banku w manifeście pakietu specjalisty, obu kolejkach prawnych, dokumentach przekazania/rejestrze oraz manifeście próbki;
+- nieaktualne explanation w snapshotach audytu sekwencyjnego i porównania klauzul prawnych.
+
+Naprawiono synchronizację wszystkich pięciu kluczy 001–005 i sprawdzono zgodność wyjaśnień z bankiem po mapowaniu liter odpowiedzi. Zaktualizowano SHA w manifeście i kolejkach oraz plikach prowadzących pakiet specjalisty. Odświeżono snapshoty dla wszystkich dziesięciu ID:
+- `review/sequential` i `review/legal-clauses`: 121-150, 181-210, 217-218, 241-246, 251-254, 325-344, 417-436, 546-560, 586-597, 598-609.
+
+Żaden test ani próg Quality Gate nie został wyłączony lub poluzowany. Statusy wszystkich pytań pozostają `needs_review`; brak formalnej aprobaty prawnej.
