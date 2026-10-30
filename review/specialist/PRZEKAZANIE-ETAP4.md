@@ -1,10 +1,10 @@
-- Etap 4x220: drugi przegląd 10 explanation (ADR-B-0426, 0121, 0414, 0487, 0455, 0170, 0560, 0538, 0151, 0172); raport `podstawowy/raporty/etap-4x220-przeglad-explanation-10-2026-10-30.md`; bank SHA `f3eb789d03a0fbf6e62b091d7d84f67f57579834`; statusy `needs_review`.
+- Etap 4x220: drugi przegląd 10 explanation (ADR-B-0426, 0121, 0414, 0487, 0455, 0170, 0560, 0538, 0151, 0172); raport `podstawowy/raporty/etap-4x220-przeglad-explanation-10-2026-10-30.md`; bank SHA `3d123c9eb504e5970cd3f032f7dda59fb332ff93`; statusy `needs_review`.
 
-- Etap 4x219: drugi przegląd 10 explanation (ADR-B-0579, 0418, 0544, 0409, 0368, 0096, 0299, 0563, 0010, 0107); raport `podstawowy/raporty/etap-4x219-przeglad-explanation-10-2026-10-30.md`; bank SHA `f3eb789d03a0fbf6e62b091d7d84f67f57579834`; wszystkie statusy `needs_review`.
+- Etap 4x219: drugi przegląd 10 explanation (ADR-B-0579, 0418, 0544, 0409, 0368, 0096, 0299, 0563, 0010, 0107); raport `podstawowy/raporty/etap-4x219-przeglad-explanation-10-2026-10-30.md`; bank SHA `3d123c9eb504e5970cd3f032f7dda59fb332ff93`; wszystkie statusy `needs_review`.
 
 ## Bieżąca migawka 4x218 — 2026-10-30
 
-- Bank: 651 rekordów `needs_review`, 0 `verified`; blob SHA `f3eb789d03a0fbf6e62b091d7d84f67f57579834`.
+- Bank: 651 rekordów `needs_review`, 0 `verified`; blob SHA `3d123c9eb504e5970cd3f032f7dda59fb332ff93`.
 - Raport: `podstawowy/raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md`. Drugi przegląd redakcyjny, nie zatwierdzenie prawne.
 
 - Etap 4x218: przegląd 10 explanation (ADR-B-0050, 0056, 0068, 0234, 0312, 0411, 0416, 0477, 0516, 0519), raport `podstawowy/raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md`; nadal wszystkie `needs_review`.
