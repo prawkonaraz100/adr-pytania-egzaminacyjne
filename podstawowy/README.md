@@ -1,4 +1,4 @@
-- Etap 4x219: drugi przegląd 10 explanation (ADR-B-0579, 0418, 0544, 0409, 0368, 0096, 0299, 0563, 0010, 0107); raport `podstawowy/raporty/etap-4x219-przeglad-explanation-10-2026-10-30.md`; bank SHA `59409bc1bea581f23b6ac03f118679b9d056fb5a`; wszystkie statusy `needs_review`.
+- Etap 4x219: drugi przegląd 10 explanation (ADR-B-0579, 0418, 0544, 0409, 0368, 0096, 0299, 0563, 0010, 0107); raport `podstawowy/raporty/etap-4x219-przeglad-explanation-10-2026-10-30.md`; bank SHA `f3eb789d03a0fbf6e62b091d7d84f67f57579834`; wszystkie statusy `needs_review`.
 
 - [Etap 4x218 — przegląd 10 explanation](raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md): aktualizacja wyjaśnień dla kursanta.
 
