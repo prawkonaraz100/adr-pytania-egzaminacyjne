@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x209 (30.10.2026)
+
+- Bank: 651 pytań `needs_review`, zero `verified`; blob `3a88e344cccb5f972fd3bdbdb9d65462f70b3390`.
+- Drugi przegląd: ADR-B-0008, 0025, 0186, 0214, 0215, 0435, 0456, 0512, 0546, 0558.
+- Synchronizacja egzaminów 001–005, snapshotów sequential/legal oraz dokumentów pakietu; recenzja ekspercka nadal wymagana.
+- Raport: `podstawowy/raporty/etap-4x209-przeglad-explanation-10-2026-10-30.md`.
+
 ## Bieżąca migawka — etap 4x208 (30.10.2026)
 
 - Bank 651 pytań `needs_review`, zero `verified`, SHA `1f19de9e17de568b4ed4802320aaceeab71a2912`.

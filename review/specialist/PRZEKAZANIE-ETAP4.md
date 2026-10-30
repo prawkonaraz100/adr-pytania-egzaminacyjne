@@ -1,3 +1,7 @@
+## Bieżąca migawka — etap 4x209 (30.10.2026)
+
+Bank: 651 `needs_review`, 0 `verified`; blob `3a88e344cccb5f972fd3bdbdb9d65462f70b3390`. Raport: `podstawowy/raporty/etap-4x209-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
+
 ## Bieżąca migawka — etap 4x208 (30.10.2026)
 
 Bank: 651 `needs_review`, 0 `verified`; blob `1f19de9e17de568b4ed4802320aaceeab71a2912`. Raport: `podstawowy/raporty/etap-4x208-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
