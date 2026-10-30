@@ -1,3 +1,8 @@
+## Bieżąca migawka 4x218 — 2026-10-30
+
+- Bank: 651 rekordów `needs_review`, 0 `verified`; blob SHA `8f608f4f6f3a453a92709ca557b575ded88dc2f4`.
+- Raport: `podstawowy/raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md`. Drugi przegląd redakcyjny, nie zatwierdzenie prawne.
+
 ## Bieżąca migawka — etap 4x217 (30.10.2026)
 
 - Bank: 651 pytań `needs_review`, zero `verified`; blob `4b843273ac549c0201b2a5985d01f17d09cdf8bc`.
