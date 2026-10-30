@@ -1,18 +1,18 @@
-## Bieżąca migawka — etap 4x189 (29.10.2026)
+## Bieżąca migawka — etap 4x190 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `014ec9af38e3020565419ee3ef771a1bce25d190`.
-- Raport: `podstawowy/raporty/etap-4x189-przeglad-explanation-10-2026-10-30.md`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `052a34589815383738d49984aa4ff5f65bea5fb0`.
+- Raport: `podstawowy/raporty/etap-4x190-przeglad-explanation-10-2026-10-30.md`.
 - Kolejne 30 explanation zostało poprawionych prostym językiem dla kursanta. Pytania, A/B/C, klucze i podstawy prawne bez zmian. Zaktualizowano snapshoty audytu i egzaminy 001–005. Brak zatwierdzenia przez niezależnego specjalistę ADR.
 
 ## Bieżąca migawka — etap 4x158 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `014ec9af38e3020565419ee3ef771a1bce25d190`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `052a34589815383738d49984aa4ff5f65bea5fb0`.
 - Raport: `podstawowy/raporty/etap-4x158-przeglad-explanation-30-2026-10-29.md`.
 - Przepisano 30 explanation dla początkującego kursanta; treści pytań, A/B/C, klucze i podstawy prawne bez zmian. Zaktualizowano snapshoty audytu oraz powiązania z egzaminami 001–005. Redakcja nie jest formalną aprobatą prawną.
 
 ## Bieżąca migawka — etap 4x156
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `014ec9af38e3020565419ee3ef771a1bce25d190`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `052a34589815383738d49984aa4ff5f65bea5fb0`.
 - Raport: `podstawowy/raporty/etap-4x156-przeglad-explanation-0611-0647-2026-10-29.md`.
 - Poprawiono 30 explanation, zachowując stem, A/B/C, klucz i podstawę ADR. Synchronizowane są arkusze/klucze 001–005 i manifesty recenzyjne.
 - Przegląd dydaktyczny nie stanowi niezależnego zatwierdzenia prawnego; wszystkie pytania pozostają `needs_review`.
