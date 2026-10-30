@@ -221,7 +221,7 @@
       "number": 22,
       "id": "ADR-B-0433",
       "correct_option": "A",
-      "explanation": "Litera E na znaku oznacza kategorię tunelu, a kierowca musi porównać ją z kodem tunelowym towaru. Nie każdy przewóz ADR jest automatycznie zabroniony w każdym tunelu tej kategorii, więc trzeba sprawdzić konkretny kod, a nie zakładać zakazu dla wszystkich. Sama nalepka klasy zagrożenia również nie zastępuje tej kontroli. Podstawa: ADR 1.9.5.3.5 i 8.6.3.",
+      "explanation": "Litera E oznacza kategorię tunelu, a nie automatyczny zakaz wjazdu dla każdego pojazdu ADR. Kierowca musi porównać kategorię tunelu z kodem tunelowym towaru i uwzględnić oznakowanie drogi. Sama nalepka klasy zagrożenia nie wystarcza do oceny, czy przejazd jest dozwolony; gdy kod wyklucza wjazd, trzeba wybrać inną trasę. Podstawa: ADR 1.9.5.3.5 i 8.6.3.",
       "legal_basis": [
         "ADR 2025, 1.9.5.3.5"
       ],
@@ -308,5 +308,5 @@
       "lesson_path": "../lekcje/ADR-B-12.md"
     }
   ],
-  "source_bank_head": "2767fdc1ddd2fba3d5e443a06a8e0a9b387d414c"
+  "source_bank_head": "014ec9af38e3020565419ee3ef771a1bce25d190"
 }
