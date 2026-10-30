@@ -31,6 +31,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x214 — drugi przegląd wyjaśnień](raporty/etap-4x214-przeglad-explanation-10-2026-10-30.md)
 - [Etap 4x213 — drugi przegląd wyjaśnień](raporty/etap-4x213-przeglad-explanation-10-2026-10-30.md)
 - [Etap 4x212 — drugi przegląd wyjaśnień](raporty/etap-4x212-przeglad-explanation-10-2026-10-30.md)
 - [Etap 4x211 — drugi przegląd wyjaśnień](raporty/etap-4x211-przeglad-explanation-10-2026-10-30.md)
