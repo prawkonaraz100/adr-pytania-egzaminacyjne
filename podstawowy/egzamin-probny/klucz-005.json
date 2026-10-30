@@ -121,7 +121,7 @@
       "number": 12,
       "id": "ADR-B-0575",
       "correct_option": "C",
-      "explanation": "Kolumna 15 tabeli A podaje kod ograniczenia przejazdu przez tunele dla danego towaru, więc tam należy go sprawdzić. Kolumna 14 dotyczy kategorii transportowej, a kolumna 4 grupy pakowania; obie są ważnymi danymi, ale nie zastępują kodu tunelowego. Po odczytaniu kodu trzeba jeszcze uwzględnić kategorię tunelu i sposób przewozu. Podstawa: ADR 3.2.1, tabela A, kolumny 4, 14 i 15; 8.6.3.1.",
+      "explanation": "Kod ograniczenia przejazdu przez tunele odczytujesz w kolumnie 15 tabeli A przy właściwym numerze UN. Kolumna 14 służy do innych danych, w tym kategorii transportowej, a kolumna 4 dotyczy grupy pakowania; nie podają one poszukiwanego kodu. Po znalezieniu kodu sprawdź jeszcze sposób przewozu i kategorię tunelu. Podstawa: ADR 3.2.1 i 8.6.3.1.",
       "legal_basis": [
         "ADR 2025, 3.2.1 kolumna 15; 8.6.3.1"
       ],
@@ -308,5 +308,5 @@
       "lesson_path": "../lekcje/ADR-B-07.md"
     }
   ],
-  "source_bank_head": "76d92ca83bd18135f8c6ca12fc4b8f1c72ffd2f1"
+  "source_bank_head": "1f19de9e17de568b4ed4802320aaceeab71a2912"
 }
