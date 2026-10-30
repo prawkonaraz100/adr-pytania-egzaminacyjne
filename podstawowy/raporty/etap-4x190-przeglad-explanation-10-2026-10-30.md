@@ -24,9 +24,8 @@ Odświeżono istniejące snapshoty `review/sequential` i `review/legal-clauses` 
 - ADR-B-0396 — 381-398
 - ADR-B-0400 — 399-416
 - ADR-B-0437 — 437-446
-- ADR-B-0649 — 629-651
-
-Dla ADR-B-0508 i ADR-B-0642 nie znaleziono istniejących rekordów snapshotów w tych rejestrach, więc nie utworzono sztucznych wpisów. Zsynchronizowano `source_bank_head` w wariantach i kluczach egzaminów próbnych 001–005; wyjaśnienia w kluczach 001 i 005 odświeżono dla występujących tam pytań. Zaktualizowano referencje SHA w dokumentach pakietu recenzyjnego.
+- ADR-B-0508 — 507-509
+- ADR-B-0642 i ADR-B-0649 — 629-651 Zsynchronizowano `source_bank_head` w wariantach i kluczach egzaminów próbnych 001–005; wyjaśnienia w kluczach 001 i 005 odświeżono dla występujących tam pytań. Zaktualizowano referencje SHA w dokumentach pakietu recenzyjnego.
 
 ## Status
 
