@@ -1,19 +1,19 @@
 ## Bieżąca migawka — etap 4x206 (30.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `2c1fc2acc0e42f821624174c0bb3917c72d657b2`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `76d92ca83bd18135f8c6ca12fc4b8f1c72ffd2f1`.
 - Raport: `podstawowy/raporty/etap-4x206-przeglad-explanation-10-2026-10-30.md`.
 - Poprawiono wyłącznie explanation dla ADR-B-0014, 0046, 0239, 0261, 0315, 0331, 0349, 0398, 0467 i 0545. Snapshoty sequential/legal oraz egzaminy 001–005 wskazują aktualny bank.
 - Brak zmian pytań, A/B/C, kluczy, źródeł i statusów; wszystkie rekordy pozostają `needs_review`. Niezależna recenzja prawna specjalisty nadal wymagana. Zakres wyłącznie kurs podstawowy ADR.
 
 ## Bieżąca migawka — etap 4x158 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `2c1fc2acc0e42f821624174c0bb3917c72d657b2`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `76d92ca83bd18135f8c6ca12fc4b8f1c72ffd2f1`.
 - Raport: `podstawowy/raporty/etap-4x158-przeglad-explanation-30-2026-10-29.md`.
 - Przepisano 30 explanation dla początkującego kursanta; treści pytań, A/B/C, klucze i podstawy prawne bez zmian. Zaktualizowano snapshoty audytu oraz powiązania z egzaminami 001–005. Redakcja nie jest formalną aprobatą prawną.
 
 ## Bieżąca migawka — etap 4x156 (29.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `2c1fc2acc0e42f821624174c0bb3917c72d657b2`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `76d92ca83bd18135f8c6ca12fc4b8f1c72ffd2f1`.
 - Raport jakości explanation: `podstawowy/raporty/etap-4x156-przeglad-explanation-0611-0647-2026-10-29.md`.
 - Redakcyjnie poprawiono explanation w 30 rekordach; klucze, pytania i podstawy prawne nie zmieniły się. Niezależna recenzja specjalisty pozostaje otwarta.
 
