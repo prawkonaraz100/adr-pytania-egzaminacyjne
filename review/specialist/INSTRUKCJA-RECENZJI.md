@@ -1,6 +1,6 @@
 ## Bieżący snapshot — 4x218 (30.10.2026)
 
-- Bank 651 pytań `needs_review`, 0 `verified`; aktualny Git blob SHA `59409bc1bea581f23b6ac03f118679b9d056fb5a`.
+- Bank 651 pytań `needs_review`, 0 `verified`; aktualny Git blob SHA `3d123c9eb504e5970cd3f032f7dda59fb332ff93`.
 - Raport: `podstawowy/raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md`. Zmiany tylko explanation, bez recenzji prawnej specjalisty.
 
 ## Bieżąca migawka — etap 4x217 (30.10.2026)
