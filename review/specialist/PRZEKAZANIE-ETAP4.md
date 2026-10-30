@@ -1,3 +1,7 @@
+## Bieżąca migawka — etap 4x207 (30.10.2026)
+
+Bank: 651 `needs_review`, 0 `verified`; blob `76d92ca83bd18135f8c6ca12fc4b8f1c72ffd2f1`. Raport: `podstawowy/raporty/etap-4x207-przeglad-explanation-10-2026-10-30.md`. Bez eksperckiego zatwierdzenia.
+
 ## Bieżąca migawka — etap 4x206 (30.10.2026)
 
 - Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `76d92ca83bd18135f8c6ca12fc4b8f1c72ffd2f1`.
