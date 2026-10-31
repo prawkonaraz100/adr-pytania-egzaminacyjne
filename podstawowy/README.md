@@ -1,3 +1,5 @@
+**Stan na 31.10.2026, etap 4x253**
+
 ## Bieżąca migawka — etap 4x253 (31.10.2026)
 
 - Dodano ADR-B-0679 do ADR-B-01-K07: rozdzielenie klasyfikacji towaru przez nadawcę od kontroli przewoźnika, kompletności danych i wstrzymania przewozu przy brakach (ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3, 5.4.1.1.1).
