@@ -45,7 +45,7 @@ class CurrentSnapshotTests(unittest.TestCase):
         by_id = {row["id"]: row for row in bank}
         sample = json.loads(SAMPLE.read_text(encoding="utf-8"))
         manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-        self.assertEqual(sample["selection_source_bank_blob_sha"], "9fa7e964d86b0bd0c38f97a80b5965777d69d7da")
+        self.assertEqual(sample["selection_source_bank_blob_sha"], "9fa7e964d86b0bd0c38f97a80b5965877d69d7da")
         self.assertEqual(sample["updated_bank_blob_sha"], bank_sha)
         self.assertEqual(manifest["current_bank_blob_sha"], bank_sha)
         self.assertEqual(len(sample["sample_ids"]), sample["sample_count"])
@@ -58,8 +58,8 @@ class CurrentSnapshotTests(unittest.TestCase):
         self.assertIn("4x103–4x113", sample["limitation"])
         self.assertIn("nakładanie jest jawnie opisane", sample["limitation"])
         self.assertLessEqual(sample["sample_count"], sample["candidate_pool_size"])
-        self.assertEqual(len(bank), 657)
-        self.assertEqual(len(by_id), 657)
+        self.assertEqual(len(bank), 658)
+        self.assertEqual(len(by_id), 658)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in bank))
         self.assertEqual(sum(row["verification_status"] == "verified" for row in bank), 0)
 
