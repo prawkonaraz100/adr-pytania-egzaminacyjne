@@ -1,6 +1,11 @@
-## Migawka bieżąca — 4x255
+## Migawka bieżąca — 4x256
 
-Bank podstawowy: 681 pytań, wszystkie needs_review, 0 verified. SHA: `6724b494f6506bf19ca1f71e309dae08818b157b`. Najnowsza zmiana: ADR-B-0681, dodatkowe wyposażenie dla towaru z nalepką 8 (ADR 8.1.5.2). Snapshoty 681-681, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; pełne porównanie polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
+Bank podstawowy: 682 pytań, wszystkie needs_review, 0 verified. SHA: `5bc8851bed5f1fdfcbf2a5f07faccb3174a72006`. Najnowsza zmiana: ADR-B-0682, wyjątek od strzałek kierunkowych dla małych opakowań wewnętrznych (ADR 5.2.1.10.2(b)). Snapshoty 682-682, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
+
+## Poprzednia migawka — 4x255
+
+Bank podstawowy: 681 pytań, wszystkie needs_review, 0 verified. SHA: `6724b494f6506bf19ca1f71e309dae08818b157b`. Najnowsza zmiana: ADR-B-0681, dodatkowe wyposażenie do ochrony kanalizacji.
+
 
 ## Poprzednia migawka — 4x254
 

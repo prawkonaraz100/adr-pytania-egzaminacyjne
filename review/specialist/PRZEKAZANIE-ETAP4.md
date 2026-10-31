@@ -1,12 +1,18 @@
-## Bieżąca migawka — etap 4x255 (31.10.2026)
+## Bieżąca migawka — etap 4x256 (31.10.2026)
 
-- Bank: 681 pytań ADR-B-0001–0681; wszystkie needs_review, 0 verified; SHA `6724b494f6506bf19ca1f71e309dae08818b157b`.
-- ADR-B-0681 do ADR-B-03-K04: dla towaru z nalepką 8 wymagane dodatkowe wyposażenie — łopata, osłona kanalizacyjna i pojemnik (ADR 8.1.5.2).
-- Explanation 325 znaków, 4 zdania; A/B/C 65/66/72, klucz A nie jest najdłuższy.
-- A/B/C: 234/231/216; poprawna = jedyna najdłuższa: 72/681 = 10,57%.
-- Snapshoty: `sequential/681-681.json`, `legal-clauses/681-681.json`; rejestr: `REJESTR-0681-0681.md`.
-- Raport: `podstawowy/raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md`.
-- Dodano ADR-B-0681 do ADR-B-03-K04; podstawa ADR 8.1.5.2. Dokładne porównanie polskiego tekstu i niezależna recenzja pozostają pending.
+- Bank: 682 pytań ADR-B-0001–0682; 682 `needs_review`, 0 `verified`; SHA `5bc8851bed5f1fdfcbf2a5f07faccb3174a72006`.
+- ADR-B-0682 do ADR-B-09-K04: wyjątek od strzałek kierunkowych dla opakowania zewnętrznego z opakowaniami wewnętrznymi do 120 ml i wystarczającym materiałem chłonnym (ADR 5.2.1.10.2(b)).
+- Explanation 449 znaków, 4 zdania; A/B/C 162/142/93; poprawna B nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=234, B=232, C=216.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/682 = 10,56%**; maksimum działu to 13,95%.
+- Snapshoty: `sequential/682-682.json`, `legal-clauses/682-682.json`; rejestr: `REJESTR-0682-0682.md`.
+- Raport: `podstawowy/raporty/etap-4x256-strzalki-kierunkowe-wyjatek-opakowania-2026-10-31.md`.
+- Dodano ADR-B-0682 do ADR-B-09-K04; podstawa ADR 5.2.1.10.1 i 5.2.1.10.2(b). Dokładne porównanie polskiego tekstu i niezależna recenzja pozostają pending.
+
+## Poprzednia migawka — etap 4x255 (31.10.2026)
+
+- Bank: 681 pytań; dodano ADR-B-0681 do ADR-B-03-K04.
+
 
 ## Poprzednia migawka — etap 4x254 (31.10.2026)
 

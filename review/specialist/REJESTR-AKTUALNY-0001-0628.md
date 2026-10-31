@@ -1,8 +1,13 @@
-## Bieżąca migawka — etap 4x255 (31.10.2026)
+## Bieżąca migawka — etap 4x256 (31.10.2026)
 
-- Bank: 681 pytań ADR-B-0001–0681; wszystkie needs_review, 0 verified; SHA `6724b494f6506bf19ca1f71e309dae08818b157b`.
-- ADR-B-0681 do ADR-B-03-K04: dodatkowe wyposażenie dla towaru z nalepką 8 — łopata, osłona kanalizacyjna i pojemnik; ADR 8.1.5.2.
-- 681 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md`.
+- Bank: 682 pytań ADR-B-0001–0682; 682 needs_review, 0 verified; SHA `5bc8851bed5f1fdfcbf2a5f07faccb3174a72006`.
+- ADR-B-0682 do ADR-B-09-K04: wyjątek od strzałek kierunkowych dla opakowań wewnętrznych do 120 ml z wystarczającym materiałem chłonnym; ADR 5.2.1.10.1–5.2.1.10.2(b).
+- 682 wpisy w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x256-strzalki-kierunkowe-wyjatek-opakowania-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x255 (31.10.2026)
+
+- Bank: 681 pytań ADR-B-0001–0681; dodano ADR-B-0681 do ADR-B-03-K04; SHA `6724b494f6506bf19ca1f71e309dae08818b157b`.
+
 
 ## Poprzednia migawka — etap 4x254 (31.10.2026)
 
@@ -856,3 +861,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0679 | ADR-B-01 | ADR-B-01-K07 | Klasyfikacja nowego materiału przez nadawcę; kontrola dopuszczenia i kompletności danych przez przewoźnika przed rozpoczęciem przewozu | B | ADR 2025, 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3; 5.4.1.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0680 | ADR-B-03 | ADR-B-03-K02 | Prefiks „ODPAD” przed prawidłową nazwą przewozową odpadu w dokumencie ADR; karta przekazania odpadu nie zastępuje dokumentu | A | ADR 2025, 5.4.1.1.3.1; 5.4.1.1.1; 1.4.2.2.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0681 | ADR-B-03 | ADR-B-03-K04 | Dodatkowe wyposażenie do ograniczania skutków wycieku przy towarze z nalepką 8: łopata, osłona kanalizacyjna i pojemnik | A | ADR 2025, 8.1.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0682 | ADR-B-09 | ADR-B-09-K04 | Wyjątek od strzałek kierunkowych dla opakowania zewnętrznego z opakowaniami wewnętrznymi do 120 ml i wystarczającym materiałem chłonnym | B | ADR 2025, 5.2.1.10.1–5.2.1.10.2(b) | — | NIEROZSTRZYGNIĘTE | needs_review |
