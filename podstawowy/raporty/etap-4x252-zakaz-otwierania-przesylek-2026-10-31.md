@@ -7,7 +7,7 @@ Nowe pytanie: `ADR-B-0678`; poprawione pytania: `ADR-B-0011`, `ADR-B-0048`, `ADR
 
 ## Najważniejsze ustalenie audytu prawnego
 
-Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmujący „wszystkich członków załogi”. Przepis 8.3.3 wskazuje kierowcę i pomocnika kierowcy (w oficjalnym tekście angielskim: „A driver or a driver's assistant may not open a package containing dangerous goods”). Nie należy bez podstawy rozszerzać konkretnego przepisu na każdą osobę znajdującą się w pojeździe. Podstawą polską jest Umowa ADR 2025 ogłoszona w Dz.U. 2025 poz. 642; oficjalny polski tom II ADR 2025 udostępnia Ministerstwo Infrastruktury. Dokładne brzmienie polskiego ADR 2025, 8.3.3, zostało sprawdzone w oficjalnym materiale Ministerstwa Infrastruktury: „Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne.” Potwierdza to zakres ograniczony do kierowcy i pomocnika kierowcy. Niezależna recenzja specjalisty oraz pełne porównanie wszystkich elementów pytań nadal pozostają do wykonania. Po dodaniu ADR-B-0678 liczba rekordów bez literalnego porównania polskiego tekstu wynosi 442.
+Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmujący „wszystkich członków załogi”. Przepis 8.3.3 wskazuje kierowcę i pomocnika kierowcy (w oficjalnym tekście angielskim: „A driver or a driver's assistant may not open a package containing dangerous goods”). Nie należy bez podstawy rozszerzać konkretnego przepisu na każdą osobę znajdującą się w pojeździe. Podstawą polską jest Umowa ADR 2025 ogłoszona w Dz.U. 2025 poz. 642; oficjalny polski tom II ADR 2025 udostępnia Ministerstwo Infrastruktury. Dokładne brzmienie polskiego ADR 2025, 8.3.3, zostało sprawdzone w oficjalnym materiale Ministerstwa Infrastruktury: „Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne.” Potwierdza to zakres ograniczony do kierowcy i pomocnika kierowcy. Niezależna recenzja specjalisty oraz pełne porównanie wszystkich elementów pytań nadal pozostają do wykonania. Po sprawdzeniu dokładnego ustępu 8.3.3 dla czterech pytań (0011, 0048, 0243, 0678) liczba rekordów bez pobranego dokładnego ustępu wynosi 438; 17 ma kontrolę celowaną, ale pełne porównanie wszystkich elementów pytań i niezależna recenzja pozostają otwarte.
 
 ## Zmiany banku
 
@@ -36,7 +36,13 @@ Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmu
 
 ## Naprawa CI — PR #722
 
-Pierwszy Quality Gate zakończył się błędem w `test_current_repository_structure`: skrypt zlicza osobne, niearchiwalne rejestry `review/specialist/REJESTR-*.md` i wykrył 677 wpisów przy 678 rekordach banku. Brakował osobny plik `REJESTR-0678-0678.md`; dodano go na tej samej gałęzi. Pełny bieżący rejestr `REJESTR-AKTUALNY-0001-0628.md` nie zastępuje rejestru przyrostowego używanego przez tę kontrolę. Po poprawce ponownie uruchomiono Quality Gate; wynik potwierdzony w PR.
+Pierwszy Quality Gate zakończył się błędem w `test_current_repository_structure`: skrypt zlicza osobne, niearchiwalne rejestry `review/specialist/REJESTR-*.md` i wykrył 677 wpisów przy 678 rekordach banku. Brakował osobny plik `REJESTR-0678-0678.md`; dodano go na tej samej gałęzi. Pełny bieżący rejestr `REJESTR-AKTUALNY-0001-0628.md` nie zastępuje rejestru przyrostowego używanego przez tę kontrolę. Pierwsza poprawka ujawniła w kolejnym uruchomieniu rozbieżność licznika dowodów: po przeniesieniu czterech wpisów z „nie pobrano tekstu” do „kontrola celowana — pełne porównanie oczekuje” manifest nadal zawierał 442 zamiast 438 oraz 13 zamiast 17. Zaktualizowano oba manifesty, obie kolejki i asercję testu do bieżących liczników. Końcowy PASS zostanie odnotowany po zakończeniu najnowszego CI.
+
+## Stan dowodów prawnych po porównaniu 8.3.3
+
+- 4 rekordy (ADR-B-0011, 0048, 0243, 0678) mają zapisane ukierunkowane porównanie dokładnego polskiego brzmienia 8.3.3 z materiałem Ministerstwa Infrastruktury.
+- Liczniki pakietu: 438 bez pobranego dokładnego ustępu; 17 kontroli celowanych z pełnym porównaniem nadal pending; 295 rekordów z zapisanym wynikiem kontroli celowanej; 223 w kategorii porównania z kopią ministerialną, z potwierdzeniem specjalisty i Dz.U. nadal pending.
+- To nie jest pełna akceptacja pytań: wszystkie 678 pozostają `needs_review`, niezależna recenzja ADR nadal pending.
 
 ## Stan po partii
 
