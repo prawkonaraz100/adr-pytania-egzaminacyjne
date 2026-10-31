@@ -231,7 +231,7 @@
       "number": 23,
       "id": "ADR-B-0571",
       "correct_option": "B",
-      "explanation": "Przy ładunku mieszanym kategorię 2 mnoży się przez 3, a kategorię 3 przez 1. Dlatego 250 × 3 + 300 daje 1050, czyli więcej niż limit 1000; wynik 800 wynika z użycia niewłaściwego mnożnika. Nie oceniaj kategorii osobno, tylko oblicz sumę według wzoru ADR. Sprawdź wynik przed wyjazdem, bo od niego zależy, czy można zastosować zwolnienie ilościowe. Podstawa: ADR 1.1.3.6.4.",
+      "explanation": "Przy mieszanym ładunku nie liczysz limitu osobno dla każdej kategorii. Ilość kategorii 2 mnożysz przez 3, a kategorii 3 przez 1, więc tutaj otrzymujesz 250 × 3 + 300 = 1050. To więcej niż 1000, dlatego nie można oprzeć zwolnienia na tym obliczeniu; wynik 800 pomija właściwy mnożnik, a C błędnie rozdziela limit. Podstawa: ADR 1.1.3.6.4.",
       "legal_basis": [
         "ADR 2025, 1.1.3.6.4"
       ],
@@ -281,7 +281,7 @@
       "number": 28,
       "id": "ADR-B-0605",
       "correct_option": "A",
-      "explanation": "Oznaczenie LQ (od ang. limited quantities — ilości ograniczone) nie zwalnia z przestrzegania warunków pakowania przewidzianych dla ilości ograniczonych. Co do zasady opakowanie zewnętrzne nie może przekraczać 30 kg brutto, a dla określonych tacek z folią obowiązuje osobny limit. Szczelność ani dopisanie masy do dokumentu nie zastępują tych wymagań; trzeba sprawdzić rodzaj opakowania i właściwy limit. Podstawa: ADR 3.4.2.",
+      "explanation": "Oznaczenie LQ nie zwalnia z limitów dotyczących samego opakowania. Zwykłe opakowanie zewnętrzne w tym trybie może ważyć najwyżej 30 kg brutto, więc przy 32 kg trzeba sprawdzić, czy zastosowano właściwy rodzaj opakowania i czy spełnia on dopuszczalny limit. Szczelność, dopisek w dokumencie ani zgoda odbiorcy nie podnoszą tego limitu. Podstawa: ADR 3.4.2.",
       "legal_basis": [
         "ADR 2025, 3.4.2"
       ],
@@ -308,5 +308,5 @@
       "lesson_path": "../lekcje/ADR-B-02.md"
     }
   ],
-  "source_bank_head": "5e45a0dc14a2da0de4826443007002df880f4233"
+  "source_bank_head": "9951bd4edeaa844cfa5f07964ce4636d5637c35f"
 }
