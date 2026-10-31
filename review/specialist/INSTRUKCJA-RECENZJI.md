@@ -1,4 +1,8 @@
-## Migawka bieżąca — 4x251
+## Migawka bieżąca — 4x252
+
+Bank podstawowy: 677 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `9dbbf511b3b057e3771ee382dda1a768226a916a`. Najnowsza zmiana: SC-ADR-B-04-04, zakaz otwierania przesyłek przez wszystkich członków załogi, ADR 8.3.3. Brak nowych rekordów banku; statusów nie zmieniano.
+
+## Poprzednia migawka — 4x251
 
 Bank podstawowy: 677 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `9dbbf511b3b057e3771ee382dda1a768226a916a`. Najnowsza zmiana: SC-ADR-B-05-04, praktyczne granice użycia gaśnicy przy małym pożarze, ADR 5.4.3.4. Brak nowych rekordów banku; statusów nie zmieniano.
 
