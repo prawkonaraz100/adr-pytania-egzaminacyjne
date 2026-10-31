@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x256 (31.10.2026)
 
-- Bank: 682 pytań ADR-B-0001–0682; 682 needs_review, 0 verified; SHA `623b3c164d1a394f8976e5b3a9e75d9893a65444`.
+- Bank: 682 pytań ADR-B-0001–0682; 682 needs_review, 0 verified; SHA `5bc8851bed5f1fdfcbf2a5f07faccb3174a72006`.
 - ADR-B-0682 do ADR-B-09-K04: wyjątek od strzałek kierunkowych dla opakowań wewnętrznych do 120 ml z wystarczającym materiałem chłonnym; ADR 5.2.1.10.1–5.2.1.10.2(b).
 - 682 wpisy w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x256-strzalki-kierunkowe-wyjatek-opakowania-2026-10-31.md`.
 
