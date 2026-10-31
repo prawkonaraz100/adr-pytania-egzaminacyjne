@@ -12,8 +12,8 @@
 - Dodano ADR-B-0661 do ADR-B-02-K04: praktyczne zastosowanie progu kontroli temperatury dla materiału polimeryzującego klasy 4.1 przewożonego w DPPL.
 - Explanation: 354 znaki, 4 zdania; A/B/C 76/85/94 znaków; poprawna B nie jest ani najkrótsza, ani najdłuższa.
 - Podstawa: ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7, Dz.U. 2025 poz. 642. Dla DPPL próg kontroli temperatury wynosi 50°C lub mniej; próg 45°C dotyczy cystern. Sprostowanie Dz.U. 2025 poz. 1575 nie wymienia przepisu 2.2.41.1.21. Pełna literalna recenzja i niezależna recenzja specjalisty pozostają otwarte.
-- Bank: 662 pytań `needs_review`, 0 `verified`; ID 0001–0661 ciągłe i unikalne. Blob SHA `d7ad9711a2e5f5ced552ff6a4140455104536280`.
-- Rozkład A/B/C: 228/221/212. „Poprawna = jedyna najdłuższa”: 72/662 = 10,88%; maksimum działu 13,95%.
+- Bank: 661 pytań `needs_review`, 0 `verified`; ID 0001–0661 ciągłe i unikalne. Blob SHA `d7ad9711a2e5f5ced552ff6a4140455104536280`.
+- Rozkład A/B/C: 228/221/212. „Poprawna = jedyna najdłuższa”: 72/661 = 10,89%; maksimum działu 13,95%.
 - Raport: [4x236 — kontrola temperatury materiałów polimeryzujących](../podstawowy/raporty/etap-4x236-polimeryzujace-klasa-41-kontrola-temperatury-2026-10-31.md).
 
 ## Uzupełnienie audytu 4x235 — 31.10.2026
@@ -80,7 +80,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 
 # ADR podstawowy — aktualne pokrycie kursu
 
-**Kontrola mapy odświeżona w etapie 4x236: 31.10.2026.** Bank ma 661 pytań; raport [4x236 — kontrola temperatury materiałów polimeryzujących](../podstawowy/raporty/etap-4x236-polimeryzujace-klasa-41-kontrola-temperatury-2026-10-31.md) dodaje ADR-B-0661 do ADR-B-02-K04. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
+**Kontrola mapy odświeżona w etapie 4x237: 31.10.2026.** Bank ma 662 pytania; raport [4x237 — zgodność VIN świadectwa pojazdu](../podstawowy/raporty/etap-4x237-swiadectwo-pojazdu-zgodnosc-vin-2026-10-31.md) dodaje ADR-B-0662 do ADR-B-08-K08. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
 
 **Stan aktualny po etapie 4x237: 31.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
 
@@ -91,7 +91,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
 - Rozkład prawidłowych opcji: A=228, B=222, C=212.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/661 = 10,89%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/662 = 10,88%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
 - [Etap 4x228 — kombinacja zagrożeń 886](../podstawowy/raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md).
 - [Audyt 4w](../podstawowy/raporty/etap-4w-program-13-dzialow-mapa-luk.md) dokumentuje wszystkie 107 kompetencji i ID; [kontrola 13 lekcji](../podstawowy/raporty/etap-4w-przeglad-13-lekcji-odsylacze.md) usunęła błędny skrót zakresu w B-09. Dane liczbowe dotyczą bieżącego banku, natomiast niższe sekcje dokumentu zachowują historię poprzednich etapów.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
