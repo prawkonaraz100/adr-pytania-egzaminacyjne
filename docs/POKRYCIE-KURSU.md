@@ -1,4 +1,15 @@
-**Stan aktualny po etapie 4x241: 31.10.2026.**
+**Stan aktualny po etapie 4x242: 31.10.2026.**
+
+## Uzupełnienie audytu 4x242 — 31.10.2026
+
+- Dodano ADR-B-0667 do ADR-B-02-K08: osiągnięcie temperatury awaryjnej nadtlenku organicznego klasy 5.2 wymaga uruchomienia przewidzianych procedur awaryjnych.
+- Explanation: 400 znaków, 4 zdania; A/B/C 147/133/172 znaków. Poprawna A nie jest najdłuższa.
+- Podstawa: ADR 2025, 7.1.7.3.4 i 7.1.7.4.1; kontekst klasy 5.2: 2.2.52.1.15–1.16. Polska literatura objaśniająca CIOP potwierdza rozróżnienie temperatur; literalne porównanie wiążącego tekstu Dz.U. i niezależna recenzja pozostają otwarte.
+- Bank: 667 pytań `needs_review`, 0 `verified`; ID 0001–0667 ciągłe i unikalne. Blob SHA `4d3a2dd4c7c43ee9fc00d829981cac50098fc462`.
+- Rozkład A/B/C: 230/224/213. „Poprawna = jedyna najdłuższa”: 72/667 = 10,79%; maksimum działu 13,95%.
+- Raport: [Etap 4x242 — klasa 5.2: temperatura awaryjna](../podstawowy/raporty/etap-4x242-klasa-52-temperatura-awaryjna-2026-10-31.md).
+
+**Poprzednia migawka po etapie 4x241: 31.10.2026.**
 
 ## Uzupełnienie audytu 4x241 — 31.10.2026
 
