@@ -1,3 +1,16 @@
+## Bieżąca migawka — etap 4x249 (31.10.2026)
+
+- Bank: 676 pytań ADR-B-0001–0676; 676 `needs_review`, 0 `verified`; blob SHA `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
+- Dodano ADR-B-0674 do ADR-B-02-K06: odczyt I grupy pakowania materiału klasy 4.3.
+- Explanation 321 znaków, 3 zdania; A/B/C 133/137/147; rozkład A/B/C 231/230/213; wskaźnik 73/676 = 10,80%.
+- Egzaminy 001–005 i snapshoty sequential/legal wskazują bieżący bank.
+- Raport: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
+- Literalne porównanie Dz.U. i recenzja specjalisty pozostają otwarte.
+
+| ADR-B-0674 | ADR-B-02 | ADR-B-02-K06 | Odczyt I grupy pakowania materiału klasy 4.3 | B | ADR 2025, 1.2.1; 2.2.43.1.8(a)–(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0675 | ADR-B-02 | ADR-B-02-K06 | Kryterium II grupy pakowania: co najmniej 20 l/kg/h, bez kryteriów I grupy | A | ADR 2025, 2.2.43.1.8(b) | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0676 | ADR-B-02 | ADR-B-02-K06 | Kryterium III grupy pakowania: ponad 1 l/kg/h, bez kryteriów I/II grupy | C | ADR 2025, 2.2.43.1.8(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
+
 ## Bieżąca migawka — etap 4x248 (31.10.2026)
 
 - Bank: 673 pytań ADR-B-0001–0673; 673 `needs_review`, 0 `verified`; blob SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
@@ -813,3 +826,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0671 | ADR-B-02 | ADR-B-02-K02 | Ochrona zaworu butli gazowej przewożonej w ramie bez kapturka | B | ADR 2025, 4.1.6.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0672 | ADR-B-13 | ADR-B-13-K05 | Środek identyfikacji ze zdjęciem dla każdego członka załogi | B | ADR 2025, 1.10.1.4; 8.1.2.1(d) | — | NIEROZSTRZYGNIĘTE | needs_review |
+

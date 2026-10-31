@@ -1,10 +1,19 @@
+## Bieżąca migawka — etap 4x249 (31.10.2026)
+
+- Bank: 674 pytania ADR-B-0001–0674; 676 `needs_review`, 0 `verified`; blob SHA `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
+- Dodano ADR-B-0674 do ADR-B-02-K06: praktyczny odczyt I grupy pakowania dla materiału klasy 4.3.
+- Explanation 321 znaków, 3 zdania; A/B/C 133/137/147; rozkład kluczy 231/230/213; „poprawna = jedyna najdłuższa” 73/676 = 10,80%.
+- Snapshoty `review/sequential/674-674.json` i `review/legal-clauses/674-674.json`; egzaminy 001–005 wskazują aktualny SHA.
+- Raport: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
+- Literalne porównanie wiążącego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+
 ## Bieżąca migawka — etap 4x248 (31.10.2026)
 
 - Bank: 673 pytań ADR-B-0001–0673; 673 `needs_review`, 0 `verified`; blob SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
 - Dodano ADR-B-0673 do ADR-B-02-K13: rozróżnienie UN 3480/3481 dla baterii litowo-jonowej zapakowanej z urządzeniem.
 - Explanation 423 znaki, 4 zdania; A/B/C 136/134/109; rozkład kluczy 231/229/213; „poprawna = jedyna najdłuższa” 72/673 = 10,70%.
 - Snapshoty `review/sequential/673-673.json` i `review/legal-clauses/673-673.json`; egzaminy 001–005 wskazują aktualny SHA.
-- Raport: `podstawowy/raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md`.
+- Raport: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
 - Literalne porównanie wiążącego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
 
 ## Bieżąca migawka — etap 4x247 (31.10.2026)

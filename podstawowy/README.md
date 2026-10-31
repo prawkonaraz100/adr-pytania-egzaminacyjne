@@ -1,8 +1,20 @@
-## Bieżąca migawka — etap 4x248 (31.10.2026)
+## Bieżąca migawka — etap 4x249 (31.10.2026)
+
+- Bank: 674 pytania ADR-B-0001–0674; 676 `needs_review`, 0 `verified`; blob SHA `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
+- Dodano ADR-B-0674 do ADR-B-02-K06: praktyczny odczyt I grupy pakowania materiału klasy 4.3.
+- Explanation: 321 znaków, 3 zdania; A/B/C 133/137/147. Poprawna B nie jest najdłuższa.
+- Rozkład poprawnych odpowiedzi: A=232, B=230, C=214; „poprawna = jedyna najdłuższa” 73/676 = 10,80%.
+
+**Stan na 31.10.2026, etap 4x249**
+
+- Dodano ADR-B-0675 (II grupa: ≥20 l/kg/h, bez kryteriów I) i ADR-B-0676 (III grupa: >1 l/kg/h, bez kryteriów I/II) do ADR-B-02-K06; wyjaśnienia 330 i 304 znaki. Podstawa: ADR 2.2.43.1.8(b)–(c).
+
+
+## Poprzednia migawka — etap 4x248 (31.10.2026)
 
 - Bank: 673 pytania ADR-B-0001–0673; 673 `needs_review`, 0 `verified`; blob SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
 
-**Stan na 31.10.2026, etap 4x248**
+**Migawka historyczna: etap 4x248**
 
 - Dodano ADR-B-0673 do ADR-B-02-K13: rozróżnienie UN 3480/3481 dla baterii litowo-jonowej przewożonej samodzielnie albo zapakowanej z urządzeniem.
 - Explanation: 423 znaki, 4 zdania; A/B/C 136/134/109. Poprawna B nie jest najdłuższa.
@@ -278,6 +290,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x249 — klasa 4.3: grupy pakowania i stopień zagrożenia](raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md)
 - [Etap 4x248 — bateria litowo-jonowa zapakowana z urządzeniem (UN 3481)](raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md)
 - [Etap 4x247 — identyfikacja ze zdjęciem dla załogi](raporty/etap-4x247-identyfikacja-zdjecie-zaloga-2026-10-31.md)
 - [Etap 4x246 — klasa 2: ochrona zaworu butli](raporty/etap-4x246-klasa-2-ochrona-zaworu-butli-2026-10-31.md)
