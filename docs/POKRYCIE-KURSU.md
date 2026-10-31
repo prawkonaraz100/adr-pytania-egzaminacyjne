@@ -1,4 +1,17 @@
-**Stan aktualny po etapie 4x242: 31.10.2026.**
+**Stan aktualny po etapie 4x243: 31.10.2026.**
+
+## Uzupełnienie audytu 4x243 — 31.10.2026
+
+- Dodano ADR-B-0668 do ADR-B-02-K10: UN 3373, materiał biologiczny kategorii B; P650 i wyłączenie pozostałych wymagań na podstawie SP 319 po spełnieniu warunków pakowania i oznakowania.
+- Explanation: 392 znaki, 4 zdania; A/B/C 124/142/108 znaków. Poprawna A nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=231, B=224, C=213.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/668 = 10,78%**; maksimum działu to 13,95%.
+- Podstawa: ADR 2025, 2.2.62.1.4.2, 3.3 SP 319, 4.1.4.1 P650. Polska wersja ADR 2025 udostępniona przez MI sprawdzona w tych punktach; MI zaznacza, że pliki są pomocnicze, a źródłem prawa jest tekst w Dz.U. Literalne porównanie Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+- Bank: 668 pytań `needs_review`, 0 `verified`; ID 0001–0668 ciągłe i unikalne. SHA `377881849d1d1a643873567b1f68c359bef2358d`.
+- Rozkład A/B/C: 231/224/213. „Poprawna = jedyna najdłuższa”: 72/668 = 10,78%; maksimum działu 13,95%.
+- Raport: [Etap 4x243 — klasa 6.2: UN 3373 i P650](../podstawowy/raporty/etap-4x243-klasa-62-un3373-p650-2026-10-31.md).
+
+**Stan poprzedni po etapie 4x242: 31.10.2026.**
 
 ## Uzupełnienie audytu 4x242 — 31.10.2026
 
@@ -17,8 +30,8 @@
 - Explanation: 479 znaków, 4 zdania; A/B/C 166/166/138 znaków. Poprawna A remisuje długością z B, nie jest jedyną najdłuższą.
 - Podstawa: ADR 2025, 2.2.51.1.1 i 5.4.3.4; literalne porównanie polskiego tekstu Dz.U. i niezależna recenzja pozostają otwarte.
 - Bank: 666 pytań `needs_review`, 0 `verified`; ID 0001–0666 ciągłe i unikalne. Blob SHA `b7b582add191eace25bf493fed5f71dda55f392e`.
-- Rozkład prawidłowych opcji: A=230, B=224, C=213.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/667 = 10,79%**; maksimum działu to 13,95%.
+- Rozkład prawidłowych opcji: A=231, B=224, C=213.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/668 = 10,78%**; maksimum działu to 13,95%.
 - Raport: [Etap 4x241 — klasa 5.1: utleniacz i ryzyko pożaru](../podstawowy/raporty/etap-4x241-klasa-51-utleniajace-ryzyko-pozaru-2026-10-31.md).
 
 **Stan aktualny po etapie 4x240: 31.10.2026.**
@@ -157,7 +170,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 71 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 72 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 61 | 0 | Lekcja + mapa pytań |
@@ -169,7 +182,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **667** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **668** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

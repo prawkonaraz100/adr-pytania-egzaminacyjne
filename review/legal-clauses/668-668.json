@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0668",
+      "order": 668,
+      "clause": "ADR 2025, 2.2.62.1.4.2; 3.3 przepis szczególny 319; 4.1.4.1 P650",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0668",
+        "module_id": "ADR-B-02",
+        "stem": "Kierowca odbiera przesyłkę oznaczoną UN 3373 „MATERIAŁ BIOLOGICZNY, KATEGORIA B”. Nadawca informuje, że opakowanie wykonano i oznakowano zgodnie z P650. Jak należy rozumieć ten przewóz?",
+        "options": {
+          "A": "To materiał biologiczny kategorii B klasy 6.2; przy zgodności z P650 przepis szczególny 319 wyłącza pozostałe wymagania ADR.",
+          "B": "To materiał kategorii A; dla tej przesyłki zawsze stosuje się P620 i pełne wymagania ADR, niezależnie od oznaczenia UN 3373 i instrukcji P650.",
+          "C": "To materiał klasy 9; wystarczy samo szczelne opakowanie, a P650 i przepis szczególny 319 nie mają znaczenia."
+        },
+        "correct_option": "A",
+        "explanation": "UN 3373 oznacza materiał biologiczny kategorii B, zaliczany do klasy 6.2. Jeżeli materiał i opakowanie spełniają instrukcję P650 i są oznakowane zgodnie z nią, przepis szczególny 319 wyłącza pozostałe wymagania ADR. Nie myl go z kategorią A (UN 2814 lub 2900), dla której stosuje się P620; samo szczelne pudełko nie daje wyłączenia. Podstawa: ADR 2.2.62.1.4.2, 3.3 przepis 319 i 4.1.4.1 P650.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.62.1.4.2; 3.3 przepis szczególny 319; 4.1.4.1 instrukcja pakowania P650",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "UN 3373 to materiał biologiczny kategorii B; prawidłowe zapakowanie i oznakowanie według P650 uruchamia wyłączenie z przepisu szczególnego 319."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "UN 3373 oznacza kategorię B, a nie kategorię A. Dla kategorii A stosuje się UN 2814/2900 i P620."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "UN 3373 należy do klasy 6.2, a nie klasy 9; samo szczelne opakowanie nie zastępuje wymagań P650."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Wyłączenie z przepisu 319 zależy od tego, czy substancja i sztuka przesyłki są zapakowane i oznakowane zgodnie z P650. Nie należy wnioskować o wyłączeniu wyłącznie z obecności szczelnego opakowania lub numeru UN.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

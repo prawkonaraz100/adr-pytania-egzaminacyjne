@@ -1,4 +1,14 @@
-## Bieżąca migawka — etap 4x242 (31.10.2026)
+## Bieżąca migawka — etap 4x243 (31.10.2026)
+
+- Bank: 668 pytań ADR-B-0001–0668; 668 `needs_review`, 0 `verified`; blob SHA `377881849d1d1a643873567b1f68c359bef2358d`.
+- Dodano ADR-B-0668 do ADR-B-02-K10: UN 3373, materiał biologiczny kategorii B, instrukcja P650 i wyłączenie pozostałych wymagań na podstawie SP 319.
+- Explanation: 392 znaki, 4 zdania; A/B/C 124/142/108 znaków. Poprawna A nie jest najdłuższa.
+- Rozkład A/B/C: 231/224/213. „Poprawna = jedyna najdłuższa”: 72/668 = 10,78%; maksimum działu 13,95%.
+- Egzaminy 001–005 wskazują aktualny SHA; snapshoty: `review/sequential/668-668.json`, `review/legal-clauses/668-668.json`.
+- Raport: `podstawowy/raporty/etap-4x243-klasa-62-un3373-p650-2026-10-31.md`.
+- Literalne porównanie wiążącego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+
+## Poprzednia migawka — etap 4x242 (31.10.2026)
 
 - Bank: 667 pytań ADR-B-0001–0667; 667 `needs_review`, 0 `verified`; blob SHA `4d3a2dd4c7c43ee9fc00d829981cac50098fc462`.
 - Dodano ADR-B-0667 do ADR-B-02-K08: rozpoznanie temperatury awaryjnej nadtlenku organicznego klasy 5.2 i uruchomienie procedur awaryjnych.
@@ -746,3 +756,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0665 | ADR-B-02 | ADR-B-02-K05 | Rozróżnienie materiałów piroforycznych i samonagrzewających się klasy 4.2 | B | ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0666 | ADR-B-02 | ADR-B-02-K07 | Utleniacz klasy 5.1 może nasilać spalanie sąsiednich materiałów — reakcja kierowcy przy pożarze | A | ADR 2025, 2.2.51.1.1; 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0667 | ADR-B-02 | ADR-B-02-K08 | Nadtlenek organiczny 5.2 osiągnął temperaturę awaryjną — jakie działanie kierowcy? | A | ADR 2025, 7.1.7.3.4; 7.1.7.4.1; 2.2.52.1.15–1.16 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0668 | ADR-B-02 | ADR-B-02-K10 | UN 3373 — materiał biologiczny kategorii B, P650 i przepis szczególny 319 | A | ADR 2025, 2.2.62.1.4.2; 3.3 SP 319; 4.1.4.1 P650 | — | NIEROZSTRZYGNIĘTE | needs_review |

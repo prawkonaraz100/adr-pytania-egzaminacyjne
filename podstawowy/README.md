@@ -1,4 +1,14 @@
-## Bieżąca migawka — etap 4x242 (31.10.2026)
+## Bieżąca migawka — etap 4x243 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x243**
+
+- Bank: 668 pytań ADR-B-0001–0668; 668 `needs_review`, 0 `verified`; blob SHA `377881849d1d1a643873567b1f68c359bef2358d`.
+- Dodano ADR-B-0668 do ADR-B-02-K10: UN 3373, materiał biologiczny kategorii B, P650 i SP 319.
+- Explanation: 392 znaki, 4 zdania; A/B/C 124/142/108. Poprawna A nie jest najdłuższa.
+- Rozkład A/B/C: 231/224/213; „poprawna = jedyna najdłuższa”: 72/668 = 10,78%; maksimum działu 13,95%.
+- Raport: `podstawowy/raporty/etap-4x243-klasa-62-un3373-p650-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x242 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x242**
 
@@ -225,6 +235,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x243 — klasa 6.2: UN 3373 i P650](raporty/etap-4x243-klasa-62-un3373-p650-2026-10-31.md)
 - [Etap 4x242 — klasa 5.2: temperatura awaryjna](raporty/etap-4x242-klasa-52-temperatura-awaryjna-2026-10-31.md)
 - [Etap 4x241 — klasa 5.1: utleniacz i ryzyko pożaru](raporty/etap-4x241-klasa-51-utleniajace-ryzyko-pozaru-2026-10-31.md)
 - [Etap 4x240 — klasa 4.2: piroforyczne i samonagrzewające się](raporty/etap-4x240-klasa-42-piroforyczne-samonagrzewajace-2026-10-31.md)

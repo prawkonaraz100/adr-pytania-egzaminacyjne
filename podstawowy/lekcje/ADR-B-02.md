@@ -393,3 +393,8 @@ Materiał klasy 5.1 nie musi sam być palny, ale może spowodować lub nasilić 
 ### Klasa 5.2 — temperatura kontrolowana i awaryjna
 
 Niektóre nadtlenki organiczne wymagają przewozu w temperaturze kontrolowanej. Temperatura kontrolowana jest najwyższą temperaturą bezpiecznego przewozu, a temperatura awaryjna wskazuje moment rozpoczęcia działań awaryjnych. Jeśli czujnik pokaże osiągnięcie temperatury awaryjnej, kierowca powinien uruchomić przewidzianą procedurę, a nie czekać na dalszy wzrost temperatury ani improwizować chłodzenia. Warunki i progi wynikają z klasyfikacji konkretnego nadtlenku i dokumentacji przewozowej. Powiązane pytanie: ADR-B-0667. Podstawa: ADR 2.2.52.1.15–1.16 oraz 7.1.7.3.4 i 7.1.7.4.1.
+
+
+### Klasa 6.2 — materiał biologiczny kategorii B (UN 3373)
+
+Oznaczenie UN 3373 oznacza materiał biologiczny kategorii B, należący do klasy 6.2. Dla takiej przesyłki stosuje się instrukcję pakowania P650. Jeżeli materiał i opakowanie są zapakowane oraz oznakowane zgodnie z P650, przepis szczególny 319 stanowi, że nie podlegają one innym wymaganiom ADR. Nie wolno mylić kategorii B z kategorią A, przewożoną pod UN 2814 lub UN 2900 i pakowaną zgodnie z P620. Powiązane pytanie: ADR-B-0668. Podstawa: ADR 2.2.62.1.4.2, 3.3 przepis 319, 4.1.4.1 P650.

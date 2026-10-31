@@ -193,3 +193,8 @@ Przedstaw kursantowi kartę charakterystyki cieczy z temperaturą zapłonu 45°C
 ### Ćwiczenie: alarm temperatury awaryjnej — klasa 5.2
 
 Przedstaw kursantowi kartę ładunku nadtlenku organicznego z podanymi temperaturami kontrolowaną i awaryjną. W scenariuszu czujnik osiąga próg awaryjny. Kursant ma wskazać, że należy niezwłocznie uruchomić procedury awaryjne przewidziane dla przewozu, a nie kontynuować jazdę bez reakcji ani improwizować własnego sposobu chłodzenia. Sprawdź, czy odróżnia maksymalną temperaturę bezpiecznego przewozu od progu uruchomienia działań awaryjnych. Powiązane pytanie: ADR-B-0667 (needs_review). Podstawa: ADR 7.1.7.3.4 i 7.1.7.4.1.
+
+
+### Ćwiczenie: UN 3373 i instrukcja P650
+
+Pokaż kursantowi przesyłkę z oznaczeniem UN 3373 „MATERIAŁ BIOLOGICZNY, KATEGORIA B” i zapytaj, co odróżnia ją od kategorii A. Kursant powinien wskazać klasę 6.2, kategorię B, instrukcję P650 i warunkowe wyłączenie pozostałych wymagań ADR na podstawie przepisu szczególnego 319. Poproś też o porównanie z kategorią A UN 2814/2900 i instrukcją P620. Podkreśl, że samo szczelne pudełko nie wystarcza — opakowanie i oznakowanie muszą spełniać P650. Powiązane pytanie: ADR-B-0668 (needs_review). Podstawa: ADR 2.2.62.1.4.1–1.4.2, 3.3 przepis 319, 4.1.4.1 P620/P650.

@@ -1,4 +1,14 @@
-## Bieżąca migawka — etap 4x242 (31.10.2026)
+## Bieżąca migawka — etap 4x243 (31.10.2026)
+
+- Bank: 668 pytań ADR-B-0001–0668; 668 `needs_review`, 0 `verified`; blob SHA `377881849d1d1a643873567b1f68c359bef2358d`.
+- Dodano ADR-B-0668 do ADR-B-02-K10: UN 3373, materiał biologiczny kategorii B, instrukcja P650 i wyłączenie pozostałych wymagań na podstawie SP 319.
+- Explanation: 392 znaki, 4 zdania; A/B/C 124/142/108 znaków. Poprawna A nie jest najdłuższa.
+- Rozkład A/B/C: 231/224/213. „Poprawna = jedyna najdłuższa”: 72/668 = 10,78%; maksimum działu 13,95%.
+- Egzaminy 001–005 wskazują aktualny SHA; snapshoty: `review/sequential/668-668.json`, `review/legal-clauses/668-668.json`.
+- Raport: `podstawowy/raporty/etap-4x243-klasa-62-un3373-p650-2026-10-31.md`.
+- Literalne porównanie wiążącego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+
+## Poprzednia migawka — etap 4x242 (31.10.2026)
 
 - Bank: 667 pytań ADR-B-0001–0667, wszystkie `needs_review`, 0 `verified`; SHA `4d3a2dd4c7c43ee9fc00d829981cac50098fc462`.
 - Dodano ADR-B-0667 do ADR-B-02-K08: temperatura awaryjna nadtlenków organicznych klasy 5.2.
