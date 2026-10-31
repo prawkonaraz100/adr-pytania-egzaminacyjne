@@ -1,3 +1,7 @@
+## Migawka bieżąca — 4x244
+
+Bank podstawowy: 669 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`. Najnowsza partia: ADR-B-0669, klasa 7, kategoria przesyłki i wskaźnik transportowy. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.
+
 ## Bieżąca migawka — etap 4x243 (31.10.2026)
 
 - Bank: 668 pytań ADR-B-0001–0668; 668 `needs_review`, 0 `verified`; blob SHA `377881849d1d1a643873567b1f68c359bef2358d`.
