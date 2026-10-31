@@ -1,6 +1,7 @@
 ## Bieżąca migawka — etap 4x230 (31.10.2026)
 
 - Bank: 655 pytań `needs_review`, 0 `verified`; blob SHA `ca07d9e94b63ba6b9f832838e645500bd2964939`.
+- Raport: `podstawowy/raporty/etap-4x230-odczyt-tabeli-a-2026-10-31.md`.
 - ADR-B-0655 dodano do ADR-B-02-K14; snapshoty: `review/sequential/655-655.json` i `review/legal-clauses/655-655.json`. Pełna recenzja prawna i niezależna akceptacja pozostają pending.
 - Warianty i klucze 001–005 wskazują aktualny SHA banku; nie nadano statusu `verified`.
 
