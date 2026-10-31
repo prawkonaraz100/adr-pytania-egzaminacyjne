@@ -1,7 +1,7 @@
-## Bieżąca migawka — etap 4x236 (31.10.2026)
+## Bieżąca migawka — etap 4x237 (31.10.2026)
 
-- Bank: 661 pytań `needs_review`, 0 `verified`; blob SHA `d7ad9711a2e5f5ced552ff6a4140455104536280`.
-- Raport: `podstawowy/raporty/etap-4x236-polimeryzujace-klasa-41-kontrola-temperatury-2026-10-31.md`.
+- Bank: 662 pytań `needs_review`, 0 `verified`; blob SHA `67da7457c1494d9e770324f42a6a30ef4e117567`.
+- Raport: `podstawowy/raporty/etap-4x237-swiadectwo-pojazdu-zgodnosc-vin-2026-10-31.md`.
 - ADR-B-0661 dodano do ADR-B-02-K04; próg kontroli temperatury dla polimeryzującego materiału w DPPL.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz roboczy | Referencja ADR 2025 | Image | Literalne PL | Status |
@@ -705,3 +705,4 @@ Bank bieżący: 656 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `9
 | ADR-B-0659 | ADR-B-01 | ADR-B-01-K01 | Jak rozdzielono zakres wymagań między załączniki A i B ADR? | A | ADR 2025, Umowa ADR, art. 2; 1.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0660 | ADR-B-07 | ADR-B-07-K07 | Odpowiedzialność przewoźnika za nienależyte wykonanie umowy i działanie kierowcy | A | ADR 8.2.2.3.2(k); KC art. 471 i 474 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0661 | ADR-B-02 | ADR-B-02-K04 | Materiał polimeryzujący w DPPL, TSP 48°C — obowiązek kontroli temperatury | B | ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0662 | ADR-B-08 | ADR-B-08-K08 | W świadectwie dopuszczenia numer VIN nie zgadza się z pojazdem. Co powinien zrobić kierowca? | B | ADR 2025, 9.1.3.1; 9.1.3.3; 9.1.3.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
