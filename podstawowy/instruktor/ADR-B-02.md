@@ -198,3 +198,8 @@ Przedstaw kursantowi kartę ładunku nadtlenku organicznego z podanymi temperatu
 ### Ćwiczenie: UN 3373 i instrukcja P650
 
 Pokaż kursantowi przesyłkę z oznaczeniem UN 3373 „MATERIAŁ BIOLOGICZNY, KATEGORIA B” i zapytaj, co odróżnia ją od kategorii A. Kursant powinien wskazać klasę 6.2, kategorię B, instrukcję P650 i warunkowe wyłączenie pozostałych wymagań ADR na podstawie przepisu szczególnego 319. Poproś też o porównanie z kategorią A UN 2814/2900 i instrukcją P620. Podkreśl, że samo szczelne pudełko nie wystarcza — opakowanie i oznakowanie muszą spełniać P650. Powiązane pytanie: ADR-B-0668 (needs_review). Podstawa: ADR 2.2.62.1.4.1–1.4.2, 3.3 przepis 319, 4.1.4.1 P620/P650.
+
+
+### Ćwiczenie: kategoria przesyłki klasy 7 i dwa kryteria
+
+Przedstaw kursantowi fikcyjny zapis: TI 0,8 oraz maksymalny poziom promieniowania na powierzchni 0,7 mSv/h. Poproś o osobne odczytanie obu przedziałów z tabeli 5.1.5.3.4, a następnie o wskazanie, dlaczego stosuje się kategorię wyższą — III-YELLOW. Obserwuj, czy kursant nie wybiera kategorii wyłącznie na podstawie TI. Powiązane pytanie: ADR-B-0669 (needs_review). Podstawa: ADR 5.1.5.3.4(a) i tabela 5.1.5.3.4.

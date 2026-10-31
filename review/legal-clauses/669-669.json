@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0669",
+      "order": 669,
+      "clause": "ADR 2025, 5.1.5.3.4(a), tabela 5.1.5.3.4",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0669",
+        "module_id": "ADR-B-02",
+        "stem": "Podczas odbioru przesyłki klasy 7 dokument podaje wskaźnik transportowy (TI) 0,8, a maksymalny poziom promieniowania na powierzchni opakowania wynosi 0,7 mSv/h. Jaką kategorię należy przyjąć dla tej przesyłki?",
+        "options": {
+          "A": "II-YELLOW, ponieważ wskaźnik transportowy 0,8 mieści się w przedziale powyżej 0 do 1, a ten wynik samodzielnie rozstrzyga o kategorii opakowania.",
+          "B": "III-YELLOW, ponieważ poziom promieniowania na powierzchni odpowiada tej kategorii; przy rozbieżności stosuje się kategorię wyższą.",
+          "C": "I-WHITE, ponieważ wskaźnik transportowy jest mniejszy od 1, a barwę kategorii ustala się wyłącznie na podstawie TI."
+        },
+        "correct_option": "B",
+        "explanation": "Dla TI 0,8 warunek wskazuje kategorię II-YELLOW, ale poziom 0,7 mSv/h na powierzchni odpowiada kategorii III-YELLOW. Gdy oba wyniki wskazują różne kategorie, wybiera się wyższą, dlatego kierowca powinien rozpoznać III-YELLOW, a nie kierować się tylko TI. Nie wolno też uznać przesyłki za I-WHITE. Podstawa: ADR 5.1.5.3.4 i tabela 5.1.5.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.1.5.3.4(a) oraz tabela 5.1.5.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "TI 0,8 wskazuje kategorię II, ale powierzchniowy poziom promieniowania 0,7 mSv/h przekracza zakres II i odpowiada kategorii III."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Oba kryteria trzeba uwzględnić; gdy wskazują różne kategorie, przypisuje się kategorię wyższą, tu III-YELLOW."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Kategoria I-WHITE wymaga TI równego zero i poziomu na powierzchni nie większego niż 0,005 mSv/h; oba warunki są tu niespełnione."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Kategoria przesyłki wynika jednocześnie ze wskaźnika transportowego i maksymalnego poziomu promieniowania na powierzchni. Przy różnych wynikach stosuje się kategorię wyższą; w przykładzie TI 0,8 odpowiada II, a 0,7 mSv/h odpowiada III.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x244 (31.10.2026)
+
+- Bank: 669 pytań ADR-B-0001–0669; wszystkie `needs_review`, 0 `verified`; SHA `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`.
+- Dodano ADR-B-0669 do ADR-B-02-K11: kategoria przesyłki klasy 7 przy rozbieżności TI i poziomu promieniowania na powierzchni.
+- Explanation 340 znaków, 4 zdania; A/B/C 145/130/115; rozkład kluczy 231/225/213; „poprawna = jedyna najdłuższa” 72/669 = 10,76%.
+- Egzaminy 001–005 oraz snapshoty `669-669.json` wskazują bieżący bank.
+- Raport: `podstawowy/raporty/etap-4x244-klasa-7-kategoria-przesylki-2026-10-31.md`.
+- Literalne porównanie pełnego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+
 ## Bieżąca migawka — etap 4x243 (31.10.2026)
 
 - Bank: 668 pytań ADR-B-0001–0668; 668 `needs_review`, 0 `verified`; blob SHA `377881849d1d1a643873567b1f68c359bef2358d`.
@@ -757,3 +766,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0666 | ADR-B-02 | ADR-B-02-K07 | Utleniacz klasy 5.1 może nasilać spalanie sąsiednich materiałów — reakcja kierowcy przy pożarze | A | ADR 2025, 2.2.51.1.1; 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0667 | ADR-B-02 | ADR-B-02-K08 | Nadtlenek organiczny 5.2 osiągnął temperaturę awaryjną — jakie działanie kierowcy? | A | ADR 2025, 7.1.7.3.4; 7.1.7.4.1; 2.2.52.1.15–1.16 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0668 | ADR-B-02 | ADR-B-02-K10 | UN 3373 — materiał biologiczny kategorii B, P650 i przepis szczególny 319 | A | ADR 2025, 2.2.62.1.4.2; 3.3 SP 319; 4.1.4.1 P650 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0669 | ADR-B-02 | ADR-B-02-K11 | Kategoria przesyłki klasy 7: uwzględnienie TI i poziomu promieniowania na powierzchni | B | ADR 2025, 5.1.5.3.4(a), tabela 5.1.5.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
