@@ -1,4 +1,7 @@
-**Stan aktualny po etapie 4x250: 31.10.2026.**
+**Stan aktualny po etapie 4x251: 31.10.2026.**
+
+- Scenariusze praktyczne: 41 łącznie; ADR-B-05-K06 ma teraz osobny scenariusz `SC-ADR-B-05-04` dla małego pożaru opon, hamulców lub silnika. W module B-05 są 4 scenariusze; każdy z 13 działów ma co najmniej 3.
+- Bank pytań bez zmian: 677 rekordów, wszystkie `needs_review`, 0 `verified`.
 
 ## Uzupełnienie audytu 4x249 — 31.10.2026
 
