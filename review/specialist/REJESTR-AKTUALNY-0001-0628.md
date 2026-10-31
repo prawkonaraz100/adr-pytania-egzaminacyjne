@@ -1,3 +1,14 @@
+## Bieżąca migawka — etap 4x249 (31.10.2026)
+
+- Bank: 674 pytań ADR-B-0001–0674; 674 `needs_review`, 0 `verified`; blob SHA `841c502032f62580f23608820747827f70b00df0`.
+- Dodano ADR-B-0674 do ADR-B-02-K06: odczyt I grupy pakowania materiału klasy 4.3.
+- Explanation 350 znaków, 3 zdania; A/B/C 133/137/147; rozkład A/B/C 231/230/213; wskaźnik 72/674 = 10,68%.
+- Egzaminy 001–005 i snapshoty sequential/legal wskazują bieżący bank.
+- Raport: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
+- Literalne porównanie Dz.U. i recenzja specjalisty pozostają otwarte.
+
+| ADR-B-0674 | ADR-B-02 | ADR-B-02-K06 | Odczyt I grupy pakowania materiału klasy 4.3 | B | ADR 2025, 1.2.1; 2.2.43.1.8(a)–(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
+
 ## Bieżąca migawka — etap 4x248 (31.10.2026)
 
 - Bank: 673 pytań ADR-B-0001–0673; 673 `needs_review`, 0 `verified`; blob SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
