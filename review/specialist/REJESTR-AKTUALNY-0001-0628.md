@@ -9,7 +9,7 @@
 
 | ADR-B-0674 | ADR-B-02 | ADR-B-02-K06 | Odczyt I grupy pakowania materiału klasy 4.3 | B | ADR 2025, 1.2.1; 2.2.43.1.8(a)–(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0675 | ADR-B-02 | ADR-B-02-K06 | Kryterium II grupy pakowania: co najmniej 20 l/kg/h, bez kryteriów I grupy | A | ADR 2025, 2.2.43.1.8(b) | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0677 | ADR-B-02 | ADR-B-02-K06 | Kryterium III grupy pakowania: ponad 1 l/kg/h, bez kryteriów I/II grupy | C | ADR 2025, 2.2.43.1.8(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0676 | ADR-B-02 | ADR-B-02-K06 | Kryterium III grupy pakowania: ponad 1 l/kg/h, bez kryteriów I/II grupy | C | ADR 2025, 2.2.43.1.8(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 ## Bieżąca migawka — etap 4x248 (31.10.2026)
 
