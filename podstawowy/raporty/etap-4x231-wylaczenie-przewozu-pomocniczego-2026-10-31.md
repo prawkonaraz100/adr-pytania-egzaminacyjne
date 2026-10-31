@@ -12,7 +12,7 @@ Dodano ADR-B-0656 do ADR-B-01-K04. Scenariusz opisuje firmę serwisową przewoż
 
 | Opcja | Długość | Ocena |
 |---|---:|---|
-| A | 133 | **Poprawna** — przewóz pomocniczy może korzystać z wyłączenia, jeżeli spełniono wszystkie warunki przepisu. |
+| A | 141 | **Poprawna** — przewóz pomocniczy może korzystać z wyłączenia, jeżeli spełniono wszystkie warunki przepisu. |
 | B | 153 | Błędna — myli wyłączenie dla osób prywatnych z wyłączeniem dla przedsiębiorstw. |
 | C | 137 | Błędna — traktuje limit 450 l jako warunek wystarczający i pomija pozostałe ograniczenia. |
 
@@ -33,7 +33,7 @@ W tym etapie sprawdzono zakres sprostowania i wskazane przepisy w źródłach. P
 - Mapa: ADR-B-0656 przypisano do ADR-B-01-K04 (5 pytań w kompetencji).
 - Lekcja i materiał instruktora ADR-B-01: dodano praktyczne omówienie i ćwiczenie rozpoznawania warunków wyłączenia.
 - Bank: 656 rekordów ADR-B-0001–0656, ID ciągłe i unikalne; wszystkie `needs_review`, 0 `verified`.
-- Blob SHA banku: `30f70e8ba6e01b498ce7756e29d406598ff62b34`.
+- Blob SHA banku: `940d22f1a3965796d24029e621b05253ff98ece4`.
 - Rozkład prawidłowych odpowiedzi: A=224, B=220, C=212.
 - Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 72/656 = 10,98%; maksimum działu 13,95%.
 - Warianty i klucze egzaminów próbnych 001–005 wskazują nowy blob SHA banku.
