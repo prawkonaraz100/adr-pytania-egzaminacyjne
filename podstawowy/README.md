@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x230 (31.10.2026)
+
+- Bank: 655 pytań `needs_review`, 0 `verified`; blob SHA `ca07d9e94b63ba6b9f832838e645500bd2964939`.
+- Dodano ADR-B-0655 do ADR-B-02-K14: zintegrowany odczyt klasy (kol. 3a), grupy pakowania (kol. 4) i nalepek (kol. 5) w tabeli A. Explanation: 399 znaków, 4 zdania; poprawna C nie jest najdłuższa (A=142, B=130, C=116 znaków).
+- Zaktualizowano mapę kompetencji, lekcję i materiał instruktora B-02, warianty/klucze egzaminów 001–005 oraz snapshoty sequential/legal dla 0655.
+- Raport: `raporty/etap-4x230-odczyt-tabeli-a-2026-10-31.md`.
+
 ## Bieżąca migawka — etap 4x229 (31.10.2026)
 
 - Bank: 654 pytań `needs_review`, 0 `verified`; blob SHA `6d2b0fd39173fef829b70a5e42049104688c1604`.
