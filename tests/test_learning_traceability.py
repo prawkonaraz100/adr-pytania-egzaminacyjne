@@ -50,7 +50,7 @@ class LearningTraceabilityTests(unittest.TestCase):
         self.assertEqual(len(self.scenarios), 40)
         self.assertEqual(set(self.scenarios_by_module), {f"ADR-B-{n:02d}" for n in range(1, 14)})
         for module, scenarios in self.scenarios_by_module.items():
-            self.assertEqual(len(scenarios), 3, f"{module}: expected exactly 3 scenarios")
+            self.assertGreaterEqual(len(scenarios), 3, f"{module}: expected at least 3 scenarios")
             for scenario in scenarios:
                 self.assertTrue(scenario.get("question_ids"), f"{scenario['id']}: no question IDs")
                 for question_id in scenario["question_ids"]:
