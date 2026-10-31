@@ -145,3 +145,4 @@ Poniższe rekordy pozostają nierozstrzygnięte pod kątem dosłownego fragmentu
 **Zasada:** bez kolejnych prób wydobywania MI/PDF; dalsze rozstrzygnięcie wyłącznie przez niezależną recenzję specjalisty i oficjalny tekst Dz.U.
 - ADR-B-0652
 - ADR-B-0653
+- ADR-B-0654
