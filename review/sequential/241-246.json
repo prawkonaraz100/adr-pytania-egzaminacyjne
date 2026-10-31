@@ -102,14 +102,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Czy członek załogi ADR może otworzyć sztukę przesyłki z towarem niebezpiecznym podczas przewozu?",
+        "stem": "Czy kierowca lub pomocnik kierowcy może otworzyć sztukę przesyłki ADR podczas przewozu, aby sprawdzić jej oznakowanie od środka?",
         "options": {
-          "A": "Tak, jeśli załoga założy rękawice ochronne i uzna, że otwarcie jest bezpieczne",
-          "B": "Tak, jeśli kierowca chce sprawdzić oznakowanie, a przesyłka nie wygląda na uszkodzoną",
-          "C": "Nie wolno otwierać sztuk przesyłek ADR podczas przewozu"
+          "A": "Tak, jeśli założy rękawice i nie dotknie samego towaru.",
+          "B": "Tak, jeśli paczka nie jest uszkodzona, a kontrola potrwa tylko chwilę.",
+          "C": "Nie; oznakowanie należy sprawdzić z zewnątrz, bez otwierania paczki."
         },
         "correct_option": "C",
-        "explanation": "Podczas przewozu nie wolno otwierać sztuk przesyłek ADR. Otwarcie może uwolnić niebezpieczną zawartość albo uszkodzić opakowanie, nawet jeśli paczka z zewnątrz wygląda na całą. Rękawice ochronne nie znoszą zakazu, a oznakowanie należy sprawdzać bez otwierania przesyłki. W razie wątpliwości zatrzymaj się bezpiecznie i wyjaśnij problem z nadawcą. Podstawa: ADR 8.3.3.",
+        "explanation": "Kierowca ani pomocnik kierowcy nie mogą otworzyć sztuki przesyłki, także po to, by sprawdzić jej zawartość lub oznakowanie. Dane potrzebne do kontroli należy odczytać z dokumentów i zewnętrznych oznaczeń opakowania. Rękawice, krótki postój ani dobry wygląd paczki nie tworzą wyjątku od zakazu. Podstawa: ADR 2025, 8.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -120,8 +120,8 @@
         "legal_basis_version": "ADR-2025-PL",
         "image": null
       },
-      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
-      "supplementary_source_url": null,
+      "source_crosscheck_scope": "official Polish ADR 2025, Dz.U. 2025 poz. 642, gov.pl attachment, section 8.3.3 targeted clause-scope comparison; full question/option comparison and independent specialist review pending",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
       "source_risk_note": "Full Polish ADR clause and correction check pending; independently review exceptions. Etap 4x116: snapshot zsynchronizowany po redakcji; recenzja prawna nadal oczekuje.",

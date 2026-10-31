@@ -1,4 +1,15 @@
-## Bieżąca migawka — etap 4x251 (31.10.2026)
+## Bieżąca migawka — etap 4x252 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x252**
+
+- Dodano ADR-B-0678: kierowca nie może zlecić pomocnikowi otwarcia paczki. Skorygowano ADR-B-0011, 0048 i 0243, aby 8.3.3 wskazywał dokładnie kierowcę i pomocnika kierowcy, a nie bez wyjątku każdego członka załogi.
+- Scenariusz SC-ADR-B-04-04 doprecyzowano do roli pomocnika kierowcy; uzupełniono lekcję i materiał instruktora.
+- Bank: 678 pytań ADR-B-0001–0678; 678 `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
+- Scenariusz łączy ADR-B-0048, ADR-B-0357 i ADR-B-0678; moduł B-04 ma 4 scenariusze, cały kurs 42. Bank: 678 pytań, wszystkie `needs_review`, 0 `verified`, SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
+- Wskaźnik „poprawna = jedyna najdłuższa”: 72/678 = 10,62%.
+- Raport: `raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x251 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x251**
 
@@ -302,6 +313,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x252 — zakaz otwierania przesyłek ADR](raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md)
 - [Etap 4x251 — mały pożar opon, hamulców lub silnika](raporty/etap-4x251-maly-pozar-opony-hamulce-silnik-2026-10-31.md)
 - [Etap 4x250 — czyszczenie po przewozie towarów niebezpiecznych luzem](raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md)
 - [Etap 4x249 — klasa 4.3: grupy pakowania i stopień zagrożenia](raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md)

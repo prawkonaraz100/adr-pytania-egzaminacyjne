@@ -47,6 +47,54 @@
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0678",
+      "order": 678,
+      "clause": "ADR 2025, 8.3.3",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "question_snapshot": {
+        "id": "ADR-B-0678",
+        "module_id": "ADR-B-04",
+        "stem": "Kierowca chce sprawdzić zawartość paczki ADR przed wydaniem jej odbiorcy. Prosi pomocnika kierowcy, aby otworzył opakowanie za niego. Czy takie rozwiązanie jest dozwolone?",
+        "options": {
+          "A": "Tak, ponieważ zakaz dotyczy tylko osoby, która w danej chwili prowadzi pojazd.",
+          "B": "Tak, jeśli pomocnik ma rękawice i otworzy paczkę ostrożnie, bez rozsypywania zawartości.",
+          "C": "Nie; kierowca nie może otworzyć paczki ani zlecić tego pomocnikowi kierowcy."
+        },
+        "correct_option": "C",
+        "explanation": "Nie wolno obchodzić zakazu przez poproszenie drugiej osoby o wykonanie czynności. ADR 8.3.3 zabrania otwierania paczek zarówno kierowcy, jak i pomocnikowi kierowcy, więc zmiana osoby niczego nie zmienia. Rękawice ani ostrożność nie tworzą wyjątku; zawartość i oznaczenia sprawdza się bez otwierania opakowania. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź błędnie dopuszcza otwarcie lub zawęża/rozszerza zakres zakazu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Rękawice, postój ani ostrożność nie tworzą wyjątku od ADR 8.3.3."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Kierowca nie może zlecić pomocnikowi otwarcia paczki; zakaz obejmuje obie role."
+        }
+      },
+      "notes_on_conditions": "Targeted official Polish ADR 2025, 8.3.3 scope check: „Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne.” The clause names the driver and driver's assistant. Full question/option legal review and independent specialist approval remain pending.",
+      "editorial_result": "targeted_clause_scope_checked_pending_full_question_and_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
     }
   ]
 }

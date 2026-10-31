@@ -509,16 +509,20 @@
       "id": "ADR-B-04-K02",
       "module_id": "ADR-B-04",
       "module_title": "Zapobieganie zagrożeniom",
-      "objective": "Zakaz otwierania przesyłek przez załogę",
-      "legal_refs": "8.3.3",
+      "objective": "Zakaz otwierania sztuk przesyłek przez kierowcę i pomocnika kierowcy",
+      "legal_refs": "ADR 8.3.3",
       "question_ids": [
         "ADR-B-0011",
         "ADR-B-0048",
         "ADR-B-0243",
-        "ADR-B-0357"
+        "ADR-B-0357",
+        "ADR-B-0678"
       ],
       "delivery": "theory",
-      "review_status": "needs_review"
+      "review_status": "needs_review",
+      "scenario_ids": [
+        "SC-ADR-B-04-04"
+      ]
     },
     {
       "id": "ADR-B-04-K03",

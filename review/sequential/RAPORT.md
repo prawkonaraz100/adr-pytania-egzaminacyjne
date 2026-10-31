@@ -104,3 +104,10 @@ Bank zawiera obecnie 639 pytań (`ADR-B-0001`–`ADR-B-0639`). Po dodaniu ADR-B-
 ## Aktualizacja bieżącego banku — etap 4x154 (29.10.2026)
 
 Bank zawiera 645 pytań (`ADR-B-0001`–`ADR-B-0645`), wszystkie `needs_review`. Partia `review/sequential/629-645.json` zawiera 17 snapshotów dla zakresu 0629–0645, a `review/legal-clauses/629-645.json` zawiera indywidualne wstępne uzasadnienia A/B/C dla tego zakresu. Dla ADR-B-0640–0645 zapisano wskazania ADR 5.4.3.4 oraz 8.1.4 dla gaśnic. To nie jest pełne literalne porównanie polskiego aktu ani niezależna recenzja eksperta.
+
+
+## Aktualizacja 4x252 — ciągłość audytu do ADR-B-0678
+
+- Audyt sekwencyjny obejmuje teraz 678 rekordów w ciągłych plikach zakresowych. Zmiany w ADR-B-0011, 0048 i 0243 przeniesiono do istniejących zakresów 001-030, 031-060 i 241-246; ADR-B-0678 dodano w zakresie 677-678 razem z niezmienionym rekordem 0677.
+- Audyt sekwencyjny używa nazw plików zgodnych z ciągłą numeracją pytań, a nie nazw etapów redakcyjnych.
+- Cztery rekordy mają zapisane celowane porównanie zakresu ADR 8.3.3 z oficjalnym polskim tekstem; pełne porównanie pytań i niezależna recenzja specjalisty pozostają otwarte. Pole polish_official_text_fully_compared pozostaje false; wszystkie pytania needs_review.

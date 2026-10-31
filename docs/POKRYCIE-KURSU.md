@@ -1,7 +1,14 @@
-**Stan aktualny po etapie 4x251: 31.10.2026.**
+**Stan aktualny po etapie 4x252: 31.10.2026.**
 
-- Scenariusze praktyczne: 41 łącznie; ADR-B-05-K06 ma teraz osobny scenariusz `SC-ADR-B-05-04` dla małego pożaru opon, hamulców lub silnika. W module B-05 są 4 scenariusze; każdy z 13 działów ma co najmniej 3.
-- Bank pytań bez zmian: 677 rekordów, wszystkie `needs_review`, 0 `verified`.
+- Bank: 678 pytań ADR-B-0001–0678; wszystkie `needs_review`, 0 `verified`.
+- ADR-B-04-K02: 5 pytań; poprawiono dokładny zakres ADR 8.3.3 (kierowca i pomocnik kierowcy), dodano ADR-B-0678 i doprecyzowano SC-ADR-B-04-04.
+- Scenariusze: 42 łącznie; B-03, B-04 i B-05 mają po 4.
+- Rozkład prawidłowych opcji: A=232, B=230, C=216.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/678 = 10,62%**; maksimum działu to 13,95%.
+
+- Bank: 678 rekordów ADR-B-0001–0678, wszystkie `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
+- ADR-B-04-K02: doprecyzowano ADR 8.3.3 do kierowcy i pomocnika kierowcy; poprawiono ADR-B-0011, 0048 i 0243, dodano ADR-B-0678.
+- Scenariusze praktyczne: 42; B-03, B-04 i B-05 mają po 4.
 
 ## Uzupełnienie audytu 4x249 — 31.10.2026
 
@@ -253,7 +260,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 49 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 53 | 4 | Lekcja + mapa pytań |
-| ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
+| ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 61 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
@@ -263,7 +270,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **677** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **678** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
