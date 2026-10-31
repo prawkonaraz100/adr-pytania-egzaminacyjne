@@ -1,4 +1,11 @@
-## Bieżąca migawka — etap 4x235 (31.10.2026)
+## Bieżąca migawka — etap 4x236 (31.10.2026)
+
+- Bank: 661 pytań `needs_review`, 0 `verified`; ADR-B-0001–0661, blob SHA `d7ad9711a2e5f5ced552ff6a4140455104536280`.
+- Dodano ADR-B-0661 do ADR-B-02-K04; próg kontroli temperatury dla materiału polimeryzującego przewożonego w DPPL.
+- Raport: `podstawowy/raporty/etap-4x236-polimeryzujace-klasa-41-kontrola-temperatury-2026-10-31.md`.
+- Literalna recenzja polskiego tekstu ADR i niezależna recenzja specjalisty pozostają wymagane.
+
+## Poprzednia migawka — etap 4x235 (31.10.2026)
 
 - Bank: 660 pytań `needs_review`, 0 `verified`; ADR-B-0001–0660, blob SHA `ffdc615fa08713d54fd9b2d0dbfbda3f9c4a0cf0`.
 - Dodano ADR-B-0660 do ADR-B-07-K07; scenariusz odpowiedzialności przewoźnika za nienależyte wykonanie umowy i działania kierowcy.

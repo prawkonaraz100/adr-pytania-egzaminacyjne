@@ -371,3 +371,10 @@ Czerwona nalepka z płomieniem i numerem 2.1 oznacza gaz palny. W razie uwolnien
 ### Temperatura zapłonu cieczy klasy 3
 
 Temperatura zapłonu to najniższa temperatura cieczy, przy której jej para może utworzyć z powietrzem mieszaninę palną. Nie jest to temperatura wrzenia ani temperatura samozapłonu. W praktyce kierowca powinien rozumieć, że pary cieczy mogą stworzyć zagrożenie po osiągnięciu tej temperatury, a do zapłonu potrzebne jest źródło zapłonu. Dla klasy 3 ADR określa kryteria obejmujące m.in. temperaturę zapłonu nie wyższą niż 60°C, z wyjątkami opisanymi w przepisie. Powiązane pytanie: ADR-B-0658. Podstawa: ADR 1.2.1; 2.2.3.1.1.
+
+### Materiały polimeryzujące klasy 4.1 — kiedy kontrolować temperaturę
+Materiał polimeryzujący może reagować z wydzieleniem dużej ilości ciepła. Dla przewozu w sztuce przesyłki lub DPPL kontrola temperatury jest wymagana, gdy TSP w tym opakowaniu lub DPPL wynosi 50°C lub mniej. Dla cystern obowiązuje odrębny próg 45°C. Nie pomyl tych wartości z progiem 75°C, który jest jednym z kryteriów klasyfikacji materiału polimeryzującego do klasy 4.1.
+
+**Przykład:** dokumentacja podaje, że TSP materiału w DPPL wynosi 48°C. To wartość nieprzekraczająca 50°C, więc przewóz wymaga kontroli temperatury zgodnie z warunkami ADR. Nie stosuj tu progu 45°C przeznaczonego dla cystern.
+
+**Pytanie do sprawdzenia:** `ADR-B-0661`; podstawa: ADR 2.2.41.1.20–2.2.41.1.21(a) i 7.1.7. Pełna recenzja polskiego tekstu i niezależna recenzja specjalisty pozostają otwarte.
