@@ -132,6 +132,8 @@ Poniższe rekordy pozostają nierozstrzygnięte pod kątem dosłownego fragmentu
 - ADR-B-0600
 - ADR-B-0602
 
+- ADR-B-0655
+
 ## Wynik 4x24 według indeksu
 
 - Rekordy sprawdzone: 172.
@@ -146,4 +148,3 @@ Poniższe rekordy pozostają nierozstrzygnięte pod kątem dosłownego fragmentu
 - ADR-B-0652
 - ADR-B-0653
 - ADR-B-0654
-- ADR-B-0655
