@@ -30,7 +30,7 @@ Temat urzędowy: główne rodzaje zagrożeń, podstawy klasyfikacji, rozpoznawan
 | ADR-B-02-K03 | Klasa 3: materiały ciekłe zapalne | ADR 2.2.3 | 3 |
 | ADR-B-02-K04 | Klasa 4.1: materiały stałe zapalne | ADR 2.2.41 | 3 |
 | ADR-B-02-K05 | Klasa 4.2: materiały samonagrzewające się / samozapalne | ADR 2.2.42 | 3 |
-| ADR-B-02-K06 | Klasa 4.3: reagujące z wodą | ADR 2.2.43 | 4 |
+| ADR-B-02-K06 | Klasa 4.3: reagujące z wodą | ADR 2.2.43 | 6 |
 | ADR-B-02-K07 | Klasa 5.1: materiały utleniające | ADR 2.2.51 | 4 |
 | ADR-B-02-K08 | Klasa 5.2: nadtlenki organiczne | ADR 2.2.52 | 3 |
 | ADR-B-02-K09 | Klasa 6.1: materiały trujące | ADR 2.2.61 | 3 |
@@ -218,3 +218,8 @@ Pokaż kursantowi butlę, której zawór nie ma osobnego kapturka, ale butla jes
 ### Ćwiczenie: bateria zapakowana z elektronarzędziem
 
 Przedstaw fikcyjną przesyłkę z wiertarką i zapasową baterią litowo-jonową umieszczoną w tym samym opakowaniu. Poproś kursanta o wybór właściwej pozycji UN i uzasadnienie, dlaczego bateria nie jest UN 3480 tylko dlatego, że nie została zamontowana. Oczekiwane rozróżnienie: UN 3481 dla baterii zawartej w urządzeniu lub zapakowanej z urządzeniem, które zasila; UN 3480 dla baterii litowo-jonowej przewożonej bez urządzenia. Następnie pokaż kontrprzykład baterii z litem metalicznym i omów UN 3091. Nie oceniaj na tej podstawie spełnienia wszystkich warunków pakowania ani wyłączenia SP 188 — do tego trzeba osobno sprawdzić właściwy wpis, przepis szczególny i instrukcję pakowania. Powiązane pytanie: ADR-B-0673 (needs_review). Podstawa: ADR 2.2.9.1.7.1, dział 3.2 tabela A, 5.2.1.9.2.
+
+
+### Ćwiczenie: odczyt grupy pakowania materiału klasy 4.3
+
+Pokaż kursantowi fikcyjny fragment dokumentu przewozowego z pozycją klasy 4.3 i grupą pakowania I. Poproś o wyjaśnienie, że grupa I oznacza duże zagrożenie, a nie rodzaj opakowania. Omów, że w klasie 4.3 kryteria grupy I obejmują energiczną reakcję z wodą i tendencję wydzielanego gazu do samozapłonu albo szybkość wydzielania gazu palnego co najmniej 10 l/kg/min. Porównaj z grupą III, dla której ADR określa wolniejsze wydzielanie gazu. Podkreśl, że kierowca odczytuje grupę z dokumentu i nie wykonuje żadnych prób z wodą. Powiązane pytanie: ADR-B-0674 (needs_review). Podstawa: ADR 1.2.1 i 2.2.43.1.8.
