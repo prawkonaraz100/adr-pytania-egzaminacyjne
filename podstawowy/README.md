@@ -1,5 +1,14 @@
 ## Bieżąca migawka — etap 4x231 (31.10.2026)
 
+**Stan na 31.10.2026, etap 4x231**
+
+- Bank: 656 pytań `needs_review`, 0 `verified`; 656 `needs_review`, 0 `verified`; blob SHA `30f70e8ba6e01b498ce7756e29d406598ff62b34`.
+- Dodano ADR-B-0656 do ADR-B-01-K04: wyłączenie dla przewozu pomocniczego przedsiębiorstwa (ADR 1.1.3.1(c), 1.1.3.6). Explanation 410 znaków, 4 zdania; poprawna A nie jest najdłuższa (A=133, B=153, C=137).
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 72/656 = 10,98%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md`.
+
+## Bieżąca migawka — etap 4x231 (31.10.2026)
+
 - Bank: 656 pytań `needs_review`, 0 `verified`; blob SHA `30f70e8ba6e01b498ce7756e29d406598ff62b34`.
 - Dodano ADR-B-0656 do ADR-B-01-K04: praktyczne wyłączenie dla przewozu pomocniczego przedsiębiorstwa (ADR 1.1.3.1(c), 1.1.3.6). Explanation 410 znaków, 4 zdania; poprawna A (133 znaki) nie jest najdłuższa (B=153, C=137).
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 72/656 = 10,98%; maksimum działu 13,95%.
@@ -110,6 +119,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x231 — wyłączenie dla przewozu pomocniczego przedsiębiorstwa](raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md)
 - [Etap 4x231 — wyłączenie dla przewozu pomocniczego przedsiębiorstwa](raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md)
 - [Etap 4x230 — praktyczne odczytanie tabeli A](raporty/etap-4x230-odczyt-tabeli-a-2026-10-31.md)
 - [Etap 4x229 — szczególne znaczenie kodu 99](raporty/etap-4x229-szczegolne-znaczenie-kodu-99-2026-10-31.md)
