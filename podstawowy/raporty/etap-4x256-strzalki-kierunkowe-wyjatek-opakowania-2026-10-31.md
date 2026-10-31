@@ -29,6 +29,6 @@ Dokładny polski tekst ustępu w Dz.U. nie został pobrany i porównany literaln
 ## Synchronizacja #646 — stan po dodaniu pytania
 
 - Bank: **682** pytań ADR-B-0001–0682; wszystkie needs_review, 0 verified.
-- Blob SHA: do uzupełnienia po zapisaniu banku.
+- Blob SHA: `623b3c164d1a394f8976e5b3a9e75d9893a65444`.
 - Rozkład A/B/C: **234/232/216**; „poprawna = jedyna najdłuższa”: **72/682 = 10,56%**, poniżej Quality Gate 18%.
 - Zaktualizowano mapę kompetencji, lekcję i materiał instruktora B-09, snapshoty sequential/legal oraz ledger źródeł. Synchronizacja egzaminów 001–005 i pakietu recenzyjnego następuje w kolejnych commitach.
