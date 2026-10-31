@@ -3,6 +3,8 @@
 - Bank: 678 pytań ADR-B-0001–0678; wszystkie `needs_review`, 0 `verified`.
 - ADR-B-04-K02: 5 pytań; poprawiono dokładny zakres ADR 8.3.3 (kierowca i pomocnik kierowcy), dodano ADR-B-0678 i doprecyzowano SC-ADR-B-04-04.
 - Scenariusze: 42 łącznie; B-03, B-04 i B-05 mają po 4.
+- Rozkład prawidłowych opcji: A=232, B=230, C=216.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/678 = 10,62%**; maksimum działu to 13,95%.
 
 - Scenariusze praktyczne: 41 łącznie; ADR-B-05-K06 ma teraz osobny scenariusz `SC-ADR-B-05-04` dla małego pożaru opon, hamulców lub silnika. W module B-05 są 4 scenariusze; każdy z 13 działów ma co najmniej 3.
 - Bank: 678 rekordów ADR-B-0001–0678, wszystkie `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
@@ -19,7 +21,7 @@
 - Bank: 677 pytań ADR-B-0001–0677, wszystkie `needs_review`, 0 `verified`; SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Rozkład poprawnych odpowiedzi: A=232, B=230, C=215.
 - Rozkład prawidłowych opcji: A=232, B=230, C=215.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/678 = 10,62%**; maksimum działu to 13,95%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **73/677 = 10,78%**; maksimum działu to 13,95%.
 - Raport: [Etap 4x249 — klasa 4.3: grupy pakowania](../podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md).
 
 **Poprzednia migawka — etap 4x248 (31.10.2026).**
