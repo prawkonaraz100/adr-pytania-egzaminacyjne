@@ -1,4 +1,11 @@
-## Bieżąca migawka — etap 4x249 (31.10.2026)
+## Bieżąca migawka — etap 4x252 (31.10.2026)
+
+- Bank: 678 pytań ADR-B-0001–0678; wszystkie `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
+- ADR-B-0678 dodano do K02; ADR-B-0011, 0048 i 0243 skorygowano do dokładnego zakresu ADR 8.3.3: kierowca i pomocnik kierowcy.
+- 42 scenariusze praktyczne; B-03, B-04 i B-05 mają po 4. Literalna kontrola polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
+- Raport: `podstawowy/raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x249 (31.10.2026)
 
 - Bank: 677 pytań ADR-B-0001–0677; 677 `needs_review`, 0 `verified`; blob SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Dodano ADR-B-0674 do ADR-B-02-K06: odczyt I grupy pakowania materiału klasy 4.3.
@@ -122,7 +129,7 @@
 | ADR-B-0008 | ADR-B-03 | ADR-B-03-K02 | W dokumencie przewozowym ADR dla odpadu niebezpiecznego niebędącego odpadem promieniotwórczym dodano słowo „ODPAD” przed prawidłową nazwą przewozową. Co to oznacza? | B | ADR 2025, 5.4.1.1.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0009 | ADR-B-03 | ADR-B-03-K03 | Podczas rozładunku sztuk przesyłek ADR stwierdzono, że zawartość jednego opakowania wyciekła i zabrudziła pojazd. Co należy zrobić przed ponownym załadunkiem? | B | ADR 2025, 7.5.8.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0010 | ADR-B-04 | ADR-B-04-K01 | Czy podczas czynności ładunkowych ADR wolno palić e-papierosa w pobliżu pojazdu? | C | ADR 2025, 8.3.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0011 | ADR-B-04 | ADR-B-04-K02 | Czy kierowca może samowolnie otworzyć sztukę przesyłki zawierającą towar niebezpieczny? | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0011 | ADR-B-04 | ADR-B-04-K02 | Zakaz otwierania sztuki przesyłki przez kierowcę | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0012 | ADR-B-04 | ADR-B-04-K03 | Co do zasady należy zrobić z silnikiem podczas załadunku lub rozładunku towarów niebezpiecznych? | B | ADR 2025, 8.3.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0013 | ADR-B-05 | ADR-B-05-K01 | Gdzie podczas przewozu powinny znajdować się instrukcje pisemne ADR? | B | ADR 2025, 5.4.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0014 | ADR-B-05 | ADR-B-05-K01 | Co powinni zrobić członkowie załogi przed rozpoczęciem przewozu ADR? | C | ADR 2025, 5.4.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
@@ -159,7 +166,6 @@
 | ADR-B-0045 | ADR-B-03 | ADR-B-03-K01 | Jak postąpić ze znakiem dla materiału zagrażającego środowisku na sztuce przesyłki, gdy przepisy ADR wymagają takiego znaku? | C | ADR 2025, 5.2.1.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0046 | ADR-B-03 | ADR-B-03-K02 | Czy przy przewozie odpadów niebezpiecznych słowo „ODPAD” zastępuje numer UN w dokumencie ADR? | B | ADR 2025, 5.4.1.1.1 (a); 5.4.1.1.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0047 | ADR-B-04 | ADR-B-04-K03 | Co kierowca powinien zrobić z silnikiem podczas załadunku ADR, jeżeli nie jest potrzebny do napędzania urządzeń? | B | ADR 2025, 8.3.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0048 | ADR-B-04 | ADR-B-04-K02 | Odbiorca prosi członka załogi, który nie prowadzi pojazdu, o otwarcie paczki ADR. Kogo dotyczy zakaz z ADR 8.3.3? | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0049 | ADR-B-05 | ADR-B-05-K01 | Kiedy załoga powinna zapoznać się z pisemnymi instrukcjami ADR dotyczącymi postępowania w razie wypadku? | A | ADR 2025, 5.4.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0050 | ADR-B-05 | ADR-B-05-K01 | W jakim języku przewoźnik ma zapewnić załodze instrukcje pisemne ADR? | B | ADR 2025, 5.4.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0051 | ADR-B-06 | ADR-B-06-K06 | Co oznacza powtórzenie cyfry w numerze rozpoznawczym zagrożenia na tablicy ADR? | A | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
@@ -354,7 +360,6 @@
 | ADR-B-0240 | ADR-B-09 | ADR-B-09-K07 | Samochód po przewozie niebezpiecznego towaru luzem ma przyjąć kolejny, inny ładunek. Kiedy może odstąpić od czyszczenia na podstawie 7.5.8.2? | C | ADR 2025, 7.5.8.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0241 | ADR-B-03 | ADR-B-03-K03 | Po rozładunku pusty, nieoczyszczony kontener ADR jedzie zgodnie z 7.5.8.1 do najbliższego odpowiedniego miejsca czyszczenia. Jaka dodatkowa informacja jest wymagana w dokumencie przewozowym? | A | ADR 2025, 5.4.1.1.6.3(b); 7.5.8.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0242 | ADR-B-03 | ADR-B-03-K04 | Po wycieku ADR substancja zbliża się do kanalizacji. Kiedy załoga może próbować ograniczyć jej odpływ? | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0243 | ADR-B-04 | ADR-B-04-K02 | Czy członek załogi ADR może otworzyć sztukę przesyłki z towarem niebezpiecznym podczas przewozu? | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0244 | ADR-B-04 | ADR-B-04-K03 | Podczas załadunku ADR silnik pojazdu pracuje, chociaż nie napędza żadnego urządzenia. Co należy zrobić? | A | ADR 2025, 8.3.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0245 | ADR-B-07 | ADR-B-07-K03 | Załadowca widzi uszkodzoną sztukę przesyłki z wyciekiem ADR. Jak powinien zareagować? | B | ADR 2025, 1.4.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0246 | ADR-B-07 | ADR-B-07-K04 | Odbiorca chce bez ważnej przyczyny opóźniać przyjęcie dostarczonych towarów ADR. Co mówi zasada ADR? | C | ADR 2025, 1.4.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
@@ -827,7 +832,6 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0672 | ADR-B-13 | ADR-B-13-K05 | Środek identyfikacji ze zdjęciem dla każdego członka załogi | B | ADR 2025, 1.10.1.4; 8.1.2.1(d) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0677 | ADR-B-03 | ADR-B-03-K03 | Oczyszczanie pojazdu po przewozie towarów niebezpiecznych luzem przed ponownym załadunkiem | C | ADR 2025, 7.5.8.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0011 | ADR-B-04 | ADR-B-04-K02 | Zakaz otwierania przez kierowcę — doprecyzowano brzmienie klucza | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0048 | ADR-B-04 | ADR-B-04-K02 | Zakres zakazu: kierowca i pomocnik kierowcy, nie każdy członek załogi | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0243 | ADR-B-04 | ADR-B-04-K02 | Zakaz otwierania przez kierowcę i pomocnika; kontrola oznakowania z zewnątrz | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0678 | ADR-B-04 | ADR-B-04-K02 | Kierowca nie może zlecić pomocnikowi otwarcia sztuki przesyłki | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
