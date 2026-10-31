@@ -1,3 +1,5 @@
+- Etap 4x222: drugi przegląd 10 explanation (ADR-B-0262, 0394, 0446, 0517, 0488, 0358, 0095, 0490, 0537, 0499); raport `podstawowy/raporty/etap-4x222-przeglad-explanation-10-2026-10-31.md`; bank SHA `5e45a0dc14a2da0de4826443007002df880f4233`; statusy `needs_review`.
+
 - Etap 4x221: drugi przegląd 10 explanation (ADR-B-0226, 0265, 0326, 0344, 0359, 0377, 0461, 0587, 0594, 0602); raport `podstawowy/raporty/etap-4x221-przeglad-explanation-10-2026-10-31.md`; bank SHA `5e45a0dc14a2da0de4826443007002df880f4233`; statusy `needs_review`.
 
 - Etap 4x220: drugi przegląd 10 explanation (ADR-B-0426, 0121, 0414, 0487, 0455, 0170, 0560, 0538, 0151, 0172); raport `podstawowy/raporty/etap-4x220-przeglad-explanation-10-2026-10-30.md`; bank SHA `3d123c9eb504e5970cd3f032f7dda59fb332ff93`; statusy `needs_review`.
