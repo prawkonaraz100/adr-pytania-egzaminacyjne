@@ -1,6 +1,6 @@
 # Etap 4x227 — semantyczne luki pokrycia i odróżnienie pytań podobnych
 
-Data: 31.10.2026. Zakres: wyłącznie kurs podstawowy ADR. Punkt wyjścia: `main` `3d84e2932dd2ae6c62ccbd027bc004169f10c471`, bank 651 pytań. Stan po tej partii: 652 pytania, `ADR-B-0001`–`ADR-B-0652`. Blob SHA `questions.jsonl`: `d024eaef2d8cc404101769dc64a407675977f64b`.
+Data: 31.10.2026. Zakres: wyłącznie kurs podstawowy ADR. Punkt wyjścia: `main` `3d84e2932dd2ae6c62ccbd027bc004169f10c471`, bank 651 pytań. Stan po tej partii: 652 pytania, `ADR-B-0001`–`ADR-B-0652`. Blob SHA `questions.jsonl`: `bea4df90f710e7101a5575ad967450eb3a95d27c`.
 
 ## 1. Dlaczego audyt pogłębiono
 
@@ -16,7 +16,7 @@ Dodano `ADR-B-0652` do `ADR-B-02-K12`. Pytanie dotyczy właśnie tej odrębnej p
 
 | Opcja | Długość | Ocena |
 |---|---:|---|
-| A | 88 znaków | **Poprawna** — definicja klasy 8 obejmuje również poważne szkody w innych towarach lub środku transportu przy wycieku. |
+| A | 59 znaków | **Poprawna** — definicja klasy 8 obejmuje również poważne szkody w innych towarach lub środku transportu przy wycieku. |
 | B | 89 znaków | Błędna — niesłusznie ogranicza klasę 8 wyłącznie do trwałego uszkodzenia skóry. |
 | C | 76 znaków | Błędna — niesłusznie przypisuje takie uszkodzenie zawsze do klasy 9. |
 
@@ -50,7 +50,7 @@ Zmieniono stem, warianty i explanation w `ADR-B-0615`, zachowując klucz B i sta
 
 - Bank: 652 rekordy; wszystkie `needs_review`, zero `verified`.
 - Kompetencja ADR-B-02-K12: 5 pytań po dodaniu ADR-B-0652.
-- Warianty i klucze egzaminów próbnych 001–005: `source_bank_head` zsynchronizowany z `d024eaef2d8cc404101769dc64a407675977f64b`.
+- Warianty i klucze egzaminów próbnych 001–005: `source_bank_head` zsynchronizowany z `bea4df90f710e7101a5575ad967450eb3a95d27c`.
 - Snapshoty `review/sequential` i `review/legal-clauses`: ADR-B-0615 odświeżony, a ostatni zakres rozszerzony z 629–651 do 629–652.
 - Manifest PAKIET-0628, kolejki 4x40/4x44, manifest próbki 4x135, README i dokumenty przekazania specjalistom zaktualizowane do SHA banku.
 - Nie zmieniano pozostałych pytań, kluczy ani statusów. Nie stwierdzono potrzeby korekty wskaźnika „poprawna = najdłuższa”; nowa poprawna odpowiedź nie jest najdłuższa.
