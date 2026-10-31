@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x249 (31.10.2026)
 
-- Bank: 674 pytania ADR-B-0001–0674; 677 `needs_review`, 0 `verified`; blob SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
+- Bank: 677 pytań ADR-B-0001–0677; 677 `needs_review`, 0 `verified`; blob SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Dodano ADR-B-0674 do ADR-B-02-K06: praktyczny odczyt I grupy pakowania dla materiału klasy 4.3.
 - Explanation 321 znaków, 3 zdania; A/B/C 133/137/147; rozkład kluczy 231/230/213; „poprawna = jedyna najdłuższa” 73/677 = 10,78%.
 - Snapshoty `review/sequential/674-674.json` i `review/legal-clauses/674-674.json`; egzaminy 001–005 wskazują aktualny SHA.
