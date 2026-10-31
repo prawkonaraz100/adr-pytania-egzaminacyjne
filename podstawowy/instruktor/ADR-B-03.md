@@ -145,3 +145,8 @@ Przeprowadź ćwiczenie na fikcyjnym dokumencie. Kursant ma wskazać brak lub w�
 ### Scenariusz SC-ADR-B-03-04 — czyszczenie po przewozie luzem
 
 Przedstaw fikcyjną sytuację, w której po rozładunku towaru niebezpiecznego przewożonego luzem pojazd ma przyjąć inny towar. Poproś kursanta o wskazanie wyjątku z ADR 7.5.8.2: ponowne załadowanie bez czyszczenia jest dopuszczone tylko wtedy, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Zwróć uwagę, że „pusty” nie oznacza „oczyszczony”. Nie zlecaj wykonywania realnych prób ani samodzielnego czyszczenia nieznanych pozostałości. Pytanie kontrolne: ADR-B-0677.
+
+
+### Ćwiczenie dokumentu odpadu — ADR-B-0680
+
+Przedstaw kursantowi dokument ADR z pominiętym słowem „ODPAD” przed nazwą przewozową odpadu zawierającego towary niebezpieczne oraz osobną kartę przekazania odpadu. Poproś o wskazanie, dlaczego karta odpadu nie zastępuje opisu ADR i kto powinien dostarczyć poprawione dane. Oczekiwana decyzja: nie rozpoczynać przewozu z niekompletnym dokumentem; skontaktować się z nadawcą i uzyskać poprawiony dokument. Kierowca nie klasyfikuje samodzielnie odpadu ani nie dopisuje brakującego opisu za nadawcę. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.
