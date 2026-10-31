@@ -1,4 +1,15 @@
-## Bieżąca migawka — etap 4x236 (31.10.2026)
+## Bieżąca migawka — etap 4x237 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x237**
+
+- Bank: 662 pytań; 662 `needs_review`, 0 `verified`; blob SHA `67da7457c1494d9e770324f42a6a30ef4e117567`.
+- Dodano ADR-B-0662 do ADR-B-08-K08: kontrola zgodności VIN w świadectwie dopuszczenia z konkretnym pojazdem. Explanation 438 znaków, 4 zdania; A/B/C 144/130/129 znaków.
+- Rozkład odpowiedzi A/B/C: 228/222/212. „Poprawna = jedyna najdłuższa”: 72/662 = 10,88%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x237-swiadectwo-pojazdu-zgodnosc-vin-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x236 (31.10.2026)
+
+## Poprzednia migawka — etap 4x236 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x236**
 
@@ -164,6 +175,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x237 — zgodność VIN świadectwa pojazdu](raporty/etap-4x237-swiadectwo-pojazdu-zgodnosc-vin-2026-10-31.md)
 - [Etap 4x236 — polimeryzujące materiały klasy 4.1 i kontrola temperatury](raporty/etap-4x236-polimeryzujace-klasa-41-kontrola-temperatury-2026-10-31.md)
 - [Etap 4x235 — odpowiedzialność cywilna przewoźnika](raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md)
 - [Etap 4x234 — zakres załączników A i B](raporty/etap-4x234-zalaczniki-a-b-zakres-2026-10-31.md)
