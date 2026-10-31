@@ -137,3 +137,8 @@ Pytania kontrolne: `ADR-B-0016`, `ADR-B-0017`, `ADR-B-0018`, `ADR-B-0507`, `ADR-
 
 ### Scenariusz SC-ADR-B-06, SC-ADR-B-06-02 i SC-ADR-B-06-03 — kontrola tablicy pomarańczowej
 Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, druga kod 80. Kursant ma zatrzymać wyjazd przy niezgodności i wyjaśnić, że cyfra 8 wskazuje działanie żrące, a kod należy czytać w całości. Pytania: ADR-B-0634–0637. Podstawy do sprawdzenia: ADR 5.3.2.2.1, 5.3.2.2.2 i 5.3.2.3.1.
+
+
+### SC-ADR-B-06-04 — niezgodne oznakowanie numerem UN
+
+Przygotuj trzy fikcyjne pomoce: opakowanie z napisem „1203” bez liter „UN”, dokument przewozowy z wpisem „UN 1203” oraz tablicę pomarańczową z numerem „33” nad „1203”. Poproś kursanta, by wskazał, że 33 jest numerem rozpoznawczym zagrożenia, a 1203 numerem UN, i rozpoznał brak liter „UN” na opakowaniu wymagającym takiego oznakowania. Kursant ma zgłosić niezgodność nadawcy/załadowcy i przewoźnikowi; nie rozpoczyna się przewozu do czasu usunięcia naruszenia. Nie polecaj kursantowi samodzielnego nanoszenia oznaczeń na rzeczywiste opakowanie. Pytania powiązane: ADR-B-0114, ADR-B-0188, ADR-B-0616. Podstawy: ADR 5.2.1.1, 5.3.2.2.2, 5.4.1.1.1, 1.4.2.2.1(b), 1.4.2.2.3.
