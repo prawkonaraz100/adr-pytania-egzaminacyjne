@@ -398,3 +398,8 @@ Niektóre nadtlenki organiczne wymagają przewozu w temperaturze kontrolowanej. 
 ### Klasa 6.2 — materiał biologiczny kategorii B (UN 3373)
 
 Oznaczenie UN 3373 oznacza materiał biologiczny kategorii B, należący do klasy 6.2. Dla takiej przesyłki stosuje się instrukcję pakowania P650. Jeżeli materiał i opakowanie są zapakowane oraz oznakowane zgodnie z P650, przepis szczególny 319 stanowi, że nie podlegają one innym wymaganiom ADR. Nie wolno mylić kategorii B z kategorią A, przewożoną pod UN 2814 lub UN 2900 i pakowaną zgodnie z P620. Powiązane pytanie: ADR-B-0668. Podstawa: ADR 2.2.62.1.4.2, 3.3 przepis 319, 4.1.4.1 P650.
+
+
+### Klasa 7 — odczytanie kategorii przesyłki
+
+Przy odbiorze przesyłki klasy 7 kierowca nie powinien ustalać kategorii wyłącznie na podstawie wskaźnika transportowego (TI). ADR wymaga uwzględnienia zarówno TI, jak i maksymalnego poziomu promieniowania na powierzchni opakowania. Jeżeli oba kryteria wskazują różne kategorie, przyjmuje się kategorię wyższą. W ćwiczeniu TI 0,8 wskazuje II-YELLOW, a poziom 0,7 mSv/h na powierzchni — III-YELLOW, więc właściwa jest III-YELLOW. Powiązane pytanie: ADR-B-0669 (needs_review). Podstawa: ADR 5.1.5.3.4(a) i tabela 5.1.5.3.4.
