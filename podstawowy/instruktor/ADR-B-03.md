@@ -133,9 +133,15 @@ Poprowadź kursanta od ochrony ludzi i środowiska do dokumentacji odpadu. Nie z
 - `SC-ADR-B-03` — wyciek przy kratce kanalizacyjnej.
 - `SC-ADR-B-03-02` — nieznany wyciek podczas postoju.
 - `SC-ADR-B-03-03` — pozostałości po rozładunku przed kolejnym ładunkiem.
+- `SC-ADR-B-03-04` — czyszczenie pojazdu po przewozie luzem przed załadunkiem innego towaru.
 
 Pytania kontrolne: `ADR-B-0007`, `ADR-B-0008`, `ADR-B-0009`, `ADR-B-0325`, `ADR-B-0332`, `ADR-B-0344`, `ADR-B-0461`, `ADR-B-0469`, `ADR-B-0514`. Częste pomyłki do omówienia: „ODPAD” nie zastępuje nazwy przewozowej ani numeru UN; mały wyciek nadal może wymagać reakcji; nieznanego składu nie wolno klasyfikować na chybił trafił.
 
 
 ### Scenariusz SC-ADR-B-03-03 — dokument odpadu przed wyjazdem
 Przeprowadź ćwiczenie na fikcyjnym dokumencie. Kursant ma wskazać brak lub wątpliwość w opisie odpadu, wyjaśnić ją z osobą odpowiedzialną i zatrzymać wyjazd do czasu poprawienia dokumentu. Pytanie powiązane: ADR-B-0629. Nie traktuj ćwiczenia jako formalnej recenzji prawnej; sprawdź ADR 5.4.1.1.3.1.
+
+
+### Scenariusz SC-ADR-B-03-04 — czyszczenie po przewozie luzem
+
+Przedstaw fikcyjną sytuację, w której po rozładunku towaru niebezpiecznego przewożonego luzem pojazd ma przyjąć inny towar. Poproś kursanta o wskazanie wyjątku z ADR 7.5.8.2: ponowne załadowanie bez czyszczenia jest dopuszczone tylko wtedy, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Zwróć uwagę, że „pusty” nie oznacza „oczyszczony”. Nie zlecaj wykonywania realnych prób ani samodzielnego czyszczenia nieznanych pozostałości. Pytanie kontrolne: ADR-B-0677.
