@@ -5,7 +5,8 @@
 - ADR-B-0677: czyszczenie po przewozie luzem, ADR 7.5.8.2; explanation 404 znaki, 4 zdania; A/B/C 141/101/118; klucz C.
 - 40 scenariuszy praktycznych, wszystkie pytania `needs_review`, 0 `verified`; 73/677 = 10,78%.
 - Snapshoty `review/sequential/674-674.json` i `review/legal-clauses/674-674.json`; egzaminy 001–005 wskazują aktualny SHA.
-- Raport: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
+- Raport: `podstawowy/raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md`.
+- Poprzedni raport 4x249: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
 - Literalne porównanie wiążącego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
 
 ## Bieżąca migawka — etap 4x248 (31.10.2026)
