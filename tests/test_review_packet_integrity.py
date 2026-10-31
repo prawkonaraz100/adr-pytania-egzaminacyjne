@@ -29,11 +29,11 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         )
 
     def test_manifest_matches_bank_and_module_counts(self):
-        self.assertEqual(len(self.bank), 676)
-        self.assertEqual(len(self.by_id), 676)
+        self.assertEqual(len(self.bank), 677)
+        self.assertEqual(len(self.by_id), 677)
         self.assertEqual(self.manifest["question_count"], len(self.bank))
-        self.assertEqual(self.manifest["last_id"], "ADR-B-0676")
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 676)
+        self.assertEqual(self.manifest["last_id"], "ADR-B-0677")
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 677)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
         self.assertEqual(self.manifest["formal_approvals"], 0)
         actual = {}
@@ -61,7 +61,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
             content = path.read_text(encoding="utf-8")
             with self.subTest(path=str(path.relative_to(ROOT))):
                 self.assertIn(bank_blob_sha, content, "review guidance must identify current bank snapshot")
-                self.assertIn("676", content, "review guidance must show current question count")
+                self.assertIn("677", content, "review guidance must show current question count")
                 self.assertIn("needs_review", content)
                 self.assertIn("verified", content)
         handoff = (REVIEW / "PRZEKAZANIE-ETAP4.md").read_text(encoding="utf-8")
@@ -115,11 +115,13 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
 
     def test_scenarios_cover_each_module_three_times(self):
         scenarios = self.scenario_data["scenarios"]
-        self.assertEqual(len(scenarios), 39)
+        self.assertEqual(len(scenarios), 40)
         counts = {}
         for scenario in scenarios:
             counts[scenario["module_id"]] = counts.get(scenario["module_id"], 0) + 1
-        self.assertEqual(counts, {f"ADR-B-{n:02d}": 3 for n in range(1, 14)})
+        expected = {f"ADR-B-{n:02d}": 3 for n in range(1, 14)}
+        expected["ADR-B-03"] = 4
+        self.assertEqual(counts, expected)
 
     def test_learner_and_instructor_artifacts_exist(self):
         for n in range(1, 14):
@@ -181,7 +183,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertIn("Jak interpretować wynik", exam_guide)
         review_guide = (REVIEW / "INSTRUKCJA-RECENZJI.md").read_text(encoding="utf-8")
         self.assertIn("etapach 4x25–4x29", review_guide)
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 676)
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 677)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
 
     def test_secondary_priority_legal_review_queue_stays_synchronized(self):

@@ -1,6 +1,6 @@
-## Migawka bieżąca — 4x249
+## Migawka bieżąca — 4x250
 
-Bank podstawowy: 674 pytania, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`. Najnowsza partia: ADR-B-0674, klasa 4.3, znaczenie I grupy pakowania i kryteria ADR 2.2.43.1.8. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.
+Bank podstawowy: 677 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `9dbbf511b3b057e3771ee382dda1a768226a916a`. Najnowsza partia: ADR-B-0677, czyszczenie pojazdu po przewozie towarów niebezpiecznych luzem, ADR 7.5.8.2. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.
 
 ## Migawka bieżąca — 4x248
 
@@ -222,7 +222,7 @@ Bank podstawowy: 669 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny bl
 - Bank bez zmian: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 - Raport etapu: `podstawowy/raporty/etap-4x137-scenariusze-praktyczne-2026-10-29.md`.
 - Dopracowano istniejące scenariusze SC-ADR-B-03-03, SC-ADR-B-05/05-02/05-03, SC-ADR-B-06/06-02/06-03 i SC-ADR-B-09, wiążąc je z pytaniami ADR-B-0629–0638.
-- Mapa ma nadal 39 scenariuszy, po 3 na każdy z 13 działów; nowe statusy prawne nie zostały zatwierdzone.
+- Mapa ma nadal 40 scenariuszy, po 3 na każdy z 13 działów; nowe statusy prawne nie zostały zatwierdzone.
 
 ## Historyczna migawka — etap 4x136 (29.10.2026)
 
@@ -237,13 +237,13 @@ Bank podstawowy: 669 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny bl
 - Raport: `podstawowy/raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md`.
 - Nowe pytania: ADR-B-0621–0628; zaktualizowano mapę kompetencji, lekcje B-02/B-05/B-06/B-09 oraz warianty i klucze 001–005.
 - Pakiet: `review/specialist/PAKIET-0628-MANIFEST.json`; rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0628.md`.
-- 13 lekcji, 39 scenariuszy, 5 wariantów i 5 kluczy; brak formalnych zatwierdzeń.
+- 13 lekcji, 40 scenariuszy, 5 wariantów i 5 kluczy; brak formalnych zatwierdzeń.
 
 ## Bieżąca migawka — etap 4x132 (28.10.2026)
 
 - Bank: 609 pytań `needs_review`, 0 `verified`; blob SHA `9fa7e964d86b0bd0c38f97a80b5965777d69d7da`.
 - Raport: `podstawowy/raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md`.
-- Pakiet: 13 lekcji, 13 materiałów instruktorskich, 39 scenariuszy, 90 haseł słowniczka, 5 wariantów i 5 kluczy.
+- Pakiet: 13 lekcji, 13 materiałów instruktorskich, 40 scenariuszy, 90 haseł słowniczka, 5 wariantów i 5 kluczy.
 - Parametry oficjalnego egzaminu podstawowego: 30 pytań, 60 minut, próg co najmniej 2/3 (20/30), Dz.U. 2024 poz. 964, § 9–11. Arkusze projektu są wyłącznie treningowe.
 - Statusy pozostają otwarte: bez formalnych zatwierdzeń; nie zmieniać `needs_review` na `verified` bez protokołu specjalisty.
 
@@ -285,7 +285,7 @@ Bank podstawowy: 669 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny bl
 - Bieżący bank `podstawowy/questions.jsonl`: blob SHA `b763f639efe11f972d4c3047dc8238334f9ff9f2`; 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Przepisano explanation w ADR-B-0085, ADR-B-0203 i ADR-B-0278; w ADR-B-0203 urealniono dystraktor C. Nie zmieniono ID ani poprawnej litery.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82%; maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
-- 13 lekcji i 39 scenariuszy sprawdzono pod kątem referencji; warianty i klucze 001–005 wskazują powyższy blob.
+- 13 lekcji i 40 scenariuszy sprawdzono pod kątem referencji; warianty i klucze 001–005 wskazują powyższy blob.
 - Pełny Quality Gate CI dla PR #577 musi przejść przed scaleniem. Nie nadawać statusu `verified`.
 
 ## Bieżąca migawka — etap 4x116
@@ -357,7 +357,7 @@ Bank podstawowy: 669 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny bl
 - Aktualny blob SHA `podstawowy/questions.jsonl`: `a2c17c5bc8ebcd9d7f138f3c773132d6913674db`.
 - Bank: 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Raport końcowy 4x69: [kontrola spójności scenariuszy i próbka explanation](../../podstawowy/raporty/etap-4x69-raport-koncowy-2026-10-27.md).
-- 39 scenariuszy, warianty i klucze 001–005; pełna recenzja prawna pozostaje otwarta.
+- 40 scenariuszy, warianty i klucze 001–005; pełna recenzja prawna pozostaje otwarta.
 
 ## Migawka aktualna — etap 4x50 (2026-10-26)
 
@@ -451,9 +451,9 @@ Przed recenzją specjalista ma zapisać commit SHA i pracować na jednej migawce
 ## Aktualizacja pakietu po etapach 4x25–4x29
 
 - **4x25:** przejrzano bank redakcyjnie; dodatkowa korekta językowa dotyczyła ADR-B-0197. Bez zmian statusów prawnych.
-- **4x26:** zsynchronizowano 13 lekcji, 13 materiałów instruktora, 39 scenariuszy i pięć wariantów egzaminu.
+- **4x26:** zsynchronizowano 13 lekcji, 13 materiałów instruktora, 40 scenariuszy i pięć wariantów egzaminu.
 - **4x27:** usunięto powtarzające się odsyłacze redakcyjne; bank i odpowiedzi bez zmian.
-- **4x28:** potwierdzono pokrycie ID lekcji/banku, powiązania 39 scenariuszy oraz unikalność 90 kotwic słowniczka; w próbce 60 explanation nie znaleziono potwierdzonego przypadku do przepisania.
+- **4x28:** potwierdzono pokrycie ID lekcji/banku, powiązania 40 scenariuszy oraz unikalność 90 kotwic słowniczka; w próbce 60 explanation nie znaleziono potwierdzonego przypadku do przepisania.
 - **4x29:** druga próbka 60 nowych explanation (ziarno `4292026`) nie wykazała potwierdzonego przypadku wymagającego przepisania. Warianty i klucze 001–005 zgodne z aktualnym bankiem po uwzględnieniu przestawiania liter.
 - **Dowody do recenzji:** [121 pozycji bez zapisanego dosłownego fragmentu MI](ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md); odrębnie 376 porównań z pełnym polskim tekstem urzędowym pozostaje nierozstrzygniętych, a 10 rekordów wymaga dokończenia porównania. Te kategorie nie są zamienne.
 

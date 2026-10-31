@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0677",
+      "order": 677,
+      "clause": "ADR 2025, 7.5.8.2",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0677",
+        "module_id": "ADR-B-03",
+        "stem": "Po rozładunku materiału niebezpiecznego przewożonego luzem kierowca ma przyjąć inny towar niebezpieczny. W pojeździe nie widać pozostałości poprzedniego ładunku. Co trzeba zrobić przed ponownym załadunkiem?",
+        "options": {
+          "A": "Można załadować nowy towar bez czyszczenia, jeśli poprzedni ładunek był przewożony luzem, pojazd jest pusty i nie widać żadnych pozostałości.",
+          "B": "Czyszczenie jest wymagane tylko wtedy, gdy poprzedni materiał wydostał się poza przestrzeń ładunkową.",
+          "C": "Przed ponownym załadunkiem trzeba prawidłowo oczyścić pojazd, chyba że kolejny ładunek to ten sam towar niebezpieczny."
+        },
+        "correct_option": "C",
+        "explanation": "Po rozładunku materiałów niebezpiecznych przewożonych luzem pojazd lub kontener trzeba prawidłowo oczyścić przed następnym załadunkiem. Wyjątek dotyczy sytuacji, gdy kolejny ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Nie myl tej zasady z 7.5.8.1, który dotyczy wycieku z opakowanych towarów; samo opróżnienie pojazdu nie oznacza jego oczyszczenia. Podstawa: ADR 2025, 7.5.8.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Brak widocznych pozostałości nie znosi obowiązku prawidłowego oczyszczenia pojazdu po przewozie towarów niebezpiecznych luzem."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Przepis nie ogranicza czyszczenia do sytuacji, gdy materiał wydostał się poza przestrzeń ładunkową; dotyczy pojazdów lub kontenerów po przewozie luzem."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "ADR 7.5.8.2 wymaga prawidłowego czyszczenia przed ponownym załadunkiem, z wyjątkiem sytuacji, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Zakres 7.5.8.2 to pojazdy lub kontenery, które przewoziły towary niebezpieczne luzem. Wyjątek dotyczy wyłącznie kolejnego ładunku składającego się z tych samych towarów niebezpiecznych. Kierowca nie wykonuje samodzielnie niebezpiecznych prac czyszczenia.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

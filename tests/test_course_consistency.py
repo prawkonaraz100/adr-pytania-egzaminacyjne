@@ -134,7 +134,7 @@ class CourseConsistencyTests(unittest.TestCase):
             (root / "podstawowy" / "praktyka" / "scenariusze-13-dzialow.json")
             .read_text(encoding="utf-8")
         )["scenarios"]
-        self.assertEqual(len(scenarios), 39)
+        self.assertEqual(len(scenarios), 40)
         for scenario in scenarios:
             sid = scenario.get("id", "<missing-id>")
             self.assertTrue(scenario.get("situation", "").strip(), f"{sid}: missing situation")

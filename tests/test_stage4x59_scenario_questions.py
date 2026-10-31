@@ -9,7 +9,7 @@ class ScenarioLearnerQuestionsTest(unittest.TestCase):
         data = json.loads((ROOT / "podstawowy/praktyka/scenariusze-13-dzialow.json").read_text(encoding="utf-8"))
         questions = [json.loads(x) for x in (ROOT / "podstawowy/questions.jsonl").read_text(encoding="utf-8").splitlines() if x.strip()]
         by_id = {q["id"]: q for q in questions}
-        self.assertEqual(39, len(data["scenarios"]))
+        self.assertEqual(40, len(data["scenarios"]))
         for s in data["scenarios"]:
             with self.subTest(id=s["id"]):
                 self.assertTrue(s.get("situation", "").strip())
@@ -34,9 +34,9 @@ class ScenarioLearnerQuestionsTest(unittest.TestCase):
             )
         for module, sets in groups.items():
             with self.subTest(module=module):
-                self.assertEqual(len(sets), 3, f"{module}: expected exactly three scenarios")
+                self.assertGreaterEqual(len(sets), 3, f"{module}: expected at least three scenarios")
                 self.assertGreaterEqual(len(set(sets)), 2,
-                    f"{module}: all three scenarios link the identical question set")
+                    f"{module}: all scenarios link the identical question set")
 
 if __name__ == "__main__":
     unittest.main()

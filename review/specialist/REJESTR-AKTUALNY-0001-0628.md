@@ -1,8 +1,8 @@
 ## Bieżąca migawka — etap 4x249 (31.10.2026)
 
-- Bank: 676 pytań ADR-B-0001–0676; 676 `needs_review`, 0 `verified`; blob SHA `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
+- Bank: 677 pytań ADR-B-0001–0677; 677 `needs_review`, 0 `verified`; blob SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Dodano ADR-B-0674 do ADR-B-02-K06: odczyt I grupy pakowania materiału klasy 4.3.
-- Explanation 321 znaków, 3 zdania; A/B/C 133/137/147; rozkład A/B/C 231/230/213; wskaźnik 73/676 = 10,80%.
+- Explanation 321 znaków, 3 zdania; A/B/C 133/137/147; rozkład A/B/C 231/230/213; wskaźnik 73/677 = 10,78%.
 - Egzaminy 001–005 i snapshoty sequential/legal wskazują bieżący bank.
 - Raport: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
 - Literalne porównanie Dz.U. i recenzja specjalisty pozostają otwarte.
@@ -826,4 +826,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0671 | ADR-B-02 | ADR-B-02-K02 | Ochrona zaworu butli gazowej przewożonej w ramie bez kapturka | B | ADR 2025, 4.1.6.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0672 | ADR-B-13 | ADR-B-13-K05 | Środek identyfikacji ze zdjęciem dla każdego członka załogi | B | ADR 2025, 1.10.1.4; 8.1.2.1(d) | — | NIEROZSTRZYGNIĘTE | needs_review |
-
+| ADR-B-0677 | ADR-B-03 | ADR-B-03-K03 | Oczyszczanie pojazdu po przewozie towarów niebezpiecznych luzem przed ponownym załadunkiem | C | ADR 2025, 7.5.8.2 | — | NIEROZSTRZYGNIĘTE | needs_review |

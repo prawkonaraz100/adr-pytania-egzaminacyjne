@@ -246,6 +246,14 @@ Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw prz
 
 **Sprawdź się:** `ADR-B-0129`. **Podstawa do kontroli:** ADR 2.1, 3.3, 5.4.1.1.3.
  
+### Oczyszczanie pojazdu po przewozie luzem (ADR-B-03-K03)
+
+Po rozładunku towarów niebezpiecznych przewożonych luzem pojazd lub kontener trzeba prawidłowo oczyścić przed ponownym załadunkiem. Wyjątek dotyczy sytuacji, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Nie wystarczy, że przestrzeń ładunkowa wygląda na pustą — brak widocznych pozostałości nie zastępuje wymaganego czyszczenia. To odrębna zasada od ADR 7.5.8.1, który opisuje czyszczenie po wycieku z opakowanych towarów.
+
+**Przykład do przemyślenia:** Po przewozie luzem jednego materiału niebezpiecznego firma chce załadować inny materiał. Kursant powinien wskazać, że przed ponownym załadunkiem trzeba prawidłowo oczyścić pojazd; wyjątek nie działa, bo nowy towar jest inny.
+
+**Sprawdź się:** ADR-B-0677. **Scenariusz praktyczny:** SC-ADR-B-03-04. **Podstawa do kontroli:** ADR 7.5.8.2.
+
 ### Ćwiczenie na zakończenie lekcji
 
 Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz na głos: co zauważył kierowca, jaka jest pierwsza bezpieczna decyzja, czego nie wolno zakładać i co trzeba potwierdzić w dokumentach. Jeżeli brakuje danych, nie udawaj, że znasz odpowiedź — wskaż, z kim trzeba ją wyjaśnić.
