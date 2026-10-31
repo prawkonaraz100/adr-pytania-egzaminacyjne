@@ -1,3 +1,10 @@
+## Uzupełnienie audytu 4x230 — 31.10.2026
+
+- Dodano ADR-B-0655 do ADR-B-02-K14. Pytanie łączy odczyt klasy w kolumnie 3a, grupy pakowania w kolumnie 4 i nalepek w kolumnie 5 tabeli A.
+- Wyjaśnienie ma 399 znaków; poprawna C (116 znaków) nie jest najdłuższa (A=142, B=130). Podstawa: ADR 2.1.1.3; 3.2.1, tabela A, kolumny 3a–5; 5.2.2.1.1.
+- Bank: 655 rekordów, wszystkie `needs_review`, 0 `verified`; ID 0001–0655 ciągłe i unikalne. Blob SHA `ca07d9e94b63ba6b9f832838e645500bd2964939`.
+- Raport: [4x230 — odczyt tabeli A](../podstawowy/raporty/etap-4x230-odczyt-tabeli-a-2026-10-31.md).
+
 ## Uzupełnienie audytu 4x229 — kod 99 (31.10.2026)
 
 - Dodano ADR-B-0654 do ADR-B-06-K06. Kod 99 ma szczególne znaczenie: różne towary niebezpieczne przewożone w stanie podgrzanym (ADR 2025, 5.3.2.3.1–5.3.2.3.2).
