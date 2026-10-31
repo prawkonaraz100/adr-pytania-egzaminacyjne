@@ -10,7 +10,7 @@
 - Bank: 674 pytania ADR-B-0001–0674, wszystkie `needs_review`, 0 `verified`; SHA `1f3ac69fdf7e01d6bd67b13bdded7a41a5e0f7b9`.
 - Rozkład poprawnych odpowiedzi: A=232, B=230, C=214.
 - Rozkład prawidłowych opcji: A=232, B=230, C=214.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/676 = 10,65%**; maksimum działu to 13,95%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **73/676 = 10,80%**; maksimum działu to 13,95%.
 - Raport: [Etap 4x249 — klasa 4.3: grupy pakowania](../podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md).
 
 **Poprzednia migawka — etap 4x248 (31.10.2026).**
@@ -248,7 +248,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 77 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 61 | 0 | Lekcja + mapa pytań |
