@@ -1,3 +1,10 @@
+## Uzupełnienie audytu 4x230 — 31.10.2026
+
+- Dodano ADR-B-0655 do ADR-B-02-K14. Pytanie łączy odczyt klasy w kolumnie 3a, grupy pakowania w kolumnie 4 i nalepek w kolumnie 5 tabeli A.
+- Wyjaśnienie ma 399 znaków; poprawna C (116 znaków) nie jest najdłuższa (A=142, B=130). Podstawa: ADR 2.1.1.3; 3.2.1, tabela A, kolumny 3a–5; 5.2.2.1.1.
+- Bank: 655 rekordów, wszystkie `needs_review`, 0 `verified`; ID 0001–0655 ciągłe i unikalne. Blob SHA `ca07d9e94b63ba6b9f832838e645500bd2964939`.
+- Raport: [4x230 — odczyt tabeli A](../podstawowy/raporty/etap-4x230-odczyt-tabeli-a-2026-10-31.md).
+
 ## Uzupełnienie audytu 4x229 — kod 99 (31.10.2026)
 
 - Dodano ADR-B-0654 do ADR-B-06-K06. Kod 99 ma szczególne znaczenie: różne towary niebezpieczne przewożone w stanie podgrzanym (ADR 2025, 5.3.2.3.1–5.3.2.3.2).
@@ -23,18 +30,18 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 
 # ADR podstawowy — aktualne pokrycie kursu
 
-**Kontrola mapy odświeżona w etapie 4x229: 31.10.2026.** Bank ma 654 pytań; raport [4x229 — szczególne znaczenie kodu 99](../podstawowy/raporty/etap-4x229-szczegolne-znaczenie-kodu-99-2026-10-31.md) dodaje ADR-B-0654 do ADR-B-06-K06. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
+**Kontrola mapy odświeżona w etapie 4x230: 31.10.2026.** Bank ma 655 pytań; raport [4x230 — odczyt tabeli A](../podstawowy/raporty/etap-4x230-odczyt-tabeli-a-2026-10-31.md) dodaje ADR-B-0655 do ADR-B-02-K14. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
 
-**Stan aktualny po etapie 4x229: 31.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
+**Stan aktualny po etapie 4x230: 31.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
 
 ## Co naprawdę zostało ukończone?
 
-- **654 autorskie pytania** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **654 needs_review / 0 verified**.
+- **655 autorskie pytania** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **655 needs_review / 0 verified**.
 - **104/104 kompetencji teoretycznych** ma co najmniej dwa pytania robocze. **0/104** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
-- Rozkład prawidłowych opcji: A=223, B=220, C=211.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/654 = 11,01%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
+- Rozkład prawidłowych opcji: A=223, B=220, C=212.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/655 = 10,99%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
 - [Etap 4x228 — kombinacja zagrożeń 886](../podstawowy/raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md).
 - [Audyt 4w](../podstawowy/raporty/etap-4w-program-13-dzialow-mapa-luk.md) dokumentuje wszystkie 107 kompetencji i ID; [kontrola 13 lekcji](../podstawowy/raporty/etap-4w-przeglad-13-lekcji-odsylacze.md) usunęła błędny skrót zakresu w B-09. Dane liczbowe dotyczą bieżącego banku, natomiast niższe sekcje dokumentu zachowują historię poprzednich etapów.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
@@ -46,7 +53,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 47 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 64 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 65 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 61 | 0 | Lekcja + mapa pytań |
@@ -58,7 +65,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **654** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **655** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

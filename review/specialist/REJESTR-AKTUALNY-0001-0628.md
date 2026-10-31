@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x230 (31.10.2026)
+
+- Bank: 655 pytań `needs_review`, 0 `verified`; blob SHA `ca07d9e94b63ba6b9f832838e645500bd2964939`.
+- Raport: `podstawowy/raporty/etap-4x230-odczyt-tabeli-a-2026-10-31.md`.
+- Dodano ADR-B-0655 do ADR-B-02-K14: zastosowanie tabeli A, kolumn 3a, 4 i 5. Explanation 399 znaków, 4 zdania; poprawna C (116 znaków) nie jest najdłuższa (A=142, B=130).
+- Warianty/klucze 001–005, snapshoty sequential/legal i ledger źródeł zsynchronizowano z aktualnym bankiem. Formalna recenzja prawna nadal pending.
+
 ## Bieżąca migawka — etap 4x229 (31.10.2026)
 
 - Bank: 654 pytań `needs_review`, 0 `verified`; blob SHA `6d2b0fd39173fef829b70a5e42049104688c1604`.
@@ -875,3 +882,7 @@ Bank bieżący: 653 pytania, wszystkie `needs_review`, 0 `verified`. Blob SHA: `
 **Bieżący snapshot po 4x155 (29.10.2026):** `questions.jsonl` blob SHA `1bf9ebb6616839704cc1b00599617caa46768b15`, 651 pytań `needs_review`, 0 `verified`. Dodano ADR-B-0646–0651 jako pytania scenariuszowe wspierające ćwiczenia praktyczne; nie zastępują instruktażu.
 | ADR-B-0653 | ADR-B-06 | ADR-B-06-K08 | Na górnym polu pomarańczowej tablicy ADR widnieje numer 886. Jakie zagrożenia wskazuje ten numer? | A | ADR 2025, 5.3.2.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0654 | ADR-B-06 | ADR-B-06-K06 | W górnym polu numerowanej tablicy ADR widnieje kod 99. Co oznacza on w szczególności? | A | ADR 2025, 5.3.2.3.1–5.3.2.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0655 | ADR-B-02 | ADR-B-02-K14 | Kierowca odczytuje klasę 3, grupę pakowania II oraz nalepki 3 i 6.1 w tabeli A. Jak rozumie te pola? | C | ADR 2025, 2.1.1.3; 3.2.1, kol. 3a–5; 5.2.2.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+Bank bieżący: 655 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `ca07d9e94b63ba6b9f832838e645500bd2964939`.

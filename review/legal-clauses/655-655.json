@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0655",
+      "order": 655,
+      "clause": "ADR 2025, 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "question_snapshot": {
+        "id": "ADR-B-0655",
+        "module_id": "ADR-B-02",
+        "stem": "Kierowca sprawdza wpis towaru w tabeli A. W kolumnie 3a widzi klasę 3, w kolumnie 4 grupę II, a w kolumnie 5 numery nalepek 3 i 6.1. Jak powinien odczytać te dane?",
+        "options": {
+          "A": "Klasa 3 opisuje stopień zagrożenia, grupa II określa rodzaj zagrożenia, a nalepka 6.1 zastępuje nalepkę 3 dla cieczy przewożonej w opakowaniu.",
+          "B": "Grupa II oznacza, że w opakowaniu znajdują się dwa towary niebezpieczne, a nalepki 3 i 6.1 są osobnymi znakami dla każdego z nich.",
+          "C": "Klasa 3 wskazuje rodzaj zagrożenia, grupa II jego stopień, a nalepki 3 i 6.1 pokazują zagrożenie główne i dodatkowe."
+        },
+        "correct_option": "C",
+        "explanation": "Klasa 3 mówi, z jakim rodzajem zagrożenia masz do czynienia, a grupa pakowania II określa średni stopień zagrożenia, jeśli została przypisana. Dwie nalepki oznaczają, że trzeba uwzględnić oba wskazane zagrożenia tego samego towaru; nie są dowodem na dwie różne substancje. Nie zamieniaj klasy z grupą pakowania ani nie pomijaj nalepki dodatkowej. Podstawa: ADR 2.1.1.3, 3.2.1 (kol. 3a–5), 5.2.2.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Opcja A błędnie zamienia znaczenie klasy i grupy pakowania oraz twierdzi, że nalepka 6.1 zastępuje wymaganą nalepkę 3."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Opcja B błędnie zakłada, że dwie nalepki oznaczają dwa towary; mogą one wskazywać zagrożenie główne i dodatkowe tego samego towaru."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Opcja C prawidłowo rozdziela rodzaj zagrożenia, stopień zagrożenia i wymagane nalepki dla wpisu tabeli A."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Pytanie używa fikcyjnego wpisu tabeli A i bada odczyt kolumn 3a, 4 i 5. Nie przypisuje zestawu danych do konkretnego numeru UN; formalna ocena prawna i recenzja specjalisty pozostają otwarte.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
