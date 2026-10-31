@@ -1,8 +1,8 @@
 ## Bieżąca migawka — etap 4x249 (31.10.2026)
 
-- Bank: 674 pytania ADR-B-0001–0674; 676 `needs_review`, 0 `verified`; blob SHA `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
+- Bank: 674 pytania ADR-B-0001–0674; 677 `needs_review`, 0 `verified`; blob SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Dodano ADR-B-0674 do ADR-B-02-K06: praktyczny odczyt I grupy pakowania dla materiału klasy 4.3.
-- Explanation 321 znaków, 3 zdania; A/B/C 133/137/147; rozkład kluczy 231/230/213; „poprawna = jedyna najdłuższa” 73/676 = 10,80%.
+- Explanation 321 znaków, 3 zdania; A/B/C 133/137/147; rozkład kluczy 231/230/213; „poprawna = jedyna najdłuższa” 73/677 = 10,78%.
 - Snapshoty `review/sequential/674-674.json` i `review/legal-clauses/674-674.json`; egzaminy 001–005 wskazują aktualny SHA.
 - Raport: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
 - Literalne porównanie wiążącego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
@@ -398,7 +398,7 @@
 - Bank bez zmian: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 - Raport etapu: `podstawowy/raporty/etap-4x137-scenariusze-praktyczne-2026-10-29.md`.
 - Dopracowano istniejące scenariusze SC-ADR-B-03-03, SC-ADR-B-05/05-02/05-03, SC-ADR-B-06/06-02/06-03 i SC-ADR-B-09, wiążąc je z pytaniami ADR-B-0629–0638.
-- Mapa ma nadal 39 scenariuszy, po 3 na każdy z 13 działów; nowe statusy prawne nie zostały zatwierdzone.
+- Mapa ma nadal 40 scenariuszy, po 3 na każdy z 13 działów; nowe statusy prawne nie zostały zatwierdzone.
 
 ## Historyczna migawka — etap 4x136 (29.10.2026)
 
@@ -413,13 +413,13 @@
 - Raport: `podstawowy/raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md`.
 - Nowe pytania: ADR-B-0621–0628; zaktualizowano mapę kompetencji, lekcje B-02/B-05/B-06/B-09 oraz warianty i klucze egzaminu 001–005.
 - Pakiet recenzyjny: `review/specialist/PAKIET-0628-MANIFEST.json`, rejestr `review/specialist/REJESTR-AKTUALNY-0001-0628.md`.
-- 13 lekcji, 39 scenariuszy, 5 wariantów i 5 kluczy; brak formalnych zatwierdzeń. Wszystkie pytania pozostają `needs_review`.
+- 13 lekcji, 40 scenariuszy, 5 wariantów i 5 kluczy; brak formalnych zatwierdzeń. Wszystkie pytania pozostają `needs_review`.
 
 ## Historyczna migawka — etap 4x132 (28.10.2026)
 
 - Bank: 609 pytań `needs_review`, 0 `verified`; bieżący blob SHA `9fa7e964d86b0bd0c38f97a80b5965777d69d7da`.
 - Raport: `podstawowy/raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md`.
-- Pakiet obejmuje 13 lekcji, 13 materiałów instruktorskich, 39 scenariuszy, 90 haseł słowniczka oraz 5 wariantów i 5 kluczy egzaminu próbnego.
+- Pakiet obejmuje 13 lekcji, 13 materiałów instruktorskich, 40 scenariuszy, 90 haseł słowniczka oraz 5 wariantów i 5 kluczy egzaminu próbnego.
 - Instrukcja kursanta: `podstawowy/egzamin-probny/INSTRUKCJA-KURSANTA.md`. Parametry oficjalnego egzaminu podstawowego potwierdza Dz.U. 2024 poz. 964, § 9–11: 30 pytań, 60 minut, próg 2/3 (20/30). Nasze warianty pozostają treningowe i nie są oficjalnym katalogiem.
 - Nie ma formalnych zatwierdzeń. Zachować `needs_review`; `verified` wyłącznie po prawdziwej, udokumentowanej recenzji specjalisty.
 
@@ -489,7 +489,7 @@
 - Bieżący bank `podstawowy/questions.jsonl`: blob SHA `b763f639efe11f972d4c3047dc8238334f9ff9f2`; 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Przepisano explanation w ADR-B-0085, ADR-B-0203 i ADR-B-0278; w ADR-B-0203 urealniono dystraktor C. Nie zmieniono ID ani poprawnej litery.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82%; maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
-- 13 lekcji i 39 scenariuszy sprawdzono pod kątem referencji; warianty i klucze 001–005 wskazują powyższy blob.
+- 13 lekcji i 40 scenariuszy sprawdzono pod kątem referencji; warianty i klucze 001–005 wskazują powyższy blob.
 - Pełny Quality Gate CI dla PR #577 musi przejść przed scaleniem. Nie nadawać statusu `verified`.
 
 ## Historyczna migawka — etap 4x116
@@ -530,7 +530,7 @@
 - Próbka redakcyjna seed `2026102789`: 60 explanation sprawdzonych; 0 potwierdzonych korekt. Pełna lista ID i ograniczenie braku pełnej listy próbkowej w raporcie 4x86 są jawnie zapisane.
 - M364 występuje w ADR-B-0145 i ADR-B-0198. Aktualny wpis UNECE podaje ważność do 31.12.2026; dotyczy warunkowego wyjątku dla przyczepy, nie pojazdu silnikowego.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 11,99%, maksimum działu 14,29%; explanation minimum 300 znaków.
-- Egzaminy 001–005 zgodne z treścią poprawnych opcji w banku; 0 rozbieżności. Wszystkie 39 scenariuszy przechodzą kontrole referencji i struktury.
+- Egzaminy 001–005 zgodne z treścią poprawnych opcji w banku; 0 rozbieżności. Wszystkie 40 scenariuszy przechodzą kontrole referencji i struktury.
 
 ## Aktualizacja prawna 4x88 — M364 (27.10.2026)
 
@@ -556,14 +556,14 @@
 ## Poprzednia migawka — etap 4x80 (27.10.2026)
 
 - Bank blob SHA: `440ff9e0acad53b7527dde81cb55a2301f8f47e9`.
-- 609 pytań, 609 `needs_review`, 0 `verified`; 39 scenariuszy i 5 wariantów egzaminu próbnego z kluczami.
+- 609 pytań, 609 `needs_review`, 0 `verified`; 40 scenariuszy i 5 wariantów egzaminu próbnego z kluczami.
 - Skorygowano sprzeczne „Tak/Nie” w odpowiedzi C pytania ADR-B-0497; zachowano literę C i status `needs_review`.
 - Raport: [Etap 4x70](../podstawowy/raporty/etap-4x70-korekta-ADR-B-0497-2026-10-27.md).
 
 ## Historyczna migawka — etap 4x69 (27.10.2026)
 
 - Bank blob SHA: `a2c17c5bc8ebcd9d7f138f3c773132d6913674db`.
-- 609 pytań, 609 `needs_review`, 0 `verified`; 39 scenariuszy i 5 wariantów egzaminu próbnego z kluczami.
+- 609 pytań, 609 `needs_review`, 0 `verified`; 40 scenariuszy i 5 wariantów egzaminu próbnego z kluczami.
 - Raport: [Etap 4x69](../podstawowy/raporty/etap-4x69-raport-koncowy-2026-10-27.md).
 - Żadna zmiana redakcyjna ani PASS CI nie stanowi formalnego zatwierdzenia prawnego.
 
@@ -571,14 +571,14 @@
 
 - Bank blob SHA: `ca4193261b018613083182c199ec3317984b24a4`.
 - Bank: 609 `needs_review`, 0 `verified`, brak formalnych zatwierdzeń.
-- Próbka 60 explanation (seed `2026102653`): 2 redakcyjne korekty; 39 scenariuszy sprawdzonych bez braków strukturalnych.
+- Próbka 60 explanation (seed `2026102653`): 2 redakcyjne korekty; 40 scenariuszy sprawdzonych bez braków strukturalnych.
 - [Raport 4x52](../podstawowy/raporty/etap-4x52-proba60-czytelnosc-2026-10-26.md).
 
 ## Poprzednia migawka — etap 4x51 (26.10.2026)
 
 - Bank blob SHA: `ca4193261b018613083182c199ec3317984b24a4`.
 - Bank: 609 `needs_review`, 0 `verified`, brak formalnych zatwierdzeń.
-- Próbka 60 explanation (seed `2026102651`): 5 redakcyjnych korekt; 39 scenariuszy sprawdzonych bez braków strukturalnych.
+- Próbka 60 explanation (seed `2026102651`): 5 redakcyjnych korekt; 40 scenariuszy sprawdzonych bez braków strukturalnych.
 - [Raport 4x51](../podstawowy/raporty/etap-4x51-proba60-scenariusze-2026-10-26.md).
 
 ## Poprzednia migawka — etap 4x50 (26.10.2026)
@@ -612,7 +612,7 @@
 - [Zbiorczy rejestr 4x24 — rekordy bez dosłownego fragmentu MI](specialist/ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md): 121 ID według świeżego indeksu; dalsze poszukiwania cytatów zakończone.
 
 
-> **Bieżący stan (etap 4x42, 26.10.2026):** bank blob SHA `8a16afb47c5d5a9e460092b7e474b4a3e8a5a8d9`; 609 pytań w `podstawowy/questions.jsonl`; wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. Aktualny indeks: `specialist/REJESTR-AKTUALNY-0001-0609.md`; manifest: `specialist/PAKIET-0609-MANIFEST.json`. W repo znajduje się 13 lekcji, 13 materiałów instruktora, 39 scenariuszy, słowniczek 90 haseł i 5 wariantów egzaminu z kluczami. Kolejka 4x40 ma 20 priorytetów; kolejka uzupełniająca 4x44 ma następne 20 unikalnych ID z listy 121 rekordów bez cytatu MI. Każda odpowiedź w kluczach zawiera `lesson_path` do właściwej lekcji; blokujący test sprawdza wszystkie 150 odnośników. W każdym wariancie wskaźnik „poprawna = jedyna najdłuższa” wynosi 0/30; rozkład A/B/C to 10/10/10. [Raport końcowy 4x20](../podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md); [raport 4x42](../podstawowy/raporty/etap-4x42-scenariusze-egzaminy-2026-10-26.md). Analizy historyczne nie zastępują niezależnej recenzji wszystkich pytań.
+> **Bieżący stan (etap 4x42, 26.10.2026):** bank blob SHA `8a16afb47c5d5a9e460092b7e474b4a3e8a5a8d9`; 609 pytań w `podstawowy/questions.jsonl`; wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń. Aktualny indeks: `specialist/REJESTR-AKTUALNY-0001-0609.md`; manifest: `specialist/PAKIET-0609-MANIFEST.json`. W repo znajduje się 13 lekcji, 13 materiałów instruktora, 40 scenariuszy, słowniczek 90 haseł i 5 wariantów egzaminu z kluczami. Kolejka 4x40 ma 20 priorytetów; kolejka uzupełniająca 4x44 ma następne 20 unikalnych ID z listy 121 rekordów bez cytatu MI. Każda odpowiedź w kluczach zawiera `lesson_path` do właściwej lekcji; blokujący test sprawdza wszystkie 150 odnośników. W każdym wariancie wskaźnik „poprawna = jedyna najdłuższa” wynosi 0/30; rozkład A/B/C to 10/10/10. [Raport końcowy 4x20](../podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md); [raport 4x42](../podstawowy/raporty/etap-4x42-scenariusze-egzaminy-2026-10-26.md). Analizy historyczne nie zastępują niezależnej recenzji wszystkich pytań.
 
 **Stan początkowy: 0 zatwierdzonych pytań.** `approvals.jsonl` jest celowo pusty. W projekcie **nie wolno** samodzielnie wpisywać fikcyjnych recenzentów ani dat.
 
