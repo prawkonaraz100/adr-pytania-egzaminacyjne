@@ -388,3 +388,8 @@ W klasie 4.2 ADR rozróżnia materiały piroforyczne i samonagrzewające się. P
 ### Klasa 5.1 w pobliżu pożaru — zagrożenie utleniające
 
 Materiał klasy 5.1 nie musi sam być palny, ale może spowodować lub nasilić spalanie innego materiału. Dlatego nie wolno uznać przesyłki za obojętną tylko dlatego, że jej opakowanie nie płonie. Jeśli w pobliżu ładunku wybucha pożar, załoga powinna uwzględnić klasę 5.1, przekazać ratownikom informację o towarze, odszukać [instrukcje pisemne](../SLOWNICZEK.md#instrukcje-pisemne) ADR (dokument z czynnościami załogi na wypadek awarii lub wypadku) i postępować zgodnie z nimi. Nie należy samodzielnie przenosić przesyłki ani dobierać środka gaśniczego bez oceny zagrożenia. Pytanie kontrolne: ADR-B-0666. Podstawa: ADR 2.2.51.1.1 i 5.4.3.4.
+
+
+### Klasa 5.2 — temperatura kontrolowana i awaryjna
+
+Niektóre nadtlenki organiczne wymagają przewozu w temperaturze kontrolowanej. Temperatura kontrolowana jest najwyższą temperaturą bezpiecznego przewozu, a temperatura awaryjna wskazuje moment rozpoczęcia działań awaryjnych. Jeśli czujnik pokaże osiągnięcie temperatury awaryjnej, kierowca powinien uruchomić przewidzianą procedurę, a nie czekać na dalszy wzrost temperatury ani improwizować chłodzenia. Warunki i progi wynikają z klasyfikacji konkretnego nadtlenku i dokumentacji przewozowej. Powiązane pytanie: ADR-B-0667. Podstawa: ADR 2.2.52.1.15–1.16 oraz 7.1.7.3.4 i 7.1.7.4.1.
