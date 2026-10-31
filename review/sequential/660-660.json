@@ -1,0 +1,53 @@
+{
+  "batch": "660-660",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0660",
+      "sequence": 660,
+      "exact_record_snapshot": {
+        "stem": "Przewoźnik zawarł krajową umowę przewozu. Jego kierowca, wykonując zlecenie, nie zabezpieczył prawidłowo ładunku i towar uległ uszkodzeniu. Kontrahent żąda odszkodowania od przewoźnika. Która ogólna zasada prawa cywilnego ma tu zastosowanie?",
+        "options": {
+          "A": "Przewoźnik może odpowiadać wobec kontrahenta za nienależyte wykonanie umowy oraz działanie kierowcy, którym się posłużył.",
+          "B": "Za szkodę może odpowiadać wyłącznie kierowca, bo to on wykonywał czynność; umowa zawarta przez przewoźnika nie ma tu znaczenia.",
+          "C": "Przewoźnik odpowiada tylko wtedy, gdy sam prowadził pojazd i własnoręcznie zabezpieczał ładunek, nigdy za działania pracownika."
+        },
+        "correct_option": "A",
+        "explanation": "Gdy przewoźnik zawarł umowę, może odpowiadać wobec kontrahenta za szkodę wynikłą z jej nienależytego wykonania. Nie zmienia tego fakt, że czynność wykonał kierowca; błędne jest więc przypisanie odpowiedzialności wyłącznie jemu albo całkowite wyłączenie przewoźnika. Nie oznacza to automatycznie osobistej odpowiedzialności kierowcy ani rozstrzygnięcia sprawy bez zbadania okoliczności i przepisów szczególnych. Podstawa: ADR 8.2.2.3.2(k); Kodeks cywilny art. 471 i 474.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.2(k)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "KC-2026-PL",
+            "reference": "Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 471 i 474",
+            "url": "https://eli.gov.pl/eli/DU/2026/795/ogl"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL+KC-2026",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_basic_course_civil_liability_syllabus_8.2.2.3.2_k_and_current_Polish_Civil_Code_articles_471_and_474; exact_official_Polish_ADR_clause_comparison_and_independent_specialist_review_pending",
+      "supplementary_source_url": "https://eli.gov.pl/eli/DU/2026/795/ogl",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Pytanie sprawdza ogólną zasadę odpowiedzialności kontraktowej przewoźnika i znaczenie działań osoby, którą posługuje się przy wykonaniu umowy. ADR 8.2.2.3.2(k) wskazuje temat odpowiedzialności cywilnej w programie szkolenia; art. 471 i 474 KC stanowią podstawę ogólnych zasad. W konkretnym sporze trzeba zbadać umowę, okoliczności i przepisy szczególne. Pełne literalne porównanie polskiego tekstu ADR i niezależna recenzja pozostają otwarte.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
