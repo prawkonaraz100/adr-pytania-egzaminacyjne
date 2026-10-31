@@ -38,6 +38,6 @@ Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmu
 
 - Bank: **678** pytań, ID ADR-B-0001–0678; wszystkie `needs_review`, zero `verified`.
 - SHA banku: `7c21fccb7d7e17e71fd98be534133582b54d52af`.
-- Rozkład kluczy i wskaźnik „poprawna = jedyna najdłuższa” wymagają ponownego wyliczenia lokalnym Quality Gate; próg nadal ≤18%.
+- Rozkład kluczy: A=232, B=230, C=216; „poprawna = jedyna najdłuższa”: 72/678 = 10,62% (próg ≤18%).
 - Scenariusze: 42; B-03, B-04 i B-05 mają po 4, pozostałe działy co najmniej 3.
 - Pełny Quality Gate, w tym egzaminy 001–005, snapshoty, mapa kompetencji i raporty, musi zakończyć się PASS przed scaleniem.
