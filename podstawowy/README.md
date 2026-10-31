@@ -3,10 +3,10 @@
 ## Bieżąca migawka — etap 4x256 (31.10.2026)
 
 - Dodano ADR-B-0682 do ADR-B-09-K04: wyjątek od strzałek kierunkowych dla małych opakowań wewnętrznych z wystarczającym materiałem chłonnym (ADR 5.2.1.10.2(b)).
-- Explanation 417 znaków, 4 zdania; A/B/C 142/136/107, poprawna B nie jest ani najkrótsza, ani najdłuższa.
-- Bank: 682 pytań ADR-B-0001–0682; 682 `needs_review`, 0 `verified`; SHA `623b3c164d1a394f8976e5b3a9e75d9893a65444`.
+- Explanation 449 znaków, 4 zdania; A/B/C 162/142/93, poprawna B nie jest ani najkrótsza, ani najdłuższa.
+- Bank: 682 pytań ADR-B-0001–0682; 682 `needs_review`, 0 `verified`; SHA `5bc8851bed5f1fdfcbf2a5f07faccb3174a72006`.
 - ADR-B-0682 do ADR-B-09-K04: wyjątek od strzałek kierunkowych dla opakowania zewnętrznego z opakowaniami wewnętrznymi do 120 ml i wystarczającym materiałem chłonnym (ADR 5.2.1.10.2(b)).
-- Explanation 417 znaków, 4 zdania; A/B/C 142/136/107; poprawna B nie jest ani najkrótsza, ani najdłuższa.
+- Explanation 449 znaków, 4 zdania; A/B/C 162/142/93; poprawna B nie jest ani najkrótsza, ani najdłuższa.
 - Rozkład prawidłowych opcji: A=234, B=232, C=216.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/682 = 10,56%**; maksimum działu to 13,95%.
 - Snapshoty: `sequential/682-682.json`, `legal-clauses/682-682.json`; rejestr: `REJESTR-0682-0682.md`.
