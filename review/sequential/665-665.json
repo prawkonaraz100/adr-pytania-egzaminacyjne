@@ -1,0 +1,53 @@
+{
+  "batch": "665-665",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0665",
+      "sequence": 665,
+      "exact_record_snapshot": {
+        "stem": "W opisie klasyfikacji podano, że niewielka ilość materiału zapala się po kontakcie z powietrzem w ciągu kilku minut. Jak należy odróżnić to zagrożenie od samonagrzewania?",
+        "options": {
+          "A": "To materiał samonagrzewający się: typowo zapala się dopiero w dużej ilości, po wielu godzinach lub dniach, a szybki zapłon małej ilości nie jest cechą piroforyczności.",
+          "B": "To materiał piroforyczny: mała ilość może zapalić się od kontaktu z powietrzem w ciągu pięciu minut; samonagrzewanie zwykle dotyczy większej ilości i dłuższego czasu.",
+          "C": "To materiał klasy 4.3: podstawą klasyfikacji jest wydzielanie palnego gazu po kontakcie z wodą, niezależnie od zachowania materiału w powietrzu."
+        },
+        "correct_option": "B",
+        "explanation": "Opis wskazuje na materiał piroforyczny: nawet mała ilość może zapalić się po kontakcie z powietrzem w ciągu pięciu minut. Materiał samonagrzewający się nagrzewa się bez dopływu energii z zewnątrz, ale zwykle zapala się dopiero w większej ilości i po wielu godzinach lub dniach. Nie myl tego z klasą 4.3, w której zagrożeniem jest palny gaz wydzielany przy kontakcie z wodą. Podstawa: ADR 2.2.42.1.1; dla piroforycznych grupa pakowania I — 2.2.42.1.8(a).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a)",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_2.2.42.1.1_and_2.2.42.1.8(a)_checked_against_UNECE_2025_English_text_and_Ministry_2025_Polish_auxiliary_copy; binding_Gazette_text_literal_comparison_and_independent_specialist_review_pending",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "ADR 2.2.42.1.1 distinguishes pyrophoric substances (ignite on contact with air even in small quantities within five minutes) from self-heating substances (heat without external energy and typically ignite only in large quantities after hours or days). ADR 2.2.42.1.8(a) assigns pyrophoric substances to packing group I. UNECE ADR 2025 Vol I confirms the clause text; the Ministry's Polish 2025 volumes are auxiliary copies and the Ministry explicitly states that the binding source is the Gazette text. Full literal Polish Gazette comparison and independent specialist review remain open.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
