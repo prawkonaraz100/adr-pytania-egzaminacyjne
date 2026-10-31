@@ -1,4 +1,10 @@
-## Bieżąca migawka — etap 4x252 (31.10.2026)
+## Bieżąca migawka — etap 4x253 (31.10.2026)
+
+- Bank: 679 pytań ADR-B-0001–0679; wszystkie `needs_review`, 0 `verified`; SHA `5df8cb5200a2c357cdcc04959893969d8ca448a0`.
+- Dodano ADR-B-0679 do ADR-B-01-K07: klasyfikacja przez nadawcę i kontrola przewoźnika przed rozpoczęciem przewozu; ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3, 5.4.1.1.1.
+- 679 wpisów w rejestrze; brak formalnych zatwierdzeń. Raport: `podstawowy/raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x252 (31.10.2026)
 
 - Bank: 678 pytań ADR-B-0001–0678; wszystkie `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
 - ADR-B-0678 dodano do K02; ADR-B-0011, 0048 i 0243 skorygowano do dokładnego zakresu ADR 8.3.3: kierowca i pomocnik kierowcy.
@@ -835,3 +841,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0048 | ADR-B-04 | ADR-B-04-K02 | Zakres zakazu: kierowca i pomocnik kierowcy, nie każdy członek załogi | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0243 | ADR-B-04 | ADR-B-04-K02 | Zakaz otwierania przez kierowcę i pomocnika; kontrola oznakowania z zewnątrz | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0678 | ADR-B-04 | ADR-B-04-K02 | Kierowca nie może zlecić pomocnikowi otwarcia sztuki przesyłki | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0679 | ADR-B-01 | ADR-B-01-K07 | Klasyfikacja nowego materiału przez nadawcę; kontrola dopuszczenia i kompletności danych przez przewoźnika przed rozpoczęciem przewozu | B | ADR 2025, 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3; 5.4.1.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |

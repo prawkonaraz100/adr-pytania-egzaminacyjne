@@ -265,3 +265,8 @@ Firma może skorzystać z wyłączenia z ADR, gdy przewóz towarów niebezpieczn
 ### Jak odróżnić załącznik A od załącznika B ADR?
 
 Załącznik A zawiera wymagania dotyczące towarów niebezpiecznych i warunków ich przewozu, m.in. klasyfikacji, opakowań, oznakowania oraz procedur nadania. Załącznik B dotyczy wyposażenia transportowego i operacji przewozowych: załogi, wyposażenia, eksploatacji, dokumentacji oraz konstrukcji i zatwierdzania pojazdów. Gdy szukasz przepisu, najpierw ustal, czy problem dotyczy samego towaru, czy pojazdu i wykonywania przewozu. Powiązane pytanie: ADR-B-0659. Podstawa: art. 2 Umowy ADR; ADR 1.1.1.
+
+
+### Brak klasyfikacji i danych ADR przed rozpoczęciem przewozu
+
+Jeżeli nadawca przekazuje tylko nazwę handlową nowego materiału, nie zgaduj numeru UN ani nie wybieraj podobnego wpisu z tabeli A. Klasyfikację i wymagane informacje przekazuje nadawca; przewoźnik sprawdza, czy towar jest dopuszczony do przewozu i czy otrzymał wymagane dane oraz dokumenty. Stwierdzone braki trzeba wyjaśnić przed rozpoczęciem przewozu. Powiązane pytanie: ADR-B-0679. Podstawa: ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3 i 5.4.1.1.1.

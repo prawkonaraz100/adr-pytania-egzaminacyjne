@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0679",
+  "date": "2026-10-31",
+  "scope": "Item-by-item A/B/C rationale checked against ADR 2025 clauses, but NOT independent specialist approval or final verification",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0679",
+      "order": 679,
+      "clause": "ADR 2025, 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3; 5.4.1.1.1",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+      "question_snapshot": {
+        "id": "ADR-B-0679",
+        "module_id": "ADR-B-01",
+        "stem": "Kierowca ma odebrać nowy materiał niebezpieczny. Nadawca przekazuje tylko nazwę handlową, bez klasyfikacji i wymaganych danych ADR. Co powinien zrobić przewoźnik przed rozpoczęciem przewozu?",
+        "options": {
+          "A": "Samodzielnie dobrać numer UN na podstawie podobnej nazwy w tabeli A i uzupełnić nim dokument, aby nie opóźniać dostawy.",
+          "B": "Zażądać od nadawcy klasyfikacji i kompletnych danych oraz wstrzymać rozpoczęcie przewozu do usunięcia braku.",
+          "C": "Przyjąć ładunek na podstawie nazwy handlowej, ponieważ brakujące informacje można uzupełnić już po rozpoczęciu jazdy."
+        },
+        "correct_option": "B",
+        "explanation": "To nadawca ma ustalić klasyfikację materiału i przekazać przewoźnikowi wymagane dane; kierowca nie powinien zgadywać numeru UN na podstawie nazwy handlowej. Przewoźnik sprawdza, czy towar jest dopuszczony do przewozu i czy otrzymał wymagane informacje oraz dokumenty, a stwierdzone braki trzeba usunąć przed wyjazdem. Podstawa: ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b) i 1.4.2.2.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3; 5.4.1.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Kierowca nie klasyfikuje samodzielnie nowego materiału na podstawie podobieństwa nazwy; takie zgadywanie może przypisać niewłaściwy numer UN."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Nadawca ma zapewnić klasyfikację i dane, a przewoźnik weryfikuje dopuszczenie oraz komplet informacji; brak należy usunąć przed rozpoczęciem przewozu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Sama nazwa handlowa nie zastępuje wymaganych danych ADR; nie wolno odkładać usunięcia stwierdzonego braku do czasu po rozpoczęciu przewozu."
+        }
+      },
+      "notes_on_conditions": "Podstawa sprawdzona w polskim ADR 2025 udostępnionym przez Ministerstwo Infrastruktury. Zakres pytania rozdziela obowiązek klasyfikacji nadawcy od kontroli przewoźnika; nie przypisuje kierowcy samodzielnego klasyfikowania towaru. Pełne porównanie pytania i odpowiedzi oraz niezależna recenzja specjalisty pozostają pending.",
+      "editorial_result": "targeted_clause_check_pending_full_question_and_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
