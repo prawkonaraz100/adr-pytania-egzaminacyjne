@@ -29,6 +29,7 @@ Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obser
 | ADR-B-07-K04 | Odbiorca: przyjęcie i dalsze obowiązki | 1.4.2.3 | 5 |
 | ADR-B-07-K05 | Pakujący, napełniający i rozładowca | 1.4.3 | 14 |
 | ADR-B-07-K06 | Kierowca/załoga: obowiązki w drodze | 8.1–8.5 | 4 |
+| ADR-B-07-K07 | Odpowiedzialność cywilna za szkodę i niewykonanie zobowiązania | 8.2.2.3.2(k); KC art. 415, 471, 474 | 4 |
 
 | Minuty | Zadanie prowadzącego | Obserwowalny wynik |
 |---|---|---|
@@ -130,3 +131,11 @@ Poprowadź kursanta przez sytuację niezgodnego opakowania, a potem przez podzia
 - `SC-ADR-B-07-03` — instrukcje pisemne dla nowego członka załogi.
 
 Pytania kontrolne: `ADR-B-0019`, `ADR-B-0020`, `ADR-B-0021`, `ADR-B-0369`, `ADR-B-0375`, `ADR-B-0380`, `ADR-B-0477`, `ADR-B-0482`, `ADR-B-0567`, `ADR-B-0584`. Częste pomyłki: przypisywanie wszystkich obowiązków tylko kierowcy, przekazanie uszkodzonej przesyłki i mylenie instrukcji pisemnych z kontaktem telefonicznym do dyspozytora.
+
+## Zadanie instruktorskie: odpowiedzialność cywilna
+
+**Symulacja na fikcyjnym zleceniu krajowym:** przewoźnik zawarł umowę, kierowca nie zabezpieczył ładunku, a towar uległ uszkodzeniu. Kursant ma wskazać, kto jest stroną umowy, odróżnić ogólną odpowiedzialność za nienależyte wykonanie zobowiązania od odpowiedzialności za czyn niedozwolony oraz wyjaśnić, dlaczego działanie pracownika może mieć znaczenie dla odpowiedzialności przewoźnika.
+
+**Odniesienie:** program ADR 8.2.2.3.2(k); Kodeks cywilny art. 415, 471 i 474. Nie rozstrzygaj indywidualnego roszczenia bez analizy umowy, okoliczności i przepisów szczególnych.
+
+**Pytanie kontrolne:** czy sam fakt, że kierowca wykonywał czynność, oznacza automatycznie, że kontrahent może dochodzić roszczenia wyłącznie od niego? Oczekiwana odpowiedź: nie; należy rozróżnić stronę umowy i zasady odpowiedzialności za osoby, którymi posługuje się dłużnik.
