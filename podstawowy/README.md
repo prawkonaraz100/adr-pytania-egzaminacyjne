@@ -1,11 +1,13 @@
-## Bieżąca migawka — etap 4x249 (31.10.2026)
+## Bieżąca migawka — etap 4x250 (31.10.2026)
 
 - Bank: 677 pytań ADR-B-0001–0677; 677 `needs_review`, 0 `verified`; blob SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
-- Dodano ADR-B-0674 do ADR-B-02-K06: praktyczny odczyt I grupy pakowania materiału klasy 4.3.
-- Explanation: 321 znaków, 3 zdania; A/B/C 133/137/147. Poprawna B nie jest najdłuższa.
+- Dodano ADR-B-0677 do ADR-B-03-K03: czyszczenie pojazdu po przewozie towarów niebezpiecznych luzem, ADR 7.5.8.2.
+- Explanation: 404 znaki, 4 zdania; A/B/C 141/101/118. Poprawna C nie jest najdłuższa.
+- Dodano scenariusz SC-ADR-B-03-04; 40 scenariuszy kursu.
+- Raport: `raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md`.
 - Rozkład poprawnych odpowiedzi: A=232, B=230, C=215; „poprawna = jedyna najdłuższa” 73/677 = 10,78%.
 
-**Stan na 31.10.2026, etap 4x249**
+**Poprzedni etap 4x249 — stan na 31.10.2026**
 
 - Dodano ADR-B-0675 (II grupa: ≥20 l/kg/h, bez kryteriów I) i ADR-B-0676 (III grupa: >1 l/kg/h, bez kryteriów I/II) do ADR-B-02-K06; wyjaśnienia 330 i 304 znaki. Podstawa: ADR 2.2.43.1.8(b)–(c).
 
