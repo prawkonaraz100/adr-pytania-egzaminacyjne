@@ -1,8 +1,8 @@
 ## Bieżąca migawka — etap 4x249 (31.10.2026)
 
-- Bank: 674 pytania ADR-B-0001–0674; 676 `needs_review`, 0 `verified`; blob SHA `1f3ac69fdf7e01d6bd67b13bdded7a41a5e0f7b9`.
+- Bank: 674 pytania ADR-B-0001–0674; 676 `needs_review`, 0 `verified`; blob SHA `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
 - Dodano ADR-B-0674 do ADR-B-02-K06: praktyczny odczyt I grupy pakowania dla materiału klasy 4.3.
-- Explanation 350 znaków, 3 zdania; A/B/C 133/137/147; rozkład kluczy 231/230/213; „poprawna = jedyna najdłuższa” 72/676 = 10,65%.
+- Explanation 321 znaków, 3 zdania; A/B/C 133/137/147; rozkład kluczy 231/230/213; „poprawna = jedyna najdłuższa” 73/676 = 10,80%.
 - Snapshoty `review/sequential/674-674.json` i `review/legal-clauses/674-674.json`; egzaminy 001–005 wskazują aktualny SHA.
 - Raport: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
 - Literalne porównanie wiążącego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
