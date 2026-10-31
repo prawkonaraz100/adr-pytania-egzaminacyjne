@@ -1,3 +1,12 @@
+## Audyt pokrycia po drugim przeglądzie explanation — 31.10.2026
+
+Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podstawowy/raporty/etap-4x226-audyt-pokrycia-kompetencji-i-podobienstwa-2026-10-31.md).
+
+- Bank: 651 pytań; 104/104 kompetencji teoretycznych ma co najmniej 2 pytania; najmniej pokryta kompetencja ma 3 pytania (ADR-B-07-K07). Brak kompetencji z 0–2 pytaniami.
+- Wszystkie 13 działów osiąga lub przekracza wewnętrzne cele liczebności; cele nie są minimami prawnymi.
+- Skrypt podobieństwa wskazał 12 par do obserwacji; 2 pary mają wysokie podobieństwo językowe, ale sprawdzają różne progi lub warunki. Nie potwierdzono duplikatu ani luki uzasadniającej nowe pytanie.
+- Brak zmian w banku; 651 rekordów nadal `needs_review`, 0 `verified`. Ćwiczenia praktyczne wymagają realnego przeprowadzenia i odbioru.
+
 # ADR podstawowy — aktualne pokrycie kursu
 
 **Kontrola mapy odświeżona w etapie 4x155: 29.10.2026.** Bank ma 651 pytań; raport [luki praktyczne ADR-B-0646–0651](../podstawowy/raporty/etap-4x155-luki-praktyczne-0646-0651-2026-10-29.md) uzupełnia scenariuszowe pytania kompetencji K13–K15. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
