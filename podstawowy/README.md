@@ -1,3 +1,9 @@
+## Audyt pokrycia 4x226 — 31.10.2026
+
+- [Raport 4x226: 107 kompetencji, 13 lekcji, podobieństwo pytań](raporty/etap-4x226-audyt-pokrycia-kompetencji-i-podobienstwa-2026-10-31.md).
+- Nie wykryto kompetencji teoretycznej z mniej niż 3 pytaniami; najmniej pokryta ADR-B-07-K07 ma 3. Nie potwierdzono nowej luki wymagającej ADR-B-0652.
+- 12 par przekroczyło próg podobieństwa 0,45; dwie najwyższe pary wymagają obserwacji redakcyjnej, ale nie są duplikatami.
+
 ## Bieżąca migawka — etap 4x225 (31.10.2026)
 
 - Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `803cae392630b0fe441c6dd1819269045526e52e`.
