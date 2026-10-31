@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x246 (31.10.2026)
+
+- Bank: 671 pytań ADR-B-0001–0671; 671 `needs_review`, 0 `verified`; blob SHA `8012802240554ba203baa2272adfced09b837471`.
+- Dodano ADR-B-0671 do ADR-B-02-K02: praktyczna kontrola ochrony zaworu butli gazowej; rama może być jedną z metod zabezpieczenia.
+- Explanation: 331 znaków, 4 zdania; A/B/C 143/133/129 znaków. Poprawna B nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=231, B=227, C=213; „poprawna = jedyna najdłuższa” 72/671 = 10,73%.
+- Raport: `podstawowy/raporty/etap-4x246-klasa-2-ochrona-zaworu-butli-2026-10-31.md`.
+
 ## Bieżąca migawka — etap 4x245 (31.10.2026)
 
 - Bank: 670 pytań ADR-B-0001–0670; 670 `needs_review`, 0 `verified`; blob SHA `d4e74d64dc557d9c93e59bde4772bc7a972a92ae`.
