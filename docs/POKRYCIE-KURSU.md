@@ -4,6 +4,8 @@
 
 - Dodano ADR-B-0668 do ADR-B-02-K10: UN 3373, materiał biologiczny kategorii B; P650 i wyłączenie pozostałych wymagań na podstawie SP 319 po spełnieniu warunków pakowania i oznakowania.
 - Explanation: 392 znaki, 4 zdania; A/B/C 124/142/108 znaków. Poprawna A nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=231, B=224, C=213.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/668 = 10,78%**; maksimum działu to 13,95%.
 - Podstawa: ADR 2025, 2.2.62.1.4.2, 3.3 SP 319, 4.1.4.1 P650. Polska wersja ADR 2025 udostępniona przez MI sprawdzona w tych punktach; MI zaznacza, że pliki są pomocnicze, a źródłem prawa jest tekst w Dz.U. Literalne porównanie Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
 - Bank: 668 pytań `needs_review`, 0 `verified`; ID 0001–0668 ciągłe i unikalne. SHA `377881849d1d1a643873567b1f68c359bef2358d`.
 - Rozkład A/B/C: 231/224/213. „Poprawna = jedyna najdłuższa”: 72/668 = 10,78%; maksimum działu 13,95%.
