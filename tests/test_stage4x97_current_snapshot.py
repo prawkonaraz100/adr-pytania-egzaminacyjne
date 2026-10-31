@@ -58,8 +58,8 @@ class CurrentSnapshotTests(unittest.TestCase):
         self.assertIn("4x103–4x113", sample["limitation"])
         self.assertIn("nakładanie jest jawnie opisane", sample["limitation"])
         self.assertLessEqual(sample["sample_count"], sample["candidate_pool_size"])
-        self.assertEqual(len(bank), 682)
-        self.assertEqual(len(by_id), 682)
+        self.assertEqual(len(bank), 683)
+        self.assertEqual(len(by_id), 683)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in bank))
         self.assertEqual(sum(row["verification_status"] == "verified" for row in bank), 0)
 
