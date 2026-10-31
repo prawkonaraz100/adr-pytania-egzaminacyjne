@@ -1,5 +1,5 @@
 {
-  "stage": "4x250_bulk_cleaning_after_unloading",
+  "stage": "4x251_small_fire_response_scenario",
   "snapshot_date": "2026-10-31",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 677,
@@ -149,13 +149,13 @@
     "Sprawdzić instrukcję egzaminu próbnego pod kątem zgodności parametrów oficjalnego egzaminu podstawowego z Dz.U. 2024 poz. 964, § 9–11; rozdzielać oficjalne wymagania od statusu autorskich wariantów treningowych."
   ],
   "release_allowed": false,
-  "practical_scenario_count": 40,
+  "practical_scenario_count": 41,
   "scenarios_by_module": {
     "ADR-B-01": 3,
     "ADR-B-02": 3,
     "ADR-B-03": 4,
     "ADR-B-04": 3,
-    "ADR-B-05": 3,
+    "ADR-B-05": 4,
     "ADR-B-06": 3,
     "ADR-B-07": 3,
     "ADR-B-08": 3,
@@ -206,7 +206,7 @@
   "artifact_counts": {
     "lessons": 13,
     "instructor_guides": 13,
-    "practical_scenarios": 40,
+    "practical_scenarios": 41,
     "mock_exam_variants": 5,
     "mock_exam_keys": 5,
     "glossary_terms": 90,
@@ -622,7 +622,7 @@
     "official_gazette_comparison": "pending",
     "unresolved_literal_comparisons": 441
   },
-  "scenario_count": 40,
+  "scenario_count": 41,
   "mock_exam_variant_count": 5,
   "editorial_update": {
     "stage": "4x88",
@@ -681,7 +681,7 @@
     "status": "needs_review",
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
-  "latest_report": "podstawowy/raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md",
+  "latest_report": "podstawowy/raporty/etap-4x251-maly-pozar-opony-hamulce-silnik-2026-10-31.md",
   "latest_sample": "podstawowy/raporty/etap-4x135-wykluczenia-proby.json",
   "latest_sample_seed": 41232026,
   "latest_sample_count": 40,
@@ -709,8 +709,8 @@
     "sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
     "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
   },
-  "latest_editorial_stage": "4x250",
-  "latest_editorial_report": "podstawowy/raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md",
+  "latest_editorial_stage": "4x251",
+  "latest_editorial_report": "podstawowy/raporty/etap-4x251-maly-pozar-opony-hamulce-silnik-2026-10-31.md",
   "stage4x112": {
     "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
     "sample_size": 40,
@@ -1386,5 +1386,17 @@
     "verification_status": "needs_review",
     "official_text_literal_comparison": "pending",
     "independent_specialist_review": "pending"
+  },
+  "stage4x251": {
+    "scenario_id": "SC-ADR-B-05-04",
+    "competency": "ADR-B-05-K06",
+    "question_ids": [
+      "ADR-B-0108",
+      "ADR-B-0184",
+      "ADR-B-0223",
+      "ADR-B-0493"
+    ],
+    "legal_basis": "ADR 5.4.3.4",
+    "status": "scenario_added_no_question_bank_change"
   }
 }
