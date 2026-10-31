@@ -26,7 +26,7 @@ Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obser
 | ADR-B-09-K01 | Zgodność przy ładowaniu razem | 7.5.2 | 12 |
 | ADR-B-09-K02 | Mocowanie sztuk przesyłek | 7.5.7.1 | 3 |
 | ADR-B-09-K03 | Kontakt z żywnością i paszami | 7.5.4 | 3 |
-| ADR-B-09-K04 | Strzałki kierunkowe | 7.5.1.5 | 3 |
+| ADR-B-09-K04 | Strzałki kierunkowe | 5.2.1.10.1–5.2.1.10.2(b); 7.5.1.5 | 5 |
 | ADR-B-09-K05 | Piętrzenie opakowań | 7.5.7.2 | 3 |
 | ADR-B-09-K06 | Unikanie nadmiernego naprężenia pasów | 7.5.7.1 | 3 |
 | ADR-B-09-K07 | Czyszczenie pojazdu po rozładunku, także po wycieku | 7.5.8.1–7.5.8.2 | 4 |
@@ -141,3 +141,12 @@ Pytania kontrolne: `ADR-B-0025`, `ADR-B-0026`, `ADR-B-0027`, `ADR-B-0200`, `ADR-
 
 ### Scenariusz SC-ADR-B-09 — żywność lub pasza przy towarze niebezpiecznym
 Przedstaw papierowy plan ładowni i zapytaj, co trzeba sprawdzić przed zaakceptowaniem wspólnego przewozu. Oczekuj odwołania do właściwego wpisu ADR i wymagań rozdzielenia; samo zamknięcie opakowań żywności nie rozstrzyga sprawy. Pytanie: ADR-B-0638. Podstawa do sprawdzenia: ADR 7.5.4.
+
+
+### Zadanie instruktorskie — wyjątek dla małych opakowań wewnętrznych
+
+**Sytuacja symulowana:** Opakowanie zewnętrzne zawiera opakowania wewnętrzne z cieczą niebezpieczną po 100 ml. Kursant ocenia, czy strzałki kierunkowe są wymagane, i wskazuje warunki wyjątku.
+
+**Oczekiwane wskazanie:** wyjątek z ADR 5.2.1.10.2(b) działa tylko wtedy, gdy każde opakowanie wewnętrzne zawiera nie więcej niż 120 ml oraz materiał chłonny pomiędzy opakowaniami może wchłonąć całą ciecz. Gdy którykolwiek warunek nie jest spełniony, należy stosować wymaganie 5.2.1.10.1, w tym strzałki na dwóch przeciwległych pionowych bokach.
+
+**Granica ćwiczenia:** używaj wyłącznie fikcyjnych danych opakowania; nie wykonuj prób z rzeczywistą cieczą niebezpieczną. Materiał pozostaje do niezależnej recenzji.

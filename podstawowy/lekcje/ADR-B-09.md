@@ -232,7 +232,9 @@ Zamiast zapamiętywać samą nazwę przepisu, ćwicz rozpoznanie problemu i wska
 
 **Co warto zrobić lub sprawdzić:** Zgodnie ze strzałkami. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
 
-**Ćwiczenie:** odpowiedz na `ADR-B-0058` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.5.1.5.
+**Ćwiczenie:** odpowiedz na `ADR-B-0058` i `ADR-B-0682`; wyjaśnij, kiedy strzałki są wymagane, a kiedy działa wyjątek dla małych opakowań wewnętrznych. **Sprawdź przepis:** ADR 5.2.1.10.1–5.2.1.10.2(b) oraz 7.5.1.5.
+
+Ważne rozróżnienie: strzałki są wymagane między innymi na opakowaniach kombinowanych z opakowaniami wewnętrznymi zawierającymi ciecze, ale ADR przewiduje wyjątek, gdy każde opakowanie wewnętrzne mieści najwyżej 120 ml, a materiał chłonny między opakowaniami wystarcza do wchłonięcia całej cieczy. Oba warunki muszą być spełnione jednocześnie. Samo szczelne zamknięcie opakowania zewnętrznego nie daje tego wyjątku.
 
 ### Piętrzenie opakowań — ADR-B-09-K05
 
