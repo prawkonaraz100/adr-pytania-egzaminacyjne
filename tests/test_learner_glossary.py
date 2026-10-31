@@ -163,7 +163,7 @@ class LearnerGlossaryTests(unittest.TestCase):
         ]
         by_id = {question["id"]: question for question in bank}
         scenario_data = __import__("json").loads(SCENARIOS.read_text(encoding="utf-8"))
-        self.assertEqual(len(scenario_data["scenarios"]), 40)
+        self.assertEqual(len(scenario_data["scenarios"]), 41)
         for scenario in scenario_data["scenarios"]:
             with self.subTest(scenario=scenario["id"]):
                 for question_id in scenario["question_ids"]:
