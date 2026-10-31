@@ -1,14 +1,14 @@
-**Stan aktualny po etapie 4x243: 31.10.2026.**
+**Stan aktualny po etapie 4x244: 31.10.2026.**
 
 ## Uzupełnienie audytu 4x243 — 31.10.2026
 
 - Dodano ADR-B-0668 do ADR-B-02-K10: UN 3373, materiał biologiczny kategorii B; P650 i wyłączenie pozostałych wymagań na podstawie SP 319 po spełnieniu warunków pakowania i oznakowania.
 - Explanation: 392 znaki, 4 zdania; A/B/C 124/142/108 znaków. Poprawna A nie jest najdłuższa.
 - Rozkład prawidłowych opcji: A=231, B=224, C=213.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/668 = 10,78%**; maksimum działu to 13,95%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/669 = 10,76%**; maksimum działu to 13,95%.
 - Podstawa: ADR 2025, 2.2.62.1.4.2, 3.3 SP 319, 4.1.4.1 P650. Polska wersja ADR 2025 udostępniona przez MI sprawdzona w tych punktach; MI zaznacza, że pliki są pomocnicze, a źródłem prawa jest tekst w Dz.U. Literalne porównanie Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
 - Bank: 668 pytań `needs_review`, 0 `verified`; ID 0001–0668 ciągłe i unikalne. SHA `377881849d1d1a643873567b1f68c359bef2358d`.
-- Rozkład A/B/C: 231/224/213. „Poprawna = jedyna najdłuższa”: 72/668 = 10,78%; maksimum działu 13,95%.
+- Rozkład A/B/C: 231/225/213. „Poprawna = jedyna najdłuższa”: 72/668 = 10,78%; maksimum działu 13,95%.
 - Raport: [Etap 4x243 — klasa 6.2: UN 3373 i P650](../podstawowy/raporty/etap-4x243-klasa-62-un3373-p650-2026-10-31.md).
 
 **Stan poprzedni po etapie 4x242: 31.10.2026.**
@@ -324,3 +324,13 @@ Audyt i uzupełnienie: [raport scenariuszy 13 działów](../podstawowy/raporty/e
 ## Aktualizacja odbiorcza 4x138 (29.10.2026)
 
 Po PR #600–#605 potwierdzono na źródłach repo: **639** pytań `needs_review`, **107** kompetencji wewnętrznej mapy (104 teoria, 3 praktyka), **39** scenariuszy (po 3/dział) i **13/13** lekcji z celami, typowymi błędami, scenariuszem, odsyłaczami do pytań i podstawami ADR. Pięć wariantów próbnych 001–005 zawiera po 30 pytań; każdy obejmuje wszystkie 13 działów, ma rozkład A/B/C **10/10/10** i zgodny z bieżącym bankiem klucz. Łącznie 150 unikalnych pytań, bez duplikatów między wariantami. **Nie przeprowadzono niezależnej prawnej akceptacji**; test techniczny nie zastępuje recenzji specjalisty. Szczegóły: [raport 4x138](../podstawowy/raporty/etap-4x138-audyt-zbiorczy-egzaminy-lekcje-2026-10-29.md). Kontrola automatyczna wyjaśnień: 651/651 o długości 300–500 znaków i 2–5 zdań według prostego segmentatora; osobna ocena jakości językowej pozostaje do wykonania.
+
+
+## Uzupełnienie audytu 4x244 — 31.10.2026
+
+- Dodano ADR-B-0669 do ADR-B-02-K11: sytuacyjne zastosowanie dwóch kryteriów przypisania kategorii przesyłki klasy 7. TI 0,8 odpowiada II-YELLOW, ale poziom 0,7 mSv/h na powierzchni odpowiada III-YELLOW; przy rozbieżności wybiera się kategorię wyższą.
+- Explanation: 340 znaków, 4 zdania; A/B/C 145/130/115 znaków. Poprawna B nie jest najdłuższa.
+- Podstawa: ADR 2025, 5.1.5.3.4(a) i tabela 5.1.5.3.4, Dz.U. 2025 poz. 642. Literalne porównanie pełnego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+- Bank: 669 pytań ADR-B-0001–0669; wszystkie `needs_review`, 0 `verified`; SHA `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`.
+- Rozkład A/B/C: 231/225/213; „poprawna = jedyna najdłuższa”: 72/669 = 10,76%.
+- Raport: [Etap 4x244 — klasa 7: kategoria przesyłki](../podstawowy/raporty/etap-4x244-klasa-7-kategoria-przesylki-2026-10-31.md).
