@@ -1,4 +1,10 @@
-## Bieżąca migawka — etap 4x251 (31.10.2026)
+## Bieżąca migawka — etap 4x252 (31.10.2026)
+
+- Bank: 677 pytań ADR-B-0001–0677; wszystkie `needs_review`, 0 `verified`; SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
+- Dodano SC-ADR-B-04-04 do ADR-B-04-K02; 42 scenariusze kursu, bez zmian w banku.
+- Raport: `podstawowy/raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x251 (31.10.2026)
 
 - Bank: 677 pytań ADR-B-0001–0677; wszystkie `needs_review`, 0 `verified`; SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Dodano SC-ADR-B-05-04 do kompetencji K06; 41 scenariuszy kursu, bez zmian w banku.
