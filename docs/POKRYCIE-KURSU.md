@@ -1,3 +1,12 @@
+## Uzupełnienie audytu 4x239 — 31.10.2026
+
+- Dodano ADR-B-0664 do ADR-B-07-K06: utrzymywanie połączeń elektrycznych ABS między pojazdem samochodowym i przyczepą o maksymalnej masie powyżej 3,5 t przez cały przewóz.
+- Explanation: 373 znaki, 4 zdania; A/B/C 148/128/115 znaków. Poprawna B nie jest najdłuższa.
+- Podstawa: ADR 2025, 8.3.8 w związku z 9.2.2.6. Polskie materiały ADR 2025 MI i tekst UNECE 2025 potwierdzają zakres; literalne porównanie tekstu wiążącego Dz.U. i niezależna recenzja pozostają otwarte.
+- Bank: 664 pytania `needs_review`, 0 `verified`; ID 0001–0664 ciągłe i unikalne. Blob SHA `a81581438b449107fb42dcb10450acc5a69278e4`.
+- Rozkład A/B/C: 228/223/213. „Poprawna = jedyna najdłuższa”: 72/664 = 10,84%; maksimum działu 13,95%.
+- Raport: [4x239 — połączenia ABS ciągnika i przyczepy](../podstawowy/raporty/etap-4x239-abs-connection-vehicle-trailer-2026-10-31.md).
+
 ## Uzupełnienie audytu 4x238 — 31.10.2026
 
 - Dodano ADR-B-0663 do ADR-B-07-K06: bezpieczny wybór przenośnego urządzenia oświetleniowego przez członka załogi.
