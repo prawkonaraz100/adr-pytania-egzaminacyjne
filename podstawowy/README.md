@@ -1,3 +1,20 @@
+## Bieżąca migawka — etap 4x231 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x231**
+
+- Bank: 656 pytań `needs_review`, 0 `verified`; 656 `needs_review`, 0 `verified`; blob SHA `940d22f1a3965796d24029e621b05253ff98ece4`.
+- Dodano ADR-B-0656 do ADR-B-01-K04: wyłączenie dla przewozu pomocniczego przedsiębiorstwa (ADR 1.1.3.1(c), 1.1.3.6). Explanation 410 znaków, 4 zdania; poprawna A nie jest najdłuższa (A=141, B=153, C=137).
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 72/656 = 10,98%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md`.
+
+## Bieżąca migawka — etap 4x231 (31.10.2026)
+
+- Bank: 656 pytań `needs_review`, 0 `verified`; blob SHA `940d22f1a3965796d24029e621b05253ff98ece4`.
+- Dodano ADR-B-0656 do ADR-B-01-K04: praktyczne wyłączenie dla przewozu pomocniczego przedsiębiorstwa (ADR 1.1.3.1(c), 1.1.3.6). Explanation 410 znaków, 4 zdania; poprawna A (141 znaków) nie jest najdłuższa (B=153, C=137).
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 72/656 = 10,98%; maksimum działu 13,95%.
+- Raport: `podstawowy/raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md`.
+- Warianty/klucze 001–005, snapshoty sequential/legal, ledger źródeł, kolejki i manifesty zsynchronizowane. Formalna recenzja prawna pozostaje pending.
+
 ## Bieżąca migawka — etap 4x230 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x230**
@@ -102,6 +119,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x231 — wyłączenie dla przewozu pomocniczego przedsiębiorstwa](raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md)
+- [Etap 4x231 — wyłączenie dla przewozu pomocniczego przedsiębiorstwa](raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md)
 - [Etap 4x230 — praktyczne odczytanie tabeli A](raporty/etap-4x230-odczyt-tabeli-a-2026-10-31.md)
 - [Etap 4x229 — szczególne znaczenie kodu 99](raporty/etap-4x229-szczegolne-znaczenie-kodu-99-2026-10-31.md)
 - [Etap 4x228 — kombinacja zagrożeń 886](raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md)

@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x231 (31.10.2026)
+
+- Bank: 656 pytań `needs_review`, 0 `verified`; blob SHA `940d22f1a3965796d24029e621b05253ff98ece4`.
+- Raport: `podstawowy/raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md`.
+- ADR-B-0656 dodano do ADR-B-01-K04; wyłączenie 1.1.3.1(c), 450 l/opakowanie i warunki 1.1.3.6.
+
 ## Bieżąca migawka — etap 4x230 (31.10.2026)
 
 - Bank: 655 pytań `needs_review`, 0 `verified`; blob SHA `ca07d9e94b63ba6b9f832838e645500bd2964939`.
@@ -886,3 +892,7 @@ Bank bieżący: 653 pytania, wszystkie `needs_review`, 0 `verified`. Blob SHA: `
 | ADR-B-0655 | ADR-B-02 | ADR-B-02-K14 | Kierowca odczytuje klasę 3, grupę pakowania II oraz nalepki 3 i 6.1 w tabeli A. Jak rozumie te pola? | C | ADR 2025, 2.1.1.3; 3.2.1, kol. 3a–5; 5.2.2.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 Bank bieżący: 655 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `ca07d9e94b63ba6b9f832838e645500bd2964939`.
+
+| ADR-B-0656 | ADR-B-01 | ADR-B-01-K04 | Firma serwisowa wiezie na budowę 300 l towaru do naprawy własnego urządzenia. Czy spełnione warunki pozwalają na wyłączenie z 1.1.3.1(c)? | A | ADR 2025, 1.1.3.1(c) i 1.1.3.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+Bank bieżący: 656 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `940d22f1a3965796d24029e621b05253ff98ece4`.

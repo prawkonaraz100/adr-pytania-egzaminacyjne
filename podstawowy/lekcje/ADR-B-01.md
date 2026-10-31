@@ -255,3 +255,8 @@ Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz n
 
 **Status:** materiał dydaktyczny `needs_review`; odniesienia do ADR 2025 wymagają niezależnej kontroli.
  
+
+
+### Wyłączenie dla przewozu pomocniczego przedsiębiorstwa
+
+Firma może skorzystać z wyłączenia z ADR, gdy przewóz towarów niebezpiecznych jest tylko czynnością pomocniczą wobec jej głównej działalności, np. gdy wiezie materiał na budowę albo do naprawy lub konserwacji urządzenia. Nie jest to ogólne zwolnienie dla każdego firmowego transportu. Trzeba sprawdzić jednocześnie limit 450 litrów na opakowanie, maksymalną ilość z 1.1.3.6, zabezpieczenie przed wyciekiem i wyłączenie klasy 7. Przewóz na potrzeby zaopatrzenia firmy lub dystrybucji wewnętrznej albo zewnętrznej nie korzysta z tego przepisu. Powiązane pytanie: ADR-B-0656. Podstawa: ADR 1.1.3.1(c) i 1.1.3.6.

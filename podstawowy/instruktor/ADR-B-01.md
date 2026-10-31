@@ -147,3 +147,8 @@ Prowadź zajęcia w tej samej kolejności co lekcja kursanta: role uczestników 
 - `SC-ADR-B-01-03` — kontrola dokumentów: polecenie nie uchyla zakazu.
 
 Na koniec omów pytania `ADR-B-0001`, `ADR-B-0002`, `ADR-B-0003`, `ADR-B-0259`, `ADR-B-0570`, `ADR-B-0595`, `ADR-B-0605`, `ADR-B-0607`, `ADR-B-0608`, `ADR-B-0609`. Zwróć uwagę na częste pomyłki: „mała ilość” nie jest samodzielnym zwolnieniem, LQ i EQ mają inne warunki niż 1.1.3.6, a zaświadczenie ADR nie zastępuje prawa jazdy. Wytłumacz błąd przez wskazanie pominiętego warunku, nie przez samo odczytanie numeru przepisu.
+
+
+### Zadanie: czy firma może skorzystać z 1.1.3.1(c)?
+
+Przedstaw sytuację firmy serwisowej, która wiezie 300 l towaru na budowę do naprawy własnego urządzenia. Poproś kursanta, aby sprawdził: czy przewóz jest pomocniczy wobec głównej działalności, czy nie służy zaopatrzeniu ani dystrybucji, czy opakowanie nie przekracza 450 l, czy łączna ilość mieści się w 1.1.3.6, czy opakowanie chroni przed wyciekiem i czy towar nie należy do klasy 7. Następnie zmień jeden warunek (np. przewóz ma służyć dostawie towaru klientom) i zapytaj, czy wyłączenie nadal działa. Kryterium: kursant nie uznaje samej granicy 450 l za wystarczającą. Powiązane pytanie: ADR-B-0656 (needs_review). Podstawa: ADR 1.1.3.1(c) i 1.1.3.6.
