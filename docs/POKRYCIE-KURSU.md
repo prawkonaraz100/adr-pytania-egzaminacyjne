@@ -2,6 +2,21 @@
 
 ## Uzupełnienie audytu 4x249 — 31.10.2026
 
+- Dodano ADR-B-0674 do ADR-B-02-K06: odczyt I grupy pakowania materiału klasy 4.3; grupa I oznacza duże zagrożenie, a kryteria klasy 4.3 obejmują gwałtowną reakcję z wodą i możliwość samozapłonu gazu albo szybkie wydzielanie gazu palnego.
+- Explanation: 350 znaków, 3 zdania; A/B/C 133/137/147. Poprawna B nie jest najdłuższa.
+- Podstawa: ADR 2025, 1.2.1 i 2.2.43.1.8(a)–(c), Dz.U. 2025 poz. 642. Literalne porównanie tekstu Dz.U. i recenzja specjalisty pozostają otwarte.
+- Bank: 674 pytania ADR-B-0001–0674, wszystkie `needs_review`, 0 `verified`; SHA `841c502032f62580f23608820747827f70b00df0`.
+- Rozkład poprawnych odpowiedzi: A=231, B=230, C=213.
+- Rozkład prawidłowych opcji: A=231, B=230, C=213.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/674 = 10,68%**; maksimum działu to 13,95%.
+- Raport: [Etap 4x249 — klasa 4.3: grupy pakowania](../podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md).
+
+**Poprzednia migawka — etap 4x248 (31.10.2026).**
+
+**Stan aktualny po etapie 4x249: 31.10.2026.**
+
+## Uzupełnienie audytu 4x249 — 31.10.2026
+
 - Dodano ADR-B-0674 do ADR-B-02-K06: praktyczny odczyt I grupy pakowania dla materiału klasy 4.3; grupa I oznacza duże zagrożenie i ma kryteria reakcji z wodą określone w ADR 2.2.43.1.8.
 - Explanation: 350 znaków, 3 zdania; A/B/C 133/137/147. Poprawna B nie jest najdłuższa.
 - Podstawa: ADR 2025, 1.2.1 i 2.2.43.1.8(a)–(c), Dz.U. 2025 poz. 642. Literalne porównanie tekstu Dz.U. i recenzja specjalisty pozostają otwarte.
@@ -32,7 +47,7 @@
 - Explanation: 366 znaków, 4 zdania; A/B/C 148/128/105. Poprawna B nie jest najdłuższa.
 - Podstawa: ADR 2025, 1.10.1.4 i 8.1.2.1(d), Dz.U. 2025 poz. 642. Literalne porównanie tekstu Dz.U. i recenzja specjalisty pozostają otwarte.
 - Bank: 672 pytania ADR-B-0001–0672, wszystkie `needs_review`, 0 `verified`; SHA `dc499257cfae6fa8c5f5882248f676c15929c3a5`.
-- Rozkład prawidłowych opcji: A=231, B=228, C=213.
+- Rozkład prawidłowych opcji: A=231, B=229, C=213.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/672 = 10,71%**; maksimum działu to 13,95%.
 - Raport: [Etap 4x247 — identyfikacja ze zdjęciem dla załogi](../podstawowy/raporty/etap-4x247-identyfikacja-zdjecie-zaloga-2026-10-31.md).
 
