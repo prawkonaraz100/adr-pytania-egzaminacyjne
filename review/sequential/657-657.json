@@ -1,0 +1,48 @@
+{
+  "batch": "657-657",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0657",
+      "sequence": 657,
+      "exact_record_snapshot": {
+        "stem": "Podczas kontroli przed załadunkiem kierowca widzi na butli czerwoną nalepkę z płomieniem i numerem 2.1. Jakie zagrożenie wskazuje ten znak i co powinien uwzględnić?",
+        "options": {
+          "A": "To gaz palny; oznaczenie wymaga uwzględnienia ryzyka zapłonu i ochrony przesyłki przed źródłami zapłonu podczas całego przewozu.",
+          "B": "To gaz niepalny i nietrujący; zielone tło oraz symbol butli oznaczają tę samą grupę zagrożeń co czerwona nalepka z płomieniem i numerem 2.1.",
+          "C": "To gaz trujący; biała nalepka z czaszką i numerem 2.3 jest równoważna czerwonej nalepce z płomieniem i numerem 2.1."
+        },
+        "correct_option": "A",
+        "explanation": "Nalepka 2.1 oznacza gaz palny, więc wyciek może stworzyć mieszaninę, która zapali się od iskry lub płomienia. Nie myl jej z 2.2, czyli gazem niepalnym i nietrującym, ani z 2.3, który jest trujący. Kierowca powinien uwzględnić ryzyko zapłonu i stosować wymagane zasady bezpieczeństwa przy załadunku i przewozie. Podstawa: ADR 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_class_2_divisions_and_label_models_checked_against_2025_material; literal_polish_text_comparison_pending",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Pytanie rozróżnia gazy palne 2.1, niepalne i nietrujące 2.2 oraz trujące 2.3. Podstawa: ADR 2.2.2.1.2–2.2.2.1.5 i wzory nalepek 5.2.2.2.2. Pełna recenzja polskiego tekstu i specjalisty pozostają otwarte.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
