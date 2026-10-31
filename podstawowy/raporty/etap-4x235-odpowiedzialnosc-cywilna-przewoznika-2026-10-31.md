@@ -15,7 +15,7 @@ Dodano ADR-B-0660 do ADR-B-07-K07. Scenariusz dotyczy krajowej umowy przewozu, w
 | Opcja | Długość | Ocena |
 |---|---:|---|
 | A | 121 | **Poprawna** — przewoźnik może odpowiadać wobec kontrahenta za nienależyte wykonanie umowy i działanie osoby, którą posłużył się przy wykonaniu zobowiązania. |
-| B | 127 | Błędna — błędnie przenosi całą odpowiedzialność wyłącznie na kierowcę, pomijając odpowiedzialność dłużnika za osoby pomocnicze. |
+| B | 107 | Błędna — błędnie przenosi całą odpowiedzialność wyłącznie na kierowcę, pomijając odpowiedzialność dłużnika za osoby pomocnicze. |
 | C | 127 | Błędna — błędnie uzależnia odpowiedzialność przewoźnika od osobistego prowadzenia pojazdu i zabezpieczania ładunku. |
 
 Explanation ma 469 znaków i 4 zdania. Najpierw wyjaśnia, dlaczego przewoźnik może odpowiadać wobec kontrahenta, następnie wskazuje, dlaczego mylące są warianty przerzucające odpowiedzialność wyłącznie na kierowcę lub wyłączające przewoźnika, a na końcu zastrzega konieczność zbadania okoliczności i przepisów szczególnych. Poprawna odpowiedź A nie jest najdłuższa. Status: `needs_review`.
