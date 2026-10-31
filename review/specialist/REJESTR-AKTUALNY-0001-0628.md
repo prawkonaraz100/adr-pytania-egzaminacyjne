@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x255 (31.10.2026)
 
-- Bank: 681 pytań ADR-B-0001–0681; wszystkie needs_review, 0 verified; SHA `12a8dd403a927c9995348124e4a3e67e4a63ac00`.
+- Bank: 681 pytań ADR-B-0001–0681; wszystkie needs_review, 0 verified; SHA `6724b494f6506bf19ca1f71e309dae08818b157b`.
 - ADR-B-0681 do ADR-B-03-K04: dodatkowe wyposażenie dla towaru z nalepką 8 — łopata, osłona kanalizacyjna i pojemnik; ADR 8.1.5.2.
 - 681 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md`.
 
