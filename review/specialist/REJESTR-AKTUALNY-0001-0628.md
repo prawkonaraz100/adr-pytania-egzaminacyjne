@@ -897,3 +897,4 @@ Bank bieżący: 655 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `c
 
 Bank bieżący: 656 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `940d22f1a3965796d24029e621b05253ff98ece4`.
 | ADR-B-0657 | ADR-B-02 | ADR-B-02-K02 | Na butli jest czerwona nalepka z płomieniem i numerem 2.1. Jakie zagrożenie wskazuje ten znak i co powinien uwzględnić kierowca? | A | ADR 2025, 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0658 | ADR-B-02 | ADR-B-02-K03 | Karta charakterystyki cieczy podaje temperaturę zapłonu 45°C. Co oznacza ta wartość? | A | ADR 2025, 1.2.1; 2.2.3.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
