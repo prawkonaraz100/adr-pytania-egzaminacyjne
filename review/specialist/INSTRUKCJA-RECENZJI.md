@@ -1,6 +1,6 @@
 ## Migawka bieżąca — 4x256
 
-Bank podstawowy: 682 pytań, wszystkie needs_review, 0 verified. SHA: `623b3c164d1a394f8976e5b3a9e75d9893a65444`. Najnowsza zmiana: ADR-B-0682, wyjątek od strzałek kierunkowych dla małych opakowań wewnętrznych (ADR 5.2.1.10.2(b)). Snapshoty 682-682, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
+Bank podstawowy: 682 pytań, wszystkie needs_review, 0 verified. SHA: `5bc8851bed5f1fdfcbf2a5f07faccb3174a72006`. Najnowsza zmiana: ADR-B-0682, wyjątek od strzałek kierunkowych dla małych opakowań wewnętrznych (ADR 5.2.1.10.2(b)). Snapshoty 682-682, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
 
 ## Poprzednia migawka — 4x255
 
