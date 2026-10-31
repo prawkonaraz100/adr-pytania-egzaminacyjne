@@ -181,3 +181,10 @@ Przedstaw kursantowi kartę charakterystyki cieczy z temperaturą zapłonu 45°C
 **Podstawa:** ADR 2.2.42.1.1, 2.2.42.1.3 i 2.2.42.1.8(a).
 
 **Pytanie kontrolne:** ADR-B-0665 (status `needs_review`). Kryterium: kursant rozróżnia czas i ilość charakterystyczne dla obu zjawisk oraz nie myli klasy 4.2 z 4.3.
+
+
+## Zadanie instruktorskie: utleniacz klasy 5.1 przy pożarze sąsiedniego ładunku
+
+**Symulacja:** na fikcyjnym planie załadunku pokaż przesyłkę klasy 5.1 i karton z innym towarem, przy którym pojawia się zadymienie. Kursant ma wyjaśnić, dlaczego brak płomienia na opakowaniu 5.1 nie oznacza braku wpływu na pożar, oraz wskazać informację o klasie, którą trzeba przekazać ratownikom. Następnie ma odszukać instrukcje pisemne i wyjaśnić, że nie wolno samodzielnie przenosić opakowania ani wybierać środka gaśniczego bez rozpoznania towaru i zagrożenia. Ćwiczenie wyłącznie na dokumentacji i makiecie — bez rzeczywistego ognia ani materiałów niebezpiecznych.
+
+**Podstawa:** ADR 2.2.51.1.1 i 5.4.3.4. Pytanie kontrolne: ADR-B-0666 (`needs_review`).

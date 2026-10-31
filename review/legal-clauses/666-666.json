@@ -1,0 +1,62 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0666",
+      "order": 666,
+      "clause": "ADR 2025, 2.2.51.1.1; 5.4.3.4",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0666",
+        "module_id": "ADR-B-02",
+        "stem": "Podczas załadunku obok przesyłki klasy 5.1 zaczyna palić się karton z innym towarem. Pracownik twierdzi, że ładunek 5.1 nie jest paliwem, więc nie zwiększa zagrożenia. Co powinien rozpoznać kierowca?",
+        "options": {
+          "A": "Klasa 5.1 oznacza materiał utleniający: nie musi sam się palić, ale może nasilać spalanie innego ładunku; trzeba zgłosić tę informację i stosować instrukcje awaryjne.",
+          "B": "Jeśli opakowanie 5.1 nie płonie, można je traktować jak obojętne; pożar dotyczy wyłącznie kartonu, więc nie trzeba informować ratowników o klasie przewożonego towaru.",
+          "C": "Każdy materiał 5.1 jest samopalny i zawsze zapala się od kontaktu z powietrzem; kierowca powinien przenieść go ręcznie poza strefę pożaru."
+        },
+        "correct_option": "A",
+        "explanation": "Klasa 5.1 oznacza materiał utleniający: nie musi sam się palić, ale może spowodować lub nasilić spalanie innego ładunku. Dlatego nawet niepłonące opakowanie trzeba uwzględnić w ocenie zagrożenia i przekazać ratownikom informację o klasie. Nieprawdziwe jest założenie, że brak własnego płomienia oznacza obojętność; klasa 5.1 nie oznacza też, że materiał zawsze zapala się sam w powietrzu. Podstawa: ADR 2.2.51.1.1; działania w razie wypadku według instrukcji pisemnych z 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.51.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 2.2.51.1.1; 5.4.3.4",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Prawidłowa: klasa 5.1 obejmuje utleniacze, które nie muszą być same palne, ale mogą powodować lub nasilać spalanie innych materiałów; w sytuacji awaryjnej należy uwzględnić tę informację i stosować instrukcje pisemne."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Błędna: brak płomienia na opakowaniu nie oznacza, że utleniacz nie może nasilać spalania sąsiednich materiałów."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Błędna: klasa 5.1 nie oznacza samopalności wszystkich materiałów, a ręczne przenoszenie przesyłki w pobliżu pożaru jest niebezpieczne."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Pytanie sprawdza praktyczne rozumienie definicji klasy 5.1 i rolę instrukcji pisemnych w sytuacji awaryjnej. Nie wskazuje środka gaśniczego i nie nakazuje podejmowania działań przy pożarze; nie należy samodzielnie przenosić ładunku.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

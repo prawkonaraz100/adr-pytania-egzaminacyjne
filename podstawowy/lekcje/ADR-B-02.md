@@ -383,3 +383,8 @@ Materiał polimeryzujący może reagować z wydzieleniem dużej ilości ciepła.
 ### Piroforyczne a samonagrzewające się — dwa zagrożenia klasy 4.2
 
 W klasie 4.2 ADR rozróżnia materiały piroforyczne i samonagrzewające się. Piroforyczne mogą zapalić się po zetknięciu z powietrzem nawet w małej ilości i w ciągu pięciu minut. Samonagrzewające się również reagują z tlenem z powietrza bez dostarczania energii z zewnątrz, ale zapłon następuje zwykle dopiero w większej ilości materiału i po dłuższym czasie — godzinach lub dniach. To nie jest to samo co klasa 4.3, w której materiał wydziela palny gaz w kontakcie z wodą. Dla materiałów piroforycznych ADR przewiduje I grupę pakowania; dla samonagrzewających się grupa zależy od wyników badań i kryteriów ADR. Kierowca nie ustala klasy samodzielnie przez otwieranie opakowania ani próbę kontaktu z powietrzem — korzysta z prawidłowych danych przewozowych i oznakowania. Pytanie kontrolne: ADR-B-0665. Podstawa: ADR 2.2.42.1.1, 2.2.42.1.3, 2.2.42.1.8(a).
+
+
+### Klasa 5.1 w pobliżu pożaru — zagrożenie utleniające
+
+Materiał klasy 5.1 nie musi sam być palny, ale może spowodować lub nasilić spalanie innego materiału. Dlatego nie wolno uznać przesyłki za obojętną tylko dlatego, że jej opakowanie nie płonie. Jeśli w pobliżu ładunku wybucha pożar, załoga powinna uwzględnić klasę 5.1, przekazać ratownikom informację o towarze, odszukać [instrukcje pisemne](../SLOWNICZEK.md#instrukcje-pisemne) ADR (dokument z czynnościami załogi na wypadek awarii lub wypadku) i postępować zgodnie z nimi. Nie należy samodzielnie przenosić przesyłki ani dobierać środka gaśniczego bez oceny zagrożenia. Pytanie kontrolne: ADR-B-0666. Podstawa: ADR 2.2.51.1.1 i 5.4.3.4.
