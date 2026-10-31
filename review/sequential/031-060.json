@@ -718,14 +718,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Odbiorca prosi członka załogi, który nie prowadzi pojazdu, o otwarcie paczki ADR. Kogo dotyczy zakaz z ADR 8.3.3?",
+        "stem": "Odbiorca prosi pomocnika kierowcy o otwarcie paczki ADR, a kierowca nie prowadzi w tej chwili pojazdu. Kogo obejmuje zakaz z ADR 8.3.3?",
         "options": {
-          "A": "Tylko kierowcy prowadzącego pojazd",
-          "B": "Tylko członka załogi, który odpowiada za dokumenty",
-          "C": "Każdego członka załogi; jego rola nie zmienia zakazu"
+          "A": "Tylko kierowcę prowadzącego pojazd; pomocnik może otworzyć paczkę na postoju.",
+          "B": "Każdą osobę znajdującą się w pojeździe, niezależnie od jej funkcji.",
+          "C": "Kierowcę oraz pomocnika kierowcy; obaj nie mogą otwierać takich paczek."
         },
         "correct_option": "C",
-        "explanation": "Zakaz otwierania sztuk przesyłek z towarami niebezpiecznymi dotyczy wszystkich członków załogi, niezależnie od tego, kto prowadzi pojazd. Ani zadania związane z dokumentami, ani prośba odbiorcy nie dają drugiej osobie prawa do otwarcia paczki. Gdy pojawia się wątpliwość co do zawartości, należy ją zgłosić osobie odpowiedzialnej zamiast samodzielnie zaglądać do środka. Podstawa: ADR 8.3.3.",
+        "explanation": "Zakaz obejmuje zarówno kierowcę, jak i pomocnika kierowcy, więc odbiorca nie może uzyskać otwarcia paczki przez poproszenie drugiej osoby. Nie ma znaczenia, kto akurat prowadzi pojazd ani czy pojazd stoi. Nie rozszerzaj jednak brzmienia tego konkretnego punktu na każdą osobę w pojeździe bez sprawdzenia jej roli. Podstawa: ADR 2025, 8.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -736,8 +736,8 @@
         "legal_basis_version": "ADR-2025-PL",
         "image": null
       },
-      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
-      "supplementary_source_url": null,
+      "source_crosscheck_scope": "official Polish ADR 2025, Dz.U. 2025 poz. 642, gov.pl attachment, section 8.3.3 targeted clause-scope comparison; full question/option comparison and independent specialist review pending",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
       "source_risk_note": "Skorygowano pytanie i dwie odpowiedzi: wcześniejsza niezgodność gramatyczna pytania z odpowiedziami Tak/Nie.",
