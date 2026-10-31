@@ -2,13 +2,15 @@
 
 ## Uzupełnienie audytu 4x249 — 31.10.2026
 
+
+- Dodano ADR-B-0675 (II grupa: ≥20 l/kg/h, bez kryteriów I) i ADR-B-0676 (III grupa: >1 l/kg/h, bez kryteriów I/II) do ADR-B-02-K06; wyjaśnienia 330 i 304 znaki. Podstawa: ADR 2.2.43.1.8(b)–(c).
 - Dodano ADR-B-0674 do ADR-B-02-K06: odczyt I grupy pakowania materiału klasy 4.3; grupa I oznacza duże zagrożenie, a kryteria klasy 4.3 obejmują gwałtowną reakcję z wodą i możliwość samozapłonu gazu albo szybkie wydzielanie gazu palnego.
 - Explanation: 350 znaków, 3 zdania; A/B/C 133/137/147. Poprawna B nie jest najdłuższa.
 - Podstawa: ADR 2025, 1.2.1 i 2.2.43.1.8(a)–(c), Dz.U. 2025 poz. 642. Literalne porównanie tekstu Dz.U. i recenzja specjalisty pozostają otwarte.
-- Bank: 674 pytania ADR-B-0001–0674, wszystkie `needs_review`, 0 `verified`; SHA `841c502032f62580f23608820747827f70b00df0`.
-- Rozkład poprawnych odpowiedzi: A=231, B=230, C=213.
-- Rozkład prawidłowych opcji: A=231, B=230, C=213.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/674 = 10,68%**; maksimum działu to 13,95%.
+- Bank: 674 pytania ADR-B-0001–0674, wszystkie `needs_review`, 0 `verified`; SHA `1f3ac69fdf7e01d6bd67b13bdded7a41a5e0f7b9`.
+- Rozkład poprawnych odpowiedzi: A=232, B=230, C=214.
+- Rozkład prawidłowych opcji: A=232, B=230, C=214.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/676 = 10,65%**; maksimum działu to 13,95%.
 - Raport: [Etap 4x249 — klasa 4.3: grupy pakowania](../podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md).
 
 **Poprzednia migawka — etap 4x248 (31.10.2026).**
