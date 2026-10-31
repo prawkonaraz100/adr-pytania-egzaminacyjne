@@ -147,3 +147,8 @@ Pytania kontrolne: `ADR-B-0013`, `ADR-B-0015`, `ADR-B-0169`, `ADR-B-0220`, `ADR-
 
 ### Scenariusz SC-ADR-B-05, SC-ADR-B-05-02 i SC-ADR-B-05-03 — awaria i ratownicy
 Ćwicz sekwencję: bezpieczeństwo własne, ostrzeżenie osób postronnych, przekazanie ratownikom dostępnych informacji i unikanie kontaktu z nieznaną substancją. Nie wymagaj od kursanta wejścia w strefę zagrożenia. Pytania: ADR-B-0630–0633 i ADR-B-0640–0645. Nowe pytania sprawdzają granice bezpiecznego działania; nie zastępują rzeczywistego instruktażu gaśnicy ani pierwszej pomocy. Podstawy do sprawdzenia: ADR 5.4.3.4 i 8.1.4.
+
+
+### SC-ADR-B-05-04 — mały pożar opon, hamulców lub silnika
+
+Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nadzorem. Poproś kursanta o rozróżnienie niewielkiego, początkowego pożaru poza ładunkiem od pożaru rozprzestrzeniającego się lub obejmującego przestrzeń ładunkową. Użycie gaśnicy można rozważyć tylko wtedy, gdy jest właściwe i bezpieczne, a droga odwrotu pozostaje wolna. W przeciwnym razie kursant ma przerwać działanie, oddalić się, ostrzec innych i wezwać służby. Nie ćwicz gaszenia prawdziwego ognia ani nie używaj rzeczywistych towarów niebezpiecznych. Pytania kontrolne: ADR-B-0108, ADR-B-0184, ADR-B-0223, ADR-B-0493. Podstawa: ADR 5.4.3.4.
