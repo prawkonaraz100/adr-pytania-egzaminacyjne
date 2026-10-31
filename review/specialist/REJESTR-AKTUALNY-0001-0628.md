@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x241 (31.10.2026)
+
+- Bank: 666 pytań ADR-B-0001–0666; 666 `needs_review`, 0 `verified`; blob SHA `b7b582add191eace25bf493fed5f71dda55f392e`.
+- Dodano ADR-B-0666 do ADR-B-02-K07: klasa 5.1 może nasilać spalanie innych materiałów, nawet gdy sama nie jest palna. Explanation 479 znaków, 4 zdania; A/B/C 166/166/138.
+- Rozkład A/B/C: 229/224/213. „Poprawna = jedyna najdłuższa”: 72/666 = 10,81%; maksimum działu 13,95%.
+- Snapshoty: `review/sequential/666-666.json`, `review/legal-clauses/666-666.json`; egzaminy i klucze 001–005 wskazują aktualny SHA.
+- Ledger: `review/legal-polish/stage4w4-literal-verification-ledger-0610-0666.json`; pełne literalne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+- Raport: `podstawowy/raporty/etap-4x241-klasa-51-utleniajace-ryzyko-pozaru-2026-10-31.md`.
+
 ## Bieżąca migawka — etap 4x240 (31.10.2026)
 
 - Bank: 665 pytań ADR-B-0001–0665; 665 `needs_review`, 0 `verified`; blob SHA `c7c55c480fa872b1ec9ea008fb1e6d049f7fae96`.
@@ -715,3 +724,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0663 | ADR-B-07 | ADR-B-07-K06 | Po zmroku kierowca ma sprawdzić oznakowanie. Czy może użyć latarki z metalową powierzchnią mogącą wywołać iskrę? | C | ADR 2025, 8.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0664 | ADR-B-07 | ADR-B-07-K06 | Zespół z ABS i przyczepa powyżej 3,5 t: czy rozłączone połączenie ABS można pominąć? | B | ADR 2025, 8.3.8; 9.2.2.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0665 | ADR-B-02 | ADR-B-02-K05 | Rozróżnienie materiałów piroforycznych i samonagrzewających się klasy 4.2 | B | ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a) | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0666 | ADR-B-02 | ADR-B-02-K07 | Utleniacz klasy 5.1 może nasilać spalanie sąsiednich materiałów — reakcja kierowcy przy pożarze | A | ADR 2025, 2.2.51.1.1; 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
