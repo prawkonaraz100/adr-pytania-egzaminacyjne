@@ -356,3 +356,8 @@ Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz n
 
 **Status:** materiał dydaktyczny `needs_review`; odniesienia do ADR 2025 wymagają niezależnej kontroli.
  
+
+
+### Łączne odczytanie klasy, grupy pakowania i nalepek
+
+Przykład szkoleniowy: w fikcyjnym wpisie tabeli A kolumna 3a wskazuje klasę 3, kolumna 4 — grupę pakowania II, a kolumna 5 — nalepki 3 i 6.1. To trzy różne informacje: klasa opisuje rodzaj zagrożenia, grupa pakowania jego stopień (jeśli ma zastosowanie), a nalepki wskazują wymagane oznaczenia zagrożeń. Dwie nalepki nie oznaczają automatycznie dwóch oddzielnych towarów. Kierowca powinien porównać wszystkie oznaczenia z przesyłką i dokumentami, a nie zastępować jednego pola innym. Podstawa: ADR 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1. Przykład ma charakter dydaktyczny, nie przypisuje tych danych do konkretnego numeru UN.
