@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x244 (31.10.2026)
 
-- Bank: 669 pytań ADR-B-0001–0669; wszystkie `needs_review`, 0 `verified`; blob SHA `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`.
+- Bank: 669 pytań ADR-B-0001–0669; 669 `needs_review`, 0 `verified`; blob SHA `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`.
 - Dodano ADR-B-0669 do ADR-B-02-K11: praktyczne przypisanie kategorii przesyłki klasy 7 z uwzględnieniem TI i poziomu promieniowania na powierzchni.
 - Explanation: 340 znaków, 4 zdania; A/B/C 145/130/115 znaków. Poprawna B nie jest najdłuższa.
 - Rozkład prawidłowych opcji: A=231, B=225, C=213; wskaźnik „poprawna = jedyna najdłuższa” 72/669 = 10,76%.
