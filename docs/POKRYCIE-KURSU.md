@@ -13,7 +13,7 @@
 - Explanation: 438 znaków, 4 zdania; A/B/C 144/130/129 znaków. Poprawna B nie jest ani najdłuższa, ani najkrótsza.
 - Podstawa: ADR 2025, 9.1.3.1; 9.1.3.3; 9.1.3.5 (świadectwo dla każdego pojazdu i pola VIN, numeru rejestracyjnego oraz oznaczenia pojazdu).
 - Bank: 662 pytania `needs_review`, 0 `verified`; ID 0001–0662 ciągłe i unikalne. Blob SHA `67da7457c1494d9e770324f42a6a30ef4e117567`.
-- Rozkład A/B/C: 228/222/212. „Poprawna = jedyna najdłuższa”: 72/663 = 10,86%; maksimum działu 13,95%.
+- Rozkład A/B/C: 228/222/212. „Poprawna = jedyna najdłuższa”: 72/662 = 10,88%; maksimum działu 13,95%.
 - Raport: [4x237 — zgodność VIN świadectwa pojazdu](../podstawowy/raporty/etap-4x237-swiadectwo-pojazdu-zgodnosc-vin-2026-10-31.md).
 
 ## Uzupełnienie audytu 4x236 — 31.10.2026
