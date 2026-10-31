@@ -1,6 +1,7 @@
 ## Bieżąca migawka — etap 4x229 (31.10.2026)
 
 - Bank: 654 pytań `needs_review`, 0 `verified`; blob SHA `6d2b0fd39173fef829b70a5e42049104688c1604`.
+- Poprzednia migawka 4x228: 653 pytania `needs_review`, 0 `verified`; po dodaniu ADR-B-0654 bank wzrósł do 654.
 - Raport: `podstawowy/raporty/etap-4x229-szczegolne-znaczenie-kodu-99-2026-10-31.md`.
 - Dodano ADR-B-0654 do ADR-B-06-K06: kod 99 oznacza różne towary niebezpieczne przewożone w stanie podgrzanym (ADR 2025, 5.3.2.3.1–5.3.2.3.2). Audyt A/B/C: A poprawna (58 znaków), B/C błędne (59/78); poprawna nie jest najdłuższa. Explanation: 4 zdania, 352 znaki.
 - Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz SHA pakietu recenzyjnego wskazują aktualny bank.
