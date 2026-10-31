@@ -170,8 +170,8 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         quote_list = REVIEW / "ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md"
         quote_text = quote_list.read_text(encoding="utf-8")
         quote_ids = re.findall(r"^- (ADR-B-\d{4})$", quote_text, flags=re.MULTILINE)
-        self.assertEqual(len(quote_ids), 122)
-        self.assertEqual(len(set(quote_ids)), 122)
+        self.assertEqual(len(quote_ids), 123)
+        self.assertEqual(len(set(quote_ids)), 123)
         self.assertTrue(set(quote_ids).issubset(self.by_id))
         self.assertEqual(open_items["ministerial_copy_exact_quote_not_saved"], len(quote_ids))
         self.assertEqual(open_items["targeted_source_checked_full_literal_comparison_pending"], 10)
