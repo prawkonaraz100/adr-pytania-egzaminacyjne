@@ -5,9 +5,9 @@
 
 - Dodano ADR-B-0675 (II grupa: ≥20 l/kg/h, bez kryteriów I) i ADR-B-0676 (III grupa: >1 l/kg/h, bez kryteriów I/II) do ADR-B-02-K06; wyjaśnienia 330 i 304 znaki. Podstawa: ADR 2.2.43.1.8(b)–(c).
 - Dodano ADR-B-0674 do ADR-B-02-K06: odczyt I grupy pakowania materiału klasy 4.3; grupa I oznacza duże zagrożenie, a kryteria klasy 4.3 obejmują gwałtowną reakcję z wodą i możliwość samozapłonu gazu albo szybkie wydzielanie gazu palnego.
-- Explanation: 350 znaków, 3 zdania; A/B/C 133/137/147. Poprawna B nie jest najdłuższa.
+- Explanation: 321 znaków, 3 zdania; A/B/C 133/137/147. Poprawna B nie jest najdłuższa.
 - Podstawa: ADR 2025, 1.2.1 i 2.2.43.1.8(a)–(c), Dz.U. 2025 poz. 642. Literalne porównanie tekstu Dz.U. i recenzja specjalisty pozostają otwarte.
-- Bank: 674 pytania ADR-B-0001–0674, wszystkie `needs_review`, 0 `verified`; SHA `1f3ac69fdf7e01d6bd67b13bdded7a41a5e0f7b9`.
+- Bank: 674 pytania ADR-B-0001–0674, wszystkie `needs_review`, 0 `verified`; SHA `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
 - Rozkład poprawnych odpowiedzi: A=232, B=230, C=214.
 - Rozkład prawidłowych opcji: A=232, B=230, C=214.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **73/676 = 10,80%**; maksimum działu to 13,95%.
