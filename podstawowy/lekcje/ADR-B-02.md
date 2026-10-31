@@ -423,3 +423,8 @@ Jeżeli bateria litowo-jonowa jest przewożona samodzielnie, właściwą pozycj�
 ### Klasa 4.3 — znaczenie grup pakowania I, II i III
 
 Grupa pakowania opisuje stopień zagrożenia materiału, a nie typ użytego opakowania. Dla klasy 4.3 grupa I oznacza duże zagrożenie: materiał reaguje z wodą energicznie, a wydzielany gaz ma zwykle tendencję do samozapłonu, albo gaz palny wydziela się z szybkością co najmniej 10 l/kg w minutę. Grupa II i III mają odrębne, mniej ostre kryteria szybkości wydzielania gazu. Kierowca odczytuje grupę z dokumentu przewozowego; nie wykonuje samodzielnie prób z wodą ani nie ustala grupy na podstawie wyglądu przesyłki. Powiązane pytanie: ADR-B-0674 (needs_review). Podstawa: ADR 1.2.1 i 2.2.43.1.8.
+
+
+### Klasa 4.3 — rozróżnianie grup pakowania II i III
+
+Grupa II obejmuje materiał, który reaguje z wodą i wydziela co najmniej 20 litrów gazu palnego na kilogram w ciągu godziny, ale nie spełnia kryteriów grupy I. Grupa III dotyczy wolniejszej reakcji: wydzielanie przekracza 1 litr na kilogram w ciągu godziny, a materiał nie spełnia kryteriów I ani II. W praktyce kierowca odczytuje przypisaną grupę z dokumentu przewozowego; nie wykonuje prób z wodą ani samodzielnie nie klasyfikuje ładunku. Pytania kontrolne: ADR-B-0675 i ADR-B-0676 (needs_review). Podstawa: ADR 2.2.43.1.8(b)–(c).
