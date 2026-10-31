@@ -16,7 +16,7 @@ Dodano ADR-B-0659 do ADR-B-01-K01. Scenariusz dotyczy przewoźnika, który musi 
 | B | 159 | Błędna — odwraca zakres załączników A i B. |
 | C | 159 | Błędna — błędnie ogranicza A do listy UN, a wymagania o towarach przenosi do B. |
 
-Poprawna odpowiedź A nie jest najdłuższa. Explanation ma 396 znaków i 4 zdania: wyjaśnia zakres obu załączników, podaje przykłady, pokazuje praktyczną wskazówkę i kończy podstawą ADR. Status: `needs_review`.
+Poprawna odpowiedź A nie jest najdłuższa. Explanation ma 426 znaków i 4 zdania: wyjaśnia zakres obu załączników, podaje przykłady, pokazuje praktyczną wskazówkę i kończy podstawą ADR. Status: `needs_review`.
 
 ## 3. Źródła i zakres prawny
 
@@ -33,7 +33,7 @@ Pełne literalne porównanie polskiego tekstu urzędowego i niezależna recenzja
 - Mapa: ADR-B-0659 przypisano do ADR-B-01-K01 (5 pytań w kompetencji).
 - Lekcja i materiał instruktora ADR-B-01: dodano rozróżnienie zakresu załączników i ćwiczenie wyszukiwania wymagań.
 - Bank: 659 rekordów ADR-B-0001–0659, ID ciągłe i unikalne; wszystkie `needs_review`, 0 `verified`.
-- Blob SHA banku: `3f53c26178541047e558865dddf3aca814b22160`.
+- Blob SHA banku: `edef07df45541eeea77726bb1d6f93d00d853627`.
 - Rozkład prawidłowych odpowiedzi: A=227, B=220, C=212.
 - Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 72/659 = 10,92%; maksimum działu 13,95%.
 - Warianty i klucze egzaminów próbnych 001–005 wskazują nowy blob SHA banku.
