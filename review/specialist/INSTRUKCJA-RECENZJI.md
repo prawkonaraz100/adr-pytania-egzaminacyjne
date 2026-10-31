@@ -1,4 +1,8 @@
-## Migawka bieżąca — 4x252
+## Migawka bieżąca — 4x253
+
+Bank podstawowy: 679 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `5df8cb5200a2c357cdcc04959893969d8ca448a0`. Najnowsza zmiana: ADR-B-0679, rozdzielenie obowiązków nadawcy i przewoźnika przy klasyfikacji i danych ADR (1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3, 5.4.1.1.1). Snapshoty 679-679, ledger i egzaminy 001–005 wskazują nowy bank; pełna literalna recenzja i niezależna recenzja specjalisty pozostają pending.
+
+## Poprzednia migawka — 4x252
 
 Bank podstawowy: 678 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `7c21fccb7d7e17e71fd98be534133582b54d52af`. Najnowsza zmiana: ADR-B-0678 oraz korekty ADR-B-0011, 0048 i 0243. ADR 8.3.3 wskazuje kierowcę i pomocnika kierowcy; nie należy rozszerzać go na wszystkich członków załogi. SC-ADR-B-04-04 doprecyzowano. Ukierunkowane porównanie dokładnego brzmienia 8.3.3 wykonano dla czterech pytań; pełne porównanie wszystkich elementów pytań i niezależna recenzja specjalisty pozostają pending.
 
