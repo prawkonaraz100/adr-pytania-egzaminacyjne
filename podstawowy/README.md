@@ -275,6 +275,11 @@
 
 ## Raporty jakości
 
+- [Etap 4x248 — bateria litowo-jonowa zapakowana z urządzeniem (UN 3481)](raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md)
+- [Etap 4x247 — identyfikacja ze zdjęciem dla załogi](raporty/etap-4x247-identyfikacja-zdjecie-zaloga-2026-10-31.md)
+- [Etap 4x246 — klasa 2: ochrona zaworu butli](raporty/etap-4x246-klasa-2-ochrona-zaworu-butli-2026-10-31.md)
+- [Etap 4x245 — klasa 6.1: uszkodzone opakowanie](raporty/etap-4x245-klasa-61-uszkodzone-opakowanie-2026-10-31.md)
+- [Etap 4x244 — klasa 7: kategoria przesyłki](raporty/etap-4x244-klasa-7-kategoria-przesylki-2026-10-31.md)
 - [Etap 4x243 — klasa 6.2: UN 3373 i P650](raporty/etap-4x243-klasa-62-un3373-p650-2026-10-31.md)
 - [Etap 4x242 — klasa 5.2: temperatura awaryjna](raporty/etap-4x242-klasa-52-temperatura-awaryjna-2026-10-31.md)
 - [Etap 4x241 — klasa 5.1: utleniacz i ryzyko pożaru](raporty/etap-4x241-klasa-51-utleniajace-ryzyko-pozaru-2026-10-31.md)
