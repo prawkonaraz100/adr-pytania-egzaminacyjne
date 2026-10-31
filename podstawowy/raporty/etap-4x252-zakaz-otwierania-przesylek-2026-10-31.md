@@ -24,7 +24,7 @@ Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmu
 - Kompetencja ADR-B-04-K02 obejmuje teraz pięć pytań: 0011, 0048, 0243, 0357 i 0678.
 - Scenariusz `SC-ADR-B-04-04` skorygowano: prośba odbiorcy dotyczy pomocnika kierowcy, a kryterium oceny odnosi się do kierowcy i pomocnika kierowcy. Powiązane pytania scenariusza: ADR-B-0048, ADR-B-0357 i ADR-B-0678; ADR-B-0011 i ADR-B-0243 pozostają dodatkowymi pytaniami K02.
 - Uzupełniono lekcję i materiał instruktora, usuwając nieprecyzyjne sformułowanie „wszyscy członkowie załogi”.
-- Dodano snapshoty `review/sequential/4x252-0011-0678.json` i `review/legal-clauses/4x252-0011-0678.json`; suplement rejestru literalnej weryfikacji rozszerzono do ADR-B-0678.
+- Snapshoty sekwencyjne odświeżono w ich ciągłych zakresach `001-030.json`, `031-060.json`, `241-246.json` i `677-678.json`; odrębny snapshot klauzulowy `review/legal-clauses/4x252-0011-0678.json` zawiera cztery rekordy 8.3.3. Suplement rejestru literalnej weryfikacji rozszerzono do ADR-B-0678.
 - Warianty i klucze egzaminów próbnych 001–005 wskazują SHA banku `7c21fccb7d7e17e71fd98be534133582b54d52af`.
 
 ## Podstawa prawna i źródła
@@ -36,7 +36,7 @@ Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmu
 
 ## Naprawa CI — PR #722
 
-Pierwszy Quality Gate zakończył się błędem w `test_current_repository_structure`: skrypt zlicza osobne, niearchiwalne rejestry `review/specialist/REJESTR-*.md` i wykrył 677 wpisów przy 678 rekordach banku. Brakował osobny plik `REJESTR-0678-0678.md`; dodano go na tej samej gałęzi. Pełny bieżący rejestr `REJESTR-AKTUALNY-0001-0628.md` nie zastępuje rejestru przyrostowego używanego przez tę kontrolę. Pierwsza poprawka ujawniła w kolejnym uruchomieniu rozbieżność licznika dowodów: po przeniesieniu czterech wpisów z „nie pobrano tekstu” do „kontrola celowana — pełne porównanie oczekuje” manifest nadal zawierał 442 zamiast 439 i nie odzwierciedlał dokładnie podziału 17/222/292. Zaktualizowano oba manifesty, obie kolejki i asercję testu do bieżących liczników. Końcowy PASS zostanie odnotowany po zakończeniu najnowszego CI.
+Pierwszy Quality Gate zakończył się błędem w `test_current_repository_structure`: skrypt zlicza osobne, niearchiwalne rejestry `review/specialist/REJESTR-*.md` i wykrył 677 wpisów przy 678 rekordach banku. Brakował osobny plik `REJESTR-0678-0678.md`; dodano go na tej samej gałęzi. Pełny bieżący rejestr `REJESTR-AKTUALNY-0001-0628.md` nie zastępuje rejestru przyrostowego używanego przez tę kontrolę. Pierwsza poprawka ujawniła w kolejnym uruchomieniu rozbieżność licznika dowodów: po przeniesieniu czterech wpisów z „nie pobrano tekstu” do „kontrola celowana — pełne porównanie oczekuje” manifest nadal zawierał 442 zamiast 439 i nie odzwierciedlał dokładnie podziału 17/222/292. Zaktualizowano oba manifesty, obie kolejki i asercję testu do bieżących liczników. Kolejne uruchomienie ujawniło, że checker sekwencyjny wymaga nazw plików odpowiadających ściśle ciągłym zakresom ID. Zamiast osłabiać checker, przeniesiono rekordy 0011, 0048 i 0243 do ich istniejących partii 001-030, 031-060 i 241-246, a 0678 do nowego zakresu 677-678; usunięto błędny plik `4x252-0011-0678.json` z katalogu sekwencyjnego. W rekordach pozostawiono `polish_official_text_fully_compared=false`; URL do oficjalnego tekstu zapisano jako dodatkowe źródło. Końcowy PASS zostanie odnotowany po zakończeniu najnowszego CI.
 
 ## Stan dowodów prawnych po porównaniu 8.3.3
 
