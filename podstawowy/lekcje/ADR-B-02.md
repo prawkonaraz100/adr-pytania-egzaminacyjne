@@ -361,3 +361,8 @@ Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz n
 ### Łączne odczytanie klasy, grupy pakowania i nalepek
 
 Przykład szkoleniowy: w fikcyjnym wpisie tabeli A kolumna 3a wskazuje klasę 3, kolumna 4 — grupę pakowania II, a kolumna 5 — nalepki 3 i 6.1. To trzy różne informacje: klasa opisuje rodzaj zagrożenia, grupa pakowania jego stopień (jeśli ma zastosowanie), a nalepki wskazują wymagane oznaczenia zagrożeń. Dwie nalepki nie oznaczają automatycznie dwóch oddzielnych towarów. Kierowca powinien porównać wszystkie oznaczenia z przesyłką i dokumentami, a nie zastępować jednego pola innym. Podstawa: ADR 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1. Przykład ma charakter dydaktyczny, nie przypisuje tych danych do konkretnego numeru UN. Powiązane pytanie w banku: ADR-B-0655.
+
+
+### Klasa 2.1 — gazy palne
+
+Czerwona nalepka z płomieniem i numerem 2.1 oznacza gaz palny. W razie uwolnienia gaz może utworzyć z powietrzem mieszaninę, którą może zapalić iskra lub płomień. Nie należy mylić jej z zieloną nalepką 2.2 (gaz niepalny i nietrujący) ani białą 2.3 (gaz trujący). Kierowca powinien rozpoznać rodzaj zagrożenia i uwzględnić ryzyko zapłonu podczas załadunku oraz przewozu. Powiązane pytanie: ADR-B-0657. Podstawa: ADR 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2.
