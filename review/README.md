@@ -1,4 +1,12 @@
-## Bieżąca migawka — etap 4x241 (31.10.2026)
+## Bieżąca migawka — etap 4x242 (31.10.2026)
+
+- Bank: 667 pytań ADR-B-0001–0667, wszystkie `needs_review`, 0 `verified`; SHA `4d3a2dd4c7c43ee9fc00d829981cac50098fc462`.
+- Dodano ADR-B-0667 do ADR-B-02-K08: temperatura awaryjna nadtlenków organicznych klasy 5.2.
+- Explanation 400 znaków, 4 zdania; A/B/C 147/133/172; poprawna A nie jest najdłuższa.
+- Rozkład A/B/C 230/224/213; „poprawna = jedyna najdłuższa” 72/667 = 10,79%; maksimum działu 13,95%.
+- Raport: [Etap 4x242 — klasa 5.2: temperatura awaryjna](../podstawowy/raporty/etap-4x242-klasa-52-temperatura-awaryjna-2026-10-31.md).
+
+## Poprzednia migawka — etap 4x241 (31.10.2026)
 
 - Bank: 666 pytań ADR-B-0001–0666; 666 `needs_review`, 0 `verified`; blob SHA `b7b582add191eace25bf493fed5f71dda55f392e`.
 - Dodano ADR-B-0666 do ADR-B-02-K07: zagrożenie utleniające klasy 5.1 może nasilać spalanie innych materiałów (ADR 2.2.51.1.1; instrukcje awaryjne 5.4.3.4).

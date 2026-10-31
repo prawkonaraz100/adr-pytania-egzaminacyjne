@@ -188,3 +188,8 @@ Przedstaw kursantowi kartę charakterystyki cieczy z temperaturą zapłonu 45°C
 **Symulacja:** na fikcyjnym planie załadunku pokaż przesyłkę klasy 5.1 i karton z innym towarem, przy którym pojawia się zadymienie. Kursant ma wyjaśnić, dlaczego brak płomienia na opakowaniu 5.1 nie oznacza braku wpływu na pożar, oraz wskazać informację o klasie, którą trzeba przekazać ratownikom. Następnie ma odszukać instrukcje pisemne i wyjaśnić, że nie wolno samodzielnie przenosić opakowania ani wybierać środka gaśniczego bez rozpoznania towaru i zagrożenia. Ćwiczenie wyłącznie na dokumentacji i makiecie — bez rzeczywistego ognia ani materiałów niebezpiecznych.
 
 **Podstawa:** ADR 2.2.51.1.1 i 5.4.3.4. Pytanie kontrolne: ADR-B-0666 (`needs_review`).
+
+
+### Ćwiczenie: alarm temperatury awaryjnej — klasa 5.2
+
+Przedstaw kursantowi kartę ładunku nadtlenku organicznego z podanymi temperaturami kontrolowaną i awaryjną. W scenariuszu czujnik osiąga próg awaryjny. Kursant ma wskazać, że należy niezwłocznie uruchomić procedury awaryjne przewidziane dla przewozu, a nie kontynuować jazdę bez reakcji ani improwizować własnego sposobu chłodzenia. Sprawdź, czy odróżnia maksymalną temperaturę bezpiecznego przewozu od progu uruchomienia działań awaryjnych. Powiązane pytanie: ADR-B-0667 (needs_review). Podstawa: ADR 7.1.7.3.4 i 7.1.7.4.1.

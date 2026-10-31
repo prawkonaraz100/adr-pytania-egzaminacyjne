@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0667",
+      "order": 667,
+      "clause": "ADR 2025, 7.1.7.3.4; 7.1.7.4.1; 2.2.52.1.15–1.16",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0667",
+        "module_id": "ADR-B-02",
+        "stem": "Podczas przewozu nadtlenku organicznego klasy 5.2 kierowca odczytuje z czujnika, że temperatura ładunku osiągnęła podaną w dokumentacji temperaturę awaryjną. Co powinien zrobić?",
+        "options": {
+          "A": "Niezwłocznie uruchomić przewidziane procedury awaryjne; temperatura awaryjna jest progiem rozpoczęcia tych działań, a nie zwykłą temperaturą pracy.",
+          "B": "Kontynuować przewóz bez zmian aż do przekroczenia temperatury kontrolowanej, ponieważ dopiero wtedy ADR wymaga jakiejkolwiek reakcji.",
+          "C": "Samodzielnie obniżyć temperaturę do dowolnej wartości, nie informując przewoźnika ani nie stosując procedury awaryjnej, ponieważ temperatura awaryjna jest tylko zaleceniem."
+        },
+        "correct_option": "A",
+        "explanation": "Temperatura awaryjna oznacza moment, w którym trzeba rozpocząć przewidziane działania awaryjne, dlatego kierowca nie powinien czekać ani traktować alarmu jak zwykłego odchylenia. Temperatura kontrolowana to najwyższa temperatura bezpiecznego przewozu; nie jest tym samym co próg awaryjny. Nie wolno też zastępować procedury samodzielnym, przypadkowym chłodzeniem. Podstawa: ADR 7.1.7.3.4 i 7.1.7.4.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.1.7.3.4 i 7.1.7.4.1; dla klasy 5.2 także 2.2.52.1.15–1.16",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Temperatura awaryjna jest progiem rozpoczęcia procedur awaryjnych; 7.1.7.4.1 nakazuje je rozpocząć po jej osiągnięciu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Myli temperaturę kontrolowaną z awaryjną i bezpodstawnie każe czekać po osiągnięciu progu awaryjnego."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Traktuje próg awaryjny jako zalecenie i zastępuje przewidziane procedury improwizowanym działaniem."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Pytanie dotyczy rozpoznania progu awaryjnego i uruchomienia procedur przewidzianych dla danego przewozu. Nie określa samodzielnie metody chłodzenia ani nie zastępuje procedur przewoźnika.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

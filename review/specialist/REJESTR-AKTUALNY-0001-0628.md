@@ -1,4 +1,14 @@
-## Bieżąca migawka — etap 4x241 (31.10.2026)
+## Bieżąca migawka — etap 4x242 (31.10.2026)
+
+- Bank: 667 pytań ADR-B-0001–0667; 667 `needs_review`, 0 `verified`; blob SHA `4d3a2dd4c7c43ee9fc00d829981cac50098fc462`.
+- Dodano ADR-B-0667 do ADR-B-02-K08: rozpoznanie temperatury awaryjnej nadtlenku organicznego klasy 5.2 i uruchomienie procedur awaryjnych.
+- Explanation: 400 znaków, 4 zdania; A/B/C 147/133/172 znaków. Poprawna A nie jest najdłuższa.
+- Rozkład A/B/C: 230/224/213. „Poprawna = jedyna najdłuższa”: 72/667 = 10,79%; maksimum działu 13,95%.
+- Egzaminy 001–005 wskazują aktualny SHA; snapshoty: `review/sequential/667-667.json`, `review/legal-clauses/667-667.json`.
+- Raport: `podstawowy/raporty/etap-4x242-klasa-52-temperatura-awaryjna-2026-10-31.md`.
+- Literalne porównanie wiążącego tekstu polskiego Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+
+## Poprzednia migawka — etap 4x241 (31.10.2026)
 
 - Bank: 666 pytań ADR-B-0001–0666; 666 `needs_review`, 0 `verified`; blob SHA `b7b582add191eace25bf493fed5f71dda55f392e`.
 - Dodano ADR-B-0666 do ADR-B-02-K07: zagrożenie utleniające klasy 5.1 może nasilać spalanie innych materiałów (ADR 2.2.51.1.1; instrukcje awaryjne 5.4.3.4).
@@ -735,3 +745,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0664 | ADR-B-07 | ADR-B-07-K06 | Zespół z ABS i przyczepa powyżej 3,5 t: czy rozłączone połączenie ABS można pominąć? | B | ADR 2025, 8.3.8; 9.2.2.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0665 | ADR-B-02 | ADR-B-02-K05 | Rozróżnienie materiałów piroforycznych i samonagrzewających się klasy 4.2 | B | ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0666 | ADR-B-02 | ADR-B-02-K07 | Utleniacz klasy 5.1 może nasilać spalanie sąsiednich materiałów — reakcja kierowcy przy pożarze | A | ADR 2025, 2.2.51.1.1; 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0667 | ADR-B-02 | ADR-B-02-K08 | Nadtlenek organiczny 5.2 osiągnął temperaturę awaryjną — jakie działanie kierowcy? | A | ADR 2025, 7.1.7.3.4; 7.1.7.4.1; 2.2.52.1.15–1.16 | — | NIEROZSTRZYGNIĘTE | needs_review |
