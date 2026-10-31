@@ -81,7 +81,7 @@
           "C": "Tak, jeżeli znany jest kod katalogowy odpadu i dostępna jest karta przekazania."
         },
         "correct_option": "B",
-        "explanation": "Uproszczonej procedury klasyfikacji odpadu z ADR 2.1.3.5.5 nie stosuje się, gdy odpad zawiera materiał klasy 4.3. Sama nazwa odpadu lub kod katalogowy nie znoszą tego wyłączenia, więc odpowiedzi A i C pomijają warunek prawny. Trzeba ustalić klasyfikację inną właściwą metodą, zamiast korzystać z niedozwolonego skrótu. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "ADR 2.1.3.5.5 nie pozwala użyć uproszczonej procedury klasyfikacji odpadu, jeśli zawiera on materiał klasy 4.3. Sama nazwa odpadu ani kod katalogowy nie usuwają tego wyłączenia. Trzeba ustalić klasyfikację inną właściwą metodą, zamiast korzystać z procedury, której przepis w tej sytuacji zabrania. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -912,7 +912,7 @@
           "C": "Pozycję ogólną stosuje się, gdy brak właściwej bardziej szczegółowej"
         },
         "correct_option": "C",
-        "explanation": "Jeśli istnieje właściwa pozycja bardziej szczegółowa, nie wybiera się zamiast niej ogólnej pozycji i.n.o. tylko dlatego, że jest wygodniejsza. Odpowiedź A odwraca kolejność wyboru, a B pozwala na dowolność, której ADR nie przewiduje. Klasyfikacja musi odpowiadać rzeczywistemu rodzajowi odpadu i właściwej pozycji. Podstawa: ADR 2.1.3.6.",
+        "explanation": "Pozycję ogólną i.n.o. wybiera się wtedy, gdy nie ma odpowiedniej pozycji bardziej szczegółowej. Jeśli istnieje właściwa pozycja specyficzna, trzeba najpierw rozważyć właśnie ją; nie wolno wybierać pozycji ogólnej wyłącznie dla wygody. Nie można też wybrać dowolnej pozycji bez sprawdzenia, czy obejmuje dany odpad. Podstawa: ADR 2.1.3.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
