@@ -21,7 +21,7 @@ Poniższe rekordy pozostają nierozstrzygnięte pod kątem dosłownego fragmentu
 - ADR-B-0084
 - ADR-B-0127
 - ADR-B-0131
-- ADR-B-0137
+- ADR-B-0138
 - ADR-B-0138
 - ADR-B-0141
 - ADR-B-0144
@@ -172,3 +172,5 @@ Poniższe rekordy pozostają nierozstrzygnięte pod kątem dosłownego fragmentu
 - ADR-B-0666
 - ADR-B-0667
 - ADR-B-0668
+
+- ADR-B-0669
