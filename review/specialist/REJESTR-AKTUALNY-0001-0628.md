@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x240 (31.10.2026)
+
+- Bank: 665 pytań ADR-B-0001–0665; 665 `needs_review`, 0 `verified`; blob SHA `c7c55c480fa872b1ec9ea008fb1e6d049f7fae96`.
+- Dodano ADR-B-0665 do ADR-B-02-K05: piroforyczne a samonagrzewające się, ADR 2.2.42.1.1 i 2.2.42.1.8(a). Explanation 453 znaki, 4 zdania; A/B/C 167/166/144.
+- Pełne literalne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte. Brak zatwierdzeń formalnych.
+
 ## Bieżąca migawka — etap 4x239 (31.10.2026)
 
 - Bank: 664 pytań `needs_review`, 0 `verified`; blob SHA `a81581438b449107fb42dcb10450acc5a69278e4`.
