@@ -43,7 +43,7 @@ Pełne literalne porównanie wskazanego polskiego tekstu ADR 2025 ze sprostowani
 ## 5. Synchronizacja po zmianie banku — pułapka #646
 
 - Bank: 660 rekordów ADR-B-0001–0660, ID ciągłe i unikalne; wszystkie `needs_review`, 0 `verified`.
-- Blob SHA `questions.jsonl`: `d900e67721ee4b9ef962a0a7479ecdcd2c6f01ec`.
+- Blob SHA `questions.jsonl`: `ffdc615fa08713d54fd9b2d0dbfbda3f9c4a0cf0`.
 - Warianty i klucze egzaminów próbnych 001–005 wskazują aktualny blob SHA; nie zmieniono ich puli pytań ani kluczy odpowiedzi.
 - Dodano snapshoty: `review/sequential/660-660.json` i `review/legal-clauses/660-660.json`.
 - Ledger rozszerzono do `review/legal-polish/stage4w4-literal-verification-ledger-0610-0660.json`; dopisano ADR-B-0660 ze statusem porównania literalnego i recenzji specjalisty jako pending.
