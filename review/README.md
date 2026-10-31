@@ -1,4 +1,12 @@
-## Bieżąca migawka — etap 4x232 (31.10.2026)
+## Bieżąca migawka — etap 4x233 (31.10.2026)
+
+- Bank: 658 pytań `needs_review`, 0 `verified`; ADR-B-0001–0658, blob SHA `9b107642362dc3871d4434304dbfaba14ab3d3b6`.
+- Dodano ADR-B-0658 do ADR-B-02-K03: definicja temperatury zapłonu z 1.2.1 i kryteria klasy 3 z 2.2.3.1.1.
+- Explanation: 311 znaków, 3 zdania; A/B/C 142/143/150 znaków.
+- Raport: `podstawowy/raporty/etap-4x233-temperatura-zaplonu-klasa-3-2026-10-31.md`.
+- Wszystkie pytania pozostają `needs_review`; 0 `verified`, 0 formalnych zatwierdzeń. Literalna recenzja polskiego tekstu i niezależna recenzja specjalisty nadal wymagane.
+
+## Poprzednia migawka — etap 4x232 (31.10.2026)
 
 - Bank: 657 pytań `needs_review`, 0 `verified`; ADR-B-0001–0657, blob SHA `17633b89f1282d3dd25ddc51e81bc84b6c88c819`.
 - Dodano ADR-B-0657 do ADR-B-02-K02: rozpoznawanie gazu palnego 2.1 i odróżnianie od 2.2/2.3.
