@@ -1,0 +1,58 @@
+{
+  "batch": "666-666",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0666",
+      "sequence": 666,
+      "exact_record_snapshot": {
+        "stem": "Podczas załadunku obok przesyłki klasy 5.1 zaczyna palić się karton z innym towarem. Pracownik twierdzi, że ładunek 5.1 nie jest paliwem, więc nie zwiększa zagrożenia. Co powinien rozpoznać kierowca?",
+        "options": {
+          "A": "Klasa 5.1 oznacza materiał utleniający: nie musi sam się palić, ale może nasilać spalanie innego ładunku; trzeba zgłosić tę informację i stosować instrukcje awaryjne.",
+          "B": "Jeśli opakowanie 5.1 nie płonie, można je traktować jak obojętne; pożar dotyczy wyłącznie kartonu, więc nie trzeba informować ratowników o klasie przewożonego towaru.",
+          "C": "Każdy materiał 5.1 jest samopalny i zawsze zapala się od kontaktu z powietrzem; kierowca powinien przenieść go ręcznie poza strefę pożaru."
+        },
+        "correct_option": "A",
+        "explanation": "Klasa 5.1 oznacza materiał utleniający: nie musi sam się palić, ale może spowodować lub nasilić spalanie innego ładunku. Dlatego nawet niepłonące opakowanie trzeba uwzględnić w ocenie zagrożenia i przekazać ratownikom informację o klasie. Nieprawdziwe jest założenie, że brak własnego płomienia oznacza obojętność; klasa 5.1 nie oznacza też, że materiał zawsze zapala się sam w powietrzu. Podstawa: ADR 2.2.51.1.1; działania w razie wypadku według instrukcji pisemnych z 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.51.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 2.2.51.1.1; 5.4.3.4",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_2.2.51.1.1_and_5.4.3.4_checked_against_UNECE_2025_text_and_Ministry_2025_Polish_auxiliary_copy; binding_Gazette_text_literal_comparison_and_independent_specialist_review_pending",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "ADR 2.2.51.1.1: class 5.1 substances need not themselves be combustible but may, generally by yielding oxygen, cause or contribute to combustion of other material. ADR 5.4.3.4 specifies the written instructions carried in the cab for accident/emergency response. UNECE ADR 2025 text and Ministry 2025 Polish auxiliary copy checked; binding Polish Gazette literal comparison and independent expert review remain open.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
