@@ -7,6 +7,7 @@
 - Podstawa: ADR 2025, 2.2.9.1.7.1, dział 3.2 tabela A (UN 3480/3481; UN 3090/3091) i 5.2.1.9.2, Dz.U. 2025 poz. 642. Literalne porównanie i niezależna recenzja specjalisty pozostają otwarte.
 - Bank: 673 pytania ADR-B-0001–0673, wszystkie `needs_review`, 0 `verified`; SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
 - Rozkład poprawnych odpowiedzi: A=231, B=229, C=213.
+- Rozkład prawidłowych opcji: A=231, B=229, C=213.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/673 = 10,70%**; maksimum działu to 13,95%.
 - Raport: [Etap 4x248 — bateria litowo-jonowa z urządzeniem](../podstawowy/raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md).
 
