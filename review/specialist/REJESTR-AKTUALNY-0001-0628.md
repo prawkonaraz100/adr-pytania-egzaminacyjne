@@ -4,6 +4,12 @@
 - Raport: `podstawowy/raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md`.
 - ADR-B-0660 dodano do ADR-B-07-K07; scenariusz odpowiedzialności przewoźnika za nienależyte wykonanie umowy i działania kierowcy.
 
+## Bieżąca migawka — etap 4x235 (31.10.2026)
+
+- Bank: 660 pytań `needs_review`, 0 `verified`; blob SHA `d900e67721ee4b9ef962a0a7479ecdcd2c6f01ec`.
+- Raport: `podstawowy/raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md`.
+- ADR-B-0660 dodano do ADR-B-07-K07; scenariusz odpowiedzialności przewoźnika za nienależyte wykonanie umowy i działania kierowcy.
+
 ## Bieżąca migawka — etap 4x234 (31.10.2026)
 
 - Bank: 659 pytań `needs_review`, 0 `verified`; blob SHA `edef07df45541eeea77726bb1d6f93d00d853627`.
