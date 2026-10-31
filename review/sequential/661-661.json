@@ -1,0 +1,48 @@
+{
+  "batch": "661-661",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0661",
+      "sequence": 661,
+      "exact_record_snapshot": {
+        "stem": "Materiał polimeryzujący klasy 4.1 ma być przewożony w DPPL. Jego TSP w tym DPPL wynosi 48°C. Jakie wymaganie dotyczące temperatury wynika z ADR?",
+        "options": {
+          "A": "Nie, 45°C jest progiem dla cystern, więc DPPL przy 48°C nie wymaga kontroli.",
+          "B": "Tak, dla DPPL kontrola jest wymagana, gdy TSP w tym opakowaniu wynosi 50°C lub mniej.",
+          "C": "Kontrolę wyznacza próg 75°C, więc dopiero po przekroczeniu tej temperatury należy ją stosować."
+        },
+        "correct_option": "B",
+        "explanation": "Tak, ponieważ dla materiału polimeryzującego przewożonego w DPPL kontrola temperatury jest wymagana, gdy TSP w tym DPPL wynosi 50°C lub mniej. Wartość 45°C dotyczy przewozu w cysternie, a nie w DPPL. Nie należy też mylić progu 75°C, używanego przy kryteriach klasyfikacji, z progiem kontroli temperatury. Podstawa: ADR 2.2.41.1.20–2.2.41.1.21(a) i 7.1.7.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_2.2.41.1.20_2.2.41.1.21_a_and_7.1.7_polish_helper_text_crosschecked_with_DzU_2025_642; erratum_1575_checked_no_specific_correction_to_2.2.41.1.21; exact_binding_polish_pdf_comparison_and_independent_specialist_review_pending",
+      "supplementary_source_url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Pytanie rozróżnia próg kontroli temperatury dla DPPL (TSP 50°C lub mniej) od progu dla cystern (45°C) i od progu 75°C używanego w kryteriach klasyfikacji materiałów polimeryzujących. Sprostowanie Dz.U. 2025 poz. 1575 nie wymienia przepisu 2.2.41.1.21; pełne literalne porównanie tekstu wiążącego i niezależna recenzja pozostają otwarte.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
