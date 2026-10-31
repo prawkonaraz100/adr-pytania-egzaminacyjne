@@ -1,20 +1,27 @@
+## Bieżąca migawka — etap 4x225 (31.10.2026)
+
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `803cae392630b0fe441c6dd1819269045526e52e`.
+- Raport: `podstawowy/raporty/etap-4x225-przeglad-explanation-7-2026-10-31.md`.
+- Zmieniono wyłącznie explanation dla ADR-B-0061, 0278, 0306, 0332, 0390, 0405 i 0547. Warianty/klucze 001–005 oraz snapshoty sequential/legal zsynchronizowane; pytania, odpowiedzi i statusy bez zmian.
+- Drugi przegląd explanation objął cały bank (651/651); wszystkie rekordy nadal `needs_review`, bez oznaczeń `verified`.
+
 ## Bieżąca migawka — etap 4x224 (31.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `550ec77fd09084acf816a7afdc32000131fc0d89`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `803cae392630b0fe441c6dd1819269045526e52e`.
 - Raport: `podstawowy/raporty/etap-4x224-przeglad-explanation-10-2026-10-31.md`.
 - Zmieniono wyłącznie explanation dla ADR-B-0198, 0145, 0388, 0324, 0209, 0317, 0386, 0525, 0137 i 0266. Warianty/klucze 001–005 oraz snapshoty sequential/legal zsynchronizowane; pytania, odpowiedzi i statusy bez zmian.
 - Wszystkie rekordy pozostają `needs_review`; brak formalnego zatwierdzenia prawnego.
 
 ## Bieżąca migawka — etap 4x223 (31.10.2026)
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `550ec77fd09084acf816a7afdc32000131fc0d89`.
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `803cae392630b0fe441c6dd1819269045526e52e`.
 - Raport: `podstawowy/raporty/etap-4x223-przeglad-explanation-10-2026-10-31.md`.
 - Zmieniono wyłącznie explanation dla ADR-B-0536, 0006, 0179, 0373, 0450, 0571, 0366, 0605, 0608 i 0089. Synchronizacja wariantów/kluczy 001–005 oraz snapshotów sequential/legal; pytania, A/B/C, klucze i statusy bez zmian.
 - Lista wcześniejszych przeglądów 4x156–4x222 została odtworzona; 624 unikalne ID, z uwzględnieniem zakresu 0611–0638 i 0646–0647. Wszystkie 10 pozycji 4x221 było powtórzeniami wcześniejszych partii.
 
 ## Bieżący snapshot — 4x218 (30.10.2026)
 
-- Bank 651 pytań `needs_review`, 0 `verified`; aktualny Git blob SHA `550ec77fd09084acf816a7afdc32000131fc0d89`.
+- Bank 651 pytań `needs_review`, 0 `verified`; aktualny Git blob SHA `803cae392630b0fe441c6dd1819269045526e52e`.
 - Raport: `podstawowy/raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md`. Zmiany tylko explanation, bez recenzji prawnej specjalisty.
 
 ## Bieżąca migawka — etap 4x217 (30.10.2026)
