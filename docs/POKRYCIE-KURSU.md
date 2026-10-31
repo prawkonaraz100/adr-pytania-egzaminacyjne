@@ -1,10 +1,12 @@
-**Stan aktualny po etapie 4x253: 31.10.2026.**
+**Stan aktualny po etapie 4x254: 31.10.2026.**
 
-- Bank: 679 pytań ADR-B-0001–0679; wszystkie `needs_review`, 0 `verified`; SHA `5df8cb5200a2c357cdcc04959893969d8ca448a0`.
-- ADR-B-01-K07: 5 pytań, w tym ADR-B-0679 o rozdzieleniu klasyfikacji nadawcy i kontroli przewoźnika.
-- Rozkład prawidłowych opcji: A=232, B=231, C=216.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/679 = 10,60%**; maksimum działu to 13,95%.
-- Raport: [Etap 4x253 — klasyfikacja i dane ADR](../podstawowy/raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md).
+- Bank: 680 pytań ADR-B-0001–0680; wszystkie `needs_review`, 0 `verified`; SHA `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`.
+- ADR-B-03-K02: 5 pytań, w tym ADR-B-0680 o prefiksie „ODPAD” i rozróżnieniu dokumentu ADR od karty przekazania odpadu.
+- Rozkład prawidłowych opcji: A=233, B=231, C=216.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/680 = 10,59%**; maksimum działu to 13,95%.
+- Raport: [Etap 4x254 — dokument przewozowy odpadu](../podstawowy/raporty/etap-4x254-odpad-dokument-przewozowy-2026-10-31.md).
+
+## Poprzedni stan — etap 4x253: 31.10.2026.
 
 ## Poprzedni stan — etap 4x252: 31.10.2026.
 
