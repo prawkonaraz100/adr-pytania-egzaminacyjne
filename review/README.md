@@ -1,7 +1,8 @@
 ## Bieżąca migawka — etap 4x252 (31.10.2026)
 
-- Dodano SC-ADR-B-04-04 dla kompetencji ADR-B-04-K02; 3 powiązane pytania: 0011, 0048, 0357.
-- Scenariusze kursu: 42; moduły B-03, B-04 i B-05 mają po 4. Bank bez zmian: 677 `needs_review`, 0 `verified`; SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
+- ADR-B-0678: zakaz obejmuje kierowcę i pomocnika kierowcy; kierowca nie może zlecić otwarcia pomocnikowi. Poprawiono zakres prawny w ADR-B-0011, 0048 i 0243.
+- SC-ADR-B-04-04 doprecyzowano do roli pomocnika kierowcy; aktualizacja mapy, lekcji i materiału instruktora.
+- Scenariusze kursu: 42; moduły B-03, B-04 i B-05 mają po 4. Bank: 678 `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
 - Raport: `podstawowy/raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md`.
 
 ## Poprzednia migawka — etap 4x251 (31.10.2026)
