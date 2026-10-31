@@ -2,10 +2,10 @@
   "stage": "4x44_secondary_priority_legal_review_queue",
   "date": "2026-10-27",
   "scope": "ADR-BASIC-ONLY",
-  "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+  "source_bank_blob_sha": "fa0d2c28445e6b8a9ca0cca533944766a41f8c43",
   "queue_basis": "Następna partia 20 ID z 121 rekordów bez zapisanego dosłownego fragmentu MI; wyłączono 20 ID z kolejki 4x40. Ranking heurystyczny premiuje liczby, wyjątki, klasy/oznakowanie o istotnym ryzyku, dokumenty i wymagania pojazdu.",
   "queue_count": 20,
-  "full_missing_quote_count": 137,
+  "full_missing_quote_count": 138,
   "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
   "policy": "Priorytet nie oznacza błędu. Nie zmieniać odpowiedzi ani statusu bez porównania z urzędowym tekstem i rzeczywistej recenzji specjalisty.",
   "records": [
@@ -371,13 +371,13 @@
     }
   ],
   "original_source_bank_blob_sha": "67da7457c1494d9e770324f42a6a30ef4e117567",
-  "unresolved_literal_comparisons": 432,
-  "manifest_unresolved_literal_comparisons": 432,
+  "unresolved_literal_comparisons": 433,
+  "manifest_unresolved_literal_comparisons": 433,
   "current_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
-  "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
-  "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d",
-  "question_count": 668,
-  "last_id": "ADR-B-0663",
+  "bank_blob_sha": "fa0d2c28445e6b8a9ca0cca533944766a41f8c43",
+  "exam_source_bank_head": "fa0d2c28445e6b8a9ca0cca533944766a41f8c43",
+  "question_count": 669,
+  "last_id": "ADR-B-0669",
   "stage4x242": {
     "question_id": "ADR-B-0667",
     "competency": "ADR-B-02-K08",
@@ -389,5 +389,11 @@
     "competency": "ADR-B-02-K10",
     "review_status": "needs_review",
     "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "stage4x244": {
+    "question_id": "ADR-B-0669",
+    "competency": "ADR-B-02-K11",
+    "review_status": "needs_review",
+    "exam_source_bank_head": "fa0d2c28445e6b8a9ca0cca533944766a41f8c43"
   }
 }
