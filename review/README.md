@@ -1,4 +1,12 @@
-## Bieżąca migawka — etap 4x236 (31.10.2026)
+## Bieżąca migawka — etap 4x237 (31.10.2026)
+
+- Bank: 662 pytań ADR-B-0001–0662; 662 `needs_review`, 0 `verified`; blob SHA `67da7457c1494d9e770324f42a6a30ef4e117567`.
+- Dodano ADR-B-0662 do ADR-B-08-K08: kontrola zgodności VIN w świadectwie dopuszczenia z konkretnym pojazdem (ADR 9.1.3.1, 9.1.3.3, 9.1.3.5).
+- Explanation: 438 znaków, 4 zdania; A/B/C 144/130/129 znaków. Poprawna B nie jest ani najdłuższa, ani najkrótsza.
+- Raport: `podstawowy/raporty/etap-4x237-swiadectwo-pojazdu-zgodnosc-vin-2026-10-31.md`.
+- Warianty/klucze 001–005, snapshoty sequential/legal, ledger i zagnieżdżone kolejki wskazują bieżący bank. Pełna literalna recenzja tekstu wiążącego i niezależna recenzja specjalisty pozostają otwarte.
+
+## Poprzednia migawka — etap 4x236 (31.10.2026)
 
 - Bank: 661 pytań `needs_review`, 0 `verified`; ADR-B-0001–0661, blob SHA `d7ad9711a2e5f5ced552ff6a4140455104536280`.
 - Dodano ADR-B-0661 do ADR-B-02-K04; próg kontroli temperatury dla materiału polimeryzującego przewożonego w DPPL.
