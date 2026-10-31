@@ -115,12 +115,13 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
 
     def test_scenarios_cover_each_module_three_times(self):
         scenarios = self.scenario_data["scenarios"]
-        self.assertEqual(len(scenarios), 40)
+        self.assertEqual(len(scenarios), 41
         counts = {}
         for scenario in scenarios:
             counts[scenario["module_id"]] = counts.get(scenario["module_id"], 0) + 1
         expected = {f"ADR-B-{n:02d}": 3 for n in range(1, 14)}
         expected["ADR-B-03"] = 4
+        expected["ADR-B-05"] = 4
         self.assertEqual(counts, expected)
 
     def test_learner_and_instructor_artifacts_exist(self):
