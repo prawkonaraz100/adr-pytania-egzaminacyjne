@@ -1,3 +1,14 @@
+## Bieżąca migawka — etap 4x248 (31.10.2026)
+
+- Bank: 673 pytań ADR-B-0001–0673; 673 `needs_review`, 0 `verified`; blob SHA `57dba9d1d46343edb0c9c0d09a5ca739043d1df6`.
+- Dodano ADR-B-0673 do ADR-B-02-K13: bateria litowo-jonowa zapakowana razem z urządzeniem — UN 3481.
+- Explanation 423 znaki, 4 zdania; A/B/C 136/134/145; rozkład A/B/C 231/229/213; wskaźnik 72/673 = 10,70%.
+- Egzaminy 001–005 i snapshoty sequential/legal wskazują bieżący bank.
+- Raport: `podstawowy/raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md`.
+- Literalne porównanie Dz.U. i recenzja specjalisty pozostają otwarte.
+
+| ADR-B-0673 | ADR-B-02 | ADR-B-02-K13 | Bateria litowo-jonowa zapakowana razem z urządzeniem — rozróżnienie UN 3480/3481 | B | ADR 2025, 2.2.9.1.7.1; tabela A; 5.2.1.9.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
 ## Bieżąca migawka — etap 4x247 (31.10.2026)
 
 - Bank: 672 pytań ADR-B-0001–0672; 672 `needs_review`, 0 `verified`; blob SHA `dc499257cfae6fa8c5f5882248f676c15929c3a5`.
