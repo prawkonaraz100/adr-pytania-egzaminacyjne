@@ -826,4 +826,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0671 | ADR-B-02 | ADR-B-02-K02 | Ochrona zaworu butli gazowej przewożonej w ramie bez kapturka | B | ADR 2025, 4.1.6.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0672 | ADR-B-13 | ADR-B-13-K05 | Środek identyfikacji ze zdjęciem dla każdego członka załogi | B | ADR 2025, 1.10.1.4; 8.1.2.1(d) | — | NIEROZSTRZYGNIĘTE | needs_review |
-
+| ADR-B-0677 | ADR-B-03 | ADR-B-03-K03 | Oczyszczanie pojazdu po przewozie towarów niebezpiecznych luzem przed ponownym załadunkiem | C | ADR 2025, 7.5.8.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
