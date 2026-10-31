@@ -19,8 +19,8 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 - **104/104 kompetencji teoretycznych** ma co najmniej dwa pytania robocze. **0/104** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
-- Rozkład prawidłowych opcji: A=220, B=220, C=211.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/651 = 11,06%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
+- Rozkład prawidłowych opcji: A=221, B=220, C=211.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/652 = 11,04%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
 - [Audyt 4w](../podstawowy/raporty/etap-4w-program-13-dzialow-mapa-luk.md) dokumentuje wszystkie 107 kompetencji i ID; [kontrola 13 lekcji](../podstawowy/raporty/etap-4w-przeglad-13-lekcji-odsylacze.md) usunęła błędny skrót zakresu w B-09. Dane liczbowe dotyczą bieżącego banku, natomiast niższe sekcje dokumentu zachowują historię poprzednich etapów.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
 
@@ -31,7 +31,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 47 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 63 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 64 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 61 | 0 | Lekcja + mapa pytań |
@@ -43,7 +43,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **651** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **652** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
