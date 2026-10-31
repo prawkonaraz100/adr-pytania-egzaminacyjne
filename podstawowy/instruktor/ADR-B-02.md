@@ -164,3 +164,11 @@ Pokaż kursantowi czerwoną nalepkę z płomieniem i numerem 2.1. Poproś o wyja
 ### Zadanie: temperatura zapłonu a wrzenie i samozapłon
 
 Przedstaw kursantowi kartę charakterystyki cieczy z temperaturą zapłonu 45°C. Poproś o wyjaśnienie, co oznacza ta wartość i dlaczego nie wolno utożsamiać jej z temperaturą wrzenia ani samozapłonu. Kryterium: kursant wskazuje możliwość utworzenia palnej mieszaniny par z powietrzem i rozumie, że do zapłonu potrzebne jest źródło zapłonu. Powiązane pytanie: ADR-B-0658 (needs_review). Podstawa: ADR 1.2.1; 2.2.3.1.1.
+
+## Zadanie instruktorskie: kontrola temperatury materiału polimeryzującego
+
+**Symulacja na fikcyjnej karcie towaru:** materiał polimeryzujący klasy 4.1 jest przewożony w DPPL, a jego TSP w tym DPPL wynosi 48°C. Kursant ma wskazać, czy wymagane jest kontrolowanie temperatury i wyjaśnić, dlaczego progu 45°C dla cystern nie wolno stosować do DPPL. Następnie powinien odróżnić próg 50°C dla opakowania/DPPL od 75°C używanego w kryteriach klasyfikacji.
+
+**Odniesienie:** ADR 2.2.41.1.20–2.2.41.1.21(a) i 7.1.7. Nie wykonuj ćwiczenia na rzeczywistym materiale; korzystaj wyłącznie z fikcyjnej dokumentacji.
+
+**Pytanie kontrolne:** `ADR-B-0661` — odpowiedź ma wskazywać próg 50°C dla DPPL, nie próg 45°C dla cystern.
