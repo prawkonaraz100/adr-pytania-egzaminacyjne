@@ -418,3 +418,8 @@ Zawór butli gazowej musi być odporny na uszkodzenie albo chroniony tak, aby ud
 ## Klasa 9 — bateria litowo-jonowa zapakowana z urządzeniem
 
 Jeżeli bateria litowo-jonowa jest przewożona samodzielnie, właściwą pozycją jest UN 3480. Jeżeli znajduje się w urządzeniu albo jest zapakowana razem z urządzeniem, które zasila, stosuje się UN 3481. Dlatego zapasowa bateria w tym samym opakowaniu co elektronarzędzie nie staje się UN 3480 tylko dlatego, że nie została zamontowana. Nie myl jej także z UN 3091, które dotyczy baterii z litem metalicznym zawartych w urządzeniu lub zapakowanych z nim. Przed przewozem porównaj rodzaj baterii, sposób zapakowania, numer UN i oznakowanie; nie wyciągaj wniosków wyłącznie z tego, czy bateria jest fizycznie włożona do urządzenia. Powiązane pytanie: ADR-B-0673 (needs_review). Podstawa: ADR 2.2.9.1.7.1, dział 3.2 tabela A (UN 3480/3481 i UN 3090/3091), 5.2.1.9.2.
+
+
+### Klasa 4.3 — znaczenie grup pakowania I, II i III
+
+Grupa pakowania opisuje stopień zagrożenia materiału, a nie typ użytego opakowania. Dla klasy 4.3 grupa I oznacza duże zagrożenie: materiał reaguje z wodą energicznie, a wydzielany gaz ma zwykle tendencję do samozapłonu, albo gaz palny wydziela się z szybkością co najmniej 10 l/kg w minutę. Grupa II i III mają odrębne, mniej ostre kryteria szybkości wydzielania gazu. Kierowca odczytuje grupę z dokumentu przewozowego; nie wykonuje samodzielnie prób z wodą ani nie ustala grupy na podstawie wyglądu przesyłki. Powiązane pytanie: ADR-B-0674 (needs_review). Podstawa: ADR 1.2.1 i 2.2.43.1.8.
