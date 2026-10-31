@@ -287,6 +287,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x249 — klasa 4.3: grupy pakowania i stopień zagrożenia](raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md)
 - [Etap 4x248 — bateria litowo-jonowa zapakowana z urządzeniem (UN 3481)](raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md)
 - [Etap 4x247 — identyfikacja ze zdjęciem dla załogi](raporty/etap-4x247-identyfikacja-zdjecie-zaloga-2026-10-31.md)
 - [Etap 4x246 — klasa 2: ochrona zaworu butli](raporty/etap-4x246-klasa-2-ochrona-zaworu-butli-2026-10-31.md)
