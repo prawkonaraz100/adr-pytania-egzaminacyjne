@@ -1,4 +1,13 @@
-## Bieżąca migawka — etap 4x239 (31.10.2026)
+## Bieżąca migawka — etap 4x240 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x240**
+
+- Bank: 665 pytań; 665 `needs_review`, 0 `verified`; blob SHA `c7c55c480fa872b1ec9ea008fb1e6d049f7fae96`.
+- Dodano ADR-B-0665 do ADR-B-02-K05: rozróżnienie materiałów piroforycznych i samonagrzewających się (ADR 2.2.42.1.1; 2.2.42.1.8(a)). Explanation 453 znaki, 4 zdania; A/B/C 167/166/144 znaków.
+- Rozkład odpowiedzi A/B/C: 228/224/213. „Poprawna = jedyna najdłuższa”: 72/665 = 10,83%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x240-klasa-42-piroforyczne-samonagrzewajace-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x239 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x239**
 
