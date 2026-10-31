@@ -1,5 +1,5 @@
 {
-  "batch": "629-651",
+  "batch": "629-652",
   "date": "2026-10-29",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
@@ -889,6 +889,46 @@
       "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
       "expert_review_priority": "manual_attention",
       "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    },
+    {
+      "id": "ADR-B-0652",
+      "sequence": 652,
+      "exact_record_snapshot": {
+        "stem": "Kierowca sprawdza kartę towaru klasy 8. Wskazano, że wyciek może poważnie uszkodzić inne towary i elementy pojazdu, choć substancja nie powoduje trwałych uszkodzeń skóry. Co wynika z definicji klasy 8 ADR?",
+        "options": {
+          "A": "Tak. Wyciek może poważnie uszkodzić inne towary lub pojazd.",
+          "B": "Nie. Klasa 8 dotyczy wyłącznie trwałego uszkodzenia skóry człowieka, nie szkód w ładunku.",
+          "C": "Nie. Uszkodzenie metalu należy zawsze do klasy 9, a nie do zagrożeń żrących."
+        },
+        "correct_option": "A",
+        "explanation": "Takie zagrożenie może kwalifikować substancję do klasy 8, ponieważ definicja obejmuje nie tylko trwałe uszkodzenie skóry, lecz także poważne uszkodzenie innych towarów lub środka transportu w razie wycieku. Brak działania na skórę nie wyklucza więc klasy 8. Nie należy też automatycznie przypisywać takiego zagrożenia do klasy 9. Kierowca sprawdza klasę i wymagane oznakowanie w dokumentach ADR. Podstawa: ADR 2.2.8.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.8.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Wstępny odczyt ADR 2025, 2.2.8.1.1: definicja klasy 8 obejmuje także szkody w innych towarach lub środku transportu w razie wycieku. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
     }
   ]
 }

@@ -221,14 +221,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na górnym polu pomarańczowej tablicy ADR numer rozpoznawczy zagrożenia zaczyna się literą X. Jaką informację powinien zapamiętać kierowca?",
+        "stem": "Numer rozpoznawczy zagrożenia na tablicy ADR poprzedza litera X. Ratownik pyta, czy może użyć wody. Co wynika z ADR?",
         "options": {
-          "A": "Litera X oznacza, że wodą można gasić każdy pożar bez dodatkowych ustaleń.",
-          "B": "X ostrzega, że towar może reagować niebezpiecznie z wodą; nie improwizuj.",
-          "C": "Litera X informuje wyłącznie o wybuchu i nie dotyczy reakcji z wodą."
+          "A": "Wody nie wolno użyć w żadnych okolicznościach, nawet po ocenie ekspertów.",
+          "B": "Wodę można zastosować wyłącznie po uzyskaniu zgody ekspertów.",
+          "C": "Woda jest dozwolona, jeśli używa jej strażak bez dodatkowej oceny."
         },
         "correct_option": "B",
-        "explanation": "Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał może reagować niebezpiecznie z wodą. Nie jest to ogólne oznaczenie wybuchowości ani zgoda na użycie wody do gaszenia. Kierowca powinien przekazać to oznaczenie ratownikom i nie dobierać samodzielnie środka gaśniczego na podstawie domysłu. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Litera X ostrzega, że substancja reaguje niebezpiecznie z wodą. Nie oznacza to bezwzględnego zakazu w każdej sytuacji, ale woda może być użyta tylko po uzyskaniu zgody ekspertów. Kierowca nie podejmuje takiej decyzji samodzielnie; przekazuje ratownikom informację o oznaczeniu i stosuje instrukcje pisemne. Podstawa: ADR 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -246,7 +246,7 @@
       "source_risk_note": "W 4x227 doprecyzowano różnicę między niebezpieczną reakcją z wodą a bezwzględnym zakazem jej użycia: ADR 5.3.2.3.1 dopuszcza wodę wyłącznie po zgodzie ekspertów. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
-      "review_outcome": "editorial_followup_only_specialist_review_pending"
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
     },
     {
       "id": "ADR-B-0616",

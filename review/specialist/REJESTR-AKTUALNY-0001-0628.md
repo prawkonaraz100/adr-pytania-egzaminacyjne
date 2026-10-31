@@ -1,5 +1,11 @@
 ## Bieżąca migawka — etap 4x227 (31.10.2026)
 
+- Bank: 652 pytań `needs_review`, 0 `verified`; blob SHA `bea4df90f710e7101a5575ad967450eb3a95d27c`.
+- Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
+- ADR-B-0615 rozróżnia teraz reakcję z wodą od bezwzględnego zakazu: woda wyłącznie po zgodzie ekspertów (ADR 5.3.2.3.1); klucz B bez zmian.
+- Dodano ADR-B-0652 do ADR-B-02-K12: klasa 8 obejmuje także poważne uszkodzenie innych towarów lub środka transportu przy wycieku (ADR 2.2.8.1.1). A/B/C audytowane, poprawna A nie jest najdłuższa.
+- Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz SHA pakietu recenzyjnego zsynchronizowane. Wszystkie 652 rekordy pozostają `needs_review`.
+
 - Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `ef5a3f1ca81efe76b5214d711d11db7933241528`.
 - Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
 - ADR-B-0615 doprecyzowano: litera X oznacza niebezpieczną reakcję z wodą; woda może być użyta wyłącznie po uzyskaniu zgody ekspertów (ADR 5.3.2.3.1). Klucz B i status `needs_review` bez zmian.
@@ -860,9 +866,10 @@ Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Por
 | ADR-B-0649 | ADR-B-05 | ADR-B-05-K14 | W trakcie ćwiczenia pierwszej pomocy kursant zauważa, że rękawiczki ochronne są niedostępne, a poszkodowany może być skażony. Co powinien zrobić? | A | ADR 2025, 5.4.3.4; 8.2.2.3.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0650 | ADR-B-05 | ADR-B-05-K15 | Podczas ćwiczenia wypadkowego kierowca znajduje instrukcję pisemną w kabinie. Jak powinien jej użyć? | B | ADR 2025, 5.4.3.4; 8.2.2.3.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0651 | ADR-B-05 | ADR-B-05-K15 | OSK planuje zaliczyć temat wypadku wyłącznie przez rozwiązanie testu wielokrotnego wyboru. Która ocena jest zgodna z ADR? | C | ADR 2025, 8.2.2.3.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0652 | ADR-B-02 | ADR-B-02-K12 | Kierowca sprawdza kartę towaru klasy 8. Wskazano, że wyciek może poważnie uszkodzić inne towary i elementy pojazdu, choć substancja nie powoduje trwałych uszkodzeń skóry. Co wynika z definicji klasy 8 ADR? | A | ADR 2025, 2.2.8.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 
-Bank bieżący: 651 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `1bf9ebb6616839704cc1b00599617caa46768b15`.
+Bank bieżący: 652 pytania, wszystkie `needs_review`, 0 `verified`. Blob SHA: `bea4df90f710e7101a5575ad967450eb3a95d27c`.
 
 
 **Bieżący snapshot po 4x155 (29.10.2026):** `questions.jsonl` blob SHA `1bf9ebb6616839704cc1b00599617caa46768b15`, 651 pytań `needs_review`, 0 `verified`. Dodano ADR-B-0646–0651 jako pytania scenariuszowe wspierające ćwiczenia praktyczne; nie zastępują instruktażu.

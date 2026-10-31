@@ -1081,6 +1081,53 @@
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0652",
+      "order": 652,
+      "clause": "ADR 2025, 2.2.8.1.1",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "question_snapshot": {
+        "id": "ADR-B-0652",
+        "module_id": "ADR-B-02",
+        "stem": "Kierowca sprawdza kartę towaru klasy 8. Wskazano, że wyciek może poważnie uszkodzić inne towary i elementy pojazdu, choć substancja nie powoduje trwałych uszkodzeń skóry. Co wynika z definicji klasy 8 ADR?",
+        "options": {
+          "A": "Tak. Wyciek może poważnie uszkodzić inne towary lub pojazd.",
+          "B": "Nie. Klasa 8 dotyczy wyłącznie trwałego uszkodzenia skóry człowieka, nie szkód w ładunku.",
+          "C": "Nie. Uszkodzenie metalu należy zawsze do klasy 9, a nie do zagrożeń żrących."
+        },
+        "correct_option": "A",
+        "explanation": "Takie zagrożenie może kwalifikować substancję do klasy 8, ponieważ definicja obejmuje nie tylko trwałe uszkodzenie skóry, lecz także poważne uszkodzenie innych towarów lub środka transportu w razie wycieku. Brak działania na skórę nie wyklucza więc klasy 8. Nie należy też automatycznie przypisywać takiego zagrożenia do klasy 9. Kierowca sprawdza klasę i wymagane oznakowanie w dokumentach ADR. Podstawa: ADR 2.2.8.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.8.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Opcja A jest poprawna: ADR 2.2.8.1.1 obejmuje substancje, które w razie wycieku mogą poważnie uszkodzić inne towary lub środek transportu, nawet jeśli nie powodują trwałego uszkodzenia skóry."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Opcja B jest błędna: definicja klasy 8 nie ogranicza się wyłącznie do trwałego uszkodzenia skóry; uwzględnia również poważne szkody w innych towarach lub środku transportu w razie wycieku."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opcja C jest błędna: uszkodzenie innych towarów lub środka transportu może być właściwością żrącą klasy 8; nie oznacza automatycznie klasy 9."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "4x227: pytanie poszerza powtarzalne rozpoznawanie klasy 8 o drugi element definicji ADR 2.2.8.1.1 — możliwość poważnego uszkodzenia innych towarów lub środka transportu przy wycieku. Wstępna ocena redakcyjna; pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
     }
   ]
 }

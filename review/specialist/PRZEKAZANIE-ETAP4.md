@@ -1,5 +1,11 @@
 ## Bieżąca migawka — etap 4x227 (31.10.2026)
 
+- Bank: 652 pytań `needs_review`, 0 `verified`; blob SHA `bea4df90f710e7101a5575ad967450eb3a95d27c`.
+- Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
+- ADR-B-0615 rozróżnia teraz reakcję z wodą od bezwzględnego zakazu: woda wyłącznie po zgodzie ekspertów (ADR 5.3.2.3.1); klucz B bez zmian.
+- Dodano ADR-B-0652 do ADR-B-02-K12: klasa 8 obejmuje także poważne uszkodzenie innych towarów lub środka transportu przy wycieku (ADR 2.2.8.1.1). A/B/C audytowane, poprawna A nie jest najdłuższa.
+- Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz SHA pakietu recenzyjnego zsynchronizowane. Wszystkie 652 rekordy pozostają `needs_review`.
+
 - Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `ef5a3f1ca81efe76b5214d711d11db7933241528`.
 - Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
 - ADR-B-0615 doprecyzowano: litera X oznacza niebezpieczną reakcję z wodą; woda może być użyta wyłącznie po uzyskaniu zgody ekspertów (ADR 5.3.2.3.1). Klucz B i status `needs_review` bez zmian.

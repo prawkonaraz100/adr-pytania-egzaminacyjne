@@ -1,5 +1,11 @@
 ## Bieżąca migawka — etap 4x227 (31.10.2026)
 
+- Bank: 652 pytań `needs_review`, 0 `verified`; blob SHA `bea4df90f710e7101a5575ad967450eb3a95d27c`.
+- Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
+- ADR-B-0615 rozróżnia teraz reakcję z wodą od bezwzględnego zakazu: woda wyłącznie po zgodzie ekspertów (ADR 5.3.2.3.1); klucz B bez zmian.
+- Dodano ADR-B-0652 do ADR-B-02-K12: klasa 8 obejmuje także poważne uszkodzenie innych towarów lub środka transportu przy wycieku (ADR 2.2.8.1.1). A/B/C audytowane, poprawna A nie jest najdłuższa.
+- Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz SHA pakietu recenzyjnego zsynchronizowane. Wszystkie 652 rekordy pozostają `needs_review`.
+
 - Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `ef5a3f1ca81efe76b5214d711d11db7933241528`.
 - Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
 - ADR-B-0615 doprecyzowano: litera X oznacza niebezpieczną reakcję z wodą; woda może być użyta wyłącznie po uzyskaniu zgody ekspertów (ADR 5.3.2.3.1). Klucz B i status `needs_review` bez zmian.
@@ -76,7 +82,7 @@
 - [Etap 4x132 — pakiet recenzyjny i instrukcja egzaminu](raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md): odświeżono listę kontrolną specjalisty i dodano instrukcję do egzaminu próbnego.
 - [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md): przejrzano pytania ADR-B-0586–0609; poprawiono jedną niespójność redakcyjną; 39 scenariuszy i 13 lekcji bez brakujących/błędnych referencji.
 
-**Stan na 30.10.2026, etap 4x215: 651 pytań roboczych; 651 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/651 = 11,06% (maksimum działu poniżej 18%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 31.10.2026, etap 4x227: 652 pytania robocze; 652 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/652 = 11,04% (maksimum działu 13,95%, poniżej 18%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -85,6 +91,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x227 — semantyczne luki pokrycia i redakcja podobieństw](raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md)
+- [Etap 4x226 — audyt pokrycia kompetencji i podobieństwa](raporty/etap-4x226-audyt-pokrycia-kompetencji-i-podobienstwa-2026-10-31.md)
 - [Etap 4x215 — drugi przegląd wyjaśnień](raporty/etap-4x215-przeglad-explanation-10-2026-10-30.md)
 - [Etap 4x214 — drugi przegląd wyjaśnień](raporty/etap-4x214-przeglad-explanation-10-2026-10-30.md)
 - [Etap 4x213 — drugi przegląd wyjaśnień](raporty/etap-4x213-przeglad-explanation-10-2026-10-30.md)
