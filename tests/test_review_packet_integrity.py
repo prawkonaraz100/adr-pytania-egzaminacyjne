@@ -115,7 +115,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
 
     def test_scenarios_cover_each_module_three_times(self):
         scenarios = self.scenario_data["scenarios"]
-        self.assertEqual(len(scenarios), 39)
+        self.assertEqual(len(scenarios), 40)
         counts = {}
         for scenario in scenarios:
             counts[scenario["module_id"]] = counts.get(scenario["module_id"], 0) + 1
