@@ -1,7 +1,7 @@
-## Bieżąca migawka — etap 4x227 (31.10.2026)
+## Bieżąca migawka — etap 4x229 (31.10.2026)
 
-- Bank: 653 pytań `needs_review`, 0 `verified`; blob SHA `51d9a6ea4287ae199a79d318b24a9a656c1cb83c`.
-- Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
+- Bank: 654 pytań `needs_review`, 0 `verified`; blob SHA `6d2b0fd39173fef829b70a5e42049104688c1604`.
+- Raport: `podstawowy/raporty/etap-4x229-szczegolne-znaczenie-kodu-99-2026-10-31.md`.
 - ADR-B-0615 rozróżnia teraz reakcję z wodą od bezwzględnego zakazu: woda wyłącznie po zgodzie ekspertów (ADR 5.3.2.3.1); klucz B bez zmian.
 - Dodano ADR-B-0652 do ADR-B-02-K12: klasa 8 obejmuje także poważne uszkodzenie innych towarów lub środka transportu przy wycieku (ADR 2.2.8.1.1). A/B/C audytowane, poprawna A nie jest najdłuższa.
 - Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz SHA pakietu recenzyjnego zsynchronizowane. Wszystkie 653 rekordy pozostają `needs_review`.
@@ -869,8 +869,9 @@ Wszystkie rekordy mają status `needs_review`; żaden nie jest zatwierdzony. Por
 | ADR-B-0652 | ADR-B-02 | ADR-B-02-K12 | Kierowca sprawdza kartę towaru klasy 8. Wskazano, że wyciek może poważnie uszkodzić inne towary i elementy pojazdu, choć substancja nie powoduje trwałych uszkodzeń skóry. Co wynika z definicji klasy 8 ADR? | A | ADR 2025, 2.2.8.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 
-Bank bieżący: 653 pytania, wszystkie `needs_review`, 0 `verified`. Blob SHA: `51d9a6ea4287ae199a79d318b24a9a656c1cb83c`.
+Bank bieżący: 653 pytania, wszystkie `needs_review`, 0 `verified`. Blob SHA: `6d2b0fd39173fef829b70a5e42049104688c1604`.
 
 
 **Bieżący snapshot po 4x155 (29.10.2026):** `questions.jsonl` blob SHA `1bf9ebb6616839704cc1b00599617caa46768b15`, 651 pytań `needs_review`, 0 `verified`. Dodano ADR-B-0646–0651 jako pytania scenariuszowe wspierające ćwiczenia praktyczne; nie zastępują instruktażu.
 | ADR-B-0653 | ADR-B-06 | ADR-B-06-K08 | Na górnym polu pomarańczowej tablicy ADR widnieje numer 886. Jakie zagrożenia wskazuje ten numer? | A | ADR 2025, 5.3.2.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0654 | ADR-B-06 | ADR-B-06-K06 | W górnym polu numerowanej tablicy ADR widnieje kod 99. Co oznacza on w szczególności? | A | ADR 2025, 5.3.2.3.1–5.3.2.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |

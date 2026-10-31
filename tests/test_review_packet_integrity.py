@@ -29,11 +29,11 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         )
 
     def test_manifest_matches_bank_and_module_counts(self):
-        self.assertEqual(len(self.bank), 653)
-        self.assertEqual(len(self.by_id), 653)
+        self.assertEqual(len(self.bank), 654)
+        self.assertEqual(len(self.by_id), 654)
         self.assertEqual(self.manifest["question_count"], len(self.bank))
-        self.assertEqual(self.manifest["last_id"], "ADR-B-0653")
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 653)
+        self.assertEqual(self.manifest["last_id"], "ADR-B-0654")
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 654)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
         self.assertEqual(self.manifest["formal_approvals"], 0)
         actual = {}
@@ -170,8 +170,8 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         quote_list = REVIEW / "ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md"
         quote_text = quote_list.read_text(encoding="utf-8")
         quote_ids = re.findall(r"^- (ADR-B-\d{4})$", quote_text, flags=re.MULTILINE)
-        self.assertEqual(len(quote_ids), 123)
-        self.assertEqual(len(set(quote_ids)), 123)
+        self.assertEqual(len(quote_ids), 124)
+        self.assertEqual(len(set(quote_ids)), 124)
         self.assertTrue(set(quote_ids).issubset(self.by_id))
         self.assertEqual(open_items["ministerial_copy_exact_quote_not_saved"], len(quote_ids))
         self.assertEqual(open_items["targeted_source_checked_full_literal_comparison_pending"], 10)
@@ -181,7 +181,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertIn("Jak interpretować wynik", exam_guide)
         review_guide = (REVIEW / "INSTRUKCJA-RECENZJI.md").read_text(encoding="utf-8")
         self.assertIn("etapach 4x25–4x29", review_guide)
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 653)
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 654)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
 
     def test_secondary_priority_legal_review_queue_stays_synchronized(self):

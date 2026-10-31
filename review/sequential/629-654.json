@@ -1,5 +1,5 @@
 {
-  "batch": "629-653",
+  "batch": "629-654",
   "date": "2026-10-29",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
@@ -966,6 +966,46 @@
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
       "source_risk_note": "Wstępny odczyt ADR 2025, 5.3.2.3.2: numer 886 oznacza substancję silnie żrącą i toksyczną. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0654",
+      "sequence": 654,
+      "exact_record_snapshot": {
+        "stem": "W górnym polu numerowanej tablicy ADR widnieje kod 99. Co oznacza on w szczególności?",
+        "options": {
+          "A": "Różne towary niebezpieczne przewożone w stanie podgrzanym.",
+          "B": "Substancja silnie żrąca, która jest jednocześnie toksyczna.",
+          "C": "Ogólne ryzyko gwałtownej reakcji samorzutnej, bez szczególnego znaczenia kodu."
+        },
+        "correct_option": "A",
+        "explanation": "Kod 99 ma szczególne znaczenie w ADR: oznacza różne towary niebezpieczne przewożone w stanie podgrzanym. Nie należy odczytywać go wyłącznie według ogólnej zasady, że powtórzenie cyfry wzmacnia zagrożenie; dla 99 ADR podaje osobne znaczenie. Nie oznacza też kodu 886 ani ogólnego ryzyka gwałtownej reakcji samorzutnej. Podstawa: ADR 5.3.2.3.1–5.3.2.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Wstępny odczyt ADR 2025, 5.3.2.3.2: kod 99 ma szczególne znaczenie — różne towary niebezpieczne przewożone w stanie podgrzanym. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"

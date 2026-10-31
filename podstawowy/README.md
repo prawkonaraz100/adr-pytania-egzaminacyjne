@@ -1,11 +1,10 @@
-## Bieżąca migawka — etap 4x228 (31.10.2026)
+## Bieżąca migawka — etap 4x229 (31.10.2026)
 
-- Bank: 653 pytań `needs_review`, 0 `verified`; blob SHA `51d9a6ea4287ae199a79d318b24a9a656c1cb83c`.
-- Raport: `podstawowy/raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md`.
-- ADR-B-0615 rozróżnia teraz reakcję z wodą od bezwzględnego zakazu: woda wyłącznie po zgodzie ekspertów (ADR 5.3.2.3.1); klucz B bez zmian.
-- ADR-B-0652 uzupełnia definicję klasy 8 o poważne uszkodzenie innych towarów lub środka transportu przy wycieku (ADR 2.2.8.1.1).
-- Dodano ADR-B-0653 do ADR-B-06-K08: kod 886 oznacza substancję silnie żrącą i toksyczną (ADR 5.3.2.3.2). A/B/C audytowane; poprawna A nie jest najdłuższa.
-- Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz SHA pakietu recenzyjnego zsynchronizowane. Wszystkie 653 rekordy pozostają `needs_review`.
+- Bank: 654 pytań `needs_review`, 0 `verified`; blob SHA `6d2b0fd39173fef829b70a5e42049104688c1604`.
+- Raport: `podstawowy/raporty/etap-4x229-szczegolne-znaczenie-kodu-99-2026-10-31.md`.
+- Dodano ADR-B-0654 do ADR-B-06-K06: kod 99 oznacza różne towary niebezpieczne przewożone w stanie podgrzanym (ADR 2025, 5.3.2.3.1–5.3.2.3.2). Audyt A/B/C: A poprawna (58 znaków), B/C błędne (59/78); poprawna nie jest najdłuższa. Explanation: 4 zdania, 352 znaki.
+- Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz SHA pakietu recenzyjnego wskazują aktualny bank.
+- ID banku są ciągłe ADR-B-0001–0654, bez duplikatów; 654 rekordy `needs_review`, 0 `verified`.
 
 ## Etap 4x228 — pogłębienie kompetencji K08
 
@@ -84,7 +83,7 @@
 - [Etap 4x132 — pakiet recenzyjny i instrukcja egzaminu](raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md): odświeżono listę kontrolną specjalisty i dodano instrukcję do egzaminu próbnego.
 - [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md): przejrzano pytania ADR-B-0586–0609; poprawiono jedną niespójność redakcyjną; 39 scenariuszy i 13 lekcji bez brakujących/błędnych referencji.
 
-**Stan na 31.10.2026, etap 4x228: 653 pytania robocze; 653 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/653 = 11,03% (maksimum działu 13,95%, poniżej 18%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 31.10.2026, etap 4x229: 654 pytania robocze; 654 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/654 = 11,01% (maksimum działu 13,95%, poniżej 18%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
@@ -93,7 +92,8 @@
 
 ## Raporty jakości
 
-- [Etap 4x228 — kombinacja zagrożeń 886](raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md)
+- [Etap 4x229 — szczególne znaczenie kodu 99](raporty/etap-4x229-szczegolne-znaczenie-kodu-99-2026-10-31.md)
+- [Etap 4x228 — kombinacja zagrożeń 886](raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md)
 - [Etap 4x226 — audyt pokrycia kompetencji i podobieństwa](raporty/etap-4x226-audyt-pokrycia-kompetencji-i-podobienstwa-2026-10-31.md)
 - [Etap 4x215 — drugi przegląd wyjaśnień](raporty/etap-4x215-przeglad-explanation-10-2026-10-30.md)
 - [Etap 4x214 — drugi przegląd wyjaśnień](raporty/etap-4x214-przeglad-explanation-10-2026-10-30.md)

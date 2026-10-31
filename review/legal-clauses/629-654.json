@@ -1175,6 +1175,53 @@
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0654",
+      "order": 654,
+      "clause": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "question_snapshot": {
+        "id": "ADR-B-0654",
+        "module_id": "ADR-B-06",
+        "stem": "W górnym polu numerowanej tablicy ADR widnieje kod 99. Co oznacza on w szczególności?",
+        "options": {
+          "A": "Różne towary niebezpieczne przewożone w stanie podgrzanym.",
+          "B": "Substancja silnie żrąca, która jest jednocześnie toksyczna.",
+          "C": "Ogólne ryzyko gwałtownej reakcji samorzutnej, bez szczególnego znaczenia kodu."
+        },
+        "correct_option": "A",
+        "explanation": "Kod 99 ma szczególne znaczenie w ADR: oznacza różne towary niebezpieczne przewożone w stanie podgrzanym. Nie należy odczytywać go wyłącznie według ogólnej zasady, że powtórzenie cyfry wzmacnia zagrożenie; dla 99 ADR podaje osobne znaczenie. Nie oznacza też kodu 886 ani ogólnego ryzyka gwałtownej reakcji samorzutnej. Podstawa: ADR 5.3.2.3.1–5.3.2.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Opcja A jest poprawna: ADR 5.3.2.3.2 nadaje numerowi 99 szczególne znaczenie — różne towary niebezpieczne przewożone w stanie podgrzanym."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Opcja B jest błędna: znaczenie substancji silnie żrącej i toksycznej ma numer 886, a nie 99."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opcja C jest błędna: ogólne znaczenie cyfry 9 dotyczy ryzyka gwałtownej reakcji samorzutnej, ale kod 99 należy do kombinacji o szczególnym znaczeniu wymienionych w ADR 5.3.2.3.2."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "4x229: pytanie sprawdza wyjątek od ogólnej reguły powtórzenia cyfry — numer 99 ma szczególne znaczenie w ADR 5.3.2.3.2 i nie powinien być odczytywany wyłącznie jako podwojenie cyfry 9. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
     }
   ]
 }

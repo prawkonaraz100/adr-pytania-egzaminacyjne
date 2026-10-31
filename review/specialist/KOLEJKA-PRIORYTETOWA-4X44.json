@@ -2,10 +2,10 @@
   "stage": "4x44_secondary_priority_legal_review_queue",
   "date": "2026-10-27",
   "scope": "ADR-BASIC-ONLY",
-  "source_bank_blob_sha": "51d9a6ea4287ae199a79d318b24a9a656c1cb83c",
+  "source_bank_blob_sha": "6d2b0fd39173fef829b70a5e42049104688c1604",
   "queue_basis": "Następna partia 20 ID z 121 rekordów bez zapisanego dosłownego fragmentu MI; wyłączono 20 ID z kolejki 4x40. Ranking heurystyczny premiuje liczby, wyjątki, klasy/oznakowanie o istotnym ryzyku, dokumenty i wymagania pojazdu.",
   "queue_count": 20,
-  "full_missing_quote_count": 123,
+  "full_missing_quote_count": 124,
   "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
   "policy": "Priorytet nie oznacza błędu. Nie zmieniać odpowiedzi ani statusu bez porównania z urzędowym tekstem i rzeczywistej recenzji specjalisty.",
   "records": [
@@ -370,6 +370,7 @@
       "why_not_auto_resolved": "To wyłącznie kolejność pracy oparta na cechach pytania. Nie stanowi ustalenia błędu ani potwierdzenia poprawności prawnej."
     }
   ],
-  "original_source_bank_blob_sha": "51d9a6ea4287ae199a79d318b24a9a656c1cb83c",
-  "unresolved_literal_comparisons": 420
+  "original_source_bank_blob_sha": "6d2b0fd39173fef829b70a5e42049104688c1604",
+  "unresolved_literal_comparisons": 421,
+  "manifest_unresolved_literal_comparisons": 421
 }
