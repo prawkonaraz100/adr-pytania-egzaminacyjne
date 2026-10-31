@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x227 (31.10.2026)
 
-- Bank: 652 pytań `needs_review`, 0 `verified`; blob SHA `d024eaef2d8cc404101769dc64a407675977f64b`.
+- Bank: 652 pytań `needs_review`, 0 `verified`; blob SHA `bea4df90f710e7101a5575ad967450eb3a95d27c`.
 - Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
 - ADR-B-0615 rozróżnia teraz reakcję z wodą od bezwzględnego zakazu: woda wyłącznie po zgodzie ekspertów (ADR 5.3.2.3.1); klucz B bez zmian.
 - Dodano ADR-B-0652 do ADR-B-02-K12: klasa 8 obejmuje także poważne uszkodzenie innych towarów lub środka transportu przy wycieku (ADR 2.2.8.1.1). A/B/C audytowane, poprawna A nie jest najdłuższa.
