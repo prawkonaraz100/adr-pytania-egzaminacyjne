@@ -32,14 +32,13 @@ Kontrola treści wewnątrz kompetencji potwierdziła następujące powtarzalne w
 | ADR-B-02-K12 — klasa 8 | 0005, 0161, 0267, 0625 (4) | Ogólne rozpoznanie klasy 8 | Dodano ADR-B-0652 o szkodach w innych towarach/pojeździe przy wycieku. |
 | ADR-B-06-K06 — powtórzenie cyfry | 0051, 0192, 0217, 0635 (4) | Powtórzona cyfra wzmacnia to samo zagrożenie | Zestaw zawiera regułę ogólną oraz przykłady 33 i 88; obserwować, by kolejne pytania badały zastosowanie, nie tylko powtarzały definicję. |
 | ADR-B-06-K08 — cyfra 8 | 0053, 0194, 0298, 0637 (4) | Działanie żrące i przykłady 80/88 | Częściowe nakładanie z K06; zachować rozróżnienie znaczenia cyfry i intensyfikacji przez jej powtórzenie. |
-| ADR-B-02-K12 — klasa 8 | 0005, 0161, 0267, 0625 (4) | Parafrazy ogólnej definicji | Uzupełniono nowym aspektem, nie usuwano istniejących pytań. |
 | ADR-B-11-K04 — najbardziej restrykcyjny kod tunelowy | 0064, 0086, 0263, 0432, 0574 (5) | Wybór ograniczenia dla wielu towarów | Różne scenariusze/kody; w kolejnych partiach unikać kolejnych parafraz tej samej reguły. |
 | ADR-B-05-K05 — pożar przedziału ładunkowego | 0107, 0166, 0222, 0614 (4) | Nie gasić pożaru obejmującego ładunek ADR | Powtarzalny rdzeń bezpieczeństwa; scenariusze różnią się opisem, ale nie zasadą. |
 | ADR-B-05-K06 — mały pożar poza ładunkiem | 0108, 0184, 0223, 0493 (4) | Gaśnica tylko, gdy działanie jest właściwe i bezpieczne | Różne części pojazdu; nie dodawać kolejnych parafraz bez nowego aspektu. |
 | ADR-B-04-K03 — silnik przy załadunku/rozładunku | 0012, 0047, 0244, 0358, 0359, 0515 (6) | Wyłączenie silnika, gdy nie napędza urządzenia | Zestaw zawiera wyjątek napędu pompy i zwykłe przypadki; pilnować rozróżnienia wyjątku. |
 | ADR-B-13-K07 — dostępność instrukcji | 0090, 0216, 0228, 0590, 0620 (5) | Instrukcje w kabinie i łatwa dostępność | Różne przeszkody w dostępie (schowek, język, ukrycie); unikać powtarzania tych samych okoliczności. |
 
-Uwaga: ADR-B-02-K12 pojawia się w tabeli jako potwierdzona luka i rozwiązanie; nie jest to druga odrębna pozycja. Wskaźniki semantyczne są oceną redakcyjną, nie automatycznym rozstrzygnięciem prawnym. Nie usuwano żadnego pytania.
+Wskaźniki semantyczne są oceną redakcyjną, nie automatycznym rozstrzygnięciem prawnym. Nie usuwano żadnego pytania.
 
 ## 4. Korekta ADR-B-0615 — warunek zgody ekspertów
 
