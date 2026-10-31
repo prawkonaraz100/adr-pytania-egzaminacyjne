@@ -1,0 +1,57 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0660",
+      "order": 660,
+      "clause": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 471 i 474",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0660",
+        "module_id": "ADR-B-07",
+        "stem": "Przewoźnik zawarł krajową umowę przewozu. Jego kierowca, wykonując zlecenie, nie zabezpieczył prawidłowo ładunku i towar uległ uszkodzeniu. Kontrahent żąda odszkodowania od przewoźnika. Która ogólna zasada prawa cywilnego ma tu zastosowanie?",
+        "options": {
+          "A": "Przewoźnik może odpowiadać wobec kontrahenta za nienależyte wykonanie umowy oraz działanie kierowcy, którym się posłużył.",
+          "B": "Za szkodę może odpowiadać wyłącznie kierowca, bo to on wykonywał czynność; umowa zawarta przez przewoźnika nie ma tu znaczenia.",
+          "C": "Przewoźnik odpowiada tylko wtedy, gdy sam prowadził pojazd i własnoręcznie zabezpieczał ładunek, nigdy za działania pracownika."
+        },
+        "correct_option": "A",
+        "explanation": "Gdy przewoźnik zawarł umowę, może odpowiadać wobec kontrahenta za szkodę wynikłą z jej nienależytego wykonania. Nie zmienia tego fakt, że czynność wykonał kierowca; błędne jest więc przypisanie odpowiedzialności wyłącznie jemu albo całkowite wyłączenie przewoźnika. Nie oznacza to automatycznie osobistej odpowiedzialności kierowcy ani rozstrzygnięcia sprawy bez zbadania okoliczności i przepisów szczególnych. Podstawa: ADR 8.2.2.3.2(k); Kodeks cywilny art. 471 i 474.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.2(k)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "KC-2026-PL",
+            "reference": "Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 471 i 474",
+            "url": "https://eli.gov.pl/eli/DU/2026/795/ogl"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL+KC-2026",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Prawidłowa: przewoźnik jako strona umowy może odpowiadać za jej nienależyte wykonanie oraz działania osób, którymi posługuje się przy wykonaniu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Błędna: art. 474 KC nie pozwala automatycznie przenieść całej odpowiedzialności kontraktowej wyłącznie na pracownika wykonującego czynność."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Błędna: dłużnik nie musi osobiście wykonywać każdej czynności; art. 474 KC obejmuje osoby, z których pomocą wykonuje zobowiązanie."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "ADR wskazuje odpowiedzialność cywilną jako temat kursu, natomiast art. 471 i 474 KC opisują ogólne zasady odpowiedzialności kontraktowej i za osoby pomocnicze. W konkretnym przewozie należy zbadać umowę, okoliczności i ewentualne przepisy szczególne; pytanie nie rozstrzyga indywidualnego roszczenia.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
