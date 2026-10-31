@@ -2,7 +2,7 @@
 
 **Stan na 31.10.2026, etap 4x251**
 
-- Dodano scenariusz SC-ADR-B-05-04 do kompetencji ADR-B-05-K06: mały pożar opon, hamulców lub silnika; powiązane pytania ADR-B-0108, 0184, 0223 i 0493.
+- Dodano scenariusz SC-ADR-B-05-04 do kompetencji ADR-B-05-K06: mały pożar opon, hamulców lub silnika; powiązane pytania ADR-B-0108, 0184 i 0223 (ADR-B-0493 pozostaje dodatkowym pytaniem K06).
 - Moduł ADR-B-05 ma 4 scenariusze; cały kurs ma 41 scenariuszy. Bank bez zmian: 677 pytań, wszystkie `needs_review`, SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Raport: `raporty/etap-4x251-maly-pozar-opony-hamulce-silnik-2026-10-31.md`.
 
