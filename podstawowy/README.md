@@ -3,7 +3,7 @@
 **Stan na 31.10.2026, etap 4x235**
 
 - Bank: 660 pytań; 660 `needs_review`, 0 `verified`; blob SHA `ffdc615fa08713d54fd9b2d0dbfbda3f9c4a0cf0`.
-- Dodano ADR-B-0660 do ADR-B-07-K07: praktyczny przypadek odpowiedzialności przewoźnika za nienależyte wykonanie umowy i działania kierowcy. Explanation 469 znaków, 4 zdania; A/B/C 121/127/127 znaków.
+- Dodano ADR-B-0660 do ADR-B-07-K07: praktyczny przypadek odpowiedzialności przewoźnika za nienależyte wykonanie umowy i działania kierowcy. Explanation 469 znaków, 4 zdania; A/B/C 121/107/127 znaków.
 - Rozkład odpowiedzi A/B/C: 228/220/212. „Poprawna = jedyna najdłuższa”: 72/660 = 10,91%; maksimum działu 13,95%.
 - Raport: `raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md`.
 
