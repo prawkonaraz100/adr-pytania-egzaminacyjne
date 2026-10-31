@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0657",
+      "order": 657,
+      "clause": "ADR 2025, 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "question_snapshot": {
+        "id": "ADR-B-0657",
+        "module_id": "ADR-B-02",
+        "stem": "Podczas kontroli przed załadunkiem kierowca widzi na butli czerwoną nalepkę z płomieniem i numerem 2.1. Jakie zagrożenie wskazuje ten znak i co powinien uwzględnić?",
+        "options": {
+          "A": "To gaz palny; oznaczenie wymaga uwzględnienia ryzyka zapłonu i ochrony przesyłki przed źródłami zapłonu podczas całego przewozu.",
+          "B": "To gaz niepalny i nietrujący; zielone tło oraz symbol butli oznaczają tę samą grupę zagrożeń co czerwona nalepka z płomieniem i numerem 2.1.",
+          "C": "To gaz trujący; biała nalepka z czaszką i numerem 2.3 jest równoważna czerwonej nalepce z płomieniem i numerem 2.1."
+        },
+        "correct_option": "A",
+        "explanation": "Nalepka 2.1 oznacza gaz palny, więc wyciek może stworzyć mieszaninę, która zapali się od iskry lub płomienia. Nie myl jej z 2.2, czyli gazem niepalnym i nietrującym, ani z 2.3, który jest trujący. Kierowca powinien uwzględnić ryzyko zapłonu i stosować wymagane zasady bezpieczeństwa przy załadunku i przewozie. Podstawa: ADR 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Opcja A prawidłowo rozpoznaje gaz palny 2.1 i wskazuje ryzyko zapłonu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Opcja B opisuje grupę 2.2, czyli gazy niepalne i nietrujące, a nie 2.1."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opcja C opisuje gaz trujący 2.3 i błędnie utożsamia go z gazem palnym 2.1."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Pytanie dotyczy rozpoznania wzoru nalepki i głównego zagrożenia; nie klasyfikuje konkretnego gazu ani nie zastępuje instrukcji pisemnych. Formalna recenzja polskiego tekstu i niezależna recenzja A/B/C pozostają otwarte.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
