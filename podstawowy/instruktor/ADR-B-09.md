@@ -27,7 +27,7 @@ Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obser
 | ADR-B-09-K02 | Mocowanie sztuk przesyłek | 7.5.7.1 | 3 |
 | ADR-B-09-K03 | Kontakt z żywnością i paszami | 7.5.4 | 3 |
 | ADR-B-09-K04 | Strzałki kierunkowe | 5.2.1.10.1–5.2.1.10.2(b); 7.5.1.5 | 5 |
-| ADR-B-09-K05 | Piętrzenie opakowań | 7.5.7.2 | 3 |
+| ADR-B-09-K05 | Piętrzenie opakowań | 7.5.7.2 | 5 |
 | ADR-B-09-K06 | Unikanie nadmiernego naprężenia pasów | 7.5.7.1 | 3 |
 | ADR-B-09-K07 | Czyszczenie pojazdu po rozładunku, także po wycieku | 7.5.8.1–7.5.8.2 | 4 |
 | ADR-B-09-K08 | Wstępna kontrola przed załadunkiem | 7.5.1 | 4 |
@@ -150,3 +150,12 @@ Przedstaw papierowy plan ładowni i zapytaj, co trzeba sprawdzić przed zaakcept
 **Oczekiwane wskazanie:** wyjątek z ADR 5.2.1.10.2(b) działa tylko wtedy, gdy każde opakowanie wewnętrzne zawiera nie więcej niż 120 ml oraz materiał chłonny pomiędzy opakowaniami może wchłonąć całą ciecz. Gdy którykolwiek warunek nie jest spełniony, należy stosować wymaganie 5.2.1.10.1, w tym strzałki na dwóch przeciwległych pionowych bokach.
 
 **Granica ćwiczenia:** używaj wyłącznie fikcyjnych danych opakowania; nie wykonuj prób z rzeczywistą cieczą niebezpieczną. Materiał pozostaje do niezależnej recenzji.
+
+
+### Zadanie instruktorskie — zgodność różnych konstrukcji opakowań przy piętrzeniu
+
+**Sytuacja symulowana:** Na palecie mają znaleźć się dwa rodzaje opakowań, z których każdy osobno jest przeznaczony do piętrzenia. Kursant ma ocenić, czy ich konstrukcje są zgodne do wspólnego ustawienia oraz czy potrzebne są elementy nośne.
+
+**Oczekiwane wskazanie:** samo dopuszczenie każdego rodzaju opakowania do piętrzenia nie oznacza automatycznie zgodności różnych konstrukcji. Trzeba ocenić ich wzajemną kompatybilność; gdy istnieje ryzyko uszkodzenia dolnego opakowania przez górne, zastosować elementy nośne zapobiegające takiemu uszkodzeniu.
+
+**Pytanie kontrolne:** kursant wyjaśnia, dlaczego pasy mocujące ani folia stretch nie zastępują oceny zgodności konstrukcji i elementów nośnych, gdy są potrzebne. Podstawa: ADR 7.5.7.2.

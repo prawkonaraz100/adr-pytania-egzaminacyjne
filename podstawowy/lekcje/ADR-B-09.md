@@ -244,7 +244,9 @@ Ważne rozróżnienie: strzałki są wymagane między innymi na opakowaniach kom
 
 **Co warto zrobić lub sprawdzić:** Nie, jeżeli opakowania nie są przystosowane do piętrzenia. Jeśli sytuacja na drodze lub przy załadunku nie jest jasna, wyjaśnij ją przed kontynuacją.
 
-**Ćwiczenie:** odpowiedz na `ADR-B-0059` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 7.5.7.2.
+**Ćwiczenie:** odpowiedz na `ADR-B-0059` i `ADR-B-0683`; wyjaśnij, dlaczego przy różnych konstrukcjach trzeba sprawdzić zgodność do wspólnego piętrzenia i kiedy potrzebne są elementy nośne. **Sprawdź przepis:** ADR 7.5.7.2.
+
+Jeżeli opakowania są przeznaczone do piętrzenia, ale mają różne konstrukcje, nie zakładaj automatycznie, że można ustawić je razem. Trzeba ocenić ich wzajemną zgodność. Gdy górne opakowanie mogłoby uszkodzić dolne, stosuje się elementy nośne, które przejmą obciążenie i ochronią opakowanie poniżej.
 
 ### Unikanie nadmiernego naprężenia pasów — ADR-B-09-K06
 
