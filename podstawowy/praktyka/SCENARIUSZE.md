@@ -1,5 +1,10 @@
 # ADR podstawowy — scenariusze praktyczne dla instruktora
 
+## Aktualizacja 4x252 — zakaz otwierania sztuk przesyłek
+
+Doprecyzowano `SC-ADR-B-04-04`: odbiorca prosi pomocnika kierowcy o otwarcie paczki. ADR 8.3.3 wskazuje kierowcę i pomocnika kierowcy; nie należy opisywać go jako bezwarunkowego zakazu dla każdej osoby w pojeździe. Scenariusz łączy pytania ADR-B-0011, ADR-B-0048, ADR-B-0357 i ADR-B-0678. Podstawa: ADR 2025, 8.3.3 i 5.4.3.4. Kurs ma teraz **42 scenariusze**, a moduły B-03, B-04 i B-05 mają po 4.
+
+
 ## Aktualizacja 4x251 — dodatkowy scenariusz pożarowy
 
 Dodano `SC-ADR-B-05-04` dla kompetencji `ADR-B-05-K06`: kursant ocenia mały, początkowy pożar opon, hamulców lub silnika i rozstrzyga, czy użycie gaśnicy jest właściwe i bezpieczne. Pytania powiązane ze scenariuszem: ADR-B-0108, ADR-B-0184 i ADR-B-0223; ADR-B-0493 pozostaje dodatkowym pytaniem K06. Podstawa: ADR 2025, 5.4.3.4. Scenariusz jest symulacją na planszy lub ćwiczeniem z gaśnicą szkoleniową pod nadzorem; nie obejmuje prawdziwego ognia ani towarów niebezpiecznych. Kurs ma teraz **41 scenariuszy**: B-03 i B-05 mają po 4, pozostałe działy co najmniej 3.
