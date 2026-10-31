@@ -138,7 +138,6 @@ Poniższe rekordy pozostają nierozstrzygnięte pod kątem dosłownego fragmentu
 
 - ADR-B-0657
 
-- ADR-B-0657
 
 ## Wynik 4x24 według indeksu
 
