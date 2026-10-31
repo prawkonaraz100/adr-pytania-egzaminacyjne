@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x248 (31.10.2026)
+
+- Bank: 673 pytań ADR-B-0001–0673; wszystkie `needs_review`, 0 `verified`; SHA `57dba9d1d46343edb0c9c0d09a5ca739043d1df6`.
+- Dodano ADR-B-0673 do ADR-B-02-K13: rozróżnienie UN 3480/3481 dla baterii litowo-jonowej zapakowanej z urządzeniem.
+- Explanation 423 znaki, 4 zdania; A/B/C 136/134/145.
+- Egzaminy 001–005, snapshoty sekwencyjne i prawne zsynchronizowane.
+- Raport: `podstawowy/raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md`.
+- Literalne porównanie tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
+
 ## Bieżąca migawka — etap 4x247 (31.10.2026)
 
 - Bank: 672 pytań ADR-B-0001–0672; wszystkie `needs_review`, 0 `verified`; SHA `dc499257cfae6fa8c5f5882248f676c15929c3a5`.
