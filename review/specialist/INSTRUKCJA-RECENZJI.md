@@ -1,4 +1,8 @@
-## Migawka bieżąca — 4x250
+## Migawka bieżąca — 4x251
+
+Bank podstawowy: 677 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `9dbbf511b3b057e3771ee382dda1a768226a916a`. Najnowsza zmiana: SC-ADR-B-05-04, praktyczne granice użycia gaśnicy przy małym pożarze, ADR 5.4.3.4. Brak nowych rekordów banku; statusów nie zmieniano.
+
+## Poprzednia migawka — 4x250
 
 Bank podstawowy: 677 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `9dbbf511b3b057e3771ee382dda1a768226a916a`. Najnowsza partia: ADR-B-0677, czyszczenie pojazdu po przewozie towarów niebezpiecznych luzem, ADR 7.5.8.2. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.
 
