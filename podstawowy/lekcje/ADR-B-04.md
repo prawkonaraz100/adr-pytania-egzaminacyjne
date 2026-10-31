@@ -228,5 +228,5 @@ Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz n
 
 ADR 8.3.3 zabrania kierowcy i pomocnikowi kierowcy otwierania sztuk przesyłek z towarami niebezpiecznymi. Przepis wskazuje te dwie role; nie należy zastępować jego dokładnego brzmienia ogólnym określeniem „każdy członek załogi”. Nie tworzy wyjątku prośba odbiorcy ani założenie rękawic ochronnych. Jeżeli opakowanie może być uszkodzone, nie otwieraj go w celu sprawdzenia zawartości; zabezpiecz miejsce, zgłoś problem i postępuj zgodnie z instrukcjami pisemnymi.
 
-**Scenariusz praktyczny:** SC-ADR-B-04-04. **Pytania powiązane:** ADR-B-0011, ADR-B-0048 i ADR-B-0357. **Podstawa:** ADR 8.3.3 oraz, przy zdarzeniu, 5.4.3.4.
+**Scenariusz praktyczny:** SC-ADR-B-04-04. **Pytania powiązane ze scenariuszem:** ADR-B-0048, ADR-B-0357 i ADR-B-0678. **Pozostałe pytania kompetencji K02:** ADR-B-0011 i ADR-B-0243. **Podstawa:** ADR 8.3.3 oraz, przy zdarzeniu, 5.4.3.4.
 
