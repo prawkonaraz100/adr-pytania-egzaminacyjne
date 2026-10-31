@@ -1,15 +1,22 @@
-**Stan na 31.10.2026, etap 4x255**
+**Stan na 31.10.2026, etap 4x256**
 
-## Bieżąca migawka — etap 4x255 (31.10.2026)
+## Bieżąca migawka — etap 4x256 (31.10.2026)
 
-- Dodano ADR-B-0681 do ADR-B-03-K04: dodatkowe wyposażenie przy towarze z nalepką 8 — łopata, osłona kanalizacyjna i pojemnik (ADR 8.1.5.2).
-- Explanation 325 znaków, 4 zdania; A/B/C 117/130/108, poprawna A nie jest najdłuższa.
-- Bank: 681 pytań ADR-B-0001–0681; 681 `needs_review`, 0 `verified`; SHA `6724b494f6506bf19ca1f71e309dae08818b157b`.
-- ADR-B-0681 do ADR-B-03-K04: dla towaru z nalepką 8 wymagane dodatkowe wyposażenie — łopata, osłona kanalizacyjna i pojemnik (ADR 8.1.5.2).
-- Explanation 325 znaków, 4 zdania; A/B/C 117/130/108, klucz A nie jest najdłuższy.
-- A/B/C: 234/231/216; poprawna = jedyna najdłuższa: 72/681 = 10,57%.
-- Snapshoty: `sequential/681-681.json`, `legal-clauses/681-681.json`; rejestr: `REJESTR-0681-0681.md`.
-- Raport: `podstawowy/raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md`.
+- Dodano ADR-B-0682 do ADR-B-09-K04: wyjątek od strzałek kierunkowych dla małych opakowań wewnętrznych z wystarczającym materiałem chłonnym (ADR 5.2.1.10.2(b)).
+- Explanation 417 znaków, 4 zdania; A/B/C 142/136/107, poprawna B nie jest ani najkrótsza, ani najdłuższa.
+- Bank: 682 pytań ADR-B-0001–0682; 682 `needs_review`, 0 `verified`; SHA `623b3c164d1a394f8976e5b3a9e75d9893a65444`.
+- ADR-B-0682 do ADR-B-09-K04: wyjątek od strzałek kierunkowych dla opakowania zewnętrznego z opakowaniami wewnętrznymi do 120 ml i wystarczającym materiałem chłonnym (ADR 5.2.1.10.2(b)).
+- Explanation 417 znaków, 4 zdania; A/B/C 142/136/107; poprawna B nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=234, B=232, C=216.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/682 = 10,56%**; maksimum działu to 13,95%.
+- Snapshoty: `sequential/682-682.json`, `legal-clauses/682-682.json`; rejestr: `REJESTR-0682-0682.md`.
+- Raport: `podstawowy/raporty/etap-4x256-strzalki-kierunkowe-wyjatek-opakowania-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x255 (31.10.2026)
+
+- Dodano ADR-B-0681 do ADR-B-03-K04: dodatkowe wyposażenie do ochrony kanalizacji (ADR 8.1.5.2).
+- Bank: 681 pytań; wszystkie needs_review, 0 verified; SHA `6724b494f6506bf19ca1f71e309dae08818b157b`.
+
 
 ## Poprzednia migawka — etap 4x254 (31.10.2026)
 
@@ -340,6 +347,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x256 — strzałki kierunkowe: wyjątek dla małych opakowań](raporty/etap-4x256-strzalki-kierunkowe-wyjatek-opakowania-2026-10-31.md)
 - [Etap 4x255 — ochrona kanalizacji: dodatkowe wyposażenie ADR](raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md)
 - [Etap 4x254 — dokument przewozowy odpadu](raporty/etap-4x254-odpad-dokument-przewozowy-2026-10-31.md)
 - [Etap 4x253 — odpowiedzialność za klasyfikację i dane ADR](raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md)
