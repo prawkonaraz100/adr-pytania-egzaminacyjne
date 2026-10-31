@@ -1,4 +1,15 @@
-## Bieżąca migawka — etap 4x237 (31.10.2026)
+## Bieżąca migawka — etap 4x238 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x238**
+
+- Bank: 663 pytań; 663 `needs_review`, 0 `verified`; blob SHA `a626f744ed85432679ad0790a465eae854de9704`.
+- Dodano ADR-B-0663 do ADR-B-07-K06: bezpieczny wybór przenośnego urządzenia oświetleniowego przez członka załogi (ADR 8.3.4). Explanation 329 znaków, 4 zdania; A/B/C 152/126/136 znaków.
+- Rozkład odpowiedzi A/B/C: 228/222/213. „Poprawna = jedyna najdłuższa”: 72/663 = 10,86%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x238-przenosne-urzadzenia-oswietleniowe-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x237 (31.10.2026)
+
+## Poprzednia migawka — etap 4x237 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x237**
 
@@ -173,6 +184,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x238 — przenośne urządzenia oświetleniowe](raporty/etap-4x238-przenosne-urzadzenia-oswietleniowe-2026-10-31.md)
 - [Etap 4x237 — zgodność VIN świadectwa pojazdu](raporty/etap-4x237-swiadectwo-pojazdu-zgodnosc-vin-2026-10-31.md)
 - [Etap 4x236 — polimeryzujące materiały klasy 4.1 i kontrola temperatury](raporty/etap-4x236-polimeryzujace-klasa-41-kontrola-temperatury-2026-10-31.md)
 - [Etap 4x235 — odpowiedzialność cywilna przewoźnika](raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md)
