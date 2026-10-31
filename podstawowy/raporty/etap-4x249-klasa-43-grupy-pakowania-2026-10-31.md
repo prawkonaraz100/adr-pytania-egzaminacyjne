@@ -34,7 +34,7 @@ Pytanie nie wymaga od kierowcy samodzielnego klasyfikowania materiału ani wykon
 
 - Liczba pytań: 674; ID ADR-B-0001–ADR-B-0674 ciągłe i unikalne.
 - Status: 676 `needs_review`, 0 `verified`.
-- Blob SHA `questions.jsonl`: `841c502032f62580f23608820747827f70b00df0`.
+- Blob SHA `questions.jsonl`: `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
 - Rozkład poprawnych opcji: A=232, B=230, C=214.
 - „Poprawna odpowiedź jest jedyną najdłuższą”: 73/676 = 10,80%; maksimum działu 13,95%.
 - Kompetencja ADR-B-02-K06 została uzupełniona o ADR-B-0674; dział ADR-B-02 ma 77 pytań.
@@ -58,6 +58,6 @@ Po pytaniu ADR-B-0674 uzupełniono brakujące dwa kryteria klasy 4.3:
 
 Oba pytania mają 2–5 zdań prostego wyjaśnienia (odpowiednio 330 i 304 znaki), status `needs_review`; żadnego rekordu nie oznaczono jako `verified`. Kryteria sprawdzono w polskim ADR 2025 udostępnionym przez MI oraz w tekście ADR 2025 UNECE. Kierowca odczytuje grupę przypisaną w dokumentacji — nie wykonuje prób klasyfikacyjnych.
 
-Zaktualizowano mapę kompetencji ADR-B-02-K06, lekcję ADR-B-02 i materiały instruktora. Dodano snapshoty `review/sequential/675-676.json` i `review/legal-clauses/675-676.json`. Warianty i klucze egzaminów próbnych 001–005 wskazują aktualny SHA banku `1f3ac69fdf7e01d6bd67b13bdded7a41a5e0f7b9`.
+Zaktualizowano mapę kompetencji ADR-B-02-K06, lekcję ADR-B-02 i materiały instruktora. Dodano snapshoty `review/sequential/675-676.json` i `review/legal-clauses/675-676.json`. Warianty i klucze egzaminów próbnych 001–005 wskazują aktualny SHA banku `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
 
 Bank po uzupełnieniu: **676 pytań**, zakres ADR-B-0001–0676; 676 `needs_review`, 0 `verified`. Pełny Quality Gate na PR #718 pozostaje warunkiem scalenia. Raport i rejestry pomocnicze wymagają końcowej kontroli CI; nie deklaruje się PASS przed otrzymaniem wyniku workflow.
