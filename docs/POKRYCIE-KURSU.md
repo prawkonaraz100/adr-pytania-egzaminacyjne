@@ -1,5 +1,16 @@
 **Stan aktualny po etapie 4x244: 31.10.2026.**
 
+## Uzupełnienie audytu 4x244 — 31.10.2026
+
+- Dodano ADR-B-0669 do ADR-B-02-K11: praktyczne przypisanie kategorii przesyłki klasy 7 z uwzględnieniem TI 0,8 i poziomu promieniowania 0,7 mSv/h na powierzchni; właściwa kategoria to III-YELLOW.
+- Explanation: 340 znaków, 4 zdania; A/B/C 145/130/115. Poprawna B nie jest najdłuższa.
+- Podstawa: ADR 2025, 5.1.5.3.4(a) i tabela 5.1.5.3.4, Dz.U. 2025 poz. 642. Literalne porównanie tekstu Dz.U. i recenzja specjalisty pozostają otwarte.
+- Bank: 669 pytań ADR-B-0001–0669, wszystkie `needs_review`, 0 `verified`; SHA `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`.
+- Rozkład A/B/C: 231/225/213; „poprawna = jedyna najdłuższa”: 72/669 = 10,76%; maksimum działu 13,95%.
+- Raport: [Etap 4x244 — klasa 7: kategoria przesyłki](../podstawowy/raporty/etap-4x244-klasa-7-kategoria-przesylki-2026-10-31.md).
+
+**Poprzednia migawka — etap 4x243 (31.10.2026).**
+
 ## Uzupełnienie audytu 4x243 — 31.10.2026
 
 - Dodano ADR-B-0668 do ADR-B-02-K10: UN 3373, materiał biologiczny kategorii B; P650 i wyłączenie pozostałych wymagań na podstawie SP 319 po spełnieniu warunków pakowania i oznakowania.
