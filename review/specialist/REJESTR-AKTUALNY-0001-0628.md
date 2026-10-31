@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x231 (31.10.2026)
 
-- Bank: 656 pytań `needs_review`, 0 `verified`; blob SHA `30f70e8ba6e01b498ce7756e29d406598ff62b34`.
+- Bank: 656 pytań `needs_review`, 0 `verified`; blob SHA `940d22f1a3965796d24029e621b05253ff98ece4`.
 - Raport: `podstawowy/raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md`.
 - ADR-B-0656 dodano do ADR-B-01-K04; wyłączenie 1.1.3.1(c), 450 l/opakowanie i warunki 1.1.3.6.
 
@@ -895,4 +895,4 @@ Bank bieżący: 655 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `c
 
 | ADR-B-0656 | ADR-B-01 | ADR-B-01-K04 | Firma serwisowa wiezie na budowę 300 l towaru do naprawy własnego urządzenia. Czy spełnione warunki pozwalają na wyłączenie z 1.1.3.1(c)? | A | ADR 2025, 1.1.3.1(c) i 1.1.3.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-Bank bieżący: 656 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `30f70e8ba6e01b498ce7756e29d406598ff62b34`.
+Bank bieżący: 656 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `940d22f1a3965796d24029e621b05253ff98ece4`.
