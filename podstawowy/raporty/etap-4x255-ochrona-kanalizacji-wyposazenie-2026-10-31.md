@@ -14,7 +14,7 @@ Mapa wskazywała cztery pytania w K04, ale dotychczasowe pozycje koncentrowały 
 - **ADR-B-0681** — pojazd przewozi towar ADR oznakowany nalepką nr 8; kursant wskazuje wymagane dodatkowe wyposażenie.
 - Klucz: **A** — łopata, osłona kanalizacyjna i pojemnik do zebrania pozostałości.
 - Explanation: **325 znaków, 4 zdania**; wyjaśnia praktyczny cel zestawu, odróżnia go od gaśnicy i płynu do płukania oczu oraz przypomina o sprawdzeniu wyposażenia przed wyjazdem.
-- Długości A/B/C: **65/66/72** znaków. Poprawna odpowiedź nie jest najdłuższa.
+- Długości A/B/C: **117/130/108** znaków. Poprawna odpowiedź nie jest najdłuższa.
 - Status: needs_review; niczego nie oznaczono jako verified.
 
 ## Podstawa i ograniczenia
@@ -29,6 +29,6 @@ Dokładny polski tekst ustępu 8.1.5.2 nie został pobrany i porównany literaln
 ## Synchronizacja #646 — stan po dodaniu pytania
 
 - Bank: **681** pytań ADR-B-0001–0681; wszystkie needs_review, 0 verified.
-- Blob SHA `12a8dd403a927c9995348124e4a3e67e4a63ac00`.
+- Blob SHA `6724b494f6506bf19ca1f71e309dae08818b157b`.
 - Rozkład A/B/C: **234/231/216**; „poprawna = jedyna najdłuższa”: **72/681 = 10,57%**, poniżej Quality Gate 18%.
 - Zaktualizowano mapę kompetencji, lekcję i materiał instruktora B-03, snapshoty sequential/legal oraz ledger źródeł. Synchronizacja egzaminów 001–005 i pakietu recenzyjnego następuje w kolejnym commicie.
