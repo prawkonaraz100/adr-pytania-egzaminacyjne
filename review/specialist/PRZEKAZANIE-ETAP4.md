@@ -1,10 +1,14 @@
-## Bieżąca migawka — etap 4x249 (31.10.2026)
+## Bieżąca migawka — etap 4x250 (31.10.2026)
 
-- Bank: 674 pytania ADR-B-0001–0674; wszystkie `needs_review`, 0 `verified`; SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
+- Bank: 677 pytań ADR-B-0001–0677; wszystkie `needs_review`, 0 `verified`; SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
+- Dodano ADR-B-0677 do ADR-B-03-K03; scenariusz SC-ADR-B-03-04.
+- Raport: `podstawowy/raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md`.
+
+- Bank: 677 pytań ADR-B-0001–0677; wszystkie `needs_review`, 0 `verified`; SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Dodano ADR-B-0674 do ADR-B-02-K06: odczyt I grupy pakowania materiału klasy 4.3.
 - Explanation 321 znaków, 3 zdania; A/B/C 133/137/147.
 - Egzaminy 001–005, snapshoty sekwencyjne i prawne zsynchronizowane.
-- Raport: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
+- Raport: `podstawowy/raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md`.
 - Literalne porównanie tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
 
 ## Bieżąca migawka — etap 4x248 (31.10.2026)
