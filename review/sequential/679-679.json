@@ -1,0 +1,47 @@
+{
+  "batch": "679-679",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0679",
+      "sequence": 679,
+      "exact_record_snapshot": {
+        "stem": "Kierowca ma odebrać nowy materiał niebezpieczny. Nadawca przekazuje tylko nazwę handlową, bez klasyfikacji i wymaganych danych ADR. Co powinien zrobić przewoźnik przed rozpoczęciem przewozu?",
+        "options": {
+          "A": "Samodzielnie dobrać numer UN na podstawie podobnej nazwy w tabeli A i uzupełnić nim dokument, aby nie opóźniać dostawy.",
+          "B": "Zażądać od nadawcy klasyfikacji i kompletnych danych oraz wstrzymać rozpoczęcie przewozu do usunięcia braku.",
+          "C": "Przyjąć ładunek na podstawie nazwy handlowej, ponieważ brakujące informacje można uzupełnić już po rozpoczęciu jazdy."
+        },
+        "correct_option": "B",
+        "explanation": "To nadawca ma ustalić klasyfikację materiału i przekazać przewoźnikowi wymagane dane; kierowca nie powinien zgadywać numeru UN na podstawie nazwy handlowej. Przewoźnik sprawdza, czy towar jest dopuszczony do przewozu i czy otrzymał wymagane informacje oraz dokumenty, a stwierdzone braki trzeba usunąć przed wyjazdem. Podstawa: ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b) i 1.4.2.2.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3; 5.4.1.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 Polish official text, targeted clauses 1.4.2.1.1(a), 1.4.2.2.1(a)-(b), 1.4.2.2.3 and 5.4.1.1.1; editorial first pass only, full item comparison and independent specialist review pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "Consignor is responsible for classification and providing information; carrier verifies admissibility and receipt of required information/documents and must not commence until identified violations are remedied.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7"
+    }
+  ]
+}
