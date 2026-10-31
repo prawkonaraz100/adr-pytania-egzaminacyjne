@@ -1,7 +1,7 @@
 ## Bieżąca migawka — etap 4x252 (31.10.2026)
 
 - Bank: 678 pytań ADR-B-0001–0678; wszystkie `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
-- Dodano ADR-B-0678 i skorygowano ADR-B-0011, 0048, 0243: ADR 8.3.3 dotyczy kierowcy i pomocnika kierowcy. SC-ADR-B-04-04 doprecyzowano; 42 scenariusze kursu.
+- Dodano ADR-B-0678 i skorygowano ADR-B-0011, 0048, 0243: ADR 8.3.3 dotyczy kierowcy i pomocnika kierowcy. Ukierunkowane porównanie polskiego brzmienia ustępu wykonano dla tych czterech rekordów; pełna recenzja specjalisty pozostaje pending. SC-ADR-B-04-04 doprecyzowano; 42 scenariusze kursu.
 - Literalne porównanie polskiego ustępu 8.3.3 i recenzja specjalisty pozostają otwarte.
 - Raport: `podstawowy/raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md`.
 
