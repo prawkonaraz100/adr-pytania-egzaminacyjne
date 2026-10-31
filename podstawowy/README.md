@@ -202,6 +202,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x241 — klasa 5.1: utleniacz i ryzyko pożaru](raporty/etap-4x241-klasa-51-utleniajace-ryzyko-pozaru-2026-10-31.md)
 - [Etap 4x240 — klasa 4.2: piroforyczne i samonagrzewające się](raporty/etap-4x240-klasa-42-piroforyczne-samonagrzewajace-2026-10-31.md)
 - [Etap 4x239 — połączenia ABS ciągnika i przyczepy](raporty/etap-4x239-abs-connection-vehicle-trailer-2026-10-31.md)
 - [Etap 4x238 — przenośne urządzenia oświetleniowe](raporty/etap-4x238-przenosne-urzadzenia-oswietleniowe-2026-10-31.md)
