@@ -1,6 +1,16 @@
 ## Bieżąca migawka — etap 4x241 (31.10.2026)
 
 - Bank: 666 pytań ADR-B-0001–0666; 666 `needs_review`, 0 `verified`; blob SHA `b7b582add191eace25bf493fed5f71dda55f392e`.
+- Dodano ADR-B-0666 do ADR-B-02-K07: zagrożenie utleniające klasy 5.1 może nasilać spalanie innych materiałów (ADR 2.2.51.1.1; instrukcje awaryjne 5.4.3.4).
+- Explanation: 479 znaków, 4 zdania; A/B/C 166/166/138. Poprawna A nie jest jedyną najdłuższą.
+- Rozkład A/B/C: 229/224/213. „Poprawna = jedyna najdłuższa”: 72/666 = 10,81%; maksimum działu 13,95%.
+- Snapshoty: `review/sequential/666-666.json`, `review/legal-clauses/666-666.json`; egzaminy 001–005 wskazują aktualny SHA.
+- Raport: `raporty/etap-4x241-klasa-51-utleniajace-ryzyko-pozaru-2026-10-31.md`.
+- Literalne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+
+## Bieżąca migawka — etap 4x241 (31.10.2026)
+
+- Bank: 666 pytań ADR-B-0001–0666; 666 `needs_review`, 0 `verified`; blob SHA `b7b582add191eace25bf493fed5f71dda55f392e`.
 - Dodano ADR-B-0666 do ADR-B-02-K07: klasa 5.1 może nasilać spalanie innych materiałów, nawet gdy sama nie jest palna. Explanation 479 znaków, 4 zdania; A/B/C 166/166/138.
 - Rozkład A/B/C: 229/224/213. „Poprawna = jedyna najdłuższa”: 72/666 = 10,81%; maksimum działu 13,95%.
 - Snapshoty: `review/sequential/666-666.json`, `review/legal-clauses/666-666.json`; egzaminy i klucze 001–005 wskazują aktualny SHA.
