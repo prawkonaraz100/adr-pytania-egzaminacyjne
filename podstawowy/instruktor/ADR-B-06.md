@@ -30,7 +30,7 @@ Instruktor oznacza `rozumie / wymaga wyjaśnienia / nieocenione`, zapisuje obser
 | ADR-B-06-K05 | Wymiary i rozmieszczenie tablic | 5.3.2.2.1 | 3 |
 | ADR-B-06-K06 | Nasilenie zagrożenia przy powtórzeniu cyfry | 5.3.2.3.1 | 3 |
 | ADR-B-06-K07 | Kolor i budowa tablicy | 5.3.2.2.2 | 3 |
-| ADR-B-06-K08 | Znaczenie cyfry 8 | 5.3.2.3.1 | 3 |
+| ADR-B-06-K08 | Znaczenie cyfry 8 i kombinacji 886 | 5.3.2.3.1–5.3.2.3.2 | 5 |
 | ADR-B-06-K09 | Nalepki na pojazdach i kontenerach | 5.3.1 | 3 |
 
 | Minuty | Przebieg | Sprawdzenie |

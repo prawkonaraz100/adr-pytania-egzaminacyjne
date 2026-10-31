@@ -1,5 +1,5 @@
 {
-  "batch": "629-652",
+  "batch": "629-653",
   "date": "2026-10-29",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
@@ -926,6 +926,46 @@
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
       "source_risk_note": "Wstępny odczyt ADR 2025, 2.2.8.1.1: definicja klasy 8 obejmuje także szkody w innych towarach lub środku transportu w razie wycieku. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0653",
+      "sequence": 653,
+      "exact_record_snapshot": {
+        "stem": "Na górnym polu pomarańczowej tablicy ADR widnieje numer 886. Jakie zagrożenia wskazuje ten numer?",
+        "options": {
+          "A": "Substancja jest silnie żrąca i jednocześnie toksyczna.",
+          "B": "Substancja jest żrąca i utleniająca, a cyfra 6 oznacza większą palność.",
+          "C": "Substancja jest silnie żrąca, a końcowa cyfra 6 wskazuje kategorię tunelu."
+        },
+        "correct_option": "A",
+        "explanation": "Numer 886 oznacza substancję silnie żrącą i toksyczną. Powtórzona cyfra 8 wskazuje na nasilone działanie żrące, a końcowa 6 oznacza toksyczność. To nie jest oznaczenie działania utleniającego ani kod kategorii tunelu. Kierowca powinien przekazać ratownikom cały numer, bo opisuje więcej niż jedno zagrożenie. Podstawa: ADR 5.3.2.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Wstępny odczyt ADR 2025, 5.3.2.3.2: numer 886 oznacza substancję silnie żrącą i toksyczną. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
