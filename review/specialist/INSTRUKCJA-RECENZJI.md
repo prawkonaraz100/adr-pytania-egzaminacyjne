@@ -1,6 +1,6 @@
-## Migawka bieżąca — 4x249
+## Migawka bieżąca — 4x250
 
-Bank podstawowy: 674 pytania, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `9dbbf511b3b057e3771ee382dda1a768226a916a`. Najnowsza partia: ADR-B-0674, klasa 4.3, znaczenie I grupy pakowania i kryteria ADR 2.2.43.1.8. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.
+Bank podstawowy: 677 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `9dbbf511b3b057e3771ee382dda1a768226a916a`. Najnowsza partia: ADR-B-0677, czyszczenie pojazdu po przewozie towarów niebezpiecznych luzem, ADR 7.5.8.2. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.
 
 ## Migawka bieżąca — 4x248
 
