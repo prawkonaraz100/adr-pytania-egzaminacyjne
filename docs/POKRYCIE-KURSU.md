@@ -1,4 +1,4 @@
-**Stan aktualny po etapie 4x249: 31.10.2026.**
+**Stan aktualny po etapie 4x250: 31.10.2026.**
 
 ## Uzupełnienie audytu 4x249 — 31.10.2026
 
