@@ -1,9 +1,9 @@
 ## Uzupełnienie audytu 4x234 — 31.10.2026
 
 - Dodano ADR-B-0659 do ADR-B-01-K01: rozróżnienie zakresu załączników A i B ADR.
-- Explanation: 396 znaków, 4 zdania; A/B/C 107/159/159 znaków, poprawna A nie jest najdłuższa.
+- Explanation: 426 znaków, 4 zdania; A/B/C 107/159/159 znaków, poprawna A nie jest najdłuższa.
 - Podstawa: ADR 2025, art. 2 Umowy ADR i 1.1.1, Dz.U. 2025 poz. 642; niezależna recenzja polskiego tekstu pozostaje otwarta.
-- Bank: 659 pytań `needs_review`, 0 `verified`; ID 0001–0659 ciągłe i unikalne. Blob SHA `3f53c26178541047e558865dddf3aca814b22160`.
+- Bank: 659 pytań `needs_review`, 0 `verified`; ID 0001–0659 ciągłe i unikalne. Blob SHA `edef07df45541eeea77726bb1d6f93d00d853627`.
 - Raport: [4x234 — zakres załączników A i B](../podstawowy/raporty/etap-4x234-zalaczniki-a-b-zakres-2026-10-31.md).
 
 ## Uzupełnienie audytu 4x233 — 31.10.2026
