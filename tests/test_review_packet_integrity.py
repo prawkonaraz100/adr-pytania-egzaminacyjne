@@ -29,11 +29,11 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         )
 
     def test_manifest_matches_bank_and_module_counts(self):
-        self.assertEqual(len(self.bank), 678)
-        self.assertEqual(len(self.by_id), 678)
+        self.assertEqual(len(self.bank), 679)
+        self.assertEqual(len(self.by_id), 679)
         self.assertEqual(self.manifest["question_count"], len(self.bank))
-        self.assertEqual(self.manifest["last_id"], "ADR-B-0678")
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 678)
+        self.assertEqual(self.manifest["last_id"], "ADR-B-0679")
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 679)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
         self.assertEqual(self.manifest["formal_approvals"], 0)
         actual = {}
