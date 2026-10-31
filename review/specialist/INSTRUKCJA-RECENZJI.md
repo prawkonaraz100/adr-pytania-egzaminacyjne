@@ -1,3 +1,7 @@
+## Migawka bieżąca — 4x247
+
+Bank podstawowy: 672 pytania, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `dc499257cfae6fa8c5f5882248f676c15929c3a5`. Najnowsza partia: ADR-B-0672, dokument identyfikacyjny ze zdjęciem dla każdego członka załogi. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.
+
 ## Migawka bieżąca — 4x246
 
 Bank podstawowy: 671 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `8012802240554ba203baa2272adfced09b837471`. Najnowsza partia: ADR-B-0671, klasa 2, ochrona zaworu butli. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.
