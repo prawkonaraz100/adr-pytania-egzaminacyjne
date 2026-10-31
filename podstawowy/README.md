@@ -1,9 +1,9 @@
 ## Bieżąca migawka — etap 4x249 (31.10.2026)
 
-- Bank: 674 pytania ADR-B-0001–0674; 676 `needs_review`, 0 `verified`; blob SHA `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
+- Bank: 674 pytania ADR-B-0001–0674; 677 `needs_review`, 0 `verified`; blob SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Dodano ADR-B-0674 do ADR-B-02-K06: praktyczny odczyt I grupy pakowania materiału klasy 4.3.
 - Explanation: 321 znaków, 3 zdania; A/B/C 133/137/147. Poprawna B nie jest najdłuższa.
-- Rozkład poprawnych odpowiedzi: A=232, B=230, C=214; „poprawna = jedyna najdłuższa” 73/676 = 10,80%.
+- Rozkład poprawnych odpowiedzi: A=232, B=230, C=215; „poprawna = jedyna najdłuższa” 73/677 = 10,78%.
 
 **Stan na 31.10.2026, etap 4x249**
 
@@ -279,7 +279,7 @@
 - [Etap 4x135 — lista ID i wyłączenia partii](raporty/etap-4x135-wykluczenia-proby.json)
 
 - [Etap 4x132 — pakiet recenzyjny i instrukcja egzaminu](raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md): odświeżono listę kontrolną specjalisty i dodano instrukcję do egzaminu próbnego.
-- [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md): przejrzano pytania ADR-B-0586–0609; poprawiono jedną niespójność redakcyjną; 39 scenariuszy i 13 lekcji bez brakujących/błędnych referencji.
+- [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md): przejrzano pytania ADR-B-0586–0609; poprawiono jedną niespójność redakcyjną; 40 scenariuszy i 13 lekcji bez brakujących/błędnych referencji.
 
 **Stan na 31.10.2026, etap 4x229: 654 pytania robocze; 654 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/654 = 11,01% (maksimum działu 13,95%, poniżej 18%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
@@ -528,7 +528,7 @@ Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 73/609 
 
 - Bank: 609 `needs_review`, 0 `verified`.
 - Lekcje: etap 4x1 — odbiór dydaktyczny 13/13; etap 4x2 — ujednolicono redakcyjnie B-01–B-13. Ścieżka kursanta i materiały instruktora są połączone ze wszystkimi 39 scenariuszami; pakiet recenzyjny obejmuje 609 pytań i warianty 001–005. Wszystkie lekcje nadal wymagają niezależnej recenzji prawnej i formalnego odbioru instruktorskiego.
-- Praktyka: 39 scenariuszy sytuacyjnych — po 3 w każdym dziale — oraz ćwiczenia P1–P3 do rzeczywistego przeprowadzenia i udokumentowania przez instruktora; repozytorium nie poświadcza, że ćwiczenia odbyły się.
+- Praktyka: 40 scenariuszy sytuacyjnych — po 3 w każdym dziale — oraz ćwiczenia P1–P3 do rzeczywistego przeprowadzenia i udokumentowania przez instruktora; repozytorium nie poświadcza, że ćwiczenia odbyły się.
 - Prawo: pełne porównanie każdego punktu z polskim tekstem urzędowym i sprostowaniem oraz niezależna recenzja specjalisty pozostają otwarte.
 
 **Nie przechodź do kursu cystern ani innych specjalizacji przed zamknięciem kursu podstawowego i niezależną weryfikacją.**
@@ -651,7 +651,7 @@ Raporty ETAPU 4x7
 
 ## Etap 4x46 — próbka 60 i synchronizacja egzaminów
 
-- [Raport 4x46](raporty/etap-4x46-proba60-i-synchronizacja-2026-10-26.md): deterministyczna próbka 60 innych ID niż w 4x45; osiem ludzkich wyjaśnień poprawiono, 52 pozostawiono po sprawdzeniu. Skontrolowano 13 lekcji, 39 scenariuszy, pięć arkuszy egzaminu i pięć kluczy oraz pakiet recenzenta. Wszystkie pytania nadal `needs_review`.
+- [Raport 4x46](raporty/etap-4x46-proba60-i-synchronizacja-2026-10-26.md): deterministyczna próbka 60 innych ID niż w 4x45; osiem ludzkich wyjaśnień poprawiono, 52 pozostawiono po sprawdzeniu. Skontrolowano 13 lekcji, 40 scenariuszy, pięć arkuszy egzaminu i pięć kluczy oraz pakiet recenzenta. Wszystkie pytania nadal `needs_review`.
 
 ## Etap 4x47 — przegląd 13 sygnałów
 
@@ -671,7 +671,7 @@ Raporty ETAPU 4x7
 - [Raport B-01–04](raporty/etap-4x69-spojnosc-01-04-2026-10-27.md): scenariusze i pytania sprawdzone pod kątem istniejących ID oraz modułów; usunięto powtórzenie redakcyjne w B-02.
 - [Raport B-05–08](raporty/etap-4x69-scenariusze-05-08-2026-10-27.md): wykryto i naprawiono identyczny zestaw pytań w dwóch scenariuszach B-07; Quality Gate blokuje teraz takie powtórzenia.
 - [Raport B-09–13](raporty/etap-4x69-scenariusze-09-13-2026-10-27.md): kontrola pytań i scenariuszy, poprawione explanation ADR-B-0031.
-- [Raport końcowy 4x69](raporty/etap-4x69-raport-koncowy-2026-10-27.md): kontrola 39 scenariuszy i wszystkich 20 pozostałych, niepowtarzanych ID explanation.
+- [Raport końcowy 4x69](raporty/etap-4x69-raport-koncowy-2026-10-27.md): kontrola 40 scenariuszy i wszystkich 20 pozostałych, niepowtarzanych ID explanation.
 - [Etap 4x70 — korekta ADR-B-0497](raporty/etap-4x70-korekta-ADR-B-0497-2026-10-27.md): naprawiono sprzeczne „Tak/Nie” w odpowiedzi C zgodnie z ADR 2.2.1.1.5; status pozostaje `needs_review`.
 
 
@@ -698,4 +698,4 @@ Raporty ETAPU 4x7
 
 ## Etap 4x105 — kontrola próbki, scenariuszy i egzaminów
 
-- [Raport 4x105](raporty/etap-4x105-proba40-scenariusze-egzaminy-2026-10-27.md): próbka 40 explanation spoza ID z etapów 4x103–4x104, przegląd 39 scenariuszy oraz synchronizacja wariantów i kluczy 001–005. Bank bez zmian; 609 pytań `needs_review`, 0 `verified`; wskaźnik „poprawna = jedyna najdłuższa” 11,99% globalnie i maksymalnie 14,29% w dziale.
+- [Raport 4x105](raporty/etap-4x105-proba40-scenariusze-egzaminy-2026-10-27.md): próbka 40 explanation spoza ID z etapów 4x103–4x104, przegląd 40 scenariuszy oraz synchronizacja wariantów i kluczy 001–005. Bank bez zmian; 609 pytań `needs_review`, 0 `verified`; wskaźnik „poprawna = jedyna najdłuższa” 11,99% globalnie i maksymalnie 14,29% w dziale.
