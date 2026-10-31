@@ -1,4 +1,13 @@
-## Bieżąca migawka — etap 4x235 (31.10.2026)
+## Bieżąca migawka — etap 4x236 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x236**
+
+- Bank: 661 pytań; 661 `needs_review`, 0 `verified`; blob SHA `d7ad9711a2e5f5ced552ff6a4140455104536280`.
+- Dodano ADR-B-0661 do ADR-B-02-K04: praktyczne zastosowanie progu kontroli temperatury dla polimeryzującego materiału w DPPL. Explanation 354 znaki, 4 zdania; A/B/C 76/85/94 znaków.
+- Rozkład odpowiedzi A/B/C: 228/221/212. „Poprawna = jedyna najdłuższa”: 72/661 = 10,89%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x236-polimeryzujace-klasa-41-kontrola-temperatury-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x235 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x235**
 
@@ -155,6 +164,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x236 — polimeryzujące materiały klasy 4.1 i kontrola temperatury](raporty/etap-4x236-polimeryzujace-klasa-41-kontrola-temperatury-2026-10-31.md)
 - [Etap 4x235 — odpowiedzialność cywilna przewoźnika](raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md)
 - [Etap 4x234 — zakres załączników A i B](raporty/etap-4x234-zalaczniki-a-b-zakres-2026-10-31.md)
 - [Etap 4x233 — temperatura zapłonu klasy 3](raporty/etap-4x233-temperatura-zaplonu-klasa-3-2026-10-31.md)
