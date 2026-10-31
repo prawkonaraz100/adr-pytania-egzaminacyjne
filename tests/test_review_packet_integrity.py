@@ -123,7 +123,6 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         expected["ADR-B-03"] = 4
         expected["ADR-B-04"] = 4
         expected["ADR-B-05"] = 4
-        expected["ADR-B-05"] = 4
         self.assertEqual(counts, expected)
 
     def test_learner_and_instructor_artifacts_exist(self):
