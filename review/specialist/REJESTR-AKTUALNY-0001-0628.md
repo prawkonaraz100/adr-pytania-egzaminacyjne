@@ -827,7 +827,3 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0672 | ADR-B-13 | ADR-B-13-K05 | Środek identyfikacji ze zdjęciem dla każdego członka załogi | B | ADR 2025, 1.10.1.4; 8.1.2.1(d) | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-| ADR-B-0673 | ADR-B-02 | ADR-B-02-K13 | Bateria litowo-jonowa zapakowana razem z urządzeniem — UN 3481 | B | ADR 2025, 2.2.9.1.7.1; tabela A; 5.2.1.9.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0674 | ADR-B-02 | ADR-B-02-K06 | Odczyt I grupy pakowania materiału klasy 4.3 | B | ADR 2025, 1.2.1; 2.2.43.1.8(a)–(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0675 | ADR-B-02 | ADR-B-02-K06 | Kryterium II grupy pakowania: co najmniej 20 l/kg/h, bez kryteriów I grupy | A | ADR 2025, 2.2.43.1.8(b) | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0676 | ADR-B-02 | ADR-B-02-K06 | Kryterium III grupy pakowania: ponad 1 l/kg/h, bez kryteriów I/II grupy | C | ADR 2025, 2.2.43.1.8(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
