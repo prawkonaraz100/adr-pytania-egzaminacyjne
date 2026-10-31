@@ -925,4 +925,3 @@ Bank bieżący: 656 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `9
 | ADR-B-0659 | ADR-B-01 | ADR-B-01-K01 | Jak rozdzielono zakres wymagań między załączniki A i B ADR? | A | ADR 2025, Umowa ADR, art. 2; 1.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0660 | ADR-B-07 | ADR-B-07-K07 | Odpowiedzialność przewoźnika za nienależyte wykonanie umowy i działanie kierowcy | A | ADR 8.2.2.3.2(k); KC art. 471 i 474 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0661 | ADR-B-02 | ADR-B-02-K04 | Materiał polimeryzujący w DPPL, TSP 48°C — obowiązek kontroli temperatury | B | ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0661 | ADR-B-02 | ADR-B-02-K04 | Materiał polimeryzujący w DPPL, TSP 48°C — obowiązek kontroli temperatury | B | ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7 | — | NIEROZSTRZYGNIĘTE | needs_review |
