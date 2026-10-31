@@ -223,3 +223,8 @@ Przedstaw fikcyjną przesyłkę z wiertarką i zapasową baterią litowo-jonową
 ### Ćwiczenie: odczyt grupy pakowania materiału klasy 4.3
 
 Pokaż kursantowi fikcyjny fragment dokumentu przewozowego z pozycją klasy 4.3 i grupą pakowania I. Poproś o wyjaśnienie, że grupa I oznacza duże zagrożenie, a nie rodzaj opakowania. Omów, że w klasie 4.3 kryteria grupy I obejmują energiczną reakcję z wodą i tendencję wydzielanego gazu do samozapłonu albo szybkość wydzielania gazu palnego co najmniej 10 l/kg/min. Porównaj z grupą III, dla której ADR określa wolniejsze wydzielanie gazu. Podkreśl, że kierowca odczytuje grupę z dokumentu i nie wykonuje żadnych prób z wodą. Powiązane pytanie: ADR-B-0674 (needs_review). Podstawa: ADR 1.2.1 i 2.2.43.1.8.
+
+
+### Ćwiczenie: rozróżnienie II i III grupy pakowania — klasa 4.3
+
+Przedstaw kursantowi dwa fikcyjne wyniki badań materiałów już zaklasyfikowanych do klasy 4.3: 24 l/kg/h (bez kryteriów I grupy) oraz 5 l/kg/h (bez kryteriów I i II grupy). Poproś o przypisanie odpowiednio II i III grupy oraz wyjaśnienie, dlaczego próg 20 l/kg/h nie jest wymagany dla III grupy. Podkreśl, że kierowca odczytuje grupę z dokumentacji i nie wykonuje samodzielnie prób z wodą ani klasyfikacji materiału. Pytania kontrolne: ADR-B-0675 i ADR-B-0676 (`needs_review`). Podstawa: ADR 2.2.43.1.8(b)–(c).
