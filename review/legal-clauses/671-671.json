@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0671",
+      "order": 671,
+      "clause": "ADR 2025, 4.1.6.8",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0671",
+        "module_id": "ADR-B-02",
+        "stem": "Podczas kontroli przed załadunkiem kierowca widzi butlę z gazem bez kapturka na zaworze, ale butla jest przewożona w ramie ochronnej. Co powinien sprawdzić?",
+        "options": {
+          "A": "Bezwzględnie odmówić przyjęcia, ponieważ każda butla musi mieć własny metalowy kapturek, nawet gdy rama, skrzynia lub inna osłona chroni zawór.",
+          "B": "Sprawdzić, czy rama chroni zawór przed uszkodzeniem i przypadkowym uwolnieniem gazu; rama jest jedną z metod dopuszczonych przez ADR.",
+          "C": "Uznać butlę za gotową, bo wystarczy zamknięty zawór; jego osłona nie ma znaczenia, jeśli gaz nie wydostaje się przed załadunkiem."
+        },
+        "correct_option": "B",
+        "explanation": "Zawór butli musi być odporny na uszkodzenie albo odpowiednio chroniony, aby uderzenie nie spowodowało uwolnienia gazu. ADR dopuszcza różne rozwiązania, w tym ramę, osłonę, skrzynię lub właściwy kapturek, więc brak kapturka sam w sobie nie przesądza o naruszeniu. Samo zakręcenie zaworu nie zastępuje ochrony. Podstawa: ADR 4.1.6.8.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 4.1.6.8",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "ADR nie wymaga wyłącznie metalowego kapturka; dopuszcza kilka sposobów ochrony zaworu, w tym odpowiednią ramę, osłonę lub skrzynię."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Zawór musi być odporny na uszkodzenie lub chroniony przed przypadkowym uwolnieniem gazu; rama jest jedną z metod wskazanych w 4.1.6.8."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Zamknięcie zaworu nie chroni go przed uderzeniem ani uszkodzeniem podczas przewozu; ADR wymaga dodatkowej ochrony lub konstrukcji odpornej na uszkodzenie."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Brak osobnego kapturka nie przesądza o niezgodności, jeśli zawór jest konstrukcyjnie odporny na uszkodzenie lub chroniony jedną z metod wymienionych w ADR 4.1.6.8. Należy sprawdzić rzeczywiste zabezpieczenie, a nie sam wygląd butli.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

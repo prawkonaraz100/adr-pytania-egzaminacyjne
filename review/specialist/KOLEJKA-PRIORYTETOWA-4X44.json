@@ -2,10 +2,10 @@
   "stage": "4x44_secondary_priority_legal_review_queue",
   "date": "2026-10-27",
   "scope": "ADR-BASIC-ONLY",
-  "source_bank_blob_sha": "d4e74d64dc557d9c93e59bde4772bc7a972a92ae",
+  "source_bank_blob_sha": "8012802240554ba203baa2272adfced09b837471",
   "queue_basis": "Następna partia 20 ID z 121 rekordów bez zapisanego dosłownego fragmentu MI; wyłączono 20 ID z kolejki 4x40. Ranking heurystyczny premiuje liczby, wyjątki, klasy/oznakowanie o istotnym ryzyku, dokumenty i wymagania pojazdu.",
   "queue_count": 20,
-  "full_missing_quote_count": 139,
+  "full_missing_quote_count": 140,
   "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
   "policy": "Priorytet nie oznacza błędu. Nie zmieniać odpowiedzi ani statusu bez porównania z urzędowym tekstem i rzeczywistej recenzji specjalisty.",
   "records": [
@@ -371,13 +371,13 @@
     }
   ],
   "original_source_bank_blob_sha": "67da7457c1494d9e770324f42a6a30ef4e117567",
-  "unresolved_literal_comparisons": 434,
-  "manifest_unresolved_literal_comparisons": 434,
-  "current_bank_blob_sha": "d4e74d64dc557d9c93e59bde4772bc7a972a92ae",
-  "bank_blob_sha": "d4e74d64dc557d9c93e59bde4772bc7a972a92ae",
-  "exam_source_bank_head": "d4e74d64dc557d9c93e59bde4772bc7a972a92ae",
-  "question_count": 670,
-  "last_id": "ADR-B-0670",
+  "unresolved_literal_comparisons": 435,
+  "manifest_unresolved_literal_comparisons": 435,
+  "current_bank_blob_sha": "8012802240554ba203baa2272adfced09b837471",
+  "bank_blob_sha": "8012802240554ba203baa2272adfced09b837471",
+  "exam_source_bank_head": "8012802240554ba203baa2272adfced09b837471",
+  "question_count": 671,
+  "last_id": "ADR-B-0671",
   "stage4x242": {
     "question_id": "ADR-B-0667",
     "competency": "ADR-B-02-K08",
@@ -400,12 +400,24 @@
     "question_id": "ADR-B-0670",
     "competency": "ADR-B-02-K09",
     "review_status": "needs_review",
-    "exam_source_bank_head": "d4e74d64dc557d9c93e59bde4772bc7a972a92ae",
+    "exam_source_bank_head": "8012802240554ba203baa2272adfced09b837471",
     "explanation_length": 382,
     "option_lengths": {
       "A": 125,
       "B": 130,
       "C": 134
+    }
+  },
+  "stage4x246": {
+    "question_id": "ADR-B-0671",
+    "competency": "ADR-B-02-K02",
+    "review_status": "needs_review",
+    "exam_source_bank_head": "8012802240554ba203baa2272adfced09b837471",
+    "explanation_length": 331,
+    "option_lengths": {
+      "A": 143,
+      "B": 133,
+      "C": 129
     }
   }
 }

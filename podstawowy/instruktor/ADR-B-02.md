@@ -208,3 +208,8 @@ Przedstaw kursantowi fikcyjny zapis: TI 0,8 oraz maksymalny poziom promieniowani
 ### Ćwiczenie: uszkodzone opakowanie klasy 6.1
 
 Odegraj sytuację, w której podczas rozładunku uszkadza się opakowanie z nalepką 6.1, a z niego wysypuje się proszek. Zapytaj kursanta, dlaczego nie wolno go zamiatać, dotykać ani spłukiwać do odpływu. Oczekiwana decyzja: przerwać czynność, nie zbliżać się do pyłu, ostrzec innych i zastosować instrukcje pisemne oraz procedurę awaryjną. Nie instruuj kursanta do samodzielnego sprzątania ani używania środków ochrony, których nie ma i do których nie został przeszkolony. Powiązane pytanie: ADR-B-0670 (needs_review). Podstawa: ADR 2.2.61.1.1 i 5.4.3.4.
+
+
+### Ćwiczenie: butla w ramie bez osobnego kapturka
+
+Pokaż kursantowi butlę, której zawór nie ma osobnego kapturka, ale butla jest przewożona w ramie ochronnej. Poproś o wskazanie, co należy ocenić: czy zawór jest konstrukcyjnie odporny na uszkodzenie albo czy rama chroni go przed uderzeniem i przypadkowym uwolnieniem gazu. Zwróć uwagę na błąd polegający na uznaniu, że każda butla musi mieć wyłącznie metalowy kapturek, oraz na przeciwstawny błąd — że zamknięty zawór nie wymaga ochrony. Powiązane pytanie: ADR-B-0671 (needs_review). Podstawa: ADR 4.1.6.8.

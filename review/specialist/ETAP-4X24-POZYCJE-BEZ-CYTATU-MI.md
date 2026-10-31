@@ -176,3 +176,5 @@ Poniższe rekordy pozostają nierozstrzygnięte pod kątem dosłownego fragmentu
 - ADR-B-0669
 
 - ADR-B-0670
+
+- ADR-B-0671
