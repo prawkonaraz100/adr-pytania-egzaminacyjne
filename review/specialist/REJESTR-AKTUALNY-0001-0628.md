@@ -1,6 +1,13 @@
+## Bieżąca migawka — etap 4x223 (31.10.2026)
+
+- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `9951bd4edeaa844cfa5f07964ce4636d5637c35f`.
+- Raport: `podstawowy/raporty/etap-4x223-przeglad-explanation-10-2026-10-31.md`.
+- Zmieniono wyłącznie explanation dla ADR-B-0536, 0006, 0179, 0373, 0450, 0571, 0366, 0605, 0608 i 0089. Synchronizacja wariantów/kluczy 001–005 oraz snapshotów sequential/legal; pytania, A/B/C, klucze i statusy bez zmian.
+- Lista wcześniejszych przeglądów 4x156–4x222 została odtworzona; 624 unikalne ID, z uwzględnieniem zakresu 0611–0638 i 0646–0647. Wszystkie 10 pozycji 4x221 było powtórzeniami wcześniejszych partii.
+
 ## Bieżący snapshot — 4x218 (30.10.2026)
 
-- Bank 651 pytań `needs_review`, 0 `verified`; aktualny Git blob SHA `5e45a0dc14a2da0de4826443007002df880f4233`.
+- Bank 651 pytań `needs_review`, 0 `verified`; aktualny Git blob SHA `9951bd4edeaa844cfa5f07964ce4636d5637c35f`.
 - Raport: `podstawowy/raporty/etap-4x218-przeglad-explanation-10-2026-10-30.md`. Zmiany tylko explanation, bez recenzji prawnej specjalisty.
 
 ## Bieżąca migawka — etap 4x217 (30.10.2026)
