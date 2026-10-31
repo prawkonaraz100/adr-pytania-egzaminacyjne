@@ -18,7 +18,7 @@ Kierowca sprawdza dokument przewozowy materiału klasy 4.3 i widzi I grupę pako
 | B | 137 | **Poprawna** — I grupa oznacza duże zagrożenie; kryteria klasy 4.3 obejmują energiczną reakcję z wodą i możliwość samozapłonu gazu lub jego bardzo szybkie wydzielanie. |
 | C | 147 | Błędna — grupa pakowania opisuje stopień zagrożenia, a nie rodzaj opakowania; nie można jej zastąpić samą nalepką klasy. |
 
-Explanation: 350 znaków, 3 zdania. Najpierw wyjaśnia, dlaczego grupa I oznacza duże zagrożenie i jakie są kryteria klasy 4.3; następnie odróżnia grupę III i wyjaśnia, że grupa pakowania nie jest typem opakowania; na końcu wskazuje podstawę ADR. Poprawna B nie jest najdłuższą odpowiedzią.
+Explanation: 321 znaków, 3 zdania. Najpierw wyjaśnia, dlaczego grupa I oznacza duże zagrożenie i jakie są kryteria klasy 4.3; następnie odróżnia grupę III i wyjaśnia, że grupa pakowania nie jest typem opakowania; na końcu wskazuje podstawę ADR. Poprawna B nie jest najdłuższą odpowiedzią.
 
 ## 3. Podstawa prawna i ograniczenia
 
