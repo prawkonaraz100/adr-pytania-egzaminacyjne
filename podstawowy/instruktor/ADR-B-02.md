@@ -203,3 +203,8 @@ Pokaż kursantowi przesyłkę z oznaczeniem UN 3373 „MATERIAŁ BIOLOGICZNY, KA
 ### Ćwiczenie: kategoria przesyłki klasy 7 i dwa kryteria
 
 Przedstaw kursantowi fikcyjny zapis: TI 0,8 oraz maksymalny poziom promieniowania na powierzchni 0,7 mSv/h. Poproś o osobne odczytanie obu przedziałów z tabeli 5.1.5.3.4, a następnie o wskazanie, dlaczego stosuje się kategorię wyższą — III-YELLOW. Obserwuj, czy kursant nie wybiera kategorii wyłącznie na podstawie TI. Powiązane pytanie: ADR-B-0669 (needs_review). Podstawa: ADR 5.1.5.3.4(a) i tabela 5.1.5.3.4.
+
+
+### Ćwiczenie: uszkodzone opakowanie klasy 6.1
+
+Odegraj sytuację, w której podczas rozładunku uszkadza się opakowanie z nalepką 6.1, a z niego wysypuje się proszek. Zapytaj kursanta, dlaczego nie wolno go zamiatać, dotykać ani spłukiwać do odpływu. Oczekiwana decyzja: przerwać czynność, nie zbliżać się do pyłu, ostrzec innych i zastosować instrukcje pisemne oraz procedurę awaryjną. Nie instruuj kursanta do samodzielnego sprzątania ani używania środków ochrony, których nie ma i do których nie został przeszkolony. Powiązane pytanie: ADR-B-0670 (needs_review). Podstawa: ADR 2.2.61.1.1 i 5.4.3.4.

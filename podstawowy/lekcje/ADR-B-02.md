@@ -403,3 +403,8 @@ Oznaczenie UN 3373 oznacza materiał biologiczny kategorii B, należący do klas
 ### Klasa 7 — odczytanie kategorii przesyłki
 
 Przy odbiorze przesyłki klasy 7 kierowca nie powinien ustalać kategorii wyłącznie na podstawie wskaźnika transportowego (TI). ADR wymaga uwzględnienia zarówno TI, jak i maksymalnego poziomu promieniowania na powierzchni opakowania. Jeżeli oba kryteria wskazują różne kategorie, przyjmuje się kategorię wyższą. W ćwiczeniu TI 0,8 wskazuje II-YELLOW, a poziom 0,7 mSv/h na powierzchni — III-YELLOW, więc właściwa jest III-YELLOW. Powiązane pytanie: ADR-B-0669 (needs_review). Podstawa: ADR 5.1.5.3.4(a) i tabela 5.1.5.3.4.
+
+
+### Klasa 6.1 — uszkodzone opakowanie i ryzyko zatrucia
+
+Materiały klasy 6.1 mogą zaszkodzić człowiekowi przez wdychanie, kontakt ze skórą lub połknięcie. Jeśli podczas rozładunku uszkodzi się opakowanie i rozsypie się proszek, kierowca nie powinien go zamiatać, dotykać ani samodzielnie przepakowywać. Trzeba oddalić się od pyłu, ostrzec innych i postępować według instrukcji pisemnych oraz procedury awaryjnej. Powiązane pytanie: ADR-B-0670 (needs_review). Podstawa: ADR 2.2.61.1.1 i 5.4.3.4.

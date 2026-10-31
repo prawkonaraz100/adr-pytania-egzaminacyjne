@@ -1,3 +1,7 @@
+## Migawka bieżąca — 4x245
+
+Bank podstawowy: 670 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `d4e74d64dc557d9c93e59bde4772bc7a972a92ae`. Najnowsza partia: ADR-B-0670, klasa 6.1, uszkodzone opakowanie i bezpieczna reakcja kierowcy. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.
+
 ## Migawka bieżąca — 4x244
 
 Bank podstawowy: 669 pytań, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`. Najnowsza partia: ADR-B-0669, klasa 7, kategoria przesyłki i wskaźnik transportowy. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.

@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0670",
+      "order": 670,
+      "clause": "ADR 2025, 2.2.61.1.1; 5.4.3.4",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0670",
+        "module_id": "ADR-B-02",
+        "stem": "Podczas rozładunku uszkadza się opakowanie z nalepką 6.1 i wysypuje się z niego proszek. Pracownik chce zamieść rozsypaną substancję. Jak powinien zareagować kierowca?",
+        "options": {
+          "A": "Zamieść proszek na sucho, użyć zwykłych rękawic, zebrać go do worka i przenieść uszkodzone opakowanie poza strefę rozładunku.",
+          "B": "Nie dotykać ani nie sprzątać wycieku; oddalić się od pyłu, ostrzec innych i zastosować instrukcje pisemne oraz procedurę awaryjną.",
+          "C": "Zmyć rozsypaną substancję wodą do odpływu i kontynuować rozładunek, bo rozcieńczenie powinno ograniczyć kontakt z materiałem trującym."
+        },
+        "correct_option": "B",
+        "explanation": "Materiały klasy 6.1 mogą zatruć człowieka przez wdychanie, kontakt ze skórą lub połknięcie, dlatego nie wolno samodzielnie zbierać substancji z uszkodzonego opakowania. Zamiatanie może wzbić pył, a zwykłe rękawice lub spłukiwanie wodą nie zastępują ochrony i procedury. Oddal się, ostrzeż innych i wykonaj instrukcje pisemne oraz polecenia służb. Podstawa: ADR 2.2.61.1.1 i 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.61.1.1; 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Zamiatanie i przenoszenie rozsypanej substancji naraża kierowcę na pył i kontakt z materiałem trującym; zwykłe rękawice nie zastępują właściwej ochrony."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Materiały klasy 6.1 mogą działać toksycznie przez wdychanie, kontakt ze skórą lub połknięcie. Należy unikać kontaktu, oddalić się i postępować według instrukcji pisemnych."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Spłukiwanie do odpływu może rozprzestrzenić skażenie, a klasa 6.1 obejmuje również zagrożenie przez wdychanie i kontakt ze skórą."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Scenariusz dotyczy uszkodzonego opakowania i uwolnienia substancji klasy 6.1. Kierowca nie powinien podejmować samodzielnego sprzątania ani kontaktować się z materiałem; ma zastosować instrukcje pisemne ADR i procedurę awaryjną.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

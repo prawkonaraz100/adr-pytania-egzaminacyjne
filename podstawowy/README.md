@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x245 (31.10.2026)
+
+- Bank: 670 pytań ADR-B-0001–0670; 670 `needs_review`, 0 `verified`; blob SHA `d4e74d64dc557d9c93e59bde4772bc7a972a92ae`.
+- Dodano ADR-B-0670 do ADR-B-02-K09: sytuacyjna reakcja na uszkodzone opakowanie klasy 6.1 i rozsypaną substancję.
+- Explanation: 382 znaki, 4 zdania; A/B/C 125/130/134 znaków. Poprawna B nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=231, B=226, C=213; „poprawna = jedyna najdłuższa” 72/670 = 10,75%.
+- Raport: `podstawowy/raporty/etap-4x245-klasa-61-uszkodzone-opakowanie-2026-10-31.md`.
+
 ## Bieżąca migawka — etap 4x244 (31.10.2026)
 
 - Bank: 669 pytań ADR-B-0001–0669; 669 `needs_review`, 0 `verified`; blob SHA `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`.
