@@ -35,7 +35,7 @@ Pełne literalne porównanie polskiego tekstu urzędowego i niezależna recenzja
 - Bank: 659 rekordów ADR-B-0001–0659, ID ciągłe i unikalne; wszystkie `needs_review`, 0 `verified`.
 - Blob SHA banku: `edef07df45541eeea77726bb1d6f93d00d853627`.
 - Rozkład prawidłowych odpowiedzi: A=227, B=220, C=212.
-- Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 72/659 = 10,92%; maksimum działu 13,95%.
+- Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 72/659 = 10,93%; maksimum działu 13,95%.
 - Warianty i klucze egzaminów próbnych 001–005 wskazują nowy blob SHA banku.
 - Snapshoty dodano jako `review/sequential/659-659.json` i `review/legal-clauses/659-659.json`.
 - Ledger rozszerzono do `review/legal-polish/stage4w4-literal-verification-ledger-0610-0659.json`; manifesty 0628/0638, kolejki i rejestr pozycji bez cytatu zaktualizowano do 659 rekordów.
