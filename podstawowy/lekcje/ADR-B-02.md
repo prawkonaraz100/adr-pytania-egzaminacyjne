@@ -197,6 +197,7 @@ Scenariusz mapowy: SC-ADR-B-02 w pliku [scenariuszy praktycznych](../praktyka/sc
 - ADR-B-0623
 - ADR-B-0624
 - ADR-B-0625
+- ADR-B-0652
 
 ## Podstawa prawna
 - ADR 2025: [Dz.U. 2025 poz. 642](https://dziennikustaw.gov.pl/DU/2025/642) oraz [sprostowanie poz. 1575](https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf): część 2, w tym 2.2.1, 2.2.42.1.1, 2.2.43.1.1, 2.2.51.1.1, 2.2.52.1.2 i 2.2.52.1.4, 2.2.62.1.1–2, 2.2.9.1.7.2; tabela A 3.2 i nalepki 5.2.2.2.2.
@@ -321,13 +322,13 @@ Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw prz
  
 ### Klasa 8: materiały żrące (ADR-B-02-K12)
 
-**Co to znaczy w praktyce:** Klasa 8 ostrzega, że towar może działać żrąco, na przykład poważnie uszkodzić skórę lub niektóre materiały. Nie chodzi tu o promieniowanie ani o zakażenie — te zagrożenia należą do innych klas. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji.
+**Co to znaczy w praktyce:** Klasa 8 ostrzega, że towar może działać żrąco, na przykład poważnie uszkodzić skórę lub niektóre materiały. Definicja obejmuje także substancje, które przy wycieku mogą poważnie uszkodzić inne towary lub środek transportu, nawet jeśli nie powodują trwałego uszkodzenia skóry. Nie chodzi tu o promieniowanie ani o zakażenie — te zagrożenia należą do innych klas. Zamiast zgadywać na podstawie samego znaku, ilości czy polecenia, sprawdź warunki właściwe dla tej sytuacji. Podstawa: ADR 2.2.8.1.1.
 
 **Przykład do przemyślenia:** Jakie zagrożenie oznacza klasa 8 ADR?
 
 **Jak rozumować:** Działanie żrące To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
 
-**Sprawdź się:** `ADR-B-0005`. **Podstawa do kontroli:** ADR 2.2.8.
+**Sprawdź się:** `ADR-B-0005` i `ADR-B-0652`. **Podstawa do kontroli:** ADR 2.2.8.1.1.
  
 ### Klasa 9 i 9A: różne zagrożenia (ADR-B-02-K13)
 
