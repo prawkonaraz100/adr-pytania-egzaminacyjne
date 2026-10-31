@@ -1,4 +1,10 @@
-## Bieżąca migawka — etap 4x253 (31.10.2026)
+## Bieżąca migawka — etap 4x254 (31.10.2026)
+
+- Bank: 680 pytań ADR-B-0001–0680; wszystkie `needs_review`, 0 `verified`; SHA `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`.
+- ADR-B-0680 do ADR-B-03-K02: wymagany prefiks „ODPAD” w opisie odpadu w dokumencie ADR; karta przekazania odpadu nie zastępuje dokumentu ADR.
+- 680 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x254-odpad-dokument-przewozowy-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x253 (31.10.2026)
 
 - Bank: 679 pytań ADR-B-0001–0679; wszystkie `needs_review`, 0 `verified`; SHA `5df8cb5200a2c357cdcc04959893969d8ca448a0`.
 - Dodano ADR-B-0679 do ADR-B-01-K07: klasyfikacja przez nadawcę i kontrola przewoźnika przed rozpoczęciem przewozu; ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3, 5.4.1.1.1.
@@ -842,3 +848,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0243 | ADR-B-04 | ADR-B-04-K02 | Zakaz otwierania przez kierowcę i pomocnika; kontrola oznakowania z zewnątrz | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0678 | ADR-B-04 | ADR-B-04-K02 | Kierowca nie może zlecić pomocnikowi otwarcia sztuki przesyłki | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0679 | ADR-B-01 | ADR-B-01-K07 | Klasyfikacja nowego materiału przez nadawcę; kontrola dopuszczenia i kompletności danych przez przewoźnika przed rozpoczęciem przewozu | B | ADR 2025, 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3; 5.4.1.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0680 | ADR-B-03 | ADR-B-03-K02 | Prefiks „ODPAD” przed prawidłową nazwą przewozową odpadu w dokumencie ADR; karta przekazania odpadu nie zastępuje dokumentu | A | ADR 2025, 5.4.1.1.3.1; 5.4.1.1.1; 1.4.2.2.3 | — | NIEROZSTRZYGNIĘTE | needs_review |

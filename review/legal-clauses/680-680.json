@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0680",
+  "date": "2026-10-31",
+  "scope": "Targeted rule identified; full item-by-item official Polish comparison and independent specialist approval pending",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0680",
+      "order": 680,
+      "clause": "ADR 2025, 5.4.1.1.3.1, 5.4.1.1.1, 1.4.2.2.3",
+      "source_2025_comparison_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
+      "question_snapshot": {
+        "id": "ADR-B-0680",
+        "module_id": "ADR-B-03",
+        "stem": "Przy odbiorze odpadu zawierającego towary niebezpieczne kierowca widzi, że w dokumencie ADR brakuje słowa „ODPAD” przed prawidłową nazwą przewozową, choć nie jest ono częścią tej nazwy. Nadawca przekazuje też kartę przekazania odpadu. Co powinien zrobić kierowca?",
+        "options": {
+          "A": "Wstrzymać wyjazd i uzyskać od nadawcy poprawiony dokument ADR; karta odpadu go nie zastępuje.",
+          "B": "Samodzielnie dopisać „ODPAD” i podpisać zmianę, bo kierowca odpowiada za klasyfikację odpadu i treść dokumentu.",
+          "C": "Rozpocząć przewóz, bo numer UN i karta przekazania odpadu wystarczają zamiast poprawnego opisu ADR."
+        },
+        "correct_option": "A",
+        "explanation": "Przy odpadzie zawierającym towary niebezpieczne słowo „ODPAD” poprzedza prawidłową nazwę przewozową, chyba że to słowo już w niej występuje. Karta przekazania odpadu nie zastępuje opisu wymaganego w dokumencie ADR, a kierowca nie powinien sam dopisywać klasyfikacji ani poprawiać danych za nadawcę. Poproś o poprawiony dokument przed rozpoczęciem przewozu. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.3.1, 5.4.1.1.1, 1.4.2.2.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Przewoźnik nie powinien rozpoczynać przewozu z niekompletnym opisem; należy uzyskać poprawny dokument od nadawcy. Karta przekazania odpadu nie zastępuje danych ADR."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Kierowca nie ma przejmować obowiązku klasyfikacji ani samodzielnie dopisywać brakujących danych za nadawcę."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Numer UN i karta odpadu nie usuwają braku wymaganego elementu prawidłowej nazwy przewozowej w dokumencie ADR."
+        }
+      },
+      "notes_on_conditions": "ADR 5.4.1.1.3.1: słowo ODPAD poprzedza prawidłową nazwę przewozową odpadu zawierającego towary niebezpieczne, chyba że jest już częścią nazwy. Osobna karta przekazania odpadu nie zastępuje wymaganego dokumentu ADR. Pytanie nie przypisuje kierowcy samodzielnej klasyfikacji ani edycji dokumentu. Pełne porównanie tekstu pytania i niezależna recenzja specjalisty pozostają pending.",
+      "editorial_result": "targeted_rule_identified_full_literal_question_and_specialist_review_pending",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}

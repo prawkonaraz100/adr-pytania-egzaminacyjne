@@ -1,6 +1,14 @@
-**Stan na 31.10.2026, etap 4x253**
+**Stan na 31.10.2026, etap 4x254**
 
-## Bieżąca migawka — etap 4x253 (31.10.2026)
+## Bieżąca migawka — etap 4x254 (31.10.2026)
+
+- Dodano ADR-B-0680 do ADR-B-03-K02: wymagany prefiks „ODPAD” w dokumencie ADR i odróżnienie go od karty przekazania odpadu (ADR 5.4.1.1.3.1, 5.4.1.1.1, 1.4.2.2.3).
+- Explanation 406 znaków, 4 zdania; A/B/C 93/111/99, poprawna A nie jest najdłuższa.
+- Bank: 680 pytań ADR-B-0001–0680; 680 `needs_review`, 0 `verified`; SHA `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`.
+- A/B/C: 233/231/216; poprawna = jedyna najdłuższa: 72/680 = 10,59%.
+- Raport: `raporty/etap-4x254-odpad-dokument-przewozowy-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x253 (31.10.2026)
 
 - Dodano ADR-B-0679 do ADR-B-01-K07: rozdzielenie klasyfikacji towaru przez nadawcę od kontroli przewoźnika, kompletności danych i wstrzymania przewozu przy brakach (ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3, 5.4.1.1.1).
 - Explanation 375 znaków, 3 zdania; A/B/C 119/108/117, poprawna B nie jest najdłuższa.
@@ -323,6 +331,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x254 — dokument przewozowy odpadu](raporty/etap-4x254-odpad-dokument-przewozowy-2026-10-31.md)
 - [Etap 4x253 — odpowiedzialność za klasyfikację i dane ADR](raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md)
 - [Etap 4x252 — zakaz otwierania przesyłek ADR](raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md)
 - [Etap 4x251 — mały pożar opon, hamulców lub silnika](raporty/etap-4x251-maly-pozar-opony-hamulce-silnik-2026-10-31.md)

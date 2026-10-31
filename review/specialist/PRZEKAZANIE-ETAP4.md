@@ -1,4 +1,10 @@
-## Bieżąca migawka — etap 4x253 (31.10.2026)
+## Bieżąca migawka — etap 4x254 (31.10.2026)
+
+- Bank: 680 pytań ADR-B-0001–0680; wszystkie `needs_review`, 0 `verified`; SHA `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`.
+- Dodano ADR-B-0680 do ADR-B-03-K02: wymagany prefiks „ODPAD” w opisie odpadu w dokumencie ADR; karta przekazania odpadu nie zastępuje dokumentu przewozowego. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.
+- Egzaminy 001–005, snapshoty sequential/legal, ledger, indeks i manifesty zsynchronizowane; raport: `podstawowy/raporty/etap-4x254-odpad-dokument-przewozowy-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x253 (31.10.2026)
 
 - Bank: 679 pytań ADR-B-0001–0679; wszystkie `needs_review`, 0 `verified`; SHA `5df8cb5200a2c357cdcc04959893969d8ca448a0`.
 - Dodano ADR-B-0679 do ADR-B-01-K07: nadawca odpowiada za klasyfikację i dane, przewoźnik sprawdza dopuszczenie i kompletność informacji przed przewozem. Podstawa: ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3 i 5.4.1.1.1.

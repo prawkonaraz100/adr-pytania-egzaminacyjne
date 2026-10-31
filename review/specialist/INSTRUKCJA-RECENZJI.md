@@ -1,4 +1,8 @@
-## Migawka bieżąca — 4x253
+## Migawka bieżąca — 4x254
+
+Bank podstawowy: 680 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`. Najnowsza zmiana: ADR-B-0680, dokument przewozowy odpadu i wymagany prefiks „ODPAD” (ADR 5.4.1.1.3.1, 5.4.1.1.1, 1.4.2.2.3). Snapshoty 680-680, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; pełne literalne porównanie i niezależna recenzja specjalisty pozostają pending.
+
+## Poprzednia migawka — 4x253
 
 Bank podstawowy: 679 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `5df8cb5200a2c357cdcc04959893969d8ca448a0`. Najnowsza zmiana: ADR-B-0679, rozdzielenie obowiązków nadawcy i przewoźnika przy klasyfikacji i danych ADR (1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3, 5.4.1.1.1). Snapshoty 679-679, ledger i egzaminy 001–005 wskazują nowy bank; pełna literalna recenzja i niezależna recenzja specjalisty pozostają pending.
 
