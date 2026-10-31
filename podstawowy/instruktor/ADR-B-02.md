@@ -154,3 +154,8 @@ Na koniec omów pytania `ADR-B-0004`, `ADR-B-0005`, `ADR-B-0006`, `ADR-B-0042`, 
 ### Zadanie: odczyt trzech pól tabeli A
 
 Na fikcyjnym wpisie pokaż kolumnę 3a = 3, kolumnę 4 = II oraz kolumnę 5 = 3 i 6.1. Poproś kursanta, aby oddzielnie wyjaśnił rodzaj zagrożenia, stopień zagrożenia i znaczenie obu nalepek. Następnie zapytaj, czy dwie nalepki oznaczają dwa towary (nie) i co powinien zrobić, gdy oznakowanie przesyłki nie zgadza się z dokumentami (wstrzymać czynność i wyjaśnić rozbieżność). Kryterium: nie utożsamia klasy z grupą pakowania i nie pomija zagrożenia dodatkowego. Podstawa do sprawdzenia: ADR 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1. Powiązane pytanie w banku: ADR-B-0655 (status needs_review).
+
+
+### Zadanie: rozpoznanie gazu palnego 2.1
+
+Pokaż kursantowi czerwoną nalepkę z płomieniem i numerem 2.1. Poproś o wyjaśnienie, dlaczego wyciek może zapalić się od źródła zapłonu, a następnie porównaj znak z zieloną nalepką 2.2 i białą 2.3. Kryterium: kursant odróżnia gaz palny od niepalnego i trującego oraz nie utożsamia wszystkich gazów klasy 2. Powiązane pytanie: ADR-B-0657 (needs_review). Podstawa: ADR 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2.
