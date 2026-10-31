@@ -33,10 +33,10 @@ Pytanie nie wymaga od kierowcy samodzielnego klasyfikowania materiału ani wykon
 ## 4. Kontrola banku
 
 - Liczba pytań: 674; ID ADR-B-0001–ADR-B-0674 ciągłe i unikalne.
-- Status: 674 `needs_review`, 0 `verified`.
+- Status: 676 `needs_review`, 0 `verified`.
 - Blob SHA `questions.jsonl`: `841c502032f62580f23608820747827f70b00df0`.
-- Rozkład poprawnych opcji: A=231, B=230, C=213.
-- „Poprawna odpowiedź jest jedyną najdłuższą”: 72/674 = 10,68%; maksimum działu 13,95%.
+- Rozkład poprawnych opcji: A=232, B=230, C=214.
+- „Poprawna odpowiedź jest jedyną najdłuższą”: 73/676 = 10,80%; maksimum działu 13,95%.
 - Kompetencja ADR-B-02-K06 została uzupełniona o ADR-B-0674; dział ADR-B-02 ma 77 pytań.
 
 ## 5. Synchronizacja
