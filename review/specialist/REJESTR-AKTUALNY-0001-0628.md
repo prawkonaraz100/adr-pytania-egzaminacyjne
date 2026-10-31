@@ -2,7 +2,7 @@
 
 - Bank: 678 pytań ADR-B-0001–0678; wszystkie `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
 - ADR-B-0678 dodano do K02; ADR-B-0011, 0048 i 0243 skorygowano do dokładnego zakresu ADR 8.3.3: kierowca i pomocnik kierowcy.
-- 42 scenariusze praktyczne; B-03, B-04 i B-05 mają po 4. Literalna kontrola polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
+- 42 scenariusze praktyczne; B-03, B-04 i B-05 mają po 4. 442 literalne porównania polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
 - Raport: `podstawowy/raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md`.
 
 ## Poprzednia migawka — etap 4x249 (31.10.2026)
