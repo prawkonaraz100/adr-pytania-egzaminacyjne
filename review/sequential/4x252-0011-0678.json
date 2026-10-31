@@ -1,0 +1,156 @@
+{
+  "batch": "4x252-ADR-B-0011-0678",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0011",
+      "sequence": 11,
+      "exact_record_snapshot": {
+        "id": "ADR-B-0011",
+        "module_id": "ADR-B-04",
+        "stem": "Czy kierowca może samowolnie otworzyć sztukę przesyłki zawierającą towar niebezpieczny?",
+        "options": {
+          "A": "Tak, jeśli chce sprawdzić zapach zawartości",
+          "B": "Tak, jeżeli pojazd stoi już na parkingu, a kierowca sprawdza zawartość opakowania",
+          "C": "Nie; kierowca nie może otwierać sztuk przesyłek z towarami niebezpiecznymi."
+        },
+        "correct_option": "C",
+        "explanation": "Kierowca nie może otworzyć paczki z towarem niebezpiecznym, nawet jeśli chce tylko sprawdzić zapach albo obejrzeć zawartość. Postój na parkingu nie zmienia tej zasady, a do sprawdzenia danych służą dokumenty i oznakowanie widoczne na zewnątrz. Nie myl zakazu z samowolą: kierowca nie może też przekazać takiego otwarcia pomocnikowi. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "options": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "official_ADR_2025_Polish_PDF_identified; clause-level_literal_comparison_and_specialist_review_pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0048",
+      "sequence": 48,
+      "exact_record_snapshot": {
+        "id": "ADR-B-0048",
+        "module_id": "ADR-B-04",
+        "stem": "Odbiorca prosi pomocnika kierowcy o otwarcie paczki ADR, a kierowca nie prowadzi w tej chwili pojazdu. Kogo obejmuje zakaz z ADR 8.3.3?",
+        "options": {
+          "A": "Tylko kierowcę prowadzącego pojazd; pomocnik może otworzyć paczkę na postoju.",
+          "B": "Każdą osobę znajdującą się w pojeździe, niezależnie od jej funkcji.",
+          "C": "Kierowcę oraz pomocnika kierowcy; obaj nie mogą otwierać takich paczek."
+        },
+        "correct_option": "C",
+        "explanation": "Zakaz obejmuje zarówno kierowcę, jak i pomocnika kierowcy, więc odbiorca nie może uzyskać otwarcia paczki przez poproszenie drugiej osoby. Nie ma znaczenia, kto akurat prowadzi pojazd ani czy pojazd stoi. Nie rozszerzaj jednak brzmienia tego konkretnego punktu na każdą osobę w pojeździe bez sprawdzenia jej roli. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "options": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "official_ADR_2025_Polish_PDF_identified; clause-level_literal_comparison_and_specialist_review_pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0243",
+      "sequence": 243,
+      "exact_record_snapshot": {
+        "id": "ADR-B-0243",
+        "module_id": "ADR-B-04",
+        "stem": "Czy kierowca lub pomocnik kierowcy może otworzyć sztukę przesyłki ADR podczas przewozu, aby sprawdzić jej oznakowanie od środka?",
+        "options": {
+          "A": "Tak, jeśli założy rękawice i nie dotknie samego towaru.",
+          "B": "Tak, jeśli paczka nie jest uszkodzona, a kontrola potrwa tylko chwilę.",
+          "C": "Nie; oznakowanie należy sprawdzić z zewnątrz, bez otwierania paczki."
+        },
+        "correct_option": "C",
+        "explanation": "Kierowca ani pomocnik kierowcy nie mogą otworzyć sztuki przesyłki, także po to, by sprawdzić jej zawartość lub oznakowanie. Dane potrzebne do kontroli należy odczytać z dokumentów i zewnętrznych oznaczeń opakowania. Rękawice, krótki postój ani dobry wygląd paczki nie tworzą wyjątku od zakazu. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "options": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "official_ADR_2025_Polish_PDF_identified; clause-level_literal_comparison_and_specialist_review_pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0678",
+      "sequence": 678,
+      "exact_record_snapshot": {
+        "id": "ADR-B-0678",
+        "module_id": "ADR-B-04",
+        "stem": "Kierowca chce sprawdzić zawartość paczki ADR przed wydaniem jej odbiorcy. Prosi pomocnika kierowcy, aby otworzył opakowanie za niego. Czy takie rozwiązanie jest dozwolone?",
+        "options": {
+          "A": "Tak, ponieważ zakaz dotyczy tylko osoby, która w danej chwili prowadzi pojazd.",
+          "B": "Tak, jeśli pomocnik ma rękawice i otworzy paczkę ostrożnie, bez rozsypywania zawartości.",
+          "C": "Nie; kierowca nie może otworzyć paczki ani zlecić tego pomocnikowi kierowcy."
+        },
+        "correct_option": "C",
+        "explanation": "Nie wolno obchodzić zakazu przez poproszenie drugiej osoby o wykonanie czynności. ADR 8.3.3 zabrania otwierania paczek zarówno kierowcy, jak i pomocnikowi kierowcy, więc zmiana osoby niczego nie zmienia. Rękawice ani ostrożność nie tworzą wyjątku; zawartość i oznaczenia sprawdza się bez otwierania opakowania. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "options": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "official_ADR_2025_Polish_PDF_identified; clause-level_literal_comparison_and_specialist_review_pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
