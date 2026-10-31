@@ -7,7 +7,7 @@ Nowe pytanie: `ADR-B-0678`; poprawione pytania: `ADR-B-0011`, `ADR-B-0048`, `ADR
 
 ## Najważniejsze ustalenie audytu prawnego
 
-Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmujący „wszystkich członków załogi”. Przepis 8.3.3 wskazuje kierowcę i pomocnika kierowcy (w oficjalnym tekście angielskim: „A driver or a driver's assistant may not open a package containing dangerous goods”). Nie należy bez podstawy rozszerzać konkretnego przepisu na każdą osobę znajdującą się w pojeździe. Podstawą polską jest Umowa ADR 2025 ogłoszona w Dz.U. 2025 poz. 642; oficjalny polski tom II ADR 2025 udostępnia Ministerstwo Infrastruktury. Dokładny ustęp polskiego PDF nie został jeszcze literalnie porównany, a niezależna recenzja specjalisty pozostaje do wykonania. Po dodaniu ADR-B-0678 liczba rekordów bez literalnego porównania polskiego tekstu wynosi 442.
+Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmujący „wszystkich członków załogi”. Przepis 8.3.3 wskazuje kierowcę i pomocnika kierowcy (w oficjalnym tekście angielskim: „A driver or a driver's assistant may not open a package containing dangerous goods”). Nie należy bez podstawy rozszerzać konkretnego przepisu na każdą osobę znajdującą się w pojeździe. Podstawą polską jest Umowa ADR 2025 ogłoszona w Dz.U. 2025 poz. 642; oficjalny polski tom II ADR 2025 udostępnia Ministerstwo Infrastruktury. Dokładne brzmienie polskiego ADR 2025, 8.3.3, zostało sprawdzone w oficjalnym materiale Ministerstwa Infrastruktury: „Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne.” Potwierdza to zakres ograniczony do kierowcy i pomocnika kierowcy. Niezależna recenzja specjalisty oraz pełne porównanie wszystkich elementów pytań nadal pozostają do wykonania. Po dodaniu ADR-B-0678 liczba rekordów bez literalnego porównania polskiego tekstu wynosi 442.
 
 ## Zmiany banku
 
@@ -33,6 +33,10 @@ Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmu
 - Dz.U. 2025 poz. 642: https://dziennikustaw.gov.pl/DU/2025/642
 - Oficjalny polski tom II ADR 2025, Ministerstwo Infrastruktury: https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8
 - Oficjalny tekst ADR 2025 UNECE, tom II: https://unece.org/adr-2025-files
+
+## Naprawa CI — PR #722
+
+Pierwszy Quality Gate zakończył się błędem w `test_current_repository_structure`: skrypt zlicza osobne, niearchiwalne rejestry `review/specialist/REJESTR-*.md` i wykrył 677 wpisów przy 678 rekordach banku. Brakował osobny plik `REJESTR-0678-0678.md`; dodano go na tej samej gałęzi. Pełny bieżący rejestr `REJESTR-AKTUALNY-0001-0628.md` nie zastępuje rejestru przyrostowego używanego przez tę kontrolę. Po poprawce ponownie uruchomiono Quality Gate; wynik potwierdzony w PR.
 
 ## Stan po partii
 
