@@ -1,4 +1,13 @@
-## Bieżąca migawka — etap 4x233 (31.10.2026)
+## Bieżąca migawka — etap 4x234 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x234**
+
+- Bank: 659 pytań; 659 `needs_review`, 0 `verified`; blob SHA `edef07df45541eeea77726bb1d6f93d00d853627`.
+- Dodano ADR-B-0659 do ADR-B-01-K01: zakres załączników A i B ADR. Explanation 426 znaków, 4 zdania; A/B/C 107/159/159 znaków.
+- Rozkład odpowiedzi A/B/C: 227/220/212. „Poprawna = jedyna najdłuższa”: 72/659 = 10,93%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x234-zalaczniki-a-b-zakres-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x233 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x233**
 
@@ -137,6 +146,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x234 — zakres załączników A i B](raporty/etap-4x234-zalaczniki-a-b-zakres-2026-10-31.md)
 - [Etap 4x233 — temperatura zapłonu klasy 3](raporty/etap-4x233-temperatura-zaplonu-klasa-3-2026-10-31.md)
 - [Etap 4x232 — gazy palne klasy 2.1](raporty/etap-4x232-gazy-palne-klasy-21-2026-10-31.md)
 - [Etap 4x231 — wyłączenie dla przewozu pomocniczego przedsiębiorstwa](raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md)

@@ -1,4 +1,12 @@
-## Bieżąca migawka — etap 4x233 (31.10.2026)
+## Bieżąca migawka — etap 4x234 (31.10.2026)
+
+- Bank: 659 pytań `needs_review`, 0 `verified`; ADR-B-0001–0659, blob SHA `edef07df45541eeea77726bb1d6f93d00d853627`.
+- Dodano ADR-B-0659 do ADR-B-01-K01: rozróżnienie zakresu załączników A (towary i warunki przewozu) oraz B (pojazdy i operacje transportowe).
+- Explanation: 426 znaków, 4 zdania; A/B/C 107/159/159 znaków.
+- Raport: `podstawowy/raporty/etap-4x234-zalaczniki-a-b-zakres-2026-10-31.md`.
+- Wszystkie pytania pozostają `needs_review`; 0 `verified`, 0 formalnych zatwierdzeń. Literalna recenzja polskiego tekstu i niezależna recenzja specjalisty nadal wymagane.
+
+## Poprzednia migawka — etap 4x233 (31.10.2026)
 
 - Bank: 658 pytań `needs_review`, 0 `verified`; ADR-B-0001–0658, blob SHA `9b107642362dc3871d4434304dbfaba14ab3d3b6`.
 - Dodano ADR-B-0658 do ADR-B-02-K03: definicja temperatury zapłonu z 1.2.1 i kryteria klasy 3 z 2.2.3.1.1.

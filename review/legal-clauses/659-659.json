@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0659",
+      "order": 659,
+      "clause": "ADR 2025, Umowa ADR, art. 2; 1.1.1",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0659",
+        "module_id": "ADR-B-01",
+        "stem": "Przewoźnik szuka w ADR wymagań dotyczących opakowania i oznakowania towaru, a osobno zasad dotyczących pojazdu i pracy załogi. Jak rozdzielono te zakresy między załączniki A i B?",
+        "options": {
+          "A": "Załącznik A dotyczy towarów i warunków ich przewozu, a załącznik B — pojazdów oraz operacji transportowych.",
+          "B": "Załącznik A określa przede wszystkim budowę, wyposażenie i zatwierdzanie pojazdu, natomiast załącznik B opisuje klasyfikację, opakowania i oznakowanie towarów.",
+          "C": "Załącznik A zawiera wyłącznie listę towarów i numery UN, a załącznik B obejmuje pozostałe wymagania, w tym klasyfikację, pakowanie, oznakowanie i dokumentację."
+        },
+        "correct_option": "A",
+        "explanation": "Załącznik A dotyczy towarów niebezpiecznych i warunków ich przewozu, takich jak klasyfikacja, pakowanie oraz oznakowanie. Załącznik B opisuje sprzęt i operacje przewozowe, w tym wymagania dla załogi oraz konstrukcję i zatwierdzanie pojazdów. Nie zamieniaj tych zakresów: najpierw ustal, czy szukasz przepisu o towarze, czy o pojeździe i przebiegu przewozu. Podstawa: artykuł 2 Umowy ADR oraz ogólny przepis o strukturze umowy.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, Umowa ADR, art. 2; 1.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Opcja A prawidłowo rozdziela zakres załącznika A (towary i warunki ich przewozu) oraz załącznika B (pojazdy i operacje transportowe)."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Opcja B odwraca zakresy załączników A i B."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opcja C błędnie ogranicza załącznik A do listy UN i przenosi do B wymagania dotyczące towarów."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "Pytanie dotyczy ogólnego podziału zakresu załączników, a nie kompletnego wykazu wszystkich części i przepisów. Szczegółowe wymagania trzeba odszukać w odpowiedniej części ADR. Formalna recenzja polskiego tekstu i niezależna recenzja A/B/C pozostają otwarte.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

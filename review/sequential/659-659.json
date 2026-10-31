@@ -1,0 +1,48 @@
+{
+  "batch": "659-659",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0659",
+      "sequence": 659,
+      "exact_record_snapshot": {
+        "stem": "Przewoźnik szuka w ADR wymagań dotyczących opakowania i oznakowania towaru, a osobno zasad dotyczących pojazdu i pracy załogi. Jak rozdzielono te zakresy między załączniki A i B?",
+        "options": {
+          "A": "Załącznik A dotyczy towarów i warunków ich przewozu, a załącznik B — pojazdów oraz operacji transportowych.",
+          "B": "Załącznik A określa przede wszystkim budowę, wyposażenie i zatwierdzanie pojazdu, natomiast załącznik B opisuje klasyfikację, opakowania i oznakowanie towarów.",
+          "C": "Załącznik A zawiera wyłącznie listę towarów i numery UN, a załącznik B obejmuje pozostałe wymagania, w tym klasyfikację, pakowanie, oznakowanie i dokumentację."
+        },
+        "correct_option": "A",
+        "explanation": "Załącznik A dotyczy towarów niebezpiecznych i warunków ich przewozu, takich jak klasyfikacja, pakowanie oraz oznakowanie. Załącznik B opisuje sprzęt i operacje przewozowe, w tym wymagania dla załogi oraz konstrukcję i zatwierdzanie pojazdów. Nie zamieniaj tych zakresów: najpierw ustal, czy szukasz przepisu o towarze, czy o pojeździe i przebiegu przewozu. Podstawa: artykuł 2 Umowy ADR oraz ogólny przepis o strukturze umowy.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, Umowa ADR, art. 2; 1.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_agreement_article_2_and_structure_section_1.1.1_referenced_to_distinguish_annex_A_goods_requirements_from_annex_B_transport_equipment_and_operations; literal_polish_text_comparison_pending",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Pytanie dotyczy ogólnego rozdziału zakresu załączników A i B: A obejmuje przepisy dotyczące towarów i warunków przewozu, B — wyposażenie transportowe i operacje przewozowe. Pełna recenzja polskiego tekstu i niezależna recenzja specjalisty pozostają otwarte.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
