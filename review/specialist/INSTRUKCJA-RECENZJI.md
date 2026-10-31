@@ -1,4 +1,11 @@
-## Bieżąca migawka — etap 4x234 (31.10.2026)
+## Bieżąca migawka — etap 4x235 (31.10.2026)
+
+- Bank: 660 pytań `needs_review`, 0 `verified`; ADR-B-0001–0660, blob SHA `d900e67721ee4b9ef962a0a7479ecdcd2c6f01ec`.
+- Dodano ADR-B-0660 do ADR-B-07-K07; scenariusz odpowiedzialności przewoźnika za nienależyte wykonanie umowy i działania kierowcy.
+- Raport: `podstawowy/raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md`.
+- Literalna recenzja polskiego tekstu ADR i niezależna recenzja specjalisty pozostają wymagane.
+
+## Poprzednia migawka — etap 4x234 (31.10.2026)
 
 - Bank: 659 pytań `needs_review`, 0 `verified`; ADR-B-0001–0659, blob SHA `edef07df45541eeea77726bb1d6f93d00d853627`.
 - Dodano ADR-B-0659 do ADR-B-01-K01: rozróżnienie zakresu załączników A (towary i warunki przewozu) oraz B (pojazdy i operacje transportowe).
