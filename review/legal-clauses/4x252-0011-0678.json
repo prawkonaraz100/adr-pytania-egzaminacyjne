@@ -1,0 +1,193 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0011",
+      "order": 11,
+      "clause": "ADR 2025, 8.3.3",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "question_snapshot": {
+        "id": "ADR-B-0011",
+        "module_id": "ADR-B-04",
+        "stem": "Czy kierowca może samowolnie otworzyć sztukę przesyłki zawierającą towar niebezpieczny?",
+        "options": {
+          "A": "Tak, jeśli chce sprawdzić zapach zawartości",
+          "B": "Tak, jeżeli pojazd stoi już na parkingu, a kierowca sprawdza zawartość opakowania",
+          "C": "Nie; kierowca nie może otwierać sztuk przesyłek z towarami niebezpiecznymi."
+        },
+        "correct_option": "C",
+        "explanation": "Kierowca nie może otworzyć paczki z towarem niebezpiecznym, nawet jeśli chce tylko sprawdzić zapach albo obejrzeć zawartość. Postój na parkingu nie zmienia tej zasady, a do sprawdzenia danych służą dokumenty i oznakowanie widoczne na zewnątrz. Nie myl zakazu z samowolą: kierowca nie może też przekazać takiego otwarcia pomocnikowi. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź błędnie dopuszcza otwarcie lub zawęża/rozszerza zakres zakazu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Rękawice, postój ani ostrożność nie tworzą wyjątku od ADR 8.3.3."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Kierowca nie może sam otworzyć sztuki przesyłki z towarem niebezpiecznym."
+        }
+      },
+      "notes_on_conditions": "ADR 8.3.3 wskazuje kierowcę i pomocnika kierowcy. Nie należy automatycznie rozszerzać tego konkretnego zakazu na każdą osobę znajdującą się w pojeździe. Oficjalny polski tom II ADR 2025 jest wskazany; literalne porównanie ustępu i niezależna recenzja specjalisty pozostają pending.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0048",
+      "order": 48,
+      "clause": "ADR 2025, 8.3.3",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "question_snapshot": {
+        "id": "ADR-B-0048",
+        "module_id": "ADR-B-04",
+        "stem": "Odbiorca prosi pomocnika kierowcy o otwarcie paczki ADR, a kierowca nie prowadzi w tej chwili pojazdu. Kogo obejmuje zakaz z ADR 8.3.3?",
+        "options": {
+          "A": "Tylko kierowcę prowadzącego pojazd; pomocnik może otworzyć paczkę na postoju.",
+          "B": "Każdą osobę znajdującą się w pojeździe, niezależnie od jej funkcji.",
+          "C": "Kierowcę oraz pomocnika kierowcy; obaj nie mogą otwierać takich paczek."
+        },
+        "correct_option": "C",
+        "explanation": "Zakaz obejmuje zarówno kierowcę, jak i pomocnika kierowcy, więc odbiorca nie może uzyskać otwarcia paczki przez poproszenie drugiej osoby. Nie ma znaczenia, kto akurat prowadzi pojazd ani czy pojazd stoi. Nie rozszerzaj jednak brzmienia tego konkretnego punktu na każdą osobę w pojeździe bez sprawdzenia jej roli. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź błędnie dopuszcza otwarcie lub zawęża/rozszerza zakres zakazu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Rękawice, postój ani ostrożność nie tworzą wyjątku od ADR 8.3.3."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "ADR 8.3.3 wymienia kierowcę i pomocnika kierowcy, a nie ogólnie każdą osobę w pojeździe."
+        }
+      },
+      "notes_on_conditions": "ADR 8.3.3 wskazuje kierowcę i pomocnika kierowcy. Nie należy automatycznie rozszerzać tego konkretnego zakazu na każdą osobę znajdującą się w pojeździe. Oficjalny polski tom II ADR 2025 jest wskazany; literalne porównanie ustępu i niezależna recenzja specjalisty pozostają pending.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0243",
+      "order": 243,
+      "clause": "ADR 2025, 8.3.3",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "question_snapshot": {
+        "id": "ADR-B-0243",
+        "module_id": "ADR-B-04",
+        "stem": "Czy kierowca lub pomocnik kierowcy może otworzyć sztukę przesyłki ADR podczas przewozu, aby sprawdzić jej oznakowanie od środka?",
+        "options": {
+          "A": "Tak, jeśli założy rękawice i nie dotknie samego towaru.",
+          "B": "Tak, jeśli paczka nie jest uszkodzona, a kontrola potrwa tylko chwilę.",
+          "C": "Nie; oznakowanie należy sprawdzić z zewnątrz, bez otwierania paczki."
+        },
+        "correct_option": "C",
+        "explanation": "Kierowca ani pomocnik kierowcy nie mogą otworzyć sztuki przesyłki, także po to, by sprawdzić jej zawartość lub oznakowanie. Dane potrzebne do kontroli należy odczytać z dokumentów i zewnętrznych oznaczeń opakowania. Rękawice, krótki postój ani dobry wygląd paczki nie tworzą wyjątku od zakazu. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź błędnie dopuszcza otwarcie lub zawęża/rozszerza zakres zakazu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Rękawice, postój ani ostrożność nie tworzą wyjątku od ADR 8.3.3."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Kierowca i pomocnik nie mogą otworzyć przesyłki nawet po to, by zajrzeć do środka; oznakowanie sprawdza się z zewnątrz."
+        }
+      },
+      "notes_on_conditions": "ADR 8.3.3 wskazuje kierowcę i pomocnika kierowcy. Nie należy automatycznie rozszerzać tego konkretnego zakazu na każdą osobę znajdującą się w pojeździe. Oficjalny polski tom II ADR 2025 jest wskazany; literalne porównanie ustępu i niezależna recenzja specjalisty pozostają pending.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0678",
+      "order": 678,
+      "clause": "ADR 2025, 8.3.3",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "question_snapshot": {
+        "id": "ADR-B-0678",
+        "module_id": "ADR-B-04",
+        "stem": "Kierowca chce sprawdzić zawartość paczki ADR przed wydaniem jej odbiorcy. Prosi pomocnika kierowcy, aby otworzył opakowanie za niego. Czy takie rozwiązanie jest dozwolone?",
+        "options": {
+          "A": "Tak, ponieważ zakaz dotyczy tylko osoby, która w danej chwili prowadzi pojazd.",
+          "B": "Tak, jeśli pomocnik ma rękawice i otworzy paczkę ostrożnie, bez rozsypywania zawartości.",
+          "C": "Nie; kierowca nie może otworzyć paczki ani zlecić tego pomocnikowi kierowcy."
+        },
+        "correct_option": "C",
+        "explanation": "Nie wolno obchodzić zakazu przez poproszenie drugiej osoby o wykonanie czynności. ADR 8.3.3 zabrania otwierania paczek zarówno kierowcy, jak i pomocnikowi kierowcy, więc zmiana osoby niczego nie zmienia. Rękawice ani ostrożność nie tworzą wyjątku; zawartość i oznaczenia sprawdza się bez otwierania opakowania. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Odpowiedź błędnie dopuszcza otwarcie lub zawęża/rozszerza zakres zakazu."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Rękawice, postój ani ostrożność nie tworzą wyjątku od ADR 8.3.3."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Kierowca nie może zlecić pomocnikowi otwarcia paczki; zakaz obejmuje obie role."
+        }
+      },
+      "notes_on_conditions": "ADR 8.3.3 wskazuje kierowcę i pomocnika kierowcy. Nie należy automatycznie rozszerzać tego konkretnego zakazu na każdą osobę znajdującą się w pojeździe. Oficjalny polski tom II ADR 2025 jest wskazany; literalne porównanie ustępu i niezależna recenzja specjalisty pozostają pending.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
