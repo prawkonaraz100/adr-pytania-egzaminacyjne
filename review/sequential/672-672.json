@@ -1,0 +1,48 @@
+{
+  "batch": "672-672",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0672",
+      "sequence": 672,
+      "exact_record_snapshot": {
+        "stem": "Podczas kontroli przed wyjazdem kierowca sprawdza dokumenty załogi. Drugi członek załogi ma dokument tożsamości, ale bez fotografii. Co należy zrobić?",
+        "options": {
+          "A": "Uznać dokument bez zdjęcia za wystarczający, jeśli kierowca zapisze pełne dane drugiej osoby w notatniku i potwierdzi jej obecność podczas kontroli.",
+          "B": "Każdy członek załogi musi mieć przy sobie środek identyfikacji ze zdjęciem; brak drugiej osoby trzeba uzupełnić przed przewozem.",
+          "C": "Pokazać tylko dokument kierowcy, ponieważ jego prawo jazdy ze zdjęciem potwierdza tożsamość całej załogi."
+        },
+        "correct_option": "B",
+        "explanation": "Podczas przewozu ADR każdy członek załogi musi mieć przy sobie środek identyfikacji zawierający fotografię, więc dokument drugiej osoby bez zdjęcia nie spełnia tego warunku. Sam dokument kierowcy nie identyfikuje pozostałych osób, a wpis w notatniku nie zastępuje ich dokumentu. Przed rozpoczęciem przewozu trzeba uzupełnić brak. Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.4; 8.1.2.1(d)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_Polish_ministry_published_text_checked_at_2.2.62.1.4.2_and_special_provision_319_and_P650_in_4.1.4.1; Gazette_binding_literal_confirmation_and_independent_specialist_review_pending",
+      "supplementary_source_url": "https://www.ciop.pl/CIOPPortalWAR/appmanager/ciop/pl?_nfpb=true&_pageLabel=P48600114441551177218047&html_klucz=300010071&html_tresc_id=300010085&html_tresc_root_id=300010071",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "The Polish ADR 2025 ministry-hosted copy states that Category B infectious substances are UN 3373 and that substances and packages marked in accordance with P650 are not subject to any other ADR provisions under SP 319. The ministry warns that its copies are auxiliary and the binding source is the text published in the Journal of Laws; exact Gazette cross-check and independent specialist review remain pending.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
