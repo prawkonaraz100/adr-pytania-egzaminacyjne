@@ -1,4 +1,14 @@
-## Bieżąca migawka — etap 4x241 (31.10.2026)
+## Bieżąca migawka — etap 4x242 (31.10.2026)
+
+- Bank: 667 pytań ADR-B-0001–0667; 667 `needs_review`, 0 `verified`; blob SHA `4d3a2dd4c7c43ee9fc00d829981cac50098fc462`.
+- Dodano ADR-B-0667 do ADR-B-02-K08: rozpoznanie temperatury awaryjnej nadtlenku organicznego klasy 5.2 i uruchomienie procedur awaryjnych.
+- Explanation: 400 znaków, 4 zdania; A/B/C 147/133/172 znaków. Poprawna A nie jest najdłuższa.
+- Rozkład A/B/C: 230/224/213. „Poprawna = jedyna najdłuższa”: 72/667 = 10,79%; maksimum działu 13,95%.
+- Egzaminy 001–005 wskazują aktualny SHA; snapshoty: `review/sequential/667-667.json`, `review/legal-clauses/667-667.json`.
+- Raport: `podstawowy/raporty/etap-4x242-klasa-52-temperatura-awaryjna-2026-10-31.md`.
+- Literalne porównanie wiążącego tekstu polskiego Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+
+## Poprzednia migawka — etap 4x241 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x241**
 
@@ -213,6 +223,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x242 — klasa 5.2: temperatura awaryjna](raporty/etap-4x242-klasa-52-temperatura-awaryjna-2026-10-31.md)
 - [Etap 4x241 — klasa 5.1: utleniacz i ryzyko pożaru](raporty/etap-4x241-klasa-51-utleniajace-ryzyko-pozaru-2026-10-31.md)
 - [Etap 4x240 — klasa 4.2: piroforyczne i samonagrzewające się](raporty/etap-4x240-klasa-42-piroforyczne-samonagrzewajace-2026-10-31.md)
 - [Etap 4x239 — połączenia ABS ciągnika i przyczepy](raporty/etap-4x239-abs-connection-vehicle-trailer-2026-10-31.md)
