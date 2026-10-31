@@ -1,8 +1,8 @@
 ## Bieżąca migawka — etap 4x248 (31.10.2026)
 
-- Bank: 673 pytania ADR-B-0001–0673; 673 `needs_review`, 0 `verified`; blob SHA `57dba9d1d46343edb0c9c0d09a5ca739043d1df6`.
+- Bank: 673 pytania ADR-B-0001–0673; 673 `needs_review`, 0 `verified`; blob SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
 - Dodano ADR-B-0673 do ADR-B-02-K13: rozróżnienie UN 3480/3481 dla baterii litowo-jonowej przewożonej samodzielnie albo zapakowanej z urządzeniem.
-- Explanation: 423 znaki, 4 zdania; A/B/C 136/134/145. Poprawna B nie jest najdłuższa.
+- Explanation: 423 znaki, 4 zdania; A/B/C 136/134/109. Poprawna B nie jest najdłuższa.
 - Rozkład poprawnych odpowiedzi: A=231, B=229, C=213; „poprawna = jedyna najdłuższa” 72/673 = 10,70%.
 - Raport: `raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md`.
 
