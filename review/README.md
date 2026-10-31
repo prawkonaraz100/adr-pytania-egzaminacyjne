@@ -1,3 +1,13 @@
+## Bieżąca migawka — etap 4x244 (31.10.2026)
+
+- Bank: 669 pytań ADR-B-0001–0669; 669 `needs_review`, 0 `verified`; blob SHA `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`.
+- Dodano ADR-B-0669 do ADR-B-02-K11: kategoria przesyłki klasy 7 na podstawie TI i poziomu promieniowania na powierzchni.
+- Explanation 340 znaków, 4 zdania; A/B/C 145/130/115; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C 231/225/213; „poprawna = jedyna najdłuższa” 72/669 = 10,76%.
+- Snapshoty: `review/sequential/669-669.json`, `review/legal-clauses/669-669.json`; egzaminy 001–005 wskazują aktualny SHA.
+- Raport: `podstawowy/raporty/etap-4x244-klasa-7-kategoria-przesylki-2026-10-31.md`.
+- Literalne porównanie wiążącego tekstu Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+
 ## Bieżąca migawka — etap 4x243 (31.10.2026)
 
 - Bank: 668 pytań ADR-B-0001–0668; 668 `needs_review`, 0 `verified`; blob SHA `377881849d1d1a643873567b1f68c359bef2358d`.
