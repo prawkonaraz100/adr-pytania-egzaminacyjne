@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x247 (31.10.2026)
+
+- Bank: 672 pytań ADR-B-0001–0672; wszystkie `needs_review`, 0 `verified`; SHA `dc499257cfae6fa8c5f5882248f676c15929c3a5`.
+- Dodano ADR-B-0672 do ADR-B-13-K05: identyfikacja ze zdjęciem dla każdego członka załogi.
+- Explanation 366 znaków, 4 zdania; A/B/C 148/128/105.
+- Egzaminy 001–005, snapshoty sekwencyjne i prawne zsynchronizowane.
+- Raport: `podstawowy/raporty/etap-4x247-identyfikacja-zdjecie-zaloga-2026-10-31.md`.
+- Literalne porównanie tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
+
 ## Bieżąca migawka — etap 4x246 (31.10.2026)
 
 - Bank: 671 pytań ADR-B-0001–0671; wszystkie `needs_review`, 0 `verified`; SHA `8012802240554ba203baa2272adfced09b837471`.

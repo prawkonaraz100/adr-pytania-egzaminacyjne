@@ -259,3 +259,8 @@ Odegraj scenariusz z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json)
 
 **Status:** `needs_review`; przedstawione wskazania ADR wymagają niezależnego sprawdzenia.
 
+
+
+### Dokument identyfikacyjny ze zdjęciem dla każdego członka załogi
+
+Podczas przewozu towarów niebezpiecznych każdy członek załogi musi mieć przy sobie środek identyfikacji zawierający fotografię. Nie wystarczy dokument kierowcy, ponieważ wymóg dotyczy również pozostałych osób w pojeździe. Dokument bez zdjęcia ani wpisanie danych do notatnika nie zastępują wymaganego środka identyfikacji. Powiązane pytanie: ADR-B-0672 (needs_review). Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).

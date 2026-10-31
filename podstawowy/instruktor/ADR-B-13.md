@@ -136,3 +136,8 @@ Prowadź kontrolę dokumentów w kolejności opisanej w lekcji: sprawdź opis to
 - `SC-ADR-B-13-03` — instrukcje pisemne w nieznanym języku.
 
 Pytania kontrolne: `ADR-B-0037`, `ADR-B-0038`, `ADR-B-0039`, `ADR-B-0508`, `ADR-B-0525`, `ADR-B-0530`, `ADR-B-0577`, `ADR-B-0586`, `ADR-B-0590`, `ADR-B-0601`. Częste pomyłki: uznanie nazwy handlowej za nazwę przewozową, dopisywanie brakujących informacji z pamięci oraz traktowanie telefonu do dyspozytora jako zamiennika wymaganych instrukcji.
+
+
+### Ćwiczenie: kontrola dokumentów całej załogi
+
+Przed wyjazdem sprawdź dokumenty kierowcy i drugiego członka załogi. W scenariuszu drugi członek ma dokument bez fotografii. Poproś kursanta, aby wskazał, że wymóg dotyczy każdej osoby z załogi, a nie tylko kierowcy, i że wpis w notatniku nie zastępuje środka identyfikacji ze zdjęciem. Zwróć uwagę na rozróżnienie dokumentu identyfikacyjnego (8.1.2.1(d)) i zaświadczenia o przeszkoleniu kierowcy, jeśli jest wymagane (8.1.2.2(b)). Powiązane pytanie: ADR-B-0672 (needs_review). Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).

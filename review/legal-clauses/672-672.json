@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0672",
+      "order": 672,
+      "clause": "ADR 2025, 1.10.1.4; 8.1.2.1(d)",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0672",
+        "module_id": "ADR-B-13",
+        "stem": "Podczas kontroli przed wyjazdem kierowca sprawdza dokumenty załogi. Drugi członek załogi ma dokument tożsamości, ale bez fotografii. Co należy zrobić?",
+        "options": {
+          "A": "Uznać dokument bez zdjęcia za wystarczający, jeśli kierowca zapisze pełne dane drugiej osoby w notatniku i potwierdzi jej obecność podczas kontroli.",
+          "B": "Każdy członek załogi musi mieć przy sobie środek identyfikacji ze zdjęciem; brak drugiej osoby trzeba uzupełnić przed przewozem.",
+          "C": "Pokazać tylko dokument kierowcy, ponieważ jego prawo jazdy ze zdjęciem potwierdza tożsamość całej załogi."
+        },
+        "correct_option": "B",
+        "explanation": "Podczas przewozu ADR każdy członek załogi musi mieć przy sobie środek identyfikacji zawierający fotografię, więc dokument drugiej osoby bez zdjęcia nie spełnia tego warunku. Sam dokument kierowcy nie identyfikuje pozostałych osób, a wpis w notatniku nie zastępuje ich dokumentu. Przed rozpoczęciem przewozu trzeba uzupełnić brak. Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.4; 8.1.2.1(d)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wpisanie danych do notatnika nie zastępuje środka identyfikacji ze zdjęciem, który ma mieć przy sobie każdy członek załogi."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 1.10.1.4 wymaga, aby każdy członek załogi miał przy sobie środek identyfikacji zawierający fotografię; 8.1.2.1(d) wymaga przewożenia tych dokumentów w kabinie."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Dokument kierowcy identyfikuje tylko kierowcę, a wymóg dotyczy każdego członka załogi pojazdu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Wymóg dotyczy każdego członka załogi i obowiązuje podczas przewozu towarów niebezpiecznych. Dokument bez fotografii lub dokument innego członka załogi nie zastępuje indywidualnego środka identyfikacji ze zdjęciem.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

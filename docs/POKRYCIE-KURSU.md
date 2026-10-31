@@ -1,4 +1,16 @@
-**Stan aktualny po etapie 4x246: 31.10.2026.**
+**Stan aktualny po etapie 4x247: 31.10.2026.**
+
+## Uzupełnienie audytu 4x247 — 31.10.2026
+
+- Dodano ADR-B-0672 do ADR-B-13-K05: praktyczna kontrola dokumentu identyfikacyjnego ze zdjęciem dla każdego członka załogi pojazdu ADR.
+- Explanation: 366 znaków, 4 zdania; A/B/C 148/128/105. Poprawna B nie jest najdłuższa.
+- Podstawa: ADR 2025, 1.10.1.4 i 8.1.2.1(d), Dz.U. 2025 poz. 642. Literalne porównanie tekstu Dz.U. i recenzja specjalisty pozostają otwarte.
+- Bank: 672 pytania ADR-B-0001–0672, wszystkie `needs_review`, 0 `verified`; SHA `dc499257cfae6fa8c5f5882248f676c15929c3a5`.
+- Rozkład prawidłowych opcji: A=231, B=228, C=213.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/672 = 10,71%**; maksimum działu to 13,95%.
+- Raport: [Etap 4x247 — identyfikacja ze zdjęciem dla załogi](../podstawowy/raporty/etap-4x247-identyfikacja-zdjecie-zaloga-2026-10-31.md).
+
+**Poprzednia migawka — etap 4x246 (31.10.2026).**
 
 ## Uzupełnienie audytu 4x246 — 31.10.2026
 
@@ -219,8 +231,8 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
-| ADR-B-13 | Dokumentacja | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **671** | **0** | **13 szkiców z mapą pytań** |
+| ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
+| **Razem** | | **104/104** | **3** | **672** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

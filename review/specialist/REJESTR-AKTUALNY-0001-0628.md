@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x247 (31.10.2026)
+
+- Bank: 672 pytań ADR-B-0001–0672; 672 `needs_review`, 0 `verified`; blob SHA `dc499257cfae6fa8c5f5882248f676c15929c3a5`.
+- Dodano ADR-B-0672 do ADR-B-13-K05: dokument identyfikacyjny ze zdjęciem dla każdego członka załogi.
+- Explanation 366 znaków, 4 zdania; A/B/C 148/128/105; rozkład A/B/C 231/228/213; wskaźnik 72/672 = 10,71%.
+- Egzaminy 001–005 i snapshoty sequential/legal wskazują bieżący bank.
+- Raport: `podstawowy/raporty/etap-4x247-identyfikacja-zdjecie-zaloga-2026-10-31.md`.
+- Literalne porównanie Dz.U. i recenzja specjalisty pozostają otwarte.
+
 ## Bieżąca migawka — etap 4x246 (31.10.2026)
 
 - Bank: 671 pytań ADR-B-0001–0671; 671 `needs_review`, 0 `verified`; blob SHA `8012802240554ba203baa2272adfced09b837471`.
@@ -791,3 +800,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0670 | ADR-B-02 | ADR-B-02-K09 | Uszkodzone opakowanie klasy 6.1: unikanie kontaktu i pyłu, reakcja zgodna z instrukcjami pisemnymi | B | ADR 2025, 2.2.61.1.1; 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0671 | ADR-B-02 | ADR-B-02-K02 | Ochrona zaworu butli gazowej przewożonej w ramie bez kapturka | B | ADR 2025, 4.1.6.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0672 | ADR-B-13 | ADR-B-13-K05 | Środek identyfikacji ze zdjęciem dla każdego członka załogi | B | ADR 2025, 1.10.1.4; 8.1.2.1(d) | — | NIEROZSTRZYGNIĘTE | needs_review |
