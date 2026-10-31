@@ -109,7 +109,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 - **104/104 kompetencji teoretycznych** ma co najmniej dwa pytania robocze. **0/104** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
-- Rozkład prawidłowych opcji: A=228, B=222, C=213.
+- Rozkład prawidłowych opcji: A=228, B=223, C=213.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/664 = 10,84%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
 - [Etap 4x228 — kombinacja zagrożeń 886](../podstawowy/raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md).
 - [Audyt 4w](../podstawowy/raporty/etap-4w-program-13-dzialow-mapa-luk.md) dokumentuje wszystkie 107 kompetencji i ID; [kontrola 13 lekcji](../podstawowy/raporty/etap-4w-przeglad-13-lekcji-odsylacze.md) usunęła błędny skrót zakresu w B-09. Dane liczbowe dotyczą bieżącego banku, natomiast niższe sekcje dokumentu zachowują historię poprzednich etapów.
