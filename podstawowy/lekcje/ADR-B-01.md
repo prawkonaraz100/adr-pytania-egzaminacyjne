@@ -260,3 +260,8 @@ Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz n
 ### Wyłączenie dla przewozu pomocniczego przedsiębiorstwa
 
 Firma może skorzystać z wyłączenia z ADR, gdy przewóz towarów niebezpiecznych jest tylko czynnością pomocniczą wobec jej głównej działalności, np. gdy wiezie materiał na budowę albo do naprawy lub konserwacji urządzenia. Nie jest to ogólne zwolnienie dla każdego firmowego transportu. Trzeba sprawdzić jednocześnie limit 450 litrów na opakowanie, maksymalną ilość z 1.1.3.6, zabezpieczenie przed wyciekiem i wyłączenie klasy 7. Przewóz na potrzeby zaopatrzenia firmy lub dystrybucji wewnętrznej albo zewnętrznej nie korzysta z tego przepisu. Powiązane pytanie: ADR-B-0656. Podstawa: ADR 1.1.3.1(c) i 1.1.3.6.
+
+
+### Jak odróżnić załącznik A od załącznika B ADR?
+
+Załącznik A zawiera wymagania dotyczące towarów niebezpiecznych i warunków ich przewozu, m.in. klasyfikacji, opakowań, oznakowania oraz procedur nadania. Załącznik B dotyczy wyposażenia transportowego i operacji przewozowych: załogi, wyposażenia, eksploatacji, dokumentacji oraz konstrukcji i zatwierdzania pojazdów. Gdy szukasz przepisu, najpierw ustal, czy problem dotyczy samego towaru, czy pojazdu i wykonywania przewozu. Powiązane pytanie: ADR-B-0659. Podstawa: art. 2 Umowy ADR; ADR 1.1.1.
