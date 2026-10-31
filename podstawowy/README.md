@@ -5,7 +5,7 @@
 - Dodano ADR-B-0678: kierowca nie może zlecić pomocnikowi otwarcia paczki. Skorygowano ADR-B-0011, 0048 i 0243, aby 8.3.3 wskazywał dokładnie kierowcę i pomocnika kierowcy, a nie bez wyjątku każdego członka załogi.
 - Scenariusz SC-ADR-B-04-04 doprecyzowano do roli pomocnika kierowcy; uzupełniono lekcję i materiał instruktora.
 - Bank: 678 pytań ADR-B-0001–0678; 678 `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
-- Scenariusz łączy ADR-B-0011, ADR-B-0048 i ADR-B-0357; moduł B-04 ma 4 scenariusze, cały kurs 42. Bank bez zmian: 677 pytań, wszystkie `needs_review`, SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
+- Scenariusz łączy ADR-B-0011, ADR-B-0048, ADR-B-0357 i ADR-B-0678; moduł B-04 ma 4 scenariusze, cały kurs 42. Bank: 678 pytań, wszystkie `needs_review`, 0 `verified`, SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
 - Raport: `raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md`.
 
 ## Poprzednia migawka — etap 4x251 (31.10.2026)
