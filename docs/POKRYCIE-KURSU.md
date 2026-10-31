@@ -7,7 +7,7 @@
 - Podstawa: ADR 2025, 5.1.5.3.4(a) i tabela 5.1.5.3.4, Dz.U. 2025 poz. 642. Literalne porównanie tekstu Dz.U. i recenzja specjalisty pozostają otwarte.
 - Bank: 669 pytań ADR-B-0001–0669, wszystkie `needs_review`, 0 `verified`; SHA `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`.
 - Rozkład prawidłowych opcji: A=231, B=225, C=213.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/669 = 10,76%**; maksimum działu 13,95%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/669 = 10,76%**; maksimum działu to 13,95%.
 - Raport: [Etap 4x244 — klasa 7: kategoria przesyłki](../podstawowy/raporty/etap-4x244-klasa-7-kategoria-przesylki-2026-10-31.md).
 
 **Poprzednia migawka — etap 4x243 (31.10.2026).**
