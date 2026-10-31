@@ -1,11 +1,11 @@
 ## Bieżąca migawka — etap 4x229 (31.10.2026)
 
 - Bank: 654 pytań `needs_review`, 0 `verified`; blob SHA `6d2b0fd39173fef829b70a5e42049104688c1604`.
-- Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
-- ADR-B-0615 rozróżnia teraz reakcję z wodą od bezwzględnego zakazu: woda wyłącznie po zgodzie ekspertów (ADR 5.3.2.3.1); klucz B bez zmian.
-- Dodano ADR-B-0652 do ADR-B-02-K12: klasa 8 obejmuje także poważne uszkodzenie innych towarów lub środka transportu przy wycieku (ADR 2.2.8.1.1). A/B/C audytowane, poprawna A nie jest najdłuższa.
-- Dodano ADR-B-0653 do ADR-B-06-K08: numer 886 oznacza substancję silnie żrącą i toksyczną (ADR 5.3.2.3.2); poprawna A nie jest najdłuższa.
-- Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz SHA pakietu recenzyjnego zsynchronizowane. Wszystkie 653 rekordy pozostają `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x229-szczegolne-znaczenie-kodu-99-2026-10-31.md`.
+- Dodano ADR-B-0654 do ADR-B-06-K06: kod 99 oznacza różne towary niebezpieczne przewożone w stanie podgrzanym (ADR 2025, 5.3.2.3.1–5.3.2.3.2). Audyt A/B/C: A poprawna (58 znaków), B/C błędne (59/78); poprawna nie jest najdłuższa. Explanation: 4 zdania, 352 znaki.
+- Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz SHA pakietu recenzyjnego wskazują aktualny bank.
+- ID banku są ciągłe ADR-B-0001–0654, bez duplikatów; 654 rekordy `needs_review`, 0 `verified`.
+
 
 - Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `ef5a3f1ca81efe76b5214d711d11db7933241528`.
 - Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
