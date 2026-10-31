@@ -1,7 +1,7 @@
 ## Uzupełnienie audytu 4x235 — 31.10.2026
 
 - Dodano ADR-B-0660 do ADR-B-07-K07: praktyczny przypadek odpowiedzialności przewoźnika za nienależyte wykonanie umowy i działania kierowcy.
-- Explanation: 469 znaków, 4 zdania; A/B/C 121/127/127 znaków; poprawna A nie jest najdłuższa.
+- Explanation: 469 znaków, 4 zdania; A/B/C 121/107/127 znaków; poprawna A nie jest najdłuższa.
 - Podstawa programu: ADR 2025, 8.2.2.3.2(k). Podstawa ogólnej odpowiedzialności kontraktowej: Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 471 i 474. Pełna literalna recenzja ADR i niezależna recenzja specjalisty pozostają otwarte.
 - Bank: 660 pytań `needs_review`, 0 `verified`; ID 0001–0660 ciągłe i unikalne. Blob SHA `ffdc615fa08713d54fd9b2d0dbfbda3f9c4a0cf0`.
 - Rozkład A/B/C: 228/220/212. „Poprawna = jedyna najdłuższa”: 72/660 = 10,91%; maksimum działu 13,95%.
