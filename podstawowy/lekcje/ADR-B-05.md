@@ -330,5 +330,5 @@ Wybierz scenariusz dla działu ADR-B-05 w [mapie ćwiczeń](../praktyka/scenariu
 
 Instrukcje pisemne ADR przewidują użycie gaśnicy przy małym pożarze opon, hamulców lub silnika tylko wtedy, gdy jest to właściwe i bezpieczne. Nie oznacza to obowiązku gaszenia każdego pożaru. Jeśli ogień się rozprzestrzenia, obejmuje ładunek albo droga odwrotu jest zagrożona, oddal się, ostrzeż innych i wezwij służby. Nie otwieraj przestrzeni ładunkowej, aby sprawdzić źródło ognia.
 
-**Ćwiczenie praktyczne:** SC-ADR-B-05-04. Kursant ma ocenić wielkość i położenie pożaru, bezpieczeństwo użycia gaśnicy oraz moment przerwania działania. Pytania kontrolne: ADR-B-0108, ADR-B-0184, ADR-B-0223 i ADR-B-0493. Podstawa: ADR 5.4.3.4.
+**Ćwiczenie praktyczne:** SC-ADR-B-05-04. Kursant ma ocenić wielkość i położenie pożaru, bezpieczeństwo użycia gaśnicy oraz moment przerwania działania. Pytania powiązane ze scenariuszem: ADR-B-0108, ADR-B-0184 i ADR-B-0223. ADR-B-0493 jest dodatkowym pytaniem kontrolnym kompetencji K06. Podstawa: ADR 5.4.3.4.
 
