@@ -8,7 +8,7 @@
 - Snapshoty: `sequential/683-683.json`, `legal-clauses/683-683.json`; rejestr: `REJESTR-0683-0683.md`.
 - Raport: `podstawowy/raporty/etap-4x257-pietrzenie-zgodnosc-opakowan-2026-11-01.md`.
 
-**Stan na 31.10.2026, etap 4x256**
+**Stan na 01.11.2026, etap 4x257**
 
 ## Bieżąca migawka — etap 4x256 (31.10.2026)
 
