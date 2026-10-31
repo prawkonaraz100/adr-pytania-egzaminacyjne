@@ -67,11 +67,11 @@ class CoverageReportMetricsTests(unittest.TestCase):
         self.assertEqual(summary.group(4), f"{maximum:.2f}".replace(".", ","))
 
     def test_bank_statuses_remain_draft_only(self):
-        self.assertEqual(len(self.questions), 673)
-        self.assertEqual(len({q["id"] for q in self.questions}), 673)
+        self.assertEqual(len(self.questions), 676)
+        self.assertEqual(len({q["id"] for q in self.questions}), 676)
         self.assertTrue(all(q["verification_status"] == "needs_review" for q in self.questions))
         self.assertEqual(sum(q["verification_status"] == "verified" for q in self.questions), 0)
-        self.assertIn("Stan aktualny po etapie 4x248: 31.10.2026.", self.coverage)
+        self.assertIn("Stan aktualny po etapie 4x249: 31.10.2026.", self.coverage)
 
 
 if __name__ == "__main__":
