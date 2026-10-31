@@ -1,4 +1,13 @@
-## Bieżąca migawka — etap 4x234 (31.10.2026)
+## Bieżąca migawka — etap 4x235 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x235**
+
+- Bank: 660 pytań; 660 `needs_review`, 0 `verified`; blob SHA `ffdc615fa08713d54fd9b2d0dbfbda3f9c4a0cf0`.
+- Dodano ADR-B-0660 do ADR-B-07-K07: praktyczny przypadek odpowiedzialności przewoźnika za nienależyte wykonanie umowy i działania kierowcy. Explanation 469 znaków, 4 zdania; A/B/C 121/107/127 znaków.
+- Rozkład odpowiedzi A/B/C: 228/220/212. „Poprawna = jedyna najdłuższa”: 72/660 = 10,91%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x234 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x234**
 
@@ -146,6 +155,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x235 — odpowiedzialność cywilna przewoźnika](raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md)
 - [Etap 4x234 — zakres załączników A i B](raporty/etap-4x234-zalaczniki-a-b-zakres-2026-10-31.md)
 - [Etap 4x233 — temperatura zapłonu klasy 3](raporty/etap-4x233-temperatura-zaplonu-klasa-3-2026-10-31.md)
 - [Etap 4x232 — gazy palne klasy 2.1](raporty/etap-4x232-gazy-palne-klasy-21-2026-10-31.md)

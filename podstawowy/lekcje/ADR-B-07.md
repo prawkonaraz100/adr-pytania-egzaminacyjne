@@ -35,6 +35,13 @@ Pakujący nie powinien przekazywać przesyłki, jeśli opakowanie lub oznakowani
 
 ### Pakujący, napełniający, rozładowca i odbiorca
 Pakujący stosuje wymagania pakowania, a następnie zapewnia wymagane oznakowanie i wspólne pakowanie zgodne z ADR. Napełniający ma obowiązki związane z bezpiecznym napełnianiem i sprawdzeniem właściwego stanu urządzeń oraz zamknięć w zakresie przypisanym mu przez ADR. Rozładowca sprawdza, czy rozładunek może się odbyć bezpiecznie, reaguje na uszkodzone przesyłki i usuwa niebezpieczne pozostałości w zakresie swoich obowiązków (ADR 1.4.3.7.1(d)(i)–(ii)). Odbiorca ma własne obowiązki dotyczące odbioru i nie może uznać, że samo zlecenie rozładunku zewnętrznej firmie automatycznie przenosi na nią wszystkie obowiązki (ADR 1.4.2.3.1–1.4.2.3.3). Po rozładunku sprawdza też, czy wymagane zamknięcia i otwory są prawidłowo zabezpieczone, oraz usuwa nieaktualne oznakowanie dopiero wtedy, gdy ADR na to pozwala. Zlecenie pracy zewnętrznej firmie nie oznacza automatycznego wygaśnięcia wszystkich obowiązków podmiotu, któremu ADR je przypisuje.
+
+
+### Odpowiedzialność przewoźnika za wykonanie umowy
+Jeżeli przewoźnik zawarł umowę, może odpowiadać wobec kontrahenta za szkodę wynikłą z jej niewykonania lub nienależytego wykonania. Nie znaczy to, że każda szkoda automatycznie obciąża kierowcę albo przewoźnika: trzeba ustalić, kto był stroną umowy, co zostało wykonane nieprawidłowo, związek ze szkodą oraz ewentualne przepisy szczególne. Kodeks cywilny przewiduje również odpowiedzialność dłużnika za osoby, z których pomocą wykonuje zobowiązanie (art. 471 i 474). W programie ADR ten temat jest omawiany jako ogólna informacja o odpowiedzialności cywilnej (ADR 8.2.2.3.2(k)).
+
+**Przykład:** przewoźnik przyjął krajowe zlecenie, a jego kierowca nie zabezpieczył ładunku i towar został uszkodzony. Kontrahent kieruje roszczenie do przewoźnika jako strony umowy. Nie przesądzaj wyniku sporu na podstawie samego faktu, kto trzymał pasy mocujące; ustal okoliczności i właściwe przepisy.
+
 ## 4. Odpowiedzialność cywilna
 Odpowiedzialność cywilna to odrębny obszar od szczegółowego podziału obowiązków ADR. Nie wyciągaj wniosków o odpowiedzialności prawnej konkretnej osoby bez ustalenia faktów, roli uczestnika i właściwych przepisów. W materiale szkoleniowym ucz się rozpoznawać obowiązek i zgłaszać niezgodność, a nie rozstrzygać spór prawny na podstawie samego opisu.
 
@@ -257,4 +264,5 @@ Czytaj temat jak sytuację z pracy: najpierw rozpoznaj zagrożenie, potem wybier
 Wybierz scenariusz dla działu ADR-B-07 w [mapie ćwiczeń](../praktyka/scenariusze-13-dzialow.json). Opisz kolejno: jakie masz dane, co zrobisz jako pierwsze, czego nie zrobisz nawet pod presją czasu i skąd wiesz, że możesz bezpiecznie kontynuować. Przy awarii najpierw liczy się bezpieczeństwo ludzi.
 
 **Status:** `needs_review`; weryfikacja pełnego polskiego ADR 2025 i niezależna ocena specjalisty pozostają otwarte.
- 
+
+**Pytanie do samodzielnego sprawdzenia:** `ADR-B-0660`; podstawa programu: ADR 8.2.2.3.2(k); Kodeks cywilny art. 471 i 474. Rozróżnij odpowiedzialność przewoźnika jako strony umowy od automatycznego przypisywania całej odpowiedzialności kierowcy.

@@ -155,3 +155,6 @@ Poniższe rekordy pozostają nierozstrzygnięte pod kątem dosłownego fragmentu
 - ADR-B-0654
 - ADR-B-0658
 - ADR-B-0659
+- ADR-B-0660
+
+**Migawka po etapie 4x235 (31.10.2026):** rejestr obejmuje 130 unikalnych ID bez zapisanego dosłownego fragmentu MI, w tym ADR-B-0660. To stan do recenzji, a nie ustalenie błędu lub poprawności.

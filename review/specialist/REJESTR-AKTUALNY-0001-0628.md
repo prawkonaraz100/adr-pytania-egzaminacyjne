@@ -1,3 +1,15 @@
+## Bieżąca migawka — etap 4x235 (31.10.2026)
+
+- Bank: 660 pytań `needs_review`, 0 `verified`; blob SHA `ffdc615fa08713d54fd9b2d0dbfbda3f9c4a0cf0`.
+- Raport: `podstawowy/raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md`.
+- ADR-B-0660 dodano do ADR-B-07-K07; scenariusz odpowiedzialności przewoźnika za nienależyte wykonanie umowy i działania kierowcy.
+
+## Bieżąca migawka — etap 4x235 (31.10.2026)
+
+- Bank: 660 pytań `needs_review`, 0 `verified`; blob SHA `ffdc615fa08713d54fd9b2d0dbfbda3f9c4a0cf0`.
+- Raport: `podstawowy/raporty/etap-4x235-odpowiedzialnosc-cywilna-przewoznika-2026-10-31.md`.
+- ADR-B-0660 dodano do ADR-B-07-K07; scenariusz odpowiedzialności przewoźnika za nienależyte wykonanie umowy i działania kierowcy.
+
 ## Bieżąca migawka — etap 4x234 (31.10.2026)
 
 - Bank: 659 pytań `needs_review`, 0 `verified`; blob SHA `edef07df45541eeea77726bb1d6f93d00d853627`.
@@ -899,3 +911,4 @@ Bank bieżący: 656 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `9
 | ADR-B-0657 | ADR-B-02 | ADR-B-02-K02 | Na butli jest czerwona nalepka z płomieniem i numerem 2.1. Jakie zagrożenie wskazuje ten znak i co powinien uwzględnić kierowca? | A | ADR 2025, 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0658 | ADR-B-02 | ADR-B-02-K03 | Karta charakterystyki cieczy podaje temperaturę zapłonu 45°C. Co oznacza ta wartość? | A | ADR 2025, 1.2.1; 2.2.3.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0659 | ADR-B-01 | ADR-B-01-K01 | Jak rozdzielono zakres wymagań między załączniki A i B ADR? | A | ADR 2025, Umowa ADR, art. 2; 1.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0660 | ADR-B-07 | ADR-B-07-K07 | Odpowiedzialność przewoźnika za nienależyte wykonanie umowy i działanie kierowcy | A | ADR 8.2.2.3.2(k); KC art. 471 i 474 | — | NIEROZSTRZYGNIĘTE | needs_review |
