@@ -11,10 +11,10 @@ Kompetencja miała cztery pytania, z których dotychczasowe sprawdzały główni
 
 ## Dodane pytanie
 
-- **ADR-B-0682** — opakowanie zewnętrzne zawiera opakowania wewnętrzne po 100 ml, a materiał chłonny może wchłonąć całą ciecz; kursant rozpoznaje wyjątek od obowiązku strzałek.
+- **ADR-B-0682** — opakowanie zewnętrzne zawiera opakowania wewnętrzne po 100 ml, a materiał chłonny umieszczony między opakowaniami wewnętrznymi a zewnętrznym może wchłonąć całą ciecz; kursant rozpoznaje wyjątek od obowiązku strzałek.
 - Klucz: **B** — wyjątek działa, jeśli każde opakowanie wewnętrzne ma najwyżej 120 ml i materiał chłonny wystarcza do wchłonięcia całej cieczy.
-- Explanation: **417 znaków, 4 zdania**; wyjaśnia oba łączne warunki wyjątku, wskazuje, co dzieje się po niespełnieniu warunków, i podaje podstawę ADR.
-- Długości A/B/C: **142/136/107** znaków. Poprawna odpowiedź B nie jest ani najdłuższa, ani najkrótsza.
+- Explanation: **449 znaków, 4 zdania**; wyjaśnia oba łączne warunki wyjątku, wskazuje, co dzieje się po niespełnieniu warunków, i podaje podstawę ADR.
+- Długości A/B/C: **162/142/93** znaków. Poprawna odpowiedź B nie jest ani najdłuższa, ani najkrótsza.
 - Status: needs_review; niczego nie oznaczono jako verified.
 
 ## Podstawa i ograniczenia
@@ -29,6 +29,6 @@ Dokładny polski tekst ustępu w Dz.U. nie został pobrany i porównany literaln
 ## Synchronizacja #646 — stan po dodaniu pytania
 
 - Bank: **682** pytań ADR-B-0001–0682; wszystkie needs_review, 0 verified.
-- Blob SHA: `623b3c164d1a394f8976e5b3a9e75d9893a65444`.
+- Blob SHA: `5bc8851bed5f1fdfcbf2a5f07faccb3174a72006`.
 - Rozkład A/B/C: **234/232/216**; „poprawna = jedyna najdłuższa”: **72/682 = 10,56%**, poniżej Quality Gate 18%.
 - Zaktualizowano mapę kompetencji, lekcję i materiał instruktora B-09, snapshoty sequential/legal oraz ledger źródeł. Synchronizacja egzaminów 001–005 i pakietu recenzyjnego następuje w kolejnych commitach.
