@@ -827,3 +827,7 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0672 | ADR-B-13 | ADR-B-13-K05 | Środek identyfikacji ze zdjęciem dla każdego członka załogi | B | ADR 2025, 1.10.1.4; 8.1.2.1(d) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0677 | ADR-B-03 | ADR-B-03-K03 | Oczyszczanie pojazdu po przewozie towarów niebezpiecznych luzem przed ponownym załadunkiem | C | ADR 2025, 7.5.8.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0011 | ADR-B-04 | ADR-B-04-K02 | Zakaz otwierania przez kierowcę — doprecyzowano brzmienie klucza | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0048 | ADR-B-04 | ADR-B-04-K02 | Zakres zakazu: kierowca i pomocnik kierowcy, nie każdy członek załogi | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0243 | ADR-B-04 | ADR-B-04-K02 | Zakaz otwierania przez kierowcę i pomocnika; kontrola oznakowania z zewnątrz | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0678 | ADR-B-04 | ADR-B-04-K02 | Kierowca nie może zlecić pomocnikowi otwarcia sztuki przesyłki | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
