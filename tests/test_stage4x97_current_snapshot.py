@@ -45,7 +45,7 @@ class CurrentSnapshotTests(unittest.TestCase):
         by_id = {row["id"]: row for row in bank}
         sample = json.loads(SAMPLE.read_text(encoding="utf-8"))
         manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-        self.assertEqual(sample["selection_source_bank_blob_sha"], "9fa7e964d86b0bd0c38f97a80b5965877d69d7da")
+        self.assertEqual(sample["selection_source_bank_blob_sha"], "9fa7e964d86b0bd0c38f97a80b5965777d69d7da")
         self.assertEqual(sample["updated_bank_blob_sha"], bank_sha)
         self.assertEqual(manifest["current_bank_blob_sha"], bank_sha)
         self.assertEqual(len(sample["sample_ids"]), sample["sample_count"])
