@@ -1,24 +1,24 @@
 {
-  "stage": "stage4x239_abs_connection_vehicle_trailer",
+  "stage": "stage4x240_class_42_pyrophoric_self_heating",
   "snapshot_date": "2026-10-31",
   "scope": "ADR-BASIC-ONLY",
-  "question_count": 664,
-  "last_id": "ADR-B-0664",
+  "question_count": 665,
+  "last_id": "ADR-B-0665",
   "status_counts": {
-    "needs_review": 664,
+    "needs_review": 665,
     "verified": 0
   },
   "formal_approvals": 0,
   "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0628.md",
   "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
-  "unresolved_literal_comparisons": 428,
+  "unresolved_literal_comparisons": 429,
   "modules": {
     "ADR-B-01": {
       "questions": 49,
       "theory_competencies": 7
     },
     "ADR-B-02": {
-      "questions": 68,
+      "questions": 69,
       "theory_competencies": 14
     },
     "ADR-B-03": {
@@ -294,11 +294,11 @@
     "note": "Priority list is not exhaustive. Every question remains needs_review until a real specialist approves it; all ADR 2027 sensitivity registers remain relevant."
   },
   "literal_comparison_status_counts": {
-    "official_polish_text_not_retrieved": 428,
+    "official_polish_text_not_retrieved": 429,
     "targeted_source_checked_full_literal_comparison_pending": 13,
     "records_with_recorded_targeted_comparison_result": 291,
     "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 223,
-    "specialist_reviews_pending": 664,
+    "specialist_reviews_pending": 665,
     "verified": 0
   },
   "stage4x19": {
@@ -313,7 +313,7 @@
     "original_not_retrieved_records": 387,
     "specialist_reviews_pending": 620
   },
-  "current_bank_blob_sha": "a81581438b449107fb42dcb10450acc5a69278e4",
+  "current_bank_blob_sha": "c7c55c480fa872b1ec9ea008fb1e6d049f7fae96",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -425,13 +425,13 @@
     "confirmed_discrepancies": 0
   },
   "specialist_open_items": {
-    "official_polish_text_not_retrieved": 428,
-    "ministerial_copy_exact_quote_not_saved": 133,
+    "official_polish_text_not_retrieved": 429,
+    "ministerial_copy_exact_quote_not_saved": 134,
     "targeted_source_checked_full_literal_comparison_pending": 13,
-    "specialist_reviews_pending": 664,
+    "specialist_reviews_pending": 665,
     "verified": 0,
     "formal_approvals": 0,
-    "note": "To odrębne miary dowodów. 133 pozycji bez zapisanego dosłownego fragmentu MI znajduje się w ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md. 428 porównań z pełnym polskim tekstem urzędowym ADR pozostaje nierozstrzygniętych; brak cytatu nie dowodzi ani błędu, ani poprawności."
+    "note": "To odrębne miary dowodów. 134 pozycji bez zapisanego dosłownego fragmentu MI pozostaje w rejestrze 4x24. 429 porównań z pełnym polskim tekstem urzędowym ADR pozostaje nierozstrzygniętych; 13 rekordów ma ukierunkowane porównanie źródłowe, ale pełna literalna weryfikacja i recenzja specjalisty nadal są otwarte. Brak cytatu nie dowodzi ani błędu, ani poprawności."
   },
   "stage4x25": {
     "status": "complete_editorial_and_mock_exam_sync",
@@ -560,7 +560,7 @@
     "variant_question_count": 30,
     "unique_ids_across_variants": 150,
     "key_mismatches_after_letter_remapping": 0,
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "ed0dee6e93f21cbb758c3d088a4d02e0aaed9fc4",
     "answer_distribution_each_variant": "10/10/10",
     "max_same_letter_run": 3,
     "strictly_longest_rate_each_variant": "0/30",
@@ -577,7 +577,7 @@
     "strictly_longest_correct": 73,
     "strictly_longest_rate": 0.1199,
     "min_explanation_chars": 300,
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "236819b5e6ea555285ad74d4a94ce6471bac2287",
     "exam_variants_resynced": 5,
     "exam_keys_resynced": 5,
     "verified": 0,
@@ -603,31 +603,31 @@
     "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
     "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
     "queue_count": 20,
-    "source_bank_blob_sha": "a81581438b449107fb42dcb10450acc5a69278e4",
+    "source_bank_blob_sha": "c7c55c480fa872b1ec9ea008fb1e6d049f7fae96",
     "source_missing_quote_ids": 124,
-    "unresolved_literal_comparisons": 428,
+    "unresolved_literal_comparisons": 429,
     "legal_review_status": "pending",
     "verification_status": "needs_review",
     "formal_approval": false,
     "quality_gate_test": "tests/test_review_packet_integrity.py::test_priority_legal_review_queue_stays_synchronized",
-    "full_missing_quote_count": 133
+    "full_missing_quote_count": 134
   },
   "secondary_priority_legal_review_queue": {
     "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
-    "source_bank_blob_sha": "a81581438b449107fb42dcb10450acc5a69278e4",
+    "source_bank_blob_sha": "c7c55c480fa872b1ec9ea008fb1e6d049f7fae96",
     "queue_count": 20,
-    "full_missing_quote_count": 133,
+    "full_missing_quote_count": 134,
     "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
     "all_statuses": "needs_review",
     "official_gazette_comparison": "pending",
-    "unresolved_literal_comparisons": 428
+    "unresolved_literal_comparisons": 429
   },
   "scenario_count": 39,
   "mock_exam_variant_count": 5,
   "editorial_update": {
     "stage": "4x88",
     "date": "2026-10-27",
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "4a1a5d7f1ca8a5124eb096cd228aa92952fac6da",
     "summary": "Sprawdzono oficjalny wpis M364 w UNECE i polską publikację. M364 jest wykazana jako ważna do 31.12.2026 dla sygnatariuszy, a wyjątek dotyczy świadectwa dopuszczenia przyczepy, nie samochodu silnikowego FL w ADR-B-0145. Poprawna odpowiedź B pozostaje bez zmian; bank, egzaminy i klucze nie wymagają synchronizacji treści.",
     "question_count": 609,
     "needs_review": 609,
@@ -712,7 +712,7 @@
   "latest_editorial_stage": "4x229",
   "latest_editorial_report": "podstawowy/raporty/etap-4x229-szczegolne-znaczenie-kodu-99-2026-10-31.md",
   "stage4x112": {
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "4f6deeca86fea1b746039ab74db7c48f43abbfd0",
     "sample_size": 40,
     "seed": 41122026,
     "report": "podstawowy/raporty/etap-4x112-proba40-dystraktory-sync-2026-10-28.md",
@@ -729,7 +729,7 @@
     "legal_review_pending": true
   },
   "stage4x113": {
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "2675c0636a421bf3b4347ad0117087d6ec633321",
     "sample_size": 40,
     "seed": 41132026,
     "report": "podstawowy/raporty/etap-4x113-proba40-dystraktory-sync-2026-10-28.md",
@@ -746,7 +746,7 @@
     "legal_review_pending": true
   },
   "stage4x114": {
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "04d7246d074d6f12fc46e91b4b47fc0e2364f0f0",
     "sample_size": 40,
     "seed": 41142026,
     "report": "podstawowy/raporty/etap-4x114-proba40-dystraktory-sync-2026-10-28.md",
@@ -773,7 +773,7 @@
     "legal_review_pending": true
   },
   "stage4x115": {
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "aa6c4184014808849f154ab07bf6acc99cbe4701",
     "sample_size": 40,
     "seed": 41152026,
     "report": "podstawowy/raporty/etap-4x115-proba40-dystraktory-sync-2026-10-28.md",
@@ -802,8 +802,8 @@
     "legal_review_pending": true
   },
   "stage4x116": {
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
-    "selection_source_bank_blob_sha": "0581ff1ce4c6a9412e918929aa880ecd5f5c899b",
+    "source_bank_blob_sha": "ed7e1842d6f15d1ecde54ea3319d9efe3ef7a728",
+    "selection_source_bank_blob_sha": "aa6c4184014808849f154ab07bf6acc99cbe4701",
     "sample_size": 40,
     "seed": 41162026,
     "report": "podstawowy/raporty/etap-4x116-proba40-jakosc-dystraktorow-2026-10-28.md",
@@ -833,8 +833,8 @@
     ]
   },
   "stage4x117": {
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
-    "selection_source_bank_blob_sha": "0581ff1ce4c6a9412e918929aa880ecd5f5c899b",
+    "source_bank_blob_sha": "b763f639efe11f972d4c3047dc8238334f9ff9f2",
+    "selection_source_bank_blob_sha": "ed7e1842d6f15d1ecde54ea3319d9efe3ef7a728",
     "sample_size": 40,
     "seed": 41172026,
     "questions_rewritten": [
@@ -857,8 +857,8 @@
     "manifest": "podstawowy/raporty/etap-4x117-wykluczenia-proby.json"
   },
   "stage4x118": {
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
-    "selection_source_bank_blob_sha": "0581ff1ce4c6a9412e918929aa880ecd5f5c899b",
+    "source_bank_blob_sha": "28d809ccbf973fc8101f456eb9ab0144165110f1",
+    "selection_source_bank_blob_sha": "b763f639efe11f972d4c3047dc8238334f9ff9f2",
     "sample_size": 25,
     "seed": 41182026,
     "report": "podstawowy/raporty/etap-4x118-proba25-dystraktory-sync-2026-10-28.md",
@@ -884,7 +884,7 @@
     "overlap_note": "ADR-B-0535 was also in the 4x117 sample; this was a targeted follow-up, not counted among the 25 disjoint sample IDs."
   },
   "stage4x119": {
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "35549752d913c85daf1fc3c9492d9c04fce777a1",
     "sample_size": 40,
     "seed": 41192026,
     "excluded_sample_ids_from_stages": "4x114–4x118",
@@ -911,8 +911,8 @@
     "manifest": "podstawowy/raporty/etap-4x119-wykluczenia-proby.json"
   },
   "stage4x120": {
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
-    "selection_source_bank_blob_sha": "0581ff1ce4c6a9412e918929aa880ecd5f5c899b",
+    "source_bank_blob_sha": "04ace7f478868d0901bbc45fb26af3d866e18538",
+    "selection_source_bank_blob_sha": "35549752d913c85daf1fc3c9492d9c04fce777a1",
     "sample_size": 40,
     "seed": 411202026,
     "unique_prior_sample_ids_excluded": 449,
@@ -932,12 +932,12 @@
     "legal_review_pending": true,
     "report": "podstawowy/raporty/etap-4x120-proba40-dystraktory-sync-2026-10-28.md",
     "manifest": "podstawowy/raporty/etap-4x120-wykluczenia-proby.json",
-    "updated_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964"
+    "updated_bank_blob_sha": "04ace7f478868d0901bbc45fb26af3d866e18538"
   },
   "stage4x121": {
     "report": "podstawowy/raporty/etap-4x121-proba40-explanations-sync-2026-10-28.md",
     "sample_manifest": "podstawowy/raporty/etap-4x121-wykluczenia-proby.json",
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "f18b273e3451730a4efc28e10cd0ff16b03807f5",
     "changed_ids": [
       "ADR-B-0041",
       "ADR-B-0426"
@@ -946,8 +946,8 @@
     "formal_approval": false
   },
   "stage4x122": {
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
-    "selection_source_bank_blob_sha": "0581ff1ce4c6a9412e918929aa880ecd5f5c899b",
+    "source_bank_blob_sha": "ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6",
+    "selection_source_bank_blob_sha": "f18b273e3451730a4efc28e10cd0ff16b03807f5",
     "sample_size": 40,
     "seed": 41222026,
     "questions_changed": [
@@ -982,7 +982,7 @@
   "stage4x123": {
     "report": "podstawowy/raporty/etap-4x123-proba40-explanations-dystraktory-sync-2026-10-28.md",
     "sample_manifest": "podstawowy/raporty/etap-4x123-wykluczenia-proby.json",
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6",
     "changed_ids": [
       "ADR-B-0024",
       "ADR-B-0166",
@@ -997,7 +997,7 @@
   "stage4x124": {
     "report": "podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md",
     "sample_manifest": "podstawowy/raporty/etap-4x124-wykluczenia-proby.json",
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964",
+    "source_bank_blob_sha": "ba1e823c2891a9b4c05ebb9c5f3e620127baa8e6",
     "changed_ids": [
       "ADR-B-0293"
     ],
@@ -1036,7 +1036,7 @@
       "status": "official_exam_parameters_confirmed; training variants not official"
     }
   },
-  "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0664.json",
+  "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0665.json",
   "stage4x135": {
     "status": "needs_review",
     "date": "2026-10-28",
@@ -1101,9 +1101,25 @@
     "bank_blob_sha": "ff60bc99b58068ce826bec80d7c12f3265dc1301",
     "question_count": 639,
     "last_id": "ADR-B-0638",
-    "source_bank_blob_sha": "8ae758673083f3c3d828d9ddc736796aab77d964"
+    "source_bank_blob_sha": "9d82c5c1f6d6bda00c46dca47126891d509b9499"
   },
-  "source_bank_blob_sha": "a81581438b449107fb42dcb10450acc5a69278e4",
+  "source_bank_blob_sha": "c7c55c480fa872b1ec9ea008fb1e6d049f7fae96",
+  "practical_coverage_followup": {
+    "competencies": [
+      "ADR-B-05-K13",
+      "ADR-B-05-K14",
+      "ADR-B-05-K15"
+    ],
+    "added_question_ids": [
+      "ADR-B-0646",
+      "ADR-B-0647",
+      "ADR-B-0648",
+      "ADR-B-0649",
+      "ADR-B-0650",
+      "ADR-B-0651"
+    ],
+    "note": "Question bank items support scenario discussion but do not replace individual practical exercises required by ADR 8.2.2.3.8."
+  },
   "stage4x228": {
     "status": "needs_review",
     "date": "2026-10-31",
@@ -1116,9 +1132,7 @@
     "legal_basis": "ADR 2025, 5.3.2.3.2",
     "bank_blob_sha": "51d9a6ea4287ae199a79d318b24a9a656c1cb83c",
     "formal_approvals": 0,
-    "report": "podstawowy/raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md",
-    "unresolved_literal_comparisons": 420,
-    "missing_quote_count": 123
+    "report": "podstawowy/raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md"
   },
   "stage4x229": {
     "status": "needs_review",
@@ -1182,10 +1196,10 @@
     "exam_source_bank_head": "edef07df45541eeea77726bb1d6f93d00d853627",
     "bank_blob_sha": "edef07df45541eeea77726bb1d6f93d00d853627"
   },
-  "bank_blob_sha": "a81581438b449107fb42dcb10450acc5a69278e4",
-  "exam_source_bank_head": "a81581438b449107fb42dcb10450acc5a69278e4",
-  "sequential_snapshot": "review/sequential/663-663.json",
-  "legal_clause_snapshot": "review/legal-clauses/663-663.json",
+  "bank_blob_sha": "c7c55c480fa872b1ec9ea008fb1e6d049f7fae96",
+  "exam_source_bank_head": "c7c55c480fa872b1ec9ea008fb1e6d049f7fae96",
+  "sequential_snapshot": "review/sequential/665-665.json",
+  "legal_clause_snapshot": "review/legal-clauses/665-665.json",
   "stage4x235": {
     "question_id": "ADR-B-0660",
     "competency": "ADR-B-07-K07",
@@ -1230,5 +1244,21 @@
     "sequential_snapshot": "review/sequential/664-664.json",
     "legal_clause_snapshot": "review/legal-clauses/664-664.json",
     "exam_source_bank_head": "a81581438b449107fb42dcb10450acc5a69278e4"
+  },
+  "stage4x240": {
+    "question_id": "ADR-B-0665",
+    "competency": "ADR-B-02-K05",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0665.json",
+    "sequential_snapshot": "review/sequential/665-665.json",
+    "legal_clause_snapshot": "review/legal-clauses/665-665.json",
+    "exam_source_bank_head": "c7c55c480fa872b1ec9ea008fb1e6d049f7fae96",
+    "source_bank_blob_sha": "c7c55c480fa872b1ec9ea008fb1e6d049f7fae96",
+    "explanation_length": 453,
+    "option_lengths": {
+      "A": 167,
+      "B": 166,
+      "C": 144
+    }
   }
 }
