@@ -1,0 +1,48 @@
+{
+  "batch": "663-663",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0663",
+      "sequence": 663,
+      "exact_record_snapshot": {
+        "stem": "Po zmroku kierowca ma sprawdzić oznakowanie przy pojeździe ADR. Jedyna dostępna latarka ma metalową obudowę, która przy uderzeniu może wywołać iskrę. Jak powinien postąpić?",
+        "options": {
+          "A": "Może użyć tej latarki z metalową obudową, jeżeli ma sprawną baterię, nie jest uszkodzona i użyje jej wyłącznie na zewnątrz pojazdu, z dala od przesyłek.",
+          "B": "Może jej użyć tylko przez krótki czas i z dala od przesyłek, ponieważ sama obudowa nie powoduje iskry podczas normalnej pracy.",
+          "C": "Nie używać jej; wybrać przenośne urządzenie, którego metalowa powierzchnia nie może spowodować iskry, także przy przypadkowym uderzeniu."
+        },
+        "correct_option": "C",
+        "explanation": "Nie używaj latarki, której metalowa powierzchnia może wywołać iskrę; wybierz urządzenie, które nie stwarza takiego zagrożenia. Sprawna bateria, brak uszkodzeń ani krótki czas świecenia nie usuwają ryzyka związanego z obudową. Odsunięcie latarki od przesyłek także nie zastępuje wymaganego rodzaju urządzenia. Podstawa: ADR 8.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_8.3.4_compared_against_Ministry_published_Polish_translation; binding_Gazette_text_literal_comparison_and_independent_specialist_review_pending",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "ADR 8.3.4 wymaga, aby używane przenośne urządzenie oświetleniowe nie miało powierzchni metalowej mogącej spowodować iskrę krzesaną. Przepis sprawdzono na stronie 627 tomu II w polskim materiale ADR 2025 udostępnionym przez MI. Pełne literalne porównanie tekstu wiążącego Dz.U. i niezależna recenzja pozostają otwarte.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

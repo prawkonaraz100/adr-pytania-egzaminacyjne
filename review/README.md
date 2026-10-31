@@ -1,4 +1,12 @@
-## Bieżąca migawka — etap 4x237 (31.10.2026)
+## Bieżąca migawka — etap 4x238 (31.10.2026)
+
+- Bank: 663 pytań ADR-B-0001–0663; 663 `needs_review`, 0 `verified`; blob SHA `a626f744ed85432679ad0790a465eae854de9704`.
+- Dodano ADR-B-0663 do ADR-B-07-K06: bezpieczny wybór przenośnego urządzenia oświetleniowego przez członka załogi (ADR 8.3.4).
+- Explanation: 329 znaków, 4 zdania; A/B/C 152/126/136 znaków. Poprawna C nie jest ani najdłuższa, ani najkrótsza.
+- Raport: `podstawowy/raporty/etap-4x238-przenosne-urzadzenia-oswietleniowe-2026-10-31.md`.
+- Warianty/klucze 001–005, snapshoty sequential/legal, ledger i zagnieżdżone kolejki wskazują bieżący bank. Pełna literalna recenzja tekstu wiążącego i niezależna recenzja specjalisty pozostają otwarte.
+
+## Poprzednia migawka — etap 4x237 (31.10.2026)
 
 - Bank: 662 pytań ADR-B-0001–0662; 662 `needs_review`, 0 `verified`; blob SHA `67da7457c1494d9e770324f42a6a30ef4e117567`.
 - Dodano ADR-B-0662 do ADR-B-08-K08: kontrola zgodności VIN w świadectwie dopuszczenia z konkretnym pojazdem (ADR 9.1.3.1, 9.1.3.3, 9.1.3.5).
