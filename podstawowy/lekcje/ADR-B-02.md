@@ -408,3 +408,8 @@ Przy odbiorze przesyłki klasy 7 kierowca nie powinien ustalać kategorii wyłą
 ### Klasa 6.1 — uszkodzone opakowanie i ryzyko zatrucia
 
 Materiały klasy 6.1 mogą zaszkodzić człowiekowi przez wdychanie, kontakt ze skórą lub połknięcie. Jeśli podczas rozładunku uszkodzi się opakowanie i rozsypie się proszek, kierowca nie powinien go zamiatać, dotykać ani samodzielnie przepakowywać. Trzeba oddalić się od pyłu, ostrzec innych i postępować według instrukcji pisemnych oraz procedury awaryjnej. Powiązane pytanie: ADR-B-0670 (needs_review). Podstawa: ADR 2.2.61.1.1 i 5.4.3.4.
+
+
+### Klasa 2 — ochrona zaworu butli podczas przewozu
+
+Zawór butli gazowej musi być odporny na uszkodzenie albo chroniony tak, aby uderzenie nie spowodowało przypadkowego uwolnienia gazu. ADR dopuszcza różne rozwiązania, między innymi kapturek, osłonę, skrzynię lub przewóz butli w ramie. Dlatego brak osobnego kapturka nie przesądza sam w sobie o niezgodności — trzeba sprawdzić, czy zastosowane zabezpieczenie rzeczywiście chroni zawór. Powiązane pytanie: ADR-B-0671 (needs_review). Podstawa: ADR 4.1.6.8.
