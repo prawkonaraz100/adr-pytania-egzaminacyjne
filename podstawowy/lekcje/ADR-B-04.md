@@ -94,6 +94,7 @@ Pytania do samodzielnego sprawdzenia w banku:
 - `ADR-B-0280`
 - `ADR-B-0310`
 - `ADR-B-0580`
+- `ADR-B-0678`
 
 
 ## Powiązane pytania w banku
