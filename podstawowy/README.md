@@ -7,11 +7,6 @@
 - Dodano ADR-B-0653 do ADR-B-06-K08: kod 886 oznacza substancję silnie żrącą i toksyczną (ADR 5.3.2.3.2). A/B/C audytowane; poprawna A nie jest najdłuższa.
 - Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz SHA pakietu recenzyjnego zsynchronizowane. Wszystkie 653 rekordy pozostają `needs_review`.
 
-- Bank: 651 pytań `needs_review`, 0 `verified`; blob SHA `ef5a3f1ca81efe76b5214d711d11db7933241528`.
-- Raport: `podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md`.
-- ADR-B-0615 doprecyzowano: litera X oznacza niebezpieczną reakcję z wodą; woda może być użyta wyłącznie po uzyskaniu zgody ekspertów (ADR 5.3.2.3.1). Klucz B i status `needs_review` bez zmian.
-- Warianty i klucze egzaminów 001–005, snapshoty sequential/legal oraz referencje SHA pakietu recenzyjnego zsynchronizowane.
-
 ## Etap 4x228 — pogłębienie kompetencji K08
 
 - [Raport 4x228: kombinacja zagrożeń 886](raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md).
