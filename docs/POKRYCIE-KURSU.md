@@ -1,9 +1,10 @@
 **Stan aktualny po etapie 4x255: 31.10.2026.**
 
-- Bank: 681 pytań ADR-B-0001–0681; wszystkie needs_review, 0 verified; SHA `12a8dd403a927c9995348124e4a3e67e4a63ac00`.
+- Bank: 681 pytań ADR-B-0001–0681; wszystkie needs_review, 0 verified; SHA `6724b494f6506bf19ca1f71e309dae08818b157b`.
 - ADR-B-0681 do ADR-B-03-K04: dla towaru z nalepką 8 wymagane dodatkowe wyposażenie — łopata, osłona kanalizacyjna i pojemnik (ADR 8.1.5.2).
-- Explanation 325 znaków, 4 zdania; A/B/C 65/66/72, klucz A nie jest najdłuższy.
-- A/B/C: 234/231/216; poprawna = jedyna najdłuższa: 72/681 = 10,57%.
+- Explanation 325 znaków, 4 zdania; A/B/C 117/130/108, klucz A nie jest najdłuższy.
+- Rozkład prawidłowych opcji: A=234, B=231, C=216.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/681 = 10,57%**; maksimum działu to 13,95%.
 - Snapshoty: `sequential/681-681.json`, `legal-clauses/681-681.json`; rejestr: `REJESTR-0681-0681.md`.
 - Raport: `podstawowy/raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md`.
 - ADR-B-03-K04 ma teraz 5 pytań; legal_refs obejmuje 5.4.3.4 i 8.1.5.2.
