@@ -1,4 +1,17 @@
-**Stan aktualny po etapie 4x247: 31.10.2026.**
+**Stan aktualny po etapie 4x248: 31.10.2026.**
+
+## Uzupełnienie audytu 4x248 — 31.10.2026
+
+- Dodano ADR-B-0673 do ADR-B-02-K13: praktyczne rozróżnienie UN 3480 i UN 3481 dla baterii litowo-jonowej przewożonej samodzielnie albo zapakowanej z urządzeniem, które zasila.
+- Explanation: 423 znaki, 4 zdania; A/B/C 136/134/109. Poprawna B nie jest najdłuższa.
+- Podstawa: ADR 2025, 2.2.9.1.7.1, dział 3.2 tabela A (UN 3480/3481; UN 3090/3091) i 5.2.1.9.2, Dz.U. 2025 poz. 642. Literalne porównanie i niezależna recenzja specjalisty pozostają otwarte.
+- Bank: 673 pytania ADR-B-0001–0673, wszystkie `needs_review`, 0 `verified`; SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
+- Rozkład poprawnych odpowiedzi: A=231, B=229, C=213.
+- Rozkład prawidłowych opcji: A=231, B=229, C=213.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/673 = 10,70%**; maksimum działu to 13,95%.
+- Raport: [Etap 4x248 — bateria litowo-jonowa z urządzeniem](../podstawowy/raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md).
+
+**Poprzednia migawka — etap 4x247 (31.10.2026).**
 
 ## Uzupełnienie audytu 4x247 — 31.10.2026
 
@@ -220,7 +233,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 75 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 76 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 61 | 0 | Lekcja + mapa pytań |
@@ -232,7 +245,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **672** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **673** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

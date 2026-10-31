@@ -1,3 +1,7 @@
+## Migawka bieżąca — 4x248
+
+Bank podstawowy: 673 pytania, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`. Najnowsza partia: ADR-B-0673, klasa 9, UN 3480/3481 dla baterii litowo-jonowej i urządzenia. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.
+
 ## Migawka bieżąca — 4x247
 
 Bank podstawowy: 672 pytania, wszystkie `needs_review`, 0 `verified`. Aktualny blob SHA: `dc499257cfae6fa8c5f5882248f676c15929c3a5`. Najnowsza partia: ADR-B-0672, dokument identyfikacyjny ze zdjęciem dla każdego członka załogi. Pełna literalna weryfikacja Dz.U. oraz recenzja specjalisty pozostają otwarte.

@@ -29,11 +29,11 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         )
 
     def test_manifest_matches_bank_and_module_counts(self):
-        self.assertEqual(len(self.bank), 672)
-        self.assertEqual(len(self.by_id), 672)
+        self.assertEqual(len(self.bank), 673)
+        self.assertEqual(len(self.by_id), 673)
         self.assertEqual(self.manifest["question_count"], len(self.bank))
-        self.assertEqual(self.manifest["last_id"], "ADR-B-0672")
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 672)
+        self.assertEqual(self.manifest["last_id"], "ADR-B-0673")
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 673)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
         self.assertEqual(self.manifest["formal_approvals"], 0)
         actual = {}
@@ -61,7 +61,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
             content = path.read_text(encoding="utf-8")
             with self.subTest(path=str(path.relative_to(ROOT))):
                 self.assertIn(bank_blob_sha, content, "review guidance must identify current bank snapshot")
-                self.assertIn("672", content, "review guidance must show current question count")
+                self.assertIn("673", content, "review guidance must show current question count")
                 self.assertIn("needs_review", content)
                 self.assertIn("verified", content)
         handoff = (REVIEW / "PRZEKAZANIE-ETAP4.md").read_text(encoding="utf-8")
@@ -170,8 +170,8 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         quote_list = REVIEW / "ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md"
         quote_text = quote_list.read_text(encoding="utf-8")
         quote_ids = re.findall(r"^- (ADR-B-\d{4})$", quote_text, flags=re.MULTILINE)
-        self.assertEqual(len(quote_ids), 141)
-        self.assertEqual(len(set(quote_ids)), 141)
+        self.assertEqual(len(quote_ids), 142)
+        self.assertEqual(len(set(quote_ids)), 142)
         self.assertTrue(set(quote_ids).issubset(self.by_id))
         self.assertEqual(open_items["ministerial_copy_exact_quote_not_saved"], len(quote_ids))
         self.assertEqual(open_items["targeted_source_checked_full_literal_comparison_pending"], 13)
@@ -181,7 +181,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertIn("Jak interpretować wynik", exam_guide)
         review_guide = (REVIEW / "INSTRUKCJA-RECENZJI.md").read_text(encoding="utf-8")
         self.assertIn("etapach 4x25–4x29", review_guide)
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 672)
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 673)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
 
     def test_secondary_priority_legal_review_queue_stays_synchronized(self):

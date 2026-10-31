@@ -37,7 +37,7 @@ Temat urzędowy: główne rodzaje zagrożeń, podstawy klasyfikacji, rozpoznawan
 | ADR-B-02-K10 | Klasa 6.2: materiały zakaźne | ADR 2.2.62 | 4 |
 | ADR-B-02-K11 | Klasa 7: materiały promieniotwórcze (rozpoznawanie) | ADR 2.2.7 | 3 |
 | ADR-B-02-K12 | Klasa 8: materiały żrące | ADR 2.2.8 | 3 |
-| ADR-B-02-K13 | Klasa 9 i 9A: różne zagrożenia | ADR 2.2.9 | 7 |
+| ADR-B-02-K13 | Klasa 9 i 9A: różne zagrożenia | ADR 2.2.9 | 8 |
 | ADR-B-02-K14 | Grupy pakowania, zagrożenia dodatkowe, tabela A | ADR 2.1, 3.2 | 4 |
 
 ### Przebieg 90 minut
@@ -213,3 +213,8 @@ Odegraj sytuację, w której podczas rozładunku uszkadza się opakowanie z nale
 ### Ćwiczenie: butla w ramie bez osobnego kapturka
 
 Pokaż kursantowi butlę, której zawór nie ma osobnego kapturka, ale butla jest przewożona w ramie ochronnej. Poproś o wskazanie, co należy ocenić: czy zawór jest konstrukcyjnie odporny na uszkodzenie albo czy rama chroni go przed uderzeniem i przypadkowym uwolnieniem gazu. Zwróć uwagę na błąd polegający na uznaniu, że każda butla musi mieć wyłącznie metalowy kapturek, oraz na przeciwstawny błąd — że zamknięty zawór nie wymaga ochrony. Powiązane pytanie: ADR-B-0671 (needs_review). Podstawa: ADR 4.1.6.8.
+
+
+### Ćwiczenie: bateria zapakowana z elektronarzędziem
+
+Przedstaw fikcyjną przesyłkę z wiertarką i zapasową baterią litowo-jonową umieszczoną w tym samym opakowaniu. Poproś kursanta o wybór właściwej pozycji UN i uzasadnienie, dlaczego bateria nie jest UN 3480 tylko dlatego, że nie została zamontowana. Oczekiwane rozróżnienie: UN 3481 dla baterii zawartej w urządzeniu lub zapakowanej z urządzeniem, które zasila; UN 3480 dla baterii litowo-jonowej przewożonej bez urządzenia. Następnie pokaż kontrprzykład baterii z litem metalicznym i omów UN 3091. Nie oceniaj na tej podstawie spełnienia wszystkich warunków pakowania ani wyłączenia SP 188 — do tego trzeba osobno sprawdzić właściwy wpis, przepis szczególny i instrukcję pakowania. Powiązane pytanie: ADR-B-0673 (needs_review). Podstawa: ADR 2.2.9.1.7.1, dział 3.2 tabela A, 5.2.1.9.2.

@@ -413,3 +413,8 @@ Materiały klasy 6.1 mogą zaszkodzić człowiekowi przez wdychanie, kontakt ze 
 ### Klasa 2 — ochrona zaworu butli podczas przewozu
 
 Zawór butli gazowej musi być odporny na uszkodzenie albo chroniony tak, aby uderzenie nie spowodowało przypadkowego uwolnienia gazu. ADR dopuszcza różne rozwiązania, między innymi kapturek, osłonę, skrzynię lub przewóz butli w ramie. Dlatego brak osobnego kapturka nie przesądza sam w sobie o niezgodności — trzeba sprawdzić, czy zastosowane zabezpieczenie rzeczywiście chroni zawór. Powiązane pytanie: ADR-B-0671 (needs_review). Podstawa: ADR 4.1.6.8.
+
+
+## Klasa 9 — bateria litowo-jonowa zapakowana z urządzeniem
+
+Jeżeli bateria litowo-jonowa jest przewożona samodzielnie, właściwą pozycją jest UN 3480. Jeżeli znajduje się w urządzeniu albo jest zapakowana razem z urządzeniem, które zasila, stosuje się UN 3481. Dlatego zapasowa bateria w tym samym opakowaniu co elektronarzędzie nie staje się UN 3480 tylko dlatego, że nie została zamontowana. Nie myl jej także z UN 3091, które dotyczy baterii z litem metalicznym zawartych w urządzeniu lub zapakowanych z nim. Przed przewozem porównaj rodzaj baterii, sposób zapakowania, numer UN i oznakowanie; nie wyciągaj wniosków wyłącznie z tego, czy bateria jest fizycznie włożona do urządzenia. Powiązane pytanie: ADR-B-0673 (needs_review). Podstawa: ADR 2.2.9.1.7.1, dział 3.2 tabela A (UN 3480/3481 i UN 3090/3091), 5.2.1.9.2.

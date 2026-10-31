@@ -1,3 +1,14 @@
+## Bieżąca migawka — etap 4x248 (31.10.2026)
+
+- Bank: 673 pytania ADR-B-0001–0673; 673 `needs_review`, 0 `verified`; blob SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
+
+**Stan na 31.10.2026, etap 4x248**
+
+- Dodano ADR-B-0673 do ADR-B-02-K13: rozróżnienie UN 3480/3481 dla baterii litowo-jonowej przewożonej samodzielnie albo zapakowanej z urządzeniem.
+- Explanation: 423 znaki, 4 zdania; A/B/C 136/134/109. Poprawna B nie jest najdłuższa.
+- Rozkład poprawnych odpowiedzi: A=231, B=229, C=213; „poprawna = jedyna najdłuższa” 72/673 = 10,70%.
+- Raport: `raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md`.
+
 ## Bieżąca migawka — etap 4x247 (31.10.2026)
 
 - Bank: 672 pytania ADR-B-0001–0672; 672 `needs_review`, 0 `verified`; blob SHA `dc499257cfae6fa8c5f5882248f676c15929c3a5`.
@@ -267,6 +278,11 @@
 
 ## Raporty jakości
 
+- [Etap 4x248 — bateria litowo-jonowa zapakowana z urządzeniem (UN 3481)](raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md)
+- [Etap 4x247 — identyfikacja ze zdjęciem dla załogi](raporty/etap-4x247-identyfikacja-zdjecie-zaloga-2026-10-31.md)
+- [Etap 4x246 — klasa 2: ochrona zaworu butli](raporty/etap-4x246-klasa-2-ochrona-zaworu-butli-2026-10-31.md)
+- [Etap 4x245 — klasa 6.1: uszkodzone opakowanie](raporty/etap-4x245-klasa-61-uszkodzone-opakowanie-2026-10-31.md)
+- [Etap 4x244 — klasa 7: kategoria przesyłki](raporty/etap-4x244-klasa-7-kategoria-przesylki-2026-10-31.md)
 - [Etap 4x243 — klasa 6.2: UN 3373 i P650](raporty/etap-4x243-klasa-62-un3373-p650-2026-10-31.md)
 - [Etap 4x242 — klasa 5.2: temperatura awaryjna](raporty/etap-4x242-klasa-52-temperatura-awaryjna-2026-10-31.md)
 - [Etap 4x241 — klasa 5.1: utleniacz i ryzyko pożaru](raporty/etap-4x241-klasa-51-utleniajace-ryzyko-pozaru-2026-10-31.md)
