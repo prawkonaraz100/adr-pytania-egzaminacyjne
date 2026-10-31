@@ -185,7 +185,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertIn("Jak interpretować wynik", exam_guide)
         review_guide = (REVIEW / "INSTRUKCJA-RECENZJI.md").read_text(encoding="utf-8")
         self.assertIn("etapach 4x25–4x29", review_guide)
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 680)
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 681)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
 
     def test_secondary_priority_legal_review_queue_stays_synchronized(self):
