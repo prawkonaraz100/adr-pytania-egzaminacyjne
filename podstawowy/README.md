@@ -1,4 +1,13 @@
-## Bieżąca migawka — etap 4x231 (31.10.2026)
+## Bieżąca migawka — etap 4x232 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x232**
+
+- Bank: 657 pytań; 657 `needs_review`, 0 `verified`; blob SHA `17633b89f1282d3dd25ddc51e81bc84b6c88c819`.
+- Dodano ADR-B-0657 do ADR-B-02-K02: rozpoznanie gazu palnego 2.1 oraz odróżnienie go od gazów 2.2 i 2.3. Explanation 356 znaków, 4 zdania; A/B/C 128/140/115 znaków.
+- Rozkład odpowiedzi A/B/C: 225/220/212. „Poprawna = jedyna najdłuższa”: 72/657 = 10,96%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x232-gazy-palne-klasy-21-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x231 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x231**
 
@@ -119,6 +128,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x232 — gazy palne klasy 2.1](raporty/etap-4x232-gazy-palne-klasy-21-2026-10-31.md)
 - [Etap 4x231 — wyłączenie dla przewozu pomocniczego przedsiębiorstwa](raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md)
 - [Etap 4x231 — wyłączenie dla przewozu pomocniczego przedsiębiorstwa](raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md)
 - [Etap 4x230 — praktyczne odczytanie tabeli A](raporty/etap-4x230-odczyt-tabeli-a-2026-10-31.md)
