@@ -172,3 +172,12 @@ Przedstaw kursantowi kartę charakterystyki cieczy z temperaturą zapłonu 45°C
 **Odniesienie:** ADR 2.2.41.1.20–2.2.41.1.21(a) i 7.1.7. Nie wykonuj ćwiczenia na rzeczywistym materiale; korzystaj wyłącznie z fikcyjnej dokumentacji.
 
 **Pytanie kontrolne:** `ADR-B-0661` — odpowiedź ma wskazywać próg 50°C dla DPPL, nie próg 45°C dla cystern.
+
+
+## Zadanie instruktorskie: piroforyczne czy samonagrzewające się?
+
+**Symulacja na dwóch fikcyjnych kartach klasyfikacyjnych:** karta A opisuje zapłon małej ilości materiału po kontakcie z powietrzem w ciągu pięciu minut; karta B opisuje samonagrzewanie, którego skutki mogą ujawnić się dopiero w dużej ilości po wielu godzinach lub dniach. Poproś kursanta o rozróżnienie obu zjawisk i wyjaśnienie, dlaczego nie wolno utożsamiać ich z klasą 4.3 (reakcja z wodą z wydzieleniem palnego gazu). Omów, że materiały piroforyczne należą do I grupy pakowania, natomiast grupę dla materiałów samonagrzewających się ustala się na podstawie kryteriów i badań ADR. Nie wykonuj prób na rzeczywistych materiałach ani nie otwieraj opakowań.
+
+**Podstawa:** ADR 2.2.42.1.1, 2.2.42.1.3 i 2.2.42.1.8(a).
+
+**Pytanie kontrolne:** ADR-B-0665 (status `needs_review`). Kryterium: kursant rozróżnia czas i ilość charakterystyczne dla obu zjawisk oraz nie myli klasy 4.2 z 4.3.
