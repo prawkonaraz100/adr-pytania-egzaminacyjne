@@ -1,3 +1,10 @@
+## Uzupełnienie audytu 4x227 — 31.10.2026
+
+- Bank wzrósł do 652 pytań po dodaniu ADR-B-0652 do kompetencji ADR-B-02-K12. Pytanie sprawdza drugi element definicji klasy 8: możliwość poważnego uszkodzenia innych towarów lub środka transportu przy wycieku.
+- Wcześniejsze cztery pytania K12 skupiały się głównie na rozpoznaniu klasy i zagrożenia; nowy rekord poszerza sprawdzany zakres o konsekwencję wycieku.
+- ADR-B-0615 doprecyzowano o warunek zgody ekspertów na użycie wody przy oznaczeniu X.
+- Wszystkie statusy pozostają `needs_review`; 0 `verified`. Raport: [4x227 — przegląd pokrycia i redakcja podobieństw](../podstawowy/raporty/etap-4x227-przeglad-pokrycia-redakcja-podobienstw-2026-10-31.md).
+
 ## Audyt pokrycia po drugim przeglądzie explanation — 31.10.2026
 
 Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podstawowy/raporty/etap-4x226-audyt-pokrycia-kompetencji-i-podobienstwa-2026-10-31.md).
