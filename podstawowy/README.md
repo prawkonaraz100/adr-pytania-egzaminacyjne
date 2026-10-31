@@ -1,4 +1,12 @@
-## Bieżąca migawka — etap 4x250 (31.10.2026)
+## Bieżąca migawka — etap 4x251 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x251**
+
+- Dodano scenariusz SC-ADR-B-05-04 do kompetencji ADR-B-05-K06: mały pożar opon, hamulców lub silnika; powiązane pytania ADR-B-0108, 0184, 0223 i 0493.
+- Moduł ADR-B-05 ma 4 scenariusze; cały kurs ma 41 scenariuszy. Bank bez zmian: 677 pytań, wszystkie `needs_review`, SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
+- Raport: `raporty/etap-4x251-maly-pozar-opony-hamulce-silnik-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x250 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x250**
 
@@ -294,6 +302,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x251 — mały pożar opon, hamulców lub silnika](raporty/etap-4x251-maly-pozar-opony-hamulce-silnik-2026-10-31.md)
 - [Etap 4x250 — czyszczenie po przewozie towarów niebezpiecznych luzem](raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md)
 - [Etap 4x249 — klasa 4.3: grupy pakowania i stopień zagrożenia](raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md)
 - [Etap 4x248 — bateria litowo-jonowa zapakowana z urządzeniem (UN 3481)](raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md)
