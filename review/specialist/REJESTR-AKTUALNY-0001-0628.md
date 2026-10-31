@@ -708,3 +708,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0662 | ADR-B-08 | ADR-B-08-K08 | W świadectwie dopuszczenia numer VIN nie zgadza się z pojazdem. Co powinien zrobić kierowca? | B | ADR 2025, 9.1.3.1; 9.1.3.3; 9.1.3.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0663 | ADR-B-07 | ADR-B-07-K06 | Po zmroku kierowca ma sprawdzić oznakowanie. Czy może użyć latarki z metalową powierzchnią mogącą wywołać iskrę? | C | ADR 2025, 8.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0664 | ADR-B-07 | ADR-B-07-K06 | Zespół z ABS i przyczepa powyżej 3,5 t: czy rozłączone połączenie ABS można pominąć? | B | ADR 2025, 8.3.8; 9.2.2.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0665 | ADR-B-02 | ADR-B-02-K05 | Rozróżnienie materiałów piroforycznych i samonagrzewających się klasy 4.2 | B | ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a) | — | NIEROZSTRZYGNIĘTE | needs_review |
