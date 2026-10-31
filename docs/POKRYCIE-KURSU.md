@@ -1,3 +1,12 @@
+## Uzupełnienie audytu 4x240 — 31.10.2026
+
+- Dodano ADR-B-0665 do ADR-B-02-K05: rozróżnienie materiałów piroforycznych (zapłon małej ilości po kontakcie z powietrzem w ciągu pięciu minut) i samonagrzewających się (zwykle większa ilość, dłuższy czas).
+- Explanation: 453 znaki, 4 zdania; A/B/C 167/166/144 znaków. Poprawna B nie jest najdłuższa.
+- Podstawa: ADR 2025, 2.2.42.1.1; 2.2.42.1.3; 2.2.42.1.8(a). UNECE ADR 2025 sprawdzony; literalne porównanie polskiego tekstu Dz.U. i niezależna recenzja pozostają otwarte.
+- Bank: 665 pytań `needs_review`, 0 `verified`; ID 0001–0665 ciągłe i unikalne. Blob SHA `c7c55c480fa872b1ec9ea008fb1e6d049f7fae96`.
+- Rozkład A/B/C: 228/224/213. „Poprawna = jedyna najdłuższa”: 72/665 = 10,83%; maksimum działu 13,95%.
+- Raport: [4x240 — klasa 4.2: piroforyczne i samonagrzewające się](../podstawowy/raporty/etap-4x240-klasa-42-piroforyczne-samonagrzewajace-2026-10-31.md).
+
 ## Uzupełnienie audytu 4x239 — 31.10.2026
 
 - Dodano ADR-B-0664 do ADR-B-07-K06: utrzymywanie połączeń elektrycznych ABS między pojazdem samochodowym i przyczepą o maksymalnej masie powyżej 3,5 t przez cały przewóz.
@@ -122,7 +131,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 68 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 69 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 61 | 0 | Lekcja + mapa pytań |
@@ -134,7 +143,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **664** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **665** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
