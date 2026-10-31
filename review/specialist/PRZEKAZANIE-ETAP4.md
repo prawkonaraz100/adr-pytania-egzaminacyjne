@@ -1,4 +1,10 @@
-## Bieżąca migawka — etap 4x252 (31.10.2026)
+## Bieżąca migawka — etap 4x253 (31.10.2026)
+
+- Bank: 679 pytań ADR-B-0001–0679; wszystkie `needs_review`, 0 `verified`; SHA `5df8cb5200a2c357cdcc04959893969d8ca448a0`.
+- Dodano ADR-B-0679 do ADR-B-01-K07: nadawca odpowiada za klasyfikację i dane, przewoźnik sprawdza dopuszczenie i kompletność informacji przed przewozem. Podstawa: ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3 i 5.4.1.1.1.
+- Egzaminy 001–005, snapshoty sequential/legal, ledger i manifesty zsynchronizowane; raport: `podstawowy/raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x252 (31.10.2026)
 
 - Bank: 678 pytań ADR-B-0001–0678; wszystkie `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
 - Dodano ADR-B-0678 i skorygowano ADR-B-0011, 0048, 0243: ADR 8.3.3 dotyczy kierowcy i pomocnika kierowcy. Ukierunkowane porównanie polskiego brzmienia ustępu wykonano dla tych czterech rekordów; pełna recenzja specjalisty pozostaje pending. SC-ADR-B-04-04 doprecyzowano; 42 scenariusze kursu.
