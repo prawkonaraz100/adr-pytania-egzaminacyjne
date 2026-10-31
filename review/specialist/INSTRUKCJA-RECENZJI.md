@@ -1,6 +1,11 @@
-## Migawka bieżąca — 4x254
+## Migawka bieżąca — 4x255
 
-Bank podstawowy: 680 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`. Najnowsza zmiana: ADR-B-0680, dokument przewozowy odpadu i wymagany prefiks „ODPAD” (ADR 5.4.1.1.3.1, 5.4.1.1.1, 1.4.2.2.3). Snapshoty 680-680, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; pełne literalne porównanie i niezależna recenzja specjalisty pozostają pending.
+Bank podstawowy: 681 pytań, wszystkie needs_review, 0 verified. SHA: `6724b494f6506bf19ca1f71e309dae08818b157b`. Najnowsza zmiana: ADR-B-0681, dodatkowe wyposażenie dla towaru z nalepką 8 (ADR 8.1.5.2). Snapshoty 681-681, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; pełne porównanie polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
+
+## Poprzednia migawka — 4x254
+
+Bank podstawowy: 680 pytań, wszystkie needs_review, 0 verified. SHA: `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`. Najnowsza zmiana: ADR-B-0680, dokument przewozowy odpadu.
+
 
 ## Poprzednia migawka — 4x253
 

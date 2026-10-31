@@ -26,8 +26,8 @@ Materiały przeniesione z lekcji: plany zajęć, mapy kompetencji, zadania instr
 | ADR-B-03-K01 | Rozpoznawanie zagrożenia dla środowiska | 2.2.9.1.10, 5.2.1.8; 5.2.1.8, 5.3.6, 5.4.1.1.18 | 13 |
 | ADR-B-03-K02 | Odpady niebezpieczne w dokumencie przewozowym | 5.4.1.1.3.1 | 3 |
 | ADR-B-03-K03 | Obowiązek oczyszczenia pojazdu po wycieku | 7.5.8.1 | 3 |
-| ADR-B-03-K04 | Ochrona kanalizacji i wód podczas wypadku | 5.4.3.4 | 3 |
-| ADR-B-03-K05 | Unikanie skażenia przy rozlewie | 5.4.3.4 | 3 |
+| ADR-B-03-K04 | Ochrona kanalizacji i wód podczas wypadku | 5.4.3.4; 8.1.5.2 | 5 |
+| ADR-B-03-K05 | Unikanie skażenia przy rozlewie | 5.4.3.4 | 4 |
 | ADR-B-03-K06 | Szczególne zasady klasyfikowania odpadów | 2.1, 3.3, 5.4.1.1.3 | 23 |
 
 ### Scenariusz zajęć — 45 minut
@@ -150,3 +150,12 @@ Przedstaw fikcyjną sytuację, w której po rozładunku towaru niebezpiecznego p
 ### Ćwiczenie dokumentu odpadu — ADR-B-0680
 
 Przedstaw kursantowi dokument ADR z pominiętym słowem „ODPAD” przed nazwą przewozową odpadu zawierającego towary niebezpieczne oraz osobną kartę przekazania odpadu. Poproś o wskazanie, dlaczego karta odpadu nie zastępuje opisu ADR i kto powinien dostarczyć poprawione dane. Oczekiwana decyzja: nie rozpoczynać przewozu z niekompletnym dokumentem; skontaktować się z nadawcą i uzyskać poprawiony dokument. Kierowca nie klasyfikuje samodzielnie odpadu ani nie dopisuje brakującego opisu za nadawcę. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.
+
+
+### Zadanie instruktorskie — wyposażenie do ochrony kanalizacji
+
+**Sytuacja symulowana:** Pojazd przewozi towar ADR z nalepką nr 8. Kursant ma wskazać wymagane dodatkowe wyposażenie i wyjaśnić, kiedy można go użyć przy wycieku.
+
+**Oczekiwane wskazanie:** łopata, osłona kanalizacyjna i pojemnik do zbierania pozostałości; dla tej grupy nalepek wskazuje je ADR 8.1.5.2. Analogiczny wymóg dotyczy nalepek 3, 4.1, 4.3 i 9.
+
+**Granica bezpieczeństwa:** Samo posiadanie sprzętu nie upoważnia do wejścia w rozlew ani narażania się na kontakt z substancją. Działanie tylko wtedy, gdy jest właściwe i bezpieczne (instrukcje pisemne ADR 5.4.3.4). Ćwiczenie wyłącznie na fikcyjnej karcie, bez rzeczywistego wycieku.

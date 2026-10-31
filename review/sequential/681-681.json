@@ -1,0 +1,48 @@
+{
+  "batch": "681-681",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0681",
+      "sequence": 681,
+      "exact_record_snapshot": {
+        "stem": "Pojazd przewozi towar ADR oznakowany nalepką nr 8. Jakie dodatkowe wyposażenie, zgodnie z ADR, powinno znajdować się w pojeździe?",
+        "options": {
+          "A": "Łopatę, osłonę kanalizacyjną oraz pojemnik do zebrania pozostałości po wycieku; cały zestaw powinien być w pojeździe.",
+          "B": "Łopatę i pojemnik do zebrania pozostałości, ale bez osłony kanalizacyjnej, bo odpływ można zabezpieczyć dopiero po wezwaniu służb.",
+          "C": "Samą osłonę kanalizacyjną; łopata i pojemnik są potrzebne dopiero po rozlaniu i ocenie miejsca przez służby."
+        },
+        "correct_option": "A",
+        "explanation": "Przy przewozie towaru z nalepką nr 8 ADR wymaga dodatkowego wyposażenia: łopaty, osłony kanalizacyjnej i pojemnika do zebrania pozostałości. Sama gaśnica ani płyn do płukania oczu nie zastępują tych przedmiotów, a osłony nie zabiera się dopiero po zauważeniu wycieku. Sprawdź ten zestaw przed wyjazdem. Podstawa: ADR 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2, dodatkowe wyposażenie dla towarów oznakowanych nalepkami 3, 4.1, 4.3, 8 i 9",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.1.5.2; wykaz wyposażenia dodatkowego dla nalepek 3, 4.1, 4.3, 8 i 9; pomocnicza interpretacja GOV.UK sprawdzona, dokładny polski ustęp Dz.U. i pełne porównanie wszystkich elementów pytania pozostają pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "ADR 5.4.1.1.3.1 requires the word ODPAD before the proper shipping name for waste containing dangerous goods unless the term is already part of the proper shipping name. A waste transfer note does not replace the ADR transport document.",
+      "supplementary_source_url": "https://www.gov.uk/government/publications/adr/adr-instructions-in-writing",
+      "source_risk_note": "Dokładny polski tekst ustępu 8.1.5.2 i pełne porównanie A/B/C wymagają sprawdzenia w Dz.U. 2025 poz. 642; pomocnicza interpretacja organu brytyjskiego nie zastępuje źródła prawa."
+    }
+  ]
+}

@@ -224,7 +224,9 @@ Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw prz
 
 **Jak rozumować:** Tylko jeśli to bezpieczne i właściwe, z odpowiednim wyposażeniem. To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
 
-**Sprawdź się:** `ADR-B-0100`. **Podstawa do kontroli:** ADR 5.4.3.4.
+**Sprawdź się:** `ADR-B-0100`, `ADR-B-0681`. **Podstawa do kontroli:** ADR 5.4.3.4 i 8.1.5.2.
+
+Dla towarów oznakowanych nalepką 3, 4.1, 4.3, 8 lub 9 ADR 8.1.5.2 wymaga dodatkowo łopaty, osłony kanalizacyjnej i pojemnika do zbierania pozostałości. To wyposażenie ma umożliwić ograniczenie skutków wycieku, ale nie oznacza obowiązku podejmowania działań za wszelką cenę. Używaj go wyłącznie wtedy, gdy jest to właściwe i bezpieczne; nie wchodź w rozlew ani w opary.
  
 ### Unikanie skażenia przy rozlewie (ADR-B-03-K05)
 

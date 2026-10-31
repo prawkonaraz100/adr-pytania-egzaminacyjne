@@ -1,8 +1,17 @@
-## Bieżąca migawka — etap 4x254 (31.10.2026)
+## Bieżąca migawka — etap 4x255 (31.10.2026)
 
-- Bank: 680 pytań ADR-B-0001–0680; wszystkie `needs_review`, 0 `verified`; SHA `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`.
-- Dodano ADR-B-0680 do ADR-B-03-K02: wymagany prefiks „ODPAD” w opisie odpadu w dokumencie ADR; karta przekazania odpadu nie zastępuje dokumentu przewozowego. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.
-- Egzaminy 001–005, snapshoty sequential/legal, ledger, indeks i manifesty zsynchronizowane; raport: `podstawowy/raporty/etap-4x254-odpad-dokument-przewozowy-2026-10-31.md`.
+- Bank: 681 pytań ADR-B-0001–0681; wszystkie needs_review, 0 verified; SHA `6724b494f6506bf19ca1f71e309dae08818b157b`.
+- ADR-B-0681 do ADR-B-03-K04: dla towaru z nalepką 8 wymagane dodatkowe wyposażenie — łopata, osłona kanalizacyjna i pojemnik (ADR 8.1.5.2).
+- Explanation 325 znaków, 4 zdania; A/B/C 65/66/72, klucz A nie jest najdłuższy.
+- A/B/C: 234/231/216; poprawna = jedyna najdłuższa: 72/681 = 10,57%.
+- Snapshoty: `sequential/681-681.json`, `legal-clauses/681-681.json`; rejestr: `REJESTR-0681-0681.md`.
+- Raport: `podstawowy/raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md`.
+- Dodano ADR-B-0681 do ADR-B-03-K04; podstawa ADR 8.1.5.2. Dokładne porównanie polskiego tekstu i niezależna recenzja pozostają pending.
+
+## Poprzednia migawka — etap 4x254 (31.10.2026)
+
+- Bank: 680 pytań; dodano ADR-B-0680 do ADR-B-03-K02.
+
 
 ## Poprzednia migawka — etap 4x253 (31.10.2026)
 
