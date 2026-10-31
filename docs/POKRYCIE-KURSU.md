@@ -1,3 +1,17 @@
+**Stan aktualny po etapie 4x245: 31.10.2026.**
+
+## Uzupełnienie audytu 4x245 — 31.10.2026
+
+- Dodano ADR-B-0670 do ADR-B-02-K09: sytuacyjna reakcja na uszkodzone opakowanie klasy 6.1 i rozsypaną substancję. Kierowca ma unikać kontaktu i pyłu, ostrzec innych oraz postępować według instrukcji pisemnych i procedury awaryjnej.
+- Explanation: 382 znaki, 4 zdania; A/B/C 125/130/134. Poprawna B nie jest najdłuższa.
+- Podstawa: ADR 2025, 2.2.61.1.1 i 5.4.3.4, Dz.U. 2025 poz. 642. Literalne porównanie tekstu Dz.U. i recenzja specjalisty pozostają otwarte.
+- Bank: 670 pytań ADR-B-0001–0670, wszystkie `needs_review`, 0 `verified`; SHA `d4e74d64dc557d9c93e59bde4772bc7a972a92ae`.
+- Rozkład prawidłowych opcji: A=231, B=226, C=213.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/670 = 10,75%**; maksimum działu to 13,95%.
+- Raport: [Etap 4x245 — klasa 6.1: uszkodzone opakowanie](../podstawowy/raporty/etap-4x245-klasa-61-uszkodzone-opakowanie-2026-10-31.md).
+
+**Poprzednia migawka — etap 4x244 (31.10.2026).**
+
 **Stan aktualny po etapie 4x244: 31.10.2026.**
 
 ## Uzupełnienie audytu 4x244 — 31.10.2026
@@ -182,7 +196,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 73 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 74 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 61 | 0 | Lekcja + mapa pytań |
@@ -194,7 +208,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **669** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **670** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
