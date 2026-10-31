@@ -232,7 +232,7 @@
           "C": "Przy przewozie luzem kod D/E wyklucza tunele kategorii D i E"
         },
         "correct_option": "A",
-        "explanation": "Kod D/E rozróżnia przewóz w cysternie od innych sposobów przewozu: pierwsza litera dotyczy cystern, a druga pozostałych przewozów. Dla przewozu luzem stosuje się regułę dla transportu innego niż w cysternie, więc z tego kodu wynika zakaz tunelu kategorii E. Nie wolno automatycznie przenosić reguły cysternowej na przewóz luzem. Podstawa: ADR 8.6.4, kod D/E.",
+        "explanation": "W kodzie D/E pierwsza litera dotyczy przewozu w cysternie, a druga przewozu w innych postaciach, w tym luzem. Dlatego przy przewozie luzem stosuje się literę E: kod wyklucza tunel kategorii E, a nie automatycznie D i E. Nie przenoś ograniczenia cysternowego na przewóz luzem. Podstawa: ADR 8.6.4, kod D/E.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -314,7 +314,7 @@
           "C": "Przy 1000 kg próg B nie jest przekroczony; ograniczenia obejmują C, D i E"
         },
         "correct_option": "C",
-        "explanation": "Kod B1000C pozwala na przejazd przez tunel kategorii B przy ilości nieprzekraczającej 1000 kg netto materiału wybuchowego, ale ogranicza kategorie C, D i E. Nie oznacza to, że każdy tunel jest dozwolony, ani że zakaz kategorii B zaczyna się już od jednego kilograma. Sprawdź ilość netto oraz dokładny kod przed zaplanowaniem trasy. Podstawa: ADR 8.6.4, kod B1000C.",
+        "explanation": "Kod B1000C pozwala przejechać przez tunel kategorii B, jeśli masa netto materiału wybuchowego nie przekracza 1000 kg. Przy tej ilości próg nie jest przekroczony, ale kod nadal wyklucza tunele kategorii C, D i E. Nie oznacza więc pełnej swobody wyboru trasy ani zakazu kategorii B już od 1 kg. Podstawa: ADR 8.6.4, kod B1000C.",
         "sources": [
           {
             "code": "ADR-2025-PL",
