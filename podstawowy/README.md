@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x249 (31.10.2026)
+
+- Bank: 674 pytania ADR-B-0001–0674; 674 `needs_review`, 0 `verified`; blob SHA `841c502032f62580f23608820747827f70b00df0`.
+- Dodano ADR-B-0674 do ADR-B-02-K06: praktyczny odczyt I grupy pakowania materiału klasy 4.3.
+- Explanation: 350 znaków, 3 zdania; A/B/C 133/137/147. Poprawna B nie jest najdłuższa.
+- Rozkład poprawnych odpowiedzi: A=231, B=230, C=213; „poprawna = jedyna najdłuższa” 72/674 = 10,68%.
+
+**Stan na 31.10.2026, etap 4x249**
+
 ## Bieżąca migawka — etap 4x248 (31.10.2026)
 
 - Bank: 673 pytania ADR-B-0001–0673; 673 `needs_review`, 0 `verified`; blob SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
