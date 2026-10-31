@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0674",
+      "order": 674,
+      "clause": "ADR 1.2.1; 2.2.43.1.8(a)–(c)",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0674",
+        "module_id": "ADR-B-02",
+        "stem": "Kierowca sprawdza dokument przewozowy materiału klasy 4.3. Przy towarze podano I grupę pakowania. Co oznacza ten zapis?",
+        "options": {
+          "A": "To najniższy stopień zagrożenia: materiał reaguje z wodą powoli, a gaz wydziela się w niewielkiej ilości; nie chodzi o silną reakcję.",
+          "B": "To najwyższy stopień zagrożenia; materiał reaguje z wodą energicznie, a gaz może zapalać się samorzutnie lub wydzielać się bardzo szybko.",
+          "C": "To oznaczenie rodzaju opakowania, a nie stopnia zagrożenia; o reakcji z wodą i ryzyku zapłonu kierowca powinien wnioskować wyłącznie z nalepki 4.3."
+        },
+        "correct_option": "B",
+        "explanation": "Grupa pakowania I oznacza duże zagrożenie; w klasie 4.3 obejmuje materiał reagujący z wodą energicznie, gdy wydzielany gaz ma zwykle tendencję do samozapłonu, albo gdy gaz palny wydziela się z szybkością co najmniej 10 l/kg w minutę. Grupa III oznacza słabszą reakcję, a grupa pakowania nie jest rodzajem opakowania. Podstawa: ADR 1.2.1 i 2.2.43.1.8.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.2.1; 2.2.43.1.8(a)–(c)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Grupa I nie oznacza małego zagrożenia ani powolnej reakcji; kryterium grupy III opisuje wolniejsze wydzielanie gazu palnego."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 2.2.43.1.8(a) przypisuje grupę I materiałom, które reagują z wodą energicznie z tendencją gazu do samozapłonu lub wydzielają gaz palny z szybkością co najmniej 10 l/kg/min."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Grupa pakowania opisuje stopień zagrożenia, nie rodzaj opakowania; 1.2.1 definiuje znaczenie grup I, II i III."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Pytanie dotyczy odczytu grupy pakowania I dla materiału już sklasyfikowanego do klasy 4.3. Nie prosi kierowcy o samodzielne przypisanie grupy ani wykonywanie badań; kryteria klasyfikacji opierają się na wynikach badań zgodnie z 2.2.43.1.8.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
