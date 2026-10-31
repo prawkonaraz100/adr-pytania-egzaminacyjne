@@ -38,7 +38,7 @@ Temat urzędowy: główne rodzaje zagrożeń, podstawy klasyfikacji, rozpoznawan
 | ADR-B-02-K11 | Klasa 7: materiały promieniotwórcze (rozpoznawanie) | ADR 2.2.7 | 3 |
 | ADR-B-02-K12 | Klasa 8: materiały żrące | ADR 2.2.8 | 3 |
 | ADR-B-02-K13 | Klasa 9 i 9A: różne zagrożenia | ADR 2.2.9 | 7 |
-| ADR-B-02-K14 | Grupy pakowania, zagrożenia dodatkowe, tabela A | ADR 2.1, 3.2 | 3 |
+| ADR-B-02-K14 | Grupy pakowania, zagrożenia dodatkowe, tabela A | ADR 2.1, 3.2 | 4 |
 
 ### Przebieg 90 minut
 
@@ -149,3 +149,8 @@ Pracuj od rozpoznania zagrożenia do sprawdzenia dokumentu. Użyj fikcyjnych ety
 - `SC-ADR-B-02-03` — sprawdzenie klasy i grupy pakowania przed przyjęciem.
 
 Na koniec omów pytania `ADR-B-0004`, `ADR-B-0005`, `ADR-B-0006`, `ADR-B-0042`, `ADR-B-0043`, `ADR-B-0044`, `ADR-B-0265`, `ADR-B-0307`, `ADR-B-0315`, `ADR-B-0510`. Typowe pomyłki to utożsamienie klasy z grupą pakowania, mylenie materiałów trujących z zakaźnymi oraz traktowanie klasy 4.3 jak zwykłej cieczy. Proś kursanta o uzasadnienie na podstawie właściwości i tabeli A, nie koloru lub nazwy handlowej.
+
+
+### Zadanie: odczyt trzech pól tabeli A
+
+Na fikcyjnym wpisie pokaż kolumnę 3a = 3, kolumnę 4 = II oraz kolumnę 5 = 3 i 6.1. Poproś kursanta, aby oddzielnie wyjaśnił rodzaj zagrożenia, stopień zagrożenia i znaczenie obu nalepek. Następnie zapytaj, czy dwie nalepki oznaczają dwa towary (nie) i co powinien zrobić, gdy oznakowanie przesyłki nie zgadza się z dokumentami (wstrzymać czynność i wyjaśnić rozbieżność). Kryterium: nie utożsamia klasy z grupą pakowania i nie pomija zagrożenia dodatkowego. Podstawa do sprawdzenia: ADR 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1. Pytanie ADR-B-0655 pozostaje needs_review.
