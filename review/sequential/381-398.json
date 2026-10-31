@@ -232,7 +232,7 @@
           "C": "Tak, jeżeli towar ma niewielką masę i nie wymaga ponownej klasyfikacji przy zmianie środka transportu"
         },
         "correct_option": "B",
-        "explanation": "Odstępstwo dla łańcucha morskiego lub lotniczego ma wyraźne ograniczenia. Nie można go automatycznie zastosować do towaru, który jest niebezpieczny według ADR, ale nie jest tak klasyfikowany według IMDG (kodeksu dla transportu morskiego) lub ICAO TI (instrukcji technicznych dla transportu lotniczego). Dojazd do portu ani niewielka masa nie zmieniają klasyfikacji towaru w tych systemach. Podstawa: ADR 1.1.4.2.1, akapit końcowy.",
+        "explanation": "Wyjątek dla przewozu łączonego nie działa automatycznie w każdej sytuacji, gdy towar jedzie do portu lub na lotnisko. Jeżeli towar jest niebezpieczny według ADR, ale nie jest tak klasyfikowany w IMDG lub ICAO TI, ten przypadek jest wyłączony z odstępstwa. Mała masa ładunku ani sam dojazd do terminalu nie zmieniają tej zasady. Podstawa: ADR 1.1.4.2.1, akapit końcowy.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -314,7 +314,7 @@
           "C": "Czy podpisano fakturę i przekazano kopię spedytorowi bez sprawdzenia wymaganych wpisów ADR"
         },
         "correct_option": "A",
-        "explanation": "Dokument IMDG (dla transportu morskiego) lub ICAO TI (instrukcje techniczne dla transportu lotniczego) może zastąpić dokument ADR tylko w określonych warunkach, dlatego trzeba sprawdzić wszystkie dodatkowe dane wymagane na odcinku drogowym. Sam numer UN — czterocyfrowy identyfikator towaru niebezpiecznego — nie potwierdza kompletności wpisów, a podpisana faktura nie zastępuje dokumentu przewozowego. Podstawa: ADR 1.1.4.2.3.",
+        "explanation": "Dokument IMDG lub ICAO TI może zastąpić dokument ADR tylko w warunkach określonych dla przewozu łączonego. Przed wyjazdem sprawdź, czy zawiera także dodatkowe dane wymagane na odcinku drogowym; sam numer UN nie potwierdza kompletności opisu. Podpis na fakturze ani przekazanie kopii spedytorowi nie uzupełniają brakujących danych. Podstawa: ADR 1.1.4.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
