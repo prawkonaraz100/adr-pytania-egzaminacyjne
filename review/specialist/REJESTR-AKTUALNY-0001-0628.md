@@ -1,8 +1,8 @@
-## Bieżąca migawka — etap 4x233 (31.10.2026)
+## Bieżąca migawka — etap 4x234 (31.10.2026)
 
-- Bank: 658 pytań `needs_review`, 0 `verified`; blob SHA `9b107642362dc3871d4434304dbfaba14ab3d3b6`.
-- Raport: `podstawowy/raporty/etap-4x233-temperatura-zaplonu-klasa-3-2026-10-31.md`.
-- ADR-B-0658 dodano do ADR-B-02-K03; rozumienie temperatury zapłonu cieczy klasy 3.
+- Bank: 659 pytań `needs_review`, 0 `verified`; blob SHA `3f53c26178541047e558865dddf3aca814b22160`.
+- Raport: `podstawowy/raporty/etap-4x234-zalaczniki-a-b-zakres-2026-10-31.md`.
+- ADR-B-0659 dodano do ADR-B-01-K01; rozróżnienie zakresu załączników A i B.
 
 ## Bieżąca migawka — etap 4x230 (31.10.2026)
 
