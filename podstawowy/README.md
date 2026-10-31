@@ -323,6 +323,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x253 — odpowiedzialność za klasyfikację i dane ADR](raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md)
 - [Etap 4x252 — zakaz otwierania przesyłek ADR](raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md)
 - [Etap 4x251 — mały pożar opon, hamulców lub silnika](raporty/etap-4x251-maly-pozar-opony-hamulce-silnik-2026-10-31.md)
 - [Etap 4x250 — czyszczenie po przewozie towarów niebezpiecznych luzem](raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md)
