@@ -260,3 +260,8 @@ Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz n
 
 **Status:** materiał dydaktyczny `needs_review`; odniesienia do ADR 2025 wymagają niezależnej kontroli.
  
+
+
+### Dokument przewozowy odpadu — wymagane słowo „ODPAD”
+
+Jeżeli przewozisz odpad zawierający towary niebezpieczne, przed prawidłową nazwą przewozową wpisuje się słowo „ODPAD”, chyba że jest już częścią tej nazwy. Karta przekazania odpadu nie zastępuje dokumentu przewozowego ADR. Gdy brakuje wymaganego elementu opisu, nie dopisuj go samodzielnie jako kierowca — wyjaśnij brak z nadawcą i uzyskaj poprawiony dokument przed wyjazdem. Powiązane pytanie: ADR-B-0680. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.
