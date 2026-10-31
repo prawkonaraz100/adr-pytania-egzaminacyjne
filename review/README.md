@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x251 (31.10.2026)
 
-- Dodano SC-ADR-B-05-04 dla ADR-B-05-K06; 4 pytania istniejącego banku (0108, 0184, 0223, 0493) połączone ze scenariuszem.
+- Dodano SC-ADR-B-05-04 dla ADR-B-05-K06; 3 pytania istniejącego banku (0108, 0184, 0223) połączone ze scenariuszem; 0493 pozostaje dodatkowym pytaniem K06.
 - 41 scenariuszy kursu; bank bez zmian: 677 `needs_review`, 0 `verified`; SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Raport: `podstawowy/raporty/etap-4x251-maly-pozar-opony-hamulce-silnik-2026-10-31.md`.
 
