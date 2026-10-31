@@ -7,11 +7,11 @@
 
 **Stan na 31.10.2026, etap 4x249**
 
-## Bieżąca migawka — etap 4x248 (31.10.2026)
+## Poprzednia migawka — etap 4x248 (31.10.2026)
 
 - Bank: 673 pytania ADR-B-0001–0673; 673 `needs_review`, 0 `verified`; blob SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
 
-**Stan na 31.10.2026, etap 4x248**
+**Migawka historyczna: etap 4x248**
 
 - Dodano ADR-B-0673 do ADR-B-02-K13: rozróżnienie UN 3480/3481 dla baterii litowo-jonowej przewożonej samodzielnie albo zapakowanej z urządzeniem.
 - Explanation: 423 znaki, 4 zdania; A/B/C 136/134/109. Poprawna B nie jest najdłuższa.
