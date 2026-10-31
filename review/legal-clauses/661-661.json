@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0661",
+      "order": 661,
+      "clause": "ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0661",
+        "module_id": "ADR-B-02",
+        "stem": "Materiał polimeryzujący klasy 4.1 ma być przewożony w DPPL. Jego TSP w tym DPPL wynosi 48°C. Jakie wymaganie dotyczące temperatury wynika z ADR?",
+        "options": {
+          "A": "Nie, 45°C jest progiem dla cystern, więc DPPL przy 48°C nie wymaga kontroli.",
+          "B": "Tak, dla DPPL kontrola jest wymagana, gdy TSP w tym opakowaniu wynosi 50°C lub mniej.",
+          "C": "Kontrolę wyznacza próg 75°C, więc dopiero po przekroczeniu tej temperatury należy ją stosować."
+        },
+        "correct_option": "B",
+        "explanation": "Tak, ponieważ dla materiału polimeryzującego przewożonego w DPPL kontrola temperatury jest wymagana, gdy TSP w tym DPPL wynosi 50°C lub mniej. Wartość 45°C dotyczy przewozu w cysternie, a nie w DPPL. Nie należy też mylić progu 75°C, używanego przy kryteriach klasyfikacji, z progiem kontroli temperatury. Podstawa: ADR 2.2.41.1.20–2.2.41.1.21(a) i 7.1.7.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Błędna: próg 45°C dotyczy materiału polimeryzującego przewożonego w cysternie, nie w DPPL."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Prawidłowa: dla przewozu w DPPL kontrola temperatury jest wymagana, gdy TSP w tym DPPL wynosi 50°C lub mniej."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Błędna: 75°C jest kryterium klasyfikacji materiału polimeryzującego, a nie progiem obowiązku kontroli temperatury podczas przewozu."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Wartości progowe zależą od rodzaju jednostki przewozowej. Dla sztuki przesyłki lub DPPL stosuje się próg 50°C, a dla cysterny 45°C. Próg 75°C należy do kryteriów zaliczenia materiału do klasy 4.1 jako polimeryzującego. Pytanie dotyczy DPPL i nie rozstrzyga innych wymagań konkretnego wpisu.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
