@@ -1,3 +1,13 @@
+## Bieżąca migawka — etap 4x257 (01.11.2026)
+
+- Bank: 683 pytań ADR-B-0001–0683; 683 `needs_review`, 0 `verified`; SHA `03382720e316001da10ddb968fb6c1956107bcef`.
+- ADR-B-0683 do ADR-B-09-K05: zgodność różnych konstrukcji opakowań przeznaczonych do piętrzenia i elementy nośne (ADR 7.5.7.2).
+- Explanation 394 znaki, 4 zdania; A/B/C 176/174/162; poprawna B nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=234, B=233, C=216.
+- „Poprawna = jedyna najdłuższa”: 72/683 = 10,54%; B-09 najkrótsza poprawna: 18/52 = 34,62%.
+- Snapshoty: `sequential/683-683.json`, `legal-clauses/683-683.json`; rejestr: `REJESTR-0683-0683.md`.
+- Raport: `podstawowy/raporty/etap-4x257-pietrzenie-zgodnosc-opakowan-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x256 (31.10.2026)
 
 - Bank: 682 pytań ADR-B-0001–0682; 682 `needs_review`, 0 `verified`; SHA `5bc8851bed5f1fdfcbf2a5f07faccb3174a72006`.
