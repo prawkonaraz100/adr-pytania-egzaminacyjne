@@ -1,4 +1,12 @@
-## Bieżąca migawka — etap 4x253 (31.10.2026)
+## Bieżąca migawka — etap 4x254 (31.10.2026)
+
+- ADR-B-0680 do ADR-B-03-K02: wymagany prefiks „ODPAD” w opisie odpadu w dokumencie ADR; karta przekazania odpadu nie zastępuje dokumentu przewozowego.
+- Explanation 406 znaków, A/B/C 93/111/99, klucz A; status `needs_review`.
+- Bank: 680 `needs_review`, 0 `verified`; SHA `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`; A/B/C 233/231/216; wskaźnik jedynej najdłuższej 72/680 = 10,59%.
+- Snapshoty: `sequential/680-680.json`, `legal-clauses/680-680.json`; rejestr specjalisty: `REJESTR-0680-0680.md`.
+- Raport: `podstawowy/raporty/etap-4x254-odpad-dokument-przewozowy-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x253 (31.10.2026)
 
 - ADR-B-0679 do ADR-B-01-K07: nadawca klasyfikuje i dostarcza wymagane dane; przewoźnik sprawdza dopuszczenie i kompletność informacji oraz nie rozpoczyna przewozu przy stwierdzonych brakach.
 - Explanation 375 znaków, A/B/C 119/108/117, klucz B; status `needs_review`.
