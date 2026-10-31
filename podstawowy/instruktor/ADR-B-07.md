@@ -146,3 +146,8 @@ Pytania kontrolne: `ADR-B-0019`, `ADR-B-0020`, `ADR-B-0021`, `ADR-B-0369`, `ADR-
 ### Ćwiczenie: wybór latarki podczas przewozu ADR
 
 Pokaż kursantowi dwie fikcyjne latarki: jedną z metalową powierzchnią mogącą spowodować iskrę i drugą, która nie stwarza takiego zagrożenia. Poproś o wskazanie, której może użyć członek załogi podczas kontroli pojazdu po zmroku, oraz o wyjaśnienie, dlaczego bateria, krótki czas użycia i oddalenie od przesyłek nie znoszą wymagania. Kryterium: kursant wybiera urządzenie zgodne z ADR 8.3.4. Pytanie: ADR-B-0663 (needs_review). Podstawa: ADR 8.3.4.
+
+
+### Ćwiczenie: kontrola połączenia ABS w zestawie pojazdów
+
+Na schemacie zestawu z ABS i przyczepą o maksymalnej masie przekraczającej 3,5 t zaznacz rozłączone złącze elektryczne ABS. Poproś kursanta, aby wyjaśnił, czy może kontynuować przewóz, jeśli hamulce zasadnicze działają. Kryterium: kursant wskazuje, że połączenie wymagane przez ADR musi pozostawać podłączone przez cały przewóz i przed dalszą jazdą należy je przywrócić. Pytanie: ADR-B-0664 (needs_review). Podstawa: ADR 8.3.8 i 9.2.2.6.

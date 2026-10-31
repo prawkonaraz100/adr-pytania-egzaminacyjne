@@ -271,3 +271,8 @@ Wybierz scenariusz dla działu ADR-B-07 w [mapie ćwiczeń](../praktyka/scenariu
 ### Przenośne urządzenie oświetleniowe (ADR-B-07-K06)
 
 Gdy podczas przewozu ADR używasz latarki, jej powierzchnia metalowa nie może stwarzać ryzyka powstania iskry. Zwykła metalowa obudowa nie staje się bezpieczna tylko dlatego, że latarka działa na baterię, jest sprawna albo używasz jej krótko. Przed użyciem wybierz urządzenie spełniające wymaganie ADR 8.3.4. Pytanie: ADR-B-0663. Podstawa: ADR 8.3.4.
+
+
+### Połączenie ABS między ciągnikiem i przyczepą (ADR-B-07-K06)
+
+Jeżeli jednostka transportowa ma układ ABS, a maksymalna masa przyczepy przekracza 3,5 t, wymagane połączenia elektryczne układu ABS muszą łączyć ciągnik z przyczepą przez cały przewóz. Nie wystarczy, że zwykłe hamulce działają: rozłączone złącze trzeba przywrócić przed dalszą jazdą. W praktyce kierowca powinien sprawdzić połączenie po sprzęgnięciu zestawu i reagować, gdy zostanie przerwane. Pytanie: ADR-B-0664. Podstawa: ADR 8.3.8 w związku z 9.2.2.6.

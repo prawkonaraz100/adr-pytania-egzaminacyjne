@@ -1,0 +1,48 @@
+{
+  "batch": "664-664",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0664",
+      "sequence": 664,
+      "exact_record_snapshot": {
+        "stem": "Zespół pojazdów przewożący ADR ma ABS, a maksymalna masa przyczepy przekracza 3,5 t. Podczas postoju kierowca zauważa, że złącze elektryczne ABS między ciągnikiem a przyczepą jest rozłączone. Co powinien zrobić przed dalszą jazdą?",
+        "options": {
+          "A": "Może kontynuować, jeśli hamulce zasadnicze działają, ponieważ przewód ABS jest potrzebny tylko podczas kontroli diagnostycznej, a nie podczas jazdy.",
+          "B": "Powinien połączyć wymagane złącza ABS i nie kontynuować przewozu, dopóki połączenie ciągnika z przyczepą nie będzie przywrócone.",
+          "C": "Może kontynuować, jeśli zwykłe hamulce działają, a przewód ABS zostanie podłączony dopiero po zakończeniu przewozu."
+        },
+        "correct_option": "B",
+        "explanation": "W takim zestawie wymagane złącza ABS muszą łączyć ciągnik z przyczepą przez cały czas przewozu, więc rozłączonego przewodu nie wolno zignorować. Sprawne zwykłe hamulce nie zastępują tego połączenia, a ADR nie przewiduje odłożenia go do końca trasy. Zatrzymaj się w bezpiecznym miejscu, przywróć połączenie i dopiero wtedy kontynuuj. Podstawa: ADR 8.3.8 w związku z 9.2.2.6.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.8; 9.2.2.6",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_8.3.8_and_9.2.2.6_compared_against_Ministry_published_Polish_translation; binding_Gazette_text_literal_comparison_and_independent_specialist_review_pending",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "ADR 8.3.8 wymaga, aby określone złącza elektryczne ABS łączyły ciągnik i przyczepę przez cały przewóz, gdy jednostka ma ABS i maksymalna masa przyczepy przekracza 3,5 t. Przepis odsyła do 9.2.2.6. Punkty sprawdzono na stronie 627 tomu II w polskim materiale ADR 2025 MI; pełne literalne porównanie tekstu wiążącego i niezależna recenzja pozostają otwarte.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

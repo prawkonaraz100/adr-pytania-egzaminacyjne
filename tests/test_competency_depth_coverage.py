@@ -75,7 +75,7 @@ class CompetencyDepthCoverageTests(unittest.TestCase):
         cells = [cell.strip() for cell in total.strip().strip("|").split("|")]
         self.assertEqual(cells[2].strip("*"), "104/104")
         self.assertEqual(int(cells[3].strip("*"), 10), 3)
-        self.assertEqual(int(cells[4].strip("*"), 10), 663)
+        self.assertEqual(int(cells[4].strip("*"), 10), 664)
 
 
 if __name__ == "__main__":

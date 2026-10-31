@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0664",
+      "order": 664,
+      "clause": "ADR 2025, 8.3.8; 9.2.2.6",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0664",
+        "module_id": "ADR-B-07",
+        "stem": "Zespół pojazdów przewożący ADR ma ABS, a maksymalna masa przyczepy przekracza 3,5 t. Podczas postoju kierowca zauważa, że złącze elektryczne ABS między ciągnikiem a przyczepą jest rozłączone. Co powinien zrobić przed dalszą jazdą?",
+        "options": {
+          "A": "Może kontynuować, jeśli hamulce zasadnicze działają, ponieważ przewód ABS jest potrzebny tylko podczas kontroli diagnostycznej, a nie podczas jazdy.",
+          "B": "Powinien połączyć wymagane złącza ABS i nie kontynuować przewozu, dopóki połączenie ciągnika z przyczepą nie będzie przywrócone.",
+          "C": "Może kontynuować, jeśli zwykłe hamulce działają, a przewód ABS zostanie podłączony dopiero po zakończeniu przewozu."
+        },
+        "correct_option": "B",
+        "explanation": "W takim zestawie wymagane złącza ABS muszą łączyć ciągnik z przyczepą przez cały czas przewozu, więc rozłączonego przewodu nie wolno zignorować. Sprawne zwykłe hamulce nie zastępują tego połączenia, a ADR nie przewiduje odłożenia go do końca trasy. Zatrzymaj się w bezpiecznym miejscu, przywróć połączenie i dopiero wtedy kontynuuj. Podstawa: ADR 8.3.8 w związku z 9.2.2.6.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.8; 9.2.2.6",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Błędna: działanie hamulców zasadniczych nie znosi wymogu utrzymywania połączeń elektrycznych układu ABS podczas przewozu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Prawidłowa: ADR 8.3.8 wymaga, aby połączenia wskazane w 9.2.2.6 łączyły pojazd ciągnący i przyczepę przez cały czas przewozu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Błędna: nie można odłożyć przywrócenia wymaganego połączenia do zakończenia przewozu; musi ono być zachowane w trakcie jazdy."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "Warunek przepisu: jednostka transportowa z układem przeciwblokującym, złożona z pojazdu samochodowego i przyczepy o maksymalnej masie przekraczającej 3,5 t. ADR 8.3.8 nakazuje, aby połączenia wskazane w 9.2.2.6 łączyły pojazd ciągnący i przyczepę przez cały czas przewozu. Pytanie ogranicza się do tego przypadku; nie twierdzi, że wymóg dotyczy każdej przyczepy.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

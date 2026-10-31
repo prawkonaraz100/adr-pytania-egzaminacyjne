@@ -1,3 +1,13 @@
+## Uzupełnienie audytu 4x239 — 31.10.2026
+
+- Dodano ADR-B-0664 do ADR-B-07-K06: utrzymywanie połączeń elektrycznych ABS między pojazdem samochodowym i przyczepą o maksymalnej masie powyżej 3,5 t przez cały przewóz.
+- Explanation: 373 znaki, 4 zdania; A/B/C 148/128/115 znaków. Poprawna B nie jest najdłuższa.
+- Podstawa: ADR 2025, 8.3.8 w związku z 9.2.2.6. Polskie materiały ADR 2025 MI i tekst UNECE 2025 potwierdzają zakres; literalne porównanie tekstu wiążącego Dz.U. i niezależna recenzja pozostają otwarte.
+- Bank: 664 pytania `needs_review`, 0 `verified`; ID 0001–0664 ciągłe i unikalne. Blob SHA `a81581438b449107fb42dcb10450acc5a69278e4`.
+- Rozkład prawidłowych opcji: A=228, B=223, C=213.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/664 = 10,84%**; maksimum działu to **13,95%**.
+- Raport: [4x239 — połączenia ABS ciągnika i przyczepy](../podstawowy/raporty/etap-4x239-abs-connection-vehicle-trailer-2026-10-31.md).
+
 ## Uzupełnienie audytu 4x238 — 31.10.2026
 
 - Dodano ADR-B-0663 do ADR-B-07-K06: bezpieczny wybór przenośnego urządzenia oświetleniowego przez członka załogi.
@@ -89,18 +99,18 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 
 # ADR podstawowy — aktualne pokrycie kursu
 
-**Kontrola mapy odświeżona w etapie 4x238: 31.10.2026.** Bank ma 663 pytania; raport [4x238 — przenośne urządzenia oświetleniowe](../podstawowy/raporty/etap-4x238-przenosne-urzadzenia-oswietleniowe-2026-10-31.md) dodaje ADR-B-0663 do ADR-B-07-K06. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
+**Kontrola mapy odświeżona w etapie 4x239: 31.10.2026.** Bank ma 664 pytania; raport [4x239 — połączenia ABS](../podstawowy/raporty/etap-4x239-abs-connection-vehicle-trailer-2026-10-31.md) dodaje ADR-B-0664 do ADR-B-07-K06. Historyczne sekcje poniżej opisują wcześniejsze etapy i nie są bieżącymi licznikami.
 
-**Stan aktualny po etapie 4x238: 31.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
+**Stan aktualny po etapie 4x239: 31.10.2026.** Ramowy polski program to **13 tematów**, 18 godzin lekcyjnych teorii oraz wymagane ćwiczenia praktyczne (Dz.U. 2021 poz. 2150, załącznik nr 1). Nasza mapa 107 kompetencji to **wewnętrzny podział redakcyjny**, a nie urzędowy dokument z listą 107 wymagań.
 
 ## Co naprawdę zostało ukończone?
 
-- **663 autorskie pytania** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **663 needs_review / 0 verified**.
+- **664 autorskie pytania** z A/B/C, wyjaśnieniem i wskazaniem podstawy; **664 needs_review / 0 verified**.
 - **104/104 kompetencji teoretycznych** ma co najmniej dwa pytania robocze. **0/104** ma pytanie zatwierdzone przez niezależnego eksperta.
 - **3/3 cele praktyczne** mają scenariusz w `podstawowy/praktyka/SCENARIUSZE.md`. To program ćwiczeń, **nie dowód odbycia zajęć**.
 - **13/13 lekcji** ma szkic dydaktyczny, mapę konkretnych ID pytań i przykład praktyczny; wszystkie wymagają niezależnego odbioru.
-- Rozkład prawidłowych opcji: A=228, B=222, C=213.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/663 = 10,86%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
+- Rozkład prawidłowych opcji: A=228, B=223, C=213.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/664 = 10,84%**; maksimum działu to 13,95%, a wszystkie 13 działów są poniżej 14%.
 - [Etap 4x228 — kombinacja zagrożeń 886](../podstawowy/raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md).
 - [Audyt 4w](../podstawowy/raporty/etap-4w-program-13-dzialow-mapa-luk.md) dokumentuje wszystkie 107 kompetencji i ID; [kontrola 13 lekcji](../podstawowy/raporty/etap-4w-przeglad-13-lekcji-odsylacze.md) usunęła błędny skrót zakresu w B-09. Dane liczbowe dotyczą bieżącego banku, natomiast niższe sekcje dokumentu zachowują historię poprzednich etapów.
 - Wciąż **brakuje gotowych ilustracji** wszystkich wymaganych nalepek i tablic, przykładowych poprawnie wypełnionych dokumentów oraz raportu kontroli tekstu prawnego i wszystkich błędnych wariantów odpowiedzi.
@@ -117,14 +127,14 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 61 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 54 | 0 | Lekcja + mapa pytań |
-| ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 50 | 0 | Lekcja + mapa pytań |
+| ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 50 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **663** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **664** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
