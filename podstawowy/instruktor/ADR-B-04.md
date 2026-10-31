@@ -138,3 +138,8 @@ Zajęcia prowadź na fikcyjnych kartach załadunku i mapie parkingu. Najpierw po
 - `SC-ADR-B-04-03` — planowany postój, który nie spełnia wymagań.
 
 Pytania kontrolne: `ADR-B-0010`, `ADR-B-0011`, `ADR-B-0012`, `ADR-B-0345`, `ADR-B-0355`, `ADR-B-0362`, `ADR-B-0471`, `ADR-B-0476`, `ADR-B-0580`, `ADR-B-0581`. Częste pomyłki: uznanie, że najbliższy parking jest zawsze dopuszczalny; traktowanie zgody dyspozytora jako wyjątku; mylenie obowiązku nadzoru z zabezpieczeniem pojazdu podczas każdego postoju.
+
+
+### SC-ADR-B-04-04 — odbiorca prosi o otwarcie paczki ADR
+
+Odegraj rozmowę przy dostawie. Odbiorca prosi osobę z załogi, która nie prowadzi pojazdu, o otwarcie paczki, a na opakowaniu widoczny jest podejrzany ślad. Kursant ma odmówić otwarcia, wyjaśnić, że ADR 8.3.3 obejmuje wszystkich członków załogi, i wskazać bezpieczne zgłoszenie możliwego uszkodzenia. Podkreśl, że rękawice nie znoszą zakazu, a opakowania nie otwiera się w celu sprawdzenia wycieku. W ćwiczeniu użyj wyłącznie czystego, pustego opakowania szkoleniowego. Pytania powiązane: ADR-B-0011, ADR-B-0048 i ADR-B-0357. Podstawa: ADR 8.3.3; przy zdarzeniu ADR 5.4.3.4.
