@@ -1,13 +1,15 @@
 ## Bieżąca migawka — etap 4x249 (31.10.2026)
 
-- Bank: 674 pytań ADR-B-0001–0674; 674 `needs_review`, 0 `verified`; blob SHA `841c502032f62580f23608820747827f70b00df0`.
+- Bank: 676 pytań ADR-B-0001–0676; 676 `needs_review`, 0 `verified`; blob SHA `1f3ac69fdf7e01d6bd67b13bdded7a41a5e0f7b9`.
 - Dodano ADR-B-0674 do ADR-B-02-K06: odczyt I grupy pakowania materiału klasy 4.3.
-- Explanation 350 znaków, 3 zdania; A/B/C 133/137/147; rozkład A/B/C 231/230/213; wskaźnik 72/674 = 10,68%.
+- Explanation 350 znaków, 3 zdania; A/B/C 133/137/147; rozkład A/B/C 231/230/213; wskaźnik 72/676 = 10,65%.
 - Egzaminy 001–005 i snapshoty sequential/legal wskazują bieżący bank.
 - Raport: `podstawowy/raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md`.
 - Literalne porównanie Dz.U. i recenzja specjalisty pozostają otwarte.
 
 | ADR-B-0674 | ADR-B-02 | ADR-B-02-K06 | Odczyt I grupy pakowania materiału klasy 4.3 | B | ADR 2025, 1.2.1; 2.2.43.1.8(a)–(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0675 | ADR-B-02 | ADR-B-02-K06 | Kryterium II grupy pakowania: co najmniej 20 l/kg/h, bez kryteriów I grupy | A | ADR 2025, 2.2.43.1.8(b) | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0676 | ADR-B-02 | ADR-B-02-K06 | Kryterium III grupy pakowania: ponad 1 l/kg/h, bez kryteriów I/II grupy | C | ADR 2025, 2.2.43.1.8(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 ## Bieżąca migawka — etap 4x248 (31.10.2026)
 
