@@ -1,4 +1,12 @@
-**Stan aktualny po etapie 4x252: 31.10.2026.**
+**Stan aktualny po etapie 4x253: 31.10.2026.**
+
+- Bank: 679 pytań ADR-B-0001–0679; wszystkie `needs_review`, 0 `verified`; SHA `5df8cb5200a2c357cdcc04959893969d8ca448a0`.
+- ADR-B-01-K07: 5 pytań, w tym ADR-B-0679 o rozdzieleniu klasyfikacji nadawcy i kontroli przewoźnika.
+- Rozkład prawidłowych opcji: A=232, B=231, C=216.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/679 = 10,60%**; maksimum działu to 13,95%.
+- Raport: [Etap 4x253 — klasyfikacja i dane ADR](../podstawowy/raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md).
+
+## Poprzedni stan — etap 4x252: 31.10.2026.
 
 - Bank: 678 pytań ADR-B-0001–0678; wszystkie `needs_review`, 0 `verified`.
 - ADR-B-04-K02: 5 pytań; poprawiono dokładny zakres ADR 8.3.3 (kierowca i pomocnik kierowcy), dodano ADR-B-0678 i doprecyzowano SC-ADR-B-04-04.
@@ -257,7 +265,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
-| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 49 | 0 | Lekcja + mapa pytań |
+| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 50 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 53 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
@@ -270,7 +278,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **678** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **679** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
