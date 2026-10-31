@@ -1,0 +1,48 @@
+{
+  "batch": "671-671",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0671",
+      "sequence": 671,
+      "exact_record_snapshot": {
+        "stem": "Podczas kontroli przed załadunkiem kierowca widzi butlę z gazem bez kapturka na zaworze, ale butla jest przewożona w ramie ochronnej. Co powinien sprawdzić?",
+        "options": {
+          "A": "Bezwzględnie odmówić przyjęcia, ponieważ każda butla musi mieć własny metalowy kapturek, nawet gdy rama, skrzynia lub inna osłona chroni zawór.",
+          "B": "Sprawdzić, czy rama chroni zawór przed uszkodzeniem i przypadkowym uwolnieniem gazu; rama jest jedną z metod dopuszczonych przez ADR.",
+          "C": "Uznać butlę za gotową, bo wystarczy zamknięty zawór; jego osłona nie ma znaczenia, jeśli gaz nie wydostaje się przed załadunkiem."
+        },
+        "correct_option": "B",
+        "explanation": "Zawór butli musi być odporny na uszkodzenie albo odpowiednio chroniony, aby uderzenie nie spowodowało uwolnienia gazu. ADR dopuszcza różne rozwiązania, w tym ramę, osłonę, skrzynię lub właściwy kapturek, więc brak kapturka sam w sobie nie przesądza o naruszeniu. Samo zakręcenie zaworu nie zastępuje ochrony. Podstawa: ADR 4.1.6.8.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 4.1.6.8",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_Polish_ministry_published_text_checked_at_2.2.62.1.4.2_and_special_provision_319_and_P650_in_4.1.4.1; Gazette_binding_literal_confirmation_and_independent_specialist_review_pending",
+      "supplementary_source_url": "https://www.ciop.pl/CIOPPortalWAR/appmanager/ciop/pl?_nfpb=true&_pageLabel=P48600114441551177218047&html_klucz=300010071&html_tresc_id=300010085&html_tresc_root_id=300010071",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "The Polish ADR 2025 ministry-hosted copy states that Category B infectious substances are UN 3373 and that substances and packages marked in accordance with P650 are not subject to any other ADR provisions under SP 319. The ministry warns that its copies are auxiliary and the binding source is the text published in the Journal of Laws; exact Gazette cross-check and independent specialist review remain pending.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
