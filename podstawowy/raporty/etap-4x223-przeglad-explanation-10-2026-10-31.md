@@ -4,7 +4,7 @@ Data: 31.10.2026. Zakres: wyłącznie kurs podstawowy ADR. Bazowy `main`: `d4cd3
 
 ## Korekta metody doboru i duplikaty
 
-Przed wyborem pytań odtworzono listę ID z raportów i wpisów Issue #10 etapów 4x156–4x222. Dla etapu 4x156 uwzględniono pełny zakres z raportu: ADR-B-0611–0638 oraz ADR-B-0646–0647. Po deduplikacji zebrano **624 unikalnych ID już przejrzanych**.
+Przed wyborem pytań odtworzono listę ID z raportów i wpisów Issue #10 etapów 4x156–4x222. Dla etapu 4x156 uwzględniono pełny zakres z raportu: ADR-B-0611–0638 oraz ADR-B-0646–0647. Dla 4x177, którego raportu nie znaleziono w katalogu raportów, zakres 10 zmian odtworzono z dodanych rekordów w diffie PR #646: ADR-B-0095, ADR-B-0221, ADR-B-0226, ADR-B-0262, ADR-B-0265, ADR-B-0391, ADR-B-0439, ADR-B-0517, ADR-B-0595, ADR-B-0596. Po deduplikacji zebrano **624 unikalnych ID już przejrzanych**.
 
 Weryfikacja wykazała, że **wszystkie 10 ID z 4x221 było powtórzeniem**:
 - ADR-B-0226 i ADR-B-0265 — wcześniejsza partia 4x177 (PR #646);
@@ -48,7 +48,7 @@ Każde wyjaśnienie ma 4 zdania i 337–427 znaków: praktyczny sens poprawnej o
 
 ## Pozostałe ID do drugiego przeglądu
 
-Po 4x223 pozostaje 17 ID, które nie występują na powyższej liście ani w 4x223: ADR-B-0061, ADR-B-0137, ADR-B-0145, ADR-B-0198, ADR-B-0209, ADR-B-0266, ADR-B-0278, ADR-B-0306, ADR-B-0317, ADR-B-0324, ADR-B-0332, ADR-B-0386, ADR-B-0388, ADR-B-0390, ADR-B-0405, ADR-B-0525, ADR-B-0547. Należy je rozdzielić między kolejne partie, bez powtarzania.
+Po 4x223 pozostaje 17 ID: ADR-B-0061, ADR-B-0137, ADR-B-0145, ADR-B-0198, ADR-B-0209, ADR-B-0266, ADR-B-0278, ADR-B-0306, ADR-B-0317, ADR-B-0324, ADR-B-0332, ADR-B-0386, ADR-B-0388, ADR-B-0390, ADR-B-0405, ADR-B-0525, ADR-B-0547. Należy je rozdzielić między kolejne partie, bez powtarzania.
 
 ## Kontrole i ograniczenia
 
