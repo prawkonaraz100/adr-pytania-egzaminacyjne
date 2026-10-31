@@ -143,3 +143,4 @@ Poniższe rekordy pozostają nierozstrzygnięte pod kątem dosłownego fragmentu
 - Status porównania z Dz.U. ADR: pending.
 
 **Zasada:** bez kolejnych prób wydobywania MI/PDF; dalsze rozstrzygnięcie wyłącznie przez niezależną recenzję specjalisty i oficjalny tekst Dz.U.
+- ADR-B-0652
