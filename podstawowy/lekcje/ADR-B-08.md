@@ -271,3 +271,8 @@ Wybierz scenariusz dla działu ADR-B-08 w [mapie ćwiczeń](../praktyka/scenariu
 
 **Status:** `needs_review`; weryfikacja pełnego polskiego ADR 2025 i niezależna ocena specjalisty pozostają otwarte.
  
+
+
+### Zgodność świadectwa z konkretnym pojazdem (ADR-B-08-K08)
+
+Świadectwo dopuszczenia nie jest dokumentem „na typ pojazdu” do dowolnego użycia we flocie. ADR wymaga świadectwa dla każdego konkretnego pojazdu, a wzór dokumentu zawiera osobne pola na numer identyfikacyjny pojazdu (VIN), numer rejestracyjny i oznaczenie pojazdu. Przed wyjazdem porównaj te dane z pojazdem; jeśli VIN się nie zgadza, nie zakładaj, że zgodność nazwy przewoźnika lub typu pojazdu wystarczy. Wyjaśnij rozbieżność z wystawcą i uzyskaj dokument dotyczący właściwego pojazdu. Pytanie: ADR-B-0662. Podstawa: ADR 9.1.3.1, 9.1.3.3 i 9.1.3.5.
