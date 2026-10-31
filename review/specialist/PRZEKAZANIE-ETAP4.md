@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x249 (31.10.2026)
 
-- Bank: 674 pytania ADR-B-0001–0674; wszystkie `needs_review`, 0 `verified`; SHA `89b55ea701a162bf1fc4a9c969bcda7d62ddb5ae`.
+- Bank: 674 pytania ADR-B-0001–0674; wszystkie `needs_review`, 0 `verified`; SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Dodano ADR-B-0674 do ADR-B-02-K06: odczyt I grupy pakowania materiału klasy 4.3.
 - Explanation 321 znaków, 3 zdania; A/B/C 133/137/147.
 - Egzaminy 001–005, snapshoty sekwencyjne i prawne zsynchronizowane.
@@ -319,7 +319,7 @@ Bank: 651 `needs_review`, 0 `verified`; blob `083ad93e9836c8066c10ca144b1568a2a8
 - Bank bez zmian: 638 pytań `needs_review`, 0 `verified`; blob SHA `f06adebc34d982d8eb09b5e7569785cb1e7cf743`.
 - Raport etapu: `podstawowy/raporty/etap-4x137-scenariusze-praktyczne-2026-10-29.md`.
 - Dopracowano istniejące scenariusze SC-ADR-B-03-03, SC-ADR-B-05/05-02/05-03, SC-ADR-B-06/06-02/06-03 i SC-ADR-B-09, wiążąc je z pytaniami ADR-B-0629–0638.
-- Mapa ma nadal 39 scenariuszy, po 3 na każdy z 13 działów; nowe statusy prawne nie zostały zatwierdzone.
+- Mapa ma nadal 40 scenariuszy, po 3 na każdy z 13 działów; nowe statusy prawne nie zostały zatwierdzone.
 
 ## Historyczna migawka — etap 4x136 (29.10.2026)
 
@@ -334,13 +334,13 @@ Bank: 651 `needs_review`, 0 `verified`; blob `083ad93e9836c8066c10ca144b1568a2a8
 - Raport: `podstawowy/raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md`.
 - Nowe pytania: ADR-B-0621–0628; zaktualizowano mapę kompetencji, lekcje B-02/B-05/B-06/B-09 oraz warianty i klucze 001–005.
 - Pakiet: `review/specialist/PAKIET-0628-MANIFEST.json`; rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0628.md`.
-- 13 lekcji, 39 scenariuszy, 5 wariantów i 5 kluczy; brak formalnych zatwierdzeń.
+- 13 lekcji, 40 scenariuszy, 5 wariantów i 5 kluczy; brak formalnych zatwierdzeń.
 
 ## Historyczna migawka — etap 4x132 (28.10.2026)
 
 - Bank: 609 pytań `needs_review`, 0 `verified`; bieżący blob SHA `9fa7e964d86b0bd0c38f97a80b5965777d69d7da`.
 - Raport: `podstawowy/raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md`.
-- Pakiet obejmuje 13 lekcji, 13 materiałów instruktorskich, 39 scenariuszy, 90 haseł słowniczka oraz 5 wariantów i 5 kluczy egzaminu próbnego.
+- Pakiet obejmuje 13 lekcji, 13 materiałów instruktorskich, 40 scenariuszy, 90 haseł słowniczka oraz 5 wariantów i 5 kluczy egzaminu próbnego.
 - Instrukcja kursanta: `podstawowy/egzamin-probny/INSTRUKCJA-KURSANTA.md`. Parametry oficjalnego egzaminu podstawowego potwierdza Dz.U. 2024 poz. 964, § 9–11: 30 pytań, 60 minut, próg 2/3 (20/30). Nasze warianty pozostają treningowe i nie są oficjalnym katalogiem.
 - Nie ma formalnych zatwierdzeń. Zachować `needs_review`; `verified` wyłącznie po prawdziwej, udokumentowanej recenzji specjalisty.
 
@@ -410,7 +410,7 @@ Bank: 651 `needs_review`, 0 `verified`; blob `083ad93e9836c8066c10ca144b1568a2a8
 - Bieżący bank `podstawowy/questions.jsonl`: blob SHA `b763f639efe11f972d4c3047dc8238334f9ff9f2`; 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
 - Przepisano explanation w ADR-B-0085, ADR-B-0203 i ADR-B-0278; w ADR-B-0203 urealniono dystraktor C. Nie zmieniono ID ani poprawnej litery.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 72/609 = 11,82%; maksimum działu 14,29%; explanation minimum 300 znaków, 0 poniżej 200.
-- 13 lekcji i 39 scenariuszy sprawdzono pod kątem referencji; warianty i klucze 001–005 wskazują powyższy blob.
+- 13 lekcji i 40 scenariuszy sprawdzono pod kątem referencji; warianty i klucze 001–005 wskazują powyższy blob.
 - Pełny Quality Gate CI dla PR #577 musi przejść przed scaleniem. Nie nadawać statusu `verified`.
 
 ## Historyczna migawka — etap 4x116
@@ -469,7 +469,7 @@ Bank: 651 `needs_review`, 0 `verified`; blob `083ad93e9836c8066c10ca144b1568a2a8
 
 - Bank blob SHA: `a2c17c5bc8ebcd9d7f138f3c773132d6913674db`.
 - 609 pytań, wszystkie `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
-- 13 lekcji, 39 scenariuszy praktycznych, pięć wariantów egzaminu próbnego 001–005; brak zmian ID i poprawnych liter w etapie 4x69.
+- 13 lekcji, 40 scenariuszy praktycznych, pięć wariantów egzaminu próbnego 001–005; brak zmian ID i poprawnych liter w etapie 4x69.
 - Zmieniono wyłącznie explanation pytania `ADR-B-0031` oraz powiązanie pytań w `SC-ADR-B-07-02`; Quality Gate blokuje teraz identyczne zestawy pytań scenariuszy w tym samym module.
 - Ostatni raport: [Etap 4x69 — raport końcowy](../../podstawowy/raporty/etap-4x69-raport-koncowy-2026-10-27.md).
 - 376 literalnych porównań prawnych pozostaje nierozstrzygniętych. Wymagana jest niezależna recenzja specjalisty; nie oznaczono żadnego pytania jako `verified`.
@@ -498,7 +498,7 @@ Bank: 651 `needs_review`, 0 `verified`; blob `083ad93e9836c8066c10ca144b1568a2a8
 
 - Punkt wyjścia: `main` `039955c23554a27b259fac66f49b6241a3d6de3c`; bank blob SHA `8a16afb47c5d5a9e460092b7e474b4a3e8a5a8d9`.
 - **Bank:** 609 pytań ADR-B-0001–ADR-B-0609; 609 `needs_review`, 0 `verified`, 0 formalnych zatwierdzeń.
-- **Kurs:** 13 lekcji, 13 materiałów instruktorskich, 39 scenariuszy, 90 haseł słowniczka.
+- **Kurs:** 13 lekcji, 13 materiałów instruktorskich, 40 scenariuszy, 90 haseł słowniczka.
 - **Egzaminy:** warianty/klucze 001–005, każdy 30 pytań i wszystkie 13 działów; A/B/C = 10/10/10, maksymalna seria 3, 150 unikalnych ID. Klucze są zgodne z bankiem po mapowaniu liter opcji; od etapu 4x42 każde 150 wpisów kluczy zawiera też `lesson_path` do istniejącej lekcji właściwego działu.
 - **Próba explanation:** 60 nowych ID, ziarno `4292026`, 0 potwierdzonych problemów; 301–454 znaki, 3–5 zdań.
 - **Kolejka uzupełniająca 4x44:** [20 kolejnych pytań](KOLEJKA-PRIORYTETOWA-4X44.json), wybrane z pozostałych rekordów bez cytatu MI, bez powtórzeń względem kolejki 4x40. To wyłącznie priorytetyzacja; status porównania pozostaje `pending`.
@@ -515,7 +515,7 @@ Stan sprawdzony na `main`: commit `433138970888c47251a7c7a0228f0e2351b372b6`; ba
 - **Bank:** 609 pytań ADR-B-0001–ADR-B-0609; 609 `needs_review`, 0 `verified`; 0 formalnych zatwierdzeń.
 - **Indeks i manifest:** [REJESTR-AKTUALNY-0001-0609.md](REJESTR-AKTUALNY-0001-0609.md) i [PAKIET-0609-MANIFEST.json](PAKIET-0609-MANIFEST.json). 376 literalnych porównań pełnego polskiego tekstu pozostaje nierozstrzygniętych; 10 wymaga dokończenia porównania, a 223 zapisane porównania nadal wymagają potwierdzenia specjalisty i tekstu Dz.U.
 - **Lekcje i instruktor:** 13 lekcji i 13 plików instruktorskich.
-- **Praktyka:** 39 scenariuszy, dokładnie 3 na każdy dział; scenariusze symulacyjne nie poświadczają wykonania zajęć.
+- **Praktyka:** 40 scenariuszy, dokładnie 3 na każdy dział; scenariusze symulacyjne nie poświadczają wykonania zajęć.
 - **Egzaminy:** warianty i klucze 001–005, 30 pytań na wariant. Każdy ma wszystkie 13 działów, brak powtórzeń w zestawie 150 ID, A/B/C = 10/10/10, maksymalną serię 3 i 0% pytań z poprawną odpowiedzią jako jedyną najdłuższą. Materiały pozostają nieoficjalne.
 - **Słowniczek:** 90 haseł w `podstawowy/SLOWNICZEK.md`.
 - **Redakcja:** 609 explanation przejrzano; 68 przepisano/doprecyzowano w etapie 4x20. Nie zmieniono statusów na `verified`.
@@ -594,7 +594,7 @@ Ten aneks jest aktualnym podsumowaniem stanu i zastępuje starsze liczby history
 - **Indeks:** [REJESTR-AKTUALNY-0001-0609.md](REJESTR-AKTUALNY-0001-0609.md).
 - **Manifest:** [PAKIET-0609-MANIFEST.json](PAKIET-0609-MANIFEST.json); źródłowy rejestr porównań prawnych: `review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json`.
 - **Lekcje i materiały instruktora:** po 13 plików w `podstawowy/lekcje/` i `podstawowy/instruktor/`; w każdym pliku znajdują się odwołania do trzech scenariuszy właściwego działu.
-- **Praktyka:** 39 scenariuszy, po 3 dla każdego z 13 działów, w `podstawowy/praktyka/scenariusze-13-dzialow.json`; instrukcja: `podstawowy/praktyka/SCENARIUSZE.md`.
+- **Praktyka:** 40 scenariuszy, po 3 dla każdego z 13 działów, w `podstawowy/praktyka/scenariusze-13-dzialow.json`; instrukcja: `podstawowy/praktyka/SCENARIUSZE.md`.
 - **Egzaminy treningowe:** warianty i klucze 001–005 w `podstawowy/egzamin-probny/`; nie są oficjalnymi arkuszami, `publication_authorized: false`.
 
 ### Co specjalista ma sprawdzić
