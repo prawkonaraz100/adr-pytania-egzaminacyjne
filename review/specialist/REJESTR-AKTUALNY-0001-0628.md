@@ -1,8 +1,8 @@
-## Bieżąca migawka — etap 4x231 (31.10.2026)
+## Bieżąca migawka — etap 4x232 (31.10.2026)
 
-- Bank: 656 pytań `needs_review`, 0 `verified`; blob SHA `940d22f1a3965796d24029e621b05253ff98ece4`.
-- Raport: `podstawowy/raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md`.
-- ADR-B-0656 dodano do ADR-B-01-K04; wyłączenie 1.1.3.1(c), 450 l/opakowanie i warunki 1.1.3.6.
+- Bank: 657 pytań `needs_review`, 0 `verified`; blob SHA `17633b89f1282d3dd25ddc51e81bc84b6c88c819`.
+- Raport: `podstawowy/raporty/etap-4x232-gazy-palne-klasy-21-2026-10-31.md`.
+- ADR-B-0657 dodano do ADR-B-02-K02; rozpoznanie gazu palnego 2.1 oraz odróżnienie od 2.2 i 2.3.
 
 ## Bieżąca migawka — etap 4x230 (31.10.2026)
 
@@ -896,3 +896,4 @@ Bank bieżący: 655 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `c
 | ADR-B-0656 | ADR-B-01 | ADR-B-01-K04 | Firma serwisowa wiezie na budowę 300 l towaru do naprawy własnego urządzenia. Czy spełnione warunki pozwalają na wyłączenie z 1.1.3.1(c)? | A | ADR 2025, 1.1.3.1(c) i 1.1.3.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 Bank bieżący: 656 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `940d22f1a3965796d24029e621b05253ff98ece4`.
+| ADR-B-0657 | ADR-B-02 | ADR-B-02-K02 | Na butli jest czerwona nalepka z płomieniem i numerem 2.1. Jakie zagrożenie wskazuje ten znak i co powinien uwzględnić kierowca? | A | ADR 2025, 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
