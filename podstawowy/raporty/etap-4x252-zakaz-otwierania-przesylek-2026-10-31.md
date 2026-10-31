@@ -2,31 +2,42 @@
 
 Data: 31.10.2026  
 Zakres: wyłącznie kurs podstawowy ADR  
-Baza: świeży `main` po PR #721, commit `36d0bb3dc7495b8d8563d280ad78dd03f71422b4`  
-Kompetencja: `ADR-B-04-K02`  
-Nowy scenariusz: `SC-ADR-B-04-04`
+Baza: świeży `main` przed pracą, bank 677 pytań; commit main po PR #721: `36d0bb3dc7495b8d8563d280ad78dd03f71422b4`  
+Nowe pytanie: `ADR-B-0678`; poprawione pytania: `ADR-B-0011`, `ADR-B-0048`, `ADR-B-0243`.
 
-## Uzasadnienie luki
+## Najważniejsze ustalenie audytu prawnego
 
-Audyt mapy kompetencji wykazał, że ADR-B-04-K02 („Zakaz otwierania przesyłek przez załogę”) ma cztery pytania, ale żaden scenariusz praktyczny nie sprawdzał bezpośrednio tej kompetencji. Dotychczasowe scenariusze modułu 4 dotyczyły palenia/e-papierosów, pracy silnika i postoju pod nadzorem. Brakowało rozmowy z odbiorcą, który prosi członka załogi o otwarcie paczki.
+Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmujący „wszystkich członków załogi”. Przepis 8.3.3 wskazuje kierowcę i pomocnika kierowcy (w oficjalnym tekście angielskim: „A driver or a driver's assistant may not open a package containing dangerous goods”). Nie należy bez podstawy rozszerzać konkretnego przepisu na każdą osobę znajdującą się w pojeździe. Podstawą polską jest Umowa ADR 2025 ogłoszona w Dz.U. 2025 poz. 642; oficjalny polski tom II ADR 2025 udostępnia Ministerstwo Infrastruktury. Literalne porównanie właściwego ustępu z polskim PDF i niezależna recenzja specjalisty pozostają do wykonania.
 
-## Zmiana
+## Zmiany banku
 
-Dodano `SC-ADR-B-04-04`: odbiorca prosi osobę z załogi, która nie prowadzi pojazdu, o otwarcie paczki, a na opakowaniu widoczny jest ślad mogący wskazywać na uszkodzenie. Kursant ma odmówić otwarcia, rozpoznać, że zakaz ADR 8.3.3 obejmuje wszystkich członków załogi, oraz bezpiecznie zgłosić podejrzenie uszkodzenia bez otwierania przesyłki.
+- **ADR-B-0678** — nowa sytuacja: kierowca chce sprawdzić paczkę i prosi pomocnika kierowcy, by otworzył ją za niego. Klucz C: ani kierowca, ani pomocnik nie mogą otwierać sztuk przesyłek z towarami niebezpiecznymi.
+- Explanation: 337 znaków, 4 zdania; A/B/C 78/88/76 znaków. Poprawna odpowiedź nie jest najdłuższa.
+- **ADR-B-0011** — doprecyzowano odpowiedź i explanation, aby nie rozszerzać zakresu przepisu poza kierowcę.
+- **ADR-B-0048** — poprawiono błędne twierdzenie, że zakaz obejmuje każdego członka załogi; prawidłowy zakres to kierowca i pomocnik kierowcy.
+- **ADR-B-0243** — doprecyzowano podmiot zakazu i kontrolę oznakowania bez otwierania paczki.
+- **ADR-B-0357** bez zmian; pozostaje poprawnym pytaniem o zakaz otwierania przez kierowcę w celu sprawdzenia wycieku.
+- Wszystkie rekordy zachowują status `needs_review`; nic nie oznaczono jako `verified`.
 
-- Pytania powiązane ze scenariuszem: ADR-B-0011, ADR-B-0048 i ADR-B-0357 (trzy pytania; ADR-B-0243 pozostaje dodatkowym pytaniem kompetencji).
-- Uzupełniono mapę kompetencji ADR-B-04-K02, lekcję ADR-B-04 i materiał instruktora.
-- Scenariusze kursu: **42**; moduły B-03, B-04 i B-05 mają po 4 scenariusze, pozostałe działy co najmniej 3.
-- Nie dodano ani nie zmieniono pytań. Bank pozostaje 677 rekordów, wszystkie `needs_review`, zero `verified`.
+## Zmiany materiałów i kontroli
 
-## Podstawa i ograniczenia
+- Kompetencja ADR-B-04-K02 obejmuje teraz pięć pytań: 0011, 0048, 0243, 0357 i 0678.
+- Scenariusz `SC-ADR-B-04-04` skorygowano: prośba odbiorcy dotyczy pomocnika kierowcy, a kryterium oceny odnosi się do kierowcy i pomocnika kierowcy.
+- Uzupełniono lekcję i materiał instruktora, usuwając nieprecyzyjne sformułowanie „wszyscy członkowie załogi”.
+- Dodano snapshoty `review/sequential/4x252-0011-0678.json` i `review/legal-clauses/4x252-0011-0678.json`; suplement rejestru literalnej weryfikacji rozszerzono do ADR-B-0678.
+- Warianty i klucze egzaminów próbnych 001–005 wskazują SHA banku `7c21fccb7d7e17e71fd98be534133582b54d52af`.
 
-ADR 2025, 8.3.3 — zakaz otwierania sztuk przesyłek z towarami niebezpiecznymi przez członków załogi. Przy podejrzeniu uszkodzenia lub wycieku należy postępować zgodnie z instrukcjami pisemnymi ADR (5.4.3.4). Ćwiczenie wykorzystuje czyste, puste opakowanie szkoleniowe; bez rzeczywistych towarów niebezpiecznych i bez otwierania prawdziwych przesyłek.
+## Podstawa prawna i źródła
+
+- ADR 2025, 8.3.3 — zakaz otwierania sztuk przesyłek przez kierowcę lub pomocnika kierowcy.
+- Dz.U. 2025 poz. 642: https://dziennikustaw.gov.pl/DU/2025/642
+- Oficjalny polski tom II ADR 2025, Ministerstwo Infrastruktury: https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8
+- Oficjalny tekst ADR 2025 UNECE, tom II: https://unece.org/adr-2025-files
 
 ## Stan po partii
 
-- Bank: 677 pytań ADR-B-0001–0677, 677 `needs_review`, 0 `verified`.
-- SHA banku bez zmian: `9dbbf511b3b057e3771ee382dda1a768226a916a`.
-- Scenariusze: 42, w tym 4 dla ADR-B-04.
-- Warianty i klucze egzaminów 001–005 pozostają zgodne z niezmienionym SHA banku.
-- Pełny Quality Gate i CI wymagane przed scaleniem PR.
+- Bank: **678** pytań, ID ADR-B-0001–0678; wszystkie `needs_review`, zero `verified`.
+- SHA banku: `7c21fccb7d7e17e71fd98be534133582b54d52af`.
+- Rozkład kluczy i wskaźnik „poprawna = jedyna najdłuższa” wymagają ponownego wyliczenia lokalnym Quality Gate; próg nadal ≤18%.
+- Scenariusze: 42; B-03, B-04 i B-05 mają po 4, pozostałe działy co najmniej 3.
+- Pełny Quality Gate, w tym egzaminy 001–005, snapshoty, mapa kompetencji i raporty, musi zakończyć się PASS przed scaleniem.
