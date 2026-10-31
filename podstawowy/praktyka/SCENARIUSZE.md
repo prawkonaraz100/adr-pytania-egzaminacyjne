@@ -2,7 +2,7 @@
 
 ## Aktualizacja 4x252 — zakaz otwierania sztuk przesyłek
 
-Doprecyzowano `SC-ADR-B-04-04`: odbiorca prosi pomocnika kierowcy o otwarcie paczki. ADR 8.3.3 wskazuje kierowcę i pomocnika kierowcy; nie należy opisywać go jako bezwarunkowego zakazu dla każdej osoby w pojeździe. Scenariusz łączy pytania ADR-B-0011, ADR-B-0048, ADR-B-0357 i ADR-B-0678. Podstawa: ADR 2025, 8.3.3 i 5.4.3.4. Kurs ma teraz **42 scenariusze**, a moduły B-03, B-04 i B-05 mają po 4.
+Doprecyzowano `SC-ADR-B-04-04`: odbiorca prosi pomocnika kierowcy o otwarcie paczki. ADR 8.3.3 wskazuje kierowcę i pomocnika kierowcy; nie należy opisywać go jako bezwarunkowego zakazu dla każdej osoby w pojeździe. Scenariusz łączy pytania ADR-B-0048, ADR-B-0357 i ADR-B-0678; ADR-B-0011 i ADR-B-0243 pozostają dodatkowymi pytaniami kompetencji K02. Podstawa: ADR 2025, 8.3.3 i 5.4.3.4. Kurs ma teraz **42 scenariusze**, a moduły B-03, B-04 i B-05 mają po 4.
 
 
 ## Aktualizacja 4x251 — dodatkowy scenariusz pożarowy
