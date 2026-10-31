@@ -7,6 +7,8 @@
 - Snapshoty: `review/sequential/665-665.json`, `review/legal-clauses/665-665.json`; warianty i klucze 001–005 wskazują aktualny SHA.
 - Ledger: `review/legal-polish/stage4w4-literal-verification-ledger-0610-0665.json`; pełne porównanie polskiego tekstu ogłoszonego w Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
 
+- Raport etapu 4x240: `raporty/etap-4x240-klasa-42-piroforyczne-samonagrzewajace-2026-10-31.md`.
+
 ## Poprzednia migawka — etap 4x239 (31.10.2026)
 
 - Bank: 664 pytań ADR-B-0001–0664; 664 `needs_review`, 0 `verified`; blob SHA `a81581438b449107fb42dcb10450acc5a69278e4`.
