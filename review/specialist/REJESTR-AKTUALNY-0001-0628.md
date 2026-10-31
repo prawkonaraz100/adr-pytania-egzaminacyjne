@@ -2,6 +2,12 @@
 
 - Bank: 661 pytań `needs_review`, 0 `verified`; blob SHA `d7ad9711a2e5f5ced552ff6a4140455104536280`.
 - Raport: `podstawowy/raporty/etap-4x236-polimeryzujace-klasa-41-kontrola-temperatury-2026-10-31.md`.
+- ADR-B-0661 dodano do ADR-B-02-K04; próg kontroli temperatury dla polimeryzującego materiału w DPPL.
+
+## Bieżąca migawka — etap 4x236 (31.10.2026)
+
+- Bank: 661 pytań `needs_review`, 0 `verified`; blob SHA `d7ad9711a2e5f5ced552ff6a4140455104536280`.
+- Raport: `podstawowy/raporty/etap-4x236-polimeryzujace-klasa-41-kontrola-temperatury-2026-10-31.md`.
 - ADR-B-0661 dodano do ADR-B-02-K04; praktyczne rozróżnienie progu 50°C dla DPPL i 45°C dla cystern.
 
 ## Bieżąca migawka — etap 4x235 (31.10.2026)
@@ -918,4 +924,5 @@ Bank bieżący: 656 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `9
 | ADR-B-0658 | ADR-B-02 | ADR-B-02-K03 | Karta charakterystyki cieczy podaje temperaturę zapłonu 45°C. Co oznacza ta wartość? | A | ADR 2025, 1.2.1; 2.2.3.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0659 | ADR-B-01 | ADR-B-01-K01 | Jak rozdzielono zakres wymagań między załączniki A i B ADR? | A | ADR 2025, Umowa ADR, art. 2; 1.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0660 | ADR-B-07 | ADR-B-07-K07 | Odpowiedzialność przewoźnika za nienależyte wykonanie umowy i działanie kierowcy | A | ADR 8.2.2.3.2(k); KC art. 471 i 474 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0661 | ADR-B-02 | ADR-B-02-K04 | Materiał polimeryzujący w DPPL, TSP 48°C — obowiązek kontroli temperatury | B | ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0661 | ADR-B-02 | ADR-B-02-K04 | Materiał polimeryzujący w DPPL, TSP 48°C — obowiązek kontroli temperatury | B | ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7 | — | NIEROZSTRZYGNIĘTE | needs_review |
