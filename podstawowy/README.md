@@ -1,5 +1,7 @@
 ## Bieżąca migawka — etap 4x250 (31.10.2026)
 
+**Stan na 31.10.2026, etap 4x250**
+
 - Bank: 677 pytań ADR-B-0001–0677; 677 `needs_review`, 0 `verified`; blob SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
 - Dodano ADR-B-0677 do ADR-B-03-K03: czyszczenie pojazdu po przewozie towarów niebezpiecznych luzem, ADR 7.5.8.2.
 - Explanation: 404 znaki, 4 zdania; A/B/C 141/101/118. Poprawna C nie jest najdłuższa.
@@ -292,6 +294,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x250 — czyszczenie po przewozie towarów niebezpiecznych luzem](raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md)
 - [Etap 4x249 — klasa 4.3: grupy pakowania i stopień zagrożenia](raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md)
 - [Etap 4x248 — bateria litowo-jonowa zapakowana z urządzeniem (UN 3481)](raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md)
 - [Etap 4x247 — identyfikacja ze zdjęciem dla załogi](raporty/etap-4x247-identyfikacja-zdjecie-zaloga-2026-10-31.md)
