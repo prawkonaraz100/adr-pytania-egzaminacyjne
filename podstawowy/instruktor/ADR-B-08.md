@@ -133,3 +133,8 @@ Zastosuj listę kontrolną dla fikcyjnego pojazdu: typ pojazdu, warunki przewozu
 - `SC-ADR-B-08-03` — wyposażenie osobiste dla całej załogi.
 
 Pytania kontrolne: `ADR-B-0022`, `ADR-B-0023`, `ADR-B-0024`, `ADR-B-0074`, `ADR-B-0251`, `ADR-B-0282`, `ADR-B-0418`, `ADR-B-0596`, `ADR-B-0597`. Typowe pomyłki: przyjęcie, że każda ciężarówka potrzebuje tego samego zestawu gaśnic; pominięcie DMC; uznanie, że jedna kamizelka lub gaśnica wystarczy niezależnie od liczby członków załogi i warunków.
+
+
+### Ćwiczenie: sprawdzenie zgodności świadectwa dopuszczenia
+
+Przygotuj dwie fikcyjne karty pojazdu i świadectwa. W jednym zestawie zgodne są typ pojazdu i dane przewoźnika, ale numer VIN w świadectwie różni się od numeru na pojeździe. Poproś kursanta, by wskazał pola 3, 4 i 7 wzoru świadectwa, porównał je z pojazdem i podjął decyzję. Kryterium: kursant wstrzymuje wyjazd ADR do czasu wyjaśnienia rozbieżności i uzyskania świadectwa dla właściwego pojazdu; nie akceptuje dokumentu innego pojazdu tylko dlatego, że należy do tej samej firmy. Pytanie: ADR-B-0662 (needs_review). Podstawa: ADR 9.1.3.1, 9.1.3.3 i 9.1.3.5.
