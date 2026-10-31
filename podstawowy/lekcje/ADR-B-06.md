@@ -278,3 +278,12 @@ Wybierz scenariusz dla działu ADR-B-06 w [mapie ćwiczeń](../praktyka/scenariu
 
 **Status:** `needs_review`; weryfikacja pełnego polskiego ADR 2025 i niezależna ocena specjalisty pozostają otwarte.
  
+
+
+### Numer UN na opakowaniu — kontrola przed wyjazdem (ADR-B-06-K01)
+
+Numer UN identyfikuje konkretny towar. Na sztuce przesyłki, dla której ADR wymaga tego oznakowania, czterocyfrowy numer poprzedza się literami „UN”; sam zapis „1203” nie zastępuje „UN 1203”. Nie myl go z numerem rozpoznawczym zagrożenia w górnym polu tablicy pomarańczowej — przykładowo „33” opisuje zagrożenie, a „1203” identyfikuje towar. W dokumencie przewozowym również podaje się numer UN poprzedzony literami „UN”. Jeśli przewoźnik stwierdzi naruszenie ADR podczas wykonywania swoich kontroli, nie rozpoczyna przewozu do czasu usunięcia naruszenia.
+
+**Sytuacja do przećwiczenia:** SC-ADR-B-06-04. Na opakowaniu widnieje „1203”, dokument podaje „UN 1203”, a tablica pojazdu „33/1203”. Kursant ma wskazać brakujące litery na opakowaniu, odróżnić numer zagrożenia od numeru UN i zgłosić niezgodność przed wyjazdem.
+
+**Pytania powiązane:** ADR-B-0114, ADR-B-0188 i ADR-B-0616. **Podstawy do sprawdzenia:** ADR 5.2.1.1, 5.3.2.2.2, 5.4.1.1.1 oraz 1.4.2.2.1(b) i 1.4.2.2.3.
