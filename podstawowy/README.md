@@ -9,8 +9,6 @@
 
 ## Poprzednia migawka — etap 4x236 (31.10.2026)
 
-## Poprzednia migawka — etap 4x236 (31.10.2026)
-
 **Stan na 31.10.2026, etap 4x236**
 
 - Bank: 661 pytań; 661 `needs_review`, 0 `verified`; blob SHA `d7ad9711a2e5f5ced552ff6a4140455104536280`.
