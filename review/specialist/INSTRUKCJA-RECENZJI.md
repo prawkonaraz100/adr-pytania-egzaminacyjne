@@ -1,3 +1,7 @@
+## Migawka bieżąca — 4x257
+
+Bank podstawowy: 683 pytań, wszystkie needs_review, 0 verified. SHA: `03382720e316001da10ddb968fb6c1956107bcef`. Najnowsza zmiana: ADR-B-0683, zgodność różnych konstrukcji opakowań przeznaczonych do piętrzenia i elementy nośne (ADR 7.5.7.2). Snapshoty 683-683, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
+
 ## Migawka bieżąca — 4x256
 
 Bank podstawowy: 682 pytań, wszystkie needs_review, 0 verified. SHA: `5bc8851bed5f1fdfcbf2a5f07faccb3174a72006`. Najnowsza zmiana: ADR-B-0682, wyjątek od strzałek kierunkowych dla małych opakowań wewnętrznych (ADR 5.2.1.10.2(b)). Snapshoty 682-682, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
