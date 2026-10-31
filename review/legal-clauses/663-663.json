@@ -1,0 +1,52 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0663",
+      "order": 663,
+      "clause": "ADR 2025, 8.3.4",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0663",
+        "module_id": "ADR-B-07",
+        "stem": "Po zmroku kierowca ma sprawdzić oznakowanie przy pojeździe ADR. Jedyna dostępna latarka ma metalową obudowę, która przy uderzeniu może wywołać iskrę. Jak powinien postąpić?",
+        "options": {
+          "A": "Może użyć tej latarki z metalową obudową, jeżeli ma sprawną baterię, nie jest uszkodzona i użyje jej wyłącznie na zewnątrz pojazdu, z dala od przesyłek.",
+          "B": "Może jej użyć tylko przez krótki czas i z dala od przesyłek, ponieważ sama obudowa nie powoduje iskry podczas normalnej pracy.",
+          "C": "Nie używać jej; wybrać przenośne urządzenie, którego metalowa powierzchnia nie może spowodować iskry, także przy przypadkowym uderzeniu."
+        },
+        "correct_option": "C",
+        "explanation": "Nie używaj latarki, której metalowa powierzchnia może wywołać iskrę; wybierz urządzenie, które nie stwarza takiego zagrożenia. Sprawna bateria, brak uszkodzeń ani krótki czas świecenia nie usuwają ryzyka związanego z obudową. Odsunięcie latarki od przesyłek także nie zastępuje wymaganego rodzaju urządzenia. Podstawa: ADR 8.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Błędna: sprawna bateria i używanie poza pojazdem nie znoszą wymogu dotyczącego powierzchni metalowej zdolnej wywołać iskrę."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Błędna: krótki czas użycia i odsunięcie od przesyłek nie są wyjątkami od 8.3.4."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Prawidłowa: urządzenie przenośne nie może mieć powierzchni metalowej mogącej spowodować iskrę."
+        }
+      },
+      "observed_answer_key": "C",
+      "notes_on_conditions": "Pytanie dotyczy używanego przenośnego urządzenia oświetleniowego i wymogu 8.3.4. Nie rozstrzyga innych wymagań dla urządzeń w strefach zagrożonych wybuchem ani szczególnych wymagań 8.5.",
+      "editorial_result": "pending_specialist_review",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
