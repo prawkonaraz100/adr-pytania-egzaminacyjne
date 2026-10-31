@@ -1,4 +1,15 @@
-## Bieżąca migawka — etap 4x240 (31.10.2026)
+## Bieżąca migawka — etap 4x241 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x241**
+
+- Bank: 666 pytań; 666 `needs_review`, 0 `verified`; blob SHA `b7b582add191eace25bf493fed5f71dda55f392e`.
+- Dodano ADR-B-0666 do ADR-B-02-K07: klasa 5.1 może nasilać spalanie innych materiałów, nawet jeśli sama nie jest palna (ADR 2.2.51.1.1; 5.4.3.4). Explanation 479 znaków, 4 zdania; A/B/C 166/166/138.
+- Rozkład A/B/C: 229/224/213. „Poprawna = jedyna najdłuższa”: 72/666 = 10,81%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x241-klasa-51-utleniajace-ryzyko-pozaru-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x240 (31.10.2026)
+
+## Poprzednia migawka — etap 4x240 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x240**
 
