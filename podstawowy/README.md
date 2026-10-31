@@ -1,5 +1,11 @@
-## Bieżąca migawka — etap 4x238 (31.10.2026)
+## Bieżąca migawka — etap 4x239 (31.10.2026)
 
+- Bank: 664 pytań; 664 `needs_review`, 0 `verified`; blob SHA `a81581438b449107fb42dcb10450acc5a69278e4`.
+- Dodano ADR-B-0664 do ADR-B-07-K06: ciągłość połączeń elektrycznych ABS w zestawie z przyczepą o maksymalnej masie powyżej 3,5 t (ADR 8.3.8 i 9.2.2.6). Explanation 373 znaki, 4 zdania; A/B/C 148/128/115 znaków.
+- Rozkład odpowiedzi A/B/C: 228/223/213. „Poprawna = jedyna najdłuższa”: 72/664 = 10,84%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x239-abs-connection-vehicle-trailer-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x238 (31.10.2026)
 **Stan na 31.10.2026, etap 4x238**
 
 - Bank: 663 pytań; 663 `needs_review`, 0 `verified`; blob SHA `a626f744ed85432679ad0790a465eae854de9704`.
