@@ -22,7 +22,7 @@ Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmu
 ## Zmiany materiałów i kontroli
 
 - Kompetencja ADR-B-04-K02 obejmuje teraz pięć pytań: 0011, 0048, 0243, 0357 i 0678.
-- Scenariusz `SC-ADR-B-04-04` skorygowano: prośba odbiorcy dotyczy pomocnika kierowcy, a kryterium oceny odnosi się do kierowcy i pomocnika kierowcy.
+- Scenariusz `SC-ADR-B-04-04` skorygowano: prośba odbiorcy dotyczy pomocnika kierowcy, a kryterium oceny odnosi się do kierowcy i pomocnika kierowcy. Powiązane pytania scenariusza: ADR-B-0048, ADR-B-0357 i ADR-B-0678; ADR-B-0011 i ADR-B-0243 pozostają dodatkowymi pytaniami K02.
 - Uzupełniono lekcję i materiał instruktora, usuwając nieprecyzyjne sformułowanie „wszyscy członkowie załogi”.
 - Dodano snapshoty `review/sequential/4x252-0011-0678.json` i `review/legal-clauses/4x252-0011-0678.json`; suplement rejestru literalnej weryfikacji rozszerzono do ADR-B-0678.
 - Warianty i klucze egzaminów próbnych 001–005 wskazują SHA banku `7c21fccb7d7e17e71fd98be534133582b54d52af`.
