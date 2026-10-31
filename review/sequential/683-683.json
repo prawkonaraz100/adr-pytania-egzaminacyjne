@@ -1,0 +1,48 @@
+{
+  "batch": "683-683",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0683",
+      "sequence": 683,
+      "exact_record_snapshot": {
+        "stem": "Dwie różne konstrukcje opakowań ADR są przeznaczone do piętrzenia. Pracownik chce ustawić je razem w jednym stosie. Co powinien sprawdzić i kiedy zastosować elementy nośne?",
+        "options": {
+          "A": "Wystarczy, że każde opakowanie osobno jest przeznaczone do piętrzenia; zgodności różnych konstrukcji nie trzeba sprawdzać, jeśli stos ma tę samą wysokość i jest owinięty folią.",
+          "B": "Przed piętrzeniem oceń zgodność obu typów opakowań; w razie potrzeby zastosuj elementy nośne, które rozłożą nacisk i ochronią dolne opakowanie przed uszkodzeniem przez górne.",
+          "C": "Różnych typów opakowań nie wolno piętrzyć razem, nawet gdy oba są do tego przeznaczone; ADR zawsze wymaga osobnych stosów i zabrania stosowania elementów nośnych."
+        },
+        "correct_option": "B",
+        "explanation": "Przy różnych konstrukcjach nie wystarczy, że każde opakowanie osobno jest przeznaczone do piętrzenia: trzeba jeszcze ocenić, czy można je bezpiecznie ustawić razem. Gdy górne opakowanie mogłoby uszkodzić dolne, stosuje się elementy nośne, które przeniosą obciążenie. Odpowiedź A pomija zgodność konstrukcji, a C wprowadza bezwzględny zakaz, którego przepis nie ustanawia. Podstawa: ADR 7.5.7.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.2, zgodność różnych typów opakowań przeznaczonych do piętrzenia oraz elementy nośne chroniące opakowanie poniżej",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official ADR 2025 source text consulted for 7.5.7.2; exact Polish Gazette clause and complete A/B/C comparison and independent specialist review pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "ADR 5.4.1.1.3.1 requires the word ODPAD before the proper shipping name for waste containing dangerous goods unless the term is already part of the proper shipping name. A waste transfer note does not replace the ADR transport document.",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "source_risk_note": "ADR 2025 section 7.5.7.2 checked against the official UNECE 2025 text and the official Polish Gazette publication record. Exact Polish Gazette paragraph and specialist review remain pending."
+    }
+  ]
+}

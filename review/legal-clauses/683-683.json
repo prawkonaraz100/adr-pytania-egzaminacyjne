@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0683",
+  "date": "2026-10-31",
+  "scope": "ADR 2025 section 7.5.7.2 consulted for stacking compatibility and load-bearing devices; exact Polish Gazette clause and independent specialist approval pending",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0683",
+      "order": 683,
+      "clause": "ADR 2025, 7.5.7.2",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "question_snapshot": {
+        "id": "ADR-B-0683",
+        "module_id": "ADR-B-09",
+        "stem": "Dwie różne konstrukcje opakowań ADR są przeznaczone do piętrzenia. Pracownik chce ustawić je razem w jednym stosie. Co powinien sprawdzić i kiedy zastosować elementy nośne?",
+        "options": {
+          "A": "Wystarczy, że każde opakowanie osobno jest przeznaczone do piętrzenia; zgodności różnych konstrukcji nie trzeba sprawdzać, jeśli stos ma tę samą wysokość i jest owinięty folią.",
+          "B": "Przed piętrzeniem oceń zgodność obu typów opakowań; w razie potrzeby zastosuj elementy nośne, które rozłożą nacisk i ochronią dolne opakowanie przed uszkodzeniem przez górne.",
+          "C": "Różnych typów opakowań nie wolno piętrzyć razem, nawet gdy oba są do tego przeznaczone; ADR zawsze wymaga osobnych stosów i zabrania stosowania elementów nośnych."
+        },
+        "correct_option": "B",
+        "explanation": "Przy różnych konstrukcjach nie wystarczy, że każde opakowanie osobno jest przeznaczone do piętrzenia: trzeba jeszcze ocenić, czy można je bezpiecznie ustawić razem. Gdy górne opakowanie mogłoby uszkodzić dolne, stosuje się elementy nośne, które przeniosą obciążenie. Odpowiedź A pomija zgodność konstrukcji, a C wprowadza bezwzględny zakaz, którego przepis nie ustanawia. Podstawa: ADR 7.5.7.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.2, zgodność różnych typów opakowań przeznaczonych do piętrzenia oraz elementy nośne chroniące opakowanie poniżej",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Samo dopuszczenie każdego typu opakowania do piętrzenia nie zastępuje sprawdzenia zgodności różnych konstrukcji. Folia ani jednakowa wysokość stosu nie dowodzą takiej zgodności."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 7.5.7.2 wymaga uwzględnienia zgodności różnych typów opakowań przeznaczonych do piętrzenia; gdy to konieczne, elementy nośne mają zapobiec uszkodzeniu opakowania poniżej."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Przepis nie wprowadza bezwzględnego zakazu wspólnego piętrzenia różnych konstrukcji ani zakazu stosowania elementów nośnych; wymaga oceny zgodności i ochrony opakowania poniżej."
+        }
+      },
+      "notes_on_conditions": "Pytanie sprawdza drugi i trzeci element 7.5.7.2: zgodność różnych konstrukcji opakowań, które są przeznaczone do piętrzenia, oraz użycie elementów nośnych, gdy jest to konieczne, aby opakowania ułożone wyżej nie uszkodziły opakowania poniżej.",
+      "editorial_result": "targeted_rule_identified_full_literal_question_and_specialist_review_pending",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}

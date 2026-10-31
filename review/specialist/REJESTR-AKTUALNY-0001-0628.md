@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x257 (01.11.2026)
+
+- Bank: 683 pytań ADR-B-0001–0683; 683 needs_review, 0 verified; SHA `03382720e316001da10ddb968fb6c1956107bcef`.
+- ADR-B-0683 do ADR-B-09-K05: zgodność różnych konstrukcji opakowań przeznaczonych do piętrzenia i elementy nośne; ADR 7.5.7.2.
+- 683 wpisy w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x257-pietrzenie-zgodnosc-opakowan-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x256 (31.10.2026)
 
 - Bank: 682 pytań ADR-B-0001–0682; 682 needs_review, 0 verified; SHA `5bc8851bed5f1fdfcbf2a5f07faccb3174a72006`.
@@ -862,3 +868,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0680 | ADR-B-03 | ADR-B-03-K02 | Prefiks „ODPAD” przed prawidłową nazwą przewozową odpadu w dokumencie ADR; karta przekazania odpadu nie zastępuje dokumentu | A | ADR 2025, 5.4.1.1.3.1; 5.4.1.1.1; 1.4.2.2.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0681 | ADR-B-03 | ADR-B-03-K04 | Dodatkowe wyposażenie do ograniczania skutków wycieku przy towarze z nalepką 8: łopata, osłona kanalizacyjna i pojemnik | A | ADR 2025, 8.1.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0682 | ADR-B-09 | ADR-B-09-K04 | Wyjątek od strzałek kierunkowych dla opakowania zewnętrznego z opakowaniami wewnętrznymi do 120 ml i wystarczającym materiałem chłonnym | B | ADR 2025, 5.2.1.10.1–5.2.1.10.2(b) | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0683 | ADR-B-09 | ADR-B-09-K05 | Zgodność różnych konstrukcji opakowań przeznaczonych do piętrzenia i elementy nośne chroniące opakowanie poniżej | B | ADR 2025, 7.5.7.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
