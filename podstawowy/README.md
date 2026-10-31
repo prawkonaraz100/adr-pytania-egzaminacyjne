@@ -1,4 +1,12 @@
-## Bieżąca migawka — etap 4x251 (31.10.2026)
+## Bieżąca migawka — etap 4x252 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x252**
+
+- Dodano SC-ADR-B-04-04 dla ADR-B-04-K02: odbiorca prosi członka załogi o otwarcie paczki ADR; kursant odmawia i zgłasza podejrzenie uszkodzenia bez otwierania przesyłki.
+- Scenariusz łączy ADR-B-0011, ADR-B-0048 i ADR-B-0357; moduł B-04 ma 4 scenariusze, cały kurs 42. Bank bez zmian: 677 pytań, wszystkie `needs_review`, SHA `9dbbf511b3b057e3771ee382dda1a768226a916a`.
+- Raport: `raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x251 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x251**
 
@@ -302,6 +310,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x252 — zakaz otwierania przesyłek ADR](raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md)
 - [Etap 4x251 — mały pożar opon, hamulców lub silnika](raporty/etap-4x251-maly-pozar-opony-hamulce-silnik-2026-10-31.md)
 - [Etap 4x250 — czyszczenie po przewozie towarów niebezpiecznych luzem](raporty/etap-4x250-czyszczenie-po-przewozie-luzem-2026-10-31.md)
 - [Etap 4x249 — klasa 4.3: grupy pakowania i stopień zagrożenia](raporty/etap-4x249-klasa-43-grupy-pakowania-2026-10-31.md)
