@@ -6,7 +6,6 @@
 - Rozkład prawidłowych opcji: A=232, B=230, C=216.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/678 = 10,62%**; maksimum działu to 13,95%.
 
-- Scenariusze praktyczne: 41 łącznie; ADR-B-05-K06 ma teraz osobny scenariusz `SC-ADR-B-05-04` dla małego pożaru opon, hamulców lub silnika. W module B-05 są 4 scenariusze; każdy z 13 działów ma co najmniej 3.
 - Bank: 678 rekordów ADR-B-0001–0678, wszystkie `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
 - ADR-B-04-K02: doprecyzowano ADR 8.3.3 do kierowcy i pomocnika kierowcy; poprawiono ADR-B-0011, 0048 i 0243, dodano ADR-B-0678.
 - Scenariusze praktyczne: 42; B-03, B-04 i B-05 mają po 4.
