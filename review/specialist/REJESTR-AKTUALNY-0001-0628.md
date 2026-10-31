@@ -757,3 +757,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0666 | ADR-B-02 | ADR-B-02-K07 | Utleniacz klasy 5.1 może nasilać spalanie sąsiednich materiałów — reakcja kierowcy przy pożarze | A | ADR 2025, 2.2.51.1.1; 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0667 | ADR-B-02 | ADR-B-02-K08 | Nadtlenek organiczny 5.2 osiągnął temperaturę awaryjną — jakie działanie kierowcy? | A | ADR 2025, 7.1.7.3.4; 7.1.7.4.1; 2.2.52.1.15–1.16 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0668 | ADR-B-02 | ADR-B-02-K10 | UN 3373 — materiał biologiczny kategorii B, P650 i przepis szczególny 319 | A | ADR 2025, 2.2.62.1.4.2; 3.3 SP 319; 4.1.4.1 P650 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0669 | ADR-B-02 | ADR-B-02-K11 | Kategoria przesyłki klasy 7: uwzględnienie TI i poziomu promieniowania na powierzchni | B | ADR 2025, 5.1.5.3.4(a), tabela 5.1.5.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
