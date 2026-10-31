@@ -378,3 +378,8 @@ Materiał polimeryzujący może reagować z wydzieleniem dużej ilości ciepła.
 **Przykład:** dokumentacja podaje, że TSP materiału w DPPL wynosi 48°C. To wartość nieprzekraczająca 50°C, więc przewóz wymaga kontroli temperatury zgodnie z warunkami ADR. Nie stosuj tu progu 45°C przeznaczonego dla cystern.
 
 **Pytanie do sprawdzenia:** `ADR-B-0661`; podstawa: ADR 2.2.41.1.20–2.2.41.1.21(a) i 7.1.7. Pełna recenzja polskiego tekstu i niezależna recenzja specjalisty pozostają otwarte.
+
+
+### Piroforyczne a samonagrzewające się — dwa zagrożenia klasy 4.2
+
+W klasie 4.2 ADR rozróżnia materiały piroforyczne i samonagrzewające się. Piroforyczne mogą zapalić się po zetknięciu z powietrzem nawet w małej ilości i w ciągu pięciu minut. Samonagrzewające się również reagują z tlenem z powietrza bez dostarczania energii z zewnątrz, ale zapłon następuje zwykle dopiero w większej ilości materiału i po dłuższym czasie — godzinach lub dniach. To nie jest to samo co klasa 4.3, w której materiał wydziela palny gaz w kontakcie z wodą. Dla materiałów piroforycznych ADR przewiduje I grupę pakowania; dla samonagrzewających się grupa zależy od wyników badań i kryteriów ADR. Kierowca nie ustala klasy samodzielnie przez otwieranie opakowania ani próbę kontaktu z powietrzem — korzysta z prawidłowych danych przewozowych i oznakowania. Pytanie kontrolne: ADR-B-0665. Podstawa: ADR 2.2.42.1.1, 2.2.42.1.3, 2.2.42.1.8(a).
