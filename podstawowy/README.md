@@ -1,5 +1,7 @@
 ## Bieżąca migawka — etap 4x242 (31.10.2026)
 
+**Stan na 31.10.2026, etap 4x242**
+
 - Bank: 667 pytań ADR-B-0001–0667; 667 `needs_review`, 0 `verified`; blob SHA `4d3a2dd4c7c43ee9fc00d829981cac50098fc462`.
 - Dodano ADR-B-0667 do ADR-B-02-K08: rozpoznanie temperatury awaryjnej nadtlenku organicznego klasy 5.2 i uruchomienie procedur awaryjnych.
 - Explanation: 400 znaków, 4 zdania; A/B/C 147/133/172 znaków. Poprawna A nie jest najdłuższa.
