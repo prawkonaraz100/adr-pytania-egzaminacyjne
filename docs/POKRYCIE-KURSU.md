@@ -3,9 +3,9 @@
 ## Uzupełnienie audytu 4x248 — 31.10.2026
 
 - Dodano ADR-B-0673 do ADR-B-02-K13: praktyczne rozróżnienie UN 3480 i UN 3481 dla baterii litowo-jonowej przewożonej samodzielnie albo zapakowanej z urządzeniem, które zasila.
-- Explanation: 423 znaki, 4 zdania; A/B/C 136/134/145. Poprawna B nie jest najdłuższa.
+- Explanation: 423 znaki, 4 zdania; A/B/C 136/134/109. Poprawna B nie jest najdłuższa.
 - Podstawa: ADR 2025, 2.2.9.1.7.1, dział 3.2 tabela A (UN 3480/3481; UN 3090/3091) i 5.2.1.9.2, Dz.U. 2025 poz. 642. Literalne porównanie i niezależna recenzja specjalisty pozostają otwarte.
-- Bank: 673 pytania ADR-B-0001–0673, wszystkie `needs_review`, 0 `verified`; SHA `57dba9d1d46343edb0c9c0d09a5ca739043d1df6`.
+- Bank: 673 pytania ADR-B-0001–0673, wszystkie `needs_review`, 0 `verified`; SHA `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
 - Rozkład poprawnych odpowiedzi: A=231, B=229, C=213.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/673 = 10,70%**; maksimum działu to 13,95%.
 - Raport: [Etap 4x248 — bateria litowo-jonowa z urządzeniem](../podstawowy/raporty/etap-4x248-bateria-litowa-un3481-2026-10-31.md).
