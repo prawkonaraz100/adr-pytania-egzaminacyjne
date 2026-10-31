@@ -1,4 +1,13 @@
-## Bieżąca migawka — etap 4x239 (31.10.2026)
+## Bieżąca migawka — etap 4x240 (31.10.2026)
+
+- Bank: 665 pytań ADR-B-0001–0665; 665 `needs_review`, 0 `verified`; blob SHA `c7c55c480fa872b1ec9ea008fb1e6d049f7fae96`.
+- Dodano ADR-B-0665 do ADR-B-02-K05: rozróżnianie materiałów piroforycznych (zapłon małej ilości po kontakcie z powietrzem w ciągu pięciu minut) i samonagrzewających się (zwykle większa ilość, dłuższy czas). Podstawa: ADR 2.2.42.1.1 i 2.2.42.1.8(a).
+- Explanation: 453 znaki, 4 zdania; A/B/C 167/166/144 znaków. Prawidłowa B nie jest najdłuższa.
+- Rozkład odpowiedzi A/B/C: 228/224/213. „Poprawna = jedyna najdłuższa”: 72/665 = 10,83%; maksymalny udział działu pozostaje poniżej 18%.
+- Snapshoty: `review/sequential/665-665.json`, `review/legal-clauses/665-665.json`; warianty i klucze 001–005 wskazują aktualny SHA.
+- Ledger: `review/legal-polish/stage4w4-literal-verification-ledger-0610-0665.json`; pełne porównanie polskiego tekstu ogłoszonego w Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+
+## Poprzednia migawka — etap 4x239 (31.10.2026)
 
 - Bank: 664 pytań ADR-B-0001–0664; 664 `needs_review`, 0 `verified`; blob SHA `a81581438b449107fb42dcb10450acc5a69278e4`.
 - Dodano ADR-B-0664 do ADR-B-07-K06: ciągłość połączeń ABS między pojazdem samochodowym i przyczepą o maksymalnej masie powyżej 3,5 t (ADR 8.3.8 i 9.2.2.6).
