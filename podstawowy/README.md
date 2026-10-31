@@ -1,4 +1,12 @@
-## Bieżąca migawka — etap 4x252 (31.10.2026)
+## Bieżąca migawka — etap 4x253 (31.10.2026)
+
+- Dodano ADR-B-0679 do ADR-B-01-K07: rozdzielenie klasyfikacji towaru przez nadawcę od kontroli przewoźnika, kompletności danych i wstrzymania przewozu przy brakach (ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3, 5.4.1.1.1).
+- Explanation 375 znaków, 3 zdania; A/B/C 119/108/117, poprawna B nie jest najdłuższa.
+- Bank: 679 pytań ADR-B-0001–0679; 679 `needs_review`, 0 `verified`; SHA `5df8cb5200a2c357cdcc04959893969d8ca448a0`.
+- A/B/C: 232/231/216; poprawna = jedyna najdłuższa: 72/679 = 10,60%.
+- Raport: `raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x252 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x252**
 
