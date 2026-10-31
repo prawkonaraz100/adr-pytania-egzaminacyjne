@@ -1,10 +1,15 @@
 # ADR podstawowy — scenariusze praktyczne dla instruktora
 
+## Aktualizacja 4x251 — dodatkowy scenariusz pożarowy
+
+Dodano `SC-ADR-B-05-04` dla kompetencji `ADR-B-05-K06`: kursant ocenia mały, początkowy pożar opon, hamulców lub silnika i rozstrzyga, czy użycie gaśnicy jest właściwe i bezpieczne. Pytania powiązane ze scenariuszem: ADR-B-0108, ADR-B-0184 i ADR-B-0223; ADR-B-0493 pozostaje dodatkowym pytaniem K06. Podstawa: ADR 2025, 5.4.3.4. Scenariusz jest symulacją na planszy lub ćwiczeniem z gaśnicą szkoleniową pod nadzorem; nie obejmuje prawdziwego ognia ani towarów niebezpiecznych. Kurs ma teraz **41 scenariuszy**: B-03 i B-05 mają po 4, pozostałe działy co najmniej 3.
+
+
 **Status: materiał szkoleniowy do odbioru instruktorskiego, nie zaliczenie szkolenia.** Program odwołuje się do ćwiczeń praktycznych wymaganych w załączniku nr 1 do rozporządzenia o kursach ADR (Dz.U. 2021 poz. 2150) i do instrukcji pisemnych ADR 2025, 5.4.3.4. Szczegóły należy zatwierdzić z osobą uprawnioną do prowadzenia zajęć.
 
 **Ćwiczenie łączące cztery działy:** [karta kontroli przed wyjazdem](KARTA-KONTROLI-PRZED-WYJAZDEM.md) — B-01, B-06, B-08 i B-13, krok po kroku na fikcyjnej dokumentacji.
 
-**Rozróżnienie materiałów:** krótkie przykłady sytuacyjne w plikach lekcji są pomocniczymi przykładami do omówienia; trzy pełne scenariusze każdego działu znajdują się w `scenariusze-13-dzialow.json` i mają własne kroki, typowe błędy, podstawę ADR, kryteria oceny oraz `question_ids`.
+**Rozróżnienie materiałów:** krótkie przykłady sytuacyjne w plikach lekcji są pomocniczymi przykładami do omówienia; co najmniej trzy pełne scenariusze każdego działu znajdują się w `scenariusze-13-dzialow.json` i mają własne kroki, typowe błędy, podstawę ADR, kryteria oceny oraz `question_ids`.
 
 **Instruktor:** do każdego scenariusza korzystaj z [karty oceny i omówienia](KARTA-OCENY-SCENARIUSZY.md) — zawiera kolejność przeprowadzenia ćwiczenia, typowe błędy i sposób przekazania informacji zwrotnej, bez udawania formalnego zaliczenia zajęć.
 

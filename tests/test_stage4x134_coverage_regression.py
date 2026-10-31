@@ -42,11 +42,11 @@ class CurrentCoverageGate(unittest.TestCase):
     def test_three_scenarios_per_module(self):
         data = json.loads((BASIC / "praktyka" / "scenariusze-13-dzialow.json").read_text(encoding="utf-8"))
         scenarios = data["scenarios"]
-        self.assertEqual(len(scenarios), 40)
+        self.assertEqual(len(scenarios), 41)
         self.assertEqual(
             {module: sum(s["module_id"] == module for s in scenarios)
              for module in (f"ADR-B-{n:02}" for n in range(1, 14))},
-            {**{f"ADR-B-{n:02}": 3 for n in range(1, 14)}, "ADR-B-03": 4}
+            {**{f"ADR-B-{n:02}": 3 for n in range(1, 14)}, "ADR-B-03": 4, "ADR-B-05": 4}
         )
 
 if __name__ == "__main__":

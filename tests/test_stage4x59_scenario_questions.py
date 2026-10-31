@@ -9,7 +9,7 @@ class ScenarioLearnerQuestionsTest(unittest.TestCase):
         data = json.loads((ROOT / "podstawowy/praktyka/scenariusze-13-dzialow.json").read_text(encoding="utf-8"))
         questions = [json.loads(x) for x in (ROOT / "podstawowy/questions.jsonl").read_text(encoding="utf-8").splitlines() if x.strip()]
         by_id = {q["id"]: q for q in questions}
-        self.assertEqual(40, len(data["scenarios"]))
+        self.assertEqual(41, len(data["scenarios"]))
         for s in data["scenarios"]:
             with self.subTest(id=s["id"]):
                 self.assertTrue(s.get("situation", "").strip())
