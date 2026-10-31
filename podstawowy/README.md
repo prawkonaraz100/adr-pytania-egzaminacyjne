@@ -84,7 +84,7 @@
 - [Etap 4x132 — pakiet recenzyjny i instrukcja egzaminu](raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md): odświeżono listę kontrolną specjalisty i dodano instrukcję do egzaminu próbnego.
 - [Etap 4x131 — spójność lekcji, banku, scenariuszy i egzaminu](raporty/etap-4x131-spojnosc-lekcje-bank-scenariusze-2026-10-28.md): przejrzano pytania ADR-B-0586–0609; poprawiono jedną niespójność redakcyjną; 39 scenariuszy i 13 lekcji bez brakujących/błędnych referencji.
 
-**Stan na 31.10.2026, etap 4x227: 652 pytania robocze; 653 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/653 = 11,03% (maksimum działu 13,95%, poniżej 18%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
+**Stan na 31.10.2026, etap 4x228: 653 pytania robocze; 653 `needs_review`, 0 `verified`.** Wskaźnik „poprawna = jedyna najdłuższa”: 72/653 = 11,03% (maksimum działu 13,95%, poniżej 18%). Materiał jest autorskim narzędziem szkoleniowym, nie oficjalnym katalogiem egzaminacyjnym. Nie publikować ani nie traktować pytań jako zatwierdzonych bez niezależnej kontroli specjalisty ADR.
 
 ## Słowniczek
 
