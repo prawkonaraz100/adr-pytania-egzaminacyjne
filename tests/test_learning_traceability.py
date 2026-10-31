@@ -47,7 +47,7 @@ class LearningTraceabilityTests(unittest.TestCase):
                         )
 
     def test_scenario_question_ids_exist_and_match_scenario_module(self):
-        self.assertEqual(len(self.scenarios), 40)
+        self.assertEqual(len(self.scenarios), 41
         self.assertEqual(set(self.scenarios_by_module), {f"ADR-B-{n:02d}" for n in range(1, 14)})
         for module, scenarios in self.scenarios_by_module.items():
             self.assertGreaterEqual(len(scenarios), 3, f"{module}: expected at least 3 scenarios")
