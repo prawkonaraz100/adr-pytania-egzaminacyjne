@@ -1,10 +1,13 @@
+**Stan aktualny po etapie 4x240: 31.10.2026.**
+
 ## Uzupełnienie audytu 4x240 — 31.10.2026
 
 - Dodano ADR-B-0665 do ADR-B-02-K05: rozróżnienie materiałów piroforycznych (zapłon małej ilości po kontakcie z powietrzem w ciągu pięciu minut) i samonagrzewających się (zwykle większa ilość, dłuższy czas).
 - Explanation: 453 znaki, 4 zdania; A/B/C 167/166/144 znaków. Poprawna B nie jest najdłuższa.
 - Podstawa: ADR 2025, 2.2.42.1.1; 2.2.42.1.3; 2.2.42.1.8(a). UNECE ADR 2025 sprawdzony; literalne porównanie polskiego tekstu Dz.U. i niezależna recenzja pozostają otwarte.
 - Bank: 665 pytań `needs_review`, 0 `verified`; ID 0001–0665 ciągłe i unikalne. Blob SHA `c7c55c480fa872b1ec9ea008fb1e6d049f7fae96`.
-- Rozkład A/B/C: 228/224/213. „Poprawna = jedyna najdłuższa”: 72/665 = 10,83%; maksimum działu 13,95%.
+- Rozkład prawidłowych opcji: A=228, B=224, C=213.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/665 = 10,83%**; maksimum działu to 13,95%.
 - Raport: [4x240 — klasa 4.2: piroforyczne i samonagrzewające się](../podstawowy/raporty/etap-4x240-klasa-42-piroforyczne-samonagrzewajace-2026-10-31.md).
 
 ## Uzupełnienie audytu 4x239 — 31.10.2026
