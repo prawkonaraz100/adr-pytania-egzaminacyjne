@@ -366,3 +366,8 @@ Przykład szkoleniowy: w fikcyjnym wpisie tabeli A kolumna 3a wskazuje klasę 3,
 ### Klasa 2.1 — gazy palne
 
 Czerwona nalepka z płomieniem i numerem 2.1 oznacza gaz palny. W razie uwolnienia gaz może utworzyć z powietrzem mieszaninę, którą może zapalić iskra lub płomień. Nie należy mylić jej z zieloną nalepką 2.2 (gaz niepalny i nietrujący) ani białą 2.3 (gaz trujący). Kierowca powinien rozpoznać rodzaj zagrożenia i uwzględnić ryzyko zapłonu podczas załadunku oraz przewozu. Powiązane pytanie: ADR-B-0657. Podstawa: ADR 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2.
+
+
+### Temperatura zapłonu cieczy klasy 3
+
+Temperatura zapłonu to najniższa temperatura cieczy, przy której jej para może utworzyć z powietrzem mieszaninę palną. Nie jest to temperatura wrzenia ani temperatura samozapłonu. W praktyce kierowca powinien rozumieć, że pary cieczy mogą stworzyć zagrożenie po osiągnięciu tej temperatury, a do zapłonu potrzebne jest źródło zapłonu. Dla klasy 3 ADR określa kryteria obejmujące m.in. temperaturę zapłonu nie wyższą niż 60°C, z wyjątkami opisanymi w przepisie. Powiązane pytanie: ADR-B-0658. Podstawa: ADR 1.2.1; 2.2.3.1.1.

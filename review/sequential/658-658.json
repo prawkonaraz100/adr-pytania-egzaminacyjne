@@ -1,0 +1,48 @@
+{
+  "batch": "658-658",
+  "date": "2026-10-31",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0658",
+      "sequence": 658,
+      "exact_record_snapshot": {
+        "stem": "Karta charakterystyki cieczy przewożonej w ADR podaje temperaturę zapłonu 45°C. Co oznacza ta wartość?",
+        "options": {
+          "A": "To najniższa temperatura, przy której para cieczy może utworzyć z powietrzem mieszaninę palną; do zapłonu nadal potrzebne jest źródło zapłonu.",
+          "B": "To temperatura, w której ciecz zaczyna wrzeć i intensywnie parować; nie opisuje zdolności jej par do utworzenia mieszaniny palnej z powietrzem.",
+          "C": "To temperatura samozapłonu, przy której ciecz zapala się bez iskry lub płomienia; opisuje samoczynny zapłon, a nie powstawanie palnych par nad cieczą."
+        },
+        "correct_option": "A",
+        "explanation": "Temperatura zapłonu to najniższa temperatura, przy której para cieczy może utworzyć z powietrzem mieszaninę palną. Do zapłonu nadal potrzebne jest źródło zapłonu; nie jest to temperatura wrzenia ani samozapłonu, dlatego tych pojęć nie wolno mylić. Definicję podaje ADR 1.2.1, a kryteria klasy 3 — ADR 2.2.3.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.2.1; 2.2.3.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR_2025_clause_1.2.1_flash_point_definition_and_2.2.3.1.1_class_3_criteria_checked_against_official_DzU_publication_reference; literal_polish_text_comparison_pending",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Pytanie bada definicję temperatury zapłonu z 1.2.1, nie samodzielną klasyfikację konkretnej cieczy. Klasa 3 w 2.2.3.1.1 obejmuje m.in. ciecze o temperaturze zapłonu nie wyższej niż 60°C, ale zawiera dalsze warunki i wyjątki. Pełna recenzja polskiego tekstu i specjalisty pozostają otwarte.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

@@ -159,3 +159,8 @@ Na fikcyjnym wpisie pokaż kolumnę 3a = 3, kolumnę 4 = II oraz kolumnę 5 = 3 
 ### Zadanie: rozpoznanie gazu palnego 2.1
 
 Pokaż kursantowi czerwoną nalepkę z płomieniem i numerem 2.1. Poproś o wyjaśnienie, dlaczego wyciek może zapalić się od źródła zapłonu, a następnie porównaj znak z zieloną nalepką 2.2 i białą 2.3. Kryterium: kursant odróżnia gaz palny od niepalnego i trującego oraz nie utożsamia wszystkich gazów klasy 2. Powiązane pytanie: ADR-B-0657 (needs_review). Podstawa: ADR 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2.
+
+
+### Zadanie: temperatura zapłonu a wrzenie i samozapłon
+
+Przedstaw kursantowi kartę charakterystyki cieczy z temperaturą zapłonu 45°C. Poproś o wyjaśnienie, co oznacza ta wartość i dlaczego nie wolno utożsamiać jej z temperaturą wrzenia ani samozapłonu. Kryterium: kursant wskazuje możliwość utworzenia palnej mieszaniny par z powietrzem i rozumie, że do zapłonu potrzebne jest źródło zapłonu. Powiązane pytanie: ADR-B-0658 (needs_review). Podstawa: ADR 1.2.1; 2.2.3.1.1.

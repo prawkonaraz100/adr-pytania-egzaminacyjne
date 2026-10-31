@@ -1,4 +1,13 @@
-## Bieżąca migawka — etap 4x232 (31.10.2026)
+## Bieżąca migawka — etap 4x233 (31.10.2026)
+
+**Stan na 31.10.2026, etap 4x233**
+
+- Bank: 658 pytań; 658 `needs_review`, 0 `verified`; blob SHA `9b107642362dc3871d4434304dbfaba14ab3d3b6`.
+- Dodano ADR-B-0658 do ADR-B-02-K03: rozumienie temperatury zapłonu cieczy klasy 3. Explanation 311 znaków, 3 zdania; A/B/C 142/143/150 znaków.
+- Rozkład odpowiedzi A/B/C: 226/220/212. „Poprawna = jedyna najdłuższa”: 72/658 = 10,94%; maksimum działu 13,95%.
+- Raport: `raporty/etap-4x233-temperatura-zaplonu-klasa-3-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x232 (31.10.2026)
 
 **Stan na 31.10.2026, etap 4x232**
 
@@ -128,6 +137,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x233 — temperatura zapłonu klasy 3](raporty/etap-4x233-temperatura-zaplonu-klasa-3-2026-10-31.md)
 - [Etap 4x232 — gazy palne klasy 2.1](raporty/etap-4x232-gazy-palne-klasy-21-2026-10-31.md)
 - [Etap 4x231 — wyłączenie dla przewozu pomocniczego przedsiębiorstwa](raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md)
 - [Etap 4x231 — wyłączenie dla przewozu pomocniczego przedsiębiorstwa](raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md)
