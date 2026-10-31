@@ -1,6 +1,6 @@
 ## Migawka bieżąca — 4x252
 
-Bank podstawowy: 677 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `9dbbf511b3b057e3771ee382dda1a768226a916a`. Najnowsza zmiana: SC-ADR-B-04-04, zakaz otwierania przesyłek przez wszystkich członków załogi, ADR 8.3.3. Brak nowych rekordów banku; statusów nie zmieniano.
+Bank podstawowy: 678 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `7c21fccb7d7e17e71fd98be534133582b54d52af`. Najnowsza zmiana: ADR-B-0678 oraz korekty ADR-B-0011, 0048 i 0243. ADR 8.3.3 wskazuje kierowcę i pomocnika kierowcy; nie należy rozszerzać go na wszystkich członków załogi. SC-ADR-B-04-04 doprecyzowano. Literalne porównanie polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
 
 ## Poprzednia migawka — 4x251
 
