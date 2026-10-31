@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x231 (31.10.2026)
+
+- Bank: 656 pytań `needs_review`, 0 `verified`; blob SHA `30f70e8ba6e01b498ce7756e29d406598ff62b34`.
+- Dodano ADR-B-0656 do ADR-B-01-K04: praktyczne wyłączenie dla przewozu pomocniczego przedsiębiorstwa (ADR 1.1.3.1(c), 1.1.3.6). Explanation 410 znaków, 4 zdania; poprawna A (133 znaki) nie jest najdłuższa (B=153, C=137).
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 72/656 = 10,98%; maksimum działu 13,95%.
+- Raport: `podstawowy/raporty/etap-4x231-wylaczenie-przewozu-pomocniczego-2026-10-31.md`.
+- Warianty/klucze 001–005, snapshoty sequential/legal, ledger źródeł, kolejki i manifesty zsynchronizowane. Formalna recenzja prawna pozostaje pending.
+
 ## Bieżąca migawka — etap 4x230 (31.10.2026)
 
 - Bank: 655 pytań `needs_review`, 0 `verified`; blob SHA `ca07d9e94b63ba6b9f832838e645500bd2964939`.
