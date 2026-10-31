@@ -2,19 +2,19 @@
   "stage": "4x252_no_opening_packages_scenario",
   "snapshot_date": "2026-10-31",
   "scope": "ADR-BASIC-ONLY",
-  "question_count": 678,
-  "last_id": "ADR-B-0678",
+  "question_count": 679,
+  "last_id": "ADR-B-0679",
   "status_counts": {
-    "needs_review": 678,
+    "needs_review": 679,
     "verified": 0
   },
   "formal_approvals": 0,
   "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0628.md",
   "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
-  "unresolved_literal_comparisons": 439,
+  "unresolved_literal_comparisons": 440,
   "modules": {
     "ADR-B-01": {
-      "questions": 49,
+      "questions": 50,
       "theory_competencies": 7
     },
     "ADR-B-02": {
@@ -313,7 +313,7 @@
     "original_not_retrieved_records": 387,
     "specialist_reviews_pending": 678
   },
-  "current_bank_blob_sha": "7c21fccb7d7e17e71fd98be534133582b54d52af",
+  "current_bank_blob_sha": "5df8cb5200a2c357cdcc04959893969d8ca448a0",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -681,7 +681,7 @@
     "status": "needs_review",
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
-  "latest_report": "podstawowy/raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md",
+  "latest_report": "podstawowy/raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md",
   "latest_sample": "podstawowy/raporty/etap-4x135-wykluczenia-proby.json",
   "latest_sample_seed": 41232026,
   "latest_sample_count": 40,
@@ -709,8 +709,8 @@
     "sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
     "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
   },
-  "latest_editorial_stage": "4x252",
-  "latest_editorial_report": "podstawowy/raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md",
+  "latest_editorial_stage": "4x253",
+  "latest_editorial_report": "podstawowy/raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md",
   "stage4x112": {
     "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
     "sample_size": 40,
@@ -1103,7 +1103,7 @@
     "last_id": "ADR-B-0638",
     "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d"
   },
-  "source_bank_blob_sha": "7c21fccb7d7e17e71fd98be534133582b54d52af",
+  "source_bank_blob_sha": "5df8cb5200a2c357cdcc04959893969d8ca448a0",
   "practical_coverage_followup": {
     "competencies": [
       "ADR-B-05-K13",
@@ -1196,10 +1196,10 @@
     "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d",
     "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d"
   },
-  "bank_blob_sha": "7c21fccb7d7e17e71fd98be534133582b54d52af",
-  "exam_source_bank_head": "7c21fccb7d7e17e71fd98be534133582b54d52af",
-  "sequential_snapshot": "review/sequential/4x252-0011-0678.json",
-  "legal_clause_snapshot": "review/legal-clauses/4x252-0011-0678.json",
+  "bank_blob_sha": "5df8cb5200a2c357cdcc04959893969d8ca448a0",
+  "exam_source_bank_head": "5df8cb5200a2c357cdcc04959893969d8ca448a0",
+  "sequential_snapshot": "review/sequential/679-679.json",
+  "legal_clause_snapshot": "review/legal-clauses/679-679.json",
   "stage4x235": {
     "question_id": "ADR-B-0660",
     "competency": "ADR-B-07-K07",
@@ -1421,5 +1421,30 @@
       "ADR-B-0357",
       "ADR-B-0678"
     ]
+  },
+  "stage4x253": {
+    "question_id": "ADR-B-0679",
+    "competency": "ADR-B-01-K07",
+    "topic": "obowiązki nadawcy i przewoźnika przy klasyfikacji oraz wymaganych danych ADR",
+    "legal_basis": [
+      "ADR 1.4.2.1.1(a)",
+      "ADR 1.4.2.2.1(a)–(b)",
+      "ADR 1.4.2.2.3",
+      "ADR 5.4.1.1.1"
+    ],
+    "explanation_characters": 375,
+    "option_lengths": {
+      "A": 119,
+      "B": 108,
+      "C": 117
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "5df8cb5200a2c357cdcc04959893969d8ca448a0",
+    "sequential_snapshot": "review/sequential/679-679.json",
+    "legal_clause_snapshot": "review/legal-clauses/679-679.json"
   }
 }
