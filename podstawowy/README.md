@@ -7,7 +7,6 @@
 - Bank: 678 pytań ADR-B-0001–0678; 678 `needs_review`, 0 `verified`; SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
 - Scenariusz łączy ADR-B-0048, ADR-B-0357 i ADR-B-0678; moduł B-04 ma 4 scenariusze, cały kurs 42. Bank: 678 pytań, wszystkie `needs_review`, 0 `verified`, SHA `7c21fccb7d7e17e71fd98be534133582b54d52af`.
 - Wskaźnik „poprawna = jedyna najdłuższa”: 72/678 = 10,62%.
-- Wskaźnik „poprawna = jedyna najdłuższa”: 72/678 = 10,62%.
 - Raport: `raporty/etap-4x252-zakaz-otwierania-przesylek-2026-10-31.md`.
 
 ## Poprzednia migawka — etap 4x251 (31.10.2026)
