@@ -1,12 +1,21 @@
-**Stan na 31.10.2026, etap 4x254**
+**Stan na 31.10.2026, etap 4x255**
 
-## Bieżąca migawka — etap 4x254 (31.10.2026)
+## Bieżąca migawka — etap 4x255 (31.10.2026)
 
-- Dodano ADR-B-0680 do ADR-B-03-K02: wymagany prefiks „ODPAD” w dokumencie ADR i odróżnienie go od karty przekazania odpadu (ADR 5.4.1.1.3.1, 5.4.1.1.1, 1.4.2.2.3).
-- Explanation 406 znaków, 4 zdania; A/B/C 93/111/99, poprawna A nie jest najdłuższa.
-- Bank: 680 pytań ADR-B-0001–0680; 680 `needs_review`, 0 `verified`; SHA `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`.
-- A/B/C: 233/231/216; poprawna = jedyna najdłuższa: 72/680 = 10,59%.
-- Raport: `raporty/etap-4x254-odpad-dokument-przewozowy-2026-10-31.md`.
+- Dodano ADR-B-0681 do ADR-B-03-K04: dodatkowe wyposażenie przy towarze z nalepką 8 — łopata, osłona kanalizacyjna i pojemnik (ADR 8.1.5.2).
+- Explanation 325 znaków, 4 zdania; A/B/C 65/66/72, poprawna A nie jest najdłuższa.
+- Bank: 681 pytań ADR-B-0001–0681; wszystkie needs_review, 0 verified; SHA `12a8dd403a927c9995348124e4a3e67e4a63ac00`.
+- ADR-B-0681 do ADR-B-03-K04: dla towaru z nalepką 8 wymagane dodatkowe wyposażenie — łopata, osłona kanalizacyjna i pojemnik (ADR 8.1.5.2).
+- Explanation 325 znaków, 4 zdania; A/B/C 65/66/72, klucz A nie jest najdłuższy.
+- A/B/C: 234/231/216; poprawna = jedyna najdłuższa: 72/681 = 10,57%.
+- Snapshoty: `sequential/681-681.json`, `legal-clauses/681-681.json`; rejestr: `REJESTR-0681-0681.md`.
+- Raport: `podstawowy/raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x254 (31.10.2026)
+
+- Dodano ADR-B-0680 do ADR-B-03-K02: prefiks ODPAD w dokumencie ADR (ADR 5.4.1.1.3.1).
+- Bank: 680 pytań, wszystkie needs_review, 0 verified; SHA `56f7aecb9962752407e5381e30f2d68f2fb3f0d8`.
+
 
 ## Poprzednia migawka — etap 4x253 (31.10.2026)
 
