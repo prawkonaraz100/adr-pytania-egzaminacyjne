@@ -1,4 +1,12 @@
-## Bieżąca migawka — etap 4x252 (31.10.2026)
+## Bieżąca migawka — etap 4x253 (31.10.2026)
+
+- ADR-B-0679 do ADR-B-01-K07: nadawca klasyfikuje i dostarcza wymagane dane; przewoźnik sprawdza dopuszczenie i kompletność informacji oraz nie rozpoczyna przewozu przy stwierdzonych brakach.
+- Explanation 375 znaków, A/B/C 119/108/117, klucz B; status `needs_review`.
+- Bank: 679 `needs_review`, 0 `verified`; SHA `5df8cb5200a2c357cdcc04959893969d8ca448a0`; A/B/C 232/231/216; wskaźnik jedynej najdłuższej 72/679 = 10,60%.
+- Snapshoty: `sequential/679-679.json`, `legal-clauses/679-679.json`; rejestr specjalisty: `REJESTR-0679-0679.md`.
+- Raport: `podstawowy/raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md`.
+
+## Poprzednia migawka — etap 4x252 (31.10.2026)
 
 - ADR-B-0678: zakaz obejmuje kierowcę i pomocnika kierowcy; kierowca nie może zlecić otwarcia pomocnikowi. Poprawiono zakres prawny w ADR-B-0011, 0048 i 0243.
 - SC-ADR-B-04-04 doprecyzowano do roli pomocnika kierowcy; aktualizacja mapy, lekcji i materiału instruktora.
