@@ -264,4 +264,5 @@ Czytaj temat jak sytuację z pracy: najpierw rozpoznaj zagrożenie, potem wybier
 Wybierz scenariusz dla działu ADR-B-07 w [mapie ćwiczeń](../praktyka/scenariusze-13-dzialow.json). Opisz kolejno: jakie masz dane, co zrobisz jako pierwsze, czego nie zrobisz nawet pod presją czasu i skąd wiesz, że możesz bezpiecznie kontynuować. Przy awarii najpierw liczy się bezpieczeństwo ludzi.
 
 **Status:** `needs_review`; weryfikacja pełnego polskiego ADR 2025 i niezależna ocena specjalisty pozostają otwarte.
- 
+
+**Pytanie do samodzielnego sprawdzenia:** `ADR-B-0660`; podstawa programu: ADR 8.2.2.3.2(k); Kodeks cywilny art. 471 i 474. Rozróżnij odpowiedzialność przewoźnika jako strony umowy od automatycznego przypisywania całej odpowiedzialności kierowcy.
