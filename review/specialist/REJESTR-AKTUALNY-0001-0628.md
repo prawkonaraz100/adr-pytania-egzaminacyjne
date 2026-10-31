@@ -1,6 +1,6 @@
-## Bieżąca migawka — etap 4x238 (31.10.2026)
+## Bieżąca migawka — etap 4x239 (31.10.2026)
 
-- Bank: 663 pytań `needs_review`, 0 `verified`; blob SHA `a626f744ed85432679ad0790a465eae854de9704`.
+- Bank: 664 pytań `needs_review`, 0 `verified`; blob SHA `a81581438b449107fb42dcb10450acc5a69278e4`.
 - Raport: `podstawowy/raporty/etap-4x238-przenosne-urzadzenia-oswietleniowe-2026-10-31.md`.
 - ADR-B-0661 dodano do ADR-B-02-K04; próg kontroli temperatury dla polimeryzującego materiału w DPPL.
 
