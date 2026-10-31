@@ -1,4 +1,8 @@
-**Stan aktualny po etapie 4x251: 31.10.2026.**
+**Stan aktualny po etapie 4x252: 31.10.2026.**
+
+- Bank: 678 pytań ADR-B-0001–0678; wszystkie `needs_review`, 0 `verified`.
+- ADR-B-04-K02: 5 pytań; poprawiono dokładny zakres ADR 8.3.3 (kierowca i pomocnik kierowcy), dodano ADR-B-0678 i doprecyzowano SC-ADR-B-04-04.
+- Scenariusze: 42 łącznie; B-03, B-04 i B-05 mają po 4.
 
 - Scenariusze praktyczne: 41 łącznie; ADR-B-05-K06 ma teraz osobny scenariusz `SC-ADR-B-05-04` dla małego pożaru opon, hamulców lub silnika. W module B-05 są 4 scenariusze; każdy z 13 działów ma co najmniej 3.
 - Bank pytań bez zmian: 677 rekordów, wszystkie `needs_review`, 0 `verified`.
