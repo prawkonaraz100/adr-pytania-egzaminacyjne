@@ -7,7 +7,7 @@ Nowe pytanie: `ADR-B-0678`; poprawione pytania: `ADR-B-0011`, `ADR-B-0048`, `ADR
 
 ## Najważniejsze ustalenie audytu prawnego
 
-Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmujący „wszystkich członków załogi”. Przepis 8.3.3 wskazuje kierowcę i pomocnika kierowcy (w oficjalnym tekście angielskim: „A driver or a driver's assistant may not open a package containing dangerous goods”). Nie należy bez podstawy rozszerzać konkretnego przepisu na każdą osobę znajdującą się w pojeździe. Podstawą polską jest Umowa ADR 2025 ogłoszona w Dz.U. 2025 poz. 642; oficjalny polski tom II ADR 2025 udostępnia Ministerstwo Infrastruktury. Literalne porównanie właściwego ustępu z polskim PDF i niezależna recenzja specjalisty pozostają do wykonania.
+Dotychczasowe materiały zbyt szeroko parafrazowały ADR 8.3.3 jako zakaz obejmujący „wszystkich członków załogi”. Przepis 8.3.3 wskazuje kierowcę i pomocnika kierowcy (w oficjalnym tekście angielskim: „A driver or a driver's assistant may not open a package containing dangerous goods”). Nie należy bez podstawy rozszerzać konkretnego przepisu na każdą osobę znajdującą się w pojeździe. Podstawą polską jest Umowa ADR 2025 ogłoszona w Dz.U. 2025 poz. 642; oficjalny polski tom II ADR 2025 udostępnia Ministerstwo Infrastruktury. Dokładny ustęp polskiego PDF nie został jeszcze literalnie porównany, a niezależna recenzja specjalisty pozostaje do wykonania. Po dodaniu ADR-B-0678 liczba rekordów bez literalnego porównania polskiego tekstu wynosi 442.
 
 ## Zmiany banku
 
