@@ -16,7 +16,7 @@ Scenariusz: w opakowaniu z wiertarką znajduje się zapasowa bateria litowo-jono
 |---|---:|---|
 | A | 136 | Błędna — UN 3480 dotyczy baterii litowo-jonowej przewożonej bez urządzenia; bateria zapakowana z urządzeniem, które zasila, nie jest w tej sytuacji przewożona samodzielnie. |
 | B | 134 | **Poprawna** — UN 3481 obejmuje baterię litowo-jonową zawartą w urządzeniu lub zapakowaną z urządzeniem, które zasila. |
-| C | 145 | Błędna — UN 3091 dotyczy baterii z litem metalicznym z urządzeniem, a nie baterii litowo-jonowej. |
+| C | 109 | Błędna — UN 3091 dotyczy baterii z litem metalicznym z urządzeniem, a nie baterii litowo-jonowej. |
 
 Explanation: 423 znaki, 4 zdania. Najpierw wyjaśnia wybór UN 3481, potem rozróżnia UN 3480 i UN 3091, wskazuje praktyczną kontrolę dokumentów i kończy podstawą ADR. Poprawna B nie jest najdłuższą odpowiedzią.
 
@@ -26,7 +26,7 @@ Explanation: 423 znaki, 4 zdania. Najpierw wyjaśnia wybór UN 3481, potem rozr�
 - Dział 3.2, tabela A — odrębne pozycje UN 3480 (baterie litowo-jonowe przewożone samodzielnie) i UN 3481 (baterie litowo-jonowe zawarte w urządzeniu lub zapakowane z urządzeniem); UN 3090/3091 odnoszą się do litu metalicznego.
 - ADR 5.2.1.9.2 — oznakowanie baterii litowych i wskazanie właściwego numeru UN, w tym dla baterii zawartych w urządzeniu lub zapakowanych z nim.
 
-Odniesienie do źródła prawa: Dz.U. 2025 poz. 642. Oficjalny tekst ADR 2025 został ogłoszony w tym Dzienniku Ustaw. W pytaniu przyjęto, że bateria jest litowo-jonowa i jest zapakowana razem z urządzeniem, które zasila; nie rozstrzyga ono, czy spełnione są wszystkie warunki wyłączenia SP 188, kompletności opakowania lub pozostałe wymagania przewozowe. Te kwestie wymagają odrębnego sprawdzenia właściwego wpisu, przepisu szczególnego i instrukcji pakowania.
+Odniesienie do źródła prawa: Dz.U. 2025 poz. 642. Sprawdzono odpowiednie brzmienie w polskim ADR 2025 udostępnionym przez Ministerstwo Infrastruktury: 2.2.9.1.7.1 oraz 5.2.1.9.2. Ministerstwo wyraźnie zastrzega, że udostępnione pliki mają charakter pomocniczy, a źródłem prawa jest ADR ogłoszony w Dzienniku Ustaw. Dlatego literalne porównanie wszystkich zdań i opcji z wiążącym tekstem Dz.U. pozostaje otwarte. W pytaniu przyjęto, że bateria jest litowo-jonowa i jest zapakowana razem z urządzeniem, które zasila; nie rozstrzyga ono, czy spełnione są wszystkie warunki wyłączenia SP 188, kompletności opakowania lub pozostałe wymagania przewozowe. Te kwestie wymagają odrębnego sprawdzenia właściwego wpisu, przepisu szczególnego i instrukcji pakowania.
 
 Literalne porównanie każdego zdania i opcji z właściwymi stronami wiążącego tekstu Dz.U. oraz niezależna recenzja specjalisty pozostają otwarte. Pytanie ma status `needs_review`; nie oznaczono go jako `verified`.
 
@@ -34,7 +34,7 @@ Literalne porównanie każdego zdania i opcji z właściwymi stronami wiążące
 
 - Liczba pytań: 673; ID ADR-B-0001–ADR-B-0673 ciągłe i unikalne.
 - Status: 673 `needs_review`, 0 `verified`.
-- Blob SHA `questions.jsonl`: `57dba9d1d46343edb0c9c0d09a5ca739043d1df6`.
+- Blob SHA `questions.jsonl`: `0ff923d6a491bf134d36a9efe9a4f9bea82eb431`.
 - Rozkład poprawnych opcji: A=231, B=229, C=213.
 - „Poprawna odpowiedź jest jedyną najdłuższą”: 72/673 = 10,70%; maksimum działu 13,95%.
 - Kompetencja ADR-B-02-K13 została uzupełniona o ADR-B-0673; dział ADR-B-02 ma 76 pytań.
