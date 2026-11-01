@@ -1,0 +1,58 @@
+{
+  "batch": "696-696",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0696",
+      "sequence": 696,
+      "exact_record_snapshot": {
+        "stem": "Po awarii kierowca jest już w bezpiecznym miejscu. Dokument przewozowy pozostał w kabinie, do której zbliża się dym. Co powinien zrobić, gdy przyjeżdżają ratownicy?",
+        "options": {
+          "A": "Wrócić do kabiny przez dym i przynieść dokument, nawet jeśli może to narazić go na niebezpieczeństwo.",
+          "B": "Nie przekazywać ratownikom żadnych danych, ponieważ dokumentu nie można teraz bezpiecznie odzyskać.",
+          "C": "Zostać w bezpiecznym miejscu, podać znane dane i wskazać położenie dokumentu."
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje wymagają, aby dokumenty przewozowe były łatwo dostępne dla służb ratowniczych, ale nie oznacza to, że kierowca ma po nie wracać do strefy zagrożenia. Pozostań w bezpiecznym miejscu, przekaż ratownikom znane informacje i wskaż położenie dokumentu. Ryzykowne wejście w dym może stworzyć kolejnego poszkodowanego, a całkowite milczenie pozbawia służby dostępnych danych. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — zapewnić łatwy dostęp do dokumentów przewozowych dla służb ratowniczych; działania wykonywać tylko, jeśli są możliwe i bezpieczne",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "ADR 2025, tom II, s. 270, 5.4.3.4 — make sure that documents accompanying the consignment are readily available to the emergency services on arrival; all actions only if possible and safe",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, 5.4.3.4 — written instructions: make consignment documents readily available to emergency services; actions are subject to possible and safe conditions",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish ADR 2025 Volume II, 5.4.3.4, p. 270 (PDF p. 281), directly checked: ensure consignment documents are readily available to emergency services on arrival; actions must be possible and safe. The scenario tests this condition when the cab is in a smoke-affected danger area. Full comparison of every question element and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The official Polish ADR 2025 written-instruction model requires consignment documents to be readily available to emergency services on arrival and makes the listed actions conditional on being possible and safe. The question does not require the driver to re-enter a smoke-affected danger area.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "source_risk_note": "Targeted clauses directly checked in the official Polish Ministry ADR 2025 Volume II PDF, p. 270; the scenario's safety application and all answer nuances require full literal comparison and independent specialist review."
+    }
+  ]
+}
