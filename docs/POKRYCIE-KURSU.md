@@ -6,7 +6,7 @@
 - ADR-B-0700 do ADR-B-09-K06: mocowanie elastycznego kontenera bez nadmiernego naprężenia pasów; ADR 2025, 7.5.7.6.2.
 - Explanation 303 znaki; A/B/C 105/114/109; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=237, B=244, C=219.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **73/700 = 10,43%**; maksimum działu to 13,95%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **74/700 = 10,57%**; maksimum działu to 13,95%.
 - ADR-B-09-K06 ma 5 pytań; moduł ADR-B-09 ma 54 pytania.
 - Raport: `podstawowy/raporty/etap-4x274-elastyczny-kontener-pasy-2026-11-01.md`.
 
