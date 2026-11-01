@@ -977,3 +977,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0702 | ADR-B-05 | ADR-B-05-K06 | Granica użycia gaśnicy, gdy mały pożar opony obejmuje przestrzeń ładunkową | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0703 | ADR-B-09 | ADR-B-09-K02 | Ponowne mocowanie pozostałych skrzyń po częściowym rozładunku | A | ADR 2025, 7.5.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0704 | ADR-B-05 | ADR-B-05-K12 | Łatwy dostęp do gaśnicy bez szukania klucza | B | ADR 2025, 8.1.4.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
