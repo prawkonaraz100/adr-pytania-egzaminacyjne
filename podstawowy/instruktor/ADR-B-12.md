@@ -132,3 +132,14 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 - `SC-ADR-B-12-03` — niepewne uprawnienie odbiorcy.
 
 Pytania kontrolne: `ADR-B-0034`, `ADR-B-0035`, `ADR-B-0036`, `ADR-B-0249`, `ADR-B-0274`, `ADR-B-0304`, `ADR-B-0399`, `ADR-B-0455`, `ADR-B-0519`, `ADR-B-0582`. Typowe pomyłki: utożsamienie ochrony przewozu z mocowaniem, wydanie ładunku na podstawie samego numeru zlecenia i ujawnianie szczegółów ochrony osobom, które ich nie potrzebują.
+
+
+## Ćwiczenie — ocena placu czasowego składowania (ADR-B-0701)
+
+**Sytuacja:** Kierowca ma pozostawić jednostkę transportową na placu terminalu do czasowego składowania. Plac jest ciemny, a brama od strony ulicy pozostaje otwarta.
+
+**Oczekiwana odpowiedź:** Kursant rozpoznaje, że obszar powinien być właściwie zabezpieczony i dobrze oświetlony, a gdzie to możliwe i właściwe — niedostępny dla ogółu. Nie przypisuje kierowcy odrębnej roli formalnego audytora placu.
+
+**Typowe błędy:** uznanie, że tablica ostrzegawcza zastępuje zabezpieczenie; pominięcie oświetlenia; pominięcie zastrzeżenia „gdzie to możliwe i właściwe”.
+
+**Podstawa:** ADR 2025, 1.10.1.3.
