@@ -1,6 +1,6 @@
-## Bieżąca migawka — etap 4x272 (01.11.2026)
+## Bieżąca migawka — etap 4x273 (01.11.2026)
 
-- Bank: 698 pytań ADR-B-0001–0698; wszystkie `needs_review`, 0 `verified`; SHA `e81ce0f9d620ab270c41bf0d09903d4aad43dc8e`.
+- Bank: 699 pytań ADR-B-0001–0699; wszystkie `needs_review`, 0 `verified`; SHA `9359365b4381b3b644b70d9b80bd35d171256bd7`.
 - ADR-B-0698 do ADR-B-06-K04: przekazanie ratownikom ostrzeżenia o niebezpiecznej reakcji z wodą przy literze X; ADR 5.3.2.3.1, tom II, s. 251.
 - 698 wpisów w indeksie; formalne zatwierdzenia: 0.
 - Raport: `podstawowy/raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md`.
@@ -974,3 +974,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0697 | ADR-B-05 | ADR-B-05-K09 | Ostrzeżenie osób postronnych z bezpiecznego miejsca bez przechodzenia przez rozlew | B | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0698 | ADR-B-06 | ADR-B-06-K04 | Ostrzeżenie o niebezpiecznej reakcji z wodą oznaczonej literą X | B | ADR 2025, 5.3.2.3.1, s. 251 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0699 | ADR-B-08 | ADR-B-08-K04 | Dobór klina pod koło do DMC pojazdu i średnicy koła | B | ADR 2025, 8.1.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |

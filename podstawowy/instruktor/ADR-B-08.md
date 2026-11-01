@@ -145,3 +145,14 @@ Przygotuj dwie fikcyjne karty pojazdu i świadectwa. W jednym zestawie zgodne s�
 **Sytuacja do omówienia:** dwóch członków załogi, jedna przenośna lampa. Kursant ma wskazać, że ADR 8.1.5.2 wymaga lampy dla każdego członka załogi, czyli w tej sytuacji dwóch sztuk. Właściwości materiału i ryzyko iskrzenia omawia się osobno na podstawie ADR 8.3.4.
 
 **Pytanie kontrolne:** ADR-B-0686. Podstawa: ADR 8.1.5.2. Status pozostaje `needs_review`.
+
+
+## Ćwiczenie — dobór klina do pojazdu (ADR-B-0699)
+
+**Sytuacja:** Kierowca sprawdza klin przed wyjazdem zestawu ADR. Klin pasuje pod koło, ale jest przeznaczony do znacznie lżejszego pojazdu.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że klin trzeba wymienić na rozmiar odpowiedni do dopuszczalnej masy całkowitej i średnicy kół konkretnego pojazdu. Samo fizyczne dopasowanie pod oponę nie wystarcza.
+
+**Typowe błędy:** uznanie, że każdy klin jest uniwersalny; stosowanie dwóch małych klinów zamiast właściwego; pominięcie odrębnego klina dla każdego pojazdu.
+
+**Podstawa:** ADR 2025, 8.1.5.2. Ćwiczenie omawia się na sucho.
