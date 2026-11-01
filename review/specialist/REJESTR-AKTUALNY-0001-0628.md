@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x274 (01.11.2026)
 
-- Bank: 700 pytań ADR-B-0001–0700; wszystkie `needs_review`, 0 `verified`; SHA `35284ef525c41ebc5ee08fa0423ebf22e262db8c`.
+- Bank: 701 pytań ADR-B-0001–0701; wszystkie `needs_review`, 0 `verified`; SHA `64544daffd52784e1a9a85c8c14cd22d2e293950`.
 - ADR-B-0698 do ADR-B-06-K04: przekazanie ratownikom ostrzeżenia o niebezpiecznej reakcji z wodą przy literze X; ADR 5.3.2.3.1, tom II, s. 251.
 - 698 wpisów w indeksie; formalne zatwierdzenia: 0.
 - Raport: `podstawowy/raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md`.
@@ -978,3 +978,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0699 | ADR-B-08 | ADR-B-08-K04 | Dobór klina pod koło do DMC pojazdu i średnicy koła | B | ADR 2025, 8.1.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0700 | ADR-B-09 | ADR-B-09-K06 | Mocowanie elastycznego kontenera bez nadmiernego naprężenia pasów | B | ADR 2025, 7.5.7.6.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0701 | ADR-B-12 | ADR-B-12-K02 | Ocena zabezpieczenia, oświetlenia i dostępu do placu czasowego składowania | B | ADR 2025, 1.10.1.3 | — | NIEROZSTRZYGNIĘTE | needs_review |

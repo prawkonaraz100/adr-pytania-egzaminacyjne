@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x275 (01.11.2026)
+
+- Bank: 701 pytań ADR-B-0001–0701; wszystkie `needs_review`, 0 `verified`; SHA `64544daffd52784e1a9a85c8c14cd22d2e293950`.
+- ADR-B-0701 do ADR-B-12-K02: ocena placu czasowego składowania — zabezpieczenie, oświetlenie i ograniczenie dostępu publicznego, gdy możliwe i właściwe; ADR 2025, 1.10.1.3.
+- Explanation 344 znaki; A/B/C 110/110/107.
+- Rozkład A/B/C: 237/245/219; poprawna = jedyna najdłuższa: 74/701 = 10,56%.
+- Snapshoty: sequential/legal 701-701; raport: `podstawowy/raporty/etap-4x275-plac-czasowego-skladowania-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x274 (01.11.2026)
 
 - Bank: 700 pytań ADR-B-0001–0700; wszystkie `needs_review`, 0 `verified`; SHA `35284ef525c41ebc5ee08fa0423ebf22e262db8c`.

@@ -1,9 +1,17 @@
+**Stan na 01.11.2026, etap 4x275**
+
+- Bank: 701 pytań ADR-B-0001–0701; 701 `needs_review`, 0 `verified`; SHA `64544daffd52784e1a9a85c8c14cd22d2e293950`.
+- ADR-B-0701: ocena zabezpieczenia, oświetlenia i dostępu do placu czasowego składowania; ADR 2025, 1.10.1.3.
+- Explanation 344 znaki; A/B/C 110/110/107.
+- Rozkład A/B/C: 237/245/219; „poprawna = jedyna najdłuższa”: 74/701 = 10,56%.
+- Raport: [Etap 4x275 — plac czasowego składowania](raporty/etap-4x275-plac-czasowego-skladowania-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x274**
 
-- Bank: 700 pytań ADR-B-0001–0700; 700 `needs_review`, 0 `verified`; SHA `35284ef525c41ebc5ee08fa0423ebf22e262db8c`.
+- Bank: 700 pytań ADR-B-0001–0700; 701 `needs_review`, 0 `verified`; SHA `35284ef525c41ebc5ee08fa0423ebf22e262db8c`.
 - ADR-B-0700: mocowanie elastycznego kontenera bez deformowania go pasami; ADR 2025, 7.5.7.6.2.
 - Explanation 303 znaki; A/B/C 105/114/109.
-- Rozkład odpowiedzi A/B/C: 237/244/219; „poprawna = jedyna najdłuższa”: 74/700 = 10,57%.
+- Rozkład odpowiedzi A/B/C: 237/244/219; „poprawna = jedyna najdłuższa”: 74/701 = 10,56%.
 - Raport: [Etap 4x274 — elastyczny kontener i pasy](raporty/etap-4x274-elastyczny-kontener-pasy-2026-11-01.md).
 
 **Stan na 01.11.2026, etap 4x273**
@@ -442,6 +450,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x275 — plac czasowego składowania](raporty/etap-4x275-plac-czasowego-skladowania-2026-11-01.md)
 - [Etap 4x274 — elastyczny kontener i pasy](raporty/etap-4x274-elastyczny-kontener-pasy-2026-11-01.md)
 - [Etap 4x273 — dobór klina pod koło](raporty/etap-4x273-dobor-klina-pod-kolo-2026-11-01.md)
 - [Etap 4x272 — litera X i reakcja z wodą](raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md)
