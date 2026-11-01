@@ -310,3 +310,8 @@ Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi poró
 ### Elastyczne kontenery do przewozu luzem — mocowanie bez deformacji (ADR-B-0700)
 
 Elastyczny kontener trzeba unieruchomić tak, aby nie przesuwał się podczas jazdy i nie uległ uszkodzeniu. Pasy i wiązania nie mogą być zapięte zbyt mocno, ponieważ mogą zdeformować kontener. Wolne przestrzenie można wypełnić albo zastosować odpowiednie blokowanie i mocowanie. Podstawa: ADR 2025, 7.5.7.6.2.
+
+
+### Ponowne mocowanie po częściowym rozładunku (ADR-B-0703)
+
+Po rozładunku części przesyłek układ pozostałego ładunku może się zmienić. Przed dalszą jazdą trzeba ponownie sprawdzić i zabezpieczyć skrzynie tak, aby nie przesuwały się podczas przewozu. Podstawa: ADR 2025, 7.5.7.1.
