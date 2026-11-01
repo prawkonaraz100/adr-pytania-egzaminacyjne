@@ -1,3 +1,10 @@
+**Stan na 01.11.2026, etap 4x272**
+
+- Bank: 698 pytań ADR-B-0001–0698; 698 `needs_review`, 0 `verified`; SHA `e81ce0f9d620ab270c41bf0d09903d4aad43dc8e`.
+- Najnowsze pytanie: ADR-B-0698 (ADR-B-06-K04), praktyczne przekazanie ratownikom ostrzeżenia o reakcji z wodą oznaczonej literą X; ADR 5.3.2.3.1.
+- A/B/C: 237/242/219; poprawna = jedyna najdłuższa: 73/698 = 10,46%.
+- Raport: [Etap 4x272 — litera X i reakcja z wodą](raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x271**
 
 - Bank: 697 pytań ADR-B-0001–0697; 697 `needs_review`, 0 `verified`; SHA `1821851aee9c83c4b4e3197aa3e59594b93bb513`.
