@@ -35,7 +35,7 @@ Właściwy fragment punktu został sprawdzony w oficjalnym polskim tekście ADR 
 - Kompetencja `ADR-B-05-K05` otrzymała piąte pytanie.
 - Klucze i warianty egzaminów próbnych 001–005 wymagają odświeżenia do nowego SHA banku.
 - Snapshoty: `review/sequential/695-695.json`, `review/legal-clauses/695-695.json`; ledger, indeks specjalisty i manifest pakietu dołączone.
-- Rozkład prawidłowych odpowiedzi po dodaniu: A=237/B=239/C=219.
+- Rozkład prawidłowych odpowiedzi po dodaniu: A=237/B=240/C=218.
 - Globalny wskaźnik „poprawna = jedyna najdłuższa”: **72/695 = 10,36%**.
 - Quality Gate i pełne CI pozostają do potwierdzenia na PR. Lokalnego Quality Gate nie uruchamiano.
 
