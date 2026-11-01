@@ -9,9 +9,9 @@
     "verified": 0
   },
   "formal_approvals": 0,
-  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0705.md",
+  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0704.md",
   "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
-  "unresolved_literal_comparisons": 445,
+  "unresolved_literal_comparisons": 680,
   "modules": {
     "ADR-B-01": {
       "questions": 50,
@@ -58,7 +58,7 @@
       "theory_competencies": 7
     },
     "ADR-B-12": {
-      "questions": 44,
+      "questions": 45,
       "theory_competencies": 6
     },
     "ADR-B-13": {
@@ -200,7 +200,7 @@
     "mock_exam_variants": 5,
     "mock_exam_keys": 5,
     "glossary_terms": 90,
-    "questions": 699,
+    "questions": 705,
     "learner_exam_instructions": 1
   },
   "last_literal_comparison_batch": {
@@ -284,11 +284,11 @@
     "note": "Priority list is not exhaustive. Every question remains needs_review until a real specialist approves it; all ADR 2027 sensitivity registers remain relevant."
   },
   "literal_comparison_status_counts": {
-    "official_polish_text_not_retrieved": 445,
-    "targeted_source_checked_full_literal_comparison_pending": 32,
-    "records_with_recorded_targeted_comparison_result": 299,
-    "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 222,
-    "specialist_reviews_pending": 699,
+    "official_polish_text_not_retrieved": 680,
+    "targeted_source_checked_full_literal_comparison_pending": 25,
+    "records_with_recorded_targeted_comparison_result": 8,
+    "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 0,
+    "specialist_reviews_pending": 705,
     "verified": 0
   },
   "stage4x19": {
@@ -1917,25 +1917,23 @@
   "stage4x279": {
     "question_id": "ADR-B-0705",
     "competency": "ADR-B-08-K06",
-    "topic": "własne rękawice ochronne i ochrona oczu dla każdego członka załogi",
     "legal_basis": [
       "ADR 2025, 8.1.5.2"
     ],
-    "explanation_characters": 327,
+    "bank_blob_sha": "c1e4a8bb7c44771246bedf691b528f5f43b07630",
+    "sequential_snapshot": "review/sequential/705-705.json",
+    "legal_clause_snapshot": "review/legal-clauses/705-705.json",
+    "verification_status": "needs_review",
+    "official_polish_clause_checked": true,
+    "full_question_literal_comparison": "pending",
+    "independent_specialist_review": "pending",
     "option_lengths": {
       "A": 107,
       "B": 102,
       "C": 102
     },
-    "correct_option": "B",
-    "verification_status": "needs_review",
-    "official_polish_clause_checked": true,
-    "full_question_literal_comparison": "pending",
-    "independent_specialist_review": "pending",
-    "bank_blob_sha": "c1e4a8bb7c44771246bedf691b528f5f43b07630",
-    "sequential_snapshot": "review/sequential/705-705.json",
-    "legal_clause_snapshot": "review/legal-clauses/705-705.json",
-    "distribution": {
+    "explanation_characters": 327,
+    "answer_distribution": {
       "A": 238,
       "B": 248,
       "C": 219
