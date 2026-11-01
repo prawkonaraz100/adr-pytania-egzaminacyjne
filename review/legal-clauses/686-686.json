@@ -1,0 +1,68 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0686",
+  "date": "2026-11-01",
+  "scope": "ADR 2025 sections 8.1.5.2 and 8.3.4: one portable lighting apparatus for each crew member; apparatus must not exhibit any metal surface liable to produce sparks; exact Dz.U. comparison and independent specialist approval pending",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0686",
+      "order": 686,
+      "clause": "ADR 2025, 8.1.5.2 and 8.3.4",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "question_snapshot": {
+        "id": "ADR-B-0686",
+        "module_id": "ADR-B-08",
+        "stem": "W zestawie ADR kierowca znalazł jedną zwykłą metalową latarkę, której obudowa może iskrzyć. W kabinie jadą dwaj członkowie załogi. Co trzeba zapewnić przed wyjazdem?",
+        "options": {
+          "A": "Każdy członek załogi musi mieć własną przenośną lampę, której powierzchnia nie zawiera metalu mogącego powodować iskrzenie.",
+          "B": "Wystarczy jedna latarka dla całej załogi, nawet z metalową obudową, jeśli jest naładowana, łatwa do przekazania i daje mocne światło.",
+          "C": "Latarka może mieć metalową obudowę, jeśli kierowca używa jej tylko na zewnątrz pojazdu."
+        },
+        "correct_option": "A",
+        "explanation": "ADR wymaga przenośnej lampy dla każdego członka załogi, więc jedna latarka na dwie osoby nie wystarczy. Urządzenie musi też spełniać 8.3.4: nie może mieć powierzchni metalowej, która może powodować iskrzenie. Odpowiedź B pomija osobne wyposażenie i dopuszcza niewłaściwą obudowę, a C błędnie uzależnia wymóg od miejsca użycia. Podstawa: ADR 8.1.5.2 i 8.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2 — przenośna lampa dla każdego członka załogi, zgodna z 8.3.4",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.4 — przenośna lampa nie może mieć powierzchni metalowej mogącej powodować iskrzenie",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, pkt 8.1.5.2 i 8.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "ADR 8.1.5.2 requires a portable lighting apparatus for each member of the vehicle crew; 8.3.4 requires that the apparatus not exhibit any metal surface liable to produce sparks."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "One lamp for the whole crew does not meet the requirement for each crew member, and a metal surface liable to produce sparks conflicts with 8.3.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "The restriction in 8.3.4 concerns the apparatus itself, not merely where it is used. A metal surface liable to produce sparks is not acceptable."
+        }
+      },
+      "notes_on_conditions": "The question tests both the per-crew-member equipment requirement in 8.1.5.2 and the no-sparking-metal-surface condition in 8.3.4. It does not assert that every lamp must be certified as intrinsically safe.",
+      "editorial_result": "targeted_rule_identified_full_literal_question_and_specialist_review_pending",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
