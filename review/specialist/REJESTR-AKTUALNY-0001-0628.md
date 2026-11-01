@@ -1,8 +1,8 @@
-## Bieżąca migawka — etap 4x259 (01.11.2026)
+## Bieżąca migawka — etap 4x260 (01.11.2026)
 
-- Bank: 685 pytań ADR-B-0001–0685; 685 needs_review, 0 verified; SHA `a456d5fdab0c686b1c657be3f213ac873c491ae4`.
-- ADR-B-0685 do ADR-B-06-K07: trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia; ADR 5.3.2.2.1.
-- 685 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x259-tablice-pomaranczowe-trwalosc-2026-11-01.md`.
+- Bank: 686 pytań ADR-B-0001–0686; 686 needs_review, 0 verified; SHA `f5f21db12588f8b0451c27a1a82783982a731133`.
+- ADR-B-0686 do ADR-B-08-K05: przenośna lampa dla każdego członka załogi i brak powierzchni metalowej mogącej powodować iskrzenie; ADR 8.1.5.2 i 8.3.4.
+- 686 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x260-przenosne-lampy-zaloga-2026-11-01.md`.
 
 ## Bieżąca migawka — etap 4x256 (31.10.2026)
 
@@ -874,3 +874,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0685 | ADR-B-06 | ADR-B-06-K07 | Trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia | B | ADR 2025, 5.3.2.2.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
+
+| ADR-B-0686 | ADR-B-08 | ADR-B-08-K05 | Przenośna lampa dla każdego członka załogi i brak powierzchni metalowej mogącej powodować iskrzenie | A | ADR 2025, 8.1.5.2 i 8.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
