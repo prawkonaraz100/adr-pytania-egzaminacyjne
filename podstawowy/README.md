@@ -1,4 +1,4 @@
-**Stan aktualny po etapie 4x283: 01.11.2026.**
+**Stan na 01.11.2026, etap 4x283**
 
 ## Bieżąca migawka — etap 4x283 (01.11.2026)
 
