@@ -18,13 +18,13 @@
 - ADR-B-0705 do ADR-B-08-K06: indywidualne rękawice ochronne i ochrona oczu dla każdego członka załogi; ADR 2025, 8.1.5.2.
 - Explanation 327 znaków; A/B/C 107/102/102; poprawna B nie jest najdłuższa.
 - Rozkład prawidłowych opcji A/B/C: 238/248/219.
-- „Poprawna = jedyna najdłuższa”: 75/706 = 10,62%; maksimum modułu 13,95%.
+- „Poprawna = jedyna najdłuższa”: 75/705 = 10,64%; maksimum modułu 13,95%.
 - ADR-B-08-K06 ma 5 pytań; moduł ADR-B-08 ma 46 pytań.
 - Raport: `podstawowy/raporty/etap-4x279-rekawice-ochrona-oczu-2026-11-01.md`.
 
 **Stan na 01.11.2026, etap 4x278**
 
-- Bank: 704 pytania ADR-B-0001–0704; 706 `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.
+- Bank: 704 pytania ADR-B-0001–0704; 704 `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.
 - ADR-B-0704: łatwy dostęp do gaśnicy ADR bez szukania klucza; ADR 2025, 8.1.4.5.
 - Explanation 367 znaków; A/B/C 97/96/100.
 - Rozkład A/B/C: 238/247/219; „poprawna = jedyna najdłuższa”: 75/705 = 10,64%.
