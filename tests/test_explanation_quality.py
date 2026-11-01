@@ -52,7 +52,7 @@ class ExplanationQualityTests(unittest.TestCase):
             for line in (root / "podstawowy" / "questions.jsonl").read_text(encoding="utf-8").splitlines()
             if line.strip()
         ]
-        self.assertEqual(len(rows), 697)
+        self.assertEqual(len(rows), 698)
         for row in rows:
             with self.subTest(question_id=row["id"]):
                 sentences = split_learner_sentences(row.get("explanation", ""))

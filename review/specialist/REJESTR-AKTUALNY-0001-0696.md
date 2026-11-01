@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x272 (01.11.2026)
+
+- Bank: 698 pytań ADR-B-0001–0698; wszystkie `needs_review`, 0 `verified`; SHA `e81ce0f9d620ab270c41bf0d09903d4aad43dc8e`.
+- ADR-B-0698 do ADR-B-06-K04: przekazanie ratownikom ostrzeżenia o niebezpiecznej reakcji z wodą przy literze X; ADR 5.3.2.3.1, tom II, s. 251.
+- 698 wpisów w indeksie; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x271 (01.11.2026)
 
 - Bank: 697 pytań ADR-B-0001–0697; wszystkie `needs_review`, 0 `verified`; SHA `1821851aee9c83c4b4e3197aa3e59594b93bb513`.
@@ -965,3 +972,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0696 | ADR-B-05 | ADR-B-05-K07 | Dokumenty dla ratowników — nie wracać do zadymionej kabiny | C | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0697 | ADR-B-05 | ADR-B-05-K09 | Ostrzeżenie osób postronnych z bezpiecznego miejsca bez przechodzenia przez rozlew | B | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0698 | ADR-B-06 | ADR-B-06-K04 | Ostrzeżenie o niebezpiecznej reakcji z wodą oznaczonej literą X | B | ADR 2025, 5.3.2.3.1, s. 251 | — | NIEROZSTRZYGNIĘTE | needs_review |
