@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x269 (01.11.2026)
+
+- Bank: 695 pytań ADR-B-0001–0695; wszystkie `needs_review`, 0 `verified`; SHA `c9127a1fe91f03222089a434d5ec51f11f3b4e8a`.
+- ADR-B-0695 do ADR-B-05-K05: warunkowe użycie gaśnicy przy małym/początkowym pożarze komory silnika; ADR 5.4.3.4, tom II, s. 270.
+- 695 wpisów w indeksie; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x269-maly-pozar-komory-silnika-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x268 (01.11.2026)
 
 - Bank: 694 pytania ADR-B-0001–0694; wszystkie `needs_review`, 0 `verified`; SHA `c811e632d28573f978d934f38dbd7c01cf19345f`.
@@ -941,3 +947,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0693 | ADR-B-05 | ADR-B-05-K10 | Założenie kamizelki przed ustawieniem stojących znaków ostrzegawczych | B | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0694 | ADR-B-06 | ADR-B-06-K05 | Widoczność i prawidłowe położenie tylnej tablicy pomarańczowej | B | ADR 2025, 5.3.2.1.1, s. 248 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0695 | ADR-B-05 | ADR-B-05-K05 | Mały/początkowy pożar komory silnika — warunkowe użycie gaśnicy | A | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
