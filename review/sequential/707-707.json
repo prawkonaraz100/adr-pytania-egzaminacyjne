@@ -1,0 +1,59 @@
+{
+  "batch": "707-707",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0707",
+      "sequence": 707,
+      "exact_record_snapshot": {
+        "stem": "Po zdarzeniu kierowca bezpiecznie oddalił się od miejsca awarii i zdjął skażoną odzież oraz użyte środki ochronne. Co powinien zrobić z tymi rzeczami?",
+        "options": {
+          "A": "Umieścić je w worku i wyrzucić do zwykłego kosza na parkingu, z dala od kabiny i osób postronnych.",
+          "B": "Dopilnować, aby zostały bezpiecznie usunięte, bez narażania innych osób i rozprzestrzeniania skażenia.",
+          "C": "Zostawić je przy miejscu zdarzenia bez zabezpieczenia, by służby później zdecydowały, co z nimi zrobić."
+        },
+        "correct_option": "B",
+        "explanation": "Skażona odzież i użyte środki ochronne nadal mogą przenosić niebezpieczną substancję, dlatego trzeba zapewnić ich bezpieczne usunięcie. Zwykły kosz może narazić pracowników parkingu, a pozostawienie rzeczy przy drodze — przypadkowe osoby i środowisko. Nie zabieraj ich do kabiny ani nie porzucaj; postępuj zgodnie z instrukcjami i poleceniami służb. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — instrukcje pisemne, działania w razie wypadku lub awarii: zdjąć skażoną odzież i użyte skażone środki ochronne oraz zapewnić ich bezpieczne usunięcie",
+            "url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 5.4.3.4 — remove contaminated clothing and used contaminated protective equipment and ensure safe disposal",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.4.3.4 written instructions: after an accident/emergency, contaminated clothing and used contaminated protective equipment must be removed and safely disposed of. Full Polish literal comparison and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The question tests the safe-disposal requirement after contaminated clothing and used protective equipment have been removed. It does not prescribe a particular disposal facility or waste classification.",
+      "supplementary_source_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
+      "source_risk_note": "Official ADR 2025 Polish source identified; detailed literal comparison of model text and any corrigendum must be completed by specialist.",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}
