@@ -980,3 +980,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0700 | ADR-B-09 | ADR-B-09-K06 | Mocowanie elastycznego kontenera bez nadmiernego naprężenia pasów | B | ADR 2025, 7.5.7.6.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0701 | ADR-B-12 | ADR-B-12-K02 | Ocena zabezpieczenia, oświetlenia i dostępu do placu czasowego składowania | B | ADR 2025, 1.10.1.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0702 | ADR-B-05 | ADR-B-05-K06 | Granica użycia gaśnicy, gdy mały pożar opony obejmuje przestrzeń ładunkową | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
