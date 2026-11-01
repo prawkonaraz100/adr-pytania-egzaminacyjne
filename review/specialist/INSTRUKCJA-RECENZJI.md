@@ -1,6 +1,6 @@
 ## Migawka bieżąca — 4x260
 
-Bank podstawowy: 686 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `f5f21db12588f8b0451c27a1a82783982a731133`. Najnowsza zmiana: ADR-B-0686, przenośna lampa dla każdego członka załogi i brak powierzchni metalowej mogącej powodować iskrzenie (ADR 8.1.5.2 i 8.3.4). Snapshoty 686-686, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
+Bank podstawowy: 686 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `f5f21db12588f8b0451c27a1a82783982a731133`. Najnowsza zmiana: ADR-B-0686, liczba przenośnych lamp — jedna dla każdego członka załogi (ADR 8.1.5.2). Snapshoty 686-686, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
 Raport najnowszej partii: `podstawowy/raporty/etap-4x260-przenosne-lampy-zaloga-2026-11-01.md`.
 
 
