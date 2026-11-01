@@ -1,9 +1,25 @@
+## Bieżąca migawka — etap 4x276 (01.11.2026)
+
+- Bank: 702 pytania ADR-B-0001–0702; wszystkie `needs_review`, 0 `verified`; SHA `2363e2cd93b2b4921d77aca7ab3730c3221c44b9`.
+- ADR-B-0702 do ADR-B-05-K06: granica użycia gaśnicy, gdy mały pożar opony obejmuje przestrzeń ładunkową; ADR 2025, 5.4.3.4.
+- Explanation 356 znaków; A/B/C 100/105/91.
+- Rozkład A/B/C: 237/246/219; poprawna = jedyna najdłuższa: 75/702 = 10,68%.
+- Snapshoty sequential/legal 702-702; raport: `podstawowy/raporty/etap-4x276-granica-uzycia-gasnicy-2026-11-01.md`.
+
+**Stan na 01.11.2026, etap 4x276**
+
+- Bank: 702 pytania ADR-B-0001–0702; 702 `needs_review`, 0 `verified`; SHA `2363e2cd93b2b4921d77aca7ab3730c3221c44b9`.
+- ADR-B-0702: granica użycia gaśnicy przy pożarze obejmującym przestrzeń ładunkową; ADR 2025, 5.4.3.4.
+- Explanation 356 znaków; A/B/C 100/105/91.
+- Rozkład A/B/C: 237/246/219; „poprawna = jedyna najdłuższa”: 75/702 = 10,68%.
+- Raport: [Etap 4x276 — granica użycia gaśnicy](raporty/etap-4x276-granica-uzycia-gasnicy-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x275**
 
-- Bank: 701 pytań ADR-B-0001–0701; 701 `needs_review`, 0 `verified`; SHA `64544daffd52784e1a9a85c8c14cd22d2e293950`.
+- Bank: 701 pytań ADR-B-0001–0701; 702 `needs_review`, 0 `verified`; SHA `64544daffd52784e1a9a85c8c14cd22d2e293950`.
 - ADR-B-0701: ocena zabezpieczenia, oświetlenia i dostępu do placu czasowego składowania; ADR 2025, 1.10.1.3.
 - Explanation 344 znaki; A/B/C 110/110/107.
-- Rozkład A/B/C: 237/245/219; „poprawna = jedyna najdłuższa”: 74/701 = 10,56%.
+- Rozkład A/B/C: 237/245/219; „poprawna = jedyna najdłuższa”: 75/702 = 10,68%.
 - Raport: [Etap 4x275 — plac czasowego składowania](raporty/etap-4x275-plac-czasowego-skladowania-2026-11-01.md).
 
 **Stan na 01.11.2026, etap 4x274**
@@ -450,6 +466,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x276 — granica użycia gaśnicy](raporty/etap-4x276-granica-uzycia-gasnicy-2026-11-01.md)
 - [Etap 4x275 — plac czasowego składowania](raporty/etap-4x275-plac-czasowego-skladowania-2026-11-01.md)
 - [Etap 4x274 — elastyczny kontener i pasy](raporty/etap-4x274-elastyczny-kontener-pasy-2026-11-01.md)
 - [Etap 4x273 — dobór klina pod koło](raporty/etap-4x273-dobor-klina-pod-kolo-2026-11-01.md)

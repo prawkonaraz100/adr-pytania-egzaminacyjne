@@ -1,0 +1,58 @@
+{
+  "batch": "702-702",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0702",
+      "sequence": 702,
+      "exact_record_snapshot": {
+        "stem": "Podczas postoju kierowca zauważa niewielki pożar opony. Zanim zdąży użyć gaśnicy, ogień zaczyna obejmować elementy przestrzeni ładunkowej. Co powinien zrobić?",
+        "options": {
+          "A": "Kontynuować gaszenie gaśnicą, bo ogień pojawił się najpierw na oponie i nie trzeba zmieniać decyzji.",
+          "B": "Przerwać próbę gaszenia, oddalić się w bezpieczne miejsce i postępować zgodnie z instrukcjami awaryjnymi.",
+          "C": "Otworzyć przestrzeń ładunkową, sprawdzić zasięg ognia i skierować do niej strumień gaśnicy."
+        },
+        "correct_option": "B",
+        "explanation": "Gaśnicy można użyć przy małym, początkowym pożarze opony, hamulca lub komory silnika tylko wtedy, gdy jest to bezpieczne i właściwe. Gdy ogień zaczyna obejmować przestrzeń ładunkową, nie wolno traktować go jak takiego małego pożaru. Nie otwieraj ładowni ani nie próbuj samodzielnego gaszenia; oddal się i wykonaj instrukcje awaryjne. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4, instrukcje pisemne — użycie gaśnic wyłącznie do małych/początkowych pożarów opon, hamulców lub komory silnika, jeżeli jest to właściwe i bezpieczne; nie podejmować prób gaszenia pożaru w przedziale ładunkowym",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 5.4.3.4 — model instrukcji pisemnych",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 5.4.3.4 — small/incipient tyre, brake or engine-compartment fires only when safe and appropriate; do not fight fires in load compartments",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish ADR 2025, 5.4.3.4: fire extinguishers are for small/incipient tyre, brake or engine-compartment fires only where safe and appropriate; do not fight fires in load compartments. Full literal comparison and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The scenario tests the point at which a small tyre fire has spread to the load compartment; the crew must stop firefighting and follow the written instructions.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "source_risk_note": "Targeted clause checked in official Polish ADR 2025 text at 5.4.3.4; full question comparison and specialist review pending."
+    }
+  ]
+}

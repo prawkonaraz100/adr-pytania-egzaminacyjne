@@ -381,3 +381,8 @@ Powiązane pytanie: **ADR-B-0696**.
 Jeśli ludzie zbliżają się do miejsca awarii, ostrzeż ich i trzymaj z dala od strefy zagrożenia. Nie przechodź przez rozlaną substancję, nawet jeśli chcesz szybko dotrzeć do osób i je zatrzymać. Ostrzegaj z bezpiecznego miejsca, o ile jest to możliwe; jeśli nie możesz zrobić tego bezpiecznie, przekaż ratownikom, gdzie znajdują się te osoby. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
 
 Powiązane pytanie: **ADR-B-0697**.
+
+
+### Granica użycia gaśnicy przy pożarze ładowni (ADR-B-0702)
+
+Instrukcje pisemne dopuszczają gaszenie tylko małych, początkowych pożarów opon, hamulców lub komory silnika, jeżeli jest to bezpieczne i właściwe. Gdy ogień obejmuje przedział ładunkowy, załoga nie podejmuje próby gaszenia, oddala się i postępuje zgodnie z instrukcjami awaryjnymi. Podstawa: ADR 2025, 5.4.3.4.

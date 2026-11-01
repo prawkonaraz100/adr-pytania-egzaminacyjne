@@ -1,15 +1,15 @@
 {
-  "stage": "4x275_temporary_storage_area_security",
+  "stage": "4x276_small_fire_boundary_load_compartment",
   "snapshot_date": "2026-11-01",
   "scope": "ADR-BASIC-ONLY",
-  "question_count": 701,
-  "last_id": "ADR-B-0701",
+  "question_count": 702,
+  "last_id": "ADR-B-0702",
   "status_counts": {
-    "needs_review": 701,
+    "needs_review": 702,
     "verified": 0
   },
   "formal_approvals": 0,
-  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0701.md",
+  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0702.md",
   "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
   "unresolved_literal_comparisons": 445,
   "modules": {
@@ -30,7 +30,7 @@
       "theory_competencies": 6
     },
     "ADR-B-05": {
-      "questions": 68,
+      "questions": 69,
       "theory_competencies": 12
     },
     "ADR-B-06": {
@@ -210,7 +210,7 @@
     "mock_exam_variants": 5,
     "mock_exam_keys": 5,
     "glossary_terms": 90,
-    "questions": 701,
+    "questions": 702,
     "learner_exam_instructions": 1
   },
   "last_literal_comparison_batch": {
@@ -295,10 +295,10 @@
   },
   "literal_comparison_status_counts": {
     "official_polish_text_not_retrieved": 445,
-    "targeted_source_checked_full_literal_comparison_pending": 34,
+    "targeted_source_checked_full_literal_comparison_pending": 35,
     "records_with_recorded_targeted_comparison_result": 299,
     "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 222,
-    "specialist_reviews_pending": 701,
+    "specialist_reviews_pending": 702,
     "verified": 0
   },
   "stage4x19": {
@@ -313,7 +313,7 @@
     "original_not_retrieved_records": 387,
     "specialist_reviews_pending": 679
   },
-  "current_bank_blob_sha": "64544daffd52784e1a9a85c8c14cd22d2e293950",
+  "current_bank_blob_sha": "2363e2cd93b2b4921d77aca7ab3730c3221c44b9",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -427,8 +427,8 @@
   "specialist_open_items": {
     "official_polish_text_not_retrieved": 445,
     "ministerial_copy_exact_quote_not_saved": 143,
-    "targeted_source_checked_full_literal_comparison_pending": 27,
-    "specialist_reviews_pending": 701,
+    "targeted_source_checked_full_literal_comparison_pending": 28,
+    "specialist_reviews_pending": 702,
     "verified": 0,
     "formal_approvals": 0,
     "note": "Odrębne miary dowodów i kolejek: 445 rekordów nie ma pobranego dokładnego polskiego ustępu; 29 rekordów ma ukierunkowane porównanie źródłowe, ale pełna analiza wszystkich elementów i recenzja specjalisty pozostają otwarte; 222 rekordy są w kategorii porównania z kopią ministerialną, z potwierdzeniem specjalisty i Dz.U. nadal pending. 31 pozycji pozostaje w odrębnej kolejce otwartych ukierunkowanych porównań. 143 pozycje w osobnym wykazie 4x24 nadal wymagają zapisu cytatu MI. Wszystkie 698 pytań pozostają needs_review."
@@ -603,7 +603,7 @@
     "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
     "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
     "queue_count": 20,
-    "source_bank_blob_sha": "64544daffd52784e1a9a85c8c14cd22d2e293950",
+    "source_bank_blob_sha": "2363e2cd93b2b4921d77aca7ab3730c3221c44b9",
     "source_missing_quote_ids": 124,
     "unresolved_literal_comparisons": 445,
     "legal_review_status": "pending",
@@ -614,7 +614,7 @@
   },
   "secondary_priority_legal_review_queue": {
     "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
-    "source_bank_blob_sha": "64544daffd52784e1a9a85c8c14cd22d2e293950",
+    "source_bank_blob_sha": "2363e2cd93b2b4921d77aca7ab3730c3221c44b9",
     "queue_count": 20,
     "full_missing_quote_count": 143,
     "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
@@ -1684,7 +1684,7 @@
     "legal_clause_snapshot": "review/legal-clauses/689-689.json",
     "supplemental_source_ledger": "review/legal-polish/stage4x263-overpack-0689.json"
   },
-  "question_bank_blob_sha": "64544daffd52784e1a9a85c8c14cd22d2e293950",
+  "question_bank_blob_sha": "2363e2cd93b2b4921d77aca7ab3730c3221c44b9",
   "stage4x264": {
     "question_id": "ADR-B-0690",
     "competency": "ADR-B-05-K02",
@@ -1982,5 +1982,32 @@
     },
     "unique_longest_correct": 74,
     "bank_question_count": 701
+  },
+  "stage4x276": {
+    "question_id": "ADR-B-0702",
+    "competency": "ADR-B-05-K06",
+    "topic": "granica użycia gaśnicy, gdy mały pożar opony obejmuje przestrzeń ładunkową",
+    "legal_basis": [
+      "ADR 2025, 5.4.3.4"
+    ],
+    "explanation_characters": 356,
+    "option_lengths": {
+      "A": 100,
+      "B": 105,
+      "C": 91
+    },
+    "correct_option": "B",
+    "longest_answer": true,
+    "verification_status": "needs_review",
+    "bank_blob_sha": "2363e2cd93b2b4921d77aca7ab3730c3221c44b9",
+    "sequential_snapshot": "review/sequential/702-702.json",
+    "legal_clause_snapshot": "review/legal-clauses/702-702.json",
+    "distribution": {
+      "A": 237,
+      "B": 246,
+      "C": 219
+    },
+    "unique_longest_correct": 75,
+    "bank_question_count": 702
   }
 }

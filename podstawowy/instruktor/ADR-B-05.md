@@ -228,3 +228,14 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowe błędy:** wejście w rozlew w celu zatrzymania ludzi; pozwolenie im zbliżyć się, jeśli obiecują nie dotykać opakowania; brak ostrzeżenia i nieprzekazanie informacji ratownikom.
 
 **Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
+
+
+## Ćwiczenie — granica użycia gaśnicy (ADR-B-0702)
+
+**Sytuacja:** Mały pożar opony zaczyna obejmować elementy przestrzeni ładunkowej.
+
+**Oczekiwana decyzja:** Kursant przerywa próbę gaszenia, nie otwiera ładowni, oddala się w bezpieczne miejsce i postępuje zgodnie z instrukcjami pisemnymi ADR.
+
+**Typowy błąd:** kontynuowanie gaszenia tylko dlatego, że ogień rozpoczął się na oponie.
+
+**Podstawa:** ADR 2025, 5.4.3.4.

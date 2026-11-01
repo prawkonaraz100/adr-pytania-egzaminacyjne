@@ -1,3 +1,13 @@
+## Bieżąca migawka — etap 4x276 (01.11.2026)
+
+- Bank: 702 pytania ADR-B-0001–0702; wszystkie `needs_review`, 0 `verified`; SHA `2363e2cd93b2b4921d77aca7ab3730c3221c44b9`.
+- ADR-B-0702 do ADR-B-05-K06: granica użycia gaśnicy, gdy mały pożar opony zaczyna obejmować przestrzeń ładunkową; ADR 2025, 5.4.3.4.
+- Explanation 356 znaków; A/B/C 100/105/91.
+- Rozkład prawidłowych opcji: A=237, B=246, C=219.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/702 = 10,68%**; maksimum działu to 13,95%.
+- ADR-B-05-K06 ma 5 pytań; moduł ADR-B-05 ma 69 pytań.
+- Raport: `podstawowy/raporty/etap-4x276-granica-uzycia-gasnicy-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x275 (01.11.2026)
 
 - Bank: 701 pytań ADR-B-0001–0701; wszystkie `needs_review`, 0 `verified`; SHA `64544daffd52784e1a9a85c8c14cd22d2e293950`.
@@ -415,7 +425,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 68 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 69 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 45 | 0 | Lekcja + mapa pytań |
@@ -424,7 +434,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **701** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **702** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
