@@ -1,13 +1,13 @@
-## Bieżąca migawka — etap 4x259 (01.11.2026)
+## Bieżąca migawka — etap 4x260 (01.11.2026)
 
-- Bank: 685 pytań ADR-B-0001–0685; 685 `needs_review`, 0 `verified`; SHA `a456d5fdab0c686b1c657be3f213ac873c491ae4`.
-- ADR-B-0685 do ADR-B-06-K07: trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia (ADR 5.3.2.2.1).
-- Explanation 340 znaków, 4 zdania; A/B/C 159/147/117; poprawna B nie jest ani najkrótsza, ani najdłuższa.
-- Rozkład prawidłowych opcji: A=234, B=234, C=217.
-- „Poprawna = jedyna najdłuższa”: 72/685 = 10,51%; maksimum działu to 13,95%.
-- ADR-B-06-K07 ma 5 pytań; moduł ADR-B-06 ma 55 pytań.
-- Snapshoty: `sequential/685-685.json`, `legal-clauses/685-685.json`; rejestr: `REJESTR-0685-0685.md`.
-- Raport: `podstawowy/raporty/etap-4x259-tablice-pomaranczowe-trwalosc-2026-11-01.md`.
+- Bank: 686 pytań ADR-B-0001–0686; 686 `needs_review`, 0 `verified`; SHA `f44c2fdc0e99ccbb1311d61b7b4bc2dadf1a907d`.
+- ADR-B-0686 do ADR-B-08-K05: liczba przenośnych lamp — jedna dla każdego członka załogi (ADR 8.1.5.2).
+- Explanation 361 znaków, 5 zdań; A/B/C 109/123/92; poprawna A nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=235, B=234, C=217.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/686 = 10,50%**; maksimum działu to 13,95%.
+- ADR-B-08-K05 ma 5 pytań; moduł ADR-B-08 ma 44 pytania.
+- Snapshoty: `sequential/686-686.json`, `legal-clauses/686-686.json`; rejestr: `REJESTR-0686-0686.md`.
+- Raport: `podstawowy/raporty/etap-4x260-przenosne-lampy-zaloga-2026-11-01.md`.
 
 ## Bieżąca migawka — etap 4x256 (31.10.2026)
 

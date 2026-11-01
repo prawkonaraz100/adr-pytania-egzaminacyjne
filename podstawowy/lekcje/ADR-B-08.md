@@ -276,3 +276,12 @@ Wybierz scenariusz dla działu ADR-B-08 w [mapie ćwiczeń](../praktyka/scenariu
 ### Zgodność świadectwa z konkretnym pojazdem (ADR-B-08-K08)
 
 Świadectwo dopuszczenia nie jest dokumentem „na typ pojazdu” do dowolnego użycia we flocie. ADR wymaga świadectwa dla każdego konkretnego pojazdu, a wzór dokumentu zawiera osobne pola na numer identyfikacyjny pojazdu (VIN), numer rejestracyjny i oznaczenie pojazdu. Przed wyjazdem porównaj te dane z pojazdem; jeśli VIN się nie zgadza, nie zakładaj, że zgodność nazwy przewoźnika lub typu pojazdu wystarczy. Wyjaśnij rozbieżność z wystawcą i uzyskaj dokument dotyczący właściwego pojazdu. Pytanie: ADR-B-0662. Podstawa: ADR 9.1.3.1, 9.1.3.3 i 9.1.3.5.
+
+
+### Przenośna lampa dla każdego członka załogi — ADR-B-08-K05
+
+Każdy członek załogi musi mieć własną przenośną lampę zgodną z ADR 8.3.4. Jej powierzchnia nie może zawierać metalu mogącego powodować iskrzenie. Zwykła metalowa latarka nie spełnia tego warunku, jeżeli jej obudowa może iskrzyć; jedna lampa wspólna dla całej załogi również nie wystarcza.
+
+**Przykład:** w kabinie jadą dwie osoby, ale jest tylko jedna metalowa latarka. Przed wyjazdem trzeba zapewnić lampę dla każdego członka załogi i sprawdzić, czy spełnia 8.3.4.
+
+**Ćwiczenie:** ADR-B-0686 sprawdza liczbę lamp dla załogi. Wymóg dotyczący powierzchni lampy z 8.3.4 omawiany jest osobno w materiale o bezpiecznym używaniu oświetlenia. Podstawa ćwiczenia ADR-B-0686: ADR 8.1.5.2.
