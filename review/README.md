@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x274 (01.11.2026)
+
+- Bank: 700 pytań ADR-B-0001–0700; wszystkie `needs_review`, 0 `verified`; SHA `35284ef525c41ebc5ee08fa0423ebf22e262db8c`.
+- ADR-B-0700 do ADR-B-09-K06: mocowanie elastycznego kontenera bez nadmiernego naprężenia pasów; ADR 2025, 7.5.7.6.2.
+- Explanation 303 znaki; A/B/C 105/114/109; poprawna B jest najdłuższa.
+- Rozkład A/B/C: 237/244/219; poprawna = jedyna najdłuższa: 73/700 = 10,43%.
+- ADR-B-09-K06 ma 5 pytań; moduł ADR-B-09 ma 54 pytania.
+- Raport: `podstawowy/raporty/etap-4x274-elastyczny-kontener-pasy-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x273 (01.11.2026)
 
 - Bank: 699 pytań ADR-B-0001–0699; wszystkie `needs_review`, 0 `verified`; SHA `9359365b4381b3b644b70d9b80bd35d171256bd7`.
