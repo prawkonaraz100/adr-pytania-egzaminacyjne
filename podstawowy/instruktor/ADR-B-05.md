@@ -31,7 +31,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteri
 | ADR-B-05-K06 | Mały pożar opon, hamulców lub silnika | 5.4.3.4 | 4 |
 | ADR-B-05-K07 | Przekazanie dokumentów ratownikom | 5.4.3.4 | 3 |
 | ADR-B-05-K08 | Skażona odzież i środki ochrony | 5.4.3.4 | 3 |
-| ADR-B-05-K09 | Ostrzeganie osób postronnych i ewakuacja | 5.4.3.4 | 3 |
+| ADR-B-05-K09 | Ostrzeganie osób postronnych i ewakuacja | 5.4.3.4 | 5 |
 | ADR-B-05-K10 | Kamizelka i znaki ostrzegawcze | 5.4.3.4 | 3 |
 | ADR-B-05-K11 | Ocena bezpieczeństwa udzielania pierwszej pomocy | 5.4.3.4; program praktyczny | 3 |
 | ADR-B-05-K12 | Mocowanie/dostępność gaśnic | 8.1.4.5 | 3 |
@@ -215,5 +215,16 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Oczekiwana decyzja:** Kursant nie wraca do zadymionej kabiny. Przekazuje ratownikom znane informacje o ładunku i wskazuje położenie dokumentu, tak aby mogli ocenić możliwość bezpiecznego dostępu.
 
 **Typowe błędy:** narażanie się dla odzyskania dokumentu; całkowite zatajenie znanych informacji; traktowanie dostępności dokumentów jako ważniejszej od bezpieczeństwa ludzi.
+
+**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
+
+
+### Ćwiczenie sytuacyjne — ostrzeżenie z bezpiecznego miejsca (ADR-B-0697)
+
+**Sytuacja:** Dwie osoby idą w stronę uszkodzonej przesyłki. Kierowca jest w bezpiecznym miejscu, ale bezpośrednia droga do tych osób prowadzi przez rozlew.
+
+**Oczekiwana decyzja:** Kursant ostrzega osoby z bezpiecznego miejsca i kieruje je z dala od strefy zagrożenia. Nie przechodzi przez rozlew, aby podejść do nich; jeżeli nie może ostrzec ich bezpiecznie, przekazuje ratownikom ich położenie.
+
+**Typowe błędy:** wejście w rozlew w celu zatrzymania ludzi; pozwolenie im zbliżyć się, jeśli obiecują nie dotykać opakowania; brak ostrzeżenia i nieprzekazanie informacji ratownikom.
 
 **Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
