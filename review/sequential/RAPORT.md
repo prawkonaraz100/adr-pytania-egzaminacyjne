@@ -1,3 +1,7 @@
+## Bieżąca migawka — etap 4x262 (01.11.2026)
+
+Bank: 688 pytań, wszystkie needs_review, 0 verified; SHA `a041f8814aa0c5f0f648d0e98cb25c0055d3821d`. Najnowszy snapshot: `688-688.json`.
+
 ## Bieżąca migawka — etap 4x261 (01.11.2026)
 
 Bank: 687 pytań, wszystkie needs_review, 0 verified; SHA `ba18db9994feecf876b449a203dcc1590e16523f`. Najnowszy snapshot: `687-687.json`.

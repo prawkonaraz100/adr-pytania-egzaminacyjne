@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x262 (01.11.2026)
+
+- Bank: 688 pytań ADR-B-0001–0688; 688 `needs_review`, 0 `verified`; SHA `a041f8814aa0c5f0f648d0e98cb25c0055d3821d`.
+- ADR-B-0688 do ADR-B-06-K02: wyjątek sposobu przymocowania nalepki na małym lub nieregularnym opakowaniu; ADR 5.2.2.1.6.
+- 688 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x262-nalepka-przywieszka-male-opakowanie-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x261 (01.11.2026)
 
 - Bank: 687 pytań ADR-B-0001–0687; 687 `needs_review`, 0 `verified`; SHA `ba18db9994feecf876b449a203dcc1590e16523f`.
@@ -885,3 +891,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 
 | ADR-B-0687 | ADR-B-03 | ADR-B-03-K05 | Zdjęcie skażonej odzieży i użytych skażonych środków ochronnych oraz ich bezpieczne usunięcie | A | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0688 | ADR-B-06 | ADR-B-06-K02 | Nalepka na pewnie umocowanej przywieszce lub innym odpowiednim sposobie przy małym lub nieregularnym opakowaniu | B | ADR 2025, 5.2.2.1.6 | — | NIEROZSTRZYGNIĘTE | needs_review |

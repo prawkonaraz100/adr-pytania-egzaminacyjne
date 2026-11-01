@@ -144,3 +144,10 @@ Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, dru
 **Sytuacja do omówienia:** pokaż tablicę, która jest czytelna, ale ma poluzowane mocowanie albo nietrwały materiał. Kursant ma wskazać, że wymaganie dotyczy nie tylko widoczności i wymiarów, lecz także odporności na warunki pogodowe, trwałego oznaczenia i utrzymania tablicy na mocowaniu podczas 15 minut działania ognia.
 
 **Pytanie kontrolne:** ADR-B-0685. Podstawa: ADR 5.3.2.2.1. Status pytania pozostaje `needs_review`.
+
+
+### Zadanie instruktorskie — nalepka na małym lub nieregularnym opakowaniu (ADR-B-0688)
+
+**Sytuacja symulowana:** kursant otrzymuje obraz małej, nieregularnej sztuki przesyłki, na której nie można prawidłowo przykleić nalepki. Ma wskazać rozwiązanie z ADR 5.2.2.1.6: pewnie umocowaną przywieszkę lub inny odpowiedni sposób, który utrzyma nalepkę przy przesyłce. Nie wolno pomijać nalepki ani wkładać jej luzem do opakowania.
+
+**Pytanie kontrolne:** ADR-B-0688. Podstawa: ADR 5.2.2.1.1 i 5.2.2.1.6.

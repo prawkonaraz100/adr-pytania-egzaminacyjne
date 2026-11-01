@@ -287,3 +287,12 @@ Tablica pomarańczowa musi być odblaskowa, wykonana z materiału odpornego na w
 **Przykład:** tablica ma prawidłowy kolor i wymiary, ale jej uchwyt jest skorodowany i może puścić podczas pożaru. Pojazd wymaga naprawy mocowania przed przewozem.
 
 **Ćwiczenie:** ADR-B-0685. Podstawa: ADR 5.3.2.2.1.
+
+
+### Nalepka na przywieszce przy małym lub nieregularnym opakowaniu — ADR-B-06-K02
+
+Wymagana nalepka zagrożenia nadal musi towarzyszyć sztuce przesyłki, nawet gdy jej kształt lub mały rozmiar utrudnia przyklejenie jej bezpośrednio do powierzchni. ADR 5.2.2.1.6 pozwala w takiej sytuacji przymocować nalepkę do opakowania za pomocą pewnie umocowanej przywieszki albo innego odpowiedniego sposobu. Nie wolno po prostu pominąć oznakowania ani włożyć nalepki luzem do środka.
+
+**Przykład:** niewielkie, nieregularne opakowanie nie ma płaskiej powierzchni na wymaganą nalepkę. Zastosuj przywieszkę tak zamocowaną, aby pozostała przy przesyłce podczas przewozu.
+
+**Ćwiczenie:** ADR-B-0688. Podstawa: ADR 5.2.2.1.1 i 5.2.2.1.6.
