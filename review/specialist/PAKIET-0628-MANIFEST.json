@@ -1,17 +1,17 @@
 {
-  "stage": "4x263_overpack_hidden_un_marking",
+  "stage": "4x264_engine_shutdown_battery_master_switch",
   "snapshot_date": "2026-11-01",
   "scope": "ADR-BASIC-ONLY",
-  "question_count": 689,
-  "last_id": "ADR-B-0689",
+  "question_count": 690,
+  "last_id": "ADR-B-0690",
   "status_counts": {
-    "needs_review": 689,
+    "needs_review": 690,
     "verified": 0
   },
   "formal_approvals": 0,
-  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0689.md",
+  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0628.md",
   "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
-  "unresolved_literal_comparisons": 444,
+  "unresolved_literal_comparisons": 445,
   "modules": {
     "ADR-B-01": {
       "questions": 50,
@@ -30,7 +30,7 @@
       "theory_competencies": 6
     },
     "ADR-B-05": {
-      "questions": 61,
+      "questions": 62,
       "theory_competencies": 12
     },
     "ADR-B-06": {
@@ -294,11 +294,11 @@
     "note": "Priority list is not exhaustive. Every question remains needs_review until a real specialist approves it; all ADR 2027 sensitivity registers remain relevant."
   },
   "literal_comparison_status_counts": {
-    "official_polish_text_not_retrieved": 444,
+    "official_polish_text_not_retrieved": 445,
     "targeted_source_checked_full_literal_comparison_pending": 23,
     "records_with_recorded_targeted_comparison_result": 292,
     "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 222,
-    "specialist_reviews_pending": 689,
+    "specialist_reviews_pending": 690,
     "verified": 0
   },
   "stage4x19": {
@@ -313,7 +313,7 @@
     "original_not_retrieved_records": 387,
     "specialist_reviews_pending": 679
   },
-  "current_bank_blob_sha": "d607ae33a6268223f289fd94599f289c6115c9ce",
+  "current_bank_blob_sha": "66a862742a9c134f92bf467574865101faa0c884",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -425,10 +425,10 @@
     "confirmed_discrepancies": 0
   },
   "specialist_open_items": {
-    "official_polish_text_not_retrieved": 444,
+    "official_polish_text_not_retrieved": 445,
     "ministerial_copy_exact_quote_not_saved": 143,
     "targeted_source_checked_full_literal_comparison_pending": 23,
-    "specialist_reviews_pending": 689,
+    "specialist_reviews_pending": 690,
     "verified": 0,
     "formal_approvals": 0,
     "note": "To odrębne miary dowodów. 444 rekordy nie mają pobranego dokładnego polskiego ustępu; 23 mają ukierunkowane porównanie źródłowe, ale pełna analiza wszystkich elementów pytania i recenzja specjalisty pozostają otwarte. 222 rekordy są w kategorii porównania z kopią ministerialną, z potwierdzeniem specjalisty i Dz.U. nadal pending. 143 pozycje w osobnym wykazie 4x24 nadal wymagają zapisu cytatu MI. Wszystkie 689 pytań pozostają needs_review."
@@ -1686,5 +1686,29 @@
     "sequential_snapshot": "review/sequential/689-689.json",
     "legal_clause_snapshot": "review/legal-clauses/689-689.json",
     "supplemental_source_ledger": "review/legal-polish/stage4x263-overpack-0689.json"
+  },
+  "stage4x264": {
+    "question_id": "ADR-B-0690",
+    "competency": "ADR-B-05-K02",
+    "topic": "bezpieczne zatrzymanie, wyłączenie silnika i odłączenie akumulatora wyłącznikiem głównym, jeśli dostępny",
+    "legal_basis": [
+      "ADR 2025, 5.4.3.4"
+    ],
+    "explanation_characters": 424,
+    "option_lengths": {
+      "A": 103,
+      "B": 77,
+      "C": 96
+    },
+    "correct_option": "C",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "66a862742a9c134f92bf467574865101faa0c884",
+    "sequential_snapshot": "review/sequential/690-690.json",
+    "legal_clause_snapshot": "review/legal-clauses/690-690.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json"
   }
 }
