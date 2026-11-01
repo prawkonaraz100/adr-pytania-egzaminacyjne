@@ -162,3 +162,14 @@ Pytania kontrolne: `ADR-B-0013`, `ADR-B-0015`, `ADR-B-0169`, `ADR-B-0220`, `ADR-
 ### SC-ADR-B-05-04 — mały pożar opon, hamulców lub silnika
 
 Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nadzorem. Poproś kursanta o rozróżnienie niewielkiego, początkowego pożaru poza ładunkiem od pożaru rozprzestrzeniającego się lub obejmującego przestrzeń ładunkową. Użycie gaśnicy można rozważyć tylko wtedy, gdy jest właściwe i bezpieczne, a droga odwrotu pozostaje wolna. W przeciwnym razie kursant ma przerwać działanie, oddalić się, ostrzec innych i wezwać służby. Nie ćwicz gaszenia prawdziwego ognia ani nie używaj rzeczywistych towarów niebezpiecznych. Pytania powiązane ze scenariuszem: ADR-B-0108, ADR-B-0184 i ADR-B-0223. ADR-B-0493 pozostaje dodatkowym pytaniem kontrolnym kompetencji K06. Podstawa: ADR 5.4.3.4.
+
+
+### Ćwiczenie sytuacyjne — powiadomienie służb bez zwłoki (ADR-B-0691)
+
+**Sytuacja:** Kierowca jest już w bezpiecznym miejscu, z pojazdu wydobywa się dym. Dyspozytor przewoźnika prosi, aby poczekał z wezwaniem służb do czasu ustalenia przyczyny.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że należy powiadomić właściwe służby ratownicze i przekazać dostępne informacje o zdarzeniu oraz ładunku. Nie czeka na zgodę firmy ani pełne ustalenie przyczyny; odróżnia sprawdzone fakty od informacji nieznanych.
+
+**Typowe błędy:** uzależnienie wezwania służb od zgody dyspozytora; odkładanie zgłoszenia do czasu pełnego wyjaśnienia; zgadywanie rodzaju ładunku.
+
+**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho, bez odtwarzania sytuacji zagrożenia.
