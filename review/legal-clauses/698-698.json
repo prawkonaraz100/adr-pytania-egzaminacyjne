@@ -1,0 +1,72 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0698",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 5.3.2.3.1: X preceding the hazard identification number indicates dangerous reaction with water; water only with expert approval. Targeted official Polish text checked; full literal comparison and independent specialist review pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0698",
+      "order": 698,
+      "clause": "ADR 2025, 5.3.2.3.1",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "question_snapshot": {
+        "id": "ADR-B-0698",
+        "module_id": "ADR-B-06",
+        "stem": "Podczas kontroli po awarii kierowca odczytuje na górze tablicy pomarańczowej oznaczenie „X423”. Ratownik pyta, czy może użyć wody do schłodzenia rozlanego materiału. Jaką informację powinien przekazać kierowca?",
+        "options": {
+          "A": "Litera X oznacza tylko silniejsze zagrożenie; o użyciu wody kierowca może zdecydować sam na podstawie wyglądu wycieku.",
+          "B": "Materiał reaguje niebezpiecznie z wodą; jej użycie wymaga zgody specjalistów, więc trzeba przekazać to ostrzeżenie ratownikom.",
+          "C": "Litera X oznacza, że materiał nie jest palny, dlatego woda jest właściwym środkiem do ograniczenia zagrożenia."
+        },
+        "correct_option": "B",
+        "explanation": "Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą. Kierowca powinien od razu przekazać tę informację ratownikom i nie sugerować samodzielnego polewania wycieku ani gaszenia wodą. Sama ocena wyglądu substancji nie wystarcza, a X nie oznacza braku palności. Wodę można zastosować tylko za zgodą specjalistów. Podstawa: ADR 5.3.2.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1 — numer rozpoznawczy zagrożenia poprzedzony literą X oznacza niebezpieczną reakcję materiału z wodą; woda może być stosowana jedynie za zgodą specjalistów",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "ADR 2025, tom II, s. 251, 5.3.2.3.1 — oznaczenie X i ograniczenie stosowania wody do zgody specjalistów",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, 5.3.2.3.1 — X before the hazard identification number means dangerous reaction with water; water may only be used with expert approval",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "The letter X does not describe merely a stronger hazard; it warns of a dangerous reaction with water. The driver cannot decide that water is safe based on appearance."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 5.3.2.3.1 says X means dangerous reaction with water and allows water only with expert approval; the driver should communicate this to responders."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "X does not mean non-flammability or that water is appropriate; it is a specific warning about dangerous reaction with water."
+        }
+      },
+      "notes_on_conditions": "The question asks the driver to communicate the X warning to responders, not to select a firefighting tactic or override specialist judgement.",
+      "editorial_result": "K04 already contains four recognition questions about X. This scenario shifts the task from recalling the symbol's meaning to communicating its operational consequence to responders.",
+      "official_polish_full_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
