@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0699",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 5.3.2.3.1: X preceding the hazard identification number indicates dangerous reaction with water; water only with expert approval. Targeted official Polish text checked; full literal comparison and independent specialist review pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0699",
+      "order": 699,
+      "clause": "ADR 2025, 8.1.5.2",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "question_snapshot": {
+        "id": "ADR-B-0699",
+        "module_id": "ADR-B-08",
+        "stem": "Przed wyjazdem zestawu ADR kierowca sprawdza wyposażenie. Klin pod koło pasuje pod koło, ale jest przeznaczony do lekkiej przyczepy, a sprawdzany pojazd ma znacznie większą dopuszczalną masę całkowitą i większe koła. Co powinien zrobić?",
+        "options": {
+          "A": "Pozostawić klin, ponieważ liczy się samo jego posiadanie, a nie dopasowanie do masy pojazdu i średnicy koła.",
+          "B": "Wymienić go na klin o rozmiarze odpowiednim do dopuszczalnej masy całkowitej i średnicy kół tego pojazdu.",
+          "C": "Zastosować dwa małe kliny pod tym samym kołem; ich liczba zastąpi dobór właściwego rozmiaru do pojazdu."
+        },
+        "correct_option": "B",
+        "explanation": "Klin ma zatrzymać pojazd, dlatego jego rozmiar musi odpowiadać dopuszczalnej masie całkowitej i średnicy kół konkretnego pojazdu. Sam fakt, że klin mieści się pod kołem, nie wystarcza. Dwa za małe kliny nie zastępują właściwego doboru. ADR wymaga osobnego klina dla każdego pojazdu w jednostce transportowej. Podstawa: ADR 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2 — klin pod koła dla każdego pojazdu, o rozmiarze odpowiednim do dopuszczalnej masy całkowitej pojazdu oraz średnicy jego kół",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 8.1.5.2 — one wheel chock for each vehicle, sized to the vehicle's maximum permissible mass and wheel diameter",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "The rule does not accept any chock merely because it fits under the wheel; its size must suit the vehicle's maximum permissible mass and wheel diameter."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 8.1.5.2 requires a chock for each vehicle, sized to its maximum permissible mass and wheel diameter."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Using two undersized chocks does not replace the requirement to provide a chock of the appropriate size for the vehicle."
+        }
+      },
+      "notes_on_conditions": "The driver must check the actual suitability of the chock for the vehicle, not just whether it can be placed beneath the tyre.",
+      "editorial_result": "The competency had four questions, mostly testing the number or presence of chocks. This scenario isolates the sizing requirement based on both maximum permissible mass and wheel diameter.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
