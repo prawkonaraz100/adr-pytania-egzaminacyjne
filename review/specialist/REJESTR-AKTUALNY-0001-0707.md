@@ -1,11 +1,11 @@
-## Bieżąca migawka — etap 4x280 (01.11.2026)
+## Bieżąca migawka — etap 4x281 (01.11.2026)
 
-- Bank: 706 pytań ADR-B-0001–0706; 706 `needs_review`, 0 `verified`; SHA `8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb`.
-- ADR-B-0706 — bezpieczne przemieszczenie pojazdu do najbliższego miejsca czyszczenia po wycieku; ADR 2025, 7.5.8.1.
-- Explanation 430 znaków; A/B/C 103/99/98; poprawna B nie jest najdłuższa.
-- Rozkład A/B/C: 238/249/219; „poprawna = jedyna najdłuższa”: 75/706 = 10,62%.
-- Snapshoty sequential/legal: 706-706; formalne zatwierdzenia: 0.
-- Raport: `podstawowy/raporty/etap-4x280-bezpieczny-przejazd-do-czyszczenia-2026-11-01.md`.
+- Bank: 707 pytań ADR-B-0001–0707; 707 `needs_review`, 0 `verified`; SHA `d2eaa0b3df4ee50661e30cf62554ae5ca62ea408`.
+- ADR-B-0707 — bezpieczne usunięcie skażonej odzieży i użytych środków ochronnych; ADR 2025, 5.4.3.4.
+- Explanation 372 znaki; A/B/C 98/102/103; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C: 238/250/219; „poprawna = jedyna najdłuższa”: 75/707 = 10,61%.
+- Snapshoty sequential/legal: 707-707; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x281-bezpieczne-usuniecie-skazonej-odziezy-2026-11-01.md`.
 
 
 | ADR-B-0001 | ADR-B-01 | ADR-B-01-K02 | Jakie szkolenie powinien otrzymać pracownik nadawcy, którego obowiązki dotyczą przewozu towarów niebezpiecznych? | C | ADR 2025, 1.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
