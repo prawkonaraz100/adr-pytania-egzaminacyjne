@@ -178,7 +178,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertEqual(len(set(quote_ids)), 143)
         self.assertTrue(set(quote_ids).issubset(self.by_id))
         self.assertEqual(open_items["ministerial_copy_exact_quote_not_saved"], len(quote_ids))
-        self.assertEqual(open_items["targeted_source_checked_full_literal_comparison_pending"], 27)
+        self.assertEqual(open_items["targeted_source_checked_full_literal_comparison_pending"], 26)
 
         self.assertTrue((BASIC / "raporty" / "etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md").is_file())
         exam_guide = (BASIC / "egzamin-probny" / "README.md").read_text(encoding="utf-8")
