@@ -916,4 +916,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0690 | ADR-B-05 | ADR-B-05-K02 | Bezpieczne zatrzymanie, wyłączenie silnika i odłączenie akumulatora wyłącznikiem głównym | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-| ADR-B-0691 | ADR-B-05 | ADR-B-05-K03 | Powiadomienie służb ratowniczych bez zwłoki i przekazanie dostępnych informacji | B | ADR 2025, 5.4.3.4 | 270 | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0691 | ADR-B-05 | ADR-B-05-K03 | Powiadomienie służb ratowniczych bez zwłoki i przekazanie dostępnych informacji | B | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
