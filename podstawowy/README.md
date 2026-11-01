@@ -474,6 +474,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x277 — mocowanie po częściowym rozładunku](raporty/etap-4x277-mocowanie-po-czesciowym-rozladunku-2026-11-01.md)
 - [Etap 4x276 — granica użycia gaśnicy](raporty/etap-4x276-granica-uzycia-gasnicy-2026-11-01.md)
 - [Etap 4x275 — plac czasowego składowania](raporty/etap-4x275-plac-czasowego-skladowania-2026-11-01.md)
 - [Etap 4x274 — elastyczny kontener i pasy](raporty/etap-4x274-elastyczny-kontener-pasy-2026-11-01.md)
