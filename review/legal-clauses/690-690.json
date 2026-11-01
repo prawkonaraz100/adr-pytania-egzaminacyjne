@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0690",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 5.4.3.4: safe emergency actions — apply braking system, stop engine and isolate battery by activating master switch where available; full Gazette comparison and independent specialist approval pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0690",
+      "order": 690,
+      "clause": "ADR 2025, 5.4.3.4",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "question_snapshot": {
+        "id": "ADR-B-0690",
+        "module_id": "ADR-B-05",
+        "stem": "Kierowca zatrzymuje pojazd po awarii w bezpiecznym miejscu. Silnik nadal pracuje, a wyłącznik główny akumulatora jest dostępny. Co powinien zrobić zgodnie z instrukcjami pisemnymi ADR?",
+        "options": {
+          "A": "Pozostawić silnik włączony i uruchomić dodatkowe odbiorniki elektryczne, aby zachować zasilanie kabiny.",
+          "B": "Wyłączyć silnik, lecz nie odłączać akumulatora, choć wyłącznik jest dostępny.",
+          "C": "Zastosować hamulec, wyłączyć silnik i użyć wyłącznika głównego akumulatora, jeśli jest dostępny."
+        },
+        "correct_option": "C",
+        "explanation": "Po bezpiecznym zatrzymaniu kierowca powinien zabezpieczyć pojazd hamulcem, wyłączyć silnik i odłączyć akumulator wyłącznikiem głównym, jeśli pojazd go ma. Ogranicza to ryzyko przypadkowego uruchomienia i powstania iskry. Pozostawienie pracującego silnika lub włączanie odbiorników może stworzyć dodatkowe źródło zapłonu, a samo wyłączenie silnika pomija dostępny wyłącznik. Podstawa: ADR 5.4.3.4, model instrukcji pisemnych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — model instrukcji pisemnych, działania w razie wypadku lub awarii: zastosować hamulec, wyłączyć silnik i odłączyć akumulator wyłącznikiem głównym, jeśli jest dostępny",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, 5.4.3.4 (model instrukcji pisemnych)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, Volume II, 5.4.3.4 — written instructions, actions in the event of an accident or emergency",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Keeping the engine running and switching on additional electrical equipment does not follow the written instructions and may introduce ignition sources during an emergency."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Stopping the engine alone omits the additional instruction to isolate the battery with the master switch where available."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "This follows the first action in the written-instruction model: apply the braking system, stop the engine and isolate the battery using the master switch where available, when safe and practicable."
+        }
+      },
+      "notes_on_conditions": "The instruction applies where it is safe and practicable. The battery is isolated by activating the vehicle's master switch where available; it does not direct the driver to disconnect battery cables manually.",
+      "editorial_result": "Question presents a concrete roadside emergency decision and distinguishes stopping the engine from the separate battery-isolation action. All options remain plausible but only C follows the model.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
