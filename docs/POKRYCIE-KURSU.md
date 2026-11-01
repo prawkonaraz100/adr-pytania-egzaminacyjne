@@ -1,3 +1,5 @@
+**Stan aktualny po etapie 4x279: 01.11.2026.**
+
 ## Bieżąca migawka — etap 4x279 (01.11.2026)
 
 - Bank: 705 pytań ADR-B-0001–0705; wszystkie `needs_review`, 0 `verified`; SHA `c1e4a8bb7c44771246bedf691b528f5f43b07630`.
