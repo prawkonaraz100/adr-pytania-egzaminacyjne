@@ -1,3 +1,13 @@
+## Bieżąca migawka — etap 4x278 (01.11.2026)
+
+- Bank: 704 pytania ADR-B-0001–0704; wszystkie `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.
+- ADR-B-0704 do ADR-B-05-K12: gaśnica stabilnie zamocowana, ale niedostępna bez szukania klucza; ADR 2025, 8.1.4.5.
+- Explanation 367 znaków; A/B/C 97/96/100.
+- Rozkład prawidłowych opcji: A=238, B=247, C=219.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/704 = 10,65%**; maksimum działu to 13,95%.
+- ADR-B-05-K12 ma 5 pytań; moduł ADR-B-05 ma 71 pytań.
+- Raport: `podstawowy/raporty/etap-4x278-latwy-dostep-do-gasnicy-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x277 (01.11.2026)
 
 - Bank: 703 pytania ADR-B-0001–0703; wszystkie `needs_review`, 0 `verified`; SHA `c260f5acf3c035db2a9d1268c73d00a3b76328c3`.
@@ -444,7 +454,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **703** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **704** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
