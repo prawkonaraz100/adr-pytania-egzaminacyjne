@@ -31,7 +31,7 @@ Właściwe fragmenty punktu zostały sprawdzone w oficjalnym polskim tekście AD
 
 ## Synchronizacja #646
 
-- Bank po dodaniu: **696** pytań, ADR-B-0001–0696; SHA banku zostanie wpisany po zatwierdzeniu commitu.
+- Bank po dodaniu: **696** pytań, ADR-B-0001–0696; SHA banku: `afaf8c6083b2057c5443f38f30f0c12f0d7d5b7b`.
 - Kompetencja `ADR-B-05-K07` otrzymała piąte pytanie.
 - Klucze i warianty egzaminów próbnych 001–005 wymagają odświeżenia do nowego SHA banku.
 - Snapshoty: `review/sequential/696-696.json`, `review/legal-clauses/696-696.json`; ledger, indeks specjalisty i manifest pakietu dołączone.
