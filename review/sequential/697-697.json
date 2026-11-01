@@ -1,0 +1,58 @@
+{
+  "batch": "697-697",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0697",
+      "sequence": 697,
+      "exact_record_snapshot": {
+        "stem": "Po wypadku ADR kierowca stoi w bezpiecznym miejscu. Widzi, że dwie osoby idą w stronę uszkodzonej przesyłki, a jedyna droga, którą mógłby do nich podejść, prowadzi przez rozlew. Co powinien zrobić?",
+        "options": {
+          "A": "Przejść przez rozlew i osobiście odciągnąć ludzi od przesyłki, aby jak najszybciej opuścili zagrożony teren.",
+          "B": "Z bezpiecznego miejsca ostrzec ludzi, by odeszli od zagrożenia, i nie przechodzić przez rozlew.",
+          "C": "Pozwolić im podejść, jeśli nie dotkną opakowania ani rozlanej substancji."
+        },
+        "correct_option": "B",
+        "explanation": "Osoby postronne trzeba ostrzec i trzymać z dala od strefy zagrożenia, ale nie wolno narażać się, by do nich podejść. Ostrzeż je z bezpiecznego miejsca i nie przechodź przez rozlew; jeśli nie możesz ich bezpiecznie ostrzec, przekaż ratownikom, gdzie się znajdują. Przejście przez ciecz może spowodować kontakt z niebezpiecznym materiałem, a pozwolenie na podejście naraża ludzi. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — ostrzec inne osoby i ruch drogowy o zagrożeniu oraz trzymać je z dala od strefy zagrożenia; nie dotykać rozlewów ani przez nie nie przechodzić",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "ADR 2025, tom II, s. 270, 5.4.3.4 — warn other persons and traffic of the danger and keep them away from the danger area; do not touch or walk through any spillage",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, 5.4.3.4 — written instructions: warn other persons and traffic, keep them away from danger area, and do not touch or walk through spillage",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish ADR 2025 Volume II, 5.4.3.4, p. 270 (PDF p. 281), directly checked: warn other persons and traffic and keep them away from the danger area; do not touch or walk through any spillage. The scenario combines these instructions with the overarching possible-and-safe condition; full comparison of all question nuances and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The official Polish ADR 2025 written-instruction model in 5.4.3.4 requires warning other persons and traffic, keeping them away from the danger area, and not touching or walking through spillage. The question tests warning from a safe position when the direct route to the people crosses the spill.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "source_risk_note": "Targeted clauses directly checked in the official Polish Ministry ADR 2025 Volume II PDF, p. 270; full literal comparison of all question elements and independent specialist review remain pending."
+    }
+  ]
+}
