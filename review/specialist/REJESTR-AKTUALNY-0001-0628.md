@@ -1,8 +1,8 @@
-## Bieżąca migawka — etap 4x258 (01.11.2026)
+## Bieżąca migawka — etap 4x259 (01.11.2026)
 
-- Bank: 684 pytań ADR-B-0001–0684; 684 needs_review, 0 verified; SHA `c8c1f0779bba936b20d6a8f2c9dc8be80aa6fe69`.
-- ADR-B-0684 do ADR-B-09-K03: wyjątek CV28 dla przesyłek z dodatkowym opakowaniem lub całkowicie przykrytych; ADR 7.5.4.
-- 684 wpisy w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x258-cv28-wyjatkowe-przykrycie-2026-11-01.md`.
+- Bank: 685 pytań ADR-B-0001–0685; 685 needs_review, 0 verified; SHA `a456d5fdab0c686b1c657be3f213ac873c491ae4`.
+- ADR-B-0685 do ADR-B-06-K07: trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia; ADR 5.3.2.2.1.
+- 685 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x259-tablice-pomaranczowe-trwalosc-2026-11-01.md`.
 
 ## Bieżąca migawka — etap 4x256 (31.10.2026)
 
@@ -871,3 +871,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0683 | ADR-B-09 | ADR-B-09-K05 | Zgodność różnych konstrukcji opakowań przeznaczonych do piętrzenia i elementy nośne chroniące opakowanie poniżej | B | ADR 2025, 7.5.7.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0684 | ADR-B-09 | ADR-B-09-K03 | Wyjątek od sposobów oddzielenia przesyłek objętych CV28, gdy mają dodatkowe opakowanie lub są całkowicie przykryte | C | ADR 2025, 7.5.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0685 | ADR-B-06 | ADR-B-06-K07 | Trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia | B | ADR 2025, 5.3.2.2.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
