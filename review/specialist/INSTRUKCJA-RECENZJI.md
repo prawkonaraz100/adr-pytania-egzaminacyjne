@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x267 (01.11.2026)
+
+- Bank podstawowy: 693 pytania ADR-B-0001–0693; wszystkie `needs_review`, 0 `verified`; SHA `f6790fbc89a0b68334686303184f65ddcf00787f`.
+- ADR-B-0693 do ADR-B-05-K10: praktyczna kolejność założenia kamizelki ostrzegawczej i ustawienia stojących znaków; ADR 2025, 5.4.3.4, tom II, s. 270.
+- Rozkład odpowiedzi A/B/C: 236/239/218; poprawna odpowiedź jest jedyną najdłuższą w 72/693 = 10,39% pytań.
+- Snapshoty 693-693, klucze i warianty egzaminów 001–005 wskazują bieżący bank. Tekst oficjalnego polskiego ADR 2025 sprawdzono punktowo; pełna recenzja wszystkich elementów i niezależna akceptacja pozostają pending.
+- Raport: `podstawowy/raporty/etap-4x267-kamizelka-przed-znakami-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x266 (01.11.2026)
 
 - Bank podstawowy: 692 pytania ADR-B-0001–0692; wszystkie `needs_review`, 0 `verified`; SHA `1dd005ce09b3ddf90adf0a42b75a96aaf68a986b`.
