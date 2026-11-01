@@ -2,13 +2,13 @@
 
 ## Bieżąca migawka — etap 4x257 (01.11.2026)
 
-- Bank: 683 pytań ADR-B-0001–0683; 683 `needs_review`, 0 `verified`; SHA `03382720e316001da10ddb968fb6c1956107bcef`.
+- Bank: 684 pytań ADR-B-0001–0684; 684 `needs_review`, 0 `verified`; SHA `c8c1f0779bba936b20d6a8f2c9dc8be80aa6fe69`.
 - ADR-B-0683 do ADR-B-09-K05: zgodność różnych konstrukcji opakowań przeznaczonych do piętrzenia i elementy nośne (ADR 7.5.7.2).
 - Explanation 394 znaki, 4 zdania; A/B/C 176/174/162; poprawna B nie jest ani najkrótsza, ani najdłuższa.
 - Rozkład prawidłowych opcji: A=234, B=233, C=216.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/683 = 10,54%**; maksimum działu to 13,95%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/684 = 10,53%**; maksimum działu to 13,95%.
 - B-09 najkrótsza poprawna odpowiedź: 18/52 = 34,62%.
-- Snapshoty: `sequential/683-683.json`, `legal-clauses/683-683.json`; rejestr: `REJESTR-0683-0683.md`.
+- Snapshoty: `sequential/684-684.json`, `legal-clauses/684-684.json`; rejestr: `REJESTR-0684-0684.md`.
 - Raport: `podstawowy/raporty/etap-4x257-pietrzenie-zgodnosc-opakowan-2026-11-01.md`.
 
 **Stan aktualny po etapie 4x256: 31.10.2026.**
@@ -302,12 +302,12 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 43 | 0 | Lekcja + mapa pytań |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 52 | 0 | Lekcja + mapa pytań |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 53 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **683** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **684** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
@@ -466,6 +466,6 @@ Po PR #600–#605 potwierdzono na źródłach repo: **639** pytań `needs_review
 - Dodano ADR-B-0684 do ADR-B-09-K03: wyjątek od obowiązku oddzielenia określonych przesyłek od żywności, gdy przesyłki mają dodatkowe opakowanie lub są całkowicie przykryte.
 - Podstawa: ADR 2025, 7.5.4; tekst ADR 2025 opublikowany na portalu gov.pl. Pytanie dotyczy tylko obowiązku oddzielenia w przypadku bliskiego załadunku i nie uchyla innych wymagań ADR.
 - Explanation: 4 zdania; status `needs_review`. Długości wariantów i rozkład kluczy zapisano w raporcie partii.
-- Bank: 684 pytania, wszystkie `needs_review`, 0 `verified`; SHA `a631e82e57a9caf64bcdef4bc7c4f3ba17c57729`.
+- Bank: 684 pytania, wszystkie `needs_review`, 0 `verified`; SHA `c8c1f0779bba936b20d6a8f2c9dc8be80aa6fe69`.
 - Rozkład kluczy A/B/C: 234/233/217; „poprawna = jedyna najdłuższa”: 72/684 = 10,53%.
 - Raport: [Etap 4x258 — wyjątek CV28 dla całkowicie przykrytych przesyłek](../podstawowy/raporty/etap-4x258-cv28-wyjatkowe-przykrycie-2026-11-01.md).
