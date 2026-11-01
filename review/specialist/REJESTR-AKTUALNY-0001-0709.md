@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x283 (01.11.2026)
 
-- Bank: 709 pytań ADR-B-0001–0709; 709 `needs_review`, 0 `verified`; SHA `733efd0b63dc4b0048a03e53635faacd542ad6d2`.
+- Bank: 709 pytań ADR-B-0001–0709; 709 `needs_review`, 0 `verified`; SHA `ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a`.
 - ADR-B-0709 — definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
 - Explanation 305 znaków; A/B/C 108/102/101; poprawna B nie jest najdłuższa.
 - Rozkład A/B/C: 238/252/219; „poprawna = jedyna najdłuższa”: 75/709 = 10,58%.
