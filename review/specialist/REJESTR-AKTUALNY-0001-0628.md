@@ -876,3 +876,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 
 | ADR-B-0686 | ADR-B-08 | ADR-B-08-K05 | Przenośna lampa dla każdego członka załogi i brak powierzchni metalowej mogącej powodować iskrzenie | A | ADR 2025, 8.1.5.2 i 8.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
