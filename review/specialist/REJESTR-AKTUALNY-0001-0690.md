@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x265 (01.11.2026)
+
+- Bank: 691 pytań ADR-B-0001–0691; wszystkie `needs_review`, 0 `verified`; SHA `13e6e673d26a2a97f0af2d52fd57d01dddd8f1e0`.
+- ADR-B-0691 do ADR-B-05-K03: powiadomienie służb ratowniczych bez zwłoki; ADR 5.4.3.4, tom II, s. 270.
+- 691 wpisów w indeksie; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x265-powiadomienie-sluzb-ratowniczych-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x264 (01.11.2026)
 
 - Bank: 690 pytań ADR-B-0001–0690; wszystkie `needs_review`, 0 `verified`; SHA `66a862742a9c134f92bf467574865101faa0c884`.
@@ -909,3 +915,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0689 | ADR-B-06 | ADR-B-06-K01 | Oznakowanie opakowania zbiorczego napisem OVERPACK, numerem UN i pozostałymi wymaganymi oznaczeniami, gdy oznaczenia opakowań wewnętrznych są niewidoczne | B | ADR 2025, 5.1.2.1(a)(i)–(ii) | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0690 | ADR-B-05 | ADR-B-05-K02 | Bezpieczne zatrzymanie, wyłączenie silnika i odłączenie akumulatora wyłącznikiem głównym | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0691 | ADR-B-05 | ADR-B-05-K03 | Powiadomienie służb ratowniczych bez zwłoki i przekazanie dostępnych informacji | B | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |

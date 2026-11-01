@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x265 (01.11.2026)
+
+- Bank podstawowy: 691 pytań ADR-B-0001–0691; wszystkie `needs_review`, 0 `verified`; SHA `13e6e673d26a2a97f0af2d52fd57d01dddd8f1e0`.
+- ADR-B-0691 do ADR-B-05-K03: sytuacyjne powiadomienie właściwych służb bez zwłoki; ADR 2025, 5.4.3.4, tom II, s. 270.
+- Rozkład odpowiedzi A/B/C: 236/237/218; poprawna odpowiedź jest jedyną najdłuższą w 72/691 = 10,42% pytań.
+- Snapshoty 691-691, klucze i warianty egzaminów 001–005 wskazują bieżący bank. Tekst oficjalnego polskiego ADR 2025 sprawdzono punktowo; pełna recenzja wszystkich elementów i niezależna akceptacja pozostają pending.
+- Raport: `podstawowy/raporty/etap-4x265-powiadomienie-sluzb-ratowniczych-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x264 (01.11.2026)
 
 - Bank podstawowy: 690 pytań ADR-B-0001–0690; wszystkie `needs_review`, 0 `verified`; SHA `66a862742a9c134f92bf467574865101faa0c884`.

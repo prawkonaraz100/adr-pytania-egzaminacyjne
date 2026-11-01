@@ -1,3 +1,10 @@
+**Stan na 01.11.2026, etap 4x265**
+
+- Bank: 691 pytań ADR-B-0001–0691; 691 `needs_review`, 0 `verified`; SHA `13e6e673d26a2a97f0af2d52fd57d01dddd8f1e0`.
+- Najnowsze pytanie: ADR-B-0691 (ADR-B-05-K03), powiadomienie służb ratowniczych bez zwłoki, ADR 5.4.3.4.
+- Rozkład prawidłowych opcji A/B/C: 236/237/218; poprawna = jedyna najdłuższa: **72/691 = 10,42%**.
+- Raport: [Etap 4x265 — powiadomienie służb ratowniczych](raporty/etap-4x265-powiadomienie-sluzb-ratowniczych-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x264**
 
 - Bank: 690 pytań ADR-B-0001–0690; 690 `needs_review`, 0 `verified`; SHA `66a862742a9c134f92bf467574865101faa0c884`.
@@ -370,6 +377,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x265 — powiadomienie służb ratowniczych](raporty/etap-4x265-powiadomienie-sluzb-ratowniczych-2026-11-01.md)
 - [Etap 4x264 — bezpieczne zatrzymanie i wyłączenie silnika](raporty/etap-4x264-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-01.md)
 
 - [Etap 4x263 — oznakowanie opakowania zbiorczego](raporty/etap-4x263-opakowanie-zbiorcze-numer-un-2026-11-01.md)

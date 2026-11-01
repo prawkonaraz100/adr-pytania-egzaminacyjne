@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0691",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 5.4.3.4: notify appropriate emergency services and provide available information about the accident/emergency and dangerous goods; targeted official Polish text checked, full literal comparison and independent specialist review pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0691",
+      "order": 691,
+      "clause": "ADR 2025, 5.4.3.4",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "question_snapshot": {
+        "id": "ADR-B-0691",
+        "module_id": "ADR-B-05",
+        "stem": "Po awarii kierowca jest już w bezpiecznym miejscu. Z pojazdu wydobywa się dym, a dyspozytor firmy prosi, by poczekał na ustalenie przyczyny. Co powinien zrobić zgodnie z instrukcjami pisemnymi ADR?",
+        "options": {
+          "A": "Najpierw skontaktować się z dyspozytorem przewoźnika, uzyskać zgodę i dopiero wtedy wezwać służby.",
+          "B": "Powiadomić właściwe służby ratownicze i przekazać dostępne dane o zdarzeniu oraz ładunku.",
+          "C": "Poczekać, aż firma ustali przyczynę awarii, zanim zadzwoni do służb."
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne wymagają powiadomienia właściwych służb ratowniczych i przekazania im możliwie pełnych informacji o zdarzeniu oraz przewożonych towarach niebezpiecznych. Nie czekaj na zgodę dyspozytora ani na ustalenie całej przyczyny awarii — zgłoś dostępne fakty, a niewiadome jasno zaznacz. Nie zgaduj rodzaju ładunku i nie narażaj się, by zdobyć brakujące dane. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — powiadomienie właściwych służb ratowniczych i przekazanie możliwie pełnych informacji o zdarzeniu oraz przewożonych towarach niebezpiecznych",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "ADR 2025, tom II, s. 270, 5.4.3.4 — powiadomić właściwe służby ratownicze, podając możliwie wszystkie dostępne informacje o wypadku, awarii oraz towarach niebezpiecznych",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, 5.4.3.4 — written instructions, notify appropriate emergency services and provide available information about the accident/emergency and dangerous goods",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "The written instructions do not make the carrier dispatcher a prerequisite for contacting the appropriate emergency services; waiting for company permission may delay the emergency notification."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "This follows ADR 5.4.3.4: notify the appropriate emergency services and provide as much available information as possible about the accident/emergency and dangerous goods."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "The instructions require notifying emergency services and sharing available information; the driver should not delay the call until the cause and full cargo details are established."
+        }
+      },
+      "notes_on_conditions": "The question tests the emergency-notification action, not the exact order of internal company reporting. The driver reports available facts and distinguishes unknown details rather than guessing.",
+      "editorial_result": "Situation adds a decision about not delaying the emergency call for carrier approval or a complete investigation. Existing K03 questions primarily test which cargo and incident details to share.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
