@@ -353,3 +353,10 @@ Powiązane pytanie: **ADR-B-0691**.
 Jeśli wiatr zmieni kierunek, miejsce, które wcześniej było po stronie nawietrznej, może znaleźć się na drodze przemieszczania się oparów. Ponownie oceń kierunek wiatru i, jeżeli jest to bezpieczne i wykonalne, oddal się tak, aby pozostać po stronie nawietrznej. Nie przechodź przez chmurę i nie podchodź do wycieku, by obserwować jego źródło. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
 
 Powiązane pytanie: **ADR-B-0692**.
+
+
+### Kamizelka przed ustawieniem znaków — ADR-B-0693
+
+Przy wypadku lub awarii, jeżeli można to zrobić bezpiecznie, załóż kamizelkę ostrzegawczą i odpowiednio ustaw stojące znaki ostrzegawcze. Kamizelka zwiększa widoczność kierowcy, gdy opuszcza kabinę i porusza się w pobliżu ruchu. Nie wychodź wprost na jezdnię bez kamizelki i nie ustawiaj znaków, jeśli wymagałoby to wejścia w strefę zagrożenia lub narażenia na ruch pojazdów. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+
+Powiązane pytanie: **ADR-B-0693**.
