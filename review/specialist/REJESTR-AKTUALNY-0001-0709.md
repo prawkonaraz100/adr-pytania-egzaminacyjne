@@ -2,7 +2,7 @@
 
 - Bank: 709 pytań ADR-B-0001–0709; 709 `needs_review`, 0 `verified`; SHA `733efd0b63dc4b0048a03e53635faacd542ad6d2`.
 - ADR-B-0709 — definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
-- Explanation 305 znaków; A/B/C 108/98/104; poprawna B nie jest najdłuższa.
+- Explanation 305 znaków; A/B/C 108/102/101; poprawna B nie jest najdłuższa.
 - Rozkład A/B/C: 238/252/219; „poprawna = jedyna najdłuższa”: 75/709 = 10,58%.
 - Snapshoty sequential/legal: 707-707; formalne zatwierdzenia: 0.
 - Raport: `podstawowy/raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md`.
