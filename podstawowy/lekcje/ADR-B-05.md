@@ -360,3 +360,10 @@ Powiązane pytanie: **ADR-B-0692**.
 Przy wypadku lub awarii, jeżeli można to zrobić bezpiecznie, załóż kamizelkę ostrzegawczą i odpowiednio ustaw stojące znaki ostrzegawcze. Kamizelka zwiększa widoczność kierowcy, gdy opuszcza kabinę i porusza się w pobliżu ruchu. Nie wychodź wprost na jezdnię bez kamizelki i nie ustawiaj znaków, jeśli wymagałoby to wejścia w strefę zagrożenia lub narażenia na ruch pojazdów. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
 
 Powiązane pytanie: **ADR-B-0693**.
+
+
+### Mały pożar komory silnika a pożar ładowni — ADR-B-0695
+
+Instrukcje pisemne rozróżniają dwa przypadki. Jeśli jest to właściwe i bezpieczne, można użyć gaśnicy przy małym lub początkowym pożarze opon, hamulców albo komory silnika. Nie oznacza to, że załoga ma gasić każdy pożar: pożaru obejmującego przedział ładunkowy członkowie załogi nie powinni gasić. Jeśli sytuacja jest niebezpieczna, oddal się i wezwij służby. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+
+Powiązane pytanie: **ADR-B-0695**.
