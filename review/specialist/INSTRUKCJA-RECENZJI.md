@@ -1,3 +1,9 @@
+## Migawka bieżąca — 4x262
+
+Bank podstawowy: 688 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `a041f8814aa0c5f0f648d0e98cb25c0055d3821d`. Najnowsza zmiana: ADR-B-0688, sposób przymocowania wymaganej nalepki na małym lub nieregularnym opakowaniu (ADR 5.2.2.1.6). Snapshoty 688-688, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
+Raport: `podstawowy/raporty/etap-4x262-nalepka-przywieszka-male-opakowanie-2026-11-01.md`.
+
+
 ## Migawka bieżąca — 4x261
 
 Bank podstawowy: 687 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `ba18db9994feecf876b449a203dcc1590e16523f`. Najnowsza zmiana: ADR-B-0687, postępowanie ze skażoną odzieżą i użytymi skażonymi środkami ochronnymi po awarii (ADR 5.4.3.4, model instrukcji pisemnych). Snapshoty 687-687, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
