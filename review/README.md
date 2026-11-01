@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x272 (01.11.2026)
+
+- Bank: 698 pytań ADR-B-0001–0698; wszystkie `needs_review`, 0 `verified`; SHA `e81ce0f9d620ab270c41bf0d09903d4aad43dc8e`.
+- ADR-B-0698: sytuacyjne zastosowanie ostrzeżenia X — niebezpieczna reakcja z wodą; ADR 5.3.2.3.1.
+- Explanation 381 znaków / 5 zdań; A/B/C 118/126/110; poprawna B.
+- Raport: `podstawowy/raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x271 (01.11.2026)
 
 - Bank podstawowy: 697 pytań ADR-B-0001–0697; wszystkie `needs_review`, 0 `verified`; SHA `1821851aee9c83c4b4e3197aa3e59594b93bb513`.
