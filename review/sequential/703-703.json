@@ -1,0 +1,58 @@
+{
+  "batch": "703-703",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0703",
+      "sequence": 703,
+      "exact_record_snapshot": {
+        "stem": "Podczas wielopunktowej dostawy kierowca rozładował część skrzyń z jednej strony przestrzeni ładunkowej. Po zdjęciu pasów pozostałe skrzynie stoją, ale między nimi a ścianą powstała wolna przestrzeń i ładunek może przesunąć się podczas hamowania. Co powinien zrobić przed dalszą jazdą?",
+        "options": {
+          "A": "Ułożyć pozostałe skrzynie i ponownie je zabezpieczyć, aby nie mogły się przemieszczać podczas jazdy.",
+          "B": "Zostawić ładunek bez zmian, jeśli przed rozładunkiem był prawidłowo zabezpieczony; nie trzeba sprawdzać pośrednich etapów.",
+          "C": "Dodać jedną taśmę na wierzchu skrzyń bez sprawdzania, czy pozostały ładunek może przesuwać się na boki."
+        },
+        "correct_option": "A",
+        "explanation": "Po częściowym rozładunku układ ładunku się zmienia, więc wcześniejsze mocowanie może już nie wystarczać. Kierowca powinien ponownie ułożyć i zabezpieczyć pozostałe skrzynie, aby nie przesuwały się podczas hamowania ani skręcania. Sama taśma na wierzchu nie usuwa wolnej przestrzeni ani nie zastępuje sprawdzenia całego mocowania. Podstawa: ADR 7.5.7.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.1 — sztuki przesyłki załadowane na pojazd lub do kontenera powinny być zabezpieczone odpowiednimi środkami, aby zapobiec przemieszczaniu się podczas przewozu",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 7.5.7.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 7.5.7.1 — packages loaded in a vehicle or container shall be secured by suitable means capable of restraining the goods during carriage",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish ADR 2025, 7.5.7.1: packages loaded in a vehicle or container must be secured by suitable means capable of restraining movement during carriage. Full literal comparison and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The scenario tests the need to reassess and resecure the remaining packages after a partial unloading changes the load arrangement; earlier lashing is not assumed to remain adequate.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "source_risk_note": "Targeted clause checked in official Polish ADR 2025 text at 7.5.7.1; full question comparison and specialist review pending."
+    }
+  ]
+}
