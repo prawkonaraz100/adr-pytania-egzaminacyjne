@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x271 (01.11.2026)
+
+- Bank podstawowy: 697 pytań ADR-B-0001–0697; wszystkie `needs_review`, 0 `verified`; SHA `1821851aee9c83c4b4e3197aa3e59594b93bb513`.
+- ADR-B-0697 do ADR-B-05-K09: ostrzeżenie osób postronnych z bezpiecznego miejsca bez przechodzenia przez rozlew; ADR 2025, 5.4.3.4, tom II, s. 270.
+- Explanation 400 znaków, 4 zdania; A/B/C 108/95/73; poprawna B jest pośrodku — nie jest ani najdłuższa, ani najkrótsza.
+- Rozkład prawidłowych opcji: A=237, B=241, C=219; poprawna = jedyna najdłuższa: 72/697 = 10,33%.
+- ADR-B-05-K09 ma 5 pytań; moduł ADR-B-05 ma 68 pytań. Snapshoty 697-697; egzamin próbny 001–005 zsynchronizowany.
+- Raport: `podstawowy/raporty/etap-4x271-ostrzezenie-z-bezpiecznego-miejsca-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x270 (01.11.2026)
 
 - Bank podstawowy: 696 pytań ADR-B-0001–0696; wszystkie `needs_review`, 0 `verified`; SHA `004cd974f7a402fa47407c6268ae7202b5ceb466`.
