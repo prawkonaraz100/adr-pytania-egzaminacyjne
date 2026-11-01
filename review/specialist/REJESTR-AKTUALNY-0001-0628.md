@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x271 (01.11.2026)
+
+- Bank: 697 pytań ADR-B-0001–0697; wszystkie `needs_review`, 0 `verified`; SHA `1821851aee9c83c4b4e3197aa3e59594b93bb513`.
+- ADR-B-0697 do ADR-B-05-K09: ostrzeżenie osób postronnych z bezpiecznego miejsca, bez przechodzenia przez rozlew; ADR 5.4.3.4, tom II, s. 270.
+- 697 wpisów w indeksie; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x271-ostrzezenie-z-bezpiecznego-miejsca-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x270 (01.11.2026)
 
 - Bank: 696 pytań ADR-B-0001–0696; wszystkie `needs_review`, 0 `verified`; SHA `004cd974f7a402fa47407c6268ae7202b5ceb466`.
@@ -957,3 +963,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0695 | ADR-B-05 | ADR-B-05-K05 | Mały/początkowy pożar komory silnika — warunkowe użycie gaśnicy | A | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0696 | ADR-B-05 | ADR-B-05-K07 | Dokumenty dla ratowników — nie wracać do zadymionej kabiny | C | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0697 | ADR-B-05 | ADR-B-05-K09 | Ostrzeżenie osób postronnych z bezpiecznego miejsca bez przechodzenia przez rozlew | B | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |

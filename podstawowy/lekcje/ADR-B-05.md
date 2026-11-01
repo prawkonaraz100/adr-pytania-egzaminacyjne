@@ -374,3 +374,10 @@ Powiązane pytanie: **ADR-B-0695**.
 Dokumenty przewozowe powinny być łatwo dostępne dla służb ratowniczych po ich przybyciu. Nie oznacza to jednak, że kierowca ma wracać po nie do kabiny wypełnionej dymem. Pozostań w bezpiecznym miejscu, przekaż ratownikom informacje, które już znasz, i wskaż, gdzie znajduje się dokument. Każde działanie z instrukcji wykonuj tylko wtedy, gdy jest możliwe i bezpieczne. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
 
 Powiązane pytanie: **ADR-B-0696**.
+
+
+### Ostrzeżenie osób postronnych bez wchodzenia w rozlew — ADR-B-0697
+
+Jeśli ludzie zbliżają się do miejsca awarii, ostrzeż ich i trzymaj z dala od strefy zagrożenia. Nie przechodź przez rozlaną substancję, nawet jeśli chcesz szybko dotrzeć do osób i je zatrzymać. Ostrzegaj z bezpiecznego miejsca, o ile jest to możliwe; jeśli nie możesz zrobić tego bezpiecznie, przekaż ratownikom, gdzie znajdują się te osoby. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+
+Powiązane pytanie: **ADR-B-0697**.
