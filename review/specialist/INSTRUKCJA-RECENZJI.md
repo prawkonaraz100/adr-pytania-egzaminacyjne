@@ -1,3 +1,9 @@
+## Migawka bieżąca — 4x263
+
+Bank podstawowy: 689 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `d607ae33a6268223f289fd94599f289c6115c9ce`. Najnowsza zmiana: ADR-B-0689, oznakowanie opakowania zbiorczego napisem OVERPACK i odtworzenie numeru UN oraz innych wymaganych oznaczeń, gdy wewnętrzne oznaczenia są niewidoczne (ADR 5.1.2.1(a)(i)–(ii)). Snapshoty 689-689, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
+Raport: `podstawowy/raporty/etap-4x263-opakowanie-zbiorcze-numer-un-2026-11-01.md`.
+
+
 ## Migawka bieżąca — 4x262
 
 Bank podstawowy: 688 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `a041f8814aa0c5f0f648d0e98cb25c0055d3821d`. Najnowsza zmiana: ADR-B-0688, sposób przymocowania wymaganej nalepki na małym lub nieregularnym opakowaniu (ADR 5.2.2.1.6). Snapshoty 688-688, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
