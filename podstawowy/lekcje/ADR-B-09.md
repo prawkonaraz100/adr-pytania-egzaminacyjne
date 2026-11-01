@@ -294,3 +294,14 @@ Wybierz scenariusz działu ADR-B-09 z [mapy praktycznej](../praktyka/scenariusze
 
 Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi porównać je z pełnym polskim tekstem ADR.
 
+
+
+### Wyjątek CV28 — dodatkowe opakowanie lub całkowite przykrycie — ADR-B-09-K03
+
+**Wyjaśnienie dla kursanta:** Przy towarach objętych CV28 trzeba chronić żywność przed kontaktem z określonymi przesyłkami, m.in. przez przegrodę, inne przesyłki albo wolną przestrzeń 0,8 m. ADR przewiduje jednak wyjątek od tych sposobów oddzielenia, gdy wskazane przesyłki mają dodatkowe opakowanie lub są całkowicie przykryte, np. plandeką. Sam wpis w dokumencie nie zastępuje fizycznego zabezpieczenia.
+
+**Przykład z pracy:** Przesyłki oznakowane nalepką 6.1 są przewożone blisko żywności, ale każda jest całkowicie przykryta. Czy nadal trzeba stosować przegrodę lub odstęp 0,8 m?
+
+**Co warto zrobić lub sprawdzić:** Ustal, czy dla towaru wskazano CV28 w kolumnie 18 tabeli A i czy przesyłki rzeczywiście mają dodatkowe opakowanie lub są całkowicie przykryte. Nie rozszerzaj wyjątku na inne wymagania ADR.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0684` i wyjaśnij, dlaczego sam wpis w dokumencie nie wystarcza. **Sprawdź przepis:** ADR 7.5.4.
