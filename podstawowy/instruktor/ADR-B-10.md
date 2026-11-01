@@ -129,3 +129,14 @@ Przygotuj dokumenty dla fikcyjnego odcinka morskiego i drogowego. Kursant ma roz
 - `SC-ADR-B-10-03` — niezgodność certyfikatu pakowania.
 
 Pytania kontrolne: `ADR-B-0028`, `ADR-B-0029`, `ADR-B-0030`, `ADR-B-0247`, `ADR-B-0277`, `ADR-B-0320`, `ADR-B-0388`, `ADR-B-0396`, `ADR-B-0437`, `ADR-B-0511`. Typowe błędy: uznanie dokumentu morskiego za automatyczne zwolnienie z ADR; dopisanie danych bez potwierdzenia; pominięcie certyfikatu pakowania, gdy jest wymagany.
+
+
+## Ćwiczenie — brak wpisu w dokumencie po odcinku morskim (ADR-B-0708)
+
+**Sytuacja:** Kierowca odbiera kontener w porcie. Dokumentacja potwierdza, że drogowy odcinek przewozu odbywa się zgodnie z ADR 1.1.4.2.1, ale brakuje wpisu wymaganego w 5.4.1.1.7.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że przed wyjazdem należy uzyskać dokument zawierający dokładną adnotację „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Nie wystarczy ogólna informacja o promie ani założenie, że dokument morski zawsze zastępuje wymagane dane ADR.
+
+**Typowe błędy:** traktowanie samego portu jako dowodu zastosowania 1.1.4.2.1; pominięcie wymaganego wpisu; samodzielne wymyślanie innego brzmienia adnotacji.
+
+**Podstawa:** ADR 2025, 5.4.1.1.7 i 1.1.4.2.1. Ćwiczenie omawia się na dokumentach przykładowych, bez rzeczywistego przewozu.
