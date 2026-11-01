@@ -239,3 +239,14 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowy błąd:** kontynuowanie gaszenia tylko dlatego, że ogień rozpoczął się na oponie.
 
 **Podstawa:** ADR 2025, 5.4.3.4.
+
+
+## Ćwiczenie — bezpieczne usunięcie skażonej odzieży (ADR-B-0707)
+
+**Sytuacja:** Po zdarzeniu kierowca oddalił się od zagrożenia i zdjął skażoną odzież oraz użyte skażone środki ochronne. Trzeba zdecydować, co zrobić z tymi rzeczami.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że należy zapewnić ich bezpieczne usunięcie, nie wrzucać ich do zwykłego kosza i nie pozostawiać w miejscu dostępnym dla osób postronnych. Nie należy przenosić skażenia do kabiny.
+
+**Typowe błędy:** wyrzucenie do zwykłego kosza; pozostawienie rzeczy przy drodze; przewiezienie skażonych rzeczy do kabiny lub przekazanie ich innej osobie bez ostrzeżenia.
+
+**Podstawa:** ADR 2025, 5.4.3.4. Ćwiczenie omawia się na sucho.
