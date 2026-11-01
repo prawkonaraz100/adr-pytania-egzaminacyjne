@@ -312,3 +312,10 @@ Opakowanie zbiorcze (OVERPACK) ([definicja w słowniczku](../SLOWNICZEK.md#opako
 Jednostka transportowa przewożąca towary niebezpieczne ma mieć dwie tablice pomarańczowe: jedną z przodu, drugą z tyłu. Obie muszą być ustawione prostopadle do osi podłużnej pojazdu i dobrze widoczne. Jeśli koło zapasowe, element zabudowy lub ładunek zasłania tylną tablicę, przed rozpoczęciem przewozu usuń przeszkodę albo popraw mocowanie. Widoczna tablica z przodu nie zastępuje tylnej. Podstawa: ADR 2025, 5.3.2.1.1, tom II, s. 248.
 
 Powiązane pytanie: **ADR-B-0694**.
+
+
+### Litera X na tablicy — ostrzeżenie dla ratowników (ADR-B-0698)
+
+Jeśli numer rozpoznawczy zagrożenia jest poprzedzony literą X, materiał reaguje niebezpiecznie z wodą. Przekaż tę informację ratownikom; nie oceniaj samodzielnie, czy można użyć wody. ADR dopuszcza jej zastosowanie tylko za zgodą specjalistów. Podstawa: ADR 2025, 5.3.2.3.1, tom II, s. 251.
+
+Powiązane pytanie: **ADR-B-0698**.
