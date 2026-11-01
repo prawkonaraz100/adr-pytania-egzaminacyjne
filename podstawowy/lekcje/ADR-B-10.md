@@ -238,3 +238,8 @@ Wybierz scenariusz działu ADR-B-10 z [mapy praktycznej](../praktyka/scenariusze
 
 Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi porównać je z pełnym polskim tekstem ADR.
 
+
+
+### Wpis w dokumencie przy ADR 1.1.4.2.1 (ADR-B-0708)
+
+Jeżeli przewóz odbywa się zgodnie z ADR 1.1.4.2.1, dokument przewozowy musi zawierać dokładną informację: „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Sam fakt, że trasa obejmuje port lub prom, nie oznacza automatycznie, że warunki tego przepisu są spełnione. Przed wyjazdem sprawdź, czy przewóz rzeczywiście korzysta z tego rozwiązania i czy wymagany wpis znajduje się w dokumencie. Podstawa: ADR 5.4.1.1.7 i 1.1.4.2.1.

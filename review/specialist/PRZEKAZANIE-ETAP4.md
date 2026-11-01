@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x282 (01.11.2026)
+
+- Bank: 708 pytań ADR-B-0001–0708; wszystkie `needs_review`, 0 `verified`; SHA `ee7a6a90e270e62cb6b24b0c2db1e15d9f8ae02c`.
+- ADR-B-0708 do ADR-B-10-K02: wymagany wpis w dokumencie dla przewozu zgodnego z 1.1.4.2.1; ADR 2025, 5.4.1.1.7.
+- Explanation 330 znaków; A/B/C 105/102/105; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C: 238/251/219; poprawna = jedyna najdłuższa: 75/708 = 10,59%.
+- ADR-B-10-K02 ma 5 pytań; moduł ADR-B-10 ma 56 pytań.
+- Raport: `podstawowy/raporty/etap-4x282-adnotacja-przewozowa-1-1-4-2-1-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x281 (01.11.2026)
 
 - Bank: 707 pytań ADR-B-0001–0707; wszystkie `needs_review`, 0 `verified`; SHA `d2eaa0b3df4ee50661e30cf62554ae5ca62ea408`.

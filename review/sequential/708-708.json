@@ -1,0 +1,59 @@
+{
+  "batch": "708-708",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0708",
+      "sequence": 708,
+      "exact_record_snapshot": {
+        "stem": "Kierowca odbiera w porcie kontener po odcinku morskim. Dokumentacja potwierdza, że drogowy odcinek przewozu odbywa się zgodnie z ADR 1.1.4.2.1, ale w dokumencie przewozowym brakuje wymaganej adnotacji. Co powinien zrobić przed wyjazdem?",
+        "options": {
+          "A": "Wyjechać bez wpisu, bo dokument morski zawsze zastępuje wymagane informacje na drogowym odcinku przewozu.",
+          "B": "Przed wyjazdem uzyskać dokument z adnotacją: „PRZEWÓZ ZGODNY Z 1.1.4.2.1”, wymaganą dla tego przewozu.",
+          "C": "Samodzielnie wpisać ogólną adnotację o przewozie promem, bez sprawdzenia warunków przepisu 1.1.4.2.1 ADR."
+        },
+        "correct_option": "B",
+        "explanation": "Jeżeli przewóz drogowy rzeczywiście odbywa się zgodnie z ADR 1.1.4.2.1, dokument przewozowy musi zawierać dokładną adnotację „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Sam rejs promem nie wystarcza, a własny ogólny wpis nie zastępuje wymaganego brzmienia. Przed wyjazdem wyjaśnij brak z wystawcą dokumentu. Podstawa: ADR 5.4.1.1.7 i 1.1.4.2.1.",
+        "sources": [
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 5.4.1.1.7 — w przypadku przewozu zgodnie z 1.1.4.2.1 w dokumencie przewozowym należy zamieścić informację „PRZEWÓZ ZGODNY Z 1.1.4.2.1”; ADR 1.1.4.2.1 określa warunki stosowania przepisów w łańcuchu obejmującym przewóz morski lub lotniczy",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7 i 1.1.4.2.1; oficjalny tekst polski opublikowany przez Ministerstwo Infrastruktury",
+            "url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 5.4.1.1.7 and 1.1.4.2.1",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.4.1.1.7: for carriage in accordance with 1.1.4.2.1 the transport document must contain the exact notation 'PRZEWÓZ ZGODNY Z 1.1.4.2.1'. Dz.U. 2025 poz. 642, official Polish text; full specialist comparison pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The question states that the road leg is actually carried out in accordance with 1.1.4.2.1, so the exact entry prescribed by 5.4.1.1.7 must appear in the transport document. A port call alone is not sufficient.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "source_risk_note": "Exact required Polish notation is reproduced from the official Dz.U. 2025 poz. 642 text search result; specialist must compare the full applicable provision and any corrigendum before approval.",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}
