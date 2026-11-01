@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0695",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 5.4.3.4: conditional use of extinguishers for small/incipient fires involving tyres, brakes or engine compartment, contrasted with prohibition on crew tackling load-compartment fires; targeted official Polish text checked, full literal comparison and independent specialist review pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0695",
+      "order": 695,
+      "clause": "ADR 2025, 5.4.3.4",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "question_snapshot": {
+        "id": "ADR-B-0695",
+        "module_id": "ADR-B-05",
+        "stem": "Podczas przewozu ADR kierowca zauważa niewielki, początkowy pożar w komorze silnika. Ogień nie obejmuje przedziału ładunkowego. Co może zrobić zgodnie z instrukcjami pisemnymi?",
+        "options": {
+          "A": "Jeśli jest to właściwe i bezpieczne, użyć gaśnicy do małego pożaru silnika.",
+          "B": "Nie gasić żadnego pożaru pojazdu; zawsze czekać wyłącznie na straż pożarną.",
+          "C": "Otworzyć komorę silnika i gasić ogień bez oceny zagrożenia."
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcje pisemne dopuszczają użycie gaśnicy przy małym lub początkowym pożarze opon, hamulców albo komory silnika, ale tylko wtedy, gdy jest to właściwe i bezpieczne. Nie oznacza to zgody na ryzykowne gaszenie każdego pożaru. Całkowity zakaz pomija ten wyjątek, a działanie bez oceny zagrożenia może narazić kierowcę. Pożaru przedziału ładunkowego załoga nie powinna gasić. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — użycie gaśnic do małego lub początkowego pożaru opon, hamulców lub przedziału silnika, jeżeli jest to właściwe i bezpieczne; załoga nie powinna gasić pożaru przedziału ładunkowego",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "ADR 2025, tom II, s. 270, 5.4.3.4 — if appropriate and safe, use extinguishers to tackle small/incipient fires in tyres, brakes or engine compartment; crew members should not tackle fires in load compartments",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, 5.4.3.4 — written instructions, firefighting actions: small/incipient tyre, brake or engine-compartment fires if appropriate and safe; do not tackle load-compartment fires",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "The written instructions allow an extinguisher to be used for a small or incipient fire involving the engine compartment, provided it is appropriate and safe."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "This is too broad: the written instructions do not prohibit all attempts to tackle small or incipient fires involving tyres, brakes or engine compartment when appropriate and safe."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opening the engine compartment and fighting the fire without assessing safety ignores the express condition that the action must be appropriate and safe."
+        }
+      },
+      "notes_on_conditions": "This exception applies only to small or incipient fires involving tyres, brakes or the engine compartment, and only if appropriate and safe. It must not be confused with a fire involving the load compartment, which crew members should not tackle.",
+      "editorial_result": "Scenario addresses a gap in K05: the four existing questions repeat the rule not to tackle load-compartment fires. This item tests the complementary limited exception for small/incipient engine-compartment fires, including the safety condition.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
