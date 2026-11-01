@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x264: 01.11.2026.**
+
+## Bieżąca migawka — etap 4x264 (01.11.2026)
+
+- Bank: 690 pytań ADR-B-0001–0690; 690 `needs_review`, 0 `verified`; blob SHA `66a862742a9c134f92bf467574865101faa0c884`.
+- ADR-B-0690 do ADR-B-05-K02: sytuacyjne zastosowanie hamulca, wyłączenie silnika i odłączenie akumulatora wyłącznikiem głównym, jeśli dostępny; ADR 5.4.3.4.
+- Explanation 424 znaki, 4 zdania; A/B/C 103/77/96; poprawna C nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=236/B=236/C=218.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/690 = 10,43%**; limit 18% zachowany.
+- ADR-B-05-K02 ma 5 pytań; moduł ADR-B-05 ma 62 pytania.
+- Snapshoty: `sequential/690-690.json`, `legal-clauses/690-690.json`; rejestr: `REJESTR-0690-0690.md`.
+- Raport: `podstawowy/raporty/etap-4x264-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-01.md`.
+
 **Stan aktualny po etapie 4x263: 01.11.2026.**
 
 ## Bieżąca migawka — etap 4x263 (01.11.2026)
