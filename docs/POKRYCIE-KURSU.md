@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x261: 01.11.2026.**
+
+## Bieżąca migawka — etap 4x261 (01.11.2026)
+
+- Bank: 687 pytań ADR-B-0001–0687; 687 `needs_review`, 0 `verified`; SHA `ba18db9994feecf876b449a203dcc1590e16523f`.
+- ADR-B-0687 do ADR-B-03-K05: zdjęcie skażonej odzieży i użytych skażonych środków ochronnych oraz ich bezpieczne usunięcie (ADR 5.4.3.4, model instrukcji pisemnych).
+- Explanation 410 znaków, 4 zdania; A/B/C 110/109/114; poprawna A nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=236, B=234, C=217.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/687 = 10,48%**; maksimum działu to 13,95%.
+- ADR-B-03-K05 ma 5 pytań; moduł ADR-B-03 ma 56 pytań.
+- Snapshoty: `sequential/687-687.json`, `legal-clauses/687-687.json`; rejestr: `REJESTR-0687-0687.md`.
+- Raport: `podstawowy/raporty/etap-4x261-skazona-odziez-po-awarii-2026-11-01.md`.
+
 **Stan aktualny po etapie 4x260: 01.11.2026.**
 
 ## Bieżąca migawka — etap 4x260 (01.11.2026)
@@ -307,7 +320,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 50 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
-| ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 55 | 4 | Lekcja + mapa pytań |
+| ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 61 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 55 | 0 | Lekcja + mapa pytań |
@@ -318,7 +331,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **686** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **687** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
