@@ -873,3 +873,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0684 | ADR-B-09 | ADR-B-09-K03 | Wyjątek od sposobów oddzielenia przesyłek objętych CV28, gdy mają dodatkowe opakowanie lub są całkowicie przykryte | C | ADR 2025, 7.5.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0685 | ADR-B-06 | ADR-B-06-K07 | Trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia | B | ADR 2025, 5.3.2.2.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0685 | ADR-B-06 | ADR-B-06-K07 | Trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia | B | ADR 2025, 5.3.2.2.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
