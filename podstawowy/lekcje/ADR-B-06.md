@@ -296,3 +296,12 @@ Wymagana nalepka zagrożenia nadal musi towarzyszyć sztuce przesyłki, nawet gd
 **Przykład:** niewielkie, nieregularne opakowanie nie ma płaskiej powierzchni na wymaganą nalepkę. Zastosuj przywieszkę tak zamocowaną, aby pozostała przy przesyłce podczas przewozu.
 
 **Ćwiczenie:** ADR-B-0688. Podstawa: ADR 5.2.2.1.1 i 5.2.2.1.6.
+
+
+### Numer UN i pozostałe oznaczenia na opakowaniu zbiorczym — ADR-B-06-K01
+
+Opakowanie zbiorcze (OVERPACK) ([definicja w słowniczku](../SLOWNICZEK.md#opakowanie-zbiorcze-overpack)) to osłona lub opakowanie, które łączy jedną lub więcej sztuk przesyłek w jedną jednostkę dla łatwiejszej obsługi. Jeżeli zasłania oznaczenia i nalepki reprezentujące wszystkie znajdujące się w nim towary niebezpieczne, trzeba odtworzyć wymagane oznakowanie na zewnątrz. ADR wymaga wtedy napisu „OVERPACK” oraz numeru UN i innych wymaganych oznaczeń i nalepek dla zawartych towarów, których nie widać. Sam napis „OVERPACK” ani wpis w dokumencie przewozowym nie zastępują oznakowania zagrożeń.
+
+**Przykład:** folia na palecie całkowicie zakrywa numer UN i nalepki jedynej przesyłki ADR. Przed przewozem sprawdź, czy na opakowaniu zbiorczym widnieje napis „OVERPACK” oraz wymagane oznaczenia i nalepki.
+
+**Ćwiczenie:** ADR-B-0689. Podstawa: ADR 5.1.2.1(a)(i)–(ii).

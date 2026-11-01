@@ -1,13 +1,15 @@
-## Bieżąca migawka — etap 4x262 (01.11.2026)
+## Bieżąca migawka — etap 4x263 (01.11.2026)
 
-- Bank: 688 pytań ADR-B-0001–0688; 688 `needs_review`, 0 `verified`; SHA `a041f8814aa0c5f0f648d0e98cb25c0055d3821d`.
-- ADR-B-0688 do ADR-B-06-K02: wyjątek sposobu przymocowania nalepki na małym lub nieregularnym opakowaniu (ADR 5.2.2.1.6).
-- Explanation 364 znaki, 4 zdania; A/B/C 148/118/75; poprawna B nie jest ani najkrótsza, ani najdłuższa.
-- Rozkład prawidłowych opcji: A=236, B=235, C=217.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/688 = 10,47%**; maksimum działu to 13,95%.
-- ADR-B-06-K02 ma 5 pytań; moduł ADR-B-06 ma 56 pytań.
-- Snapshoty: `sequential/688-688.json`, `legal-clauses/688-688.json`; rejestr: `REJESTR-0688-0688.md`.
-- Raport: `podstawowy/raporty/etap-4x262-nalepka-przywieszka-male-opakowanie-2026-11-01.md`.
+- Bank: 689 pytań ADR-B-0001–0689; 689 `needs_review`, 0 `verified`; SHA `d607ae33a6268223f289fd94599f289c6115c9ce`.
+- ADR-B-0689 do ADR-B-06-K01: oznakowanie opakowania zbiorczego napisem OVERPACK, numerem UN i innymi wymaganymi oznaczeniami, gdy oznaczenia wewnętrzne są niewidoczne (ADR 5.1.2.1(a)(i)–(ii)).
+- Explanation 431 znaków, 4 zdania; A/B/C 142/126/108; poprawna B nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=236, B=236, C=217.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/689 = 10,45%**; maksimum działu to 13,95%.
+- ADR-B-06-K01 ma 5 pytań; moduł ADR-B-06 ma 57 pytań.
+- Snapshoty: `sequential/689-689.json`, `legal-clauses/689-689.json`; rejestr: `REJESTR-0689-0689.md`.
+- Raport: `podstawowy/raporty/etap-4x263-opakowanie-zbiorcze-numer-un-2026-11-01.md`.
+
+**Stan na 01.11.2026, etap 4x263**
 
 **Stan na 01.11.2026, etap 4x262**
 
@@ -362,7 +364,7 @@
 
 ## Raporty jakości
 
-- [Etap 4x262 — nalepka na przywieszce przy małym opakowaniu](raporty/etap-4x262-nalepka-przywieszka-male-opakowanie-2026-11-01.md)
+- [Etap 4x263 — oznakowanie opakowania zbiorczego](raporty/etap-4x263-opakowanie-zbiorcze-numer-un-2026-11-01.md)
 
 - [Etap 4x256 — strzałki kierunkowe: wyjątek dla małych opakowań](raporty/etap-4x256-strzalki-kierunkowe-wyjatek-opakowania-2026-10-31.md)
 - [Etap 4x255 — ochrona kanalizacji: dodatkowe wyposażenie ADR](raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md)

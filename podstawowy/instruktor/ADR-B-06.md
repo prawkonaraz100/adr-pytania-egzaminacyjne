@@ -151,3 +151,10 @@ Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, dru
 **Sytuacja symulowana:** kursant otrzymuje obraz małej, nieregularnej sztuki przesyłki, na której nie można prawidłowo przykleić nalepki. Ma wskazać rozwiązanie z ADR 5.2.2.1.6: pewnie umocowaną przywieszkę lub inny odpowiedni sposób, który utrzyma nalepkę przy przesyłce. Nie wolno pomijać nalepki ani wkładać jej luzem do opakowania.
 
 **Pytanie kontrolne:** ADR-B-0688. Podstawa: ADR 5.2.2.1.1 i 5.2.2.1.6.
+
+
+### Zadanie instruktorskie — oznakowanie opakowania zbiorczego (ADR-B-0689)
+
+**Sytuacja symulowana:** folia na opakowaniu zbiorczym zakrywa numer UN i nalepki znajdujących się wewnątrz towarów ADR. Kursant ma wskazać, że jeśli oznaczenia nie są widoczne, opakowanie zbiorcze musi mieć napis „OVERPACK” oraz odtworzone wymagane numery UN, inne oznaczenia i nalepki dla zawartości.
+
+**Pytanie kontrolne:** ADR-B-0689. Podstawa: ADR 5.1.2.1(a)(i)–(ii). Nie mylić z odrębnymi zasadami dla towarów w ilościach ograniczonych lub wyłączonych.
