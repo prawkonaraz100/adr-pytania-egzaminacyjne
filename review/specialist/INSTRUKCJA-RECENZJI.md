@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x272 (01.11.2026)
+
+- Bank podstawowy: 698 pytań ADR-B-0001–0698; wszystkie `needs_review`, 0 `verified`; SHA `e81ce0f9d620ab270c41bf0d09903d4aad43dc8e`.
+- ADR-B-0698 do ADR-B-06-K04: przekazanie ratownikom ostrzeżenia o niebezpiecznej reakcji z wodą przy literze X; ADR 2025, 5.3.2.3.1, tom II, s. 251.
+- Explanation 381 znaków / 5 zdań; A/B/C 118/126/110; poprawna B jest najdłuższa.
+- Rozkład prawidłowych opcji: A=237, B=242, C=219; poprawna = jedyna najdłuższa: 73/698 = 10,46%.
+- ADR-B-06-K04 ma 5 pytań; moduł ADR-B-06 ma 59 pytań. Snapshoty 698-698; egzaminy próbne 001–005 zsynchronizowane.
+- Raport: `podstawowy/raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x271 (01.11.2026)
 
 - Bank podstawowy: 697 pytań ADR-B-0001–0697; wszystkie `needs_review`, 0 `verified`; SHA `1821851aee9c83c4b4e3197aa3e59594b93bb513`.
