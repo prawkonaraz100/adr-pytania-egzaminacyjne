@@ -1,8 +1,8 @@
 ## Bieżąca migawka — etap 4x260 (01.11.2026)
 
 - Bank: 686 pytań ADR-B-0001–0686; 686 `needs_review`, 0 `verified`; SHA `f5f21db12588f8b0451c27a1a82783982a731133`.
-- ADR-B-0686 do ADR-B-08-K05: przenośna lampa dla każdego członka załogi i brak powierzchni metalowej mogącej powodować iskrzenie (ADR 8.1.5.2 i 8.3.4).
-- Explanation 357 znaków, 4 zdania; A/B/C 123/133/87; poprawna A nie jest ani najkrótsza, ani najdłuższa.
+- ADR-B-0686 do ADR-B-08-K05: liczba przenośnych lamp — jedna dla każdego członka załogi (ADR 8.1.5.2).
+- Explanation 361 znaków, 4 zdania; A/B/C 109/123/92; poprawna A nie jest ani najkrótsza, ani najdłuższa.
 - Rozkład prawidłowych opcji: A=235, B=234, C=217.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/686 = 10,50%**; maksimum działu to 13,95%.
 - ADR-B-08-K05 ma 5 pytań; moduł ADR-B-08 ma 44 pytania.
