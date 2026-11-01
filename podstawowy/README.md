@@ -1,3 +1,10 @@
+**Stan na 01.11.2026, etap 4x264**
+
+- Bank: 690 pytań ADR-B-0001–0690; 690 `needs_review`, 0 `verified`; SHA `66a862742a9c134f92bf467574865101faa0c884`.
+- Najnowsze pytanie: ADR-B-0690 (ADR-B-05-K02), bezpieczne zatrzymanie i wyłączenie silnika, ADR 5.4.3.4.
+- Rozkład prawidłowych opcji A/B/C: 236/236/218; poprawna = jedyna najdłuższa: **72/690 = 10,43%**.
+- Raport: [Etap 4x264 — bezpieczne zatrzymanie i wyłączenie silnika](raporty/etap-4x264-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-01.md).
+
 ## Bieżąca migawka — etap 4x263 (01.11.2026)
 
 - Bank: 689 pytań ADR-B-0001–0689; 689 `needs_review`, 0 `verified`; SHA `d607ae33a6268223f289fd94599f289c6115c9ce`.
@@ -363,6 +370,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x264 — bezpieczne zatrzymanie i wyłączenie silnika](raporty/etap-4x264-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-01.md)
 
 - [Etap 4x263 — oznakowanie opakowania zbiorczego](raporty/etap-4x263-opakowanie-zbiorcze-numer-un-2026-11-01.md)
 
