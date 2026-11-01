@@ -2,7 +2,7 @@
 
 - Bank podstawowy: 695 pytań ADR-B-0001–0695; wszystkie `needs_review`, 0 `verified`; SHA `c9127a1fe91f03222089a434d5ec51f11f3b4e8a`.
 - ADR-B-0695 do ADR-B-05-K05: sytuacyjne rozróżnienie małego/początkowego pożaru komory silnika od pożaru przedziału ładunkowego; ADR 2025, 5.4.3.4, tom II, s. 270.
-- Rozkład odpowiedzi A/B/C: 237/239/219; poprawna odpowiedź jest jedyną najdłuższą w 72/695 = 10,36% pytań.
+- Rozkład odpowiedzi A/B/C: 237/240/218; poprawna odpowiedź jest jedyną najdłuższą w 72/695 = 10,36% pytań.
 - Snapshoty 695-695, klucze i warianty egzaminów 001–005 wskazują bieżący bank. Oficjalny polski tekst ADR 2025 sprawdzono punktowo; pełna recenzja wszystkich elementów i niezależna akceptacja pozostają pending.
 - Raport: `podstawowy/raporty/etap-4x269-maly-pozar-komory-silnika-2026-11-01.md`.
 
