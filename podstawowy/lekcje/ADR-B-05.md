@@ -339,3 +339,10 @@ Instrukcje pisemne ADR przewidują użycie gaśnicy przy małym pożarze opon, h
 
 
 Powiązane pytanie dodane w etapie 4x264: **ADR-B-0690**.
+
+
+### Powiadomienie służb bez zwłoki — ADR-B-0691
+
+Jeżeli doszło do wypadku lub awarii, powiadom właściwe służby ratownicze i przekaż im możliwie wszystkie dostępne informacje o zdarzeniu oraz przewożonych towarach niebezpiecznych. Nie uzależniaj wezwania pomocy od wcześniejszej zgody dyspozytora przewoźnika ani od ustalenia pełnej przyczyny awarii. Podawaj sprawdzone fakty, a brakujące informacje określ jako nieznane; nie zgaduj i nie narażaj się, by je zdobyć. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+
+Powiązane pytanie: **ADR-B-0691**.
