@@ -1,6 +1,6 @@
 **Stan na 01.11.2026, etap 4x273**
 
-- Bank: 699 pytań ADR-B-0001–0699; wszystkie `needs_review`, 0 `verified`; SHA `9359365b4381b3b644b70d9b80bd35d171256bd7`.
+- Bank: 699 pytań ADR-B-0001–0699; 699 `needs_review`, 0 `verified`; SHA `9359365b4381b3b644b70d9b80bd35d171256bd7`.
 - ADR-B-0699: dobór rozmiaru klina pod koło do DMC pojazdu i średnicy kół; ADR 2025, 8.1.5.2.
 - Explanation 331 znaków; A/B/C 108/105/103; poprawna B nie jest najdłuższa.
 - Rozkład odpowiedzi A/B/C: 237/243/219; „poprawna = jedyna najdłuższa”: 73/699 = 10,44%.
