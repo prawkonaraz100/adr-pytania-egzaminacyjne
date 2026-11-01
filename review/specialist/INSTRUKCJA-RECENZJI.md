@@ -1,7 +1,7 @@
-## Migawka bieżąca — 4x259
+## Migawka bieżąca — 4x260
 
-Bank podstawowy: 685 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `a456d5fdab0c686b1c657be3f213ac873c491ae4`. Najnowsza zmiana: ADR-B-0685, trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia (ADR 5.3.2.2.1). Snapshoty 685-685, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
-Raport najnowszej partii: `podstawowy/raporty/etap-4x259-tablice-pomaranczowe-trwalosc-2026-11-01.md`.
+Bank podstawowy: 686 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `f5f21db12588f8b0451c27a1a82783982a731133`. Najnowsza zmiana: ADR-B-0686, przenośna lampa dla każdego członka załogi i brak powierzchni metalowej mogącej powodować iskrzenie (ADR 8.1.5.2 i 8.3.4). Snapshoty 686-686, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
+Raport najnowszej partii: `podstawowy/raporty/etap-4x260-przenosne-lampy-zaloga-2026-11-01.md`.
 
 
 ## Migawka bieżąca — 4x256
