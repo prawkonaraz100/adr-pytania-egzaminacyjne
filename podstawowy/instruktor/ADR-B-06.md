@@ -165,3 +165,14 @@ Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, dru
 **Sytuacja symulowana:** przednia tablica jest dobrze widoczna, ale tylną zasłania koło zapasowe. Kursant ma wskazać, że jednostka musi mieć dwie dobrze widoczne tablice — z przodu i z tyłu — ustawione prostopadle do osi podłużnej pojazdu. Przed wyjazdem trzeba usunąć przeszkodę lub poprawić mocowanie tylnej tablicy.
 
 **Pytanie kontrolne:** ADR-B-0694. Podstawa: ADR 5.3.2.1.1. To ogólna zasada dla jednostki transportowej, nie dodatkowe tablice boczne wymagane w niektórych konfiguracjach.
+
+
+## Zadanie instruktorskie — litera X i informacja dla ratowników (ADR-B-0698)
+
+**Sytuacja:** Na tablicy pomarańczowej numer rozpoznawczy zagrożenia poprzedza litera X. Ratownik pyta kierowcę, czy może użyć wody.
+
+**Oczekiwana decyzja:** Kursant wyjaśnia, że X oznacza niebezpieczną reakcję z wodą i przekazuje ostrzeżenie ratownikowi. Nie wydaje samodzielnej zgody na użycie wody; wskazuje, że wymagana jest zgoda specjalistów.
+
+**Typowe błędy:** uznanie X za oznaczenie silniejszego zagrożenia; potraktowanie go jako bezwzględnego zakazu bez wyjątku; samodzielne rekomendowanie wody na podstawie wyglądu wycieku.
+
+**Podstawa:** ADR 2025, 5.3.2.3.1, tom II, s. 251. Ćwiczenie omawia się na sucho.
