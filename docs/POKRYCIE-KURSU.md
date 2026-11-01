@@ -1,3 +1,5 @@
+**Stan aktualny po etapie 4x271: 01.11.2026.**
+
 ## Bieżąca migawka — etap 4x271 (01.11.2026)
 
 - Bank podstawowy: 697 pytań ADR-B-0001–0697; wszystkie `needs_review`, 0 `verified`; SHA `1821851aee9c83c4b4e3197aa3e59594b93bb513`.
