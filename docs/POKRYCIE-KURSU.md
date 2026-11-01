@@ -459,3 +459,13 @@ Po PR #600–#605 potwierdzono na źródłach repo: **639** pytań `needs_review
 - Bank: 669 pytań ADR-B-0001–0669; wszystkie `needs_review`, 0 `verified`; SHA `fa0d2c28445e6b8a9ca0cca533944766a41f8c43`.
 - Rozkład A/B/C: 231/225/213; „poprawna = jedyna najdłuższa”: 72/669 = 10,76%.
 - Raport: [Etap 4x244 — klasa 7: kategoria przesyłki](../podstawowy/raporty/etap-4x244-klasa-7-kategoria-przesylki-2026-10-31.md).
+
+
+## Uzupełnienie audytu 4x258 — 01.11.2026
+
+- Dodano ADR-B-0684 do ADR-B-09-K03: wyjątek od obowiązku oddzielenia określonych przesyłek od żywności, gdy przesyłki mają dodatkowe opakowanie lub są całkowicie przykryte.
+- Podstawa: ADR 2025, 7.5.4; tekst ADR 2025 opublikowany na portalu gov.pl. Pytanie dotyczy tylko obowiązku oddzielenia w przypadku bliskiego załadunku i nie uchyla innych wymagań ADR.
+- Explanation: 4 zdania; status `needs_review`. Długości wariantów i rozkład kluczy zapisano w raporcie partii.
+- Bank: 684 pytania, wszystkie `needs_review`, 0 `verified`; SHA `a631e82e57a9caf64bcdef4bc7c4f3ba17c57729`.
+- Rozkład kluczy A/B/C: 234/233/217; „poprawna = jedyna najdłuższa”: 72/684 = 10,53%.
+- Raport: [Etap 4x258 — wyjątek CV28 dla całkowicie przykrytych przesyłek](../podstawowy/raporty/etap-4x258-cv28-wyjatkowe-przykrycie-2026-11-01.md).
