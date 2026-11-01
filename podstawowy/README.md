@@ -1,3 +1,11 @@
+**Stan na 01.11.2026, etap 4x281**
+
+- Bank: 707 pytań ADR-B-0001–0707; 707 `needs_review`, 0 `verified`; SHA `d2eaa0b3df4ee50661e30cf62554ae5ca62ea408`.
+- ADR-B-0707: bezpieczne usunięcie skażonej odzieży i użytych środków ochronnych; ADR 2025, 5.4.3.4.
+- Explanation 372 znaki; A/B/C 98/102/103.
+- Rozkład odpowiedzi A/B/C: 238/250/219; „poprawna = jedyna najdłuższa”: 75/707 = 10,61%.
+- Raport: [Etap 4x281 — bezpieczne usunięcie skażonej odzieży](raporty/etap-4x281-bezpieczne-usuniecie-skazonej-odziezy-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x280**
 
 ## Bieżąca migawka — etap 4x280 (01.11.2026)
