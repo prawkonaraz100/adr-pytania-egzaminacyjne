@@ -16,7 +16,7 @@ Kompetencja miała pięć pytań o ramy prawne i podstawowe pojęcia. Dodano pra
 - `ADR-B-0709`: kierowca zestawu z przyczepą ma wyjaśnić, co w ADR oznacza „jednostka transportowa”.
 - Klucz: **B** — pojazd samochodowy wraz z dołączoną do niego przyczepą.
 - Explanation: **305 znaków**, 4 zdania; najpierw praktyczne uzasadnienie, potem wyjaśnienie mylących odpowiedzi i krótka podstawa ADR.
-- Długości A/B/C: **108/95/104** znaków; odpowiedzi są zbliżone długością, poprawna B nie jest najdłuższa.
+- Długości A/B/C: **108/102/101** znaków; odpowiedzi są zbliżone długością, poprawna B nie jest najdłuższa.
 - Audyt A/B/C: A — błędnie wyłącza przyczepę z jednostki; B — odpowiada definicji ADR 1.2.1; C — błędnie traktuje samą przyczepę jako jednostkę.
 - Status: `needs_review`; nic nie oznaczono jako `verified`.
 
