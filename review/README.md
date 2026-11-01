@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x270 (01.11.2026)
+
+- Bank podstawowy: 696 pytań ADR-B-0001–0696; wszystkie `needs_review`, 0 `verified`; SHA `afaf8c6083b2057c5443f38f30f0c12f0d7d5b7b`.
+- ADR-B-0696 do ADR-B-05-K07: bezpieczne udostępnienie dokumentów ratownikom bez powrotu do strefy zadymienia; ADR 2025, 5.4.3.4, tom II, s. 270.
+- Rozkład odpowiedzi A/B/C: 237/240/219; poprawna odpowiedź jest jedyną najdłuższą w 72/696 = 10,34% pytań.
+- Snapshoty 696-696, klucze i warianty egzaminów 001–005 wskazują bieżący bank. Oficjalny polski tekst ADR 2025 sprawdzono punktowo; pełna recenzja wszystkich elementów i niezależna akceptacja pozostają pending.
+- Raport: `podstawowy/raporty/etap-4x270-dokumenty-bez-powrotu-do-strefy-zagrozenia-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x269 (01.11.2026)
 
 - Bank podstawowy: 695 pytań ADR-B-0001–0695; wszystkie `needs_review`, 0 `verified`; SHA `c9127a1fe91f03222089a434d5ec51f11f3b4e8a`.
