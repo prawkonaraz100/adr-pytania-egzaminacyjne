@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x262 (01.11.2026)
 
-- Bank: 688 pytań ADR-B-0001–0688; 688 needs_review, 0 verified; SHA `a041f8814aa0c5f0f648d0e98cb25c0055d3821d`.
+- Bank: 688 pytań ADR-B-0001–0688; 688 `needs_review`, 0 `verified`; SHA `a041f8814aa0c5f0f648d0e98cb25c0055d3821d`.
 - ADR-B-0688 do ADR-B-06-K02: wyjątek sposobu przymocowania nalepki na małym lub nieregularnym opakowaniu; ADR 5.2.2.1.6.
 - 688 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x262-nalepka-przywieszka-male-opakowanie-2026-11-01.md`.
 
