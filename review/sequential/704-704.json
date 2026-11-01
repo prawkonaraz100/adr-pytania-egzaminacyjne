@@ -1,0 +1,58 @@
+{
+  "batch": "704-704",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0704",
+      "sequence": 704,
+      "exact_record_snapshot": {
+        "stem": "Gaśnica ADR jest mocno zamocowana w uchwycie, ale uchwyt można otworzyć tylko specjalnym kluczem, który leży w zamkniętej skrzynce narzędziowej. Co należy poprawić przed wyjazdem?",
+        "options": {
+          "A": "Pozostawić ją w tym miejscu, ponieważ pewne zamocowanie jest ważniejsze niż szybki dostęp załogi.",
+          "B": "Przenieść ją do uchwytu, z którego członek załogi może szybko wyjąć gaśnicę bez szukania klucza.",
+          "C": "Zostawić ją tam, ale umieścić na skrzynce narzędziowej dodatkową etykietę wskazującą miejsce klucza."
+        },
+        "correct_option": "B",
+        "explanation": "Gaśnica musi być nie tylko stabilnie zamocowana, ale też łatwo dostępna dla załogi. Jeżeli jej wyjęcie wymaga najpierw znalezienia klucza w zamkniętej skrzynce, w nagłym zdarzeniu dostęp jest utrudniony. Sama etykieta wskazująca miejsce klucza nie rozwiązuje tego problemu. Trzeba zmienić miejsce lub uchwyt tak, aby można ją było szybko wyjąć. Podstawa: ADR 8.1.4.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.5 — gaśnice powinny być zamontowane w jednostce transportowej w sposób zapewniający łatwy dostęp załodze oraz ochronę przed działaniem warunków atmosferycznych",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.1.4.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 8.1.4.5 — fire extinguishers shall be installed so as to be easily accessible to the vehicle crew",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish ADR 2025, 8.1.4.5: fire extinguishers must be installed so as to be easily accessible to the vehicle crew and protected against weather effects. Full literal comparison and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The scenario distinguishes secure mounting from easy accessibility: a locked holder requiring a separately stored key can prevent prompt access by the crew.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "source_risk_note": "Targeted clause checked in official Polish ADR 2025 text at 8.1.4.5; full question comparison and specialist review pending."
+    }
+  ]
+}
