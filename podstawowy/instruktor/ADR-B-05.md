@@ -24,7 +24,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteri
 | Kompetencja | Cel | Referencje | Pytania robocze |
 |---|---|---|---:|
 | ADR-B-05-K01 | Lokalizacja i znajomość instrukcji pisemnych | 5.4.3 | 4 |
-| ADR-B-05-K02 | Bezpieczne zatrzymanie i wyłączenie silnika | 5.4.3.4 | 3 |
+| ADR-B-05-K02 | Bezpieczne zatrzymanie i wyłączenie silnika | 5.4.3.4 | 4 |
 | ADR-B-05-K03 | Powiadomienie służb i informacje o ładunku | 5.4.3.4 | 3 |
 | ADR-B-05-K04 | Unikanie oparów i wybór strony nawietrznej | 5.4.3.4 | 4 |
 | ADR-B-05-K05 | Zakaz gaszenia pożaru ładowni | 5.4.3.4 | 3 |
@@ -38,6 +38,16 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteri
 | ADR-B-05-K13 | Praktyczne używanie gaśnicy (instruktaż) | program praktyczny, zał. 1; ADR 5.4.3.4 | 2 |
 | ADR-B-05-K14 | Praktyczne czynności pierwszej pomocy (instruktaż) | program praktyczny, zał. 1; ADR 5.4.3.4 (bezpieczne warunki działania) | 2 |
 | ADR-B-05-K15 | Praktyczny scenariusz wypadku/awarii | program praktyczny, zał. 1; ADR 5.4.3.4 | 2 |
+
+### Ćwiczenie sytuacyjne — zatrzymanie i odłączenie akumulatora
+
+**Sytuacja:** Po awarii kierowca bezpiecznie zatrzymał pojazd. Silnik nadal pracuje, a wyłącznik główny akumulatora jest dostępny.
+
+**Oczekiwana decyzja:** Kursant wskazuje zastosowanie hamulca, wyłączenie silnika i uruchomienie wyłącznika głównego akumulatora, jeśli jest dostępny. Uzasadnia, że są to odrębne czynności modelu instrukcji pisemnych i że wolno je wykonać tylko wtedy, gdy jest to bezpieczne i wykonalne.
+
+**Typowe błędy:** pozostawienie silnika włączonego; uruchamianie odbiorników elektrycznych; zakończenie działania na samym wyłączeniu silnika mimo dostępnego wyłącznika głównego; ręczne odłączanie przewodów akumulatora.
+
+**Podstawa:** ADR 2025, 5.4.3.4. Ćwiczenie omawiane na sucho, bez ingerowania w instalację elektryczną pojazdu.
 
 ### Przebieg 45 minut teorii
 
