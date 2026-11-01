@@ -31,7 +31,7 @@ Punkt 7.5.7.6.2 sprawdzono bezpośrednio w oficjalnym polskim tekście ADR 2025.
 
 ## Synchronizacja #646 — w toku
 
-- Bank: 700 pytań ADR-B-0001–0700; wszystkie `needs_review`, 0 `verified`.
+- Bank: 700 pytań ADR-B-0001–0700; 700 `needs_review`, 0 `verified`.
 - Blob SHA banku: `35284ef525c41ebc5ee08fa0423ebf22e262db8c`.
 - Warianty i klucze egzaminów próbnych 001–005 wskazują nowy SHA.
 - Snapshoty sequential/legal 700-700, rejestr źródeł, manifesty, indeksy, metryki, raport i materiały kursu muszą zostać zsynchronizowane przed PR.
