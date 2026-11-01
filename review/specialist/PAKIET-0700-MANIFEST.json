@@ -1,15 +1,15 @@
 {
-  "stage": "4x277_resecure_after_partial_unloading",
+  "stage": "4x278_fire_extinguisher_accessibility",
   "snapshot_date": "2026-11-01",
   "scope": "ADR-BASIC-ONLY",
-  "question_count": 703,
-  "last_id": "ADR-B-0703",
+  "question_count": 704,
+  "last_id": "ADR-B-0704",
   "status_counts": {
-    "needs_review": 703,
+    "needs_review": 704,
     "verified": 0
   },
   "formal_approvals": 0,
-  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0703.md",
+  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0704.md",
   "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
   "unresolved_literal_comparisons": 445,
   "modules": {
@@ -30,7 +30,7 @@
       "theory_competencies": 6
     },
     "ADR-B-05": {
-      "questions": 69,
+      "questions": 70,
       "theory_competencies": 12
     },
     "ADR-B-06": {
@@ -2036,5 +2036,34 @@
     },
     "unique_longest_correct": 75,
     "bank_question_count": 703
+  },
+  "stage4x278": {
+    "question_id": "ADR-B-0704",
+    "competency": "ADR-B-05-K12",
+    "topic": "łatwy dostęp załogi do gaśnicy bez konieczności szukania klucza",
+    "legal_basis": [
+      "ADR 2025, 8.1.4.5"
+    ],
+    "explanation_characters": 367,
+    "option_lengths": {
+      "A": 97,
+      "B": 96,
+      "C": 100
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "681b94b07ae6673fa120326cb2eba6423eb22957",
+    "sequential_snapshot": "review/sequential/704-704.json",
+    "legal_clause_snapshot": "review/legal-clauses/704-704.json",
+    "distribution": {
+      "A": 238,
+      "B": 247,
+      "C": 219
+    },
+    "unique_longest_correct": 75,
+    "bank_question_count": 704
   }
 }
