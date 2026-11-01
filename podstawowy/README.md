@@ -1,3 +1,10 @@
+**Stan na 01.11.2026, etap 4x267**
+
+- Bank: 693 pytań ADR-B-0001–0693; 693 `needs_review`, 0 `verified`; SHA `f6790fbc89a0b68334686303184f65ddcf00787f`.
+- Najnowsze pytanie: ADR-B-0693 (ADR-B-05-K10), kamizelka ostrzegawcza przed ustawieniem znaków, ADR 5.4.3.4.
+- Rozkład prawidłowych opcji A/B/C: 236/239/218; poprawna = jedyna najdłuższa: **72/693 = 10,39%**.
+- Raport: [Etap 4x267 — kamizelka przed ustawieniem znaków](raporty/etap-4x267-kamizelka-przed-znakami-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x266**
 
 - Bank: 692 pytań ADR-B-0001–0692; 692 `needs_review`, 0 `verified`; SHA `1dd005ce09b3ddf90adf0a42b75a96aaf68a986b`.
@@ -384,6 +391,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x267 — kamizelka przed ustawieniem znaków](raporty/etap-4x267-kamizelka-przed-znakami-2026-11-01.md)
 - [Etap 4x266 — strona nawietrzna po zmianie wiatru](raporty/etap-4x266-strona-nawietrzna-zmiana-wiatru-2026-11-01.md)
 - [Etap 4x265 — powiadomienie służb ratowniczych](raporty/etap-4x265-powiadomienie-sluzb-ratowniczych-2026-11-01.md)
 - [Etap 4x264 — bezpieczne zatrzymanie i wyłączenie silnika](raporty/etap-4x264-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-01.md)
