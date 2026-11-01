@@ -1,0 +1,58 @@
+{
+  "batch": "690-690",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0690",
+      "sequence": 690,
+      "exact_record_snapshot": {
+        "stem": "Kierowca zatrzymuje pojazd po awarii w bezpiecznym miejscu. Silnik nadal pracuje, a wyłącznik główny akumulatora jest dostępny. Co powinien zrobić zgodnie z instrukcjami pisemnymi ADR?",
+        "options": {
+          "A": "Pozostawić silnik włączony i uruchomić dodatkowe odbiorniki elektryczne, aby zachować zasilanie kabiny.",
+          "B": "Wyłączyć silnik, lecz nie odłączać akumulatora, choć wyłącznik jest dostępny.",
+          "C": "Zastosować hamulec, wyłączyć silnik i użyć wyłącznika głównego akumulatora, jeśli jest dostępny."
+        },
+        "correct_option": "C",
+        "explanation": "Po bezpiecznym zatrzymaniu kierowca powinien zabezpieczyć pojazd hamulcem, wyłączyć silnik i odłączyć akumulator wyłącznikiem głównym, jeśli pojazd go ma. Ogranicza to ryzyko przypadkowego uruchomienia i powstania iskry. Pozostawienie pracującego silnika lub włączanie odbiorników może stworzyć dodatkowe źródło zapłonu, a samo wyłączenie silnika pomija dostępny wyłącznik. Podstawa: ADR 5.4.3.4, model instrukcji pisemnych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — model instrukcji pisemnych, działania w razie wypadku lub awarii: zastosować hamulec, wyłączyć silnik i odłączyć akumulator wyłącznikiem głównym, jeśli jest dostępny",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, 5.4.3.4 (model instrukcji pisemnych)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, Volume II, 5.4.3.4 — written instructions, actions in the event of an accident or emergency",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.4.3.4: model written instructions require, where safe and practicable, applying the braking system, stopping the engine and isolating the battery by activating the master switch where available; exact full Gazette comparison and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The written-instruction model in ADR 5.4.3.4 directs the crew, where safe and practicable, to apply the braking system, stop the engine and isolate the battery using the master switch where available.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "source_risk_note": "Official Ministry of Infrastructure Polish ADR 2025 Volume II and UNECE ADR 2025 text consulted; exact full-text comparison against Dz.U. 2025 poz. 642 and independent specialist review remain pending."
+    }
+  ]
+}

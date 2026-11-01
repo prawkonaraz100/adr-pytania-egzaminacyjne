@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x264 (01.11.2026)
+
+- Bank: 690 pytań ADR-B-0001–0690; wszystkie `needs_review`, 0 `verified`; SHA `66a862742a9c134f92bf467574865101faa0c884`.
+- ADR-B-0690 do ADR-B-05-K02: bezpieczne zatrzymanie, wyłączenie silnika i użycie dostępnego wyłącznika głównego akumulatora; ADR 5.4.3.4.
+- 690 wpisów w indeksie; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x264-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x263 (01.11.2026)
 
 - Bank: 689 pytań ADR-B-0001–0689; 689 `needs_review`, 0 `verified`; SHA `d607ae33a6268223f289fd94599f289c6115c9ce`.
@@ -901,3 +907,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0688 | ADR-B-06 | ADR-B-06-K02 | Nalepka na pewnie umocowanej przywieszce lub innym odpowiednim sposobie przy małym lub nieregularnym opakowaniu | B | ADR 2025, 5.2.2.1.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0689 | ADR-B-06 | ADR-B-06-K01 | Oznakowanie opakowania zbiorczego napisem OVERPACK, numerem UN i pozostałymi wymaganymi oznaczeniami, gdy oznaczenia opakowań wewnętrznych są niewidoczne | B | ADR 2025, 5.1.2.1(a)(i)–(ii) | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0690 | ADR-B-05 | ADR-B-05-K02 | Bezpieczne zatrzymanie, wyłączenie silnika i odłączenie akumulatora wyłącznikiem głównym | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |

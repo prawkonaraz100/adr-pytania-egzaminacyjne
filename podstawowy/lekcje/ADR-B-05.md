@@ -22,6 +22,10 @@ Zatrzymaj się w możliwie bezpiecznym miejscu i oceń sytuację bez narażania 
 Instrukcje pisemne (dokument z ustalonymi wskazówkami dla załogi na wypadek zdarzenia; [słowniczek](../SLOWNICZEK.md#instrukcje-pisemne)) ADR muszą mieć wzór wymagany w 5.4.3.4 i być dostępne w kabinie. Przewoźnik przekazuje je załodze przed rozpoczęciem przewozu (ADR 5.4.3.1) i zapewnia język, który każdy członek załogi potrafi czytać i rozumieć (5.4.3.2). Członkowie załogi powinni przeczytać je przed wyjazdem i wiedzieć, jak zastosować je w praktyce (5.4.3.3). Instrukcje muszą być dostępne, a nie zamknięte w miejscu, do którego załoga nie ma szybkiego dostępu.
 
 
+### Zatrzymanie pojazdu i odłączenie akumulatora
+
+Po awarii, gdy możesz bezpiecznie wykonać te czynności, zastosuj hamulec, wyłącz silnik i odłącz akumulator przez uruchomienie wyłącznika głównego, jeśli pojazd jest w niego wyposażony. To trzy odrębne elementy działania: samo wyłączenie silnika nie zastępuje użycia dostępnego wyłącznika głównego. Nie próbuj ręcznie odłączać przewodów akumulatora ani włączać dodatkowych urządzeń elektrycznych. Zawsze uwzględnij warunek bezpieczeństwa i wykonalności. Podstawa: ADR 5.4.3.4.
+
 ### Szczegóły z instrukcji pisemnych
 Instrukcje pisemne przewidują działania dostosowane do sytuacji, ale nie nakazują narażania się. Jeśli w pobliżu są palne opary, nie pal, nie używaj e-papierosów i nie włączaj urządzeń, które mogą wywołać iskrę. W miarę możliwości przejdź na stronę nawietrzną, czyli tam, skąd wieje wiatr, aby opary były niesione od ciebie, ostrzeż inne osoby i przekaż ratownikom dostępne dokumenty przewozowe, jeśli możesz to zrobić bez ryzyka. Jeżeli odzież została skażona, nie przenoś skażenia na kabinę, siedzenia ani inne osoby; postępuj według instrukcji i wezwij odpowiednią pomoc. Nie wchodź do rozlewu, by odczytać etykietę lub założyć osłonę odpływu. Ograniczanie wycieku można próbować tylko wtedy, gdy jest to bezpieczne i mieści się w przeszkoleniu.
 ## 3. Pożar i gaśnice
@@ -332,3 +336,6 @@ Instrukcje pisemne ADR przewidują użycie gaśnicy przy małym pożarze opon, h
 
 **Ćwiczenie praktyczne:** SC-ADR-B-05-04. Kursant ma ocenić wielkość i położenie pożaru, bezpieczeństwo użycia gaśnicy oraz moment przerwania działania. Pytania powiązane ze scenariuszem: ADR-B-0108, ADR-B-0184 i ADR-B-0223. ADR-B-0493 jest dodatkowym pytaniem kontrolnym kompetencji K06. Podstawa: ADR 5.4.3.4.
 
+
+
+Powiązane pytanie dodane w etapie 4x264: **ADR-B-0690**.
