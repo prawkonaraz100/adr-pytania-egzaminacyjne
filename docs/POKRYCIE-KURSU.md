@@ -6,7 +6,7 @@
 - ADR-B-0685 do ADR-B-06-K07: trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia (ADR 5.3.2.2.1).
 - Explanation 340 znaków, 4 zdania; A/B/C 159/147/117; poprawna B nie jest ani najkrótsza, ani najdłuższa.
 - Rozkład prawidłowych opcji: A=234, B=234, C=217.
-- „Poprawna = jedyna najdłuższa”: 72/685 = 10,51%; maksimum działu to 13,95%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/685 = 10,51%**; maksimum działu to 13,95%.
 - ADR-B-06-K07 ma 5 pytań; moduł ADR-B-06 ma 55 pytań.
 - Snapshoty: `sequential/685-685.json`, `legal-clauses/685-685.json`; rejestr: `REJESTR-0685-0685.md`.
 - Raport: `podstawowy/raporty/etap-4x259-tablice-pomaranczowe-trwalosc-2026-11-01.md`.
