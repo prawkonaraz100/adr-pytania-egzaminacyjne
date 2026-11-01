@@ -1,0 +1,59 @@
+{
+  "batch": "709-709",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0709",
+      "sequence": 709,
+      "exact_record_snapshot": {
+        "stem": "Kierowca jedzie samochodem ciężarowym z dołączoną przyczepą. Podczas kontroli ma wyjaśnić, co ADR rozumie przez „jednostkę transportową”. Które określenie jest prawidłowe?",
+        "options": {
+          "A": "Za jednostkę uznaje się wyłącznie samochód ciężarowy; przyczepa zawsze tworzy osobną jednostkę transportową.",
+          "B": "Za jednostkę uznaje się pojazd samochodowy oraz dołączoną do niego przyczepę, liczone jako całość.",
+          "C": "Za jednostkę uznaje się samą przyczepę, a pojazd silnikowy traktuje się jako odrębny środek w przewozie."
+        },
+        "correct_option": "B",
+        "explanation": "W ADR jednostką transportową jest albo sam pojazd samochodowy bez przyczepy, albo zespół złożony z pojazdu samochodowego i dołączonej do niego przyczepy. W opisanej sytuacji ciężarówka i przyczepa tworzą razem jedną jednostkę, a nie dwie osobne. Nie myl tego pojęcia z samą przyczepą. Podstawa: ADR 1.2.1.",
+        "sources": [
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 1.2.1 — definicja „jednostki transportowej”: pojazd samochodowy bez przyczepy lub zespół pojazdów składający się z pojazdu samochodowego i dołączonej do niego przyczepy",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.2.1; oficjalne polskie teksty ADR 2025 udostępniane przez Ministerstwo Infrastruktury",
+            "url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 1.2.1 — definition of transport unit",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 1.2.1 defines a transport unit as a motor vehicle without a trailer or a combination of a motor vehicle and its attached trailer. Official ADR 2025 text, Dz.U. 2025 poz. 642; full specialist comparison pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The stem describes a motor vehicle with an attached trailer, so both form one transport unit under the ADR definition. The distractors incorrectly treat the motor vehicle and trailer as separate units or the trailer alone as the unit.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "source_risk_note": "Definition reproduced in official Polish ADR publications and current ADR 2025 reference copy; specialist must complete full literal comparison and check corrigendum.",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}
