@@ -1,0 +1,53 @@
+{
+  "batch": "687-687",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0687",
+      "sequence": 687,
+      "exact_record_snapshot": {
+        "stem": "Po awarii kierowca bezpiecznie oddalił się od rozlewu. Zauważa, że jego odzież i użyte rękawice ochronne zostały zabrudzone substancją z uszkodzonej przesyłki. Co powinien zrobić zgodnie z instrukcjami pisemnymi ADR?",
+        "options": {
+          "A": "Zdjąć skażoną odzież i użyte skażone środki ochronne oraz bezpiecznie je usunąć, nie zabierając ich do kabiny.",
+          "B": "Otrzepać odzież i rękawice, a następnie używać ich dalej, jeśli nie widać na nich mokrych plam ani uszkodzeń.",
+          "C": "Włożyć skażoną odzież i rękawice do zwykłej torby w kabinie, aby po zakończeniu trasy wyprać je razem z ubraniami."
+        },
+        "correct_option": "A",
+        "explanation": "Skażona odzież i użyte środki ochronne mogą nadal przenosić niebezpieczną substancję, dlatego nie wolno ich dalej nosić ani zabierać do kabiny. Instrukcje pisemne ADR nakazują zdjąć takie rzeczy i bezpiecznie je usunąć. Otrzepanie nie usuwa skażenia, a zwykła torba i późniejsze pranie nie są wskazanym sposobem postępowania. Podstawa: ADR 5.4.3.4, model instrukcji pisemnych — działania po wypadku lub awarii.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — model instrukcji pisemnych, działania w razie wypadku lub awarii: usunięcie skażonej odzieży i użytych skażonych środków ochronnych oraz ich bezpieczne usunięcie",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, 5.4.3.4 (model instrukcji pisemnych)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 official Polish Ministry Volume II PDF and UNECE 2025 text identify the 5.4.3.4 four-page written-instructions model and its action to remove contaminated clothing and used contaminated protective equipment and dispose of it safely; full Gazette literal comparison and independent specialist approval pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "ADR 5.4.3.4 specifies the written-instructions model. The model's accident/emergency actions include removing contaminated clothing and used contaminated protective equipment and disposing of it safely.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "source_risk_note": "Official Ministry of Infrastructure ADR 2025 Polish Volume II PDF and UNECE ADR 2025 material identified; exact full-text comparison against Dz.U. 2025 poz. 642 and independent specialist review remain pending."
+    }
+  ]
+}
