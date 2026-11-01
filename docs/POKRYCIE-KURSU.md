@@ -2,7 +2,7 @@
 
 ## Bieżąca migawka — etap 4x270 (01.11.2026)
 
-- Bank: 696 pytań ADR-B-0001–0696; 696 `needs_review`, 0 `verified`; blob SHA `afaf8c6083b2057c5443f38f30f0c12f0d7d5b7b`.
+- Bank: 696 pytań ADR-B-0001–0696; 696 `needs_review`, 0 `verified`; blob SHA `004cd974f7a402fa47407c6268ae7202b5ceb466`.
 - ADR-B-0696 do ADR-B-05-K07: sytuacyjne udostępnienie ratownikom znanych informacji i wskazanie położenia dokumentu bez powrotu kierowcy do zadymionej kabiny; ADR 5.4.3.4.
 - Explanation 401 znaków, 4 zdania; A/B/C 101/99/77; poprawna C nie jest ani najkrótsza, ani najdłuższa.
 - Rozkład prawidłowych opcji: A=237, B=240, C=219.
