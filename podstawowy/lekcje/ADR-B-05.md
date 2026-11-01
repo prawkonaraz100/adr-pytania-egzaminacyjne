@@ -393,3 +393,8 @@ Instrukcje pisemne dopuszczają gaszenie tylko małych, początkowych pożarów 
 Gaśnica musi być zamocowana tak, aby załoga mogła łatwo i szybko po nią sięgnąć. Jeżeli jej uchwyt wymaga klucza przechowywanego osobno w zamkniętej skrzynce, dostęp jest utrudniony. Samo oznaczenie miejsca klucza nie usuwa przeszkody. Przed wyjazdem należy zapewnić łatwy dostęp do gaśnicy. Podstawa: ADR 2025, 8.1.4.5.
 
 Powiązane pytanie: **ADR-B-0704**.
+
+
+### Bezpieczne usunięcie skażonej odzieży i środków ochronnych (ADR-B-0707)
+
+Po zdarzeniu, jeśli można to zrobić bezpiecznie, członek załogi zdejmuje skażoną odzież i użyte skażone wyposażenie ochronne. Rzeczy te trzeba następnie usunąć w sposób bezpieczny — nie wolno ich wrzucać do zwykłego kosza ani zostawiać przy drodze. Kierowca nie powinien narażać innych osób ani przenosić skażenia do kabiny; ma stosować się do instrukcji i poleceń służb. Podstawa: ADR 2025, 5.4.3.4.
