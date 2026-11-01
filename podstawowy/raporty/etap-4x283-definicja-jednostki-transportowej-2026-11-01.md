@@ -20,6 +20,12 @@ Kompetencja miała pięć pytań o ramy prawne i podstawowe pojęcia. Dodano pra
 - Audyt A/B/C: A — błędnie wyłącza przyczepę z jednostki; B — odpowiada definicji ADR 1.2.1; C — błędnie traktuje samą przyczepę jako jednostkę.
 - Status: `needs_review`; nic nie oznaczono jako `verified`.
 
+## Migawka banku i synchronizacja #646
+
+- Blob SHA `podstawowy/questions.jsonl`: `ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a`.
+- Bank: 709 rekordów, wszystkie `needs_review`, 0 `verified`.
+- Klucze i warianty egzaminów próbnych 001–005, snapshoty sequential/legal 709-709 i manifest `PAKIET-0709-MANIFEST.json` wskazują ten sam SHA.
+
 ## Podstawa prawna
 
 - ADR 2025, 1.2.1 — „jednostka transportowa” oznacza pojazd samochodowy bez przyczepy lub zespół pojazdów składający się z pojazdu samochodowego i dołączonej do niego przyczepy.
