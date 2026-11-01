@@ -305,3 +305,10 @@ Opakowanie zbiorcze (OVERPACK) ([definicja w słowniczku](../SLOWNICZEK.md#opako
 **Przykład:** folia na palecie całkowicie zakrywa numer UN i nalepki jedynej przesyłki ADR. Przed przewozem sprawdź, czy na opakowaniu zbiorczym widnieje napis „OVERPACK” oraz wymagane oznaczenia i nalepki.
 
 **Ćwiczenie:** ADR-B-0689. Podstawa: ADR 5.1.2.1(a)(i)–(ii).
+
+
+### Widoczność i położenie tylnej tablicy pomarańczowej — ADR-B-0694
+
+Jednostka transportowa przewożąca towary niebezpieczne ma mieć dwie tablice pomarańczowe: jedną z przodu, drugą z tyłu. Obie muszą być ustawione prostopadle do osi podłużnej pojazdu i dobrze widoczne. Jeśli koło zapasowe, element zabudowy lub ładunek zasłania tylną tablicę, przed rozpoczęciem przewozu usuń przeszkodę albo popraw mocowanie. Widoczna tablica z przodu nie zastępuje tylnej. Podstawa: ADR 2025, 5.3.2.1.1, tom II, s. 248.
+
+Powiązane pytanie: **ADR-B-0694**.
