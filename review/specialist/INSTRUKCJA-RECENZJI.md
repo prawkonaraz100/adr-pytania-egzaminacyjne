@@ -1,3 +1,9 @@
+## Migawka bieżąca — 4x261
+
+Bank podstawowy: 687 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `ba18db9994feecf876b449a203dcc1590e16523f`. Najnowsza zmiana: ADR-B-0687, postępowanie ze skażoną odzieżą i użytymi skażonymi środkami ochronnymi po awarii (ADR 5.4.3.4, model instrukcji pisemnych). Snapshoty 687-687, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
+Raport: `podstawowy/raporty/etap-4x261-skazona-odziez-po-awarii-2026-11-01.md`.
+
+
 ## Migawka bieżąca — 4x260
 
 Bank podstawowy: 686 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `f44c2fdc0e99ccbb1311d61b7b4bc2dadf1a907d`. Najnowsza zmiana: ADR-B-0686, liczba przenośnych lamp — jedna dla każdego członka załogi (ADR 8.1.5.2). Snapshoty 686-686, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
