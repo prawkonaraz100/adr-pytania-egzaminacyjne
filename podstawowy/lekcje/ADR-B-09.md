@@ -315,3 +315,8 @@ Elastyczny kontener trzeba unieruchomić tak, aby nie przesuwał się podczas ja
 ### Ponowne mocowanie po częściowym rozładunku (ADR-B-0703)
 
 Po rozładunku części przesyłek układ pozostałego ładunku może się zmienić. Przed dalszą jazdą trzeba ponownie sprawdzić i zabezpieczyć skrzynie tak, aby nie przesuwały się podczas przewozu. Podstawa: ADR 2025, 7.5.7.1.
+
+
+### Czyszczenie po wycieku — dojazd do miejsca czyszczenia (ADR-B-0706)
+
+Jeśli po rozładunku sztuk przesyłek stwierdzono uwolnienie części zawartości, pojazd lub kontener trzeba oczyścić niezwłocznie. Gdy nie można tego zrobić na placu rozładunku, wolno przemieścić pojazd do najbliższego miejsca, gdzie można przeprowadzić czyszczenie, ale tylko z zabezpieczeniami zapobiegającymi niekontrolowanemu wyciekowi. Nie oznacza to swobodnego przejazdu do dowolnej bazy. Podstawa: ADR 2025, 7.5.8.1.

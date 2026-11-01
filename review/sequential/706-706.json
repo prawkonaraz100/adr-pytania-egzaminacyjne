@@ -1,0 +1,59 @@
+{
+  "batch": "706-706",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0706",
+      "sequence": 706,
+      "exact_record_snapshot": {
+        "stem": "Po rozładunku sztuk przesyłek ADR na podłodze pojazdu widać pozostałości uwolnionej zawartości. Na placu nie ma możliwości bezpiecznego oczyszczenia pojazdu. Co powinien zrobić kierowca?",
+        "options": {
+          "A": "Pozostawić pojazd na placu bez zabezpieczeń i czekać, aż ktoś zorganizuje czyszczenie w innym terminie.",
+          "B": "Przewieźć pojazd z odpowiednim zabezpieczeniem przed wyciekiem do najbliższego miejsca czyszczenia.",
+          "C": "Pojechać do własnej bazy zwykłą trasą, bo rozładunek już się zakończył i wyciek nie jest widoczny."
+        },
+        "correct_option": "B",
+        "explanation": "Jeśli po rozładunku sztuk przesyłek pozostała uwolniona zawartość, pojazd trzeba oczyścić niezwłocznie. Gdy na miejscu rozładunku nie da się tego zrobić, można przemieścić pojazd — ale tylko z zabezpieczeniami, które zapobiegną niekontrolowanemu wyciekowi — do najbliższego miejsca czyszczenia. Zwykły przejazd do bazy bez oceny ryzyka ani pozostawienie zabrudzeń do następnego załadunku nie spełnia wymogu. Podstawa: ADR 7.5.8.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.1 — po stwierdzeniu uwolnienia części zawartości sztuk przesyłek po rozładunku pojazd lub kontener należy niezwłocznie oczyścić; jeśli nie można tego zrobić w miejscu rozładunku, należy przewieźć go z odpowiednimi środkami ostrożności do najbliższego miejsca czyszczenia, zapewniając brak niekontrolowanego wycieku",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 7.5.8.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 7.5.8.1 — if cleaning cannot be carried out at the unloading place, the vehicle or container must be moved with appropriate precautions to the nearest suitable cleaning facility",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish ADR 2025, 7.5.8.1: if cleaning cannot be performed at the unloading place, the vehicle or container is moved with appropriate precautions to the nearest cleaning location, ensuring no uncontrolled leakage. Target clause checked; full question literal comparison and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "ADR 7.5.8.1 requires immediate cleaning after leakage from packages. If this cannot be done at the unloading place, the vehicle/container is moved with precautions to the nearest place where cleaning can be carried out; precautions must prevent uncontrolled leakage.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "source_risk_note": "Official Polish clause 7.5.8.1 checked; full literal comparison and independent specialist approval remain pending.",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}

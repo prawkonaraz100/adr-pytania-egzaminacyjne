@@ -1,3 +1,15 @@
+**Stan na 01.11.2026, etap 4x280**
+
+## Bieżąca migawka — etap 4x280 (01.11.2026)
+
+- Bank: 706 pytań ADR-B-0001–0706; 706 `needs_review`, 0 `verified`; SHA `8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb`.
+- ADR-B-0706 do ADR-B-09-K07: bezpieczne przemieszczenie pojazdu do najbliższego miejsca czyszczenia, gdy nie można go oczyścić na placu rozładunku; ADR 2025, 7.5.8.1.
+- Explanation 430 znaków; A/B/C 103/99/98; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C: 238/249/219; „poprawna = jedyna najdłuższa”: 75/706 = 10,62%.
+- ADR-B-09-K07 ma 5 pytań; moduł ADR-B-09 ma 56 pytań.
+- Snapshoty sequential/legal: 706-706; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x280-bezpieczny-przejazd-do-czyszczenia-2026-11-01.md`.
+
 **Stan na 01.11.2026, etap 4x279**
 
 ## Bieżąca migawka — etap 4x279 (01.11.2026)
@@ -12,7 +24,7 @@
 
 **Stan na 01.11.2026, etap 4x278**
 
-- Bank: 704 pytania ADR-B-0001–0704; 705 `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.
+- Bank: 704 pytania ADR-B-0001–0704; 704 `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.
 - ADR-B-0704: łatwy dostęp do gaśnicy ADR bez szukania klucza; ADR 2025, 8.1.4.5.
 - Explanation 367 znaków; A/B/C 97/96/100.
 - Rozkład A/B/C: 238/247/219; „poprawna = jedyna najdłuższa”: 75/705 = 10,64%.
@@ -494,6 +506,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x280 — bezpieczny przejazd do miejsca czyszczenia](raporty/etap-4x280-bezpieczny-przejazd-do-czyszczenia-2026-11-01.md)
 - [Etap 4x279 — rękawice i ochrona oczu dla załogi](raporty/etap-4x279-rekawice-ochrona-oczu-2026-11-01.md)
 
 - [Etap 4x278 — łatwy dostęp do gaśnicy](raporty/etap-4x278-latwy-dostep-do-gasnicy-2026-11-01.md)

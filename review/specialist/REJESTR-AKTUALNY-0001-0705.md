@@ -1,11 +1,12 @@
-## Bieżąca migawka — etap 4x279 (01.11.2026)
+## Bieżąca migawka — etap 4x280 (01.11.2026)
 
-- Bank: 705 pytań ADR-B-0001–0705; 705 `needs_review`, 0 `verified`; SHA `c1e4a8bb7c44771246bedf691b528f5f43b07630`.
-- ADR-B-0705 — indywidualne rękawice ochronne i ochrona oczu dla każdego członka załogi; ADR 2025, 8.1.5.2.
-- Explanation 327 znaków; A/B/C 107/102/102; poprawna B nie jest najdłuższa.
-- Rozkład A/B/C: 238/248/219; „poprawna = jedyna najdłuższa”: 75/705 = 10,64%.
-- Snapshoty sequential/legal: 705-705; formalne zatwierdzenia: 0.
-- Raport: `podstawowy/raporty/etap-4x279-rekawice-ochrona-oczu-2026-11-01.md`.
+- Bank: 706 pytań ADR-B-0001–0706; 706 `needs_review`, 0 `verified`; SHA `8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb`.
+- ADR-B-0706 do ADR-B-09-K07: bezpieczne przemieszczenie pojazdu do najbliższego miejsca czyszczenia, gdy nie można go oczyścić na placu rozładunku; ADR 2025, 7.5.8.1.
+- Explanation 430 znaków; A/B/C 103/99/98; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C: 238/248/220; „poprawna = jedyna najdłuższa”: 75/706 = 10,62%.
+- ADR-B-09-K07 ma 5 pytań; moduł ADR-B-09 ma 56 pytań.
+- Snapshoty sequential/legal: 706-706; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x280-bezpieczny-przejazd-do-czyszczenia-2026-11-01.md`.
 
 
 | ADR-B-0001 | ADR-B-01 | ADR-B-01-K02 | Jakie szkolenie powinien otrzymać pracownik nadawcy, którego obowiązki dotyczą przewozu towarów niebezpiecznych? | C | ADR 2025, 1.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
@@ -782,3 +783,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0675 | ADR-B-02 | ADR-B-02-K06 | W dokumentach przewozowych kierowca widzi materiał klasy 4.3 zaliczony do II grupy pakowania. Badanie wykazało, że w temperaturze otoczenia reaguje on z wodą, wydzielając maksymalnie 24 litry gazu palnego na kilogram materiału w ciągu godziny. Nie spełnia kryteriów I grupy. Jak należy rozumieć tę klasyfikację? | A | ADR 2025, 2.2.43.1.8(b) | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0676 | ADR-B-02 | ADR-B-02-K06 | Podczas omawiania karty charakterystyki materiału klasy 4.3 instruktor podaje wynik badania: materiał reaguje powoli z wodą i wydziela maksymalnie 5 litrów gazu palnego na kilogram w ciągu godziny. Nie spełnia kryteriów I ani II grupy pakowania. Która grupa odpowiada temu wynikowi? | C | ADR 2025, 2.2.43.1.8(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0706 | ADR-B-09 | ADR-B-09-K07 | Bezpieczny przejazd do najbliższego miejsca czyszczenia po wycieku | B | ADR 2025, 7.5.8.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
