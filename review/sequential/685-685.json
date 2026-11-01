@@ -1,0 +1,53 @@
+{
+  "batch": "685-685",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0685",
+      "sequence": 685,
+      "exact_record_snapshot": {
+        "stem": "Podczas kontroli pojazdu ADR kierowca widzi, że tablica pomarańczowa jest dobrze widoczna i ma właściwe wymiary, ale jej mocowanie może puścić podczas pożaru. Jaki warunek musi spełniać tablica?",
+        "options": {
+          "A": "Wystarczy, że tablica ma właściwy kolor, wymiary i jest dobrze widoczna z obu stron; po 15 minutach działania ognia może odpaść, jeśli wcześniej była czytelna.",
+          "B": "Materiał ma być odporny na warunki pogodowe i zapewniać trwałe oznaczenie, a tablica nie może odpaść od mocowania podczas 15 minut działania ognia.",
+          "C": "Wystarczy, że numery są czytelne w dokumencie przewozowym; materiał i mocowanie tablicy nie podlegają temu wymaganiu."
+        },
+        "correct_option": "B",
+        "explanation": "Tablica pomarańczowa nie może być tylko czytelna w chwili kontroli. ADR wymaga materiału odpornego na warunki pogodowe i trwałego oznaczenia, a mocowanie ma utrzymać tablicę nawet podczas 15 minut objęcia ogniem. Odpowiedź A pomija wymóg utrzymania tablicy, a C błędnie traktuje dokument jako zamiennik oznakowania. Podstawa: ADR 5.3.2.2.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.1 — tablica pomarańczowa: odblaskowość, odporność materiału na warunki pogodowe i utrzymanie na mocowaniu podczas 15 minut działania ognia",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, pkt 5.3.2.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official ADR 2025 text identifies the reflectorized plate, weather-resistant durable material and 15-minute fire-retention requirements in 5.3.2.2.1; exact full comparison against the Polish Dz.U. text and independent specialist approval remain pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "ADR 5.3.2.2.1 requires orange plates to be reflectorized, made of weather-resistant material ensuring durable marking, and remain attached to their mount during 15 minutes of fire engulfment.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "source_risk_note": "Official Ministry of Infrastructure ADR 2025 Polish Volume II PDF link identified; exact full-text comparison against Dz.U. 2025 poz. 642 and independent specialist review remain pending."
+    }
+  ]
+}
