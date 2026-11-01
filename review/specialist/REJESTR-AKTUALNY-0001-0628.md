@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x260 (01.11.2026)
 
-- Bank: 686 pytań ADR-B-0001–0686; 686 needs_review, 0 verified; SHA `f5f21db12588f8b0451c27a1a82783982a731133`.
+- Bank: 686 pytań ADR-B-0001–0686; 686 needs_review, 0 verified; SHA `f44c2fdc0e99ccbb1311d61b7b4bc2dadf1a907d`.
 - ADR-B-0686 do ADR-B-08-K05: liczba przenośnych lamp — jedna dla każdego członka załogi; ADR 8.1.5.2.
 - 686 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x260-przenosne-lampy-zaloga-2026-11-01.md`.
 
