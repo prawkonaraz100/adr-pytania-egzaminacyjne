@@ -23,7 +23,7 @@ W kompetencji były pytania o rękawice, ochronę oczu i komplet wyposażenia, a
 ## Podstawa prawna
 
 - ADR 2025, 8.1.5.2: w jednostce transportowej ma być para rękawic ochronnych i ochrona oczu (np. okulary ochronne) **dla każdego członka załogi pojazdu**.
-- Oficjalny polski tekst ADR 2025, tom II, s. 632: https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70
+- Oficjalny polski tekst ADR 2025, tom II: https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70
 - Dz.U. 2025 poz. 642: https://dziennikustaw.gov.pl/DU/2025/642
 - UNECE ADR 2025: https://unece.org/adr-2025-files
 
@@ -34,6 +34,6 @@ Punkt 8.1.5.2 sprawdzono w oficjalnym polskim tekście ADR 2025. Pełne literaln
 - Bank: 705 pytań ADR-B-0001–0705; wszystkie `needs_review`, 0 `verified`.
 - Blob SHA banku: `c1e4a8bb7c44771246bedf691b528f5f43b07630`.
 - Warianty i klucze egzaminów próbnych 001–005 wskazują ten SHA.
-- Snapshoty sequential/legal 705-705, ledger źródeł, manifest i indeks recenzyjny zostały odświeżone.
+- Snapshoty sequential/legal 705-705, ledger źródeł, manifest i indeks recenzyjny zostały odświeżone. Wykryty pusty plik głównego rejestru (609 rekordów) odtworzono wyłącznie ze statusem `not_retrieved_not_literally_compared`; nie przypisano mu dawnych porównań ani zatwierdzeń.
 - Rozkład prawidłowych opcji A/B/C: 238/248/219.
 - „Poprawna = jedyna najdłuższa”: 75/705 = 10,64%; maksimum modułu: 13,95%.
