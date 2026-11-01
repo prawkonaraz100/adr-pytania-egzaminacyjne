@@ -157,3 +157,14 @@ Przedstaw sytuację firmy serwisowej, która wiezie 300 l towaru na budowę do n
 ### Ćwiczenie: znajdź właściwy załącznik ADR
 
 Podaj kursantowi dwa zadania: sprawdzenie wymagań dotyczących opakowania i oznakowania przesyłki oraz sprawdzenie wymagań dotyczących wyposażenia pojazdu i załogi. Poproś, aby wskazał odpowiednio załącznik A lub B i uzasadnił wybór. Kryterium: kursant nie myli wymagań dotyczących towaru z wymaganiami dotyczącymi pojazdu i operacji transportowych. Powiązane pytanie: ADR-B-0659 (needs_review). Podstawa: art. 2 Umowy ADR; ADR 1.1.1.
+
+
+## Ćwiczenie — co tworzy jednostkę transportową? (ADR-B-0709)
+
+**Sytuacja:** Kierowca przyjeżdża na kontrolę samochodem ciężarowym z dołączoną przyczepą. Inspektor pyta, co w tej sytuacji oznacza pojęcie „jednostka transportowa” w ADR.
+
+**Oczekiwana odpowiedź:** Pojazd samochodowy wraz z dołączoną do niego przyczepą stanowią jedną jednostkę transportową. Sam pojazd samochodowy bez przyczepy również może być jednostką.
+
+**Typowe błędy:** liczenie ciężarówki i przyczepy jako dwóch jednostek; uznawanie, że jednostką jest wyłącznie przyczepa; mylenie jednostki transportowej z jednostką transportową cargo.
+
+**Podstawa:** ADR 2025, 1.2.1.
