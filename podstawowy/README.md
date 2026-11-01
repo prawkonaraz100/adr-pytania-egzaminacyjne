@@ -1,3 +1,11 @@
+**Stan na 01.11.2026, etap 4x278**
+
+- Bank: 704 pytania ADR-B-0001–0704; 704 `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.
+- ADR-B-0704: łatwy dostęp do gaśnicy ADR bez szukania klucza; ADR 2025, 8.1.4.5.
+- Explanation 367 znaków; A/B/C 97/96/100.
+- Rozkład A/B/C: 238/247/219; „poprawna = jedyna najdłuższa”: 75/704 = 10,65%.
+- Raport: [Etap 4x278 — łatwy dostęp do gaśnicy](raporty/etap-4x278-latwy-dostep-do-gasnicy-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x277**
 
 - Bank: 703 pytania ADR-B-0001–0703; 703 `needs_review`, 0 `verified`; SHA `c260f5acf3c035db2a9d1268c73d00a3b76328c3`.
