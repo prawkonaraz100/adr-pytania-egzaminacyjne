@@ -874,4 +874,3 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0685 | ADR-B-06 | ADR-B-06-K07 | Trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia | B | ADR 2025, 5.3.2.2.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-| ADR-B-0685 | ADR-B-06 | ADR-B-06-K07 | Trwałość materiału i mocowania tablicy pomarańczowej podczas 15 minut działania ognia | B | ADR 2025, 5.3.2.2.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
