@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x270 (01.11.2026)
+
+- Bank: 696 pytań ADR-B-0001–0696; wszystkie `needs_review`, 0 `verified`; SHA `afaf8c6083b2057c5443f38f30f0c12f0d7d5b7b`.
+- ADR-B-0696 do ADR-B-05-K07: bezpieczne udostępnienie dokumentów ratownikom bez powrotu do zadymionej kabiny; ADR 5.4.3.4, tom II, s. 270.
+- 696 wpisów w indeksie; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x270-dokumenty-bez-powrotu-do-strefy-zagrozenia-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x269 (01.11.2026)
 
 - Bank: 695 pytań ADR-B-0001–0695; wszystkie `needs_review`, 0 `verified`; SHA `c9127a1fe91f03222089a434d5ec51f11f3b4e8a`.
@@ -949,3 +955,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0694 | ADR-B-06 | ADR-B-06-K05 | Widoczność i prawidłowe położenie tylnej tablicy pomarańczowej | B | ADR 2025, 5.3.2.1.1, s. 248 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0695 | ADR-B-05 | ADR-B-05-K05 | Mały/początkowy pożar komory silnika — warunkowe użycie gaśnicy | A | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0696 | ADR-B-05 | ADR-B-05-K07 | Dokumenty dla ratowników — nie wracać do zadymionej kabiny | C | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
