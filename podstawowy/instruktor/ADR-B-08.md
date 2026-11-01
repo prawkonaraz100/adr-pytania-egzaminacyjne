@@ -142,6 +142,6 @@ Przygotuj dwie fikcyjne karty pojazdu i świadectwa. W jednym zestawie zgodne s�
 
 ### Wyposażenie w przenośne lampy — ADR-B-0686
 
-**Sytuacja do omówienia:** dwóch członków załogi, jedna metalowa latarka. Kursant ma wskazać dwa osobne warunki: lampa dla każdego członka załogi oraz brak powierzchni metalowej mogącej powodować iskrzenie. Nie należy utożsamiać zwykłej sprawności baterii z zgodnością urządzenia z ADR.
+**Sytuacja do omówienia:** dwóch członków załogi, jedna przenośna lampa. Kursant ma wskazać, że ADR 8.1.5.2 wymaga lampy dla każdego członka załogi, czyli w tej sytuacji dwóch sztuk. Właściwości materiału i ryzyko iskrzenia omawia osobno pytanie ADR-B-0663 (ADR 8.3.4).
 
-**Pytanie kontrolne:** ADR-B-0686. Podstawa: ADR 8.1.5.2 i 8.3.4. Status pozostaje `needs_review`.
+**Pytanie kontrolne:** ADR-B-0686. Podstawa: ADR 8.1.5.2. Status pozostaje `needs_review`.
