@@ -234,3 +234,8 @@ Odegraj scenariusz z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json)
 
 **Status:** `needs_review`; przedstawione wskazania ADR wymagają niezależnego sprawdzenia.
 
+
+
+### Ocena placu czasowego składowania (ADR-B-0701)
+
+Obszary terminali, baz i placów wykorzystywane do czasowego składowania towarów niebezpiecznych podczas przewozu powinny być właściwie zabezpieczone i dobrze oświetlone. Gdzie to możliwe i właściwe, powinny być niedostępne dla ogółu. Samo oznakowanie lub obecność kierowcy nie zastępują tych warunków. Podstawa: ADR 2025, 1.10.1.3.
