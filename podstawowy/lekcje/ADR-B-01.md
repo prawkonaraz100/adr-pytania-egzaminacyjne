@@ -270,3 +270,8 @@ Załącznik A zawiera wymagania dotyczące towarów niebezpiecznych i warunków 
 ### Brak klasyfikacji i danych ADR przed rozpoczęciem przewozu
 
 Jeżeli nadawca przekazuje tylko nazwę handlową nowego materiału, nie zgaduj numeru UN ani nie wybieraj podobnego wpisu z tabeli A. Klasyfikację i wymagane informacje przekazuje nadawca; przewoźnik sprawdza, czy towar jest dopuszczony do przewozu i czy otrzymał wymagane dane oraz dokumenty. Stwierdzone braki trzeba wyjaśnić przed rozpoczęciem przewozu. Powiązane pytanie: ADR-B-0679. Podstawa: ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3 i 5.4.1.1.1.
+
+
+### Jednostka transportowa w zestawie z przyczepą (ADR-B-0709)
+
+W ADR jednostką transportową jest pojazd samochodowy bez przyczepy albo zespół złożony z pojazdu samochodowego i dołączonej do niego przyczepy. Gdy ciężarówka jedzie z przyczepą, oba elementy tworzą jedną jednostkę transportową. Nie licz ich jako dwóch osobnych jednostek. Podstawa: ADR 1.2.1.

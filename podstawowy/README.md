@@ -1,3 +1,14 @@
+**Stan na 01.11.2026, etap 4x283**
+
+## Bieżąca migawka — etap 4x283 (01.11.2026)
+
+- Bank: 709 `needs_review`, 0 `verified` (ADR-B-0001–0709); SHA `733efd0b63dc4b0048a03e53635faacd542ad6d2`.
+- ADR-B-0709 do ADR-B-01-K01: definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
+- Explanation 305 znaków; A/B/C 108/102/101; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C: 238/252/219; „poprawna = jedyna najdłuższa”: 75/709 = 10,58%.
+- ADR-B-01-K01 ma 6 pytań; moduł ADR-B-01 ma 51 pytań.
+- Raport: `podstawowy/raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md`.
+
 **Stan na 01.11.2026, etap 4x282**
 
 - Bank: 708 pytań ADR-B-0001–0708; 708 `needs_review`, 0 `verified`; SHA `ee7a6a90e270e62cb6b24b0c2db1e15d9f8ae02c`.
@@ -522,6 +533,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x283 — definicja jednostki transportowej](raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md)
 - [Etap 4x282 — adnotacja przewozowa](raporty/etap-4x282-adnotacja-przewozowa-1-1-4-2-1-2026-11-01.md)
 - [Etap 4x281 — bezpieczne usunięcie skażonej odzieży](raporty/etap-4x281-bezpieczne-usuniecie-skazonej-odziezy-2026-11-01.md)
 - [Etap 4x280 — bezpieczny przejazd do miejsca czyszczenia](raporty/etap-4x280-bezpieczny-przejazd-do-czyszczenia-2026-11-01.md)

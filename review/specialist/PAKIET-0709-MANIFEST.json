@@ -1,0 +1,2185 @@
+{
+  "stage": "4x283_transport_unit_definition",
+  "snapshot_date": "2026-11-01",
+  "scope": "ADR-BASIC-ONLY",
+  "question_count": 709,
+  "last_id": "ADR-B-0709",
+  "status_counts": {
+    "needs_review": 709,
+    "verified": 0
+  },
+  "formal_approvals": 0,
+  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0709.md",
+  "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
+  "unresolved_literal_comparisons": 682,
+  "modules": {
+    "ADR-B-01": {
+      "questions": 51,
+      "theory_competencies": 7
+    },
+    "ADR-B-02": {
+      "questions": 79,
+      "theory_competencies": 14
+    },
+    "ADR-B-03": {
+      "questions": 56,
+      "theory_competencies": 6
+    },
+    "ADR-B-04": {
+      "questions": 47,
+      "theory_competencies": 6
+    },
+    "ADR-B-05": {
+      "questions": 71,
+      "theory_competencies": 12
+    },
+    "ADR-B-06": {
+      "questions": 59,
+      "theory_competencies": 9
+    },
+    "ADR-B-07": {
+      "questions": 51,
+      "theory_competencies": 7
+    },
+    "ADR-B-08": {
+      "questions": 46,
+      "theory_competencies": 8
+    },
+    "ADR-B-09": {
+      "questions": 56,
+      "theory_competencies": 9
+    },
+    "ADR-B-10": {
+      "questions": 56,
+      "theory_competencies": 5
+    },
+    "ADR-B-11": {
+      "questions": 43,
+      "theory_competencies": 7
+    },
+    "ADR-B-12": {
+      "questions": 45,
+      "theory_competencies": 6
+    },
+    "ADR-B-13": {
+      "questions": 49,
+      "theory_competencies": 8
+    }
+  },
+  "images": [
+    {
+      "id": "ADR-B-0255",
+      "path": "assets/adr-original/adr-b-0255-orange-33-1203.svg",
+      "source": [
+        "ADR 2025, 5.3.2.2.2"
+      ]
+    },
+    {
+      "id": "ADR-B-0256",
+      "path": "assets/adr-original/adr-b-0256-orange-x.svg",
+      "source": [
+        "ADR 2025, 5.3.2.3.1"
+      ]
+    },
+    {
+      "id": "ADR-B-0260",
+      "path": "assets/adr-original/adr-b-0260-eq-e0-table.svg",
+      "source": [
+        "ADR 2025, 3.5.1.2"
+      ]
+    },
+    {
+      "id": "ADR-B-0262",
+      "path": "assets/adr-original/adr-b-0262-tunnel-e.svg",
+      "source": [
+        "ADR 2025, 1.9.5.3.6; 8.6.4"
+      ]
+    },
+    {
+      "id": "ADR-B-0268",
+      "path": "assets/adr-original/adr-b-0268-label-4-1.svg",
+      "source": [
+        "ADR 2025, 5.2.2.2.2"
+      ]
+    },
+    {
+      "id": "ADR-B-0270",
+      "path": "assets/adr-original/adr-b-0270-label-5-1.svg",
+      "source": [
+        "ADR 2025, 5.2.2.2.2"
+      ]
+    },
+    {
+      "id": "ADR-B-0273",
+      "path": "assets/adr-original/adr-b-0273-lq-mark.svg",
+      "source": [
+        "ADR 2025, 3.4.7.1"
+      ]
+    },
+    {
+      "id": "ADR-B-0504",
+      "path": "assets/adr-original/adr-b-0504-hin-leading-5.svg",
+      "source": [
+        "ADR 2025, 5.3.2.3.1"
+      ]
+    },
+    {
+      "id": "ADR-B-0541",
+      "path": "assets/adr-original/adr-b-0541-label-2-2.svg",
+      "source": [
+        "ADR 2025, 5.2.2.2.2; 2.2.2.1.2"
+      ]
+    },
+    {
+      "id": "ADR-B-0542",
+      "path": "assets/adr-original/adr-b-0542-label-3.svg",
+      "source": [
+        "ADR 2025, 5.2.2.2.2; 2.2.3.1.1"
+      ]
+    }
+  ],
+  "review_requirements": [
+    "verify official Polish original act and correction page for each question",
+    "check A/B/C independently and clear every ambiguity",
+    "review SVG against original ADR pattern",
+    "record authentic reviewer/date/evidence/hash before any verified status",
+    "check all 13 lessons and 13 instructor guides against the 39 scenario IDs and module-local question IDs",
+    "check the five training exam variants and five keys against the current question bank; publication_authorized must remain false until independent approval",
+    "confirm explanations are understandable to a novice driver and assess each A/B/C independently",
+    "Sprawdzić instrukcję egzaminu próbnego pod kątem zgodności parametrów oficjalnego egzaminu podstawowego z Dz.U. 2024 poz. 964, § 9–11; rozdzielać oficjalne wymagania od statusu autorskich wariantów treningowych."
+  ],
+  "release_allowed": false,
+  "practical_scenario_count": 42,
+  "scenarios_by_module": {
+    "ADR-B-01": 3,
+    "ADR-B-02": 3,
+    "ADR-B-03": 4,
+    "ADR-B-04": 4,
+    "ADR-B-05": 4,
+    "ADR-B-06": 3,
+    "ADR-B-07": 3,
+    "ADR-B-08": 3,
+    "ADR-B-09": 3,
+    "ADR-B-10": 3,
+    "ADR-B-11": 3,
+    "ADR-B-12": 3,
+    "ADR-B-13": 3
+  },
+  "mock_exam_variants": [
+    {
+      "variant": "001",
+      "file": "podstawowy/egzamin-probny/wariant-001.json",
+      "key_file": "podstawowy/egzamin-probny/klucz-001.json",
+      "publication_authorized": false,
+      "source_bank_head": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a"
+    },
+    {
+      "variant": "002",
+      "file": "podstawowy/egzamin-probny/wariant-002.json",
+      "key_file": "podstawowy/egzamin-probny/klucz-002.json",
+      "publication_authorized": false,
+      "source_bank_head": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a"
+    },
+    {
+      "variant": "003",
+      "file": "podstawowy/egzamin-probny/wariant-003.json",
+      "key_file": "podstawowy/egzamin-probny/klucz-003.json",
+      "publication_authorized": false,
+      "source_bank_head": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a"
+    },
+    {
+      "variant": "004",
+      "file": "podstawowy/egzamin-probny/wariant-004.json",
+      "key_file": "podstawowy/egzamin-probny/klucz-004.json",
+      "publication_authorized": false,
+      "source_bank_head": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a"
+    },
+    {
+      "variant": "005",
+      "file": "podstawowy/egzamin-probny/wariant-005.json",
+      "key_file": "podstawowy/egzamin-probny/klucz-005.json",
+      "publication_authorized": false,
+      "source_bank_head": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a"
+    }
+  ],
+  "course_materials": {
+    "lessons": "podstawowy/lekcje/ADR-B-01.md ... ADR-B-13.md",
+    "instructor_guides": "podstawowy/instruktor/ADR-B-01.md ... ADR-B-13.md",
+    "scenario_map": "podstawowy/praktyka/scenariusze-13-dzialow.json",
+    "scenario_guide": "podstawowy/praktyka/SCENARIUSZE.md"
+  },
+  "artifact_counts": {
+    "lessons": 13,
+    "instructor_guides": 13,
+    "practical_scenarios": 42,
+    "mock_exam_variants": 5,
+    "mock_exam_keys": 5,
+    "glossary_terms": 90,
+    "questions": 709,
+    "learner_exam_instructions": 1
+  },
+  "last_literal_comparison_batch": {
+    "id": "4x16-literal-comparison-batch5-0010-0337",
+    "questions": 48,
+    "consistent_in_scope": 32,
+    "requires_correction": 0,
+    "unable_to_confirm": 16,
+    "question_changes": 0,
+    "formal_specialist_approvals": 0,
+    "report": "review/batches/4x16-literal-comparison-batch5-0010-0337.md",
+    "data": "review/batches/4x16-literal-comparison-batch5-0010-0337.json"
+  },
+  "literal_comparison_note": "292 rekordy mają zapisany wynik kontroli celowanej, w tym cztery rekordy 8.3.3 z porównaniem zakresu przepisu do oficjalnego tekstu polskiego; nie oznacza to pełnego porównania wszystkich A/B/C ani akceptacji specjalisty. Pełna recenzja i potwierdzenie w Dz.U. pozostają otwarte.",
+  "stage4x18": {
+    "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "question_count": 609,
+    "status_counts": {
+      "needs_review": 609,
+      "verified": 0
+    },
+    "formal_approvals": 0,
+    "mock_exam_variants": [
+      {
+        "variant": 1,
+        "path": "podstawowy/egzamin-probny/wariant-001.json",
+        "key": "podstawowy/egzamin-probny/klucz-001.json",
+        "question_count": 30,
+        "modules": 13,
+        "answers_ABC": "10/10/10"
+      },
+      {
+        "variant": 2,
+        "path": "podstawowy/egzamin-probny/wariant-002.json",
+        "key": "podstawowy/egzamin-probny/klucz-002.json",
+        "question_count": 30,
+        "modules": 13,
+        "answers_ABC": "10/10/10"
+      },
+      {
+        "variant": 3,
+        "path": "podstawowy/egzamin-probny/wariant-003.json",
+        "key": "podstawowy/egzamin-probny/klucz-003.json",
+        "question_count": 30,
+        "modules": 13,
+        "answers_ABC": "10/10/10"
+      },
+      {
+        "variant": 4,
+        "path": "podstawowy/egzamin-probny/wariant-004.json",
+        "key": "podstawowy/egzamin-probny/klucz-004.json",
+        "question_count": 30,
+        "modules": 13,
+        "answers_ABC": "10/10/10"
+      },
+      {
+        "variant": 5,
+        "path": "podstawowy/egzamin-probny/wariant-005.json",
+        "key": "podstawowy/egzamin-probny/klucz-005.json",
+        "question_count": 30,
+        "modules": 13,
+        "answers_ABC": "10/10/10"
+      }
+    ],
+    "priority_review_ids": [
+      "ADR-B-0073",
+      "ADR-B-0074",
+      "ADR-B-0253",
+      "ADR-B-0283",
+      "ADR-B-0420",
+      "ADR-B-0422",
+      "ADR-B-0484",
+      "ADR-B-0144",
+      "ADR-B-0249",
+      "ADR-B-0274",
+      "ADR-B-0275",
+      "ADR-B-0300",
+      "ADR-B-0304",
+      "ADR-B-0305"
+    ],
+    "note": "Priority list is not exhaustive. Every question remains needs_review until a real specialist approves it; all ADR 2027 sensitivity registers remain relevant."
+  },
+  "literal_comparison_status_counts": {
+    "official_polish_text_not_retrieved": 682,
+    "targeted_source_checked_full_literal_comparison_pending": 27,
+    "records_with_recorded_targeted_comparison_result": 8,
+    "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 0,
+    "specialist_reviews_pending": 709,
+    "verified": 0
+  },
+  "stage4x19": {
+    "purpose": "Reconcile ledger evidence states; counts describe evidence coverage, not legal approval",
+    "ledger_entry_count": 620,
+    "count_definitions": {
+      "unresolved_literal_comparisons": "Records where exact official Polish clause text was not retrieved and therefore not literally compared",
+      "targeted_source_checked_full_literal_comparison_pending": "Records where a source was checked but the full literal comparison remains pending",
+      "records_with_recorded_targeted_comparison_result": "Records with a targeted result recorded; this is not specialist approval or full Gazette confirmation"
+    },
+    "not_verified_warning": "All 620 questions remain needs_review. A targeted comparison result does not constitute specialist approval.",
+    "original_not_retrieved_records": 387,
+    "specialist_reviews_pending": 679
+  },
+  "current_bank_blob_sha": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a",
+  "stage4x20": {
+    "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
+    "explanation_records_manually_read": 609,
+    "explanations_rewritten": 68,
+    "question_count": 609,
+    "status_counts": {
+      "needs_review": 609,
+      "verified": 0
+    },
+    "formal_approvals": 0,
+    "mock_exam_bias_limit": 0.18,
+    "mock_exam_variants": [
+      {
+        "variant": "001",
+        "file": "podstawowy/egzamin-probny/wariant-001.json",
+        "key_file": "podstawowy/egzamin-probny/klucz-001.json",
+        "seed": 2026102701,
+        "question_count": 30,
+        "modules": 13,
+        "strict_longest_correct": "0/30",
+        "answer_distribution": "10/10/10",
+        "max_same_letter_run": 3,
+        "publication_authorized": false
+      },
+      {
+        "variant": "002",
+        "file": "podstawowy/egzamin-probny/wariant-002.json",
+        "key_file": "podstawowy/egzamin-probny/klucz-002.json",
+        "seed": 2026102702,
+        "question_count": 30,
+        "modules": 13,
+        "strict_longest_correct": "0/30",
+        "answer_distribution": "10/10/10",
+        "max_same_letter_run": 3,
+        "publication_authorized": false
+      },
+      {
+        "variant": "003",
+        "file": "podstawowy/egzamin-probny/wariant-003.json",
+        "key_file": "podstawowy/egzamin-probny/klucz-003.json",
+        "seed": 2026102703,
+        "question_count": 30,
+        "modules": 13,
+        "strict_longest_correct": "0/30",
+        "answer_distribution": "10/10/10",
+        "max_same_letter_run": 3,
+        "publication_authorized": false
+      },
+      {
+        "variant": "004",
+        "file": "podstawowy/egzamin-probny/wariant-004.json",
+        "key_file": "podstawowy/egzamin-probny/klucz-004.json",
+        "seed": 2026102704,
+        "question_count": 30,
+        "modules": 13,
+        "strict_longest_correct": "0/30",
+        "answer_distribution": "10/10/10",
+        "max_same_letter_run": 3,
+        "publication_authorized": false
+      },
+      {
+        "variant": "005",
+        "file": "podstawowy/egzamin-probny/wariant-005.json",
+        "key_file": "podstawowy/egzamin-probny/klucz-005.json",
+        "seed": 2026102705,
+        "question_count": 30,
+        "modules": 13,
+        "strict_longest_correct": "0/30",
+        "answer_distribution": "10/10/10",
+        "max_same_letter_run": 3,
+        "publication_authorized": false
+      }
+    ],
+    "unique_exam_question_ids_across_variants": 150,
+    "scenario_count": 39,
+    "glossary_terms": 90,
+    "open_legal_review": {
+      "official_polish_text_not_retrieved": 376,
+      "targeted_source_checked_full_literal_comparison_pending": 10,
+      "records_with_targeted_comparison_result": 291,
+      "specialist_reviews_pending": 678
+    },
+    "report": "podstawowy/raporty/etap-4x20-raport-koncowy-2026-10-26.md",
+    "exam_report": "podstawowy/raporty/etap-4x20-egzaminy-001-005-2026-10-26.md",
+    "explanation_part_14_report": "podstawowy/raporty/etap-4x20-partia-14-explanation-0601-0609-2026-10-26.md",
+    "legal_approval_warning": "No editorial audit or CI result constitutes expert approval. Do not set verified without a real specialist protocol."
+  },
+  "stage4x21": {
+    "status": "partial_open_specialist_review_required",
+    "last_batch": "stage4x21-reconcile-10-targeted",
+    "records_in_batch": 10,
+    "records_with_saved_literal_quote": 4,
+    "records_still_open_in_batch": 6,
+    "question_changes": 0,
+    "formal_specialist_approvals": 0,
+    "verified": 0,
+    "source_copy": "https://www.gov.pl/attachment/8856b22a-bfd8-4567-8386-b9709bba8da7",
+    "legal_source": "https://dziennikustaw.gov.pl/DU/2025/642",
+    "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl/pol/pdf",
+    "note": "Ministerial copy is auxiliary. Exact Gazette split-file/page mapping and specialist approval remain pending; all questions stay needs_review.",
+    "records_in_scope": 386,
+    "original_not_retrieved_records": 376,
+    "records_with_new_literal_quote_or_partial_quote": 68,
+    "records_without_new_literal_quote": 318,
+    "targeted_pending_records": 10,
+    "official_gazette_page_file_mapping_complete": false,
+    "final_report": "podstawowy/raporty/etap-4x21-raport-koncowy-2026-10-26.md",
+    "targeted_source_checked_full_literal_comparison_pending": 10,
+    "confirmed_discrepancies": 0
+  },
+  "specialist_open_items": {
+    "official_polish_text_not_retrieved": 682,
+    "ministerial_copy_exact_quote_not_saved": 143,
+    "targeted_source_checked_full_literal_comparison_pending": 29,
+    "specialist_reviews_pending": 709,
+    "verified": 0,
+    "formal_approvals": 0,
+    "note": "Conservative current ledger: 680 records have no retrieved exact Polish clause; 26 have targeted source checks but full literal comparison and independent specialist review remain pending. 143 IDs remain in the separate 4x24 quote list. All 706 questions remain needs_review; formal approvals: 0."
+  },
+  "stage4x25": {
+    "status": "complete_editorial_and_mock_exam_sync",
+    "questions_scanned": 609,
+    "additional_editorial_correction": [
+      "ADR-B-0197"
+    ],
+    "explanations_under_200": 0,
+    "sentences_over_35_words_by_heuristic": 0,
+    "semantic_duplicate_pairs_confirmed": 0,
+    "verified": 0,
+    "report": "podstawowy/raporty/etap-4x25-raport-koncowy-2026-10-26.md"
+  },
+  "stage4x26": {
+    "status": "complete_course_materials_sync",
+    "lessons_revised": 13,
+    "instructor_guides_synced": 13,
+    "practical_scenarios": 39,
+    "scenarios_per_module": 3,
+    "mock_exam_variants_synced": 5,
+    "verified": 0,
+    "report": "podstawowy/raporty/etap-4x26-raport-koncowy-2026-10-26.md"
+  },
+  "stage4x27": {
+    "status": "complete_editorial_cleanup",
+    "lessons_touched": 13,
+    "instructor_guides_touched": 13,
+    "question_bank_changed": false,
+    "verified": 0,
+    "reports": [
+      "podstawowy/raporty/etap-4x27-cleanup-redakcyjny-01-06-2026-10-26.md",
+      "podstawowy/raporty/etap-4x27-cleanup-redakcyjny-07-13-2026-10-26.md"
+    ]
+  },
+  "stage4x28": {
+    "status": "complete_course_consistency_check",
+    "bank_questions": 609,
+    "lesson_question_references_missing": 0,
+    "wrong_module_references": 0,
+    "scenario_count": 39,
+    "scenario_id_errors": 0,
+    "instructor_reference_errors": 0,
+    "second_explanation_sample_seed": 4282026,
+    "sample_size": 60,
+    "explanation_rewrites": 0,
+    "strictly_longest_correct": 73,
+    "strictly_longest_rate": 0.1199,
+    "min_explanation_chars": 300,
+    "explanations_under_200": 0,
+    "glossary_terms": 90,
+    "unique_glossary_anchors": 90,
+    "verified": 0,
+    "report": "podstawowy/raporty/etap-4x28-koncowa-spojnosc-kursu-2026-10-26.md"
+  },
+  "stage4x29": {
+    "status": "complete_second_explanation_sample_and_exam_sync_audit",
+    "sample_seed": 4292026,
+    "sample_size": 60,
+    "sample_question_ids": [
+      "ADR-B-0148",
+      "ADR-B-0041",
+      "ADR-B-0092",
+      "ADR-B-0301",
+      "ADR-B-0091",
+      "ADR-B-0097",
+      "ADR-B-0157",
+      "ADR-B-0099",
+      "ADR-B-0005",
+      "ADR-B-0317",
+      "ADR-B-0318",
+      "ADR-B-0335",
+      "ADR-B-0340",
+      "ADR-B-0276",
+      "ADR-B-0325",
+      "ADR-B-0581",
+      "ADR-B-0580",
+      "ADR-B-0474",
+      "ADR-B-0348",
+      "ADR-B-0010",
+      "ADR-B-0493",
+      "ADR-B-0230",
+      "ADR-B-0186",
+      "ADR-B-0185",
+      "ADR-B-0229",
+      "ADR-B-0051",
+      "ADR-B-0018",
+      "ADR-B-0257",
+      "ADR-B-0256",
+      "ADR-B-0132",
+      "ADR-B-0054",
+      "ADR-B-0372",
+      "ADR-B-0245",
+      "ADR-B-0477",
+      "ADR-B-0369",
+      "ADR-B-0197",
+      "ADR-B-0597",
+      "ADR-B-0485",
+      "ADR-B-0553",
+      "ADR-B-0071",
+      "ADR-B-0139",
+      "ADR-B-0292",
+      "ADR-B-0286",
+      "ADR-B-0428",
+      "ADR-B-0321",
+      "ADR-B-0388",
+      "ADR-B-0203",
+      "ADR-B-0441",
+      "ADR-B-0033",
+      "ADR-B-0490",
+      "ADR-B-0432",
+      "ADR-B-0602",
+      "ADR-B-0405",
+      "ADR-B-0213",
+      "ADR-B-0121",
+      "ADR-B-0404",
+      "ADR-B-0089",
+      "ADR-B-0601",
+      "ADR-B-0538",
+      "ADR-B-0175"
+    ],
+    "explanations_rewritten": 0,
+    "confirmed_poor_explanations": 0,
+    "sample_min_chars": 301,
+    "sample_max_chars": 454,
+    "variants_checked": 5,
+    "variant_question_count": 30,
+    "unique_ids_across_variants": 150,
+    "key_mismatches_after_letter_remapping": 0,
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "answer_distribution_each_variant": "10/10/10",
+    "max_same_letter_run": 3,
+    "strictly_longest_rate_each_variant": "0/30",
+    "verified": 0,
+    "report": "podstawowy/raporty/etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md"
+  },
+  "stage4x31": {
+    "status": "complete_explanation_readability_regression_fix",
+    "question_count": 609,
+    "question_changed": "ADR-B-0540",
+    "explanation_rewritten": 1,
+    "false_alarm_not_changed": "ADR-B-0319 (m.in. abbreviation caused naive sentence counter split)",
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 73,
+    "strictly_longest_rate": 0.1199,
+    "min_explanation_chars": 300,
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "exam_variants_resynced": 5,
+    "exam_keys_resynced": 5,
+    "verified": 0,
+    "report": "podstawowy/raporty/etap-4x31-czytelnosc-zdan-explanation-2026-10-26.md",
+    "snapshot_date": "2026-10-27"
+  },
+  "latest_editorial_update": {
+    "stage": "4x125",
+    "date": "2026-10-28",
+    "report": "podstawowy/raporty/etap-4x125-proba40-jakosc-dystraktorow-2026-10-28.md",
+    "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "question_count": 609,
+    "needs_review": 609,
+    "verified": 0,
+    "explanations_rewritten": 4,
+    "distractors_improved": 3,
+    "exam_key_remapping_checked": [
+      "ADR-B-0425 — wariant 003 zachowuje poprawną odpowiedź na pozycji A po przemapowaniu opcji"
+    ]
+  },
+  "priority_legal_review_queue": {
+    "stage": "4x40",
+    "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
+    "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
+    "queue_count": 20,
+    "source_bank_blob_sha": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a",
+    "source_missing_quote_ids": 124,
+    "unresolved_literal_comparisons": 445,
+    "legal_review_status": "pending",
+    "verification_status": "needs_review",
+    "formal_approval": false,
+    "quality_gate_test": "tests/test_review_packet_integrity.py::test_priority_legal_review_queue_stays_synchronized",
+    "full_missing_quote_count": 143
+  },
+  "secondary_priority_legal_review_queue": {
+    "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
+    "source_bank_blob_sha": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a",
+    "queue_count": 20,
+    "full_missing_quote_count": 143,
+    "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
+    "all_statuses": "needs_review",
+    "official_gazette_comparison": "pending",
+    "unresolved_literal_comparisons": 445
+  },
+  "scenario_count": 42,
+  "mock_exam_variant_count": 5,
+  "editorial_update": {
+    "stage": "4x88",
+    "date": "2026-10-27",
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "summary": "Sprawdzono oficjalny wpis M364 w UNECE i polską publikację. M364 jest wykazana jako ważna do 31.12.2026 dla sygnatariuszy, a wyjątek dotyczy świadectwa dopuszczenia przyczepy, nie samochodu silnikowego FL w ADR-B-0145. Poprawna odpowiedź B pozostaje bez zmian; bank, egzaminy i klucze nie wymagają synchronizacji treści.",
+    "question_count": 609,
+    "needs_review": 609,
+    "verified": 0,
+    "formal_approvals": 0,
+    "scenarios": 39,
+    "exam_variants": 5,
+    "source_bank_unchanged": true,
+    "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
+  },
+  "stage4x87": {
+    "seed": 2026102787,
+    "sample_size": 60,
+    "question_count": 609,
+    "questions_rewritten": [
+      "ADR-B-0101",
+      "ADR-B-0186",
+      "ADR-B-0258",
+      "ADR-B-0356",
+      "ADR-B-0470",
+      "ADR-B-0484"
+    ],
+    "correct_letters_changed": 0,
+    "scenarios_checked": 39,
+    "lessons_reviewed": [
+      "ADR-B-10",
+      "ADR-B-11",
+      "ADR-B-12",
+      "ADR-B-13"
+    ],
+    "exam_variants_checked": 5,
+    "exam_real_mismatches": 0,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 73,
+    "strictly_longest_rate": 0.1199,
+    "verified": 0,
+    "review_status": "needs_review",
+    "report": "podstawowy/raporty/etap-4x87-proba60-spojnosc-kursu-egzaminy-2026-10-27.md",
+    "sample_exclusion_note": "Wykluczono wszystkie ID z raportów 4x84 i 4x85 oraz jawnie znane korekty 4x86. Raport 4x86 nie publikuje pełnej listy wszystkich 60 ID, więc pełnego braku przecięcia z nieujawnioną częścią tamtej próbki nie da się potwierdzić."
+  },
+  "stage4x88": {
+    "date": "2026-10-27",
+    "question_id": "ADR-B-0145",
+    "question_changed": false,
+    "correct_option": "B",
+    "official_source_status": "M364 listed by UNECE as valid through 2026-12-31; Poland is a signatory; no revocation date shown in the current listing",
+    "scope": "trailer certificate only; no exception for the motor vehicle FL asked about",
+    "bank_changed": false,
+    "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "verified": 0,
+    "status": "needs_review",
+    "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
+  },
+  "latest_report": "podstawowy/raporty/etap-4x280-bezpieczny-przejazd-do-czyszczenia-2026-11-01.md",
+  "latest_sample": "podstawowy/raporty/etap-4x135-wykluczenia-proby.json",
+  "latest_sample_seed": 41232026,
+  "latest_sample_count": 40,
+  "stage4x109": {
+    "date": "2026-10-28",
+    "sample_size": 40,
+    "questions_rewritten": [
+      "ADR-B-0194",
+      "ADR-B-0575",
+      "ADR-B-0083",
+      "ADR-B-0561"
+    ],
+    "exam_key_explanation_rewritten": [],
+    "correct_letters_changed": 0,
+    "scenarios_checked": 39,
+    "exam_variants_checked": 5,
+    "exam_real_mismatches_before_fix": 0,
+    "exam_real_mismatches_after_fix": 0,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 72,
+    "strictly_longest_rate": 0.11822660098522167,
+    "verified": 0,
+    "review_status": "needs_review",
+    "report": "podstawowy/raporty/etap-4x109-proba40-spojnosc-scenariusze-egzaminy-2026-10-28.md",
+    "sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
+    "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
+  },
+  "latest_editorial_stage": "4x254",
+  "latest_editorial_report": "podstawowy/raporty/etap-4x254-odpad-dokument-przewozowy-2026-10-31.md",
+  "stage4x112": {
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "sample_size": 40,
+    "seed": 41122026,
+    "report": "podstawowy/raporty/etap-4x112-proba40-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x112-wykluczenia-proby.json",
+    "questions_changed": [
+      "ADR-B-0498",
+      "ADR-B-0525",
+      "ADR-B-0224",
+      "ADR-B-0110",
+      "ADR-B-0174",
+      "ADR-B-0207"
+    ],
+    "verification_status": "needs_review",
+    "legal_review_pending": true
+  },
+  "stage4x113": {
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "sample_size": 40,
+    "seed": 41132026,
+    "report": "podstawowy/raporty/etap-4x113-proba40-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x113-wykluczenia-proby.json",
+    "questions_changed": [
+      "ADR-B-0035",
+      "ADR-B-0143",
+      "ADR-B-0516",
+      "ADR-B-0292",
+      "ADR-B-0199",
+      "ADR-B-0345"
+    ],
+    "verification_status": "needs_review",
+    "legal_review_pending": true
+  },
+  "stage4x114": {
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "sample_size": 40,
+    "seed": 41142026,
+    "report": "podstawowy/raporty/etap-4x114-proba40-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x114-wykluczenia-proby.json",
+    "questions_changed": [
+      "ADR-B-0190",
+      "ADR-B-0433",
+      "ADR-B-0378",
+      "ADR-B-0355",
+      "ADR-B-0330",
+      "ADR-B-0316"
+    ],
+    "distractors_rewritten": 9,
+    "explanations_rewritten": 6,
+    "correct_letters_changed": 0,
+    "scenarios_checked": 39,
+    "lessons_checked": 13,
+    "exam_variants_checked": 5,
+    "exam_keys_checked": 5,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 73,
+    "strictly_longest_rate": 0.1199,
+    "verification_status": "needs_review",
+    "legal_review_pending": true
+  },
+  "stage4x115": {
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "sample_size": 40,
+    "seed": 41152026,
+    "report": "podstawowy/raporty/etap-4x115-proba40-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x115-wykluczenia-proby.json",
+    "questions_changed": [
+      "ADR-B-0065",
+      "ADR-B-0185",
+      "ADR-B-0217",
+      "ADR-B-0264",
+      "ADR-B-0318",
+      "ADR-B-0340",
+      "ADR-B-0424",
+      "ADR-B-0446"
+    ],
+    "distractors_rewritten": 16,
+    "explanations_rewritten": 8,
+    "correct_letters_changed": 0,
+    "scenarios_checked": 39,
+    "lessons_checked": 13,
+    "exam_variants_checked": 5,
+    "exam_keys_checked": 5,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 73,
+    "strictly_longest_rate": 0.1199,
+    "verification_status": "needs_review",
+    "legal_review_pending": true
+  },
+  "stage4x116": {
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "selection_source_bank_blob_sha": "aa6c4184014808849f154ab07bf6acc99cbe4701",
+    "sample_size": 40,
+    "seed": 41162026,
+    "report": "podstawowy/raporty/etap-4x116-proba40-jakosc-dystraktorow-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x116-wykluczenia-proby.json",
+    "questions_changed": [
+      "ADR-B-0243",
+      "ADR-B-0283",
+      "ADR-B-0390",
+      "ADR-B-0435",
+      "ADR-B-0455",
+      "ADR-B-0510",
+      "ADR-B-0530"
+    ],
+    "distractors_rewritten": 14,
+    "explanations_rewritten": 7,
+    "scenarios_checked": 39,
+    "lessons_checked": 13,
+    "exam_variants_checked": 5,
+    "exam_keys_checked": 5,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 72,
+    "strictly_longest_rate": 0.1182,
+    "verification_status": "needs_review",
+    "legal_review_pending": true,
+    "exam_key_remapping_checked": [
+      "ADR-B-0489"
+    ]
+  },
+  "stage4x117": {
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "selection_source_bank_blob_sha": "ed7e1842d6f15d1ecde54ea3319d9efe3ef7a728",
+    "sample_size": 40,
+    "seed": 41172026,
+    "questions_rewritten": [
+      "ADR-B-0085",
+      "ADR-B-0203",
+      "ADR-B-0278"
+    ],
+    "distractors_rewritten": 1,
+    "correct_letters_changed": 0,
+    "scenarios_checked": 39,
+    "lessons_checked": 13,
+    "exam_variants_checked": 5,
+    "exam_keys_checked": 5,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 72,
+    "strictly_longest_rate": 0.11822660098522167,
+    "verification_status": "needs_review",
+    "legal_review_pending": true,
+    "report": "podstawowy/raporty/etap-4x117-proba40-jakosc-dystraktorow-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x117-wykluczenia-proby.json"
+  },
+  "stage4x118": {
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "selection_source_bank_blob_sha": "b763f639efe11f972d4c3047dc8238334f9ff9f2",
+    "sample_size": 25,
+    "seed": 41182026,
+    "report": "podstawowy/raporty/etap-4x118-proba25-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x118-wykluczenia-proby.json",
+    "questions_changed": [
+      "ADR-B-0028",
+      "ADR-B-0054",
+      "ADR-B-0354",
+      "ADR-B-0492",
+      "ADR-B-0535"
+    ],
+    "distractors_rewritten": 10,
+    "explanations_rewritten": 5,
+    "scenarios_checked": 39,
+    "lessons_checked": 13,
+    "exam_variants_checked": 5,
+    "exam_keys_checked": 5,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 72,
+    "strictly_longest_rate": 0.1182,
+    "verification_status": "needs_review",
+    "legal_review_pending": true,
+    "overlap_note": "ADR-B-0535 was also in the 4x117 sample; this was a targeted follow-up, not counted among the 25 disjoint sample IDs."
+  },
+  "stage4x119": {
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "sample_size": 40,
+    "seed": 41192026,
+    "excluded_sample_ids_from_stages": "4x114–4x118",
+    "recovered_ids_from_closed_pr579": [
+      "ADR-B-0193",
+      "ADR-B-0197",
+      "ADR-B-0223",
+      "ADR-B-0458",
+      "ADR-B-0496",
+      "ADR-B-0505",
+      "ADR-B-0577"
+    ],
+    "questions_changed": 7,
+    "questions_reviewed_in_sample": 40,
+    "sample_questions_rewritten": 0,
+    "explanation_min_chars": 300,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 72,
+    "strictly_longest_rate": 0.1182,
+    "maximum_module_rate": 0.1429,
+    "verification_status": "needs_review",
+    "legal_review_pending": true,
+    "report": "podstawowy/raporty/etap-4x119-proba40-spojnosc-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x119-wykluczenia-proby.json"
+  },
+  "stage4x120": {
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "selection_source_bank_blob_sha": "35549752d913c85daf1fc3c9492d9c04fce777a1",
+    "sample_size": 40,
+    "seed": 411202026,
+    "unique_prior_sample_ids_excluded": 449,
+    "additional_changed_ids_excluded": 1,
+    "candidate_pool_size": 159,
+    "questions_changed": 9,
+    "questions_reviewed_in_sample": 40,
+    "sample_questions_revised": 4,
+    "additional_targeted_followups": 5,
+    "explanations_rewritten": 4,
+    "explanation_min_chars": 300,
+    "explanations_under_200": 0,
+    "strictly_longest_correct": 72,
+    "strictly_longest_rate": 0.11822660098522167,
+    "maximum_module_rate": 0.14583333333333334,
+    "verification_status": "needs_review",
+    "legal_review_pending": true,
+    "report": "podstawowy/raporty/etap-4x120-proba40-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x120-wykluczenia-proby.json",
+    "updated_bank_blob_sha": "04ace7f478868d0901bbc45fb26af3d866e18538"
+  },
+  "stage4x121": {
+    "report": "podstawowy/raporty/etap-4x121-proba40-explanations-sync-2026-10-28.md",
+    "sample_manifest": "podstawowy/raporty/etap-4x121-wykluczenia-proby.json",
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "changed_ids": [
+      "ADR-B-0041",
+      "ADR-B-0426"
+    ],
+    "verification_status": "needs_review",
+    "formal_approval": false
+  },
+  "stage4x122": {
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "selection_source_bank_blob_sha": "f18b273e3451730a4efc28e10cd0ff16b03807f5",
+    "sample_size": 40,
+    "seed": 41222026,
+    "questions_changed": [
+      "ADR-B-0015",
+      "ADR-B-0306",
+      "ADR-B-0376",
+      "ADR-B-0432",
+      "ADR-B-0471",
+      "ADR-B-0288",
+      "ADR-B-0290"
+    ],
+    "distractors_rewritten": 7,
+    "explanations_rewritten": 6,
+    "correct_letters_changed": 0,
+    "question_count": 609,
+    "explanations_under_200": 0,
+    "minimum_explanation_chars": 300,
+    "strictly_longest_correct": 70,
+    "strictly_longest_rate": 0.11494252873563218,
+    "maximum_module_rate": 0.13953488372093023,
+    "verification_status": "needs_review",
+    "legal_review_pending": true,
+    "report": "podstawowy/raporty/etap-4x122-proba40-dystraktory-sync-2026-10-28.md",
+    "manifest": "podstawowy/raporty/etap-4x122-wykluczenia-proby.json",
+    "limitation": "Pełna rozłączność z etapami 4x103–4x106 nie jest potwierdzona z powodu braku kompletnych manifestów ID.",
+    "sample_explanations_rewritten": 5,
+    "additional_targeted_followups": [
+      "ADR-B-0288",
+      "ADR-B-0290"
+    ]
+  },
+  "stage4x123": {
+    "report": "podstawowy/raporty/etap-4x123-proba40-explanations-dystraktory-sync-2026-10-28.md",
+    "sample_manifest": "podstawowy/raporty/etap-4x123-wykluczenia-proby.json",
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "changed_ids": [
+      "ADR-B-0024",
+      "ADR-B-0166",
+      "ADR-B-0385",
+      "ADR-B-0387",
+      "ADR-B-0326",
+      "ADR-B-0361"
+    ],
+    "verification_status": "needs_review",
+    "formal_approval": false
+  },
+  "stage4x124": {
+    "report": "podstawowy/raporty/etap-4x124-proba25-spojnosc-2026-10-28.md",
+    "sample_manifest": "podstawowy/raporty/etap-4x124-wykluczenia-proby.json",
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "changed_ids": [
+      "ADR-B-0293"
+    ],
+    "verification_status": "needs_review",
+    "formal_approval": false,
+    "unique_candidates_remaining_after_4x123": 25
+  },
+  "learner_exam_instruction": "podstawowy/egzamin-probny/INSTRUKCJA-KURSANTA.md",
+  "exam_parameters_confirmed": {
+    "source": "Rozporządzenie Ministra Infrastruktury z 26 czerwca 2024 r., Dz.U. 2024 poz. 964",
+    "status": "obowiązujący",
+    "sections": [
+      "§ 9 ust. 1 i 3 pkt 1",
+      "§ 10 pkt 1",
+      "§ 11"
+    ],
+    "basic_exam_questions": 30,
+    "minutes": 60,
+    "minimum_correct_fraction": "2/3",
+    "minimum_correct_count": 20,
+    "training_variants_are_official": false
+  },
+  "stage4x132": {
+    "status": "review_packet_and_learner_exam_instruction_updated",
+    "report": "podstawowy/raporty/etap-4x132-pakiet-recenzyjny-instrukcja-egzaminu-2026-10-28.md",
+    "learner_exam_instruction": "podstawowy/egzamin-probny/INSTRUKCJA-KURSANTA.md",
+    "official_exam_parameters_source": "Dz.U. 2024 poz. 964, § 9–11",
+    "verification_status": "needs_review",
+    "formal_approvals": 0,
+    "official_exam_parameters": {
+      "questions": 30,
+      "time_limit_minutes": 60,
+      "pass_mark_fraction": "2/3",
+      "pass_mark_correct": 20,
+      "source": "Dz.U. 2024 poz. 964, § 9–11",
+      "status": "official_exam_parameters_confirmed; training variants not official"
+    }
+  },
+  "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
+  "stage4x135": {
+    "status": "needs_review",
+    "date": "2026-10-28",
+    "bank_count": 628,
+    "new_ids": [
+      "ADR-B-0610",
+      "ADR-B-0611",
+      "ADR-B-0612",
+      "ADR-B-0613",
+      "ADR-B-0614",
+      "ADR-B-0615",
+      "ADR-B-0616",
+      "ADR-B-0617",
+      "ADR-B-0618",
+      "ADR-B-0619",
+      "ADR-B-0620",
+      "ADR-B-0621",
+      "ADR-B-0622",
+      "ADR-B-0623",
+      "ADR-B-0624",
+      "ADR-B-0625",
+      "ADR-B-0626",
+      "ADR-B-0627",
+      "ADR-B-0628"
+    ],
+    "verification_status": "needs_review",
+    "formal_approvals": 0,
+    "report": "podstawowy/raporty/etap-4x135-kontynuacja-0621-0628-2026-10-29.md",
+    "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "question_count": 628,
+    "last_id": "ADR-B-0628",
+    "new_questions": [
+      "ADR-B-0621",
+      "ADR-B-0622",
+      "ADR-B-0623",
+      "ADR-B-0624",
+      "ADR-B-0625",
+      "ADR-B-0626",
+      "ADR-B-0627",
+      "ADR-B-0628"
+    ]
+  },
+  "stage4x136": {
+    "status": "needs_review",
+    "date": "2026-10-29",
+    "bank_count": 638,
+    "new_ids": [
+      "ADR-B-0629",
+      "ADR-B-0630",
+      "ADR-B-0631",
+      "ADR-B-0632",
+      "ADR-B-0633",
+      "ADR-B-0634",
+      "ADR-B-0635",
+      "ADR-B-0636",
+      "ADR-B-0637",
+      "ADR-B-0638"
+    ],
+    "verification_status": "needs_review",
+    "formal_approvals": 0,
+    "report": "podstawowy/raporty/etap-4x136-poglebienie-kompetencji-0629-0638-2026-10-29.md",
+    "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "question_count": 639,
+    "last_id": "ADR-B-0638",
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "source_bank_blob_sha": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a",
+  "practical_coverage_followup": {
+    "competencies": [
+      "ADR-B-05-K13",
+      "ADR-B-05-K14",
+      "ADR-B-05-K15"
+    ],
+    "added_question_ids": [
+      "ADR-B-0646",
+      "ADR-B-0647",
+      "ADR-B-0648",
+      "ADR-B-0649",
+      "ADR-B-0650",
+      "ADR-B-0651"
+    ],
+    "note": "Question bank items support scenario discussion but do not replace individual practical exercises required by ADR 8.2.2.3.8."
+  },
+  "stage4x228": {
+    "status": "needs_review",
+    "date": "2026-10-31",
+    "bank_count": 653,
+    "new_ids": [
+      "ADR-B-0653"
+    ],
+    "module_id": "ADR-B-06",
+    "competency_id": "ADR-B-06-K08",
+    "legal_basis": "ADR 2025, 5.3.2.3.2",
+    "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "formal_approvals": 0,
+    "report": "podstawowy/raporty/etap-4x228-poglebienie-kombinacji-zagrozen-886-2026-10-31.md"
+  },
+  "stage4x229": {
+    "status": "needs_review",
+    "date": "2026-10-31",
+    "bank_count": 654,
+    "new_ids": [
+      "ADR-B-0654"
+    ],
+    "module_id": "ADR-B-06",
+    "competency_id": "ADR-B-06-K06",
+    "legal_basis": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+    "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "formal_approvals": 0,
+    "unresolved_literal_comparisons": 421,
+    "missing_quote_count": 124,
+    "report": "podstawowy/raporty/etap-4x229-szczegolne-znaczenie-kodu-99-2026-10-31.md"
+  },
+  "stage4x230": {
+    "question_id": "ADR-B-0655",
+    "competency": "ADR-B-02-K14",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0655.json",
+    "sequential_snapshot": "review/sequential/655-655.json",
+    "legal_clause_snapshot": "review/legal-clauses/655-655.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "stage4x231": {
+    "question_id": "ADR-B-0656",
+    "competency": "ADR-B-01-K04",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0656.json",
+    "sequential_snapshot": "review/sequential/656-656.json",
+    "legal_clause_snapshot": "review/legal-clauses/656-656.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "stage4x232": {
+    "question_id": "ADR-B-0657",
+    "competency": "ADR-B-02-K02",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0657.json",
+    "sequential_snapshot": "review/sequential/657-657.json",
+    "legal_clause_snapshot": "review/legal-clauses/657-657.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "stage4x233": {
+    "question_id": "ADR-B-0658",
+    "competency": "ADR-B-02-K03",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0658.json",
+    "sequential_snapshot": "review/sequential/658-658.json",
+    "legal_clause_snapshot": "review/legal-clauses/658-658.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "stage4x234": {
+    "question_id": "ADR-B-0659",
+    "competency": "ADR-B-01-K01",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0659.json",
+    "sequential_snapshot": "review/sequential/659-659.json",
+    "legal_clause_snapshot": "review/legal-clauses/659-659.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d",
+    "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "bank_blob_sha": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a",
+  "exam_source_bank_head": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408",
+  "sequential_snapshot": "review/sequential/697-697.json",
+  "legal_clause_snapshot": "review/legal-clauses/697-697.json",
+  "stage4x235": {
+    "question_id": "ADR-B-0660",
+    "competency": "ADR-B-07-K07",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0660.json",
+    "sequential_snapshot": "review/sequential/660-660.json",
+    "legal_clause_snapshot": "review/legal-clauses/660-660.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "stage4x236": {
+    "question_id": "ADR-B-0661",
+    "competency": "ADR-B-02-K04",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0661.json",
+    "sequential_snapshot": "review/sequential/661-661.json",
+    "legal_clause_snapshot": "review/legal-clauses/661-661.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "stage4x237": {
+    "question_id": "ADR-B-0662",
+    "competency": "ADR-B-08-K08",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0662.json",
+    "sequential_snapshot": "review/sequential/662-662.json",
+    "legal_clause_snapshot": "review/legal-clauses/662-662.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "stage4x238": {
+    "question_id": "ADR-B-0663",
+    "competency": "ADR-B-07-K06",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0663.json",
+    "sequential_snapshot": "review/sequential/663-663.json",
+    "legal_clause_snapshot": "review/legal-clauses/663-663.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "stage4x239": {
+    "question_id": "ADR-B-0664",
+    "competency": "ADR-B-07-K06",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0664.json",
+    "sequential_snapshot": "review/sequential/664-664.json",
+    "legal_clause_snapshot": "review/legal-clauses/664-664.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d"
+  },
+  "stage4x240": {
+    "question_id": "ADR-B-0665",
+    "competency": "ADR-B-02-K05",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0665.json",
+    "sequential_snapshot": "review/sequential/665-665.json",
+    "legal_clause_snapshot": "review/legal-clauses/665-665.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d",
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "explanation_length": 453,
+    "option_lengths": {
+      "A": 167,
+      "B": 166,
+      "C": 144
+    }
+  },
+  "stage4x241": {
+    "question_id": "ADR-B-0666",
+    "competency": "ADR-B-02-K07",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0666.json",
+    "sequential_snapshot": "review/sequential/666-666.json",
+    "legal_clause_snapshot": "review/legal-clauses/666-666.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d",
+    "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
+    "explanation_length": 479,
+    "option_lengths": {
+      "A": 166,
+      "B": 166,
+      "C": 138
+    }
+  },
+  "stage4x242": {
+    "question_id": "ADR-B-0667",
+    "competency": "ADR-B-02-K08",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0667.json",
+    "sequential_snapshot": "review/sequential/667-667.json",
+    "legal_clause_snapshot": "review/legal-clauses/667-667.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d",
+    "explanation_length": 400,
+    "option_lengths": {
+      "A": 147,
+      "B": 133,
+      "C": 172
+    }
+  },
+  "stage4x243": {
+    "question_id": "ADR-B-0668",
+    "competency": "ADR-B-02-K10",
+    "review_status": "needs_review",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0668.json",
+    "sequential_snapshot": "review/sequential/668-668.json",
+    "legal_clause_snapshot": "review/legal-clauses/668-668.json",
+    "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d",
+    "explanation_length": 392,
+    "option_lengths": {
+      "A": 124,
+      "B": 142,
+      "C": 108
+    }
+  },
+  "stage4x244": {
+    "question_id": "ADR-B-0669",
+    "competency": "ADR-B-02-K11",
+    "review_status": "needs_review",
+    "exam_source_bank_head": "d4e74d64dc557d9c93e59bde4772bc7a972a92ae"
+  },
+  "stage4x245": {
+    "question_id": "ADR-B-0670",
+    "competency": "ADR-B-02-K09",
+    "review_status": "needs_review",
+    "exam_source_bank_head": "8012802240554ba203baa2272adfced09b837471",
+    "explanation_length": 382,
+    "option_lengths": {
+      "A": 125,
+      "B": 130,
+      "C": 134
+    }
+  },
+  "stage4x246": {
+    "question_id": "ADR-B-0671",
+    "competency": "ADR-B-02-K02",
+    "review_status": "needs_review",
+    "exam_source_bank_head": "dc499257cfae6fa8c5f5882248f676c15929c3a5",
+    "explanation_length": 331,
+    "option_lengths": {
+      "A": 143,
+      "B": 133,
+      "C": 129
+    }
+  },
+  "stage4x247": {
+    "question_id": "ADR-B-0672",
+    "competency": "ADR-B-13-K05",
+    "review_status": "needs_review",
+    "exam_source_bank_head": "dc499257cfae6fa8c5f5882248f676c15929c3a5",
+    "explanation_length": 366,
+    "option_lengths": {
+      "A": 148,
+      "B": 128,
+      "C": 105
+    }
+  },
+  "stage4x248": {
+    "question_id": "ADR-B-0673",
+    "competency": "ADR-B-02-K13",
+    "review_status": "needs_review",
+    "exam_source_bank_head": "0ff923d6a491bf134d36a9efe9a4f9bea82eb431",
+    "explanation_length": 423,
+    "option_lengths": {
+      "A": 136,
+      "B": 134,
+      "C": 109
+    }
+  },
+  "stage4x249": {
+    "question_id": "ADR-B-0674",
+    "competency": "ADR-B-02-K06",
+    "review_status": "needs_review",
+    "exam_source_bank_head": "841c502032f62580f23608820747827f70b00df0",
+    "explanation_length": 350,
+    "option_lengths": {
+      "A": 133,
+      "B": 137,
+      "C": 147
+    }
+  },
+  "stage4x250": {
+    "question_id": "ADR-B-0677",
+    "competency": "ADR-B-03-K03",
+    "topic": "czyszczenie po przewozie towarów niebezpiecznych luzem",
+    "legal_basis": "ADR 7.5.8.2",
+    "explanation_characters": 404,
+    "verification_status": "needs_review",
+    "official_text_literal_comparison": "pending",
+    "independent_specialist_review": "pending"
+  },
+  "stage4x251": {
+    "scenario_id": "SC-ADR-B-05-04",
+    "competency": "ADR-B-05-K06",
+    "question_ids": [
+      "ADR-B-0108",
+      "ADR-B-0184",
+      "ADR-B-0223",
+      "ADR-B-0493"
+    ],
+    "legal_basis": "ADR 5.4.3.4",
+    "status": "scenario_added_no_question_bank_change"
+  },
+  "stage4x252": {
+    "question_id": "ADR-B-0678",
+    "corrected_question_ids": [
+      "ADR-B-0011",
+      "ADR-B-0048",
+      "ADR-B-0243"
+    ],
+    "competency": "ADR-B-04-K02",
+    "topic": "zakaz otwierania sztuk przesyłek — kierowca i pomocnik kierowcy",
+    "legal_basis": "ADR 8.3.3",
+    "explanation_characters": 337,
+    "verification_status": "needs_review",
+    "official_text_literal_comparison": "targeted_official_polish_clause_scope_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "scenario_id": "SC-ADR-B-04-04",
+    "bank_blob_sha": "7c21fccb7d7e17e71fd98be534133582b54d52af",
+    "sequential_snapshot": "review/sequential/4x252-0011-0678.json",
+    "legal_clause_snapshot": "review/legal-clauses/4x252-0011-0678.json",
+    "scenario_question_ids": [
+      "ADR-B-0048",
+      "ADR-B-0357",
+      "ADR-B-0678"
+    ]
+  },
+  "stage4x253": {
+    "question_id": "ADR-B-0679",
+    "competency": "ADR-B-01-K07",
+    "topic": "obowiązki nadawcy i przewoźnika przy klasyfikacji oraz wymaganych danych ADR",
+    "legal_basis": [
+      "ADR 1.4.2.1.1(a)",
+      "ADR 1.4.2.2.1(a)–(b)",
+      "ADR 1.4.2.2.3",
+      "ADR 5.4.1.1.1"
+    ],
+    "explanation_characters": 375,
+    "option_lengths": {
+      "A": 119,
+      "B": 108,
+      "C": 117
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "5df8cb5200a2c357cdcc04959893969d8ca448a0",
+    "sequential_snapshot": "review/sequential/679-679.json",
+    "legal_clause_snapshot": "review/legal-clauses/679-679.json"
+  },
+  "stage4x254": {
+    "question_id": "ADR-B-0680",
+    "competency": "ADR-B-03-K02",
+    "topic": "wymagany prefiks ODPAD przed nazwą przewozową w dokumencie ADR",
+    "legal_basis": [
+      "ADR 5.4.1.1.3.1",
+      "ADR 5.4.1.1.1",
+      "ADR 1.4.2.2.3"
+    ],
+    "explanation_characters": 406,
+    "option_lengths": {
+      "A": 93,
+      "B": 111,
+      "C": 99
+    },
+    "correct_option": "A",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "56f7aecb9962752407e5381e30f2d68f2fb3f0d8",
+    "sequential_snapshot": "review/sequential/680-680.json",
+    "legal_clause_snapshot": "review/legal-clauses/680-680.json"
+  },
+  "stage4x255": {
+    "question_id": "ADR-B-0681",
+    "competency": "ADR-B-03-K04",
+    "topic": "dodatkowe wyposażenie do ochrony kanalizacji i zbierania pozostałości przy towarze z nalepką 8",
+    "legal_basis": [
+      "ADR 2025, 8.1.5.2"
+    ],
+    "explanation_characters": 325,
+    "option_lengths": {
+      "A": 117,
+      "B": 130,
+      "C": 108
+    },
+    "correct_option": "A",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "6724b494f6506bf19ca1f71e309dae08818b157b",
+    "sequential_snapshot": "review/sequential/681-681.json",
+    "legal_clause_snapshot": "review/legal-clauses/681-681.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json"
+  },
+  "stage4x256": {
+    "question_id": "ADR-B-0682",
+    "competency": "ADR-B-09-K04",
+    "topic": "wyjątek od strzałek kierunkowych dla opakowania zewnętrznego z opakowaniami wewnętrznymi do 120 ml i wystarczającym materiałem chłonnym",
+    "legal_basis": [
+      "ADR 2025, 5.2.1.10.1",
+      "ADR 2025, 5.2.1.10.2(b)"
+    ],
+    "explanation_characters": 449,
+    "option_lengths": {
+      "A": 162,
+      "B": 142,
+      "C": 93
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "5bc8851bed5f1fdfcbf2a5f07faccb3174a72006",
+    "sequential_snapshot": "review/sequential/682-682.json",
+    "legal_clause_snapshot": "review/legal-clauses/682-682.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json"
+  },
+  "stage4x257": {
+    "question_id": "ADR-B-0683",
+    "competency": "ADR-B-09-K05",
+    "topic": "zgodność różnych konstrukcji opakowań przeznaczonych do piętrzenia i elementy nośne",
+    "legal_basis": [
+      "ADR 2025, 7.5.7.2"
+    ],
+    "explanation_characters": 394,
+    "option_lengths": {
+      "A": 176,
+      "B": 174,
+      "C": 162
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "03382720e316001da10ddb968fb6c1956107bcef",
+    "sequential_snapshot": "review/sequential/683-683.json",
+    "legal_clause_snapshot": "review/legal-clauses/683-683.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json"
+  },
+  "stage4x258": {
+    "question_id": "ADR-B-0684",
+    "competency": "ADR-B-09-K03",
+    "topic": "wyjątek od sposobów oddzielenia przesyłek objętych CV28, gdy mają dodatkowe opakowanie lub są całkowicie przykryte",
+    "legal_basis": [
+      "ADR 2025, 7.5.4"
+    ],
+    "explanation_characters": 401,
+    "option_lengths": {
+      "A": 152,
+      "B": 121,
+      "C": 126
+    },
+    "correct_option": "C",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "c8c1f0779bba936b20d6a8f2c9dc8be80aa6fe69",
+    "sequential_snapshot": "review/sequential/684-684.json",
+    "legal_clause_snapshot": "review/legal-clauses/684-684.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json"
+  },
+  "stage4x259": {
+    "question_id": "ADR-B-0685",
+    "competency": "ADR-B-06-K07",
+    "topic": "trwałość tablicy pomarańczowej i utrzymanie jej na mocowaniu podczas 15 minut działania ognia",
+    "legal_basis": [
+      "ADR 2025, 5.3.2.2.1"
+    ],
+    "explanation_characters": 340,
+    "option_lengths": {
+      "A": 159,
+      "B": 147,
+      "C": 117
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "a456d5fdab0c686b1c657be3f213ac873c491ae4",
+    "sequential_snapshot": "review/sequential/685-685.json",
+    "legal_clause_snapshot": "review/legal-clauses/685-685.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4x259-orange-0685.json"
+  },
+  "stage4x260": {
+    "question_id": "ADR-B-0686",
+    "competency": "ADR-B-08-K05",
+    "topic": "liczba przenośnych lamp — jedna dla każdego członka załogi",
+    "legal_basis": [
+      "ADR 2025, 8.1.5.2"
+    ],
+    "explanation_characters": 361,
+    "option_lengths": {
+      "A": 109,
+      "B": 123,
+      "C": 92
+    },
+    "correct_option": "A",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "f44c2fdc0e99ccbb1311d61b7b4bc2dadf1a907d",
+    "sequential_snapshot": "review/sequential/686-686.json",
+    "legal_clause_snapshot": "review/legal-clauses/686-686.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4x260-portable-lighting-0686.json"
+  },
+  "stage4x261": {
+    "question_id": "ADR-B-0687",
+    "competency": "ADR-B-03-K05",
+    "topic": "zdjęcie skażonej odzieży i użytych skażonych środków ochronnych oraz ich bezpieczne usunięcie",
+    "legal_basis": [
+      "ADR 2025, 5.4.3.4 — model instrukcji pisemnych"
+    ],
+    "explanation_characters": 410,
+    "option_lengths": {
+      "A": 110,
+      "B": 109,
+      "C": 114
+    },
+    "correct_option": "A",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "ba18db9994feecf876b449a203dcc1590e16523f",
+    "sequential_snapshot": "review/sequential/687-687.json",
+    "legal_clause_snapshot": "review/legal-clauses/687-687.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4x261-contaminated-clothing-0687.json"
+  },
+  "stage4x262": {
+    "question_id": "ADR-B-0688",
+    "competency": "ADR-B-06-K02",
+    "topic": "nalepka na pewnie umocowanej przywieszce lub innym odpowiednim sposobie przy małym lub nieregularnym opakowaniu",
+    "legal_basis": [
+      "ADR 2025, 5.2.2.1.6"
+    ],
+    "explanation_characters": 364,
+    "option_lengths": {
+      "A": 148,
+      "B": 118,
+      "C": 75
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "a041f8814aa0c5f0f648d0e98cb25c0055d3821d",
+    "sequential_snapshot": "review/sequential/688-688.json",
+    "legal_clause_snapshot": "review/legal-clauses/688-688.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4x262-label-tag-0688.json"
+  },
+  "stage4x263": {
+    "question_id": "ADR-B-0689",
+    "competency": "ADR-B-06-K01",
+    "topic": "oznaczenie opakowania zbiorczego napisem OVERPACK, numerem UN i pozostałymi wymaganymi oznaczeniami, gdy oznaczenia opakowań wewnętrznych są niewidoczne",
+    "legal_basis": [
+      "ADR 2025, 5.1.2.1(a)(i)–(ii)"
+    ],
+    "explanation_characters": 431,
+    "option_lengths": {
+      "A": 142,
+      "B": 126,
+      "C": 108
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "d607ae33a6268223f289fd94599f289c6115c9ce",
+    "sequential_snapshot": "review/sequential/689-689.json",
+    "legal_clause_snapshot": "review/legal-clauses/689-689.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4x263-overpack-0689.json"
+  },
+  "question_bank_blob_sha": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a",
+  "stage4x264": {
+    "question_id": "ADR-B-0690",
+    "competency": "ADR-B-05-K02",
+    "legal_basis": "ADR 2025, 5.4.3.4",
+    "question_status": "needs_review",
+    "explanation_characters": 424,
+    "answer_lengths": {
+      "A": 103,
+      "B": 77,
+      "C": 96
+    },
+    "correct_option_distribution": {
+      "A": 236,
+      "B": 236,
+      "C": 218
+    },
+    "unique_longest_correct": 72,
+    "bank_question_count": 690,
+    "bank_blob_sha": "66a862742a9c134f92bf467574865101faa0c884",
+    "mock_exam_source_bank_head": "66a862742a9c134f92bf467574865101faa0c884",
+    "sequential_snapshot": "review/sequential/690-690.json",
+    "legal_clause_snapshot": "review/legal-clauses/690-690.json",
+    "independent_specialist_approval": false,
+    "official_polish_full_text_comparison": "pending"
+  },
+  "stage4x265": {
+    "question_id": "ADR-B-0691",
+    "competency": "ADR-B-05-K03",
+    "topic": "powiadomienie właściwych służb ratowniczych bez zwłoki i przekazanie dostępnych informacji o zdarzeniu oraz ładunku",
+    "legal_basis": [
+      "ADR 2025, 5.4.3.4"
+    ],
+    "official_polish_source": "Ministerstwo Infrastruktury, ADR 2025, tom II, s. 270",
+    "explanation_characters": 391,
+    "option_lengths": {
+      "A": 98,
+      "B": 89,
+      "C": 68
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "13e6e673d26a2a97f0af2d52fd57d01dddd8f1e0",
+    "sequential_snapshot": "review/sequential/691-691.json",
+    "legal_clause_snapshot": "review/legal-clauses/691-691.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
+    "distribution": {
+      "A": 236,
+      "B": 237,
+      "C": 218
+    },
+    "unique_longest_correct": 72
+  },
+  "stage4x266": {
+    "question_id": "ADR-B-0692",
+    "competency": "ADR-B-05-K04",
+    "topic": "ponowna ocena strony nawietrznej po zmianie kierunku wiatru",
+    "legal_basis": [
+      "ADR 2025, 5.4.3.4"
+    ],
+    "official_polish_source": "Ministerstwo Infrastruktury, ADR 2025, tom II, s. 270",
+    "explanation_characters": 309,
+    "option_lengths": {
+      "A": 118,
+      "B": 101,
+      "C": 77
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "1dd005ce09b3ddf90adf0a42b75a96aaf68a986b",
+    "sequential_snapshot": "review/sequential/692-692.json",
+    "legal_clause_snapshot": "review/legal-clauses/692-692.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
+    "distribution": {
+      "A": 236,
+      "B": 238,
+      "C": 218
+    },
+    "unique_longest_correct": 72
+  },
+  "stage4x269": {
+    "question_id": "ADR-B-0695",
+    "competency": "ADR-B-05-K05",
+    "topic": "warunkowe użycie gaśnicy przy małym/początkowym pożarze komory silnika, odróżnione od pożaru przedziału ładunkowego",
+    "legal_basis": [
+      "ADR 2025, 5.4.3.4"
+    ],
+    "official_polish_source": "Ministerstwo Infrastruktury, ADR 2025, tom II, s. 270",
+    "explanation_characters": 398,
+    "option_lengths": {
+      "A": 75,
+      "B": 75,
+      "C": 59
+    },
+    "correct_option": "A",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "c9127a1fe91f03222089a434d5ec51f11f3b4e8a",
+    "sequential_snapshot": "review/sequential/695-695.json",
+    "legal_clause_snapshot": "review/legal-clauses/695-695.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
+    "distribution": {
+      "A": 237,
+      "B": 240,
+      "C": 218
+    },
+    "unique_longest_correct": 72
+  },
+  "stage4x270": {
+    "question_id": "ADR-B-0696",
+    "competency": "ADR-B-05-K07",
+    "topic": "bezpieczne udostępnienie dokumentów ratownikom bez powrotu do strefy zadymienia",
+    "legal_basis": [
+      "ADR 2025, 5.4.3.4"
+    ],
+    "official_polish_source": "Ministerstwo Infrastruktury, ADR 2025, tom II, s. 270",
+    "explanation_characters": 401,
+    "option_lengths": {
+      "A": 95,
+      "B": 77,
+      "C": 89
+    },
+    "correct_option": "C",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "004cd974f7a402fa47407c6268ae7202b5ceb466",
+    "sequential_snapshot": "review/sequential/696-696.json",
+    "legal_clause_snapshot": "review/legal-clauses/696-696.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
+    "distribution": {
+      "A": 237,
+      "B": 240,
+      "C": 219
+    },
+    "unique_longest_correct": 72,
+    "shortest_answer": false
+  },
+  "stage4x271": {
+    "question_id": "ADR-B-0697",
+    "competency": "ADR-B-05-K09",
+    "topic": "ostrzeżenie osób postronnych z bezpiecznego miejsca bez przechodzenia przez rozlew",
+    "legal_basis": [
+      "ADR 2025, 5.4.3.4"
+    ],
+    "official_polish_source": "Ministerstwo Infrastruktury, ADR 2025, tom II, s. 270",
+    "explanation_characters": 400,
+    "option_lengths": {
+      "A": 108,
+      "B": 95,
+      "C": 73
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "shortest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "1821851aee9c83c4b4e3197aa3e59594b93bb513",
+    "sequential_snapshot": "review/sequential/697-697.json",
+    "legal_clause_snapshot": "review/legal-clauses/697-697.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
+    "distribution": {
+      "A": 237,
+      "B": 241,
+      "C": 219
+    },
+    "unique_longest_correct": 72
+  },
+  "stage4x272": {
+    "question_id": "ADR-B-0698",
+    "competency": "ADR-B-06-K04",
+    "topic": "przekazanie ratownikom ostrzeżenia o niebezpiecznej reakcji z wodą oznaczonej literą X",
+    "legal_basis": [
+      "ADR 2025, 5.3.2.3.1"
+    ],
+    "explanation_characters": 381,
+    "option_lengths": {
+      "A": 118,
+      "B": 126,
+      "C": 110
+    },
+    "correct_option": "B",
+    "longest_answer": true,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "e81ce0f9d620ab270c41bf0d09903d4aad43dc8e",
+    "sequential_snapshot": "review/sequential/698-698.json",
+    "legal_clause_snapshot": "review/legal-clauses/698-698.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
+    "distribution": {
+      "A": 237,
+      "B": 242,
+      "C": 219
+    },
+    "unique_longest_correct": 73,
+    "bank_question_count": 698
+  },
+  "stage4x273": {
+    "question_id": "ADR-B-0699",
+    "competency": "ADR-B-08-K04",
+    "topic": "dobór rozmiaru klina do DMC pojazdu i średnicy koła",
+    "legal_basis": [
+      "ADR 2025, 8.1.5.2"
+    ],
+    "explanation_characters": 331,
+    "option_lengths": {
+      "A": 108,
+      "B": 105,
+      "C": 103
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "9359365b4381b3b644b70d9b80bd35d171256bd7",
+    "sequential_snapshot": "review/sequential/699-699.json",
+    "legal_clause_snapshot": "review/legal-clauses/699-699.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
+    "distribution": {
+      "A": 237,
+      "B": 243,
+      "C": 219
+    },
+    "unique_longest_correct": 73,
+    "bank_question_count": 699
+  },
+  "stage4x274": {
+    "question_id": "ADR-B-0700",
+    "competency": "ADR-B-09-K06",
+    "topic": "mocowanie elastycznego kontenera do przewozu luzem bez nadmiernego naprężenia pasów",
+    "legal_basis": [
+      "ADR 2025, 7.5.7.6.2"
+    ],
+    "explanation_characters": 303,
+    "option_lengths": {
+      "A": 105,
+      "B": 114,
+      "C": 109
+    },
+    "correct_option": "B",
+    "longest_answer": true,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "35284ef525c41ebc5ee08fa0423ebf22e262db8c",
+    "sequential_snapshot": "review/sequential/700-700.json",
+    "legal_clause_snapshot": "review/legal-clauses/700-700.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
+    "distribution": {
+      "A": 237,
+      "B": 244,
+      "C": 219
+    },
+    "unique_longest_correct": 74,
+    "bank_question_count": 700
+  },
+  "stage4x275": {
+    "question_id": "ADR-B-0701",
+    "competency": "ADR-B-12-K02",
+    "topic": "ocena zabezpieczenia, oświetlenia i dostępu publicznego na placu czasowego składowania",
+    "legal_basis": [
+      "ADR 2025, 1.10.1.3"
+    ],
+    "explanation_characters": 344,
+    "option_lengths": {
+      "A": 110,
+      "B": 110,
+      "C": 107
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "64544daffd52784e1a9a85c8c14cd22d2e293950",
+    "sequential_snapshot": "review/sequential/701-701.json",
+    "legal_clause_snapshot": "review/legal-clauses/701-701.json",
+    "distribution": {
+      "A": 237,
+      "B": 245,
+      "C": 219
+    },
+    "unique_longest_correct": 74,
+    "bank_question_count": 701
+  },
+  "stage4x276": {
+    "question_id": "ADR-B-0702",
+    "competency": "ADR-B-05-K06",
+    "topic": "granica użycia gaśnicy, gdy mały pożar opony obejmuje przestrzeń ładunkową",
+    "legal_basis": [
+      "ADR 2025, 5.4.3.4"
+    ],
+    "explanation_characters": 356,
+    "option_lengths": {
+      "A": 100,
+      "B": 105,
+      "C": 91
+    },
+    "correct_option": "B",
+    "longest_answer": true,
+    "verification_status": "needs_review",
+    "bank_blob_sha": "2363e2cd93b2b4921d77aca7ab3730c3221c44b9",
+    "sequential_snapshot": "review/sequential/702-702.json",
+    "legal_clause_snapshot": "review/legal-clauses/702-702.json",
+    "distribution": {
+      "A": 237,
+      "B": 246,
+      "C": 219
+    },
+    "unique_longest_correct": 75,
+    "bank_question_count": 702
+  },
+  "stage4x277": {
+    "question_id": "ADR-B-0703",
+    "competency": "ADR-B-09-K02",
+    "topic": "ponowne mocowanie pozostałych skrzyń po częściowym rozładunku",
+    "legal_basis": [
+      "ADR 2025, 7.5.7.1"
+    ],
+    "explanation_characters": 352,
+    "option_lengths": {
+      "A": 100,
+      "B": 122,
+      "C": 103
+    },
+    "correct_option": "A",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "bank_blob_sha": "c260f5acf3c035db2a9d1268c73d00a3b76328c3",
+    "sequential_snapshot": "review/sequential/703-703.json",
+    "legal_clause_snapshot": "review/legal-clauses/703-703.json",
+    "distribution": {
+      "A": 238,
+      "B": 246,
+      "C": 219
+    },
+    "unique_longest_correct": 75,
+    "bank_question_count": 703
+  },
+  "stage4x278": {
+    "question_id": "ADR-B-0704",
+    "competency": "ADR-B-05-K12",
+    "topic": "łatwy dostęp załogi do gaśnicy bez konieczności szukania klucza",
+    "legal_basis": [
+      "ADR 2025, 8.1.4.5"
+    ],
+    "explanation_characters": 367,
+    "option_lengths": {
+      "A": 97,
+      "B": 96,
+      "C": 100
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "681b94b07ae6673fa120326cb2eba6423eb22957",
+    "sequential_snapshot": "review/sequential/704-704.json",
+    "legal_clause_snapshot": "review/legal-clauses/704-704.json",
+    "distribution": {
+      "A": 238,
+      "B": 247,
+      "C": 219
+    },
+    "unique_longest_correct": 75,
+    "bank_question_count": 704
+  },
+  "stage4x279": {
+    "question_id": "ADR-B-0705",
+    "competency": "ADR-B-08-K06",
+    "legal_basis": [
+      "ADR 2025, 8.1.5.2"
+    ],
+    "bank_blob_sha": "c1e4a8bb7c44771246bedf691b528f5f43b07630",
+    "sequential_snapshot": "review/sequential/705-705.json",
+    "legal_clause_snapshot": "review/legal-clauses/705-705.json",
+    "verification_status": "needs_review",
+    "official_polish_clause_checked": true,
+    "full_question_literal_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "option_lengths": {
+      "A": 107,
+      "B": 102,
+      "C": 102
+    },
+    "explanation_characters": 327,
+    "answer_distribution": {
+      "A": 238,
+      "B": 248,
+      "C": 219
+    },
+    "unique_longest_correct": 75,
+    "bank_question_count": 705
+  },
+  "stage4x280": {
+    "question_id": "ADR-B-0706",
+    "competency": "ADR-B-09-K07",
+    "legal_basis": [
+      "ADR 2025, 7.5.8.1"
+    ],
+    "bank_blob_sha": "8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb",
+    "sequential_snapshot": "review/sequential/706-706.json",
+    "legal_clause_snapshot": "review/legal-clauses/706-706.json",
+    "verification_status": "needs_review",
+    "official_polish_clause_checked": true,
+    "full_question_literal_comparison": "pending",
+    "independent_specialist_review": "pending",
+    "option_lengths": {
+      "A": 103,
+      "B": 99,
+      "C": 98
+    },
+    "explanation_characters": 430,
+    "answer_distribution": {
+      "A": 238,
+      "B": 249,
+      "C": 219
+    },
+    "unique_longest_correct": 75,
+    "bank_question_count": 706
+  },
+  "stage4x282": {
+    "question_id": "ADR-B-0708",
+    "module_id": "ADR-B-10",
+    "competency": "ADR-B-10-K02",
+    "legal_basis": [
+      "ADR 2025, 5.4.1.1.7",
+      "ADR 2025, 1.1.4.2.1"
+    ],
+    "explanation_characters": 330,
+    "option_lengths": {
+      "A": 105,
+      "B": 102,
+      "C": 105
+    },
+    "correct_option": "B",
+    "correct_answer_is_unique_longest": false,
+    "verification_status": "needs_review",
+    "bank_blob_sha": "ee7a6a90e270e62cb6b24b0c2db1e15d9f8ae02c",
+    "sequential_snapshot": "review/sequential/708-708.json",
+    "legal_clause_snapshot": "review/legal-clauses/708-708.json",
+    "distribution": {
+      "A": 238,
+      "B": 251,
+      "C": 219
+    },
+    "unique_longest_correct": 75,
+    "bank_question_count": 708,
+    "independent_specialist_review": "pending"
+  },
+  "stage4x283": {
+    "question_id": "ADR-B-0709",
+    "module_id": "ADR-B-01",
+    "competency": "ADR-B-01-K01",
+    "legal_basis": [
+      "ADR 2025, 1.2.1"
+    ],
+    "explanation_characters": 305,
+    "option_lengths": {
+      "A": 108,
+      "B": 102,
+      "C": 101
+    },
+    "correct_option": "B",
+    "correct_answer_is_unique_longest": false,
+    "verification_status": "needs_review",
+    "bank_blob_sha": "ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a",
+    "sequential_snapshot": "review/sequential/709-709.json",
+    "legal_clause_snapshot": "review/legal-clauses/709-709.json",
+    "distribution": {
+      "A": 238,
+      "B": 252,
+      "C": 219
+    },
+    "unique_longest_correct": 75,
+    "bank_question_count": 709,
+    "independent_specialist_review": "pending"
+  }
+}
