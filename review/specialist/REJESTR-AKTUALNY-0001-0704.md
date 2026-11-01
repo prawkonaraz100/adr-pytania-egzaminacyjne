@@ -1,10 +1,19 @@
-## Bieżąca migawka — etap 4x278 (01.11.2026)
+## Bieżąca migawka — etap 4x279 (01.11.2026)
 
-- Bank: 704 pytania ADR-B-0001–0704; 704 `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.
-- ADR-B-0704 — dostępność gaśnicy dla załogi bez szukania klucza; ADR 2025, 8.1.4.5.
-- Explanation 367 znaków; A/B/C 97/96/100; rozkład A/B/C 238/247/219.
-- Poprawna odpowiedź jest jedyną najdłuższą w 75/704 = 10,65%; maksimum modułu 13,95%.
-- PR #749; raport: `podstawowy/raporty/etap-4x278-latwy-dostep-do-gasnicy-2026-11-01.md`.
+- Bank: 705 pytań ADR-B-0001–0705; wszystkie `needs_review`, 0 `verified`; SHA `c1e4a8bb7c44771246bedf691b528f5f43b07630`.
+- ADR-B-0705 — indywidualne rękawice ochronne i ochrona oczu dla każdego członka załogi; ADR 2025, 8.1.5.2.
+- Explanation 327 znaków; A/B/C 107/102/102; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C: 238/248/219; „poprawna = jedyna najdłuższa”: 75/705 = 10,64%.
+- Snapshoty sequential/legal: 705-705; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x279-rekawice-ochrona-oczu-2026-11-01.md`.
+
+## Bieżąca migawka — etap 4x279 (01.11.2026)
+
+- Bank: 705 pytań ADR-B-0001–0705; 705 `needs_review`, 0 `verified`; SHA `c1e4a8bb7c44771246bedf691b528f5f43b07630`.
+- ADR-B-0705 — indywidualne rękawice ochronne i ochrona oczu dla każdego członka załogi; ADR 2025, 8.1.5.2.
+- Explanation 327 znaków; A/B/C 107/102/102; rozkład A/B/C 238/248/219.
+- Poprawna odpowiedź jest jedyną najdłuższą w 75/705 = 10,64%; maksimum modułu 13,95%.
+- Snapshoty sequential/legal 705-705; raport: `podstawowy/raporty/etap-4x279-rekawice-ochrona-oczu-2026-11-01.md`.
 
 ## Bieżąca migawka — etap 4x274 (01.11.2026)
 
@@ -986,3 +995,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0703 | ADR-B-09 | ADR-B-09-K02 | Ponowne mocowanie pozostałych skrzyń po częściowym rozładunku | A | ADR 2025, 7.5.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0704 | ADR-B-05 | ADR-B-05-K12 | Łatwy dostęp do gaśnicy bez szukania klucza | B | ADR 2025, 8.1.4.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0705 | ADR-B-08 | ADR-B-08-K06 | Własne rękawice i ochrona oczu dla każdego członka załogi | B | ADR 2025, 8.1.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
