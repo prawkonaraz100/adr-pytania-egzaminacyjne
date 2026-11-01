@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x264 (01.11.2026)
+
+- Bank podstawowy: 690 pytań ADR-B-0001–0690; wszystkie `needs_review`, 0 `verified`; SHA `66a862742a9c134f92bf467574865101faa0c884`.
+- ADR-B-0690 do ADR-B-05-K02: bezpieczne zatrzymanie, wyłączenie silnika i użycie dostępnego wyłącznika głównego akumulatora; ADR 5.4.3.4.
+- Rozkład odpowiedzi A/B/C: 236/236/218; poprawna odpowiedź jest jedyną najdłuższą w 72/690 = 10,43% pytań.
+- Snapshoty 690-690, klucze i warianty egzaminów 001–005 wskazują bieżący bank. Pełne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
+- Raport: `podstawowy/raporty/etap-4x264-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-01.md`.
+
 ## Migawka bieżąca — 4x263
 
 Bank podstawowy: 689 pytań, wszystkie `needs_review`, 0 `verified`. SHA: `d607ae33a6268223f289fd94599f289c6115c9ce`. Najnowsza zmiana: ADR-B-0689, oznakowanie opakowania zbiorczego napisem OVERPACK i odtworzenie numeru UN oraz innych wymaganych oznaczeń, gdy wewnętrzne oznaczenia są niewidoczne (ADR 5.1.2.1(a)(i)–(ii)). Snapshoty 689-689, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
