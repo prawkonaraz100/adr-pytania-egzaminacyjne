@@ -5,7 +5,8 @@
 - Bank: 709 pytań ADR-B-0001–0709; wszystkie `needs_review`, 0 `verified`; SHA `733efd0b63dc4b0048a03e53635faacd542ad6d2`.
 - ADR-B-0709 do ADR-B-01-K01: definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
 - Explanation 305 znaków; A/B/C 108/98/104; poprawna B nie jest najdłuższa.
-- Rozkład A/B/C: 238/252/219; „poprawna = jedyna najdłuższa”: 75/709 = 10,58%.
+- Rozkład prawidłowych opcji: A=238, B=252, C=219.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/709 = 10,58%**; maksimum działu to 13,95%.
 - ADR-B-01-K01 ma 6 pytań; moduł ADR-B-01 ma 51 pytań.
 - Raport: `podstawowy/raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md`.
 
@@ -503,7 +504,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
-| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 50 | 0 | Lekcja + mapa pytań |
+| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
