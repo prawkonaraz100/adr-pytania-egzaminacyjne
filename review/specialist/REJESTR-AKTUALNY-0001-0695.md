@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x270 (01.11.2026)
 
-- Bank: 696 pytań ADR-B-0001–0696; wszystkie `needs_review`, 0 `verified`; SHA `afaf8c6083b2057c5443f38f30f0c12f0d7d5b7b`.
+- Bank: 696 pytań ADR-B-0001–0696; wszystkie `needs_review`, 0 `verified`; SHA `004cd974f7a402fa47407c6268ae7202b5ceb466`.
 - ADR-B-0696 do ADR-B-05-K07: bezpieczne udostępnienie dokumentów ratownikom bez powrotu do zadymionej kabiny; ADR 5.4.3.4, tom II, s. 270.
 - 696 wpisów w indeksie; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x270-dokumenty-bez-powrotu-do-strefy-zagrozenia-2026-11-01.md`.
 
