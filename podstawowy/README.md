@@ -522,6 +522,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x282 — adnotacja przewozowa](raporty/etap-4x282-adnotacja-przewozowa-1-1-4-2-1-2026-11-01.md)
 - [Etap 4x281 — bezpieczne usunięcie skażonej odzieży](raporty/etap-4x281-bezpieczne-usuniecie-skazonej-odziezy-2026-11-01.md)
 - [Etap 4x280 — bezpieczny przejazd do miejsca czyszczenia](raporty/etap-4x280-bezpieczny-przejazd-do-czyszczenia-2026-11-01.md)
 - [Etap 4x279 — rękawice i ochrona oczu dla załogi](raporty/etap-4x279-rekawice-ochrona-oczu-2026-11-01.md)
