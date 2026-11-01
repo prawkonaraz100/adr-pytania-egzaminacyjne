@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x274: 01.11.2026.**
+
+## Bieżąca migawka — etap 4x274 (01.11.2026)
+
+- Bank podstawowy: 700 pytań ADR-B-0001–0700; wszystkie `needs_review`, 0 `verified`; SHA `35284ef525c41ebc5ee08fa0423ebf22e262db8c`.
+- ADR-B-0700 do ADR-B-09-K06: mocowanie elastycznego kontenera bez nadmiernego naprężenia pasów; ADR 2025, 7.5.7.6.2.
+- Explanation 303 znaki; A/B/C 105/114/109; poprawna B jest najdłuższa.
+- Rozkład prawidłowych opcji: A=237, B=244, C=219.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **74/700 = 10,57%**; maksimum działu to 13,95%.
+- ADR-B-09-K06 ma 5 pytań; moduł ADR-B-09 ma 54 pytania.
+- Raport: `podstawowy/raporty/etap-4x274-elastyczny-kontener-pasy-2026-11-01.md`.
+
 **Stan aktualny po etapie 4x273: 01.11.2026.**
 
 ## Bieżąca migawka — etap 4x273 (01.11.2026)
@@ -386,12 +398,12 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 45 | 0 | Lekcja + mapa pytań |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 53 | 0 | Lekcja + mapa pytań |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **699** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **700** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

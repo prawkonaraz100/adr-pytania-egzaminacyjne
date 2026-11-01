@@ -305,3 +305,8 @@ Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi poró
 **Co warto zrobić lub sprawdzić:** Ustal, czy dla towaru wskazano CV28 w kolumnie 18 tabeli A i czy przesyłki rzeczywiście mają dodatkowe opakowanie lub są całkowicie przykryte. Nie rozszerzaj wyjątku na inne wymagania ADR.
 
 **Ćwiczenie:** odpowiedz na `ADR-B-0684` i wyjaśnij, dlaczego sam wpis w dokumencie nie wystarcza. **Sprawdź przepis:** ADR 7.5.4.
+
+
+### Elastyczne kontenery do przewozu luzem — mocowanie bez deformacji (ADR-B-0700)
+
+Elastyczny kontener trzeba unieruchomić tak, aby nie przesuwał się podczas jazdy i nie uległ uszkodzeniu. Pasy i wiązania nie mogą być zapięte zbyt mocno, ponieważ mogą zdeformować kontener. Wolne przestrzenie można wypełnić albo zastosować odpowiednie blokowanie i mocowanie. Podstawa: ADR 2025, 7.5.7.6.2.

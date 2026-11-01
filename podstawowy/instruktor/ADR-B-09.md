@@ -168,3 +168,14 @@ Przedstaw papierowy plan ładowni i zapytaj, co trzeba sprawdzić przed zaakcept
 **Oczekiwane wskazanie:** w wariancie A stosuje się jeden z przewidzianych sposobów oddzielenia (pełna przegroda, odpowiednie przesyłki pomiędzy nimi albo wolna przestrzeń co najmniej 0,8 m). W wariancie B działa wyjątek z 7.5.4 od tych sposobów oddzielenia. Nie wolno zastępować fizycznego przykrycia adnotacją w dokumencie.
 
 **Pytanie kontrolne:** ADR-B-0684. Pełne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają wymagane.
+
+
+## Ćwiczenie — mocowanie elastycznego kontenera (ADR-B-0700)
+
+**Sytuacja:** Przy załadunku elastycznego kontenera do przewozu luzem pasy są tak napięte, że widocznie zmieniają jego kształt.
+
+**Oczekiwana decyzja:** Kursant wskazuje konieczność poprawienia mocowania: kontener ma być unieruchomiony przed przesuwaniem, ale pasy nie mogą go uszkadzać ani deformować. Można zastosować odpowiednie blokowanie lub wypełnienie wolnych przestrzeni.
+
+**Typowe błędy:** pozostawienie deformacji, bo ładunek nie przesuwa się podczas postoju; dalsze dociąganie pasów; pominięcie szczególnego przepisu dla elastycznych kontenerów.
+
+**Podstawa:** ADR 2025, 7.5.7.6.2. Ćwiczenie omawia się na sucho.

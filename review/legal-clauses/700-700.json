@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0700",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 5.3.2.3.1: X preceding the hazard identification number indicates dangerous reaction with water; water only with expert approval. Targeted official Polish text checked; full literal comparison and independent specialist review pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0700",
+      "order": 700,
+      "clause": "ADR 2025, 7.5.7.6.2",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "question_snapshot": {
+        "id": "ADR-B-0700",
+        "module_id": "ADR-B-09",
+        "stem": "Podczas mocowania elastycznego kontenera do przewozu luzem pasy są tak mocno napięte, że widocznie zmieniają jego kształt. Co powinien zrobić kierowca przed wyjazdem?",
+        "options": {
+          "A": "Pozostawić mocowanie, jeśli kontener nie przesuwa się podczas postoju; jego deformacja jest dopuszczalna.",
+          "B": "Poprawić unieruchomienie tak, by kontener nie przesuwał się podczas jazdy, ale nie był uszkadzany ani deformowany.",
+          "C": "Dociągnąć pasy jeszcze mocniej, aby całkowicie usunąć wolną przestrzeń, nawet jeśli kontener zmienia kształt."
+        },
+        "correct_option": "B",
+        "explanation": "Elastyczny kontener musi być zabezpieczony tak, by podczas jazdy nie przesuwał się i nie ulegał uszkodzeniu. Pasy nie mogą być zapięte zbyt mocno, bo mogą go zdeformować. Zamiast mocniej ciągnąć, kierowca powinien poprawić sposób unieruchomienia lub wypełnić wolne przestrzenie. Podstawa: ADR 7.5.7.6.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.6.2 — elastyczne kontenery do przewozu luzem należy unieruchomić tak, aby nie przemieszczały się ani nie ulegały uszkodzeniu; pasy i wiązania nie mogą być zbyt mocno zapięte, by nie powodować uszkodzenia lub deformacji",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 7.5.7.6.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 7.5.7.6.2 — flexible bulk containers must be restrained against movement without over-tightening straps or lashings",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "The rule does not permit deformation simply because the container remains stationary at the loading bay; it must not be damaged during carriage."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 7.5.7.6.2 requires flexible bulk containers to be restrained against movement without over-tightening straps or lashings to the point of damage or deformation."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Over-tightening is expressly disallowed where it may damage or deform the flexible bulk container."
+        }
+      },
+      "notes_on_conditions": "The provision applies specifically to flexible bulk containers and their restraint during carriage; it does not prescribe a single mandatory lashing pattern.",
+      "editorial_result": "This scenario extends the four existing general over-tightening questions to the distinct flexible-bulk-container provision in 7.5.7.6.2.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}

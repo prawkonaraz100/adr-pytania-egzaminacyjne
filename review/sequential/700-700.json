@@ -1,0 +1,58 @@
+{
+  "batch": "700-700",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0700",
+      "sequence": 700,
+      "exact_record_snapshot": {
+        "stem": "Podczas mocowania elastycznego kontenera do przewozu luzem pasy są tak mocno napięte, że widocznie zmieniają jego kształt. Co powinien zrobić kierowca przed wyjazdem?",
+        "options": {
+          "A": "Pozostawić mocowanie, jeśli kontener nie przesuwa się podczas postoju; jego deformacja jest dopuszczalna.",
+          "B": "Poprawić unieruchomienie tak, by kontener nie przesuwał się podczas jazdy, ale nie był uszkadzany ani deformowany.",
+          "C": "Dociągnąć pasy jeszcze mocniej, aby całkowicie usunąć wolną przestrzeń, nawet jeśli kontener zmienia kształt."
+        },
+        "correct_option": "B",
+        "explanation": "Elastyczny kontener musi być zabezpieczony tak, by podczas jazdy nie przesuwał się i nie ulegał uszkodzeniu. Pasy nie mogą być zapięte zbyt mocno, bo mogą go zdeformować. Zamiast mocniej ciągnąć, kierowca powinien poprawić sposób unieruchomienia lub wypełnić wolne przestrzenie. Podstawa: ADR 7.5.7.6.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.6.2 — elastyczne kontenery do przewozu luzem należy unieruchomić tak, aby nie przemieszczały się ani nie ulegały uszkodzeniu; pasy i wiązania nie mogą być zbyt mocno zapięte, by nie powodować uszkodzenia lub deformacji",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 7.5.7.6.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 7.5.7.6.2 — flexible bulk containers must be restrained against movement without over-tightening straps or lashings",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish ADR 2025, 7.5.7.6.2: flexible bulk containers must be restrained against movement without straps or lashings being tightened so much that they damage or deform the container. Full literal comparison and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The question tests the special requirement for flexible bulk containers: restraints must prevent movement and damage, while straps/lashings must not be over-tightened so as to deform the container.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "source_risk_note": "Targeted clause checked in official Polish ADR 2025 text at section 7.5.7.6.2; full question comparison and specialist review pending."
+    }
+  ]
+}
