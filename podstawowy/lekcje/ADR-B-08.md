@@ -290,3 +290,8 @@ Każdy członek załogi musi mieć własną przenośną lampę zgodną z ADR 8.3
 ### Dobór rozmiaru klina pod koło (ADR-B-0699)
 
 Klin musi być odpowiedni do dopuszczalnej masy całkowitej konkretnego pojazdu oraz średnicy jego kół. Nie wystarczy, że fizycznie mieści się pod oponą. Każdy pojazd w jednostce transportowej powinien mieć własny, właściwie dobrany klin. Podstawa: ADR 2025, 8.1.5.2.
+
+
+### Wyposażenie osobiste dla każdego członka załogi (ADR-B-0705)
+
+Wymagane wyposażenie osobiste nie jest jednym wspólnym kompletem dla całej kabiny. Każdy członek załogi pojazdu powinien mieć własną parę rękawic ochronnych i ochronę oczu, na przykład okulary ochronne. Jeżeli w pojeździe jadą dwie osoby, sprawdź wyposażenie dla obu, a nie tylko dla kierowcy. Podstawa: ADR 2025, 8.1.5.2.
