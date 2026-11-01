@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x278 (01.11.2026)
+
+- Bank: 704 pytania ADR-B-0001–0704; 704 `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.
+- ADR-B-0704 — dostępność gaśnicy dla załogi bez szukania klucza; ADR 2025, 8.1.4.5.
+- Explanation 367 znaków; A/B/C 97/96/100; rozkład A/B/C 238/247/219.
+- Poprawna odpowiedź jest jedyną najdłuższą w 75/704 = 10,65%; maksimum modułu 13,95%.
+- PR #749; raport: `podstawowy/raporty/etap-4x278-latwy-dostep-do-gasnicy-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x274 (01.11.2026)
 
 - Bank: 701 pytań ADR-B-0001–0701; wszystkie `needs_review`, 0 `verified`; SHA `64544daffd52784e1a9a85c8c14cd22d2e293950`.
@@ -977,5 +985,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0702 | ADR-B-05 | ADR-B-05-K06 | Granica użycia gaśnicy, gdy mały pożar opony obejmuje przestrzeń ładunkową | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0703 | ADR-B-09 | ADR-B-09-K02 | Ponowne mocowanie pozostałych skrzyń po częściowym rozładunku | A | ADR 2025, 7.5.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0704 | ADR-B-05 | ADR-B-05-K12 | Łatwy dostęp do gaśnicy bez szukania klucza | B | ADR 2025, 8.1.4.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0704 | ADR-B-05 | ADR-B-05-K12 | Łatwy dostęp do gaśnicy bez szukania klucza | B | ADR 2025, 8.1.4.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
