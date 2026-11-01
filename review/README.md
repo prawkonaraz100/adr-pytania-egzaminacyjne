@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x266 (01.11.2026)
+
+- Bank podstawowy: 692 pytania ADR-B-0001–0692; wszystkie `needs_review`, 0 `verified`; SHA `1dd005ce09b3ddf90adf0a42b75a96aaf68a986b`.
+- ADR-B-0692 do ADR-B-05-K04: sytuacyjne utrzymanie strony nawietrznej po zmianie kierunku wiatru; ADR 2025, 5.4.3.4, tom II, s. 270.
+- Rozkład odpowiedzi A/B/C: 236/238/218; poprawna odpowiedź jest jedyną najdłuższą w 72/692 = 10,40% pytań.
+- Snapshoty 692-692, klucze i warianty egzaminów 001–005 wskazują bieżący bank. Tekst oficjalnego polskiego ADR 2025 sprawdzono punktowo; pełna recenzja wszystkich elementów i niezależna akceptacja pozostają pending.
+- Raport: `podstawowy/raporty/etap-4x266-strona-nawietrzna-zmiana-wiatru-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x265 (01.11.2026)
 
 - Bank podstawowy: 691 pytań ADR-B-0001–0691; wszystkie `needs_review`, 0 `verified`; SHA `13e6e673d26a2a97f0af2d52fd57d01dddd8f1e0`.
