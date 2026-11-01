@@ -179,3 +179,14 @@ Przedstaw papierowy plan ładowni i zapytaj, co trzeba sprawdzić przed zaakcept
 **Typowe błędy:** pozostawienie deformacji, bo ładunek nie przesuwa się podczas postoju; dalsze dociąganie pasów; pominięcie szczególnego przepisu dla elastycznych kontenerów.
 
 **Podstawa:** ADR 2025, 7.5.7.6.2. Ćwiczenie omawia się na sucho.
+
+
+## Ćwiczenie — ponowne mocowanie po częściowym rozładunku (ADR-B-0703)
+
+**Sytuacja:** Po zdjęciu części skrzyń powstała wolna przestrzeń, a pozostały ładunek może przesunąć się przy hamowaniu.
+
+**Oczekiwana decyzja:** Kursant sprawdza cały pozostały ładunek, koryguje jego ułożenie i ponownie zabezpiecza go przed dalszą jazdą.
+
+**Typowe błędy:** założenie, że wcześniejsze pasy nadal wystarczają; założenie jednej taśmy bez kontroli przesuwania na boki.
+
+**Podstawa:** ADR 2025, 7.5.7.1.

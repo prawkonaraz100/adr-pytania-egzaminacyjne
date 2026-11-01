@@ -1,3 +1,13 @@
+## Bieżąca migawka — etap 4x277 (01.11.2026)
+
+- Bank: 703 pytania ADR-B-0001–0703; wszystkie `needs_review`, 0 `verified`; SHA `c260f5acf3c035db2a9d1268c73d00a3b76328c3`.
+- ADR-B-0703 do ADR-B-09-K02: ponowne mocowanie pozostałych skrzyń po częściowym rozładunku; ADR 2025, 7.5.7.1.
+- Explanation 352 znaki; A/B/C 100/122/103; poprawna A nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=238, B=246, C=219.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/703 = 10,67%**; maksimum działu to 13,95%.
+- ADR-B-09-K02 ma 5 pytań; moduł ADR-B-09 ma 55 pytań.
+- Raport: `podstawowy/raporty/etap-4x277-mocowanie-po-czesciowym-rozladunku-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x276 (01.11.2026)
 
 - Bank: 702 pytania ADR-B-0001–0702; wszystkie `needs_review`, 0 `verified`; SHA `2363e2cd93b2b4921d77aca7ab3730c3221c44b9`.
@@ -429,12 +439,12 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 45 | 0 | Lekcja + mapa pytań |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 54 | 0 | Lekcja + mapa pytań |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **702** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **703** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

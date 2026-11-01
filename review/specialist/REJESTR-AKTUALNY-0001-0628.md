@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x277 (01.11.2026)
+
+- Bank: 703 pytania ADR-B-0001–0703; wszystkie `needs_review`, 0 `verified`; SHA `c260f5acf3c035db2a9d1268c73d00a3b76328c3`.
+- ADR-B-0703 do ADR-B-09-K02: ponowne mocowanie pozostałych skrzyń po częściowym rozładunku; ADR 2025, 7.5.7.1.
+- Explanation 352 znaki; A/B/C 100/122/103.
+- Rozkład A/B/C: 238/246/219; poprawna = jedyna najdłuższa: 75/703 = 10,67%.
+- Snapshoty sequential/legal 703-703; raport: `podstawowy/raporty/etap-4x277-mocowanie-po-czesciowym-rozladunku-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x276 (01.11.2026)
 
 - Bank: 702 pytania ADR-B-0001–0702; wszystkie `needs_review`, 0 `verified`; SHA `2363e2cd93b2b4921d77aca7ab3730c3221c44b9`.
@@ -990,3 +998,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0701 | ADR-B-12 | ADR-B-12-K02 | Ocena zabezpieczenia, oświetlenia i dostępu do placu czasowego składowania | B | ADR 2025, 1.10.1.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0702 | ADR-B-05 | ADR-B-05-K06 | Granica użycia gaśnicy, gdy mały pożar opony obejmuje przestrzeń ładunkową | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0703 | ADR-B-09 | ADR-B-09-K02 | Ponowne mocowanie pozostałych skrzyń po częściowym rozładunku | A | ADR 2025, 7.5.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |

@@ -1,3 +1,11 @@
+**Stan na 01.11.2026, etap 4x277**
+
+- Bank: 703 pytania ADR-B-0001–0703; 703 `needs_review`, 0 `verified`; SHA `c260f5acf3c035db2a9d1268c73d00a3b76328c3`.
+- ADR-B-0703: ponowne mocowanie ładunku po częściowym rozładunku; ADR 2025, 7.5.7.1.
+- Explanation 352 znaki; A/B/C 100/122/103.
+- Rozkład A/B/C: 238/246/219; „poprawna = jedyna najdłuższa”: 75/703 = 10,67%.
+- Raport: [Etap 4x277 — mocowanie po częściowym rozładunku](raporty/etap-4x277-mocowanie-po-czesciowym-rozladunku-2026-11-01.md).
+
 ## Bieżąca migawka — etap 4x276 (01.11.2026)
 
 - Bank: 702 pytania ADR-B-0001–0702; wszystkie `needs_review`, 0 `verified`; SHA `2363e2cd93b2b4921d77aca7ab3730c3221c44b9`.
@@ -466,6 +474,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x277 — mocowanie po częściowym rozładunku](raporty/etap-4x277-mocowanie-po-czesciowym-rozladunku-2026-11-01.md)
 - [Etap 4x276 — granica użycia gaśnicy](raporty/etap-4x276-granica-uzycia-gasnicy-2026-11-01.md)
 - [Etap 4x275 — plac czasowego składowania](raporty/etap-4x275-plac-czasowego-skladowania-2026-11-01.md)
 - [Etap 4x274 — elastyczny kontener i pasy](raporty/etap-4x274-elastyczny-kontener-pasy-2026-11-01.md)
