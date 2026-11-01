@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0703",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 5.3.2.3.1: X preceding the hazard identification number indicates dangerous reaction with water; water only with expert approval. Targeted official Polish text checked; full literal comparison and independent specialist review pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0703",
+      "order": 703,
+      "clause": "ADR 2025, 7.5.7.1",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "question_snapshot": {
+        "id": "ADR-B-0703",
+        "module_id": "ADR-B-09",
+        "stem": "Podczas wielopunktowej dostawy kierowca rozładował część skrzyń z jednej strony przestrzeni ładunkowej. Po zdjęciu pasów pozostałe skrzynie stoją, ale między nimi a ścianą powstała wolna przestrzeń i ładunek może przesunąć się podczas hamowania. Co powinien zrobić przed dalszą jazdą?",
+        "options": {
+          "A": "Ułożyć pozostałe skrzynie i ponownie je zabezpieczyć, aby nie mogły się przemieszczać podczas jazdy.",
+          "B": "Zostawić ładunek bez zmian, jeśli przed rozładunkiem był prawidłowo zabezpieczony; nie trzeba sprawdzać pośrednich etapów.",
+          "C": "Dodać jedną taśmę na wierzchu skrzyń bez sprawdzania, czy pozostały ładunek może przesuwać się na boki."
+        },
+        "correct_option": "A",
+        "explanation": "Po częściowym rozładunku układ ładunku się zmienia, więc wcześniejsze mocowanie może już nie wystarczać. Kierowca powinien ponownie ułożyć i zabezpieczyć pozostałe skrzynie, aby nie przesuwały się podczas hamowania ani skręcania. Sama taśma na wierzchu nie usuwa wolnej przestrzeni ani nie zastępuje sprawdzenia całego mocowania. Podstawa: ADR 7.5.7.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.1 — sztuki przesyłki załadowane na pojazd lub do kontenera powinny być zabezpieczone odpowiednimi środkami, aby zapobiec przemieszczaniu się podczas przewozu",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 7.5.7.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 7.5.7.1 — packages loaded in a vehicle or container shall be secured by suitable means capable of restraining the goods during carriage",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "After partial unloading changes the arrangement and leaves free space, the remaining packages must be secured against movement during carriage."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "The previous securing arrangement may no longer restrain the remaining load after some packages are removed."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "A single strap over the top does not establish that the remaining packages are restrained against movement in all relevant directions."
+        }
+      },
+      "notes_on_conditions": "ADR 7.5.7.1 requires suitable securing means; the provision does not prescribe a universal number of straps or a single lashing pattern.",
+      "editorial_result": "The four existing questions address general securing, package deformation and loose crates. This scenario adds the operational need to re-evaluate and secure the residual load after partial unloading.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
