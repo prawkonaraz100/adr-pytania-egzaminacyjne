@@ -336,3 +336,6 @@ Instrukcje pisemne ADR przewidują użycie gaśnicy przy małym pożarze opon, h
 
 **Ćwiczenie praktyczne:** SC-ADR-B-05-04. Kursant ma ocenić wielkość i położenie pożaru, bezpieczeństwo użycia gaśnicy oraz moment przerwania działania. Pytania powiązane ze scenariuszem: ADR-B-0108, ADR-B-0184 i ADR-B-0223. ADR-B-0493 jest dodatkowym pytaniem kontrolnym kompetencji K06. Podstawa: ADR 5.4.3.4.
 
+
+
+Powiązane pytanie dodane w etapie 4x264: **ADR-B-0690**.
