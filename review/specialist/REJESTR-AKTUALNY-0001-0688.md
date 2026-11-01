@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x263 (01.11.2026)
+
+- Bank: 689 pytań ADR-B-0001–0689; 689 needs_review, 0 verified; SHA `d607ae33a6268223f289fd94599f289c6115c9ce`.
+- ADR-B-0689 do ADR-B-06-K01: oznakowanie opakowania zbiorczego napisem OVERPACK, numerem UN i innymi wymaganymi oznaczeniami, gdy oznaczenia wewnętrzne są niewidoczne; ADR 5.1.2.1(a)(i)–(ii).
+- 689 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x263-opakowanie-zbiorcze-numer-un-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x262 (01.11.2026)
 
 - Bank: 688 pytań ADR-B-0001–0688; 688 `needs_review`, 0 `verified`; SHA `a041f8814aa0c5f0f648d0e98cb25c0055d3821d`.
@@ -893,3 +899,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0687 | ADR-B-03 | ADR-B-03-K05 | Zdjęcie skażonej odzieży i użytych skażonych środków ochronnych oraz ich bezpieczne usunięcie | A | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0688 | ADR-B-06 | ADR-B-06-K02 | Nalepka na pewnie umocowanej przywieszce lub innym odpowiednim sposobie przy małym lub nieregularnym opakowaniu | B | ADR 2025, 5.2.2.1.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0689 | ADR-B-06 | ADR-B-06-K01 | Oznakowanie opakowania zbiorczego napisem OVERPACK, numerem UN i pozostałymi wymaganymi oznaczeniami, gdy oznaczenia opakowań wewnętrznych są niewidoczne | B | ADR 2025, 5.1.2.1(a)(i)–(ii) | — | NIEROZSTRZYGNIĘTE | needs_review |
