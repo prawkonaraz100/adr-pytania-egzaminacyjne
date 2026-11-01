@@ -33,7 +33,7 @@ Właściwe fragmenty punktu zostały sprawdzone w oficjalnym polskim tekście AD
 
 - Bank po dodaniu: **696** pytań, ADR-B-0001–0696; SHA banku: `afaf8c6083b2057c5443f38f30f0c12f0d7d5b7b`.
 - Kompetencja `ADR-B-05-K07` otrzymała piąte pytanie.
-- Klucze i warianty egzaminów próbnych 001–005 wymagają odświeżenia do nowego SHA banku.
+- Klucze i warianty egzaminów próbnych 001–005 odświeżono do SHA bieżącego banku: `afaf8c6083b2057c5443f38f30f0c12f0d7d5b7b`.
 - Snapshoty: `review/sequential/696-696.json`, `review/legal-clauses/696-696.json`; ledger, indeks specjalisty i manifest pakietu dołączone.
 - Rozkład prawidłowych odpowiedzi po dodaniu: A=237/B=240/C=219.
 - Globalny wskaźnik „poprawna = jedyna najdłuższa”: **72/696 = 10,34%**.
