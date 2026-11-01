@@ -267,3 +267,12 @@ Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz n
 ### Dokument przewozowy odpadu — wymagane słowo „ODPAD”
 
 Jeżeli przewozisz odpad zawierający towary niebezpieczne, przed prawidłową nazwą przewozową wpisuje się słowo „ODPAD”, chyba że jest już częścią tej nazwy. Karta przekazania odpadu nie zastępuje dokumentu przewozowego ADR. Gdy brakuje wymaganego elementu opisu, nie dopisuj go samodzielnie jako kierowca — wyjaśnij brak z nadawcą i uzyskaj poprawiony dokument przed wyjazdem. Powiązane pytanie: ADR-B-0680. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.
+
+
+### Skażona odzież i użyte środki ochronne po awarii — ADR-B-03-K05
+
+Jeżeli po wypadku lub awarii odzież albo użyte środki ochronne zostały skażone, nie należy ich dalej nosić ani przenosić do kabiny. Instrukcje pisemne ADR przewidują zdjęcie skażonej odzieży i użytych skażonych środków ochronnych oraz ich bezpieczne usunięcie. Nie wystarczy otrzepać ubrania ani schować go do zwykłej torby z zamiarem wyprania później.
+
+**Przykład:** po bezpiecznym oddaleniu się od wycieku kierowca zauważa zabrudzone rękawice i odzież. Postępuje zgodnie z instrukcjami pisemnymi: zdejmuje skażone rzeczy i zapewnia ich bezpieczne usunięcie, nie wnosząc ich do kabiny.
+
+**Ćwiczenie:** ADR-B-0687. Podstawa: ADR 5.4.3.4, model instrukcji pisemnych.
