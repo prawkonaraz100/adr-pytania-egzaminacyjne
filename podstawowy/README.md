@@ -357,7 +357,7 @@
 
 ## Raporty jakości
 
-- [Etap 4x257 — zgodność konstrukcji opakowań przy piętrzeniu](raporty/etap-4x257-pietrzenie-zgodnosc-opakowan-2026-11-01.md)
+- [Etap 4x258 — wyjątek CV28 dla całkowicie przykrytych przesyłek](raporty/etap-4x258-cv28-wyjatkowe-przykrycie-2026-11-01.md)
 
 - [Etap 4x256 — strzałki kierunkowe: wyjątek dla małych opakowań](raporty/etap-4x256-strzalki-kierunkowe-wyjatek-opakowania-2026-10-31.md)
 - [Etap 4x255 — ochrona kanalizacji: dodatkowe wyposażenie ADR](raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md)
