@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0692",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 5.4.3.4: avoid inhaling vapours, smoke, dust and fumes by remaining upwind; targeted official Polish text checked, full literal comparison and independent specialist review pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0692",
+      "order": 692,
+      "clause": "ADR 2025, 5.4.3.4",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "question_snapshot": {
+        "id": "ADR-B-0692",
+        "module_id": "ADR-B-05",
+        "stem": "Po uszkodzeniu opakowania kierowca odchodzi od miejsca wycieku na stronę nawietrzną. Po chwili wiatr zmienia kierunek i chmura oparów zaczyna przesuwać się w jego stronę. Jak powinien postąpić?",
+        "options": {
+          "A": "Pozostać na miejscu, ponieważ wcześniejsze ustawienie po stronie nawietrznej nadal jest bezpieczne mimo zmiany wiatru.",
+          "B": "Ponownie oddalić się i znaleźć miejsce po stronie nawietrznej, poza drogą przemieszczania się oparów.",
+          "C": "Przejść za chmurę, aby znaleźć osłonę od wiatru i obserwować miejsce wycieku."
+        },
+        "correct_option": "B",
+        "explanation": "Gdy wiatr zmienia kierunek, dotychczasowe miejsce może przestać być nawietrzne. Kierowca powinien ponownie oddalić się tak, aby pozostać po stronie nawietrznej i nie wdychać oparów. Pozostanie na miejscu może skierować chmurę na niego, a przejście za chmurę oznacza wejście w jej drogę. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — unikanie wdychania oparów przez pozostawanie po stronie nawietrznej",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "ADR 2025, tom II, s. 270, 5.4.3.4 — unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, 5.4.3.4 — written instructions: avoid inhaling vapours by remaining upwind",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "After the wind changes, the previous position may no longer be upwind; staying there can put the driver in the path of the vapour cloud."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Moving again to remain upwind keeps the driver away from the path of the vapours, matching the written instruction in ADR 5.4.3.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Moving behind the cloud means entering the area toward which the vapours are travelling and increases the risk of inhalation."
+        }
+      },
+      "notes_on_conditions": "The driver should move only along a route that does not require entering the vapour cloud and only when it is safe and practicable. Do not approach or touch the released material.",
+      "editorial_result": "This scenario tests reassessment after a wind-direction change, rather than merely recalling the static rule to stay upwind. It stays within the written-instruction requirement.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
