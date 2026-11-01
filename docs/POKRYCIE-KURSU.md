@@ -1,3 +1,15 @@
+**Stan na 01.11.2026, etap 4x280**
+
+## Bieżąca migawka — etap 4x280 (01.11.2026)
+
+- Bank: 706 pytań ADR-B-0001–0706; 706 `needs_review`, 0 `verified`; SHA `8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb`.
+- ADR-B-0706 do ADR-B-09-K07: bezpieczne przemieszczenie pojazdu do najbliższego miejsca czyszczenia, gdy nie można go oczyścić na placu rozładunku; ADR 2025, 7.5.8.1.
+- Explanation 430 znaków; A/B/C 103/99/98; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C: 238/248/220; „poprawna = jedyna najdłuższa”: 75/706 = 10,62%.
+- ADR-B-09-K07 ma 5 pytań; moduł ADR-B-09 ma 56 pytań.
+- Snapshoty sequential/legal: 706-706; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x280-bezpieczny-przejazd-do-czyszczenia-2026-11-01.md`.
+
 **Stan aktualny po etapie 4x279: 01.11.2026.**
 
 ## Bieżąca migawka — etap 4x279 (01.11.2026)
@@ -5,8 +17,8 @@
 - Bank: 705 pytań ADR-B-0001–0705; wszystkie `needs_review`, 0 `verified`; SHA `c1e4a8bb7c44771246bedf691b528f5f43b07630`.
 - ADR-B-0705 do ADR-B-08-K06: indywidualne rękawice ochronne i ochrona oczu dla każdego członka załogi; ADR 2025, 8.1.5.2.
 - Explanation 327 znaków; A/B/C 107/102/102; poprawna B nie jest najdłuższa.
-- Rozkład prawidłowych opcji: A=238, B=248, C=219.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/705 = 10,64%**; maksimum działu to 13,95%.
+- Rozkład prawidłowych opcji: A=238, B=248, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/706 = 10,62%**; maksimum działu to 13,95%.
 - ADR-B-08-K06 ma 5 pytań; moduł ADR-B-08 ma 46 pytań.
 - Raport: `podstawowy/raporty/etap-4x279-rekawice-ochrona-oczu-2026-11-01.md`.
 
@@ -461,12 +473,12 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 46 | 0 | Lekcja + mapa pytań |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 55 | 0 | Lekcja + mapa pytań |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **705** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **706** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
