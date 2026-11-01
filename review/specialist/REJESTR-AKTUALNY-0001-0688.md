@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x263 (01.11.2026)
 
-- Bank: 689 pytań ADR-B-0001–0689; 689 needs_review, 0 verified; SHA `d607ae33a6268223f289fd94599f289c6115c9ce`.
+- Bank: 689 pytań ADR-B-0001–0689; 689 `needs_review`, 0 `verified`; SHA `d607ae33a6268223f289fd94599f289c6115c9ce`.
 - ADR-B-0689 do ADR-B-06-K01: oznakowanie opakowania zbiorczego napisem OVERPACK, numerem UN i innymi wymaganymi oznaczeniami, gdy oznaczenia wewnętrzne są niewidoczne; ADR 5.1.2.1(a)(i)–(ii).
 - 689 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x263-opakowanie-zbiorcze-numer-un-2026-11-01.md`.
 
