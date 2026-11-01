@@ -2,7 +2,7 @@
 
 - Bank: 690 pytań ADR-B-0001–0690; wszystkie `needs_review`, 0 `verified`; SHA `66a862742a9c134f92bf467574865101faa0c884`.
 - ADR-B-0690 do ADR-B-05-K02: sytuacyjne zastosowanie hamulca, wyłączenie silnika i odłączenie akumulatora wyłącznikiem głównym, jeśli dostępny; ADR 5.4.3.4.
-- 690 wpisów w rejestrze po dodaniu pozycji 0690; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x264-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-01.md`.
+- 690 wpisów w bieżącym rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x264-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-01.md`.
 
 ## Bieżąca migawka — etap 4x263 (01.11.2026)
 
