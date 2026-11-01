@@ -184,3 +184,14 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowe błędy:** pozostanie w poprzednim miejscu mimo zmiany wiatru; przejście za chmurę; podejście do wycieku w celu obserwacji.
 
 **Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
+
+
+### Ćwiczenie sytuacyjne — kamizelka przed ustawieniem znaków (ADR-B-0693)
+
+**Sytuacja:** Pojazd jest bezpiecznie zatrzymany na poboczu. Kierowca może opuścić kabinę i ustawić stojące znaki ostrzegawcze.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że najpierw zakłada kamizelkę ostrzegawczą, a następnie odpowiednio ustawia znaki, o ile można to zrobić bezpiecznie.
+
+**Typowe błędy:** wyjście z kabiny bez kamizelki; poleganie wyłącznie na światłach awaryjnych; ustawianie znaków kosztem wejścia w strefę zagrożenia lub ruch pojazdów.
+
+**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
