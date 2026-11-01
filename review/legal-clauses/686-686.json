@@ -9,33 +9,28 @@
     {
       "id": "ADR-B-0686",
       "order": 686,
-      "clause": "ADR 2025, 8.1.5.2 and 8.3.4",
+      "clause": "ADR 2025, 8.1.5.2",
       "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
       "question_snapshot": {
         "id": "ADR-B-0686",
         "module_id": "ADR-B-08",
-        "stem": "W zestawie ADR kierowca znalazł jedną zwykłą metalową latarkę, której obudowa może iskrzyć. W kabinie jadą dwaj członkowie załogi. Co trzeba zapewnić przed wyjazdem?",
+        "stem": "Podczas sprawdzenia wyposażenia ADR w pojeździe jadą dwie osoby z załogi, ale w schowku jest tylko jedna przenośna lampa. Czy taki zestaw spełnia wymagania dotyczące liczby lamp?",
         "options": {
-          "A": "Każdy członek załogi musi mieć własną przenośną lampę, której powierzchnia nie zawiera metalu mogącego powodować iskrzenie.",
-          "B": "Wystarczy jedna latarka dla całej załogi, nawet z metalową obudową, jeśli jest naładowana, łatwa do przekazania i daje mocne światło.",
-          "C": "Latarka może mieć metalową obudowę, jeśli kierowca używa jej tylko na zewnątrz pojazdu."
+          "A": "Nie. Każdy członek załogi musi mieć własną przenośną lampę, więc przy dwóch osobach potrzebne są dwie sztuki.",
+          "B": "Tak. Jedna lampa wystarczy całej załodze, jeżeli kierowca może przekazać ją drugiej osobie po zakończeniu swojej czynności.",
+          "C": "Tak. Wymóg dotyczy tylko kierowcy prowadzącego pojazd; pomocnik nie musi mieć własnej lampy."
         },
         "correct_option": "A",
-        "explanation": "ADR wymaga przenośnej lampy dla każdego członka załogi, więc jedna latarka na dwie osoby nie wystarczy. Urządzenie musi też spełniać 8.3.4: nie może mieć powierzchni metalowej, która może powodować iskrzenie. Odpowiedź B pomija osobne wyposażenie i dopuszcza niewłaściwą obudowę, a C błędnie uzależnia wymóg od miejsca użycia. Podstawa: ADR 8.1.5.2 i 8.3.4.",
+        "explanation": "ADR określa liczbę przenośnych lamp na członka załogi, a nie na cały pojazd. Przy dwóch osobach trzeba więc mieć dwie lampy; przekazywanie jednej między nimi nie spełnia wymogu. To wyposażenie ma być dostępne dla każdego członka załogi podczas przewozu. Odpowiedź B błędnie traktuje wyposażenie osobiste jak wspólne, a C pomija pomocnika. Podstawa: ADR 8.1.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.2 — przenośna lampa dla każdego członka załogi, zgodna z 8.3.4",
-            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
-          },
-          {
-            "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.4 — przenośna lampa nie może mieć powierzchni metalowej mogącej powodować iskrzenie",
+            "reference": "ADR 2025, 8.1.5.2 — przenośna lampa dla każdego członka załogi",
             "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
           },
           {
             "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, pkt 8.1.5.2 i 8.3.4",
+            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, pkt 8.1.5.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -46,18 +41,18 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "ADR 8.1.5.2 requires a portable lighting apparatus for each member of the vehicle crew; 8.3.4 requires that the apparatus not exhibit any metal surface liable to produce sparks."
+          "rationale": "ADR 8.1.5.2 wymaga przenośnej lampy dla każdego członka załogi; przy dwóch osobach potrzebne są dwie lampy."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "One lamp for the whole crew does not meet the requirement for each crew member, and a metal surface liable to produce sparks conflicts with 8.3.4."
+          "rationale": "Jedna lampa wspólna dla całej załogi nie spełnia wymogu wyposażenia każdego członka załogi."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "The restriction in 8.3.4 concerns the apparatus itself, not merely where it is used. A metal surface liable to produce sparks is not acceptable."
+          "rationale": "Wymóg dotyczy każdego członka załogi, nie tylko kierowcy. Pomocnik również musi mieć własną lampę."
         }
       },
-      "notes_on_conditions": "The question tests both the per-crew-member equipment requirement in 8.1.5.2 and the no-sparking-metal-surface condition in 8.3.4. It does not assert that every lamp must be certified as intrinsically safe.",
+      "notes_on_conditions": "Pytanie bada wyłącznie liczbę przenośnych lamp wymaganą przez 8.1.5.2. Odrębny wymóg dotyczący braku powierzchni metalowej mogącej powodować iskrzenie wynika z 8.3.4 i nie jest tu oceniany.",
       "editorial_result": "targeted_rule_identified_full_literal_question_and_specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
