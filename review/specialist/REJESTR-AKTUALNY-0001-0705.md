@@ -774,3 +774,11 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0704 | ADR-B-05 | ADR-B-05-K12 | Łatwy dostęp do gaśnicy bez szukania klucza | B | ADR 2025, 8.1.4.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0705 | ADR-B-08 | ADR-B-08-K06 | Własne rękawice i ochrona oczu dla każdego członka załogi | B | ADR 2025, 8.1.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0673 | ADR-B-02 | ADR-B-02-K13 | Przed wysyłką elektronarzędzia kierowca sprawdza dokumenty i oznakowanie. W tym samym opakowaniu co wiertarka znajduje się zapasowa bateria litowo-jonowa przeznaczona do zasilania tego urządzenia. Jaki numer UN odpowiada takiej baterii? | B | ADR 2025, 2.2.9.1.7.1; dział 3.2 tabela A, UN 3480–3481 i UN 3090–3091; 5.2.1.9.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0674 | ADR-B-02 | ADR-B-02-K06 | Kierowca sprawdza dokument przewozowy materiału klasy 4.3. Przy towarze podano I grupę pakowania. Co oznacza ten zapis? | B | ADR 2025, 1.2.1; 2.2.43.1.8(a)–(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0675 | ADR-B-02 | ADR-B-02-K06 | W dokumentach przewozowych kierowca widzi materiał klasy 4.3 zaliczony do II grupy pakowania. Badanie wykazało, że w temperaturze otoczenia reaguje on z wodą, wydzielając maksymalnie 24 litry gazu palnego na kilogram materiału w ciągu godziny. Nie spełnia kryteriów I grupy. Jak należy rozumieć tę klasyfikację? | A | ADR 2025, 2.2.43.1.8(b) | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0676 | ADR-B-02 | ADR-B-02-K06 | Podczas omawiania karty charakterystyki materiału klasy 4.3 instruktor podaje wynik badania: materiał reaguje powoli z wodą i wydziela maksymalnie 5 litrów gazu palnego na kilogram w ciągu godziny. Nie spełnia kryteriów I ani II grupy pakowania. Która grupa odpowiada temu wynikowi? | C | ADR 2025, 2.2.43.1.8(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
