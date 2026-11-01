@@ -1,0 +1,58 @@
+{
+  "batch": "686-686",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0686",
+      "sequence": 686,
+      "exact_record_snapshot": {
+        "stem": "W zestawie ADR kierowca znalazł jedną zwykłą metalową latarkę, której obudowa może iskrzyć. W kabinie jadą dwaj członkowie załogi. Co trzeba zapewnić przed wyjazdem?",
+        "options": {
+          "A": "Każdy członek załogi musi mieć własną przenośną lampę, której powierzchnia nie zawiera metalu mogącego powodować iskrzenie.",
+          "B": "Wystarczy jedna latarka dla całej załogi, nawet z metalową obudową, jeśli jest naładowana, łatwa do przekazania i daje mocne światło.",
+          "C": "Latarka może mieć metalową obudowę, jeśli kierowca używa jej tylko na zewnątrz pojazdu."
+        },
+        "correct_option": "A",
+        "explanation": "ADR wymaga przenośnej lampy dla każdego członka załogi, więc jedna latarka na dwie osoby nie wystarczy. Urządzenie musi też spełniać 8.3.4: nie może mieć powierzchni metalowej, która może powodować iskrzenie. Odpowiedź B pomija osobne wyposażenie i dopuszcza niewłaściwą obudowę, a C błędnie uzależnia wymóg od miejsca użycia. Podstawa: ADR 8.1.5.2 i 8.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2 — przenośna lampa dla każdego członka załogi, zgodna z 8.3.4",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.4 — przenośna lampa nie może mieć powierzchni metalowej mogącej powodować iskrzenie",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, pkt 8.1.5.2 i 8.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official ADR 2025 Polish Ministry PDF identified for 8.1.5.2 and 8.3.4; exact full Dz.U. comparison and independent specialist approval remain pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "ADR 8.1.5.2 requires portable lighting apparatus for each member of the vehicle crew; under 8.3.4 the apparatus shall not exhibit any metal surface liable to produce sparks.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "source_risk_note": "Official Ministry of Infrastructure ADR 2025 Polish Volume II PDF link identified; exact full-text comparison against Dz.U. 2025 poz. 642 and independent specialist review remain pending."
+    }
+  ]
+}
