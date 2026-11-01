@@ -1,3 +1,11 @@
+**Stan na 01.11.2026, etap 4x282**
+
+- Bank: 708 pytań ADR-B-0001–0708; 708 `needs_review`, 0 `verified`; SHA `ee7a6a90e270e62cb6b24b0c2db1e15d9f8ae02c`.
+- ADR-B-0708: wymagany wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1” w dokumencie przewozowym; ADR 2025, 5.4.1.1.7.
+- Explanation 330 znaków; A/B/C 105/102/105.
+- Rozkład A/B/C: 238/251/219; „poprawna = jedyna najdłuższa”: 75/708 = 10,59%.
+- Raport: [Etap 4x282 — adnotacja przewozowa](raporty/etap-4x282-adnotacja-przewozowa-1-1-4-2-1-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x281**
 
 - Bank: 707 pytań ADR-B-0001–0707; 707 `needs_review`, 0 `verified`; SHA `d2eaa0b3df4ee50661e30cf62554ae5ca62ea408`.
