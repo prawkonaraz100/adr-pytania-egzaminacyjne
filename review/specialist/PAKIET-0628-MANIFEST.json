@@ -1,17 +1,17 @@
 {
-  "stage": "4x280_residual_contamination_before_loading",
+  "stage": "4x281_contaminated_clothing_safe_disposal",
   "snapshot_date": "2026-11-01",
   "scope": "ADR-BASIC-ONLY",
-  "question_count": 706,
-  "last_id": "ADR-B-0706",
+  "question_count": 707,
+  "last_id": "ADR-B-0707",
   "status_counts": {
-    "needs_review": 706,
+    "needs_review": 707,
     "verified": 0
   },
   "formal_approvals": 0,
-  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0706.md",
+  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0707.md",
   "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
-  "unresolved_literal_comparisons": 680,
+  "unresolved_literal_comparisons": 681,
   "modules": {
     "ADR-B-01": {
       "questions": 50,
@@ -30,7 +30,7 @@
       "theory_competencies": 6
     },
     "ADR-B-05": {
-      "questions": 70,
+      "questions": 71,
       "theory_competencies": 12
     },
     "ADR-B-06": {
@@ -170,31 +170,36 @@
       "variant": "001",
       "file": "podstawowy/egzamin-probny/wariant-001.json",
       "key_file": "podstawowy/egzamin-probny/klucz-001.json",
-      "publication_authorized": false
+      "publication_authorized": false,
+      "source_bank_head": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408"
     },
     {
       "variant": "002",
       "file": "podstawowy/egzamin-probny/wariant-002.json",
       "key_file": "podstawowy/egzamin-probny/klucz-002.json",
-      "publication_authorized": false
+      "publication_authorized": false,
+      "source_bank_head": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408"
     },
     {
       "variant": "003",
       "file": "podstawowy/egzamin-probny/wariant-003.json",
       "key_file": "podstawowy/egzamin-probny/klucz-003.json",
-      "publication_authorized": false
+      "publication_authorized": false,
+      "source_bank_head": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408"
     },
     {
       "variant": "004",
       "file": "podstawowy/egzamin-probny/wariant-004.json",
       "key_file": "podstawowy/egzamin-probny/klucz-004.json",
-      "publication_authorized": false
+      "publication_authorized": false,
+      "source_bank_head": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408"
     },
     {
       "variant": "005",
       "file": "podstawowy/egzamin-probny/wariant-005.json",
       "key_file": "podstawowy/egzamin-probny/klucz-005.json",
-      "publication_authorized": false
+      "publication_authorized": false,
+      "source_bank_head": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408"
     }
   ],
   "course_materials": {
@@ -294,11 +299,11 @@
     "note": "Priority list is not exhaustive. Every question remains needs_review until a real specialist approves it; all ADR 2027 sensitivity registers remain relevant."
   },
   "literal_comparison_status_counts": {
-    "official_polish_text_not_retrieved": 680,
+    "official_polish_text_not_retrieved": 681,
     "targeted_source_checked_full_literal_comparison_pending": 26,
     "records_with_recorded_targeted_comparison_result": 8,
     "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 0,
-    "specialist_reviews_pending": 706,
+    "specialist_reviews_pending": 707,
     "verified": 0
   },
   "stage4x19": {
@@ -313,7 +318,7 @@
     "original_not_retrieved_records": 387,
     "specialist_reviews_pending": 679
   },
-  "current_bank_blob_sha": "8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb",
+  "current_bank_blob_sha": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -425,10 +430,10 @@
     "confirmed_discrepancies": 0
   },
   "specialist_open_items": {
-    "official_polish_text_not_retrieved": 680,
+    "official_polish_text_not_retrieved": 681,
     "ministerial_copy_exact_quote_not_saved": 143,
     "targeted_source_checked_full_literal_comparison_pending": 29,
-    "specialist_reviews_pending": 706,
+    "specialist_reviews_pending": 707,
     "verified": 0,
     "formal_approvals": 0,
     "note": "Conservative current ledger: 680 records have no retrieved exact Polish clause; 26 have targeted source checks but full literal comparison and independent specialist review remain pending. 143 IDs remain in the separate 4x24 quote list. All 706 questions remain needs_review; formal approvals: 0."
@@ -603,7 +608,7 @@
     "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
     "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
     "queue_count": 20,
-    "source_bank_blob_sha": "8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb",
+    "source_bank_blob_sha": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408",
     "source_missing_quote_ids": 124,
     "unresolved_literal_comparisons": 445,
     "legal_review_status": "pending",
@@ -614,7 +619,7 @@
   },
   "secondary_priority_legal_review_queue": {
     "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
-    "source_bank_blob_sha": "8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb",
+    "source_bank_blob_sha": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408",
     "queue_count": 20,
     "full_missing_quote_count": 143,
     "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
@@ -1103,7 +1108,7 @@
     "last_id": "ADR-B-0638",
     "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d"
   },
-  "source_bank_blob_sha": "8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb",
+  "source_bank_blob_sha": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408",
   "practical_coverage_followup": {
     "competencies": [
       "ADR-B-05-K13",
@@ -1196,8 +1201,8 @@
     "exam_source_bank_head": "377881849d1d1a643873567b1f68c359bef2358d",
     "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d"
   },
-  "bank_blob_sha": "8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb",
-  "exam_source_bank_head": "8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb",
+  "bank_blob_sha": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408",
+  "exam_source_bank_head": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408",
   "sequential_snapshot": "review/sequential/697-697.json",
   "legal_clause_snapshot": "review/legal-clauses/697-697.json",
   "stage4x235": {
@@ -1684,7 +1689,7 @@
     "legal_clause_snapshot": "review/legal-clauses/689-689.json",
     "supplemental_source_ledger": "review/legal-polish/stage4x263-overpack-0689.json"
   },
-  "question_bank_blob_sha": "8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb",
+  "question_bank_blob_sha": "d2eaa0b3df4ee50661e30cf62554ae5ca62ea408",
   "stage4x264": {
     "question_id": "ADR-B-0690",
     "competency": "ADR-B-05-K02",
