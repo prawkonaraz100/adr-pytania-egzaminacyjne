@@ -6,7 +6,7 @@
 - ADR-B-0695 do ADR-B-05-K05: sytuacyjne rozróżnienie małego/początkowego pożaru komory silnika, który można gasić gaśnicą, jeżeli jest to właściwe i bezpieczne, od pożaru przedziału ładunkowego, którego załoga nie powinna gasić; ADR 5.4.3.4.
 - Explanation 398 znaków, 5 zdań; A/B/C 75/75/59; poprawna A nie jest jedyną najdłuższą.
 - Rozkład prawidłowych opcji: A=237, B=240, C=218.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/695 = 10,36%**.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/695 = 10,36%**; maksimum działu to 13,95%.
 - ADR-B-05-K05 ma 5 pytań; moduł ADR-B-05 ma 65 pytań.
 - Snapshoty: `sequential/695-695.json`, `legal-clauses/695-695.json`; rejestr: `REJESTR-0695-0695.md`.
 - Raport: `podstawowy/raporty/etap-4x269-maly-pozar-komory-silnika-2026-11-01.md`.
