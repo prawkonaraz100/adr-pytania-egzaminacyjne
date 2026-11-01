@@ -1,3 +1,13 @@
+## Bieżąca migawka — etap 4x278 (01.11.2026)
+
+- Bank: 704 pytania ADR-B-0001–0704; 704 `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.
+- ADR-B-0704 — dostępność gaśnicy dla załogi bez szukania klucza; ADR 2025, 8.1.4.5.
+- Explanation 367 znaków; A/B/C 97/96/100; rozkład kluczy 238/247/219.
+- Poprawna odpowiedź jest jedyną najdłuższą w 75/704 = 10,65%; maksimum modułu 13,95%.
+- PR #749; raport: `podstawowy/raporty/etap-4x278-latwy-dostep-do-gasnicy-2026-11-01.md`.
+
+Aktualny punkt odniesienia obejmuje również ID ADR-B-0700; pełny bank ma 704 rekordy.
+
 ## Bieżąca migawka — etap 4x277 (01.11.2026)
 
 - Bank: 703 pytania ADR-B-0001–0703; wszystkie `needs_review`, 0 `verified`; SHA `c260f5acf3c035db2a9d1268c73d00a3b76328c3`.

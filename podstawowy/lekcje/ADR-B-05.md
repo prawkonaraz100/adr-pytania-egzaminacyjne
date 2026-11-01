@@ -386,3 +386,10 @@ Powiązane pytanie: **ADR-B-0697**.
 ### Granica użycia gaśnicy przy pożarze ładowni (ADR-B-0702)
 
 Instrukcje pisemne dopuszczają gaszenie tylko małych, początkowych pożarów opon, hamulców lub komory silnika, jeżeli jest to bezpieczne i właściwe. Gdy ogień obejmuje przedział ładunkowy, załoga nie podejmuje próby gaszenia, oddala się i postępuje zgodnie z instrukcjami awaryjnymi. Podstawa: ADR 2025, 5.4.3.4.
+
+
+## Uzupełnienie etapu 4x278 — dostępność gaśnicy
+
+Gaśnica musi być zamocowana tak, aby załoga mogła łatwo i szybko po nią sięgnąć. Jeżeli jej uchwyt wymaga klucza przechowywanego osobno w zamkniętej skrzynce, dostęp jest utrudniony. Samo oznaczenie miejsca klucza nie usuwa przeszkody. Przed wyjazdem należy zapewnić łatwy dostęp do gaśnicy. Podstawa: ADR 2025, 8.1.4.5.
+
+Powiązane pytanie: **ADR-B-0704**.

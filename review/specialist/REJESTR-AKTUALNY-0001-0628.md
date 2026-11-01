@@ -1,31 +1,16 @@
-## Bieżąca migawka — etap 4x277 (01.11.2026)
+## Bieżąca migawka — etap 4x278 (01.11.2026)
 
-- Bank: 703 pytania ADR-B-0001–0703; wszystkie `needs_review`, 0 `verified`; SHA `c260f5acf3c035db2a9d1268c73d00a3b76328c3`.
-- ADR-B-0703 do ADR-B-09-K02: ponowne mocowanie pozostałych skrzyń po częściowym rozładunku; ADR 2025, 7.5.7.1.
-- Explanation 352 znaki; A/B/C 100/122/103.
-- Rozkład A/B/C: 238/246/219; poprawna = jedyna najdłuższa: 75/703 = 10,67%.
-- Snapshoty sequential/legal 703-703; raport: `podstawowy/raporty/etap-4x277-mocowanie-po-czesciowym-rozladunku-2026-11-01.md`.
-
-## Bieżąca migawka — etap 4x276 (01.11.2026)
-
-- Bank: 702 pytania ADR-B-0001–0702; wszystkie `needs_review`, 0 `verified`; SHA `2363e2cd93b2b4921d77aca7ab3730c3221c44b9`.
-- ADR-B-0702 do ADR-B-05-K06: granica użycia gaśnicy, gdy mały pożar opony obejmuje przestrzeń ładunkową; ADR 2025, 5.4.3.4.
-- Explanation 356 znaków; A/B/C 100/105/91.
-- Rozkład A/B/C: 237/246/219; poprawna = jedyna najdłuższa: 75/702 = 10,68%.
-- Snapshoty sequential/legal 702-702; raport: `podstawowy/raporty/etap-4x276-granica-uzycia-gasnicy-2026-11-01.md`.
+- Bank: 704 pytania ADR-B-0001–0704; 704 `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.
+- ADR-B-0704 — dostępność gaśnicy dla załogi bez szukania klucza; ADR 2025, 8.1.4.5.
+- Explanation 367 znaków; A/B/C 97/96/100; rozkład A/B/C 238/247/219.
+- Poprawna odpowiedź jest jedyną najdłuższą w 75/704 = 10,65%; maksimum modułu 13,95%.
+- PR #749; raport: `podstawowy/raporty/etap-4x278-latwy-dostep-do-gasnicy-2026-11-01.md`.
 
 ## Bieżąca migawka — etap 4x274 (01.11.2026)
 
 - Bank: 701 pytań ADR-B-0001–0701; wszystkie `needs_review`, 0 `verified`; SHA `64544daffd52784e1a9a85c8c14cd22d2e293950`.
-- ADR-B-0698 do ADR-B-06-K04: przekazanie ratownikom ostrzeżenia o niebezpiecznej reakcji z wodą przy literze X; ADR 5.3.2.3.1, tom II, s. 251.
-- 698 wpisów w indeksie; formalne zatwierdzenia: 0.
-- Raport: `podstawowy/raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md`.
-
-## Bieżąca migawka — etap 4x271 (01.11.2026)
-
-- Bank: 697 pytań ADR-B-0001–0697; wszystkie `needs_review`, 0 `verified`; SHA `1821851aee9c83c4b4e3197aa3e59594b93bb513`.
 - ADR-B-0697 do ADR-B-05-K09: ostrzeżenie osób postronnych z bezpiecznego miejsca, bez przechodzenia przez rozlew; ADR 5.4.3.4, tom II, s. 270.
-- 697 wpisów w indeksie; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x271-ostrzezenie-z-bezpiecznego-miejsca-2026-11-01.md`.
+- 700 wpisów w indeksie; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x271-ostrzezenie-z-bezpiecznego-miejsca-2026-11-01.md`.
 
 ## Bieżąca migawka — etap 4x270 (01.11.2026)
 
@@ -989,7 +974,7 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0697 | ADR-B-05 | ADR-B-05-K09 | Ostrzeżenie osób postronnych z bezpiecznego miejsca bez przechodzenia przez rozlew | B | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-| ADR-B-0698 | ADR-B-06 | ADR-B-06-K04 | Ostrzeżenie o niebezpiecznej reakcji z wodą oznaczonej literą X | B | ADR 2025, 5.3.2.3.1, s. 251 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0698 | ADR-B-06 | ADR-B-06-K04 | Przekazanie ratownikom ostrzeżenia o niebezpiecznej reakcji z wodą oznaczonej literą X | B | ADR 2025, 5.3.2.3.1, s. 251 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0699 | ADR-B-08 | ADR-B-08-K04 | Dobór klina pod koło do DMC pojazdu i średnicy koła | B | ADR 2025, 8.1.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
@@ -1000,3 +985,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0702 | ADR-B-05 | ADR-B-05-K06 | Granica użycia gaśnicy, gdy mały pożar opony obejmuje przestrzeń ładunkową | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0703 | ADR-B-09 | ADR-B-09-K02 | Ponowne mocowanie pozostałych skrzyń po częściowym rozładunku | A | ADR 2025, 7.5.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0704 | ADR-B-05 | ADR-B-05-K12 | Łatwy dostęp do gaśnicy bez szukania klucza | B | ADR 2025, 8.1.4.5 | — | NIEROZSTRZYGNIĘTE | needs_review |

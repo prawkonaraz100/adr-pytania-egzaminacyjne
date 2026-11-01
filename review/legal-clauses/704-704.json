@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0704",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 8.1.4.5: fire extinguishers must be installed so that the vehicle crew can easily access them and they are protected against weather. Targeted official Polish text checked; full literal comparison and independent specialist review pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0704",
+      "order": 704,
+      "clause": "ADR 2025, 8.1.4.5",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "question_snapshot": {
+        "id": "ADR-B-0704",
+        "module_id": "ADR-B-05",
+        "stem": "Gaśnica ADR jest mocno zamocowana w uchwycie, ale uchwyt można otworzyć tylko specjalnym kluczem, który leży w zamkniętej skrzynce narzędziowej. Co należy poprawić przed wyjazdem?",
+        "options": {
+          "A": "Pozostawić ją w tym miejscu, ponieważ pewne zamocowanie jest ważniejsze niż szybki dostęp załogi.",
+          "B": "Przenieść ją do uchwytu, z którego członek załogi może szybko wyjąć gaśnicę bez szukania klucza.",
+          "C": "Zostawić ją tam, ale umieścić na skrzynce narzędziowej dodatkową etykietę wskazującą miejsce klucza."
+        },
+        "correct_option": "B",
+        "explanation": "Gaśnica musi być nie tylko stabilnie zamocowana, ale też łatwo dostępna dla załogi. Jeżeli jej wyjęcie wymaga najpierw znalezienia klucza w zamkniętej skrzynce, w nagłym zdarzeniu dostęp jest utrudniony. Sama etykieta wskazująca miejsce klucza nie rozwiązuje tego problemu. Trzeba zmienić miejsce lub uchwyt tak, aby można ją było szybko wyjąć. Podstawa: ADR 8.1.4.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.5 — gaśnice powinny być zamontowane w jednostce transportowej w sposób zapewniający łatwy dostęp załodze oraz ochronę przed działaniem warunków atmosferycznych",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.1.4.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 8.1.4.5 — fire extinguishers shall be installed so as to be easily accessible to the vehicle crew",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Secure mounting alone does not satisfy the separate requirement that the crew can easily access the extinguisher."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 8.1.4.5 requires installation that provides easy access for the vehicle crew."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "A label showing where a key is stored does not remove the delay and access obstacle."
+        }
+      },
+      "notes_on_conditions": "The question addresses easy access to the extinguisher; it does not introduce an ADR requirement for a specific bracket design or a key-free release mechanism as such.",
+      "editorial_result": "The four existing questions cover mounting, obstruction by cargo and loose mounting. This scenario isolates the distinction between secure attachment and practical accessibility.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}

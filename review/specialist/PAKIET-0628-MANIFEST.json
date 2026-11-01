@@ -1,15 +1,15 @@
 {
-  "stage": "4x271_safe_warning_from_distance",
+  "stage": "4x278_fire_extinguisher_accessibility",
   "snapshot_date": "2026-11-01",
   "scope": "ADR-BASIC-ONLY",
-  "question_count": 703,
-  "last_id": "ADR-B-0703",
+  "question_count": 704,
+  "last_id": "ADR-B-0704",
   "status_counts": {
-    "needs_review": 703,
+    "needs_review": 704,
     "verified": 0
   },
   "formal_approvals": 0,
-  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0703.md",
+  "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0704.md",
   "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
   "unresolved_literal_comparisons": 445,
   "modules": {
@@ -30,7 +30,7 @@
       "theory_competencies": 6
     },
     "ADR-B-05": {
-      "questions": 69,
+      "questions": 70,
       "theory_competencies": 12
     },
     "ADR-B-06": {
@@ -295,10 +295,10 @@
   },
   "literal_comparison_status_counts": {
     "official_polish_text_not_retrieved": 445,
-    "targeted_source_checked_full_literal_comparison_pending": 36,
+    "targeted_source_checked_full_literal_comparison_pending": 37,
     "records_with_recorded_targeted_comparison_result": 299,
     "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 222,
-    "specialist_reviews_pending": 703,
+    "specialist_reviews_pending": 704,
     "verified": 0
   },
   "stage4x19": {
@@ -313,7 +313,7 @@
     "original_not_retrieved_records": 387,
     "specialist_reviews_pending": 679
   },
-  "current_bank_blob_sha": "c260f5acf3c035db2a9d1268c73d00a3b76328c3",
+  "current_bank_blob_sha": "681b94b07ae6673fa120326cb2eba6423eb22957",
   "stage4x20": {
     "status": "editorial_explanation_audit_and_mock_exam_regeneration_complete",
     "explanation_records_manually_read": 609,
@@ -428,10 +428,10 @@
     "official_polish_text_not_retrieved": 445,
     "ministerial_copy_exact_quote_not_saved": 143,
     "targeted_source_checked_full_literal_comparison_pending": 29,
-    "specialist_reviews_pending": 703,
+    "specialist_reviews_pending": 704,
     "verified": 0,
     "formal_approvals": 0,
-    "note": "Odrębne miary dowodów i kolejek: 445 rekordów nie ma pobranego dokładnego polskiego ustępu; 29 rekordów ma ukierunkowane porównanie źródłowe, ale pełna analiza wszystkich elementów i recenzja specjalisty pozostają otwarte; 222 rekordy są w kategorii porównania z kopią ministerialną, z potwierdzeniem specjalisty i Dz.U. nadal pending. 31 pozycji pozostaje w odrębnej kolejce otwartych ukierunkowanych porównań. 143 pozycje w osobnym wykazie 4x24 nadal wymagają zapisu cytatu MI. Wszystkie 698 pytań pozostają needs_review."
+    "note": "Odrębne miary dowodów i kolejek: 445 rekordów nie ma pobranego dokładnego polskiego ustępu; 29 rekordów ma ukierunkowane porównanie źródłowe, ale pełna analiza wszystkich elementów i recenzja specjalisty pozostają otwarte; 222 rekordy są w kategorii porównania z kopią ministerialną, z potwierdzeniem specjalisty i Dz.U. nadal pending. 31 pozycji pozostaje w odrębnej kolejce otwartych ukierunkowanych porównań. 143 pozycje w osobnym wykazie 4x24 nadal wymagają zapisu cytatu MI. Wszystkie 704 pytania pozostają needs_review."
   },
   "stage4x25": {
     "status": "complete_editorial_and_mock_exam_sync",
@@ -603,7 +603,7 @@
     "file": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
     "report": "podstawowy/raporty/etap-4x40-kolejka-recenzji-prawnej-2026-10-26.md",
     "queue_count": 20,
-    "source_bank_blob_sha": "c260f5acf3c035db2a9d1268c73d00a3b76328c3",
+    "source_bank_blob_sha": "681b94b07ae6673fa120326cb2eba6423eb22957",
     "source_missing_quote_ids": 124,
     "unresolved_literal_comparisons": 445,
     "legal_review_status": "pending",
@@ -614,7 +614,7 @@
   },
   "secondary_priority_legal_review_queue": {
     "path": "review/specialist/KOLEJKA-PRIORYTETOWA-4X44.json",
-    "source_bank_blob_sha": "c260f5acf3c035db2a9d1268c73d00a3b76328c3",
+    "source_bank_blob_sha": "681b94b07ae6673fa120326cb2eba6423eb22957",
     "queue_count": 20,
     "full_missing_quote_count": 143,
     "previous_queue": "review/specialist/KOLEJKA-PRIORYTETOWA-4X40.json",
@@ -681,7 +681,7 @@
     "status": "needs_review",
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
-  "latest_report": "podstawowy/raporty/etap-4x271-ostrzezenie-z-bezpiecznego-miejsca-2026-11-01.md",
+  "latest_report": "podstawowy/raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md",
   "latest_sample": "podstawowy/raporty/etap-4x135-wykluczenia-proby.json",
   "latest_sample_seed": 41232026,
   "latest_sample_count": 40,
@@ -1362,20 +1362,16 @@
     }
   },
   "stage4x249": {
-    "question_ids": [
-      "ADR-B-0674",
-      "ADR-B-0675",
-      "ADR-B-0676"
-    ],
+    "question_id": "ADR-B-0674",
     "competency": "ADR-B-02-K06",
     "review_status": "needs_review",
-    "exam_source_bank_head": "1f3ac69fdf7e01d6bd67b13bdded7a41a5e0f7b9",
-    "explanation_lengths": {
-      "ADR-B-0674": 350,
-      "ADR-B-0675": 330,
-      "ADR-B-0676": 304
-    },
-    "packing_group_criteria": "ADR 2.2.43.1.8(a)-(c)"
+    "exam_source_bank_head": "841c502032f62580f23608820747827f70b00df0",
+    "explanation_length": 350,
+    "option_lengths": {
+      "A": 133,
+      "B": 137,
+      "C": 147
+    }
   },
   "stage4x250": {
     "question_id": "ADR-B-0677",
@@ -1393,7 +1389,8 @@
     "question_ids": [
       "ADR-B-0108",
       "ADR-B-0184",
-      "ADR-B-0223"
+      "ADR-B-0223",
+      "ADR-B-0493"
     ],
     "legal_basis": "ADR 5.4.3.4",
     "status": "scenario_added_no_question_bank_change"
@@ -1687,31 +1684,32 @@
     "legal_clause_snapshot": "review/legal-clauses/689-689.json",
     "supplemental_source_ledger": "review/legal-polish/stage4x263-overpack-0689.json"
   },
+  "question_bank_blob_sha": "c260f5acf3c035db2a9d1268c73d00a3b76328c3",
   "stage4x264": {
     "question_id": "ADR-B-0690",
     "competency": "ADR-B-05-K02",
-    "topic": "bezpieczne zatrzymanie, wyłączenie silnika i odłączenie akumulatora wyłącznikiem głównym, jeśli dostępny",
-    "legal_basis": [
-      "ADR 2025, 5.4.3.4"
-    ],
+    "legal_basis": "ADR 2025, 5.4.3.4",
+    "question_status": "needs_review",
     "explanation_characters": 424,
-    "option_lengths": {
+    "answer_lengths": {
       "A": 103,
       "B": 77,
       "C": 96
     },
-    "correct_option": "C",
-    "longest_answer": false,
-    "shortest_answer": false,
-    "verification_status": "needs_review",
-    "official_polish_text_comparison": "pending",
-    "independent_specialist_review": "pending",
+    "correct_option_distribution": {
+      "A": 236,
+      "B": 236,
+      "C": 218
+    },
+    "unique_longest_correct": 72,
+    "bank_question_count": 690,
     "bank_blob_sha": "66a862742a9c134f92bf467574865101faa0c884",
+    "mock_exam_source_bank_head": "66a862742a9c134f92bf467574865101faa0c884",
     "sequential_snapshot": "review/sequential/690-690.json",
     "legal_clause_snapshot": "review/legal-clauses/690-690.json",
-    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json"
+    "independent_specialist_approval": false,
+    "official_polish_full_text_comparison": "pending"
   },
-  "question_bank_blob_sha": "c260f5acf3c035db2a9d1268c73d00a3b76328c3",
   "stage4x265": {
     "question_id": "ADR-B-0691",
     "competency": "ADR-B-05-K03",
@@ -1770,68 +1768,6 @@
     "distribution": {
       "A": 236,
       "B": 238,
-      "C": 218
-    },
-    "unique_longest_correct": 72
-  },
-  "stage4x267": {
-    "question_id": "ADR-B-0693",
-    "competency": "ADR-B-05-K10",
-    "topic": "praktyczna kolejność założenia kamizelki ostrzegawczej i ustawienia stojących znaków",
-    "legal_basis": [
-      "ADR 2025, 5.4.3.4"
-    ],
-    "official_polish_source": "Ministerstwo Infrastruktury, ADR 2025, tom II, s. 270",
-    "explanation_characters": 344,
-    "option_lengths": {
-      "A": 103,
-      "B": 100,
-      "C": 63
-    },
-    "correct_option": "B",
-    "longest_answer": false,
-    "shortest_answer": false,
-    "verification_status": "needs_review",
-    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
-    "independent_specialist_review": "pending",
-    "bank_blob_sha": "f6790fbc89a0b68334686303184f65ddcf00787f",
-    "sequential_snapshot": "review/sequential/693-693.json",
-    "legal_clause_snapshot": "review/legal-clauses/693-693.json",
-    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
-    "distribution": {
-      "A": 236,
-      "B": 239,
-      "C": 218
-    },
-    "unique_longest_correct": 72
-  },
-  "stage4x268": {
-    "question_id": "ADR-B-0694",
-    "competency": "ADR-B-06-K05",
-    "topic": "widoczność i prawidłowe położenie tylnej tablicy pomarańczowej",
-    "legal_basis": [
-      "ADR 2025, 5.3.2.1.1"
-    ],
-    "official_polish_source": "Ministerstwo Infrastruktury, ADR 2025, tom II, s. 248",
-    "explanation_characters": 404,
-    "option_lengths": {
-      "A": 130,
-      "B": 99,
-      "C": 74
-    },
-    "correct_option": "B",
-    "longest_answer": false,
-    "shortest_answer": false,
-    "verification_status": "needs_review",
-    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
-    "independent_specialist_review": "pending",
-    "bank_blob_sha": "c811e632d28573f978d934f38dbd7c01cf19345f",
-    "sequential_snapshot": "review/sequential/694-694.json",
-    "legal_clause_snapshot": "review/legal-clauses/694-694.json",
-    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
-    "distribution": {
-      "A": 236,
-      "B": 240,
       "C": 218
     },
     "unique_longest_correct": 72
@@ -1928,6 +1864,36 @@
     },
     "unique_longest_correct": 72
   },
+  "stage4x272": {
+    "question_id": "ADR-B-0698",
+    "competency": "ADR-B-06-K04",
+    "topic": "przekazanie ratownikom ostrzeżenia o niebezpiecznej reakcji z wodą oznaczonej literą X",
+    "legal_basis": [
+      "ADR 2025, 5.3.2.3.1"
+    ],
+    "explanation_characters": 381,
+    "option_lengths": {
+      "A": 118,
+      "B": 126,
+      "C": 110
+    },
+    "correct_option": "B",
+    "longest_answer": true,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "e81ce0f9d620ab270c41bf0d09903d4aad43dc8e",
+    "sequential_snapshot": "review/sequential/698-698.json",
+    "legal_clause_snapshot": "review/legal-clauses/698-698.json",
+    "supplemental_source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json",
+    "distribution": {
+      "A": 237,
+      "B": 242,
+      "C": 219
+    },
+    "unique_longest_correct": 73,
+    "bank_question_count": 698
+  },
   "stage4x273": {
     "question_id": "ADR-B-0699",
     "competency": "ADR-B-08-K04",
@@ -2004,6 +1970,8 @@
     "correct_option": "B",
     "longest_answer": false,
     "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
     "bank_blob_sha": "64544daffd52784e1a9a85c8c14cd22d2e293950",
     "sequential_snapshot": "review/sequential/701-701.json",
     "legal_clause_snapshot": "review/legal-clauses/701-701.json",
@@ -2068,5 +2036,34 @@
     },
     "unique_longest_correct": 75,
     "bank_question_count": 703
+  },
+  "stage4x278": {
+    "question_id": "ADR-B-0704",
+    "competency": "ADR-B-05-K12",
+    "topic": "łatwy dostęp załogi do gaśnicy bez konieczności szukania klucza",
+    "legal_basis": [
+      "ADR 2025, 8.1.4.5"
+    ],
+    "explanation_characters": 367,
+    "option_lengths": {
+      "A": 97,
+      "B": 96,
+      "C": 100
+    },
+    "correct_option": "B",
+    "longest_answer": false,
+    "verification_status": "needs_review",
+    "official_polish_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
+    "independent_specialist_review": "pending",
+    "bank_blob_sha": "681b94b07ae6673fa120326cb2eba6423eb22957",
+    "sequential_snapshot": "review/sequential/704-704.json",
+    "legal_clause_snapshot": "review/legal-clauses/704-704.json",
+    "distribution": {
+      "A": 238,
+      "B": 247,
+      "C": 219
+    },
+    "unique_longest_correct": 75,
+    "bank_question_count": 704
   }
 }
