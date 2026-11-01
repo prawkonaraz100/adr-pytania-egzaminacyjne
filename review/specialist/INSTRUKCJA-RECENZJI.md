@@ -1,7 +1,7 @@
-## Migawka bieżąca — 4x257
+## Migawka bieżąca — 4x258
 
-Bank podstawowy: 683 pytań, wszystkie needs_review, 0 verified. SHA: `03382720e316001da10ddb968fb6c1956107bcef`. Najnowsza zmiana: ADR-B-0683, zgodność różnych konstrukcji opakowań przeznaczonych do piętrzenia i elementy nośne (ADR 7.5.7.2). Snapshoty 683-683, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu i niezależna recenzja specjalisty pozostają pending.
-Raport najnowszej partii: `podstawowy/raporty/etap-4x257-pietrzenie-zgodnosc-opakowan-2026-11-01.md`.
+Bank podstawowy: 684 pytania, wszystkie `needs_review`, 0 `verified`. SHA: `c8c1f0779bba936b20d6a8f2c9dc8be80aa6fe69`. Najnowsza zmiana: ADR-B-0684, wyjątek od sposobów oddzielenia przesyłek objętych CV28, gdy mają dodatkowe opakowanie lub są całkowicie przykryte (ADR 7.5.4). Snapshoty 684-684, ledger, egzaminy 001–005 i manifesty wskazują nowy bank; dokładne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają pending.
+Raport najnowszej partii: `podstawowy/raporty/etap-4x258-cv28-wyjatkowe-przykrycie-2026-11-01.md`.
 
 
 ## Migawka bieżąca — 4x256
