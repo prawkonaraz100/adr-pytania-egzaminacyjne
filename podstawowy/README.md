@@ -1,3 +1,10 @@
+**Stan na 01.11.2026, etap 4x271**
+
+- Bank: 697 pytań ADR-B-0001–0697; wszystkie `needs_review`, 0 `verified`; SHA `1821851aee9c83c4b4e3197aa3e59594b93bb513`.
+- Najnowsze pytanie: ADR-B-0697 (ADR-B-05-K09), ostrzeganie osób z bezpiecznego miejsca bez przechodzenia przez rozlew; ADR 5.4.3.4.
+- A/B/C: 237/241/219; poprawna = jedyna najdłuższa: 72/697 = 10,33%.
+- Raport: [Etap 4x271 — ostrzeżenie z bezpiecznego miejsca](raporty/etap-4x271-ostrzezenie-z-bezpiecznego-miejsca-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x270**
 
 - Bank: 696 pytań ADR-B-0001–0696; 696 `needs_review`, 0 `verified`; SHA `004cd974f7a402fa47407c6268ae7202b5ceb466`.
