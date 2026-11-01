@@ -2,7 +2,7 @@
 
 ## Bieżąca migawka — etap 4x267 (01.11.2026)
 
-- Bank: 691 pytań ADR-B-0001–0691; 691 `needs_review`, 0 `verified`; blob SHA `13e6e673d26a2a97f0af2d52fd57d01dddd8f1e0`.
+- Bank: 693 pytań ADR-B-0001–0693; 693 `needs_review`, 0 `verified`; blob SHA `f6790fbc89a0b68334686303184f65ddcf00787f`.
 - ADR-B-0693 do ADR-B-05-K10: praktyczna kolejność założenia kamizelki ostrzegawczej i ustawienia znaków stojących; ADR 5.4.3.4.
 - Explanation 344 znaki, 4 zdania; A/B/C 103/100/63; poprawna B nie jest ani najkrótsza, ani najdłuższa.
 - Rozkład prawidłowych opcji: A=236, B=239, C=218.
