@@ -1,3 +1,11 @@
+## Bieżąca migawka — etap 4x268 (01.11.2026)
+
+- Bank podstawowy: 694 pytania ADR-B-0001–0694; wszystkie `needs_review`, 0 `verified`; SHA `c811e632d28573f978d934f38dbd7c01cf19345f`.
+- ADR-B-0694 do ADR-B-06-K05: sytuacyjne zapewnienie widoczności i prawidłowego położenia tylnej tablicy pomarańczowej; ADR 2025, 5.3.2.1.1, tom II, s. 248.
+- Rozkład odpowiedzi A/B/C: 236/240/218; poprawna odpowiedź jest jedyną najdłuższą w 72/694 = 10,37% pytań.
+- Snapshoty 694-694, klucze i warianty egzaminów 001–005 wskazują bieżący bank. Tekst oficjalnego polskiego ADR 2025 sprawdzono punktowo; pełna recenzja wszystkich elementów i niezależna akceptacja pozostają pending.
+- Raport: `podstawowy/raporty/etap-4x268-widocznosc-tylnej-tablicy-pomaranczowej-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x267 (01.11.2026)
 
 - Bank podstawowy: 693 pytania ADR-B-0001–0693; wszystkie `needs_review`, 0 `verified`; SHA `f6790fbc89a0b68334686303184f65ddcf00787f`.

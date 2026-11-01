@@ -1,3 +1,10 @@
+**Stan na 01.11.2026, etap 4x268**
+
+- Bank: 694 pytań ADR-B-0001–0694; 694 `needs_review`, 0 `verified`; SHA `c811e632d28573f978d934f38dbd7c01cf19345f`.
+- Najnowsze pytanie: ADR-B-0694 (ADR-B-06-K05), widoczność tylnej tablicy pomarańczowej, ADR 5.3.2.1.1.
+- Rozkład prawidłowych opcji A/B/C: 236/240/218; poprawna = jedyna najdłuższa: **72/694 = 10,37%**.
+- Raport: [Etap 4x268 — widoczność tylnej tablicy pomarańczowej](raporty/etap-4x268-widocznosc-tylnej-tablicy-pomaranczowej-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x267**
 
 - Bank: 693 pytań ADR-B-0001–0693; 693 `needs_review`, 0 `verified`; SHA `f6790fbc89a0b68334686303184f65ddcf00787f`.
@@ -391,6 +398,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x268 — widoczność tylnej tablicy pomarańczowej](raporty/etap-4x268-widocznosc-tylnej-tablicy-pomaranczowej-2026-11-01.md)
 - [Etap 4x267 — kamizelka przed ustawieniem znaków](raporty/etap-4x267-kamizelka-przed-znakami-2026-11-01.md)
 - [Etap 4x266 — strona nawietrzna po zmianie wiatru](raporty/etap-4x266-strona-nawietrzna-zmiana-wiatru-2026-11-01.md)
 - [Etap 4x265 — powiadomienie służb ratowniczych](raporty/etap-4x265-powiadomienie-sluzb-ratowniczych-2026-11-01.md)

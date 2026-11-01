@@ -1,15 +1,15 @@
-**Stan aktualny po etapie 4x267: 01.11.2026.**
+**Stan aktualny po etapie 4x268: 01.11.2026.**
 
-## Bieżąca migawka — etap 4x267 (01.11.2026)
+## Bieżąca migawka — etap 4x268 (01.11.2026)
 
-- Bank: 693 pytań ADR-B-0001–0693; 693 `needs_review`, 0 `verified`; blob SHA `f6790fbc89a0b68334686303184f65ddcf00787f`.
-- ADR-B-0693 do ADR-B-05-K10: praktyczna kolejność założenia kamizelki ostrzegawczej i ustawienia znaków stojących; ADR 5.4.3.4.
-- Explanation 344 znaki, 4 zdania; A/B/C 103/100/63; poprawna B nie jest ani najkrótsza, ani najdłuższa.
-- Rozkład prawidłowych opcji: A=236, B=239, C=218.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/693 = 10,39%**; maksimum działu to 13,95%.
-- ADR-B-05-K10 ma 5 pytań; moduł ADR-B-05 ma 65 pytań.
-- Snapshoty: `sequential/693-693.json`, `legal-clauses/693-693.json`; rejestr: `REJESTR-0693-0693.md`.
-- Raport: `podstawowy/raporty/etap-4x267-kamizelka-przed-znakami-2026-11-01.md`.
+- Bank: 694 pytań ADR-B-0001–0694; 694 `needs_review`, 0 `verified`; blob SHA `c811e632d28573f978d934f38dbd7c01cf19345f`.
+- ADR-B-0694 do ADR-B-06-K05: sytuacyjne zapewnienie widoczności tylnej tablicy pomarańczowej; ADR 5.3.2.1.1.
+- Explanation 404 znaki, 4 zdania; A/B/C 130/99/74; poprawna B nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=236, B=240, C=218.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/694 = 10,37%**; maksimum działu to 13,95%.
+- ADR-B-06-K05 ma 5 pytań; moduł ADR-B-06 ma 58 pytań.
+- Snapshoty: `sequential/694-694.json`, `legal-clauses/694-694.json`; rejestr: `REJESTR-0694-0694.md`.
+- Raport: `podstawowy/raporty/etap-4x268-widocznosc-tylnej-tablicy-pomaranczowej-2026-11-01.md`.
 
 **Stan aktualny po etapie 4x263: 01.11.2026.**
 
@@ -347,7 +347,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 65 | 0 | Lekcja + mapa pytań |
-| ADR-B-06 | Oznakowanie | 9/9 | 0 | 57 | 0 | Lekcja + mapa pytań |
+| ADR-B-06 | Oznakowanie | 9/9 | 0 | 58 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 53 | 0 | Lekcja + mapa pytań |
@@ -355,7 +355,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **693** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **694** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
