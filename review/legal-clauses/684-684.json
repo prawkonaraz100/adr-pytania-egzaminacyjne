@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0684",
+  "date": "2026-11-01",
+  "scope": "ADR 2025 section 7.5.4 consulted for CV28 separation exception where packages have additional packaging or are completely covered; full Dz.U. comparison and independent specialist approval pending",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "erratum": "https://eli.gov.pl/eli/DU/2025/1575/ogl",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0684",
+      "order": 684,
+      "clause": "ADR 2025, 7.5.4",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "question_snapshot": {
+        "id": "ADR-B-0684",
+        "module_id": "ADR-B-09",
+        "stem": "Przesyłki objęte CV28, oznakowane nalepkami 6.1, są przewożone blisko żywności. Każda z nich została całkowicie przykryta szczelną osłoną. Czy nadal trzeba zachować przegrodę lub odstęp 0,8 m?",
+        "options": {
+          "A": "Tak. Przy przesyłkach objętych CV28 trzeba zachować przegrodę lub odstęp co najmniej 0,8 m, nawet gdy są całkowicie przykryte i dodatkowo zabezpieczone.",
+          "B": "Nie. Wystarczy, że kierowca wpisze w dokumencie przewozowym informację o osłonie; sam sposób przykrycia nie ma znaczenia.",
+          "C": "Nie, jeżeli przesyłki są całkowicie przykryte lub mają dodatkowe opakowanie; wyjątek dotyczy wskazanego obowiązku oddzielenia."
+        },
+        "correct_option": "C",
+        "explanation": "Przy CV28 ADR przewiduje oddzielenie określonych przesyłek od żywności m.in. przegrodą, innymi przesyłkami albo wolną przestrzenią co najmniej 0,8 m. Ten obowiązek oddzielenia nie ma zastosowania, gdy oznakowane przesyłki mają dodatkowe opakowanie lub są całkowicie przykryte, np. plandeką. Odpowiedź A pomija ten wyjątek, a B błędnie zastępuje zabezpieczenie wpisem w dokumencie. Podstawa: ADR 7.5.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.4, środki ostrożności wobec żywności — wyjątek dla dodatkowego opakowania lub całkowitego przykrycia przesyłek",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Ta odpowiedź pomija wyraźny wyjątek dla przesyłek mających dodatkowe opakowanie lub całkowite przykrycie; nie zawsze trzeba stosować przegrodę albo odstęp."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Dokument przewozowy nie jest fizycznym zabezpieczeniem przesyłek. ADR wskazuje dodatkowe opakowanie lub całkowite przykrycie, a nie adnotację jako zamiennik."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "ADR 7.5.4 wyłącza wskazane sposoby oddzielenia, gdy przesyłki mają dodatkowe opakowanie lub są całkowicie przykryte, np. plandeką."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy wyjątku od sposobów oddzielenia przesyłek w bezpośredniej bliskości żywności. Nie rozszerza wyjątku na inne obowiązki ADR ani nie zastępuje sprawdzenia CV28 w kolumnie 18 tabeli A.",
+      "editorial_result": "targeted_rule_identified_full_literal_question_and_specialist_review_pending",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}

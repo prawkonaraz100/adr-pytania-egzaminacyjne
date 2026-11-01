@@ -1,14 +1,14 @@
-## Bieżąca migawka — etap 4x257 (01.11.2026)
+## Bieżąca migawka — etap 4x258 (01.11.2026)
 
-- Bank: 683 pytań ADR-B-0001–0683; 683 `needs_review`, 0 `verified`; SHA `03382720e316001da10ddb968fb6c1956107bcef`.
-- ADR-B-0683 do ADR-B-09-K05: zgodność różnych konstrukcji opakowań przeznaczonych do piętrzenia i elementy nośne (ADR 7.5.7.2).
-- Explanation 394 znaki, 4 zdania; A/B/C 176/174/162; poprawna B nie jest ani najkrótsza, ani najdłuższa.
-- Rozkład prawidłowych opcji: A=234, B=233, C=216.
-- „Poprawna = jedyna najdłuższa”: 72/683 = 10,54%; B-09 najkrótsza poprawna: 18/52 = 34,62%.
-- Snapshoty: `sequential/683-683.json`, `legal-clauses/683-683.json`; rejestr: `REJESTR-0683-0683.md`.
-- Raport: `podstawowy/raporty/etap-4x257-pietrzenie-zgodnosc-opakowan-2026-11-01.md`.
+- Bank: 684 pytań ADR-B-0001–0684; 684 `needs_review`, 0 `verified`; SHA `c8c1f0779bba936b20d6a8f2c9dc8be80aa6fe69`.
+- ADR-B-0684 do ADR-B-09-K03: wyjątek od sposobów oddzielenia przesyłek objętych CV28, gdy mają dodatkowe opakowanie lub są całkowicie przykryte (ADR 7.5.4).
+- Explanation 401 znaków, 4 zdania; A/B/C 152/121/126; poprawna C nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=234, B=233, C=217.
+- „Poprawna = jedyna najdłuższa”: 72/684 = 10,53%.
+- Snapshoty: `sequential/684-684.json`, `legal-clauses/684-684.json`; rejestr: `REJESTR-0684-0684.md`.
+- Raport: `podstawowy/raporty/etap-4x258-cv28-wyjatkowe-przykrycie-2026-11-01.md`.
 
-**Stan na 01.11.2026, etap 4x257**
+**Stan na 01.11.2026, etap 4x258**
 
 ## Bieżąca migawka — etap 4x256 (31.10.2026)
 
@@ -357,7 +357,7 @@
 
 ## Raporty jakości
 
-- [Etap 4x257 — zgodność konstrukcji opakowań przy piętrzeniu](raporty/etap-4x257-pietrzenie-zgodnosc-opakowan-2026-11-01.md)
+- [Etap 4x258 — wyjątek CV28 dla całkowicie przykrytych przesyłek](raporty/etap-4x258-cv28-wyjatkowe-przykrycie-2026-11-01.md)
 
 - [Etap 4x256 — strzałki kierunkowe: wyjątek dla małych opakowań](raporty/etap-4x256-strzalki-kierunkowe-wyjatek-opakowania-2026-10-31.md)
 - [Etap 4x255 — ochrona kanalizacji: dodatkowe wyposażenie ADR](raporty/etap-4x255-ochrona-kanalizacji-wyposazenie-2026-10-31.md)

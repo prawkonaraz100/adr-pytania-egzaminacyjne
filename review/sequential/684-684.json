@@ -1,0 +1,48 @@
+{
+  "batch": "684-684",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0684",
+      "sequence": 684,
+      "exact_record_snapshot": {
+        "stem": "Przesyłki objęte CV28, oznakowane nalepkami 6.1, są przewożone blisko żywności. Każda z nich została całkowicie przykryta szczelną osłoną. Czy nadal trzeba zachować przegrodę lub odstęp 0,8 m?",
+        "options": {
+          "A": "Tak. Przy przesyłkach objętych CV28 trzeba zachować przegrodę lub odstęp co najmniej 0,8 m, nawet gdy są całkowicie przykryte i dodatkowo zabezpieczone.",
+          "B": "Nie. Wystarczy, że kierowca wpisze w dokumencie przewozowym informację o osłonie; sam sposób przykrycia nie ma znaczenia.",
+          "C": "Nie, jeżeli przesyłki są całkowicie przykryte lub mają dodatkowe opakowanie; wyjątek dotyczy wskazanego obowiązku oddzielenia."
+        },
+        "correct_option": "C",
+        "explanation": "Przy CV28 ADR przewiduje oddzielenie określonych przesyłek od żywności m.in. przegrodą, innymi przesyłkami albo wolną przestrzenią co najmniej 0,8 m. Ten obowiązek oddzielenia nie ma zastosowania, gdy oznakowane przesyłki mają dodatkowe opakowanie lub są całkowicie przykryte, np. plandeką. Odpowiedź A pomija ten wyjątek, a B błędnie zastępuje zabezpieczenie wpisem w dokumencie. Podstawa: ADR 7.5.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.4, środki ostrożności wobec żywności — wyjątek dla dodatkowego opakowania lub całkowitego przykrycia przesyłek",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish government ADR 2025 text consulted for 7.5.4; exact comparison against the full Dz.U. text and independent specialist approval remain pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "ADR 7.5.4 provides an exception from the specified separation methods where the labelled packages have additional packaging or are completely covered; this does not replace the requirement to check whether CV28 applies.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "source_risk_note": "Official Polish government ADR 2025 text consulted. Exact full-text comparison against Dz.U. 2025 poz. 642 and independent specialist review remain pending."
+    }
+  ]
+}

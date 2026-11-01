@@ -159,3 +159,12 @@ Przedstaw papierowy plan ładowni i zapytaj, co trzeba sprawdzić przed zaakcept
 **Oczekiwane wskazanie:** samo dopuszczenie każdego rodzaju opakowania do piętrzenia nie oznacza automatycznie zgodności różnych konstrukcji. Trzeba ocenić ich wzajemną kompatybilność; gdy istnieje ryzyko uszkodzenia dolnego opakowania przez górne, zastosować elementy nośne zapobiegające takiemu uszkodzeniu.
 
 **Pytanie kontrolne:** kursant wyjaśnia, dlaczego pasy mocujące ani folia stretch nie zastępują oceny zgodności konstrukcji i elementów nośnych, gdy są potrzebne. Podstawa: ADR 7.5.7.2.
+
+
+### Zadanie instruktorskie — wyjątek CV28 dla całkowicie przykrytych przesyłek
+
+**Sytuacja symulowana:** Na planie ładowni pokaż przesyłki objęte CV28 z nalepką 6.1 umieszczone blisko opakowań z żywnością. Wariant A: przesyłki nie mają dodatkowego opakowania ani całkowitego przykrycia. Wariant B: każda z nich jest całkowicie przykryta plandeką.
+
+**Oczekiwane wskazanie:** w wariancie A stosuje się jeden z przewidzianych sposobów oddzielenia (pełna przegroda, odpowiednie przesyłki pomiędzy nimi albo wolna przestrzeń co najmniej 0,8 m). W wariancie B działa wyjątek z 7.5.4 od tych sposobów oddzielenia. Nie wolno zastępować fizycznego przykrycia adnotacją w dokumencie.
+
+**Pytanie kontrolne:** ADR-B-0684. Pełne porównanie polskiego tekstu Dz.U. i niezależna recenzja specjalisty pozostają wymagane.

@@ -29,11 +29,11 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         )
 
     def test_manifest_matches_bank_and_module_counts(self):
-        self.assertEqual(len(self.bank), 683)
-        self.assertEqual(len(self.by_id), 683)
+        self.assertEqual(len(self.bank), 684)
+        self.assertEqual(len(self.by_id), 684)
         self.assertEqual(self.manifest["question_count"], len(self.bank))
-        self.assertEqual(self.manifest["last_id"], "ADR-B-0683")
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 683)
+        self.assertEqual(self.manifest["last_id"], "ADR-B-0684")
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 684)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
         self.assertEqual(self.manifest["formal_approvals"], 0)
         actual = {}
@@ -61,7 +61,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
             content = path.read_text(encoding="utf-8")
             with self.subTest(path=str(path.relative_to(ROOT))):
                 self.assertIn(bank_blob_sha, content, "review guidance must identify current bank snapshot")
-                self.assertIn("683", content, "review guidance must show current question count")
+                self.assertIn("684", content, "review guidance must show current question count")
                 self.assertIn("needs_review", content)
                 self.assertIn("verified", content)
         handoff = (REVIEW / "PRZEKAZANIE-ETAP4.md").read_text(encoding="utf-8")
@@ -178,14 +178,14 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertEqual(len(set(quote_ids)), 143)
         self.assertTrue(set(quote_ids).issubset(self.by_id))
         self.assertEqual(open_items["ministerial_copy_exact_quote_not_saved"], len(quote_ids))
-        self.assertEqual(open_items["targeted_source_checked_full_literal_comparison_pending"], 17)
+        self.assertEqual(open_items["targeted_source_checked_full_literal_comparison_pending"], 18)
 
         self.assertTrue((BASIC / "raporty" / "etap-4x29-proba-wyjasnien-i-egzaminy-2026-10-26.md").is_file())
         exam_guide = (BASIC / "egzamin-probny" / "README.md").read_text(encoding="utf-8")
         self.assertIn("Jak interpretować wynik", exam_guide)
         review_guide = (REVIEW / "INSTRUKCJA-RECENZJI.md").read_text(encoding="utf-8")
         self.assertIn("etapach 4x25–4x29", review_guide)
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 683)
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 684)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
 
     def test_secondary_priority_legal_review_queue_stays_synchronized(self):
