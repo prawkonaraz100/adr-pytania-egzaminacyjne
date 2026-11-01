@@ -158,3 +158,10 @@ Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, dru
 **Sytuacja symulowana:** folia na opakowaniu zbiorczym zakrywa numer UN i nalepki znajdujących się wewnątrz towarów ADR. Kursant ma wskazać, że jeśli oznaczenia nie są widoczne, opakowanie zbiorcze musi mieć napis „OVERPACK” oraz odtworzone wymagane numery UN, inne oznaczenia i nalepki dla zawartości.
 
 **Pytanie kontrolne:** ADR-B-0689. Podstawa: ADR 5.1.2.1(a)(i)–(ii). Nie mylić z odrębnymi zasadami dla towarów w ilościach ograniczonych lub wyłączonych.
+
+
+### Zadanie instruktorskie — zasłonięta tylna tablica pomarańczowa (ADR-B-0694)
+
+**Sytuacja symulowana:** przednia tablica jest dobrze widoczna, ale tylną zasłania koło zapasowe. Kursant ma wskazać, że jednostka musi mieć dwie dobrze widoczne tablice — z przodu i z tyłu — ustawione prostopadle do osi podłużnej pojazdu. Przed wyjazdem trzeba usunąć przeszkodę lub poprawić mocowanie tylnej tablicy.
+
+**Pytanie kontrolne:** ADR-B-0694. Podstawa: ADR 5.3.2.1.1. To ogólna zasada dla jednostki transportowej, nie dodatkowe tablice boczne wymagane w niektórych konfiguracjach.
