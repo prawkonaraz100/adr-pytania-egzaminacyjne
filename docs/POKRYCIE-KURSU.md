@@ -5,7 +5,7 @@
 - Bank: 695 pytań ADR-B-0001–0695; 695 `needs_review`, 0 `verified`; blob SHA `c9127a1fe91f03222089a434d5ec51f11f3b4e8a`.
 - ADR-B-0695 do ADR-B-05-K05: sytuacyjne rozróżnienie małego/początkowego pożaru komory silnika, który można gasić gaśnicą, jeżeli jest to właściwe i bezpieczne, od pożaru przedziału ładunkowego, którego załoga nie powinna gasić; ADR 5.4.3.4.
 - Explanation 398 znaków, 5 zdań; A/B/C 75/75/59; poprawna A nie jest jedyną najdłuższą.
-- Rozkład prawidłowych opcji: A=237, B=239, C=219.
+- Rozkład prawidłowych opcji: A=237, B=240, C=218.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/695 = 10,36%**.
 - ADR-B-05-K05 ma 5 pytań; moduł ADR-B-05 ma 65 pytań.
 - Snapshoty: `sequential/695-695.json`, `legal-clauses/695-695.json`; rejestr: `REJESTR-0695-0695.md`.
@@ -346,7 +346,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 65 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 66 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 58 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 44 | 0 | Lekcja + mapa pytań |
