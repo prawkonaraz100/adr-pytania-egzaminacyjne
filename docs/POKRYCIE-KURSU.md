@@ -1,3 +1,14 @@
+**Stan aktualny po etapie 4x283: 01.11.2026.**
+
+## Bieżąca migawka — etap 4x283 (01.11.2026)
+
+- Bank: 709 pytań ADR-B-0001–0709; wszystkie `needs_review`, 0 `verified`; SHA `733efd0b63dc4b0048a03e53635faacd542ad6d2`.
+- ADR-B-0709 do ADR-B-01-K01: definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
+- Explanation 305 znaków; A/B/C 108/98/104; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C: 238/252/219; „poprawna = jedyna najdłuższa”: 75/709 = 10,58%.
+- ADR-B-01-K01 ma 6 pytań; moduł ADR-B-01 ma 51 pytań.
+- Raport: `podstawowy/raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md`.
+
 **Stan aktualny po etapie 4x282: 01.11.2026.**
 
 ## Bieżąca migawka — etap 4x282 (01.11.2026)
@@ -505,7 +516,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **708** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **709** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
