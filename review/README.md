@@ -1,6 +1,14 @@
 ## Bieżąca migawka — etap 4x276 (01.11.2026)
 
 - Bank: 702 pytania ADR-B-0001–0702; wszystkie `needs_review`, 0 `verified`; SHA `2363e2cd93b2b4921d77aca7ab3730c3221c44b9`.
+- ADR-B-0702 do ADR-B-05-K06: granica użycia gaśnicy, gdy mały pożar opony obejmuje przestrzeń ładunkową; ADR 2025, 5.4.3.4.
+- Explanation 356 znaków; A/B/C 100/105/91.
+- Rozkład A/B/C: 237/246/219; poprawna = jedyna najdłuższa: 75/702 = 10,68%.
+- Snapshoty sequential/legal 702-702; raport: `podstawowy/raporty/etap-4x276-granica-uzycia-gasnicy-2026-11-01.md`.
+
+## Bieżąca migawka — etap 4x276 (01.11.2026)
+
+- Bank: 702 pytania ADR-B-0001–0702; wszystkie `needs_review`, 0 `verified`; SHA `2363e2cd93b2b4921d77aca7ab3730c3221c44b9`.
 - ADR-B-0702 do ADR-B-05-K06: granica użycia gaśnicy przy pożarze obejmującym przestrzeń ładunkową; ADR 2025, 5.4.3.4.
 - Explanation 356 znaków; A/B/C 100/105/91.
 - Rozkład A/B/C: 237/246/219; poprawna = jedyna najdłuższa: 75/702 = 10,68%.
