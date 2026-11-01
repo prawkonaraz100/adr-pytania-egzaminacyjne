@@ -190,3 +190,14 @@ Przedstaw papierowy plan ładowni i zapytaj, co trzeba sprawdzić przed zaakcept
 **Typowe błędy:** założenie, że wcześniejsze pasy nadal wystarczają; założenie jednej taśmy bez kontroli przesuwania na boki.
 
 **Podstawa:** ADR 2025, 7.5.7.1.
+
+
+## Ćwiczenie — dojazd do miejsca czyszczenia po wycieku (ADR-B-0706)
+
+**Sytuacja:** Po rozładunku sztuk przesyłek ADR na podłodze pojazdu pozostała uwolniona zawartość. Plac rozładunku nie ma możliwości bezpiecznego oczyszczenia pojazdu.
+
+**Oczekiwana decyzja:** Kursant wskazuje niezwłoczne oczyszczenie. Jeśli nie jest to możliwe na miejscu, pojazd można przemieścić do najbliższego miejsca czyszczenia, ale tylko z odpowiednimi środkami ostrożności, które zapobiegną niekontrolowanemu wyciekowi.
+
+**Typowe błędy:** zwykły przejazd do własnej bazy; pozostawienie pojazdu bez zabezpieczenia; uznanie, że brak widocznego wycieku oznacza brak potrzeby czyszczenia.
+
+**Podstawa:** ADR 2025, 7.5.8.1. Ćwiczenie omawia się na sucho.
