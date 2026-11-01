@@ -2,7 +2,7 @@
 
 - Bank: 695 pytań ADR-B-0001–0695; 695 `needs_review`, 0 `verified`; SHA `c9127a1fe91f03222089a434d5ec51f11f3b4e8a`.
 - Najnowsze pytanie: ADR-B-0695 (ADR-B-05-K05), mały pożar komory silnika — wyjątek warunkowy z ADR 5.4.3.4.
-- Rozkład A/B/C: 237/239/219; poprawna = jedyna najdłuższa: **72/695 = 10,36%**.
+- Rozkład A/B/C: 237/240/218; poprawna = jedyna najdłuższa: **72/695 = 10,36%**.
 - Raport: [Etap 4x269 — mały pożar komory silnika](raporty/etap-4x269-maly-pozar-komory-silnika-2026-11-01.md).
 
 **Stan na 01.11.2026, etap 4x268**
