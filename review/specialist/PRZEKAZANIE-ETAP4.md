@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x280 (01.11.2026)
+
+- Bank: 706 pytań ADR-B-0001–0706; 706 `needs_review`, 0 `verified`; SHA `8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb`.
+- ADR-B-0706 — bezpieczne przemieszczenie pojazdu do najbliższego miejsca czyszczenia po wycieku; ADR 2025, 7.5.8.1.
+- Explanation 430 znaków; A/B/C 103/99/98; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C: 238/248/220; „poprawna = jedyna najdłuższa”: 75/706 = 10,62%.
+- Snapshoty sequential/legal: 706-706; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x280-bezpieczny-przejazd-do-czyszczenia-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x279 (01.11.2026)
 
 - Bank: 705 pytań ADR-B-0001–0705; wszystkie `needs_review`, 0 `verified`; SHA `c1e4a8bb7c44771246bedf691b528f5f43b07630`.
