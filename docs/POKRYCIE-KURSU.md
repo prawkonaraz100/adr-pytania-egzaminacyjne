@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x273: 01.11.2026.**
+
+## Bieżąca migawka — etap 4x273 (01.11.2026)
+
+- Bank podstawowy: 699 pytań ADR-B-0001–0699; wszystkie `needs_review`, 0 `verified`; SHA `9359365b4381b3b644b70d9b80bd35d171256bd7`.
+- ADR-B-0699 do ADR-B-08-K04: dobór rozmiaru klina do dopuszczalnej masy całkowitej i średnicy kół; ADR 2025, 8.1.5.2.
+- Explanation 331 znaków; A/B/C 108/105/103; poprawna B nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=237, B=243, C=219.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 73/699 = 10,44%.
+- ADR-B-08-K04 ma 5 pytań; moduł ADR-B-08 ma 45 pytań.
+- Raport: `podstawowy/raporty/etap-4x273-dobor-klina-pod-kolo-2026-11-01.md`.
+
 **Stan aktualny po etapie 4x272: 01.11.2026.**
 
 ## Bieżąca migawka — etap 4x272 (01.11.2026)
@@ -373,13 +385,13 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 68 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
-| ADR-B-08 | Wyposażenie | 8/8 | 0 | 44 | 0 | Lekcja + mapa pytań |
+| ADR-B-08 | Wyposażenie | 8/8 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 53 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **698** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **699** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
