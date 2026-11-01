@@ -35,5 +35,5 @@ Punkt 7.5.8.1 sprawdzono w oficjalnym polskim tekście ADR 2025. Pełne literaln
 - Blob SHA banku: `8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb`.
 - Warianty i klucze egzaminów próbnych 001–005 wskazują ten SHA.
 - Snapshoty sequential/legal 706-706, ledger źródeł, manifesty i indeks recenzyjny zostały odświeżone.
-- Rozkład prawidłowych opcji A/B/C: 238/248/220.
+- Rozkład prawidłowych opcji A/B/C: 238/249/219.
 - „Poprawna = jedyna najdłuższa”: 75/706 = 10,62%; maksimum modułu: 13,95%.
