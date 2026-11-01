@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0702",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 5.3.2.3.1: X preceding the hazard identification number indicates dangerous reaction with water; water only with expert approval. Targeted official Polish text checked; full literal comparison and independent specialist review pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0702",
+      "order": 702,
+      "clause": "ADR 2025, 5.4.3.4",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "question_snapshot": {
+        "id": "ADR-B-0702",
+        "module_id": "ADR-B-05",
+        "stem": "Podczas postoju kierowca zauważa niewielki pożar opony. Zanim zdąży użyć gaśnicy, ogień zaczyna obejmować elementy przestrzeni ładunkowej. Co powinien zrobić?",
+        "options": {
+          "A": "Kontynuować gaszenie gaśnicą, bo ogień pojawił się najpierw na oponie i nie trzeba zmieniać decyzji.",
+          "B": "Przerwać próbę gaszenia, oddalić się w bezpieczne miejsce i postępować zgodnie z instrukcjami awaryjnymi.",
+          "C": "Otworzyć przestrzeń ładunkową, sprawdzić zasięg ognia i skierować do niej strumień gaśnicy."
+        },
+        "correct_option": "B",
+        "explanation": "Gaśnicy można użyć przy małym, początkowym pożarze opony, hamulca lub komory silnika tylko wtedy, gdy jest to bezpieczne i właściwe. Gdy ogień zaczyna obejmować przestrzeń ładunkową, nie wolno traktować go jak takiego małego pożaru. Nie otwieraj ładowni ani nie próbuj samodzielnego gaszenia; oddal się i wykonaj instrukcje awaryjne. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4, instrukcje pisemne — użycie gaśnic wyłącznie do małych/początkowych pożarów opon, hamulców lub komory silnika, jeżeli jest to właściwe i bezpieczne; nie podejmować prób gaszenia pożaru w przedziale ładunkowym",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 5.4.3.4 — model instrukcji pisemnych",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 5.4.3.4 — small/incipient tyre, brake or engine-compartment fires only when safe and appropriate; do not fight fires in load compartments",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "The written instructions do not authorize continuing to fight a fire once it has spread into the load compartment."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "The crew must abandon firefighting in the load compartment, move to safety and follow the written instructions."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opening the load compartment exposes the crew to additional danger and is not the prescribed response."
+        }
+      },
+      "notes_on_conditions": "The narrow permission concerns small/incipient fires in tyres, brakes or the engine compartment, and only where safe and appropriate.",
+      "editorial_result": "The existing questions cover small tyre/brake fires and cargo-compartment fires separately. This scenario tests the transition point when a small tyre fire begins to involve the load compartment.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
