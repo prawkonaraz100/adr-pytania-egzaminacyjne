@@ -1,9 +1,17 @@
+**Stan na 01.11.2026, etap 4x274**
+
+- Bank: 700 pytań ADR-B-0001–0700; 700 `needs_review`, 0 `verified`; SHA `35284ef525c41ebc5ee08fa0423ebf22e262db8c`.
+- ADR-B-0700: mocowanie elastycznego kontenera bez deformowania go pasami; ADR 2025, 7.5.7.6.2.
+- Explanation 303 znaki; A/B/C 105/114/109.
+- Rozkład odpowiedzi A/B/C: 237/244/219; „poprawna = jedyna najdłuższa”: 73/700 = 10,43%.
+- Raport: [Etap 4x274 — elastyczny kontener i pasy](raporty/etap-4x274-elastyczny-kontener-pasy-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x273**
 
-- Bank: 699 pytań ADR-B-0001–0699; 699 `needs_review`, 0 `verified`; SHA `9359365b4381b3b644b70d9b80bd35d171256bd7`.
+- Bank: 699 pytań ADR-B-0001–0699; 700 `needs_review`, 0 `verified`; SHA `9359365b4381b3b644b70d9b80bd35d171256bd7`.
 - ADR-B-0699: dobór rozmiaru klina pod koło do DMC pojazdu i średnicy kół; ADR 2025, 8.1.5.2.
 - Explanation 331 znaków; A/B/C 108/105/103; poprawna B nie jest najdłuższa.
-- Rozkład odpowiedzi A/B/C: 237/243/219; „poprawna = jedyna najdłuższa”: 73/699 = 10,44%.
+- Rozkład odpowiedzi A/B/C: 237/243/219; „poprawna = jedyna najdłuższa”: 73/700 = 10,43%.
 - Raport: [Etap 4x273 — dobór klina pod koło](raporty/etap-4x273-dobor-klina-pod-kolo-2026-11-01.md).
 
 **Stan na 01.11.2026, etap 4x272**
@@ -434,6 +442,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x274 — elastyczny kontener i pasy](raporty/etap-4x274-elastyczny-kontener-pasy-2026-11-01.md)
 - [Etap 4x273 — dobór klina pod koło](raporty/etap-4x273-dobor-klina-pod-kolo-2026-11-01.md)
 - [Etap 4x272 — litera X i reakcja z wodą](raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md)
 - [Etap 4x271 — ostrzeżenie z bezpiecznego miejsca](raporty/etap-4x271-ostrzezenie-z-bezpiecznego-miejsca-2026-11-01.md)
