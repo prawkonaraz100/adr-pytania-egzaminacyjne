@@ -1,66 +1,69 @@
 {
-  "title": "ADR 2025 legal-clause comparison: question 0697",
+  "title": "ADR 2025 legal-clause comparison: question 0698",
   "date": "2026-11-01",
-  "scope": "ADR 2025, 5.4.3.4: warn other persons and traffic, keep them away from danger area, and do not touch or walk through spillage; targeted official Polish text checked, full literal comparison and independent specialist review pending.",
+  "scope": "ADR 2025, 5.3.2.3.1: X preceding the hazard identification number indicates dangerous reaction with water; water only with expert approval. Targeted official Polish text checked; full literal comparison and independent specialist review pending.",
   "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
-  "ministry_source": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+  "ministry_source": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
   "unece_reference": "https://unece.org/adr-2025-files",
   "release_approved": false,
   "records": [
     {
-      "id": "ADR-B-0697",
-      "order": 697,
-      "clause": "ADR 2025, 5.4.3.4",
-      "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "id": "ADR-B-0698",
+      "order": 698,
+      "clause": "ADR 2025, 5.3.2.3.1",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
       "question_snapshot": {
-        "id": "ADR-B-0697",
-        "module_id": "ADR-B-05",
-        "stem": "Po wypadku ADR kierowca stoi w bezpiecznym miejscu. Widzi, że dwie osoby idą w stronę uszkodzonej przesyłki, a jedyna droga, którą mógłby do nich podejść, prowadzi przez rozlew. Co powinien zrobić?",
+        "id": "ADR-B-0698",
+        "module_id": "ADR-B-06",
+        "stem": "Podczas kontroli po awarii kierowca odczytuje na górze tablicy pomarańczowej oznaczenie „X423”. Ratownik pyta, czy może użyć wody do schłodzenia rozlanego materiału. Jaką informację powinien przekazać kierowca?",
         "options": {
-          "A": "Przejść przez rozlew i osobiście odciągnąć ludzi od przesyłki, aby jak najszybciej opuścili zagrożony teren.",
-          "B": "Z bezpiecznego miejsca ostrzec ludzi, by odeszli od zagrożenia, i nie przechodzić przez rozlew.",
-          "C": "Pozwolić im podejść, jeśli nie dotkną opakowania ani rozlanej substancji."
+          "A": "Litera X oznacza tylko silniejsze zagrożenie; o użyciu wody kierowca może zdecydować sam na podstawie wyglądu wycieku.",
+          "B": "Materiał reaguje niebezpiecznie z wodą; jej użycie wymaga zgody specjalistów, więc trzeba przekazać to ostrzeżenie ratownikom.",
+          "C": "Litera X oznacza, że materiał nie jest palny, dlatego woda jest właściwym środkiem do ograniczenia zagrożenia."
         },
         "correct_option": "B",
-        "explanation": "Osoby postronne trzeba ostrzec i trzymać z dala od strefy zagrożenia, ale nie wolno narażać się, by do nich podejść. Ostrzeż je z bezpiecznego miejsca i nie przechodź przez rozlew; jeśli nie możesz ich bezpiecznie ostrzec, przekaż ratownikom, gdzie się znajdują. Przejście przez ciecz może spowodować kontakt z niebezpiecznym materiałem, a pozwolenie na podejście naraża ludzi. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą. Kierowca powinien od razu przekazać tę informację ratownikom i nie sugerować samodzielnego polewania wycieku ani gaszenia wodą. Sama ocena wyglądu substancji nie wystarcza, a X nie oznacza braku palności. Wodę można zastosować tylko za zgodą specjalistów. Podstawa: ADR 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4 — ostrzec inne osoby i ruch drogowy o zagrożeniu oraz trzymać je z dala od strefy zagrożenia; nie dotykać rozlewów ani przez nie nie przechodzić",
+            "reference": "ADR 2025, 5.3.2.3.1 — numer rozpoznawczy zagrożenia poprzedzony literą X oznacza niebezpieczną reakcję materiału z wodą; woda może być stosowana jedynie za zgodą specjalistów",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           },
           {
             "code": "ADR-2025-MI",
-            "reference": "ADR 2025, tom II, s. 270, 5.4.3.4 — warn other persons and traffic of the danger and keep them away from the danger area; do not touch or walk through any spillage",
-            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+            "reference": "ADR 2025, tom II, s. 251, 5.3.2.3.1 — oznaczenie X i ograniczenie stosowania wody do zgody specjalistów",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
           },
           {
             "code": "UNECE-ADR-2025",
-            "reference": "ADR 2025, 5.4.3.4 — written instructions: warn other persons and traffic, keep them away from danger area, and do not touch or walk through spillage",
+            "reference": "ADR 2025, 5.3.2.3.1 — X before the hazard identification number means dangerous reaction with water; water may only be used with expert approval",
             "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "observed_answer_key": "B",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "The direct route crosses the spill. ADR instructions say not to touch or walk through spillage, and the warning must not put the driver into the danger area."
+          "rationale": "The letter X does not describe merely a stronger hazard; it warns of a dangerous reaction with water. The driver cannot decide that water is safe based on appearance."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "The driver warns the approaching people from a safe position, keeps them away from the danger area, and does not cross the spill."
+          "rationale": "ADR 5.3.2.3.1 says X means dangerous reaction with water and allows water only with expert approval; the driver should communicate this to responders."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "People must be kept away from the danger area even if they promise not to touch the package or liquid; the area itself may be hazardous."
+          "rationale": "X does not mean non-flammability or that water is appropriate; it is a specific warning about dangerous reaction with water."
         }
       },
-      "notes_on_conditions": "The driver does not physically approach the bystanders through the spill. The scenario tests the possible-and-safe condition: warn from a safe place if possible, and give responders the location if warning cannot be done safely.",
-      "editorial_result": "K09's four existing questions repeatedly test the general duty to warn bystanders. This scenario adds a practical constraint absent from those questions: the direct route to the people crosses the spill, so the driver must warn from safety rather than enter the contaminated area.",
-      "official_polish_full_text_comparison": "pending",
+      "notes_on_conditions": "The question asks the driver to communicate the X warning to responders, not to select a firefighting tactic or override specialist judgement.",
+      "editorial_result": "K04 already contains four recognition questions about X. This scenario shifts the task from recalling the symbol's meaning to communicating its operational consequence to responders.",
+      "official_polish_full_text_comparison": "targeted_clause_checked_full_question_comparison_pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
