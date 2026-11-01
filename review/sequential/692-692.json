@@ -1,0 +1,58 @@
+{
+  "batch": "692-692",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0692",
+      "sequence": 692,
+      "exact_record_snapshot": {
+        "stem": "Po uszkodzeniu opakowania kierowca odchodzi od miejsca wycieku na stronę nawietrzną. Po chwili wiatr zmienia kierunek i chmura oparów zaczyna przesuwać się w jego stronę. Jak powinien postąpić?",
+        "options": {
+          "A": "Pozostać na miejscu, ponieważ wcześniejsze ustawienie po stronie nawietrznej nadal jest bezpieczne mimo zmiany wiatru.",
+          "B": "Ponownie oddalić się i znaleźć miejsce po stronie nawietrznej, poza drogą przemieszczania się oparów.",
+          "C": "Przejść za chmurę, aby znaleźć osłonę od wiatru i obserwować miejsce wycieku."
+        },
+        "correct_option": "B",
+        "explanation": "Gdy wiatr zmienia kierunek, dotychczasowe miejsce może przestać być nawietrzne. Kierowca powinien ponownie oddalić się tak, aby pozostać po stronie nawietrznej i nie wdychać oparów. Pozostanie na miejscu może skierować chmurę na niego, a przejście za chmurę oznacza wejście w jej drogę. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — unikanie wdychania oparów przez pozostawanie po stronie nawietrznej",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "ADR 2025, tom II, s. 270, 5.4.3.4 — unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, 5.4.3.4 — written instructions: avoid inhaling vapours by remaining upwind",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish ADR 2025 Volume II, 5.4.3.4, p. 270 (PDF p. 281), directly checked: avoid inhaling vapours, smoke, dust and fumes by remaining upwind; full comparison of all question elements and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The official Polish ADR 2025 written-instruction model in 5.4.3.4 instructs the crew to avoid inhaling vapours, smoke, dust and fumes by remaining upwind.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "source_risk_note": "Targeted clause directly checked in the official Polish Ministry ADR 2025 Volume II PDF, p. 270; full comparison of all question elements against Dz.U. 2025 poz. 642 and independent specialist review remain pending."
+    }
+  ]
+}

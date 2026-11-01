@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x266 (01.11.2026)
+
+- Bank: 692 pytania ADR-B-0001–0692; wszystkie `needs_review`, 0 `verified`; SHA `1dd005ce09b3ddf90adf0a42b75a96aaf68a986b`.
+- ADR-B-0692 do ADR-B-05-K04: ponowna ocena strony nawietrznej po zmianie wiatru; ADR 5.4.3.4, tom II, s. 270.
+- 692 wpisy w indeksie; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x266-strona-nawietrzna-zmiana-wiatru-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x265 (01.11.2026)
 
 - Bank: 691 pytań ADR-B-0001–0691; wszystkie `needs_review`, 0 `verified`; SHA `13e6e673d26a2a97f0af2d52fd57d01dddd8f1e0`.
@@ -917,3 +923,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 | ADR-B-0690 | ADR-B-05 | ADR-B-05-K02 | Bezpieczne zatrzymanie, wyłączenie silnika i odłączenie akumulatora wyłącznikiem głównym | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0691 | ADR-B-05 | ADR-B-05-K03 | Powiadomienie służb ratowniczych bez zwłoki i przekazanie dostępnych informacji | B | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0692 | ADR-B-05 | ADR-B-05-K04 | Ponowna ocena strony nawietrznej po zmianie kierunku wiatru | B | ADR 2025, 5.4.3.4, s. 270 | — | NIEROZSTRZYGNIĘTE | needs_review |

@@ -26,7 +26,7 @@ Materiały przeniesione z lekcji: plany zajęć, zadania instruktorskie, kryteri
 | ADR-B-05-K01 | Lokalizacja i znajomość instrukcji pisemnych | 5.4.3 | 4 |
 | ADR-B-05-K02 | Bezpieczne zatrzymanie i wyłączenie silnika | 5.4.3.4 | 4 |
 | ADR-B-05-K03 | Powiadomienie służb i informacje o ładunku | 5.4.3.4 | 3 |
-| ADR-B-05-K04 | Unikanie oparów i wybór strony nawietrznej | 5.4.3.4 | 4 |
+| ADR-B-05-K04 | Unikanie oparów i wybór strony nawietrznej | 5.4.3.4 | 5 |
 | ADR-B-05-K05 | Zakaz gaszenia pożaru ładowni | 5.4.3.4 | 3 |
 | ADR-B-05-K06 | Mały pożar opon, hamulców lub silnika | 5.4.3.4 | 4 |
 | ADR-B-05-K07 | Przekazanie dokumentów ratownikom | 5.4.3.4 | 3 |
@@ -173,3 +173,14 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowe błędy:** uzależnienie wezwania służb od zgody dyspozytora; odkładanie zgłoszenia do czasu pełnego wyjaśnienia; zgadywanie rodzaju ładunku.
 
 **Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho, bez odtwarzania sytuacji zagrożenia.
+
+
+### Ćwiczenie sytuacyjne — zmiana kierunku wiatru (ADR-B-0692)
+
+**Sytuacja:** Kierowca odszedł od wycieku na stronę nawietrzną. Po chwili wiatr zmienia kierunek i chmura oparów zaczyna przesuwać się w jego stronę.
+
+**Oczekiwana decyzja:** Kursant ponownie ocenia położenie chmury i wskazuje bezpieczne oddalenie się tak, aby pozostać po stronie nawietrznej, poza drogą oparów. Podkreśla, że nie wolno przechodzić przez chmurę ani podchodzić do źródła wycieku.
+
+**Typowe błędy:** pozostanie w poprzednim miejscu mimo zmiany wiatru; przejście za chmurę; podejście do wycieku w celu obserwacji.
+
+**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
