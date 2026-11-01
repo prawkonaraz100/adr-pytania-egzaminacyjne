@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x272: 01.11.2026.**
+
+## Bieżąca migawka — etap 4x272 (01.11.2026)
+
+- Bank podstawowy: 698 pytań ADR-B-0001–0698; wszystkie `needs_review`, 0 `verified`; SHA `e81ce0f9d620ab270c41bf0d09903d4aad43dc8e`.
+- ADR-B-0698 do ADR-B-06-K04: sytuacyjne odczytanie litery X na tablicy i przekazanie ratownikom informacji o niebezpiecznej reakcji z wodą; ADR 2025, 5.3.2.3.1, tom II, s. 251.
+- Explanation 381 znaków / 5 zdań; A/B/C 118/126/110; poprawna B jest najdłuższa.
+- Rozkład prawidłowych opcji: A=237, B=242, C=219.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 73/698 = 10,46%.
+- ADR-B-06-K04 ma 5 pytań; moduł ADR-B-06 ma 59 pytań. Egzaminy próbne 001–005 wskazują nowy SHA banku.
+- Raport: `podstawowy/raporty/etap-4x272-litera-x-reakcja-z-woda-2026-11-01.md`.
+
 **Stan aktualny po etapie 4x271: 01.11.2026.**
 
 ## Bieżąca migawka — etap 4x271 (01.11.2026)
