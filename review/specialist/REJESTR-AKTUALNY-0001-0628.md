@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x261 (01.11.2026)
+
+- Bank: 687 pytań ADR-B-0001–0687; 687 `needs_review`, 0 `verified`; SHA `ba18db9994feecf876b449a203dcc1590e16523f`.
+- ADR-B-0687 do ADR-B-03-K05: skażona odzież i użyte skażone środki ochronne po awarii; ADR 5.4.3.4, model instrukcji pisemnych.
+- 687 wpisów w rejestrze; formalne zatwierdzenia: 0. Raport: `podstawowy/raporty/etap-4x261-skazona-odziez-po-awarii-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x260 (01.11.2026)
 
 - Bank: 686 pytań ADR-B-0001–0686; 686 needs_review, 0 verified; SHA `f44c2fdc0e99ccbb1311d61b7b4bc2dadf1a907d`.
@@ -877,3 +883,5 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0686 | ADR-B-08 | ADR-B-08-K05 | Przenośna lampa dla każdego członka załogi i brak powierzchni metalowej mogącej powodować iskrzenie | A | ADR 2025, 8.1.5.2 i 8.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
+
+| ADR-B-0687 | ADR-B-03 | ADR-B-03-K05 | Zdjęcie skażonej odzieży i użytych skażonych środków ochronnych oraz ich bezpieczne usunięcie | A | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |

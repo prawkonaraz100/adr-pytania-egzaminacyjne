@@ -1,3 +1,14 @@
+## Bieżąca migawka — etap 4x261 (01.11.2026)
+
+- Bank: 687 pytań ADR-B-0001–0687; 687 `needs_review`, 0 `verified`; SHA `ba18db9994feecf876b449a203dcc1590e16523f`.
+- ADR-B-0687 do ADR-B-03-K05: zdjęcie skażonej odzieży i użytych skażonych środków ochronnych oraz ich bezpieczne usunięcie (ADR 5.4.3.4, model instrukcji pisemnych).
+- Explanation 410 znaków, 4 zdania; A/B/C 110/109/114; poprawna A nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=236, B=234, C=217.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/687 = 10,48%**; maksimum działu to 13,95%.
+- ADR-B-03-K05 ma 5 pytań; moduł ADR-B-03 ma 56 pytań.
+- Snapshoty: `sequential/687-687.json`, `legal-clauses/687-687.json`; rejestr: `REJESTR-0687-0687.md`.
+- Raport: `podstawowy/raporty/etap-4x261-skazona-odziez-po-awarii-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x260 (01.11.2026)
 
 - Bank: 686 pytań ADR-B-0001–0686; 686 `needs_review`, 0 `verified`; SHA `f44c2fdc0e99ccbb1311d61b7b4bc2dadf1a907d`.

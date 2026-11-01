@@ -159,3 +159,10 @@ Przedstaw kursantowi dokument ADR z pominiętym słowem „ODPAD” przed nazwą
 **Oczekiwane wskazanie:** łopata, osłona kanalizacyjna i pojemnik do zbierania pozostałości; dla tej grupy nalepek wskazuje je ADR 8.1.5.2. Analogiczny wymóg dotyczy nalepek 3, 4.1, 4.3 i 9.
 
 **Granica bezpieczeństwa:** Samo posiadanie sprzętu nie upoważnia do wejścia w rozlew ani narażania się na kontakt z substancją. Działanie tylko wtedy, gdy jest właściwe i bezpieczne (instrukcje pisemne ADR 5.4.3.4). Ćwiczenie wyłącznie na fikcyjnej karcie, bez rzeczywistego wycieku.
+
+
+### Zadanie instruktorskie — skażona odzież po awarii (ADR-B-0687)
+
+**Sytuacja symulowana:** po oddaleniu się od rozlewu kursant zauważa skażoną odzież i użyte rękawice ochronne. Poproś go o wskazanie czynności wynikającej z instrukcji pisemnych ADR: zdjąć skażoną odzież i użyte skażone środki ochronne oraz bezpiecznie je usunąć. Nie wkładać ich do kabiny ani do zwykłej torby z zamiarem prania.
+
+**Granica ćwiczenia:** nie używać prawdziwych substancji ani skażonych materiałów. Omawiać wyłącznie scenariusz i model instrukcji pisemnych. Podstawa: ADR 5.4.3.4.
