@@ -1,3 +1,10 @@
+**Stan na 01.11.2026, etap 4x269**
+
+- Bank: 695 pytań ADR-B-0001–0695; 695 `needs_review`, 0 `verified`; SHA `c9127a1fe91f03222089a434d5ec51f11f3b4e8a`.
+- Najnowsze pytanie: ADR-B-0695 (ADR-B-05-K05), mały pożar komory silnika — wyjątek warunkowy z ADR 5.4.3.4.
+- Rozkład A/B/C: 237/239/219; poprawna = jedyna najdłuższa: **72/695 = 10,36%**.
+- Raport: [Etap 4x269 — mały pożar komory silnika](raporty/etap-4x269-maly-pozar-komory-silnika-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x268**
 
 - Bank: 694 pytań ADR-B-0001–0694; 694 `needs_review`, 0 `verified`; SHA `c811e632d28573f978d934f38dbd7c01cf19345f`.
@@ -398,6 +405,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x269 — mały pożar komory silnika](raporty/etap-4x269-maly-pozar-komory-silnika-2026-11-01.md)
 - [Etap 4x268 — widoczność tylnej tablicy pomarańczowej](raporty/etap-4x268-widocznosc-tylnej-tablicy-pomaranczowej-2026-11-01.md)
 - [Etap 4x267 — kamizelka przed ustawieniem znaków](raporty/etap-4x267-kamizelka-przed-znakami-2026-11-01.md)
 - [Etap 4x266 — strona nawietrzna po zmianie wiatru](raporty/etap-4x266-strona-nawietrzna-zmiana-wiatru-2026-11-01.md)
