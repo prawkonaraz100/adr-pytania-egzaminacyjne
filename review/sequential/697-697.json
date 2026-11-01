@@ -1,35 +1,35 @@
 {
-  "batch": "698-698",
+  "batch": "697-697",
   "date": "2026-11-01",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
   "records": [
     {
-      "id": "ADR-B-0698",
-      "sequence": 698,
+      "id": "ADR-B-0697",
+      "sequence": 697,
       "exact_record_snapshot": {
-        "stem": "Podczas kontroli po awarii kierowca odczytuje na górze tablicy pomarańczowej oznaczenie „X423”. Ratownik pyta, czy może użyć wody do schłodzenia rozlanego materiału. Jaką informację powinien przekazać kierowca?",
+        "stem": "Po wypadku ADR kierowca stoi w bezpiecznym miejscu. Widzi, że dwie osoby idą w stronę uszkodzonej przesyłki, a jedyna droga, którą mógłby do nich podejść, prowadzi przez rozlew. Co powinien zrobić?",
         "options": {
-          "A": "Litera X oznacza tylko silniejsze zagrożenie; o użyciu wody kierowca może zdecydować sam na podstawie wyglądu wycieku.",
-          "B": "Materiał reaguje niebezpiecznie z wodą; jej użycie wymaga zgody specjalistów, więc trzeba przekazać to ostrzeżenie ratownikom.",
-          "C": "Litera X oznacza, że materiał nie jest palny, dlatego woda jest właściwym środkiem do ograniczenia zagrożenia."
+          "A": "Przejść przez rozlew i osobiście odciągnąć ludzi od przesyłki, aby jak najszybciej opuścili zagrożony teren.",
+          "B": "Z bezpiecznego miejsca ostrzec ludzi, by odeszli od zagrożenia, i nie przechodzić przez rozlew.",
+          "C": "Pozwolić im podejść, jeśli nie dotkną opakowania ani rozlanej substancji."
         },
         "correct_option": "B",
-        "explanation": "Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą. Kierowca powinien od razu przekazać tę informację ratownikom i nie sugerować samodzielnego polewania wycieku ani gaszenia wodą. Sama ocena wyglądu substancji nie wystarcza, a X nie oznacza braku palności. Wodę można zastosować tylko za zgodą specjalistów. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Osoby postronne trzeba ostrzec i trzymać z dala od strefy zagrożenia, ale nie wolno narażać się, by do nich podejść. Ostrzeż je z bezpiecznego miejsca i nie przechodź przez rozlew; jeśli nie możesz ich bezpiecznie ostrzec, przekaż ratownikom, gdzie się znajdują. Przejście przez ciecz może spowodować kontakt z niebezpiecznym materiałem, a pozwolenie na podejście naraża ludzi. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1 — numer rozpoznawczy zagrożenia poprzedzony literą X oznacza niebezpieczną reakcję materiału z wodą; woda może być stosowana jedynie za zgodą specjalistów",
+            "reference": "ADR 2025, 5.4.3.4 — ostrzec inne osoby i ruch drogowy o zagrożeniu oraz trzymać je z dala od strefy zagrożenia; nie dotykać rozlewów ani przez nie nie przechodzić",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           },
           {
             "code": "ADR-2025-MI",
-            "reference": "ADR 2025, tom II, s. 251, 5.3.2.3.1 — oznaczenie X i ograniczenie stosowania wody do zgody specjalistów",
-            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+            "reference": "ADR 2025, tom II, s. 270, 5.4.3.4 — warn other persons and traffic of the danger and keep them away from the danger area; do not touch or walk through any spillage",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
           },
           {
             "code": "UNECE-ADR-2025",
-            "reference": "ADR 2025, 5.3.2.3.1 — X before the hazard identification number means dangerous reaction with water; water may only be used with expert approval",
+            "reference": "ADR 2025, 5.4.3.4 — written instructions: warn other persons and traffic, keep them away from danger area, and do not touch or walk through spillage",
             "url": "https://unece.org/adr-2025-files"
           }
         ],
@@ -45,14 +45,14 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "Official Polish ADR 2025 Volume II, 5.3.2.3.1, p. 251, directly checked: X preceding the hazard identification number means dangerous reaction with water; water may only be used with expert approval. Full literal comparison of all question nuances and independent specialist review pending.",
+      "source_crosscheck_scope": "Official Polish ADR 2025 Volume II, 5.4.3.4, p. 270 (PDF p. 281), directly checked: warn other persons and traffic and keep them away from the danger area; do not touch or walk through any spillage. The scenario combines these instructions with the overarching possible-and-safe condition; full comparison of all question nuances and independent specialist review pending.",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved",
-      "legal_comparison_result": "The official Polish ADR 2025 clause 5.3.2.3.1 states that X preceding the hazard identification number means dangerous reaction with water and that water may be used only with expert approval. The scenario tests the driver's practical duty to communicate this warning to responders.",
-      "supplementary_source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
-      "source_risk_note": "Targeted clause directly checked in the official Polish ADR 2025 Volume II PDF, p. 251; full literal comparison of all question elements and independent specialist review remain pending."
+      "legal_comparison_result": "The official Polish ADR 2025 written-instruction model in 5.4.3.4 requires warning other persons and traffic, keeping them away from the danger area, and not touching or walking through spillage. The question tests warning from a safe position when the direct route to the people crosses the spill.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "source_risk_note": "Targeted clauses directly checked in the official Polish Ministry ADR 2025 Volume II PDF, p. 270; full literal comparison of all question elements and independent specialist review remain pending."
     }
   ]
 }
