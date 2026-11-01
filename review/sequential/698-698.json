@@ -1,0 +1,58 @@
+{
+  "batch": "698-698",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0698",
+      "sequence": 698,
+      "exact_record_snapshot": {
+        "stem": "Podczas kontroli po awarii kierowca odczytuje na górze tablicy pomarańczowej oznaczenie „X423”. Ratownik pyta, czy może użyć wody do schłodzenia rozlanego materiału. Jaką informację powinien przekazać kierowca?",
+        "options": {
+          "A": "Litera X oznacza tylko silniejsze zagrożenie; o użyciu wody kierowca może zdecydować sam na podstawie wyglądu wycieku.",
+          "B": "Materiał reaguje niebezpiecznie z wodą; jej użycie wymaga zgody specjalistów, więc trzeba przekazać to ostrzeżenie ratownikom.",
+          "C": "Litera X oznacza, że materiał nie jest palny, dlatego woda jest właściwym środkiem do ograniczenia zagrożenia."
+        },
+        "correct_option": "B",
+        "explanation": "Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą. Kierowca powinien od razu przekazać tę informację ratownikom i nie sugerować samodzielnego polewania wycieku ani gaszenia wodą. Sama ocena wyglądu substancji nie wystarcza, a X nie oznacza braku palności. Wodę można zastosować tylko za zgodą specjalistów. Podstawa: ADR 5.3.2.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1 — numer rozpoznawczy zagrożenia poprzedzony literą X oznacza niebezpieczną reakcję materiału z wodą; woda może być stosowana jedynie za zgodą specjalistów",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "ADR 2025, tom II, s. 251, 5.3.2.3.1 — oznaczenie X i ograniczenie stosowania wody do zgody specjalistów",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, 5.3.2.3.1 — X before the hazard identification number means dangerous reaction with water; water may only be used with expert approval",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish ADR 2025 Volume II, 5.3.2.3.1, p. 251, directly checked: X preceding the hazard identification number means dangerous reaction with water; water may only be used with expert approval. Full literal comparison of all question nuances and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The official Polish ADR 2025 clause 5.3.2.3.1 states that X preceding the hazard identification number means dangerous reaction with water and that water may be used only with expert approval. The scenario tests the driver's practical duty to communicate this warning to responders.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "source_risk_note": "Targeted clause directly checked in the official Polish ADR 2025 Volume II PDF, p. 251; full literal comparison of all question elements and independent specialist review remain pending."
+    }
+  ]
+}
