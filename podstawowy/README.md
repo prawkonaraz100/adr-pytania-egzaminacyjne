@@ -419,6 +419,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x271 — ostrzeżenie z bezpiecznego miejsca](raporty/etap-4x271-ostrzezenie-z-bezpiecznego-miejsca-2026-11-01.md)
 - [Etap 4x270 — dokumenty bez powrotu do strefy zagrożenia](raporty/etap-4x270-dokumenty-bez-powrotu-do-strefy-zagrozenia-2026-11-01.md)
 - [Etap 4x269 — mały pożar komory silnika](raporty/etap-4x269-maly-pozar-komory-silnika-2026-11-01.md)
 - [Etap 4x268 — widoczność tylnej tablicy pomarańczowej](raporty/etap-4x268-widocznosc-tylnej-tablicy-pomaranczowej-2026-11-01.md)
