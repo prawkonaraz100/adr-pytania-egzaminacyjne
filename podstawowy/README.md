@@ -1,3 +1,10 @@
+**Stan na 01.11.2026, etap 4x266**
+
+- Bank: 692 pytań ADR-B-0001–0692; 692 `needs_review`, 0 `verified`; SHA `1dd005ce09b3ddf90adf0a42b75a96aaf68a986b`.
+- Najnowsze pytanie: ADR-B-0692 (ADR-B-05-K04), zmiana strony nawietrznej po zmianie wiatru, ADR 5.4.3.4.
+- Rozkład prawidłowych opcji A/B/C: 236/238/218; poprawna = jedyna najdłuższa: **72/692 = 10,40%**.
+- Raport: [Etap 4x266 — strona nawietrzna po zmianie wiatru](raporty/etap-4x266-strona-nawietrzna-zmiana-wiatru-2026-11-01.md).
+
 **Stan na 01.11.2026, etap 4x265**
 
 - Bank: 691 pytań ADR-B-0001–0691; 691 `needs_review`, 0 `verified`; SHA `13e6e673d26a2a97f0af2d52fd57d01dddd8f1e0`.
@@ -377,6 +384,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x266 — strona nawietrzna po zmianie wiatru](raporty/etap-4x266-strona-nawietrzna-zmiana-wiatru-2026-11-01.md)
 - [Etap 4x265 — powiadomienie służb ratowniczych](raporty/etap-4x265-powiadomienie-sluzb-ratowniczych-2026-11-01.md)
 - [Etap 4x264 — bezpieczne zatrzymanie i wyłączenie silnika](raporty/etap-4x264-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-01.md)
 
