@@ -31,7 +31,7 @@ Zakres pytania ogranicza się do standardowego modelu instrukcji pisemnych. Sfor
 
 ## Synchronizacja #646
 
-- Bank po dodaniu: **690** pytań, ADR-B-0001–0690; wszystkie mają pozostać `needs_review`, 0 `verified`.
+- Bank po dodaniu: **690** pytań, ADR-B-0001–0690; SHA `66a862742a9c134f92bf467574865101faa0c884`; rozkład kluczy A/B/C: **236/236/218**; poprawna = jedyna najdłuższa: **72/690 = 10,43%**; wszystkie mają pozostać `needs_review`, 0 `verified`.
 - Kompetencja `ADR-B-05-K02` otrzymała piąte pytanie.
 - Klucze i warianty egzaminów próbnych 001–005 wymagają odświeżenia do nowego SHA banku.
 - Dodano snapshoty `review/sequential/690-690.json` i `review/legal-clauses/690-690.json`.
