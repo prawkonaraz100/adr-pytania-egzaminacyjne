@@ -1,3 +1,13 @@
+## Bieżąca migawka — etap 4x275 (01.11.2026)
+
+- Bank: 701 pytań ADR-B-0001–0701; wszystkie `needs_review`, 0 `verified`; SHA `64544daffd52784e1a9a85c8c14cd22d2e293950`.
+- ADR-B-0701 do ADR-B-12-K02: ocena placu czasowego składowania — zabezpieczenie, oświetlenie i ograniczenie dostępu publicznego, gdy możliwe i właściwe; ADR 2025, 1.10.1.3.
+- Explanation 344 znaki; A/B/C 110/110/107.
+- Rozkład prawidłowych opcji: A=237, B=245, C=219.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **74/701 = 10,56%**; maksimum działu to 13,95%.
+- ADR-B-12-K02 ma 5 pytań; moduł ADR-B-12 ma 45 pytań.
+- Raport: `podstawowy/raporty/etap-4x275-plac-czasowego-skladowania-2026-11-01.md`.
+
 **Stan aktualny po etapie 4x275: 01.11.2026.**
 
 ## Bieżąca migawka — etap 4x275 (01.11.2026)
@@ -412,7 +422,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 55 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
-| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
+| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
 | **Razem** | | **104/104** | **3** | **701** | **0** | **13 szkiców z mapą pytań** |
 
