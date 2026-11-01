@@ -4,7 +4,7 @@
 
 - Bank: 709 pytań ADR-B-0001–0709; wszystkie `needs_review`, 0 `verified`; SHA `733efd0b63dc4b0048a03e53635faacd542ad6d2`.
 - ADR-B-0709 do ADR-B-01-K01: definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
-- Explanation 305 znaków; A/B/C 108/98/104; poprawna B nie jest najdłuższa.
+- Explanation 305 znaków; A/B/C 108/102/101; poprawna B nie jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=252, C=219.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/709 = 10,58%**; maksimum działu to 13,95%.
 - ADR-B-01-K01 ma 6 pytań; moduł ADR-B-01 ma 51 pytań.
