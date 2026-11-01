@@ -195,3 +195,14 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowe błędy:** wyjście z kabiny bez kamizelki; poleganie wyłącznie na światłach awaryjnych; ustawianie znaków kosztem wejścia w strefę zagrożenia lub ruch pojazdów.
 
 **Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
+
+
+### Ćwiczenie sytuacyjne — mały pożar komory silnika (ADR-B-0695)
+
+**Sytuacja:** Kierowca zauważa mały, początkowy pożar w komorze silnika. Ogień nie obejmuje przedziału ładunkowego.
+
+**Oczekiwana decyzja:** Kursant rozpoznaje ograniczony wyjątek z instrukcji pisemnych: gaśnicy można użyć, jeśli jest to właściwe i bezpieczne. Nie rozszerza tego wyjątku na pożar przedziału ładunkowego, którego załoga nie powinna gasić.
+
+**Typowe błędy:** twierdzenie, że nie wolno gasić żadnego pożaru pojazdu; gaszenie bez oceny bezpieczeństwa; pomylenie komory silnika z przedziałem ładunkowym.
+
+**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
