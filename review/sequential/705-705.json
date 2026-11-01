@@ -1,0 +1,59 @@
+{
+  "batch": "705-705",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0705",
+      "sequence": 705,
+      "exact_record_snapshot": {
+        "stem": "Przed wyjazdem kierowca sprawdza wyposażenie jednostki ADR. W kabinie są dwie osoby, ale tylko kierowca ma rękawice ochronne i okulary; drugi członek załogi nie ma żadnego z tych elementów. Co należy zrobić?",
+        "options": {
+          "A": "Pozostawić wyposażenie bez zmian, ponieważ jeden wspólny komplet można przekazywać między członkami załogi.",
+          "B": "Każdemu członkowi załogi zapewnić własne rękawice ochronne i ochronę oczu przed rozpoczęciem przewozu.",
+          "C": "Wyposażyć drugą osobę w rękawice, lecz ochronę oczu pozostawić wyłącznie kierowcy prowadzącemu pojazd."
+        },
+        "correct_option": "B",
+        "explanation": "Każdy członek załogi musi mieć własną parę rękawic ochronnych i ochronę oczu, więc wyposażenie jednej osoby nie wystarcza dla dwóch. Wspólny komplet nie zapewnia wymaganej ochrony obu osobom, a ograniczenie okularów do kierowcy pomija drugiego członka załogi. Uzupełnij braki przed rozpoczęciem przewozu. Podstawa: ADR 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2 — dla każdego członka załogi pojazdu: para rękawic ochronnych oraz ochrona oczu (np. okulary ochronne)",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 8.1.5.2 — protective gloves and eye protection for each vehicle crew member",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "Official Polish ADR 2025, 8.1.5.2: the unit must carry protective gloves and eye protection for each vehicle crew member. Exact clause checked in the Ministry's official Polish PDF; full question literal comparison and independent specialist review pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The provision expressly requires a pair of protective gloves and eye protection for each crew member. The question tests that each person needs their own set; sharing one set or limiting eye protection to the driver does not satisfy the wording.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "source_risk_note": "Official Polish clause 8.1.5.2 read; specialist confirmation and full literal review pending.",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}

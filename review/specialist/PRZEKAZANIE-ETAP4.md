@@ -1,3 +1,12 @@
+## Bieżąca migawka — etap 4x279 (01.11.2026)
+
+- Bank: 705 pytań ADR-B-0001–0705; wszystkie `needs_review`, 0 `verified`; SHA `c1e4a8bb7c44771246bedf691b528f5f43b07630`.
+- ADR-B-0705 — indywidualne rękawice ochronne i ochrona oczu dla każdego członka załogi; ADR 2025, 8.1.5.2.
+- Explanation 327 znaków; A/B/C 107/102/102; poprawna B nie jest najdłuższa.
+- Rozkład A/B/C: 238/248/219; „poprawna = jedyna najdłuższa”: 75/705 = 10,64%.
+- Snapshoty sequential/legal: 705-705; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x279-rekawice-ochrona-oczu-2026-11-01.md`.
+
 ## Bieżąca migawka — etap 4x278 (01.11.2026)
 
 - Bank: 704 pytania ADR-B-0001–0704; 704 `needs_review`, 0 `verified`; SHA `681b94b07ae6673fa120326cb2eba6423eb22957`.

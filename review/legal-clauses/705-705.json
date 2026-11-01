@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0705",
+  "date": "2026-11-01",
+  "scope": "ADR 2025, 8.1.5.2: each vehicle crew member must have a pair of protective gloves and eye protection. Targeted official Polish text checked; full literal comparison and independent specialist review pending.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "ministry_source": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0705",
+      "order": 705,
+      "clause": "ADR 2025, 8.1.5.2",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "question_snapshot": {
+        "id": "ADR-B-0705",
+        "module_id": "ADR-B-08",
+        "stem": "Przed wyjazdem kierowca sprawdza wyposażenie jednostki ADR. W kabinie są dwie osoby, ale tylko kierowca ma rękawice ochronne i okulary; drugi członek załogi nie ma żadnego z tych elementów. Co należy zrobić?",
+        "options": {
+          "A": "Pozostawić wyposażenie bez zmian, ponieważ jeden wspólny komplet można przekazywać między członkami załogi.",
+          "B": "Każdemu członkowi załogi zapewnić własne rękawice ochronne i ochronę oczu przed rozpoczęciem przewozu.",
+          "C": "Wyposażyć drugą osobę w rękawice, lecz ochronę oczu pozostawić wyłącznie kierowcy prowadzącemu pojazd."
+        },
+        "correct_option": "B",
+        "explanation": "Każdy członek załogi musi mieć własną parę rękawic ochronnych i ochronę oczu, więc wyposażenie jednej osoby nie wystarcza dla dwóch. Wspólny komplet nie zapewnia wymaganej ochrony obu osobom, a ograniczenie okularów do kierowcy pomija drugiego członka załogi. Uzupełnij braki przed rozpoczęciem przewozu. Podstawa: ADR 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2 — dla każdego członka załogi pojazdu: para rękawic ochronnych oraz ochrona oczu (np. okulary ochronne)",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 8.1.5.2 — protective gloves and eye protection for each vehicle crew member",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "The provision requires the listed personal protective equipment for each crew member; a single shared set is not available to both people as required."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 8.1.5.2 lists a pair of protective gloves and eye protection for each vehicle crew member."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "The requirement is not limited to the driver. Every crew member must have eye protection as well as gloves."
+        }
+      },
+      "notes_on_conditions": "Applies to each vehicle crew member where the ADR basic equipment requirement applies; the question does not imply that eye protection can be shared.",
+      "editorial_result": "Adds a crew-size and individual-allocation scenario. Existing questions cover glove and eye-protection types separately; this question checks that both items are available to every person in the crew.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+    }
+  ]
+}

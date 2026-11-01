@@ -156,3 +156,14 @@ Przygotuj dwie fikcyjne karty pojazdu i świadectwa. W jednym zestawie zgodne s�
 **Typowe błędy:** uznanie, że każdy klin jest uniwersalny; stosowanie dwóch małych klinów zamiast właściwego; pominięcie odrębnego klina dla każdego pojazdu.
 
 **Podstawa:** ADR 2025, 8.1.5.2. Ćwiczenie omawia się na sucho.
+
+
+## Ćwiczenie — wyposażenie każdego członka załogi (ADR-B-0705)
+
+**Sytuacja:** W pojeździe jadą dwie osoby, ale rękawice ochronne i okulary ma tylko kierowca.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że każdy członek załogi musi mieć własną parę rękawic ochronnych i ochronę oczu. Jednego zestawu nie można traktować jako wspólnego wyposażenia dwóch osób.
+
+**Typowe błędy:** uznanie, że wystarczy jeden zestaw w kabinie; wyposażenie tylko kierowcy; pominięcie ochrony oczu drugiej osoby.
+
+**Podstawa:** ADR 2025, 8.1.5.2. Ćwiczenie omawia się na sucho.
