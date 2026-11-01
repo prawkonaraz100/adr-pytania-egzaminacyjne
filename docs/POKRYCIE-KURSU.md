@@ -1,10 +1,19 @@
+## Bieżąca migawka — etap 4x271 (01.11.2026)
+
+- Bank podstawowy: 697 pytań ADR-B-0001–0697; wszystkie `needs_review`, 0 `verified`; SHA `1821851aee9c83c4b4e3197aa3e59594b93bb513`.
+- ADR-B-0697 do ADR-B-05-K09: ostrzeżenie osób postronnych z bezpiecznego miejsca bez przechodzenia przez rozlew; ADR 2025, 5.4.3.4, tom II, s. 270.
+- Explanation 400 znaków, 4 zdania; A/B/C 108/95/73; poprawna B jest pośrodku — nie jest ani najdłuższa, ani najkrótsza.
+- Rozkład prawidłowych opcji: A=237, B=241, C=219; poprawna = jedyna najdłuższa: 72/697 = 10,33%.
+- ADR-B-05-K09 ma 5 pytań; moduł ADR-B-05 ma 68 pytań. Snapshoty 697-697; egzamin próbny 001–005 zsynchronizowany.
+- Raport: `podstawowy/raporty/etap-4x271-ostrzezenie-z-bezpiecznego-miejsca-2026-11-01.md`.
+
 **Stan aktualny po etapie 4x270: 01.11.2026.**
 
 ## Bieżąca migawka — etap 4x270 (01.11.2026)
 
 - Bank: 696 pytań ADR-B-0001–0696; 696 `needs_review`, 0 `verified`; blob SHA `004cd974f7a402fa47407c6268ae7202b5ceb466`.
 - ADR-B-0696 do ADR-B-05-K07: sytuacyjne udostępnienie ratownikom znanych informacji i wskazanie położenia dokumentu bez powrotu kierowcy do zadymionej kabiny; ADR 5.4.3.4.
-- Explanation 401 znaków, 4 zdania; A/B/C 101/99/77; poprawna C nie jest ani najkrótsza, ani najdłuższa.
+- Explanation 401 znaków, 4 zdania; A/B/C 95/77/89; poprawna C jest pośrodku — nie jest ani najdłuższa, ani najkrótsza.
 - Rozkład prawidłowych opcji: A=237, B=240, C=219.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **72/696 = 10,34%**; maksimum działu to 13,95%.
 - ADR-B-05-K07 ma 5 pytań; moduł ADR-B-05 ma 67 pytań.
@@ -346,7 +355,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 67 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 68 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 58 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 44 | 0 | Lekcja + mapa pytań |
@@ -355,7 +364,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 44 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **696** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **697** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
