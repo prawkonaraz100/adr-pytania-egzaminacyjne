@@ -346,3 +346,10 @@ Powiązane pytanie dodane w etapie 4x264: **ADR-B-0690**.
 Jeżeli doszło do wypadku lub awarii, powiadom właściwe służby ratownicze i przekaż im możliwie wszystkie dostępne informacje o zdarzeniu oraz przewożonych towarach niebezpiecznych. Nie uzależniaj wezwania pomocy od wcześniejszej zgody dyspozytora przewoźnika ani od ustalenia pełnej przyczyny awarii. Podawaj sprawdzone fakty, a brakujące informacje określ jako nieznane; nie zgaduj i nie narażaj się, by je zdobyć. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
 
 Powiązane pytanie: **ADR-B-0691**.
+
+
+### Zmiana kierunku wiatru przy uwolnieniu oparów — ADR-B-0692
+
+Jeśli wiatr zmieni kierunek, miejsce, które wcześniej było po stronie nawietrznej, może znaleźć się na drodze przemieszczania się oparów. Ponownie oceń kierunek wiatru i, jeżeli jest to bezpieczne i wykonalne, oddal się tak, aby pozostać po stronie nawietrznej. Nie przechodź przez chmurę i nie podchodź do wycieku, by obserwować jego źródło. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+
+Powiązane pytanie: **ADR-B-0692**.
