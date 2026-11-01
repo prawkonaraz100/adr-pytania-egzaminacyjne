@@ -6,7 +6,7 @@
 - ADR-B-0699 do ADR-B-08-K04: dobór rozmiaru klina do dopuszczalnej masy całkowitej i średnicy kół; ADR 2025, 8.1.5.2.
 - Explanation 331 znaków; A/B/C 108/105/103; poprawna B nie jest najdłuższa.
 - Rozkład prawidłowych opcji: A=237, B=243, C=219.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: 73/699 = 10,44%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **73/699 = 10,44%**; maksimum działu to 13,95%.
 - ADR-B-08-K04 ma 5 pytań; moduł ADR-B-08 ma 45 pytań.
 - Raport: `podstawowy/raporty/etap-4x273-dobor-klina-pod-kolo-2026-11-01.md`.
 
