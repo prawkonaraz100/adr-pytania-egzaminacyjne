@@ -278,3 +278,12 @@ Wybierz scenariusz dla działu ADR-B-06 w [mapie ćwiczeń](../praktyka/scenariu
 
 **Status:** `needs_review`; weryfikacja pełnego polskiego ADR 2025 i niezależna ocena specjalisty pozostają otwarte.
  
+
+
+### Trwałość i mocowanie tablicy pomarańczowej — ADR-B-06-K07
+
+Tablica pomarańczowa musi być odblaskowa, wykonana z materiału odpornego na warunki pogodowe i zapewniać trwałe oznaczenie. Nie może odpaść od mocowania podczas 15 minut objęcia ogniem; sama czytelność w chwili kontroli nie wystarcza.
+
+**Przykład:** tablica ma prawidłowy kolor i wymiary, ale jej uchwyt jest skorodowany i może puścić podczas pożaru. Pojazd wymaga naprawy mocowania przed przewozem.
+
+**Ćwiczenie:** ADR-B-0685. Podstawa: ADR 5.3.2.2.1.

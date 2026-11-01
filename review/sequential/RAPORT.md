@@ -113,9 +113,9 @@ Bank zawiera 645 pytań (`ADR-B-0001`–`ADR-B-0645`), wszystkie `needs_review`.
 - Cztery rekordy mają zapisane celowane porównanie zakresu ADR 8.3.3 z oficjalnym polskim tekstem; pełne porównanie pytań i niezależna recenzja specjalisty pozostają otwarte. Pole polish_official_text_fully_compared pozostaje false; wszystkie pytania needs_review.
 
 
-## Bieżąca migawka — etap 4x258 (01.11.2026)
+## Bieżąca migawka — etap 4x259 (01.11.2026)
 
-Bank: 684 pytań, wszystkie needs_review, 0 verified; SHA `c8c1f0779bba936b20d6a8f2c9dc8be80aa6fe69`. Najnowszy snapshot: `684-684.json`.
+Bank: 685 pytań, wszystkie needs_review, 0 verified; SHA `a456d5fdab0c686b1c657be3f213ac873c491ae4`. Najnowszy snapshot: `685-685.json`.
 
 ## Etap 4x258 — ADR-B-0684 (01.11.2026)
 
