@@ -16,7 +16,7 @@ Kompetencja miała cztery pytania (ADR-B-0109, 0185, 0229 i 0630), które powtar
 - `ADR-B-0696`: po awarii dokument przewozowy pozostał w kabinie, do której zbliża się dym; przyjeżdżają ratownicy.
 - Klucz: **C** — pozostać w bezpiecznym miejscu, podać znane dane i wskazać położenie dokumentu.
 - Explanation: **401 znaków, 4 zdania**; wyjaśnia dostępność dokumentów, warunek bezpieczeństwa, mylące odpowiedzi i podstawę ADR.
-- Długości A/B/C: **101/99/77** znaków; poprawna C nie jest ani najdłuższa, ani najkrótsza.
+- Długości A/B/C: **95/77/89** znaków; poprawna C jest pośrodku — nie jest ani najdłuższa, ani najkrótsza.
 - Audyt A/B/C: A — błędna, bo wymaga wejścia w dym; B — błędna, bo zataja dostępne informacje; C — poprawna, bo przekazuje ratownikom dane i lokalizację dokumentu bez narażania kierowcy.
 - Status: `needs_review`; nic nie oznaczono jako `verified`.
 
@@ -31,7 +31,7 @@ Właściwe fragmenty punktu zostały sprawdzone w oficjalnym polskim tekście AD
 
 ## Synchronizacja #646
 
-- Bank po dodaniu: **696** pytań, ADR-B-0001–0696; SHA banku: `afaf8c6083b2057c5443f38f30f0c12f0d7d5b7b`.
+- Bank po dodaniu: **696** pytań, ADR-B-0001–0696; SHA banku: `004cd974f7a402fa47407c6268ae7202b5ceb466`.
 - Kompetencja `ADR-B-05-K07` otrzymała piąte pytanie.
 - Klucze i warianty egzaminów próbnych 001–005 odświeżono do SHA bieżącego banku: `afaf8c6083b2057c5443f38f30f0c12f0d7d5b7b`.
 - Snapshoty: `review/sequential/696-696.json`, `review/legal-clauses/696-696.json`; ledger, indeks specjalisty i manifest pakietu dołączone.
