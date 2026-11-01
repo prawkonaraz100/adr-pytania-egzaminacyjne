@@ -115,7 +115,7 @@ Bank zawiera 645 pytań (`ADR-B-0001`–`ADR-B-0645`), wszystkie `needs_review`.
 
 ## Bieżąca migawka — etap 4x260 (01.11.2026)
 
-Bank: 686 pytań, wszystkie needs_review, 0 verified; SHA `f5f21db12588f8b0451c27a1a82783982a731133`. Najnowszy snapshot: `686-686.json`.
+Bank: 686 pytań, wszystkie needs_review, 0 verified; SHA `f44c2fdc0e99ccbb1311d61b7b4bc2dadf1a907d`. Najnowszy snapshot: `686-686.json`.
 
 ## Etap 4x258 — ADR-B-0684 (01.11.2026)
 
