@@ -367,3 +367,10 @@ Powiązane pytanie: **ADR-B-0693**.
 Instrukcje pisemne rozróżniają dwa przypadki. Jeśli jest to właściwe i bezpieczne, można użyć gaśnicy przy małym lub początkowym pożarze opon, hamulców albo komory silnika. Nie oznacza to, że załoga ma gasić każdy pożar: pożaru obejmującego przedział ładunkowy członkowie załogi nie powinni gasić. Jeśli sytuacja jest niebezpieczna, oddal się i wezwij służby. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
 
 Powiązane pytanie: **ADR-B-0695**.
+
+
+### Dokumenty dla ratowników bez powrotu do strefy zagrożenia — ADR-B-0696
+
+Dokumenty przewozowe powinny być łatwo dostępne dla służb ratowniczych po ich przybyciu. Nie oznacza to jednak, że kierowca ma wracać po nie do kabiny wypełnionej dymem. Pozostań w bezpiecznym miejscu, przekaż ratownikom informacje, które już znasz, i wskaż, gdzie znajduje się dokument. Każde działanie z instrukcji wykonuj tylko wtedy, gdy jest możliwe i bezpieczne. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+
+Powiązane pytanie: **ADR-B-0696**.
