@@ -1,0 +1,53 @@
+{
+  "batch": "689-689",
+  "date": "2026-11-01",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0689",
+      "sequence": 689,
+      "exact_record_snapshot": {
+        "stem": "Kierowca odbiera opakowanie zbiorcze z jedną sztuką przesyłki ADR. Folia całkowicie zasłania jej numer UN i nalepki zagrożeń. Jak należy oznakować opakowanie zbiorcze przed przewozem?",
+        "options": {
+          "A": "Umieścić wyłącznie napis „OVERPACK”, ponieważ właściwy numer UN i nalepki znajdują się na opakowaniu wewnętrznym, nawet jeśli nie są widoczne.",
+          "B": "Umieścić napis „OVERPACK” oraz odtworzyć na zewnątrz wymagany numer UN i pozostałe oznaczenia oraz nalepki, których nie widać.",
+          "C": "Pozostawić opakowanie bez dodatkowych oznaczeń, jeśli numer UN i nalepki są podane w dokumencie przewozowym."
+        },
+        "correct_option": "B",
+        "explanation": "Gdy folia zasłania oznaczenia wszystkich niebezpiecznych towarów w opakowaniu zbiorczym, osoby obsługujące przesyłkę nie mogą ich odczytać. ADR wymaga wtedy napisu „OVERPACK” oraz umieszczenia na zewnątrz numeru UN i pozostałych wymaganych oznaczeń oraz nalepek, których nie widać. Sam napis nie zastępuje oznakowania zawartości, a dokument przewozowy nie zastępuje znaków na opakowaniu zbiorczym. Podstawa: ADR 5.1.2.1(a)(i)–(ii).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.1.2.1(a)(i)–(ii) — gdy wymagane oznaczenia i nalepki wszystkich towarów nie są widoczne, opakowanie zbiorcze oznacza się napisem OVERPACK oraz numerem UN i innymi wymaganymi oznaczeniami i nalepkami",
+            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, 5.1.2.1(a)(i)–(ii)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 official Polish Ministry Volume II PDF and ADR 2025 text identify 5.1.2.1(a)(i)–(ii): if marks and labels representative of all dangerous goods in an overpack are not visible, mark OVERPACK and apply UN number and other required marks/labels for each item; full Gazette literal comparison and independent specialist approval pending",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "ADR 5.1.2.1(a) requires the OVERPACK mark and reproduction of the UN number and other required marks/labels when those representative marks and labels are not visible.",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "source_risk_note": "Official Ministry of Infrastructure ADR 2025 Polish Volume II PDF and ADR 2025 text identified; exact full-text comparison against Dz.U. 2025 poz. 642 and independent specialist review remain pending."
+    }
+  ]
+}
