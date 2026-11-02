@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x287: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x287 (02.11.2026)
+
+- Bank: 713 pytań ADR-B-0001–0713; wszystkie `needs_review`, 0 `verified`; SHA `f308b1555c50d3f657c2d753c81273bc56dda1de`.
+- ADR-B-0713 do ADR-B-07-K07: odpowiedzialność umowna za opóźnienie przewozu; ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 471.
+- Explanation 475 znaków, 4 zdania; A/B/C 121/126/108; poprawna B nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=238, B=255, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/713 = 10,52%**; maksimum działu pozostaje poniżej 18%.
+- ADR-B-07-K07 ma 5 pytań; moduł ADR-B-07 ma 52 pytania.
+- Klucze i warianty 001–005 wskazują aktualny SHA banku; snapshoty sequential/legal 713-713; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x287-odpowiedzialnosc-umowna-opoznienie-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x286: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x286 (02.11.2026)
@@ -548,14 +561,14 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 72 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
-| ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
+| ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **712** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **713** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
