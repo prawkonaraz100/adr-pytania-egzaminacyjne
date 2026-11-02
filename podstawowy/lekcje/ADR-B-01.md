@@ -280,3 +280,8 @@ W ADR jednostką transportową jest pojazd samochodowy bez przyczepy albo zespó
 ### Firmowe potwierdzenie a zaświadczenie ADR kierowcy
 
 Jeżeli przewóz wymaga zaświadczenia ADR, kierowca nie może zastąpić go kartką od pracodawcy potwierdzającą udział w szkoleniu. Wymagany dokument wydaje właściwa władza po spełnieniu warunków szkolenia i egzaminu. Lista obecności i zgoda firmy nie potwierdzają zdania egzaminu. Powiązane pytanie: ADR-B-0719. Podstawa: ADR 2025, 8.2.1.1.
+
+
+### Zaopatrzenie własnej firmy a wyłączenie dla przewozu pomocniczego
+
+Przewóz materiału bezpośrednio do naprawy na miejscu pracy może spełniać warunki wyłączenia z ADR 1.1.3.1(c). Inaczej jest, gdy firma odbiera dostawę na zapas do magazynu: to zaopatrzenie, które jest wyłączone z zakresu tego przepisu. Samo zachowanie limitów 450 litrów na opakowanie i 1.1.3.6 nie wystarcza do zastosowania wyłączenia dla działalności pomocniczej. Osobno należy ocenić ewentualne zwolnienie ilościowe. Powiązane pytanie: ADR-B-0720. Podstawa: ADR 2025, 1.1.3.1(c) i 1.1.3.6.

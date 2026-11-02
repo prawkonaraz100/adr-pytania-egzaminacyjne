@@ -1,3 +1,17 @@
+**Stan aktualny po etapie 4x294: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x294
+
+- Bank: 720 `needs_review`, 0 `verified` (ADR-B-0001–0720); SHA `ea8fcef906861d4d80e88b19d5ef81a9c4203b21`.
+- ADR-B-0720 do ADR-B-01-K04: wyłączenie dla przewozu pomocniczego nie obejmuje zaopatrzenia firmy; ADR 2025, 1.1.3.1(c).
+- Explanation 405 znaków, 4 zdania; A/B/C 116/115/114; poprawna A nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=241, B=258, C=221.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/720 = 10,69%**; maksimum działu to 13,95%.
+- ADR-B-01-K04 ma 6 pytań; moduł ADR-B-01 ma 53 pytania.
+- **Kompetencje teoretyczne z mniej niż 6 pytaniami: 60** (3 kompetencje praktyczne pominięte; pełna lista w raporcie partii).
+- Klucze i warianty 001–005, snapshoty sequential/legal 720-720, SHA w pakiecie specjalisty; 0 zatwierdzeń.
+- Raport `podstawowy/raporty/etap-4x294-maszyny-urzadzenia-wylaczenie-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x293: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x293
@@ -635,7 +649,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
-| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
+| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 53 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
@@ -648,7 +662,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **719** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **720** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

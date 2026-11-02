@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0720",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 1.1.3.1(c): company supply is not ancillary enterprise carriage",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0720",
+      "order": 720,
+      "clause": "ADR 2025, 1.1.3.1(c)",
+      "question_snapshot": {
+        "id": "ADR-B-0720",
+        "module_id": "ADR-B-01",
+        "stem": "Firma serwisowa odbiera od dostawcy 200 litrów towaru niebezpiecznego i wiezie je do własnego magazynu na zapas do przyszłych napraw. Wszystkie opakowania mają poniżej 450 litrów, a ilość mieści się w limitach 1.1.3.6. Czy przewóz korzysta z wyłączenia dla czynności pomocniczej firmy z ADR 1.1.3.1(c)?",
+        "options": {
+          "A": "Tak, bo firma zajmuje się naprawami, a ilości mieszczą się w obu limitach przewidzianych dla przewozów pomocniczych.",
+          "B": "Nie, bo przewóz w celu zaopatrzenia własnego magazynu nie jest objęty tym wyłączeniem dla działalności pomocniczej.",
+          "C": "Tak, bo każda dostawa do własnego magazynu jest przewozem pomocniczym, jeśli opakowania mają mniej niż 450 litrów."
+        },
+        "correct_option": "B",
+        "explanation": "To jest zaopatrzenie firmy: towar trafia do magazynu na przyszłe naprawy, a nie bezpośrednio na miejsce wykonywanej pracy. Wyłączenie dla przewozu pomocniczego nie obejmuje zaopatrzenia ani dystrybucji, nawet gdy opakowania i ilości mieszczą się w limitach. Nie oznacza to automatycznie pełnych wymagań ADR — ewentualne inne zwolnienia, np. z 1.1.3.6, trzeba ocenić osobno. Podstawa: ADR 2025, 1.1.3.1(c).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.1(c)",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "The packaging-size and total-quantity limits alone do not make the company's own supply journey ancillary to its business."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 1.1.3.1(c) explicitly excludes carriage for the enterprise's supply and internal or external distribution from this exemption."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Transport to replenish the company's warehouse remains supply and is expressly outside this ancillary-carriage exemption."
+        }
+      },
+      "notes_on_conditions": "The question only rejects exemption 1.1.3.1(c) for company supply; eligibility for a separate exemption under 1.1.3.6 must be assessed on its own conditions.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
