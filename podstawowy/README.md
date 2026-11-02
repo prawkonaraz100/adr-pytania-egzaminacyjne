@@ -11,7 +11,7 @@
 - Klucze i warianty 001–005 zgodne z SHA banku; snapshoty sequential/legal 712-712; formalne zatwierdzenia: 0.
 - Raport: `podstawowy/raporty/etap-4x286-pierwsza-pomoc-bezpieczna-scena-2026-11-02.md`.
 
-**Stan aktualny po etapie 4x286: 02.11.2026.**
+**Stan historyczny po etapie 4x285: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x285 (02.11.2026)
 
