@@ -805,4 +805,4 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0712 | ADR-B-05 | ADR-B-05-K11 | Po kolizji kierowca zabezpieczył miejsce i upewnił się, że nie ma wycieku ani oparów. Kolega jest przytomny, ale ma krwawiącą ranę przedramienia. Jak powinien udzielić podstawowej pomocy? | B | ADR 2025, 8.2.2.3.2(e) | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-| ADR-B-0713 | ADR-B-07 | Przewoźnik nie dotrzymuje terminu z powodu nagłego zamknięcia drogi; ogólna odpowiedzialność umowna | B | ADR 2025, 8.2.2.3.2(k); KC art. 471 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0713 | ADR-B-07 | ADR-B-07-K07 | Przewoźnik zobowiązał się dostarczyć ładunek do odbiorcy w określonym terminie. W drodze służby nagle zamknęły drogę po osunięciu ziemi, a bezpieczny objazd nie pozwalał dotrzeć na czas. Odbiorca żąda odszkodowania za opóźnienie. Które stwierdzenie najlepiej oddaje ogólną zasadę odpowiedzialności umownej? | B | ADR 2025, 8.2.2.3.2(k); KC art. 471 | — | NIEROZSTRZYGNIĘTE | needs_review |
