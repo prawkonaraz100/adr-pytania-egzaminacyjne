@@ -236,3 +236,8 @@ ADR 8.3.3 zabrania kierowcy i pomocnikowi kierowcy otwierania sztuk przesyłek z
 ### Zakaz palenia podczas przeładunku dotyczy także pracownika magazynu — ADR-B-0736
 
 Podczas czynności ładunkowych nie wolno palić w pobliżu pojazdu ani wewnątrz niego. Zakaz obejmuje także e-papierosy i podobne urządzenia. Nie jest ograniczony wyłącznie do kierowcy: osoba wykonująca przeładunek obok pojazdu również nie może palić. Podstawa: ADR 2025, 8.3.5.
+
+
+### Zgoda odbiorcy nie pozwala otworzyć sztuki przesyłki ADR — ADR-B-0737
+
+Kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłek zawierających towary niebezpieczne. Prośba odbiorcy, jego obecność ani pisemna zgoda nie tworzą wyjątku od zakazu. Jeśli trzeba wyjaśnić zawartość lub rozbieżność, należy zrobić to z nadawcą lub odbiorcą bez otwierania paczki. Podstawa: ADR 2025, 8.3.3.
