@@ -1,3 +1,14 @@
+**Stan aktualny po etapie 4x296: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x296
+
+- Bank: 722 `needs_review`, 0 `verified` (ADR-B-0001–0722); SHA `eaf7a24acf1001dd3fc1d220a229808424a9c1df`.
+- ADR-B-0722 do ADR-B-02-K03: znaczenie temperatury zapłonu przy przeładunku cieczy klasy 3 (ADR 2025, 2.2.3.1.1).
+- Rozkład prawidłowych opcji: A=241, B=259, C=222.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/722 = 10,66%**; maksimum działu to 13,95%.
+- **Kompetencje teoretyczne z mniej niż 6 pytaniami: 58** (praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x296-klasa3-temperatura-zaplonu-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x295: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x295
@@ -664,7 +675,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 80 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 76 | 0 | Lekcja + mapa pytań |
@@ -676,7 +687,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **721** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **722** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

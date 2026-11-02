@@ -1,0 +1,50 @@
+{
+  "batch": "722-722",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0722",
+      "sequence": 722,
+      "exact_record_snapshot": {
+        "stem": "Kierowca ma przewieźć ciecz, której dokumentacja podaje temperaturę zapłonu 18°C. Na placu załadunkowym jest tylko 8°C. Jak powinien rozumieć ryzyko pożaru przy otwieraniu opakowania?",
+        "options": {
+          "A": "Chłodniejsze powietrze usuwa zagrożenie zapłonem, więc kontrola źródeł ognia nie jest konieczna.",
+          "B": "Ciecz nadal wymaga ostrożności: jej pary mogą się zapalić, dlatego trzeba unikać źródeł zapłonu.",
+          "C": "Temperatura zapłonu dotyczy wyłącznie wrzenia cieczy, więc nie ma znaczenia przy załadunku."
+        },
+        "correct_option": "B",
+        "explanation": "Temperatura zapłonu 18°C informuje, że ciecz może tworzyć palne pary już w stosunkowo niskiej temperaturze. Chłodny poranek nie daje kierowcy prawa do lekceważenia źródeł zapłonu, a temperatura zapłonu nie oznacza temperatury wrzenia. Dlatego przy obsłudze takiego ładunku trzeba zachować ostrożność wobec ognia i iskier. Podstawa: ADR 2025, 2.2.3.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.3.1.1",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 2.2.3.1.1 — kryteria cieczy zapalnych i temperatura zapłonu",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "B jest poprawne; A i C błędne. Pełne porównanie polskiego tekstu pozostaje do wykonania.",
+      "source_risk_note": "Przykład edukacyjny; ostateczna klasyfikacja wymaga danych o substancji i wyjątków ADR 2.2.3.",
+      "expert_review_priority": "standard_expert_review",
+      "correct_option": "B"
+    }
+  ]
+}
