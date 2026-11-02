@@ -23,6 +23,13 @@ Kompetencja ADR-B-13-K06 („Dodatkowy wpis w transporcie kombinowanym”) miał
 - ADR 2025, 5.4.1.1.7 — dodatkowy wpis w dokumencie dla przewozu na warunkach 1.1.4.2.1.
 - Oficjalny tekst: https://eli.gov.pl/api/acts/DU/2025/642/text.pdf
 
+## Metryki banku po dodaniu pytania
+
+- Bank: 714 pytań; wszystkie `needs_review`, 0 `verified`.
+- SHA banku: `22c93b8abec0abd002fff821a873bde1776d0f56`.
+- Rozkład odpowiedzi A/B/C: 239/255/220.
+- Poprawna odpowiedź będąca jedyną najdłuższą: 76/714 = 10,64%; maksimum modułu: 13,95% (limit 18%).
+
 ## Status i ograniczenia
 Pytanie pozostaje `needs_review`. Nie przeprowadzono pełnego literalnego porównania ani niezależnej recenzji specjalisty. Nic nie oznaczono jako `verified`.
 
