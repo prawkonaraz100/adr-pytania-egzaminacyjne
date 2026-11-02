@@ -250,3 +250,16 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowe błędy:** wyrzucenie do zwykłego kosza; pozostawienie rzeczy przy drodze; przewiezienie skażonych rzeczy do kabiny lub przekazanie ich innej osobie bez ostrzeżenia.
 
 **Podstawa:** ADR 2025, 5.4.3.4. Ćwiczenie omawia się na sucho.
+
+
+## Ćwiczenie instruktorskie — pierwsza pomoc po zabezpieczeniu miejsca (ADR-B-0712)
+
+**Cel:** kursant odróżnia ocenę bezpieczeństwa miejsca od czynności pierwszej pomocy wykonywanych po usunięciu bezpośredniego zagrożenia.
+
+**Przebieg:** użyj fikcyjnej karty zdarzenia: pojazd zatrzymany w bezpiecznym miejscu, brak wycieku i oparów, poszkodowany przytomny, krwawiąca rana przedramienia. Poproś kursanta, aby opisał kolejność działań: zabezpieczenie siebie, założenie rękawiczek, osłonięcie rany jałowym opatrunkiem i ucisk, wezwanie 112 przy silnym lub nieustającym krwawieniu oraz wykonywanie poleceń dyspozytora.
+
+**Kryteria obserwacji:** kursant potwierdza bezpieczeństwo miejsca przed podejściem, nie dotyka krwi gołą dłonią, nie podaje jedzenia ani napoju i nie przekracza granic swojego przeszkolenia.
+
+**Typowy błąd:** utożsamianie pierwszej pomocy z wejściem w strefę niebezpieczną albo odwlekanie prostych czynności do przyjazdu służb mimo bezpiecznych warunków.
+
+**Podstawa:** ADR 2025, 8.2.2.3.2(e) — pierwsza pomoc jako element zakresu kursu podstawowego. Szczegółowe procedury należy ćwiczyć według aktualnych zasad pierwszej pomocy i kompetencji instruktora. Ćwiczenie symulacyjne; nie potwierdza rzeczywistego zaliczenia praktyki.
