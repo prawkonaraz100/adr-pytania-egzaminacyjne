@@ -13,7 +13,7 @@ Dodano jedno pytanie: **ADR-B-0719** do kompetencji **ADR-B-01-K03** („Kiedy k
 
 Kierowca ma rozpocząć przewóz wymagający zaświadczenia ADR. Ukończył szkolenie zorganizowane przez pracodawcę i otrzymał firmowe potwierdzenie udziału, ale nie ma zaświadczenia ADR wydanego przez właściwą władzę. Czy może ruszyć w trasę?
 
-- A. Nie; firmowe potwierdzenie nie zastępuje zaświadczenia ADR właściwej władzy.
+- A. Nie; firmowe potwierdzenie udziału w szkoleniu nie zastępuje zaświadczenia ADR właściwej władzy.
 - B. Tak; wystarczy lista obecności z kursu oraz pisemna zgoda pracodawcy na wykonanie przewozu.
 - C. Tak; prawo jazdy odpowiedniej kategorii i dokument przewozowy potwierdzają wymagane przygotowanie ADR.
 
@@ -23,7 +23,7 @@ Kierowca ma rozpocząć przewóz wymagający zaświadczenia ADR. Ukończył szko
 
 Nie może rozpocząć takiego przewozu, ponieważ samo szkolenie w firmie ani potwierdzenie obecności nie dają wymaganego uprawnienia. Kierowca musi mieć zaświadczenie ADR wydane przez właściwą władzę, które potwierdza ukończenie kursu i zdanie egzaminu. Zgoda pracodawcy, lista obecności i prawo jazdy nie zastępują tego dokumentu. Podstawa: ADR 2025, 8.2.1.1.
 
-Długość explanation: 357 znaków, 4 zdania. Długości odpowiedzi A/B/C: 76/91/102 znaki. Poprawna odpowiedź nie jest najdłuższa.
+Długość explanation: 357 znaków, 4 zdania. Długości odpowiedzi A/B/C: 96/91/102 znaki. Poprawna odpowiedź nie jest najdłuższa.
 
 ## Podstawa prawna i audyt A/B/C
 
