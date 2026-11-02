@@ -151,3 +151,16 @@ Pokaż kursantowi dwie fikcyjne latarki: jedną z metalową powierzchnią mogąc
 ### Ćwiczenie: kontrola połączenia ABS w zestawie pojazdów
 
 Na schemacie zestawu z ABS i przyczepą o maksymalnej masie przekraczającej 3,5 t zaznacz rozłączone złącze elektryczne ABS. Poproś kursanta, aby wyjaśnił, czy może kontynuować przewóz, jeśli hamulce zasadnicze działają. Kryterium: kursant wskazuje, że połączenie wymagane przez ADR musi pozostawać podłączone przez cały przewóz i przed dalszą jazdą należy je przywrócić. Pytanie: ADR-B-0664 (needs_review). Podstawa: ADR 8.3.8 i 9.2.2.6.
+
+
+## Zadanie instruktorskie — opóźnienie po nagłym zamknięciu drogi (ADR-B-0713)
+
+**Cel:** kursant rozumie, że samo opóźnienie nie przesądza automatycznie o odpowiedzialności kontraktowej; trzeba ustalić przyczynę i okoliczności.
+
+**Przebieg:** przedstaw kartę sytuacji: przewoźnik ma dostarczyć ładunek w określonym terminie, ale służby zamykają drogę po osunięciu ziemi, a bezpieczny objazd nie pozwala dojechać na czas. Odbiorca żąda odszkodowania. Poproś kursanta o wskazanie informacji, które kierowca powinien przekazać dyspozytorowi: czas i miejsce zamknięcia, komunikat służb, dostępne objazdy oraz przewidywany czas opóźnienia.
+
+**Kryteria obserwacji:** kursant nie przesądza automatycznie o odpowiedzialności przewoźnika ani kierowcy; wskazuje potrzebę ustalenia przyczyny, obowiązków umownych i okoliczności, za które dłużnik odpowiada.
+
+**Typowy błąd:** uznanie, że każde opóźnienie zawsze rodzi obowiązek odszkodowania albo że odpowiada wyłącznie kierowca.
+
+**Podstawa:** ADR 2025, 8.2.2.3.2(k) — ogólne informacje o odpowiedzialności cywilnej w programie kursu podstawowego; Kodeks cywilny, art. 471. Zadanie omawia ogólną zasadę, nie rozstrzyga konkretnego sporu.
