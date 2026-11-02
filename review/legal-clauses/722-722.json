@@ -33,19 +33,19 @@
         "reviewer": null,
         "image": null
       },
-      "observed_answer_key": "C",
+      "observed_answer_key": "B",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Identifying the UN number and proper shipping name is not enough if the row links to a special provision with further conditions."
+          "rationale": "Chłodniejsze powietrze nie zwalnia z ostrożności przy palnej cieczy."
         },
         "B": {
-          "expected_correct": false,
-          "rationale": "Correct packaging and a document do not waive the need to check a listed special provision's applicability."
+          "expected_correct": true,
+          "rationale": "Temperatura zapłonu 18°C uzasadnia unikanie źródeł zapłonu także w chłodniejszym otoczeniu."
         },
         "C": {
-          "expected_correct": true,
-          "rationale": "Column (6) identifies special provisions whose contents in chapter 3.3 must be consulted for the relevant entry."
+          "expected_correct": false,
+          "rationale": "Temperatura zapłonu nie jest temperaturą wrzenia."
         }
       },
       "notes_on_conditions": "Temperatura zapłonu to nie temperatura wrzenia; klasyfikacja musi uwzględniać kryteria i wyjątki 2.2.3.",
