@@ -1,3 +1,12 @@
+**Bieżący bank 4x312:** 738 pytań, 738 `needs_review`, 0 `verified`; SHA `c11732a07bf6b418107b2bf6010a184f3cf112df`. Rejestr `REJESTR-AKTUALNY-0001-0738.md`. Kompetencje teorii <6: **42**.
+
+## Bieżąca migawka — etap 4x312
+
+- ADR-B-0738 do ADR-B-04-K04; zakaz włączania urządzeń elektrycznych przy możliwych palnych oparach.
+- Podstawa: ADR 2025, 5.4.3.4.
+- Bank 738, zero `verified`; licznik kompetencji teorii <6: **42**.
+- Raport: `podstawowy/raporty/etap-4x312-unikanie-zrodel-zaplonu-2026-11-02.md`.
+
 **Bieżący bank 4x311:** 737 pytań, 737 `needs_review`, 0 `verified`; SHA `fd06cfd4d0d67d5285afa71981e1b2e448d71143`. Rejestr `REJESTR-AKTUALNY-0001-0737.md`. Kompetencje teorii <6: **43**.
 
 ## Bieżąca migawka — etap 4x311
