@@ -1,12 +1,23 @@
+**Stan na 02.11.2026, etap 4x284**
+
+## Bieżąca migawka — etap 4x284 (02.11.2026)
+
+- Bank: 710 `needs_review`, 0 `verified` (ADR-B-0001–0710); SHA `40abca10d9e69a22bdc13523124ca00c43fb5236`.
+- ADR-B-0710 do ADR-B-08-K07: dobór wyposażenia według numerów nalepek z dokumentu przewozowego; ADR 2025, 8.1.5.1–8.1.5.2.
+- Explanation 373 znaki; A/B/C 121/132/117; poprawna C nie jest najdłuższa.
+- Rozkład A/B/C: 238/252/220; „poprawna = jedyna najdłuższa”: 75/710 = 10,56%.
+- ADR-B-08-K07 ma 8 pytań; moduł ADR-B-08 ma 47 pytań.
+- Raport: `podstawowy/raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md`.
+
 **Stan na 01.11.2026, etap 4x283**
 
 ## Bieżąca migawka — etap 4x283 (01.11.2026)
 
-- Bank: 709 `needs_review`, 0 `verified` (ADR-B-0001–0709); SHA `733efd0b63dc4b0048a03e53635faacd542ad6d2`.
-- ADR-B-0709 do ADR-B-01-K01: definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
+- Bank: 710 `needs_review`, 0 `verified` (ADR-B-0001–0710); SHA `733efd0b63dc4b0048a03e53635faacd542ad6d2`.
+- ADR-B-0710 do ADR-B-08-K07: definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
 - Explanation 305 znaków; A/B/C 108/102/101; poprawna B nie jest najdłuższa.
-- Rozkład A/B/C: 238/252/219; „poprawna = jedyna najdłuższa”: 75/709 = 10,58%.
-- ADR-B-01-K01 ma 6 pytań; moduł ADR-B-01 ma 51 pytań.
+- Rozkład A/B/C: 238/252/219; „poprawna = jedyna najdłuższa”: 75/710 = 10,58%.
+- ADR-B-08-K07 ma 6 pytań; moduł ADR-B-01 ma 51 pytań.
 - Raport: `podstawowy/raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md`.
 
 **Stan na 01.11.2026, etap 4x282**
@@ -391,7 +402,7 @@
 **Stan na 31.10.2026, etap 4x234**
 
 - Bank: 659 pytań; 659 `needs_review`, 0 `verified`; blob SHA `edef07df45541eeea77726bb1d6f93d00d853627`.
-- Dodano ADR-B-0659 do ADR-B-01-K01: zakres załączników A i B ADR. Explanation 426 znaków, 4 zdania; A/B/C 107/159/159 znaków.
+- Dodano ADR-B-0659 do ADR-B-08-K07: zakres załączników A i B ADR. Explanation 426 znaków, 4 zdania; A/B/C 107/159/159 znaków.
 - Rozkład odpowiedzi A/B/C: 227/220/212. „Poprawna = jedyna najdłuższa”: 72/659 = 10,93%; maksimum działu 13,95%.
 - Raport: `raporty/etap-4x234-zalaczniki-a-b-zakres-2026-10-31.md`.
 
@@ -509,9 +520,9 @@
 - [Etap 4x155 — luki praktyczne i pytania ADR-B-0646–0651](raporty/etap-4x155-luki-praktyczne-0646-0651-2026-10-29.md): sześć scenariuszowych pytań do ćwiczeń z gaśnicy, pierwszej pomocy i wypadku; nie zastępują praktyki.
 
 - [Etap 4x154 — luki praktyczne i pytania ADR-B-0640–0645](raporty/etap-4x154-luki-praktyczne-0640-0645-2026-10-29.md): sześć pytań wspierających bezpieczne decyzje; nie zastępują instruktażu praktycznego.
-- [Etap 4x153 — luka kompetencji i pytanie ADR-B-0639](raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md): uzupełniono najmniej pokrytą kompetencję teoretyczną ADR-B-01-K01; wszystkie snapshoty i referencje banku zsynchronizowane.
+- [Etap 4x153 — luka kompetencji i pytanie ADR-B-0639](raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md): uzupełniono najmniej pokrytą kompetencję teoretyczną ADR-B-08-K07; wszystkie snapshoty i referencje banku zsynchronizowane.
 
-- [Etap 4x153 — luka kompetencji i pytanie ADR-B-0639](raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md): uzupełniono najmniej pokrytą kompetencję teoretyczną ADR-B-01-K01; wszystkie snapshoty i referencje banku zsynchronizowane.
+- [Etap 4x153 — luka kompetencji i pytanie ADR-B-0639](raporty/etap-4x153-luka-kompetencji-ramy-adr-0639-2026-10-29.md): uzupełniono najmniej pokrytą kompetencję teoretyczną ADR-B-08-K07; wszystkie snapshoty i referencje banku zsynchronizowane.
 - [Etap 4x152 — audyt referencji banku](raporty/etap-4x152-audyt-referencji-banku-2026-10-29.md): 10/10 plików egzaminów wskazywało aktualny blob; poprawiono manifest specjalisty.
 - [Etap 4x151 — zbiorcze podsumowanie explanation 0001–0638](raporty/etap-4x151-podsumowanie-explanation-0001-0638-2026-10-29.md): 5 wyjaśnień przepisanych w etapach 4x139–4x150.
 - [Etap 4x150 — przegląd explanation 0582–0638](raporty/etap-4x150-explanation-0582-0638-2026-10-29.md): 57 wyjaśnień bez zmian.
