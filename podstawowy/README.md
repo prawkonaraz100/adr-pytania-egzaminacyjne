@@ -1,3 +1,7 @@
+**Stan na 02.11.2026, etap 4x306**
+
+**Stan 4x306:** 732 `needs_review`, 0 `verified`; SHA `2896a94357e8cd8b745602efc7f425960e89ca6a`. Poprawna = jedyna najdłuższa: **81/732 = 11,07%**; maksimum działu **14,61%**. Kompetencje teorii <6: **48**.
+
 **Stan na 02.11.2026, etap 4x305**
 
 **Stan 4x305:** 731 `needs_review`, 0 `verified`; SHA `7323023ff6f3fcb361caf625e781cd5cb1303d58`. Poprawna = jedyna najdłuższa: **81/731 = 11,08%**; maksimum działu **14,61%**. Kompetencje teorii <6: **49**.
@@ -690,6 +694,8 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+
+- [Etap 4x306 — odpad sklasyfikowany według 2.1.3.5.5: dopisek w dokumencie](raporty/etap-4x306-odpad-21355-dopisek-w-dokumencie-2026-11-02.md)
 
 - [Etap 4x305 — klasa 2: brak grupy pakowania](raporty/etap-4x305-klasa2-brak-grupy-pakowania-2026-11-02.md)
 - [Etap 4x304 — klasa 8: żrące pary i mgły przy wilgoci powietrza](raporty/etap-4x304-klasa8-zrace-mgly-2026-11-02.md)
