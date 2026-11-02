@@ -10,7 +10,7 @@
 - Klucze i warianty 001–005, snapshoty sequential/legal 715-715, ledger i manifest zaktualizowane; formalnych zatwierdzeń: 0.
 - Raport: `podstawowy/raporty/etap-4x289-rko-aed-praktyczna-pierwsza-pomoc-2026-11-02.md`.
 
-**Stan na 02.11.2026, etap 4x288**
+**Stan na 02.11.2026, etap 4x289**
 
 ## Bieżąca migawka — etap 4x288 (02.11.2026)
 
