@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0726",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 2.2.52.1.15 and 7.1.7",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0726",
+      "order": 726,
+      "clause": "ADR 2025, 2.2.52.1.15 i 7.1.7",
+      "question_snapshot": {
+        "id": "ADR-B-0726",
+        "module_id": "ADR-B-02",
+        "stem": "Przed wyjazdem z nadtlenkiem organicznym klasy 5.2 wymagającym kontroli temperatury kierowca zauważa, że urządzenie chłodzące przestało działać. Co powinien zrobić?",
+        "options": {
+          "A": "Jechać dalej, ponieważ ograniczenie temperatury obowiązuje tylko przed załadunkiem i po rozładunku.",
+          "B": "Poczekać, aż ładunek sam się schłodzi, bez informowania osób odpowiedzialnych za przewóz.",
+          "C": "Nie kontynuować przewozu bez przywrócenia wymaganej kontroli temperatury i powiadomić odpowiedzialne osoby."
+        },
+        "correct_option": "C",
+        "explanation": "Niektóre nadtlenki organiczne klasy 5.2 mogą rozkładać się szybciej przy wzroście temperatury, dlatego podczas przewozu muszą mieć zapewnione odpowiednie warunki. Awaria chłodzenia wymaga reakcji, a nie dalszej jazdy ani biernego czekania. Błędne odpowiedzi pomijają obowiązek kontroli temperatury w czasie przewozu. Podstawa: ADR 2025, 2.2.52.1.15 i 7.1.7.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.52.1.15 i 7.1.7",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Kontrola temperatury ma zastosowanie w czasie całego przewozu, a nie tylko przy załadunku."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Bierne czekanie bez zgłoszenia awarii i kontroli warunków nie zapewnia bezpieczeństwa ładunku."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Awaria chłodzenia przy ładunku wymagającym kontroli temperatury wymaga reakcji i przywrócenia wymaganych warunków."
+        }
+      },
+      "notes_on_conditions": "Wymóg kontroli temperatury dotyczy tylko nadtlenków organicznych i warunków przewozu objętych odpowiednimi przepisami ADR; w razie awarii kierowca stosuje właściwe instrukcje i procedury.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
