@@ -303,3 +303,10 @@ Przed wyjazdem nie zakładaj, że każdy przewóz ADR wymaga identycznego zestaw
 
 **Pytanie do sprawdzenia:** ADR-B-0710 — jak kierowca ustala wymagany zestaw wyposażenia przed wyjazdem?
 
+
+
+### Gaśnica przy zestawie z naczepą i wyłączeniu 1.1.3.6 (ADR-B-0711)
+
+Jeżeli przewóz korzysta z wyłączenia 1.1.3.6, nie oznacza to braku obowiązku posiadania gaśnicy. ADR 8.1.4.2 wymaga co najmniej jednej przenośnej gaśnicy o pojemności odpowiadającej 2 kg proszku dla jednostki transportowej. Zestaw złożony z pojazdu silnikowego i dołączonej naczepy jest jedną jednostką transportową, więc nie należy automatycznie mnożyć minimalnej liczby gaśnic przez liczbę elementów zestawu. Podstawa: ADR 1.2.1 i 8.1.4.2.
+
+**Pytanie do sprawdzenia:** ADR-B-0711 — czy przy ciągniku z naczepą objętym 1.1.3.6 potrzebna jest osobna gaśnica w każdym elemencie zestawu?
