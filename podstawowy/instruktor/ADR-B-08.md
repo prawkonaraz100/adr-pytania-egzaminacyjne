@@ -180,3 +180,16 @@ Przygotuj dwie fikcyjne karty pojazdu i świadectwa. W jednym zestawie zgodne s�
 **Typowy błąd:** dobór wyposażenia wyłącznie według nazwy towaru lub jednej klasy głównej, bez sprawdzenia numerów nalepek. Omów, dlaczego taki skrót może pominąć wymagane elementy.
 
 **Podstawa:** ADR 2025, 8.1.5.1–8.1.5.2. Ćwiczenie symulacyjne; nie potwierdza rzeczywistego zaliczenia praktyki.
+
+
+## Ćwiczenie instruktorskie — gaśnica dla jednostki z naczepą (ADR-B-0711)
+
+**Cel:** kursant rozróżnia jednostkę transportową od jej elementów i potrafi zastosować minimum z ADR 8.1.4.2 przy przewozie objętym 1.1.3.6.
+
+**Przebieg:** pokaż kursantowi schemat ciągnika siodłowego z naczepą. Podaj, że przewóz korzysta z 1.1.3.6, a w ciągniku znajduje się jedna sprawna, dostępna gaśnica 2 kg proszku. Poproś o ocenę, czy ADR 8.1.4.2 wymaga drugiej gaśnicy w naczepie.
+
+**Kryteria obserwacji:** kursant odwołuje się do definicji jednostki transportowej z 1.2.1, rozumie, że 8.1.4.2 określa minimum dla całej jednostki, i nie myli tego z pełnymi wymaganiami dla innych przewozów.
+
+**Typowy błąd:** traktowanie ciągnika i naczepy jako dwóch odrębnych jednostek transportowych albo uznanie, że 1.1.3.6 znosi obowiązek posiadania gaśnicy.
+
+**Podstawa:** ADR 2025, 1.2.1 i 8.1.4.2. Ćwiczenie symulacyjne; nie potwierdza rzeczywistego zaliczenia praktyki.
