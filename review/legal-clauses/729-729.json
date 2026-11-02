@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0729",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 2.2.7.1.1.1 and 5.2.2.1.11",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0729",
+      "order": 729,
+      "clause": "ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11",
+      "question_snapshot": {
+        "id": "ADR-B-0729",
+        "module_id": "ADR-B-02",
+        "stem": "Podczas kontroli dokumentów kierowca widzi, że sztuka przesyłki ma etykietę z czarnym symbolem koniczyny promieniotwórczej i cyfrą 7. Do jakiej klasy ADR należy ten ładunek?",
+        "options": {
+          "A": "Do klasy 6.2 — materiały zakaźne, które przenoszą drobnoustroje chorobotwórcze u ludzi i zwierząt.",
+          "B": "Do klasy 7 — materiały promieniotwórcze, wymagające rozpoznania zagrożenia radiacyjnego.",
+          "C": "Do klasy 5.1 — materiały utleniające, które mogą nasilać spalanie innych substancji palnych."
+        },
+        "correct_option": "B",
+        "explanation": "Symbol koniczyny i numer 7 wskazują na materiały promieniotwórcze klasy 7. Kierowca powinien rozpoznać tę klasę, ponieważ przewóz wiąże się z zagrożeniem promieniowaniem jonizującym, a nie z zakażeniem czy nasilaniem pożaru. Nie należy mylić numeru klasy z klasą 6.2 ani 5.1. Podstawa: ADR 2025, 2.2.7.1.1.1 oraz 5.2.2.1.11.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Klasa 6.2 dotyczy materiałów zakaźnych, a nie materiałów promieniotwórczych."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Oznaczenie klasy 7 i symbol promieniotwórczości wskazują na materiały promieniotwórcze."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Klasa 5.1 obejmuje materiały utleniające, nie materiały promieniotwórcze."
+        }
+      },
+      "notes_on_conditions": "Pytanie sprawdza rozpoznanie klasy 7 po etykiecie; szczegółowe wymagania zależą od kategorii etykiety i właściwości konkretnej przesyłki.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

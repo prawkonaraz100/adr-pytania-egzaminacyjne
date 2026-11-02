@@ -1,3 +1,5 @@
+**Stan 4x303:** 729 `needs_review`, 0 `verified`; SHA `d8a8aa6d6ed591f16a765b89954fe70a11d4c8ed`. Poprawna = jedyna najdłuższa: **81/729 = 11,11%**. Kompetencje teorii <6: **51**.
+
 **Stan 4x302:** 728 `needs_review`, 0 `verified`; SHA `eaeeceaf087c739347aa93e99a57f37567f5d344`. Poprawna = jedyna najdłuższa: **81/728 = 11,13%**. Kompetencje teorii <6: **52**.
 
 **Stan 4x301:** 727 `needs_review`, 0 `verified`; SHA `4dd3b994f136bd038ab9597d5e9a5cf27d39a3dc`. Poprawna = jedyna najdłuższa: **81/727 = 11,14%**. Kompetencje teorii <6: **53**.
