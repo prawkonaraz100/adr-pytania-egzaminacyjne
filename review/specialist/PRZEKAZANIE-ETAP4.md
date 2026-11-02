@@ -1,3 +1,12 @@
+**Bieżący bank 4x310:** 736 pytań, 736 `needs_review`, 0 `verified`; SHA `1c1ee10536eceecdc7cc34cdb2675f8605036c30`. Rejestr `REJESTR-AKTUALNY-0001-0736.md`. Kompetencje teorii <6: **44**.
+
+## Bieżąca migawka — etap 4x310
+
+- ADR-B-0736 do ADR-B-04-K01; zakaz palenia podczas czynności ładunkowych dotyczy także pracownika magazynu.
+- Podstawa: ADR 2025, 8.3.5.
+- Bank 736, zero `verified`; licznik kompetencji teorii <6: **44**.
+- Raport: `podstawowy/raporty/etap-4x310-zakaz-palenia-przeladunek-2026-11-02.md`.
+
 **Bieżący bank 4x309:** 735 pytań, 735 `needs_review`, 0 `verified`; SHA `9c6375775b1f40f18aad9124aa6b963e752ebb64`. Rejestr `REJESTR-AKTUALNY-0001-0735.md`. Kompetencje teorii <6: **45**.
 
 ## Bieżąca migawka — etap 4x309
