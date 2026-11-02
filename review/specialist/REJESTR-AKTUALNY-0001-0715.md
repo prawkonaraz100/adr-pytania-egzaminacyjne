@@ -11,16 +11,6 @@
 
 ## Stan historyczny po etapie 4x288
 
-## Bieżąca migawka — etap 4x288 (02.11.2026)
-
-- Bank: 714 pytań ADR-B-0001–0714; 714 `needs_review`, 0 `verified`; SHA `22c93b8abec0abd002fff821a873bde1776d0f56`.
-- ADR-B-0714 — kontrola brakującego wpisu w przewozie kombinowanym; ADR 2025, 1.1.4.2.1, 1.4.2.2.1(b), 1.4.2.2.3, 5.4.1.1.7.
-- Explanation 493 znaki; A/B/C 119/110/119; poprawna A nie jest jedyną najdłuższą.
-- Rozkład A/B/C: 239/255/220; poprawna = jedyna najdłuższa: 76/714 = 10,64%; maksimum modułu: 13,95%.
-- ADR-B-13-K06 ma 5 pytań; moduł ADR-B-13 ma 50 pytań. Formalne zatwierdzenia: 0.
-- Snapshoty sequential/legal 714-714; pełne porównanie literalne i recenzja specjalisty pozostają otwarte.
-- Raport: `podstawowy/raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md`.
- 
 ## Stan historyczny po etapie 4x287
 
 - Bank: 713 pytań ADR-B-0001–0713; 713 `needs_review`, 0 `verified`; SHA `f308b1555c50d3f657c2d753c81273bc56dda1de`.
