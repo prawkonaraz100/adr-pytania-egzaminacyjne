@@ -1,10 +1,11 @@
-**Stan na 02.11.2026, etap 4x315**
+**Stan na 02.11.2026, etap 4x316**
 
-**Stan 4x315:** 741 `needs_review`, 0 `verified`; SHA `02fb3c3056749458ebcee9661ffa7895768b56e0`. Poprawna = jedyna najdłuższa: **81/741 = 10,93%**; maksimum działu **14,61%**. Kompetencje teorii <6: **39**.
+**Stan 4x316:** 742 `needs_review`, 0 `verified`; SHA `23499db89b3fcf011fac9ff33ca4319841281a0d`. Poprawna = jedyna najdłuższa: **81/742 = 10,92%**; maksimum działu **14,61%**. Kompetencje teorii <6: **38**.
 
 ## Raporty jakości
 
-- [Etap 4x315 — unikanie pyłu i strona nawietrzna](raporty/etap-4x315-unikanie-pylu-strona-nawietrzna-2026-11-02.md)
+- [Etap 4x316 — granica gaszenia pożaru komory silnika i ładowni](raporty/etap-4x316-granica-gaszenia-pozarow-2026-11-02.md)
+
 
 **Stan na 02.11.2026, etap 4x313**
 

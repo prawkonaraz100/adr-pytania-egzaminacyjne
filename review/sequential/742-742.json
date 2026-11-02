@@ -1,0 +1,46 @@
+{
+  "batch": "742-742",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0742",
+      "sequence": 742,
+      "exact_record_snapshot": {
+        "stem": "Podczas awarii mały pożar w komorze silnika rozprzestrzenia się na przedział ładunkowy z towarami niebezpiecznymi. Co powinien zrobić członek załogi?",
+        "options": {
+          "A": "Kontynuować gaszenie, bo pożar rozpoczął się w komorze silnika, a gaśnica była już użyta.",
+          "B": "Przerwać gaszenie pożaru ładowni, oddalić się i wezwać służby.",
+          "C": "Otworzyć przedział ładunkowy, aby sprawdzić, czy ogień nie zajął już przesyłek."
+        },
+        "correct_option": "B",
+        "explanation": "Mały pożar komory silnika można próbować gasić tylko wtedy, gdy jest to właściwe i bezpieczne. Gdy ogień obejmie przedział ładunkowy, ten wyjątek już nie obowiązuje: załoga nie powinna podejmować gaszenia, nawet jeśli ogień nadal wygląda na niewielki. Otwieranie ładowni może dodatkowo narazić ludzi na dym i substancje z ładunku. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — użycie gaśnic do małego/początkowego pożaru komory silnika, jeśli właściwe i bezpieczne; członkowie załogi nie powinni gasić pożarów przedziałów ładunkowych",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 5.4.3.4 written instructions: small/incipient tyre, brake or engine-compartment fires only where appropriate and safe; vehicle crew shall not tackle fires in load compartments",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

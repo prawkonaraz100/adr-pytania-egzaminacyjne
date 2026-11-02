@@ -448,3 +448,8 @@ Na [tablicy pomarańczowej](../SLOWNICZEK.md#tablica-pomaranczowa) górny numer 
 ### Unikanie wdychania pyłu — ADR-B-0741
 
 Instrukcje pisemne ADR obejmują nie tylko opary, lecz także dym, pył i pary. Jeśli z uszkodzonej przesyłki wydobywa się pył, oddal się i pozostań po stronie nawietrznej, tak aby wiatr niósł go od ciebie. Nie przechodź przez chmurę i nie zakładaj, że pył jest bezpieczny, gdy opadnie. Podstawa: ADR 2025, 5.4.3.4.
+
+
+### Granica gaszenia pożaru komory silnika i ładowni — ADR-B-0742
+
+Instrukcje pisemne ADR rozróżniają mały lub początkowy pożar opon, hamulców albo komory silnika od pożaru przedziału ładunkowego. Gaśnicy można użyć przy pierwszym rodzaju pożaru tylko wtedy, gdy jest to właściwe i bezpieczne. Gdy ogień obejmie ładownię, załoga nie powinna go gasić; należy się oddalić i wezwać służby. Podstawa: ADR 2025, 5.4.3.4.
