@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x313: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x313
+
+- Bank: **739** pytań, 739 `needs_review`, 0 `verified`; SHA `84e83d8ee582633e06b86dfce0e35e664ead2bda`.
+- ADR-B-0739 do ADR-B-05-K02: warunek bezpieczeństwa przy obsłudze wyłącznika głównego akumulatora po awarii (ADR 2025, 5.4.3.4).
+- Moduł ADR-B-05: **77** pytań; kompetencja K02: 5→6.
+- Rozkład prawidłowych opcji: A=248, B=264, C=227.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/739 = 10,96%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **41** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x313-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x312: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x312
@@ -863,7 +875,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 89 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 76 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 77 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
@@ -872,7 +884,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **738** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **739** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
