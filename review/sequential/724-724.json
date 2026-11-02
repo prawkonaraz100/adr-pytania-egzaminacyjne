@@ -1,0 +1,46 @@
+{
+  "batch": "724-724",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0724",
+      "sequence": 724,
+      "exact_record_snapshot": {
+        "stem": "Podczas przygotowania przewozu materiału samonagrzewającego się klasy 4.2 ktoś twierdzi, że nie może się on zapalić bez płomienia ani iskry. Jak kierowca powinien ocenić to stwierdzenie?",
+        "options": {
+          "A": "Jest błędne: materiał może nagrzewać się w kontakcie z powietrzem i po pewnym czasie sam się zapalić.",
+          "B": "Jest prawdziwe: materiał nagrzewa się jedynie wtedy, gdy z zewnątrz doprowadza się ogień lub iskrę.",
+          "C": "Jest prawdziwe: samonagrzewanie oznacza wyłącznie wzrost temperatury bez możliwości zapalenia."
+        },
+        "correct_option": "A",
+        "explanation": "Materiał samonagrzewający się może w kontakcie z powietrzem powoli wytwarzać ciepło, nawet bez płomienia i iskry. Jeśli ciepło nie jest dostatecznie odprowadzane, po godzinach lub dniach może dojść do samozapłonu. Dlatego błędne są odpowiedzi wymagające zewnętrznego ognia albo wykluczające zapalenie. Podstawa: ADR 2025, 2.2.42.1.1 i 2.2.42.1.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.42.1.1 i 2.2.42.1.3",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 2.2.42.1.1 and 2.2.42.1.3; self-heating on contact with air",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
