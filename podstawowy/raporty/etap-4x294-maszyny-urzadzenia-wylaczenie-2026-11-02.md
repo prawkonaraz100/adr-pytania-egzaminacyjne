@@ -11,7 +11,7 @@ Dodano jedno pytanie: **ADR-B-0720** do kompetencji **ADR-B-01-K04** („Wyłąc
 
 ### Treść pytania
 
-Firma serwisowa przewozi na lawecie przenośny agregat prądotwórczy, w którego zbiorniku pozostało paliwo. Agregat nie jest osobno wymieniony w ADR, a zbiornik i zamknięcia są zabezpieczone przed wyciekiem w normalnych warunkach przewozu. Która ocena jest właściwa?
+Podczas dostawy do warsztatu kierowca wiezie na przyczepie przenośny agregat prądotwórczy z paliwem w jego zbiorniku. Agregat nie jest odrębnie wymieniony w ADR, a jego zbiornik i zamknięcia zabezpieczono przed wyciekiem w zwykłych warunkach transportu. Kiedy można zastosować wyłączenie?
 
 - A. Może; wyłączenie obejmuje takie urządzenie, jeśli w normalnym przewozie zabezpieczono je przed uwolnieniem paliwa.
 - B. Nie; przewóz urządzenia z paliwem zawsze podlega pełnym wymaganiom ADR, nawet gdy zbiornik jest szczelny i dobrze zamocowany.
