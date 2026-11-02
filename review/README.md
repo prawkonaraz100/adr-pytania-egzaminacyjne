@@ -1,3 +1,7 @@
+**Bieżąca migawka — etap 4x306:** bank 732 pytań, wszystkie `needs_review`, 0 `verified`; SHA `2896a94357e8cd8b745602efc7f425960e89ca6a`; kompetencje teorii <6: **48**. Raport: `podstawowy/raporty/etap-4x306-odpad-21355-dopisek-w-dokumencie-2026-11-02.md`.
+
+**Bieżący bank 4x306:** 732 pytań, 732 `needs_review`, 0 `verified`; SHA `2896a94357e8cd8b745602efc7f425960e89ca6a`. Rejestr `REJESTR-AKTUALNY-0001-0732.md`. Kompetencje teorii <6: **48**.
+
 **Bieżąca migawka — etap 4x305:** bank 731 pytań, wszystkie `needs_review`, 0 `verified`; SHA `7323023ff6f3fcb361caf625e781cd5cb1303d58`; kompetencje teorii <6: **49**. Raport: `podstawowy/raporty/etap-4x305-klasa2-brak-grupy-pakowania-2026-11-02.md`.
 
 **Bieżący bank 4x305:** 731 pytań, 731 `needs_review`, 0 `verified`; SHA `7323023ff6f3fcb361caf625e781cd5cb1303d58`. Rejestr `REJESTR-AKTUALNY-0001-0731.md`. Kompetencje teorii <6: **49**.
