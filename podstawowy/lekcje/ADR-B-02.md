@@ -468,3 +468,8 @@ Opakowania z materiałem zakaźnym muszą pozostać zamknięte. Kierowca ani pom
 ### Rozpoznawanie materiałów promieniotwórczych — ADR-B-0729
 
 Etykieta z symbolem promieniotwórczości i numerem 7 oznacza materiał klasy 7. To ostrzeżenie przed promieniowaniem jonizującym, a nie przed zakażeniem lub pożarem. Podstawa: ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11.
+
+
+### Żrące pary i mgły przy wilgoci powietrza — ADR-B-0730
+
+Klasa 8 obejmuje także substancje, które dopiero w kontakcie z naturalną wilgocią powietrza tworzą żrące pary lub mgły. Brak widocznej cieczy nie oznacza więc braku zagrożenia. Podstawa: ADR 2025, 2.2.8.1.1.
