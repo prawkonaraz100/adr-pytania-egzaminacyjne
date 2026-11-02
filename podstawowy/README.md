@@ -1,3 +1,15 @@
+**Stan na 02.11.2026, etap 4x291**
+
+## Bieżąca migawka — etap 4x291
+
+- Bank: 717 `needs_review`, 0 `verified` (ADR-B-0001–0717); SHA `f171a97a6d4a62812ba8ae399ec9d063902a1ee9`.
+- ADR-B-0717 do ADR-B-05-K13: dostępność gaśnicy i ochrona przed wpływem pogody; ADR 8.1.4.5; praktyczne ćwiczenia 8.2.2.3.8.
+- Explanation 408 znaków, 4 zdania; A/B/C 108/106/103; poprawna C nie jest najdłuższa.
+- Rozkład A/B/C: 239/257/221; wskaźnik najdłuższej poprawnej 76/717 = 10,60%; maksimum działu 13,95%.
+- Kompetencja ADR-B-05-K13 ma 5 pytań; moduł ADR-B-05 ma 75 pytań.
+- Klucze/warianty 001–005 i snapshoty sequential/legal 717-717; zatwierdzeń: 0.
+- Raport: `podstawowy/raporty/etap-4x291-ochrona-gasnicy-przed-pogoda-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x290: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x290
@@ -596,6 +608,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x291 — ochrona gaśnicy przed pogodą](raporty/etap-4x291-ochrona-gasnicy-przed-pogoda-2026-11-02.md)
 - [Etap 4x290 — zrozumienie instrukcji pisemnych](raporty/etap-4x290-instrukcje-zrozumienie-2026-11-02.md)
 - [Etap 4x289 — RKO i AED](raporty/etap-4x289-rko-aed-praktyczna-pierwsza-pomoc-2026-11-02.md)
 - [Etap 4x288 — kontrola wpisu w przewozie kombinowanym](raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md)
