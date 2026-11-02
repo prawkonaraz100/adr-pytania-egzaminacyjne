@@ -1,3 +1,5 @@
+**Bieżący stan po etapie 4x315 (02.11.2026): bank 741 pytań, 741 `needs_review`, 0 `verified`; SHA `02fb3c3056749458ebcee9661ffa7895768b56e0`; kompetencje teorii <6: 39. Rejestr: `REJESTR-AKTUALNY-0001-0741.md`.**
+
 **Bieżący bank 4x314:** 740 pytań, 740 `needs_review`, 0 `verified`; SHA `9a04009ad8e65d597c70d3e337f861c672f840f3`. Rejestr `REJESTR-AKTUALNY-0001-0740.md`. Kompetencje teorii <6: **40**.
 
 **Bieżący bank 4x313:** 739 pytań, 739 `needs_review`, 0 `verified`; SHA `84e83d8ee582633e06b86dfce0e35e664ead2bda`. Rejestr `REJESTR-AKTUALNY-0001-0739.md`. Kompetencje teorii <6: **41**.
