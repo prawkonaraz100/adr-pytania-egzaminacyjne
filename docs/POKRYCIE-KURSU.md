@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x304: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x304
+
+- Bank: 730 `needs_review`, 0 `verified`; SHA `1c9843ec48321d6a46dbc75f9f104d034dc26dba`.
+- ADR-B-0730 do ADR-B-02-K12 — substancje tworzące żrące pary lub mgły przy naturalnej wilgoci powietrza (ADR 2025, 2.2.8.1.1).
+- Rozkład prawidłowych opcji: A=243, B=262, C=225.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/730 = 11,10%**; maksimum działu pozostaje poniżej 18%.
+- Kompetencje teoretyczne z mniej niż 6 pytaniami: **50**.
+- ADR-B-02-K12: 5→6 pytań; moduł ADR-B-02: 88 pytań.
+- Raport: `podstawowy/raporty/etap-4x304-klasa8-zrace-mgly-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x303: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x303
