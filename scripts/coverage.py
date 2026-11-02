@@ -146,7 +146,9 @@ def main():
     errors, stats = analyse(questions, matrix, release=args.release)
     errors.extend(check_lessons(ROOT))
     for name, value in stats.items():
-        if isinstance(value, list) and len(value) > 10:
+        if name == "theory_competencies_below_six_questions":
+            print(f"{name}: {len(value)} pozycji; pełna lista: {', '.join(value) if value else 'brak'}")
+        elif isinstance(value, list) and len(value) > 10:
             print(f"{name}: {len(value)} pozycji; pierwsze: {', '.join(value[:8])} ...")
         else:
             print(f"{name}: {value}")
