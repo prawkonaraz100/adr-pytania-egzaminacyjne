@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0742",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 5.4.3.4 — instructions in writing, fire response",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0742",
+      "order": 742,
+      "clause": "ADR 2025, 5.4.3.4",
+      "question_snapshot": {
+        "id": "ADR-B-0742",
+        "module_id": "ADR-B-05",
+        "stem": "Podczas awarii mały pożar w komorze silnika rozprzestrzenia się na przedział ładunkowy z towarami niebezpiecznymi. Co powinien zrobić członek załogi?",
+        "options": {
+          "A": "Kontynuować gaszenie, bo pożar rozpoczął się w komorze silnika, a gaśnica była już użyta.",
+          "B": "Przerwać gaszenie pożaru ładowni, oddalić się i wezwać służby.",
+          "C": "Otworzyć przedział ładunkowy, aby sprawdzić, czy ogień nie zajął już przesyłek."
+        },
+        "correct_option": "B",
+        "explanation": "Mały pożar komory silnika można próbować gasić tylko wtedy, gdy jest to właściwe i bezpieczne. Gdy ogień obejmie przedział ładunkowy, ten wyjątek już nie obowiązuje: załoga nie powinna podejmować gaszenia, nawet jeśli ogień nadal wygląda na niewielki. Otwieranie ładowni może dodatkowo narazić ludzi na dym i substancje z ładunku. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — użycie gaśnic do małego/początkowego pożaru komory silnika, jeśli właściwe i bezpieczne; członkowie załogi nie powinni gasić pożarów przedziałów ładunkowych",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Dopuszczalny wyjątek dotyczy małego lub początkowego pożaru komory silnika, jeżeli działanie jest właściwe i bezpieczne; po objęciu ogniem przedziału ładunkowego załoga nie powinna kontynuować gaszenia."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Instrukcje pisemne wyraźnie wskazują, że członkowie załogi nie powinni podejmować gaszenia pożarów w przedziałach ładunkowych."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Otwieranie przedziału ładunkowego naraża załogę na ogień, dym i towary niebezpieczne; nie jest poleceniem instrukcji pisemnych."
+        }
+      },
+      "notes_on_conditions": "Pytanie sprawdza granicę między warunkowo dopuszczonym gaszeniem małego/początkowego pożaru komory silnika a zakazem gaszenia pożaru przedziału ładunkowego.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
