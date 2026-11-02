@@ -1,0 +1,46 @@
+{
+  "batch": "740-740",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0740",
+      "sequence": 740,
+      "exact_record_snapshot": {
+        "stem": "Kierowca po kolizji zgłasza zdarzenie służbom z bezpiecznego miejsca. Nie może wrócić po dokumenty, ale widzi z daleka czytelną tablicę pomarańczową z dwoma numerami. Co powinien przekazać?",
+        "options": {
+          "A": "Podać tylko numer z górnej części, bo dolny dotyczy dokumentów przewozowych, a nie identyfikacji ładunku.",
+          "B": "Podać oba numery: górny wskazuje zagrożenie, a dolny jest numerem UN przewożonego towaru.",
+          "C": "Podać wyłącznie numer rejestracyjny pojazdu i poczekać z informacją o ładunku do odczytania dokumentów."
+        },
+        "correct_option": "B",
+        "explanation": "Tablica pomarańczowa może przekazać ratownikom dwa ważne oznaczenia: u góry numer rozpoznawczy zagrożenia, a na dole numer UN towaru. Oba pomagają rozpoznać rodzaj zagrożenia i przewożoną substancję, dlatego nie pomijaj żadnego z nich. Nie ograniczaj zgłoszenia do numeru rejestracyjnego i nie wracaj po dokumenty, jeśli oznaczałoby to wejście w strefę zagrożenia. Podstawa: ADR 2025, 5.3.2.2.2 i 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.2 — położenie numeru rozpoznawczego zagrożenia i numeru UN na tablicy pomarańczowej; 5.4.3.4 — przekazanie służbom dostępnych informacji o zdarzeniu i towarach niebezpiecznych",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.3.2.2.2 places the hazard identification number in the upper part and UN number in the lower part of the orange plate; 5.4.3.4 instructs crew to notify emergency services and provide available information about the accident/emergency and dangerous goods",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
