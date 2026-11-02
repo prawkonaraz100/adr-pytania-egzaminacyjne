@@ -104,7 +104,7 @@ ADR-B-13-K07 — Dostępność dokumentów w kabinie (5)
 
 - Bank: 720 pytań, 720 `needs_review`, 0 `verified`.
 - Ostatnie ID: ADR-B-0720.
-- Git blob SHA banku: `3b7e028fc0091bde174feeaecc9c6d7018d14c5c`.
+- Git blob SHA banku: `e9997f72bef99fba15cbd45143e15d1e03b79aa3`.
 - Rozkład kluczy A/B/C: 242/257/221.
 - „Poprawna odpowiedź jest jedyną najdłuższą”: 77/720 = 10,69%.
 - Maksimum działu: 13,95% (limit 18% zachowany).
