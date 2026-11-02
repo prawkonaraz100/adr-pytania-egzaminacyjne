@@ -1,0 +1,52 @@
+{
+  "batch": "716-716",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0716",
+      "sequence": 716,
+      "exact_record_snapshot": {
+        "stem": "Przed wyjazdem na trasę ADR przewoźnik przekazuje załodze instrukcje pisemne. Kierowca potrafi je przeczytać, ale nie rozumie kilku poleceń dotyczących postępowania przy awarii. Dyspozytor mówi, że wystarczy sama obecność dokumentu w kabinie. Co należy zrobić?",
+        "options": {
+          "A": "Rozpocząć przewóz, bo instrukcje są w kabinie; każdy może poprosić kolegę o pomoc dopiero podczas awarii.",
+          "B": "Zgłosić problem przewoźnikowi i przed wyjazdem uzyskać instrukcje zrozumiałe dla każdego członka załogi.",
+          "C": "Poprosić dyspozytora o krótkie ustne streszczenie, a pełną instrukcję przeczytać po zakończeniu trasy."
+        },
+        "correct_option": "B",
+        "explanation": "Sama obecność instrukcji w kabinie nie wystarczy, jeśli członek załogi nie rozumie poleceń. Przewoźnik musi przekazać instrukcje w języku, który każdy członek załogi może przeczytać i zrozumieć, oraz upewnić się, że potrafi je właściwie zastosować. Kierowca powinien zgłosić problem przed wyjazdem i uzyskać właściwą wersję oraz wyjaśnienie; ustne streszczenie nie zastępuje tego obowiązku. Podstawa: ADR 5.4.3.2–5.4.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.2 — przewoźnik przekazuje instrukcje w języku, który każdy członek załogi może przeczytać i zrozumieć, oraz zapewnia, że rozumie je i potrafi prawidłowo zastosować; 5.4.3.3 — załoga przed podróżą zapoznaje się z towarami i instrukcjami",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "UNECE, ADR 2025 linguistic versions and instructions in writing — before the journey, crew members familiarize themselves with the dangerous goods and consult written instructions",
+            "url": "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.4.3.2: the carrier must provide written instructions in language(s) each crew member can read and understand, and ensure each concerned crew member understands and can properly carry them out. ADR 5.4.3.3: before the journey, crew members must inform themselves about the dangerous goods loaded and consult the written instructions for actions in an accident or emergency.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "supplementary_source_url": "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}

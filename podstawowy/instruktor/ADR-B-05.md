@@ -276,3 +276,16 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowe błędy:** czekanie na karetkę bez rozpoczęcia RKO; mylenie pozycji bocznej z postępowaniem przy braku prawidłowego oddechu; brak podziału zadań i nieużycie dostępnego AED.
 
 **Podstawa:** ADR 2025, 8.2.2.3.2(e) i 8.2.2.3.8 — pierwsza pomoc oraz ćwiczenia praktyczne w kursie podstawowym; ERC Guidelines 2025 Adult Basic Life Support.
+
+
+## Ćwiczenie instruktorskie — zrozumienie instrukcji pisemnych (ADR-B-0716)
+
+**Cel:** kursant odróżnia samo posiadanie dokumentu od rzeczywistego zrozumienia instrukcji przez każdego członka załogi.
+
+**Przebieg:** przedstaw kartę przewozu i instrukcje pisemne w języku, który kursant potrafi czytać, ale którego części poleceń nie rozumie. Dyspozytor w symulacji mówi, że dokument leży w kabinie, więc można ruszać. Poproś kursanta o reakcję: ma wskazać, komu zgłosi problem, czego potrzebuje przed rozpoczęciem przewozu i dlaczego ustne streszczenie nie zastępuje właściwej wersji oraz zrozumienia instrukcji.
+
+**Kryteria obserwacji:** kursant zgłasza brak zrozumienia przewoźnikowi przed wyjazdem; wskazuje obowiązek przekazania instrukcji w języku zrozumiałym dla każdego członka załogi oraz zapewnienia, że potrafi je prawidłowo wykonać; zapoznaje się z towarem i odpowiednimi działaniami przed podróżą.
+
+**Typowe błędy:** uznanie samej obecności dokumentu za wystarczającą; poleganie wyłącznie na ustnym streszczeniu; odkładanie lektury do chwili wypadku.
+
+**Podstawa:** ADR 2025, 5.4.3.1–5.4.3.3. Ćwiczenie sprawdza rozumienie obowiązku i przygotowanie załogi, nie zastępuje oficjalnych instrukcji ani ich właściwej wersji językowej.

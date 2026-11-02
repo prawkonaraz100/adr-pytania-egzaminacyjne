@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x290: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x290
+
+- Bank: 716 pytań ADR-B-0001–0716; wszystkie `needs_review`, 0 `verified`; SHA `ca5eb4b1d8f82eed5081887537980076600b51f3`.
+- ADR-B-0716 — zrozumienie instrukcji pisemnych przez każdego członka załogi; ADR 2025, 5.4.3.2–5.4.3.3.
+- Explanation 421 znaków, 4 zdania; A/B/C 105/104/102; klucz B nie jest najdłuższy.
+- Rozkład prawidłowych opcji: A=239, B=257, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/716 = 10,61%**; maksimum działu to 13,95%.
+- ADR-B-05-K01 ma 6 pytań; moduł ADR-B-05 ma 74 pytania.
+- Klucze/warianty 001–005, snapshoty sequential/legal 716-716, ledger i manifest zsynchronizowane; formalnych zatwierdzeń: 0.
+- Raport: `podstawowy/raporty/etap-4x290-instrukcje-zrozumienie-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x289: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x289

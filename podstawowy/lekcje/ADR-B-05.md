@@ -412,3 +412,10 @@ Najpierw upewnij się, że miejsce zdarzenia jest bezpieczne: nie ma wycieku, op
 Najpierw upewnij się, że miejsce jest bezpieczne. Jeśli poszkodowany nie reaguje i nie oddycha prawidłowo, zadzwoń pod 112, włącz tryb głośnomówiący i postępuj według poleceń dyspozytora. Rozpocznij resuscytację krążeniowo-oddechową zgodnie z przeszkoleniem; poproś inną osobę o przyniesienie AED i użyj go, gdy będzie dostępne, wykonując komunikaty urządzenia. Pozycja boczna jest przeznaczona dla osoby nieprzytomnej, która oddycha prawidłowo. Nie podawaj nieprzytomnemu jedzenia ani napojów. Podstawa: ADR 8.2.2.3.2(e) i 8.2.2.3.8; aktualne zasady BLS ERC 2025.
 
 **Pytanie kontrolne:** ADR-B-0715 — jak postąpić, gdy poszkodowany nie reaguje i nie oddycha prawidłowo?
+
+
+### Załoga musi rozumieć instrukcje pisemne (ADR-B-0716)
+
+Przed wyjazdem nie wystarczy sprawdzić, czy instrukcje leżą w kabinie. Każdy członek załogi musi móc je przeczytać i zrozumieć, a przewoźnik ma upewnić się, że załoga potrafi prawidłowo zastosować opisane czynności. Jeśli kierowca rozumie tekst tylko częściowo, powinien zgłosić to przed rozpoczęciem przewozu i uzyskać wersję językową, którą rzeczywiście rozumie, oraz wyjaśnić niejasności. Krótkie ustne streszczenie dyspozytora nie zastępuje obowiązku przewoźnika. Przed podróżą załoga poznaje również przewożone towary i sprawdza w instrukcjach działania na wypadek wypadku lub zagrożenia. Podstawa: ADR 5.4.3.2–5.4.3.3.
+
+**Pytanie kontrolne:** ADR-B-0716 — co zrobić, gdy kierowca może przeczytać instrukcje, ale nie rozumie opisanych w nich poleceń?
