@@ -276,3 +276,8 @@ Jeżeli po wypadku lub awarii odzież albo użyte środki ochronne zostały ska�
 **Przykład:** po bezpiecznym oddaleniu się od wycieku kierowca zauważa zabrudzone rękawice i odzież. Postępuje zgodnie z instrukcjami pisemnymi: zdejmuje skażone rzeczy i zapewnia ich bezpieczne usunięcie, nie wnosząc ich do kabiny.
 
 **Ćwiczenie:** ADR-B-0687. Podstawa: ADR 5.4.3.4, model instrukcji pisemnych.
+
+
+### Szczególny zapis dla odpadu sklasyfikowanego według 2.1.3.5.5 — ADR-B-0732
+
+Jeżeli klasyfikację odpadu wykonano zgodnie z ADR 2.1.3.5.5, opis towaru niebezpiecznego w dokumencie przewozowym trzeba uzupełnić dokładnym zapisem „ODPAD ZGODNY Z 2.1.3.5.5”. Samo ogólne słowo „ODPAD” nie zastępuje tego szczególnego dopisku. Podstawa: ADR 2025, 5.4.1.1.3.1.
