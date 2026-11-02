@@ -1,4 +1,4 @@
-**Stan aktualny po etapie 4x293: 02.11.2026.**
+**Stan na 02.11.2026, etap 4x293**
 
 ## Bieżąca migawka — etap 4x293
 
@@ -635,6 +635,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x293 — zaświadczenie ADR od właściwej władzy](raporty/etap-4x293-zaswiadczenie-wlasciwa-wladza-2026-11-02.md)
 - [Etap 4x292 — instrukcje przy wielu zagrożeniach](raporty/etap-4x292-ladunek-wielozagrozeniowy-instrukcje-2026-11-02.md)
 - [Etap 4x291 — ochrona gaśnicy przed pogodą](raporty/etap-4x291-ochrona-gasnicy-przed-pogoda-2026-11-02.md)
 - [Etap 4x290 — zrozumienie instrukcji pisemnych](raporty/etap-4x290-instrukcje-zrozumienie-2026-11-02.md)
