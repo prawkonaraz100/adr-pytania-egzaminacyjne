@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0712",
+  "date": "2026-11-02",
+  "scope": "ADR 2025, 8.2.2.3.2(e): the basic driver training course must cover what to do after an accident, including first aid. ADR specifies the subject to be covered; the example's basic wound-care actions are instructional content, not a separate technical ADR clause.",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "ministry_source": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0712",
+      "order": 712,
+      "clause": "ADR 2025, 8.2.2.3.2(e)",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0712",
+        "module_id": "ADR-B-05",
+        "stem": "Po kolizji kierowca zabezpieczył miejsce i upewnił się, że nie ma wycieku ani oparów. Kolega jest przytomny, ale ma krwawiącą ranę przedramienia. Jak powinien udzielić podstawowej pomocy?",
+        "options": {
+          "A": "Zdjąć rękawiczki ochronne i dotknąć rany gołą dłonią, aby dokładniej ocenić jej głębokość przed opatrzeniem.",
+          "B": "Założyć rękawiczki, osłonić ranę jałowym opatrunkiem i uciskać; przy silnym krwawieniu wezwać 112.",
+          "C": "Podać poszkodowanemu jedzenie i napój, a opatrzenie rany odłożyć do przyjazdu służb ratunkowych."
+        },
+        "correct_option": "B",
+        "explanation": "Ponieważ miejsce jest już bezpieczne, kierowca może udzielić pomocy w granicach przeszkolenia: zakłada rękawiczki, osłania ranę jałowym opatrunkiem i uciska krwawienie. Nie dotyka rany gołą dłonią ani nie podaje poszkodowanemu jedzenia czy napoju. Przy silnym lub nieustającym krwawieniu pilnie wzywa pomoc pod numerem 112 i wykonuje polecenia dyspozytora. ADR wymaga, by kurs podstawowy obejmował pierwszą pomoc po wypadku (8.2.2.3.2(e)).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.2.2.3.2(e) — zakres kursu podstawowego obejmuje postępowanie po wypadku, w tym pierwszą pomoc",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "Ministerstwo Infrastruktury — oficjalne polskie materiały ADR 2025; zakres kursu podstawowego, 8.2.2.3.2(e)",
+            "url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 8.2.2.3.2(e) — what to do after an accident, including first aid",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Touching a bleeding wound with bare hands exposes the helper to blood and ignores basic protective measures."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "After confirming the scene is safe, gloves and a sterile dressing with pressure are appropriate basic first-aid steps; call 112 for severe or persistent bleeding."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Food and drink do not treat bleeding and should not replace immediate first aid."
+        }
+      },
+      "notes_on_conditions": "The scenario explicitly states that the place is secured and there is no leak or vapour. ADR 8.2.2.3.2(e) requires first aid to be covered in basic training but does not prescribe the detailed clinical procedure.",
+      "editorial_result": "Adds a safe-scene first-aid situation distinct from the four existing questions that mainly test whether a driver should enter a contaminated area.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
