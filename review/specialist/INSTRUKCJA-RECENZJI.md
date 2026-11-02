@@ -1,3 +1,5 @@
+**Bieżący bank — 4x294:** 720 pytań ADR-B-0001–0720, wszystkie `needs_review`, 0 `verified`; SHA `3b7e028fc0091bde174feeaecc9c6d7018d14c5c`. Indeks `REJESTR-AKTUALNY-0001-0720.md`; raport `podstawowy/raporty/etap-4x294-maszyny-urzadzenia-wylaczenie-2026-11-02.md`. Licznik kompetencji teoretycznych z mniej niż 6 pytaniami: **60** (3 praktyczne pominięte).
+
 **Bieżący bank — 4x293:** 719 pytań ADR-B-0001–0719, wszystkie `needs_review`, 0 `verified`; SHA `0ed456853665d37eed85fd8a63a612141f83a015`. Indeks `REJESTR-AKTUALNY-0001-0719.md`; raport `podstawowy/raporty/etap-4x293-zaswiadczenie-wlasciwa-wladza-2026-11-02.md`. Licznik kompetencji teoretycznych z mniej niż 6 pytaniami: **61** (3 praktyczne pominięte).
 
 **Bieżący bank — 4x292:** 718 pytań ADR-B-0001–0718, wszystkie `needs_review`, 0 `verified`; SHA `5eda2984ac8899b31bfc6b351b4cf1722ccdd07c`. Indeks `REJESTR-AKTUALNY-0001-0718.md`; raport `podstawowy/raporty/etap-4x292-ladunek-wielozagrozeniowy-instrukcje-2026-11-02.md`.
