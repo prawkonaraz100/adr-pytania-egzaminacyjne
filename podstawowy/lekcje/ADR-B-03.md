@@ -286,3 +286,8 @@ Jeżeli klasyfikację odpadu wykonano zgodnie z ADR 2.1.3.5.5, opis towaru niebe
 ### Wyjątek od czyszczenia po przewozie luzem — tylko ten sam towar niebezpieczny (ADR-B-0733)
 
 Po przewozie luzem pojazd lub kontener trzeba prawidłowo oczyścić przed ponownym załadunkiem. Wyjątek dotyczy sytuacji, gdy kolejny ładunek składa się z tych samych towarów niebezpiecznych. Sam fakt, że poprzedni i następny towar należą do tej samej klasy, nie wystarcza. Podstawa: ADR 2025, 7.5.8.2.
+
+
+### Wyposażenie ochrony kanalizacji także przy nalepce 9 — ADR-B-0734
+
+Jednostka przewożąca towary oznakowane nalepką 9 musi mieć dodatkowe wyposażenie wskazane w ADR 8.1.5.2: łopatę, osłonę kanalizacyjną i pojemnik do zebrania pozostałości. Wymóg nie ogranicza się do towarów klasy 8. Podstawa: ADR 2025, 8.1.5.2.

@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0734",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 8.1.5.2",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0734",
+      "order": 734,
+      "clause": "ADR 2025, 8.1.5.2",
+      "question_snapshot": {
+        "id": "ADR-B-0734",
+        "module_id": "ADR-B-03",
+        "stem": "Jednostka przewozi UN 3082, materiał zagrażający środowisku, ciekły I.N.O., oznakowany nalepką 9. Kierowca sprawdza wyposażenie dodatkowe przed wyjazdem. Który zestaw musi znajdować się w pojeździe?",
+        "options": {
+          "A": "Łopata, osłona kanalizacyjna i pojemnik do zebrania pozostałości; wymóg obejmuje także towary z nalepką 9.",
+          "B": "Tylko osłona kanalizacyjna; łopata i pojemnik są wymagane wyłącznie przy nalepce 8.",
+          "C": "Wyposażenie dodatkowe nie jest wymagane przy klasie 9, ponieważ zagrożenie środowiska oznacza wyłącznie obowiązek odpowiedniego oznakowania opakowania."
+        },
+        "correct_option": "A",
+        "explanation": "Przepis 8.1.5.2 obejmuje towary z nalepką 9 tak samo jak wskazane tam klasy i wymaga łopaty, osłony kanalizacyjnej oraz pojemnika do zebrania pozostałości. Nie jest to wyposażenie zarezerwowane wyłącznie dla klasy 8. Odpowiedź B pomija dwa wymagane elementy, a C błędnie wyłącza klasę 9. Podstawa: ADR 2025, 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Przepis 8.1.5.2 obejmuje także towary z nalepką 9 i wymaga łopaty, osłony kanalizacyjnej oraz pojemnika do zebrania pozostałości."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wymagane wyposażenie dodatkowe nie ogranicza się do osłony; obejmuje również łopatę i pojemnik."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Klasa 9 z nalepką 9 jest wprost wymieniona w 8.1.5.2; obowiązek nie ogranicza się do klasy 8."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy dodatkowego wyposażenia wymaganego w jednostce transportowej przy towarach z nalepką 9; nie opisuje czynności podejmowanych przy konkretnym wycieku.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
