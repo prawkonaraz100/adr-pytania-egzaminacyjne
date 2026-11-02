@@ -1,15 +1,15 @@
-**Stan na 02.11.2026, etap 4x286**
+**Stan na 02.11.2026, etap 4x287**
 
-## Bieżąca migawka — etap 4x286 (02.11.2026)
+## Bieżąca migawka — etap 4x287 (02.11.2026)
 
-- Bank: 712 `needs_review`, 0 `verified` (ADR-B-0001–0712); SHA `634d7c00f27f7213b70c6aeab716230d0eaa24dc`.
-- ADR-B-0712 do ADR-B-05-K11: pierwsza pomoc po potwierdzeniu bezpieczeństwa miejsca zdarzenia; ADR 2025, 8.2.2.3.2(e).
-- Explanation 439 znaków; A/B/C 108/98/96; poprawna B nie jest najdłuższa.
-- Rozkład prawidłowych opcji: A=238, B=254, C=220.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/712 = 10,53%**; maksimum modułu to 13,95%.
-- ADR-B-05-K11 ma 5 pytań; moduł ADR-B-05 ma 72 pytania.
-- Klucze i warianty 001–005 zgodne z SHA banku; snapshoty sequential/legal 712-712; formalne zatwierdzenia: 0.
-- Raport: `podstawowy/raporty/etap-4x286-pierwsza-pomoc-bezpieczna-scena-2026-11-02.md`.
+- Bank: 713 `needs_review`, 0 `verified` (ADR-B-0001–0713); SHA `f308b1555c50d3f657c2d753c81273bc56dda1de`.
+- ADR-B-0713 do ADR-B-07-K07: odpowiedzialność umowna za opóźnienie przewozu; ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 471.
+- Explanation 475 znaków, 4 zdania; A/B/C 121/126/108; poprawna B jest najdłuższa.
+- Rozkład prawidłowych opcji: A=238, B=255, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/713 = 10,66%**; maksimum działu to 13,95%.
+- ADR-B-07-K07 ma 5 pytań; moduł ADR-B-07 ma 52 pytania.
+- Klucze i warianty 001–005 wskazują aktualny SHA banku; snapshoty sequential/legal 713-713; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x287-odpowiedzialnosc-umowna-opoznienie-2026-11-02.md`.
 
 **Stan historyczny po etapie 4x285: 02.11.2026.**
 
@@ -17,7 +17,7 @@
 
 - Bank: 711 `needs_review`, 0 `verified` (ADR-B-0001–0711); SHA `daa0a72906bb1ca4b6ea0724c4c8078126d3ce04`.
 - ADR-B-0711 do ADR-B-08-K02: gaśnica 2 kg dla całej jednostki transportowej z naczepą przy 1.1.3.6; ADR 2025, 1.2.1 i 8.1.4.2.
-- Explanation 382 znaki; A/B/C 157/119/103; poprawna B nie jest najdłuższa.
+- Explanation 382 znaki; A/B/C 157/119/103; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=253, C=220.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/711 = 10,55%**; maksimum działu to 13,95%.
 - ADR-B-08-K02 ma 5 pytań; moduł ADR-B-08 ma 48 pytań.
@@ -42,7 +42,7 @@
 
 - Bank: 709 `needs_review`, 0 `verified` (ADR-B-0001–0709); SHA `733efd0b63dc4b0048a03e53635faacd542ad6d2`.
 - ADR-B-0709 do ADR-B-01-K01: definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
-- Explanation 305 znaków; A/B/C 108/102/101; poprawna B nie jest najdłuższa.
+- Explanation 305 znaków; A/B/C 108/102/101; poprawna B jest najdłuższa.
 - Rozkład A/B/C: 238/252/219; „poprawna = jedyna najdłuższa”: 75/709 = 10,58%.
 - ADR-B-01-K01 ma 6 pytań; moduł ADR-B-01 ma 51 pytań.
 - Raport: `podstawowy/raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md`.
@@ -69,7 +69,7 @@
 
 - Bank: 706 pytań ADR-B-0001–0706; 706 `needs_review`, 0 `verified`; SHA `8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb`.
 - ADR-B-0706 do ADR-B-09-K07: bezpieczne przemieszczenie pojazdu do najbliższego miejsca czyszczenia, gdy nie można go oczyścić na placu rozładunku; ADR 2025, 7.5.8.1.
-- Explanation 430 znaków; A/B/C 103/99/98; poprawna B nie jest najdłuższa.
+- Explanation 430 znaków; A/B/C 103/99/98; poprawna B jest najdłuższa.
 - Rozkład A/B/C: 238/249/219; „poprawna = jedyna najdłuższa”: 75/706 = 10,62%.
 - ADR-B-09-K07 ma 5 pytań; moduł ADR-B-09 ma 56 pytań.
 - Snapshoty sequential/legal: 706-706; formalne zatwierdzenia: 0.
@@ -81,7 +81,7 @@
 
 - Bank: 705 pytań ADR-B-0001–0705; wszystkie `needs_review`, 0 `verified`; SHA `c1e4a8bb7c44771246bedf691b528f5f43b07630`.
 - ADR-B-0705 do ADR-B-08-K06: indywidualne rękawice ochronne i ochrona oczu dla każdego członka załogi; ADR 2025, 8.1.5.2.
-- Explanation 327 znaków; A/B/C 107/102/102; poprawna B nie jest najdłuższa.
+- Explanation 327 znaków; A/B/C 107/102/102; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji A/B/C: 238/248/219.
 - „Poprawna = jedyna najdłuższa”: 75/705 = 10,64%; maksimum modułu 13,95%.
 - ADR-B-08-K06 ma 5 pytań; moduł ADR-B-08 ma 46 pytań.
@@ -139,7 +139,7 @@
 
 - Bank: 699 pytań ADR-B-0001–0699; 700 `needs_review`, 0 `verified`; SHA `9359365b4381b3b644b70d9b80bd35d171256bd7`.
 - ADR-B-0699: dobór rozmiaru klina pod koło do DMC pojazdu i średnicy kół; ADR 2025, 8.1.5.2.
-- Explanation 331 znaków; A/B/C 108/105/103; poprawna B nie jest najdłuższa.
+- Explanation 331 znaków; A/B/C 108/105/103; poprawna B jest najdłuższa.
 - Rozkład odpowiedzi A/B/C: 237/243/219; „poprawna = jedyna najdłuższa”: 74/700 = 10,57%.
 - Raport: [Etap 4x273 — dobór klina pod koło](raporty/etap-4x273-dobor-klina-pod-kolo-2026-11-01.md).
 
@@ -252,7 +252,7 @@
 ## Poprzednia migawka — etap 4x253 (31.10.2026)
 
 - Dodano ADR-B-0679 do ADR-B-01-K07: rozdzielenie klasyfikacji towaru przez nadawcę od kontroli przewoźnika, kompletności danych i wstrzymania przewozu przy brakach (ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3, 5.4.1.1.1).
-- Explanation 375 znaków, 3 zdania; A/B/C 119/108/117, poprawna B nie jest najdłuższa.
+- Explanation 375 znaków, 3 zdania; A/B/C 119/108/117, poprawna B jest najdłuższa.
 - Bank: 679 pytań ADR-B-0001–0679; 679 `needs_review`, 0 `verified`; SHA `5df8cb5200a2c357cdcc04959893969d8ca448a0`.
 - A/B/C: 232/231/216; poprawna = jedyna najdłuższa: 72/679 = 10,60%.
 - Raport: `raporty/etap-4x253-odpowiedzialnosc-klasyfikacja-i-dane-adr-2026-10-31.md`.
@@ -571,6 +571,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x287 — odpowiedzialność umowna przy opóźnieniu przewozu](raporty/etap-4x287-odpowiedzialnosc-umowna-opoznienie-2026-11-02.md)
 - [Etap 4x286 — pierwsza pomoc po zabezpieczeniu miejsca](raporty/etap-4x286-pierwsza-pomoc-bezpieczna-scena-2026-11-02.md)
 - [Etap 4x285 — gaśnica dla jednostki transportowej z naczepą](raporty/etap-4x285-gasnica-jednostka-z-naczepa-2026-11-02.md)
 - [Etap 4x284 — dobór wyposażenia według nalepek](raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md)

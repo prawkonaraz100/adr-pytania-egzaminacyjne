@@ -1,12 +1,25 @@
+**Stan aktualny po etapie 4x287: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x287 (02.11.2026)
+
+- Bank: 713 pytań ADR-B-0001–0713; wszystkie `needs_review`, 0 `verified`; SHA `f308b1555c50d3f657c2d753c81273bc56dda1de`.
+- ADR-B-0713 do ADR-B-07-K07: odpowiedzialność umowna za opóźnienie przewozu; ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 471.
+- Explanation 475 znaków, 4 zdania; A/B/C 121/126/108; poprawna B jest najdłuższa.
+- Rozkład prawidłowych opcji: A=238, B=255, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/713 = 10,66%**; maksimum działu to 13,95%.
+- ADR-B-07-K07 ma 5 pytań; moduł ADR-B-07 ma 52 pytania.
+- Klucze i warianty 001–005 wskazują aktualny SHA banku; snapshoty sequential/legal 713-713; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x287-odpowiedzialnosc-umowna-opoznienie-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x286: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x286 (02.11.2026)
 
 - Bank: 712 pytań ADR-B-0001–0712; wszystkie `needs_review`, 0 `verified`; SHA `634d7c00f27f7213b70c6aeab716230d0eaa24dc`.
 - ADR-B-0712 do ADR-B-05-K11: pierwsza pomoc po potwierdzeniu bezpieczeństwa miejsca zdarzenia; ADR 2025, 8.2.2.3.2(e).
-- Explanation 439 znaków; A/B/C 108/98/96; poprawna B nie jest najdłuższa.
+- Explanation 439 znaków; A/B/C 108/98/96; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=254, C=220.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/712 = 10,53%**; maksimum działu to 13,95%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/713 = 10,66%**; maksimum działu to 13,95%.
 - ADR-B-05-K11 ma 5 pytań; moduł ADR-B-05 ma 72 pytania.
 - Klucze i warianty 001–005 zgodne z SHA banku; snapshoty sequential/legal 712-712; formalne zatwierdzenia: 0.
 - Raport: `podstawowy/raporty/etap-4x286-pierwsza-pomoc-bezpieczna-scena-2026-11-02.md`.
@@ -17,7 +30,7 @@
 
 - Bank: 711 pytań ADR-B-0001–0711; wszystkie `needs_review`, 0 `verified`; SHA `daa0a72906bb1ca4b6ea0724c4c8078126d3ce04`.
 - ADR-B-0711 do ADR-B-08-K02: gaśnica 2 kg dla całej jednostki transportowej z naczepą przy 1.1.3.6; ADR 2025, 1.2.1 i 8.1.4.2.
-- Explanation 382 znaki; A/B/C 157/119/103; poprawna B nie jest najdłuższa.
+- Explanation 382 znaki; A/B/C 157/119/103; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=253, C=220.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/711 = 10,55%**; maksimum działu to 13,95%.
 - ADR-B-08-K02 ma 5 pytań; moduł ADR-B-08 ma 48 pytań.
@@ -42,7 +55,7 @@
 
 - Bank: 709 pytań ADR-B-0001–0709; wszystkie `needs_review`, 0 `verified`; SHA `733efd0b63dc4b0048a03e53635faacd542ad6d2`.
 - ADR-B-0709 do ADR-B-01-K01: definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
-- Explanation 305 znaków; A/B/C 108/102/101; poprawna B nie jest najdłuższa.
+- Explanation 305 znaków; A/B/C 108/102/101; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=252, C=219.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/709 = 10,58%**; maksimum działu to 13,95%.
 - ADR-B-01-K01 ma 6 pytań; moduł ADR-B-01 ma 51 pytań.
@@ -54,7 +67,7 @@
 
 - Bank podstawowy: 708 pytań ADR-B-0001–0708; wszystkie `needs_review`, 0 `verified`; SHA `ee7a6a90e270e62cb6b24b0c2db1e15d9f8ae02c`.
 - ADR-B-0708 do ADR-B-10-K02: wymagany wpis w dokumencie dla przewozu zgodnego z 1.1.4.2.1; ADR 2025, 5.4.1.1.7.
-- Explanation 330 znaków; A/B/C 105/102/105; poprawna B nie jest najdłuższa.
+- Explanation 330 znaków; A/B/C 105/102/105; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=251, C=219.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/708 = 10,59%**; maksimum działu to 13,95%.
 - ADR-B-10-K02 ma 5 pytań; moduł ADR-B-10 ma 56 pytań.
@@ -66,7 +79,7 @@
 
 - Bank podstawowy: 707 pytań ADR-B-0001–0707; wszystkie `needs_review`, 0 `verified`; SHA `d2eaa0b3df4ee50661e30cf62554ae5ca62ea408`.
 - ADR-B-0707 do ADR-B-05-K08: bezpieczne usunięcie skażonej odzieży i użytych środków ochronnych; ADR 2025, 5.4.3.4.
-- Explanation 372 znaki; A/B/C 98/102/103; poprawna B nie jest najdłuższa.
+- Explanation 372 znaki; A/B/C 98/102/103; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=250, C=219.
 - „Poprawna = jedyna najdłuższa”: 75/707 = 10,61%; maksimum modułu: 13,95%.
 - ADR-B-05-K08 ma 5 pytań; moduł ADR-B-05 ma 71 pytań.
@@ -80,7 +93,7 @@
 
 - Bank: 706 pytań ADR-B-0001–0706; 706 `needs_review`, 0 `verified`; SHA `8d84e1a448cb25c1b597ba0bf82d4eb1125cb0fb`.
 - ADR-B-0706 do ADR-B-09-K07: bezpieczne przemieszczenie pojazdu do najbliższego miejsca czyszczenia, gdy nie można go oczyścić na placu rozładunku; ADR 2025, 7.5.8.1.
-- Explanation 430 znaków; A/B/C 103/99/98; poprawna B nie jest najdłuższa.
+- Explanation 430 znaków; A/B/C 103/99/98; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=249, C=219.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/707 = 10,61%**; maksimum działu to 13,95%.
 - ADR-B-09-K07 ma 5 pytań; moduł ADR-B-09 ma 56 pytań.
@@ -93,7 +106,7 @@
 
 - Bank: 705 pytań ADR-B-0001–0705; wszystkie `needs_review`, 0 `verified`; SHA `c1e4a8bb7c44771246bedf691b528f5f43b07630`.
 - ADR-B-0705 do ADR-B-08-K06: indywidualne rękawice ochronne i ochrona oczu dla każdego członka załogi; ADR 2025, 8.1.5.2.
-- Explanation 327 znaków; A/B/C 107/102/102; poprawna B nie jest najdłuższa.
+- Explanation 327 znaków; A/B/C 107/102/102; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=248, C=219.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/705 = 10,64%**; maksimum działu to 13,95%.
 - ADR-B-08-K06 ma 5 pytań; moduł ADR-B-08 ma 46 pytań.
@@ -168,7 +181,7 @@
 
 - Bank podstawowy: 699 pytań ADR-B-0001–0699; wszystkie `needs_review`, 0 `verified`; SHA `9359365b4381b3b644b70d9b80bd35d171256bd7`.
 - ADR-B-0699 do ADR-B-08-K04: dobór rozmiaru klina do dopuszczalnej masy całkowitej i średnicy kół; ADR 2025, 8.1.5.2.
-- Explanation 331 znaków; A/B/C 108/105/103; poprawna B nie jest najdłuższa.
+- Explanation 331 znaków; A/B/C 108/105/103; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=237, B=243, C=219.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **73/699 = 10,44%**; maksimum działu to 13,95%.
 - ADR-B-08-K04 ma 5 pytań; moduł ADR-B-08 ma 45 pytań.
@@ -548,14 +561,14 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 72 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
-| ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
+| ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **712** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **713** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
