@@ -1,3 +1,12 @@
+**Bieżący bank 4x305:** 731 pytań, 731 `needs_review`, 0 `verified`; SHA `7323023ff6f3fcb361caf625e781cd5cb1303d58`. Rejestr `REJESTR-AKTUALNY-0001-0731.md`. Kompetencje teorii <6: **49**.
+
+## Bieżąca migawka — etap 4x305
+
+- ADR-B-0731 do ADR-B-02-K14; brak grupy pakowania przy gazach klasy 2.
+- Podstawa: ADR 2025, 2.1.1.3; 3.2.1 tabela A, kolumna (4).
+- Bank 731, zero `verified`; licznik kompetencji teorii <6: **49**.
+- Raport: `podstawowy/raporty/etap-4x305-klasa2-brak-grupy-pakowania-2026-11-02.md`.
+
 **Bieżący bank 4x304:** 730 pytań, 730 `needs_review`, 0 `verified`; SHA `1c9843ec48321d6a46dbc75f9f104d034dc26dba`. Rejestr `REJESTR-AKTUALNY-0001-0730.md`. Kompetencje teorii <6: **50**.
 
 ## Bieżąca migawka — etap 4x304
