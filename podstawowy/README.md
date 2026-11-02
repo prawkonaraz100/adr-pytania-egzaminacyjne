@@ -2,7 +2,7 @@
 
 ## Bieżąca migawka — etap 4x287 (02.11.2026)
 
-- Bank: 713 pytań ADR-B-0001–0713; wszystkie `needs_review`, 0 `verified`; SHA `f308b1555c50d3f657c2d753c81273bc56dda1de`.
+- Bank: 713 `needs_review`, 0 `verified` (ADR-B-0001–0713); SHA `f308b1555c50d3f657c2d753c81273bc56dda1de`.
 - ADR-B-0713 do ADR-B-07-K07: odpowiedzialność umowna za opóźnienie przewozu; ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 471.
 - Explanation 475 znaków, 4 zdania; A/B/C 121/126/108; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=255, C=220.
