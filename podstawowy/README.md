@@ -1,3 +1,5 @@
+**Stan 4x299:** 725 `needs_review`, 0 `verified`; SHA `478c5ba299128427091e56dded4a19dddfaf0688`. Poprawna = jedyna najdłuższa: **79/725 = 10,90%**. Kompetencje teorii <6: **55**.
+
 **Stan 4x298:** 724 `needs_review`, 0 `verified`; SHA `ede1889d5ee07f9cb85a299a4ca095ebb897d034`. Poprawna = jedyna najdłuższa: **78/724 = 10,77%**. Kompetencje teorii <6 pytań: **56**.
 
 **Stan 4x297:** 723 `needs_review`, 0 `verified`; SHA `943c6943901df05242584ab2e8d438848ed959ff`. Poprawna = najdłuższa: **77/723 = 10,65%**. Kompetencje teorii z mniej niż sześcioma pytaniami: **57**.
