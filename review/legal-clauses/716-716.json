@@ -1,0 +1,60 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0716",
+  "date": "2026-11-02",
+  "scope": "ADR 5.4.3.2 sets the carrier's duty to provide instructions in language(s) each crew member can read and understand and to ensure each understands and can properly carry them out. ADR 5.4.3.3 requires crew members, before the journey, to familiarize themselves with the dangerous goods loaded and consult the instructions for actions in an accident or emergency.",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0716",
+      "order": 716,
+      "clause": "ADR 2025, 5.4.3.2–5.4.3.3",
+      "question_snapshot": {
+        "id": "ADR-B-0716",
+        "module_id": "ADR-B-05",
+        "stem": "Przed wyjazdem na trasę ADR przewoźnik przekazuje załodze instrukcje pisemne. Kierowca potrafi je przeczytać, ale nie rozumie kilku poleceń dotyczących postępowania przy awarii. Dyspozytor mówi, że wystarczy sama obecność dokumentu w kabinie. Co należy zrobić?",
+        "options": {
+          "A": "Rozpocząć przewóz, bo instrukcje są w kabinie; każdy może poprosić kolegę o pomoc dopiero podczas awarii.",
+          "B": "Zgłosić problem przewoźnikowi i przed wyjazdem uzyskać instrukcje zrozumiałe dla każdego członka załogi.",
+          "C": "Poprosić dyspozytora o krótkie ustne streszczenie, a pełną instrukcję przeczytać po zakończeniu trasy."
+        },
+        "correct_option": "B",
+        "explanation": "Sama obecność instrukcji w kabinie nie wystarczy, jeśli członek załogi nie rozumie poleceń. Przewoźnik musi przekazać instrukcje w języku, który każdy członek załogi może przeczytać i zrozumieć, oraz upewnić się, że potrafi je właściwie zastosować. Kierowca powinien zgłosić problem przed wyjazdem i uzyskać właściwą wersję oraz wyjaśnienie; ustne streszczenie nie zastępuje tego obowiązku. Podstawa: ADR 5.4.3.2–5.4.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.2 — przewoźnik przekazuje instrukcje w języku, który każdy członek załogi może przeczytać i zrozumieć, oraz zapewnia, że rozumie je i potrafi prawidłowo zastosować; 5.4.3.3 — załoga przed podróżą zapoznaje się z towarami i instrukcjami",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "UNECE, ADR 2025 linguistic versions and instructions in writing — before the journey, crew members familiarize themselves with the dangerous goods and consult written instructions",
+            "url": "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "The presence of a document in the cab does not satisfy the requirement if a crew member cannot understand and apply it."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "The carrier must provide instructions each crew member can read and understand, ensure they understand and can properly carry them out, and the crew must consult them before the journey."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "An oral summary does not replace the written instructions and the carrier's obligation to ensure the crew understands them before the journey."
+        }
+      },
+      "notes_on_conditions": "The question tests the carrier's duty under 5.4.3.2 and the crew's pre-journey familiarization under 5.4.3.3. It does not transfer the carrier's obligation to the driver.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+    }
+  ]
+}
