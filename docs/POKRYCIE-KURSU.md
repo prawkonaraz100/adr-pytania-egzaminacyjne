@@ -2,10 +2,10 @@
 
 ## Bieżąca migawka — etap 4x303
 
-- Bank: 729 `needs_review`, 0 `verified`; SHA `29dd69585e261ce1b8f6f9e5b1282cf4ec2d4be3`.
+- Bank: 729 `needs_review`, 0 `verified`; SHA `d8a8aa6d6ed591f16a765b89954fe70a11d4c8ed`.
 - ADR-B-0729 do ADR-B-02-K11 — rozpoznawanie materiałów promieniotwórczych klasy 7 (ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11).
 - Rozkład prawidłowych opcji: A=242, B=262, C=225.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **82/729 = 11,25%**; maksimum działu to 16,09%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/729 = 11,11%**; maksimum działu to 14,94%.
 - Kompetencje teoretyczne z mniej niż 6 pytaniami: **51**.
 - Raport: `podstawowy/raporty/etap-4x303-klasa7-promieniotworcze-2026-11-02.md`.
 
