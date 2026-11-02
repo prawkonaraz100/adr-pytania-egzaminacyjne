@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x311: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x311
+
+- Bank: **737** pytań, 737 `needs_review`, 0 `verified`; SHA `fd06cfd4d0d67d5285afa71981e1b2e448d71143`.
+- ADR-B-0737 do ADR-B-04-K02: zgoda odbiorcy nie uchyla zakazu otwierania sztuki przesyłki przez kierowcę ani pomocnika (ADR 2025, 8.3.3).
+- Moduł ADR-B-04: **50** pytań; kompetencja K02: 5→6.
+- Rozkład prawidłowych opcji: A=248, B=264, C=225.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/737 = 10,99%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **43** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x311-zakaz-otwierania-zgoda-odbiorcy-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x310: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x310
@@ -838,7 +850,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 89 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
-| ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 48 | 0 | Lekcja + mapa pytań |
+| ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 76 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
@@ -848,7 +860,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **736** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **737** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
