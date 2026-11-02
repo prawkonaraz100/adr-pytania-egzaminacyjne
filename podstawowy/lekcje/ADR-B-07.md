@@ -276,3 +276,10 @@ Gdy podczas przewozu ADR używasz latarki, jej powierzchnia metalowa nie może s
 ### Połączenie ABS między ciągnikiem i przyczepą (ADR-B-07-K06)
 
 Jeżeli jednostka transportowa ma układ ABS, a maksymalna masa przyczepy przekracza 3,5 t, wymagane połączenia elektryczne układu ABS muszą łączyć ciągnik z przyczepą przez cały przewóz. Nie wystarczy, że zwykłe hamulce działają: rozłączone złącze trzeba przywrócić przed dalszą jazdą. W praktyce kierowca powinien sprawdzić połączenie po sprzęgnięciu zestawu i reagować, gdy zostanie przerwane. Pytanie: ADR-B-0664. Podstawa: ADR 8.3.8 w związku z 9.2.2.6.
+
+
+### Opóźnienie przewozu a odpowiedzialność umowna (ADR-B-0713)
+
+Jeżeli przewoźnik nie dostarczy ładunku w terminie, sam fakt opóźnienia nie przesądza jeszcze o obowiązku zapłaty odszkodowania. Trzeba ustalić, dlaczego termin nie został dotrzymany i czy przyczyna była okolicznością, za którą przewoźnik odpowiada. Przykładowo nagłe zamknięcie drogi po osunięciu ziemi może mieć znaczenie, ale nie rozstrzyga sprawy bez sprawdzenia faktów, dostępnych objazdów i obowiązków przewoźnika. Kierowca powinien niezwłocznie przekazać dyspozytorowi informację o przeszkodzie i zachować dostępne potwierdzenia; nie powinien samodzielnie przesądzać o odpowiedzialności prawnej. Podstawa: ADR 8.2.2.3.2(k); Kodeks cywilny, art. 471.
+
+**Pytanie kontrolne:** ADR-B-0713 — czy każde opóźnienie przewozu automatycznie oznacza obowiązek zapłaty odszkodowania?
