@@ -1,3 +1,12 @@
+**Bieżący bank 4x309:** 735 pytań, 735 `needs_review`, 0 `verified`; SHA `9c6375775b1f40f18aad9124aa6b963e752ebb64`. Rejestr `REJESTR-AKTUALNY-0001-0735.md`. Kompetencje teorii <6: **45**.
+
+## Bieżąca migawka — etap 4x309
+
+- ADR-B-0735 do ADR-B-03-K05; dokumenty pozostawione w kabinie za rozlewem — nie wchodzić w skażony obszar.
+- Podstawa: ADR 2025, 5.4.3.4 — model instrukcji pisemnych.
+- Bank 735, zero `verified`; licznik kompetencji teorii <6: **45**.
+- Raport: `podstawowy/raporty/etap-4x309-rozlew-dokumenty-strona-nawietrzna-2026-11-02.md`.
+
 **Bieżący bank 4x308:** 734 pytań, 734 `needs_review`, 0 `verified`; SHA `27ff86cdb1ea2d4df14008965f54d9d0b8b435ee`. Rejestr `REJESTR-AKTUALNY-0001-0734.md`. Kompetencje teorii <6: **46**.
 
 ## Bieżąca migawka — etap 4x308
