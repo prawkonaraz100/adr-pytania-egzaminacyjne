@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x294
 
-- Bank: 720 `needs_review`, 0 `verified`; SHA `3b7e028fc0091bde174feeaecc9c6d7018d14c5c`.
+- Bank: 720 `needs_review`, 0 `verified`; SHA `e9997f72bef99fba15cbd45143e15d1e03b79aa3`.
 - ADR-B-0720, ADR-B-01-K04: warunkowe wyłączenie dla maszyn/urządzeń z towarem niebezpiecznym w konstrukcji lub wyposażeniu; ADR 2025, 1.1.3.1(b).
 - Licznik kompetencji teorii z mniej niż 6 pytaniami: **60**; trzy kompetencje praktyczne wyłączone.
 - Raport `podstawowy/raporty/etap-4x294-maszyny-urzadzenia-wylaczenie-2026-11-02.md`; indeks `review/specialist/REJESTR-AKTUALNY-0001-0720.md`.
