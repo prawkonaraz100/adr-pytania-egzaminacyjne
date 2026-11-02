@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x289
+
+- **Bank:** 715 `needs_review`, 0 `verified`; SHA `20fcc1cd274abfb225132b80139cac172581c1e1`.
+- **Pytanie:** ADR-B-0715 — RKO/AED; ADR 8.2.2.3.2(e), 8.2.2.3.8; ERC Guidelines 2025.
+- **Raport:** `podstawowy/raporty/etap-4x289-rko-aed-praktyczna-pierwsza-pomoc-2026-11-02.md`.
+
 **Bieżący bank — 4x289:** 715 pytań ADR-B-0001–0715, wszystkie `needs_review`, 0 `verified`; SHA `20fcc1cd274abfb225132b80139cac172581c1e1`. Indeks: `REJESTR-AKTUALNY-0001-0715.md`; raport: `podstawowy/raporty/etap-4x289-rko-aed-praktyczna-pierwsza-pomoc-2026-11-02.md`.
 
 **Stan aktualny po etapie 4x288: 02.11.2026.**
