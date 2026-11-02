@@ -6,7 +6,7 @@
 - Kompetencja wzrosła z 5 do 6 pytań; kompetencje teorii z mniej niż 6 pytaniami: **40** (3 praktyczne pominięte).
 - Bank: 740 pytań (ADR-B-0001–0740), 740 `needs_review`, 0 `verified`; SHA `9a04009ad8e65d597c70d3e337f861c672f840f3`.
 - Moduł ADR-B-05: 78 pytań.
-- Rozkład kluczy A/B/C: 248/264/228.
+- Rozkład kluczy A/B/C: 248/265/227.
 - „Poprawna odpowiedź jest jedyną najdłuższą”: **81/740 = 10,95%**; maksimum działu **14,61%**. Długości opcji ADR-B-0740: A=105, B=89, C=103; poprawna B nie jest najdłuższa.
 - Explanation: 405 znaków, 4 zdania. Wyjaśnia, że górny numer tablicy oznacza zagrożenie, a dolny numer UN identyfikuje towar; przypomina o bezpiecznym odczycie i przekazaniu danych.
 - Podstawa: ADR 2025, 5.3.2.2.2 i 5.4.3.4. Status `needs_review`; pełne literalne porównanie i niezależna recenzja pozostają otwarte.
