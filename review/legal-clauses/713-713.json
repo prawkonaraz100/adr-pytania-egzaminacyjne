@@ -1,0 +1,62 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0713",
+  "date": "2026-11-02",
+  "scope": "ADR 2025, 8.2.2.3.2(k): the basic driver training course must cover general information concerning civil liability. Polish Civil Code article 471 provides the general contractual-liability rule for damage resulting from non-performance or improper performance, unless caused by circumstances for which the debtor is not responsible. The question does not state that a sudden road closure automatically exempts the carrier.",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "supplementary_source": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0713",
+      "order": 713,
+      "clause": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 471 (t.j. Dz.U. 2026 poz. 795)",
+      "question_snapshot": {
+        "id": "ADR-B-0713",
+        "module_id": "ADR-B-07",
+        "stem": "Przewoźnik zobowiązał się dostarczyć ładunek do odbiorcy w określonym terminie. W drodze służby nagle zamknęły drogę po osunięciu ziemi, a bezpieczny objazd nie pozwalał dotrzeć na czas. Odbiorca żąda odszkodowania za opóźnienie. Które stwierdzenie najlepiej oddaje ogólną zasadę odpowiedzialności umownej?",
+        "options": {
+          "A": "Przewoźnik zawsze płaci odszkodowanie za niedotrzymanie terminu, nawet gdy przyczyna opóźnienia była od niego niezależna.",
+          "B": "Odpowiedzialność nie jest automatyczna; trzeba ustalić, czy opóźnienie wynikało z okoliczności, za które przewoźnik odpowiada.",
+          "C": "Za opóźnienie odpowiada wyłącznie kierowca, bo prowadził pojazd, nawet gdy umowę przewozu zawarł przewoźnik."
+        },
+        "correct_option": "B",
+        "explanation": "Sam fakt opóźnienia nie przesądza jeszcze o obowiązku zapłaty odszkodowania. Trzeba ustalić, czy przewoźnik odpowiada za przyczynę niewykonania terminu, czy wynikała ona z okoliczności, za które nie ponosi odpowiedzialności; samo zamknięcie drogi nie rozstrzyga sprawy bez oceny faktów. Błędne jest zarówno automatyczne obciążenie przewoźnika za każde opóźnienie, jak i przerzucenie całej odpowiedzialności na kierowcę. Podstawa: ADR 8.2.2.3.2(k); art. 471 Kodeksu cywilnego.",
+        "sources": [
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.2.2.3.2(k) — zakres kursu podstawowego obejmuje ogólne informacje o odpowiedzialności cywilnej",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "KC-2026-795",
+            "reference": "Dz.U. 2026 poz. 795, Kodeks cywilny, art. 471 — odpowiedzialność za szkodę wynikłą z niewykonania lub nienależytego wykonania zobowiązania, z wyjątkiem okoliczności, za które dłużnik nie odpowiada",
+            "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL+KC-2026",
+        "verification_status": "needs_review"
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "It incorrectly makes the carrier liable for every missed deadline regardless of the reason."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "It reflects the general rule in article 471: circumstances for which the debtor is not responsible may matter; the scenario does not decide the outcome automatically."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "It incorrectly assigns contractual responsibility only to the driver, ignoring that the carrier is the party to the transport contract."
+        }
+      },
+      "notes_on_conditions": "The scenario specifies an unexpected official road closure and lack of a safe route that would allow timely delivery. These facts are relevant but do not, by themselves, decide the carrier's liability.",
+      "editorial_result": "Adds a practical contractual-delay scenario to ADR-B-07-K07, which previously had four questions.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+    }
+  ]
+}
