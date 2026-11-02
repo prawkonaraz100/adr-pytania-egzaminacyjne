@@ -14,10 +14,10 @@
 
 Podczas kontroli dokumentów kierowca widzi, że sztuka przesyłki ma etykietę z czarnym symbolem koniczyny promieniotwórczej i cyfrą 7. Do jakiej klasy ADR należy ten ładunek?
 
-A. Do klasy 6.2 — materiały zakaźne, które mogą przenosić drobnoustroje chorobotwórcze.
+A. Do klasy 6.2 — materiały zakaźne, które przenoszą drobnoustroje chorobotwórcze u ludzi i zwierząt.
 
 B. Do klasy 7 — materiały promieniotwórcze, wymagające rozpoznania zagrożenia radiacyjnego.
 
-C. Do klasy 5.1 — materiały utleniające, które mogą nasilać spalanie innych substancji.
+C. Do klasy 5.1 — materiały utleniające, które mogą nasilać spalanie innych substancji palnych.
 
 Symbol koniczyny i numer 7 wskazują na materiały promieniotwórcze klasy 7. Kierowca powinien rozpoznać tę klasę, ponieważ przewóz wiąże się z zagrożeniem promieniowaniem jonizującym, a nie z zakażeniem czy nasilaniem pożaru. Nie należy mylić numeru klasy z klasą 6.2 ani 5.1. Podstawa: ADR 2025, 2.2.7.1.1.1 oraz 5.2.2.1.11.
