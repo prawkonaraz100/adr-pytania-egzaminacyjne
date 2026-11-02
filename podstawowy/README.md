@@ -1,3 +1,7 @@
+**Stan na 02.11.2026, etap 4x307**
+
+**Stan 4x307:** 733 `needs_review`, 0 `verified`; SHA `0ca9332689073fc3750b9e0bd5d7a4a93e9a1d0b`. Poprawna = jedyna najdłuższa: **81/733 = 11,05%**; maksimum działu **14,61%**. Kompetencje teorii <6: **47**.
+
 **Stan na 02.11.2026, etap 4x306**
 
 **Stan 4x306:** 732 `needs_review`, 0 `verified`; SHA `2896a94357e8cd8b745602efc7f425960e89ca6a`. Poprawna = jedyna najdłuższa: **81/732 = 11,07%**; maksimum działu **14,61%**. Kompetencje teorii <6: **48**.
@@ -694,6 +698,8 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+
+- [Etap 4x307 — czyszczenie po przewozie luzem: wyjątek tylko dla tego samego towaru](raporty/etap-4x307-czyszczenie-przewoz-luzem-ten-sam-towar-2026-11-02.md)
 
 - [Etap 4x306 — odpad sklasyfikowany według 2.1.3.5.5: dopisek w dokumencie](raporty/etap-4x306-odpad-21355-dopisek-w-dokumencie-2026-11-02.md)
 
