@@ -1,3 +1,7 @@
+**Stan na 02.11.2026, etap 4x310**
+
+**Stan 4x310:** 736 `needs_review`, 0 `verified`; SHA `1c1ee10536eceecdc7cc34cdb2675f8605036c30`. Poprawna = jedyna najdłuższa: **81/736 = 11,01%**; maksimum działu **14,61%**. Kompetencje teorii <6: **44**.
+
 **Stan na 02.11.2026, etap 4x309**
 
 **Stan 4x309:** 735 `needs_review`, 0 `verified`; SHA `9c6375775b1f40f18aad9124aa6b963e752ebb64`. Poprawna = jedyna najdłuższa: **81/735 = 11,02%**; maksimum działu **14,61%**. Kompetencje teorii <6: **45**.
@@ -706,6 +710,8 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+
+- [Etap 4x310 — zakaz palenia podczas przeładunku](raporty/etap-4x310-zakaz-palenia-przeladunek-2026-11-02.md)
 
 - [Etap 4x309 — rozlew: dokumenty w kabinie, strona nawietrzna](raporty/etap-4x309-rozlew-dokumenty-strona-nawietrzna-2026-11-02.md)
 

@@ -1,0 +1,46 @@
+{
+  "batch": "736-736",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0736",
+      "sequence": 736,
+      "exact_record_snapshot": {
+        "stem": "Podczas przeładunku towarów niebezpiecznych pracownik magazynu staje obok pojazdu i zapala papierosa. Tłumaczy, że zakaz z ADR dotyczy tylko kierowcy i wnętrza kabiny. Jak należy ocenić tę sytuację?",
+        "options": {
+          "A": "Przerwać czynność i zażądać zaprzestania palenia; zakaz obejmuje obsługę ładunku w pobliżu pojazdu, również gdy pali pracownik spoza załogi.",
+          "B": "Pozwolić dokończyć papierosa, bo przepis z 8.3.5 dotyczy tylko kierowcy i pomocnika, a pracownik magazynu nie należy do załogi pojazdu.",
+          "C": "Pozwolić palić na zewnątrz, jeśli osoba stoi poza kabiną; zakaz dotyczy tylko wnętrza pojazdu i tradycyjnych papierosów, nie samego przeładunku."
+        },
+        "correct_option": "A",
+        "explanation": "Zakaz z ADR 8.3.5 obowiązuje podczas czynności ładunkowych w pobliżu pojazdów oraz wewnątrz nich, a nie tylko w kabinie. Przepis obejmuje też e-papierosy i podobne urządzenia; nie ogranicza zakazu do kierowcy, bo dotyczy miejsca i czasu wykonywania operacji. Dlatego pracownik magazynu nie może palić przy pojeździe podczas przeładunku. Podstawa: ADR 2025, 8.3.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.5 — zakaz palenia podczas czynności ładunkowych w pobliżu pojazdów i wewnątrz nich, także e-papierosów i podobnych urządzeń",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.3.5: smoking is prohibited during handling operations in the vicinity of vehicles and inside vehicles; prohibition also applies to electronic cigarettes and similar devices",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
