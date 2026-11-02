@@ -1,0 +1,46 @@
+{
+  "batch": "729-729",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0729",
+      "sequence": 729,
+      "exact_record_snapshot": {
+        "stem": "Podczas kontroli dokumentów kierowca widzi, że sztuka przesyłki ma etykietę z czarnym symbolem koniczyny promieniotwórczej i cyfrą 7. Do jakiej klasy ADR należy ten ładunek?",
+        "options": {
+          "A": "Do klasy 6.2 — materiały zakaźne, które mogą przenosić drobnoustroje chorobotwórcze.",
+          "B": "Do klasy 7 — materiały promieniotwórcze, wymagające rozpoznania zagrożenia radiacyjnego.",
+          "C": "Do klasy 5.1 — materiały utleniające, które mogą nasilać spalanie innych substancji."
+        },
+        "correct_option": "B",
+        "explanation": "Symbol koniczyny i numer 7 wskazują na materiały promieniotwórcze klasy 7. Kierowca powinien rozpoznać tę klasę, ponieważ przewóz wiąże się z zagrożeniem promieniowaniem jonizującym, a nie z zakażeniem czy nasilaniem pożaru. Nie należy mylić numeru klasy z klasą 6.2 ani 5.1. Podstawa: ADR 2025, 2.2.7.1.1.1 oraz 5.2.2.1.11.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 2.2.7.1.1.1 and 5.2.2.1.11 radioactive material classification and label",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
