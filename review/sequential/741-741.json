@@ -1,0 +1,51 @@
+{
+  "batch": "741-741",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0741",
+      "sequence": 741,
+      "exact_record_snapshot": {
+        "stem": "Po awarii z uszkodzonej przesyłki wydobywa się drobny pył. Wiatr niesie go w stronę kierowcy stojącego przy poboczu. Które działanie jest zgodne z instrukcjami pisemnymi ADR?",
+        "options": {
+          "A": "Pozostać po stronie zawietrznej w większej odległości, bo pył po rozproszeniu nie powinien już stanowić zagrożenia dla kierowcy.",
+          "B": "Przejść przez chmurę pyłu na drugą stronę, a potem poczekać, aż opadnie, zanim kierowca wróci do pojazdu po dokumenty.",
+          "C": "Odejść od pyłu i pozostać po stronie nawietrznej, tak by wiatr niósł go od kierowcy."
+        },
+        "correct_option": "C",
+        "explanation": "Pył z uszkodzonej przesyłki może dostać się do dróg oddechowych, dlatego kierowca powinien oddalić się i pozostać po stronie nawietrznej. Oznacza to miejsce, z którego wiatr wieje w stronę chmury, a nie takie, na które ją niesie. Nie zakładaj, że rozproszony pył jest bezpieczny, ani nie przechodź przez chmurę. Podstawa: ADR 2025, 5.4.3.4 — unikanie wdychania pyłu przez pozostawanie po stronie nawietrznej.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — unikać wdychania dymu, pyłu, oparów i par przez pozostawanie po stronie nawietrznej",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, tom II, instrukcje pisemne, 5.4.3.4 — avoid inhalation of fumes, smoke, dusts and vapours by staying up wind",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 5.4.3.4 written instructions: do not walk into or touch spilled substances and avoid inhalation of fumes, smoke, dusts and vapours by staying up wind",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
