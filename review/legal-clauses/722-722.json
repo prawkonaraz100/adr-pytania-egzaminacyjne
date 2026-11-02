@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0722",
+  "date": "2026-11-02",
+  "scope": "ADR 2025, 2.2.3.1.1 — flammable liquids and flash point",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0722",
+      "order": 722,
+      "clause": "ADR 2025, 2.2.3.1.1",
+      "question_snapshot": {
+        "id": "ADR-B-0722",
+        "module_id": "ADR-B-02",
+        "stem": "Kierowca ma przewieźć ciecz, której dokumentacja podaje temperaturę zapłonu 18°C. Na placu załadunkowym jest tylko 8°C. Jak powinien rozumieć ryzyko pożaru przy otwieraniu opakowania?",
+        "options": {
+          "A": "Chłodniejsze powietrze usuwa zagrożenie zapłonem, więc kontrola źródeł ognia nie jest konieczna.",
+          "B": "Ciecz nadal wymaga ostrożności: jej pary mogą się zapalić, dlatego trzeba unikać źródeł zapłonu.",
+          "C": "Temperatura zapłonu dotyczy wyłącznie wrzenia cieczy, więc nie ma znaczenia przy załadunku."
+        },
+        "correct_option": "B",
+        "explanation": "Temperatura zapłonu 18°C informuje, że ciecz może tworzyć palne pary już w stosunkowo niskiej temperaturze. Chłodny poranek nie daje kierowcy prawa do lekceważenia źródeł zapłonu, a temperatura zapłonu nie oznacza temperatury wrzenia. Dlatego przy obsłudze takiego ładunku trzeba zachować ostrożność wobec ognia i iskier. Podstawa: ADR 2025, 2.2.3.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.3.1.1",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Identifying the UN number and proper shipping name is not enough if the row links to a special provision with further conditions."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Correct packaging and a document do not waive the need to check a listed special provision's applicability."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Column (6) identifies special provisions whose contents in chapter 3.3 must be consulted for the relevant entry."
+        }
+      },
+      "notes_on_conditions": "Temperatura zapłonu to nie temperatura wrzenia; klasyfikacja musi uwzględniać kryteria i wyjątki 2.2.3.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+    }
+  ]
+}
