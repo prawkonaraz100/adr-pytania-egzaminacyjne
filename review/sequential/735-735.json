@@ -1,0 +1,45 @@
+{
+  "batch": "735-735",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0735",
+      "sequence": 735,
+      "exact_record_snapshot": {
+        "stem": "Po awarii kierowca widzi, że dokumenty przewozowe pozostały w kabinie. Jedyna droga do pojazdu prowadzi przez rozlew, a wiatr niesie opary w jego stronę. Co powinien zrobić, aby ograniczyć ryzyko skażenia i postąpić zgodnie z instrukcjami pisemnymi ADR?",
+        "options": {
+          "A": "Nie wchodzić w rozlew ani opary; odejść na stronę nawietrzną, ostrzec innych i wskazać służbom miejsce dokumentów. Udostępnić je dopiero wtedy, gdy będzie to bezpieczne.",
+          "B": "Założyć rękawice ochronne z wyposażenia, przejść najkrótszą drogą przez rozlew i zabrać dokumenty; ich natychmiastowa dostępność dla ratowników ma pierwszeństwo przed ryzykiem skażenia.",
+          "C": "Zostać przy pojeździe po stronie zawietrznej, pilnować kabiny i czekać na ustąpienie oparów; pozostanie przy ładunku ograniczy dostęp osób postronnych i pozwoli zachować dokumenty."
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcje pisemne wymagają, by dokumenty były dostępne dla ratowników, ale nie nakazują narażać załogi na wejście w rozlew. Nie wolno chodzić po rozlanej substancji ani wdychać oparów; trzeba oddalić się na stronę nawietrzną, ostrzec innych i przekazać służbom, gdzie znajdują się dokumenty. Przejście przez rozlew w rękawicach nie jest bezpieczne, a pozostawanie po stronie zawietrznej zwiększa narażenie. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — model instrukcji pisemnych: dostępność dokumentów, zakaz wchodzenia w rozlew, unikanie oparów po stronie nawietrznej, oddalenie się i ostrzeżenie innych",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 5.4.3.4 written instructions: keep transport documents available for responders; do not walk into or touch spilled substances; avoid inhalation by staying upwind; move away, advise others to move away and follow emergency services advice",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
