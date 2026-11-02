@@ -289,3 +289,16 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowe błędy:** uznanie samej obecności dokumentu za wystarczającą; poleganie wyłącznie na ustnym streszczeniu; odkładanie lektury do chwili wypadku.
 
 **Podstawa:** ADR 2025, 5.4.3.1–5.4.3.3. Ćwiczenie sprawdza rozumienie obowiązku i przygotowanie załogi, nie zastępuje oficjalnych instrukcji ani ich właściwej wersji językowej.
+
+
+## Ćwiczenie instruktorskie — osłona gaśnicy (ADR-B-0717)
+
+**Cel:** kursant potrafi zauważyć problem zamocowania gaśnicy i wyjaśnić, dlaczego dostępność oraz ochrona przed wpływem pogody muszą występować łącznie.
+
+**Przebieg:** pokaż dwie symulowane konfiguracje: gaśnicę dostępną na zewnątrz pojazdu, ale z uszkodzoną osłoną, oraz gaśnicę w schowku otwieranym dopiero po zdobyciu klucza. Poproś kursanta o ocenę obu rozwiązań oraz wskazanie sposobu naprawienia niezgodności bez opóźniania dostępu do sprzętu.
+
+**Kryteria obserwacji:** kursant rozpoznaje oba niezależne wymagania: łatwą dostępność dla załogi i ochronę przed działaniem pogody, które mogłoby zagrozić sprawności gaśnicy.
+
+**Typowe błędy:** uznanie, że wystarczy łatwy dostęp bez ochrony; wybór schowka zamykanego na klucz; założenie, że zewnętrzne mocowanie jest zawsze zabronione.
+
+**Podstawa:** ADR 2025, 8.1.4.5; praktyczne ćwiczenia gaszenia pożaru w 8.2.2.3.8. Ćwiczenie nie zastępuje właściwej konserwacji lub kontroli sprzętu.
