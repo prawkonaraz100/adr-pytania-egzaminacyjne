@@ -1,0 +1,46 @@
+{
+  "batch": "739-739",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0739",
+      "sequence": 739,
+      "exact_record_snapshot": {
+        "stem": "Po awarii kierowca zatrzymał pojazd w bezpiecznym miejscu i wyłączył silnik. Wyłącznik główny akumulatora znajduje się przy uszkodzonej części pojazdu, do której nie można bezpiecznie podejść. Co powinien zrobić?",
+        "options": {
+          "A": "Podejść do wyłącznika mimo ryzyka, ponieważ odłączenie akumulatora zawsze ma pierwszeństwo przed własnym bezpieczeństwem.",
+          "B": "Uruchomić ponownie silnik i przestawić pojazd, zanim kierowca oceni miejsce awarii i ostrzeże innych.",
+          "C": "Nie narażać się dla wyłącznika; oddalić się, ostrzec innych i wykonać dalsze bezpieczne czynności."
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne stosuje się tylko wtedy, gdy dane działanie jest możliwe i bezpieczne; nie wolno ryzykować wejścia w strefę zagrożenia dla obsługi wyłącznika. Podejście do uszkodzonej części może narazić kierowcę na wyciek lub opary, a ponowne uruchomienie silnika nie jest bezpiecznym sposobem rozwiązania sytuacji. Oddal się, ostrzeż innych i postępuj według kolejnych punktów instrukcji. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — działania w razie wypadku lub awarii, o ile są możliwe i bezpieczne",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.4.3.4: written emergency instructions apply where possible and safe; stop vehicle, switch off engine and operate the battery master switch where available, while avoiding unsafe actions",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
