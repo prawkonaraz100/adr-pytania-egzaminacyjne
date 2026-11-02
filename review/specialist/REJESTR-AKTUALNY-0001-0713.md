@@ -2,9 +2,11 @@
 
 - Bank: 713 pytań ADR-B-0001–0713; 713 `needs_review`, 0 `verified`; SHA `f308b1555c50d3f657c2d753c81273bc56dda1de`.
 - ADR-B-0713 — odpowiedzialność umowna przy opóźnieniu przewozu; ADR 2025, 8.2.2.3.2(k), Kodeks cywilny art. 471.
-- Explanation 475 znaków; A/B/C 121/126/108; poprawna B nie jest najdłuższa.
-- Rozkład A/B/C: 238/255/220; „poprawna = jedyna najdłuższa”: 75/713 = 10,52%.
+- Explanation 475 znaków; A/B/C 121/126/108; poprawna B jest najdłuższa.
+- Rozkład A/B/C: 238/255/220; „poprawna = jedyna najdłuższa”: 76/713 = 10,66%.
 - Formalne zatwierdzenia: 0; pełne porównanie literalne i niezależna recenzja pozostają otwarte.
+ 
+## Stan historyczny po etapie 4x286
 
 - Bank: 712 pytań ADR-B-0001–0712; 712 `needs_review`, 0 `verified`; SHA `634d7c00f27f7213b70c6aeab716230d0eaa24dc`.
 - ADR-B-0712 — pierwsza pomoc po zabezpieczeniu miejsca zdarzenia; ADR 2025, 8.2.2.3.2(e).
