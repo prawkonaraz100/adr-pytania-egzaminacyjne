@@ -1,0 +1,46 @@
+{
+  "batch": "734-734",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0734",
+      "sequence": 734,
+      "exact_record_snapshot": {
+        "stem": "Jednostka przewozi UN 3082, materiał zagrażający środowisku, ciekły I.N.O., oznakowany nalepką 9. Kierowca sprawdza wyposażenie dodatkowe przed wyjazdem. Który zestaw musi znajdować się w pojeździe?",
+        "options": {
+          "A": "Łopata, osłona kanalizacyjna i pojemnik do zebrania pozostałości; wymóg obejmuje także towary z nalepką 9.",
+          "B": "Tylko osłona kanalizacyjna; łopata i pojemnik są wymagane wyłącznie przy nalepce 8.",
+          "C": "Wyposażenie dodatkowe nie jest wymagane przy klasie 9, ponieważ zagrożenie środowiska oznacza wyłącznie obowiązek odpowiedniego oznakowania opakowania."
+        },
+        "correct_option": "A",
+        "explanation": "Przepis 8.1.5.2 obejmuje towary z nalepką 9 tak samo jak wskazane tam klasy i wymaga łopaty, osłony kanalizacyjnej oraz pojemnika do zebrania pozostałości. Nie jest to wyposażenie zarezerwowane wyłącznie dla klasy 8. Odpowiedź B pomija dwa wymagane elementy, a C błędnie wyłącza klasę 9. Podstawa: ADR 2025, 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.1.5.2: additional equipment including a shovel, drain seal and collecting container is required for transport units carrying dangerous goods with labels 3, 4.1, 4.3, 8 or 9",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
