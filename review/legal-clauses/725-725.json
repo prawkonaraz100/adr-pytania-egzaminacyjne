@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0725",
+  "date": "2026-11-02",
+  "scope": "ADR 2025, 2.2.51.1.1",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0725",
+      "order": 725,
+      "clause": "ADR 2025, 2.2.51.1.1",
+      "question_snapshot": {
+        "id": "ADR-B-0725",
+        "module_id": "ADR-B-02",
+        "stem": "Przy przyjęciu ładunku klasy 5.1 pracownik mówi: „Ten materiał sam nie musi się palić, więc nie wpłynie na pożar kartonów obok”. Która ocena jest prawidłowa?",
+        "options": {
+          "A": "Pracownik ma rację: tylko ładunek, który sam płonie, może zwiększyć zagrożenie pożarowe w pojeździe.",
+          "B": "Pracownik się myli: utleniacz może podtrzymywać lub nasilać spalanie innych materiałów, choć sam nie płonie.",
+          "C": "Pracownik ma rację: utleniacze oddziałują wyłącznie na metale, a nie na zwykłe materiały palne."
+        },
+        "correct_option": "B",
+        "explanation": "Materiały utleniające klasy 5.1 nie muszą same się palić, ale mogą dostarczać tlen lub w inny sposób nasilać spalanie sąsiedniego ładunku. Dlatego kartony i inne materiały palne nadal mogą być poważnie zagrożone. Twierdzenia, że utleniacz nie wpływa na pożar albo działa tylko na metale, są błędne. Podstawa: ADR 2025, 2.2.51.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.51.1.1",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Utlentiacze mogą nasilać pożar innych materiałów bez własnej palności."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Klasa 5.1 może podtrzymywać lub nasilać spalanie innych materiałów, zazwyczaj poprzez dostarczanie tlenu."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Oddziaływanie utleniaczy nie ogranicza się tylko do metali, może dotyczyć innych palnych materiałów."
+        }
+      },
+      "notes_on_conditions": "Nie każdy utleniacz jest sam palny; zagrożenie dotyczy wpływu na spalanie innych materiałów, a konkretne warunki zależą od pozycji przewozowej.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
