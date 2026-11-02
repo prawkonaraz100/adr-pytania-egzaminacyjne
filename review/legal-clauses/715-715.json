@@ -1,0 +1,65 @@
+{
+  "title": "ADR 2025 legal-clause and source comparison: question 0715",
+  "date": "2026-11-02",
+  "scope": "ADR 8.2.2.3.2(e) lists what to do after an accident, including first aid, as a basic-course subject. ADR 8.2.2.3.8 requires individual practical exercises covering at least first aid. The CPR/AED sequence is supported by ERC Guidelines 2025 Adult Basic Life Support; it is supplementary first-aid guidance, not a verbatim ADR rule.",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0715",
+      "order": 715,
+      "clause": "ADR 2025, 8.2.2.3.2(e); 8.2.2.3.8",
+      "question_snapshot": {
+        "id": "ADR-B-0715",
+        "module_id": "ADR-B-05",
+        "stem": "Podczas ćwiczenia praktycznego z pierwszej pomocy po wypadku kierowca podchodzi do poszkodowanego, który nie reaguje na głos i nie oddycha prawidłowo. Miejsce jest bezpieczne. Która kolejność działań jest właściwa?",
+        "options": {
+          "A": "Ułożyć poszkodowanego na boku, obserwować oddech i czekać na przyjazd ratowników, nie rozpoczynając RKO.",
+          "B": "Zadzwonić pod 112 z włączonym głośnikiem, rozpocząć RKO według dyspozytora i użyć AED, gdy będzie dostępne.",
+          "C": "Podać poszkodowanemu wodę, potrząsać nim i próbować go ocucić, a wezwanie pomocy odłożyć na później, bez oceny oddechu."
+        },
+        "correct_option": "B",
+        "explanation": "Jeśli miejsce jest bezpieczne, brak prawidłowego oddechu u nieprzytomnej osoby oznacza podejrzenie zatrzymania krążenia. Zadzwoń pod 112, włącz głośnik i rozpocznij RKO, wykonując polecenia dyspozytora; poproś kogoś o przyniesienie AED i użyj go zgodnie z komunikatami. Pozycja boczna jest właściwa dla osoby nieprzytomnej, która oddycha prawidłowo, a podawanie wody osobie nieprzytomnej jest niebezpieczne. Podstawa: ADR 8.2.2.3.2(e) i 8.2.2.3.8; ERC Guidelines 2025 Adult Basic Life Support.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.2(e) — podstawowy kurs obejmuje postępowanie po wypadku, w tym pierwszą pomoc; 8.2.2.3.8 — ćwiczenia praktyczne obejmują co najmniej pierwszą pomoc",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "ERC-2025-BLS",
+            "reference": "European Resuscitation Council Guidelines 2025, Adult Basic Life Support — call emergency services for an unresponsive person, assess breathing, start CPR if breathing is abnormal and use AED when available",
+            "url": "https://www.erc.edu/science-research/guidelines/guidelines-2025/guidelines-2025-english/"
+          },
+          {
+            "code": "ERC-2025-EXEC",
+            "reference": "European Resuscitation Council Guidelines 2025, Executive Summary — speakerphone call, dispatcher-assisted CPR, AED when available",
+            "url": "https://www.erc.edu/media/ad5dtph1/gl2025-01-exec-e.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL+ERC-2025",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Pozycja boczna dotyczy osoby nieprzytomnej oddychającej prawidłowo; przy oddechu nieprawidłowym trzeba podejrzewać zatrzymanie krążenia i rozpocząć RKO."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wytyczne ERC 2025 zalecają wezwanie służb, rozpoczęcie RKO przy braku prawidłowego oddechu i użycie AED, gdy jest dostępne."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Nieprzytomnej osobie nie podaje się wody; potrząsanie i odkładanie wezwania pomocy opóźniają działania ratujące życie."
+        }
+      },
+      "notes_on_conditions": "ADR establishes the course subject and the required practical exercise coverage. The precise CPR/AED response is drawn from ERC Guidelines 2025 Adult Basic Life Support and is not claimed to be text expressly prescribed by ADR.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+    }
+  ]
+}

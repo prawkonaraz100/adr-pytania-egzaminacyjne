@@ -1,3 +1,5 @@
+**Bieżący bank — 4x289:** 715 pytań ADR-B-0001–0715, wszystkie `needs_review`, 0 `verified`; SHA `20fcc1cd274abfb225132b80139cac172581c1e1`. Indeks: `REJESTR-AKTUALNY-0001-0715.md`; raport: `podstawowy/raporty/etap-4x289-rko-aed-praktyczna-pierwsza-pomoc-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x288: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x288 (02.11.2026)
@@ -9,7 +11,7 @@
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/714 = 10,64%**; maksimum działu to 13,95%.
 - ADR-B-13-K06 ma 5 pytań; moduł ADR-B-13 ma 50 pytań.
 - Klucze i warianty 001–005 wskazują aktualny SHA banku; snapshoty sequential/legal 714-714; formalne zatwierdzenia: 0.
-- Raport: `podstawowy/raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md`.
+- Raport: `podstawowy/raporty/etap-4x289-rko-aed-praktyczna-pierwsza-pomoc-2026-11-02.md`.
 
 ## Bieżąca migawka — etap 4x285 (02.11.2026)
 
@@ -18,7 +20,7 @@
 - Explanation 382 znaki; A/B/C 157/119/103; poprawna B jest najdłuższa.
 - Rozkład A/B/C: 238/253/220; „poprawna = jedyna najdłuższa”: 75/711 = 10,55%.
 - Snapshoty sequential/legal: 711-711; klucze i warianty 001–005 zgodne z SHA banku; formalne zatwierdzenia: 0.
-- Bieżący indeks: `REJESTR-AKTUALNY-0001-0714.md`; raport 4x288: `podstawowy/raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md`.
+- Bieżący indeks: `REJESTR-AKTUALNY-0001-0715.md`; raport 4x288: `podstawowy/raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md`.
 
 ## Bieżąca migawka — etap 4x284 (02.11.2026)
 

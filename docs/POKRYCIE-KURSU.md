@@ -1,3 +1,17 @@
+**Stan aktualny po etapie 4x289: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x289
+
+- Bank: 715 pytań ADR-B-0001–0715; wszystkie `needs_review`, 0 `verified`; SHA `20fcc1cd274abfb225132b80139cac172581c1e1`.
+- ADR-B-0715 — pierwsza pomoc przy braku prawidłowego oddechu: wezwanie 112, RKO i AED; ADR 2025, 8.2.2.3.2(e), 8.2.2.3.8; procedura praktyczna według ERC Guidelines 2025.
+- Explanation 493 znaki, 4 zdania; A/B/C 104/107/119; klucz B nie jest najdłuższy.
+- Rozkład prawidłowych opcji: A=239, B=256, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/715 = 10,63%**; maksimum działu to 13,95%.
+- A/B/C: 239/256/220; klucz B nie jest najdłuższy.
+- ADR-B-05-K14 ma 5 pytań; moduł ADR-B-05 ma 73 pytania.
+- Klucze i warianty 001–005, snapshoty sequential/legal 715-715, ledger i manifest zaktualizowane; formalnych zatwierdzeń: 0.
+- Raport: `podstawowy/raporty/etap-4x289-rko-aed-praktyczna-pierwsza-pomoc-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x288: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x288 (02.11.2026)
@@ -572,7 +586,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 72 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 73 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
@@ -581,7 +595,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **714** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **715** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

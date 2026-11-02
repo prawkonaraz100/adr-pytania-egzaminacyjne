@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x289: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x289
+
+- Bank: 715 pytań ADR-B-0001–0715; wszystkie `needs_review`, 0 `verified`; SHA `20fcc1cd274abfb225132b80139cac172581c1e1`.
+- ADR-B-0715 — pierwsza pomoc przy braku prawidłowego oddechu: wezwanie 112, RKO i AED; ADR 2025, 8.2.2.3.2(e), 8.2.2.3.8; procedura praktyczna według ERC Guidelines 2025.
+- Explanation 493 znaki, 4 zdania; A/B/C 104/107/119; klucz B nie jest najdłuższy.
+- Rozkład A/B/C: 239/256/220; „poprawna = jedyna najdłuższa”: 76/715 = 10,63%; maksimum modułu 13,95%.
+- ADR-B-05-K14 ma 5 pytań; moduł ADR-B-05 ma 73 pytania.
+- Klucze i warianty 001–005, snapshoty sequential/legal 715-715, ledger i manifest zaktualizowane; formalnych zatwierdzeń: 0.
+- Raport: `podstawowy/raporty/etap-4x289-rko-aed-praktyczna-pierwsza-pomoc-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x288: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x288 (02.11.2026)
