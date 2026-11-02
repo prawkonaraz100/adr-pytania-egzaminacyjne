@@ -5,7 +5,7 @@
 - Bank: 710 pytań ADR-B-0001–0710; wszystkie `needs_review`, 0 `verified`; SHA `40abca10d9e69a22bdc13523124ca00c43fb5236`.
 - ADR-B-0710 do ADR-B-08-K07: dobór wyposażenia ogólnego i ochronnego według numerów nalepek zagrożenia w dokumencie przewozowym; ADR 2025, 8.1.5.1–8.1.5.2.
 - Explanation 373 znaki; A/B/C 121/132/117; poprawna C nie jest najdłuższa.
-- Rozkład prawidłowych odpowiedzi: A=238, B=252, C=220.
+- Rozkład prawidłowych opcji: A=238, B=252, C=220.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/710 = 10,56%**; limit Quality Gate 18%.
 - ADR-B-08-K07 ma 8 pytań; moduł ADR-B-08 ma 47 pytań.
 - Raport: `podstawowy/raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md`.
@@ -523,7 +523,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 71 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
-| ADR-B-08 | Wyposażenie | 8/8 | 0 | 46 | 0 | Lekcja + mapa pytań |
+| ADR-B-08 | Wyposażenie | 8/8 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
