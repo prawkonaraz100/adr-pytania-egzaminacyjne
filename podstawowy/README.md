@@ -1,8 +1,10 @@
+**Bieżący stan po 4x296:** 722 pytania, 722 `needs_review`, 0 `verified`; SHA `eaf7a24acf1001dd3fc1d220a229808424a9c1df`; rejestr `REJESTR-AKTUALNY-0001-0722.md`. Kompetencje teorii poniżej 6: **58**.
+
 **Stan aktualny po etapie 4x295: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x295
 
-- Bank: 721 `needs_review`, 0 `verified` (ADR-B-0001–0721); SHA `cb0edf87af4dd78faa5789596c709d50b50e9b45`.
+- Bank: 721 `needs_review`, 0 `verified` (ADR-B-0001–0721); SHA `eaf7a24acf1001dd3fc1d220a229808424a9c1df`.
 - ADR-B-0721 do ADR-B-01-K07: przy numerze UN w kolumnie 6 tabeli A należy sprawdzić przepisy szczególne w ADR 3.3.1.
 - Explanation 375 znaków, 4 zdania; A/B/C 105/112/106; poprawna C nie jest ani najkrótsza, ani najdłuższa.
 - Rozkład prawidłowych opcji: A=241, B=258, C=222.
