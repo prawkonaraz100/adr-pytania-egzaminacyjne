@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0743",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 5.4.3.4 — instructions in writing, fire and smoke safety",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0743",
+      "order": 743,
+      "clause": "ADR 2025, 5.4.3.4",
+      "question_snapshot": {
+        "id": "ADR-B-0743",
+        "module_id": "ADR-B-05",
+        "stem": "Na postoju kierowca zauważa mały pożar w komorze silnika. Aby dosięgnąć gaśnicy i podejść do ognia, musiałby wejść w gęsty dym. Co powinien zrobić?",
+        "options": {
+          "A": "Spróbować gasić, bo pożar jest jeszcze mały, a warunek bezpieczeństwa dotyczy tylko ognia w ładowni.",
+          "B": "Nie narażać się na dym; oddalić się, ostrzec innych i wezwać służby.",
+          "C": "Otworzyć szeroko komorę silnika, aby szybciej zlokalizować płomienie i skrócić czas gaszenia."
+        },
+        "correct_option": "B",
+        "explanation": "Mały pożar silnika można gasić gaśnicą tylko wtedy, gdy jest to właściwe i bezpieczne. Jeżeli dojście wymaga wejścia w gęsty dym, warunek bezpieczeństwa nie jest spełniony: nie podejmuj próby, oddal się, ostrzeż innych i wezwij służby. Nie ryzykuj wdychania dymu ani nie otwieraj komory bez potrzeby. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — użycie gaśnic do małych/początkowych pożarów opon, hamulców lub komory silnika wyłącznie, gdy jest to właściwe i bezpieczne; unikanie wdychania dymu przez pozostawanie po stronie nawietrznej",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Warunek bezpieczeństwa dotyczy każdej próby użycia gaśnicy, nie tylko pożaru ładowni. Mały rozmiar ognia nie usprawiedliwia wejścia w gęsty dym."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Instrukcje pozwalają użyć gaśnicy przy małym/początkowym pożarze komory silnika wyłącznie, jeżeli jest to właściwe i bezpieczne; w opisanej sytuacji podejście naraża kierowcę na dym."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Otwarcie komory silnika nie usuwa zagrożenia dymem i może narazić kierowcę na dodatkowe niebezpieczeństwo."
+        }
+      },
+      "notes_on_conditions": "Pytanie sprawdza warunek bezpieczeństwa przy dozwolonej próbie gaszenia małego/początkowego pożaru komory silnika; nie wprowadza dodatkowej procedury technicznej niewskazanej w ADR.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
