@@ -1,3 +1,7 @@
+**Stan na 02.11.2026, etap 4x309**
+
+**Stan 4x309:** 735 `needs_review`, 0 `verified`; SHA `9c6375775b1f40f18aad9124aa6b963e752ebb64`. Poprawna = jedyna najdłuższa: **81/735 = 11,02%**; maksimum działu **14,61%**. Kompetencje teorii <6: **45**.
+
 **Stan na 02.11.2026, etap 4x308**
 
 **Stan 4x308:** 734 `needs_review`, 0 `verified`; SHA `27ff86cdb1ea2d4df14008965f54d9d0b8b435ee`. Poprawna = jedyna najdłuższa: **81/734 = 11,04%**; maksimum działu **14,61%**. Kompetencje teorii <6: **46**.
@@ -702,6 +706,8 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+
+- [Etap 4x309 — rozlew: dokumenty w kabinie, strona nawietrzna](raporty/etap-4x309-rozlew-dokumenty-strona-nawietrzna-2026-11-02.md)
 
 - [Etap 4x308 — klasa 9: wyposażenie ochrony kanalizacji](raporty/etap-4x308-klasa9-wyposazenie-ochrona-kanalizacji-2026-11-02.md)
 
