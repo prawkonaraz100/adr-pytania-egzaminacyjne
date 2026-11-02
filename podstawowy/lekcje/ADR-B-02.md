@@ -433,3 +433,8 @@ Grupa II obejmuje materiał, który reaguje z wodą i wydziela co najmniej 20 li
 ### Dodatkowe pytanie ADR-B-0722
 
 Temperatura zapłonu pomaga rozpoznać zagrożenie związane z parami palnej cieczy. Przed przeładunkiem kierowca powinien ograniczać źródła zapłonu także wtedy, gdy temperatura otoczenia jest niska. Zobacz pytanie ADR-B-0722 (ADR 2025, 2.2.3.1.1).
+
+
+### Materiały stałe zapalne — ADR-B-0723
+
+Materiały stałe klasy 4.1 również mogą zapalać się od iskier i płomienia. Kierowca nie może uznać, że tylko ciecze i gazy stwarzają ryzyko pożaru. Zobacz pytanie ADR-B-0723. Podstawa: ADR 2025, 2.2.41.1.1 i 2.2.41.1.3.
