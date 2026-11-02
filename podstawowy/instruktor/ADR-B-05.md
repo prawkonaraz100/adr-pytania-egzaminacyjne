@@ -302,3 +302,16 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowe błędy:** uznanie, że wystarczy łatwy dostęp bez ochrony; wybór schowka zamykanego na klucz; założenie, że zewnętrzne mocowanie jest zawsze zabronione.
 
 **Podstawa:** ADR 2025, 8.1.4.5; praktyczne ćwiczenia gaszenia pożaru w 8.2.2.3.8. Ćwiczenie nie zastępuje właściwej konserwacji lub kontroli sprzętu.
+
+
+## Ćwiczenie instruktorskie — kilka zagrożeń w jednym przewozie (ADR-B-0718)
+
+**Cel:** kursant umie zastosować uwagę 1 instrukcji pisemnych do scenariusza przewozu różnych towarów.
+
+**Przebieg:** przedstaw fikcyjny przewóz dwóch różnych towarów ADR i poproś kursanta o odszukanie odpowiednich pozycji tabeli zagrożeń w instrukcjach pisemnych. Ma wskazać, które środki ostrożności odnoszą się do obu zagrożeń, co może wykonać samodzielnie bezpiecznie, a co należy zostawić służbom. Nie stwarzaj rzeczywistego zagrożenia i nie stosuj substancji chemicznych.
+
+**Kryteria obserwacji:** kursant nie wybiera poleceń według kolejności towarów lub ich masy; rozpoznaje wszystkie stosowne ostrzeżenia oraz granice bezpiecznej interwencji.
+
+**Typowy błąd:** wykonywanie tylko jednego wiersza tabeli lub traktowanie każdej wskazówki jako nakazu wejścia do strefy zagrożenia.
+
+**Podstawa:** ADR 2025, 5.4.3.4 (uwaga 1), 8.2.2.3.8.
