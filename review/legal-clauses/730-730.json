@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0730",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 2.2.8.1.1",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0730",
+      "order": 730,
+      "clause": "ADR 2025, 2.2.8.1.1",
+      "question_snapshot": {
+        "id": "ADR-B-0730",
+        "module_id": "ADR-B-02",
+        "stem": "Karta towaru wskazuje, że substancja w stanie suchym nie działa żrąco, ale w kontakcie z naturalną wilgocią powietrza tworzy żrącą mgłę. Jak należy rozumieć jej klasyfikację ADR?",
+        "options": {
+          "A": "Tak. Klasa 8 obejmuje też substancje tworzące żrące pary lub mgły pod wpływem wilgoci z powietrza.",
+          "B": "Nie. Materiał musi być żrący już w stanie suchym, bez kontaktu z wilgocią z otoczenia, inaczej nie spełnia definicji klasy 8.",
+          "C": "Nie. Każda mgła lub para oznacza wyłącznie zagrożenie zatruciem klasy 6.1, a nie działanie żrące opisane w klasie 8."
+        },
+        "correct_option": "A",
+        "explanation": "Taka substancja może należeć do klasy 8, mimo że w stanie suchym nie powoduje korozji: wilgoć z powietrza może uruchomić powstawanie żrącej mgły lub pary. Kierowca nie powinien więc uznawać jej za bezpieczną tylko dlatego, że nie widać cieczy ani wycieku. Odpowiedź B pomija ten przypadek, a C myli działanie żrące z samym zagrożeniem trującym. Podstawa: ADR 2025, 2.2.8.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.8.1.1",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Punkt 2.2.8.1.1 obejmuje także substancje, które w obecności naturalnej wilgoci powietrza tworzą żrące pary lub mgły."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Definicja klasy 8 wprost obejmuje również substancje, których działanie żrące ujawnia się dopiero przy wilgoci z powietrza."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Sama postać mgły lub pary nie przesądza o klasie 6.1; w opisanym przypadku decyduje działanie żrące wskazane w 2.2.8.1.1."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy zakresu definicji klasy 8 dla substancji tworzących żrące pary lub mgły przy naturalnej wilgotności powietrza; nie rozstrzyga klasyfikacji konkretnego produktu bez danych z tabeli A.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

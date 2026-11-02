@@ -1,3 +1,7 @@
+**Stan na 02.11.2026, etap 4x304**
+
+**Stan 4x304:** 730 `needs_review`, 0 `verified`; SHA `1c9843ec48321d6a46dbc75f9f104d034dc26dba`. Poprawna = jedyna najdłuższa: **81/730 = 11,10%**. Kompetencje teorii <6: **50**.
+
 **Stan 4x303:** 729 `needs_review`, 0 `verified`; SHA `d8a8aa6d6ed591f16a765b89954fe70a11d4c8ed`. Poprawna = jedyna najdłuższa: **81/729 = 11,11%**. Kompetencje teorii <6: **51**.
 
 **Stan 4x302:** 728 `needs_review`, 0 `verified`; SHA `eaeeceaf087c739347aa93e99a57f37567f5d344`. Poprawna = jedyna najdłuższa: **81/728 = 11,13%**. Kompetencje teorii <6: **52**.
@@ -682,6 +686,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x304 — klasa 8: żrące pary i mgły przy wilgoci powietrza](raporty/etap-4x304-klasa8-zrace-mgly-2026-11-02.md)
 - [Etap 4x295 — przepisy szczególne i dopuszczalność przewozu](raporty/etap-4x295-przepisy-szczegolne-dopuszczalnosc-2026-11-02.md)
 - [Etap 4x294 — wyłączenie dla maszyn i urządzeń](raporty/etap-4x294-maszyny-urzadzenia-wylaczenie-2026-11-02.md)
 - [Etap 4x293 — zaświadczenie ADR od właściwej władzy](raporty/etap-4x293-zaswiadczenie-wlasciwa-wladza-2026-11-02.md)

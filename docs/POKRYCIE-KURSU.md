@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x304: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x304
+
+- Bank: 730 `needs_review`, 0 `verified`; SHA `1c9843ec48321d6a46dbc75f9f104d034dc26dba`.
+- ADR-B-0730 do ADR-B-02-K12 — substancje tworzące żrące pary lub mgły przy naturalnej wilgoci powietrza (ADR 2025, 2.2.8.1.1).
+- Rozkład prawidłowych opcji: A=243, B=262, C=225.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/730 = 11,10%**; maksimum działu to 14,77%.
+- Kompetencje teoretyczne z mniej niż 6 pytaniami: **50**.
+- ADR-B-02-K12: 5→6 pytań; moduł ADR-B-02: 88 pytań.
+- Raport: `podstawowy/raporty/etap-4x304-klasa8-zrace-mgly-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x303: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x303
@@ -752,7 +764,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 87 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 88 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 76 | 0 | Lekcja + mapa pytań |
@@ -764,7 +776,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **729** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **730** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
