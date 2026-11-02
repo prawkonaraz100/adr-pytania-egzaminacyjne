@@ -1,3 +1,7 @@
+**Stan na 02.11.2026, etap 4x312**
+
+**Stan 4x312:** 738 `needs_review`, 0 `verified`; SHA `c11732a07bf6b418107b2bf6010a184f3cf112df`. Poprawna = jedyna najdłuższa: **81/738 = 10,98%**; maksimum działu **14,61%**. Kompetencje teorii <6: **42**.
+
 **Stan na 02.11.2026, etap 4x311**
 
 **Stan 4x311:** 737 `needs_review`, 0 `verified`; SHA `fd06cfd4d0d67d5285afa71981e1b2e448d71143`. Poprawna = jedyna najdłuższa: **81/737 = 10,99%**; maksimum działu **14,61%**. Kompetencje teorii <6: **43**.
@@ -714,6 +718,8 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+
+- [Etap 4x312 — unikanie źródeł zapłonu przy awarii](raporty/etap-4x312-unikanie-zrodel-zaplonu-2026-11-02.md)
 
 - [Etap 4x311 — zakaz otwierania sztuki przesyłki mimo zgody odbiorcy](raporty/etap-4x311-zakaz-otwierania-zgoda-odbiorcy-2026-11-02.md)
 
