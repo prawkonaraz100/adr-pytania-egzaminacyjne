@@ -1,0 +1,60 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0718",
+  "date": "2026-11-02",
+  "scope": "ADR 2025, 5.4.3.4 NOTE 1, mixed loads and multiple risks; 8.2.2.3.8 practical exercises.",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0718",
+      "order": 718,
+      "clause": "ADR 2025, 5.4.3.4 NOTE 1 and 8.2.2.3.8",
+      "question_snapshot": {
+        "id": "ADR-B-0718",
+        "module_id": "ADR-B-05",
+        "stem": "Podczas ćwiczenia reakcji na awarię pojazdu ADR przewożącego kilka różnych towarów kierowca widzi w instrukcjach pisemnych odrębne wskazówki dla zagrożeń obu ładunków. Które podejście jest właściwe?",
+        "options": {
+          "A": "Uwzględnić wszystkie właściwe wskazówki dla zagrożeń przewożonych towarów i działać tylko wtedy, gdy jest bezpiecznie.",
+          "B": "Wybrać wskazówki tylko dla pierwszego towaru w dokumencie, ponieważ pozostałe zagrożenia są mniej istotne.",
+          "C": "Wykonać jedynie wskazówki dla towaru o największej masie, niezależnie od pozostałych oznaczeń zagrożenia."
+        },
+        "correct_option": "A",
+        "explanation": "Gdy ładunek stwarza kilka różnych zagrożeń, trzeba uwzględnić wszystkie dotyczące ich wskazówki z instrukcji pisemnych. Działania podejmuj tylko wtedy, gdy są bezpieczne; w razie zagrożenia oddal się i wezwij służby. Wybranie wyłącznie pierwszego albo najcięższego towaru może pominąć ważne niebezpieczeństwo. Podstawa: ADR 5.4.3.4, uwaga 1 do instrukcji pisemnych; ćwiczenia praktyczne 8.2.2.3.8.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 (uwaga 1: przy wielu zagrożeniach i ładunkach mieszanych uwzględnia się każdą właściwą pozycję instrukcji); 8.2.2.3.8 (ćwiczenia praktyczne)",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, 5.4.3.4 written instructions NOTE 1: for dangerous goods with multiple risks and for mixed loads, each applicable entry shall be observed",
+            "url": "https://unece.org/info/Transport/pub/395786"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "All applicable instructions for a mixed load or multiple risks must be considered, only where safe and practicable."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "ADR does not limit the written instructions to the first listed good in a mixed consignment."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "ADR does not select incident-response guidance by the heaviest goods in the load."
+        }
+      },
+      "notes_on_conditions": "The model written instructions require each applicable entry to be observed, subject to the general safe-and-practicable limitation on crew actions.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_2025_comparison_url": "https://unece.org/info/Transport/pub/395786"
+    }
+  ]
+}
