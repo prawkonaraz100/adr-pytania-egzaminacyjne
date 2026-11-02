@@ -2,7 +2,7 @@
 
 ## Bieżąca migawka — etap 4x289
 
-- Bank: 715 pytań ADR-B-0001–0715; wszystkie `needs_review`, 0 `verified`; SHA `20fcc1cd274abfb225132b80139cac172581c1e1`.
+- Bank: 715 `needs_review`, 0 `verified` (ADR-B-0001–0715); SHA `20fcc1cd274abfb225132b80139cac172581c1e1`.
 - ADR-B-0715 — pierwsza pomoc przy braku prawidłowego oddechu: wezwanie 112, RKO i AED; ADR 2025, 8.2.2.3.2(e), 8.2.2.3.8; procedura praktyczna według ERC Guidelines 2025.
 - Explanation 493 znaki, 4 zdania; A/B/C 104/107/119; klucz B nie jest najdłuższy.
 - Rozkład A/B/C: 239/256/220; „poprawna = jedyna najdłuższa”: 76/715 = 10,63%; maksimum modułu 13,95%.
