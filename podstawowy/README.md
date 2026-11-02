@@ -1,3 +1,15 @@
+**Stan na 02.11.2026, etap 4x284**
+
+## Bieżąca migawka — etap 4x284 (02.11.2026)
+
+- Bank: 710 `needs_review`, 0 `verified` (ADR-B-0001–0710); SHA `40abca10d9e69a22bdc13523124ca00c43fb5236`.
+- ADR-B-0710 do ADR-B-08-K07: dobór wyposażenia ogólnego i ochronnego według numerów nalepek z dokumentu przewozowego; ADR 2025, 8.1.5.1–8.1.5.2.
+- Explanation 373 znaki; A/B/C 121/132/117; poprawna C nie jest najdłuższa.
+- Rozkład A/B/C: 238/252/220; „poprawna = jedyna najdłuższa”: 75/710 = 10,56%.
+- ADR-B-08-K07 ma 8 pytań; moduł ADR-B-08 ma 47 pytań.
+- Klucze i warianty 001–005 zgodne z SHA banku; snapshoty sequential/legal 710-710; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md`.
+
 **Stan na 01.11.2026, etap 4x283**
 
 ## Bieżąca migawka — etap 4x283 (01.11.2026)
@@ -533,6 +545,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x284 — dobór wyposażenia według nalepek](raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md)
 - [Etap 4x283 — definicja jednostki transportowej](raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md)
 - [Etap 4x282 — adnotacja przewozowa](raporty/etap-4x282-adnotacja-przewozowa-1-1-4-2-1-2026-11-01.md)
 - [Etap 4x281 — bezpieczne usunięcie skażonej odzieży](raporty/etap-4x281-bezpieczne-usuniecie-skazonej-odziezy-2026-11-01.md)

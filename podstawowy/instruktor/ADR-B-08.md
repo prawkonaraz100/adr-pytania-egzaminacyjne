@@ -167,3 +167,16 @@ Przygotuj dwie fikcyjne karty pojazdu i świadectwa. W jednym zestawie zgodne s�
 **Typowe błędy:** uznanie, że wystarczy jeden zestaw w kabinie; wyposażenie tylko kierowcy; pominięcie ochrony oczu drugiej osoby.
 
 **Podstawa:** ADR 2025, 8.1.5.2. Ćwiczenie omawia się na sucho.
+
+
+## Ćwiczenie instruktorskie — dobór wyposażenia z dokumentu przewozowego (ADR-B-0710)
+
+**Cel:** kursant ma umieć wskazać, skąd bierze numery nalepek zagrożenia i jak wykorzystuje je do doboru wyposażenia ogólnego i ochronnego.
+
+**Przebieg:** pokaż kursantowi przykładowy, fikcyjny dokument przewozowy. Poproś o odczytanie numerów nalepek, a następnie o wskazanie właściwych pozycji wykazu ADR 8.1.5.2. Nie podawaj z góry, które wyposażenie jest wymagane — kursant ma wykonać porównanie samodzielnie.
+
+**Kryteria obserwacji:** kursant korzysta z numerów nalepek z dokumentu, odszukuje właściwy wykaz, uwzględnia przypisy i nie zakłada jednego stałego zestawu dla wszystkich przewozów.
+
+**Typowy błąd:** dobór wyposażenia wyłącznie według nazwy towaru lub jednej klasy głównej, bez sprawdzenia numerów nalepek. Omów, dlaczego taki skrót może pominąć wymagane elementy.
+
+**Podstawa:** ADR 2025, 8.1.5.1–8.1.5.2. Ćwiczenie symulacyjne; nie potwierdza rzeczywistego zaliczenia praktyki.

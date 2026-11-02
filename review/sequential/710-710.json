@@ -1,0 +1,59 @@
+{
+  "batch": "710-710",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0710",
+      "sequence": 710,
+      "exact_record_snapshot": {
+        "stem": "Przed wyjazdem kierowca sprawdza, czy w pojeździe jest właściwe wyposażenie ogólne i ochronne dla przewożonego ładunku. W dokumencie przewozowym widzi numery nalepek zagrożenia. Jak powinien ustalić wymagany zestaw?",
+        "options": {
+          "A": "Wybrać wyposażenie wyłącznie według klasy głównego zagrożenia zapisanej w nazwie towaru, bez sprawdzania numerów nalepek.",
+          "B": "Zastosować jeden stały zestaw wyposażenia dla każdego przewozu ADR, ponieważ numery nalepek wpływają tylko na oznakowanie przesyłek.",
+          "C": "Odczytać numery nalepek z dokumentu przewozowego i dobrać wyposażenie ogólne oraz ochronne według wykazu ADR 8.1.5.2."
+        },
+        "correct_option": "C",
+        "explanation": "Numery nalepek pomagają kierowcy ustalić, jakie wyposażenie ogólne i ochronne musi być w jednostce transportowej. Odczytaj je z dokumentu przewozowego, a następnie porównaj z wykazem ADR — nie zakładaj, że każdy ładunek wymaga identycznego zestawu. Sama klasa główna lub nazwa towaru nie zastępuje sprawdzenia właściwych nalepek i wyjątków. Podstawa: ADR 8.1.5.1 i 8.1.5.2.",
+        "sources": [
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.1.5.1 — wyposażenie dobiera się według numerów nalepek zagrożenia; numery można ustalić na podstawie dokumentu przewozowego; 8.1.5.2 — wykaz wyposażenia ogólnego i ochronnego",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.1–8.1.5.2, oficjalny polski tekst udostępniany przez Ministerstwo Infrastruktury",
+            "url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 8.1.5.1–8.1.5.2 — equipment selection by danger label numbers identifiable from the transport document",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.1.5.1–8.1.5.2: equipment for general and personal protection is selected according to danger label numbers identifiable from the transport document. Official Polish text Dz.U. 2025 poz. 642; full specialist comparison pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The correct workflow is to identify the danger label numbers from the transport document and use the list in 8.1.5.2; the distractors wrongly use only the generic class/name or a fixed kit.",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "source_risk_note": "Full literal comparison with the official Polish Gazette text and independent ADR specialist review remain pending.",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}
