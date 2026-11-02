@@ -419,3 +419,10 @@ Najpierw upewnij się, że miejsce jest bezpieczne. Jeśli poszkodowany nie reag
 Przed wyjazdem nie wystarczy sprawdzić, czy instrukcje leżą w kabinie. Każdy członek załogi musi móc je przeczytać i zrozumieć, a przewoźnik ma upewnić się, że załoga potrafi prawidłowo zastosować opisane czynności. Jeśli kierowca rozumie tekst tylko częściowo, powinien zgłosić to przed rozpoczęciem przewozu i uzyskać wersję językową, którą rzeczywiście rozumie, oraz wyjaśnić niejasności. Krótkie ustne streszczenie dyspozytora nie zastępuje obowiązku przewoźnika. Przed podróżą załoga poznaje również przewożone towary i sprawdza w instrukcjach działania na wypadek wypadku lub zagrożenia. Podstawa: ADR 5.4.3.2–5.4.3.3.
 
 **Pytanie kontrolne:** ADR-B-0716 — co zrobić, gdy kierowca może przeczytać instrukcje, ale nie rozumie opisanych w nich poleceń?
+
+
+### Ochrona gaśnicy przed pogodą i szybki dostęp — ADR-B-0717
+
+Przy sprawdzaniu pojazdu przed wyjazdem kierowca ocenia nie tylko liczbę i termin przeglądu gaśnic, lecz również ich dostępność i zabezpieczenie przed wpływem pogody. Gaśnica zamocowana na zewnątrz może być łatwo dostępna, ale zniszczona osłona narażająca ją na działanie deszczu i uszkodzenie nie spełnia warunku właściwego zabezpieczenia. Trzeba naprawić osłonę lub poprawić mocowanie bez zamykania gaśnicy w miejscu, z którego załoga nie może jej szybko wyjąć. Podstawa: ADR 8.1.4.5; zakres praktycznych ćwiczeń gaśniczych ADR 8.2.2.3.8.
+
+**Pytanie kontrolne:** ADR-B-0717 — co zrobić, gdy gaśnica jest łatwo dostępna, ale pozostaje narażona na deszcz?

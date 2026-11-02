@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x291
+
+- Bank: 717 `needs_review`, 0 `verified`; SHA `f171a97a6d4a62812ba8ae399ec9d063902a1ee9`.
+- ADR-B-0717, ADR-B-05-K13, ADR 8.1.4.5; 8.2.2.3.8; dostępność gaśnicy i ochrona przed pogodą.
+- Raport: `podstawowy/raporty/etap-4x291-ochrona-gasnicy-przed-pogoda-2026-11-02.md`.
+- Indeks: `review/specialist/REJESTR-AKTUALNY-0001-0717.md`.
+
 ## Bieżąca migawka — etap 4x290
 
 - Bank: 716 `needs_review`, 0 `verified`; SHA `ca5eb4b1d8f82eed5081887537980076600b51f3`.
