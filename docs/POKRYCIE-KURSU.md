@@ -5,7 +5,8 @@
 - Bank: 717 `needs_review`, 0 `verified` (ADR-B-0001–0717); SHA `f171a97a6d4a62812ba8ae399ec9d063902a1ee9`.
 - ADR-B-0717 do ADR-B-05-K13: dostępność gaśnicy i ochrona przed wpływem pogody; ADR 8.1.4.5; praktyczne ćwiczenia 8.2.2.3.8.
 - Explanation 408 znaków, 4 zdania; A/B/C 108/106/103; poprawna C nie jest najdłuższa.
-- Rozkład A/B/C: 239/257/221; wskaźnik najdłuższej poprawnej 76/717 = 10,60%; maksimum działu 13,95%.
+- Rozkład prawidłowych opcji: A=239, B=257, C=221.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/717 = 10,60%**; maksimum działu to 13,95%.
 - Kompetencja ADR-B-05-K13 ma 5 pytań; moduł ADR-B-05 ma 75 pytań.
 - Klucze/warianty 001–005 i snapshoty sequential/legal 717-717; zatwierdzeń: 0.
 - Raport: `podstawowy/raporty/etap-4x291-ochrona-gasnicy-przed-pogoda-2026-11-02.md`.
