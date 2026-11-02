@@ -370,7 +370,7 @@ Czerwona nalepka z płomieniem i numerem 2.1 oznacza gaz palny. W razie uwolnien
 
 ### Temperatura zapłonu cieczy klasy 3
 
-Temperatura zapłonu to najniższa temperatura cieczy, przy której jej para może utworzyć z powietrzem mieszaninę palną. Nie jest to temperatura wrzenia ani temperatura samozapłonu. W praktyce kierowca powinien rozumieć, że pary cieczy mogą stworzyć zagrożenie po osiągnięciu tej temperatury, a do zapłonu potrzebne jest źródło zapłonu. Dla klasy 3 ADR określa kryteria obejmujące m.in. temperaturę zapłonu nie wyższą niż 60°C, z wyjątkami opisanymi w przepisie. Powiązane pytanie: ADR-B-0658. Podstawa: ADR 1.2.1; 2.2.3.1.1.
+Temperatura zapłonu to najniższa temperatura cieczy, przy której jej para może utworzyć z powietrzem mieszaninę palną. Nie jest to temperatura wrzenia ani temperatura samozapłonu. W praktyce kierowca powinien rozumieć, że pary cieczy mogą stworzyć zagrożenie po osiągnięciu tej temperatury, a do zapłonu potrzebne jest źródło zapłonu. Dla klasy 3 ADR określa kryteria obejmujące m.in. temperaturę zapłonu nie wyższą niż 60°C, z wyjątkami opisanymi w przepisie. Powiązane pytanie: ADR-B-0658, ADR-B-0722. Podstawa: ADR 1.2.1; 2.2.3.1.1.
 
 ### Materiały polimeryzujące klasy 4.1 — kiedy kontrolować temperaturę
 Materiał polimeryzujący może reagować z wydzieleniem dużej ilości ciepła. Dla przewozu w sztuce przesyłki lub DPPL kontrola temperatury jest wymagana, gdy TSP w tym opakowaniu lub DPPL wynosi 50°C lub mniej. Dla cystern obowiązuje odrębny próg 45°C. Nie pomyl tych wartości z progiem 75°C, który jest jednym z kryteriów klasyfikacji materiału polimeryzującego do klasy 4.1.
@@ -428,3 +428,8 @@ Grupa pakowania opisuje stopień zagrożenia materiału, a nie typ użytego opak
 ### Klasa 4.3 — rozróżnianie grup pakowania II i III
 
 Grupa II obejmuje materiał, który reaguje z wodą i wydziela co najmniej 20 litrów gazu palnego na kilogram w ciągu godziny, ale nie spełnia kryteriów grupy I. Grupa III dotyczy wolniejszej reakcji: wydzielanie przekracza 1 litr na kilogram w ciągu godziny, a materiał nie spełnia kryteriów I ani II. W praktyce kierowca odczytuje przypisaną grupę z dokumentu przewozowego; nie wykonuje prób z wodą ani samodzielnie nie klasyfikuje ładunku. Pytania kontrolne: ADR-B-0675 i ADR-B-0676 (needs_review). Podstawa: ADR 2.2.43.1.8(b)–(c).
+
+
+### Dodatkowe pytanie ADR-B-0722
+
+Temperatura zapłonu pomaga rozpoznać zagrożenie związane z parami palnej cieczy. Przed przeładunkiem kierowca powinien ograniczać źródła zapłonu także wtedy, gdy temperatura otoczenia jest niska. Zobacz pytanie ADR-B-0722 (ADR 2025, 2.2.3.1.1).
