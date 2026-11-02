@@ -1,3 +1,17 @@
+**Stan aktualny po etapie 4x293: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x293
+
+- Bank: 719 `needs_review`, 0 `verified` (ADR-B-0001–0719); SHA `a415f3761ba71994cbabfdf5f5300f6b865f9764`.
+- ADR-B-0719 do ADR-B-01-K03: firmowe potwierdzenie szkolenia nie zastępuje zaświadczenia ADR wydanego przez właściwą władzę; ADR 2025, 8.2.1.1.
+- Explanation 357 znaków, 4 zdania; A/B/C 76/91/102; poprawna A nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=241, B=257, C=221.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/719 = 10,71%**; maksimum działu to 13,95%.
+- ADR-B-01-K03 ma 6 pytań; moduł ADR-B-01 ma 52 pytania.
+- **Kompetencje teoretyczne z mniej niż 6 pytaniami: 61** (pełna lista w raporcie partii; 3 kompetencje praktyczne pominięte).
+- Klucze i warianty 001–005, snapshoty sequential/legal 719-719, SHA w pakiecie specjalisty; 0 zatwierdzeń.
+- Raport `podstawowy/raporty/etap-4x293-zaswiadczenie-wlasciwa-wladza-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x292: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x292
@@ -5,8 +19,8 @@
 - Bank: 718 `needs_review`, 0 `verified` (ADR-B-0001–0718); SHA `5eda2984ac8899b31bfc6b351b4cf1722ccdd07c`.
 - ADR-B-0718 do ADR-B-05-K15: wszystkie stosowne wpisy z instrukcji przy ładunku mieszanym i wielu zagrożeniach; ADR 5.4.3.4 (uwaga 1) i 8.2.2.3.8.
 - Explanation 397 znaków, 4 zdania; A/B/C 118/106/105; poprawna A jest najdłuższa.
-- Rozkład prawidłowych opcji: A=240, B=257, C=221.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/718 = 10,72%**; maksimum działu to 13,95%.
+- Rozkład prawidłowych opcji: A=241, B=257, C=221.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/719 = 10,71%**; maksimum działu to 13,95%.
 - ADR-B-05-K15 ma 5 pytań; moduł ADR-B-05 ma 76 pytań.
 - Klucze i warianty 001–005, snapshoty sequential/legal 718-718; 0 zatwierdzeń.
 - Raport `podstawowy/raporty/etap-4x292-ladunek-wielozagrozeniowy-instrukcje-2026-11-02.md`.
@@ -621,7 +635,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
-| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 51 | 0 | Lekcja + mapa pytań |
+| ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
@@ -634,7 +648,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **718** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **719** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
