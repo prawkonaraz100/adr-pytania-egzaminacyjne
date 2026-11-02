@@ -571,6 +571,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x288 — kontrola wpisu w przewozie kombinowanym](raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md)
 - [Etap 4x287 — odpowiedzialność umowna przy opóźnieniu przewozu](raporty/etap-4x287-odpowiedzialnosc-umowna-opoznienie-2026-11-02.md)
 - [Etap 4x286 — pierwsza pomoc po zabezpieczeniu miejsca](raporty/etap-4x286-pierwsza-pomoc-bezpieczna-scena-2026-11-02.md)
 - [Etap 4x285 — gaśnica dla jednostki transportowej z naczepą](raporty/etap-4x285-gasnica-jednostka-z-naczepa-2026-11-02.md)
