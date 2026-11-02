@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0727",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 2.2.61.1.1",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0727",
+      "order": 727,
+      "clause": "ADR 2025, 2.2.61.1.1",
+      "question_snapshot": {
+        "id": "ADR-B-0727",
+        "module_id": "ADR-B-02",
+        "stem": "Przy odbiorze ładunku klasy 6.1 kierowca słyszy, że brak wyczuwalnego zapachu oznacza brak zagrożenia zatruciem. Jak powinien zareagować?",
+        "options": {
+          "A": "Uznać zapach za wystarczający test: jeśli nic nie czuć, nie ma ryzyka kontaktu z materiałem.",
+          "B": "Nie polegać na zapachu: substancja trująca może szkodzić także bez wyczuwalnej woni i wymaga ostrożności.",
+          "C": "Sprawdzić bezpieczeństwo, otwierając opakowanie i sprawdzając, czy jego zawartość ma intensywny zapach."
+        },
+        "correct_option": "B",
+        "explanation": "Materiały trujące klasy 6.1 mogą spowodować poważne szkody po połknięciu, wdychaniu albo kontakcie ze skórą, niezależnie od tego, czy kierowca wyczuwa zapach. Dlatego brak woni nie potwierdza bezpieczeństwa. Otwieranie opakowania i wąchanie zawartości zwiększa narażenie, zamiast je oceniać. Podstawa: ADR 2025, 2.2.61.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.61.1.1",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Zagrożenie zatruciem nie zależy od możliwości wyczucia zapachu konkretnego materiału."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Zatrucie może nastąpić wskutek połknięcia, wdychania lub kontaktu ze skórą, również przy braku wyczuwalnej woni."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Otwieranie opakowania i celowe wąchanie trującej substancji zwiększa ryzyko narażenia."
+        }
+      },
+      "notes_on_conditions": "Sposób i nasilenie działania substancji trującej zależą od właściwości konkretnego materiału; zapach nie jest kryterium bezpieczeństwa.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

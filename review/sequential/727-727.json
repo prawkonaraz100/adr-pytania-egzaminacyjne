@@ -1,0 +1,46 @@
+{
+  "batch": "727-727",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0727",
+      "sequence": 727,
+      "exact_record_snapshot": {
+        "stem": "Przy odbiorze ładunku klasy 6.1 kierowca słyszy, że brak wyczuwalnego zapachu oznacza brak zagrożenia zatruciem. Jak powinien zareagować?",
+        "options": {
+          "A": "Uznać zapach za wystarczający test: jeśli nic nie czuć, nie ma ryzyka kontaktu z materiałem.",
+          "B": "Nie polegać na zapachu: substancja trująca może szkodzić także bez wyczuwalnej woni i wymaga ostrożności.",
+          "C": "Sprawdzić bezpieczeństwo, otwierając opakowanie i sprawdzając, czy jego zawartość ma intensywny zapach."
+        },
+        "correct_option": "B",
+        "explanation": "Materiały trujące klasy 6.1 mogą spowodować poważne szkody po połknięciu, wdychaniu albo kontakcie ze skórą, niezależnie od tego, czy kierowca wyczuwa zapach. Dlatego brak woni nie potwierdza bezpieczeństwa. Otwieranie opakowania i wąchanie zawartości zwiększa narażenie, zamiast je oceniać. Podstawa: ADR 2025, 2.2.61.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.61.1.1",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 2.2.61.1.1 toxic effects via inhalation swallowing and skin",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
