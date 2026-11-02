@@ -1,0 +1,60 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0717",
+  "date": "2026-11-02",
+  "scope": "ADR 2025, 8.1.4.5 and 8.2.2.3.8. Weather protection and easy access to portable extinguishers; individual practical training in fire-fighting.",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0717",
+      "order": 717,
+      "clause": "ADR 2025, 8.1.4.5; 8.2.2.3.8",
+      "question_snapshot": {
+        "id": "ADR-B-0717",
+        "module_id": "ADR-B-05",
+        "stem": "Na ćwiczeniu przed wyjazdem ADR kursant zauważa gaśnicę zamocowaną na zewnątrz pojazdu. Jest łatwo dostępna, ale osłona jest uszkodzona i gaśnica jest stale zalewana deszczem. Jak należy ocenić jej zamocowanie?",
+        "options": {
+          "A": "Pozostawić ją bez zmian, ponieważ ADR wymaga jedynie szybkiego dostępu do gaśnicy, a osłona jest nieistotna.",
+          "B": "Przenieść ją do zamkniętego schowka na klucz, bo ochrona przed deszczem jest ważniejsza niż dostęp załogi.",
+          "C": "Zapewnić ochronę przed pogodą bez utrudniania dostępu załogi; samo łatwe wyjęcie gaśnicy nie wystarcza."
+        },
+        "correct_option": "C",
+        "explanation": "Gaśnica musi być zarówno łatwo dostępna dla załogi, jak i chroniona przed wpływem pogody, który mógłby pogorszyć jej działanie. Uszkodzoną osłonę trzeba naprawić albo zapewnić inne odpowiednie mocowanie, zanim pojazd ruszy. Pozostawienie sprzętu na deszczu pomija jego sprawność, a zamknięcie na klucz może utrudnić szybkie użycie. Podstawa: ADR 8.1.4.5; praktyczne ćwiczenia gaśnicze obejmuje ADR 8.2.2.3.8.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.5 — gaśnice łatwo dostępne i chronione przed wpływem warunków atmosferycznych; 8.2.2.3.8 — indywidualne ćwiczenia praktyczne obejmujące gaszenie pożaru",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "UNECE-ADR-2025",
+            "reference": "ADR 2025, tom II, 8.1.4.5 i 8.2.2.3.8, oficjalne wydanie UNECE ECE/TRANS/352",
+            "url": "https://unece.org/info/Transport/pub/395786"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "The ADR requirement for weather protection is omitted; quick access alone is insufficient."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Locking in a compartment requiring a key can interfere with easy accessibility for the crew."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Preserving easy access while preventing adverse effects of weather satisfies both requirements."
+        }
+      },
+      "notes_on_conditions": "The scenario assumes the broken cover exposes the extinguisher to rain in a way that could impair operational safety; the vehicle should be put in compliance before carriage.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_2025_comparison_url": "https://unece.org/info/Transport/pub/395786"
+    }
+  ]
+}
