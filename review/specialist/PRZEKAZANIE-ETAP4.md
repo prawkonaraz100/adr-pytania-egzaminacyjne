@@ -1,3 +1,11 @@
+**Bieżący bank 4x304:** 730 pytań, 730 `needs_review`, 0 `verified`; SHA `1c9843ec48321d6a46dbc75f9f104d034dc26dba`. Rejestr `REJESTR-AKTUALNY-0001-0730.md`. Kompetencje teorii <6: **50**.
+
+## Bieżąca migawka — etap 4x304
+
+- ADR-B-0730 do ADR-B-02-K12, ADR 2025, 2.2.8.1.1.
+- Bank 730, zero `verified`; licznik kompetencji teorii <6: **50**.
+- Raport: `podstawowy/raporty/etap-4x304-klasa8-zrace-mgly-2026-11-02.md`.
+
 **Bieżący bank 4x303:** 729 pytań, 729 `needs_review`, 0 `verified`; SHA `d8a8aa6d6ed591f16a765b89954fe70a11d4c8ed`. Rejestr `REJESTR-AKTUALNY-0001-0729.md`. Kompetencje teorii <6: **51**.
 
 **Bieżący bank 4x302:** 728 pytań, 728 `needs_review`, 0 `verified`; SHA `eaeeceaf087c739347aa93e99a57f37567f5d344`. Rejestr `REJESTR-AKTUALNY-0001-0728.md`. Kompetencje teorii <6: **52**.
