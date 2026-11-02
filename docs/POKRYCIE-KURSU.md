@@ -6,7 +6,7 @@
 - ADR-B-0735 do ADR-B-03-K05: nie wchodzić w rozlew ani strefę oparów po dokumenty; oddalić się na stronę nawietrzną i przekazać służbom miejsce dokumentów (ADR 2025, 5.4.3.4).
 - Moduł ADR-B-03: **60** pytań; kompetencja K05: 5→6.
 - Rozkład prawidłowych opcji: A=246, B=264, C=225.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/735 = 11,02%**; maksimum działu to **14,61%**.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/735 = 11,02%**; maksimum działu to 14,61%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **45** (3 praktyczne pominięte).
 - Raport: `podstawowy/raporty/etap-4x309-rozlew-dokumenty-strona-nawietrzna-2026-11-02.md`.
 
