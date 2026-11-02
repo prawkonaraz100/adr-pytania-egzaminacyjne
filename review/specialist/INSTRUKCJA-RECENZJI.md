@@ -18,7 +18,7 @@
 - Explanation 382 znaki; A/B/C 157/119/103; poprawna B nie jest najdłuższa.
 - Rozkład A/B/C: 238/253/220; „poprawna = jedyna najdłuższa”: 75/711 = 10,55%.
 - Snapshoty sequential/legal: 711-711; klucze i warianty 001–005 zgodne z SHA banku; formalne zatwierdzenia: 0.
-- Bieżący indeks: `REJESTR-AKTUALNY-0001-0712.md`; raport: `podstawowy/raporty/etap-4x285-gasnica-jednostka-z-naczepa-2026-11-02.md`.
+- Bieżący indeks (stan historyczny 4x285): `REJESTR-AKTUALNY-0001-0711.md`; raport: `podstawowy/raporty/etap-4x285-gasnica-jednostka-z-naczepa-2026-11-02.md`.
 
 ## Bieżąca migawka — etap 4x284 (02.11.2026)
 
