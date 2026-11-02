@@ -1,6 +1,10 @@
-**Stan na 02.11.2026, etap 4x314**
+**Stan na 02.11.2026, etap 4x315**
 
-**Stan 4x314:** 740 `needs_review`, 0 `verified`; SHA `9a04009ad8e65d597c70d3e337f861c672f840f3`. Poprawna = jedyna najdłuższa: **81/740 = 10,95%**; maksimum działu **14,61%**. Kompetencje teorii <6: **40**.
+**Stan 4x315:** 741 `needs_review`, 0 `verified`; SHA `02fb3c3056749458ebcee9661ffa7895768b56e0`. Poprawna = jedyna najdłuższa: **81/741 = 10,93%**; maksimum działu **14,61%**. Kompetencje teorii <6: **39**.
+
+## Raporty jakości
+
+- [Etap 4x315 — unikanie pyłu i strona nawietrzna](raporty/etap-4x315-unikanie-pylu-strona-nawietrzna-2026-11-02.md)
 
 **Stan na 02.11.2026, etap 4x313**
 
@@ -726,6 +730,8 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+
+- [Etap 4x315 — unikanie pyłu i strona nawietrzna](raporty/etap-4x315-unikanie-pylu-strona-nawietrzna-2026-11-02.md)
 
 - [Etap 4x314 — numery z tablicy pomarańczowej dla ratowników](raporty/etap-4x314-numery-tablicy-pomaranczowej-dla-ratownikow-2026-11-02.md)
 
