@@ -141,3 +141,16 @@ Pytania kontrolne: `ADR-B-0037`, `ADR-B-0038`, `ADR-B-0039`, `ADR-B-0508`, `ADR-
 ### Ćwiczenie: kontrola dokumentów całej załogi
 
 Przed wyjazdem sprawdź dokumenty kierowcy i drugiego członka załogi. W scenariuszu drugi członek ma dokument bez fotografii. Poproś kursanta, aby wskazał, że wymóg dotyczy każdej osoby z załogi, a nie tylko kierowcy, i że wpis w notatniku nie zastępuje środka identyfikacji ze zdjęciem. Zwróć uwagę na rozróżnienie dokumentu identyfikacyjnego (8.1.2.1(d)) i zaświadczenia o przeszkoleniu kierowcy, jeśli jest wymagane (8.1.2.2(b)). Powiązane pytanie: ADR-B-0672 (needs_review). Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).
+
+
+## Zadanie instruktorskie — brak wpisu dla przewozu kombinowanego (ADR-B-0714)
+
+**Cel:** kursant potrafi rozpoznać brak obowiązkowej adnotacji i wskazać właściwą reakcję przed rozpoczęciem przewozu.
+
+**Przebieg:** pokaż kursantowi dokument przewozowy dla drogowego odcinka łańcucha morsko-drogowego. Celowo pomiń wpis wymagany w ADR 5.4.1.1.7. Nadawca telefonicznie zapewnia, że dokument IMDG wystarczy, i prosi kierowcę o samodzielne dopisanie formuły. Poproś kursanta, aby opisał, co zgłosi dyspozytorowi i jakie działanie powinno nastąpić przed wyjazdem.
+
+**Kryteria obserwacji:** kursant nie rozpoczyna przewozu z niekompletnym dokumentem; wskazuje obowiązek sprawdzenia informacji przez przewoźnika i uzyskania poprawnego dokumentu od nadawcy.
+
+**Typowe błędy:** uznanie dokumentu IMDG za automatyczne zastępstwo każdego wpisu ADR; potraktowanie ustnego zapewnienia lub samodzielnego dopisania tekstu jako dowodu spełnienia warunków przewozu.
+
+**Podstawa:** ADR 1.1.4.2.1, 1.4.2.2.1(b), 1.4.2.2.3 i 5.4.1.1.7.
