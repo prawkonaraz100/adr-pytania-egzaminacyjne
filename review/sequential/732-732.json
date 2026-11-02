@@ -1,0 +1,46 @@
+{
+  "batch": "732-732",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0732",
+      "sequence": 732,
+      "exact_record_snapshot": {
+        "stem": "Zakład wysyła odpad, którego klasyfikację przeprowadzono zgodnie z ADR 2.1.3.5.5. W dokumencie wpisano już numer UN, prawidłową nazwę przewozową, klasę, grupę pakowania i kod tunelowy. Jakiego dodatkowego zapisu wymaga ADR?",
+        "options": {
+          "A": "Wystarczy poprzedzić nazwę przewozową słowem „ODPAD”; nie trzeba wskazywać zastosowanej metody klasyfikacji odpadu.",
+          "B": "Dodać do opisu towaru zapis „ODPAD ZGODNY Z 2.1.3.5.5”, ponieważ zastosowano szczególną metodę klasyfikacji odpadu.",
+          "C": "Dodać wyłącznie kod odpadu z katalogu odpadów, a wymagany opis ADR pozostawić bez zmian."
+        },
+        "correct_option": "B",
+        "explanation": "Jeżeli klasyfikację odpadu przeprowadzono na podstawie 2.1.3.5.5, samo zwykłe poprzedzenie nazwy słowem „ODPAD” nie wystarcza. W opisie wymaganym przez ADR trzeba dodać dokładny zapis „ODPAD ZGODNY Z 2.1.3.5.5”. Odpowiedź A pomija ten szczególny dopisek, a C myli kod z katalogu odpadów z wymaganym opisem ADR. Podstawa: ADR 2025, 5.4.1.1.3.1 i 2.1.3.5.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.3.1; 2.1.3.5.5",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.4.1.1.3.1 second paragraph: where the waste provisions in 2.1.3.5.5 are used, the dangerous-goods description must be supplemented by the exact phrase ODPAD ZGODNY Z 2.1.3.5.5",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
