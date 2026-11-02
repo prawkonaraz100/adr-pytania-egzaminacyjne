@@ -6,7 +6,7 @@
 - ADR-B-0741 do ADR-B-05-K04: unikanie wdychania pyłu i pozostawanie po stronie nawietrznej (ADR 2025, 5.4.3.4).
 - Moduł ADR-B-05: **79** pytań; kompetencja K04: 5→6.
 - Rozkład prawidłowych opcji: A=248, B=265, C=228.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/741 = 10.93%**; maksimum działu to 14,61%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/741 = 10,93%**; maksimum działu to 14,61%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **39** (3 praktyczne pominięte).
 - Raport: `podstawowy/raporty/etap-4x315-unikanie-pylu-strona-nawietrzna-2026-11-02.md`.
 
