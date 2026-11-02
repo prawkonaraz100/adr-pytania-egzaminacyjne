@@ -6,7 +6,7 @@
 - ADR-B-0712 do ADR-B-05-K11: pierwsza pomoc po potwierdzeniu bezpieczeństwa miejsca zdarzenia; ADR 2025, 8.2.2.3.2(e).
 - Explanation 439 znaków; A/B/C 108/98/96; poprawna B nie jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=254, C=220.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/712 = 10,53%**; maksimum modułu to 13,95%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/712 = 10,53%**; maksimum działu to 13,95%.
 - ADR-B-05-K11 ma 5 pytań; moduł ADR-B-05 ma 72 pytania.
 - Klucze i warianty 001–005 zgodne z SHA banku; snapshoty sequential/legal 712-712; formalne zatwierdzenia: 0.
 - Raport: `podstawowy/raporty/etap-4x286-pierwsza-pomoc-bezpieczna-scena-2026-11-02.md`.
