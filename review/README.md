@@ -1,3 +1,5 @@
+**Bieżący bank 4x297:** 723 pytań, 723 `needs_review`, 0 `verified`; SHA `943c6943901df05242584ab2e8d438848ed959ff`. Rejestr `REJESTR-AKTUALNY-0001-0723.md`. Kompetencje teorii poniżej 6 pytań: **57**.
+
 **Bieżący stan po 4x296:** 722 pytania, 722 `needs_review`, 0 `verified`; SHA `eaf7a24acf1001dd3fc1d220a229808424a9c1df`; rejestr `REJESTR-AKTUALNY-0001-0722.md`. Kompetencje teorii poniżej 6: **58**.
 
 **Stan aktualny po etapie 4x295: 02.11.2026.**

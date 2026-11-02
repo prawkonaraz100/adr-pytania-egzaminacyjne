@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0723",
+  "date": "2026-11-02",
+  "scope": "ADR 2025, 2.2.41.1.1 and 2.2.41.1.3",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0723",
+      "order": 723,
+      "clause": "ADR 2025, 2.2.41.1.1 i 2.2.41.1.3",
+      "question_snapshot": {
+        "id": "ADR-B-0723",
+        "module_id": "ADR-B-02",
+        "stem": "Przy załadunku kierowca widzi opakowania oznaczone jako łatwo zapalny materiał stały klasy 4.1. Pracownik twierdzi, że zagrożenie pożarem dotyczy tylko cieczy i można pracować tuż obok źródła iskier. Co powinien odpowiedzieć kierowca?",
+        "options": {
+          "A": "To prawda, ponieważ iskry są niebezpieczne jedynie przy gazach i cieczach, ale nie przy materiałach stałych.",
+          "B": "To nieprawda, lecz wystarczy zamknąć drzwi pojazdu, by całkowicie wyeliminować zagrożenie pożarowe.",
+          "C": "To nieprawda: łatwo zapalne materiały stałe też mogą się zapalić, dlatego należy unikać źródeł zapłonu."
+        },
+        "correct_option": "C",
+        "explanation": "Klasa 4.1 obejmuje między innymi materiały stałe, które łatwo zapalają się od krótkiego kontaktu ze źródłem zapłonu, a płomień może szybko się rozprzestrzenić. Dlatego iskry podczas załadunku są realnym zagrożeniem, nawet jeśli ładunek nie jest cieczą. Samo zamknięcie drzwi nie usuwa ryzyka. Podstawa: ADR 2025, 2.2.41.1.1 i 2.2.41.1.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.41.1.1 i 2.2.41.1.3",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Klasa 4.1 obejmuje łatwo zapalne ciała stałe, nie tylko płyny i gazy są niebezpieczne."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Zamknięcie drzwi nie zastępuje eliminowania iskier i źródeł zapłonu."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Niektóre materiały stałe klasy 4.1 mogą zapalać się po krótkim kontakcie z płomieniem i iskrami."
+        }
+      },
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "notes_on_conditions": "Klasa 4.1 obejmuje szersze grupy materiałów niż tylko łatwo zapalne materiały stałe; opisany przypadek dotyczy materiału oznaczonego jako łatwo zapalny.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+    }
+  ]
+}
