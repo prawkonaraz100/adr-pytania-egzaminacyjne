@@ -8,19 +8,19 @@
       "id": "ADR-B-0720",
       "sequence": 720,
       "exact_record_snapshot": {
-        "stem": "Podczas dostawy do warsztatu kierowca wiezie na przyczepie przenośny agregat prądotwórczy z paliwem w jego zbiorniku. Agregat nie jest odrębnie wymieniony w ADR, a jego zbiornik i zamknięcia zabezpieczono przed wyciekiem w zwykłych warunkach transportu. Kiedy można zastosować wyłączenie?",
+        "stem": "Firma serwisowa odbiera od dostawcy 200 litrów towaru niebezpiecznego i wiezie je do własnego magazynu na zapas do przyszłych napraw. Wszystkie opakowania mają poniżej 450 litrów, a ilość mieści się w limitach 1.1.3.6. Czy przewóz korzysta z wyłączenia dla czynności pomocniczej firmy z ADR 1.1.3.1(c)?",
         "options": {
-          "A": "Może; wyłączenie obejmuje takie urządzenie, jeśli w normalnym przewozie zabezpieczono je przed uwolnieniem paliwa.",
-          "B": "Nie; przewóz urządzenia z paliwem zawsze podlega pełnym wymaganiom ADR, nawet gdy zbiornik jest szczelny i dobrze zamocowany.",
-          "C": "Tak; samo pozostawienie paliwa w zbiorniku zwalnia z ADR, nawet gdy paliwo może wyciec podczas przewozu."
+          "A": "Tak, bo firma zajmuje się naprawami, a ilości mieszczą się w obu limitach przewidzianych dla przewozów pomocniczych.",
+          "B": "Nie, bo przewóz w celu zaopatrzenia własnego magazynu nie jest objęty tym wyłączeniem dla działalności pomocniczej.",
+          "C": "Tak, bo każda dostawa do własnego magazynu jest przewozem pomocniczym, jeśli opakowania mają mniej niż 450 litrów."
         },
-        "correct_option": "A",
-        "explanation": "Wyłączenie z ADR może mieć zastosowanie do maszyny lub urządzenia, które zawiera towar niebezpieczny w swojej konstrukcji albo wyposażeniu roboczym. Warunek jest ważny: trzeba zabezpieczyć urządzenie tak, by w normalnych warunkach przewozu nie doszło do uwolnienia zawartości. Nie każde urządzenie z paliwem jest więc automatycznie zwolnione, a sam fakt, że paliwo jest w zbiorniku, nie wystarcza. Podstawa: ADR 2025, 1.1.3.1(b).",
+        "correct_option": "B",
+        "explanation": "To jest zaopatrzenie firmy: towar trafia do magazynu na przyszłe naprawy, a nie bezpośrednio na miejsce wykonywanej pracy. Wyłączenie dla przewozu pomocniczego nie obejmuje zaopatrzenia ani dystrybucji, nawet gdy opakowania i ilości mieszczą się w limitach. Nie oznacza to automatycznie pełnych wymagań ADR — ewentualne inne zwolnienia, np. z 1.1.3.6, trzeba ocenić osobno. Podstawa: ADR 2025, 1.1.3.1(c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.3.1(b)",
-            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+            "reference": "ADR 2025, 1.1.3.1(c)",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -35,14 +35,14 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "ADR 2025, 1.1.3.1(b): exemption for machinery/equipment not specified in ADR that contains dangerous goods in its structure or operating equipment, provided measures prevent release under normal conditions of carriage. Editorial first pass only; full literal Polish comparison and independent expert review pending.",
+      "source_crosscheck_scope": "ADR 2025, 1.1.3.1(c): exemption for enterprise carriage ancillary to main activity excludes enterprise supply or internal/external distribution. Other exemptions must be assessed separately; full literal Polish comparison and expert review pending.",
       "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved",
-      "legal_comparison_result": "A is correct: the exemption may apply to machinery/equipment containing dangerous goods in its structure or operating equipment when measures prevent release during normal carriage. B incorrectly rejects the exemption categorically; C incorrectly treats any fuel remaining in a tank as automatically exempt.",
-      "source_risk_note": "The exemption is conditional. It must not be read as a blanket exemption for any equipment containing fuel; the ADR scope and leakage-prevention condition both matter.",
+      "legal_comparison_result": "B is correct: carriage for replenishing the company's own warehouse is supply excluded from the ancillary-carriage exemption, regardless of packaging size. A and C wrongly treat ordinary supply as ancillary transport.",
+      "source_risk_note": "Do not confuse exclusion from exemption 1.1.3.1(c) with a blanket denial of any separate partial exemption under 1.1.3.6.",
       "expert_review_priority": "standard_expert_review"
     }
   ]
