@@ -1,4 +1,17 @@
-**Stan aktualny po etapie 4x285: 02.11.2026.**
+**Stan aktualny po etapie 4x286: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x286 (02.11.2026)
+
+- Bank: 712 pytań ADR-B-0001–0712; wszystkie `needs_review`, 0 `verified`; SHA `634d7c00f27f7213b70c6aeab716230d0eaa24dc`.
+- ADR-B-0712 do ADR-B-05-K11: pierwsza pomoc po potwierdzeniu bezpieczeństwa miejsca zdarzenia; ADR 2025, 8.2.2.3.2(e).
+- Explanation 439 znaków; A/B/C 108/98/96; poprawna B nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=238, B=254, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/712 = 10,53%**; maksimum modułu to 13,95%.
+- ADR-B-05-K11 ma 5 pytań; moduł ADR-B-05 ma 72 pytania.
+- Klucze i warianty 001–005 zgodne z SHA banku; snapshoty sequential/legal 712-712; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x286-pierwsza-pomoc-bezpieczna-scena-2026-11-02.md`.
+
+**Stan aktualny po etapie 4x286: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x285 (02.11.2026)
 
@@ -558,6 +571,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x286 — pierwsza pomoc po zabezpieczeniu miejsca](raporty/etap-4x286-pierwsza-pomoc-bezpieczna-scena-2026-11-02.md)
 - [Etap 4x285 — gaśnica dla jednostki transportowej z naczepą](raporty/etap-4x285-gasnica-jednostka-z-naczepa-2026-11-02.md)
 - [Etap 4x284 — dobór wyposażenia według nalepek](raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md)
 - [Etap 4x283 — definicja jednostki transportowej](raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md)
