@@ -263,3 +263,16 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowy błąd:** utożsamianie pierwszej pomocy z wejściem w strefę niebezpieczną albo odwlekanie prostych czynności do przyjazdu służb mimo bezpiecznych warunków.
 
 **Podstawa:** ADR 2025, 8.2.2.3.2(e) — pierwsza pomoc jako element zakresu kursu podstawowego. Szczegółowe procedury należy ćwiczyć według aktualnych zasad pierwszej pomocy i kompetencji instruktora. Ćwiczenie symulacyjne; nie potwierdza rzeczywistego zaliczenia praktyki.
+
+
+## Ćwiczenie instruktorskie — RKO i AED (ADR-B-0715)
+
+**Cel:** kursant rozpoznaje sytuację wymagającą natychmiastowego wezwania pomocy i rozpoczęcia RKO oraz potrafi współpracować z dyspozytorem i użyć AED zgodnie z komunikatami urządzenia.
+
+**Przebieg:** w bezpiecznej symulacji przedstaw osobę nieprzytomną, która nie oddycha prawidłowo. Kursant ma najpierw potwierdzić bezpieczeństwo miejsca, zadzwonić pod 112 na głośnomówiącym, rozpocząć RKO zgodnie z przeszkoleniem i poleceniami dyspozytora oraz poprosić drugą osobę o AED. Następnie ćwiczy przyklejenie elektrod na fantomie i wykonywanie komunikatów AED, jeśli sprzęt szkoleniowy jest dostępny.
+
+**Kryteria obserwacji:** kursant nie odkłada telefonu, nie układa osoby z nieprawidłowym oddechem w pozycji bocznej, nie podaje jej płynów i nie przerywa RKO bez wskazania. Działania wykonuje wyłącznie w bezpiecznej symulacji i zgodnie z aktualnym programem pierwszej pomocy.
+
+**Typowe błędy:** czekanie na karetkę bez rozpoczęcia RKO; mylenie pozycji bocznej z postępowaniem przy braku prawidłowego oddechu; brak podziału zadań i nieużycie dostępnego AED.
+
+**Podstawa:** ADR 2025, 8.2.2.3.2(e) i 8.2.2.3.8 — pierwsza pomoc oraz ćwiczenia praktyczne w kursie podstawowym; ERC Guidelines 2025 Adult Basic Life Support.
