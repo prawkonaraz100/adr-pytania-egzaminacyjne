@@ -109,7 +109,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertTrue(all(row["release_approved"] is False for row in entries))
 
     def test_specialist_index_covers_all_bank_ids(self):
-        content = (REVIEW / "REJESTR-AKTUALNY-0001-0711.md").read_text(encoding="utf-8")
+        content = (REVIEW / "REJESTR-AKTUALNY-0001-0712.md").read_text(encoding="utf-8")
         indexed = set(re.findall(r"\|\s*(ADR-B-\d{4})\s*\|", content))
         self.assertEqual(indexed, set(self.by_id))
 
