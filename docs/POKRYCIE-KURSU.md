@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x292: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x292
+
+- Bank: 718 `needs_review`, 0 `verified` (ADR-B-0001–0718); SHA `5eda2984ac8899b31bfc6b351b4cf1722ccdd07c`.
+- ADR-B-0718 do ADR-B-05-K15: wszystkie stosowne wpisy z instrukcji przy ładunku mieszanym i wielu zagrożeniach; ADR 5.4.3.4 (uwaga 1) i 8.2.2.3.8.
+- Explanation 397 znaków, 4 zdania; A/B/C 118/106/105; poprawna A jest najdłuższa.
+- Rozkład prawidłowych opcji: A=240, B=257, C=221.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/718 = 10,72%**; maksimum działu to 13,95%.
+- ADR-B-05-K15 ma 5 pytań; moduł ADR-B-05 ma 76 pytań.
+- Klucze i warianty 001–005, snapshoty sequential/legal 718-718; 0 zatwierdzeń.
+- Raport `podstawowy/raporty/etap-4x292-ladunek-wielozagrozeniowy-instrukcje-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x291: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x291
@@ -612,7 +625,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 75 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 76 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
@@ -621,7 +634,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **717** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **718** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
