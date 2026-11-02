@@ -281,3 +281,8 @@ Jeżeli po wypadku lub awarii odzież albo użyte środki ochronne zostały ska�
 ### Szczególny zapis dla odpadu sklasyfikowanego według 2.1.3.5.5 — ADR-B-0732
 
 Jeżeli klasyfikację odpadu wykonano zgodnie z ADR 2.1.3.5.5, opis towaru niebezpiecznego w dokumencie przewozowym trzeba uzupełnić dokładnym zapisem „ODPAD ZGODNY Z 2.1.3.5.5”. Samo ogólne słowo „ODPAD” nie zastępuje tego szczególnego dopisku. Podstawa: ADR 2025, 5.4.1.1.3.1.
+
+
+### Wyjątek od czyszczenia po przewozie luzem — tylko ten sam towar niebezpieczny (ADR-B-0733)
+
+Po przewozie luzem pojazd lub kontener trzeba prawidłowo oczyścić przed ponownym załadunkiem. Wyjątek dotyczy sytuacji, gdy kolejny ładunek składa się z tych samych towarów niebezpiecznych. Sam fakt, że poprzedni i następny towar należą do tej samej klasy, nie wystarcza. Podstawa: ADR 2025, 7.5.8.2.
