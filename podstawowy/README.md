@@ -2,9 +2,9 @@
 
 ## Bieżąca migawka — etap 4x293
 
-- Bank: 719 `needs_review`, 0 `verified` (ADR-B-0001–0719); SHA `a415f3761ba71994cbabfdf5f5300f6b865f9764`.
+- Bank: 719 `needs_review`, 0 `verified` (ADR-B-0001–0719); SHA `0ed456853665d37eed85fd8a63a612141f83a015`.
 - ADR-B-0719 do ADR-B-01-K03: firmowe potwierdzenie szkolenia nie zastępuje zaświadczenia ADR wydanego przez właściwą władzę; ADR 2025, 8.2.1.1.
-- Explanation 357 znaków, 4 zdania; A/B/C 76/91/102; poprawna A nie jest najdłuższa.
+- Explanation 357 znaków, 4 zdania; A/B/C 96/91/102; poprawna A nie jest najdłuższa.
 - Rozkład prawidłowych opcji: A=241, B=257, C=221.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/719 = 10,71%**; maksimum działu to 13,95%.
 - ADR-B-01-K03 ma 6 pytań; moduł ADR-B-01 ma 52 pytania.
