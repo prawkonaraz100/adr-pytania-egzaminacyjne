@@ -1,20 +1,19 @@
-**Stan aktualny po etapie 4x284: 02.11.2026.**
-
 ## Bieżąca migawka — etap 4x284 (02.11.2026)
 
 - Bank: 710 pytań ADR-B-0001–0710; wszystkie `needs_review`, 0 `verified`; SHA `40abca10d9e69a22bdc13523124ca00c43fb5236`.
-- ADR-B-0710 do ADR-B-08-K07: dobór wyposażenia według numerów nalepek zagrożenia; ADR 2025, 8.1.5.1–8.1.5.2.
+- ADR-B-0710 do ADR-B-08-K07: dobór wyposażenia ogólnego i ochronnego według numerów nalepek z dokumentu przewozowego; ADR 2025, 8.1.5.1–8.1.5.2.
 - Explanation 373 znaki; A/B/C 121/132/117; poprawna C nie jest najdłuższa.
 - Rozkład A/B/C: 238/252/220; „poprawna = jedyna najdłuższa”: 75/710 = 10,56%.
-- Klucze i warianty 001–005 zsynchronizowane; snapshoty 710-710; status 0 verified.
+- ADR-B-08-K07 ma 8 pytań; moduł ADR-B-08 ma 47 pytań.
+- Klucze i warianty 001–005 zgodne z SHA banku; snapshoty sequential/legal 710-710; formalne zatwierdzenia: 0.
 - Raport: `podstawowy/raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md`.
 
 **Stan aktualny po etapie 4x283: 01.11.2026.**
 
-## Bieżąca migawka — etap 4x284 (01.11.2026)
+## Bieżąca migawka — etap 4x283 (01.11.2026)
 
-- Bank: 710 pytań ADR-B-0001–0710; wszystkie `needs_review`, 0 `verified`; SHA `40abca10d9e69a22bdc13523124ca00c43fb5236`.
-- ADR-B-0710 do ADR-B-01-K01: definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
+- Bank: 709 pytań ADR-B-0001–0709; wszystkie `needs_review`, 0 `verified`; SHA `ca182bd6c5e40d3ab1384d9eb91e3b1dd7035b0a`.
+- ADR-B-0709 do ADR-B-01-K01: definicja jednostki transportowej w zestawie z przyczepą; ADR 2025, 1.2.1.
 - Explanation 305 znaków; A/B/C 108/102/101; poprawna B nie jest najdłuższa.
 - Rozkład A/B/C: 238/252/219; „poprawna = jedyna najdłuższa”: 75/709 = 10,58%.
 - ADR-B-01-K01 ma 6 pytań; moduł ADR-B-01 ma 51 pytań.
