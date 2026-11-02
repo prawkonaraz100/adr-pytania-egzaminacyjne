@@ -1,3 +1,17 @@
+**Stan aktualny po etapie 4x294: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x294
+
+- Bank: 720 `needs_review`, 0 `verified` (ADR-B-0001–0720); SHA `3b7e028fc0091bde174feeaecc9c6d7018d14c5c`.
+- ADR-B-0720 do ADR-B-01-K04: warunkowe wyłączenie dla maszyn i urządzeń zawierających towary niebezpieczne w konstrukcji lub wyposażeniu roboczym; ADR 2025, 1.1.3.1(b).
+- Explanation 429 znaków, 4 zdania; A/B/C 114/125/104; poprawna A nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=242, B=257, C=221.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/720 = 10,69%**; maksimum działu 13,95%.
+- ADR-B-01-K04 ma 6 pytań; moduł ADR-B-01 ma 53 pytania.
+- **Kompetencje teoretyczne z mniej niż 6 pytaniami: 60** (3 kompetencje praktyczne pominięte; pełna lista w raporcie partii).
+- Klucze i warianty 001–005, snapshoty sequential/legal 720-720, SHA w pakiecie specjalisty; 0 zatwierdzeń.
+- Raport `podstawowy/raporty/etap-4x294-maszyny-urzadzenia-wylaczenie-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x293: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x293
