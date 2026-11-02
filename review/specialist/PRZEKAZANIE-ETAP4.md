@@ -1,5 +1,7 @@
 **Stan aktualny po etapie 4x284: 02.11.2026.**
 
+## Bieżąca migawka — etap 4x284 (02.11.2026)
+
 - Bank: 710 pytań ADR-B-0001–0710; wszystkie `needs_review`, 0 `verified`; SHA `40abca10d9e69a22bdc13523124ca00c43fb5236`.
 - ADR-B-0710 do ADR-B-08-K07: dobór wyposażenia według numerów nalepek zagrożenia; ADR 2025, 8.1.5.1–8.1.5.2.
 - Explanation 373 znaki; A/B/C 121/132/117; poprawna C nie jest najdłuższa.
