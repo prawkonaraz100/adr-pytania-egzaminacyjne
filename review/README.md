@@ -1,16 +1,15 @@
-**Stan aktualny po etapie 4x287: 02.11.2026.**
+**Stan aktualny po etapie 4x288: 02.11.2026.**
 
-## Bieżąca migawka — etap 4x287 (02.11.2026)
+## Bieżąca migawka — etap 4x288 (02.11.2026)
 
-- Bank: 713 pytań ADR-B-0001–0713; wszystkie `needs_review`, 0 `verified`; SHA `f308b1555c50d3f657c2d753c81273bc56dda1de`.
-- ADR-B-0713 do ADR-B-07-K07: odpowiedzialność umowna przy opóźnieniu przewozu; ADR 2025, 8.2.2.3.2(k), Kodeks cywilny art. 471.
-- Explanation 475 znaków; A/B/C 121/126/108; poprawna B jest najdłuższa.
-- Rozkład A/B/C: 238/255/220; „poprawna = jedyna najdłuższa”: 76/713 = 10,66%.
-- ADR-B-07-K07 ma 5 pytań; moduł ADR-B-07 ma 52 pytania.
-- Klucze i warianty 001–005 zgodne z SHA banku; snapshoty sequential/legal 713-713; formalne zatwierdzenia: 0.
-- Raport: `podstawowy/raporty/etap-4x287-odpowiedzialnosc-umowna-opoznienie-2026-11-02.md`.
-
-**Stan aktualny po etapie 4x285: 02.11.2026.**
+- Bank: 714 pytań ADR-B-0001–0714; wszystkie `needs_review`, 0 `verified`; SHA `22c93b8abec0abd002fff821a873bde1776d0f56`.
+- ADR-B-0714 do ADR-B-13-K06: kontrola brakującej adnotacji w dokumencie dla przewozu kombinowanego; ADR 2025, 1.1.4.2.1, 1.4.2.2.1(b), 1.4.2.2.3 i 5.4.1.1.7.
+- Explanation 493 znaki, 5 zdań; A/B/C 119/110/119; poprawna A nie jest jedyną najdłuższą.
+- Rozkład prawidłowych opcji: A=239, B=255, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/714 = 10,64%**; maksimum działu to 13,95%.
+- ADR-B-13-K06 ma 5 pytań; moduł ADR-B-13 ma 50 pytań.
+- Klucze i warianty 001–005 wskazują aktualny SHA banku; snapshoty sequential/legal 714-714; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md`.
 
 ## Bieżąca migawka — etap 4x285 (02.11.2026)
 

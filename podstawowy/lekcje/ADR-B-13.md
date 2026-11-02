@@ -264,3 +264,10 @@ Odegraj scenariusz z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json)
 ### Dokument identyfikacyjny ze zdjęciem dla każdego członka załogi
 
 Podczas przewozu towarów niebezpiecznych każdy członek załogi musi mieć przy sobie środek identyfikacji zawierający fotografię. Nie wystarczy dokument kierowcy, ponieważ wymóg dotyczy również pozostałych osób w pojeździe. Dokument bez zdjęcia ani wpisanie danych do notatnika nie zastępują wymaganego środka identyfikacji. Powiązane pytanie: ADR-B-0672 (needs_review). Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).
+
+
+### Brak wymaganego wpisu w dokumencie przewozowym (ADR-B-0714)
+
+Przy przewozie drogowym będącym częścią łańcucha morsko-drogowego kierowca i przewoźnik nie mogą zakładać, że dokument IMDG automatycznie zastępuje wszystkie informacje wymagane przez ADR. Dla przewozu wykonywanego na warunkach 1.1.4.2.1 dokument powinien zawierać dodatkowy wpis wskazany w 5.4.1.1.7. Przewoźnik przed rozpoczęciem przewozu sprawdza, czy wymagane informacje zostały podane; jeżeli stwierdzi brak, nie powinien ruszać do czasu usunięcia niezgodności. Kierowca powinien zgłosić brak dyspozytorowi i poprosić o poprawny dokument, zamiast traktować ustne zapewnienie jako uzupełnienie. Podstawa: ADR 1.1.4.2.1, 1.4.2.2.1(b), 1.4.2.2.3 i 5.4.1.1.7.
+
+**Pytanie kontrolne:** ADR-B-0714 — co zrobić, gdy dokument nie zawiera wymaganego wpisu dla drogowego odcinka przewozu kombinowanego?

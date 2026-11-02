@@ -1,15 +1,15 @@
-**Stan na 02.11.2026, etap 4x287**
+**Stan na 02.11.2026, etap 4x288**
 
-## Bieżąca migawka — etap 4x287 (02.11.2026)
+## Bieżąca migawka — etap 4x288 (02.11.2026)
 
-- Bank: 713 `needs_review`, 0 `verified` (ADR-B-0001–0713); SHA `f308b1555c50d3f657c2d753c81273bc56dda1de`.
-- ADR-B-0713 do ADR-B-07-K07: odpowiedzialność umowna za opóźnienie przewozu; ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 471.
-- Explanation 475 znaków, 4 zdania; A/B/C 121/126/108; poprawna B jest najdłuższa.
-- Rozkład prawidłowych opcji: A=238, B=255, C=220.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/713 = 10,66%**; maksimum działu to 13,95%.
-- ADR-B-07-K07 ma 5 pytań; moduł ADR-B-07 ma 52 pytania.
-- Klucze i warianty 001–005 wskazują aktualny SHA banku; snapshoty sequential/legal 713-713; formalne zatwierdzenia: 0.
-- Raport: `podstawowy/raporty/etap-4x287-odpowiedzialnosc-umowna-opoznienie-2026-11-02.md`.
+- Bank: 714 `needs_review`, 0 `verified` (ADR-B-0001–0714); SHA `22c93b8abec0abd002fff821a873bde1776d0f56`.
+- ADR-B-0714 do ADR-B-13-K06: kontrola brakującej adnotacji w dokumencie dla przewozu kombinowanego; ADR 2025, 1.1.4.2.1, 1.4.2.2.1(b), 1.4.2.2.3 i 5.4.1.1.7.
+- Explanation 493 znaki, 5 zdań; A/B/C 119/110/119; poprawna A nie jest jedyną najdłuższą.
+- Rozkład prawidłowych opcji: A=239, B=255, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/714 = 10,64%**; maksimum działu to 13,95%.
+- ADR-B-13-K06 ma 5 pytań; moduł ADR-B-13 ma 50 pytań.
+- Klucze i warianty 001–005 wskazują aktualny SHA banku; snapshoty sequential/legal 714-714; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md`.
 
 **Stan historyczny po etapie 4x285: 02.11.2026.**
 
@@ -571,6 +571,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x288 — kontrola wpisu w przewozie kombinowanym](raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md)
 - [Etap 4x287 — odpowiedzialność umowna przy opóźnieniu przewozu](raporty/etap-4x287-odpowiedzialnosc-umowna-opoznienie-2026-11-02.md)
 - [Etap 4x286 — pierwsza pomoc po zabezpieczeniu miejsca](raporty/etap-4x286-pierwsza-pomoc-bezpieczna-scena-2026-11-02.md)
 - [Etap 4x285 — gaśnica dla jednostki transportowej z naczepą](raporty/etap-4x285-gasnica-jednostka-z-naczepa-2026-11-02.md)
