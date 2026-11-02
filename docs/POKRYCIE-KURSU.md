@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x291: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x291
+
+- Bank: 717 `needs_review`, 0 `verified` (ADR-B-0001–0717); SHA `f171a97a6d4a62812ba8ae399ec9d063902a1ee9`.
+- ADR-B-0717 do ADR-B-05-K13: dostępność gaśnicy i ochrona przed wpływem pogody; ADR 8.1.4.5; praktyczne ćwiczenia 8.2.2.3.8.
+- Explanation 408 znaków, 4 zdania; A/B/C 108/106/103; poprawna C nie jest najdłuższa.
+- Rozkład A/B/C: 239/257/221; wskaźnik najdłuższej poprawnej 76/717 = 10,60%; maksimum działu 13,95%.
+- Kompetencja ADR-B-05-K13 ma 5 pytań; moduł ADR-B-05 ma 75 pytań.
+- Klucze/warianty 001–005 i snapshoty sequential/legal 717-717; zatwierdzeń: 0.
+- Raport: `podstawowy/raporty/etap-4x291-ochrona-gasnicy-przed-pogoda-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x290: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x290
@@ -599,7 +611,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 74 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 75 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
@@ -608,7 +620,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **716** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **717** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
