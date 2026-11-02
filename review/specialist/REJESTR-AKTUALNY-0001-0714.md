@@ -6,6 +6,9 @@
 - Rozkład A/B/C: 239/255/220; poprawna = jedyna najdłuższa: 76/714 = 10,64%; maksimum modułu: 13,95%.
 - ADR-B-13-K06 ma 5 pytań; moduł ADR-B-13 ma 50 pytań. Formalne zatwierdzenia: 0.
 - Snapshoty sequential/legal 714-714; pełne porównanie literalne i recenzja specjalisty pozostają otwarte.
+- Raport: `podstawowy/raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md`.
+ 
+## Stan historyczny po etapie 4x287
 
 - Bank: 713 pytań ADR-B-0001–0713; 713 `needs_review`, 0 `verified`; SHA `f308b1555c50d3f657c2d753c81273bc56dda1de`.
 - ADR-B-0713 — odpowiedzialność umowna przy opóźnieniu przewozu; ADR 2025, 8.2.2.3.2(k), Kodeks cywilny art. 471.
