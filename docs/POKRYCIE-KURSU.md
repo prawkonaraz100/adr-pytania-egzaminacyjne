@@ -1,3 +1,14 @@
+**Stan aktualny po etapie 4x298: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x298
+
+- Bank: 724 `needs_review`, 0 `verified` (ADR-B-0001–0724); SHA `ede1889d5ee07f9cb85a299a4ca095ebb897d034`.
+- ADR-B-0724 do ADR-B-02-K05 (klasa 4.2, samonagrzewanie), ADR 2025, 2.2.42.1.1 i 2.2.42.1.3.
+- Rozkład prawidłowych opcji: A=242, B=259, C=223.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **78/724 = 10,77%**; maksimum działu to 13,95%.
+- Kompetencje teoretyczne z mniej niż 6 pytaniami: **56**.
+- Raport: `podstawowy/raporty/etap-4x298-klasa42-samonagrzewanie-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x297: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x297
@@ -686,7 +697,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 81 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 82 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 76 | 0 | Lekcja + mapa pytań |
@@ -698,7 +709,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **723** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **724** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
