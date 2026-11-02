@@ -1,0 +1,54 @@
+{
+  "batch": "713-713",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0713",
+      "sequence": 713,
+      "exact_record_snapshot": {
+        "stem": "Przewoźnik zobowiązał się dostarczyć ładunek do odbiorcy w określonym terminie. W drodze służby nagle zamknęły drogę po osunięciu ziemi, a bezpieczny objazd nie pozwalał dotrzeć na czas. Odbiorca żąda odszkodowania za opóźnienie. Które stwierdzenie najlepiej oddaje ogólną zasadę odpowiedzialności umownej?",
+        "options": {
+          "A": "Przewoźnik zawsze płaci odszkodowanie za niedotrzymanie terminu, nawet gdy przyczyna opóźnienia była od niego niezależna.",
+          "B": "Odpowiedzialność nie jest automatyczna; trzeba ustalić, czy opóźnienie wynikało z okoliczności, za które przewoźnik odpowiada.",
+          "C": "Za opóźnienie odpowiada wyłącznie kierowca, bo prowadził pojazd, nawet gdy umowę przewozu zawarł przewoźnik."
+        },
+        "correct_option": "B",
+        "explanation": "Sam fakt opóźnienia nie przesądza jeszcze o obowiązku zapłaty odszkodowania. Trzeba ustalić, czy przewoźnik odpowiada za przyczynę niewykonania terminu, czy wynikała ona z okoliczności, za które nie ponosi odpowiedzialności; samo zamknięcie drogi nie rozstrzyga sprawy bez oceny faktów. Błędne jest zarówno automatyczne obciążenie przewoźnika za każde opóźnienie, jak i przerzucenie całej odpowiedzialności na kierowcę. Podstawa: ADR 8.2.2.3.2(k); art. 471 Kodeksu cywilnego.",
+        "sources": [
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.2.2.3.2(k) — zakres kursu podstawowego obejmuje ogólne informacje o odpowiedzialności cywilnej",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "KC-2026-795",
+            "reference": "Dz.U. 2026 poz. 795, Kodeks cywilny, art. 471 — odpowiedzialność za szkodę wynikłą z niewykonania lub nienależytego wykonania zobowiązania, z wyjątkiem okoliczności, za które dłużnik nie odpowiada",
+            "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL+KC-2026",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.2.2.3.2(k) includes general information concerning civil liability in the basic driver training syllabus. The question applies Polish Civil Code article 471 to a contractual delay scenario. It does not conclude that a road closure automatically excludes liability; facts and circumstances remain to be assessed.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "B correctly states the general rule: contractual liability for non-performance or improper performance is not automatic when the debtor may be able to show circumstances for which it is not responsible. A incorrectly makes liability unconditional; C wrongly assigns contractual liability only to the driver.",
+      "supplementary_source_url": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+      "source_risk_note": "The ADR clause establishes that general civil liability is a required subject in the basic course. Article 471 KC supplies the civil-law rule. The scenario does not determine whether the specific road closure excuses this carrier; that depends on evidence and legal assessment.",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}
