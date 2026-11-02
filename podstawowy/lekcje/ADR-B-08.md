@@ -295,3 +295,11 @@ Klin musi być odpowiedni do dopuszczalnej masy całkowitej konkretnego pojazdu 
 ### Wyposażenie osobiste dla każdego członka załogi (ADR-B-0705)
 
 Wymagane wyposażenie osobiste nie jest jednym wspólnym kompletem dla całej kabiny. Każdy członek załogi pojazdu powinien mieć własną parę rękawic ochronnych i ochronę oczu, na przykład okulary ochronne. Jeżeli w pojeździe jadą dwie osoby, sprawdź wyposażenie dla obu, a nie tylko dla kierowcy. Podstawa: ADR 2025, 8.1.5.2.
+
+
+### Dobór wyposażenia według numerów nalepek (ADR-B-0710)
+
+Przed wyjazdem nie zakładaj, że każdy przewóz ADR wymaga identycznego zestawu wyposażenia. Sprawdź numery nalepek zagrożenia dla przewożonych towarów w dokumencie przewozowym, a następnie dobierz wyposażenie ogólne i ochronne zgodnie z wykazem ADR 8.1.5.2. Numery nalepek są wskazówką do wyboru wyposażenia; nie zastępuj tej kontroli samą nazwą handlową ani klasą główną towaru. Podstawa: ADR 8.1.5.1–8.1.5.2.
+
+**Pytanie do sprawdzenia:** ADR-B-0710 — jak kierowca ustala wymagany zestaw wyposażenia przed wyjazdem?
+
