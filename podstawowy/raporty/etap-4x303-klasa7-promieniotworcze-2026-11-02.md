@@ -4,8 +4,8 @@
 
 - ADR-B-0729 do ADR-B-02-K11, kompetencja uzupełniona z 5 do 6 pytań.
 - **Kompetencje teorii <6 pytań: 51** (poprzednio 52; trzy praktyczne pomijane).
-- Bank 729, 729 `needs_review`, 0 `verified`; SHA `29dd69585e261ce1b8f6f9e5b1282cf4ec2d4be3`.
-- Rozkład A/B/C: 242/262/225; poprawna jedyna najdłuższa **82/729 = 11,25%**, maksimum działu 16,09% (limit 18%).
+- Bank 729, 729 `needs_review`, 0 `verified`; SHA `d8a8aa6d6ed591f16a765b89954fe70a11d4c8ed`.
+- Rozkład A/B/C: 242/262/225; poprawna jedyna najdłuższa **81/729 = 11,11%**, maksimum działu 14,94% (limit 18%).
 - Klucz B; długości A/B/C 84/88/84; explanation 324 znaków.
 - Podstawa ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11. Pełne literalne porównanie tekstu polskiego i recenzja specjalisty pozostają wymagane.
 - Odświeżono egzaminy 001–005, snapshoty 729, ledger, kolejki, manifest PAKIET-0729, rejestr specjalisty, coverage i testy.
