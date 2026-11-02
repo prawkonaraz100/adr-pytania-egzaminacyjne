@@ -440,6 +440,6 @@ Przy ładunku mieszanym lub towarze stwarzającym kilka zagrożeń kierowca nie 
 Po awarii zatrzymaj pojazd i wyłącz silnik, jeśli możesz zrobić to bezpiecznie. Wyłącznik główny akumulatora obsługuj tylko wtedy, gdy można do niego podejść bez narażania się na wyciek, opary lub inne zagrożenie. Nie ryzykuj wejścia w niebezpieczne miejsce; oddal się, ostrzeż innych i wykonaj dalsze bezpieczne czynności z instrukcji pisemnych. Podstawa: ADR 2025, 5.4.3.4.
 
 
-### Numery z tablicy pomarańczowej przekazywane ratownikom — ADR-B-0740
+### Przekazanie danych o ładunku ratownikom — ADR-B-0740
 
-Na tablicy pomarańczowej z numerami górny numer rozpoznawczy zagrożenia opisuje rodzaj zagrożenia, a dolny numer UN identyfikuje przewożony towar. Jeśli oba numery są czytelne z bezpiecznego miejsca, przekaż je służbom razem z informacją o zdarzeniu. Nie wracaj po dokumenty, jeśli wymagałoby to wejścia w strefę zagrożenia. Podstawa: ADR 2025, 5.3.2.2.2 i 5.4.3.4.
+Na [tablicy pomarańczowej](../SLOWNICZEK.md#tablica-pomaranczowa) górny numer rozpoznawczy zagrożenia ([słowniczek](../SLOWNICZEK.md#numer-rozpoznawczy-zagrozenia)) opisuje rodzaj zagrożenia, a dolny numer UN identyfikuje przewożony towar. Jeśli oba numery są czytelne z bezpiecznego miejsca, przekaż je służbom razem z informacją o zdarzeniu. Nie wracaj po dokumenty, jeśli wymagałoby to wejścia w strefę zagrożenia. Podstawa: ADR 2025, 5.3.2.2.2 i 5.4.3.4.
