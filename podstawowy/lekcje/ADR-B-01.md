@@ -280,3 +280,8 @@ W ADR jednostką transportową jest pojazd samochodowy bez przyczepy albo zespó
 ### Firmowe potwierdzenie a zaświadczenie ADR kierowcy
 
 Jeżeli przewóz wymaga zaświadczenia ADR, kierowca nie może zastąpić go kartką od pracodawcy potwierdzającą udział w szkoleniu. Wymagany dokument wydaje właściwa władza po spełnieniu warunków szkolenia i egzaminu. Lista obecności i zgoda firmy nie potwierdzają zdania egzaminu. Powiązane pytanie: ADR-B-0719. Podstawa: ADR 2025, 8.2.1.1.
+
+
+### Maszyna lub urządzenie z paliwem w wyposażeniu roboczym
+
+Jeśli przewozisz maszynę z paliwem w jej zbiorniku, nie zakładaj automatycznie ani pełnego ADR, ani całkowitego zwolnienia. ADR przewiduje wyłączenie dla określonych maszyn i urządzeń, jeżeli w normalnych warunkach przewozu nie dojdzie do uwolnienia niebezpiecznej zawartości. Sprawdź, czy urządzenie nie jest odrębnie wymienione w ADR i czy zbiornik oraz zamknięcia są odpowiednio zabezpieczone. Powiązane pytanie: ADR-B-0720. Podstawa: ADR 2025, 1.1.3.1(b).
