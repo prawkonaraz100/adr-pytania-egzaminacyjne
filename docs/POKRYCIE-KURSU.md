@@ -6,7 +6,7 @@
 - ADR-B-0731 do ADR-B-02-K14: brak grupy pakowania przy gazach klasy 2 (ADR 2025, 2.1.1.3; 3.2.1 tabela A, kolumna 4).
 - Moduł ADR-B-02: **89** pytań; kompetencja K14: 5→6.
 - Rozkład prawidłowych opcji: A=244, B=262, C=225.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/731 = 11,08%**; maksimum działu to **14,61%**.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/731 = 11,08%**; maksimum działu to 14,61%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **49** (3 praktyczne pominięte).
 - Raport: `podstawowy/raporty/etap-4x305-klasa2-brak-grupy-pakowania-2026-11-02.md`.
 
