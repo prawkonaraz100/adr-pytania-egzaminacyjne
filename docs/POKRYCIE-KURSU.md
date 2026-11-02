@@ -5,7 +5,7 @@
 - Bank: 726 `needs_review`, 0 `verified`; SHA `4dcc4a8f86db5d6bfd8917679a4e29b4f0575c4b`.
 - ADR-B-0726 do ADR-B-02-K08 — klasa 5.2, kontrola temperatury (ADR 2025, 2.2.52.1.15 i 7.1.7).
 - Rozkład prawidłowych opcji: A=242, B=260, C=224.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **80/726 = 11,02%**; maksimum działu nie przekracza 18%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **80/726 = 11,02%**; maksimum działu to 14,29%.
 - Kompetencje teoretyczne z mniej niż 6 pytaniami: **54**.
 - Raport: `podstawowy/raporty/etap-4x300-klasa52-kontrola-temperatury-2026-11-02.md`.
 
