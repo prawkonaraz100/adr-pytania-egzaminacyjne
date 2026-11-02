@@ -2,7 +2,7 @@
 
 ## Bieżąca migawka — etap 4x294
 
-- Bank: 720 `needs_review`, 0 `verified` (ADR-B-0001–0720); SHA `3b7e028fc0091bde174feeaecc9c6d7018d14c5c`.
+- Bank: 720 `needs_review`, 0 `verified` (ADR-B-0001–0720); SHA `e9997f72bef99fba15cbd45143e15d1e03b79aa3`.
 - ADR-B-0720 do ADR-B-01-K04: warunkowe wyłączenie dla maszyn i urządzeń zawierających towary niebezpieczne w konstrukcji lub wyposażeniu roboczym; ADR 2025, 1.1.3.1(b).
 - Explanation 429 znaków, 4 zdania; A/B/C 114/125/104; poprawna A nie jest ani najkrótsza, ani najdłuższa.
 - Rozkład prawidłowych opcji: A=242, B=257, C=221.
