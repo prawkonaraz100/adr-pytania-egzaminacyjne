@@ -867,7 +867,7 @@ Bank bieżący: 664 pytań, wszystkie `needs_review`, 0 `verified`. Blob SHA: `a
 
 | ADR-B-0719 | ADR-B-01 | ADR-B-01-K03 | Kierowca ma rozpocząć przewóz wymagający zaświadczenia ADR. Ukończył szkolenie zorganizowane przez pracodawcę i otrzymał firmowe potwierdzenie udziału, ale nie ma zaświadczenia ADR wydanego przez właściwą władzę. Czy może ruszyć w trasę? | A | ADR 2025, 8.2.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |**Stan aktualny po etapie 4x294: 02.11.2026.**
 
-- Bank: 720 pytań ADR-B-0001–0720; 720 `needs_review`, 0 `verified`; SHA `3b7e028fc0091bde174feeaecc9c6d7018d14c5c`.
+- Bank: 720 pytań ADR-B-0001–0720; 720 `needs_review`, 0 `verified`; SHA `e9997f72bef99fba15cbd45143e15d1e03b79aa3`.
 - ADR-B-0720 — maszyny i urządzenia z towarami niebezpiecznymi w konstrukcji lub wyposażeniu roboczym; ADR 2025, 1.1.3.1(b); kompetencja ADR-B-01-K04 ma teraz 6 pytań.
 - Explanation 429 znaków, 4 zdania; A/B/C 114/125/104; poprawna A nie jest ani najkrótsza, ani najdłuższa.
 - Rozkład A/B/C 242/257/221; poprawna = jedyna najdłuższa 77/720 = 10,69%; maksimum działu 13,95%.
