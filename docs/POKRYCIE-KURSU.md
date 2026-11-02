@@ -5,7 +5,7 @@
 - Bank: **740** pytań, 740 `needs_review`, 0 `verified`; SHA `9a04009ad8e65d597c70d3e337f861c672f840f3`.
 - ADR-B-0740 do ADR-B-05-K03: odczyt i przekazanie ratownikom numeru rozpoznawczego zagrożenia oraz numeru UN z tablicy pomarańczowej (ADR 2025, 5.3.2.2.2 i 5.4.3.4).
 - Moduł ADR-B-05: **78** pytań; kompetencja K03: 5→6.
-- Rozkład prawidłowych opcji: A=248, B=264, C=228.
+- Rozkład prawidłowych opcji: A=248, B=265, C=227.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/740 = 10,95%**; maksimum działu to 14,61%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **40** (3 praktyczne pominięte).
 - Raport: `podstawowy/raporty/etap-4x314-numery-tablicy-pomaranczowej-dla-ratownikow-2026-11-02.md`.
