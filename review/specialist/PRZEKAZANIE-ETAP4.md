@@ -1,3 +1,12 @@
+**Bieżący bank 4x307:** 733 pytań, 733 `needs_review`, 0 `verified`; SHA `0ca9332689073fc3750b9e0bd5d7a4a93e9a1d0b`. Rejestr `REJESTR-AKTUALNY-0001-0733.md`. Kompetencje teorii <6: **47**.
+
+## Bieżąca migawka — etap 4x307
+
+- ADR-B-0733 do ADR-B-03-K03; wyjątek od czyszczenia tylko przy ponownym załadunku tych samych towarów niebezpiecznych.
+- Podstawa: ADR 2025, 7.5.8.2.
+- Bank 733, zero `verified`; licznik kompetencji teorii <6: **47**.
+- Raport: `podstawowy/raporty/etap-4x307-czyszczenie-przewoz-luzem-ten-sam-towar-2026-11-02.md`.
+
 **Bieżący bank 4x306:** 732 pytań, 732 `needs_review`, 0 `verified`; SHA `2896a94357e8cd8b745602efc7f425960e89ca6a`. Rejestr `REJESTR-AKTUALNY-0001-0732.md`. Kompetencje teorii <6: **48**.
 
 ## Bieżąca migawka — etap 4x306
