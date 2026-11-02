@@ -1,0 +1,46 @@
+{
+  "batch": "744-744",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0744",
+      "sequence": 744,
+      "exact_record_snapshot": {
+        "stem": "Dokument przewozowy jest przechowywany wyłącznie w aplikacji, która pobiera go z internetu. Po wypadku w miejscu bez zasięgu ratownicy nie mogą go otworzyć. Jakie wymaganie ADR dotyczące takiego rozwiązania nie zostało spełnione?",
+        "options": {
+          "A": "Dostęp do wymaganych danych podczas przewozu musi być co najmniej tak niezawodny jak przy dokumencie papierowym.",
+          "B": "Wystarczy podać ratownikom tylko numer UN z pamięci, a pełny dokument udostępnić dopiero po zakończeniu działań.",
+          "C": "Pozostawić dokument wyłącznie w chmurze i poprosić ratowników, by poczekali na zasięg albo skontaktowali się z nadawcą."
+        },
+        "correct_option": "A",
+        "explanation": "Elektroniczny dokument jest dopuszczalny, ale wymagane dane muszą być dostępne podczas przewozu i równie wiarygodnie jak przy papierze. Jeśli brak zasięgu uniemożliwia otwarcie pliku, ratownicy nie otrzymają informacji potrzebnych do rozpoznania ładunku. Sam numer UN podany z pamięci nie zastępuje całego dokumentu, a oczekiwanie na sieć opóźnia dostęp. Podstawa: ADR 2025, 5.4.0.2 i 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.0.2 — dostępność elektronicznych danych podczas przewozu co najmniej równoważna dokumentacji papierowej; 5.4.3.4 — dokumenty przewozowe łatwo dostępne dla służb ratowniczych",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 5.4.0.2 electronic data capture/storage/processing must meet legal evidential value and availability during transport at least equivalent to paper; 5.4.3.4 transport documents readily available to emergency services on arrival",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

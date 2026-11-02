@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0744",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 5.4.0.2 and 5.4.3.4 — electronic documentation and availability to emergency services",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0744",
+      "order": 744,
+      "clause": "ADR 2025, 5.4.0.2; 5.4.3.4",
+      "question_snapshot": {
+        "id": "ADR-B-0744",
+        "module_id": "ADR-B-05",
+        "stem": "Dokument przewozowy jest przechowywany wyłącznie w aplikacji, która pobiera go z internetu. Po wypadku w miejscu bez zasięgu ratownicy nie mogą go otworzyć. Jakie wymaganie ADR dotyczące takiego rozwiązania nie zostało spełnione?",
+        "options": {
+          "A": "Dostęp do wymaganych danych podczas przewozu musi być co najmniej tak niezawodny jak przy dokumencie papierowym.",
+          "B": "Wystarczy podać ratownikom tylko numer UN z pamięci, a pełny dokument udostępnić dopiero po zakończeniu działań.",
+          "C": "Pozostawić dokument wyłącznie w chmurze i poprosić ratowników, by poczekali na zasięg albo skontaktowali się z nadawcą."
+        },
+        "correct_option": "A",
+        "explanation": "Elektroniczny dokument jest dopuszczalny, ale wymagane dane muszą być dostępne podczas przewozu i równie wiarygodnie jak przy papierze. Jeśli brak zasięgu uniemożliwia otwarcie pliku, ratownicy nie otrzymają informacji potrzebnych do rozpoznania ładunku. Sam numer UN podany z pamięci nie zastępuje całego dokumentu, a oczekiwanie na sieć opóźnia dostęp. Podstawa: ADR 2025, 5.4.0.2 i 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.0.2 — dostępność elektronicznych danych podczas przewozu co najmniej równoważna dokumentacji papierowej; 5.4.3.4 — dokumenty przewozowe łatwo dostępne dla służb ratowniczych",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Elektroniczne przetwarzanie danych jest dopuszczalne tylko przy dostępności danych podczas przewozu na poziomie co najmniej równoważnym dokumentacji papierowej; dokumenty mają być łatwo dostępne dla ratowników."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Sam numer UN nie zastępuje pozostałych wymaganych informacji w dokumencie przewozowym."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Jeśli brak sieci uniemożliwia dostęp do dokumentu, dane nie są dostępne podczas przewozu w wymaganym stopniu."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy sytuacji, w której brak zasięgu faktycznie uniemożliwia otwarcie dokumentu. Nie stwierdza, że każde rozwiązanie elektroniczne wymaga zawsze papierowej kopii.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

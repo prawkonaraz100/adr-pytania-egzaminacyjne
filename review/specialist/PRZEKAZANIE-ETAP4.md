@@ -1,4 +1,10 @@
-## Bieżąca migawka — etap 4x317
+## Bieżąca migawka — etap 4x318
+
+Raport: `podstawowy/raporty/etap-4x318-elektroniczny-dokument-przewozowy-dostepnosc-2026-11-02.md`.
+
+**Bieżący stan po etapie 4x318 (02.11.2026): bank 744 pytań, 744 `needs_review`, 0 `verified`; SHA `2c20fa651689bb224e88f2d52775207ad6d864eb`; kompetencje teorii <6: 36. Rejestr: `REJESTR-AKTUALNY-0001-0744.md`.**
+
+## Poprzednia migawka — etap 4x317
 
 Raport: `podstawowy/raporty/etap-4x317-maly-pozar-warunek-bezpieczenstwa-2026-11-02.md`.
 

@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x318: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x318
+
+- Bank: **744** pytań, 744 `needs_review`, 0 `verified`; SHA `2c20fa651689bb224e88f2d52775207ad6d864eb`.
+- ADR-B-0744 do ADR-B-05-K07: dostępność elektronicznego dokumentu przewozowego podczas całego przewozu oraz dla ratowników (ADR 2025, 5.4.0.2 i 5.4.3.4).
+- Moduł ADR-B-05: **82** pytań; kompetencja K07: 5→6.
+- Rozkład prawidłowych opcji: A=249, B=267, C=228.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/744 = 10,89%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **36** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x318-elektroniczny-dokument-przewozowy-dostepnosc-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x317: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x317
@@ -901,7 +913,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 89 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 81 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 82 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
@@ -910,7 +922,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **743** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **744** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

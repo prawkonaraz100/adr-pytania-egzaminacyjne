@@ -1,10 +1,10 @@
-**Stan na 02.11.2026, etap 4x317**
+**Stan na 02.11.2026, etap 4x318**
 
-**Stan 4x317:** 743 `needs_review`, 0 `verified`; SHA `1834185447c88b46f712cba439b615f5a7e210a9`. Poprawna = jedyna najdłuższa: **81/743 = 10,90%**; maksimum działu **14,61%**. Kompetencje teorii <6: **37**.
+**Stan 4x318:** 744 `needs_review`, 0 `verified`; SHA `2c20fa651689bb224e88f2d52775207ad6d864eb`. Poprawna = jedyna najdłuższa: **81/744 = 10,89%**; maksimum działu **14,61%**. Kompetencje teorii <6: **36**.
 
 ## Raporty jakości
 
-- [Etap 4x317 — mały pożar i warunek bezpieczeństwa](raporty/etap-4x317-maly-pozar-warunek-bezpieczenstwa-2026-11-02.md)
+- [Etap 4x318 — elektroniczny dokument przewozowy i dostępność](raporty/etap-4x318-elektroniczny-dokument-przewozowy-dostepnosc-2026-11-02.md)
 
 
 **Stan na 02.11.2026, etap 4x313**
