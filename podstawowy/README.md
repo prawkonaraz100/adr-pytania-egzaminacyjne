@@ -2,7 +2,7 @@
 
 ## Bieżąca migawka — etap 4x288 (02.11.2026)
 
-- Bank: 714 pytań ADR-B-0001–0714; wszystkie `needs_review`, 0 `verified`; SHA `22c93b8abec0abd002fff821a873bde1776d0f56`.
+- Bank: 714 `needs_review`, 0 `verified` (ADR-B-0001–0714); SHA `22c93b8abec0abd002fff821a873bde1776d0f56`.
 - ADR-B-0714 do ADR-B-13-K06: kontrola brakującej adnotacji w dokumencie dla przewozu kombinowanego; ADR 2025, 1.1.4.2.1, 1.4.2.2.1(b), 1.4.2.2.3 i 5.4.1.1.7.
 - Explanation 493 znaki, 5 zdań; A/B/C 119/110/119; poprawna A nie jest jedyną najdłuższą.
 - Rozkład prawidłowych opcji: A=239, B=255, C=220.
