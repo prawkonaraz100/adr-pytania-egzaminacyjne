@@ -1,3 +1,5 @@
+**Bieżący bank 4x305:** 731 pytań, 731 `needs_review`, 0 `verified`; SHA `7323023ff6f3fcb361caf625e781cd5cb1303d58`. Rejestr `REJESTR-AKTUALNY-0001-0731.md`. Kompetencje teorii <6: **49**.
+
 **Bieżący bank 4x304:** 730 pytań, 730 `needs_review`, 0 `verified`; SHA `1c9843ec48321d6a46dbc75f9f104d034dc26dba`. Rejestr `REJESTR-AKTUALNY-0001-0730.md`. Kompetencje teorii <6: **50**.
 
 **Bieżący bank 4x303:** 729 pytań, 729 `needs_review`, 0 `verified`; SHA `d8a8aa6d6ed591f16a765b89954fe70a11d4c8ed`. Rejestr `REJESTR-AKTUALNY-0001-0729.md`. Kompetencje teorii <6: **51**.

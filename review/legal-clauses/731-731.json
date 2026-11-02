@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0731",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 2.1.1.3 and 3.2.1 Table A column 4",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0731",
+      "order": 731,
+      "clause": "ADR 2025, 2.1.1.3; 3.2.1 tabela A, kolumna (4)",
+      "question_snapshot": {
+        "id": "ADR-B-0731",
+        "module_id": "ADR-B-02",
+        "stem": "Kierowca porównuje dokument z tabelą A ADR dla przewożonego gazu klasy 2. W kolumnie 4 nie ma grupy pakowania. Co powinien z tego wywnioskować?",
+        "options": {
+          "A": "To normalne: klasa 2 nie jest objęta systemem grup pakowania I–III.",
+          "B": "Brak grupy oznacza błąd w dokumentach; przed rozpoczęciem przewozu nadawca musi dopisać grupę I, II albo III.",
+          "C": "Kierowca powinien sam przypisać grupę II na podstawie tego, czy gaz jest palny, trujący lub duszący."
+        },
+        "correct_option": "A",
+        "explanation": "Brak grupy pakowania przy gazie klasy 2 nie oznacza błędu w tabeli ani dokumentach. ADR wyłącza klasę 2 z systemu grup I–III, dlatego kierowca nie powinien dopisywać grupy ani samodzielnie jej ustalać. Zamiast tego odczytuje pozostałe dane wpisu, w tym klasyfikację gazu i wymagane warunki przewozu. Podstawa: ADR 2025, 2.1.1.3 i 3.2.1, tabela A.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.1.3; 3.2.1 tabela A, kolumna (4)",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "ADR 2.1.1.3 wyłącza klasę 2 z systemu grup pakowania I–III; kolumna 4 tabeli A wskazuje grupę, gdy ma zastosowanie."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Brak grupy przy klasie 2 nie jest sam w sobie błędem; ta klasa jest wyłączona z systemu grup pakowania."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Kierowca nie przypisuje samodzielnie grupy pakowania na podstawie rodzaju gazu; klasyfikację i właściwe dane wskazuje ADR."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy ogólnej zasady dla klasy 2; konkretne wymagania przewozowe nadal wynikają z właściwego wpisu UN, kodu klasyfikacyjnego i innych kolumn tabeli A.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
