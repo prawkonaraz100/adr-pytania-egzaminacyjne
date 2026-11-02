@@ -291,3 +291,8 @@ Po przewozie luzem pojazd lub kontener trzeba prawidłowo oczyścić przed ponow
 ### Wyposażenie ochrony kanalizacji także przy nalepce 9 — ADR-B-0734
 
 Jednostka przewożąca towary oznakowane nalepką 9 musi mieć dodatkowe wyposażenie wskazane w ADR 8.1.5.2: łopatę, osłonę kanalizacyjną i pojemnik do zebrania pozostałości. Wymóg nie ogranicza się do towarów klasy 8. Podstawa: ADR 2025, 8.1.5.2.
+
+
+### Dokumenty przewozowe za rozlewem — nie wchodzić w strefę skażenia (ADR-B-0735)
+
+Jeżeli dokumenty pozostały w kabinie, ale jedyna droga do nich prowadzi przez rozlew lub opary, kierowca nie powinien ryzykować wejścia w skażony obszar. Ma oddalić się na stronę nawietrzną, ostrzec innych i przekazać służbom, gdzie znajdują się dokumenty. Ich dostępność dla ratowników nie oznacza obowiązku narażenia załogi. Podstawa: ADR 2025, 5.4.3.4 — model instrukcji pisemnych.
