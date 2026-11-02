@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x306: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x306
+
+- Bank: **732** pytań, 732 `needs_review`, 0 `verified`; SHA `2896a94357e8cd8b745602efc7f425960e89ca6a`.
+- ADR-B-0732 do ADR-B-03-K02: wymagany dopisek dla odpadu sklasyfikowanego według 2.1.3.5.5 (ADR 2025, 5.4.1.1.3.1).
+- Moduł ADR-B-03: **57** pytań; kompetencja K02: 5→6.
+- Rozkład prawidłowych opcji: A=244, B=263, C=225.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/732 = 11,07%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **48** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x306-odpad-21355-dopisek-w-dokumencie-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x305: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x305
@@ -777,7 +789,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 89 | 0 | Lekcja + mapa pytań |
-| ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
+| ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 57 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 76 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
@@ -788,7 +800,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **731** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **732** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
