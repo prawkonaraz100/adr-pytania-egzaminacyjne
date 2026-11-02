@@ -438,3 +438,8 @@ Temperatura zapłonu pomaga rozpoznać zagrożenie związane z parami palnej cie
 ### Materiały stałe zapalne — ADR-B-0723
 
 Materiały stałe klasy 4.1 również mogą zapalać się od iskier i płomienia. Kierowca nie może uznać, że tylko ciecze i gazy stwarzają ryzyko pożaru. Zobacz pytanie ADR-B-0723. Podstawa: ADR 2025, 2.2.41.1.1 i 2.2.41.1.3.
+
+
+### Samonagrzewanie — ADR-B-0724
+
+Materiał samonagrzewający się klasy 4.2 może w reakcji z powietrzem stopniowo wytwarzać ciepło. Jeśli jest go dużo, po godzinach lub dniach może dojść do samozapłonu bez zewnętrznego płomienia. Zobacz pytanie ADR-B-0724. Podstawa: ADR 2025, 2.2.42.1.1 i 2.2.42.1.3.
