@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0737",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 8.3.3 prohibition on opening packages",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0737",
+      "order": 737,
+      "clause": "ADR 2025, 8.3.3",
+      "question_snapshot": {
+        "id": "ADR-B-0737",
+        "module_id": "ADR-B-04",
+        "stem": "Po przyjeździe do odbiorcy magazynier prosi kierowcę o otwarcie sztuki przesyłki ADR, by porównać zawartość z zamówieniem. Odbiorca pisemnie zgadza się na otwarcie. Co może zrobić kierowca?",
+        "options": {
+          "A": "Odmówić otwarcia; zgoda odbiorcy nie znosi zakazu z ADR 8.3.3 dotyczącego kierowcy i pomocnika.",
+          "B": "Otworzyć opakowanie w obecności magazyniera, bo odbiorca przejmuje odpowiedzialność za przesyłkę po przyjeździe pojazdu.",
+          "C": "Poprosić pomocnika o otwarcie, ponieważ zakaz dotyczy tylko kierowcy, który samodzielnie otwiera paczkę."
+        },
+        "correct_option": "A",
+        "explanation": "ADR 8.3.3 zabrania kierowcy i pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne. Zgoda odbiorcy ani jego obecność nie tworzą wyjątku od tego zakazu. Kierowca nie może też przerzucić tej czynności na pomocnika; w razie wątpliwości dotyczących zawartości powinien wyjaśnić je z nadawcą lub odbiorcą bez otwierania paczki. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3 — kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłek zawierających towary niebezpieczne",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "ADR 8.3.3 zakazuje kierowcy i pomocnikowi otwierania sztuk przesyłek z towarami niebezpiecznymi; zgoda odbiorcy nie tworzy wyjątku."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Zgoda odbiorcy i jego obecność nie uchylają zakazu z 8.3.3."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Zakaz dotyczy zarówno kierowcy, jak i pomocnika; nie wolno przekazywać mu otwarcia paczki."
+        }
+      },
+      "notes_on_conditions": "Scenariusz dotyczy sztuki przesyłki zawierającej towary niebezpieczne; odbiorca pisemnie prosi o otwarcie, lecz taka zgoda nie stanowi wyjątku w ADR 8.3.3.",
+      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+**Stan na 02.11.2026, etap 4x311**
+
+**Stan 4x311:** 737 `needs_review`, 0 `verified`; SHA `fd06cfd4d0d67d5285afa71981e1b2e448d71143`. Poprawna = jedyna najdłuższa: **81/737 = 10,99%**; maksimum działu **14,61%**. Kompetencje teorii <6: **43**.
+
 **Stan na 02.11.2026, etap 4x310**
 
 **Stan 4x310:** 736 `needs_review`, 0 `verified`; SHA `1c1ee10536eceecdc7cc34cdb2675f8605036c30`. Poprawna = jedyna najdłuższa: **81/736 = 11,01%**; maksimum działu **14,61%**. Kompetencje teorii <6: **44**.
@@ -710,6 +714,8 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+
+- [Etap 4x311 — zakaz otwierania sztuki przesyłki mimo zgody odbiorcy](raporty/etap-4x311-zakaz-otwierania-zgoda-odbiorcy-2026-11-02.md)
 
 - [Etap 4x310 — zakaz palenia podczas przeładunku](raporty/etap-4x310-zakaz-palenia-przeladunek-2026-11-02.md)
 

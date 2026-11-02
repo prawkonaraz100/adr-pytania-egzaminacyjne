@@ -1,3 +1,7 @@
+**Bieżąca migawka — etap 4x311:** bank 737 pytań, wszystkie `needs_review`, 0 `verified`; SHA `fd06cfd4d0d67d5285afa71981e1b2e448d71143`; kompetencje teorii <6: **43**. Raport: `podstawowy/raporty/etap-4x311-zakaz-otwierania-zgoda-odbiorcy-2026-11-02.md`.
+
+**Bieżący bank 4x311:** 737 pytań, 737 `needs_review`, 0 `verified`; SHA `fd06cfd4d0d67d5285afa71981e1b2e448d71143`. Rejestr `REJESTR-AKTUALNY-0001-0737.md`. Kompetencje teorii <6: **43**.
+
 **Bieżąca migawka — etap 4x310:** bank 736 pytań, wszystkie `needs_review`, 0 `verified`; SHA `1c1ee10536eceecdc7cc34cdb2675f8605036c30`; kompetencje teorii <6: **44**. Raport: `podstawowy/raporty/etap-4x310-zakaz-palenia-przeladunek-2026-11-02.md`.
 
 **Bieżący bank 4x310:** 736 pytań, 736 `needs_review`, 0 `verified`; SHA `1c1ee10536eceecdc7cc34cdb2675f8605036c30`. Rejestr `REJESTR-AKTUALNY-0001-0736.md`. Kompetencje teorii <6: **44**.

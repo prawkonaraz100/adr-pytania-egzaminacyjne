@@ -1,0 +1,46 @@
+{
+  "batch": "737-737",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0737",
+      "sequence": 737,
+      "exact_record_snapshot": {
+        "stem": "Po przyjeździe do odbiorcy magazynier prosi kierowcę o otwarcie sztuki przesyłki ADR, by porównać zawartość z zamówieniem. Odbiorca pisemnie zgadza się na otwarcie. Co może zrobić kierowca?",
+        "options": {
+          "A": "Odmówić otwarcia; zgoda odbiorcy nie znosi zakazu z ADR 8.3.3 dotyczącego kierowcy i pomocnika.",
+          "B": "Otworzyć opakowanie w obecności magazyniera, bo odbiorca przejmuje odpowiedzialność za przesyłkę po przyjeździe pojazdu.",
+          "C": "Poprosić pomocnika o otwarcie, ponieważ zakaz dotyczy tylko kierowcy, który samodzielnie otwiera paczkę."
+        },
+        "correct_option": "A",
+        "explanation": "ADR 8.3.3 zabrania kierowcy i pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne. Zgoda odbiorcy ani jego obecność nie tworzą wyjątku od tego zakazu. Kierowca nie może też przerzucić tej czynności na pomocnika; w razie wątpliwości dotyczących zawartości powinien wyjaśnić je z nadawcą lub odbiorcą bez otwierania paczki. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3 — kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłek zawierających towary niebezpieczne",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.3.3: a driver or driver's assistant may not open a package containing dangerous goods",
+      "supplementary_source_url": "https://unece.org/adr-2025-files",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

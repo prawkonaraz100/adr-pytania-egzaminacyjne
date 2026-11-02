@@ -1,3 +1,12 @@
+**Bieżący bank 4x311:** 737 pytań, 737 `needs_review`, 0 `verified`; SHA `fd06cfd4d0d67d5285afa71981e1b2e448d71143`. Rejestr `REJESTR-AKTUALNY-0001-0737.md`. Kompetencje teorii <6: **43**.
+
+## Bieżąca migawka — etap 4x311
+
+- ADR-B-0737 do ADR-B-04-K02; zgoda odbiorcy nie uchyla zakazu otwierania sztuki przesyłki przez kierowcę i pomocnika.
+- Podstawa: ADR 2025, 8.3.3.
+- Bank 737, zero `verified`; licznik kompetencji teorii <6: **43**.
+- Raport: `podstawowy/raporty/etap-4x311-zakaz-otwierania-zgoda-odbiorcy-2026-11-02.md`.
+
 **Bieżący bank 4x310:** 736 pytań, 736 `needs_review`, 0 `verified`; SHA `1c1ee10536eceecdc7cc34cdb2675f8605036c30`. Rejestr `REJESTR-AKTUALNY-0001-0736.md`. Kompetencje teorii <6: **44**.
 
 ## Bieżąca migawka — etap 4x310
