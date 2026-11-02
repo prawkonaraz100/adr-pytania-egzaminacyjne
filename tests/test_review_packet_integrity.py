@@ -109,7 +109,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertTrue(all(row["release_approved"] is False for row in entries))
 
     def test_specialist_index_covers_all_bank_ids(self):
-        content = (REVIEW / "REJESTR-AKTUALNY-0001-0710.md").read_text(encoding="utf-8")
+        content = (REVIEW / "REJESTR-AKTUALNY-0001-0711.md").read_text(encoding="utf-8")
         indexed = set(re.findall(r"\|\s*(ADR-B-\d{4})\s*\|", content))
         self.assertEqual(indexed, set(self.by_id))
 
@@ -185,7 +185,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertIn("Jak interpretować wynik", exam_guide)
         review_guide = (REVIEW / "INSTRUKCJA-RECENZJI.md").read_text(encoding="utf-8")
         self.assertIn("etapach 4x25–4x29", review_guide)
-        self.assertEqual(self.manifest["status_counts"]["needs_review"], 710)
+        self.assertEqual(self.manifest["status_counts"]["needs_review"], 711)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
 
     def test_secondary_priority_legal_review_queue_stays_synchronized(self):
