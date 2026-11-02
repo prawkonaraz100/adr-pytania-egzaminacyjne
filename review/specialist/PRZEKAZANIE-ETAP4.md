@@ -9,8 +9,8 @@
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/714 = 10,64%**; maksimum działu to 13,95%.
 - ADR-B-13-K06 ma 5 pytań; moduł ADR-B-13 ma 50 pytań.
 - Klucze i warianty 001–005 wskazują aktualny SHA banku; snapshoty sequential/legal 714-714; formalne zatwierdzenia: 0.
-- Raport: `podstawowy/raporty/etap-4x288-kontrola-wpisu-przewoz-kombinowany-2026-11-02.md`.
-- Bieżący indeks specjalisty: `review/specialist/REJESTR-AKTUALNY-0001-0714.md`.
+- Raport: `podstawowy/raporty/etap-4x289-rko-aed-praktyczna-pierwsza-pomoc-2026-11-02.md`.
+- Bieżący indeks specjalisty: `review/specialist/REJESTR-AKTUALNY-0001-0715.md`.
 
 ## Bieżąca migawka — etap 4x285 (02.11.2026)
 
