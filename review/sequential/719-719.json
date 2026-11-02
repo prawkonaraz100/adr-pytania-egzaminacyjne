@@ -1,0 +1,49 @@
+{
+  "batch": "719-719",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0719",
+      "sequence": 719,
+      "exact_record_snapshot": {
+        "stem": "Kierowca ma rozpocząć przewóz wymagający zaświadczenia ADR. Ukończył szkolenie zorganizowane przez pracodawcę i otrzymał firmowe potwierdzenie udziału, ale nie ma zaświadczenia ADR wydanego przez właściwą władzę. Czy może ruszyć w trasę?",
+        "options": {
+          "A": "Nie; firmowe potwierdzenie udziału w szkoleniu nie zastępuje zaświadczenia ADR właściwej władzy.",
+          "B": "Tak; wystarczy lista obecności z kursu oraz pisemna zgoda pracodawcy na wykonanie przewozu.",
+          "C": "Tak; prawo jazdy odpowiedniej kategorii i dokument przewozowy potwierdzają wymagane przygotowanie ADR."
+        },
+        "correct_option": "A",
+        "explanation": "Nie może rozpocząć takiego przewozu, ponieważ samo szkolenie w firmie ani potwierdzenie obecności nie dają wymaganego uprawnienia. Kierowca musi mieć zaświadczenie ADR wydane przez właściwą władzę, które potwierdza ukończenie kursu i zdanie egzaminu. Zgoda pracodawcy, lista obecności i prawo jazdy nie zastępują tego dokumentu. Podstawa: ADR 2025, 8.2.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.2.1.1: the driver must hold a certificate issued by the competent authority confirming completion of the course and passing the examination. The company attendance record is not that certificate. Editorial first pass only; full literal Polish comparison and independent expert review pending.",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "A is correct: an employer's attendance confirmation does not replace the competent-authority ADR certificate. B and C incorrectly treat internal records or ordinary driving/transport documents as substitutes.",
+      "source_risk_note": "Do not imply that an employer may issue the ADR certificate; the certificate must be issued by the competent authority and document both course completion and examination.",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}

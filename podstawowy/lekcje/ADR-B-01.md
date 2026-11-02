@@ -275,3 +275,8 @@ Jeżeli nadawca przekazuje tylko nazwę handlową nowego materiału, nie zgaduj 
 ### Jednostka transportowa w zestawie z przyczepą (ADR-B-0709)
 
 W ADR jednostką transportową jest pojazd samochodowy bez przyczepy albo zespół złożony z pojazdu samochodowego i dołączonej do niego przyczepy. Gdy ciężarówka jedzie z przyczepą, oba elementy tworzą jedną jednostkę transportową. Nie licz ich jako dwóch osobnych jednostek. Podstawa: ADR 1.2.1.
+
+
+### Firmowe potwierdzenie a zaświadczenie ADR kierowcy
+
+Jeżeli przewóz wymaga zaświadczenia ADR, kierowca nie może zastąpić go kartką od pracodawcy potwierdzającą udział w szkoleniu. Wymagany dokument wydaje właściwa władza po spełnieniu warunków szkolenia i egzaminu. Lista obecności i zgoda firmy nie potwierdzają zdania egzaminu. Powiązane pytanie: ADR-B-0719. Podstawa: ADR 2025, 8.2.1.1.

@@ -32,6 +32,7 @@ def analyse(questions, curriculum, release=False):
     practice = 0
     uncovered = []
     shallow = []
+    theory_below_six = []
     gaps = []
     for index, obj in enumerate(objectives, 1):
         if not isinstance(obj, dict):
@@ -65,6 +66,8 @@ def analyse(questions, curriculum, release=False):
         else:
             if len(ids) < 2:
                 shallow.append(oid)
+            if len(ids) < 6:
+                theory_below_six.append(oid)
             if not ids:
                 uncovered.append(oid)
             else:
@@ -105,6 +108,7 @@ def analyse(questions, curriculum, release=False):
         "verified_question_coverage": verified,
         "theory_without_questions": uncovered,
         "theory_with_less_than_two_questions": shallow,
+        "theory_competencies_below_six_questions": theory_below_six,
         "theory_without_verified": gaps,
         "questions_unmapped": omitted,
         "question_statuses": dict(Counter(q.get("verification_status", "unknown") for q in qids.values()))
@@ -142,7 +146,9 @@ def main():
     errors, stats = analyse(questions, matrix, release=args.release)
     errors.extend(check_lessons(ROOT))
     for name, value in stats.items():
-        if isinstance(value, list) and len(value) > 10:
+        if name == "theory_competencies_below_six_questions":
+            print(f"{name}: {len(value)} pozycji; pełna lista: {', '.join(value) if value else 'brak'}")
+        elif isinstance(value, list) and len(value) > 10:
             print(f"{name}: {len(value)} pozycji; pierwsze: {', '.join(value[:8])} ...")
         else:
             print(f"{name}: {value}")
