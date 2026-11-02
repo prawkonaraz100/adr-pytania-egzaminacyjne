@@ -240,4 +240,4 @@ Podczas czynności ładunkowych nie wolno palić w pobliżu pojazdu ani wewnątr
 
 ### Zgoda odbiorcy nie pozwala otworzyć sztuki przesyłki ADR — ADR-B-0737
 
-Kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłek zawierających towary niebezpieczne. Prośba odbiorcy, jego obecność ani pisemna zgoda nie tworzą wyjątku od zakazu. Jeśli trzeba wyjaśnić zawartość lub rozbieżność, należy zrobić to z nadawcą (firmą, która wysyła towar niebezpieczny) lub odbiorcą bez otwierania paczki. Podstawa: ADR 2025, 8.3.3.
+Kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłek zawierających towary niebezpieczne. Prośba odbiorcy, jego obecność ani pisemna zgoda nie tworzą wyjątku od zakazu. Jeśli trzeba wyjaśnić zawartość lub rozbieżność, należy zrobić to z nadawcą (firmą, która wysyła towar niebezpieczny; [słowniczek](../SLOWNICZEK.md#nadawca)) lub odbiorcą bez otwierania paczki. Podstawa: ADR 2025, 8.3.3.
