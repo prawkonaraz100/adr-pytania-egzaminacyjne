@@ -448,3 +448,8 @@ Materiał samonagrzewający się klasy 4.2 może w reakcji z powietrzem stopniow
 ### Utleniacze i spalanie — ADR-B-0725
 
 Materiał utleniający klasy 5.1 nie musi sam być palny, ale może przyspieszać albo podtrzymywać pożar innych materiałów, takich jak kartony. Kierowca powinien znać tę różnicę. Pytanie ADR-B-0725; podstawa ADR 2025, 2.2.51.1.1.
+
+
+### Kontrola temperatury nadtlenków organicznych — ADR-B-0726
+
+Dla niektórych nadtlenków organicznych klasy 5.2 kontrola temperatury w przewozie jest obowiązkowa. Awaria chłodzenia wymaga reakcji i zastosowania właściwej procedury. Zobacz ADR-B-0726. Podstawa: ADR 2025, 2.2.52.1.15 i 7.1.7.
