@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x293
+
+- Bank: 719 `needs_review`, 0 `verified`; SHA `a415f3761ba71994cbabfdf5f5300f6b865f9764`.
+- ADR-B-0719, ADR-B-01-K03: firmowe potwierdzenie szkolenia nie zastępuje zaświadczenia właściwej władzy; ADR 2025, 8.2.1.1.
+- Licznik kompetencji teorii z mniej niż 6 pytaniami: **61**; trzy kompetencje praktyczne wyłączone.
+- Raport `podstawowy/raporty/etap-4x293-zaswiadczenie-wlasciwa-wladza-2026-11-02.md`; indeks `review/specialist/REJESTR-AKTUALNY-0001-0719.md`.
+
 ## Bieżąca migawka — etap 4x292
 
 - Bank: 718 `needs_review`, 0 `verified`; SHA `5eda2984ac8899b31bfc6b351b4cf1722ccdd07c`.
