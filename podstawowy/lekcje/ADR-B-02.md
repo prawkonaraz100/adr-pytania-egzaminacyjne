@@ -453,3 +453,8 @@ Materiał utleniający klasy 5.1 nie musi sam być palny, ale może przyspiesza�
 ### Kontrola temperatury nadtlenków organicznych — ADR-B-0726
 
 Dla niektórych nadtlenków organicznych klasy 5.2 kontrola temperatury w przewozie jest obowiązkowa. Awaria chłodzenia wymaga reakcji i zastosowania właściwej procedury. Zobacz ADR-B-0726. Podstawa: ADR 2025, 2.2.52.1.15 i 7.1.7.
+
+
+### Materiały trujące klasy 6.1 — ADR-B-0727
+
+Nie należy oceniać bezpieczeństwa substancji trującej po zapachu. Narażenie może wystąpić przez wdychanie, połknięcie albo kontakt ze skórą. Zobacz ADR-B-0727. Podstawa: ADR 2025, 2.2.61.1.1.
