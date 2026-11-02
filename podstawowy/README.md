@@ -6,7 +6,7 @@
 - ADR-B-0713 do ADR-B-07-K07: odpowiedzialność umowna za opóźnienie przewozu; ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 471.
 - Explanation 475 znaków, 4 zdania; A/B/C 121/126/108; poprawna B jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=255, C=220.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/713 = 10,66%**; maksimum działu pozostaje poniżej 18%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **76/713 = 10,66%**; maksimum działu to 13,95%.
 - ADR-B-07-K07 ma 5 pytań; moduł ADR-B-07 ma 52 pytania.
 - Klucze i warianty 001–005 wskazują aktualny SHA banku; snapshoty sequential/legal 713-713; formalne zatwierdzenia: 0.
 - Raport: `podstawowy/raporty/etap-4x287-odpowiedzialnosc-umowna-opoznienie-2026-11-02.md`.
