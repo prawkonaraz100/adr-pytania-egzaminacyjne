@@ -1,10 +1,12 @@
-**Bieżąca migawka — etap 4x305 (02.11.2026).**
+**Stan aktualny po etapie 4x305: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x305
 
 - Bank: **731** pytań, 731 `needs_review`, 0 `verified`; SHA `7323023ff6f3fcb361caf625e781cd5cb1303d58`.
 - ADR-B-0731 do ADR-B-02-K14: brak grupy pakowania przy gazach klasy 2 (ADR 2025, 2.1.1.3; 3.2.1 tabela A, kolumna 4).
 - Moduł ADR-B-02: **89** pytań; kompetencja K14: 5→6.
 - Rozkład prawidłowych opcji: A=244, B=262, C=225.
-- Wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/731 = 11,08%**; maksimum działu: **14,61%**.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/731 = 11,08%**; maksimum działu to **14,61%**.
 - Kompetencje teorii z mniej niż 6 pytaniami: **49** (3 praktyczne pominięte).
 - Raport: `podstawowy/raporty/etap-4x305-klasa2-brak-grupy-pakowania-2026-11-02.md`.
 
