@@ -473,3 +473,8 @@ Etykieta z symbolem promieniotwórczości i numerem 7 oznacza materiał klasy 7.
 ### Żrące pary i mgły przy wilgoci powietrza — ADR-B-0730
 
 Klasa 8 obejmuje także substancje, które dopiero w kontakcie z naturalną wilgocią powietrza tworzą żrące pary lub mgły. Brak widocznej cieczy nie oznacza więc braku zagrożenia. Podstawa: ADR 2025, 2.2.8.1.1.
+
+
+### Brak grupy pakowania przy gazie klasy 2 — ADR-B-0731
+
+Gazy klasy 2 nie są objęte systemem grup pakowania I–III. Brak grupy w kolumnie 4 tabeli A nie oznacza więc błędu i kierowca nie powinien sam jej dopisywać. Podstawa: ADR 2025, 2.1.1.3; 3.2.1, tabela A, kolumna (4).
