@@ -32,7 +32,7 @@ ADR 1.2.1 definiuje jednostkę transportową jako pojazd silnikowy bez przyczepy
 - Rozkład prawidłowych odpowiedzi: A=238, B=253, C=220.
 - „Poprawna = jedyna najdłuższa”: 75/711 = **10,55%** (poniżej limitu 18%).
 - ADR-B-08-K02 ma 5 pytań; moduł ADR-B-08 ma 48 pytań.
-- Klucze i warianty egzaminów 001–005 należy zsynchronizować z nowym SHA.
+- Klucze i warianty egzaminów 001–005 zsynchronizowano z nowym SHA; manifesty, ledger i snapshoty 711-711 również zaktualizowano.
 - Snapshoty audytu sekwencyjnego i przeglądu klauzul: `review/sequential/711-711.json`, `review/legal-clauses/711-711.json`.
 - Pełne porównanie literalne i niezależna recenzja ADR pozostają otwarte.
 
