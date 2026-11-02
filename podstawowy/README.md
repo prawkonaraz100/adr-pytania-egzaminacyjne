@@ -2,7 +2,7 @@
 
 ## Bieżąca migawka — etap 4x285 (02.11.2026)
 
-- Bank: 711 pytań ADR-B-0001–0711; wszystkie `needs_review`, 0 `verified`; SHA `daa0a72906bb1ca4b6ea0724c4c8078126d3ce04`.
+- Bank: 711 `needs_review`, 0 `verified` (ADR-B-0001–0711); SHA `daa0a72906bb1ca4b6ea0724c4c8078126d3ce04`.
 - ADR-B-0711 do ADR-B-08-K02: gaśnica 2 kg dla całej jednostki transportowej z naczepą przy 1.1.3.6; ADR 2025, 1.2.1 i 8.1.4.2.
 - Explanation 382 znaki; A/B/C 157/119/103; poprawna B nie jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=253, C=220.
