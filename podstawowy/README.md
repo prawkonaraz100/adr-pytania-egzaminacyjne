@@ -1,3 +1,7 @@
+**Stan na 02.11.2026, etap 4x313**
+
+**Stan 4x313:** 739 `needs_review`, 0 `verified`; SHA `84e83d8ee582633e06b86dfce0e35e664ead2bda`. Poprawna = jedyna najdłuższa: **81/739 = 10,96%**; maksimum działu **14,61%**. Kompetencje teorii <6: **41**.
+
 **Stan na 02.11.2026, etap 4x312**
 
 **Stan 4x312:** 738 `needs_review`, 0 `verified`; SHA `c11732a07bf6b418107b2bf6010a184f3cf112df`. Poprawna = jedyna najdłuższa: **81/738 = 10,98%**; maksimum działu **14,61%**. Kompetencje teorii <6: **42**.
@@ -718,6 +722,8 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+
+- [Etap 4x313 — bezpieczne zatrzymanie i wyłączenie silnika](raporty/etap-4x313-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-02.md)
 
 - [Etap 4x312 — unikanie źródeł zapłonu przy awarii](raporty/etap-4x312-unikanie-zrodel-zaplonu-2026-11-02.md)
 

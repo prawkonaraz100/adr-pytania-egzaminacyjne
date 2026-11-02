@@ -433,3 +433,8 @@ Przy sprawdzaniu pojazdu przed wyjazdem kierowca ocenia nie tylko liczbę i term
 Przy ładunku mieszanym lub towarze stwarzającym kilka zagrożeń kierowca nie może wybrać tylko jednego rodzaju zagrożenia na podstawie kolejności w dokumencie albo masy przesyłki. Instrukcje pisemne ADR wymagają uwzględnienia każdej właściwej pozycji dla występujących zagrożeń. W praktyce przeanalizuj wszystkie wskazówki, alarmuj służby i wykonuj czynności tylko wtedy, gdy są bezpieczne i możliwe. Nie należy wchodzić do strefy zagrożenia, aby na siłę zastosować każde polecenie. Podstawa: ADR 2025, 5.4.3.4 (uwaga 1); ćwiczenia praktyczne 8.2.2.3.8.
 
 **Pytanie kontrolne:** ADR-B-0718 — czy przy kilku zagrożeniach można zastosować tylko jeden fragment instrukcji?
+
+
+### Bezpieczne zatrzymanie i wyłączenie silnika — warunek bezpiecznego dostępu do wyłącznika (ADR-B-0739)
+
+Po awarii zatrzymaj pojazd i wyłącz silnik, jeśli możesz zrobić to bezpiecznie. Wyłącznik główny akumulatora obsługuj tylko wtedy, gdy można do niego podejść bez narażania się na wyciek, opary lub inne zagrożenie. Nie ryzykuj wejścia w niebezpieczne miejsce; oddal się, ostrzeż innych i wykonaj dalsze bezpieczne czynności z instrukcji pisemnych. Podstawa: ADR 2025, 5.4.3.4.

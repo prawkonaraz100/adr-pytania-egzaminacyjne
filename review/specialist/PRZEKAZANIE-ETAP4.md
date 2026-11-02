@@ -1,3 +1,12 @@
+**Bieżący bank 4x313:** 739 pytań, 739 `needs_review`, 0 `verified`; SHA `84e83d8ee582633e06b86dfce0e35e664ead2bda`. Rejestr `REJESTR-AKTUALNY-0001-0739.md`. Kompetencje teorii <6: **41**.
+
+## Bieżąca migawka — etap 4x313
+
+- ADR-B-0739 do ADR-B-05-K02; warunek „jeżeli jest to możliwe i bezpieczne” przy obsłudze wyłącznika akumulatora.
+- Podstawa: ADR 2025, 5.4.3.4.
+- Bank 739, zero `verified`; licznik kompetencji teorii <6: **41**.
+- Raport: `podstawowy/raporty/etap-4x313-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-02.md`.
+
 **Bieżący bank 4x312:** 738 pytań, 738 `needs_review`, 0 `verified`; SHA `c11732a07bf6b418107b2bf6010a184f3cf112df`. Rejestr `REJESTR-AKTUALNY-0001-0738.md`. Kompetencje teorii <6: **42**.
 
 ## Bieżąca migawka — etap 4x312
