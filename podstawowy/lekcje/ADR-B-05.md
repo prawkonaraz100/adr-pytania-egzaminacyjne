@@ -405,3 +405,10 @@ Po zdarzeniu, jeśli można to zrobić bezpiecznie, członek załogi zdejmuje sk
 Najpierw upewnij się, że miejsce zdarzenia jest bezpieczne: nie ma wycieku, oparów ani innego zagrożenia, które mogłoby narazić ciebie lub poszkodowanego. Dopiero wtedy udzielaj pomocy w granicach swojego przeszkolenia. Przy krwawiącej ranie załóż rękawiczki, osłoń ją jałowym opatrunkiem i zastosuj ucisk; przy silnym lub nieustającym krwawieniu wezwij pomoc pod numerem 112 i wykonuj polecenia dyspozytora. Nie dotykaj rany gołą dłonią i nie podawaj poszkodowanemu jedzenia ani napoju. ADR wymaga, aby kurs podstawowy obejmował postępowanie po wypadku, w tym pierwszą pomoc (8.2.2.3.2(e)); szczegółowe czynności ćwiczy się w ramach właściwego szkolenia z pierwszej pomocy.
 
 **Pytanie kontrolne:** ADR-B-0712 — co kierowca może zrobić, gdy miejsce jest bezpieczne, a poszkodowany ma krwawiącą ranę?
+
+
+### Praktyczne RKO przy braku prawidłowego oddechu (ADR-B-0715)
+
+Najpierw upewnij się, że miejsce jest bezpieczne. Jeśli poszkodowany nie reaguje i nie oddycha prawidłowo, zadzwoń pod 112, włącz tryb głośnomówiący i postępuj według poleceń dyspozytora. Rozpocznij resuscytację krążeniowo-oddechową zgodnie z przeszkoleniem; poproś inną osobę o przyniesienie AED i użyj go, gdy będzie dostępne, wykonując komunikaty urządzenia. Pozycja boczna jest przeznaczona dla osoby nieprzytomnej, która oddycha prawidłowo. Nie podawaj nieprzytomnemu jedzenia ani napojów. Podstawa: ADR 8.2.2.3.2(e) i 8.2.2.3.8; aktualne zasady BLS ERC 2025.
+
+**Pytanie kontrolne:** ADR-B-0715 — jak postąpić, gdy poszkodowany nie reaguje i nie oddycha prawidłowo?
