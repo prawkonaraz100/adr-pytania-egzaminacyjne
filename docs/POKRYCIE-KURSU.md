@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x310: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x310
+
+- Bank: **736** pytań, 736 `needs_review`, 0 `verified`; SHA `1c1ee10536eceecdc7cc34cdb2675f8605036c30`.
+- ADR-B-0736 do ADR-B-04-K01: zakaz palenia podczas czynności ładunkowych w pobliżu pojazdu obejmuje także pracownika magazynu oraz e-papierosy (ADR 2025, 8.3.5).
+- Moduł ADR-B-04: **48** pytań; kompetencja K01: 5→6.
+- Rozkład prawidłowych opcji: A=247, B=264, C=225.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/736 = 11,01%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **44** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x310-zakaz-palenia-przeladunek-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x309: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x309
@@ -826,7 +838,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 89 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
-| ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
+| ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 48 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 76 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
@@ -836,7 +848,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **735** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **736** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
