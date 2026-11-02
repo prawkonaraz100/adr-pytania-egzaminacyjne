@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0733",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 7.5.8.2",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0733",
+      "order": 733,
+      "clause": "ADR 2025, 7.5.8.2",
+      "question_snapshot": {
+        "id": "ADR-B-0733",
+        "module_id": "ADR-B-03",
+        "stem": "Po rozładunku luzem UN 1993 firma chce załadować luzem UN 1203. Oba towary należą do klasy 3. Czy można zastosować wyjątek od czyszczenia pojazdu przewidziany w ADR 7.5.8.2?",
+        "options": {
+          "A": "Tak. Oba towary należą do klasy 3 i mają takie samo główne zagrożenie, więc wyjątek obejmuje je tak samo jak identyczny materiał.",
+          "B": "Nie. To różne towary niebezpieczne; wyjątek dotyczy tylko tego samego towaru, więc pojazd trzeba oczyścić.",
+          "C": "Tak, jeśli pojazd jest pusty i nie ma widocznych pozostałości, nawet gdy zmienia się numer UN i nazwa przewozowa."
+        },
+        "correct_option": "B",
+        "explanation": "Wyjątek z 7.5.8.2 dotyczy tylko ponownego załadunku tych samych towarów niebezpiecznych, a nie dowolnych materiałów z tej samej klasy. UN 1993 i UN 1203 to różne pozycje, choć oba należą do klasy 3, więc przed kolejnym załadunkiem trzeba oczyścić pojazd lub kontener. Odpowiedź A myli klasę z identycznością towaru, a C pomija obowiązek czyszczenia. Podstawa: ADR 2025, 7.5.8.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.2",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Przynależność do tej samej klasy nie oznacza, że są to te same towary niebezpieczne; wyjątek jest węższy."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "UN 1993 i UN 1203 to różne towary; wyjątek 7.5.8.2 dotyczy tylko kolejnego ładunku składającego się z tych samych towarów niebezpiecznych."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Brak widocznych pozostałości nie znosi obowiązku prawidłowego oczyszczenia przed ponownym załadunkiem, gdy wyjątek nie ma zastosowania."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy przewozu luzem i wyjątku od czyszczenia przy ponownym załadunku; nie dotyczy wycieku z opakowań w 7.5.8.1.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
