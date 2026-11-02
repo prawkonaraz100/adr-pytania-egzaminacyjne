@@ -1,8 +1,8 @@
-**Stan aktualny po etapie 4x286: 02.11.2026.**
+**Stan na 02.11.2026, etap 4x286**
 
 ## Bieżąca migawka — etap 4x286 (02.11.2026)
 
-- Bank: 712 pytań ADR-B-0001–0712; wszystkie `needs_review`, 0 `verified`; SHA `634d7c00f27f7213b70c6aeab716230d0eaa24dc`.
+- Bank: 712 `needs_review`, 0 `verified` (ADR-B-0001–0712); SHA `634d7c00f27f7213b70c6aeab716230d0eaa24dc`.
 - ADR-B-0712 do ADR-B-05-K11: pierwsza pomoc po potwierdzeniu bezpieczeństwa miejsca zdarzenia; ADR 2025, 8.2.2.3.2(e).
 - Explanation 439 znaków; A/B/C 108/98/96; poprawna B nie jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=254, C=220.
