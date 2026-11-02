@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0739",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 5.4.3.4 written instructions, actions only where possible and safe",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0739",
+      "order": 739,
+      "clause": "ADR 2025, 5.4.3.4",
+      "question_snapshot": {
+        "id": "ADR-B-0739",
+        "module_id": "ADR-B-05",
+        "stem": "Po awarii kierowca zatrzymał pojazd w bezpiecznym miejscu i wyłączył silnik. Wyłącznik główny akumulatora znajduje się przy uszkodzonej części pojazdu, do której nie można bezpiecznie podejść. Co powinien zrobić?",
+        "options": {
+          "A": "Podejść do wyłącznika mimo ryzyka, ponieważ odłączenie akumulatora zawsze ma pierwszeństwo przed własnym bezpieczeństwem.",
+          "B": "Uruchomić ponownie silnik i przestawić pojazd, zanim kierowca oceni miejsce awarii i ostrzeże innych.",
+          "C": "Nie narażać się dla wyłącznika; oddalić się, ostrzec innych i wykonać dalsze bezpieczne czynności."
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne stosuje się tylko wtedy, gdy dane działanie jest możliwe i bezpieczne; nie wolno ryzykować wejścia w strefę zagrożenia dla obsługi wyłącznika. Podejście do uszkodzonej części może narazić kierowcę na wyciek lub opary, a ponowne uruchomienie silnika nie jest bezpiecznym sposobem rozwiązania sytuacji. Oddal się, ostrzeż innych i postępuj według kolejnych punktów instrukcji. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — działania w razie wypadku lub awarii, o ile są możliwe i bezpieczne",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Instrukcje nie wymagają narażania się dla użycia wyłącznika; działania podejmuje się tylko wtedy, gdy są możliwe i bezpieczne."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Ponowne uruchomienie silnika nie jest przewidziane jako sposób rozwiązania sytuacji awaryjnej i może zwiększyć zagrożenie."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Jeżeli podejście do wyłącznika nie jest bezpieczne, kierowca nie podejmuje tego działania, oddala się, ostrzega innych i kontynuuje bezpieczne czynności z instrukcji."
+        }
+      },
+      "notes_on_conditions": "Pytanie sprawdza warunek 'jeżeli jest to możliwe i bezpieczne' przy działaniach z instrukcji pisemnych; nie sugeruje, że wyłącznik należy obsługiwać mimo zagrożenia.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
