@@ -241,3 +241,8 @@ Podczas czynności ładunkowych nie wolno palić w pobliżu pojazdu ani wewnątr
 ### Zgoda odbiorcy nie pozwala otworzyć sztuki przesyłki ADR — ADR-B-0737
 
 Kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłek zawierających towary niebezpieczne. Prośba odbiorcy, jego obecność ani pisemna zgoda nie tworzą wyjątku od zakazu. Jeśli trzeba wyjaśnić zawartość lub rozbieżność, należy zrobić to z nadawcą (firmą, która wysyła towar niebezpieczny; [słowniczek](../SLOWNICZEK.md#nadawca)) lub odbiorcą bez otwierania paczki. Podstawa: ADR 2025, 8.3.3.
+
+
+### Unikanie źródeł zapłonu po awarii — ADR-B-0738
+
+Jeżeli po awarii mogą występować palne opary, nie włączaj lampy, wentylatora ani innych urządzeń elektrycznych. Nawet krótka próba oświetlenia miejsca wycieku może spowodować iskrę i zapłon. Nie pal i nie używaj e-papierosów; oddal się od zagrożenia oraz stosuj instrukcje pisemne ADR. Podstawa: ADR 2025, 5.4.3.4.
