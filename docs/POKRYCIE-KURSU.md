@@ -6,7 +6,7 @@
 - ADR-B-0710 do ADR-B-08-K07: dobór wyposażenia ogólnego i ochronnego według numerów nalepek zagrożenia w dokumencie przewozowym; ADR 2025, 8.1.5.1–8.1.5.2.
 - Explanation 373 znaki; A/B/C 121/132/117; poprawna C nie jest najdłuższa.
 - Rozkład prawidłowych opcji: A=238, B=252, C=220.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/710 = 10,56%**; limit Quality Gate 18%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/710 = 10,56%**; maksimum działu to 13,95%.
 - ADR-B-08-K07 ma 8 pytań; moduł ADR-B-08 ma 47 pytań.
 - Raport: `podstawowy/raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md`.
 
