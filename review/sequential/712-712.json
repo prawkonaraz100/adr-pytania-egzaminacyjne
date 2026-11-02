@@ -1,0 +1,59 @@
+{
+  "batch": "712-712",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0712",
+      "sequence": 712,
+      "exact_record_snapshot": {
+        "stem": "Po kolizji kierowca zabezpieczył miejsce i upewnił się, że nie ma wycieku ani oparów. Kolega jest przytomny, ale ma krwawiącą ranę przedramienia. Jak powinien udzielić podstawowej pomocy?",
+        "options": {
+          "A": "Zdjąć rękawiczki ochronne i dotknąć rany gołą dłonią, aby dokładniej ocenić jej głębokość przed opatrzeniem.",
+          "B": "Założyć rękawiczki, osłonić ranę jałowym opatrunkiem i uciskać; przy silnym krwawieniu wezwać 112.",
+          "C": "Podać poszkodowanemu jedzenie i napój, a opatrzenie rany odłożyć do przyjazdu służb ratunkowych."
+        },
+        "correct_option": "B",
+        "explanation": "Ponieważ miejsce jest już bezpieczne, kierowca może udzielić pomocy w granicach przeszkolenia: zakłada rękawiczki, osłania ranę jałowym opatrunkiem i uciska krwawienie. Nie dotyka rany gołą dłonią ani nie podaje poszkodowanemu jedzenia czy napoju. Przy silnym lub nieustającym krwawieniu pilnie wzywa pomoc pod numerem 112 i wykonuje polecenia dyspozytora. ADR wymaga, by kurs podstawowy obejmował pierwszą pomoc po wypadku (8.2.2.3.2(e)).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.2.2.3.2(e) — zakres kursu podstawowego obejmuje postępowanie po wypadku, w tym pierwszą pomoc",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "Ministerstwo Infrastruktury — oficjalne polskie materiały ADR 2025; zakres kursu podstawowego, 8.2.2.3.2(e)",
+            "url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 8.2.2.3.2(e) — what to do after an accident, including first aid",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.2.2.3.2(e) expressly includes post-accident action, including first aid, in the basic driver training syllabus. The item is an instructional scenario after the scene has been confirmed safe; the first-aid steps are not presented as a separate ADR technical rule. Full literal comparison with the official Polish Gazette text and independent specialist review remain pending.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "The correct option applies basic first-aid principles after confirming the scene is safe. The distractors suggest unprotected contact with blood or delaying basic care in favour of food/drink. The ADR clause establishes that first aid after an accident is part of the basic course.",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "source_risk_note": "ADR 8.2.2.3.2(e) establishes the training subject; it does not prescribe the detailed clinical sequence for treating a bleeding wound. This scenario tests basic first-aid instruction and must not be interpreted as a detailed medical protocol.",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}

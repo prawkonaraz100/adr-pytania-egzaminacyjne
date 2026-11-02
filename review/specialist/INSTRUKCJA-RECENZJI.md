@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x286: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x286 (02.11.2026)
+
+- Bank: 712 pytań ADR-B-0001–0712; wszystkie `needs_review`, 0 `verified`; SHA `634d7c00f27f7213b70c6aeab716230d0eaa24dc`.
+- ADR-B-0712 do ADR-B-05-K11: pierwsza pomoc po potwierdzeniu bezpieczeństwa miejsca zdarzenia; ADR 2025, 8.2.2.3.2(e).
+- Explanation 439 znaków; A/B/C 108/98/96; poprawna B nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=238, B=254, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/712 = 10,53%**; maksimum modułu to 13,95%.
+- ADR-B-05-K11 ma 5 pytań; moduł ADR-B-05 ma 72 pytania.
+- Klucze i warianty 001–005 zgodne z SHA banku; snapshoty sequential/legal 712-712; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x286-pierwsza-pomoc-bezpieczna-scena-2026-11-02.md`.
+
 ## Bieżąca migawka — etap 4x285 (02.11.2026)
 
 - Bank: 711 pytań ADR-B-0001–0711; wszystkie `needs_review`, 0 `verified`; SHA `daa0a72906bb1ca4b6ea0724c4c8078126d3ce04`.
@@ -5,7 +18,7 @@
 - Explanation 382 znaki; A/B/C 157/119/103; poprawna B nie jest najdłuższa.
 - Rozkład A/B/C: 238/253/220; „poprawna = jedyna najdłuższa”: 75/711 = 10,55%.
 - Snapshoty sequential/legal: 711-711; klucze i warianty 001–005 zgodne z SHA banku; formalne zatwierdzenia: 0.
-- Bieżący indeks: `REJESTR-AKTUALNY-0001-0711.md`; raport: `podstawowy/raporty/etap-4x285-gasnica-jednostka-z-naczepa-2026-11-02.md`.
+- Bieżący indeks (stan historyczny 4x285): `REJESTR-AKTUALNY-0001-0711.md`; raport: `podstawowy/raporty/etap-4x285-gasnica-jednostka-z-naczepa-2026-11-02.md`.
 
 ## Bieżąca migawka — etap 4x284 (02.11.2026)
 
