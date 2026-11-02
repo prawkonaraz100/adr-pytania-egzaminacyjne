@@ -1,0 +1,56 @@
+{
+  "batch": "714-714",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0714",
+      "sequence": 714,
+      "exact_record_snapshot": {
+        "id": "ADR-B-0714",
+        "module_id": "ADR-B-13",
+        "stem": "Przed rozpoczęciem drogowego odcinka przewozu w łańcuchu morsko-drogowym kierowca widzi, że dokument nie zawiera wpisu wymaganego przez ADR 5.4.1.1.7. Nadawca telefonicznie poleca mu samemu dopisać formułę. Jak powinien postąpić przewoźnik?",
+        "options": {
+          "A": "Wstrzymać rozpoczęcie przewozu, zwrócić się do nadawcy o uzupełnienie dokumentu i ponownie sprawdzić go przed odjazdem.",
+          "B": "Rozpocząć jazdę, ponieważ dokument morski IMDG zastępuje każdy dodatkowy wpis ADR na dalszym odcinku drogowym.",
+          "C": "Dopisać adnotację z pamięci i uznać, że samo jej dodanie potwierdza spełnienie warunków przewozu na zasadach 1.1.4.2.1."
+        },
+        "correct_option": "A",
+        "explanation": "Przewóz nie powinien ruszyć, dopóki wymagany wpis nie znajdzie się w dokumencie, a przewoźnik nie sprawdzi jego kompletności. Dokument IMDG nie usuwa automatycznie obowiązku dodatkowej adnotacji dla drogowego odcinka objętego 1.1.4.2.1. Samo dopisanie formuły z pamięci nie potwierdza, że przewóz spełnia warunki tego przepisu. Błędne odpowiedzi pomijają kontrolę przed odjazdem albo mylą wpis z samym spełnieniem warunków wyjątku. Podstawa: ADR 1.1.4.2.1, 1.4.2.2.1(b), 1.4.2.2.3 i 5.4.1.1.7.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7; 1.1.4.2.1",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.4.2.2.1(b); 1.4.2.2.3",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.4.1.1.7 requires an additional entry for carriage in accordance with 1.1.4.2.1. ADR 1.4.2.2.1(b) requires the carrier to ascertain that required information is present in transport documents; 1.4.2.2.3 says carriage should not begin until identified non-compliance is remedied. The scenario does not claim that the driver personally authors the consignor's document.",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved",
+      "legal_comparison_result": "A correctly applies the carrier's pre-carriage document check and stop-until-corrected rule. B wrongly assumes the IMDG document replaces every ADR additional entry; C wrongly assumes that writing the phrase alone proves all conditions of 1.1.4.2.1 are met.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "source_risk_note": "The additional entry and carrier check are separate requirements: the statement does not itself establish that the multimodal exception conditions are satisfied.",
+      "expert_review_priority": "standard_expert_review"
+    }
+  ]
+}
