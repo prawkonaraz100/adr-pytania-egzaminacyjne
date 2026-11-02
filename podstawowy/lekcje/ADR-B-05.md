@@ -458,3 +458,8 @@ Instrukcje pisemne ADR rozróżniają mały lub początkowy pożar opon, hamulc�
 ### Mały pożar silnika a zagrożenie dymem — ADR-B-0743
 
 Instrukcje pisemne dopuszczają użycie gaśnicy przy małym lub początkowym pożarze komory silnika tylko wtedy, gdy jest to właściwe i bezpieczne. Jeżeli dojście do ognia wymaga wejścia w gęsty dym, nie podejmuj próby gaszenia. Oddal się, ostrzeż innych i wezwij służby; nie ryzykuj wdychania dymu. Podstawa: ADR 2025, 5.4.3.4.
+
+
+### Elektroniczny dokument przewozowy musi być dostępny — ADR-B-0744
+
+ADR dopuszcza dokumentację elektroniczną, ale wymagane dane muszą być dostępne podczas przewozu z wiarygodnością i dostępnością co najmniej równoważną dokumentowi papierowemu. Jeśli brak zasięgu uniemożliwia otwarcie dokumentu, ratownicy nie mogą szybko ustalić, jaki towar jest przewożony. Zapewnij więc rzeczywisty dostęp do pełnych danych i nie polegaj wyłącznie na połączeniu z siecią. Podstawa: ADR 2025, 5.4.0.2 i 5.4.3.4.
