@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0720",
+  "date": "2026-11-02",
+  "scope": "ADR 2025, 8.2.1.1 — driver certificate issued by the competent authority; company attendance confirmation is not a substitute.",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0720",
+      "order": 720,
+      "clause": "ADR 2025, 1.1.3.1(b)",
+      "question_snapshot": {
+        "id": "ADR-B-0720",
+        "module_id": "ADR-B-01",
+        "stem": "Firma serwisowa przewozi na lawecie przenośny agregat prądotwórczy, w którego zbiorniku pozostało paliwo. Agregat nie jest osobno wymieniony w ADR, a zbiornik i zamknięcia są zabezpieczone przed wyciekiem w normalnych warunkach przewozu. Która ocena jest właściwa?",
+        "options": {
+          "A": "Może; wyłączenie obejmuje takie urządzenie, jeśli w normalnym przewozie zabezpieczono je przed uwolnieniem paliwa.",
+          "B": "Nie; przewóz urządzenia z paliwem zawsze podlega pełnym wymaganiom ADR, nawet gdy zbiornik jest szczelny i dobrze zamocowany.",
+          "C": "Tak; samo pozostawienie paliwa w zbiorniku zwalnia z ADR, nawet gdy paliwo może wyciec podczas przewozu."
+        },
+        "correct_option": "A",
+        "explanation": "Wyłączenie z ADR może mieć zastosowanie do maszyny lub urządzenia, które zawiera towar niebezpieczny w swojej konstrukcji albo wyposażeniu roboczym. Warunek jest ważny: trzeba zabezpieczyć urządzenie tak, by w normalnych warunkach przewozu nie doszło do uwolnienia zawartości. Nie każde urządzenie z paliwem jest więc automatycznie zwolnione, a sam fakt, że paliwo jest w zbiorniku, nie wystarcza. Podstawa: ADR 2025, 1.1.3.1(b).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.1(b)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "ADR 1.1.3.1(b) may exempt machinery or equipment containing dangerous goods in its structure or operating equipment when measures prevent release during normal carriage."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "The provision is a conditional exemption; it does not categorically require full ADR application to every such machine."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Fuel being left in a tank is not enough by itself; the equipment and leakage-prevention conditions must be met."
+        }
+      },
+      "notes_on_conditions": "The question is limited to machinery/equipment not specified in ADR and measures preventing release under normal conditions of carriage; it does not claim a blanket exemption for every vehicle or fuel tank.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
