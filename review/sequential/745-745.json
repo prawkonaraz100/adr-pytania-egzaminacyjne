@@ -1,0 +1,46 @@
+{
+  "batch": "745-745",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0745",
+      "sequence": 745,
+      "exact_record_snapshot": {
+        "stem": "Po zakończeniu działań przy wycieku kierowca ma już czyste rękawice zapasowe. W kabinie leży para rękawic użytych przy uszkodzonej przesyłce. Które postępowanie jest właściwe przed powrotem do pojazdu?",
+        "options": {
+          "A": "Założyć użyte rękawice ponownie, jeśli wyglądają na suche; niewidoczne ślady nie muszą oznaczać skażenia.",
+          "B": "Nie używać ich ponownie; odseparować skażone rękawice i zapewnić ich bezpieczne usunięcie.",
+          "C": "Schować je do schowka kabiny, aby nie dotykały fotela ani dokumentów kierowcy."
+        },
+        "correct_option": "B",
+        "explanation": "Rękawice, które miały kontakt z uwolnioną substancją, traktuj jako skażone nawet wtedy, gdy nie widać na nich plamy. Nie zakładaj ich ponownie ani nie wkładaj do schowka; trzeba odseparować je i zapewnić bezpieczne usunięcie. Odpowiedź A myli brak widocznych śladów z brakiem zagrożenia, a C przenosi skażenie do kabiny. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — zdjąć skażoną odzież i użyte skażone środki ochronne oraz zapewnić ich bezpieczne usunięcie",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.4.3.4: contaminated clothing and used contaminated protective equipment are to be removed and safely disposed of; no expert sign-off",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
