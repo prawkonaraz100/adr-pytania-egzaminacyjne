@@ -9,7 +9,7 @@
 - ADR-B-08-K07 ma 8 pytań; moduł ADR-B-08 ma 47 pytań.
 - Raport: `podstawowy/raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md`.
 
-**Stan na 01.11.2026, etap 4x283**
+**Stan na 02.11.2026, etap 4x284**
 
 ## Bieżąca migawka — etap 4x283 (01.11.2026)
 
@@ -544,6 +544,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x284 — dobór wyposażenia według nalepek](raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md)
 - [Etap 4x283 — definicja jednostki transportowej](raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md)
 - [Etap 4x282 — adnotacja przewozowa](raporty/etap-4x282-adnotacja-przewozowa-1-1-4-2-1-2026-11-01.md)
 - [Etap 4x281 — bezpieczne usunięcie skażonej odzieży](raporty/etap-4x281-bezpieczne-usuniecie-skazonej-odziezy-2026-11-01.md)
