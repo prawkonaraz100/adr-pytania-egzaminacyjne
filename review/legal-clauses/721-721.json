@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0721",
+  "date": "2026-11-02",
+  "scope": "ADR 2025, 3.2.1 column (6) and 3.3.1 — applicability of special provisions",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0721",
+      "order": 721,
+      "clause": "ADR 2025, 3.2.1, kolumna (6); 3.3.1",
+      "question_snapshot": {
+        "id": "ADR-B-0721",
+        "module_id": "ADR-B-01",
+        "stem": "Przewoźnik dostał numer UN i nazwę przewozową. W tabeli A ADR przy tej pozycji w kolumnie 6 podano numer przepisu szczególnego, ale nadawca nie sprawdził jego treści. Co należy zrobić przed uznaniem przewozu za dopuszczony?",
+        "options": {
+          "A": "Uznać przewóz za dozwolony, bo numer UN i nazwa przewozowa w tabeli A wystarczają bez dalszych sprawdzeń.",
+          "B": "Pominąć przepis szczególny, jeżeli ładunek jest prawidłowo zapakowany i oznakowany, a nadawca wystawił dokument.",
+          "C": "Odczytać przepis szczególny z kolumny 6 i sprawdzić, jakie dodatkowe warunki albo ograniczenia obowiązują."
+        },
+        "correct_option": "C",
+        "explanation": "Numer UN i nazwa przewozowa pomagają znaleźć towar w tabeli A, ale nie mówią jeszcze o wszystkich warunkach jego przewozu. Jeżeli w kolumnie 6 jest numer przepisu szczególnego, trzeba odczytać jego treść i sprawdzić ograniczenia przed przyjęciem ładunku. Samo opakowanie lub prawidłowe oznakowanie nie zastępują tej kontroli. Podstawa: ADR 2025, 3.2.1 (kolumna 6) oraz 3.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.2.1, kolumna (6); 3.3.1",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Identifying the UN number and proper shipping name is not enough if the row links to a special provision with further conditions."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Correct packaging and a document do not waive the need to check a listed special provision's applicability."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Column (6) identifies special provisions whose contents in chapter 3.3 must be consulted for the relevant entry."
+        }
+      },
+      "notes_on_conditions": "Not every special provision forbids carriage; the exact provision linked in column (6) determines additional requirements or possible exemptions.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+    }
+  ]
+}
