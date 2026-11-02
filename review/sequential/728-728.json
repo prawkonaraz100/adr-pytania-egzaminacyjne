@@ -1,0 +1,46 @@
+{
+  "batch": "728-728",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0728",
+      "sequence": 728,
+      "exact_record_snapshot": {
+        "stem": "Kierowca odbiera zamknięte opakowanie z materiałem zakaźnym klasy 6.2. Pracownik prosi, by otworzył je i sprawdził zawartość przed załadunkiem. Jak powinien postąpić kierowca?",
+        "options": {
+          "A": "Otworzyć opakowanie na świeżym powietrzu, bo w ten sposób można szybko potwierdzić rodzaj próbki.",
+          "B": "Otworzyć opakowanie tylko na chwilę, jeśli przez rękawice nie widać uszkodzeń jego zewnętrznej powierzchni.",
+          "C": "Nie otwierać przesyłki; sprawdzić jej stan zewnętrzny i zgłosić wątpliwości osobom odpowiedzialnym."
+        },
+        "correct_option": "C",
+        "explanation": "Materiał zakaźny może zawierać drobnoustroje zdolne wywołać chorobę, więc nie wolno narażać się przez otwieranie przesyłki. Kierowca ocenia jej stan z zewnątrz i w razie problemu zgłasza go właściwym osobom. Otwarcie na powietrzu ani krótkie zajrzenie do środka nie usuwa zagrożenia. Podstawa: ADR 2025, 2.2.62.1.1 oraz 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.62.1.1 i 8.3.3",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 2.2.62.1.1 and 8.3.3; infectious substance classification and prohibition on driver/assistant opening packages",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

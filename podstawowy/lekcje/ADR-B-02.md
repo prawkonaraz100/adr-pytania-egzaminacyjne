@@ -458,3 +458,8 @@ Dla niektórych nadtlenków organicznych klasy 5.2 kontrola temperatury w przewo
 ### Materiały trujące klasy 6.1 — ADR-B-0727
 
 Nie należy oceniać bezpieczeństwa substancji trującej po zapachu. Narażenie może wystąpić przez wdychanie, połknięcie albo kontakt ze skórą. Zobacz ADR-B-0727. Podstawa: ADR 2025, 2.2.61.1.1.
+
+
+### Materiały zakaźne — ADR-B-0728
+
+Opakowania z materiałem zakaźnym muszą pozostać zamknięte. Kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłki; mogą ocenić ich stan z zewnątrz i zgłosić zauważone problemy. Podstawa: ADR 2025, 2.2.62.1.1 i 8.3.3.
