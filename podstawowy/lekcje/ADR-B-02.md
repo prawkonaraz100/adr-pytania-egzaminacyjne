@@ -463,3 +463,8 @@ Nie należy oceniać bezpieczeństwa substancji trującej po zapachu. Narażenie
 ### Materiały zakaźne — ADR-B-0728
 
 Opakowania z materiałem zakaźnym muszą pozostać zamknięte. Kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłki; mogą ocenić ich stan z zewnątrz i zgłosić zauważone problemy. Podstawa: ADR 2025, 2.2.62.1.1 i 8.3.3.
+
+
+### Rozpoznawanie materiałów promieniotwórczych — ADR-B-0729
+
+Etykieta z symbolem promieniotwórczości i numerem 7 oznacza materiał klasy 7. To ostrzeżenie przed promieniowaniem jonizującym, a nie przed zakażeniem lub pożarem. Podstawa: ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11.
