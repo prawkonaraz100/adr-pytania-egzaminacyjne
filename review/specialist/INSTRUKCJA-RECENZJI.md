@@ -1,3 +1,5 @@
+**Bieżący bank 4x295:** 721 pytań, 721 `needs_review`, 0 `verified`; SHA `cb0edf87af4dd78faa5789596c709d50b50e9b45`. Indeks `REJESTR-AKTUALNY-0001-0721.md`; raport `podstawowy/raporty/etap-4x295-przepisy-szczegolne-dopuszczalnosc-2026-11-02.md`. Teoria <6: **59**; trzy kompetencje praktyczne pominięte.
+
 **Bieżący bank — 4x294:** 720 pytań ADR-B-0001–0720, wszystkie `needs_review`, 0 `verified`; SHA `ea8fcef906861d4d80e88b19d5ef81a9c4203b21`. Indeks `REJESTR-AKTUALNY-0001-0720.md`; raport `podstawowy/raporty/etap-4x294-maszyny-urzadzenia-wylaczenie-2026-11-02.md`. Licznik kompetencji teoretycznych z mniej niż 6 pytaniami: **60** (3 praktyczne pominięte).
 
 **Bieżący bank — 4x293:** 719 pytań ADR-B-0001–0719, wszystkie `needs_review`, 0 `verified`; SHA `0ed456853665d37eed85fd8a63a612141f83a015`. Indeks `REJESTR-AKTUALNY-0001-0719.md`; raport `podstawowy/raporty/etap-4x293-zaswiadczenie-wlasciwa-wladza-2026-11-02.md`. Licznik kompetencji teoretycznych z mniej niż 6 pytaniami: **61** (3 praktyczne pominięte).

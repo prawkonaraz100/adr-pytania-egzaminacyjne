@@ -1,3 +1,17 @@
+**Stan aktualny po etapie 4x295: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x295
+
+- Bank: 721 `needs_review`, 0 `verified` (ADR-B-0001–0721); SHA `cb0edf87af4dd78faa5789596c709d50b50e9b45`.
+- ADR-B-0721 do ADR-B-01-K07: przy numerze UN w kolumnie 6 tabeli A należy sprawdzić przepisy szczególne w ADR 3.3.1.
+- Explanation 375 znaków, 4 zdania; A/B/C 105/112/106; poprawna C nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=241, B=258, C=222.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/721 = 10,68%**; maksimum działu to 13,95%.
+- ADR-B-01-K07 ma 6 pytań; moduł ADR-B-01 ma 54 pytania.
+- **Kompetencje teoretyczne z mniej niż 6 pytaniami: 59** (3 kompetencje praktyczne pominięte; pełna lista w raporcie).
+- Klucze i warianty 001–005, snapshoty sequential/legal 721-721, SHA w pakiecie specjalisty; 0 zatwierdzeń.
+- Raport `podstawowy/raporty/etap-4x295-przepisy-szczegolne-dopuszczalnosc-2026-11-02.md`.
+
 ## Bieżąca migawka — etap 4x294
 
 - Bank: 720 `needs_review`, 0 `verified`; SHA `ea8fcef906861d4d80e88b19d5ef81a9c4203b21`.
@@ -981,3 +995,5 @@ Pięć próbnych wariantów 001–005 uzyskało zgodność techniczną z bankiem
 
 
 **Bieżący snapshot po 4x155 (29.10.2026):** `questions.jsonl` blob SHA `1bf9ebb6616839704cc1b00599617caa46768b15`, 651 pytań `needs_review`, 0 `verified`. Dodano ADR-B-0646–0651 do scenariuszy K13–K15; pytania nie zastępują ćwiczeń praktycznych. Zatwierdzenie przez specjalistę pozostaje otwarte.
+
+Indeks bieżący: `review/specialist/REJESTR-AKTUALNY-0001-0721.md`.

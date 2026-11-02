@@ -285,3 +285,8 @@ Jeżeli przewóz wymaga zaświadczenia ADR, kierowca nie może zastąpić go kar
 ### Zaopatrzenie własnej firmy a wyłączenie dla przewozu pomocniczego
 
 Przewóz materiału bezpośrednio do naprawy na miejscu pracy może spełniać warunki wyłączenia z ADR 1.1.3.1(c). Inaczej jest, gdy firma odbiera dostawę na zapas do magazynu: to zaopatrzenie, które jest wyłączone z zakresu tego przepisu. Samo zachowanie limitów 450 litrów na opakowanie i 1.1.3.6 nie wystarcza do zastosowania wyłączenia dla działalności pomocniczej. Osobno należy ocenić ewentualne zwolnienie ilościowe. Powiązane pytanie: ADR-B-0720. Podstawa: ADR 2025, 1.1.3.1(c) i 1.1.3.6.
+
+
+### Przepis szczególny w kolumnie 6 tabeli A
+
+Po znalezieniu numeru UN i nazwy przewozowej sprawdź także kolumnę 6 tabeli A. Jeśli widnieje tam numer przepisu szczególnego, odszukaj go w ADR 3.3.1 i przeczytaj, czy zmienia zasady przewozu lub nakłada warunki. Nie wystarczy samo poprawne opakowanie i dokument. Powiązane pytanie ADR-B-0721. Podstawa: ADR 2025, 3.2.1, kolumna (6) oraz 3.3.1.
