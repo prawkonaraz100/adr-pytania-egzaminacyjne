@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0740",
+  "date": "2026-11-02",
+  "scope": "ADR 2025 5.3.2.2.2 and 5.4.3.4",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0740",
+      "order": 740,
+      "clause": "ADR 2025, 5.3.2.2.2; 5.4.3.4",
+      "question_snapshot": {
+        "id": "ADR-B-0740",
+        "module_id": "ADR-B-05",
+        "stem": "Kierowca po kolizji zgłasza zdarzenie służbom z bezpiecznego miejsca. Nie może wrócić po dokumenty, ale widzi z daleka czytelną tablicę pomarańczową z dwoma numerami. Co powinien przekazać?",
+        "options": {
+          "A": "Podać tylko numer z górnej części, bo dolny dotyczy dokumentów przewozowych, a nie identyfikacji ładunku.",
+          "B": "Podać oba numery: górny wskazuje zagrożenie, a dolny jest numerem UN przewożonego towaru.",
+          "C": "Podać wyłącznie numer rejestracyjny pojazdu i poczekać z informacją o ładunku do odczytania dokumentów."
+        },
+        "correct_option": "B",
+        "explanation": "Tablica pomarańczowa może przekazać ratownikom dwa ważne oznaczenia: u góry numer rozpoznawczy zagrożenia, a na dole numer UN towaru. Oba pomagają rozpoznać rodzaj zagrożenia i przewożoną substancję, dlatego nie pomijaj żadnego z nich. Nie ograniczaj zgłoszenia do numeru rejestracyjnego i nie wracaj po dokumenty, jeśli oznaczałoby to wejście w strefę zagrożenia. Podstawa: ADR 2025, 5.3.2.2.2 i 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.2 — położenie numeru rozpoznawczego zagrożenia i numeru UN na tablicy pomarańczowej; 5.4.3.4 — przekazanie służbom dostępnych informacji o zdarzeniu i towarach niebezpiecznych",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Numer rozpoznawczy zagrożenia znajduje się u góry, ale dolna część tablicy zawiera numer UN i również przekazuje ważną informację o ładunku."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Tablica pomarańczowa zawiera u góry numer rozpoznawczy zagrożenia, a na dole numer UN; oba można przekazać ratownikom, jeśli są czytelne i dostępne bez ryzyka."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Sam numer rejestracyjny nie identyfikuje przewożonego towaru; ADR 5.4.3.4 wymaga przekazania dostępnych informacji o zdarzeniu i towarach niebezpiecznych."
+        }
+      },
+      "notes_on_conditions": "Pytanie zakłada, że oba numery są widoczne i można je odczytać z bezpiecznego miejsca; nie zachęca do zbliżania się do pojazdu ani odzyskiwania dokumentów ze strefy zagrożenia.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
