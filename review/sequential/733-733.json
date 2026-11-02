@@ -1,0 +1,46 @@
+{
+  "batch": "733-733",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0733",
+      "sequence": 733,
+      "exact_record_snapshot": {
+        "stem": "Po rozładunku luzem UN 1993 firma chce załadować luzem UN 1203. Oba towary należą do klasy 3. Czy można zastosować wyjątek od czyszczenia pojazdu przewidziany w ADR 7.5.8.2?",
+        "options": {
+          "A": "Tak. Oba towary należą do klasy 3 i mają takie samo główne zagrożenie, więc wyjątek obejmuje je tak samo jak identyczny materiał.",
+          "B": "Nie. To różne towary niebezpieczne; wyjątek dotyczy tylko tego samego towaru, więc pojazd trzeba oczyścić.",
+          "C": "Tak, jeśli pojazd jest pusty i nie ma widocznych pozostałości, nawet gdy zmienia się numer UN i nazwa przewozowa."
+        },
+        "correct_option": "B",
+        "explanation": "Wyjątek z 7.5.8.2 dotyczy tylko ponownego załadunku tych samych towarów niebezpiecznych, a nie dowolnych materiałów z tej samej klasy. UN 1993 i UN 1203 to różne pozycje, choć oba należą do klasy 3, więc przed kolejnym załadunkiem trzeba oczyścić pojazd lub kontener. Odpowiedź A myli klasę z identycznością towaru, a C pomija obowiązek czyszczenia. Podstawa: ADR 2025, 7.5.8.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.2",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 7.5.8.2: vehicle or container used for carriage in bulk must be properly cleaned before reloading, except where the next load consists of the same dangerous goods",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
