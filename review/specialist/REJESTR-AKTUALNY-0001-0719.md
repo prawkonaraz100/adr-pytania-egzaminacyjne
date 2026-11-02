@@ -1,8 +1,8 @@
 ## Bieżąca migawka — etap 4x293 (02.11.2026)
 
-- Bank: 719 pytań ADR-B-0001–0719; 719 `needs_review`, 0 `verified`; SHA `a415f3761ba71994cbabfdf5f5300f6b865f9764`.
+- Bank: 719 pytań ADR-B-0001–0719; 719 `needs_review`, 0 `verified`; SHA `0ed456853665d37eed85fd8a63a612141f83a015`.
 - ADR-B-0719 — zaświadczenie ADR wydane przez właściwą władzę, ADR 8.2.1.1; kompetencja ADR-B-01-K03 ma teraz 6 pytań.
-- Explanation 357 znaków, A/B/C 76/91/102; poprawna A nie jest najdłuższa.
+- Explanation 357 znaków, A/B/C 96/91/102; poprawna A nie jest najdłuższa.
 - Rozkład A/B/C 241/257/221; najdłuższa poprawna 77/719 = 10,71%; maksimum działu 13,95%.
 - Kompetencje teorii z mniej niż 6 pytaniami: 61; 3 praktyczne pominięte.
 - Raport `${repPath}`; formalne zatwierdzenia 0.
