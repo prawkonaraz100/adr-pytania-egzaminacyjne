@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0745",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 5.4.3.4 — contaminated clothing and used contaminated protective equipment",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0745",
+      "order": 745,
+      "clause": "ADR 2025, 5.4.3.4",
+      "question_snapshot": {
+        "id": "ADR-B-0745",
+        "module_id": "ADR-B-05",
+        "stem": "Po zakończeniu działań przy wycieku kierowca ma już czyste rękawice zapasowe. W kabinie leży para rękawic użytych przy uszkodzonej przesyłce. Które postępowanie jest właściwe przed powrotem do pojazdu?",
+        "options": {
+          "A": "Założyć użyte rękawice ponownie, jeśli wyglądają na suche; niewidoczne ślady nie muszą oznaczać skażenia.",
+          "B": "Nie używać ich ponownie; odseparować skażone rękawice i zapewnić ich bezpieczne usunięcie.",
+          "C": "Schować je do schowka kabiny, aby nie dotykały fotela ani dokumentów kierowcy."
+        },
+        "correct_option": "B",
+        "explanation": "Rękawice, które miały kontakt z uwolnioną substancją, traktuj jako skażone nawet wtedy, gdy nie widać na nich plamy. Nie zakładaj ich ponownie ani nie wkładaj do schowka; trzeba odseparować je i zapewnić bezpieczne usunięcie. Odpowiedź A myli brak widocznych śladów z brakiem zagrożenia, a C przenosi skażenie do kabiny. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — zdjąć skażoną odzież i użyte skażone środki ochronne oraz zapewnić ich bezpieczne usunięcie",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Brak widocznej plamy nie potwierdza, że rękawice są czyste; użyte skażone środki ochrony trzeba bezpiecznie usunąć."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wariant odzwierciedla instrukcję pisemną: użyte skażone środki ochrony należy bezpiecznie usunąć, a nie ponownie zakładać."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Schowanie skażonych rękawic w kabinie przenosi potencjalne skażenie do miejsca pracy załogi."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy rękawic, które miały kontakt z uwolnioną substancją. Nie zaleca podejmowania czynności w strefie zagrożenia; postępowanie musi być bezpieczne i zgodne z instrukcjami oraz poleceniami służb.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
