@@ -1,4 +1,18 @@
-**Stan na 02.11.2026, etap 4x294**
+**Stan aktualny po etapie 4x295: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x295
+
+- Bank: 721 `needs_review`, 0 `verified` (ADR-B-0001–0721); SHA `cb0edf87af4dd78faa5789596c709d50b50e9b45`.
+- ADR-B-0721 do ADR-B-01-K07: przy numerze UN w kolumnie 6 tabeli A należy sprawdzić przepisy szczególne w ADR 3.3.1.
+- Explanation 375 znaków, 4 zdania; A/B/C 105/112/106; poprawna C nie jest ani najkrótsza, ani najdłuższa.
+- Rozkład prawidłowych opcji: A=241, B=258, C=222.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/721 = 10,68%**; maksimum działu to 13,95%.
+- ADR-B-01-K07 ma 6 pytań; moduł ADR-B-01 ma 54 pytania.
+- **Kompetencje teoretyczne z mniej niż 6 pytaniami: 59** (3 kompetencje praktyczne pominięte; pełna lista w raporcie).
+- Klucze i warianty 001–005, snapshoty sequential/legal 721-721, SHA w pakiecie specjalisty; 0 zatwierdzeń.
+- Raport `podstawowy/raporty/etap-4x295-przepisy-szczegolne-dopuszczalnosc-2026-11-02.md`.
+
+**Stan na 02.11.2026, etap 4x295**
 
 **Stan aktualny po etapie 4x294: 02.11.2026.**
 
@@ -650,6 +664,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x295 — przepisy szczególne i dopuszczalność przewozu](raporty/etap-4x295-przepisy-szczegolne-dopuszczalnosc-2026-11-02.md)
 - [Etap 4x294 — wyłączenie dla maszyn i urządzeń](raporty/etap-4x294-maszyny-urzadzenia-wylaczenie-2026-11-02.md)
 - [Etap 4x293 — zaświadczenie ADR od właściwej władzy](raporty/etap-4x293-zaswiadczenie-wlasciwa-wladza-2026-11-02.md)
 - [Etap 4x292 — instrukcje przy wielu zagrożeniach](raporty/etap-4x292-ladunek-wielozagrozeniowy-instrukcje-2026-11-02.md)
