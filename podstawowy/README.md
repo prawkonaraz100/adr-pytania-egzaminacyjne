@@ -1,10 +1,10 @@
-**Stan na 02.11.2026, etap 4x316**
+**Stan na 02.11.2026, etap 4x317**
 
-**Stan 4x316:** 742 `needs_review`, 0 `verified`; SHA `23499db89b3fcf011fac9ff33ca4319841281a0d`. Poprawna = jedyna najdłuższa: **81/742 = 10,92%**; maksimum działu **14,61%**. Kompetencje teorii <6: **38**.
+**Stan 4x317:** 743 `needs_review`, 0 `verified`; SHA `1834185447c88b46f712cba439b615f5a7e210a9`. Poprawna = jedyna najdłuższa: **81/743 = 10,90%**; maksimum działu **14,61%**. Kompetencje teorii <6: **37**.
 
 ## Raporty jakości
 
-- [Etap 4x316 — granica gaszenia pożaru komory silnika i ładowni](raporty/etap-4x316-granica-gaszenia-pozarow-2026-11-02.md)
+- [Etap 4x317 — mały pożar i warunek bezpieczeństwa](raporty/etap-4x317-maly-pozar-warunek-bezpieczenstwa-2026-11-02.md)
 
 
 **Stan na 02.11.2026, etap 4x313**

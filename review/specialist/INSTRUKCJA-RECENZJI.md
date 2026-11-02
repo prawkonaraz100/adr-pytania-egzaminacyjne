@@ -1,8 +1,14 @@
+## Bieżąca migawka — etap 4x317
+
+Raport: `podstawowy/raporty/etap-4x317-maly-pozar-warunek-bezpieczenstwa-2026-11-02.md`.
+
+**Bieżący stan po etapie 4x317 (02.11.2026): bank 743 pytań, 743 `needs_review`, 0 `verified`; SHA `1834185447c88b46f712cba439b615f5a7e210a9`; kompetencje teorii <6: 37. Rejestr: `REJESTR-AKTUALNY-0001-0743.md`.**
+
 ## Bieżąca migawka — etap 4x316
 
 Raport: `podstawowy/raporty/etap-4x316-granica-gaszenia-pozarow-2026-11-02.md`.
 
-**Bieżący stan po etapie 4x316 (02.11.2026): bank 742 pytań, 742 `needs_review`, 0 `verified`; SHA `23499db89b3fcf011fac9ff33ca4319841281a0d`; kompetencje teorii <6: 38. Rejestr: `REJESTR-AKTUALNY-0001-0742.md`.**
+**Poprzedni stan po etapie 4x316 (02.11.2026): bank 742 pytań, 742 `needs_review`, 0 `verified`; SHA `23499db89b3fcf011fac9ff33ca4319841281a0d`; kompetencje teorii <6: 38. Rejestr: `REJESTR-AKTUALNY-0001-0742.md`.**
 
 **Poprzedni stan po etapie 4x315 (02.11.2026): bank 741 pytań, 741 `needs_review`, 0 `verified`; SHA `02fb3c3056749458ebcee9661ffa7895768b56e0`; kompetencje teorii <6: 39. Rejestr: `REJESTR-AKTUALNY-0001-0741.md`.**
 

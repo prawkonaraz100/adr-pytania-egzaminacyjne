@@ -1,0 +1,46 @@
+{
+  "batch": "743-743",
+  "date": "2026-11-02",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0743",
+      "sequence": 743,
+      "exact_record_snapshot": {
+        "stem": "Na postoju kierowca zauważa mały pożar w komorze silnika. Aby dosięgnąć gaśnicy i podejść do ognia, musiałby wejść w gęsty dym. Co powinien zrobić?",
+        "options": {
+          "A": "Spróbować gasić, bo pożar jest jeszcze mały, a warunek bezpieczeństwa dotyczy tylko ognia w ładowni.",
+          "B": "Nie narażać się na dym; oddalić się, ostrzec innych i wezwać służby.",
+          "C": "Otworzyć szeroko komorę silnika, aby szybciej zlokalizować płomienie i skrócić czas gaszenia."
+        },
+        "correct_option": "B",
+        "explanation": "Mały pożar silnika można gasić gaśnicą tylko wtedy, gdy jest to właściwe i bezpieczne. Jeżeli dojście wymaga wejścia w gęsty dym, warunek bezpieczeństwa nie jest spełniony: nie podejmuj próby, oddal się, ostrzeż innych i wezwij służby. Nie ryzykuj wdychania dymu ani nie otwieraj komory bez potrzeby. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — użycie gaśnic do małych/początkowych pożarów opon, hamulców lub komory silnika wyłącznie, gdy jest to właściwe i bezpieczne; unikanie wdychania dymu przez pozostawanie po stronie nawietrznej",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 5.4.3.4 written instructions: use extinguishers on small/incipient tyre, brake or engine-compartment fires only where appropriate and safe; avoid inhaling smoke by staying up wind",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
