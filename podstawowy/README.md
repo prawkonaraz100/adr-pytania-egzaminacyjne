@@ -1,3 +1,5 @@
+**Aktualny etap 4x296:** 722 `needs_review`, 0 `verified`; SHA `eaf7a24acf1001dd3fc1d220a229808424a9c1df`. Poprawna = jedyna najdłuższa: **77/722 = 10,66%**. Kompetencje teorii z <6 pytaniami: **58**.
+
 **Bieżący stan po 4x296:** 722 pytania, 722 `needs_review`, 0 `verified`; SHA `eaf7a24acf1001dd3fc1d220a229808424a9c1df`; rejestr `REJESTR-AKTUALNY-0001-0722.md`. Kompetencje teorii poniżej 6: **58**.
 
 **Stan aktualny po etapie 4x295: 02.11.2026.**
