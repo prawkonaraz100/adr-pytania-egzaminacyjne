@@ -1,3 +1,7 @@
+**Bieżąca migawka — etap 4x307:** bank 733 pytań, wszystkie `needs_review`, 0 `verified`; SHA `0ca9332689073fc3750b9e0bd5d7a4a93e9a1d0b`; kompetencje teorii <6: **47**. Raport: `podstawowy/raporty/etap-4x307-czyszczenie-przewoz-luzem-ten-sam-towar-2026-11-02.md`.
+
+**Bieżący bank 4x307:** 733 pytań, 733 `needs_review`, 0 `verified`; SHA `0ca9332689073fc3750b9e0bd5d7a4a93e9a1d0b`. Rejestr `REJESTR-AKTUALNY-0001-0733.md`. Kompetencje teorii <6: **47**.
+
 **Bieżąca migawka — etap 4x306:** bank 732 pytań, wszystkie `needs_review`, 0 `verified`; SHA `2896a94357e8cd8b745602efc7f425960e89ca6a`; kompetencje teorii <6: **48**. Raport: `podstawowy/raporty/etap-4x306-odpad-21355-dopisek-w-dokumencie-2026-11-02.md`.
 
 **Bieżący bank 4x306:** 732 pytań, 732 `needs_review`, 0 `verified`; SHA `2896a94357e8cd8b745602efc7f425960e89ca6a`. Rejestr `REJESTR-AKTUALNY-0001-0732.md`. Kompetencje teorii <6: **48**.
