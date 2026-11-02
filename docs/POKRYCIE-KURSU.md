@@ -1,3 +1,14 @@
+**Stan aktualny po etapie 4x303: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x303
+
+- Bank: 729 `needs_review`, 0 `verified`; SHA `29dd69585e261ce1b8f6f9e5b1282cf4ec2d4be3`.
+- ADR-B-0729 do ADR-B-02-K11 — rozpoznawanie materiałów promieniotwórczych klasy 7 (ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11).
+- Rozkład prawidłowych opcji: A=242, B=262, C=225.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **82/729 = 11,25%**; maksimum działu to 16,09%.
+- Kompetencje teoretyczne z mniej niż 6 pytaniami: **51**.
+- Raport: `podstawowy/raporty/etap-4x303-klasa7-promieniotworcze-2026-11-02.md`.
+
 **Stan aktualny po etapie 4x302: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x302
@@ -741,7 +752,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | Dział | Zakres | Pytaniami roboczymi / teoria | Cele praktyczne | Liczba pytań | Zweryfikowane | Materiał do nauki |
 |---|---|---:|---:|---:|---:|---|
 | ADR-B-01 | Podstawy i wyłączenia | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
-| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 86 | 0 | Lekcja + mapa pytań |
+| ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 87 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 56 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 76 | 0 | Lekcja + mapa pytań |
@@ -753,7 +764,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **728** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **729** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
