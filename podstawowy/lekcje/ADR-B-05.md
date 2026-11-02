@@ -453,3 +453,8 @@ Instrukcje pisemne ADR obejmują nie tylko opary, lecz także dym, pył i pary. 
 ### Granica gaszenia pożaru komory silnika i ładowni — ADR-B-0742
 
 Instrukcje pisemne ADR rozróżniają mały lub początkowy pożar opon, hamulców albo komory silnika od pożaru przedziału ładunkowego. Gaśnicy można użyć przy pierwszym rodzaju pożaru tylko wtedy, gdy jest to właściwe i bezpieczne. Gdy ogień obejmie ładownię, załoga nie powinna go gasić; należy się oddalić i wezwać służby. Podstawa: ADR 2025, 5.4.3.4.
+
+
+### Mały pożar silnika a zagrożenie dymem — ADR-B-0743
+
+Instrukcje pisemne dopuszczają użycie gaśnicy przy małym lub początkowym pożarze komory silnika tylko wtedy, gdy jest to właściwe i bezpieczne. Jeżeli dojście do ognia wymaga wejścia w gęsty dym, nie podejmuj próby gaszenia. Oddal się, ostrzeż innych i wezwij służby; nie ryzykuj wdychania dymu. Podstawa: ADR 2025, 5.4.3.4.
