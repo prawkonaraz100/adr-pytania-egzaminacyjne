@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x292
+
+- Bank: 718 `needs_review`, 0 `verified`; SHA `5eda2984ac8899b31bfc6b351b4cf1722ccdd07c`.
+- ADR-B-0718: wiele zagrożeń w ładunku mieszanym, ADR 5.4.3.4 (uwaga 1), 8.2.2.3.8.
+- Raport `podstawowy/raporty/etap-4x292-ladunek-wielozagrozeniowy-instrukcje-2026-11-02.md`; indeks `review/specialist/REJESTR-AKTUALNY-0001-0718.md`.
+
 ## Bieżąca migawka — etap 4x291
 
 - Bank: 717 `needs_review`, 0 `verified`; SHA `f171a97a6d4a62812ba8ae399ec9d063902a1ee9`.

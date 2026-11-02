@@ -1,3 +1,5 @@
+**Bieżący bank — 4x292:** 718 pytań ADR-B-0001–0718, wszystkie `needs_review`, 0 `verified`; SHA `5eda2984ac8899b31bfc6b351b4cf1722ccdd07c`. Indeks `REJESTR-AKTUALNY-0001-0718.md`; raport `podstawowy/raporty/etap-4x292-ladunek-wielozagrozeniowy-instrukcje-2026-11-02.md`.
+
 **Bieżący bank — 4x291:** 717 pytań ADR-B-0001–0717, wszystkie `needs_review`, 0 `verified`; SHA `f171a97a6d4a62812ba8ae399ec9d063902a1ee9`. Indeks: `REJESTR-AKTUALNY-0001-0717.md`; raport: `podstawowy/raporty/etap-4x291-ochrona-gasnicy-przed-pogoda-2026-11-02.md`.
 
 **Bieżący bank — 4x290:** 716 pytań ADR-B-0001–0716, wszystkie `needs_review`, 0 `verified`; SHA `ca5eb4b1d8f82eed5081887537980076600b51f3`. Indeks: `REJESTR-AKTUALNY-0001-0716.md`; raport: `podstawowy/raporty/etap-4x290-instrukcje-zrozumienie-2026-11-02.md`.

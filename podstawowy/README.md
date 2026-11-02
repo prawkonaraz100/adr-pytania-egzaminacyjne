@@ -1,3 +1,16 @@
+**Stan na 02.11.2026, etap 4x292**
+
+## Bieżąca migawka — etap 4x292
+
+- Bank: 718 `needs_review`, 0 `verified` (ADR-B-0001–0718); SHA `5eda2984ac8899b31bfc6b351b4cf1722ccdd07c`.
+- ADR-B-0718 do ADR-B-05-K15: wszystkie stosowne wpisy z instrukcji przy ładunku mieszanym i wielu zagrożeniach; ADR 5.4.3.4 (uwaga 1) i 8.2.2.3.8.
+- Explanation 397 znaków, 4 zdania; A/B/C 118/106/105; poprawna A jest najdłuższa.
+- Rozkład prawidłowych opcji: A=240, B=257, C=221.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **77/718 = 10,72%**; maksimum działu to 13,95%.
+- ADR-B-05-K15 ma 5 pytań; moduł ADR-B-05 ma 76 pytań.
+- Klucze i warianty 001–005, snapshoty sequential/legal 718-718; 0 zatwierdzeń.
+- Raport `podstawowy/raporty/etap-4x292-ladunek-wielozagrozeniowy-instrukcje-2026-11-02.md`.
+
 **Stan na 02.11.2026, etap 4x291**
 
 ## Bieżąca migawka — etap 4x291
@@ -608,6 +621,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x292 — instrukcje przy wielu zagrożeniach](raporty/etap-4x292-ladunek-wielozagrozeniowy-instrukcje-2026-11-02.md)
 - [Etap 4x291 — ochrona gaśnicy przed pogodą](raporty/etap-4x291-ochrona-gasnicy-przed-pogoda-2026-11-02.md)
 - [Etap 4x290 — zrozumienie instrukcji pisemnych](raporty/etap-4x290-instrukcje-zrozumienie-2026-11-02.md)
 - [Etap 4x289 — RKO i AED](raporty/etap-4x289-rko-aed-praktyczna-pierwsza-pomoc-2026-11-02.md)

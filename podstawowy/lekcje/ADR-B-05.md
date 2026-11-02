@@ -426,3 +426,10 @@ Przed wyjazdem nie wystarczy sprawdzić, czy instrukcje leżą w kabinie. Każdy
 Przy sprawdzaniu pojazdu przed wyjazdem kierowca ocenia nie tylko liczbę i termin przeglądu gaśnic, lecz również ich dostępność i zabezpieczenie przed wpływem pogody. Gaśnica zamocowana na zewnątrz może być łatwo dostępna, ale zniszczona osłona narażająca ją na działanie deszczu i uszkodzenie nie spełnia warunku właściwego zabezpieczenia. Trzeba naprawić osłonę lub poprawić mocowanie bez zamykania gaśnicy w miejscu, z którego załoga nie może jej szybko wyjąć. Podstawa: ADR 8.1.4.5; zakres praktycznych ćwiczeń gaśniczych ADR 8.2.2.3.8.
 
 **Pytanie kontrolne:** ADR-B-0717 — co zrobić, gdy gaśnica jest łatwo dostępna, ale pozostaje narażona na deszcz?
+
+
+### Wiele zagrożeń w jednym ładunku — ADR-B-0718
+
+Przy ładunku mieszanym lub towarze stwarzającym kilka zagrożeń kierowca nie może wybrać tylko jednego rodzaju zagrożenia na podstawie kolejności w dokumencie albo masy przesyłki. Instrukcje pisemne ADR wymagają uwzględnienia każdej właściwej pozycji dla występujących zagrożeń. W praktyce przeanalizuj wszystkie wskazówki, alarmuj służby i wykonuj czynności tylko wtedy, gdy są bezpieczne i możliwe. Nie należy wchodzić do strefy zagrożenia, aby na siłę zastosować każde polecenie. Podstawa: ADR 2025, 5.4.3.4 (uwaga 1); ćwiczenia praktyczne 8.2.2.3.8.
+
+**Pytanie kontrolne:** ADR-B-0718 — czy przy kilku zagrożeniach można zastosować tylko jeden fragment instrukcji?
