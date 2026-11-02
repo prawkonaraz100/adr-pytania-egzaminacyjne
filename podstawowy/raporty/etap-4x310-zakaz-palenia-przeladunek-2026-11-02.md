@@ -8,7 +8,7 @@
 - Moduł ADR-B-04: 48 pytań.
 - Rozkład kluczy A/B/C: 247/264/225.
 - „Poprawna odpowiedź jest jedyną najdłuższą”: **81/736 = 11,01%**; maksimum działu **14,61%**. Długości opcji ADR-B-0736: A=140, B=135, C=144; poprawna A nie jest najdłuższa.
-- Explanation: 377 znaków, 4 zdania. A wskazuje, że zakaz obejmuje przeładunek w pobliżu pojazdu i osobę spoza załogi; B błędnie ogranicza zakaz do kierowcy i pomocnika; C błędnie ogranicza go do wnętrza pojazdu i tradycyjnego palenia.
+- Explanation: 363 znaki, 4 zdania. A wskazuje, że zakaz obejmuje przeładunek w pobliżu pojazdu i osobę spoza załogi; B błędnie ogranicza zakaz do kierowcy i pomocnika; C błędnie ogranicza go do wnętrza pojazdu i tradycyjnego palenia.
 - Podstawa: ADR 2025, 8.3.5 — zakaz palenia podczas czynności ładunkowych w pobliżu pojazdów i wewnątrz nich, także e-papierosów i podobnych urządzeń. Status `needs_review`; pełne literalne porównanie i niezależna recenzja pozostają otwarte.
 - Odświeżono klucze i warianty 001–005, snapshoty sequential/legal 736, ledger, manifesty, kolejki prawne, rejestr specjalisty, coverage, lekcję B-04, README i testy regresji.
 
