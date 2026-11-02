@@ -398,3 +398,10 @@ Powiązane pytanie: **ADR-B-0704**.
 ### Bezpieczne usunięcie skażonej odzieży i środków ochronnych (ADR-B-0707)
 
 Po zdarzeniu, jeśli można to zrobić bezpiecznie, członek załogi zdejmuje skażoną odzież i użyte skażone wyposażenie ochronne. Rzeczy te trzeba następnie usunąć w sposób bezpieczny — nie wolno ich wrzucać do zwykłego kosza ani zostawiać przy drodze. Kierowca nie powinien narażać innych osób ani przenosić skażenia do kabiny; ma stosować się do instrukcji i poleceń służb. Podstawa: ADR 2025, 5.4.3.4.
+
+
+### Pierwsza pomoc po zabezpieczeniu miejsca zdarzenia (ADR-B-0712)
+
+Najpierw upewnij się, że miejsce zdarzenia jest bezpieczne: nie ma wycieku, oparów ani innego zagrożenia, które mogłoby narazić ciebie lub poszkodowanego. Dopiero wtedy udzielaj pomocy w granicach swojego przeszkolenia. Przy krwawiącej ranie załóż rękawiczki, osłoń ją jałowym opatrunkiem i zastosuj ucisk; przy silnym lub nieustającym krwawieniu wezwij pomoc pod numerem 112 i wykonuj polecenia dyspozytora. Nie dotykaj rany gołą dłonią i nie podawaj poszkodowanemu jedzenia ani napoju. ADR wymaga, aby kurs podstawowy obejmował postępowanie po wypadku, w tym pierwszą pomoc (8.2.2.3.2(e)); szczegółowe czynności ćwiczy się w ramach właściwego szkolenia z pierwszej pomocy.
+
+**Pytanie kontrolne:** ADR-B-0712 — co kierowca może zrobić, gdy miejsce jest bezpieczne, a poszkodowany ma krwawiącą ranę?
