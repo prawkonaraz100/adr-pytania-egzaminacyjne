@@ -1,4 +1,17 @@
-**Stan na 02.11.2026, etap 4x284**
+**Stan aktualny po etapie 4x285: 02.11.2026.**
+
+## Bieżąca migawka — etap 4x285 (02.11.2026)
+
+- Bank: 711 pytań ADR-B-0001–0711; wszystkie `needs_review`, 0 `verified`; SHA `daa0a72906bb1ca4b6ea0724c4c8078126d3ce04`.
+- ADR-B-0711 do ADR-B-08-K02: gaśnica 2 kg dla całej jednostki transportowej z naczepą przy 1.1.3.6; ADR 2025, 1.2.1 i 8.1.4.2.
+- Explanation 382 znaki; A/B/C 157/119/103; poprawna B nie jest najdłuższa.
+- Rozkład prawidłowych opcji: A=238, B=253, C=220.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **75/711 = 10,55%**; maksimum działu to 13,95%.
+- ADR-B-08-K02 ma 5 pytań; moduł ADR-B-08 ma 48 pytań.
+- Klucze i warianty 001–005 zgodne z SHA banku; snapshoty sequential/legal 711-711; formalne zatwierdzenia: 0.
+- Raport: `podstawowy/raporty/etap-4x285-gasnica-jednostka-z-naczepa-2026-11-02.md`.
+
+**Stan na 02.11.2026, etap 4x285**
 
 ## Bieżąca migawka — etap 4x284 (02.11.2026)
 
@@ -545,6 +558,7 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+- [Etap 4x285 — gaśnica dla jednostki transportowej z naczepą](raporty/etap-4x285-gasnica-jednostka-z-naczepa-2026-11-02.md)
 - [Etap 4x284 — dobór wyposażenia według nalepek](raporty/etap-4x284-dobor-wyposazenia-wedlug-nalepek-2026-11-02.md)
 - [Etap 4x283 — definicja jednostki transportowej](raporty/etap-4x283-definicja-jednostki-transportowej-2026-11-01.md)
 - [Etap 4x282 — adnotacja przewozowa](raporty/etap-4x282-adnotacja-przewozowa-1-1-4-2-1-2026-11-01.md)
