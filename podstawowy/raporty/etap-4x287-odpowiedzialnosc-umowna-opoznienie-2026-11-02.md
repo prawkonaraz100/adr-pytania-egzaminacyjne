@@ -15,7 +15,7 @@ Kompetencja ADR-B-07-K07 („Podstawowe rozróżnienie odpowiedzialności cywiln
 - A: błędnie zakłada automatyczną odpowiedzialność niezależnie od przyczyny.
 - B: prawidłowo oddaje ogólną zasadę art. 471 KC, bez przesądzania wyniku konkretnego sporu.
 - C: błędnie przenosi odpowiedzialność wyłącznie na kierowcę i pomija stronę umowy.
-- Długości opcji A/B/C: 121/126/108 znaków; poprawna B nie jest najdłuższa.
+- Długości opcji A/B/C: 121/126/108 znaków; poprawna B jest najdłuższa.
 - Explanation: 475 znaków, 4 zdania; najpierw praktyczny sens, następnie pułapki odpowiedzi, na końcu podstawa prawna.
 
 ## Podstawa prawna
