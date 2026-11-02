@@ -1,0 +1,69 @@
+{
+  "title": "ADR 2025 legal-clause comparison: question 0711",
+  "date": "2026-11-02",
+  "scope": "ADR 2025, 1.2.1 and 8.1.4.2: the combination of a motor vehicle and attached trailer is one transport unit; a transport unit carrying dangerous goods under 1.1.3.6 requires at least one portable fire extinguisher with minimum 2 kg powder capacity.",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+  "ministry_source": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
+  "unece_reference": "https://unece.org/adr-2025-files",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0711",
+      "order": 711,
+      "clause": "ADR 2025, 1.2.1; 8.1.4.2",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "question_snapshot": {
+        "id": "ADR-B-0711",
+        "module_id": "ADR-B-08",
+        "stem": "Ciągnik z dołączoną naczepą przewozi towary w ilościach objętych wyłączeniem 1.1.3.6. W ciągniku znajduje się jedna sprawna i łatwo dostępna gaśnica proszkowa 2 kg, a w naczepie nie ma drugiej. Jak ocenić to według ADR 8.1.4.2?",
+        "options": {
+          "A": "Tak. Ciągnik i naczepa są odrębnymi elementami zestawu, dlatego przed wyjazdem każda z nich musi mieć własną gaśnicę proszkową o pojemności co najmniej 2 kg.",
+          "B": "Nie, ciągnik z dołączoną naczepą stanowi jedną jednostkę transportową; wymagane minimum to jedna dostępna gaśnica 2 kg.",
+          "C": "Nie, wyłączenie 1.1.3.6 usuwa obowiązek wyposażenia przeciwpożarowego, więc gaśnica nie jest potrzebna."
+        },
+        "correct_option": "B",
+        "explanation": "Przy przewozie objętym 1.1.3.6 nadal trzeba mieć co najmniej jedną przenośną gaśnicę o pojemności odpowiadającej 2 kg proszku. Ciągnik z dołączoną naczepą tworzy jedną jednostkę transportową, więc minimum z 8.1.4.2 dotyczy całego zestawu, a nie osobno każdego jego elementu. Nie oznacza to zwolnienia z gaśnicy ani obowiązku dublowania jej w naczepie. Podstawa: ADR 1.2.1 i 8.1.4.2.",
+        "sources": [
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 1.2.1 — definicja jednostki transportowej; 8.1.4.2 — minimum jednej przenośnej gaśnicy 2 kg dla jednostki transportowej korzystającej z 1.1.3.6",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.2.1 oraz 8.1.4.2, oficjalny polski tekst udostępniany przez Ministerstwo Infrastruktury",
+            "url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne"
+          },
+          {
+            "code": "ADR-2025-UNECE",
+            "reference": "ADR 2025, 1.2.1 and 8.1.4.2 — transport unit definition and minimum portable extinguisher requirement",
+            "url": "https://unece.org/adr-2025-files"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "The tractor and semitrailer together form one transport unit; 8.1.4.2 does not require a separate 2 kg extinguisher for each element."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 1.2.1 treats the motor vehicle with attached trailer as one transport unit; 8.1.4.2 requires at least one portable extinguisher for the unit under 1.1.3.6."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "The 1.1.3.6 exemption does not remove the extinguisher requirement."
+        }
+      },
+      "notes_on_conditions": "The minimum is per transport unit; the question is limited to the 1.1.3.6 exemption and does not replace the fuller equipment requirements for other ADR regimes.",
+      "editorial_result": "Situational distinction between a complete transport unit and its individual components.",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "source_url": "https://dziennikustaw.gov.pl/DU/2025/642"
+    }
+  ]
+}
