@@ -1,14 +1,15 @@
-**Stan aktualny po etapie 4x314: 02.11.2026.**
+**Stan aktualny po etapie 4x315: 02.11.2026.**
 
-## Bieżąca migawka — etap 4x314
+## Bieżąca migawka — etap 4x315
 
-- Bank: **740** pytań, 740 `needs_review`, 0 `verified`; SHA `9a04009ad8e65d597c70d3e337f861c672f840f3`.
-- ADR-B-0740 do ADR-B-05-K03: odczyt i przekazanie ratownikom numeru rozpoznawczego zagrożenia oraz numeru UN z tablicy pomarańczowej (ADR 2025, 5.3.2.2.2 i 5.4.3.4).
-- Moduł ADR-B-05: **78** pytań; kompetencja K03: 5→6.
-- Rozkład prawidłowych opcji: A=248, B=265, C=227.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/740 = 10,95%**; maksimum działu to 14,61%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **40** (3 praktyczne pominięte).
-- Raport: `podstawowy/raporty/etap-4x314-numery-tablicy-pomaranczowej-dla-ratownikow-2026-11-02.md`.
+- Bank: **741** pytań, 741 `needs_review`, 0 `verified`; SHA `02fb3c3056749458ebcee9661ffa7895768b56e0`.
+- ADR-B-0741 do ADR-B-05-K04: unikanie wdychania pyłu i pozostawanie po stronie nawietrznej (ADR 2025, 5.4.3.4).
+- Moduł ADR-B-05: **79** pytań; kompetencja K04: 5→6.
+- Rozkład prawidłowych opcji: A=248, B=265, C=228.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/741 = 10.93%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **39** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x315-unikanie-pylu-strona-nawietrzna-2026-11-02.md`.
+
 
 **Stan aktualny po etapie 4x313: 02.11.2026.**
 
@@ -887,7 +888,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 89 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 78 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 79 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
@@ -896,7 +897,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **740** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **741** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
