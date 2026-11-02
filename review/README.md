@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x317
+
+Raport: `podstawowy/raporty/etap-4x317-maly-pozar-warunek-bezpieczenstwa-2026-11-02.md`.
+
+**Bieżący stan po etapie 4x317 (02.11.2026): bank 743 pytań, 743 `needs_review`, 0 `verified`; SHA `1834185447c88b46f712cba439b615f5a7e210a9`; kompetencje teorii <6: 37. Rejestr: `REJESTR-AKTUALNY-0001-0743.md`.**
+
 ## Bieżąca migawka — etap 4x316
 
 Raport: `podstawowy/raporty/etap-4x316-granica-gaszenia-pozarow-2026-11-02.md`.
