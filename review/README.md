@@ -1,3 +1,7 @@
+**Bieżąca migawka — etap 4x308:** bank 734 pytań, wszystkie `needs_review`, 0 `verified`; SHA `27ff86cdb1ea2d4df14008965f54d9d0b8b435ee`; kompetencje teorii <6: **46**. Raport: `podstawowy/raporty/etap-4x308-klasa9-wyposazenie-ochrona-kanalizacji-2026-11-02.md`.
+
+**Bieżący bank 4x308:** 734 pytań, 734 `needs_review`, 0 `verified`; SHA `27ff86cdb1ea2d4df14008965f54d9d0b8b435ee`. Rejestr `REJESTR-AKTUALNY-0001-0734.md`. Kompetencje teorii <6: **46**.
+
 **Bieżąca migawka — etap 4x307:** bank 733 pytań, wszystkie `needs_review`, 0 `verified`; SHA `0ca9332689073fc3750b9e0bd5d7a4a93e9a1d0b`; kompetencje teorii <6: **47**. Raport: `podstawowy/raporty/etap-4x307-czyszczenie-przewoz-luzem-ten-sam-towar-2026-11-02.md`.
 
 **Bieżący bank 4x307:** 733 pytań, 733 `needs_review`, 0 `verified`; SHA `0ca9332689073fc3750b9e0bd5d7a4a93e9a1d0b`. Rejestr `REJESTR-AKTUALNY-0001-0733.md`. Kompetencje teorii <6: **47**.
