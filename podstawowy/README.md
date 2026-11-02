@@ -1,3 +1,7 @@
+**Stan na 02.11.2026, etap 4x314**
+
+**Stan 4x314:** 740 `needs_review`, 0 `verified`; SHA `9a04009ad8e65d597c70d3e337f861c672f840f3`. Poprawna = jedyna najdłuższa: **81/740 = 10,95%**; maksimum działu **14,61%**. Kompetencje teorii <6: **40**.
+
 **Stan na 02.11.2026, etap 4x313**
 
 **Stan 4x313:** 739 `needs_review`, 0 `verified`; SHA `84e83d8ee582633e06b86dfce0e35e664ead2bda`. Poprawna = jedyna najdłuższa: **81/739 = 10,96%**; maksimum działu **14,61%**. Kompetencje teorii <6: **41**.
@@ -722,6 +726,8 @@
 - [Instrukcja kursanta do egzaminu próbnego](egzamin-probny/INSTRUKCJA-KURSANTA.md) — 30 pytań, 60 minut, liczenie wyniku i nauka na wyjaśnieniach.
 
 ## Raporty jakości
+
+- [Etap 4x314 — numery z tablicy pomarańczowej dla ratowników](raporty/etap-4x314-numery-tablicy-pomaranczowej-dla-ratownikow-2026-11-02.md)
 
 - [Etap 4x313 — bezpieczne zatrzymanie i wyłączenie silnika](raporty/etap-4x313-bezpieczne-zatrzymanie-wylaczenie-silnika-2026-11-02.md)
 

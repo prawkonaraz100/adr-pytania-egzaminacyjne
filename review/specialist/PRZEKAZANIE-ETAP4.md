@@ -1,3 +1,12 @@
+**Bieżący bank 4x314:** 740 pytań, 740 `needs_review`, 0 `verified`; SHA `9a04009ad8e65d597c70d3e337f861c672f840f3`. Rejestr `REJESTR-AKTUALNY-0001-0740.md`. Kompetencje teorii <6: **40**.
+
+## Bieżąca migawka — etap 4x314
+
+- ADR-B-0740 do ADR-B-05-K03; odczyt numeru rozpoznawczego zagrożenia i numeru UN z tablicy pomarańczowej oraz przekazanie ich ratownikom.
+- Podstawa: ADR 2025, 5.3.2.2.2 i 5.4.3.4.
+- Bank 740, zero `verified`; licznik kompetencji teorii <6: **40**.
+- Raport: `podstawowy/raporty/etap-4x314-numery-tablicy-pomaranczowej-dla-ratownikow-2026-11-02.md`.
+
 **Bieżący bank 4x313:** 739 pytań, 739 `needs_review`, 0 `verified`; SHA `84e83d8ee582633e06b86dfce0e35e664ead2bda`. Rejestr `REJESTR-AKTUALNY-0001-0739.md`. Kompetencje teorii <6: **41**.
 
 ## Bieżąca migawka — etap 4x313
