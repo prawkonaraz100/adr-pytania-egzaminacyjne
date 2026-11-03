@@ -6,7 +6,7 @@
 - ADR-B-0767: przed połączeniem różnych konstrukcji opakowań w jeden stos trzeba ocenić ich wzajemną zgodność piętrzenia (ADR 2025, 7.5.7.2).
 - Moduł ADR-B-09: **60** pytań; kompetencja K05: 5→6.
 - Rozkład prawidłowych opcji: A=257, B=281, C=229.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/767 = 10,82%**.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/767 = 10,82%**; maksimum działu to 14,61%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **13** (3 praktyczne pominięte).
 - Explanation: 415 znaków; wszystkie pytania `needs_review`.
 - Raport: `podstawowy/raporty/etap-4x341-pietrzenie-rozne-konstrukcje-zgodnosc-2026-11-03.md`.
