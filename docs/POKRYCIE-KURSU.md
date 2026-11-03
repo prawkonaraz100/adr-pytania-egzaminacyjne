@@ -4,7 +4,7 @@
 
 - Bank: **776** pytań, 776 `needs_review`, 0 `verified`; SHA `dfafbcae0d594e25553ddc30190156aae1b9dd76`.
 - ADR-B-0776 do ADR-B-12-K04: przed wydaniem towarów ADR trzeba odpowiednio zidentyfikować przewoźnika, który faktycznie przyjmuje ładunek (ADR 1.10.1.2).
-- Moduł ADR-B-12: **48** pytań; kompetencja K02: 5→6.
+- Moduł ADR-B-12: **48** pytań; kompetencja K04: 5→6.
 - Rozkład prawidłowych opcji: A=258, B=287, C=231.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/776 = 10,82%**; maksimum działu to 15,22%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **4** (3 praktyczne pominięte).
