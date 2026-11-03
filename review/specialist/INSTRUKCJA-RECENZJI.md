@@ -1,3 +1,7 @@
+## Bieżąca migawka — etap 4x334
+
+Bank: 760 pytań, 760 `needs_review`, 0 `verified`; SHA `46cbbc7ab6e1fa7f513060fa22ca61db78f9dba7`. Kompetencje teorii z mniej niż 6 pytaniami: 20. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0760.md`. Raport: `podstawowy/raporty/etap-4x334-gasnica-dla-kazdej-jednostki-transportowej-2026-11-03.md`.
+
 **Bieżąca migawka — etap 4x332 (03.11.2026).** Bank: 758 pytań, 758 `needs_review`, 0 `verified`; SHA `2b708a1f1c72732bb6b50a067d94fcbac1032a06`. Kompetencje teorii <6: **22**. Rejestr: `REJESTR-AKTUALNY-0001-0758.md`. Raport: `podstawowy/raporty/etap-4x332-odpowiedzialnosc-deliktowa-osoba-trzecia-2026-11-03.md`.
 
 **Bieżąca migawka — etap 4x331 (03.11.2026).** Bank: 757 pytań, 757 `needs_review`, 0 `verified`; SHA `6fa58d5fc5cdf2063883ff77747d5624cb6406e8`. Kompetencje teorii <6: **23**. Rejestr: `REJESTR-AKTUALNY-0001-0757.md`. Raport: `podstawowy/raporty/etap-4x331-odbiorca-kontrola-po-rozladunku-2026-11-03.md`.
