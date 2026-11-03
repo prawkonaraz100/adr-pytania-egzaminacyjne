@@ -1,5 +1,9 @@
 **Stan aktualny po etapie 4x340: 03.11.2026.**
 
+## Bieżąca migawka — etap 4x342
+
+Bank: 768 pytań, 768 `needs_review`, 0 `verified`; SHA `6bed8107be2b93ad39b5772b3e3887fabf661033`. Kompetencje teorii <6: 12. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0765.md`; raport: `podstawowy/raporty/etap-4x342-napiecie-pasow-ruch-a-deformacja-2026-11-03.md`.
+
 ## Bieżąca migawka — etap 4x341
 
 Bank: 767 pytań, 767 `needs_review`, 0 `verified`; SHA `701e9768435d9ca39f34690386dfa10482f86da8`. Kompetencje teorii <6: 13. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0765.md`; raport: `podstawowy/raporty/etap-4x341-pietrzenie-rozne-konstrukcje-zgodnosc-2026-11-03.md`.

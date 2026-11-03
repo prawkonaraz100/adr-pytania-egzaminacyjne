@@ -1,0 +1,46 @@
+{
+  "batch": "768-768",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0768",
+      "sequence": 768,
+      "exact_record_snapshot": {
+        "stem": "Po zapięciu pasów kartony ADR mają niewielki sprężysty luz, ale nie przesuwają się tak, by zmienić ustawienie lub ulec uszkodzeniu. Czy kierowca powinien dociągnąć pasy do maksymalnego napięcia?",
+        "options": {
+          "A": "Tak, należy usunąć każdy minimalny luz, nawet jeśli opakowania nie zmieniają położenia i nie są narażone na uszkodzenie.",
+          "B": "Nie; mocowanie ma zapobiegać ruchom zmieniającym ustawienie lub powodującym uszkodzenie opakowań.",
+          "C": "Tak, bo ładunek musi być całkowicie nieruchomy, a mocniejsze pasy zawsze zwiększają bezpieczeństwo."
+        },
+        "correct_option": "B",
+        "explanation": "Nie dąż do maksymalnego napięcia pasów. Ich zadaniem jest powstrzymać takie przesunięcie, które zmieniłoby ustawienie sztuk przesyłek albo mogłoby je uszkodzić; niewielki sprężysty luz, który nie powoduje tych skutków, nie uzasadnia zgniatania opakowań. Zbyt mocno napięte pasy mogą zdeformować kartony lub inne opakowania. Podstawa: ADR 2025, 7.5.7.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.1 — zabezpieczenie ma zapobiegać ruchom zmieniającym ustawienie lub uszkadzającym sztuki przesyłek; pasy nie mogą być nadmiernie napięte i powodować uszkodzeń lub deformacji",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 7.5.7.1 requires securing packages so movement during carriage does not change package orientation or cause damage; straps/banding must not be over-tightened so as to damage or deform packages. Small elastic play that does not change orientation or cause damage does not justify maximal tension. Full official Polish text comparison and independent specialist review remain pending.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
