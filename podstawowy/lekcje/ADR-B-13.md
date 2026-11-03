@@ -276,3 +276,8 @@ Przy przewozie drogowym będącym częścią łańcucha morsko-drogowego kierowc
 ### Wyjątek „Delivery Sale” — wielu odbiorców
 
 Zwykle dokument przewozowy podaje nazwę i adres odbiorcy. Jeżeli towar ma trafić do kilku odbiorców, których nie można zidentyfikować na początku przewozu, ADR pozwala wyjątkowo użyć zwrotu „Delivery Sale”, ale tylko za zgodą właściwych władz państw, których dotyczy przewóz. Nie wystarczy, że odbiorcy zostaną ustaleni później; bez wymaganej zgody nie pomijaj danych odbiorcy. Pytanie kontrolne: ADR-B-0777. Podstawa: ADR 5.4.1.1.1(h).
+
+
+### Dokumenty tożsamości w kabinie kierowcy
+
+Przed wyjazdem sprawdź, czy dokumenty ze zdjęciem wszystkich członków załogi są w kabinie kierowcy. Nie wystarczy, że dokument drugiej osoby leży w schowku poza kabiną albo że w kabinie jest tylko dowód kierowcy. Wymóg dotyczy każdego członka załogi i miejsca przewożenia dokumentów. Pytanie kontrolne: ADR-B-0778. Podstawa: ADR 8.1.2.1(d) i 1.10.1.4.
