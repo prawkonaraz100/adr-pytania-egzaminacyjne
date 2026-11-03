@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x325
+
+Raport: `podstawowy/raporty/etap-4x325-nalepka-zaslonieta-przez-wyposazenie-2026-11-03.md`.
+
+Bank 751 pytań; 751 `needs_review`, 0 `verified`; SHA `fed909b6dec8fbaece0f391f4f2b78df55cb68f5`; kompetencje teorii <6: **29**. Rejestr `REJESTR-AKTUALNY-0001-0751.md`.
+
 ## Bieżąca migawka — etap 4x324
 
 Raport: `podstawowy/raporty/etap-4x324-numer-un-wysokosc-oznaczenia-2026-11-03.md`.
