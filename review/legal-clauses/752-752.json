@@ -1,0 +1,60 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0752",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 5.3.2.3.1",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0752",
+      "order": 752,
+      "clause": "ADR 2025, 5.3.2.3.1",
+      "question_snapshot": {
+        "id": "ADR-B-0752",
+        "module_id": "ADR-B-06",
+        "stem": "Po awarii niewielka ilość materiału wyciekła na podłogę skrzyni. Na tablicy pomarańczowej numer rozpoznawczy poprzedza litera X. Pracownik proponuje spłukać pozostałość wodą. Co kierowca powinien przekazać i zrobić?",
+        "options": {
+          "A": "Wstrzymać spłukiwanie i przekazać, że X oznacza niebezpieczną reakcję z wodą; jej użycie wymaga zgody specjalistów.",
+          "B": "Można spłukać mały ślad, bo ostrzeżenie X dotyczy tylko gaszenia pożaru i nie obejmuje zwykłego mycia powierzchni.",
+          "C": "Wystarczy rozcieńczyć pozostałość wodą z detergentem, jeżeli pracownik ma rękawice; zgoda specjalistów nie jest wtedy potrzebna."
+        },
+        "correct_option": "A",
+        "explanation": "Litera X przed numerem rozpoznawczym ostrzega, że materiał może niebezpiecznie reagować z wodą. Dlatego nie wolno samodzielnie spłukiwać nawet niewielkiej pozostałości ani zakładać, że mycie jest bezpieczniejsze niż gaszenie. Woda może być użyta tylko za zgodą specjalistów; pozostałe odpowiedzi błędnie ograniczają ostrzeżenie do pożaru albo pomijają wymaganą zgodę. Podstawa: ADR 2025, 5.3.2.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1 — numer rozpoznawczy zagrożenia poprzedzony literą X oznacza niebezpieczną reakcję materiału z wodą; woda może być stosowana jedynie za zgodą specjalistów",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-MI",
+            "reference": "ADR 2025, tom II, s. 251, 5.3.2.3.1 — oznaczenie X i ograniczenie stosowania wody do zgody specjalistów",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Litera X oznacza niebezpieczną reakcję z wodą; użycie wody wymaga zgody specjalistów."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Ostrzeżenie X nie ogranicza się do gaszenia pożaru; dotyczy niebezpiecznej reakcji materiału z wodą."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Rękawice i detergent nie znoszą ograniczenia; zgoda specjalistów jest wymagana przy użyciu wody."
+        }
+      },
+      "notes_on_conditions": "Pytanie sprawdza zastosowanie ostrzeżenia X do spłukiwania pozostałości po wycieku, a nie tylko do gaszenia pożaru. Nie daje kierowcy uprawnień do samodzielnego prowadzenia działań ratowniczych.",
+      "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
