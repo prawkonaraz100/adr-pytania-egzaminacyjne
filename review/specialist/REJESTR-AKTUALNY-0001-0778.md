@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0779
+# Aktualny rejestr specjalisty — ADR-B-0001–0780
 
-Etap 4x353 (03.11.2026). Bank: 779 pytań, 779 `needs_review`, 0 `verified`. SHA `6c816f78f6e83644ed8667311de9c1fb4d95bebc`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **1** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x354 (03.11.2026). Bank: 780 pytań, 780 `needs_review`, 0 `verified`. SHA `db5b90f4305fd75c1bb2f73a8b5c8b7a6bb42d63`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **0** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -800,4 +800,4 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **1** (3 praktyczne pominięte
 
 
 | ADR-B-0779 | ADR-B-13 | ADR-B-13-K06 | Przewóz ADR w łańcuchu morsko-drogowym jest dokumentowany w systemie EDI. Elektroniczny dokument zawiera dane towaru i odbiorcy, ale nie ma wpisu „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Nadawca twierdzi, że wpis dotyczy tylko dokumentów papierowych. Co powinien zrobić przewoźnik? | B | ADR 2025, 5.4.1.1.7; 5.4.0.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
-
+| ADR-B-0780 | ADR-B-13 | ADR-B-13-K07 | Podczas awarii ciągnika siodłowego przewoźnik podstawia pojazd zastępczy do dalszego przewozu tego samego ładunku ADR. Instrukcje pisemne zostały w kabinie uszkodzonego ciągnika. Co trzeba zrobić przed ruszeniem pojazdu zastępczego? | B | ADR 2025, 8.1.2.3 — instrukcje pisemne należy przewozić w kabinie załogi i przechowywać w miejscu łatwo dostępnym; 5.4.3.1 — instrukcje pisemne dla załogi | — | NIEROZSTRZYGNIĘTE | needs_review |

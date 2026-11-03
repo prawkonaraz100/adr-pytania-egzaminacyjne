@@ -1,15 +1,15 @@
-**Stan aktualny po etapie 4x353: 03.11.2026.**
+**Stan aktualny po etapie 4x354: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x353
+## Bieżąca migawka — etap 4x354
 
-- Bank: **779** pytań, 779 `needs_review`, 0 `verified`; SHA `6c816f78f6e83644ed8667311de9c1fb4d95bebc`.
-- ADR-B-0779 do ADR-B-13-K06: elektroniczny dokument EDI również musi zawierać wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1” (ADR 5.4.1.1.7; 5.4.0.2).
-- Moduł ADR-B-13: **53** pytań; kompetencja K06: 5→6.
-- Rozkład prawidłowych opcji: A=258, B=290, C=231.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/779 = 10,78%**; maksimum działu to 15,22%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **1** (3 praktyczne pominięte).
-- Explanation: 387 znaków; wszystkie pytania `needs_review`.
-- Raport: `podstawowy/raporty/etap-4x353-wpis-edi-w-transporcie-kombinowanym-adr-5-4-1-1-7-2026-11-03.md`.
+- Bank: **780** pytań, 780 `needs_review`, 0 `verified`; SHA `db5b90f4305fd75c1bb2f73a8b5c8b7a6bb42d63`.
+- ADR-B-0780 do ADR-B-13-K07: po zmianie ciągnika instrukcje pisemne muszą być łatwo dostępne w kabinie pojazdu zastępczego (ADR 5.4.3.1, 8.1.2.3).
+- Moduł ADR-B-13: **54** pytania; kompetencja K07: 5→6.
+- Rozkład prawidłowych opcji: A=258, B=291, C=231.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/780 = 10,77%**; maksimum działu to 15,22%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **0** (3 praktyczne pominięte).
+- Explanation: 378 znaków; wszystkie pytania `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x354-instrukcje-pisemne-po-zmianie-pojazdu-adr-8-1-2-3-2026-11-03.md`.
 
 **Stan aktualny po etapie 4x339: 03.11.2026.**
 
@@ -1161,8 +1161,8 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 57 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| ADR-B-13 | Dokumentacja | 8/8 | 0 | 53 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **779** | **0** | **13 szkiców z mapą pytań** |
+| ADR-B-13 | Dokumentacja | 8/8 | 0 | 54 | 0 | Lekcja + mapa pytań |
+| **Razem** | | **104/104** | **3** | **780** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

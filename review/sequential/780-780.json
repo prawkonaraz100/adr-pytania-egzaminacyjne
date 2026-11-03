@@ -1,0 +1,46 @@
+{
+  "batch": "ADR-B-0780",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0780",
+      "sequence": 780,
+      "exact_record_snapshot": {
+        "stem": "Podczas awarii ciągnika siodłowego przewoźnik podstawia pojazd zastępczy do dalszego przewozu tego samego ładunku ADR. Instrukcje pisemne zostały w kabinie uszkodzonego ciągnika. Co trzeba zrobić przed ruszeniem pojazdu zastępczego?",
+        "options": {
+          "A": "Wystarczy telefonicznie przekazać kierowcy treść instrukcji; papierowy lub elektroniczny dokument nie musi znajdować się w nowej kabinie.",
+          "B": "Przenieść instrukcje do kabiny pojazdu zastępczego i umieścić je w łatwo dostępnym miejscu dla załogi.",
+          "C": "Pozostawić instrukcje w uszkodzonym ciągniku, ponieważ obowiązek ich przewożenia dotyczy tylko pierwszego pojazdu, który rozpoczął trasę."
+        },
+        "correct_option": "B",
+        "explanation": "Zanim pojazd zastępczy ruszy z tym samym ładunkiem ADR, załoga musi mieć instrukcje pisemne w jego kabinie. Dokument pozostawiony w uszkodzonym ciągniku nie pomoże kierowcy ani pozostałym członkom załogi podczas zdarzenia na dalszej trasie. Samo telefoniczne omówienie procedur nie zastępuje instrukcji, do których załoga może szybko zajrzeć. Podstawa: ADR 8.1.2.3 oraz 5.4.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.3 — instrukcje pisemne należy przewozić w kabinie załogi i przechowywać w miejscu łatwo dostępnym; 5.4.3.1 — instrukcje pisemne dla załogi",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.1.2.3 requires written instructions to be kept in the vehicle crew cab in an easily accessible place. The scenario applies that requirement after a tractor unit breaks down and a replacement vehicle continues the same ADR carriage: instructions left in the old cab are not available to the crew in the replacement vehicle. The official Polish text has not been fully compared and specialist legal review remains open.",
+      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
