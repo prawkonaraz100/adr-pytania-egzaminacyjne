@@ -1,4 +1,14 @@
-**Stan aktualny po etapie 4x331: 03.11.2026.**
+**Stan aktualny po etapie 4x332: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x332
+
+- Bank: **758** pytań, 758 `needs_review`, 0 `verified`; SHA `adf96781176aad252707c2bfe4dcab5588c3b4ef`.
+- ADR-B-0758 do ADR-B-07-K07: rozróżnienie odpowiedzialności za czyn niedozwolony i za niewykonanie zobowiązania (ADR 2025, 8.2.2.3.2(k); KC, art. 415 i 471).
+- Moduł ADR-B-07: **54** pytania; kompetencja K07: 5→6.
+- Rozkład prawidłowych opcji: A=256, B=273, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/758 = 10,69%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **22** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x332-odpowiedzialnosc-deliktowa-osoba-trzecia-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x331
 
@@ -1041,14 +1051,14 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 87 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 66 | 0 | Lekcja + mapa pytań |
-| ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 53 | 0 | Lekcja + mapa pytań |
+| ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **757** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **758** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
