@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0751",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 5.2.2.1.6(b)–(c)",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0751",
+      "order": 751,
+      "clause": "ADR 2025, 5.2.2.1.6(b)–(c)",
+      "question_snapshot": {
+        "id": "ADR-B-0751",
+        "module_id": "ADR-B-06",
+        "stem": "Na opakowaniu są dwie wymagane nalepki ostrzegawcze. Pas mocujący przebiega przez jedną z nich i zasłania część symbolu. Co należy zrobić przed przewozem?",
+        "options": {
+          "A": "Można pozostawić pas w tym miejscu, jeśli większość nalepki pozostaje widoczna, a jej wzór da się rozpoznać.",
+          "B": "Zmienić położenie pasa lub nalepki, aby wyposażenie nie zasłaniało żadnej nalepki; wymagane nalepki umieścić blisko siebie.",
+          "C": "Pozostawić widoczną nalepkę główną, a informację o zasłoniętej nalepce dodatkowej przekazać wyłącznie w dokumencie przewozowym."
+        },
+        "correct_option": "B",
+        "explanation": "Nalepka ma być widoczna w całości, a nie tylko na tyle, by dało się odgadnąć jej wzór. Pas, uchwyt ani inna część wyposażenia opakowania nie mogą jej zasłaniać. Jeśli wymagane są dwie nalepki, umieść je blisko siebie, ale tak, by żadna nie zakrywała drugiej. Wpis w dokumencie nie zastępuje prawidłowego oznakowania. Podstawa: ADR 2025, 5.2.2.1.6(b)–(c).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.1.6(b)–(c) — nalepki nie mogą być zasłonięte przez wyposażenie, inną nalepkę lub znak; wymagane nalepki powinny być umieszczone blisko siebie",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "ADR nie dopuszcza zasłonięcia części nalepki; nie wystarcza, że większość symbolu pozostaje czytelna."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wyposażenie nie może zasłaniać nalepki, a wymagane nalepki należy umieścić blisko siebie."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Dokument przewozowy nie zastępuje wymaganej nalepki na sztuce przesyłki."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy zasłonięcia nalepki przez pas mocujący, czyli część wyposażenia opakowania, oraz rozmieszczenia więcej niż jednej wymaganej nalepki.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
