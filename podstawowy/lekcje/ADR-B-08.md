@@ -315,3 +315,8 @@ Jeżeli przewóz korzysta z wyłączenia 1.1.3.6, nie oznacza to braku obowiązk
 ### Oznaczenie terminu kontroli gaśnicy (ADR-B-0759)
 
 Na gaśnicy powinna znajdować się plomba potwierdzająca, że nie była używana, oraz wymagane oznaczenie terminu: data (miesiąc i rok) następnej kontroli albo, odpowiednio, maksymalny dopuszczalny okres użytkowania. Brak osobnej daty następnej kontroli nie oznacza automatycznie niezgodności, jeśli zastosowano dopuszczone oznaczenie maksymalnego okresu użytkowania. Niezależnie od sposobu oznaczenia gaśnice podlegają okresowym kontrolom, a właściwego terminu nie wolno przekroczyć podczas przewozu. Podstawa: ADR 2025, 8.1.4.4–8.1.4.5.
+
+
+### Gaśnica dla każdej jednostki transportowej (ADR-B-0760)
+
+Jeżeli dwa osobne samochody jadą razem w konwoju, każdy z nich pozostaje odrębną jednostką transportową. Gdy przewóz korzysta z wyłączenia 1.1.3.6, wymóg co najmniej jednej gaśnicy o pojemności odpowiadającej 2 kg proszku dotyczy każdej jednostki, a nie całego konwoju łącznie. Inaczej jest z ciągnikiem i dołączoną naczepą, które tworzą jedną jednostkę transportową. Podstawa: ADR 2025, 1.2.1 i 8.1.4.2.

@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x334: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x334
+
+- Bank: **760** pytań, 760 `needs_review`, 0 `verified`; SHA `46cbbc7ab6e1fa7f513060fa22ca61db78f9dba7`.
+- ADR-B-0760 do ADR-B-08-K02: każda odrębna jednostka transportowa korzystająca z 1.1.3.6 musi mieć własną gaśnicę (ADR 2025, 1.2.1; 8.1.4.2).
+- Moduł ADR-B-08: **50** pytań; kompetencja K02: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=274, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **82/760 = 10,79%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **20** (3 praktyczne pominięte).
+- Explanation: 375 znaków / 4 zdania; wszystkie odpowiedzi `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x334-gasnica-dla-kazdej-jednostki-transportowej-2026-11-03.md`.
+
 **Stan aktualny po etapie 4x333: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x333
@@ -1065,13 +1078,13 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 87 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 66 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
-| ADR-B-08 | Wyposażenie | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
+| ADR-B-08 | Wyposażenie | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **759** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **760** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

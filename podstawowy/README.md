@@ -1,6 +1,6 @@
-**Stan na 03.11.2026, etap 4x333**
+**Stan na 03.11.2026, etap 4x334**
 
-**Stan 4x333:** 759 `needs_review`, 0 `verified`; SHA `3d6a943093405340d3e4b029e9b835b6318b624b`. Poprawna = jedyna najdłuższa: **82/759 = 10,80%**; maksimum działu **14,61%**. Kompetencje teorii <6: **21**.
+**Stan 4x334:** 760 `needs_review`, 0 `verified`; SHA `46cbbc7ab6e1fa7f513060fa22ca61db78f9dba7`. Poprawna = jedyna najdłuższa: **82/760 = 10,79%**; maksimum działu **14,61%**. Kompetencje teorii <6: **20**.
 
 **Stan 4x332:** 758 `needs_review`, 0 `verified`; SHA `2b708a1f1c72732bb6b50a067d94fcbac1032a06`. Poprawna = jedyna najdłuższa: **81/758 = 10,69%**; maksimum działu **14,61%**. Kompetencje teorii <6: **22**.
 
@@ -67,6 +67,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x334 — gaśnica dla każdej jednostki transportowej](raporty/etap-4x334-gasnica-dla-kazdej-jednostki-transportowej-2026-11-03.md)
 
 - [Etap 4x333 — gaśnica: oznaczenie kontroli lub okresu użytkowania](raporty/etap-4x333-gasnica-oznaczenie-kontroli-lub-okresu-uzytkowania-2026-11-03.md)
 

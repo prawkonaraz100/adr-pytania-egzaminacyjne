@@ -1,0 +1,46 @@
+{
+  "batch": "760-760",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0760",
+      "sequence": 760,
+      "exact_record_snapshot": {
+        "stem": "Dwa osobne samochody ciężarowe jadą razem w konwoju. Każdy przewozi towary ADR w ilościach objętych 1.1.3.6. W pierwszym samochodzie jest gaśnica 2 kg. Czy wystarczy ona dla obu pojazdów?",
+        "options": {
+          "A": "Nie. Każdy z dwóch samochodów jest osobną jednostką transportową, więc każdy musi mieć własną gaśnicę 2 kg.",
+          "B": "Tak. Jedna gaśnica 2 kg wystarczy dla całego konwoju, jeżeli oba samochody jadą razem i mogą z niej skorzystać.",
+          "C": "Tak. Wyłączenie 1.1.3.6 obejmuje także obowiązek gaśnicy, więc drugi samochód nie musi mieć własnego sprzętu."
+        },
+        "correct_option": "A",
+        "explanation": "Każdy z dwóch samochodów jest osobną jednostką transportową, dlatego musi mieć własną wymaganą gaśnicę, nawet gdy przewóz korzysta z 1.1.3.6. Gaśnica z pierwszego pojazdu nie jest wyposażeniem drugiego, a wspólna trasa nie łączy ich w jedną jednostkę. Nie myl tego z ciągnikiem i dołączoną naczepą, które tworzą jeden zestaw transportowy. Podstawa: ADR 2025, 1.2.1 i 8.1.4.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.2.1; 8.1.4.2 — definicja jednostki transportowej i wymóg gaśnicy dla każdej jednostki korzystającej z 1.1.3.6",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 1.2.1 defines a transport unit as a motor vehicle without a trailer or a combination of a motor vehicle and trailer; ADR 8.1.4.2 requires each transport unit benefiting from 1.1.3.6 to carry at least one portable extinguisher with minimum 2 kg powder capacity or equivalent.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
