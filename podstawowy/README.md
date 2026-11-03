@@ -1,3 +1,9 @@
+**Stan na 03.11.2026, etap 4x328**
+
+**Stan 4x328:** 754 `needs_review`, 0 `verified`; SHA `a8e7354f8f27c9f69d0e2b61742f2ac9dea9244a`. Poprawna = jedyna najdłuższa: **81/754 = 10,74%**; maksimum działu **14,61%**. Kompetencje teorii <6: **26**.
+
+- [Etap 4x328 — szczególne znaczenie numeru zagrożenia 22](raporty/etap-4x328-szczegolne-znaczenie-numeru-22-2026-11-03.md)
+
 **Stan na 03.11.2026, etap 4x327**
 
 **Stan 4x327:** 753 `needs_review`, 0 `verified`; SHA `92d2325d63fc4099535b1ea89c6aac7503743678`. Poprawna = jedyna najdłuższa: **81/753 = 10,76%**; maksimum działu **14,61%**. Kompetencje teorii <6: **27**.
