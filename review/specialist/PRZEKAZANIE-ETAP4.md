@@ -3,13 +3,13 @@
 ## Bieżąca migawka — etap 4x340
 
 - Bank: **766** pytań, 766 `needs_review`, 0 `verified`; SHA `c239993abadeca16db4e1df9a1706f9d47276517`.
-- ADR-B-0766: przy wyborze przegrody jako metody oddzielenia przesyłek objętych CV28 od żywności przegroda musi być co najmniej tak wysoka jak te przesyłki (ADR 2025, 7.5.4; CV28).
-- Moduł ADR-B-09: **58** pytań; kompetencja K03: 5→6.
-- Rozkład prawidłowych opcji: A=257, B=279, C=229.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/766 = 10,85%**; maksimum działu to 14,61%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **15** (3 praktyczne pominięte).
-- Explanation: 398 znaków / 4 zdania; wszystkie odpowiedzi `needs_review`.
-- Raport: `../podstawowy/raporty/etap-4x340-wysokosc-przegrody-cv28-7-5-4-2026-11-03.md`.
+- ADR-B-0766 dodano do ADR-B-09-K04: opakowania kombinowane z opakowaniami wewnętrznymi zawierającymi 750 ml cieczy wymagają strzałek na dwóch przeciwległych pionowych bokach, skierowanych dokładnie ku górze (ADR 2025, 5.2.1.10.1–5.2.1.10.3).
+- Moduł ADR-B-09: **59** pytań; kompetencja K04: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=280, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/766 = 10,84%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **14** (3 praktyczne pominięte).
+- Explanation: 437 znaków / 4 zdania; wszystkie pytania `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x340-strzalki-kierunkowe-dwa-przeciwlegle-boki-2026-11-03.md`.
 
 **Stan aktualny po etapie 4x338: 03.11.2026.**
 
