@@ -800,3 +800,5 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **1** (3 praktyczne pominięte
 
 
 | ADR-B-0779 | ADR-B-13 | ADR-B-13-K06 | Przewóz ADR w łańcuchu morsko-drogowym jest dokumentowany w systemie EDI. Elektroniczny dokument zawiera dane towaru i odbiorcy, ale nie ma wpisu „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Nadawca twierdzi, że wpis dotyczy tylko dokumentów papierowych. Co powinien zrobić przewoźnik? | B | ADR 2025, 5.4.1.1.7; 5.4.0.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0779 | ADR-B-13 | ADR-B-13-K06 | Przewóz ADR w łańcuchu morsko-drogowym jest dokumentowany w systemie EDI. Elektroniczny dokument zawiera dane towaru i odbiorcy, ale nie ma wpisu „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Nadawca twierdzi, że wpis dotyczy tylko dokumentów papierowych. Co powinien zrobić przewoźnik? | B | ADR 2025, 5.4.1.1.7; 5.4.0.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
