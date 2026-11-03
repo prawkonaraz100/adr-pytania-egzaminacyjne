@@ -1,4 +1,14 @@
-**Stan aktualny po etapie 4x326: 03.11.2026.**
+**Stan aktualny po etapie 4x327: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x327
+
+- Bank: **753** pytań, 753 `needs_review`, 0 `verified`; SHA `92d2325d63fc4099535b1ea89c6aac7503743678`.
+- ADR-B-0753 do ADR-B-06-K05: tolerancja ±10% wymiarów tablicy pomarańczowej (ADR 2025, 5.3.2.2.1 i 5.3.2.2.4).
+- Moduł ADR-B-06: **63** pytania; kompetencja K05: 5→6.
+- Rozkład prawidłowych opcji: A=253, B=271, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/753 = 10,76%**; maksimum działu to **14,61%**.
+- Kompetencje teorii z mniej niż 6 pytaniami: **27** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x327-tablice-pomaranczowe-tolerancja-wymiarow-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x326
 
