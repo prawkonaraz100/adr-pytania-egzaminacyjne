@@ -92,6 +92,10 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
             )
             for row in entries
         )
+        gazette_pdf_ocr = sum(
+            row["official_polish_pdf_exact_section_access"] == "official_polish_gazette_pdf_ocr_comparison_recorded"
+            for row in entries
+        )
         counts = self.manifest["literal_comparison_status_counts"]
         self.assertEqual(self.manifest["unresolved_literal_comparisons"], not_retrieved)
         self.assertEqual(counts["official_polish_text_not_retrieved"], not_retrieved)
@@ -101,9 +105,10 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
             counts["compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending"],
             ministry_compared,
         )
+        self.assertEqual(counts["gazette_pdf_ocr_comparison_recorded"], gazette_pdf_ocr)
         self.assertEqual(counts["specialist_reviews_pending"], len(self.bank))
         self.assertEqual(counts["verified"], 0)
-        self.assertEqual(sum((not_retrieved, targeted_pending, ministry_compared)), len(self.bank))
+        self.assertEqual(sum((not_retrieved, targeted_pending, ministry_compared, gazette_pdf_ocr)), len(self.bank))
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in entries))
         self.assertTrue(all(row["abc_independent_specialist_review"] == "pending" for row in entries))
         self.assertTrue(all(row["release_approved"] is False for row in entries))
