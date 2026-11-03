@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0766",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 5.2.1.10.1–5.2.1.10.3",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0766",
+      "order": 766,
+      "clause": "ADR 2025, 5.2.1.10.1–5.2.1.10.3",
+      "question_snapshot": {
+        "id": "ADR-B-0766",
+        "module_id": "ADR-B-09",
+        "stem": "Przewozisz opakowania kombinowane, w których opakowania wewnętrzne zawierają po 750 ml cieczy niebezpiecznej. Jak powinny być oznakowane strzałkami kierunkowymi?",
+        "options": {
+          "A": "Na jednym pionowym boku opakowania, ze strzałkami skierowanymi ku górze; drugi bok nie wymaga znaku.",
+          "B": "Na dwóch przeciwległych pionowych bokach opakowania, ze strzałkami skierowanymi dokładnie ku górze.",
+          "C": "Na dwóch sąsiednich bokach opakowania, ze strzałkami skierowanymi w stronę najbliższej krawędzi."
+        },
+        "correct_option": "B",
+        "explanation": "Jeśli w opakowaniu kombinowanym znajdują się opakowania wewnętrzne z cieczą, musisz zwrócić uwagę na oznaczenie kierunku ustawienia. Strzałki mają być widoczne na dwóch przeciwległych pionowych bokach i wskazywać dokładnie górę, żeby podczas przewozu opakowanie nie zostało ustawione niewłaściwie. Nie wystarczy znak tylko z jednej strony ani na bokach sąsiadujących; ramka wokół strzałek jest opcjonalna. Podstawa: ADR 2025, 5.2.1.10.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.1.10.1 — strzałki kierunkowe na dwóch przeciwległych pionowych bokach, wskazujące dokładnie ku górze; wyjątki określa 5.2.1.10.2",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Przepis wymaga oznakowania na dwóch przeciwległych pionowych bokach, a nie tylko na jednym."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Dwa przeciwległe pionowe boki i strzałki dokładnie ku górze odpowiadają wymaganiu ADR."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Boki sąsiednie nie są przeciwległe, a strzałki muszą wskazywać kierunek ku górze."
+        }
+      },
+      "notes_on_conditions": "Opakowania kombinowane z opakowaniami wewnętrznymi zawierającymi 750 ml cieczy nie mieszczą się w wyjątku 120 ml z 5.2.1.10.2(b). Ramka znaku jest opcjonalna.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

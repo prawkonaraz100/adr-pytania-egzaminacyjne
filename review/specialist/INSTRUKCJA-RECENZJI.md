@@ -1,3 +1,7 @@
+## Bieżąca migawka — etap 4x340
+
+Bank: 766 pytań, 766 `needs_review`, 0 `verified`; SHA `c239993abadeca16db4e1df9a1706f9d47276517`. Kompetencje teorii z mniej niż 6 pytaniami: 14. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0766.md`. Raport: `podstawowy/raporty/etap-4x340-strzalki-kierunkowe-dwa-przeciwlegle-boki-2026-11-03.md`.
+
 ## Bieżąca migawka — etap 4x339
 
 Bank: 765 pytań, 765 `needs_review`, 0 `verified`; SHA `d6cd7215399b36e8783209c9e34a35ff86ac35ad`. Kompetencje teorii z mniej niż 6 pytaniami: 15. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0765.md`. Raport: `podstawowy/raporty/etap-4x339-wysokosc-przegrody-cv28-7-5-4-2026-11-03.md`.
