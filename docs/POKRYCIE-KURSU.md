@@ -1,6 +1,18 @@
-**Stan aktualny po etapie 4x322: 03.11.2026.**
+**Stan aktualny po etapie 4x323: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x322
+## Bieżąca migawka — etap 4x323
+
+- Bank: **749** pytań, 749 `needs_review`, 0 `verified`; SHA `a35f9ad50c4c76d404877cc1fa8eb515a7f1d749`.
+- ADR-B-0749 do ADR-B-05-K12: gaśnica musi być jednocześnie łatwo dostępna dla załogi i chroniona przed warunkami atmosferycznymi (ADR 2025, 8.1.4.5).
+- Moduł ADR-B-05: **87** pytań; kompetencja K12: 5→6.
+- Rozkład prawidłowych opcji: A=252, B=269, C=228.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/749 = 10,81%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **31** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x323-gasnica-ochrona-przed-pogoda-2026-11-03.md`.
+
+## Poprzednia migawka — etap 4x322
+
+
 
 - Bank: **748** pytań, 748 `needs_review`, 0 `verified`; SHA `29d91dfb906ddb9c1cc075ab0803b0e2311f8fd5`.
 - ADR-B-0748 do ADR-B-05-K11: pierwsza pomoc przy osobie nieprzytomnej, oddychającej prawidłowo, bez podejrzenia urazu (ADR 2025, 8.2.2.3.2(e); szczegółowa procedura ERC 2025).
@@ -959,7 +971,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 89 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 86 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 87 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
@@ -968,7 +980,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **748** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **749** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

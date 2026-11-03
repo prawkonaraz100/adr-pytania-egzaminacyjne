@@ -1,3 +1,7 @@
+**Stan na 03.11.2026, etap 4x323**
+
+**Stan 4x323:** 749 `needs_review`, 0 `verified`; SHA `a35f9ad50c4c76d404877cc1fa8eb515a7f1d749`. Poprawna = jedyna najdłuższa: **81/749 = 10,81%**; maksimum działu **14,61%**. Kompetencje teorii <6: **31**.
+
 **Stan na 03.11.2026, etap 4x322**
 
 **Stan 4x322:** 748 `needs_review`, 0 `verified`; SHA `29d91dfb906ddb9c1cc075ab0803b0e2311f8fd5`. Poprawna = jedyna najdłuższa: **81/748 = 10,83%**; maksimum działu **14,61%**. Kompetencje teorii <6: **32**.
@@ -17,6 +21,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x323 — gaśnica: ochrona przed pogodą i łatwy dostęp](raporty/etap-4x323-gasnica-ochrona-przed-pogoda-2026-11-03.md)
 
 - [Etap 4x322 — pierwsza pomoc: pozycja boczna i kontrola oddechu](raporty/etap-4x322-pierwsza-pomoc-pozycja-boczna-2026-11-03.md)
 
