@@ -1,0 +1,53 @@
+{
+  "batch": "748-748",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0748",
+      "sequence": 748,
+      "exact_record_snapshot": {
+        "id": "ADR-B-0748",
+        "module_id": "ADR-B-05",
+        "stem": "Po wypadku ADR miejsce zdarzenia jest już bezpieczne. Poszkodowany nie reaguje, ale oddycha prawidłowo i nie ma oznak urazu. Co powinien zrobić kierowca, udzielając pierwszej pomocy?",
+        "options": {
+          "A": "Ułożyć go na boku, utrzymać drożność dróg oddechowych i kontrolować oddech do przyjazdu pomocy.",
+          "B": "Rozpocząć uciskanie klatki piersiowej od razu, mimo że poszkodowany oddycha prawidłowo.",
+          "C": "Pozostawić go na plecach bez nadzoru, bo prawidłowy oddech oznacza, że nie wymaga dalszej kontroli."
+        },
+        "correct_option": "A",
+        "explanation": "Jeśli poszkodowany nie reaguje, ale oddycha prawidłowo i nie ma podejrzenia urazu, ułóż go w pozycji bezpiecznej na boku. Dzięki temu łatwiej utrzymać drożność dróg oddechowych; do przyjazdu pomocy regularnie sprawdzaj oddech i reaguj, gdy się pogorszy. Uciskanie klatki piersiowej rozpoczyna się przy braku prawidłowego oddechu, a nie przy samym braku reakcji. Podstawa kursu: ADR 2025, 8.2.2.3.2(e); postępowanie: ERC Guidelines 2025, First Aid.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.2(e) — zakres kursu podstawowego obejmuje postępowanie po wypadku, w tym pierwszą pomoc",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "ERC-2025",
+            "reference": "European Resuscitation Council Guidelines 2025, First Aid — recovery position for an unresponsive person who is breathing normally and does not require CPR; reassess airway and breathing",
+            "url": "https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.2.2.3.2(e): first aid after an accident is a required subject of the basic training course; the concrete recovery-position procedure is supplementary clinical guidance from ERC Guidelines 2025",
+      "supplementary_source_url": "https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
