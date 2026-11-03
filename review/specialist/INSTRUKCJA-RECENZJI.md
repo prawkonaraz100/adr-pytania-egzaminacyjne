@@ -1,6 +1,6 @@
-## Bieżąca migawka — etap 4x351
+## Bieżąca migawka — etap 4x352
 
-Bank: 777 pytań, 777 `needs_review`, 0 `verified`; SHA `a21eae83c0b5ee259e8fad7618e4cb4270ca64b2`. Kompetencje teorii <6: 3. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0777.md`. Raport: `podstawowy/raporty/etap-4x351-exception-delivery-sale-adr-5-4-1-1-1-h-2026-11-03.md`.
+Bank: 778 pytań, 778 `needs_review`, 0 `verified`; SHA `ab9c275f699c82c76357be53051250d404cba85d`. Kompetencje teorii <6: 2. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0778.md`. Raport: `podstawowy/raporty/etap-4x352-dokumenty-tozsamosci-w-kabinie-adr-8-1-2-1-d-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x348
 
