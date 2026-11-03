@@ -1,0 +1,46 @@
+{
+  "batch": "765-765",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0765",
+      "sequence": 765,
+      "exact_record_snapshot": {
+        "stem": "Przewozisz przesyłki objęte CV28 obok żywności. Ustawiona między nimi przegroda kończy się 20 cm poniżej górnej krawędzi tych przesyłek. Czy taki sposób oddzielenia spełnia ADR 7.5.4?",
+        "options": {
+          "A": "Tak. Wystarczy, że przegroda jest stabilna i oddziela ładunki na całej szerokości pojazdu.",
+          "B": "Nie. Przegroda musi być co najmniej tak wysoka jak przesyłki objęte wymaganym oddzieleniem.",
+          "C": "Nie. Przegroda musi zawsze sięgać od podłogi aż do dachu pojazdu, niezależnie od wysokości przesyłek."
+        },
+        "correct_option": "B",
+        "explanation": "Przy CV28 nie wystarczy dowolna przegroda między żywnością a wskazanymi przesyłkami. Jeżeli wybierasz tę metodę oddzielenia, przegroda musi być co najmniej tak wysoka jak przesyłki objęte wymaganiem. Gdy kończy się niżej, nie zapewnia wymaganego oddzielenia; możesz zastosować inną metodę przewidzianą w ADR, np. odpowiedni odstęp lub właściwe przesyłki pośrednie. Podstawa: ADR 2025, 7.5.4 i CV28.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.4 — kompletna przegroda oddzielająca powinna mieć wysokość co najmniej równą wysokości przesyłek objętych wymaganiem; CV28 w 7.5.11",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 7.5.4: where this separation method is selected for packages subject to CV28, a complete partition must be at least as high as the packages bearing the relevant labels. A lower partition does not meet that method; the rule provides alternative separation methods such as intervening packages or a clear space of at least 0.8 m. Full official Polish text comparison and independent specialist review remain pending.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
