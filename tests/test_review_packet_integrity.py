@@ -29,10 +29,10 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         )
 
     def test_manifest_matches_bank_and_module_counts(self):
-        self.assertEqual(len(self.bank), 755)
-        self.assertEqual(len(self.by_id), 755)
+        self.assertEqual(len(self.bank), 756)
+        self.assertEqual(len(self.by_id), 756)
         self.assertEqual(self.manifest["question_count"], len(self.bank))
-        self.assertEqual(self.manifest["last_id"], "ADR-B-0755")
+        self.assertEqual(self.manifest["last_id"], "ADR-B-0756")
         self.assertEqual(self.manifest["status_counts"]["needs_review"], 755)
         self.assertEqual(self.manifest["status_counts"]["verified"], 0)
         self.assertEqual(self.manifest["formal_approvals"], 0)
@@ -54,7 +54,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         current_docs = [
             REVIEW / "INSTRUKCJA-RECENZJI.md",
             REVIEW / "PRZEKAZANIE-ETAP4.md",
-            REVIEW / "REJESTR-AKTUALNY-0001-0755.md",
+            REVIEW / "REJESTR-AKTUALNY-0001-0756.md",
             ROOT / "review" / "README.md",
         ]
         for path in current_docs:
@@ -109,7 +109,7 @@ class ReviewPacketIntegrityTests(unittest.TestCase):
         self.assertTrue(all(row["release_approved"] is False for row in entries))
 
     def test_specialist_index_covers_all_bank_ids(self):
-        content = (REVIEW / "REJESTR-AKTUALNY-0001-0755.md").read_text(encoding="utf-8")
+        content = (REVIEW / "REJESTR-AKTUALNY-0001-0756.md").read_text(encoding="utf-8")
         indexed = set(re.findall(r"\|\s*(ADR-B-\d{4})\s*\|", content))
         self.assertEqual(indexed, set(self.by_id))
 
