@@ -1,3 +1,7 @@
+**Stan na 03.11.2026, etap 4x322**
+
+**Stan 4x322:** 748 `needs_review`, 0 `verified`; SHA `29d91dfb906ddb9c1cc075ab0803b0e2311f8fd5`. Poprawna = jedyna najdłuższa: **81/748 = 10,83%**; maksimum działu **14,61%**. Kompetencje teorii <6: **32**.
+
 **Stan na 03.11.2026, etap 4x321**
 
 **Stan 4x321:** 747 `needs_review`, 0 `verified`; SHA `b287b7df4227de90a2d33199a005dde465c69c8a`. Poprawna = jedyna najdłuższa: **81/747 = 10,84%**; maksimum działu **14,61%**. Kompetencje teorii <6: **33**.
@@ -13,6 +17,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x322 — pierwsza pomoc: pozycja boczna i kontrola oddechu](raporty/etap-4x322-pierwsza-pomoc-pozycja-boczna-2026-11-03.md)
 
 - [Etap 4x321 — kamizelka i znaki ostrzegawcze](raporty/etap-4x321-kamizelka-i-znaki-ostrzegawcze-2026-11-03.md)
 
