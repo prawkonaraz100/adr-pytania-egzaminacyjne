@@ -319,3 +319,10 @@ Powiązane pytanie: **ADR-B-0694**.
 Jeśli numer rozpoznawczy zagrożenia jest poprzedzony literą X, materiał reaguje niebezpiecznie z wodą. Przekaż tę informację ratownikom; nie oceniaj samodzielnie, czy można użyć wody. ADR dopuszcza jej zastosowanie tylko za zgodą specjalistów. Podstawa: ADR 2025, 5.3.2.3.1, tom II, s. 251.
 
 Powiązane pytanie: **ADR-B-0698**.
+
+
+### Wysokość oznaczenia numeru UN — ADR-B-0750
+
+Na opakowaniu, dla którego ADR wymaga numeru UN, litery „UN” i cyfry numeru muszą być czytelne i mieć wymaganą wysokość. Zasadniczo jest to co najmniej 12 mm, ale dla opakowania o pojemności do 30 litrów lub masie netto do 30 kg wystarcza co najmniej 6 mm. Dlatego na kanistrze 20-litrowym nie trzeba stosować pełnych 12 mm, ale nie wolno też dowolnie zmniejszać oznaczenia. Podstawa: ADR 2025, 5.2.1.1.
+
+Powiązane pytanie: **ADR-B-0750**.

@@ -1,6 +1,6 @@
-**Stan na 03.11.2026, etap 4x323**
+**Stan na 03.11.2026, etap 4x324**
 
-**Stan 4x323:** 749 `needs_review`, 0 `verified`; SHA `a35f9ad50c4c76d404877cc1fa8eb515a7f1d749`. Poprawna = jedyna najdłuższa: **81/749 = 10,81%**; maksimum działu **14,61%**. Kompetencje teorii <6: **31**.
+**Stan 4x324:** 750 `needs_review`, 0 `verified`; SHA `7ee34699938fde20813e3149e188e37b46c69697`. Poprawna = jedyna najdłuższa: **81/750 = 10,80%**; maksimum działu **14,61%**. Kompetencje teorii <6: **30**.
 
 **Stan na 03.11.2026, etap 4x322**
 
@@ -21,6 +21,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x324 — numer UN: wysokość oznaczenia na opakowaniu](raporty/etap-4x324-numer-un-wysokosc-oznaczenia-2026-11-03.md)
 
 - [Etap 4x323 — gaśnica: ochrona przed pogodą i łatwy dostęp](raporty/etap-4x323-gasnica-ochrona-przed-pogoda-2026-11-03.md)
 
