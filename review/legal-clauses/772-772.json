@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0772",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 8.6.3.2, 8.6.3.3 and 8.6.4",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0772",
+      "order": 772,
+      "clause": "ADR 2025, 8.6.3.3 — towary przewożone zgodnie z 1.1.3 są pomijane przy ustalaniu kodu całego ładunku, z wyjątkiem jednostki wymagającej oznakowania zgodnie z 3.4.13 z uwzględnieniem 3.4.14; 8.6.3.2 — wybiera się najbardziej restrykcyjny kod; 8.6.4 — jednostka oznakowana według 3.4.13 z uwzględnieniem 3.4.14 podlega ograniczeniu tuneli kategorii E",
+      "question_snapshot": {
+        "id": "ADR-B-0772",
+        "module_id": "ADR-B-11",
+        "stem": "Na jednej jednostce przewozisz towar z kodem tunelowym B, korzystający z wyłączenia ADR 1.1.3, oraz towary LQ z kodem D. Ilość LQ wymaga oznakowania jednostki zgodnie z 3.4.13 i 3.4.14. Jaki kod przypisujesz całemu ładunkowi do oceny ograniczeń tunelowych?",
+        "options": {
+          "A": "Przyjmujesz D, bo towary przewożone zgodnie z 1.1.3 zawsze pomija się przy ustalaniu kodu, nawet gdy jednostka musi mieć znak LQ na podstawie 3.4.13; wyjątek nie zmienia ich statusu.",
+          "B": "Przyjmujesz B, bo wymagane oznakowanie według 3.4.13 z uwzględnieniem 3.4.14 uruchamia wyjątek z 8.6.3.3; porównujesz więc kody B i D, a dla całego ładunku wybierasz bardziej restrykcyjny.",
+          "C": "Nie ustalasz kodu dla całego ładunku, ponieważ oznakowanie LQ zwalnia jednostkę z ograniczeń tunelowych, a towary przewożone na podstawie 1.1.3 pozostają poza kodem niezależnie od oznakowania."
+        },
+        "correct_option": "B",
+        "explanation": "Jeżeli jednostka musi mieć znak LQ według 3.4.13 i 3.4.14, nie możesz automatycznie pominąć towarów przewożonych na warunkach 1.1.3 przy ustalaniu kodu tunelowego. Wyjątek w 8.6.3.3 oznacza, że trzeba uwzględnić ich kod i porównać go z kodem pozostałych towarów. Przy kodach B i D dla całego ładunku wybierasz bardziej restrykcyjny kod B. Oznakowana jednostka podlega ponadto ograniczeniu przejazdu przez tunele kategorii E. Podstawa: ADR 8.6.3.2–8.6.3.3 i 8.6.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.3 — towary przewożone zgodnie z 1.1.3 są pomijane przy ustalaniu kodu całego ładunku, z wyjątkiem jednostki wymagającej oznakowania zgodnie z 3.4.13 z uwzględnieniem 3.4.14; 8.6.3.2 — wybiera się najbardziej restrykcyjny kod; 8.6.4 — jednostka oznakowana według 3.4.13 z uwzględnieniem 3.4.14 podlega ograniczeniu tuneli kategorii E",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Błędnie pomija kod towaru przewożonego na warunkach 1.1.3 bez uwzględnienia wyjątku z 8.6.3.3. Gdy jednostka wymaga oznakowania LQ według 3.4.13 i 3.4.14, ten wyjątek działa."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Przy wymaganym oznakowaniu jednostki zgodnie z 3.4.13 i 3.4.14 towary przewożone na warunkach 1.1.3 nie są automatycznie pomijane przy ustalaniu kodu. Porównuje się B i D, a 8.6.3.2 nakazuje wybrać bardziej restrykcyjny B."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Oznakowanie LQ nie zwalnia jednostki z ograniczeń tunelowych. ADR 8.6.4 przewiduje ograniczenie przejazdu przez tunele kategorii E dla jednostek, dla których wymagane jest oznakowanie według 3.4.13 z uwzględnieniem 3.4.14."
+        }
+      },
+      "notes_on_conditions": "Scenariusz zakłada, że towary objęte wyłączeniem 1.1.3 mają kod tunelowy B, a pozostałe towary LQ mają kod D. Ponieważ jednostka musi być oznakowana zgodnie z 3.4.13 i 3.4.14, stosuje się wyjątek z 8.6.3.3: kod towarów 1.1.3 należy uwzględnić przy ustalaniu kodu całego ładunku. Następnie 8.6.3.2 nakazuje przypisać najbardziej restrykcyjny kod; oznakowana jednostka podlega także ograniczeniu kategorii E z 8.6.4.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
