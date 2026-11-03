@@ -1,6 +1,6 @@
-**Stan na 03.11.2026, etap 4x350**
+**Stan na 03.11.2026, etap 4x351**
 
-**Stan 4x350:** 776 `needs_review`, 0 `verified`; SHA `dfafbcae0d594e25553ddc30190156aae1b9dd76`. Poprawna = jedyna najdłuższa: **84/776 = 10,82%**; kompetencje teorii <6: **4**.
+**Stan 4x351:** 777 `needs_review`, 0 `verified`; SHA `a21eae83c0b5ee259e8fad7618e4cb4270ca64b2`. Poprawna = jedyna najdłuższa: **84/777 = 10,81%**; kompetencje teorii <6: **3**.
 
 - [Etap 4x350 — identyfikacja przewoźnika przed wydaniem towaru](raporty/etap-4x350-weryfikacja-tozsamosci-przewoznika-adr-1-10-1-2-2026-11-03.md)
 
@@ -81,6 +81,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x351 — wyjątek Delivery Sale przy wielu odbiorcach](raporty/etap-4x351-exception-delivery-sale-adr-5-4-1-1-1-h-2026-11-03.md)
 
 - [Etap 4x350 — identyfikacja przewoźnika przed wydaniem towaru](raporty/etap-4x350-weryfikacja-tozsamosci-przewoznika-adr-1-10-1-2-2026-11-03.md)
 

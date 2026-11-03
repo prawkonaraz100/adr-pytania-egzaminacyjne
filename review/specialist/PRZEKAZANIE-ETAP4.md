@@ -1,13 +1,13 @@
-**Stan aktualny po etapie 4x350: 03.11.2026.**
+**Stan aktualny po etapie 4x351: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x350
+## Bieżąca migawka — etap 4x351
 
-- Bank: **776** pytań, 776 `needs_review`, 0 `verified`; SHA `dfafbcae0d594e25553ddc30190156aae1b9dd76`.
-- ADR-B-0776 do ADR-B-12-K04: przed wydaniem towaru należy odpowiednio zidentyfikować przewoźnika, który faktycznie przyjmuje ładunek (ADR 1.10.1.2).
+- Bank: **777** pytań, 777 `needs_review`, 0 `verified`; SHA `a21eae83c0b5ee259e8fad7618e4cb4270ca64b2`.
+- ADR-B-0777 do ADR-B-13-K03: zwrot „Delivery Sale” może zastąpić dane odbiorców tylko za zgodą właściwych władz państw objętych przewozem (ADR 5.4.1.1.1(h)).
 - Moduł ADR-B-12: **48** pytań; kompetencja K02: 5→6.
-- Rozkład A/B/C: **258/287/231**; poprawna jedyna najdłuższa: **84/776 = 10,82%**; maksimum działu: **15,22%**.
-- Kompetencje teorii <6: **4**.
-- Raport: `podstawowy/raporty/etap-4x350-weryfikacja-tozsamosci-przewoznika-adr-1-10-1-2-2026-11-03.md`.
+- Rozkład A/B/C: **258/288/231**; poprawna jedyna najdłuższa: **84/777 = 10,81%**; maksimum działu: **15,22%**.
+- Kompetencje teorii <6: **3**.
+- Raport: `podstawowy/raporty/etap-4x351-exception-delivery-sale-adr-5-4-1-1-1-h-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x348
 

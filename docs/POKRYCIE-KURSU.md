@@ -1,15 +1,15 @@
-**Stan aktualny po etapie 4x350: 03.11.2026.**
+**Stan aktualny po etapie 4x351: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x350
+## Bieżąca migawka — etap 4x351
 
-- Bank: **776** pytań, 776 `needs_review`, 0 `verified`; SHA `dfafbcae0d594e25553ddc30190156aae1b9dd76`.
-- ADR-B-0776 do ADR-B-12-K04: przed wydaniem towarów ADR trzeba odpowiednio zidentyfikować przewoźnika, który faktycznie przyjmuje ładunek (ADR 1.10.1.2).
-- Moduł ADR-B-12: **48** pytań; kompetencja K04: 5→6.
-- Rozkład prawidłowych opcji: A=258, B=287, C=231.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/776 = 10,82%**; maksimum działu to 15,22%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **4** (3 praktyczne pominięte).
-- Explanation: 344 znaki; wszystkie pytania `needs_review`.
-- Raport: `podstawowy/raporty/etap-4x350-weryfikacja-tozsamosci-przewoznika-adr-1-10-1-2-2026-11-03.md`.
+- Bank: **777** pytań, 777 `needs_review`, 0 `verified`; SHA `a21eae83c0b5ee259e8fad7618e4cb4270ca64b2`.
+- ADR-B-0777 do ADR-B-13-K03: zwrot „Delivery Sale” może zastąpić dane odbiorców tylko przy dostawie do wielu odbiorców nieznanych na początku przewozu i za zgodą właściwych władz (ADR 5.4.1.1.1(h)).
+- Moduł ADR-B-13: **51** pytań; kompetencja K03: 5→6.
+- Rozkład prawidłowych opcji: A=258, B=288, C=231.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/777 = 10,81%**; maksimum działu to 15,22%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **3** (3 praktyczne pominięte).
+- Explanation: 354 znaki; wszystkie pytania `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x351-exception-delivery-sale-adr-5-4-1-1-1-h-2026-11-03.md`.
 
 **Stan aktualny po etapie 4x339: 03.11.2026.**
 
@@ -1161,8 +1161,8 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 57 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 48 | 0 | Lekcja + mapa pytań |
-| ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **776** | **0** | **13 szkiców z mapą pytań** |
+| ADR-B-13 | Dokumentacja | 8/8 | 0 | 51 | 0 | Lekcja + mapa pytań |
+| **Razem** | | **104/104** | **3** | **777** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
