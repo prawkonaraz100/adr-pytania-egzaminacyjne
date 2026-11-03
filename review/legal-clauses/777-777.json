@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0777",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 5.4.1.1.1(h) — multiple unidentified consignees and Delivery Sale exception",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642",
+    "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0777",
+      "order": 777,
+      "clause": "ADR 2025, 5.4.1.1.1(h) — nazwa i adres odbiorcy; za zgodą właściwych władz państw, których dotyczy przewóz, przy dostawie do wielu odbiorców nieznanych na początku przewozu można podać „Delivery Sale” zamiast ich danych",
+      "question_snapshot": {
+        "id": "ADR-B-0777",
+        "module_id": "ADR-B-13",
+        "stem": "Nadawca organizuje przewóz ADR do kilku odbiorców, których nie da się jeszcze ustalić na początku trasy. Chce w dokumencie przewozowym zamiast ich nazw i adresów wpisać zwrot „Delivery Sale”. Kiedy może tak postąpić?",
+        "options": {
+          "A": "Może wpisać ten zwrot zawsze, gdy odbiorców ustali dopiero w trakcie trasy; zgoda władz nie jest wtedy wymagana.",
+          "B": "Tylko za zgodą właściwych władz państw objętych przewozem, jeśli odbiorców nie da się ustalić na początku.",
+          "C": "Może zastąpić dane odbiorców nazwą przewoźnika, ponieważ to przewoźnik odpowiada za dostarczenie ładunku."
+        },
+        "correct_option": "B",
+        "explanation": "Nie wpisuj „Delivery Sale” automatycznie tylko dlatego, że odbiorcy będą ustalani po drodze. ADR dopuszcza taki zapis przy dostawie do kilku odbiorców, których nie można wskazać na początku przewozu, ale wymaga zgody właściwych władz państw, których przewóz dotyczy. Bez tej zgody nie można pominąć wymaganych danych odbiorcy. Podstawa: ADR 5.4.1.1.1(h).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(h) — nazwa i adres odbiorcy; za zgodą właściwych władz państw, których dotyczy przewóz, przy dostawie do wielu odbiorców nieznanych na początku przewozu można zamiast nich podać „Delivery Sale”",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Nieznajomość odbiorców na początku przewozu sama nie wystarcza; przepis wymaga zgody właściwych władz."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wyjątek pozwala zastąpić dane odbiorców zwrotem „Delivery Sale” wyłącznie za zgodą właściwych władz państw, których dotyczy przewóz, gdy odbiorcy nie są znani na początku."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Dane przewoźnika nie zastępują danych odbiorcy i nie są przewidzianym w tym przepisie zwrotem."
+        }
+      },
+      "notes_on_conditions": "Wyjątek jest wąski: kilka dostaw do odbiorców, których nie można zidentyfikować na początku przewozu, oraz zgoda właściwych władz państw objętych przewozem.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
