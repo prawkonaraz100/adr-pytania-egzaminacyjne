@@ -46,6 +46,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x328 — szczególne znaczenie numeru zagrożenia 22](raporty/etap-4x328-szczegolne-znaczenie-numeru-22-2026-11-03.md)
+
 - [Etap 4x327 — tablice pomarańczowe: tolerancja wymiarów](raporty/etap-4x327-tablice-pomaranczowe-tolerancja-wymiarow-2026-11-03.md)
 
 - [Etap 4x326 — litera X i zakaz samodzielnego spłukiwania wodą](raporty/etap-4x326-litera-x-spłukiwanie-pozostalosci-2026-11-03.md)
