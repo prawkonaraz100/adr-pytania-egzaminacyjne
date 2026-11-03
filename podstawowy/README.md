@@ -1,6 +1,6 @@
-**Stan na 03.11.2026, etap 4x337**
+**Stan na 03.11.2026, etap 4x338**
 
-**Stan 4x337:** 763 `needs_review`, 0 `verified`; SHA `30f597dd668581ee6b16a810e1d21e0c2661dfd4`. Poprawna = jedyna najdłuższa: **82/763 = 10,75%**; maksimum działu **14,61%**. Kompetencje teorii <6: **17**.
+**Stan 4x338:** 764 `needs_review`, 0 `verified`; SHA `dfc59132c0d5282742c7ff456c414ebba9acc81c`. Poprawna = jedyna najdłuższa: **83/764 = 10,86%**; maksimum działu **14,61%**. Kompetencje teorii <6: **16**.
 
 **Stan 4x332:** 758 `needs_review`, 0 `verified`; SHA `2b708a1f1c72732bb6b50a067d94fcbac1032a06`. Poprawna = jedyna najdłuższa: **81/758 = 10,69%**; maksimum działu **14,61%**. Kompetencje teorii <6: **22**.
 
@@ -67,6 +67,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x338 — mocowanie całego ładunku mieszanego (7.5.7.1)](raporty/etap-4x338-mocowanie-calego-ladunku-mieszanego-7-5-7-1-2026-11-03.md)
 
 - [Etap 4x337 — para rękawic na członka załogi](raporty/etap-4x337-para-rekawic-na-czlonka-zalogi-2026-11-03.md)
 
