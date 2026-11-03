@@ -325,3 +325,8 @@ Jeżeli dwa osobne samochody jadą razem w konwoju, każdy z nich pozostaje odr�
 ### Klin pod koło a wyłączenie ilościowe (ADR-B-0761)
 
 Jeżeli przewóz spełnia warunki wyłączenia 1.1.3.6, część 8 ADR nie stosuje się z wyjątkami wymienionymi w 1.1.3.6.2. Punkt 8.1.5.2, który normalnie wymaga klina dla każdego pojazdu, nie znajduje się na tej liście wyjątków, więc ten obowiązek nie ma zastosowania do takiego przewozu. Nie oznacza to zwolnienia z całego ADR: wśród przepisów, które nadal obowiązują, jest m.in. 8.1.4.2 dotyczący gaśnicy. Podstawa: ADR 2025, 1.1.3.6.2; 8.1.5.2; 8.1.4.2.
+
+
+### Bezpieczna konstrukcja przenośnej lampy (ADR-B-0762)
+
+Wyłączenie ilościowe 1.1.3.6 nie usuwa wszystkich zasad części 8. Punkt 8.3.4 pozostaje obowiązujący i wymaga, aby używana przenośna lampa nie miała metalowej powierzchni mogącej wywołać iskry. To odrębne ograniczenie dotyczące lampy, a nie obowiązek przewożenia lampy z ogólnego wykazu 8.1.5.2. Dlatego nawet przy małych ilościach nie używaj lampy z niebezpieczną metalową powierzchnią. Podstawa: ADR 2025, 1.1.3.6.2; 8.3.4; 8.1.5.2.
