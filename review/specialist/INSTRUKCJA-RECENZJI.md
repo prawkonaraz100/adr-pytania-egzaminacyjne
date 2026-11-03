@@ -888,3 +888,8 @@ Najnowsza redakcyjna partia 4x125 (2026-10-28): [raport próbki 40, dystraktoró
 
 
 **Bieżący snapshot po 4x153 (29.10.2026):** `questions.jsonl` blob SHA `9d82c5c1f6d6bda00c46dca47126891d509b9499`, 639 pytań `needs_review`, 0 `verified`. Zmieniono tylko wyjaśnienie ADR-B-0061 i synchronizację próbnego egzaminu 001; zatwierdzenie przez specjalistę pozostaje otwarte.
+
+
+## Aktualizacja snapshotu 4x333 (03.11.2026)
+
+Bank kursu podstawowego: 759 pytań, wszystkie `needs_review`, 0 `verified`; SHA `3d6a943093405340d3e4b029e9b835b6318b624b`. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0759.md`. Kompetencje teorii z mniej niż 6 pytaniami: 21. Nie traktować statusu redakcyjnego ani CI jako zatwierdzenia prawnego.

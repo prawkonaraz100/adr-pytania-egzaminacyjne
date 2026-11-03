@@ -310,3 +310,8 @@ Przed wyjazdem nie zakładaj, że każdy przewóz ADR wymaga identycznego zestaw
 Jeżeli przewóz korzysta z wyłączenia 1.1.3.6, nie oznacza to braku obowiązku posiadania gaśnicy. ADR 8.1.4.2 wymaga co najmniej jednej przenośnej gaśnicy o pojemności odpowiadającej 2 kg proszku dla jednostki transportowej. Zestaw złożony z pojazdu silnikowego i dołączonej naczepy jest jedną jednostką transportową, więc nie należy automatycznie mnożyć minimalnej liczby gaśnic przez liczbę elementów zestawu. Podstawa: ADR 1.2.1 i 8.1.4.2.
 
 **Pytanie do sprawdzenia:** ADR-B-0711 — czy przy ciągniku z naczepą objętym 1.1.3.6 potrzebna jest osobna gaśnica w każdym elemencie zestawu?
+
+
+### Oznaczenie terminu kontroli gaśnicy (ADR-B-0759)
+
+Na gaśnicy powinna znajdować się plomba potwierdzająca, że nie była używana, oraz wymagane oznaczenie terminu: data (miesiąc i rok) następnej kontroli albo, odpowiednio, maksymalny dopuszczalny okres użytkowania. Brak osobnej daty następnej kontroli nie oznacza automatycznie niezgodności, jeśli zastosowano dopuszczone oznaczenie maksymalnego okresu użytkowania. Niezależnie od sposobu oznaczenia gaśnice podlegają okresowym kontrolom, a właściwego terminu nie wolno przekroczyć podczas przewozu. Podstawa: ADR 2025, 8.1.4.4–8.1.4.5.

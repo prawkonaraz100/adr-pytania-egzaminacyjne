@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x333: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x333
+
+- Bank: **759** pytań, 759 `needs_review`, 0 `verified`; SHA `3d6a943093405340d3e4b029e9b835b6318b624b`.
+- ADR-B-0759 dodano do ADR-B-08-K03: dopuszczalne oznaczenie gaśnicy datą następnej kontroli albo maksymalnym okresem użytkowania (ADR 2025, 8.1.4.4–8.1.4.5).
+- Moduł ADR-B-08: **49** pytań; kompetencja K03: 5→6.
+- Rozkład prawidłowych opcji: A=256, B=274, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **82/759 = 10,80%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **21** (3 praktyczne pominięte).
+- Explanation: 422 znaki / 4 zdania; wszystkie odpowiedzi `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x333-gasnica-oznaczenie-kontroli-lub-okresu-uzytkowania-2026-11-03.md`.
+
 **Stan aktualny po etapie 4x332: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x332
@@ -1052,13 +1065,13 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 87 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 66 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
-| ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
+| ADR-B-08 | Wyposażenie | 8/8 | 0 | 49 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **758** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **759** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
