@@ -1,8 +1,8 @@
-**Stan aktualny po etapie 4x352: 03.11.2026.**
+**Stan aktualny po etapie 4x353: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x352
+## Bieżąca migawka — etap 4x353
 
-Bank: 778 pytań, 778 `needs_review`, 0 `verified`; SHA `ab9c275f699c82c76357be53051250d404cba85d`. Kompetencje teorii <6: 2. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0778.md`; raport: `podstawowy/raporty/etap-4x352-dokumenty-tozsamosci-w-kabinie-adr-8-1-2-1-d-2026-11-03.md`.
+Bank: 779 pytań, 779 `needs_review`, 0 `verified`; SHA `6c816f78f6e83644ed8667311de9c1fb4d95bebc`. Kompetencje teorii <6: 1. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0779.md`; raport: `podstawowy/raporty/etap-4x353-wpis-edi-w-transporcie-kombinowanym-adr-5-4-1-1-7-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x348
 
