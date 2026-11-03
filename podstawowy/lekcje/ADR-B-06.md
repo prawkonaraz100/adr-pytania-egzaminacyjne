@@ -326,3 +326,10 @@ Powiązane pytanie: **ADR-B-0698**.
 Na opakowaniu, dla którego ADR wymaga numeru UN, litery „UN” i cyfry numeru muszą być czytelne i mieć wymaganą wysokość. Zasadniczo jest to co najmniej 12 mm, ale dla opakowania o pojemności do 30 litrów lub masie netto do 30 kg wystarcza co najmniej 6 mm. Dlatego na kanistrze 20-litrowym nie trzeba stosować pełnych 12 mm, ale nie wolno też dowolnie zmniejszać oznaczenia. Podstawa: ADR 2025, 5.2.1.1.
 
 Powiązane pytanie: **ADR-B-0750**.
+
+
+### Nalepka zasłonięta przez pas lub wyposażenie — ADR-B-0751
+
+Wymagana nalepka ostrzegawcza nie może być zasłonięta przez pas mocujący, uchwyt ani inną część wyposażenia opakowania. Jeżeli trzeba umieścić kilka nalepek, powinny znajdować się blisko siebie, ale żadna nie może zakrywać drugiej. Dokument przewozowy nie zastępuje prawidłowego oznakowania na przesyłce. Podstawa: ADR 2025, 5.2.2.1.6(b)–(c).
+
+Powiązane pytanie: **ADR-B-0751**.
