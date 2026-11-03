@@ -1,6 +1,6 @@
 **Stan na 03.11.2026, etap 4x348**
 
-**Stan 4x347:** 773 `needs_review`, 0 `verified`; SHA `996c04867b69106382e88188c10d6253e36479e2`. Poprawna = jedyna najdłuższa: **84/773 = 10,87%**; kompetencje teorii <6: **7**.
+**Stan 4x348:** 774 `needs_review`, 0 `verified`; SHA `dddfd4d70c9e5e0e4050be60ccf1cc52163e82d9`. Poprawna = jedyna najdłuższa: **84/774 = 10,85%**; kompetencje teorii <6: **6**.
 
 - [Etap 4x347 — informacje dla ratowników po pożarze w tunelu](raporty/etap-4x347-pozar-tunel-informacje-dla-ratownikow-2026-11-03.md)
 
