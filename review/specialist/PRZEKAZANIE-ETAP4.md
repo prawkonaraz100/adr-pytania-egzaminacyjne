@@ -4,7 +4,7 @@
 
 - Bank: **779** pytań, 779 `needs_review`, 0 `verified`; SHA `6c816f78f6e83644ed8667311de9c1fb4d95bebc`.
 - ADR-B-0779 do ADR-B-13-K06: elektroniczny dokument EDI musi zawierać wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1” (ADR 5.4.1.1.7; 5.4.0.2).
-- Moduł ADR-B-13: **52** pytań; kompetencja K05: 5→6.
+- Moduł ADR-B-13: **53** pytań; kompetencja K06: 5→6.
 - Rozkład A/B/C: **258/290/231**; poprawna jedyna najdłuższa: **84/779 = 10,78%**; maksimum działu: **15,22%**.
 - Kompetencje teorii <6: **1**.
 - Raport: `podstawowy/raporty/etap-4x353-wpis-edi-w-transporcie-kombinowanym-adr-5-4-1-1-7-2026-11-03.md`.
