@@ -340,3 +340,10 @@ Powiązane pytanie: **ADR-B-0751**.
 Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą. Ograniczenie dotyczy nie tylko gaszenia pożaru, ale również spłukiwania lub mycia pozostałości. Woda może być użyta wyłącznie za zgodą specjalistów. Podstawa: ADR 2025, 5.3.2.3.1.
 
 Powiązane pytanie: **ADR-B-0752**.
+
+
+### Tolerancja wymiarów tablicy pomarańczowej — ADR-B-0753
+
+Standardowa tablica pomarańczowa ma wymiary 40 × 30 cm. ADR dopuszcza jednak tolerancję ±10% dla wymiarów wskazanych w tym podrozdziale, więc tablica 36 × 27 cm mieści się na dolnej granicy i nie jest niezgodna wyłącznie z powodu rozmiaru. Nie należy mylić tej tolerancji z osobnym wyjątkiem dla mniejszej tablicy stosowanej, gdy nie ma miejsca na pojeździe. Podstawa: ADR 2025, 5.3.2.2.1 i 5.3.2.2.4.
+
+Powiązane pytanie: **ADR-B-0753**.
