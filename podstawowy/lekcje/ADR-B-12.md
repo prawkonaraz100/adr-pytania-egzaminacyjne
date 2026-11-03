@@ -248,3 +248,12 @@ Obszary terminali, baz i placów wykorzystywane do czasowego składowania towar�
 **Przykład z pracy:** Podczas przewozu ADR kierowca ma ważny paszport ze zdjęciem, ale nie ma polskiego dowodu osobistego. Wymóg dotyczący identyfikacji ze zdjęciem jest spełniony; nie trzeba posiadać dodatkowo polskiego dowodu wyłącznie z powodu przewozu ADR.
 
 **Sprawdź się:** odpowiedz na `ADR-B-0774`. **Podstawa:** ADR 1.10.1.4.
+
+
+### Zabezpieczenie i oświetlenie placu — zakres warunku dostępu publicznego (ADR-B-12-K02)
+
+**Wyjaśnienie dla kursanta:** Obszar terminalu używany do czasowego składowania towarów niebezpiecznych podczas przewozu ma być właściwie zabezpieczony i dobrze oświetlony. Przepis dodaje, że tam, gdzie jest to możliwe i właściwe, teren powinien być niedostępny dla ogółu. To zastrzeżenie dotyczy tylko dostępu osób postronnych — nie zwalnia z zabezpieczenia ani oświetlenia placu.
+
+**Przykład z pracy:** Operator terminalu nie może całkowicie zamknąć wspólnego terenu dla wszystkich osób postronnych. Nie oznacza to, że może zostawić plac bez zabezpieczeń lub oświetlenia; te wymagania nadal obowiązują.
+
+**Sprawdź się:** odpowiedz na `ADR-B-0775` i wskaż, do którego warunku odnosi się zwrot „gdzie to możliwe i właściwe”. **Podstawa:** ADR 1.10.1.3.
