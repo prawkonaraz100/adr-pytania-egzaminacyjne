@@ -1,5 +1,5 @@
 {
-  "stage": "4x354",
+  "stage": "4x355",
   "snapshot_date": "2026-11-03",
   "scope": "ADR-BASIC-ONLY",
   "question_count": 780,
@@ -688,7 +688,7 @@
     "status": "needs_review",
     "report": "podstawowy/raporty/etap-4x88-kontrola-m364-adr-b-0145-2026-10-27.md"
   },
-  "latest_report": "podstawowy/raporty/etap-4x354-instrukcje-pisemne-po-zmianie-pojazdu-adr-8-1-2-3-2026-11-03.md",
+  "latest_report": "podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md",
   "latest_sample": "podstawowy/raporty/etap-4x135-wykluczenia-proby.json",
   "latest_sample_seed": 41232026,
   "latest_sample_count": 40,
@@ -716,8 +716,8 @@
     "sample": "podstawowy/raporty/etap-4x109-wykluczenia-proby.json",
     "sample_exclusion_note": "Rozłączność próbki potwierdzona względem wszystkich ID zapisanych w raportach 4x103–4x108 i zebranych w rejestrze 4x108. Nie dowodzi disjointness względem etapów 4x84–4x102, ponieważ raport 4x86 nie publikuje pełnej listy wszystkich 60 wylosowanych ID."
   },
-  "latest_editorial_stage": "4x354",
-  "latest_editorial_report": "podstawowy/raporty/etap-4x354-instrukcje-pisemne-po-zmianie-pojazdu-adr-8-1-2-3-2026-11-03.md",
+  "latest_editorial_stage": "4x355",
+  "latest_editorial_report": "podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md",
   "stage4x112": {
     "source_bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
     "sample_size": 40,
@@ -2900,7 +2900,7 @@
     ],
     "verification_status": "needs_review"
   },
-  "latest_batch_report": "podstawowy/raporty/etap-4x354-instrukcje-pisemne-po-zmianie-pojazdu-adr-8-1-2-3-2026-11-03.md",
+  "latest_batch_report": "podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md",
   "stage4x338": {
     "question_id": "ADR-B-0764",
     "module_id": "ADR-B-09",
@@ -3312,5 +3312,33 @@
     "sequential_snapshot": "review/sequential/780-780.json",
     "legal_clause_snapshot": "review/legal-clauses/780-780.json",
     "independent_specialist_review": "pending"
+  },
+  "bank_closure": {
+    "date": "2026-11-03",
+    "stage": "4x355",
+    "status": "bank_zamkniety_gotowy_do_przegladu_specjalisty",
+    "scope": "ADR-BASIC-ONLY",
+    "no_more_questions": true,
+    "question_count": 780,
+    "last_id": "ADR-B-0780",
+    "theory_competencies_count": 104,
+    "theory_competencies_below_six": 0,
+    "practical_competencies_excluded_from_gate": 3,
+    "all_question_status": "needs_review",
+    "verified": 0,
+    "formal_approvals": 0,
+    "bank_blob_sha": "db5b90f4305fd75c1bb2f73a8b5c8b7a6bb42d63",
+    "exams_count": 5,
+    "exam_keys_count": 5,
+    "exam_source_bank_head": "db5b90f4305fd75c1bb2f73a8b5c8b7a6bb42d63",
+    "last_sequential_snapshot": "review/sequential/780-780.json",
+    "last_legal_snapshot": "review/legal-clauses/780-780.json",
+    "current_specialist_register": "review/specialist/REJESTR-AKTUALNY-0001-0780.md",
+    "current_specialist_manifest": "review/specialist/PAKIET-0780-MANIFEST.json",
+    "final_report": "docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md",
+    "batch_report": "podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md",
+    "independent_expert_review": "pending",
+    "official_polish_literal_comparison": "pending",
+    "publication_authorized": false
   }
 }
