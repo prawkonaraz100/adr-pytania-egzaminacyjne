@@ -6,7 +6,7 @@
 - ADR-B-0774 do ADR-B-12-K01: ważny paszport ze zdjęciem spełnia wymóg środka identyfikacji zawierającego fotografię; ADR 1.10.1.4 nie wskazuje wyłącznie polskiego dowodu osobistego.
 - Moduł ADR-B-12: **46** pytań; kompetencja K01: 5→6.
 - Rozkład prawidłowych opcji: A=258, B=286, C=230.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/774 = 10,85%**; maksimum działu to **15,22%**.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/774 = 10,85%**; maksimum działu to 15,22%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **6** (3 praktyczne pominięte).
 - Explanation: 336 znaków; wszystkie pytania `needs_review`.
 - Raport: `podstawowy/raporty/etap-4x348-paszport-dokument-identyfikacji-2026-11-03.md`.
