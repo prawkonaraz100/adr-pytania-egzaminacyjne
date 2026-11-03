@@ -330,3 +330,8 @@ Jeżeli przewóz spełnia warunki wyłączenia 1.1.3.6, część 8 ADR nie stosu
 ### Bezpieczna konstrukcja przenośnej lampy (ADR-B-0762)
 
 Wyłączenie ilościowe 1.1.3.6 nie usuwa wszystkich zasad części 8. Punkt 8.3.4 pozostaje obowiązujący i wymaga, aby używana przenośna lampa nie miała metalowej powierzchni mogącej wywołać iskry. To odrębne ograniczenie dotyczące lampy, a nie obowiązek przewożenia lampy z ogólnego wykazu 8.1.5.2. Dlatego nawet przy małych ilościach nie używaj lampy z niebezpieczną metalową powierzchnią. Podstawa: ADR 2025, 1.1.3.6.2; 8.3.4; 8.1.5.2.
+
+
+### Para rękawic dla każdego członka załogi (ADR-B-0763)
+
+ADR wymaga dla każdego członka załogi pary rękawic ochronnych, czyli dwóch sztuk, a nie jednej rękawicy na osobę. Ochrona oczu jest osobnym elementem wyposażenia i nie zastępuje ochrony dłoni. Jeżeli w komplecie brakuje jednej rękawicy, wyposażenie tej osoby jest niepełne i trzeba uzupełnić je przed przewozem. Podstawa: ADR 2025, 8.1.5.2.
