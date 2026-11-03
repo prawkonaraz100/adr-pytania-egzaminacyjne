@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0745
+# Aktualny rejestr specjalisty — ADR-B-0001–0744
 
-Etap 4x319 (03.11.2026). Bank: 745 pytań, 745 `needs_review`, 0 `verified`. SHA `c53063274e59f9c2d45da3e0c5ef58ca2f1f496a`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **35** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x318 (02.11.2026). Bank: 744 pytań, 744 `needs_review`, 0 `verified`. SHA `2c20fa651689bb224e88f2d52775207ad6d864eb`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **36** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -749,4 +749,3 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **35** (3 praktyczne pominięt
 | ADR-B-0742 | ADR-B-05 | ADR-B-05-K05 | Granica gaszenia pożaru silnika i ładowni | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0743 | ADR-B-05 | ADR-B-05-K06 | Mały pożar silnika: nie podchodzić przez gęsty dym | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0744 | ADR-B-05 | ADR-B-05-K07 | Elektroniczny dokument musi być dostępny podczas przewozu i ratownikom | A | ADR 2025, 5.4.0.2; 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0745 | ADR-B-05 | ADR-B-05-K08 | Skażone rękawice: nie używać ponownie, bezpiecznie usunąć | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
