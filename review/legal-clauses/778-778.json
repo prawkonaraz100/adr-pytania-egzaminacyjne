@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0778",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 8.1.2.1(d) and 1.10.1.4 — photo ID for every crew member in driver's cab",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642",
+    "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0778",
+      "order": 778,
+      "clause": "ADR 2025, 8.1.2.1(d) — dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, powinny być przewożone w kabinie kierowcy; 1.10.1.4",
+      "question_snapshot": {
+        "id": "ADR-B-0778",
+        "module_id": "ADR-B-13",
+        "stem": "Podczas kontroli przed odjazdem kierowca zauważa, że dokumenty tożsamości ze zdjęciem obu członków załogi są schowane w zamykanej skrzynce narzędziowej na zewnątrz kabiny. Czy miejsce ich przechowywania spełnia ADR?",
+        "options": {
+          "A": "Tak, jeśli dokumenty są na jednostce transportowej i można je wyjąć podczas kontroli, nawet poza kabiną.",
+          "B": "Nie; dokumenty ze zdjęciem każdego członka załogi mają być przewożone w kabinie kierowcy.",
+          "C": "Wystarczy dokument kierowcy w kabinie; dokument drugiej osoby może pozostać w skrzynce na zewnątrz."
+        },
+        "correct_option": "B",
+        "explanation": "Przenieś dokumenty do kabiny kierowcy przed rozpoczęciem przewozu. ADR wymaga, aby w kabinie znajdowały się dokumenty umożliwiające identyfikację wszystkich członków załogi i zawierające ich zdjęcia. Sam fakt, że dokumenty są gdzieś na pojeździe albo że w kabinie jest tylko dowód kierowcy, nie spełnia tego wymagania. Podstawa: ADR 8.1.2.1(d) i 1.10.1.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.1(d) — dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, powinny być przewożone w kabinie kierowcy; 1.10.1.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Przepis wskazuje konkretnie kabinę kierowcy, a nie dowolne miejsce na jednostce transportowej."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Dokumenty identyfikujące wszystkich członków załogi i zawierające zdjęcia powinny być przewożone w kabinie kierowcy."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wymóg obejmuje wszystkich członków załogi, nie tylko kierowcę."
+        }
+      },
+      "notes_on_conditions": "ADR 8.1.2.1 określa miejsce przewożenia dokumentów w kabinie kierowcy; 1.10.1.4 określa wymóg dokumentu tożsamości ze zdjęciem dla każdego członka załogi.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
