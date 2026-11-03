@@ -1,13 +1,13 @@
-**Stan aktualny po etapie 4x352: 03.11.2026.**
+**Stan aktualny po etapie 4x353: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x352
+## Bieżąca migawka — etap 4x353
 
-- Bank: **778** pytań, 778 `needs_review`, 0 `verified`; SHA `ab9c275f699c82c76357be53051250d404cba85d`.
-- ADR-B-0778 do ADR-B-13-K05: dokumenty ze zdjęciem wszystkich członków załogi muszą być przewożone w kabinie kierowcy (ADR 8.1.2.1(d)).
-- Moduł ADR-B-13: **52** pytań; kompetencja K05: 5→6.
-- Rozkład A/B/C: **258/289/231**; poprawna jedyna najdłuższa: **84/778 = 10,80%**; maksimum działu: **15,22%**.
-- Kompetencje teorii <6: **2**.
-- Raport: `podstawowy/raporty/etap-4x352-dokumenty-tozsamosci-w-kabinie-adr-8-1-2-1-d-2026-11-03.md`.
+- Bank: **779** pytań, 779 `needs_review`, 0 `verified`; SHA `6c816f78f6e83644ed8667311de9c1fb4d95bebc`.
+- ADR-B-0779 do ADR-B-13-K06: elektroniczny dokument EDI musi zawierać wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1” (ADR 5.4.1.1.7; 5.4.0.2).
+- Moduł ADR-B-13: **53** pytań; kompetencja K06: 5→6.
+- Rozkład A/B/C: **258/290/231**; poprawna jedyna najdłuższa: **84/779 = 10,78%**; maksimum działu: **15,22%**.
+- Kompetencje teorii <6: **1**.
+- Raport: `podstawowy/raporty/etap-4x353-wpis-edi-w-transporcie-kombinowanym-adr-5-4-1-1-7-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x348
 

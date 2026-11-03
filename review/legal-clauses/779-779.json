@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0779",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 5.4.1.1.7 and 5.4.0.2 — required combined transport statement in EDI document",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642",
+    "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0779",
+      "order": 779,
+      "clause": "ADR 2025, 5.4.1.1.7 — w przypadku przewozu zgodnie z 1.1.4.2.1 w dokumencie przewozowym należy zamieścić „PRZEWÓZ ZGODNY Z 1.1.4.2.1”; 5.4.0.2 — EDI może zastępować papierową dokumentację, jeżeli zapewnia wymaganą wartość dowodową i dostępność informacji",
+      "question_snapshot": {
+        "id": "ADR-B-0779",
+        "module_id": "ADR-B-13",
+        "stem": "Przewóz ADR w łańcuchu morsko-drogowym jest dokumentowany w systemie EDI. Elektroniczny dokument zawiera dane towaru i odbiorcy, ale nie ma wpisu „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Nadawca twierdzi, że wpis dotyczy tylko dokumentów papierowych. Co powinien zrobić przewoźnik?",
+        "options": {
+          "A": "Rozpocząć przewóz, bo dane podstawowe są w systemie, a dodatkowy wpis dotyczy wyłącznie papierowego dokumentu.",
+          "B": "Wstrzymać rozpoczęcie przewozu do uzupełnienia dokumentu EDI o wymagany wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”.",
+          "C": "Pozostawić dokument bez zmian, a informację o łańcuchu morsko-drogowym dopisać tylko do wewnętrznego rejestru przewoźnika."
+        },
+        "correct_option": "B",
+        "explanation": "Elektroniczna postać dokumentu nie zwalnia z podania informacji wymaganych dla przewozu ADR. Jeżeli przewóz odbywa się na warunkach 1.1.4.2.1, dokument — także przekazywany przez EDI — musi zawierać wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Nie wystarczy notatka w wewnętrznym systemie przewoźnika. Poproś o uzupełnienie dokumentu przed rozpoczęciem przewozu. Podstawa: ADR 5.4.1.1.7 i 5.4.0.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.7 — w przypadku przewozu zgodnie z 1.1.4.2.1 w dokumencie przewozowym należy zamieścić „PRZEWÓZ ZGODNY Z 1.1.4.2.1”; 5.4.0.2 — EDI może zastępować papierową dokumentację, jeżeli zapewnia wymaganą wartość dowodową i dostępność informacji",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Dopuszczenie EDI nie ogranicza wymaganej treści dokumentu; wpis 5.4.1.1.7 nadal jest obowiązkowy."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Forma elektroniczna jest dopuszczalna, ale wymagany wpis z 5.4.1.1.7 musi być dostępny w dokumencie."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wewnętrzna notatka przewoźnika nie uzupełnia dokumentu przewozowego wymaganego przez ADR."
+        }
+      },
+      "notes_on_conditions": "Wymóg 5.4.1.1.7 dotyczy przewozu zgodnie z 1.1.4.2.1; 5.4.0.2 dopuszcza EDI zamiast papieru, jeśli spełnia wymogi wartości dowodowej i dostępności. Treść obowiązkowa pozostaje wymagana.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

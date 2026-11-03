@@ -281,3 +281,8 @@ Zwykle dokument przewozowy podaje nazwę i adres odbiorcy. Jeżeli towar ma traf
 ### Dokumenty tożsamości w kabinie kierowcy
 
 Przed wyjazdem sprawdź, czy dokumenty ze zdjęciem wszystkich członków załogi są w kabinie kierowcy. Nie wystarczy, że dokument drugiej osoby leży w schowku poza kabiną albo że w kabinie jest tylko dowód kierowcy. Wymóg dotyczy każdego członka załogi i miejsca przewożenia dokumentów. Pytanie kontrolne: ADR-B-0778. Podstawa: ADR 8.1.2.1(d) i 1.10.1.4.
+
+
+### Wpis ADR w elektronicznym dokumencie przewozowym
+
+Jeżeli przewóz odbywa się na warunkach 1.1.4.2.1, dokument przewozowy musi zawierać wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Dotyczy to również dokumentu przekazywanego elektronicznie — EDI zmienia postać dokumentu, ale nie usuwa wymaganej informacji. Notatka w systemie przewoźnika nie zastępuje wpisu w dokumencie. Pytanie kontrolne: ADR-B-0779. Podstawa: ADR 5.4.1.1.7 i 5.4.0.2.
