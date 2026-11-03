@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x323
+
+Raport: `podstawowy/raporty/etap-4x323-gasnica-ochrona-przed-pogoda-2026-11-03.md`.
+
+Bank 749 pytań; 749 `needs_review`, 0 `verified`; SHA `a35f9ad50c4c76d404877cc1fa8eb515a7f1d749`; licznik kompetencji teorii <6: 31. Rejestr `REJESTR-AKTUALNY-0001-0749.md`.
+
 ## Bieżąca migawka — etap 4x322
 
 Raport: `podstawowy/raporty/etap-4x322-pierwsza-pomoc-pozycja-boczna-2026-11-03.md`.
