@@ -1,3 +1,7 @@
+## Bieżąca migawka — etap 4x336
+
+Bank: 762 pytań, 762 `needs_review`, 0 `verified`; SHA `e1e944f3836c9b523c11148b3a7811c013cb6cfa`. Kompetencje teorii z mniej niż 6 pytaniami: 18. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0762.md`. Raport: `podstawowy/raporty/etap-4x336-latarka-metalowa-powierzchnia-a-1-1-3-6-2026-11-03.md`.
+
 ## Bieżąca migawka — etap 4x335
 
 Bank: 761 pytań, 761 `needs_review`, 0 `verified`; SHA `51d30c1588cbb1e78c330876d3e59572aca531ec`. Kompetencje teorii z mniej niż 6 pytaniami: 19. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0761.md`. Raport: `podstawowy/raporty/etap-4x335-klin-a-wylaczenie-1-1-3-6-2026-11-03.md`.
