@@ -798,4 +798,3 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **2** (3 praktyczne pominięte
 
 | ADR-B-0778 | ADR-B-13 | ADR-B-13-K05 | Podczas kontroli przed odjazdem kierowca zauważa, że dokumenty tożsamości ze zdjęciem obu członków załogi są schowane w zamykanej skrzynce narzędziowej na zewnątrz kabiny. Czy miejsce ich przechowywania spełnia ADR? | B | ADR 2025, 8.1.2.1(d); 1.10.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-| ADR-B-0778 | ADR-B-13 | ADR-B-13-K05 | Podczas kontroli przed odjazdem kierowca zauważa, że dokumenty tożsamości ze zdjęciem obu członków załogi są schowane w zamykanej skrzynce narzędziowej na zewnątrz kabiny. Czy miejsce ich przechowywania spełnia ADR? | B | ADR 2025, 8.1.2.1(d); 1.10.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
