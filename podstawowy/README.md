@@ -1,6 +1,8 @@
-**Stan na 03.11.2026, etap 4x345**
+**Stan na 03.11.2026, etap 4x346**
 
-**Stan 4x345:** 771 `needs_review`, 0 `verified`; SHA `0467701668f4ff28139fb72ab341100b67df4268`. Poprawna = jedyna najdłuższa: **83/771 = 10,77%**; kompetencje teorii <6: **9**.
+**Stan 4x346:** 772 `needs_review`, 0 `verified`; SHA `577557ae08e7354fe5d5f329d2672266e62c2d98`. Poprawna = jedyna najdłuższa: **83/772 = 10,75%**; kompetencje teorii <6: **8**.
+
+- [Etap 4x346 — wyjątek 1.1.3 przy oznakowaniu LQ](raporty/etap-4x346-wyjatki-1-1-3-znak-lq-tunele-2026-11-03.md)
 
 - [Etap 4x345 — najbardziej restrykcyjny kod tunelowy](raporty/etap-4x345-kod-najbardziej-restrykcyjny-trasa-tunelowa-2026-11-03.md)
 
@@ -77,6 +79,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x346 — wyjątek 1.1.3 przy oznakowaniu LQ](raporty/etap-4x346-wyjatki-1-1-3-znak-lq-tunele-2026-11-03.md)
 - [Etap 4x345 — najbardziej restrykcyjny kod tunelowy](raporty/etap-4x345-kod-najbardziej-restrykcyjny-trasa-tunelowa-2026-11-03.md)
 
 - [Etap 4x344 — wyłączenie odstępstwa ADR 1.1.4.2.1](raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md)

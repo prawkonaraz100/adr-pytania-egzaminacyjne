@@ -252,3 +252,12 @@ Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi poró
 **Co warto zrobić lub sprawdzić:** Przyjmij kod B dla całego ładunku i zaplanuj trasę omijającą tunel kategorii C.
 
 **Ćwiczenie:** odpowiedz na `ADR-B-0771` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 8.6.3.2 i 8.6.4.
+
+
+### Wyłączenie 1.1.3 a oznakowanie LQ — ADR-B-11-K06
+
+**Wyjaśnienie dla kursanta:** Towary przewożone zgodnie z wyłączeniem 1.1.3 zwykle pomija się przy ustalaniu kodu tunelowego całego ładunku. Jest jednak ważny wyjątek: jeżeli jednostka musi być oznakowana zgodnie z 3.4.13 z uwzględnieniem 3.4.14, nie wolno automatycznie pomijać kodu tych towarów. Porównujesz wtedy kody wszystkich uwzględnianych towarów i wybierasz najbardziej restrykcyjny.
+
+**Przykład z pracy:** Na jednej jednostce wieziesz towar z kodem B objęty wyłączeniem 1.1.3 oraz towary LQ z kodem D. Ilość LQ wymaga oznakowania jednostki. W takiej sytuacji kod B trzeba uwzględnić i przypisać całemu ładunkowi, a oznakowana jednostka podlega również ograniczeniu tuneli kategorii E.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0772` i wskaż, dlaczego wyłączenie 1.1.3 nie zawsze oznacza pominięcie towaru przy ustalaniu kodu. **Podstawa:** ADR 8.6.3.2, 8.6.3.3 i 8.6.4.
