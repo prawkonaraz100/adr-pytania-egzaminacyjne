@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0752
+# Aktualny rejestr specjalisty — ADR-B-0001–0753
 
-Etap 4x326 (03.11.2026). Bank: 752 pytań, 752 `needs_review`, 0 `verified`. SHA `3ddd949081089a48396e9a2e257a57fa5eb7aea4`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **28** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x327 (03.11.2026). Bank: 753 pytań, 753 `needs_review`, 0 `verified`. SHA `92d2325d63fc4099535b1ea89c6aac7503743678`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **27** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -757,3 +757,4 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **28** (3 praktyczne pominięt
 | ADR-B-0750 | ADR-B-06 | ADR-B-06-K01 | Wysokość oznaczenia numeru UN na kanistrze 20 l | C | ADR 2025, 5.2.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0751 | ADR-B-06 | ADR-B-06-K02 | Pas mocujący zasłania wymaganą nalepkę — nalepka nie może być zakryta | B | ADR 2025, 5.2.2.1.6(b)–(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0752 | ADR-B-06 | ADR-B-06-K04 | Litera X: nie spłukiwać pozostałości wodą bez zgody specjalistów | A | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0753 | ADR-B-06 | ADR-B-06-K05 | Tolerancja ±10% wymiarów tablicy pomarańczowej | B | ADR 2025, 5.3.2.2.1 i 5.3.2.2.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
