@@ -1,3 +1,9 @@
+**Stan na 03.11.2026, etap 4x325**
+
+**Stan 4x325:** 751 `needs_review`, 0 `verified`; SHA `fed909b6dec8fbaece0f391f4f2b78df55cb68f5`. Poprawna = jedyna najdłuższa: **81/751 = 10,79%**; maksimum działu **14,61%**. Kompetencje teorii <6: **29**.
+
+- [Etap 4x325 — nalepka zasłonięta przez wyposażenie](raporty/etap-4x325-nalepka-zaslonieta-przez-wyposazenie-2026-11-03.md)
+
 **Stan na 03.11.2026, etap 4x324**
 
 **Stan 4x324:** 750 `needs_review`, 0 `verified`; SHA `7ee34699938fde20813e3149e188e37b46c69697`. Poprawna = jedyna najdłuższa: **81/750 = 10,80%**; maksimum działu **14,61%**. Kompetencje teorii <6: **30**.
@@ -21,6 +27,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x325 — nalepka zasłonięta przez wyposażenie](raporty/etap-4x325-nalepka-zaslonieta-przez-wyposazenie-2026-11-03.md)
 
 - [Etap 4x324 — numer UN: wysokość oznaczenia na opakowaniu](raporty/etap-4x324-numer-un-wysokosc-oznaczenia-2026-11-03.md)
 
