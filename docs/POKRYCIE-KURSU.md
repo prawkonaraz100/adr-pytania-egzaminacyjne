@@ -1,4 +1,14 @@
-**Stan aktualny po etapie 4x327: 03.11.2026.**
+**Stan aktualny po etapie 4x328: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x328
+
+- Bank: **754** pytań, 754 `needs_review`, 0 `verified`; SHA `a8e7354f8f27c9f69d0e2b61742f2ac9dea9244a`.
+- ADR-B-0754 do ADR-B-06-K06: szczególne znaczenie numeru zagrożenia 22 — gaz skroplony schłodzony, działający dusząco (ADR 2025, 5.3.2.3.1–5.3.2.3.2).
+- Moduł ADR-B-06: **64** pytania; kompetencja K06: 5→6.
+- Rozkład prawidłowych opcji: A=253, B=272, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/754 = 10,74%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **26** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x328-szczegolne-znaczenie-numeru-22-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x327
 
@@ -1000,7 +1010,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 87 | 0 | Lekcja + mapa pytań |
-| ADR-B-06 | Oznakowanie | 9/9 | 0 | 63 | 0 | Lekcja + mapa pytań |
+| ADR-B-06 | Oznakowanie | 9/9 | 0 | 64 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
@@ -1008,7 +1018,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **753** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **754** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
