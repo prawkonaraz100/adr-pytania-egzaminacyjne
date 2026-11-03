@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0766
+# Aktualny rejestr specjalisty — ADR-B-0001–0767
 
-Etap 4x340 (03.11.2026). Bank: 766 pytań, 766 `needs_review`, 0 `verified`. SHA `c239993abadeca16db4e1df9a1706f9d47276517`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **14** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x341 (03.11.2026). Bank: 767 pytań, 767 `needs_review`, 0 `verified`. SHA `701e9768435d9ca39f34690386dfa10482f86da8`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **13** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -772,3 +772,5 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **14** (3 praktyczne pominięt
 | ADR-B-0765 | ADR-B-09 | ADR-B-09-K03 | Czy przegroda CV28 musi sięgać co najmniej do wysokości przesyłek? | B | ADR 2025, 7.5.4; 7.5.11 CV28 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0766 | ADR-B-09 | ADR-B-09-K04 | Przewozisz opakowania kombinowane, w których opakowania wewnętrzne zawierają po 750 ml cieczy niebezpiecznej. Jak powinny być oznakowane strzałkami kierunkowymi? | B | ADR 2025, 5.2.1.10.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0767 | ADR-B-09 | ADR-B-09-K05 | Na palecie masz dwa rodzaje sztuk przesyłek ADR. Każdy typ osobno jest przeznaczony do piętrzenia, ale nie ma potwierdzenia, że można je ustawić razem w jednym stosie. Jak postępujesz? | B | ADR 2025, 7.5.7.2 | — | NIEROZSTRZYGNIĘTE | needs_review |

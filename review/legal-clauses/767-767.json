@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0767",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 7.5.7.2",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0767",
+      "order": 767,
+      "clause": "ADR 2025, 7.5.7.2",
+      "question_snapshot": {
+        "id": "ADR-B-0767",
+        "module_id": "ADR-B-09",
+        "stem": "Na palecie masz dwa rodzaje sztuk przesyłek ADR. Każdy typ osobno jest przeznaczony do piętrzenia, ale nie ma potwierdzenia, że można je ustawić razem w jednym stosie. Jak postępujesz?",
+        "options": {
+          "A": "Możesz je połączyć, bo oznaczenie każdego typu osobno wystarcza i nie trzeba sprawdzać zgodności.",
+          "B": "Najpierw trzeba ocenić zgodność obu typów; bez potwierdzenia nie łączysz ich w jeden stos.",
+          "C": "Wystarczy ułożyć cięższe opakowania na dole i spiąć cały stos pasem mocującym bez dodatkowej oceny."
+        },
+        "correct_option": "B",
+        "explanation": "To, że każdy rodzaj opakowania osobno nadaje się do piętrzenia, nie oznacza jeszcze, że można bezpiecznie ustawić je razem. Przy różnych konstrukcjach trzeba ocenić ich wzajemną zgodność; gdy jej nie potwierdzisz, nie twórz wspólnego stosu i poproś o rozdzielenie ładunku lub potwierdzenie sposobu ułożenia. Samo ułożenie cięższych sztuk na dole i spięcie pasem nie zastępuje tej oceny. Podstawa: ADR 2025, 7.5.7.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.2 — wzajemna zgodność piętrzenia różnych rodzajów opakowań zaprojektowanych do piętrzenia",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Samo indywidualne przeznaczenie obu opakowań do piętrzenia nie potwierdza zgodności ich różnych konstrukcji."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR wymaga uwzględnienia wzajemnej zgodności różnych typów opakowań przeznaczonych do piętrzenia."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Kolejność według masy i pas mocujący nie zastępują oceny zgodności piętrzenia."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy wyłącznie wzajemnej zgodności różnych rodzajów opakowań, które osobno są przeznaczone do piętrzenia. Wymóg oceny zgodności wynika z ADR 7.5.7.2.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

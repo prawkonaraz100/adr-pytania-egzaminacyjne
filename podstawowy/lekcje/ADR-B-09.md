@@ -338,3 +338,6 @@ Jeżeli opakowanie kombinowane zawiera opakowania wewnętrzne z cieczą, sprawd�
 
 
 Pytanie bankowe powiązane z tym działem: **ADR-B-0766** — oznakowanie strzałkami kierunkowymi na dwóch przeciwległych pionowych bokach opakowania.
+
+
+Pytanie bankowe powiązane z tym działem: **ADR-B-0767** — ocena wzajemnej zgodności piętrzenia różnych typów opakowań.
