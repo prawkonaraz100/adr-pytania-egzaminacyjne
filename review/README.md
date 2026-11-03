@@ -1,5 +1,9 @@
 **Stan aktualny po etapie 4x340: 03.11.2026.**
 
+## Bieżąca migawka — etap 4x344
+
+Bank: 770 pytań, 770 `needs_review`, 0 `verified`; SHA `d96529ee430bb92d93c6067033a90470e51861b7`. Kompetencje teorii <6: 10. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0765.md`; raport: `podstawowy/raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md`.
+
 ## Bieżąca migawka — etap 4x343
 
 Bank: 769 pytań, 769 `needs_review`, 0 `verified`; SHA `1e385ca71f77ac772ac24945c370db41679752b7`. Kompetencje teorii <6: 11. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0765.md`; raport: `podstawowy/raporty/etap-4x343-warunek-czyszczenia-po-rozladunku-2026-11-03.md`.

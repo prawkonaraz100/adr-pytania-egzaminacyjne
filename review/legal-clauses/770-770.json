@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0770",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 1.1.4.2.1 and 5.4.1.1.7",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0770",
+      "order": 770,
+      "clause": "ADR 2025, 1.1.4.2.1; 5.4.1.1.7",
+      "question_snapshot": {
+        "id": "ADR-B-0770",
+        "module_id": "ADR-B-10",
+        "stem": "Towar jest niebezpieczny według ADR, ale zgodnie z IMDG Code jest uznawany za niebędący towarem niebezpiecznym. Czy w łańcuchu drogowym i morskim można zastosować odstępstwo z ADR 1.1.4.2.1 i wpisać w dokumencie „PRZEWÓZ ZGODNY Z 1.1.4.2.1”?",
+        "options": {
+          "A": "Tak, ponieważ sam udział przewozu morskiego pozwala stosować 1.1.4.2.1 i wymaga wpisu.",
+          "B": "Nie; taki towar jest wyłączony z odstępstwa, więc nie można powołać się na 1.1.4.2.1.",
+          "C": "Tak, jeśli przewoźnik wpisze w dokumencie numer 1.1.4.2.1 i zachowa oznakowanie morskie."
+        },
+        "correct_option": "B",
+        "explanation": "Samo połączenie przewozu drogowego i morskiego nie wystarcza, aby skorzystać z tego odstępstwa. ADR wyłącza z 1.1.4.2.1 towary, które są niebezpieczne według ADR, ale według przepisów morskich są uznawane za nie-niebezpieczne. Nie można więc użyć wymaganego wpisu jako uzasadnienia dla odstępstwa, które w tej sytuacji nie przysługuje; na drogowym odcinku trzeba spełnić właściwe wymagania ADR. Podstawa: ADR 2025, 1.1.4.2.1 i 5.4.1.1.7.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.1 — końcowe zastrzeżenie wyłączające towary niebezpieczne według ADR, które są uznawane za niebędące towarami niebezpiecznymi według IMDG Code lub ICAO Technical Instructions; wpis dokumentowy określa 5.4.1.1.7",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Sam udział odcinka morskiego nie wystarcza; odstępstwo ma wyraźne wyłączenie dla towarów ADR uznanych za nie-niebezpieczne według IMDG/ICAO."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Towary wskazane w końcowym zastrzeżeniu 1.1.4.2.1 nie mogą korzystać z tego odstępstwa."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wpis w dokumencie nie tworzy prawa do odstępstwa, które jest wyłączone dla danej klasyfikacji."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy wyłączenia z 1.1.4.2.1, a nie samego wymogu wpisu 5.4.1.1.7. Jeżeli odstępstwo nie może być stosowane, nie wolno powoływać się na ten wpis jako podstawę jego zastosowania.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

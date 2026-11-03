@@ -1,8 +1,8 @@
-**Stan na 03.11.2026, etap 4x343**
+**Stan na 03.11.2026, etap 4x344**
 
-**Stan 4x343:** 769 `needs_review`, 0 `verified`; SHA `1e385ca71f77ac772ac24945c370db41679752b7`. Poprawna = jedyna najdłuższa: **83/769 = 10,79%**; kompetencje teorii <6: **11**.
+**Stan 4x344:** 770 `needs_review`, 0 `verified`; SHA `d96529ee430bb92d93c6067033a90470e51861b7`. Poprawna = jedyna najdłuższa: **83/770 = 10,78%**; kompetencje teorii <6: **10**.
 
-- [Etap 4x343 — warunek czyszczenia po rozładunku](raporty/etap-4x343-warunek-czyszczenia-po-rozladunku-2026-11-03.md)
+- [Etap 4x344 — wyłączenie odstępstwa ADR 1.1.4.2.1](raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md)
 
 **Stan na 03.11.2026, etap 4x339**
 
@@ -73,6 +73,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x344 — wyłączenie odstępstwa ADR 1.1.4.2.1](raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md)
 
 - [Etap 4x343 — warunek czyszczenia po rozładunku](raporty/etap-4x343-warunek-czyszczenia-po-rozladunku-2026-11-03.md)
 
