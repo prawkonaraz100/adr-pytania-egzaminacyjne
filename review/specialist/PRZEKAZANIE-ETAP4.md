@@ -1,4 +1,13 @@
-**Stan aktualny po etapie 4x346: 03.11.2026.**
+**Stan aktualny po etapie 4x347: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x347
+
+- Bank: **773** pytań, 773 `needs_review`, 0 `verified`; SHA `996c04867b69106382e88188c10d6253e36479e2`.
+- ADR-B-0773 do ADR-B-11-K07: po bezpiecznej ewakuacji kierowca przekazuje ratownikom dostępne informacje o zdarzeniu i towarach niebezpiecznych oraz udostępnia dokument przewozowy, jeśli jest bezpiecznie dostępny; nie wraca po niego do strefy zagrożenia (ADR 5.4.3.4).
+- Moduł ADR-B-11: **46** pytań; kompetencja K07: 5→6.
+- Rozkład A/B/C: **257/286/230**; poprawna jedyna najdłuższa: **84/773 = 10,87%**; maksimum działu: 15,22%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **7**.
+- Raport: `podstawowy/raporty/etap-4x347-pozar-tunel-informacje-dla-ratownikow-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x346
 
