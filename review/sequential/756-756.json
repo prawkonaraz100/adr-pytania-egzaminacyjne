@@ -1,0 +1,46 @@
+{
+  "batch": "756-756",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0756",
+      "sequence": 756,
+      "exact_record_snapshot": {
+        "stem": "Na górnym polu tablicy ADR odczytujesz numer zagrożenia 86. Jak powinieneś przekazać znaczenie tego kodu ratownikom?",
+        "options": {
+          "A": "Jako substancję żrącą lub słabo żrącą, która jest jednocześnie toksyczna; oba zagrożenia trzeba uwzględnić.",
+          "B": "Jako substancję silnie żrącą i toksyczną, ponieważ każda kombinacja z cyfrą 8 oznacza najwyższy poziom żrącości.",
+          "C": "Jako substancję utleniającą i toksyczną; cyfra 8 opisuje tu nasilenie palności, nie działanie żrące."
+        },
+        "correct_option": "A",
+        "explanation": "Numer 86 oznacza substancję żrącą lub słabo żrącą, która jest jednocześnie toksyczna. Cyfra 8 wskazuje na działanie żrące, a 6 na toksyczność, więc ratownicy muszą znać oba zagrożenia. Odpowiedź B myli kod 86 z 88, który oznacza substancję silnie żrącą; C błędnie przypisuje cyfrze 8 znaczenie utleniające. Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.2 — 86: substancja żrąca lub słabo żrąca, toksyczna",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 5.3.2.3.2: hazard identification number 86 indicates corrosive or slightly corrosive substance which is toxic; 8 describes corrosive hazard and 6 toxic hazard",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
