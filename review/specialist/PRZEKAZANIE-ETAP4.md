@@ -1,15 +1,15 @@
-**Stan aktualny po etapie 4x343: 03.11.2026.**
+**Stan aktualny po etapie 4x344: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x343
+## Bieżąca migawka — etap 4x344
 
-- Bank: **769** pytań, 769 `needs_review`, 0 `verified`; SHA `1e385ca71f77ac772ac24945c370db41679752b7`.
-- ADR-B-0769 dodano do ADR-B-09-K07: obowiązek czyszczenia po rozładunku sztuk przesyłek powstaje, gdy stwierdzono uwolnienie części zawartości (ADR 2025, 7.5.8.1).
-- Moduł ADR-B-09: **62** pytania; kompetencja K07: 5→6.
-- Rozkład prawidłowych opcji: A=257, B=283, C=229.
-- Globalny wskaźnik: **83/769 = 10,79%**; maksimum działu: 14,61%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **11**.
-- Explanation: 412 znaków / 4 zdania; wszystkie pytania `needs_review`.
-- Raport: `podstawowy/raporty/etap-4x343-warunek-czyszczenia-po-rozladunku-2026-11-03.md`.
+- Bank: **770** pytań, 770 `needs_review`, 0 `verified`; SHA `d96529ee430bb92d93c6067033a90470e51861b7`.
+- ADR-B-0770 dodano do ADR-B-10-K02: wyłączenie z odstępstwa 1.1.4.2.1 dla towarów niebezpiecznych według ADR, które według IMDG/ICAO są uznawane za niebędące towarami niebezpiecznymi.
+- Moduł ADR-B-10: **57** pytań; kompetencja K02: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=284, C=229.
+- Globalny wskaźnik: **83/770 = 10,78%**; maksimum działu: 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **10**.
+- Explanation: 437 znaków / 4 zdania; wszystkie pytania `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md`.
 
 **Stan aktualny po etapie 4x338: 03.11.2026.**
 
