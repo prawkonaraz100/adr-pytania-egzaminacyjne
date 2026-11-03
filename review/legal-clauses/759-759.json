@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0759",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 8.1.4.4–8.1.4.5",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0759",
+      "order": 759,
+      "clause": "ADR 2025, 8.1.4.4–8.1.4.5",
+      "question_snapshot": {
+        "id": "ADR-B-0759",
+        "module_id": "ADR-B-08",
+        "stem": "Przed wyjazdem sprawdzasz gaśnicę ADR. Plomba jest nienaruszona, a etykieta podaje maksymalny dopuszczalny okres użytkowania, ale nie ma osobnej daty następnej kontroli. Czy sam brak tej daty oznacza niezgodność?",
+        "options": {
+          "A": "Tak. ADR wymaga, aby na każdej gaśnicy zawsze podano datę miesiąca i roku następnej kontroli, bez żadnej alternatywy.",
+          "B": "Nie. ADR dopuszcza oznaczenie daty następnej kontroli albo, odpowiednio, maksymalnego dopuszczalnego okresu użytkowania.",
+          "C": "Nie. Wystarczy nienaruszona plomba, ponieważ oznaczenie terminu kontroli lub użytkowania jest dobrowolne."
+        },
+        "correct_option": "B",
+        "explanation": "Nie każda gaśnica musi mieć osobną datę kolejnej kontroli, jeśli jest prawidłowo oznaczona maksymalnym dopuszczalnym okresem użytkowania. ADR dopuszcza te dwa sposoby oznaczenia odpowiednio do przypadku, ale wymaga też okresowych kontroli i nieprzekraczania właściwego terminu podczas przewozu. Sama plomba potwierdza tylko, że gaśnicy nie użyto; nie zastępuje oznaczenia ani kontroli. Podstawa: ADR 2025, 8.1.4.4–8.1.4.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.4–8.1.4.5 — plomba, oznaczenie daty następnej kontroli lub maksymalnego okresu użytkowania, kontrole okresowe i nieprzekraczanie terminu",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Przepis dopuszcza oznaczenie daty następnej kontroli albo, odpowiednio, maksymalnego dopuszczalnego okresu użytkowania."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "To odzwierciedla alternatywne sposoby oznaczenia wskazane w ADR 8.1.4.4."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Plomba nie zastępuje wymaganego oznaczenia ani okresowych kontroli."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy wyłącznie formy oznaczenia; nie zwalnia z okresowych kontroli ani z obowiązku nieprzekraczania właściwego terminu podczas przewozu.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
