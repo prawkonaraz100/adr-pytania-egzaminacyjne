@@ -463,3 +463,8 @@ Instrukcje pisemne dopuszczają użycie gaśnicy przy małym lub początkowym po
 ### Elektroniczny dokument przewozowy musi być dostępny — ADR-B-0744
 
 ADR dopuszcza dokumentację elektroniczną, ale wymagane dane muszą być dostępne podczas przewozu z wiarygodnością i dostępnością co najmniej równoważną dokumentowi papierowemu. Jeśli brak zasięgu uniemożliwia otwarcie dokumentu, ratownicy nie mogą szybko ustalić, jaki towar jest przewożony. Zapewnij więc rzeczywisty dostęp do pełnych danych i nie polegaj wyłącznie na połączeniu z siecią. Podstawa: ADR 2025, 5.4.0.2 i 5.4.3.4.
+
+
+### Skażone rękawice po kontakcie z substancją — ADR-B-0745
+
+Rękawice, które miały kontakt z uwolnioną substancją, traktuj jako skażone nawet wtedy, gdy nie widać na nich plamy. Nie zakładaj ich ponownie ani nie przechowuj w kabinie; użyte skażone środki ochronne trzeba zdjąć i zapewnić ich bezpieczne usunięcie. Postępuj tak, aby nie przenosić substancji na skórę, wyposażenie ani inne osoby. Podstawa: ADR 2025, 5.4.3.4.

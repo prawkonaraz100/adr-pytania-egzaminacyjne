@@ -1,3 +1,21 @@
+**Stan na 03.11.2026, etap 4x319**
+
+## Bieżąca migawka — etap 4x319
+
+- Bank: **745** pytań, 745 `needs_review`, 0 `verified`; SHA `c53063274e59f9c2d45da3e0c5ef58ca2f1f496a`.
+- ADR-B-0745 do ADR-B-05-K08: postępowanie ze skażonymi rękawicami i użytymi środkami ochrony (ADR 2025, 5.4.3.4).
+- Moduł ADR-B-05: **83** pytania; kompetencja K08: 5→6.
+- Rozkład prawidłowych opcji: A=249, B=268, C=228.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/745 = 10,87%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **35** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x319-skazone-rekawice-srodki-ochrony-2026-11-03.md`.
+
+**Stan 4x319:** 745 `needs_review`, 0 `verified`; SHA `c53063274e59f9c2d45da3e0c5ef58ca2f1f496a`. Poprawna = jedyna najdłuższa: **81/745 = 10,87%**; maksimum działu **14,61%**. Kompetencje teorii <6: **35**.
+
+## Raporty jakości
+
+- [Etap 4x319 — skażone rękawice i środki ochrony](raporty/etap-4x319-skazone-rekawice-srodki-ochrony-2026-11-03.md)
+
 **Stan na 02.11.2026, etap 4x318**
 
 **Stan 4x318:** 744 `needs_review`, 0 `verified`; SHA `2c20fa651689bb224e88f2d52775207ad6d864eb`. Poprawna = jedyna najdłuższa: **81/744 = 10,89%**; maksimum działu **14,61%**. Kompetencje teorii <6: **36**.

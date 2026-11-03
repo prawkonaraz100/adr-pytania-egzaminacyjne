@@ -1,4 +1,10 @@
-## Bieżąca migawka — etap 4x318
+## Bieżąca migawka — etap 4x319
+
+Raport: `podstawowy/raporty/etap-4x319-skazone-rekawice-srodki-ochrony-2026-11-03.md`.
+
+**Bieżący stan po etapie 4x319 (03.11.2026): bank 745 pytań, 745 `needs_review`, 0 `verified`; SHA `c53063274e59f9c2d45da3e0c5ef58ca2f1f496a`; kompetencje teorii <6: 35. Rejestr: `REJESTR-AKTUALNY-0001-0745.md`.**
+
+## Poprzednia migawka — etap 4x318
 
 Raport: `podstawowy/raporty/etap-4x318-elektroniczny-dokument-przewozowy-dostepnosc-2026-11-02.md`.
 
