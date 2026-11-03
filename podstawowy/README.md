@@ -1,3 +1,7 @@
+**Stan na 03.11.2026, etap 4x331**
+
+**Stan 4x331:** 757 `needs_review`, 0 `verified`; SHA `6fa58d5fc5cdf2063883ff77747d5624cb6406e8`. Poprawna = jedyna najdłuższa: **81/757 = 10,70%**; maksimum działu **14,61%**. Kompetencje teorii <6: **23**.
+
 **Stan na 03.11.2026, etap 4x330**
 
 **Stan 4x330:** 756 `needs_review`, 0 `verified`; SHA `28a535b640a1e6fc8ff23e2bfc9b746bd1f58908`. Poprawna = jedyna najdłuższa: **81/756 = 10,71%**; maksimum działu **14,61%**. Kompetencje teorii <6: **24**.
@@ -57,6 +61,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x331 — odbiorca: kontrola wymagań ADR po rozładunku](raporty/etap-4x331-odbiorca-kontrola-po-rozladunku-2026-11-03.md)
 
 - [Etap 4x330 — numer zagrożenia 86: materiał żrący i toksyczny](raporty/etap-4x330-numer-zagrozenia-86-material-zracy-toksyczny-2026-11-03.md)
 
