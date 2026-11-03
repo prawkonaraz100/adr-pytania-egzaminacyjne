@@ -1,6 +1,16 @@
-**Stan aktualny po etapie 4x324: 03.11.2026.**
+**Stan aktualny po etapie 4x325: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x324
+## Bieżąca migawka — etap 4x325
+
+- Bank: **751** pytań, 751 `needs_review`, 0 `verified`; SHA `fed909b6dec8fbaece0f391f4f2b78df55cb68f5`.
+- ADR-B-0751 do ADR-B-06-K02: zabezpieczenie nalepek przed zasłonięciem przez pas lub część wyposażenia oraz rozmieszczenie wymaganych nalepek blisko siebie (ADR 2025, 5.2.2.1.6(b)–(c)).
+- Moduł ADR-B-06: **61** pytań; kompetencja K02: 5→6.
+- Rozkład prawidłowych opcji: A=252, B=270, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/751 = 10,79%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **29** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x325-nalepka-zaslonieta-przez-wyposazenie-2026-11-03.md`.
+
+## Poprzednia migawka — etap 4x324
 
 - Bank: **750** pytań, 750 `needs_review`, 0 `verified`; SHA `7ee34699938fde20813e3149e188e37b46c69697`.
 - ADR-B-0750 do ADR-B-06-K01: wysokość liter „UN” i cyfr numeru UN na opakowaniu o pojemności 20 l — minimum 6 mm (ADR 2025, 5.2.1.1).
