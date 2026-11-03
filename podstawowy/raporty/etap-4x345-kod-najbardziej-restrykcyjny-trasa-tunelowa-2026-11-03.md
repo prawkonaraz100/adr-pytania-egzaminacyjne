@@ -36,7 +36,7 @@ Podstawa: ADR 2025, 8.6.3.2 i 8.6.4 (Dz.U. 2025 poz. 642).
 - Dodano snapshoty `review/sequential/771-771.json` i `review/legal-clauses/771-771.json`.
 - Dodano rejestr partii i uzupełniono rejestr aktualny specjalisty bez duplikowania ID.
 - Uzupełniono pakiet specjalisty o 4x345, SHA banku i licznik kompetencji.
-- Zaktualizowano `docs/POKRYCIE-KURSU.md`: ADR-B-11 = 58, łącznie = 771.
+- Zaktualizowano `docs/POKRYCIE-KURSU.md`: ADR-B-11 = 44, łącznie = 771.
 
 Pełne porównanie tekstu polskiego ADR 2025 i niezależna recenzja specjalisty pozostają otwarte.
 
