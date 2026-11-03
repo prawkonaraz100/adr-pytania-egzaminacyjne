@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0755
+# Aktualny rejestr specjalisty — ADR-B-0001–0756
 
-Etap 4x329 (03.11.2026). Bank: 755 pytań, 755 `needs_review`, 0 `verified`. SHA `9b6cf3e78af2fd49a2fcbe99b1fb10a8021904e1`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **25** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x330 (03.11.2026). Bank: 756 pytań, 756 `needs_review`, 0 `verified`. SHA `28a535b640a1e6fc8ff23e2bfc9b746bd1f58908`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **24** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -760,3 +760,4 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **25** (3 praktyczne pominięt
 | ADR-B-0753 | ADR-B-06 | ADR-B-06-K05 | Tolerancja ±10% wymiarów tablicy pomarańczowej | B | ADR 2025, 5.3.2.2.1 i 5.3.2.2.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0754 | ADR-B-06 | ADR-B-06-K06 | Szczególne znaczenie numeru 22 — gaz skroplony schłodzony, duszący | B | ADR 2025, 5.3.2.3.1–5.3.2.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0755 | ADR-B-06 | ADR-B-06-K07 | Odblaskowość tablicy pomarańczowej na pojeździe drogowym | B | ADR 2025, 5.3.2.2.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0756 | ADR-B-06 | ADR-B-06-K08 | Numer zagrożenia 86 — materiał żrący lub słabo żrący i toksyczny | A | ADR 2025, 5.3.2.3.1–5.3.2.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
