@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0778
+# Aktualny rejestr specjalisty — ADR-B-0001–0779
 
-Etap 4x352 (03.11.2026). Bank: 778 pytań, 778 `needs_review`, 0 `verified`. SHA `ab9c275f699c82c76357be53051250d404cba85d`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **2** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x353 (03.11.2026). Bank: 779 pytań, 779 `needs_review`, 0 `verified`. SHA `6c816f78f6e83644ed8667311de9c1fb4d95bebc`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **1** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -798,3 +798,7 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **2** (3 praktyczne pominięte
 
 | ADR-B-0778 | ADR-B-13 | ADR-B-13-K05 | Podczas kontroli przed odjazdem kierowca zauważa, że dokumenty tożsamości ze zdjęciem obu członków załogi są schowane w zamykanej skrzynce narzędziowej na zewnątrz kabiny. Czy miejsce ich przechowywania spełnia ADR? | B | ADR 2025, 8.1.2.1(d); 1.10.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
+
+| ADR-B-0779 | ADR-B-13 | ADR-B-13-K06 | Przewóz ADR w łańcuchu morsko-drogowym jest dokumentowany w systemie EDI. Elektroniczny dokument zawiera dane towaru i odbiorcy, ale nie ma wpisu „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Nadawca twierdzi, że wpis dotyczy tylko dokumentów papierowych. Co powinien zrobić przewoźnik? | B | ADR 2025, 5.4.1.1.7; 5.4.0.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0779 | ADR-B-13 | ADR-B-13-K06 | Przewóz ADR w łańcuchu morsko-drogowym jest dokumentowany w systemie EDI. Elektroniczny dokument zawiera dane towaru i odbiorcy, ale nie ma wpisu „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Nadawca twierdzi, że wpis dotyczy tylko dokumentów papierowych. Co powinien zrobić przewoźnik? | B | ADR 2025, 5.4.1.1.7; 5.4.0.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
