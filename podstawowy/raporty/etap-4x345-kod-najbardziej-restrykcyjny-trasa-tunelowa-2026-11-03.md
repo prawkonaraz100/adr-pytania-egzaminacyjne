@@ -26,7 +26,7 @@ Podstawa: ADR 2025, 8.6.3.2 i 8.6.4 (Dz.U. 2025 poz. 642).
 
 - Bank: **771** pytań, 771 `needs_review`, 0 `verified`; blob SHA `0467701668f4ff28139fb72ab341100b67df4268`.
 - Kompetencje teorii z mniej niż 6 pytaniami: **9** (3 praktyczne pominięte).
-- ADR-B-11: **58** pytań.
+- ADR-B-11: **44** pytania.
 - Rozkład kluczy A/B/C: **257/285/229**.
 - Poprawna odpowiedź jest jedyną najdłuższą: **83/771 = 10.77%**; ADR-B-11: 6/44 = 13.64%.
 
