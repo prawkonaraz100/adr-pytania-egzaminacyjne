@@ -1,0 +1,48 @@
+{
+  "batch": "754-754",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0754",
+      "sequence": 754,
+      "exact_record_snapshot": {
+        "id": "ADR-B-0754",
+        "module_id": "ADR-B-06",
+        "stem": "W górnym polu tablicy pomarańczowej odczytujesz numer 22. Znasz zasadę, że powtórzona cyfra zwykle wzmacnia zagrożenie. Co musisz sprawdzić przed zastosowaniem tej zasady?",
+        "options": {
+          "A": "Odczytać go tylko jako podwójne nasilenie zagrożenia emisją gazu, bez dodatkowego znaczenia przypisanego kodowi 22.",
+          "B": "Rozpoznać szczególny kod: gaz skroplony schłodzony o działaniu duszącym, zgodnie z tabelą znaczeń numerów ADR.",
+          "C": "Uznać, że każda z dwóch cyfr opisuje osobne zagrożenie gazowe i sprawdzić je jako dwa niezależne wpisy."
+        },
+        "correct_option": "B",
+        "explanation": "Nie każdy numer z powtórzoną cyfrą odczytuje się wyłącznie według ogólnej zasady nasilenia. Kod 22 ma w ADR szczególne znaczenie: oznacza gaz skroplony schłodzony, działający dusząco. Odpowiedź A pomija wyjątek wpisany w tabeli, a C błędnie rozdziela cyfry na dwa osobne zagrożenia. Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1–5.3.2.3.2 — szczególne znaczenie numeru 22",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 5.3.2.3.1–5.3.2.3.2: general rule that doubled figures intensify a hazard; special code 22 means refrigerated liquefied gas, asphyxiant",
+      "supplementary_source_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
