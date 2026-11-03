@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0768",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 7.5.7.1",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0768",
+      "order": 768,
+      "clause": "ADR 2025, 7.5.7.1",
+      "question_snapshot": {
+        "id": "ADR-B-0768",
+        "module_id": "ADR-B-09",
+        "stem": "Po zapięciu pasów kartony ADR mają niewielki sprężysty luz, ale nie przesuwają się tak, by zmienić ustawienie lub ulec uszkodzeniu. Czy kierowca powinien dociągnąć pasy do maksymalnego napięcia?",
+        "options": {
+          "A": "Tak, należy usunąć każdy minimalny luz, nawet jeśli opakowania nie zmieniają położenia i nie są narażone na uszkodzenie.",
+          "B": "Nie; mocowanie ma zapobiegać ruchom zmieniającym ustawienie lub powodującym uszkodzenie opakowań.",
+          "C": "Tak, bo ładunek musi być całkowicie nieruchomy, a mocniejsze pasy zawsze zwiększają bezpieczeństwo."
+        },
+        "correct_option": "B",
+        "explanation": "Nie dąż do maksymalnego napięcia pasów. Ich zadaniem jest powstrzymać takie przesunięcie, które zmieniłoby ustawienie sztuk przesyłek albo mogłoby je uszkodzić; niewielki sprężysty luz, który nie powoduje tych skutków, nie uzasadnia zgniatania opakowań. Zbyt mocno napięte pasy mogą zdeformować kartony lub inne opakowania. Podstawa: ADR 2025, 7.5.7.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.1 — zabezpieczenie ma zapobiegać ruchom zmieniającym ustawienie lub uszkadzającym sztuki przesyłek; pasy nie mogą być nadmiernie napięte i powodować uszkodzeń lub deformacji",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "ADR nie wymaga maksymalnego napięcia, jeśli nie jest potrzebne do powstrzymania ruchu zmieniającego ustawienie lub powodującego uszkodzenie."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Mocowanie ma zapobiegać niebezpiecznym przemieszczeniom, a pasy nie mogą uszkadzać ani deformować opakowań."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Bezwzględne unieruchomienie i mocniejsze napięcie nie są celem przepisu; nadmierny nacisk może uszkodzić opakowanie."
+        }
+      },
+      "notes_on_conditions": "Pytanie rozróżnia wymagane powstrzymanie ruchu zmieniającego ustawienie lub powodującego uszkodzenie od dążenia do maksymalnego napięcia pasów. Nie oznacza zgody na ruch mogący zagrozić sztuce przesyłki.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

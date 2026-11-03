@@ -1,8 +1,8 @@
-**Stan na 03.11.2026, etap 4x341**
+**Stan na 03.11.2026, etap 4x342**
 
-**Stan 4x341:** 767 `needs_review`, 0 `verified`; SHA `701e9768435d9ca39f34690386dfa10482f86da8`. Poprawna = jedyna najdłuższa: **83/767 = 10,82%**; kompetencje teorii <6: **13**.
+**Stan 4x342:** 768 `needs_review`, 0 `verified`; SHA `6bed8107be2b93ad39b5772b3e3887fabf661033`. Poprawna = jedyna najdłuższa: **83/768 = 10,81%**; kompetencje teorii <6: **12**.
 
-- [Etap 4x341 — zgodność piętrzenia różnych konstrukcji](raporty/etap-4x341-pietrzenie-rozne-konstrukcje-zgodnosc-2026-11-03.md)
+- [Etap 4x342 — napięcie pasów mocujących](raporty/etap-4x342-napiecie-pasow-ruch-a-deformacja-2026-11-03.md)
 
 **Stan na 03.11.2026, etap 4x339**
 
@@ -73,6 +73,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x342 — napięcie pasów mocujących](raporty/etap-4x342-napiecie-pasow-ruch-a-deformacja-2026-11-03.md)
 
 - [Etap 4x341 — zgodność piętrzenia różnych konstrukcji](raporty/etap-4x341-pietrzenie-rozne-konstrukcje-zgodnosc-2026-11-03.md)
 

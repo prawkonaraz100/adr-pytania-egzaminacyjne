@@ -341,3 +341,6 @@ Pytanie bankowe powiązane z tym działem: **ADR-B-0766** — oznakowanie strza�
 
 
 Pytanie bankowe powiązane z tym działem: **ADR-B-0767** — ocena wzajemnej zgodności piętrzenia różnych typów opakowań.
+
+
+Pytanie bankowe powiązane z tym działem: **ADR-B-0768** — właściwe napięcie pasów mocujących.

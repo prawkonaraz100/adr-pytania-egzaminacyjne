@@ -1,15 +1,15 @@
-**Stan aktualny po etapie 4x341: 03.11.2026.**
+**Stan aktualny po etapie 4x342: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x341
+## Bieżąca migawka — etap 4x342
 
-- Bank: **767** pytań, 767 `needs_review`, 0 `verified`; SHA `701e9768435d9ca39f34690386dfa10482f86da8`.
-- ADR-B-0767 dodano do ADR-B-09-K05: przed połączeniem różnych konstrukcji opakowań w jeden stos trzeba ocenić ich wzajemną zgodność piętrzenia (ADR 2025, 7.5.7.2).
-- Moduł ADR-B-09: **60** pytań; kompetencja K05: 5→6.
-- Rozkład prawidłowych opcji: A=257, B=281, C=229.
-- Globalny wskaźnik: **83/767 = 10,82%**; maksimum działu: 14,61%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **13**.
-- Explanation: 415 znaków / 4 zdania; wszystkie pytania `needs_review`.
-- Raport: `podstawowy/raporty/etap-4x341-pietrzenie-rozne-konstrukcje-zgodnosc-2026-11-03.md`.
+- Bank: **768** pytań, 768 `needs_review`, 0 `verified`; SHA `6bed8107be2b93ad39b5772b3e3887fabf661033`.
+- ADR-B-0768 dodano do ADR-B-09-K06: mocowanie ma powstrzymywać ruch zmieniający ustawienie lub powodujący uszkodzenie, bez nadmiernego napięcia pasów (ADR 2025, 7.5.7.1).
+- Moduł ADR-B-09: **61** pytań; kompetencja K06: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=282, C=229.
+- Globalny wskaźnik: **83/768 = 10,81%**; maksimum działu: 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **12**.
+- Explanation: 352 znaki / 4 zdania; wszystkie pytania `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x342-napiecie-pasow-ruch-a-deformacja-2026-11-03.md`.
 
 **Stan aktualny po etapie 4x338: 03.11.2026.**
 
