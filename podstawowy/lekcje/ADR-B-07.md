@@ -290,3 +290,10 @@ Jeżeli przewoźnik nie dostarczy ładunku w terminie, sam fakt opóźnienia nie
 Po rozładunku odbiorca powinien sprawdzić, czy wykonano wymagania ADR, które dotyczą go w tej operacji. Sam podpis dokumentu lub sprawdzenie liczby sztuk nie zastępuje tej kontroli. Podstawa: ADR 2025, 1.4.2.3.1.
 
 Powiązane pytanie: **ADR-B-0757**.
+
+
+### Szkoda wyrządzona osobie trzeciej — odpowiedzialność deliktowa — ADR-B-0758
+
+Jeżeli kierowca z winy uszkodzi mienie osoby, która nie jest stroną umowy przewozu, należy rozważyć odpowiedzialność za czyn niedozwolony z art. 415 Kodeksu cywilnego. Art. 471 dotyczy natomiast szkody wynikłej z niewykonania lub nienależytego wykonania zobowiązania. Odpowiedzialność konkretnej osoby zależy od ustalenia wszystkich wymaganych przesłanek. Podstawa: ADR 2025, 8.2.2.3.2(k); KC, art. 415 i 471.
+
+Powiązane pytanie: **ADR-B-0758**.
