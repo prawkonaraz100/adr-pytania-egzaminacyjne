@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0774",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 1.10.1.4 — photo identification for vehicle crew",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642",
+    "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0774",
+      "order": 774,
+      "clause": "ADR 2025, 1.10.1.4 — każdy członek załogi ma mieć przy sobie środek identyfikacji zawierający fotografię",
+      "question_snapshot": {
+        "id": "ADR-B-0774",
+        "module_id": "ADR-B-12",
+        "stem": "Podczas przewozu ADR kierowca ma przy sobie ważny paszport ze zdjęciem, ale nie ma polskiego dowodu osobistego. Czy spełnia wymóg ADR 1.10.1.4?",
+        "options": {
+          "A": "Tak. Wymagany jest środek identyfikacji ze zdjęciem; ADR nie ogranicza go do polskiego dowodu osobistego, a ważny paszport pozwala potwierdzić tożsamość.",
+          "B": "Nie. ADR dopuszcza wyłącznie polski dowód osobisty, dlatego paszport nie może służyć jako dokument członka załogi podczas przewozu towarów niebezpiecznych.",
+          "C": "Nie. Oprócz paszportu każdy członek załogi musi mieć osobny identyfikator przewoźnika ze zdjęciem, nawet gdy posiada już ważny dokument urzędowy."
+        },
+        "correct_option": "A",
+        "explanation": "Tak. ADR 1.10.1.4 wymaga, aby członek załogi miał przy sobie środek identyfikacji zawierający jego fotografię, ale nie wskazuje wyłącznie polskiego dowodu osobistego. Ważny paszport ze zdjęciem pozwala potwierdzić tożsamość. Dokument przewozowy ani karta zakładowa bez fotografii nie zastępują takiego dokumentu. Podstawa: ADR 1.10.1.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.4 — każdy członek załogi ma mieć przy sobie środek identyfikacji zawierający fotografię",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "ADR 1.10.1.4 wymaga środka identyfikacji zawierającego fotografię członka załogi. Przepis nie ogranicza dokumentu do polskiego dowodu osobistego, więc ważny paszport ze zdjęciem spełnia ten wymóg."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Przepis ADR nie wskazuje wyłącznie polskiego dowodu osobistego. Wymaga środka identyfikacji z fotografią, a ważny paszport spełnia tę funkcję."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "ADR 1.10.1.4 nie nakazuje posiadania osobnego identyfikatora przewoźnika, jeśli członek załogi ma już środek identyfikacji z fotografią."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy wymogu ADR 1.10.1.4 wobec członka załogi pojazdu. Nie rozstrzyga odrębnych wymagań prawa krajowego lub innych sytuacji, w których kierowca może potrzebować dodatkowych dokumentów.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

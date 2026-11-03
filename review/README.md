@@ -1,4 +1,8 @@
-**Stan aktualny po etapie 4x347: 03.11.2026.**
+**Stan aktualny po etapie 4x348: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x348
+
+Bank: 774 pytań, 774 `needs_review`, 0 `verified`; SHA `dddfd4d70c9e5e0e4050be60ccf1cc52163e82d9`. Kompetencje teorii <6: 6. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0774.md`; raport: `podstawowy/raporty/etap-4x348-paszport-dokument-identyfikacji-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x347
 

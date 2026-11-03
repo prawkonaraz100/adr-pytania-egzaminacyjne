@@ -1,13 +1,18 @@
-**Stan aktualny po etapie 4x347: 03.11.2026.**
+**Stan aktualny po etapie 4x348: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x348
+
+- Bank: **774** pytań, 774 `needs_review`, 0 `verified`; SHA `dddfd4d70c9e5e0e4050be60ccf1cc52163e82d9`.
+- ADR-B-0774 do ADR-B-12-K01: ważny paszport ze zdjęciem spełnia wymóg środka identyfikacji zawierającego fotografię; ADR 1.10.1.4 nie wskazuje wyłącznie polskiego dowodu osobistego.
+- Moduł ADR-B-12: **46** pytań; kompetencja K01: 5→6.
+- Rozkład A/B/C: **258/286/230**; poprawna jedyna najdłuższa: **84/774 = 10,85%**; maksimum działu: **15,22%**.
+- Kompetencje teorii <6: **6**.
+- Raport: `podstawowy/raporty/etap-4x348-paszport-dokument-identyfikacji-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x347
 
 - Bank: **773** pytań, 773 `needs_review`, 0 `verified`; SHA `996c04867b69106382e88188c10d6253e36479e2`.
 - ADR-B-0773 do ADR-B-11-K07: po bezpiecznej ewakuacji kierowca przekazuje ratownikom dostępne informacje o zdarzeniu i towarach niebezpiecznych oraz udostępnia dokument przewozowy, jeśli jest bezpiecznie dostępny; nie wraca po niego do strefy zagrożenia (ADR 5.4.3.4).
-- Moduł ADR-B-11: **46** pytań; kompetencja K07: 5→6.
-- Rozkład A/B/C: **257/286/230**; poprawna jedyna najdłuższa: **84/773 = 10,87%**; maksimum działu: 15,22%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **7**.
-- Raport: `podstawowy/raporty/etap-4x347-pozar-tunel-informacje-dla-ratownikow-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x346
 
