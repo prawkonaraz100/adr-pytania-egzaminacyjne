@@ -1,12 +1,12 @@
-**Stan aktualny po etapie 4x347: 03.11.2026.**
+**Stan aktualny po etapie 4x348: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x344
 
 - Bank: **773** pytań, 773 `needs_review`, 0 `verified`; SHA `996c04867b69106382e88188c10d6253e36479e2`.
 - ADR-B-0770: odstępstwo 1.1.4.2.1 nie obejmuje towarów niebezpiecznych według ADR, które według IMDG/ICAO są uznawane za niebędące towarami niebezpiecznymi (ADR 2025, 1.1.4.2.1).
 - Moduł ADR-B-10: **57** pytań; kompetencja K02: 5→6.
-- Rozkład prawidłowych opcji: A=257, B=286, C=230.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/773 = 10,87%**; maksimum działu to 15,22%.
+- Rozkład prawidłowych opcji: A=258, B=286, C=230.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/774 = 10,85%**; maksimum działu to 15,22%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **10** (3 praktyczne pominięte).
 - Explanation: 437 znaków; wszystkie pytania `needs_review`.
 - Raport: `podstawowy/raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md`.
@@ -1160,9 +1160,9 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 62 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 57 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 46 | 0 | Lekcja + mapa pytań |
-| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
+| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **773** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **774** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
