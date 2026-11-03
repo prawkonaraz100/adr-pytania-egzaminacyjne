@@ -2,10 +2,6 @@
 
 **Stan 4x324:** 750 `needs_review`, 0 `verified`; SHA `7ee34699938fde20813e3149e188e37b46c69697`. Poprawna = jedyna najdłuższa: **81/750 = 10,80%**; maksimum działu **14,61%**. Kompetencje teorii <6: **30**.
 
-**Stan na 03.11.2026, etap 4x323**
-
-**Stan 4x323:** 749 `needs_review`, 0 `verified`; SHA `a35f9ad50c4c76d404877cc1fa8eb515a7f1d749`. Poprawna = jedyna najdłuższa: **81/749 = 10,81%**; maksimum działu **14,61%**. Kompetencje teorii <6: **31**.
-
 **Stan na 03.11.2026, etap 4x322**
 
 **Stan 4x322:** 748 `needs_review`, 0 `verified`; SHA `29d91dfb906ddb9c1cc075ab0803b0e2311f8fd5`. Poprawna = jedyna najdłuższa: **81/748 = 10,83%**; maksimum działu **14,61%**. Kompetencje teorii <6: **32**.
