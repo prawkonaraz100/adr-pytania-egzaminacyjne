@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x324
+
+Raport: `podstawowy/raporty/etap-4x324-numer-un-wysokosc-oznaczenia-2026-11-03.md`.
+
+Bank 750 pytań; 750 `needs_review`, 0 `verified`; SHA `7ee34699938fde20813e3149e188e37b46c69697`; licznik kompetencji teorii <6: **30**. Rejestr `REJESTR-AKTUALNY-0001-0750.md`.
+
 ## Bieżąca migawka — etap 4x323
 
 Raport: `podstawowy/raporty/etap-4x323-gasnica-ochrona-przed-pogoda-2026-11-03.md`.
