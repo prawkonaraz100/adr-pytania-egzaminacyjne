@@ -6,16 +6,16 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **0** (3 praktyczne pominięte
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
 | ADR-B-0001 | ADR-B-01 | ADR-B-01-K02 | Jakie szkolenie powinien otrzymać pracownik nadawcy, którego obowiązki dotyczą przewozu towarów niebezpiecznych? | C | ADR 2025, 1.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0002 | ADR-B-01 | ADR-B-01-K04, ADR-B-01-K06 | Czy przewóz niewielkiej ilości towarów niebezpiecznych automatycznie zwalnia kierowcę ze wszystkich wymagań ADR? | B | ADR 2025, 1.1.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0002 | ADR-B-01 | ADR-B-01-K04, ADR-B-01-K06 | Czy przewóz niewielkiej ilości towarów niebezpiecznych automatycznie zwalnia kierowcę ze wszystkich wymagań ADR? | B | ADR 2025, 1.1.3.6.2; 1.1.3.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0003 | ADR-B-01 | ADR-B-01-K03 | Do czego służy zaświadczenie ADR kierowcy? | C | ADR 2025, 8.2.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0004 | ADR-B-02 | ADR-B-02-K03 | Do której klasy ADR należą materiały ciekłe zapalne, takie jak benzyna? | A | ADR 2025, 2.2.3.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0004 | ADR-B-02 | ADR-B-02-K03 | Do której klasy ADR należą materiały ciekłe zapalne, takie jak benzyna? | A | ADR 2025, 2.2.3.1.1; 3.2.1 Tabela A, UN 1203 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0005 | ADR-B-02 | ADR-B-02-K12 | Jakie zagrożenie oznacza klasa 8 ADR? | B | ADR 2025, 2.2.8.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0006 | ADR-B-02 | ADR-B-02-K06 | Która cecha jest charakterystyczna dla materiałów klasy 4.3 ADR? | C | ADR 2025, 2.2.43.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0007 | ADR-B-03 | ADR-B-03-K01 | Jaki symbol znajduje się na znaku dla materiałów zagrażających środowisku? | A | ADR 2025, 5.2.1.8 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0007 | ADR-B-03 | ADR-B-03-K01 | Jaki symbol znajduje się na znaku dla materiałów zagrażających środowisku? | A | ADR 2025, 5.2.1.8.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0008 | ADR-B-03 | ADR-B-03-K02 | W dokumencie przewozowym ADR dla odpadu niebezpiecznego niebędącego odpadem promieniotwórczym dodano słowo „ODPAD” przed prawidłową nazwą przewozową. Co to oznacza? | B | ADR 2025, 5.4.1.1.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0009 | ADR-B-03 | ADR-B-03-K03 | Podczas rozładunku sztuk przesyłek ADR stwierdzono, że zawartość jednego opakowania wyciekła i zabrudziła pojazd. Co należy zrobić przed ponownym załadunkiem? | B | ADR 2025, 7.5.8.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0010 | ADR-B-04 | ADR-B-04-K01 | Czy podczas czynności ładunkowych ADR wolno palić e-papierosa w pobliżu pojazdu? | C | ADR 2025, 8.3.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0011 | ADR-B-04 | ADR-B-04-K02 | Zakaz otwierania sztuki przesyłki przez kierowcę | C | ADR 2025, 8.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0009 | ADR-B-03 | ADR-B-03-K03 | Po zakończeniu rozładunku stwierdzono, że z jednej sztuki przesyłki wyciekła zawartość i zanieczyściła pojazd. Jak należy postąpić przed ponownym użyciem pojazdu? | B | ADR 2025, 7.5.8.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0010 | ADR-B-04 | ADR-B-04-K01 | Czy podczas czynności ładunkowych ADR wolno palić e-papierosa w pobliżu pojazdu? | C | ADR 2025, 8.3.5; 7.5.9 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0011 | ADR-B-04 | ADR-B-04-K02 | Zakaz otwierania sztuki przesyłki przez kierowcę | C | ADR 2025, 8.3.3; 7.5.7.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0012 | ADR-B-04 | ADR-B-04-K03 | Co do zasady należy zrobić z silnikiem podczas załadunku lub rozładunku towarów niebezpiecznych? | B | ADR 2025, 8.3.6 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0013 | ADR-B-05 | ADR-B-05-K01 | Gdzie podczas przewozu powinny znajdować się instrukcje pisemne ADR? | B | ADR 2025, 5.4.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0014 | ADR-B-05 | ADR-B-05-K01 | Co powinni zrobić członkowie załogi przed rozpoczęciem przewozu ADR? | C | ADR 2025, 5.4.3.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
