@@ -1,13 +1,15 @@
-**Stan aktualny po etapie 4x354: 03.11.2026.**
+**Stan aktualny po etapie 4x355: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x354
+## Bieżąca migawka — etap 4x355
 
 - Bank: **780** pytań, 780 `needs_review`, 0 `verified`; SHA `db5b90f4305fd75c1bb2f73a8b5c8b7a6bb42d63`.
 - ADR-B-0780 do ADR-B-13-K07: instrukcje pisemne muszą znajdować się w kabinie nowego pojazdu i być łatwo dostępne po wymianie ciągnika (ADR 5.4.3.1; 8.1.2.3).
 - Moduł ADR-B-13: **54** pytania; kompetencja K07: 5→6.
 - Rozkład A/B/C: **258/291/231**; poprawna jedyna najdłuższa: **84/780 = 10,77%**; maksimum działu: **15,22%**.
-- Kompetencje teorii <6: **0**.
-- Raport: `podstawowy/raporty/etap-4x354-instrukcje-pisemne-po-zmianie-pojazdu-adr-8-1-2-3-2026-11-03.md`.
+- Kompetencje teorii <6: **0**. **Bank zamknięty, gotowy do przeglądu specjalisty, bez zatwierdzenia prawnego. STOP dopisywania pytań.**
+- Raport: `podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md`.
+
+- Raport końcowy: `docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md`; pakiet: `review/specialist/PAKIET-0780-MANIFEST.json` i `review/specialist/REJESTR-AKTUALNY-0001-0780.md`.
 
 ## Bieżąca migawka — etap 4x348
 
