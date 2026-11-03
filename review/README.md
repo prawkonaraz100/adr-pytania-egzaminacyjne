@@ -1,8 +1,8 @@
-**Stan aktualny po etapie 4x350: 03.11.2026.**
+**Stan aktualny po etapie 4x351: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x350
+## Bieżąca migawka — etap 4x351
 
-Bank: 776 pytań, 776 `needs_review`, 0 `verified`; SHA `dfafbcae0d594e25553ddc30190156aae1b9dd76`. Kompetencje teorii <6: 4. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0776.md`; raport: `podstawowy/raporty/etap-4x350-weryfikacja-tozsamosci-przewoznika-adr-1-10-1-2-2026-11-03.md`.
+Bank: 777 pytań, 777 `needs_review`, 0 `verified`; SHA `a21eae83c0b5ee259e8fad7618e4cb4270ca64b2`. Kompetencje teorii <6: 3. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0777.md`; raport: `podstawowy/raporty/etap-4x351-exception-delivery-sale-adr-5-4-1-1-1-h-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x348
 
