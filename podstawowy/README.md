@@ -74,6 +74,8 @@
 
 ## Raporty jakości
 
+- [Etap 4x340 — strzałki kierunkowe](raporty/etap-4x340-strzalki-kierunkowe-dwa-przeciwlegle-boki-2026-11-03.md)
+
 - [Etap 4x339 — wysokość przegrody CV28 (7.5.4)](raporty/etap-4x339-wysokosc-przegrody-cv28-7-5-4-2026-11-03.md)
 
 - [Etap 4x338 — mocowanie całego ładunku mieszanego (7.5.7.1)](raporty/etap-4x338-mocowanie-calego-ladunku-mieszanego-7-5-7-1-2026-11-03.md)

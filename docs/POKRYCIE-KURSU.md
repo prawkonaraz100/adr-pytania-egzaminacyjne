@@ -18,8 +18,8 @@
 - Bank: **765** pytań, 765 `needs_review`, 0 `verified`; SHA `d6cd7215399b36e8783209c9e34a35ff86ac35ad`.
 - ADR-B-0765: przy wyborze przegrody jako metody oddzielenia przesyłek objętych CV28 od żywności przegroda musi być co najmniej tak wysoka jak te przesyłki (ADR 2025, 7.5.4; CV28).
 - Moduł ADR-B-09: **58** pytań; kompetencja K03: 5→6.
-- Rozkład prawidłowych opcji: A=257, B=279, C=229.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/765 = 10,85%**; maksimum działu to 14,61%.
+- Rozkład prawidłowych opcji: A=257, B=280, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/766 = 10,84%**; maksimum działu to 14,61%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **15** (3 praktyczne pominięte).
 - Explanation: 398 znaków / 4 zdania; wszystkie odpowiedzi `needs_review`.
 - Raport: `podstawowy/raporty/etap-4x339-wysokosc-przegrody-cv28-7-5-4-2026-11-03.md`.
