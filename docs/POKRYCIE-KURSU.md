@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x337: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x337
+
+- Bank: **763** pytań, 763 `needs_review`, 0 `verified`; SHA `30f597dd668581ee6b16a810e1d21e0c2661dfd4`.
+- ADR-B-0763: każdy członek załogi musi mieć parę (dwie sztuki) rękawic ochronnych oraz ochronę oczu (ADR 2025, 8.1.5.2).
+- Moduł ADR-B-08: **53** pytania; kompetencja K06: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=277, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **82/763 = 10,75%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **17** (3 praktyczne pominięte).
+- Explanation: 367 znaków / 4 zdania; wszystkie odpowiedzi `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x337-para-rekawic-na-czlonka-zalogi-2026-11-03.md`.
+
 **Stan aktualny po etapie 4x336: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x336
@@ -1104,13 +1117,13 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 87 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 66 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
-| ADR-B-08 | Wyposażenie | 8/8 | 0 | 52 | 0 | Lekcja + mapa pytań |
+| ADR-B-08 | Wyposażenie | 8/8 | 0 | 53 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **762** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **763** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
