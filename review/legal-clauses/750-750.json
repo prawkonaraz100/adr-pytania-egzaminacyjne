@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0750",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 5.2.1.1",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0750",
+      "order": 750,
+      "clause": "ADR 2025, 5.2.1.1",
+      "question_snapshot": {
+        "id": "ADR-B-0750",
+        "module_id": "ADR-B-06",
+        "stem": "Kierowca odbiera kanister o pojemności 20 litrów, na którym ADR wymaga oznaczenia numerem UN. Jakiej minimalnej wysokości powinny być cyfry numeru UN wraz z literami „UN”?",
+        "options": {
+          "A": "Co najmniej 12 mm, ponieważ ten wymiar obowiązuje bez wyjątku dla każdego opakowania.",
+          "B": "Co najmniej 4 mm, ponieważ przy opakowaniach do 30 litrów ADR nie określa minimalnej wysokości.",
+          "C": "Co najmniej 6 mm, ponieważ kanister o pojemności do 30 litrów korzysta z obniżonego wymiaru."
+        },
+        "correct_option": "C",
+        "explanation": "Dla kanistra o pojemności 20 litrów obowiązuje mniejszy wymiar oznaczenia: cyfry numeru UN i poprzedzające je litery powinny mieć co najmniej 6 mm wysokości. Zwykłe 12 mm dotyczy większych opakowań, więc nie jest jedyną dopuszczalną wartością. ADR nie pozwala też dowolnie zmniejszyć znaku do 4 mm. Podstawa: ADR 2025, 5.2.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.1.1 — minimalna wysokość numeru UN; wyjątek dla opakowań o pojemności do 30 l lub masie netto do 30 kg",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "12 mm to wymiar ogólny; ADR przewiduje mniejszy wymiar dla opakowań o pojemności do 30 l lub masie netto do 30 kg."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Wyjątek nie usuwa wymogu minimalnej wysokości; dla wskazanego kanistra minimum wynosi 6 mm."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Dla opakowania o pojemności 20 l stosuje się minimalną wysokość 6 mm dla liter UN i numeru."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy kanistra o pojemności 20 l, czyli wprost progu do 30 l; nie rozstrzyga wyjątków dla opakowań do 5 l lub 5 kg.",
+      "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
