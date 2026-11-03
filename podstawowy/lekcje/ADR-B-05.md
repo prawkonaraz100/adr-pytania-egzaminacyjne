@@ -473,3 +473,8 @@ Rękawice, które miały kontakt z uwolnioną substancją, traktuj jako skażone
 ### Ostrzeżenie także ruchu drogowego — ADR-B-0746
 
 Po awarii ostrzeż inne osoby i ruch drogowy o zagrożeniu oraz trzymaj ich z dala od strefy niebezpiecznej. Nie wystarczy poprosić kierowców, by zwolnili, jeśli nadal mogą wjechać w obszar zdarzenia. Nie wchodź w rozlew ani nie kieruj pojazdów przez miejsce zagrożenia; działaj z bezpiecznej pozycji i stosuj się do poleceń służb. Podstawa: ADR 2025, 5.4.3.4.
+
+
+### Dwa znaki ostrzegawcze i kamizelka dla każdego członka załogi — ADR-B-0747
+
+Jednostka transportowa powinna mieć dwa stojące znaki ostrzegawcze. Kamizelka ostrzegawcza jest natomiast wyposażeniem indywidualnym — trzeba ją zapewnić każdemu członkowi załogi. Jeśli w pojeździe jadą dwie osoby, potrzebne są więc dwa znaki dla jednostki i dwie kamizelki. Podstawa: ADR 2025, 8.1.5.2.

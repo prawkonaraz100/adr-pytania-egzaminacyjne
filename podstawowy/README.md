@@ -1,3 +1,7 @@
+**Stan na 03.11.2026, etap 4x321**
+
+**Stan 4x321:** 747 `needs_review`, 0 `verified`; SHA `b287b7df4227de90a2d33199a005dde465c69c8a`. Poprawna = jedyna najdłuższa: **81/747 = 10,84%**; maksimum działu **14,61%**. Kompetencje teorii <6: **33**.
+
 **Stan na 03.11.2026, etap 4x320**
 
 ## Bieżąca migawka — etap 4x320
@@ -9,6 +13,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x321 — kamizelka i znaki ostrzegawcze](raporty/etap-4x321-kamizelka-i-znaki-ostrzegawcze-2026-11-03.md)
 
 - [Etap 4x320 — ostrzeżenie ruchu drogowego](raporty/etap-4x320-ostrzezenie-ruchu-drogowego-2026-11-03.md)
 - [Etap 4x319 — skażone rękawice i środki ochrony](raporty/etap-4x319-skazone-rekawice-srodki-ochrony-2026-11-03.md)

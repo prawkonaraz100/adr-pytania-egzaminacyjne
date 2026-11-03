@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0747",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 8.1.5.2",
+  "source_of_law": "https://dziennikustaw.gov.pl/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0747",
+      "order": 747,
+      "clause": "ADR 2025, 8.1.5.2",
+      "question_snapshot": {
+        "id": "ADR-B-0747",
+        "module_id": "ADR-B-05",
+        "stem": "Przed wyjazdem na przewóz ADR kierowca sprawdza wyposażenie jednostki transportowej, w której jadą dwie osoby. Który zestaw dotyczący znaków ostrzegawczych i kamizelek jest wymagany?",
+        "options": {
+          "A": "Dwa stojące znaki ostrzegawcze dla jednostki oraz kamizelka ostrzegawcza dla każdego członka załogi.",
+          "B": "Jeden stojący znak ostrzegawczy dla jednostki oraz kamizelka ostrzegawcza dla każdego członka załogi.",
+          "C": "Dwa stojące znaki ostrzegawcze dla jednostki oraz jedna wspólna kamizelka dla całej załogi."
+        },
+        "correct_option": "A",
+        "explanation": "Jednostka transportowa ma mieć dwa stojące znaki ostrzegawcze, a kamizelkę ostrzegawczą trzeba zapewnić każdemu członkowi załogi. Przy dwóch osobach oznacza to dwa znaki i dwie kamizelki, nie jeden wspólny zestaw. Odpowiedź B zmniejsza wymaganą liczbę znaków, a C pomija kamizelkę dla drugiej osoby. Podstawa: ADR 2025, 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2 — dwa stojące znaki ostrzegawcze dla jednostki transportowej oraz kamizelka ostrzegawcza dla każdego członka załogi",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "ADR 8.1.5.2 wymaga dwóch stojących znaków ostrzegawczych dla jednostki transportowej oraz kamizelki ostrzegawczej dla każdego członka załogi."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Jednostka transportowa powinna mieć dwa stojące znaki ostrzegawcze, nie jeden."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Kamizelka jest wymagana dla każdego członka załogi, a nie jedna wspólna dla całej załogi."
+        }
+      },
+      "notes_on_conditions": "Pytanie sprawdza równocześnie wyposażenie jednostki transportowej i indywidualne wyposażenie członków załogi; nie sugeruje, że liczba znaków rośnie wraz z liczbą członków załogi.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

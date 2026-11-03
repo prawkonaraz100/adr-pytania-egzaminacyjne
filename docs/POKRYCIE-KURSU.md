@@ -1,6 +1,16 @@
-**Stan aktualny po etapie 4x320: 03.11.2026.**
+**Stan aktualny po etapie 4x321: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x320
+## Bieżąca migawka — etap 4x321
+
+- Bank: **747** pytań, 747 `needs_review`, 0 `verified`; SHA `b287b7df4227de90a2d33199a005dde465c69c8a`.
+- ADR-B-0747 do ADR-B-05-K10: dwa stojące znaki ostrzegawcze dla jednostki i kamizelka dla każdego członka załogi (ADR 2025, 8.1.5.2).
+- Moduł ADR-B-05: **85** pytań; kompetencja K10: 5→6.
+- Rozkład prawidłowych opcji: A=251, B=268, C=228.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/747 = 10,84%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **33** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x321-kamizelka-i-znaki-ostrzegawcze-2026-11-03.md`.
+
+## Poprzednia migawka — etap 4x320
 
 - Bank: **746** pytań, 746 `needs_review`, 0 `verified`; SHA `74c197c3add4c0f537c84254e9115f2a86a22da2`.
 - ADR-B-0746 do ADR-B-05-K09: ostrzeżenie ruchu drogowego i utrzymanie go z dala od strefy zagrożenia (ADR 2025, 5.4.3.4).
@@ -937,7 +947,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 89 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 84 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 85 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
@@ -946,7 +956,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **746** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **747** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

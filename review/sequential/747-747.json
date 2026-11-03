@@ -1,0 +1,46 @@
+{
+  "batch": "747-747",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0747",
+      "sequence": 747,
+      "exact_record_snapshot": {
+        "stem": "Przed wyjazdem na przewóz ADR kierowca sprawdza wyposażenie jednostki transportowej, w której jadą dwie osoby. Który zestaw dotyczący znaków ostrzegawczych i kamizelek jest wymagany?",
+        "options": {
+          "A": "Dwa stojące znaki ostrzegawcze dla jednostki oraz kamizelka ostrzegawcza dla każdego członka załogi.",
+          "B": "Jeden stojący znak ostrzegawczy dla jednostki oraz kamizelka ostrzegawcza dla każdego członka załogi.",
+          "C": "Dwa stojące znaki ostrzegawcze dla jednostki oraz jedna wspólna kamizelka dla całej załogi."
+        },
+        "correct_option": "A",
+        "explanation": "Jednostka transportowa ma mieć dwa stojące znaki ostrzegawcze, a kamizelkę ostrzegawczą trzeba zapewnić każdemu członkowi załogi. Przy dwóch osobach oznacza to dwa znaki i dwie kamizelki, nie jeden wspólny zestaw. Odpowiedź B zmniejsza wymaganą liczbę znaków, a C pomija kamizelkę dla drugiej osoby. Podstawa: ADR 2025, 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2 — dwa stojące znaki ostrzegawcze dla jednostki transportowej oraz kamizelka ostrzegawcza dla każdego członka załogi",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.1.5.2: two self-standing warning signs for each transport unit and a warning vest for each member of the vehicle crew",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
