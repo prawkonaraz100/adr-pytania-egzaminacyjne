@@ -794,3 +794,5 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **3** (3 praktyczne pominięte
 | ADR-B-0776 | ADR-B-12 | ADR-B-12-K04 | Przy bramie terminalu kierowca zgłasza odbiór towaru ADR w imieniu przewoźnika wskazanego w zleceniu. W dokumentach pojawia się jednak inna firma transportowa, a kierowca nie potrafi wyjaśnić, kto faktycznie przyjmuje ładunek. Co powinien zrobić pracownik wydający przesyłkę? | C | ADR 2025, 1.10.1.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0777 | ADR-B-13 | ADR-B-13-K03 | Nadawca organizuje przewóz ADR do kilku odbiorców, których nie da się jeszcze ustalić na początku trasy. Chce w dokumencie przewozowym zamiast ich nazw i adresów wpisać zwrot „Delivery Sale”. Kiedy może tak postąpić? | B | ADR 2025, 5.4.1.1.1(h) | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0777 | ADR-B-13 | ADR-B-13-K03 | Nadawca organizuje przewóz ADR do kilku odbiorców, których nie da się jeszcze ustalić na początku trasy. Chce w dokumencie przewozowym zamiast ich nazw i adresów wpisać zwrot „Delivery Sale”. Kiedy może tak postąpić? | B | ADR 2025, 5.4.1.1.1(h) | — | NIEROZSTRZYGNIĘTE | needs_review |
