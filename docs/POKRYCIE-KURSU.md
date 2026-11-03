@@ -6,7 +6,7 @@
 - ADR-B-0748 do ADR-B-05-K11: pierwsza pomoc przy osobie nieprzytomnej, oddychającej prawidłowo, bez podejrzenia urazu (ADR 2025, 8.2.2.3.2(e); szczegółowa procedura ERC 2025).
 - Moduł ADR-B-05: **86** pytań; kompetencja K11: 5→6.
 - Rozkład prawidłowych opcji: A=252, B=268, C=228.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/748 = 10,83%**; maksimum działu **14,61%**.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/748 = 10,83%**; maksimum działu to 14,61%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **32** (3 praktyczne pominięte).
 - Raport: `podstawowy/raporty/etap-4x322-pierwsza-pomoc-pozycja-boczna-2026-11-03.md`.
 
