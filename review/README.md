@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x337: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x337
+
+- Bank: **763** pytań, 763 `needs_review`, 0 `verified`; SHA `30f597dd668581ee6b16a810e1d21e0c2661dfd4`.
+- ADR-B-0763: każdy członek załogi musi mieć parę (dwie sztuki) rękawic ochronnych oraz ochronę oczu (ADR 2025, 8.1.5.2).
+- Moduł ADR-B-08: **53** pytania; kompetencja K06: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=277, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **82/763 = 10,75%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **17** (3 praktyczne pominięte).
+- Explanation: 367 znaków / 4 zdania; wszystkie odpowiedzi `needs_review`.
+- Raport: `../podstawowy/raporty/etap-4x337-para-rekawic-na-czlonka-zalogi-2026-11-03.md`.
+
 **Stan aktualny po etapie 4x336: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x336
