@@ -1,4 +1,4 @@
-**Stan aktualny po etapie 4x339: 03.11.2026.**
+**Stan aktualny po etapie 4x340: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x340
 

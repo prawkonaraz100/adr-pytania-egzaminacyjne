@@ -21,7 +21,7 @@ Data: 03.11.2026. Gałąź: `stage4x340-orientation-arrows-two-sides`. Bazowy ma
 - Kompetencje teorii z mniej niż 6 pytaniami: **14** (3 praktyczne pominięte).
 - Moduł ADR-B-09: **59** pytań.
 - Rozkład prawidłowych opcji: A/B/C = **257/280/229**.
-- Poprawna odpowiedź jest jedyną najdłuższą: **84/766 = 10,97%** (poniżej Quality Gate 18%).
+- Poprawna odpowiedź jest jedyną najdłuższą: **83/766 = 10,84%** (poniżej Quality Gate 18%).
 
 ## Synchronizacja artefaktów
 

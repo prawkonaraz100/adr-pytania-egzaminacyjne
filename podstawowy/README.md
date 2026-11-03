@@ -1,6 +1,6 @@
 **Stan na 03.11.2026, etap 4x340**
 
-**Stan 4x340:** 766 `needs_review`, 0 `verified`; SHA `c239993abadeca16db4e1df9a1706f9d47276517`. Poprawna = jedyna najdłuższa: **84/766 = 10,97%**; kompetencje teorii <6: **14**.
+**Stan 4x340:** 766 `needs_review`, 0 `verified`; SHA `c239993abadeca16db4e1df9a1706f9d47276517`. Poprawna = jedyna najdłuższa: **83/766 = 10,84%**; kompetencje teorii <6: **14**.
 
 - [Etap 4x340 — strzałki kierunkowe](raporty/etap-4x340-strzalki-kierunkowe-dwa-przeciwlegle-boki-2026-11-03.md)
 

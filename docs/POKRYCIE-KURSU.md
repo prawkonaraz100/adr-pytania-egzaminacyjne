@@ -6,7 +6,7 @@
 - ADR-B-0766: strzałki kierunkowe na dwóch przeciwległych pionowych bokach opakowania, skierowane dokładnie ku górze (ADR 2025, 5.2.1.10.1).
 - Moduł ADR-B-09: **59** pytań; kompetencja K04: 5→6.
 - Rozkład prawidłowych opcji: A=257, B=280, C=229.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/766 = 10,97%**.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/766 = 10,84%**.
 - Kompetencje teorii z mniej niż 6 pytaniami: **14** (3 praktyczne pominięte).
 - Explanation: 437 znaków; wszystkie pytania `needs_review`.
 - Raport: `podstawowy/raporty/etap-4x340-strzalki-kierunkowe-dwa-przeciwlegle-boki-2026-11-03.md`.
