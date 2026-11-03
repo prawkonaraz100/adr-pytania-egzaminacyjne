@@ -478,3 +478,8 @@ Po awarii ostrzeż inne osoby i ruch drogowy o zagrożeniu oraz trzymaj ich z da
 ### Dwa znaki ostrzegawcze i kamizelka dla każdego członka załogi — ADR-B-0747
 
 Jednostka transportowa powinna mieć dwa stojące znaki ostrzegawcze. Kamizelka ostrzegawcza jest natomiast wyposażeniem indywidualnym — trzeba ją zapewnić każdemu członkowi załogi. Jeśli w pojeździe jadą dwie osoby, potrzebne są więc dwa znaki dla jednostki i dwie kamizelki. Podstawa: ADR 2025, 8.1.5.2.
+
+
+### Nieprzytomny, ale oddycha prawidłowo — ADR-B-0748
+
+Jeśli miejsce jest bezpieczne, poszkodowany nie reaguje, ale oddycha prawidłowo i nie podejrzewasz urazu, ułóż go na boku w pozycji bezpiecznej. Regularnie kontroluj oddech i drożność dróg oddechowych do przyjazdu pomocy. Jeśli oddech przestanie być prawidłowy, wezwij pomoc i rozpocznij postępowanie resuscytacyjne zgodnie z przeszkoleniem i poleceniami dyspozytora. Podstawa kursu ADR: 8.2.2.3.2(e); szczegółowa procedura: ERC Guidelines 2025, First Aid.
