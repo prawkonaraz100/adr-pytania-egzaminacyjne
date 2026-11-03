@@ -1,4 +1,4 @@
-**Stan aktualny po etapie 4x347: 03.11.2026.**
+**Stan aktualny po etapie 4x348: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x347
 
