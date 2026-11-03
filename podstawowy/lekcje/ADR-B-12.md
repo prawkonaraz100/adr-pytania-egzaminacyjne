@@ -239,3 +239,12 @@ Odegraj scenariusz z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json)
 ### Ocena placu czasowego składowania (ADR-B-0701)
 
 Obszary terminali, baz i placów wykorzystywane do czasowego składowania towarów niebezpiecznych podczas przewozu powinny być właściwie zabezpieczone i dobrze oświetlone. Gdzie to możliwe i właściwe, powinny być niedostępne dla ogółu. Samo oznakowanie lub obecność kierowcy nie zastępują tych warunków. Podstawa: ADR 2025, 1.10.1.3.
+
+
+### Dokument tożsamości ze zdjęciem — ADR-B-12-K01
+
+**Wyjaśnienie dla kursanta:** ADR wymaga, aby każdy członek załogi miał przy sobie dokument lub inny środek identyfikacji zawierający jego fotografię. Przepis nie ogranicza tego do polskiego dowodu osobistego. Ważny paszport ze zdjęciem również pozwala potwierdzić, kim jest kierowca. Sama karta zakładowa bez zdjęcia nie wystarczy.
+
+**Przykład z pracy:** Podczas przewozu ADR kierowca ma ważny paszport ze zdjęciem, ale nie ma polskiego dowodu osobistego. Wymóg dotyczący identyfikacji ze zdjęciem jest spełniony; nie trzeba posiadać dodatkowo polskiego dowodu wyłącznie z powodu przewozu ADR.
+
+**Sprawdź się:** odpowiedz na `ADR-B-0774`. **Podstawa:** ADR 1.10.1.4.
