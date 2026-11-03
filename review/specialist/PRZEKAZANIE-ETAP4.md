@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x326
+
+Raport: `podstawowy/raporty/etap-4x326-litera-x-spłukiwanie-pozostalosci-2026-11-03.md`.
+
+Bank 752 pytań; 752 `needs_review`, 0 `verified`; SHA `3ddd949081089a48396e9a2e257a57fa5eb7aea4`; kompetencje teorii <6: **28**. Rejestr `REJESTR-AKTUALNY-0001-0752.md`.
+
 ## Bieżąca migawka — etap 4x325
 
 Raport: `podstawowy/raporty/etap-4x325-nalepka-zaslonieta-przez-wyposazenie-2026-11-03.md`.
