@@ -2,7 +2,7 @@
 
 ## Bieżąca migawka — etap 4x320
 
-- Bank: **746** pytań, wszystkie `needs_review`, 0 `verified`; SHA `74c197c3add4c0f537c84254e9115f2a86a22da2`.
+- Bank: **746** pytań; 746 `needs_review`, 0 `verified`; SHA `74c197c3add4c0f537c84254e9115f2a86a22da2`.
 - ADR-B-0746 do ADR-B-05-K09: ostrzeżenie ruchu drogowego po awarii (ADR 2025, 5.4.3.4).
 - Kompetencja K09: 5→6; moduł ADR-B-05: 84 pytania.
 - Rozkład kluczy A/B/C: 250/268/228; poprawna jedyna najdłuższa: 81/746 = 10,86%.
