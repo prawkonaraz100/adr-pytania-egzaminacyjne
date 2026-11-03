@@ -361,3 +361,10 @@ Powiązane pytanie: **ADR-B-0754**.
 Tablica pomarańczowa na pojeździe drogowym musi odbijać światło, aby była lepiej widoczna przy słabym oświetleniu. Sama pomarańczowa barwa i czytelne numery nie wystarczą, jeśli tablica nie ma wymaganej odblaskowości. ADR przewiduje wyjątek dla nieodblaskowego koloru na wagonach, ale nie na samochodach. Podstawa: ADR 2025, 5.3.2.2.1.
 
 Powiązane pytanie: **ADR-B-0755**.
+
+
+### Numer zagrożenia 86 — materiał żrący lub słabo żrący i toksyczny — ADR-B-0756
+
+Jeśli na tablicy pomarańczowej widzisz numer 86, przekaż ratownikom oba zagrożenia: substancja działa żrąco (może być słabo żrąca) i jest toksyczna. Nie myl kodu 86 z 88, który oznacza substancję silnie żrącą. Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.
+
+Powiązane pytanie: **ADR-B-0756**.

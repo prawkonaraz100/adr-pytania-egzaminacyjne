@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x330
+
+Raport: `podstawowy/raporty/etap-4x330-numer-zagrozenia-86-material-zracy-toksyczny-2026-11-03.md`.
+
+Bank 756 pytań; 756 `needs_review`, 0 `verified`; SHA `28a535b640a1e6fc8ff23e2bfc9b746bd1f58908`; kompetencje teorii <6: **24**. Rejestr `REJESTR-AKTUALNY-0001-0756.md`.
+
 ## Bieżąca migawka — etap 4x329
 
 Raport: `podstawowy/raporty/etap-4x329-odblaskowosc-tablicy-pomaranczowej-2026-11-03.md`.

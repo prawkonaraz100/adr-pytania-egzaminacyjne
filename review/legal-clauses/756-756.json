@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0756",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 5.3.2.3.1–5.3.2.3.2 — hazard identification number 86",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0756",
+      "order": 756,
+      "clause": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+      "question_snapshot": {
+        "id": "ADR-B-0756",
+        "module_id": "ADR-B-06",
+        "stem": "Na górnym polu tablicy ADR odczytujesz numer zagrożenia 86. Jak powinieneś przekazać znaczenie tego kodu ratownikom?",
+        "options": {
+          "A": "Jako substancję żrącą lub słabo żrącą, która jest jednocześnie toksyczna; oba zagrożenia trzeba uwzględnić.",
+          "B": "Jako substancję silnie żrącą i toksyczną, ponieważ każda kombinacja z cyfrą 8 oznacza najwyższy poziom żrącości.",
+          "C": "Jako substancję utleniającą i toksyczną; cyfra 8 opisuje tu nasilenie palności, nie działanie żrące."
+        },
+        "correct_option": "A",
+        "explanation": "Numer 86 oznacza substancję żrącą lub słabo żrącą, która jest jednocześnie toksyczna. Cyfra 8 wskazuje na działanie żrące, a 6 na toksyczność, więc ratownicy muszą znać oba zagrożenia. Odpowiedź B myli kod 86 z 88, który oznacza substancję silnie żrącą; C błędnie przypisuje cyfrze 8 znaczenie utleniające. Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.2 — 86: substancja żrąca lub słabo żrąca, toksyczna",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "A",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Kod 86 oznacza substancję żrącą lub słabo żrącą, która jest jednocześnie toksyczna."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Kod 88 oznacza substancję silnie żrącą; 86 nie oznacza najwyższego poziomu żrącości."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Cyfra 8 oznacza działanie żrące, nie utleniające ani palność; 6 wskazuje toksyczność."
+        }
+      },
+      "notes_on_conditions": "Pytanie odróżnia numer 86 od 88 i wymaga przekazania ratownikom obu zagrożeń: żrącego oraz toksycznego.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

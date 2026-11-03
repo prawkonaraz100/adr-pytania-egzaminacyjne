@@ -1,3 +1,9 @@
+**Stan na 03.11.2026, etap 4x330**
+
+**Stan 4x330:** 756 `needs_review`, 0 `verified`; SHA `28a535b640a1e6fc8ff23e2bfc9b746bd1f58908`. Poprawna = jedyna najdłuższa: **81/756 = 10,71%**; maksimum działu **14,61%**. Kompetencje teorii <6: **24**.
+
+- [Etap 4x330 — numer zagrożenia 86: materiał żrący i toksyczny](raporty/etap-4x330-numer-zagrozenia-86-material-zracy-toksyczny-2026-11-03.md)
+
 **Stan na 03.11.2026, etap 4x329**
 
 **Stan 4x329:** 755 `needs_review`, 0 `verified`; SHA `9b6cf3e78af2fd49a2fcbe99b1fb10a8021904e1`. Poprawna = jedyna najdłuższa: **81/755 = 10,73%**; maksimum działu **14,61%**. Kompetencje teorii <6: **25**.
@@ -51,6 +57,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x330 — numer zagrożenia 86: materiał żrący i toksyczny](raporty/etap-4x330-numer-zagrozenia-86-material-zracy-toksyczny-2026-11-03.md)
 
 - [Etap 4x329 — odblaskowość tablicy pomarańczowej](raporty/etap-4x329-odblaskowosc-tablicy-pomaranczowej-2026-11-03.md)
 

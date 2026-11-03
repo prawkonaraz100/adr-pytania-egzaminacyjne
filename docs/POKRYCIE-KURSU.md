@@ -1,4 +1,14 @@
-**Stan aktualny po etapie 4x329: 03.11.2026.**
+**Stan aktualny po etapie 4x330: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x330
+
+- Bank: **756** pytań, 756 `needs_review`, 0 `verified`; SHA `28a535b640a1e6fc8ff23e2bfc9b746bd1f58908`.
+- ADR-B-0756 do ADR-B-06-K08: numer zagrożenia 86 oznacza materiał żrący lub słabo żrący, który jest toksyczny (ADR 2025, 5.3.2.3.1–5.3.2.3.2).
+- Moduł ADR-B-06: **66** pytań; kompetencja K08: 5→6.
+- Rozkład prawidłowych opcji: A=254, B=273, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/756 = 10,71%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **24** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x330-numer-zagrozenia-86-material-zracy-toksyczny-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x329
 
@@ -1020,7 +1030,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 87 | 0 | Lekcja + mapa pytań |
-| ADR-B-06 | Oznakowanie | 9/9 | 0 | 65 | 0 | Lekcja + mapa pytań |
+| ADR-B-06 | Oznakowanie | 9/9 | 0 | 66 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
@@ -1028,7 +1038,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **755** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **756** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
