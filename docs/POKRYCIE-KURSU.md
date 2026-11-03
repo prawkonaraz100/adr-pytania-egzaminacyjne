@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x339: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x339
+
+- Bank: **765** pytań, 765 `needs_review`, 0 `verified`; SHA `d6cd7215399b36e8783209c9e34a35ff86ac35ad`.
+- ADR-B-0765: przy wyborze przegrody jako metody oddzielenia przesyłek objętych CV28 od żywności przegroda musi być co najmniej tak wysoka jak te przesyłki (ADR 2025, 7.5.4; CV28).
+- Moduł ADR-B-09: **58** pytań; kompetencja K03: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=279, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/765 = 10,85%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **15** (3 praktyczne pominięte).
+- Explanation: 398 znaków / 4 zdania; wszystkie odpowiedzi `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x339-wysokosc-przegrody-cv28-7-5-4-2026-11-03.md`.
+
 **Stan aktualny po etapie 4x338: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x338
@@ -1131,12 +1144,12 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 66 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 53 | 0 | Lekcja + mapa pytań |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 57 | 0 | Lekcja + mapa pytań |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 58 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **764** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **765** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
