@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x331
+
+Raport: `podstawowy/raporty/etap-4x331-odbiorca-kontrola-po-rozladunku-2026-11-03.md`.
+
+Bank 757 pytań; 757 `needs_review`, 0 `verified`; SHA `6fa58d5fc5cdf2063883ff77747d5624cb6406e8`; kompetencje teorii <6: **23**. Rejestr `REJESTR-AKTUALNY-0001-0757.md`.
+
 ## Bieżąca migawka — etap 4x330
 
 Raport: `podstawowy/raporty/etap-4x330-numer-zagrozenia-86-material-zracy-toksyczny-2026-11-03.md`.
