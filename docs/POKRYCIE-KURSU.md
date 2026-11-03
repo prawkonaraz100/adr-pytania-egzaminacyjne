@@ -2,7 +2,7 @@
 
 ## Bieżąca migawka — etap 4x332
 
-- Bank: **758** pytań, 758 `needs_review`, 0 `verified`; SHA `adf96781176aad252707c2bfe4dcab5588c3b4ef`.
+- Bank: **758** pytań, 758 `needs_review`, 0 `verified`; SHA `2b708a1f1c72732bb6b50a067d94fcbac1032a06`.
 - ADR-B-0758 do ADR-B-07-K07: rozróżnienie odpowiedzialności za czyn niedozwolony i za niewykonanie zobowiązania (ADR 2025, 8.2.2.3.2(k); KC, art. 415 i 471).
 - Moduł ADR-B-07: **54** pytania; kompetencja K07: 5→6.
 - Rozkład prawidłowych opcji: A=256, B=273, C=229.
