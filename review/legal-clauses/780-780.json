@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0780",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 8.1.2.3 — written instructions in cab after vehicle replacement",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642",
+    "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0780",
+      "order": 780,
+      "clause": "ADR 2025, 8.1.2.3 — instrukcje pisemne należy przewozić w kabinie załogi i przechowywać w miejscu łatwo dostępnym; 5.4.3.1 — instrukcje pisemne dla załogi",
+      "question_snapshot": {
+        "id": "ADR-B-0780",
+        "module_id": "ADR-B-13",
+        "stem": "Podczas awarii ciągnika siodłowego przewoźnik podstawia pojazd zastępczy do dalszego przewozu tego samego ładunku ADR. Instrukcje pisemne zostały w kabinie uszkodzonego ciągnika. Co trzeba zrobić przed ruszeniem pojazdu zastępczego?",
+        "options": {
+          "A": "Wystarczy telefonicznie przekazać kierowcy treść instrukcji; papierowy lub elektroniczny dokument nie musi znajdować się w nowej kabinie.",
+          "B": "Przenieść instrukcje do kabiny pojazdu zastępczego i umieścić je w łatwo dostępnym miejscu dla załogi.",
+          "C": "Pozostawić instrukcje w uszkodzonym ciągniku, ponieważ obowiązek ich przewożenia dotyczy tylko pierwszego pojazdu, który rozpoczął trasę."
+        },
+        "correct_option": "B",
+        "explanation": "Zanim pojazd zastępczy ruszy z tym samym ładunkiem ADR, załoga musi mieć instrukcje pisemne w jego kabinie. Dokument pozostawiony w uszkodzonym ciągniku nie pomoże kierowcy ani pozostałym członkom załogi podczas zdarzenia na dalszej trasie. Samo telefoniczne omówienie procedur nie zastępuje instrukcji, do których załoga może szybko zajrzeć. Podstawa: ADR 8.1.2.3 oraz 5.4.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.3 — instrukcje pisemne należy przewozić w kabinie załogi i przechowywać w miejscu łatwo dostępnym; 5.4.3.1 — instrukcje pisemne dla załogi",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Ustne omówienie nie zastępuje obowiązku przewożenia instrukcji pisemnych w kabinie pojazdu."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "W pojeździe zastępczym instrukcje muszą znajdować się w kabinie załogi i być łatwo dostępne."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Instrukcje pozostawione w uszkodzonym pojeździe nie są dostępne dla załogi kontynuującej przewóz."
+        }
+      },
+      "notes_on_conditions": "Po zmianie ciągnika pojazd zastępczy kontynuuje przewóz tego samego ładunku. Wymóg z 8.1.2.3 odnosi się do pojazdu, którym wykonywany jest przewóz, i miejsca dostępnego dla jego załogi.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
