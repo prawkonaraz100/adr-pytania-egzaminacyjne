@@ -1,6 +1,16 @@
-**Stan aktualny po etapie 4x325: 03.11.2026.**
+**Stan aktualny po etapie 4x326: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x325
+## Bieżąca migawka — etap 4x326
+
+- Bank: **752** pytań, 752 `needs_review`, 0 `verified`; SHA `3ddd949081089a48396e9a2e257a57fa5eb7aea4`.
+- ADR-B-0752 do ADR-B-06-K04: litera X przed numerem rozpoznawczym oznacza niebezpieczną reakcję materiału z wodą; jej użycie wymaga zgody specjalistów (ADR 2025, 5.3.2.3.1).
+- Moduł ADR-B-06: **62** pytania; kompetencja K04: 5→6.
+- Rozkład prawidłowych opcji: A=253, B=270, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/752 = 10,77%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **28** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x326-litera-x-spłukiwanie-pozostalosci-2026-11-03.md`.
+
+## Poprzednia migawka — etap 4x325
 
 - Bank: **751** pytań, 751 `needs_review`, 0 `verified`; SHA `fed909b6dec8fbaece0f391f4f2b78df55cb68f5`.
 - ADR-B-0751 do ADR-B-06-K02: zabezpieczenie nalepek przed zasłonięciem przez pas lub część wyposażenia oraz rozmieszczenie wymaganych nalepek blisko siebie (ADR 2025, 5.2.2.1.6(b)–(c)).
@@ -980,7 +990,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
 | ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 87 | 0 | Lekcja + mapa pytań |
-| ADR-B-06 | Oznakowanie | 9/9 | 0 | 61 | 0 | Lekcja + mapa pytań |
+| ADR-B-06 | Oznakowanie | 9/9 | 0 | 62 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 56 | 0 | Lekcja + mapa pytań |
@@ -988,7 +998,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **751** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **752** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
