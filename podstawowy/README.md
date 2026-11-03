@@ -1302,3 +1302,8 @@ Raporty ETAPU 4x7
 ## Etap 4x105 — kontrola próbki, scenariuszy i egzaminów
 
 - [Raport 4x105](raporty/etap-4x105-proba40-scenariusze-egzaminy-2026-10-27.md): próbka 40 explanation spoza ID z etapów 4x103–4x104, przegląd 40 scenariuszy oraz synchronizacja wariantów i kluczy 001–005. Bank bez zmian; 609 pytań `needs_review`, 0 `verified`; wskaźnik „poprawna = jedyna najdłuższa” 11,99% globalnie i maksymalnie 14,29% w dziale.
+
+
+## Etap 4x333 — gaśnica: oznaczenie kontroli lub okresu użytkowania
+
+- [Raport 4x333](raporty/etap-4x333-gasnica-oznaczenie-kontroli-lub-okresu-uzytkowania-2026-11-03.md). Bank: 759 pytań, wszystkie `needs_review`, 0 `verified`; kompetencje teorii poniżej 6 pytań: 21.
