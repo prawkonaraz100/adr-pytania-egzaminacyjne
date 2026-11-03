@@ -283,3 +283,10 @@ Jeżeli jednostka transportowa ma układ ABS, a maksymalna masa przyczepy przekr
 Jeżeli przewoźnik nie dostarczy ładunku w terminie, sam fakt opóźnienia nie przesądza jeszcze o obowiązku zapłaty odszkodowania. Trzeba ustalić, dlaczego termin nie został dotrzymany i czy przyczyna była okolicznością, za którą przewoźnik odpowiada. Przykładowo nagłe zamknięcie drogi po osunięciu ziemi może mieć znaczenie, ale nie rozstrzyga sprawy bez sprawdzenia faktów, dostępnych objazdów i obowiązków przewoźnika. Kierowca powinien niezwłocznie przekazać dyspozytorowi informację o przeszkodzie i zachować dostępne potwierdzenia; nie powinien samodzielnie przesądzać o odpowiedzialności prawnej. Podstawa: ADR 8.2.2.3.2(k); Kodeks cywilny, art. 471.
 
 **Pytanie kontrolne:** ADR-B-0713 — czy każde opóźnienie przewozu automatycznie oznacza obowiązek zapłaty odszkodowania?
+
+
+### Kontrola odbiorcy po rozładunku — ADR-B-0757
+
+Po rozładunku odbiorca powinien sprawdzić, czy wykonano wymagania ADR, które dotyczą go w tej operacji. Sam podpis dokumentu lub sprawdzenie liczby sztuk nie zastępuje tej kontroli. Podstawa: ADR 2025, 1.4.2.3.1.
+
+Powiązane pytanie: **ADR-B-0757**.
