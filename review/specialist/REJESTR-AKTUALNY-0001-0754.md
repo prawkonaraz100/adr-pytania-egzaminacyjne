@@ -759,4 +759,3 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **26** (3 praktyczne pominięt
 | ADR-B-0752 | ADR-B-06 | ADR-B-06-K04 | Litera X: nie spłukiwać pozostałości wodą bez zgody specjalistów | A | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0753 | ADR-B-06 | ADR-B-06-K05 | Tolerancja ±10% wymiarów tablicy pomarańczowej | B | ADR 2025, 5.3.2.2.1 i 5.3.2.2.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0754 | ADR-B-06 | ADR-B-06-K06 | Szczególne znaczenie numeru 22 — gaz skroplony schłodzony, duszący | B | ADR 2025, 5.3.2.3.1–5.3.2.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0754 | ADR-B-06 | ADR-B-06-K06 | Szczególne znaczenie numeru 22 — gaz skroplony schłodzony, duszący | B | ADR 2025, 5.3.2.3.1–5.3.2.3.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
