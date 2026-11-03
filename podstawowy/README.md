@@ -1,4 +1,4 @@
-**Stan aktualny po etapie 4x319: 03.11.2026.**
+**Stan na 03.11.2026, etap 4x319**
 
 ## Bieżąca migawka — etap 4x319
 
