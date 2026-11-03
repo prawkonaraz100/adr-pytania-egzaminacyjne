@@ -1,4 +1,13 @@
-**Stan aktualny po etapie 4x344: 03.11.2026.**
+**Stan aktualny po etapie 4x345: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x345
+
+- Bank: **771** pytań, 771 `needs_review`, 0 `verified`; SHA `0467701668f4ff28139fb72ab341100b67df4268`.
+- ADR-B-0771 do ADR-B-11-K04: przy kodach B i D dla jednej jednostki stosuje się bardziej restrykcyjny kod B; trasa omija tunel kategorii C (ADR 2025, 8.6.3.2 i 8.6.4).
+- Moduł ADR-B-11: **44** pytania; kompetencja K04: 5→6.
+- Rozkład prawidłowych opcji: A/B/C = **257/285/229**; globalny wskaźnik: **83/771 = 10,77%**; maksimum działu: 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **9**.
+- Raport: `podstawowy/raporty/etap-4x345-kod-najbardziej-restrykcyjny-trasa-tunelowa-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x344
 

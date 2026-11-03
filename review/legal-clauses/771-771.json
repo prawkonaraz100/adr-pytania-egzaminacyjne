@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0770",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 1.1.4.2.1 and 5.4.1.1.7",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0771",
+      "order": 771,
+      "clause": "ADR 2025, 8.6.3.2 — dla całego ładunku stosuje się kod odpowiadający największym ograniczeniom; 8.6.4 — kod B oznacza zakaz przewozu przez tunele kategorii B, C, D i E",
+      "question_snapshot": {
+        "id": "ADR-B-0771",
+        "module_id": "ADR-B-11",
+        "stem": "Przewozisz w jednej jednostce dwa towary: jeden ma kod tunelowy B, drugi D. Nawigacja prowadzi przez tunel kategorii C. Jaki kod przyjmujesz dla całego ładunku i jak planujesz trasę?",
+        "options": {
+          "A": "Przyjmuję D, bo dla całego ładunku wystarczy mniej restrykcyjny kod jednego z towarów.",
+          "B": "Przyjmuję B, bo to on daje największe ograniczenia, i omijam tunel kategorii C.",
+          "C": "Przyjmuję D, bo ten kod nie obejmuje zakazem tunelu kategorii C na tej trasie."
+        },
+        "correct_option": "B",
+        "explanation": "Gdy w jednej jednostce przewozisz towary z różnymi kodami tunelowymi, nie wybierasz kodu według masy ani wygody trasy. Dla całego ładunku przyjmujesz kod powodujący największe ograniczenia; w tym przykładzie jest to B. Kod B wyklucza przejazd przez tunele kategorii B, C, D i E, więc musisz ominąć tunel kategorii C. Podstawa: ADR 2025, 8.6.3.2 i 8.6.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.2 — dla całego ładunku stosuje się kod odpowiadający największym ograniczeniom; 8.6.4 — kod B oznacza zakaz przewozu przez tunele kategorii B, C, D i E",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Nie wolno wybierać mniej restrykcyjnego kodu D dla całej jednostki; reguła 8.6.3.2 nakazuje zastosować kod powodujący największe ograniczenia spośród przewożonych towarów."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Kod B jest bardziej restrykcyjny niż D i zgodnie z 8.6.4 wyklucza tunele kategorii B, C, D i E, dlatego trasę trzeba zaplanować z ominięciem tunelu C."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "To prawda, że sam kod D nie wyklucza tunelu C, ale nie jest właściwym kodem dla całego ładunku, gdy drugi towar ma bardziej restrykcyjny kod B."
+        }
+      },
+      "notes_on_conditions": "Pytanie zakłada, że jednostka transportowa podlega ograniczeniom tunelowym i oba kody mają zastosowanie do przewożonych towarów. Nie wolno wybierać łagodniejszego kodu dla wygody trasy; do całego ładunku stosuje się kod odpowiadający największym ograniczeniom.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
