@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x322
+
+Raport: `podstawowy/raporty/etap-4x322-pierwsza-pomoc-pozycja-boczna-2026-11-03.md`.
+
+Bank 748 pytań; 748 `needs_review`, 0 `verified`; SHA `29d91dfb906ddb9c1cc075ab0803b0e2311f8fd5`; licznik kompetencji teorii <6: 32. Rejestr `REJESTR-AKTUALNY-0001-0748.md`.
+
 ## Bieżąca migawka — etap 4x321
 
 Raport: `podstawowy/raporty/etap-4x321-kamizelka-i-znaki-ostrzegawcze-2026-11-03.md`.
