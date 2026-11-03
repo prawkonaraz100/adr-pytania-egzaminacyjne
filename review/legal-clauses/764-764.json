@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0764",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 7.5.7.1",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0764",
+      "order": 764,
+      "clause": "ADR 2025, 7.5.7.1",
+      "question_snapshot": {
+        "id": "ADR-B-0764",
+        "module_id": "ADR-B-09",
+        "stem": "Na pojeździe przewozisz sztuki przesyłki ADR razem z paletami zwykłego towaru. Czy wymagania ADR dotyczące zabezpieczenia ładunku obejmują także te zwykłe palety?",
+        "options": {
+          "A": "Nie. Mocowanie ADR dotyczy wyłącznie sztuk przesyłki z towarami niebezpiecznymi; zwykły ładunek może pozostać luzem.",
+          "B": "Tak. Przy ładunku mieszanym wszystkie towary trzeba zamocować lub zapakować, aby nie doszło do uwolnienia towarów ADR.",
+          "C": "Nie. Zwykły towar trzeba mocować tylko wtedy, gdy jest cięższy albo może przesunąć opakowania ADR podczas jazdy."
+        },
+        "correct_option": "B",
+        "explanation": "Przy ładunku mieszanym ADR nie ogranicza mocowania wyłącznie do palet z towarami niebezpiecznymi. Punkt 7.5.7.1 wymaga, aby wszystkie towary były pewnie zamocowane lub zapakowane tak, by nie doprowadziły do uwolnienia towarów niebezpiecznych. Luźna paleta zwykłego towaru może uderzyć w opakowania ADR podczas hamowania, dlatego również ją trzeba zabezpieczyć. Podstawa: ADR 2025, 7.5.7.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.1 — gdy towary niebezpieczne są przewożone z innymi towarami, wszystkie towary muszą być zamocowane lub zapakowane tak, by zapobiec uwolnieniu towarów niebezpiecznych",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Przepis rozszerza obowiązek mocowania na wszystkie towary przewożone razem z towarami niebezpiecznymi."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Przy ładunku mieszanym wszystkie towary muszą być zabezpieczone lub zapakowane tak, by nie doszło do uwolnienia towarów ADR."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Masa zwykłego ładunku nie jest kryterium zwalniającym z zabezpieczenia go przy przewozie mieszanym."
+        }
+      },
+      "notes_on_conditions": "Pytanie nie twierdzi, że każdy zwykły towar musi być mocowany niezależnie od kontekstu; obowiązek wynika z przewożenia go razem z towarami niebezpiecznymi i ma zapobiec uwolnieniu towarów ADR.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
