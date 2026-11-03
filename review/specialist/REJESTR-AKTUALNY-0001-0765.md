@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0776
+# Aktualny rejestr specjalisty — ADR-B-0001–0777
 
-Etap 4x350 (03.11.2026). Bank: 776 pytań, 776 `needs_review`, 0 `verified`. SHA `dfafbcae0d594e25553ddc30190156aae1b9dd76`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **4** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x351 (03.11.2026). Bank: 777 pytań, 777 `needs_review`, 0 `verified`. SHA `a21eae83c0b5ee259e8fad7618e4cb4270ca64b2`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **3** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -792,3 +792,7 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **4** (3 praktyczne pominięte
 | ADR-B-0775 | ADR-B-12 | ADR-B-12-K02 | Terminal czasowo składuje towary niebezpieczne podczas przewozu. Operator twierdzi, że skoro nie może całkowicie odciąć dostępu osób postronnych, nie musi też dodatkowo zabezpieczać ani oświetlać placu. Jak należy odczytać ADR 1.10.1.3? | B | ADR 2025, 1.10.1.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0776 | ADR-B-12 | ADR-B-12-K04 | Przy bramie terminalu kierowca zgłasza odbiór towaru ADR w imieniu przewoźnika wskazanego w zleceniu. W dokumentach pojawia się jednak inna firma transportowa, a kierowca nie potrafi wyjaśnić, kto faktycznie przyjmuje ładunek. Co powinien zrobić pracownik wydający przesyłkę? | C | ADR 2025, 1.10.1.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0777 | ADR-B-13 | ADR-B-13-K03 | Nadawca organizuje przewóz ADR do kilku odbiorców, których nie da się jeszcze ustalić na początku trasy. Chce w dokumencie przewozowym zamiast ich nazw i adresów wpisać zwrot „Delivery Sale”. Kiedy może tak postąpić? | B | ADR 2025, 5.4.1.1.1(h) | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0777 | ADR-B-13 | ADR-B-13-K03 | Nadawca organizuje przewóz ADR do kilku odbiorców, których nie da się jeszcze ustalić na początku trasy. Chce w dokumencie przewozowym zamiast ich nazw i adresów wpisać zwrot „Delivery Sale”. Kiedy może tak postąpić? | B | ADR 2025, 5.4.1.1.1(h) | — | NIEROZSTRZYGNIĘTE | needs_review |
