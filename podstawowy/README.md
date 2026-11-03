@@ -1,3 +1,9 @@
+**Stan na 03.11.2026, etap 4x329**
+
+**Stan 4x329:** 755 `needs_review`, 0 `verified`; SHA `9b6cf3e78af2fd49a2fcbe99b1fb10a8021904e1`. Poprawna = jedyna najdłuższa: **81/755 = 10,73%**; maksimum działu **14,61%**. Kompetencje teorii <6: **25**.
+
+- [Etap 4x329 — odblaskowość tablicy pomarańczowej](raporty/etap-4x329-odblaskowosc-tablicy-pomaranczowej-2026-11-03.md)
+
 **Stan na 03.11.2026, etap 4x328**
 
 **Stan 4x328:** 754 `needs_review`, 0 `verified`; SHA `a8e7354f8f27c9f69d0e2b61742f2ac9dea9244a`. Poprawna = jedyna najdłuższa: **81/754 = 10,74%**; maksimum działu **14,61%**. Kompetencje teorii <6: **26**.
