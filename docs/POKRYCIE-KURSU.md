@@ -1,3 +1,15 @@
+**Stan aktualny po etapie 4x319: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x319
+
+- Bank: **745** pytań, 745 `needs_review`, 0 `verified`; SHA `c53063274e59f9c2d45da3e0c5ef58ca2f1f496a`.
+- ADR-B-0745 do ADR-B-05-K08: postępowanie ze skażonymi rękawicami i użytymi środkami ochrony (ADR 2025, 5.4.3.4).
+- Moduł ADR-B-05: **83** pytania; kompetencja K08: 5→6.
+- Rozkład prawidłowych opcji: A=249, B=268, C=228.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/745 = 10,87%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **35** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x319-skazone-rekawice-srodki-ochrony-2026-11-03.md`.
+
 **Stan aktualny po etapie 4x318: 02.11.2026.**
 
 ## Bieżąca migawka — etap 4x318
@@ -913,7 +925,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-02 | Klasyfikacja i zagrożenia | 14/14 | 0 | 89 | 0 | Lekcja + mapa pytań |
 | ADR-B-03 | Środowisko i odpady | 6/6 | 0 | 60 | 4 | Lekcja + mapa pytań |
 | ADR-B-04 | Zapobieganie zagrożeniom | 6/6 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 82 | 0 | Lekcja + mapa pytań |
+| ADR-B-05 | Awaria, pierwsza pomoc | 12/12 | 3 | 83 | 0 | Lekcja + mapa pytań |
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 52 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 48 | 0 | Lekcja + mapa pytań |
@@ -922,7 +934,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **744** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **745** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
