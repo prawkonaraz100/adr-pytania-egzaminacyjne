@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0772
+# Aktualny rejestr specjalisty — ADR-B-0001–0773
 
-Etap 4x346 (03.11.2026). Bank: 772 pytań, 772 `needs_review`, 0 `verified`. SHA `577557ae08e7354fe5d5f329d2672266e62c2d98`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **8** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x347 (03.11.2026). Bank: 773 pytań, 773 `needs_review`, 0 `verified`. SHA `996c04867b69106382e88188c10d6253e36479e2`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **7** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -784,3 +784,5 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **8** (3 praktyczne pominięte
 | ADR-B-0771 | ADR-B-11 | ADR-B-11-K04 | Przewozisz w jednej jednostce dwa towary: jeden ma kod tunelowy B, drugi D. Nawigacja prowadzi przez tunel kategorii C. Jaki kod przyjmujesz dla całego ładunku i jak planujesz trasę? | B | ADR 2025, 8.6.3.2 i 8.6.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0772 | ADR-B-11 | ADR-B-11-K06 | Na jednej jednostce przewozisz towar z kodem tunelowym B, korzystający z wyłączenia ADR 1.1.3, oraz towary LQ z kodem D. Ilość LQ wymaga oznakowania jednostki zgodnie z 3.4.13 i 3.4.14. Jaki kod przypisujesz całemu ładunkowi do oceny ograniczeń tunelowych? | B | ADR 2025, 8.6.3.2–8.6.3.3 i 8.6.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0773 | ADR-B-11 | ADR-B-11-K07 | Po pożarze w tunelu kierowca jest już w bezpiecznym miejscu. Strażacy pytają, jaki towar przewoził. Co powinien im przekazać? | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |

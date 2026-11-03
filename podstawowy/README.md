@@ -1,6 +1,8 @@
-**Stan na 03.11.2026, etap 4x346**
+**Stan na 03.11.2026, etap 4x347**
 
-**Stan 4x346:** 772 `needs_review`, 0 `verified`; SHA `577557ae08e7354fe5d5f329d2672266e62c2d98`. Poprawna = jedyna najdłuższa: **83/772 = 10,75%**; kompetencje teorii <6: **8**.
+**Stan 4x347:** 773 `needs_review`, 0 `verified`; SHA `996c04867b69106382e88188c10d6253e36479e2`. Poprawna = jedyna najdłuższa: **84/773 = 10,87%**; kompetencje teorii <6: **7**.
+
+- [Etap 4x347 — informacje dla ratowników po pożarze w tunelu](raporty/etap-4x347-pozar-tunel-informacje-dla-ratownikow-2026-11-03.md)
 
 - [Etap 4x346 — wyjątek 1.1.3 przy oznakowaniu LQ](raporty/etap-4x346-wyjatki-1-1-3-znak-lq-tunele-2026-11-03.md)
 
@@ -78,6 +80,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x347 — informacje dla ratowników po pożarze w tunelu](raporty/etap-4x347-pozar-tunel-informacje-dla-ratownikow-2026-11-03.md)
 - [Etap 4x346 — wyjątek 1.1.3 przy oznakowaniu LQ](raporty/etap-4x346-wyjatki-1-1-3-znak-lq-tunele-2026-11-03.md)
 - [Etap 4x345 — najbardziej restrykcyjny kod tunelowy](raporty/etap-4x345-kod-najbardziej-restrykcyjny-trasa-tunelowa-2026-11-03.md)
 

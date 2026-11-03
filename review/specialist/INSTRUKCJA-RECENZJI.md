@@ -1,6 +1,10 @@
+## Bieżąca migawka — etap 4x347
+
+Bank: 773 pytań, 773 `needs_review`, 0 `verified`; SHA `996c04867b69106382e88188c10d6253e36479e2`. Kompetencje teorii z mniej niż 6 pytaniami: 7. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0773.md`. Raport: `podstawowy/raporty/etap-4x347-pozar-tunel-informacje-dla-ratownikow-2026-11-03.md`.
+
 ## Bieżąca migawka — etap 4x346
 
-Bank: 772 pytań, 772 `needs_review`, 0 `verified`; SHA `577557ae08e7354fe5d5f329d2672266e62c2d98`. Kompetencje teorii z mniej niż 6 pytaniami: 8. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0772.md`. Raport: `podstawowy/raporty/etap-4x346-wyjatki-1-1-3-znak-lq-tunele-2026-11-03.md`.
+Bank: 772 pytań, 772 `needs_review`, 0 `verified`; SHA `577557ae08e7354fe5d5f329d2672266e62c2d98`.
 
 ## Bieżąca migawka — etap 4x345
 

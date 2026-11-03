@@ -1,0 +1,46 @@
+{
+  "batch": "ADR-B-0773",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0773",
+      "sequence": 773,
+      "exact_record_snapshot": {
+        "stem": "Po pożarze w tunelu kierowca jest już w bezpiecznym miejscu. Strażacy pytają, jaki towar przewoził. Co powinien im przekazać?",
+        "options": {
+          "A": "Podać numer rejestracyjny, kierunek jazdy i miejsce zdarzenia, a dane o numerach UN, nazwach i klasach zagrożenia pozostawić służbom do ustalenia z oznakowania pojazdu.",
+          "B": "Wstrzymać się z przekazaniem szczegółów, aż ratownicy sami rozpoznają towar i potwierdzą przyczynę pożaru; dokumenty przekazać dopiero po zakończeniu wstępnego rozpoznania.",
+          "C": "Przekazać dostępne informacje o zdarzeniu i towarach niebezpiecznych, w tym dane z dokumentu przewozowego, jeśli można je udostępnić bezpiecznie; nie wracać po nie do strefy zagrożenia."
+        },
+        "correct_option": "C",
+        "explanation": "Ratownicy muszą szybko wiedzieć, jakie towary niebezpieczne brały udział w zdarzeniu, aby dobrać bezpieczne działania. Przekaż im dostępne dane o zdarzeniu i ładunku, w tym informacje z dokumentu przewozowego, jeśli masz go przy sobie lub można go udostępnić bezpiecznie. Nie wracaj do pojazdu ani strefy zagrożenia tylko po dokument. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4, wzór instrukcji pisemnych: powiadomienie odpowiednich służb ratowniczych, przekazanie wszystkich dostępnych informacji o zdarzeniu i towarach niebezpiecznych oraz udostępnienie dokumentów przewozowych",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 5.4.3.4: wzór instrukcji pisemnych wymaga powiadomienia odpowiednich służb ratowniczych, przekazania im wszystkich dostępnych informacji o zdarzeniu i towarach niebezpiecznych oraz zapewnienia dostępności dokumentów przewozowych dla ratowników. Pytanie sprawdza przekazanie informacji bez narażania kierowcy na ponowne wejście do strefy zagrożenia. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "supplementary_source_url": "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}

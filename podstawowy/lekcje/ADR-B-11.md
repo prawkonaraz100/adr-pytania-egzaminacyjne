@@ -261,3 +261,12 @@ Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi poró
 **Przykład z pracy:** Na jednej jednostce wieziesz towar z kodem B objęty wyłączeniem 1.1.3 oraz towary LQ z kodem D. Ilość LQ wymaga oznakowania jednostki. W takiej sytuacji kod B trzeba uwzględnić i przypisać całemu ładunkowi, a oznakowana jednostka podlega również ograniczeniu tuneli kategorii E.
 
 **Ćwiczenie:** odpowiedz na `ADR-B-0772` i wskaż, dlaczego wyłączenie 1.1.3 nie zawsze oznacza pominięcie towaru przy ustalaniu kodu. **Podstawa:** ADR 8.6.3.2, 8.6.3.3 i 8.6.4.
+
+
+### Informacje dla ratowników po pożarze — ADR-B-11-K07
+
+**Wyjaśnienie dla kursanta:** Po ewakuacji z tunelu ratownicy muszą wiedzieć, jakie towary niebezpieczne brały udział w zdarzeniu. Przekaż dostępne informacje o ładunku i zdarzeniu, w tym dane z dokumentu przewozowego, jeśli można go udostępnić bezpiecznie. Nie wracaj do pojazdu ani strefy zagrożenia tylko po dokument.
+
+**Przykład z pracy:** Po pożarze w tunelu kierowca jest już w bezpiecznym miejscu. Strażacy pytają o przewożony towar. Kierowca przekazuje dostępne dane o towarach niebezpiecznych i udostępnia dokument przewozowy, jeżeli ma go przy sobie.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0773` i wskaż, jakie informacje są potrzebne ratownikom. **Podstawa:** instrukcje pisemne ADR 5.4.3.4.
