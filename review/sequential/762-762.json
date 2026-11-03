@@ -1,0 +1,46 @@
+{
+  "batch": "762-762",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0762",
+      "sequence": 762,
+      "exact_record_snapshot": {
+        "stem": "Przewóz spełnia warunki wyłączenia 1.1.3.6. Kierowca ma przenośną latarkę z metalową powierzchnią mogącą wywołać iskrę. Czy może jej użyć podczas takiego przewozu?",
+        "options": {
+          "A": "Tak. Wyłączenie 1.1.3.6 znosi cały rozdział 8, więc punkt 8.3.4 nie ogranicza używanej latarki.",
+          "B": "Nie. Punkt 8.3.4 nadal obowiązuje przy 1.1.3.6 i zakazuje lampy z metalową powierzchnią zdolną wywołać iskrę.",
+          "C": "Tak. Wystarczy, że latarka jest przenośna i sprawna; materiał obudowy nie ma znaczenia przy małych ilościach."
+        },
+        "correct_option": "B",
+        "explanation": "Wyłączenie 1.1.3.6 nie usuwa wszystkich wymagań części 8. Punkt 8.3.4 pozostaje wśród wyjątków, które nadal trzeba stosować, i zabrania używania przenośnej lampy z metalową powierzchnią mogącą wywołać iskry. Nie myl tego z obowiązkiem wożenia lampy z 8.1.5.2, który nie jest zachowany przy tym wyłączeniu. Podstawa: ADR 2025, 1.1.3.6.2, 8.3.4 i 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.6.2 — wyjątek dla 8.3.4 pozostaje stosowany; 8.3.4 — przenośna lampa nie może mieć metalowej powierzchni zdolnej wywołać iskry; 8.1.5.2 — ogólny wykaz wyposażenia",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 1.1.3.6.2 retains specified exceptions to the Part 8 exemption, including 8.3.4. Under 8.3.4, portable lighting apparatus used shall not exhibit any metal surface liable to produce sparks. 8.1.5.2's general equipment requirement is not among the retained provisions, but any portable lamp used remains subject to 8.3.4.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
