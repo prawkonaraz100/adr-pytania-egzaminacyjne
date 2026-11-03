@@ -1,15 +1,15 @@
-**Stan aktualny po etapie 4x354: 03.11.2026.**
+**Stan aktualny po etapie 4x355: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x354
+## Bieżąca migawka — etap 4x355
 
-- Bank: **780** pytań, 780 `needs_review`, 0 `verified`; SHA `db5b90f4305fd75c1bb2f73a8b5c8b7a6bb42d63`.
+- **Bank zamknięty, gotowy do przeglądu specjalisty** (nie do publikacji): **780** pytań, 780 `needs_review`, 0 `verified`; SHA `db5b90f4305fd75c1bb2f73a8b5c8b7a6bb42d63`.
 - ADR-B-0780 do ADR-B-13-K07: po zmianie ciągnika instrukcje pisemne muszą być łatwo dostępne w kabinie pojazdu zastępczego (ADR 5.4.3.1, 8.1.2.3).
 - Moduł ADR-B-13: **54** pytania; kompetencja K07: 5→6.
 - Rozkład prawidłowych opcji: A=258, B=291, C=231.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/780 = 10,77%**; maksimum działu to 15,22%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **0** (3 praktyczne pominięte).
+- Kompetencje teorii z mniej niż 6 pytaniami: **0** (3 praktyczne pominięte). **STOP dopisywania pytań**.
 - Explanation: 378 znaków; wszystkie pytania `needs_review`.
-- Raport: `podstawowy/raporty/etap-4x354-instrukcje-pisemne-po-zmianie-pojazdu-adr-8-1-2-3-2026-11-03.md`.
+- Raport końcowy: `docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md`; raport zamknięcia: `podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md`.
 
 **Stan aktualny po etapie 4x339: 03.11.2026.**
 
