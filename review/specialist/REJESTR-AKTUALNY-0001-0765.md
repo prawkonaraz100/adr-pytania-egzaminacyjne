@@ -1,4 +1,4 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0773
+# Aktualny rejestr specjalisty — ADR-B-0001–0774
 
 Etap 4x347 (03.11.2026). Bank: 773 pytań, 773 `needs_review`, 0 `verified`. SHA `996c04867b69106382e88188c10d6253e36479e2`.
 Kompetencje teoretyczne z mniej niż 6 pytaniami: **7** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
@@ -786,3 +786,5 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **7** (3 praktyczne pominięte
 | ADR-B-0772 | ADR-B-11 | ADR-B-11-K06 | Na jednej jednostce przewozisz towar z kodem tunelowym B, korzystający z wyłączenia ADR 1.1.3, oraz towary LQ z kodem D. Ilość LQ wymaga oznakowania jednostki zgodnie z 3.4.13 i 3.4.14. Jaki kod przypisujesz całemu ładunkowi do oceny ograniczeń tunelowych? | B | ADR 2025, 8.6.3.2–8.6.3.3 i 8.6.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0773 | ADR-B-11 | ADR-B-11-K07 | Po pożarze w tunelu kierowca jest już w bezpiecznym miejscu. Strażacy pytają, jaki towar przewoził. Co powinien im przekazać? | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0774 | ADR-B-12 | ADR-B-12-K01 | Podczas przewozu ADR kierowca ma przy sobie ważny paszport ze zdjęciem, ale nie ma polskiego dowodu osobistego. Czy spełnia wymóg ADR 1.10.1.4? | A | ADR 2025, 1.10.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
