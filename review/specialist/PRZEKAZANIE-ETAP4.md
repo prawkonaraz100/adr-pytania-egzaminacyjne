@@ -1,13 +1,13 @@
-**Stan aktualny po etapie 4x351: 03.11.2026.**
+**Stan aktualny po etapie 4x352: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x351
+## Bieżąca migawka — etap 4x352
 
-- Bank: **777** pytań, 777 `needs_review`, 0 `verified`; SHA `a21eae83c0b5ee259e8fad7618e4cb4270ca64b2`.
-- ADR-B-0777 do ADR-B-13-K03: zwrot „Delivery Sale” może zastąpić dane odbiorców tylko za zgodą właściwych władz państw objętych przewozem (ADR 5.4.1.1.1(h)).
-- Moduł ADR-B-12: **48** pytań; kompetencja K02: 5→6.
-- Rozkład A/B/C: **258/288/231**; poprawna jedyna najdłuższa: **84/777 = 10,81%**; maksimum działu: **15,22%**.
-- Kompetencje teorii <6: **3**.
-- Raport: `podstawowy/raporty/etap-4x351-exception-delivery-sale-adr-5-4-1-1-1-h-2026-11-03.md`.
+- Bank: **778** pytań, 778 `needs_review`, 0 `verified`; SHA `ab9c275f699c82c76357be53051250d404cba85d`.
+- ADR-B-0778 do ADR-B-13-K05: dokumenty ze zdjęciem wszystkich członków załogi muszą być przewożone w kabinie kierowcy (ADR 8.1.2.1(d)).
+- Moduł ADR-B-13: **52** pytań; kompetencja K05: 5→6.
+- Rozkład A/B/C: **258/289/231**; poprawna jedyna najdłuższa: **84/778 = 10,80%**; maksimum działu: **15,22%**.
+- Kompetencje teorii <6: **2**.
+- Raport: `podstawowy/raporty/etap-4x352-dokumenty-tozsamosci-w-kabinie-adr-8-1-2-1-d-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x348
 
