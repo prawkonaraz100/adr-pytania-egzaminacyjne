@@ -330,3 +330,11 @@ Jeżeli wieziesz towary niebezpieczne razem ze zwykłym ładunkiem, nie zabezpie
 ### Wysokość przegrody przy oddzielaniu żywności (ADR-B-0765)
 
 Jeżeli dla przesyłek objętych CV28 wybierasz przegrodę jako sposób oddzielenia od żywności, przegroda musi być co najmniej tak wysoka jak te przesyłki. Krótsza przegroda nie spełnia tego warunku, nawet jeśli jest stabilna i oddziela ładunek na całej szerokości. ADR dopuszcza też inne metody oddzielenia, np. odpowiednie przesyłki pośrednie lub wolną przestrzeń o wymaganej szerokości. Podstawa: ADR 2025, 7.5.4; CV28 w 7.5.11.
+
+
+## 7. Strzałki kierunkowe na opakowaniach
+
+Jeżeli opakowanie kombinowane zawiera opakowania wewnętrzne z cieczą, sprawdź, czy nie ma zastosowania wyjątek z ADR 5.2.1.10.2. Gdy oznakowanie jest wymagane, strzałki muszą być czytelne, znajdować się na dwóch przeciwległych pionowych bokach i wskazywać dokładnie ku górze. Ramka wokół strzałek jest opcjonalna. Nie ustawiaj takiej sztuki przesyłki na boku ani odwrotnie; przy opakowaniu zbiorczym położenie sztuk ze strzałkami musi być zachowane (ADR 5.1.2.3). Podstawa: ADR 2025, 5.2.1.10.1–5.2.1.10.3.
+
+
+Pytanie bankowe powiązane z tym działem: **ADR-B-0766** — oznakowanie strzałkami kierunkowymi na dwóch przeciwległych pionowych bokach opakowania.
