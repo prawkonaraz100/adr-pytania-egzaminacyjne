@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0765",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 7.5.4; 7.5.11 CV28",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0765",
+      "order": 765,
+      "clause": "ADR 2025, 7.5.4; 7.5.11 CV28",
+      "question_snapshot": {
+        "id": "ADR-B-0765",
+        "module_id": "ADR-B-09",
+        "stem": "Przewozisz przesyłki objęte CV28 obok żywności. Ustawiona między nimi przegroda kończy się 20 cm poniżej górnej krawędzi tych przesyłek. Czy taki sposób oddzielenia spełnia ADR 7.5.4?",
+        "options": {
+          "A": "Tak. Wystarczy, że przegroda jest stabilna i oddziela ładunki na całej szerokości pojazdu.",
+          "B": "Nie. Przegroda musi być co najmniej tak wysoka jak przesyłki objęte wymaganym oddzieleniem.",
+          "C": "Nie. Przegroda musi zawsze sięgać od podłogi aż do dachu pojazdu, niezależnie od wysokości przesyłek."
+        },
+        "correct_option": "B",
+        "explanation": "Przy CV28 nie wystarczy dowolna przegroda między żywnością a wskazanymi przesyłkami. Jeżeli wybierasz tę metodę oddzielenia, przegroda musi być co najmniej tak wysoka jak przesyłki objęte wymaganiem. Gdy kończy się niżej, nie zapewnia wymaganego oddzielenia; możesz zastosować inną metodę przewidzianą w ADR, np. odpowiedni odstęp lub właściwe przesyłki pośrednie. Podstawa: ADR 2025, 7.5.4 i CV28.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.4 — kompletna przegroda oddzielająca powinna mieć wysokość co najmniej równą wysokości przesyłek objętych wymaganiem; CV28 w 7.5.11",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Stabilność i szerokość przegrody nie wystarczają, jeżeli nie ma wymaganej wysokości."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Wybrana metoda z przegrodą wymaga, by była ona co najmniej tak wysoka jak przesyłki objęte CV28."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Przepis nie wymaga zawsze przegrody do dachu; określa jej minimalną wysokość względem przesyłek."
+        }
+      },
+      "notes_on_conditions": "Przegroda jest jedną z metod oddzielenia. Jej niewystarczająca wysokość oznacza, że nie spełnia tej metody, ale ADR przewiduje również inne sposoby oddzielenia.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

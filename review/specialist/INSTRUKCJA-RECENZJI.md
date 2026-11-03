@@ -1,3 +1,7 @@
+## Bieżąca migawka — etap 4x339
+
+Bank: 765 pytań, 765 `needs_review`, 0 `verified`; SHA `d6cd7215399b36e8783209c9e34a35ff86ac35ad`. Kompetencje teorii z mniej niż 6 pytaniami: 15. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0765.md`. Raport: `podstawowy/raporty/etap-4x339-wysokosc-przegrody-cv28-7-5-4-2026-11-03.md`.
+
 ## Bieżąca migawka — etap 4x338
 
 Bank: 764 pytań, 764 `needs_review`, 0 `verified`; SHA `dfc59132c0d5282742c7ff456c414ebba9acc81c`. Kompetencje teorii z mniej niż 6 pytaniami: 16. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0764.md`. Raport: `podstawowy/raporty/etap-4x338-mocowanie-calego-ladunku-mieszanego-7-5-7-1-2026-11-03.md`.

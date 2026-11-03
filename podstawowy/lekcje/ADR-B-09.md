@@ -325,3 +325,8 @@ Jeśli po rozładunku sztuk przesyłek stwierdzono uwolnienie części zawartoś
 ### Mocowanie także zwykłego ładunku przy przewozie mieszanym (ADR-B-0764)
 
 Jeżeli wieziesz towary niebezpieczne razem ze zwykłym ładunkiem, nie zabezpieczasz wyłącznie opakowań ADR. Punkt 7.5.7.1 wymaga, aby wszystkie towary były umocowane lub zaklinowane tak, by zapobiec uwolnieniu towarów niebezpiecznych. Luźna paleta zwykłego towaru może podczas hamowania uderzyć w opakowania ADR, dlatego ją także trzeba unieruchomić. Podstawa: ADR 2025, 7.5.7.1.
+
+
+### Wysokość przegrody przy oddzielaniu żywności (ADR-B-0765)
+
+Jeżeli dla przesyłek objętych CV28 wybierasz przegrodę jako sposób oddzielenia od żywności, przegroda musi być co najmniej tak wysoka jak te przesyłki. Krótsza przegroda nie spełnia tego warunku, nawet jeśli jest stabilna i oddziela ładunek na całej szerokości. ADR dopuszcza też inne metody oddzielenia, np. odpowiednie przesyłki pośrednie lub wolną przestrzeń o wymaganej szerokości. Podstawa: ADR 2025, 7.5.4; CV28 w 7.5.11.

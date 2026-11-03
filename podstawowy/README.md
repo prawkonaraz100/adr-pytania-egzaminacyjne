@@ -1,6 +1,6 @@
-**Stan na 03.11.2026, etap 4x338**
+**Stan na 03.11.2026, etap 4x339**
 
-**Stan 4x338:** 764 `needs_review`, 0 `verified`; SHA `dfc59132c0d5282742c7ff456c414ebba9acc81c`. Poprawna = jedyna najdłuższa: **83/764 = 10,86%**; maksimum działu **14,61%**. Kompetencje teorii <6: **16**.
+**Stan 4x339:** 765 `needs_review`, 0 `verified`; SHA `d6cd7215399b36e8783209c9e34a35ff86ac35ad`. Poprawna = jedyna najdłuższa: **83/765 = 10,85%**; maksimum działu **14,61%**. Kompetencje teorii <6: **15**.
 
 **Stan 4x332:** 758 `needs_review`, 0 `verified`; SHA `2b708a1f1c72732bb6b50a067d94fcbac1032a06`. Poprawna = jedyna najdłuższa: **81/758 = 10,69%**; maksimum działu **14,61%**. Kompetencje teorii <6: **22**.
 
@@ -67,6 +67,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x339 — wysokość przegrody CV28 (7.5.4)](raporty/etap-4x339-wysokosc-przegrody-cv28-7-5-4-2026-11-03.md)
 
 - [Etap 4x338 — mocowanie całego ładunku mieszanego (7.5.7.1)](raporty/etap-4x338-mocowanie-calego-ladunku-mieszanego-7-5-7-1-2026-11-03.md)
 
