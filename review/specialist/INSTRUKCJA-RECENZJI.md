@@ -1,3 +1,7 @@
+## Bieżąca migawka — etap 4x338
+
+Bank: 764 pytań, 764 `needs_review`, 0 `verified`; SHA `dfc59132c0d5282742c7ff456c414ebba9acc81c`. Kompetencje teorii z mniej niż 6 pytaniami: 16. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0764.md`. Raport: `podstawowy/raporty/etap-4x338-mocowanie-calego-ladunku-mieszanego-7-5-7-1-2026-11-03.md`.
+
 ## Bieżąca migawka — etap 4x337
 
 Bank: 763 pytań, 763 `needs_review`, 0 `verified`; SHA `30f597dd668581ee6b16a810e1d21e0c2661dfd4`. Kompetencje teorii z mniej niż 6 pytaniami: 17. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0763.md`. Raport: `podstawowy/raporty/etap-4x337-para-rekawic-na-czlonka-zalogi-2026-11-03.md`.

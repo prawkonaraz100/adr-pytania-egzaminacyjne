@@ -320,3 +320,8 @@ Po rozładunku części przesyłek układ pozostałego ładunku może się zmien
 ### Czyszczenie po wycieku — dojazd do miejsca czyszczenia (ADR-B-0706)
 
 Jeśli po rozładunku sztuk przesyłek stwierdzono uwolnienie części zawartości, pojazd lub kontener trzeba oczyścić niezwłocznie. Gdy nie można tego zrobić na placu rozładunku, wolno przemieścić pojazd do najbliższego miejsca, gdzie można przeprowadzić czyszczenie, ale tylko z zabezpieczeniami zapobiegającymi niekontrolowanemu wyciekowi. Nie oznacza to swobodnego przejazdu do dowolnej bazy. Podstawa: ADR 2025, 7.5.8.1.
+
+
+### Mocowanie także zwykłego ładunku przy przewozie mieszanym (ADR-B-0764)
+
+Jeżeli wieziesz towary niebezpieczne razem ze zwykłym ładunkiem, nie zabezpieczasz wyłącznie opakowań ADR. Punkt 7.5.7.1 wymaga, aby wszystkie towary były umocowane lub zaklinowane tak, by zapobiec uwolnieniu towarów niebezpiecznych. Luźna paleta zwykłego towaru może podczas hamowania uderzyć w opakowania ADR, dlatego ją także trzeba unieruchomić. Podstawa: ADR 2025, 7.5.7.1.
