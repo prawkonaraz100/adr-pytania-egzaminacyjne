@@ -4,10 +4,10 @@
 
 Pakiet przekazania: `review/specialist/PAKIET-ZAMKNIECIE-0780.md`.
 
-- Bank: **780** pytań, 780 `needs_review`, 0 `verified`; SHA `db5b90f4305fd75c1bb2f73a8b5c8b7a6bb42d63`.
+- Bank: **780** pytań, 780 `needs_review`, 0 `verified`; SHA `79e9d286f906b29f19f0055ce888e464b9f46192`.
 - ADR-B-0780 do ADR-B-13-K07: instrukcje pisemne muszą znajdować się w kabinie nowego pojazdu i być łatwo dostępne po wymianie ciągnika (ADR 5.4.3.1; 8.1.2.3).
 - Moduł ADR-B-13: **54** pytania; kompetencja K07: 5→6.
-- Rozkład A/B/C: **258/291/231**; poprawna jedyna najdłuższa: **84/780 = 10,77%**; maksimum działu: **15,22%**.
+- Rozkład A/B/C: **258/291/231**; poprawna jedyna najdłuższa: **85/780 = 10,90%**; maksimum działu: **15,22%**.
 - Kompetencje teorii <6: **0**. **Bank zamknięty, gotowy do przeglądu specjalisty, bez zatwierdzenia prawnego. STOP dopisywania pytań.**
 - Raport: `podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md`.
 
