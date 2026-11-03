@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x335: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x335
+
+- Bank: **761** pytań, 761 `needs_review`, 0 `verified`; SHA `51d30c1588cbb1e78c330876d3e59572aca531ec`.
+- ADR-B-0761: przy spełnieniu warunków 1.1.3.6.2 obowiązek klina z 8.1.5.2 nie ma zastosowania; gaśnica z 8.1.4.2 pozostaje wymagana.
+- Moduł ADR-B-08: **51** pytań; kompetencja K04: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=275, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **82/761 = 10,78%**; maksimum działu: **14,61%**.
+- Kompetencje teorii z mniej niż 6 pytaniami: **19** (3 praktyczne pominięte).
+- Explanation: 408 znaków / 4 zdania; wszystkie odpowiedzi `needs_review`.
+- Raport: `../podstawowy/raporty/etap-4x335-klin-a-wylaczenie-1-1-3-6-2026-11-03.md`.
+
 **Stan aktualny po etapie 4x334: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x334
