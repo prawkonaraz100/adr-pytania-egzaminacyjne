@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0771
+# Aktualny rejestr specjalisty — ADR-B-0001–0772
 
-Etap 4x345 (03.11.2026). Bank: 771 pytań, 771 `needs_review`, 0 `verified`. SHA `0467701668f4ff28139fb72ab341100b67df4268`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **9** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x346 (03.11.2026). Bank: 772 pytań, 772 `needs_review`, 0 `verified`. SHA `577557ae08e7354fe5d5f329d2672266e62c2d98`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **8** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -782,3 +782,5 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **9** (3 praktyczne pominięte
 | ADR-B-0770 | ADR-B-10 | ADR-B-10-K02 | Towar jest niebezpieczny według ADR, ale zgodnie z IMDG Code jest uznawany za niebędący towarem niebezpiecznym. Czy w łańcuchu drogowym i morskim można zastosować odstępstwo z ADR 1.1.4.2.1 i wpisać w dokumencie „PRZEWÓZ ZGODNY Z 1.1.4.2.1”? | B | ADR 2025, 1.1.4.2.1 i 5.4.1.1.7 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0771 | ADR-B-11 | ADR-B-11-K04 | Przewozisz w jednej jednostce dwa towary: jeden ma kod tunelowy B, drugi D. Nawigacja prowadzi przez tunel kategorii C. Jaki kod przyjmujesz dla całego ładunku i jak planujesz trasę? | B | ADR 2025, 8.6.3.2 i 8.6.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0772 | ADR-B-11 | ADR-B-11-K06 | Na jednej jednostce przewozisz towar z kodem tunelowym B, korzystający z wyłączenia ADR 1.1.3, oraz towary LQ z kodem D. Ilość LQ wymaga oznakowania jednostki zgodnie z 3.4.13 i 3.4.14. Jaki kod przypisujesz całemu ładunkowi do oceny ograniczeń tunelowych? | B | ADR 2025, 8.6.3.2–8.6.3.3 i 8.6.4 | — | NIEROZSTRZYGNIĘTE | needs_review |

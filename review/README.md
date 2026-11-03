@@ -1,4 +1,8 @@
-**Stan aktualny po etapie 4x345: 03.11.2026.**
+**Stan aktualny po etapie 4x346: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x346
+
+Bank: 772 pytań, 772 `needs_review`, 0 `verified`; SHA `577557ae08e7354fe5d5f329d2672266e62c2d98`. Kompetencje teorii <6: 8. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0772.md`; raport: `podstawowy/raporty/etap-4x346-wyjatki-1-1-3-znak-lq-tunele-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x345
 
@@ -6,7 +10,7 @@ Bank: 771 pytań, 771 `needs_review`, 0 `verified`; SHA `0467701668f4ff28139fb72
 
 ## Bieżąca migawka — etap 4x344
 
-Bank: 770 pytań, 770 `needs_review`, 0 `verified`; SHA `d96529ee430bb92d93c6067033a90470e51861b7`. Kompetencje teorii <6: 10. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0771.md`; raport: `podstawowy/raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md`.
+Bank: 770 pytań, 770 `needs_review`, 0 `verified`; SHA `d96529ee430bb92d93c6067033a90470e51861b7`. Kompetencje teorii <6: 10. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0770.md`; raport: `podstawowy/raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x343
 
