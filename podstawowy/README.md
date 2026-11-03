@@ -1,4 +1,4 @@
-**Stan na 03.11.2026, etap 4x347**
+**Stan na 03.11.2026, etap 4x348**
 
 **Stan 4x347:** 773 `needs_review`, 0 `verified`; SHA `996c04867b69106382e88188c10d6253e36479e2`. Poprawna = jedyna najdłuższa: **84/773 = 10,87%**; kompetencje teorii <6: **7**.
 
@@ -80,6 +80,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x348 — paszport jako dokument tożsamości ze zdjęciem](raporty/etap-4x348-paszport-dokument-identyfikacji-2026-11-03.md)
 - [Etap 4x347 — informacje dla ratowników po pożarze w tunelu](raporty/etap-4x347-pozar-tunel-informacje-dla-ratownikow-2026-11-03.md)
 - [Etap 4x346 — wyjątek 1.1.3 przy oznakowaniu LQ](raporty/etap-4x346-wyjatki-1-1-3-znak-lq-tunele-2026-11-03.md)
 - [Etap 4x345 — najbardziej restrykcyjny kod tunelowy](raporty/etap-4x345-kod-najbardziej-restrykcyjny-trasa-tunelowa-2026-11-03.md)
