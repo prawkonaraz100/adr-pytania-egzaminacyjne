@@ -4,7 +4,7 @@
 
 - Bank: **777** pytań, 777 `needs_review`, 0 `verified`; SHA `a21eae83c0b5ee259e8fad7618e4cb4270ca64b2`.
 - ADR-B-0777 do ADR-B-13-K03: zwrot „Delivery Sale” może zastąpić dane odbiorców tylko przy dostawie do wielu odbiorców nieznanych na początku przewozu i za zgodą właściwych władz (ADR 5.4.1.1.1(h)).
-- Moduł ADR-B-12: **48** pytań; kompetencja K04: 5→6.
+- Moduł ADR-B-13: **51** pytań; kompetencja K03: 5→6.
 - Rozkład prawidłowych opcji: A=258, B=288, C=231.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/777 = 10,81%**; maksimum działu to 15,22%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **3** (3 praktyczne pominięte).
