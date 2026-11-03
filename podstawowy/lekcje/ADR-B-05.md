@@ -468,3 +468,8 @@ ADR dopuszcza dokumentację elektroniczną, ale wymagane dane muszą być dostę
 ### Skażone rękawice po kontakcie z substancją — ADR-B-0745
 
 Rękawice, które miały kontakt z uwolnioną substancją, traktuj jako skażone nawet wtedy, gdy nie widać na nich plamy. Nie zakładaj ich ponownie ani nie przechowuj w kabinie; użyte skażone środki ochronne trzeba zdjąć i zapewnić ich bezpieczne usunięcie. Postępuj tak, aby nie przenosić substancji na skórę, wyposażenie ani inne osoby. Podstawa: ADR 2025, 5.4.3.4.
+
+
+### Ostrzeżenie także ruchu drogowego — ADR-B-0746
+
+Po awarii ostrzeż inne osoby i ruch drogowy o zagrożeniu oraz trzymaj ich z dala od strefy niebezpiecznej. Nie wystarczy poprosić kierowców, by zwolnili, jeśli nadal mogą wjechać w obszar zdarzenia. Nie wchodź w rozlew ani nie kieruj pojazdów przez miejsce zagrożenia; działaj z bezpiecznej pozycji i stosuj się do poleceń służb. Podstawa: ADR 2025, 5.4.3.4.

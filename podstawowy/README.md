@@ -1,19 +1,16 @@
-**Stan na 03.11.2026, etap 4x319**
+**Stan na 03.11.2026, etap 4x320**
 
-## Bieżąca migawka — etap 4x319
+## Bieżąca migawka — etap 4x320
 
-- Bank: **745** pytań, 745 `needs_review`, 0 `verified`; SHA `c53063274e59f9c2d45da3e0c5ef58ca2f1f496a`.
-- ADR-B-0745 do ADR-B-05-K08: postępowanie ze skażonymi rękawicami i użytymi środkami ochrony (ADR 2025, 5.4.3.4).
-- Moduł ADR-B-05: **83** pytania; kompetencja K08: 5→6.
-- Rozkład prawidłowych opcji: A=249, B=268, C=228.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/745 = 10,87%**; maksimum działu to 14,61%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **35** (3 praktyczne pominięte).
-- Raport: `podstawowy/raporty/etap-4x319-skazone-rekawice-srodki-ochrony-2026-11-03.md`.
-
-**Stan 4x319:** 745 `needs_review`, 0 `verified`; SHA `c53063274e59f9c2d45da3e0c5ef58ca2f1f496a`. Poprawna = jedyna najdłuższa: **81/745 = 10,87%**; maksimum działu **14,61%**. Kompetencje teorii <6: **35**.
+- Bank: **746** pytań; 746 `needs_review`, 0 `verified`; SHA `74c197c3add4c0f537c84254e9115f2a86a22da2`.
+- ADR-B-0746 do ADR-B-05-K09: ostrzeżenie ruchu drogowego po awarii (ADR 2025, 5.4.3.4).
+- Kompetencja K09: 5→6; moduł ADR-B-05: 84 pytania.
+- Rozkład kluczy A/B/C: 250/268/228; poprawna jedyna najdłuższa: 81/746 = 10,86%.
+- Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
 
+- [Etap 4x320 — ostrzeżenie ruchu drogowego](raporty/etap-4x320-ostrzezenie-ruchu-drogowego-2026-11-03.md)
 - [Etap 4x319 — skażone rękawice i środki ochrony](raporty/etap-4x319-skazone-rekawice-srodki-ochrony-2026-11-03.md)
 
 **Stan na 02.11.2026, etap 4x318**

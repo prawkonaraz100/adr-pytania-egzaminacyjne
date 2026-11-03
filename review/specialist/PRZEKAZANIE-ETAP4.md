@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x320
+
+Raport: `podstawowy/raporty/etap-4x320-ostrzezenie-ruchu-drogowego-2026-11-03.md`.
+
+Bank 746 pytań; 746 `needs_review`, 0 `verified`; SHA `74c197c3add4c0f537c84254e9115f2a86a22da2`; licznik kompetencji teorii <6: 34. Rejestr `REJESTR-AKTUALNY-0001-0746.md`.
+
 ## Bieżąca migawka — etap 4x319
 
 Raport: `podstawowy/raporty/etap-4x319-skazone-rekawice-srodki-ochrony-2026-11-03.md`.

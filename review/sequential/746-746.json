@@ -1,0 +1,46 @@
+{
+  "batch": "746-746",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0746",
+      "sequence": 746,
+      "exact_record_snapshot": {
+        "stem": "Po awarii ADR kierowca znajduje się w bezpiecznym miejscu, a za pojazdem zbliżają się kolejne samochody. Jak powinien postąpić zgodnie z instrukcjami pisemnymi?",
+        "options": {
+          "A": "Ostrzec ruch drogowy i osoby w pobliżu oraz utrzymać je z dala od strefy zagrożenia.",
+          "B": "Pozwolić samochodom przejechać obok zdarzenia, jeśli kierowcy zmniejszą prędkość i zachowają odstęp.",
+          "C": "Samemu zatrzymywać i kierować pojazdy przez miejsce zdarzenia, nawet gdy wymaga to wejścia w strefę rozlewu."
+        },
+        "correct_option": "A",
+        "explanation": "Po awarii ostrzeż nie tylko osoby stojące obok, ale też ruch drogowy, i trzymaj wszystkich z dala od strefy zagrożenia. Nie wystarczy poprosić kierowców, by tylko zwolnili, bo nadal mogą wjechać w obszar zagrożenia. Nie kieruj samodzielnie pojazdów przez rozlew ani nie wchodź w niebezpieczne miejsce; działaj z bezpiecznej pozycji i zgodnie z poleceniami służb. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — ostrzec inne osoby i ruch drogowy o zagrożeniu oraz trzymać je z dala od strefy zagrożenia; nie dotykać rozlewów ani przez nie nie przechodzić",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.4.3.4: warn other persons and traffic of danger and keep them away from danger area",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
