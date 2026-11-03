@@ -1,6 +1,6 @@
-**Stan na 03.11.2026, etap 4x352**
+**Stan na 03.11.2026, etap 4x353**
 
-**Stan 4x352:** 778 `needs_review`, 0 `verified`; SHA `ab9c275f699c82c76357be53051250d404cba85d`. Poprawna = jedyna najdłuższa: **84/778 = 10,80%**; kompetencje teorii <6: **2**.
+**Stan 4x353:** 779 `needs_review`, 0 `verified`; SHA `6c816f78f6e83644ed8667311de9c1fb4d95bebc`. Poprawna = jedyna najdłuższa: **84/779 = 10,78%**; kompetencje teorii <6: **1**.
 
 - [Etap 4x350 — identyfikacja przewoźnika przed wydaniem towaru](raporty/etap-4x350-weryfikacja-tozsamosci-przewoznika-adr-1-10-1-2-2026-11-03.md)
 
@@ -81,6 +81,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x353 — wymagany wpis EDI w transporcie kombinowanym](raporty/etap-4x353-wpis-edi-w-transporcie-kombinowanym-adr-5-4-1-1-7-2026-11-03.md)
 
 - [Etap 4x352 — dokumenty tożsamości w kabinie kierowcy](raporty/etap-4x352-dokumenty-tozsamosci-w-kabinie-adr-8-1-2-1-d-2026-11-03.md)
 
