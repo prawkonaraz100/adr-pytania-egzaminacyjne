@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x321
+
+Raport: `podstawowy/raporty/etap-4x321-kamizelka-i-znaki-ostrzegawcze-2026-11-03.md`.
+
+Bank 747 pytań; 747 `needs_review`, 0 `verified`; SHA `b287b7df4227de90a2d33199a005dde465c69c8a`; licznik kompetencji teorii <6: 33. Rejestr `REJESTR-AKTUALNY-0001-0747.md`.
+
 ## Bieżąca migawka — etap 4x320
 
 Raport: `podstawowy/raporty/etap-4x320-ostrzezenie-ruchu-drogowego-2026-11-03.md`.
