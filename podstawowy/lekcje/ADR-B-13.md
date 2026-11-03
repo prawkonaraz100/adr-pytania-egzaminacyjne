@@ -286,3 +286,8 @@ Przed wyjazdem sprawdź, czy dokumenty ze zdjęciem wszystkich członków załog
 ### Wpis ADR w elektronicznym dokumencie przewozowym
 
 Jeżeli przewóz odbywa się na warunkach 1.1.4.2.1, dokument przewozowy musi zawierać wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Dotyczy to również dokumentu przekazywanego elektronicznie — EDI zmienia postać dokumentu, ale nie usuwa wymaganej informacji. Notatka w systemie przewoźnika nie zastępuje wpisu w dokumencie. Pytanie kontrolne: ADR-B-0779. Podstawa: ADR 5.4.1.1.7 i 5.4.0.2.
+
+
+### Instrukcje pisemne po zmianie pojazdu
+
+Gdy ciągnik zostaje zastąpiony innym, sprawdź, czy w kabinie nowego pojazdu są łatwo dostępne instrukcje pisemne dla załogi. Instrukcje pozostawione w uszkodzonym pojeździe ani samo ustne ich omówienie nie zastępują wymaganego dokumentu. Pytanie kontrolne: ADR-B-0780. Podstawa: ADR 5.4.3.1 i 8.1.2.3.
