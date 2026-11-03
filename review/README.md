@@ -1,3 +1,10 @@
+## Bieżąca migawka — etap 4x333
+
+- Bank: **759** pytań, 759 `needs_review`, 0 `verified`; SHA `3d6a943093405340d3e4b029e9b835b6318b624b`.
+- Kompetencje teorii poniżej 6 pytań: **21** (3 praktyczne pominięte).
+- Poprawna odpowiedź jest jedyną najdłuższą: **82/759 = 10,80%**; maksimum działu: **14,61%**.
+- [Raport 4x333 — oznaczenie kontroli gaśnicy](../podstawowy/raporty/etap-4x333-gasnica-oznaczenie-kontroli-lub-okresu-uzytkowania-2026-11-03.md).
+
 ## Bieżąca migawka — etap 4x332
 
 Raport: `podstawowy/raporty/etap-4x332-odpowiedzialnosc-deliktowa-osoba-trzecia-2026-11-03.md`.
