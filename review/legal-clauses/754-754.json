@@ -1,0 +1,55 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0754",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 5.3.2.3.1–5.3.2.3.2; special meaning of hazard identification number 22",
+  "source_of_law": "https://eli.gov.pl/api/acts/DU/2025/642",
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0754",
+      "order": 754,
+      "clause": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+      "question_snapshot": {
+        "id": "ADR-B-0754",
+        "module_id": "ADR-B-06",
+        "stem": "W górnym polu tablicy pomarańczowej odczytujesz numer 22. Znasz zasadę, że powtórzona cyfra zwykle wzmacnia zagrożenie. Co musisz sprawdzić przed zastosowaniem tej zasady?",
+        "options": {
+          "A": "Odczytać go tylko jako podwójne nasilenie zagrożenia emisją gazu, bez dodatkowego znaczenia przypisanego kodowi 22.",
+          "B": "Rozpoznać szczególny kod: gaz skroplony schłodzony o działaniu duszącym, zgodnie z tabelą znaczeń numerów ADR.",
+          "C": "Uznać, że każda z dwóch cyfr opisuje osobne zagrożenie gazowe i sprawdzić je jako dwa niezależne wpisy."
+        },
+        "correct_option": "B",
+        "explanation": "Nie każdy numer z powtórzoną cyfrą odczytuje się wyłącznie według ogólnej zasady nasilenia. Kod 22 ma w ADR szczególne znaczenie: oznacza gaz skroplony schłodzony, działający dusząco. Odpowiedź A pomija wyjątek wpisany w tabeli, a C błędnie rozdziela cyfry na dwa osobne zagrożenia. Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1–5.3.2.3.2 — szczególne znaczenie numeru 22",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Numer 22 nie jest wyłącznie zwykłym podwojeniem cyfry 2; ADR nadaje mu osobne, szczególne znaczenie."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "ADR 5.3.2.3.2 definiuje 22 jako gaz skroplony schłodzony, działający dusząco."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Dwie cyfry nie oznaczają dwóch niezależnych zagrożeń; cały numer jest jednym kodem identyfikacji zagrożenia."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy szczególnego znaczenia kodu 22 wskazanego w 5.3.2.3.2; ogólna reguła intensyfikacji przy powtórzeniu cyfry nie zastępuje znaczeń szczególnych wymienionych w tym punkcie.",
+      "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

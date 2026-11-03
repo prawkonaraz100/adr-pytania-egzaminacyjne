@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x328
+
+Raport: `podstawowy/raporty/etap-4x328-szczegolne-znaczenie-numeru-22-2026-11-03.md`.
+
+Bank 754 pytań; 754 `needs_review`, 0 `verified`; SHA `a8e7354f8f27c9f69d0e2b61742f2ac9dea9244a`; kompetencje teorii <6: **26**. Rejestr `REJESTR-AKTUALNY-0001-0754.md`.
+
 ## Bieżąca migawka — etap 4x327
 
 Raport: `podstawowy/raporty/etap-4x327-tablice-pomaranczowe-tolerancja-wymiarow-2026-11-03.md`.

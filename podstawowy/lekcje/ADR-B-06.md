@@ -347,3 +347,10 @@ Powiązane pytanie: **ADR-B-0752**.
 Standardowa tablica pomarańczowa ma wymiary 40 × 30 cm. ADR dopuszcza jednak tolerancję ±10% dla wymiarów wskazanych w tym podrozdziale, więc tablica 36 × 27 cm mieści się na dolnej granicy i nie jest niezgodna wyłącznie z powodu rozmiaru. Nie należy mylić tej tolerancji z osobnym wyjątkiem dla mniejszej tablicy stosowanej, gdy nie ma miejsca na pojeździe. Podstawa: ADR 2025, 5.3.2.2.1 i 5.3.2.2.4.
 
 Powiązane pytanie: **ADR-B-0753**.
+
+
+### Szczególne znaczenie numeru zagrożenia 22 — ADR-B-0754
+
+Powtórzenie cyfry w numerze zagrożenia zwykle oznacza nasilenie danego zagrożenia, ale ADR wymienia też specjalne kody, których znaczenie trzeba odczytać osobno. Numer 22 oznacza gaz skroplony schłodzony, działający dusząco. Nie rozdzielaj go na dwa niezależne zagrożenia i nie stosuj wyłącznie ogólnej reguły o powtórzonej cyfrze. Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.
+
+Powiązane pytanie: **ADR-B-0754**.
