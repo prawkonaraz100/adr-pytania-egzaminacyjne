@@ -1,6 +1,16 @@
-**Stan aktualny po etapie 4x320: 03.11.2026.**
+**Stan aktualny po etapie 4x321: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x320
+## Bieżąca migawka — etap 4x321
+
+- Bank: **747** pytań, 747 `needs_review`, 0 `verified`; SHA `b287b7df4227de90a2d33199a005dde465c69c8a`.
+- ADR-B-0747 do ADR-B-05-K10: dwa stojące znaki ostrzegawcze dla jednostki i kamizelka dla każdego członka załogi (ADR 2025, 8.1.5.2).
+- Moduł ADR-B-05: **85** pytań; kompetencja K10: 5→6.
+- Rozkład prawidłowych opcji: A=251, B=268, C=228.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/747 = 10,84%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **33** (3 praktyczne pominięte).
+- Raport: `podstawowy/raporty/etap-4x321-kamizelka-i-znaki-ostrzegawcze-2026-11-03.md`.
+
+## Poprzednia migawka — etap 4x320
 
 - Bank: **746** pytań, 746 `needs_review`, 0 `verified`; SHA `74c197c3add4c0f537c84254e9115f2a86a22da2`.
 - ADR-B-0746 do ADR-B-05-K09: ostrzeżenie ruchu drogowego i utrzymanie go z dala od strefy zagrożenia (ADR 2025, 5.4.3.4).
