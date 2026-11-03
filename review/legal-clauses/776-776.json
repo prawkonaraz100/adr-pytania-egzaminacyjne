@@ -1,0 +1,58 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0776",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 1.10.1.2 — appropriate identification of carrier before release",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642",
+    "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0776",
+      "order": 776,
+      "clause": "ADR 2025, 1.10.1.2 — towary niebezpieczne mogą być wydane do przewozu wyłącznie przewoźnikowi odpowiednio zidentyfikowanemu",
+      "question_snapshot": {
+        "id": "ADR-B-0776",
+        "module_id": "ADR-B-12",
+        "stem": "Przy bramie terminalu kierowca zgłasza odbiór towaru ADR w imieniu przewoźnika wskazanego w zleceniu. W dokumentach pojawia się jednak inna firma transportowa, a kierowca nie potrafi wyjaśnić, kto faktycznie przyjmuje ładunek. Co powinien zrobić pracownik wydający przesyłkę?",
+        "options": {
+          "A": "Wydać towar, jeśli kierowca zna numer zlecenia i numer rejestracyjny pojazdu zgadza się z wcześniejszą zapowiedzią.",
+          "B": "Sprawdzić wyłącznie dokument tożsamości kierowcy, a rozbieżność między firmami wyjaśnić już po rozpoczęciu przewozu.",
+          "C": "Wstrzymać wydanie i potwierdzić tożsamość przewoźnika faktycznie przyjmującego towar przed rozpoczęciem przewozu."
+        },
+        "correct_option": "C",
+        "explanation": "Nie wydawaj towaru, dopóki nie ustalisz, jaki przewoźnik rzeczywiście przyjmuje go do przewozu. Sama znajomość numeru zlecenia, zgodna tablica rejestracyjna ani sprawdzenie dokumentu kierowcy nie potwierdzają tożsamości przewoźnika. Wyjaśnij rozbieżność i potwierdź firmę wiarygodną procedurą przed przekazaniem ładunku. Podstawa: ADR 1.10.1.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.2 — towary niebezpieczne mogą być wydane do przewozu wyłącznie przewoźnikowi odpowiednio zidentyfikowanemu",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "C",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Numer zlecenia i numer rejestracyjny pojazdu nie potwierdzają, że właściwy przewoźnik rzeczywiście przyjmuje towar."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Dokument tożsamości kierowcy identyfikuje osobę, ale nie zastępuje identyfikacji przewoźnika wskazanego w ADR 1.10.1.2."
+        },
+        "C": {
+          "expected_correct": true,
+          "rationale": "Przed wydaniem należy potwierdzić tożsamość przewoźnika, który faktycznie przyjmuje towary niebezpieczne do przewozu."
+        }
+      },
+      "notes_on_conditions": "Przepis dotyczy identyfikacji przewoźnika przed wydaniem towarów niebezpiecznych do przewozu; nie należy utożsamiać jej wyłącznie z kontrolą dokumentu kierowcy lub numeru pojazdu.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0775
+# Aktualny rejestr specjalisty — ADR-B-0001–0776
 
-Etap 4x349 (03.11.2026). Bank: 775 pytań, 775 `needs_review`, 0 `verified`. SHA `f031ae4b9771c127a38bbb5266bf69f56310ad95`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **5** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x350 (03.11.2026). Bank: 776 pytań, 776 `needs_review`, 0 `verified`. SHA `dfafbcae0d594e25553ddc30190156aae1b9dd76`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **4** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -790,3 +790,5 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **5** (3 praktyczne pominięte
 | ADR-B-0774 | ADR-B-12 | ADR-B-12-K01 | Podczas przewozu ADR kierowca ma przy sobie ważny paszport ze zdjęciem, ale nie ma polskiego dowodu osobistego. Czy spełnia wymóg ADR 1.10.1.4? | A | ADR 2025, 1.10.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0775 | ADR-B-12 | ADR-B-12-K02 | Terminal czasowo składuje towary niebezpieczne podczas przewozu. Operator twierdzi, że skoro nie może całkowicie odciąć dostępu osób postronnych, nie musi też dodatkowo zabezpieczać ani oświetlać placu. Jak należy odczytać ADR 1.10.1.3? | B | ADR 2025, 1.10.1.3 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0776 | ADR-B-12 | ADR-B-12-K04 | Przy bramie terminalu kierowca zgłasza odbiór towaru ADR w imieniu przewoźnika wskazanego w zleceniu. W dokumentach pojawia się jednak inna firma transportowa, a kierowca nie potrafi wyjaśnić, kto faktycznie przyjmuje ładunek. Co powinien zrobić pracownik wydający przesyłkę? | C | ADR 2025, 1.10.1.2 | — | NIEROZSTRZYGNIĘTE | needs_review |

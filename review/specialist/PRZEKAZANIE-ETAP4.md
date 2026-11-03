@@ -1,13 +1,13 @@
-**Stan aktualny po etapie 4x348: 03.11.2026.**
+**Stan aktualny po etapie 4x350: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x349
+## Bieżąca migawka — etap 4x350
 
-- Bank: **775** pytań, 775 `needs_review`, 0 `verified`; SHA `f031ae4b9771c127a38bbb5266bf69f56310ad95`.
-- ADR-B-0775 do ADR-B-12-K02: zastrzeżenie „gdzie to możliwe i właściwe” w ADR 1.10.1.3 dotyczy niedostępności dla ogółu, nie obowiązku zabezpieczenia i oświetlenia obszaru.
-- Moduł ADR-B-12: **47** pytań; kompetencja K02: 5→6.
-- Rozkład A/B/C: **258/287/230**; poprawna jedyna najdłuższa: **84/775 = 10,84%**; maksimum działu: **15,22%**.
-- Kompetencje teorii <6: **5**.
-- Raport: `podstawowy/raporty/etap-4x349-kwalifikator-dostepu-publicznego-adr-1-10-1-3-2026-11-03.md`.
+- Bank: **776** pytań, 776 `needs_review`, 0 `verified`; SHA `dfafbcae0d594e25553ddc30190156aae1b9dd76`.
+- ADR-B-0776 do ADR-B-12-K04: przed wydaniem towaru należy odpowiednio zidentyfikować przewoźnika, który faktycznie przyjmuje ładunek (ADR 1.10.1.2).
+- Moduł ADR-B-12: **48** pytań; kompetencja K02: 5→6.
+- Rozkład A/B/C: **258/287/231**; poprawna jedyna najdłuższa: **84/776 = 10,82%**; maksimum działu: **15,22%**.
+- Kompetencje teorii <6: **4**.
+- Raport: `podstawowy/raporty/etap-4x350-weryfikacja-tozsamosci-przewoznika-adr-1-10-1-2-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x348
 
