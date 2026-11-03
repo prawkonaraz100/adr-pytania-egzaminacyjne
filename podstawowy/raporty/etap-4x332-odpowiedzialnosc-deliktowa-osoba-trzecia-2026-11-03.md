@@ -4,7 +4,7 @@ Data: 03.11.2026. Gałąź: `stage4x332-third-party-civil-liability`. Bazowy mai
 
 - Dodano ADR-B-0758 do kompetencji `ADR-B-07-K07` — rozróżnienie odpowiedzialności deliktowej i umownej; K07: 5→6.
 - Podstawa: ADR 2025, 8.2.2.3.2(k) (ogólne informacje o odpowiedzialności cywilnej); Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 415 i 471.
-- Bank: **758** pytań (ADR-B-0001–0758), 758 `needs_review`, 0 `verified`; SHA `adf96781176aad252707c2bfe4dcab5588c3b4ef`.
+- Bank: **758** pytań (ADR-B-0001–0758), 758 `needs_review`, 0 `verified`; SHA `2b708a1f1c72732bb6b50a067d94fcbac1032a06`.
 - Moduł ADR-B-07: **54** pytania.
 - Rozkład kluczy A/B/C: **256/273/229**.
 - „Poprawna odpowiedź jest jedyną najdłuższą”: **81/758 = 10,69%**; maksimum działu **14,61%**.
@@ -22,7 +22,7 @@ B. Wyłącznie odpowiedzialność umowną z art. 471, ponieważ każda szkoda pr
 
 C. Wyłącznie odpowiedzialność administracyjną, ponieważ zdarzenie nastąpiło podczas przewozu ADR.
 
-Pracownik magazynu nie jest stroną umowy przewozu, więc nie dochodzi od przewoźnika wykonania tej umowy. Jeśli szkoda została wyrządzona z winy, należy rozważyć odpowiedzialność za czyn niedozwolony z art. 415 Kodeksu cywilnego; trzeba jeszcze ocenić jej przesłanki. Art. 471 dotyczy niewykonania lub nienależytego wykonania zobowiązania, a kara administracyjna nie jest odszkodowaniem. Podstawa: ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 415 i 471.
+Pracownik magazynu nie jest stroną umowy przewozu, więc nie dochodzi od przewoźnika wykonania tej umowy. Jeśli szkoda została wyrządzona z winy, należy rozważyć odpowiedzialność za czyn niedozwolony na podstawie przepisu 415 Kodeksu cywilnego; trzeba jeszcze ocenić wszystkie przesłanki. Przepis 471 dotyczy szkody wynikłej z niewykonania lub nienależytego wykonania zobowiązania, a kara administracyjna nie jest odszkodowaniem. Podstawa: ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, przepisy 415 i 471.
 
 ## Audyt A/B/C i źródła
 
