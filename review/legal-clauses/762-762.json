@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0762",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 1.1.3.6.2; 8.3.4; 8.1.5.2",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0762",
+      "order": 762,
+      "clause": "ADR 2025, 1.1.3.6.2; 8.3.4; 8.1.5.2",
+      "question_snapshot": {
+        "id": "ADR-B-0762",
+        "module_id": "ADR-B-08",
+        "stem": "Przewóz spełnia warunki wyłączenia 1.1.3.6. Kierowca ma przenośną latarkę z metalową powierzchnią mogącą wywołać iskrę. Czy może jej użyć podczas takiego przewozu?",
+        "options": {
+          "A": "Tak. Wyłączenie 1.1.3.6 znosi cały rozdział 8, więc punkt 8.3.4 nie ogranicza używanej latarki.",
+          "B": "Nie. Punkt 8.3.4 nadal obowiązuje przy 1.1.3.6 i zakazuje lampy z metalową powierzchnią zdolną wywołać iskrę.",
+          "C": "Tak. Wystarczy, że latarka jest przenośna i sprawna; materiał obudowy nie ma znaczenia przy małych ilościach."
+        },
+        "correct_option": "B",
+        "explanation": "Wyłączenie 1.1.3.6 nie usuwa wszystkich wymagań części 8. Punkt 8.3.4 pozostaje wśród wyjątków, które nadal trzeba stosować, i zabrania używania przenośnej lampy z metalową powierzchnią mogącą wywołać iskry. Nie myl tego z obowiązkiem wożenia lampy z 8.1.5.2, który nie jest zachowany przy tym wyłączeniu. Podstawa: ADR 2025, 1.1.3.6.2, 8.3.4 i 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.6.2 — wyjątek dla 8.3.4 pozostaje stosowany; 8.3.4 — przenośna lampa nie może mieć metalowej powierzchni zdolnej wywołać iskry; 8.1.5.2 — ogólny wykaz wyposażenia",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Wyłączenie 1.1.3.6.2 nie usuwa całego rozdziału 8; wyraźnie zachowuje m.in. 8.3.4."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "8.3.4 pozostaje stosowany przy 1.1.3.6 i zabrania przenośnej lampy z metalową powierzchnią zdolną wywołać iskry."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Sama sprawność latarki nie wystarcza; materiał i możliwość iskrzenia jej powierzchni mają znaczenie."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy używanej przenośnej latarki. Nie sugeruje, że 1.1.3.6 wymaga przewożenia wyposażenia z 8.1.5.2; zachowany jest jednak odrębny zakaz z 8.3.4.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
