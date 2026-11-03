@@ -344,3 +344,6 @@ Pytanie bankowe powiązane z tym działem: **ADR-B-0767** — ocena wzajemnej zg
 
 
 Pytanie bankowe powiązane z tym działem: **ADR-B-0768** — właściwe napięcie pasów mocujących.
+
+
+Pytanie bankowe powiązane z tym działem: **ADR-B-0769** — warunek uruchamiający czyszczenie po rozładunku.

@@ -1,15 +1,15 @@
-**Stan aktualny po etapie 4x342: 03.11.2026.**
+**Stan aktualny po etapie 4x343: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x342
+## Bieżąca migawka — etap 4x343
 
-- Bank: **768** pytań, 768 `needs_review`, 0 `verified`; SHA `6bed8107be2b93ad39b5772b3e3887fabf661033`.
-- ADR-B-0768: pasy mają powstrzymywać ruch zmieniający ustawienie lub powodujący uszkodzenie, ale nie mogą być nadmiernie napięte i deformować opakowań (ADR 2025, 7.5.7.1).
-- Moduł ADR-B-09: **61** pytań; kompetencja K06: 5→6.
-- Rozkład prawidłowych opcji: A=257, B=282, C=229.
+- Bank: **769** pytań, 769 `needs_review`, 0 `verified`; SHA `1e385ca71f77ac772ac24945c370db41679752b7`.
+- ADR-B-0769: obowiązek czyszczenia po rozładunku sztuk przesyłek powstaje, gdy stwierdzono uwolnienie części zawartości (ADR 2025, 7.5.8.1).
+- Moduł ADR-B-09: **62** pytania; kompetencja K07: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=283, C=229.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/768 = 10,81%**; maksimum działu to 14,61%; maksimum działu to 14,61%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **12** (3 praktyczne pominięte).
-- Explanation: 352 znaki; wszystkie pytania `needs_review`.
-- Raport: `podstawowy/raporty/etap-4x342-napiecie-pasow-ruch-a-deformacja-2026-11-03.md`.
+- Kompetencje teorii z mniej niż 6 pytaniami: **11** (3 praktyczne pominięte).
+- Explanation: 412 znaków; wszystkie pytania `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x343-warunek-czyszczenia-po-rozladunku-2026-11-03.md`.
 
 **Stan aktualny po etapie 4x339: 03.11.2026.**
 
@@ -1157,12 +1157,12 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 66 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 53 | 0 | Lekcja + mapa pytań |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 61 | 0 | Lekcja + mapa pytań |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 63 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **768** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **769** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
