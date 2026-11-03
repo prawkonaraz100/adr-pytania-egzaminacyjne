@@ -333,3 +333,10 @@ Powiązane pytanie: **ADR-B-0750**.
 Wymagana nalepka ostrzegawcza nie może być zasłonięta przez pas mocujący, uchwyt ani inną część wyposażenia opakowania. Jeżeli trzeba umieścić kilka nalepek, powinny znajdować się blisko siebie, ale żadna nie może zakrywać drugiej. Dokument przewozowy nie zastępuje prawidłowego oznakowania na przesyłce. Podstawa: ADR 2025, 5.2.2.1.6(b)–(c).
 
 Powiązane pytanie: **ADR-B-0751**.
+
+
+### Litera X przed numerem rozpoznawczym — ADR-B-0752
+
+Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą. Ograniczenie dotyczy nie tylko gaszenia pożaru, ale również spłukiwania lub mycia pozostałości. Woda może być użyta wyłącznie za zgodą specjalistów. Podstawa: ADR 2025, 5.3.2.3.1.
+
+Powiązane pytanie: **ADR-B-0752**.

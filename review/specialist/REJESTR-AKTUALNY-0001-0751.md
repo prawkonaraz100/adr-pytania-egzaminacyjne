@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0751
+# Aktualny rejestr specjalisty — ADR-B-0001–0752
 
-Etap 4x325 (03.11.2026). Bank: 751 pytań, 751 `needs_review`, 0 `verified`. SHA `fed909b6dec8fbaece0f391f4f2b78df55cb68f5`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **29** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x326 (03.11.2026). Bank: 752 pytań, 752 `needs_review`, 0 `verified`. SHA `3ddd949081089a48396e9a2e257a57fa5eb7aea4`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **28** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -756,3 +756,4 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **29** (3 praktyczne pominięt
 | ADR-B-0749 | ADR-B-05 | ADR-B-05-K12 | Gaśnica chroniona przed pogodą i nadal łatwo dostępna | B | ADR 2025, 8.1.4.5 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0750 | ADR-B-06 | ADR-B-06-K01 | Wysokość oznaczenia numeru UN na kanistrze 20 l | C | ADR 2025, 5.2.1.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0751 | ADR-B-06 | ADR-B-06-K02 | Pas mocujący zasłania wymaganą nalepkę — nalepka nie może być zakryta | B | ADR 2025, 5.2.2.1.6(b)–(c) | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0752 | ADR-B-06 | ADR-B-06-K04 | Litera X: nie spłukiwać pozostałości wodą bez zgody specjalistów | A | ADR 2025, 5.3.2.3.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
