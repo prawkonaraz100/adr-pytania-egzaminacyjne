@@ -1,3 +1,16 @@
+**Stan aktualny po etapie 4x338: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x338
+
+- Bank: **764** pytań, 764 `needs_review`, 0 `verified`; SHA `dfc59132c0d5282742c7ff456c414ebba9acc81c`.
+- ADR-B-0764: przy przewozie towarów niebezpiecznych razem ze zwykłym ładunkiem wszystkie towary muszą być zamocowane lub zaklinowane tak, aby zapobiec uwolnieniu towarów niebezpiecznych (ADR 2025, 7.5.7.1).
+- Moduł ADR-B-09: **57** pytań; kompetencja K02: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=278, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/764 = 10,86%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **16** (3 praktyczne pominięte).
+- Explanation: 377 znaków / 4 zdania; wszystkie odpowiedzi `needs_review`.
+- Raport: `../podstawowy/raporty/etap-4x338-mocowanie-calego-ladunku-mieszanego-7-5-7-1-2026-11-03.md`.
+
 **Stan aktualny po etapie 4x337: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x337
