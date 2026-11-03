@@ -1,4 +1,4 @@
-**Bieżąca migawka — etap 4x332 (03.11.2026).** Bank: 758 pytań, 758 `needs_review`, 0 `verified`; SHA `adf96781176aad252707c2bfe4dcab5588c3b4ef`. Kompetencje teorii <6: **22**. Rejestr: `REJESTR-AKTUALNY-0001-0758.md`. Raport: `podstawowy/raporty/etap-4x332-odpowiedzialnosc-deliktowa-osoba-trzecia-2026-11-03.md`.
+**Bieżąca migawka — etap 4x332 (03.11.2026).** Bank: 758 pytań, 758 `needs_review`, 0 `verified`; SHA `2b708a1f1c72732bb6b50a067d94fcbac1032a06`. Kompetencje teorii <6: **22**. Rejestr: `REJESTR-AKTUALNY-0001-0758.md`. Raport: `podstawowy/raporty/etap-4x332-odpowiedzialnosc-deliktowa-osoba-trzecia-2026-11-03.md`.
 
 **Bieżąca migawka — etap 4x331 (03.11.2026).** Bank: 757 pytań, 757 `needs_review`, 0 `verified`; SHA `6fa58d5fc5cdf2063883ff77747d5624cb6406e8`. Kompetencje teorii <6: **23**. Rejestr: `REJESTR-AKTUALNY-0001-0757.md`. Raport: `podstawowy/raporty/etap-4x331-odbiorca-kontrola-po-rozladunku-2026-11-03.md`.
 
