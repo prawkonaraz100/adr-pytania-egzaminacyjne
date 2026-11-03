@@ -1,8 +1,8 @@
-**Stan na 03.11.2026, etap 4x340**
+**Stan na 03.11.2026, etap 4x341**
 
-**Stan 4x340:** 766 `needs_review`, 0 `verified`; SHA `c239993abadeca16db4e1df9a1706f9d47276517`. Poprawna = jedyna najdłuższa: **83/766 = 10,84%**; kompetencje teorii <6: **14**.
+**Stan 4x341:** 767 `needs_review`, 0 `verified`; SHA `701e9768435d9ca39f34690386dfa10482f86da8`. Poprawna = jedyna najdłuższa: **83/767 = 10,82%**; kompetencje teorii <6: **13**.
 
-- [Etap 4x340 — strzałki kierunkowe](raporty/etap-4x340-strzalki-kierunkowe-dwa-przeciwlegle-boki-2026-11-03.md)
+- [Etap 4x341 — zgodność piętrzenia różnych konstrukcji](raporty/etap-4x341-pietrzenie-rozne-konstrukcje-zgodnosc-2026-11-03.md)
 
 **Stan na 03.11.2026, etap 4x339**
 
@@ -73,6 +73,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x341 — zgodność piętrzenia różnych konstrukcji](raporty/etap-4x341-pietrzenie-rozne-konstrukcje-zgodnosc-2026-11-03.md)
 
 - [Etap 4x340 — strzałki kierunkowe](raporty/etap-4x340-strzalki-kierunkowe-dwa-przeciwlegle-boki-2026-11-03.md)
 

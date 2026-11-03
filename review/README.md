@@ -1,5 +1,9 @@
 **Stan aktualny po etapie 4x340: 03.11.2026.**
 
+## Bieżąca migawka — etap 4x341
+
+Bank: 767 pytań, 767 `needs_review`, 0 `verified`; SHA `701e9768435d9ca39f34690386dfa10482f86da8`. Kompetencje teorii <6: 13. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0765.md`; raport: `podstawowy/raporty/etap-4x341-pietrzenie-rozne-konstrukcje-zgodnosc-2026-11-03.md`.
+
 ## Bieżąca migawka — etap 4x340
 
 Bank: 766 pytań, 766 `needs_review`, 0 `verified`; SHA `c239993abadeca16db4e1df9a1706f9d47276517`. Kompetencje teorii <6: 14. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0766.md`; raport: `podstawowy/raporty/etap-4x340-strzalki-kierunkowe-dwa-przeciwlegle-boki-2026-11-03.md`.

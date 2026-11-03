@@ -1,15 +1,15 @@
-**Stan aktualny po etapie 4x340: 03.11.2026.**
+**Stan aktualny po etapie 4x341: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x340
+## Bieżąca migawka — etap 4x341
 
-- Bank: **766** pytań, 766 `needs_review`, 0 `verified`; SHA `c239993abadeca16db4e1df9a1706f9d47276517`.
-- ADR-B-0766: strzałki kierunkowe na dwóch przeciwległych pionowych bokach opakowania, skierowane dokładnie ku górze (ADR 2025, 5.2.1.10.1).
-- Moduł ADR-B-09: **59** pytań; kompetencja K04: 5→6.
-- Rozkład prawidłowych opcji: A=257, B=280, C=229.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/766 = 10,84%**.
-- Kompetencje teorii z mniej niż 6 pytaniami: **14** (3 praktyczne pominięte).
-- Explanation: 437 znaków; wszystkie pytania `needs_review`.
-- Raport: `podstawowy/raporty/etap-4x340-strzalki-kierunkowe-dwa-przeciwlegle-boki-2026-11-03.md`.
+- Bank: **767** pytań, 767 `needs_review`, 0 `verified`; SHA `701e9768435d9ca39f34690386dfa10482f86da8`.
+- ADR-B-0767: przed połączeniem różnych konstrukcji opakowań w jeden stos trzeba ocenić ich wzajemną zgodność piętrzenia (ADR 2025, 7.5.7.2).
+- Moduł ADR-B-09: **60** pytań; kompetencja K05: 5→6.
+- Rozkład prawidłowych opcji: A=257, B=281, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/767 = 10,82%**; maksimum działu to 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **13** (3 praktyczne pominięte).
+- Explanation: 415 znaków; wszystkie pytania `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x341-pietrzenie-rozne-konstrukcje-zgodnosc-2026-11-03.md`.
 
 **Stan aktualny po etapie 4x339: 03.11.2026.**
 
@@ -1157,12 +1157,12 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 66 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 53 | 0 | Lekcja + mapa pytań |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 59 | 0 | Lekcja + mapa pytań |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 60 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **766** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **767** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

@@ -1,0 +1,46 @@
+{
+  "batch": "767-767",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0767",
+      "sequence": 767,
+      "exact_record_snapshot": {
+        "stem": "Na palecie masz dwa rodzaje sztuk przesyłek ADR. Każdy typ osobno jest przeznaczony do piętrzenia, ale nie ma potwierdzenia, że można je ustawić razem w jednym stosie. Jak postępujesz?",
+        "options": {
+          "A": "Możesz je połączyć, bo oznaczenie każdego typu osobno wystarcza i nie trzeba sprawdzać zgodności.",
+          "B": "Najpierw trzeba ocenić zgodność obu typów; bez potwierdzenia nie łączysz ich w jeden stos.",
+          "C": "Wystarczy ułożyć cięższe opakowania na dole i spiąć cały stos pasem mocującym bez dodatkowej oceny."
+        },
+        "correct_option": "B",
+        "explanation": "To, że każdy rodzaj opakowania osobno nadaje się do piętrzenia, nie oznacza jeszcze, że można bezpiecznie ustawić je razem. Przy różnych konstrukcjach trzeba ocenić ich wzajemną zgodność; gdy jej nie potwierdzisz, nie twórz wspólnego stosu i poproś o rozdzielenie ładunku lub potwierdzenie sposobu ułożenia. Samo ułożenie cięższych sztuk na dole i spięcie pasem nie zastępuje tej oceny. Podstawa: ADR 2025, 7.5.7.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.2 — wzajemna zgodność piętrzenia różnych rodzajów opakowań zaprojektowanych do piętrzenia",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 7.5.7.2: where different design types of packages designed for stacking are loaded together, their compatibility for stacking must be considered. If compatibility is not established, do not form a mixed stack. Full official Polish text comparison and independent specialist review remain pending.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
