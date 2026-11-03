@@ -483,3 +483,8 @@ Jednostka transportowa powinna mieć dwa stojące znaki ostrzegawcze. Kamizelka 
 ### Nieprzytomny, ale oddycha prawidłowo — ADR-B-0748
 
 Jeśli miejsce jest bezpieczne, poszkodowany nie reaguje, ale oddycha prawidłowo i nie podejrzewasz urazu, ułóż go na boku w pozycji bezpiecznej. Regularnie kontroluj oddech i drożność dróg oddechowych do przyjazdu pomocy. Jeśli oddech przestanie być prawidłowy, wezwij pomoc i rozpocznij postępowanie resuscytacyjne zgodnie z przeszkoleniem i poleceniami dyspozytora. Podstawa kursu ADR: 8.2.2.3.2(e); szczegółowa procedura: ERC Guidelines 2025, First Aid.
+
+
+### Gaśnica chroniona przed pogodą i łatwo dostępna — ADR-B-0749
+
+Gaśnica w jednostce transportowej musi być łatwo dostępna dla załogi, ale równocześnie chroniona przed działaniem warunków atmosferycznych. Jeśli jest zamontowana na zewnątrz, zastosuj odpowiednią osłonę przed deszczem i solą drogową, nie blokując szybkiego wyjęcia urządzenia. Nie chowaj jej w miejscu, do którego trudno dotrzeć. Podstawa: ADR 2025, 8.1.4.5.
