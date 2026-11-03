@@ -1,0 +1,46 @@
+{
+  "batch": "761-761",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0761",
+      "sequence": 761,
+      "exact_record_snapshot": {
+        "stem": "Przewóz spełnia warunki wyłączenia ilościowego 1.1.3.6. Kierowca nie ma klina pod koło. Czy sam brak klina narusza wtedy wymagania ADR?",
+        "options": {
+          "A": "Tak. Obowiązek klina z 8.1.5.2 dotyczy każdego przewozu ADR, także objętego wyłączeniem 1.1.3.6.",
+          "B": "Nie. Punkt 1.1.3.6.2 wyłącza część 8; 8.1.5.2 nie należy do wyjątków, które nadal obowiązują.",
+          "C": "Nie. Wyłączenie 1.1.3.6 zwalnia z całego ADR, więc nie trzeba też mieć gaśnicy ani dokumentu przewozowego."
+        },
+        "correct_option": "B",
+        "explanation": "Jeżeli przewóz rzeczywiście spełnia warunki 1.1.3.6, kierowca korzysta z wyłączenia obejmującego część 8 ADR. W wykazie obowiązków, które mimo to pozostają, nie ma punktu 8.1.5.2 o klinie pod koło, więc sam brak klina nie narusza wtedy ADR. Nie oznacza to jednak zwolnienia z całego ADR: nadal obowiązują m.in. wymagania wskazane w 1.1.3.6.2, w tym gaśnica z 8.1.4.2. Podstawa: ADR 2025, 1.1.3.6.2 i 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.6.2 — wyłączenie części 8 z wymienionymi wyjątkami; 8.1.5.2 nie jest wyjątkiem i nie stosuje się przy prawidłowym wyłączeniu",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 1.1.3.6.2 exempts Part 8 except the provisions expressly listed there; 8.1.5.2 is not listed among the provisions that remain applicable. Therefore the wheel-chock requirement in 8.1.5.2 does not apply when all conditions of 1.1.3.6 are met. 8.1.4.2 remains expressly applicable.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
