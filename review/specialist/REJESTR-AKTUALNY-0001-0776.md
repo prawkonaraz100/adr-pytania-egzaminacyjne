@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0777
+# Aktualny rejestr specjalisty — ADR-B-0001–0778
 
-Etap 4x351 (03.11.2026). Bank: 777 pytań, 777 `needs_review`, 0 `verified`. SHA `a21eae83c0b5ee259e8fad7618e4cb4270ca64b2`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **3** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x352 (03.11.2026). Bank: 778 pytań, 778 `needs_review`, 0 `verified`. SHA `ab9c275f699c82c76357be53051250d404cba85d`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **2** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -795,3 +795,7 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **3** (3 praktyczne pominięte
 
 | ADR-B-0777 | ADR-B-13 | ADR-B-13-K03 | Nadawca organizuje przewóz ADR do kilku odbiorców, których nie da się jeszcze ustalić na początku trasy. Chce w dokumencie przewozowym zamiast ich nazw i adresów wpisać zwrot „Delivery Sale”. Kiedy może tak postąpić? | B | ADR 2025, 5.4.1.1.1(h) | — | NIEROZSTRZYGNIĘTE | needs_review |
 
+
+| ADR-B-0778 | ADR-B-13 | ADR-B-13-K05 | Podczas kontroli przed odjazdem kierowca zauważa, że dokumenty tożsamości ze zdjęciem obu członków załogi są schowane w zamykanej skrzynce narzędziowej na zewnątrz kabiny. Czy miejsce ich przechowywania spełnia ADR? | B | ADR 2025, 8.1.2.1(d); 1.10.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0778 | ADR-B-13 | ADR-B-13-K05 | Podczas kontroli przed odjazdem kierowca zauważa, że dokumenty tożsamości ze zdjęciem obu członków załogi są schowane w zamykanej skrzynce narzędziowej na zewnątrz kabiny. Czy miejsce ich przechowywania spełnia ADR? | B | ADR 2025, 8.1.2.1(d); 1.10.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
