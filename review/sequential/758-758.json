@@ -1,0 +1,51 @@
+{
+  "batch": "758-758",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0758",
+      "sequence": 758,
+      "exact_record_snapshot": {
+        "stem": "Podczas rozładunku kierowca przez nieuwagę uszkadza sprzęt pracownika magazynu, który nie jest stroną umowy przewozu. Którą ogólną zasadę odpowiedzialności cywilnej należy rozważyć?",
+        "options": {
+          "A": "Odpowiedzialność za czyn niedozwolony, ponieważ szkoda została wyrządzona z winy osobie trzeciej.",
+          "B": "Wyłącznie odpowiedzialność umowną z art. 471, ponieważ każda szkoda przy przewozie wynika z umowy.",
+          "C": "Wyłącznie odpowiedzialność administracyjną, ponieważ zdarzenie nastąpiło podczas przewozu ADR."
+        },
+        "correct_option": "A",
+        "explanation": "Pracownik magazynu nie jest stroną umowy przewozu, więc nie dochodzi od przewoźnika wykonania tej umowy. Jeśli szkoda została wyrządzona z winy, należy rozważyć odpowiedzialność za czyn niedozwolony na podstawie przepisu 415 Kodeksu cywilnego; trzeba jeszcze ocenić wszystkie przesłanki. Przepis 471 dotyczy szkody wynikłej z niewykonania lub nienależytego wykonania zobowiązania, a kara administracyjna nie jest odszkodowaniem. Podstawa: ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, przepisy 415 i 471.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.2(k) — podstawowe informacje o odpowiedzialności cywilnej",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+          },
+          {
+            "code": "KC-2026-PL",
+            "reference": "Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 415 i 471",
+            "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL+KC-2026",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025 8.2.2.3.2(k) includes basic civil liability information; Civil Code art. 415 concerns damage caused by one's fault, while art. 471 concerns non-performance or improper performance of an obligation",
+      "supplementary_source_url": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
