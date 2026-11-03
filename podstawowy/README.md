@@ -1,6 +1,6 @@
-**Stan na 03.11.2026, etap 4x348**
+**Stan na 03.11.2026, etap 4x349**
 
-**Stan 4x348:** 774 `needs_review`, 0 `verified`; SHA `dddfd4d70c9e5e0e4050be60ccf1cc52163e82d9`. Poprawna = jedyna najdłuższa: **84/774 = 10,85%**; kompetencje teorii <6: **6**.
+**Stan 4x349:** 775 `needs_review`, 0 `verified`; SHA `f031ae4b9771c127a38bbb5266bf69f56310ad95`. Poprawna = jedyna najdłuższa: **84/775 = 10,84%**; kompetencje teorii <6: **5**.
 
 - [Etap 4x347 — informacje dla ratowników po pożarze w tunelu](raporty/etap-4x347-pozar-tunel-informacje-dla-ratownikow-2026-11-03.md)
 
@@ -80,6 +80,7 @@
 
 ## Raporty jakości
 
+- [Etap 4x349 — zastrzeżenie dotyczące dostępu publicznego](raporty/etap-4x349-kwalifikator-dostepu-publicznego-adr-1-10-1-3-2026-11-03.md)
 - [Etap 4x348 — paszport jako dokument tożsamości ze zdjęciem](raporty/etap-4x348-paszport-dokument-identyfikacji-2026-11-03.md)
 - [Etap 4x347 — informacje dla ratowników po pożarze w tunelu](raporty/etap-4x347-pozar-tunel-informacje-dla-ratownikow-2026-11-03.md)
 - [Etap 4x346 — wyjątek 1.1.3 przy oznakowaniu LQ](raporty/etap-4x346-wyjatki-1-1-3-znak-lq-tunele-2026-11-03.md)
