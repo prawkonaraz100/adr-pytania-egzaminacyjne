@@ -1,8 +1,8 @@
-**Stan na 03.11.2026, etap 4x342**
+**Stan na 03.11.2026, etap 4x343**
 
-**Stan 4x342:** 768 `needs_review`, 0 `verified`; SHA `6bed8107be2b93ad39b5772b3e3887fabf661033`. Poprawna = jedyna najdłuższa: **83/768 = 10,81%**; kompetencje teorii <6: **12**.
+**Stan 4x343:** 769 `needs_review`, 0 `verified`; SHA `1e385ca71f77ac772ac24945c370db41679752b7`. Poprawna = jedyna najdłuższa: **83/769 = 10,79%**; kompetencje teorii <6: **11**.
 
-- [Etap 4x342 — napięcie pasów mocujących](raporty/etap-4x342-napiecie-pasow-ruch-a-deformacja-2026-11-03.md)
+- [Etap 4x343 — warunek czyszczenia po rozładunku](raporty/etap-4x343-warunek-czyszczenia-po-rozladunku-2026-11-03.md)
 
 **Stan na 03.11.2026, etap 4x339**
 
@@ -73,6 +73,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x343 — warunek czyszczenia po rozładunku](raporty/etap-4x343-warunek-czyszczenia-po-rozladunku-2026-11-03.md)
 
 - [Etap 4x342 — napięcie pasów mocujących](raporty/etap-4x342-napiecie-pasow-ruch-a-deformacja-2026-11-03.md)
 

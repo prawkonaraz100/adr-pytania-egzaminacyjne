@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0769",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 7.5.8.1",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0769",
+      "order": 769,
+      "clause": "ADR 2025, 7.5.8.1",
+      "question_snapshot": {
+        "id": "ADR-B-0769",
+        "module_id": "ADR-B-09",
+        "stem": "Po rozładunku sztuk przesyłek ADR kierowca sprawdza przestrzeń ładunkową. Opakowania są całe i nie ma śladów uwolnienia zawartości. Czy ADR 7.5.8.1 nakazuje oczyścić pojazd przed kolejnym załadunkiem wyłącznie z powodu przewozu tych opakowań?",
+        "options": {
+          "A": "Tak, pojazd trzeba myć po każdym przewozie towarów niebezpiecznych, nawet gdy opakowania są całe.",
+          "B": "Nie; ten obowiązek powstaje, gdy po rozładunku stwierdzono uwolnienie części zawartości.",
+          "C": "Nie, jeśli po rozładunku podłoga jest sucha, nawet gdy wcześniej stwierdzono wyciek z opakowania."
+        },
+        "correct_option": "B",
+        "explanation": "Przepis 7.5.8.1 nie nakazuje automatycznego mycia pojazdu po każdym przewozie sztuk przesyłek ADR. Obowiązek niezwłocznego czyszczenia powstaje wtedy, gdy po rozładunku stwierdzisz, że część zawartości wydostała się z opakowania. Nie zastępuj kontroli oceną zapachu lub samym wyglądem podłogi; jeśli wykryjesz pozostałości, oczyść pojazd jak najszybciej i przed ponownym załadunkiem. Podstawa: ADR 2025, 7.5.8.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.1 — obowiązek niezwłocznego czyszczenia po rozładunku jest uruchamiany stwierdzeniem, że część zawartości wydostała się z opakowania",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Przepis nie ustanawia automatycznego obowiązku czyszczenia po każdym przewozie; wskazuje warunek stwierdzenia uwolnienia części zawartości."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Obowiązek z 7.5.8.1 powstaje po stwierdzeniu, że część zawartości wydostała się z opakowania."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Sucha podłoga nie uchyla obowiązku, jeśli wcześniej stwierdzono uwolnienie części zawartości."
+        }
+      },
+      "notes_on_conditions": "Pytanie dotyczy zakresu zastosowania 7.5.8.1 do sztuk przesyłek ADR; nie wyklucza innych obowiązków czyszczenia wynikających z rodzaju przewozu lub innych przepisów.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+## Bieżąca migawka — etap 4x343
+
+Bank: 769 pytań, 769 `needs_review`, 0 `verified`; SHA `1e385ca71f77ac772ac24945c370db41679752b7`. Kompetencje teorii z mniej niż 6 pytaniami: 11. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0765.md`. Raport: `podstawowy/raporty/etap-4x343-warunek-czyszczenia-po-rozladunku-2026-11-03.md`.
+
 ## Bieżąca migawka — etap 4x342
 
 Bank: 768 pytań, 768 `needs_review`, 0 `verified`; SHA `6bed8107be2b93ad39b5772b3e3887fabf661033`. Kompetencje teorii z mniej niż 6 pytaniami: 12. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0765.md`. Raport: `podstawowy/raporty/etap-4x342-napiecie-pasow-ruch-a-deformacja-2026-11-03.md`.

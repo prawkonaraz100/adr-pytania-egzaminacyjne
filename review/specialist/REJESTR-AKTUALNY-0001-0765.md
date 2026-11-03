@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0768
+# Aktualny rejestr specjalisty — ADR-B-0001–0769
 
-Etap 4x342 (03.11.2026). Bank: 768 pytań, 768 `needs_review`, 0 `verified`. SHA `6bed8107be2b93ad39b5772b3e3887fabf661033`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **12** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x343 (03.11.2026). Bank: 769 pytań, 769 `needs_review`, 0 `verified`. SHA `1e385ca71f77ac772ac24945c370db41679752b7`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **11** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -776,3 +776,5 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **12** (3 praktyczne pominięt
 | ADR-B-0767 | ADR-B-09 | ADR-B-09-K05 | Na palecie masz dwa rodzaje sztuk przesyłek ADR. Każdy typ osobno jest przeznaczony do piętrzenia, ale nie ma potwierdzenia, że można je ustawić razem w jednym stosie. Jak postępujesz? | B | ADR 2025, 7.5.7.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0768 | ADR-B-09 | ADR-B-09-K06 | Po zapięciu pasów kartony ADR mają niewielki sprężysty luz, ale nie przesuwają się tak, by zmienić ustawienie lub ulec uszkodzeniu. Czy kierowca powinien dociągnąć pasy do maksymalnego napięcia? | B | ADR 2025, 7.5.7.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0769 | ADR-B-09 | ADR-B-09-K07 | Po rozładunku sztuk przesyłek ADR kierowca sprawdza przestrzeń ładunkową. Opakowania są całe i nie ma śladów uwolnienia zawartości. Czy ADR 7.5.8.1 nakazuje oczyścić pojazd przed kolejnym załadunkiem wyłącznie z powodu przewozu tych opakowań? | B | ADR 2025, 7.5.8.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
