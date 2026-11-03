@@ -2,7 +2,7 @@
 
 Raport: `podstawowy/raporty/etap-4x332-odpowiedzialnosc-deliktowa-osoba-trzecia-2026-11-03.md`.
 
-Bank 758 pytań; 758 `needs_review`, 0 `verified`; SHA `adf96781176aad252707c2bfe4dcab5588c3b4ef`; kompetencje teorii <6: **22**. Rejestr `REJESTR-AKTUALNY-0001-0758.md`.
+Bank 758 pytań; 758 `needs_review`, 0 `verified`; SHA `2b708a1f1c72732bb6b50a067d94fcbac1032a06`; kompetencje teorii <6: **22**. Rejestr `REJESTR-AKTUALNY-0001-0758.md`.
 
 ## Bieżąca migawka — etap 4x331
 
