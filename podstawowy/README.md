@@ -1,3 +1,9 @@
+**Stan na 03.11.2026, etap 4x327**
+
+**Stan 4x327:** 753 `needs_review`, 0 `verified`; SHA `92d2325d63fc4099535b1ea89c6aac7503743678`. Poprawna = jedyna najdłuższa: **81/753 = 10,76%**; maksimum działu **14,61%**. Kompetencje teorii <6: **27**.
+
+- [Etap 4x327 — tablice pomarańczowe: tolerancja wymiarów](raporty/etap-4x327-tablice-pomaranczowe-tolerancja-wymiarow-2026-11-03.md)
+
 **Stan na 03.11.2026, etap 4x326**
 
 **Stan 4x326:** 752 `needs_review`, 0 `verified`; SHA `3ddd949081089a48396e9a2e257a57fa5eb7aea4`. Poprawna = jedyna najdłuższa: **81/752 = 10,77%**; maksimum działu **14,61%**. Kompetencje teorii <6: **28**.
