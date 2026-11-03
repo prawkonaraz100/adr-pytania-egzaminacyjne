@@ -4,7 +4,7 @@
 
 - Bank: **778** pytań, 778 `needs_review`, 0 `verified`; SHA `ab9c275f699c82c76357be53051250d404cba85d`.
 - ADR-B-0778 do ADR-B-13-K05: dokumenty ze zdjęciem identyfikujące wszystkich członków załogi muszą znajdować się w kabinie kierowcy (ADR 8.1.2.1(d), 1.10.1.4).
-- Moduł ADR-B-13: **51** pytań; kompetencja K03: 5→6.
+- Moduł ADR-B-13: **52** pytań; kompetencja K05: 5→6.
 - Rozkład prawidłowych opcji: A=258, B=289, C=231.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/778 = 10,80%**; maksimum działu to 15,22%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **2** (3 praktyczne pominięte).
