@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x327
+
+Raport: `podstawowy/raporty/etap-4x327-tablice-pomaranczowe-tolerancja-wymiarow-2026-11-03.md`.
+
+Bank 753 pytań; 753 `needs_review`, 0 `verified`; SHA `92d2325d63fc4099535b1ea89c6aac7503743678`; kompetencje teorii <6: **27**. Rejestr `REJESTR-AKTUALNY-0001-0753.md`.
+
 ## Bieżąca migawka — etap 4x326
 
 Raport: `podstawowy/raporty/etap-4x326-litera-x-spłukiwanie-pozostalosci-2026-11-03.md`.
