@@ -1,15 +1,15 @@
-**Stan aktualny po etapie 4x348: 03.11.2026.**
+**Stan aktualny po etapie 4x349: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x348
+## Bieżąca migawka — etap 4x349
 
-- Bank: **774** pytań, 774 `needs_review`, 0 `verified`; SHA `dddfd4d70c9e5e0e4050be60ccf1cc52163e82d9`.
-- ADR-B-0774 do ADR-B-12-K01: ważny paszport ze zdjęciem spełnia wymóg środka identyfikacji zawierającego fotografię; ADR 1.10.1.4 nie wskazuje wyłącznie polskiego dowodu osobistego.
-- Moduł ADR-B-12: **46** pytań; kompetencja K01: 5→6.
-- Rozkład prawidłowych opcji: A=258, B=286, C=230.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/774 = 10,85%**; maksimum działu to 15,22%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **6** (3 praktyczne pominięte).
-- Explanation: 336 znaków; wszystkie pytania `needs_review`.
-- Raport: `podstawowy/raporty/etap-4x348-paszport-dokument-identyfikacji-2026-11-03.md`.
+- Bank: **775** pytań, 775 `needs_review`, 0 `verified`; SHA `f031ae4b9771c127a38bbb5266bf69f56310ad95`.
+- ADR-B-0775 do ADR-B-12-K02: zastrzeżenie „gdzie to możliwe i właściwe” w ADR 1.10.1.3 dotyczy niedostępności dla ogółu, nie obowiązku zabezpieczenia i oświetlenia obszaru.
+- Moduł ADR-B-12: **47** pytań; kompetencja K02: 5→6.
+- Rozkład prawidłowych opcji: A=258, B=287, C=230.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/775 = 10,84%**; maksimum działu to 15,22%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **5** (3 praktyczne pominięte).
+- Explanation: 386 znaków; wszystkie pytania `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x349-kwalifikator-dostepu-publicznego-adr-1-10-1-3-2026-11-03.md`.
 
 **Stan aktualny po etapie 4x339: 03.11.2026.**
 
@@ -1160,9 +1160,9 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 62 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 57 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 46 | 0 | Lekcja + mapa pytań |
-| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
+| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **774** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **775** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 

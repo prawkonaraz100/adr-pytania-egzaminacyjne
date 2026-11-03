@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0774
+# Aktualny rejestr specjalisty — ADR-B-0001–0775
 
-Etap 4x348 (03.11.2026). Bank: 774 pytań, 774 `needs_review`, 0 `verified`. SHA `dddfd4d70c9e5e0e4050be60ccf1cc52163e82d9`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **6** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x349 (03.11.2026). Bank: 775 pytań, 775 `needs_review`, 0 `verified`. SHA `f031ae4b9771c127a38bbb5266bf69f56310ad95`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **5** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -788,3 +788,5 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **6** (3 praktyczne pominięte
 | ADR-B-0773 | ADR-B-11 | ADR-B-11-K07 | Po pożarze w tunelu kierowca jest już w bezpiecznym miejscu. Strażacy pytają, jaki towar przewoził. Co powinien im przekazać? | C | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0774 | ADR-B-12 | ADR-B-12-K01 | Podczas przewozu ADR kierowca ma przy sobie ważny paszport ze zdjęciem, ale nie ma polskiego dowodu osobistego. Czy spełnia wymóg ADR 1.10.1.4? | A | ADR 2025, 1.10.1.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0775 | ADR-B-12 | ADR-B-12-K02 | Terminal czasowo składuje towary niebezpieczne podczas przewozu. Operator twierdzi, że skoro nie może całkowicie odciąć dostępu osób postronnych, nie musi też dodatkowo zabezpieczać ani oświetlać placu. Jak należy odczytać ADR 1.10.1.3? | B | ADR 2025, 1.10.1.3 | — | NIEROZSTRZYGNIĘTE | needs_review |

@@ -1,6 +1,10 @@
+## Bieżąca migawka — etap 4x349
+
+Bank: 775 pytań, 775 `needs_review`, 0 `verified`; SHA `f031ae4b9771c127a38bbb5266bf69f56310ad95`. Kompetencje teorii <6: 5. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0775.md`. Raport: `podstawowy/raporty/etap-4x349-kwalifikator-dostepu-publicznego-adr-1-10-1-3-2026-11-03.md`.
+
 ## Bieżąca migawka — etap 4x348
 
-Bank: 774 pytań, 774 `needs_review`, 0 `verified`; SHA `dddfd4d70c9e5e0e4050be60ccf1cc52163e82d9`. Kompetencje teorii <6: 6. Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0774.md`. Raport: `podstawowy/raporty/etap-4x348-paszport-dokument-identyfikacji-2026-11-03.md`.
+Bank: 774 pytań, 774 `needs_review`, 0 `verified`; SHA `dddfd4d70c9e5e0e4050be60ccf1cc52163e82d9`.
 
 ## Bieżąca migawka — etap 4x347
 
