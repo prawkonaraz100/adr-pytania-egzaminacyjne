@@ -1,15 +1,15 @@
 **Stan aktualny po etapie 4x348: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x344
+## Bieżąca migawka — etap 4x348
 
-- Bank: **773** pytań, 773 `needs_review`, 0 `verified`; SHA `996c04867b69106382e88188c10d6253e36479e2`.
-- ADR-B-0770: odstępstwo 1.1.4.2.1 nie obejmuje towarów niebezpiecznych według ADR, które według IMDG/ICAO są uznawane za niebędące towarami niebezpiecznymi (ADR 2025, 1.1.4.2.1).
-- Moduł ADR-B-10: **57** pytań; kompetencja K02: 5→6.
+- Bank: **774** pytań, 774 `needs_review`, 0 `verified`; SHA `dddfd4d70c9e5e0e4050be60ccf1cc52163e82d9`.
+- ADR-B-0774 do ADR-B-12-K01: ważny paszport ze zdjęciem spełnia wymóg środka identyfikacji zawierającego fotografię; ADR 1.10.1.4 nie wskazuje wyłącznie polskiego dowodu osobistego.
+- Moduł ADR-B-12: **46** pytań; kompetencja K01: 5→6.
 - Rozkład prawidłowych opcji: A=258, B=286, C=230.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/774 = 10,85%**; maksimum działu to 15,22%.
-- Kompetencje teorii z mniej niż 6 pytaniami: **10** (3 praktyczne pominięte).
-- Explanation: 437 znaków; wszystkie pytania `needs_review`.
-- Raport: `podstawowy/raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md`.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **84/774 = 10,85%**; maksimum działu to **15,22%**.
+- Kompetencje teorii z mniej niż 6 pytaniami: **6** (3 praktyczne pominięte).
+- Explanation: 336 znaków; wszystkie pytania `needs_review`.
+- Raport: `podstawowy/raporty/etap-4x348-paszport-dokument-identyfikacji-2026-11-03.md`.
 
 **Stan aktualny po etapie 4x339: 03.11.2026.**
 
