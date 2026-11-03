@@ -9,7 +9,7 @@ Data: 03.11.2026. Gałąź: `stage4x332-third-party-civil-liability`. Bazowy mai
 - Rozkład kluczy A/B/C: **256/273/229**.
 - „Poprawna odpowiedź jest jedyną najdłuższą”: **81/758 = 10,69%**; maksimum działu **14,61%**.
 - Długości opcji A/B/C: **97/98/94**; poprawna A nie jest najdłuższa.
-- Explanation: **452 znaki, 4 zdania**.
+- Explanation: **498 znaków, 4 zdania**.
 - Kompetencje teorii z mniej niż 6 pytaniami: **22** (3 praktyczne pominięte).
 
 ## Pytanie ADR-B-0758
