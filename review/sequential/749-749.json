@@ -1,0 +1,51 @@
+{
+  "batch": "749-749",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0749",
+      "sequence": 749,
+      "exact_record_snapshot": {
+        "stem": "Gaśnica ADR jest zamocowana na zewnątrz pojazdu i łatwo dostępna, ale podczas jazdy bezpośrednio narażona na deszcz i sól drogową. Co należy poprawić?",
+        "options": {
+          "A": "Pozostawić ją bez osłony, bo liczy się wyłącznie możliwość szybkiego wyjęcia.",
+          "B": "Zabezpieczyć ją przed pogodą, nie utrudniając załodze szybkiego dostępu.",
+          "C": "Zamknąć ją w szczelnej skrzyni pod ładunkiem, aby deszcz i sól nie docierały do sprzętu."
+        },
+        "correct_option": "B",
+        "explanation": "Gaśnica ma być łatwo dostępna dla załogi, ale trzeba ją też chronić przed działaniem warunków atmosferycznych. Sam łatwy dostęp nie wystarczy, jeśli deszcz i sól drogowa mogą przyspieszyć korozję lub uszkodzić sprzęt. Nie chowaj jej jednak w miejscu, do którego trudno się dostać; osłona nie może utrudniać szybkiego wyjęcia. Podstawa: ADR 2025, 8.1.4.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.5 — gaśnice powinny być zamontowane w jednostce transportowej w sposób zapewniający łatwy dostęp załodze oraz ochronę przed działaniem warunków atmosferycznych",
+            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+          },
+          {
+            "code": "DZ-U-2025-642",
+            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.1.4.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 8.1.4.5: fire extinguishers shall be installed so as to be easily accessible to the vehicle crew and protected against the effects of the weather",
+      "supplementary_source_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
