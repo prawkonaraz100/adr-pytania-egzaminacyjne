@@ -1,6 +1,6 @@
-**Stan na 03.11.2026, etap 4x334**
+**Stan na 03.11.2026, etap 4x335**
 
-**Stan 4x334:** 760 `needs_review`, 0 `verified`; SHA `46cbbc7ab6e1fa7f513060fa22ca61db78f9dba7`. Poprawna = jedyna najdłuższa: **82/760 = 10,79%**; maksimum działu **14,61%**. Kompetencje teorii <6: **20**.
+**Stan 4x335:** 761 `needs_review`, 0 `verified`; SHA `51d30c1588cbb1e78c330876d3e59572aca531ec`. Poprawna = jedyna najdłuższa: **82/761 = 10,78%**; maksimum działu **14,61%**. Kompetencje teorii <6: **19**.
 
 **Stan 4x332:** 758 `needs_review`, 0 `verified`; SHA `2b708a1f1c72732bb6b50a067d94fcbac1032a06`. Poprawna = jedyna najdłuższa: **81/758 = 10,69%**; maksimum działu **14,61%**. Kompetencje teorii <6: **22**.
 
@@ -67,6 +67,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x335 — klin a wyłączenie 1.1.3.6](raporty/etap-4x335-klin-a-wylaczenie-1-1-3-6-2026-11-03.md)
 
 - [Etap 4x334 — gaśnica dla każdej jednostki transportowej](raporty/etap-4x334-gasnica-dla-kazdej-jednostki-transportowej-2026-11-03.md)
 

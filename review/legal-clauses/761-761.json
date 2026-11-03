@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0761",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 1.1.3.6.2; 8.1.5.2; 8.1.4.2",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0761",
+      "order": 761,
+      "clause": "ADR 2025, 1.1.3.6.2; 8.1.5.2; 8.1.4.2",
+      "question_snapshot": {
+        "id": "ADR-B-0761",
+        "module_id": "ADR-B-08",
+        "stem": "Przewóz spełnia warunki wyłączenia ilościowego 1.1.3.6. Kierowca nie ma klina pod koło. Czy sam brak klina narusza wtedy wymagania ADR?",
+        "options": {
+          "A": "Tak. Obowiązek klina z 8.1.5.2 dotyczy każdego przewozu ADR, także objętego wyłączeniem 1.1.3.6.",
+          "B": "Nie. Punkt 1.1.3.6.2 wyłącza część 8; 8.1.5.2 nie należy do wyjątków, które nadal obowiązują.",
+          "C": "Nie. Wyłączenie 1.1.3.6 zwalnia z całego ADR, więc nie trzeba też mieć gaśnicy ani dokumentu przewozowego."
+        },
+        "correct_option": "B",
+        "explanation": "Jeżeli przewóz rzeczywiście spełnia warunki 1.1.3.6, kierowca korzysta z wyłączenia obejmującego część 8 ADR. W wykazie obowiązków, które mimo to pozostają, nie ma punktu 8.1.5.2 o klinie pod koło, więc sam brak klina nie narusza wtedy ADR. Nie oznacza to jednak zwolnienia z całego ADR: nadal obowiązują m.in. wymagania wskazane w 1.1.3.6.2, w tym gaśnica z 8.1.4.2. Podstawa: ADR 2025, 1.1.3.6.2 i 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.6.2 — wyłączenie części 8 z wymienionymi wyjątkami; 8.1.5.2 nie jest wyjątkiem i nie stosuje się przy prawidłowym wyłączeniu",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "1.1.3.6.2 wyłącza część 8 z wyjątkiem przepisów wymienionych w tym punkcie; 8.1.5.2 nie jest wśród nich."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Prawidłowe zastosowanie 1.1.3.6.2 oznacza, że obowiązek klina z 8.1.5.2 nie ma zastosowania."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Wyłączenie jest częściowe; 1.1.3.6.2 pozostawia m.in. 8.1.4.2 dotyczący gaśnicy."
+        }
+      },
+      "notes_on_conditions": "Odpowiedź B jest prawidłowa tylko wtedy, gdy przewóz rzeczywiście spełnia wszystkie warunki 1.1.3.6; pytanie nie twierdzi, że wyłączenie znosi cały ADR.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
