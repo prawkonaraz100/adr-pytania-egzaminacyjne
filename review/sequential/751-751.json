@@ -1,0 +1,46 @@
+{
+  "batch": "751-751",
+  "date": "2026-11-03",
+  "not_a_release_approval": true,
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "records": [
+    {
+      "id": "ADR-B-0751",
+      "sequence": 751,
+      "exact_record_snapshot": {
+        "stem": "Na opakowaniu są dwie wymagane nalepki ostrzegawcze. Pas mocujący przebiega przez jedną z nich i zasłania część symbolu. Co należy zrobić przed przewozem?",
+        "options": {
+          "A": "Można pozostawić pas w tym miejscu, jeśli większość nalepki pozostaje widoczna, a jej wzór da się rozpoznać.",
+          "B": "Zmienić położenie pasa lub nalepki, aby wyposażenie nie zasłaniało żadnej nalepki; wymagane nalepki umieścić blisko siebie.",
+          "C": "Pozostawić widoczną nalepkę główną, a informację o zasłoniętej nalepce dodatkowej przekazać wyłącznie w dokumencie przewozowym."
+        },
+        "correct_option": "B",
+        "explanation": "Nalepka ma być widoczna w całości, a nie tylko na tyle, by dało się odgadnąć jej wzór. Pas, uchwyt ani inna część wyposażenia opakowania nie mogą jej zasłaniać. Jeśli wymagane są dwie nalepki, umieść je blisko siebie, ale tak, by żadna nie zakrywała drugiej. Wpis w dokumencie nie zastępuje prawidłowego oznakowania. Podstawa: ADR 2025, 5.2.2.1.6(b)–(c).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.1.6(b)–(c) — nalepki nie mogą być zasłonięte przez wyposażenie, inną nalepkę lub znak; wymagane nalepki powinny być umieszczone blisko siebie",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "source_crosscheck_scope": "ADR 2025, 5.2.2.1.6(b)–(c): warning labels must not be obscured by any part of package equipment, another label or sign; where more than one label is required they must be placed close to each other",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
