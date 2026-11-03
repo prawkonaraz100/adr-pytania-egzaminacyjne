@@ -3,14 +3,14 @@
   "batch": "ADR-B-0001..0015",
   "date": "2026-11-03",
   "source": "OCR oficjalnego skanu Dz.U. 2025 poz. 642; sprostowanie Dz.U. 2025 poz. 1575 sprawdzone osobno",
-  "warning": "Cytaty i strony pochodzą z OCR; możliwe błędy OCR. Specjalista musi potwierdzić je na obrazie PDF. Tabele 3.2 są słabo odczytane.",
+  "warning": "OCR był punktem wyjścia; kontrola druga na obrazach PDF (s. 373, 938, 1309, 1310, 1325, 1332) skorygowała ustalenia opisane poniżej. Nie jest to formalna akceptacja specjalisty.",
   "previous_uncompared": 753,
   "compared_ocr": 15,
   "remaining_without_comparison": 738,
   "counts": {
-    "OK": 10,
+    "OK": 11,
     "POPRAW": 4,
-    "BLOKUJ": 1
+    "BLOKUJ": 0
   },
   "verified": 0,
   "question_status": "needs_review",
@@ -46,10 +46,10 @@
       "0004",
       "2.2.3.1.1; 3.2.1 Tabela A UN 1203",
       "165; tabela",
-      "Definicja klasy 3 czytelna; wpis UN 1203 i kolumna klasy nieczytelne w OCR tabeli.",
-      "BLOKUJ",
+      "Tabela A, UN 1203: BENZYNA SILNIKOWA lub PALIWO SILNIKOWE; klasa 3, kod F1, GP II, nalepka 3.",
+      "OK",
       "A",
-      "Sprawdzić obraz Tabeli A; bez zmiany."
+      "Potwierdzone na obrazie s. 373; źródło uzupełnione o 3.2.1 Tabela A, UN 1203."
     ],
     [
       "0005",
@@ -73,7 +73,7 @@
       "0007",
       "5.2.1.8.3",
       "938",
-      "„Symbol (ryba i drzewo)”.",
+      "5.2.1.8.3, s. 938: „Symbol (ryba i drzewo)”; korekta opcji i explanation.",
       "POPRAW",
       "A",
       "Zalecana korekta opcji A do „Symbol ryby i drzewa”; nie zapisano do banku."
@@ -91,25 +91,25 @@
       "0009",
       "7.5.8.1",
       "1309–1310",
-      "Po rozładunku stwierdzono wydostanie się części zawartości; niezwłoczne czyszczenie, najpóźniej przed ponownym załadunkiem.",
+      "7.5.8.1: oczyszczenie niezwłocznie, najpóźniej przed ponownym załadunkiem; jeśli na miejscu niemożliwe, ostrożny przejazd do najbliższego miejsca umożliwiającego czyszczenie.",
       "POPRAW",
       "B",
-      "Zalecana zmiana stemu na wykrycie po zakończeniu rozładunku i doprecyzowanie explanation; nie zapisano do banku."
+      "Zalecana zmiana stemu i opcji B oraz explanation; wcześniejszy raport błędnie sugerował, że stem już poprawiono."
     ],
     [
       "0010",
       "7.5.9",
       "1310",
-      "Zakaz palenia przy czynnościach ładunkowych obejmuje e-papierosy.",
+      "8.3.5, s. 1332, wprost obejmuje e-papierosy i podobne urządzenia oraz załogę; dodatkowo 7.5.9, s. 1310.",
       "POPRAW",
       "C",
-      "Zalecana zmiana źródła 8.3.5 na 7.5.9 oraz dopasowanie explanation; nie zapisano do banku."
+      "Zachować 8.3.5 i dodać 7.5.9 jako drugą podstawę."
     ],
     [
       "0011",
       "8.3.3",
       "1332",
-      "Zakaz otwierania sztuk przesyłek dotyczy kierowcy i pomocnika.",
+      "8.3.3, s. 1332, oraz 7.5.7.5, s. 1309; przeredagowanie niejasnego explanation.",
       "OK",
       "C",
       "Bez zmian."
@@ -130,7 +130,7 @@
       "Instrukcje pisemne w kabinie kierowcy, w łatwo dostępnym miejscu.",
       "OK",
       "B",
-      "Bez zmian."
+      "Zalecana zmiana opcji B na „W kabinie kierowcy”; klucz bez zmian."
     ],
     [
       "0014",
@@ -150,5 +150,23 @@
       "A",
       "Zalecane dopasowanie explanation do 8.1.4.4–8.1.4.5; nie zapisano do banku."
     ]
-  ]
+  ],
+  "second_image_review": {
+    "pages": [
+      373,
+      938,
+      1309,
+      1310,
+      1325,
+      1332
+    ],
+    "key_changes": 0,
+    "verified": 0,
+    "notes": [
+      "0004 BLOKUJ→OK",
+      "0007 poprawić explanation do „Symbol (ryba i drzewo)”",
+      "0009 doprecyzować niezwłoczność i najbliższe miejsce czyszczenia",
+      "0010 zachować 8.3.5 i dodać 7.5.9"
+    ]
+  }
 }
