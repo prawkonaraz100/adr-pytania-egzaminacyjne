@@ -1,3 +1,9 @@
+## Bieżąca migawka — etap 4x329
+
+Raport: `podstawowy/raporty/etap-4x329-odblaskowosc-tablicy-pomaranczowej-2026-11-03.md`.
+
+Bank 755 pytań; 755 `needs_review`, 0 `verified`; SHA `9b6cf3e78af2fd49a2fcbe99b1fb10a8021904e1`; kompetencje teorii <6: **25**. Rejestr `REJESTR-AKTUALNY-0001-0755.md`.
+
 ## Bieżąca migawka — etap 4x328
 
 Raport: `podstawowy/raporty/etap-4x328-szczegolne-znaczenie-numeru-22-2026-11-03.md`.
