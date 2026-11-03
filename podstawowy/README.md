@@ -1,6 +1,6 @@
-**Stan na 03.11.2026, etap 4x336**
+**Stan na 03.11.2026, etap 4x337**
 
-**Stan 4x336:** 762 `needs_review`, 0 `verified`; SHA `e1e944f3836c9b523c11148b3a7811c013cb6cfa`. Poprawna = jedyna najdłuższa: **82/762 = 10,76%**; maksimum działu **14,61%**. Kompetencje teorii <6: **18**.
+**Stan 4x337:** 763 `needs_review`, 0 `verified`; SHA `30f597dd668581ee6b16a810e1d21e0c2661dfd4`. Poprawna = jedyna najdłuższa: **82/763 = 10,75%**; maksimum działu **14,61%**. Kompetencje teorii <6: **17**.
 
 **Stan 4x332:** 758 `needs_review`, 0 `verified`; SHA `2b708a1f1c72732bb6b50a067d94fcbac1032a06`. Poprawna = jedyna najdłuższa: **81/758 = 10,69%**; maksimum działu **14,61%**. Kompetencje teorii <6: **22**.
 
@@ -67,6 +67,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x337 — para rękawic na członka załogi](raporty/etap-4x337-para-rekawic-na-czlonka-zalogi-2026-11-03.md)
 
 - [Etap 4x336 — latarka i metalowa powierzchnia przy 1.1.3.6](raporty/etap-4x336-latarka-metalowa-powierzchnia-a-1-1-3-6-2026-11-03.md)
 
