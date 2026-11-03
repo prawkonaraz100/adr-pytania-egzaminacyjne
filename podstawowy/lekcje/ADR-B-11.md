@@ -241,3 +241,14 @@ Wybierz scenariusz działu ADR-B-11 z [mapy praktycznej](../praktyka/scenariusze
 
 Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi porównać je z pełnym polskim tekstem ADR.
 
+
+
+### Ładunek z różnymi kodami tunelowymi — ADR-B-11-K04
+
+**Wyjaśnienie dla kursanta:** Jeśli w jednej jednostce przewozisz towary z różnymi kodami tunelowymi, nie wybierasz łagodniejszego kodu ani tego, który pasuje do wygodniejszej trasy. Dla całego ładunku przyjmujesz kod powodujący największe ograniczenia. Przy kodach B i D będzie to B, który wyklucza przejazd przez tunele kategorii B, C, D i E.
+
+**Przykład z pracy:** Jeden towar ma kod tunelowy B, drugi D, a nawigacja prowadzi przez tunel kategorii C. Który kod stosujesz i jak planujesz trasę?
+
+**Co warto zrobić lub sprawdzić:** Przyjmij kod B dla całego ładunku i zaplanuj trasę omijającą tunel kategorii C.
+
+**Ćwiczenie:** odpowiedz na `ADR-B-0771` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 8.6.3.2 i 8.6.4.

@@ -1,8 +1,12 @@
-**Stan aktualny po etapie 4x340: 03.11.2026.**
+**Stan aktualny po etapie 4x345: 03.11.2026.**
+
+## Bieżąca migawka — etap 4x345
+
+Bank: 771 pytań, 771 `needs_review`, 0 `verified`; SHA `0467701668f4ff28139fb72ab341100b67df4268`. Kompetencje teorii <6: 9. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0771.md`; raport: `podstawowy/raporty/etap-4x345-kod-najbardziej-restrykcyjny-trasa-tunelowa-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x344
 
-Bank: 770 pytań, 770 `needs_review`, 0 `verified`; SHA `d96529ee430bb92d93c6067033a90470e51861b7`. Kompetencje teorii <6: 10. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0765.md`; raport: `podstawowy/raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md`.
+Bank: 770 pytań, 770 `needs_review`, 0 `verified`; SHA `d96529ee430bb92d93c6067033a90470e51861b7`. Kompetencje teorii <6: 10. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0771.md`; raport: `podstawowy/raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x343
 

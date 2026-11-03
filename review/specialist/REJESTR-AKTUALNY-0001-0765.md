@@ -1,7 +1,7 @@
-# Aktualny rejestr specjalisty — ADR-B-0001–0770
+# Aktualny rejestr specjalisty — ADR-B-0001–0771
 
-Etap 4x344 (03.11.2026). Bank: 770 pytań, 770 `needs_review`, 0 `verified`. SHA `d96529ee430bb92d93c6067033a90470e51861b7`.
-Kompetencje teoretyczne z mniej niż 6 pytaniami: **10** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
+Etap 4x345 (03.11.2026). Bank: 771 pytań, 771 `needs_review`, 0 `verified`. SHA `0467701668f4ff28139fb72ab341100b67df4268`.
+Kompetencje teoretyczne z mniej niż 6 pytaniami: **9** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -780,3 +780,5 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **10** (3 praktyczne pominięt
 | ADR-B-0769 | ADR-B-09 | ADR-B-09-K07 | Po rozładunku sztuk przesyłek ADR kierowca sprawdza przestrzeń ładunkową. Opakowania są całe i nie ma śladów uwolnienia zawartości. Czy ADR 7.5.8.1 nakazuje oczyścić pojazd przed kolejnym załadunkiem wyłącznie z powodu przewozu tych opakowań? | B | ADR 2025, 7.5.8.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 
 | ADR-B-0770 | ADR-B-10 | ADR-B-10-K02 | Towar jest niebezpieczny według ADR, ale zgodnie z IMDG Code jest uznawany za niebędący towarem niebezpiecznym. Czy w łańcuchu drogowym i morskim można zastosować odstępstwo z ADR 1.1.4.2.1 i wpisać w dokumencie „PRZEWÓZ ZGODNY Z 1.1.4.2.1”? | B | ADR 2025, 1.1.4.2.1 i 5.4.1.1.7 | — | NIEROZSTRZYGNIĘTE | needs_review |
+
+| ADR-B-0771 | ADR-B-11 | ADR-B-11-K04 | Przewozisz w jednej jednostce dwa towary: jeden ma kod tunelowy B, drugi D. Nawigacja prowadzi przez tunel kategorii C. Jaki kod przyjmujesz dla całego ładunku i jak planujesz trasę? | B | ADR 2025, 8.6.3.2 i 8.6.4 | — | NIEROZSTRZYGNIĘTE | needs_review |

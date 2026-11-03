@@ -1,7 +1,10 @@
-**Stan na 03.11.2026, etap 4x344**
+**Stan na 03.11.2026, etap 4x345**
 
-**Stan 4x344:** 770 `needs_review`, 0 `verified`; SHA `d96529ee430bb92d93c6067033a90470e51861b7`. Poprawna = jedyna najdłuższa: **83/770 = 10,78%**; kompetencje teorii <6: **10**.
+**Stan 4x345:** 771 `needs_review`, 0 `verified`; SHA `0467701668f4ff28139fb72ab341100b67df4268`. Poprawna = jedyna najdłuższa: **83/771 = 10,77%**; kompetencje teorii <6: **9**.
 
+- [Etap 4x345 — najbardziej restrykcyjny kod tunelowy](raporty/etap-4x345-kod-najbardziej-restrykcyjny-trasa-tunelowa-2026-11-03.md)
+
+- [Etap 4x345 — najbardziej restrykcyjny kod tunelowy](raporty/etap-4x345-kod-najbardziej-restrykcyjny-trasa-tunelowa-2026-11-03.md)
 - [Etap 4x344 — wyłączenie odstępstwa ADR 1.1.4.2.1](raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md)
 
 **Stan na 03.11.2026, etap 4x339**

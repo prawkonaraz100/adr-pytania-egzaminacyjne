@@ -1,12 +1,12 @@
-**Stan aktualny po etapie 4x344: 03.11.2026.**
+**Stan aktualny po etapie 4x345: 03.11.2026.**
 
 ## Bieżąca migawka — etap 4x344
 
 - Bank: **771** pytań, 771 `needs_review`, 0 `verified`; SHA `0467701668f4ff28139fb72ab341100b67df4268`.
 - ADR-B-0770: odstępstwo 1.1.4.2.1 nie obejmuje towarów niebezpiecznych według ADR, które według IMDG/ICAO są uznawane za niebędące towarami niebezpiecznymi (ADR 2025, 1.1.4.2.1).
 - Moduł ADR-B-10: **57** pytań; kompetencja K02: 5→6.
-- Rozkład prawidłowych opcji: A=257, B=284, C=229.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/770 = 10,78%**; maksimum działu to 14,61%; maksimum działu to 14,61%.
+- Rozkład prawidłowych opcji: A=257, B=285, C=229.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/771 = 10,77%**; maksimum działu to 14,61%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **10** (3 praktyczne pominięte).
 - Explanation: 437 znaków; wszystkie pytania `needs_review`.
 - Raport: `podstawowy/raporty/etap-4x344-wylaczenie-odstepstwa-adr-imdg-2026-11-03.md`.
