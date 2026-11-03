@@ -1,3 +1,5 @@
+**Bieżąca migawka — etap 4x332 (03.11.2026).** Bank: 758 pytań, 758 `needs_review`, 0 `verified`; SHA `adf96781176aad252707c2bfe4dcab5588c3b4ef`. Kompetencje teorii <6: **22**. Rejestr: `REJESTR-AKTUALNY-0001-0758.md`. Raport: `podstawowy/raporty/etap-4x332-odpowiedzialnosc-deliktowa-osoba-trzecia-2026-11-03.md`.
+
 **Bieżąca migawka — etap 4x331 (03.11.2026).** Bank: 757 pytań, 757 `needs_review`, 0 `verified`; SHA `6fa58d5fc5cdf2063883ff77747d5624cb6406e8`. Kompetencje teorii <6: **23**. Rejestr: `REJESTR-AKTUALNY-0001-0757.md`. Raport: `podstawowy/raporty/etap-4x331-odbiorca-kontrola-po-rozladunku-2026-11-03.md`.
 
 **Bieżąca migawka — etap 4x330 (03.11.2026).** Bank: 756 pytań, 756 `needs_review`, 0 `verified`; SHA `28a535b640a1e6fc8ff23e2bfc9b746bd1f58908`. Kompetencje teorii <6: **24**. Rejestr: `REJESTR-AKTUALNY-0001-0756.md`. Raport: `podstawowy/raporty/etap-4x330-numer-zagrozenia-86-material-zracy-toksyczny-2026-11-03.md`.
