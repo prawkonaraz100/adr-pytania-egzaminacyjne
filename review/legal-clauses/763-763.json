@@ -1,0 +1,57 @@
+{
+  "title": "ADR 2025 legal clause review ADR-B-0763",
+  "date": "2026-11-03",
+  "scope": "ADR 2025 8.1.5.2",
+  "source_of_law": [
+    "https://eli.gov.pl/api/acts/DU/2025/642"
+  ],
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0763",
+      "order": 763,
+      "clause": "ADR 2025, 8.1.5.2",
+      "question_snapshot": {
+        "id": "ADR-B-0763",
+        "module_id": "ADR-B-08",
+        "stem": "Przed wyjazdem sprawdzasz wyposażenie. Każdy członek załogi ma okulary ochronne, ale w komplecie rękawic brakuje jednej sztuki. Czy taki zestaw spełnia ADR 8.1.5.2?",
+        "options": {
+          "A": "Tak. Wystarczy jedna rękawica ochronna na osobę, jeśli można jej użyć na dominującej ręce.",
+          "B": "Nie. Każdy członek załogi musi mieć własną parę rękawic ochronnych, czyli dwie sztuki.",
+          "C": "Tak. Okulary ochronne mogą zastąpić brakującą rękawicę, bo oba elementy należą do ochrony osobistej."
+        },
+        "correct_option": "B",
+        "explanation": "ADR wymaga pary rękawic ochronnych dla każdego członka załogi, więc jedna sztuka nie tworzy wymaganego kompletu. Okulary chronią oczy, ale nie zastępują ochrony dłoni; każdy element ma inne zadanie i musi być dostępny w wymaganej liczbie. Uzupełnij brak przed rozpoczęciem przewozu, zamiast zakładać, że jeden element może zastąpić drugi. Podstawa: ADR 2025, 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2 — for each member of the vehicle crew: a pair of protective gloves and eye protection",
+            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "observed_answer_key": "B",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Przepis wymaga pary rękawic, nie pojedynczej sztuki."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Para oznacza dwie rękawice; wymóg dotyczy każdego członka załogi."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Ochrona oczu i ochrona dłoni są odrębnymi elementami i nie zastępują się."
+        }
+      },
+      "notes_on_conditions": "Pytanie sprawdza literalną liczbę rękawic na członka załogi; nie określa dodatkowych wymagań dotyczących materiału lub klasy ochrony rękawic.",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review"
+    }
+  ]
+}
