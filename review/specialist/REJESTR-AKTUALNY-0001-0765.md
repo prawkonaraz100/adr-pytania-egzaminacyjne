@@ -795,4 +795,3 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **3** (3 praktyczne pominięte
 
 | ADR-B-0777 | ADR-B-13 | ADR-B-13-K03 | Nadawca organizuje przewóz ADR do kilku odbiorców, których nie da się jeszcze ustalić na początku trasy. Chce w dokumencie przewozowym zamiast ich nazw i adresów wpisać zwrot „Delivery Sale”. Kiedy może tak postąpić? | B | ADR 2025, 5.4.1.1.1(h) | — | NIEROZSTRZYGNIĘTE | needs_review |
 
-| ADR-B-0777 | ADR-B-13 | ADR-B-13-K03 | Nadawca organizuje przewóz ADR do kilku odbiorców, których nie da się jeszcze ustalić na początku trasy. Chce w dokumencie przewozowym zamiast ich nazw i adresów wpisać zwrot „Delivery Sale”. Kiedy może tak postąpić? | B | ADR 2025, 5.4.1.1.1(h) | — | NIEROZSTRZYGNIĘTE | needs_review |
