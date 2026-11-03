@@ -1,8 +1,13 @@
-**Stan aktualny po etapie 4x345: 03.11.2026.**
+**Stan aktualny po etapie 4x346: 03.11.2026.**
 
-## Bieżąca migawka — etap 4x345
+## Bieżąca migawka — etap 4x346
 
-- Bank: **771** pytań, 771 `needs_review`, 0 `verified`; SHA `0467701668f4ff28139fb72ab341100b67df4268`.
+- Bank: **772** pytań, 772 `needs_review`, 0 `verified`; SHA `577557ae08e7354fe5d5f329d2672266e62c2d98`.
+- ADR-B-0772 do ADR-B-11-K06: wyjątek z 8.6.3.3 oznacza, że gdy jednostka wymaga oznakowania 3.4.13/3.4.14, towary przewożone zgodnie z 1.1.3 uwzględnia się przy ustalaniu kodu całego ładunku; z B i D wybiera się B.
+- Moduł ADR-B-11: **45** pytań; kompetencja K06: 5→6.
+- Rozkład A/B/C: **257/286/229**; poprawna jedyna najdłuższa: **83/772 = 10,75%**; maksimum działu: 14,61%.
+- Kompetencje teorii z mniej niż 6 pytaniami: **8**.
+- Raport: `podstawowy/raporty/etap-4x346-wyjatki-1-1-3-znak-lq-tunele-2026-11-03.md`.
 - ADR-B-0771 do ADR-B-11-K04: przy kodach B i D dla jednej jednostki stosuje się bardziej restrykcyjny kod B; trasa omija tunel kategorii C (ADR 2025, 8.6.3.2 i 8.6.4).
 - Moduł ADR-B-11: **44** pytania; kompetencja K04: 5→6.
 - Rozkład prawidłowych opcji: A/B/C = **257/285/229**; globalny wskaźnik: **83/771 = 10,77%**; maksimum działu: 14,61%.
