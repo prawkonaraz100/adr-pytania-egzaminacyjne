@@ -1160,9 +1160,9 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 62 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 57 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 46 | 0 | Lekcja + mapa pytań |
-| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 46 | 0 | Lekcja + mapa pytań |
+| ADR-B-12 | Ochrona (security) | 6/6 | 0 | 47 | 0 | Lekcja + mapa pytań |
 | ADR-B-13 | Dokumentacja | 8/8 | 0 | 50 | 0 | Lekcja + mapa pytań |
-| **Razem** | | **104/104** | **3** | **774** | **0** | **13 szkiców z mapą pytań** |
+| **Razem** | | **104/104** | **3** | **775** | **0** | **13 szkiców z mapą pytań** |
 
 ## Pogłębienie zagadnień po partii 007B
 
