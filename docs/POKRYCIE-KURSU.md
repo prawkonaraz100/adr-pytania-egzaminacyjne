@@ -4,7 +4,7 @@
 
 - Bank: **769** pytań, 769 `needs_review`, 0 `verified`; SHA `1e385ca71f77ac772ac24945c370db41679752b7`.
 - ADR-B-0769: obowiązek czyszczenia po rozładunku sztuk przesyłek powstaje, gdy stwierdzono uwolnienie części zawartości (ADR 2025, 7.5.8.1).
-- Moduł ADR-B-09: **63** pytania; kompetencja K07: 5→6.
+- Moduł ADR-B-09: **62** pytania; kompetencja K07: 5→6.
 - Rozkład prawidłowych opcji: A=257, B=283, C=229.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/769 = 10,79%**; maksimum działu to 14,61%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **11** (3 praktyczne pominięte).
@@ -1157,7 +1157,7 @@ Raport 4x226: [audyt 107 kompetencji, 13 lekcji i podobieństwa pytań](../podst
 | ADR-B-06 | Oznakowanie | 9/9 | 0 | 66 | 0 | Lekcja + mapa pytań |
 | ADR-B-07 | Obowiązki uczestników | 7/7 | 0 | 54 | 0 | Lekcja + mapa pytań |
 | ADR-B-08 | Wyposażenie | 8/8 | 0 | 53 | 0 | Lekcja + mapa pytań |
-| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 63 | 0 | Lekcja + mapa pytań |
+| ADR-B-09 | Załadunek i mocowanie | 9/9 | 0 | 62 | 0 | Lekcja + mapa pytań |
 | ADR-B-10 | Przewóz kombinowany | 5/5 | 0 | 56 | 0 | Lekcja + mapa pytań |
 | ADR-B-11 | Tunele | 7/7 | 0 | 43 | 0 | Lekcja + mapa pytań |
 | ADR-B-12 | Ochrona (security) | 6/6 | 0 | 45 | 0 | Lekcja + mapa pytań |

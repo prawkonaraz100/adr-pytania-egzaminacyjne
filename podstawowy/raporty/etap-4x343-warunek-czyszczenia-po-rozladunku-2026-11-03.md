@@ -19,7 +19,7 @@ Data: 03.11.2026. Gałąź: `stage4x343-cleaning-trigger-after-spill`. Bazowy ma
 
 - Bank: **769** pytań, 769 `needs_review`, 0 `verified`; blob SHA `1e385ca71f77ac772ac24945c370db41679752b7`.
 - Kompetencje teorii z mniej niż 6 pytaniami: **11** (3 praktyczne pominięte).
-- Moduł ADR-B-09: **63** pytania.
+- Moduł ADR-B-09: **62** pytania.
 - Rozkład prawidłowych opcji: A/B/C = **257/283/229**.
 - Poprawna odpowiedź jest jedyną najdłuższą: **83/769 = 10,79%**; maksimum działu: **14,61%**.
 

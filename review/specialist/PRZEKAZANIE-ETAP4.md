@@ -4,7 +4,7 @@
 
 - Bank: **769** pytań, 769 `needs_review`, 0 `verified`; SHA `1e385ca71f77ac772ac24945c370db41679752b7`.
 - ADR-B-0769 dodano do ADR-B-09-K07: obowiązek czyszczenia po rozładunku sztuk przesyłek powstaje, gdy stwierdzono uwolnienie części zawartości (ADR 2025, 7.5.8.1).
-- Moduł ADR-B-09: **63** pytania; kompetencja K07: 5→6.
+- Moduł ADR-B-09: **62** pytania; kompetencja K07: 5→6.
 - Rozkład prawidłowych opcji: A=257, B=283, C=229.
 - Globalny wskaźnik: **83/769 = 10,79%**; maksimum działu: 14,61%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **11**.
