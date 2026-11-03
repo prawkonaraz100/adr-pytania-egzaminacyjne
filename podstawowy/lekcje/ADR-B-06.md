@@ -354,3 +354,10 @@ Powiązane pytanie: **ADR-B-0753**.
 Powtórzenie cyfry w numerze zagrożenia zwykle oznacza nasilenie danego zagrożenia, ale ADR wymienia też specjalne kody, których znaczenie trzeba odczytać osobno. Numer 22 oznacza gaz skroplony schłodzony, działający dusząco. Nie rozdzielaj go na dwa niezależne zagrożenia i nie stosuj wyłącznie ogólnej reguły o powtórzonej cyfrze. Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.
 
 Powiązane pytanie: **ADR-B-0754**.
+
+
+### Odblaskowość tablicy pomarańczowej — ADR-B-0755
+
+Tablica pomarańczowa na pojeździe drogowym musi odbijać światło, aby była lepiej widoczna przy słabym oświetleniu. Sama pomarańczowa barwa i czytelne numery nie wystarczą, jeśli tablica nie ma wymaganej odblaskowości. ADR przewiduje wyjątek dla nieodblaskowego koloru na wagonach, ale nie na samochodach. Podstawa: ADR 2025, 5.3.2.2.1.
+
+Powiązane pytanie: **ADR-B-0755**.
