@@ -271,3 +271,8 @@ Podczas przewozu towarów niebezpiecznych każdy członek załogi musi mieć prz
 Przy przewozie drogowym będącym częścią łańcucha morsko-drogowego kierowca i przewoźnik nie mogą zakładać, że dokument IMDG automatycznie zastępuje wszystkie informacje wymagane przez ADR. Dla przewozu wykonywanego na warunkach 1.1.4.2.1 dokument powinien zawierać dodatkowy wpis wskazany w 5.4.1.1.7. Przewoźnik przed rozpoczęciem przewozu sprawdza, czy wymagane informacje zostały podane; jeżeli stwierdzi brak, nie powinien ruszać do czasu usunięcia niezgodności. Kierowca powinien zgłosić brak dyspozytorowi i poprosić o poprawny dokument, zamiast traktować ustne zapewnienie jako uzupełnienie. Podstawa: ADR 1.1.4.2.1, 1.4.2.2.1(b), 1.4.2.2.3 i 5.4.1.1.7.
 
 **Pytanie kontrolne:** ADR-B-0714 — co zrobić, gdy dokument nie zawiera wymaganego wpisu dla drogowego odcinka przewozu kombinowanego?
+
+
+### Wyjątek „Delivery Sale” — wielu odbiorców
+
+Zwykle dokument przewozowy podaje nazwę i adres odbiorcy. Jeżeli towar ma trafić do kilku odbiorców, których nie można zidentyfikować na początku przewozu, ADR pozwala wyjątkowo użyć zwrotu „Delivery Sale”, ale tylko za zgodą właściwych władz państw, których dotyczy przewóz. Nie wystarczy, że odbiorcy zostaną ustaleni później; bez wymaganej zgody nie pomijaj danych odbiorcy. Pytanie kontrolne: ADR-B-0777. Podstawa: ADR 5.4.1.1.1(h).
