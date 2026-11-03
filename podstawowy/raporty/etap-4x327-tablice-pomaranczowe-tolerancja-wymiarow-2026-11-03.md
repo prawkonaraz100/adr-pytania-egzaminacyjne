@@ -4,7 +4,7 @@ Data: 03.11.2026. Gałąź: `stage4x327-orange-plate-dimensions`. Bazowy main: `
 
 ## Zakres i wynik
 
-Dodano ADR-B-0753 do kompetencji `ADR-B-06-K05` (powtórzone cyfry i szczególne kombinacje numerów zagrożenia? **Uwaga: przypisanie w mapie kompetencji i manifeście wskazuje K05 — tablice pomarańczowe i ich wymiary**). Podstawa: ADR 2025, 5.3.2.2.1 i 5.3.2.2.4.
+Dodano ADR-B-0753 do kompetencji `ADR-B-06-K05` — wymiary i rozmieszczenie tablic. Podstawa: ADR 2025, 5.3.2.2.1 i 5.3.2.2.4.
 
 - Bank: **753** pytania (ADR-B-0001–0753), 753 `needs_review`, 0 `verified`.
 - SHA `92d2325d63fc4099535b1ea89c6aac7503743678`.
