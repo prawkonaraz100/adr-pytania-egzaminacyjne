@@ -749,4 +749,4 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **35** (3 praktyczne pominięt
 | ADR-B-0742 | ADR-B-05 | ADR-B-05-K05 | Granica gaszenia pożaru silnika i ładowni | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0743 | ADR-B-05 | ADR-B-05-K06 | Mały pożar silnika: nie podchodzić przez gęsty dym | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0744 | ADR-B-05 | ADR-B-05-K07 | Elektroniczny dokument musi być dostępny podczas przewozu i ratownikom | A | ADR 2025, 5.4.0.2; 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0745 | ADR-B-05 | ADR-B-05-K08 | Skażone rękawice: nie używać ponownie, bezpiecznie usunąć | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0745 | ADR-B-05 | ADR-B-05-K08 | Skażone rękawice po kontakcie | B | ADR 2025, 5.4.3.4 | — | NIEROZSTRZYGNIĘTE | needs_review |
