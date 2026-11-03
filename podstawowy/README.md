@@ -1,3 +1,7 @@
+**Stan na 03.11.2026, etap 4x332**
+
+**Stan 4x332:** 758 `needs_review`, 0 `verified`; SHA `adf96781176aad252707c2bfe4dcab5588c3b4ef`. Poprawna = jedyna najdłuższa: **81/758 = 10,69%**; maksimum działu **14,61%**. Kompetencje teorii <6: **22**.
+
 **Stan na 03.11.2026, etap 4x331**
 
 **Stan 4x331:** 757 `needs_review`, 0 `verified`; SHA `6fa58d5fc5cdf2063883ff77747d5624cb6406e8`. Poprawna = jedyna najdłuższa: **81/757 = 10,70%**; maksimum działu **14,61%**. Kompetencje teorii <6: **23**.
@@ -61,6 +65,8 @@
 - Kompetencje teoretyczne poniżej progu: 34.
 
 ## Raporty jakości
+
+- [Etap 4x332 — odpowiedzialność za szkodę wyrządzoną osobie trzeciej](raporty/etap-4x332-odpowiedzialnosc-deliktowa-osoba-trzecia-2026-11-03.md)
 
 - [Etap 4x331 — odbiorca: kontrola wymagań ADR po rozładunku](raporty/etap-4x331-odbiorca-kontrola-po-rozladunku-2026-11-03.md)
 
