@@ -6,6 +6,7 @@ import pathlib
 import re
 import subprocess
 import tempfile
+import sys
 import unittest
 import urllib.request
 
@@ -25,11 +26,15 @@ class SourceProbe(unittest.TestCase):
             with tempfile.TemporaryDirectory() as directory:
                 p=pathlib.Path(directory)/"adr.pdf"
                 p.write_bytes(pdf)
-                run=subprocess.run(["pdftotext","-layout",str(p),"-"],capture_output=True,text=True,timeout=30)
-            if run.returncode:
-                print("SOURCE_PROBE_PDftotext_ERROR",run.stderr[:400])
-                return
-            pages=run.stdout.split("\f")
+                try:
+                    from pypdf import PdfReader
+                except ImportError:
+                    install=subprocess.run([sys.executable,"-m","pip","install","--quiet","pypdf"],capture_output=True,text=True,timeout=90)
+                    print("SOURCE_PROBE_PIP",install.returncode,install.stderr[-300:])
+                    if install.returncode: return
+                    from pypdf import PdfReader
+                reader=PdfReader(str(p))
+                pages=[page.extract_text(extraction_mode="layout") or "" for page in reader.pages]
             print("SOURCE_PROBE_PAGE_COUNT",len(pages))
             for term in CLAUSES:
                 found=0
