@@ -1,6 +1,6 @@
 ## Bieżąca migawka — etap 4x355
 
-Bank: 780 pytań, 780 `needs_review`, 0 `verified`; SHA `95f01bdcd26d0b01cf8c371a01dc14a568d5dd83`. Kompetencje teorii <6: 0. **Bank zamknięty, gotowy do niezależnej recenzji; nic nie jest zweryfikowane. STOP dopisywania pytań.** Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0780.md`. Raport: `podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md`.
+Bank: 780 pytań, 780 `needs_review`, 0 `verified`; SHA `a70cf470c8373a569ecbfdc51bd30749f0c0665f`. Kompetencje teorii <6: 0. **Bank zamknięty, gotowy do niezależnej recenzji; nic nie jest zweryfikowane. STOP dopisywania pytań.** Aktualny rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0780.md`. Raport: `podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md`.
 
 Raport końcowy: `docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md`.
 
