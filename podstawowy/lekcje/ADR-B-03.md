@@ -224,9 +224,9 @@ Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw prz
 
 **Jak rozumować:** Tylko jeśli to bezpieczne i właściwe, z odpowiednim wyposażeniem. To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
 
-**Sprawdź się:** `ADR-B-0100`, `ADR-B-0681`. **Podstawa do kontroli:** ADR 5.4.3.4 i 8.1.5.2.
+**Sprawdź się:** `ADR-B-0100`, `ADR-B-0681`. **Podstawa do kontroli:** ADR 5.4.3.4 i 8.1.5.3.
 
-Dla towarów oznakowanych nalepką 3, 4.1, 4.3, 8 lub 9 ADR 8.1.5.2 wymaga dodatkowo łopaty, osłony kanalizacyjnej i pojemnika do zbierania pozostałości. To wyposażenie ma umożliwić ograniczenie skutków wycieku, ale nie oznacza obowiązku podejmowania działań za wszelką cenę. Używaj go wyłącznie wtedy, gdy jest to właściwe i bezpieczne; nie wchodź w rozlew ani w opary.
+Dla towarów oznakowanych nalepką 3, 4.1, 4.3, 8 lub 9 ADR 8.1.5.3 wymaga dodatkowo łopaty, osłony kanalizacyjnej i pojemnika do zbierania pozostałości. To wyposażenie ma umożliwić ograniczenie skutków wycieku, ale nie oznacza obowiązku podejmowania działań za wszelką cenę. Używaj go wyłącznie wtedy, gdy jest to właściwe i bezpieczne; nie wchodź w rozlew ani w opary.
  
 ### Unikanie skażenia przy rozlewie (ADR-B-03-K05)
 
@@ -290,7 +290,7 @@ Po przewozie luzem pojazd lub kontener trzeba prawidłowo oczyścić przed ponow
 
 ### Wyposażenie ochrony kanalizacji także przy nalepce 9 — ADR-B-0734
 
-Jednostka przewożąca towary oznakowane nalepką 9 musi mieć dodatkowe wyposażenie wskazane w ADR 8.1.5.2: łopatę, osłonę kanalizacyjną i pojemnik do zebrania pozostałości. Wymóg nie ogranicza się do towarów klasy 8. Podstawa: ADR 2025, 8.1.5.2.
+Jednostka przewożąca towary oznakowane nalepką 9 musi mieć dodatkowe wyposażenie wskazane w ADR 8.1.5.3: łopatę, osłonę kanalizacyjną i pojemnik do zebrania pozostałości. Wymóg nie ogranicza się do towarów klasy 8. Podstawa: ADR 2025, 8.1.5.3.
 
 
 ### Dokumenty przewozowe za rozlewem — nie wchodzić w strefę skażenia (ADR-B-0735)
