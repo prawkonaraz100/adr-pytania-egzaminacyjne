@@ -1,0 +1,294 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0151..0165",
+  "source": "Dz.U. 2025 poz. 642, sprostowanie poz. 1575",
+  "source_method": "Pierwsze literalne porównanie z polskim OCR urzędowego Dz.U. z numerami stron według nagłówków. Wyciągi cytatów z odpowiednich punktów, bez przypisywania kontroli obrazów PDF. Wzory nalepek 2.3, 6.1, 9A oraz tabela A dla UN 3551 i UN 3552 wymagają niezależnego odczytu obrazu; oficjalny PDF nie był dostępny do kontroli wizualnej.",
+  "status": "first_literal_OCR_comparison_recorded_pending_images_and_second_review",
+  "previous_uncompared": 603,
+  "compared_ocr": 15,
+  "remaining_without_comparison": 588,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 12,
+    "BLOKUJ": 3
+  },
+  "verified": 0,
+  "question_status": "needs_review",
+  "records": [
+    {
+      "id": "ADR-B-0151",
+      "verdict": "BLOKUJ",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 156,
+          "clause": "2.2.2.1",
+          "quote": "są znane jako trujące lub żrące dla ludzi i powodują zagrożenie zdrowia;"
+        }
+      ],
+      "reference_assessment": "Znaczenie gazu trującego wynika z tekstu, ale wzór nalepki 2.3 w 5.2.2.2.2 jest graficzny i z OCR nie można potwierdzić kształtu oraz numeru. Należy sprawdzić obraz wzoru 2.3 w sekcji nalepek (s. 944–948, właściwą stronę ustalić na obrazie).",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Znaczenie gazu trującego wynika z tekstu, ale wzór nalepki 2.3 w 5.2.2.2.2 jest graficzny i z OCR nie można potwierdzić kształtu oraz numeru. Należy sprawdzić obraz wzoru 2.3 w sekcji nalepek (s. 944–948, właściwą stronę ustalić na obrazie).",
+      "explanation_check": "Bez zmiany rekordów; dla wzoru graficznego brak potwierdzenia obrazu.",
+      "fix": "BLOKUJ – nie tworzyć domniemanej poprawki bez obrazu."
+    },
+    {
+      "id": "ADR-B-0152",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 1332,
+          "clause": "8.3.5",
+          "quote": "W czasie manipułowania ładunkiem zabronione jest palenie zarówno w pobliżu, jak też wewnątrz pojazdów."
+        }
+      ],
+      "reference_assessment": "Klucz C poprawny. A i B w starej wersji zaczynały się identycznie od „Dopuścić”, a C wskazywała oczywistą reakcję. Nowe dystraktory uwzględniają zamknięcie opakowań i odległość kilku kroków, wyjaśnienie je omawia.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz C poprawny. A i B w starej wersji zaczynały się identycznie od „Dopuścić”, a C wskazywała oczywistą reakcję. Nowe dystraktory uwzględniają zamknięcie opakowań i odległość kilku kroków, wyjaśnienie je omawia.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0153",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 171,
+          "clause": "2.2.41.1.1",
+          "quote": "Do klasy 4.1 należą następujące grupy: - materiały łatwo zapalne stałe i przedmioty"
+        },
+        {
+          "page": 187,
+          "clause": "2.2.43.1.1",
+          "quote": "Tytuł klasy 4.3 obejmuje materiały, które reagując z wodą wydzielają gazy palne mogące tworzyć z powietrzem mieszaniny wybuchowe, i przedmioty zawierające takie materiały."
+        }
+      ],
+      "reference_assessment": "Klucz A poprawny. Pierwotne C miało wyraźnie odmienną formę i łatwą do odrzucenia klasyfikację gazów. Wyrównano formę trzech dwuczłonowych porównań i dopasowano wyjaśnienie do nowych błędnych opcji.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz A poprawny. Pierwotne C miało wyraźnie odmienną formę i łatwą do odrzucenia klasyfikację gazów. Wyrównano formę trzech dwuczłonowych porównań i dopasowano wyjaśnienie do nowych błędnych opcji.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0154",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 182,
+          "clause": "2.2.42.1.1",
+          "quote": "w zetknięciu z powietrzem, bez dostarczenia energii z zewnątrz, są podatne na samonagrzewanie."
+        }
+      ],
+      "reference_assessment": "Klucz B poprawny. Pytanie i poprawna opcja powtarzały „samonagrzewanie”, a C z „bezpieczny” była przesadnie oczywista. Pytanie dotyczy teraz konsekwencji nagrzewania większej ilości materiału.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz B poprawny. Pytanie i poprawna opcja powtarzały „samonagrzewanie”, a C z „bezpieczny” była przesadnie oczywista. Pytanie dotyczy teraz konsekwencji nagrzewania większej ilości materiału.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0155",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 187,
+          "clause": "2.2.43.1.1",
+          "quote": "Tytuł klasy 4.3 obejmuje materiały, które reagując z wodą wydzielają gazy palne mogące tworzyć z powietrzem mieszaniny wybuchowe, i przedmioty zawierające takie materiały."
+        }
+      ],
+      "reference_assessment": "Klucz C poprawny, lecz pierwotne A i B powielały identyczne dolewanie małej ilości wody. Nowa propozycja różnicuje rozcieńczanie od testowego zwilżania i zawiera wyjaśnienie zagrożenia.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz C poprawny, lecz pierwotne A i B powielały identyczne dolewanie małej ilości wody. Nowa propozycja różnicuje rozcieńczanie od testowego zwilżania i zawiera wyjaśnienie zagrożenia.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0156",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 191,
+          "clause": "2.2.51.1.1",
+          "quote": "Tytuł klasy 5.1 obejmuje materiały, które same nie zawsze są palne, mogą jednak, wskutek wydzielania tlenu, powodować zapalenie lub podtrzymywanie palenia innego materiału"
+        }
+      ],
+      "reference_assessment": "Klucz A prawidłowy, ale poprzednia opcja C o promieniotwórczości klasy 7 nie była wiarygodnym dystraktorem. Nowe błędne odpowiedzi odnoszą się do spalania i dostępności tlenu.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz A prawidłowy, ale poprzednia opcja C o promieniotwórczości klasy 7 nie była wiarygodnym dystraktorem. Nowe błędne odpowiedzi odnoszą się do spalania i dostępności tlenu.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0157",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 191,
+          "clause": "2.2.51.1.1",
+          "quote": "Tytuł klasy 5.1 obejmuje materiały, które same nie zawsze są palne, mogą jednak, wskutek wydzielania tlenu, powodować zapalenie lub podtrzymywanie palenia innego materiału"
+        },
+        {
+          "page": 196,
+          "clause": "2.2.52.1.1",
+          "quote": "Tytuł klasy 5.2 obejmuje nadtlenki organiczne i formulacje nadtlenków organicznych."
+        }
+      ],
+      "reference_assessment": "Klucz B prawidłowy. Pierwotna C myliła klasy z gazami trującymi i próbkami zakaźnymi. Nowe trzy warianty odnoszą się do porównania dwóch grup materiałów.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz B prawidłowy. Pierwotna C myliła klasy z gazami trującymi i próbkami zakaźnymi. Nowe trzy warianty odnoszą się do porównania dwóch grup materiałów.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0158",
+      "verdict": "BLOKUJ",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 214,
+          "clause": "2.2.61.1.1",
+          "quote": "Tytuł klasy 6.1 obejmuje materiały, o których z praktyki wiadomo, lub co do których istnieje domniemanie na podstawie badań na zwierzętach"
+        }
+      ],
+      "reference_assessment": "Z definicji klasy 6.1 klucz C jest prawdopodobny, lecz wzór nalepki 6.1 w 5.2.2.2.2 jest graficzny. Niezależna kontrola obrazu strony ze wzorem 6.1 pozostaje konieczna; nie potwierdzono samej nalepki.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Z definicji klasy 6.1 klucz C jest prawdopodobny, lecz wzór nalepki 6.1 w 5.2.2.2.2 jest graficzny. Niezależna kontrola obrazu strony ze wzorem 6.1 pozostaje konieczna; nie potwierdzono samej nalepki.",
+      "explanation_check": "Bez zmiany rekordów; dla wzoru graficznego brak potwierdzenia obrazu.",
+      "fix": "BLOKUJ – nie tworzyć domniemanej poprawki bez obrazu."
+    },
+    {
+      "id": "ADR-B-0159",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 227,
+          "clause": "2.2.62.1.1",
+          "quote": "Tytuł klasy 6.2 obejmuje materiały zakaźne."
+        },
+        {
+          "page": 214,
+          "clause": "2.2.61.1.1",
+          "quote": "Tytuł klasy 6.1 obejmuje materiały, o których z praktyki wiadomo"
+        }
+      ],
+      "reference_assessment": "Klucz A poprawny. Pierwotne C twierdziło, że oznaczenia 6.1 i 6.2 są kodami tunelowymi, co jest oczywistą podpowiedzią. Zaproponowano błędne klasyfikacje podobnych zagrożeń.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz A poprawny. Pierwotne C twierdziło, że oznaczenia 6.1 i 6.2 są kodami tunelowymi, co jest oczywistą podpowiedzią. Zaproponowano błędne klasyfikacje podobnych zagrożeń.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0160",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 1326,
+          "clause": "8.2.1.4",
+          "quote": "Kierowcy pojazdów przewożących towary niebezpieczne klasy 1, inne niż materiały lub przedmioty należące do podklasy 1.4 grupy zgodności S lub przewożący materiały klasy 7 powinni ukończyć w stosownych przypadkach kurs specjalistyczny"
+        },
+        {
+          "page": 1336,
+          "clause": "8.5 S12",
+          "quote": "liczba całkowita przewożonych sztuk przesyłek zawierających materiały promieniotwórcze nie przekracza 10 w jednostce transportowej, a suma wskaźników transportowych nie przekracza 3 i nie istnieje dodatkowe zagrożenie."
+        }
+      ],
+      "reference_assessment": "Klucz B poprawny z istotnym wyjątkiem S12. Pytanie nie może sugerować, że każda przesyłka klasy 7 wymaga kursu specjalistycznego. Nowa wersja wymaga oceny konkretnego przewozu, uwzględnia S12 w sources i wyjaśnieniu.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz B poprawny z istotnym wyjątkiem S12. Pytanie nie może sugerować, że każda przesyłka klasy 7 wymaga kursu specjalistycznego. Nowa wersja wymaga oceny konkretnego przewozu, uwzględnia S12 w sources i wyjaśnieniu.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0161",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 264,
+          "clause": "2.2.8.1.1",
+          "quote": "Materiały żrące to materiały, które wskutek działania chemicznego powodują nieodwracalne uszkodzenie skóry"
+        }
+      ],
+      "reference_assessment": "Klucz C poprawny, ale oryginalne A i B były wyraźnymi nazwami innych nalepek. Nowa wersja pyta o ryzyko przy wycieku i porównuje podobnie sformułowane zagrożenia. Obraz nalepki klasy 8 nadal zaleca się potwierdzić przy kontroli drugiej.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz C poprawny, ale oryginalne A i B były wyraźnymi nazwami innych nalepek. Nowa wersja pyta o ryzyko przy wycieku i porównuje podobnie sformułowane zagrożenia. Obraz nalepki klasy 8 nadal zaleca się potwierdzić przy kontroli drugiej.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0162",
+      "verdict": "BLOKUJ",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 662,
+          "clause": "3.3 przepis szczególny 401",
+          "quote": "Ogniwa i baterie sodowo-jonowe z elektrolitem organicznym powinny być przewożone jako UN 3551 lub 3552, stosownie do okoliczności."
+        }
+      ],
+      "reference_assessment": "UN 3551/3552 potwierdza polski tekst przepisu szczególnego, lecz wzór nalepki 9A i odpowiednie pozycje tabeli A są graficzne. Nie oznaczać jako poprawne bez sprawdzenia obrazu nalepki 9A oraz wierszy UN 3551 i 3552 tabeli A; uwzględnić sprostowanie Dz.U. 1575.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "UN 3551/3552 potwierdza polski tekst przepisu szczególnego, lecz wzór nalepki 9A i odpowiednie pozycje tabeli A są graficzne. Nie oznaczać jako poprawne bez sprawdzenia obrazu nalepki 9A oraz wierszy UN 3551 i 3552 tabeli A; uwzględnić sprostowanie Dz.U. 1575.",
+      "explanation_check": "Bez zmiany rekordów; dla wzoru graficznego brak potwierdzenia obrazu.",
+      "fix": "BLOKUJ – nie tworzyć domniemanej poprawki bez obrazu."
+    },
+    {
+      "id": "ADR-B-0163",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 975,
+          "clause": "5.4.3.4, instrukcje pisemne",
+          "quote": "Jeżeli jest to właściwe i bezpieczne, zapobiec przedostaniu się uwolnionych materiałów do środowiska wodnego lub kanalizacji"
+        }
+      ],
+      "reference_assessment": "Klucz B prawidłowy i warunkowy. Pierwotne A nakazywało podejście do wycieku, C używało „Zawsze”. W nowej propozycji wszystkie opcje dotyczą osłaniania kratki, a wyjaśnienie omawia oba ryzykowne zachowania.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz B prawidłowy i warunkowy. Pierwotne A nakazywało podejście do wycieku, C używało „Zawsze”. W nowej propozycji wszystkie opcje dotyczą osłaniania kratki, a wyjaśnienie omawia oba ryzykowne zachowania.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0164",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 1332,
+          "clause": "8.3.5",
+          "quote": "Niniejszy zakaz palenia ma również zastosowanie do używania elektronicznych papierosów i podobnych urządzeń."
+        }
+      ],
+      "reference_assessment": "Klucz C poprawny, ale bieżąca podstawa tylko 5.4.3.4 pomija bezpośredni zakaz 8.3.5. Propozycja wskazuje konkretny przepis i sytuację manipulowania ładunkiem, z wyjaśnieniem aktualnych A/B.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz C poprawny, ale bieżąca podstawa tylko 5.4.3.4 pomija bezpośredni zakaz 8.3.5. Propozycja wskazuje konkretny przepis i sytuację manipulowania ładunkiem, z wyjaśnieniem aktualnych A/B.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    },
+    {
+      "id": "ADR-B-0165",
+      "verdict": "POPRAW",
+      "correct_option_preserved": true,
+      "citations": [
+        {
+          "page": 975,
+          "clause": "5.4.3.4, instrukcje pisemne",
+          "quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych;"
+        }
+      ],
+      "reference_assessment": "Klucz A poprawny. Pierwotne B sugerowało pominięcie rodzaju towaru, C zgadywanie numeru UN. W nowej propozycji zachowano zakaz zgadywania danych i sprecyzowano, że przekazuje się możliwie wszystkie dostępne informacje.",
+      "values_check": "Zweryfikowano znaczenie oznaczeń i podanych wartości; dla elementów graficznych BLOKUJ obowiązuje wskazana kontrola obrazu.",
+      "distractors_and_prompt_check": "Klucz A poprawny. Pierwotne B sugerowało pominięcie rodzaju towaru, C zgadywanie numeru UN. W nowej propozycji zachowano zakaz zgadywania danych i sprecyzowano, że przekazuje się możliwie wszystkie dostępne informacje.",
+      "explanation_check": "Przepisano wyjaśnienie do aktualnych dystraktorów, 2–5 zdań, co najmniej 300 znaków; pełny rekord w POPRAWKI-0151-0165.jsonl.",
+      "fix": "Propozycja w POPRAWKI-0151-0165.jsonl, NIE wdrożona do banku."
+    }
+  ]
+}
