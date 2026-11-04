@@ -11,7 +11,7 @@
   "formal_approvals": 0,
   "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0780.md",
   "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
-  "unresolved_literal_comparisons": 723,
+  "unresolved_literal_comparisons": 678,
   "modules": {
     "ADR-B-01": {
       "questions": 54,
@@ -218,18 +218,8 @@
     "questions": 770,
     "learner_exam_instructions": 1
   },
-  "last_literal_comparison_batch": {
-    "id": "4x16-literal-comparison-batch5-0010-0337",
-    "questions": 48,
-    "consistent_in_scope": 32,
-    "requires_correction": 0,
-    "unable_to_confirm": 16,
-    "question_changes": 0,
-    "formal_specialist_approvals": 0,
-    "report": "review/batches/4x16-literal-comparison-batch5-0010-0337.md",
-    "data": "review/batches/4x16-literal-comparison-batch5-0010-0337.json"
-  },
-  "literal_comparison_note": "292 rekordy mają zapisany wynik kontroli celowanej, w tym cztery rekordy 8.3.3 z porównaniem zakresu przepisu do oficjalnego tekstu polskiego; nie oznacza to pełnego porównania wszystkich A/B/C ani akceptacji specjalisty. Pełna recenzja i potwierdzenie w Dz.U. pozostają otwarte.",
+  "last_literal_comparison_batch": "ADR-B-0061–0075 (OCR first pass, 9 OK, 5 POPRAW, 1 BLOKUJ)",
+  "literal_comparison_note": "75 rekordów ma zapisane porównanie OCR polskiego Dz.U.; 0072 wymaga odczytu obrazu tabeli 8.1.4.1. Licznik 678 wynika z przyjętego historycznego sposobu liczenia 753−75; 27 celowanych kontroli stanowi osobną kategorię. Wartość 68 to historyczna suma unikatowych rekordów z wynikiem kontroli celowanej na koniec partii 4, nie aktualna liczba unikatowych porównań.",
   "stage4x18": {
     "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
     "question_count": 609,
@@ -299,13 +289,13 @@
     "note": "Priority list is not exhaustive. Every question remains needs_review until a real specialist approves it; all ADR 2027 sensitivity registers remain relevant."
   },
   "literal_comparison_status_counts": {
-    "official_polish_text_not_retrieved": 723,
+    "official_polish_text_not_retrieved": 678,
     "targeted_source_checked_full_literal_comparison_pending": 27,
-    "records_with_recorded_targeted_comparison_result": 38,
+    "records_with_recorded_targeted_comparison_result": 68,
     "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 0,
     "specialist_reviews_pending": 780,
     "verified": 0,
-    "gazette_pdf_ocr_comparison_recorded": 30
+    "gazette_pdf_ocr_comparison_recorded": 75
   },
   "stage4x19": {
     "purpose": "Reconcile ledger evidence states; counts describe evidence coverage, not legal approval",
