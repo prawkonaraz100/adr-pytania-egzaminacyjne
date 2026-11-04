@@ -31,7 +31,7 @@
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.7",
+            "reference": "ADR 2025, 5.4.1.1.7; 1.1.4.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Dlaczego przy drogowym etapie transportu morskiego nie należy automatycznie usuwać oznakowania zagrożeń z kontenera?",
+        "stem": "Kontener z towarami niebezpiecznymi po rejsie statkiem jedzie dalej ciężarówką w tym samym łańcuchu transportowym. Dlaczego nie należy automatycznie usuwać z niego dużych nalepek ostrzegawczych?",
         "options": {
-          "A": "Bo wymagania dotyczą kolejnych etapów przewozu",
-          "B": "Ponieważ dokument przewozowy może zastąpić nalepki podczas drogi do portu",
-          "C": "Ponieważ oznaczenia IMDG i ADR mają identyczne wymagania w transporcie"
+          "A": "Ponieważ na drodze kontener nadal musi mieć duże nalepki ostrzegawcze",
+          "B": "Ponieważ dokument przewozowy może zastąpić nalepki podczas drogi do odbiorcy",
+          "C": "Ponieważ przepisy IMDG i ADR mają identyczne wymagania dla całej trasy"
         },
         "correct_option": "A",
-        "explanation": "W przewozie łączącym transport morski i drogowy część oznakowania IMDG może być uznana na warunkach określonych w ADR. Nie usuwaj więc nalepek automatycznie po wyładunku ze statku: sprawdź, które oznaczenia muszą pozostać na drogowym odcinku trasy. Dokument przewozowy nie zastępuje wymaganych znaków, a zasady obu systemów nie są identyczne. Podstawa: ADR 1.1.4.2.",
+        "explanation": "Na drogowym odcinku trasy kontener z towarami niebezpiecznymi nadal musi być oznakowany dużymi nalepkami ostrzegawczymi. Jeśli przewóz obejmuje też etap morski, ADR pozwala zostawić nalepki nadane według Kodeksu IMDG, czyli morskich przepisów o towarach niebezpiecznych, gdy nie ma nalepek według ADR. Dokument przewozowy nie zastępuje nalepek, a przepisy IMDG i ADR nie są identyczne. Podstawa: ADR 1.1.4.2.1 (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2",
+            "reference": "ADR 2025, 1.1.4.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -150,7 +150,7 @@
           "C": "Kod A, bo przewozi się kilka towarów"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli jedna jednostka przewozi różne towary z kodami tunelowymi, należy ustalić ograniczenie dla całego ładunku według zasad ADR, uwzględniając kod najbardziej restrykcyjny. Nie wolno wybierać łagodniejszego kodu tylko po to, by uniknąć objazdu, ani zakładać, że wiele towarów automatycznie oznacza kod A. Sprawdź również sposób przewozu i ewentualne wyłączenia. Podstawa: ADR 8.6.3.2–8.6.3.3.",
+        "explanation": "Jeżeli w jednej jednostce transportowej jadą towary z różnymi kodami tunelowymi, dla całego ładunku stosuje się ten kod, który oznacza największe ograniczenia. Nie wolno wybrać łagodniejszego kodu tylko po to, by uniknąć objazdu, a sama liczba różnych towarów nie oznacza kodu A. Towarów przewożonych na zasadach wyłączeń z rozdziału 1.1.3 co do zasady nie bierze się przy tym pod uwagę. Podstawa: ADR 8.6.3.2–8.6.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -184,14 +184,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Co oznacza zapis „(-)” jako kod ograniczeń tunelowych dla danego towaru?",
+        "stem": "Co oznacza znak „(—)” podany w tabeli A zamiast kodu ograniczeń przewozu przez tunele?",
         "options": {
-          "A": "Brak ograniczeń tunelowych ADR wynikających z tego kodu",
-          "B": "Kod „(-)” oznacza zakaz wjazdu do tunelu kategorii E, ale pozwala na przejazd przez pozostałe kategorie.",
-          "C": "Kod „(-)” oznacza, że przed wjazdem do tunelu trzeba uzyskać zgodę jego zarządcy."
+          "A": "Towar nie podlega żadnym ograniczeniom przewozu przez tunele",
+          "B": "Towar nie może wjechać do tunelu kategorii E, ale do pozostałych tak",
+          "C": "Przed wjazdem do każdego tunelu trzeba uzyskać zgodę jego zarządcy"
         },
         "correct_option": "A",
-        "explanation": "Kod tunelowy „(-)” oznacza, że dla tego wpisu ADR nie ustanawia ograniczenia przejazdu przez tunel wynikającego z kodu. Nie jest to zakaz wjazdu do kategorii E ani nakaz uzyskania osobnej zgody zarządcy. Nadal trzeba jednak przestrzegać znaków drogowych i innych ograniczeń obowiązujących na trasie. Przed wjazdem sprawdź oznakowanie konkretnego tunelu. Podstawa: ADR 8.6.3.1.",
+        "explanation": "Znak „(—)” wpisany w kolumnie (15) tabeli A zamiast kodu tunelowego oznacza, że ten towar nie podlega żadnym ograniczeniom przewozu przez tunele według ADR. Nie jest to zakaz wjazdu do tuneli kategorii E ani obowiązek uzyskania zgody zarządcy tunelu. Nadal obowiązują jednak zwykłe znaki drogowe i przepisy ruchu, więc przed wjazdem i tak patrzysz na oznakowanie tunelu. Podstawa: ADR 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -273,7 +273,7 @@
           "C": "Zastąpić dokument drugiej osoby listem przewozowym z jej nazwiskiem"
         },
         "correct_option": "A",
-        "explanation": "Gdy ADR wymaga dokumentu tożsamości ze zdjęciem, każda osoba w załodze musi mieć własny dokument. Dzięki temu podczas kontroli można ustalić, kto rzeczywiście uczestniczy w przewozie. Identyfikator zakładowy bez zdjęcia nie spełnia tego warunku, a dokument kierowcy lub nazwisko na liście przewozowym nie potwierdzają tożsamości pasażera. Podstawa: ADR 1.10.1.4.",
+        "explanation": "ADR wymaga, aby każdy członek załogi pojazdu przewożącego towary niebezpieczne miał przy sobie własny dokument tożsamości ze zdjęciem. Dzięki temu podczas kontroli można ustalić, kto rzeczywiście uczestniczy w przewozie. Karta zakładowa bez zdjęcia nie spełnia tego warunku, a dokument kierowcy ani nazwisko w dokumencie przewozowym nie potwierdzają tożsamości drugiego członka załogi. Podstawa: ADR 1.10.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -310,11 +310,11 @@
         "stem": "Którą informację o odbiorcy trzeba co do zasady zamieścić w dokumencie przewozowym ADR?",
         "options": {
           "A": "Nazwę i adres odbiorcy",
-          "B": "Kod pocztowy miejsca rozładunku zamiast danych odbiorcy",
-          "C": "Dane kontaktowe spedytora obsługującego zlecenie zamiast danych odbiorcy"
+          "B": "Sam numer telefonu odbiorcy",
+          "C": "Nazwę i adres przewoźnika"
         },
         "correct_option": "A",
-        "explanation": "Dokument przewozowy co do zasady musi wskazywać nazwę i adres odbiorcy, aby było jasne, komu przekazuje się niebezpieczny ładunek. Kod pocztowy może obejmować wiele firm i nie zastępuje identyfikacji odbiorcy. Dane spedytora opisują pośrednika, a niekoniecznie osobę odbierającą towar. Przed odjazdem sprawdź wymagane dane oraz wyjątki ADR. Podstawa: ADR 5.4.1.1.1(h).",
+        "explanation": "Dokument ADR musi co do zasady podawać nazwę i adres odbiorcy, ponieważ pozwala to ustalić, komu dostarczyć niebezpieczny towar. Sam numer telefonu nie wskazuje jednoznacznie odbiorcy, a nazwa i adres przewoźnika dotyczą innego uczestnika przewozu. W szczególnym przypadku odbiorców nieznanych przy rozpoczęciu przewozu ADR dopuszcza zapis „Sprzedaż obwoźna” za zgodą właściwych władz. Podstawa: ADR 5.4.1.1.1(h).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -351,11 +351,11 @@
         "stem": "Jakie informacje o opakowanych towarach niebezpiecznych powinny się znaleźć w dokumencie przewozowym ADR?",
         "options": {
           "A": "Masę pojazdu i ładunku",
-          "B": "Numery UN przewożonych towarów bez podawania liczby i rodzaju opakowań",
-          "C": "Liczba i określenie sztuk przesyłek, jeśli występują"
+          "B": "Numer rejestracyjny pojazdu i łączną liczbę palet na naczepie",
+          "C": "Liczbę i określenie sztuk przesyłek, jeśli występują"
         },
         "correct_option": "C",
-        "explanation": "W dokumencie przewozowym trzeba podać liczbę i opis sztuk przesyłki, jeśli towar jest przewożony w opakowaniach. Numer UN identyfikuje rodzaj towaru, ale nie mówi, ile opakowań znajduje się w pojeździe; sama masa pojazdu też tego nie wyjaśnia. Sprawdź więc zarówno opis towaru, jak i liczbę oraz rodzaj sztuk przesyłki. Podstawa: ADR 5.4.1.1.1(e).",
+        "explanation": "Dla towarów w opakowaniach dokument przewozowy powinien podawać liczbę i określenie sztuk przesyłek, jeśli występują, na przykład „jedna skrzynia”. Numer rejestracyjny pojazdu i liczba palet nie zastępują tych informacji, bo na jednej palecie może stać wiele różnych sztuk przesyłek. Sama masa pojazdu i ładunku również nie mówi, ile jest opakowań ani jakie to opakowania. Kod opakowania, taki jak 4G, wolno dopisać tylko jako uzupełnienie słownego określenia. Podstawa: ADR 5.4.1.1.1(e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -391,12 +391,12 @@
       "exact_record_snapshot": {
         "stem": "Czy w standardowym dokumencie ADR podaje się całkowitą ilość przewożonego towaru niebezpiecznego?",
         "options": {
-          "A": "Tak, w odpowiedni sposób według rodzaju towaru",
-          "B": "Nie, jeżeli towary są w sztukach przesyłek",
-          "C": "Liczba palet przewożonych w pojeździe zamiast ilości towaru"
+          "A": "Tak, osobno dla każdego towaru jako objętość albo masę",
+          "B": "Nie, jeżeli towary są przewożone w sztukach przesyłek",
+          "C": "Nie, wystarczy podać liczbę palet załadowanych na pojazd"
         },
         "correct_option": "A",
-        "explanation": "W dokumencie przewozowym trzeba podać całkowitą ilość towaru niebezpiecznego w odpowiedniej dla niego jednostce, ponieważ ta informacja wpływa na ocenę warunków przewozu. Samo policzenie palet nie mówi, ile niebezpiecznej substancji przewozisz. Również umieszczenie towaru w opakowaniach nie usuwa obowiązku podania ilości. Sprawdź dane przed wyjazdem. Podstawa: ADR 5.4.1.1.1(f).",
+        "explanation": "W dokumencie przewozowym trzeba podać całkowitą ilość każdego towaru niebezpiecznego, który ma odrębny numer UN, nazwę lub grupę pakowania. Ilość zapisuje się odpowiednio jako objętość, masę brutto lub masę netto. Obowiązek dotyczy także towarów w opakowaniach, a liczba palet nie mówi, ile niebezpiecznej substancji jest w pojeździe. Podstawa: ADR 5.4.1.1.1(f).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -514,12 +514,12 @@
       "exact_record_snapshot": {
         "stem": "Jaka jest **minimalna** pojemność przenośnej gaśnicy proszkowej wymagana przez ADR 8.1.4.2 dla jednostki transportowej przewożącej towary niebezpieczne zgodnie z 1.1.3.6?",
         "options": {
-          "A": "6 kg — wymagane jako absolutne minimum także przy 1.1.3.6",
-          "B": "2 kg (albo równoważna skuteczność innego odpowiedniego środka gaśniczego)",
-          "C": "Wyłączenie 1.1.3.6 znosi również obowiązek posiadania minimalnej gaśnicy."
+          "A": "Gaśnica przenośna o pojemności co najmniej 6 kg proszku",
+          "B": "Gaśnica przenośna o pojemności co najmniej 2 kg proszku",
+          "C": "Gaśnica przenośna o pojemności co najmniej 4 kg proszku"
         },
         "correct_option": "B",
-        "explanation": "Przy przewozie objętym zwolnieniem ilościowym 1.1.3.6 w pojeździe nadal musi znajdować się wymagana gaśnica. Minimalna pojemność to 2 kg proszku albo odpowiednia równoważna skuteczność innego środka gaśniczego. Gaśnica 6 kg może spełniać wymaganie, ale nie jest wymaganym minimum; brak gaśnicy też nie jest dopuszczalny. Podstawa: ADR 8.1.4.2.",
+        "explanation": "W przewozie zgodnym z wyłączeniem ilościowym 1.1.3.6 nadal trzeba mieć w jednostce transportowej co najmniej jedną przenośną gaśnicę. Jej minimalna pojemność to 2 kg proszku do gaszenia pożarów grup A, B i C albo równoważna pojemność innego odpowiedniego środka gaśniczego. Gaśnica 4 kg lub 6 kg też spełnia ten wymóg, ale taka pojemność nie jest wymaganym minimum według przepisu. Podstawa: ADR 8.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",

@@ -2,15 +2,15 @@
   "scope": "ADR-BASIC-ONLY",
   "batch": "ADR-B-0061..0075",
   "source": "Dz.U. 2025 poz. 642 (+ sprostowanie 1575)",
-  "source_method": "Użytkownik dostarczył OCR polskiego Dz.U.; strona i numer punktu odczytane z OCR. Bez niezależnego sprawdzenia wszystkich skanów PDF. Wartość 8 kg w tabeli 8.1.4.1 pozostaje zablokowana do obrazu.",
-  "status": "first_literal_review_recorded_pending_independent_image_review",
+  "source_method": "Kontrola pierwsza oparta na polskim OCR Dz.U.; następnie niezależna kontrola druga z obrazu Dz.U. s.1324 dla tabeli 8.1.4.1, potwierdzająca 0071/0072. Pozostałe cytaty OCR podlegają zachowaniu z opisanym źródłem.",
+  "status": "second_literal_review_recorded_specialist_approval_pending",
   "previous_uncompared": 693,
   "compared_ocr": 15,
   "remaining_without_comparison": 678,
   "counts": {
-    "OK": 9,
-    "POPRAW": 5,
-    "BLOKUJ": 1
+    "OK": 6,
+    "POPRAW": 9,
+    "BLOKUJ": 0
   },
   "verified": 0,
   "question_status": "needs_review",
@@ -27,7 +27,7 @@
       "correct_answer_assessment": "Klucz C pozostaje bez zmiany.",
       "wrong_answers_assessment": "Punkt i zapis 1.1.4.2.1 są właściwe; A dotyczy wyłączeń ilościowych, B instrukcji pisemnych. Explanation jest zrozumiałe. `sources` pomija dodatkową podstawę 1.1.4.2.1, mimo przywołania w explanation; uzupełniono pełny rekord.",
       "explanation_assessment": "Punkt i zapis 1.1.4.2.1 są właściwe; A dotyczy wyłączeń ilościowych, B instrukcji pisemnych. Explanation jest zrozumiałe. `sources` pomija dodatkową podstawę 1.1.4.2.1, mimo przywołania w explanation; uzupełniono pełny rekord.",
-      "fix": "Pełna linia w POPRAWKI-0061-0075.jsonl"
+      "fix": "Pełny rekord w review/literal-pl/POPRAWKI-KONTROLA2-0061-0075.jsonl (zastosowany w podstawowy/questions.jsonl)."
     },
     {
       "id": "ADR-B-0062",
@@ -41,7 +41,7 @@
       "correct_answer_assessment": "Klucz A pozostaje bez zmiany.",
       "wrong_answers_assessment": "Zgodność oznakowania wymaga sprawdzenia właściwych warunków, nie automatycznego usuwania. B błędnie zastępuje znaki dokumentem, C błędnie utożsamia zasady dwóch systemów. Explanation proste; `sources` uszczegółowiono z całego 1.1.4.2 do 1.1.4.2.1. Cytat obejmuje zdanie otwierające i wymaga przeczytania dalszych warunków (a)–(c).",
       "explanation_assessment": "Zgodność oznakowania wymaga sprawdzenia właściwych warunków, nie automatycznego usuwania. B błędnie zastępuje znaki dokumentem, C błędnie utożsamia zasady dwóch systemów. Explanation proste; `sources` uszczegółowiono z całego 1.1.4.2 do 1.1.4.2.1. Cytat obejmuje zdanie otwierające i wymaga przeczytania dalszych warunków (a)–(c).",
-      "fix": "Pełna linia w POPRAWKI-0061-0075.jsonl"
+      "fix": "Pełny rekord w review/literal-pl/POPRAWKI-KONTROLA2-0061-0075.jsonl (zastosowany w podstawowy/questions.jsonl)."
     },
     {
       "id": "ADR-B-0063",
@@ -62,28 +62,28 @@
       "page": "1338",
       "clause": "8.6.3.2; 8.6.3.3",
       "quote": "Jeżeli w jednostce transportowej znajdują się towary niebezpieczne, dla których wskazano różne kody ograniczeń przewozu przez tunele, to do całego ładunku stosuje się ten ze wskazanych kodów, który odpowiada największym ograniczeniom.",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "A",
       "point_reference_assessment": "Sprawdzono punkt 8.6.3.2; 8.6.3.3",
       "values_assessment": "Najostrzejszy kod jest wskazany literalnie w 8.6.3.2. B wybiera najłagodniejszy, C wymyśla kod A. 8.6.3.3 reguluje wyjątki przy 1.1.3 i oznakowaniu LQ; explanation o wyłączeniach jest adekwatne.",
       "correct_answer_assessment": "Klucz A pozostaje bez zmiany.",
       "wrong_answers_assessment": "Najostrzejszy kod jest wskazany literalnie w 8.6.3.2. B wybiera najłagodniejszy, C wymyśla kod A. 8.6.3.3 reguluje wyjątki przy 1.1.3 i oznakowaniu LQ; explanation o wyłączeniach jest adekwatne.",
       "explanation_assessment": "Najostrzejszy kod jest wskazany literalnie w 8.6.3.2. B wybiera najłagodniejszy, C wymyśla kod A. 8.6.3.3 reguluje wyjątki przy 1.1.3 i oznakowaniu LQ; explanation o wyłączeniach jest adekwatne.",
-      "fix": null
+      "fix": "Pełny rekord w review/literal-pl/POPRAWKI-KONTROLA2-0061-0075.jsonl (zastosowany w podstawowy/questions.jsonl)."
     },
     {
       "id": "ADR-B-0065",
       "page": "1338",
       "clause": "8.6.3.1",
       "quote": "Znak „(—)” podany zamiast tego kodu oznacza, że towar niebezpieczny nie podlega żadnym ograniczeniom przewozu przez tunele.",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "A",
       "point_reference_assessment": "Sprawdzono punkt 8.6.3.1",
       "values_assessment": "Oznaczenie braku kodu w banku zapisano jako (-), w polskim wydruku/OCR widnieje (—). Semantyka A poprawna. B fałszywie zakazuje tunelu E, C wymaga nieistniejącej w tym punkcie zgody. Explanation odróżnia ogólny znak drogowy od kodu ADR.",
       "correct_answer_assessment": "Klucz A pozostaje bez zmiany.",
       "wrong_answers_assessment": "Oznaczenie braku kodu w banku zapisano jako (-), w polskim wydruku/OCR widnieje (—). Semantyka A poprawna. B fałszywie zakazuje tunelu E, C wymaga nieistniejącej w tym punkcie zgody. Explanation odróżnia ogólny znak drogowy od kodu ADR.",
       "explanation_assessment": "Oznaczenie braku kodu w banku zapisano jako (-), w polskim wydruku/OCR widnieje (—). Semantyka A poprawna. B fałszywie zakazuje tunelu E, C wymaga nieistniejącej w tym punkcie zgody. Explanation odróżnia ogólny znak drogowy od kodu ADR.",
-      "fix": null
+      "fix": "Pełny rekord w review/literal-pl/POPRAWKI-KONTROLA2-0061-0075.jsonl (zastosowany w podstawowy/questions.jsonl)."
     },
     {
       "id": "ADR-B-0066",
@@ -104,14 +104,14 @@
       "page": "110",
       "clause": "1.10.1.4",
       "quote": "Każdy członek załogi pojazdu przewożącego towary niebezpieczne powinien posiadać przy sobie dokument z fotografią potwierdzający jego tożsamość.",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "A",
       "point_reference_assessment": "Sprawdzono punkt 1.10.1.4",
       "values_assessment": "Literalnie każdy członek załogi potrzebuje własnego dokumentu ze zdjęciem. B opiera się na dokumencie innej osoby, C na liście przewozowym — oba nie spełniają wymogu. Explanation jest zrozumiałe; określenie drugiego członka jako „pasażera” w objaśnieniu jest potoczne, ale nie zmienia klucza.",
       "correct_answer_assessment": "Klucz A pozostaje bez zmiany.",
       "wrong_answers_assessment": "Literalnie każdy członek załogi potrzebuje własnego dokumentu ze zdjęciem. B opiera się na dokumencie innej osoby, C na liście przewozowym — oba nie spełniają wymogu. Explanation jest zrozumiałe; określenie drugiego członka jako „pasażera” w objaśnieniu jest potoczne, ale nie zmienia klucza.",
       "explanation_assessment": "Literalnie każdy członek załogi potrzebuje własnego dokumentu ze zdjęciem. B opiera się na dokumencie innej osoby, C na liście przewozowym — oba nie spełniają wymogu. Explanation jest zrozumiałe; określenie drugiego członka jako „pasażera” w objaśnieniu jest potoczne, ale nie zmienia klucza.",
-      "fix": null
+      "fix": "Pełny rekord w review/literal-pl/POPRAWKI-KONTROLA2-0061-0075.jsonl (zastosowany w podstawowy/questions.jsonl)."
     },
     {
       "id": "ADR-B-0068",
@@ -125,7 +125,7 @@
       "correct_answer_assessment": "Klucz A pozostaje bez zmiany.",
       "wrong_answers_assessment": "Punkt i para danych A prawidłowe; B i C były łatwe do odrzucenia dzięki dopiskom „zamiast”. Nowe B to sam telefon odbiorcy, C dane przewoźnika — oba niewystarczające. Explanation uzupełniono o literalny wyjątek „Sprzedaż obwoźna” i zgodę właściwych władz.",
       "explanation_assessment": "Punkt i para danych A prawidłowe; B i C były łatwe do odrzucenia dzięki dopiskom „zamiast”. Nowe B to sam telefon odbiorcy, C dane przewoźnika — oba niewystarczające. Explanation uzupełniono o literalny wyjątek „Sprzedaż obwoźna” i zgodę właściwych władz.",
-      "fix": "Pełna linia w POPRAWKI-0061-0075.jsonl"
+      "fix": "Pełny rekord w review/literal-pl/POPRAWKI-KONTROLA2-0061-0075.jsonl (zastosowany w podstawowy/questions.jsonl)."
     },
     {
       "id": "ADR-B-0069",
@@ -139,27 +139,27 @@
       "correct_answer_assessment": "Klucz C pozostaje bez zmiany.",
       "wrong_answers_assessment": "Prawidłowa jest C. A podaje tylko masę pojazdu/ładunku, B pierwotnie zawierało samowykluczający dopisek o braku liczby i rodzaju opakowań. Nowe B (numer rejestracyjny i liczba palet) jest jednoznacznie inną informacją. Explanation uściślono zgodnie z drugim zdaniem przepisu.",
       "explanation_assessment": "Prawidłowa jest C. A podaje tylko masę pojazdu/ładunku, B pierwotnie zawierało samowykluczający dopisek o braku liczby i rodzaju opakowań. Nowe B (numer rejestracyjny i liczba palet) jest jednoznacznie inną informacją. Explanation uściślono zgodnie z drugim zdaniem przepisu.",
-      "fix": "Pełna linia w POPRAWKI-0061-0075.jsonl"
+      "fix": "Pełny rekord w review/literal-pl/POPRAWKI-KONTROLA2-0061-0075.jsonl (zastosowany w podstawowy/questions.jsonl)."
     },
     {
       "id": "ADR-B-0070",
       "page": "962",
       "clause": "5.4.1.1.1(f)",
       "quote": "całkowitą ilość każdego z towarów niebezpiecznych mającego odrębny numer UN, odrębną prawidłową nazwę przewozową lub, jeżeli została przypisana, odrębną grupę pakowania (odpowiednio jako objętość, masę brutto lub masę netto);",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "A",
       "point_reference_assessment": "Sprawdzono punkt 5.4.1.1.1(f)",
       "values_assessment": "Ilość trzeba określić odpowiednio dla każdego opisu, z uwzględnieniem jednostek. B błędnie zwalnia sztuki przesyłek, C utożsamia liczbę palet z ilością materiału. Explanation upraszcza wymagania bez zmiany ich sensu.",
       "correct_answer_assessment": "Klucz A pozostaje bez zmiany.",
       "wrong_answers_assessment": "Ilość trzeba określić odpowiednio dla każdego opisu, z uwzględnieniem jednostek. B błędnie zwalnia sztuki przesyłek, C utożsamia liczbę palet z ilością materiału. Explanation upraszcza wymagania bez zmiany ich sensu.",
       "explanation_assessment": "Ilość trzeba określić odpowiednio dla każdego opisu, z uwzględnieniem jednostek. B błędnie zwalnia sztuki przesyłek, C utożsamia liczbę palet z ilością materiału. Explanation upraszcza wymagania bez zmiany ich sensu.",
-      "fix": null
+      "fix": "Pełny rekord w review/literal-pl/POPRAWKI-KONTROLA2-0061-0075.jsonl (zastosowany w podstawowy/questions.jsonl)."
     },
     {
       "id": "ADR-B-0071",
       "page": "1324",
       "clause": "8.1.4.1 (tabela)",
-      "quote": "<3,5 tony 4 kg 2 kg 2 kg",
+      "quote": "≤ 3,5 tony | 2 | 4 kg | 2 kg | 2 kg",
       "verdict": "OK",
       "key": "B",
       "point_reference_assessment": "Sprawdzono punkt 8.1.4.1 (tabela)",
@@ -173,15 +173,15 @@
       "id": "ADR-B-0072",
       "page": "1324",
       "clause": "8.1.4.1 (tabela)",
-      "quote": "Pojemności dotyczą proszku gaśniczego (lub równoważnej pojemności innych odpowiednich środków gaśniczych).",
-      "verdict": "BLOKUJ",
+      "quote": "> 3,5 tony ≤7,5 tony | 2 | 8 kg | 2 kg | 6 kg",
+      "verdict": "OK",
       "key": "A",
       "point_reference_assessment": "Sprawdzono punkt 8.1.4.1 (tabela)",
-      "values_assessment": "Z banku wynika 8 kg dla DMC 6 t, ale w dostarczonym OCR wartości w środkowym wierszu tabeli są niewidoczne. A nie można tu niezależnie zacytować liczbowo z polskiego OCR, a więc nie stwierdzam literalnej zgodności liczby. B 4 kg i C 12 kg odróżniają pozostałe przedziały. Do zdjęcia blokady potrzebny odczyt obrazu strony 1324, a nie domysł.",
+      "values_assessment": "Tabela 8.1.4.1, obraz Dz.U. s.1324: dla DMC > 3,5 t do 7,5 t minimalna łączna pojemność wynosi 8 kg. Klucz A poprawny, B 4 kg i C 12 kg nie są minimum dla tego przedziału; BLOKUJ zdjęto po kontroli obrazu.",
       "correct_answer_assessment": "Klucz A pozostaje bez zmiany.",
-      "wrong_answers_assessment": "Z banku wynika 8 kg dla DMC 6 t, ale w dostarczonym OCR wartości w środkowym wierszu tabeli są niewidoczne. A nie można tu niezależnie zacytować liczbowo z polskiego OCR, a więc nie stwierdzam literalnej zgodności liczby. B 4 kg i C 12 kg odróżniają pozostałe przedziały. Do zdjęcia blokady potrzebny odczyt obrazu strony 1324, a nie domysł.",
-      "explanation_assessment": "Z banku wynika 8 kg dla DMC 6 t, ale w dostarczonym OCR wartości w środkowym wierszu tabeli są niewidoczne. A nie można tu niezależnie zacytować liczbowo z polskiego OCR, a więc nie stwierdzam literalnej zgodności liczby. B 4 kg i C 12 kg odróżniają pozostałe przedziały. Do zdjęcia blokady potrzebny odczyt obrazu strony 1324, a nie domysł.",
-      "fix": "Potwierdzić wartości w obrazie tabeli Dz.U. s. 1324"
+      "wrong_answers_assessment": "Tabela 8.1.4.1, obraz Dz.U. s.1324: dla DMC > 3,5 t do 7,5 t minimalna łączna pojemność wynosi 8 kg. Klucz A poprawny, B 4 kg i C 12 kg nie są minimum dla tego przedziału; BLOKUJ zdjęto po kontroli obrazu.",
+      "explanation_assessment": "Tabela 8.1.4.1, obraz Dz.U. s.1324: dla DMC > 3,5 t do 7,5 t minimalna łączna pojemność wynosi 8 kg. Klucz A poprawny, B 4 kg i C 12 kg nie są minimum dla tego przedziału; BLOKUJ zdjęto po kontroli obrazu.",
+      "fix": null
     },
     {
       "id": "ADR-B-0073",
@@ -195,7 +195,7 @@
       "correct_answer_assessment": "Klucz B pozostaje bez zmiany.",
       "wrong_answers_assessment": "Minimum 2 kg jest dosłowne. Dotychczasowe A i C same zdradzały, że są nieprawdziwe. Wyrównano odpowiedzi do trzech pojemności 6/2/4 kg, z tym samym formatem i bez sugestii w opcjach. Wyjaśnienie podkreśla, że większa gaśnica spełnia wymóg, ale nie jest minimalną wymaganą pojemnością.",
       "explanation_assessment": "Minimum 2 kg jest dosłowne. Dotychczasowe A i C same zdradzały, że są nieprawdziwe. Wyrównano odpowiedzi do trzech pojemności 6/2/4 kg, z tym samym formatem i bez sugestii w opcjach. Wyjaśnienie podkreśla, że większa gaśnica spełnia wymóg, ale nie jest minimalną wymaganą pojemnością.",
-      "fix": "Pełna linia w POPRAWKI-0061-0075.jsonl"
+      "fix": "Pełny rekord w review/literal-pl/POPRAWKI-KONTROLA2-0061-0075.jsonl (zastosowany w podstawowy/questions.jsonl)."
     },
     {
       "id": "ADR-B-0074",
@@ -215,7 +215,7 @@
       "id": "ADR-B-0075",
       "page": "1325",
       "clause": "8.1.5.2",
-      "quote": "kamizelka ostrzegawcza (np. określona w normie EN ISO 20471);",
+      "quote": "dla każdego członka załogi pojazdu – kamizelka ostrzegawcza (np. określona w normie EN ISO 20471);",
       "verdict": "OK",
       "key": "B",
       "point_reference_assessment": "Sprawdzono punkt 8.1.5.2",
