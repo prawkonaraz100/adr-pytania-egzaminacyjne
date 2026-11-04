@@ -1,27 +1,22 @@
-"""Temporary official Dz.U. page-header source probe; remove before merge."""
-import io, re, sys, subprocess, unittest, urllib.request, hashlib
-URLS={n:f"https://eli.gov.pl/api/acts/DU/2025/642/text/O/D20250642-{n:02d}.pdf" for n in (3,38,53,54)}
-CLAUSES=("1.4.2.3.2","8.4.1","5.2.1.1","5.2.2.1.1","5.3.2.2.1","5.3.2.2.2","5.3.2.3.1","5.4.3.4")
+"""Temporary text probe on Polish ADR 2025 volume II; remove before merge."""
+import io, re, subprocess, sys, unittest, urllib.request
+URL="https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
+CLAUSES=("5.2.1.1","5.2.2.1.1","5.3.2.2.1","5.3.2.2.2","5.3.2.3.1","5.3.2.3.2","8.4.1")
 class Probe(unittest.TestCase):
- def test_official_pdf_clauses(self):
-  try: from pypdf import PdfReader
+ def test_extract_clauses(self):
+  try:from pypdf import PdfReader
   except ImportError:
-   r=subprocess.run([sys.executable,"-m","pip","install","-q","pypdf"],capture_output=True,text=True,timeout=80)
-   if r.returncode:print("PAGEPROBE_PIP_FAIL",r.stderr[-200:]);return
+   r=subprocess.run([sys.executable,"-m","pip","install","-q","pypdf"],capture_output=True,text=True,timeout=90)
+   if r.returncode:print("SOURCE13_PIPFAIL",r.stderr[-300:]);return
    from pypdf import PdfReader
-  for n,url in URLS.items():
-   try:
-    with urllib.request.urlopen(url, timeout=25) as r:
-     raw=r.read()
-     print("PAGEPROBE_DOWNLOAD",n,"bytes",len(raw),"sha",hashlib.sha256(raw).hexdigest()[:16],"contentlength",r.headers.get("content-length"))
-    if not raw.startswith(b"%PDF"):print("PAGEPROBE_NOTPDF",n);continue
-    reader=PdfReader(io.BytesIO(raw));print("PAGEPROBE_PDF",n,"pages",len(reader.pages),"FIRST"," ".join((reader.pages[0].extract_text() or "")[:250].split()),"LAST"," ".join((reader.pages[-1].extract_text() or "")[:250].split()))
-    for idx,p in enumerate(reader.pages):
-     txt=p.extract_text() or ""
-     found=[c for c in CLAUSES if re.search(r"(?m)^"+re.escape(c)+r"\s",txt)]
-     if found:
-      head=" ".join(txt[:240].split())
-      for c in found:
-       at=re.search(r"(?m)^"+re.escape(c)+r"\s",txt)
-       print("PAGEPROBE_CLAUSE",n,idx,c,"HEAD",head,"SNIP"," ".join(txt[at.start():at.start()+1000].split())[:820])
-   except Exception as exc:print("PAGEPROBE_ERROR",n,type(exc).__name__,str(exc)[:220])
+  with urllib.request.urlopen(URL,timeout=30) as resp: pdf=resp.read()
+  reader=PdfReader(io.BytesIO(pdf))
+  print("SOURCE13_VOLUMEII",len(reader.pages))
+  for idx in [241,242,243,244,245,246,247,248,249,259,260,261,262,263,639,640,641,642,643]:
+   if idx>=len(reader.pages):continue
+   s=reader.pages[idx].extract_text(extraction_mode="layout") or ""
+   head=" ".join(s[:130].split());tail=" ".join(s[-95:].split())
+   print("SOURCE13_PAGE",idx,"HEAD",head,"TAIL",tail)
+   for clause in CLAUSES:
+    match=re.search(r"(?m)^\s*"+re.escape(clause)+r"\s",s)
+    if match:print("SOURCE13_CLAUSE",idx,clause,"QUOTE"," ".join(s[match.start():match.start()+1150].split())[:950])
