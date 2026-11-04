@@ -42,10 +42,10 @@ class Batch10ProposalTests(unittest.TestCase):
                              and list(lengths.values()).count(longest) == 1, ident)
             explanation = proposal["explanation"].strip()
             self.assertGreaterEqual(len(explanation), 300)
-            sentences = re.split(r"(?<=[.!?])\\s+", explanation)
+            sentences = re.split(r"(?<=[.!?])\s+", explanation)
             self.assertTrue(2 <= len(sentences) <= 5, ident)
             self.assertTrue(all(len(sentence.split()) <= 35 for sentence in sentences), ident)
-            self.assertRegex(explanation, r"Podstawa: ADR .+\\.$")
+            self.assertRegex(explanation, r"Podstawa: ADR .+\.$")
             self.assertTrue(proposal["sources"])
             self.assertTrue(all(source["code"] == "ADR-2025-PL" or source["code"] == "M364"
                                 for source in proposal["sources"]))
