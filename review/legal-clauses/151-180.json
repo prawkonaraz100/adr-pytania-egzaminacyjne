@@ -36,16 +36,16 @@
         "module_id": "ADR-B-02",
         "stem": "Na przesyłce znajduje się nalepka 2.3. Jakiego podstawowego zagrożenia należy się spodziewać?",
         "options": {
-          "A": "Gaz niepalny klasy 2.2, bez oceny jego działania toksycznego",
-          "B": "Toksyczne działanie gazu, szczególnie przy jego wdychaniu",
-          "C": "Żrąca ciecz klasy 8, mimo symbolu wskazującego na gaz"
+          "A": "Gaz niepalny i nietrujący, który może wypierać tlen z powietrza",
+          "B": "Gaz trujący, który szkodzi zdrowiu, zwłaszcza gdy się go wdycha",
+          "C": "Gaz palny, który z powietrzem tworzy mieszaninę łatwo zapalną"
         },
         "correct_option": "B",
-        "explanation": "Nalepka 2.3 ostrzega przed gazem trującym, który może spowodować ciężkie zatrucie, zwłaszcza po wdychaniu. Nie oznacza gazu niepalnego klasy 2.2 ani cieczy żrącej klasy 8 — to inne zagrożenia i inne oznaczenia. Traktuj taką nalepkę poważnie i nie zbliżaj się do uwolnionego gazu. Podstawa: ADR 5.2.2.2.2.",
+        "explanation": "Nalepka wzoru nr 2.3 ma białe tło, czarną czaszkę ze skrzyżowanymi piszczelami i cyfrę 2 w dolnym rogu. Oznacza gaz trujący, czyli gaz znany jako trujący lub żrący dla ludzi i groźny dla zdrowia. Najgroźniejsze jest wdychanie takiego gazu, dlatego instrukcje pisemne zalecają przy nim maskę ucieczkową. Gaz niepalny i nietrujący ma zieloną nalepkę 2.2, a gaz palny czerwoną nalepkę 2.1. Podstawa: ADR 5.2.2.2.2 (wzór nr 2.3), 2.2.2.1.5 i 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.2.2, wzór nr 2.3; 2.2.2",
+            "reference": "ADR 2025, 5.2.2.2.2, wzór nr 2.3; 2.2.2.1.5; 5.4.3.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -81,18 +81,18 @@
       "question_snapshot": {
         "id": "ADR-B-0152",
         "module_id": "ADR-B-02",
-        "stem": "Podczas przeładunku cieczy zapalnej klasy 3 ktoś chce zapalić papierosa obok pojazdu. Jaka jest prawidłowa reakcja?",
+        "stem": "Podczas przeładunku beczek z cieczą zapalną klasy 3 pracownik chce zapalić papierosa obok pojazdu. Co powinien zrobić kierowca?",
         "options": {
-          "A": "Dopuścić palenie, jeżeli ciecz jest w szczelnej beczce",
-          "B": "Dopuścić palenie, gdy na pojeździe jest przynajmniej jedna gaśnica",
-          "C": "Przerwać palenie: źródło zapłonu może zapalić palne pary"
+          "A": "Pozwolić na palenie, jeżeli ładowane beczki są szczelnie zamknięte",
+          "B": "Zabronić palenia w kabinie i ładowni, ale pozwolić na nie obok pojazdu",
+          "C": "Zabronić palenia w pojeździe i w jego pobliżu przez cały przeładunek"
         },
         "correct_option": "C",
-        "explanation": "Podczas przeładunku cieczy zapalnej nawet niewielka ilość uwolnionych par może zapalić się od papierosa. Dlatego trzeba natychmiast przerwać palenie i usunąć źródło zapłonu. Szczelna beczka nie daje gwarancji, że nie ma oparów, a posiadanie gaśnicy nie pozwala łamać zakazu palenia. Kierowca powinien zadbać o bezpieczne warunki prac przy pojeździe. Podstawa: ADR 8.3.5.",
+        "explanation": "Podczas załadunku, rozładunku i przeładunku towarów niebezpiecznych nie wolno palić ani w pojeździe, ani w jego pobliżu. Przy cieczy zapalnej klasy 3 papieros może zapalić pary, które wydostają się nawet przy drobnej nieszczelności. Szczelne zamknięcie beczek nie znosi tego zakazu. Pozwolenie na palenie obok pojazdu też jest błędem, bo zakaz obejmuje także jego pobliże. Podstawa: ADR 8.3.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.3; 8.3.5",
+            "reference": "ADR 2025, 8.3.5",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -130,12 +130,12 @@
         "module_id": "ADR-B-02",
         "stem": "Jakie rozróżnienie między klasą 4.1 a 4.3 jest prawidłowe?",
         "options": {
-          "A": "4.1 obejmuje między innymi stałe zapalne, a 4.3 materiały wydzielające palny gaz w kontakcie z wodą",
-          "B": "Klasa 4.1 oraz 4.3 opisują te same stałe materiały zapalne, ale mają różne limity pakowania",
-          "C": "Klasa 4.3 dotyczy gazów pod ciśnieniem, a nie materiałów reagujących z wodą"
+          "A": "4.1: między innymi zapalne materiały stałe; 4.3: materiały wydzielające gaz palny z wodą",
+          "B": "4.1: materiały wydzielające gaz palny z wodą; 4.3: materiały samoreaktywne i polimeryzujące",
+          "C": "4.1: materiały samonagrzewające się na powietrzu; 4.3: gazy sprężone w butlach"
         },
         "correct_option": "A",
-        "explanation": "Klasa 4.1 obejmuje między innymi łatwo zapalne materiały stałe, natomiast klasa 4.3 dotyczy materiałów wydzielających palny gaz w reakcji z wodą. To nie są dwie nazwy tego samego zagrożenia, a klasa 4.3 nie oznacza zwykłego gazu pod ciśnieniem. Sprawdź klasę na dokumentach, zanim podejmiesz działania przy rozlewie. Podstawa: ADR 2.2.41 i 2.2.43.",
+        "explanation": "Klasa 4.1 obejmuje między innymi materiały zapalne stałe, a także materiały samoreaktywne i polimeryzujące. Klasa 4.3 obejmuje materiały, które w zetknięciu z wodą wydzielają gazy palne, mogące tworzyć z powietrzem mieszaninę wybuchową. Zamiana tych opisów miejscami nie jest więc poprawna. Samonagrzewanie na powietrzu to cecha klasy 4.2, a gazy sprężone należą do klasy 2. Podstawa: ADR 2.2.41.1.1 i 2.2.43.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -175,14 +175,14 @@
       "question_snapshot": {
         "id": "ADR-B-0154",
         "module_id": "ADR-B-02",
-        "stem": "Dlaczego materiał samonagrzewający się z klasy 4.2 wymaga zachowania ostrożności podczas przewozu?",
+        "stem": "Przewozisz towar klasy 4.2 zaklasyfikowany jako materiał samonagrzewający się. Jakie zagrożenie z nim związane opisuje ADR?",
         "options": {
-          "A": "Wydziela palny gaz po kontakcie z wodą, podobnie jak materiał klasy 4.3",
-          "B": "Może się nagrzewać samoczynnie i zapalić nawet bez otwartego płomienia",
-          "C": "Jest bezpieczny, dopóki nie zetknie się z płomieniem"
+          "A": "Może wydzielić gaz palny dopiero wtedy, gdy zmoczy go woda",
+          "B": "W dużej ilości może po czasie zapalić się sam, bez płomienia",
+          "C": "Zapala się dopiero od iskry albo otwartego płomienia w pobliżu"
         },
         "correct_option": "B",
-        "explanation": "Materiał klasy 4.2 może nagrzewać się samoczynnie, bez płomienia i bez zewnętrznego podgrzewania. Jeśli ciepło nie może się rozproszyć, temperatura może dalej rosnąć i doprowadzić do zapalenia. To inne zagrożenie niż wydzielanie palnego gazu po kontakcie z wodą w klasie 4.3; materiał nie staje się też bezpieczny tylko dlatego, że nie dotyka go płomień. Podstawa: ADR 2.2.42.1.1.",
+        "explanation": "Materiały samonagrzewające się w zetknięciu z powietrzem same się nagrzewają, bez dostarczania energii z zewnątrz. ADR wyjaśnia, że mogą się zapalić tylko w dużych ilościach, liczonych w kilogramach, i po długim czasie, nawet po godzinach lub dniach. Dlatego do zapłonu nie potrzeba iskry ani płomienia. Wydzielanie gazu palnego w zetknięciu z wodą to cecha klasy 4.3. Podstawa: ADR 2.2.42.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -222,18 +222,18 @@
       "question_snapshot": {
         "id": "ADR-B-0155",
         "module_id": "ADR-B-02",
-        "stem": "Po rozszczelnieniu opakowania klasy 4.3 świadek proponuje polanie wycieku wodą. Jak powinien zareagować kierowca?",
+        "stem": "Z uszkodzonego opakowania wysypał się materiał klasy 4.3. Świadek proponuje użyć wody. Co zalecają instrukcje pisemne?",
         "options": {
-          "A": "Polać niewielką ilością wody w celu rozcieńczenia wycieku",
-          "B": "Sprawdzić reakcję, dolewając niewielką ilość wody ręcznie do wycieku",
-          "C": "Unikać polewania wodą i sprawdzić instrukcje oraz zagrożenia towaru"
+          "A": "Spłukać wysypany materiał dużą ilością wody, żeby szybko go rozcieńczyć",
+          "B": "Zwilżyć wodą niewielką część materiału, żeby sprawdzić, jak reaguje",
+          "C": "Nie używać wody i utrzymywać uwolniony materiał suchy, pod przykryciem"
         },
         "correct_option": "C",
-        "explanation": "Materiały klasy 4.3 mogą reagować z wodą i wydzielać palny gaz, dlatego dolanie wody do wycieku może zwiększyć zagrożenie zamiast je zmniejszyć. Nie próbuj sprawdzać reakcji małą ilością wody ani rozcieńczać substancji na własną rękę. Zabezpiecz ludzi, zachowaj bezpieczną odległość i postępuj zgodnie z instrukcjami dla danego towaru. Podstawa: ADR 2.2.43 i 5.4.3.4.",
+        "explanation": "Materiały klasy 4.3 w zetknięciu z wodą wydzielają gazy palne, które z powietrzem mogą tworzyć mieszaninę wybuchową. Dlatego instrukcje pisemne zalecają utrzymywanie uwolnionego materiału w stanie suchym, pod przykryciem. Spłukiwanie dużą ilością wody nie usuwa zagrożenia, tylko wywołuje reakcję. Zwilżenie małej części na próbę też jest niebezpieczne, bo powstały gaz zapala się od zwykłych źródeł zapłonu. Podstawa: ADR 2.2.43.1.1, 2.2.43.1.3 i 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.43.1.1; 5.4.3.4",
+            "reference": "ADR 2025, 2.2.43.1.1; 2.2.43.1.3; 5.4.3.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -269,14 +269,14 @@
       "question_snapshot": {
         "id": "ADR-B-0156",
         "module_id": "ADR-B-02",
-        "stem": "Czy materiał klasy 5.1 może zwiększać intensywność pożaru innego materiału?",
+        "stem": "Jak obecność materiału klasy 5.1 może wpłynąć na pożar innych materiałów podczas przewozu?",
         "options": {
-          "A": "Tak, dzięki właściwościom utleniającym może nasilać spalanie",
-          "B": "Nie, klasa 5.1 oznacza materiały obojętne wobec pożaru",
-          "C": "Klasa 5.1 oznacza materiały promieniotwórcze, które wymagają osłon"
+          "A": "Może wywołać lub podtrzymać spalanie innych materiałów, bo wydziela tlen",
+          "B": "Może powstrzymać spalanie innych materiałów, bo pochłania tlen z otoczenia",
+          "C": "Nie wpływa na pożar innych materiałów, bo sam zwykle nie jest palny"
         },
         "correct_option": "A",
-        "explanation": "Materiały klasy 5.1 są utleniaczami: mogą dostarczać tlenu lub w inny sposób nasilać spalanie, przez co pożar innego materiału może stać się intensywniejszy. Nie są obojętne wobec ognia, więc odpowiedź B jest błędna. Promieniotwórczość to zagrożenie klasy 7, a nie 5.1. Przy załadunku i w razie pożaru uwzględnij właściwości utleniające towaru. Podstawa: ADR 2.2.51.1.1.",
+        "explanation": "Materiały klasy 5.1 to materiały utleniające. Same nie zawsze są palne, ale wydzielają tlen, więc mogą spowodować zapalenie innego materiału albo podtrzymywać jego palenie. Dlatego to, że utleniacz sam się nie pali, nie oznacza, że jest obojętny dla pożaru. Utleniacz nie pochłania tlenu, tylko go dostarcza, przez co ogień może być silniejszy. Podstawa: ADR 2.2.51.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -318,16 +318,16 @@
         "module_id": "ADR-B-02",
         "stem": "Która odpowiedź właściwie rozróżnia klasy 5.1 i 5.2?",
         "options": {
-          "A": "Obie grupy opisują utleniacze, różniące się głównie limitami",
-          "B": "Klasa 5.1 to utleniacze, a 5.2 to nadtlenki organiczne z odrębnymi zagrożeniami",
-          "C": "Klasa 5.1 dotyczy gazów trujących, a 5.2 zakaźnych próbek przewożonych do badań laboratoryjnych"
+          "A": "5.1: nadtlenki organiczne; 5.2: pozostałe materiały utleniające nieorganiczne",
+          "B": "5.1: materiały utleniające; 5.2: nadtlenki organiczne i ich formulacje",
+          "C": "5.1: materiały samonagrzewające się; 5.2: materiały reagujące z wodą"
         },
         "correct_option": "B",
-        "explanation": "Klasa 5.1 obejmuje materiały utleniające, które mogą nasilać pożar, a klasa 5.2 — nadtlenki organiczne, które mają odrębne właściwości i zagrożenia. To dwie różne klasy ADR, a nie dwa sposoby opisywania tego samego materiału. Gazy trujące i materiały zakaźne należą do innych klas, więc odpowiedź C miesza zupełnie inne zagrożenia. Podstawa: ADR 2.2.51 i 2.2.52.",
+        "explanation": "Klasa 5.1 obejmuje materiały utleniające, które same nie zawsze są palne, ale wydzielając tlen mogą wywołać lub podtrzymać palenie innego materiału. Klasa 5.2 obejmuje nadtlenki organiczne i ich formulacje, z których część wymaga kontrolowania temperatury podczas przewozu. Nadtlenki organiczne nie należą więc do klasy 5.1. Materiały samonagrzewające się należą do klasy 4.2, a reagujące z wodą do klasy 4.3. Podstawa: ADR 2.2.51.1.1, 2.2.52.1.1 i 2.2.52.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.51; 2.2.52",
+            "reference": "ADR 2025, 2.2.51.1.1; 2.2.52.1.1; 2.2.52.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -363,18 +363,18 @@
       "question_snapshot": {
         "id": "ADR-B-0158",
         "module_id": "ADR-B-02",
-        "stem": "Co należy rozpoznać po nalepce ostrzegawczej 6.1?",
+        "stem": "Na sztuce przesyłki jest nalepka wzoru nr 6.1. Przed czym ona ostrzega?",
         "options": {
-          "A": "Zagrożenie zakaźne klasy 6.2, wymagające ostrożności biologicznej",
-          "B": "Działanie żrące klasy 8, związane z uszkodzeniem skóry",
-          "C": "Materiał trujący z klasy 6.1, mogący szkodzić np. przy wdychaniu"
+          "A": "Przed materiałem zakaźnym, który może zawierać drobnoustroje chorobotwórcze",
+          "B": "Przed materiałem żrącym, który przy kontakcie trwale uszkadza skórę",
+          "C": "Przed materiałem trującym, szkodliwym przy wdychaniu lub połknięciu"
         },
         "correct_option": "C",
-        "explanation": "Nalepka 6.1 informuje, że materiał jest trujący i może zaszkodzić człowiekowi między innymi przez wdychanie albo kontakt. Nie oznacza zagrożenia zakaźnego klasy 6.2 ani żrącego klasy 8; te klasy wymagają rozpoznania innych właściwości. Kierowca powinien odczytać numer nalepki i unikać kontaktu z nieznaną substancją przy wycieku. Podstawa: ADR 5.2.2.2.2 i 2.2.61.",
+        "explanation": "Nalepka wzoru nr 6.1 ma białe tło, czarną czaszkę i skrzyżowane kości oraz cyfrę 6 w dolnym rogu. Ostrzega przed materiałem trującym, który już w małej dawce może zaszkodzić zdrowiu lub zabić człowieka po wdychaniu, połknięciu albo przeniknięciu przez skórę. Materiały zakaźne oznacza nalepka 6.2 z trzema półksiężycami, a materiały żrące nalepka klasy 8. Podstawa: ADR 5.2.2.2.2 (wzór nr 6.1) i 2.2.61.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.2.2 wzór nr 6.1; 2.2.61.1.1",
+            "reference": "ADR 2025, 5.2.2.2.2, wzór nr 6.1; 2.2.61.1.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -412,16 +412,16 @@
         "module_id": "ADR-B-02",
         "stem": "Jaka różnica między klasą 6.2 a 6.1 jest prawidłowa?",
         "options": {
-          "A": "Klasa 6.2 dotyczy materiałów zakaźnych, a 6.1 materiałów trujących",
-          "B": "Klasa 6.2 obejmuje gazy niepalne klasy 2.2, przewożone w butlach",
-          "C": "Klasy 6.1 i 6.2 są kodami tunelowymi, a nie odrębnymi klasami zagrożeń"
+          "A": "6.2: materiały zakaźne zawierające patogeny; 6.1: materiały trujące",
+          "B": "6.2: materiały trujące; 6.1: materiały zakaźne zawierające patogeny",
+          "C": "6.2: materiały trujące w postaci gazów; 6.1: trujące ciecze i ciała stałe"
         },
         "correct_option": "A",
-        "explanation": "Klasa 6.2 obejmuje materiały zakaźne, które mogą zawierać czynniki wywołujące choroby; klasa 6.1 dotyczy materiałów trujących. To dwa różne rodzaje zagrożenia, dlatego nie wolno zamieniać tych oznaczeń przy przygotowywaniu przesyłki. Gazy niepalne należą do klasy 2.2, a kody tunelowe opisują ograniczenia trasy, nie klasę towaru. Podstawa: ADR 2.2.62 i 2.2.61.",
+        "explanation": "Klasa 6.2 obejmuje materiały zakaźne, czyli takie, o których wiadomo lub można podejrzewać, że zawierają patogeny, na przykład bakterie lub wirusy wywołujące choroby. Klasa 6.1 obejmuje materiały trujące, które w małych dawkach mogą zaszkodzić zdrowiu lub zabić po wdychaniu, przeniknięciu przez skórę albo połknięciu. Dlatego zamiana tych klas miejscami jest błędna. Gazy trujące należą do klasy 2, a nie do klasy 6.2. Podstawa: ADR 2.2.62.1.1, 2.2.61.1.1 i 2.2.2.1.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.62.1.1; 2.2.61.1.1",
+            "reference": "ADR 2025, 2.2.62.1.1; 2.2.61.1.1; 2.2.2.1.5",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -457,14 +457,14 @@
       "question_snapshot": {
         "id": "ADR-B-0160",
         "module_id": "ADR-B-02",
-        "stem": "Kierowca ukończył wyłącznie kurs podstawowy ADR. Czy uprawnia go to automatycznie do każdego przewozu materiałów promieniotwórczych klasy 7?",
+        "stem": "Kierowca ma zaświadczenie ADR tylko z kursu podstawowego. Ma przewieźć sztuki przesyłek z materiałem promieniotwórczym klasy 7. Co mówi o tym ADR?",
         "options": {
-          "A": "Tak, jeśli pojazd ma tablice pomarańczowe i kierowca posiada prawo jazdy",
-          "B": "Nie. Niektóre przewozy klasy 7 wymagają szkolenia specjalistycznego",
-          "C": "Tak, jeśli kierowca zna numer UN i ma tablice pomarańczowe"
+          "A": "Kurs specjalistyczny jest potrzebny, gdy przewóz odbywa się w cysternie",
+          "B": "Potrzebny jest kurs specjalistyczny klasy 7, chyba że spełniono warunki S12",
+          "C": "Kurs specjalistyczny jest potrzebny, gdy przewóz przekracza granicę państwa"
         },
         "correct_option": "B",
-        "explanation": "Kurs podstawowy ADR nie daje automatycznie uprawnienia do każdego przewozu materiałów klasy 7. Niektóre przewozy wymagają dodatkowego szkolenia specjalistycznego, ale trzeba też sprawdzić wyjątki i warunki przewidziane w ADR, zamiast zakładać, że zasada jest identyczna dla każdej przesyłki. Same tablice pomarańczowe ani znajomość numeru UN nie zastępują wymaganego szkolenia. Podstawa: ADR 8.2.1.4 oraz przepisy szczególne działu 8.5, w tym S12.",
+        "explanation": "Kierowca przewożący materiały klasy 7 powinien ukończyć kurs specjalistyczny z zakresu materiałów promieniotwórczych. Przepis szczególny S12 pozwala nie stosować wymagań szkoleniowych z 8.2.1, gdy w jednostce transportowej jest najwyżej 10 sztuk przesyłek, suma wskaźników transportowych nie przekracza 3 i nie ma dodatkowego zagrożenia. Wtedy kierowca przechodzi szkolenie z przewozu materiałów promieniotwórczych potwierdzone zaświadczeniem pracodawcy. Przewóz w cysternie ani przekroczenie granicy nie decydują o tym wymaganiu. Podstawa: ADR 8.2.1.4 i 8.5, S12.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -504,14 +504,14 @@
       "question_snapshot": {
         "id": "ADR-B-0161",
         "module_id": "ADR-B-02",
-        "stem": "Jakie zagrożenie powinien brać pod uwagę kierowca widząc nalepkę klasy 8?",
+        "stem": "Z opakowania z nalepką klasy 8 wycieka ciecz. Przed czym ostrzega ta nalepka?",
         "options": {
-          "A": "Promieniowanie jonizujące, które sygnalizuje nalepka klasy 7",
-          "B": "Zapalność cieczy, którą oznacza czerwona nalepka klasy 3",
-          "C": "Działanie żrące, które może poważnie uszkodzić skórę i tkanki"
+          "A": "Przed cieczą zapalną, której pary łatwo zapalają się od iskry",
+          "B": "Przed materiałem zakaźnym, który może przenosić choroby na ludzi i zwierzęta",
+          "C": "Przed materiałem, który działaniem chemicznym trwale uszkadza skórę"
         },
         "correct_option": "C",
-        "explanation": "Nalepka klasy 8 ostrzega przed materiałem żrącym, który może uszkodzić skórę i oczy, dlatego przy rozszczelnieniu przesyłki nie wolno dotykać wycieku. Promieniowanie to zagrożenie klasy 7, a zapalność cieczy jest typowa dla klasy 3; te symbole nie zastępują rozpoznania klasy 8. Zwracaj uwagę na numer nalepki, nie tylko na skojarzenie z niebezpieczeństwem. Podstawa: ADR 2.2.8.1.1.",
+        "explanation": "Nalepka klasy 8 ostrzega przed materiałem żrącym i pokazuje krople z dwóch probówek, które niszczą dłoń i kawałek metalu. Taki materiał działaniem chemicznym nieodwracalnie uszkadza skórę, a po wycieku może też niszczyć inne towary i pojazd. Dlatego nie wolno dotykać wycieku ani wchodzić w rozlaną ciecz. Ciecze zapalne oznacza nalepka klasy 3, a materiały zakaźne nalepka 6.2. Podstawa: ADR 2.2.8.1.1 i 5.2.2.2.2 (wzór nr 8).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -551,18 +551,18 @@
       "question_snapshot": {
         "id": "ADR-B-0162",
         "module_id": "ADR-B-02",
-        "stem": "Nalepka ostrzegawcza 9A może być wymagana podczas przewozu jakich baterii, zgodnie z odpowiednią pozycją ADR 2025?",
+        "stem": "Przewoźnik ma przewieźć baterie sodowo-jonowe z elektrolitem organicznym (UN 3551), które podlegają ADR. Jaką nalepkę ostrzegawczą wskazuje dla nich tabela A?",
         "options": {
-          "A": "Wybrane baterie litowe i sodowo-jonowe, np. UN 3551 lub UN 3552",
-          "B": "Przesyłki z materiałami zakaźnymi klasy 6.2, np. próbkami medycznymi",
-          "C": "Butle z gazem klasy 2.2, przewożone w klatce ochronnej"
+          "A": "Wzór nr 9A – siedem pasów i grupa baterii, z których jedna się pali",
+          "B": "Wzór nr 4.3 – bo sód w bateriach wydziela gaz palny w zetknięciu z wodą",
+          "C": "Wzór nr 8 – bo elektrolit w takich bateriach jest materiałem żrącym"
         },
         "correct_option": "A",
-        "explanation": "Nalepka 9A jest stosowana przy określonych bateriach litowych i sodowo-jonowych, jeśli wynika to z ich numeru UN i warunków przewozu. Nie należy naklejać jej na każdą baterię ani mylić z oznaczeniami materiałów zakaźnych lub butli z gazem. Przed przyjęciem przesyłki sprawdź numer UN i wymagania przypisane do danej pozycji. Podstawa: ADR 5.2.2.2.2, tabela A i 2.2.9.1.7.2.",
+        "explanation": "Pozycje UN 3551 i UN 3552 dla baterii sodowo-jonowych z elektrolitem organicznym mają w tabeli A klasę 9 i nalepkę 9A. Nalepka 9A ma siedem czarnych pasów w górnej połowie, a w dolnej grupę baterii, z których jedna jest uszkodzona i emituje płomień. Klasę 4.3 mają natomiast baterie z sodem metalicznym, a baterie z wodnym elektrolitem alkalicznym przewozi się jako UN 2795 w klasie 8. Podstawa: ADR 3.2 tabela A (UN 3551, UN 3552), przepis szczególny 401 i 5.2.2.2.2 (wzór nr 9A).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.2.2 (model nr 9A); 3.2 tabela A: UN 3551, UN 3552; 2.2.9.1.7.2",
+            "reference": "ADR 2025, 3.2 tabela A: UN 3551, UN 3552; 3.3 przepis szczególny 401; 5.2.2.2.2 wzór nr 9A",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -598,14 +598,14 @@
       "question_snapshot": {
         "id": "ADR-B-0163",
         "module_id": "ADR-B-03",
-        "stem": "Wycieka towar niebezpieczny, a kierowca ma wymagane wyposażenie do osłonięcia odpływu. Kiedy może spróbować osłonić kratkę kanalizacyjną?",
+        "stem": "Wycieka towar niebezpieczny i płynie w stronę kratki kanalizacyjnej. Kierowca ma w pojeździe osłonę na odpływ. Co mówią instrukcje pisemne?",
         "options": {
-          "A": "Najpierw podejść do wycieku, aby ocenić z bliska, czy da się bezpiecznie osłonić kratkę.",
-          "B": "Tylko gdy to właściwe i bezpieczne, bez narażania siebie na materiał",
-          "C": "Zawsze, nawet gdy do kratki trzeba przejść przez rozlany materiał"
+          "A": "Osłonić kratkę dopiero wtedy, gdy na miejsce przyjadą służby ratownicze",
+          "B": "Osłonić kratkę, jeśli to właściwe i bezpieczne, bez wchodzenia w wyciek",
+          "C": "Nie osłaniać kratki, bo załoga ma oznakować miejsce i czekać na pomoc"
         },
         "correct_option": "B",
-        "explanation": "Osłona odpływu może ograniczyć przedostanie się wycieku do kanalizacji, ale wolno jej użyć tylko wtedy, gdy można to zrobić bez narażania siebie. Nie przechodź przez rozlaną ciecz ani nie zbliżaj się do niej, jeśli wymagałoby to wejścia w strefę zagrożenia. Najpierw oceń sytuację z dystansu i wezwij pomoc; działanie za wszelką cenę może doprowadzić do kolejnego skażenia. Podstawa: instrukcje pisemne ADR, 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą załodze zapobiec przedostaniu się uwolnionych materiałów do wody lub kanalizacji, jeżeli jest to właściwe i bezpieczne. Służy do tego wyposażenie przewożone w jednostce transportowej, na przykład osłona studzienki. Nie trzeba więc czekać z tym na przyjazd służb, ale nie wolno wchodzić w rozlany materiał ani wdychać jego oparów. Ustawienie znaków ostrzegawczych i powiadomienie służb nie zastępuje tej czynności. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -645,18 +645,18 @@
       "question_snapshot": {
         "id": "ADR-B-0164",
         "module_id": "ADR-B-04",
-        "stem": "Po awarii materiału ADR wyczuwalne są palne opary. Dlaczego nie należy używać e-papierosa w pobliżu wycieku?",
+        "stem": "Po awarii czuć opary wyciekającego materiału ADR. Kierowca chce użyć papierosa elektronicznego, bo nie ma on płomienia. Co mówią instrukcje pisemne?",
         "options": {
-          "A": "Nie stanowi źródła zapłonu, jeśli jest zasilany akumulatorem",
-          "B": "Można go używać poza kabiną, jeśli nie widać otwartego płomienia",
-          "C": "Może być źródłem zapłonu i zwiększać zagrożenie"
+          "A": "Może go użyć, jeżeli wcześniej wyłączył silnik i odłączył akumulator pojazdu",
+          "B": "Może go użyć, bo bez płomienia nie jest on źródłem zapłonu",
+          "C": "Nie może go użyć, bo e-papieros też trzeba traktować jak źródło zapłonu"
         },
         "correct_option": "C",
-        "explanation": "Przy wycieku palnych oparów trzeba unikać nawet urządzeń, które nie mają widocznego płomienia, ponieważ iskra lub rozgrzana część mogą spowodować zapłon. Akumulator w e-papierosie nie gwarantuje bezpieczeństwa, a wyjście z kabiny nie usuwa zagrożenia w pobliżu wycieku. Oddal się, ostrzeż innych i postępuj zgodnie z instrukcjami pisemnymi. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą po wypadku lub awarii unikać źródeł zapłonu, czyli nie palić, nie używać papierosów elektronicznych ani podobnych urządzeń. E-papieros nie ma płomienia, ale jego rozgrzana grzałka lub bateria może zapalić palne opary, więc brak płomienia niczego nie zmienia. Wyłączenie silnika i odłączenie akumulatora to osobne czynności, które nie znoszą tego zakazu. Ten sam zakaz obowiązuje także podczas manipulowania ładunkiem. Podstawa: ADR 5.4.3.4 i 8.3.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4; 8.3.5",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -692,14 +692,14 @@
       "question_snapshot": {
         "id": "ADR-B-0165",
         "module_id": "ADR-B-05",
-        "stem": "Dyspozytor numeru alarmowego pyta kierowcę o przewożoną substancję. Co należy mu przekazać?",
+        "stem": "Po wypadku kierowca dzwoni po służby ratownicze. Jakie informacje według instrukcji pisemnych powinien im podać?",
         "options": {
-          "A": "Przekazać potwierdzone dane o ładunku i zdarzeniu, np. numer UN oraz miejsce",
-          "B": "Podać markę, numer rejestracyjny i opis pojazdu, pomijając rodzaj przewożonego towaru",
-          "C": "Podać przypuszczalny numer UN bez potwierdzenia w dokumentach"
+          "A": "Możliwie wszystkie dostępne informacje o wypadku i przewożonych towarach",
+          "B": "Dane pojazdu i miejsce zdarzenia, a dane towaru po przyjeździe ratowników",
+          "C": "Nazwę przewoźnika i nadawcy, aby służby u nich ustaliły rodzaj towaru"
         },
         "correct_option": "A",
-        "explanation": "Zgłaszając wypadek, przekaż służbom sprawdzone informacje o miejscu, zdarzeniu i przewożonym towarze, w tym numer UN, jeśli można go bezpiecznie odczytać z dokumentów. Marka pojazdu i numer rejestracyjny nie określają zagrożenia ładunku, a zgadywanie numeru UN może wprowadzić ratowników w błąd. Nie zbliżaj się do wycieku tylko po to, by zdobyć dane. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą powiadomić służby ratownicze i podać im możliwie wszystkie dostępne informacje dotyczące wypadku lub awarii oraz towarów niebezpiecznych. Ratownicy już w drodze muszą wiedzieć, z jakim zagrożeniem się spotkają, na przykład jaki jest numer UN i klasa towaru. Odkładanie informacji o towarze do ich przyjazdu albo odsyłanie ich do przewoźnika lub nadawcy opóźnia pomoc. Po przyjeździe ratowników trzeba zapewnić im łatwy dostęp do dokumentów przewozowych. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
