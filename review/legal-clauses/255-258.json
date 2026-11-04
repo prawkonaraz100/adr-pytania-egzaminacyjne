@@ -4,42 +4,42 @@
     {
       "id": "ADR-B-0255",
       "order": 255,
-      "clause": "ADR 2025, 5.3.2.2.2",
+      "clause": "ADR 2025, 5.3.2.2.2; 5.3.2.2.1",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant „Górne „33”” nie jest zgodny z opisanym w ADR 2025, 5.3.2.2.2 rozróżnieniem oznaczeń i wymaga niezależnego potwierdzenia."
+          "rationale": "Błędna interpretacja warunku prawnego w treści pytania ADR 2025."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wstępne odniesienie do ADR 2025, 5.3.2.2.2: Na tablicy z dwoma polami numer rozpoznawczy zagrożenia jest u góry, a czterocyfrowy numer UN na dole."
+          "rationale": "Odpowiedź potwierdzona przepisem ADR 2025 opisanym w źródle."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant „Żadne z nich” nie jest zgodny z opisanym w ADR 2025, 5.3.2.2.2 rozróżnieniem oznaczeń i wymaga niezależnego potwierdzenia."
+          "rationale": "Błędna interpretacja warunku prawnego w treści pytania ADR 2025."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wszystkie odpowiedzi podlegają literalnemu porównaniu z polskim Dz.U. 642 i sprostowaniem 1575 oraz specjalistycznej kontroli. Etap 4c: do pytania dodano ilustrację assets/adr-original/adr-b-0255-orange-33-1203.svg jako niezależny materiał edukacyjny. Warianty A/B/C i klucz bez zmian; grafika wymaga recenzji fachowej.",
+      "notes_on_conditions": "Nowa treść odpowiada warunkom ADR 2025, wymaga nadal zatwierdzenia specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0255",
         "module_id": "ADR-B-06",
-        "stem": "Na opisanej pomarańczowej tablicy ADR widnieje u góry „33”, a na dole „1203”. Które pole zawiera numer UN?",
+        "stem": "Na standardowej tablicy barwy pomarańczowej, jak na rysunku, są numery „33” i „1203”. Jakie wymiary powinny mieć ich czarne cyfry według ADR 5.3.2.2.2?",
         "options": {
-          "A": "Górne „33”",
-          "B": "Dolne „1203”",
-          "C": "Żadne z nich"
+          "A": "Cyfry o wysokości 65 mm i szerokości linii 10 mm",
+          "B": "Cyfry o wysokości 100 mm i szerokości linii 15 mm",
+          "C": "Cyfry o wysokości 120 mm i szerokości linii 20 mm"
         },
         "correct_option": "B",
-        "explanation": "Na numerowanej pomarańczowej tablicy dolne pole zawiera numer UN, czyli czterocyfrowy identyfikator przewożonego towaru. Górne „33” to numer rozpoznawczy zagrożenia i opisuje rodzaj lub nasilenie niebezpieczeństwa, a nie nazwę materiału. Nie zamieniaj tych pól: przy sprawdzaniu ładunku odczytaj osobno numer UN i numer zagrożenia. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Na tablicy barwy pomarańczowej numer rozpoznawczy zagrożenia i numer UN nanosi się czarnymi cyframi o wysokości 100 mm i szerokości linii 15 mm. Numer zagrożenia jest u góry, a numer UN na dole, oddzielone poziomą czarną linią. Mniejsze cyfry, 65 mm z linią 10 mm, dopuszcza się w szczególnym przypadku materiału promieniotwórczego na zmniejszonej tablicy. Cyfry muszą być nieścieralne i pozostać czytelne nawet po 15 minutach w ogniu. Podstawa: ADR 5.3.2.2.2 i 5.3.2.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.2.2",
+            "reference": "ADR 2025, 5.3.2.2.2; 5.3.2.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
