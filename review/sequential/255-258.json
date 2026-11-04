@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na górnym polu pomarańczowej tablicy ADR przed cyframi widnieje litera „X”. Co oznacza to dodatkowe oznaczenie?",
+        "stem": "Na jednej pomarańczowej tablicy widnieje kod 80, a na drugiej X80, jak na rysunku. Co mają wspólnego te kody i co je odróżnia?",
         "options": {
-          "A": "Niebezpieczną reakcję substancji z wodą",
-          "B": "Polewać wyciek wodą, aby ograniczyć opary",
-          "C": "Odczytać X jako kod przewozu LQ"
+          "A": "Oba wskazują działanie żrące. X80 dodaje ostrzeżenie przed reakcją z wodą.",
+          "B": "Oba ostrzegają przed wodą. X80 wskazuje na silniejsze działanie żrące.",
+          "C": "Kod 80 ostrzega przed reakcją z wodą. X80 wskazuje jedynie działanie żrące materiału."
         },
         "correct_option": "A",
-        "explanation": "Litera X przed górnym numerem na tablicy pomarańczowej ostrzega, że materiał może niebezpiecznie reagować z wodą. Nie jest to polecenie polewania rozlewu ani kod LQ oznaczający ilości ograniczone. Kierowca powinien zapamiętać oznaczenie, nie podejmować samodzielnego gaszenia wodą i przekazać je ratownikom. Pozwoli to uniknąć działań zwiększających zagrożenie. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Kody 80 i X80 oznaczają materiał żrący lub słabo żrący. Litera X ostrzega dodatkowo, że materiał niebezpiecznie reaguje z wodą. W takim przypadku wodę wolno zastosować tylko za zgodą specjalistów. Sam kod 80 nie przekazuje tego ostrzeżenia, a litera X nie oznacza silniejszego działania żrącego. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1",
+            "reference": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -83,7 +83,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Full Polish-law and corrigendum comparison remains pending. Specialist signoff required. Etap 4c: dodano oryginalny edukacyjny SVG assets/adr-original/adr-b-0256-orange-x.svg; konieczna specjalistyczna kontrola zgodności ikon/oznakowania z polskim ADR 2025 i przepisami o znakach. Nie jest zatwierdzony do publikacji.",
+      "source_risk_note": "Kontrola 2 potwierdziła znaczenie kodów 80 i X80 na s. 956 i 959 Dz.U. 2025 poz. 642. Ilustracja pokazuje X80 jako przykład. Zatwierdzenie specjalisty pozostaje wymagane.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"

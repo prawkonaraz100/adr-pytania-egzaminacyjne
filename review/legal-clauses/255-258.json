@@ -50,42 +50,42 @@
     {
       "id": "ADR-B-0256",
       "order": 256,
-      "clause": "ADR 2025, 5.3.2.3.1",
-      "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
+      "clause": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-20.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępne odniesienie do ADR 2025, 5.3.2.3.1: Litera X przed numerem zagrożenia oznacza niebezpieczną reakcję z wodą. Użycie wody wymaga zgody ekspertów."
+          "rationale": "Oba kody dotyczą działania żrącego. X80 dodatkowo wskazuje niebezpieczną reakcję z wodą."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant „Obowiązek natychmiastowego użycia wody” nie jest zgodny z opisanym w ADR 2025, 5.3.2.3.1 rozróżnieniem oznaczeń i wymaga niezależnego potwierdzenia."
+          "rationale": "Kod 80 nie zawiera ostrzeżenia przed wodą. X80 nie oznacza nasilenia działania żrącego."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant „Wyłącznie przewóz w ilości ograniczonej” nie jest zgodny z opisanym w ADR 2025, 5.3.2.3.1 rozróżnieniem oznaczeń i wymaga niezależnego potwierdzenia."
+          "rationale": "Ostrzeżenie przed niebezpieczną reakcją z wodą należy do X80. Odpowiedź odwraca znaczenia kodów."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wszystkie odpowiedzi podlegają literalnemu porównaniu z polskim Dz.U. 642 i sprostowaniem 1575 oraz specjalistycznej kontroli. Etap 4c: do pytania dodano ilustrację assets/adr-original/adr-b-0256-orange-x.svg jako niezależny materiał edukacyjny. Warianty A/B/C i klucz bez zmian; grafika wymaga recenzji fachowej.",
+      "notes_on_conditions": "Kontrola 2 objęła pkt 5.3.2.3.1 i 5.3.2.3.2 na s. 956 i 959 urzędowego PDF-u. Sprostowanie nie zmienia tych pozycji. Wodę można zastosować tylko za zgodą specjalistów.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0256",
         "module_id": "ADR-B-06",
-        "stem": "Na górnym polu pomarańczowej tablicy ADR przed cyframi widnieje litera „X”. Co oznacza to dodatkowe oznaczenie?",
+        "stem": "Na jednej pomarańczowej tablicy widnieje kod 80, a na drugiej X80, jak na rysunku. Co mają wspólnego te kody i co je odróżnia?",
         "options": {
-          "A": "Niebezpieczną reakcję substancji z wodą",
-          "B": "Polewać wyciek wodą, aby ograniczyć opary",
-          "C": "Odczytać X jako kod przewozu LQ"
+          "A": "Oba wskazują działanie żrące. X80 dodaje ostrzeżenie przed reakcją z wodą.",
+          "B": "Oba ostrzegają przed wodą. X80 wskazuje na silniejsze działanie żrące.",
+          "C": "Kod 80 ostrzega przed reakcją z wodą. X80 wskazuje jedynie działanie żrące materiału."
         },
         "correct_option": "A",
-        "explanation": "Litera X przed górnym numerem na tablicy pomarańczowej ostrzega, że materiał może niebezpiecznie reagować z wodą. Nie jest to polecenie polewania rozlewu ani kod LQ oznaczający ilości ograniczone. Kierowca powinien zapamiętać oznaczenie, nie podejmować samodzielnego gaszenia wodą i przekazać je ratownikom. Pozwoli to uniknąć działań zwiększających zagrożenie. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Kody 80 i X80 oznaczają materiał żrący lub słabo żrący. Litera X ostrzega dodatkowo, że materiał niebezpiecznie reaguje z wodą. W takim przypadku wodę wolno zastosować tylko za zgodą specjalistów. Sam kod 80 nie przekazuje tego ostrzeżenia, a litera X nie oznacza silniejszego działania żrącego. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1",
+            "reference": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
