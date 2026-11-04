@@ -55,6 +55,12 @@ class Batch10ProposalTests(unittest.TestCase):
         self.assertTrue(all(q["checked_at"] is None and q["reviewer"] is None for q in working.values()))
         for ident in BLOCKED:
             self.assertEqual(working[ident], current[ident])
+        # Existing risk-review regression tests must hold on the proposal copy.
+        self.assertIn("nie kontener-cysterna", working["ADR-B-0140"]["stem"])
+        self.assertIn("kontenerów-cystern", working["ADR-B-0140"]["explanation"])
+        self.assertIn("BK", working["ADR-B-0139"]["options"]["B"])
+        self.assertIn("VC", working["ADR-B-0139"]["options"]["B"])
+        self.assertIn("odesłanie", working["ADR-B-0139"]["options"]["B"])
 
     def test_report_counter_and_verdicts(self):
         report = json.loads(REPORT.read_text(encoding="utf-8"))
