@@ -2,15 +2,15 @@
   "scope": "ADR-BASIC-ONLY",
   "batch": "ADR-B-0076..0090",
   "source": "Dz.U. 2025 poz. 642; sprostowanie poz. 1575",
-  "source_method": "OCR pełnego polskiego Dz.U. przekazany przez użytkownika. Fragmenty tekstu przytoczone z OCR; tabela 8.6.4 (s.1339) wymaga kontroli obrazu urzędowego, próba pobrania skanu nie powiodła się. Blokady 0083–0084 nie są certyfikacją kluczy.",
-  "status": "first_literal_OCR_comparison_recorded_pending_image_and_specialist_review",
+  "source_method": "Kontrola pierwsza oparta na OCR Dz.U.; niezależna kontrola druga użytkownika na obrazie Dz.U. s.1339 potwierdziła wiersze E i D/E tabeli 8.6.4. Żaden rekord nie ma statusu verified.",
+  "status": "second_literal_review_recorded_specialist_approval_pending",
   "previous_uncompared": 678,
   "compared_ocr": 15,
   "remaining_without_comparison": 663,
   "counts": {
-    "OK": 7,
-    "POPRAW": 6,
-    "BLOKUJ": 2
+    "OK": 5,
+    "POPRAW": 10,
+    "BLOKUJ": 0
   },
   "verified": 0,
   "question_status": "needs_review",
@@ -27,7 +27,7 @@
       "correct_answer_assessment": "Klucz A (bez zmiany). Ochrona oczu wymagana dla każdego członka załogi; B zwykłe okulary słoneczne i C sam kask nie spełniają tej funkcji. Dotychczasowe A było dużo krótsze od B i C i miało skrót „np.”; wyrównano formę opcji oraz uproszczono wyjaśnienie bez zmiany klucza.",
       "wrong_answers_assessment": "Ochrona oczu wymagana dla każdego członka załogi; B zwykłe okulary słoneczne i C sam kask nie spełniają tej funkcji. Dotychczasowe A było dużo krótsze od B i C i miało skrót „np.”; wyrównano formę opcji oraz uproszczono wyjaśnienie bez zmiany klucza.",
       "explanation_assessment": "Ochrona oczu wymagana dla każdego członka załogi; B zwykłe okulary słoneczne i C sam kask nie spełniają tej funkcji. Dotychczasowe A było dużo krótsze od B i C i miało skrót „np.”; wyrównano formę opcji oraz uproszczono wyjaśnienie bez zmiany klucza.",
-      "fix": "Pełna linia w POPRAWKI-0076-0090.jsonl",
+      "fix": "Pełna linia POPRAWKI-KONTROLA2-0076-0090.jsonl, zastosowana do banku.",
       "explanation_length": 345
     },
     {
@@ -57,7 +57,7 @@
       "correct_answer_assessment": "Klucz B (bez zmiany). Klucz B wynika z konieczności ochrony uszkodzonej sztuki przy piętrzeniu. A i C błędnie zakładają, że masa lub pas usuwają problem. Stara podstawa 7.5.1.3 (s.1304) dotyczy rozładunku, a nie tej sytuacji; poprawiono na 7.5.7.2–7.5.7.3. W przepisie nie ma dosłownego nakazu „odsunąć” — jest to praktyczne działanie służące ochronie opakowania.",
       "wrong_answers_assessment": "Klucz B wynika z konieczności ochrony uszkodzonej sztuki przy piętrzeniu. A i C błędnie zakładają, że masa lub pas usuwają problem. Stara podstawa 7.5.1.3 (s.1304) dotyczy rozładunku, a nie tej sytuacji; poprawiono na 7.5.7.2–7.5.7.3. W przepisie nie ma dosłownego nakazu „odsunąć” — jest to praktyczne działanie służące ochronie opakowania.",
       "explanation_assessment": "Klucz B wynika z konieczności ochrony uszkodzonej sztuki przy piętrzeniu. A i C błędnie zakładają, że masa lub pas usuwają problem. Stara podstawa 7.5.1.3 (s.1304) dotyczy rozładunku, a nie tej sytuacji; poprawiono na 7.5.7.2–7.5.7.3. W przepisie nie ma dosłownego nakazu „odsunąć” — jest to praktyczne działanie służące ochronie opakowania.",
-      "fix": "Pełna linia w POPRAWKI-0076-0090.jsonl",
+      "fix": "Pełna linia POPRAWKI-KONTROLA2-0076-0090.jsonl, zastosowana do banku.",
       "explanation_length": 382
     },
     {
@@ -102,7 +102,7 @@
       "correct_answer_assessment": "Klucz A (bez zmiany). 0,8 m jest dosłowną wartością dla jednej metody. B 0,2 m jest za małe, C 2 m jest większą odległością, ale nie minimalną wskazaną w przepisie. Wyjaśnienie rozbudowano o CV28 i warunkowość metod oraz inne dopuszczalne formy rozdzielenia.",
       "wrong_answers_assessment": "0,8 m jest dosłowną wartością dla jednej metody. B 0,2 m jest za małe, C 2 m jest większą odległością, ale nie minimalną wskazaną w przepisie. Wyjaśnienie rozbudowano o CV28 i warunkowość metod oraz inne dopuszczalne formy rozdzielenia.",
       "explanation_assessment": "0,8 m jest dosłowną wartością dla jednej metody. B 0,2 m jest za małe, C 2 m jest większą odległością, ale nie minimalną wskazaną w przepisie. Wyjaśnienie rozbudowano o CV28 i warunkowość metod oraz inne dopuszczalne formy rozdzielenia.",
-      "fix": "Pełna linia w POPRAWKI-0076-0090.jsonl",
+      "fix": "Pełna linia POPRAWKI-KONTROLA2-0076-0090.jsonl, zastosowana do banku.",
       "explanation_length": 389
     },
     {
@@ -110,44 +110,44 @@
       "page": "1307",
       "clause": "7.5.4; 7.5.11 CV28",
       "quote": "Jeżeli w kolumnie (18) tabeli A w dziale 3.2 wskazany jest dla danego materiału lub przedmiotu przepis szczególny CV28",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "B",
       "point_reference_assessment": "Przepis wiąże zastosowanie CV28 z pozycją UN i kolumną 18. Sam znak 6.1 nie zastępuje sprawdzenia przepisu szczególnego; A dotyczy tylko miejsca, C przypisuje wymóg na podstawie samej nalepki. Explanation prawidłowe.",
       "values_assessment": "Przepis wiąże zastosowanie CV28 z pozycją UN i kolumną 18. Sam znak 6.1 nie zastępuje sprawdzenia przepisu szczególnego; A dotyczy tylko miejsca, C przypisuje wymóg na podstawie samej nalepki. Explanation prawidłowe.",
       "correct_answer_assessment": "Klucz B (bez zmiany). Przepis wiąże zastosowanie CV28 z pozycją UN i kolumną 18. Sam znak 6.1 nie zastępuje sprawdzenia przepisu szczególnego; A dotyczy tylko miejsca, C przypisuje wymóg na podstawie samej nalepki. Explanation prawidłowe.",
       "wrong_answers_assessment": "Przepis wiąże zastosowanie CV28 z pozycją UN i kolumną 18. Sam znak 6.1 nie zastępuje sprawdzenia przepisu szczególnego; A dotyczy tylko miejsca, C przypisuje wymóg na podstawie samej nalepki. Explanation prawidłowe.",
       "explanation_assessment": "Przepis wiąże zastosowanie CV28 z pozycją UN i kolumną 18. Sam znak 6.1 nie zastępuje sprawdzenia przepisu szczególnego; A dotyczy tylko miejsca, C przypisuje wymóg na podstawie samej nalepki. Explanation prawidłowe.",
-      "fix": null,
+      "fix": "Pełna linia POPRAWKI-KONTROLA2-0076-0090.jsonl, zastosowana do banku.",
       "explanation_length": 392
     },
     {
       "id": "ADR-B-0083",
       "page": "1339",
       "clause": "8.6.4 (tabela)",
-      "quote": "Zakaz przewozu przez tunele kategorii E.",
-      "verdict": "BLOKUJ",
+      "quote": "Wiersz E: „Zakaz przewozu przez tunele kategorii E.”",
+      "verdict": "POPRAW",
       "key": "C",
-      "point_reference_assessment": "OCR zawiera samą treść zakazu, ale nie pokazuje czytelnie przypisania jej do wiersza kodu E. Bez odczytu obrazu tabeli nie można literalnie potwierdzić, że zakaz dotyczy dokładnie tego kodu w sztukach przesyłek. A i B wyglądają na błędne, C na poprawne, ale formalny werdykt BLOKUJ do porównania skanu Dz.U. s.1339.",
-      "values_assessment": "OCR zawiera samą treść zakazu, ale nie pokazuje czytelnie przypisania jej do wiersza kodu E. Bez odczytu obrazu tabeli nie można literalnie potwierdzić, że zakaz dotyczy dokładnie tego kodu w sztukach przesyłek. A i B wyglądają na błędne, C na poprawne, ale formalny werdykt BLOKUJ do porównania skanu Dz.U. s.1339.",
+      "point_reference_assessment": "Kontrola druga obrazu s.1339 potwierdziła wiersz E, klucz C. POPRAW wyłącznie dla zbyt krótkiej opcji C (36 znaków wobec 71 i 64), poprawkę wyrównania opcji zastosowano.",
+      "values_assessment": "Kontrola druga obrazu s.1339 potwierdziła wiersz E, klucz C. POPRAW wyłącznie dla zbyt krótkiej opcji C (36 znaków wobec 71 i 64), poprawkę wyrównania opcji zastosowano.",
       "correct_answer_assessment": "Klucz C (bez zmiany). OCR zawiera samą treść zakazu, ale nie pokazuje czytelnie przypisania jej do wiersza kodu E. Bez odczytu obrazu tabeli nie można literalnie potwierdzić, że zakaz dotyczy dokładnie tego kodu w sztukach przesyłek. A i B wyglądają na błędne, C na poprawne, ale formalny werdykt BLOKUJ do porównania skanu Dz.U. s.1339.",
-      "wrong_answers_assessment": "OCR zawiera samą treść zakazu, ale nie pokazuje czytelnie przypisania jej do wiersza kodu E. Bez odczytu obrazu tabeli nie można literalnie potwierdzić, że zakaz dotyczy dokładnie tego kodu w sztukach przesyłek. A i B wyglądają na błędne, C na poprawne, ale formalny werdykt BLOKUJ do porównania skanu Dz.U. s.1339.",
-      "explanation_assessment": "OCR zawiera samą treść zakazu, ale nie pokazuje czytelnie przypisania jej do wiersza kodu E. Bez odczytu obrazu tabeli nie można literalnie potwierdzić, że zakaz dotyczy dokładnie tego kodu w sztukach przesyłek. A i B wyglądają na błędne, C na poprawne, ale formalny werdykt BLOKUJ do porównania skanu Dz.U. s.1339.",
-      "fix": "Wymagane potwierdzenie obrazu tabeli 8.6.4, Dz.U. s.1339",
+      "wrong_answers_assessment": "Kontrola druga obrazu s.1339 potwierdziła wiersz E, klucz C. POPRAW wyłącznie dla zbyt krótkiej opcji C (36 znaków wobec 71 i 64), poprawkę wyrównania opcji zastosowano.",
+      "explanation_assessment": "Kontrola druga obrazu s.1339 potwierdziła wiersz E, klucz C. POPRAW wyłącznie dla zbyt krótkiej opcji C (36 znaków wobec 71 i 64), poprawkę wyrównania opcji zastosowano.",
+      "fix": "Pełna linia POPRAWKI-KONTROLA2-0076-0090.jsonl, zastosowana do banku.",
       "explanation_length": 370
     },
     {
       "id": "ADR-B-0084",
       "page": "1339",
       "clause": "8.6.4 (tabela)",
-      "quote": "Inny przewóz: zakaz przewozu przez tunele kategorii E.",
-      "verdict": "BLOKUJ",
+      "quote": "Wiersz D/E: „Przewóz luzem lub w cysternie: zakaz przewozu przez tunele kategorii D i E; Inny przewóz: zakaz przewozu przez tunele kategorii E.”",
+      "verdict": "OK",
       "key": "B",
-      "point_reference_assessment": "Wiersz D/E powinien dotyczyć zakazu E przy sztukach przesyłek, lecz OCR tabeli nie odczytuje czytelnie etykiety kodu przy cytowanym tekście. B jest logicznie poprawne, A/C są za ostre, jednak wymagane jest wizualne powiązanie wiersza D/E z zakazem E w oficjalnym skanie.",
-      "values_assessment": "Wiersz D/E powinien dotyczyć zakazu E przy sztukach przesyłek, lecz OCR tabeli nie odczytuje czytelnie etykiety kodu przy cytowanym tekście. B jest logicznie poprawne, A/C są za ostre, jednak wymagane jest wizualne powiązanie wiersza D/E z zakazem E w oficjalnym skanie.",
+      "point_reference_assessment": "Niezależna kontrola obrazu tabeli 8.6.4, Dz.U. s.1339 potwierdziła wiersz D/E i klucz B dla sztuk przesyłek. BLOKUJ zdjęty; nie wymaga zmian banku.",
+      "values_assessment": "Niezależna kontrola obrazu tabeli 8.6.4, Dz.U. s.1339 potwierdziła wiersz D/E i klucz B dla sztuk przesyłek. BLOKUJ zdjęty; nie wymaga zmian banku.",
       "correct_answer_assessment": "Klucz B (bez zmiany). Wiersz D/E powinien dotyczyć zakazu E przy sztukach przesyłek, lecz OCR tabeli nie odczytuje czytelnie etykiety kodu przy cytowanym tekście. B jest logicznie poprawne, A/C są za ostre, jednak wymagane jest wizualne powiązanie wiersza D/E z zakazem E w oficjalnym skanie.",
-      "wrong_answers_assessment": "Wiersz D/E powinien dotyczyć zakazu E przy sztukach przesyłek, lecz OCR tabeli nie odczytuje czytelnie etykiety kodu przy cytowanym tekście. B jest logicznie poprawne, A/C są za ostre, jednak wymagane jest wizualne powiązanie wiersza D/E z zakazem E w oficjalnym skanie.",
-      "explanation_assessment": "Wiersz D/E powinien dotyczyć zakazu E przy sztukach przesyłek, lecz OCR tabeli nie odczytuje czytelnie etykiety kodu przy cytowanym tekście. B jest logicznie poprawne, A/C są za ostre, jednak wymagane jest wizualne powiązanie wiersza D/E z zakazem E w oficjalnym skanie.",
-      "fix": "Wymagane potwierdzenie obrazu tabeli 8.6.4, Dz.U. s.1339",
+      "wrong_answers_assessment": "Niezależna kontrola obrazu tabeli 8.6.4, Dz.U. s.1339 potwierdziła wiersz D/E i klucz B dla sztuk przesyłek. BLOKUJ zdjęty; nie wymaga zmian banku.",
+      "explanation_assessment": "Niezależna kontrola obrazu tabeli 8.6.4, Dz.U. s.1339 potwierdziła wiersz D/E i klucz B dla sztuk przesyłek. BLOKUJ zdjęty; nie wymaga zmian banku.",
+      "fix": null,
       "explanation_length": 325
     },
     {
@@ -155,14 +155,14 @@
       "page": "1338",
       "clause": "8.6.3.3",
       "quote": "Towary niebezpieczne przewożone zgodnie z przepisami rozdziału 1.1.3 nie podlegają ograniczeniom przewozu przez tunele",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "B",
       "point_reference_assessment": "Wyłączenie 1.1.3 zostało przywołane wprost, razem z zastrzeżeniem 3.4.13/3.4.14 w treści pytania. A sumuje kody bez podstawy, C uzależnia regułę od detalicznego opakowania klasy 3. Explanation zachowuje wyjątek.",
       "values_assessment": "Wyłączenie 1.1.3 zostało przywołane wprost, razem z zastrzeżeniem 3.4.13/3.4.14 w treści pytania. A sumuje kody bez podstawy, C uzależnia regułę od detalicznego opakowania klasy 3. Explanation zachowuje wyjątek.",
       "correct_answer_assessment": "Klucz B (bez zmiany). Wyłączenie 1.1.3 zostało przywołane wprost, razem z zastrzeżeniem 3.4.13/3.4.14 w treści pytania. A sumuje kody bez podstawy, C uzależnia regułę od detalicznego opakowania klasy 3. Explanation zachowuje wyjątek.",
       "wrong_answers_assessment": "Wyłączenie 1.1.3 zostało przywołane wprost, razem z zastrzeżeniem 3.4.13/3.4.14 w treści pytania. A sumuje kody bez podstawy, C uzależnia regułę od detalicznego opakowania klasy 3. Explanation zachowuje wyjątek.",
       "explanation_assessment": "Wyłączenie 1.1.3 zostało przywołane wprost, razem z zastrzeżeniem 3.4.13/3.4.14 w treści pytania. A sumuje kody bez podstawy, C uzależnia regułę od detalicznego opakowania klasy 3. Explanation zachowuje wyjątek.",
-      "fix": null,
+      "fix": "Pełna linia POPRAWKI-KONTROLA2-0076-0090.jsonl, zastosowana do banku.",
       "explanation_length": 398
     },
     {
@@ -177,7 +177,7 @@
       "correct_answer_assessment": "Klucz C (bez zmiany). Reguła największych ograniczeń dosłowna; A kolejność w dokumencie i B większa masa nie mają podstawy. Skrócono nieprawdziwą A, wyrównano opcje i doprecyzowano wyjątki w explanation. Klucz C bez zmiany.",
       "wrong_answers_assessment": "Reguła największych ograniczeń dosłowna; A kolejność w dokumencie i B większa masa nie mają podstawy. Skrócono nieprawdziwą A, wyrównano opcje i doprecyzowano wyjątki w explanation. Klucz C bez zmiany.",
       "explanation_assessment": "Reguła największych ograniczeń dosłowna; A kolejność w dokumencie i B większa masa nie mają podstawy. Skrócono nieprawdziwą A, wyrównano opcje i doprecyzowano wyjątki w explanation. Klucz C bez zmiany.",
-      "fix": "Pełna linia w POPRAWKI-0076-0090.jsonl",
+      "fix": "Pełna linia POPRAWKI-KONTROLA2-0076-0090.jsonl, zastosowana do banku.",
       "explanation_length": 355
     },
     {
@@ -200,14 +200,14 @@
       "page": "974",
       "clause": "5.4.3.4",
       "quote": "Forma i zawartość instrukcji pisemnych powinny odpowiadać czterostronicowemu wzorowi podanemu poniżej.",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "B",
       "point_reference_assessment": "Własnoręczna notatka (A) i sam e-mail (C) nie zastępują instrukcji zgodnych z czterostronicowym wzorem. Explanation wskazuje przyczynę i jest zrozumiałe.",
       "values_assessment": "Własnoręczna notatka (A) i sam e-mail (C) nie zastępują instrukcji zgodnych z czterostronicowym wzorem. Explanation wskazuje przyczynę i jest zrozumiałe.",
       "correct_answer_assessment": "Klucz B (bez zmiany). Własnoręczna notatka (A) i sam e-mail (C) nie zastępują instrukcji zgodnych z czterostronicowym wzorem. Explanation wskazuje przyczynę i jest zrozumiałe.",
       "wrong_answers_assessment": "Własnoręczna notatka (A) i sam e-mail (C) nie zastępują instrukcji zgodnych z czterostronicowym wzorem. Explanation wskazuje przyczynę i jest zrozumiałe.",
       "explanation_assessment": "Własnoręczna notatka (A) i sam e-mail (C) nie zastępują instrukcji zgodnych z czterostronicowym wzorem. Explanation wskazuje przyczynę i jest zrozumiałe.",
-      "fix": null,
+      "fix": "Pełna linia POPRAWKI-KONTROLA2-0076-0090.jsonl, zastosowana do banku.",
       "explanation_length": 347
     },
     {
@@ -222,7 +222,7 @@
       "correct_answer_assessment": "Klucz C (bez zmiany). Dosłowny dodatkowy zapis odpowiada kluczowi C; A i B przywołują inne przepisy. Wyjaśnienie odwołuje się do 1.1.4.2.1, którego nie było w sources; dodano pełną podstawę bez zmiany klucza.",
       "wrong_answers_assessment": "Dosłowny dodatkowy zapis odpowiada kluczowi C; A i B przywołują inne przepisy. Wyjaśnienie odwołuje się do 1.1.4.2.1, którego nie było w sources; dodano pełną podstawę bez zmiany klucza.",
       "explanation_assessment": "Dosłowny dodatkowy zapis odpowiada kluczowi C; A i B przywołują inne przepisy. Wyjaśnienie odwołuje się do 1.1.4.2.1, którego nie było w sources; dodano pełną podstawę bez zmiany klucza.",
-      "fix": "Pełna linia w POPRAWKI-0076-0090.jsonl",
+      "fix": "Pełna linia POPRAWKI-KONTROLA2-0076-0090.jsonl, zastosowana do banku.",
       "explanation_length": 395
     },
     {
@@ -237,7 +237,7 @@
       "correct_answer_assessment": "Klucz C (bez zmiany). 5.4.3.1 określa kabinę, 8.1.2.3 łatwą dostępność. A ładownia i B dokumentacja odbiorcy są niewłaściwe. Wyrównano formę dystraktorów i uproszczono wyjaśnienie; oba numery przepisów pozostały w sources.",
       "wrong_answers_assessment": "5.4.3.1 określa kabinę, 8.1.2.3 łatwą dostępność. A ładownia i B dokumentacja odbiorcy są niewłaściwe. Wyrównano formę dystraktorów i uproszczono wyjaśnienie; oba numery przepisów pozostały w sources.",
       "explanation_assessment": "5.4.3.1 określa kabinę, 8.1.2.3 łatwą dostępność. A ładownia i B dokumentacja odbiorcy są niewłaściwe. Wyrównano formę dystraktorów i uproszczono wyjaśnienie; oba numery przepisów pozostały w sources.",
-      "fix": "Pełna linia w POPRAWKI-0076-0090.jsonl",
+      "fix": "Pełna linia POPRAWKI-KONTROLA2-0076-0090.jsonl, zastosowana do banku.",
       "explanation_length": 383
     }
   ]
