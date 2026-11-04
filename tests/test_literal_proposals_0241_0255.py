@@ -19,9 +19,9 @@ class Partia17(unittest.TestCase):
    L=[len(x) for x in opts];self.assertLessEqual(max(L),80,q["id"])
    k=len(q["options"][q["correct_option"]]);self.assertFalse(L.count(k)==1 and k in (min(L),max(L)),q["id"])
    e=q["explanation"];self.assertGreaterEqual(len(e),300,q["id"])
-   sentences=re.split(r"(?<=[.!?])\\s+",e)
-   self.assertTrue(2<=len(sentences)<=6,(q["id"],len(sentences)))
-   self.assertRegex(e,r"Podstawa: ADR .+\\.$")
+   sentences=re.split(r"(?<=[.!?])\s+",e)
+   self.assertTrue(2<=len(sentences)<=5,(q["id"],len(sentences)))
+   self.assertRegex(e,r"Podstawa: ADR .+\.$")
  def test_report(self):
   d=json.loads((ROOT/"review/literal-pl/PARTIA-0241-0255.json").read_text(encoding="utf-8"))
   self.assertEqual(d["counts"],{"OK":0,"POPRAW":15,"BLOKUJ":0})
