@@ -1,6 +1,6 @@
 **Stan na 03.11.2026, etap 4x355**
 
-**Stan 4x355 — bank zamknięty, gotowy do przeglądu specjalisty:** 780 `needs_review`, 0 `verified`; SHA `4dab716478a0ff75b148596714c53a600c5ada44`. Poprawna = jedyna najdłuższa: **85/780 = 10,90%**; kompetencje teorii <6: **0**. **STOP dopisywania pytań.** Raport końcowy: `docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md`.
+**Stan 4x355 — bank zamknięty, gotowy do przeglądu specjalisty:** 780 `needs_review`, 0 `verified`; SHA `0bdb3d99aa0f15dcbf60ed3bf4ff92377d170a52`. Poprawna = jedyna najdłuższa: **84/780 = 10,77%**; kompetencje teorii <6: **0**. **STOP dopisywania pytań.** Raport końcowy: `docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md`.
 
 - [Etap 4x350 — identyfikacja przewoźnika przed wydaniem towaru](raporty/etap-4x350-weryfikacja-tozsamosci-przewoznika-adr-1-10-1-2-2026-11-03.md)
 
@@ -208,7 +208,7 @@
 
 **Stan 4x300:** 726 `needs_review`, 0 `verified`; SHA `4dcc4a8f86db5d6bfd8917679a4e29b4f0575c4b`. Poprawna = jedyna najdłuższa: **80/726 = 11,02%**. Kompetencje teorii <6: **54**.
 
-**Stan 4x299:** 725 `needs_review`, 0 `verified`; SHA `478c5ba299128427091e56dded4a19dddfaf0688`. Poprawna = jedyna najdłuższa: **79/725 = 10,90%**. Kompetencje teorii <6: **55**.
+**Stan 4x299:** 725 `needs_review`, 0 `verified`; SHA `478c5ba299128427091e56dded4a19dddfaf0688`. Poprawna = jedyna najdłuższa: **79/725 = 10,77%**. Kompetencje teorii <6: **55**.
 
 **Stan 4x298:** 724 `needs_review`, 0 `verified`; SHA `ede1889d5ee07f9cb85a299a4ca095ebb897d034`. Poprawna = jedyna najdłuższa: **78/724 = 10,77%**. Kompetencje teorii <6 pytań: **56**.
 
