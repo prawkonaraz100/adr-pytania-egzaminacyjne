@@ -34,8 +34,13 @@ class SourceProbe(unittest.TestCase):
                     if install.returncode: return
                     from pypdf import PdfReader
                 reader=PdfReader(str(p))
-                pages=[page.extract_text(extraction_mode="layout") or "" for page in reader.pages]
+                pages=[""] * len(reader.pages)
+                for ix in [262,263,268,280,281,282,283,597,598,611,615,616,630,631,644]:
+                    pages[ix]=reader.pages[ix].extract_text(extraction_mode="layout") or ""
             print("SOURCE_PROBE_PAGE_COUNT",len(pages))
+            for idx in [262,263,268,280,281,282,283,597,598,611,615,616,630,631,644]:
+                content=" ".join(pages[idx].split())
+                print(f"SOURCE_PROBE_PAGE_DETAIL PDF_PAGE {idx+1} TEXT {content[:3400]}")
             for term in CLAUSES:
                 found=0
                 for number,page in enumerate(pages):
