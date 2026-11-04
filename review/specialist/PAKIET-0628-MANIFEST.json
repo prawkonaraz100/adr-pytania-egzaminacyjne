@@ -11,7 +11,7 @@
   "formal_approvals": 0,
   "review_index": "review/specialist/REJESTR-AKTUALNY-0001-0780.md",
   "source_ledger": "review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json",
-  "unresolved_literal_comparisons": 678,
+  "unresolved_literal_comparisons": 663,
   "modules": {
     "ADR-B-01": {
       "questions": 54,
@@ -218,8 +218,8 @@
     "questions": 770,
     "learner_exam_instructions": 1
   },
-  "last_literal_comparison_batch": "ADR-B-0061–0075 (OCR first pass, 9 OK, 5 POPRAW, 1 BLOKUJ)",
-  "literal_comparison_note": "Według źródłowego ledgera 780 pytań: 678 not_retrieved, 27 targeted_pending, 75 OCR recorded, 83 niepuste literal_comparison_result (75 OCR oraz 8 wcześniejszych celowanych wyników). W 0072 blokada obrazu tabeli, zero zatwierdzeń.",
+  "last_literal_comparison_batch": "ADR-B-0076–0090 (7 OK, 6 POPRAW, 2 BLOKUJ)",
+  "literal_comparison_note": "780 pytań needs_review, 663 bez pełnego porównania, 27 celowanych kontroli oczekujących pełnego porównania, 90 OCR Dz.U. (w tym BLOKUJ 0083–0084 do obejrzenia tabeli), 98 rekordów z zapisanym wynikiem porównania (90 OCR i 8 wcześniejszych wyników celowanych). Brak formalnych zatwierdzeń i verified.",
   "stage4x18": {
     "bank_blob_sha": "377881849d1d1a643873567b1f68c359bef2358d",
     "question_count": 609,
@@ -289,13 +289,13 @@
     "note": "Priority list is not exhaustive. Every question remains needs_review until a real specialist approves it; all ADR 2027 sensitivity registers remain relevant."
   },
   "literal_comparison_status_counts": {
-    "official_polish_text_not_retrieved": 678,
+    "official_polish_text_not_retrieved": 663,
     "targeted_source_checked_full_literal_comparison_pending": 27,
-    "records_with_recorded_targeted_comparison_result": 83,
+    "records_with_recorded_targeted_comparison_result": 98,
     "compared_against_ministry_published_polish_copy_specialist_and_gazette_confirmation_pending": 0,
     "specialist_reviews_pending": 780,
     "verified": 0,
-    "gazette_pdf_ocr_comparison_recorded": 75
+    "gazette_pdf_ocr_comparison_recorded": 90
   },
   "stage4x19": {
     "purpose": "Reconcile ledger evidence states; counts describe evidence coverage, not legal approval",
@@ -421,14 +421,14 @@
     "confirmed_discrepancies": 0
   },
   "specialist_open_items": {
-    "official_polish_text_not_retrieved": 678,
+    "official_polish_text_not_retrieved": 663,
     "ministerial_copy_exact_quote_not_saved": 144,
     "targeted_source_checked_full_literal_comparison_pending": 27,
     "specialist_reviews_pending": 780,
     "verified": 0,
     "formal_approvals": 0,
-    "note": "780 pytań nadal needs_review; 678 bez pobranego pełnego fragmentu polskiego ADR, 27 celowanych kontroli oczekuje pełnego porównania, 75 zapisanych porównań OCR Dz.U. (w tym 0072 BLOKUJ do potwierdzenia na obrazie tabeli). Ledger wykazuje 83 rekordy z wynikiem porównania, w tym 8 wcześniejszych kontroli celowanych. 0 formalnych zatwierdzeń, 0 verified.",
-    "gazette_pdf_ocr_comparison_recorded": 75
+    "note": "780 pytań needs_review, 663 bez pełnego porównania, 27 celowanych kontroli oczekujących pełnego porównania, 90 OCR Dz.U. (w tym BLOKUJ 0083–0084 do obejrzenia tabeli), 98 rekordów z zapisanym wynikiem porównania (90 OCR i 8 wcześniejszych wyników celowanych). Brak formalnych zatwierdzeń i verified.",
+    "gazette_pdf_ocr_comparison_recorded": 90
   },
   "stage4x25": {
     "status": "complete_editorial_and_mock_exam_sync",
