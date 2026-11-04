@@ -2,15 +2,15 @@
   "scope": "ADR-BASIC-ONLY",
   "batch": "ADR-B-0091..0105",
   "source": "Dz.U. 2025 poz. 642, sprostowanie poz. 1575",
-  "source_method": "Polski tekst OCR dostarczony przez użytkownika; cytaty podawane literalnie zgodnie z OCR po scaleniu podziałów wierszy. Obrazu wzorów nalepek z Dz.U. s.944–947 nie udało się uzyskać; 0099 pozostaje BLOKUJ, bez twierdzenia o wizualnej weryfikacji. Brak zatwierdzenia prawnego.",
-  "status": "first_literal_ocr_comparison_recorded_pending_independent_image_review",
+  "source_method": "Kontrola pierwsza polskiego OCR Dz.U. 2025 poz.642; niezależna kontrola druga użytkownika potwierdziła obrazy nalepek 9/9A na Dz.U. s.949. Wszystkie rekordy pozostają needs_review, bez formalnej aprobaty.",
+  "status": "second_literal_review_recorded_specialist_approval_pending",
   "previous_uncompared": 663,
   "compared_ocr": 15,
   "remaining_without_comparison": 648,
   "counts": {
-    "OK": 12,
-    "POPRAW": 2,
-    "BLOKUJ": 1
+    "OK": 10,
+    "POPRAW": 5,
+    "BLOKUJ": 0
   },
   "verified": 0,
   "question_status": "needs_review",
@@ -20,14 +20,14 @@
       "page": "23",
       "clause": "1.1.3.1(a)",
       "quote": "przewozu towarów niebezpiecznych wykonywanego przez osoby prywatne, jeżeli towary te znajdują się w opakowaniach stosowanych w sprzedaży detalicznej i służą tym osobom do osobistego użytku",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "B",
       "reference_and_value_assessment": "Wyłączenie dotyczy osoby prywatnej i własnych potrzeb, nie handlowego zakupu firmy. A/C fałszywie utożsamiają odsprzedaż z użytkiem prywatnym. Explanation jest jasne, cztery zdania i 377 znaków.",
       "correct_option_assessment": "Wyłączenie dotyczy osoby prywatnej i własnych potrzeb, nie handlowego zakupu firmy. A/C fałszywie utożsamiają odsprzedaż z użytkiem prywatnym. Explanation jest jasne, cztery zdania i 377 znaków.",
       "distractors_and_format_assessment": "Wyłączenie dotyczy osoby prywatnej i własnych potrzeb, nie handlowego zakupu firmy. A/C fałszywie utożsamiają odsprzedaż z użytkiem prywatnym. Explanation jest jasne, cztery zdania i 377 znaków.",
       "answer_hint_assessment": "Wyłączenie dotyczy osoby prywatnej i własnych potrzeb, nie handlowego zakupu firmy. A/C fałszywie utożsamiają odsprzedaż z użytkiem prywatnym. Explanation jest jasne, cztery zdania i 377 znaków.",
       "learner_explanation_assessment": "Wyłączenie dotyczy osoby prywatnej i własnych potrzeb, nie handlowego zakupu firmy. A/C fałszywie utożsamiają odsprzedaż z użytkiem prywatnym. Explanation jest jasne, cztery zdania i 377 znaków.",
-      "fix": null
+      "fix": "Zastosowany pełny rekord POPRAWKI-KONTROLA2-0091-0105.jsonl"
     },
     {
       "id": "ADR-B-0092",
@@ -41,21 +41,21 @@
       "distractors_and_format_assessment": "Nadzór bezpośredni wynika wprost z 1.3.1. A i B dopuszczają pracę samodzielną, zatem są błędne. Pierwotna C miała 52 znaki, przy B 94, co dawało wyraźną wskazówkę długości; poprawiono wyrównanie opcji. Wyjaśnienie >=300 znaków i 5 zdań.",
       "answer_hint_assessment": "Nadzór bezpośredni wynika wprost z 1.3.1. A i B dopuszczają pracę samodzielną, zatem są błędne. Pierwotna C miała 52 znaki, przy B 94, co dawało wyraźną wskazówkę długości; poprawiono wyrównanie opcji. Wyjaśnienie >=300 znaków i 5 zdań.",
       "learner_explanation_assessment": "Nadzór bezpośredni wynika wprost z 1.3.1. A i B dopuszczają pracę samodzielną, zatem są błędne. Pierwotna C miała 52 znaki, przy B 94, co dawało wyraźną wskazówkę długości; poprawiono wyrównanie opcji. Wyjaśnienie >=300 znaków i 5 zdań.",
-      "fix": "Pełny rekord w POPRAWKI-0091-0105.jsonl; nie zastosowany do banku"
+      "fix": "Zastosowany pełny rekord POPRAWKI-KONTROLA2-0091-0105.jsonl"
     },
     {
       "id": "ADR-B-0093",
-      "page": "686; 25–28",
-      "clause": "3.4.1; 1.1.3.6",
-      "quote": "Przepisy niniejszego działu mają zastosowanie do przewozu towarów niebezpiecznych niektórych klas, zapakowanych w ilościach ograniczonych.",
+      "page": "25; 28; 686",
+      "clause": "1.1.3.4.2; 1.1.3.6.5; 3.4.1",
+      "quote": "Na użytek niniejszego podrozdziału nie powinny być brane pod uwagę towary niebezpieczne wyłączone zgodnie z przepisami podanymi w 1.1.3.1 (a) i (d) do (f), 1.1.3.2 do 1.1.3.5.",
       "verdict": "POPRAW",
       "key": "A",
-      "reference_and_value_assessment": "LQ z 3.4 i ilościowe wyłączenie z 1.1.3.6 są różnymi systemami. B/C błędnie uważają LQ za potwierdzenie obliczenia kategorii transportowej. Pierwotne „zawsze” w pytaniu pozwalało wybrać „Nie” bez znajomości reguły. Zmieniono scenariusz i zawężono sources do 3.4.1 oraz 1.1.3.6.1–1.1.3.6.4.",
+      "reference_and_value_assessment": "Wyłączenie 1.1.3.4.2 dla LQ mieści się w odesłaniu 1.1.3.6.5 do 1.1.3.2–1.1.3.5. Przesyłek LQ nie dolicza się do limitu 1.1.3.6; klucz A pozostaje, nowe opcje usuwają częściową prawdziwość dotychczasowego C.",
       "correct_option_assessment": "LQ z 3.4 i ilościowe wyłączenie z 1.1.3.6 są różnymi systemami. B/C błędnie uważają LQ za potwierdzenie obliczenia kategorii transportowej. Pierwotne „zawsze” w pytaniu pozwalało wybrać „Nie” bez znajomości reguły. Zmieniono scenariusz i zawężono sources do 3.4.1 oraz 1.1.3.6.1–1.1.3.6.4.",
       "distractors_and_format_assessment": "LQ z 3.4 i ilościowe wyłączenie z 1.1.3.6 są różnymi systemami. B/C błędnie uważają LQ za potwierdzenie obliczenia kategorii transportowej. Pierwotne „zawsze” w pytaniu pozwalało wybrać „Nie” bez znajomości reguły. Zmieniono scenariusz i zawężono sources do 3.4.1 oraz 1.1.3.6.1–1.1.3.6.4.",
       "answer_hint_assessment": "LQ z 3.4 i ilościowe wyłączenie z 1.1.3.6 są różnymi systemami. B/C błędnie uważają LQ za potwierdzenie obliczenia kategorii transportowej. Pierwotne „zawsze” w pytaniu pozwalało wybrać „Nie” bez znajomości reguły. Zmieniono scenariusz i zawężono sources do 3.4.1 oraz 1.1.3.6.1–1.1.3.6.4.",
       "learner_explanation_assessment": "LQ z 3.4 i ilościowe wyłączenie z 1.1.3.6 są różnymi systemami. B/C błędnie uważają LQ za potwierdzenie obliczenia kategorii transportowej. Pierwotne „zawsze” w pytaniu pozwalało wybrać „Nie” bez znajomości reguły. Zmieniono scenariusz i zawężono sources do 3.4.1 oraz 1.1.3.6.1–1.1.3.6.4.",
-      "fix": "Pełny rekord w POPRAWKI-0091-0105.jsonl; nie zastosowany do banku"
+      "fix": "Zastosowany pełny rekord POPRAWKI-KONTROLA2-0091-0105.jsonl"
     },
     {
       "id": "ADR-B-0094",
@@ -75,7 +75,7 @@
       "id": "ADR-B-0095",
       "page": "182",
       "clause": "2.2.42.1.1",
-      "quote": "2.2.42 Klasa 4.2 Materiały podatne na samozapalenie",
+      "quote": "Tytuł klasy 4.2 obejmuje: – Materiały piroforyczne, które jako substancje, mieszaniny i roztwory (ciekłe lub stałe), w zetknięciu z powietrzem, nawet w małych ilościach, zapalają się w ciągu 5 minut.",
       "verdict": "OK",
       "key": "C",
       "reference_and_value_assessment": "2.2.42.1.1 obejmuje piroforyczne oraz samonagrzewające się; C 4.2 jest jedynym kluczem. A 4.1 i B 5.2 to inne klasy. Wyjaśnienie ma 342 znaki i cztery zdania.",
@@ -103,7 +103,7 @@
       "id": "ADR-B-0097",
       "page": "214",
       "clause": "2.2.61.1.1",
-      "quote": "2.2.61 Klasa 6.1 Materiały trujące",
+      "quote": "Tytuł klasy 6.1 obejmuje materiały, o których z praktyki wiadomo, lub co do których istnieje domniemanie na podstawie badań na zwierzętach, że mogą one – wskutek jednorazowego lub krótkotrwałego działania w stosunkowo małych dawkach – spowodować uszczerbek na zdrowiu lub śmierć człowieka w wyniku ich wdychania, przenikania przez skórę lub połknięcia.",
       "verdict": "OK",
       "key": "B",
       "reference_and_value_assessment": "Klucz B jest zgodny z tytułem klasy 6.1 i definicją. 6.2 to zakaźne, 8 żrące. Jedyna prawidłowa, brak zdradliwego formatu; explanation 386 znaków.",
@@ -117,7 +117,7 @@
       "id": "ADR-B-0098",
       "page": "234",
       "clause": "2.2.7.1; 2.2.7.1.1",
-      "quote": "2.2.7 Klasa 7 Materiały promieniotwórcze",
+      "quote": "Materiał promieniotwórczy oznacza każdy materiał zawierający izotopy promieniotwórcze, w którym zarówno stężenie promieniotwórcze, jak i aktywność całkowita przesyłki przekraczają wartości podane w 2.2.7.2.2.1 do 2.2.7.2.2.6.",
       "verdict": "OK",
       "key": "C",
       "reference_and_value_assessment": "Klasa 7 jest wskazana dosłownie. A 6.2 oraz B 9 to inne grupy zagrożeń. Definicja w 2.2.7.1.1 obejmuje wartości progowe; pytanie nie wymaga ich wyliczenia. Explanation 387 znaków, pięć zdań.",
@@ -129,17 +129,17 @@
     },
     {
       "id": "ADR-B-0099",
-      "page": "273; 944–947",
+      "page": "949",
       "clause": "2.2.9.1.1; 5.2.2.2.2",
-      "quote": "2.2.9 Klasa 9 Różne materiały i przedmioty niebezpieczne",
-      "verdict": "BLOKUJ",
+      "quote": "Zagrożenie klasy 9: Różne materiały i przedmioty niebezpieczne. Wzór 9: siedem pionowych pasów w górnej połowie, czarny; białe tło; podkreślona cyfra 9 czarna. Wzór 9A: siedem pionowych pasów w górnej połowie, czarny; w dolnej połowie grupa baterii, jedna uszkodzona i emitująca płomień, czarny; białe tło; podkreślona cyfra 9 czarna.",
+      "verdict": "OK",
       "key": "A",
-      "reference_and_value_assessment": "Klasa 9 jest potwierdzona tekstowo. Jednak wzory nalepek 9 i 9A w 5.2.2.2.2 są ilustracjami, a strony OCR 944–947 nie zawierają czytelnych rysunków. Bez obejrzenia obrazu nie potwierdzam niezależnie przypisania obu wzorów. Klucz A prawdopodobny; B i C wskazują klasy 5.1 i 8. Wszystkie długości odpowiedzi zbliżone, explanation 348 znaków. BLOKUJ do weryfikacji skanu.",
-      "correct_option_assessment": "Klasa 9 jest potwierdzona tekstowo. Jednak wzory nalepek 9 i 9A w 5.2.2.2.2 są ilustracjami, a strony OCR 944–947 nie zawierają czytelnych rysunków. Bez obejrzenia obrazu nie potwierdzam niezależnie przypisania obu wzorów. Klucz A prawdopodobny; B i C wskazują klasy 5.1 i 8. Wszystkie długości odpowiedzi zbliżone, explanation 348 znaków. BLOKUJ do weryfikacji skanu.",
-      "distractors_and_format_assessment": "Klasa 9 jest potwierdzona tekstowo. Jednak wzory nalepek 9 i 9A w 5.2.2.2.2 są ilustracjami, a strony OCR 944–947 nie zawierają czytelnych rysunków. Bez obejrzenia obrazu nie potwierdzam niezależnie przypisania obu wzorów. Klucz A prawdopodobny; B i C wskazują klasy 5.1 i 8. Wszystkie długości odpowiedzi zbliżone, explanation 348 znaków. BLOKUJ do weryfikacji skanu.",
-      "answer_hint_assessment": "Klasa 9 jest potwierdzona tekstowo. Jednak wzory nalepek 9 i 9A w 5.2.2.2.2 są ilustracjami, a strony OCR 944–947 nie zawierają czytelnych rysunków. Bez obejrzenia obrazu nie potwierdzam niezależnie przypisania obu wzorów. Klucz A prawdopodobny; B i C wskazują klasy 5.1 i 8. Wszystkie długości odpowiedzi zbliżone, explanation 348 znaków. BLOKUJ do weryfikacji skanu.",
-      "learner_explanation_assessment": "Klasa 9 jest potwierdzona tekstowo. Jednak wzory nalepek 9 i 9A w 5.2.2.2.2 są ilustracjami, a strony OCR 944–947 nie zawierają czytelnych rysunków. Bez obejrzenia obrazu nie potwierdzam niezależnie przypisania obu wzorów. Klucz A prawdopodobny; B i C wskazują klasy 5.1 i 8. Wszystkie długości odpowiedzi zbliżone, explanation 348 znaków. BLOKUJ do weryfikacji skanu.",
-      "fix": "Sprawdzić obrazy nalepek 9/9A na Dz.U. s.944–947"
+      "reference_and_value_assessment": "Kontrola druga obrazu s.949 potwierdziła oba wzory klasy 9, klucz A i dystraktory B/C. BLOKUJ zdjęte.",
+      "correct_option_assessment": "Kontrola druga obrazu s.949 potwierdziła oba wzory klasy 9, klucz A i dystraktory B/C. BLOKUJ zdjęte.",
+      "distractors_and_format_assessment": "Kontrola druga obrazu s.949 potwierdziła oba wzory klasy 9, klucz A i dystraktory B/C. BLOKUJ zdjęte.",
+      "answer_hint_assessment": "Kontrola druga obrazu s.949 potwierdziła oba wzory klasy 9, klucz A i dystraktory B/C. BLOKUJ zdjęte.",
+      "learner_explanation_assessment": "Kontrola druga obrazu s.949 potwierdziła oba wzory klasy 9, klucz A i dystraktory B/C. BLOKUJ zdjęte.",
+      "fix": null
     },
     {
       "id": "ADR-B-0100",
@@ -188,14 +188,14 @@
       "page": "1332",
       "clause": "8.3.5",
       "quote": "Niniejszy zakaz palenia ma również zastosowanie do używania elektronicznych papierosów i podobnych urządzeń.",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "B",
       "reference_and_value_assessment": "Zakaz e-papierosów dotyczy manipulowania ładunkiem, w tym rozładunku. A zakłada wyjątek braku płomienia, C wyjątek wyłączonego silnika; brak takich wyjątków. Długości opcji 81/90/101, klucz nie jest najdłuższy, explanation 367 znaków.",
       "correct_option_assessment": "Zakaz e-papierosów dotyczy manipulowania ładunkiem, w tym rozładunku. A zakłada wyjątek braku płomienia, C wyjątek wyłączonego silnika; brak takich wyjątków. Długości opcji 81/90/101, klucz nie jest najdłuższy, explanation 367 znaków.",
       "distractors_and_format_assessment": "Zakaz e-papierosów dotyczy manipulowania ładunkiem, w tym rozładunku. A zakłada wyjątek braku płomienia, C wyjątek wyłączonego silnika; brak takich wyjątków. Długości opcji 81/90/101, klucz nie jest najdłuższy, explanation 367 znaków.",
       "answer_hint_assessment": "Zakaz e-papierosów dotyczy manipulowania ładunkiem, w tym rozładunku. A zakłada wyjątek braku płomienia, C wyjątek wyłączonego silnika; brak takich wyjątków. Długości opcji 81/90/101, klucz nie jest najdłuższy, explanation 367 znaków.",
       "learner_explanation_assessment": "Zakaz e-papierosów dotyczy manipulowania ładunkiem, w tym rozładunku. A zakłada wyjątek braku płomienia, C wyjątek wyłączonego silnika; brak takich wyjątków. Długości opcji 81/90/101, klucz nie jest najdłuższy, explanation 367 znaków.",
-      "fix": null
+      "fix": "Zastosowany pełny rekord POPRAWKI-KONTROLA2-0091-0105.jsonl"
     },
     {
       "id": "ADR-B-0104",
@@ -216,14 +216,14 @@
       "page": "975",
       "clause": "5.4.3.4, instrukcje pisemne",
       "quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych;",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "A",
       "reference_and_value_assessment": "A podaje informacje o awarii i towarach, w tym dostępny UN. B/C pomijają kluczowe dane o zdarzeniu lub ładunku. Skrót „np.” występuje tylko w opcji, nie dzieli zdań wyjaśnienia; explanation 356 znaków, cztery zdania.",
       "correct_option_assessment": "A podaje informacje o awarii i towarach, w tym dostępny UN. B/C pomijają kluczowe dane o zdarzeniu lub ładunku. Skrót „np.” występuje tylko w opcji, nie dzieli zdań wyjaśnienia; explanation 356 znaków, cztery zdania.",
       "distractors_and_format_assessment": "A podaje informacje o awarii i towarach, w tym dostępny UN. B/C pomijają kluczowe dane o zdarzeniu lub ładunku. Skrót „np.” występuje tylko w opcji, nie dzieli zdań wyjaśnienia; explanation 356 znaków, cztery zdania.",
       "answer_hint_assessment": "A podaje informacje o awarii i towarach, w tym dostępny UN. B/C pomijają kluczowe dane o zdarzeniu lub ładunku. Skrót „np.” występuje tylko w opcji, nie dzieli zdań wyjaśnienia; explanation 356 znaków, cztery zdania.",
       "learner_explanation_assessment": "A podaje informacje o awarii i towarach, w tym dostępny UN. B/C pomijają kluczowe dane o zdarzeniu lub ładunku. Skrót „np.” występuje tylko w opcji, nie dzieli zdań wyjaśnienia; explanation 356 znaków, cztery zdania.",
-      "fix": null
+      "fix": "Zastosowany pełny rekord POPRAWKI-KONTROLA2-0091-0105.jsonl"
     }
   ]
 }
