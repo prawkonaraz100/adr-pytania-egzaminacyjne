@@ -102,14 +102,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Towar niebezpieczny dopuszczony do przewozu jako LQ umieszczono w zwykłym odpowiednim opakowaniu zewnętrznym z opakowaniami wewnętrznymi. Ile może wynosić co do zasady maksymalna masa brutto takiej sztuki przesyłki zgodnie z ADR 3.4.2?",
+        "stem": "Pakujesz aerozole dopuszczone do przewozu w ilościach ograniczonych (LQ) do odpowiedniego pudła. Czy ADR wymaga dodatkowego opakowania wewnętrznego dla każdego aerozolu?",
         "options": {
-          "A": "20 kg dla każdego rodzaju opakowania bez wyjątków",
-          "B": "50 kg, bo stosuje się wyłączenie LQ",
-          "C": "30 kg, z zastrzeżeniem warunków odpowiednich przepisów"
+          "A": "Tak. Każdy aerozol w pudle musi mieć jeszcze osobne opakowanie wewnętrzne.",
+          "B": "Nie. Aerozole można przewozić luzem, bez odpowiedniego opakowania zewnętrznego.",
+          "C": "Nie. Aerozole można włożyć wprost do odpowiedniego opakowania zewnętrznego."
         },
         "correct_option": "C",
-        "explanation": "Dla zwykłego opakowania zewnętrznego z opakowaniami wewnętrznymi w systemie LQ maksymalna masa brutto sztuki przesyłki wynosi co do zasady 30 kg. To nie jest 50 kg, a limit 20 kg dotyczy innego sposobu pakowania, na przykład tac owiniętych folią. Chodzi o masę całej sztuki przesyłki, a nie samej zawartości ani ładowność pojazdu. Podstawa: ADR 3.4.2.",
+        "explanation": "Przy przewozie aerozoli w ilościach ograniczonych ADR pozwala umieścić je bezpośrednio w odpowiednim opakowaniu zewnętrznym. Nie trzeba wkładać każdego aerozolu do dodatkowego opakowania wewnętrznego. Nadal trzeba prawidłowo zapakować sztukę przesyłki i spełnić pozostałe warunki LQ, w tym właściwe limity ilości i masy. Podstawa: ADR 3.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -124,7 +124,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Full Polish official comparison including correction and specialist approval pending.",
+      "source_risk_note": "Kontrola 2: wyjątek dla aerozoli potwierdzono na obrazie s. 686 Dz.U. 2025 poz. 642, pkt 3.4.2. Sprostowanie nie zmienia tej reguły.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
