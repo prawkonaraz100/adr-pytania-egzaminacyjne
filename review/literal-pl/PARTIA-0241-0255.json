@@ -1,0 +1,489 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0241..0255",
+  "source": "Dz.U. 2025 poz.642; sprostowanie poz.1575",
+  "source_method": "Pierwsze porównanie polskiego tekstu OCR z paginacją z nagłówków Dziennika Ustaw; bez twierdzenia o niezależnym oglądzie każdego obrazu. Porównanie kandydatów z całym bankiem 780 rekordów po punkcie, temacie i treści; zidentyfikowano nadal zbliżone propozycje wymagające niezależnej drugiej kontroli.",
+  "status": "first_literal_review_completed_pending_second_image_check",
+  "previous_uncompared": 513,
+  "compared_literal": 15,
+  "remaining_without_comparison": 498,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "question_status": "needs_review",
+  "proposal_applied_to_bank": false,
+  "records": [
+    {
+      "id": "ADR-B-0241",
+      "verdict": "POPRAW",
+      "clause": "5.4.1.1.6.3(b)",
+      "page": 965,
+      "quote": "Jeżeli próżne nieoczyszczone pojazdy lub kontenery przewożone są zgodnie z przepisem 7.5.8.1 do najbliższego miejsca, w którym mogą być oczyszczone lub naprawione, to w dokumencie przewozowym powinien być zamieszczony dodatkowo następujący zapis: „PRZEWÓZ ZGODNY Z 7.5.8.1”.",
+      "correct_option": "A",
+      "legal_analysis": "Poprawna litera A, lecz wcześniejsze dystraktory miały formę absurdalną; redakcja całych odpowiedzi.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Wskazanie, że przewóz odbywa się zgodnie z 7.5.8.1",
+        "B": "Wpisać, że kontener został oczyszczony",
+        "C": "Pominąć dane o przewozie i jego warunkach z uwagi na opróżnienie kontenera przed podróżą"
+      },
+      "duplicate_candidates": [],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Pusty nieoczyszczony kontener z pozostałościami ADR jedzie do najbliższego miejsca czyszczenia według 7.5.8.1. Co dodatkowo wpisać do dokumentu przewozowego?",
+      "proposal_sources": [
+        "ADR 2025, 5.4.1.1.6.3(b); 7.5.8.1"
+      ],
+      "proposal_key": "A",
+      "proposal_explanation_length": 448,
+      "proposal_option_lengths": {
+        "A": 60,
+        "B": 51,
+        "C": 68
+      }
+    },
+    {
+      "id": "ADR-B-0242",
+      "verdict": "POPRAW",
+      "clause": "8.1.5.3",
+      "page": 1325,
+      "quote": "osłona otworów kanalizacyjnych",
+      "correct_option": "B",
+      "legal_analysis": "Oryginał powtarzał ochronę kratki z 0100; zaproponowano zastosowanie osłony i warunku bezpieczeństwa. Ryzyko podobieństwa z 0163, 0612 i 0494 do kontroli drugiej.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Nawet gdy musi wejść w nieznaną substancję",
+        "B": "Tylko jeśli można to zrobić bezpiecznie",
+        "C": "Nigdy nie wolno chronić kanalizacji"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0100",
+        "ADR-B-0163",
+        "ADR-B-0612",
+        "ADR-B-0494"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Podczas wycieku cieczy klasy 3 kierowca ma osłonę kratki kanalizacyjnej z wyposażenia. Kiedy może ją ułożyć, aby ograniczyć odpływ?",
+      "proposal_sources": [
+        "ADR 2025, 5.4.3.4; 8.1.5.3"
+      ],
+      "proposal_key": "B",
+      "proposal_explanation_length": 533,
+      "proposal_option_lengths": {
+        "A": 60,
+        "B": 70,
+        "C": 72
+      }
+    },
+    {
+      "id": "ADR-B-0243",
+      "verdict": "POPRAW",
+      "clause": "8.3.3",
+      "page": 1332,
+      "quote": "Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne.",
+      "correct_option": "C",
+      "legal_analysis": "Powtórzenie 8.3.3; nowa propozycja rozróżnia osoby wprost objęte zakazem i innych pracowników, bez uznawania dowolnego otwierania za dozwolone.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Tak, jeśli założy rękawice i nie dotknie samego towaru.",
+        "B": "Tak, jeśli paczka nie jest uszkodzona, a kontrola potrwa tylko chwilę.",
+        "C": "Nie; oznakowanie należy sprawdzić z zewnątrz, bez otwierania paczki."
+      },
+      "duplicate_candidates": [
+        "ADR-B-0357",
+        "ADR-B-0678"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Kierowca pyta, czy zakaz otwierania sztuk przesyłek z ADR 8.3.3 wprost dotyczy również wszystkich pracowników magazynu. Jaki jest dokładny zakres tego zakazu?",
+      "proposal_sources": [
+        "ADR 2025, 8.3.3"
+      ],
+      "proposal_key": "C",
+      "proposal_explanation_length": 487,
+      "proposal_option_lengths": {
+        "A": 68,
+        "B": 54,
+        "C": 57
+      }
+    },
+    {
+      "id": "ADR-B-0244",
+      "verdict": "POPRAW",
+      "clause": "8.3.6",
+      "page": 1332,
+      "quote": "Silnik pojazdu nie powinien pracować podczas załadunku i rozładunku, z wyjątkiem przypadków, gdy uruchomienie silnika jest niezbędne dla pracy pomp lub innych urządzeń zapewniających załadunek lub rozładunek pojazdu oraz gdy zezwalają na to przepisy państwa, na którego terytorium znajduje się pojazd.",
+      "correct_option": "A",
+      "legal_analysis": "Oryginał powtarzał obowiązek wyłączenia silnika; propozycja pyta o łączny warunek niezbędnej pompy i prawa państwa. Ryzyko podobieństwa do 0358.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Wyłączyć silnik",
+        "B": "Pozostawić silnik na biegu jałowym",
+        "C": "Pozostawić silnik włączony, jeśli załadunek trwa tylko kilka minut"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0012",
+        "ADR-B-0047",
+        "ADR-B-0358",
+        "ADR-B-0359",
+        "ADR-B-0515"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Przy rozładunku pompa potrzebuje napędu silnikiem ciężarówki, a przepisy państwa, w którym stoi pojazd, dopuszczają taką pracę. Czy silnik można pozostawić włączony?",
+      "proposal_sources": [
+        "ADR 2025, 8.3.6"
+      ],
+      "proposal_key": "A",
+      "proposal_explanation_length": 443,
+      "proposal_option_lengths": {
+        "A": 64,
+        "B": 64,
+        "C": 64
+      }
+    },
+    {
+      "id": "ADR-B-0245",
+      "verdict": "POPRAW",
+      "clause": "1.4.3.1.1(b)",
+      "page": 57,
+      "quote": "obowiązek ten dotyczy również próżnych nieoczyszczonych opakowań",
+      "correct_option": "B",
+      "legal_analysis": "Oryginał był schematycznym pytaniem o wyciek; nowe dotyczy także próżnego nieoczyszczonego opakowania z uszkodzeniem bez widocznego wycieku.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Schować paczkę za innymi opakowaniami",
+        "B": "Nie ładować przesyłki przed usunięciem wycieku",
+        "C": "Odłożyć ją na bok i wpisać wyciek do dokumentu bez naprawy"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0020",
+        "ADR-B-0054"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Próżny nieoczyszczony kanister po materiale ADR ma pęknięcie, lecz obecnie nic z niego nie wycieka. Czy załadowca może go wydać przewoźnikowi?",
+      "proposal_sources": [
+        "ADR 2025, 1.4.3.1.1(b)"
+      ],
+      "proposal_key": "B",
+      "proposal_explanation_length": 460,
+      "proposal_option_lengths": {
+        "A": 41,
+        "B": 60,
+        "C": 69
+      }
+    },
+    {
+      "id": "ADR-B-0246",
+      "verdict": "POPRAW",
+      "clause": "1.4.2.3.3",
+      "page": 57,
+      "quote": "Jeżeli odbiorca korzysta z usług innych uczestników przewozu (w zakresie rozładunku, czyszczenia, odkażania, itp.), to powinien zastosować odpowiednie środki w celu zapewnienia zgodności z wymaganiami ADR podanymi w 1.4.2.3.1 i 1.4.2.3.2.",
+      "correct_option": "C",
+      "legal_analysis": "Oryginał powtarzał przyjęcie bez zwłoki; propozycja analizuje podwykonawcę. Zbieżność z 0477 wymaga dalszego sprawdzenia i możliwej wymiany tematu.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Odroczyć przyjęcie ze względu na bieżącą organizację magazynu",
+        "B": "Przełożyć przyjęcie do końca zmiany",
+        "C": "Przyjąć dostawę bez nieuzasadnionej zwłoki"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0477"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Odbiorca zleca zewnętrznej firmie rozładunek i czyszczenie kontenera ADR. Czy sam fakt zawarcia umowy zwalnia go z zapewnienia zgodności czynności z ADR?",
+      "proposal_sources": [
+        "ADR 2025, 1.4.2.3.3"
+      ],
+      "proposal_key": "C",
+      "proposal_explanation_length": 455,
+      "proposal_option_lengths": {
+        "A": 62,
+        "B": 59,
+        "C": 59
+      }
+    },
+    {
+      "id": "ADR-B-0247",
+      "verdict": "POPRAW",
+      "clause": "1.1.4.2.1(c)",
+      "page": 29,
+      "quote": "w przypadku przewozu w łańcuchu transportowym zawierającym przewóz morski",
+      "correct_option": "B",
+      "legal_analysis": "Oryginał powtarzał ogólne łączenie z IMDG; nowe dotyczy ograniczenia podpunktu (c) tylko do łańcucha morskiego.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Tak, bezwarunkowo",
+        "B": "Nie, trzeba sprawdzić warunki stosowania 1.1.4.2.1 i właściwe wymogi dla odcinka drogowego",
+        "C": "Tak, jeśli kierowca zna nazwę statku"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0142",
+        "ADR-B-0206",
+        "ADR-B-0383"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Kontener jedzie ciężarówką na lotnisko, a potem samolotem. Ma duże nalepki IMDG zamiast ADR. Czy wystarcza to do zastosowania 1.1.4.2.1(c)?",
+      "proposal_sources": [
+        "ADR 2025, 1.1.4.2.1(c)"
+      ],
+      "proposal_key": "B",
+      "proposal_explanation_length": 466,
+      "proposal_option_lengths": {
+        "A": 64,
+        "B": 64,
+        "C": 58
+      }
+    },
+    {
+      "id": "ADR-B-0248",
+      "verdict": "POPRAW",
+      "clause": "8.6.3.1",
+      "page": 1338,
+      "quote": "Kod ograniczeń przewozu przez tunele podany jest w nawiasie w dolnej części komórki.",
+      "correct_option": "A",
+      "legal_analysis": "Oryginał powtarzał wskazanie kolumny 15; nowe pyta o dolne położenie kodu w komórce i odróżnienie od kategorii transportowej.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "W kolumnie 15",
+        "B": "W kolumnie 1, gdzie numer UN identyfikuje towar, bez potrzeby sprawdzania kolumny 15.",
+        "C": "W kolumnie 7a, ponieważ zawiera limit ilości ograniczonych dla danego towaru."
+      },
+      "duplicate_candidates": [
+        "ADR-B-0063",
+        "ADR-B-0208"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Kolumna (15) tabeli A zawiera kategorię transportową oraz kod ograniczeń tunelowych. W której części komórki należy szukać kodu tunelowego?",
+      "proposal_sources": [
+        "ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1"
+      ],
+      "proposal_key": "A",
+      "proposal_explanation_length": 483,
+      "proposal_option_lengths": {
+        "A": 62,
+        "B": 65,
+        "C": 61
+      }
+    },
+    {
+      "id": "ADR-B-0249",
+      "verdict": "POPRAW",
+      "clause": "1.1.3.6.2",
+      "page": 26,
+      "quote": "działu 1.10, z wyjątkiem towarów dużego ryzyka",
+      "correct_option": "C",
+      "legal_analysis": "Oryginał powtarzał niezweryfikowanego przewoźnika; nowe dotyczy wyłączenia 1.10 przy 1.1.3.6 i wyjątków dla klasy 1 i 7.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Sprawdzić tylko numer zlecenia i wydać towar bez dalszej weryfikacji",
+        "B": "Poprosić o telefoniczne potwierdzenie, ale nie sprawdzać tożsamości",
+        "C": "Zidentyfikować przewoźnika przed zaoferowaniem mu towaru do przewozu"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0120",
+        "ADR-B-0414"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Towar klasy 3 jest przewożony w ilości objętej zwolnieniem 1.1.3.6, z zachowaniem jego warunków. Czy wtedy obowiązuje identyfikacja przewoźnika z 1.10.1.2?",
+      "proposal_sources": [
+        "ADR 2025, 1.1.3.6.2; 1.10.1.2"
+      ],
+      "proposal_key": "C",
+      "proposal_explanation_length": 486,
+      "proposal_option_lengths": {
+        "A": 61,
+        "B": 59,
+        "C": 59
+      }
+    },
+    {
+      "id": "ADR-B-0250",
+      "verdict": "POPRAW",
+      "clause": "1.1.3.6.2",
+      "page": 26,
+      "quote": "działu 1.10, z wyjątkiem towarów dużego ryzyka",
+      "correct_option": "B",
+      "legal_analysis": "Oryginał pokrywał się z dowodami ze zdjęciem; nowe dotyczy wyłączenia 1.10.1.4 przy zwykłej klasie 3 w 1.1.3.6.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Wspólna lista nazwisk członków załogi bez ich indywidualnych dokumentów ze zdjęciem",
+        "B": "Dokumentu tożsamości ze zdjęciem każdego członka załogi",
+        "C": "Dokument ze zdjęciem tylko dla kierowcy, bez dokumentu dla pozostałych członków załogi"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0774",
+        "ADR-B-0778"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Załoga przewozi opakowania klasy 3 w ilości objętej zwolnieniem z 1.1.3.6. Czy ADR 1.10.1.4 wymaga od kierowcy i pomocnika dokumentów ze zdjęciem?",
+      "proposal_sources": [
+        "ADR 2025, 1.1.3.6.2; 1.10.1.4"
+      ],
+      "proposal_key": "B",
+      "proposal_explanation_length": 500,
+      "proposal_option_lengths": {
+        "A": 60,
+        "B": 56,
+        "C": 56
+      }
+    },
+    {
+      "id": "ADR-B-0251",
+      "verdict": "POPRAW",
+      "clause": "8.3.7",
+      "page": 1332,
+      "quote": "Przyczepy bez układu hamulcowego powinny być unieruchomione przy użyciu co najmniej jednego klina do podkładania pod koła",
+      "correct_option": "A",
+      "legal_analysis": "Oryginał powtarzał liczbę klinów; nowe dotyczy postoju odłączonej niehamowanej przyczepy, ale nadal przypomina 0352.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Jeden klin pod koła dla każdego pojazdu",
+        "B": "Jeden klin na cały zestaw",
+        "C": "Hamulec postojowy zastępuje kliny i wystarcza dla wszystkich pojazdów w jednostce"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0352",
+        "ADR-B-0509",
+        "ADR-B-0699"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Kierowca odłącza podczas postoju przyczepę bez własnego układu hamulcowego. Czego wymaga ADR, aby przyczepa nie mogła się stoczyć?",
+      "proposal_sources": [
+        "ADR 2025, 8.3.7; 8.1.5.2"
+      ],
+      "proposal_key": "A",
+      "proposal_explanation_length": 490,
+      "proposal_option_lengths": {
+        "A": 45,
+        "B": 62,
+        "C": 32
+      }
+    },
+    {
+      "id": "ADR-B-0252",
+      "verdict": "POPRAW",
+      "clause": "8.1.5.2",
+      "page": 1325,
+      "quote": "przenośne urządzenia oświetleniowe, zgodne z przepisami podanymi w 8.3.4",
+      "correct_option": "B",
+      "legal_analysis": "Oryginał dublował kamizelki załogi; propozycja bada osobiste przenośne oświetlenie, ale 0686 jest bardzo zbliżone.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Jedna kamizelka wystarcza, jeśli członkowie załogi zmieniają się przy pracy",
+        "B": "Każdy członek załogi powinien mieć własną kamizelkę ostrzegawczą",
+        "C": "Kamizelka jest potrzebna tylko kierowcy pojazdu prowadzącego"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0686"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Dwóch członków załogi ma po kamizelce, lecz w pojeździe ADR jest jedno przenośne urządzenie oświetleniowe. Jak ocenić takie wyposażenie?",
+      "proposal_sources": [
+        "ADR 2025, 8.1.5.2; 8.3.4"
+      ],
+      "proposal_key": "B",
+      "proposal_explanation_length": 481,
+      "proposal_option_lengths": {
+        "A": 64,
+        "B": 56,
+        "C": 47
+      }
+    },
+    {
+      "id": "ADR-B-0253",
+      "verdict": "POPRAW",
+      "clause": "8.1.5.2",
+      "page": 1325,
+      "quote": "ochrona oczu (np. okulary ochronne).",
+      "correct_option": "C",
+      "legal_analysis": "Oryginał powtarzał brak ochrony oczu; nowe odróżnia okulary korekcyjne od ochronnych.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Wystarczą same rękawice, jeśli trasa jest krótka",
+        "B": "Wystarczy okulary słoneczne bez sprawdzania wymagań",
+        "C": "Wyposażenie każdego członka załogi ma obejmować również ochronę oczu"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0076",
+        "ADR-B-0705"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Kierowca ma zwykłe okulary korekcyjne i rękawice. Czy same okulary poprawiające wzrok automatycznie spełniają wymóg ochrony oczu z ADR 8.1.5.2?",
+      "proposal_sources": [
+        "ADR 2025, 8.1.5.2"
+      ],
+      "proposal_key": "C",
+      "proposal_explanation_length": 500,
+      "proposal_option_lengths": {
+        "A": 65,
+        "B": 47,
+        "C": 62
+      }
+    },
+    {
+      "id": "ADR-B-0254",
+      "verdict": "POPRAW",
+      "clause": "8.1.5.3",
+      "page": 1325,
+      "quote": "Wymagane jest tylko w przypadku materiałów stałych i materiałów ciekłych, oznakowanych nalepkami ostrzegawczymi o numerach 3, 4.1, 4.3, 8 lub 9.",
+      "correct_option": "A",
+      "legal_analysis": "Oryginał dublował maski 2.3/6.1; nowa propozycja o zestawie dla nalepki 8 jest bliska 0681 i 0484, z których klucz wymaga niezależnego rozstrzygnięcia.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Maskę ucieczkową dla każdego członka załogi",
+        "B": "Dodatkowy klin pod koło",
+        "C": "Komplet wyposażenia strażackiego do gaszenia pożaru w przestrzeni ładunkowej"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0681",
+        "ADR-B-0484",
+        "ADR-B-0734"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Jednostka przewozi ciekły materiał żrący z nalepką 8 na pełnych zasadach ADR. Jakie dodatkowe wyposażenie do ograniczania wycieku wymienia 8.1.5.3?",
+      "proposal_sources": [
+        "ADR 2025, 8.1.5.3; 5.4.3.4"
+      ],
+      "proposal_key": "A",
+      "proposal_explanation_length": 522,
+      "proposal_option_lengths": {
+        "A": 59,
+        "B": 65,
+        "C": 52
+      }
+    },
+    {
+      "id": "ADR-B-0255",
+      "verdict": "POPRAW",
+      "clause": "5.3.2.2.2",
+      "page": 955,
+      "quote": "Numer rozpoznawczy zagrożenia i numer UN powinny być naniesione czarnymi cyframi o wysokości 100 mm i szerokości linii 15 mm.",
+      "correct_option": "B",
+      "legal_analysis": "Oryginał powtarzał pole numeru UN; nowe pytanie sprawdza wymiary cyfr ze standardowej tablicy, z uwzględnieniem wyjątków dla mniejszych tablic.",
+      "numbers_and_exceptions": "Sprawdzenie warunków przepisu i wartości w tekście OCR; dopuszczenia i wyjątki wymieniono w proponowanym explanation. Obraz strony wymaga niezależnej drugiej kontroli.",
+      "answer_options_review": {
+        "A": "Górne „33”",
+        "B": "Dolne „1203”",
+        "C": "Żadne z nich"
+      },
+      "duplicate_candidates": [
+        "ADR-B-0016",
+        "ADR-B-0190",
+        "ADR-B-0507"
+      ],
+      "proposal_file": "review/literal-pl/POPRAWKI-0241-0255.jsonl",
+      "proposal_stem": "Na standardowej numerowanej tablicy barwy pomarańczowej kierowca sprawdza rozmiary czarnych cyfr. Jakie wymiary określa 5.3.2.2.2?",
+      "proposal_sources": [
+        "ADR 2025, 5.3.2.2.2"
+      ],
+      "proposal_key": "B",
+      "proposal_explanation_length": 532,
+      "proposal_option_lengths": {
+        "A": 61,
+        "B": 41,
+        "C": 40
+      }
+    }
+  ]
+}
