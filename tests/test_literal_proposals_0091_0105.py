@@ -36,11 +36,11 @@ class Part7ProposalTests(unittest.TestCase):
             self.assertEqual(len(set(proposed["options"].values())), 3)
             exp = proposed["explanation"].strip()
             self.assertGreaterEqual(len(exp), 300)
-            sentences = re.split(r"(?<=[.!?])\\s+", exp)
+            sentences = re.split(r"(?<=[.!?])\s+", exp)
             self.assertGreaterEqual(len(sentences), 2)
             self.assertLessEqual(len(sentences), 5)
             self.assertTrue(all(len(s.split()) <= 35 for s in sentences))
-            self.assertRegex(exp, r"Podstawa: ADR .+\\.$")
+            self.assertRegex(exp, r"Podstawa: ADR .+\.$")
             self.assertIn(proposed["sources"][0]["code"], {"ADR-2025-PL"})
             test_copy[ident] = proposed
         self.assertEqual(len(test_copy), 780)
