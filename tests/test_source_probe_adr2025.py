@@ -9,7 +9,7 @@ import tempfile
 import unittest
 import urllib.request
 
-URL = "https://adr-lublin.pl/wp-content/uploads/2025/05/ADR_tom_II_PL_2025.pdf"
+URL = "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
 CLAUSES = ["5.4.3.4", "8.1.4.5", "8.1.5.2", "8.1.5.3",
            "5.3.2.3.1", "7.5.1.5", "7.3.1.1", "8.6.3.1",
            "8.1.2.1", "8.1.4.4", "7.5.8.1", "5.4.1.1.3.1"]
