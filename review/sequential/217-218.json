@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na tablicy pomarańczowej w górnym polu jest numer rozpoznawczy zagrożenia 88. Co informuje kierowcę podwójna cyfra 8?",
+        "stem": "W górnym polu tablicy barwy pomarańczowej jest numer rozpoznawczy zagrożenia 44. Co oznacza ten numer?",
         "options": {
-          "A": "Zagrożenie żrące jest nasilone",
-          "B": "Zagrożenie żrące, ale bez zwiększenia nasilenia przez powtórzenie cyfry.",
-          "C": "Dwa osobne zagrożenia żrące, z których każde ma takie samo znaczenie."
+          "A": "Materiał zapalny stały przewożony w stanie stopionym w podwyższonej temperaturze",
+          "B": "Materiał zapalny stały o nasilonym zagrożeniu pożarem, bo cyfra 4 jest podwojona",
+          "C": "Materiał podatny na samozapalenie, który reaguje niebezpiecznie z wodą"
         },
         "correct_option": "A",
-        "explanation": "Powtórzenie cyfry 8 w numerze rozpoznawczym zagrożenia oznacza, że zagrożenie żrące jest szczególnie silne. Nie chodzi o dwa oddzielne ładunki ani o dwa niezależne zagrożenia; numer opisuje właściwości jednego przewożonego materiału. Kierowca powinien odczytać cały numer i uwzględnić zwiększoną ostrożność przy kontakcie z materiałem. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Powtórzona cyfra w numerze rozpoznawczym zagrożenia zwykle oznacza nasilenie zagrożenia, ale ADR wymienia zestawienia cyfr, które mają znaczenie specjalne. Należy do nich numer 44, który oznacza materiał zapalny stały stopiony w podwyższonej temperaturze. Taki ładunek jest gorący, dlatego oprócz ognia trzeba uważać też na poparzenie. Samozapalenie i niebezpieczną reakcję z wodą oznaczają inne numery, na przykład X432. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1",
+            "reference": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na opakowaniu towaru niebezpiecznego wymagane są dwie różne nalepki ostrzegawcze: zagrożenia głównego i dodatkowego. Co powinien z tego wywnioskować kierowca?",
+        "stem": "W kolumnie (3b) tabeli A dla cieczy klasy 3 podano kod klasyfikacyjny FC. Co ten kod mówi o zagrożeniach stwarzanych przez materiał?",
         "options": {
-          "A": "Drugą nalepkę można zignorować, bo liczy się tylko pierwsza",
-          "B": "Towar może stwarzać więcej niż jeden rodzaj zagrożenia i należy uwzględnić obie nalepki",
-          "C": "Dwie nalepki oznaczają, że w środku muszą znajdować się dwa oddzielne towary"
+          "A": "Ciecz jest łatwo zapalna, bo ma temperaturę zapłonu niższą niż 23 °C",
+          "B": "Ciecz jest zapalna i stwarza dodatkowo zagrożenie działaniem żrącym",
+          "C": "Ciecz jest zapalna i przewozi się ją w podwyższonej temperaturze"
         },
         "correct_option": "B",
-        "explanation": "Dwie nalepki na opakowaniu mogą oznaczać zagrożenie główne i dodatkowe tego samego towaru. Pominięcie drugiej nalepki prowadzi do przeoczenia części ryzyka, ale dwie nalepki nie dowodzą, że w środku są dwa oddzielne towary. Kierowca powinien uwzględnić wszystkie wymagane oznaczenia przy ocenie ładunku. Podstawa: ADR 5.2.2.1.1 i tabela A.",
+        "explanation": "Kolumna (3b) tabeli A zawiera kod klasyfikacyjny materiału. W klasie 3 litera F oznacza materiał zapalny ciekły, a kolejne litery wskazują zagrożenie dodatkowe, na przykład T działanie trujące, a C działanie żrące. Kod FC oznacza więc materiał zapalny ciekły żrący. Temperatury zapłonu ani przewozu w podwyższonej temperaturze nie odczytuje się z liter FC, bo opisują je inne kryteria i kody, na przykład F2. Podstawa: ADR 2.2.3.1.2 i 3.2.1 tabela A kolumna (3b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.1.1; 3.2.1 tabela A kolumna (5)",
+            "reference": "ADR 2025, 2.2.3.1.2; 3.2.1 tabela A kolumna (3b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
