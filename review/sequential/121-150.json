@@ -20,14 +20,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pracownik zauważa ślady możliwej próby nieuprawnionego dostępu do przesyłki ADR. Które działanie powinno obejmować jego szkolenie z ochrony?",
+        "stem": "Pracownik zauważa ślady próby otwarcia przesyłki ADR przez nieuprawnioną osobę. Jaką reakcję powinien znać ze szkolenia w zakresie ochrony?",
         "options": {
-          "A": "Samodzielne ukrycie śladów próby wejścia, by przewóz odbył się bez opóźnienia",
-          "B": "Rozpoznanie zagrożenia i zgłoszenie incydentu zgodnie z procedurami ochrony",
-          "C": "Zignorowanie podejrzeń, jeżeli opakowanie nie ma widocznego wycieku"
+          "A": "Zabezpieczyć przesyłkę, a zgłoszenie odłożyć do zakończenia przewozu",
+          "B": "Zgłosić podejrzane zdarzenie zgodnie z procedurą ochrony",
+          "C": "Ograniczyć reakcję do sprawdzenia, czy nie ma wycieku z opakowania"
         },
         "correct_option": "B",
-        "explanation": "Ślady naruszenia opakowania mogą oznaczać próbę kradzieży lub nieuprawnionego dostępu do towaru. Pracownik powinien umieć rozpoznać takie zdarzenie i zgłosić je zgodnie z procedurą ochrony, nawet jeśli nie ma wycieku. Ukrywanie śladów lub ignorowanie ich utrudnia reakcję i może zwiększyć zagrożenie. Podstawa: ADR 1.10.2.2.",
+        "explanation": "Szkolenie z ochrony ma uczyć rozpoznawania zagrożeń, sposobów ich wykrywania oraz działań po naruszeniu bezpieczeństwa. Próba nieuprawnionego dostępu jest incydentem ochrony, nawet jeżeli opakowanie pozostaje szczelne. Odłożenie zgłoszenia do końca trasy lub sprawdzenie tylko ewentualnego wycieku nie wystarczy. Pracownik powinien wiedzieć, jak niezwłocznie zgłosić zdarzenie zgodnie z zasadami firmy. Podstawa: ADR 1.10.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Firma przewozi towary niebezpieczne dużego ryzyka objęte wymaganiami 1.10.3.2. Co powinna wdrożyć?",
+        "stem": "Firma zaczyna przewozić towary niebezpieczne dużego ryzyka. Co musi przyjąć i stosować oprócz zwykłych zasad bezpieczeństwa?",
         "options": {
-          "A": "Wdrożyć nadzór plomb i mocowanie, pomijając ryzyko przejęcia pojazdu",
-          "B": "Opracować procedurę gaszenia i ewakuacji bez zasad ochrony transportu",
-          "C": "Opracować plan ochrony transportu obejmujący wymagania ADR 1.10.3.2"
+          "A": "Grafik postojów kierowców i wykaz parkingów na trasie przejazdu",
+          "B": "Instrukcję gaszenia pożaru i ewakuacji pracowników z magazynu",
+          "C": "Plan ochrony z podziałem obowiązków i oceną zagrożeń"
         },
         "correct_option": "C",
-        "explanation": "Przy przewozie towarów niebezpiecznych dużego ryzyka wymagany plan ochrony ma wskazywać, jak ograniczyć możliwość kradzieży lub celowego użycia ładunku do wyrządzenia szkody. Same plomby i mocowanie ładunku nie obejmują wszystkich zagrożeń, a instrukcja gaszenia pożaru dotyczy innego rodzaju sytuacji. Plan powinien obejmować konkretne ryzyka ochrony transportu i działania zapobiegawcze. Podstawa: ADR 1.10.3.2.",
+        "explanation": "Firmy biorące udział w przewozie towarów niebezpiecznych dużego ryzyka muszą przyjąć, wdrożyć i stosować plan ochrony. Taki plan określa między innymi, kto odpowiada za ochronę, jakie towary jej podlegają, jakie są zagrożenia i jakie środki je ograniczają. Grafik postojów i wykaz parkingów mogą się przydać, ale same nie są planem ochrony. Instrukcja gaszenia pożaru dotyczy awarii, a nie ochrony przed kradzieżą lub celowym użyciem ładunku. Podstawa: ADR 1.10.3.2.1 i 1.10.3.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.2.1",
+            "reference": "ADR 2025, 1.10.3.2.1; 1.10.3.2.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -143,18 +143,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Nadawca chce przewieźć nowy materiał niebezpieczny. Co powinien ustalić przed wyborem sposobu przewozu?",
+        "stem": "Nadawca przygotowuje do wysyłki nowy materiał o właściwościach niebezpiecznych. Co trzeba ustalić przed dobraniem pojazdu i warunków transportu?",
         "options": {
-          "A": "Sprawdzić trasę i czas dostawy, lecz pominąć klasyfikację oraz warunki ADR",
-          "B": "Sprawdzić, czy materiał wolno przewozić i jakie warunki ADR obowiązują",
-          "C": "Wybrać pojazd według czasu jazdy i odległości, bez oceny materiału"
+          "A": "Najpierw ustalić najkrótszą trasę, a dopuszczenie towaru ocenić po załadunku",
+          "B": "Sprawdzić klasyfikację, dopuszczenie i właściwe warunki przewozu",
+          "C": "Wybrać opakowanie według dostępności i potwierdzić klasę dopiero u odbiorcy"
         },
         "correct_option": "B",
-        "explanation": "Zanim nadawca wybierze pojazd, musi ustalić, czy dany materiał można przewozić i jakie warunki ADR obowiązują. Tę informację sprawdza się na podstawie klasyfikacji i właściwej pozycji w tabeli A, a nie na podstawie długości trasy czy terminu dostawy. Dopiero po ustaleniu wymagań można dobrać odpowiedni sposób przewozu. Podstawa: ADR 2.1.1 i 3.2.",
+        "explanation": "Przed wyborem sposobu przewozu nadawca powinien ustalić klasyfikację materiału i sprawdzić, czy jest dopuszczony do przewozu oraz na jakich warunkach. Odpowiednia pozycja w tabeli A wskazuje wymagania, które wpływają między innymi na pakowanie i oznakowanie. Sam wybór trasy ani dostępnego opakowania nie zastępuje tej oceny. Nie można odkładać ustalenia klasy lub dopuszczenia do czasu po załadunku albo po dostawie. Podstawa: ADR 2.1.2.1 i 3.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.1.1; 3.2 tabela A",
+            "reference": "ADR 2025, 2.1.2.1; 3.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -186,12 +186,12 @@
       "exact_record_snapshot": {
         "stem": "W której kolumnie tabeli A ADR znajduje się numer UN materiału?",
         "options": {
-          "A": "Kolumna 4, w której podaje się grupę pakowania",
-          "B": "Kolumna 15, zawierająca informacje o ograniczeniach tunelowych",
-          "C": "Kolumna 1 tabeli A, przeznaczona na numer UN"
+          "A": "W kolumnie (2), razem z nazwą i opisem towaru",
+          "B": "W kolumnie (15), razem z kodem tunelowym",
+          "C": "W kolumnie (1), pierwszej od lewej"
         },
         "correct_option": "C",
-        "explanation": "Numer UN to cztery cyfry identyfikujące towar niebezpieczny i w tabeli A znajduje się w kolumnie 1. Kolumna 4 dotyczy grupy pakowania, a kolumna 15 ograniczeń tunelowych, więc wpisy te nie zastąpią numeru UN. Kierowca powinien odnaleźć właściwy numer i porównać opis z dokumentem przewozowym, zamiast mylić różne kolumny tabeli. Podstawa: ADR 3.2.1, tabela A.",
+        "explanation": "Numer UN to czterocyfrowy numer, który identyfikuje towar niebezpieczny, i w tabeli A stoi w kolumnie (1), pierwszej od lewej. Kolumna (2) zawiera nazwę i opis towaru, ale nie jego numer. Kolumna (15) podaje kategorię transportową i kod ograniczeń przewozu przez tunele. Szukając towaru w tabeli A, zacznij od numeru UN z dokumentu przewozowego, a potem porównaj nazwę. Podstawa: ADR 3.2.1, tabela A.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -307,14 +307,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Gdzie w tabeli A ADR podany jest numer klasy zagrożenia przypisany materiałowi?",
+        "stem": "Gdzie w tabeli A ADR odczytasz numer klasy, do której zaliczono materiał lub przedmiot?",
         "options": {
-          "A": "Kolumna 1, w której wpisano numer UN identyfikujący towar",
-          "B": "Kolumna 4, w której podano grupę pakowania, gdy ma zastosowanie",
-          "C": "Kolumna 3a, w której wskazano klasę zagrożenia towaru"
+          "A": "W kolumnie (3b), razem z kodem klasyfikacyjnym",
+          "B": "W kolumnie (5), w której podaje się wzory nalepek",
+          "C": "W kolumnie (3a), tuż po nazwie i opisie"
         },
         "correct_option": "C",
-        "explanation": "Numer klasy zagrożenia odczytasz w kolumnie 3a tabeli A. Kolumna 1 podaje numer UN, który identyfikuje konkretny towar, a kolumna 4 — grupę pakowania, jeśli została przypisana; żadna z nich nie jest numerem klasy. Nie zamieniaj tych danych podczas sprawdzania dokumentów, bo każda służy do ustalenia innego wymagania ADR. Podstawa: ADR 3.2.1, tabela A.",
+        "explanation": "Numer klasy, do której zaliczono materiał lub przedmiot, odczytasz w kolumnie (3a) tabeli A, zaraz po nazwie i opisie. Kolumna (3b) zawiera kod klasyfikacyjny, na przykład dla klasy 1 numer podklasy z literą grupy zgodności, a nie sam numer klasy. W kolumnie (5) są numery wzorów nalepek, które nie zawsze są takie same jak numer klasy. Podstawa: ADR 3.2.1, tabela A.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -348,14 +348,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Nadawca nie zna dokładnego składu odpadu bez nieproporcjonalnych kosztów. Czy może zawsze nadać grupę pakowania III?",
+        "stem": "Nadawca ma odpad o słabo zdefiniowanym składzie i musi przypisać mu grupę pakowania. Jak powinien postąpić zgodnie z ADR?",
         "options": {
-          "A": "Nie; stosuje zasady klasyfikacji odpadu i dostępne dane o zagrożeniach",
-          "B": "Tak, nadaje grupę III, gdy brakuje wyników badań składu odpadu",
-          "C": "Tak, wystarcza symbol UN na opakowaniu bez oceny odpadu"
+          "A": "Ocenić dostępne dane, a przy wątpliwości przyjąć wyższe zagrożenie",
+          "B": "Przypisać grupę III, bo brak badań oznacza najniższe zagrożenie",
+          "C": "Przyjąć grupę pakowania podaną przez przewoźnika odbierającego odpad"
         },
         "correct_option": "A",
-        "explanation": "Nieznany dokładny skład odpadu nie oznacza, że można automatycznie przypisać mu grupę pakowania III, czyli najniższy stopień zagrożenia wśród grup pakowania. Trzeba wykorzystać dostępne informacje i zastosować szczególną procedurę klasyfikacji odpadów. Sam numer UN nie potwierdza grupy pakowania. Jeśli nie da się ustalić danych, nie zgaduj — wyjaśnij klasyfikację przed przewozem. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Przy odpadzie o słabo zdefiniowanym składzie nadawca może oprzeć klasyfikację na swojej wiedzy i wszystkich dostępnych danych technicznych i dotyczących bezpieczeństwa. Gdy ma wątpliwości, przyjmuje najwyższy poziom niebezpieczeństwa, a nie najniższy. Brak badań nie jest więc powodem do wyboru grupy III, która oznacza małe zagrożenie. Grupę pakowania ustala nadawca odpadu, a nie przewoźnik, który go odbiera. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -389,14 +389,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po uszkodzeniu opakowania ADR na jezdni jest rozlew nieznanej cieczy. Co ogranicza narażenie kierowcy?",
+        "stem": "Po uszkodzeniu opakowania ADR rozlała się nieznana ciecz. Jak kierowca powinien ograniczyć narażenie załogi?",
         "options": {
-          "A": "Przenieść cieknące opakowanie do kabiny, by usunąć je z jezdni",
-          "B": "Unikać kontaktu i oparów oraz oddalić się w bezpieczne miejsce",
-          "C": "Podejść blisko i sprawdzić zapach cieczy, aby ustalić jej rodzaj"
+          "A": "Przestawić cieknące opakowanie na pobocze, żeby nie blokowało ruchu",
+          "B": "Odsunąć się od rozlewu, nie dotykać go i unikać wdychania oparów",
+          "C": "Stanąć przy rozlewie i pilnować, żeby nikt w niego nie wjechał"
         },
         "correct_option": "B",
-        "explanation": "Gdy z opakowania wypływa nieznana ciecz, kierowca powinien unikać kontaktu i wdychania oparów oraz odejść w bezpieczne miejsce. Substancja może być trująca lub żrąca nawet bez wyraźnego zapachu. Przenoszenie nieszczelnego opakowania do kabiny naraża załogę, a wąchanie rozlewu z bliska nie jest bezpiecznym sposobem identyfikacji. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Nieznana ciecz może być trująca lub żrąca i wydzielać szkodliwe opary, nawet jeśli nie ma wyraźnego zapachu. Instrukcje pisemne każą nie wchodzić na uwolnione materiały, nie dotykać ich i unikać wdychania oparów, stojąc po stronie nawietrznej. Pilnowanie ruchu tuż przy rozlewie naraża kierowcę na opary, a innych ostrzega się z bezpiecznej odległości. Przestawianie cieknącego opakowania oznacza kontakt z substancją i może powiększyć wyciek. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -433,11 +433,11 @@
         "stem": "Kiedy szczególne wymagania nadzoru pojazdu z 8.4 ADR mają zastosowanie?",
         "options": {
           "A": "Dla każdej przesyłki ADR, bez względu na rodzaj towaru i ilość",
-          "B": "Zależnie od uznania kierowcy, nawet jeśli przepisy nie wymagają nadzoru",
+          "B": "Tylko wtedy, gdy pojazd stoi nocą na publicznym parkingu przy autostradzie",
           "C": "Dla określonych towarów i ilości wskazanych w przepisach szczególnych"
         },
         "correct_option": "C",
-        "explanation": "Szczególny nadzór nad pojazdem nie dotyczy automatycznie każdego ładunku ADR; obowiązek zależy od rodzaju i ilości przewożonego towaru oraz odpowiednich przepisów. Kierowca nie może sam uznać, że wymagany nadzór jest zbędny, ale nie powinien też przypisywać go każdej przesyłce. Przed postojem sprawdź wymagania dla konkretnego ładunku w dokumentacji. Podstawa: ADR 8.4, 8.5 i tabela A.",
+        "explanation": "Szczególne wymagania nadzoru dotyczą tylko pojazdów, które przewożą określone towary niebezpieczne w ilościach wskazanych w przepisach specjalnych S1(6) i S14 do S24. Czy dany ładunek jest nimi objęty, wynika z kolumny (19) tabeli A, a nie z samego faktu przewozu ADR. Obowiązek nie zależy od pory postoju ani rodzaju parkingu, choć przepis określa potem, gdzie taki pojazd może stać bez nadzoru. Podstawa: ADR 8.4.1, 8.5 i tabela A kol. (19).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -512,14 +512,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Nalepki kontenera ADR są niewidoczne z zewnątrz pojazdu. Co może być wymagane według 5.3.1.3?",
+        "stem": "Kontener z wymaganymi dużymi nalepkami ADR stoi na pojeździe, lecz konstrukcja zasłania nalepki z zewnątrz. Jak należy oznakować pojazd?",
         "options": {
-          "A": "Przenieść informację o nalepkach do listu przewozowego dla służb",
-          "B": "Powtórzyć wymagane duże nalepki na bokach i z tyłu pojazdu",
-          "C": "Zdjąć zasłonięte nalepki z kontenera, zostawiając numer UN"
+          "A": "Umieścić te same duże nalepki z przodu i z tyłu pojazdu",
+          "B": "Umieścić te same duże nalepki na obu bokach i z tyłu pojazdu",
+          "C": "Umieścić te same duże nalepki na obu bokach i z przodu pojazdu"
         },
         "correct_option": "B",
-        "explanation": "Duże nalepki na kontenerze muszą być widoczne dla służb i innych uczestników ruchu, dlatego gdy zasłania je konstrukcja pojazdu, może być konieczne powtórzenie ich na jego bokach i z tyłu. Wpis do dokumentu nie zastępuje widocznego oznakowania, a zdjęcie nalepek z kontenera jeszcze pogorszy sytuację. Przed wyjazdem obejrzyj zestaw z zewnątrz i sprawdź wymagane strony. Podstawa: ADR 5.3.1.3.",
+        "explanation": "Jeżeli duże nalepki na kontenerze nie są widoczne z zewnątrz pojazdu, takie same duże nalepki trzeba umieścić na obu bokach i z tyłu pojazdu. Dzięki temu służby i inni uczestnicy ruchu widzą zagrożenie z boku zestawu i od tyłu. Przód pojazdu nie należy do tych miejsc, a nalepki tylko z przodu i z tyłu nie pokazują zagrożenia z boków. Gdy nalepki kontenera są dobrze widoczne, powtarzanie ich na pojeździe nie jest wymagane. Podstawa: ADR 5.3.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -553,18 +553,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kto odpowiada za spełnienie wymagań pakowania i wspólnego pakowania w ADR 1.4.3.2?",
+        "stem": "Podczas przygotowania przesyłki połączono w jednym opakowaniu materiały, których nie wolno pakować razem. Który uczestnik powinien dopilnować zasad pakowania?",
         "options": {
-          "A": "Odbiorca, który przyjmuje przesyłkę dopiero po zakończeniu rozładunku",
-          "B": "Kierowca, bo kontroluje zamknięcie drzwi i stateczność ładunku",
-          "C": "Pakujący, który odpowiada za stosowanie zasad pakowania i pakowania razem"
+          "A": "Odbiorca, który po dostawie sprawdza zgodność opakowania z wymaganiami",
+          "B": "Kierowca, który przejmuje gotową przesyłkę i rozpoczyna transport",
+          "C": "Pakujący, który przygotowuje towary do umieszczenia w opakowaniu"
         },
         "correct_option": "C",
-        "explanation": "Pakujący odpowiada za prawidłowe przygotowanie towarów do umieszczenia w opakowaniach, w tym za przestrzeganie zasad wspólnego pakowania. Kierowca kontroluje inne elementy przewozu, ale nie zastępuje osoby, która przygotowuje i pakuje przesyłki. Odbiorca nie może naprawić błędu pakowania dopiero po dostawie. Podstawa: ADR 1.4.3.2.",
+        "explanation": "Pakujący ma stosować wymagania ADR dotyczące warunków pakowania, w tym wspólnego pakowania różnych materiałów. Nie wolno łączyć towarów w jednym opakowaniu, jeśli odpowiednie przepisy tego zabraniają. Kierowca powinien zwracać uwagę na widoczne niezgodności, ale nie zastępuje obowiązków osoby pakującej. Odbiorca nie może dopiero po dostawie zapewnić zgodności wcześniejszego pakowania. Podstawa: ADR 1.4.3.2 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.2",
+            "reference": "ADR 2025, 1.4.3.2 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -594,18 +594,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przed rozładunkiem rozładowca widzi uszkodzenie mogące spowodować niebezpieczny wyciek. Co robi?",
+        "stem": "Przed rozładunkiem rozładowca zauważa uszkodzenie opakowania ADR, które może zagrażać bezpieczeństwu rozładunku. Jak powinien postąpić?",
         "options": {
-          "A": "Wstrzymać rozładunek do wdrożenia środków zapewniających bezpieczeństwo",
-          "B": "Rozpocząć rozładunek natychmiast, bez zabezpieczenia uszkodzonego opakowania",
-          "C": "Otworzyć opakowanie, aby samodzielnie ustalić skład jego zawartości"
+          "A": "Wstrzymać rozładunek do zastosowania odpowiednich środków bezpieczeństwa",
+          "B": "Rozładować przesyłkę na wolnej rampie, aby skrócić czas narażenia załogi",
+          "C": "Rozładować uszkodzoną sztukę jako pierwszą, aby szybko ją odizolować"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli opakowanie jest uszkodzone i może dojść do wycieku, rozładowca nie powinien rozpoczynać zwykłego rozładunku, dopóki nie zostaną zapewnione bezpieczne warunki. Przenoszenie lub otwieranie przesyłki bez oceny zagrożenia może uwolnić substancję i narazić pracowników. Najpierw wstrzymaj czynności, zabezpiecz miejsce i ustal właściwy sposób postępowania. Podstawa: ADR 1.4.3.7.1(b).",
+        "explanation": "Rozładowca sprawdza przed rozładunkiem i w jego trakcie, czy opakowania nie są uszkodzone w stopniu zagrażającym bezpieczeństwu. Jeżeli wykryje takie uszkodzenie, rozładunek nie może się odbywać do czasu zastosowania odpowiednich środków. Szybkie zdjęcie uszkodzonej sztuki jako pierwszej albo rozładunek na innej rampie oznacza dalsze przenoszenie jej i może wywołać wyciek. Najpierw trzeba zadbać o bezpieczeństwo ludzi i otoczenia. Podstawa: ADR 1.4.3.7.1 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.7.1(b)",
+            "reference": "ADR 2025, 1.4.3.7.1 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
