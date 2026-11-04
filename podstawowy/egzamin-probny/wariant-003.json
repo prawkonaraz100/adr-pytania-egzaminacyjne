@@ -6,7 +6,7 @@
   "seed": 2026102703,
   "variant": 3,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "4dab716478a0ff75b148596714c53a600c5ada44",
+  "source_bank_head": "0bdb3d99aa0f15dcbf60ed3bf4ff92377d170a52",
   "excluded_question_ids": [
     "ADR-B-0004",
     "ADR-B-0017",
@@ -230,7 +230,7 @@
       "options": {
         "A": "Wjechać, bo ograniczenie kodu E dotyczy wyłącznie przewozu w cysternie.",
         "B": "Wjechać poza godzinami szczytu, gdy ruch w tunelu jest mniejszy.",
-        "C": "Wybrać trasę bez tunelu kategorii E."
+        "C": "Ominąć ten tunel i wybrać trasę bez tunelu kategorii E."
       },
       "image": null
     },
@@ -300,9 +300,9 @@
       "module_id": "ADR-B-11",
       "stem": "W jednostce transportowej objętej ADR masz dwa towary z różnymi kodami tunelowymi. Jaki kod obowiązuje dla całego ładunku?",
       "options": {
-        "A": "Kod towaru umieszczonego jako pierwszy w dokumencie przewozowym, ponieważ to kolejność wpisów ma decydować o ograniczeniach",
-        "B": "Kod towaru o większej masie",
-        "C": "Kod powodujący największe ograniczenia tunelowe"
+        "A": "Kod towaru wpisanego jako pierwszy w dokumencie przewozowym",
+        "B": "Kod przypisany towarowi o największej masie w ładunku",
+        "C": "Kod powodujący największe ograniczenia dla całego ładunku"
       },
       "image": null
     },

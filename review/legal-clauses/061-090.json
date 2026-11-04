@@ -739,14 +739,14 @@
       "question_snapshot": {
         "id": "ADR-B-0076",
         "module_id": "ADR-B-08",
-        "stem": "Jaką podstawową ochronę oczu wymaga 8.1.5.2 dla członka załogi, gdy mają zastosowanie te przepisy?",
+        "stem": "Jakiej ochrony oczu wymaga ADR 8.1.5.2 dla każdego członka załogi pojazdu?",
         "options": {
-          "A": "Ochronę oczu, np. okulary ochronne",
-          "B": "Przyciemnione okulary do jazdy w słońcu używane do ochrony przed rozpryskami",
-          "C": "Kask roboczy bez osłony twarzy używany zamiast okularów ochronnych"
+          "A": "Okulary ochronne chroniące oczy przed rozpryskami",
+          "B": "Zwykłe przyciemnione okulary do jazdy w słońcu",
+          "C": "Kask roboczy bez osłony oczu i bez okularów"
         },
         "correct_option": "A",
-        "explanation": "Ochrona oczu ma zabezpieczyć członka załogi przed rozpryskami i innymi zagrożeniami podczas zdarzenia. Zwykłe okulary przeciwsłoneczne nie są automatycznie okularami ochronnymi, a kask bez osłony oczu nie spełnia tej samej funkcji. Przed wyjazdem sprawdź, czy wymagane wyposażenie jest dostępne dla każdej osoby w załodze. Podstawa: ADR 8.1.5.2.",
+        "explanation": "Każdy członek załogi powinien mieć ochronę oczu, na przykład okulary ochronne, gdy obowiązuje wyposażenie z tego punktu ADR. Chodzi o zabezpieczenie oczu podczas zdarzenia, zwłaszcza przed przypadkowymi rozpryskami. Zwykłe okulary przeciwsłoneczne nie muszą spełniać wymagań ochronnych, a sam kask bez osłony oczu nie zastąpi okularów. Sprawdź wyposażenie przed wyruszeniem w trasę. Podstawa: ADR 8.1.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -835,16 +835,16 @@
         "module_id": "ADR-B-09",
         "stem": "Na rampie przed załadunkiem pracownik zauważa, że dolny karton ADR jest mokry i zdeformowany. Choć opakowania mają oznaczenie dopuszczające piętrzenie, czy wolno postawić na nim kolejny karton?",
         "options": {
-          "A": "Tak, jeśli górny karton waży mniej niż uszkodzony dolny",
-          "B": "Nie; uszkodzone opakowanie trzeba odsunąć od załadunku i wyjaśnić niezgodność przed piętrzeniem",
+          "A": "Tak, jeśli górny karton jest wyraźnie lżejszy od uszkodzonego dolnego",
+          "B": "Nie, uszkodzonego kartonu nie ładuje się, dopóki nie usunie się uszkodzenia",
           "C": "Tak, jeśli oba kartony zostaną spięte pasem i nie będą się przesuwać"
         },
         "correct_option": "B",
-        "explanation": "Oznaczenie piętrzenia potwierdza wytrzymałość opakowania w prawidłowym stanie, a mokry i zdeformowany karton może tej wytrzymałości już nie mieć. Nie stawiaj na nim kolejnej przesyłki; odsuń go od załadunku i wyjaśnij uszkodzenie przed przewozem. Mniejsza masa górnego kartonu ani dodatkowy pas nie przywracają osłabionemu opakowaniu bezpieczeństwa. Podstawa: ADR 7.5.1.3 i 7.5.7.2.",
+        "explanation": "Mokry i zdeformowany karton może nie wytrzymać ciężaru kolejnej przesyłki, nawet jeśli w dobrym stanie wolno go piętrzyć. Załadowca nie powinien wydać do przewozu sztuki przesyłki z uszkodzonym opakowaniem, dopóki uszkodzenie nie zostanie usunięte. Lżejszy karton na górze ani dodatkowy pas nie naprawiają osłabionego opakowania. Podczas załadunku sztuki przesyłek trzeba chronić przed uszkodzeniem, także przy ich piętrzeniu. Podstawa: ADR 1.4.3.1.1 (b), 7.5.7.2 i 7.5.7.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.1.3 i 7.5.7.2",
+            "reference": "ADR 2025, 1.4.3.1.1 (b); 7.5.7.2; 7.5.7.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -981,7 +981,7 @@
           "C": "Co najmniej 2 m"
         },
         "correct_option": "A",
-        "explanation": "Niektóre towary niebezpieczne trzeba odsunąć od żywności i pasz, aby w razie uszkodzenia opakowania nie doszło do skażenia. Jednym z dopuszczonych sposobów oddzielenia jest pozostawienie co najmniej 0,8 m wolnej przestrzeni. Odległość 0,2 m jest zbyt mała, a 2 m nie stanowią minimum wskazanego w tej metodzie. ADR pozwala także na inne określone sposoby rozdzielenia. Podstawa: ADR 7.5.4.",
+        "explanation": "Gdy dla towaru w tabeli A wskazano przepis CV28, sztuki przesyłek z nalepką 6.1 lub 6.2 (a dla kilku numerów UN także 9) oddziela się od żywności i karmy dla zwierząt. Jedną z metod jest wolna przestrzeń co najmniej 0,8 m, więc 0,2 m to za mało, a 2 m przekracza minimum. Zamiast odstępu można użyć ciągłej przegrody albo przesyłek bez takich nalepek. Przepis wymaga takiego oddzielenia, gdy te sztuki przesyłek nie mają dodatkowego opakowania lub nie są całkowicie przykryte, np. plandeką. Podstawa: ADR 7.5.4 (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1024,11 +1024,11 @@
         "stem": "Planujesz doładować do żywności przesyłki ADR z nalepką 6.1. Co trzeba ustalić, zanim zastosujesz zasady oddzielenia z 7.5.4?",
         "options": {
           "A": "Czy przesyłki zmieszczą się na podłodze pojazdu obok żywności",
-          "B": "Czy dla danej pozycji UN w tabeli A przypisano przepis CV28 (kolumna 18) i jakie są wymagane warunki oddzielenia",
-          "C": "Sprawdzić tylko klasę 6.1 i założyć, że sama nalepka przesądza o oddzieleniu od żywności"
+          "B": "Czy dla tej pozycji UN w kolumnie (18) tabeli A wskazano przepis CV28",
+          "C": "Nic więcej, bo sama nalepka 6.1 zawsze przesądza o sposobie oddzielenia"
         },
         "correct_option": "B",
-        "explanation": "Sama nalepka klasy 6.1 nie wystarcza do ustalenia, jak oddzielić przesyłki od żywności. Trzeba sprawdzić konkretny numer UN w tabeli A, czy przypisano warunek CV28, oraz wynikające z niego zasady oddzielenia. To, że przesyłki mieszczą się obok artykułów spożywczych, nie oznacza, że mogą być tam bezpiecznie przewożone. Sprawdź wymagania przed doładunkiem. Podstawa: ADR 7.5.4 i 7.5.11, CV28.",
+        "explanation": "Zasady oddzielenia od żywności z punktu 7.5.4 stosuje się wtedy, gdy dla danego numeru UN w kolumnie (18) tabeli A wskazano przepis CV28. Dlatego najpierw sprawdzasz tabelę A, a dopiero potem wybierasz sposób oddzielenia, na przykład przegrodę lub odstęp. Sama nalepka 6.1 nie zastępuje tego sprawdzenia, a wolne miejsce na podłodze nie oznacza, że przesyłki mogą stać obok żywności. Podstawa: ADR 7.5.4 i 7.5.11, CV28.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1072,10 +1072,10 @@
         "options": {
           "A": "Wjechać, bo ograniczenie kodu E dotyczy wyłącznie przewozu w cysternie.",
           "B": "Wjechać poza godzinami szczytu, gdy ruch w tunelu jest mniejszy.",
-          "C": "Wybrać trasę bez tunelu kategorii E."
+          "C": "Ominąć ten tunel i wybrać trasę bez tunelu kategorii E."
         },
         "correct_option": "C",
-        "explanation": "Kod tunelowy E oznacza, że przy przewozie sztuk przesyłek objętych tym ograniczeniem nie wolno wjechać do tunelu kategorii E. Nie jest to zasada dotycząca wyłącznie cystern, więc odpowiedź A błędnie zawęża zakaz. Pora dnia również go nie znosi: mniejszy ruch nie zmienia kategorii tunelu ani kodu towaru. Zaplanuj trasę z pominięciem takiego tunelu. Podstawa: ADR 8.6.4.",
+        "explanation": "Według tabeli w ADR 8.6.4 kod tunelowy E oznacza zakaz przewozu przez tunele kategorii E. Ten zakaz nie dotyczy wyłącznie cystern, więc odpowiedź A błędnie go zawęża. Pora dnia także niczego nie zmienia, bo mniejszy ruch nie zmienia kategorii tunelu ani kodu ładunku. Zaplanuj trasę, która omija taki tunel. Podstawa: ADR 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1169,7 +1169,7 @@
           "C": "Tak, jeśli na pokładzie jest ciecz klasy 3 w opakowaniu detalicznym"
         },
         "correct_option": "B",
-        "explanation": "Przy ustalaniu ograniczeń tunelowych trzeba najpierw potwierdzić, czy przewóz rzeczywiście korzysta z wyłączenia z ADR 1.1.3. W takim przypadku nie przypisuje się mu automatycznie ograniczeń wynikających z kodu tunelowego, z uwzględnieniem szczególnej sytuacji oznakowania LQ. Nie należy sumować kodów bez sprawdzenia warunków ani kierować się samą obecnością cieczy klasy 3. Podstawa: ADR 8.6.3.3.",
+        "explanation": "Towary przewożone na zasadach wyłączeń z rozdziału 1.1.3 nie podlegają ograniczeniom przewozu przez tunele. Nie bierze się ich też pod uwagę przy ustalaniu kodu tunelowego dla całego ładunku jednostki transportowej. Wyjątkiem jest sytuacja, gdy jednostka musi mieć oznakowanie ilości ograniczonych według 3.4.13, ale w tym pytaniu takiego oznakowania nie wymaga się. Kodów się nie sumuje, a sama ciecz klasy 3 w opakowaniu detalicznym niczego tu nie zmienia. Podstawa: ADR 8.6.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1211,16 +1211,16 @@
         "module_id": "ADR-B-11",
         "stem": "W jednostce transportowej objętej ADR masz dwa towary z różnymi kodami tunelowymi. Jaki kod obowiązuje dla całego ładunku?",
         "options": {
-          "A": "Kod towaru umieszczonego jako pierwszy w dokumencie przewozowym, ponieważ to kolejność wpisów ma decydować o ograniczeniach",
-          "B": "Kod towaru o większej masie",
-          "C": "Kod powodujący największe ograniczenia tunelowe"
+          "A": "Kod towaru wpisanego jako pierwszy w dokumencie przewozowym",
+          "B": "Kod przypisany towarowi o największej masie w ładunku",
+          "C": "Kod powodujący największe ograniczenia dla całego ładunku"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli jedna jednostka przewozi towary z różnymi kodami tunelowymi, trasę trzeba wyznaczyć według kodu powodującego największe ograniczenia spośród tych, które mają zastosowanie. Kolejność wpisu w dokumencie ani masa towaru nie rozstrzygają o kodzie dla całego ładunku. Uwzględnij też sposób przewozu i właściwe wyjątki ADR. Podstawa: ADR 8.6.3.2–8.6.3.3.",
+        "explanation": "Jeśli jedna jednostka transportowa przewozi towary z różnymi kodami ograniczeń tunelowych, dla całego ładunku stosuje się kod o największych ograniczeniach. Kolejność wpisów w dokumencie przewozowym nie decyduje o kodzie, podobnie jak masa najcięższego towaru. Przed wyborem trasy uwzględnij także zasady wyłączeń, w szczególności przewozy objęte rozdziałem 1.1.3 ADR. Nie wybieraj łagodniejszego kodu tylko po to, by skrócić przejazd. Podstawa: ADR 8.6.3.2 i 8.6.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.2–8.6.3.3",
+            "reference": "ADR 2025, 8.6.3.2; 8.6.3.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1303,14 +1303,14 @@
       "question_snapshot": {
         "id": "ADR-B-0088",
         "module_id": "ADR-B-13",
-        "stem": "Czy kierowca zawsze może zastąpić instrukcje pisemne ADR własnoręcznie sporządzoną notatką?",
+        "stem": "Czy kierowca może zastąpić instrukcje pisemne ADR własnoręcznie sporządzoną notatką?",
         "options": {
           "A": "Tak, jeśli notatka odtwarza z pamięci najważniejsze punkty instrukcji",
           "B": "Nie, instrukcje powinny być zgodne z określonym wzorem ADR",
-          "C": "Tak, wystarczy e-mail firmy"
+          "C": "Tak, jeśli ma przy sobie e-mail firmy z opisem zagrożeń"
         },
         "correct_option": "B",
-        "explanation": "Instrukcje pisemne ADR mają ustalony wzór, żeby załoga mogła szybko znaleźć potrzebne działania w razie awarii. Własna notatka lub e-mail firmy może pominąć ważne informacje i nie zastępuje wymaganego dokumentu, nawet jeśli kierowca zna klasy towarów. Przed wyjazdem sprawdź, czy masz właściwe instrukcje w wymaganej formie. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne ADR muszą mieć formę i treść zgodną z czterostronicowym wzorem podanym w przepisach. Dzięki temu w razie wypadku załoga szybko znajduje właściwe działania w znanym układzie. Własnoręczna notatka z pamięci albo e-mail firmy może pominąć ważne informacje, więc nie zastępuje wymaganych instrukcji. Przed wyjazdem sprawdź, czy masz w kabinie instrukcje według wzoru ADR. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1350,18 +1350,18 @@
       "question_snapshot": {
         "id": "ADR-B-0089",
         "module_id": "ADR-B-13",
-        "stem": "Przewóz drogowy odbywa się na szczególnych warunkach 1.1.4.2.1 w łańcuchu morsko-drogowym. Jaki dodatkowy zapis jest wymagany w dokumencie ADR?",
+        "stem": "Przesyłki oznakowane według Kodeksu IMDG, a nie według ADR, jadą ciężarówką do portu na dalszy rejs statkiem. Jaki dodatkowy zapis powinien być w dokumencie przewozowym?",
         "options": {
-          "A": "PRZEWÓZ ZGODNY Z 5.4.3.2",
+          "A": "PRZEWÓZ ZGODNY Z KODEKSEM IMDG",
           "B": "PRZEWÓZ ZGODNY Z 1.1.3.6",
           "C": "PRZEWÓZ ZGODNY Z 1.1.4.2.1"
         },
         "correct_option": "C",
-        "explanation": "Gdy drogowy odcinek jest częścią przewozu morskiego objętego szczególnymi zasadami ADR 1.1.4.2.1, dokument powinien zawierać zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. To wskazuje podstawę zastosowanych warunków dla odcinka drogowego. Odpowiedzi A i B odsyłają do innych zagadnień: instrukcji pisemnych i zwolnienia ilościowego, więc nie opisują przewozu łączonego. Podstawa: ADR 5.4.1.1.7 i 1.1.4.2.1.",
+        "explanation": "Przesyłki zgodne z Kodeksem IMDG, ale nie w pełni z ADR, mogą jechać drogą w łańcuchu z przewozem morskim na warunkach ADR 1.1.4.2.1. Wtedy w dokumencie przewozowym trzeba dodatkowo wpisać dokładnie: „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Ogólne odwołanie do Kodeksu IMDG nie jest wymaganym zapisem. Punkt 1.1.3.6 dotyczy zwolnień zależnych od ilości towaru, a nie przewozu morsko-drogowego. Podstawa: ADR 5.4.1.1.7 i 1.1.4.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.7",
+            "reference": "ADR 2025, 5.4.1.1.7; 1.1.4.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1397,18 +1397,18 @@
       "question_snapshot": {
         "id": "ADR-B-0090",
         "module_id": "ADR-B-13",
-        "stem": "Gdzie w jednostce transportowej należy przechowywać instrukcje pisemne ADR zgodnie z 8.1.2.3?",
+        "stem": "Gdzie w jednostce transportowej należy przewozić instrukcje pisemne ADR?",
         "options": {
-          "A": "W ładowni obok opakowań, żeby informacje były blisko towaru",
-          "B": "W dokumentacji odbiorcy przygotowanej do rozładunku",
-          "C": "W kabinie pojazdu, w miejscu łatwo dostępnym dla załogi"
+          "A": "W ładowni pojazdu, tuż obok przewożonych opakowań",
+          "B": "W dokumentacji odbiorcy, dostępnej dopiero po przyjeździe",
+          "C": "W kabinie kierowcy, w miejscu łatwo dostępnym dla załogi"
         },
         "correct_option": "C",
-        "explanation": "Instrukcje pisemne muszą znajdować się w kabinie, w miejscu, do którego załoga może szybko sięgnąć podczas przewozu. Schowanie ich w ładowni jest niebezpieczne, bo przy wycieku lub innym zdarzeniu dostęp do ładunku może być niemożliwy. Dokumenty pozostawione u odbiorcy nie pomogą kierowcy na trasie. Sprawdź ich obecność i dostępność przed odjazdem. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
+        "explanation": "Instrukcje pisemne ADR przewozi się w kabinie kierowcy, w miejscu łatwo dostępnym dla załogi podczas całej trasy. Schowanie ich w ładowni przy przesyłkach może uniemożliwić dostęp właśnie wtedy, gdy dojdzie do wycieku. Pozostawienie dokumentów u odbiorcy także nie pomaga załodze w razie zdarzenia na drodze. Przed wyjazdem sprawdź, czy masz właściwe instrukcje w kabinie i możesz je od razu wyjąć. Podstawa: ADR 5.4.3.1, 8.1.2.1 (b) i 8.1.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.1; 8.1.2.3",
+            "reference": "ADR 2025, 5.4.3.1; 8.1.2.1 (b); 8.1.2.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
