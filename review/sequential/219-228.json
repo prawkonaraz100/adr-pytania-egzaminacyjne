@@ -307,18 +307,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W dokumencie przewozowym ADR jest prawidłowa nazwa przewozowa i czterocyfrowy identyfikator towaru, ale zapis identyfikatora jest niekompletny. Jak należy go uzupełnić?",
+        "stem": "W tabeli A dla cieczy opisanej nazwą „MATERIAŁ ZAPALNY CIEKŁY I.N.O.” podano przepis szczególny 274, więc nazwę przewozową trzeba uzupełnić nazwą techniczną. Jak zrobić to w dokumencie przewozowym?",
         "options": {
-          "A": "Uzupełnić zapis o prefiks UN przed numerem składającym się z czterech cyfr",
-          "B": "Zastąpić numer UN nazwą handlową stosowaną w katalogu producenta",
-          "C": "Usunąć opis towaru z dokumentu i pozostawić wyłącznie masę brutto"
+          "A": "Dopisać w nawiasie nazwę techniczną, czyli zwyczajową nazwę chemiczną",
+          "B": "Dopisać w nawiasie nazwę handlową produktu z katalogu jego producenta",
+          "C": "Podać nazwę techniczną na opakowaniu, a dokument zostawić bez zmian"
         },
         "correct_option": "A",
-        "explanation": "W dokumencie przewozowym numer identyfikacyjny towaru musi mieć zapis „UN” przed czterema cyframi, na przykład UN 1203. Same cyfry nie tworzą pełnego zapisu wymaganego w opisie towaru. Nazwa handlowa ani masa brutto nie zastępują numeru UN, bo nie identyfikują towaru w wymaganym formacie. Podstawa: ADR 5.4.1.1.1(a).",
+        "explanation": "Dopisek „inaczej nie określone” oznacza nazwę ogólną, która sama nie mówi, jaki to dokładnie materiał. Gdy tabela A wymaga uzupełnienia takiej nazwy, w dokumencie przewozowym dopisuje się w nawiasie nazwę techniczną, na przykład „(ZAWIERA KSYLEN I BENZEN)”. Nazwą techniczną jest zwyczajowa nazwa chemiczna, a nazw handlowych nie powinno się do tego używać. Wpis na opakowaniu nie zastępuje opisu towaru w dokumencie. Podstawa: ADR 5.4.1.1.1(b), 3.1.2.8.1 i 3.1.2.8.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(a)",
+            "reference": "ADR 2025, 5.4.1.1.1(b); 3.1.2.8.1; 3.1.2.8.1.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -348,14 +348,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Sprawdzasz wymagany dokument przewozowy ADR dla zapakowanego towaru. Podano numer UN i nazwę, lecz nie podano liczby i rodzaju sztuk przesyłek. Co trzeba zrobić?",
+        "stem": "Nadawca wysyła sześć opakowań kombinowanych, każde z czterema butelkami wewnętrznymi. Jak podać liczbę sztuk przesyłek w dokumencie ADR?",
         "options": {
-          "A": "Wpisać liczbę miejsc parkingowych, które przewidziano na trasie przewozu",
-          "B": "Uznać dokument za kompletny, ponieważ numer UN i nazwa towaru już widnieją",
-          "C": "Uzupełnić dokument o wymaganą liczbę i rodzaj sztuk przesyłki"
+          "A": "Wpisać dwadzieścia cztery butelki jako osobne sztuki przesyłek",
+          "B": "Wykazać butelki i dodatkowo sześć zewnętrznych kartonów jako kolejne sztuki",
+          "C": "Podać sześć sztuk przesyłek, bez osobnego wyliczania butelek wewnętrznych"
         },
         "correct_option": "C",
-        "explanation": "Numer UN i nazwa pomagają rozpoznać rodzaj niebezpiecznego towaru, ale nie podają, ile sztuk przesyłek jest w pojeździe. Dlatego dokument trzeba uzupełnić o ich liczbę i rodzaj, jeśli takie dane są wymagane. Informacja o miejscach parkingowych nie ma z tym związku, a uznanie niepełnego opisu za wystarczający może utrudnić kontrolę ładunku. Podstawa: ADR 5.4.1.1.1(e).",
+        "explanation": "W opakowaniu kombinowanym pojedynczą sztuką przesyłki jest przygotowany zestaw z opakowaniem zewnętrznym, a nie każda znajdująca się w nim butelka. ADR nie wymaga podania liczby, rodzaju ani pojemności opakowań wewnętrznych w standardowym dokumencie przewozowym. Dlatego nadawca podaje sześć opakowań zewnętrznych, a nie osobno dwadzieścia cztery butelki, ponieważ taki sposób liczenia zawyżyłby liczbę sztuk. Podstawa: ADR 5.4.1.1.1(e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -389,18 +389,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Instrukcje pisemne ADR znajdują się w wymaganym pojeździe, lecz są zamknięte w niedostępnej podczas jazdy skrzynce na zewnątrz kabiny. Co powinno się zmienić?",
+        "stem": "Przewóz beczek ADR mieści się w limicie ilości na jednostkę transportową z 1.1.3.6. Kierowca zostawił dokument przewozowy w biurze, bo uważa, że przy takim przewozie dokumentów w kabinie nie potrzeba. Czy ma rację?",
         "options": {
-          "A": "Przenieść instrukcje do biura spedytora, gdzie będą bezpiecznie przechowywane",
-          "B": "Zostawić instrukcje poza kabiną, jeśli przed wyjazdem kierowca otrzymał ustne omówienie.",
-          "C": "Umieścić instrukcje w kabinie załogi, w miejscu łatwo dostępnym"
+          "A": "Tak, bo przy takim przewozie w ogóle nie stosuje się przepisów części 8 ADR",
+          "B": "Tak, jeżeli zamiast dokumentu ma w kabinie instrukcje pisemne",
+          "C": "Nie, dokument przewozowy musi być w kabinie także przy takim przewozie"
         },
         "correct_option": "C",
-        "explanation": "Instrukcje pisemne muszą być w kabinie i dostępne dla załogi, żeby można było szybko z nich skorzystać podczas awarii. Ustne omówienie przed wyjazdem jest pomocne, ale nie zastępuje dokumentu, do którego kierowca może zajrzeć w każdej chwili. Schowanie instrukcji poza kabiną lub w miejscu niedostępnym opóźnia reakcję. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
+        "explanation": "Przewóz w limicie z 1.1.3.6 zwalnia z wielu przepisów, w tym z instrukcji pisemnych i z większości wymagań części 8 ADR. Przepis wymienia jednak wyjątki, które nadal obowiązują, a jednym z nich jest 8.1.2.1(a). Oznacza to, że dokumenty przewozowe dotyczące wszystkich przewożonych towarów niebezpiecznych muszą jechać w kabinie kierowcy. Instrukcje pisemne nie zastępują dokumentu przewozowego. Podstawa: ADR 1.1.3.6.2 i 8.1.2.1(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.1; 8.1.2.3",
+            "reference": "ADR 2025, 1.1.3.6.2; 8.1.2.1(a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
