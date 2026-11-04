@@ -635,18 +635,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca ADR stwierdza, że osoba niezwiązana z załogą chce jechać pojazdem jako pasażer podczas przewozu objętego 8.3.1. Co jest poprawne?",
+        "stem": "Pojazd z tablicami pomarańczowymi przewozi towary niebezpieczne. Obok kierowcy ma jechać praktykant, który towarzyszy mu w ramach szkolenia zawodowego. Czy ADR pozwala zabrać go w trasę?",
         "options": {
-          "A": "Wystarczy pozwolenie nadawcy wydane telefonicznie",
-          "B": "Nie wolno przewozić osób spoza załogi w tej jednostce",
-          "C": "Pasażer może jechać, jeśli nie wykonuje zadań przy ładunku"
+          "A": "Nie, bo praktykant nie prowadzi pojazdu, więc jest zwykłym pasażerem",
+          "B": "Tak, bo osoba szkoląca się przy kierowcy jest członkiem załogi pojazdu",
+          "C": "Tak, ale pod warunkiem, że praktykant ma już własne zaświadczenie ADR kierowcy"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli przewóz jest objęty zakazem z ADR 8.3.1, w pojeździe nie mogą jechać osoby spoza załogi. Zgoda nadawcy nie tworzy wyjątku od przepisu, a pasażer nie staje się dozwolony tylko dlatego, że nie pomaga przy ładunku. Przed wyjazdem sprawdź, czy w pojeździe znajdują się wyłącznie osoby dopuszczone przez ADR. Podstawa: ADR 8.3.1.",
+        "explanation": "ADR zabrania przewożenia w jednostce transportowej z towarami niebezpiecznymi pasażerów innych niż członkowie załogi pojazdu. Członkiem załogi jest kierowca oraz osoba, która towarzyszy mu ze względu na bezpieczeństwo, ochronę, szkolenie lub czynności transportowe. Praktykant uczący się zawodu przy kierowcy jest więc członkiem załogi i może jechać, nawet jeśli nie prowadzi pojazdu i nie ma zaświadczenia ADR. Zakaz dotyczy na przykład znajomego podwożonego przy okazji, który nie pełni żadnej z tych ról. Podstawa: ADR 8.3.1 i 1.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.1",
+            "reference": "ADR 2025, 8.3.1; 1.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -676,18 +676,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pojazd jedzie z towarami ADR na warunkach zwolnienia 1.1.3.6. Zamiast gaśnicy proszkowej 2 kg przewoźnik proponuje gaśnicę z innym środkiem. Co trzeba sprawdzić?",
+        "stem": "Pojazd przewozi towary niebezpieczne w ilościach objętych zwolnieniem z 1.1.3.6. Zamiast gaśnicy proszkowej 2 kg przewoźnik chce dać gaśnicę z innym środkiem gaśniczym. Jaki warunek musi ona spełnić?",
         "options": {
-          "A": "Sprawdzić skuteczność dla pożarów A, B i C oraz równoważność",
-          "B": "Sprawdzić samą masę gaśnicy razem z uchwytem",
-          "C": "Wybrać gaśnicę do sprzętu elektrycznego bez oceny skuteczności dla pożarów A, B i C"
+          "A": "Zapewniać skuteczność równoważną 2 kg proszku dla pożarów grup A, B i C",
+          "B": "Ważyć razem z uchwytem co najmniej tyle samo, co gaśnica proszkowa 2 kg",
+          "C": "Nic więcej, bo przy zwolnieniu z 1.1.3.6 rodzaj środka gaśniczego jest dowolny"
         },
         "correct_option": "A",
-        "explanation": "Przy zwolnieniu ilościowym kierowca nadal musi mieć odpowiednią gaśnicę. Jeżeli zamiast proszku stosuje się inny środek, trzeba sprawdzić równoważną skuteczność gaszenia pożarów grup A, B i C. Masa urządzenia razem z uchwytem niczego tu nie dowodzi, a gaśnica przeznaczona wyłącznie do sprzętu elektrycznego może nie spełniać wymagań. Podstawa: ADR 8.1.4.2 i 1.1.3.6.",
+        "explanation": "Przy przewozie w ilościach objętych zwolnieniem z 1.1.3.6 jednostka transportowa nadal musi mieć co najmniej jedną gaśnicę przenośną. Ma ona zawierać co najmniej 2 kg proszku do gaszenia pożarów grup A, B i C albo inny odpowiedni środek o pojemności równoważnej. Liczy się więc zdolność gaszenia tych pożarów, a nie masa urządzenia razem z uchwytem. Zwolnienie z 1.1.3.6 nie daje swobody wyboru dowolnej gaśnicy, bo przepisy o gaśnicach nadal obowiązują. Podstawa: ADR 8.1.4.2 i 1.1.3.6.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.4.2",
+            "reference": "ADR 2025, 8.1.4.2; 1.1.3.6.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -717,24 +717,19 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewóz wykonuje samochód ciężarowy typu FL (pojazd silnikowy, nie naczepa), dla którego ADR wymaga świadectwa dopuszczenia. Gdzie powinno znajdować się świadectwo podczas jazdy?",
+        "stem": "Pojazd FL zarejestrowany w Polsce ma ważne świadectwo dopuszczenia ADR wydane przez polską władzę. Kierowca wiezie nim towar niebezpieczny do Niemiec. Jak niemiecka kontrola powinna potraktować to świadectwo?",
         "options": {
-          "A": "W archiwum firmy przewozowej",
-          "B": "W kabinie pojazdu wraz z wymaganymi dokumentami",
-          "C": "U odbiorcy razem z dokumentacją rozładunku, ponieważ w kabinie znajduje się zaświadczenie kierowcy"
+          "A": "Wymagać nowego świadectwa wydanego przez niemiecką władzę przed dalszą jazdą",
+          "B": "Uznać je przez cały okres ważności, który wpisano w tym świadectwie",
+          "C": "Uznać je przez 30 dni od wjazdu pojazdu na terytorium Niemiec"
         },
         "correct_option": "B",
-        "explanation": "Świadectwo dopuszczenia potwierdza, że pojazd typu FL spełnia wymagania ADR dla przewozów, do których jest przeznaczony. Jeśli świadectwo jest wymagane, kierowca musi mieć je w kabinie i okazać podczas kontroli; dokument w archiwum firmy lub u odbiorcy nie jest dostępny na drodze. Zaświadczenie ADR kierowcy potwierdza jego kwalifikacje, a nie dopuszczenie pojazdu. Podstawa: ADR 8.1.2.2(a) i 9.1.3.",
+        "explanation": "Świadectwo dopuszczenia wydaje właściwa władza państwa, w którym pojazd jest zarejestrowany, po pozytywnym wyniku badania. Świadectwo wydane przez jedno z państw stron ADR mają uznawać władze pozostałych państw stron ADR przez cały okres jego ważności. Polski pojazd nie potrzebuje więc osobnego świadectwa niemieckiego, a pobyt w Niemczech nie jest ograniczony do kilku tygodni. Trzeba jednak pilnować daty ważności, bo po jej upływie pojazdem nie wolno przewozić towarów niebezpiecznych. Podstawa: ADR 9.1.3.1, 9.1.3.2 i 9.1.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.2.2(a); 9.1.3",
+            "reference": "ADR 2025, 9.1.3.1; 9.1.3.2; 9.1.3.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "M364",
-            "reference": "Umowa wielostronna M364, pkt 1 (warunkowy wyjątek dla naczepy do 31.12.2026)",
-            "url": "https://unece.org/transport/road-transport/adr-multilateral-agreements"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -763,18 +758,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na jedną ciężarówkę mają trafić sztuki przesyłek ADR oznaczone różnymi nalepkami ostrzegawczymi. Pracownik twierdzi, że wystarczy, iż wszystkie opakowania są szczelne. Co jest właściwe?",
+        "stem": "Na jedną ciężarówkę mają trafić kanistry z nalepką ostrzegawczą wzoru 3 i beczki z nalepką wzoru 8. Innych towarów niebezpiecznych nie ma. Co wynika z tabeli zakazów ładowania razem?",
         "options": {
-          "A": "Załadować według miejsca dostawy, bo osobne dokumenty rozdzielają odpowiedzialność",
-          "B": "Uznać szczelność i podobne wymiary opakowań za wystarczające do wspólnego załadunku",
-          "C": "Sprawdzić tabelę 7.5.2 i wyjątki przed wspólnym załadunkiem"
+          "A": "Muszą jechać osobno, bo zapalnych i żrących nie wolno ładować razem",
+          "B": "Mogą jechać razem, jeżeli oddzieli się je przegrodą w przestrzeni ładunkowej",
+          "C": "Mogą jechać razem, bo tabela dopuszcza wspólny załadunek nalepek 3 i 8"
         },
         "correct_option": "C",
-        "explanation": "Przed wspólnym załadunkiem trzeba porównać nalepki ostrzegawcze przesyłek z tabelą zakazu ładowania razem i sprawdzić, czy nie obowiązuje zakaz albo szczególny warunek. Szczelne opakowania nie gwarantują, że dane towary wolno przewozić obok siebie; osobne dokumenty również nie znoszą ograniczeń. Dopiero po sprawdzeniu zgodności można ustalić rozmieszczenie ładunku. Podstawa: ADR 7.5.2.1–7.5.2.2.",
+        "explanation": "Tabela zakazów ładowania razem pokazuje, czy sztuki przesyłek z różnymi nalepkami ostrzegawczymi wolno załadować do jednego pojazdu. Na przecięciu wiersza 3 i kolumny 8 stoi znak X, który oznacza, że ładowanie razem jest dozwolone. Zakazy w tej tabeli dotyczą głównie przesyłek z nalepkami klasy 1 oraz z nalepkami 4.1+1 i 5.2+1. Przy nalepkach 3 i 8 ADR nie wymaga więc osobnych pojazdów ani przegrody między przesyłkami. Podstawa: ADR 7.5.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1; 7.5.2.2",
+            "reference": "ADR 2025, 7.5.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -804,14 +799,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Obok kartonów ADR załadowano ciężką maszynę niebędącą towarem niebezpiecznym. Co wymaga ADR przy jej mocowaniu?",
+        "stem": "Ciężka maszyna niebędąca towarem niebezpiecznym jedzie obok opakowań ADR. Jaką zasadę zastosować do jej mocowania?",
         "options": {
-          "A": "Zabezpieczyć także maszynę przed przesunięciem",
-          "B": "Mocować jedynie paczki ADR",
-          "C": "Ustawić ciężką maszynę przy tylnej ścianie i uznać, że jej masa wystarczy do stabilizacji"
+          "A": "Zamocować lub zaklinować także maszynę, tak jak sztuki przesyłek ADR",
+          "B": "Zamocować maszynę, gdy stoi tuż przy kartonach, a gdy stoi dalej, już nie",
+          "C": "Nie mocować maszyny, bo jej duża masa sama utrzyma ją w miejscu"
         },
         "correct_option": "A",
-        "explanation": "Ciężka maszyna, choć nie jest towarem niebezpiecznym, również musi być zabezpieczona, ponieważ przy hamowaniu może przesunąć się i zniszczyć opakowania ADR. Samo zamocowanie kartonów z nalepkami nie wystarcza. Oparcie maszyny o tylną ścianę także nie gwarantuje, że pozostanie na miejscu podczas manewru. Przed odjazdem sprawdź mocowanie całego ładunku. Podstawa: ADR 7.5.7.1.",
+        "explanation": "Jeżeli towary niebezpieczne jadą razem z innymi towarami, na przykład z ciężkimi maszynami, wszystkie towary trzeba umocować lub zaklinować. Ma to zapobiec uszkodzeniu opakowań i uwolnieniu się towarów niebezpiecznych. Ciężka maszyna przy gwałtownym hamowaniu może się przesunąć mimo dużej masy i zgnieść kartony. Obowiązek nie zależy od tego, jak blisko kartonów stoi maszyna, bo przesuwający się ładunek może uderzyć w nie z każdego miejsca. Podstawa: ADR 7.5.7.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -845,14 +840,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po rozładunku towaru niebezpiecznego przewożonego luzem pojazd ma zostać ponownie załadowany dokładnie tym samym towarem. Czy ADR zawsze wymaga czyszczenia przed ponownym załadunkiem?",
+        "stem": "Wywrotka przewiozła luzem towar niebezpieczny i po rozładunku ma od razu zabrać kolejną partię dokładnie tego samego towaru. Czy przed ponownym załadunkiem trzeba ją oczyścić?",
         "options": {
-          "A": "Oczyścić także przy tym samym towarze",
-          "B": "Nie, przy tym samym towarze istnieje wyjątek",
-          "C": "Pominąć czyszczenie pojazdu po kolejnych przewozach luzem, jeżeli zachowano zamknięcia"
+          "A": "Tak, bo po każdym przewozie luzem pojazd trzeba oczyścić bez wyjątków",
+          "B": "Nie, bo ADR zwalnia z czyszczenia, gdy nowy ładunek to ten sam towar",
+          "C": "Nie, pod warunkiem że partię odbierze ten sam odbiorca"
         },
         "correct_option": "B",
-        "explanation": "Zasadą jest oczyszczenie pojazdu po przewozie luzem, aby pozostałości nie zanieczyściły kolejnego ładunku. ADR przewiduje jednak wyjątek, gdy pojazd zostanie ponownie załadowany dokładnie tym samym towarem; nie jest to ogólne zwolnienie z czyszczenia po każdym przewozie. Sprawdź, czy rzeczywiście zachodzi ten konkretny warunek. Podstawa: ADR 7.5.8.2.",
+        "explanation": "Pojazd lub kontener, w którym przewożono towar niebezpieczny luzem, trzeba przed ponownym załadunkiem odpowiednio oczyścić. ADR przewiduje jeden wyjątek: gdy nowy ładunek zawiera te same towary niebezpieczne co poprzedni. Pozostałości poprzedniego ładunku nie zmieszają się wtedy z innym materiałem. Wyjątek zależy od rodzaju towaru, a nie od tego, kto jest odbiorcą kolejnej partii. Podstawa: ADR 7.5.8.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -886,18 +881,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przed załadunkiem ADR kierowca pokazuje jedynie fakturę handlową, a wymaganych dokumentów przewozowych nie da się skontrolować. Jak postąpić zgodnie z kontrolą przewidzianą w 7.5.1?",
+        "stem": "Kierowca przyjeżdża do terminalu kontenerowego po kontener z towarem niebezpiecznym. Od kiedy pojazd i załoga muszą spełniać wymagania przepisów, w tym dotyczące czystości i sprawności wyposażenia?",
         "options": {
-          "A": "Załadować po okazaniu faktury",
-          "B": "Uzupełnić brakujące dokumenty po przyjeździe do odbiorcy, a załadunek wykonać na podstawie zamówienia",
-          "C": "Wstrzymać załadunek do wymaganej kontroli"
+          "A": "Dopiero od wyjazdu z terminalu z załadowanym kontenerem na drogę publiczną",
+          "B": "Od chwili, gdy nadawca podpisze i przekaże kierowcy dokument przewozowy",
+          "C": "Już po przyjeździe na miejsce załadunku, także do terminalu kontenerowego"
         },
         "correct_option": "C",
-        "explanation": "Przed załadunkiem trzeba przeprowadzić wymaganą kontrolę dokumentów i warunków przewozu, dlatego brak odpowiednich danych oznacza konieczność wstrzymania czynności. Faktura potwierdza transakcję handlową, ale nie zastępuje dokumentu przewozowego ADR. Obietnica uzupełnienia papierów dopiero u odbiorcy też nie wystarcza. Wyjaśnij braki przed załadunkiem. Podstawa: ADR 7.5.1.2.",
+        "explanation": "ADR wymaga, aby pojazd i jego załoga spełniali wymagania przepisów już po przyjeździe do miejsca załadunku lub rozładunku, także do terminalu kontenerowego. Chodzi zwłaszcza o bezpieczeństwo, ochronę, czystość i sprawne działanie wyposażenia używanego przy załadunku i rozładunku. Przed załadunkiem sprawdza się dokumenty i ogląda pojazd, a wykryte braki wstrzymują załadunek. Nie można więc odkładać spełnienia wymagań do wyjazdu na drogę ani do otrzymania dokumentu przewozowego. Podstawa: ADR 7.5.1.1 i 7.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.1.2",
+            "reference": "ADR 2025, 7.5.1.1; 7.5.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -927,18 +922,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przesyłka ADR jedzie ciężarówką do portu, ale nie korzysta z warunkowego uznania przepisów transportu morskiego z 1.1.4.2.1. Czy sam dojazd do portu powoduje obowiązek wpisu z 5.4.1.1.7?",
+        "stem": "Sztuki przesyłek w pełni oznakowane według ADR jadą ciężarówką do portu, gdzie trafią na statek. Nadawca nie korzysta z odstępstwa dla łańcucha z przewozem morskim. Czy w dokumencie przewozowym potrzebny jest zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”?",
         "options": {
-          "A": "Nie, ten dodatkowy wpis dotyczy przewozu wykonywanego zgodnie z 1.1.4.2.1",
-          "B": "Dopisać adnotację dla każdego kursu do portu, również gdy 1.1.4.2.1 nie jest stosowany",
-          "C": "Dopisać ją, jeśli po drogowym odcinku przewóz ma być kontynuowany statkiem, nawet gdy warunek 1.1.4.2.1 nie jest spełniony."
+          "A": "Nie, bo zapis dotyczy przewozu wykonywanego na warunkach z 1.1.4.2.1",
+          "B": "Tak, bo wymaga go przewóz drogowy kończący się w porcie morskim",
+          "C": "Nie, ale trzeba zamiast niego wpisać „PRZEWÓZ ZGODNY Z KODEKSEM IMDG”"
         },
         "correct_option": "A",
-        "explanation": "Dodatkowy wpis w dokumencie jest wymagany w określonym przypadku przewozu łączonego, gdy na odcinku drogowym stosuje się warunki ADR 1.1.4.2.1. Sam fakt, że jedziesz do portu albo że ładunek później popłynie statkiem, nie wystarcza. Najpierw sprawdź, czy rzeczywiście spełniono warunki tego przepisu. Podstawa: ADR 5.4.1.1.7 i 1.1.4.2.1.",
+        "explanation": "Zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1” umieszcza się w dokumencie przewozowym tylko wtedy, gdy przewóz korzysta z odstępstwa z 1.1.4.2.1. To odstępstwo pozwala w łańcuchu z przewozem morskim lub lotniczym przewozić przesyłki oznakowane i zapakowane według Kodeksu IMDG lub Instrukcji Technicznych ICAO. Gdy przesyłki są w pełni oznakowane według ADR, sam dojazd do portu, z którego popłyną statkiem, nie wymaga tego zapisu. ADR nie przewiduje też zastępczego wpisu o zgodności z Kodeksem IMDG. Podstawa: ADR 5.4.1.1.7 i 1.1.4.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.7",
+            "reference": "ADR 2025, 5.4.1.1.7; 1.1.4.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -968,14 +963,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kontener z towarami niebezpiecznymi jedzie drogą, a następnie ma być załadowany na statek. Kto, zgodnie z ADR 5.4.2, dostarcza przewoźnikowi morskiemu certyfikat pakowania kontenera?",
+        "stem": "Kontener z towarem niebezpiecznym przypłynął statkiem i jedzie teraz z portu ciężarówką do odbiorcy w głębi kraju. Czy ADR wymaga na tym odcinku certyfikatu pakowania kontenera?",
         "options": {
-          "A": "Kierowca przewożący kontener",
-          "B": "Osoby odpowiedzialne za pakowanie kontenera",
-          "C": "Odbiorca, który podpisuje odbiór towarów i później przekazuje dokumentację do armatora"
+          "A": "Tak, bo certyfikat musi jechać z kontenerem na każdym odcinku drogowym",
+          "B": "Nie, bo ADR wymaga go przy przewozie bezpośrednio przed przewozem morskim",
+          "C": "Nie, ale kierowca musi wtedy wieźć ze sobą kopię certyfikatu z odcinka morskiego"
         },
         "correct_option": "B",
-        "explanation": "Za przekazanie przewoźnikowi morskiemu świadectwa pakowania kontenera odpowiadają osoby odpowiedzialne za jego pakowanie. Dokument potwierdza, że kontener przygotowano do podróży morskiej według odpowiednich wymagań. Kierowca przewozi kontener drogą, a odbiorca go przyjmuje, lecz żaden z nich nie przejmuje automatycznie tego obowiązku. Podstawa: ADR 5.4.2.",
+        "explanation": "ADR wymaga certyfikatu pakowania kontenera wtedy, gdy kontener z towarem niebezpiecznym jedzie drogą bezpośrednio przed przewozem morskim. Certyfikat dostarczają przewoźnikowi morskiemu osoby odpowiedzialne za pakowanie kontenera, a nie kierowca. Na odcinku drogowym po rejsie, z portu do odbiorcy, ten przepis nie wymaga certyfikatu ani jego kopii. Kierowca nadal musi mieć dokumenty wymagane w przewozie drogowym, na przykład dokument przewozowy. Podstawa: ADR 5.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1009,18 +1004,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Ładunek niebezpieczny najpierw jest przewożony koleją, a potem dalej ciężarówką. Jaką zasadę należy przyjąć przy ocenie obu etapów?",
+        "stem": "Przesyłka niebezpieczna jedzie najpierw koleją, a następnie po przeładunku ciężarówką. Jakie przepisy stosuje się do poszczególnych odcinków?",
         "options": {
-          "A": "RID na całej trasie, także po przeładunku towaru na samochód ciężarowy",
-          "B": "ADR dla obu odcinków trasy",
-          "C": "RID dla kolei, ADR dla drogi, z wyjątkami"
+          "A": "RID na całej trasie, ponieważ przewóz rozpoczął się koleją",
+          "B": "ADR na całej trasie, jeżeli te same opakowania nie są przepakowywane",
+          "C": "RID na odcinku kolejowym, a ADR od przeładunku na ciężarówkę"
         },
         "correct_option": "C",
-        "explanation": "RID reguluje przewóz towarów niebezpiecznych koleją, a ADR — przewóz drogowy. Gdy ładunek jedzie najpierw pociągiem, a potem ciężarówką, trzeba sprawdzić wymagania właściwe dla obu odcinków. Nie można stosować RID na całej trasie ani zakładać, że ADR obowiązuje także podczas odcinka kolejowego. Podstawa: ADR 1.1.4.2 i 1.1.4.3.",
+        "explanation": "RID to regulamin międzynarodowego przewozu kolejami towarów niebezpiecznych, a ADR to umowa o ich międzynarodowym przewozie drogowym. Gdy ładunek jedzie najpierw pociągiem, a po przeładunku ciężarówką, na odcinku kolejowym stosuje się RID, a na drogowym ADR. Rozpoczęcie podróży koleją nie oznacza, że RID obowiązuje także podczas dalszej jazdy samochodem. Zachowanie tych samych opakowań nie sprawia też, że ADR obejmuje odcinek kolejowy. Podstawa: ADR 1.2.3 i 1.1.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2; 1.1.4.3",
+            "reference": "ADR 2025, 1.2.3; 1.1.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1050,18 +1045,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kontener po rejsie morskim jest oznakowany zgodnie z IMDG, ale inaczej niż w typowym przewozie drogowym. Kiedy można opierać się na uznaniu części wymagań IMDG przez ADR?",
+        "stem": "Kontener z dużymi nalepkami ostrzegawczymi według Kodeksu IMDG, a nie według ADR, ma jechać tylko drogą z magazynu w Łodzi do Poznania, bez odcinka morskiego. Czy można uznać jego oznakowanie IMDG?",
         "options": {
-          "A": "Po spełnieniu warunków ADR 1.1.4.2.1",
-          "B": "Po okazaniu prawa jazdy",
-          "C": "Po usunięciu nalepek IMDG z kontenera, aby umieszczono go na pojeździe z samymi tablicami ADR"
+          "A": "Nie, bo odstępstwo dotyczy łańcucha transportowego z przewozem morskim",
+          "B": "Tak, bo ADR uznaje oznakowanie IMDG w każdym przewozie drogowym kontenera",
+          "C": "Nie, chyba że pojazd z kontenerem ma też tablice barwy pomarańczowej"
         },
         "correct_option": "A",
-        "explanation": "IMDG to kodeks dotyczący morskiego przewozu towarów niebezpiecznych. ADR może uznać określone wymagania IMDG na odcinku drogowym tylko wtedy, gdy spełniono warunki przewozu kombinowanego opisane w przepisie. Sam fakt, że kontener przypłynął statkiem, nie wystarcza; trzeba sprawdzić między innymi wymagane oznakowanie i dokumenty. Podstawa: ADR 1.1.4.2.1.",
+        "explanation": "ADR pozwala zostawić na kontenerze duże nalepki według Kodeksu IMDG zamiast oznakowania według działu 5.3 ADR tylko w łańcuchu transportowym zawierającym przewóz morski. Kontener jadący wyłącznie drogą, bez odcinka morskiego, musi mieć duże nalepki ostrzegawcze zgodne z ADR. Tablice barwy pomarańczowej na pojeździe nie zastępują nalepek na kontenerze, a krajowa trasa niczego tu nie zmienia. Przed wyjazdem trzeba więc oznakować kontener według ADR. Podstawa: ADR 1.1.4.2.1(c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2.1",
+            "reference": "ADR 2025, 1.1.4.2.1(c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1091,14 +1086,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na trasie znajdują się tunele kategorii B i E. Które twierdzenie prawidłowo opisuje znaczenie ich kategorii ADR?",
+        "stem": "Przed tunelem stoi znak zakazu dla pojazdów z towarami niebezpiecznymi z dodatkową tabliczką z literą B. Jakich towarów dotyczy ograniczenie w tunelu kategorii B?",
         "options": {
-          "A": "Tunel B automatycznie zakazuje każdej ciężarówce ADR wjazdu, niezależnie od kodu",
-          "B": "Tunel kategorii E nakłada szersze ograniczenia przewozu niż tunel kategorii B",
-          "C": "Kategoria tunelu dotyczy tylko wymiarów pojazdu, nie przewożonego ładunku"
+          "A": "Wszystkich towarów niebezpiecznych, bo B to kategoria zaraz po A",
+          "B": "Towarów, które mogą spowodować wybuch o bardzo dużym zasięgu",
+          "C": "Materiałów żrących, które mogą uszkodzić konstrukcję tunelu"
         },
         "correct_option": "B",
-        "explanation": "Tunel kategorii E wprowadza szersze ograniczenia dla przewozu towarów niebezpiecznych niż tunel kategorii B. Przed wjazdem kierowca porównuje kategorię tunelu z kodem tunelowym przewożonego towaru i uwzględnia oznakowanie drogi. Kategoria B nie zakazuje automatycznie każdemu pojazdowi ADR wjazdu, a kategorie tuneli nie opisują wymiarów ciężarówki. Podstawa: ADR 1.9.5.2.2 i 8.6.4.",
+        "explanation": "ADR dzieli tunele na kategorie od A do E według zagrożeń, przed którymi mają chronić. W tunelu kategorii A nie ma ograniczeń, a w tunelu kategorii B ograniczenie dotyczy towarów zagrażających wybuchem o bardzo dużym zasięgu. Kolejne kategorie obejmują coraz więcej towarów, na przykład kategoria C dodaje towary o działaniu trującym o dużym zasięgu. Czy dany towar może wjechać, sprawdza się, porównując kategorię tunelu z kodem tunelowym towaru. Podstawa: ADR 1.9.5.2.2 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1132,14 +1127,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W dolnej części komórki kolumny 15 tabeli A widnieje zapis „(D/E)”. Czego dotyczy to oznaczenie?",
+        "stem": "W dolnej części komórki kolumny (15) tabeli A dla towaru podano w nawiasie „(D/E)”. Czego dotyczy ten zapis?",
         "options": {
-          "A": "Oznaczenia grupy pakowania, podobne do I, II lub III",
-          "B": "Wymaganego środka gaśniczego i liczby gaśnic na wyposażeniu pojazdu",
-          "C": "Kodu ograniczeń tunelowych ADR, zależnego od sposobu przewozu"
+          "A": "Dwóch grup pakowania wyznaczonych dla tej samej pozycji tabeli A",
+          "B": "Typu i liczby gaśnic wymaganych na jednostce transportowej",
+          "C": "Ograniczeń tunelowych zależnych od sposobu przewozu towaru"
         },
         "correct_option": "C",
-        "explanation": "Zapis D/E w kolumnie 15 tabeli A to kod ograniczeń przejazdu przez tunele; jego zastosowanie zależy od tego, czy towar jedzie w cysternie, czy w sztukach przesyłek. Nie jest to grupa pakowania ani informacja o liczbie gaśnic. Przed trasą porównaj kod z kategorią tunelu i zasadami dla danego sposobu przewozu. Podstawa: ADR 3.2 tabela A, kolumna 15; 8.6.3.1 i 8.6.4.",
+        "explanation": "Zapis w nawiasie w dolnej części kolumny (15) tabeli A to kod ograniczeń przewozu przez tunele. Kod D/E oznacza, że przy przewozie luzem lub w cysternie obowiązuje zakaz przejazdu przez tunele kategorii D i E. Przy innym przewozie, na przykład w sztukach przesyłek, zakaz dotyczy tylko tuneli kategorii E. Grupę pakowania i wymagane gaśnice podają inne przepisy, a nie ten kod. Podstawa: ADR 8.6.3.1 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1173,18 +1168,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Jednostka transportowa z towarami pakowanymi w ilościach ograniczonych LQ wymaga oznakowania zgodnie z 3.4.13, z uwzględnieniem 3.4.14. Jaką kategorię tunelu ADR wskazuje jako ograniczoną dla tak oznakowanej jednostki?",
+        "stem": "Ciężarówka o masie maksymalnej 18 t wiezie tylko sztuki przesyłek z towarami w ilościach ograniczonych (LQ), razem 5 t brutto. Na trasie jest tunel kategorii E. Czy ładunek LQ ogranicza jej przejazd?",
         "options": {
-          "A": "E",
-          "B": "Wyłącznie A",
-          "C": "Wyłącznie B"
+          "A": "Nie, bo przy 5 t ładunku LQ ta ciężarówka nie musi mieć znaków LQ",
+          "B": "Tak, bo jednostka powyżej 12 t z towarem LQ nie wjedzie do tunelu E",
+          "C": "Nie, bo znaki LQ ograniczają wjazd do tuneli kategorii D, a nie E"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli jednostka transportowa podlega oznakowaniu LQ zgodnie z 3.4.13 i 3.4.14, trzeba uwzględnić ograniczenie dotyczące tuneli kategorii E. Oznaczenie LQ nie oznacza więc, że można wjechać do każdego tunelu bez sprawdzenia trasy. Kategorie A i B nie są ograniczeniem wskazanym w tym przepisie. Podstawa: ADR 8.6.3.3 i 8.6.4.",
+        "explanation": "Jednostka transportowa o masie maksymalnej powyżej 12 t z towarami w ilościach ograniczonych musi mieć z przodu i z tyłu znaki LQ. Znaki te nie są jednak wymagane, gdy łączna masa brutto sztuk przesyłek LQ nie przekracza 8 t. Ograniczenie dla jednostek z wymaganymi znakami LQ dotyczy tuneli kategorii E. Przy 5 t ładunku LQ ograniczenia więc nie ma, ale przy ponad 8 t ta ciężarówka nie mogłaby wjechać do tunelu kategorii E. Podstawa: ADR 3.4.13, 3.4.14, 8.6.3.3 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.3; 8.6.4",
+            "reference": "ADR 2025, 3.4.13; 3.4.14; 8.6.3.3; 8.6.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1214,14 +1209,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przy pożarze ciężarówki ADR w tunelu kierowca ma dostęp do oznakowanego wyjścia ewakuacyjnego, a przedział ładunkowy objął ogień. Co powinien potraktować priorytetowo?",
+        "stem": "W tunelu pali się przedział ładunkowy samochodu ADR, a blisko jest oznakowane wyjście ewakuacyjne. Co powinien zrobić kierowca?",
         "options": {
-          "A": "Otworzyć ładownię i próbować gasić ogień mimo dymu oraz ryzyka dla kierowcy",
-          "B": "Zadbać o własne bezpieczeństwo, ewakuować się i powiadomić służby",
-          "C": "Pozostać przy pojeździe i czekać na służby, zamiast od razu skorzystać z wyjścia ewakuacyjnego"
+          "A": "Gasić pożar ładowni gaśnicą z wyposażenia pojazdu",
+          "B": "Skorzystać z wyjścia, oddalić się i powiadomić ratowników",
+          "C": "Pozostać w kabinie z wyłączonym nawiewem i oczekiwać na służby"
         },
         "correct_option": "B",
-        "explanation": "Gdy ogień obejmuje przedział ładunkowy w tunelu, najważniejsze jest wyjście z zagrożonego miejsca i wezwanie pomocy. Otwieranie ładowni i samodzielne gaszenie jej pożaru może narazić kierowcę na ogień, dym i niebezpieczne substancje. Pozostawanie przy płonącym pojeździe zamiast skorzystania z dostępnej ewakuacji także zwiększa ryzyko. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne ADR rozróżniają małe pożary hamulców, opon lub silnika od pożaru obejmującego przedział ładunkowy. Członkowie załogi nie powinni gasić pożaru ładowni, szczególnie w tunelu, gdzie dym może szybko utrudnić oddychanie. Pozostawanie w kabinie obok płonącego ładunku także może zwiększyć narażenie, gdy dostępna jest droga ewakuacji. Priorytetem jest opuszczenie niebezpiecznego miejsca, ostrzeżenie innych i wezwanie służb ratowniczych. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",

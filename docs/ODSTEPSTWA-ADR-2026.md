@@ -25,7 +25,7 @@ Poniżej wybrane umowy podpisane przez Polskę, zidentyfikowane przy audycie. Ak
 
 ## Przykład realnego wpływu na nasze pytania
 
-### Pytania ADR-B-0145 i ADR-B-0198
+### Pytanie ADR-B-0145 (M364) oraz ADR-B-0198 (uznawanie świadectwa)
 
 Starsze pytania sugerowały, że **każde** wymagane świadectwo dopuszczenia pojazdu musi być przechowywane w kabinie. Zasada ADR 8.1.2.2(a) nie uwzględniała w ich brzmieniu warunkowego wyjątku **M364 dla naczep**. Poprawiono oba pytania, aby dotyczyły **samochodu ciężarowego, pojazdu silnikowego FL**, a nie naczepy. Zachowano status **needs_review**.
 
@@ -60,3 +60,6 @@ Starsze pytania sugerowały, że **każde** wymagane świadectwo dopuszczenia po
 - [M370 — obwieszczenie z 07.07.2026](https://www.gov.pl/web/infrastruktura/obwieszczenie-ministra-infrastruktury-z-dnia-7-lipca-2026-r-w-sprawie-wejscia-w-zycie-umowy-wielostronnej-m370-zawartej-na-podstawie-umowy-dotyczacej-miedzynarodowego-przewozu-drogowego-towarow-niebezpiecznych-adr)
 
 **Nie twierdzimy, że każda z wymienionych umów została w tym etapie sprawdzona punkt po punkcie.** Wymienione dane służą identyfikacji istotnych odstępstw i otwierają osobne zadania recenzji.
+
+
+**Aktualizacja 04.11.2026:** ADR-B-0198 dotyczy uznawania świadectwa dopuszczenia przez pozostałe państwa ADR (9.1.3.2), a nie miejsca jego przechowywania ani odstępstwa M364. M364 nadal dotyczy ADR-B-0145.
