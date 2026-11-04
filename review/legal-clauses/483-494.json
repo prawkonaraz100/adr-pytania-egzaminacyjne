@@ -56,24 +56,24 @@
     {
       "id": "ADR-B-0484",
       "order": 484,
-      "clause": "8.1.5.3, przypis 4",
+      "clause": "ADR 2025, 8.1.5.3, przypis 4",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wymóg nie zależy od tego, czy trasa prowadzi przez tunel kategorii E."
+          "rationale": "Wariant błędnie wyklucza materiały ciekłe albo przypisuje wyposażenie innym nalepkom."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Sama obecność nalepki 8 na cieczy nie oznacza, że stosuje się wymóg przeznaczony dla określonych materiałów stałych."
+          "rationale": "Wariant błędnie wyklucza materiały ciekłe albo przypisuje wyposażenie innym nalepkom."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź rozróżnia samą ciecz od określonych materiałów stałych wskazanych w warunku ADR."
+          "rationale": "Poprawiona treść C odpowiada przypisowi 4 w ADR 8.1.5.3 obejmującemu materiały ciekłe i stałe."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Potwierdzona korekta redakcyjna: pierwotne pytanie o ciecz z nalepką 8 błędnie uznawało zestaw z 8.1.5.3, przypis 4, za wymagany. Pytanie i wyjaśnienie pozostają needs_review; formalna ocena specjalisty pending.",
+      "notes_on_conditions": "Przypis 4 do 8.1.5.3 dotyczy materiałów stałych oraz ciekłych; wcześniej wskazywano błędne 'Nie'.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -83,12 +83,12 @@
         "module_id": "ADR-B-08",
         "stem": "W pojeździe ADR przewożona jest ciecz oznaczona wyłącznie nalepką nr 8. Czy według 8.1.5.3 zestaw do ograniczenia rozlewu obejmuje łopatę, osłonę odpływu i pojemnik?",
         "options": {
-          "A": "Tak, jeżeli trasa prowadzi przez tunel E",
-          "B": "Tak; wymóg dotyczy każdej cieczy żrącej, niezależnie od jej ilości",
-          "C": "Nie; ten zestaw dotyczy określonych materiałów w postaci stałej, a nie samej cieczy oznaczonej nalepką 8."
+          "A": "Nie, bo zestaw jest wymagany przy materiałach stałych, a nie cieczach",
+          "B": "Nie, bo ten zestaw jest wymagany przy nalepkach 2.3 i 6.1, a nie przy 8",
+          "C": "Tak, bo ten wymóg obejmuje materiały stałe i ciekłe oznaczone nalepką 8"
         },
         "correct_option": "C",
-        "explanation": "Wymóg przewożenia łopaty, osłony odpływu i pojemnika z ADR 8.1.5.3 dotyczy określonych materiałów i warunków przepisu, a nie każdej przesyłki z nalepką 8. Sama informacja, że w pojeździe jest ciecz żrąca, nie wystarcza do stwierdzenia obowiązku posiadania tego zestawu. Trzeba sprawdzić także postać materiału i wskazany wyjątek. Podstawa: ADR 8.1.5.3, przypis 4.",
+        "explanation": "Łopata, osłona otworów kanalizacyjnych i pojemnik do zbierania pozostałości należą do wyposażenia dodatkowego z 8.1.5.3. Przypis do tego punktu mówi, że są wymagane w przypadku materiałów stałych i materiałów ciekłych oznakowanych nalepkami 3, 4.1, 4.3, 8 lub 9. Ciecz żrąca z nalepką 8 jest więc objęta tym wymogiem. Maska ucieczkowa to osobny wymóg dla nalepek 2.3 i 6.1. Podstawa: ADR 8.1.5.3, przypis 4.",
         "sources": [
           {
             "code": "ADR-2025-PL",

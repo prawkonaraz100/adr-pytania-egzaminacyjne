@@ -9,33 +9,33 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Tak, bezwarunkowo”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przejazd przez port nie sprawia, że droga przestaje podlegać przepisom ADR. Dla łańcucha z przewozem morskim istnieją szczególne warunki uznawania wymagań, które trzeba sprawdzić przed wyjazdem. Sama obecność statku w dalszej trasie ani znajomość jego nazwy nie daje automatycznego zwolnienia. Podstawa: ADR 1.1.4.2.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Wariant jest sprzeczny z aktualnymi warunkami lub błędnie interpretuje źródła prawne ADR 2025."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Przejazd przez port nie sprawia, że droga przestaje podlegać przepisom ADR. Dla łańcucha z przewozem morskim istnieją szczególne warunki uznawania wymagań, które trzeba sprawdzić przed wyjazdem. Sama obecność statku w dalszej trasie ani znajomość jego nazwy nie daje automatycznego zwolnienia. Podstawa: ADR 1.1.4.2.1. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Wskazany wariant wynika z aktualnego brzmienia przepisu ADR 2025 oraz warunków pytania."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Tak, jeśli kierowca zna nazwę statku”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przejazd przez port nie sprawia, że droga przestaje podlegać przepisom ADR. Dla łańcucha z przewozem morskim istnieją szczególne warunki uznawania wymagań, które trzeba sprawdzić przed wyjazdem. Sama obecność statku w dalszej trasie ani znajomość jego nazwy nie daje automatycznego zwolnienia. Podstawa: ADR 1.1.4.2.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Wariant jest sprzeczny z aktualnymi warunkami lub błędnie interpretuje źródła prawne ADR 2025."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Dodatkowo sprawdzić polskie dosłowne brzmienie, sprostowanie oraz wyjątki stosowania przepisu.",
+      "notes_on_conditions": "Kontrola druga potwierdziła warunki nowego pytania; ostateczna aprobata specjalisty nadal oczekuje.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0247",
         "module_id": "ADR-B-10",
-        "stem": "Kontener z towarem ADR jedzie najpierw drogą, później statkiem. Czy samo przejście do transportu morskiego zawsze zwalnia z wymagań ADR na odcinku drogowym?",
+        "stem": "Po rejsie statkiem kontener z towarem jedzie dalej drogą. Towar jest niebezpieczny według ADR, ale Kodeks IMDG nie uznaje go za niebezpieczny, więc nie ma oznakowania. Czy można zastosować odstępstwo z 1.1.4.2.1?",
         "options": {
-          "A": "Tak, bezwarunkowo",
-          "B": "Nie, trzeba sprawdzić warunki stosowania 1.1.4.2.1 i właściwe wymogi dla odcinka drogowego",
-          "C": "Tak, jeśli kierowca zna nazwę statku"
+          "A": "Tak, bo po rejsie morskim w łańcuchu stosuje się zasady IMDG, a nie ADR",
+          "B": "Nie, odstępstwo nie obejmuje towaru nieuznanego za niebezpieczny w IMDG",
+          "C": "Tak, jeżeli dokument z rejsu morskiego podaje nazwę tego towaru"
         },
         "correct_option": "B",
-        "explanation": "To, że kontener będzie później płynął statkiem, nie znosi automatycznie zasad ADR na odcinku drogowym. Przed wyjazdem trzeba sprawdzić, czy spełnione są szczególne warunki przewozu łączonego, a także wymagania dotyczące jazdy drogą. Sama zapowiedź rejsu lub znajomość nazwy statku nie daje zwolnienia. Kierowca nie powinien zakładać wyjątku bez dokumentów. Podstawa: ADR 1.1.4.2.1.",
+        "explanation": "Punkt 1.1.4.2.1 pozwala w łańcuchu z przewozem morskim lub lotniczym zastąpić niektóre wymagania ADR wymaganiami Kodeksu IMDG albo instrukcji ICAO. To odstępstwo ma jednak wyraźne ograniczenie. Nie stosuje się go do towarów, które ADR uznaje za niebezpieczne, a Kodeks IMDG lub instrukcje ICAO nie uznają. Taki towar musi na drodze spełniać wymagania ADR, w tym dotyczące oznakowania. Podstawa: ADR 1.1.4.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -50,42 +50,42 @@
     {
       "id": "ADR-B-0248",
       "order": 248,
-      "clause": "ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1",
+      "clause": "ADR 2025, 8.6.3.1; 3.2.1 kolumna (15)",
       "source_2025_comparison_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Kod ograniczeń tunelowych znajduje się w kolumnie 15 tabeli A ADR; następnie trzeba zastosować reguły rozdziału 8.6 do konkretnej trasy i postaci przewozu. Kolumna 1 podaje numer UN, który pomaga znaleźć właściwy wpis, ale nie zastępuje kodu tunelowego. Kolumna 7a dotyczy limitu ilości ograniczonych (LQ), a nie ograniczeń przejazdu przez tunele. Podstawa: ADR 3.2 tabela A, kolumny 1 i 15; 8.6.3.1. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Wskazany wariant wynika z aktualnego brzmienia przepisu ADR 2025 oraz warunków pytania."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „W kolumnie 1, gdzie numer UN identyfikuje towar, bez potrzeby sprawdzania kolumny 15.”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Kod ograniczeń tunelowych znajduje się w kolumnie 15 tabeli A ADR; następnie trzeba zastosować reguły rozdziału 8.6 do konkretnej trasy i postaci przewozu. Kolumna 1 podaje numer UN, który pomaga znaleźć właściwy wpis, ale nie zastępuje kodu tunelowego. Kolumna 7a dotyczy limitu ilości ograniczonych (LQ), a nie ograniczeń przejazdu przez tunele. Podstawa: ADR 3.2 tabela A, kolumny 1 i 15; 8.6.3.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Wariant jest sprzeczny z aktualnymi warunkami lub błędnie interpretuje źródła prawne ADR 2025."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „W kolumnie 7a, ponieważ zawiera limit ilości ograniczonych dla danego towaru.”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Kod ograniczeń tunelowych znajduje się w kolumnie 15 tabeli A ADR; następnie trzeba zastosować reguły rozdziału 8.6 do konkretnej trasy i postaci przewozu. Kolumna 1 podaje numer UN, który pomaga znaleźć właściwy wpis, ale nie zastępuje kodu tunelowego. Kolumna 7a dotyczy limitu ilości ograniczonych (LQ), a nie ograniczeń przejazdu przez tunele. Podstawa: ADR 3.2 tabela A, kolumny 1 i 15; 8.6.3.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Wariant jest sprzeczny z aktualnymi warunkami lub błędnie interpretuje źródła prawne ADR 2025."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Dodatkowo sprawdzić polskie dosłowne brzmienie, sprostowanie oraz wyjątki stosowania przepisu. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
+      "notes_on_conditions": "Kontrola druga potwierdziła warunki nowego pytania; ostateczna aprobata specjalisty nadal oczekuje.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0248",
         "module_id": "ADR-B-11",
-        "stem": "Spedytor planuje trasę przez tunel. Gdzie w tabeli A ADR sprawdza się kod ograniczenia tunelowego konkretnego towaru?",
+        "stem": "W kolumnie (15) tabeli A przy towarze widnieje u góry cyfra „2”, a pod nią zapis „(D/E)”. Kierowca twierdzi, że kodem ograniczeń przewozu przez tunele jest „2”. Czy ma rację?",
         "options": {
-          "A": "W kolumnie 15",
-          "B": "W kolumnie 1, gdzie numer UN identyfikuje towar, bez potrzeby sprawdzania kolumny 15.",
-          "C": "W kolumnie 7a, ponieważ zawiera limit ilości ograniczonych dla danego towaru."
+          "A": "Nie, kodem jest „(D/E)”, a „2” to kategoria transportowa towaru",
+          "B": "Tak, bo kod tunelowy podaje się w górnej części komórki tabeli",
+          "C": "Nie, bo kod tunelowy jest w kolumnie (7a) obok ilości ograniczonych"
         },
         "correct_option": "A",
-        "explanation": "Kod ograniczenia tunelowego konkretnego towaru znajduje się w kolumnie 15 tabeli A ADR. Kolumna 1 zawiera numer UN, który pomaga znaleźć właściwy wiersz, ale nie podaje kodu tunelowego. Kolumna 7a dotyczy ilości ograniczonych LQ, a nie przejazdu przez tunele. Po odczytaniu kodu zastosuj zasady rozdziału 8.6. Podstawa: ADR 3.2, tabela A, kolumna 15, oraz 8.6.3.1.",
+        "explanation": "Kolumna (15) tabeli A zawiera dwie różne informacje. W górnej części komórki jest cyfra kategorii transportowej, której używa się przy liczeniu zwolnienia z 1.1.3.6. Kod ograniczeń przewozu przez tunele podaje się w nawiasie w dolnej części tej samej komórki. Kolumna (7a) dotyczy ilości ograniczonych i nie zawiera kodu tunelowego. Podstawa: ADR 8.6.3.1 i 3.2.1, opis kolumny (15).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.2.1 tabela A kolumna (15); 8.6.3.1",
+            "reference": "ADR 2025, 8.6.3.1; 3.2.1 kolumna (15)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -96,42 +96,42 @@
     {
       "id": "ADR-B-0249",
       "order": 249,
-      "clause": "ADR 2025, 1.10.1.2",
+      "clause": "ADR 2025, 1.1.3.6.2; 1.10.1.2; 1.10.3.1",
       "source_2025_comparison_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Sprawdzić tylko numer zlecenia i wydać towar bez dalszej weryfikacji”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przed zaoferowaniem towaru niebezpiecznego do przewozu trzeba zweryfikować tożsamość przewoźnika, aby nie przekazać ładunku osobie nieuprawnionej. Sam numer zamówienia nie potwierdza, że osoba reprezentuje właściwą firmę; telefoniczne zapewnienie bez sprawdzenia tożsamości również nie wystarcza. Pośpiech nie uzasadnia pominięcia tej kontroli. Podstawa: ADR 1.10.1.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Wariant jest sprzeczny z aktualnymi warunkami lub błędnie interpretuje źródła prawne ADR 2025."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Poprosić o telefoniczne potwierdzenie, ale nie sprawdzać tożsamości”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przed zaoferowaniem towaru niebezpiecznego do przewozu trzeba zweryfikować tożsamość przewoźnika, aby nie przekazać ładunku osobie nieuprawnionej. Sam numer zamówienia nie potwierdza, że osoba reprezentuje właściwą firmę; telefoniczne zapewnienie bez sprawdzenia tożsamości również nie wystarcza. Pośpiech nie uzasadnia pominięcia tej kontroli. Podstawa: ADR 1.10.1.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Wariant jest sprzeczny z aktualnymi warunkami lub błędnie interpretuje źródła prawne ADR 2025."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Przed zaoferowaniem towaru niebezpiecznego do przewozu trzeba zweryfikować tożsamość przewoźnika, aby nie przekazać ładunku osobie nieuprawnionej. Sam numer zamówienia nie potwierdza, że osoba reprezentuje właściwą firmę; telefoniczne zapewnienie bez sprawdzenia tożsamości również nie wystarcza. Pośpiech nie uzasadnia pominięcia tej kontroli. Podstawa: ADR 1.10.1.2. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Wskazany wariant wynika z aktualnego brzmienia przepisu ADR 2025 oraz warunków pytania."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Dodatkowo sprawdzić polskie dosłowne brzmienie, sprostowanie oraz wyjątki stosowania przepisu.",
+      "notes_on_conditions": "Kontrola druga potwierdziła warunki nowego pytania; ostateczna aprobata specjalisty nadal oczekuje.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0249",
         "module_id": "ADR-B-12",
-        "stem": "Do odbioru towaru ADR zgłasza się niezidentyfikowany przewoźnik, który zna numer zamówienia. Co wynika z zasad ochrony ADR?",
+        "stem": "Nadawca wydaje materiał wybuchowy klasy 1 zaliczony do towarów dużego ryzyka, w ilości mieszczącej się w limicie z 1.1.3.6. Magazynier chce pominąć sprawdzenie tożsamości przewoźnika. Czy może?",
         "options": {
-          "A": "Sprawdzić tylko numer zlecenia i wydać towar bez dalszej weryfikacji",
-          "B": "Poprosić o telefoniczne potwierdzenie, ale nie sprawdzać tożsamości",
-          "C": "Zidentyfikować przewoźnika przed zaoferowaniem mu towaru do przewozu"
+          "A": "Tak, bo przy przewozie w limicie z 1.1.3.6 dział 1.10 w ogóle nie obowiązuje",
+          "B": "Tak, jeżeli kierowca przewoźnika poda prawidłowy numer zlecenia",
+          "C": "Nie, bo dla towarów dużego ryzyka klasy 1 dział 1.10 nadal obowiązuje"
         },
         "correct_option": "C",
-        "explanation": "Przed przekazaniem towaru do przewozu trzeba sprawdzić tożsamość przewoźnika, aby nie wydać ładunku osobie podszywającej się pod właściwą firmę. Sam numer zamówienia może znać ktoś nieuprawniony, a telefoniczne zapewnienie bez weryfikacji nie potwierdza tożsamości. Pośpiech nie usprawiedliwia pominięcia kontroli. Podstawa: ADR 1.10.1.2.",
+        "explanation": "Przewóz w limicie z 1.1.3.6 zwalnia z wielu przepisów, w tym zwykle z działu 1.10 o ochronie. Zwolnienie ma jednak wyjątki, a jednym z nich są towary dużego ryzyka klasy 1, czyli takie, które mogłyby zostać użyte w zamachu terrorystycznym. Dla nich nadal obowiązuje zasada, że towar wydaje się wyłącznie odpowiednio zidentyfikowanemu przewoźnikowi. Sam numer zlecenia nie potwierdza tożsamości przewoźnika. Podstawa: ADR 1.1.3.6.2, 1.10.1.2 i 1.10.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.1.2",
+            "reference": "ADR 2025, 1.1.3.6.2; 1.10.1.2; 1.10.3.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -142,42 +142,42 @@
     {
       "id": "ADR-B-0250",
       "order": 250,
-      "clause": "ADR 2025, 1.10.1.4; 8.1.2.1",
+      "clause": "ADR 2025, 1.1.3.6.2; 1.10.1.4",
       "source_2025_comparison_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Wspólna lista nazwisk członków załogi bez ich indywidualnych dokumentów ze zdjęciem”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Wymaganie dotyczy indywidualnego dokumentu tożsamości ze zdjęciem dla każdego członka załogi, gdy ADR 1.10.1.4 ma zastosowanie. Lista nazwisk nie potwierdza tożsamości konkretnej osoby, a dokument samego kierowcy nie obejmuje pozostałych członków załogi. Sprawdź dokumenty wszystkich osób uczestniczących w przewozie. Podstawa: ADR 1.10.1.4 i 8.1.2.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Wariant jest sprzeczny z aktualnymi warunkami lub błędnie interpretuje źródła prawne ADR 2025."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Wymaganie dotyczy indywidualnego dokumentu tożsamości ze zdjęciem dla każdego członka załogi, gdy ADR 1.10.1.4 ma zastosowanie. Lista nazwisk nie potwierdza tożsamości konkretnej osoby, a dokument samego kierowcy nie obejmuje pozostałych członków załogi. Sprawdź dokumenty wszystkich osób uczestniczących w przewozie. Podstawa: ADR 1.10.1.4 i 8.1.2.1. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Wskazany wariant wynika z aktualnego brzmienia przepisu ADR 2025 oraz warunków pytania."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Dokument ze zdjęciem tylko dla kierowcy, bez dokumentu dla pozostałych członków załogi”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Wymaganie dotyczy indywidualnego dokumentu tożsamości ze zdjęciem dla każdego członka załogi, gdy ADR 1.10.1.4 ma zastosowanie. Lista nazwisk nie potwierdza tożsamości konkretnej osoby, a dokument samego kierowcy nie obejmuje pozostałych członków załogi. Sprawdź dokumenty wszystkich osób uczestniczących w przewozie. Podstawa: ADR 1.10.1.4 i 8.1.2.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Wariant jest sprzeczny z aktualnymi warunkami lub błędnie interpretuje źródła prawne ADR 2025."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Dodatkowo sprawdzić polskie dosłowne brzmienie, sprostowanie oraz wyjątki stosowania przepisu.",
+      "notes_on_conditions": "Kontrola druga potwierdziła warunki nowego pytania; ostateczna aprobata specjalisty nadal oczekuje.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0250",
         "module_id": "ADR-B-13",
-        "stem": "Załoga wykonuje przewóz ADR podlegający wymaganiom 1.10.1.4. Jakiego dokumentu nie należy pomijać podczas kontroli?",
+        "stem": "Załoga przewozi opakowania klasy 3 w ilości objętej zwolnieniem z 1.1.3.6. Czy ADR 1.10.1.4 wymaga od kierowcy i pomocnika dokumentów ze zdjęciem?",
         "options": {
-          "A": "Wspólna lista nazwisk członków załogi bez ich indywidualnych dokumentów ze zdjęciem",
-          "B": "Dokumentu tożsamości ze zdjęciem każdego członka załogi",
-          "C": "Dokument ze zdjęciem tylko dla kierowcy, bez dokumentu dla pozostałych członków załogi"
+          "A": "Tak, bo dokument ze zdjęciem obowiązuje przy klasie 3 w dowolnej ilości",
+          "B": "Nie, bo przy takim zwolnieniu z 1.1.3.6 nie stosuje się działu 1.10",
+          "C": "Tak, bo zwolnienie z 1.1.3.6 obejmuje jedynie przepisy części 8 ADR"
         },
         "correct_option": "B",
-        "explanation": "Każdy członek załogi objęty wymaganiem ADR musi mieć własny dokument tożsamości ze zdjęciem, aby podczas kontroli można było ustalić, kto uczestniczy w przewozie. Wspólna lista nazwisk nie potwierdza tożsamości danej osoby, a dokument samego kierowcy nie wystarcza pozostałym. Przed wyjazdem trzeba sprawdzić dokumenty wszystkich członków załogi. Podstawa: ADR 1.10.1.4 i 8.1.2.1.",
+        "explanation": "Punkt 1.10.1.4 wymaga, aby członek załogi miał przy sobie dokument z fotografią potwierdzający tożsamość. Przy przewozie w limicie z 1.1.3.6 dział 1.10 jednak się nie stosuje, z wyjątkiem towarów dużego ryzyka klasy 1 i niektórych materiałów klasy 7. Zwolnienie nie dotyczy więc samej części 8, ale obejmuje też dział 1.10. Zwykły towar klasy 3 nie należy do tych wyjątków, dlatego ADR nie wymaga tu dokumentu ze zdjęciem. Podstawa: ADR 1.1.3.6.2 i 1.10.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.1.4; 8.1.2.1",
+            "reference": "ADR 2025, 1.1.3.6.2; 1.10.1.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

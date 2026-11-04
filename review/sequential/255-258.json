@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na opisanej pomarańczowej tablicy ADR widnieje u góry „33”, a na dole „1203”. Które pole zawiera numer UN?",
+        "stem": "Na standardowej tablicy barwy pomarańczowej, jak na rysunku, są numery „33” i „1203”. Jakie wymiary powinny mieć ich czarne cyfry według ADR 5.3.2.2.2?",
         "options": {
-          "A": "Górne „33”",
-          "B": "Dolne „1203”",
-          "C": "Żadne z nich"
+          "A": "Cyfry o wysokości 65 mm i szerokości linii 10 mm",
+          "B": "Cyfry o wysokości 100 mm i szerokości linii 15 mm",
+          "C": "Cyfry o wysokości 120 mm i szerokości linii 20 mm"
         },
         "correct_option": "B",
-        "explanation": "Na numerowanej pomarańczowej tablicy dolne pole zawiera numer UN, czyli czterocyfrowy identyfikator przewożonego towaru. Górne „33” to numer rozpoznawczy zagrożenia i opisuje rodzaj lub nasilenie niebezpieczeństwa, a nie nazwę materiału. Nie zamieniaj tych pól: przy sprawdzaniu ładunku odczytaj osobno numer UN i numer zagrożenia. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Na tablicy barwy pomarańczowej numer rozpoznawczy zagrożenia i numer UN nanosi się czarnymi cyframi o wysokości 100 mm i szerokości linii 15 mm. Numer zagrożenia jest u góry, a numer UN na dole, oddzielone poziomą czarną linią. Mniejsze cyfry, 65 mm z linią 10 mm, dopuszcza się w szczególnym przypadku materiału promieniotwórczego na zmniejszonej tablicy. Cyfry muszą być nieścieralne i pozostać czytelne nawet po 15 minutach w ogniu. Podstawa: ADR 5.3.2.2.2 i 5.3.2.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.2.2",
+            "reference": "ADR 2025, 5.3.2.2.2; 5.3.2.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

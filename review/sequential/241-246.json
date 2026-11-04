@@ -20,14 +20,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po rozładunku pusty, nieoczyszczony kontener ADR jedzie zgodnie z 7.5.8.1 do najbliższego odpowiedniego miejsca czyszczenia. Jaka dodatkowa informacja jest wymagana w dokumencie przewozowym?",
+        "stem": "Pusty nieoczyszczony kontener z pozostałościami ADR jedzie do najbliższego miejsca czyszczenia według 7.5.8.1. Co dodatkowo wpisać do dokumentu przewozowego?",
         "options": {
-          "A": "Wskazanie, że przewóz odbywa się zgodnie z 7.5.8.1",
-          "B": "Wpisać, że kontener został oczyszczony",
-          "C": "Pominąć dane o przewozie i jego warunkach z uwagi na opróżnienie kontenera przed podróżą"
+          "A": "Dodać „PRZEWÓZ ZGODNY Z 7.5.8.1” obok innych danych przewozu",
+          "B": "Zastąpić opis towaru słowami „KONTENER BEZ ŁADUNKU”",
+          "C": "Wskazać jedynie adres czyszczenia, bez odniesienia do punktu 7.5.8.1"
         },
         "correct_option": "A",
-        "explanation": "Pusty kontener, którego nie oczyszczono, może nadal zawierać niebezpieczne pozostałości. Jeśli jest przewożony do miejsca czyszczenia na warunkach ADR 7.5.8.1, dokument musi zawierać wymaganą wzmiankę o takim przewozie. Nie wolno wpisywać, że kontener jest oczyszczony, ani pomijać informacji tylko dlatego, że został opróżniony. Podstawa: ADR 5.4.1.1.6.3(b) i 7.5.8.1.",
+        "explanation": "Kontener opróżniony z ładunku nadal może zawierać niebezpieczne pozostałości, jeżeli nie został oczyszczony. Gdy jedzie do najbliższego miejsca czyszczenia zgodnie z 7.5.8.1, w dokumencie przewozowym dodaje się zapis „PRZEWÓZ ZGODNY Z 7.5.8.1”. Ten zapis uzupełnia pozostałe dane i nie zastępuje opisu towaru. Sam adres myjni też nie wystarcza, bo nie mówi, na jakiej podstawie odbywa się przewóz. Podstawa: ADR 5.4.1.1.6.3(b) i 7.5.8.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po wycieku ADR substancja zbliża się do kanalizacji. Kiedy załoga może próbować ograniczyć jej odpływ?",
+        "stem": "Po wypadku z uszkodzonej beczki wycieka ciecz i spływa w stronę przydrożnego rowu z wodą. W pobliżu nie ma kratki kanalizacyjnej. Co według instrukcji pisemnych może zrobić załoga?",
         "options": {
-          "A": "Nawet gdy musi wejść w nieznaną substancję",
-          "B": "Tylko jeśli można to zrobić bezpiecznie",
-          "C": "Nigdy nie wolno chronić kanalizacji"
+          "A": "Nic nie robić, bo instrukcje każą chronić przed wyciekiem jedynie kanalizację",
+          "B": "Ograniczyć spływ cieczy do rowu, jeżeli jest to właściwe i bezpieczne",
+          "C": "Wejść do rowu i zbierać ciecz, bo woda szybko rozniesie skażenie"
         },
         "correct_option": "B",
-        "explanation": "Załoga może próbować ograniczyć odpływ rozlanej substancji do kanalizacji tylko wtedy, gdy da się to zrobić bezpiecznie i bez kontaktu z nieznanym materiałem. Wejście w rozlew może spowodować zatrucie lub oparzenia, dlatego nie wolno podejmować takiej próby za wszelką cenę. Nie jest jednak prawdą, że każda bezpieczna próba ochrony kanalizacji jest zabroniona. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą, jeżeli jest to właściwe i bezpieczne, zapobiec przedostaniu się uwolnionych materiałów do środowiska wodnego lub do kanalizacji. Chodzi więc także o rowy, strumienie i inne wody, a nie wyłącznie o kratki kanalizacyjne. Do tego służy wyposażenie z pojazdu, czyli łopata, osłona otworów kanalizacyjnych i pojemnik na pozostałości. Te same instrukcje zabraniają jednak wchodzenia na uwolniony materiał i dotykania go. Podstawa: ADR 5.4.3.4 i 8.1.5.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4; 8.1.5.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,14 +102,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Czy kierowca lub pomocnik kierowcy może otworzyć sztukę przesyłki ADR podczas przewozu, aby sprawdzić jej oznakowanie od środka?",
+        "stem": "Na postoju kierowca zauważa, że jeden karton z puszkami farby ADR jest dużo cięższy od pozostałych. Chce go otworzyć i przełożyć część puszek do lżejszego kartonu. Czy może to zrobić?",
         "options": {
-          "A": "Tak, jeśli założy rękawice i nie dotknie samego towaru.",
-          "B": "Tak, jeśli paczka nie jest uszkodzona, a kontrola potrwa tylko chwilę.",
-          "C": "Nie; oznakowanie należy sprawdzić z zewnątrz, bez otwierania paczki."
+          "A": "Tak, jeżeli puszki pozostaną zamknięte i nie zostaną uszkodzone",
+          "B": "Tak, jeżeli karton otworzy pomocnik kierowcy, a nie sam kierowca",
+          "C": "Nie, bo kierowca nie może otwierać sztuk przesyłek z towarem ADR"
         },
         "correct_option": "C",
-        "explanation": "Kierowca ani pomocnik kierowcy nie mogą otworzyć sztuki przesyłki, także po to, by sprawdzić jej zawartość lub oznakowanie. Dane potrzebne do kontroli należy odczytać z dokumentów i zewnętrznych oznaczeń opakowania. Rękawice, krótki postój ani dobry wygląd paczki nie tworzą wyjątku od zakazu. Podstawa: ADR 2025, 8.3.3.",
+        "explanation": "Kierowcy i jego pomocnikowi zabrania się otwierania sztuk przesyłek zawierających towary niebezpieczne. Przełożenie puszek wymaga otwarcia kartonu, więc jest niedozwolone także wtedy, gdy same puszki pozostaną zamknięte. Zakaz obejmuje w ten sam sposób pomocnika kierowcy. Jeżeli ładunek jest źle rozłożony, trzeba go lepiej zabezpieczyć w pojeździe bez otwierania opakowań. Podstawa: ADR 8.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -143,14 +143,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Podczas załadunku ADR silnik pojazdu pracuje, chociaż nie napędza żadnego urządzenia. Co należy zrobić?",
+        "stem": "Przy rozładunku pompa potrzebuje napędu z silnika ciężarówki. Przepisy państwa, w którym stoi pojazd, nie zezwalają jednak w takiej sytuacji na pracę silnika. Co powinien zrobić kierowca?",
         "options": {
-          "A": "Wyłączyć silnik",
-          "B": "Pozostawić silnik na biegu jałowym",
-          "C": "Pozostawić silnik włączony, jeśli załadunek trwa tylko kilka minut"
+          "A": "Nie uruchamiać silnika, bo wyjątek wymaga też zgody przepisów tego państwa",
+          "B": "Uruchomić silnik, bo napęd tej pompy jest niezbędny do wykonania rozładunku",
+          "C": "Uruchomić silnik, jeżeli rozładunek potrwa krócej niż piętnaście minut"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli silnik nie jest potrzebny do napędzania urządzeń używanych przy załadunku, powinien być wyłączony, o ile nie zachodzi przewidziany wyjątek. Krótki czas pracy nie daje automatycznej zgody na pozostawienie silnika włączonego. Niepotrzebna praca silnika może stwarzać dodatkowe zagrożenie i nie jest uzasadniona samą wygodą. Podstawa: ADR 8.3.6.",
+        "explanation": "Podczas załadunku i rozładunku silnik pojazdu co do zasady nie powinien pracować. Wyjątek jest możliwy, gdy silnik jest niezbędny do pracy pompy lub innego urządzenia i jednocześnie zezwalają na to przepisy państwa, w którym znajduje się pojazd. Oba warunki muszą być spełnione razem, więc sama potrzeba napędu pompy nie wystarczy. Krótki czas rozładunku również nie tworzy wyjątku. Podstawa: ADR 8.3.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -184,18 +184,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Załadowca widzi uszkodzoną sztukę przesyłki z wyciekiem ADR. Jak powinien zareagować?",
+        "stem": "Próżny nieoczyszczony kanister po materiale ADR ma pęknięcie, lecz obecnie nic z niego nie wycieka. Czy załadowca może go wydać przewoźnikowi?",
         "options": {
-          "A": "Schować paczkę za innymi opakowaniami",
-          "B": "Nie ładować przesyłki przed usunięciem wycieku",
-          "C": "Odłożyć ją na bok i wpisać wyciek do dokumentu bez naprawy"
+          "A": "Tak, jeśli nie widać wycieku w tej chwili",
+          "B": "Nie, bo uszkodzenie trzeba usunąć także w próżnym opakowaniu",
+          "C": "Tak, jeśli kierowca podpisze potwierdzenie odbioru uszkodzonej sztuki"
         },
         "correct_option": "B",
-        "explanation": "Gdy opakowanie przecieka, załadowca nie powinien umieszczać go w pojeździe do czasu usunięcia problemu. Wyciek może zagrozić ludziom, uszkodzić inne przesyłki i doprowadzić do skażenia przestrzeni ładunkowej. Ukrycie paczki za innymi ani samo odnotowanie wycieku w dokumentach nie przywraca jej szczelności. Najpierw trzeba właściwie zabezpieczyć przesyłkę. Podstawa: ADR 1.4.3.1.1(b).",
+        "explanation": "Załadowca musi sprawdzić stan opakowań przed wydaniem ich do przewozu, również wtedy, gdy są próżne i nieoczyszczone. Pęknięcie może dopuścić do wydostania się niebezpiecznych pozostałości podczas jazdy, chociaż w chwili oględzin nie widać wycieku. Przepis nie pozwala wydać uszkodzonej sztuki przesyłki do czasu usunięcia uszkodzenia. Sam podpis kierowcy i brak widocznego wycieku nie zastępują właściwego przygotowania opakowania. Podstawa: ADR 1.4.3.1.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.1",
+            "reference": "ADR 2025, 1.4.3.1.1(b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -225,14 +225,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Odbiorca chce bez ważnej przyczyny opóźniać przyjęcie dostarczonych towarów ADR. Co mówi zasada ADR?",
+        "stem": "Ciężarówka z beczkami ADR przyjeżdża do odbiorcy, gdy na jego rampie trwa usuwanie rozlanej cieczy po innej dostawie. Odbiorca każe kierowcy poczekać w bezpiecznym miejscu do końca sprzątania. Czy narusza tym ADR?",
         "options": {
-          "A": "Odroczyć przyjęcie ze względu na bieżącą organizację magazynu",
-          "B": "Przełożyć przyjęcie do końca zmiany",
-          "C": "Przyjąć dostawę bez nieuzasadnionej zwłoki"
+          "A": "Tak, bo odbiorca musi przyjąć ten towar od razu po przyjeździe pojazdu",
+          "B": "Tak, jeżeli oczekiwanie przekroczy godzinę wskazaną w zleceniu",
+          "C": "Nie, bo to opóźnienie jest konieczne ze względu na bezpieczeństwo"
         },
         "correct_option": "C",
-        "explanation": "Odbiorca powinien przyjąć dostarczony niebezpieczny ładunek bez nieuzasadnionej zwłoki, aby nie przedłużać niepotrzebnie sytuacji wymagającej nadzoru. Zwykłe trudności z harmonogramem magazynu lub koniec zmiany nie są automatycznym usprawiedliwieniem opóźnienia. Inaczej ocenia się rzeczywisty problem bezpieczeństwa. Podstawa: ADR 1.4.2.3.1.",
+        "explanation": "Odbiorca nie powinien opóźniać przyjęcia towarów, jeżeli takie opóźnienie nie jest konieczne. Przepis nie wymaga więc przyjęcia ładunku w dowolnych warunkach, lecz zakazuje zbędnej zwłoki. Rozładunek beczek na rampie, z której właśnie usuwa się rozlaną ciecz, mógłby stworzyć nowe zagrożenie. Oczekiwanie w bezpiecznym miejscu jest tu uzasadnione, a godzina ze zlecenia nie zmienia tej oceny. Podstawa: ADR 1.4.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
