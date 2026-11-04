@@ -170,9 +170,9 @@ Powiązane kompetencje: `ADR-B-05-K13`, `ADR-B-05-K14`, `ADR-B-05-K15`.
 
 ## Uzupełnienie przygotowania do P1–P3 (23.10.2026; bez zaliczeń)
 
-**P1 — sprzęt gaśniczy:** instruktor pokazuje różnicę między pożarem przedziału ładunkowego (załoga nie gasi) a małym pożarem elementów pojazdu, przy którym sprzęt wolno rozważyć wyłącznie w bezpiecznych warunkach. Pytania przygotowawcze 0222–0223.
+**P1 — sprzęt gaśniczy:** instruktor pokazuje różnicę między pożarem przedziału ładunkowego (załoga nie gasi) a małym pożarem elementów pojazdu, przy którym sprzęt wolno rozważyć wyłącznie w bezpiecznych warunkach. Pytania 0222–0223: ochrona załogi przy klasie 1 i wyposażenie gaśnicze zgodne z 8.1.4.1.
 
-**P2 — pierwsza pomoc:** symulacja poszkodowanego przy niezidentyfikowanym wycieku. Kursant najpierw ocenia zagrożenia dla siebie i innych, wzywa pomoc, działa tylko na bezpiecznym stanowisku. Pytania 0220, 0221, 0225.
+**P2 — pierwsza pomoc:** symulacja poszkodowanego przy niezidentyfikowanym wycieku. Kursant najpierw ocenia zagrożenia dla siebie i innych, wzywa pomoc, działa tylko na bezpiecznym stanowisku. Pytania 0220 (wezwanie służb przez rozładowcę), 0221 (bezpieczne miejsce przy wycieku gazu), 0225 (płukanie oka po kontakcie z cieczą żrącą).
 
 **P3 — wypadek/awaria:** suchy scenariusz bez substancji: bezpieczne zatrzymanie, środki ostrożności, wezwanie służb, ostrzeganie postronnych. Pytania 0219–0224.
 
@@ -363,9 +363,9 @@ Każdy nowy rekord zawiera opis sytuacji, kroki kierowcy, typowe błędy wraz z 
 
 | ID scenariusza | Dział | Sytuacja | Pytania do powtórki |
 |---|---|---|---|
-| `SC-ADR-B-05-02` | ADR-B-05 | Awaria na poboczu: pierwsze decyzje kierowcy | ADR-B-0013, ADR-B-0015, ADR-B-0169, ADR-B-0220 |
-| `SC-ADR-B-05-03` | ADR-B-05 | Pożar przy przestrzeni ładunkowej | ADR-B-0013, ADR-B-0015, ADR-B-0169, ADR-B-0222, ADR-B-0223 |
-| `SC-ADR-B-06-02` | ADR-B-06 | Rozbieżność numeru na tablicy i w dokumentach | ADR-B-0016, ADR-B-0507, ADR-B-0217 |
+| `SC-ADR-B-05-02` | ADR-B-05 | Wyciek przy rozładunku: kto wzywa służby | ADR-B-0013, ADR-B-0015, ADR-B-0169, ADR-B-0220 |
+| `SC-ADR-B-05-03` | ADR-B-05 | Klasa 1: ewakuacja i ochrona przed odłamkami | ADR-B-0013, ADR-B-0015, ADR-B-0169, ADR-B-0222, ADR-B-0223 |
+| `SC-ADR-B-06-02` | ADR-B-06 | Specjalny kod zagrożenia 44 na tablicy | ADR-B-0016, ADR-B-0507, ADR-B-0217 |
 | `SC-ADR-B-06-03` | ADR-B-06 | Nalepka zasłonięta podczas załadunku | ADR-B-0016, ADR-B-0017, ADR-B-0018 |
 | `SC-ADR-B-07-02` | ADR-B-07 | Niejasny podział obowiązków przy uszkodzonym opakowaniu | ADR-B-0019, ADR-B-0020, ADR-B-0021, ADR-B-0517, ADR-B-0567 |
 | `SC-ADR-B-07-03` | ADR-B-07 | Przekazanie instrukcji pisemnych nowemu członkowi załogi | ADR-B-0019, ADR-B-0020, ADR-B-0021 |
@@ -421,7 +421,7 @@ W każdym dziale są dokładnie trzy scenariusze. Pełny opis, kroki, pytania, k
 Porównano tytuł, sytuację, kroki i cel każdego scenariusza z treścią powiązanych pytań. Potwierdzono i poprawiono siedem niedopasowań w zestawach pytań lub opisie:
 
 - `SC-ADR-B-04-02`: usunięto pytanie o nadzór postoju z ćwiczenia o e-papierosie i pracującym silniku.
-- `SC-ADR-B-06-02`: zastąpiono pytanie o reakcję na wodę przy numerze zaczynającym się od X pytaniem o znaczenie cyfry 8 w numerze zagrożenia.
+- `SC-ADR-B-06-02`: w kontroli drugiej pytanie 0217 dotyczy specjalnego kodu 44 (materiał zapalny stały w stanie stopionym), a nie powtórzonej cyfry 8.
 - `SC-ADR-B-08-02`: usunięto pytanie o kamizelkę, dodano pytanie o brak oznaczenia terminu kontroli gaśnicy.
 - `SC-ADR-B-09-02`: usunięto pytania o ogólne mocowanie, dodano pytanie o termin oczyszczenia po pozostałościach.
 - `SC-ADR-B-09-03`: usunięto pytanie o zamknięcia przewozu luzem; dodano pytanie o niezamocowane skrzynie i usunięto niepasującą podstawę ADR 7.3.1.1.

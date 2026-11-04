@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0219",
       "order": 219,
-      "clause": "5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Gdy można bezpiecznie zatrzymać pojazd po awarii, należy go zabezpieczyć przed ruszeniem i ostrzec innych uczestników ruchu. Włącz światła awaryjne, użyj hamulca postojowego i wyłącz silnik, jeśli nie jest potrzebny do obsługi urządzeń. Pozostawienie silnika włączonego albo rezygnacja z ostrzegania nie ogranicza zagrożenia. Podstawa: ADR 5.4.3.4."
+          "rationale": "Odpowiedź odpowiada regule z aktualnego wyjaśnienia i przywołanych przepisów ADR 2025."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Pozostawić uruchomiony silnik, aby szybciej ogrzewać kabinę. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Nie włączać świateł awaryjnych, żeby nie zwracać uwagi. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Ocena dotyczy wyłącznie wskazanego scenariusza i odpowiedniego obowiązku. Pełny polski tekst, wyjątki i sprostowanie wymagają osobnej kontroli specjalisty.",
+      "notes_on_conditions": "Kontrola druga zaakceptowała nowe brzmienie pytania i źródła; niezależna aprobata specjalisty nadal oczekuje.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -34,14 +34,14 @@
       "question_snapshot": {
         "id": "ADR-B-0219",
         "module_id": "ADR-B-05",
-        "stem": "Gdy w trakcie przewozu ADR doszło do awarii i pojazd można bezpiecznie zatrzymać, co zgodnie z instrukcjami pisemnymi jest właściwym działaniem?",
+        "stem": "Po awarii kierowca zatrzymał pojazd skrzyniowy z towarem ADR w bezpiecznym miejscu, zahamował go i wyłączył silnik. Pojazd nie ma wyłącznika głównego akumulatora. Co według instrukcji pisemnych powinien zrobić z akumulatorem?",
         "options": {
-          "A": "Włączyć światła awaryjne, uruchomić hamulec postojowy i wyłączyć silnik",
-          "B": "Pozostawić uruchomiony silnik, aby szybciej ogrzewać kabinę",
-          "C": "Nie włączać świateł awaryjnych, żeby nie zwracać uwagi"
+          "A": "Zostawić go podłączonego, bo odłącza się go wyłącznikiem głównym, gdy jest",
+          "B": "Odkręcić klemy kluczem, bo akumulator trzeba odłączyć także bez wyłącznika",
+          "C": "Uruchamiać silnik co kilka minut, żeby akumulator się nie rozładował"
         },
         "correct_option": "A",
-        "explanation": "Gdy można bezpiecznie zatrzymać pojazd po awarii, należy go zabezpieczyć przed ruszeniem i ostrzec innych uczestników ruchu. Włącz światła awaryjne, użyj hamulca postojowego i wyłącz silnik, jeśli nie jest potrzebny do obsługi urządzeń. Pozostawienie silnika włączonego albo rezygnacja z ostrzegania nie ogranicza zagrożenia. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą po wypadku lub awarii, jeżeli to możliwe i bezpieczne, zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest on dostępny. Gdy pojazd nie ma takiego wyłącznika, instrukcje nie wymagają odkręcania klem narzędziami. Praca kluczem przy akumulatorze może wywołać iskrę, a instrukcje każą unikać źródeł zapłonu. Ponowne uruchamianie silnika też jest błędem, bo silnik ma pozostać wyłączony. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -56,24 +56,24 @@
     {
       "id": "ADR-B-0220",
       "order": 220,
-      "clause": "5.4.3.4",
+      "clause": "ADR 2025, 1.4.1.2; 5.4.3.4",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Zgodne z regułą: 5.4.3.4: podczas powiadamiania ratowników podaje się możliwie wszystkie dostępne informacje o zdarzeniu i towarach niebezpiecznych."
+          "rationale": "Odpowiedź odpowiada regule z aktualnego wyjaśnienia i przywołanych przepisów ADR 2025."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: podczas powiadamiania ratowników podaje się możliwie wszystkie dostępne informacje o zdarzeniu i towarach niebezpiecznych. Odpowiedź B nie oddaje wymaganego działania."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: podczas powiadamiania ratowników podaje się możliwie wszystkie dostępne informacje o zdarzeniu i towarach niebezpiecznych. Odpowiedź C nie oddaje wymaganego działania."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.4: podczas powiadamiania ratowników podaje się możliwie wszystkie dostępne informacje o zdarzeniu i towarach niebezpiecznych. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending.",
+      "notes_on_conditions": "Kontrola druga zaakceptowała nowe brzmienie pytania i źródła; niezależna aprobata specjalisty nadal oczekuje.",
       "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -81,18 +81,18 @@
       "question_snapshot": {
         "id": "ADR-B-0220",
         "module_id": "ADR-B-05",
-        "stem": "Po zdarzeniu z towarem niebezpiecznym trzeba powiadomić służby. Jaką informację kierowca powinien przekazać oprócz lokalizacji?",
+        "stem": "Podczas rozładunku u odbiorcy z uszkodzonej beczki wycieka ciecz zapalna, a opary zbierają się przy otwartej bramie magazynu i chodniku. Kierowca poszedł na przerwę. Kto powinien niezwłocznie powiadomić służby ratownicze?",
         "options": {
-          "A": "Informacje o zdarzeniu i zagrożeniu związanym z przewożonym towarem, jeśli są dostępne",
-          "B": "Podać numer telefonu firmy, ale pominąć opis zdarzenia i ładunku",
-          "C": "Podać sam numer UN, bez lokalizacji i okoliczności zdarzenia"
+          "A": "Uczestnicy przewozu obecni na miejscu, w tym pracownicy rozładowcy u odbiorcy",
+          "B": "Kierowca po powrocie z przerwy, bo instrukcje pisemne są przeznaczone dla załogi",
+          "C": "Doradca do spraw bezpieczeństwa po sporządzeniu raportu o zdarzeniu"
         },
         "correct_option": "A",
-        "explanation": "Podczas zgłoszenia zdarzenia służby potrzebują nie tylko lokalizacji, lecz także informacji, co się stało i jaki towar jest przewożony. Numer UN pomaga rozpoznać materiał, ale sam nie opisuje wypadku ani jego przebiegu. Przekaż sprawdzone dane, które masz bezpiecznie dostępne; nie zbliżaj się do wycieku tylko po to, by odczytać dokument. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Gdy powstaje bezpośrednie zagrożenie bezpieczeństwa publicznego, uczestnicy przewozu powinni niezwłocznie powiadomić służby ratownicze i przekazać im informacje potrzebne do działań. Obowiązek ten dotyczy także rozładowcy i jego pracowników, a nie tylko załogi pojazdu. Czekanie na powrót kierowcy opóźnia pomoc, a raport doradcy sporządza się po zdarzeniu i nie zastępuje wezwania służb. Pracownicy powinni podać, co wycieka i gdzie zbierają się opary. Podstawa: ADR 1.4.1.2 i 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 1.4.1.2; 5.4.3.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -103,24 +103,24 @@
     {
       "id": "ADR-B-0221",
       "order": 221,
-      "clause": "5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: należy pozostawać po stronie nawietrznej i unikać wdychania oparów. Odpowiedź A nie oddaje wymaganego działania."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Zgodne z regułą: 5.4.3.4: należy pozostawać po stronie nawietrznej i unikać wdychania oparów."
+          "rationale": "Odpowiedź odpowiada regule z aktualnego wyjaśnienia i przywołanych przepisów ADR 2025."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Sprzeczne z regułą w zakresie scenariusza: 5.4.3.4: należy pozostawać po stronie nawietrznej i unikać wdychania oparów. Odpowiedź C nie oddaje wymaganego działania."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.4: należy pozostawać po stronie nawietrznej i unikać wdychania oparów. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending.",
+      "notes_on_conditions": "Kontrola druga zaakceptowała nowe brzmienie pytania i źródła; niezależna aprobata specjalisty nadal oczekuje.",
       "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -128,14 +128,14 @@
       "question_snapshot": {
         "id": "ADR-B-0221",
         "module_id": "ADR-B-05",
-        "stem": "Z uszkodzonego opakowania wydostają się opary, a kierowca jest już w bezpiecznej odległości. Gdzie powinien pozostać zgodnie z instrukcjami ADR?",
+        "stem": "Z uszkodzonej butli z gazem palnym (nalepka 2.1) ulatnia się gaz. Kierowca odszedł na stronę nawietrzną. Obok jest głęboki rów, w którym nie czuć wiatru. Gdzie powinien się zatrzymać według instrukcji pisemnych?",
         "options": {
-          "A": "Jak najbliżej miejsca wycieku, by obserwować etykietę",
-          "B": "Po stronie nawietrznej, unikając wdychania oparów",
-          "C": "Po stronie zawietrznej, aby widzieć kierunek przemieszczania chmury"
+          "A": "W rowie, bo zagłębienie osłoni go przed wiatrem i falą wybuchu",
+          "B": "Po stronie nawietrznej, poza rowem i innymi zagłębieniami terenu",
+          "C": "Przy pojeździe, żeby pilnować wycieku do przyjazdu straży pożarnej"
         },
         "correct_option": "B",
-        "explanation": "Jeśli z opakowania wydostają się opary, zachowaj dystans i ustaw się po stronie nawietrznej, tak aby wiatr nie niósł ich w twoją stronę. Podejście bliżej w celu odczytania etykiety zwiększa ryzyko kontaktu, a stanie po stronie zawietrznej może skierować chmurę na kierowcę. Nie dotykaj uwolnionej substancji i postępuj zgodnie z instrukcjami awaryjnymi. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą unikać wdychania oparów i gazów przez pozostawanie po stronie nawietrznej. Przy gazach palnych z nalepką 2.1 dodatkowe wskazówki każą też schronić się i unikać zagłębień terenu. Ulatniający się gaz może zbierać się w niżej położonych miejscach, takich jak rów, nawet gdy nie czuć tam wiatru. Pozostawanie przy pojeździe naraża na gaz i ewentualny pożar, dlatego trzeba się oddalić. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -150,24 +150,24 @@
     {
       "id": "ADR-B-0222",
       "order": 222,
-      "clause": "5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Pożar przedziału ładunkowego z towarami niebezpiecznymi może bardzo szybko zagrozić życiu załogi. Nie należy próbować gasić takiego pożaru samodzielnie; trzeba oddalić się i wezwać odpowiednie służby. Otwieranie opakowań albo gaszenie za wszelką cenę może tylko zwiększyć zagrożenie. Podstawa: ADR 5.4.3.4."
+          "rationale": "Odpowiedź odpowiada regule z aktualnego wyjaśnienia i przywołanych przepisów ADR 2025."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Rozpocząć gaszenie ładowni podręczną gaśnicą w każdej sytuacji. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Otworzyć wszystkie opakowania, aby sprawdzić źródło pożaru. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Ocena dotyczy wyłącznie wskazanego scenariusza i odpowiedniego obowiązku. Pełny polski tekst, wyjątki i sprostowanie wymagają osobnej kontroli specjalisty.",
+      "notes_on_conditions": "Kontrola druga zaakceptowała nowe brzmienie pytania i źródła; niezależna aprobata specjalisty nadal oczekuje.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -175,14 +175,14 @@
       "question_snapshot": {
         "id": "ADR-B-0222",
         "module_id": "ADR-B-05",
-        "stem": "Podczas przewozu ADR ogień objął przedział ładunkowy z towarami niebezpiecznymi. Co powinien zrobić członek załogi?",
+        "stem": "Ogień obejmuje przedział ładunkowy pojazdu, który przewozi materiały wybuchowe podklasy 1.1 z nalepką ostrzegawczą klasy 1. Co według instrukcji pisemnych powinna zrobić załoga?",
         "options": {
-          "A": "Nie podejmować gaszenia pożaru przedziału ładunkowego i oddalić się w bezpieczne miejsce",
-          "B": "Rozpocząć gaszenie ładowni podręczną gaśnicą w każdej sytuacji",
-          "C": "Otworzyć wszystkie opakowania, aby sprawdzić źródło pożaru"
+          "A": "Nie gasić pożaru, oddalić się, ostrzec innych i schronić z dala od okien",
+          "B": "Gasić od zewnątrz, dopóki ogień nie dosięgnie samych materiałów wybuchowych",
+          "C": "Nie gasić i schronić się w kabinie, bo chroni ona przed odłamkami"
         },
         "correct_option": "A",
-        "explanation": "Jeśli ogień obejmuje przedział ładunkowy z towarami niebezpiecznymi, nie wchodź do ładowni i nie próbuj samodzielnie opanować takiego pożaru. Gaśnica podręczna nie daje pewności, że można bezpiecznie ugasić pożar ładunku, a otwieranie opakowań może uwolnić dodatkowe substancje. Oddal się, ostrzeż innych i wezwij służby. Najpierw chroń ludzi, nie ładunek. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Członkowie załogi nie powinni gasić pożaru, który obejmuje przedział ładunkowy. Przy materiałach wybuchowych z nalepką 1, 1.5 lub 1.6 dodatkowe wskazówki każą też schronić się i pozostać z dala od okien, bo wybuch może rozrzucić odłamki i wybić szyby. Gaszenie od zewnątrz naraża załogę, nawet gdy ogień nie objął jeszcze przesyłek. Kabina stoi tuż przy płonącym ładunku, dlatego nie jest bezpiecznym schronieniem. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -197,24 +197,24 @@
     {
       "id": "ADR-B-0223",
       "order": 223,
-      "clause": "5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4; 8.1.4.1",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Zgodne z regułą: 5.4.3.4: gaśnicy można użyć do małego/początkowego pożaru opony, hamulców lub silnika tylko wtedy, gdy to właściwe i bezpieczne."
+          "rationale": "Odpowiedź odpowiada regule z aktualnego wyjaśnienia i przywołanych przepisów ADR 2025."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Niewielki pożar nie uzasadnia działania, gdy bezpieczna droga odwrotu może zostać odcięta."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Zbliżanie się do przesyłki w celu odczytania nalepki może narazić członka załogi; działanie przy pożarze musi być bezpieczne."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.4: gaśnicy można użyć do małego/początkowego pożaru opony, hamulców lub silnika tylko wtedy, gdy to właściwe i bezpieczne. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
+      "notes_on_conditions": "Kontrola druga zaakceptowała nowe brzmienie pytania i źródła; niezależna aprobata specjalisty nadal oczekuje.",
       "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -222,18 +222,18 @@
       "question_snapshot": {
         "id": "ADR-B-0223",
         "module_id": "ADR-B-05",
-        "stem": "Pojawia się niewielki pożar opony, który jeszcze nie objął ładunku ADR. Kiedy członek załogi może rozważyć użycie gaśnicy?",
+        "stem": "Ciężarówka o dopuszczalnej masie całkowitej 18 t przewozi towar na pełnych zasadach ADR. Kierowca zauważa mały, początkowy pożar w komorze silnika i może go bezpiecznie gasić. Jaką gaśnicę ADR przewiduje do pożaru silnika lub kabiny?",
         "options": {
-          "A": "Tylko jeżeli można zrobić to bezpiecznie i zgodnie z instrukcjami, nie narażając się na zagrożenie",
-          "B": "Podjąć próbę gaszenia, jeśli ogień jest niewielki, nawet gdy bezpieczna droga odwrotu może zostać odcięta.",
-          "C": "Podejść do przesyłki, aby odczytać jej nalepkę przed decyzją o użyciu gaśnicy."
+          "A": "Co najmniej jedną gaśnicę o minimalnej pojemności 2 kg proszku",
+          "B": "Gaśnicę o pojemności co najmniej 6 kg, bo pojazd ma ponad 7,5 t",
+          "C": "Gaśnicę 12 kg, bo tyle wynosi całe minimum dla tej jednostki"
         },
         "correct_option": "A",
-        "explanation": "Mały pożar opony, który nie objął ładunku, można próbować gasić jedynie wtedy, gdy jest to właściwe i bezpieczne dla załogi. Nie wolno ryzykować odcięcia drogi odwrotu ani zbliżać się do przesyłki tylko po to, aby odczytać nalepkę. Jeśli warunki się pogarszają, oddal się, ostrzeż innych i wezwij służby. Bezpieczeństwo ludzi jest ważniejsze od ratowania pojazdu. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne pozwalają gasić mały lub początkowy pożar opon, hamulców albo przedziału silnika, jeżeli jest to właściwe i bezpieczne. Tabela gaśnic w ADR wymaga w jednostce transportowej co najmniej jednej gaśnicy do pożaru silnika lub kabiny o pojemności co najmniej 2 kg proszku. Wartości 6 kg i 12 kg dotyczą pojazdu powyżej 7,5 t, ale są to wymagania dla gaśnicy dodatkowej i dla łącznej pojemności gaśnic. Taka jednostka musi więc mieć co najmniej dwie gaśnice. Podstawa: ADR 5.4.3.4 i 8.1.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4; 8.1.4.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -244,24 +244,24 @@
     {
       "id": "ADR-B-0224",
       "order": 224,
-      "clause": "5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędna: samo niedotykanie ładunku nie oznacza, że pozostawanie blisko awarii jest bezpieczne."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawna: należy ostrzec osoby postronne i nakłonić je do oddalenia się oraz słuchania służb."
+          "rationale": "Odpowiedź odpowiada regule z aktualnego wyjaśnienia i przywołanych przepisów ADR 2025."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędna: wysłanie świadka do uszkodzonej przesyłki naraża go na niebezpieczeństwo."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Potwierdzono błąd klucza i poprawiono. 5.4.3.4: należy ostrzec osoby postronne o konieczności oddalenia się i stosować się do służb. Ostateczne zatwierdzenie specjalisty oraz pełne poświadczenie urzędowego polskiego tekstu pozostają pending.",
+      "notes_on_conditions": "Kontrola druga zaakceptowała nowe brzmienie pytania i źródła; niezależna aprobata specjalisty nadal oczekuje.",
       "editorial_result": "confirmed_answer_key_error_corrected_against_ADR_2025_PL_MI",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -269,14 +269,14 @@
       "question_snapshot": {
         "id": "ADR-B-0224",
         "module_id": "ADR-B-05",
-        "stem": "Po awarii ADR obok pojazdu gromadzą się osoby postronne. Jakie działanie załogi jest zgodne z instrukcjami pisemnymi?",
+        "stem": "Po awarii kierowca ostrzegł przechodniów i odszedł z nimi około 50 m od pojazdu. Przybyli strażacy wyznaczają strefę i każą wszystkim odejść na 200 m. Kierowca uważa, że 50 m wystarczy, bo nie widzi oparów. Co powinien zrobić?",
         "options": {
-          "A": "Ostrzec ludzi, lecz pozwolić im zostać przy pojeździe, jeśli nie dotykają ładunku",
-          "B": "Ostrzec osoby postronne, aby się oddaliły i stosowały się do wskazań służb",
-          "C": "Poprosić świadka o podejście i odczytanie oznakowania przesyłki"
+          "A": "Zostać na 50 m, bo zna przewożony towar lepiej niż strażacy",
+          "B": "Odejść na 200 m razem z przechodniami i słuchać poleceń strażaków",
+          "C": "Zostać na 50 m i stamtąd pilnować, żeby przechodnie nie podchodzili"
         },
         "correct_option": "B",
-        "explanation": "Po awarii trzeba ostrzec osoby postronne, żeby oddaliły się od pojazdu i słuchały poleceń służb, nawet gdy nie widać płomieni. Samo niedotykanie przesyłek nie wystarcza, bo zagrożeniem mogą być także opary lub uwolniony materiał. Nie proś świadka o podejście do ładunku w celu odczytania oznakowania; informacje przekaż z bezpiecznej odległości. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą oddalić się od miejsca wypadku lub zagrożenia, poinformować inne osoby, że też muszą się oddalić, oraz stosować się do zaleceń służb ratowniczych. Strażacy oceniają zagrożenie i wyznaczają strefę, której granica może być dalej, niż wydaje się kierowcy. Brak widocznych oparów nie oznacza, że miejsce jest bezpieczne. Kierowca może pomóc służbom, przekazując informacje o ładunku z bezpiecznego miejsca. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -291,24 +291,24 @@
     {
       "id": "ADR-B-0225",
       "order": 225,
-      "clause": "5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4; 8.1.5.2; 8.2.2.3.2(e)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępnie zgodne z zasadą ADR 5.4.3.4: Zanim kursant podejdzie do poszkodowanego przy nieznanym wycieku, musi ocenić, czy sam nie znajdzie się w strefie zagrożenia. Trzeba zadbać o bezpieczeństwo i wezwać właściwą pomoc. Szukanie dokumentów u rannego czy przenoszenie opakowań przed rozpoznaniem ryzyka może doprowadzić do kolejnych obrażeń. Podstawa: ADR 5.4.3.4."
+          "rationale": "Odpowiedź odpowiada regule z aktualnego wyjaśnienia i przywołanych przepisów ADR 2025."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Czy poszkodowany posiada dokument przewozowy w kieszeni. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe w zakresie pytania: Czy można od razu przenieść wszystkie uszkodzone opakowania. Pomylenie tego działania z wymaganiem ADR 5.4.3.4 może narazić kierowcę na błąd."
+          "rationale": "Wariant przedstawia błędną interpretację względem aktualnego wyjaśnienia i podstawy prawnej ADR 2025."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Ocena dotyczy wyłącznie wskazanego scenariusza i odpowiedniego obowiązku. Pełny polski tekst, wyjątki i sprostowanie wymagają osobnej kontroli specjalisty.",
+      "notes_on_conditions": "Kontrola druga zaakceptowała nowe brzmienie pytania i źródła; niezależna aprobata specjalisty nadal oczekuje.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -316,18 +316,18 @@
       "question_snapshot": {
         "id": "ADR-B-0225",
         "module_id": "ADR-B-05",
-        "stem": "W ćwiczeniu P2 instruktor przedstawia poszkodowanego leżącego obok niezidentyfikowanego wycieku. Co kursant powinien ocenić najpierw?",
+        "stem": "Po awarii drugiemu członkowi załogi prysnęła do oka ciecz żrąca z ładunku z nalepką 8. Obaj są już w bezpiecznym miejscu, z dala od wycieku. Jak kierowca powinien udzielić mu pierwszej pomocy?",
         "options": {
-          "A": "Czy wejście do strefy wycieku nie zagrozi jemu i innym, i wezwać właściwą pomoc",
-          "B": "Czy poszkodowany posiada dokument przewozowy w kieszeni",
-          "C": "Czy można od razu przenieść wszystkie uszkodzone opakowania"
+          "A": "Płukać oko płynem do płukania oczu z wyposażenia i wezwać pomoc medyczną",
+          "B": "Zakryć oko suchym opatrunkiem i bez płukania czekać na przyjazd karetki",
+          "C": "Przetrzeć oko suchą chusteczką, żeby zebrać krople cieczy przed płukaniem"
         },
         "correct_option": "A",
-        "explanation": "Przy poszkodowanym leżącym obok nieznanego wycieku najpierw sprawdź, czy podejście nie narazi ciebie ani innych osób. Nieznana substancja może być trująca lub żrąca, dlatego nie wchodź w rozlew i wezwij właściwą pomoc. Dokumenty poszkodowanego ani przenoszenie opakowań nie są ważniejsze od zabezpieczenia miejsca. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Pierwszej pomocy udziela się wtedy, gdy pomagający i poszkodowany są poza strefą zagrożenia, tak jak w tej sytuacji. Przy ładunku z nalepką 8 w jednostce transportowej musi być płyn do płukania oczu, dlatego można od razu zacząć płukać oko. Materiał żrący nadal działa w oku, więc czekanie bez płukania pogłębia oparzenie, a pocieranie może je rozmazać. Równocześnie trzeba wezwać pomoc medyczną. Podstawa: ADR 5.4.3.4, 8.1.5.2 i 8.2.2.3.2(e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4; 8.1.5.2; 8.2.2.3.2(e)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

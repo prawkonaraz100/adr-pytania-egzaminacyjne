@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na rampie pojawia się podwykonawca, który chce odebrać niebezpieczny ładunek. Przedsiębiorstwo nie ustaliło, czy to właściwy przewoźnik. Co wynika z 1.10.1.2?",
+        "stem": "Magazyn wydaje beczki z farbą klasy 3. Przewóz odbywa się na pełnych zasadach ADR, a towar nie należy do towarów dużego ryzyka. Kierownik zmiany twierdzi, że przy takim towarze nie trzeba ustalać tożsamości przewoźnika. Czy ma rację?",
         "options": {
-          "A": "Wydać po samym numerze zamówienia, bez sprawdzania upoważnienia do odbioru",
-          "B": "Wystarczy porównać nazwę przewoźnika na pojeździe z dokumentem; nie trzeba sprawdzać upoważnienia do odbioru",
-          "C": "Towar niebezpieczny można zaoferować do przewozu jedynie odpowiednio zidentyfikowanemu przewoźnikowi"
+          "A": "Tak, bo identyfikację przewoźnika przewiduje plan ochrony towarów dużego ryzyka",
+          "B": "Tak, bo obowiązki ochrony ma przewoźnik, a nie magazyn wydający towar",
+          "C": "Nie, bo wydanie towaru zidentyfikowanemu przewoźnikowi to ogólna zasada ochrony"
         },
         "correct_option": "C",
-        "explanation": "ADR wymaga, aby towary niebezpieczne były oferowane do przewozu odpowiednio zidentyfikowanemu przewoźnikowi. Sam numer zamówienia może znać osoba nieuprawniona, a napis na pojeździe nie potwierdza jeszcze, że firma lub kierowca są upoważnieni do odbioru. Przed wydaniem ładunku zastosuj procedurę identyfikacji przyjętą w przedsiębiorstwie; nie przypisuj przepisowi metody, której sam nie określa. Podstawa: ADR 1.10.1.2.",
+        "explanation": "Ogólne przepisy o ochronie towarów niebezpiecznych dotyczą osób uczestniczących w przewozie odpowiednio do ich obowiązków, więc także magazynu, który wydaje towar. Jedna z tych zasad mówi, że towary niebezpieczne można wydać do przewozu tylko odpowiednio zidentyfikowanemu przewoźnikowi. Ta zasada nie jest częścią planu ochrony, dlatego obowiązuje również przy towarach, które nie należą do towarów dużego ryzyka. Plan ochrony to dodatkowy obowiązek przy towarach dużego ryzyka. Podstawa: ADR 1.10.1.1 i 1.10.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.1.2",
+            "reference": "ADR 2025, 1.10.1.1; 1.10.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przedsiębiorstwo przewozi towary dużego ryzyka objęte 1.10.3.2.2. Czy plan ochrony może ograniczać się do listy numerów telefonów alarmowych?",
+        "stem": "Zakład chemiczny jako nadawca wysyła towar niebezpieczny dużego ryzyka. Przewoźnik, który go wiezie, ma przyjęty i stosowany plan ochrony. Czy nadawca również musi mieć własny plan ochrony?",
         "options": {
-          "A": "Nie, plan powinien m.in. przypisywać obowiązki, oceniać zagrożenia i określać środki ochrony oraz postępowanie przy incydentach",
-          "B": "Ograniczyć plan do plomb, kontroli dostępu i zabezpieczenia pojazdu, bez oceny zagrożeń, podziału odpowiedzialności ani procedur zgłaszania incydentów",
-          "C": "Tak, jeśli firma zatrudnia wyłącznie jednego kierowcę"
+          "A": "Tak, bo plan ochrony przyjmują także nadawcy biorący udział w takim przewozie",
+          "B": "Nie, bo za ochronę ładunku w czasie przewozu odpowiada przewoźnik i jego plan",
+          "C": "Tak, ale wystarczy, że dołączy do dokumentów kopię planu ochrony przewoźnika"
         },
         "correct_option": "A",
-        "explanation": "Plan ochrony dla towarów dużego ryzyka musi opisywać, jakie zagrożenia firma oceniła, kto odpowiada za działania, jakie zabezpieczenia stosuje i jak reaguje na incydent. Sama lista numerów alarmowych albo same plomby nie obejmują wszystkich tych elementów. Wymagania nie znikają tylko dlatego, że firma ma jednego kierowcę. Podstawa: ADR 1.10.3.2.2.",
+        "explanation": "Plan ochrony muszą przyjąć, wdrożyć i stosować przewoźnicy, nadawcy oraz inni uczestnicy przewozu, którzy biorą udział w przewozie towarów niebezpiecznych dużego ryzyka. Każdy z nich ustala w planie środki ochrony odpowiednio do zakresu swoich obowiązków, na przykład przy przygotowaniu i wydaniu towaru. Plan przewoźnika nie obejmuje więc tego, co dzieje się w zakładzie nadawcy. Kopia cudzego planu nie zastępuje własnego planu, który nadawca przyjął i stosuje. Podstawa: ADR 1.10.3.2.1 i 1.10.3.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.2.2",
+            "reference": "ADR 2025, 1.10.3.2.1; 1.10.3.2.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Firma przewozi towary niebezpieczne dużego ryzyka, do których odnosi się ADR 1.10.3.3. Jak należy traktować zabezpieczenia przed kradzieżą pojazdu i ładunku?",
+        "stem": "Ciągnik przewożący towar niebezpieczny dużego ryzyka ma fabrycznie zamontowany system telematyczny z lokalizacją GPS. Jak według ADR należy potraktować to urządzenie podczas takiego przewozu?",
         "options": {
-          "A": "Stosować je wyłącznie po udokumentowanej wcześniejszej kradzieży, natomiast przy zwykłym przewozie, nawet dużego ryzyka, pozostawiać je wyłączone bez kontroli sprawności",
-          "B": "Powinny być stosowane oraz utrzymywane jako sprawne i skuteczne podczas przewozu, bez utrudniania działań ratowniczych",
-          "C": "Sprawdzać zabezpieczenia tylko podczas postoju, a w czasie jazdy nie kontrolować ich działania."
+          "A": "Wyłączyć je, żeby dane o trasie nie trafiły do osób postronnych",
+          "B": "Wykorzystać je do monitorowania przemieszczania się tego ładunku",
+          "C": "Używać go zamiast urządzeń zapobiegających kradzieży pojazdu i ładunku"
         },
         "correct_option": "B",
-        "explanation": "Przy towarach niebezpiecznych dużego ryzyka systemy chroniące pojazd i ładunek przed kradzieżą powinny być sprawne i stosowane podczas przewozu. Nie można czekać na pierwszą kradzież ani ograniczać sprawdzania zabezpieczeń do postoju. Jednocześnie system nie może utrudniać ratowania ludzi w razie wypadku. Przewoźnik powinien przygotować odpowiednie zabezpieczenia przed trasą. Podstawa: ADR 1.10.3.3.",
+        "explanation": "Pojazd z towarem niebezpiecznym dużego ryzyka musi mieć urządzenia, układy lub działania, które skutecznie zapobiegają kradzieży pojazdu i ładunku, a nie utrudniają akcji ratowniczej. Jeżeli w pojeździe są już odpowiednie urządzenia, ADR wskazuje, że w razie potrzeby należy użyć systemów telemetrycznych do śledzenia przemieszczania się tych towarów. Śledzenie uzupełnia zabezpieczenie przed kradzieżą, ale go nie zastępuje. Informacje o przewozie chroni się, ograniczając do nich dostęp osobom upoważnionym, a nie wyłączając urządzenie. Podstawa: ADR 1.10.3.3 i 1.10.3.2.2(h).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.3",
+            "reference": "ADR 2025, 1.10.3.3; 1.10.3.2.2(h)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -143,18 +143,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Wymagany dokument przewozowy ADR podaje prawidłowy numer UN i nazwę towaru, lecz nie ma danych nadawcy. Co należy poprawić?",
+        "stem": "Producent farb zlecił spedytorowi wysyłkę towaru ADR. W umowie przewozu z przewoźnikiem jako nadawca występuje spedytor. Czyją nazwę i adres wpisać w dokumencie przewozowym jako dane nadawcy?",
         "options": {
-          "A": "Dopisać wyłącznie numer telefonu kierowcy w polu nazwy nadawcy",
-          "B": "Zastąpić nazwę i adres nadawcy podpisem kierowcy",
-          "C": "Uzupełnić wymagane dane nadawcy zgodnie z ADR 5.4.1.1.1"
+          "A": "Producenta, bo to on wytworzył i zapakował przewożony towar niebezpieczny",
+          "B": "Przewoźnika, bo to on przyjmuje towar do przewozu i wystawia dokumenty",
+          "C": "Spedytora, bo ADR uznaje za nadawcę firmę wskazaną tak w umowie przewozu"
         },
         "correct_option": "C",
-        "explanation": "Dokument przewozowy musi wskazywać nadawcę, w tym jego nazwę i adres, aby można było ustalić, kto przekazał towar do przewozu. Prawidłowy numer UN i nazwa towaru nie wystarczą, jeśli brakuje danych nadawcy. Numer telefonu kierowcy ani jego podpis nie zastępują wymaganych informacji o nadawcy. Podstawa: ADR 5.4.1.1.1(g)–(h).",
+        "explanation": "Dokument przewozowy musi zawierać nazwę i adres nadawcy. Według definicji ADR nadawcą jest przedsiębiorstwo, które wysyła towary niebezpieczne we własnym imieniu albo w imieniu innej osoby. Gdy przewóz odbywa się na podstawie umowy przewozu, nadawcą jest firma wskazana jako nadawca w tej umowie, w tym przypadku spedytor. Producent, który wytworzył towar, ani przewoźnik, który go wiezie, nie są więc tu nadawcą w rozumieniu ADR. Podstawa: ADR 5.4.1.1.1(g) i 1.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(g),(h)",
+            "reference": "ADR 2025, 5.4.1.1.1(g); 1.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -186,12 +186,12 @@
       "exact_record_snapshot": {
         "stem": "Dokument przewozowy zawiera wzmiankę „PRZEWÓZ ZGODNY Z 1.1.4.2.1” dla odpowiedniego łańcucha morsko-drogowego. Czy taki zapis zastępuje podstawowy opis towaru ADR?",
         "options": {
-          "A": "Nie, to wpis dodatkowy i nie zastępuje opisu towaru",
-          "B": "Tak, zwalnia z wpisania numeru UN i prawidłowej nazwy przewozowej",
-          "C": "Tak, pod warunkiem że przewóz zaczyna się w porcie morskim"
+          "A": "Nie, bo to wpis dodatkowy obok numeru UN i prawidłowej nazwy przewozowej",
+          "B": "Tak, bo zwalnia z podawania numeru UN i prawidłowej nazwy przewozowej",
+          "C": "Nie, ale przy takim zapisie wystarczy podać sam numer UN, bez nazwy towaru"
         },
         "correct_option": "A",
-        "explanation": "Adnotacja o przewozie zgodnym z ADR 1.1.4.2.1 informuje o zastosowaniu zasad dla określonego łańcucha transportowego, ale nie zastępuje opisu towaru. W dokumencie nadal muszą znaleźć się między innymi numer UN i prawidłowa nazwa przewozowa. Sam fakt, że trasa zaczyna się w porcie, nie zwalnia z tych danych. Podstawa: ADR 5.4.1.1.7 i 5.4.1.1.1.",
+        "explanation": "Gdy przewóz korzysta z odstępstwa dla łańcucha z przewozem morskim lub lotniczym, w dokumencie przewozowym umieszcza się dodatkowo zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Słowo „dodatkowo” oznacza, że zapis nie zastępuje podstawowych danych o towarze. W dokumencie nadal muszą być numer UN poprzedzony literami UN oraz prawidłowa nazwa przewozowa. Sam numer UN bez nazwy także nie wystarczy. Podstawa: ADR 5.4.1.1.7 i 5.4.1.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -225,18 +225,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca ma wymagane instrukcje pisemne ADR w kabinie, lecz schował je pod stertą dokumentów i nie jest w stanie szybko ich znaleźć. Czy spełnia wymóg dostępności?",
+        "stem": "Kierowca wiezie przesyłki ADR od trzech nadawców. Dokumenty przewozowe dwóch ma w kabinie, a dokument trzeciego nadawca włożył do koszulki przyklejonej do jego palety w przestrzeni ładunkowej. Czy kierowca może tak jechać?",
         "options": {
-          "A": "Tak, bo liczy się tylko fizyczna obecność instrukcji w pojeździe",
-          "B": "Nie, instrukcje muszą być łatwo dostępne dla załogi",
-          "C": "Tak, jeżeli spedytor ma elektroniczną kopię instrukcji w biurze"
+          "A": "Tak, bo dokument jedzie razem z przesyłką, której dotyczy, aż do odbiorcy",
+          "B": "Nie, dokument trzeciej przesyłki też musi być w kabinie kierowcy",
+          "C": "Tak, jeżeli tę przesyłkę rozładuje jako pierwszą na trasie"
         },
         "correct_option": "B",
-        "explanation": "Instrukcje pisemne mają pomóc załodze szybko zareagować podczas awarii, dlatego powinny znajdować się w łatwo dostępnym miejscu w kabinie. Gdy leżą pod stertą dokumentów i nie można ich szybko znaleźć, samo ich posiadanie nie wystarcza. Kopia przechowywana w biurze spedytora także nie pomoże załodze w chwili zagrożenia. Podstawa: ADR 8.1.2.1(b) i 8.1.2.3.",
+        "explanation": "W kabinie kierowcy muszą jechać dokumenty przewozowe dotyczące wszystkich przewożonych towarów niebezpiecznych. Dokument przyklejony do palety w przestrzeni ładunkowej jest niedostępny dla kierowcy i ratowników, gdy po wypadku nie można bezpiecznie podejść do ładunku. Kolejność rozładunku nic tu nie zmienia, bo ta przesyłka jedzie od początku trasy. Przed wyjazdem kierowca powinien zabrać ten dokument do kabiny. Podstawa: ADR 8.1.2.1(a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.2.1(b); 8.1.2.3",
+            "reference": "ADR 2025, 8.1.2.1(a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

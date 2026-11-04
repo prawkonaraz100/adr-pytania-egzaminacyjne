@@ -809,13 +809,13 @@
     {
       "id": "SC-ADR-B-05-02",
       "module_id": "ADR-B-05",
-      "title": "Awaria na poboczu: pierwsze decyzje kierowcy",
-      "situation": "Po awarii na poboczu kierowca czuje nieznany zapach, a osoby postronne zbliżają się do pojazdu, by pomóc.",
+      "title": "Wyciek przy rozładunku: kto niezwłocznie powiadamia służby",
+      "situation": "W trakcie rozładunku cieczy zapalnej u odbiorcy pojawia się wyciek, a kierowca jest nieobecny. Rozładowca i jego pracownicy zauważają zagrożenie dla osób postronnych.",
       "steps": [
-        "Nie próbuj rozpoznawać substancji przez wąchanie i nie zbliżaj się do potencjalnego uwolnienia.",
-        "Z bezpiecznego miejsca ostrzeż osoby postronne i poproś, by nie podchodziły do pojazdu.",
-        "Wezwij pomoc, podaj dokładną lokalizację, rodzaj zdarzenia i zaobserwowane zagrożenia.",
-        "Przekaż służbom wyłącznie informacje o ładunku, które możesz potwierdzić z dokumentów; zastosuj instrukcje pisemne w granicach bezpieczeństwa."
+        "Ostrzeż ludzi i nie pozwalaj zbliżać się do wycieku.",
+        "Z bezpiecznego miejsca powiadom służby natychmiast jako uczestnik przewozu, bez oczekiwania na powrót kierowcy.",
+        "Przekaż lokalizację, rodzaj zdarzenia i bezpiecznie dostępne dane o towarze.",
+        "Stosuj się do poleceń służb, nie podejmuj ryzykownych prób zatrzymania wycieku."
       ],
       "common_errors": [
         {
@@ -828,9 +828,8 @@
         }
       ],
       "adr_basis": [
-        "ADR 5.4.3.4",
-        "ADR 5.4.3.5",
-        "ADR 8.1.5"
+        "ADR 1.4.1.2",
+        "ADR 5.4.3.4"
       ],
       "question_ids": [
         "ADR-B-0106",
@@ -838,8 +837,8 @@
         "ADR-B-0631"
       ],
       "assessment_criteria": [
-        "Kursant podaje kolejność bezpiecznych działań.",
-        "Kursant przekazuje sprawdzone informacje i nie próbuje rozpoznać substancji po zapachu."
+        "Kursant wyjaśnia, że rozładowca również musi działać i wzywać służby.",
+        "Kursant przedstawia bezpieczny sposób ostrzegania i przekazywania informacji."
       ],
       "safety_boundary": "Sucha symulacja na karcie; bez prawdziwego wycieku, oparów ani pożaru.",
       "common_mistakes": [
@@ -1538,6 +1537,7 @@
         }
       ],
       "adr_basis": [
+        "ADR 1.10.1.1",
         "ADR 1.10.1.2"
       ],
       "question_ids": [
@@ -1547,7 +1547,8 @@
       ],
       "assessment_criteria": [
         "Kursant wskazuje bezpieczną kolejność działań i uzasadnia ją wymaganiami ADR.",
-        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność."
+        "Kursant wyjaśnia, dlaczego typowe błędy mogą stworzyć zagrożenie lub spowodować niezgodność.",
+        "Kursant rozumie, że obowiązek identyfikacji przewoźnika nie jest ograniczony do towarów dużego ryzyka."
       ],
       "safety_boundary": "Symulacja na fikcyjnych dokumentach, mapie lub makiecie; bez prawdziwych towarów niebezpiecznych.",
       "common_mistakes": [
@@ -1740,7 +1741,8 @@
       "assessment_criteria": [
         "Kursant odróżnia niewielki pożar w początkowej fazie od pożaru obejmującego ładunek.",
         "Kursant wskazuje, że gaśnicy można użyć tylko wtedy, gdy jest to właściwe i bezpieczne.",
-        "Kursant umie wskazać moment przerwania próby gaszenia, oddalenia się i wezwania służb."
+        "Kursant umie wskazać moment przerwania próby gaszenia, oddalenia się i wezwania służb.",
+        "Kursant odróżnia minimum gaśnicy 2 kg do silnika/kabiny od 6 kg gaśnicy dodatkowej oraz 12 kg łącznej pojemności dla większej jednostki."
       ],
       "safety_boundary": "Ćwiczenie na planszy lub sucho z użyciem szkoleniowej gaśnicy pod nadzorem instruktora; bez rozpalania ognia i bez rzeczywistych towarów niebezpiecznych.",
       "common_mistakes": [
@@ -1753,7 +1755,10 @@
         "ADR 2025, 5.4.3.4"
       ],
       "learner_takeaway": "Gaśnicę można rozważyć przy małym, początkowym pożarze opon, hamulców lub silnika tylko wtedy, gdy jest to właściwe i bezpieczne. Gdy ogień się rozwija lub obejmuje ładunek, oddal się i wezwij służby.",
-      "learner_question": "Czy pożar jest mały i poza ładunkiem, a użycie gaśnicy oraz droga odwrotu są bezpieczne?"
+      "learner_question": "Czy pożar jest mały i poza ładunkiem, a użycie gaśnicy oraz droga odwrotu są bezpieczne?",
+      "adr_basis": [
+        "ADR 8.1.4.1"
+      ]
     },
     {
       "id": "SC-ADR-B-04-04",
