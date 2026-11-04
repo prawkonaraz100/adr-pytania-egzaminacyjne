@@ -49,7 +49,7 @@ class Batch14FirstReview(unittest.TestCase):
         self.assertTrue(all(q["verification_status"]=="needs_review" for q in simulated.values()))
         self.assertTrue(all(q["reviewer"] is None and q["checked_at"] is None for q in simulated.values()))
         new_pairs=[]
-        for a,b,score in find_candidates(list(simulated.values()),threshold=0.60):
+        for score,a,b,same_options,stem_a,stem_b in find_candidates(list(simulated.values()),threshold=0.60):
             if a in EXPECTED or b in EXPECTED:
                 new_pairs.append((a,b,round(score,3)))
         self.assertEqual(new_pairs,[],f"New near-duplicates: {new_pairs[:10]}")
