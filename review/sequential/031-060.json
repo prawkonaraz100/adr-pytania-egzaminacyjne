@@ -22,16 +22,16 @@
       "exact_record_snapshot": {
         "stem": "Co oznacza dla ograniczeń ADR kategoria tunelu A?",
         "options": {
-          "A": "Zakaz wjazdu dla ciężarówek z ładunkiem ADR, tak jak przy kategorii E",
+          "A": "Zakaz wjazdu dla każdego pojazdu przewożącego towary niebezpieczne",
           "B": "Brak ograniczeń tunelowych ADR wynikających z klasyfikacji A–E",
           "C": "Zakaz dla ciężarówek przewożących materiały klasy 3"
         },
         "correct_option": "B",
-        "explanation": "Tunel kategorii A nie wprowadza ograniczenia dla przewozu towarów niebezpiecznych wynikającego z systemu kategorii tuneli ADR. Nie oznacza to jednak, że można ignorować znaki drogowe, ograniczenia masy lub inne lokalne zakazy. Kategorie B–E mogą wiązać się z ograniczeniami zależnymi od kodu tunelowego ładunku, dlatego przed przejazdem sprawdź oznakowanie i trasę. Podstawa: ADR 1.9.5.2.2 i 8.6.",
+        "explanation": "Tunel kategorii A to tunel bez ograniczeń dla towarów niebezpiecznych wynikających z ADR – nie ma nawet specjalnego znaku. Ograniczenia zaczynają się od kategorii B i rosną aż do E, a to, czy możesz wjechać, zależy od kodu tunelowego ładunku. Nadal obowiązują zwykłe znaki drogowe, np. ograniczenia wysokości czy masy. Podstawa: ADR 1.9.5.2.2 i 8.6.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.9.5.2.2; 8.6",
+            "reference": "ADR 2025, 1.9.5.2.2; 8.6.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -110,7 +110,7 @@
           "C": "Tuneli B, C, D i E, ponieważ kod D/E jest na pojeździe"
         },
         "correct_option": "B",
-        "explanation": "Dla towaru przewożonego w sztukach przesyłek kod tunelowy D/E oznacza zakaz przejazdu przez tunel kategorii E. Nie należy go mylić z zasadą dla przewozu w cysternie ani uznawać, że wyklucza wszystkie tunele od B do E. Kategoria A nie jest również zakazana przez ten kod. Przed wjazdem uwzględnij także znaki na trasie. Podstawa: ADR 8.6.4.",
+        "explanation": "Dla towaru przewożonego w sztukach przesyłek kod tunelowy D/E oznacza zakaz przejazdu przez tunel kategorii E. Gdyby ten sam towar jechał luzem lub w cysternie, zakaz obejmowałby tunele D i E. Kategoria A nie jest zakazana przez ten kod. Przed wjazdem uwzględnij także znaki na trasie. Podstawa: ADR 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -189,10 +189,10 @@
         "options": {
           "A": "Ochronę wystarczy zapewnić tylko podczas przeładunku, nie podczas postoju",
           "B": "Wystarczą znaki ostrzegawcze, nawet jeśli osoby postronne mają swobodny dostęp",
-          "C": "Obszar należy odpowiednio zabezpieczyć przed dostępem osób nieuprawnionych"
+          "C": "Chronić je, dobrze oświetlić i w miarę możliwości zamknąć dla obcych"
         },
         "correct_option": "C",
-        "explanation": "Towary niebezpieczne pozostawione na czas przewozu w miejscu tymczasowego składowania nadal wymagają odpowiedniej ochrony przed dostępem osób nieuprawnionych. Sama tablica ostrzegawcza nie wystarczy, jeśli każdy może wejść na teren, a zabezpieczenia nie dotyczą wyłącznie czasu przeładunku. Dobierz środki ochrony do miejsca i ryzyka, zgodnie z zasadami przedsiębiorstwa. Podstawa: ADR 1.10.1.3.",
+        "explanation": "Miejsca, w których towary niebezpieczne czekają w trakcie przewozu (np. terminal, plac przeładunkowy, baza, parking), muszą być odpowiednio chronione i dobrze oświetlone, a jeśli to możliwe – niedostępne dla osób postronnych. Chodzi o to, żeby nikt niepowołany nie mógł ukraść ani użyć tych towarów. Sama tablica ostrzegawcza tego nie zapewnia, a ochrona obowiązuje przez cały czas postoju, nie tylko podczas przeładunku. Podstawa: ADR 1.10.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -230,10 +230,10 @@
         "options": {
           "A": "Rozpoznawania ryzyka kradzieży i nadużycia oraz reagowania na naruszenia ochrony",
           "B": "Zasad mocowania palet przed przesuwaniem podczas jazdy i hamowania",
-          "C": "Odczytywania numerów UN i doboru opakowań zamiast ochrony przed nieuprawnionym dostępem"
+          "C": "Odczytywania numerów UN na opakowaniach i doboru właściwych opakowań do przewożonego towaru"
         },
         "correct_option": "A",
-        "explanation": "Szkolenie z ochrony przewozu uczy rozpoznawać ryzyko kradzieży, sabotażu i nieuprawnionego dostępu do towarów niebezpiecznych. To coś innego niż mocowanie palet: pasy chronią ładunek przed przesuwaniem, ale nie zapobiegają kradzieży ani celowemu działaniu osób postronnych. Pracownik powinien wiedzieć, jak zauważyć podejrzaną sytuację i komu ją zgłosić. Podstawa: ADR 1.10.2.",
+        "explanation": "Szkolenie z ochrony uczy rozpoznawać zagrożenia, takie jak kradzież towaru niebezpiecznego albo jego celowe użycie przeciw ludziom, wykrywać je i ograniczać oraz wiedzieć, co robić, gdy dojdzie do naruszenia ochrony. Jeśli firma musi mieć plan ochrony, szkolenie obejmuje też ten plan w zakresie obowiązków pracownika. Mocowanie palet czy dobór opakowań to inne tematy – nie chronią przed kradzieżą. Podstawa: ADR 1.10.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -397,7 +397,7 @@
           "C": "Podczas okresowego odnowienia uprawnień kierowcy, po rozpoczęciu pracy przy towarach"
         },
         "correct_option": "B",
-        "explanation": "Szkolenie ADR trzeba odbyć, zanim pracownik samodzielnie przejmie zadania związane z towarami niebezpiecznymi. Do czasu ukończenia szkolenia może wykonywać je tylko pod bezpośrednim nadzorem osoby już przeszkolonej. Doświadczenie magazynowe ani pierwszy przewóz nie zastępują przygotowania, a odnowienie uprawnień kierowcy nie jest jedynym momentem szkolenia. Podstawa: ADR 1.3.1.",
+        "explanation": "Pracownik firmy, który ma zadania związane z towarami niebezpiecznymi (np. pakowanie, załadunek, wystawianie dokumentów), musi zostać przeszkolony, zanim zacznie je wykonywać. Dopóki szkolenia nie ukończy, może wykonywać te czynności tylko pod bezpośrednim nadzorem osoby przeszkolonej. Nie czeka się na pierwszy przewóz ani na odnowienie uprawnień – kierowców obowiązuje osobne szkolenie z działu 8.2. Podstawa: ADR 1.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -433,12 +433,12 @@
       "exact_record_snapshot": {
         "stem": "Dlaczego szkolenie pracowników dotyczące ADR trzeba okresowo uzupełniać?",
         "options": {
-          "A": "Żeby uwzględniać zmiany wymagań i przepisów",
-          "B": "Po zmianie numeru UN przewożonego materiału na inny numer",
-          "C": "Po każdej zmianie nazwy stanowiska, niezależnie od wykonywanych zadań"
+          "A": "Żeby uwzględniać zmiany w przepisach",
+          "B": "Żeby szkolić pracownika od nowa przy każdej zmianie numeru UN ładunku",
+          "C": "Żeby wydać nowe zaświadczenie po każdej zmianie nazwy stanowiska"
         },
         "correct_option": "A",
-        "explanation": "Szkolenie ADR trzeba uzupełniać, aby pracownik znał aktualne wymagania i potrafił bezpiecznie wykonywać swoje zadania. Samo pojawienie się innego numeru UN na ładunku nie wyznacza terminu szkolenia. Zmiana nazwy stanowiska również nie jest sama w sobie rozstrzygająca — znaczenie mają wykonywane obowiązki i zmiany przepisów lub wymagań pracy. Podstawa: ADR 1.3.2.4.",
+        "explanation": "ADR wymaga, aby szkolenie było co pewien czas uzupełniane szkoleniem doskonalącym, które uwzględnia zmiany w przepisach – przepisy ADR zmieniają się regularnie. Sama zmiana numeru UN ładunku albo nazwy stanowiska nie jest powodem tego obowiązku; liczą się wykonywane zadania i aktualne przepisy. Podstawa: ADR 1.3.2.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -517,7 +517,7 @@
         "options": {
           "A": "Klasa 4.2",
           "B": "Klasa 6.2",
-          "C": "Klasa 6.1 (materiały trujące)"
+          "C": "Klasa 6.1"
         },
         "correct_option": "B",
         "explanation": "Materiały zakaźne należą do klasy 6.2, ponieważ mogą zawierać drobnoustroje zdolne wywołać chorobę. Klasa 6.1 dotyczy materiałów trujących, a klasa 4.2 — materiałów podatnych na samozapalenie lub samonagrzewanie. Podobieństwo numerów nie oznacza podobnego zagrożenia; rozpoznaj klasę z nalepki i dokumentów. Podstawa: ADR 2.2.62.1.1.",
@@ -561,7 +561,7 @@
           "C": "Właściwości silnie żrące, mogące uszkodzić elementy pojazdu i opakowania"
         },
         "correct_option": "A",
-        "explanation": "Materiały klasy 5.1 mogą nasilać pożar, bo sprzyjają spalaniu innych substancji, nawet gdy same nie są typowym paliwem. Klasa 7 dotyczy promieniotwórczości, a klasa 8 działania żrącego; te zagrożenia nie definiują klasy 5.1. Nie oceniaj więc ryzyka wyłącznie po tym, czy sam materiał łatwo się pali. Sprawdź jego klasę i warunki przewozu. Podstawa: ADR 2.2.51.1.1.",
+        "explanation": "Materiały klasy 5.1 mogą nasilać pożar, bo sprzyjają spalaniu innych substancji i wydzielają tlen. Klasa 7 dotyczy promieniotwórczości, a klasa 8 działania żrącego; te zagrożenia nie definiują klasy 5.1. Nie oceniaj więc ryzyka wyłącznie po tym, czy sam materiał łatwo się pali. Sprawdź jego klasę i warunki przewozu. Podstawa: ADR 2.2.51.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -599,14 +599,14 @@
         "options": {
           "A": "Zastąpić go dodatkowym wpisem w dokumencie przewozowym",
           "B": "Zamiast niego umieścić nalepkę klasy 9",
-          "C": "Umieścić go zgodnie z zasadami znakowania"
+          "C": "Umieścić go trwale obok innych oznakowań przesyłki"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli ADR wymaga znaku zagrożenia dla środowiska, umieść go na właściwej sztuce przesyłki, aby osoba obsługująca ładunek mogła rozpoznać ryzyko bez szukania informacji w dokumentach. Sam wpis w dokumencie nie zastępuje oznaczenia na opakowaniu. Nalepka klasy 9 informuje o innym rodzaju zagrożenia i nie może automatycznie zastąpić znaku środowiskowego. Podstawa: ADR 5.2.1.8.",
+        "explanation": "Jeśli przesyłka zawiera materiał zagrażający środowisku, opakowanie oznacza się trwale znakiem z rybą i drzewem, umieszczonym obok pozostałych wymaganych oznakowań (np. numeru UN). Znaku nie zastępuje wpis w dokumencie przewozowym ani nalepka klasy 9 – często potrzebne są oba oznaczenia naraz. Wyjątek: nie trzeba go umieszczać na opakowaniach pojedynczych i wewnętrznych zawierających do 5 l cieczy lub do 5 kg ciał stałych. Podstawa: ADR 5.2.1.8.1–5.2.1.8.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.1.8",
+            "reference": "ADR 2025, 5.2.1.8.1–5.2.1.8.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -680,11 +680,11 @@
         "stem": "Co kierowca powinien zrobić z silnikiem podczas załadunku ADR, jeżeli nie jest potrzebny do napędzania urządzeń?",
         "options": {
           "A": "Wyłączyć go dopiero po zakończeniu załadunku",
-          "B": "Wyłączyć, zgodnie z przepisem ADR",
+          "B": "Wyłączyć go na cały czas załadunku",
           "C": "Pozostawić go na biegu jałowym przez cały załadunek"
         },
         "correct_option": "B",
-        "explanation": "Podczas załadunku silnik powinien być wyłączony, jeżeli nie jest potrzebny do napędzania urządzeń używanych przy tej czynności. Pozostawienie go na biegu jałowym bez potrzeby nie jest właściwe, a wyłączenie dopiero po zakończeniu załadunku następuje za późno. Zanim rozpoczniesz pracę, ustal, czy urządzenie załadunkowe wymaga pracy silnika. Podstawa: ADR 8.3.6.",
+        "explanation": "Podczas załadunku i rozładunku silnik ma być wyłączony. Wyjątek jest tylko wtedy, gdy silnik napędza pompy lub inne urządzenia potrzebne do załadunku i jednocześnie pozwalają na to przepisy kraju, w którym stoi pojazd. Praca na biegu jałowym „na wszelki wypadek” albo wyłączenie silnika dopiero po skończonym załadunku są niezgodne z ADR. Podstawa: ADR 8.3.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -721,15 +721,15 @@
         "stem": "Odbiorca prosi pomocnika kierowcy o otwarcie paczki ADR, a kierowca nie prowadzi w tej chwili pojazdu. Kogo obejmuje zakaz z ADR 8.3.3?",
         "options": {
           "A": "Tylko kierowcę prowadzącego pojazd; pomocnik może otworzyć paczkę na postoju.",
-          "B": "Każdą osobę znajdującą się w pojeździe, niezależnie od jej funkcji.",
+          "B": "Tylko pomocnika; kierowca może otworzyć paczkę, gdy pojazd stoi.",
           "C": "Kierowcę oraz pomocnika kierowcy; obaj nie mogą otwierać takich paczek."
         },
         "correct_option": "C",
-        "explanation": "Zakaz obejmuje zarówno kierowcę, jak i pomocnika kierowcy, więc odbiorca nie może uzyskać otwarcia paczki przez poproszenie drugiej osoby. Nie ma znaczenia, kto akurat prowadzi pojazd ani czy pojazd stoi. Nie rozszerzaj jednak brzmienia tego konkretnego punktu na każdą osobę w pojeździe bez sprawdzenia jej roli. Podstawa: ADR 2025, 8.3.3.",
+        "explanation": "Zakaz z punktu 8.3.3 obejmuje zarówno kierowcę, jak i jego pomocnika – nie ma znaczenia, kto akurat prowadzi ani czy pojazd stoi. Odbiorca nie może więc obejść zakazu, prosząc o to drugą osobę z załogi. ADR dodatkowo stanowi, że żaden członek załogi pojazdu nie powinien otwierać sztuk przesyłek z towarami niebezpiecznymi. Podstawa: ADR 8.3.3 i 7.5.7.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.3",
+            "reference": "ADR 2025, 8.3.3; 7.5.7.5",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -766,7 +766,7 @@
           "C": "Po przekazaniu ładunku odbiorcy"
         },
         "correct_option": "A",
-        "explanation": "Instrukcje pisemne trzeba przeczytać przed rozpoczęciem przewozu, kiedy kierowca ma jeszcze czas spokojnie zrozumieć, jak reagować na wypadek, pożar lub wyciek. Sięganie po nie dopiero po rozpoczęciu zdarzenia może opóźnić działanie, a po dostawie nie pomogą już na tej trasie. Upewnij się też, że dokument jest dostępny w kabinie i wiesz, gdzie go znaleźć. Podstawa: ADR 5.4.3.3.",
+        "explanation": "Przed rozpoczęciem przewozu każdy członek załogi powinien dowiedzieć się, jakie towary niebezpieczne są załadowane, i sprawdzić w instrukcjach pisemnych, jak postąpić w razie wypadku lub zagrożenia. Nie odkładaj zapoznania się z instrukcjami do chwili wycieku ani do zakończenia dostawy. Dzięki temu załoga zna zagrożenia i może zareagować bez zwłoki. Podstawa: ADR 5.4.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -889,11 +889,11 @@
           "C": "Biały z czerwonymi numerami"
         },
         "correct_option": "A",
-        "explanation": "Standardowa tablica ADR jest pomarańczowa i ma czarne oznaczenia. Górny numer rozpoznawczy zagrożenia i dolny numer UN pomagają służbom ustalić rodzaj zagrożenia oraz identyfikować przewożony towar. Żółta tablica z czarnymi cyframi ani biała z czerwonymi cyframi nie są standardowym oznaczeniem wymaganym przez ten przepis. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Standardowa tablica ADR jest pomarańczowa i ma czarne oznaczenia. Górny numer rozpoznawczy zagrożenia i dolny numer UN pomagają służbom ustalić rodzaj zagrożenia oraz identyfikować przewożony towar. Żółta tablica z czarnymi cyframi ani biała z czerwonymi cyframi nie są standardowym oznaczeniem wymaganym przez ten przepis. Podstawa: ADR 5.3.2.1.1 i 5.3.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.2.2",
+            "reference": "ADR 2025, 5.3.2.1.1; 5.3.2.2.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -930,7 +930,7 @@
           "C": "Zagrożenie żrące"
         },
         "correct_option": "C",
-        "explanation": "Cyfra 8 na początku numeru rozpoznawczego zagrożenia wskazuje na działanie żrące. Oznacza to, że materiał może uszkadzać skórę, oczy lub niektóre materiały, dlatego nie należy go dotykać bez odpowiedniej ochrony. Promieniotwórczość oznacza klasa 7, a właściwości utleniające — klasa 5.1; to inne zagrożenia. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Cyfra 8 w numerze rozpoznawczym zagrożenia oznacza działanie żrące. Taki materiał może trwale uszkodzić skórę, a po wycieku także inne towary i pojazd, dlatego nie wolno go dotykać bez ochrony. W tym systemie cyfra 7 oznacza działanie promieniotwórcze, a cyfra 5 – działanie utleniające (wzmagające palenie). Podstawa: ADR 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -967,15 +967,15 @@
         "stem": "Czy załadowca może wydać przewoźnikowi uszkodzone opakowanie, z którego może wyciekać towar niebezpieczny?",
         "options": {
           "A": "Może wydać opakowanie, jeżeli oznakowanie jest czytelne i wyciek nie powiększa się.",
-          "B": "Nie, dopóki opakowanie nie zostanie prawidłowo naprawione i sprawdzone przed przewozem.",
+          "B": "Nie, dopóki uszkodzenie nie zostanie usunięte.",
           "C": "Może zabezpieczyć opakowanie taśmą na miejscu i wydać je, jeśli nie widać dalszego wycieku."
         },
         "correct_option": "B",
-        "explanation": "Nie wolno przekazać do przewozu opakowania, z którego może wyciekać niebezpieczny towar, ponieważ wyciek może zagrozić ludziom podczas załadunku i jazdy. Czytelna nalepka nie usuwa uszkodzenia, a zaklejenie taśmą bez właściwej naprawy i sprawdzenia nie daje gwarancji szczelności. Załadowca powinien wstrzymać wydanie, aż niezgodność zostanie usunięta. Podstawa: ADR 1.4.3.1.1(b).",
+        "explanation": "Przy wydawaniu przesyłki do przewozu załadowca musi sprawdzić, czy opakowanie nie jest uszkodzone. Sztuki z uszkodzonym opakowaniem nie wolno wydać, dopóki uszkodzenie nie zostanie usunięte – szczególnie gdy opakowanie jest nieszczelne i towar wycieka albo może wyciekać. Czytelna nalepka ani doraźne zaklejenie taśmą nie zastępują usunięcia uszkodzenia. Podstawa: ADR 1.4.3.1.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.1.1 (b)",
+            "reference": "ADR 2025, 1.4.3.1.1(b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1008,15 +1008,15 @@
         "stem": "Który uczestnik przewozu odpowiada m.in. za przekazanie przewoźnikowi informacji i danych wymaganych do przewozu ADR?",
         "options": {
           "A": "Nadawca",
-          "B": "Przewoźnik, który sam określa dane bez informacji od nadawcy",
-          "C": "Odbiorca, który przygotowuje dane jeszcze przed nadaniem"
+          "B": "Przewoźnik",
+          "C": "Odbiorca"
         },
         "correct_option": "A",
-        "explanation": "Nadawca odpowiada za przekazanie przewoźnikowi prawidłowych danych o towarze, bo to on organizuje jego wysyłkę i zna przekazywaną przesyłkę. Przewoźnik nie powinien zgadywać klasyfikacji, a odbiorca nie zastępuje nadawcy w przygotowaniu informacji przed transportem. Brakujące dane trzeba wyjaśnić przed rozpoczęciem przewozu. Podstawa: ADR 1.4.2.1.1.",
+        "explanation": "To nadawca musi przekazać przewoźnikowi informacje i dane o towarze w czytelnej formie, a w razie potrzeby także wymagane dokumenty przewozowe i towarzyszące. Przewoźnik korzysta z tych danych i nie powinien sam ich ustalać ani zgadywać. Odbiorca otrzymuje przesyłkę na końcu przewozu, więc nie przygotowuje tych informacji za nadawcę. Podstawa: ADR 1.4.2.1.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.2.1.1",
+            "reference": "ADR 2025, 1.4.2.1.1(b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1048,8 +1048,8 @@
       "exact_record_snapshot": {
         "stem": "Jaki przedmiot służy do zabezpieczenia koła pojazdu przed niekontrolowanym przetoczeniem, jeżeli jest wymagany w ADR?",
         "options": {
-          "A": "Dwa wolnostojące znaki ostrzegawcze zamiast klina",
-          "B": "Pas zabezpieczający ładunek, założony na koło",
+          "A": "Dwa wolnostojące znaki ostrzegawcze",
+          "B": "Pas do mocowania ładunku założony na koło",
           "C": "Klin pod koło"
         },
         "correct_option": "C",
@@ -1094,7 +1094,7 @@
           "C": "Dla kierowcy, gdy pozostali członkowie załogi mają pozostać w kabinie"
         },
         "correct_option": "A",
-        "explanation": "Kamizelka ostrzegawcza pomaga zauważyć członka załogi, gdy musi on wysiąść z pojazdu, np. podczas awarii na poboczu. Każda osoba potrzebująca takiego wyposażenia musi mieć własną; jedna kamizelka nie może być używana jednocześnie przez całą załogę. Nie wystarczy też wyposażyć tylko kierowcy, jeśli pozostali również muszą wyjść. Podstawa: ADR 8.1.5.2.",
+        "explanation": "Wykaz wyposażenia ADR wymaga kamizelki ostrzegawczej dla każdego członka załogi pojazdu – bez wyjątków. Kamizelka sprawia, że osoba jest dobrze widoczna, gdy musi wysiąść, np. przy awarii na poboczu. Jedna kamizelka na cały pojazd albo kamizelka tylko dla kierowcy nie spełnia tego wymogu. Podstawa: ADR 8.1.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",

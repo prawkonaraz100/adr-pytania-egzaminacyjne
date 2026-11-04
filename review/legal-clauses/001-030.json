@@ -413,7 +413,7 @@
         "stem": "Po zakończeniu rozładunku stwierdzono, że z jednej sztuki przesyłki wyciekła zawartość i zanieczyściła pojazd. Jak należy postąpić przed ponownym użyciem pojazdu?",
         "options": {
           "A": "Kontynuować pracę, jeśli pozostałość jest niewielka i nie widać już aktywnego wycieku",
-          "B": "Niezwłocznie oczyścić pojazd; jeżeli nie można zrobić tego na miejscu, ostrożnie przejechać do najbliższego miejsca, w którym czyszczenie jest możliwe, i wykonać je najpóźniej przed ponownym załadunkiem.",
+          "B": "Oczyścić go niezwłocznie, najpóźniej przed ponownym załadunkiem",
           "C": "Odizolować zabrudzone miejsce i rozpocząć następny załadunek bez pełnego oczyszczenia"
         },
         "correct_option": "B",
@@ -699,7 +699,7 @@
           "C": "W miejscu dostępnym dopiero po przełożeniu części ładunku"
         },
         "correct_option": "A",
-        "explanation": "Gaśnica jest przydatna tylko wtedy, gdy załoga może szybko i bezpiecznie po nią sięgnąć. Jeśli jest schowana pod ładunkiem albo trzeba najpierw przesuwać paczki, w chwili zagrożenia może być niedostępna. Zamocuj ją tak, by nie przemieszczała się podczas jazdy, ale można ją było łatwo wyjąć. Podstawa: ADR 8.1.4.5.",
+        "explanation": "Gaśnica przyda się tylko wtedy, gdy załoga może szybko po nią sięgnąć – nie może być schowana pod ładunkiem. Musi być zamontowana tak, żeby była łatwo dostępna i chroniona przed deszczem, mrozem czy słońcem, które mogłyby ją uszkodzić. W czasie przewozu nie może też minąć termin jej kolejnej kontroli. Podstawa: ADR 8.1.4.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -840,7 +840,7 @@
           "C": "60 × 60 cm"
         },
         "correct_option": "A",
-        "explanation": "Standardowa tablica pomarańczowa ADR ma 40 cm szerokości i 30 cm wysokości. Taki sam format ułatwia rozpoznanie pojazdu przez służby i innych uczestników ruchu. Odpowiedzi z wymiarami 20 × 10 cm oraz 60 × 60 cm nie opisują standardowej tablicy; nie należy mylić tego z dopuszczonym wyjątkiem dla mniejszego znaku w określonych warunkach. Podstawa: ADR 5.3.2.2.1.",
+        "explanation": "Standardowa tablica pomarańczowa ADR ma 40 cm szerokości, 30 cm wysokości i czarne obrzeże o szerokości 15 mm. Gdy pojazd nie ma dość miejsca, tablicę można zmniejszyć najwyżej do 300 × 120 mm, a obrzeże do 10 mm. Wymiary 20 × 10 cm i 60 × 60 cm nie odpowiadają ani standardowi, ani temu wyjątkowi. Podstawa: ADR 5.3.2.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -887,7 +887,7 @@
           "C": "Odbiorca, który przyjmuje niebezpieczną przesyłkę"
         },
         "correct_option": "B",
-        "explanation": "To przewoźnik ma przekazać załodze wymagane instrukcje pisemne i zadbać, by były dostępne podczas przewozu. Policja może sprawdzać dokumenty, ale nie zastępuje przewoźnika w przygotowaniu załogi; odbiorca również nie jest za to odpowiedzialny w każdym przypadku. Instrukcje muszą być zrozumiałe dla członków załogi. Podstawa: ADR 1.4.2.2.6 i 5.4.3.2.",
+        "explanation": "To przewoźnik ma przekazać załodze wymagane instrukcje pisemne i zadbać, by były dostępne podczas przewozu. Policja może sprawdzać dokumenty, ale nie zastępuje przewoźnika w tym obowiązku. Odbiorca nie ma takiego obowiązku – ADR przypisuje go przewoźnikowi. Instrukcje muszą być zrozumiałe dla członków załogi. Podstawa: ADR 1.4.2.2.6 i 5.4.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1024,11 +1024,11 @@
         "stem": "Jaka jest minimalna łączna pojemność gaśnic (w przeliczeniu na proszek) dla jednostki transportowej ADR o DMC powyżej 7,5 t, gdy stosuje się pełne wymagania 8.1.4.1?",
         "options": {
           "A": "4 kg",
-          "B": "8 kg środka gaśniczego",
+          "B": "8 kg",
           "C": "12 kg"
         },
         "correct_option": "C",
-        "explanation": "Przy pełnych wymaganiach ADR dla jednostki transportowej o DMC ponad 7,5 t łączna skuteczność gaśnic musi odpowiadać co najmniej 12 kg proszku. DMC to dopuszczalna masa całkowita, a nie masa samego ładunku. Wartości 4 i 8 kg są tu za małe; trzeba też sprawdzić liczbę gaśnic i wymagane minimum dla każdej z nich. Podstawa: ADR 8.1.4.1.",
+        "explanation": "Dla jednostki transportowej o dopuszczalnej masie całkowitej (DMC) powyżej 7,5 t gaśnice muszą mieć łącznie co najmniej 12 kg proszku gaśniczego (albo tyle samo innego odpowiedniego środka). Muszą to być co najmniej 2 gaśnice: jedna o pojemności co najmniej 2 kg do gaszenia pożaru silnika lub kabiny i co najmniej jedna o pojemności 6 kg lub większej. Wartości 4 kg i 8 kg to minimum dla lżejszych jednostek (do 3,5 t oraz od 3,5 do 7,5 t). Podstawa: ADR 8.1.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1118,12 +1118,12 @@
         "module_id": "ADR-B-08",
         "stem": "Co musi być dostępne dla każdego członka załogi zgodnie z wykazem podstawowego wyposażenia ochronnego 8.1.5.2?",
         "options": {
-          "A": "Zapewnić każdemu członkowi załogi osobną gaśnicę o wymaganej pojemności.",
-          "B": "Uznać, że ochrona oczu może zastąpić rękawice, jeśli załoga ma kamizelki ostrzegawcze.",
-          "C": "Rękawice ochronne"
+          "A": "Osobna gaśnica przenośna",
+          "B": "Tylko ochrona oczu – zamiast rękawic",
+          "C": "Para rękawic ochronnych"
         },
         "correct_option": "C",
-        "explanation": "Rękawice ochronne są częścią wyposażenia osobistego wymaganego dla członków załogi. Gaśnica służy do innego celu, a ochrona oczu nie zabezpiecza dłoni, więc żaden z tych elementów nie zastępuje rękawic. Przed wyjazdem sprawdź, czy każdy członek załogi ma wymagane wyposażenie. Podstawa: ADR 8.1.5.2. Nie zakładaj, że jeden element wyposażenia może spełnić kilka różnych funkcji.",
+        "explanation": "Według wykazu 8.1.5.2 każdy członek załogi musi mieć m.in. parę rękawic ochronnych, ochronę oczu (np. okulary), kamizelkę ostrzegawczą i przenośną latarkę. Gaśnice są wyposażeniem całej jednostki transportowej, a nie każdej osoby. Ochrona oczu nie zastępuje rękawic, bo chroni inną część ciała – potrzebne są oba elementy. Podstawa: ADR 8.1.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -1212,7 +1212,7 @@
         "module_id": "ADR-B-09",
         "stem": "Jak należy zabezpieczyć sztuki przesyłki ADR na pojeździe?",
         "options": {
-          "A": "Tak, aby nie przemieszczały się w normalnych warunkach jazdy",
+          "A": "Tak, aby nie przemieszczały się podczas przewozu",
           "B": "Wystarczy położyć je luźno na podłodze",
           "C": "Ułożyć przesyłki na boku, aby obniżyć środek ciężkości ładunku"
         },
@@ -1311,11 +1311,11 @@
           "C": "Stosować wyłącznie ADR na całej trasie, ponieważ przewóz rozpoczyna się ciężarówką."
         },
         "correct_option": "A",
-        "explanation": "Gdy przesyłka jedzie ciężarówką i dalej statkiem, trzeba uwzględnić przepisy dla obydwu etapów transportu. Na drodze istotne jest ADR, a na morzu kodeks IMDG, czyli zasady przewozu niebezpiecznych towarów statkami. Nie można przyjąć, że samo użycie statku usuwa obowiązki drogowe, ani że rozpoczęcie trasy ciężarówką zastępuje wymagania morskie. Podstawa: ADR 1.1.4.2.",
+        "explanation": "Gdy przesyłka jedzie ciężarówką, a potem statkiem, każdy etap ma swoje przepisy: na drodze ADR, a na morzu kodeks IMDG (przepisy morskie dla towarów niebezpiecznych). ADR ułatwia taki przewóz – na odcinku drogowym może przyjąć opakowanie, oznakowanie i nalepki zgodne z IMDG, ale tylko na określonych warunkach. Nie znaczy to, że cała trasa podlega tylko IMDG albo tylko ADR. Podstawa: ADR 1.1.4.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2",
+            "reference": "ADR 2025, 1.1.4.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1358,11 +1358,11 @@
           "C": "Tak, bo wystarczy zgodność z IMDG"
         },
         "correct_option": "B",
-        "explanation": "IMDG to przepisy dotyczące morskiego przewozu towarów niebezpiecznych. ADR dopuszcza w określonych warunkach, by sztuka przesyłki przygotowana zgodnie z IMDG była dalej przewożona drogą, więc nie zawsze trzeba ją ponownie przygotowywać od początku. Nie oznacza to jednak, że sama zgodność z IMDG zwalnia z wszystkich wymagań ADR; przewoźnik musi sprawdzić warunki tego dopuszczenia. Podstawa: ADR 1.1.4.2.1.",
+        "explanation": "IMDG to przepisy dotyczące morskiego przewozu towarów niebezpiecznych. ADR dopuszcza w określonych warunkach, by sztuka przesyłki przygotowana zgodnie z IMDG była dalej przewożona drogą, więc nie zawsze trzeba ją ponownie przygotowywać od początku. Nie oznacza to jednak, że sama zgodność z IMDG zwalnia ze wszystkich wymagań ADR; w odpowiednich przypadkach dokument przewozowy powinien zawierać wpis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Podstawa: ADR 1.1.4.2.1 i 5.4.1.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2.1",
+            "reference": "ADR 2025, 1.1.4.2.1; 5.4.1.1.7",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1405,11 +1405,11 @@
           "C": "Usunąć wszystkie oznaczenia z kontenera"
         },
         "correct_option": "A",
-        "explanation": "Po transporcie morskim kontener nadal musi spełniać wymagania właściwe dla odcinka drogowego. Przed wyjazdem sprawdź dokumenty, oznakowanie i warunki ADR dla przewożonego ładunku. Sam rejs statkiem nie zwalnia automatycznie z przepisów drogowych, a usunięcie wszystkich oznaczeń bez sprawdzenia wymagań może usunąć także te, które nadal są potrzebne. Podstawa: ADR 1.1.4.2.",
+        "explanation": "Po rejsie statkiem kontener jedzie dalej drogą, więc na tym odcinku obowiązuje ADR. Dokument morski (IMDG) może zastąpić dokument przewozowy ADR, ale trzeba w nim podać brakujące informacje wymagane przez ADR. Przy korzystaniu z 1.1.4.2.1 trzeba też dopisać „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Oznakowania kontenera nie wolno usuwać na ślepo, bo część z niego jest nadal wymagana, a pojazd musi mieć tablice pomarańczowe. Podstawa: ADR 1.1.4.2.1, 1.1.4.2.3 i 5.4.1.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2",
+            "reference": "ADR 2025, 1.1.4.2.1; 1.1.4.2.3; 5.4.1.1.7",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
