@@ -1,6 +1,6 @@
 **Stan na 03.11.2026, etap 4x355**
 
-**Stan 4x355 — bank zamknięty, gotowy do przeglądu specjalisty:** 780 `needs_review`, 0 `verified`; SHA `d71ad1c3595b2c54f240178e30d0b2613fff9b41`. Poprawna = jedyna najdłuższa: **76/780 = 9,74%**; kompetencje teorii <6: **0**. **STOP dopisywania pytań.** Raport końcowy: `docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md`.
+**Stan 4x355 — bank zamknięty, gotowy do przeglądu specjalisty:** 780 `needs_review`, 0 `verified`; SHA `437d5e2ce65bcc5319f94eba0ce919dddcc77e23`. Poprawna = jedyna najdłuższa: **75/780 = 9,62%**; kompetencje teorii <6: **0**. **STOP dopisywania pytań.** Raport końcowy: `docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md`.
 
 - [Etap 4x350 — identyfikacja przewoźnika przed wydaniem towaru](raporty/etap-4x350-weryfikacja-tozsamosci-przewoznika-adr-1-10-1-2-2026-11-03.md)
 
