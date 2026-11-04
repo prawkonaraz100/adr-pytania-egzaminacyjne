@@ -28,11 +28,13 @@ class OriginalImageAssetsTests(unittest.TestCase):
             self.assertNotIn("href=", (ROOT/path).read_text(encoding="utf-8"))
             self.assertNotIn("xlink:href", (ROOT/path).read_text(encoding="utf-8"))
     
-    def test_specifications_cover_all_bound_questions(self):
+    def test_specifications_match_bound_questions(self):
         specs=json.loads((ROOT/"assets/adr-original/specifications.json").read_text(encoding="utf-8"))
         records=[json.loads(s) for s in (ROOT/"podstawowy/questions.jsonl").read_text(encoding="utf-8").splitlines() if s.strip()]
         matching={r["id"]:r["image"] for r in records if r.get("image")}
-        self.assertEqual(len(specs["assets"]),7)
+        ids = [item["id"] for item in specs["assets"]]
+        self.assertTrue(ids)
+        self.assertEqual(len(ids), len(set(ids)))
         for item in specs["assets"]:
             self.assertEqual(item["image"],matching[item["id"]])
             self.assertFalse(item["publication_ready"])

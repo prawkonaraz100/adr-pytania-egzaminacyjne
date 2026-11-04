@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na opakowaniu wymagane jest ostrzeżenie klasy 4.3. Jakie zagrożenie powinien rozpoznać kierowca?",
+        "stem": "W tabeli ADR sprawdzasz kod klasyfikacyjny WC1 materiału klasy 4.3. Który opis odpowiada temu kodowi?",
         "options": {
-          "A": "Materiał może wydzielać gaz palny w kontakcie z wodą",
-          "B": "To wyłącznie zagrożenie żrące, więc wystarczy unikać kontaktu substancji ze skórą",
-          "C": "Woda jest właściwa do zmywania takiej substancji, ponieważ kontakt z nią nie zwiększa zagrożenia"
+          "A": "Ciecz żrąca, która w kontakcie z wodą wydziela gaz palny.",
+          "B": "Materiał stały żrący, który w kontakcie z wodą wydziela gaz palny.",
+          "C": "Ciecz trująca, która w kontakcie z wodą wydziela gaz palny."
         },
         "correct_option": "A",
-        "explanation": "Nalepka 4.3 ostrzega, że materiał może wydzielać palny gaz po kontakcie z wodą. Dlatego polewanie takiej substancji wodą może zwiększyć zagrożenie pożarem, a nie je zmniejszyć. To nie jest po prostu materiał żrący; przed działaniem trzeba rozpoznać klasę i zastosować właściwe środki ostrożności. Podstawa: ADR 2.2.43.1.1.",
+        "explanation": "Wszystkie trzy opisy mówią o wydzielaniu gazu palnego w kontakcie z wodą. Kod WC1 wskazuje też działanie żrące i to, że materiał jest cieczą. Podobny kod WC2 dotyczy materiału stałego o działaniu żrącym, a WT1 cieczy trującej. Te różnice pomagają ustalić, z jakim dodatkowym zagrożeniem mamy do czynienia. Podstawa: ADR 2.2.43.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.43.1.1",
+            "reference": "ADR 2025, 2.2.43.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -42,7 +42,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Full official Polish ADR and corrigendum check is pending expert review.",
+      "source_risk_note": "Kontrola 2: pkt 2.2.43.1.1 i 2.2.43.1.2, s. 187 Dz.U. 2025 poz. 642. Sprostowanie poz. 1575 nie zmienia klasyfikacji WC1.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Opis towaru ADR wskazuje klasę 5.1 i odpowiednią nalepkę. Jakie zagrożenie należy uwzględnić?",
+        "stem": "W tabeli ADR przewożony przedmiot ma klasę 5.1 i kod klasyfikacyjny O3. Kolega twierdzi, że klasa 5.1 może dotyczyć tylko materiałów, więc zapis musi być błędny. Jak go ocenisz?",
         "options": {
-          "A": "Materiał musi być cieczą łatwopalną, bo klasa 5.1 opisuje łatwopalność.",
-          "B": "Materiał utleniający może spowodować lub nasilić spalanie innych materiałów",
-          "C": "Można go ładować razem z materiałami palnymi bez sprawdzania zasad rozdzielenia, jeśli opakowania są zamknięte."
+          "A": "Ma rację. Kod O3 dotyczy cieczy utleniającej, a nie gotowego przedmiotu.",
+          "B": "Zapis jest prawidłowy. Kod O3 obejmuje przedmioty z materiałem utleniającym.",
+          "C": "Zapis wymaga zmiany klasy na 3, ponieważ wskazuje ją ostatnia cyfra w kodzie."
         },
         "correct_option": "B",
-        "explanation": "Materiały klasy 5.1 są utleniające: mogą podtrzymywać spalanie albo nasilać pożar innych materiałów, nawet jeśli same nie są łatwopalne. Nie należy więc mylić ich z cieczami łatwopalnymi ani zakładać, że zamknięte opakowanie pozwala pominąć zasady wspólnego załadunku. Przed załadunkiem sprawdź właściwości towaru i wymagania dotyczące rozdzielenia. Podstawa: ADR 2.2.51.1.1 i 7.5.2.",
+        "explanation": "Klasa 5.1 obejmuje także przedmioty, które zawierają materiały utleniające. W wykazie kodów O3 oznacza przedmioty zawierające taki materiał bez zagrożenia dodatkowego. Ciecze utleniające bez zagrożenia dodatkowego mają kod O1. Cyfra 3 w zapisie O3 jest częścią kodu klasyfikacyjnego i nie oznacza zmiany klasy towaru. Podstawa: ADR 2.2.51.1.1 i 2.2.51.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.51.1.1",
+            "reference": "ADR 2025, 2.2.51.1.1; 2.2.51.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -83,7 +83,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Full official Polish ADR and corrigendum check is pending expert review.",
+      "source_risk_note": "Kontrola 2: pkt 2.2.51.1.1 i 2.2.51.1.2, s. 191 Dz.U. 2025 poz. 642. Sprostowanie nie zmienia zakresu klasy 5.1 ani kodu O3.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na sztuce przesyłki wymagana jest nalepka klasy 8. Co oznacza rozpoznawane zagrożenie?",
+        "stem": "Ciecz nie powoduje całkowitej martwicy skóry. W badaniu w 55 °C szybkość korozji wyniosła 7,0 mm na rok dla stali i 4,0 mm na rok dla aluminium. Czy wynik spełnia kryterium korozji metali dla III grupy pakowania klasy 8?",
         "options": {
-          "A": "Wyłącznie promieniowanie jonizujące — zagrożenie typowe dla klasy 7, a nie klasy 8",
-          "B": "Wyłącznie właściwości zakaźne",
-          "C": "Działanie żrące, które może powodować uszkodzenia tkanek i innych materiałów"
+          "A": "Nie. Próg musi zostać przekroczony jednocześnie dla stali i dla aluminium.",
+          "B": "Nie. Bez całkowitej martwicy skóry wyniki badań korozji metali są bez znaczenia.",
+          "C": "Tak. Wynik dla stali przekracza próg, mimo że wynik dla aluminium jest niższy."
         },
         "correct_option": "C",
-        "explanation": "Nalepka klasy 8 oznacza materiały żrące, które mogą uszkodzić skórę, oczy lub inne materiały. Promieniowanie dotyczy klasy 7, a zagrożenie zakaźne — klasy 6.2, więc odpowiedzi A i B wskazują inne rodzaje ryzyka. W praktyce odczytaj symbol i klasę, a uszkodzonego opakowania nie dotykaj bez zabezpieczeń. Podstawa: ADR 2.2.8.1.1.",
+        "explanation": "Próg w badaniu w 55 °C wynosi ponad 6,25 mm na rok dla stali lub aluminium. Zbadano oba metale, a wynik dla stali to 7,0 mm na rok. Niższy wynik dla aluminium nie zmienia oceny. Brak całkowitej martwicy skóry nie wyklucza zastosowania tego kryterium, bo dotyczy ono korozji metali. Podstawa: ADR 2.2.8.1.5.3(c)(ii).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.8.1.1",
+            "reference": "ADR 2025, 2.2.8.1.5.3(c)(ii)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -124,7 +124,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Full official Polish ADR and corrigendum check is pending expert review.",
+      "source_risk_note": "Kontrola 2: próg korozji większy niż 6,25 mm/rok przy 55 °C, pkt 2.2.8.1.5.3(c)(ii), s. 266 Dz.U. W scenariuszu przebadano oba metale.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
