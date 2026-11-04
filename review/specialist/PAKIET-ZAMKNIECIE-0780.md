@@ -6,7 +6,7 @@
 
 Bank: **780** pytań (ADR-B-0001–0780), wszystkie **`needs_review`**, 0 `verified`, 0 zatwierdzeń specjalisty, publikacja nieautoryzowana. **104 kompetencje teorii mają minimum 6 pytań**. Licznik kompetencji teorii z <6 pytań = **0**; 3 kompetencje praktyczne nie są objęte progiem. Nie dopisujemy pytań ponad REGUŁĘ KOŃCA.
 
-Nie zmieniono treści pytań ani odpowiedzi w PR zamknięcia. Ostatni blob banku: `65941ae731e5315bfc6d93ed1a1410eab9251cbf`; `main` po 4x354: `40d877c7909ca9274140281768ebe126b211ee70`. Rozkład A/B/C: 258/291/231; „poprawna jedyna najdłuższa”: 78/780 = 10,00%, maksimum działu 15,22%.
+Nie zmieniono treści pytań ani odpowiedzi w PR zamknięcia. Ostatni blob banku: `d71ad1c3595b2c54f240178e30d0b2613fff9b41`; `main` po 4x354: `40d877c7909ca9274140281768ebe126b211ee70`. Rozkład A/B/C: 258/291/231; „poprawna jedyna najdłuższa”: 76/780 = 9,74%, maksimum działu 15,22%.
 
 ## Kolejność niezależnego przeglądu
 
