@@ -2,15 +2,15 @@
   "scope": "ADR-BASIC-ONLY",
   "batch": "ADR-B-0121..0135",
   "source": "Dz.U. 2025 poz.642, sprostowanie poz.1575",
-  "source_method": "Dosłowne fragmenty z polskiego OCR Dz.U. 2025 poz.642 z markerami stron NNNN i kontrolą w powiązanych punktach. Materiały graficzne/tabela A na s.307 i błąd OCR numeru III grupy na s.119 nie zostały niezależnie potwierdzone na obrazie urzędowego PDF, dlatego 0125, 0127 i 0128 oznaczono BLOKUJ. OCR nie oznacza weryfikacji na obrazie ani aprobaty specjalisty.",
-  "status": "first_literal_OCR_comparison_recorded_pending_image_and_second_review",
+  "source_method": "Dosłowne fragmenty z polskiego Dz.U. 2025 poz.642 z punktami i numerami stron; na obrazach PDF sprawdzono s.119 (2.1.1.3), s.307–308 (objaśnienia kolumn tabeli A), s.315 (nagłówek tabeli A). Wyniki kontroli drugiej niezależnej zostały uwzględnione. Bez niezależnej aprobaty specjalisty.",
+  "status": "second_literal_comparison_completed_pending_specialist_approval",
   "previous_uncompared": 633,
   "compared_ocr": 15,
   "remaining_without_comparison": 618,
   "counts": {
     "OK": 4,
-    "POPRAW": 8,
-    "BLOKUJ": 3
+    "POPRAW": 11,
+    "BLOKUJ": 0
   },
   "verified": 0,
   "question_status": "needs_review",
@@ -28,7 +28,7 @@
       "distractors_and_format_assessment": "Klucz B odpowiada wymaganiu działań po naruszeniu bezpieczeństwa. A/C są błędne, ale pierwotne „ukrycie śladów” i „zignorowanie” to zbyt oczywiste działania szkodliwe. Zmieniono sytuację i dystraktory, pozostawiając jednoznaczny klucz oraz proste pięciozdaniowe wyjaśnienie.",
       "stem_hint_assessment": "Klucz B odpowiada wymaganiu działań po naruszeniu bezpieczeństwa. A/C są błędne, ale pierwotne „ukrycie śladów” i „zignorowanie” to zbyt oczywiste działania szkodliwe. Zmieniono sytuację i dystraktory, pozostawiając jednoznaczny klucz oraz proste pięciozdaniowe wyjaśnienie.",
       "explanation_assessment": "Klucz B odpowiada wymaganiu działań po naruszeniu bezpieczeństwa. A/C są błędne, ale pierwotne „ukrycie śladów” i „zignorowanie” to zbyt oczywiste działania szkodliwe. Zmieniono sytuację i dystraktory, pozostawiając jednoznaczny klucz oraz proste pięciozdaniowe wyjaśnienie.",
-      "fix": "Pełny rekord w POPRAWKI-0121-0135.jsonl, nie zastosowany do banku"
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     },
     {
       "id": "ADR-B-0122",
@@ -43,7 +43,7 @@
       "distractors_and_format_assessment": "Obowiązek planu jest prawidłowy pod warunkami 1.10.3.2.1. Klucz C w starym rekordzie jako jedyny powtarzał numer 1.10.3.2 z pytania; usunięto podpowiedź z odpowiedzi, a w wyjaśnieniu dodano 1.10.3.2.2 (minimalne elementy planu). A/B nie zastępują planu.",
       "stem_hint_assessment": "Obowiązek planu jest prawidłowy pod warunkami 1.10.3.2.1. Klucz C w starym rekordzie jako jedyny powtarzał numer 1.10.3.2 z pytania; usunięto podpowiedź z odpowiedzi, a w wyjaśnieniu dodano 1.10.3.2.2 (minimalne elementy planu). A/B nie zastępują planu.",
       "explanation_assessment": "Obowiązek planu jest prawidłowy pod warunkami 1.10.3.2.1. Klucz C w starym rekordzie jako jedyny powtarzał numer 1.10.3.2 z pytania; usunięto podpowiedź z odpowiedzi, a w wyjaśnieniu dodano 1.10.3.2.2 (minimalne elementy planu). A/B nie zastępują planu.",
-      "fix": "Pełny rekord w POPRAWKI-0121-0135.jsonl, nie zastosowany do banku"
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     },
     {
       "id": "ADR-B-0123",
@@ -57,8 +57,7 @@
       "correct_key_and_uniqueness_assessment": "A oddaje definicję z umowy. B błędnie ogranicza pojęcie do klasy 3, C utożsamia je z wielkością ładunku. Wyjaśnienie ponad 300 znaków i trzy zdania plus podstawa; żadna liczba w odpowiedziach nie determinuje definicji.",
       "distractors_and_format_assessment": "A oddaje definicję z umowy. B błędnie ogranicza pojęcie do klasy 3, C utożsamia je z wielkością ładunku. Wyjaśnienie ponad 300 znaków i trzy zdania plus podstawa; żadna liczba w odpowiedziach nie determinuje definicji.",
       "stem_hint_assessment": "A oddaje definicję z umowy. B błędnie ogranicza pojęcie do klasy 3, C utożsamia je z wielkością ładunku. Wyjaśnienie ponad 300 znaków i trzy zdania plus podstawa; żadna liczba w odpowiedziach nie determinuje definicji.",
-      "explanation_assessment": "A oddaje definicję z umowy. B błędnie ogranicza pojęcie do klasy 3, C utożsamia je z wielkością ładunku. Wyjaśnienie ponad 300 znaków i trzy zdania plus podstawa; żadna liczba w odpowiedziach nie determinuje definicji.",
-      "fix": null
+      "explanation_assessment": "A oddaje definicję z umowy. B błędnie ogranicza pojęcie do klasy 3, C utożsamia je z wielkością ładunku. Wyjaśnienie ponad 300 znaków i trzy zdania plus podstawa; żadna liczba w odpowiedziach nie determinuje definicji."
     },
     {
       "id": "ADR-B-0124",
@@ -73,14 +72,14 @@
       "distractors_and_format_assessment": "Klasyfikacja i ustalenie warunków przed doborem przewozu są konieczne, a tabela A określa wymagania. Stare A/C jawnie nakazywały pominięcie klasyfikacji, co zdradzało B. Zmieniono formę trzech wariantów, doprecyzowano 3.2.1 oraz utrzymano klucz B.",
       "stem_hint_assessment": "Klasyfikacja i ustalenie warunków przed doborem przewozu są konieczne, a tabela A określa wymagania. Stare A/C jawnie nakazywały pominięcie klasyfikacji, co zdradzało B. Zmieniono formę trzech wariantów, doprecyzowano 3.2.1 oraz utrzymano klucz B.",
       "explanation_assessment": "Klasyfikacja i ustalenie warunków przed doborem przewozu są konieczne, a tabela A określa wymagania. Stare A/C jawnie nakazywały pominięcie klasyfikacji, co zdradzało B. Zmieniono formę trzech wariantów, doprecyzowano 3.2.1 oraz utrzymano klucz B.",
-      "fix": "Pełny rekord w POPRAWKI-0121-0135.jsonl, nie zastosowany do banku"
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     },
     {
       "id": "ADR-B-0125",
       "page": "307",
       "clause": "3.2.1, objaśnienie kolumny (1)",
       "quote": "Kolumna (1) _ „Numer UN” Zawiera numer UN:",
-      "verdict": "BLOKUJ",
+      "verdict": "POPRAW",
       "key": "C",
       "reference_assessment": "Objaśnienie tekstowe jednoznacznie przypisuje numer UN do kolumny (1), więc C odpowiada tekstowi; A opisuje grupę pakowania, B myli kolumnę (15). Jednak nie udało się niezależnie otworzyć obrazu urzędowego PDF strony z tabelą A; nie certyfikuję wizualnej zgodności układu tabeli. BLOKUJ wyłącznie na kontrolę obrazu.",
       "numbers_assessment": "Objaśnienie tekstowe jednoznacznie przypisuje numer UN do kolumny (1), więc C odpowiada tekstowi; A opisuje grupę pakowania, B myli kolumnę (15). Jednak nie udało się niezależnie otworzyć obrazu urzędowego PDF strony z tabelą A; nie certyfikuję wizualnej zgodności układu tabeli. BLOKUJ wyłącznie na kontrolę obrazu.",
@@ -88,7 +87,7 @@
       "distractors_and_format_assessment": "Objaśnienie tekstowe jednoznacznie przypisuje numer UN do kolumny (1), więc C odpowiada tekstowi; A opisuje grupę pakowania, B myli kolumnę (15). Jednak nie udało się niezależnie otworzyć obrazu urzędowego PDF strony z tabelą A; nie certyfikuję wizualnej zgodności układu tabeli. BLOKUJ wyłącznie na kontrolę obrazu.",
       "stem_hint_assessment": "Objaśnienie tekstowe jednoznacznie przypisuje numer UN do kolumny (1), więc C odpowiada tekstowi; A opisuje grupę pakowania, B myli kolumnę (15). Jednak nie udało się niezależnie otworzyć obrazu urzędowego PDF strony z tabelą A; nie certyfikuję wizualnej zgodności układu tabeli. BLOKUJ wyłącznie na kontrolę obrazu.",
       "explanation_assessment": "Objaśnienie tekstowe jednoznacznie przypisuje numer UN do kolumny (1), więc C odpowiada tekstowi; A opisuje grupę pakowania, B myli kolumnę (15). Jednak nie udało się niezależnie otworzyć obrazu urzędowego PDF strony z tabelą A; nie certyfikuję wizualnej zgodności układu tabeli. BLOKUJ wyłącznie na kontrolę obrazu.",
-      "fix": "Wymagana niezależna kontrola obrazu polskiego Dz.U."
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     },
     {
       "id": "ADR-B-0126",
@@ -102,30 +101,28 @@
       "correct_key_and_uniqueness_assessment": "A jest zgodne z definicją, także z wyjaśnieniem, że wybuch masowy obejmuje praktycznie natychmiast cały ładunek. B odpowiada zagrożeniu żrącemu, C reakcji z wodą; to inne klasy. Opcje są spójne, bez podpowiedzi przepisu.",
       "distractors_and_format_assessment": "A jest zgodne z definicją, także z wyjaśnieniem, że wybuch masowy obejmuje praktycznie natychmiast cały ładunek. B odpowiada zagrożeniu żrącemu, C reakcji z wodą; to inne klasy. Opcje są spójne, bez podpowiedzi przepisu.",
       "stem_hint_assessment": "A jest zgodne z definicją, także z wyjaśnieniem, że wybuch masowy obejmuje praktycznie natychmiast cały ładunek. B odpowiada zagrożeniu żrącemu, C reakcji z wodą; to inne klasy. Opcje są spójne, bez podpowiedzi przepisu.",
-      "explanation_assessment": "A jest zgodne z definicją, także z wyjaśnieniem, że wybuch masowy obejmuje praktycznie natychmiast cały ładunek. B odpowiada zagrożeniu żrącemu, C reakcji z wodą; to inne klasy. Opcje są spójne, bez podpowiedzi przepisu.",
-      "fix": null
+      "explanation_assessment": "A jest zgodne z definicją, także z wyjaśnieniem, że wybuch masowy obejmuje praktycznie natychmiast cały ładunek. B odpowiada zagrożeniu żrącemu, C reakcji z wodą; to inne klasy. Opcje są spójne, bez podpowiedzi przepisu."
     },
     {
       "id": "ADR-B-0127",
       "page": "119",
       "clause": "2.1.1.3",
       "quote": "I grupa pakowania: materiały stwarzające duże zagrożenie; II grupa pakowania: materiały stwarzające średnie zagrożenie;",
-      "verdict": "BLOKUJ",
+      "verdict": "OK",
       "key": "B",
       "reference_assessment": "I i II potwierdza tekst ADR. Dla III zapis w dostarczonym OCR został błędnie odczytany jako „[II grupa pakowania”, choć opis mówi o małym zagrożeniu. Nie uznaję bez oglądania urzędowej strony, że literalnie zweryfikowano oznaczenie III. Klucz B logicznie poprawny, ale kontrola obrazu potrzebna do zdjęcia BLOKUJ.",
       "numbers_assessment": "I i II potwierdza tekst ADR. Dla III zapis w dostarczonym OCR został błędnie odczytany jako „[II grupa pakowania”, choć opis mówi o małym zagrożeniu. Nie uznaję bez oglądania urzędowej strony, że literalnie zweryfikowano oznaczenie III. Klucz B logicznie poprawny, ale kontrola obrazu potrzebna do zdjęcia BLOKUJ.",
       "correct_key_and_uniqueness_assessment": "I i II potwierdza tekst ADR. Dla III zapis w dostarczonym OCR został błędnie odczytany jako „[II grupa pakowania”, choć opis mówi o małym zagrożeniu. Nie uznaję bez oglądania urzędowej strony, że literalnie zweryfikowano oznaczenie III. Klucz B logicznie poprawny, ale kontrola obrazu potrzebna do zdjęcia BLOKUJ.",
       "distractors_and_format_assessment": "I i II potwierdza tekst ADR. Dla III zapis w dostarczonym OCR został błędnie odczytany jako „[II grupa pakowania”, choć opis mówi o małym zagrożeniu. Nie uznaję bez oglądania urzędowej strony, że literalnie zweryfikowano oznaczenie III. Klucz B logicznie poprawny, ale kontrola obrazu potrzebna do zdjęcia BLOKUJ.",
       "stem_hint_assessment": "I i II potwierdza tekst ADR. Dla III zapis w dostarczonym OCR został błędnie odczytany jako „[II grupa pakowania”, choć opis mówi o małym zagrożeniu. Nie uznaję bez oglądania urzędowej strony, że literalnie zweryfikowano oznaczenie III. Klucz B logicznie poprawny, ale kontrola obrazu potrzebna do zdjęcia BLOKUJ.",
-      "explanation_assessment": "I i II potwierdza tekst ADR. Dla III zapis w dostarczonym OCR został błędnie odczytany jako „[II grupa pakowania”, choć opis mówi o małym zagrożeniu. Nie uznaję bez oglądania urzędowej strony, że literalnie zweryfikowano oznaczenie III. Klucz B logicznie poprawny, ale kontrola obrazu potrzebna do zdjęcia BLOKUJ.",
-      "fix": "Wymagana niezależna kontrola obrazu polskiego Dz.U."
+      "explanation_assessment": "I i II potwierdza tekst ADR. Dla III zapis w dostarczonym OCR został błędnie odczytany jako „[II grupa pakowania”, choć opis mówi o małym zagrożeniu. Nie uznaję bez oglądania urzędowej strony, że literalnie zweryfikowano oznaczenie III. Klucz B logicznie poprawny, ale kontrola obrazu potrzebna do zdjęcia BLOKUJ."
     },
     {
       "id": "ADR-B-0128",
       "page": "307",
       "clause": "3.2.1, objaśnienie kolumny (3a)",
       "quote": "Zawiera numer klasy, której tytuł obejmuje materiał lub przedmiot niebezpieczny.",
-      "verdict": "BLOKUJ",
+      "verdict": "POPRAW",
       "key": "C",
       "reference_assessment": "Tekst objaśnienia 3.2.1 wskazuje klasę w kolumnie 3a, stąd C odpowiada regule. A to numer UN, B grupa pakowania, są błędne. Ponieważ weryfikacja dotyczy struktury tabeli, a obrazu urzędowego PDF s.307 nie udało się uzyskać, pozostawiono BLOKUJ do weryfikacji wizualnej.",
       "numbers_assessment": "Tekst objaśnienia 3.2.1 wskazuje klasę w kolumnie 3a, stąd C odpowiada regule. A to numer UN, B grupa pakowania, są błędne. Ponieważ weryfikacja dotyczy struktury tabeli, a obrazu urzędowego PDF s.307 nie udało się uzyskać, pozostawiono BLOKUJ do weryfikacji wizualnej.",
@@ -133,7 +130,7 @@
       "distractors_and_format_assessment": "Tekst objaśnienia 3.2.1 wskazuje klasę w kolumnie 3a, stąd C odpowiada regule. A to numer UN, B grupa pakowania, są błędne. Ponieważ weryfikacja dotyczy struktury tabeli, a obrazu urzędowego PDF s.307 nie udało się uzyskać, pozostawiono BLOKUJ do weryfikacji wizualnej.",
       "stem_hint_assessment": "Tekst objaśnienia 3.2.1 wskazuje klasę w kolumnie 3a, stąd C odpowiada regule. A to numer UN, B grupa pakowania, są błędne. Ponieważ weryfikacja dotyczy struktury tabeli, a obrazu urzędowego PDF s.307 nie udało się uzyskać, pozostawiono BLOKUJ do weryfikacji wizualnej.",
       "explanation_assessment": "Tekst objaśnienia 3.2.1 wskazuje klasę w kolumnie 3a, stąd C odpowiada regule. A to numer UN, B grupa pakowania, są błędne. Ponieważ weryfikacja dotyczy struktury tabeli, a obrazu urzędowego PDF s.307 nie udało się uzyskać, pozostawiono BLOKUJ do weryfikacji wizualnej.",
-      "fix": "Wymagana niezależna kontrola obrazu polskiego Dz.U."
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     },
     {
       "id": "ADR-B-0129",
@@ -148,7 +145,7 @@
       "distractors_and_format_assessment": "Nie można automatycznie wybierać grupy III, poprawny klucz A. Jednak stare wyjaśnienie pomijało szczególną regułę domyślnej grupy II po wykluczeniu I oraz możliwość grupy III dla wyłącznie środowiskowych właściwości i ograniczenia procedury. Dodano te warunki i usunięto z pytania podpowiedź „zawsze”.",
       "stem_hint_assessment": "Nie można automatycznie wybierać grupy III, poprawny klucz A. Jednak stare wyjaśnienie pomijało szczególną regułę domyślnej grupy II po wykluczeniu I oraz możliwość grupy III dla wyłącznie środowiskowych właściwości i ograniczenia procedury. Dodano te warunki i usunięto z pytania podpowiedź „zawsze”.",
       "explanation_assessment": "Nie można automatycznie wybierać grupy III, poprawny klucz A. Jednak stare wyjaśnienie pomijało szczególną regułę domyślnej grupy II po wykluczeniu I oraz możliwość grupy III dla wyłącznie środowiskowych właściwości i ograniczenia procedury. Dodano te warunki i usunięto z pytania podpowiedź „zawsze”.",
-      "fix": "Pełny rekord w POPRAWKI-0121-0135.jsonl, nie zastosowany do banku"
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     },
     {
       "id": "ADR-B-0130",
@@ -163,14 +160,14 @@
       "distractors_and_format_assessment": "B jest zgodne z instrukcjami. Poprzednie A (przenieść wyciek do kabiny) i C (wąchać z bliska) były jawnie szkodliwe i łatwe do wyeliminowania; ułożono mniej skrajne dystraktory, zachowując zasadę bezpieczeństwa i końcową podstawę.",
       "stem_hint_assessment": "B jest zgodne z instrukcjami. Poprzednie A (przenieść wyciek do kabiny) i C (wąchać z bliska) były jawnie szkodliwe i łatwe do wyeliminowania; ułożono mniej skrajne dystraktory, zachowując zasadę bezpieczeństwa i końcową podstawę.",
       "explanation_assessment": "B jest zgodne z instrukcjami. Poprzednie A (przenieść wyciek do kabiny) i C (wąchać z bliska) były jawnie szkodliwe i łatwe do wyeliminowania; ułożono mniej skrajne dystraktory, zachowując zasadę bezpieczeństwa i końcową podstawę.",
-      "fix": "Pełny rekord w POPRAWKI-0121-0135.jsonl, nie zastosowany do banku"
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     },
     {
       "id": "ADR-B-0131",
       "page": "1333",
       "clause": "8.4.1",
       "quote": "Pojazdy przewożące towary niebezpieczne w ilościach podanych w przepisach specjalnych S1(6) i S14 do S24 w dziale 8.5, zgodnie ze wskazaniem w kolumnie (19) tabeli A w dziale 3.2, powinny być nadzorowane",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "key": "C",
       "reference_assessment": "Przepis zależy od wskazania S1(6) i S14–S24 oraz ilości, nie od samego faktu ADR. C jest jedynym poprawnym uogólnieniem. A błędnie rozszerza na każdy ładunek, B przypisuje swobodę decyzji kierowcy. Źródła odpowiadają podstawie.",
       "numbers_assessment": "Przepis zależy od wskazania S1(6) i S14–S24 oraz ilości, nie od samego faktu ADR. C jest jedynym poprawnym uogólnieniem. A błędnie rozszerza na każdy ładunek, B przypisuje swobodę decyzji kierowcy. Źródła odpowiadają podstawie.",
@@ -178,7 +175,7 @@
       "distractors_and_format_assessment": "Przepis zależy od wskazania S1(6) i S14–S24 oraz ilości, nie od samego faktu ADR. C jest jedynym poprawnym uogólnieniem. A błędnie rozszerza na każdy ładunek, B przypisuje swobodę decyzji kierowcy. Źródła odpowiadają podstawie.",
       "stem_hint_assessment": "Przepis zależy od wskazania S1(6) i S14–S24 oraz ilości, nie od samego faktu ADR. C jest jedynym poprawnym uogólnieniem. A błędnie rozszerza na każdy ładunek, B przypisuje swobodę decyzji kierowcy. Źródła odpowiadają podstawie.",
       "explanation_assessment": "Przepis zależy od wskazania S1(6) i S14–S24 oraz ilości, nie od samego faktu ADR. C jest jedynym poprawnym uogólnieniem. A błędnie rozszerza na każdy ładunek, B przypisuje swobodę decyzji kierowcy. Źródła odpowiadają podstawie.",
-      "fix": null
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     },
     {
       "id": "ADR-B-0132",
@@ -192,8 +189,7 @@
       "correct_key_and_uniqueness_assessment": "A odpowiada zasadzie dwóch boków i dwóch czołowych powierzchni. B tylko jeden bok i drzwi, C dach nie spełniają ogólnego wymagania. Wymóg dotyczy odpowiednich kontenerów, wyjątków dla elastycznych kontenerów do luzu nie uogólniono, ponieważ stem mówi o zasadzie ogólnej.",
       "distractors_and_format_assessment": "A odpowiada zasadzie dwóch boków i dwóch czołowych powierzchni. B tylko jeden bok i drzwi, C dach nie spełniają ogólnego wymagania. Wymóg dotyczy odpowiednich kontenerów, wyjątków dla elastycznych kontenerów do luzu nie uogólniono, ponieważ stem mówi o zasadzie ogólnej.",
       "stem_hint_assessment": "A odpowiada zasadzie dwóch boków i dwóch czołowych powierzchni. B tylko jeden bok i drzwi, C dach nie spełniają ogólnego wymagania. Wymóg dotyczy odpowiednich kontenerów, wyjątków dla elastycznych kontenerów do luzu nie uogólniono, ponieważ stem mówi o zasadzie ogólnej.",
-      "explanation_assessment": "A odpowiada zasadzie dwóch boków i dwóch czołowych powierzchni. B tylko jeden bok i drzwi, C dach nie spełniają ogólnego wymagania. Wymóg dotyczy odpowiednich kontenerów, wyjątków dla elastycznych kontenerów do luzu nie uogólniono, ponieważ stem mówi o zasadzie ogólnej.",
-      "fix": null
+      "explanation_assessment": "A odpowiada zasadzie dwóch boków i dwóch czołowych powierzchni. B tylko jeden bok i drzwi, C dach nie spełniają ogólnego wymagania. Wymóg dotyczy odpowiednich kontenerów, wyjątków dla elastycznych kontenerów do luzu nie uogólniono, ponieważ stem mówi o zasadzie ogólnej."
     },
     {
       "id": "ADR-B-0133",
@@ -208,7 +204,7 @@
       "distractors_and_format_assessment": "B poprawne, ale przepis nakazuje powtórzenie nalepek, podczas gdy wcześniejsze pytanie osłabiało to do „co może być wymagane”. Zmieniono na jednoznaczne polecenie i usunięto z klucza podpowiedź powtórzenia treści pytania. A dokument oraz C usunięcie znaków nie wystarczą.",
       "stem_hint_assessment": "B poprawne, ale przepis nakazuje powtórzenie nalepek, podczas gdy wcześniejsze pytanie osłabiało to do „co może być wymagane”. Zmieniono na jednoznaczne polecenie i usunięto z klucza podpowiedź powtórzenia treści pytania. A dokument oraz C usunięcie znaków nie wystarczą.",
       "explanation_assessment": "B poprawne, ale przepis nakazuje powtórzenie nalepek, podczas gdy wcześniejsze pytanie osłabiało to do „co może być wymagane”. Zmieniono na jednoznaczne polecenie i usunięto z klucza podpowiedź powtórzenia treści pytania. A dokument oraz C usunięcie znaków nie wystarczą.",
-      "fix": "Pełny rekord w POPRAWKI-0121-0135.jsonl, nie zastosowany do banku"
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     },
     {
       "id": "ADR-B-0134",
@@ -223,7 +219,7 @@
       "distractors_and_format_assessment": "Pakujący odpowiada za warunki pakowania i pakowania razem. C w pierwotnym banku dosłownie powtarzał „pakowania i pakowania razem” z pytania, przez co zdradzał klucz. Ułożono sytuację praktyczną, opcje w tej samej formie, a źródło zawężono do litery (a).",
       "stem_hint_assessment": "Pakujący odpowiada za warunki pakowania i pakowania razem. C w pierwotnym banku dosłownie powtarzał „pakowania i pakowania razem” z pytania, przez co zdradzał klucz. Ułożono sytuację praktyczną, opcje w tej samej formie, a źródło zawężono do litery (a).",
       "explanation_assessment": "Pakujący odpowiada za warunki pakowania i pakowania razem. C w pierwotnym banku dosłownie powtarzał „pakowania i pakowania razem” z pytania, przez co zdradzał klucz. Ułożono sytuację praktyczną, opcje w tej samej formie, a źródło zawężono do litery (a).",
-      "fix": "Pełny rekord w POPRAWKI-0121-0135.jsonl, nie zastosowany do banku"
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     },
     {
       "id": "ADR-B-0135",
@@ -238,7 +234,7 @@
       "distractors_and_format_assessment": "Klucz A pozostaje zgodny z obowiązkiem rozładowcy. Poprzednie B i C jawnie nakazywały rozładunek bez zabezpieczenia albo otwarcie uszkodzonego opakowania, były mało wiarygodnymi dystraktorami. Nowe propozycje porównują szybszy lub przeniesiony rozładunek z zatrzymaniem do czasu działań bezpieczeństwa.",
       "stem_hint_assessment": "Klucz A pozostaje zgodny z obowiązkiem rozładowcy. Poprzednie B i C jawnie nakazywały rozładunek bez zabezpieczenia albo otwarcie uszkodzonego opakowania, były mało wiarygodnymi dystraktorami. Nowe propozycje porównują szybszy lub przeniesiony rozładunek z zatrzymaniem do czasu działań bezpieczeństwa.",
       "explanation_assessment": "Klucz A pozostaje zgodny z obowiązkiem rozładowcy. Poprzednie B i C jawnie nakazywały rozładunek bez zabezpieczenia albo otwarcie uszkodzonego opakowania, były mało wiarygodnymi dystraktorami. Nowe propozycje porównują szybszy lub przeniesiony rozładunek z zatrzymaniem do czasu działań bezpieczeństwa.",
-      "fix": "Pełny rekord w POPRAWKI-0121-0135.jsonl, nie zastosowany do banku"
+      "fix": "Pełny zatwierdzony rekord w POPRAWKI-KONTROLA2-0121-0135.jsonl; zastosowany do banku na gałęzi kontroli drugiej."
     }
   ]
 }
