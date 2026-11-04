@@ -1,0 +1,647 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0211..0225",
+  "source": "Dz.U. 2025 poz. 642, sprostowanie poz. 1575",
+  "source_method": "Pierwsze porównanie z polskim OCR Dz.U., strony ustalane tylko z nagłówków Dziennika Ustaw; OCR wymaga potwierdzenia z obrazami w kontroli drugiej. Porównanie podobieństwa stem, opcji poprawnej, numerów punktów i znaczenia pytania z pełnym bankiem 780 pytań.",
+  "status": "first_literal_comparison_completed_pending_second_review",
+  "previous_uncompared": 543,
+  "compared_literal": 15,
+  "remaining_without_comparison": 528,
+  "counts": {
+    "OK": 5,
+    "POPRAW": 10,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "question_status": "needs_review",
+  "records": [
+    {
+      "id": "ADR-B-0211",
+      "verdict": "POPRAW",
+      "clause": "1.10.1.2",
+      "page": 110,
+      "quote": "Towary niebezpieczne mogą być wydane do przewozu wyłącznie przewoźnikowi odpowiednio zidentyfikowanemu.",
+      "correct_option": "C",
+      "legal_analysis": "Dosłownie zgodny klucz, ale powtórzenie tej samej sytuacji i decyzji o identyfikacji przewoźnika.",
+      "duplicate_candidates": [
+        "ADR-B-0120",
+        "ADR-B-0249",
+        "ADR-B-0414"
+      ],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0054",
+          "score": 0.143
+        },
+        {
+          "id": "ADR-B-0375",
+          "score": 0.143
+        },
+        {
+          "id": "ADR-B-0120",
+          "score": 0.139
+        },
+        {
+          "id": "ADR-B-0249",
+          "score": 0.132
+        },
+        {
+          "id": "ADR-B-0770",
+          "score": 0.122
+        }
+      ],
+      "answer_options_review": {
+        "A": "Wydać po samym numerze zamówienia, bez sprawdzania upoważnienia do odbioru",
+        "B": "Wystarczy porównać nazwę przewoźnika na pojeździe z dokumentem; nie trzeba sprawdzać upoważnienia do odbioru",
+        "C": "Towar niebezpieczny można zaoferować do przewozu jedynie odpowiednio zidentyfikowanemu przewoźnikowi"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej zaproponować nowy temat zgodny z kompetencją; bez edycji banku na etapie pierwszym.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0212",
+      "verdict": "OK",
+      "clause": "1.10.3.2.2",
+      "page": 113,
+      "quote": "Plan ochrony powinien zawierać co najmniej następujące elementy:",
+      "correct_option": "A",
+      "legal_analysis": "Plan musi obejmować podział obowiązków, ocenę zagrożeń i procedury, więc same telefony nie wystarczą.",
+      "duplicate_candidates": [],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0377",
+          "score": 0.167
+        },
+        {
+          "id": "ADR-B-0304",
+          "score": 0.163
+        },
+        {
+          "id": "ADR-B-0402",
+          "score": 0.163
+        },
+        {
+          "id": "ADR-B-0400",
+          "score": 0.154
+        },
+        {
+          "id": "ADR-B-0582",
+          "score": 0.143
+        }
+      ],
+      "answer_options_review": {
+        "A": "Nie, plan powinien m.in. przypisywać obowiązki, oceniać zagrożenia i określać środki ochrony oraz postępowanie przy incydentach",
+        "B": "Ograniczyć plan do plomb, kontroli dostępu i zabezpieczenia pojazdu, bez oceny zagrożeń, podziału odpowiedzialności ani procedur zgłaszania incydentów",
+        "C": "Tak, jeśli firma zatrudnia wyłącznie jednego kierowcę"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej potwierdzić cytat z obrazem PDF; bez zmiany klucza.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0213",
+      "verdict": "POPRAW",
+      "clause": "1.10.3.3",
+      "page": 113,
+      "quote": "powinny być zastosowane urządzenia, układy lub działania skutecznie zapobiegające kradzieży tych pojazdów i ich ładunku.",
+      "correct_option": "B",
+      "legal_analysis": "Powtarza skuteczność ochrony przed kradzieżą oraz wymóg nieutrudniania działań ratowniczych; przepis nie mówi dosłownie o okresowym sprawdzaniu sprawności.",
+      "duplicate_candidates": [
+        "ADR-B-0305",
+        "ADR-B-0407",
+        "ADR-B-0408"
+      ],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0407",
+          "score": 0.238
+        },
+        {
+          "id": "ADR-B-0305",
+          "score": 0.186
+        },
+        {
+          "id": "ADR-B-0093",
+          "score": 0.156
+        },
+        {
+          "id": "ADR-B-0026",
+          "score": 0.15
+        },
+        {
+          "id": "ADR-B-0304",
+          "score": 0.149
+        }
+      ],
+      "answer_options_review": {
+        "A": "Stosować je wyłącznie po udokumentowanej wcześniejszej kradzieży, natomiast przy zwykłym przewozie, nawet dużego ryzyka, pozostawiać je wyłączone bez kontroli sprawności",
+        "B": "Powinny być stosowane oraz utrzymywane jako sprawne i skuteczne podczas przewozu, bez utrudniania działań ratowniczych",
+        "C": "Sprawdzać zabezpieczenia tylko podczas postoju, a w czasie jazdy nie kontrolować ich działania."
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej zaproponować nowy temat zgodny z kompetencją; bez edycji banku na etapie pierwszym.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0214",
+      "verdict": "OK",
+      "clause": "5.4.1.1.1(g)",
+      "page": 962,
+      "quote": "(g) nazwę i adres nadawcy;",
+      "correct_option": "C",
+      "legal_analysis": "Klucz C odpowiada literze (g); litera (h) jest o odbiorcy i powinna zostać usunięta z podstawy dla tego pytania.",
+      "duplicate_candidates": [],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0227",
+          "score": 0.324
+        },
+        {
+          "id": "ADR-B-0598",
+          "score": 0.256
+        },
+        {
+          "id": "ADR-B-0600",
+          "score": 0.189
+        },
+        {
+          "id": "ADR-B-0577",
+          "score": 0.176
+        },
+        {
+          "id": "ADR-B-0583",
+          "score": 0.162
+        }
+      ],
+      "answer_options_review": {
+        "A": "Dopisać wyłącznie numer telefonu kierowcy w polu nazwy nadawcy",
+        "B": "Zastąpić nazwę i adres nadawcy podpisem kierowcy",
+        "C": "Uzupełnić wymagane dane nadawcy zgodnie z ADR 5.4.1.1.1"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej potwierdzić cytat z obrazem PDF; bez zmiany klucza.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0215",
+      "verdict": "OK",
+      "clause": "5.4.1.1.7",
+      "page": 965,
+      "quote": "W przypadku przewozu zgodnie z 1.1.4.2.1, w dokumencie przewozowym powinien być zamieszczony dodatkowo następujący zapis: „PRZEWÓZ ZGODNY Z 1.1.4.2.1”.",
+      "correct_option": "A",
+      "legal_analysis": "Zwrot dodatkowo oznacza, że wzmianka nie zastępuje podstawowego opisu ADR. Temat sąsiaduje z 0203, ale bada inną regułę.",
+      "duplicate_candidates": [],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0779",
+          "score": 0.18
+        },
+        {
+          "id": "ADR-B-0557",
+          "score": 0.175
+        },
+        {
+          "id": "ADR-B-0203",
+          "score": 0.174
+        },
+        {
+          "id": "ADR-B-0559",
+          "score": 0.163
+        },
+        {
+          "id": "ADR-B-0061",
+          "score": 0.161
+        }
+      ],
+      "answer_options_review": {
+        "A": "Nie, to wpis dodatkowy i nie zastępuje opisu towaru",
+        "B": "Tak, zwalnia z wpisania numeru UN i prawidłowej nazwy przewozowej",
+        "C": "Tak, pod warunkiem że przewóz zaczyna się w porcie morskim"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej potwierdzić cytat z obrazem PDF; bez zmiany klucza.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0216",
+      "verdict": "POPRAW",
+      "clause": "8.1.2.3",
+      "page": 1324,
+      "quote": "Instrukcje pisemne określone w 5.4.3 powinny być przechowywane w taki sposób, aby były łatwo dostępne.",
+      "correct_option": "B",
+      "legal_analysis": "Wymóg łatwego dostępu instrukcji powtarza 0013, 0090 i 0228.",
+      "duplicate_candidates": [
+        "ADR-B-0013",
+        "ADR-B-0090",
+        "ADR-B-0228"
+      ],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0778",
+          "score": 0.196
+        },
+        {
+          "id": "ADR-B-0090",
+          "score": 0.194
+        },
+        {
+          "id": "ADR-B-0088",
+          "score": 0.189
+        },
+        {
+          "id": "ADR-B-0420",
+          "score": 0.186
+        },
+        {
+          "id": "ADR-B-0306",
+          "score": 0.174
+        }
+      ],
+      "answer_options_review": {
+        "A": "Tak, bo liczy się tylko fizyczna obecność instrukcji w pojeździe",
+        "B": "Nie, instrukcje muszą być łatwo dostępne dla załogi",
+        "C": "Tak, jeżeli spedytor ma elektroniczną kopię instrukcji w biurze"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej zaproponować nowy temat zgodny z kompetencją; bez edycji banku na etapie pierwszym.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0217",
+      "verdict": "POPRAW",
+      "clause": "5.3.2.3.1",
+      "page": 956,
+      "quote": "Powtórzenie cyfry wskazuje na nasilenie oznaczonego tą cyfrą zagrożenia.",
+      "correct_option": "A",
+      "legal_analysis": "Ogólna reguła powtórzonej cyfry została już sprawdzona w 0051. Konkretny kod 88 nie wnosi istotnej nowej decyzji.",
+      "duplicate_candidates": [
+        "ADR-B-0051"
+      ],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0653",
+          "score": 0.269
+        },
+        {
+          "id": "ADR-B-0053",
+          "score": 0.25
+        },
+        {
+          "id": "ADR-B-0298",
+          "score": 0.231
+        },
+        {
+          "id": "ADR-B-0505",
+          "score": 0.231
+        },
+        {
+          "id": "ADR-B-0503",
+          "score": 0.207
+        }
+      ],
+      "answer_options_review": {
+        "A": "Zagrożenie żrące jest nasilone",
+        "B": "Zagrożenie żrące, ale bez zwiększenia nasilenia przez powtórzenie cyfry.",
+        "C": "Dwa osobne zagrożenia żrące, z których każde ma takie samo znaczenie."
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej zaproponować nowy temat zgodny z kompetencją; bez edycji banku na etapie pierwszym.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0218",
+      "verdict": "OK",
+      "clause": "5.2.2.1.1",
+      "page": 939,
+      "quote": "na sztuce przesyłki zawierającej materiał lub przedmiot wymieniony w tej tabeli powinny być umieszczone nalepki ostrzegawcze podane w kolumnie (5).",
+      "correct_option": "B",
+      "legal_analysis": "Odpowiednie nalepki wynikają z kolumny (5) z zastrzeżeniem przepisów szczególnych. Klucz B jest zgodny z sensem przepisów.",
+      "duplicate_candidates": [],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0523",
+          "score": 0.22
+        },
+        {
+          "id": "ADR-B-0627",
+          "score": 0.175
+        },
+        {
+          "id": "ADR-B-0303",
+          "score": 0.171
+        },
+        {
+          "id": "ADR-B-0099",
+          "score": 0.167
+        },
+        {
+          "id": "ADR-B-0610",
+          "score": 0.162
+        }
+      ],
+      "answer_options_review": {
+        "A": "Drugą nalepkę można zignorować, bo liczy się tylko pierwsza",
+        "B": "Towar może stwarzać więcej niż jeden rodzaj zagrożenia i należy uwzględnić obie nalepki",
+        "C": "Dwie nalepki oznaczają, że w środku muszą znajdować się dwa oddzielne towary"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej potwierdzić cytat z obrazem PDF; bez zmiany klucza.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0219",
+      "verdict": "POPRAW",
+      "clause": "5.4.3.4",
+      "page": 975,
+      "quote": "Zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest on dostępny;",
+      "correct_option": "A",
+      "legal_analysis": "Powtórzenie 0104. Ponadto w instrukcji mowa o wyłączeniu silnika i odłączeniu akumulatora, nie o światłach awaryjnych w tym wyliczeniu.",
+      "duplicate_candidates": [
+        "ADR-B-0104"
+      ],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0690",
+          "score": 0.244
+        },
+        {
+          "id": "ADR-B-0104",
+          "score": 0.211
+        },
+        {
+          "id": "ADR-B-0593",
+          "score": 0.2
+        },
+        {
+          "id": "ADR-B-0224",
+          "score": 0.15
+        },
+        {
+          "id": "ADR-B-0230",
+          "score": 0.14
+        }
+      ],
+      "answer_options_review": {
+        "A": "Włączyć światła awaryjne, uruchomić hamulec postojowy i wyłączyć silnik",
+        "B": "Pozostawić uruchomiony silnik, aby szybciej ogrzewać kabinę",
+        "C": "Nie włączać świateł awaryjnych, żeby nie zwracać uwagi"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej zaproponować nowy temat zgodny z kompetencją; bez edycji banku na etapie pierwszym.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0220",
+      "verdict": "POPRAW",
+      "clause": "5.4.3.4",
+      "page": 975,
+      "quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych;",
+      "correct_option": "A",
+      "legal_analysis": "To samo wezwanie służb i przekazywanie dostępnych informacji o wypadku i towarach co w 0105.",
+      "duplicate_candidates": [
+        "ADR-B-0105"
+      ],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0105",
+          "score": 0.259
+        },
+        {
+          "id": "ADR-B-0594",
+          "score": 0.206
+        },
+        {
+          "id": "ADR-B-0165",
+          "score": 0.167
+        },
+        {
+          "id": "ADR-B-0630",
+          "score": 0.167
+        },
+        {
+          "id": "ADR-B-0773",
+          "score": 0.167
+        }
+      ],
+      "answer_options_review": {
+        "A": "Informacje o zdarzeniu i zagrożeniu związanym z przewożonym towarem, jeśli są dostępne",
+        "B": "Podać numer telefonu firmy, ale pominąć opis zdarzenia i ładunku",
+        "C": "Podać sam numer UN, bez lokalizacji i okoliczności zdarzenia"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej zaproponować nowy temat zgodny z kompetencją; bez edycji banku na etapie pierwszym.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0221",
+      "verdict": "POPRAW",
+      "clause": "5.4.3.4",
+      "page": 975,
+      "quote": "Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej;",
+      "correct_option": "B",
+      "legal_analysis": "Pytanie powtarza zasadę strony nawietrznej z 0106.",
+      "duplicate_candidates": [
+        "ADR-B-0106"
+      ],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0295",
+          "score": 0.278
+        },
+        {
+          "id": "ADR-B-0355",
+          "score": 0.242
+        },
+        {
+          "id": "ADR-B-0101",
+          "score": 0.2
+        },
+        {
+          "id": "ADR-B-0130",
+          "score": 0.2
+        },
+        {
+          "id": "ADR-B-0691",
+          "score": 0.174
+        }
+      ],
+      "answer_options_review": {
+        "A": "Jak najbliżej miejsca wycieku, by obserwować etykietę",
+        "B": "Po stronie nawietrznej, unikając wdychania oparów",
+        "C": "Po stronie zawietrznej, aby widzieć kierunek przemieszczania chmury"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej zaproponować nowy temat zgodny z kompetencją; bez edycji banku na etapie pierwszym.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0222",
+      "verdict": "POPRAW",
+      "clause": "5.4.3.4",
+      "page": 975,
+      "quote": "Członkowie załogi pojazdu nie powinni gasić pożaru obejmującego przedział ładunkowy;",
+      "correct_option": "A",
+      "legal_analysis": "Zakaz gaszenia pożaru przedziału ładunkowego powtarza 0107 i 0742.",
+      "duplicate_candidates": [
+        "ADR-B-0107",
+        "ADR-B-0742"
+      ],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0614",
+          "score": 0.382
+        },
+        {
+          "id": "ADR-B-0742",
+          "score": 0.375
+        },
+        {
+          "id": "ADR-B-0695",
+          "score": 0.25
+        },
+        {
+          "id": "ADR-B-0143",
+          "score": 0.229
+        },
+        {
+          "id": "ADR-B-0702",
+          "score": 0.209
+        }
+      ],
+      "answer_options_review": {
+        "A": "Nie podejmować gaszenia pożaru przedziału ładunkowego i oddalić się w bezpieczne miejsce",
+        "B": "Rozpocząć gaszenie ładowni podręczną gaśnicą w każdej sytuacji",
+        "C": "Otworzyć wszystkie opakowania, aby sprawdzić źródło pożaru"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej zaproponować nowy temat zgodny z kompetencją; bez edycji banku na etapie pierwszym.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0223",
+      "verdict": "POPRAW",
+      "clause": "5.4.3.4",
+      "page": 975,
+      "quote": "Jeżeli jest to właściwe i bezpieczne, użyć gaśnic w celu ugaszenia małego lub będącego w fazie początkowej pożaru, obejmującego opony, hamulce lub przedział silnika;",
+      "correct_option": "A",
+      "legal_analysis": "Bezpieczne gaszenie małego pożaru opon, hamulców lub silnika powtarza 0108 i 0493.",
+      "duplicate_candidates": [
+        "ADR-B-0108",
+        "ADR-B-0493"
+      ],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0493",
+          "score": 0.333
+        },
+        {
+          "id": "ADR-B-0242",
+          "score": 0.216
+        },
+        {
+          "id": "ADR-B-0695",
+          "score": 0.196
+        },
+        {
+          "id": "ADR-B-0222",
+          "score": 0.167
+        },
+        {
+          "id": "ADR-B-0702",
+          "score": 0.163
+        }
+      ],
+      "answer_options_review": {
+        "A": "Tylko jeżeli można zrobić to bezpiecznie i zgodnie z instrukcjami, nie narażając się na zagrożenie",
+        "B": "Podjąć próbę gaszenia, jeśli ogień jest niewielki, nawet gdy bezpieczna droga odwrotu może zostać odcięta.",
+        "C": "Podejść do przesyłki, aby odczytać jej nalepkę przed decyzją o użyciu gaśnicy."
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej zaproponować nowy temat zgodny z kompetencją; bez edycji banku na etapie pierwszym.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0224",
+      "verdict": "POPRAW",
+      "clause": "5.4.3.4",
+      "page": 975,
+      "quote": "Oddalić się od miejsca wypadku lub zagrożenia, poinformować inne osoby o konieczności oddalenia się od tego miejsca oraz stosować się do zaleceń służb ratowniczych;",
+      "correct_option": "B",
+      "legal_analysis": "Ostrzeganie i odsuwanie osób postronnych pokrywa się z 0632.",
+      "duplicate_candidates": [
+        "ADR-B-0632"
+      ],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0632",
+          "score": 0.27
+        },
+        {
+          "id": "ADR-B-0741",
+          "score": 0.225
+        },
+        {
+          "id": "ADR-B-0143",
+          "score": 0.194
+        },
+        {
+          "id": "ADR-B-0746",
+          "score": 0.167
+        },
+        {
+          "id": "ADR-B-0005",
+          "score": 0.154
+        }
+      ],
+      "answer_options_review": {
+        "A": "Ostrzec ludzi, lecz pozwolić im zostać przy pojeździe, jeśli nie dotykają ładunku",
+        "B": "Ostrzec osoby postronne, aby się oddaliły i stosowały się do wskazań służb",
+        "C": "Poprosić świadka o podejście i odczytanie oznakowania przesyłki"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej zaproponować nowy temat zgodny z kompetencją; bez edycji banku na etapie pierwszym.",
+      "independent_specialist_approval": false
+    },
+    {
+      "id": "ADR-B-0225",
+      "verdict": "OK",
+      "clause": "5.4.3.4",
+      "page": 975,
+      "quote": "W razie zaistnienia podczas przewozu wypadku lub awarii, członkowie załogi pojazdu powinni wykonać następujące czynności, jeżeli jest to możliwe i bezpieczne:",
+      "correct_option": "A",
+      "legal_analysis": "Warunek bezpieczeństwa przed podjęciem działań wynika ze wstępu instrukcji; P2 oznacza ćwiczenie, nie punkt ADR.",
+      "duplicate_candidates": [],
+      "nearest_by_text": [
+        {
+          "id": "ADR-B-0626",
+          "score": 0.222
+        },
+        {
+          "id": "ADR-B-0648",
+          "score": 0.195
+        },
+        {
+          "id": "ADR-B-0113",
+          "score": 0.105
+        },
+        {
+          "id": "ADR-B-0245",
+          "score": 0.088
+        },
+        {
+          "id": "ADR-B-0712",
+          "score": 0.078
+        }
+      ],
+      "answer_options_review": {
+        "A": "Czy wejście do strefy wycieku nie zagrozi jemu i innym, i wezwać właściwą pomoc",
+        "B": "Czy poszkodowany posiada dokument przewozowy w kieszeni",
+        "C": "Czy można od razu przenieść wszystkie uszkodzone opakowania"
+      },
+      "explanation_review": "Zweryfikowano kierunek odpowiedzi, aktualną treść wyjaśnienia i dystraktory. Pary semantycznie powtórzone należy zastąpić innymi tematami podczas drugiej kontroli.",
+      "fix": "W kontroli drugiej potwierdzić cytat z obrazem PDF; bez zmiany klucza.",
+      "independent_specialist_approval": false
+    }
+  ]
+}
