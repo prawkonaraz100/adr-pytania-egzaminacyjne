@@ -1,5 +1,5 @@
 """Temporary official Dz.U. page-header source probe; remove before merge."""
-import io, re, sys, subprocess, unittest, urllib.request
+import io, re, sys, subprocess, unittest, urllib.request, hashlib
 URLS={n:f"https://eli.gov.pl/api/acts/DU/2025/642/text/O/D20250642-{n:02d}.pdf" for n in (3,38,53,54)}
 CLAUSES=("1.4.2.3.2","8.4.1","5.2.1.1","5.2.2.1.1","5.3.2.2.1","5.3.2.2.2","5.3.2.3.1","5.4.3.4")
 class Probe(unittest.TestCase):
@@ -13,9 +13,9 @@ class Probe(unittest.TestCase):
    try:
     with urllib.request.urlopen(url, timeout=25) as r:
      raw=r.read()
-     print("PAGEPROBE_DOWNLOAD",n,"bytes",len(raw),"contentlength",r.headers.get("content-length"))
+     print("PAGEPROBE_DOWNLOAD",n,"bytes",len(raw),"sha",hashlib.sha256(raw).hexdigest()[:16],"contentlength",r.headers.get("content-length"))
     if not raw.startswith(b"%PDF"):print("PAGEPROBE_NOTPDF",n);continue
-    reader=PdfReader(io.BytesIO(raw));print("PAGEPROBE_PDF",n,"pages",len(reader.pages))
+    reader=PdfReader(io.BytesIO(raw));print("PAGEPROBE_PDF",n,"pages",len(reader.pages),"FIRST"," ".join((reader.pages[0].extract_text() or "")[:250].split()),"LAST"," ".join((reader.pages[-1].extract_text() or "")[:250].split()))
     for idx,p in enumerate(reader.pages):
      txt=p.extract_text() or ""
      found=[c for c in CLAUSES if re.search(r"(?m)^"+re.escape(c)+r"\s",txt)]
