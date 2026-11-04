@@ -14,7 +14,9 @@ EXPECTED = {
     "ADR-B-0141", "ADR-B-0142", "ADR-B-0144", "ADR-B-0145",
     "ADR-B-0146", "ADR-B-0147", "ADR-B-0150",
 }
-BLOCKED = {"ADR-B-0139", "ADR-B-0143", "ADR-B-0148", "ADR-B-0149"}
+BLOCKED = set()
+SECOND_EXPECTED = {"ADR-B-%04d" % n for n in range(136, 151)}
+SECOND_PROPOSALS = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0136-0150.jsonl"
 
 def read_jsonl(path):
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
@@ -62,13 +64,23 @@ class Batch10ProposalTests(unittest.TestCase):
         self.assertIn("VC", working["ADR-B-0139"]["options"]["B"])
         self.assertIn("odesłanie", working["ADR-B-0139"]["options"]["B"])
 
+    def test_all_second_review_records_are_applied(self):
+        current = {x["id"]: x for x in read_jsonl(BANK)}
+        patches = read_jsonl(SECOND_PROPOSALS)
+        self.assertEqual({p["id"] for p in patches}, SECOND_EXPECTED)
+        for p in patches:
+            self.assertEqual(current[p["id"]], p)
+            self.assertEqual(p["verification_status"], "needs_review")
+            self.assertIsNone(p["checked_at"])
+            self.assertIsNone(p["reviewer"])
+
     def test_report_counter_and_verdicts(self):
         report = json.loads(REPORT.read_text(encoding="utf-8"))
         self.assertEqual(report["previous_uncompared"], 618)
         self.assertEqual(report["remaining_without_comparison"], 603)
-        self.assertEqual(report["counts"], {"OK": 0, "POPRAW": 11, "BLOKUJ": 4})
+        self.assertEqual(report["counts"], {"OK": 0, "POPRAW": 15, "BLOKUJ": 0})
         self.assertEqual(len(report["records"]), 15)
-        self.assertEqual({r["id"] for r in report["records"] if r["verdict"] == "POPRAW"}, EXPECTED)
+        self.assertEqual({r["id"] for r in report["records"] if r["verdict"] == "POPRAW"}, SECOND_EXPECTED)
         self.assertEqual({r["id"] for r in report["records"] if r["verdict"] == "BLOKUJ"}, BLOCKED)
 
 if __name__ == "__main__":
