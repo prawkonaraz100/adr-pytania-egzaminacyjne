@@ -23,15 +23,15 @@
         "stem": "Firma kupuje paletę farb zaklasyfikowanych jako towary niebezpieczne w ADR z przeznaczeniem do dalszej sprzedaży. Czy automatycznie korzysta z wyłączenia 1.1.3.1(a) dla osób prywatnych?",
         "options": {
           "A": "Tak, bo zakup farb na odsprzedaż ma taki sam charakter jak zakup prywatny",
-          "B": "Nie; wyłączenie prywatne nie obejmuje przewozu towarów do sprzedaży.",
+          "B": "Nie, wyłączenie dla osób prywatnych nie obejmuje towaru na sprzedaż",
           "C": "Tak, bo mała firma może przewozić towary handlowe jak osoba prywatna"
         },
         "correct_option": "B",
-        "explanation": "Wyłączenie dla osób prywatnych dotyczy określonych zakupów i przewozów na własny użytek, a nie towaru kupowanego przez firmę z zamiarem dalszej sprzedaży. Nie zmienia tego mała wielkość przedsiębiorstwa ani to, że towar jest zwykłą farbą. Trzeba też sprawdzić, czy dana farba w ogóle podlega ADR oraz czy spełniono warunki opakowania i zabezpieczenia. Podstawa: ADR 1.1.3.1(a).",
+        "explanation": "Wyłączenie z 1.1.3.1 (a) dotyczy osób prywatnych, które przewożą towary w opakowaniach detalicznych do własnego użytku, do domu albo do sportu i rekreacji. Firma, która kupuje farby na dalszą sprzedaż, przewozi towar handlowy, więc to wyłączenie jej nie obejmuje. Mała wielkość firmy niczego tu nie zmienia. Przewóz wykonywany przez firmę w celu zaopatrzenia lub dystrybucji nie korzysta też z wyłączenia z 1.1.3.1 (c). Podstawa: ADR 1.1.3.1 (a) i (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.3.1 (a)",
+            "reference": "ADR 2025, 1.1.3.1 (a); 1.1.3.1 (c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -63,12 +63,12 @@
       "exact_record_snapshot": {
         "stem": "Nowy pracownik magazynu nie przeszedł jeszcze szkolenia ADR odpowiedniego do zadań. Co przewiduje 1.3.1, zanim ukończy szkolenie?",
         "options": {
-          "A": "Może działać samodzielnie po uznaniu go za doświadczonego",
-          "B": "Może działać samodzielnie, jeśli ma doświadczenie magazynowe, nawet bez bezpośredniego nadzoru",
-          "C": "Tylko pod bezpośrednim nadzorem osoby przeszkolonej."
+          "A": "Może samodzielnie pracować, gdy przełożony potwierdzi jego doświadczenie",
+          "B": "Może pracować bez nadzoru, jeśli zna już procedury zwykłego magazynu",
+          "C": "Może je wykonywać tylko pod bezpośrednim nadzorem osoby przeszkolonej"
         },
         "correct_option": "C",
-        "explanation": "Pracownik bez szkolenia ADR odpowiedniego do swoich czynności może wykonywać te zadania wyłącznie pod bezpośrednim nadzorem osoby przeszkolonej. Nawet duże doświadczenie w zwykłym magazynie nie daje automatycznie wiedzy o zagrożeniach i wymaganiach ADR. Nie oznacza to też, że magazynier musi zdobyć zaświadczenie kierowcy, jeżeli nie kieruje pojazdem. Podstawa: ADR 1.3.1.",
+        "explanation": "Dopóki pracownik nie ukończy szkolenia ADR odpowiedniego do swoich obowiązków, może wykonywać te czynności tylko pod bezpośrednim nadzorem osoby przeszkolonej. Doświadczenie magazynowe ani ocena przełożonego nie zastępują wymaganego szkolenia i nadzoru. Ten wymóg dotyczy pracy przy towarach niebezpiecznych i nie oznacza, że magazynier musi mieć zaświadczenie kierowcy ADR. Przed dopuszczeniem do samodzielnej pracy trzeba zakończyć odpowiednie szkolenie. Podstawa: ADR 1.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przedsiębiorca twierdzi, że oznakowanie LQ zawsze oznacza wyłączenie na podstawie 1.1.3.6. Czy ma rację?",
+        "stem": "W jednostce transportowej są przesyłki LQ (ilości ograniczone) i inne towary niebezpieczne. Jak traktuje się przesyłki LQ przy liczeniu limitu z ADR 1.1.3.6?",
         "options": {
-          "A": "Nie; LQ z działu 3.4 i próg 1.1.3.6 mają inne warunki i sposób liczenia",
-          "B": "Tak; znak LQ potwierdza limit ilości przypisany kategoriom transportowym",
-          "C": "Tak; znak LQ na opakowaniu zastępuje obliczenie punktów 1.1.3.6"
+          "A": "Pomija się je, bo przewozi się je na odrębnych zasadach działu 3.4",
+          "B": "Wlicza się je jak inne towary, według ich kategorii transportowej",
+          "C": "Wlicza się je zawsze z mnożnikiem 50, jak kategorię transportową 1"
         },
         "correct_option": "A",
-        "explanation": "Znak LQ informuje o przewozie w ilościach ograniczonych na zasadach rozdziału 3.4 ADR. Wyłączenie z 1.1.3.6 działa inaczej: wymaga oceny kategorii transportowej i ilości towaru w jednostce. Dlatego sam znak LQ nie potwierdza spełnienia limitu z 1.1.3.6 ani nie zastępuje potrzebnego obliczenia. Przed wyjazdem ustal, z którego wyłączenia korzystasz. Podstawa: ADR 3.4 i 1.1.3.6.",
+        "explanation": "Przesyłki w ilościach ograniczonych (LQ) przewozi się na zasadach działu 3.4, czyli w ramach odrębnego wyłączenia z 1.1.3.4.2. Dlatego przy liczeniu limitu z 1.1.3.6 nie bierze się ich pod uwagę, co wprost mówi 1.1.3.6.5. Do sumy wlicza się tylko pozostałe towary niebezpieczne, według ich kategorii transportowych i mnożników. Doliczenie przesyłek LQ, z mnożnikiem czy bez, zawyżyłoby wynik. Podstawa: ADR 1.1.3.4.2, 1.1.3.6.5 i 3.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.4; 1.1.3.6",
+            "reference": "ADR 2025, 1.1.3.4.2; 1.1.3.6.5; 3.4.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -515,11 +515,11 @@
         "stem": "Podczas rozładunku ADR drugi członek załogi zaczyna korzystać z e-papierosa. Co należy zrobić?",
         "options": {
           "A": "Dopuścić e-papierosa przy pojeździe, ponieważ nie wytwarza on otwartego płomienia",
-          "B": "Przerwać tę czynność; podczas czynności ładunkowych obowiązuje zakaz używania e-papierosów",
+          "B": "Przerwać używanie e-papierosa, bo przy czynnościach ładunkowych jest ono zakazane",
           "C": "Dopuścić używanie e-papierosa podczas rozładunku, pod warunkiem że silnik pojazdu pozostaje wyłączony"
         },
         "correct_option": "B",
-        "explanation": "Podczas załadunku i rozładunku towarów niebezpiecznych zakaz palenia obejmuje również e-papierosy, więc należy przerwać ich używanie. Brak widocznego płomienia nie oznacza wyjątku od zakazu, ponieważ przepisy obejmują także takie urządzenia. Wyłączenie silnika samochodu też nie pozwala na korzystanie z e-papierosa przy czynnościach ładunkowych. Podstawa: ADR 8.3.5.",
+        "explanation": "Podczas załadunku i rozładunku zakaz palenia obowiązuje w pobliżu pojazdu i w jego wnętrzu, a obejmuje również e-papierosy, więc trzeba przerwać ich używanie. Brak widocznego płomienia nie oznacza wyjątku od zakazu, ponieważ przepisy obejmują także takie urządzenia. Wyłączenie silnika samochodu też nie pozwala na korzystanie z e-papierosa przy czynnościach ładunkowych. Podstawa: ADR 8.3.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -594,14 +594,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Do jakich informacji kierowca powinien sięgnąć, zgłaszając służbom wypadek z towarem niebezpiecznym?",
+        "stem": "Co kierowca powinien przekazać służbom ratowniczym, zgłaszając wypadek z towarem niebezpiecznym?",
         "options": {
-          "A": "Przekazać służbom dostępne dane o zdarzeniu oraz towarze, np. numer UN",
-          "B": "Podać numer rejestracyjny i miejsce wypadku, lecz pominąć dane o niebezpiecznym ładunku",
-          "C": "Podać trasę i nazwę przewoźnika, pomijając rodzaj zdarzenia"
+          "A": "Wszystkie dostępne dane o zdarzeniu i towarze, na przykład numer UN",
+          "B": "Tylko numer rejestracyjny i miejsce wypadku, bez danych o ładunku",
+          "C": "Tylko trasę przejazdu i nazwę przewoźnika, bez opisu samego zdarzenia"
         },
         "correct_option": "A",
-        "explanation": "Przy zgłaszaniu wypadku ratownicy potrzebują informacji, co się stało i jaki niebezpieczny ładunek przewozi pojazd. Kierowca powinien przekazać dostępne dane, w tym numer UN z dokumentów, o ile może to zrobić bez narażania siebie. Sam numer rejestracyjny lub opis trasy nie pozwala dobrać bezpiecznych działań przy nieznanym towarze. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Ratownicy muszą wiedzieć, co się stało i jaki niebezpieczny ładunek przewozi pojazd. Instrukcje pisemne każą podać im możliwie wszystkie dostępne informacje o wypadku lub awarii oraz o towarach, na przykład numer UN z dokumentu przewozowego. Sam numer rejestracyjny, miejsce czy trasa nie pozwalają dobrać bezpiecznego sposobu działania. Przekaż te dane z bezpiecznego miejsca, nie narażając siebie. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
