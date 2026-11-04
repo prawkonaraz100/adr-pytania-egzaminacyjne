@@ -4,7 +4,7 @@
 
 Pakiet końcowy: `review/specialist/PAKIET-ZAMKNIECIE-0780.md`.
 
-Bank zamknięty do dopisywania pytań, gotowy do przeglądu specjalisty: 780 pytań, 780 `needs_review`, 0 `verified`; SHA `b4efe62c37b3900b9173b1583b5584fa8d68c922`. Kompetencje teorii <6: 0. STOP dopisywania pytań. Raport końcowy: `docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md`. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0780.md`; raport: `podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md`.
+Bank zamknięty do dopisywania pytań, gotowy do przeglądu specjalisty: 780 pytań, 780 `needs_review`, 0 `verified`; SHA `b90a5ce95f61a9a93e0165aeb9ed596cd4c8abef`. Kompetencje teorii <6: 0. STOP dopisywania pytań. Raport końcowy: `docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md`. Rejestr: `review/specialist/REJESTR-AKTUALNY-0001-0780.md`; raport: `podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md`.
 
 ## Bieżąca migawka — etap 4x348
 
