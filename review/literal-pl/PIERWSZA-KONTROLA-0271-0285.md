@@ -1,0 +1,195 @@
+# Pierwsza kontrola merytoryczna ADR-B-0271–0285
+
+Pierwsza kontrola zakończona: 13 POPRAW i 2 OK. Następne pytanie do pierwszej kontroli: ADR-B-0286.
+
+Wyniki dotyczą porównania z urzędowym ADR i sprostowaniem oraz porównania z bankiem. Propozycje są gotowe do niezależnej drugiej kontroli i zachowują litery kluczy.
+
+## ADR-B-0271
+
+Werdykt: **POPRAW, duplikat ADR-B-0570**. Obecny klucz B jest prawidłowy: 100 × 3 + 600 = 900. A to suma bez mnożnika kategorii 2. C jest błędna, bo ADR nie każe mnożyć ilości kategorii 3. Wyjaśnienie zgadza się z przepisem, ale pytanie powtarza te same ilości, kategorie i wynik z ADR-B-0570.
+
+Propozycja zastępcza: „W jednej jednostce transportowej przewozisz w sztukach przesyłek 20 kg netto amoniaku bezwodnego UN 1005 i 350 litrów cieczy kategorii transportowej 3. Jaką sumę uzyskasz według ADR 1.1.3.6.4?”
+
+- A. 370
+- B. 750
+- C. 1 350
+
+Wyjaśnienie: UN 1005 należy do wyjątków wymienionych w przypisie a. W przewozie z inną kategorią jego ilość mnoży się przez 20, więc 20 kg daje 400 punktów. Do tego dodajesz 350 z kategorii 3 i otrzymujesz 750. Zwykłe dodanie ilości dałoby 370, a mnożnik 50 dałby 1350, lecz tutaj obowiązuje mnożnik 20. Podstawa: ADR 1.1.3.6.3 i 1.1.3.6.4.
+
+Sprawdzono urzędowe obrazy [s. 27, przypis a z UN 1005](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-01.pdf#page=27), [s. 28, mnożniki i jednostki ilości](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-01.pdf#page=28) i [s. 354, kolumnę (15) tabeli A](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-08.pdf#page=4). Sprostowanie nie zmienia tej pozycji ani mnożnika. Propozycja oczekuje na niezależną drugą kontrolę.
+
+## ADR-B-0272
+
+**POPRAW.** A jest prawidłowa: 200 × 3 + 500 = 1100. B pomija mnożnik dla kategorii 2, C pomija samą kategorię 2. Wyjaśnienie opisuje rachunek poprawnie. Pytanie sprawdza tę samą decyzję co ADR-B-0571: przekroczenie progu przez mieszany ładunek kategorii 2 i 3. Odrębna propozycja sprawdza wynik dokładnie równy progowi.
+
+**Propozycja.** Jednostka przewozi w sztukach przesyłek 200 jednostek ilościowych kategorii transportowej 2 oraz 400 jednostek kategorii 3. Co oznacza wynik obliczenia z ADR 1.1.3.6.4?
+
+- A. Wynik to 1000. Warunek ilościowy jest spełniony, bo próg nie został przekroczony.
+- B. Wynik to 1000. Warunek ilościowy nie jest spełniony, bo wynik musi być niższy.
+- C. Wynik to 600. Ilości obu kategorii wystarczy dodać bez stosowania mnożników.
+
+Kategoria 2 daje 200 × 3 = 600, a kategoria 3 dodaje 400 bez mnożenia. Wynik to dokładnie 1000. ADR wymaga, żeby suma nie przekraczała tej wartości, więc warunek ilościowy jest spełniony także na granicy. Sam wynik nie zwalnia z pozostałych wymagań. Proste dodanie ilości bez mnożników daje tu błędną ocenę. Podstawa: ADR 1.1.3.6.4.
+
+Sprawdzono urzędowy [pkt 1.1.3.6.4, s. 28 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-01.pdf#page=28). Sprostowanie nie zmienia mnożników ani wartości granicznej.
+
+## ADR-B-0273
+
+**POPRAW.** C rozpoznaje znak LQ, A i B podają inne oznakowania. Wyjaśnienie opisuje zasadę poprawnie, choć środek znaku może być biały lub odpowiednio kontrastujący. Pytanie podaje LQ w treści, więc nie sprawdza odczytu znaku. Propozycja sprawdza wyjątek dla małej przesyłki. Zachować schemat wyłącznie jako ilustrację wyglądu, bez sugerowania skali.
+
+**Propozycja.** Na małej sztuce przesyłki przewożonej drogą nie mieści się standardowy znak ilości ograniczonych (LQ). Mniejszy znak pozostanie dobrze widoczny. Jakie są dopuszczalne minimalne wymiary znaku i szerokość linii obrzeża?
+
+- A. 40 × 40 mm i 1 mm.
+- B. 50 × 50 mm i 0,5 mm.
+- C. 50 × 50 mm i 1 mm.
+
+Zwykle znak LQ ma co najmniej 100 × 100 mm, a linia obrzeża co najmniej 2 mm. Jeżeli wielkość sztuki przesyłki wymaga zmniejszenia znaku i pozostanie on dobrze widoczny, można zastosować minimum 50 × 50 mm i linię 1 mm. Wymiary 40 × 40 mm są za małe, podobnie jak linia o szerokości 0,5 mm. Podstawa: ADR 3.4.7.1 i 3.4.7.2.
+
+Sprawdzono urzędowy [rysunek i pkt 3.4.7.1–3.4.7.2, s. 687 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-14.pdf#page=37). Sprostowanie nie zmienia tych wymiarów.
+
+## ADR-B-0274
+
+**POPRAW.** A prawidłowo rozróżnia obowiązek ochrony i oświetlenia od warunkowego ograniczenia dostępu. B uznaje otwarty plac za wystarczający, a C błędnie wyłącza ochronę terminalu z ADR. Wyjaśnienie oddaje sens przepisu, lecz odpowiada na argument o ogrodzeniu, którego nie ma w opcjach. Sytuację ciemnego placu z otwartą bramą sprawdza już ADR-B-0701. Propozycja skupia się na tym, jakie miejsce jest objęte wymaganiami.
+
+**Propozycja.** W przewozie objętym działem 1.10 przesyłki czekają dwie godziny na przeładunek w bazie przewoźnika, poza terminalem. Czy do tego miejsca stosuje się zasady ADR dotyczące ochrony miejsc czasowego przechowywania?
+
+- A. Tak. Baza transportowa może być miejscem czasowego przechowywania w trakcie przewozu.
+- B. Nie. Te zasady stosuje się w terminalu, ale nie na terenie bazy przewoźnika.
+- C. Nie. Obowiązek powstaje dopiero po pozostawieniu przesyłek w bazie na noc.
+
+ADR wymienia bazy transportowe obok terminali i innych miejsc przeładunku lub postoju. Jeżeli baza służy do czasowego przechowywania podczas przewozu, miejsce trzeba odpowiednio chronić i dobrze oświetlić. Dostęp osób postronnych należy wyłączyć, o ile jest to możliwe i wskazane. Przepis nie uzależnia tych obowiązków od nocnego postoju. Podstawa: ADR 1.10.1.3.
+
+Sprawdzono obraz [pkt 1.10.1.3, s. 110 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-03.pdf#page=10) i zakres sprostowania.
+
+## ADR-B-0275
+
+**POPRAW.** B poprawnie mówi o przeprowadzeniu lub weryfikacji szkolenia przy zatrudnieniu i jego okresowym uzupełnianiu. A błędnie odkłada szkolenie do incydentu, C zastępuje je prawem jazdy. Wyjaśnienie właściwie odrzuca oba błędy, ale pytanie dubluje ADR-B-0411. Propozycja sprawdza, czy brak zmian w przepisach zwalnia z doskonalenia.
+
+**Propozycja.** Nadchodzi termin okresowego szkolenia z ochrony towarów niebezpiecznych. Kierownik chce je odwołać, bo od poprzedniego szkolenia przepisy się nie zmieniły. Jak powinien postąpić?
+
+- A. Odwołać szkolenie i przeprowadzić je dopiero po zmianie przepisów ADR.
+- B. Przeprowadzić szkolenie. Brak zmian w przepisach nie znosi obowiązku doskonalenia.
+- C. Odwołać szkolenie i przeprowadzić je dopiero po naruszeniu bezpieczeństwa.
+
+Szkolenie z ochrony trzeba okresowo uzupełniać, także wtedy, gdy przepisy się nie zmieniły. Można przypomnieć pracownikom, jak rozpoznać próbę kradzieży i co zrobić po wykryciu naruszenia. Odkładanie szkolenia do nowelizacji lub incydentu nie spełnia obowiązku okresowego doskonalenia. Podstawa: ADR 1.10.2.1 i 1.10.2.3.
+
+Sprawdzono obraz [pkt 1.10.2.1–1.10.2.3, s. 110 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-03.pdf#page=10) i zakres sprostowania.
+
+## ADR-B-0276
+
+**POPRAW.** C jest zgodna z urzędowym wzorem. A myli znak środowiskowy z nalepką zagrożenia żrącego, a B ze znakiem drogowym. Wyjaśnienie słusznie wskazuje możliwość jednoczesnego występowania innych zagrożeń. Pytanie dubluje rozpoznawanie symbolu z ADR-B-0007. Nowa wersja sprawdza dopuszczalność innego tła, której nie znaleziono w pozostałych pytaniach.
+
+**Propozycja.** Na sztuce przesyłki wymagany znak środowiskowy ma czarną rybę i drzewo na jasnoszarym tle, które zapewnia wyraźny kontrast. Pozostałe wymagania są spełnione. Czy brak białego tła oznacza niezgodność?
+
+- A. Tak. Czarny symbol ryby i drzewa można umieścić wyłącznie na białym tle.
+- B. Tak. Przy szarym tle trzeba zmienić kolor ryby i drzewa z czarnego na biały.
+- C. Nie. Czarny symbol może być na białym albo odpowiednio kontrastującym tle.
+
+ADR przewiduje czarny symbol na tle białym lub odpowiednio kontrastującym. Jasnoszare tło może więc być zgodne, jeśli zapewnia wyraźny kontrast i znak spełnia pozostałe wymagania. Kolor symbolu pozostaje czarny. Ani wymiana tła na białe, ani zmiana symbolu na biały nie wynika z tego przepisu. Podstawa: ADR 5.2.1.8.3.
+
+Sprawdzono [rysunek na s. 937](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-19.pdf#page=37) i [opis wzoru na s. 938 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-19.pdf#page=38) oraz zakres sprostowania.
+
+## ADR-B-0277
+
+**POPRAW.** B odpowiada wymaganej adnotacji, choć podaje jej sens zamiast ustalonej formuły. A jest informacją innego rodzaju, a C fałszywie przedstawia przepis jako ogólne zwolnienie. Wyjaśnienie poprawnie oddziela adnotację od pozostałych obowiązków. Pytanie powtarza ADR-B-0061 i ADR-B-0395. Nowa wersja dotyczy wpływu połączenia dokumentów na obowiązek wpisu.
+
+**Propozycja.** Kontener jedzie drogą do portu na warunkach ADR 1.1.4.2.1. Jeden dokument pełni funkcję dokumentu przewozowego i certyfikatu pakowania. Zawiera oświadczenie o prawidłowym załadunku i dane osoby odpowiedzialnej, ale brak w nim adnotacji o 1.1.4.2.1. Co zrobić?
+
+- A. Zostawić dokument bez zmian, bo oświadczenie o pakowaniu zastępuje adnotację.
+- B. Dopisać w dokumencie przewozowym „PRZEWÓZ ZGODNY Z 1.1.4.2.1” przed wyjazdem.
+- C. Rozdzielić dokumenty, bo adnotacji nie wolno zamieszczać w dokumencie wspólnym.
+
+Jeden dokument może pełnić obie funkcje, ale nadal musi zawierać dane wymagane od dokumentu przewozowego. Oświadczenie o pakowaniu potwierdza załadunek, a wpis o 1.1.4.2.1 wskazuje podstawę przewozu w tym łańcuchu. Uzupełnij wspólny dokument o wymagany wpis. Rozdzielanie dokumentów nie jest konieczne. Podstawa: ADR 5.4.1.1.7 i 5.4.2.
+
+Sprawdzono [pkt 5.4.1.1.7, s. 965](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-20.pdf#page=15), [pkt 5.4.2, s. 973 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-20.pdf#page=23) oraz zakres sprostowania.
+
+## ADR-B-0278
+
+**OK.** A poprawnie podaje sens wzmianki o elektronicznym otrzymaniu oryginału oraz wymóg zapisu nazwiska wielkimi literami. B zastępuje obie dane numerem faktury, C usuwa wymaganą wzmiankę. Wyjaśnienie opisuje przejście z EDI na papier, a nie dowolny wydruk certyfikatu. Zakres pytania jest ograniczony do przepisu IMDG przytoczonego w ADR. Inne pytania o elektroniczne dokumenty przewozowe nie sprawdzają tego wymogu. Źródło: [ADR 5.4.2, przypis 6, IMDG 5.4.2.4, s. 973 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-20.pdf#page=23). Sprostowanie nie zmienia tego przypisu.
+
+## ADR-B-0279
+
+**POPRAW.** B prawidłowo obejmuje zakazem papierosy elektroniczne i podobne urządzenia. A błędnie ogranicza zakaz do tytoniu, C uzależnia go od pracy silnika. Wyjaśnienie jest zgodne z przepisem. Sytuacja obok pojazdu jest już w ADR-B-0010. Propozycja sprawdza, czy brak nikotyny zmienia ocenę.
+
+**Propozycja.** Podczas załadunku pracownik obok pojazdu używa e-papierosa z płynem bez nikotyny. Twierdzi, że zakaz z ADR dotyczy tylko płynów z nikotyną. Jak oceniasz jego zachowanie?
+
+- A. Może używać urządzenia obok pojazdu, ponieważ płyn nie zawiera nikotyny.
+- B. Powinien przestać używać urządzenia, bo zakaz nie zależy od zawartości nikotyny.
+- C. Może używać urządzenia, jeśli ograniczy się do przerw między kolejnymi paletami.
+
+Podczas czynności ładunkowych zakaz obejmuje palenie i używanie e-papierosów oraz podobnych urządzeń w pojeździe i przy nim. Przepis nie uzależnia zakazu od nikotyny. Krótka przerwa między paletami nie kończy trwającego załadunku. Pracownik powinien przestać korzystać z urządzenia w tej strefie. Podstawa: ADR 8.3.5.
+
+Sprawdzono obraz [pkt 8.3.5, s. 1332 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-27.pdf#page=32) oraz zakres sprostowania.
+
+## ADR-B-0280
+
+**POPRAW.** A odpowiada zakazowi palenia wewnątrz pojazdu i przy nim podczas czynności ładunkowych. C błędnie wiąże zakaz z tunelem. B wprowadza niepotrzebną niejasność, czy podczas chwilowego wstrzymania czynności nadal trwa operacja. Wyjaśnienie rozstrzyga sytuację szerzej niż potrzeba. W banku ADR-B-0360 i ADR-B-0736 dotyczą palenia na zewnątrz. Warto zachować odrębne pytanie o zamkniętą kabinę.
+
+**Propozycja.** Rozładunek towarów ADR trwa. Pomocnik siedzi w zamkniętej kabinie z wyłączonym silnikiem i zapala papierosa. Czy zamknięta kabina zwalnia go z zakazu palenia?
+
+- A. Nie. Podczas rozładunku zakaz obejmuje także wnętrze zamkniętej kabiny pojazdu.
+- B. Tak. Zakaz dotyczy części ładunkowej, jeśli kabina jest od niej oddzielona.
+- C. Tak. W zamkniętej kabinie można palić podczas rozładunku przy wyłączonym silniku.
+
+Podczas rozładunku zakaz palenia obowiązuje wewnątrz pojazdu i w jego pobliżu. Kabina jest częścią pojazdu, więc zamknięcie drzwi i oddzielenie od przestrzeni ładunkowej nie tworzą wyjątku. Wyłączenie silnika też nie zmienia tej zasady. Nie wolno palić w kabinie w czasie trwającego rozładunku. Podstawa: ADR 8.3.5.
+
+Sprawdzono obraz [pkt 8.3.5, s. 1332 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-27.pdf#page=32) oraz zakres sprostowania.
+
+## ADR-B-0281
+
+**POPRAW.** C prawidłowo wymaga numeru poprzedzonego literami UN. A błędnie zastępuje oznakowanie nazwą handlową, a B numerem pojazdu. Wyjaśnienie odpowiada przepisowi. To samo wymaganie sprawdza ADR-B-0114. Nowa wersja sprawdza dopuszczalne miejsce znaku dla nieopakowanego przedmiotu.
+
+**Propozycja.** Przedmiot dopuszczony do przewozu bez opakowania znajduje się w klatce. ADR wymaga oznaczenia jego numerem UN. Znak umieszczono na klatce, gdzie jest dobrze widoczny i trwały. Czy trzeba powtórzyć go na samym przedmiocie?
+
+- A. Tak. ADR wymaga naniesienia znaku jednocześnie na przedmiot i na klatkę.
+- B. Tak. Znak na klatce jest dopuszczalny tylko jako uzupełnienie znaku na przedmiocie.
+- C. Nie. ADR dopuszcza oznakowanie klatki, w której znajduje się nieopakowany przedmiot.
+
+Przy przedmiocie przewożonym bez opakowania ADR pozwala umieścić znak na nim samym, na zawierającej go klatce albo na odpowiednim wyposażeniu do jego manipulowania, składowania lub przesuwania. Czytelny i trwały znak na klatce spełnia wymaganie dotyczące miejsca. Nie trzeba powtarzać go tylko dlatego, że nie znajduje się na przedmiocie. Podstawa: ADR 5.2.1.1 i 5.2.1.2.
+
+Sprawdzono obraz [pkt 5.2.1.1–5.2.1.2, s. 935 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-19.pdf#page=35) oraz zakres sprostowania.
+
+## ADR-B-0282
+
+**POPRAW.** B poprawnie wskazuje minimum jednej gaśnicy przenośnej 2 kg lub równoważnej. A błędnie usuwa obowiązek, a C zastępuje urządzenie pojemnikami z wodą. Wyjaśnienie oddaje ogólną regułę, lecz pomija wymagane grupy pożarów A, B i C. Minimum ilościowe sprawdzają już ADR-B-0073 i ADR-B-0421. Propozycja sprawdza, czy sam ciężar środka wystarcza.
+
+**Propozycja.** Jednostka korzysta z wyłączenia ADR 1.1.3.6. Ma jedną sprawną gaśnicę proszkową 2 kg oznaczoną tylko dla grup pożarów B i C. Czy wystarczy ona do spełnienia pkt 8.1.4.2?
+
+- A. Tak. Samo 2 kg proszku wystarcza, niezależnie od oznaczenia grup pożarów.
+- B. Nie. Wymagana gaśnica musi nadawać się także do gaszenia pożarów grupy A.
+- C. Tak. Przy tym wyłączeniu gaśnica musi obsługiwać tylko grupy pożarów B i C.
+
+Wyłączenie ilościowe nie usuwa obowiązku posiadania gaśnicy. ADR wymaga co najmniej jednej gaśnicy przenośnej odpowiedniej dla grup pożarów A, B i C. Musi mieć co najmniej 2 kg proszku albo równoważną pojemność innego odpowiedniego środka. Gaśnica oznaczona tylko B i C nie spełnia wymogu dla grupy A, choć ma odpowiednią pojemność. Podstawa: ADR 8.1.4.2.
+
+Sprawdzono obraz [pkt 8.1.4.2, s. 1325 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-27.pdf#page=25) oraz zakres sprostowania.
+
+## ADR-B-0283
+
+**POPRAW.** Z treści wynika tylko brak daty następnej kontroli. Może jednak istnieć oznaczenie maksymalnego dopuszczalnego okresu użytkowania, o którym poprawnie mówi wyjaśnienie. A jest więc zbyt kategoryczna przy tych danych. B i C błędnie zastępują wymagania plombą lub samodzielnie wpisaną datą. Brak obu oznaczeń sprawdza ADR-B-0176, a dopuszczalne oznaczenie okresu użytkowania ADR-B-0759. Propozycja dotyczy odrębnego znaku zgodności.
+
+**Propozycja.** Wymagana gaśnica ADR ma nienaruszoną plombę i ważną datę następnej kontroli. Brakuje znaku zgodności z normą uznaną przez właściwą władzę. Czy można uznać ją za prawidłowo oznakowaną?
+
+- A. Nie. Oprócz terminu kontroli ADR wymaga znaku zgodności z uznaną normą.
+- B. Tak. Aktualna data następnej kontroli zastępuje znak zgodności gaśnicy.
+- C. Tak. Znak zgodności jest wymagany tylko wtedy, gdy gaśnica nie ma plomby.
+
+Plomba, oznaczenie terminu i znak zgodności służą do różnych celów. Plomba wskazuje, że gaśnica nie była używana, termin informuje o kontroli lub dopuszczalnym okresie użytkowania, a znak potwierdza zgodność z uznaną normą. Ważna data i cała plomba nie zastępują brakującego znaku. Podstawa: ADR 8.1.4.4.
+
+Sprawdzono obraz [pkt 8.1.4.4, s. 1325 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-27.pdf#page=25) i zakres sprostowania.
+
+## ADR-B-0284
+
+**POPRAW.** A poprawnie identyfikuje wzór 2.2. B przypisuje mu zagrożenie 2.1, a C klasę 8. Wyjaśnienie słusznie odróżnia symbol i barwy, ale określenie „inny kształt” jest błędne: oba wzory mają kształt rombu. Pytanie powtarza identyfikację wzoru 2.2 z ADR-B-0541. Propozycja sprawdza ryzyko duszenia pomimo braku klasyfikacji jako gaz trujący.
+
+**Propozycja.** Z butli oznaczonej nalepką 2.2 uchodzi gaz w słabo wentylowanym pomieszczeniu. Kolega uważa, że gaz niepalny i nietrujący nie stanowi zagrożenia dla oddychania. Co należy uwzględnić?
+
+- A. Ryzyko duszenia, choć gaz nie jest sklasyfikowany jako gaz trujący ani palny.
+- B. Działanie duszące tylko wtedy, gdy obok nalepki 2.2 znajduje się też nalepka 2.3.
+- C. Ryzyko dla oddychania można pominąć, jeśli nie ma palnych oparów ani płomienia.
+
+Instrukcje pisemne wskazują zagrożenie działaniem duszącym także przy gazach oznaczonych wzorem 2.2. „Nietrujący” nie oznacza, że uwolniony gaz jest bezpieczny do oddychania, szczególnie w słabo wentylowanym miejscu, w którym może się gromadzić. Brak płomienia lub nalepki 2.3 nie usuwa tego ryzyka. Podstawa: ADR 5.4.3.4.
+
+Sprawdzono [wzór 2.2, s. 945](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-19.pdf#page=45), [instrukcje pisemne, s. 976 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-20.pdf#page=26) oraz zakres sprostowania.
+
+## ADR-B-0285
+
+**OK.** B poprawnie wymaga uzupełnienia informacji i zapewnienia dostępu do wymaganej dokumentacji przed rozpoczęciem przewozu. A podaje dane, które nie identyfikują ładunku, a C zastępuje dane UN identyfikacją firmy i pojazdu. Wyjaśnienie mówi wprost, co zrobić przy braku danych od nadawcy. ADR-B-0055 i ADR-B-0117 sprawdzają obowiązek nadawcy, podczas gdy to pytanie dotyczy decyzji przewoźnika. Sprawdzono obraz [pkt 1.4.2.2.1(b) i 1.4.2.2.3, s. 56 Dz.U.](https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-02.pdf#page=6) i zakres sprostowania.
