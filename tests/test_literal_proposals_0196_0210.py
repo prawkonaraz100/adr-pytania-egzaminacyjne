@@ -1,4 +1,4 @@
-"""Verify batch 14 first-review proposals only on a complete copy of the ADR bank."""
+"""Verify batch 14 second-review corrections on the complete ADR bank."""
 import copy
 import json
 import re
@@ -8,7 +8,7 @@ from scripts.check_near_duplicates import find_candidates
 
 ROOT=Path(__file__).resolve().parents[1]
 BANK=ROOT/"podstawowy/questions.jsonl"
-PROPOSALS=ROOT/"review/literal-pl/POPRAWKI-0196-0210.jsonl"
+PROPOSALS=ROOT/"review/literal-pl/POPRAWKI-KONTROLA2-0196-0210.jsonl"
 REPORT=ROOT/"review/literal-pl/PARTIA-0196-0210.json"
 EXPECTED={f"ADR-B-{n:04d}" for n in range(196,211)}
 
@@ -57,7 +57,7 @@ class Batch14FirstReview(unittest.TestCase):
         o=json.loads(REPORT.read_text(encoding="utf-8"))
         self.assertEqual(o["previous_uncompared"],558)
         self.assertEqual(o["remaining_without_comparison"],543)
-        self.assertEqual(o["counts"],{"OK":0,"POPRAW":15,"BLOKUJ":0})
+        self.assertEqual(o["counts"],{"OK":1,"POPRAW":14,"BLOKUJ":0})
         self.assertEqual(len(o["records"]),15)
         self.assertEqual({q["id"] for q in o["records"]},EXPECTED)
         self.assertTrue(all(q["quote"] and q["clause"] and q["page"] for q in o["records"]))
