@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewóz drogowy towarów niebezpiecznych stanowi część łańcucha z transportem morskim, a przewóz realizuje się na warunkach ADR 1.1.4.2.1. Jaki dodatkowy zapis powinien znaleźć się w dokumencie przewozowym?",
+        "stem": "Kontener jedzie drogą do portu na warunkach ADR 1.1.4.2.1. Jeden dokument pełni funkcję dokumentu przewozowego i certyfikatu pakowania. Zawiera oświadczenie o prawidłowym załadunku i dane osoby odpowiedzialnej, ale brak w nim adnotacji o 1.1.4.2.1. Co zrobić?",
         "options": {
-          "A": "Wpisanie numeru telefonu odbiorcy",
-          "B": "Wskazanie, że przewóz odbywa się zgodnie z 1.1.4.2.1",
-          "C": "Adnotacja, że drogowy odcinek korzysta ze zwolnienia i nie wymaga dalszego sprawdzania warunków ADR"
+          "A": "Zostawić dokument bez zmian, bo oświadczenie o pakowaniu zastępuje adnotację.",
+          "B": "Dopisać w dokumencie przewozowym „PRZEWÓZ ZGODNY Z 1.1.4.2.1” przed wyjazdem.",
+          "C": "Rozdzielić dokumenty, bo adnotacji nie wolno zamieszczać w dokumencie wspólnym."
         },
         "correct_option": "B",
-        "explanation": "Jeżeli przewóz drogowy jest częścią łańcucha morsko-drogowego i korzysta z zasad ADR 1.1.4.2.1, trzeba to odpowiednio zaznaczyć w dokumencie. Sam numer telefonu odbiorcy nie informuje, z jakiej podstawy korzysta przewóz. Takie wskazanie nie jest też ogólnym zwolnieniem z dalszych obowiązków ADR na drodze. Podstawa: ADR 5.4.1.1.7.",
+        "explanation": "Jeden dokument może pełnić obie funkcje, ale nadal musi zawierać dane wymagane od dokumentu przewozowego. Oświadczenie o pakowaniu potwierdza załadunek, a wpis o 1.1.4.2.1 wskazuje podstawę przewozu w tym łańcuchu. Uzupełnij wspólny dokument o wymagany wpis. Rozdzielanie dokumentów nie jest konieczne. Podstawa: ADR 5.4.1.1.7 i 5.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.7",
+            "reference": "ADR 2025, 5.4.1.1.7; 5.4.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -42,7 +42,7 @@
       "supplementary_source_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Official Polish full text and corrigendum review pending.",
+      "source_risk_note": "Kontrola urzędowego ADR 2025 i sprostowania, s. 965 i 973 Dz.U. Pytanie oczekuje na specjalistę.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"

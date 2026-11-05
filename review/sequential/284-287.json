@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na nalepce widoczny jest symbol butli gazowej na zielonym tle i numer 2 u dołu. Jaką grupę zagrożeń oznacza ten wzór?",
+        "stem": "Z butli oznaczonej nalepką 2.2 uchodzi gaz w słabo wentylowanym pomieszczeniu. Kolega uważa, że gaz niepalny i nietrujący nie stanowi zagrożenia dla oddychania. Co należy uwzględnić?",
         "options": {
-          "A": "Gazy niepalne i nietrujące (wzór 2.2)",
-          "B": "Gazy palne (wzór 2.1), oznaczane czerwonym tłem zamiast zielonego",
-          "C": "Materiały żrące (klasa 8)"
+          "A": "Ryzyko duszenia, choć gaz nie jest sklasyfikowany jako gaz trujący ani palny.",
+          "B": "Działanie duszące tylko wtedy, gdy obok nalepki 2.2 znajduje się też nalepka 2.3.",
+          "C": "Ryzyko dla oddychania można pominąć, jeśli nie ma palnych oparów ani płomienia."
         },
         "correct_option": "A",
-        "explanation": "Zielone tło i symbol butli z numerem 2 oznaczają nalepkę 2.2: gazy niepalne i nietrujące. Gazy palne klasy 2.1 mają czerwone tło, a materiały żrące klasy 8 inny symbol i kształt oznaczenia. Sam obraz butli nie wystarczy — trzeba odczytać także kolor i numer. Podstawa: ADR 5.2.2.2.2. Taki odczyt zmniejsza ryzyko pomylenia środków ostrożności dla różnych gazów.",
+        "explanation": "Instrukcje pisemne wskazują zagrożenie działaniem duszącym także przy gazach oznaczonych wzorem 2.2. „Nietrujący” nie oznacza, że uwolniony gaz jest bezpieczny do oddychania, szczególnie w słabo wentylowanym miejscu, w którym może się gromadzić. Brak płomienia lub nalepki 2.3 nie usuwa tego ryzyka. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.2.2",
+            "reference": "ADR 2025, 5.4.3.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -42,7 +42,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Full Polish-law comparison and independent expert signoff not performed",
+      "source_risk_note": "Kontrola urzędowego ADR 2025 i sprostowania, s. 945 i 976 Dz.U. Pytanie oczekuje na specjalistę.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
