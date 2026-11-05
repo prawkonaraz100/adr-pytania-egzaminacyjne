@@ -20,14 +20,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Drogowy przewóz ADR korzysta z wyłączenia 1.1.3.6, a jednostka transportowa nie ma żadnej gaśnicy. Jakie jest minimalne wyposażenie według ADR 8.1.4.2?",
+        "stem": "Jednostka korzysta z wyłączenia ADR 1.1.3.6. Ma jedną sprawną gaśnicę proszkową 2 kg oznaczoną tylko dla grup pożarów B i C. Czy wystarczy ona do spełnienia pkt 8.1.4.2?",
         "options": {
-          "A": "Bez gaśnicy przy wyłączeniu 1.1.3.6",
-          "B": "Jedna przenośna gaśnica 2 kg proszku lub równoważna",
-          "C": "Zestaw pojemników z wodą oraz materiałów do tłumienia ognia zastępujący gaśnicę"
+          "A": "Tak. Samo 2 kg proszku wystarcza, niezależnie od oznaczenia grup pożarów.",
+          "B": "Nie. Wymagana gaśnica musi nadawać się także do gaszenia pożarów grupy A.",
+          "C": "Tak. Przy tym wyłączeniu gaśnica musi obsługiwać tylko grupy pożarów B i C."
         },
         "correct_option": "B",
-        "explanation": "Przewóz w niewielkich ilościach na zasadach ADR 1.1.3.6 nadal wymaga co najmniej jednej przenośnej gaśnicy o skuteczności odpowiadającej 2 kg proszku. Brak gaśnicy jest więc nieprawidłowy, mimo zastosowanego wyłączenia. Woda w pojemnikach nie zastępuje wymaganej gaśnicy i może być niewłaściwa dla części niebezpiecznych towarów. Sprawdź wyposażenie przed wyjazdem. Podstawa: ADR 8.1.4.2.",
+        "explanation": "Wyłączenie ilościowe nie usuwa obowiązku posiadania gaśnicy. ADR wymaga co najmniej jednej gaśnicy przenośnej odpowiedniej dla grup pożarów A, B i C. Musi mieć co najmniej 2 kg proszku albo równoważną pojemność innego odpowiedniego środka. Gaśnica oznaczona tylko B i C nie spełnia wymogu dla grupy A, choć ma odpowiednią pojemność. Podstawa: ADR 8.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -42,7 +42,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Full Polish official and corrigendum review remains pending.",
+      "source_risk_note": "Kontrola urzędowego ADR 2025 i sprostowania, s. 1325 Dz.U. Pytanie oczekuje na specjalistę.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
@@ -61,14 +61,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Wymagana gaśnica w pojeździe ADR ma brakujące oznaczenie następnego terminu kontroli. Co należy zrobić?",
+        "stem": "Wymagana gaśnica ADR ma nienaruszoną plombę i ważną datę następnej kontroli. Brakuje znaku zgodności z normą uznaną przez właściwą władzę. Czy można uznać ją za prawidłowo oznakowaną?",
         "options": {
-          "A": "Zapewnić gaśnicę spełniającą obowiązek kontroli i oznakowania terminu kolejnego badania",
-          "B": "Uznać gaśnicę za gotową, jeżeli działa i plomba jest cała, mimo że brakuje oznaczenia terminu kontroli",
-          "C": "Samodzielnie dopisać termin z poprzedniej naklejki, bez sprawdzenia historii kontroli urządzenia"
+          "A": "Nie. Oprócz terminu kontroli ADR wymaga znaku zgodności z uznaną normą.",
+          "B": "Tak. Aktualna data następnej kontroli zastępuje znak zgodności gaśnicy.",
+          "C": "Tak. Znak zgodności jest wymagany tylko wtedy, gdy gaśnica nie ma plomby."
         },
         "correct_option": "A",
-        "explanation": "Wymagana gaśnica powinna mieć aktualne przeglądy i właściwe oznaczenie terminu następnej kontroli lub maksymalnego okresu użytkowania. Cała plomba nie potwierdza, że urządzenie przeszło badanie. Nie wolno też samemu przepisywać daty ze starej naklejki, bo nie zastąpi to kontroli. Przed wyjazdem zapewnij gaśnicę z prawidłowym oznakowaniem. Podstawa: ADR 8.1.4.4.",
+        "explanation": "Plomba, oznaczenie terminu i znak zgodności służą do różnych celów. Plomba wskazuje, że gaśnica nie była używana, termin informuje o kontroli lub dopuszczalnym okresie użytkowania, a znak potwierdza zgodność z uznaną normą. Ważna data i cała plomba nie zastępują brakującego znaku. Podstawa: ADR 8.1.4.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -83,7 +83,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Full Polish official and corrigendum review remains pending. Etap 4x116: snapshot zsynchronizowany po redakcji; recenzja prawna nadal oczekuje.",
+      "source_risk_note": "Kontrola urzędowego ADR 2025 i sprostowania, s. 1325 Dz.U. Pytanie oczekuje na specjalistę.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"

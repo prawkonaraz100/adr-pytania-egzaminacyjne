@@ -6,24 +6,24 @@
     {
       "id": "ADR-B-0284",
       "order": 284,
-      "clause": "ADR 2025, 5.2.2.2.2",
-      "source_2025_comparison_url": "https://unece.org/adr-2025-files",
+      "clause": "ADR 2025, 5.4.3.4",
+      "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text/I/D20250642-20.pdf#page=26",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Odniesienie do ADR 2025, 5.2.2.2.2: Nalepka 2.2 przedstawia butlę gazową na zielonym tle i dotyczy gazów niepalnych i nietrujących."
+          "rationale": "Instrukcje pisemne wskazują ryzyko duszenia przy wzorze 2.2."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Odpowiedź „Gazy palne (wzór 2.1), oznaczane czerwonym tłem zamiast zielonego, oznaczane czerwonym tłem zamiast zielonego” nie odpowiada podanej regule ADR 2025, 5.2.2.2.2; wymagana polska kontrola źródłowa."
+          "rationale": "Ryzyko duszenia nie wymaga nalepki 2.3."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Odpowiedź „Materiały żrące (klasa 8)” nie odpowiada podanej regule ADR 2025, 5.2.2.2.2; wymagana polska kontrola źródłowa."
+          "rationale": "Brak płomienia ani palnych par nie wyklucza ryzyka duszenia."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Weryfikacja dotyczy scenariusza, oficjalne polskie brzmienie i zakres wyjątków wymagają niezależnego potwierdzenia.",
+      "notes_on_conditions": "Kontrola urzędowego ADR 2025 i sprostowania, s. 945 i 976 Dz.U. Pytanie oczekuje na specjalistę.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -31,18 +31,18 @@
       "question_snapshot": {
         "id": "ADR-B-0284",
         "module_id": "ADR-B-02",
-        "stem": "Na nalepce widoczny jest symbol butli gazowej na zielonym tle i numer 2 u dołu. Jaką grupę zagrożeń oznacza ten wzór?",
+        "stem": "Z butli oznaczonej nalepką 2.2 uchodzi gaz w słabo wentylowanym pomieszczeniu. Kolega uważa, że gaz niepalny i nietrujący nie stanowi zagrożenia dla oddychania. Co należy uwzględnić?",
         "options": {
-          "A": "Gazy niepalne i nietrujące (wzór 2.2)",
-          "B": "Gazy palne (wzór 2.1), oznaczane czerwonym tłem zamiast zielonego",
-          "C": "Materiały żrące (klasa 8)"
+          "A": "Ryzyko duszenia, choć gaz nie jest sklasyfikowany jako gaz trujący ani palny.",
+          "B": "Działanie duszące tylko wtedy, gdy obok nalepki 2.2 znajduje się też nalepka 2.3.",
+          "C": "Ryzyko dla oddychania można pominąć, jeśli nie ma palnych oparów ani płomienia."
         },
         "correct_option": "A",
-        "explanation": "Zielone tło i symbol butli z numerem 2 oznaczają nalepkę 2.2: gazy niepalne i nietrujące. Gazy palne klasy 2.1 mają czerwone tło, a materiały żrące klasy 8 inny symbol i kształt oznaczenia. Sam obraz butli nie wystarczy — trzeba odczytać także kolor i numer. Podstawa: ADR 5.2.2.2.2. Taki odczyt zmniejsza ryzyko pomylenia środków ostrożności dla różnych gazów.",
+        "explanation": "Instrukcje pisemne wskazują zagrożenie działaniem duszącym także przy gazach oznaczonych wzorem 2.2. „Nietrujący” nie oznacza, że uwolniony gaz jest bezpieczny do oddychania, szczególnie w słabo wentylowanym miejscu, w którym może się gromadzić. Brak płomienia lub nalepki 2.3 nie usuwa tego ryzyka. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.2.2",
+            "reference": "ADR 2025, 5.4.3.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
