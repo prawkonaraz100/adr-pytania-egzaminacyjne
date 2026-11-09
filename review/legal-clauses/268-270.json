@@ -13,19 +13,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Klasa 4.1 obejmuje m.in. materiały samoreaktywne ciekłe i materiały stałe zapalne."
+          "rationale": "Odpowiedź zgodna z ADR: Nalepka 4.1 oznacza klasę, w której jest kilka grup materiałów. Należą do niej między innymi materia"
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Sama nalepka 4.1 nie przesądza o stałym stanie skupienia."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 2.2.41.1.1; 5.2.2.2.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ciekły materiał samoreaktywny może należeć do klasy 4.1."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 2.2.41.1.1; 5.2.2.2.2."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Kontrola 2: zakres klasy 4.1, s. 171 Dz.U.; wzór nalepki 4.1, s. 946 Dz.U. Z nowej treści wycofano schemat o niezgodnej liczbie pasów.",
+      "notes_on_conditions": "Porównanie treści pytania z ADR 2025; status needs_review, wymagana niezależna akceptacja specjalisty.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -35,12 +35,12 @@
         "module_id": "ADR-B-02",
         "stem": "Na dwóch przesyłkach jest nalepka wzoru 4.1. W dokumentach pierwszą opisano jako materiał stały zapalny, a drugą jako ciekły materiał samoreaktywny. Czy oba opisy mogą odpowiadać tej samej klasie?",
         "options": {
-          "A": "Tak. Klasa 4.1 obejmuje zarówno materiały stałe zapalne, jak i ciecze samoreaktywne.",
-          "B": "Nie. Klasa 4.1 obejmuje tylko materiały stałe, więc opis drugiej przesyłki jest błędny.",
-          "C": "Nie. Jeśli materiał jest cieczą samoreaktywną, należy go traktować jak towar klasy 3."
+          "A": "Tak. Do klasy 4.1 należą stałe materiały zapalne i ciekłe samoreaktywne",
+          "B": "Nie. Klasa 4.1 obejmuje jedynie materiały stałe, więc drugi opis jest błędny",
+          "C": "Nie. Ciecz samoreaktywną zalicza się do klasy 3, a nie do klasy 4.1"
         },
         "correct_option": "A",
-        "explanation": "Nalepka 4.1 wskazuje klasę zagrożenia, która obejmuje kilka grup materiałów. Są w niej między innymi materiały stałe zapalne oraz materiały samoreaktywne, zarówno stałe, jak i ciekłe. Sama nalepka nie mówi, do której z tych grup należy towar. Ciekły stan skupienia również nie przesądza o zaliczeniu do klasy 3. Podstawa: ADR 2.2.41.1.1.",
+        "explanation": "Nalepka 4.1 oznacza klasę, w której jest kilka grup materiałów. Należą do niej między innymi materiały stałe zapalne oraz materiały samoreaktywne, i to zarówno stałe, jak i ciekłe. Dlatego dwa różne opisy w dokumentach mogą pasować do tej samej nalepki. Sam ciekły stan skupienia nie oznacza, że towar należy do klasy 3. Podstawa: ADR 2.2.41.1.1 i 5.2.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -60,19 +60,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wzór 4.3 dopuszcza biały płomień, więc nie trzeba go zastępować czarnym."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.2.2.2.2."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Oba pokazane w ADR warianty wzoru 4.3 różnią się m.in. kolorem płomienia."
+          "rationale": "Odpowiedź zgodna z ADR: Wzór nalepki 4.3 ma niebieskie tło, a płomień i cyfrę 4 w dolnym rogu w kolorze czarnym lub białym. "
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Na obu wariantach wzoru 4.3 obowiązuje niebieskie tło."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.2.2.2.2."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Kontrola 2: wzór 4.3 na s. 946 Dz.U. dopuszcza płomień czarny lub biały, cyfrę 4 czarną lub białą i niebieskie tło.",
+      "notes_on_conditions": "Porównanie treści pytania z ADR 2025; status needs_review, wymagana niezależna akceptacja specjalisty.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -82,12 +82,12 @@
         "module_id": "ADR-B-02",
         "stem": "Na niebieskiej nalepce wzoru 4.3 widzisz biały płomień i białą cyfrę 4. Kolega zna tylko wersję z czarnym płomieniem. Czy biały płomień oznacza błąd w oznakowaniu?",
         "options": {
-          "A": "Tak. Nalepka wzoru 4.3 może mieć niebieskie tło, ale wymaga czarnego płomienia.",
-          "B": "Nie. Na niebieskim tle wzoru 4.3 płomień może być czarny albo biały.",
-          "C": "Tak. Biały płomień można stosować dla wzoru 4.3 tylko na czerwonym tle."
+          "A": "Tak. Wzór 4.3 przewiduje na niebieskim tle jedynie czarny płomień i cyfrę 4",
+          "B": "Nie. Na niebieskim tle wzoru 4.3 płomień i cyfra 4 mogą być czarne lub białe",
+          "C": "Tak. Biały płomień na niebieskim tle oznacza inną klasę niż materiały klasy 4.3"
         },
         "correct_option": "B",
-        "explanation": "Wzór 4.3 ma niebieskie tło, a symbol płomienia i cyfra 4 mogą być czarne lub białe. Pokazana wersja z białym płomieniem i białą cyfrą jest więc dopuszczalna pod względem koloru. Zmiana koloru symbolu nie zmienia rodzaju zagrożenia. Nalepka w obu wariantach ostrzega przed wydzielaniem palnych gazów w kontakcie z wodą. Podstawa: ADR 5.2.2.2.2.",
+        "explanation": "Wzór nalepki 4.3 ma niebieskie tło, a płomień i cyfrę 4 w dolnym rogu w kolorze czarnym lub białym. Pokazana wersja z białym płomieniem i białą cyfrą jest więc prawidłowa. Kolor symbolu nie zmienia klasy ani rodzaju zagrożenia. W obu wersjach nalepka ostrzega, że materiał w kontakcie z wodą wydziela gazy palne. Podstawa: ADR 5.2.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -107,19 +107,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Czerwono-żółte tło z płomieniem bez koła odpowiada wzorowi 5.2, a nie wymaganemu 5.1."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.2.2.2.2."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Sama zmiana cyfr nie koryguje tła ani symbolu nalepki."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.2.2.2.2."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Wzór 5.1 ma żółte tło, czarny płomień nad kołem i czarne cyfry 5.1."
+          "rationale": "Odpowiedź zgodna z ADR: Czerwono-żółte tło z płomieniem bez koła należy do wzoru 5.2 dla nadtlenków organicznych. Wymagana w"
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Kontrola 2: porównano urzędowe wzory 5.1 i 5.2 na s. 946–947 Dz.U. Dotychczasowy schemat z cyframi ujawniającymi odpowiedź odłączono od pytania.",
+      "notes_on_conditions": "Porównanie treści pytania z ADR 2025; status needs_review, wymagana niezależna akceptacja specjalisty.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
