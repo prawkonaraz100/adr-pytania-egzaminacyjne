@@ -9,19 +9,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędna interpretacja warunku prawnego w treści pytania ADR 2025."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.3.2.2.2; 5.3.2.2.1."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Odpowiedź potwierdzona przepisem ADR 2025 opisanym w źródle."
+          "rationale": "Odpowiedź zgodna z ADR: Na tablicy barwy pomarańczowej numer rozpoznawczy zagrożenia i numer UN nanosi się czarnymi cyframi "
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędna interpretacja warunku prawnego w treści pytania ADR 2025."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.3.2.2.2; 5.3.2.2.1."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Nowa treść odpowiada warunkom ADR 2025, wymaga nadal zatwierdzenia specjalisty.",
+      "notes_on_conditions": "Porównanie treści pytania z ADR 2025; status needs_review, wymagana niezależna akceptacja specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -55,19 +55,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Oba kody dotyczą działania żrącego. X80 dodatkowo wskazuje niebezpieczną reakcję z wodą."
+          "rationale": "Odpowiedź zgodna z ADR: Kody 80 i X80 oznaczają materiał żrący lub słabo żrący. Litera X dodaje ostrzeżenie, że materiał rea"
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Kod 80 nie zawiera ostrzeżenia przed wodą. X80 nie oznacza nasilenia działania żrącego."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.3.2.3.1; 5.3.2.3.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ostrzeżenie przed niebezpieczną reakcją z wodą należy do X80. Odpowiedź odwraca znaczenia kodów."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.3.2.3.1; 5.3.2.3.2."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Kontrola 2 objęła pkt 5.3.2.3.1 i 5.3.2.3.2 na s. 956 i 959 urzędowego PDF-u. Sprostowanie nie zmienia tych pozycji. Wodę można zastosować tylko za zgodą specjalistów.",
+      "notes_on_conditions": "Porównanie treści pytania z ADR 2025; status needs_review, wymagana niezależna akceptacja specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -76,12 +76,12 @@
         "module_id": "ADR-B-06",
         "stem": "Na jednej pomarańczowej tablicy widnieje kod 80, a na drugiej X80, jak na rysunku. Co mają wspólnego te kody i co je odróżnia?",
         "options": {
-          "A": "Oba wskazują działanie żrące. X80 dodaje ostrzeżenie przed reakcją z wodą.",
-          "B": "Oba ostrzegają przed wodą. X80 wskazuje na silniejsze działanie żrące.",
-          "C": "Kod 80 ostrzega przed reakcją z wodą. X80 wskazuje jedynie działanie żrące materiału."
+          "A": "Oba wskazują działanie żrące, a X80 ostrzega też przed reakcją z wodą",
+          "B": "Oba ostrzegają przed wodą, a X80 oznacza silniejsze działanie żrące",
+          "C": "Kod 80 ostrzega przed reakcją z wodą, a X80 oznacza słabsze działanie żrące"
         },
         "correct_option": "A",
-        "explanation": "Kody 80 i X80 oznaczają materiał żrący lub słabo żrący. Litera X ostrzega dodatkowo, że materiał niebezpiecznie reaguje z wodą. W takim przypadku wodę wolno zastosować tylko za zgodą specjalistów. Sam kod 80 nie przekazuje tego ostrzeżenia, a litera X nie oznacza silniejszego działania żrącego. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
+        "explanation": "Kody 80 i X80 oznaczają materiał żrący lub słabo żrący. Litera X dodaje ostrzeżenie, że materiał reaguje niebezpiecznie z wodą, dlatego wodę wolno zastosować tylko za zgodą specjalistów. Sam kod 80 takiego ostrzeżenia nie zawiera. Litera X nie zmienia też siły działania żrącego, ani na silniejsze, ani na słabsze. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -101,19 +101,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Znak musi pozostać na swoim miejscu także wtedy, gdy zmieni się pozycja pojazdu."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.3.2.2.2."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wymóg dotyczy zarówno numeru UN, jak i numeru rozpoznawczego zagrożenia."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.3.2.2.2."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Zabezpieczenie zapobiega wysunięciu cyfry niezależnie od pozycji pojazdu."
+          "rationale": "Odpowiedź zgodna z ADR: Tablica może mieć wymienne cyfry, ale podczas przewozu muszą one zostać na swoich miejscach bez wzgl"
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Porównano pkt 5.3.2.2.2 z obrazem s. 955 urzędowego PDF-u. Sprostowanie poz. 1575 nie zmienia tego wymagania.",
+      "notes_on_conditions": "Porównanie treści pytania z ADR 2025; status needs_review, wymagana niezależna akceptacja specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -122,12 +122,12 @@
         "module_id": "ADR-B-06",
         "stem": "Podczas kontroli przed wyjazdem jedna z wymiennych cyfr na pomarańczowej tablicy wysuwa się, gdy tablicę przechylisz. Co powinien zrobić kierowca?",
         "options": {
-          "A": "Wsunąć cyfrę ponownie i ruszyć, jeśli przy pionowej tablicy zostaje w prowadnicy.",
-          "B": "Zabezpieczyć tylko cyfry numeru UN, a luźne cyfry numeru zagrożenia zostawić.",
-          "C": "Zabezpieczyć cyfrę przed wysunięciem się przy zmianie położenia pojazdu."
+          "A": "Wsunąć cyfrę i ruszyć, jeśli w pionowej tablicy trzyma się w prowadnicy",
+          "B": "Zabezpieczyć cyfry numeru UN, a cyfry numeru zagrożenia mogą być luźne",
+          "C": "Zabezpieczyć cyfrę, aby nie wysunęła się przy zmianie położenia pojazdu"
         },
         "correct_option": "C",
-        "explanation": "Wymienne cyfry i litery muszą pozostać na swoich miejscach podczas przewozu, niezależnie od położenia pojazdu. Jeśli cyfra wysuwa się po przechyleniu tablicy, trzeba ją zabezpieczyć przed wyjazdem. Samo wsunięcie cyfry do prowadnicy nie wystarczy. Ta sama zasada dotyczy cyfr numeru UN i znaków numeru zagrożenia. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Tablica może mieć wymienne cyfry, ale podczas przewozu muszą one zostać na swoich miejscach bez względu na to, w jakiej pozycji znajdzie się pojazd. Jeśli cyfra wysuwa się po przechyleniu tablicy, mogłaby wypaść na zakręcie albo po przewróceniu pojazdu. Trzeba ją więc zabezpieczyć przed wyjazdem. Ta zasada dotyczy zarówno numeru UN, jak i numeru rozpoznawczego zagrożenia. Podstawa: ADR 5.3.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -147,19 +147,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Brak miejsca z przodu nie uzasadnia zastąpienia tablicy standardowej z tyłu mniejszą."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.3.2.2.1."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "ADR dopuszcza zestaw tablic o różnych wymiarach, jeżeli ograniczenie miejsca uzasadnia mniejszy format."
+          "rationale": "Odpowiedź zgodna z ADR: Standardowa tablica barwy pomarańczowej ma 40 cm szerokości i 30 cm wysokości. Jeżeli konstrukcja po"
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wielkość lub konstrukcja pojazdu może uzasadniać tablicę zmniejszoną. Obie tablice nie muszą być standardowe."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 5.3.2.2.1."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Kontrola 2: sprawdzono pkt 5.3.2.2.1 na obrazie s. 955 Dz.U. 2025 poz. 642. Sprostowanie poz. 1575 nie zmienia wyjątku dotyczącego różnej wielkości tablic. Zatwierdzenie specjalisty pozostaje wymagane.",
+      "notes_on_conditions": "Porównanie treści pytania z ADR 2025; status needs_review, wymagana niezależna akceptacja specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -168,12 +168,12 @@
         "module_id": "ADR-B-06",
         "stem": "Z przodu jednostki transportowej konstrukcja pojazdu nie pozwala zamocować standardowej tablicy pomarańczowej. Z tyłu jest na nią miejsce. Jak dobrać tablice zgodnie z ADR?",
         "options": {
-          "A": "Założyć z przodu i z tyłu tablice zmniejszone, aby oba oznaczenia miały jednakowy format.",
-          "B": "Z przodu założyć dopuszczoną tablicę zmniejszoną, a z tyłu pozostawić tablicę standardową.",
-          "C": "Założyć z przodu i z tyłu tablice standardowe, nawet gdy z przodu brakuje powierzchni."
+          "A": "Z przodu i z tyłu założyć tablice zmniejszone, aby miały jednakowy format",
+          "B": "Z przodu założyć tablicę zmniejszoną, a z tyłu zostawić tablicę standardową",
+          "C": "Z przodu i z tyłu założyć tablice standardowe, nawet gdy z przodu brak miejsca"
         },
         "correct_option": "B",
-        "explanation": "Brak miejsca wynikający z konstrukcji pojazdu pozwala użyć z przodu mniejszej tablicy, o ile spełnia ona wymagania dla tego formatu. Z tyłu można zachować standardową tablicę. ADR dopuszcza taki zestaw dwóch rozmiarów. Nie trzeba montować obu tablic w standardowym formacie ani zmniejszać tylnej tylko dla zachowania symetrii. Podstawa: ADR 5.3.2.2.1.",
+        "explanation": "Standardowa tablica barwy pomarańczowej ma 40 cm szerokości i 30 cm wysokości. Jeżeli konstrukcja pojazdu nie daje na nią miejsca, można ją zmniejszyć, ale nie bardziej niż do 300 mm szerokości i 120 mm wysokości. ADR wprost dopuszcza na jednej jednostce transportowej zestaw tablic o różnych wymiarach. Tylna tablica może więc zostać standardowa i nie trzeba jej zmniejszać dla symetrii. Podstawa: ADR 5.3.2.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
