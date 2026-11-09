@@ -1,0 +1,143 @@
+{
+  "release_approved": false,
+  "records": [
+    {
+      "id": "ADR-B-0328",
+      "order": 328,
+      "clause": "ADR 2025, 2.1.3.5.5",
+      "source_2025_comparison_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": true,
+          "rationale": "Gdy skład odpadu nie jest dokładnie znany, w razie wątpliwości przyjmuje się najwyższy poziom zagrożenia. Jeżeli jednak nadawca, znając składniki i ich właściwości, wykaże, że odpad nie spełnia kryteriów I grupy pakowania, może go zaliczyć domyślnie do II grupy. Wybiera wtedy najodpowiedniejszą pozycję I.N.O., czyli pozycję zbiorczą. Samo wykluczenie grupy I nie pozwala przejść od razu do grupy III. Podstawa: ADR 2.1.3.5.5."
+        },
+        "B": {
+          "expected_correct": false,
+          "rationale": "Opcja B nie odpowiada zasadzie wskazanej w ADR 2025, 2.1.3.5.5."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opcja C nie odpowiada zasadzie wskazanej w ADR 2025, 2.1.3.5.5."
+        }
+      },
+      "observed_answer_key": "A",
+      "notes_on_conditions": "2.1.3.5.5, s. 123",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0328",
+        "module_id": "ADR-B-03",
+        "stem": "Nadawca nie zna dokładnego składu odpadu. Na podstawie znanych składników może jednak wykazać, że odpad nie spełnia kryteriów I grupy pakowania. Co dopuszcza wtedy 2.1.3.5.5?",
+        "options": {
+          "A": "Zaliczenie domyślnie do II grupy pakowania, do pozycji I.N.O.",
+          "B": "Zaliczenie odpadu do III grupy pakowania, bo wykluczono już I grupę",
+          "C": "Przewóz bez numeru UN, bo nie jest znany skład odpadu"
+        },
+        "correct_option": "A",
+        "explanation": "Gdy skład odpadu nie jest dokładnie znany, w razie wątpliwości przyjmuje się najwyższy poziom zagrożenia. Jeżeli jednak nadawca, znając składniki i ich właściwości, wykaże, że odpad nie spełnia kryteriów I grupy pakowania, może go zaliczyć domyślnie do II grupy. Wybiera wtedy najodpowiedniejszą pozycję I.N.O., czyli pozycję zbiorczą. Samo wykluczenie grupy I nie pozwala przejść od razu do grupy III. Podstawa: ADR 2.1.3.5.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.3.5.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0329",
+      "order": 329,
+      "clause": "ADR 2025, 2.1.3.5.5",
+      "source_2025_comparison_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Opcja A nie odpowiada zasadzie wskazanej w ADR 2025, 2.1.3.5.5."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "W wielu klasach ADR punkt 2.2.x.2 wymienia materiały, które nie są dopuszczone do przewozu. Uproszczona metoda klasyfikacji odpadów z 2.1.3.5.5 nie może być stosowana do odpadów zawierających takie materiały. Zakład nie może więc obejść zakazu, wybierając numer UN innego składnika. Dobre opakowanie z oznakowaniem UN także nie zmienia tego, że przewóz jest zakazany. Podstawa: ADR 2.1.3.5.5."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opcja C nie odpowiada zasadzie wskazanej w ADR 2025, 2.1.3.5.5."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "2.1.3.5.5, s. 123",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0329",
+        "module_id": "ADR-B-03",
+        "stem": "Zakład chce oddać do przewozu odpad, którego dokładnego składu nie zna. Wiadomo jednak, że jest w nim materiał niedopuszczony do przewozu według punktu 2.2.x.2 jego klasy. Co wynika z 2.1.3.5.5?",
+        "options": {
+          "A": "Wystarczy przypisać numer UN najbardziej prawdopodobnego składnika",
+          "B": "Uproszczonej klasyfikacji odpadu nie wolno wtedy zastosować",
+          "C": "Wystarczy zapakować odpad w opakowanie z oznakowaniem UN"
+        },
+        "correct_option": "B",
+        "explanation": "W wielu klasach ADR punkt 2.2.x.2 wymienia materiały, które nie są dopuszczone do przewozu. Uproszczona metoda klasyfikacji odpadów z 2.1.3.5.5 nie może być stosowana do odpadów zawierających takie materiały. Zakład nie może więc obejść zakazu, wybierając numer UN innego składnika. Dobre opakowanie z oznakowaniem UN także nie zmienia tego, że przewóz jest zakazany. Podstawa: ADR 2.1.3.5.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.3.5.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    },
+    {
+      "id": "ADR-B-0330",
+      "order": 330,
+      "clause": "ADR 2025, 2.1.3.5.3 (g); 2.1.3.5.5",
+      "source_2025_comparison_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "answer_review": {
+        "A": {
+          "expected_correct": false,
+          "rationale": "Opcja A nie odpowiada zasadzie wskazanej w ADR 2025, 2.1.3.5.3 (g); 2.1.3.5.5."
+        },
+        "B": {
+          "expected_correct": true,
+          "rationale": "Przepis 2.1.3.5.3 wymienia najgroźniejsze rodzaje materiałów, w tym nadtlenki organiczne klasy 5.2. Uproszczonej metody klasyfikacji odpadów z 2.1.3.5.5 nie stosuje się do odpadów, które zawierają materiały z tej listy. Taki odpad trzeba sklasyfikować według zwykłych zasad dla jego rzeczywistych właściwości. Zgoda odbiorcy albo innej firmy nie znosi tego wyłączenia. Podstawa: ADR 2.1.3.5.3 i 2.1.3.5.5."
+        },
+        "C": {
+          "expected_correct": false,
+          "rationale": "Opcja C nie odpowiada zasadzie wskazanej w ADR 2025, 2.1.3.5.3 (g); 2.1.3.5.5."
+        }
+      },
+      "observed_answer_key": "B",
+      "notes_on_conditions": "2.1.3.5.3(g); 2.1.3.5.5, s. 122–123",
+      "official_polish_full_text_comparison": "pending",
+      "independent_specialist_approval": "pending",
+      "final_verification_status": "needs_review",
+      "question_snapshot": {
+        "id": "ADR-B-0330",
+        "module_id": "ADR-B-03",
+        "stem": "Nadawca chce przewieźć odpad z resztkami nadtlenku organicznego klasy 5.2, ale nie zna jego dokładnego składu. Co wynika z 2.1.3.5.5 dla takiego odpadu?",
+        "options": {
+          "A": "Może przyjąć II grupę pakowania, tak jak dla innych odpadów",
+          "B": "Nie może użyć tej metody, bo klasa 5.2 jest na liście 2.1.3.5.3",
+          "C": "Może użyć tej metody, jeżeli odbiorca odpadu wyrazi na to zgodę"
+        },
+        "correct_option": "B",
+        "explanation": "Przepis 2.1.3.5.3 wymienia najgroźniejsze rodzaje materiałów, w tym nadtlenki organiczne klasy 5.2. Uproszczonej metody klasyfikacji odpadów z 2.1.3.5.5 nie stosuje się do odpadów, które zawierają materiały z tej listy. Taki odpad trzeba sklasyfikować według zwykłych zasad dla jego rzeczywistych właściwości. Zgoda odbiorcy albo innej firmy nie znosi tego wyłączenia. Podstawa: ADR 2.1.3.5.3 i 2.1.3.5.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.3.5.3 (g); 2.1.3.5.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      }
+    }
+  ]
+}
