@@ -1,6 +1,6 @@
 # Aktualny rejestr specjalisty — ADR-B-0001–0780
 
-Etap 4x354 (03.11.2026). Bank: 780 pytań, 780 `needs_review`, 0 `verified`. SHA `fa4e38350731bd52c1a64a8cab934bdf18988438`.
+Etap 4x354 (03.11.2026). Bank: 780 pytań, 780 `needs_review`, 0 `verified`. SHA `094473164719bc6a651a6e303dc117cfa6503ffb`.
 Kompetencje teoretyczne z mniej niż 6 pytaniami: **0** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
@@ -440,10 +440,10 @@ Kompetencje teoretyczne z mniej niż 6 pytaniami: **0** (3 praktyczne pominięte
 | ADR-B-0433 | ADR-B-11 | ADR-B-11-K01 | Na mapie przewoźnika tunel ma kategorię D. Kto według 1.9.5.1 zalicza tunel do takiej kategorii i co bierze przy tym pod uwagę? | A | ADR 2025, 1.9.5.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0434 | ADR-B-11 | ADR-B-11-K03 | Kierowca widzi w kolumnie (3b) tabeli A kod klasyfikacyjny F1 i uważa, że to kod ograniczeń przewozu przez tunele. Gdzie według 8.6.3.1 jest ten kod? | C | ADR 2025, 8.6.3.1; 3.2.1 kolumna (15) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0435 | ADR-B-11 | ADR-B-11-K07 | W tunelu zapaliła się ładownia pojazdu ADR i dym szybko gęstnieje. Pomocnik chce przed ucieczką rozstawić za pojazdem stojące znaki ostrzegawcze. Co wynika z instrukcji pisemnych? | A | ADR 2025, 5.4.3.4 (instrukcje pisemne) | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0436 | ADR-B-09 | ADR-B-09-K08 | Do załadunku ADR przygotowano uszkodzoną sztukę przesyłki. Kierowca proponuje przykrycie jej czystą plandeką zamiast oceny stanu opakowania. Co powinien zrobić załadowca? | A | ADR 2025, 7.5.1.2; 1.4.3.1.1(b) | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0437 | ADR-B-10 | ADR-B-10-K04 | Ciężarówka z ładunkiem ADR jest przewożona na wagonie kolejowym na jednym odcinku trasy. Jakie przepisy zgodnie z ADR 1.1.4.5.1 są właściwe dla tego odcinka? | C | ADR 2025, 1.1.4.5.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0438 | ADR-B-10 | ADR-B-10-K04 | Samochód ADR jest transportowany promem, a później kontynuuje jazdę drogą. Którego odcinka dotyczy reguła 1.1.4.5.1 o przepisach innej gałęzi przewozu? | C | ADR 2025, 1.1.4.5.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
-| ADR-B-0439 | ADR-B-10 | ADR-B-10-K04 | Państwa będące stronami ADR chcą uzgodnić stosowanie ADR na odcinku, na którym pojazdy przewożone są koleją. Czy 1.1.4.5.2 przewiduje taką możliwość? | C | ADR 2025, 1.1.4.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0436 | ADR-B-09 | ADR-B-09-K08 | Przed załadunkiem kartonów z towarem ADR pracownik widzi, że z podłogi kontenera wystaje śruba, a ze ściany odgięta ostra blacha. Kontener jest czysty i suchy. Czy można zacząć załadunek? | A | ADR 2025, 7.5.1.2 (akapit drugi) | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0437 | ADR-B-10 | ADR-B-10-K04 | Ciężarówka z ładunkiem ADR na jednym odcinku trasy jedzie na wagonie kolejowym. Jakie przepisy według 1.1.4.5.1 stosuje się na tym odcinku? | C | ADR 2025, 1.1.4.5.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0438 | ADR-B-10 | ADR-B-10-K04 | Przewoźnik chce, żeby na promie morskim jego pojazd z ładunkiem ADR podlegał ADR, a nie przepisom morskim. Kto według 1.1.4.5.2 może uzgodnić stosowanie ADR na takim odcinku? | C | ADR 2025, 1.1.4.5.2; 1.1.4.5.1 | — | NIEROZSTRZYGNIĘTE | needs_review |
+| ADR-B-0439 | ADR-B-10 | ADR-B-10-K04 | Dwa państwa będące stronami ADR chcą uzgodnić stosowanie ADR na odcinku, na którym pojazdy jadą na wagonach kolejowych. Jaki warunek dla takiej umowy podaje 1.1.4.5.2? | C | ADR 2025, 1.1.4.5.2 (akapit pierwszy) | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0440 | ADR-B-10 | ADR-B-10-K04 | Uzgodnienie z 1.1.4.5.2 rozszerza stosowanie ADR na niedrogowy etap podróży. Czy strony mogą dołączyć do niego wymagania dodatkowe? | A | ADR 2025, 1.1.4.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0441 | ADR-B-10 | ADR-B-10-K04 | Kto zgodnie z ADR 1.1.4.5.2 zgłasza uzgodnienie dotyczące stosowania ADR na niedrogowym odcinku do sekretariatu UNECE? | C | ADR 2025, 1.1.4.5.2 | — | NIEROZSTRZYGNIĘTE | needs_review |
 | ADR-B-0442 | ADR-B-10 | ADR-B-10-K04 | Umowa międzynarodowa dotycząca innej gałęzi transportu zgodnie ze swoim zakresem obejmuje także określony odcinek drogowy. Jak według ADR 1.1.4.5.3 stosuje się jej wymagania? | C | ADR 2025, 1.1.4.5.3 | — | NIEROZSTRZYGNIĘTE | needs_review |

@@ -799,18 +799,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Do załadunku ADR przygotowano uszkodzoną sztukę przesyłki. Kierowca proponuje przykrycie jej czystą plandeką zamiast oceny stanu opakowania. Co powinien zrobić załadowca?",
+        "stem": "Przed załadunkiem kartonów z towarem ADR pracownik widzi, że z podłogi kontenera wystaje śruba, a ze ściany odgięta ostra blacha. Kontener jest czysty i suchy. Czy można zacząć załadunek?",
         "options": {
-          "A": "Nie dopuścić uszkodzonej przesyłki z wyciekiem do przewozu",
-          "B": "Przykryć opakowanie plandeką i załadować je bez sprawdzania uszkodzenia",
-          "C": "Otworzyć opakowanie i przelać zawartość samodzielnie, bez odpowiednich uprawnień"
+          "A": "Nie, wystające części mogące uszkodzić towar trzeba najpierw usunąć",
+          "B": "Tak, bo kontener jest czysty, suchy i nie ma w nim pozostałości ładunku",
+          "C": "Tak, jeśli kartony postawi się z dala od śruby i odgiętej blachy"
         },
         "correct_option": "A",
-        "explanation": "Załadowca powinien odmówić przyjęcia do przewozu sztuki przesyłki, której uszkodzenie lub wyciek może zagrażać bezpieczeństwu. Przykrycie jej plandeką tylko ukrywa uszkodzenie, a samodzielne otwieranie i przelewanie zawartości może narazić ludzi. Najpierw trzeba wyjaśnić niezgodność i dopiero potem zdecydować o bezpiecznym postępowaniu z przesyłką. Podstawa: ADR 7.5.1.2 i 1.4.3.1.1(b).",
+        "explanation": "Przed załadunkiem sprawdza się nie tylko czystość pojazdu lub kontenera, ale też jego stan. Według 7.5.1.2 podłoga, ściany wewnętrzne i sufit nie powinny mieć wystających części ani uszkodzeń, które mogą oddziaływać na przewożony towar. Wystająca śruba albo ostra blacha może przebić karton i spowodować wyciek. Ustawienie kartonów dalej od tych miejsc nie usuwa zagrożenia, bo ładunek może się przesunąć w czasie jazdy. Podstawa: ADR 7.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.1.2; 1.4.3.1.1(b)",
+            "reference": "ADR 2025, 7.5.1.2 (akapit drugi)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

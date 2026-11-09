@@ -20,14 +20,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Ciężarówka z ładunkiem ADR jest przewożona na wagonie kolejowym na jednym odcinku trasy. Jakie przepisy zgodnie z ADR 1.1.4.5.1 są właściwe dla tego odcinka?",
+        "stem": "Ciężarówka z ładunkiem ADR na jednym odcinku trasy jedzie na wagonie kolejowym. Jakie przepisy według 1.1.4.5.1 stosuje się na tym odcinku?",
         "options": {
-          "A": "Stosować ADR przez cały odcinek, bo dokument drogowy towarzyszy ładunkowi także na wagonie.",
-          "B": "Stosować przepisy kolejowe, ale pominąć wymagania dotyczące towarów niebezpiecznych, bo przewożony jest cały pojazd.",
-          "C": "Na odcinku kolejowym stosować przepisy właściwe dla kolei, a na odcinku drogowym oceniać wymagania ADR."
+          "A": "ADR, bo dokument przewozowy ADR jedzie razem z pojazdem na wagonie",
+          "B": "Przepisy kolejowe, ale bez wymagań dla towarów niebezpiecznych",
+          "C": "Przepisy o przewozie towarów niebezpiecznych koleją, takie jak RID"
         },
         "correct_option": "C",
-        "explanation": "Gdy cały pojazd z ładunkiem jest przewożony wagonem kolejowym, odcinek kolejowy podlega przepisom właściwym dla kolei, w tym RID. Nie oznacza to, że ADR znika z całej trasy: przed załadunkiem i po zjeździe z wagonu nadal trzeba spełnić wymagania dotyczące przewozu drogowego. Nie wolno też uznać, że na kolei nie obowiązują żadne zasady dla towarów niebezpiecznych. Podstawa: ADR 1.1.4.5.1.",
+        "explanation": "Gdy pojazd z ładunkiem ADR jedzie na części trasy inaczej niż po drogach, na tej części stosuje się przepisy o przewozie towarów niebezpiecznych tym rodzajem transportu. Na wagonie kolejowym są to przepisy kolejowe, w ruchu międzynarodowym na przykład RID. Nie znaczy to, że na kolei zasady dla towarów niebezpiecznych przestają obowiązywać. Po zjeździe z wagonu na drogę znowu stosuje się ADR. Podstawa: ADR 1.1.4.5.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Samochód ADR jest transportowany promem, a później kontynuuje jazdę drogą. Którego odcinka dotyczy reguła 1.1.4.5.1 o przepisach innej gałęzi przewozu?",
+        "stem": "Przewoźnik chce, żeby na promie morskim jego pojazd z ładunkiem ADR podlegał ADR, a nie przepisom morskim. Kto według 1.1.4.5.2 może uzgodnić stosowanie ADR na takim odcinku?",
         "options": {
-          "A": "Reguła dotyczy jedynie postoju pojazdu przed wjazdem na prom",
-          "B": "Reguła obejmuje wszystkie wcześniejsze i późniejsze odcinki drogowe bez ograniczeń",
-          "C": "Reguła dotyczy odcinka, na którym pojazd jest przewożony promem"
+          "A": "Przewoźnik z armatorem promu, w umowie zawartej przed rejsem",
+          "B": "Kierowca, przez wpis w dokumencie przewozowym zrobiony przed rejsem",
+          "C": "Zainteresowane państwa, które są Umawiającymi się Stronami ADR"
         },
         "correct_option": "C",
-        "explanation": "Szczególna reguła dla innej gałęzi transportu dotyczy odcinka, gdy pojazd jest faktycznie przewożony promem. Nie jest to przepis wyłącznie o postoju przed promem ani ogólne zwolnienie z ADR na wcześniejszej i późniejszej trasie drogowej. Po zjechaniu z promu kierowca nadal sprawdza wymagania dotyczące jazdy drogą. Podstawa: ADR 1.1.4.5.1.",
+        "explanation": "Według 1.1.4.5.1 na odcinku, na którym pojazd płynie promem, stosuje się przepisy o przewozie towarów niebezpiecznych drogą morską. Punkt 1.1.4.5.2 pozwala stosować na takim odcinku ADR, ale po uzgodnieniu między zainteresowanymi Umawiającymi się Stronami ADR, czyli państwami. Takiej decyzji nie podejmuje przewoźnik, armator promu ani kierowca. Wpis w dokumencie przewozowym nie zastępuje umowy między państwami. Podstawa: ADR 1.1.4.5.1 i 1.1.4.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.5.1",
+            "reference": "ADR 2025, 1.1.4.5.2; 1.1.4.5.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Państwa będące stronami ADR chcą uzgodnić stosowanie ADR na odcinku, na którym pojazdy przewożone są koleją. Czy 1.1.4.5.2 przewiduje taką możliwość?",
+        "stem": "Dwa państwa będące stronami ADR chcą uzgodnić stosowanie ADR na odcinku, na którym pojazdy jadą na wagonach kolejowych. Jaki warunek dla takiej umowy podaje 1.1.4.5.2?",
         "options": {
-          "A": "Nie; ADR bezwzględnie zakazuje wszelkich uzgodnień dla odcinków kolejowych",
-          "B": "Tak; strony mogą uzgodnić dowolne zasady, nawet sprzeczne z konwencjami",
-          "C": "Tak, jeśli uzgodnienie jest zgodne z właściwymi umowami międzynarodowymi"
+          "A": "Musi ją zatwierdzić przedsiębiorstwo kolejowe, które wiezie pojazdy",
+          "B": "Musi zastąpić na tym odcinku umowy międzynarodowe o przewozie koleją",
+          "C": "Nie może być sprzeczna z umowami międzynarodowymi o przewozie koleją"
         },
         "correct_option": "C",
-        "explanation": "ADR dopuszcza możliwość uzgodnienia stosowania jego zasad na określonym odcinku, gdy pojazdy są przewożone inną gałęzią transportu, na przykład koleją. Nie oznacza to jednak dowolności: uzgodnienie musi być zgodne z właściwymi umowami międzynarodowymi. Nie jest więc prawdą ani że każdy taki układ jest zakazany, ani że państwa mogą ignorować inne konwencje. Podstawa: ADR 1.1.4.5.2.",
+        "explanation": "Punkt 1.1.4.5.2 pozwala zainteresowanym Umawiającym się Stronom ADR uzgodnić stosowanie ADR na odcinku, na którym pojazd jedzie inaczej niż po drogach. Taka umowa nie może być jednak sprzeczna z umowami międzynarodowymi o przewozie towarów niebezpiecznych tym rodzajem transportu. Dla przewozu morskiego przepis podaje przykład konwencji SOLAS. Umowa między państwami nie zastępuje więc tych umów, a przepis nie uzależnia jej od zgody przewoźnika kolejowego. Podstawa: ADR 1.1.4.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.5.2",
+            "reference": "ADR 2025, 1.1.4.5.2 (akapit pierwszy)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -143,18 +143,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Uzgodnienie z 1.1.4.5.2 rozszerza stosowanie ADR na niedrogowy etap podróży. Czy strony mogą dołączyć do niego wymagania dodatkowe?",
+        "stem": "Państwa będące stronami ADR uzgadniają stosowanie ADR na odcinku promowym. Jedno z nich chce dodać do umowy wymagania wykraczające poza ADR. Czy 1.1.4.5.2 na to pozwala?",
         "options": {
-          "A": "Tak; można dodać wymagania na warunkach określonych w ADR 1.1.4.5.2",
-          "B": "Nie; każda zmiana lub dodatkowy warunek jest bezwzględnie zakazany",
-          "C": "Tak; wystarczy ustne żądanie kierowcy bez formalnego uzgodnienia stron"
+          "A": "Tak, strony mogą uzupełnić ją o wymagania dodatkowe, jeśli to potrzebne",
+          "B": "Nie, taka umowa może jedynie powtórzyć przepisy ADR bez zmian",
+          "C": "Tak, ale wymagania dodatkowe ustala sam kierowca tuż przed wjazdem na prom"
         },
         "correct_option": "A",
-        "explanation": "Przy transporcie kombinowanym strony mogą uzgodnić dodatkowe warunki dla odcinka niedrogowego, ale muszą mieścić się one w ramach ADR i właściwych konwencji. Nie jest prawdą, że każdy dodatkowy warunek jest zabroniony. Samo ustne żądanie kierowcy nie stanowi jednak uzgodnienia stron; przed wyjazdem sprawdź, czy warunki zostały rzeczywiście uzgodnione. Podstawa: ADR 1.1.4.5.2.",
+        "explanation": "Według 1.1.4.5.2 zainteresowane Umawiające się Strony ADR mogą uzgodnić stosowanie ADR na odcinku, na którym pojazd płynie promem lub jedzie inaczej niż po drogach. Mogą przy tym uzupełnić te przepisy o wymagania dodatkowe, jeżeli uznają to za potrzebne. Cała umowa nie może być sprzeczna z umowami międzynarodowymi dla tego rodzaju transportu, na przykład z konwencją SOLAS. Wymagań dodatkowych nie ustala kierowca, lecz państwa w swojej umowie. Podstawa: ADR 1.1.4.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.5.2",
+            "reference": "ADR 2025, 1.1.4.5.2 (akapit pierwszy)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -184,18 +184,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kto zgodnie z ADR 1.1.4.5.2 zgłasza uzgodnienie dotyczące stosowania ADR na niedrogowym odcinku do sekretariatu UNECE?",
+        "stem": "Polska zainicjowała z dwoma innymi stronami ADR umowę o stosowaniu ADR na odcinku promowym. Kto według 1.1.4.5.2 zgłasza tę umowę do Sekretariatu EKG ONZ?",
         "options": {
-          "A": "Zgłasza je państwo, na którego terytorium leży dany odcinek, nawet jeśli nie zainicjowało uzgodnienia",
-          "B": "Każde państwo uczestniczące w uzgodnieniu składa osobne zgłoszenie do sekretariatu UNECE",
-          "C": "Zgłoszenia dokonuje państwo, które zainicjowało uzgodnienie"
+          "A": "Państwo, w którym leży port wyjścia promu",
+          "B": "Przewoźnik, który jako pierwszy wykona przewóz na podstawie umowy",
+          "C": "Polska, jako Umawiająca się Strona będąca inicjatorem tej umowy"
         },
         "correct_option": "C",
-        "explanation": "Takie uzgodnienie zgłasza do sekretariatu UNECE państwo, które zainicjowało jego zawarcie. Nie jest to automatycznie państwo, przez którego terytorium przebiega odcinek, ani każde państwo, które z niego korzysta. Kierowca nie dokonuje zgłoszenia; jego zadaniem jest przestrzegać warunków uzgodnienia na trasie. Podstawa: ADR 1.1.4.5.2.",
+        "explanation": "Umowy z 1.1.4.5.2 zgłasza do Sekretariatu Europejskiej Komisji Gospodarczej ONZ ta Umawiająca się Strona, która była inicjatorem umowy. Sekretariat podaje je następnie do wiadomości pozostałych Umawiających się Stron. O zgłoszeniu nie decyduje położenie portu ani długość trasy w danym państwie. Przewoźnik i kierowca nie zgłaszają takich umów, tylko przestrzegają ich na trasie. Podstawa: ADR 1.1.4.5.2 (akapit drugi).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.5.2",
+            "reference": "ADR 2025, 1.1.4.5.2 (akapit drugi)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -225,14 +225,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Umowa międzynarodowa dotycząca innej gałęzi transportu zgodnie ze swoim zakresem obejmuje także określony odcinek drogowy. Jak według ADR 1.1.4.5.3 stosuje się jej wymagania?",
+        "stem": "Umowa międzynarodowa dla innego rodzaju transportu ma klauzulę, która rozszerza jej stosowanie na część przewozu drogowego. Jak według 1.1.4.5.3 stosuje się ADR na tym odcinku?",
         "options": {
-          "A": "Konwencja wyłącza automatycznie wszystkie wymagania ADR, niezależnie od sprzeczności",
-          "B": "Umowa innej gałęzi transportu nigdy nie może dotyczyć odcinka drogowego",
-          "C": "Stosuje się jej wymagania razem z tymi zasadami ADR, które nie są sprzeczne"
+          "A": "ADR w całości, a przepisy tej umowy dopiero po zjeździe z drogi",
+          "B": "Wcale, bo na tym odcinku obowiązuje sama umowa dla innego transportu",
+          "C": "Razem z tą umową, ale bez przepisów ADR, które są z nią sprzeczne"
         },
         "correct_option": "C",
-        "explanation": "Jeśli umowa dotycząca innej gałęzi transportu obejmuje również wskazany odcinek drogowy, jej zasady stosuje się wraz z ADR w zakresie, w jakim nie są z nim sprzeczne. Nie oznacza to ani automatycznego wyłączenia całego ADR, ani zakazu korzystania z umowy na drodze. Przed przewozem trzeba ustalić, które wymagania obu regulacji mają zastosowanie do konkretnego odcinka. Podstawa: ADR 1.1.4.5.3.",
+        "explanation": "Punkt 1.1.4.5.3 dotyczy sytuacji, gdy umowa dla innego rodzaju transportu przez klauzulę rozszerzającą obejmuje też część przewozu drogowego. Na tym odcinku stosuje się przepisy tej umowy łącznie z przepisami ADR, które nie są z nimi sprzeczne. Pozostałych przepisów ADR, czyli sprzecznych z tą umową, na tym odcinku się nie stosuje. ADR nie znika więc z tego odcinka, ale nie ma też pierwszeństwa przed tą umową. Podstawa: ADR 1.1.4.5.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -266,18 +266,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W sytuacji opisanej w ADR 1.1.4.5.3 wymaganie ADR jest sprzeczne z odpowiednią konwencją regulującą inną gałąź przewozu, której zakres obejmuje odcinek drogowy. Co przewiduje przepis?",
+        "stem": "Kontener z towarem niebezpiecznym przypłynął statkiem i jedzie dalej ciężarówką w tym samym łańcuchu. Kierowca dostał dokument przewozowy według Kodeksu IMDG. Czy według 1.1.4.2.3 może on zastąpić dokument ADR?",
         "options": {
-          "A": "Zawsze trzeba spełnić obie sprzeczne normy jednocześnie, bez żadnego wyjątku",
-          "B": "Kierowca sam wybiera, którą z dwóch sprzecznych norm zastosować",
-          "C": "Sprzecznego wymagania ADR nie stosuje się na objętym umową odcinku drogowym"
+          "A": "Nie, na drodze trzeba mieć osobny dokument sporządzony według ADR",
+          "B": "Tak, bez uzupełnień, bo kontener jedzie w łańcuchu z przewozem morskim",
+          "C": "Tak, jeśli podano w nim też dodatkowe informacje wymagane przez ADR"
         },
         "correct_option": "C",
-        "explanation": "Gdy właściwa konwencja dla innej gałęzi transportu obejmuje odcinek drogowy i jest sprzeczna z wymaganiem ADR, stosuje się przewidziane w przepisie pierwszeństwo. Nie da się po prostu wykonać dwóch sprzecznych nakazów, ale kierowca nie może też dowolnie wybrać wygodniejszej reguły. Trzeba sprawdzić zakres tej szczególnej sytuacji. Podstawa: ADR 1.1.4.5.3.",
+        "explanation": "W łańcuchu transportowym z przewozem morskim lub lotniczym informacje wymagane przez 5.4.1 i 5.4.2 mogą być zastąpione dokumentem przewozowym według Kodeksu IMDG albo Instrukcji Technicznych ICAO. Warunek jest taki, że podaje się również każdą dodatkową informację wymaganą przez ADR. Nie trzeba więc sporządzać drugiego, osobnego dokumentu ADR. Sam dokument morski bez tych uzupełnień jednak nie wystarcza. Podstawa: ADR 1.1.4.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.5.3",
+            "reference": "ADR 2025, 1.1.4.2.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -307,14 +307,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W dokumencie opisano cysternę przenośną IMO typu 2 zbudowaną i zatwierdzoną przed 1 stycznia 2003 r., ale niezgodną z rozdziałami 6.7 lub 6.8 ADR. Czy sama dawna data zatwierdzenia daje bezwarunkowe prawo przewozu?",
+        "stem": "Cysterna przenośna IMO typu 2 nie spełnia wymagań działów 6.7 ani 6.8, ale wyprodukowano ją i dopuszczono przed 1 stycznia 2003 r. Czy według 1.1.4.3 ta data wystarczy, by dalej jej używać?",
         "options": {
-          "A": "Tak; data sprzed 2003 r. zwalnia cysternę ze wszystkich późniejszych wymagań",
-          "B": "Nie; oprócz daty potrzebne jest spełnienie warunków badań i kontroli",
-          "C": "Tak; wystarczy pomalować cysternę na pomarańczowo i umieścić tablice"
+          "A": "Tak, data dopuszczenia sprzed 2003 r. zwalnia ją z późniejszych wymagań",
+          "B": "Nie, musi też przechodzić badania okresowe i próby według Kodeksu IMDG",
+          "C": "Tak, jeśli na pojeździe są tablice pomarańczowe z numerem UN towaru"
         },
         "correct_option": "B",
-        "explanation": "Dawna data zatwierdzenia cysterny IMO typu 2 może mieć znaczenie dla zastosowania przepisu przejściowego, ale sama nie daje bezwarunkowego prawa do dalszego przewozu. Trzeba sprawdzić również wymagane badania, kontrole i pozostałe warunki dotyczące danego przewozu. Pomarańczowy kolor ani tablice ostrzegawcze nie zastępują tych wymagań. Przed użyciem cysterny potwierdź jej aktualny status. Podstawa: ADR 1.1.4.3.",
+        "explanation": "Punkt 1.1.4.3 pozwala dalej używać cystern przenośnych IMO typów 1, 2, 5 i 7, które nie spełniają działów 6.7 lub 6.8. Warunkiem jest to, że wyprodukowano je i dopuszczono przed 1 stycznia 2003 roku według Kodeksu IMDG, ale to dopiero pierwszy warunek. Cysterna musi też spełniać przepisy Kodeksu IMDG o badaniach okresowych i próbach. Ponadto stosuje się instrukcje z kolumn (10) i (11) tabeli A oraz przepisy działu 4.2 ADR. Podstawa: ADR 1.1.4.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -348,18 +348,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Cysterna przenośna IMO z 2001 r. spełnia część warunków historycznego wyjątku ADR 1.1.4.3. Które przepisy dotyczące konkretnego towaru nadal należy sprawdzić?",
+        "stem": "Cysterna przenośna IMO z 2001 r. przechodzi wymagane badania okresowe i próby według Kodeksu IMDG. Co jeszcze według 1.1.4.3 trzeba sprawdzić dla przewożonego w niej towaru?",
         "options": {
-          "A": "Sprawdzić tylko oznakowanie cysterny, bez sprawdzania wpisu towaru",
-          "B": "Uznać, że wyjątek historyczny zwalnia z wymagań dla przewożonego towaru",
-          "C": "Sprawdzić tabelę A i rozdział 4.2 ADR dla przewożonego towaru"
+          "A": "Czy towar ma w Kodeksie IMDG tę samą nazwę co w tabeli A ADR",
+          "B": "Nic więcej, bo cysterna sprzed 2003 r. jest zwolniona z tych wymagań ADR",
+          "C": "Instrukcje z kolumn (10) i (11) tabeli A oraz przepisy działu 4.2 ADR"
         },
         "correct_option": "C",
-        "explanation": "Nawet jeśli starsza cysterna spełnia warunki historycznego wyjątku, trzeba nadal sprawdzić, czy dany towar wolno w niej przewozić i jakie warunki obowiązują. Samo oznakowanie cysterny nie wystarcza, a wyjątek nie usuwa wszystkich wymagań dla konkretnego ładunku. Dlatego sprawdź wpis towaru w tabeli A oraz odpowiednie zasady rozdziału 4.2. Podstawa: ADR 1.1.4.3 i 4.2.",
+        "explanation": "Punkt 1.1.4.3 pozwala dalej używać starszych cystern przenośnych IMO, wyprodukowanych i dopuszczonych przed 1 stycznia 2003 roku, jeśli przechodzą badania i próby według Kodeksu IMDG. Ponadto takie cysterny powinny spełniać wymagania instrukcji podanych w kolumnach (10) i (11) tabeli A w dziale 3.2. Muszą też spełniać przepisy działu 4.2 ADR o używaniu cystern przenośnych. Data budowy nie zwalnia więc z wymagań zależnych od przewożonego towaru. Podstawa: ADR 1.1.4.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.3",
+            "reference": "ADR 2025, 1.1.4.3 (zdanie drugie)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -389,18 +389,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Dwie cysterny przenośne IMO zostały zbudowane według IMDG: jedna przed 2003 r., druga w 2005 r. Czy można automatycznie stosować historyczne odstępstwo ADR 1.1.4.3 do obu?",
+        "stem": "Pusta butla wielokrotnego napełniania zatwierdzona przez DOT ma być napełniona w Polsce na eksport według 1.1.4.7.2. Znaki o certyfikacji, badaniach i napełnianiu są na niej nieczytelne. Czy można ją napełnić?",
         "options": {
-          "A": "Tak, jeśli cysterna ma ważne badanie techniczne, niezależnie od daty budowy.",
-          "B": "Tak, jeśli cysterna spełnia obecne wymagania IMDG, bez względu na datę zatwierdzenia.",
-          "C": "Nie; wyjątek dotyczy cystern zbudowanych przed 1 stycznia 2003 r."
+          "A": "Tak, jeśli właściciel potwierdzi na piśmie datę jej ostatniego badania",
+          "B": "Tak, bo oznakowanie butli DOT ocenia dopiero władza kraju odbiorcy",
+          "C": "Nie, butli z nieczytelnymi znakami nie przeznacza się do napełniania"
         },
         "correct_option": "C",
-        "explanation": "Historyczne odstępstwo z ADR 1.1.4.3 ma ograniczony zakres i dotyczy określonych cystern IMO zbudowanych i zatwierdzonych przed 1 stycznia 2003 r. Cysterna z 2005 r. nie spełnia tego warunku, nawet jeśli ma aktualne badanie lub odpowiada obecnym wymaganiom IMDG. Sama zgodność techniczna nie przesuwa daty granicznej ani nie rozszerza wyjątku. Podstawa: ADR 1.1.4.3.",
+        "explanation": "Punkt 1.1.4.7.2 pozwala napełniać butle DOT na eksport do państw spoza ADR, ale po spełnieniu podanych tam warunków. Według litery (c) do takich butli stosuje się między innymi 4.1.6.12. Ten punkt mówi, że naczynie ciśnieniowe nie powinno być przeznaczone do napełniania, jeśli znaki dotyczące certyfikacji, badań i napełniania są nieczytelne. Pisemne zapewnienie właściciela nie zastępuje czytelnych znaków na butli. Podstawa: ADR 1.1.4.7.2 (c) i 4.1.6.12 (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.3",
+            "reference": "ADR 2025, 1.1.4.7.2 (c); 4.1.6.12 (c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
