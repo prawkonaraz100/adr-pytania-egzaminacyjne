@@ -188,42 +188,42 @@
     {
       "id": "ADR-B-0421",
       "order": 421,
-      "clause": "ADR 2025, 8.1.4.2",
+      "clause": "ADR 2025, 8.1.4.2; 8.1.4.4; 8.1.4.5; 1.1.3.6.2",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Bez gaśnicy przy wyłączeniu 1.1.3.6”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przy wyłączeniu z ADR 1.1.3.6 nadal trzeba mieć co najmniej jedną przenośną gaśnicę o pojemności 2 kg proszku lub równoważnej. To wyłączenie ogranicza część obowiązków, ale nie usuwa wymogu gaśnicy. Dwie gaśnice o łącznej pojemności 12 kg nie są minimum dla tego przypadku; wymagania zależą od właściwego reżimu przewozu. Podstawa: ADR 8.1.4.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "1.1.3.6.2 zostawia 8.1.4.2 do 8.1.4.5 – terminy kontroli gaśnic obowiązują też w limicie 1.1.3.6."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Dwie gaśnice o łącznej pojemności 12 kg, jak dla cięższej jednostki w pełnym reżimie”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przy wyłączeniu z ADR 1.1.3.6 nadal trzeba mieć co najmniej jedną przenośną gaśnicę o pojemności 2 kg proszku lub równoważnej. To wyłączenie ogranicza część obowiązków, ale nie usuwa wymogu gaśnicy. Dwie gaśnice o łącznej pojemności 12 kg nie są minimum dla tego przypadku; wymagania zależą od właściwego reżimu przewozu. Podstawa: ADR 8.1.4.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "8.1.4.5: podczas przewozu nie powinny być przekroczone terminy z 8.1.4.4 – późniejszy zakup nie usuwa naruszenia."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Przy wyłączeniu z ADR 1.1.3.6 nadal trzeba mieć co najmniej jedną przenośną gaśnicę o pojemności 2 kg proszku lub równoważnej. To wyłączenie ogranicza część obowiązków, ale nie usuwa wymogu gaśnicy. Dwie gaśnice o łącznej pojemności 12 kg nie są minimum dla tego przypadku; wymagania zależą od właściwego reżimu przewozu. Podstawa: ADR 8.1.4.2. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "1.1.3.6.2 (wyjątki: 8.1.4.2 do 8.1.4.5) + 8.1.4.4: gaśnica z 8.1.4.2 podlega kontrolom okresowym i ma oznaczony termin."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "1.1.3.6.2 s. 26; 8.1.4.2–8.1.4.5 s. 1325.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0421",
         "module_id": "ADR-B-08",
-        "stem": "Towary ADR jadą w ilościach korzystających z wyłączenia 1.1.3.6. Ile minimum przenośnych gaśnic według 8.1.4.2?",
+        "stem": "Samochód wiezie farbę w ilości mieszczącej się w limicie z 1.1.3.6. Jedyna gaśnica 2 kg ma już miniony termin kontroli. Czy przy takim przewozie jest to dopuszczalne?",
         "options": {
-          "A": "Bez gaśnicy przy wyłączeniu 1.1.3.6",
-          "B": "Dwie gaśnice o łącznej pojemności 12 kg, jak dla cięższej jednostki w pełnym reżimie",
-          "C": "Co najmniej jedna gaśnica 2 kg proszku lub równoważna"
+          "A": "Tak, bo przy limicie z 1.1.3.6 terminy kontroli gaśnic w ogóle nie obowiązują",
+          "B": "Tak, jeśli kierowca kupi nową gaśnicę w ciągu tygodnia od wyjazdu",
+          "C": "Nie, gaśnica wymagana przy 1.1.3.6 też musi mieć ważny termin kontroli"
         },
         "correct_option": "C",
-        "explanation": "Nawet gdy ilość przewożonego towaru pozwala korzystać z wyłączenia 1.1.3.6, potrzebna jest co najmniej jedna gaśnica odpowiadająca 2 kg proszku. Wyłączenie nie oznacza braku sprzętu przeciwpożarowego. Z kolei wymaganie dwóch gaśnic o łącznej masie 12 kg dotyczy innych warunków przewozu, a nie tego minimum. Przed wyjazdem sprawdź gaśnicę i jej przegląd. Podstawa: ADR 8.1.4.2.",
+        "explanation": "Przy przewozie w limicie z 1.1.3.6 wiele przepisów części 8 nie obowiązuje, ale 1.1.3.6.2 wprost zostawia punkty od 8.1.4.2 do 8.1.4.5. Jednostka musi więc mieć co najmniej jedną gaśnicę 2 kg, a ta gaśnica podlega tym samym zasadom co inne gaśnice ADR. Powinna mieć plombę, przechodzić kontrole okresowe i mieć oznaczoną datę następnej kontroli. Ten termin nie może być przekroczony podczas przewozu. Podstawa: ADR 1.1.3.6.2, 8.1.4.2, 8.1.4.4 i 8.1.4.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.4.2",
+            "reference": "ADR 2025, 8.1.4.2; 8.1.4.4; 8.1.4.5; 1.1.3.6.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -234,42 +234,42 @@
     {
       "id": "ADR-B-0422",
       "order": 422,
-      "clause": "ADR 2025, 8.1.4.4–8.1.4.5",
+      "clause": "ADR 2025, 8.1.4.4 (akapit drugi)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Ocenić wygląd obudowy zamiast daty kontroli i uznać gaśnicę za sprawną”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Gaśnica w pojeździe musi mieć aktualną wymaganą kontrolę, dlatego przekroczenie jej terminu oznacza niezgodność przed wyjazdem. Dobry wygląd obudowy nie dowodzi, że urządzenie jest sprawne i zostało poddane wymaganej kontroli. Przewóz materiału klasy 3 także nie znosi obowiązku kontroli gaśnicy. Podstawa: ADR 8.1.4.4–8.1.4.5. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "8.1.4.4 nie podaje odstępu 12 miesięcy – kontrole okresowe zgodnie z przyjętymi normami krajowymi."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Gaśnica w pojeździe musi mieć aktualną wymaganą kontrolę, dlatego przekroczenie jej terminu oznacza niezgodność przed wyjazdem. Dobry wygląd obudowy nie dowodzi, że urządzenie jest sprawne i zostało poddane wymaganej kontroli. Przewóz materiału klasy 3 także nie znosi obowiązku kontroli gaśnicy. Podstawa: ADR 8.1.4.4–8.1.4.5. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "8.1.4.4: w celu zapewnienia bezpiecznego działania gaśnice powinny podlegać kontrolom okresowym zgodnie z przyjętymi normami krajowymi."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Klasa 3 pozwala odstąpić od kontroli”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Gaśnica w pojeździe musi mieć aktualną wymaganą kontrolę, dlatego przekroczenie jej terminu oznacza niezgodność przed wyjazdem. Dobry wygląd obudowy nie dowodzi, że urządzenie jest sprawne i zostało poddane wymaganej kontroli. Przewóz materiału klasy 3 także nie znosi obowiązku kontroli gaśnicy. Podstawa: ADR 8.1.4.4–8.1.4.5. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "8.1.4.4: plomba potwierdza jedynie, że gaśnica nie była używana – nie zastępuje kontroli okresowej."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte.",
+      "notes_on_conditions": "8.1.4.4 s. 1325. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0422",
         "module_id": "ADR-B-08",
-        "stem": "Gaśnica w pojeździe ADR ma miniony termin następnej wymaganej kontroli. Czy można uznać ją za właściwie przygotowaną do przewozu?",
+        "stem": "Nowy kierowca pyta, co ile miesięcy według ADR trzeba poddawać gaśnicę kontroli okresowej. Co odpowiada treści 8.1.4.4?",
         "options": {
-          "A": "Ocenić wygląd obudowy zamiast daty kontroli i uznać gaśnicę za sprawną",
-          "B": "Nie; termin wymaganej kontroli nie może być przekroczony",
-          "C": "Klasa 3 pozwala odstąpić od kontroli"
+          "A": "ADR nakazuje kontrolę co 12 miesięcy, w tym samym miesiącu co roku",
+          "B": "ADR odsyła do kontroli okresowych według przyjętych norm krajowych",
+          "C": "Kontrola nie jest potrzebna, dopóki plomba gaśnicy pozostaje cała"
         },
         "correct_option": "B",
-        "explanation": "Gaśnica z przekroczonym terminem wymaganej kontroli nie spełnia warunków przygotowania pojazdu ADR do wyjazdu. Nawet jeśli obudowa wygląda dobrze, bez aktualnej kontroli nie ma potwierdzenia, że urządzenie nadaje się do użycia. Przewóz materiału klasy 3 nie tworzy wyjątku od tych wymagań. Przed wyjazdem zapewnij sprzęt z ważną kontrolą. Podstawa: ADR 8.1.4.4–8.1.4.5.",
+        "explanation": "Punkt 8.1.4.4 mówi, że gaśnice powinny podlegać kontrolom okresowym zgodnie z przyjętymi normami krajowymi. Sam ADR nie podaje więc stałego odstępu między kontrolami, na przykład 12 miesięcy, tylko odsyła do tych norm. Na gaśnicy musi być oznaczona data następnej kontroli, czyli miesiąc i rok, albo maksymalny dopuszczalny okres użytkowania. Nienaruszona plomba potwierdza jedynie, że gaśnicy nie używano, i nie zastępuje kontroli. Podstawa: ADR 8.1.4.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.4.4–8.1.4.5",
+            "reference": "ADR 2025, 8.1.4.4 (akapit drugi)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -280,42 +280,42 @@
     {
       "id": "ADR-B-0423",
       "order": 423,
-      "clause": "ADR 2025, 8.1.4.5",
+      "clause": "ADR 2025, 8.1.4.3",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Skrytka wymagająca otwierania ładowni nie zapewnia szybkiego dostępu."
+          "rationale": "Wentylacja kabiny nie usuwa wymogu 8.1.4.3 – środek nie powinien uwalniać gazów toksycznych."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Stabilne mocowanie nie wystarcza, gdy ładunek blokuje dostęp do gaśnic."
+          "rationale": "Plomba i termin kontroli (8.1.4.4) nie dotyczą rodzaju środka gaśniczego z 8.1.4.3."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Gaśnice muszą być łatwo dostępne i chronione przed warunkami pogodowymi."
+          "rationale": "8.1.4.3: środki gaśnicze nie powinny powodować uwalniania gazów toksycznych do kabiny lub pod wpływem ciepła pożaru."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "8.1.4.3 s. 1325. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0423",
         "module_id": "ADR-B-08",
-        "stem": "W pojeździe ADR gaśnice umieszczono w zamkniętej skrzyni bez szybkiego dostępu dla załogi. Co wymaga 8.1.4.5?",
+        "stem": "Przewoźnik znalazł tanią gaśnicę, której środek pod wpływem ciepła pożaru wydziela gazy toksyczne. Chce ją wozić w kabinie pojazdu ADR. Co wynika z 8.1.4.3?",
         "options": {
-          "A": "Gaśnice mogą pozostać w skrytce, do której załoga dotrze po zatrzymaniu i otwarciu ładowni",
-          "B": "Gaśnice można umieścić za ładunkiem, jeśli ich uchwyty są stabilne",
-          "C": "Gaśnice muszą być łatwo dostępne i chronione przed warunkami pogodowymi"
+          "A": "Może ją wozić, jeśli kabina ma otwierane okna i dobrą wentylację",
+          "B": "Może ją wozić, jeśli ma plombę i ważny termin następnej kontroli gaśnicy",
+          "C": "Nie powinien, bo środek gaśniczy nie może uwalniać gazów toksycznych"
         },
         "correct_option": "C",
-        "explanation": "Gaśnica ma być łatwo dostępna dla załogi i chroniona przed warunkami pogodowymi, aby można było szybko jej użyć, jeśli sytuacja na to pozwala. Jeśli znajduje się za ładunkiem albo w skrzyni wymagającej otwierania ładowni, dostęp może być zbyt utrudniony. Stabilne mocowanie nie wystarczy, gdy sprzętu nie da się szybko wyjąć. Podstawa: ADR 8.1.4.5.",
+        "explanation": "Według 8.1.4.3 środek gaśniczy musi być odpowiedni do użycia w pojeździe i spełniać wymagania normy EN 3-7. Nie powinien też uwalniać gazów toksycznych do kabiny kierowcy ani pod wpływem ciepła podczas pożaru. Taki gaz mógłby zatruć kierowcę, który siedzi w kabinie albo gasi mały pożar. Otwarte okno, plomba ani ważna kontrola nie usuwają tej wady samego środka gaśniczego. Podstawa: ADR 8.1.4.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.4.5",
+            "reference": "ADR 2025, 8.1.4.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -326,42 +326,42 @@
     {
       "id": "ADR-B-0424",
       "order": 424,
-      "clause": "ADR 2025, 7.5.2.1",
+      "clause": "ADR 2025, 7.5.2.1 (tabela)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Czytelne nalepki nie dowodzą, że wspólny załadunek jest dozwolony; trzeba sprawdzić odpowiednie zakazy i warunki. Podstawa: ADR 7.5.2.1."
+          "rationale": "Tabela 7.5.2.1 dotyczy całego pojazdu lub kontenera – odległość w ładowni nie znosi zakazu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dokumenty przewozowe nie są jedynym kryterium wspólnego załadunku; obowiązują też zasady dotyczące klas i konkretnych towarów. Podstawa: ADR 7.5.2.1."
+          "rationale": "Tabela 7.5.2.1: wiersz 3 / kolumna 1 bez znaku X i bez odsyłacza – ładowanie razem niedozwolone."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Przed wspólnym załadunkiem trzeba sprawdzić tabelę zakazów i ograniczeń, szczególnie gdy jedna przesyłka należy do klasy 1. Podstawa: ADR 7.5.2.1."
+          "rationale": "Tabela 7.5.2.1 (obraz s. 1305): nalepki 1 i 3 – brak X i odsyłacza, ładowanie razem niedozwolone."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "7.5.2.1 tabela s. 1305 (obraz PDF).",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0424",
         "module_id": "ADR-B-09",
-        "stem": "Przed załadunkiem kierowca widzi sztukę przesyłki oznaczoną nalepkami klasy 1 i inną oznaczoną klasą 3. Czy może ocenić wspólny załadunek wyłącznie po tym, że obie są ADR?",
+        "stem": "Magazynier chce dołożyć kanistry z farbą z nalepką 3 do pojazdu, w którym są już skrzynie z materiałem wybuchowym 1.1D z nalepką 1. Czy tabela 7.5.2.1 na to pozwala?",
         "options": {
-          "A": "Sprawdzić, czy obie przesyłki mają czytelne nalepki; samo to wystarcza do wspólnego załadunku.",
-          "B": "Rozdzielić przesyłki tylko wtedy, gdy różnią się dokumentami przewozowymi.",
-          "C": "Nie; należy sprawdzić tabelę zakazów wspólnego załadunku 7.5.2.1"
+          "A": "Tak, jeśli kanistry staną z dala od skrzyń, przy samych drzwiach ładowni",
+          "B": "Tak, bo farba z nalepką 3 może jechać z towarami wielu innych klas",
+          "C": "Nie, tabela nie dopuszcza ładowania razem przesyłek z nalepkami 1 i 3"
         },
         "correct_option": "C",
-        "explanation": "Przed załadunkiem trzeba sprawdzić, czy dane towary mogą być przewożone razem, zwłaszcza gdy występuje klasa 1. Czytelne nalepki pomagają rozpoznać zagrożenie, ale nie oznaczają automatycznie, że wspólny załadunek jest dozwolony. Nie wystarczy też porównać dokumentów; decydują zakazy i warunki wskazane w tabeli ADR. Podstawa: ADR 7.5.2.1.",
+        "explanation": "Tabela w 7.5.2.1 pokazuje, przesyłki z jakimi nalepkami ostrzegawczymi mogą jechać razem w jednym pojeździe lub kontenerze. Na przecięciu wiersza 3 i kolumny 1 nie ma znaku X ani odsyłacza, więc takiego ładowania razem tabela nie dopuszcza. Odległość w ładowni nic tu nie zmienia, bo zakaz dotyczy całego pojazdu. To, że farba może jechać z wieloma innymi klasami, nie obejmuje materiałów wybuchowych z nalepką 1. Podstawa: ADR 7.5.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1",
+            "reference": "ADR 2025, 7.5.2.1 (tabela)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -372,42 +372,42 @@
     {
       "id": "ADR-B-0425",
       "order": 425,
-      "clause": "ADR 2025, 7.5.2.1, uwaga (a)",
+      "clause": "ADR 2025, 7.5.2.1 (tabela, uwaga a)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędne: kod 1.4S nie znosi wszystkich zakazów wspólnego załadunku; nadal trzeba sprawdzić tabelę i warunki ADR."
+          "rationale": "Tabela 7.5.2.1: przy nalepkach 1.4 i 8 stoi odsyłacz (a) – ładowanie razem z 1.4S dozwolone."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędne: sam kod nie wystarcza bez sprawdzenia warunków uwagi (a)."
+          "rationale": "Odsyłacz (a) dopuszcza ładowanie razem bez zgody właściwej władzy."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Prawidłowe: możliwość wspólnego załadunku zależy od spełnienia warunków wskazanych w ADR 7.5.2.1."
+          "rationale": "Odsyłacz (a) tabeli 7.5.2.1: dozwolone jest ładowanie razem z materiałami i przedmiotami 1.4S."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "7.5.2.1 tabela i odsyłacz (a) s. 1305 (obraz PDF).",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0425",
         "module_id": "ADR-B-09",
-        "stem": "Na przesyłce z materiałami klasy 1 występuje kod zgodności 1.4S. Jakie znaczenie może mieć to dla ładowania z towarami innych klas?",
+        "stem": "W pojeździe mają jechać kartony z nabojami 1.4S z nalepką 1.4 oraz beczki z nalepką 8. Czy tabela 7.5.2.1 dopuszcza takie ładowanie razem?",
         "options": {
-          "A": "Uznać, że kod 1.4S zwalnia z każdej kontroli zakazu wspólnego załadunku z innymi klasami",
-          "B": "Potraktować sam kod 1.4S jako zgodę na wspólny załadunek, bez sprawdzenia warunków uwagi (a)",
-          "C": "Kod może pozwalać na wspólny załadunek, jeśli spełniono warunki uwagi (a)"
+          "A": "Nie, bo przesyłek z nalepką 1.4 nie ładuje się razem z innymi klasami",
+          "B": "Nie, chyba że przewoźnik dostanie na to zgodę właściwej władzy",
+          "C": "Tak, odsyłacz (a) dopuszcza to dla materiałów i przedmiotów 1.4S"
         },
         "correct_option": "C",
-        "explanation": "Kod zgodności 1.4S może pozwolić na wspólny załadunek z innymi towarami, ale tylko w warunkach wskazanych w ADR. Nie jest to automatyczne zezwolenie na połączenie dowolnych klas i nie zastępuje sprawdzenia uwagi (a) w tabeli. Przed załadunkiem porównaj wszystkie towary i zastosuj warunki wyjątku; sam kod na przesyłce nie wystarcza. Podstawa: ADR 7.5.2.1, uwaga (a).",
+        "explanation": "W tabeli 7.5.2.1 na przecięciu nalepki 1.4 i nalepki 8 stoi odsyłacz (a). Oznacza on, że ładowanie razem jest dozwolone z materiałami i przedmiotami 1.4S. Naboje z grupy zgodności S mogą więc jechać razem z beczkami z nalepką 8 bez zgody władzy. Gdyby przesyłka z nalepką 1.4 miała inną grupę zgodności, na przykład 1.4G, ten odsyłacz by jej nie obejmował. Podstawa: ADR 7.5.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1, uwaga (a)",
+            "reference": "ADR 2025, 7.5.2.1 (tabela, uwaga a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -418,42 +418,42 @@
     {
       "id": "ADR-B-0426",
       "order": 426,
-      "clause": "ADR 2025, 7.5.2.1 tabela",
+      "clause": "ADR 2025, 7.5.2.1 (tabela, uwaga b)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Tak; wpis oznacza dwie osobne palety w tej samej jednostce transportowej”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Zapis „4.1 + 1” w tabeli oznacza jedną sztukę przesyłki z dwiema nalepkami: wzoru 4.1 oraz wzoru 1. Nie oznacza dwóch oddzielnych palet ani dwóch ładunków wymagających osobnych dokumentów. To rozróżnienie pomaga prawidłowo odczytać tabelę i ocenić możliwość wspólnego załadunku. Podstawa: ADR 7.5.2.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Tabela 7.5.2.1: przy nalepkach 1 i 9 stoi odsyłacz (b) – wyjątek dla urządzeń ratowniczych klasy 9."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Zapis „4.1 + 1” w tabeli oznacza jedną sztukę przesyłki z dwiema nalepkami: wzoru 4.1 oraz wzoru 1. Nie oznacza dwóch oddzielnych palet ani dwóch ładunków wymagających osobnych dokumentów. To rozróżnienie pomaga prawidłowo odczytać tabelę i ocenić możliwość wspólnego załadunku. Podstawa: ADR 7.5.2.1. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Odsyłacz (b): dozwolone ładowanie razem towarów klasy 1 i urządzeń ratowniczych klasy 9 (UN 2990, 3072 i 3268)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Oznacza dwa odrębne ładunki, które trzeba rozdzielić dokumentami”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Zapis „4.1 + 1” w tabeli oznacza jedną sztukę przesyłki z dwiema nalepkami: wzoru 4.1 oraz wzoru 1. Nie oznacza dwóch oddzielnych palet ani dwóch ładunków wymagających osobnych dokumentów. To rozróżnienie pomaga prawidłowo odczytać tabelę i ocenić możliwość wspólnego załadunku. Podstawa: ADR 7.5.2.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Zdjęcie nalepek nie jest dopuszczalne – odsyłacz (b) i tak dopuszcza ładowanie razem przy oznakowaniu."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte.",
+      "notes_on_conditions": "7.5.2.1 tabela i odsyłacz (b) s. 1305 (obraz PDF).",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0426",
         "module_id": "ADR-B-09",
-        "stem": "Na jednej sztuce przesyłki znajdują się dwie nalepki: 4.1 oraz 1. Czy zapis „4.1 + 1” w tabeli 7.5.2.1 oznacza dwie niezależne sztuki przesyłki?",
+        "stem": "Do pojazdu z materiałem wybuchowym z nalepką 1 mają trafić urządzenia ratownicze samonadmuchujące UN 2990 z nalepką 9. Co wynika z tabeli 7.5.2.1?",
         "options": {
-          "A": "Tak; wpis oznacza dwie osobne palety w tej samej jednostce transportowej",
-          "B": "Nie; zapis odnosi się do dwóch nalepek na jednej sztuce przesyłki",
-          "C": "Oznacza dwa odrębne ładunki, które trzeba rozdzielić dokumentami"
+          "A": "Nie mogą jechać razem, bo tabela nie pozwala łączyć nalepek 1 i 9",
+          "B": "Mogą jechać razem, bo odsyłacz (b) dotyczy urządzeń ratowniczych",
+          "C": "Mogą jechać razem, jeśli urządzenia przewiezie się bez nalepek"
         },
         "correct_option": "B",
-        "explanation": "Zapis „4.1 + 1” w tabeli zakazu ładowania razem odnosi się do jednej sztuki przesyłki, na której umieszczono dwie nalepki: 4.1 i 1. Nie oznacza dwóch palet ani dwóch osobnych ładunków. To rozróżnienie jest ważne, bo zgodność wspólnego załadunku ocenia się na podstawie oznaczeń rzeczywistych sztuk przesyłki. Podstawa: ADR 7.5.2.1.",
+        "explanation": "Zwykle tabela 7.5.2.1 nie pozwala ładować razem przesyłek z nalepką 1 i towarów z nalepką 9. Na przecięciu tych nalepek stoi jednak odsyłacz (b). Pozwala on ładować razem towary klasy 1 i urządzenia ratownicze klasy 9 o numerach UN 2990, 3072 i 3268. Zdjęcie nalepek z przesyłek nie jest rozwiązaniem, bo wymagane oznakowanie musi pozostać. Podstawa: ADR 7.5.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1 tabela",
+            "reference": "ADR 2025, 7.5.2.1 (tabela, uwaga b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -464,42 +464,42 @@
     {
       "id": "ADR-B-0427",
       "order": 427,
-      "clause": "ADR 2025, 7.5.2.1, uwaga (d)",
+      "clause": "ADR 2025, 7.5.2.1 (tabela, uwaga d)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Ładowca może sam ustalić zasady bez sprawdzania tabeli ADR”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Uwaga (d) w tabeli wspólnego załadunku dotyczy tylko wskazanych materiałów i konkretnych warunków. Nie daje ogólnej zgody na łączenie wszystkich materiałów wybuchowych z dowolnymi utleniaczami. Trzeba sprawdzić dokładny wpis tabeli i zastosować go do klasyfikacji przewożonych przesyłek. Podstawa: ADR 7.5.2.1, uwaga (d). Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Odsyłacz (d) dopuszcza ładowanie razem materiałów wybuchowych kruszących z azotanem amonu UN 1942."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Wszystkie materiały wybuchowe można łączyć z dowolnymi utleniaczami”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Uwaga (d) w tabeli wspólnego załadunku dotyczy tylko wskazanych materiałów i konkretnych warunków. Nie daje ogólnej zgody na łączenie wszystkich materiałów wybuchowych z dowolnymi utleniaczami. Trzeba sprawdzić dokładny wpis tabeli i zastosować go do klasyfikacji przewożonych przesyłek. Podstawa: ADR 7.5.2.1, uwaga (d). Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Odsyłacz (d): w oznakowaniu pojazdu ładunek traktuje się łącznie jako materiał wybuchowy kruszący klasy 1."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Uwaga (d) w tabeli wspólnego załadunku dotyczy tylko wskazanych materiałów i konkretnych warunków. Nie daje ogólnej zgody na łączenie wszystkich materiałów wybuchowych z dowolnymi utleniaczami. Trzeba sprawdzić dokładny wpis tabeli i zastosować go do klasyfikacji przewożonych przesyłek. Podstawa: ADR 7.5.2.1, uwaga (d). Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "Odsyłacz (d): warunek – oznakowanie, segregacja, rozmieszczenie i limity ilości jak dla materiału wybuchowego kruszącego klasy 1."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "7.5.2.1 odsyłacz (d) s. 1305–1306 (początek na s. 1305).",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0427",
         "module_id": "ADR-B-09",
-        "stem": "Ładowca próbuje uzasadnić wspólny załadunek materiału wybuchowego i dowolnego materiału utleniającego, powołując się na uwagę (d). Co jest prawidłowe?",
+        "stem": "W pojeździe mają jechać materiał wybuchowy kruszący z nalepką 1, inny niż UN 0083, i azotan amonu UN 1942 z nalepką 5.1. Co mówi odsyłacz (d) tabeli 7.5.2.1?",
         "options": {
-          "A": "Ładowca może sam ustalić zasady bez sprawdzania tabeli ADR",
-          "B": "Wszystkie materiały wybuchowe można łączyć z dowolnymi utleniaczami",
-          "C": "Uwaga (d) obejmuje tylko wskazane materiały i określone warunki"
+          "A": "Nie mogą jechać razem, bo azotanu amonu nie łączy się z wybuchowymi",
+          "B": "Mogą jechać razem, a azotan amonu oznakowuje się osobno jako 5.1",
+          "C": "Mogą, gdy cały ładunek traktuje się jak materiał wybuchowy klasy 1"
         },
         "correct_option": "C",
-        "explanation": "Uwaga (d) w tabeli wspólnego załadunku nie jest ogólną zgodą na łączenie wszystkich materiałów wybuchowych z dowolnymi utleniaczami. Dotyczy tylko wskazanych materiałów i warunków, dlatego trzeba porównać dokładne wpisy z klasyfikacją przesyłek. Ani własna ocena ładowcy, ani podobieństwo nazw nie zastępują sprawdzenia tabeli ADR. Podstawa: ADR 7.5.2.1, uwaga (d).",
+        "explanation": "W tabeli 7.5.2.1 na przecięciu nalepek 1 i 5.1 stoi odsyłacz (d). Pozwala on ładować razem materiały wybuchowe kruszące, z wyjątkiem UN 0083, z azotanem amonu UN 1942 i kilkoma innymi azotanami. Warunek jest taki, że w oznakowaniu pojazdu, segregacji, rozmieszczeniu i limitach ilości cały ładunek traktuje się jak materiał wybuchowy kruszący klasy 1. Azotanu nie traktuje się więc osobno jak zwykłego towaru klasy 5.1. Podstawa: ADR 7.5.2.1, uwaga (d).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1, uwaga (d)",
+            "reference": "ADR 2025, 7.5.2.1 (tabela, uwaga d)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -510,42 +510,42 @@
     {
       "id": "ADR-B-0428",
       "order": 428,
-      "clause": "ADR 2025, 7.5.2.2",
+      "clause": "ADR 2025, 7.5.2.3; 7.5.2.1",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Wystarczy sprawdzić klasę 1, bez uwzględnienia grup zgodności”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przy wspólnym załadunku różnych materiałów klasy 1 trzeba sprawdzić przypisane grupy zgodności i tabelę ADR, która wskazuje, jakie połączenia są dopuszczalne. Sama klasa 1 ani wygląd oznaczeń na opakowaniu nie wystarczą do oceny zgodności. Reguły te ograniczają ryzyko niebezpiecznej reakcji między materiałami wybuchowymi. Podstawa: ADR 7.5.2.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "7.5.2.3 zdanie 2: wyjątek – zakazy dla nalepek 1, 1.4, 1.5, 1.6 dotyczą też towarów w kontenerze."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Wystarczy porównać zewnętrzne oznaczenia opakowań”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przy wspólnym załadunku różnych materiałów klasy 1 trzeba sprawdzić przypisane grupy zgodności i tabelę ADR, która wskazuje, jakie połączenia są dopuszczalne. Sama klasa 1 ani wygląd oznaczeń na opakowaniu nie wystarczą do oceny zgodności. Reguły te ograniczają ryzyko niebezpiecznej reakcji między materiałami wybuchowymi. Podstawa: ADR 7.5.2.2. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Plomba nadawcy na drzwiach kontenera nie jest przesłanką z 7.5.2.3."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Przy wspólnym załadunku różnych materiałów klasy 1 trzeba sprawdzić przypisane grupy zgodności i tabelę ADR, która wskazuje, jakie połączenia są dopuszczalne. Sama klasa 1 ani wygląd oznaczeń na opakowaniu nie wystarczą do oceny zgodności. Reguły te ograniczają ryzyko niebezpiecznej reakcji między materiałami wybuchowymi. Podstawa: ADR 7.5.2.2. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "7.5.2.3 zdanie 2: zakazy z 7.5.2.1 dla nalepek wzoru 1 dotyczą towarów w kontenerze i innych towarów na pojeździe."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "7.5.2.3 s. 1306; tabela 7.5.2.1 s. 1305.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0428",
         "module_id": "ADR-B-09",
-        "stem": "Załadowca przewozi wyłącznie sztuki przesyłek klasy 1 o różnych grupach zgodności. Która reguła decyduje o wspólnym załadunku?",
+        "stem": "Na pojeździe stoi zamknięty kontener o pełnych ścianach ze skrzyniami z nalepką 1. Obok, poza kontenerem, są beczki z nalepką 3. Czy kontener zwalnia z zakazu ładowania razem?",
         "options": {
-          "A": "Wystarczy sprawdzić klasę 1, bez uwzględnienia grup zgodności",
-          "B": "Wystarczy porównać zewnętrzne oznaczenia opakowań",
-          "C": "Decyduje tabela zgodności grup materiałów wybuchowych 7.5.2.2"
+          "A": "Tak, bo towarów w takim kontenerze w ogóle nie bierze się pod uwagę",
+          "B": "Tak, jeśli drzwi kontenera zostały zaplombowane przez nadawcę",
+          "C": "Nie, przy nalepce 1 ten zakaz dotyczy też towarów w kontenerze"
         },
         "correct_option": "C",
-        "explanation": "Przy wspólnym przewozie przesyłek klasy 1 nie wystarczy sprawdzić samej klasy; trzeba zestawić grupy zgodności z tabelą 7.5.2.2. To, że oba opakowania mają nalepkę klasy 1 lub podobny wygląd, nie przesądza o dopuszczalności ich załadunku razem. Kierowca powinien upewnić się, że załadunek przygotowano zgodnie z tabelą, a nie oceniać zgodność na oko. Podstawa: ADR 7.5.2.2.",
+        "explanation": "Punkt 7.5.2.3 mówi, że przy zakazach ładowania razem do pojazdu zwykle nie bierze się pod uwagę materiałów w zamkniętych kontenerach o pełnych ścianach. Ta zasada ma jednak wyjątek dla przesyłek z nalepkami 1, 1.4, 1.5 lub 1.6. Zakazy dotyczące takich przesyłek stosuje się także do towarów w kontenerze i do innych towarów niebezpiecznych na tym samym pojeździe. Skrzyń z nalepką 1 i beczek z nalepką 3 nie można więc tak przewozić razem. Podstawa: ADR 7.5.2.3 i 7.5.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.2",
+            "reference": "ADR 2025, 7.5.2.3; 7.5.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -556,42 +556,42 @@
     {
       "id": "ADR-B-0429",
       "order": 429,
-      "clause": "ADR 2025, 7.5.2.1",
+      "clause": "ADR 2025, 7.5.2.4",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Tak, jeśli każda przesyłka ma własny dokument z odrębnym numerem”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Oddzielne dokumenty przewozowe nie znoszą zakazu wspólnego załadunku. Jeśli tabela ADR nie dopuszcza przewożenia danych sztuk razem, nie wolno umieszczać ich w jednej jednostce transportowej tylko dlatego, że każda ma własny numer lub dokument. Najpierw sprawdź zgodność ładunku, a potem dokumentację. Podstawa: ADR 7.5.2.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "7.5.2.4 wyłącza z zakazu podklasę 1.4 oraz UN 0161 i UN 0499 – nie każdy materiał klasy 1."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Oddzielne dokumenty przewozowe nie znoszą zakazu wspólnego załadunku. Jeśli tabela ADR nie dopuszcza przewożenia danych sztuk razem, nie wolno umieszczać ich w jednej jednostce transportowej tylko dlatego, że każda ma własny numer lub dokument. Najpierw sprawdź zgodność ładunku, a potem dokumentację. Podstawa: ADR 7.5.2.1. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "7.5.2.4: zakaz ładowania razem LQ z materiałami wybuchowymi – z wyłączeniem podklasy 1.4."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Tak, jeśli wszystkie przesyłki przewozi ten sam przewoźnik”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Oddzielne dokumenty przewozowe nie znoszą zakazu wspólnego załadunku. Jeśli tabela ADR nie dopuszcza przewożenia danych sztuk razem, nie wolno umieszczać ich w jednej jednostce transportowej tylko dlatego, że każda ma własny numer lub dokument. Najpierw sprawdź zgodność ładunku, a potem dokumentację. Podstawa: ADR 7.5.2.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "7.5.2.4 jest właśnie zakazem dla towarów LQ – zakazy ładowania razem przy LQ obowiązują."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte.",
+      "notes_on_conditions": "7.5.2.4 s. 1307. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0429",
         "module_id": "ADR-B-09",
-        "stem": "Sztuki przesyłek ADR mają zostać załadowane razem, lecz nie spełniają warunków tabeli 7.5.2.1. Czy odrębne dokumenty przewozowe same w sobie legalizują załadunek do jednego pojazdu?",
+        "stem": "Do furgonetki mają trafić kartony ze środkami czystości w ilościach ograniczonych (LQ) oraz skrzynka nabojów podklasy 1.4. Czy 7.5.2.4 zabrania takiego ładowania razem?",
         "options": {
-          "A": "Tak, jeśli każda przesyłka ma własny dokument z odrębnym numerem",
-          "B": "Nie; osobne dokumenty nie znoszą zakazu wspólnego załadunku",
-          "C": "Tak, jeśli wszystkie przesyłki przewozi ten sam przewoźnik"
+          "A": "Tak, towarów LQ nie wolno ładować razem z jakimkolwiek materiałem klasy 1",
+          "B": "Nie, zakaz z 7.5.2.4 nie obejmuje materiałów wybuchowych podklasy 1.4",
+          "C": "Nie, bo przy towarach LQ zakazy ładowania razem nie obowiązują"
         },
         "correct_option": "B",
-        "explanation": "Osobne dokumenty przewozowe nie pozwalają załadować razem przesyłek, których wspólny załadunek jest zabroniony przez ADR. Zgodność ocenia się według rodzaju i klasyfikacji towarów oraz tabeli wspólnego załadunku, a nie według liczby dokumentów. Najpierw sprawdź, czy przesyłki mogą być przewożone razem w jednej jednostce transportowej. Podstawa: ADR 7.5.2.1.",
+        "explanation": "Punkt 7.5.2.4 zabrania ładowania razem towarów zapakowanych w ilościach ograniczonych z materiałami wybuchowymi i przedmiotami z materiałami wybuchowymi. Zakaz ma jednak wyjątki, bo nie obejmuje podklasy 1.4 oraz UN 0161 i UN 0499. Naboje podklasy 1.4 mogą więc jechać razem z kartonami LQ. Przy materiałach wybuchowych innych podklas, na przykład 1.1, takie ładowanie razem byłoby zabronione. Podstawa: ADR 7.5.2.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1",
+            "reference": "ADR 2025, 7.5.2.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -602,42 +602,42 @@
     {
       "id": "ADR-B-0430",
       "order": 430,
-      "clause": "ADR 2025, 8.6.3.1; 8.6.4",
+      "clause": "ADR 2025, 1.9.5.2.2 (kategorie C i D)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Kategoria A wprowadza takie same ograniczenia jak kategoria E”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Kategoria tunelu A jest najmniej ograniczająca w systemie ADR i zasadniczo nie wprowadza ograniczeń tunelowych dla towarów niebezpiecznych. Nie jest równoważna kategorii E, która ma najszersze ograniczenia. Zawsze trzeba jednak uwzględnić znaki drogowe i inne ograniczenia niezwiązane z kodem tunelowym ADR. Podstawa: ADR 8.6.3.1 i 8.6.4. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "1.9.5.2.2: kategoria C obejmuje też działanie trujące, D – wybuch, działanie trujące i duży pożar."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Kategoria A jest najbardziej restrykcyjna w całej skali tuneli”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Kategoria tunelu A jest najmniej ograniczająca w systemie ADR i zasadniczo nie wprowadza ograniczeń tunelowych dla towarów niebezpiecznych. Nie jest równoważna kategorii E, która ma najszersze ograniczenia. Zawsze trzeba jednak uwzględnić znaki drogowe i inne ograniczenia niezwiązane z kodem tunelowym ADR. Podstawa: ADR 8.6.3.1 i 8.6.4. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "1.9.5.2.2: D obejmuje towary objęte ograniczeniem dla C – nie jest łagodniejsza."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Kategoria tunelu A jest najmniej ograniczająca w systemie ADR i zasadniczo nie wprowadza ograniczeń tunelowych dla towarów niebezpiecznych. Nie jest równoważna kategorii E, która ma najszersze ograniczenia. Zawsze trzeba jednak uwzględnić znaki drogowe i inne ograniczenia niezwiązane z kodem tunelowym ADR. Podstawa: ADR 8.6.3.1 i 8.6.4. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "1.9.5.2.2: tunel D – towary objęte ograniczeniem dla C oraz zagrażające dużym pożarem."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "1.9.5.2.2 s. 107–108 (kategoria C s. 107, D s. 108).",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0430",
         "module_id": "ADR-B-11",
-        "stem": "Na odcinku trasy znajduje się tunel kategorii A. Jaką ogólną rolę pełni ta kategoria w systemie ograniczeń?",
+        "stem": "Na trasie są dwa tunele: jeden kategorii C, a drugi kategorii D. Czym według 1.9.5.2.2 ograniczenie w tunelu D różni się od ograniczenia w tunelu C?",
         "options": {
-          "A": "Kategoria A wprowadza takie same ograniczenia jak kategoria E",
-          "B": "Kategoria A jest najbardziej restrykcyjna w całej skali tuneli",
-          "C": "Kategoria A jest najmniej ograniczająca w systemie A–E"
+          "A": "D dotyczy jedynie towarów trujących, a C jedynie wybuchowych",
+          "B": "D jest łagodniejsza od C i nie dotyczy w ogóle towarów wybuchowych",
+          "C": "D obejmuje to samo co C, a do tego towary grożące dużym pożarem"
         },
         "correct_option": "C",
-        "explanation": "Kategoria A oznacza najmniej ograniczający wariant w systemie tuneli ADR, więc sam kod tunelowy nie wprowadza tu zakazu przejazdu. Nie znaczy to jednak, że kierowca może zignorować znaki drogowe, zakazy lokalne lub ograniczenia wynikające z innych przepisów. Kategorie D i E są bardziej restrykcyjne, dlatego nie należy utożsamiać ich z A. Podstawa: ADR 8.6.3.1 i 8.6.4.",
+        "explanation": "Tunel kategorii C ogranicza przewóz towarów zagrażających wybuchem o bardzo dużym lub dużym zasięgu albo działaniem trującym o dużym zasięgu. Kategoria D obejmuje te same zagrożenia, a dodatkowo duży pożar. Dlatego lista towarów objętych ograniczeniem w tunelu D zaczyna się od towarów objętych ograniczeniem dla tunelu C. Kategorie od A do E są coraz bardziej ograniczające, więc D nie jest łagodniejsza od C. Podstawa: ADR 1.9.5.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.1; 8.6.4",
+            "reference": "ADR 2025, 1.9.5.2.2 (kategorie C i D)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -648,42 +648,42 @@
     {
       "id": "ADR-B-0431",
       "order": 431,
-      "clause": "ADR 2025, 8.6.3.1",
+      "clause": "ADR 2025, 1.9.5.3.6; 8.6.3.1",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Zignorować znak, ponieważ kod (-) znosi wszystkie ograniczenia tunelowe i lokalne niezależnie od ich podstawy”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Kod „(-)” oznacza, że ADR nie przypisał temu towarowi własnego ograniczenia tunelowego, ale nie unieważnia znaków drogowych ani innych zasad trasy. Dlatego kierowca musi stosować się do znaku przy tunelu. Nie oznacza to ani ogólnego zwolnienia z ograniczeń, ani nakazu użycia tunelu kategorii E. Podstawa: ADR 8.6.3.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "1.9.5.3.6: ograniczenia tunelowe nie dotyczą przewozu towarów oznaczonych „(-)” w kolumnie (15)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Wjechać wyłącznie do tunelu kategorii E, bo zapis (-) wskazuje tę kategorię”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Kod „(-)” oznacza, że ADR nie przypisał temu towarowi własnego ograniczenia tunelowego, ale nie unieważnia znaków drogowych ani innych zasad trasy. Dlatego kierowca musi stosować się do znaku przy tunelu. Nie oznacza to ani ogólnego zwolnienia z ograniczeń, ani nakazu użycia tunelu kategorii E. Podstawa: ADR 8.6.3.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Zdejmowanie lub zasłanianie tablic jest niedopuszczalne – oznakowanie wymaga dział 5.3."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Kod „(-)” oznacza, że ADR nie przypisał temu towarowi własnego ograniczenia tunelowego, ale nie unieważnia znaków drogowych ani innych zasad trasy. Dlatego kierowca musi stosować się do znaku przy tunelu. Nie oznacza to ani ogólnego zwolnienia z ograniczeń, ani nakazu użycia tunelu kategorii E. Podstawa: ADR 8.6.3.1. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "1.9.5.3.6 i 8.6.3.1: towar ze znakiem „(-)” nie podlega ograniczeniom przewozu przez tunele."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Etap 4x37: pytanie rozróżnia brak kodowego ograniczenia ADR od znaków drogowych obowiązujących na trasie; pełne porównanie urzędowego tekstu i akceptacja specjalisty nadal oczekują.",
+      "notes_on_conditions": "1.9.5.3.6 s. 109; 8.6.3.1 s. 1338.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0431",
         "module_id": "ADR-B-11",
-        "stem": "Kod tunelowy „(-)” znajduje się w kolumnie 15 tabeli A. Na trasie jest jednak znak drogowy ograniczający wjazd do tunelu. Co ma zrobić kierowca?",
+        "stem": "Pojazd ma tablice pomarańczowe, ale wiezie jedynie towar ze znakiem „(-)” w kolumnie (15) tabeli A. Przed tunelem stoi znak z tabliczką E. Co wynika z 1.9.5.3.6?",
         "options": {
-          "A": "Zignorować znak, ponieważ kod (-) znosi wszystkie ograniczenia tunelowe i lokalne niezależnie od ich podstawy",
-          "B": "Wjechać wyłącznie do tunelu kategorii E, bo zapis (-) wskazuje tę kategorię",
-          "C": "Nie traktować kodu (-) jako zwolnienia z pozostałych ograniczeń na trasie"
+          "A": "Musi ominąć tunel, bo pojazd z tablicami pomarańczowymi nie wjedzie do E",
+          "B": "Może wjechać, jeśli kierowca zdejmie lub zasłoni tablice pomarańczowe",
+          "C": "Może wjechać, bo przewóz towaru ze znakiem „(-)” jest z nich wyłączony"
         },
         "correct_option": "C",
-        "explanation": "Kod tunelowy „(-)” oznacza brak przypisanego ograniczenia tunelowego ADR dla tego towaru, ale nie daje prawa do ignorowania znaków na drodze. Jeżeli znak zakazuje wjazdu, kierowca musi go respektować niezależnie od wpisu w tabeli A. Kod ten nie nakazuje też wybierania tunelu kategorii E. Zawsze sprawdź zarówno dokumentację przewozu, jak i oznakowanie trasy. Podstawa: ADR 8.6.3.1.",
+        "explanation": "Ograniczenia przewozu przez tunele dotyczą jednostek transportowych, które muszą mieć tablice pomarańczowe. Punkt 1.9.5.3.6 wyłącza jednak przewóz towarów, przy których w kolumnie (15) tabeli A podano znak „(-)”. Według 8.6.3.1 taki towar nie podlega żadnym ograniczeniom przewozu przez tunele, także w tunelu kategorii E. Tablic pomarańczowych nie wolno przy tym zdejmować ani zasłaniać, bo nadal wymaga ich dział 5.3. Podstawa: ADR 1.9.5.3.6 i 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.1",
+            "reference": "ADR 2025, 1.9.5.3.6; 8.6.3.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -694,42 +694,42 @@
     {
       "id": "ADR-B-0432",
       "order": 432,
-      "clause": "ADR 2025, 8.6.3.2",
+      "clause": "ADR 2025, 8.6.3.2; 8.6.3.1",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe: wygoda trasy nie rozstrzyga, które ograniczenie ma zastosowanie do przewożonego ładunku."
+          "rationale": "8.6.3.2: kod najbardziej restrykcyjny, nie kod towaru o największej ilości."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowe: nie wybiera się kodu tylko według masy największego towaru, nawet jeśli inny ładunek podlega surowszemu ograniczeniu."
+          "rationale": "8.6.3.1: „(-)” oznacza brak ograniczeń dla danego towaru – nie znosi kodu E drugiego towaru."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Właściwe: przy różnych kodach trzeba ustalić ograniczenie zgodnie z regułą ADR 8.6.3.2."
+          "rationale": "8.6.3.2: do całego ładunku stosuje się kod odpowiadający największym ograniczeniom – tu E."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending. Etap 4x122: zaktualizowano dystraktory i rationale; klucz bez zmian. Etap 4x122: poprawiono wiarygodność dystraktorów, klucz i status needs_review bez zmian. Etap 4x122: dystraktory dopracowane, poprawna litera i status bez zmian.",
+      "notes_on_conditions": "8.6.3.1–8.6.3.2 s. 1338. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0432",
         "module_id": "ADR-B-11",
-        "stem": "Jednostka przewozi dwa towary ADR z różnymi kodami ograniczeń tunelowych. Jak ustala się zakres ograniczeń?",
+        "stem": "Jednostka z tablicami pomarańczowymi wiezie dwa towary: jeden ma w kolumnie (15) znak „(-)”, drugi kod E. Większość ładunku to towar ze znakiem „(-)”. Jaki kod przyjąć dla ładunku?",
         "options": {
-          "A": "Wybiera kod tunelowy, który pozwala przejechać najkrótszą trasą",
-          "B": "Stosuje kod towaru o największej masie, nawet jeśli inny towar ma kod z surowszym ograniczeniem",
-          "C": "Stosuje się kod najbardziej restrykcyjny, właściwy dla danego przewozu"
+          "A": "Znak „(-)”, bo ten towar stanowi większą część całego ładunku",
+          "B": "Nie ustala się kodu, bo znak „(-)” znosi ograniczenia całej jednostki",
+          "C": "Kod E, bo znak „(-)” nie łagodzi ograniczeń wynikających z kodu E"
         },
         "correct_option": "C",
-        "explanation": "Jeśli jeden pojazd przewozi towary z różnymi kodami tunelowymi, należy ustalić ograniczenia dla całego ładunku według najbardziej restrykcyjnej właściwej reguły. Najkrótsza droga nie może decydować o wyborze kodu. Nie wybiera się też kodu tylko na podstawie masy największej partii, bo nawet mniejsza przesyłka może wykluczać przejazd. Podstawa: ADR 8.6.3.2.",
+        "explanation": "Gdy w jednostce transportowej są towary z różnymi kodami tunelowymi, dla całego ładunku stosuje się kod odpowiadający największym ograniczeniom. Znak „(-)” oznacza, że dany towar nie podlega ograniczeniom, ale nie zdejmuje ograniczeń z innych towarów. Tutaj jedynym kodem ograniczającym jest E, więc ta jednostka musi ominąć tunele kategorii E. O kodzie nie decyduje też to, którego towaru jest najwięcej. Podstawa: ADR 8.6.3.1 i 8.6.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.2",
+            "reference": "ADR 2025, 8.6.3.2; 8.6.3.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -740,42 +740,42 @@
     {
       "id": "ADR-B-0433",
       "order": 433,
-      "clause": "ADR 2025, 1.9.5.3.5",
+      "clause": "ADR 2025, 1.9.5.1",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Znak kategorii E trzeba porównać z kodem tunelowym towaru, aby ustalić, czy dany przewóz może wjechać. Podstawa: ADR 1.9.5.3.5 i 8.6.3."
+          "rationale": "1.9.5.1: właściwa władza – charakterystyka tunelu, ocena ryzyka, trasy alternatywne, zarządzanie ruchem."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nie każdy przewóz ADR jest automatycznie zabroniony; decyduje kod tunelowy i ograniczenie wskazane na znaku. Podstawa: ADR 1.9.5.3.5 i 8.6.3."
+          "rationale": "1.9.5.1: kategorię ustala właściwa władza, nie według samej długości i liczby pasów."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Sama nalepka klasy nie zastępuje sprawdzenia kodu tunelowego przypisanego do towaru. Podstawa: ADR 1.9.5.3.5 i 8.6.3."
+          "rationale": "Przewoźnik nie ustala kategorii tunelu – robi to właściwa władza (1.9.5.1)."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte.",
+      "notes_on_conditions": "1.9.5.1 s. 106. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0433",
         "module_id": "ADR-B-11",
-        "stem": "Znak przed tunelem zawiera literę E dla przewozu towarów niebezpiecznych. Do czego odnosi się ograniczenie?",
+        "stem": "Na mapie przewoźnika tunel ma kategorię D. Kto według 1.9.5.1 zalicza tunel do takiej kategorii i co bierze przy tym pod uwagę?",
         "options": {
-          "A": "Dotyczy jednostek transportowych, którym ADR zakazuje wjazdu do tunelu E",
-          "B": "Zakaz obejmuje każdy przewóz ADR, nawet jeśli kod towaru nie ogranicza wjazdu do tej kategorii tunelu.",
-          "C": "O dopuszczalności decyduje sama nalepka klasy zagrożenia, bez sprawdzania kodu tunelowego."
+          "A": "Właściwa władza, po ocenie tunelu, ryzyka i tras alternatywnych",
+          "B": "Zarządca tunelu, według długości tunelu i liczby pasów ruchu",
+          "C": "Przewoźnik, według kodów tunelowych towarów, które wozi najczęściej"
         },
         "correct_option": "A",
-        "explanation": "Litera E oznacza kategorię tunelu, a nie automatyczny zakaz wjazdu dla każdego pojazdu ADR. Kierowca musi porównać kategorię tunelu z kodem tunelowym towaru i uwzględnić oznakowanie drogi. Sama nalepka klasy zagrożenia nie wystarcza do oceny, czy przejazd jest dozwolony; gdy kod wyklucza wjazd, trzeba wybrać inną trasę. Podstawa: ADR 1.9.5.3.5 i 8.6.3.",
+        "explanation": "Według 1.9.5.1 tunel do jednej z kategorii od A do E zalicza właściwa władza, gdy wprowadza ograniczenia przewozu towarów niebezpiecznych. Bierze przy tym pod uwagę charakterystykę tunelu i ocenę ryzyka. Uwzględnia też dostępność i odpowiedniość tras alternatywnych, inne rodzaje transportu oraz warunki zarządzania ruchem. Ten sam tunel może mieć różne kategorie zależnie od pory dnia lub dnia tygodnia. Podstawa: ADR 1.9.5.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.9.5.3.5",
+            "reference": "ADR 2025, 1.9.5.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -786,42 +786,42 @@
     {
       "id": "ADR-B-0434",
       "order": 434,
-      "clause": "ADR 2025, 8.6.3.1; 3.2 tabela A kol. (15)",
+      "clause": "ADR 2025, 8.6.3.1; 3.2.1 kolumna (15)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „W kolumnie 18, gdzie opisuje się szczególne wymagania dotyczące przewozu i załadunku towaru”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Kod ograniczeń tunelowych znajduje się w kolumnie 15 tabeli A przy właściwym numerze UN, czyli czterocyfrowym identyfikatorze towaru niebezpiecznego. Kolumna 18 zawiera przepisy szczególne dotyczące przewozu, a kolumna 12 dotyczy informacji o cysternach; żadna z nich nie zastępuje kodu tunelowego. Po odczytaniu kodu porównaj go z kategorią tunelu i postacią przewozu. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Kolumna (3b) zawiera kod klasyfikacyjny – kod tunelowy jest w kolumnie (15) (8.6.3.1)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „W kolumnie 12, gdzie podaje się dane o typie cysterny oraz wymaganiach dotyczących jej użycia”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Kod ograniczeń tunelowych znajduje się w kolumnie 15 tabeli A przy właściwym numerze UN, czyli czterocyfrowym identyfikatorze towaru niebezpiecznego. Kolumna 18 zawiera przepisy szczególne dotyczące przewozu, a kolumna 12 dotyczy informacji o cysternach; żadna z nich nie zastępuje kodu tunelowego. Po odczytaniu kodu porównaj go z kategorią tunelu i postacią przewozu. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1. Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Kod klasyfikacyjny F1 nie jest kodem tunelowym – żadna jego litera nie określa tuneli."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Kod ograniczeń tunelowych znajduje się w kolumnie 15 tabeli A przy właściwym numerze UN, czyli czterocyfrowym identyfikatorze towaru niebezpiecznego. Kolumna 18 zawiera przepisy szczególne dotyczące przewozu, a kolumna 12 dotyczy informacji o cysternach; żadna z nich nie zastępuje kodu tunelowego. Po odczytaniu kodu porównaj go z kategorią tunelu i postacią przewozu. Podstawa: ADR 3.2.1, kolumna 15; 8.6.3.1. Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "8.6.3.1: kod ograniczeń podany jest w nawiasie w dolnej części komórki kolumny (15) tabeli A."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "8.6.3.1 s. 1338; 3.2.1 – opis kolumn (3b) i (15).",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0434",
         "module_id": "ADR-B-11",
-        "stem": "Jaki element dokumentacji pomaga ustalić kod ograniczenia tunelowego dla towaru ADR?",
+        "stem": "Kierowca widzi w kolumnie (3b) tabeli A kod klasyfikacyjny F1 i uważa, że to kod ograniczeń przewozu przez tunele. Gdzie według 8.6.3.1 jest ten kod?",
         "options": {
-          "A": "W kolumnie 18, gdzie opisuje się szczególne wymagania dotyczące przewozu i załadunku towaru",
-          "B": "W kolumnie 12, gdzie podaje się dane o typie cysterny oraz wymaganiach dotyczących jej użycia",
-          "C": "Kod znajduje się w kolumnie 15 tabeli A przy odpowiednim numerze UN"
+          "A": "W kolumnie (3b), bo kod klasyfikacyjny wskazuje też dozwolone kategorie tuneli",
+          "B": "W kolumnie (3b), ale z kodu F1 odczytuje się jedynie literę F",
+          "C": "W nawiasie w dolnej części komórki kolumny (15) przy numerze UN towaru"
         },
         "correct_option": "C",
-        "explanation": "Kod ograniczenia tunelowego znajduje się w kolumnie 15 tabeli A przy właściwym numerze UN. Kolumna 18 zawiera przepisy szczególne dotyczące przewozu, a kolumna 12 informacje o cysternach, więc nie zastępują kodu tunelowego. Po odczytaniu kodu trzeba zastosować zasady rozdziału 8.6, uwzględniając sposób przewozu. Podstawa: ADR 3.2, tabela A, kolumna 15; 8.6.3.1.",
+        "explanation": "Kod klasyfikacyjny w kolumnie (3b), na przykład F1, opisuje rodzaj zagrożenia towaru, ale nie jest kodem tunelowym. Według 8.6.3.1 ograniczenia przewozu przez tunele określa kod z kolumny (15) tabeli A. Ten kod jest podany w nawiasie w dolnej części komórki, na przykład (D/E). Cyfra w górnej części tej komórki to kategoria transportowa, a nie kod tunelowy. Podstawa: ADR 8.6.3.1 i 3.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.1; 3.2 tabela A kol. (15)",
+            "reference": "ADR 2025, 8.6.3.1; 3.2.1 kolumna (15)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -832,42 +832,42 @@
     {
       "id": "ADR-B-0435",
       "order": 435,
-      "clause": "ADR 2025, 5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4 (instrukcje pisemne)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
+          "rationale": "Instrukcje pisemne: czynności, jeżeli możliwe i bezpieczne; oddalić się i poinformować inne osoby."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
+          "rationale": "Rozstawienie znaków to czynność „jeżeli jest to możliwe i bezpieczne” – nie przed ucieczką z dymu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
+          "rationale": "Instrukcje pisemne: oddalić się od miejsca zagrożenia i stosować się do zaleceń służb ratowniczych."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte. Etap 4x116: redakcja językowa/dystraktorów; nie stanowi zatwierdzenia prawnego.",
+      "notes_on_conditions": "5.4.3.4 wzór instrukcji pisemnych s. 975.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0435",
         "module_id": "ADR-B-11",
-        "stem": "Podczas pożaru przestrzeni ładunkowej w tunelu członek załogi chce ją otworzyć i samodzielnie gasić. Co wynika z instrukcji pisemnej?",
+        "stem": "W tunelu zapaliła się ładownia pojazdu ADR i dym szybko gęstnieje. Pomocnik chce przed ucieczką rozstawić za pojazdem stojące znaki ostrzegawcze. Co wynika z instrukcji pisemnych?",
         "options": {
-          "A": "Nie gasić samodzielnie pożaru obejmującego przestrzeń ładunkową",
-          "B": "Otworzyć drzwi ładowni i użyć gaśnicy, jeśli można szybko dotrzeć do źródła ognia",
-          "C": "Spróbować ograniczyć ogień wodą, zanim rozprzestrzeni się na cały pojazd"
+          "A": "Zrezygnować ze znaków, oddalić się i ostrzec inne osoby w tunelu",
+          "B": "Najpierw rozstawić znaki, bo to obowiązek przed opuszczeniem pojazdu",
+          "C": "Zostać przy pojeździe i kierować ruchem do przybycia straży"
         },
         "correct_option": "A",
-        "explanation": "Gdy pali się przestrzeń ładunkowa z towarami niebezpiecznymi, załoga nie powinna jej otwierać ani próbować gasić pożaru od środka. Należy oddalić się w bezpieczne miejsce, ostrzec innych i wezwać służby. Nawet pozornie niewielki ogień może po otwarciu przedziału gwałtownie się rozwinąć, a dym lub opary mogą być niebezpieczne. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą wykonać czynności po wypadku tylko wtedy, gdy jest to możliwe i bezpieczne. Dotyczy to także założenia kamizelki i rozstawienia stojących znaków ostrzegawczych. Przy pożarze ładowni w tunelu dym i ogień szybko odcinają drogę ucieczki, a załoga nie powinna gasić takiego pożaru. Trzeba oddalić się, poinformować inne osoby o konieczności oddalenia się i stosować się do zaleceń służb ratowniczych. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
