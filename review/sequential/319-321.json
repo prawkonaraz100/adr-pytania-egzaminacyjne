@@ -1,0 +1,92 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-11-09",
+  "range": "ADR-B-0319..ADR-B-0321",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "Preliminary A/B/C editorial source check",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0320",
+      "sequence": 320,
+      "module_id": "ADR-B-10",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Kontener z towarem niebezpiecznym płynie barką po Renie z Niemiec do Holandii, a potem jedzie ciężarówką do Polski. Jakie międzynarodowe przepisy o towarach niebezpiecznych dotyczą odcinka barką?",
+        "options": {
+          "A": "Kodeks IMDG, bo barka jest statkiem jak przy przewozie morskim",
+          "B": "Umowa ADN o przewozie towarów śródlądowymi drogami wodnymi",
+          "C": "Regulamin RID, bo dotyczy on przewozów innych niż drogowe"
+        },
+        "correct_option": "B",
+        "explanation": "Każda gałąź transportu ma własne międzynarodowe przepisy o towarach niebezpiecznych. ADR dotyczy dróg, RID kolei, Kodeks IMDG transportu morskiego, a ADN przewozu śródlądowymi drogami wodnymi, czyli rzekami i kanałami. Barka na Renie płynie drogą śródlądową, więc na tym odcinku stosuje się ADN, a nie IMDG. Od chwili załadunku na ciężarówkę obowiązuje ADR. Podstawa: ADR 1.2.3, skrót ADN.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.2.3 (ADN); 1.2.1 (Kodeks IMDG)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full independent specialist approval pending; this snapshot does not authorize release.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0321",
+      "sequence": 321,
+      "module_id": "ADR-B-10",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Butle wielokrotnego napełniania z gazem, zatwierdzone przez amerykański Departament Transportu (DOT), dotarły do Polski całą drogę ciężarówką, bez odcinka morskiego ani lotniczego. Czy 1.1.4.7.1 pozwala przewieźć je dalej do odbiorcy?",
+        "options": {
+          "A": "Nie, bo przepis dotyczy butli nadanych w łańcuchu z morzem lub lotem",
+          "B": "Tak, bo zatwierdzenie DOT zastępuje w Europie zatwierdzenie według ADR",
+          "C": "Tak, jeżeli butle mają ważne badanie okresowe według przepisów USA"
+        },
+        "correct_option": "A",
+        "explanation": "Butle zatwierdzone w USA przez DOT nie spełniają zwykle europejskich wymagań dla naczyń ciśnieniowych. ADR robi dla nich wyjątek przy przywozie gazów, ale tylko gdy butle nadano w łańcuchu transportowym z przewozem morskim lub lotniczym. Wtedy można je przewieźć od miejsca tymczasowego składowania do odbiorcy końcowego. Przy przewozie wyłącznie drogowym ten wyjątek nie działa, a ważne badanie według przepisów USA niczego nie zmienia. Podstawa: ADR 1.1.4.7.1 i 1.1.4.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.7.1; 1.1.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full independent specialist approval pending; this snapshot does not authorize release.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
