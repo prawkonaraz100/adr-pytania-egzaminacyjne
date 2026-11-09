@@ -25,7 +25,7 @@ class LiteralReview0316To0330Tests(unittest.TestCase):
             self.assertIsNone(row["reviewer"])
 
     def test_bank_blob_matches_expected_sha(self):
-        digest = hashlib.sha1(BANK.read_bytes()).hexdigest()
+        raw = BANK.read_bytes()\n        digest = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
         self.assertEqual(digest, EXPECTED_BANK_SHA)
 
     def test_bank_records_keep_keys_modules_and_draft_status(self):
