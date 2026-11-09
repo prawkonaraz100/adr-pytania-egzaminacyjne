@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Firma przewozi towary niebezpieczne dużego ryzyka w zakresie objętym ADR 1.10.3.2. Który element powinien zawierać plan ochrony?",
+        "stem": "Na szkoleniu z ochrony pracownik pyta, dlaczego część towarów ADR nazywa się „towarami niebezpiecznymi dużego ryzyka”. Co decyduje o tym pojęciu?",
         "options": {
-          "A": "Sam wykaz kontaktów, bez określenia odpowiedzialności",
-          "B": "Podział odpowiedzialności za ochronę między uprawnione i kompetentne osoby",
-          "C": "Opis trasy bez procedury zgłaszania incydentów"
+          "A": "To, że towar może się zapalić od iskry przy zwykłym przeładunku",
+          "B": "To, że towar może być użyty w zamachu i spowodować poważne skutki",
+          "C": "To, że towar ma dużą wartość i często pada łupem zwykłych złodziei"
         },
         "correct_option": "B",
-        "explanation": "Plan ochrony powinien jasno określać, kto odpowiada za poszczególne działania i czy te osoby mają odpowiednie uprawnienia oraz kompetencje. Sama lista telefonów nie wyznacza odpowiedzialności, a sam opis trasy nie określa, jak reagować na incydenty ochrony. Plan musi obejmować konkretne zadania zapobiegawcze i sposób postępowania w razie zagrożenia. Podstawa: ADR 1.10.3.2.2(a).",
+        "explanation": "Towary niebezpieczne dużego ryzyka to takie, które ktoś mógłby wykorzystać niezgodnie z przeznaczeniem w zamachu terrorystycznym. Skutkiem mogłyby być liczne ofiary, masowe zniszczenia lub, zwłaszcza przy klasie 7, dezorganizacja życia społecznego i gospodarczego. Łatwość zapalenia ani cena towaru nie decydują o tym pojęciu. Konkretne towary i progi ilości podaje tabela 1.10.3.1.2, a przy ich przewozie potrzebny jest plan ochrony. Podstawa: ADR 1.10.3.1.1 i 1.10.3.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.2.2(a)",
+            "reference": "ADR 2025, 1.10.3.1.1; 1.10.3.1.2; 1.10.3.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewożone są towary niebezpieczne dużego ryzyka, do których ma zastosowanie ADR 1.10.3.3. Jakie zabezpieczenie jest wymagane?",
+        "stem": "Przewoźnik zabezpieczył ciągnik blokadą uniemożliwiającą uruchomienie silnika. Odczepioną naczepę z towarem niebezpiecznym dużego ryzyka zostawia na placu bez żadnego zabezpieczenia. Czy spełnia to wymóg ADR 1.10.3.3?",
         "options": {
-          "A": "Stosowanie skutecznych środków zapobiegania kradzieży pojazdu i ładunku",
-          "B": "Ograniczyć ochronę do zamknięcia pojazdu i oznaczenia go nazwą firmy.",
-          "C": "Stosować dodatkowe zabezpieczenia tylko podczas jazdy, a nie podczas postoju."
+          "A": "Nie, bo środki mają chronić przed kradzieżą także naczepę z ładunkiem",
+          "B": "Tak, bo wystarczy zabezpieczyć sam pojazd silnikowy przed uruchomieniem",
+          "C": "Tak, jeżeli naczepa stoi na tym placu krócej niż dwie godziny"
         },
         "correct_option": "A",
-        "explanation": "Towary niebezpieczne dużego ryzyka wymagają środków, które utrudniają kradzież pojazdu i ładunku oraz nieuprawniony dostęp. Ochrona musi działać także podczas postoju, a nie wyłącznie w czasie jazdy. Sama nazwa firmy na pojeździe ani zamknięte okno nie są wystarczającym zabezpieczeniem. Dobierz środki do ryzyka i warunków przewozu. Podstawa: ADR 1.10.3.3.",
+        "explanation": "Przy towarach dużego ryzyka ADR wymaga urządzeń, układów lub działań, które skutecznie zapobiegają kradzieży pojazdów i ich ładunku. Naczepa też jest pojazdem w rozumieniu umowy ADR, a złodziej może podpiąć ją do innego ciągnika i odjechać z ładunkiem. Blokada samego ciągnika nie chroni więc towaru, a krótki postój niczego tu nie zmienia. Zabezpieczenia nie mogą przy tym utrudniać akcji ratowniczo-gaśniczej. Podstawa: ADR 1.10.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.3",
+            "reference": "ADR 2025, 1.10.3.3; Umowa ADR, art. 1 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca prowadzi przewóz ADR, dla którego wymagane są dokumenty przewidziane w 8.1.2. Który zestaw powinien znajdować się w kabinie?",
+        "stem": "Nadawca wysyła UN 0190 MATERIAŁ WYBUCHOWY PRÓBKI i dołącza do dokumentu przewozowego kopię świadectwa dopuszczenia wydanego przez właściwą władzę. Gdzie ta kopia powinna być podczas przewozu?",
         "options": {
-          "A": "Dokument przewozowy ADR i instrukcje pisemne, bez indywidualnych dokumentów tożsamości załogi",
-          "B": "Dokumenty przewozowe i dokument kierowcy, bez instrukcji pisemnych, jeśli kierowca zna procedury",
-          "C": "Dokumenty przewozowe, instrukcje pisemne oraz wymagane dokumenty identyfikacyjne załogi; pozostałe zaświadczenia, jeśli mają zastosowanie"
+          "A": "W biurze przewoźnika, do okazania na wezwanie kontroli",
+          "B": "Przy przesyłce, w przestrzeni ładunkowej pojazdu",
+          "C": "W kabinie kierowcy, razem z dokumentem przewozowym"
         },
         "correct_option": "C",
-        "explanation": "W kabinie powinny być dokumenty wymagane dla konkretnego przewozu, w tym dokument przewozowy ADR i instrukcje pisemne. Gdy przepisy tego wymagają, załoga musi mieć także odpowiednie dokumenty identyfikacyjne, a przy określonym pojeździe lub ładunku również dodatkowe świadectwa. Znajomość procedur nie zastępuje instrukcji, a sam dokument kierowcy nie zastępuje pozostałych wymaganych dokumentów. Podstawa: ADR 8.1.2.1–8.1.2.2 oraz 1.10.1.4, gdy ma zastosowanie.",
+        "explanation": "Dla niektórych materiałów wybuchowych, w tym próbek UN 0190, ADR wymaga dołączenia do dokumentu przewozowego kopii świadectwa dopuszczenia wydanego przez właściwą władzę. Świadectwo zawiera warunki przewozu, więc musi być pod ręką kierowcy i osób kontrolujących. Dlatego kopię przewozi się w kabinie kierowcy, tak jak dokument przewozowy. Kopia zostawiona w biurze albo włożona do ładowni nie spełnia tego wymogu. Podstawa: ADR 5.4.1.2.1 (c) i 8.1.2.2 (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.2.1–8.1.2.2",
+            "reference": "ADR 2025, 8.1.2.2 (c); 5.4.1.2.1 (c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
