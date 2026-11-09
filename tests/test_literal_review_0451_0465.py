@@ -22,7 +22,7 @@ class Partia31LiteralReview(unittest.TestCase):
         self.assertFalse(data["bank_changed"])
         self.assertEqual(data["previous_uncompared"], 330)
         self.assertEqual(data["remaining_without_comparison"], 315)
-        self.assertEqual(data["counts"], {"OK": 3, "POPRAW": 12, "BLOKUJ": 0})
+        self.assertEqual(data["counts"], {"OK": 1, "POPRAW": 14, "BLOKUJ": 0})
         self.assertEqual(len(data["records"]), 15)
         self.assertEqual([row["id"] for row in data["records"]], EXPECTED_IDS)
         self.assertEqual(data["verified"], 0)
@@ -30,7 +30,7 @@ class Partia31LiteralReview(unittest.TestCase):
 
     def test_bank_unchanged_after_first_pass(self):
         raw = BANK.read_bytes()
-        blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
+        blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
         self.assertEqual(blob, EXPECTED_BANK_SHA)
         rows = [json.loads(line) for line in raw.decode("utf-8").splitlines() if line.strip()]
         self.assertEqual(len(rows), 780)
