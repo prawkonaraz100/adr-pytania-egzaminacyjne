@@ -307,18 +307,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kto powinien otrzymywać szczegółowe informacje o przewozie dużego ryzyka w ramach zasad ochrony?",
+        "stem": "Firma ustala zasady dostępu do informacji z planu ochrony o przewozach towarów dużego ryzyka. Jak według 1.10.3.2.2 (h) należy ograniczyć dostęp do tych informacji?",
         "options": {
-          "A": "Każdy zainteresowany, nawet jeśli nie potrzebuje danych do swoich obowiązków",
-          "B": "Wyłącznie osoby spoza firmy, ponieważ pracownicy nie powinni znać tych danych",
-          "C": "Udostępniać dane osobom, które potrzebują ich do swoich zadań, zgodnie z ADR"
+          "A": "Może je poznać dowolny pracownik firmy, który o nie poprosi",
+          "B": "Ukrywa się je też przed kontrolą, mimo wymagań innych przepisów ADR",
+          "C": "Dostęp mają osoby upoważnione, z zachowaniem innych wymagań ADR"
         },
         "correct_option": "C",
-        "explanation": "Informacje o przewozie towarów dużego ryzyka powinny trafiać do osób, które potrzebują ich do wykonania swoich obowiązków. Nie należy udostępniać szczegółów każdemu zainteresowanemu, ale ograniczenie dostępu nie może blokować informacji, których przekazania wymagają przepisy. W praktyce firma powinna określić, kto potrzebuje danych i do jakich zadań. Podstawa: ADR 1.10.3.2.2(h).",
+        "explanation": "Plan ochrony powinien zawierać działania, które ograniczają dostęp do informacji o operacjach transportowych z tego planu do osób upoważnionych. Firma musi więc z góry ustalić, kto ma takie upoważnienie, a nie dawać dane każdemu, kto zapyta. Te działania nie mogą jednak kolidować z innymi przepisami ADR o podawaniu informacji. Dokument przewozowy czy instrukcje pisemne nadal trzeba mieć i okazać, gdy wymagają tego przepisy. Podstawa: ADR 1.10.3.2.2 (h).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.2.2(h)",
+            "reference": "ADR 2025, 1.10.3.2.2 (h)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -348,18 +348,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pojazd przewozi towary dużego ryzyka objęte 1.10.3.3. Kiedy urządzenia zabezpieczające przed kradzieżą mają być skuteczne?",
+        "stem": "Przewoźnik wiezie towary niebezpieczne dużego ryzyka z tabeli 1.10.3.1.2. Jakie środki przeciw kradzieży wymaga dla takiego pojazdu 1.10.3.3?",
         "options": {
-          "A": "Zabezpieczenia mają działać przed odjazdem, a po rozpoczęciu jazdy można je wyłączyć",
-          "B": "Zabezpieczenia mają być skuteczne przez cały przewóz, zgodnie z warunkami ADR",
-          "C": "Urządzenia muszą działać tylko podczas kontroli drogowej, a na postoju mogą być wyłączone"
+          "A": "Jedynie fabryczny alarm w kabinie, bez ochrony samego ładunku",
+          "B": "Urządzenia, układy lub działania skutecznie chroniące pojazd i ładunek",
+          "C": "Ubezpieczenie ładunku od kradzieży w miejsce zabezpieczeń samego pojazdu"
         },
         "correct_option": "B",
-        "explanation": "Wymagane zabezpieczenia przed kradzieżą muszą działać przez czas przewozu, a nie tylko przed odjazdem. Wyłączenie ich po ruszeniu pozostawiłoby ładunek bez ochrony, podobnie jak uruchamianie dopiero na czas kontroli. Sprawdź działanie urządzeń zgodnie z wymaganiami właściwymi dla przewożonych towarów dużego ryzyka. Podstawa: ADR 1.10.3.3.",
+        "explanation": "Dla pojazdów z towarami niebezpiecznymi dużego ryzyka trzeba stosować urządzenia, układy lub działania, które skutecznie zapobiegają kradzieży pojazdu i jego ładunku. Mogą to być na przykład blokady, systemy alarmowe albo zorganizowany nadzór, ale muszą naprawdę działać. Alarm w kabinie nie wystarcza, gdy ładunek pozostaje bez ochrony. Ubezpieczenie jedynie pokrywa stratę, a nie zapobiega kradzieży. Podstawa: ADR 1.10.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.3",
+            "reference": "ADR 2025, 1.10.3.3 (zdanie pierwsze)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -389,18 +389,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Montaż blokady antykradzieżowej pojazdu dużego ryzyka uniemożliwiłby ratownikom dostęp w wypadku. Jak ocenić takie rozwiązanie?",
+        "stem": "Przewoźnik chce zamontować w pojeździe z towarem dużego ryzyka blokadę, która po wypadku nie pozwoli strażakom otworzyć kabiny. Jak to ocenić według 1.10.3.3?",
         "options": {
-          "A": "Blokada jest obowiązkowa nawet wtedy, gdy uniemożliwia ratownikom dostęp do pojazdu",
-          "B": "Zabezpieczenie nie powinno utrudniać działań ratowniczych w razie wypadku",
-          "C": "Blokadę można stosować bez informowania kierowcy o sposobie jej odblokowania"
+          "A": "Można, bo ochrona przed kradzieżą jest ważniejsza od akcji ratowniczej",
+          "B": "Nie, takie środki nie powinny utrudniać akcji ratowniczo-gaśniczej",
+          "C": "Można, jeśli kierowca ma przy sobie jedyny klucz do tej blokady"
         },
         "correct_option": "B",
-        "explanation": "Zabezpieczenie antykradzieżowe ma ograniczać ryzyko utraty ładunku, ale nie może blokować ratownikom dostępu do pojazdu po wypadku. Blokada bez znanej i dostępnej procedury otwarcia może opóźnić pomoc i zwiększyć zagrożenie dla ludzi. Dlatego środki ochrony trzeba dobrać tak, aby nie przeszkadzały w działaniach ratowniczych. Podstawa: ADR 1.10.3.3.",
+        "explanation": "Pojazd z towarem dużego ryzyka musi mieć skuteczne zabezpieczenia przed kradzieżą pojazdu i ładunku. Przepis dodaje jednak, że zastosowanie tych środków nie powinno utrudniać prowadzenia akcji ratowniczo-gaśniczej. Po wypadku kierowca może być nieprzytomny, więc klucz lub kod w jego kieszeni nie pomoże strażakom. Zabezpieczenie trzeba dobrać tak, żeby chroniło przed złodziejem, a nie przed ratownikami. Podstawa: ADR 1.10.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.3",
+            "reference": "ADR 2025, 1.10.3.3 (zdanie drugie)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -430,18 +430,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Nowy pracownik poznaje zagrożenia związane z niewłaściwym wykorzystaniem towarów niebezpiecznych. Co obejmuje właściwe szkolenie ochronne?",
+        "stem": "Firma szkoli według działu 1.3 magazynierów, którzy ładują towary niebezpieczne. Program obejmuje opakowania i nalepki, ale nic o ochronie. Co wynika z 1.10.2.1?",
         "options": {
-          "A": "Szkolenie obejmuje głównie zasady higieny i bezpiecznego przygotowania posiłków",
-          "B": "Szkolenie skupia się na urlopach, grafiku zmian i rozliczaniu czasu pracy",
-          "C": "Szkolenie uczy rozpoznawać zagrożenia ochronne i ograniczać ryzyko nadużycia"
+          "A": "O ochronie mówi się dopiero wtedy, gdy firma wozi towary dużego ryzyka",
+          "B": "Ochrona należy do szkolenia kierowców ADR, a nie do szkolenia magazynierów",
+          "C": "Szkolenie według działu 1.3 powinno obejmować również wiedzę o ochronie"
         },
         "correct_option": "C",
-        "explanation": "Szkolenie ochronne ma pomóc pracownikowi rozpoznać sytuacje, w których towary niebezpieczne mogą zostać skradzione, użyte do sabotażu albo wykorzystane w sposób zagrażający ludziom. Uczy więc zauważania podejrzanych zdarzeń i stosowania zasad ograniczających ryzyko. Higiena posiłków i planowanie urlopów nie chronią ładunku ani przewozu. Podstawa: ADR 1.10.2.2.",
+        "explanation": "Szkolenie i szkolenie doskonalące osób, o których mowa w dziale 1.3, powinny obejmować również wiedzę na temat ochrony towarów niebezpiecznych. Dotyczy to także magazynierów i innych pracowników, którzy ładują lub przygotowują przesyłki. Ochrona oznacza tu środki, które zmniejszają ryzyko kradzieży lub użycia towaru niezgodnie z przeznaczeniem. Ten obowiązek należy do ogólnych przepisów działu 1.10 i nie ogranicza się do towarów dużego ryzyka. Podstawa: ADR 1.10.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.2.2",
+            "reference": "ADR 2025, 1.10.2.1 (zdanie pierwsze)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -471,18 +471,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pracownik ma dostęp do planu ochrony dotyczącego swoich zadań. Co powinno obejmować jego szkolenie?",
+        "stem": "Firma ma plan ochrony. Kierowca, magazynier i dyspozytor mają w nim różne zadania. Jakie informacje o planie powinno dać im szkolenie z ochrony?",
         "options": {
-          "A": "Pracownik poznaje historię firmy i wszystkie jej dane organizacyjne, bez wyjątków",
-          "B": "Każdemu kierowcy należy ujawnić cały plan ochrony, nawet gdy nie dotyczy jego zadań",
-          "C": "Pracownik poznaje te elementy planu ochrony, które są potrzebne do jego obowiązków"
+          "A": "Jednakowy, pełny opis planu dla osób na różnych stanowiskach w firmie",
+          "B": "Nie podaje się ich, bo na szkoleniu nie omawia się planu ochrony",
+          "C": "Informacje dobrane do obowiązków i funkcji osoby w wykonaniu planu"
         },
         "correct_option": "C",
-        "explanation": "Szkolenie powinno wyjaśniać pracownikowi te części planu ochrony, które dotyczą jego zadań, aby wiedział, jak zapobiegać naruszeniom i jak reagować. Nie oznacza to, że każdy kierowca ma poznać cały plan wraz z informacjami, które nie są mu potrzebne. Zakres dostępu dobiera się do obowiązków, z zachowaniem wymagań ADR. Podstawa: ADR 1.10.2.2.",
+        "explanation": "Gdy wymagany jest plan ochrony, szkolenie powinno zawierać informacje o tym planie. Zakres tych informacji dobiera się do obowiązków i odpowiedzialności osoby szkolonej oraz do jej funkcji przy wykonywaniu planu. Kierowca dowie się więc czegoś innego niż dyspozytor czy magazynier. Pomijanie planu na szkoleniu jest błędem, bo pracownik nie będzie wiedział, co ma robić w razie zagrożenia. Podstawa: ADR 1.10.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.2.2",
+            "reference": "ADR 2025, 1.10.2.2 (zdanie drugie)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -512,14 +512,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kiedy należy przeprowadzać wymagane szkolenie z ochrony dla osób uczestniczących w przewozie ADR?",
+        "stem": "Firma zatrudnia kierowcę, który przeszedł szkolenie z ochrony u poprzedniego pracodawcy. Co według 1.10.2.3 trzeba zrobić z tym szkoleniem?",
         "options": {
-          "A": "Szkolenie jest potrzebne dopiero po wypadku lub stwierdzonym naruszeniu ochrony",
-          "B": "Szkolenie odbywa się przed powierzeniem zadań i jest okresowo uzupełniane",
-          "C": "Szkolenie wystarczy przeprowadzić raz, bez względu na późniejsze obowiązki pracownika"
+          "A": "Nic, bo raz odbyte szkolenie z ochrony obowiązuje do końca kariery",
+          "B": "Zweryfikować je przy zatrudnieniu, a potem okresowo je uzupełniać",
+          "C": "Powtórzyć je dopiero po pierwszym zdarzeniu naruszającym ochronę"
         },
         "correct_option": "B",
-        "explanation": "Pracownik powinien poznać zasady ochrony przed rozpoczęciem powierzonych mu zadań związanych z towarami niebezpiecznymi. Czekanie na kradzież lub incydent byłoby za późne, bo szkolenie ma pomagać zapobiegać takim zdarzeniom. Jednorazowy instruktaż również nie wystarcza na zawsze: wiedzę trzeba okresowo uzupełniać. Podstawa: ADR 1.10.2.3.",
+        "explanation": "Szkolenie z ochrony powinno być przeprowadzone albo zweryfikowane przy zatrudnianiu na stanowisko związane z przewozem towarów niebezpiecznych. Jeśli kierowca przeszedł je wcześniej, nowa firma sprawdza, czy to szkolenie jest odpowiednie do jego pracy. Potem szkolenie trzeba okresowo uzupełniać szkoleniem doskonalącym. Czekanie na pierwsze naruszenie ochrony byłoby za późne, bo szkolenie ma takim zdarzeniom zapobiegać. Podstawa: ADR 1.10.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -553,14 +553,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Inspektor wymaga dokumentacji szkoleń dotyczących ochrony. Jak powinien postąpić pracodawca?",
+        "stem": "Kierowca odchodzi z firmy i prosi o dokumenty potwierdzające jego szkolenia z ochrony. Co w tej sprawie wynika z 1.10.2.4?",
         "options": {
-          "A": "Podać wyłącznie dane kontaktowe instruktora, bez zachowywania dokumentacji przebiegu szkolenia",
-          "B": "Odmówić przekazania zapisów, ponieważ ADR nie wymaga dokumentowania szkoleń ochronnych",
-          "C": "Przechowywać dokumentację szkoleń i udostępnić ją uprawnionemu organowi na żądanie"
+          "A": "Pracodawca udostępnia je jedynie właściwej władzy, a nie pracownikowi",
+          "B": "Pracodawca może je zniszczyć od razu, gdy szkolenie się zakończy",
+          "C": "Pracodawca przechowuje je i udostępnia także pracownikowi na wniosek"
         },
         "correct_option": "C",
-        "explanation": "Pracodawca musi zachować dokumentację szkoleń dotyczących ochrony i udostępnić ją uprawnionemu organowi na żądanie. Sam numer telefonu do instruktora nie pokazuje, kogo i z czego przeszkolono. Nieprawdą jest też, że takich szkoleń nie trzeba dokumentować. Zapis szkolenia pomaga wykazać, że pracownik poznał zasady ograniczania ryzyka kradzieży i nadużycia. Podstawa: ADR 1.10.2.4.",
+        "explanation": "Dokumenty potwierdzające przeprowadzenie szkoleń w zakresie ochrony przechowuje pracodawca. Na wniosek udostępnia je pracownikowi albo właściwej władzy, więc kierowca może o nie poprosić. Okres ich przechowywania ustala właściwa władza, dlatego nie wolno ich niszczyć zaraz po szkoleniu. Dzięki tym dokumentom pracownik może wykazać, jakie szkolenia z ochrony już odbył. Podstawa: ADR 1.10.2.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -594,18 +594,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Do terminalu zgłasza się kierowca po odbiór towarów niebezpiecznych. Skąd można ustalić, czy reprezentuje właściwego przewoźnika?",
+        "stem": "Przy wydaniu towaru niebezpiecznego kierowca pokazuje dowód osobisty ze zdjęciem. Nie wiadomo jednak, dla jakiej firmy przewozowej jedzie. Czy to wystarcza według 1.10.1.2?",
         "options": {
-          "A": "Sprawdzić tożsamość przewoźnika i upewnić się, że kierowca jest upoważniony do odbioru",
-          "B": "Uznać numer rejestracyjny i oznakowanie pojazdu za wystarczające bez sprawdzenia upoważnienia",
-          "C": "Wydać ładunek każdemu kierowcy, który zna nazwę odbiorcy oraz numer zlecenia"
+          "A": "Nie, towar wydaje się przewoźnikowi odpowiednio zidentyfikowanemu",
+          "B": "Tak, dowód osobisty kierowcy ze zdjęciem zastępuje ustalenie przewoźnika",
+          "C": "Tak, jeśli kierowca poda nazwę odbiorcy i adres miejsca dostawy"
         },
         "correct_option": "A",
-        "explanation": "Przed wydaniem ładunku trzeba potwierdzić, że przewoźnik jest właściwą firmą, a kierowca ma upoważnienie do odbioru. Sam numer rejestracyjny, oznakowanie ADR ani znajomość numeru zlecenia nie dowodzą, że kierowca działa w imieniu przewoźnika. Gdy nie można potwierdzić tożsamości, wstrzymaj wydanie i wyjaśnij sprawę. Podstawa: ADR 1.10.1.2.",
+        "explanation": "Według 1.10.1.2 towary niebezpieczne można wydać do przewozu tylko przewoźnikowi, który został odpowiednio zidentyfikowany. Dowód osobisty ze zdjęciem to inny wymóg, z 1.10.1.4, i potwierdza jedynie, kim jest kierowca. Nie mówi on, czy kierowca naprawdę jedzie dla właściwej firmy przewozowej. Znajomość odbiorcy i adresu dostawy też tego nie potwierdza, bo mógł je poznać ktoś niepowołany. Podstawa: ADR 1.10.1.2 i 1.10.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.1.2",
+            "reference": "ADR 2025, 1.10.1.2; 1.10.1.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -635,18 +635,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przedsiębiorstwo przekazuje ładunek ADR nowemu przewoźnikowi. Ten zna numer zlecenia, ale jego tożsamość nie została sprawdzona. Co należy zrobić?",
+        "stem": "W terminalu przeładunkowym przesyłki ADR przywiezione przez jednego przewoźnika mają pojechać dalej z innym. Co według 1.10.1.2 musi zrobić terminal przed ich wydaniem?",
         "options": {
-          "A": "Wydać ładunek, bo znajomość numeru zlecenia potwierdza tożsamość przewoźnika",
-          "B": "Najpierw potwierdzić tożsamość przewoźnika zgodnie z procedurą ochrony",
-          "C": "Pominąć procedury, jeśli kierowca zapewnia, że zna firmę i miejsce dostawy"
+          "A": "Nic, bo przewoźnika sprawdził już nadawca na początku przewozu",
+          "B": "Odpowiednio zidentyfikować przewoźnika, który zabiera je dalej",
+          "C": "Sprawdzić jedynie, czy przesyłki mają nalepki ostrzegawcze"
         },
         "correct_option": "B",
-        "explanation": "Przed wydaniem towaru niebezpiecznego trzeba sprawdzić, czy odbiera go właściwy przewoźnik. Sama znajomość numeru zlecenia nie potwierdza tożsamości, bo takie dane może poznać również osoba nieuprawniona. Ustne zapewnienie kierowcy nie zastępuje wymaganej procedury sprawdzenia. Podstawa: ADR 1.10.1.2.",
+        "explanation": "Zasada z 1.10.1.2 mówi, że towary niebezpieczne można wydać do przewozu tylko przewoźnikowi odpowiednio zidentyfikowanemu. Gdy w terminalu przesyłki przechodzą do innego przewoźnika, to także jest wydanie do przewozu. Sprawdzenie pierwszego przewoźnika przez nadawcę nie mówi nic o tym, kto zabiera towar teraz. Według 1.10.1.1 osoby uczestniczące w przewozie stosują przepisy o ochronie w zakresie swoich obowiązków. Podstawa: ADR 1.10.1.2 i 1.10.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.1.2",
+            "reference": "ADR 2025, 1.10.1.2; 1.10.1.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -676,14 +676,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W terminalu do czasowego składowania niebezpiecznych przesyłek prowadzi niekontrolowane wejście od ulicy. Jakie działanie odpowiada 1.10.1.3?",
+        "stem": "Kontener z towarem niebezpiecznym zdjęto z ciężarówki. Czeka kilka godzin na placu przeładunkowym przy stacji rozrządowej na wagon kolejowy. Czy 1.10.1.3 dotyczy tego miejsca?",
         "options": {
-          "A": "Zabezpieczyć teren, oświetlić go, gdy to możliwe, i ograniczyć dostęp osób postronnych",
-          "B": "Pozostawić wejście bez kontroli, jeśli obiekt jest zamykany dopiero po zakończeniu zmiany",
-          "C": "Zamknąć wyłącznie drzwi kontenera i nie kontrolować dostępu do miejsca składowania"
+          "A": "Tak, place przeładunkowe i stacje rozrządowe są wymienione w przepisie",
+          "B": "Nie, ten przepis obejmuje jedynie place należące do przewoźnika drogowego",
+          "C": "Nie, przy zmianie środka transportu ochrona miejsca nie jest wymagana"
         },
         "correct_option": "A",
-        "explanation": "Miejsce czasowego składowania przesyłek niebezpiecznych powinno być zabezpieczone, oświetlone tam, gdzie to możliwe, i chronione przed wejściem osób nieupoważnionych. Zamknięcie samego kontenera nie rozwiązuje problemu, jeśli każdy może wejść na teren i zbliżyć się do ładunku. Otwarty dostęp od ulicy trzeba ograniczyć odpowiednimi środkami. Podstawa: ADR 1.10.1.3.",
+        "explanation": "Punkt 1.10.1.3 dotyczy miejsc czasowego przechowywania towarów niebezpiecznych podczas przewozu. Wymienia terminale, place przeładunkowe, bazy transportowe, place postojowe i stacje rozrządowe. Takie miejsce powinno być odpowiednio chronione, dobrze oświetlone i, o ile to możliwe i wskazane, niedostępne dla osób postronnych. Przeładunek z ciężarówki na wagon nie kończy przewozu, więc te wymagania nadal obowiązują. Podstawa: ADR 1.10.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -717,14 +717,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W trakcie przewozu ADR kierowca ma dowód ze zdjęciem, ale drugi członek załogi ma wyłącznie identyfikator bez fotografii. Co jest wymagane?",
+        "stem": "Ciężarówka wiezie na pełnych zasadach ADR beczki z farbą, która nie jest towarem dużego ryzyka. Pomocnik kierowcy nie ma dokumentu ze zdjęciem. Czy dotyczy go 1.10.1.4?",
         "options": {
-          "A": "Każdy członek załogi objęty wymogiem musi mieć dokument tożsamości ze zdjęciem",
-          "B": "Wystarczy dokument ze zdjęciem kierowcy, który prowadzi pojazd podczas przewozu",
-          "C": "Można zastąpić dokument ze zdjęciem ustnym podaniem danych osobowych przez członka załogi"
+          "A": "Tak, ten wymóg dotyczy członków załogi przy przewozie towarów ADR",
+          "B": "Nie, ten dokument jest wymagany przy towarach dużego ryzyka",
+          "C": "Nie, dokument ze zdjęciem musi mieć jedynie kierowca, który prowadzi"
         },
         "correct_option": "A",
-        "explanation": "Każdy członek załogi objęty wymogiem musi mieć własny dokument tożsamości ze zdjęciem, aby podczas kontroli można było potwierdzić, kim jest. Dokument kierowcy nie potwierdza tożsamości osoby siedzącej obok niego. Ustne podanie danych także nie zastępuje dokumentu ze zdjęciem. Przed przewozem upewnij się, że obie osoby mają wymagane dokumenty. Podstawa: ADR 1.10.1.4.",
+        "explanation": "Wymóg dokumentu z fotografią należy do ogólnych przepisów o ochronie w 1.10.1, a nie do przepisów o towarach dużego ryzyka z 1.10.3. Każdy członek załogi pojazdu przewożącego towary niebezpieczne powinien mieć przy sobie dokument z fotografią, który potwierdza jego tożsamość. Dotyczy to także pomocnika kierowcy, a nie jedynie osoby za kierownicą. Rodzaj towaru, na przykład farba, tego nie zmienia. Podstawa: ADR 1.10.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
