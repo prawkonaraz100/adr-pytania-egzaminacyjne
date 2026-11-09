@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Z powodu nieznanego składu odpadu nadawca ma wątpliwości co do poziomu zagrożenia. Którą zasadę stosuje w ramach ADR 2.1.3.5.5?",
+        "stem": "Odpad nie spełnia kryteriów żadnej z klas od 1 do 9, ale podlega Konwencji Bazylejskiej o transgranicznym przemieszczaniu odpadów niebezpiecznych. Pod jakimi numerami UN może być przewożony według ADR?",
         "options": {
-          "A": "Przyjmuje najwyższy poziom zagrożenia",
-          "B": "Automatycznie wybiera grupę III",
-          "C": "Rezygnuje z numeru UN, gdy nadawca nie zna dokładnego składu odpadu"
+          "A": "Pod UN 3077 lub UN 3082, jak materiały zagrażające środowisku",
+          "B": "Pod UN 3291, czyli pozycją przeznaczoną dla odpadów klinicznych",
+          "C": "Nie dostaje numeru UN, bo nie spełnia kryteriów klas ADR"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli skład odpadu jest nieznany, a dostępne dane nie pozwalają pewnie ustalić poziomu zagrożenia, procedura ADR wymaga przyjęcia najwyższego poziomu w zakresie wskazanym w przepisie. Nie wolno automatycznie wybierać grupy pakowania III ani rezygnować z numeru UN. Nadawca musi wykorzystać dostępne informacje i prawidłowo sklasyfikować odpad przed przewozem. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Konwencja Bazylejska to umowa międzynarodowa o kontroli przewozu odpadów niebezpiecznych między państwami. Niektóre takie odpady nie spełniają kryteriów żadnej klasy ADR, ale ADR pozwala przewozić je pod UN 3077 lub UN 3082. UN 3077 to materiał zagrażający środowisku w stanie stałym, a UN 3082 w stanie ciekłym. UN 3291 dotyczy odpadów klinicznych i medycznych, czyli innego rodzaju odpadów. Podstawa: ADR 2.1.3.9.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.1.3.5.5",
+            "reference": "ADR 2025, 2.1.3.9",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,14 +61,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Odpad o nieznanym dokładnie składzie zawiera substancję klasy 4.3. Czy wolno zastosować uproszczoną procedurę ADR 2.1.3.5.5?",
+        "stem": "Odpad o słabo zdefiniowanym składzie zawiera materiał klasy 4.3, który w zetknięciu z wodą wydziela gazy palne. Czy nadawca może go sklasyfikować uproszczoną metodą z 2.1.3.5.5?",
         "options": {
-          "A": "Tak, jeśli nazwa odpadu i dostępne dane pozwalają określić jego ogólne zagrożenie, bez sprawdzania wyłączeń procedury.",
-          "B": "Nie, materiały klasy 4.3 są wyłączone z tej procedury",
-          "C": "Tak, jeżeli znany jest kod katalogowy odpadu i dostępna jest karta przekazania."
+          "A": "Tak, jeżeli zna nazwę odpadu i ogólne dane o jego zagrożeniach",
+          "B": "Nie, bo tej metody nie stosuje się do materiałów klasy 4.3",
+          "C": "Tak, jeżeli ma kod odpadu i kartę przekazania tego odpadu"
         },
         "correct_option": "B",
-        "explanation": "ADR 2.1.3.5.5 nie pozwala użyć uproszczonej procedury klasyfikacji odpadu, jeśli zawiera on materiał klasy 4.3. Sama nazwa odpadu ani kod katalogowy nie usuwają tego wyłączenia. Trzeba ustalić klasyfikację inną właściwą metodą, zamiast korzystać z procedury, której przepis w tej sytuacji zabrania. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Przepis 2.1.3.5.5 pozwala nadawcy sklasyfikować odpad o słabo zdefiniowanym składzie na podstawie swojej wiedzy i dostępnych danych. Ta uproszczona metoda nie może być jednak stosowana do odpadów z materiałami klasy 4.3. Takie materiały w kontakcie z wodą wydzielają gazy palne, więc pomyłka w klasyfikacji byłaby szczególnie groźna. Nazwa odpadu, jego kod ani karta przekazania nie znoszą tego zakazu. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -102,14 +102,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Nadawca chce sklasyfikować nieznany dokładnie odpad jako UN 3077 lub 3082 w grupie III. Kiedy dopuszcza to ADR 2.1.3.5.5?",
+        "stem": "Nadawca nie zna dokładnego składu odpadu, ale wie, że odpad ma tylko właściwości zagrażające środowisku. Jak może go sklasyfikować na podstawie 2.1.3.5.5?",
         "options": {
-          "A": "Kiedy jest to odpad komunalny",
-          "B": "Kiedy wykazano, że odpad ma wyłącznie właściwości zagrażające środowisku",
-          "C": "Zawsze, gdy odpadu jest mniej niż tona, niezależnie od jego składu i właściwości"
+          "A": "Do pozycji I.N.O. w I grupie pakowania, aby zachować ostrożność",
+          "B": "Do III grupy pakowania, pod numerem UN 3077 lub UN 3082",
+          "C": "Jako odpad komunalny, do którego nie stosuje się ADR"
         },
         "correct_option": "B",
-        "explanation": "Uproszczona klasyfikacja odpadu jako UN 3077 lub UN 3082 jest możliwa tylko wtedy, gdy wykazano, że odpad ma wyłącznie właściwości zagrażające środowisku i spełnia pozostałe warunki przepisu. Sam fakt, że coś jest odpadem komunalnym albo występuje w małej ilości, nie wystarcza. Jeśli odpad ma także inne niebezpieczne właściwości, trzeba je uwzględnić w klasyfikacji. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Przy odpadzie o słabo zdefiniowanym składzie nadawca opiera klasyfikację na swojej wiedzy i dostępnych danych. Jeżeli wiadomo, że odpad ma tylko właściwości zagrażające środowisku, ADR pozwala zaliczyć go do III grupy pakowania. Stosuje się wtedy UN 3077 dla odpadu stałego albo UN 3082 dla ciekłego. Gdy odpad ma też inne groźne właściwości, ta zasada nie wystarcza. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -143,14 +143,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W odpadzie o nieustalonym dokładnie składzie można wykazać, że jego właściwości nie odpowiadają poziomowi grupy pakowania I. Jakie domyślne rozwiązanie dopuszcza ADR 2.1.3.5.5 przy spełnieniu pozostałych warunków?",
+        "stem": "Nadawca nie zna dokładnego składu odpadu. Na podstawie znanych składników może jednak wykazać, że odpad nie spełnia kryteriów I grupy pakowania. Co dopuszcza wtedy 2.1.3.5.5?",
         "options": {
-          "A": "Odpowiednią pozycję i.n.o. grupy II",
-          "B": "Zawsze dowolną pozycję grupy III, nawet gdy dostępne dane wskazują na wyższe zagrożenie",
-          "C": "Całkowity brak klasyfikacji"
+          "A": "Zaliczenie domyślnie do II grupy pakowania, do pozycji I.N.O.",
+          "B": "Zaliczenie odpadu do III grupy pakowania, bo wykluczono już I grupę",
+          "C": "Przewóz bez numeru UN, bo nie jest znany skład odpadu"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli dostępne dane pozwalają wykluczyć właściwości odpowiadające grupie pakowania I, ADR może dopuścić przypisanie odpadu do odpowiedniej pozycji i.n.o. grupy II, pod warunkiem spełnienia pozostałych wymagań tej procedury. Nie daje to prawa do automatycznego wyboru grupy III ani do pominięcia klasyfikacji. Trzeba też sprawdzić, czy odpad nie podlega wyłączeniom z tej uproszczonej metody. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Gdy skład odpadu nie jest dokładnie znany, w razie wątpliwości przyjmuje się najwyższy poziom zagrożenia. Jeżeli jednak nadawca, znając składniki i ich właściwości, wykaże, że odpad nie spełnia kryteriów I grupy pakowania, może go zaliczyć domyślnie do II grupy. Wybiera wtedy najodpowiedniejszą pozycję I.N.O., czyli pozycję zbiorczą. Samo wykluczenie grupy I nie pozwala przejść od razu do grupy III. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -184,14 +184,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Odpad ma nieznany dokładnie skład, ale wiadomo, że zawiera materiał zakazany do przewozu według przepisów klasyfikacyjnych. Czy 2.1.3.5.5 pozwala nadać mu dowolny numer UN?",
+        "stem": "Zakład chce oddać do przewozu odpad, którego dokładnego składu nie zna. Wiadomo jednak, że jest w nim materiał niedopuszczony do przewozu według punktu 2.2.x.2 jego klasy. Co wynika z 2.1.3.5.5?",
         "options": {
-          "A": "Tak, jeśli skład odpadu jest nieznany, można wybrać numer UN na podstawie najbardziej prawdopodobnego składnika",
-          "B": "Nie, procedura nie pozwala nadać numeru UN towarowi, którego przewóz jest zakazany",
-          "C": "Tak, jeśli opakowanie ma oznaczenie UN i spełnia wymagania dla wybranego numeru"
+          "A": "Wystarczy przypisać numer UN najbardziej prawdopodobnego składnika",
+          "B": "Uproszczonej klasyfikacji odpadu nie wolno wtedy zastosować",
+          "C": "Wystarczy zapakować odpad w opakowanie z oznakowaniem UN"
         },
         "correct_option": "B",
-        "explanation": "Uproszczona metoda klasyfikacji odpadu nie pozwala dopuścić do przewozu substancji, której transport jest zakazany. Nie można nadać jej dowolnego numeru UN na podstawie przypuszczenia ani uznać, że opakowanie z certyfikatem UN usuwa zakaz. Najpierw trzeba ustalić, czy przewóz jest dozwolony; dopiero potem można prawidłowo sklasyfikować odpad. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "W wielu klasach ADR punkt 2.2.x.2 wymienia materiały, które nie są dopuszczone do przewozu. Uproszczona metoda klasyfikacji odpadów z 2.1.3.5.5 nie może być stosowana do odpadów zawierających takie materiały. Zakład nie może więc obejść zakazu, wybierając numer UN innego składnika. Dobre opakowanie z oznakowaniem UN także nie zmienia tego, że przewóz jest zakazany. Podstawa: ADR 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -225,18 +225,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Nieznany dokładnie odpad zawiera materiał należący do klasy 5.2. Co z procedurą 2.1.3.5.5?",
+        "stem": "Nadawca chce przewieźć odpad z resztkami nadtlenku organicznego klasy 5.2, ale nie zna jego dokładnego składu. Co wynika z 2.1.3.5.5 dla takiego odpadu?",
         "options": {
-          "A": "Można ją zawsze zastosować",
-          "B": "Nie można jej zastosować, bo klasa 5.2 znajduje się w wyłączeniu przez 2.1.3.5.3",
-          "C": "Zastosować ją po uzyskaniu zgody załadowcy, nawet gdy przepis wyłącza dany materiał."
+          "A": "Może przyjąć II grupę pakowania, tak jak dla innych odpadów",
+          "B": "Nie może użyć tej metody, bo klasa 5.2 jest na liście 2.1.3.5.3",
+          "C": "Może użyć tej metody, jeżeli odbiorca odpadu wyrazi na to zgodę"
         },
         "correct_option": "B",
-        "explanation": "Odpady o nieznanym dokładnie składzie nie zawsze mogą być klasyfikowane według uproszczonej procedury ADR. Dla materiału klasy 5.2 wyłączenie wskazane w przepisach oznacza, że trzeba zastosować właściwe reguły klasyfikacji, a nie ten skrót. Zgoda załadowcy nie uchyla ograniczenia; pomyłka grozi złym opakowaniem i oznakowaniem. Podstawa: ADR 2.1.3.5.3 i 2.1.3.5.5.",
+        "explanation": "Przepis 2.1.3.5.3 wymienia najgroźniejsze rodzaje materiałów, w tym nadtlenki organiczne klasy 5.2. Uproszczonej metody klasyfikacji odpadów z 2.1.3.5.5 nie stosuje się do odpadów, które zawierają materiały z tej listy. Taki odpad trzeba sklasyfikować według zwykłych zasad dla jego rzeczywistych właściwości. Zgoda odbiorcy albo innej firmy nie znosi tego wyłączenia. Podstawa: ADR 2.1.3.5.3 i 2.1.3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.1.3.5.3; 2.1.3.5.5",
+            "reference": "ADR 2025, 2.1.3.5.3 (g); 2.1.3.5.5",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
