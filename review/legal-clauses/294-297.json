@@ -4,42 +4,42 @@
     {
       "id": "ADR-B-0294",
       "order": 294,
-      "clause": "ADR 2025, 5.4.1.1.3.1",
+      "clause": "ADR 2025, 5.4.1.1.3.1; 2.2.62.1.11.2",
       "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Jeśli słowo „ODPAD” nie jest już częścią prawidłowej nazwy przewozowej, poprzedź nim tę nazwę. Sam kod odpadu ani informacja z karty przekazania nie zastępują danych ADR wymaganych w dokumencie. Zachowaj też numer UN, gdy jest wymagany. Wpis powinien zachować układ wymagany dla danego przewozu; oznaczenie odpadu jest dodatkową informacją, a nie zamiennikiem klasyfikacji. Podstawa: ADR 5.4.1.1.3.1."
+          "rationale": "5.4.1.1.3.1: „ODPAD” nie dodaje się, gdy jest częścią nazwy; nazwa UN 3291 zawiera ten wyraz."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędny wariant: „Zastąpić nazwę samym kodem odpadu i informacją z karty przekazania”. Jeśli słowo „ODPAD” nie jest już częścią prawidłowej nazwy przewozowej, poprzedź nim tę nazwę. Sam kod odpadu ani informacja z karty przekazania nie zastępują danych ADR wymaganych w dokumencie. Zachowaj też numer UN, gdy jest wymagany. Podstawa: ADR 5.4.1.1.3.1."
+          "rationale": "Przepis zawiera wyjątek, gdy wyraz „ODPAD” jest częścią prawidłowej nazwy przewozowej."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja „Pominąć numer UN, jeżeli odpad ma kartę przekazania” nie odpowiada temu wymogowi w opisanej sytuacji; wymaga zatwierdzenia w polskim urzędowym brzmieniu."
+          "rationale": "Zapis „ODPAD ZGODNY Z 2.1.3.5.5” dotyczy tylko odpadów klasyfikowanych według 2.1.3.5.5."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Sprawdzono porównanie w pomocniczym tomie II ADR 2025, pełne urzędowe dosłowne zestawienie polskie i sprostowanie pozostają pending.",
+      "notes_on_conditions": "5.4.1.1.3.1 s. 962–963; nazwy UN 3291 – 2.2.62.1.11.2 UWAGA 1, s. 232.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0294",
         "module_id": "ADR-B-03",
-        "stem": "Przewożony jest odpad zawierający towary niebezpieczne (inny niż odpad promieniotwórczy). Co należy zrobić z prawidłową nazwą przewozową w dokumencie, jeśli słowo „ODPAD” nie jest już jej częścią?",
+        "stem": "Szpital wysyła odpady medyczne UN 3291 o prawidłowej nazwie przewozowej „ODPAD MEDYCZNY OKREŚLONY, I.N.O.”. Czy w dokumencie przewozowym trzeba poprzedzić tę nazwę jeszcze jednym wyrazem „ODPAD”?",
         "options": {
-          "A": "Poprzedzić prawidłową nazwę przewozową słowem „ODPAD”",
-          "B": "Zastąpić nazwę samym kodem odpadu i informacją z karty przekazania",
-          "C": "Pominąć numer UN, jeżeli odpad ma kartę przekazania"
+          "A": "Nie, bo wyraz „ODPAD” jest już częścią prawidłowej nazwy przewozowej",
+          "B": "Tak, bo wyraz „ODPAD” dopisuje się przed nazwą bez względu na jej brzmienie",
+          "C": "Nie, ale zamiast niego trzeba dopisać „ODPAD ZGODNY Z 2.1.3.5.5”"
         },
         "correct_option": "A",
-        "explanation": "Gdy przewozisz odpad niebezpieczny, słowo „ODPAD” musi poprzedzać prawidłową nazwę przewozową, jeśli nie jest już jej częścią i przepis tego wymaga. Sam kod odpadu lub karta przekazania nie zastępuje opisu ADR. Nie wolno również pomijać wymaganego numeru UN, który identyfikuje przewożony towar. Sprawdź poprawny opis jeszcze przed rozpoczęciem przewozu. Podstawa: ADR 5.4.1.1.3.1.",
+        "explanation": "Przy przewozie odpadów prawidłową nazwę przewozową poprzedza się wyrazem „ODPAD”, aby było jasne, że to odpad. Przepis zawiera jednak wyjątek: wyrazu nie dodaje się, jeżeli jest on już częścią prawidłowej nazwy przewozowej. Tak jest przy UN 3291, którego nazwa zaczyna się od słowa „ODPAD”, więc nie trzeba go powtarzać. Zapis „ODPAD ZGODNY Z 2.1.3.5.5” dotyczy innej sytuacji, czyli odpadów klasyfikowanych według 2.1.3.5.5. Podstawa: ADR 5.4.1.1.3.1 i 2.2.62.1.11.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.3.1",
+            "reference": "ADR 2025, 5.4.1.1.3.1; 2.2.62.1.11.2, UWAGA 1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -55,37 +55,37 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja „Wejść w rozlew, by ocenić lepkość cieczy” nie odpowiada temu wymogowi w opisanej sytuacji; wymaga zatwierdzenia w polskim urzędowym brzmieniu."
+          "rationale": "Brak widocznego wycieku nie usuwa zagrożenia napromieniowaniem zewnętrznym."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Porównanie z ADR 2025 ADR 2025, 5.4.3.4: Instrukcje pisemne wskazują, aby nie dotykać wycieków i nie wdychać gazów, dymu, pyłu ani oparów; należy przebywać po stronie nawietrznej."
+          "rationale": "Instrukcje pisemne dla nalepki 7: ograniczyć czas narażenia."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja „Zbliżyć twarz do plamy, żeby rozpoznać zapach” nie odpowiada temu wymogowi w opisanej sytuacji; wymaga zatwierdzenia w polskim urzędowym brzmieniu."
+          "rationale": "Rękawice i kamizelka nie są środkiem przewidzianym na promieniowanie."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Sprawdzono porównanie w pomocniczym tomie II ADR 2025, pełne urzędowe dosłowne zestawienie polskie i sprostowanie pozostają pending.",
+      "notes_on_conditions": "Wskazówki dodatkowe dla nalepki 7, s. 977.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0295",
         "module_id": "ADR-B-03",
-        "stem": "Po uszkodzeniu opakowania ADR na drodze pojawił się rozlew i opary. Jak powinien zachować się nieprzeszkolony członek załogi?",
+        "stem": "Po wypadku uszkodzona jest sztuka przesyłki z nalepką klasy 7. Członek załogi chce zostać przy niej dłużej, aby pilnować miejsca do przyjazdu służb. Co wskazują instrukcje pisemne?",
         "options": {
-          "A": "Wejść w rozlew, by ocenić lepkość cieczy",
-          "B": "Nie dotykać rozlanej substancji, unikać wdychania oparów i pozostać po stronie nawietrznej",
-          "C": "Zbliżyć twarz do plamy, żeby rozpoznać zapach"
+          "A": "Zostać przy przesyłce, jeżeli nie widać wycieku ani uszkodzenia zawartości",
+          "B": "Ograniczyć czas przebywania w jej pobliżu, bo grozi napromieniowanie",
+          "C": "Zostać przy przesyłce, jeśli członek załogi ma rękawice i kamizelkę"
         },
         "correct_option": "B",
-        "explanation": "Po rozlaniu nieznanego towaru nie dotykaj cieczy i nie wchodź w plamę, bo substancja może zatruwać lub powodować oparzenia. Unikaj też oparów i ustaw się po stronie, z której wieje wiatr, jeśli da się to zrobić bezpiecznie. Sprawdzanie zapachu z bliska albo lepkości dotykiem nie pomaga, lecz naraża członka załogi. Powiadom służby i stosuj instrukcje pisemne. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne podają dla nalepki klasy 7 zagrożenie napromieniowaniem zewnętrznym oraz po wchłonięciu materiału. Promieniowania nie widać, a szkoda rośnie wraz z czasem przebywania blisko uszkodzonej przesyłki. Dlatego trzeba ograniczyć czas narażenia, oddalić się i ostrzec inne osoby. Rękawice i kamizelka nie chronią przed promieniowaniem, a brak widocznego wycieku nie oznacza braku zagrożenia. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne, wskazówki dodatkowe dla nalepki 7)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -96,42 +96,42 @@
     {
       "id": "ADR-B-0296",
       "order": 296,
-      "clause": "ADR 2025, 5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4; 8.1.5.2",
       "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wyjście z kabiny nie usuwa ryzyka, jeśli w pobliżu znajdują się palne opary."
+          "rationale": "Odległość kilku metrów nie wyklucza zapłonu oparów od płomienia."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Brak widocznej iskry nie gwarantuje, że urządzenie elektryczne nie może spowodować zapłonu."
+          "rationale": "Kierunek wiatru nie znosi obowiązku unikania źródeł zapłonu."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Należy unikać papierosów, e-papierosów i urządzeń mogących stać się źródłem zapłonu."
+          "rationale": "5.4.3.4: unikać źródeł zapłonu; ostrzegać stojącymi znakami ostrzegawczymi z 8.1.5.2."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Sprawdzono porównanie w pomocniczym tomie II ADR 2025, pełne urzędowe dosłowne zestawienie polskie i sprostowanie pozostają pending.",
+      "notes_on_conditions": "Instrukcje pisemne s. 975; 8.1.5.2 s. 1325.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0296",
         "module_id": "ADR-B-04",
-        "stem": "Podczas awarii ADR kierowca chce sprawdzić ładunek, używając papierosa elektronicznego i przełączając urządzenia elektryczne. Co powinien zrobić?",
+        "stem": "Po awarii z uszkodzonych kanistrów z nalepką 3 wycieka ciecz zapalna i czuć opary. Kolega chce zapalić za pojazdem flarę drogową z płomieniem, aby ostrzec innych kierowców. Co powinien zrobić?",
         "options": {
-          "A": "Przenieść się poza kabinę i użyć e-papierosa, zakładając, że nie ma ryzyka zapłonu",
-          "B": "Włączyć urządzenia elektryczne, jeśli nie widać iskry ani płomienia",
-          "C": "Unikać źródeł zapłonu, nie palić ani nie używać e-papierosów i nie włączać urządzeń elektrycznych"
+          "A": "Zapalić flarę kilka metrów za pojazdem, bo opary tam nie dotrą",
+          "B": "Zapalić flarę, jeżeli wiatr wieje od niej w stronę uszkodzonego pojazdu",
+          "C": "Nie zapalać flary, a innych kierowców ostrzec stojącymi znakami"
         },
         "correct_option": "C",
-        "explanation": "Podczas awarii z możliwymi palnymi oparami trzeba unikać źródeł zapłonu: nie używaj e-papierosów i nie włączaj ani nie przełączaj urządzeń elektrycznych. Brak widocznej iskry nie oznacza, że urządzenie jest bezpieczne, a odsunięcie się od kabiny nie usuwa zagrożenia w jej otoczeniu. Najpierw oddal się i postępuj zgodnie z instrukcją pisemną ADR. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Opary cieczy zapalnej mogą przemieszczać się nad ziemią i zapalić się od płomienia w pewnej odległości od wycieku. Instrukcje pisemne nakazują unikać źródeł zapłonu, a flara z płomieniem jest właśnie takim źródłem. Do ostrzegania innych kierowców służą kamizelka i stojące znaki ostrzegawcze z wyposażenia pojazdu. Kierunek wiatru może się zmienić, więc nie usprawiedliwia użycia ognia. Podstawa: ADR 5.4.3.4 i 8.1.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4; 8.1.5.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -147,37 +147,37 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Porównanie z ADR 2025 ADR 2025, 5.4.3.4: Instrukcje awaryjne wskazują oddalenie się od zdarzenia, ostrzeżenie innych osób i stosowanie się do poleceń służb ratunkowych."
+          "rationale": "Instrukcje pisemne dla nalepki 6.2: zagrożenie zakażeniem, groźna choroba."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja „Poprosić ludzi o podejście i identyfikowanie zapachu” nie odpowiada temu wymogowi w opisanej sytuacji; wymaga zatwierdzenia w polskim urzędowym brzmieniu."
+          "rationale": "Zwykłe rękawiczki nie znoszą zakazu dotykania uwolnionych materiałów."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja „Dotknąć rozlanego towaru, aby pokazać zagrożenie” nie odpowiada temu wymogowi w opisanej sytuacji; wymaga zatwierdzenia w polskim urzędowym brzmieniu."
+          "rationale": "Zakażenie nie wymaga połknięcia; nie dotykać uwolnionych materiałów."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Sprawdzono porównanie w pomocniczym tomie II ADR 2025, pełne urzędowe dosłowne zestawienie polskie i sprostowanie pozostają pending.",
+      "notes_on_conditions": "Instrukcje pisemne s. 975; wskazówki dla nalepki 6.2, s. 977.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0297",
         "module_id": "ADR-B-04",
-        "stem": "Po kolizji pojazdu ADR w pobliżu zbiera się tłum, a na drodze są opary. Co załoga powinna zrobić, jeżeli można to zrobić bezpiecznie?",
+        "stem": "Z uszkodzonego opakowania z nalepką 6.2 wycieka płyn. Magazynier chce go od razu wytrzeć papierowym ręcznikiem, bo to według niego „zwykłe próbki laboratoryjne”. Jak powinien zareagować kierowca?",
         "options": {
-          "A": "Odsunąć się od miejsca zdarzenia, ostrzec inne osoby i stosować się do poleceń służb",
-          "B": "Poprosić ludzi o podejście i identyfikowanie zapachu",
-          "C": "Dotknąć rozlanego towaru, aby pokazać zagrożenie"
+          "A": "Nie dopuścić do dotykania płynu, bo grozi zakażenie i groźna choroba",
+          "B": "Pozwolić wytrzeć płyn, jeżeli magazynier założy zwykłe rękawiczki",
+          "C": "Pozwolić wytrzeć płyn, bo materiał zakaźny szkodzi dopiero po połknięciu"
         },
         "correct_option": "A",
-        "explanation": "Gdy po kolizji pojawiają się opary, załoga powinna przede wszystkim oddalić się w bezpieczne miejsce i ostrzec inne osoby, jeśli może to zrobić bez narażania siebie. Zachęcanie tłumu do podejścia i wąchania substancji może prowadzić do zatrucia. Dotykanie rozlewu w celu pokazania zagrożenia także jest niebezpieczne. Zastosuj instrukcje i polecenia służb. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Nalepka 6.2 oznacza materiał zakaźny, który może zawierać drobnoustroje groźne dla ludzi lub zwierząt. Instrukcje pisemne wskazują zagrożenie zakażeniem, dlatego nie wolno dotykać uwolnionego materiału ani w niego wchodzić. Zwykłe rękawiczki i papierowy ręcznik nie dają pewnej ochrony, a do zakażenia nie trzeba niczego połykać. Trzeba odsunąć ludzi, powiadomić służby i postępować według instrukcji pisemnych. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne, wskazówki dodatkowe dla nalepki 6.2)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
