@@ -878,42 +878,42 @@
     {
       "id": "ADR-B-0436",
       "order": 436,
-      "clause": "ADR 2025, 7.5.1.2; 1.4.3.1.1(b)",
+      "clause": "ADR 2025, 7.5.1.2 (akapit drugi)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Przed załadunkiem załadowca powinien sprawdzić stan sztuk przesyłek i nie przekazywać do przewozu opakowania, którego uszkodzenie lub wyciek zagraża bezpieczeństwu. Przykrycie plandeką ukrywa problem, ale go nie usuwa; samodzielne przelewanie zawartości może być niebezpieczne. Należy wstrzymać załadunek do usunięcia niezgodności. Podstawa: ADR 7.5.1.2 i 1.4.3.1.1(b). Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "7.5.1.2: podłoga i ściany bez wystających części mogących oddziaływać na towar – załadunek po ich usunięciu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Przykryć opakowanie plandeką i załadować je bez sprawdzania uszkodzenia”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przed załadunkiem załadowca powinien sprawdzić stan sztuk przesyłek i nie przekazywać do przewozu opakowania, którego uszkodzenie lub wyciek zagraża bezpieczeństwu. Przykrycie plandeką ukrywa problem, ale go nie usuwa; samodzielne przelewanie zawartości może być niebezpieczne. Należy wstrzymać załadunek do usunięcia niezgodności. Podstawa: ADR 7.5.1.2 i 1.4.3.1.1(b). Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Czystość nie wystarcza – 7.5.1.2 wymaga też braku wystających części i uszkodzeń wnętrza."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Otworzyć opakowanie i przelać zawartość samodzielnie, bez odpowiednich uprawnień”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Przed załadunkiem załadowca powinien sprawdzić stan sztuk przesyłek i nie przekazywać do przewozu opakowania, którego uszkodzenie lub wyciek zagraża bezpieczeństwu. Przykrycie plandeką ukrywa problem, ale go nie usuwa; samodzielne przelewanie zawartości może być niebezpieczne. Należy wstrzymać załadunek do usunięcia niezgodności. Podstawa: ADR 7.5.1.2 i 1.4.3.1.1(b). Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Odsunięcie kartonów nie usuwa wystających części – 7.5.1.2 wymaga sprawdzenia i usunięcia niezgodności."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Ocena zależy od szczegółowych warunków przewozu, kodu UN, rodzaju opakowań i wyjątków; badanie urzędowego polskiego brzmienia pozostaje otwarte.",
+      "notes_on_conditions": "7.5.1.2 s. 1304. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0436",
         "module_id": "ADR-B-09",
-        "stem": "Do załadunku ADR przygotowano uszkodzoną sztukę przesyłki. Kierowca proponuje przykrycie jej czystą plandeką zamiast oceny stanu opakowania. Co powinien zrobić załadowca?",
+        "stem": "Przed załadunkiem kartonów z towarem ADR pracownik widzi, że z podłogi kontenera wystaje śruba, a ze ściany odgięta ostra blacha. Kontener jest czysty i suchy. Czy można zacząć załadunek?",
         "options": {
-          "A": "Nie dopuścić uszkodzonej przesyłki z wyciekiem do przewozu",
-          "B": "Przykryć opakowanie plandeką i załadować je bez sprawdzania uszkodzenia",
-          "C": "Otworzyć opakowanie i przelać zawartość samodzielnie, bez odpowiednich uprawnień"
+          "A": "Nie, wystające części mogące uszkodzić towar trzeba najpierw usunąć",
+          "B": "Tak, bo kontener jest czysty, suchy i nie ma w nim pozostałości ładunku",
+          "C": "Tak, jeśli kartony postawi się z dala od śruby i odgiętej blachy"
         },
         "correct_option": "A",
-        "explanation": "Załadowca powinien odmówić przyjęcia do przewozu sztuki przesyłki, której uszkodzenie lub wyciek może zagrażać bezpieczeństwu. Przykrycie jej plandeką tylko ukrywa uszkodzenie, a samodzielne otwieranie i przelewanie zawartości może narazić ludzi. Najpierw trzeba wyjaśnić niezgodność i dopiero potem zdecydować o bezpiecznym postępowaniu z przesyłką. Podstawa: ADR 7.5.1.2 i 1.4.3.1.1(b).",
+        "explanation": "Przed załadunkiem sprawdza się nie tylko czystość pojazdu lub kontenera, ale też jego stan. Według 7.5.1.2 podłoga, ściany wewnętrzne i sufit nie powinny mieć wystających części ani uszkodzeń, które mogą oddziaływać na przewożony towar. Wystająca śruba albo ostra blacha może przebić karton i spowodować wyciek. Ustawienie kartonów dalej od tych miejsc nie usuwa zagrożenia, bo ładunek może się przesunąć w czasie jazdy. Podstawa: ADR 7.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.1.2; 1.4.3.1.1(b)",
+            "reference": "ADR 2025, 7.5.1.2 (akapit drugi)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
