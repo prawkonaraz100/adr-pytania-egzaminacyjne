@@ -4,42 +4,42 @@
     {
       "id": "ADR-B-0307",
       "order": 307,
-      "clause": "ADR 2025, 2.2.52.1.2, 2.2.52.1.4",
+      "clause": "ADR 2025, 2.2.52.1.4",
       "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant „Ponieważ ogrzanie zawsze przekształca go w materiał klasy 7” jest sprzeczny z opisanym wymaganiem w ADR 2025, 2.2.52.1.2, 2.2.52.1.4; sprawdzenie urzędowego tekstu PL nadal wymagane."
+          "rationale": "Reakcja z wodą jest cechą klasy 4.3, nie wymienioną w 2.2.52.1.4."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Potwierdzone w pomocniczym ADR 2025: Nadtlenki organiczne mogą ulegać rozkładowi z wydzieleniem ciepła, a określone formulacje wymagają kontroli temperatury."
+          "rationale": "2.2.52.1.4: rozkład inicjują ciepło, zanieczyszczenia (kwasy, związki metali ciężkich, aminy), tarcie lub uderzenie."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant „Ponieważ temperatura nie wpływa na właściwości nadtlenków organicznych” jest sprzeczny z opisanym wymaganiem w ADR 2025, 2.2.52.1.2, 2.2.52.1.4; sprawdzenie urzędowego tekstu PL nadal wymagane."
+          "rationale": "Spadek ciśnienia nie jest czynnikiem wymienionym w 2.2.52.1.4."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Pytanie 0307 dotyczy wybranych nadtlenków, nie wszystkich bez wyjątku; 0308 zakazu gaszenia przestrzeni ładunkowej. Pełny urzędowy polski tekst i sprostowanie pending.",
+      "notes_on_conditions": "2.2.52.1.4 s. 196. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0307",
         "module_id": "ADR-B-02",
-        "stem": "W przewozie ADR znajduje się nadtlenek organiczny klasy 5.2. Dlaczego nie należy narażać go na niekontrolowane ogrzewanie?",
+        "stem": "Magazynier uważa, że nadtlenek organiczny klasy 5.2 jest groźny jedynie wtedy, gdy się nagrzeje. Co jeszcze według ADR może zapoczątkować jego niebezpieczny rozkład?",
         "options": {
-          "A": "Ponieważ ogrzanie zawsze przekształca go w materiał klasy 7",
-          "B": "Ponieważ może ulegać egzotermicznemu rozkładowi, a część nadtlenków wymaga kontroli temperatury",
-          "C": "Ponieważ temperatura nie wpływa na właściwości nadtlenków organicznych"
+          "A": "Kontakt z wodą deszczową, bo nadtlenki reagują jak materiały klasy 4.3",
+          "B": "Zanieczyszczenie kwasem lub aminami, a także tarcie albo uderzenie",
+          "C": "Spadek ciśnienia powietrza przy przejeździe przez wysoką przełęcz"
         },
         "correct_option": "B",
-        "explanation": "Nadtlenki organiczne klasy 5.2 mogą rozkładać się z wydzieleniem ciepła, a niektóre trzeba przewozić przy kontrolowanej temperaturze. Nadmierne ogrzewanie może nasilić rozkład, więc nie jest prawdą, że temperatura pozostaje bez wpływu na towar. Ogrzanie nie zmienia też automatycznie materiału w promieniotwórczy z klasy 7. Warunki sprawdza się dla konkretnej substancji. Podstawa: ADR 2.2.52.",
+        "explanation": "Nadtlenki organiczne mogą rozkładać się z wydzieleniem ciepła już w zwykłej temperaturze. Rozkład może zacząć się od ciepła, ale też od kontaktu z zanieczyszczeniami, takimi jak kwasy, związki metali ciężkich lub aminy, oraz od tarcia lub uderzenia. Przy rozkładzie mogą wydzielać się szkodliwe lub palne gazy, a niektóre nadtlenki rozkładają się wybuchowo. Dlatego opakowań nie wolno rzucać, uderzać ani zanieczyszczać. Podstawa: ADR 2.2.52.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.52.1.2, 2.2.52.1.4",
+            "reference": "ADR 2025, 2.2.52.1.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -50,42 +50,42 @@
     {
       "id": "ADR-B-0308",
       "order": 308,
-      "clause": "ADR 2025, 5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4; 8.2.2.3.2 (n)",
       "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant „Załoga powinna samodzielnie gasić pożar wewnątrz przestrzeni ładunkowej” jest sprzeczny z opisanym wymaganiem w ADR 2025, 5.4.3.4; sprawdzenie urzędowego tekstu PL nadal wymagane."
+          "rationale": "Przejście przez dym jest sprzeczne z zaleceniem unikania wdychania dymu z 5.4.3.4."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant „Załoga powinna otworzyć uszkodzone sztuki przesyłek” jest sprzeczny z opisanym wymaganiem w ADR 2025, 5.4.3.4; sprawdzenie urzędowego tekstu PL nadal wymagane."
+          "rationale": "5.4.3.4 nakazuje oddalić się od miejsca zagrożenia, a nie czekać w kabinie."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Potwierdzone w pomocniczym ADR 2025: Według instrukcji pisemnych członkowie załogi nie powinni podejmować gaszenia pożarów w przedziale ładunkowym."
+          "rationale": "5.4.3.4: unikać wdychania dymu, pozostając po stronie nawietrznej, i oddalić się od zagrożenia."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Pytanie 0307 dotyczy wybranych nadtlenków, nie wszystkich bez wyjątku; 0308 zakazu gaszenia przestrzeni ładunkowej. Pełny urzędowy polski tekst i sprostowanie pending.",
+      "notes_on_conditions": "Instrukcje pisemne s. 975; 8.2.2.3.2 (n) s. 1327.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0308",
         "module_id": "ADR-B-11",
-        "stem": "W tunelu dochodzi do pożaru przestrzeni ładunkowej pojazdu ADR. Co wynika z instrukcji pisemnych ADR dla załogi?",
+        "stem": "W tunelu zapalił się przedział ładunkowy ciężarówki ADR. Kierowca wysiadł i widzi, że dym przesuwa się wzdłuż tunelu w stronę wyjazdu, do którego ma bliżej. W którą stronę powinien się oddalić?",
         "options": {
-          "A": "Załoga powinna samodzielnie gasić pożar wewnątrz przestrzeni ładunkowej",
-          "B": "Załoga powinna otworzyć uszkodzone sztuki przesyłek",
-          "C": "Załoga nie powinna podejmować gaszenia pożaru przestrzeni ładunkowej; powinna zapewnić bezpieczeństwo i wezwać pomoc"
+          "A": "W stronę bliższego wyjazdu, nawet jeśli musi iść przez dym",
+          "B": "Zostać w kabinie z zamkniętymi oknami i tam czekać na przyjazd straży",
+          "C": "W stronę przeciwną do ruchu dymu, aby nie wdychać dymu z pożaru"
         },
         "correct_option": "C",
-        "explanation": "Gdy pożar obejmuje przestrzeń ładunkową z towarami niebezpiecznymi, załoga nie powinna próbować gasić go od środka; ma oddalić się w bezpieczne miejsce, ostrzec innych i wezwać pomoc. Otwieranie przesyłek może uwolnić ich niebezpieczną zawartość, a samodzielne gaszenie naraża życie. Nie wracaj do ładowni po dokumenty ani sprzęt. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
+        "explanation": "W tunelu dym z pożaru rozchodzi się szybko i jest jednym z największych zagrożeń dla ludzi. Instrukcje pisemne każą oddalić się od miejsca zagrożenia i unikać wdychania dymu, pozostając po stronie nawietrznej, czyli tam, skąd napływa powietrze. Dlatego trzeba iść w stronę przeciwną do ruchu dymu, nawet jeśli bliższy wyjazd jest po drugiej stronie. Czekanie w kabinie naraża kierowcę na zatrucie dymem. Podstawa: ADR 5.4.3.4 i 8.2.2.3.2 (n).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4; 8.2.2.3.2 (n)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

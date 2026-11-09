@@ -9,33 +9,33 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Zgodne z wskazanym zakresem ADR 2025: Kolumna 2 tabeli A zawiera nazwę i opis towaru, co pozwala ustalić właściwą nazwę przewozową."
+          "rationale": "3.2.1: kolumna (2) „Nazwa i opis” zawiera nazwę materiału lub przedmiotu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Odpowiedź B: „W kolumnie 15 z ograniczeniami tunelowymi” nie odpowiada kolumnie klasyfikacyjnej ani pozycji UN; wymaga finalnej kontroli polskiego tekstu i sprostowania."
+          "rationale": "Kolumna (15) – kategoria transportowa i kod tunelowy."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Odpowiedź C: „Wyłącznie w instrukcjach pisemnych kierowcy” nie odpowiada kolumnie klasyfikacyjnej ani pozycji UN; wymaga finalnej kontroli polskiego tekstu i sprostowania."
+          "rationale": "Kolumna (6) – kody przepisów szczególnych."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Szczegółowe kryteria klasyfikacji, wyłączenia, urzędowe polskie brzmienie i sprostowanie wymagają dalszej oceny.",
+      "notes_on_conditions": "3.2.1 kolumna (2) s. 307; kolumna (6) s. 308; kolumna (15) s. 311.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0314",
         "module_id": "ADR-B-01",
-        "stem": "Gdzie w tabeli A ADR 2025 należy szukać nazwy przewozowej odpowiadającej konkretnemu numerowi UN?",
+        "stem": "Kierowca zna numer UN towaru i chce w tabeli A sprawdzić, czy nazwa w dokumencie przewozowym jest prawidłowa. Którą kolumnę tabeli A powinien odczytać?",
         "options": {
-          "A": "W kolumnie 2 „Nazwa i opis”",
-          "B": "W kolumnie 15 z ograniczeniami tunelowymi",
-          "C": "Wyłącznie w instrukcjach pisemnych kierowcy"
+          "A": "Kolumnę (2), w której podano nazwę i opis materiału",
+          "B": "Kolumnę (15) z kategorią transportową i kodem tunelu",
+          "C": "Kolumnę (6), w której podano przepisy szczególne"
         },
         "correct_option": "A",
-        "explanation": "Nazwę przewozową przypisaną do numeru UN znajdziesz w kolumnie 2 tabeli A; służy ona do prawidłowego opisania towaru w dokumentach. Kolumna 15 dotyczy między innymi kodu tunelowego, więc nie jest miejscem szukania nazwy. Instrukcje pisemne opisują postępowanie przy zagrożeniu i również nie zastępują tej tabeli. Podstawa: ADR 3.2.1, kolumna 2.",
+        "explanation": "Tabela A w dziale 3.2 ma osobne kolumny dla różnych informacji o towarze. Obok numeru UN z kolumny (1) nazwę materiału lub przedmiotu, pisaną wielkimi literami, podaje kolumna (2) „Nazwa i opis”. Z tej kolumny bierze się prawidłową nazwę przewozową do dokumentu. Kolumna (6) zawiera kody przepisów szczególnych, a kolumna (15) kategorię transportową i kod ograniczeń przewozu przez tunele. Podstawa: ADR 3.2.1, kolumna (2).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -50,42 +50,42 @@
     {
       "id": "ADR-B-0315",
       "order": 315,
-      "clause": "ADR 2025, 2.2.9.1.7.2; tabela A UN 3551",
+      "clause": "ADR 2025, 2.2.9.1.5",
       "source_2025_comparison_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Odpowiedź A: „Klasa 5.1” nie odpowiada kolumnie klasyfikacyjnej ani pozycji UN; wymaga finalnej kontroli polskiego tekstu i sprostowania."
+          "rationale": "Samozapalenie w kontakcie z powietrzem to cecha klasy 4.2, nie podstawa z 2.2.9.1.5."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Zgodne z wskazanym zakresem ADR 2025: Baterie sodowo-jonowe z elektrolitem organicznym objęte wpisem UN 3551 klasyfikuje się do klasy 9, z zastrzeżeniem właściwych warunków i wyłączeń."
+          "rationale": "2.2.9.1.5: materiały i przedmioty mogące w razie pożaru tworzyć dioksyny – PCB, transformatory."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Odpowiedź C: „Klasa 2” nie odpowiada kolumnie klasyfikacyjnej ani pozycji UN; wymaga finalnej kontroli polskiego tekstu i sprostowania."
+          "rationale": "Porażenie prądem nie jest kryterium klasyfikacji ADR."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Szczegółowe kryteria klasyfikacji, wyłączenia, urzędowe polskie brzmienie i sprostowanie wymagają dalszej oceny.",
+      "notes_on_conditions": "2.2.9.1.5 s. 273. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0315",
         "module_id": "ADR-B-02",
-        "stem": "Nowe regulacje ADR 2025 wymieniają baterie sodowo-jonowe z elektrolitem organicznym jako UN 3551. Do której klasy należą zgodnie z wykazem?",
+        "stem": "Firma oddaje do utylizacji stary transformator z olejem zawierającym polichlorowane bifenyle (PCB). Dlaczego ADR zalicza takie przedmioty do klasy 9?",
         "options": {
-          "A": "Klasa 5.1",
-          "B": "Klasa 9 — różne materiały i przedmioty niebezpieczne",
-          "C": "Klasa 2"
+          "A": "Bo olej w transformatorze sam zapala się w kontakcie z powietrzem",
+          "B": "Bo w razie pożaru PCB mogą tworzyć groźne dla zdrowia dioksyny",
+          "C": "Bo transformator może porazić prądem osoby przy rozładunku"
         },
         "correct_option": "B",
-        "explanation": "Baterie sodowo-jonowe UN 3551 należą do klasy 9 według wykazu ADR. Nie są materiałami utleniającymi klasy 5.1 ani gazami klasy 2, mimo że ich nazwa lub skład mogą kojarzyć się z innymi zagrożeniami. Numer UN pomaga znaleźć właściwą pozycję w tabeli A; przed przewozem sprawdź też warunki szczególne dla baterii. Podstawa: ADR 2.2.9.1.7.2 i tabela A, UN 3551.",
+        "explanation": "Klasa 9 obejmuje różne materiały i przedmioty, których zagrożenie nie pasuje do innych klas. Należą do niej materiały i przedmioty, które w razie pożaru mogą tworzyć dioksyny, w tym PCB oraz zawierające je transformatory i kondensatory. Dioksyny są bardzo szkodliwe dla zdrowia, dlatego przy pożarze takiego ładunku trzeba unikać dymu. Mieszaniny zawierające nie więcej niż 50 mg/kg PCB nie podlegają ADR. Podstawa: ADR 2.2.9.1.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.9.1.7.2; tabela A UN 3551",
+            "reference": "ADR 2025, 2.2.9.1.5",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

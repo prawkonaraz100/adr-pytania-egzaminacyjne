@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Co obejmuje definicja „przewozu” w ADR 1.2.1, oprócz przemieszczania pojazdu z towarem niebezpiecznym?",
+        "stem": "Ciężarówka z towarem niebezpiecznym stoi trzy godziny w korku przed przejściem granicznym. Kierowca uważa, że w tym czasie nie trwa przewóz w rozumieniu ADR. Czy ma rację?",
         "options": {
-          "A": "Wyłącznie przejazd po drodze publicznej",
-          "B": "Również postoje konieczne ze względu na warunki transportu oraz przebywanie towarów w pojazdach przed, podczas i po przemieszczeniu w odpowiednich warunkach",
-          "C": "Wyłącznie załadunek w fabryce"
+          "A": "Tak, bo przewóz trwa, dopóki pojazd jedzie, a nie wtedy, gdy stoi w korku",
+          "B": "Nie, bo przewóz obejmuje też postoje wynikające z warunków ruchu",
+          "C": "Tak, bo postój dłuższy niż godzina jest już składowaniem towaru"
         },
         "correct_option": "B",
-        "explanation": "W ADR przewóz to nie tylko czas, gdy ciężarówka jedzie, ale również określone postoje i pobyt towarów w pojeździe związany z transportem. Dlatego nie można zakładać, że podczas postoju wszystkie wymagania bezpieczeństwa przestają obowiązywać. Sama jazda po drodze publicznej to zbyt wąska definicja, a sam załadunek nie obejmuje całego przewozu. Podstawa: ADR 1.2.1.",
+        "explanation": "Według definicji ADR przewóz to przemieszczanie towarów niebezpiecznych razem z postojami koniecznymi z powodu warunków transportu. Obejmuje też czas, w którym towary są w pojeździe ze względu na sytuację w ruchu, przed jazdą, w jej trakcie i po niej. Postój w korku przed granicą jest więc nadal częścią przewozu i przepisy ADR obowiązują przez cały ten czas. ADR nie przewiduje limitu godzin, po którym postój staje się składowaniem. Podstawa: ADR 1.2.1, definicja „przewozu”.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.2.1",
+            "reference": "ADR 2025, 1.2.1 (definicja „przewozu”)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Osoba prywatna przewozi niebezpieczny produkt w opakowaniu detalicznym do własnego użytku domowego. Jaki warunek jest istotny dla wyłączenia z ADR 1.1.3.1(a)(i)?",
+        "stem": "Osoba prywatna wiezie benzynę do własnej kosiarki i łodzi w kanistrach wielokrotnego napełniania, które sama napełniła na stacji. Jakie limity musi zachować, aby korzystać z wyłączenia z ADR?",
         "options": {
-          "A": "Zapewnienie środków zapobiegających wyciekowi zawartości w normalnych warunkach przewozu",
-          "B": "Samo opakowanie detaliczne wystarcza, nawet gdy nie chroni przed wyciekiem.",
-          "C": "Wyłączenie działa tylko wtedy, gdy nadawca wystawi pełny dokument ADR."
+          "A": "Do 60 litrów w kanistrze i do 240 litrów na jednostkę transportową",
+          "B": "Do 240 litrów w jednym kanistrze, bez limitu na całą jednostkę transportową",
+          "C": "Do 450 litrów w kanistrze, jak przy przewozach firm serwisowych"
         },
         "correct_option": "A",
-        "explanation": "Wyłączenie dla osoby prywatnej dotyczy określonych produktów przeznaczonych do użytku osobistego lub domowego, ale ich zawartość musi być zabezpieczona przed wyciekiem podczas normalnego przewozu. Samo opakowanie sklepowe nie wystarcza, gdy jest nieszczelne. Pełny dokument ADR nie jest warunkiem tego wyłączenia; trzeba natomiast sprawdzić pozostałe wymagania i limity. Podstawa: ADR 1.1.3.1(a)(i).",
+        "explanation": "Osoba prywatna może przewozić bez stosowania ADR towary w opakowaniach detalicznych do własnego użytku, jeżeli zabezpieczy je przed wyciekiem. Dla cieczy zapalnych, takich jak benzyna, w naczyniach wielokrotnego napełniania obowiązują dodatkowe limity. W jednym naczyniu może być najwyżej 60 litrów, a w całej jednostce transportowej najwyżej 240 litrów. Limit 450 litrów dotyczy innego wyłączenia, dla przewozów pomocniczych przedsiębiorstw. Podstawa: ADR 1.1.3.1 (a) i (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.3.1(a)(i)",
+            "reference": "ADR 2025, 1.1.3.1 (a)(i); 1.1.3.1 (c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

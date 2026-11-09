@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Materiał zawiera drobnoustroje, które mogą powodować choroby u ludzi albo zwierząt. Jaką klasę ADR należy sprawdzić przy klasyfikacji?",
+        "stem": "Laboratorium wysyła toksynę wyodrębnioną z bakterii. Materiał nie zawiera żywych bakterii ani innych czynników zakaźnych i nie jest nimi skażony. Do której klasy ADR należy?",
         "options": {
-          "A": "6.2 — materiały zakaźne",
-          "B": "5.1 — materiały utleniające",
-          "C": "8 — materiały żrące"
+          "A": "Do klasy 6.1, bo jest trujący, ale nie jest zakaźny",
+          "B": "Do klasy 6.2, bo pochodzi z bakterii, czyli ze źródła zakaźnego",
+          "C": "Do klasy 9, bo toksyny nie pasują do innej klasy"
         },
         "correct_option": "A",
-        "explanation": "Materiały zakaźne należą do klasy 6.2, ponieważ mogą przenosić drobnoustroje wywołujące choroby. Klasa 5.1 dotyczy działania utleniającego, a klasa 8 — żrącego, więc nie opisują ryzyka zakażenia. Samo stwierdzenie obecności drobnoustrojów nie kończy klasyfikacji: trzeba jeszcze zastosować szczegółowe kryteria ADR. Podstawa: ADR 2.2.62.1.1.",
+        "explanation": "Klasa 6.2 obejmuje materiały, które zawierają patogeny albo co do których istnieje uzasadnione podejrzenie, że je zawierają. Sama toksyna z bakterii, roślin lub zwierząt nie jest zakaźna, jeżeli nie zawiera czynników zakaźnych i nie jest nimi skażona. ADR zalicza taką toksynę do klasy 6.1, czyli materiałów trujących, pod UN 3172 lub UN 3462. Samo pochodzenie z bakterii nie wystarcza do klasy 6.2. Podstawa: ADR 2.2.62.1.1, UWAGA 2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.62.1.1",
+            "reference": "ADR 2025, 2.2.62.1.1, UWAGA 2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,14 +61,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Towary i ich ilości powodują zastosowanie nadzoru nad pojazdem z ADR 8.4.1. Gdzie w pierwszej kolejności można bez dozoru zaparkować pojazd?",
+        "stem": "Pojazd przewozi towar, dla którego obowiązuje nadzór z ADR 8.4.1. Kierowca robi przerwę na zwykłym parkingu przy drodze, ale cały czas pozostaje przy pojeździe i go pilnuje. Czy narusza to 8.4.1?",
         "options": {
-          "A": "Na publicznym parkingu bez nadzoru, jeśli jest najbliżej i postój ma być krótki.",
-          "B": "W zabezpieczonej bazie albo na zabezpieczonym terenie zakładu",
-          "C": "Na poboczu przy krótkim postoju."
+          "A": "Tak, bo taki pojazd może stać jedynie na parkingu strzeżonym",
+          "B": "Nie, bo przepis wymaga nadzoru, a ten pojazd jest nadzorowany",
+          "C": "Tak, bo zwykły parking wolno wybrać dopiero po zgodzie policji"
         },
         "correct_option": "B",
-        "explanation": "Jeśli przewóz podlega nadzorowi zgodnie z ADR 8.4.1, przy wyborze miejsca postoju trzeba uwzględnić wymagania bezpieczeństwa. W pierwszej kolejności korzysta się z zabezpieczonej bazy lub odpowiednio zabezpieczonego terenu zakładu, a nie z przypadkowego pobocza czy niezabezpieczonego parkingu. Krótki postój nie znosi tych wymagań. Podstawa: ADR 8.4.1.",
+        "explanation": "Przepis 8.4.1 daje dwie możliwości: pojazd z takim ładunkiem jest nadzorowany albo stoi bez nadzoru w odpowiednim miejscu. Lista miejsc, od parkingu strzeżonego po odosobniony teren, dotyczy właśnie postoju bez nadzoru. Jeżeli kierowca stale pilnuje pojazdu, wymóg nadzoru jest spełniony także na zwykłym parkingu. Gdy chce odejść, musi wybrać miejsce według kolejności z 8.4.1, a zgoda policji nie jest tu warunkiem. Podstawa: ADR 8.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewóz dotyczy materiału zakaźnego, w którym patogen może powodować chorobę tylko u zwierząt. Które rozróżnienie klasy 6.2 należy wziąć pod uwagę?",
+        "stem": "Materiał zakaźny kategorii A może wywołać ciężką chorobę zarówno u ludzi, jak i u zwierząt. Pod który numer UN należy go zaliczyć?",
         "options": {
-          "A": "Każdy materiał zakaźny musi być traktowany jako klasa 7",
-          "B": "Substancje zakaźne nie dzielą się według zakresu zagrożenia",
-          "C": "ADR wyróżnia materiały zakaźne niebezpieczne dla ludzi oraz takie, które są niebezpieczne tylko dla zwierząt"
+          "A": "Pod UN 2900, bo może wywołać chorobę także u zwierząt",
+          "B": "Pod UN 3291, czyli pozycję dla odpadów klinicznych",
+          "C": "Pod UN 2814, bo może wywołać chorobę także u ludzi"
         },
         "correct_option": "C",
-        "explanation": "Klasa 6.2 obejmuje materiały zakaźne, ale przy klasyfikacji trzeba uwzględnić, czy czynnik może wywołać chorobę u ludzi, czy tylko u zwierząt. Nie należy przenosić ich do klasy 7, która dotyczy promieniowania, ani zakładać, że wszystkie materiały zakaźne stanowią identyczne zagrożenie. Kierowca powinien stosować klasyfikację podaną dla konkretnego towaru. Podstawa: ADR 2.2.62.1.2.",
+        "explanation": "Kategoria A obejmuje materiały zakaźne, których kontakt może spowodować trwałe upośledzenie zdrowia, zagrożenie życia lub śmiertelną chorobę u zdrowych ludzi lub zwierząt. Materiały groźne dla ludzi albo dla ludzi i zwierząt zalicza się do UN 2814. UN 2900 przeznaczony jest dla materiałów, które wywołują choroby tylko u zwierząt. UN 3291 dotyczy odpadów medycznych lub klinicznych, a nie tego przypadku. Podstawa: ADR 2.2.62.1.2 i 2.2.62.1.4.1 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.62.1.2",
+            "reference": "ADR 2025, 2.2.62.1.4.1 (a); 2.2.62.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

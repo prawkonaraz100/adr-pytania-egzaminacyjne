@@ -4,42 +4,42 @@
     {
       "id": "ADR-B-0301",
       "order": 301,
-      "clause": "ADR 2025, 8.2.1.1",
+      "clause": "ADR 2025, 8.2.2.8.2 (a)–(b)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "W opisanym przypadku wariant „Samo posiadanie prawa jazdy odpowiedniej kategorii” nie spełnia zasady ADR 2025, 8.2.1.1. Pełne porównanie urzędowego polskiego tekstu nadal wymagane."
+          "rationale": "Liczenie od dnia egzaminu dotyczy egzaminu zdanego wcześniej niż 12 miesięcy przed wygaśnięciem (lit. b)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wskazany punkt ADR 2025: ADR 2025, 8.2.1.1. Zaświadczenie ADR wydaje właściwy organ po odbyciu szkolenia i zdaniu egzaminu. Zastosowanie wymogu zależy od zakresu i wyłączeń ADR."
+          "rationale": "8.2.2.8.2 (a): egzamin w ciągu 12 miesięcy przed wygaśnięciem – 5 lat od daty wygaśnięcia poprzedniego zaświadczenia."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "W opisanym przypadku wariant „Wyłącznie doświadczenie w transporcie krajowym” nie spełnia zasady ADR 2025, 8.2.1.1. Pełne porównanie urzędowego polskiego tekstu nadal wymagane."
+          "rationale": "Data wydania dokumentu nie jest punktem początkowym w 8.2.2.8.2."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wymagane pełne dosłowne porównanie z polskim Dz.U. poz. 642 i sprostowaniem poz. 1575, sprawdzenie wyjątków i niezależny podpis specjalisty.",
+      "notes_on_conditions": "8.2.2.8.2 s. 1330. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0301",
         "module_id": "ADR-B-01",
-        "stem": "Kierowca realizuje przewóz towarów niebezpiecznych, dla którego wymagane jest zaświadczenie ADR. Co musi wykazać, aby uzyskać takie zaświadczenie?",
+        "stem": "Zaświadczenie ADR kierowcy jest ważne do 30 czerwca 2027 r. Kierowca ukończył kurs doskonalący i zdał egzamin 10 lutego 2027 r., niecałe 5 miesięcy wcześniej. Od kiedy liczy się 5 lat ważności nowego zaświadczenia?",
         "options": {
-          "A": "Samo posiadanie prawa jazdy odpowiedniej kategorii",
-          "B": "Ukończyć właściwy kurs i zdać egzamin ADR",
-          "C": "Wyłącznie doświadczenie w transporcie krajowym"
+          "A": "Od 10 lutego 2027 r., czyli od dnia, w którym zdał egzamin doskonalący",
+          "B": "Od 30 czerwca 2027 r., czyli od końca ważności starego zaświadczenia",
+          "C": "Od dnia, w którym urząd faktycznie wyda kierowcy nowe zaświadczenie"
         },
         "correct_option": "B",
-        "explanation": "Kierowca uzyskuje zaświadczenie ADR po ukończeniu właściwego szkolenia i zdaniu wymaganego egzaminu. Prawo jazdy potwierdza uprawnienie do kierowania daną kategorią pojazdu, ale nie sprawdza wiedzy o przewozie towarów niebezpiecznych; samo doświadczenie zawodowe również nie zastępuje kursu. Przed przyjęciem zlecenia sprawdź, czy dany przewóz wymaga ważnego zaświadczenia. Podstawa: ADR 8.2.1.1.",
+        "explanation": "Zaświadczenie ADR jest ważne 5 lat, a przed jego końcem kierowca odbywa kurs doskonalący i zdaje egzamin z tego kursu. Jeżeli zda egzamin w ciągu 12 miesięcy przed datą wygaśnięcia, nowe 5 lat liczy się od tej daty wygaśnięcia. Dzięki temu kierowca nie traci miesięcy, które zostały mu na starym zaświadczeniu. Od dnia egzaminu liczy się ważność tylko wtedy, gdy egzamin zdano wcześniej niż 12 miesięcy przed końcem ważności. Podstawa: ADR 8.2.2.8.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.2.1.1",
+            "reference": "ADR 2025, 8.2.2.8.2 (a)–(b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -50,42 +50,42 @@
     {
       "id": "ADR-B-0302",
       "order": 302,
-      "clause": "ADR 2025, 2.2.42.1.1",
+      "clause": "ADR 2025, 2.2.42.1.2; 3.2.1 tabela A, kolumna (3b)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wskazany punkt ADR 2025: ADR 2025, 2.2.42.1.1. Klasa 4.2 dotyczy materiałów podatnych na samozapalenie, w tym materiałów piroforycznych i samonagrzewających się."
+          "rationale": "2.2.42.1.2: SW – materiały podatne na samozapalenie, które w zetknięciu z wodą wydzielają gazy palne."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "W opisanym przypadku wariant „Wyłącznie gazy niepalne i nietrujące” nie spełnia zasady ADR 2025, 2.2.42.1.1. Pełne porównanie urzędowego polskiego tekstu nadal wymagane."
+          "rationale": "Samozapalny trujący to kod ST, nie SW."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "W opisanym przypadku wariant „Wyłącznie materiały zakaźne” nie spełnia zasady ADR 2025, 2.2.42.1.1. Pełne porównanie urzędowego polskiego tekstu nadal wymagane."
+          "rationale": "Samozapalny utleniający to kod SO, nie SW."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wymagane pełne dosłowne porównanie z polskim Dz.U. poz. 642 i sprostowaniem poz. 1575, sprawdzenie wyjątków i niezależny podpis specjalisty.",
+      "notes_on_conditions": "2.2.42.1.2 s. 182. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0302",
         "module_id": "ADR-B-02",
-        "stem": "W dokumentacji transportowej wskazano klasę 4.2. Jakiego rodzaju zagrożenie powinien rozpoznać kierowca?",
+        "stem": "Materiał klasy 4.2 ma w tabeli A kod klasyfikacyjny SW. Magazynier chce zmyć jego rozsypane resztki z podłogi strumieniem wody. Co oznacza ten kod?",
         "options": {
-          "A": "Materiały podatne na samozapalenie",
-          "B": "Wyłącznie gazy niepalne i nietrujące",
-          "C": "Wyłącznie materiały zakaźne"
+          "A": "Materiał samozapalny, który w zetknięciu z wodą wydziela też gazy palne",
+          "B": "Materiał samozapalny, który jest też trujący po wdychaniu lub połknięciu",
+          "C": "Materiał samozapalny, który też działa utleniająco i wzmaga palenie"
         },
         "correct_option": "A",
-        "explanation": "Klasa 4.2 obejmuje materiały, które mogą samoczynnie się zapalić lub niebezpiecznie nagrzewać bez zewnętrznego źródła ognia. Gazy niepalne należą do innej klasy, a materiały zakaźne są oznaczane klasą 6.2. Rozpoznanie klasy pomaga dobrać właściwe środki ostrożności podczas załadunku i przewozu. Podstawa: ADR 2.2.42.1.1.",
+        "explanation": "Kod klasyfikacyjny w kolumnie (3b) tabeli A pokazuje, jakie zagrożenia ma materiał w swojej klasie. W klasie 4.2 litera S oznacza materiał podatny na samozapalenie, a dodana litera W oznacza, że w zetknięciu z wodą wydziela on gazy palne. Materiał samozapalny i trujący ma kod ST, a samozapalny i utleniający kod SO. Przy takim towarze trzeba więc chronić go przed wodą, a nie tylko przed ogniem. Podstawa: ADR 2.2.42.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.42.1.1",
+            "reference": "ADR 2025, 2.2.42.1.2; 3.2.1 tabela A, kolumna (3b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -96,42 +96,42 @@
     {
       "id": "ADR-B-0303",
       "order": 303,
-      "clause": "ADR 2025, 5.2.2.1.1",
+      "clause": "ADR 2025, 5.2.2.1.7",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "W opisanym przypadku wariant „Wystarczy tylko nalepka zagrożenia głównego” nie spełnia zasady ADR 2025, 5.2.2.1.1. Pełne porównanie urzędowego polskiego tekstu nadal wymagane."
+          "rationale": "Jedna nalepka nie spełnia 5.2.2.1.7 dla DPPL > 450 l."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "W opisanym przypadku wariant „Wystarczy wybrać nalepkę o najbardziej widocznym kolorze” nie spełnia zasady ADR 2025, 5.2.2.1.1. Pełne porównanie urzędowego polskiego tekstu nadal wymagane."
+          "rationale": "Górna pokrywa nie jest miejscem wskazanym w 5.2.2.1.7."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Wskazany punkt ADR 2025: ADR 2025, 5.2.2.1.1. Każda sztuka przesyłki podlega oznakowaniu właściwymi nalepkami przypisanymi do przewożonych towarów, z uwzględnieniem szczególnych reguł."
+          "rationale": "5.2.2.1.7: DPPL o pojemności > 450 l – nalepki na dwóch przeciwległych bokach."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wymagane pełne dosłowne porównanie z polskim Dz.U. poz. 642 i sprostowaniem poz. 1575, sprawdzenie wyjątków i niezależny podpis specjalisty.",
+      "notes_on_conditions": "5.2.2.1.7 s. 940. Do oceny specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0303",
         "module_id": "ADR-B-06",
-        "stem": "Na sztuce przesyłki ADR wymagane są dwie różne nalepki zagrożeń. Jak należy ją oznakować?",
+        "stem": "Ciecz zapalną wlano do DPPL o pojemności 1000 litrów. Pracownik nakleił jedną nalepkę ostrzegawczą wzoru 3 na boku pojemnika. Gdzie według ADR powinny być nalepki na takim DPPL?",
         "options": {
-          "A": "Umieścić nalepkę główną, a dodatkową wpisać do dokumentów",
-          "B": "Wybrać nalepkę na podstawie barwy dominującej na opakowaniu",
-          "C": "Umieścić wszystkie nalepki wymagane dla danego towaru"
+          "A": "Wystarczy jedna nalepka na boku, jeśli jest dobrze widoczna",
+          "B": "Na górnej pokrywie, aby była widoczna z wózka widłowego",
+          "C": "Na dwóch przeciwległych bokach, bo DPPL ma ponad 450 litrów"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli dla towaru wymagane są dwie lub więcej nalepek, na sztuce przesyłki trzeba umieścić wszystkie z nich. Wpis w dokumencie przewozowym nie zastępuje oznaczenia na opakowaniu, a kolor kartonu nie decyduje o wyborze nalepki. To klasyfikacja towaru wskazuje, jakie zagrożenia trzeba pokazać osobom obsługującym przesyłkę. Podstawa: ADR 5.2.2.1.1.",
+        "explanation": "DPPL to duży pojemnik do przewozu luzem, który przenosi się wózkiem widłowym lub dźwigiem. Gdy ma pojemność większą niż 450 litrów, nalepki ostrzegawcze umieszcza się na dwóch przeciwległych bokach. Dzięki temu zagrożenie widać z obu stron, nawet gdy jedna strona jest zasłonięta przez inny ładunek. Jedna nalepka na boku albo nalepka na pokrywie nie spełnia tego wymogu. Podstawa: ADR 5.2.2.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.1.1",
+            "reference": "ADR 2025, 5.2.2.1.7",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
