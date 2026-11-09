@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pojazd ADR objęty 8.4.1 stoi bez dozoru na ogólnodostępnym parkingu, choć dostępny jest bezpieczny teren zakładu. Co jest właściwe?",
+        "stem": "W kolumnie (19) tabeli A dla przewożonego materiału podano przepis S16. W pojeździe jest 400 kg tego materiału. Czy kierowca musi stosować wymagania nadzoru pojazdu z działu 8.4?",
         "options": {
-          "A": "Wybrać dostępny, odpowiednio zabezpieczony teren zakładu zgodnie z wymaganiami postoju",
-          "B": "Wybrać parking publiczny dla wygody, mimo dostępnego terenu chronionego",
-          "C": "Zatrzymać się na poboczu, bo to najkrótszy postój, zamiast użyć terenu chronionego"
+          "A": "Nie, bo przy S16 nadzór obowiązuje dopiero powyżej 500 kg",
+          "B": "Tak, bo przy S16 nadzór obowiązuje od pierwszego kilograma",
+          "C": "Tak, ale jedynie przy postoju dłuższym niż dwie godziny"
         },
         "correct_option": "A",
-        "explanation": "Jeśli przewóz podlega wymaganiom nadzoru podczas postoju, a dostępny jest odpowiednio zabezpieczony teren zakładu, wybierz to miejsce zamiast pozostawiać pojazd bez dozoru na parkingu publicznym. Wygoda postoju ani bliskość pobocza nie zmniejszają ryzyka kradzieży lub dostępu osób nieuprawnionych. Najpierw sprawdź, jakie zasady postoju dotyczą tego konkretnego przewozu. Podstawa: ADR 8.4.1.",
+        "explanation": "Wymagania nadzoru pojazdu z działu 8.4 obowiązują tylko przy towarach i ilościach wskazanych przepisami S w kolumnie (19) tabeli A. Przepis S16 mówi, że nadzór stosuje się, gdy masa całkowita tych materiałów w pojeździe przekracza 500 kg. Przy 400 kg ten próg nie jest przekroczony, więc dział 8.4 nie ma zastosowania. Nadzór od jakiejkolwiek ilości przewidują inne przepisy, na przykład S14. Podstawa: ADR 8.4.1 i 8.5, S16.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.4.1",
+            "reference": "ADR 2025, 8.4.1; 8.5 przepis szczególny S16; 3.2.1 tabela A, kolumna (19)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
