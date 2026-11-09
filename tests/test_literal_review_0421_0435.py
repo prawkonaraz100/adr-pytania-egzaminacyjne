@@ -1,4 +1,4 @@
-"""First- and second-pass literal review artifacts for ADR-B-0421–0435."""
+"""First-pass report and second-pass corrections for ADR-B-0421–0435; after the second pass the bank has the expected SHA."""
 import hashlib
 import json
 import unittest
