@@ -1,0 +1,223 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0406..0420",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642; polski OCR; sprostowanie poz. 1575 sprawdzone",
+  "bank_count": 780,
+  "bank_blob_sha": "5e369822335dd871b6499fae080d6e689dc6377c",
+  "bank_changed": false,
+  "previous_uncompared": 375,
+  "compared": 15,
+  "remaining_without_comparison": 360,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "all_780_questions",
+    "manual_pairs": [
+      "0409 vs 0036",
+      "0414 vs 0120/0776",
+      "0415 vs 0035/0066/0701/0775",
+      "0416 vs 0034/0067/0300/0519"
+    ],
+    "distinguished_pairs": [
+      "0406 vs 0405/0410",
+      "0407/0408 vs 0144/0213/0305/0582",
+      "0410–0412 vs 0036/0121/0275",
+      "0413 vs 0414/0120/0211/0249/0776",
+      "0417–0420 vs 0022/0071/0072"
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0406",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.3.2.2 (h)",
+      "gazette_page": 113,
+      "exact_quote": "działania zapewniające ograniczenie dostępu do informacji o operacjach transportowych zawartych w planie ochrony wyłącznie do osób upoważnionych",
+      "reason": "Kryterium „potrzebują ich do swoich zadań” nie wynika wprost z przepisu; odpowiedź powinna wskazywać osoby upoważnione."
+    },
+    {
+      "id": "ADR-B-0407",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.3.3",
+      "gazette_page": 113,
+      "exact_quote": "powinny być zastosowane urządzenia, układy lub działania skutecznie zapobiegające kradzieży tych pojazdów i ich ładunku",
+      "reason": "Przepis nie wskazuje wprost czasu „przez cały przewóz”; opcje A/C przekraczają 80 znaków, klucz jest jedyną najkrótszą."
+    },
+    {
+      "id": "ADR-B-0408",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.3.3",
+      "gazette_page": 113,
+      "exact_quote": "Zastosowanie wymienionych środków nie powinno utrudniać prowadzenia akcji ratowniczo-gaśniczej",
+      "reason": "Klucz zgodny; opcja A przekracza 80 znaków, klucz jest jedyną najkrótszą."
+    },
+    {
+      "id": "ADR-B-0409",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.2.2",
+      "gazette_page": 110,
+      "exact_quote": "rozpoznanie i charakterystykę zagrożeń, metody wykrywania i usuwania zagrożeń oraz działania podejmowane w przypadku naruszenia bezpieczeństwa",
+      "reason": "Wyjaśnienie pomija metody wykrywania i usuwania zagrożeń oraz działania po naruszeniu; temat bliski 0036.",
+      "proposed_replacement": {
+        "stem": "Pracownik ma rozpoznać zagrożenie i wiedzieć, jak je wykryć. Co powinno obejmować szkolenie ochronne według 1.10.2.2?",
+        "options": {
+          "A": "Wyłącznie rozpoznanie nazw towarów niebezpiecznych i ich klas",
+          "B": "Tylko zasady organizacji czasu pracy kierowcy",
+          "C": "Metody wykrywania i usuwania zagrożeń oraz działania przy naruszeniu ochrony"
+        },
+        "correct_option": "C",
+        "explanation": "Szkolenie ochronne obejmuje nie tylko rozpoznawanie zagrożeń, lecz także metody ich wykrywania i usuwania. Powinno przygotować pracownika do podjęcia działań, gdy dojdzie do naruszenia bezpieczeństwa. Dzięki temu pracownik wie, jak rozpoznać problem i jak zareagować, zamiast ograniczać się do znajomości nazw towarów lub organizacji pracy. Podstawa: ADR 1.10.2.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.2.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0410",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.2.2",
+      "gazette_page": 110,
+      "exact_quote": "informacje o tym planie odpowiednio do zakresu obowiązków i odpowiedzialności osób szkolonych oraz do ich funkcji związanych z wykonaniem planu",
+      "reason": "Sens klucza zgodny; opcje A/B przekraczają 80 znaków."
+    },
+    {
+      "id": "ADR-B-0411",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.2.3",
+      "gazette_page": 110,
+      "exact_quote": "przeprowadzone lub weryfikowane przy zatrudnianiu na stanowiska związane z przewozem towarów niebezpiecznych oraz powinno być okresowo uzupełniane szkoleniem doskonalącym",
+      "reason": "Klucz zgodny, lecz jest jedyną najkrótszą opcją."
+    },
+    {
+      "id": "ADR-B-0412",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.2.4",
+      "gazette_page": 110,
+      "exact_quote": "przechowywane przez pracodawcę i udostępniane pracownikowi lub właściwej władzy, na ich wniosek; przez okres ustalony przez właściwą władzę",
+      "reason": "Klucz pomija pracownika i okres przechowywania; wszystkie opcje >80 znaków, klucz jedyną najkrótszą."
+    },
+    {
+      "id": "ADR-B-0413",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.1.2",
+      "gazette_page": 110,
+      "exact_quote": "Towary niebezpieczne mogą być wydane do przewozu wyłącznie przewoźnikowi odpowiednio zidentyfikowanemu",
+      "reason": "Punkt wymaga identyfikacji przewoźnika, nie odrębnego dowodu upoważnienia kierowcy; opcje A/B >80 znaków."
+    },
+    {
+      "id": "ADR-B-0414",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.1.2",
+      "gazette_page": 110,
+      "exact_quote": "Towary niebezpieczne mogą być wydane do przewozu wyłącznie przewoźnikowi odpowiednio zidentyfikowanemu",
+      "reason": "Duplikat tematu identyfikacji przewoźnika; klucz B jest jedyną najkrótszą.",
+      "proposed_replacement": {
+        "stem": "Towar ADR ma zostać wydany do przewozu. Kogo wymaga 1.10.1.2 odpowiednio zidentyfikować przed wydaniem?",
+        "options": {
+          "A": "Nadawcę, który przygotował dokument przewozowy",
+          "B": "Przewoźnika, któremu towary są wydawane do przewozu",
+          "C": "Odbiorcę, który przyjmie przesyłkę po przewozie"
+        },
+        "correct_option": "B",
+        "explanation": "Punkt 1.10.1.2 wskazuje wprost przewoźnika jako podmiot, któremu można wydać towary niebezpieczne do przewozu. Nie chodzi o nadawcę przygotowującego dokument ani o odbiorcę, który przyjmie przesyłkę na końcu trasy. Przed wydaniem trzeba więc ustalić tożsamość przewoźnika, a nie opierać się wyłącznie na danych innych uczestników przewozu. Podstawa: ADR 1.10.1.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0415",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.1.3",
+      "gazette_page": 110,
+      "exact_quote": "Miejsca używane do czasowego przechowywania towarów niebezpiecznych podczas ich przewozu, znajdujące się w obrębie terminali, placów przeładunkowych, baz transportowych, placów postojowych i stacji rozrządowych",
+      "reason": "Bliski duplikat 0035/0066/0701/0775; wszystkie opcje >80 znaków.",
+      "proposed_replacement": {
+        "stem": "Które miejsca ADR wymienia w 1.10.1.3 jako obszary czasowego przechowywania towarów niebezpiecznych podczas przewozu?",
+        "options": {
+          "A": "Terminale, place przeładunkowe, bazy transportowe, place postojowe i stacje rozrządowe",
+          "B": "Wyłącznie magazyny odbiorcy, w których towary są przechowywane po zakończeniu przewozu",
+          "C": "Tylko parkingi publiczne położone poza terminalami i bazami transportowymi"
+        },
+        "correct_option": "A",
+        "explanation": "Punkt 1.10.1.3 wymienia miejsca czasowego przechowywania towarów niebezpiecznych podczas przewozu, w tym terminale, place przeładunkowe, bazy transportowe, place postojowe i stacje rozrządowe. Przepis nie ogranicza się do magazynu odbiorcy ani do parkingów publicznych. Wskazane miejsca powinny być odpowiednio chronione i dobrze oświetlone, a gdzie jest to możliwe i wskazane, niedostępne dla osób postronnych. Podstawa: ADR 1.10.1.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0416",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.1.4",
+      "gazette_page": 110,
+      "exact_quote": "Każdy członek załogi pojazdu przewożącego towary niebezpieczne powinien posiadać przy sobie dokument z fotografią potwierdzający jego tożsamość",
+      "reason": "Bliski duplikat 0034/0067/0300/0519; opcja C >80, klucz jedyną najkrótszą.",
+      "proposed_replacement": {
+        "stem": "Kierowca ma ważny dokument ze zdjęciem, ale drugi członek załogi pozostawił swój dokument w biurze przewoźnika. Czy spełnia to 1.10.1.4?",
+        "options": {
+          "A": "Nie, każdy członek załogi powinien mieć przy sobie własny dokument z fotografią",
+          "B": "Tak, wystarczy kopia dokumentu drugiego członka załogi przechowywana przez pracodawcę",
+          "C": "Tak, jeśli kierowca potwierdzi ustnie tożsamość drugiej osoby podczas kontroli"
+        },
+        "correct_option": "A",
+        "explanation": "Punkt 1.10.1.4 wymaga, aby każdy członek załogi miał przy sobie dokument z fotografią potwierdzający jego tożsamość. Dokument kierowcy nie zastępuje dokumentu drugiej osoby, a kopia pozostawiona w biurze nie jest dokumentem posiadanym przy sobie. Ustne potwierdzenie także nie spełnia tego wymagania. Podstawa: ADR 1.10.1.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0417",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.1.4.1, tabela",
+      "gazette_page": 1325,
+      "exact_quote": "Poniższa tabela określa minimalne wymagania dotyczące gaśnic przenośnych dla grup pożarów A, B i C",
+      "reason": "Opcja B ma 102 znaki; potwierdzenie symbolu granicznego przy 3,5 t wymaga obrazu strony 1325."
+    },
+    {
+      "id": "ADR-B-0418",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.1.4.1, tabela",
+      "gazette_page": 1325,
+      "exact_quote": "Poniższa tabela określa minimalne wymagania dotyczące gaśnic przenośnych dla grup pożarów A, B i C",
+      "reason": "Opcja C ma 90 znaków; klucz A zgodny z wymogiem minimalnej liczby gaśnic."
+    },
+    {
+      "id": "ADR-B-0419",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.1.4.1, tabela",
+      "gazette_page": 1325,
+      "exact_quote": "Poniższa tabela określa minimalne wymagania dotyczące gaśnic przenośnych dla grup pożarów A, B i C",
+      "reason": "Dokładna granica 7,5 t nie jest jednoznacznie zachowana w OCR; wymaga obrazu tabeli."
+    },
+    {
+      "id": "ADR-B-0420",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.1.4.1, tabela",
+      "gazette_page": 1325,
+      "exact_quote": "Poniższa tabela określa minimalne wymagania dotyczące gaśnic przenośnych dla grup pożarów A, B i C",
+      "reason": "Wyjaśnienie błędnie podaje minimum dwóch gaśnic, podczas gdy dla >7,5 t tabela wymaga trzech; poprawna C jest jedyną najdłuższą."
+    }
+  ]
+}
