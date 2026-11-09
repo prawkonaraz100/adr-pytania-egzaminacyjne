@@ -4,42 +4,42 @@
     {
       "id": "ADR-B-0399",
       "order": 399,
-      "clause": "ADR 2025, 1.10.3.2.2(a)",
+      "clause": "ADR 2025, 1.10.3.2.2 (a)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/ewof3ibp/adr-2025-vol-i.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Przekazać zadania firmie ochrony bez oceny kwalifikacji”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Plan ochrony powinien wskazywać konkretne osoby odpowiedzialne za poszczególne działania oraz zapewniać, że mają odpowiednie kompetencje i uprawnienia. Pozostawienie odpowiedzialności nieokreślonej utrudnia reakcję na zagrożenie, a przypadkowy odbiorca nie jest automatycznie właściwą osobą. Zlecenie zewnętrznej ochronie i odpowiedzialność zbiorowa nie zastępują wskazania kompetentnych osób. Podstawa: ADR 1.10.3.2.2(a). Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Ogólny zapis nie jest szczegółowym podziałem obowiązków z 1.10.3.2.2 (a)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dystraktor po redakcji: „Pozostawić odpowiedzialność zbiorową, nie określając osób ani ich konkretnych uprawnień w planie”. Wyjaśnienie banku wskazuje, dlaczego ta opcja nie zastępuje właściwej czynności: Plan ochrony powinien wskazywać konkretne osoby odpowiedzialne za poszczególne działania oraz zapewniać, że mają odpowiednie kompetencje i uprawnienia. Pozostawienie odpowiedzialności nieokreślonej utrudnia reakcję na zagrożenie, a przypadkowy odbiorca nie jest automatycznie właściwą osobą. Zlecenie zewnętrznej ochronie i odpowiedzialność zbiorowa nie zastępują wskazania kompetentnych osób. Podstawa: ADR 1.10.3.2.2(a). Potwierdzenie prawne nadal oczekuje."
+          "rationale": "Plan musi wskazywać kompetentne i wykwalifikowane osoby z uprawnieniami (1.10.3.2.2 (a))."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aktualny klucz redakcyjny wskazuje tę odpowiedź. Wyjaśnienie banku: Plan ochrony powinien wskazywać konkretne osoby odpowiedzialne za poszczególne działania oraz zapewniać, że mają odpowiednie kompetencje i uprawnienia. Pozostawienie odpowiedzialności nieokreślonej utrudnia reakcję na zagrożenie, a przypadkowy odbiorca nie jest automatycznie właściwą osobą. Zlecenie zewnętrznej ochronie i odpowiedzialność zbiorowa nie zastępują wskazania kompetentnych osób. Podstawa: ADR 1.10.3.2.2(a). Niezależna recenzja specjalisty i dosłowne porównanie tekstu urzędowego nadal oczekują."
+          "rationale": "1.10.3.2.2 (a): szczegółowy podział obowiązków w zakresie ochrony wraz ze wskazaniem kompetentnych i wykwalifikowanych osób z uprawnieniami."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Ochrona zależy od zakresu przepisów 1.10, ról uczestników i charakteru przewozu; szczególne wyjątki trzeba skontrolować indywidualnie. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "1.10.3.2.2 (a) s. 113 (w #883 błędnie s. 96 – to numer strony ADR, nie Dz.U.).",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0399",
         "module_id": "ADR-B-12",
-        "stem": "Firma opracowuje plan ochrony dla towarów dużego ryzyka. Jak ma określić odpowiedzialność za ochronę?",
+        "stem": "Firma przewozi towary niebezpieczne dużego ryzyka i pisze plan ochrony. W projekcie zapisano: „za ochronę odpowiadają wszyscy pracownicy”. Czego w zakresie obowiązków wymaga 1.10.3.2.2 (a)?",
         "options": {
-          "A": "Przekazać zadania firmie ochrony bez oceny kwalifikacji",
-          "B": "Pozostawić odpowiedzialność zbiorową, nie określając osób ani ich konkretnych uprawnień w planie",
-          "C": "Przypisać zadania kompetentnym osobom z odpowiednimi uprawnieniami"
+          "A": "Wystarczy ogólny zapis, że za ochronę odpowiada cała firma",
+          "B": "Obowiązki przejmuje firma ochroniarska, której nie trzeba wskazywać w planie",
+          "C": "Podziału obowiązków i wskazania osób z kwalifikacjami i uprawnieniami"
         },
         "correct_option": "C",
-        "explanation": "Plan ochrony musi jasno wskazywać, kto odpowiada za poszczególne działania i czy te osoby mają odpowiednie kompetencje oraz uprawnienia. Zapis „odpowiada cały zespół” utrudnia reakcję, bo nie wiadomo, kto ma podjąć konkretne działanie. Zewnętrzna firma ochrony może pomagać, ale nie zastępuje przypisania odpowiedzialności w planie. Podstawa: ADR 1.10.3.2.2(a).",
+        "explanation": "Plan ochrony musi zawierać szczegółowy podział obowiązków w zakresie ochrony. Trzeba w nim wskazać kompetentne i wykwalifikowane osoby, które mają odpowiednie uprawnienia do wykonywania tych zadań. Ogólny zapis o odpowiedzialności wszystkich pracowników nie mówi, kto ma działać w razie zagrożenia. Firma zewnętrzna może pomagać, ale plan i tak musi jasno określać zadania i osoby. Podstawa: ADR 1.10.3.2.2 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.2.2(a)",
+            "reference": "ADR 2025, 1.10.3.2.2 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
