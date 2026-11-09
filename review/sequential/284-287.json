@@ -22,12 +22,12 @@
       "exact_record_snapshot": {
         "stem": "Z butli oznaczonej nalepką 2.2 uchodzi gaz w słabo wentylowanym pomieszczeniu. Kolega uważa, że gaz niepalny i nietrujący nie stanowi zagrożenia dla oddychania. Co należy uwzględnić?",
         "options": {
-          "A": "Ryzyko duszenia, choć gaz nie jest sklasyfikowany jako gaz trujący ani palny.",
-          "B": "Działanie duszące tylko wtedy, gdy obok nalepki 2.2 znajduje się też nalepka 2.3.",
-          "C": "Ryzyko dla oddychania można pominąć, jeśli nie ma palnych oparów ani płomienia."
+          "A": "Ryzyko uduszenia, chociaż gaz nie jest sklasyfikowany jako trujący ani palny",
+          "B": "Działanie duszące pojawia się dopiero wtedy, gdy obok jest też nalepka 2.3",
+          "C": "Ryzyko dla oddychania można pominąć, jeśli nie ma palnych oparów ani płomienia"
         },
         "correct_option": "A",
-        "explanation": "Instrukcje pisemne wskazują zagrożenie działaniem duszącym także przy gazach oznaczonych wzorem 2.2. „Nietrujący” nie oznacza, że uwolniony gaz jest bezpieczny do oddychania, szczególnie w słabo wentylowanym miejscu, w którym może się gromadzić. Brak płomienia lub nalepki 2.3 nie usuwa tego ryzyka. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Gaz z nalepką 2.2 nie jest palny ani trujący, ale może wypierać tlen z powietrza. Instrukcje pisemne podają dla tej nalepki zagrożenie działaniem duszącym i radzą unikać zagłębień terenu. W słabo wentylowanym pomieszczeniu gaz może się gromadzić, więc oddychanie tam jest niebezpieczne. Brak płomienia ani brak nalepki 2.3 nie usuwa tego ryzyka. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -63,12 +63,12 @@
       "exact_record_snapshot": {
         "stem": "Przed przewozem ADR przewoźnik nie otrzymał wymaganych informacji o towarze od nadawcy. Co powinien zrobić?",
         "options": {
-          "A": "Wyruszyć po sprawdzeniu adresu dostawy i danych kierowcy",
-          "B": "Uzyskać wymagane informacje i zapewnić wymagane dokumenty lub dostępne dane przed przewozem",
-          "C": "Zamiast danych UN wpisać nazwę firmy i numer pojazdu"
+          "A": "Wyruszyć po sprawdzeniu adresu dostawy oraz danych kierowcy pojazdu",
+          "B": "Przed wyjazdem uzyskać od nadawcy brakujące informacje o towarze",
+          "C": "Wpisać nazwę firmy i numer pojazdu zamiast danych o towarze"
         },
         "correct_option": "B",
-        "explanation": "Bez informacji o towarze niebezpiecznym przewoźnik nie może właściwie przygotować dokumentów i środków bezpieczeństwa. Sam adres odbiorcy i dane kierowcy nie mówią, jaki towar jedzie, a nazwa firmy z numerem pojazdu nie zastępuje danych przewozowych. Uzyskaj wymagane informacje od nadawcy przed rozpoczęciem jazdy. Podstawa: ADR 1.4.2.2.1(b).",
+        "explanation": "Przewoźnik musi przed rozpoczęciem przewozu upewnić się, że nadawca przekazał mu wszystkie informacje o towarze niebezpiecznym wymagane przez ADR. Bez nich nie wiadomo, jaki to towar, jak go oznakować i jak postąpić w razie wypadku. Adres dostawy, dane kierowcy, nazwa firmy czy numer pojazdu nic nie mówią o samym towarze. Dlatego przewoźnik nie powinien ruszać, dopóki nie otrzyma brakujących informacji. Podstawa: ADR 1.4.2.2.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
