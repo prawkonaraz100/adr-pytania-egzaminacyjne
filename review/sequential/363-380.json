@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewoźnik stwierdził przed wyjazdem naruszenie wymagań ADR. Kiedy według 1.4.2.2.3 może przekazać przesyłkę do dalszego przewozu?",
+        "stem": "Przewoźnik zamiast papierowego dokumentu przewozowego stosuje elektroniczną wymianę danych (EDT). Co według 1.4.2.2.1 (b) musi zapewnić na czas przewozu?",
         "options": {
-          "A": "Po usunięciu wykrytego naruszenia wymagań ADR",
-          "B": "Po podpisaniu protokołu naruszenia",
-          "C": "Po upływie ustalonego czasu postoju i zgłoszeniu dyspozytorowi"
+          "A": "Dostęp do tych danych co najmniej równoważny dokumentom papierowym",
+          "B": "Przekazanie danych odbiorcy, bez dostępu dla kierowcy w trasie",
+          "C": "Przesłanie danych nadawcy po zakończeniu przewozu, do archiwum firmy"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli przewoźnik przed wyjazdem wykryje naruszenie ADR, przesyłka może ruszyć dopiero po usunięciu tej niezgodności. Sam protokół, telefon do dyspozytora ani odczekanie określonego czasu nie naprawiają problemu i nie czynią przewozu zgodnym z przepisami. Najpierw usuń przyczynę naruszenia, a dopiero potem kontynuuj przewóz. Podstawa: ADR 1.4.2.2.3.",
+        "explanation": "Przewoźnik musi się upewnić, że wymagana dokumentacja przewozu jest w jednostce transportowej. ADR pozwala zastąpić dokumenty papierowe elektronicznym przetwarzaniem danych (EDP) albo elektroniczną wymianą danych (EDT). Wtedy przez cały przewóz dane muszą być dostępne co najmniej tak samo jak dokumenty papierowe. Dane wysłane tylko odbiorcy albo nadawcy po zakończeniu przewozu nie spełniają tego warunku. Podstawa: ADR 1.4.2.2.1 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.2.2.3",
+            "reference": "ADR 2025, 1.4.2.2.1 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,14 +61,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W drodze wykryto naruszenie ADR, które może zagrażać bezpieczeństwu. Co powinien zrobić przewoźnik?",
+        "stem": "W trasie kierowca zauważa, że jedna z beczek zaczęła przeciekać. To naruszenie ADR zagraża bezpieczeństwu przewozu. Co według 1.4.2.2.4 dzieje się wtedy z przewozem?",
         "options": {
-          "A": "Dojechać do bazy, jeśli naruszenie nie utrudnia prowadzenia pojazdu",
-          "B": "Zatrzymać przewóz możliwie szybko i bezpiecznie",
-          "C": "Zgłosić problem dyspozytorowi i kontynuować jazdę do bazy mimo zagrożenia"
+          "A": "Jedzie dalej do celu, a przeciek usuwa się u odbiorcy po rozładunku",
+          "B": "Przerywa się go niezwłocznie, z zachowaniem bezpieczeństwa ruchu",
+          "C": "Jedzie dalej, jeżeli dyspozytor zgodzi się na to przez telefon"
         },
         "correct_option": "B",
-        "explanation": "Jeśli przewoźnik zauważy naruszenie ADR, które może zagrażać bezpieczeństwu, nie powinien kontynuować przewozu tak, jakby nic się nie stało. Trzeba zatrzymać pojazd w bezpiecznym miejscu i doprowadzić do usunięcia niezgodności przed dalszą jazdą. Sam telefon do dyspozytora ani dojazd do bazy nie usuwają zagrożenia. Podstawa: ADR 1.4.2.2.4.",
+        "explanation": "Gdy w czasie przewozu wyjdzie na jaw naruszenie ADR zagrażające bezpieczeństwu, przewóz trzeba niezwłocznie przerwać. Robi się to bezpiecznie, z zachowaniem zasad ruchu drogowego, bezpiecznym unieruchomieniem przesyłki i dbałością o bezpieczeństwo publiczne. Dalsza jazda jest możliwa dopiero wtedy, gdy przewóz znów jest zgodny z przepisami, albo za pozwoleniem właściwej władzy. Zgoda dyspozytora ani naprawa u odbiorcy tego nie zastępują. Podstawa: ADR 1.4.2.2.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -102,14 +102,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Nadawca korzysta z pracy innych uczestników przewozu ADR. Czy to automatycznie usuwa obowiązek nadawcy dbania o zgodność przesyłki?",
+        "stem": "Nadawca zlecił zapakowanie i załadunek towaru niebezpiecznego zewnętrznym firmom. Czy przez to przestaje odpowiadać za zgodność przesyłki z ADR?",
         "options": {
-          "A": "Uznać, że odpowiada tylko pakujący",
-          "B": "Nadal zadbać o zgodność przesyłki z wymogami ADR",
-          "C": "Przyjąć dane z faktury jako dowód poprawnego przygotowania"
+          "A": "Tak, za przesyłkę odpowiadają odtąd pakujący i załadowca",
+          "B": "Nie, nadal musi podjąć środki, by przesyłka była zgodna z ADR",
+          "C": "Tak, jeżeli te firmy zatrudniają doradcę do spraw bezpieczeństwa"
         },
         "correct_option": "B",
-        "explanation": "Nadawca ma obowiązek zadbać o zgodność przesyłki z wymaganiami ADR, nawet gdy część czynności wykonuje pakujący lub inna firma. Przekazanie komuś pakowania nie oznacza, że cała odpowiedzialność znika. Sama faktura także nie potwierdza prawidłowego oznaczenia, opakowania i dokumentacji. W razie wątpliwości trzeba wyjaśnić niezgodności przed wysyłką. Podstawa: ADR 1.4.2.1.2.",
+        "explanation": "Nadawca może korzystać z usług pakującego, załadowcy czy napełniającego, ale nie pozbywa się w ten sposób odpowiedzialności. Nadal musi podjąć odpowiednie środki, aby przesyłka spełniała wymagania ADR. Przy niektórych obowiązkach, na przykład klasyfikacji i danych o towarze, może polegać na informacjach od tych firm. Doradca do spraw bezpieczeństwa w firmie wykonawcy nie przejmuje obowiązków nadawcy. Podstawa: ADR 1.4.2.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -150,7 +150,7 @@
           "C": "Kierowca dopiero po odbiorze ładunku"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli nadawca działa w imieniu innej firmy i nie wie, że towar jest niebezpieczny, informację wraz z wymaganymi danymi musi otrzymać na piśmie od firmy, na której zlecenie działa. Dzięki temu może prawidłowo przygotować dokumenty i przekazać towar do przewozu. Sam fakt pakowania przesyłki nie przenosi automatycznie tego obowiązku na pakującego, a kierowca nie może czekać z informacją do odbioru. Podstawa: ADR 1.4.2.1.3.",
+        "explanation": "Nadawca może wysyłać towar we własnym imieniu albo w imieniu innej firmy, czyli osoby trzeciej. W tym drugim przypadku to ta firma musi poinformować nadawcę na piśmie, że przewóz dotyczy towarów niebezpiecznych. Musi mu też udostępnić wszystkie informacje i dokumenty potrzebne do wypełnienia jego obowiązków. Ani firma pakująca, ani kierowca nie przejmują tego obowiązku. Podstawa: ADR 1.4.2.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -184,18 +184,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pakujący ukończył pakowanie ADR, lecz sztuki przesyłek nie mają wymaganego oznakowania. Co jest jego obowiązkiem?",
+        "stem": "Pakujący włożył kanistry z cieczą zapalną do kartonów i przygotował z nich sztuki przesyłek. Naklejenie nalepek chce zostawić kierowcy, który jutro odbierze towar. Co mówi o tym 1.4.3.2?",
         "options": {
-          "A": "Oznakować sztuki przesyłek i umieścić nalepki ADR",
-          "B": "Zamieścić numer UN w dokumencie i przekazać paczki do transportu",
-          "C": "Wysłać opis do kierowcy zamiast nalepek"
+          "A": "Sztuki przesyłek oznakowuje i opatruje nalepkami sam pakujący",
+          "B": "Nalepki może nakleić kierowca przy odbiorze, byle przed wyjazdem z placu",
+          "C": "Wystarczy wpisać numer UN do dokumentu przewozowego"
         },
         "correct_option": "A",
-        "explanation": "Pakujący odpowiada za przygotowanie sztuk przesyłek zgodnie z ADR, w tym za wymagane oznakowanie i nalepki. Sam wpis numeru UN w dokumencie nie uzupełnia brakujących oznaczeń na opakowaniu. Wiadomość wysłana kierowcy również ich nie zastępuje; niezgodność trzeba usunąć przed przekazaniem przesyłki do przewozu. Podstawa: ADR 1.4.3.2(b).",
+        "explanation": "Pakujący, który przygotowuje sztuki przesyłek do przewozu, musi stosować się do wymagań dotyczących oznakowania i nalepek ostrzegawczych. To on odpowiada za to, aby kartony wyszły od niego już prawidłowo oznakowane. Kierowca nie przejmuje tego obowiązku przy odbiorze towaru. Numer UN w dokumencie przewozowym też nie zastąpi oznakowania na samych sztukach przesyłek. Podstawa: ADR 1.4.3.2 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.2(b)",
+            "reference": "ADR 2025, 1.4.3.2 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -225,18 +225,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pakujący zamierza umieścić razem dwa towary niebezpieczne. Czego musi przestrzegać?",
+        "stem": "Firma przelewa ciecz zapalną z dużego zbiornika magazynowego do kanistrów, zamyka je i przygotowuje sztuki przesyłek do wysyłki. Jaką rolę według definicji ADR pełni przy tej czynności?",
         "options": {
-          "A": "Porównać masę produktów i ułożyć cięższy towar na dole",
-          "B": "Sprawdzić wymagania dotyczące wspólnego pakowania",
-          "C": "Uzgodnić pakowanie z odbiorcą"
+          "A": "Napełniającego, bo wlewa materiał niebezpieczny do pojemników",
+          "B": "Pakującego, bo umieszcza towar niebezpieczny w opakowaniach",
+          "C": "Załadowcy, bo przygotowuje towar do wydania przewoźnikowi"
         },
         "correct_option": "B",
-        "explanation": "Zanim dwa towary niebezpieczne trafią do jednego opakowania, pakujący musi sprawdzić, czy ADR dopuszcza ich wspólne pakowanie. Sama różnica masy, kolejność ułożenia na palecie ani zgoda odbiorcy nie uchylają zakazów i warunków określonych w przepisach. Najpierw sprawdź właściwe wymagania dla obu towarów, a dopiero potem przygotuj opakowanie. Podstawa: ADR 1.4.3.2(a).",
+        "explanation": "Według definicji ADR pakujący to firma, która umieszcza towary niebezpieczne w opakowaniach i w razie potrzeby przygotowuje sztuki przesyłek do przewozu. Kanistry są opakowaniami, więc firma działa tu jako pakujący. Napełniający napełnia cysterny oraz pojazdy i kontenery do przewozu luzem, a nie opakowania. Załadowca to firma, która ładuje sztuki przesyłek na pojazd lub do kontenera. Podstawa: ADR 1.2.1, definicje pakującego, napełniającego i załadowcy.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.2(a)",
+            "reference": "ADR 2025, 1.2.1 (definicje: pakujący, napełniający, załadowca)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -266,18 +266,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Rozładowca zamierza wyładować przesyłki ADR z innego pojazdu niż podany w dokumentach. Co należy zweryfikować przed rozładunkiem?",
+        "stem": "Rozładowca wyjmuje beczki z kontenera. Chce się upewnić, że rozładował właściwy towar. Co powinien w tym celu porównać według 1.4.3.7.1 (a)?",
         "options": {
-          "A": "Porównać rzeczywisty towar z dokumentami przewozu",
-          "B": "Porównać tylko numer UN na oznakowaniu, pomijając nazwę i pozostałe dane w dokumentach",
-          "C": "Sprawdzić wyłącznie liczbę palet i uznać, że ich zawartość zgadza się z dokumentami"
+          "A": "Dane z dokumentu przewozowego z oznakowaniem beczek i kontenera",
+          "B": "Liczbę beczek z liczbą podaną w zamówieniu złożonym przez odbiorcę",
+          "C": "Masę beczek z masą zapisaną na fakturze od nadawcy"
         },
         "correct_option": "A",
-        "explanation": "Przed rozładunkiem porównaj rzeczywiście dostarczony towar z danymi w dokumentach, aby wykryć pomyłkę lub niezgodność. Sam numer UN albo liczba palet nie potwierdzają całego opisu i zawartości przesyłki. Jeśli dane się różnią, wyjaśnij rozbieżność przed dalszym postępowaniem z ładunkiem. Podstawa: ADR 1.4.3.7.1(a).",
+        "explanation": "Rozładowca musi się upewnić, że rozładowano właściwe towary. Robi to, porównując informacje z dokumentu przewozowego z informacjami na sztukach przesyłek, kontenerze lub pojeździe, na przykład z numerem UN i nalepkami. Zamówienie odbiorcy ani faktura nie opisują towaru niebezpiecznego tak, jak wymaga ADR. Sama zgodność liczby beczek albo ich masy nie potwierdza, że to ten sam towar. Podstawa: ADR 1.4.3.7.1 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.7.1(a)",
+            "reference": "ADR 2025, 1.4.3.7.1 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -307,18 +307,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Podczas rozładunku ADR stwierdzono poważne uszkodzenie opakowania. Co rozładowca powinien zrobić zgodnie z 1.4.3.7.1(b)?",
+        "stem": "Odbiorca zlecił firmie logistycznej wyjęcie beczek z towarem niebezpiecznym z kontenera, który stoi na naczepie. Kim jest ta firma przy tej czynności według definicji z ADR?",
         "options": {
-          "A": "Przenieść uszkodzoną paczkę na wydzielony koniec rampy i rozładowywać dalej",
-          "B": "Przerwać rozładunek do wdrożenia środków bezpieczeństwa",
-          "C": "Sprawdzić szkodę po rozładunku"
+          "A": "Przewoźnikiem, bo kontener z beczkami nadal stoi na pojeździe",
+          "B": "Rozładowcą, bo rozładowuje zapakowany towar z kontenera na naczepie",
+          "C": "Załadowcą, bo przenosi beczki z kontenera do swojego magazynu na rampie"
         },
         "correct_option": "B",
-        "explanation": "Jeśli podczas rozładunku zostanie stwierdzone poważne uszkodzenie opakowania, które może zagrażać bezpieczeństwu, rozładunek należy przerwać lub nie rozpoczynać go do czasu wdrożenia środków ochronnych. Kontynuowanie pracy albo odsunięcie uszkodzonej sztuki na bok nie usuwa zagrożenia. Najpierw trzeba zabezpieczyć miejsce i ustalić bezpieczny sposób postępowania. Podstawa: ADR 1.4.3.7.1(b).",
+        "explanation": "Według definicji ADR rozładowcą jest między innymi firma, która rozładowuje zapakowane towary niebezpieczne z pojazdu lub z kontenera. Wyjmowanie beczek z kontenera to właśnie taka czynność, więc firma logistyczna działa tu jako rozładowca. Przewoźnikiem jest firma wykonująca przewóz, a nie ta, która rozładowuje. Załadowca ładuje towar na pojazd lub do kontenera, czyli robi coś odwrotnego. Podstawa: ADR 1.2.1, definicja rozładowcy, lit. (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.7.1(b)",
+            "reference": "ADR 2025, 1.2.1 (definicja: rozładowca, lit. (b))",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -348,18 +348,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po wyładunku ADR w pojeździe zostały niebezpieczne pozostałości, które wymagają oczyszczenia. Kto ma zapewnić ich usunięcie w ramach swoich obowiązków?",
+        "stem": "Firma rozładowuje u siebie kontener z beczkami. Dokument przewozowy i nalepki pokazują, że to towar niebezpieczny. Kierownik twierdzi, że firma nie zawierała umowy przewozu, więc obowiązki rozładowcy z ADR jej nie dotyczą. Czy ma rację?",
         "options": {
-          "A": "Rozładowca w zakresie czyszczenia po rozładunku",
-          "B": "Kierowca kolejnego zestawu, który przyjedzie po nowy ładunek",
-          "C": "Nadawca, bo przygotował dokument przewozowy"
+          "A": "Nie, bo firma wie, że jej praca jest częścią przewozu objętego ADR",
+          "B": "Tak, bo obowiązki z ADR mają strony umowy przewozu, a nie inne firmy",
+          "C": "Tak, dopóki firma nie podpisze osobnej umowy z przewoźnikiem"
         },
         "correct_option": "A",
-        "explanation": "Po rozładunku rozładowca odpowiada za wymagane czynności związane z usunięciem pozostałości i oczyszczeniem pojazdu lub kontenera. Nie można automatycznie przerzucić tego obowiązku na nadawcę ani na kierowcę, który dopiero przyjedzie po następny ładunek. Przed kolejnym załadunkiem trzeba doprowadzić pojazd do stanu wymaganego przez ADR. Podstawa: ADR 1.4.3.7.1(d).",
+        "explanation": "Obowiązki pakującego, napełniającego, rozładowcy i innych uczestników przewozu nie zależą od tego, czy firma podpisała umowę przewozu. ADR wiąże je z ogólnymi zasadami bezpieczeństwa na tyle, na ile firma wie lub powinna wiedzieć, że jej czynności są częścią przewozu objętego ADR. Tu dokument i nalepki jasno to pokazują, więc firma ma obowiązki rozładowcy. Lista tych obowiązków w ADR nie jest przy tym wyczerpująca. Podstawa: ADR 1.4.3 i 1.4.3.7.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.7.1(d)",
+            "reference": "ADR 2025, 1.4.3 (akapit wprowadzający); 1.4.3.7.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -389,18 +389,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po całkowitym rozładowaniu i oczyszczeniu kontenera ADR pozostawiono nalepki dużego formatu, które nie są już wymagane. Co powinien zrobić rozładowca?",
+        "stem": "Kontener po towarze niebezpiecznym został całkowicie rozładowany, oczyszczony i odkażony. Nadal ma jednak nalepki ostrzegawcze i tablice barwy pomarańczowej. Co według 1.4.3.7.1 (f) ma zapewnić rozładowca?",
         "options": {
-          "A": "Usunąć oznaczenia ADR zbędne po oczyszczeniu",
-          "B": "Zamienić wcześniejsze nalepki na oznaczenia kolejnego ładunku",
-          "C": "Pozostawić nalepki do kolejnej kontroli"
+          "A": "Żeby kontener nie miał już nalepek ostrzegawczych, znaków ani tablic",
+          "B": "Żeby nalepki i tablice zostały na kontenerze do następnego załadunku",
+          "C": "Żeby nalepki i tablice zostały, ale zasłonięte folią na czas jazdy"
         },
         "correct_option": "A",
-        "explanation": "Po całkowitym rozładunku i oczyszczeniu kontenera należy usunąć nalepki i oznaczenia, które nie są już wymagane. Pozostawione znaki mogą sugerować służbom i obsłudze, że w kontenerze nadal znajduje się poprzedni towar. Nie zastępuj ich oznaczeniami przyszłego ładunku bez sprawdzenia jego wymagań. Podstawa: ADR 1.4.3.7.1(e).",
+        "explanation": "Rozładowca odpowiada za to, aby kontener całkowicie rozładowany, oczyszczony i odkażony nie miał już nalepek ostrzegawczych, znaków ani tablic barwy pomarańczowej. Takie oznakowanie informuje służby i obsługę, że w środku jest towar niebezpieczny, więc na pustym i czystym kontenerze wprowadzałoby w błąd. Inaczej jest, gdy kontener nie został oczyszczony, bo wtedy oznakowanie musi zostać. Podstawa: ADR 1.4.3.7.1 (f).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.7.1(e)",
+            "reference": "ADR 2025, 1.4.3.7.1 (f)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -430,18 +430,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Załadowca ma przygotować do przewozu sztuki ADR i żywność w jednym pojeździe. Co powinien sprawdzić?",
+        "stem": "Załadowca ma wydać przewoźnikowi partię materiału. Z danych od nadawcy wynika, że ADR nie dopuszcza go do przewozu drogowego. Opakowania są szczelne i oznakowane. Co powinien zrobić załadowca?",
         "options": {
-          "A": "Sprawdzić wymagane oddzielenie żywności i pasz od towarów ADR",
-          "B": "Załadować, a oddzielenie ustalić później.",
-          "C": "Szczelne opakowania znoszą zakaz wspólnego załadunku."
+          "A": "Nie wydawać go, bo ten materiał nie jest dopuszczony do przewozu",
+          "B": "Wydać go, bo opakowania są szczelne i mają nalepki ostrzegawcze",
+          "C": "Wydać go, jeżeli przewoźnik przyjmie na piśmie odpowiedzialność za ładunek"
         },
         "correct_option": "A",
-        "explanation": "Przed załadunkiem załadowca powinien sprawdzić, czy konkretny towar ADR wymaga oddzielenia od żywności lub paszy i jak należy je wykonać. Nie każdy ładunek automatycznie podlega takiemu samemu zakazowi, dlatego trzeba odczytać właściwe wymagania dla przewożonej substancji. Nie wolno odkładać tej decyzji do czasu po załadunku ani uznawać, że szczelne opakowanie samo usuwa wymóg. Podstawa: ADR 1.4.3.1.1(e) i 7.5.4.",
+        "explanation": "Załadowca może wydać przewoźnikowi towary niebezpieczne tylko wtedy, gdy są one dopuszczone do przewozu zgodnie z ADR. Jeżeli materiał nie jest dopuszczony, szczelne opakowania i nalepki niczego nie zmieniają. Pisemna zgoda przewoźnika też nie zastępuje dopuszczenia z przepisów. Przy tym obowiązku załadowca może polegać na informacjach od innych uczestników, na przykład od nadawcy. Podstawa: ADR 1.4.3.1.1 (a) i 1.4.3.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.1.1(e)",
+            "reference": "ADR 2025, 1.4.3.1.1 (a); 1.4.3.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -471,18 +471,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewoźnik ma przewieźć towary niebezpieczne, ale nie sprawdził wymaganych nalepek i tablic pojazdu. Co powinien zrobić zgodnie z ADR 1.4.2.2.1?",
+        "stem": "Przed wyjazdem kierowca mówi przewoźnikowi, że skoro beczki mają nalepki, to oznakowanie pojazdu nie jest sprawą przewoźnika. Co o obowiązkach przewoźnika mówi 1.4.2.2.1 (f)?",
         "options": {
-          "A": "Sprawdzić oznakowanie wymagane na jednostce",
-          "B": "Uznać, że nalepki na opakowaniach zastępują wymagane oznakowanie pojazdu",
-          "C": "Sprawdzić wyłącznie dokumenty i zostawić kontrolę tablic na czas dostawy"
+          "A": "Przewoźnik upewnia się, że pojazd ma wymagane nalepki, znaki i tablice",
+          "B": "Za oznakowanie pojazdu odpowiada nadawca, a przewoźnik go nie sprawdza",
+          "C": "Nalepki na beczkach zastępują nalepki i tablice wymagane na pojeździe"
         },
         "correct_option": "A",
-        "explanation": "Przed rozpoczęciem przewozu przewoźnik powinien sprawdzić, czy jednostka transportowa ma wymagane nalepki i tablice identyfikacyjne. Nalepki na pojedynczych opakowaniach nie zastępują oznakowania pojazdu, a kontrola dopiero po dostawie następuje za późno. Jeśli oznakowanie jest niepełne lub nieprawidłowe, trzeba wyjaśnić i usunąć problem przed wyjazdem. Podstawa: ADR 1.4.2.2.1(f).",
+        "explanation": "Przewoźnik musi się upewnić, że na pojazdach umieszczono wymagane nalepki ostrzegawcze, znaki i tablice barwy pomarańczowej z działu 5.3. Nalepki na beczkach dotyczą sztuk przesyłek i nie zastępują oznakowania pojazdu. Przewoźnik może przy tym korzystać z informacji od innych uczestników przewozu, ale nie przerzuca na nich swojego obowiązku. Brak wymaganego oznakowania trzeba usunąć przed rozpoczęciem przewozu. Podstawa: ADR 1.4.2.2.1 (f), 1.4.2.2.2 i 1.4.2.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.2.2.1(f)",
+            "reference": "ADR 2025, 1.4.2.2.1 (f); 1.4.2.2.2; 1.4.2.2.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -512,18 +512,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewoźnik chce oprzeć się na informacjach przekazanych przez nadawcę w zakresie dopuszczalności przewozu. Czy ADR to przewiduje?",
+        "stem": "Przewoźnik sprawdza, czy towar jest dopuszczony do przewozu i czy nadawca przekazał wszystkie wymagane informacje. Czy przy tych czynnościach może polegać na danych od innych uczestników przewozu?",
         "options": {
-          "A": "Nie korzystać z danych nadawcy",
-          "B": "Tak, w zakresie przewidzianym w 1.4.2.2.2",
-          "C": "Przyjąć informacje nadawcy jako zwolnienie przewoźnika z jego pozostałych obowiązków"
+          "A": "Nie, musi to ustalić sam, na przykład badając próbkę tego towaru",
+          "B": "Tak, przy tych czynnościach ADR pozwala polegać na takich danych",
+          "C": "Tak, ale dopiero wtedy, gdy dane potwierdzi właściwa władza"
         },
         "correct_option": "B",
-        "explanation": "Przewoźnik może w określonym zakresie oprzeć się na informacjach przekazanych przez nadawcę lub innych uczestników przewozu. Nie oznacza to jednak, że wolno mu zignorować widoczne uszkodzenie, brak oznakowania albo inną niezgodność, którą sam zauważył. Zaufanie do danych nie zwalnia z własnych obowiązków kontrolnych. Dlatego błędne są zarówno całkowita odmowa korzystania z informacji, jak i uznanie ich za pełne zwolnienie z odpowiedzialności. Podstawa: ADR 1.4.2.2.2.",
+        "explanation": "Przewoźnik musi między innymi upewnić się, że towar jest dopuszczony do przewozu i że nadawca przekazał wymagane informacje. ADR pozwala mu przy tych sprawdzeniach polegać na informacjach i danych od innych uczestników przewozu. Tak samo jest przy sprawdzaniu przeładowania pojazdu oraz nalepek i tablic. Nie musi więc sam badać towaru ani czekać na potwierdzenie władzy. Podstawa: ADR 1.4.2.2.2 i 1.4.2.2.1 (a), (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.2.2.2",
+            "reference": "ADR 2025, 1.4.2.2.2; 1.4.2.2.1 (a), (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
