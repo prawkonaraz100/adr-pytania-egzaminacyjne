@@ -15,7 +15,7 @@ class Partia21LiteralReview(unittest.TestCase):
     def test_bank_blob_and_question_records_unchanged(self):
         raw = BANK.read_bytes()
         blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
-        self.assertEqual(blob, "e560a3892b2b76217bf4ff9a977a1a4c2771eff8")
+        self.assertEqual(blob, "ba829d36bc7e1c04aeab108d826bfae33938422f")
         rows = [json.loads(line) for line in raw.decode("utf-8").splitlines() if line.strip()]
         self.assertEqual(len(rows), 780)
         for q in rows:

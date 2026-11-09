@@ -244,24 +244,24 @@
     {
       "id": "ADR-B-0466",
       "order": 466,
-      "clause": "5.4.1.1.18",
+      "clause": "ADR 2025, 5.4.1.1.18",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Tak, zawsze dodatkowo): pomija warunek albo zaprzecza zakresowi ADR 5.4.1.1.18. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Ilość w workach nie ma znaczenia – 5.4.1.1.18 wyłącza UN 3077 z dodatkowego zapisu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Tak, ale tylko gdy jedzie przez tunel): pomija warunek albo zaprzecza zakresowi ADR 5.4.1.1.18. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Spełnienie kryteriów 2.2.9.1.10 nie wystarcza – UN 3077 i UN 3082 są wyłączone."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Wyraźny wyjątek w 5.4.1.1.18 obejmuje numery UN 3077 i 3082, dla których nie wymaga się tej dodatkowej adnotacji."
+          "rationale": "5.4.1.1.18: tego dodatkowego zapisu nie stosuje się do UN 3077 i UN 3082."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu.",
+      "notes_on_conditions": "5.4.1.1.18 s. 966 (obraz strony PDF; OCR nagłówka „066” błędny).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -269,14 +269,14 @@
       "question_snapshot": {
         "id": "ADR-B-0466",
         "module_id": "ADR-B-03",
-        "stem": "Towar ma numer UN 3077 i spełnia kryteria zagrożenia środowiskowego. Czy 5.4.1.1.18 wymaga dla niego dodatkowego wpisu ENVIRONMENTALLY HAZARDOUS?",
+        "stem": "Nadawca wysyła UN 3077 MATERIAŁ ZAGRAŻAJĄCY ŚRODOWISKU, STAŁY, I.N.O. w workach po 25 kg. Czy według 5.4.1.1.18 w dokumencie przewozowym trzeba dodać zapis „ZAGRAŻAJĄCY ŚRODOWISKU”?",
         "options": {
-          "A": "Tak, zawsze trzeba dodać wpis środowiskowy, niezależnie od numeru UN",
-          "B": "Tak, ale tylko wtedy, gdy trasa obejmuje przejazd przez tunel",
-          "C": "Nie; UN 3077 i 3082 są wyłączone z tego dodatkowego wpisu"
+          "A": "Tak, bo worki zawierają więcej niż 5 kg netto materiału stałego",
+          "B": "Tak, bo ten materiał spełnia kryteria zagrożenia dla środowiska wodnego",
+          "C": "Nie, 5.4.1.1.18 wyłącza z tego dodatkowego zapisu UN 3077 i UN 3082"
         },
         "correct_option": "C",
-        "explanation": "Dla UN 3077 i UN 3082 nazwa przewozowa już wskazuje, że materiał zagraża środowisku, dlatego ADR przewiduje wyjątek od dopisywania dodatkowej wzmianki „ENVIRONMENTALLY HAZARDOUS” w dokumencie. Nie jest to zwolnienie z całego opisu przewozowego: numer UN, nazwa i pozostałe wymagane dane nadal muszą się znaleźć w dokumencie. Nie przenoś tego wyjątku na inne numery UN. Podstawa: ADR 5.4.1.1.18.",
+        "explanation": "Według 5.4.1.1.18 materiał spełniający kryteria zagrożenia dla środowiska z 2.2.9.1.10 wymaga w dokumencie przewozowym dodatkowego zapisu „ZAGRAŻAJĄCY ŚRODOWISKU” albo „MARINE POLLUTANT / ENVIRONMENTALLY HAZARDOUS”. Ten sam punkt mówi jednak, że tego dodatkowego zapisu nie stosuje się do UN 3077 i UN 3082. Dla nich już prawidłowa nazwa przewozowa mówi, że materiał zagraża środowisku. Masa w workach nie ma tu znaczenia, a numer UN, nazwę i pozostałe dane wpisuje się normalnie. Podstawa: ADR 5.4.1.1.18.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -291,24 +291,24 @@
     {
       "id": "ADR-B-0467",
       "order": 467,
-      "clause": "5.4.1.1.18",
+      "clause": "ADR 2025, 5.4.1.1.18",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "W łańcuchu z przewozem morskim ADR dopuszcza samą wzmiankę MARINE POLLUTANT przewidzianą przez IMDG."
+          "rationale": "5.4.1.1.18: w łańcuchu z przewozem morskim dopuszcza się zapis „MARINE POLLUTANT”."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Zawsze należy je skreślić i zastąpić numerem faktury): pomija warunek albo zaprzecza zakresowi ADR 5.4.1.1.18. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Dopuszczenie dotyczy całego łańcucha, także drogowego odcinka do portu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Jest dopuszczalne tylko w przewozie klasy 7): pomija warunek albo zaprzecza zakresowi ADR 5.4.1.1.18. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "UN 3077 i UN 3082 są wyłączone z dodatkowego zapisu – dopuszczenie nie jest dla nich."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4m: korekta długości A/B/C bez zmiany klucza ani podstawy; specjalistyczna kontrola nadal otwarta.",
+      "notes_on_conditions": "5.4.1.1.18 s. 966 (obraz strony PDF). Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -316,14 +316,14 @@
       "question_snapshot": {
         "id": "ADR-B-0467",
         "module_id": "ADR-B-03",
-        "stem": "W morsko-drogowym łańcuchu przewozu dokument dla materiału niebezpiecznego dla środowiska zawiera określenie MARINE POLLUTANT. Jak ocenić je w zakresie 5.4.1.1.18?",
+        "stem": "Beczki z farbą UN 1263 klasy 3, która spełnia też kryteria z 2.2.9.1.10, jadą ciężarówką do portu, a dalej statkiem. W dokumencie przewozowym jest sam zapis „MARINE POLLUTANT”. Czy 5.4.1.1.18 to dopuszcza?",
         "options": {
-          "A": "MARINE POLLUTANT może być zaakceptowane na warunkach 5.4.1.1.18",
-          "B": "Należy je zawsze skreślić i zastąpić numerem faktury przewozowej",
-          "C": "Określenie to jest dozwolone wyłącznie przy przewozie materiałów klasy 7"
+          "A": "Tak, w łańcuchu transportowym z przewozem morskim taki zapis jest dopuszczony",
+          "B": "Nie, na odcinku drogowym do portu zapis ma brzmieć „ZAGRAŻAJĄCY ŚRODOWISKU”",
+          "C": "Nie, ten zapis dopuszcza się jedynie dla UN 3077 i UN 3082 w przewozie morskim"
         },
         "correct_option": "A",
-        "explanation": "Określenie MARINE POLLUTANT może pojawić się w dokumencie drogowym w łańcuchu obejmującym transport morski, jeśli spełnione są warunki ADR 5.4.1.1.18. Nie należy go automatycznie usuwać ani zastępować numerem faktury; sam napis nie zwalnia jednak z podania pozostałych wymaganych danych. Sprawdź, czy przewóz i dokument mieszczą się w zakresie przewidzianego wyjątku. Podstawa: ADR 5.4.1.1.18.",
+        "explanation": "Co do zasady 5.4.1.1.18 wymaga dodatkowego zapisu „ZAGRAŻAJĄCY ŚRODOWISKU” albo „MARINE POLLUTANT / ENVIRONMENTALLY HAZARDOUS”. Ten sam punkt dopuszcza jednak sam zapis „MARINE POLLUTANT”, gdy przewóz jest częścią łańcucha transportowego obejmującego przewóz morski. Dzięki temu ten sam opis pasuje do drogowego odcinka do portu i do rejsu statkiem. Ta możliwość nie jest ograniczona do UN 3077 i UN 3082, bo dotyczy każdego materiału, który wymaga dodatkowego zapisu z 5.4.1.1.18. Podstawa: ADR 5.4.1.1.18.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -338,24 +338,24 @@
     {
       "id": "ADR-B-0468",
       "order": 468,
-      "clause": "5.3.6.1",
+      "clause": "ADR 2025, 5.3.6.1; 5.3.1.2",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Tylko wtedy, gdy znak został wybrany ze względów marketingowych): pomija warunek albo zaprzecza zakresowi ADR 5.3.6.1. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "5.3.6.1: znak umieszcza się na kontenerze, gdy wymagane są duże nalepki."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (Nigdy, bo znak występuje wyłącznie na pojedynczym kartonie): pomija warunek albo zaprzecza zakresowi ADR 5.3.6.1. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Nalepka wzoru 9 i znak z 5.2.1.8.3 to odrębne oznakowania – jedno nie zastępuje drugiego."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR przewiduje znak środowiskowy także dla wskazanych pojazdów i jednostek, gdy wymagane są nalepki wielkiego formatu oraz spełniono kryteria, z wyłączeniami."
+          "rationale": "5.3.6.1: kontenery z materiałami z 2.2.9.1.10, gdy wymagane są duże nalepki, oznakowuje się znakiem."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending. Etap 4m: korekta długości A/B/C bez zmiany klucza ani podstawy; specjalistyczna kontrola nadal otwarta.",
+      "notes_on_conditions": "5.3.6.1 s. 960; 5.3.1.2 s. 951.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -363,18 +363,18 @@
       "question_snapshot": {
         "id": "ADR-B-0468",
         "module_id": "ADR-B-03",
-        "stem": "Pojazd wymaga nalepek wielkiego formatu i przewozi towary zagrażające środowisku wodnemu. Kiedy znak środowiskowy według 5.3.6 może być dodatkowo wymagany na jednostce?",
+        "stem": "Kontener wielki z beczkami UN 3082 po 200 l ma duże nalepki wzoru 9 wymagane według 5.3.1.2. Czy według 5.3.6.1 na kontenerze musi być też znak dla materiału zagrażającego środowisku?",
         "options": {
-          "A": "Znak dodaje się wyłącznie wtedy, gdy przewoźnik chce wyróżnić przesyłkę reklamowo",
-          "B": "Znak środowiskowy nigdy nie występuje na jednostce, tylko na kartonie",
-          "C": "Znak może być wymagany, jeśli 5.3.6.1 ma zastosowanie i nie działa wyjątek"
+          "A": "Nie, ten znak umieszcza się na beczkach, a nie na ścianach samego kontenera",
+          "B": "Nie, duża nalepka wzoru 9 na kontenerze zastępuje tam znak środowiskowy",
+          "C": "Tak, bo wymagane są duże nalepki, a materiał spełnia kryteria 2.2.9.1.10"
         },
         "correct_option": "C",
-        "explanation": "Znak zagrożenia dla środowiska może być wymagany także na jednostce transportowej, jeśli przewożony towar spełnia warunki ADR 5.3.6.1 i nie działa przewidziany wyjątek. Nie oznacza to, że znak umieszcza się wyłącznie na kartonie ani że jest on dowolną informacją reklamową. Sprawdź rodzaj jednostki, wymagane nalepki wielkiego formatu i warunki dotyczące oznakowania opakowań. Podstawa: ADR 5.3.6.1 oraz 5.2.1.8.1.",
+        "explanation": "Punkt 5.3.6.1 wiąże znak środowiskowy na kontenerze z dużymi nalepkami ostrzegawczymi. Jeśli kontener musi mieć duże nalepki według 5.3.1, a materiał spełnia kryteria z 2.2.9.1.10, kontener oznakowuje się także znakiem dla materiałów zagrażających środowisku. Nalepka wzoru 9 mówi o klasie towaru, a znak z rybą i drzewem o zagrożeniu dla środowiska wodnego, więc jedno nie zastępuje drugiego. Znak na beczkach też nie wystarcza, bo kontener ma własne oznakowanie zewnętrzne. Podstawa: ADR 5.3.6.1 i 5.3.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.6.1",
+            "reference": "ADR 2025, 5.3.6.1; 5.3.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -385,24 +385,24 @@
     {
       "id": "ADR-B-0469",
       "order": 469,
-      "clause": "5.3.6.2",
+      "clause": "ADR 2025, 5.3.6.2; 5.2.1.8.3",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (50 × 50 mm): pomija warunek albo zaprzecza zakresowi ADR 5.3.6.2. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "100 mm × 100 mm to minimum na sztuce przesyłki (5.2.1.8.3), nie na pojeździe."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędny wariant (100 × 100 mm): pomija warunek albo zaprzecza zakresowi ADR 5.3.6.2. Obowiązują wyjątki i odpowiedni sposób przewozu."
+          "rationale": "Wymiaru 50 mm × 50 mm ADR dla tego znaku na pojeździe nie przewiduje."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Dla wskazanych jednostek przewozowych standardowy znak środowiskowy ma co najmniej 250 × 250 mm; przepis przewiduje ograniczone odstępstwo rozmiarowe."
+          "rationale": "5.3.6.2: minimalne wymiary znaku na pojazdach i kontenerach – 250 mm × 250 mm."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu.",
+      "notes_on_conditions": "5.3.6.2 s. 960; 5.2.1.8.3 s. 938.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -410,18 +410,18 @@
       "question_snapshot": {
         "id": "ADR-B-0469",
         "module_id": "ADR-B-03",
-        "stem": "Jaki standardowy minimalny wymiar znaku środowiskowego przewiduje ADR 5.3.6.2 dla oznakowania kontenera, bez zastosowania szczególnego zmniejszenia wymiarów?",
+        "stem": "Wywrotka wiezie luzem UN 3077 i musi mieć znak dla materiału zagrażającego środowisku. Jaki najmniejszy wymiar tego znaku na pojeździe podaje 5.3.6.2?",
         "options": {
-          "A": "50 × 50 mm — wymiar standardowy bez zastosowania zmniejszenia",
-          "B": "100 × 100 mm — wymiar standardowy bez zastosowania zmniejszenia",
-          "C": "250 × 250 mm — wymiar standardowy bez zastosowania zmniejszenia"
+          "A": "100 mm × 100 mm, czyli tyle samo, ile na sztuce przesyłki",
+          "B": "50 mm × 50 mm, bo znak uzupełnia dużą nalepkę wzoru 9",
+          "C": "250 mm × 250 mm, czyli więcej niż na sztuce przesyłki"
         },
         "correct_option": "C",
-        "explanation": "W przypadku kontenera standardowy minimalny wymiar wymaganego znaku zagrożenia dla środowiska wynosi 250 × 250 mm. Mniejsze rozmiary 50 × 50 mm i 100 × 100 mm nie są tu zwykłym standardem, dlatego nie należy wybierać ich bez sprawdzenia szczególnych warunków dopuszczonego zmniejszenia. Przed wyjazdem zweryfikuj znak na kontenerze. Podstawa: ADR 5.3.6.2.",
+        "explanation": "Na sztuce przesyłki znak dla materiału zagrażającego środowisku ma według 5.2.1.8.3 co najmniej 100 mm × 100 mm. Na pojazdach, kontenerach i innych dużych jednostkach 5.3.6.2 wymaga większego znaku, co najmniej 250 mm × 250 mm, żeby był dobrze widoczny z daleka. To ten sam wzór z rybą i drzewem, zmienia się tylko najmniejszy rozmiar. Wymiaru 50 mm × 50 mm ADR dla tego znaku na pojeździe nie przewiduje. Podstawa: ADR 5.3.6.2 i 5.2.1.8.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.6.2",
+            "reference": "ADR 2025, 5.3.6.2; 5.2.1.8.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -432,24 +432,24 @@
     {
       "id": "ADR-B-0470",
       "order": 470,
-      "clause": "5.3.6.2",
+      "clause": "ADR 2025, 5.3.6.1; 5.3.1.5",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Zmniejszenie znaku może być dopuszczone dla cysterny do 3000 l, jeśli spełniono warunki ADR."
+          "rationale": "5.3.1.5: pojazd z samymi sztukami przesyłek ma duże nalepki przy klasie 1 (poza 1.4S) i 7 – brak dużych nalepek, brak znaku z 5.3.6.1."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Brak miejsca nie daje automatycznego prawa do pominięcia wymaganego znaku."
+          "rationale": "Ilość w kanistrach decyduje o znaku na kanistrach (5.2.1.8.1), nie na pojeździe."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Zmniejszenie wymaga spełnienia warunków przepisu; nie można pomijać kontroli pojemności i dostępnej powierzchni."
+          "rationale": "Tablice barwy pomarańczowej nie są warunkiem z 5.3.6.1 – liczą się duże nalepki."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Szczegółowy zakres 5.2.1.8, 5.3.6 lub 5.4.1.1.18 i wszystkie wyjątki wymagają kontroli urzędowego polskiego tekstu.",
+      "notes_on_conditions": "5.3.6.1 s. 960; 5.3.1.5 s. 952. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -457,18 +457,18 @@
       "question_snapshot": {
         "id": "ADR-B-0470",
         "module_id": "ADR-B-03",
-        "stem": "Kontener-cysterna ma pojemność 2500 l i niewystarczającą powierzchnię na standardowy znak środowiskowy. Co dopuszcza 5.3.6.2?",
+        "stem": "Ciężarówka z plandeką wiezie same kanistry 20 l z UN 3082. Kanistry mają znak środowiskowy i nalepkę wzoru 9. Czy według 5.3.6.1 na samym pojeździe trzeba umieścić znak dla materiału zagrażającego środowisku?",
         "options": {
-          "A": "Można zmniejszyć znak do co najmniej 100 × 100 mm, gdy spełniono warunki przepisu",
-          "B": "Znak można całkowicie pominąć na każdej cysternie, gdy brakuje miejsca na ścianie",
-          "C": "Znak można zmniejszyć bez sprawdzania pojemności cysterny ani warunków miejsca"
+          "A": "Nie, bo przy tych sztukach przesyłek pojazd nie musi mieć dużych nalepek",
+          "B": "Tak, bo kanistry zawierają więcej niż 5 l materiału zagrażającego środowisku",
+          "C": "Tak, bo pojazd z tym ładunkiem musi mieć tablice barwy pomarańczowej"
         },
         "correct_option": "A",
-        "explanation": "Dla kontenera-cysterny lub cysterny przenośnej o pojemności do 3000 litrów ADR dopuszcza w określonych warunkach mniejszy znak zagrożenia dla środowiska, gdy brakuje miejsca na standardowy rozmiar. Nie oznacza to, że znak można całkowicie pominąć albo zmniejszyć bez sprawdzenia warunków przepisu. Sprawdź pojemność i dostępną powierzchnię przed zastosowaniem wyjątku. Podstawa: ADR 5.3.6.2.",
+        "explanation": "Według 5.3.6.1 znak dla materiału zagrażającego środowisku umieszcza się na pojeździe wtedy, gdy pojazd musi mieć duże nalepki ostrzegawcze według rozdziału 5.3.1. Pojazd przewożący same sztuki przesyłek ma mieć duże nalepki przy materiałach klasy 1, poza 1.4S, i klasy 7, co wynika z 5.3.1.5. Kanistry z UN 3082 do nich nie należą, więc pojazd nie potrzebuje ani dużych nalepek, ani znaku środowiskowego. Znak musi być natomiast na kanistrach, a tablice pomarańczowe to osobne oznakowanie. Podstawa: ADR 5.3.6.1 i 5.3.1.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.6.2",
+            "reference": "ADR 2025, 5.3.6.1; 5.3.1.5",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

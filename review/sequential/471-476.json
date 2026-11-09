@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewóz towarów niebezpiecznych objęty ADR odbywa się ciężarówką; znajomy kierowcy chce jechać na wolnym fotelu, nie będąc członkiem załogi. Czy jest to dozwolone?",
+        "stem": "Butle z chlorem UN 1017 mają w kolumnie (19) tabeli A przepis S14. Skrzynia pojazdu jest zamknięta na klucz i obcy nie mają do niej dostępu. Czy z tego powodu można w ogóle nie stosować wymagań działu 8.4?",
         "options": {
-          "A": "Tak, jeśli pasażer ma dokument tożsamości i jedzie tylko krótki odcinek",
-          "B": "Tak, jeśli kierowca i pasażer wyrażą zgodę, pasażer zna zagrożenia i ma własny dokument tożsamości",
-          "C": "Nie; poza członkami załogi nie wolno przewozić pasażerów w tej jednostce"
+          "A": "Tak, bo zamknięta na klucz skrzynia zwalnia z wymagań działu 8.4, jak przy S15",
+          "B": "Tak, jeśli w pojeździe jest nie więcej niż 500 kg butli z chlorem",
+          "C": "Nie, S14 nie ma takiego wyjątku, a 8.4 stosuje się przy jakiejkolwiek ilości"
         },
         "correct_option": "C",
-        "explanation": "W jednostce transportowej przewożącej towary niebezpieczne nie wolno przewozić osoby, która nie jest członkiem załogi. Krótki odcinek, wolne miejsce, zgoda kierowcy ani dokument tożsamości pasażera nie tworzą wyjątku od tego zakazu. Ograniczenie zmniejsza liczbę osób narażonych w razie wypadku lub uwolnienia ładunku. Podstawa: ADR 8.3.1.",
+        "explanation": "Przepis S14 mówi, że wymagania działu 8.4 dotyczące nadzorowania pojazdów stosuje się do pojazdów przewożących jakąkolwiek ilość tych materiałów. W przeciwieństwie do S15 nie ma w nim wyjątku dla zamkniętego przedziału ładunkowego ani dla sztuk przesyłek zabezpieczonych przed rozładunkiem. Zamknięcie skrzyni na klucz jest więc dobrym zabezpieczeniem, ale nie zwalnia z wymagań działu 8.4. Próg 500 kg należy do innego przepisu, S16. Podstawa: ADR 8.5 (S14, S15 i S16) i 8.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.1",
+            "reference": "ADR 2025, 8.5 przepis szczególny S14; 8.4.1; 3.2.1 tabela A, kolumna (19)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W pojeździe ADR załoga ma gaśnicę zgodną z wymaganiami, ale nie wie, jak jej użyć. Czego dodatkowo wymaga ADR?",
+        "stem": "Nowy kierowca dostał pojazd ADR z wymaganymi gaśnicami, ale nigdy nie używał gaśnicy. Kierownik mówi, że wystarczy, iż sprawne gaśnice są w pojeździe. Co na ten temat mówi 8.3.2?",
         "options": {
-          "A": "Gaśnicą może posługiwać się wyłącznie spedytor lub osoba z biura",
-          "B": "Sama obecność sprawnej gaśnicy wystarcza, nawet jeśli załoga jej nie zna",
-          "C": "Załoga powinna znać sposób obsługi przewożonych gaśnic"
+          "A": "Wystarczy, że sprawne gaśnice są w pojeździe i mają ważny przegląd techniczny",
+          "B": "Gaśnice obsługuje straż pożarna, więc kierowca nie musi tego umieć",
+          "C": "Załoga powinna wiedzieć, jak należy używać środków do gaszenia pożaru"
         },
         "correct_option": "C",
-        "explanation": "Załoga powinna wiedzieć, jak obsługiwać gaśnice przewożone w pojeździe, aby w razie bezpiecznej możliwości użycia nie tracić czasu na naukę. Samo posiadanie sprawnego sprzętu bez znajomości obsługi nie wystarcza. Nie jest to zadanie zastrzeżone tylko dla spedytora, lecz obowiązek przygotowania załogi. Nie oznacza też nakazu gaszenia pożaru ładowni. Podstawa: ADR 8.3.2 i 5.4.3.4.",
+        "explanation": "Punkt 8.3.2 mówi, że członkowie załogi pojazdu powinni wiedzieć, jak należy używać środków do gaszenia pożaru. Sprawna gaśnica nic nie da, jeśli w chwili pożaru kierowca nie umie jej szybko uruchomić. Dlatego oprócz wyposażenia pojazdu liczy się wiedza załogi, zdobywana na przykład na szkoleniu ADR. Według instrukcji pisemnych gaśnicy używa się przy małym pożarze opon, hamulców lub silnika, a pożaru przedziału ładunkowego załoga nie gasi. Podstawa: ADR 8.3.2 i 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.2",
+            "reference": "ADR 2025, 8.3.2; 5.4.3.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pojazd ADR z układem ABS ciągnie przyczepę o dopuszczalnej maksymalnej masie przekraczającej 3,5 t. Co wymaga ADR 8.3.8 od połączeń elektrycznych wskazanych w 9.2.2.6 podczas przewozu?",
+        "stem": "Dla przewożonego materiału kolumna (19) tabeli A wskazuje S17. W pojeździe są dwie palety po 600 kg tego materiału. Kierowca liczy każdą paletę osobno. Czy trzeba stosować wymagania nadzoru z działu 8.4?",
         "options": {
-          "A": "Połączenia można rozłączyć podczas jazdy, jeśli kierowca nie hamuje",
-          "B": "Złącza elektryczne muszą być podłączone tylko podczas załadunku i rozładunku",
-          "C": "Złącza elektryczne z 9.2.2.6 muszą pozostać podłączone podczas przewozu"
+          "A": "Nie, bo próg 1 000 kg z S17 odnosi się do jednej palety",
+          "B": "Nie, bo przy S17 nadzór z działu 8.4 obowiązuje dopiero powyżej 2 000 kg",
+          "C": "Tak, bo w pojeździe jest razem 1 200 kg, czyli ponad 1 000 kg"
         },
         "correct_option": "C",
-        "explanation": "Przy takim zestawie połączenia elektryczne wymagane przez ADR muszą pozostać podłączone podczas przewozu, aby układ ABS działał prawidłowo także z przyczepą. Podłączenie tylko na czas załadunku nie wystarcza, a rozłączenie w drodze może pozbawić zestaw wymaganego działania. Obowiązek dotyczy całego przewozu, nie tylko chwili hamowania. Podstawa: ADR 8.3.8 i 9.2.2.6.",
+        "explanation": "Przepis S17 każe stosować wymagania działu 8.4 dotyczące nadzorowania pojazdów, gdy masa całkowita tych materiałów w pojeździe przekracza 1 000 kg. Liczy się więc suma w całym pojeździe, a nie masa jednej palety czy jednej sztuki przesyłki. Dwie palety po 600 kg dają razem 1 200 kg, więc próg jest przekroczony i pojazd trzeba nadzorować albo parkować tak, jak każe 8.4.1. Próg 2 000 kg należy do innego przepisu, S18. Podstawa: ADR 8.5 (S17 i S18) i 8.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.8",
+            "reference": "ADR 2025, 8.5 przepis szczególny S17; 8.4.1; 3.2.1 tabela A, kolumna (19)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -143,18 +143,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przed załadunkiem ADR kontrola dokumentów ujawnia niespełnienie wymagań przez kierowcę lub pojazd. Jak należy postąpić w ramach 7.5.1.2?",
+        "stem": "Przed załadunkiem beczek do kontenera wielkiego pracownik widzi pęknięty słupek naroża kontenera. Podłoga i ściany w środku są czyste i gładkie. Czy według 7.5.1.2 można rozpocząć załadunek?",
         "options": {
-          "A": "Wstrzymać załadunek do usunięcia niezgodności, chyba że ADR przewiduje wyjątek",
-          "B": "Załadować przesyłkę mimo niezgodności, jeśli dostawa jest pilna i odbiorca wyraził zgodę",
-          "C": "Załadować, a brak wymagań opisać później w uwagach do faktury"
+          "A": "Nie, pęknięty słupek naroża to istotna wada konstrukcyjna kontenera",
+          "B": "Tak, bo czyste i gładkie wnętrze wystarcza do bezpiecznego załadunku",
+          "C": "Tak, jeśli beczki ustawi się z dala od pękniętego naroża kontenera"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli przed załadunkiem kontrola wykaże, że kierowca lub pojazd nie spełnia wymagań, nie rozpoczynaj załadunku bez usunięcia niezgodności. Pilna dostawa ani zgoda odbiorcy nie zastępują warunków ADR, a dopisek na fakturze nie naprawia braku. Najpierw ustal, czego brakuje, i doprowadź pojazd lub dokumenty do zgodności. Uwzględnij tylko wyjątek, który rzeczywiście przewidują przepisy. Podstawa: ADR 7.5.1.2.",
+        "explanation": "Według 7.5.1.2 jednostkę transportową cargo sprawdza się przed załadunkiem, czy jest konstrukcyjnie zdatna do użytku. W kontenerze wielkim elementami konstrukcyjnymi są między innymi słupki naroża, a pęknięcie elementów konstrukcyjnych ADR wymienia wśród istotnych wad. Taki kontener może nie wytrzymać podnoszenia, mocowania lub hamowania pojazdu, nawet jeśli wnętrze jest czyste. Dlatego załadunek nie powinien się odbyć, a odsunięcie beczek od naroża niczego nie naprawia. Podstawa: ADR 7.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.1.2",
+            "reference": "ADR 2025, 7.5.1.2 (istotne wady, lit. (a))",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -184,18 +184,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przed załadunkiem kontenera pojawia się uszkodzenie jego ściany mogące naruszyć ochronę opakowań. Jak stosuje się 7.5.1.2?",
+        "stem": "Worki z materiałem klasy 4.3, który w zetknięciu z wodą wydziela gazy palne, mają jechać w kontenerze wielkim. W dachu kontenera jest dziura, przez którą kapie deszcz. Czy według 7.5.1.2 można go załadować?",
         "options": {
-          "A": "Aktualne dopuszczenie kontenera pozwala zignorować uszkodzenie jego ściany",
-          "B": "Wystarczy przykleić taśmę bez oceny, czy opakowania będą bezpieczne",
-          "C": "Uszkodzenie zagrażające integralności kontenera wyklucza jego załadunek"
+          "A": "Tak, jeśli worki położy się na paletach w miejscu, na które nie kapie",
+          "B": "Tak, bo przed załadunkiem sprawdza się wnętrze, a nie dach kontenera",
+          "C": "Nie, dziura w dachu odbiera kontenerowi wymaganą odporność na deszcz"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli ściana kontenera jest uszkodzona w sposób mogący zagrozić jego wytrzymałości lub ochronie przesyłek, nie należy rozpoczynać załadunku. Ważne dopuszczenie kontenera nie potwierdza, że pozostaje on bezpieczny po późniejszym uszkodzeniu. Zaklejenie ściany taśmą bez oceny nie dowodzi naprawy ani bezpieczeństwa przewozu. Podstawa: ADR 7.5.1.2.",
+        "explanation": "Według 7.5.1.2 przed załadunkiem sprawdza się, czy kontener wielki nie jest uszkodzony w stopniu, który wpływa na jego odporność na warunki atmosferyczne, jeśli jest ona wymagana. Materiał klasy 4.3 w zetknięciu z wodą wydziela gazy palne, więc ochrona przed deszczem jest tu konieczna. Dziura w dachu wpuszcza wodę, a w czasie jazdy woda może się rozlać po całej podłodze. Dlatego taki kontener nie nadaje się do załadunku, dopóki nie zostanie naprawiony. Podstawa: ADR 7.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.1.2",
+            "reference": "ADR 2025, 7.5.1.2 (odporność kontenera wielkiego na warunki atmosferyczne)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -225,18 +225,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Podczas rozładunku ADR wykryto uszkodzone wyposażenie pojazdu sprzeczne z wymaganiami. Jaką zasadę 7.5.1.3 należy rozważyć?",
+        "stem": "U odbiorcy kierowca ma zdjąć beczki z naczepy. Jedyny wózek widłowy na rampie ma niesprawne hamulce. Czy według 7.5.1.3 rozładunek może się odbyć?",
         "options": {
-          "A": "Rozładunek nie podlega kontroli zgodności, bo przewóz już się zakończył",
-          "B": "Każdy brak wyposażenia można pominąć po przyjeździe do odbiorcy",
-          "C": "Wstrzymać rozładunek, chyba że ADR przewiduje zastosowanie wyjątku"
+          "A": "Tak, bo kontrola wyposażenia według 7.5.1 dotyczy jedynie załadunku",
+          "B": "Tak, jeśli kierowca podpisze, że bierze ryzyko tego rozładunku na siebie",
+          "C": "Nie, bo ten brak może źle wpłynąć na bezpieczeństwo całego rozładunku"
         },
         "correct_option": "C",
-        "explanation": "Wymagania dotyczące stanu pojazdu i wyposażenia nie przestają mieć znaczenia w chwili przyjazdu do odbiorcy. Jeśli podczas rozładunku zostanie wykryta niezgodność, nie można jej zignorować tylko dlatego, że pojazd zakończył jazdę. Wstrzymaj czynność i ustal, jak bezpiecznie usunąć problem, uwzględniając wyjątki przewidziane w ADR. Podstawa: ADR 7.5.1.3.",
+        "explanation": "Punkt 7.5.1.3 mówi, że rozładunek nie powinien się odbyć, jeśli kontrola ujawniła braki mogące mieć negatywny wpływ na jego bezpieczeństwo lub ochronę. Kontrola z 7.5.1.2 obejmuje też wyposażenie używane podczas załadunku i rozładunku, takie jak wózek widłowy. Wózek z niesprawnymi hamulcami może uderzyć w beczki albo je upuścić, a wtedy grozi wyciek towaru niebezpiecznego. Nie każdy drobny brak zatrzymuje rozładunek, ale ten dotyczy bezpieczeństwa, a podpis kierowcy go nie usuwa. Podstawa: ADR 7.5.1.3 i 7.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.1.3",
+            "reference": "ADR 2025, 7.5.1.3; 7.5.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

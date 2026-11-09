@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0346-0360.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0346-0360.json"
-EXPECTED_BANK_SHA = "e560a3892b2b76217bf4ff9a977a1a4c2771eff8"
+EXPECTED_BANK_SHA = "ba829d36bc7e1c04aeab108d826bfae33938422f"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(346, 361)]
 
 
