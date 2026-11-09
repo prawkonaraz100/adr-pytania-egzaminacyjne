@@ -43,6 +43,18 @@ class Partia30LiteralReview(unittest.TestCase):
                 self.assertIsNone(q["reviewer"])
         self.assertEqual(sum(q["verification_status"] == "verified" for q in rows), 0)
 
+    def test_second_pass_artifacts_and_bank_sha(self):
+        second_report = ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0436-0450.md"
+        corrections = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0436-0450.jsonl"
+        self.assertTrue(second_report.is_file())
+        self.assertTrue(corrections.is_file())
+        rows = [json.loads(line) for line in corrections.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(rows), 15)
+        self.assertEqual([row["id"] for row in rows], EXPECTED_IDS)
+        raw = BANK.read_bytes()
+        blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
+        self.assertEqual(blob, "094473164719bc6a651a6e303dc117cfa6503ffb")
+
 
 if __name__ == "__main__":
     unittest.main()
