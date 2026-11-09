@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Sztuka przesyłki ADR ma strzałki kierunkowe na dwóch przeciwległych bokach. W jakiej pozycji należy co do zasady ustawić ją w pojeździe?",
+        "stem": "Opakowanie kombinowane z butelkami cieczy ma na dwóch przeciwległych bokach strzałki kierunkowe. Magazyn chce dokleić obok naklejkę ze strzałką pokazującą miejsce otwierania kartonu. Czy wolno to zrobić?",
         "options": {
-          "A": "Dowolnie na boku, jeśli jest przypięta pasem i nie przesuwa się podczas jazdy",
-          "B": "Strzałkami w dół, aby zachować stabilność",
-          "C": "Zgodnie z kierunkiem strzałek, czyli strzałkami do góry"
+          "A": "Tak, jeśli dodatkowa strzałka ma inny kolor niż strzałki kierunkowe",
+          "B": "Tak, jeśli dodatkowa strzałka jest wyraźnie mniejsza od strzałek kierunkowych",
+          "C": "Nie. Na takim opakowaniu nie umieszcza się innych oznaczeń ze strzałkami"
         },
         "correct_option": "C",
-        "explanation": "Strzałki kierunkowe na opakowaniu pokazują wymaganą pozycję sztuki przesyłki: co do zasady należy ustawić ją strzałkami do góry. Pas zabezpieczający ładunek nie pozwala odwrócić opakowania ani położyć go na boku wbrew oznakowaniu. Pozycja zgodna ze strzałkami pomaga zachować prawidłowe ułożenie zawartości podczas przewozu. Podstawa: ADR 7.5.1.5.",
+        "explanation": "Strzałki kierunkowe pokazują, którą stroną do góry ma stać sztuka przesyłki, aby ciecz nie wyciekła. Inna strzałka na tym samym opakowaniu mogłaby zmylić osobę przy załadunku. Dlatego ADR zabrania nanoszenia na nie jakiegokolwiek innego oznakowania ze strzałkami. Kolor ani wielkość dodatkowej strzałki niczego tu nie zmieniają, więc miejsce otwierania trzeba wskazać bez strzałki. Podstawa: ADR 5.2.1.10.1 i 5.2.1.10.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.1.5",
+            "reference": "ADR 2025, 5.2.1.10.1; 5.2.1.10.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -143,18 +143,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Wymagany dokument przewozowy dotyczy przewozu ADR realizowanego zgodnie z 1.1.4.2.1 w łańcuchu morskim lub lotniczym. Jakiego dodatkowego wpisu wymaga 5.4.1.1.7?",
+        "stem": "Sztuki przesyłek jadą ciężarówką do portu na dalszy rejs statkiem. Mają znaki i nalepki zgodne z ADR, ale towary spakowano razem według Kodeksu IMDG, czego ADR by nie dopuścił. Czy w dokumencie przewozowym potrzebny jest zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”?",
         "options": {
-          "A": "Oświadczenia, że przewóz odbywa się zgodnie z 1.1.4.2.1",
-          "B": "Wyłącznie numeru rejsu statku",
-          "C": "Adnotacji, że ADR nie ma w ogóle zastosowania"
+          "A": "Tak, bo przewóz korzysta z odstępstwa 1.1.4.2.1 dla pakowania razem",
+          "B": "Nie, bo ten zapis dotyczy przesyłek oznakowanych według IMDG, a nie ADR",
+          "C": "Nie, bo wystarczy wpisać w dokumencie nazwę statku i port załadunku"
         },
         "correct_option": "A",
-        "explanation": "Gdy drogowy odcinek przewozu morskiego lub lotniczego odbywa się na szczególnych zasadach ADR 1.1.4.2.1, dokument przewozowy musi zawierać odpowiednie oświadczenie. Sam numer rejsu nie zastępuje tej informacji, a stwierdzenie, że ADR w ogóle nie obowiązuje, może być nieprawdziwe. Przed odjazdem sprawdź, czy dany przewóz rzeczywiście spełnia warunki tego przepisu. Podstawa: ADR 5.4.1.1.7.",
+        "explanation": "Odstępstwo z 1.1.4.2.1 obejmuje nie tylko oznakowanie, lecz także pakowanie i pakowanie razem w jednej sztuce przesyłki. Jeżeli towary spakowano razem według Kodeksu IMDG, a ADR by na to nie pozwolił, przewóz odbywa się właśnie na podstawie tego odstępstwa. Wtedy w dokumencie przewozowym musi być zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”, nawet gdy znaki i nalepki są zgodne z ADR. Nazwa statku ani port nie zastępują tego zapisu. Podstawa: ADR 1.1.4.2.1 (b) i 5.4.1.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.7",
+            "reference": "ADR 2025, 1.1.4.2.1 (b); 5.4.1.1.7",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
