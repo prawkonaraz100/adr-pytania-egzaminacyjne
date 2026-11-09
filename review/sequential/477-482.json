@@ -20,22 +20,27 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Odbiorca ADR korzysta z zewnętrznej firmy rozładunkowej. Czy przez samo zlecenie rozładunku przestaje odpowiadać za obowiązki, które ADR nakłada na odbiorcę?",
+        "id": "ADR-B-0477",
+        "module_id": "ADR-B-07",
+        "stem": "Odbiorca zlecił firmie zewnętrznej rozładunek kontenera z beczkami ADR i jego czyszczenie. Kierownik uważa, że od tej chwili obowiązki odbiorcy przechodzą na tę firmę. Co według 1.4.2.3.3 powinien zrobić odbiorca?",
         "options": {
-          "A": "Tak, wszystkie obowiązki odbiorcy przechodzą automatycznie na podwykonawcę",
-          "B": "Nie; odbiorca nadal odpowiada za obowiązki nałożone na niego przez ADR",
-          "C": "Tak, jeśli umowa z podwykonawcą zapisuje przejęcie całej odpowiedzialności"
+          "A": "Nic więcej, bo obowiązki odbiorcy przejmuje firma, która rozładowuje",
+          "B": "Zastosować środki, by spełniono jego wymagania z 1.4.2.3.1 i 1.4.2.3.2",
+          "C": "Wpisać tę firmę w dokument przewozowy w miejsce odbiorcy tej przesyłki"
         },
         "correct_option": "B",
-        "explanation": "Odbiorca nie przestaje mieć obowiązków ADR tylko dlatego, że zlecił rozładunek zewnętrznej firmie. Podwykonawca może wykonywać prace, ale samo podpisanie umowy nie usuwa automatycznie odpowiedzialności odbiorcy wynikającej z przepisów. Odbiorca powinien dopilnować realizacji obowiązków, które nadal do niego należą. Podstawa: ADR 1.4.2.3.1–1.4.2.3.3.",
+        "explanation": "Punkt 1.4.2.3.3 pozwala odbiorcy korzystać z usług innych uczestników przewozu, na przykład przy rozładunku, czyszczeniu lub odkażaniu. Odbiorca powinien jednak zastosować odpowiednie środki, żeby zostały spełnione jego wymagania z 1.4.2.3.1 i 1.4.2.3.2. Chodzi o sprawdzenie po rozładunku, czy wykonano odnoszące się do niego wymagania ADR, oraz o zwrot kontenera przewoźnikowi dopiero po usunięciu naruszenia. Zlecenie pracy firmie zewnętrznej nie zwalnia więc odbiorcy z dopilnowania tych wymagań. Podstawa: ADR 1.4.2.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.2.3.3",
+            "reference": "ADR 2025, 1.4.2.3.3; 1.4.2.3.1; 1.4.2.3.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
@@ -61,22 +66,27 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Rozładowca korzysta ze specjalistycznego zakładu odkażania kontenera po przewozie ADR. Które stwierdzenie oddaje jego odpowiedzialność?",
+        "id": "ADR-B-0478",
+        "module_id": "ADR-B-07",
+        "stem": "Firma rozładowała kontener, w którym z jednej beczki wyciekł materiał trujący. Kierownik twierdzi, że oczyszczenie i odkażenie kontenera to sprawa przewoźnika. Kto według 1.4.3.7.1 (e) ma zapewnić ich wykonanie?",
         "options": {
-          "A": "Odpowiedzialność kończy się po przekazaniu kontenera do zakładu odkażania",
-          "B": "Zakład odkażający automatycznie przejmuje wszystkie obowiązki rozładowcy",
-          "C": "Rozładowca nadal odpowiada za zgodność swoich działań z ADR"
+          "A": "Przewoźnik, bo to on dostarczył kontener i zabierze go po rozładunku",
+          "B": "Nadawca, bo to on przygotował przesyłkę i odpowiada za stan beczek",
+          "C": "Rozładowca, czyli ta firma, bo to ona wyjęła beczki z tego kontenera"
         },
         "correct_option": "C",
-        "explanation": "Zlecenie czyszczenia lub odkażania kontenera wyspecjalizowanej firmie nie usuwa automatycznie obowiązków rozładowcy. Samo przekazanie kontenera nie dowodzi, że wymagane czynności zostały wykonane i że jednostka jest już bezpieczna. Rozładowca powinien dopilnować obowiązków, które ADR nakłada na niego, zamiast zakładać, że wykonawca przejął je wszystkie. Podstawa: ADR 1.4.3.7.2.",
+        "explanation": "Według 1.4.3.7.1 (e) rozładowca powinien zapewnić, aby zostało wykonane wymagane oczyszczenie i odkażenie pojazdów lub kontenerów. Rozładowcą jest tu firma, która wyjęła beczki z kontenera, więc to ona musi tego dopilnować. Może zlecić czyszczenie wyspecjalizowanej firmie, ale według 1.4.3.7.2 powinna wtedy zastosować odpowiednie środki, żeby wymagania ADR zostały spełnione. Przewoźnik i nadawca mają w 1.4.2 inne obowiązki. Podstawa: ADR 1.4.3.7.1 (e) i 1.4.3.7.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.7.2",
+            "reference": "ADR 2025, 1.4.3.7.1 (e); 1.4.3.7.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
@@ -102,22 +112,27 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Załadowca ocenia zakaz wspólnego załadunku, wykorzystując zgodne dane przekazane mu przez nadawcę. Czy ADR dopuszcza oparcie się na takich danych przy odpowiednich obowiązkach?",
+        "id": "ADR-B-0479",
+        "module_id": "ADR-B-07",
+        "stem": "Nadawca zapewnia załadowcę, że kanistry są nieuszkodzone, i przesyła mu protokół z ich kontroli. Załadowca chce oprzeć się na tym protokole i nie oglądać kanistrów. Czy 1.4.3.1.2 mu na to pozwala?",
         "options": {
-          "A": "Nie; załadowca musi samodzielnie powtórzyć wszystkie badania towaru, zanim skorzysta z danych nadawcy.",
-          "B": "Tak; dane nadawcy pozwalają pominąć zakaz wspólnego załadunku, jeśli dokumenty są kompletne.",
-          "C": "Tak, w zakresie obowiązków wskazanych w 1.4.3.1.2(a), (d) i (e)"
+          "A": "Tak, bo 1.4.3.1.2 pozwala mu polegać na danych od innych uczestników przewozu",
+          "B": "Tak, jeśli protokół podpisał doradca do spraw bezpieczeństwa nadawcy",
+          "C": "Nie, ten punkt obejmuje wymagania (a), (d) i (e), a nie sprawdzenie opakowań"
         },
         "correct_option": "C",
-        "explanation": "Załadowca może korzystać z danych przekazanych przez nadawcę w zakresie wskazanym w ADR, zamiast samodzielnie powtarzać wszystkie badania. Nie oznacza to jednak, że dane te pozwalają zignorować zakaz wspólnego załadunku lub inne wymagania. Informacje pomagają wykonać obowiązek, ale go nie znoszą. Podstawa: ADR 1.4.3.1.2.",
+        "explanation": "Punkt 1.4.3.1.2 pozwala załadowcy polegać na informacjach i danych od innych uczestników przewozu, ale przy wymaganiach z 1.4.3.1.1 (a), (d) i (e). Chodzi o dopuszczenie towaru do przewozu, oznakowanie kontenera po załadunku oraz zakazy ładowania razem. Sprawdzenie, czy opakowania nie są uszkodzone, to litera (b), której ten punkt nie wymienia. Załadowca musi więc sam obejrzeć kanistry przed wydaniem ich do przewozu, bo uszkodzenie mogło powstać już po kontroli nadawcy. Podstawa: ADR 1.4.3.1.2 i 1.4.3.1.1 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.1.2",
+            "reference": "ADR 2025, 1.4.3.1.2; 1.4.3.1.1 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
@@ -143,22 +158,27 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Rozładowca zakończył rozładunek pojazdu i na jego zewnętrznej powierzchni pozostały niebezpieczne resztki powstałe podczas operacji. Co nakazuje ADR?",
+        "id": "ADR-B-0480",
+        "module_id": "ADR-B-07",
+        "stem": "Po rozładunku beczek pracownik rozładowcy widzi na zewnętrznej stronie burty pojazdu krople materiału żrącego, które przylgnęły podczas rozładunku. Co według 1.4.3.7.1 (d) powinien zrobić rozładowca?",
         "options": {
-          "A": "Niezwłocznie usunąć pozostałości zgodnie z wymaganiami ADR 1.4.3.7.1(d)(i)",
-          "B": "Pozostawić resztki do następnej dostawy i nie sprawdzać powierzchni pojazdu ponownie",
-          "C": "Zakryć pozostałości zwykłą etykietą i nie podejmować dalszych działań"
+          "A": "Bezpośrednio po rozładunku usunąć te niebezpieczne pozostałości z burty",
+          "B": "Zostawić je do najbliższego mycia pojazdu w bazie przewoźnika po powrocie",
+          "C": "Zakleić je taśmą i opisać w dokumencie przewozowym na kolejną trasę"
         },
         "correct_option": "A",
-        "explanation": "Po rozładunku na zewnątrz pojazdu mogą pozostać ślady niebezpiecznej substancji, które zagrażają kolejnym osobom. Rozładowca powinien usunąć je niezwłocznie zgodnie z wymaganiami, zamiast pozostawiać do następnej dostawy. Naklejenie etykiety na zabrudzenie nie usuwa ani substancji, ani ryzyka kontaktu. Przed zakończeniem operacji trzeba skontrolować powierzchnię jednostki. Podstawa: ADR 1.4.3.7.1(d)(i).",
+        "explanation": "Według 1.4.3.7.1 (d) rozładowca bezpośrednio po rozładunku pojazdu lub kontenera powinien usunąć niebezpieczne pozostałości towarów, które podczas rozładunku przylgnęły do ich zewnętrznej powierzchni. Takie krople mogą poparzyć kierowcę lub inną osobę, która później dotknie burty, a w czasie jazdy mogą spaść na drogę. Odkładanie tego do mycia w bazie oznacza jazdę z niebezpiecznym materiałem na zewnątrz pojazdu. Zaklejenie taśmą i opis w dokumencie nie usuwają zagrożenia. Podstawa: ADR 1.4.3.7.1 (d) (i).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.7.1(d)(i)",
+            "reference": "ADR 2025, 1.4.3.7.1 (d) (i)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
