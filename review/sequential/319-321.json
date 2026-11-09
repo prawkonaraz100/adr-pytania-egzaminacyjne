@@ -7,6 +7,47 @@
   "not_a_release_approval": true,
   "records": [
     {
+      "id": "ADR-B-0319",
+      "sequence": 319,
+      "module_id": "ADR-B-08",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Jakie oznaczenie typu pojazdu stosuje ADR 9.1.1.2 do pojazdu przeznaczonego do przewozu materiałów i przedmiotów wybuchowych klasy 1?",
+        "options": {
+          "A": "EX/II albo EX/III",
+          "B": "Typ FL",
+          "C": "Typ AT stosowany również do przewozu materiałów wybuchowych klasy 1"
+        },
+        "correct_option": "A",
+        "explanation": "Do przewozu materiałów i przedmiotów wybuchowych klasy 1 ADR przewiduje pojazdy typu EX/II lub EX/III. Oznaczenia FL i AT dotyczą innych rodzajów pojazdów i przewozów, więc nie zastępują wymaganego typu EX. Kierowca powinien sprawdzić oznaczenie pojazdu i jego dopuszczenie do konkretnego ładunku, a nie zakładać, że każdy pojazd ADR będzie odpowiedni. Podstawa: ADR 9.1.1.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 9.1.1.2 (definicje pojazdów EX/II i EX/III)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full independent specialist approval pending; this snapshot does not authorize release.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
       "id": "ADR-B-0320",
       "sequence": 320,
       "module_id": "ADR-B-10",
