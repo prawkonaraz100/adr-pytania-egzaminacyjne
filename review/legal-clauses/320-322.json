@@ -4,42 +4,42 @@
     {
       "id": "ADR-B-0320",
       "order": 320,
-      "clause": "ADR 2025, 1.1.4.2.1",
+      "clause": "ADR 2025, 1.2.3 (ADN); 1.2.1 (Kodeks IMDG)",
       "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Odpowiedź A: „Zawsze, bez dodatkowych warunków” pomija warunek lub przeczy regule z ADR 2025, 1.1.4.2.1. Wymagana pełna kontrola polskiego brzmienia."
+          "rationale": "Opcja A nie odpowiada warunkowi wskazanemu w ADR 2025, 1.2.3 (ADN); 1.2.1 (Kodeks IMDG)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wstępne porównanie treści z ADR 2025, 1.1.4.2.1: ADR dopuszcza w określonym łańcuchu przewozu zgodność z IMDG lub instrukcjami ICAO w wymienionych kwestiach, lecz nie zwalnia bezwarunkowo z ADR."
+          "rationale": "Każda gałąź transportu ma własne międzynarodowe przepisy o towarach niebezpiecznych. ADR dotyczy dróg, RID kolei, Kodeks IMDG transportu morskiego, a ADN przewozu śródlądowymi drogami wodnymi, czyli rzekami i kanałami. Barka na Renie płynie drogą śródlądową, więc na tym odcinku stosuje się ADN, a nie IMDG. Od chwili załadunku na ciężarówkę obowiązuje ADR. Podstawa: ADR 1.2.3, skrót ADN."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Odpowiedź C: „Tylko wtedy, gdy nie są w ogóle towarami niebezpiecznymi według ADR” pomija warunek lub przeczy regule z ADR 2025, 1.1.4.2.1. Wymagana pełna kontrola polskiego brzmienia."
+          "rationale": "Opcja C nie odpowiada warunkowi wskazanemu w ADR 2025, 1.2.3 (ADN); 1.2.1 (Kodeks IMDG)."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Stosowalność zależy od podanych w pytaniu warunków; urzędowe polskie brzmienie i sprostowanie wymagają literalnej kontroli.",
+      "notes_on_conditions": "1.2.3; 1.2.1, Dz.U. s. 52, 36; warunki, zakres zastosowania i wyjątki porównano z tekstem polskim.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0320",
         "module_id": "ADR-B-10",
-        "stem": "Transport obejmuje drogowy odcinek podróży morskiej. Sztuki przesyłek oznakowano zgodnie z IMDG, lecz nie w pełni zgodnie z ADR. Kiedy ADR 1.1.4.2.1 pozwala je przyjąć?",
+        "stem": "Kontener z towarem niebezpiecznym płynie barką po Renie z Niemiec do Holandii, a potem jedzie ciężarówką do Polski. Jakie międzynarodowe przepisy o towarach niebezpiecznych dotyczą odcinka barką?",
         "options": {
-          "A": "Zawsze, bez dodatkowych warunków",
-          "B": "W łańcuchu obejmującym przewóz morski lub lotniczy, z zachowaniem szczególnych warunków ADR 1.1.4.2.1",
-          "C": "Tylko wtedy, gdy nie są w ogóle towarami niebezpiecznymi według ADR"
+          "A": "Kodeks IMDG, bo barka jest statkiem jak przy przewozie morskim",
+          "B": "Umowa ADN o przewozie towarów śródlądowymi drogami wodnymi",
+          "C": "Regulamin RID, bo dotyczy on przewozów innych niż drogowe"
         },
         "correct_option": "B",
-        "explanation": "Przy drogowym odcinku przewozu połączonego z transportem morskim lub lotniczym ADR dopuszcza pewne oznakowania i opakowania zgodne z IMDG albo wymaganiami ICAO. Nie oznacza to jednak, że wszystkie zasady ADR przestają obowiązywać. Nie wystarczy też uznać, że towar nie jest niebezpieczny tylko dlatego, że miał już etap morski. Sprawdź warunki wyjątku przed przyjęciem przesyłki. Podstawa: ADR 1.1.4.2.1.",
+        "explanation": "Każda gałąź transportu ma własne międzynarodowe przepisy o towarach niebezpiecznych. ADR dotyczy dróg, RID kolei, Kodeks IMDG transportu morskiego, a ADN przewozu śródlądowymi drogami wodnymi, czyli rzekami i kanałami. Barka na Renie płynie drogą śródlądową, więc na tym odcinku stosuje się ADN, a nie IMDG. Od chwili załadunku na ciężarówkę obowiązuje ADR. Podstawa: ADR 1.2.3, skrót ADN.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2.1",
+            "reference": "ADR 2025, 1.2.3 (ADN); 1.2.1 (Kodeks IMDG)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -50,42 +50,42 @@
     {
       "id": "ADR-B-0321",
       "order": 321,
-      "clause": "ADR 2025, 1.1.4.2.3",
+      "clause": "ADR 2025, 1.1.4.7.1; 1.1.4.2",
       "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._I._EN.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępne porównanie treści z ADR 2025, 1.1.4.2.3: Dopuszczalne zastąpienie dokumentu nie usuwa wymogu zamieszczenia dodatkowych danych wymaganych przez ADR."
+          "rationale": "Butle zatwierdzone w USA przez DOT nie spełniają zwykle europejskich wymagań dla naczyń ciśnieniowych. ADR robi dla nich wyjątek przy przywozie gazów, ale tylko gdy butle nadano w łańcuchu transportowym z przewozem morskim lub lotniczym. Wtedy można je przewieźć od miejsca tymczasowego składowania do odbiorcy końcowego. Przy przewozie wyłącznie drogowym ten wyjątek nie działa, a ważne badanie według przepisów USA niczego nie zmienia. Podstawa: ADR 1.1.4.7.1 i 1.1.4.2."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Odpowiedź B: „Nie trzeba ich uwzględniać, bo etap morski wyłącza ADR” pomija warunek lub przeczy regule z ADR 2025, 1.1.4.2.3. Wymagana pełna kontrola polskiego brzmienia."
+          "rationale": "Opcja B nie odpowiada warunkowi wskazanemu w ADR 2025, 1.1.4.7.1; 1.1.4.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Odpowiedź C: „Wolno je zastąpić ustnym oświadczeniem kierowcy” pomija warunek lub przeczy regule z ADR 2025, 1.1.4.2.3. Wymagana pełna kontrola polskiego brzmienia."
+          "rationale": "Opcja C nie odpowiada warunkowi wskazanemu w ADR 2025, 1.1.4.7.1; 1.1.4.2."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Stosowalność zależy od podanych w pytaniu warunków; urzędowe polskie brzmienie i sprostowanie wymagają literalnej kontroli.",
+      "notes_on_conditions": "1.1.4.7.1; 1.1.4.2, Dz.U. s. 31, 29; warunki, zakres zastosowania i wyjątki porównano z tekstem polskim.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0321",
         "module_id": "ADR-B-10",
-        "stem": "W morsko-drogowym łańcuchu przewozu dokument IMDG zastępuje dokument ADR na podstawie 1.1.4.2.3. Co z informacjami dodatkowymi wymaganymi przez ADR?",
+        "stem": "Butle wielokrotnego napełniania z gazem, zatwierdzone przez amerykański Departament Transportu (DOT), dotarły do Polski całą drogę ciężarówką, bez odcinka morskiego ani lotniczego. Czy 1.1.4.7.1 pozwala przewieźć je dalej do odbiorcy?",
         "options": {
-          "A": "Należy je także zamieścić w dokumentacji przewozowej",
-          "B": "Nie trzeba ich uwzględniać, bo etap morski wyłącza ADR",
-          "C": "Wolno je zastąpić ustnym oświadczeniem kierowcy"
+          "A": "Nie, bo przepis dotyczy butli nadanych w łańcuchu z morzem lub lotem",
+          "B": "Tak, bo zatwierdzenie DOT zastępuje w Europie zatwierdzenie według ADR",
+          "C": "Tak, jeżeli butle mają ważne badanie okresowe według przepisów USA"
         },
         "correct_option": "A",
-        "explanation": "Gdy w przewozie morsko-drogowym dopuszczono dokument IMDG zamiast dokumentu ADR, wymagane przez ADR dodatkowe informacje nadal muszą znaleźć się w dokumentacji. Etap morski nie znosi automatycznie obowiązków na drodze, a ustne zapewnienie kierowcy nie jest wpisem w dokumencie. Przed wyjazdem porównaj dokumenty z wymaganiami dla ładunku. Podstawa: ADR 1.1.4.2.3.",
+        "explanation": "Butle zatwierdzone w USA przez DOT nie spełniają zwykle europejskich wymagań dla naczyń ciśnieniowych. ADR robi dla nich wyjątek przy przywozie gazów, ale tylko gdy butle nadano w łańcuchu transportowym z przewozem morskim lub lotniczym. Wtedy można je przewieźć od miejsca tymczasowego składowania do odbiorcy końcowego. Przy przewozie wyłącznie drogowym ten wyjątek nie działa, a ważne badanie według przepisów USA niczego nie zmienia. Podstawa: ADR 1.1.4.7.1 i 1.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2.3",
+            "reference": "ADR 2025, 1.1.4.7.1; 1.1.4.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -96,42 +96,42 @@
     {
       "id": "ADR-B-0322",
       "order": 322,
-      "clause": "ADR 2025, 8.6.3.3 i 8.6.4 w związku z 3.4.13–3.4.14",
+      "clause": "ADR 2025, 1.1.3.3 (a); 8.6.3.3",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Odpowiedź A: „Żaden tunel, gdyż LQ zawsze zwalnia z ograniczeń” pomija warunek lub przeczy regule z ADR 2025, 8.6.3.3 i 8.6.4 w związku z 3.4.13–3.4.14. Wymagana pełna kontrola polskiego brzmienia."
+          "rationale": "Opcja A nie odpowiada warunkowi wskazanemu w ADR 2025, 1.1.3.3 (a); 8.6.3.3."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Odpowiedź B: „Wyłącznie tunele kategorii A” pomija warunek lub przeczy regule z ADR 2025, 8.6.3.3 i 8.6.4 w związku z 3.4.13–3.4.14. Wymagana pełna kontrola polskiego brzmienia."
+          "rationale": "Opcja B nie odpowiada warunkowi wskazanemu w ADR 2025, 1.1.3.3 (a); 8.6.3.3."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Wstępne porównanie treści z ADR 2025, 8.6.3.3 i 8.6.4 w związku z 3.4.13–3.4.14: Zasada wyjątku od ograniczeń dla przewozów z 1.1.3 ma wyraźne zastrzeżenie dla jednostek wymagających oznakowania LQ; przy takim oznakowaniu obowiązuje ograniczenie dla kategorii E."
+          "rationale": "Paliwo w zbiornikach pojazdu, które służy do jego napędu, jest wyłączone z przepisów ADR, jeśli pojemność zbiorników mieści się w limitach z 1.1.3.3. Towary przewożone na podstawie wyłączeń z rozdziału 1.1.3 nie podlegają ograniczeniom w tunelach. Nie bierze się ich też pod uwagę przy ustalaniu kodu tunelowego całego ładunku. Kod ustala się więc tylko z przewożonych przesyłek, w tym przypadku jest to kod D. Podstawa: ADR 1.1.3.3 (a) i 8.6.3.3."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Stosowalność zależy od podanych w pytaniu warunków; urzędowe polskie brzmienie i sprostowanie wymagają literalnej kontroli.",
+      "notes_on_conditions": "1.1.3.3(a); 8.6.3.3, Dz.U. s. 25, 1338; warunki, zakres zastosowania i wyjątki porównano z tekstem polskim.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0322",
         "module_id": "ADR-B-11",
-        "stem": "Jednostka transportowa przewozi towary niebezpieczne w ilościach ograniczonych LQ i wymaga oznakowania według 3.4.13 z uwzględnieniem 3.4.14. Który tunel podlega wówczas szczególnemu ograniczeniu ADR?",
+        "stem": "Ciężarówka ma w zbiornikach 800 litrów oleju napędowego do własnego silnika i wiezie sztuki przesyłek z towarem o kodzie tunelowym D. Czy olej w zbiornikach liczy się przy ustalaniu kodu tunelowego całego ładunku?",
         "options": {
-          "A": "Żaden tunel, gdyż LQ zawsze zwalnia z ograniczeń",
-          "B": "Wyłącznie tunele kategorii A",
-          "C": "Tunele kategorii E"
+          "A": "Tak, bo olej napędowy jest cieczą zapalną klasy 3",
+          "B": "Tak, jeżeli w zbiornikach jest ponad 500 litrów paliwa",
+          "C": "Nie, bo paliwo do napędu pojazdu jest wyłączone z ADR"
         },
         "correct_option": "C",
-        "explanation": "Przy przewozie w ilościach ograniczonych oznakowanie jednostki transportowej może być wymagane po przekroczeniu warunków określonych w ADR. Jeśli pojazd lub kontener musi mieć znak LQ, trzeba też uwzględnić związane z nim ograniczenie w tunelach kategorii E. Nie oznacza to zakazu w każdym tunelu ani automatycznego zwolnienia z pozostałych zasad. Podstawa: ADR 3.4.13–3.4.14 i 8.6.3.3–8.6.4.",
+        "explanation": "Paliwo w zbiornikach pojazdu, które służy do jego napędu, jest wyłączone z przepisów ADR, jeśli pojemność zbiorników mieści się w limitach z 1.1.3.3. Towary przewożone na podstawie wyłączeń z rozdziału 1.1.3 nie podlegają ograniczeniom w tunelach. Nie bierze się ich też pod uwagę przy ustalaniu kodu tunelowego całego ładunku. Kod ustala się więc tylko z przewożonych przesyłek, w tym przypadku jest to kod D. Podstawa: ADR 1.1.3.3 (a) i 8.6.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.3 i 8.6.4 w związku z 3.4.13–3.4.14",
+            "reference": "ADR 2025, 1.1.3.3 (a); 8.6.3.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

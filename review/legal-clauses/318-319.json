@@ -4,42 +4,42 @@
     {
       "id": "ADR-B-0318",
       "order": 318,
-      "clause": "ADR 2025, 2.1.3.5.5",
+      "clause": "ADR 2025, 5.4.1.1.3.2",
       "source_2025_comparison_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Sama nazwa odpadu nie zastępuje dostępnych danych technicznych i informacji o bezpieczeństwie. Podstawa: ADR 2.1.3.5.5."
+          "rationale": "Opcja A nie odpowiada warunkowi wskazanemu w ADR 2025, 5.4.1.1.3.2."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Jeśli dokładny skład jest nieznany, nadawca stosuje procedurę ADR i korzysta z własnej wiedzy oraz dostępnych danych, jeśli spełniono warunki przepisu. Podstawa: ADR 2.1.3.5.5."
+          "rationale": "Dokument przewozowy musi podawać ilość towaru, ale przy odpadach nie zawsze da się ją zmierzyć na miejscu. Wtedy ADR pozwala ilość oszacować, a przy opakowaniach dołącza się listę z ich rodzajem i objętością nominalną. W dokumencie wpisuje się zapis „ILOŚĆ OSZACOWANA ZGODNIE Z 5.4.1.1.3.2”. Szacunku nie wolno użyć, gdy liczy się dokładna ilość, na przykład przy wyłączeniu z 1.1.3.6. Podstawa: ADR 5.4.1.1.3.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nie należy wybierać pozycji ogólnej bez oceny dostępnych danych o składzie i zagrożeniu odpadu. Podstawa: ADR 2.1.3.5.5."
+          "rationale": "Opcja C nie odpowiada warunkowi wskazanemu w ADR 2025, 5.4.1.1.3.2."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Zastrzeżenia, polski tekst i sprostowanie wymagają kolejnej pełnej kontroli. Dystraktory zredagowano redakcyjnie; pełne porównanie z polskim tekstem urzędowym i niezależna aprobata specjalisty nadal wymagane.",
+      "notes_on_conditions": "5.4.1.1.3.2, Dz.U. s. 963; warunki, zakres zastosowania i wyjątki porównano z tekstem polskim.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0318",
         "module_id": "ADR-B-03",
-        "stem": "Odpadu przewożonego jako towar niebezpieczny nie da się dokładnie opisać pod względem składu. Co dopuszcza ADR 2.1.3.5.5 przy jego klasyfikacji, jeśli spełniono warunki tego przepisu?",
+        "stem": "Firma odbiera z zakładu odpady niebezpieczne w kilkudziesięciu beczkach. W miejscu załadunku nie da się dokładnie zmierzyć ilości odpadów. Co w takiej sytuacji dopuszcza ADR?",
         "options": {
-          "A": "Przypisać numer UN na podstawie samej nazwy odpadu, pomijając dostępne dane techniczne.",
-          "B": "Oparcie przypisania numeru UN i grupy pakowania na wiedzy nadawcy o odpadzie oraz dostępnych danych technicznych i dotyczących bezpieczeństwa",
-          "C": "Wybrać ogólną pozycję odpadową bez oceny dostępnych danych o składzie i zagrożeniu."
+          "A": "Pominięcie ilości w dokumencie i wpisanie jej dopiero u odbiorcy",
+          "B": "Oszacowanie ilości, z listą opakowań i zapisem w dokumencie",
+          "C": "Wpisanie ilości podanej kierowcy ustnie przez magazyniera"
         },
         "correct_option": "B",
-        "explanation": "Gdy składu odpadu nie da się dokładnie ustalić, nadawca powinien zastosować procedurę klasyfikacji ADR i wykorzystać dostępną wiedzę oraz dane techniczne i dotyczące bezpieczeństwa, jeśli spełniono warunki przepisu. Sama nazwa odpadu nie wystarcza, a automatyczne wybranie ogólnej pozycji może prowadzić do błędnej klasyfikacji. Przewóz wymaga prawidłowego przypisania numeru UN i grupy pakowania. Podstawa: ADR 2.1.3.5.5.",
+        "explanation": "Dokument przewozowy musi podawać ilość towaru, ale przy odpadach nie zawsze da się ją zmierzyć na miejscu. Wtedy ADR pozwala ilość oszacować, a przy opakowaniach dołącza się listę z ich rodzajem i objętością nominalną. W dokumencie wpisuje się zapis „ILOŚĆ OSZACOWANA ZGODNIE Z 5.4.1.1.3.2”. Szacunku nie wolno użyć, gdy liczy się dokładna ilość, na przykład przy wyłączeniu z 1.1.3.6. Podstawa: ADR 5.4.1.1.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.1.3.5.5",
+            "reference": "ADR 2025, 5.4.1.1.3.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

@@ -4,42 +4,42 @@
     {
       "id": "ADR-B-0323",
       "order": 323,
-      "clause": "ADR 2025, 1.1.3.6.4",
+      "clause": "ADR 2025, 1.1.3.6.2; 1.1.3.6.3",
       "source_2025_comparison_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędne: przy mieszanych kategoriach transportowych nie wystarczy osobne porównanie każdej ilości z limitem."
+          "rationale": "Opcja A nie odpowiada warunkowi wskazanemu w ADR 2025, 1.1.3.6.2; 1.1.3.6.3."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawne: ilości trzeba przeliczyć według właściwych współczynników, zsumować i porównać z progiem."
+          "rationale": "Gdy ilość towarów w jednostce transportowej mieści się w limicie z 1.1.3.6, część przepisów ADR nie obowiązuje. Nie stosuje się między innymi działu 5.3, więc pojazd nie musi mieć tablic barwy pomarańczowej. Nie są też potrzebne instrukcje pisemne ani zaświadczenie ADR kierowcy. Nadal obowiązują jednak dokument przewozowy, gaśnica 2 kg, szkolenie z 8.2.3 i zakaz palenia. Podstawa: ADR 1.1.3.6.2 i 1.1.3.6.3."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędne: zwykła suma bez współczynników nie jest metodą obliczenia przewidzianą w ADR 1.1.3.6.4."
+          "rationale": "Opcja C nie odpowiada warunkowi wskazanemu w ADR 2025, 1.1.3.6.2; 1.1.3.6.3."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wszystkie wartości i szczególne ograniczenia wymagają osobnego sprawdzenia; nie jest to zatwierdzenie eksperta.",
+      "notes_on_conditions": "1.1.3.6.2; tabela 1.1.3.6.3, Dz.U. s. 26–27; warunki, zakres zastosowania i wyjątki porównano z tekstem polskim.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0323",
         "module_id": "ADR-B-01",
-        "stem": "W jednej jednostce transportowej przewożone są razem towary kategorii transportowej 2 i 3. Jak należy ocenić zwolnienie ilościowe z ADR 1.1.3.6?",
+        "stem": "Jednostka transportowa wiezie w sztukach przesyłek 200 litrów farby klasy 3 z kategorii transportowej 2. To mniej niż limit 333 z tabeli 1.1.3.6.3. Czy pojazd musi mieć tablice barwy pomarańczowej?",
         "options": {
-          "A": "Porównać każdą kategorię osobno z jej limitem i pominąć ilości z pozostałych kategorii, nawet przy mieszanym ładunku.",
-          "B": "Zastosować sumowanie ważone z ADR 1.1.3.6.4, a potem porównać wynik z właściwym progiem.",
-          "C": "Zsumować ilości wszystkich kategorii bez współczynników i porównać wynik z limitem."
+          "A": "Tak, z przodu i z tyłu, bo ten pojazd wiezie towar niebezpieczny",
+          "B": "Nie, bo przy przewozie w tym limicie nie stosuje się działu 5.3",
+          "C": "Tak, ale wystarczy jedna tablica umieszczona z tyłu pojazdu"
         },
         "correct_option": "B",
-        "explanation": "Przy mieszanym ładunku z kategorii transportowych 2 i 3 trzeba obliczyć sumę ważoną, stosując współczynnik przypisany do każdej kategorii, a następnie porównać wynik z limitem ADR 1.1.3.6. Nie wystarczy sprawdzić każdej kategorii osobno ani dodać kilogramów bez przeliczenia. Dopiero wynik obliczenia pokazuje, czy jednostka korzysta ze zwolnienia ilościowego. Podstawa: ADR 1.1.3.6.4.",
+        "explanation": "Gdy ilość towarów w jednostce transportowej mieści się w limicie z 1.1.3.6, część przepisów ADR nie obowiązuje. Nie stosuje się między innymi działu 5.3, więc pojazd nie musi mieć tablic barwy pomarańczowej. Nie są też potrzebne instrukcje pisemne ani zaświadczenie ADR kierowcy. Nadal obowiązują jednak dokument przewozowy, gaśnica 2 kg, szkolenie z 8.2.3 i zakaz palenia. Podstawa: ADR 1.1.3.6.2 i 1.1.3.6.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.3.6.4",
+            "reference": "ADR 2025, 1.1.3.6.2; 1.1.3.6.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -51,42 +51,42 @@
     {
       "id": "ADR-B-0324",
       "order": 324,
-      "clause": "ADR 2025, 7.5.2.1 (tabela: 5.2 + 1 z 5.2)",
+      "clause": "ADR 2025, 7.5.2.1 (tabela: 5.2 + 1 i 5.2)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "W tabeli ADR 7.5.2.1 połączenie sztuki z nalepkami 5.2 + 1 i sztuki z nalepką 5.2 jest wskazane jako dozwolone. „5.2 + 1” oznacza dwie nalepki na tej samej sztuce przesyłki, a nie dwie palety. Nadal należy sprawdzić pozostałe wymogi."
+          "rationale": "Tabela 7.5.2.1 pokazuje, przesyłki z jakimi nalepkami wolno ładować razem do jednego pojazdu lub kontenera. Zapis „5.2 + 1” oznacza jedną sztukę przesyłki z nadtlenkiem organicznym, która ma też nalepkę materiału wybuchowego. Według tabeli taka przesyłka może jechać razem z przesyłkami 5.2 i innymi przesyłkami 5.2 + 1, ale nie z przesyłkami o innych nalepkach. Oznakowanie UN mówi o typie opakowania, a nie o tym, co wolno ładować razem. Podstawa: ADR 7.5.2.1."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ten dystraktor opisuje częsty błąd: Nie, każda dodatkowa nalepka 1 bezwarunkowo zakazuje załadunku z klasą 5.2. Nie zastępuje to warunku wskazanego w poprawnej odpowiedzi ani wymagań właściwego przepisu. Ta zmiana jest redakcyjna; status prawny nadal needs_review."
+          "rationale": "Opcja B nie odpowiada warunkowi wskazanemu w ADR 2025, 7.5.2.1 (tabela: 5.2 + 1 i 5.2)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten dystraktor opisuje częsty błąd: Od tego, czy opakowania spełniają wymagania UN, nawet bez sprawdzenia tabeli 7.5.2.1. Nie zastępuje to warunku wskazanego w poprawnej odpowiedzi ani wymagań właściwego przepisu. Ta zmiana jest redakcyjna; status prawny nadal needs_review."
+          "rationale": "Opcja C nie odpowiada warunkowi wskazanemu w ADR 2025, 7.5.2.1 (tabela: 5.2 + 1 i 5.2)."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Różnicowanie potwierdzonej semantycznej zbieżności: Zamiast ogólnego pytania o wybór tabeli (0025) sprawdza konkretną komórkę tabeli i znaczenie oznaczenia złożonego. Brak pełnego polskiego porównania i zatwierdzenia specjalisty.",
+      "notes_on_conditions": "7.5.2.1, Dz.U. s. 1305; warunki, zakres zastosowania i wyjątki porównano z tekstem polskim.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
       "question_snapshot": {
         "id": "ADR-B-0324",
         "module_id": "ADR-B-09",
-        "stem": "Jedna sztuka przesyłki ADR ma jednocześnie nalepki 5.2 i 1 (oznaczenie „5.2 + 1”), a druga ma wyłącznie nalepkę 5.2. Czy tabela 7.5.2.1 dopuszcza ich wspólny załadunek na podstawie tych nalepek?",
+        "stem": "Jedna sztuka przesyłki ma nalepki wzorów 5.2 i 1, co tabela 7.5.2.1 opisuje jako „5.2 + 1”. Druga sztuka ma jedynie nalepkę 5.2. Czy tabela pozwala załadować je razem do jednego pojazdu?",
         "options": {
-          "A": "Tak, w tabeli dla przecięcia 5.2 + 1 z 5.2 przewidziano dopuszczenie, z zachowaniem pozostałych warunków ADR",
-          "B": "Nie, każda dodatkowa nalepka 1 bezwarunkowo zakazuje załadunku z klasą 5.2",
-          "C": "Od tego, czy opakowania spełniają wymagania UN, nawet bez sprawdzenia tabeli 7.5.2.1"
+          "A": "Tak, tabela dopuszcza ładowanie razem 5.2 + 1 z przesyłkami 5.2",
+          "B": "Nie, bo nalepka wzoru 1 na przesyłce wyklucza ładunek klasy 5.2",
+          "C": "Decyduje oznakowanie UN opakowań, a nie tabela 7.5.2.1"
         },
         "correct_option": "A",
-        "explanation": "Przy wspólnym załadunku porównuje się dokładne zestawy nalepek z tabelą 7.5.2.1, a nie tylko pojedyncze klasy. W tym przypadku trzeba odczytać przecięcie dla nalepek 5.2 + 1 oraz 5.2; dodatkowa nalepka 1 nie oznacza sama w sobie automatycznego zakazu. Oznaczenie UN na opakowaniu potwierdza jego typ, ale nie rozstrzyga zgodności wspólnego załadunku. Podstawa: ADR 7.5.2.1.",
+        "explanation": "Tabela 7.5.2.1 pokazuje, przesyłki z jakimi nalepkami wolno ładować razem do jednego pojazdu lub kontenera. Zapis „5.2 + 1” oznacza jedną sztukę przesyłki z nadtlenkiem organicznym, która ma też nalepkę materiału wybuchowego. Według tabeli taka przesyłka może jechać razem z przesyłkami 5.2 i innymi przesyłkami 5.2 + 1, ale nie z przesyłkami o innych nalepkach. Oznakowanie UN mówi o typie opakowania, a nie o tym, co wolno ładować razem. Podstawa: ADR 7.5.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1 (tabela: 5.2 + 1 z 5.2)",
+            "reference": "ADR 2025, 7.5.2.1 (tabela: 5.2 + 1 i 5.2)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

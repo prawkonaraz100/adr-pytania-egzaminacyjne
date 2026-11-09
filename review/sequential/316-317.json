@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W klasyfikacji ADR klasy 1 podklasa 1.1 oznacza zagrożenie jakiego rodzaju?",
+        "stem": "W tabeli A przy materiale wybuchowym w kolumnie (3b) podano kod klasyfikacyjny 1.1D. Kierowca zastanawia się, co oznacza litera D na końcu tego kodu. Co oznacza ta litera?",
         "options": {
-          "A": "Zagrożenie wybuchem masowym",
-          "B": "Zagrożenie wybuchem pojedynczego przedmiotu, bez możliwości objęcia całego ładunku.",
-          "C": "Zagrożenie pożarem i ograniczonymi skutkami wybuchu, bez wybuchu masowego."
+          "A": "Grupę zgodności, do której zaliczono ten materiał wybuchowy",
+          "B": "Kod ograniczeń przewozu tego materiału przez tunele drogowe",
+          "C": "Kategorię transportową, z której liczy się limit z 1.1.3.6"
         },
         "correct_option": "A",
-        "explanation": "Podklasa 1.1 oznacza zagrożenie wybuchem masowym, czyli takim, który może objąć praktycznie cały ładunek. Pozostałe warianty opisują skutki bardziej ograniczone i nie odpowiadają tej definicji. Kierowca powinien odczytać dokładną podklasę z dokumentów i oznakowania, a nie poprzestawać na informacji, że to klasa 1. Podstawa: ADR 2.2.1.1.5.",
+        "explanation": "Kod klasyfikacyjny materiału wybuchowego składa się z dwóch części: numeru podklasy i litery grupy zgodności. W kodzie 1.1D liczba 1.1 oznacza podklasę z zagrożeniem wybuchem masowym, a litera D grupę zgodności. Grupa zgodności opisuje rodzaj materiału lub przedmiotu wybuchowego i decyduje między innymi o tym, co wolno ładować razem. Kod tunelowy i kategoria transportowa są podane osobno, w kolumnie (15) tabeli A. Podstawa: ADR 2.2.1.1.4 i 3.2.1, kolumna (3b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.1.1.5 (podklasa 1.1)",
+            "reference": "ADR 2025, 2.2.1.1.4; 2.2.1.1.6; 3.2.1, kolumna (3b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Jakie dane należy porównać z progami ADR, aby ocenić, czy materiał spełnia kryteria klasy 7 (promieniotwórczej)?",
+        "stem": "Laboratorium wysyła w przesyłce próbkę, która zawiera niewielką ilość izotopu promieniotwórczego. Kiedy według definicji ADR taka próbka jest materiałem promieniotwórczym klasy 7?",
         "options": {
-          "A": "Sprawdzić masę brutto opakowania, bez oceny aktywności materiału",
-          "B": "Aktywność i jej stężenie względem progów ADR",
-          "C": "Sprawdzić wyłącznie nalepkę klasy 7, bez porównywania aktywności materiału z progami ADR."
+          "A": "Gdy izotop promieniotwórczy jest w tej próbce w jakiejkolwiek ilości",
+          "B": "Gdy stężenie i aktywność całkowita przesyłki przekraczają progi ADR",
+          "C": "Gdy masa brutto przesyłki z tą próbką przekracza 50 kilogramów"
         },
         "correct_option": "B",
-        "explanation": "O zaliczeniu materiału do klasy 7 decydują jego właściwości promieniotwórcze, oceniane według aktywności i stężenia aktywności oraz progów ADR. Sama masa brutto opakowania nie pokazuje, jak promieniotwórczy jest materiał, a nalepka jest oznakowaniem już sklasyfikowanej przesyłki, nie zamiennikiem klasyfikacji. Kierowca powinien korzystać z danych przekazanych dla przesyłki. Podstawa: ADR 2.2.7.1.1 i 2.2.7.2.2.",
+        "explanation": "Nie każda rzecz zawierająca izotop promieniotwórczy jest materiałem klasy 7. Według definicji ADR decydują dwie wartości: stężenie promieniotwórcze materiału oraz aktywność całkowita przesyłki. Obie muszą przekraczać progi podane w przepisach 2.2.7.2.2. Masa przesyłki nie ma tu znaczenia, a bardzo mała ilość izotopu może nie przekroczyć progów. Podstawa: ADR 2.2.7.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.7.1.1 oraz 2.2.7.2.2.1–2.2.7.2.2.6",
+            "reference": "ADR 2025, 2.2.7.1.1; 2.2.7.2.2.1–2.2.7.2.2.6",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
