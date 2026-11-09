@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewóz drogowy towarów niebezpiecznych stanowi część łańcucha z transportem morskim, a przewóz realizuje się na warunkach ADR 1.1.4.2.1. Jaki dodatkowy zapis powinien znaleźć się w dokumencie przewozowym?",
+        "stem": "Sztuki przesyłek przyleciały samolotem i są oznakowane według Instrukcji Technicznych ICAO, a nie według ADR. Teraz jadą ciężarówką z lotniska do odbiorcy na warunkach 1.1.4.2.1. Jaki zapis trzeba dodać w dokumencie przewozowym?",
         "options": {
-          "A": "Wpisanie numeru telefonu odbiorcy",
-          "B": "Wskazanie, że przewóz odbywa się zgodnie z 1.1.4.2.1",
-          "C": "Adnotacja, że drogowy odcinek korzysta ze zwolnienia i nie wymaga dalszego sprawdzania warunków ADR"
+          "A": "Zapis „PRZEWÓZ ZGODNY Z ICAO”, bo w łańcuchu był przewóz lotniczy",
+          "B": "Zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”, tak samo jak w łańcuchu morskim",
+          "C": "Nie dodaje się zapisu, bo 1.1.4.2.1 dotyczy łańcucha z przewozem morskim"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli przewóz drogowy jest częścią łańcucha morsko-drogowego i korzysta z zasad ADR 1.1.4.2.1, trzeba to odpowiednio zaznaczyć w dokumencie. Sam numer telefonu odbiorcy nie informuje, z jakiej podstawy korzysta przewóz. Takie wskazanie nie jest też ogólnym zwolnieniem z dalszych obowiązków ADR na drodze. Podstawa: ADR 5.4.1.1.7.",
+        "explanation": "Odstępstwo z 1.1.4.2.1 dotyczy łańcucha transportowego z przewozem morskim albo lotniczym. Pozwala ono przewieźć drogą przesyłki oznakowane według Instrukcji Technicznych ICAO zamiast według ADR. W każdym takim przypadku w dokumencie przewozowym dodaje się ten sam zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. ADR nie przewiduje osobnej formuły dla przewozu lotniczego, a bez zapisu kontrolujący nie wie, dlaczego oznakowanie różni się od ADR. Podstawa: ADR 1.1.4.2.1 i 5.4.1.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.7",
+            "reference": "ADR 2025, 1.1.4.2.1; 5.4.1.1.7",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -42,7 +42,7 @@
       "supplementary_source_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Official Polish full text and corrigendum review pending.",
+      "source_risk_note": "Kontrola urzędowego ADR 2025 i sprostowania, s. 965 i 973 Dz.U. Pytanie oczekuje na specjalistę.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Certyfikat pakowania kontenera przekazano przez EDI, a kolejny przewoźnik wymaga papierowego egzemplarza. Co, według wymogów IMDG przywołanych w ADR 5.4.2, powinien zapewnić przewoźnik?",
+        "stem": "Informacje o towarach niebezpiecznych w kontenerze przekazano przewoźnikowi przez EDI. Kolejny przewoźnik w łańcuchu z przewozem morskim wymaga dokumentu w formie papierowej. Co powinien zawierać ten dokument według IMDG 5.4.2.4, przytoczonego w ADR 5.4.2?",
         "options": {
-          "A": "Na papierze wzmiankę „Original received electronically” i nazwisko osoby podpisującej zapisane wielkimi literami",
-          "B": "Wyłącznie numer faktury bez wskazania osoby podpisującej",
-          "C": "Usunięcie informacji o elektronicznym otrzymaniu oryginału"
+          "A": "Zapis „Oryginał otrzymano drogą elektroniczną” i nazwisko wielkimi literami",
+          "B": "Podpis kierowcy i numer faktury zamiast nazwiska osoby upoważnionej",
+          "C": "Zwykły wydruk z systemu EDI bez zapisu o elektronicznym oryginale i bez nazwiska"
         },
         "correct_option": "A",
-        "explanation": "EDI oznacza elektroniczną wymianę danych. Jeśli oryginał certyfikatu pakowania otrzymano elektronicznie, a następnie sporządza się papierowy egzemplarz, trzeba umieścić na nim wymaganą wzmiankę „Original received electronically” oraz nazwisko osoby podpisującej zapisane wielkimi literami. Numer faktury nie zastępuje tych danych, a usunięcie wzmianki zaciera sposób otrzymania oryginału. Podstawa: ADR 5.4.2 i IMDG 5.4.2.4.",
+        "explanation": "EDI to elektroniczna wymiana danych między firmami. Jeżeli informacje o towarach niebezpiecznych przekazano elektronicznie, a kolejny przewoźnik potrzebuje dokumentu papierowego, powinien zapewnić na nim zapis „Oryginał otrzymano drogą elektroniczną”. Obok musi być nazwisko osoby upoważnionej, pisane wielkimi literami. Podpis kierowcy, numer faktury ani zwykły wydruk bez tego zapisu nie pokazują, skąd pochodzi oryginał i kto odpowiada za dane. Podstawa: ADR 5.4.2, przypis 6 (IMDG 5.4.2.4).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.2, przypis dotyczący IMDG 5.4.2.4",
+            "reference": "ADR 2025, 5.4.2, przypis 6 (IMDG 5.4.2.4)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

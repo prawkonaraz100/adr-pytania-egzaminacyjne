@@ -22,12 +22,12 @@
       "exact_record_snapshot": {
         "stem": "Według opublikowanych ograniczeń ten sam tunel ma kategorię C do godziny 22.00 i kategorię E od 22.00. Wyjeżdżasz o 19.00, ale przy tunelu będziesz o 22.30. Którą kategorię przyjmiesz do oceny przejazdu?",
         "options": {
-          "A": "Kategorię E, ponieważ obowiązuje ona w planowanym czasie przejazdu przez tunel.",
-          "B": "Kategorię C, ponieważ obowiązywała w chwili rozpoczęcia przewozu.",
-          "C": "Kategorię E przez całą dobę, ponieważ tunel zawsze ma jedną stałą kategorię ADR."
+          "A": "Kategorię E, bo liczy się kategoria obowiązująca w chwili przejazdu",
+          "B": "Kategorię C, bo obowiązywała ona w chwili rozpoczęcia przewozu",
+          "C": "Kategorię C, bo przy dwóch kategoriach tunelu wybiera się łagodniejszą"
         },
         "correct_option": "A",
-        "explanation": "Ten sam tunel może mieć różne kategorie zależnie od pory dnia lub dnia tygodnia. Sprawdź opublikowane ograniczenia dla godziny, o której przejedziesz przez tunel. W tym przypadku o 22.30 obowiązuje E. Wyjazd o 19.00 nie przedłuża stosowania kategorii C, a nocna kategoria E nie obowiązuje przez cały dzień. Podstawa: ADR 1.9.5.1 i 1.9.5.3.7.",
+        "explanation": "Właściwa władza może zaliczyć ten sam tunel do różnych kategorii zależnie od pory dnia lub dnia tygodnia. Te ograniczenia są oficjalnie publikowane, więc trzeba sprawdzić kategorię na godzinę, o której pojazd faktycznie wjedzie do tunelu. O 22.30 obowiązuje kategoria E. Nie ma znaczenia godzina wyjazdu, a ADR nie pozwala wybrać łagodniejszej z dwóch kategorii. Podstawa: ADR 1.9.5.1 i 1.9.5.3.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -61,14 +61,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Jednostka transportowa objęta ograniczeniami tunelowymi wiezie przesyłki z kodami C i E. Na pierwszym postoju rozładowujesz wszystkie przesyłki z kodem C. Na pojeździe zostają tylko przesyłki z kodem E, nadal objęte ograniczeniami. Jak oceniasz dalszy przejazd?",
+        "stem": "Jednostka transportowa wiezie przesyłki z kodami tunelowymi C i E. Na pierwszym postoju rozładowujesz wszystkie przesyłki z kodem C. Pozostały ładunek z kodem E nadal wymaga tablic pomarańczowych. Jak oceniasz dalszy przejazd?",
         "options": {
-          "A": "Nadal stosujesz kod C, bo był najbardziej restrykcyjny na początku przewozu.",
-          "B": "Stosujesz kod E dla pozostałego ładunku, więc omijasz tunele kategorii E.",
-          "C": "Po rozładunku jednej z przesyłek uznajesz, że ograniczenia przestały obowiązywać."
+          "A": "Nadal stosujesz kod C, bo był najbardziej restrykcyjny przy wyjeździe",
+          "B": "Stosujesz kod E pozostałego ładunku, więc omijasz tunele o kategorii E",
+          "C": "Po rozładunku części przesyłek ograniczenia tunelowe przestają obowiązywać"
         },
         "correct_option": "B",
-        "explanation": "Kod dla jednostki zależy od towarów, które są na niej przewożone. Po całkowitym rozładunku przesyłek z kodem C pozostaje tylko kod E. W tabeli ADR oznacza on zakaz przejazdu przez tunele kategorii E. Kod wcześniejszego ładunku nie obowiązuje na dalszym odcinku, ale rozładunek nie znosi ograniczeń dla pozostałych przesyłek. Podstawa: ADR 8.6.3.2 i 8.6.4.",
+        "explanation": "Gdy w pojeździe są towary z różnymi kodami tunelowymi, stosuje się kod najbardziej restrykcyjny dla całego ładunku, który jest w pojeździe. Po rozładunku przesyłek z kodem C zostaje już tylko kod E. Kod E oznacza zakaz przejazdu przez tunele kategorii E. Wcześniejszy kod C nie obowiązuje na dalszym odcinku, ale rozładunek części towaru nie znosi ograniczeń dla reszty. Podstawa: ADR 8.6.3.2 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -104,16 +104,16 @@
       "exact_record_snapshot": {
         "stem": "Przy planowaniu przewozu UN 2919 na zatwierdzonych warunkach specjalnych kierowca widzi w tabeli A znak „(-)” zamiast kodu tunelowego. Co powinien zrobić przed wyborem trasy?",
         "options": {
-          "A": "Przyjąć brak ograniczeń tunelowych wyłącznie na podstawie kreski w tabeli A.",
-          "B": "Zastosować kod E, bo ADR przypisuje go każdemu przewozowi na warunkach specjalnych.",
-          "C": "Sprawdzić, czy zatwierdzone warunki tego przewozu zawierają ograniczenia tunelowe."
+          "A": "Przyjąć brak ograniczeń tunelowych, bo tak oznacza kreska w tabeli A",
+          "B": "Przyjąć kod E, bo taki kod mają przewozy na warunkach specjalnych",
+          "C": "Sprawdzić ograniczenia tunelowe w zatwierdzonych warunkach przewozu"
         },
         "correct_option": "C",
-        "explanation": "Kreska w tabeli A zwykle oznacza brak kodu ograniczeń tunelowych dla towaru. Przy UN 2919 ograniczenia mogą jednak wynikać z warunków specjalnych zatwierdzonych przez właściwą władzę. Trzeba sprawdzić te warunki przed wyborem trasy. Sama kreska nie rozstrzyga sprawy, a kod E nie jest przypisywany automatycznie. Podstawa: ADR 8.6.3.1 i 8.6.4.",
+        "explanation": "Kreska „(-)” w kolumnie (15) tabeli A zwykle oznacza, że towar nie podlega ograniczeniom przewozu przez tunele. Dla UN 2919 i UN 3331 ADR robi jednak wyjątek, bo ograniczenia tunelowe mogą być częścią specjalnych warunków przewozu zatwierdzonych przez właściwą władzę. Dlatego przed wyborem trasy trzeba przeczytać te zatwierdzone warunki. ADR nie przypisuje takim przewozom z góry kodu E. Podstawa: ADR 8.6.3.1 i 1.9.5.3.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.1",
+            "reference": "ADR 2025, 8.6.3.1; 1.9.5.3.6",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

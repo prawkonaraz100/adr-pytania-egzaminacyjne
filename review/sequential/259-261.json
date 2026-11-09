@@ -63,12 +63,12 @@
       "exact_record_snapshot": {
         "stem": "Towar ma w kolumnie 7b tabeli A kod EQ „E0”. Jak należy ocenić możliwość zastosowania wyłączenia dla ilości wyłączonych?",
         "options": {
-          "A": "Nie można przewozić go na podstawie przepisów o ilościach wyłączonych",
-          "B": "Wszystkie opakowania automatycznie korzystają ze zwolnienia",
-          "C": "Kod E0 pozwala na 1 litr w każdym opakowaniu wewnętrznym"
+          "A": "Towaru z kodem E0 nie można przewozić jako ilości wyłączonej EQ",
+          "B": "Można go przewieźć jako ilość wyłączoną w opakowaniach do 1 litra",
+          "C": "Kod E0 dopuszcza tak jak E1 do 30 ml w opakowaniu wewnętrznym"
         },
         "correct_option": "A",
-        "explanation": "Kod EQ „E0” w kolumnie 7b tabeli A oznacza, że dla danego towaru nie można zastosować przepisów o ilościach wyłączonych. Nie daje on zwolnienia dla każdego opakowania ani nie pozwala przewieźć niewielkiej ilości na tej podstawie. Przed wyborem opakowania sprawdź kod EQ dla konkretnej pozycji towaru. Podstawa: ADR 3.5.1.2.",
+        "explanation": "Kolumna (7b) tabeli A podaje kod ilości wyłączonych, czyli bardzo małych ilości przewożonych na uproszczonych zasadach. Kod E0 oznacza, że dla tego towaru takie uproszczenie jest niedopuszczalne. Nie ma więc żadnej dozwolonej ilości na opakowanie, ani 30 ml jak przy kodzie E1, ani 1 litra. Towar trzeba przewieźć na innych zasadach ADR. Podstawa: ADR 3.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",

@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na nalepce widoczny jest symbol butli gazowej na zielonym tle i numer 2 u dołu. Jaką grupę zagrożeń oznacza ten wzór?",
+        "stem": "Z butli oznaczonej nalepką 2.2 uchodzi gaz w słabo wentylowanym pomieszczeniu. Kolega uważa, że gaz niepalny i nietrujący nie stanowi zagrożenia dla oddychania. Co należy uwzględnić?",
         "options": {
-          "A": "Gazy niepalne i nietrujące (wzór 2.2)",
-          "B": "Gazy palne (wzór 2.1), oznaczane czerwonym tłem zamiast zielonego",
-          "C": "Materiały żrące (klasa 8)"
+          "A": "Ryzyko uduszenia, chociaż gaz nie jest sklasyfikowany jako trujący ani palny",
+          "B": "Działanie duszące pojawia się dopiero wtedy, gdy obok jest też nalepka 2.3",
+          "C": "Ryzyko dla oddychania można pominąć, jeśli nie ma palnych oparów ani płomienia"
         },
         "correct_option": "A",
-        "explanation": "Zielone tło i symbol butli z numerem 2 oznaczają nalepkę 2.2: gazy niepalne i nietrujące. Gazy palne klasy 2.1 mają czerwone tło, a materiały żrące klasy 8 inny symbol i kształt oznaczenia. Sam obraz butli nie wystarczy — trzeba odczytać także kolor i numer. Podstawa: ADR 5.2.2.2.2. Taki odczyt zmniejsza ryzyko pomylenia środków ostrożności dla różnych gazów.",
+        "explanation": "Gaz z nalepką 2.2 nie jest palny ani trujący, ale może wypierać tlen z powietrza. Instrukcje pisemne podają dla tej nalepki zagrożenie działaniem duszącym i radzą unikać zagłębień terenu. W słabo wentylowanym pomieszczeniu gaz może się gromadzić, więc oddychanie tam jest niebezpieczne. Brak płomienia ani brak nalepki 2.3 nie usuwa tego ryzyka. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.2.2",
+            "reference": "ADR 2025, 5.4.3.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -42,7 +42,7 @@
       "supplementary_source_url": null,
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
-      "source_risk_note": "Full Polish-law comparison and independent expert signoff not performed",
+      "source_risk_note": "Kontrola urzędowego ADR 2025 i sprostowania, s. 945 i 976 Dz.U. Pytanie oczekuje na specjalistę.",
       "expert_review_priority": "manual_attention",
       "question_status": "needs_review",
       "review_outcome": "editorial_first_pass_only_not_legally_approved"
@@ -63,12 +63,12 @@
       "exact_record_snapshot": {
         "stem": "Przed przewozem ADR przewoźnik nie otrzymał wymaganych informacji o towarze od nadawcy. Co powinien zrobić?",
         "options": {
-          "A": "Wyruszyć po sprawdzeniu adresu dostawy i danych kierowcy",
-          "B": "Uzyskać wymagane informacje i zapewnić wymagane dokumenty lub dostępne dane przed przewozem",
-          "C": "Zamiast danych UN wpisać nazwę firmy i numer pojazdu"
+          "A": "Wyruszyć po sprawdzeniu adresu dostawy oraz danych kierowcy pojazdu",
+          "B": "Przed wyjazdem uzyskać od nadawcy brakujące informacje o towarze",
+          "C": "Wpisać nazwę firmy i numer pojazdu zamiast danych o towarze"
         },
         "correct_option": "B",
-        "explanation": "Bez informacji o towarze niebezpiecznym przewoźnik nie może właściwie przygotować dokumentów i środków bezpieczeństwa. Sam adres odbiorcy i dane kierowcy nie mówią, jaki towar jedzie, a nazwa firmy z numerem pojazdu nie zastępuje danych przewozowych. Uzyskaj wymagane informacje od nadawcy przed rozpoczęciem jazdy. Podstawa: ADR 1.4.2.2.1(b).",
+        "explanation": "Przewoźnik musi przed rozpoczęciem przewozu upewnić się, że nadawca przekazał mu wszystkie informacje o towarze niebezpiecznym wymagane przez ADR. Bez nich nie wiadomo, jaki to towar, jak go oznakować i jak postąpić w razie wypadku. Adres dostawy, dane kierowcy, nazwa firmy czy numer pojazdu nic nie mówią o samym towarze. Dlatego przewoźnik nie powinien ruszać, dopóki nie otrzyma brakujących informacji. Podstawa: ADR 1.4.2.2.1(b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
