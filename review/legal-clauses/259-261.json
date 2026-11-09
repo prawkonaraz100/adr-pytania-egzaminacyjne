@@ -9,19 +9,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant „333 jednostki ilościowe” nie zgadza się z wartością, wyjątkiem lub kodem w ADR 2025, 1.1.3.6.3; warunki należy zweryfikować w polskim urzędowym tekście."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 1.1.3.6.3."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wstępne odczytanie ADR 2025, 1.1.3.6.3: Tabela ADR podaje dla kategorii transportowej 3 wartość maksymalną 1000. Przed zastosowaniem wyjątku trzeba uwzględnić szczegóły towaru, sposób liczenia ilości i inne obowiązki."
+          "rationale": "Odpowiedź zgodna z ADR: Dla towarów kategorii transportowej 3 limit wynikający ze zwolnienia ADR 1.1.3.6 wynosi co do zasady"
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant „Bez ograniczenia ilościowego” nie zgadza się z wartością, wyjątkiem lub kodem w ADR 2025, 1.1.3.6.3; warunki należy zweryfikować w polskim urzędowym tekście."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 1.1.3.6.3."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Granice wyłączeń zależą od pozycji towaru i rodzaju opakowania. Przed zatwierdzeniem wymagane porównanie z Dz.U. 642 i sprostowaniem 1575.",
+      "notes_on_conditions": "Porównanie treści pytania z ADR 2025; status needs_review, wymagana niezależna akceptacja specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -55,19 +55,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wstępne odczytanie ADR 2025, 3.5.1.2: Kod E0 oznacza, że dany towar nie jest dopuszczony do przewozu na zasadach ilości wyłączonych (EQ)."
+          "rationale": "Odpowiedź zgodna z ADR: Kolumna (7b) tabeli A podaje kod ilości wyłączonych, czyli bardzo małych ilości przewożonych na upro"
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant „Wszystkie opakowania automatycznie korzystają ze zwolnienia” nie zgadza się z wartością, wyjątkiem lub kodem w ADR 2025, 3.5.1.2; warunki należy zweryfikować w polskim urzędowym tekście."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 3.5.1.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant „Kod E0 pozwala na 1 litr w każdym opakowaniu wewnętrznym” nie zgadza się z wartością, wyjątkiem lub kodem w ADR 2025, 3.5.1.2; warunki należy zweryfikować w polskim urzędowym tekście."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 3.5.1.2."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Granice wyłączeń zależą od pozycji towaru i rodzaju opakowania. Przed zatwierdzeniem wymagane porównanie z Dz.U. 642 i sprostowaniem 1575. Etap 4c: do pytania dodano ilustrację assets/adr-original/adr-b-0260-eq-e0-table.svg jako niezależny materiał edukacyjny. Warianty A/B/C i klucz bez zmian; grafika wymaga recenzji fachowej.",
+      "notes_on_conditions": "Porównanie treści pytania z ADR 2025; status needs_review, wymagana niezależna akceptacja specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
@@ -76,12 +76,12 @@
         "module_id": "ADR-B-01",
         "stem": "Towar ma w kolumnie 7b tabeli A kod EQ „E0”. Jak należy ocenić możliwość zastosowania wyłączenia dla ilości wyłączonych?",
         "options": {
-          "A": "Nie można przewozić go na podstawie przepisów o ilościach wyłączonych",
-          "B": "Wszystkie opakowania automatycznie korzystają ze zwolnienia",
-          "C": "Kod E0 pozwala na 1 litr w każdym opakowaniu wewnętrznym"
+          "A": "Towaru z kodem E0 nie można przewozić jako ilości wyłączonej EQ",
+          "B": "Można go przewieźć jako ilość wyłączoną w opakowaniach do 1 litra",
+          "C": "Kod E0 dopuszcza tak jak E1 do 30 ml w opakowaniu wewnętrznym"
         },
         "correct_option": "A",
-        "explanation": "Kod EQ „E0” w kolumnie 7b tabeli A oznacza, że dla danego towaru nie można zastosować przepisów o ilościach wyłączonych. Nie daje on zwolnienia dla każdego opakowania ani nie pozwala przewieźć niewielkiej ilości na tej podstawie. Przed wyborem opakowania sprawdź kod EQ dla konkretnej pozycji towaru. Podstawa: ADR 3.5.1.2.",
+        "explanation": "Kolumna (7b) tabeli A podaje kod ilości wyłączonych, czyli bardzo małych ilości przewożonych na uproszczonych zasadach. Kod E0 oznacza, że dla tego towaru takie uproszczenie jest niedopuszczalne. Nie ma więc żadnej dozwolonej ilości na opakowanie, ani 30 ml jak przy kodzie E1, ani 1 litra. Towar trzeba przewieźć na innych zasadach ADR. Podstawa: ADR 3.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -101,19 +101,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dla aerozoli pkt 3.4.2 przewiduje wyjątek od obowiązku użycia opakowania wewnętrznego."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 3.4.2."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wyjątek dla aerozoli nie zwalnia z użycia odpowiedniego opakowania zewnętrznego."
+          "rationale": "Opcja nie spełnia wymogu określonego w ADR 2025, 3.4.2."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Aerozole mogą być umieszczone bez dodatkowych opakowań wewnętrznych w odpowiednim opakowaniu zewnętrznym."
+          "rationale": "Odpowiedź zgodna z ADR: Przy przewozie aerozoli w ilościach ograniczonych ADR pozwala umieścić je bezpośrednio w odpowiednim"
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Kontrola 2: wyjątek dla aerozoli potwierdzono na obrazie s. 686 Dz.U. 2025 poz. 642, pkt 3.4.2. Sprostowanie nie zmienia tej reguły.",
+      "notes_on_conditions": "Porównanie treści pytania z ADR 2025; status needs_review, wymagana niezależna akceptacja specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",
