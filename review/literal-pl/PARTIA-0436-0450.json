@@ -1,0 +1,277 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0436..0450",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642; Polish OCR; Dz.U. 2025 poz. 1575 checked",
+  "bank_count": 780,
+  "bank_blob_sha": "fa4e38350731bd52c1a64a8cab934bdf18988438",
+  "bank_changed": false,
+  "previous_uncompared": 345,
+  "compared": 15,
+  "remaining_without_comparison": 330,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "all_780_questions",
+    "method": "Whole-bank lexical similarity pre-screen using normalized tokens from stem, options and explanation (Jaccard); followed by manual semantic comparison of the highest-scoring candidates and the IDs specified in the control instruction. This was not the repository similarity.py implementation.",
+    "manual_pairs": [
+      "0436 vs 0584 (0.208), 0517 (0.202), 0020 (0.170), 0555 (0.155); same damaged-package/loader refusal topic",
+      "0437 vs 0205 (0.178): distinguished, because 0205 concerns cargo transferred between train and truck, while 0437 concerns the road vehicle itself carried on rail",
+      "0437 vs 0438 (within batch 0.130): related clause, but rail vs ferry and different focus (rules for the non-road segment vs scope of that segment)",
+      "0439 vs 0440 (within batch 0.161): related 1.1.4.5.2, but agreement vs additional requirements",
+      "0442 vs 0443 (within batch 0.144): related 1.1.4.5.3, but general combined application vs conflicting ADR rule",
+      "0444 vs 0445 (within batch 0.146) and 0446 (0.124): different conditions of 1.1.4.3 (overall continued use, cargo-specific requirements, date threshold)",
+      "0447 vs 0321 (0.174): complementary cases under 1.1.4.7.1; 0321 excludes a chain without sea/air, 0447 addresses a chain under 1.1.4.2",
+      "0449 vs 0451/0452: distinct conditions of 1.1.4.7.2(a) vs 1.1.4.7.2(c)",
+      "0450 vs 0454: chapter 5.2 marking/labels vs 5.4.1.1.24 transport document entry"
+    ],
+    "distinguished_pairs": [
+      "0437 vs 0205",
+      "0437 vs 0438",
+      "0439 vs 0440",
+      "0442 vs 0443",
+      "0444 vs 0445/0446",
+      "0447 vs 0321",
+      "0449 vs 0451/0452",
+      "0450 vs 0454"
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0436",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.4.3.1.1(b); 7.5.1.2",
+      "gazette_page": 57,
+      "exact_quote": "„Nie powinien on wydać sztuki przesyłki, której opakowanie jest uszkodzone, dopóki nie zostaną usunięte uszkodzenia, w szczególności, jeżeli opakowanie jest nieszczelne…”",
+      "finding": "Pytanie powiela temat 0555/0584 oraz 0020/0517; wyjaśnienie odsyła do 7.5.1.2, podczas gdy bezpośredni obowiązek załadowcy przy uszkodzonym opakowaniu wynika z 1.4.3.1.1(b). Klucz A jest poprawny, ale jedyną najkrótszą opcją (58 znaków); propozycja nowego tematu pozostaje w kompetencji 09-K08.",
+      "duplicate_candidates": [
+        "ADR-B-0020",
+        "ADR-B-0135",
+        "ADR-B-0517",
+        "ADR-B-0555",
+        "ADR-B-0584"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Przed załadunkiem towaru ADR pracownik sprawdza wnętrze jednostki transportowej. Co powinien ocenić oprócz jej czystości?",
+        "options": {
+          "A": "Czy podłoga, ściany i sufit są wolne od występów i uszkodzeń",
+          "B": "Czy kontener ma aktualną tabliczkę CSC",
+          "C": "Czy wnętrze ma dodatkowe oznaczenia wymagane przez przewoźnika i odbiorcę"
+        },
+        "correct_option": "A",
+        "explanation": "Przed załadunkiem jednostkę transportową trzeba sprawdzić pod kątem jej przydatności konstrukcyjnej. Podłoga, ściany wewnętrzne i sufit, jeżeli występuje, nie powinny mieć wystających części ani uszkodzeń mogących oddziaływać na przewożony towar. Sama barwa wnętrza nie potwierdza bezpieczeństwa, a miejsce na oznakowanie nie zastępuje oględzin powierzchni ładunkowej. Podstawa: ADR 7.5.1.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.1.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "original_correct_option": "A"
+    },
+    {
+      "id": "ADR-B-0437",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.5.1",
+      "gazette_page": 30,
+      "exact_quote": "„Jeżeli pojazd wykonujący przewóz objęty przepisami ADR przewożony jest na części swojej trasy inaczej niż po drogach kołowych, to na tej części trasy stosuje się tylko te przepisy krajowe lub międzynarodowe, które dotyczą przewozu towarów niebezpiecznych tym rodzajem transportu…”",
+      "finding": "Klucz C jest prawidłowy. Wszystkie trzy opcje przekraczają limit 80 znaków (91/116/103); wymagane skrócenie bez zmiany sensu i litery klucza. Temat odróżnia się od 0205: tutaj przewożony jest sam pojazd, a w 0205 ładunek zmienia środek transportu po przeładunku.",
+      "duplicate_candidates": [
+        "ADR-B-0205",
+        "ADR-B-0030"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0438",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.5.1",
+      "gazette_page": 30,
+      "exact_quote": "„…na tej części trasy stosuje się tylko te przepisy krajowe lub międzynarodowe, które dotyczą przewozu towarów niebezpiecznych tym rodzajem transportu, którym przewożony jest ten pojazd.”",
+      "finding": "Klucz C jest prawidłowy, ale opcja B ma 82 znaki i absolutyzujące „wszystkie … bez ograniczeń”. Temat promu jest odrębny od 0437 (wagon kolejowy), choć oba pytania sprawdzają zakres odcinka niedrogowego.",
+      "duplicate_candidates": [
+        "ADR-B-0437"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0439",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.5.2",
+      "gazette_page": 30,
+      "exact_quote": "„…zainteresowane Umawiające się Strony ADR mogą uzgodnić stosowanie przepisów ADR do tej części trasy, na której pojazd przewożony jest inaczej niż po drogach kołowych…”",
+      "finding": "Klucz C jest prawidłowy. W opcjach A i B występują średniki, a B zawiera absolutyzujące „dowolne zasady”; wymaga redakcji dystraktorów. Temat zgody stron jest odrębny od 0440 (dodatkowe wymagania) i 0441 (zgłoszenie uzgodnienia).",
+      "duplicate_candidates": [
+        "ADR-B-0440",
+        "ADR-B-0441"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0440",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.5.2",
+      "gazette_page": 30,
+      "exact_quote": "„…uzupełnionych, jeżeli uznają to za potrzebne, o wymagania dodatkowe, jeżeli takie umowy … nie są sprzeczne z postanowieniami umów międzynarodowych…”",
+      "finding": "Klucz A jest prawidłowy. Wszystkie trzy opcje zawierają średniki, a B używa absolutyzującego „bezwzględnie”; należy usunąć wskazówkę długościową i zredagować dystraktory.",
+      "duplicate_candidates": [
+        "ADR-B-0439"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A"
+    },
+    {
+      "id": "ADR-B-0441",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.5.2",
+      "gazette_page": 31,
+      "exact_quote": "„Umowy, o których mowa, powinny być zgłaszane przez Umawiającą się Stronę będącą inicjatorem umowy do Sekretariatu Europejskiej Komisji Gospodarczej Organizacji Narodów Zjednoczonych…”",
+      "finding": "Klucz C jest prawidłowy. Opcje A i B mają odpowiednio 101 i 88 znaków; B zawiera absolutyzujące „każde”. Skrócić opcje bez zmiany prawidłowej zasady, że zgłoszenia dokonuje strona inicjująca uzgodnienie.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0442",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.5.3",
+      "gazette_page": 31,
+      "exact_quote": "„…przepisy tej umowy międzynarodowej stosuje się na danym odcinku przewozu łącznie z przepisami ADR, które nie są z nimi sprzeczne…”",
+      "finding": "Klucz C jest prawidłowy. Opcja A ma 84 znaki i zawiera absolutyzujące „automatycznie wszystkie”; B zawiera „nigdy”. Wymagana redakcja dystraktorów, aby nie podpowiadały odpowiedzi przez skrajne sformułowania.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0443",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.5.3",
+      "gazette_page": 31,
+      "exact_quote": "„…na tym odcinku przewozu nie stosuje się innych przepisów ADR.”",
+      "finding": "Klucz C oddaje zasadę, że sprzecznego wymagania ADR nie stosuje się na objętym umową odcinku. Opcja A zawiera absolutyzujące „zawsze”; należy też doprecyzować w wyjaśnieniu pełną konstrukcję 1.1.4.5.3: umowa + niesprzeczne przepisy ADR, bez innych przepisów ADR na tym odcinku.",
+      "duplicate_candidates": [
+        "ADR-B-0442"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0444",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.3",
+      "gazette_page": 30,
+      "exact_quote": "„…które zostały wyprodukowane i dopuszczone przed 1 stycznia 2003 r. … mogą być używane nadal pod warunkiem, że spełniają wymagania odpowiednich przepisów dotyczących badań okresowych i prób…”",
+      "finding": "Klucz B jest zasadniczo prawidłowy, ale opcje A/B/C zawierają średniki; A używa absolutyzującego „wszystkich”. Klucz B i C mają remis długości (68 znaków), co nie tworzy wskazówki. Wyjaśnienie powinno wyraźniej wymienić także wymagania kolumn (10) i (11) tabeli A oraz działu 4.2 ADR.",
+      "duplicate_candidates": [
+        "ADR-B-0445",
+        "ADR-B-0446"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B"
+    },
+    {
+      "id": "ADR-B-0445",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.3",
+      "gazette_page": 30,
+      "exact_quote": "„…powinny one spełniać wymagania odpowiednich instrukcji podanych w kolumnach (10) i (11) w tabeli A w dziale 3.2 oraz przepisów działu 4.2 ADR.”",
+      "finding": "Klucz C jest prawidłowy. Jest jednak jedyną najkrótszą opcją (61 znaków), co może naprowadzać na odpowiedź. Treść i wyjaśnienie dotyczą konkretnego warunku towarowego i odróżniają się od pytania 0444 o łączny zestaw warunków wyjątku.",
+      "duplicate_candidates": [
+        "ADR-B-0444",
+        "ADR-B-0446"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0446",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.3",
+      "gazette_page": 30,
+      "exact_quote": "„…wyprodukowane i dopuszczone przed 1 stycznia 2003 r.”",
+      "finding": "Klucz C wskazuje właściwą granicę czasową, ale przepis wymaga, by cysterna była zarówno wyprodukowana, jak i dopuszczona przed 1 stycznia 2003 r.; pytanie i odpowiedź mówią tylko o zbudowaniu. Ponadto B ma 85 znaków, C zawiera średnik, a klucz jest jedyną najkrótszą opcją. To bliskie powtórzenie przesłanki daty z 0444.",
+      "duplicate_candidates": [
+        "ADR-B-0444",
+        "ADR-B-0445"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0447",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.7.1; 1.1.4.2",
+      "gazette_page": 31,
+      "exact_quote": "„…nadane do przewozu w łańcuchu transportowym zgodnie z 1.1.4.2, mogą być przewożone od miejsca tymczasowego składowania do odbiorcy finalnego na końcu łańcucha przewozowego.”",
+      "finding": "Klucz A jest prawidłowy dla importu w łańcuchu obejmującym przewóz zgodnie z 1.1.4.2. Opcja B ma 82 znaki, a C zawiera absolutyzujące „automatycznie”; klucz A jest jedyną najkrótszą opcją. Temat jest bliski 0321, ale pytania sprawdzają przeciwne przypadki: 0321 wyklucza wyjątek przy braku odcinka morskiego/lotniczego, a 0447 opisuje łańcuch objęty 1.1.4.2.",
+      "duplicate_candidates": [
+        "ADR-B-0321"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A"
+    },
+    {
+      "id": "ADR-B-0448",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.7.2",
+      "gazette_page": 31,
+      "exact_quote": "„…mogą być napełniane i przewożone wyłącznie w celu eksportu do krajów niebędących Umawiającymi się Stronami ADR…”",
+      "finding": "Klucz C jest prawidłowy. Opcje A, B i C zawierają absolutyzujące określenia („dowolnego”, „wyłącznie”); klucz C jest jedyną najkrótszą opcją (58 znaków). Należy zredagować odpowiedzi tak, aby ograniczenie wynikało z treści przepisu, a nie z rozpoznania słowa absolutnego.",
+      "duplicate_candidates": [
+        "ADR-B-0451",
+        "ADR-B-0452"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0449",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.7.2(a)",
+      "gazette_page": 31,
+      "exact_quote": "„Napełnianie naczynia ciśnieniowego jest zgodne z odpowiednimi wymaganiami Kodeksu Przepisów Federalnych Stanów Zjednoczonych Ameryki.”",
+      "finding": "Klucz C jest prawidłowy. Opcja A ma 83 znaki i zawiera absolutyzujące „dowolnych”; wymaga skrócenia. Pytanie dotyczy warunku napełniania i jest odrębne od 0451/0452, które dotyczą terminu badania oraz przewozu do badania.",
+      "duplicate_candidates": [
+        "ADR-B-0451",
+        "ADR-B-0452"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0450",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.7.2(b)",
+      "gazette_page": 31,
+      "exact_quote": "„naczynia ciśnieniowe powinny być oznakowane i opatrzone nalepkami ostrzegawczymi zgodnie z działem 5.2”",
+      "finding": "Klucz C jest prawidłowy. Jest jednak jedyną najkrótszą opcją (55 znaków), a dystraktory zawierają absolutyzujące „dowolne” i „wyłącznie”. Wymaga wyrównania długości i wiarygodności opcji.",
+      "duplicate_candidates": [
+        "ADR-B-0454"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    }
+  ]
+}
