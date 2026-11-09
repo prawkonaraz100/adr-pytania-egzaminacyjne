@@ -1,0 +1,133 @@
+{
+  "audit_type": "consecutive_question_editorial_first_pass",
+  "date": "2026-11-09",
+  "range": "ADR-B-0325..ADR-B-0327",
+  "status": "pending_full_official_polish_clause_and_independent_expert_review",
+  "review_scope": "Preliminary A/B/C editorial source check",
+  "not_a_release_approval": true,
+  "records": [
+    {
+      "id": "ADR-B-0325",
+      "sequence": 325,
+      "module_id": "ADR-B-03",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Odpad nie spełnia kryteriów żadnej z klas od 1 do 9, ale podlega Konwencji Bazylejskiej o transgranicznym przemieszczaniu odpadów niebezpiecznych. Pod jakimi numerami UN może być przewożony według ADR?",
+        "options": {
+          "A": "Pod UN 3077 lub UN 3082, jak materiały zagrażające środowisku",
+          "B": "Pod UN 3291, czyli pozycją przeznaczoną dla odpadów klinicznych",
+          "C": "Nie dostaje numeru UN, bo nie spełnia kryteriów klas ADR"
+        },
+        "correct_option": "A",
+        "explanation": "Konwencja Bazylejska to umowa międzynarodowa o kontroli przewozu odpadów niebezpiecznych między państwami. Niektóre takie odpady nie spełniają kryteriów żadnej klasy ADR, ale ADR pozwala przewozić je pod UN 3077 lub UN 3082. UN 3077 to materiał zagrażający środowisku w stanie stałym, a UN 3082 w stanie ciekłym. UN 3291 dotyczy odpadów klinicznych i medycznych, czyli innego rodzaju odpadów. Podstawa: ADR 2.1.3.9.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.3.9",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full independent specialist approval pending; this snapshot does not authorize release.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0326",
+      "sequence": 326,
+      "module_id": "ADR-B-03",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Odpad o słabo zdefiniowanym składzie zawiera materiał klasy 4.3, który w zetknięciu z wodą wydziela gazy palne. Czy nadawca może go sklasyfikować uproszczoną metodą z 2.1.3.5.5?",
+        "options": {
+          "A": "Tak, jeżeli zna nazwę odpadu i ogólne dane o jego zagrożeniach",
+          "B": "Nie, bo tej metody nie stosuje się do materiałów klasy 4.3",
+          "C": "Tak, jeżeli ma kod odpadu i kartę przekazania tego odpadu"
+        },
+        "correct_option": "B",
+        "explanation": "Przepis 2.1.3.5.5 pozwala nadawcy sklasyfikować odpad o słabo zdefiniowanym składzie na podstawie swojej wiedzy i dostępnych danych. Ta uproszczona metoda nie może być jednak stosowana do odpadów z materiałami klasy 4.3. Takie materiały w kontakcie z wodą wydzielają gazy palne, więc pomyłka w klasyfikacji byłaby szczególnie groźna. Nazwa odpadu, jego kod ani karta przekazania nie znoszą tego zakazu. Podstawa: ADR 2.1.3.5.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.3.5.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full independent specialist approval pending; this snapshot does not authorize release.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    },
+    {
+      "id": "ADR-B-0327",
+      "sequence": 327,
+      "module_id": "ADR-B-03",
+      "editorial_read_through": {
+        "stem": true,
+        "option_A": true,
+        "option_B": true,
+        "option_C": true,
+        "correct_option": true,
+        "explanation": true,
+        "reference_pointer": true
+      },
+      "exact_record_snapshot": {
+        "stem": "Nadawca nie zna dokładnego składu odpadu, ale wie, że odpad ma tylko właściwości zagrażające środowisku. Jak może go sklasyfikować na podstawie 2.1.3.5.5?",
+        "options": {
+          "A": "Do pozycji I.N.O. w I grupie pakowania, aby zachować ostrożność",
+          "B": "Do III grupy pakowania, pod numerem UN 3077 lub UN 3082",
+          "C": "Jako odpad komunalny, do którego nie stosuje się ADR"
+        },
+        "correct_option": "B",
+        "explanation": "Przy odpadzie o słabo zdefiniowanym składzie nadawca opiera klasyfikację na swojej wiedzy i dostępnych danych. Jeżeli wiadomo, że odpad ma tylko właściwości zagrażające środowisku, ADR pozwala zaliczyć go do III grupy pakowania. Stosuje się wtedy UN 3077 dla odpadu stałego albo UN 3082 dla ciekłego. Gdy odpad ma też inne groźne właściwości, ta zasada nie wystarcza. Podstawa: ADR 2.1.3.5.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.3.5.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "legal_basis_version": "ADR-2025-PL",
+        "image": null
+      },
+      "source_crosscheck_scope": "reference_listed_without_individual_full_clause_comparison",
+      "supplementary_source_url": "https://www.riigiteataja.ee/aktilisa/2030/6202/5001/ADR2025_Vol_1_ENG.pdf",
+      "polish_official_text_fully_compared": false,
+      "independent_ADR_expert_approved": false,
+      "source_risk_note": "Full independent specialist approval pending; this snapshot does not authorize release.",
+      "expert_review_priority": "manual_attention",
+      "question_status": "needs_review",
+      "review_outcome": "editorial_first_pass_only_not_legally_approved"
+    }
+  ]
+}
