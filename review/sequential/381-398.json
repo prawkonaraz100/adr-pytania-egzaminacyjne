@@ -430,18 +430,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kto według ADR 5.4.2 ma przekazać przewoźnikowi morskiemu świadectwo pakowania kontenera?",
+        "stem": "Kontener z beczkami farby jedzie ciężarówką do portu, skąd od razu popłynie statkiem. Potrzebny jest do niego certyfikat pakowania kontenera/pojazdu. Kto według 5.4.2 dostarcza ten certyfikat przewoźnikowi morskiemu?",
         "options": {
-          "A": "Przewoźnik drogowy, nawet jeśli nie odpowiadał za pakowanie kontenera",
-          "B": "Osoby odpowiedzialne za pakowanie kontenera",
-          "C": "Odbiorca, który podpisuje odbiór i dopiero potem zleca przygotowanie dokumentu"
+          "A": "Kierowca, który przywozi ten kontener do terminalu w porcie morskim",
+          "B": "Osoby odpowiedzialne za pakowanie towarów do tego kontenera",
+          "C": "Odbiorca towaru, po przyjęciu kontenera w porcie docelowym"
         },
         "correct_option": "B",
-        "explanation": "Świadectwo pakowania potwierdza, że kontener lub pojazd do przewozu morskiego został prawidłowo załadowany i zabezpieczony. Powinny je przekazać osoby odpowiedzialne za pakowanie, bo mogą potwierdzić sposób rozmieszczenia ładunku. Przewoźnik drogowy ani odbiorca nie zastępują automatycznie tej osoby tylko dlatego, że uczestniczą w dalszym przewozie. Podstawa: ADR 5.4.2.",
+        "explanation": "Certyfikat pakowania kontenera/pojazdu potwierdza, że kontener zapakowano zgodnie z Kodeksem IMDG. Gdy kontener jedzie drogą bezpośrednio przed przewozem morskim, certyfikat dostarczają przewoźnikowi morskiemu osoby odpowiedzialne za pakowanie kontenera. To one wiedzą, jak rozmieszczono i zabezpieczono ładunek. Kierowca jedynie przewozi kontener, a odbiorca dostaje towar dopiero po rejsie. Podstawa: ADR 5.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.2",
+            "reference": "ADR 2025, 5.4.2 (akapit pierwszy)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -471,18 +471,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Czy funkcję świadectwa pakowania kontenera i dokumentu przewozowego ADR wolno w określonych warunkach połączyć w jednym dokumencie?",
+        "stem": "Nadawca chce, żeby jeden dokument był jednocześnie dokumentem przewozowym z 5.4.1 i certyfikatem pakowania kontenera/pojazdu. Czy 5.4.2 na to pozwala?",
         "options": {
-          "A": "Nie; oba dokumenty muszą zawsze pozostać osobne, nawet jeśli zawierają te same dane",
-          "B": "Tak, jeśli dokument zawiera wymagane oświadczenie oraz dane osoby odpowiedzialnej",
-          "C": "Tak; dokumenty można połączyć, pomijając oświadczenie i dane osoby odpowiedzialnej"
+          "A": "Nie, muszą to być dwa osobne dokumenty z dwoma różnymi podpisami",
+          "B": "Tak, jeśli ma stwierdzenie o załadunku i dane osoby odpowiedzialnej",
+          "C": "Tak, wystarczy dopisać do niego numer kontenera, bez dalszych danych o pakującym"
         },
         "correct_option": "B",
-        "explanation": "Świadectwo pakowania kontenera i dokument przewozowy mogą być połączone w jednym dokumencie, jeśli znajdują się w nim wymagane dane i oświadczenie. Nie trzeba więc zawsze sporządzać dwóch osobnych dokumentów. Z drugiej strony ich połączenie nie pozwala pominąć identyfikacji osoby odpowiedzialnej ani potwierdzenia prawidłowego pakowania. Podstawa: ADR 5.4.2.",
+        "explanation": "Punkt 5.4.2 pozwala, aby jeden dokument pełnił funkcję dokumentu przewozowego i certyfikatu pakowania kontenera/pojazdu. Musi on wtedy zawierać stwierdzenie, że załadunek kontenera odbył się zgodnie z przepisami właściwymi dla danego rodzaju transportu. Musi też zawierać dane, które pozwalają ustalić osobę odpowiedzialną za sporządzenie certyfikatu. Sam numer kontenera tych danych nie zastępuje. Podstawa: ADR 5.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.2",
+            "reference": "ADR 2025, 5.4.2 (akapit drugi)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -512,18 +512,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W morskim łańcuchu transportowym ładunek jest przewożony w pojeździe, a nie kontenerze. Co mówi ADR 5.4.2 o świadectwie pakowania pojazdu?",
+        "stem": "Ciężarówka ze sztukami przesyłek, bez kontenera, jedzie do portu i wjedzie na statek. Przewóz drogowy odbywa się bezpośrednio przed przewozem morskim. Co 5.4.2 mówi o certyfikacie pakowania kontenera/pojazdu?",
         "options": {
-          "A": "Nie; świadectwo pakowania pojazdu nie może być dołączone do dokumentu przewozowego",
-          "B": "Może być dołączone do dokumentu przewozowego, jeśli spełniono wymagania ADR",
-          "C": "Musi zastąpić dokument przewozowy oraz prawo jazdy kierowcy"
+          "A": "Nie jest potrzebny, bo ładunek nie jedzie w kontenerze, lecz w pojeździe",
+          "B": "Trzeba go dołączyć do dokumentu przewozowego",
+          "C": "Zastępuje dokument przewozowy"
         },
         "correct_option": "B",
-        "explanation": "W przewozie łączącym drogę z morzem świadectwo pakowania może dotyczyć także pojazdu, a nie tylko kontenera. ADR pozwala dołączyć takie świadectwo do dokumentu przewozowego, jeśli spełniono wymagania tego przepisu. Nie zastępuje ono dokumentu przewozowego ani prawa jazdy kierowcy. Dlatego odpowiedź B opisuje możliwość, a nie obowiązek w każdym przewozie. Podstawa: ADR 5.4.2.",
+        "explanation": "Certyfikat pakowania dotyczy nie tylko kontenerów, ale także pojazdów. Jeżeli pojazd z towarami niebezpiecznymi jedzie drogą bezpośrednio przed przewozem morskim, do dokumentu przewozowego dołącza się certyfikat pakowania kontenera/pojazdu zgodny z Kodeksem IMDG. Jest to obowiązek, a nie dobrowolna możliwość. Certyfikat nie zastępuje dokumentu przewozowego, lecz jest do niego dołączony. Podstawa: ADR 5.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.2",
+            "reference": "ADR 2025, 5.4.2 (akapit trzeci)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -553,18 +553,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Czy ADR 5.4.2 wymaga świadectwa pakowania kontenera dla przenośnej cysterny wyłącznie z tego powodu, że będzie przewożona statkiem?",
+        "stem": "Cysterna przenośna z towarem niebezpiecznym jedzie ciężarówką do portu, a potem popłynie statkiem. Czy według wymagań IMDG przytoczonych w 5.4.2 potrzebny jest dla niej certyfikat pakowania kontenera/pojazdu?",
         "options": {
-          "A": "Nie; samo przewożenie przenośnej cysterny statkiem nie wymaga takiego świadectwa",
-          "B": "Tak; świadectwo jest wymagane dla każdej przenośnej cysterny przewożonej statkiem",
-          "C": "Tak; świadectwo jest wymagane tylko wtedy, gdy cysterna jest pusta i czysta"
+          "A": "Nie, ten certyfikat nie jest wymagany dla cystern przenośnych",
+          "B": "Tak, bo cysterna jedzie drogą bezpośrednio przed przewozem morskim",
+          "C": "Tak, ale może go podpisać kierowca w porcie, tuż przed rejsem"
         },
         "correct_option": "A",
-        "explanation": "Samo to, że przenośna cysterna będzie przewożona statkiem, nie oznacza obowiązku wystawienia świadectwa pakowania kontenera z ADR 5.4.2. Ten wyjątek nie zwalnia jednak z pozostałych dokumentów ani z wymagań dotyczących cysterny i całego przewozu. Nie zakładaj też, że świadectwo jest potrzebne tylko dla cysterny pustej — sprawdź właściwe przepisy dla danego transportu. Podstawa: ADR 5.4.2.",
+        "explanation": "Wymagania Kodeksu IMDG przytoczone w przypisie do 5.4.2 zawierają uwagę, że certyfikat pakowania kontenera/pojazdu nie jest wymagany dla cystern przenośnych. Sam rejs statkiem tej zasady nie zmienia. Kierowca i tak nie jest osobą, która sporządza taki certyfikat. Pozostałe dokumenty wymagane w przewozie, na przykład dokument przewozowy, nadal obowiązują. Podstawa: ADR 5.4.2 i przypis do 5.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.2",
+            "reference": "ADR 2025, 5.4.2 (z przypisem: IMDG 5.4.2.1, UWAGA)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -594,18 +594,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca korzysta z odstępstwa ADR 1.1.4.2.1. Jaki wpis dokumentowy przewiduje 5.4.1.1.7?",
+        "stem": "Sztuki przesyłek w kontenerze mają znaki i nalepki według ADR. Sam kontener ma jednak duże nalepki według Kodeksu IMDG, a nie według działu 5.3 ADR, i jedzie do portu na statek. Czy potrzebny jest zapis z 5.4.1.1.7?",
         "options": {
-          "A": "Wpisać wymaganą informację, że przewóz odbywa się zgodnie z przepisem 1.1.4.2.1 ADR",
-          "B": "Wpisać ogólne hasło „bezpieczny ładunek”, bez podania podstawy zastosowanego odstępstwa",
-          "C": "Wpisać numer telefonu odbiorcy, bez informacji o przepisie, na podstawie którego przewóz się odbywa"
+          "A": "Tak, bo kontener jedzie na warunkach z 1.1.4.2.1 (c)",
+          "B": "Nie, bo sztuki przesyłek mają oznakowanie zgodne z ADR",
+          "C": "Nie, ten zapis dotyczy jedynie łańcucha z lotem"
         },
         "correct_option": "A",
-        "explanation": "Jeśli przewóz korzysta z odstępstwa wskazanego w ADR 1.1.4.2.1, dokument przewozowy musi zawierać wymaganą adnotację odnoszącą się do tego przepisu. Ogólne hasło „bezpieczny ładunek” ani sam telefon odbiorcy nie wyjaśniają, na jakiej podstawie przewóz jest realizowany. Wpisz informację zgodnie z wymaganiem ADR, a nie własnym skrótem. Podstawa: ADR 5.4.1.1.7.",
+        "explanation": "Zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1” jest potrzebny, gdy przewóz korzysta z odstępstwa z 1.1.4.2.1. Odstępstwo obejmuje nie tylko oznakowanie sztuk przesyłek, ale też duże nalepki na kontenerze, opisane w literze (c). Kontener z nalepkami IMDG zamiast ADR jedzie więc na tych warunkach, nawet gdy przesyłki w środku mają oznakowanie ADR. Zapis dotyczy łańcucha z przewozem morskim lub lotniczym. Podstawa: ADR 5.4.1.1.7 i 1.1.4.2.1 (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.7",
+            "reference": "ADR 2025, 5.4.1.1.7; 1.1.4.2.1 (c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -635,18 +635,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kontener z towarem niebezpiecznym wyrusza drogą do portu. Czy sam przejazd do portu uprawnia do niestosowania całego ADR?",
+        "stem": "Kontener do przewozu luzem z towarem stałym jedzie drogą do portu, a potem statkiem. Ma duże nalepki ostrzegawcze według Kodeksu IMDG, a nie według działu 5.3 ADR. Czy 1.1.4.2.1 (c) obejmuje taki kontener?",
         "options": {
-          "A": "Tak; sam dojazd do portu zawsze wyłącza cały przewóz drogowy spod ADR",
-          "B": "Nie; ADR obowiązuje, chyba że spełniono warunki konkretnego wyjątku",
-          "C": "Tak; zagraniczna rejestracja pojazdu automatycznie znosi wymagania ADR"
+          "A": "Nie, ta litera dotyczy jedynie cystern przenośnych i kontenerów-cystern",
+          "B": "Tak, ta litera wymienia także kontenery do przewozu luzem",
+          "C": "Nie, kontener luzem musi mieć zarazem nalepki ADR i IMDG"
         },
         "correct_option": "B",
-        "explanation": "Sam dojazd do portu nie zwalnia kierowcy z wymagań ADR. Przepisy nadal obowiązują na drodze, chyba że konkretny wyjątek ma zastosowanie i spełniono wszystkie jego warunki; samo miejsce docelowe nie wystarcza. Zagraniczna rejestracja pojazdu również nie zmienia zasad przewozu. Przed wyjazdem sprawdź rzeczywisty sposób transportu i podstawę ewentualnego wyjątku. Podstawa: ADR 1.1.4.2.",
+        "explanation": "Litera (c) w 1.1.4.2.1 dotyczy łańcucha transportowego z przewozem morskim. Wymienia ona kontenery, kontenery do przewozu luzem, cysterny przenośne, kontenery-cysterny i MEGC. Jeżeli nie mają one dużych nalepek według działu 5.3 ADR, powinny mieć je według działu 5.3 Kodeksu IMDG. Dla oznakowania samego pojazdu stosuje się wtedy jedynie 5.3.2.1.1. Podstawa: ADR 1.1.4.2.1 (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2",
+            "reference": "ADR 2025, 1.1.4.2.1 (c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -676,18 +676,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W łańcuchu obejmującym transport lotniczy paczka spełnia ICAO TI zamiast części wymagań oznakowania ADR. Która zasada może mieć zastosowanie?",
+        "stem": "Paczki z towarem niebezpiecznym jadą ciężarówką na lotnisko, skąd polecą samolotem. Nie mają znaków i nalepek według ADR, ale mają je według Instrukcji Technicznych ICAO. Czy mogą jechać drogą na warunkach 1.1.4.2.1 (a)?",
         "options": {
-          "A": "Oznakowanie ICAO TI może być uznane warunkowo, po spełnieniu właściwych wymagań ADR",
-          "B": "Każdy przejazd drogowy po locie jest całkowicie zwolniony z wymagań ADR",
-          "C": "Wystarczy naklejka linii lotniczej, nawet bez spełnienia warunków przewidzianych w ADR"
+          "A": "Tak, w łańcuchu z lotem ADR dopuszcza oznakowanie według ICAO",
+          "B": "Nie, oznakowanie ICAO uznaje się dopiero po wylądowaniu samolotu",
+          "C": "Tak, ale wtedy kierowca nie potrzebuje dokumentu przewozowego"
         },
         "correct_option": "A",
-        "explanation": "W łańcuchu obejmującym transport lotniczy ADR może uznać określone oznakowanie zgodne z ICAO TI, ale tylko po spełnieniu warunków przepisu. Nie zwalnia to automatycznie całego dalszego przewozu drogowego z wymagań ADR, a naklejka linii lotniczej nie wystarcza. Przed przyjęciem paczki sprawdź właściwe oznakowanie i zakres dopuszczonego odstępstwa. Podstawa: ADR 1.1.4.2.1(a).",
+        "explanation": "Odstępstwo z 1.1.4.2.1 dotyczy łańcucha transportowego z przewozem morskim lub lotniczym. Jeżeli sztuki przesyłek nie mają znaków i nalepek według ADR, powinny je mieć według Kodeksu IMDG albo Instrukcji Technicznych ICAO. Przepis nie ogranicza tego do odcinka po wylądowaniu samolotu. Kierowca nadal musi mieć dokument przewozowy z zapisem „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Podstawa: ADR 1.1.4.2.1 (a) i 5.4.1.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2.1(a)",
+            "reference": "ADR 2025, 1.1.4.2.1 (a); 5.4.1.1.7",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -717,18 +717,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W transporcie drogowym z odcinkiem morskim przed przewozem ktoś proponuje zastąpić dokument transportowy IMDG ustnym telefonem. Co wynika z 1.1.4.2.3?",
+        "stem": "Firma pakuje do kontenera przesyłki z towarami niebezpiecznymi przed rejsem statkiem. Dla jednej przesyłki nie dostała jeszcze dokumentu przewozowego. Co trzeba zrobić przed podpisaniem certyfikatu pakowania kontenera/pojazdu?",
         "options": {
-          "A": "Przyjąć ustne potwierdzenie nadawcy, jeśli dane są w zleceniu, bez dokumentu wymaganego ADR.",
-          "B": "Zastąpienie dokumentu jest możliwe tylko w określonym zakresie dla IMDG/ICAO i po spełnieniu warunków ADR",
-          "C": "Wykorzystać listę ładunkową terminala zamiast dokumentu przewozowego, jeśli zawiera numer UN i nazwę towaru."
+          "A": "Podpisać certyfikat i dopisać w nim, że brakujący dokument przyjdzie później",
+          "B": "Uzyskać dokument przewozowy także dla tej jednej przesyłki",
+          "C": "Przekazać kierowcy sam certyfikat"
         },
         "correct_option": "B",
-        "explanation": "Na odcinku drogowym dokument IMDG może być wykorzystany tylko w zakresie dopuszczonym przez ADR i po spełnieniu wskazanych warunków. Telefon od nadawcy ani lista terminala nie zastępują automatycznie dokumentu z wymaganymi danymi. Przed wyjazdem sprawdź, czy dokument z odcinka morskiego zawiera informacje potrzebne do dalszego przewozu drogowego. Podstawa: ADR 1.1.4.2.3.",
+        "explanation": "Certyfikat pakowania kontenera/pojazdu potwierdza warunki z Kodeksu IMDG, które ADR przytacza w przypisie do 5.4.2. Jednym z nich jest to, że na każdą przesyłkę z towarami niebezpiecznymi załadowaną do kontenera otrzymano dokument przewozowy. Dlatego najpierw trzeba uzyskać brakujący dokument. Dopisek o późniejszym dosłaniu ani przekazanie certyfikatu kierowcy tego nie zastępują. Podstawa: ADR 5.4.2 i przypis do 5.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2.3",
+            "reference": "ADR 2025, 5.4.2 (z przypisem: IMDG 5.4.2.1, pkt .9)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

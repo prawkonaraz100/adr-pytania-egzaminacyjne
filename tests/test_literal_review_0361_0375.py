@@ -9,7 +9,7 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0361-0375.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0361-0375.json"
 FIRST_PASS_BANK_SHA = "129d09039ee7fbee90198049cb3d733368070c77"
-EXPECTED_BANK_SHA = "9475e2d4f7107dc676486710ce03d626dc7473d8"
+EXPECTED_BANK_SHA = "5e369822335dd871b6499fae080d6e689dc6377c"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(361, 376)]
 
 class Partia25LiteralReview(unittest.TestCase):

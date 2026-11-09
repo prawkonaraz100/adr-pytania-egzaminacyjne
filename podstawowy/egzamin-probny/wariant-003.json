@@ -6,7 +6,7 @@
   "seed": 2026102703,
   "variant": 3,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "9475e2d4f7107dc676486710ce03d626dc7473d8",
+  "source_bank_head": "5e369822335dd871b6499fae080d6e689dc6377c",
   "excluded_question_ids": [
     "ADR-B-0004",
     "ADR-B-0017",
@@ -142,11 +142,11 @@
       "number": 5,
       "id": "ADR-B-0398",
       "module_id": "ADR-B-10",
-      "stem": "W transporcie drogowym z odcinkiem morskim przed przewozem ktoś proponuje zastąpić dokument transportowy IMDG ustnym telefonem. Co wynika z 1.1.4.2.3?",
+      "stem": "Firma pakuje do kontenera przesyłki z towarami niebezpiecznymi przed rejsem statkiem. Dla jednej przesyłki nie dostała jeszcze dokumentu przewozowego. Co trzeba zrobić przed podpisaniem certyfikatu pakowania kontenera/pojazdu?",
       "options": {
-        "A": "Przyjąć ustne potwierdzenie nadawcy, jeśli dane są w zleceniu, bez dokumentu wymaganego ADR.",
-        "B": "Zastąpienie dokumentu jest możliwe tylko w określonym zakresie dla IMDG/ICAO i po spełnieniu warunków ADR",
-        "C": "Wykorzystać listę ładunkową terminala zamiast dokumentu przewozowego, jeśli zawiera numer UN i nazwę towaru."
+        "A": "Podpisać certyfikat i dopisać w nim, że brakujący dokument przyjdzie później",
+        "B": "Uzyskać dokument przewozowy także dla tej jednej przesyłki",
+        "C": "Przekazać kierowcy sam certyfikat"
       },
       "image": null
     },
@@ -358,11 +358,11 @@
       "number": 23,
       "id": "ADR-B-0393",
       "module_id": "ADR-B-10",
-      "stem": "W morskim łańcuchu transportowym ładunek jest przewożony w pojeździe, a nie kontenerze. Co mówi ADR 5.4.2 o świadectwie pakowania pojazdu?",
+      "stem": "Ciężarówka ze sztukami przesyłek, bez kontenera, jedzie do portu i wjedzie na statek. Przewóz drogowy odbywa się bezpośrednio przed przewozem morskim. Co 5.4.2 mówi o certyfikacie pakowania kontenera/pojazdu?",
       "options": {
-        "A": "Nie; świadectwo pakowania pojazdu nie może być dołączone do dokumentu przewozowego",
-        "B": "Może być dołączone do dokumentu przewozowego, jeśli spełniono wymagania ADR",
-        "C": "Musi zastąpić dokument przewozowy oraz prawo jazdy kierowcy"
+        "A": "Nie jest potrzebny, bo ładunek nie jedzie w kontenerze, lecz w pojeździe",
+        "B": "Trzeba go dołączyć do dokumentu przewozowego",
+        "C": "Zastępuje dokument przewozowy"
       },
       "image": null
     },
