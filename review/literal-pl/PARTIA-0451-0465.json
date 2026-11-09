@@ -9,8 +9,8 @@
   "compared": 15,
   "remaining_without_comparison": 315,
   "counts": {
-    "OK": 3,
-    "POPRAW": 12,
+    "OK": 1,
+    "POPRAW": 14,
     "BLOKUJ": 0
   },
   "verified": 0,
@@ -42,11 +42,7 @@
       "gazette_page": 31,
       "exact_quote": "„Naczynia ciśnieniowe nie powinny być napełniane po upływie ich terminu badania okresowego”",
       "finding": "Klucz B oddaje zakaz napełniania po terminie, ale używa mocniejszego sformułowania „nie wolno”, podczas gdy tekst ADR brzmi „nie powinny być napełniane”. Należy zachować stopień normatywności źródła. Dodatkowo opcja B zawiera średnik, a opcja C ma 81 znaków (limit 80). Klucz nie jest jedyną najdłuższą ani najkrótszą opcją.",
-      "duplicate_candidates": [
-        "ADR-B-0452",
-        "ADR-B-0386",
-        "ADR-B-0446"
-      ],
+      "duplicate_candidates": [],
       "verification_status": "needs_review",
       "proposed_replacement": null,
       "original_correct_option": "B"
@@ -58,42 +54,36 @@
       "gazette_page": 31,
       "exact_quote": "„…mogą być przewożone po upływie tego terminu, w celu przeprowadzenia badań, łącznie z przewozami pośrednimi.”",
       "finding": "Klucz C jest prawidłowy: przepis dopuszcza przewóz po upływie terminu w celu przeprowadzenia badań, także z przewozami pośrednimi. Wszystkie trzy opcje zawierają średnik; należy usunąć go z odpowiedzi. Pytanie jest odrębne od 0451: sprawdza wyjątek transportowy, a nie zakaz dalszego napełniania.",
-      "duplicate_candidates": [
-        "ADR-B-0451",
-        "ADR-B-0386",
-        "ADR-B-0446"
-      ],
+      "duplicate_candidates": [],
       "verification_status": "needs_review",
       "proposed_replacement": null,
       "original_correct_option": "C"
     },
     {
       "id": "ADR-B-0453",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "legal_basis": "ADR 2025, 5.4.1.1.24; 1.1.4.7.1",
       "gazette_page": 966,
       "exact_quote": "„W przypadku przewozu zgodnego z 1.1.4.7 w dokumencie przewozowym należy, odpowiednio, umieścić następujące zapisy: «PRZEWÓZ ZGODNY Z 1.1.4.7.1» lub «PRZEWÓZ ZGODNY Z 1.1.4.7.2».”",
-      "finding": "Klucz C jest prawidłowy i wskazuje wariant .1 wymagany dla importu. Opcje mieszczą się w limicie 80 znaków, klucz nie jest jedyną najdłuższą ani najkrótszą odpowiedzią, a wyjaśnienie ma wymaganą długość. Powiązanie z 0454 jest zamierzone: pytania sprawdzają dwa różne wpisy wyraźnie wymienione w 5.4.1.1.24.",
-      "duplicate_candidates": [
-        "ADR-B-0454"
-      ],
+      "finding": "Klucz C wskazuje właściwy wariant .1, ale jest sformułowany jako polecenie („Dodać wzmiankę…”), a pytanie wymaga wskazania treści wpisu. Należy podać literalny zapis z 5.4.1.1.24: „PRZEWÓZ ZGODNY Z 1.1.4.7.1”.",
+      "duplicate_candidates": [],
       "verification_status": "needs_review",
       "proposed_replacement": null,
-      "original_correct_option": "C"
+      "original_correct_option": "C",
+      "suggested_answer_option": "PRZEWÓZ ZGODNY Z 1.1.4.7.1"
     },
     {
       "id": "ADR-B-0454",
-      "verdict": "OK",
+      "verdict": "POPRAW",
       "legal_basis": "ADR 2025, 5.4.1.1.24; 1.1.4.7.2",
       "gazette_page": 966,
       "exact_quote": "„…«PRZEWÓZ ZGODNY Z 1.1.4.7.1» lub «PRZEWÓZ ZGODNY Z 1.1.4.7.2».”",
-      "finding": "Klucz C jest prawidłowy i wskazuje wariant .2 wymagany dla wywozu. Opcje mieszczą się w limicie 80 znaków, klucz nie jest jedyną najdłuższą ani najkrótszą odpowiedzią, a wyjaśnienie ma wymaganą długość. To para z 0453, lecz nie duplikat: .1 i .2 wymagają różnych, dosłownie wskazanych wpisów.",
-      "duplicate_candidates": [
-        "ADR-B-0453"
-      ],
+      "finding": "Klucz C wskazuje właściwy wariant .2, ale jest sformułowany jako polecenie („W dokumencie umieścić…”), a pytanie wymaga wskazania treści wpisu. Należy podać literalny zapis z 5.4.1.1.24: „PRZEWÓZ ZGODNY Z 1.1.4.7.2”.",
+      "duplicate_candidates": [],
       "verification_status": "needs_review",
       "proposed_replacement": null,
-      "original_correct_option": "C"
+      "original_correct_option": "C",
+      "suggested_answer_option": "PRZEWÓZ ZGODNY Z 1.1.4.7.2"
     },
     {
       "id": "ADR-B-0455",
