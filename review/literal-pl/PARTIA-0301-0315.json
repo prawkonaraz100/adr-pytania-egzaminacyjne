@@ -1,0 +1,757 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0301..0315",
+  "source": "Dz.U. 2025 poz. 642",
+  "bank_count": 780,
+  "bank_blob_sha": "1a173de4bd198c3e9c890e9813740e0ad1210dde",
+  "bank_changed": false,
+  "previous_uncompared": 453,
+  "compared": 15,
+  "remaining_without_comparison": 438,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "records": [
+    {
+      "id": "ADR-B-0301",
+      "module_id": "ADR-B-01",
+      "competency": "ADR-B-01-K03",
+      "competency_objective": "Kiedy kierowca potrzebuje zaświadczenia ADR",
+      "stem": "Kierowca realizuje przewóz towarów niebezpiecznych, dla którego wymagane jest zaświadczenie ADR. Co musi wykazać, aby uzyskać takie zaświadczenie?",
+      "options": {
+        "A": "Samo posiadanie prawa jazdy odpowiedniej kategorii",
+        "B": "Ukończyć właściwy kurs i zdać egzamin ADR",
+        "C": "Wyłącznie doświadczenie w transporcie krajowym"
+      },
+      "correct_option": "B",
+      "explanation": "Kierowca uzyskuje zaświadczenie ADR po ukończeniu właściwego szkolenia i zdaniu wymaganego egzaminu. Prawo jazdy potwierdza uprawnienie do kierowania daną kategorią pojazdu, ale nie sprawdza wiedzy o przewozie towarów niebezpiecznych; samo doświadczenie zawodowe również nie zastępuje kursu. Przed przyjęciem zlecenia sprawdź, czy dany przewóz wymaga ważnego zaświadczenia. Podstawa: ADR 8.2.1.1.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 8.2.1.1",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "8.2.2.8.1(a); 8.2.1.1",
+      "gazette_page": 1330,
+      "literal_quote": "po ukończeniu kursu podstawowego, pod warunkiem, że egzaminowany złożył z wynikiem pozytywnym egzamin",
+      "duplicate_candidates": [
+        "0003",
+        "0607",
+        "0719"
+      ],
+      "duplicate_assessment": "Duplikuje warunek uzyskania zaświadczenia po szkoleniu i egzaminie; B jest jedyną najkrótszą.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 50,
+        "B": 41,
+        "C": 46
+      },
+      "correct_unique_longest": false,
+      "correct_unique_shortest": true,
+      "absolute_words_in_options": [
+        "C:wyłącznie"
+      ],
+      "explanation_length": 396,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 24,
+      "proposed_replacement": {
+        "module_id": "ADR-B-01",
+        "stem": "Kierowca ma zaświadczenie ADR po kursie podstawowym. Ma rozpocząć przewóz towarów klasy 1, dla których wymagane jest szkolenie specjalistyczne. Co musi zrobić, aby uzyskać uprawnienie do takiego przewozu?",
+        "options": {
+          "A": "Wystarczy, że ma ważne zaświadczenie z kursu podstawowego.",
+          "B": "Ukończyć odpowiedni kurs specjalistyczny i zdać egzamin.",
+          "C": "Uzyskać zgodę pracodawcy, bez dodatkowego szkolenia."
+        },
+        "correct_option": "B",
+        "explanation": "Zaświadczenie z kursu podstawowego nie daje automatycznie uprawnień do przewozu każdej grupy towarów niebezpiecznych. Dla klasy 1 ADR przewiduje kurs specjalistyczny, po którym kierowca musi zdać odpowiedni egzamin. Zgoda pracodawcy ani samo doświadczenie nie zastępują wymaganego szkolenia i egzaminu. Przed przyjęciem zlecenia sprawdź zakres uprawnień wpisany do zaświadczenia. Podstawa: ADR 8.2.2.7.2.1 i 8.2.2.8.1(b).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.7.2.1; 8.2.2.8.1(b)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "replacement_gap_note": null
+    },
+    {
+      "id": "ADR-B-0302",
+      "module_id": "ADR-B-02",
+      "competency": "ADR-B-02-K05",
+      "competency_objective": "Klasa 4.2: materiały samonagrzewające się / samozapalne",
+      "stem": "W dokumentacji transportowej wskazano klasę 4.2. Jakiego rodzaju zagrożenie powinien rozpoznać kierowca?",
+      "options": {
+        "A": "Materiały podatne na samozapalenie",
+        "B": "Wyłącznie gazy niepalne i nietrujące",
+        "C": "Wyłącznie materiały zakaźne"
+      },
+      "correct_option": "A",
+      "explanation": "Klasa 4.2 obejmuje materiały, które mogą samoczynnie się zapalić lub niebezpiecznie nagrzewać bez zewnętrznego źródła ognia. Gazy niepalne należą do innej klasy, a materiały zakaźne są oznaczane klasą 6.2. Rozpoznanie klasy pomaga dobrać właściwe środki ostrożności podczas załadunku i przewozu. Podstawa: ADR 2.2.42.1.1.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 2.2.42.1.1",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "2.2.42.1.1",
+      "gazette_page": 182,
+      "literal_quote": "Materiały piroforyczne ... w zetknięciu z powietrzem, nawet w małych ilościach, zapalają się w ciągu 5 minut.",
+      "duplicate_candidates": [
+        "0095",
+        "0154",
+        "0621",
+        "0724"
+      ],
+      "duplicate_assessment": "Powtarza ogólne rozpoznanie klasy 4.2 i samozapłonu/samonagrzewania; brak niepokrytego podtematu.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 34,
+        "B": 36,
+        "C": 27
+      },
+      "correct_unique_longest": false,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [
+        "B:wyłącznie",
+        "C:wyłącznie"
+      ],
+      "explanation_length": 321,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 16,
+      "proposed_replacement": null,
+      "replacement_gap_note": "Pozostałe szczegółowe podtematy tej kompetencji są już pokryte; bezpieczne zastąpienie wymaga nowego zakresu kompetencji lub zgody na powtórzenie."
+    },
+    {
+      "id": "ADR-B-0303",
+      "module_id": "ADR-B-06",
+      "competency": "ADR-B-06-K02",
+      "competency_objective": "Nalepki zagrożeń na opakowaniach",
+      "stem": "Na sztuce przesyłki ADR wymagane są dwie różne nalepki zagrożeń. Jak należy ją oznakować?",
+      "options": {
+        "A": "Umieścić nalepkę główną, a dodatkową wpisać do dokumentów",
+        "B": "Wybrać nalepkę na podstawie barwy dominującej na opakowaniu",
+        "C": "Umieścić wszystkie nalepki wymagane dla danego towaru"
+      },
+      "correct_option": "C",
+      "explanation": "Jeżeli dla towaru wymagane są dwie lub więcej nalepek, na sztuce przesyłki trzeba umieścić wszystkie z nich. Wpis w dokumencie przewozowym nie zastępuje oznaczenia na opakowaniu, a kolor kartonu nie decyduje o wyborze nalepki. To klasyfikacja towaru wskazuje, jakie zagrożenia trzeba pokazać osobom obsługującym przesyłkę. Podstawa: ADR 5.2.2.1.1.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 5.2.2.1.1",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "5.2.2.1.1; 5.2.2.1.6(a)",
+      "gazette_page": 940,
+      "literal_quote": "na sztuce przesyłki ... powinny być umieszczone nalepki ostrzegawcze podane w kolumnie (5)",
+      "duplicate_candidates": [
+        "0115",
+        "0189",
+        "0627"
+      ],
+      "duplicate_assessment": "Duplikuje umieszczanie nalepek; C jest jedyną najkrótszą, a „wszystkie” powtarza sedno pytania.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 57,
+        "B": 59,
+        "C": 53
+      },
+      "correct_unique_longest": false,
+      "correct_unique_shortest": true,
+      "absolute_words_in_options": [
+        "C:wszystkie"
+      ],
+      "explanation_length": 347,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 17,
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "stem": "Na dużej sztuce przesyłki wymagane są trzy nalepki ostrzegawcze. Powierzchnia opakowania pozwala umieścić je na jednej stronie. Jak należy je rozmieścić?",
+        "options": {
+          "A": "Rozmieścić po jednej na trzech różnych bokach, aby były widoczne.",
+          "B": "Umieścić jedną na górze, a pozostałe na przeciwległych bokach.",
+          "C": "Umieścić je na tej samej stronie, jeśli pozwala na to wielkość sztuki przesyłki."
+        },
+        "correct_option": "C",
+        "explanation": "ADR wymaga, aby każda nalepka była umieszczona na tej samej stronie sztuki przesyłki, jeżeli pozwalają na to jej wymiary. Dla klas 1 i 7 nalepki powinny znajdować się blisko napisu z prawidłową nazwą przewozową. Rozmieszczenie ich na różnych bokach nie jest rozwiązaniem pierwszego wyboru, gdy wszystkie mogą być prawidłowo pokazane na jednej stronie. Podstawa: ADR 5.2.2.1.6(a).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.1.6(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "replacement_gap_note": null
+    },
+    {
+      "id": "ADR-B-0304",
+      "module_id": "ADR-B-12",
+      "competency": "ADR-B-12-K05",
+      "competency_objective": "Plan ochrony towarów dużego ryzyka",
+      "stem": "Firma przewozi towary niebezpieczne dużego ryzyka w zakresie objętym ADR 1.10.3.2. Który element powinien zawierać plan ochrony?",
+      "options": {
+        "A": "Sam wykaz kontaktów, bez określenia odpowiedzialności",
+        "B": "Podział odpowiedzialności za ochronę między uprawnione i kompetentne osoby",
+        "C": "Opis trasy bez procedury zgłaszania incydentów"
+      },
+      "correct_option": "B",
+      "explanation": "Plan ochrony powinien jasno określać, kto odpowiada za poszczególne działania i czy te osoby mają odpowiednie uprawnienia oraz kompetencje. Sama lista telefonów nie wyznacza odpowiedzialności, a sam opis trasy nie określa, jak reagować na incydenty ochrony. Plan musi obejmować konkretne zadania zapobiegawcze i sposób postępowania w razie zagrożenia. Podstawa: ADR 1.10.3.2.2(a).",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 1.10.3.2.2(a)",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "1.10.3.2.2(a)",
+      "gazette_page": 113,
+      "literal_quote": "szczegółowy podział obowiązków w zakresie ochrony wraz ze wskazaniem kompetentnych i wykwalifikowanych osób",
+      "duplicate_candidates": [
+        "0399"
+      ],
+      "duplicate_assessment": "Ścisły duplikat 0399 o podziale odpowiedzialności; B jest jedyną najdłuższą.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 53,
+        "B": 74,
+        "C": 46
+      },
+      "correct_unique_longest": true,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [],
+      "explanation_length": 380,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 19,
+      "proposed_replacement": null,
+      "replacement_gap_note": "Pozostałe szczegółowe podtematy tej kompetencji są już pokryte; bezpieczne zastąpienie wymaga nowego zakresu kompetencji lub zgody na powtórzenie."
+    },
+    {
+      "id": "ADR-B-0305",
+      "module_id": "ADR-B-12",
+      "competency": "ADR-B-12-K06",
+      "competency_objective": "Zabezpieczenie postoju i przed kradzieżą pojazdu",
+      "stem": "Przewożone są towary niebezpieczne dużego ryzyka, do których ma zastosowanie ADR 1.10.3.3. Jakie zabezpieczenie jest wymagane?",
+      "options": {
+        "A": "Stosowanie skutecznych środków zapobiegania kradzieży pojazdu i ładunku",
+        "B": "Ograniczyć ochronę do zamknięcia pojazdu i oznaczenia go nazwą firmy.",
+        "C": "Stosować dodatkowe zabezpieczenia tylko podczas jazdy, a nie podczas postoju."
+      },
+      "correct_option": "A",
+      "explanation": "Towary niebezpieczne dużego ryzyka wymagają środków, które utrudniają kradzież pojazdu i ładunku oraz nieuprawniony dostęp. Ochrona musi działać także podczas postoju, a nie wyłącznie w czasie jazdy. Sama nazwa firmy na pojeździe ani zamknięte okno nie są wystarczającym zabezpieczeniem. Dobierz środki do ryzyka i warunków przewozu. Podstawa: ADR 1.10.3.3.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 1.10.3.3",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "1.10.3.3",
+      "gazette_page": 113,
+      "literal_quote": "urządzenia, układy lub działania skutecznie zapobiegające kradzieży tych pojazdów i ich ładunku",
+      "duplicate_candidates": [
+        "0213",
+        "0407",
+        "0408"
+      ],
+      "duplicate_assessment": "Duplikuje zabezpieczenie przed kradzieżą; C zawiera absolutyzujące „tylko”.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 71,
+        "B": 69,
+        "C": 77
+      },
+      "correct_unique_longest": false,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [
+        "C:tylko"
+      ],
+      "explanation_length": 357,
+      "explanation_sentences": 5,
+      "max_words_in_sentence": 15,
+      "proposed_replacement": null,
+      "replacement_gap_note": "Pozostałe szczegółowe podtematy tej kompetencji są już pokryte; bezpieczne zastąpienie wymaga nowego zakresu kompetencji lub zgody na powtórzenie."
+    },
+    {
+      "id": "ADR-B-0306",
+      "module_id": "ADR-B-13",
+      "competency": "ADR-B-13-K08",
+      "competency_objective": "Dodatkowe dokumenty zależnie od rodzaju ładunku",
+      "stem": "Kierowca prowadzi przewóz ADR, dla którego wymagane są dokumenty przewidziane w 8.1.2. Który zestaw powinien znajdować się w kabinie?",
+      "options": {
+        "A": "Dokument przewozowy ADR i instrukcje pisemne, bez indywidualnych dokumentów tożsamości załogi",
+        "B": "Dokumenty przewozowe i dokument kierowcy, bez instrukcji pisemnych, jeśli kierowca zna procedury",
+        "C": "Dokumenty przewozowe, instrukcje pisemne oraz wymagane dokumenty identyfikacyjne załogi; pozostałe zaświadczenia, jeśli mają zastosowanie"
+      },
+      "correct_option": "C",
+      "explanation": "W kabinie powinny być dokumenty wymagane dla konkretnego przewozu, w tym dokument przewozowy ADR i instrukcje pisemne. Gdy przepisy tego wymagają, załoga musi mieć także odpowiednie dokumenty identyfikacyjne, a przy określonym pojeździe lub ładunku również dodatkowe świadectwa. Znajomość procedur nie zastępuje instrukcji, a sam dokument kierowcy nie zastępuje pozostałych wymaganych dokumentów. Podstawa: ADR 8.1.2.1–8.1.2.2 oraz 1.10.1.4, gdy ma zastosowanie.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 8.1.2.1–8.1.2.2",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "8.1.2.1–8.1.2.2",
+      "gazette_page": 1324,
+      "literal_quote": "w kabinie kierowcy jednostki transportowej powinny być przewożone następujące dokumenty",
+      "duplicate_candidates": [
+        "0145",
+        "0146",
+        "0175",
+        "0216",
+        "0228",
+        "0234"
+      ],
+      "duplicate_assessment": "Agreguje dokumenty już pytane osobno; opcje 93/96/137 znaków, C jest jedyną najdłuższą.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 93,
+        "B": 96,
+        "C": 137
+      },
+      "correct_unique_longest": true,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [],
+      "explanation_length": 462,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 20,
+      "proposed_replacement": null,
+      "replacement_gap_note": "Pozostałe szczegółowe podtematy tej kompetencji są już pokryte; bezpieczne zastąpienie wymaga nowego zakresu kompetencji lub zgody na powtórzenie."
+    },
+    {
+      "id": "ADR-B-0307",
+      "module_id": "ADR-B-02",
+      "competency": "ADR-B-02-K08",
+      "competency_objective": "Klasa 5.2: nadtlenki organiczne",
+      "stem": "W przewozie ADR znajduje się nadtlenek organiczny klasy 5.2. Dlaczego nie należy narażać go na niekontrolowane ogrzewanie?",
+      "options": {
+        "A": "Ponieważ ogrzanie zawsze przekształca go w materiał klasy 7",
+        "B": "Ponieważ może ulegać egzotermicznemu rozkładowi, a część nadtlenków wymaga kontroli temperatury",
+        "C": "Ponieważ temperatura nie wpływa na właściwości nadtlenków organicznych"
+      },
+      "correct_option": "B",
+      "explanation": "Nadtlenki organiczne klasy 5.2 mogą rozkładać się z wydzieleniem ciepła, a niektóre trzeba przewozić przy kontrolowanej temperaturze. Nadmierne ogrzewanie może nasilić rozkład, więc nie jest prawdą, że temperatura pozostaje bez wpływu na towar. Ogrzanie nie zmienia też automatycznie materiału w promieniotwórczy z klasy 7. Warunki sprawdza się dla konkretnej substancji. Podstawa: ADR 2.2.52.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 2.2.52.1.2, 2.2.52.1.4",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "2.2.52.1.2; 2.2.52.1.4",
+      "gazette_page": 196,
+      "literal_quote": "Nadtlenki organiczne podatne są na rozkład egzotermiczny w temperaturze normalnej lub podwyższonej",
+      "duplicate_candidates": [
+        "0622",
+        "0667",
+        "0726"
+      ],
+      "duplicate_assessment": "Częściowo pokrywa zagrożenie klasy 5.2 i kontrolę temperatury; B ma 95 znaków i jest jedyną najdłuższą.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 59,
+        "B": 95,
+        "C": 70
+      },
+      "correct_unique_longest": true,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [
+        "A:zawsze"
+      ],
+      "explanation_length": 393,
+      "explanation_sentences": 5,
+      "max_words_in_sentence": 17,
+      "proposed_replacement": null,
+      "replacement_gap_note": "Pozostałe szczegółowe podtematy tej kompetencji są już pokryte; bezpieczne zastąpienie wymaga nowego zakresu kompetencji lub zgody na powtórzenie."
+    },
+    {
+      "id": "ADR-B-0308",
+      "module_id": "ADR-B-11",
+      "competency": "ADR-B-11-K07",
+      "competency_objective": "Zachowanie podczas pożaru w tunelu",
+      "stem": "W tunelu dochodzi do pożaru przestrzeni ładunkowej pojazdu ADR. Co wynika z instrukcji pisemnych ADR dla załogi?",
+      "options": {
+        "A": "Załoga powinna samodzielnie gasić pożar wewnątrz przestrzeni ładunkowej",
+        "B": "Załoga powinna otworzyć uszkodzone sztuki przesyłek",
+        "C": "Załoga nie powinna podejmować gaszenia pożaru przestrzeni ładunkowej; powinna zapewnić bezpieczeństwo i wezwać pomoc"
+      },
+      "correct_option": "C",
+      "explanation": "Gdy pożar obejmuje przestrzeń ładunkową z towarami niebezpiecznymi, załoga nie powinna próbować gasić go od środka; ma oddalić się w bezpieczne miejsce, ostrzec innych i wezwać pomoc. Otwieranie przesyłek może uwolnić ich niebezpieczną zawartość, a samodzielne gaszenie naraża życie. Nie wracaj do ładowni po dokumenty ani sprzęt. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 5.4.3.4",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "5.4.3.4 — instrukcje pisemne",
+      "gazette_page": 975,
+      "literal_quote": "Członkowie załogi pojazdu nie powinni gasić pożaru obejmującego przedział ładunkowy",
+      "duplicate_candidates": [
+        "0143",
+        "0210",
+        "0435",
+        "0592"
+      ],
+      "duplicate_assessment": "Duplikuje zakaz gaszenia przedziału ładunkowego; C ma 116 znaków i jest jedyną najdłuższą.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 71,
+        "B": 51,
+        "C": 116
+      },
+      "correct_unique_longest": true,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [],
+      "explanation_length": 372,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 27,
+      "proposed_replacement": {
+        "module_id": "ADR-B-11",
+        "stem": "Podczas zdarzenia w tunelu niewielki pożar obejmuje oponę pojazdu ADR. Członek załogi ocenia, że może bezpiecznie użyć gaśnicy. Co przewidują instrukcje pisemne?",
+        "options": {
+          "A": "Nie wolno używać gaśnicy w żadnych okolicznościach.",
+          "B": "Trzeba otworzyć przedział ładunkowy i sprawdzić, czy ogień się rozprzestrzenił.",
+          "C": "Można użyć gaśnicy do małego lub początkowego pożaru opon, hamulców albo przedziału silnika, jeśli jest to właściwe i bezpieczne."
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne rozróżniają mały lub początkowy pożar opon, hamulców albo przedziału silnika od pożaru obejmującego przedział ładunkowy. Jeżeli jest to właściwe i bezpieczne, załoga może użyć gaśnicy w tym pierwszym przypadku. Nie wolno jednak podejmować gaszenia pożaru przedziału ładunkowego. Oceniaj sytuację z uwzględnieniem własnego bezpieczeństwa i wezwij służby ratownicze. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "replacement_gap_note": null
+    },
+    {
+      "id": "ADR-B-0309",
+      "module_id": "ADR-B-02",
+      "competency": "ADR-B-02-K10",
+      "competency_objective": "Klasa 6.2: materiały zakaźne",
+      "stem": "Materiał zawiera drobnoustroje, które mogą powodować choroby u ludzi albo zwierząt. Jaką klasę ADR należy sprawdzić przy klasyfikacji?",
+      "options": {
+        "A": "6.2 — materiały zakaźne",
+        "B": "5.1 — materiały utleniające",
+        "C": "8 — materiały żrące"
+      },
+      "correct_option": "A",
+      "explanation": "Materiały zakaźne należą do klasy 6.2, ponieważ mogą przenosić drobnoustroje wywołujące choroby. Klasa 5.1 dotyczy działania utleniającego, a klasa 8 — żrącego, więc nie opisują ryzyka zakażenia. Samo stwierdzenie obecności drobnoustrojów nie kończy klasyfikacji: trzeba jeszcze zastosować szczegółowe kryteria ADR. Podstawa: ADR 2.2.62.1.1.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 2.2.62.1.1",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "2.2.62.1.1",
+      "gazette_page": 227,
+      "literal_quote": "Patogeny ... mogą powodować choroby u ludzi lub u zwierząt",
+      "duplicate_candidates": [
+        "0043",
+        "0159"
+      ],
+      "duplicate_assessment": "Powtarza ogólne rozpoznanie klasy 6.2.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 23,
+        "B": 27,
+        "C": 19
+      },
+      "correct_unique_longest": false,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [],
+      "explanation_length": 341,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 15,
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "stem": "Próbka materiału zakaźnego może po uwolnieniu spowodować trwałe upośledzenie, zagrożenie życia lub chorobę śmiertelną u dotychczas zdrowego człowieka. Do której kategorii należy ją rozważyć?",
+        "options": {
+          "A": "Do kategorii A, zgodnie z kryteriami ADR.",
+          "B": "Do kategorii B, ponieważ każda próbka biologiczna należy do tej kategorii.",
+          "C": "Poza klasą 6.2, ponieważ zagrożenie pojawia się dopiero po kontakcie."
+        },
+        "correct_option": "A",
+        "explanation": "Kategoria A obejmuje materiał zakaźny przewożony w takiej postaci, że kontakt z nim może spowodować trwałe upośledzenie, zagrożenie życia lub chorobę śmiertelną u dotychczas zdrowych ludzi albo zwierząt. O przypisaniu do kategorii decydują kryteria ADR, a nie sam fakt, że jest to próbka biologiczna. Kategoria B nie obejmuje automatycznie każdego materiału zakaźnego. Podstawa: ADR 2.2.62.1.4.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.62.1.4.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "replacement_gap_note": null
+    },
+    {
+      "id": "ADR-B-0310",
+      "module_id": "ADR-B-04",
+      "competency": "ADR-B-04-K06",
+      "competency_objective": "Bezpieczny postój i nadzorowanie pojazdu",
+      "stem": "Towary i ich ilości powodują zastosowanie nadzoru nad pojazdem z ADR 8.4.1. Gdzie w pierwszej kolejności można bez dozoru zaparkować pojazd?",
+      "options": {
+        "A": "Na publicznym parkingu bez nadzoru, jeśli jest najbliżej i postój ma być krótki.",
+        "B": "W zabezpieczonej bazie albo na zabezpieczonym terenie zakładu",
+        "C": "Na poboczu przy krótkim postoju."
+      },
+      "correct_option": "B",
+      "explanation": "Jeśli przewóz podlega nadzorowi zgodnie z ADR 8.4.1, przy wyborze miejsca postoju trzeba uwzględnić wymagania bezpieczeństwa. W pierwszej kolejności korzysta się z zabezpieczonej bazy lub odpowiednio zabezpieczonego terenu zakładu, a nie z przypadkowego pobocza czy niezabezpieczonego parkingu. Krótki postój nie znosi tych wymagań. Podstawa: ADR 8.4.1.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 8.4.1",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "8.4.1",
+      "gazette_page": 1333,
+      "literal_quote": "powinny być nadzorowane lub mogą być zaparkowane, bez nadzoru, na parkingach strzeżonych",
+      "duplicate_candidates": [
+        "0131",
+        "0181",
+        "0345",
+        "0580",
+        "0581"
+      ],
+      "duplicate_assessment": "Duplikuje wybór miejsca postoju; warianty parkingów są już pokryte.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 80,
+        "B": 61,
+        "C": 32
+      },
+      "correct_unique_longest": false,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [],
+      "explanation_length": 353,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 21,
+      "proposed_replacement": null,
+      "replacement_gap_note": "Pozostałe szczegółowe podtematy tej kompetencji są już pokryte; bezpieczne zastąpienie wymaga nowego zakresu kompetencji lub zgody na powtórzenie."
+    },
+    {
+      "id": "ADR-B-0311",
+      "module_id": "ADR-B-02",
+      "competency": "ADR-B-02-K10",
+      "competency_objective": "Klasa 6.2: materiały zakaźne",
+      "stem": "Przewóz dotyczy materiału zakaźnego, w którym patogen może powodować chorobę tylko u zwierząt. Które rozróżnienie klasy 6.2 należy wziąć pod uwagę?",
+      "options": {
+        "A": "Każdy materiał zakaźny musi być traktowany jako klasa 7",
+        "B": "Substancje zakaźne nie dzielą się według zakresu zagrożenia",
+        "C": "ADR wyróżnia materiały zakaźne niebezpieczne dla ludzi oraz takie, które są niebezpieczne tylko dla zwierząt"
+      },
+      "correct_option": "C",
+      "explanation": "Klasa 6.2 obejmuje materiały zakaźne, ale przy klasyfikacji trzeba uwzględnić, czy czynnik może wywołać chorobę u ludzi, czy tylko u zwierząt. Nie należy przenosić ich do klasy 7, która dotyczy promieniowania, ani zakładać, że wszystkie materiały zakaźne stanowią identyczne zagrożenie. Kierowca powinien stosować klasyfikację podaną dla konkretnego towaru. Podstawa: ADR 2.2.62.1.2.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 2.2.62.1.2",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "2.2.62.1.2",
+      "gazette_page": 227,
+      "literal_quote": "Materiały klasy 6.2 dzielą się na: materiały zakaźne dla ludzi; materiały zakaźne tylko dla zwierząt",
+      "duplicate_candidates": [],
+      "duplicate_assessment": "Nowy podtemat, lecz C ma 108 znaków i jest jedyną najdłuższą; A „każdy”, C „tylko”.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 55,
+        "B": 59,
+        "C": 108
+      },
+      "correct_unique_longest": true,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [
+        "C:tylko",
+        "A:każdy"
+      ],
+      "explanation_length": 383,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 21,
+      "proposed_replacement": null,
+      "replacement_gap_note": null
+    },
+    {
+      "id": "ADR-B-0312",
+      "module_id": "ADR-B-01",
+      "competency": "ADR-B-01-K01",
+      "competency_objective": "Ramy prawne i definicje ADR",
+      "stem": "Co obejmuje definicja „przewozu” w ADR 1.2.1, oprócz przemieszczania pojazdu z towarem niebezpiecznym?",
+      "options": {
+        "A": "Wyłącznie przejazd po drodze publicznej",
+        "B": "Również postoje konieczne ze względu na warunki transportu oraz przebywanie towarów w pojazdach przed, podczas i po przemieszczeniu w odpowiednich warunkach",
+        "C": "Wyłącznie załadunek w fabryce"
+      },
+      "correct_option": "B",
+      "explanation": "W ADR przewóz to nie tylko czas, gdy ciężarówka jedzie, ale również określone postoje i pobyt towarów w pojeździe związany z transportem. Dlatego nie można zakładać, że podczas postoju wszystkie wymagania bezpieczeństwa przestają obowiązywać. Sama jazda po drodze publicznej to zbyt wąska definicja, a sam załadunek nie obejmuje całego przewozu. Podstawa: ADR 1.2.1.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 1.2.1",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "1.2.1 — definicja przewozu",
+      "gazette_page": 44,
+      "literal_quote": "Przewóz oznacza przemieszczanie towarów niebezpiecznych, z uwzględnieniem postojów koniecznych z punktu widzenia warunków transportu",
+      "duplicate_candidates": [],
+      "duplicate_assessment": "Nowy podtemat, lecz B ma 156 znaków i jest jedyną najdłuższą; A i C „wyłącznie”.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 39,
+        "B": 156,
+        "C": 29
+      },
+      "correct_unique_longest": true,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [
+        "A:wyłącznie",
+        "C:wyłącznie"
+      ],
+      "explanation_length": 366,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 22,
+      "proposed_replacement": null,
+      "replacement_gap_note": null
+    },
+    {
+      "id": "ADR-B-0313",
+      "module_id": "ADR-B-01",
+      "competency": "ADR-B-01-K04",
+      "competency_objective": "Wyłączenia ze względu na charakter przewozu",
+      "stem": "Osoba prywatna przewozi niebezpieczny produkt w opakowaniu detalicznym do własnego użytku domowego. Jaki warunek jest istotny dla wyłączenia z ADR 1.1.3.1(a)(i)?",
+      "options": {
+        "A": "Zapewnienie środków zapobiegających wyciekowi zawartości w normalnych warunkach przewozu",
+        "B": "Samo opakowanie detaliczne wystarcza, nawet gdy nie chroni przed wyciekiem.",
+        "C": "Wyłączenie działa tylko wtedy, gdy nadawca wystawi pełny dokument ADR."
+      },
+      "correct_option": "A",
+      "explanation": "Wyłączenie dla osoby prywatnej dotyczy określonych produktów przeznaczonych do użytku osobistego lub domowego, ale ich zawartość musi być zabezpieczona przed wyciekiem podczas normalnego przewozu. Samo opakowanie sklepowe nie wystarcza, gdy jest nieszczelne. Pełny dokument ADR nie jest warunkiem tego wyłączenia; trzeba natomiast sprawdzić pozostałe wymagania i limity. Podstawa: ADR 1.1.3.1(a)(i).",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 1.1.3.1(a)(i)",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "1.1.3.1(a)(i)",
+      "gazette_page": 24,
+      "literal_quote": "pod warunkiem, że zastosowano środki zapobiegające uwolnieniu się zawartości w normalnych warunkach przewozu",
+      "duplicate_candidates": [
+        "0595"
+      ],
+      "duplicate_assessment": "Zbliżone do 0595, lecz dotyczy konkretnego warunku; A ma 88 znaków i jest jedyną najdłuższą.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 88,
+        "B": 75,
+        "C": 70
+      },
+      "correct_unique_longest": true,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [
+        "C:tylko"
+      ],
+      "explanation_length": 399,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 24,
+      "proposed_replacement": null,
+      "replacement_gap_note": "Pozostałe szczegółowe podtematy tej kompetencji są już pokryte; bezpieczne zastąpienie wymaga nowego zakresu kompetencji lub zgody na powtórzenie."
+    },
+    {
+      "id": "ADR-B-0314",
+      "module_id": "ADR-B-01",
+      "competency": "ADR-B-01-K07",
+      "competency_objective": "Towary zabronione i dopuszczone do przewozu",
+      "stem": "Gdzie w tabeli A ADR 2025 należy szukać nazwy przewozowej odpowiadającej konkretnemu numerowi UN?",
+      "options": {
+        "A": "W kolumnie 2 „Nazwa i opis”",
+        "B": "W kolumnie 15 z ograniczeniami tunelowymi",
+        "C": "Wyłącznie w instrukcjach pisemnych kierowcy"
+      },
+      "correct_option": "A",
+      "explanation": "Nazwę przewozową przypisaną do numeru UN znajdziesz w kolumnie 2 tabeli A; służy ona do prawidłowego opisania towaru w dokumentach. Kolumna 15 dotyczy między innymi kodu tunelowego, więc nie jest miejscem szukania nazwy. Instrukcje pisemne opisują postępowanie przy zagrożeniu i również nie zastępują tej tabeli. Podstawa: ADR 3.2.1, kolumna 2.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 3.2.1, objaśnienie kolumny (2)",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "3.2.1, objaśnienia tabeli A, kolumna (2)",
+      "gazette_page": 307,
+      "literal_quote": "Kolumna (2) — Nazwa i opis",
+      "duplicate_candidates": [],
+      "duplicate_assessment": "Nowy podtemat; A ma 27 znaków i jest jedyną najkrótszą; C „wyłącznie”.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 27,
+        "B": 41,
+        "C": 43
+      },
+      "correct_unique_longest": false,
+      "correct_unique_shortest": true,
+      "absolute_words_in_options": [
+        "C:wyłącznie"
+      ],
+      "explanation_length": 344,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 20,
+      "proposed_replacement": null,
+      "replacement_gap_note": null
+    },
+    {
+      "id": "ADR-B-0315",
+      "module_id": "ADR-B-02",
+      "competency": "ADR-B-02-K13",
+      "competency_objective": "Klasa 9 i 9A: różne zagrożenia",
+      "stem": "Nowe regulacje ADR 2025 wymieniają baterie sodowo-jonowe z elektrolitem organicznym jako UN 3551. Do której klasy należą zgodnie z wykazem?",
+      "options": {
+        "A": "Klasa 5.1",
+        "B": "Klasa 9 — różne materiały i przedmioty niebezpieczne",
+        "C": "Klasa 2"
+      },
+      "correct_option": "B",
+      "explanation": "Baterie sodowo-jonowe UN 3551 należą do klasy 9 według wykazu ADR. Nie są materiałami utleniającymi klasy 5.1 ani gazami klasy 2, mimo że ich nazwa lub skład mogą kojarzyć się z innymi zagrożeniami. Numer UN pomaga znaleźć właściwą pozycję w tabeli A; przed przewozem sprawdź też warunki szczególne dla baterii. Podstawa: ADR 2.2.9.1.7.2 i tabela A, UN 3551.",
+      "sources": [
+        {
+          "code": "ADR-2025-PL",
+          "reference": "ADR 2025, 2.2.9.1.7.2; tabela A UN 3551",
+          "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+        }
+      ],
+      "legal_basis": "2.2.9.1.7.2; tabela A, UN 3551",
+      "gazette_page": 274,
+      "literal_quote": "powinny mieć przypisane numery UN 3551 lub 3552, stosownie do sytuacji",
+      "duplicate_candidates": [
+        "0162",
+        "0499"
+      ],
+      "duplicate_assessment": "Podobny zakres baterii sodowo-jonowych, ale nie ścisły duplikat; B jest jedyną najdłuższą.",
+      "verdict": "POPRAW",
+      "option_lengths": {
+        "A": 9,
+        "B": 52,
+        "C": 7
+      },
+      "correct_unique_longest": true,
+      "correct_unique_shortest": false,
+      "absolute_words_in_options": [],
+      "explanation_length": 358,
+      "explanation_sentences": 4,
+      "max_words_in_sentence": 22,
+      "proposed_replacement": null,
+      "replacement_gap_note": "Pozostałe szczegółowe podtematy tej kompetencji są już pokryte; bezpieczne zastąpienie wymaga nowego zakresu kompetencji lub zgody na powtórzenie."
+    }
+  ]
+}
