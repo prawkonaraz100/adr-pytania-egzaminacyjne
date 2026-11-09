@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0346-0360.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0346-0360.json"
-EXPECTED_BANK_SHA = "d44c95488d28507ffc3fa901d14b7d20cdd9fb38"
+EXPECTED_BANK_SHA = "129d09039ee7fbee90198049cb3d733368070c77"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(346, 361)]
 
 
@@ -17,10 +17,18 @@ class LiteralReview0346To0360Tests(unittest.TestCase):
         self.assertTrue(REPORT.is_file())
         self.assertTrue(MANIFEST.is_file())
 
-    def test_bank_was_not_changed_and_has_expected_sha(self):
+    def test_bank_has_expected_sha_after_second_pass(self):
         raw = BANK.read_bytes()
         digest = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
         self.assertEqual(digest, EXPECTED_BANK_SHA)
+
+    def test_second_pass_artifacts_exist_and_patch_has_exact_ids(self):
+        self.assertTrue((ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0346-0360.md").is_file())
+        patch = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0346-0360.jsonl"
+        self.assertTrue(patch.is_file())
+        rows = [json.loads(line) for line in patch.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual([row["id"] for row in rows], EXPECTED_IDS)
+        self.assertEqual(len(rows), 15)
 
     def test_manifest_covers_exact_batch_and_preserves_review_state(self):
         data = json.loads(MANIFEST.read_text(encoding="utf-8"))
