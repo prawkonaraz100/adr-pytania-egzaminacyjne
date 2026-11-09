@@ -1,0 +1,232 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0361..0375",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642; sprostowanie Dz.U. 2025 poz. 1575 sprawdzone",
+  "bank_count": 780,
+  "bank_blob_sha": "129d09039ee7fbee90198049cb3d733368070c77",
+  "bank_changed": false,
+  "previous_uncompared": 420,
+  "compared": 15,
+  "remaining_without_comparison": 405,
+  "counts": {
+    "OK": 4,
+    "POPRAW": 11,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "all_780_questions",
+    "automated_same_module_jaccard_threshold": 0.6,
+    "automated_candidates_for_batch": 0,
+    "manual_semantic_pairs": [
+      "0361 vs 0102/0164/0296/0738",
+      "0362 vs 0185/0630/0735/0773",
+      "0368 vs 0134",
+      "0370 vs 0135",
+      "0371 vs 0480",
+      "0373 vs 0027/0081/0082/0638/0684/0765"
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0361",
+      "verdict": "POPRAW",
+      "legal_basis": "5.4.3.4",
+      "gazette_page": 975,
+      "literal_quote": "nie włączać żadnych urządzeń elektrycznych",
+      "finding": "Duplikat 0102/0738; bliskie 0164/0296. A jest jedyną najkrótszą.",
+      "proposed_replacement": null,
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0362",
+      "verdict": "POPRAW",
+      "legal_basis": "5.4.3.4",
+      "gazette_page": 975,
+      "literal_quote": "Zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych",
+      "finding": "Duplikat 0185/0630/0735/0773; dystraktory niewiarygodne.",
+      "proposed_replacement": null,
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0363",
+      "verdict": "OK",
+      "legal_basis": "1.4.2.2.3",
+      "gazette_page": 57,
+      "literal_quote": "nie powinien on rozpoczynać przewozu do czasu usunięcia stwierdzonych naruszeń",
+      "finding": "Klucz A zgodny; temat odrębny od naruszenia wykrytego podczas przewozu.",
+      "proposed_replacement": null,
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0364",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.2.2.4",
+      "gazette_page": 57,
+      "literal_quote": "powinien być on niezwłocznie przerwany",
+      "finding": "Klucz B zgodny; B jedyną najkrótszą.",
+      "proposed_replacement": null,
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0365",
+      "verdict": "OK",
+      "legal_basis": "1.4.2.1.2",
+      "gazette_page": 56,
+      "literal_quote": "powinien podjąć odpowiednie środki dla zapewnienia, aby przesyłka spełniała wymagania ADR",
+      "finding": "Klucz B zgodny; odrębne ujęcie niż 0380.",
+      "proposed_replacement": null,
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0366",
+      "verdict": "OK",
+      "legal_basis": "1.4.2.1.3",
+      "gazette_page": 56,
+      "literal_quote": "osoba ta powinna poinformować nadawcę na piśmie o tym, że przewóz dotyczy towarów niebezpiecznych",
+      "finding": "Klucz A zgodny.",
+      "proposed_replacement": null,
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0367",
+      "verdict": "OK",
+      "legal_basis": "1.4.3.2(b)",
+      "gazette_page": 58,
+      "literal_quote": "wymagań dotyczących oznakowania i stosowania nalepek ostrzegawczych",
+      "finding": "Klucz A zgodny.",
+      "proposed_replacement": null,
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0368",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.3.2(a)",
+      "gazette_page": 58,
+      "literal_quote": "wymagań dotyczących warunków pakowania, w tym pakowania razem",
+      "finding": "Duplikat 0134. Proponowany temat zastępczy: 1.4.3.3(a), kontrola stanu technicznego cysterny przed napełnieniem.",
+      "proposed_replacement": {
+        "stem": "Napełniający ma rozpocząć napełnianie cysterny towarem niebezpiecznym. Co powinien sprawdzić przed rozpoczęciem tej czynności?",
+        "options": {
+          "A": "Czy dokument przewozowy zawiera już numer rejestracyjny pojazdu",
+          "B": "Czy cysterna i jej wyposażenie są w dobrym stanie technicznym",
+          "C": "Czy odbiorca potwierdził godzinę planowanego rozładunku"
+        },
+        "correct_option": "B",
+        "legal_basis": "ADR 2025, 1.4.3.3(a)",
+        "gazette_page": 58
+      },
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0369",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.3.7.1(a)",
+      "gazette_page": 59,
+      "literal_quote": "upewnić się, że zostały rozładowane właściwe towary, poprzez porównanie odpowiednich informacji zawartych w dokumencie przewozowym z informacjami znajdującymi się na sztuce przesyłki",
+      "finding": "B/C przekraczają 80 znaków; A jest jedyną najkrótszą.",
+      "proposed_replacement": null,
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0370",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.3.7.1(b)",
+      "gazette_page": 59,
+      "literal_quote": "sprawdzić przed i podczas rozładunku, czy opakowania, cysterna, pojazd lub kontener nie są uszkodzone w stopniu zagrażającym bezpieczeństwu czynności rozładunkowych",
+      "finding": "Duplikat 0135. Proponowany temat zastępczy: 1.4.3.3(e), dopuszczalny stopień/współczynnik napełnienia.",
+      "proposed_replacement": {
+        "stem": "Napełniający wprowadza materiał niebezpieczny do cysterny. Jak powinien ustalić dopuszczalną ilość?",
+        "options": {
+          "A": "Ustalić ilość wyłącznie według maksymalnej ładowności pojazdu",
+          "B": "Stosować dopuszczalny stopień, współczynnik lub masę napełnienia na litr",
+          "C": "Napełnić cysternę do pełna, jeśli pojemność nie została przekroczona"
+        },
+        "correct_option": "B",
+        "legal_basis": "ADR 2025, 1.4.3.3(e)",
+        "gazette_page": 58
+      },
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0371",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.3.7.1(d)(i)",
+      "gazette_page": 59,
+      "literal_quote": "usunąć wszystkie niebezpieczne pozostałości towarów, które podczas czynności rozładunkowych przylgnęły do zewnętrznej powierzchni cysterny, pojazdu lub kontenera",
+      "finding": "Duplikat 0480. Proponowany temat zastępczy: 1.4.3.3(f), zamknięcie wszystkich zamknięć cysterny po napełnieniu i brak wycieku.",
+      "proposed_replacement": {
+        "stem": "Po napełnieniu cysterny napełniający kończy czynności. Co musi sprawdzić?",
+        "options": {
+          "A": "Czy wszystkie zamknięcia są zamknięte i nie ma wycieku",
+          "B": "Czy kierowca otrzymał komplet instrukcji i potwierdził odbiór",
+          "C": "Czy dokument przewozowy zawiera numer rejestracyjny i podpis odbiorcy"
+        },
+        "correct_option": "A",
+        "legal_basis": "ADR 2025, 1.4.3.3(f)",
+        "gazette_page": 58
+      },
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0372",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.3.7.1(f)",
+      "gazette_page": 59,
+      "literal_quote": "nie posiadały nalepek ostrzegawczych, znaków i tablic barwy pomarańczowej umieszczonych zgodnie z działem 5.3",
+      "finding": "Błędna podstawa w rekordzie: wskazano (e), powinno być (f); przepis obejmuje kontener całkowicie rozładowany, oczyszczony i odkażony oraz wszystkie oznaczenia z działu 5.3.",
+      "proposed_replacement": {
+        "stem": "Po całkowitym rozładowaniu, oczyszczeniu i odkażeniu kontenera ADR nadal znajdują się na nim oznaczenia z działu 5.3. Co powinien zapewnić rozładowca?",
+        "options": {
+          "A": "Usunięcie nalepek ostrzegawczych, znaków i tablic barwy pomarańczowej",
+          "B": "Pozostawienie oznaczeń do następnego załadunku, niezależnie od towaru",
+          "C": "Zamianę oznaczeń na wymagane dla planowanego kolejnego ładunku"
+        },
+        "correct_option": "A",
+        "legal_basis": "ADR 2025, 1.4.3.7.1(f)",
+        "gazette_page": 59
+      },
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0373",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.3.1.1(e)",
+      "gazette_page": 58,
+      "literal_quote": "stosować się do zakazów ładowania razem oraz do wymagań dotyczących oddzielania towarów niebezpiecznych od żywności, innych artykułów spożywczych oraz karmy dla zwierząt",
+      "finding": "Duplikat rodziny 0027/0081/0082/0638/0684/0765; A jedyną najdłuższą. Proponowany temat zastępczy: 1.4.3.1.1(a), dopuszczenie towaru do przewozu.",
+      "proposed_replacement": {
+        "stem": "Załadowca ma wydać przewoźnikowi partię towaru niebezpiecznego. Co powinien sprawdzić przed przekazaniem?",
+        "options": {
+          "A": "Czy towary są dopuszczone do przewozu zgodnie z ADR",
+          "B": "Czy przewoźnik wskazał godzinę dostawy w zleceniu",
+          "C": "Czy odbiorca ma miejsce do składowania wszystkich palet"
+        },
+        "correct_option": "A",
+        "legal_basis": "ADR 2025, 1.4.3.1.1(a)",
+        "gazette_page": 58
+      },
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0374",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.2.2.1(f)",
+      "gazette_page": 56,
+      "literal_quote": "upewnić się, że na pojazdach umieszczone zostały wymagane nalepki ostrzegawcze, znaki i tablice barwy pomarańczowej, wskazane w dziale 5.3",
+      "finding": "Klucz A zgodny; A jedyną najkrótszą.",
+      "proposed_replacement": null,
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0375",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.2.2.2",
+      "gazette_page": 56,
+      "literal_quote": "przewoźnik może polegać na informacjach i danych udostępnionych mu przez innych uczestników przewozu",
+      "finding": "Klucz B zgodny; C ma 84 znaki.",
+      "proposed_replacement": null,
+      "verification_status": "needs_review"
+    }
+  ]
+}
