@@ -6,24 +6,24 @@
     {
       "id": "ADR-B-0291",
       "order": 291,
-      "clause": "ADR 2025, 7.5.2.1",
+      "clause": "ADR 2025, 7.5.2.4; 3.4.1 (g)",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ten dystraktor opisuje częsty błąd: Wyłącznie od zgody kierowcy. Nie zastępuje to warunku wskazanego w poprawnej odpowiedzi ani wymagań właściwego przepisu. Ta zmiana jest redakcyjna; status prawny nadal needs_review."
+          "rationale": "3.4.1 (g) utrzymuje dla LQ zakaz z 7.5.2.4."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Zestawiono regułę ADR 2025, 7.5.2.1 z opisem: Wspólny załadunek sztuk z różnymi nalepkami należy ocenić według tabeli 7.5.2.1 oraz ewentualnych reguł szczególnych."
+          "rationale": "7.5.2.4: zakaz ładowania LQ razem z materiałami wybuchowymi poza podklasą 1.4, UN 0161 i UN 0499."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten dystraktor opisuje częsty błąd: Od tego, czy obie przesyłki jadą do tego samego odbiorcy i mają wspólny dokument. Nie zastępuje to warunku wskazanego w poprawnej odpowiedzi ani wymagań właściwego przepisu. Ta zmiana jest redakcyjna; status prawny nadal needs_review."
+          "rationale": "Przegroda w ładowni nie jest wyjątkiem od zakazu z 7.5.2.4."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "ADR 7.3.1.1 ma szczególny przypadek nieoczyszczonych pustych opakowań; pytanie 0292 dotyczy zwykłych towarów. Formalna polska recenzja i sprostowanie nadal wymagane.",
+      "notes_on_conditions": "7.5.2.4 s. 1307; 3.4.1 s. 686.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -31,18 +31,18 @@
       "question_snapshot": {
         "id": "ADR-B-0291",
         "module_id": "ADR-B-09",
-        "stem": "Załadowca chce umieścić w jednym pojeździe sztuki przesyłek z różnymi nalepkami zagrożeń. Od czego zależy dopuszczalność wspólnego załadunku?",
+        "stem": "Do jednej ciężarówki mają trafić kartony z farbą w ilościach ograniczonych (LQ) oraz skrzynie z materiałami wybuchowymi podklasy 1.1. Czy wolno je załadować razem?",
         "options": {
-          "A": "Wyłącznie od zgody kierowcy",
-          "B": "Od tabeli zgodności załadunku i odpowiednich warunków ADR 7.5.2",
-          "C": "Od tego, czy obie przesyłki jadą do tego samego odbiorcy i mają wspólny dokument"
+          "A": "Tak. Towarów w ilościach ograniczonych nie dotyczą zakazy ładowania razem",
+          "B": "Nie. Ładowanie LQ razem z takimi materiałami wybuchowymi jest zabronione",
+          "C": "Tak, jeżeli kartony LQ oddzieli się od skrzyń przegrodą w ładowni"
         },
         "correct_option": "B",
-        "explanation": "Wspólny załadunek zależy od klasyfikacji towarów i zasad zgodności określonych w ADR, w tym tabeli 7.5.2.1 oraz właściwych warunków szczególnych. Sama zgoda kierowcy nie pozwala pominąć zakazu, a wspólny odbiorca lub jeden dokument nie oznaczają, że towary wolno ładować razem. Przed załadunkiem porównaj klasy i wymagane nalepki. Podstawa: ADR 7.5.2.1.",
+        "explanation": "Towary w ilościach ograniczonych są zwolnione z wielu przepisów ADR, w tym z tabeli zakazów ładowania razem. ADR zostawia jednak dla nich osobny zakaz: nie wolno ich ładować razem z materiałami i przedmiotami wybuchowymi. Wyjątkiem są tylko materiały podklasy 1.4 oraz UN 0161 i UN 0499, a podklasa 1.1 do nich nie należy. Przegroda w ładowni nie znosi tego zakazu. Podstawa: ADR 3.4.1 (g) i 7.5.2.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1",
+            "reference": "ADR 2025, 7.5.2.4; 3.4.1 (g)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -53,24 +53,24 @@
     {
       "id": "ADR-B-0292",
       "order": 292,
-      "clause": "ADR 2025, 7.3.1.1",
+      "clause": "ADR 2025, 7.3.1.2",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawna: przewóz luzem wymaga wyraźnego dopuszczenia ADR dla konkretnego towaru i spełnienia warunków."
+          "rationale": "7.3.1.2: zakaz przewozu luzem materiałów, które mogą przejść w stan ciekły."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędna: szczelny kontener nie zastępuje wymaganego dopuszczenia ani właściwego kodu."
+          "rationale": "Pyłoszczelność (7.3.1.3) nie znosi zakazu z 7.3.1.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędna: zgoda nadawcy i sprawny pojazd nie tworzą podstawy prawnej do przewozu luzem."
+          "rationale": "Pora przewozu nie jest warunkiem dopuszczenia w 7.3.1.2."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "ADR 7.3.1.1 ma szczególny przypadek nieoczyszczonych pustych opakowań; pytanie 0292 dotyczy zwykłych towarów. Formalna polska recenzja i sprostowanie nadal wymagane.",
+      "notes_on_conditions": "7.3.1.2, s. 1291. Do oceny specjalisty.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -78,18 +78,18 @@
       "question_snapshot": {
         "id": "ADR-B-0292",
         "module_id": "ADR-B-09",
-        "stem": "W tabeli A ADR przy towarze nie ma zezwolenia na przewóz luzem kodem BK w kolumnie 10 ani VC w kolumnie 17. Co oznacza to zasadniczo?",
+        "stem": "Ładowca chce przewieźć luzem materiał stały, który przy letnich temperaturach podczas przewozu może się stopić i przejść w stan ciekły. Czy ADR dopuszcza taki przewóz luzem?",
         "options": {
-          "A": "Sprawdzić, czy ADR dopuszcza przewóz luzem dla tego towaru i dobrać właściwy sposób przewozu",
-          "B": "Brak kodu w kolumnie 10 nie przeszkadza, jeśli kontener jest szczelny i przykryty",
-          "C": "Zgoda nadawcy wystarczy, gdy kierowca zna towar i ma sprawny pojazd"
+          "A": "Nie. Materiału, który może stać się ciekły, nie przewozi się luzem",
+          "B": "Tak, jeżeli nadwozie pojazdu jest pyłoszczelne i dobrze zamknięte",
+          "C": "Tak, jeżeli przewóz odbędzie się nocą, gdy temperatura jest niższa"
         },
         "correct_option": "A",
-        "explanation": "Przewóz luzem wymaga wyraźnego dopuszczenia dla konkretnego towaru i spełnienia warunków ADR. Jeśli odpowiednie kolumny tabeli A nie przewidują kodu umożliwiającego taki przewóz, sama szczelność kontenera ani zgoda nadawcy nie wystarczą. Przed załadunkiem trzeba sprawdzić dozwolony sposób przewozu i dobrać właściwe opakowanie lub pojazd. Podstawa: ADR 3.2.1, tabela A, oraz 7.3.1.1.",
+        "explanation": "Przewóz luzem oznacza ładunek bez opakowań, umieszczony bezpośrednio w pojeździe lub kontenerze. Stopiony materiał mógłby wyciekać przez szczeliny i zamknięcia, których nie projektuje się do zatrzymania cieczy. Dlatego ADR zabrania przewozu luzem materiałów, które w temperaturach występujących podczas przewozu mogą przejść w stan ciekły. Jazda nocą nie daje pewności, że materiał się nie stopi. Podstawa: ADR 7.3.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.3.1.1",
+            "reference": "ADR 2025, 7.3.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -100,24 +100,24 @@
     {
       "id": "ADR-B-0293",
       "order": 293,
-      "clause": "ADR 2025, 8.3.1",
+      "clause": "ADR 2025, 8.1.1",
       "source_2025_comparison_url": "https://www.euraca.eu/media/frmeo2lm/adr-2025-vol-ii.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Odpowiedź „Może jechać, jeśli zajmuje wolny fotel” pomija właściwy wymóg ADR 2025, 8.3.1; wymagana kontrola warunków i wyjątków w pełnym polskim tekście."
+          "rationale": "Tablice pomarańczowe nie zmieniają limitu jednej przyczepy z 8.1.1."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Odpowiedź „Może jechać, gdy ma kamizelkę odblaskową” pomija właściwy wymóg ADR 2025, 8.3.1; wymagana kontrola warunków i wyjątków w pełnym polskim tekście."
+          "rationale": "Osobne dokumenty przewozowe nie zmieniają limitu jednej przyczepy z 8.1.1."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR 8.3.1 zabrania przewożenia osób spoza załogi w jednostce objętej tym wymaganiem. To wstępny przegląd redakcyjny; porównanie pełnego polskiego tekstu i zatwierdzenie specjalisty pozostają wymagane."
+          "rationale": "8.1.1: jednostka z towarami niebezpiecznymi nie może mieć więcej niż jedną przyczepę lub naczepę."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "ADR 7.3.1.1 ma szczególny przypadek nieoczyszczonych pustych opakowań; pytanie 0292 dotyczy zwykłych towarów. Formalna polska recenzja i sprostowanie nadal wymagane.",
+      "notes_on_conditions": "8.1.1, s. 1324. Do oceny specjalisty.",
       "editorial_result": "preliminary_authoring_check_only",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -125,18 +125,18 @@
       "question_snapshot": {
         "id": "ADR-B-0293",
         "module_id": "ADR-B-07",
-        "stem": "Do jednostki transportowej przewożącej towary niebezpieczne ma wsiąść przypadkowy pasażer, który nie należy do załogi. Co wynika z ogólnego wymogu ADR 8.3.1?",
+        "stem": "Przewoźnik chce doczepić do samochodu ciężarowego z towarami niebezpiecznymi dwie przyczepy. Przepisy ruchu drogowego w danym kraju pozwalają na taki zestaw. Co mówi ADR?",
         "options": {
-          "A": "Może jechać, jeśli zajmuje wolny fotel",
-          "B": "Może jechać, gdy ma kamizelkę odblaskową",
-          "C": "Nie wolno przewozić osób, które nie są członkami załogi"
+          "A": "Wolno, jeżeli cały zestaw ma tablice pomarańczowe z przodu i z tyłu",
+          "B": "Wolno, jeżeli obie przyczepy mają własne dokumenty przewozowe",
+          "C": "Nie wolno. Jednostka może mieć najwyżej jedną przyczepę lub naczepę"
         },
         "correct_option": "C",
-        "explanation": "Jednostką transportową przewożącą towary niebezpieczne nie wolno przewozić przypadkowej osoby, która nie jest członkiem załogi. Wolny fotel ani kamizelka odblaskowa nie zmieniają jej statusu i nie znoszą tego zakazu. Kierowca powinien odmówić zabrania takiego pasażera, zamiast uznawać, że samo miejsce w kabinie wystarczy. Podstawa: ADR 8.3.1.",
+        "explanation": "Jednostka transportowa to pojazd silnikowy razem z dołączoną do niego przyczepą lub naczepą. ADR stanowi, że jednostka załadowana towarami niebezpiecznymi w żadnym przypadku nie może mieć więcej niż jednej przyczepy lub naczepy. Zgoda krajowych przepisów ruchu drogowego na dłuższy zestaw nie zmienia tego zakazu. Tablice barwy pomarańczowej ani osobne dokumenty przewozowe też go nie znoszą. Podstawa: ADR 8.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.1",
+            "reference": "ADR 2025, 8.1.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
