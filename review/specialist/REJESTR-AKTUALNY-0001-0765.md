@@ -1,6 +1,6 @@
 # Aktualny rejestr specjalisty — ADR-B-0001–0780
 
-Etap 4x354 (03.11.2026). Bank: 780 pytań, 780 `needs_review`, 0 `verified`. SHA `1a173de4bd198c3e9c890e9813740e0ad1210dde`.
+Etap 4x354 (03.11.2026). Bank: 780 pytań, 780 `needs_review`, 0 `verified`. SHA `b8055016086e53a9da3349ab1c58a096a83210f9`.
 Kompetencje teoretyczne z mniej niż 6 pytaniami: **0** (3 praktyczne pominięte). Pełne literalne porównanie podstaw prawnych i niezależna recenzja nadal oczekują.
 
 | ID | Dział | Kompetencja | Pytanie | Klucz | Podstawa | SVG | Recenzja prawna | Status |
