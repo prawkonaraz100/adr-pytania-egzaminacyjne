@@ -66,7 +66,7 @@ class Partia31LiteralReview(unittest.TestCase):
         self.assertEqual(len(rows), 15)
         self.assertEqual([row["id"] for row in rows], EXPECTED_IDS)
         raw = BANK.read_bytes()
-        blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
+        blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
         self.assertEqual(blob, "e560a3892b2b76217bf4ff9a977a1a4c2771eff8")
 
 
