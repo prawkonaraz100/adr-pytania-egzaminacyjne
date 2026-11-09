@@ -1,0 +1,263 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0451..0465",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642; Dz.U. 2025 poz. 1575 checked",
+  "bank_count": 780,
+  "bank_blob_sha": "094473164719bc6a651a6e303dc117cfa6503ffb",
+  "bank_changed": false,
+  "previous_uncompared": 330,
+  "compared": 15,
+  "remaining_without_comparison": 315,
+  "counts": {
+    "OK": 3,
+    "POPRAW": 12,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "all_780_questions",
+    "method": "Pre-screen using the same tokenization and same-module Jaccard logic as scripts/similarity.py, threshold 0.45 (the script default): zero lexical candidates involving ADR-B-0451–0465. A lower 0.25 pre-screen also produced zero same-module pairs involving the batch. The script's result is only a candidate filter; manual semantic comparison was performed against every ID specified in the control instruction.",
+    "manual_pairs": [
+      "0451/0452 share 1.1.4.7.2(c), but are distinguished: 0451 tests the post-expiry filling restriction, 0452 tests the permitted transport for examination including intermediate carriage.",
+      "0451/0452 vs 0386 (leaking DOT cylinder), 0446 (illegible certification/test/filling marks), 0447–0450 (different import/export conditions under 1.1.4.7): distinct conditions.",
+      "0453/0454 share 5.4.1.1.24 but are distinguished: .1 import entry vs .2 export entry; the two exact entries are separately required by the provision.",
+      "0455–0460 compared within the batch and with 0122, 0211, 0212, 0213, 0249, 0304, 0305, 0399, 0402, 0403, 0405, 0406, 0407, 0408, 0416 and 0582: no duplicate; these questions concern table location, the tank-column footnote, table notes (a)/(b), the zero threshold and the class 3 row, not general plans or definitions.",
+      "0461–0463 are distinguished threshold cases under 5.2.1.8.1: 4 l liquid in a single package, 6 l inner packages in a combination package, and exactly 5 kg net solid.",
+      "0464 duplicates 0045: both test placement of the environmental mark adjacent to package markings under 5.2.1.8.2. A non-cistern replacement in 03-K01 is supplied.",
+      "0461–0465 compared with 0007, 0045, 0276, 0327, 0466–0470 and 0734: 0461–0463 concern the quantity exception; 0465 concerns the required transport-document wording; 0466 the UN 3077/3082 exclusion; 0467 the marine wording in a sea chain; 0468–0470 the vehicle mark under 5.3.6; 0734 vehicle equipment. Only 0464 duplicates 0045."
+    ],
+    "distinguished_pairs": [
+      "0451 vs 0452",
+      "0453 vs 0454",
+      "0455–0460 vs listed plan/definition questions",
+      "0461 vs 0462 vs 0463",
+      "0465 vs 0466/0467"
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0451",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.7.2(c)",
+      "gazette_page": 31,
+      "exact_quote": "„Naczynia ciśnieniowe nie powinny być napełniane po upływie ich terminu badania okresowego”",
+      "finding": "Klucz B oddaje zakaz napełniania po terminie, ale używa mocniejszego sformułowania „nie wolno”, podczas gdy tekst ADR brzmi „nie powinny być napełniane”. Należy zachować stopień normatywności źródła. Dodatkowo opcja B zawiera średnik, a opcja C ma 81 znaków (limit 80). Klucz nie jest jedyną najdłuższą ani najkrótszą opcją.",
+      "duplicate_candidates": [
+        "ADR-B-0452",
+        "ADR-B-0386",
+        "ADR-B-0446"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B"
+    },
+    {
+      "id": "ADR-B-0452",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.7.2(c)",
+      "gazette_page": 31,
+      "exact_quote": "„…mogą być przewożone po upływie tego terminu, w celu przeprowadzenia badań, łącznie z przewozami pośrednimi.”",
+      "finding": "Klucz C jest prawidłowy: przepis dopuszcza przewóz po upływie terminu w celu przeprowadzenia badań, także z przewozami pośrednimi. Wszystkie trzy opcje zawierają średnik; należy usunąć go z odpowiedzi. Pytanie jest odrębne od 0451: sprawdza wyjątek transportowy, a nie zakaz dalszego napełniania.",
+      "duplicate_candidates": [
+        "ADR-B-0451",
+        "ADR-B-0386",
+        "ADR-B-0446"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0453",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.4.1.1.24; 1.1.4.7.1",
+      "gazette_page": 966,
+      "exact_quote": "„W przypadku przewozu zgodnego z 1.1.4.7 w dokumencie przewozowym należy, odpowiednio, umieścić następujące zapisy: «PRZEWÓZ ZGODNY Z 1.1.4.7.1» lub «PRZEWÓZ ZGODNY Z 1.1.4.7.2».”",
+      "finding": "Klucz C jest prawidłowy i wskazuje wariant .1 wymagany dla importu. Opcje mieszczą się w limicie 80 znaków, klucz nie jest jedyną najdłuższą ani najkrótszą odpowiedzią, a wyjaśnienie ma wymaganą długość. Powiązanie z 0454 jest zamierzone: pytania sprawdzają dwa różne wpisy wyraźnie wymienione w 5.4.1.1.24.",
+      "duplicate_candidates": [
+        "ADR-B-0454"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0454",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.4.1.1.24; 1.1.4.7.2",
+      "gazette_page": 966,
+      "exact_quote": "„…«PRZEWÓZ ZGODNY Z 1.1.4.7.1» lub «PRZEWÓZ ZGODNY Z 1.1.4.7.2».”",
+      "finding": "Klucz C jest prawidłowy i wskazuje wariant .2 wymagany dla wywozu. Opcje mieszczą się w limicie 80 znaków, klucz nie jest jedyną najdłuższą ani najkrótszą odpowiedzią, a wyjaśnienie ma wymaganą długość. To para z 0453, lecz nie duplikat: .1 i .2 wymagają różnych, dosłownie wskazanych wpisów.",
+      "duplicate_candidates": [
+        "ADR-B-0453"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0455",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.3.1.2",
+      "gazette_page": 111,
+      "exact_quote": "„Towarami niebezpiecznymi dużego ryzyka klas innych niż klasa 7 są towary wskazane w tabeli 1.10.3.1.2 poniżej, przewożone w ilościach większych niż wskazane w tej tabeli.”",
+      "finding": "Klucz A jest prawidłowy. Opcja B ma 87 znaków, przekraczając limit 80. Klucz A jest także jedyną najkrótszą opcją (70 wobec 74 i 87 znaków), co tworzy wskazówkę długościową. Treść i wyjaśnienie poprawnie odróżniają tabelę 1.10.3.1.2 od planu ochrony i dokumentów pojazdu.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A"
+    },
+    {
+      "id": "ADR-B-0456",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.3.1.2, tabela, przypis (c)",
+      "gazette_page": 111,
+      "exact_quote": "„Wartość umieszczona w tej kolumnie ma zastosowanie tylko wtedy, gdy przewóz w cysternie jest dopuszczony, zgodnie z działem 3.2 tabela A kolumna (10) lub (12).”",
+      "finding": "Klucz B jest prawidłowy: progu z kolumny cystern nie przenosi się automatycznie na sztuki przesyłek; trzeba sprawdzić kolumnę właściwą dla danego sposobu przewozu. Wszystkie trzy opcje zawierają średnik. Nie stwierdzono duplikatu w 12-K05 ani w porównaniu z pytaniami wskazanymi w poleceniu; to odrębny test przypisu (c), a nie pytanie o sam plan ochrony.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B"
+    },
+    {
+      "id": "ADR-B-0457",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.3.1.2, tabela, przypis (b)",
+      "gazette_page": 111,
+      "exact_quote": "„Niezależnie od ilości towarów, przepisy rozdziału 1.10.3 nie mają zastosowania.”",
+      "finding": "Klucz C oddaje przypis (b). Opcja A ma 84 znaki, przekraczając limit 80, a klucz C jest jedyną najkrótszą opcją (76 wobec 77 i 84 znaków). Wszystkie odpowiedzi zawierają określenia absolutne; w kluczu wynika ono wprost z treści przypisu, lecz należy wyrównać długości i zredagować dystraktory.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0458",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.3.1.2, tabela, przypis (a)",
+      "gazette_page": 111,
+      "exact_quote": "„a Nie dotyczy.”",
+      "finding": "Klucz A jest zgodny z objaśnieniem „Nie dotyczy”, ale warto doprecyzować, że oznaczenie odnosi się do komórki tabeli dla danego wiersza i rodzaju przewozu, a nie do całej kolumny. Opcja C zawiera absolutyzujące „niezależnie od przypisu tabeli”; należy usunąć ten skrót myślowy i zachować precyzyjne znaczenie przypisu.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A"
+    },
+    {
+      "id": "ADR-B-0459",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 1.10.3.1.2, tabela, wiersz 6.1",
+      "gazette_page": 111,
+      "exact_quote": "„6.1 Materiały trujące I grupy pakowania … 0 [cysterna] … 0 [sztuki przesyłek].”",
+      "finding": "Klucz B jest prawidłowy: dla wpisu z progiem 0 kg każda dodatnia ilość przekracza próg tabeli, przy zachowaniu pozostałych warunków przepisu. Odpowiedzi nie zawierają średników ani wskazujących słów absolutnych; wszystkie mieszczą się w limicie 80 znaków, a klucz nie jest jedyną najdłuższą ani najkrótszą opcją. Nie przeniesiono progu 3000 kg z innego wiersza tabeli.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B"
+    },
+    {
+      "id": "ADR-B-0460",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.3.1.2, tabela, klasa 3",
+      "gazette_page": 111,
+      "exact_quote": "„3 Materiały zapalne ciekłe I i II grupy pakowania | 3 000 [cysterna] | a [luzem] | b [sztuki przesyłek].”",
+      "finding": "Klucz C jest prawidłowy: sama klasa 3 nie wystarcza; tabela rozróżnia grupę pakowania i sposób przewozu, a dla sztuk przesyłek w tym wierszu widnieje przypis (b). Opcja A ma 81 znaków, a wszystkie trzy opcje zawierają średnik. Klucz C jest jedyną najkrótszą opcją (69 wobec 74 i 81 znaków).",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0461",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.2.1.8.1",
+      "gazette_page": 936,
+      "exact_quote": "„…z wyłączeniem opakowań pojedynczych oraz opakowań wewnętrznych w opakowaniach kombinowanych, jeżeli te opakowania pojedyncze i opakowania wewnętrzne w opakowaniach kombinowanych zawierają: nie więcej niż 5 l materiałów ciekłych, lub nie więcej niż 5 kg netto materiałów stałych.”",
+      "finding": "Klucz A jest prawidłowy dla pojedynczego opakowania z 4 l cieczy. Opcja A ma 85 znaków, a opcja B 99 znaków; obie przekraczają limit 80. W wyjaśnieniu prawidłowo zaznaczono, że limit ilościowy nie zwalnia z pozostałych warunków wyjątku. Nie jest to duplikat 0007 (symbolu) ani 0276 (tła znaku).",
+      "duplicate_candidates": [
+        "ADR-B-0007",
+        "ADR-B-0276",
+        "ADR-B-0462",
+        "ADR-B-0463"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A"
+    },
+    {
+      "id": "ADR-B-0462",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.2.1.8.1",
+      "gazette_page": 936,
+      "exact_quote": "„…opakowań wewnętrznych w opakowaniach kombinowanych, jeżeli te opakowania pojedyncze i opakowania wewnętrzne w opakowaniach kombinowanych zawierają nie więcej niż 5 l materiałów ciekłych…”",
+      "finding": "Klucz C jest prawidłowy: każda butelka wewnętrzna ma 6 l, czyli przekracza limit 5 l. Opcje A i B zawierają średniki. Pytanie bada odrębnie sposób liczenia limitu dla opakowania wewnętrznego; nie jest duplikatem 0461 (4 l w opakowaniu pojedynczym) ani 0463 (dokładnie 5 kg netto materiału stałego).",
+      "duplicate_candidates": [
+        "ADR-B-0461",
+        "ADR-B-0463"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0463",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.2.1.8.1",
+      "gazette_page": 936,
+      "exact_quote": "„…nie więcej niż 5 kg netto materiałów stałych.”",
+      "finding": "Klucz C jest prawidłowy: „nie więcej niż 5 kg netto” obejmuje także dokładnie 5 kg. Klucz C jest jednak jedyną najkrótszą opcją (63 wobec 72 i 73 znaków), a dystraktory A i B zawierają absolutyzujące sformułowania („zawsze”, „bez wyjątku”). To odrębny test granicy dla materiału stałego, nie duplikat pytań o 4 l cieczy i 6 l w opakowaniu wewnętrznym.",
+      "duplicate_candidates": [
+        "ADR-B-0461",
+        "ADR-B-0462"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0464",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.2.1.8.2",
+      "gazette_page": 936,
+      "exact_quote": "„Znak dla materiału zagrażającego środowisku powinien być umieszczony w pobliżu znaków wymaganych w 5.2.1.1.”",
+      "finding": "Klucz C jest merytorycznie prawidłowy, ale pytanie powiela 0045: oba sprawdzają miejsce umieszczenia znaku środowiskowego przy oznakowaniach sztuki przesyłki, na podstawie 5.2.1.8.2. Dodatkowo klucz C jest jedyną najkrótszą opcją (62 wobec 64 i 79 znaków), a dystraktory zawierają „wyłącznie” i „tylko”. Wymagana jest wymiana pytania na inny element tej samej kompetencji.",
+      "duplicate_candidates": [
+        "ADR-B-0045"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Na opakowaniu ADR wymagany jest znak dla materiału zagrażającego środowisku. Który opis odpowiada standardowemu wzorowi znaku?",
+        "options": {
+          "A": "Prostokąt 100 × 100 mm z czarnym symbolem na białym lub kontrastowym tle",
+          "B": "Koło 100 mm z czarnym symbolem na białym lub kontrastowym tle",
+          "C": "Romb 100 × 100 mm z czarnym symbolem na białym lub kontrastowym tle"
+        },
+        "correct_option": "C",
+        "explanation": "Znak środowiskowy ma kształt kwadratu ustawionego pod kątem 45°, czyli rombu. Standardowe wymiary wynoszą co najmniej 100 × 100 mm, a symbol ryby i drzewa powinien być czarny na białym lub odpowiednio kontrastującym tle. Ze względu na rozmiar sztuki przesyłki wymiary mogą zostać zmniejszone, pod warunkiem że znak pozostanie dobrze widoczny. Podstawa: ADR 5.2.1.8.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.1.8.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0465",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.1.1.18",
+      "gazette_page": 965,
+      "exact_quote": "„…dokument przewozowy powinien zawierać dodatkowy zapis «ZAGRAŻAJĄCY ŚRODOWISKU» lub «MARINE POLLUTANT / ENVIRONMENTALLY HAZARDOUS».”",
+      "finding": "Klucz B nie odtwarza poprawnie jednej z dwóch dozwolonych treści: pierwsza brzmi „ZAGRAŻAJĄCY ŚRODOWISKU”, a nie samo „ENVIRONMENTALLY HAZARDOUS”. Stem używa też osłabiającego „zwykle”, podczas gdy przepis stanowi, że dokument „powinien zawierać” dodatkowy zapis, gdy spełniono kryteria i nie zachodzi wyłączenie. Opcje A (90 znaków) i B (87 znaków) przekraczają limit 80.",
+      "duplicate_candidates": [
+        "ADR-B-0466",
+        "ADR-B-0467"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B"
+    }
+  ]
+}
