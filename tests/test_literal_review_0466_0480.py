@@ -43,7 +43,7 @@ def git_blob_sha(data: bytes) -> str:
 
 
 def sentence_word_counts(text: str):
-    sentences = re.split(r"(?<=[.!? ])\s+(?=[A-ZŁŚŻŹĆŃÓĘĄ])", text.strip())
+    sentences = re.split(r"(?<=[.!?])\s+(?=[A-ZŁŚŻŹĆŃÓĘĄ])", text.strip())
     return [len(sentence.split()) for sentence in sentences if sentence.strip()]
 
 
