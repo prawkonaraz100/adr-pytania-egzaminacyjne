@@ -6,7 +6,7 @@
   "seed": 2026102705,
   "variant": 5,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "025066373056366cfff08ee01a6a5394c7c90218",
+  "source_bank_head": "fa4e38350731bd52c1a64a8cab934bdf18988438",
   "excluded_question_ids": [
     "ADR-B-0004",
     "ADR-B-0008",
@@ -250,11 +250,11 @@
       "number": 9,
       "id": "ADR-B-0424",
       "module_id": "ADR-B-09",
-      "stem": "Przed załadunkiem kierowca widzi sztukę przesyłki oznaczoną nalepkami klasy 1 i inną oznaczoną klasą 3. Czy może ocenić wspólny załadunek wyłącznie po tym, że obie są ADR?",
+      "stem": "Magazynier chce dołożyć kanistry z farbą z nalepką 3 do pojazdu, w którym są już skrzynie z materiałem wybuchowym 1.1D z nalepką 1. Czy tabela 7.5.2.1 na to pozwala?",
       "options": {
-        "A": "Sprawdzić, czy obie przesyłki mają czytelne nalepki; samo to wystarcza do wspólnego załadunku.",
-        "B": "Rozdzielić przesyłki tylko wtedy, gdy różnią się dokumentami przewozowymi.",
-        "C": "Nie; należy sprawdzić tabelę zakazów wspólnego załadunku 7.5.2.1"
+        "A": "Tak, jeśli kanistry staną z dala od skrzyń, przy samych drzwiach ładowni",
+        "B": "Tak, bo farba z nalepką 3 może jechać z towarami wielu innych klas",
+        "C": "Nie, tabela nie dopuszcza ładowania razem przesyłek z nalepkami 1 i 3"
       },
       "image": null
     },
@@ -358,11 +358,11 @@
       "number": 18,
       "id": "ADR-B-0431",
       "module_id": "ADR-B-11",
-      "stem": "Kod tunelowy „(-)” znajduje się w kolumnie 15 tabeli A. Na trasie jest jednak znak drogowy ograniczający wjazd do tunelu. Co ma zrobić kierowca?",
+      "stem": "Pojazd ma tablice pomarańczowe, ale wiezie jedynie towar ze znakiem „(-)” w kolumnie (15) tabeli A. Przed tunelem stoi znak z tabliczką E. Co wynika z 1.9.5.3.6?",
       "options": {
-        "A": "Zignorować znak, ponieważ kod (-) znosi wszystkie ograniczenia tunelowe i lokalne niezależnie od ich podstawy",
-        "B": "Wjechać wyłącznie do tunelu kategorii E, bo zapis (-) wskazuje tę kategorię",
-        "C": "Nie traktować kodu (-) jako zwolnienia z pozostałych ograniczeń na trasie"
+        "A": "Musi ominąć tunel, bo pojazd z tablicami pomarańczowymi nie wjedzie do E",
+        "B": "Może wjechać, jeśli kierowca zdejmie lub zasłoni tablice pomarańczowe",
+        "C": "Może wjechać, bo przewóz towaru ze znakiem „(-)” jest z nich wyłączony"
       },
       "image": null
     },
@@ -418,11 +418,11 @@
       "number": 23,
       "id": "ADR-B-0422",
       "module_id": "ADR-B-08",
-      "stem": "Gaśnica w pojeździe ADR ma miniony termin następnej wymaganej kontroli. Czy można uznać ją za właściwie przygotowaną do przewozu?",
+      "stem": "Nowy kierowca pyta, co ile miesięcy według ADR trzeba poddawać gaśnicę kontroli okresowej. Co odpowiada treści 8.1.4.4?",
       "options": {
-        "A": "Ocenić wygląd obudowy zamiast daty kontroli i uznać gaśnicę za sprawną",
-        "B": "Nie; termin wymaganej kontroli nie może być przekroczony",
-        "C": "Klasa 3 pozwala odstąpić od kontroli"
+        "A": "ADR nakazuje kontrolę co 12 miesięcy, w tym samym miesiącu co roku",
+        "B": "ADR odsyła do kontroli okresowych według przyjętych norm krajowych",
+        "C": "Kontrola nie jest potrzebna, dopóki plomba gaśnicy pozostaje cała"
       },
       "image": null
     },
