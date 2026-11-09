@@ -1,0 +1,171 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0376..0390",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642; sprostowanie Dz.U. 2025 poz. 1575 sprawdzone",
+  "bank_count": 780,
+  "bank_blob_sha": "4e00ad8db1a63f644ab205910c434dae20669de8",
+  "bank_changed": false,
+  "previous_uncompared": 405,
+  "compared": 15,
+  "remaining_without_comparison": 390,
+  "counts": {
+    "OK": 2,
+    "POPRAW": 13,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "all_780_questions",
+    "automated_same_module_jaccard_threshold": 0.6,
+    "manual_semantic_pairs": [
+      "0377 vs 0757 (related 0477)",
+      "0381 vs 0511/0029",
+      "0383 vs 0142/0062",
+      "0386 vs 0247/0770",
+      "0388 vs 0030",
+      "0389 vs 0028/0029",
+      "0390 vs 0140"
+    ],
+    "distinguished_pairs": [
+      "0382 vs 0287: rule for combined packing vs documentary statement",
+      "0384 vs 0383: vehicle orange plates vs container placards"
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0376",
+      "verdict": "POPRAW",
+      "legal_basis": "8.3.2",
+      "gazette_page": 1332,
+      "literal_quote": "Członkowie załogi pojazdu powinni wiedzieć, jak należy używać środków do gaszenia pożaru.",
+      "finding": "Klucz A prawidłowy, ale jedyna najkrótsza (32 vs 59/60).",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0377",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.2.3.1–1.4.2.3.3",
+      "gazette_page": 57,
+      "literal_quote": "Odbiorca zobowiązany jest nie opóźniać przyjęcia towarów, jeżeli takie opóźnienie nie jest konieczne oraz sprawdzić, po rozładunku, czy zostały spełnione odnoszące się do niego wymagania ADR.",
+      "finding": "Duplikat 0757; stem o rozładunku poprzedzającym usunięcie zagrożenia jest niejasny; doprecyzować zakres 1.4.2.3.1–.3.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0378",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.3.1.1(d)",
+      "gazette_page": 57,
+      "literal_quote": "po załadunku towarów niebezpiecznych do kontenera, spełnić wymagania dotyczące oznakowania, umieszczania nalepek ostrzegawczych, znaków oraz tablic barwy pomarańczowej zgodnie z działem 5.3",
+      "finding": "W rekordzie wskazano (c), prawidłowo (d); A jedyna najkrótsza (43 vs 87/92).",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0379",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.2.2.1(e)",
+      "gazette_page": 56,
+      "literal_quote": "sprawdzić, czy pojazdy nie są nadmiernie załadowane",
+      "finding": "Klucz A prawidłowy; A jedyna najkrótsza (47 vs 90/76); dystraktor B ma niespójną formę gramatyczną.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0380",
+      "verdict": "POPRAW",
+      "legal_basis": "1.4.2.1.2",
+      "gazette_page": 56,
+      "literal_quote": "nadawca może polegać na informacjach i danych udostępnionych mu przez innych uczestników przewozu",
+      "finding": "Klucz A prawidłowy; A jedyna najkrótsza (42 vs 57/50). Odrębne od 0365 i 0375.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0381",
+      "verdict": "POPRAW",
+      "legal_basis": "1.1.4.2.1(a)",
+      "gazette_page": 29,
+      "literal_quote": "jeżeli sztuki przesyłek nie są oznakowane znakami i nalepkami ostrzegawczymi zgodnie z ADR, to powinny być oznakowane znakami i nalepkami ostrzegawczymi zgodnie z wymaganiami Kodeksu IMDG lub Instrukcji Technicznych ICAO",
+      "finding": "Duplikat 0511/0029.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0382",
+      "verdict": "OK",
+      "legal_basis": "1.1.4.2.1(b)",
+      "gazette_page": 29,
+      "literal_quote": "w odniesieniu do pakowania razem w jednej sztuce przesyłki, powinny być stosowane wymagania Kodeksu IMDG lub Instrukcji Technicznych ICAO",
+      "finding": "Klucz B prawidłowy; odrębne od 0287 (wpis dokumentowy).",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0383",
+      "verdict": "POPRAW",
+      "legal_basis": "1.1.4.2.1(c)",
+      "gazette_page": 29,
+      "literal_quote": "kontenery […] powinny być oznakowane i zaopatrzone w duże nalepki ostrzegawcze zgodnie z działem 5.3 Kodeksu IMDG",
+      "finding": "Duplikat 0142/0062.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0384",
+      "verdict": "OK",
+      "legal_basis": "1.1.4.2.1(c)",
+      "gazette_page": 30,
+      "literal_quote": "w odniesieniu do oznakowania pojazdu, mają zastosowanie jedynie przepisy podane w 5.3.2.1.1 niniejszego Załącznika",
+      "finding": "Klucz B prawidłowy; odrębny aspekt oznakowania pojazdu.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0385",
+      "verdict": "POPRAW",
+      "legal_basis": "1.1.4.2.1(c)",
+      "gazette_page": 30,
+      "literal_quote": "Wymaganie to stosuje się również do przewozu próżnych nieoczyszczonych cystern przenośnych, kontenerów-cystern i MEGC, do czasu ich oczyszczenia.",
+      "finding": "A wskazuje przekazanie do stacji czyszczenia, a nie faktyczne oczyszczenie; brak poprawnej opcji.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0386",
+      "verdict": "POPRAW",
+      "legal_basis": "1.1.4.2.1",
+      "gazette_page": 30,
+      "literal_quote": "Powyższe odstępstwo nie ma zastosowania do przewozu towarów sklasyfikowanych jako niebezpieczne w klasach 1 do 9 zgodnie z ADR, a nieuznanych za niebezpieczne według Kodeksu IMDG lub Instrukcji Technicznych ICAO.",
+      "finding": "Duplikat 0247/0770.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0387",
+      "verdict": "POPRAW",
+      "legal_basis": "1.1.4.2.2",
+      "gazette_page": 30,
+      "literal_quote": "powinny być dopuszczone do przewozu w łańcuchu transportowym zawierającym przewóz morski pod warunkiem, że odpowiadają […] 5.3.2 ADR dotyczącym oznakowania tablicami barwy pomarańczowej",
+      "finding": "Klucz A prawidłowy; A jedyna najkrótsza (47 vs 95/98); doprecyzować jednostkę transportową.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0388",
+      "verdict": "POPRAW",
+      "legal_basis": "1.1.4.2.3",
+      "gazette_page": 30,
+      "literal_quote": "pod warunkiem, że będzie również podana każda dodatkowa informacja, wymagana na podstawie ADR",
+      "finding": "Klucz A prawidłowy; A jedyna najkrótsza (56 vs 84/90); duplikat 0030.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0389",
+      "verdict": "POPRAW",
+      "legal_basis": "1.1.4.2.1",
+      "gazette_page": 29,
+      "literal_quote": "Sztuki przesyłek […] powinny być dopuszczone do przewozu w łańcuchu transportowym zawierającym przewóz morski lub lotniczy pod następującymi warunkami",
+      "finding": "Duplikat 0028/0029 – ogólny zakres odstępstwa i dalsze stosowanie ADR.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0390",
+      "verdict": "POPRAW",
+      "legal_basis": "5.4.2",
+      "gazette_page": 973,
+      "literal_quote": "certyfikat pakowania kontenera/pojazdu […] powinien być dostarczony przewoźnikowi morskiemu przez odpowiedzialnych za pakowanie kontenera",
+      "finding": "Duplikat 0140; A jedyna najkrótsza (64 vs 84/80).",
+      "verification_status": "needs_review"
+    }
+  ]
+}
