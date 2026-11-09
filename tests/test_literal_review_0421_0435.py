@@ -26,6 +26,9 @@ class Partia29LiteralReview(unittest.TestCase):
         self.assertEqual(len(data["records"]), 15)
         self.assertEqual([row["id"] for row in data["records"]], EXPECTED_IDS)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in data["records"]))
+        for row in data["records"]:
+            if row["proposed_replacement"] is not None:
+                self.assertEqual(row["proposed_replacement"]["correct_option"], row["original_correct_option"])
 
     def test_bank_remains_unchanged_after_first_pass(self):
         """The first-pass report must not alter the question bank."""
