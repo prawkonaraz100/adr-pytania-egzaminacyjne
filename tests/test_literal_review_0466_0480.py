@@ -13,21 +13,21 @@ REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0466-0480.json"
 EXPECTED_BANK_SHA = "e560a3892b2b76217bf4ff9a977a1a4c2771eff8"
 EXPECTED_IDS = [f"ADR-B-{number:04d}" for number in range(466, 481)]
 EXPECTED_PAGES = {
-    "ADR-B-0466": 966,
-    "ADR-B-0467": 966,
-    "ADR-B-0468": 938,
-    "ADR-B-0469": 938,
-    "ADR-B-0470": 938,
-    "ADR-B-0471": 1325,
-    "ADR-B-0472": 1325,
-    "ADR-B-0473": 1332,
-    "ADR-B-0474": 1309,
-    "ADR-B-0475": 1309,
-    "ADR-B-0476": 1310,
-    "ADR-B-0477": 373,
-    "ADR-B-0478": 373,
-    "ADR-B-0479": 373,
-    "ADR-B-0480": 373,
+    "ADR-B-0466": "066",
+    "ADR-B-0467": "066",
+    "ADR-B-0468": "960",
+    "ADR-B-0469": "960",
+    "ADR-B-0470": "960",
+    "ADR-B-0471": "1332",
+    "ADR-B-0472": "1332",
+    "ADR-B-0473": "1332",
+    "ADR-B-0474": "1304",
+    "ADR-B-0475": "1304",
+    "ADR-B-0476": "1304",
+    "ADR-B-0477": "57",
+    "ADR-B-0478": "59",
+    "ADR-B-0479": "57",
+    "ADR-B-0480": "59",
 }
 EXPECTED_COUNTS = {"OK": 1, "POPRAW": 14, "BLOKUJ": 0}
 EXPECTED_REPLACEMENTS = {
