@@ -50,7 +50,7 @@ class Partia28LiteralReview(unittest.TestCase):
         self.assertEqual(len(rows), 15)
         self.assertEqual([row["id"] for row in rows], EXPECTED_IDS)
         raw = BANK.read_bytes()
-        blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
+        blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
         self.assertEqual(blob, EXPECTED_BANK_SHA)
 
 if __name__ == "__main__":
