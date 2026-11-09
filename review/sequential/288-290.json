@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na nalepce zagrożenia jest biały symbol płomienia na czerwonym tle oraz cyfra 3 na dole. Jaką klasę przedstawia ten wzór?",
+        "stem": "Olej ma temperaturę zapłonu 150 °C, więc w zwykłych warunkach nie należy do klasy 3. Jest jednak przewożony podgrzany do 160 °C. Jak klasyfikuje go ADR?",
         "options": {
-          "A": "Materiały ciekłe zapalne, oznaczane czerwoną nalepką z płomieniem i cyfrą 3",
-          "B": "Gazy trujące, oznaczane nalepką z czaszką i cyfrą 2.3",
-          "C": "Materiały utleniające klasy 5.1, z żółtym tłem i symbolem płomienia nad okręgiem"
+          "A": "Jako materiał klasy 3, bo jest cieplejszy niż jego temperatura zapłonu",
+          "B": "Nie podlega ADR, bo jego temperatura zapłonu jest wyższa niż 60 °C",
+          "C": "Jako materiał klasy 9, bo o klasie decyduje tu sama temperatura przewozu"
         },
         "correct_option": "A",
-        "explanation": "Nalepka z czerwonym tłem, białym płomieniem i cyfrą 3 oznacza ciecz zapalną. Gazy trujące rozpoznasz po nalepce 2.3 z czaszką, a materiały utleniające klasy 5.1 mają żółte tło i inny symbol. Sam płomień nie wystarczy do rozpoznania zagrożenia, bo występuje na kilku nalepkach. Zawsze sprawdź kolor, symbol i numer klasy. Podstawa: ADR 5.2.2.2.2.",
+        "explanation": "Do klasy 3 należą zwykle ciecze o temperaturze zapłonu nie wyższej niż 60 °C. ADR włącza do tej klasy także ciecze o wyższej temperaturze zapłonu, jeżeli przewozi się je podgrzane do tej temperatury lub wyżej, bo wtedy wydzielają palne pary. Taki olej zalicza się do UN 3256. Klasa 9 obejmuje gorące ciecze tylko wtedy, gdy są chłodniejsze niż ich temperatura zapłonu. Podstawa: ADR 2.2.3.1.1 i 2.2.9.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.2.2",
+            "reference": "ADR 2025, 2.2.3.1.1; 2.2.9.3 (M9)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Nalepka wzoru 6.1 ma symbol czaszki ze skrzyżowanymi piszczelami. Jakie zagrożenie rozpoznaje kierowca?",
+        "stem": "W dokumencie przewozowym materiał klasy 6.1 ma III grupę pakowania. Pracownik uważa, że to prawie bezpieczny towar i przy rozładunku nie trzeba uważać. Co oznacza III grupa pakowania w tej klasie?",
         "options": {
-          "A": "Materiały zakaźne klasy 6.2",
-          "B": "Materiały trujące klasy 6.1",
-          "C": "Materiały żrące klasy 8"
+          "A": "Materiał nietrujący, który trafił do klasy 6.1 ze względu na swój zapach",
+          "B": "Materiał słabo trujący, który nadal może zaszkodzić przy kontakcie",
+          "C": "Materiał silnie trujący, bo III to najwyższa grupa zagrożenia"
         },
         "correct_option": "B",
-        "explanation": "Nalepka z czaszką i skrzyżowanymi piszczelami oznacza materiał trujący klasy 6.1, więc trzeba chronić się przed narażeniem na jego działanie. Materiały zakaźne klasy 6.2 i materiały żrące klasy 8 stwarzają inne rodzaje zagrożenia i mają inne symbole. Rozpoznaj cały znak, nie tylko cyfrę lub kolor. Podstawa: ADR 5.2.2.2.2.",
+        "explanation": "W klasie 6.1 grupa pakowania pokazuje, jak silnie materiał truje. Grupa I oznacza materiały silnie trujące, grupa II trujące, a grupa III słabo trujące. Materiał z grupy III nadal jest trujący i może zaszkodzić po wdychaniu, połknięciu albo przez skórę. Dlatego przy jego rozładunku trzeba zachować ostrożność tak samo jak przy innych towarach tej klasy. Podstawa: ADR 2.2.61.1.1 i 2.2.61.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.2.2",
+            "reference": "ADR 2025, 2.2.61.1.1; 2.2.61.1.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pakujący przygotowuje sztuki przesyłek z towarami niebezpiecznymi do transportu ADR. Który obowiązek należy do pakującego?",
+        "stem": "Zakład ładuje towar niebezpieczny luzem do kontenera do przewozu luzem i przygotowuje go do wysyłki. Kto według ADR ma zapewnić, że kontener ma wymagane duże nalepki ostrzegawcze?",
         "options": {
-          "A": "Sprawdzić trasę i ograniczenia tunelowe, a opakowanie pozostawić do decyzji przewoźnika",
-          "B": "Upewnić się, że kierowca ma wymagane uprawnienia",
-          "C": "Dopilnować właściwego opakowania, znaków i nalepek na przesyłkach"
+          "A": "Odbiorca, który po dostawie sprawdza stan kontenera i jego ładunku",
+          "B": "Producent kontenera, który wydaje dokumenty jego dopuszczenia",
+          "C": "Napełniający, czyli firma ładująca towar luzem do tego kontenera"
         },
         "correct_option": "C",
-        "explanation": "Pakujący odpowiada za prawidłowe przygotowanie sztuk przesyłek, w tym dobór opakowania oraz wymagane oznakowanie. Sprawdzanie trasy i ograniczeń tunelowych należy do innych obowiązków, a kontrola uprawnień kierowcy nie zastępuje pracy pakującego. Wadliwe opakowanie trzeba poprawić przed przekazaniem towaru do przewozu. Podstawa: ADR 1.4.3.2.",
+        "explanation": "Napełniający to firma, która ładuje towar niebezpieczny luzem do pojazdu lub kontenera do przewozu luzem. Przygotowując taki ładunek do przewozu, ma zapewnić na kontenerze nalepki ostrzegawcze, znaki i tablice barwy pomarańczowej zgodne z działem 5.3. Producent kontenera nie zna ładunku, a odbiorca widzi kontener dopiero po przewozie. Napełniający musi też przestrzegać przepisów o przewozie luzem z działu 7.3. Podstawa: ADR 1.2.1 i 1.4.3.3 (h).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.2",
+            "reference": "ADR 2025, 1.4.3.3 (h); 1.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
