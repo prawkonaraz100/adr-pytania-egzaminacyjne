@@ -25,17 +25,18 @@ class LiteralReview0316To0330Tests(unittest.TestCase):
             self.assertIsNone(row["reviewer"])
 
     def test_bank_blob_matches_expected_sha(self):
-        raw = BANK.read_bytes()\n        digest = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
+        raw = BANK.read_bytes()
+        digest = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
         self.assertEqual(digest, EXPECTED_BANK_SHA)
 
-    def test_bank_records_keep_keys_modules_and_draft_status(self):
-        rows = {row["id"]: row for row in (json.loads(line) for line in BANK.read_text(encoding="utf-8").splitlines() if line.strip())}
+    def test_corrected_records_match_manifest_without_changing_keys_or_status(self):
+        bank = {row["id"]: row for row in (json.loads(line) for line in BANK.read_text(encoding="utf-8").splitlines() if line.strip())}
         corrections = [json.loads(line) for line in CORRECTIONS.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(bank), 780)
+        self.assertTrue(all(q["verification_status"] == "needs_review" for q in bank.values()))
         for patch in corrections:
             with self.subTest(id=patch["id"]):
-                self.assertEqual(rows[patch["id"]]["correct_option"], patch["correct_option"])
-                self.assertEqual(rows[patch["id"]]["module_id"], patch["module_id"])
-                self.assertEqual(rows[patch["id"]]["verification_status"], "needs_review")
+                self.assertEqual(bank[patch["id"]], patch)
 
 if __name__ == "__main__":
     unittest.main()
