@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Górne pole pomarańczowej tablicy ADR zawiera numer rozpoznawczy zagrożenia „80”. Jakie zagrożenie wskazuje ten numer?",
+        "stem": "Przed wyjazdem kierowca porównuje dokument przewozowy z tablicą barwy pomarańczowej. Górny numer na tablicy to 85. Jakie zagrożenia opisuje ten numer?",
         "options": {
-          "A": "Substancję żrącą lub słabo żrącą",
-          "B": "Gaz palny",
-          "C": "Materiał zakaźny"
+          "A": "Materiał żrący lub słabo żrący, który ma też działanie utleniające",
+          "B": "Materiał żrący lub słabo żrący, który jest też trujący",
+          "C": "Materiał silnie żrący, bo druga cyfra 5 wzmacnia jego działanie żrące"
         },
         "correct_option": "A",
-        "explanation": "Numer rozpoznawczy zagrożenia 80 oznacza substancję żrącą lub słabo żrącą. Nie jest to kod gazu palnego ani materiału zakaźnego, które mają inne oznaczenia. Górna liczba na tablicy opisuje zagrożenie, a dolny numer UN wskazuje konkretny towar; czytaj oba pola, nie zamieniając ich znaczenia. Podstawa: ADR 5.3.2.3.2.",
+        "explanation": "Każda cyfra numeru rozpoznawczego zagrożenia oznacza inne zagrożenie. Cyfra 8 to działanie żrące, a cyfra 5 to działanie utleniające, czyli wzmagające palenie. Numer 85 oznacza więc materiał żrący lub słabo żrący, który dodatkowo jest utleniający. Działanie trujące oznacza cyfra 6, a silne działanie żrące pokazuje powtórzona cyfra 8, jak w numerze 88. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.2",
+            "reference": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,14 +61,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kontener przewożący towary niebezpieczne wymaga dużych nalepek ostrzegawczych zgodnie z ADR 5.3.1.2. Gdzie zasadniczo powinny być umieszczone?",
+        "stem": "Elastyczny kontener do przewozu luzem z towarem niebezpiecznym wymaga dużych nalepek ostrzegawczych. Gdzie należy je umieścić?",
         "options": {
-          "A": "Nalepki na samych drzwiach",
-          "B": "Na obu bokach i na obu końcach kontenera",
-          "C": "W dokumentach i na etykiecie przy drzwiach"
+          "A": "Na obu bokach i obu czołach, jak na zwykłym kontenerze",
+          "B": "Na dwóch przeciwległych bokach tego elastycznego kontenera",
+          "C": "Na górnej powierzchni, aby były widoczne przy przeładunku dźwigiem"
         },
         "correct_option": "B",
-        "explanation": "Duże nalepki na kontenerze mają umożliwić rozpoznanie zagrożenia osobom podchodzącym do niego z różnych stron. Dlatego zasadniczo umieszcza się je na obu bokach i obu końcach, a nie tylko przy drzwiach. Informacja w dokumencie przewozowym jest potrzebna, ale nie zastępuje widocznego oznakowania jednostki. Podstawa: ADR 5.3.1.2.",
+        "explanation": "Na zwykłych kontenerach i kontenerach do przewozu luzem duże nalepki umieszcza się na obu bokach i obu czołach. Dla elastycznych kontenerów do przewozu luzem ADR przewiduje osobną zasadę: nalepki umieszcza się na dwóch przeciwległych bokach. Oznakowanie ma być widoczne dla osób podchodzących do kontenera z boku, a nie tylko z góry. Nalepka na górnej powierzchni nie spełnia więc tego wymogu. Podstawa: ADR 5.3.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Podczas przewozu ADR pasażer pełniący rolę członka załogi nie ma żadnego dokumentu tożsamości ze zdjęciem. Co wymaga ADR 1.10.1.4?",
+        "stem": "Przewóz odbywa się na pełnych zasadach ADR. Kierowcy towarzyszy praktykant, który uczy się zawodu, ale nie ma przy sobie dokumentu ze zdjęciem. Czy wymóg ADR 1.10.1.4 dotyczy praktykanta?",
         "options": {
-          "A": "Wystarczy znać numer telefonu pracodawcy",
-          "B": "Wystarczy dokument bez zdjęcia",
-          "C": "Każdy członek załogi powinien mieć przy sobie dokument tożsamości ze zdjęciem"
+          "A": "Nie, bo praktykant nie prowadzi pojazdu i nie jest członkiem załogi",
+          "B": "Nie, bo wystarczy, że dokument ze zdjęciem ma kierowca prowadzący pojazd",
+          "C": "Tak, praktykant jest członkiem załogi i musi mieć dokument ze zdjęciem"
         },
         "correct_option": "C",
-        "explanation": "Członek załogi objęty wymaganiem ADR powinien mieć przy sobie dokument tożsamości ze zdjęciem, aby można było potwierdzić jego tożsamość. Sam numer telefonu pracodawcy nie jest dokumentem, a dokument bez fotografii nie spełnia wskazanego warunku. Sprawdź to przed wyjazdem, zamiast zakładać, że wystarczy identyfikacja ustna. Podstawa: ADR 1.10.1.4.",
+        "explanation": "Członkiem załogi pojazdu jest kierowca oraz osoba, która mu towarzyszy z przyczyn związanych z bezpieczeństwem, ochroną, szkoleniem lub czynnościami transportowymi. Praktykant jedzie w celu szkolenia, więc jest członkiem załogi, mimo że nie prowadzi pojazdu. ADR wymaga, aby każdy członek załogi miał przy sobie dokument z fotografią potwierdzający tożsamość. Dokument kierowcy nie zastępuje dokumentu praktykanta. Podstawa: ADR 1.2.1 i 1.10.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.1.4",
+            "reference": "ADR 2025, 1.10.1.4; 1.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
