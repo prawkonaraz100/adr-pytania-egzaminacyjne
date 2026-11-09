@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0447",
       "order": 447,
-      "clause": "1.1.4.7.1",
+      "clause": "ADR 2025, 1.1.4.7.1",
       "source_2025_comparison_url": "https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wyjątek dotyczy importowanych naczyń ciśnieniowych DOT dopuszczonych do łańcucha z 1.1.4.2, w tym dalszej drogi od czasowego składowania do końcowego użytkownika."
+          "rationale": "1.1.4.7.1: przewóz od miejsca tymczasowego składowania do odbiorcy finalnego na końcu łańcucha."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowy wariant: Dowolne napełnianie tej butli w Polsce bez kontroli. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.1. Wymaga niezależnej recenzji."
+          "rationale": "1.1.4.7.1 nie obejmuje ponownego napełniania – napełnianie tylko na eksport (1.1.4.7.2)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowy wariant: Automatyczne zwolnienie ze wszystkich wymagań przewozu gazów. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.1. Wymaga niezależnej recenzji."
+          "rationale": "1.1.4.7.1 kończy się u odbiorcy finalnego – nie obejmuje dalszej dystrybucji."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego.",
+      "notes_on_conditions": "1.1.4.7.1 s. 31. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -34,14 +34,14 @@
       "question_snapshot": {
         "id": "ADR-B-0447",
         "module_id": "ADR-B-10",
-        "stem": "Do Polski drogą morską sprowadzono gaz w butli wielokrotnego napełniania zatwierdzonej przez amerykański DOT według 49 CFR 178. Jaką dodatkową możliwość przewozu przewiduje ADR 1.1.4.7.1?",
+        "stem": "Butle wielokrotnego napełniania z gazem, zatwierdzone przez DOT, przypłynęły statkiem do Gdańska w łańcuchu zgodnym z 1.1.4.2. Na jaki dalszy przewóz drogowy pozwala 1.1.4.7.1?",
         "options": {
-          "A": "Przewóz od czasowego składowania do użytkownika końcowego",
-          "B": "Napełniać butlę w Polsce bez kontroli, bo wcześniej zatwierdził ją amerykański DOT",
-          "C": "Zwolnić butlę automatycznie ze wszystkich wymagań dotyczących przewozu gazów"
+          "A": "Od miejsca tymczasowego składowania do odbiorcy finalnego w łańcuchu",
+          "B": "Do rozlewni w Polsce, gdzie butle napełni się ponownie dla nowych klientów",
+          "C": "Do kolejnych odbiorców w Europie, z możliwością odsprzedaży butli"
         },
         "correct_option": "A",
-        "explanation": "Dla określonych butli zatwierdzonych przez amerykański DOT ADR dopuszcza dalszy przewóz drogowy od miejsca czasowego składowania do użytkownika końcowego, jeśli spełniono warunki wyjątku. Nie oznacza to, że każdą butlę DOT można dowolnie przewozić lub napełniać w Polsce. Sam wcześniejszy rejs morski nie zwalnia z pozostałych wymagań dla gazów. Przed użyciem wyjątku sprawdź jego pełny zakres. Podstawa: ADR 1.1.4.7.1.",
+        "explanation": "Punkt 1.1.4.7.1 dotyczy przywozu gazów w butlach wielokrotnego napełniania zatwierdzonych przez DOT, wykonanych i zbadanych według części 178 tytułu 49 amerykańskiego Kodeksu Przepisów Federalnych. Jeśli nadano je w łańcuchu transportowym zgodnie z 1.1.4.2, mogą jechać od miejsca tymczasowego składowania do odbiorcy finalnego na końcu łańcucha. Ten przepis nie obejmuje ponownego napełniania butli w Polsce dla klientów. Nie obejmuje też dalszej odsprzedaży i rozwożenia butli do kolejnych odbiorców. Podstawa: ADR 1.1.4.7.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -56,24 +56,24 @@
     {
       "id": "ADR-B-0448",
       "order": 448,
-      "clause": "1.1.4.7.2",
+      "clause": "ADR 2025, 1.1.4.7.2",
       "source_2025_comparison_url": "https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowy wariant: Do dowolnego kraju będącego stroną ADR. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2. Wymaga niezależnej recenzji."
+          "rationale": "1.1.4.7.2: eksport do krajów niebędących Umawiającymi się Stronami ADR – nie do państw ADR."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowy wariant: Wyłącznie do przewoźnika krajowego. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2. Wymaga niezależnej recenzji."
+          "rationale": "Siedziba przewoźnika nie jest kryterium 1.1.4.7.2."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Odstępstwo dotyczy napełnienia i przewozu w celu wywozu do państw niebędących stronami ADR; sama amerykańska homologacja nie wystarcza."
+          "rationale": "1.1.4.7.2: napełniane i przewożone wyłącznie w celu eksportu do krajów niebędących Umawiającymi się Stronami ADR."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego. Etap 4b: zamiana miejsc opcji B i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "1.1.4.7.2 s. 31. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -81,14 +81,14 @@
       "question_snapshot": {
         "id": "ADR-B-0448",
         "module_id": "ADR-B-10",
-        "stem": "Butla wielokrotnego napełniania dopuszczona w USA ma być napełniona w Polsce w celu eksportu zgodnie z ADR 1.1.4.7.2. Dokąd może być kierowany taki eksport w ramach tego przepisu?",
+        "stem": "Firma w Polsce chce napełnić butlę DOT gazem według 1.1.4.7.2 i wysłać ją do odbiorcy za granicą. Do jakich państw według tego przepisu może być kierowany taki przewóz?",
         "options": {
-          "A": "Eksportować do dowolnego państwa będącego stroną ADR, bez dalszych warunków",
-          "B": "Kierować eksport wyłącznie do przewoźnika zarejestrowanego w Polsce",
-          "C": "Eksportować wyłącznie do państw, które nie są stronami ADR"
+          "A": "Do państw Unii Europejskiej, które są też Umawiającymi się Stronami ADR",
+          "B": "Do państw, w których przewoźnik ma oddział lub zarejestrowaną firmę",
+          "C": "Do państw, które nie są Umawiającymi się Stronami ADR, w celu eksportu"
         },
         "correct_option": "C",
-        "explanation": "Wyjątek dotyczący napełniania określonych butli DOT w państwie ADR pozwala na przewóz w celu eksportu do państw niebędących stronami ADR, pod warunkami wskazanymi w przepisie. Samo dopuszczenie butli w USA nie oznacza prawa do wysłania jej do dowolnego kraju będącego stroną ADR. Rejestracja przewoźnika w Polsce także nie rozstrzyga kierunku eksportu. Podstawa: ADR 1.1.4.7.2.",
+        "explanation": "Punkt 1.1.4.7.2 pozwala napełniać i przewozić butle wielokrotnego napełniania zatwierdzone przez DOT w celu eksportu do krajów niebędących Umawiającymi się Stronami ADR. Taki przewóz nie może więc kończyć się u odbiorcy w państwie, które stosuje ADR, także w Unii Europejskiej. Siedziba lub oddział przewoźnika nie mają tu znaczenia. Trzeba też spełnić warunki z liter od (a) do (c) tego punktu. Podstawa: ADR 1.1.4.7.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -103,24 +103,24 @@
     {
       "id": "ADR-B-0449",
       "order": 449,
-      "clause": "1.1.4.7.2(a)",
+      "clause": "ADR 2025, 1.1.4.7.2 (a)",
       "source_2025_comparison_url": "https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowy wariant: Według dowolnych instrukcji spedytora. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2(a). Wymaga niezależnej recenzji."
+          "rationale": "1.1.4.7.2 (a): napełnianie zgodne z CFR – instrukcja uzgodniona ze spedytorem tego nie zastępuje."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowy wariant: Z pominięciem wymagań technicznych, jeśli transport odbywa się promem. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2(a). Wymaga niezależnej recenzji."
+          "rationale": "1.1.4.7.2 (a) wskazuje CFR, nie Kodeks IMDG."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Warunkiem odstępstwa jest napełnianie zgodne z właściwymi amerykańskimi wymaganiami CFR."
+          "rationale": "1.1.4.7.2 (a): napełnianie zgodne z odpowiednimi wymaganiami Kodeksu Przepisów Federalnych USA."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego.",
+      "notes_on_conditions": "1.1.4.7.2 (a) s. 31. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -128,18 +128,18 @@
       "question_snapshot": {
         "id": "ADR-B-0449",
         "module_id": "ADR-B-10",
-        "stem": "Przy korzystaniu z ADR 1.1.4.7.2 dla butli DOT przeznaczonej na eksport, według jakich zasad musi odbywać się napełnienie?",
+        "stem": "Rozlewnia w Polsce napełnia butlę DOT, która pojedzie na eksport do państwa spoza ADR według 1.1.4.7.2. Jakie wymagania napełniania wskazuje litera (a) tego punktu?",
         "options": {
-          "A": "Napełniać według dowolnych instrukcji spedytora, nawet jeśli nie są zgodne z prawem",
-          "B": "Pominąć wymagania techniczne, jeżeli przewóz obejmuje odcinek morski",
-          "C": "Stosować właściwe wymagania amerykańskiego Code of Federal Regulations"
+          "A": "Instrukcję rozlewni uzgodnioną wcześniej ze spedytorem morskim w porcie",
+          "B": "Przepisy Kodeksu IMDG, bo butla popłynie później statkiem",
+          "C": "Wymagania Kodeksu Przepisów Federalnych Stanów Zjednoczonych"
         },
         "correct_option": "C",
-        "explanation": "Przy zastosowaniu wyjątku eksportowego butlę DOT należy napełnić zgodnie z właściwymi wymaganiami amerykańskiego Code of Federal Regulations. Nie można zastąpić tych zasad instrukcją spedytora ani pominąć wymagań technicznych dlatego, że część trasy odbywa się drogą morską. Wyjątek działa tylko w granicach opisanych w ADR. Sprawdź warunki przed napełnieniem, a nie dopiero przy kontroli. Podstawa: ADR 1.1.4.7.2(a).",
+        "explanation": "Litera (a) punktu 1.1.4.7.2 mówi, że napełnianie takiego naczynia ciśnieniowego ma być zgodne z odpowiednimi wymaganiami Kodeksu Przepisów Federalnych Stanów Zjednoczonych Ameryki. Butla jest zatwierdzona przez amerykański Departament Transportu, więc jej napełnianie ocenia się według przepisów USA. Instrukcja uzgodniona ze spedytorem nie zastępuje tych wymagań. Późniejszy rejs statkiem nie zmienia zasad napełniania wskazanych w ADR. Podstawa: ADR 1.1.4.7.2 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.7.2(a)",
+            "reference": "ADR 2025, 1.1.4.7.2 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -150,24 +150,24 @@
     {
       "id": "ADR-B-0450",
       "order": 450,
-      "clause": "1.1.4.7.2(b)",
+      "clause": "ADR 2025, 1.1.4.7.2 (b)",
       "source_2025_comparison_url": "https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowy wariant: Dowolne oznakowanie sprzedawcy. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2(b). Wymaga niezależnej recenzji."
+          "rationale": "1.1.4.7.2 (b): oznakowanie i nalepki według działu 5.2 – samo oznakowanie USA nie wystarcza."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nieprawidłowy wariant: Wyłącznie regulamin konkretnego promu. Nie spełnia przesłanek lub pomija obowiązek określony w ADR 1.1.4.7.2(b). Wymaga niezależnej recenzji."
+          "rationale": "1.1.4.7.2 (b): dział 5.2 ADR, nie wymagania portu dobierane przez przewoźnika."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Warunkiem zastosowania odstępstwa jest oznakowanie i nalepek ostrzegawczych zgodnie z rozdziałem 5.2 ADR."
+          "rationale": "1.1.4.7.2 (b): naczynia oznakowane i opatrzone nalepkami ostrzegawczymi zgodnie z działem 5.2."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Warunki dotyczą tylko szczególnych przypadków naczyń ciśnieniowych DOT w przewozie multimodalnym; nie stanowią szkolenia specjalistycznego. Etap 4b: zamiana miejsc opcji A i C bez zmian ich treści; nowy klucz C; ocena eksperta nadal pending.",
+      "notes_on_conditions": "1.1.4.7.2 (b) s. 31. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -175,18 +175,18 @@
       "question_snapshot": {
         "id": "ADR-B-0450",
         "module_id": "ADR-B-10",
-        "stem": "Naczynie ciśnieniowe DOT korzysta z wyjątku eksportowego ADR 1.1.4.7.2. Jakie przepisy wyznaczają jego oznakowanie i nalepki?",
+        "stem": "Butla DOT napełniona w Polsce jedzie na eksport do państwa spoza ADR według 1.1.4.7.2. Nadawca chce zostawić na niej samo oznakowanie amerykańskie. Jak według litery (b) oznakowuje się takie naczynie?",
         "options": {
-          "A": "Zastosować dowolne oznakowanie wybrane przez sprzedawcę butli",
-          "B": "Kierować się wyłącznie regulaminem konkretnego promu morskiego",
-          "C": "Rozdział 5.2 ADR określa wymagane oznakowanie i nalepki"
+          "A": "Wystarczy oznakowanie amerykańskie, bo butla jest zatwierdzona przez DOT",
+          "B": "Oznakowanie dobiera przewoźnik według wymagań portu morskiego",
+          "C": "Znakami i nalepkami ostrzegawczymi zgodnie z przepisami działu 5.2 ADR"
         },
         "correct_option": "C",
-        "explanation": "Wyjątek dla naczynia ciśnieniowego DOT nie oznacza, że można użyć dowolnej etykiety producenta albo zasad wybranego promu. Dla oznakowania i nalepek trzeba zastosować wymagania wskazane w ADR, w tym rozdział 5.2. Przed przekazaniem naczynia do przewozu sprawdź, czy właściwe oznaczenia są kompletne i czytelne; odpowiedzi A i B nie wskazują wymaganej podstawy. Podstawa: ADR 1.1.4.7.2(b).",
+        "explanation": "Litera (b) punktu 1.1.4.7.2 wymaga, aby naczynia ciśnieniowe przewożone na eksport były oznakowane i opatrzone nalepkami ostrzegawczymi zgodnie z działem 5.2. Zatwierdzenie butli przez DOT dotyczy jej budowy i badań, ale nie zwalnia z oznakowania według ADR. Nadawca nie może więc poprzestać na samym oznakowaniu amerykańskim. Wymagań oznakowania nie wybiera też przewoźnik według zasad portu. Podstawa: ADR 1.1.4.7.2 (b) i dział 5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.7.2(b)",
+            "reference": "ADR 2025, 1.1.4.7.2 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
