@@ -2,7 +2,7 @@
   "stage": "4x40",
   "date": "2026-10-27",
   "scope": "ADR-BASIC-ONLY",
-  "source_bank_blob_sha": "094473164719bc6a651a6e303dc117cfa6503ffb",
+  "source_bank_blob_sha": "e560a3892b2b76217bf4ff9a977a1a4c2771eff8",
   "queue_basis": "121 IDs listed in review/specialist/ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md; ranked by presence of numerical thresholds, exemptions, vehicle approval, dangerous-goods classes, tunnel restrictions, and documentation terms.",
   "queue_count": 20,
   "full_missing_quote_count": 144,
@@ -120,9 +120,9 @@
     {
       "id": "ADR-B-0451",
       "module_id": "ADR-B-10",
-      "question": "Dla butli DOT przeznaczonej do eksportu w reżimie 1.1.4.7.2 upłynął termin badania okresowego. Czy można ją ponownie napełnić przed badaniem?",
+      "question": "Butla DOT ma być napełniona w Polsce na eksport według 1.1.4.7.2. Termin jej badania okresowego minął miesiąc temu, ale butla jest szczelna i nie ma uszkodzeń. Czy można ją napełnić?",
       "legal_basis": [
-        "ADR 2025, 1.1.4.7.2(c)"
+        "ADR 2025, 1.1.4.7.2 (c)"
       ],
       "priority_score": 5,
       "priority_reasons": [
@@ -138,9 +138,9 @@
     {
       "id": "ADR-B-0452",
       "module_id": "ADR-B-10",
-      "question": "Termin badania butli DOT objętej 1.1.4.7.2 upłynął. Czy przepis przewiduje możliwość przewozu jej do wykonania wymaganego badania, także z przejazdami pośrednimi?",
+      "question": "Pusta butla DOT objęta 1.1.4.7.2 ma przekroczony termin badania okresowego. Firma chce ją zawieźć do stacji badań, z przeładunkiem w magazynie po drodze. Czy taki przewóz jest dozwolony?",
       "legal_basis": [
-        "ADR 2025, 1.1.4.7.2(c)"
+        "ADR 2025, 1.1.4.7.2 (c)"
       ],
       "priority_score": 5,
       "priority_reasons": [

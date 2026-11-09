@@ -184,18 +184,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Dla butli DOT przeznaczonej do eksportu w reżimie 1.1.4.7.2 upłynął termin badania okresowego. Czy można ją ponownie napełnić przed badaniem?",
+        "stem": "Butla DOT ma być napełniona w Polsce na eksport według 1.1.4.7.2. Termin jej badania okresowego minął miesiąc temu, ale butla jest szczelna i nie ma uszkodzeń. Czy można ją napełnić?",
         "options": {
-          "A": "Tak, można napełnić butlę przed badaniem, jeśli pozostaje pełna",
-          "B": "Nie; po upływie terminu badania okresowego butli nie wolno napełniać",
-          "C": "Tak, jeśli odbiorca pisemnie zaakceptuje brak aktualnego badania okresowego butli"
+          "A": "Tak, bo butla jest szczelna i nie ma widocznych uszkodzeń ścianek",
+          "B": "Nie, po upływie terminu badania okresowego nie powinna być napełniana",
+          "C": "Tak, jeśli odbiorca w kraju eksportu zgodzi się na to wcześniej na piśmie"
         },
         "correct_option": "B",
-        "explanation": "Jeśli minął termin badania okresowego butli DOT objętej tym wyjątkiem, nie wolno jej ponownie napełniać przed wymaganym badaniem. Zgoda odbiorcy ani fakt, że butla nadal jest pełna, nie uchylają tego zakazu. Możliwość przewiezienia butli do badania nie oznacza prawa do dalszego napełniania jej w zwykłym trybie. Podstawa: ADR 1.1.4.7.2(c).",
+        "explanation": "Butle DOT napełniane w Polsce na eksport muszą spełniać warunki z 1.1.4.7.2. Litera (c) tego punktu mówi, że naczynia ciśnieniowe nie powinny być napełniane po upływie terminu badania okresowego. Szczelność i brak widocznych uszkodzeń nie zastępują badania, bo badanie sprawdza też to, czego nie widać z zewnątrz. Zgoda odbiorcy również nie zmienia tego wymagania. Podstawa: ADR 1.1.4.7.2 (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.7.2(c)",
+            "reference": "ADR 2025, 1.1.4.7.2 (c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -225,18 +225,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Termin badania butli DOT objętej 1.1.4.7.2 upłynął. Czy przepis przewiduje możliwość przewozu jej do wykonania wymaganego badania, także z przejazdami pośrednimi?",
+        "stem": "Pusta butla DOT objęta 1.1.4.7.2 ma przekroczony termin badania okresowego. Firma chce ją zawieźć do stacji badań, z przeładunkiem w magazynie po drodze. Czy taki przewóz jest dozwolony?",
         "options": {
-          "A": "Nie; po terminie badania nie wolno przewozić butli w żadnym celu",
-          "B": "Tak; można przewieźć ją tylko bez dokumentu przewozowego i bez kontroli",
-          "C": "Tak; można przewieźć ją w celu badania, również przez etapy pośrednie"
+          "A": "Nie, butla po terminie badania musi czekać na badanie na miejscu",
+          "B": "Tak, ale jedynie bez przeładunku i bez postojów po drodze",
+          "C": "Tak, w celu badania, także z przewozami pośrednimi po drodze"
         },
         "correct_option": "C",
-        "explanation": "Butla z przekroczonym terminem badania nie powinna wrócić do normalnego użytkowania bez wymaganego sprawdzenia. ADR przewiduje jednak możliwość przewiezienia jej do miejsca badania, także przez miejsca pośrednie, na warunkach wskazanych w przepisie. Błędne jest zarówno uznanie każdego przewozu za zakazany, jak i pominięcie wymaganych formalności. Podstawa: ADR 1.1.4.7.2(c).",
+        "explanation": "Litera (c) punktu 1.1.4.7.2 zakazuje napełniania butli po upływie terminu badania okresowego, ale pozwala ją przewieźć po tym terminie. Taki przewóz musi służyć przeprowadzeniu badania. Przepis wprost dopuszcza przy tym przewozy pośrednie, więc przeładunek w magazynie po drodze go nie wyklucza. Butla nie musi więc czekać na miejscu, ale nie wolno jej po drodze napełnić. Podstawa: ADR 1.1.4.7.2 (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.7.2(c)",
+            "reference": "ADR 2025, 1.1.4.7.2 (c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -266,18 +266,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W łańcuchu importu gazu w butli DOT przewoźnik korzysta z ADR 1.1.4.7.1. Jaką specjalną wzmiankę powinien przewidywać dokument przewozowy?",
+        "stem": "Butle DOT z gazem przypłynęły do Gdyni i jadą ciężarówką do odbiorcy finalnego na zasadach 1.1.4.7.1. Jaki zapis według 5.4.1.1.24 powinien być w dokumencie przewozowym?",
         "options": {
-          "A": "Wystarczy numer telefonu kierowcy zamiast danych o przewozie",
-          "B": "W dokumencie wpisuje się jedynie słowo „gaz”, bez dodatkowej wzmianki",
-          "C": "Dodać wzmiankę o przewozie zgodnym z 1.1.4.7.1 według 5.4.1.1.24"
+          "A": "„BUTLE DOT – IMPORT”, bez odwołania do punktu ADR",
+          "B": "„PRZEWÓZ ZGODNY Z 1.1.4.7.2”",
+          "C": "„PRZEWÓZ ZGODNY Z 1.1.4.7.1”"
         },
         "correct_option": "C",
-        "explanation": "Przy imporcie gazu w butli DOT na zasadach wskazanego wyjątku dokument przewozowy musi zawierać przewidzianą wzmiankę o zastosowaniu ADR 1.1.4.7.1. Samo słowo „gaz” nie identyfikuje warunków przewozu, a numer telefonu kierowcy nie zastępuje wymaganych informacji. Sprawdź dokładną treść wpisu przed rozpoczęciem przewozu. Podstawa: ADR 5.4.1.1.24.",
+        "explanation": "Punkt 5.4.1.1.24 dotyczy przewozu butli wielokrotnego napełniania zatwierdzonych przez amerykański Departament Transportu. Przy przewozie zgodnym z 1.1.4.7 w dokumencie przewozowym umieszcza się odpowiedni zapis z numerem tego punktu. Przy przywozie butli do odbiorcy finalnego jest to zapis „PRZEWÓZ ZGODNY Z 1.1.4.7.1”. Zapis z numerem 1.1.4.7.2 dotyczy wywozu na eksport, a własny opis bez odwołania do punktu ADR nie wystarcza. Podstawa: ADR 5.4.1.1.24 i 1.1.4.7.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.24",
+            "reference": "ADR 2025, 5.4.1.1.24; 1.1.4.7.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -307,18 +307,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W wywozie gazów w butlach DOT korzystającym z ADR 1.1.4.7.2 jaki wariant wpisu z 5.4.1.1.24 jest właściwy?",
+        "stem": "Rozlewnia w Polsce ma napełnić na eksport według 1.1.4.7.2 pustą butlę DOT z ważnym terminem badania okresowego. Pracownik chce ją napełnić od razu, bez sprawdzenia stanu butli i zaworu. Czy może?",
         "options": {
-          "A": "Wpis dotyczy zawsze 1.1.4.7.1, bez względu na rodzaj operacji",
-          "B": "Nie trzeba wpisu, jeśli butla ma właściwe nalepki i oznakowanie",
-          "C": "W dokumencie umieścić wzmiankę o przewozie zgodnym z 1.1.4.7.2"
+          "A": "Tak, bo ważny termin badania okresowego zastępuje sprawdzenie stanu tej butli",
+          "B": "Tak, jeśli stan butli sprawdzi się po napełnieniu, przed jej wydaniem",
+          "C": "Nie, butlę napełnia się dopiero po stwierdzeniu dobrego stanu jej i zaworu"
         },
         "correct_option": "C",
-        "explanation": "Butle DOT są wykonane lub zatwierdzone według amerykańskich wymagań dotyczących opakowań ciśnieniowych. Jeśli wywóz korzysta z ADR 1.1.4.7.2, dokument przewozowy musi zawierać wzmiankę właściwą dla tego wariantu. Wpis dotyczący importu nie pasuje do każdej operacji, a prawidłowe nalepki nie zastępują wymaganej informacji w dokumencie. Podstawa: ADR 5.4.1.1.24 i 1.1.4.7.2.",
+        "explanation": "Litera (c) punktu 1.1.4.7.2 każe stosować do butli DOT napełnianych na eksport przepisy 4.1.6.12 i 4.1.6.13. Według 4.1.6.12 (b) naczynia ciśnieniowego nie przeznacza się do napełniania, dopóki sprawdzenie nie potwierdzi dobrego stanu technicznego naczynia i jego wyposażenia obsługowego, czyli na przykład zaworu. Ważny termin badania okresowego tego nie zastępuje, bo uszkodzenie mogło powstać później. Sprawdzenie po napełnieniu jest za późno, bo gaz już jest w butli. Podstawa: ADR 1.1.4.7.2 (c) i 4.1.6.12 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.24",
+            "reference": "ADR 2025, 1.1.4.7.2 (c); 4.1.6.12 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

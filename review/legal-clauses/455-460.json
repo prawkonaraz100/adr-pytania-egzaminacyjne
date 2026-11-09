@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0455",
       "order": 455,
-      "clause": "1.10.3.1.2",
+      "clause": "ADR 2025, 1.10.3.1.2",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
+          "rationale": "Według 1.10.3.1.2 towarami niebezpiecznymi dużego ryzyka klas innych niż 7 są towary wskazane w tabeli 1.10.3.1.2. Muszą one być przewożone w ilościach większych niż wskazane w tej tabeli dla danego sposobu przewozu. O zaliczeniu nie decyduje więc przewoźnik w swoim planie ochrony, bo plan dopiero wynika z takiego przewozu. Nie decyduje też numer na tablicy pomarańczowej, który opisuje zagrożenie towaru. Podstawa: ADR 1.10.3.1.2."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
+          "rationale": "Nieprawidłowy wariant: Ocena przewoźnika zapisana w jego planie ochrony przed pierwszym przewozem. Wymaganie określa ADR 2025, 1.10.3.1.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
+          "rationale": "Nieprawidłowy wariant: Numer rozpoznawczy zagrożenia na tablicy barwy pomarańczowej pojazdu. Wymaganie określa ADR 2025, 1.10.3.1.2."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Próg stosuje się po uwzględnieniu pozostałych warunków i wyłączeń ADR; 1.10.3 nie można rozszerzać automatycznie na wszystkie towary. Etap 4x116: redakcja językowa/dystraktorów; nie stanowi zatwierdzenia prawnego.",
+      "notes_on_conditions": "Kontrola druga: snapshot zsynchronizowany z bankiem; podstawa ADR 2025, 1.10.3.1.2. Niezależna recenzja specjalisty nadal oczekuje.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -34,14 +34,14 @@
       "question_snapshot": {
         "id": "ADR-B-0455",
         "module_id": "ADR-B-12",
-        "stem": "Dla towarów niebezpiecznych innych niż klasa 7, gdzie ADR określa wykaz i progi uznania za towary dużego ryzyka?",
+        "stem": "Firma sprawdza, czy jej ładunek klasy innej niż 7 jest towarem niebezpiecznym dużego ryzyka. Co według 1.10.3.1.2 o tym decyduje?",
         "options": {
-          "A": "W tabeli 1.10.3.1.2 ADR, gdzie podano towary dużego ryzyka i ich progi",
-          "B": "Wyłącznie w instrukcji pisemnej kierowcy, w części opisującej działania w razie wypadku",
-          "C": "W dokumentach pojazdu, w danych o jego dopuszczalnej masie i przeznaczeniu"
+          "A": "Wpis towaru w tabeli 1.10.3.1.2 i ilość większa niż podana tam wartość",
+          "B": "Ocena przewoźnika zapisana w jego planie ochrony przed pierwszym przewozem",
+          "C": "Numer rozpoznawczy zagrożenia na tablicy barwy pomarańczowej pojazdu"
         },
         "correct_option": "A",
-        "explanation": "Wykaz towarów dużego ryzyka innych niż klasa 7 oraz progi ich ilości znajdują się w tabeli ADR 1.10.3.1.2. Instrukcje pisemne opisują postępowanie podczas zdarzenia, a dokumenty pojazdu nie określają, czy ładunek należy do tej grupy. Sprawdź właściwy wpis i próg dla danego rodzaju przewozu. Podstawa: ADR 1.10.3.1.2.",
+        "explanation": "Według 1.10.3.1.2 towarami niebezpiecznymi dużego ryzyka klas innych niż 7 są towary wskazane w tabeli 1.10.3.1.2. Muszą one być przewożone w ilościach większych niż wskazane w tej tabeli dla danego sposobu przewozu. O zaliczeniu nie decyduje więc przewoźnik w swoim planie ochrony, bo plan dopiero wynika z takiego przewozu. Nie decyduje też numer na tablicy pomarańczowej, który opisuje zagrożenie towaru. Podstawa: ADR 1.10.3.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -56,24 +56,24 @@
     {
       "id": "ADR-B-0456",
       "order": 456,
-      "clause": "1.10.3.1.2 (tabela i przypis c)",
+      "clause": "ADR 2025, 1.10.3.1.2 (tabela, podklasa 1.4)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada tabeli 1.10.3.1.2: Tak, w każdym rodzaju przewozu. Należy uwzględniać typ przewozu, próg i przypisy, zamiast pomijać wskazane ograniczenia."
+          "rationale": "Nieprawidłowy wariant: Tak, bo materiały klasy 1 mają w tej tabeli próg 0 kg w sztukach przesyłek. Wymaganie określa ADR 2025, 1.10.3.1.2 (tabela, podklasa 1.4)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Tabela ADR o ochronie przewozu podaje różne progi zależnie od sposobu transportu. Próg 3000 litrów dla przewozu w zbiorniku (cysternie) nie może być automatycznie użyty dla towaru w osobnych opakowaniach, czyli sztukach przesyłek. Odczytaj kolumnę odpowiadającą temu, jak towar jest rzeczywiście przewożony; zaświadczenie kierowcy nie zmienia tych wartości. Podstawa: ADR 1.10.3.1.2 i przypis (c)."
+          "rationale": "Tabela 1.10.3.1.2 nie obejmuje całej klasy 1 w ten sam sposób. Podklasy 1.1, 1.2, 1.3 grupy zgodności C, 1.5 i 1.6 są w niej wymienione ogólnie. W podklasie 1.4 tabela wymienia tylko konkretne numery UN, na przykład UN 0104, 0237 i 0255, a UN 0012 do nich nie należy. Naboje UN 0012 nie są więc towarem dużego ryzyka, ale ogólne zasady ochrony z 1.10.1 nadal obowiązują. Podstawa: ADR 1.10.3.1.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada tabeli 1.10.3.1.2: Tak, pod warunkiem że kierowca ma zaświadczenie ADR. Należy uwzględniać typ przewozu, próg i przypisy, zamiast pomijać wskazane ograniczenia."
+          "rationale": "Nieprawidłowy wariant: Tak, jeśli naboje jadą razem z innymi towarami klasy 1 w jednym pojeździe. Wymaganie określa ADR 2025, 1.10.3.1.2 (tabela, podklasa 1.4)."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Próg stosuje się po uwzględnieniu pozostałych warunków i wyłączeń ADR; 1.10.3 nie można rozszerzać automatycznie na wszystkie towary.",
+      "notes_on_conditions": "Kontrola druga: snapshot zsynchronizowany z bankiem; podstawa ADR 2025, 1.10.3.1.2 (tabela, podklasa 1.4). Niezależna recenzja specjalisty nadal oczekuje.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -81,18 +81,18 @@
       "question_snapshot": {
         "id": "ADR-B-0456",
         "module_id": "ADR-B-12",
-        "stem": "W tabeli 1.10.3.1.2 obok zagrożenia podano próg 3000 l dla przewozu w cysternie. Czy taki próg wolno automatycznie zastosować do sztuk przesyłek?",
+        "stem": "Przewoźnik wiezie w sztukach przesyłek naboje do broni UN 0012 z podklasy 1.4. Czy według tabeli 1.10.3.1.2 są one towarem niebezpiecznym dużego ryzyka?",
         "options": {
-          "A": "Tak; próg 3000 l można stosować do każdego sposobu przewozu bez rozróżnienia",
-          "B": "Nie; trzeba odczytać próg z kolumny odpowiadającej sposobowi przewozu",
-          "C": "Tak; wystarczy, że kierowca posiada ważne zaświadczenie ADR"
+          "A": "Tak, bo materiały klasy 1 mają w tej tabeli próg 0 kg w sztukach przesyłek",
+          "B": "Nie, UN 0012 nie jest wśród numerów UN wymienionych w wierszu podklasy 1.4",
+          "C": "Tak, jeśli naboje jadą razem z innymi towarami klasy 1 w jednym pojeździe"
         },
         "correct_option": "B",
-        "explanation": "Tabela ADR o ochronie przewozu podaje różne progi zależnie od sposobu transportu. Wartości przeznaczonej dla cystern nie wolno automatycznie stosować do towaru w sztukach przesyłek, czyli w opakowaniach. Odczytaj kolumnę odpowiadającą rzeczywistemu sposobowi przewozu; zaświadczenie kierowcy nie zmienia tych progów. Podstawa: ADR 1.10.3.1.2 i przypis (c).",
+        "explanation": "Tabela 1.10.3.1.2 nie obejmuje całej klasy 1 w ten sam sposób. Podklasy 1.1, 1.2, 1.3 grupy zgodności C, 1.5 i 1.6 są w niej wymienione ogólnie. W podklasie 1.4 tabela wymienia tylko konkretne numery UN, na przykład UN 0104, 0237 i 0255, a UN 0012 do nich nie należy. Naboje UN 0012 nie są więc towarem dużego ryzyka, ale ogólne zasady ochrony z 1.10.1 nadal obowiązują. Podstawa: ADR 1.10.3.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.1.2 (tabela i przypis c)",
+            "reference": "ADR 2025, 1.10.3.1.2 (tabela, podklasa 1.4)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -104,24 +104,24 @@
     {
       "id": "ADR-B-0457",
       "order": 457,
-      "clause": "1.10.3.1.2 przypis b",
+      "clause": "ADR 2025, 1.10.3.1.2 (tabela, przypis b)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada tabeli 1.10.3.1.2: Zawsze próg 1000 kg. Należy uwzględniać typ przewozu, próg i przypisy, zamiast pomijać wskazane ograniczenia."
+          "rationale": "Nieprawidłowy wariant: Że trzeba mieć plan ochrony, bo gaz palny jest wymieniony w tej tabeli. Wymaganie określa ADR 2025, 1.10.3.1.2 (tabela, przypis b)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada tabeli 1.10.3.1.2: Każdą ilość uznaje się za dużego ryzyka. Należy uwzględniać typ przewozu, próg i przypisy, zamiast pomijać wskazane ograniczenia."
+          "rationale": "Nieprawidłowy wariant: Że trzeba przyjąć wartość z kolumny cysterny, bo dla butli jej nie podano. Wymaganie określa ADR 2025, 1.10.3.1.2 (tabela, przypis b)."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Przypis b oznacza, że przepisy 1.10.3 nie mają zastosowania niezależnie od ilości w danym sposobie przewozu."
+          "rationale": "Litera b w tabeli 1.10.3.1.2 odsyła do przypisu, który mówi, że niezależnie od ilości towarów przepisy rozdziału 1.10.3 nie mają zastosowania. Dla gazów palnych nietrujących ta litera stoi w kolumnie sztuk przesyłek, więc butle z propanem nie są towarem dużego ryzyka. Wartości z kolumny cysterny nie przenosi się na butle. Ogólne zasady ochrony z 1.10.1 obowiązują jednak dalej. Podstawa: ADR 1.10.3.1.2 (przypis b)."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Próg stosuje się po uwzględnieniu pozostałych warunków i wyłączeń ADR; 1.10.3 nie można rozszerzać automatycznie na wszystkie towary.",
+      "notes_on_conditions": "Kontrola druga: snapshot zsynchronizowany z bankiem; podstawa ADR 2025, 1.10.3.1.2 (tabela, przypis b). Niezależna recenzja specjalisty nadal oczekuje.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -129,18 +129,18 @@
       "question_snapshot": {
         "id": "ADR-B-0457",
         "module_id": "ADR-B-12",
-        "stem": "W tabeli 1.10.3.1.2 przy danym zagrożeniu w kolumnie przewozu w sztukach przesyłek podano oznaczenie przypisu b. Co ono oznacza?",
+        "stem": "Ciężarówka wiezie 2 000 kg propanu w butlach. W wierszu tabeli 1.10.3.1.2 dla gazów palnych nietrujących w kolumnie sztuk przesyłek jest litera b. Co to oznacza dla tego przewozu?",
         "options": {
-          "A": "Przypis oznacza stały próg 1000 kg, niezależnie od rodzaju towaru i sposobu przewozu",
-          "B": "Przypis oznacza, że każda ilość staje się towarem dużego ryzyka, bez wyjątków",
-          "C": "Dla wskazanego sposobu przewozu 1.10.3 nie stosuje się niezależnie od ilości"
+          "A": "Że trzeba mieć plan ochrony, bo gaz palny jest wymieniony w tej tabeli",
+          "B": "Że trzeba przyjąć wartość z kolumny cysterny, bo dla butli jej nie podano",
+          "C": "Że przepisy 1.10.3 nie mają tu zastosowania, bez względu na ilość gazu"
         },
         "correct_option": "C",
-        "explanation": "Przypis b w tabeli to wyjątek dotyczący wskazanego sposobu przewozu: wymagania punktu 1.10.3 nie mają wtedy zastosowania niezależnie od ilości. Nie oznacza to stałego progu 1000 kg ani tego, że każda ilość automatycznie staje się towarem dużego ryzyka. Sprawdź dokładnie kolumnę i przypis w tabeli, bo wyjątek dotyczy konkretnego rodzaju przewozu. Podstawa: ADR 1.10.3.1.2, przypis (b).",
+        "explanation": "Litera b w tabeli 1.10.3.1.2 odsyła do przypisu, który mówi, że niezależnie od ilości towarów przepisy rozdziału 1.10.3 nie mają zastosowania. Dla gazów palnych nietrujących ta litera stoi w kolumnie sztuk przesyłek, więc butle z propanem nie są towarem dużego ryzyka. Wartości z kolumny cysterny nie przenosi się na butle. Ogólne zasady ochrony z 1.10.1 obowiązują jednak dalej. Podstawa: ADR 1.10.3.1.2 (przypis b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.1.2 przypis b",
+            "reference": "ADR 2025, 1.10.3.1.2 (tabela, przypis b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -151,24 +151,24 @@
     {
       "id": "ADR-B-0458",
       "order": 458,
-      "clause": "1.10.3.1.2 przypis a",
+      "clause": "ADR 2025, 1.10.3.1.2 (tabela, przypis a)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Oznaczenie a wskazuje, że dana kolumna nie jest właściwa, a nie że należy przyjąć liczbowy próg 0."
+          "rationale": "Litera a w tabeli 1.10.3.1.2 odsyła do przypisu o treści „Nie dotyczy”. Oznacza to, że kolumna przewozu luzem nie dotyczy tej pozycji tabeli, więc nie ma w niej progu dla tych cieczy. Nie wolno w takim miejscu wpisywać sobie wartości z sąsiedniej kolumny cysterny. Litera a nie oznacza też progu 0 kg, bo taki próg jest w tabeli zapisany cyfrą. Podstawa: ADR 1.10.3.1.2 (przypis a)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Litera „a” odsyła do przypisu; nie nakazuje przenosić wartości z sąsiedniej kolumny."
+          "rationale": "Nieprawidłowy wariant: Że dla przewozu luzem przyjmuje się wartość z kolumny cysterny. Wymaganie określa ADR 2025, 1.10.3.1.2 (tabela, przypis a)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Próg 100 kg nie wynika z samej litery w tabeli; należy odczytać właściwy przypis."
+          "rationale": "Nieprawidłowy wariant: Że przy przewozie luzem próg dla tej pozycji wynosi 0 kg. Wymaganie określa ADR 2025, 1.10.3.1.2 (tabela, przypis a)."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Próg stosuje się po uwzględnieniu pozostałych warunków i wyłączeń ADR; 1.10.3 nie można rozszerzać automatycznie na wszystkie towary.",
+      "notes_on_conditions": "Kontrola druga: snapshot zsynchronizowany z bankiem; podstawa ADR 2025, 1.10.3.1.2 (tabela, przypis a). Niezależna recenzja specjalisty nadal oczekuje.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -176,18 +176,18 @@
       "question_snapshot": {
         "id": "ADR-B-0458",
         "module_id": "ADR-B-12",
-        "stem": "W tabeli 1.10.3.1.2 przy rodzaju przewozu wpisano literę a. Jak rozumieć taki zapis?",
+        "stem": "W wierszu tabeli 1.10.3.1.2 dla materiałów zapalnych ciekłych I i II grupy pakowania w kolumnie „Luzem” jest litera a. Co oznacza ten zapis?",
         "options": {
-          "A": "Oznacza, że dana kolumna nie ma zastosowania do wskazanego przypadku",
-          "B": "Wskazuje, że należy zastosować wartość z sąsiedniej kolumny tabeli.",
-          "C": "Oznacza próg 100 kg dla danego towaru, niezależnie od przypisu tabeli."
+          "A": "Że kolumna przewozu luzem nie dotyczy tej pozycji tabeli",
+          "B": "Że dla przewozu luzem przyjmuje się wartość z kolumny cysterny",
+          "C": "Że przy przewozie luzem próg dla tej pozycji wynosi 0 kg"
         },
         "correct_option": "A",
-        "explanation": "Litera „a” w tej tabeli odsyła do przypisu, który wyjaśnia, że dana kolumna nie ma zastosowania w opisanej sytuacji. Nie oznacza to automatycznie progu 100 kg ani obowiązku przepisania wartości z sąsiedniej kolumny. Kierowca lub osoba planująca przewóz powinna czytać taki znak razem z przypisem i odpowiednim wierszem, nie zgadywać znaczenia. Podstawa: ADR 1.10.3.1.2, przypis (a).",
+        "explanation": "Litera a w tabeli 1.10.3.1.2 odsyła do przypisu o treści „Nie dotyczy”. Oznacza to, że kolumna przewozu luzem nie dotyczy tej pozycji tabeli, więc nie ma w niej progu dla tych cieczy. Nie wolno w takim miejscu wpisywać sobie wartości z sąsiedniej kolumny cysterny. Litera a nie oznacza też progu 0 kg, bo taki próg jest w tabeli zapisany cyfrą. Podstawa: ADR 1.10.3.1.2 (przypis a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.1.2 przypis a",
+            "reference": "ADR 2025, 1.10.3.1.2 (tabela, przypis a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -198,24 +198,24 @@
     {
       "id": "ADR-B-0459",
       "order": 459,
-      "clause": "1.10.3.1.2",
+      "clause": "ADR 2025, 1.10.3.1.2 (tabela, klasa 6.1); 1.1.3.6.2",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada tabeli 1.10.3.1.2: Wystarczy wybrać dowolną wielkość ładunku bez oceny ochrony. Należy uwzględniać typ przewozu, próg i przypisy, zamiast pomijać wskazane ograniczenia."
+          "rationale": "Nieprawidłowy wariant: Nie, bo próg 0 kg oznacza, że tej tabeli nie stosuje się do sztuk przesyłek. Wymaganie określa ADR 2025, 1.10.3.1.2 (tabela, klasa 6.1); 1.1.3.6.2."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Próg 0 oznacza przekroczenie dla dodatniej ilości, ale nadal należy uwzględniać zakres stosowania i wyłączenia rozdziału 1.10."
+          "rationale": "Towarem dużego ryzyka jest towar z tabeli 1.10.3.1.2 przewożony w ilości większej niż podana w tej tabeli. Dla materiałów trujących klasy 6.1 I grupy pakowania w kolumnie sztuk przesyłek podano 0 kg, więc 30 kg przekracza ten próg. Cyfra 0 nie oznacza wyłączenia, bo wyłączenie oznacza w tabeli litera b. Przy przewozie ze zwolnieniem z 1.1.3.6 dział 1.10 tego towaru jednak nie obejmuje, dlatego w pytaniu jest przewóz na pełnych zasadach. Podstawa: ADR 1.10.3.1.2 i 1.1.3.6.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada tabeli 1.10.3.1.2: Wymagania stosuje się tylko przy co najmniej 3000 kilogramów. Należy uwzględniać typ przewozu, próg i przypisy, zamiast pomijać wskazane ograniczenia."
+          "rationale": "Nieprawidłowy wariant: Nie, bo próg 0 kg odnosi się do przewozu luzem, a nie do sztuk przesyłek. Wymaganie określa ADR 2025, 1.10.3.1.2 (tabela, klasa 6.1); 1.1.3.6.2."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Próg stosuje się po uwzględnieniu pozostałych warunków i wyłączeń ADR; 1.10.3 nie można rozszerzać automatycznie na wszystkie towary.",
+      "notes_on_conditions": "Kontrola druga: snapshot zsynchronizowany z bankiem; podstawa ADR 2025, 1.10.3.1.2 (tabela, klasa 6.1); 1.1.3.6.2. Niezależna recenzja specjalisty nadal oczekuje.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -223,18 +223,18 @@
       "question_snapshot": {
         "id": "ADR-B-0459",
         "module_id": "ADR-B-12",
-        "stem": "Dla danego towaru w tabeli ochrony 1.10.3.1.2 występuje próg 0 kg dla sztuk przesyłek. Co to oznacza przy przewozie dodatniej ilości objętej tym przepisem?",
+        "stem": "Na pełnych zasadach ADR, bez zwolnienia z 1.1.3.6, ciężarówka wiezie w sztukach przesyłek 30 kg materiału trującego klasy 6.1 I grupy pakowania. W tabeli 1.10.3.1.2 próg wynosi 0 kg. Czy to towar dużego ryzyka?",
         "options": {
-          "A": "Można przewieźć dowolną ilość, nie sprawdzając wymagań ochrony ani tabeli ADR",
-          "B": "Próg jest przekroczony dla dodatniej ilości, z uwzględnieniem warunków ADR",
-          "C": "Wymagania ochronne stosuje się dopiero od 3000 kg przewożonego materiału"
+          "A": "Nie, bo próg 0 kg oznacza, że tej tabeli nie stosuje się do sztuk przesyłek",
+          "B": "Tak, bo 30 kg to więcej niż próg 0 kg podany w tabeli dla sztuk przesyłek",
+          "C": "Nie, bo próg 0 kg odnosi się do przewozu luzem, a nie do sztuk przesyłek"
         },
         "correct_option": "B",
-        "explanation": "Próg 0 kg oznacza, że dla wskazanego towaru wymagania ochronne mogą mieć zastosowanie już przy przewozie każdej dodatniej ilości objętej danym wpisem. Nie oznacza to dowolności ani zwolnienia z planu ochrony; przeciwnie, trzeba sprawdzić właściwy wiersz tabeli, postać przewozu i warunki przepisu. Próg 3000 kg dotyczy innego wpisu, więc nie można go tu przenosić. Podstawa: ADR 1.10.3.1.2.",
+        "explanation": "Towarem dużego ryzyka jest towar z tabeli 1.10.3.1.2 przewożony w ilości większej niż podana w tej tabeli. Dla materiałów trujących klasy 6.1 I grupy pakowania w kolumnie sztuk przesyłek podano 0 kg, więc 30 kg przekracza ten próg. Cyfra 0 nie oznacza wyłączenia, bo wyłączenie oznacza w tabeli litera b. Przy przewozie ze zwolnieniem z 1.1.3.6 dział 1.10 tego towaru jednak nie obejmuje, dlatego w pytaniu jest przewóz na pełnych zasadach. Podstawa: ADR 1.10.3.1.2 i 1.1.3.6.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.1.2",
+            "reference": "ADR 2025, 1.10.3.1.2 (tabela, klasa 6.1); 1.1.3.6.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -245,24 +245,24 @@
     {
       "id": "ADR-B-0460",
       "order": 460,
-      "clause": "1.10.3.1.2 tabela klasa 3",
+      "clause": "ADR 2025, 1.10.3.1.2 (tabela, klasa 3)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada tabeli 1.10.3.1.2: Tak, wszystkie ciecze palne w każdej ilości. Należy uwzględniać typ przewozu, próg i przypisy, zamiast pomijać wskazane ograniczenia."
+          "rationale": "Nieprawidłowy wariant: Tak, bo klasa 3 jest wymieniona w tabeli towarów niebezpiecznych dużego ryzyka. Wymaganie określa ADR 2025, 1.10.3.1.2 (tabela, klasa 3)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ten wariant nie odpowiada tabeli 1.10.3.1.2: Tak, ponieważ klasa 3 nie ma wyjątków. Należy uwzględniać typ przewozu, próg i przypisy, zamiast pomijać wskazane ograniczenia."
+          "rationale": "Nieprawidłowy wariant: Tak, bo 8 000 l to więcej niż wartość 3 000 podana w wierszu klasy 3. Wymaganie określa ADR 2025, 1.10.3.1.2 (tabela, klasa 3)."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Dla określonych cieczy zapalnych klasy 3 tabela różnicuje grupy i progi zależnie od formy przewozu; sama klasa nie przesądza o zastosowaniu 1.10.3."
+          "rationale": "Tabela 1.10.3.1.2 nie obejmuje całej klasy 3. W wierszu klasy 3 wymieniono materiały zapalne ciekłe I i II grupy pakowania oraz ciekłe materiały wybuchowe odczulone. Olej napędowy z III grupy pakowania nie jest w tej tabeli, więc nie jest towarem dużego ryzyka bez względu na ilość. Wartość 3 000 w wierszu klasy 3 stoi w kolumnie cysterny i dotyczy innych materiałów. Podstawa: ADR 1.10.3.1.2."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Próg stosuje się po uwzględnieniu pozostałych warunków i wyłączeń ADR; 1.10.3 nie można rozszerzać automatycznie na wszystkie towary.",
+      "notes_on_conditions": "Kontrola druga: snapshot zsynchronizowany z bankiem; podstawa ADR 2025, 1.10.3.1.2 (tabela, klasa 3). Niezależna recenzja specjalisty nadal oczekuje.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -270,18 +270,18 @@
       "question_snapshot": {
         "id": "ADR-B-0460",
         "module_id": "ADR-B-12",
-        "stem": "Czy fakt, że materiał jest w klasie 3, automatycznie oznacza zaliczenie do towarów niebezpiecznych dużego ryzyka we wszystkich przewozach?",
+        "stem": "Ciężarówka wiezie w beczkach 8 000 l oleju napędowego UN 1202, klasa 3, III grupa pakowania. Kierowca uważa, że każda ciecz zapalna klasy 3 to towar dużego ryzyka. Czy według tabeli 1.10.3.1.2 ma rację?",
         "options": {
-          "A": "Tak; każda ciecz klasy 3 zawsze jest towarem dużego ryzyka, niezależnie od ilości",
-          "B": "Tak; klasyfikacja do klasy 3 oznacza, że nie przewidziano żadnych wyjątków",
-          "C": "Nie; trzeba uwzględnić grupę pakowania, sposób przewozu i próg tabeli"
+          "A": "Tak, bo klasa 3 jest wymieniona w tabeli towarów niebezpiecznych dużego ryzyka",
+          "B": "Tak, bo 8 000 l to więcej niż wartość 3 000 podana w wierszu klasy 3",
+          "C": "Nie, w tabeli są ciecze klasy 3 I i II grupy pakowania, a nie III grupy"
         },
         "correct_option": "C",
-        "explanation": "Sama klasa 3 mówi, że materiał jest cieczą zapalną, ale nie przesądza jeszcze, czy należy do towarów dużego ryzyka. Trzeba sprawdzić dokładną pozycję w tabeli ADR, w tym grupę pakowania, ilość i sposób przewozu. Odpowiedzi A i B błędnie obejmują wszystkie ciecze klasy 3 bez wyjątków i progów. W praktyce decyzję podejmij na podstawie tabeli, a nie samej klasy. Podstawa: ADR 1.10.3.1.2.",
+        "explanation": "Tabela 1.10.3.1.2 nie obejmuje całej klasy 3. W wierszu klasy 3 wymieniono materiały zapalne ciekłe I i II grupy pakowania oraz ciekłe materiały wybuchowe odczulone. Olej napędowy z III grupy pakowania nie jest w tej tabeli, więc nie jest towarem dużego ryzyka bez względu na ilość. Wartość 3 000 w wierszu klasy 3 stoi w kolumnie cysterny i dotyczy innych materiałów. Podstawa: ADR 1.10.3.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.3.1.2 tabela klasa 3",
+            "reference": "ADR 2025, 1.10.3.1.2 (tabela, klasa 3)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

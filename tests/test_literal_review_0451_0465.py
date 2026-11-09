@@ -1,4 +1,4 @@
-"""First-pass literal review checks for ADR-B-0451–0465; the bank remains unchanged."""
+"""First-pass literal review checks for ADR-B-0451–0465; after the second pass the bank has the expected SHA."""
 import hashlib
 import json
 import unittest
@@ -9,7 +9,7 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0451-0465.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0451-0465.json"
 FIRST_PASS_BANK_SHA = "094473164719bc6a651a6e303dc117cfa6503ffb"
-EXPECTED_BANK_SHA = "094473164719bc6a651a6e303dc117cfa6503ffb"
+EXPECTED_BANK_SHA = "e560a3892b2b76217bf4ff9a977a1a4c2771eff8"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(451, 466)]
 
 
@@ -28,7 +28,7 @@ class Partia31LiteralReview(unittest.TestCase):
         self.assertEqual(data["verified"], 0)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in data["records"]))
 
-    def test_bank_unchanged_after_first_pass(self):
+    def test_bank_has_expected_sha_after_second_pass(self):
         raw = BANK.read_bytes()
         blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
         self.assertEqual(blob, EXPECTED_BANK_SHA)
@@ -55,6 +55,19 @@ class Partia31LiteralReview(unittest.TestCase):
         self.assertFalse(lengths.count(max(lengths)) == 1 and lengths[2] == max(lengths))
         self.assertFalse(lengths.count(min(lengths)) == 1 and lengths[2] == min(lengths))
         self.assertGreaterEqual(len(proposal["explanation"]), 300)
+
+
+    def test_second_pass_artifacts_and_bank_sha(self):
+        second_pass = ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0451-0465.md"
+        corrections = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0451-0465.jsonl"
+        self.assertTrue(second_pass.is_file())
+        self.assertTrue(corrections.is_file())
+        rows = [json.loads(line) for line in corrections.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(rows), 15)
+        self.assertEqual([row["id"] for row in rows], EXPECTED_IDS)
+        raw = BANK.read_bytes()
+        blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
+        self.assertEqual(blob, "e560a3892b2b76217bf4ff9a977a1a4c2771eff8")
 
 
 if __name__ == "__main__":

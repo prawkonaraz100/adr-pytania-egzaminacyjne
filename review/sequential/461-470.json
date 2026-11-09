@@ -20,14 +20,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pojedyncze opakowanie zawiera 4 litry cieczy spełniającej kryteria zagrożenia dla środowiska wodnego. Kiedy może działać wyjątek od znaku środowiskowego?",
+        "stem": "Kanister, który jest opakowaniem pojedynczym, zawiera 4 l cieczy spełniającej kryteria zagrożenia dla środowiska z 2.2.9.1.10. Czy według 5.2.1.8.1 trzeba na nim umieścić znak środowiskowy?",
         "options": {
-          "A": "Wyjątek może mieć zastosowanie, gdy spełniono warunki 5.2.1.8.1 dla opakowania do 5 l",
-          "B": "Wyjątek obejmuje wszystkie beczki o pojemności do 50 l, niezależnie od spełnienia warunków przepisu",
-          "C": "Wyjątek dotyczy tylko cieczy, które w ogóle nie podlegają klasyfikacji ADR"
+          "A": "Nie, opakowanie pojedyncze z nie więcej niż 5 l cieczy jest z tego zwolnione",
+          "B": "Tak, ten znak jest wymagany bez względu na pojemność i rodzaj opakowania",
+          "C": "Nie, ale pod warunkiem, że kanister zostanie włożony do opakowania zbiorczego"
         },
         "correct_option": "A",
-        "explanation": "Dla pojedynczego opakowania z 4 litrami cieczy wyjątek od znaku środowiskowego może mieć zastosowanie, jeśli spełnione są wszystkie warunki ADR dla małych opakowań. Nie wystarczy, że użyto beczki do 50 litrów — taki limit nie wynika z tego wyjątku. Brak klasyfikacji ADR to inna sytuacja i nie jest odpowiedzią na pytanie o oznakowanie. Podstawa: ADR 5.2.1.8.1.",
+        "explanation": "Według 5.2.1.8.1 sztuki przesyłek z materiałami zagrażającymi środowisku oznakowuje się trwale znakiem z rybą i drzewem. Przepis zwalnia jednak opakowania pojedyncze i opakowania wewnętrzne, które zawierają nie więcej niż 5 l cieczy albo nie więcej niż 5 kg netto materiału stałego. Kanister z 4 l cieczy mieści się w tym limicie, więc znak środowiskowy nie jest na nim wymagany. To zwolnienie nie zależy od wkładania kanistra do opakowania zbiorczego. Podstawa: ADR 5.2.1.8.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -61,14 +61,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Opakowanie kombinowane ma butelki wewnętrzne z materiałem niebezpiecznym dla środowiska, każda zawiera 6 litrów. Czy sam fakt użycia opakowania kombinowanego uruchamia wyjątek 5.2.1.8.1?",
+        "stem": "Opakowanie kombinowane zawiera dwie butelki wewnętrzne, każda z 6 l cieczy zagrażającej środowisku. Czy według 5.2.1.8.1 na opakowaniu trzeba umieścić znak dla materiału zagrażającego środowisku?",
         "options": {
-          "A": "Tak; limit 5 l odnosi się tylko do całego opakowania zewnętrznego",
-          "B": "Tak; wystarczy, że suma cieczy w opakowaniu kombinowanym nie przekracza 30 l",
-          "C": "Nie; pojedyncza butelka 6 l przekracza limit 5 l określony w 5.2.1.8.1"
+          "A": "Nie, bo zwolnienie zależy od pojemności całego opakowania zewnętrznego",
+          "B": "Nie, bo opakowanie zawiera mniej niż trzy opakowania wewnętrzne",
+          "C": "Tak, bo butelki wewnętrzne mają po 6 l cieczy, czyli więcej niż 5 l"
         },
         "correct_option": "C",
-        "explanation": "Wyjątek dotyczący oznakowania zagrożenia dla środowiska obejmuje opakowania wewnętrzne do 5 litrów lub 5 kilogramów, zależnie od rodzaju towaru. Butelka o pojemności 6 litrów przekracza ten limit, nawet jeśli znajduje się w opakowaniu kombinowanym. Nie wystarczy więc sprawdzić wyłącznie pojemności opakowania zewnętrznego ani łącznej ilości w całej przesyłce. Podstawa: ADR 5.2.1.8.1.",
+        "explanation": "Zwolnienie z 5.2.1.8.1 obejmuje opakowania wewnętrzne w opakowaniach kombinowanych tylko wtedy, gdy zawierają nie więcej niż 5 l cieczy. Liczy się więc ilość w każdej butelce wewnętrznej, a nie pojemność skrzyni czy kartonu na zewnątrz. Butelka z 6 l cieczy przekracza ten limit, dlatego na opakowaniu trzeba umieścić znak dla materiału zagrażającego środowisku. Liczba butelek w opakowaniu nie ma tu znaczenia. Podstawa: ADR 5.2.1.8.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -102,14 +102,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W opakowaniu pojedynczym przewozi się dokładnie 5 kg netto stałego materiału zagrażającego środowisku wodnemu. Jak rozumieć ilościowy warunek wyjątku od znaku?",
+        "stem": "Worek, który jest opakowaniem pojedynczym, zawiera dokładnie 5 kg netto stałego materiału zagrażającego środowisku. Razem z workiem waży 5,3 kg. Czy według 5.2.1.8.1 trzeba na nim umieścić znak środowiskowy?",
         "options": {
-          "A": "Limit dotyczy zawsze masy brutto całego opakowania, nie zawartości netto",
-          "B": "Znak jest wymagany bez wyjątku, gdy zawartość wynosi dokładnie 5 kg netto",
-          "C": "Dokładnie 5 kg netto mieści się w limicie wskazanym w 5.2.1.8.1"
+          "A": "Tak, bo masa brutto worka razem z materiałem w środku przekracza 5 kg",
+          "B": "Tak, bo zwolnienie obejmuje masę materiału mniejszą niż 5 kg",
+          "C": "Nie, bo 5 kg netto mieści się w granicy „nie więcej niż 5 kg netto”"
         },
         "correct_option": "C",
-        "explanation": "Jeśli przepis mówi „nie więcej niż 5 kg netto”, dokładnie 5 kg mieści się w tym limicie. Liczy się masa samej zawartości, a nie opakowania razem z nią, więc nie należy zastępować masy netto masą brutto. Spełnienie limitu ilościowego nie wystarcza jednak samo w sobie — trzeba sprawdzić także pozostałe warunki wyjątku. Podstawa: ADR 5.2.1.8.1.",
+        "explanation": "Zwolnienie z 5.2.1.8.1 obejmuje opakowania pojedyncze zawierające nie więcej niż 5 kg netto materiału stałego. Masa netto to masa samego materiału, bez worka, więc liczy się 5 kg, a nie 5,3 kg. Słowa „nie więcej niż” oznaczają, że dokładnie 5 kg też mieści się w limicie. Taki worek nie musi więc mieć znaku dla materiału zagrażającego środowisku. Podstawa: ADR 5.2.1.8.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -143,18 +143,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na sztuce przesyłki wymagany jest znak materiału niebezpiecznego dla środowiska. Gdzie powinien być umieszczony względem oznaczenia numeru UN?",
+        "stem": "Kanister 20 l z UN 3082 MATERIAŁ ZAGRAŻAJĄCY ŚRODOWISKU, CIEKŁY, I.N.O. ma nalepkę ostrzegawczą wzoru 9. Czy według 5.2.1.8.1 na kanistrze musi być też znak dla materiału zagrażającego środowisku?",
         "options": {
-          "A": "Znak umieszcza się wyłącznie w dokumentach kierowcy zamiast na sztuce przesyłki",
-          "B": "Znak umieszcza się tylko po wewnętrznej stronie wieka opakowania",
-          "C": "Znak umieszcza się w pobliżu oznaczeń wymaganych przez 5.2.1.1"
+          "A": "Nie, nalepka wzoru 9 zastępuje znak dla materiału zagrażającego środowisku",
+          "B": "Nie, przy UN 3082 znak umieszcza się na pojeździe zamiast na kanistrze",
+          "C": "Tak, znak środowiskowy umieszcza się na kanistrze oprócz nalepki wzoru 9"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli znak materiału niebezpiecznego dla środowiska jest wymagany na opakowaniu, umieść go w pobliżu wymaganych oznaczeń przesyłki, aby był widoczny podczas kontroli i obsługi. Sam wpis w dokumentach nie zastępuje znaku na sztuce przesyłki, a ukrycie go wewnątrz opakowania uniemożliwia rozpoznanie zagrożenia. Sprawdź również czytelność i trwałość oznaczenia. Podstawa: ADR 5.2.1.8.2.",
+        "explanation": "Nalepka wzoru 9 i znak z rybą i drzewem to dwa różne oznakowania. Nalepka wskazuje klasę towaru, a znak z 5.2.1.8.1 informuje, że materiał zagraża środowisku wodnemu. Kanister zawiera 20 l cieczy, czyli więcej niż 5 l, więc zwolnienie dla małych opakowań go nie obejmuje i znak jest wymagany. Umieszcza się go na kanistrze w pobliżu pozostałych znaków, a oznakowanie pojazdu go nie zastępuje. Podstawa: ADR 5.2.1.8.1 i 5.2.1.8.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.1.8.2",
+            "reference": "ADR 2025, 5.2.1.8.1; 5.2.1.8.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -184,14 +184,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Materiał klasy 3 spełnia także kryteria zagrożenia dla środowiska, a wyjątki 5.2.1.8.1 nie mają zastosowania. Który dodatkowy wpis zwykle należy zamieścić w dokumencie ADR?",
+        "stem": "Rozpuszczalnik UN 1993 klasy 3 spełnia też kryteria zagrożenia dla środowiska z 2.2.9.1.10 i jedzie w kanistrach po 20 l. Jaki dodatkowy zapis według 5.4.1.1.18 powinien być w dokumencie przewozowym?",
         "options": {
-          "A": "Wystarczy podać numer rejestracyjny pojazdu, bez żadnego wpisu o zagrożeniu dla środowiska",
-          "B": "Wymagany wpis: ENVIRONMENTALLY HAZARDOUS lub MARINE POLLUTANT/ENVIRONMENTALLY HAZARDOUS",
-          "C": "Wystarczy umieścić sam znak graficzny ryby, bez tekstu w dokumencie przewozowym"
+          "A": "„KLASA 9” obok klasy 3, bo materiał zagraża także środowisku wodnemu",
+          "B": "„ZAGRAŻAJĄCY ŚRODOWISKU” lub „MARINE POLLUTANT / ENVIRONMENTALLY HAZARDOUS”",
+          "C": "Bez zapisu, bo znak z rybą i drzewem na kanistrach zastępuje zapis w dokumencie"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli towar spełnia kryteria zagrożenia dla środowiska wodnego i nie zachodzi wyjątek, dokument przewozowy musi zawierać odpowiednią wzmiankę o tym zagrożeniu. Sam znak graficzny na opakowaniu ani numer rejestracyjny pojazdu nie zastępują wymaganego wpisu w dokumencie. Przed odjazdem sprawdź kryteria i wyjątki oraz uzupełnij opis zgodnie z ADR. Podstawa: ADR 5.4.1.1.18.",
+        "explanation": "Według 5.4.1.1.18 materiał dowolnej klasy od 1 do 9, który spełnia kryteria z 2.2.9.1.10, wymaga dodatkowego zapisu w dokumencie przewozowym. Ten zapis brzmi „ZAGRAŻAJĄCY ŚRODOWISKU” albo „MARINE POLLUTANT / ENVIRONMENTALLY HAZARDOUS”. Rozpuszczalnik pozostaje w klasie 3, więc nie dopisuje się klasy 9. Znak na kanistrach nie zastępuje zapisu, a kanistry po 20 l nie korzystają ze zwolnienia z 5.2.1.8.1. Podstawa: ADR 5.4.1.1.18.",
         "sources": [
           {
             "code": "ADR-2025-PL",
