@@ -1,0 +1,295 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0466–0480",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642, załącznik A/B; literalne porównanie z tekstem ADR 2025 i stronami nagłówkowymi Dziennika Ustaw wskazanymi w gazette_page.",
+  "bank_count": 780,
+  "bank_blob_sha": "e560a3892b2b76217bf4ff9a977a1a4c2771eff8",
+  "bank_changed": false,
+  "previous_uncompared": 315,
+  "compared": 15,
+  "remaining_without_comparison": 300,
+  "counts": {
+    "OK": 1,
+    "POPRAW": 14,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "all_780_questions",
+    "method": "Uruchomiono tę samą logikę co scripts/similarity.py: normalizacja NFKD, usunięcie znaków diakrytycznych, tokeny [a-z0-9]{4,}, identyczna lista STOP, porównanie Jaccard wyłącznie w obrębie module_id, próg domyślny 0.45. Wynik: 0 kandydatów leksykalnych dla partii 0466–0480. Dodatkowy próg 0.25: 0 kandydatów w obrębie modułów. Następnie wykonano ręczne porównanie semantyczne wskazanych identyfikatorów z całego banku.",
+    "manual_pairs": [
+      "0466 i 0467 korzystają z 5.4.1.1.18, ale badają różne warunki: 0466 wyjątek dla UN 3077/3082, 0467 dopuszczalny zapis MARINE POLLUTANT w łańcuchu obejmującym przewóz morski.",
+      "0468–0470 odnoszą się do 5.3.6.1/.2, ale sprawdzają trzy odrębne elementy: warunek umieszczenia znaku, wymiar standardowy 250 × 250 mm oraz wyjątek 100 × 100 mm dla określonych kontenerów-cystern/cystern przenośnych.",
+      "0471 jest duplikatem tematycznym ADR-B-0136 i ADR-B-0196: wszystkie pytania sprawdzają zakaz przewozu pasażera niebędącego członkiem załogi z 8.3.1.",
+      "0472 porównano z ADR-B-0015: 0015 dotyczy wyposażenia i dostępności gaśnic, a 0472 znajomości sposobu używania środków do gaszenia pożaru przez załogę; zagadnienia są różne.",
+      "0473 jest duplikatem ADR-B-0664: oba pytania sprawdzają zachowanie połączeń elektrycznych ABS między pojazdem i przyczepą o DMC powyżej 3,5 t podczas przewozu, zgodnie z 8.3.8.",
+      "0474–0476 porównano z ADR-B-0554, 0138, 0560, 0202, 0239 i 0436. 0474 sprawdza ogólną regułę kontroli dokumentów i oględzin przed załadunkiem; 0138/0560 dotyczą konkretnych wad wyposażenia, 0239 konkretnego dokumentu kierowcy, a 0202 momentu usunięcia niezgodności. 0475 jest bliskim powtórzeniem 0436: oba dotyczą uszkodzeń jednostki ładunkowej wykrywanych przed załadunkiem. 0476 dotyczy odrębnej kontroli przed rozładunkiem i progu bezpieczeństwa/ochrony.",
+      "0477 porównano z ADR-B-0757 i 0195: 0477 dotyczy środków, które odbiorca ma podjąć przy zleceniu rozładunku innym uczestnikom; 0757 i 0195 sprawdzają inne obowiązki odbiorcy.",
+      "0478 porównano z ADR-B-0371 i 0372: 0371 dotyczy ustalenia roli rozładowcy, 0372 usuwania oznakowania po czyszczeniu, a 0478 środków przy zleceniu czyszczenia/odkażania.",
+      "0479 porównano z ADR-B-0378: 0378 sprawdza zakaz ładowania razem, a 0479 możliwość polegania na informacjach i danych innych uczestników dla obowiązków 1.4.3.1.1(a), (d), (e); zagadnienia są powiązane, ale nie identyczne.",
+      "0480 porównano z ADR-B-0372: 0372 dotyczy usunięcia oznakowania po czyszczeniu, a 0480 usunięcia niebezpiecznych pozostałości przylegających do zewnętrznej powierzchni po rozładunku."
+    ],
+    "distinguished_pairs": [
+      "0466 vs 0467",
+      "0468 vs 0469 vs 0470",
+      "0472 vs 0015",
+      "0474 vs 0138/0560/0202/0239",
+      "0476 vs 0474/0475",
+      "0477 vs 0757/0195",
+      "0478 vs 0371/0372",
+      "0479 vs 0378",
+      "0480 vs 0372"
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0466",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.1.1.18",
+      "gazette_page": 966,
+      "exact_quote": "„Jeżeli materiał należący do klasy od 1 do 9 spełnia kryteria klasyfikacyjne podane w 2.2.9.1.10, to dokument przewozowy powinien zawierać dodatkowy zapis «ZAGRAŻAJĄCY ŚRODOWISKU» lub «MARINE POLLUTANT / ENVIRONMENTALLY HAZARDOUS». Tego dodatkowego zapisu nie stosuje się do UN 3077 i UN 3082 oraz w przypadku wyłączeń podanych w 5.2.1.8.1.”",
+      "finding": "Klucz C jest merytorycznie prawidłowy, ale ma 57 znaków i jest jedyną najkrótszą odpowiedzią (A: 74, B: 68, C: 57). Zawiera też średnik, a opcja A używa absolutnego „zawsze”. Należy wyrównać długości i usunąć podpowiedź długością; wyjątek dla UN 3077 i UN 3082 jest prawidłowy.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0467",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.1.1.18",
+      "gazette_page": 966,
+      "exact_quote": "„W przypadku przewozu w łańcuchu transportowym obejmującym przewóz morski dopuszcza się stosowanie zapisu «MARINE POLLUTANT» (zgodnie z przepisem 5.4.1.4.3 Kodeksu IMDG).”",
+      "finding": "Klucz A oddaje wyjątek prawidłowo, ale jest jedyną najkrótszą odpowiedzią (A: 63, B: 64, C: 72 znaki). Wyrównać długości wariantów. Warunek przewozu w łańcuchu obejmującym transport morski jest istotny i powinien pozostać wyraźny w stemie.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A"
+    },
+    {
+      "id": "ADR-B-0468",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.6.1",
+      "gazette_page": 938,
+      "exact_quote": "„Jeżeli wymagane jest umieszczenie dużej nalepki ostrzegawczej, zgodnie z przepisami rozdziału 5.3.1, to kontenery, kontenery do przewozu luzem, MEGC, kontenery-cysterny, cysterny przenośne i pojazdy zawierające materiały zagrażające środowisku, spełniające kryteria podane w 2.2.9.1.10 powinny być oznakowane znakiem dla materiałów zagrażających środowisku, podanym w 5.2.1.8.3. Wymaganie to nie dotyczy wyjątków podanych w 5.2.1.8.1.”",
+      "finding": "Opcja A ma 81 znaków, przekraczając limit 80. Stem mówi o towarach „zagrażających środowisku wodnemu”, ale nie wskazuje wprost kryteriów klasyfikacyjnych z 2.2.9.1.10. Klucz C („jeżeli 5.3.6.1 ma zastosowanie i nie zachodzi wyjątek”) jest tautologiczny i nie podaje warunków zastosowania znaku. Trzeba doprecyzować kryterium 2.2.9.1.10 oraz zależność od wymagania dużej nalepki.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0469",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.3.6.2",
+      "gazette_page": 938,
+      "exact_quote": "„Znak dla materiału zagrażającego środowisku dla kontenerów, kontenerów do przewozu luzem, MEGC, kontenerów-cystern, cystern przenośnych i pojazdów powinien spełniać warunki opisane w 5.2.1.8.3 i być zgodny z rysunkiem 5.2.1.8.3, z wyjątkiem tego, że minimalne wymiary powinny wynosić 250 mm × 250 mm.”",
+      "finding": "Klucz C jest zgodny z regułą standardową 250 × 250 mm. Wszystkie odpowiedzi mieszczą się w limicie 80 znaków; klucz nie jest ani jedyną najdłuższą, ani jedyną najkrótszą opcją. Wyjaśnienie ma 355 znaków i zachowuje rozróżnienie między standardowym wymiarem a wyjątkiem. Pytanie jest odrębne od 0470, który sprawdza wyjątek wymiarowy.",
+      "duplicate_candidates": [
+        "ADR-B-0470"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0470",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.6.2",
+      "gazette_page": 938,
+      "exact_quote": "„W przypadku kontenerów-cystern lub cystern przenośnych o pojemności nie większej niż 3 000 litrów oraz posiadających dostępną powierzchnię, która jest zbyt mała, aby umieścić zalecane znaki, wymiary znaku można zmniejszyć do 100 mm × 100 mm.”",
+      "finding": "Klucz A jest merytorycznie prawidłowy dla kontenera-cysterny o pojemności 2 500 l, gdy dostępna powierzchnia jest zbyt mała. Opcje A i B mają jednak po 81 znaków, przekraczając limit 80. Należy skrócić oba warianty bez zmiany warunków wyjątku: pojemność do 3 000 l oraz zbyt mała dostępna powierzchnia.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A"
+    },
+    {
+      "id": "ADR-B-0471",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.3.1",
+      "gazette_page": 1332,
+      "exact_quote": "„W jednostkach transportowych przewożących towary niebezpieczne, poza członkami załogi pojazdu, nie powinny być przewożeni żadni pasażerowie.”",
+      "finding": "Klucz C oddaje zakaz, ale pytanie jest duplikatem tematycznym ADR-B-0136 i ADR-B-0196: ponownie sprawdza przewóz osoby niebędącej członkiem załogi. Opcja B ma 98 znaków, a opcja C zawiera średnik. Należy zastąpić pytanie nowym zagadnieniem z tej samej kompetencji ADR-B-04-K06, bez tematu cysternowego. Proponowany temat: wyjątek S21 od wymagań nadzoru 8.4 dla materiałów promieniotwórczych, z uwzględnieniem obu warunków i 1.10.3.2.",
+      "duplicate_candidates": [
+        "ADR-B-0136",
+        "ADR-B-0196"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Jednostka przewozi materiały promieniotwórcze, dla których ma zastosowanie S21. Kiedy można nie stosować wymagań nadzoru z 8.4?",
+        "options": {
+          "A": "Gdy kierowca pozostaje przy pojeździe i stale pilnuje przewożonych materiałów.",
+          "B": "Gdy masa materiałów w pojeździe nie przekracza 500 kg.",
+          "C": "Gdy ładunek jest zabezpieczony, a promieniowanie nie przekracza 5 µSv/h."
+        },
+        "correct_option": "C",
+        "explanation": "S21 obejmuje nadzorem z działu 8.4 wszystkie materiały promieniotwórcze, bez względu na masę. Wymagań 8.4 można nie stosować, gdy przedział jest zamknięty przed osobami nieuprawnionymi albo przesyłki zabezpieczono przed nieuprawnionym rozładunkiem. Dodatkowo poziom promieniowania w każdym dostępnym punkcie zewnętrznej powierzchni pojazdu nie może przekraczać 5 µSv/h. Oba warunki muszą być spełnione łącznie; nie uchyla to ewentualnego nadzoru ochronnego z 1.10.3.2. Podstawa: ADR 8.5, S21; 8.4.1; 1.10.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.5, S21; 8.4.1; 1.10.3.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0472",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.3.2",
+      "gazette_page": 1332,
+      "exact_quote": "„Członkowie załogi pojazdu powinni wiedzieć, jak należy używać środków do gaszenia pożaru.”",
+      "finding": "Klucz C jest jedyną najkrótszą odpowiedzią (A: 64, B: 72, C: 54 znaki). Ponadto odpowiedź zawęża przepis do „gaśnic”, podczas gdy ADR używa szerszego określenia „środki do gaszenia pożaru”. Pytanie jest odrębne od ADR-B-0015, które dotyczy wyposażenia i dostępności gaśnic, nie znajomości sposobu użycia środków gaśniczych przez załogę. Należy zachować szerszą terminologię ADR i wyrównać długości odpowiedzi.",
+      "duplicate_candidates": [
+        "ADR-B-0015"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0473",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.3.8",
+      "gazette_page": 1332,
+      "exact_quote": "„W przypadku jednostki transportowej wyposażonej w układ przeciwblokujący, składającej się z pojazdu samochodowego i przyczepy o dopuszczalnej masie całkowitej większej niż 3,5 tony, połączenia elektryczne pomiędzy pojazdem samochodowym i przyczepą, określone w 9.2.2.6, powinny być zachowane przez cały czas trwania przewozu.”",
+      "finding": "Pytanie powtarza zagadnienie z ADR-B-0664: połączenia elektryczne ABS między pojazdem samochodowym a przyczepą o DMC powyżej 3,5 t. Klucz C jest sensowny, lecz „muszą pozostać połączone” nie odtwarza dokładnego sformułowania „powinny być zachowane przez cały czas trwania przewozu”. Należy zastąpić pytanie nowym zagadnieniem z tej samej kompetencji ADR-B-04-K06, bez tematu cysternowego. Proponowany temat: próg masy S17 dla wymagań nadzoru 8.4.",
+      "duplicate_candidates": [
+        "ADR-B-0664"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Dla przewożonego materiału kolumna (19) tabeli A wskazuje S17. Jednostka wiezie 1 200 kg tego materiału w sztukach przesyłek. Czy stosuje się nadzór z 8.4?",
+        "options": {
+          "A": "Nie, bo próg S17 wynosi dopiero 2 000 kg.",
+          "B": "Nie, bo S17 dotyczy wyłącznie materiałów przewożonych luzem.",
+          "C": "Tak, bo 1 200 kg przekracza próg 1 000 kg z S17."
+        },
+        "correct_option": "C",
+        "explanation": "S17 uruchamia wymagania nadzoru z działu 8.4, gdy masa całkowita wskazanych materiałów w pojeździe przekracza 1 000 kg. W przykładzie przewożone jest 1 200 kg, więc próg został przekroczony. Warunek wynika z przepisu szczególnego wskazanego w kolumnie (19) tabeli A. Podstawa: ADR 8.5, S17; 8.4.1; 3.2, tabela A, kolumna (19).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.5, S17; 8.4.1; 3.2, tabela A, kolumna (19)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0474",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.5.1.2",
+      "gazette_page": 1325,
+      "exact_quote": "„Jeżeli w ADR nie postanowiono inaczej, to załadunek nie powinien się odbyć, jeżeli: (i) sprawdzenie dokumentów; lub (ii) oględziny pojazdu, a także, o ile występują, kontenera, kontenera do przewozu luzem, MEGC, kontenera-cysterny i cysterny przenośnej oraz wyposażenia używanego podczas załadunku i rozładunku, wskazują, że załoga pojazdu, pojazd, kontener, kontener do przewozu luzem, MEGC, kontener-cysterna, cysterna przenośna lub ich wyposażenie nie spełniają wymagań obowiązujących przepisów.”",
+      "finding": "Klucz A oddaje zasadę niewykonywania załadunku przy stwierdzonej niezgodności. Opcja B ma 88 znaków, przekraczając limit 80. Sformułowanie „kierowca lub pojazd” jest zbyt skrótowe wobec zakresu przepisu, który wymienia załogę, pojazd, kontener i wyposażenie. Pytanie jest powiązane, ale nie jest duplikatem ADR-B-0138, 0560 ani 0239: tamte pozycje sprawdzają konkretne wady wyposażenia lub dokumentu kierowcy, a 0474 dotyczy ogólnej reguły kontroli przed załadunkiem.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A"
+    },
+    {
+      "id": "ADR-B-0475",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.5.1.2",
+      "gazette_page": 1325,
+      "exact_quote": "„Przed załadunkiem, powierzchnia wewnętrzna i zewnętrzna pojazdu i kontenera powinny zostać sprawdzone w celu upewnienia się, że nie mają one uszkodzeń mogących naruszyć integralność pojazdu lub kontenera lub spowodować uszkodzenia towaru, który ma być załadowany.”",
+      "finding": "Odpowiedź C zawęża podstawę do uszkodzenia zagrażającego integralności kontenera, pomijając drugą samodzielną przesłankę ADR: uszkodzenie mogące spowodować uszkodzenie towaru, który ma być załadowany. Pytanie jest bliskim powtórzeniem ADR-B-0436, które sprawdza tę samą kontrolę uszkodzeń i wystających elementów przed załadunkiem. Należy zastąpić je nowym, niecysternowym zagadnieniem w tej samej kompetencji ADR-B-04-K05. Proponowany temat: zakaz gaszenia przez załogę pożaru obejmującego przedział ładunkowy z instrukcji pisemnych.",
+      "duplicate_candidates": [
+        "ADR-B-0436"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Podczas wypadku zapalił się ładunek w przedziale ładunkowym jednostki transportowej ADR. Co instrukcje pisemne mówią o gaszeniu takiego pożaru przez załogę?",
+        "options": {
+          "A": "Załoga może gasić pożar ładunku, gdy użyje właściwego sprzętu.",
+          "B": "Załoga powinna gasić pożar ładunku aż do przyjazdu służb ratowniczych.",
+          "C": "Załoga nie powinna gasić pożaru obejmującego przedział ładunkowy."
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne pozwalają użyć gaśnic do małego lub początkowego pożaru opon, hamulców albo przedziału silnika, jeżeli jest to właściwe i bezpieczne. Wyraźnie odróżniają taki pożar od pożaru przedziału ładunkowego. Załoga nie powinna gasić pożaru obejmującego przedział ładunkowy. Podstawa: ADR 5.4.3.4, czynności w razie wypadku lub awarii.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      },
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0476",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.5.1.3",
+      "gazette_page": 1325,
+      "exact_quote": "„Jeżeli w ADR nie postanowiono inaczej, to rozładunek nie powinien się odbyć, jeżeli kontrola, o której mowa powyżej, ujawniła braki mogące mieć negatywny wpływ na jego bezpieczeństwo lub ochronę.”",
+      "finding": "Stem mówi o uszkodzonym wyposażeniu sprzecznym z wymaganiami, ale nie podaje warunku rozstrzygającego z 7.5.1.3: stwierdzone braki muszą móc negatywnie wpłynąć na bezpieczeństwo lub ochronę rozładunku. Klucz C jest zatem zbyt szeroki. Należy doprecyzować ten próg w scenariuszu i odpowiedzi; pytanie nie jest duplikatem pytań o kontrolę przed załadunkiem.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0477",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.4.2.3.3",
+      "gazette_page": 373,
+      "exact_quote": "„Jeżeli odbiorca korzysta z usług innych uczestników przewozu (w zakresie rozładunku, czyszczenia, odkażania, itp.), to powinien zastosować odpowiednie środki w celu zapewnienia zgodności z wymaganiami ADR podanymi w 1.4.2.3.1 i 1.4.2.3.2.”",
+      "finding": "Klucz B („odbiorca nadal odpowiada za obowiązki”) jest zbyt ogólny. Punkt 1.4.2.3.3 określa konkretną powinność: odbiorca korzystający z usług innych uczestników ma zastosować odpowiednie środki zapewniające zgodność z 1.4.2.3.1 i .2. Opcja B jest jedyną najkrótszą odpowiedzią (70 wobec 74 i 74 znaków) i zawiera średnik. Kompetencja ADR-B-07-K04 ma dokładnie 6 pytań, dlatego należy wyłącznie przeredagować to pytanie, bez zastępowania go innym tematem.",
+      "duplicate_candidates": [
+        "ADR-B-0757",
+        "ADR-B-0195"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B"
+    },
+    {
+      "id": "ADR-B-0478",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.4.3.7.2",
+      "gazette_page": 373,
+      "exact_quote": "„Jeżeli rozładowca korzysta z usług innych uczestników przewozu (w zakresie czyszczenia, odkażania, itp.), to powinien zastosować odpowiednie środki w celu zapewnienia zgodności z wymaganiami ADR.”",
+      "finding": "Klucz C („rozładowca nadal odpowiada za zgodność własnych czynności”) jest zbyt ogólny i nie oddaje dokładnej powinności z przepisu: rozładowca korzystający z usług innych uczestników ma zastosować odpowiednie środki zapewniające zgodność z ADR. Opcja C jest jedyną najkrótszą odpowiedzią (59 wobec 73 i 72 znaków). Pytanie jest odrębne od ADR-B-0371 (ustalenie roli rozładowcy) i ADR-B-0372 (oznakowanie po czyszczeniu); dotyczy zlecania czyszczenia lub odkażania.",
+      "duplicate_candidates": [
+        "ADR-B-0371",
+        "ADR-B-0372"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0479",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.4.3.1.2",
+      "gazette_page": 373,
+      "exact_quote": "„W przypadku wymagań podanych w 1.4.3.1.1 (a), (d) i (e), załadowca może polegać na informacjach i danych udostępnionych mu przez innych uczestników przewozu.”",
+      "finding": "Opcje A i B mają odpowiednio 102 i 92 znaki, przekraczając limit 80; klucz C (63 znaki) jest jedyną najkrótszą odpowiedzią i zawiera średnik. Stem używa nieprecyzyjnego określenia „zgodne dane”, a klucz nie wskazuje, których obowiązków dotyczy możliwość polegania na danych: 1.4.3.1.1(a), (d) i (e). Pytanie jest powiązane z ADR-B-0378, ale nie jest duplikatem: 0378 dotyczy sprawdzenia zakazu ładowania razem, a 0479 możliwości oparcia się na danych innych uczestników.",
+      "duplicate_candidates": [
+        "ADR-B-0378"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C"
+    },
+    {
+      "id": "ADR-B-0480",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.4.3.7.1(d)(i)",
+      "gazette_page": 373,
+      "exact_quote": "„Bezpośrednio po rozładunku cysterny, pojazdu lub kontenera: (i) usunąć wszystkie niebezpieczne pozostałości towarów, które podczas czynności rozładunkowych przylgnęły do zewnętrznej powierzchni cysterny, pojazdu lub kontenera; oraz”",
+      "finding": "Klucz A jest merytorycznie zgodny z obowiązkiem usunięcia pozostałości bezpośrednio po rozładunku. Opcja B ma 84 znaki, przekraczając limit 80. Pytanie jest odrębne od ADR-B-0372: tam chodzi o usunięcie oznakowania po czyszczeniu, tutaj o usunięcie niebezpiecznych pozostałości przylegających do zewnętrznej powierzchni.",
+      "duplicate_candidates": [
+        "ADR-B-0372"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A"
+    }
+  ]
+}
