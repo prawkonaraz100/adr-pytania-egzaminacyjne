@@ -1,4 +1,4 @@
-"""First-pass literal review checks for ADR-B-0436–0450; after this first pass the bank has the expected SHA."""
+"""First-pass literal review checks for ADR-B-0436–0450; after the second pass the bank has the expected SHA."""
 import hashlib
 import json
 import unittest
@@ -9,7 +9,7 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0436-0450.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0436-0450.json"
 FIRST_PASS_BANK_SHA = "fa4e38350731bd52c1a64a8cab934bdf18988438"
-EXPECTED_BANK_SHA = "fa4e38350731bd52c1a64a8cab934bdf18988438"
+EXPECTED_BANK_SHA = "094473164719bc6a651a6e303dc117cfa6503ffb"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(436, 451)]
 
 
@@ -28,8 +28,8 @@ class Partia30LiteralReview(unittest.TestCase):
         self.assertEqual(data["verified"], 0)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in data["records"]))
 
-    def test_bank_unchanged_after_first_pass(self):
-        """The first-pass review must not change the bank."""
+    def test_bank_has_expected_sha_after_second_pass(self):
+        """After the second pass the bank has the expected SHA."""
         raw = BANK.read_bytes()
         blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
         self.assertEqual(blob, EXPECTED_BANK_SHA)
