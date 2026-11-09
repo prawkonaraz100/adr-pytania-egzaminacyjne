@@ -4,7 +4,7 @@
 
 Pakiet przekazania: `review/specialist/PAKIET-ZAMKNIECIE-0780.md`.
 
-- Bank: **780** pytań, 780 `needs_review`, 0 `verified`; SHA `129d09039ee7fbee90198049cb3d733368070c77`.
+- Bank: **780** pytań, 780 `needs_review`, 0 `verified`; SHA `4e00ad8db1a63f644ab205910c434dae20669de8`.
 - ADR-B-0780 do ADR-B-13-K07: instrukcje pisemne muszą znajdować się w kabinie nowego pojazdu i być łatwo dostępne po wymianie ciągnika (ADR 5.4.3.1; 8.1.2.3).
 - Moduł ADR-B-13: **54** pytania; kompetencja K07: 5→6.
 - Rozkład A/B/C: **258/291/231**; poprawna jedyna najdłuższa: **85/780 = 10,90%**; maksimum działu: **15,22%**.
