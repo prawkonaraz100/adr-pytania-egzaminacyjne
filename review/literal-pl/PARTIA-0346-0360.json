@@ -1,0 +1,429 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0346..0360",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642; sprostowanie Dz.U. 2025 poz. 1575 sprawdzone",
+  "bank_count": 780,
+  "bank_blob_sha": "d44c95488d28507ffc3fa901d14b7d20cdd9fb38",
+  "bank_changed": false,
+  "previous_uncompared": 435,
+  "compared": 15,
+  "remaining_without_comparison": 420,
+  "counts": {
+    "OK": 1,
+    "POPRAW": 14,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "all_780_questions_including_replacements_from_batches_17_to_23"
+  },
+  "records": [
+    {
+      "id": "ADR-B-0346",
+      "verdict": "POPRAW",
+      "gazette_page": 1333,
+      "legal_basis": "8.4.1(a)",
+      "literal_quote": "nadzorowany przez personel, który został poinformowany o właściwościach ładunku i miejscu pobytu kierowcy",
+      "duplicates": [
+        "ADR-B-0181"
+      ],
+      "quality_flags": [
+        "duplicate",
+        "correct_option_unique_shortest"
+      ],
+      "proposed_replacement": {
+        "stem": "Dla mieszanego ładunku materiałów klasy 1 wskazano S1(6). Różne podklasy mają różne limity masy netto. Który limit stosuje się do całego ładunku?",
+        "options": {
+          "A": "Najwyższy limit spośród przewożonych podklas.",
+          "B": "Najniższy limit właściwy dla przewożonych materiałów.",
+          "C": "Średnią wartość limitów obliczoną dla całego ładunku."
+        },
+        "correct_option": "B",
+        "explanation": "Przy ładunku mieszanym materiałów klasy 1 nie można wybrać najkorzystniejszego ani uśrednionego limitu. ADR wymaga zastosowania najniższego dopuszczalnego limitu spośród wszystkich przewożonych materiałów i przedmiotów. Dzięki temu warunki nadzoru z działu 8.4 nie zostaną pominięte dla bardziej restrykcyjnego składnika ładunku. Przed wyjazdem porównaj podklasy i grupy zgodności z tabelą w S1(6). Podstawa: ADR 8.5, przepis szczególny S1(6).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.5, S1(6)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0347",
+      "verdict": "POPRAW",
+      "gazette_page": 1333,
+      "legal_basis": "8.4.1(a)–(b)",
+      "literal_quote": "Z parkingów wymienionych w (b) można korzystać tylko wtedy, gdy nie są dostępne miejsca wymienione w (a)",
+      "duplicates": [
+        "ADR-B-0181"
+      ],
+      "quality_flags": [
+        "duplicate"
+      ],
+      "proposed_replacement": {
+        "stem": "Dla przewożonego materiału wskazano S15. Przedział ładunkowy jest zamknięty tak, że osoby nieuprawnione nie mogą uzyskać dostępu. Czy dział 8.4 musi być stosowany?",
+        "options": {
+          "A": "Tak, ponieważ S15 nie przewiduje żadnego wyjątku.",
+          "B": "Nie musi być stosowany, jeżeli spełniono warunek zabezpieczenia wskazany w S15.",
+          "C": "Nie, ale wyłącznie wtedy, gdy masa ładunku nie przekracza 500 kg."
+        },
+        "correct_option": "B",
+        "explanation": "S15 co do zasady obejmuje pojazdy przewożące jakąkolwiek ilość wskazanego materiału. Przepis przewiduje jednak wyjątek: dział 8.4 nie musi być stosowany, gdy przedział ładunkowy jest zamknięty w sposób uniemożliwiający dostęp osobom nieuprawnionym albo sztuki przesyłek są w inny sposób zabezpieczone przed nieuprawnionym rozładunkiem. Nie należy mylić tego warunku z progiem masowym S16. Podstawa: ADR 8.5, przepis szczególny S15.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.5, S15",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0348",
+      "verdict": "POPRAW",
+      "gazette_page": 1333,
+      "legal_basis": "8.4.1(c)",
+      "literal_quote": "w odpowiednim miejscu położonym na otwartym terenie, oddzielonym od głównych dróg i budynków mieszkalnych",
+      "duplicates": [
+        "ADR-B-0181",
+        "ADR-B-0349"
+      ],
+      "quality_flags": [
+        "duplicate"
+      ],
+      "proposed_replacement": {
+        "stem": "W kolumnie (19) tabeli A dla przewożonego materiału podano S14. Jaka ilość materiału powoduje zastosowanie wymagań nadzoru z działu 8.4?",
+        "options": {
+          "A": "Każda ilość przewożonego materiału.",
+          "B": "Dopiero masa przekraczająca 500 kg.",
+          "C": "Dopiero masa przekraczająca 1 000 kg."
+        },
+        "correct_option": "A",
+        "explanation": "S14 nie wprowadza progu masowego, od którego dopiero zaczyna obowiązywać nadzór. Przepis wskazuje, że wymagania działu 8.4 dotyczą pojazdów przewożących jakąkolwiek ilość danego materiału. Dlatego już niewielka ilość może uruchomić obowiązek nadzoru, jeżeli w kolumnie (19) tabeli A wskazano S14. Sprawdź konkretny przepis specjalny, a nie stosuj progu z innego oznaczenia S. Podstawa: ADR 8.5, przepis szczególny S14.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.5, S14",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0349",
+      "verdict": "POPRAW",
+      "gazette_page": 1333,
+      "legal_basis": "8.4.1(c)",
+      "literal_quote": "w odpowiednim miejscu położonym na otwartym terenie, oddzielonym od głównych dróg i budynków mieszkalnych",
+      "duplicates": [
+        "ADR-B-0181",
+        "ADR-B-0348"
+      ],
+      "quality_flags": [
+        "duplicate",
+        "option_over_80"
+      ],
+      "proposed_replacement": {
+        "stem": "Dla przewożonego materiału wskazano S17. Masa całkowita materiału w pojeździe wynosi 900 kg. Czy wymagania nadzoru z działu 8.4 mają zastosowanie?",
+        "options": {
+          "A": "Tak, ponieważ S17 stosuje się już od 500 kg.",
+          "B": "Nie, ponieważ próg S17 wynosi ponad 1 000 kg.",
+          "C": "Tak, ponieważ S17 dotyczy każdej ilości materiału."
+        },
+        "correct_option": "B",
+        "explanation": "S17 określa próg wyższy niż 1 000 kg masy całkowitej danego materiału w pojeździe. Przy 900 kg warunek ten nie jest spełniony, więc sam przepis S17 nie uruchamia wymagań nadzoru z działu 8.4. Nie przenoś na S17 progu 500 kg z S16 ani zasady każdej ilości z S14. Podstawa: ADR 8.5, przepis szczególny S17.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.5, S17",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0350",
+      "verdict": "POPRAW",
+      "gazette_page": 1333,
+      "legal_basis": "8.4.1; 3.2 tabela A kol. (19)",
+      "literal_quote": "S1(6) i S14 do S24 w dziale 8.5, zgodnie ze wskazaniem w kolumnie (19) tabeli A w dziale 3.2",
+      "duplicates": [
+        "ADR-B-0131"
+      ],
+      "quality_flags": [
+        "duplicate",
+        "absolute_word"
+      ],
+      "proposed_replacement": {
+        "stem": "Załadowana MEMU ma zostać pozostawiona bez nadzoru załogi. Które miejsce postoju dopuszcza ADR 8.4.2?",
+        "options": {
+          "A": "Parking strzeżony lub strzeżone miejsce na terenie przedsiębiorstwa.",
+          "B": "Dowolny publiczny parking, jeżeli kierowca zostawi numer telefonu.",
+          "C": "Odosobnione miejsce na poboczu, jeżeli pojazd ma włączone światła awaryjne."
+        },
+        "correct_option": "A",
+        "explanation": "Załadowane MEMU powinny być nadzorowane albo mogą być zaparkowane bez nadzoru na parkingu strzeżonym lub na strzeżonym miejscu na terenie przedsiębiorstwa. Zwykły parking publiczny ani pobocze z włączonymi światłami nie zastępują tych warunków. Przed pozostawieniem pojazdu sprawdź, czy miejsce rzeczywiście jest strzeżone. ADR przewiduje odrębny wyjątek dla MEMU próżnych nieoczyszczonych. Podstawa: ADR 8.4.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.4.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0351",
+      "verdict": "POPRAW",
+      "gazette_page": 1332,
+      "legal_basis": "8.3.7",
+      "literal_quote": "Pojazdy z towarami niebezpiecznymi nie mogą być pozostawione na postoju, jeżeli nie zostały zabezpieczone hamulcami postojowymi",
+      "duplicates": [],
+      "quality_flags": [
+        "correct_option_unique_shortest",
+        "absolute_word"
+      ]
+    },
+    {
+      "id": "ADR-B-0352",
+      "verdict": "POPRAW",
+      "gazette_page": 1332,
+      "legal_basis": "8.3.7; 8.1.5.2",
+      "literal_quote": "Przyczepy bez układu hamulcowego powinny być unieruchomione przy użyciu co najmniej jednego klina do podkładania pod koła",
+      "duplicates": [
+        "ADR-B-0023",
+        "ADR-B-0056",
+        "ADR-B-0509",
+        "ADR-B-0699",
+        "ADR-B-0761"
+      ],
+      "quality_flags": [
+        "duplicate",
+        "correct_option_unique_shortest",
+        "absolute_word"
+      ],
+      "proposed_replacement": {
+        "stem": "Dla przewożonych materiałów promieniotwórczych wskazano S21. Pojazd ma zabezpieczony przedział ładunkowy, a poziom promieniowania w każdym dostępnym punkcie na zewnętrznej powierzchni nie przekracza 5 µSv/h. Czy dział 8.4 musi być stosowany?",
+        "options": {
+          "A": "Nie musi, jeżeli spełniono oba warunki wyjątku z S21.",
+          "B": "Tak, ponieważ S21 nie przewiduje wyjątków dla zabezpieczonego pojazdu.",
+          "C": "Nie musi, jeżeli masa materiałów nie przekracza 500 kg."
+        },
+        "correct_option": "A",
+        "explanation": "S21 obejmuje nadzorem z działu 8.4 wszystkie materiały promieniotwórcze, niezależnie od ich masy. Przepis pozwala jednak nie stosować tych wymagań, jeżeli przedział ładunkowy jest zabezpieczony przed dostępem osób nieuprawnionych lub sztuki przesyłek są inaczej zabezpieczone przed nieuprawnionym rozładunkiem, a poziom promieniowania na zewnętrznej powierzchni pojazdu nie przekracza 5 µSv/h w żadnym dostępnym punkcie. Oba warunki muszą być spełnione łącznie. Podstawa: ADR 8.5, przepis szczególny S21.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.5, S21",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0353",
+      "verdict": "POPRAW",
+      "gazette_page": 1332,
+      "legal_basis": "8.3.4",
+      "literal_quote": "Przenośne urządzenia oświetleniowe nie powinny zawierać powierzchni metalowych mogących spowodować iskrę krzesaną",
+      "duplicates": [],
+      "quality_flags": [
+        "option_over_80",
+        "correct_option_unique_shortest",
+        "absolute_word"
+      ]
+    },
+    {
+      "id": "ADR-B-0354",
+      "verdict": "POPRAW",
+      "gazette_page": 975,
+      "legal_basis": "5.4.3.4",
+      "literal_quote": "Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej",
+      "duplicates": [
+        "ADR-B-0130"
+      ],
+      "quality_flags": [
+        "duplicate",
+        "option_over_80",
+        "correct_option_unique_shortest",
+        "semicolon_in_option"
+      ],
+      "proposed_replacement": {
+        "stem": "Po wypadku pojazdu ADR kierowca zawiadamia służby ratownicze. Jakie informacje powinien im przekazać zgodnie z instrukcją pisemną?",
+        "options": {
+          "A": "Dostępne informacje o wypadku, awarii i przewożonych towarach niebezpiecznych.",
+          "B": "Wyłącznie numer rejestracyjny pojazdu i nazwę przewoźnika.",
+          "C": "Tylko informację o miejscu zdarzenia, bez danych o ładunku."
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcja pisemna nakazuje powiadomić właściwe służby ratownicze i przekazać im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz przewożonych towarów niebezpiecznych. Dane o ładunku pomagają ratownikom dobrać bezpieczne działania i środki ochrony. Nie ograniczaj zgłoszenia do numeru rejestracyjnego ani samego miejsca zdarzenia. Podstawa: ADR 5.4.3.4, instrukcje pisemne — czynności w razie wypadku lub awarii.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — instrukcje pisemne, powiadomienie służb ratowniczych",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0355",
+      "verdict": "POPRAW",
+      "gazette_page": 975,
+      "legal_basis": "5.4.3.4",
+      "literal_quote": "Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej",
+      "duplicates": [
+        "ADR-B-0130",
+        "ADR-B-0354"
+      ],
+      "quality_flags": [
+        "duplicate",
+        "option_over_80",
+        "correct_option_unique_shortest"
+      ],
+      "proposed_replacement": {
+        "stem": "Po wypadku ogień obejmuje przedział ładunkowy pojazdu ADR. Jak powinna postąpić załoga zgodnie z instrukcją pisemną?",
+        "options": {
+          "A": "Nie podejmować gaszenia pożaru obejmującego przedział ładunkowy i oddalić się zgodnie z instrukcją.",
+          "B": "Gasić pożar samodzielnie, jeżeli załoga ma gaśnicę i rękawice.",
+          "C": "Otworzyć przedział ładunkowy, aby szybciej dotrzeć do źródła ognia."
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcja pisemna rozróżnia niewielki pożar w początkowej fazie, który można gasić, jeżeli jest to właściwe i bezpieczne, od pożaru obejmującego przedział ładunkowy. Załoga nie powinna gasić pożaru w przedziale ładunkowym, ponieważ może to narazić ją na kontakt z towarem i gwałtowny rozwój zdarzenia. Należy oddalić się i stosować do zaleceń służb ratowniczych. Podstawa: ADR 5.4.3.4, instrukcje pisemne — czynności w razie wypadku lub awarii.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4 — instrukcje pisemne, pożar przedziału ładunkowego",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0356",
+      "verdict": "OK",
+      "gazette_page": 975,
+      "legal_basis": "5.4.3.4",
+      "literal_quote": "Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny",
+      "duplicates": [],
+      "quality_flags": []
+    },
+    {
+      "id": "ADR-B-0357",
+      "verdict": "POPRAW",
+      "gazette_page": 1332,
+      "legal_basis": "8.3.3",
+      "literal_quote": "Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne",
+      "duplicates": [
+        "ADR-B-0011",
+        "ADR-B-0048",
+        "ADR-B-0243",
+        "ADR-B-0678",
+        "ADR-B-0737"
+      ],
+      "quality_flags": [
+        "duplicate",
+        "correct_option_unique_shortest"
+      ],
+      "proposed_replacement": {
+        "stem": "Kierowca chce sprawdzić zewnętrzne oznakowanie sztuki przesyłki ADR, nie otwierając opakowania. Czy zakaz z 8.3.3 zabrania takiej kontroli?",
+        "options": {
+          "A": "Nie, zakaz dotyczy otwierania sztuk przesyłek, a nie oglądania ich oznakowania z zewnątrz.",
+          "B": "Tak, każda kontrola zewnętrzna jest traktowana jak otwarcie opakowania.",
+          "C": "Tak, chyba że odbiorca wyrazi zgodę na sprawdzenie oznakowania."
+        },
+        "correct_option": "A",
+        "explanation": "ADR 8.3.3 zabrania kierowcy i pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne. Odczytanie nalepki lub innych oznaczeń z zewnątrz nie wymaga otwierania opakowania i nie jest objęte tym zakazem. Kierowca powinien jednak pozostawić opakowanie zamknięte i nie naruszać jego zabezpieczeń. Podstawa: ADR 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0358",
+      "verdict": "POPRAW",
+      "gazette_page": 1332,
+      "legal_basis": "8.3.6",
+      "literal_quote": "Silnik pojazdu nie powinien pracować podczas załadunku i rozładunku, z wyjątkiem przypadków, gdy uruchomienie silnika jest niezbędne dla pracy pomp lub innych urządzeń zapewniających załadunek lub rozładunek pojazdu oraz gdy zezwalają na to przepisy państwa",
+      "duplicates": [
+        "ADR-B-0244"
+      ],
+      "quality_flags": [
+        "related_scenario",
+        "option_over_80"
+      ]
+    },
+    {
+      "id": "ADR-B-0359",
+      "verdict": "POPRAW",
+      "gazette_page": 1332,
+      "legal_basis": "8.3.6",
+      "literal_quote": "Silnik pojazdu nie powinien pracować podczas załadunku i rozładunku",
+      "duplicates": [
+        "ADR-B-0012",
+        "ADR-B-0047",
+        "ADR-B-0515"
+      ],
+      "quality_flags": [
+        "duplicate"
+      ],
+      "proposed_replacement": {
+        "stem": "Podczas rozładunku pompa jest zasilana z zewnętrznego źródła i nie wymaga pracy silnika pojazdu. Czy silnik może pozostać włączony?",
+        "options": {
+          "A": "Tak, jeżeli kierowca pozostaje w kabinie i obserwuje rozładunek.",
+          "B": "Nie, ponieważ wyjątek dotyczy silnika niezbędnego do napędu urządzeń i dozwolonego przez prawo krajowe.",
+          "C": "Tak, jeżeli silnik pracuje tylko na biegu jałowym przez krótki czas."
+        },
+        "correct_option": "B",
+        "explanation": "Silnik pojazdu powinien być wyłączony podczas załadunku i rozładunku. Wyjątek można zastosować tylko wtedy, gdy jego uruchomienie jest niezbędne do pracy pomp lub innych urządzeń zapewniających te czynności oraz gdy pozwalają na to przepisy państwa, w którym znajduje się pojazd. Jeżeli pompa ma własne zasilanie i nie potrzebuje silnika pojazdu, warunek konieczności nie jest spełniony. Podstawa: ADR 8.3.6.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.6",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0360",
+      "verdict": "POPRAW",
+      "gazette_page": 1332,
+      "legal_basis": "8.3.5",
+      "literal_quote": "W czasie manipulowania ładunkiem zabronione jest palenie zarówno w pobliżu, jak też wewnątrz pojazdów",
+      "duplicates": [
+        "ADR-B-0010",
+        "ADR-B-0103",
+        "ADR-B-0279",
+        "ADR-B-0280",
+        "ADR-B-0736"
+      ],
+      "quality_flags": [
+        "duplicate",
+        "absolute_word"
+      ],
+      "proposed_replacement": {
+        "stem": "Kierowca ma przerwę w trasie. Nie trwa załadunek ani rozładunek, a pojazd stoi na parkingu. Czy zakaz palenia z ADR 8.3.5 obejmuje tę sytuację?",
+        "options": {
+          "A": "Tak, zakaz obowiązuje przez cały czas przewozu, także podczas każdej przerwy.",
+          "B": "Nie, 8.3.5 wiąże zakaz z czasem manipulowania ładunkiem; inne przepisy mogą nadal mieć zastosowanie.",
+          "C": "Nie, zakaz dotyczy wyłącznie kabiny podczas jazdy."
+        },
+        "correct_option": "B",
+        "explanation": "ADR 8.3.5 określa zakaz palenia w czasie manipulowania ładunkiem, zarówno w pobliżu pojazdu, jak i wewnątrz niego. Przepis obejmuje również papierosy elektroniczne i podobne urządzenia. Nie należy rozszerzać tego konkretnego zakazu na każdą przerwę w przewozie, gdy nie są wykonywane czynności ładunkowe, choć inne przepisy i zasady bezpieczeństwa nadal mogą ograniczać palenie. Podstawa: ADR 8.3.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    }
+  ]
+}
