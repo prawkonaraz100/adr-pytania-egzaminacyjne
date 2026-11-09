@@ -553,18 +553,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca przewozu ADR nie zna sposobu używania wymaganej gaśnicy. Co mówi 8.3.2?",
+        "stem": "Kierowca dostawczaka wiezie farbę w ilości mieszczącej się w limicie z 1.1.3.6, więc nie potrzebuje zaświadczenia ADR. Szef uważa, że w ogóle nie musi go szkolić z przepisów ADR. Co wynika z 8.2.3?",
         "options": {
-          "A": "Załoga musi umieć używać gaśnicy",
-          "B": "Nie trzeba znać obsługi gaśnicy przed rozpoczęciem przewozu",
-          "C": "Wystarczy przeczytać etykietę gaśnicy dopiero podczas pożaru"
+          "A": "Musi być przeszkolony według działu 1.3, stosownie do swoich zadań",
+          "B": "Nie potrzebuje szkolenia, skoro przepisy nie wymagają od niego zaświadczenia",
+          "C": "Musi ukończyć kurs podstawowy ADR i zdać egzamin przed wyjazdem"
         },
         "correct_option": "A",
-        "explanation": "Załoga musi umieć użyć wymaganej gaśnicy jeszcze przed wyruszeniem, bo podczas pożaru nie ma czasu na naukę obsługi. Samo posiadanie gaśnicy ani czytanie etykiety dopiero w chwili zagrożenia nie zapewnia bezpiecznego działania. Nie oznacza to obowiązku gaszenia każdego pożaru: najpierw trzeba ocenić własne bezpieczeństwo. Podstawa: ADR 8.3.2.",
+        "explanation": "Kierowca, który nie musi mieć zaświadczenia ADR, nadal bierze udział w przewozie towarów niebezpiecznych. Punkt 8.2.3 wymaga, aby taka osoba była przeszkolona z przepisów ADR w zakresie swoich obowiązków, zgodnie z działem 1.3. Nie chodzi tu o kurs zakończony egzaminem, tylko o szkolenie dopasowane do zadań. Ten obowiązek zostaje także przy przewozie w limicie z 1.1.3.6. Podstawa: ADR 8.2.3 i 1.1.3.6.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.2",
+            "reference": "ADR 2025, 8.2.3; 1.1.3.6.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -594,18 +594,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Odbiorca zauważył, że rozładunek powinien poprzedzać wymagane usunięcie zagrożenia. Czy może pominąć obowiązki rozładunkowe wynikające z ADR?",
+        "stem": "W umowie przewozu jako odbiorcę wpisano hurtownię. Hurtownia, zgodnie z przepisami o umowie przewozu, wyznaczyła zewnętrzną firmę magazynową do przyjęcia towaru. Kto jest wtedy odbiorcą w rozumieniu ADR?",
         "options": {
-          "A": "Tak, samo przyjęcie roli odbiorcy zwalnia z pozostałych obowiązków",
-          "B": "Nie; odbiorca ma obowiązki przy odbiorze i dalszych czynnościach",
-          "C": "Tak, podpisanie dokumentu pozwala pominąć dalsze czynności"
+          "A": "Hurtownia, bo to ona jest wpisana jako odbiorca w umowie przewozu",
+          "B": "Zewnętrzna firma magazynowa, którą wyznaczyła hurtownia",
+          "C": "Przewoźnik, dopóki towar nie zostanie rozładowany"
         },
         "correct_option": "B",
-        "explanation": "Odbiorca nie kończy swoich obowiązków w chwili podpisania dokumentu lub przyjęcia ładunku. Musi wykonać wymagane czynności związane z odbiorem i po rozładunku, w tym zadbać o pozostałości i oznakowanie, gdy przepisy tego wymagają. Sam podpis nie zwalnia z tych działań, a przekazanie towaru nie oznacza, że odpowiedzialność znika. Podstawa: ADR 1.4.2.3.1–1.4.2.3.2.",
+        "explanation": "Według definicji ADR odbiorcą jest odbiorca wskazany w umowie przewozu. Jeżeli jednak odbiorca, zgodnie z przepisami o umowie przewozu, wyznaczy inną firmę, to ona jest odbiorcą w rozumieniu ADR. Tu jest nią firma magazynowa i to na niej ciążą obowiązki odbiorcy. Gdy przewóz odbywa się bez umowy przewozu, odbiorcą jest firma, która przejmuje ładunek po jego przybyciu. Podstawa: ADR 1.2.1, definicja odbiorcy.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.2.3.1–1.4.2.3.2",
+            "reference": "ADR 2025, 1.2.1 (definicja: odbiorca)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -635,18 +635,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Załadowca umieszcza towar ADR w kontenerze, po czym kontener wymaga oznakowania. Kto ma dopełnić wymogów oznakowania po załadunku?",
+        "stem": "Załadowca ma doładować sztuki przesyłek do pojazdu, w którym są już towary niebezpieczne z innego magazynu. Uważa, że zakazy ładowania razem sprawdza jedynie dla tego, co sam ładuje. Co mówi 1.4.3.1.1 (e)?",
         "options": {
-          "A": "Załadowca odpowiada za wymagane oznakowanie",
-          "B": "Odbiorca, dopiero po dostawie, ponieważ oznakowanie można wykonać w miejscu rozładunku.",
-          "C": "Przewoźnik może zastąpić nalepki dużego formatu odpowiednim wpisem w dokumencie przewozowym."
+          "A": "Musi uwzględnić także towary niebezpieczne, które już są w pojeździe",
+          "B": "Za towary już załadowane odpowiada poprzedni załadowca, więc ich nie liczy",
+          "C": "Zakazy ładowania razem sprawdza kierowca dopiero przed wyjazdem"
         },
         "correct_option": "A",
-        "explanation": "Po załadunku to załadowca ma dopilnować, aby kontener był prawidłowo oznakowany i miał wymagane nalepki, zanim zostanie przekazany do dalszego przewozu. Nie można odłożyć tego na odbiorcę do chwili dostawy ani zastąpić nalepek wpisem w dokumencie. Inni uczestnicy mają własne obowiązki kontrolne, ale nie przejmują przez to obowiązku załadowcy. Podstawa: ADR 1.4.3.1.1(c).",
+        "explanation": "Załadowca przy załadunku sztuk przesyłek musi stosować się do zakazów ładowania razem i do zasad oddzielania towarów niebezpiecznych od żywności i karmy. Musi przy tym uwzględnić towary niebezpieczne, które już są w pojeździe lub w kontenerze wielkim. Nie wystarczy więc sprawdzić samego doładowywanego towaru. Może przy tym polegać na informacjach od innych uczestników przewozu, na przykład z dokumentu przewozowego. Podstawa: ADR 1.4.3.1.1 (e) i 1.4.3.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.1.1(c)",
+            "reference": "ADR 2025, 1.4.3.1.1 (e); 1.4.3.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -676,18 +676,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewoźnik kontroluje masę i załadunek pojazdu ADR. Czy jego obowiązki obejmują sprawdzenie, czy pojazd nie jest przeciążony?",
+        "stem": "Przewoźnik przygotowuje pojazd do przewozu towarów niebezpiecznych. Dyspozytor mówi, że masa ładunku to sprawa nadawcy, więc przewoźnik niczego tu nie sprawdza. Co wynika z 1.4.2.2.1 (e)?",
         "options": {
-          "A": "Tak, sprawdza masę i załadunek w swoim zakresie",
-          "B": "Sprawdzić tylko masę samego ładunku, bez porównania z dopuszczalną masą całkowitą pojazdu.",
-          "C": "Kontrolować dopuszczalną masę wyłącznie wtedy, gdy towar jedzie w cysternie."
+          "A": "Przewoźnik sprawdza, czy pojazd nie jest nadmiernie załadowany",
+          "B": "Masę sprawdza nadawca, a przewoźnik nie ma tu obowiązków",
+          "C": "Masę pojazdu sprawdza się dopiero po rozładunku towaru u odbiorcy"
         },
         "correct_option": "A",
-        "explanation": "Przewoźnik powinien sprawdzić, czy pojazd z załadowanym towarem nie przekracza dopuszczalnej masy. Sama masa ładunku nie wystarczy do oceny, bo trzeba uwzględnić również masę pojazdu i porównać wynik z jego dopuszczalnymi limitami. Obowiązek nie ogranicza się do cystern — dotyczy właściwego przewozu ADR w zakresie odpowiedzialności przewoźnika. Podstawa: ADR 1.4.2.2.1(e).",
+        "explanation": "Do obowiązków przewoźnika należy sprawdzenie, czy pojazdy nie są nadmiernie załadowane. Przeładowany pojazd gorzej hamuje i łatwiej o awarię, a to zwiększa ryzyko wypadku z towarem niebezpiecznym. Przewoźnik może przy tym polegać na danych od innych uczestników przewozu, na przykład o masie ładunku od nadawcy. Nie przerzuca jednak przez to swojego obowiązku na nadawcę. Podstawa: ADR 1.4.2.2.1 (e) i 1.4.2.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.2.2.1(e)",
+            "reference": "ADR 2025, 1.4.2.2.1 (e); 1.4.2.2.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -718,18 +718,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Nadawca korzysta z danych technicznych dostarczonych przez pakującego. Czy może je wykorzystać do spełnienia części obowiązków wymienionych w 1.4.2.1.1?",
+        "stem": "Nadawca zleca pakowanie zewnętrznej firmie. Ta firma przekazała mu dane o klasyfikacji towaru według ADR. Czy przy klasyfikacji towaru nadawca może polegać na tych danych?",
         "options": {
-          "A": "Tak, w przypadkach wyliczonych w 1.4.2.1.2",
-          "B": "Nie, musi zignorować wszystkie dane od innych uczestników",
-          "C": "Tak, a zarazem traci wszystkie pozostałe obowiązki"
+          "A": "Tak, przy klasyfikacji ADR pozwala nadawcy polegać na takich danych",
+          "B": "Nie, przed wysyłką musi sam zlecić badanie towaru w laboratorium",
+          "C": "Tak, a odpowiedzialność za przesyłkę przechodzi wtedy na pakującego"
         },
         "correct_option": "A",
-        "explanation": "Nadawca może w określonych sytuacjach korzystać z danych przekazanych przez pakującego lub innych uczestników, żeby poprawnie przygotować przesyłkę. Nie musi ignorować tych informacji, ale nie oznacza to utraty wszystkich własnych obowiązków. Dane muszą pasować do danego towaru i wymagań, a brakujące informacje należy wyjaśnić przed wysyłką. Podstawa: ADR 1.4.2.1.2.",
+        "explanation": "Nadawca, który korzysta z usług pakującego, załadowcy czy napełniającego, nadal musi zadbać o zgodność przesyłki z ADR. Przy niektórych obowiązkach może jednak polegać na informacjach i danych od tych firm. Dotyczy to między innymi klasyfikacji towaru i jego dopuszczenia do przewozu oraz informacji dla przewoźnika. Nie musi więc sam badać towaru, ale nie przenosi też swojej odpowiedzialności na pakującego. Podstawa: ADR 1.4.2.1.2 i 1.4.2.1.1 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.2.1.2",
+            "reference": "ADR 2025, 1.4.2.1.2; 1.4.2.1.1 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
