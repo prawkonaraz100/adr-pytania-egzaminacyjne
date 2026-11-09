@@ -676,18 +676,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po awarii kierowca rozważa włączenie urządzenia elektrycznego w pobliżu palnych oparów. Co nakazuje instrukcja pisemna ADR?",
+        "stem": "Po kolizji z pękniętego worka z nalepką 4.2 wysypał się materiał. W pobliżu nie ma ognia, iskier ani włączonych urządzeń, więc kolega uważa, że pożar nie grozi. Co podają instrukcje pisemne?",
         "options": {
-          "A": "Unikać źródeł zapłonu i nie włączać urządzeń",
-          "B": "Włączyć wentylator kabiny, aby rozproszyć opary przed dalszym działaniem.",
-          "C": "Uruchomić oświetlenie i urządzenia pomocnicze, jeśli nie widać płomienia."
+          "A": "Materiał może zapalić się sam po uwolnieniu, nawet bez źródła zapłonu",
+          "B": "Pożar grozi dopiero wtedy, gdy ktoś zbliży do materiału ogień lub iskrę",
+          "C": "Pożar grozi dopiero wtedy, gdy temperatura powietrza przekroczy 60 °C"
         },
         "correct_option": "A",
-        "explanation": "Przy możliwych palnych oparach przełącznik, wentylator czy inne urządzenie elektryczne może wywołać zapłon. Dlatego nie włączaj ani nie przełączaj urządzeń, nie pal i nie używaj e-papierosów; nie próbuj też rozpraszać oparów wentylatorem. Oddal się, ostrzeż innych i postępuj zgodnie z instrukcją pisemną ADR. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Nalepka 4.2 oznacza materiał podatny na samozapalenie. Instrukcje pisemne ostrzegają, że po uszkodzeniu sztuki przesyłki lub uwolnieniu zawartości grozi pożar wskutek samozapalenia. Taki materiał może zapalić się sam w kontakcie z powietrzem, bez płomienia i bez iskry, a z wodą może reagować gwałtownie. Brak źródeł zapłonu nie oznacza więc, że pożaru nie będzie. Podstawa: ADR 5.4.3.4, charakterystyka zagrożeń dla nalepki 4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne, charakterystyka zagrożeń dla nalepki 4.2)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -717,18 +717,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po wypadku jednostki ADR na miejscu pojawia się służba ratownicza. Co załoga powinna mieć łatwo dostępne dla ratowników?",
+        "stem": "Z uszkodzonej beczki z nalepkami 3 i 8 wycieka ciecz. Kolega twierdzi, że liczy się wyłącznie nalepka 3, więc wystarczy unikać źródeł zapłonu. Jak stosować wskazówki z instrukcji pisemnych?",
         "options": {
-          "A": "Tylko prywatne wiadomości",
-          "B": "Dokumenty przewozowe",
-          "C": "Paragon z parkingu"
+          "A": "Kierować się wskazówkami dla nalepki 3, bo wskazuje główne zagrożenie",
+          "B": "Stosować wskazówki dla obu nalepek, a więc unikać też kontaktu z cieczą",
+          "C": "Kierować się wskazówkami dla nalepki 8, bo działanie żrące jest groźniejsze"
         },
         "correct_option": "B",
-        "explanation": "Dokument przewozowy pomaga ratownikom sprawdzić, jakie towary niebezpieczne są w pojeździe, dlatego załoga powinna umożliwić szybki dostęp do niego, o ile jest to bezpieczne. Paragon z parkingu i prywatne wiadomości nie opisują numerów UN ani rodzaju ładunku. Nie wracaj jednak do zagrożonej kabiny wyłącznie po dokumenty; przekaż służbom znane dane. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Jedna beczka może mieć kilka nalepek, bo materiał stwarza kilka zagrożeń naraz. Uwaga 1 w instrukcjach pisemnych mówi, że wtedy stosuje się każdą ze wskazówek dla tych zagrożeń. Tu ciecz jest zapalna, więc trzeba unikać źródeł zapłonu, ale jest też żrąca i może spowodować poparzenie chemiczne. Dlatego nie wolno jej dotykać ani wdychać jej oparów, nawet przy braku ognia. Podstawa: ADR 5.4.3.4, Uwaga 1 do wskazówek dodatkowych.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne, wskazówki dodatkowe, UWAGA 1; nalepki 3 i 8)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
