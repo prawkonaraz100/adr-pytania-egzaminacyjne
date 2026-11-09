@@ -1,0 +1,190 @@
+{
+  "scope": "ADR-BASIC-ONLY",
+  "batch": "ADR-B-0391..0405",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642; sprostowanie Dz.U. 2025 poz. 1575 sprawdzone",
+  "bank_count": 780,
+  "bank_blob_sha": "9475e2d4f7107dc676486710ce03d626dc7473d8",
+  "bank_changed": false,
+  "previous_uncompared": 390,
+  "compared": 15,
+  "remaining_without_comparison": 375,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "all_780_questions",
+    "automated_same_module_jaccard_threshold": 0.6,
+    "manual_semantic_pairs": [
+      "0395 vs 0061/0203/0277/0708/0770 (5.4.1.1.7)",
+      "0396 vs 0028/0029/0389 (scope of combined-transport derogation)",
+      "0398 vs 0030 (replacement of ADR document information by IMDG/ICAO documentation)"
+    ],
+    "distinguished_pairs": [
+      "0391–0394 vs 0140/0204/0278/0388/0390: separate elements of 5.4.2",
+      "0397 vs 0381/0383/0511: ICAO positive case vs IMDG non-compliance/definition/IMDG case",
+      "0405(g) vs 0406(h): physical protection of information vs access limited to authorized persons",
+      "0399–0405: distinct elements 1.10.3.2.2(a)–(g)"
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0391",
+      "verdict": "POPRAW",
+      "legal_basis": "5.4.2",
+      "gazette_page": 973,
+      "literal_quote": "powinien być dostarczony przewoźnikowi morskiemu przez odpowiedzialnych za pakowanie kontenera",
+      "finding": "Klucz B prawidłowy; B jest jedyną najkrótszą (43 vs 69/78). Unikalny aspekt: odpowiedzialność za dostarczenie certyfikatu.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0392",
+      "verdict": "POPRAW",
+      "legal_basis": "5.4.2",
+      "gazette_page": 973,
+      "literal_quote": "Funkcje dokumentu przewozowego wymaganego w 5.4.1 i certyfikatu pakowania kontenera / pojazdu […] może pełnić jeden dokument",
+      "finding": "Klucz B prawidłowy; opcje 83/81/82, B jedyna najkrótsza; w wyjaśnieniu doprecyzować oświadczenie i identyfikację osoby odpowiedzialnej.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0393",
+      "verdict": "POPRAW",
+      "legal_basis": "5.4.2",
+      "gazette_page": 973,
+      "literal_quote": "do dokumentu przewozowego powinien być również dołączony certyfikat pakowania kontenera/pojazdu",
+      "finding": "Klucz B prawidłowy; opcja A ma 82 znaki; unikalny aspekt certyfikatu pojazdu.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0394",
+      "verdict": "POPRAW",
+      "legal_basis": "5.4.2",
+      "gazette_page": 973,
+      "literal_quote": "Certyfikat pakowania kontenera/pojazdu nie jest wymagany dla cystern przenośnych.",
+      "finding": "Klucz A prawidłowy; opcja B ma 81 znaków, średniki we wszystkich opcjach. Temat cysternowy pozostawić bez rozbudowy.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0395",
+      "verdict": "POPRAW",
+      "legal_basis": "5.4.1.1.7",
+      "gazette_page": 965,
+      "literal_quote": "W przypadku przewozu zgodnie z 1.1.4.2.1, w dokumencie przewozowym powinien być zamieszczony dodatkowo następujący zapis: PRZEWÓZ ZGODNY Z 1.1.4.2.1.",
+      "finding": "Duplikat 0061; opcje 83/87/99, A jedyna najkrótsza. Brak bezpiecznego nowego tematu w obecnym wąskim zakresie K02.",
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "replacement_note": "Brak bezpiecznego niepowielającego się tematu w aktualnym, wąsko określonym zakresie kompetencji; wymaga zgody na zmianę celu kompetencji."
+    },
+    {
+      "id": "ADR-B-0396",
+      "verdict": "POPRAW",
+      "legal_basis": "1.1.4.2.1",
+      "gazette_page": 29,
+      "literal_quote": "nie spełniają wymagań ADR dotyczących pakowania, pakowania razem, oznakowania i stosowania nalepek ostrzegawczych, ale są zgodne z wymaganiami Kodeksu IMDG lub Instrukcji Technicznych ICAO",
+      "finding": "Duplikat 0028/0029/0389; B jedyna najkrótsza (67 vs 69/70), dystraktory zawierają absolutne sformułowania. K05 jest już pokryta innymi subtematami; brak bezpiecznego nowego tematu bez zmiany zakresu.",
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "replacement_note": "Brak bezpiecznego niepowielającego się tematu w aktualnym, wąsko określonym zakresie kompetencji; wymaga zgody na zmianę celu kompetencji."
+    },
+    {
+      "id": "ADR-B-0397",
+      "verdict": "POPRAW",
+      "legal_basis": "1.1.4.2.1(a)",
+      "gazette_page": 29,
+      "literal_quote": "jeżeli sztuki przesyłek nie są oznakowane znakami i nalepkami ostrzegawczymi zgodnie z ADR, to powinny być oznakowane znakami i nalepkami ostrzegawczymi zgodnie z wymaganiami Kodeksu IMDG lub Instrukcji Technicznych ICAO",
+      "finding": "Klucz A prawidłowy; opcja A 83 znaki. Temat pozytywnego zastosowania ICAO TI odrębny od definicji i negatywnego przypadku IMDG.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0398",
+      "verdict": "POPRAW",
+      "legal_basis": "1.1.4.2.3",
+      "gazette_page": 29,
+      "literal_quote": "informacje wymagane na podstawie przepisów 5.4.1, 5.4.2 oraz któregoś z przepisów szczególnych działu 3.3 mogą być zastąpione przez dokument przewozowy i informacje wymagane odpowiednio na podstawie Kodeksu IMDG lub Instrukcji Technicznych ICAO, pod warunkiem, że będzie również podana każda dodatkowa informacja, wymagana na podstawie ADR.",
+      "finding": "Duplikat 0030; opcje 92/105/108, formy gramatyczne niespójne. Proponowany zamiennik: nowy temat 5.4.2.3 (EDI signatures).",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-10",
+        "competency_id": "ADR-B-10-K03",
+        "stem": "Dokumenty dotyczące towarów niebezpiecznych są przekazywane przewoźnikowi przez EDI. Jak ADR 5.4.2.3 pozwala potwierdzić podpis osoby upoważnionej?",
+        "options": {
+          "A": "Podpisem elektronicznym lub nazwiskiem upoważnionego WIELKIMI LITERAMI",
+          "B": "Wyłącznie odręcznym podpisem osoby upoważnionej na papierowym dokumencie",
+          "C": "Imieniem i nazwiskiem kierowcy, zapisanymi drukowanymi literami na wydruku"
+        },
+        "correct_option": "A",
+        "explanation": "Jeżeli dokumenty dotyczące towarów niebezpiecznych są przekazywane przewoźnikowi przez EDP lub EDI, ADR dopuszcza podpis elektroniczny. Zamiast niego można podać nazwiska osób upoważnionych do podpisu, zapisane wielkimi literami. Nie jest wymagany wyłącznie odręczny podpis na papierze, a sam numer zlecenia nie identyfikuje osoby podpisującej. Podstawa: ADR 5.4.2.3.",
+        "sources": [
+          "ADR 2025, 5.4.2.3"
+        ],
+        "status": "proposal_only",
+        "scope_note": "Nowy, niepowielający się aspekt dokumentacji certyfikatu; nie zmienia banku ani kluczy."
+      }
+    },
+    {
+      "id": "ADR-B-0399",
+      "verdict": "POPRAW",
+      "legal_basis": "1.10.3.2.2(a)",
+      "gazette_page": 96,
+      "literal_quote": "szczegółowy podział obowiązków w zakresie ochrony wraz ze wskazaniem kompetentnych i wykwalifikowanych osób, które posiadają odpowiednie uprawnienia do ich wykonywania",
+      "finding": "Klucz C prawidłowy; opcja B 96 znaków. Element planu: podział odpowiedzialności i kwalifikacje.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0400",
+      "verdict": "POPRAW",
+      "legal_basis": "1.10.3.2.2(b)",
+      "gazette_page": 96,
+      "literal_quote": "wykaz towarów niebezpiecznych podlegających ochronie lub wykaz rodzajów towarów niebezpiecznych podlegających ochronie",
+      "finding": "Klucz B prawidłowy; opcje B/C 85/100 znaków. Element planu: towary objęte ochroną.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0401",
+      "verdict": "POPRAW",
+      "legal_basis": "1.10.3.2.2(c)",
+      "gazette_page": 96,
+      "literal_quote": "opis wykonywanych czynności i ocenę związanych z nimi zagrożeń, z uwzględnieniem postojów niezbędnych do wykonania operacji transportowych, przechowywania towarów niebezpiecznych – przed, podczas i po przewozie – w pojeździe, w cysternie lub w kontenerze, a także czasowego przechowywania towarów niebezpiecznych związanego ze zmianą rodzaju transportu lub środka transportu",
+      "finding": "Klucz C prawidłowy; opcja B 87 znaków; stem doprecyzować o przechowywanie przed, podczas i po przewozie.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0402",
+      "verdict": "POPRAW",
+      "legal_basis": "1.10.3.2.2(d)",
+      "gazette_page": 96,
+      "literal_quote": "szczegółowy wykaz przedsięwzięć, które powinny być zastosowane w celu zminimalizowania zagrożeń",
+      "finding": "Klucz C prawidłowy; opcje B/C 102/89 znaków, A tylko 35; wyrównać odpowiedzi.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0403",
+      "verdict": "POPRAW",
+      "legal_basis": "1.10.3.2.2(e)",
+      "gazette_page": 97,
+      "literal_quote": "skuteczne i aktualne procedury powiadamiania i postępowania w przypadkach zagrożeń, nieprzestrzegania zasad bezpieczeństwa i związanych z nimi zdarzeń",
+      "finding": "Klucz C prawidłowy; C 87 znaków i jedyna najdłuższa (A61/B60).",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0404",
+      "verdict": "POPRAW",
+      "legal_basis": "1.10.3.2.2(f)",
+      "gazette_page": 97,
+      "literal_quote": "procedury oceny i testowania planów ochrony oraz procedury przeglądów okresowych i aktualizacji tych planów",
+      "finding": "Klucz B prawidłowy; C 94 znaki, A 35; rozróżnić testowanie, przegląd i aktualizację.",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0405",
+      "verdict": "POPRAW",
+      "legal_basis": "1.10.3.2.2(g)",
+      "gazette_page": 97,
+      "literal_quote": "działania zapewniające ochronę fizyczną informacji o transporcie zawartych w planie ochrony",
+      "finding": "Klucz C prawidłowy; B/C 101/84 znaki. Odrębne od 0406(h), które dotyczy ograniczenia dostępu do osób upoważnionych.",
+      "verification_status": "needs_review"
+    }
+  ]
+}
