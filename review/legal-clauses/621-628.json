@@ -4,45 +4,43 @@
     {
       "id": "ADR-B-0621",
       "order": 621,
-      "clause": "ADR 2025, 2.2.42.1.1",
+      "clause": "ADR 2025, 5.2.2.2.2 (wzory nalepek 4.1, 4.2 i 4.3); 2.2.42.1.1",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0621",
         "module_id": "ADR-B-02",
-        "stem": "Na przesyłce znajduje się nalepka klasy 4.2. Jakie zagrożenie wskazuje ta klasa?",
+        "stem": "Na worku jest nalepka w kształcie rombu: górna połowa biała, dolna czerwona, czarny płomień, a w dolnym rogu cyfra 4. Przed jakim zagrożeniem ostrzega ta nalepka?",
         "options": {
-          "A": "Materiał może sam się nagrzewać lub ulec samozapaleniu.",
-          "B": "Materiał jest stały i łatwopalny, więc trzeba ograniczyć źródła zapłonu.",
-          "C": "Materiał może niebezpiecznie reagować z wodą, dlatego trzeba sprawdzić warunki jego ochrony przed wilgocią."
+          "A": "Przed materiałem podatnym na samozapalenie, czyli z klasy 4.2",
+          "B": "Przed materiałem zapalnym stałym z klasy 4.1, palącym się od iskry",
+          "C": "Przed materiałem wydzielającym z wodą gazy palne z klasy 4.3"
         },
         "correct_option": "A",
-        "explanation": "Klasa 4.2 oznacza materiały podatne na samozapalenie lub samonagrzewanie, więc nie zawsze potrzebują zewnętrznego płomienia, aby powstało zagrożenie. Odpowiedź B opisuje głównie materiały stałe zapalne klasy 4.1, a C — materiały klasy 4.3, które wydzielają palny gaz w kontakcie z wodą. W praktyce sprawdź klasę i właściwe instrukcje, zamiast traktować wszystkie materiały palne tak samo. Podstawa: ADR 2.2.42.1.1.",
+        "explanation": "Nalepka wzoru 4.2 ma czarny płomień na tle, którego górna połowa jest biała, a dolna czerwona, oraz cyfrę 4 w dolnym rogu. Oznacza materiały podatne na samozapalenie, które w zetknięciu z powietrzem mogą się nagrzewać i zapalić bez dostarczenia energii z zewnątrz. Nalepka 4.1 ma białe tło z siedmioma czerwonymi pionowymi pasami, a nalepka 4.3 ma tło niebieskie. Rozpoznanie wzoru pomaga dobrać postępowanie z uszkodzonym workiem. Podstawa: ADR 5.2.2.2.2 (wzory nalepek 4.1, 4.2 i 4.3) i 2.2.42.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.42.1.1",
+            "reference": "ADR 2025, 5.2.2.2.2 (wzory nalepek 4.1, 4.2 i 4.3); 2.2.42.1.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
-        ],
-        "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        ]
       },
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Opcja A jest poprawna: Materiał może sam się nagrzewać lub ulec samozapaleniu. Klasa 4.2 oznacza materiały podatne na samozapalenie lub samonagrzewanie, więc zagrożenie może pojawić się bez zwykłego zewnętrznego źródła ognia. Odpowiedź B opisuje przede wszystkim klasę 4.1, a C klasę 4.3. Nie dobieraj sposobu postępowania wyłącznie po ogólnym określeniu „materiał niebezpieczny”; sprawdź właściwą pozycję i instrukcje. Podstawa: ADR 2.2.42.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Wzór 4.2 ma białą górną połowę, czerwoną dolną i czarny płomień; oznacza materiały podatne na samozapalenie."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Materiał jest stały i łatwopalny, więc trzeba ograniczyć źródła zapłonu. Klasa 4.2 oznacza materiały podatne na samozapalenie lub samonagrzewanie, więc zagrożenie może pojawić się bez zwykłego zewnętrznego źródła ognia. Odpowiedź B opisuje przede wszystkim klasę 4.1, a C klasę 4.3. Nie dobieraj sposobu postępowania wyłącznie po ogólnym określeniu „materiał niebezpieczny”; sprawdź właściwą pozycję i instrukcje. Podstawa: ADR 2.2.42.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Nalepka 4.1 ma białe tło z siedmioma czerwonymi pionowymi pasami, a nie wzór 4.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: Materiał może niebezpiecznie reagować z wodą, dlatego trzeba sprawdzić warunki jego ochrony przed wilgocią. Klasa 4.2 oznacza materiały podatne na samozapalenie lub samonagrzewanie, więc zagrożenie może pojawić się bez zwykłego zewnętrznego źródła ognia. Odpowiedź B opisuje przede wszystkim klasę 4.1, a C klasę 4.3. Nie dobieraj sposobu postępowania wyłącznie po ogólnym określeniu „materiał niebezpieczny”; sprawdź właściwą pozycję i instrukcje. Podstawa: ADR 2.2.42.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Nalepka 4.3 ma niebieskie tło i oznacza materiały wydzielające palne gazy w zetknięciu z wodą."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Sprawdzenie redakcyjne opiera się na wskazanej podstawie ADR; literalne porównanie pełnego polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "5.2.2.2.2 s. 946 (obraz strony sprawdzony); 2.2.42.1.1 s. 182.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -51,45 +49,43 @@
     {
       "id": "ADR-B-0622",
       "order": 622,
-      "clause": "ADR 2025, 2.2.52.1.1 i 2.2.52.1.4",
+      "clause": "ADR 2025, 2.2.52.1.4",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0622",
         "module_id": "ADR-B-02",
-        "stem": "Kierowca ma przewieźć towar oznaczony jako klasa 5.2. Co powinien rozpoznać z tego oznaczenia?",
+        "stem": "Podczas rozładunku z pękniętego opakowania z nalepką 5.2 pryska kilka kropli nadtlenku organicznego. Pracownik nie ma okularów ochronnych i uważa, że krótki kontakt z oczami nie grozi niczym poważnym. Co wynika z 2.2.52.1.4?",
         "options": {
-          "A": "To materiał utleniający, który sam nie musi być wrażliwy na ogrzewanie.",
-          "B": "To nadtlenek organiczny, który może rozkładać się niebezpiecznie pod wpływem ciepła.",
-          "C": "To ciecz zapalna, której podstawowym zagrożeniem są opary przy normalnej temperaturze."
+          "A": "Ma rację, bo nadtlenek jest groźny dopiero po nagrzaniu do wysokiej temperatury",
+          "B": "Nie ma racji, bo nawet krótki kontakt może poważnie uszkodzić rogówkę oka",
+          "C": "Ma rację, jeżeli kontakt trwał krócej niż minutę i oko nie boli"
         },
         "correct_option": "B",
-        "explanation": "Klasa 5.2 obejmuje nadtlenki organiczne, które mogą rozkładać się niebezpiecznie, między innymi pod wpływem ciepła. Odpowiedź A dotyczy materiałów utleniających klasy 5.1, a C — cieczy zapalnych klasy 3. Warunki przewozu zależą od konkretnego nadtlenku, dlatego sama klasa nie zastępuje sprawdzenia wpisu ADR i ewentualnych wymagań kontroli temperatury. Podstawa: ADR 2.2.52.1.1 i 2.2.52.1.4.",
+        "explanation": "Według 2.2.52.1.4 nadtlenki organiczne mogą rozkładać się niebezpiecznie pod wpływem ciepła, zanieczyszczeń, tarcia lub uderzenia. Ten sam punkt każe unikać kontaktu nadtlenku organicznego z oczami. Niektóre nadtlenki mogą poważnie uszkodzić rogówkę nawet przy krótkotrwałym kontakcie i mogą działać żrąco na skórę. Dlatego kilku kropli z pękniętego opakowania nie wolno lekceważyć, a oczy trzeba chronić i odsunąć się od wycieku. Podstawa: ADR 2.2.52.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.52.1.1 i 2.2.52.1.4",
+            "reference": "ADR 2025, 2.2.52.1.4 (kontakt z oczami, uszkodzenie rogówki)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
-        ],
-        "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        ]
       },
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: To materiał utleniający, który sam nie musi być wrażliwy na ogrzewanie. Klasa 5.2 obejmuje nadtlenki organiczne, które mogą rozkładać się z wydzielaniem ciepła, a niektóre wymagają kontroli temperatury podczas przewozu. Odpowiedź A opisuje klasę 5.1, a C klasę 3. Nie zakładaj, że wszystkie towary klasy 5.2 mają identyczne warunki przewozu — sprawdź konkretną pozycję ADR i wymagania dla danego produktu. Podstawa: ADR 2.2.52.1.1 i 2.2.52.1.4. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Zanieczyszczenia, tarcie i uderzenie mogą inicjować rozkład nadtlenku organicznego, ale nie opisują skutku kontaktu z oczami."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Opcja B jest poprawna: To nadtlenek organiczny, który może rozkładać się niebezpiecznie pod wpływem ciepła. Klasa 5.2 obejmuje nadtlenki organiczne, które mogą rozkładać się z wydzielaniem ciepła, a niektóre wymagają kontroli temperatury podczas przewozu. Odpowiedź A opisuje klasę 5.1, a C klasę 3. Nie zakładaj, że wszystkie towary klasy 5.2 mają identyczne warunki przewozu — sprawdź konkretną pozycję ADR i wymagania dla danego produktu. Podstawa: ADR 2.2.52.1.1 i 2.2.52.1.4. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "2.2.52.1.4 ostrzega, że kontakt z oczami może spowodować poważne uszkodzenie rogówki nawet przy krótkim kontakcie."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: To ciecz zapalna, której podstawowym zagrożeniem są opary przy normalnej temperaturze. Klasa 5.2 obejmuje nadtlenki organiczne, które mogą rozkładać się z wydzielaniem ciepła, a niektóre wymagają kontroli temperatury podczas przewozu. Odpowiedź A opisuje klasę 5.1, a C klasę 3. Nie zakładaj, że wszystkie towary klasy 5.2 mają identyczne warunki przewozu — sprawdź konkretną pozycję ADR i wymagania dla danego produktu. Podstawa: ADR 2.2.52.1.1 i 2.2.52.1.4. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Przepis wskazuje możliwość poważnego uszkodzenia rogówki przy krótkotrwałym kontakcie; brak natychmiastowego bólu nie wyklucza zagrożenia."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Sprawdzenie redakcyjne opiera się na wskazanej podstawie ADR; literalne porównanie pełnego polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "2.2.52.1.4 s. 196.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -98,45 +94,43 @@
     {
       "id": "ADR-B-0623",
       "order": 623,
-      "clause": "ADR 2025, 2.2.61.1.1",
+      "clause": "ADR 2025, 2.2.61.1.1; 5.4.3.4 (wzór instrukcji pisemnych)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0623",
         "module_id": "ADR-B-02",
-        "stem": "Dokument przewozowy wskazuje towar klasy 6.1. Które zagrożenie jest związane z tą klasą?",
+        "stem": "Z pękniętego kanistra z nalepką 6.1 kapie ciecz. Pomocnik chce wytrzeć kilka kropli gołą dłonią, bo uważa, że trucizna szkodzi dopiero po połknięciu większej ilości. Czy ma rację?",
         "options": {
-          "A": "Zakażenie przez materiał zawierający drobnoustroje lub ich toksyny.",
-          "B": "Uszkodzenie skóry i powierzchni przez działanie żrące.",
-          "C": "Zatrucie — szkodliwe działanie substancji na organizm człowieka."
+          "A": "Tak, bo materiał trujący szkodzi dopiero po połknięciu dużej dawki",
+          "B": "Tak, jeżeli zaraz potem dokładnie umyje ręce wodą z mydłem",
+          "C": "Nie, bo nawet mała dawka może zaszkodzić także przez skórę"
         },
         "correct_option": "C",
-        "explanation": "Klasa 6.1 oznacza materiały trujące, które mogą zaszkodzić organizmowi po wniknięciu do niego. Odpowiedź A opisuje materiały zakaźne klasy 6.2, a B — materiały żrące klasy 8. Sam numer klasy nie określa wszystkich środków ostrożności dla danego towaru, dlatego sprawdź dokumenty i oznakowanie, a substancji nie dotykaj ani nie wąchaj. Podstawa: ADR 2.2.61.1.1.",
+        "explanation": "Według 2.2.61.1.1 klasa 6.1 obejmuje materiały, które już po jednorazowym lub krótkotrwałym działaniu w stosunkowo małych dawkach mogą zaszkodzić zdrowiu lub spowodować śmierć. Mogą one działać przez wdychanie, przenikanie przez skórę lub połknięcie. Wycieranie kropli gołą dłonią naraża więc na zatrucie przez skórę, a późniejsze mycie rąk może nie zapobiec szkodzie. Instrukcje pisemne każą nie dotykać uwolnionych materiałów. Podstawa: ADR 2.2.61.1.1 i 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.61.1.1",
+            "reference": "ADR 2025, 2.2.61.1.1; 5.4.3.4 (wzór instrukcji pisemnych: nie dotykać uwolnionych materiałów)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
-        ],
-        "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        ]
       },
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Zakażenie przez materiał zawierający drobnoustroje lub ich toksyny. Klasa 6.1 dotyczy materiałów trujących, czyli takich, które mogą zaszkodzić organizmowi po wniknięciu do niego. Odpowiedź A opisuje klasę 6.2, a B klasę 8. Sama klasa nie mówi jeszcze, jak duże jest ryzyko w konkretnej sytuacji; kierowca powinien sprawdzić oznakowanie, dokumenty i instrukcje, a nie dotykać ani wąchać substancji. Podstawa: ADR 2.2.61.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "2.2.61.1.1 obejmuje materiały szkodliwe już w stosunkowo małych dawkach, także przez wdychanie i przenikanie przez skórę."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Uszkodzenie skóry i powierzchni przez działanie żrące. Klasa 6.1 dotyczy materiałów trujących, czyli takich, które mogą zaszkodzić organizmowi po wniknięciu do niego. Odpowiedź A opisuje klasę 6.2, a B klasę 8. Sama klasa nie mówi jeszcze, jak duże jest ryzyko w konkretnej sytuacji; kierowca powinien sprawdzić oznakowanie, dokumenty i instrukcje, a nie dotykać ani wąchać substancji. Podstawa: ADR 2.2.61.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Mycie rąk po kontakcie nie usuwa zagrożenia; wzór instrukcji pisemnych nakazuje nie dotykać uwolnionych materiałów."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Opcja C jest poprawna: Zatrucie — szkodliwe działanie substancji na organizm człowieka. Klasa 6.1 dotyczy materiałów trujących, czyli takich, które mogą zaszkodzić organizmowi po wniknięciu do niego. Odpowiedź A opisuje klasę 6.2, a B klasę 8. Sama klasa nie mówi jeszcze, jak duże jest ryzyko w konkretnej sytuacji; kierowca powinien sprawdzić oznakowanie, dokumenty i instrukcje, a nie dotykać ani wąchać substancji. Podstawa: ADR 2.2.61.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "2.2.61.1.1 obejmuje szkodliwe działanie jednorazowe lub krótkotrwałe, także przez przenikanie przez skórę."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Sprawdzenie redakcyjne opiera się na wskazanej podstawie ADR; literalne porównanie pełnego polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "2.2.61.1.1 s. 214; wzór s. 975.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -145,45 +139,43 @@
     {
       "id": "ADR-B-0624",
       "order": 624,
-      "clause": "ADR 2025, 2.2.7.1.1",
+      "clause": "ADR 2025, 5.2.2.2.2 (wzory nalepek 7A, 7B i 7C)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0624",
         "module_id": "ADR-B-02",
-        "stem": "Na przesyłce znajduje się oznakowanie klasy 7. Co powinien z niego wywnioskować kierowca?",
+        "stem": "Na sztuce przesyłki jest nalepka z czarnym trójlistkiem. Górna połowa jest żółta z białym obrzeżem, a w dolnej, białej połowie są ramka „TRANSPORT INDEX” i trzy czerwone pionowe paski. Jaką kategorię wskazuje?",
         "options": {
-          "A": "Przesyłka zawiera materiał promieniotwórczy i wymaga zastosowania odpowiednich wymagań ADR.",
-          "B": "Przesyłka zawiera materiał zakaźny, więc należy stosować wyłącznie zasady klasy 6.2.",
-          "C": "Przesyłka zawiera materiał żrący, a najważniejsze jest zapobieganie uszkodzeniu skóry."
+          "A": "Kategorię III-ŻÓŁTA, czyli nalepkę wzoru 7C z trzema paskami",
+          "B": "Kategorię II-ŻÓŁTA, bo żółta górna połowa oznacza tę kategorię",
+          "C": "Kategorię I-BIAŁA, bo dolna połowa tej nalepki jest biała"
         },
         "correct_option": "A",
-        "explanation": "Klasa 7 oznacza materiały promieniotwórcze, dla których ADR przewiduje szczególne wymagania. Nie należy mylić jej z klasą 6.2, dotyczącą materiałów zakaźnych, ani z klasą 8, dotyczącą materiałów żrących — są to inne rodzaje zagrożenia. Sprawdź zgodność oznakowania z dokumentami i stosuj wymagania właściwe dla konkretnego przewozu. Podstawa: ADR 2.2.7.1.1.",
+        "explanation": "Nalepki dla klasy 7 różnią się tłem i liczbą czerwonych pasków po wyrazie „RADIOACTIVE”. Nalepka 7A kategorii I-BIAŁA ma białe tło i jeden pasek, a nalepka 7B kategorii II-ŻÓŁTA ma żółtą górną połowę i dwa paski. Nalepka 7C kategorii III-ŻÓŁTA ma żółtą górną połowę, ramkę „TRANSPORT INDEX” i trzy paski. Kategorię trzeba rozpoznać poprawnie, bo wiążą się z nią inne wymagania przewozu. Podstawa: ADR 5.2.2.2.2 (wzory nalepek 7A, 7B i 7C).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.7.1.1",
+            "reference": "ADR 2025, 5.2.2.2.2 (wzory nalepek 7A, 7B i 7C)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
-        ],
-        "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        ]
       },
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Opcja A jest poprawna: Przesyłka zawiera materiał promieniotwórczy i wymaga zastosowania odpowiednich wymagań ADR. Klasa 7 oznacza materiały promieniotwórcze. Kierowca nie powinien mylić jej z materiałami zakaźnymi klasy 6.2 ani z materiałami żrącymi klasy 8, ponieważ zagrożenia i wymagane środki ostrożności są inne. Sam numer klasy to początek sprawdzenia: należy porównać oznakowanie z dokumentami i przestrzegać wymagań właściwych dla danego przewozu. Podstawa: ADR 2.2.7.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Wzór 7C ma żółtą górną połowę, ramkę TRANSPORT INDEX i trzy czerwone paski; oznacza kategorię III-ŻÓŁTA."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Przesyłka zawiera materiał zakaźny, więc należy stosować wyłącznie zasady klasy 6.2. Klasa 7 oznacza materiały promieniotwórcze. Kierowca nie powinien mylić jej z materiałami zakaźnymi klasy 6.2 ani z materiałami żrącymi klasy 8, ponieważ zagrożenia i wymagane środki ostrożności są inne. Sam numer klasy to początek sprawdzenia: należy porównać oznakowanie z dokumentami i przestrzegać wymagań właściwych dla danego przewozu. Podstawa: ADR 2.2.7.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Wzór 7B oznaczający kategorię II-ŻÓŁTA ma dwa czerwone paski, nie trzy."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: Przesyłka zawiera materiał żrący, a najważniejsze jest zapobieganie uszkodzeniu skóry. Klasa 7 oznacza materiały promieniotwórcze. Kierowca nie powinien mylić jej z materiałami zakaźnymi klasy 6.2 ani z materiałami żrącymi klasy 8, ponieważ zagrożenia i wymagane środki ostrożności są inne. Sam numer klasy to początek sprawdzenia: należy porównać oznakowanie z dokumentami i przestrzegać wymagań właściwych dla danego przewozu. Podstawa: ADR 2.2.7.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Wzór 7A kategorii I-BIAŁA ma całe białe tło i jeden czerwony pasek."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Sprawdzenie redakcyjne opiera się na wskazanej podstawie ADR; literalne porównanie pełnego polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "5.2.2.2.2 s. 948 (obraz strony sprawdzony).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -192,45 +184,43 @@
     {
       "id": "ADR-B-0625",
       "order": 625,
-      "clause": "ADR 2025, 2.2.8.1.1",
+      "clause": "ADR 2025, 3.2.1, tabela A (UN 2794); 2.2.8.1.1; 2.2.8.1.4.1 (C11)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0625",
         "module_id": "ADR-B-02",
-        "stem": "Co oznacza oznakowanie przesyłki jako klasa 8?",
+        "stem": "Kierowca ma przewieźć UN 2794 AKUMULATORY MOKRE NAPEŁNIONE KWASEM elektryczne. Kolega twierdzi, że akumulatory należą do klasy 9, tak jak inne towary niebezpieczne różne. Do której klasy zalicza je tabela A?",
         "options": {
-          "A": "Towar może wywołać zatrucie, ale nie powoduje uszkodzeń przez działanie chemiczne.",
-          "B": "Towar ma działanie żrące i może uszkodzić tkanki lub materiały, z którymi się zetknie.",
-          "C": "Towar może spowodować zakażenie, dlatego podstawową ochroną jest ograniczenie kontaktu z drobnoustrojami."
+          "A": "Do klasy 9, bo w tej klasie są przedmioty niebezpieczne różne",
+          "B": "Do klasy 8, jako przedmioty zawierające materiał żrący",
+          "C": "Do klasy 4.3, bo kwas w akumulatorze reaguje z wodą"
         },
         "correct_option": "B",
-        "explanation": "Klasa 8 obejmuje materiały żrące, które mogą uszkodzić skórę, oczy lub inne materiały podczas kontaktu. Odpowiedź A opisuje zagrożenie trujące klasy 6.1, a C — zagrożenie zakaźne klasy 6.2. Nie oceniaj substancji po samym wyglądzie i nie dotykaj uszkodzonego opakowania; rozpoznaj oznakowanie i stosuj wymagane środki ostrożności. Podstawa: ADR 2.2.8.1.1.",
+        "explanation": "W tabeli A pozycja UN 2794 AKUMULATORY MOKRE NAPEŁNIONE KWASEM ma klasę 8, kod klasyfikacyjny C11 i nalepkę wzoru 8. Kod C11 oznacza w klasie 8 przedmioty, czyli tu akumulatory z kwasem, który działa żrąco. Klasa 8 obejmuje materiały, które niszczą skórę lub w razie wycieku uszkadzają inne towary i środki transportu. Wyciek kwasu z pękniętego akumulatora jest więc zagrożeniem żrącym, a nie reakcją z wodą. Podstawa: ADR 3.2.1, tabela A (UN 2794), 2.2.8.1.1 i 2.2.8.1.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.8.1.1",
+            "reference": "ADR 2025, 3.2.1, tabela A (UN 2794: klasa 8, kod C11, nalepka 8); 2.2.8.1.1; 2.2.8.1.4.1 (C11)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
-        ],
-        "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        ]
       },
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Towar może wywołać zatrucie, ale nie powoduje uszkodzeń przez działanie chemiczne. Klasa 8 obejmuje materiały żrące, które mogą uszkadzać skórę, oczy lub inne materiały. Odpowiedź A opisuje zagrożenie trujące klasy 6.1, a C zakaźne klasy 6.2. Nie próbuj rozpoznawać substancji po wyglądzie ani nie dotykaj uszkodzonego opakowania; sprawdź oznakowanie i zastosuj właściwe środki ostrożności. Podstawa: ADR 2.2.8.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Tabela A przypisuje UN 2794 do klasy 8, a nie do klasy 9."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Opcja B jest poprawna: Towar ma działanie żrące i może uszkodzić tkanki lub materiały, z którymi się zetknie. Klasa 8 obejmuje materiały żrące, które mogą uszkadzać skórę, oczy lub inne materiały. Odpowiedź A opisuje zagrożenie trujące klasy 6.1, a C zakaźne klasy 6.2. Nie próbuj rozpoznawać substancji po wyglądzie ani nie dotykaj uszkodzonego opakowania; sprawdź oznakowanie i zastosuj właściwe środki ostrożności. Podstawa: ADR 2.2.8.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Tabela A wskazuje dla UN 2794 klasę 8, kod klasyfikacyjny C11 (przedmioty) i nalepkę 8."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: Towar może spowodować zakażenie, dlatego podstawową ochroną jest ograniczenie kontaktu z drobnoustrojami. Klasa 8 obejmuje materiały żrące, które mogą uszkadzać skórę, oczy lub inne materiały. Odpowiedź A opisuje zagrożenie trujące klasy 6.1, a C zakaźne klasy 6.2. Nie próbuj rozpoznawać substancji po wyglądzie ani nie dotykaj uszkodzonego opakowania; sprawdź oznakowanie i zastosuj właściwe środki ostrożności. Podstawa: ADR 2.2.8.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Klasa 4.3 obejmuje materiały wydzielające palne gazy w zetknięciu z wodą; UN 2794 należy do klasy 8."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Sprawdzenie redakcyjne opiera się na wskazanej podstawie ADR; literalne porównanie pełnego polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "Tabela A s. 517 (obraz strony sprawdzony); 2.2.8.1.1 i 2.2.8.1.4.1 s. 264.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -239,45 +229,43 @@
     {
       "id": "ADR-B-0626",
       "order": 626,
-      "clause": "ADR 2025, 5.4.3.4, instrukcje pisemne",
+      "clause": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0626",
         "module_id": "ADR-B-05",
-        "stem": "Po wypadku kierowca widzi poszkodowanego obok rozlewu, a w powietrzu czuć drażniące opary. Co powinien zrobić najpierw?",
+        "stem": "Po kolizji z beczki wycieka ciecz, a nad rozlewem unoszą się opary. Kolega stoi w oparach przy beczce, jest przytomny i może iść o własnych siłach. Kierowca stoi po stronie nawietrznej. Co powinien zrobić?",
         "options": {
-          "A": "Podejść do poszkodowanego natychmiast, bo udzielenie pomocy zawsze ma pierwszeństwo przed oceną miejsca.",
-          "B": "Przenieść poszkodowanego do kabiny i dopiero potem sprawdzić, czy rozlew jest niebezpieczny.",
-          "C": "Ocenić bezpieczeństwo z dystansu, ostrzec innych i wezwać pomoc; nie wchodzić w opary."
+          "A": "Wejść w opary i wyprowadzić kolegę pod rękę, bo tak będzie szybciej",
+          "B": "Czekać na służby w milczeniu, bo przy wycieku nic nie wolno",
+          "C": "Zawołać kolegę, żeby sam wyszedł z oparów na stronę nawietrzną"
         },
         "correct_option": "C",
-        "explanation": "Zanim podejdziesz do poszkodowanego, oceń z bezpiecznej odległości, czy miejsce nie naraża także ciebie na opary lub kontakt z ładunkiem. Wejście w strefę zagrożenia może stworzyć kolejnego poszkodowanego, więc ostrzeż innych i wezwij służby. Pomagaj tylko wtedy, gdy możesz zrobić to bezpiecznie i w granicach swojego przeszkolenia; nie przenoś osoby przez rozlew. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą nie wchodzić na uwolnione materiały, unikać wdychania oparów i pozostawać po stronie nawietrznej. Każą też oddalić się od miejsca zagrożenia i poinformować inne osoby o konieczności oddalenia się. Kolega może iść sam, więc najbezpieczniej jest zawołać go do siebie, zamiast wchodzić w opary i narażać drugą osobę. Potem kierowca powiadamia służby i udziela pomocy już poza strefą zagrożenia. Podstawa: ADR 5.4.3.4 (instrukcje pisemne).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4, instrukcje pisemne",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: strona nawietrzna, poinformować inne osoby o oddaleniu się)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
-        ],
-        "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        ]
       },
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Podejść do poszkodowanego natychmiast, bo udzielenie pomocy zawsze ma pierwszeństwo przed oceną miejsca. Kierowca powinien najpierw sprawdzić, czy może pomóc bez narażenia siebie i kolejnych osób. Wejście w opary może stworzyć następnego poszkodowanego, dlatego trzeba ostrzec innych, wezwać służby i udzielać pomocy tylko w granicach bezpieczeństwa oraz własnego przeszkolenia. Nie przenoś poszkodowanego przez rozlew ani nie rozpoznawaj substancji po zapachu. Podstawa: instrukcje pisemne ADR, 5.4.3.4. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Wzór instrukcji pisemnych zabrania wchodzenia na uwolnione materiały i nakazuje unikać wdychania oparów."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Przenieść poszkodowanego do kabiny i dopiero potem sprawdzić, czy rozlew jest niebezpieczny. Kierowca powinien najpierw sprawdzić, czy może pomóc bez narażenia siebie i kolejnych osób. Wejście w opary może stworzyć następnego poszkodowanego, dlatego trzeba ostrzec innych, wezwać służby i udzielać pomocy tylko w granicach bezpieczeństwa oraz własnego przeszkolenia. Nie przenoś poszkodowanego przez rozlew ani nie rozpoznawaj substancji po zapachu. Podstawa: instrukcje pisemne ADR, 5.4.3.4. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Wzór nakazuje poinformować inne osoby o konieczności oddalenia się od miejsca zagrożenia; nie zaleca biernego milczenia."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Opcja C jest poprawna: Ocenić bezpieczeństwo z dystansu, ostrzec innych i wezwać pomoc; nie wchodzić w opary. Kierowca powinien najpierw sprawdzić, czy może pomóc bez narażenia siebie i kolejnych osób. Wejście w opary może stworzyć następnego poszkodowanego, dlatego trzeba ostrzec innych, wezwać służby i udzielać pomocy tylko w granicach bezpieczeństwa oraz własnego przeszkolenia. Nie przenoś poszkodowanego przez rozlew ani nie rozpoznawaj substancji po zapachu. Podstawa: instrukcje pisemne ADR, 5.4.3.4. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Wzór wskazuje stronę nawietrzną oraz oddalenie się i poinformowanie innych osób o zagrożeniu."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Sprawdzenie redakcyjne opiera się na wskazanej podstawie ADR; literalne porównanie pełnego polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "Wzór instrukcji pisemnych s. 975. Pokrewne 0113/0187/0642/0648 dotyczą nie wchodzenia w strefę; tu przytomny poszkodowany wychodzi sam. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -286,45 +274,43 @@
     {
       "id": "ADR-B-0627",
       "order": 627,
-      "clause": "ADR 2025, 3.2 tabela A, kolumna 5; 5.2.2.1.1",
+      "clause": "ADR 2025, 5.2.2.1.6 (a) i (c)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0627",
         "module_id": "ADR-B-06",
-        "stem": "Przed wyjazdem kierowca sprawdza przesyłkę i widzi, że brakuje nalepki zagrożenia dodatkowego wymaganej dla danego towaru. Co powinien zrobić?",
+        "stem": "Karton z cieczą zapalną, która jest też trująca, wymaga nalepek wzorów 3 i 6.1. Pracownik nakleił nalepkę 3 na przedniej ściance, a nalepkę 6.1 na tylnej, choć obie zmieszczą się na jednej. Czy to zgodne z 5.2.2.1.6?",
         "options": {
-          "A": "Zapewnić wszystkie wymagane nalepki przed przewozem i wyjaśnić niezgodność.",
-          "B": "Pozostawić przesyłkę bez dodatkowej nalepki, jeśli numer UN jest czytelny w dokumencie.",
-          "C": "Zastąpić brakującą nalepkę dopiskiem w dokumencie, żeby kontrola znała zagrożenie."
+          "A": "Nie, obie nalepki mają być na jednej stronie, w pobliżu siebie",
+          "B": "Tak, bo nalepki na dwóch ściankach widać z dwóch stron tego kartonu",
+          "C": "Tak, jeżeli nalepka 6.1 jest na tej samej ściance co numer UN"
         },
         "correct_option": "A",
-        "explanation": "Jeśli dla towaru wymagane są nalepki zagrożenia głównego i dodatkowego, brak którejkolwiek oznacza niezgodność oznakowania przesyłki. Numer UN w dokumencie pomaga zidentyfikować towar, ale nie zastępuje nalepek na opakowaniu; dopisek w dokumencie również nie usuwa braku. Wyjaśnij niezgodność i zapewnij prawidłowe oznakowanie przed przewozem. Podstawa: ADR 3.2 tabela A, kolumna 5, oraz 5.2.2.1.1.",
+        "explanation": "Według 5.2.2.1.6 każda nalepka ostrzegawcza powinna być umieszczona na tej samej stronie sztuki przesyłki, jeżeli pozwala na to jej wielkość. Gdy wymaga się więcej niż jednej nalepki, umieszcza się je w pobliżu siebie. Dzięki temu osoba patrząca na jedną ściankę widzi od razu wszystkie zagrożenia, tutaj zapalność i działanie trujące. Karton jest dość duży, więc nalepkę 6.1 trzeba przenieść obok nalepki 3. Podstawa: ADR 5.2.2.1.6 (a) i (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.2 tabela A, kolumna 5; 5.2.2.1.1",
+            "reference": "ADR 2025, 5.2.2.1.6 (a) i (c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
-        ],
-        "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        ]
       },
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Opcja A jest poprawna: Zapewnić wszystkie wymagane nalepki przed przewozem i wyjaśnić niezgodność. Jeżeli dla danego towaru wymagane są nalepki główna i dodatkowa, obie muszą być prawidłowo umieszczone na sztuce przesyłki. Numer UN w dokumencie pomaga zidentyfikować towar, ale nie zastępuje wymaganego oznakowania; sam dopisek także nie naprawia braku nalepki. Przed wyjazdem wyjaśnij i usuń niezgodność. Podstawa: ADR 3.2 tabela A, kolumna 5, oraz 5.2.2.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "5.2.2.1.6 (a) i (c) wymagają umieszczenia nalepek na tej samej stronie sztuki przesyłki i w pobliżu siebie."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Pozostawić przesyłkę bez dodatkowej nalepki, jeśli numer UN jest czytelny w dokumencie. Jeżeli dla danego towaru wymagane są nalepki główna i dodatkowa, obie muszą być prawidłowo umieszczone na sztuce przesyłki. Numer UN w dokumencie pomaga zidentyfikować towar, ale nie zastępuje wymaganego oznakowania; sam dopisek także nie naprawia braku nalepki. Przed wyjazdem wyjaśnij i usuń niezgodność. Podstawa: ADR 3.2 tabela A, kolumna 5, oraz 5.2.2.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Nalepki na różnych ściankach naruszają 5.2.2.1.6 (a), jeżeli rozmiar sztuki pozwala umieścić je na jednej stronie."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: Zastąpić brakującą nalepkę dopiskiem w dokumencie, żeby kontrola znała zagrożenie. Jeżeli dla danego towaru wymagane są nalepki główna i dodatkowa, obie muszą być prawidłowo umieszczone na sztuce przesyłki. Numer UN w dokumencie pomaga zidentyfikować towar, ale nie zastępuje wymaganego oznakowania; sam dopisek także nie naprawia braku nalepki. Przed wyjazdem wyjaśnij i usuń niezgodność. Podstawa: ADR 3.2 tabela A, kolumna 5, oraz 5.2.2.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Umieszczenie nalepki przy numerze UN nie zwalnia z obowiązku umieszczenia wymaganych nalepek w pobliżu siebie."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Sprawdzenie redakcyjne opiera się na wskazanej podstawie ADR; literalne porównanie pełnego polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "5.2.2.1.6 s. 939–940.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -333,45 +319,43 @@
     {
       "id": "ADR-B-0628",
       "order": 628,
-      "clause": "ADR 2025, 7.5.7.1",
+      "clause": "ADR 2025, 7.5.7.4; 7.5.7.1",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0628",
         "module_id": "ADR-B-09",
-        "stem": "Podczas przygotowania ładunku pasy nie pozwalają przesyłkom przesuwać się, ale jeden z pasów mocno wgniata opakowanie. Co powinien zrobić kierowca?",
+        "stem": "Na naczepie stoi kontener wielki z beczkami ADR, które w środku zamocowano pasami. Kierowca chce jechać bez zablokowania kontenera na naczepie, bo uważa, że wystarczy mocowanie beczek. Co wynika z 7.5.7.4?",
         "options": {
-          "A": "Pozostawić pas, jeśli paleta nie przesuwa się przy ręcznym sprawdzeniu.",
-          "B": "Zmienić sposób mocowania, aby ładunek był stabilny, a opakowanie nie ulegało uszkodzeniu.",
-          "C": "Dociągnąć pozostałe pasy z taką samą siłą, aby nacisk rozłożył się na wszystkie opakowania."
+          "A": "Ma rację, bo zasady mocowania dotyczą sztuk przesyłek, a nie całych kontenerów",
+          "B": "Nie ma racji, bo zasady z 7.5.7.1 dotyczą też mocowania kontenera na pojeździe",
+          "C": "Ma rację, jeżeli kontener jest pełny i nie może się przesunąć na boki"
         },
         "correct_option": "B",
-        "explanation": "Mocowanie ma utrzymać ładunek na miejscu, ale nie może wgniatać ani niszczyć opakowań. Zmień położenie pasa, rozłóż nacisk lub zastosuj odpowiednie zabezpieczenie, aby jednocześnie zapobiec przesuwaniu i nie uszkadzać przesyłki. Ręczne sprawdzenie stabilności nie wystarczy, jeśli opakowanie już jest deformowane; mocniejsze napięcie pozostałych pasów może pogorszyć problem. Podstawa: ADR 7.5.7.1.",
+        "explanation": "Według 7.5.7.1 ładunek mocuje się tak, aby nie przemieszczał się podczas przewozu w sposób grożący zmianą ustawienia lub uszkodzeniem. Punkt 7.5.7.4 mówi, że te przepisy stosuje się również do załadunku, mocowania i rozładunku kontenerów na pojazdach i z pojazdów. Zamocowanie beczek wewnątrz nie wystarczy, bo niezablokowany kontener może przesunąć się na naczepie przy hamowaniu. Kontener trzeba więc zablokować na pojeździe, zwykle zamkami kontenerowymi. Podstawa: ADR 7.5.7.1 i 7.5.7.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.7.1",
+            "reference": "ADR 2025, 7.5.7.4; 7.5.7.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
-        ],
-        "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        ]
       },
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Pozostawić pas, jeśli paleta nie przesuwa się przy ręcznym sprawdzeniu. Ładunek musi być zabezpieczony przed przemieszczaniem, ale mocowanie nie może powodować uszkodzenia opakowań. Wgniecenie oznacza, że trzeba zmienić ułożenie, rozłożyć nacisk lub zastosować odpowiednie zabezpieczenie. Samo sprawdzenie, czy paleta się przesuwa, nie wystarcza, a dociągnięcie kolejnych pasów może zwiększyć szkody. Podstawa: ADR 7.5.7.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "7.5.7.4 rozszerza stosowanie wymagań 7.5.7.1 na mocowanie kontenerów na pojazdach."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Opcja B jest poprawna: Zmienić sposób mocowania, aby ładunek był stabilny, a opakowanie nie ulegało uszkodzeniu. Ładunek musi być zabezpieczony przed przemieszczaniem, ale mocowanie nie może powodować uszkodzenia opakowań. Wgniecenie oznacza, że trzeba zmienić ułożenie, rozłożyć nacisk lub zastosować odpowiednie zabezpieczenie. Samo sprawdzenie, czy paleta się przesuwa, nie wystarcza, a dociągnięcie kolejnych pasów może zwiększyć szkody. Podstawa: ADR 7.5.7.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "7.5.7.4 stanowi, że zasady mocowania z 7.5.7.1 dotyczą również kontenera na pojeździe."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: Dociągnąć pozostałe pasy z taką samą siłą, aby nacisk rozłożył się na wszystkie opakowania. Ładunek musi być zabezpieczony przed przemieszczaniem, ale mocowanie nie może powodować uszkodzenia opakowań. Wgniecenie oznacza, że trzeba zmienić ułożenie, rozłożyć nacisk lub zastosować odpowiednie zabezpieczenie. Samo sprawdzenie, czy paleta się przesuwa, nie wystarcza, a dociągnięcie kolejnych pasów może zwiększyć szkody. Podstawa: ADR 7.5.7.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Sama masa kontenera nie zastępuje mocowania wymaganego na podstawie 7.5.7.1 stosowanego przez 7.5.7.4."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Sprawdzenie redakcyjne opiera się na wskazanej podstawie ADR; literalne porównanie pełnego polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "7.5.7.1 s. 1308; 7.5.7.4 s. 1309.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
