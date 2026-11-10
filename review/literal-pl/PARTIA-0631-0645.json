@@ -173,7 +173,7 @@
         975
       ],
       "exact_quote": "Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej; | Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny.",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — ten sam zakres skażonej odzieży i ochrony osobistej występuje w 0643, 0687 i 0110. Propozycja przenosi sprawdzanie na bezpieczne usunięcie zabrudzonego ubrania i wyposażenia, bez ponownego pytania o ogólne unikanie kontaktu.",
       "duplicate_candidates": [
         "ADR-B-0643",
         "ADR-B-0687",
@@ -210,7 +210,7 @@
         975
       ],
       "exact_quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych; | Oddalić się od miejsca wypadku lub zagrożenia, poinformować inne osoby o konieczności oddalenia się od tego miejsca oraz stosować się do zaleceń służb ratowniczych;",
-      "finding": "Pytanie jest zgodne z przywołanym wymaganiem i sprawdza odrębny aspekt działania załogi w sytuacji awaryjnej; nie stwierdzono podstawy do zmiany klucza.",
+      "finding": "OK — przepis pisemny wprost nakazuje powiadomić służby i poinformować inne osoby o konieczności oddalenia się. Pytanie sprawdza ochronę osób postronnych; podobne scenariusze 0111 i 0697 mają dodatkowe warunki i nie wymagają zmiany klucza.",
       "duplicate_candidates": [
         "ADR-B-0111",
         "ADR-B-0697",
@@ -228,8 +228,8 @@
         975,
         1325
       ],
-      "exact_quote": "Założyć kamizelkę ostrzegawczą i odpowiednio umieścić stojące znaki ostrzegawcze;",
-      "finding": "Pytanie jest zgodne z przywołanym wymaganiem i sprawdza odrębny aspekt działania załogi w sytuacji awaryjnej; nie stwierdzono podstawy do zmiany klucza.",
+      "exact_quote": "Założyć kamizelkę ostrzegawczą i odpowiednio umieścić stojące znaki ostrzegawcze; | Dla każdego członka załogi pojazdu: kamizelka ostrzegawcza (np. określona w normie EN ISO 20471).",
+      "finding": "OK — 8.1.5.2 wymaga kamizelki ostrzegawczej dla każdego członka załogi, a 5.4.3.4 łączy jej założenie z ustawieniem znaków w razie zdarzenia. Scenariusz dotyczy przygotowania do bezpiecznego opuszczenia kabiny.",
       "duplicate_candidates": [
         "ADR-B-0057",
         "ADR-B-0693"
@@ -246,7 +246,7 @@
         955
       ],
       "exact_quote": "Jeżeli ze względu na wielkość lub konstrukcję pojazdu, brak jest powierzchni wystarczającej do umieszczenia takich tablic, to ich szerokość może zostać zmniejszona nie więcej niż do 300 mm, wysokość do 120 mm, a szerokość czarnego obrzeża do 10 mm.",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — scenariusz i wyjątek dla zmniejszonego wymiaru są niemal identyczne z 0753. Wymiar standardowy 40 × 30 cm i ograniczenie wyjątku są prawidłowe, ale potrzebny jest nowy aspekt tej samej kompetencji.",
       "duplicate_candidates": [
         "ADR-B-0753",
         "ADR-B-0258"
@@ -282,7 +282,7 @@
         956
       ],
       "exact_quote": "Powtórzenie cyfry wskazuje na nasilenie oznaczonego tą cyfrą zagrożenia.",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — to samo znaczenie powtórzenia cyfry sprawdza 0051; 0754 również rozwija ten sam punkt. Nowa propozycja dotyczy odrębnego specjalnego oznaczenia X.",
       "duplicate_candidates": [
         "ADR-B-0051",
         "ADR-B-0754"
@@ -318,7 +318,7 @@
         955
       ],
       "exact_quote": "Numer rozpoznawczy zagrożenia i numer UN powinny być nieścieralne i powinny pozostać czytelne po 15 minutach przebywania w ogniu.",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — zabrudzenie lub zasłonięcie cyfr tablicy jest już sprawdzane w 0193. Propozycja przechodzi na barwy i budowę tablicy, bez powtarzania kontroli czytelności.",
       "duplicate_candidates": [
         "ADR-B-0193",
         "ADR-B-0634"
@@ -354,7 +354,7 @@
         956
       ],
       "exact_quote": "8 - działanie żrące.",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — znaczenie cyfry 8 jako działania żrącego sprawdzają już 0053 i 0005. Nowa propozycja testuje odrębną regułę dodania zera po jednej cyfrze.",
       "duplicate_candidates": [
         "ADR-B-0053",
         "ADR-B-0005"
@@ -390,7 +390,7 @@
         1307
       ],
       "exact_quote": "Jeżeli w kolumnie (18) tabeli A w dziale 3.2 wskazany jest dla danego materiału lub przedmiotu przepis szczególny CV28, to należy przedsięwziąć podane poniżej środki ostrożności wobec żywności, artykułów spożywczych i karmy dla zwierząt.",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — 7.5.4 stosuje się, gdy w kolumnie (18) tabeli A wskazano CV28; obecny stem nie podaje tego warunku ani rodzaju przesyłek objętych przepisem. Zakres jest też bliski 0081 i 0721. Propozycja doprecyzowuje warunek CV28 i konkretne sposoby oddzielenia.",
       "duplicate_candidates": [
         "ADR-B-0081",
         "ADR-B-0721"
@@ -426,7 +426,7 @@
         22
       ],
       "exact_quote": "Załączniki A i B do ADR składają się z 9 części. Załącznik A zawiera części od 1 do 7, a załącznik B części 8 i 9.",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — podział części ADR na załączniki A i B oraz zakres części 8–9 jest już sprawdzany w 0659. Propozycja przenosi uwagę na zakres załącznika A z 1.1.2.1.",
       "duplicate_candidates": [
         "ADR-B-0659"
       ],
@@ -461,7 +461,7 @@
         975
       ],
       "exact_quote": "Jeżeli jest to właściwe i bezpieczne, użyć gaśnic w celu ugaszenia małego lub będącego w fazie początkowej pożaru, obejmującego opony, hamulce lub przedział silnika;",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — przypadek małego pożaru komory silnika i bezpiecznego użycia gaśnicy jest bardzo bliski 0695, 0592 i 0108. Propozycja sprawdza inny obowiązek dotyczący stanu gaśnicy przed wyjazdem.",
       "duplicate_candidates": [
         "ADR-B-0695",
         "ADR-B-0592",
@@ -498,7 +498,7 @@
         975
       ],
       "exact_quote": "Członkowie załogi pojazdu nie powinni gasić pożaru obejmującego przedział ładunkowy;",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — zakaz gaszenia pożaru przedziału ładunkowego występuje już w 0166 i 0107; 0702 obejmuje przejście pożaru do przestrzeni ładunkowej. Propozycja dotyczy dostępności i prawidłowego zamocowania gaśnicy.",
       "duplicate_candidates": [
         "ADR-B-0166",
         "ADR-B-0107",
@@ -535,7 +535,7 @@
         975
       ],
       "exact_quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych;",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — bezpieczne podejście do poszkodowanego przy nieznanym wycieku jest już sprawdzane w 0648, 0187 i 0113. Propozycja sprawdza odrębną czynność przekazania służbom informacji o ładunku.",
       "duplicate_candidates": [
         "ADR-B-0648",
         "ADR-B-0187",
@@ -572,7 +572,7 @@
         975
       ],
       "exact_quote": "Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny.",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — ponownie sprawdzane jest skażenie odzieży i wyposażenia, podobnie jak w 0631, 0687 i 0110. Propozycja zawęża sytuację do użytych rękawic ochronnych i bezpiecznego ich usunięcia.",
       "duplicate_candidates": [
         "ADR-B-0631",
         "ADR-B-0687",
@@ -609,7 +609,7 @@
         975
       ],
       "exact_quote": "Jeżeli jest to właściwe i bezpieczne, zapobiec przedostaniu się uwolnionych materiałów do środowiska wodnego lub kanalizacji oraz zebrać uwolnione materiały, używając wyposażenia przewożonego w jednostce transportowej;",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — ochrona kanalizacji przed wyciekiem jest już sprawdzana w 0100 i 0163. Propozycja przenosi scenariusz na pierwsze czynności po zatrzymaniu pojazdu i odłączenie akumulatora.",
       "duplicate_candidates": [
         "ADR-B-0100",
         "ADR-B-0163"
@@ -619,14 +619,14 @@
       "proposed_replacement": {
         "module_id": "ADR-B-05",
         "competency_id": "ADR-B-05-K15",
-        "stem": "Po awarii załoga znajduje się już w bezpiecznym miejscu. Zauważa, że część uwolnionego materiału pozostała na jezdni. Jakie działanie przewidują instrukcje, jeśli jest właściwe i bezpieczne?",
+        "stem": "Po zdarzeniu drogowym kierowca bezpiecznie zatrzymuje jednostkę transportową. Które czynności przewidują instrukcje pisemne na początku postępowania?",
         "options": {
-          "A": "Wejść w materiał bez ochrony i zebrać go rękami.",
-          "B": "Użyć wyposażenia przewożonego w jednostce transportowej do zebrania uwolnionego materiału, jeśli można to zrobić bezpiecznie.",
-          "C": "Pozostawić materiał bez ostrzeżenia służb i innych osób."
+          "A": "Pozostawić silnik włączony i uruchomić dodatkowe urządzenia elektryczne.",
+          "B": "Zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest dostępny.",
+          "C": "Natychmiast otworzyć przestrzeń ładunkową i wejść do niej bez oceny zagrożenia."
         },
         "correct_option": "B",
-        "explanation": "Instrukcje pisemne przewidują zapobieganie przedostaniu się uwolnionych materiałów do środowiska wodnego lub kanalizacji oraz ich zebranie z użyciem wyposażenia przewożonego w jednostce transportowej. Warunkiem jest, aby działanie było właściwe i bezpieczne. Nie wolno dotykać materiału bez ochrony ani podejmować czynności, które narażają załogę. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne ADR wskazują, że w razie wypadku lub awarii załoga powinna zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest dostępny. Pozostawienie silnika włączonego lub uruchamianie urządzeń elektrycznych może zwiększyć ryzyko zapłonu. Otwieranie przestrzeni ładunkowej bez oceny zagrożenia nie jest wskazaną czynnością. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -645,7 +645,7 @@
         975
       ],
       "exact_quote": "Zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych; | Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych;",
-      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "finding": "POPRAW — ogólna sekwencja działań po wypadku nakłada się na 0104, 0116 i 0735. Propozycja sprawdza odrębnie unikanie źródeł zapłonu.",
       "duplicate_candidates": [
         "ADR-B-0104",
         "ADR-B-0116",
@@ -656,14 +656,14 @@
       "proposed_replacement": {
         "module_id": "ADR-B-05",
         "competency_id": "ADR-B-05-K15",
-        "stem": "Po wypadku kierowca musi przekazać ratownikom dokument przewozowy. Pojazd znajduje się jednak w strefie, do której nie można bezpiecznie wrócić. Co powinien zrobić?",
+        "stem": "Po awarii kierowca stoi w bezpiecznym miejscu, ale w pobliżu znajdują się źródła możliwego zapłonu. Jak powinien postąpić zgodnie z instrukcjami pisemnymi?",
         "options": {
-          "A": "Wejść do strefy zagrożenia, aby za wszelką cenę odzyskać dokument.",
-          "B": "Nie informować ratowników o ładunku, dopóki nie otrzyma dokumentu.",
-          "C": "Nie narażać się; przekazać służbom dostępne informacje i zapewnić im dostęp do dokumentów, gdy będzie to bezpieczne."
+          "A": "Pozwolić osobom postronnym palić, jeśli nie zbliżają się do pojazdu.",
+          "B": "Włączyć urządzenia elektryczne, aby sprawdzić stan pojazdu.",
+          "C": "Unikać źródeł zapłonu, w szczególności nie palić i nie włączać urządzeń elektrycznych."
         },
         "correct_option": "C",
-        "explanation": "Instrukcje pisemne wymagają powiadomienia służb ratowniczych o wypadku, awarii i towarach niebezpiecznych oraz zapewnienia ratownikom łatwego dostępu do dokumentów przewozowych. Nie oznacza to obowiązku wchodzenia do strefy zagrożenia po dokumenty. Kierowca powinien przekazać dostępne informacje i umożliwić dostęp do dokumentacji dopiero wtedy, gdy można to zrobić bezpiecznie. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne ADR nakazują unikać źródeł zapłonu w razie wypadku lub awarii. Wprost wymieniają zakaz palenia, używania papierosów elektronicznych lub podobnych urządzeń oraz włączania urządzeń elektrycznych. Nie wolno zakładać, że zagrożenie znika tylko dlatego, że kierowca znajduje się poza pojazdem. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
