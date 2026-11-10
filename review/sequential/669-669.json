@@ -8,18 +8,18 @@
       "id": "ADR-B-0669",
       "sequence": 669,
       "exact_record_snapshot": {
-        "stem": "Podczas odbioru przesyłki klasy 7 dokument podaje wskaźnik transportowy (TI) 0,8, a maksymalny poziom promieniowania na powierzchni opakowania wynosi 0,7 mSv/h. Jaką kategorię należy przyjąć dla tej przesyłki?",
+        "stem": "Na sztuce przesyłki klasy 7 jest nalepka kategorii II-ŻÓŁTA. Dokument podaje wskaźnik transportowy TI 0,8 i moc dawki na powierzchni 0,7 mSv/h. Jak ocenić tę nalepkę według 5.1.5.3.4?",
         "options": {
-          "A": "II-YELLOW, ponieważ wskaźnik transportowy 0,8 mieści się w przedziale powyżej 0 do 1, a ten wynik samodzielnie rozstrzyga o kategorii opakowania.",
-          "B": "III-YELLOW, ponieważ poziom promieniowania na powierzchni odpowiada tej kategorii; przy rozbieżności stosuje się kategorię wyższą.",
-          "C": "I-WHITE, ponieważ wskaźnik transportowy jest mniejszy od 1, a barwę kategorii ustala się wyłącznie na podstawie TI."
+          "A": "Jest właściwa, bo przy TI 0,8 o kategorii decyduje sam wskaźnik TI",
+          "B": "Nie pasuje, bo moc dawki 0,7 mSv/h wymaga wyższej kategorii III-ŻÓŁTA",
+          "C": "Jest właściwa, bo przy rozbieżności kryteriów wybiera się niższą kategorię"
         },
         "correct_option": "B",
-        "explanation": "Dla TI 0,8 warunek wskazuje kategorię II-YELLOW, ale poziom 0,7 mSv/h na powierzchni odpowiada kategorii III-YELLOW. Gdy oba wyniki wskazują różne kategorie, wybiera się wyższą, dlatego kierowca powinien rozpoznać III-YELLOW, a nie kierować się tylko TI. Nie wolno też uznać przesyłki za I-WHITE. Podstawa: ADR 5.1.5.3.4 i tabela 5.1.5.3.4.",
+        "explanation": "Kategorię sztuki przesyłki klasy 7 ustala nadawca, biorąc pod uwagę zarówno wskaźnik transportowy TI, jak i moc dawki na powierzchni. Według tabeli 5.1.5.3.4 TI 0,8 odpowiada kategorii II-ŻÓŁTA, ale moc dawki 0,7 mSv/h, czyli powyżej 0,5 mSv/h, odpowiada kategorii III-ŻÓŁTA. Gdy kryteria wskazują różne kategorie, sztukę przesyłki zalicza się do wyższej kategorii, więc nalepka II-ŻÓŁTA nie zgadza się z dokumentem. Taką niezgodność kierowca zgłasza nadawcy lub przewoźnikowi przed przewozem. Podstawa: ADR 5.1.5.3.4 (a) i tabela 5.1.5.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.1.5.3.4(a) oraz tabela 5.1.5.3.4",
+            "reference": "ADR 2025, 5.1.5.3.4 (a); tabela 5.1.5.3.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

@@ -8,18 +8,18 @@
       "id": "ADR-B-0667",
       "sequence": 667,
       "exact_record_snapshot": {
-        "stem": "Podczas przewozu nadtlenku organicznego klasy 5.2 kierowca odczytuje z czujnika, że temperatura ładunku osiągnęła podaną w dokumentacji temperaturę awaryjną. Co powinien zrobić?",
+        "stem": "Podczas przewozu nadtlenku organicznego klasy 5.2 w temperaturze kontrolowanej kierowca widzi na czujniku, że temperatura ładunku osiągnęła temperaturę awaryjną podaną w dokumentach. Co według ADR należy zrobić?",
         "options": {
-          "A": "Niezwłocznie uruchomić przewidziane procedury awaryjne; temperatura awaryjna jest progiem rozpoczęcia tych działań, a nie zwykłą temperaturą pracy.",
-          "B": "Kontynuować przewóz bez zmian aż do przekroczenia temperatury kontrolowanej, ponieważ dopiero wtedy ADR wymaga jakiejkolwiek reakcji.",
-          "C": "Samodzielnie obniżyć temperaturę do dowolnej wartości, nie informując przewoźnika ani nie stosując procedury awaryjnej, ponieważ temperatura awaryjna jest tylko zaleceniem."
+          "A": "Niezwłocznie rozpocząć postępowanie awaryjne przewidziane dla przewozu",
+          "B": "Jechać dalej bez zmian, bo nie przekroczono temperatury kontrolowanej",
+          "C": "Poczekać na kolejny odczyt, bo temperatura awaryjna to zwykła wskazówka"
         },
         "correct_option": "A",
-        "explanation": "Temperatura awaryjna oznacza moment, w którym trzeba rozpocząć przewidziane działania awaryjne, dlatego kierowca nie powinien czekać ani traktować alarmu jak zwykłego odchylenia. Temperatura kontrolowana to najwyższa temperatura bezpiecznego przewozu; nie jest tym samym co próg awaryjny. Nie wolno też zastępować procedury samodzielnym, przypadkowym chłodzeniem. Podstawa: ADR 7.1.7.3.4 i 7.1.7.4.1.",
+        "explanation": "Według 7.1.7.3.4 temperatura kontrolowana to najwyższa temperatura, w której materiał może być przewożony bezpiecznie, a temperatura awaryjna to temperatura, w której trzeba wprowadzić postępowanie awaryjne. Temperatura awaryjna jest wyższa od kontrolowanej, więc gdy zostanie osiągnięta, temperatura kontrolowana jest już przekroczona. Według 7.1.7.4.3 po osiągnięciu temperatury awaryjnej należy rozpocząć postępowanie awaryjne. Czekanie na kolejny odczyt albo dalsza jazda bez reakcji zwiększa ryzyko niebezpiecznego rozkładu nadtlenku. Podstawa: ADR 7.1.7.3.4 i 7.1.7.4.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.1.7.3.4 i 7.1.7.4.1; dla klasy 5.2 także 2.2.52.1.15–1.16",
+            "reference": "ADR 2025, 7.1.7.3.4; 7.1.7.4.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
