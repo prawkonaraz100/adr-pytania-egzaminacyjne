@@ -10,16 +10,16 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0571-0585.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0571-0585.json"
 FIRST_PASS_BANK_SHA = "b240a96d8c9d0bae561d132b0a6bc8f705ee7ca2"
-EXPECTED_BANK_SHA = "bcac6f69bcec5dd257832774e54922c7c2c47d97"
+EXPECTED_BANK_SHA = "6147aeb45bf0efd1631ae17ce5e1d82357bffb0b"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(571, 586)]
 EXPECTED_PAGES = {
     "ADR-B-0571": [28], "ADR-B-0572": [690, 691, 692, 693],
     "ADR-B-0573": [693], "ADR-B-0574": [1338], "ADR-B-0575": [1338],
-    "ADR-B-0576": [1338, 1339], "ADR-B-0577": [962], "ADR-B-0578": [962],
+    "ADR-B-0576": [1338, 1339], "ADR-B-0577": [961], "ADR-B-0578": [962],
     "ADR-B-0579": [962], "ADR-B-0580": [1333, 1334], "ADR-B-0581": [1333, 1334],
     "ADR-B-0582": [113], "ADR-B-0583": [57], "ADR-B-0584": [57], "ADR-B-0585": [1325],
 }
-EXPECTED_COUNTS = {"OK": 6, "POPRAW": 9, "BLOKUJ": 0}
+EXPECTED_COUNTS = {"OK": 8, "POPRAW": 7, "BLOKUJ": 0}
 
 
 def git_blob_sha(data: bytes) -> str:

@@ -4,23 +4,23 @@
     {
       "id": "ADR-B-0598",
       "order": 598,
-      "clause": "ADR 2025, 5.4.1.1.1(a)–(b)",
+      "clause": "ADR 2025, 3.1.2.2 (a); 5.4.1.1.1 (a), (b)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0598",
         "module_id": "ADR-B-13",
-        "stem": "W dokumencie przewozowym wpisano numer UN i nazwę handlową produktu, ale brakuje wymaganej nazwy przewozowej ADR. Czy dokument jest gotowy?",
+        "stem": "Nadawca wysyła zapalniczki UN 1057. W tabeli A ta pozycja ma nazwę „ZAPALNICZKI lub POJEMNIKI DO NAPEŁNIANIA ZAPALNICZEK”. Jaką prawidłową nazwę przewozową wpisać w dokumencie według 3.1.2.2?",
         "options": {
-          "A": "Tak, nazwa handlowa może zastąpić nazwę przewozową, gdy numer UN jest poprawny",
-          "B": "Nie; uzupełnić wymagany opis towaru zgodnie z zasadami ADR przed rozpoczęciem przewozu",
-          "C": "Tak, jeśli kierowca potrafi ustnie wyjaśnić zawartość i przekazać dodatkowe informacje podczas kontroli"
+          "A": "Całą nazwę z tabeli A, razem z wyrazem „lub” i drugą częścią nazwy",
+          "B": "Najbardziej odpowiednią nazwę z tej pozycji, czyli „ZAPALNICZKI”",
+          "C": "Dowolną z nich, nawet „POJEMNIKI DO NAPEŁNIANIA ZAPALNICZEK”"
         },
         "correct_option": "B",
-        "explanation": "Dokument przewozowy musi zawierać właściwą nazwę przewozową, nie tylko nazwę handlową. Numer UN identyfikuje towar, ale nie zastępuje nazwy przewozowej; ustne wyjaśnienie kierowcy też nie uzupełnia brakującego wpisu. Przed rozpoczęciem przewozu trzeba poprawić opis, aby dokument pozwalał jednoznacznie rozpoznać ładunek. Podstawa: ADR 5.4.1.1.1(a)–(b).",
+        "explanation": "Według 3.1.2.2, gdy pod jednym numerem UN podano kilka odrębnych prawidłowych nazw przewozowych oddzielonych małym „lub”, w dokumencie przewozowym podaje się najbardziej odpowiednią z nich. Przepis podaje właśnie ten przykład: dla UN 1057 prawidłową nazwą jest ZAPALNICZKI albo POJEMNIKI DO NAPEŁNIANIA ZAPALNICZEK. Nadawca wysyła zapalniczki, więc wpisuje „UN 1057 ZAPALNICZKI”. Nazwa pojemników opisywałaby inny towar. Podstawa: ADR 3.1.2.2 (a) i 5.4.1.1.1 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(a)–(b)",
+            "reference": "ADR 2025, 3.1.2.2 (a); 5.4.1.1.1 (a), (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -30,19 +30,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja „Tak, nazwa handlowa może zastąpić nazwę przewozową, gdy numer UN jest poprawny” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Nie; uzupełnić wymagany opis towaru zgodnie z zasadami ADR przed rozpoczęciem przewozu”. Numer UN i nazwa handlowa nie zawsze wystarczają do prawidłowego opisu towaru niebezpiecznego. Dokument musi zawierać wymagane elementy opisu, w tym właściwą nazwę przewozową; sam numer ani ustne wyjaśnienie kierowcy nie naprawiają braku. Przed wyjazdem trzeba uzupełnić zapis zgodnie z zasadami ADR. Podstawa: ADR 5.4.1.1.1(a)–(b). Podstawa do sprawdzenia: ADR 2025, 5.4.1.1.1(a)–(b)."
+          "rationale": "Punkt 3.1.2.2 nakazuje wybrać najbardziej odpowiednią nazwę spośród wariantów połączonych słowem lub."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawna opcja: „Nie; uzupełnić wymagany opis towaru zgodnie z zasadami ADR przed rozpoczęciem przewozu”. Numer UN i nazwa handlowa nie zawsze wystarczają do prawidłowego opisu towaru niebezpiecznego. Dokument musi zawierać wymagane elementy opisu, w tym właściwą nazwę przewozową; sam numer ani ustne wyjaśnienie kierowcy nie naprawiają braku. Przed wyjazdem trzeba uzupełnić zapis zgodnie z zasadami ADR. Podstawa: ADR 5.4.1.1.1(a)–(b). To wstępna ocena redakcyjna; niezależna kontrola przepisu pozostaje otwarta."
+          "rationale": "Przykład UN 1057 wskazuje ZAPALNICZKI jako właściwą nazwę dla przesyłki zapalniczek."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja „Tak, jeśli kierowca potrafi ustnie wyjaśnić zawartość i przekazać dodatkowe informacje podczas kontroli” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Nie; uzupełnić wymagany opis towaru zgodnie z zasadami ADR przed rozpoczęciem przewozu”. Numer UN i nazwa handlowa nie zawsze wystarczają do prawidłowego opisu towaru niebezpiecznego. Dokument musi zawierać wymagane elementy opisu, w tym właściwą nazwę przewozową; sam numer ani ustne wyjaśnienie kierowcy nie naprawiają braku. Przed wyjazdem trzeba uzupełnić zapis zgodnie z zasadami ADR. Podstawa: ADR 5.4.1.1.1(a)–(b). Podstawa do sprawdzenia: ADR 2025, 5.4.1.1.1(a)–(b)."
+          "rationale": "Należy wybrać nazwę odpowiadającą faktycznemu towarowi; pojemniki do napełniania zapalniczek są innym towarem."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wstępny audyt redakcyjny A/B/C; pełne porównanie polskiego tekstu urzędowego i sprostowania oraz niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "3.1.2.2 s. 304; 5.4.1.1.1 (a)–(b) s. 961. Temat odrębny od 0038/0226/0508/0577.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -51,23 +51,23 @@
     {
       "id": "ADR-B-0599",
       "order": 599,
-      "clause": "ADR 2025, 5.4.1.1.1(e)–(f)",
+      "clause": "ADR 2025, 5.4.1.1.1 (f), (e)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0599",
         "module_id": "ADR-B-13",
-        "stem": "W dokumencie przewozowym podano liczbę opakowań, ale pominięto wymaganą informację o ilości towaru. Co powinien zrobić kierowca przed wyjazdem?",
+        "stem": "W jednym przewozie jedzie 200 l farby UN 1263 z II grupy pakowania i 300 l tej farby z III grupy. Nadawca chce w dokumencie podać jedną ilość: 500 l farby UN 1263. Co wynika z 5.4.1.1.1 (f)?",
         "options": {
-          "A": "Poprosić o uzupełnienie wymaganej ilości i jednostki miary, jeśli wymaga ich opis przewozu",
-          "B": "Przyjąć dokument bez zmian, bo liczba opakowań wskazuje ilość towaru i jest wystarczająca",
-          "C": "Wpisać szacowaną ilość samodzielnie, nawet jeśli nie ma danych od nadawcy, i skorygować ją po dostawie"
+          "A": "Trzeba podać osobno 200 l dla II i 300 l dla III grupy pakowania",
+          "B": "Wystarczy 500 l, bo jeden numer UN oznacza jedną pozycję w dokumencie",
+          "C": "Wystarczy 500 l, jeśli obok podano liczbę beczek z obu grup"
         },
         "correct_option": "A",
-        "explanation": "W dokumencie przewozowym liczba opakowań nie zastępuje wymaganej ilości niebezpiecznego towaru, bo w podobnych paczkach mogą znajdować się różne ilości. Kierowca powinien poprosić nadawcę o podanie prawidłowej ilości i jednostki miary, gdy wymaga tego ADR. Przyjęcie niepełnego dokumentu ani wpisanie wartości na oko nie rozwiązuje problemu. Podstawa: ADR 5.4.1.1.1(e)–(f).",
+        "explanation": "Według 5.4.1.1.1 (f) w dokumencie przewozowym podaje się całkowitą ilość każdego towaru, który ma odrębny numer UN, odrębną nazwę przewozową lub odrębną grupę pakowania. Farba z II i III grupy ma ten sam numer UN, ale różne grupy pakowania, więc ilości podaje się osobno. Trzeba wpisać 200 l dla II grupy i 300 l dla III grupy. Liczba beczek z lit. (e) nie zastępuje ilości towaru. Podstawa: ADR 5.4.1.1.1 (f) i (e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(e)–(f)",
+            "reference": "ADR 2025, 5.4.1.1.1 (f), (e)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -77,19 +77,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawna opcja: „Poprosić o uzupełnienie wymaganej ilości i jednostki miary, jeśli wymaga ich opis przewozu”. Liczba sztuk przesyłek i ilość znajdującego się w nich towaru to różne informacje. Gdy dla danego przewozu wymagane jest podanie ilości, trzeba ją wpisać w dokumencie w odpowiedniej formie; nie należy zastępować jej liczbą opakowań ani zgadywać wartości. Brak trzeba wyjaśnić z nadawcą przed rozpoczęciem transportu. Podstawa: ADR 5.4.1.1.1(e)–(f). To wstępna ocena redakcyjna; niezależna kontrola przepisu pozostaje otwarta."
+          "rationale": "Punkt 5.4.1.1.1 (f) wymaga podania całkowitej ilości każdego towaru różniącego się między innymi grupą pakowania."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja „Przyjąć dokument bez zmian, bo liczba opakowań wskazuje ilość towaru i jest wystarczająca” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Poprosić o uzupełnienie wymaganej ilości i jednostki miary, jeśli wymaga ich opis przewozu”. Liczba sztuk przesyłek i ilość znajdującego się w nich towaru to różne informacje. Gdy dla danego przewozu wymagane jest podanie ilości, trzeba ją wpisać w dokumencie w odpowiedniej formie; nie należy zastępować jej liczbą opakowań ani zgadywać wartości. Brak trzeba wyjaśnić z nadawcą przed rozpoczęciem transportu. Podstawa: ADR 5.4.1.1.1(e)–(f). Podstawa do sprawdzenia: ADR 2025, 5.4.1.1.1(e)–(f)."
+          "rationale": "Ten sam numer UN nie oznacza jednej łącznej ilości, gdy towary mają różne grupy pakowania."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja „Wpisać szacowaną ilość samodzielnie, nawet jeśli nie ma danych od nadawcy, i skorygować ją po dostawie” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Poprosić o uzupełnienie wymaganej ilości i jednostki miary, jeśli wymaga ich opis przewozu”. Liczba sztuk przesyłek i ilość znajdującego się w nich towaru to różne informacje. Gdy dla danego przewozu wymagane jest podanie ilości, trzeba ją wpisać w dokumencie w odpowiedniej formie; nie należy zastępować jej liczbą opakowań ani zgadywać wartości. Brak trzeba wyjaśnić z nadawcą przed rozpoczęciem transportu. Podstawa: ADR 5.4.1.1.1(e)–(f). Podstawa do sprawdzenia: ADR 2025, 5.4.1.1.1(e)–(f)."
+          "rationale": "Liczba sztuk przesyłek z lit. (e) nie zastępuje ilości towaru wymaganej w lit. (f)."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wstępny audyt redakcyjny A/B/C; pełne porównanie polskiego tekstu urzędowego i sprostowania oraz niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "5.4.1.1.1 (e)–(f) s. 962; UN 1263 II i III s. 379. Temat odrębny od 0070 (ogólnik).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -98,23 +98,23 @@
     {
       "id": "ADR-B-0600",
       "order": 600,
-      "clause": "ADR 2025, 5.4.1.1.1(g)–(h)",
+      "clause": "ADR 2025, 5.4.1.1.1 (g)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0600",
         "module_id": "ADR-B-13",
-        "stem": "Dokument przewozowy zawiera dane odbiorcy, ale brakuje nazwy i adresu nadawcy. Nie wskazano żadnego wyjątku. Jak postąpić?",
+        "stem": "W dokumencie przewozowym w danych nadawcy wpisano jedynie nazwę firmy i jej numer NIP, bez adresu. Dane odbiorcy są pełne. Co wynika z 5.4.1.1.1 (g)?",
         "options": {
-          "A": "Zostawić dokument bez zmian, ponieważ adres odbiorcy wystarcza do identyfikacji przesyłki",
-          "B": "Wpisać adres kierowcy, bo to on odpowiada za dostarczenie ładunku",
-          "C": "Uzyskać brakujące dane nadawcy i uzupełnić dokument przed rozpoczęciem przewozu"
+          "A": "Wystarczy NIP, bo jednoznacznie wskazuje firmę nadawcy w rejestrze",
+          "B": "Wystarczy, jeżeli adres nadawcy zna dyspozytor przewoźnika",
+          "C": "Trzeba dopisać adres, bo dokument zawiera nazwę i adres nadawcy"
         },
         "correct_option": "C",
-        "explanation": "Dokument przewozowy powinien zawierać dane nadawcy i odbiorcy, chyba że w danym przypadku stosuje się wyraźny wyjątek ADR. Adres odbiorcy nie pozwala ustalić, kto nadał przesyłkę, a wpisanie danych kierowcy nie zastępuje danych nadawcy. Zanim pojazd ruszy, uzyskaj brakujące informacje i uzupełnij dokument. Podstawa: ADR 5.4.1.1.1(g)–(h).",
+        "explanation": "Według 5.4.1.1.1 (g) dokument przewozowy zawiera nazwę i adres nadawcy, a przepis nie przewiduje tu żadnego wyjątku. Numer NIP nie jest adresem, a wiedza dyspozytora nie zastępuje danych w dokumencie. Z dokumentu kontrolujący i ratownicy mają ustalić, kto i skąd nadał towar niebezpieczny. Dlatego przed rozpoczęciem przewozu trzeba dopisać adres nadawcy. Podstawa: ADR 5.4.1.1.1 (g).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(g)–(h)",
+            "reference": "ADR 2025, 5.4.1.1.1 (g)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -124,19 +124,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja „Zostawić dokument bez zmian, ponieważ adres odbiorcy wystarcza do identyfikacji przesyłki” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Uzyskać brakujące dane nadawcy i uzupełnić dokument przed rozpoczęciem przewozu”. Dokument przewozowy co do zasady zawiera nazwę i adres zarówno nadawcy, jak i odbiorcy. Dane odbiorcy nie zastępują informacji o nadawcy, a adres kierowcy nie opisuje, kto nadał przesyłkę. Jeżeli nie ma zastosowania wyjątek przewidziany przepisami, brakujące dane należy uzyskać i uzupełnić przed wyjazdem. Podstawa: ADR 5.4.1.1.1(g)–(h). Podstawa do sprawdzenia: ADR 2025, 5.4.1.1.1(g)–(h)."
+          "rationale": "Punkt 5.4.1.1.1 (g) wymaga adresu nadawcy; numer NIP nie jest adresem i go nie zastępuje."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja „Wpisać adres kierowcy, bo to on odpowiada za dostarczenie ładunku” jest błędna w opisanej sytuacji. Właściwe postępowanie to: „Uzyskać brakujące dane nadawcy i uzupełnić dokument przed rozpoczęciem przewozu”. Dokument przewozowy co do zasady zawiera nazwę i adres zarówno nadawcy, jak i odbiorcy. Dane odbiorcy nie zastępują informacji o nadawcy, a adres kierowcy nie opisuje, kto nadał przesyłkę. Jeżeli nie ma zastosowania wyjątek przewidziany przepisami, brakujące dane należy uzyskać i uzupełnić przed wyjazdem. Podstawa: ADR 5.4.1.1.1(g)–(h). Podstawa do sprawdzenia: ADR 2025, 5.4.1.1.1(g)–(h)."
+          "rationale": "Wiedza dyspozytora o adresie nie zastępuje wymaganych danych nadawcy w dokumencie przewozowym."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawna opcja: „Uzyskać brakujące dane nadawcy i uzupełnić dokument przed rozpoczęciem przewozu”. Dokument przewozowy co do zasady zawiera nazwę i adres zarówno nadawcy, jak i odbiorcy. Dane odbiorcy nie zastępują informacji o nadawcy, a adres kierowcy nie opisuje, kto nadał przesyłkę. Jeżeli nie ma zastosowania wyjątek przewidziany przepisami, brakujące dane należy uzyskać i uzupełnić przed wyjazdem. Podstawa: ADR 5.4.1.1.1(g)–(h). To wstępna ocena redakcyjna; niezależna kontrola przepisu pozostaje otwarta."
+          "rationale": "Dokument przewozowy musi zawierać zarówno nazwę, jak i adres nadawcy."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wstępny audyt redakcyjny A/B/C; pełne porównanie polskiego tekstu urzędowego i sprostowania oraz niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "5.4.1.1.1 (g) s. 962; lit. (g) nie przewiduje wyjątku (zapis Sprzedaż obwoźna dotyczy tylko (h)).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
