@@ -63,10 +63,6 @@ class Partia40LiteralReview(unittest.TestCase):
             self.assertIsNone(by_id[question_id]["reviewer"])
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
     def test_second_pass_artifacts_and_bank_sha(self):
         second_pass = ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0586-0600.md"
         corrections = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0586-0600.jsonl"
@@ -76,3 +72,7 @@ if __name__ == "__main__":
         records = [json.loads(line) for line in lines]
         self.assertEqual([row["id"] for row in records], EXPECTED_IDS)
         self.assertEqual(git_blob_sha(BANK.read_bytes()), EXPECTED_BANK_SHA)
+
+
+if __name__ == "__main__":
+    unittest.main()
