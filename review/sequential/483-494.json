@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewóz ADR wymaga standardowego wyposażenia 8.1.5, a ładunek ma wyłącznie nalepkę 2.3. Czy płyn do płukania oczu jest obowiązkowy z uwagi na tę nalepkę?",
+        "stem": "Jednostka transportowa wiezie na pełnych zasadach ADR same butle z gazem trującym, oznakowane nalepką 2.3. Czy według 8.1.5.2 musi w niej być płyn do płukania oczu?",
         "options": {
-          "A": "Płyn do płukania oczu jest potrzebny przy nalepce 2.3, podobnie jak przy pozostałych nalepkach",
-          "B": "Nie; przypis do 8.1.5.2 przewiduje wyjątek dla nalepki nr 2.3",
-          "C": "Nie potrzeba ochrony oczu"
+          "A": "Tak, ten płyn jest wymagany przy nalepce 2.3, tak jak przy nalepce 8",
+          "B": "Nie, przypis do 8.1.5.2 nie wymaga tego płynu przy samej nalepce 2.3",
+          "C": "Nie, a przy nalepce 2.3 załoga nie musi też mieć okularów ochronnych"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli jednostka przewozi wyłącznie towary oznaczone nalepką 2.3, ADR przewiduje wyjątek od obowiązku posiadania płynu do płukania oczu z zestawu określonego w 8.1.5.2. To wyjątek dotyczący konkretnego wyposażenia, a nie zwolnienie z całego zestawu ochronnego. Nie oznacza też, że załoga nie musi chronić oczu przed zagrożeniem. Podstawa: ADR 8.1.5.2, przypis 2.",
+        "explanation": "Punkt 8.1.5.2 wymienia płyn do płukania oczu jako wyposażenie jednostki transportowej. Przypis do tej pozycji mówi jednak, że płyn nie jest wymagany przy nalepkach ostrzegawczych 1, 1.4, 1.5, 1.6, 2.1, 2.2 i 2.3. Przy samych butlach z nalepką 2.3 płynu więc nie trzeba wozić, ale każdy członek załogi nadal musi mieć ochronę oczu, na przykład okulary ochronne. Przy nalepce 2.3 potrzebne są też maski ucieczkowe z 8.1.5.3. Podstawa: ADR 8.1.5.2 (przypis 2) i 8.1.5.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.2, przypis 2",
+            "reference": "ADR 2025, 8.1.5.2 (przypis 2); 8.1.5.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W pojeździe ADR przewożona jest ciecz oznaczona wyłącznie nalepką nr 8. Czy według 8.1.5.3 zestaw do ograniczenia rozlewu obejmuje łopatę, osłonę odpływu i pojemnik?",
+        "stem": "Jednostka transportowa wiezie butle z gazem z nalepką 2.2 i kanistry z cieczą zapalną z nalepką 3. Kierowca uważa, że skoro przy nalepce 2.2 płyn do płukania oczu nie jest wymagany, nie musi go wozić. Czy ma rację?",
         "options": {
-          "A": "Nie, bo zestaw jest wymagany przy materiałach stałych, a nie cieczach",
-          "B": "Nie, bo ten zestaw jest wymagany przy nalepkach 2.3 i 6.1, a nie przy 8",
-          "C": "Tak, bo ten wymóg obejmuje materiały stałe i ciekłe oznaczone nalepką 8"
+          "A": "Tak, bo wyposażenie dobiera się do nalepki towaru o większej masie",
+          "B": "Tak, bo zwolnienie dla gazów z nalepką 2.2 obejmuje wtedy cały ten ładunek",
+          "C": "Nie, bo kanistry z nalepką 3 nie są objęte zwolnieniem z tego przypisu"
         },
         "correct_option": "C",
-        "explanation": "Łopata, osłona otworów kanalizacyjnych i pojemnik do zbierania pozostałości należą do wyposażenia dodatkowego z 8.1.5.3. Przypis do tego punktu mówi, że są wymagane w przypadku materiałów stałych i materiałów ciekłych oznakowanych nalepkami 3, 4.1, 4.3, 8 lub 9. Ciecz żrąca z nalepką 8 jest więc objęta tym wymogiem. Maska ucieczkowa to osobny wymóg dla nalepek 2.3 i 6.1. Podstawa: ADR 8.1.5.3, przypis 4.",
+        "explanation": "Według 8.1.5.1 wyposażenie dobiera się odpowiednio do numerów nalepek ostrzegawczych właściwych dla załadowanych towarów, a numery te można odczytać z dokumentu przewozowego. Liczą się więc nalepki całego ładunku, a nie tylko jednej jego części. Przypis do 8.1.5.2 zwalnia z płynu do płukania oczu przy nalepkach 1, 1.4, 1.5, 1.6, 2.1, 2.2 i 2.3, ale nie wymienia nalepki 3. Ponieważ w pojeździe są też kanistry z nalepką 3, płyn do płukania oczu musi być w jednostce transportowej. Podstawa: ADR 8.1.5.1 i 8.1.5.2 (przypis 2).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.3, przypis 4",
+            "reference": "ADR 2025, 8.1.5.1; 8.1.5.2 (przypis 2)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Towar ma nalepkę 2.3, a załoga liczy dwie osoby. Ile masek ucieczkowych wymaga 8.1.5.3 dla tak oznaczonego przewozu?",
+        "stem": "Firma kupuje maski ucieczkowe dla załóg, które wożą materiały z nalepką 6.1. Jaki przykład odpowiedniej maski ucieczkowej podaje przypis do 8.1.5.3?",
         "options": {
-          "A": "Jedna maska ucieczkowa wystarcza całej załodze, niezależnie od jej liczebności",
-          "B": "Nie trzeba masek, jeśli materiał jest gazem i przewozi się go w butlach",
-          "C": "Każdy członek załogi musi mieć własną maskę ucieczkową"
+          "A": "Półmaskę przeciwpyłową P2 bez pochłaniacza gazów i par trujących",
+          "B": "Aparat oddechowy z butlą sprężonego powietrza, taki jak u strażaków",
+          "C": "Maskę z pochłaniaczem zespolonym do gazu i pyłu typu A1B1E1K1-P1"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli przewożony towar ma nalepkę 2.3, wymagane wyposażenie ucieczkowe musi być dostępne dla każdego członka załogi. Jedna maska nie wystarczy dla dwóch osób, bo w razie uwolnienia gazu obie mogą potrzebować jej jednocześnie. Przewóz gazu w butlach nie znosi tego wymagania. Maska służy do opuszczenia zagrożonej strefy, a nie do prowadzenia akcji ratowniczej. Podstawa: ADR 8.1.5.3.",
+        "explanation": "Punkt 8.1.5.3 wymaga maski ucieczkowej dla każdego członka załogi przy nalepkach 2.3 lub 6.1. Przypis podaje przykład takiej maski: maskę ucieczkową z pochłaniaczem zespolonym do gazu i pyłu typu A1B1E1K1-P1 lub A2B2E2K2-P2, podobną do opisanej w normie EN 14387. Pochłaniacz zespolony zatrzymuje zarówno trujące gazy i pary, jak i pył, dlatego sama półmaska przeciwpyłowa nie daje takiej ochrony. Aparat z butlą powietrza służy ratownikom, a maska ucieczkowa ma pomóc załodze szybko opuścić zagrożone miejsce. Podstawa: ADR 8.1.5.3 (przypis 3).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.3",
+            "reference": "ADR 2025, 8.1.5.3 (przypis 3)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -143,18 +143,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewożony jest wyłącznie gaz z nalepką 2.2. Czy 8.1.5.3 nakazuje wozić łopatę i pojemnik do zbierania uwolnionego gazu?",
+        "stem": "Jednostka transportowa wiezie na pełnych zasadach ADR worki z trującym materiałem stałym, oznakowane jedynie nalepką 6.1. Czy według 8.1.5.3 trzeba w niej wozić łopatę, osłonę otworów kanalizacyjnych i pojemnik do zbierania pozostałości?",
         "options": {
-          "A": "Łopata i pojemnik należą do standardowego wyposażenia każdej jednostki przewożącej towar ADR",
-          "B": "Liczba butli decyduje o wyposażeniu",
-          "C": "Nie; sam gaz z nalepką 2.2 nie wymaga tych elementów"
+          "A": "Tak, bo przy nalepce 6.1 te przedmioty są wymagane razem z maskami",
+          "B": "Tak, bo te trzy przedmioty są wymagane przy materiałach stałych z nalepkami",
+          "C": "Nie, przypis wymaga ich przy nalepkach 3, 4.1, 4.3, 8 lub 9, a nie 6.1"
         },
         "correct_option": "C",
-        "explanation": "Łopata i pojemnik do zebrania uwolnionego materiału są wymagane tylko w określonych przypadkach wskazanych przez ADR, a nie przy każdym przewozie. Sam gaz z nalepką 2.2 nie powoduje obowiązku zabrania takiego wyposażenia. Liczba butli również nie jest tu właściwym kryterium; kierowca powinien sprawdzić rodzaj zagrożenia i listę wyposażenia dla ładunku. Podstawa: ADR 8.1.5.3.",
+        "explanation": "Łopata, osłona otworów kanalizacyjnych i pojemnik do zbierania pozostałości należą do wyposażenia dodatkowego z 8.1.5.3. Przypis do nich mówi, że są wymagane tylko przy materiałach stałych i ciekłych oznakowanych nalepkami 3, 4.1, 4.3, 8 lub 9. Nalepki 6.1 w tym wykazie nie ma, więc przy samych workach z nalepką 6.1 tych trzech przedmiotów ADR nie wymaga. Przy nalepce 6.1 każdy członek załogi musi natomiast mieć maskę ucieczkową, a reszta wyposażenia z 8.1.5.2 obowiązuje jak zwykle. Podstawa: ADR 8.1.5.3 i 8.1.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.3, przypis 4",
+            "reference": "ADR 2025, 8.1.5.3 (przypis 4); 8.1.5.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -184,18 +184,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Towar ma kod tunelowy D/E i jest przewożony w sztukach przesyłek, z zastosowaniem ograniczeń tunelowych. Do którego tunelu w odniesieniu do samego kodu zakaz wjazdu ma zastosowanie?",
+        "stem": "Granulat o kodzie ograniczeń przewozu przez tunele D/E zapakowano w elastyczne DPPL, czyli duże pojemniki do przewozu luzem. Pojazd ma tablice pomarańczowe. Do jakich tuneli nie wolno mu wjechać z powodu tego kodu?",
         "options": {
-          "A": "Przy przewozie w sztukach przesyłek kod D/E zakazuje wjazdu do tunelu E",
-          "B": "Kod D/E wyklucza zarówno tunele kategorii D, jak i kategorii E",
-          "C": "Kod D/E wyklucza tunele B, C, D oraz E przy przewozie w sztukach przesyłek"
+          "A": "Tunelu kategorii E, bo towar w DPPL jest opakowany i to inny przewóz",
+          "B": "Tuneli kategorii D i E, bo DPPL to duży pojemnik do przewozu towaru luzem",
+          "C": "Tuneli kategorii C, D i E, bo DPPL traktuje się tak jak cysternę"
         },
         "correct_option": "A",
-        "explanation": "Przy przewozie w sztukach przesyłek kod tunelowy D/E oznacza zakaz wjazdu do tunelu kategorii E. Nie rozszerzaj tego zakazu na kategorię D tylko dlatego, że litera D występuje w kodzie. Pozostałe odpowiedzi błędnie rozszerzają ograniczenie; kierowca musi też uwzględnić znaki drogowe i inne ograniczenia trasy. Podstawa: ADR 8.6.4.",
+        "explanation": "Przy kodzie D/E tabela z 8.6.4 przewiduje zakaz przejazdu przez tunele kategorii D i E dla przewozu luzem lub w cysternie, a dla innego przewozu zakaz przejazdu przez tunele kategorii E. DPPL ma w nazwie słowa „do przewozu luzem”, ale według 1.2.1 jest opakowaniem przenośnym. Przewóz luzem to według 1.2.1 przewóz nieopakowanych materiałów i nie dotyczy towarów opakowanych, a DPPL nie jest też cysterną. Towar w DPPL jedzie więc jako inny przewóz, a kod D/E zakazuje mu jedynie tuneli kategorii E. Podstawa: ADR 8.6.4 i 1.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.4, kod D/E",
+            "reference": "ADR 2025, 8.6.4 (kod D/E); 1.2.1 (DPPL, przewóz luzem)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -225,18 +225,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Dla tego samego kodu tunelowego D/E towar jest przewożony luzem, przy spełnieniu warunków takiego przewozu. Które tunele są objęte zakazem z tego kodu?",
+        "stem": "Wywrotka wiezie luzem, bez opakowań, materiał stały z kodem tunelowym D/E. Tabela A dopuszcza dla niego przewóz luzem, a jednostka podlega ograniczeniom tunelowym. Których tuneli dotyczy zakaz z tego kodu?",
         "options": {
-          "A": "Przy przewozie luzem kod D/E wyklucza wyłącznie tunele kategorii E",
-          "B": "Kod D/E wyklucza tunele D i E niezależnie od tego, czy towar jedzie luzem, w sztukach przesyłek czy w cysternie",
-          "C": "Przy przewozie luzem kod D/E wyklucza tunele kategorii D i E"
+          "A": "Tuneli kategorii D i E, bo tak 8.6.4 określa ten kod przy przewozie luzem",
+          "B": "Tunelu kategorii E, bo przewóz luzem nie jest przewozem w cysternie",
+          "C": "Tuneli kategorii B, C, D i E, bo materiał jedzie luzem, bez worków i beczek"
         },
         "correct_option": "A",
-        "explanation": "W kodzie D/E pierwsza litera dotyczy przewozu w cysternie, a druga przewozu w innych postaciach, w tym luzem. Dlatego przy przewozie luzem stosuje się literę E: kod wyklucza tunel kategorii E, a nie automatycznie D i E. Nie przenoś ograniczenia cysternowego na przewóz luzem. Podstawa: ADR 8.6.4, kod D/E.",
+        "explanation": "Tabela w 8.6.4 przy kodzie D/E rozróżnia dwa przypadki. Przy przewozie luzem lub w cysternie obowiązuje zakaz przejazdu przez tunele kategorii D i E, a przy innym przewozie zakaz dotyczy tunelu kategorii E. Wywrotka wiezie materiał bez opakowań, więc jest to przewóz luzem i zakaz obejmuje tunele D i E. Regułę samego tunelu E stosuje się do sztuk przesyłek, na przykład do worków czy beczek, a tunele kategorii B i C kod D/E dopuszcza. Podstawa: ADR 8.6.4 (kod D/E).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.4, kod D/E",
+            "reference": "ADR 2025, 8.6.4 (kod D/E)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -266,18 +266,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewóz w sztukach przesyłek ma kod B/D. Jakie tunele wyklucza taki kod dla transportu nieprowadzonego w cysternie?",
+        "stem": "Kartony z towarem o kodzie tunelowym D jadą jako sztuki przesyłek, a jednostka podlega ograniczeniom tunelowym. Kierowca sądzi, że tak jak przy kodzie D/E sztuki przesyłek mogą wjechać do tunelu D. Czy ma rację?",
         "options": {
-          "A": "Kod B/D dla sztuk przesyłek wyklucza tunele kategorii B, C, D i E",
-          "B": "Kod B/D wyklucza tunele kategorii D i E przy przewozie w sztukach przesyłek",
-          "C": "Kod B/D wyklucza wyłącznie tunele kategorii E, a kategorie B–D pozostają dostępne"
+          "A": "Tak, przy sztukach przesyłek kod D zakazuje przejazdu przez tunel kategorii E",
+          "B": "Nie, kod D bez ukośnika zakazuje tuneli D i E także przy sztukach przesyłek",
+          "C": "Tak, bo kod D odnosi się do przewozu w cysternie, a nie sztuk przesyłek"
         },
         "correct_option": "B",
-        "explanation": "Kod tunelowy B/D dla przewozu w sztukach przesyłek oznacza zakaz przejazdu przez tunele kategorii D i E. Nie oznacza zakazu we wszystkich kategoriach od B do E ani ograniczenia wyłącznie do tunelu E. Kierowca musi odczytać kod dla właściwego sposobu przewozu i porównać go z kategorią tunelu na trasie. Podstawa: ADR 8.6.4.",
+        "explanation": "W tabeli z 8.6.4 kody z ukośnikiem, takie jak D/E, mają osobne ograniczenia dla przewozu luzem lub w cysternie i dla innego przewozu. Kod D nie ma ukośnika i oznacza jeden zakaz: zakaz przewozu przez tunele kategorii D i E. Ten zakaz obowiązuje przy każdym sposobie przewozu, więc kartony jadące jako sztuki przesyłek też nie mogą wjechać do tunelu kategorii D. Kierowca pomylił kod D z kodem D/E, który przy sztukach przesyłek zakazuje jedynie tunelu E. Podstawa: ADR 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.4, kod B/D",
+            "reference": "ADR 2025, 8.6.4 (kody D i D/E)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -307,18 +307,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Materiały wybuchowe objęte kodem tunelowym B1000C mają 1000 kg netto materiału wybuchowego w jednostce transportowej. Czy sam ten kod wyklucza kategorię B?",
+        "stem": "Właściwa władza ustala kategorię nowego tunelu drogowego w skali od A do E. Jakie trzy główne zagrożenia według 1.9.5.2.1 uwzględnia się przy określaniu kategorii tunelu?",
         "options": {
-          "A": "Nie; wszystkie kategorie tuneli są dozwolone niezależnie od ilości materiału",
-          "B": "Tak; kategoria B jest wykluczona już przy przewozie jednego kilograma netto",
-          "C": "Przy 1000 kg próg B nie jest przekroczony; ograniczenia obejmują C, D i E"
+          "A": "Pożar, wyciek cieczy żrącej oraz skażenie wód gruntowych pod jezdnią tunelu",
+          "B": "Wybuch, pożar oraz promieniowanie z materiałów promieniotwórczych",
+          "C": "Wybuch, uwolnienie gazu trującego lub lotnej cieczy trującej oraz pożar"
         },
         "correct_option": "C",
-        "explanation": "Kod B1000C pozwala przejechać przez tunel kategorii B, jeśli masa netto materiału wybuchowego nie przekracza 1000 kg. Przy tej ilości próg nie jest przekroczony, ale kod nadal wyklucza tunele kategorii C, D i E. Nie oznacza więc pełnej swobody wyboru trasy ani zakazu kategorii B już od 1 kg. Podstawa: ADR 8.6.4, kod B1000C.",
+        "explanation": "Według 1.9.5.2.1 kategorię tunelu określa się z uwzględnieniem trzech głównych zagrożeń, które mogą spowodować liczne ofiary lub poważne uszkodzenia konstrukcji tunelu. Są to wybuch, uwolnienie gazu trującego lub lotnej cieczy trującej oraz pożar. W zamkniętym tunelu takie zdarzenia są szczególnie groźne, bo dym, gaz i fala wybuchu nie mają gdzie się rozejść. Kategoria A nie ma ograniczeń, a kategorie B, C, D i E obejmują coraz szersze grupy towarów, które stwarzają te zagrożenia. Podstawa: ADR 1.9.5.2.1 i 1.9.5.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.4, kod B1000C",
+            "reference": "ADR 2025, 1.9.5.2.1; 1.9.5.2.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -348,18 +348,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W pojeździe mają znaleźć się sztuki przesyłek wyłącznie klasy 1 z nalepkami wzorów 1 i 1.4. Gdzie szuka się oceny wspólnego załadunku tych towarów?",
+        "stem": "Na jedną ciężarówkę mają trafić butle z gazem palnym z nalepką 2.1 i worki z materiałem utleniającym z nalepką 5.1. Innych towarów niebezpiecznych nie ma. Co na ten temat wynika z tabeli w 7.5.2.1?",
         "options": {
-          "A": "Ocenić wyłącznie według 7.5.2.1, bez uwzględniania wskazanych uwag",
-          "B": "Zastosować 7.5.2.2 z uwagą 2 do tabeli w 7.5.2.1",
-          "C": "Zapytać wyłącznie producenta pojazdu, bez sprawdzania tabel ADR"
+          "A": "Nie mogą jechać razem, bo materiał utleniający z gazem palnym grozi pożarem",
+          "B": "Mogą jechać razem, bo tabela dopuszcza ładowanie razem nalepek 2.1 oraz 5.1",
+          "C": "Mogą jechać razem, jeśli kierowca ma zgodę doradcy do spraw bezpieczeństwa"
         },
         "correct_option": "B",
-        "explanation": "Przy wspólnym załadunku sztuk przesyłek klasy 1 trzeba sprawdzić specjalne zasady zgodności, a nie tylko ogólną tabelę zakazów. ADR 7.5.2.2 opisuje dodatkowe warunki dla tej klasy, dlatego należy zastosować je razem z właściwą uwagą do tabeli 7.5.2.1. Opinia producenta pojazdu nie zastępuje sprawdzenia tych reguł. Podstawa: ADR 7.5.2.1, uwaga 2, i 7.5.2.2.",
+        "explanation": "Tabela w 7.5.2.1 pokazuje, które sztuki przesyłek z różnymi nalepkami ostrzegawczymi wolno załadować do tego samego pojazdu. Na przecięciu wiersza z nalepkami 2.1, 2.2 i 2.3 oraz kolumny z nalepką 5.1 stoi znak X, który oznacza, że ładowanie razem jest dozwolone. Zakazy z tej tabeli dotyczą głównie materiałów wybuchowych klasy 1 oraz nalepek 4.1 + 1 i 5.2 + 1. Zgoda doradcy nie jest warunkiem z tej tabeli, a butle i worki i tak trzeba dobrze zamocować według innych przepisów. Podstawa: ADR 7.5.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1 uwaga 2; 7.5.2.2",
+            "reference": "ADR 2025, 7.5.2.1 (tabela: 2.1 i 5.1)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -389,18 +389,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Dwie przesyłki nie mogą zostać załadowane razem na podstawie ADR 7.5.2. Czy wystawienie dwóch oddzielnych dokumentów przewozowych znosi zakaz?",
+        "stem": "Według tabeli w 7.5.2.1 dwóch przesyłek nie wolno załadować razem do tego samego pojazdu. Nadawca proponuje wystawić dla nich dwa oddzielne dokumenty przewozowe i wysłać je jednym pojazdem. Czy to rozwiązuje problem?",
         "options": {
-          "A": "Rozdzielić przesyłki tylko w dokumentach, ale pozostawić je razem w pojeździe.",
-          "B": "Uzyskać telefoniczne potwierdzenie od nadawcy i na tej podstawie wspólnie załadować przesyłki.",
-          "C": "Nie; odrębne dokumenty przewozowe nie znoszą zakazu wspólnego załadunku określonego w ADR."
+          "A": "Tak, oddzielne dokumenty pozwalają przewieźć te przesyłki w tym samym pojeździe",
+          "B": "Tak, jeśli nadawca potwierdzi telefonicznie, że bierze to ryzyko na siebie",
+          "C": "Nie, oddzielne dokumenty nie znoszą zakazu ładowania razem w jednym pojeździe"
         },
         "correct_option": "C",
-        "explanation": "Zakaz wspólnego załadunku dotyczy tego, co rzeczywiście znajduje się razem w pojeździe. Wystawienie dwóch dokumentów nie oddziela niezgodnych przesyłek, podobnie jak telefoniczna zgoda nadawcy nie uchyla wymagań ADR. Przed załadunkiem należy sprawdzić zgodność towarów i w razie zakazu zorganizować ich rozdzielenie. Podstawa: ADR 7.5.2.1.",
+        "explanation": "Zakaz ładowania razem z 7.5.2.1 dotyczy tego, co rzeczywiście jedzie w jednym pojeździe lub kontenerze. Uwaga 1 do tego punktu mówi, że na przesyłki, których nie wolno załadować razem, sporządza się oddzielne dokumenty przewozowe zgodnie z 5.4.1.4.2. Oddzielne dokumenty są więc skutkiem zakazu, a nie sposobem na jego obejście, i nie pozwalają załadować tych przesyłek razem. Zgoda nadawcy przez telefon też nie uchyla wymagań ADR. Podstawa: ADR 7.5.2.1 (uwaga 1) i 5.4.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.2.1 uwaga 1; 5.4.1.4.2",
+            "reference": "ADR 2025, 7.5.2.1 (uwaga 1); 5.4.1.4.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -430,14 +430,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po wypadku przewożonego ADR materiału widać niewielki pożar hamulców, który nie objął ładunku. Kiedy załoga może rozważyć użycie gaśnicy?",
+        "stem": "Na postoju zapala się opona naczepy. Gdy kierowca podbiega z gaśnicą, płomienie obejmują już całe koło i sięgają nadkola, ale ładunek się jeszcze nie pali. Czy według instrukcji pisemnych powinien gasić ten ogień?",
         "options": {
-          "A": "Nigdy nie wolno użyć gaśnicy, nawet przy małym pożarze poza ładunkiem i bez zagrożenia załogi",
-          "B": "Zawsze należy gasić pożar, nawet jeśli zagraża to życiu członków załogi",
-          "C": "Tylko gdy jest to właściwe i bezpieczne, a pożar jest niewielki lub początkowy"
+          "A": "Tak, bo dopóki ładunek się nie pali, załoga gasi pożar opony sama",
+          "B": "Tak, jeśli użyje naraz obu gaśnic przewożonych w pojeździe",
+          "C": "Nie, gaśnic używa się do małego lub początkowego pożaru opony"
         },
         "correct_option": "C",
-        "explanation": "Gaśnicę można rozważyć tylko przy małym, początkowym pożarze i wtedy, gdy próba gaszenia jest bezpieczna dla załogi. Nie wolno ryzykować życia, ale równie nieprawidłowe jest twierdzenie, że gaśnicy nigdy nie używa się przy pożarze poza ładunkiem. Jeśli ogień się rozprzestrzenia lub zagraża towarowi, oddal się i wezwij służby. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne pozwalają załodze użyć gaśnic, jeżeli jest to właściwe i bezpieczne, do małego lub będącego w fazie początkowej pożaru opon, hamulców lub przedziału silnika. Ogień, który objął całe koło i sięga nadkola, nie jest już małym ani początkowym pożarem. Gaśnice z pojazdu mogą go nie ugasić, a ogień może szybko przejść na przedział ładunkowy. Kierowca powinien się oddalić, powiadomić służby ratownicze i ostrzec inne osoby. Podstawa: ADR 5.4.3.4 (instrukcje pisemne).",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -471,14 +471,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Wyciek ADR dostaje się do kratki kanalizacyjnej, a dostęp jest niebezpieczny ze względu na opary. Czy instrukcje pisemne wymagają wejścia w strefę zagrożenia w celu założenia osłony?",
+        "stem": "Po wypadku z beczki wycieka ciecz i tworzy kałużę obok pojazdu. Strona nawietrzna jest za kałużą, a najkrótsza droga tam prowadzi przez rozlaną ciecz. Jak według instrukcji pisemnych powinien postąpić kierowca?",
         "options": {
-          "A": "Zawsze wejść w strefę oparów i założyć osłonę kanalizacji, niezależnie od ryzyka",
-          "B": "Wykonać czynność bez rękawic, bo środki ochrony mogą opóźniać reakcję",
-          "C": "Ograniczać odpływ tylko wtedy, gdy działanie jest właściwe i bezpieczne"
+          "A": "Przejść szybko przez kałużę, bo strona nawietrzna jest najważniejsza",
+          "B": "Zostać po stronie zawietrznej przy kabinie, bo tam nie ma rozlanej cieczy",
+          "C": "Obejść kałużę z daleka i dopiero wtedy stanąć po stronie nawietrznej"
         },
         "correct_option": "C",
-        "explanation": "Przy wycieku trzeba chronić ludzi i nie wchodzić w niebezpieczne opary tylko po to, żeby zakryć kratkę kanalizacyjną. Osłonę odpływu można zastosować, gdy jest to właściwe i bezpieczne. Bez rękawic oraz przy zagrożeniu zatruciem nie należy ryzykować kontaktu z substancją. Odsuń się i poinformuj ratowników o zagrożeniu dla kanalizacji. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą nie wchodzić na uwolnione materiały, nie dotykać ich i unikać wdychania oparów, dymu, pyłu i pary przez pozostawanie po stronie nawietrznej. Oba te zalecenia trzeba spełnić naraz, więc kierowca nie skraca drogi przez kałużę, tylko obchodzi ją w bezpiecznej odległości. Po stronie zawietrznej wiatr niesie opary prosto na niego, nawet jeśli nie stoi w samej cieczy. Gdy dojdzie na stronę nawietrzną, oddala się od miejsca wypadku i ostrzega inne osoby. Podstawa: ADR 5.4.3.4 (instrukcje pisemne).",
         "sources": [
           {
             "code": "ADR-2025-PL",

@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0495",
       "order": 495,
-      "clause": "2.2.1.1.5, podklasa 1.2",
+      "clause": "ADR 2025, 2.2.1.1.5 (podklasa 1.2)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Wybuch masowy całego ładunku. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.1.1.5, podklasa 1.2. Wymaga niezależnego przeglądu."
+          "rationale": "Wybuch masowy obejmujący cały ładunek to definicja podklasy 1.1."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Podklasa 1.2 oznacza zagrożenie rozrzutem bez zagrożenia wybuchem masowym charakterystycznym dla 1.1."
+          "rationale": "2.2.1.1.5: podklasa 1.2 – zagrożenie rozrzutem, ale nie wybuchem masowym."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Wyłącznie działanie żrące. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.1.1.5, podklasa 1.2. Wymaga niezależnego przeglądu."
+          "rationale": "Podklasa 1.2 to zagrożenie rozrzutem – nie sam pożar bez rozrzutu."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę.",
+      "notes_on_conditions": "2.2.1.1.5 s. 129. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -34,18 +34,18 @@
       "question_snapshot": {
         "id": "ADR-B-0495",
         "module_id": "ADR-B-02",
-        "stem": "Przesyłka klasy 1 ma podklasę 1.2. Jakie zagrożenie odróżnia ją od podklasy 1.1?",
+        "stem": "Na skrzyni z przedmiotami wybuchowymi kierowca widzi kod klasyfikacyjny z podklasą 1.2. Jakie główne zagrożenie oznacza ta podklasa według 2.2.1.1.5?",
         "options": {
-          "A": "Podklasa 1.2 oznacza wybuch masowy całego ładunku bez rozrzutu",
-          "B": "Podklasa 1.2 wiąże się z rozrzutem, ale bez zagrożenia wybuchem masowym",
-          "C": "Podklasa 1.2 oznacza wyłącznie zagrożenie żrące, bez skutków wybuchu i rozrzutu"
+          "A": "Wybuch masowy, który praktycznie od razu obejmuje cały ładunek",
+          "B": "Zagrożenie rozrzutem, ale bez zagrożenia wybuchem masowym",
+          "C": "Zagrożenie pożarem bez wybuchu i bez rozrzutu odłamków"
         },
         "correct_option": "B",
-        "explanation": "Podklasa 1.2 oznacza zagrożenie rozrzutem, ale nie wybuchem masowym całego ładunku, który jest charakterystyczny dla podklasy 1.1. Nie należy mylić tego z materiałami żrącymi, ponieważ obie podklasy dotyczą materiałów wybuchowych klasy 1. Rozpoznanie podklasy pomaga ocenić możliwe skutki zdarzenia i właściwie obchodzić się z przesyłką. Podstawa: ADR 2.2.1.1.5.",
+        "explanation": "Według 2.2.1.1.5 podklasa 1.2 obejmuje materiały i przedmioty, które stwarzają zagrożenie rozrzutem, ale nie wybuchem masowym. Rozrzut oznacza, że przy zdarzeniu z przesyłki mogą wylatywać odłamki lub części przedmiotów, które ranią ludzi także w pewnej odległości. Wybuch masowy, czyli taki, który praktycznie natychmiast obejmuje cały ładunek, jest cechą podklasy 1.1. Zagrożenie pożarem z małym zagrożeniem wybuchem lub rozrzutem opisuje z kolei podklasa 1.3. Podstawa: ADR 2.2.1.1.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.1.1.5, podklasa 1.2",
+            "reference": "ADR 2025, 2.2.1.1.5 (podklasa 1.2)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

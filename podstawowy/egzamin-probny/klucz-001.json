@@ -3,7 +3,7 @@
   "exam_type": "ADR_BASIC_PRACTICE_DRAFT",
   "publication_authorized": false,
   "seed": 2026102701,
-  "source_bank_head": "ba829d36bc7e1c04aeab108d826bfae33938422f",
+  "source_bank_head": "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7",
   "question_count": 30,
   "pass_mark_correct": 20,
   "pass_mark_fraction": "2/3",
@@ -22,9 +22,9 @@
       "number": 2,
       "id": "ADR-B-0489",
       "correct_option": "B",
-      "explanation": "Kod tunelowy B/D dla przewozu w sztukach przesyłek oznacza zakaz przejazdu przez tunele kategorii D i E. Nie oznacza zakazu we wszystkich kategoriach od B do E ani ograniczenia wyłącznie do tunelu E. Kierowca musi odczytać kod dla właściwego sposobu przewozu i porównać go z kategorią tunelu na trasie. Podstawa: ADR 8.6.4.",
+      "explanation": "W tabeli z 8.6.4 kody z ukośnikiem, takie jak D/E, mają osobne ograniczenia dla przewozu luzem lub w cysternie i dla innego przewozu. Kod D nie ma ukośnika i oznacza jeden zakaz: zakaz przewozu przez tunele kategorii D i E. Ten zakaz obowiązuje przy każdym sposobie przewozu, więc kartony jadące jako sztuki przesyłek też nie mogą wjechać do tunelu kategorii D. Kierowca pomylił kod D z kodem D/E, który przy sztukach przesyłek zakazuje jedynie tunelu E. Podstawa: ADR 8.6.4.",
       "legal_basis": [
-        "ADR 2025, 8.6.4, kod B/D"
+        "ADR 2025, 8.6.4 (kody D i D/E)"
       ],
       "lesson_path": "../lekcje/ADR-B-11.md"
     },

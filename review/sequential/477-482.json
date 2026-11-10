@@ -184,18 +184,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po operacji rozładunku odpowiedniej jednostki ADR pracownik zamierza pozostawić otwarte zawory i otwory inspekcyjne. Co wynika z 1.4.3.7.1(d)(ii)?",
+        "stem": "Zakład wsypuje luzem materiał stały, dla którego tabela A dopuszcza przewóz luzem, do kontenera do przewozu luzem. Kierownik uważa, że zakład odpowiada za nalepki na kontenerze, a przepisy o przewozie luzem sprawdza kierowca. Czy ma rację?",
         "options": {
-          "A": "Pozostawić zawory i otwory otwarte do kolejnego transportu bez sprawdzenia ich stanu",
-          "B": "Wystarczy poinformować biuro spedycji o niezakończonej czynności",
-          "C": "Dopilnować zamknięcia zaworów i otworów inspekcyjnych po operacji"
+          "A": "Tak, przepisy działu 7.3 o przewozie luzem sprawdza sam kierowca tego pojazdu",
+          "B": "Tak, przepisy działu 7.3 sprawdza odbiorca przed rozładunkiem kontenera",
+          "C": "Nie, napełniający ma też upewnić się, że przestrzegane są przepisy działu 7.3"
         },
         "correct_option": "C",
-        "explanation": "Po rozładunku należy upewnić się, że zawory i otwory inspekcyjne zostały prawidłowo zamknięte, gdy wymagają tego przepisy. Otwarte elementy mogą spowodować wyciek lub kontakt ludzi z pozostałościami ładunku. Sam telefon do spedycji nie zastąpi fizycznego zamknięcia, a zostawienie wszystkiego do następnego kursu jest niebezpieczne. Podstawa: ADR 1.4.3.7.1(d)(ii).",
+        "explanation": "Zakład, który ładuje towar niebezpieczny luzem do kontenera do przewozu luzem, jest według definicji z 1.2.1 napełniającym. Punkt 1.4.3.3 (h) każe mu zadbać o nalepki ostrzegawcze, znaki i tablice barwy pomarańczowej na takim kontenerze. Ten sam punkt w literze (j) dodaje, że przy załadunku luzem napełniający upewnia się, że przestrzegane są odpowiednie przepisy działu 7.3. Dział 7.3 wymaga między innymi, żeby kontener był pyłoszczelny i dobrze zamknięty, więc tego obowiązku nie można zostawić kierowcy ani odbiorcy. Podstawa: ADR 1.4.3.3 (h) i (j) oraz 1.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.7.1(d)(ii)",
+            "reference": "ADR 2025, 1.4.3.3 (j); 1.4.3.3 (h); 1.2.1 (napełniający)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -225,18 +225,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Załadowca odebrał dane o ładunku ADR od innego uczestnika i chce na ich podstawie zweryfikować wymagane oznakowanie kontenera po załadunku. Co wynika z 1.4.3.1.2?",
+        "stem": "Załadowca umieścił beczki w kontenerze i ma go oznakować według działu 5.3. Numer UN i numery nalepek bierze z dokumentu przewozowego od nadawcy, a beczek nie otwiera, by zbadać towar. Czy 1.4.3.1.2 mu na to pozwala?",
         "options": {
-          "A": "Dane od innego uczestnika automatycznie znoszą wszystkie wymagania oznakowania ADR",
-          "B": "Kontener nie wymaga oznakowania, jeśli załadowca otrzymał dokument przewozowy",
-          "C": "Może korzystać z otrzymanych danych, ale musi prawidłowo oznakować kontener"
+          "A": "Nie, przed oznakowaniem kontenera musi sam zbadać w laboratorium próbkę towaru",
+          "B": "Nie, na danych innych uczestników wolno polegać przy sprawdzaniu opakowań",
+          "C": "Tak, przy oznakowaniu kontenera z 1.4.3.1.1 (d) może polegać na tych danych"
         },
         "correct_option": "C",
-        "explanation": "Załadowca może wykorzystać dane otrzymane od nadawcy lub innego uczestnika, ale nadal musi wykonać własne obowiązki. W praktyce oznacza to sprawdzenie, czy kontener ma wymagane nalepki i oznaczenia, a nie uznanie, że dokument przewozowy załatwia sprawę. Odpowiedzialność za prawidłowe oznakowanie nie znika tylko dlatego, że ktoś wcześniej przekazał informacje o ładunku. Podstawa: ADR 1.4.3.1.1(d), 1.4.3.1.2 i 5.3.",
+        "explanation": "Według 1.4.3.1.1 (d) załadowca po załadunku towarów niebezpiecznych do kontenera spełnia wymagania dotyczące nalepek ostrzegawczych, znaków i tablic barwy pomarańczowej z działu 5.3. Punkt 1.4.3.1.2 pozwala mu przy tym wymaganiu polegać na informacjach i danych od innych uczestników przewozu, na przykład z dokumentu przewozowego nadawcy. Nie musi więc sam badać towaru, ale nadal sam odpowiada za prawidłowe oznakowanie kontenera. Sprawdzenia, czy opakowania nie są uszkodzone, ten punkt nie obejmuje, więc tam załadowca nie może polegać na cudzych danych. Podstawa: ADR 1.4.3.1.2 i 1.4.3.1.1 (d).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.1.2; 1.4.3.1.1(d)",
+            "reference": "ADR 2025, 1.4.3.1.2; 1.4.3.1.1 (d)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
