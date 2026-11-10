@@ -55,8 +55,8 @@ EXPECTED_PAGES={
         1332
     ]
 }
-ABSOLUTE=re.compile(r"\\b(tylko|zawsze|każdy|każda|każde|każdej|wszystkie|wyłącznie|żaden|żadnych|nigdy|całkowicie|automatycznie|niezależnie)\\b",re.I)
-def git_blob_sha(data): return hashlib.sha1(b"blob "+str(len(data)).encode("ascii")+b"\\0"+data).hexdigest()
+ABSOLUTE=re.compile(r"\b(tylko|zawsze|każdy|każda|każde|każdej|wszystkie|wyłącznie|żaden|żadnych|nigdy|całkowicie|automatycznie|niezależnie)\b",re.I)
+def git_blob_sha(data): return hashlib.sha1(b"blob "+str(len(data)).encode("ascii")+b"\0"+data).hexdigest()
 class Partia46LiteralReview(unittest.TestCase):
  def test_manifest_and_replacements(self):
   self.assertTrue(REPORT.is_file()); m=json.loads(MANIFEST.read_text(encoding="utf-8"))
@@ -71,8 +71,8 @@ class Partia46LiteralReview(unittest.TestCase):
    lens={k:len(v) for k,v in r["options"].items()}; self.assertEqual(set(lens),{"A","B","C"}); self.assertLessEqual(max(lens.values()),80)
    c=lens[r["correct_option"]]; self.assertFalse(c==min(lens.values()) and list(lens.values()).count(c)==1); self.assertFalse(c==max(lens.values()) and list(lens.values()).count(c)==1)
    for v in r["options"].values(): self.assertIsNone(ABSOLUTE.search(v)); self.assertNotIn(";",v); self.assertFalse(v.endswith("."))
-   e=r["explanation"]; self.assertGreaterEqual(len(e),300); ss=re.split(r"(?<=[.!?])\\s+(?=[A-ZĄĆĘŁŃÓŚŹŻ])",e.strip()); self.assertGreaterEqual(len(ss),2); self.assertLessEqual(len(ss),5)
-   for s in ss: self.assertLessEqual(len(re.findall(r"\\b[\\wąćęłńóśźżĄĆĘŁŃÓŚŹŻ-]+\\b",s)),35)
+   e=r["explanation"]; self.assertGreaterEqual(len(e),300); ss=re.split(r"(?<=[.!?])\s+(?=[A-ZĄĆĘŁŃÓŚŹŻ])",e.strip()); self.assertGreaterEqual(len(ss),2); self.assertLessEqual(len(ss),5)
+   for s in ss: self.assertLessEqual(len(re.findall(r"\b[\wąćęłńóśźżĄĆĘŁŃÓŚŹŻ-]+\b",s)),35)
    self.assertTrue(r["sources"]); self.assertTrue(r["replacement_quote"]); self.assertTrue(r["replacement_pages"])
  def test_bank_unchanged(self):
   raw=BANK.read_bytes(); self.assertEqual(git_blob_sha(raw),EXPECTED_BANK_SHA)
