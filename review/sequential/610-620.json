@@ -16,18 +16,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przy sprawdzaniu wpisu towaru w tabeli A ADR kierowca chce ustalić, jakie nalepki ostrzegawcze są wymagane. Którą kolumnę powinien odczytać?",
+        "stem": "Kierowca chce sprawdzić w tabeli A, jakie nalepki ostrzegawcze powinny mieć sztuki przesyłek z przewożonym towarem. Którą kolumnę tabeli A powinien odczytać?",
         "options": {
-          "A": "Kolumnę 5 — wymagane nalepki zagrożeń.",
-          "B": "Kolumnę 4 — masę netto każdej sztuki przesyłki.",
-          "C": "Kolumnę 2 — kod tunelowy towaru."
+          "A": "Kolumnę (5), w której podano numery wzorów nalepek",
+          "B": "Kolumnę (4), w której podano grupę pakowania towaru",
+          "C": "Kolumnę (3b), w której podano kod klasyfikacyjny"
         },
         "correct_option": "A",
-        "explanation": "Kolumna 5 tabeli A wskazuje, jakie nalepki zagrożenia są wymagane dla danego towaru. Nie pomyl jej z kolumną 4, która podaje grupę pakowania, ani z kolumną 2 zawierającą nazwę i opis towaru. Przy przygotowaniu przesyłki odszukaj właściwy wiersz i porównaj wskazane nalepki z oznakowaniem opakowania. Podstawa: ADR 3.2.1, tabela A, kolumna 5.",
+        "explanation": "Według objaśnień do tabeli A kolumna (5) „Nalepki” zawiera numery wzorów nalepek, które umieszcza się na sztukach przesyłek, kontenerach i pojazdach. Może być tam kilka numerów, gdy towar stwarza też zagrożenie dodatkowe. Kolumna (4) podaje grupę pakowania, czyli stopień zagrożenia, a kolumna (3b) kod klasyfikacyjny towaru. Dlatego przed załadunkiem porównuje się nalepki na przesyłkach z numerami z kolumny (5). Podstawa: ADR 3.2.1, tabela A, kolumna (5).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.2.1, tabela A, kolumna 5",
+            "reference": "ADR 2025, 3.2.1, tabela A, objaśnienia do kolumn (3b), (4) i (5)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -57,18 +57,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na dokumencie przewozowym wskazano klasę 4.1. Które wyjaśnienie pomaga odróżnić ją od klasy 4.2?",
+        "stem": "W dokumencie przewozowym podano proszek metalu z klasy 4.1. Pracownik magazynu pyta, dlaczego ADR uważa proszki metali za szczególnie niebezpieczne materiały zapalne stałe. Co wynika z 2.2.41.1.3?",
         "options": {
-          "A": "Klasa 4.1 dotyczy gazów, a klasa 4.2 materiałów reagujących z wodą.",
-          "B": "Klasa 4.1 oznacza utleniacze, a klasa 4.2 ciecze żrące.",
-          "C": "4.1: stałe zapalne; 4.2: materiały podatne na samozapalenie."
+          "A": "Bo w zetknięciu z powietrzem zapalają się same, bez źródła zapłonu",
+          "B": "Bo są materiałami ciekłymi, które bardzo łatwo przenikają przez opakowania",
+          "C": "Bo gaszenie ich wodą lub ditlenkiem węgla może zwiększać zagrożenie"
         },
         "correct_option": "C",
-        "explanation": "Klasa 4.1 obejmuje między innymi materiały stałe zapalne, które mogą łatwo się zapalić. Klasa 4.2 dotyczy materiałów podatnych na samonagrzewanie lub samozapalenie, więc zagrożenie może pojawić się bez typowego źródła ognia. Odpowiedź A myli klasę 4.1 z gazami i klasą 4.3, a B opisuje zagrożenia klas 5.1 i 8. Podstawa: ADR 2.2.41.1.1 i 2.2.42.1.1.",
+        "explanation": "Według 2.2.41.1.3 materiały łatwo zapalne stałe to proszki, granulaty lub pasty, które zapalają się już od krótkiego kontaktu ze źródłem zapłonu, takim jak zapałka. Zagrożeniem są też trujące produkty spalania. Przepis podkreśla, że szczególnie niebezpieczne są proszki metali, bo gaszenie ich zwykłymi środkami, jak woda lub ditlenek węgla, może zwiększać zagrożenie. Samozapalenie w kontakcie z powietrzem opisuje klasa 4.2, a proszki metali to materiały stałe. Podstawa: ADR 2.2.41.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.41.1.1; 2.2.42.1.1",
+            "reference": "ADR 2025, 2.2.41.1.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -98,18 +98,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po wycieku ciecz zbliża się do kratki kanalizacyjnej, ale do odpływu można dojść tylko przez opary. Co powinien zrobić kierowca?",
+        "stem": "Po kolizji z pękniętego worka z materiałem stałym z nalepką 9 wysypał się granulat i zsuwa się w stronę kratki ściekowej. Służby są powiadomione. Kierowca ma łopatę, osłonę kratki i pojemnik, a podejście jest bezpieczne. Co może zrobić?",
         "options": {
-          "A": "Podejść szybko i zatkać odpływ, nawet jeśli nie da się uniknąć kontaktu z oparami.",
-          "B": "Oddalić się, ostrzec innych i wezwać służby z bezpiecznego miejsca.",
-          "C": "Spłukać ciecz wodą do odpływu, aby usunąć ją z jezdni."
+          "A": "Zmieść granulat do kratki, żeby nie leżał na jezdni i nie utrudniał ruchu",
+          "B": "Osłonić kratkę i zebrać granulat łopatą do pojemnika na pozostałości",
+          "C": "Zostawić granulat w spokoju, bo załodze nie wolno zbierać materiału"
         },
         "correct_option": "B",
-        "explanation": "Nie próbuj zatkać odpływu, jeśli droga do niego prowadzi przez opary lub rozlew — ratowanie kanalizacji nie może narażać cię na zatrucie. Oddal się w bezpieczne miejsce, ostrzeż ludzi i przekaż służbom, że ciecz może dostać się do kanalizacji. Podejście przez opary może spowodować skażenie, a spłukanie cieczy wodą może roznieść substancję i pogorszyć sytuację. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne pozwalają załodze, jeżeli jest to właściwe i bezpieczne, zapobiec przedostaniu się uwolnionych materiałów do kanalizacji. Załoga może też zebrać uwolnione materiały, używając wyposażenia przewożonego w jednostce transportowej. Dla ładunku z nalepką 9 punkt 8.1.5.3 wymaga łopaty, osłony otworów kanalizacyjnych i pojemnika do zbierania pozostałości. Zmiatanie granulatu do kratki byłoby skażeniem kanalizacji, a nie jej ochroną. Podstawa: ADR 5.4.3.4 (instrukcje pisemne) i 8.1.5.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: kanalizacja, zebranie uwolnionych materiałów); 8.1.5.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -139,18 +139,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca zauważa rozlew nieznanej substancji i drażniące opary. Nie ma odpowiedniego sprzętu ochronnego. Jak powinien postąpić?",
+        "stem": "Po kolizji z rozerwanego worka wysypał się proszek i unosi się chmura pyłu. Oparów ani wycieku cieczy nie ma. Kierowca chce stanąć przy worku po stronie, w którą wiatr niesie pył, i spisać dane z nalepek. Czy postępuje właściwie?",
         "options": {
-          "A": "Rozpoznać substancję po zapachu, a potem dopiero powiadomić służby.",
-          "B": "Przetrzeć rozlew materiałem z kabiny, a potem sprawdzić, czy opakowanie nadal cieknie.",
-          "C": "Nie dotykać rozlewu; odejść od oparów, ostrzec innych i wezwać służby."
+          "A": "Tak, bo instrukcje pisemne mówią o unikaniu oparów, a nie pyłu",
+          "B": "Tak, jeżeli podejdzie na krótko i nie dotknie worka ani proszku",
+          "C": "Nie, trzeba unikać wdychania pyłu i stać po stronie nawietrznej"
         },
         "correct_option": "C",
-        "explanation": "Nieznaną ciecz i jej opary traktuj jako niebezpieczne, dopóki służby nie ocenią sytuacji. Nie wąchaj substancji ani nie próbuj jej wycierać ubraniem lub materiałem z kabiny — możesz wchłonąć ją przez drogi oddechowe albo skórę. Odsuń się, ostrzeż innych i wezwij pomoc z bezpiecznego miejsca. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą nie wchodzić na uwolnione materiały, nie dotykać ich i unikać wdychania oparów, dymu, pyłu i pary. Służy temu pozostawanie po stronie nawietrznej, czyli tej, z której wieje wiatr. Stanie w chmurze pyłu, nawet krótko, grozi wdychaniem materiału, a dane o ładunku są w dokumentach przewozowych. Kierowca powinien odejść pod wiatr i przekazać ratownikom dokumenty. Podstawa: ADR 5.4.3.4 (instrukcje pisemne).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: unikać wdychania pyłu, strona nawietrzna)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -180,18 +180,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Ogień obejmuje przedział ładunkowy pojazdu przewożącego towary niebezpieczne. Płomienie wydają się niewielkie. Co powinien zrobić członek załogi?",
+        "stem": "Na postoju w przedziale ładunkowym zaczynają się palić zwykłe kartony z ulotkami, które stoją obok beczek z towarem ADR. Same beczki się jeszcze nie palą. Kolega chce gasić kartony gaśnicą z kabiny. Co mówią instrukcje pisemne?",
         "options": {
-          "A": "Nie gasić pożaru ładowni; oddalić się w bezpieczne miejsce i wezwać służby.",
-          "B": "Otworzyć drzwi ładowni, by ocenić źródło ognia przed wezwaniem pomocy.",
-          "C": "Użyć gaśnicy, jeśli ogień w ładowni wydaje się mały i możliwy do opanowania."
+          "A": "Nie gasić pożaru w przedziale ładunkowym, lecz odejść i wezwać służby",
+          "B": "Gasić, bo palą się zwykłe kartony, a nie towar niebezpieczny",
+          "C": "Gasić, ale najpierw odsunąć beczki z towarem ADR jak najdalej od ognia"
         },
         "correct_option": "A",
-        "explanation": "Jeśli ogień obejmuje przedział ładunkowy z towarami niebezpiecznymi, załoga nie powinna próbować gasić go samodzielnie, nawet gdy płomienie wydają się małe. Otwieranie drzwi może narazić ludzi na dym i zawartość ładunku, a użycie gaśnicy w tej sytuacji nie jest właściwym działaniem załogi. Oddal się w bezpieczne miejsce, ostrzeż innych i wezwij służby. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne mówią, że członkowie załogi nie powinni gasić pożaru obejmującego przedział ładunkowy. Liczy się miejsce pożaru, a nie to, czy pali się sam towar niebezpieczny, czy zwykły ładunek obok niego. Ogień w ładowni może szybko objąć beczki, a gaśnice służą załodze do małych pożarów opon, hamulców lub silnika. Załoga oddala się, ostrzega innych i stosuje się do zaleceń służb ratowniczych. Podstawa: ADR 5.4.3.4 (instrukcje pisemne).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4, instrukcje pisemne",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: pożar obejmujący przedział ładunkowy)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -221,18 +221,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Numer rozpoznawczy zagrożenia na tablicy ADR poprzedza litera X. Ratownik pyta, czy może użyć wody. Co wynika z ADR?",
+        "stem": "Na tablicach barwy pomarańczowej pojazdu u góry widnieje numer X423. W komorze silnika pojawił się mały, początkowy ogień, a podejście z gaśnicą proszkową jest bezpieczne. Kierowca uważa, że litera X zabrania mu użycia gaśnicy. Czy ma rację?",
         "options": {
-          "A": "Wody nie wolno użyć w żadnych okolicznościach, nawet po ocenie ekspertów.",
-          "B": "Wodę można zastosować wyłącznie po uzyskaniu zgody ekspertów.",
-          "C": "Woda jest dozwolona, jeśli używa jej strażak bez dodatkowej oceny."
+          "A": "Tak, bo litera X zakazuje załodze gaszenia jakiegokolwiek pożaru",
+          "B": "Nie, bo X ostrzega przed użyciem wody, a nie przed gaśnicą proszkową",
+          "C": "Tak, bo przy literze X gaśnicy można użyć dopiero za zgodą specjalistów"
         },
         "correct_option": "B",
-        "explanation": "Litera X ostrzega, że substancja reaguje niebezpiecznie z wodą. Nie oznacza to bezwzględnego zakazu w każdej sytuacji, ale woda może być użyta tylko po uzyskaniu zgody ekspertów. Kierowca nie podejmuje takiej decyzji samodzielnie; przekazuje ratownikom informację o oznaczeniu i stosuje instrukcje pisemne. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Według 5.3.2.3.1 litera X przed numerem rozpoznawczym zagrożenia oznacza, że materiał reaguje niebezpiecznie z wodą. Dlatego wodę można przy nim stosować jedynie za zgodą specjalistów. Przepis nie dotyczy gaśnic proszkowych i nie znosi zasady, że załoga może gasić mały pożar komory silnika, jeżeli jest to bezpieczne. Kierowca może więc użyć gaśnicy proszkowej, ale nie gasi wodą. Podstawa: ADR 5.3.2.3.1 i 5.4.3.4 (instrukcje pisemne).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1",
+            "reference": "ADR 2025, 5.3.2.3.1 (litera X); 5.4.3.4 (wzór instrukcji pisemnych: gaśnice)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
