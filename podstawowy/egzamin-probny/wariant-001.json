@@ -6,7 +6,7 @@
   "seed": 2026102701,
   "variant": 1,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "ba829d36bc7e1c04aeab108d826bfae33938422f",
+  "source_bank_head": "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7",
   "excluded_question_ids": [],
   "question_count": 30,
   "time_limit_minutes": 60,
@@ -45,11 +45,11 @@
       "number": 2,
       "id": "ADR-B-0489",
       "module_id": "ADR-B-11",
-      "stem": "Przewóz w sztukach przesyłek ma kod B/D. Jakie tunele wyklucza taki kod dla transportu nieprowadzonego w cysternie?",
+      "stem": "Kartony z towarem o kodzie tunelowym D jadą jako sztuki przesyłek, a jednostka podlega ograniczeniom tunelowym. Kierowca sądzi, że tak jak przy kodzie D/E sztuki przesyłek mogą wjechać do tunelu D. Czy ma rację?",
       "options": {
-        "A": "Kod B/D dla sztuk przesyłek wyklucza tunele kategorii B, C, D i E",
-        "B": "Kod B/D wyklucza tunele kategorii D i E przy przewozie w sztukach przesyłek",
-        "C": "Kod B/D wyklucza wyłącznie tunele kategorii E, a kategorie B–D pozostają dostępne"
+        "A": "Tak, przy sztukach przesyłek kod D zakazuje przejazdu przez tunel kategorii E",
+        "B": "Nie, kod D bez ukośnika zakazuje tuneli D i E także przy sztukach przesyłek",
+        "C": "Tak, bo kod D odnosi się do przewozu w cysternie, a nie sztuk przesyłek"
       },
       "image": null
     },
