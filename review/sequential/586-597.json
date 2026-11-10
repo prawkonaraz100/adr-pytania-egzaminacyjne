@@ -16,18 +16,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Instrukcje pisemne ADR mają ustalony wzór. Firma chce zastąpić je krótką kartką z własnym logo. Co należy zrobić?",
+        "id": "ADR-B-0586",
+        "module_id": "ADR-B-13",
+        "stem": "Przewoźnik wozi głównie farby z nalepką 3. Chce w instrukcjach pisemnych dostosować do tego kolumnę (3) „Wskazówki dodatkowe” w tabeli nalepek. Co wynika z UWAGI 2 do tej tabeli?",
         "options": {
-          "A": "Zachować pełny, wymagany wzór instrukcji pisemnych ADR",
-          "B": "Użyć skrótu firmowego, jeśli kierowca zapamiętał zasady, bez pełnego wzoru",
-          "C": "Użyć skróconej wersji firmowej, jeśli omawia podstawowe zagrożenia, zamiast wzoru ADR"
+          "A": "Może, bo te wskazówki wolno dostosować do klas towarów i środków transportu",
+          "B": "Nie może, bo wzór instrukcji pisemnych stosuje się bez jakichkolwiek zmian",
+          "C": "Może, ale dopiero po zatwierdzeniu nowej treści tych wskazówek przez nadawcę"
         },
         "correct_option": "A",
-        "explanation": "Instrukcje pisemne ADR mają określony wzór, dzięki któremu załoga może szybko odnaleźć działania potrzebne podczas awarii. Firmowa kartka z logo nie zastąpi pełnego dokumentu, nawet jeśli kierowca zna część zasad na pamięć. Skrót może pominąć ważne ostrzeżenia lub czynności. Przed trasą sprawdź, czy właściwe instrukcje są dostępne w kabinie. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Forma i zawartość instrukcji pisemnych mają odpowiadać czterostronicowemu wzorowi z 5.4.3.4, więc nie można zastąpić ich własną kartką. Sam wzór mówi jednak w UWADZE 2 pod tabelą nalepek, że wskazówki dodatkowe z kolumny (3) mogą być modyfikowane. Celem jest dostosowanie ich do klas przewożonych towarów i do używanych środków transportu. ADR nie uzależnia tego od zgody nadawcy, a pozostałe części wzoru się nie zmieniają. Podstawa: ADR 5.4.3.4 (wzór instrukcji pisemnych, UWAGA 2).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych, tabela nalepek, UWAGA 2)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -57,18 +59,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Instrukcje pisemne są w kabinie, ale kierowca nie przeczytał ich i nie wie, gdzie znaleźć informacje o zagrożeniu ładunku. Co powinno się wydarzyć przed wyjazdem?",
+        "id": "ADR-B-0587",
+        "module_id": "ADR-B-13",
+        "stem": "Przed wyjazdem kierowca chce sprawdzić w instrukcjach pisemnych, jakie zagrożenia stwarza ładunek z nalepką 8. W której części wzoru z 5.4.3.4 znajdzie ten opis?",
         "options": {
-          "A": "Wystarczy, że instrukcje są w kabinie; ich treść poznaje się dopiero po wypadku",
-          "B": "Załoga powinna zapoznać się z instrukcjami i ładunkiem przed rozpoczęciem przewozu",
-          "C": "Instrukcje czyta wyłącznie pracownik biura, bo kierowca ma tylko prowadzić pojazd i nie obsługuje dokumentów"
+          "A": "Na pierwszej stronie, na liście czynności wykonywanych po wypadku",
+          "B": "W tabeli nalepek, w wierszu nalepki 8, w kolumnie „Charakterystyka zagrożeń”",
+          "C": "Na czwartej stronie, w wykazie wyposażenia ochronnego dla tej nalepki i załogi"
         },
         "correct_option": "B",
-        "explanation": "Przed rozpoczęciem przewozu kierowca i pozostali członkowie załogi powinni znać zagrożenia ładunku oraz treść instrukcji pisemnych. Samo trzymanie dokumentu w kabinie nie wystarczy, jeśli nikt nie wie, co w nim zapisano. Pracownik biura nie może przeczytać instrukcji za kierowcę, bo to załoga ma umieć z niej skorzystać podczas zdarzenia. Podstawa: ADR 5.4.3.3.",
+        "explanation": "Wzór instrukcji pisemnych z 5.4.3.4 ma cztery strony. Pierwsza podaje czynności wykonywane przy wypadku lub awarii, a czwarta wykaz wyposażenia. Na drugiej i trzeciej stronie jest tabela z trzema kolumnami: nalepki ostrzegawcze, charakterystyka zagrożeń i wskazówki dodatkowe. Dla nalepki 8 w kolumnie (2) podano między innymi zagrożenie poparzeniem chemicznym i gwałtowną reakcję z wodą. Podstawa: ADR 5.4.3.4 (wzór instrukcji pisemnych, tabela nalepek).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.3",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych, tabela nalepek, kolumna (2))",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -98,18 +102,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca przewozi towary niebezpieczne i podczas kontroli ma okazać dokumenty wymagane dla tego przewozu. Gdzie powinny być dostępne?",
+        "id": "ADR-B-0588",
+        "module_id": "ADR-B-13",
+        "stem": "Przed przewozem ADR dyspozytor mówi kierowcy, że w kabinie wystarczą dokumenty z listy w 8.1.2.1. Dokumenty wymagane przez inne przepisy, na przykład o transporcie drogowym, mogą według niego zostać w bazie. Czy ma rację?",
         "options": {
-          "A": "W archiwum przewoźnika, aby firma mogła przesłać dokumenty na żądanie podczas kontroli.",
-          "B": "U odbiorcy, który może potwierdzić dostawę i później przekazać kopię dokumentów.",
-          "C": "Przy załodze w pojeździe, zgodnie z wykazem dokumentów wymaganych dla tego przewozu."
+          "A": "Tak, w pojeździe z towarem ADR wozi się jedynie dokumenty wymienione w 8.1.2.1",
+          "B": "Tak, jeżeli kierowca ma w kabinie także swoje zaświadczenie ADR",
+          "C": "Nie, lista z 8.1.2.1 obowiązuje obok dokumentów wymaganych innymi przepisami"
         },
         "correct_option": "C",
-        "explanation": "Dokumenty wymagane dla konkretnego przewozu muszą znajdować się przy załodze w pojeździe, tak aby kierowca mógł je okazać podczas kontroli lub udostępnić ratownikom. Kopia w biurze przewoźnika albo u odbiorcy nie pomoże, gdy dokumentów zabraknie na drodze. Przed wyjazdem sprawdź, które dokumenty są wymagane dla tego ładunku i sposobu przewozu. Podstawa: ADR 8.1.2.1.",
+        "explanation": "Punkt 8.1.2.1 zaczyna się od słów „Poza dokumentami wymaganymi na podstawie innych przepisów”. Dokumenty przewozowe, instrukcje pisemne i dokumenty ze zdjęciem załogi przewozi się więc w kabinie dodatkowo, a nie zamiast dokumentów z innych przepisów. Zaświadczenie ADR kierowcy z 8.1.2.2 też ich nie zastępuje. ADR nie zwalnia zatem z dokumentów, których wymagają przepisy o transporcie drogowym. Podstawa: ADR 8.1.2.1 i 8.1.2.2 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.2.1",
+            "reference": "ADR 2025, 8.1.2.1 (zdanie wprowadzające); 8.1.2.2 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -139,18 +145,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca otrzymał instrukcje pisemne w języku, którego nie rozumie. Co powinien zrobić przed rozpoczęciem przewozu?",
+        "id": "ADR-B-0589",
+        "module_id": "ADR-B-13",
+        "stem": "Pojazd wiezie kartony z nalepką 9. Po awarii kierowca czyta w instrukcjach pisemnych jedynie wiersz nalepki 9 w tabeli. Uważa, że czynności z pierwszej strony wzoru go nie dotyczą. Czy ma rację?",
         "options": {
-          "A": "Poprosić o zrozumiałą wersję instrukcji pisemnych dla całej załogi, zanim pojazd wyruszy w trasę",
-          "B": "Zachować instrukcje bez zmian, bo ich oficjalny wzór wystarcza, nawet gdy kierowca nie rozumie treści",
-          "C": "Polegać na telefonicznym tłumaczeniu dyspozytora podczas zdarzenia, zamiast wcześniej uzyskać zrozumiałą wersję"
+          "A": "Nie, pierwsza strona dotyczy wypadku lub awarii z towarem dowolnej klasy",
+          "B": "Tak, przy nalepce 9 wystarczą wskazówki z wiersza tej nalepki",
+          "C": "Tak, pierwsza strona dotyczy jedynie pojazdów z tablicami barwy pomarańczowej"
         },
         "correct_option": "A",
-        "explanation": "Instrukcje pisemne mają pomóc załodze szybko zareagować na wypadek, dlatego kierowca musi rozumieć ich treść przed rozpoczęciem przewozu. Sam fakt, że dokument ma właściwy wzór, nie wystarczy, jeśli polecenia są niezrozumiałe. Tłumaczenie przez telefon dopiero podczas awarii może opóźnić działanie; należy wcześniej zapewnić zrozumiałą wersję. Podstawa: ADR 5.4.3.2.",
+        "explanation": "Pierwsza strona wzoru z 5.4.3.4 podaje czynności, które członkowie załogi wykonują w razie wypadku lub awarii, jeżeli jest to możliwe i bezpieczne. Należą do nich na przykład zahamowanie pojazdu, unikanie źródeł zapłonu, powiadomienie służb ratowniczych i założenie kamizelki ostrzegawczej. Tabela nalepek na kolejnych stronach zawiera wskazówki dodatkowe, które uzupełniają te czynności, a nie je zastępują. Kierowca stosuje więc obie części wzoru. Podstawa: ADR 5.4.3.4 (wzór instrukcji pisemnych).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.2",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: czynności w razie wypadku lub awarii; wskazówki dodatkowe)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -180,18 +188,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Instrukcje pisemne ADR znajdują się w kabinie, ale są zamknięte w schowku, do którego załoga nie ma dostępu podczas jazdy. Co należy poprawić?",
+        "id": "ADR-B-0590",
+        "module_id": "ADR-B-13",
+        "stem": "Kierowca i pomocnik czytają i rozumieją po polsku. W kabinie, w łatwo dostępnej kieszeni drzwi, jest jeden komplet instrukcji pisemnych po polsku. Pomocnik uważa, że potrzebny jest drugi komplet dla niego. Czy ma rację?",
         "options": {
-          "A": "Umieścić instrukcje w kabinie tak, by załoga szybko mogła po nie sięgnąć",
-          "B": "Zostawić je w schowku, jeśli kierowca pamięta numer telefonu alarmowego",
-          "C": "Przenieść je do biura, a w pojeździe pozostawić tylko dokument przewozowy"
+          "A": "Nie, wystarczy komplet łatwo dostępny w kabinie, w języku zrozumiałym dla obu",
+          "B": "Tak, instrukcje pisemne przydziela się imiennie, osobno kierowcy i pomocnikowi",
+          "C": "Tak, drugi komplet trzeba umieścić w skrzyni ładunkowej obok towaru"
         },
         "correct_option": "A",
-        "explanation": "Instrukcje pisemne ADR mają pomóc załodze szybko zareagować podczas awarii, dlatego muszą być w kabinie i łatwo dostępne. Nie wystarczy, że kierowca pamięta numer alarmowy albo że dokument znajduje się w biurze lub w miejscu, do którego nie można sięgnąć. Przed odjazdem sprawdź, czy każdy członek załogi może natychmiast po nie sięgnąć. Podstawa: ADR 5.4.3.1 i 8.1.2.3.",
+        "explanation": "Według 5.4.3.1 i 8.1.2.3 instrukcje pisemne przewozi się w kabinie kierowcy, w miejscu łatwo dostępnym. Według 5.4.3.2 mają być w języku, który każdy członek załogi może przeczytać i zrozumieć. W przeciwieństwie do kamizelki czy latarki ADR nie wymaga osobnego kompletu instrukcji dla każdej osoby, więc jeden polski komplet w kieszeni drzwi wystarcza. Gdyby pomocnik nie znał polskiego, trzeba by dodać instrukcje w jego języku. Podstawa: ADR 5.4.3.1, 5.4.3.2 i 8.1.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.1; 8.1.2.3",
+            "reference": "ADR 2025, 5.4.3.1; 5.4.3.2; 8.1.2.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -221,18 +231,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pojazd z towarem ADR dojeżdża do tunelu, którego oznakowanie ogranicza przejazd danego rodzaju przewozu. Co powinien zrobić kierowca?",
+        "id": "ADR-B-0591",
+        "module_id": "ADR-B-11",
+        "stem": "Pojazd z tablicami barwy pomarańczowej wiezie beczki z UN 2810 z III grupy pakowania, kod tunelowy E. Wiezie też kartony farby UN 1263 w ilościach wyłączonych (EQ), z kodem D/E. Jaki kod przyjąć dla całego ładunku?",
         "options": {
-          "A": "Wjechać, jeśli tunel jest najkrótszą drogą, nawet gdy znak ogranicza przewóz tego towaru.",
-          "B": "Sprawdzić kod tunelowy i znaki, a następnie wybrać dozwoloną trasę zgodną z ograniczeniami.",
-          "C": "Zignorować znak, jeśli numer UN jest prawidłowy, a pojazd i ładunek wyglądają na bezpieczne."
+          "A": "D/E, bo do całego ładunku stosuje się kod najbardziej restrykcyjny",
+          "B": "E, bo kartonów w ilościach wyłączonych (EQ) nie bierze się pod uwagę",
+          "C": "Bez kodu, bo kartony EQ zwalniają cały ładunek z ograniczeń tunelowych"
         },
         "correct_option": "B",
-        "explanation": "Przed wjazdem do tunelu kierowca musi porównać kod tunelowy przewożonego towaru z kategorią tunelu i uwzględnić znaki na drodze. Krótsza trasa ani prawidłowy numer UN nie dają prawa do zignorowania zakazu. Jeżeli kod lub oznakowanie wyklucza przejazd, trzeba wybrać inną, dozwoloną trasę. Podstawa: ADR 8.6.3 i 8.6.4.",
+        "explanation": "Według 8.6.3.2 do całego ładunku stosuje się kod odpowiadający największym ograniczeniom. Według 8.6.3.3 towary przewożone zgodnie z rozdziałem 1.1.3 nie podlegają jednak ograniczeniom tunelowym i nie bierze się ich pod uwagę przy ustalaniu tego kodu. Ilości wyłączone zgodne z działem 3.5 korzystają z wyłączenia z 1.1.3.4.3, więc kod D/E kartonów się nie liczy. Dla całego ładunku przyjmuje się kod E beczek. Podstawa: ADR 8.6.3.3, 8.6.3.2 i 1.1.3.4.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3; 8.6.4",
+            "reference": "ADR 2025, 8.6.3.3; 8.6.3.2; 1.1.3.4.3; 3.5.1.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -262,18 +274,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Podczas przejazdu przez tunel dochodzi do pożaru lub innego zdarzenia. Jaka powinna być pierwsza decyzja kierowcy?",
+        "id": "ADR-B-0592",
+        "module_id": "ADR-B-11",
+        "stem": "W tunelu kierowca zatrzymał pojazd z towarem ADR, bo w komorze silnika pojawił się mały, dopiero powstały ogień. Ładunek się nie pali, a podejście z gaśnicą jest bezpieczne. Co wynika z instrukcji pisemnych?",
         "options": {
-          "A": "Kontynuować jazdę do końca tunelu, nawet gdy zdarzenie zagraża załodze i innym użytkownikom drogi.",
-          "B": "Otworzyć ładownię, aby sprawdzić towar, zanim kierowca poinformuje służby o zdarzeniu i zagrożeniu.",
-          "C": "Zatrzymać pojazd w bezpieczny sposób, zastosować instrukcje pisemne i wezwać odpowiednie służby."
+          "A": "Nie gasić, bo w tunelu załoga ucieka od razu, bez gaśnicy",
+          "B": "Gasić gaśnicą, a gdy ogień przejdzie na ładownię, gasić go dalej",
+          "C": "Może użyć gaśnicy, bo to mały, początkowy pożar komory silnika"
         },
         "correct_option": "C",
-        "explanation": "Zdarzenie w tunelu wymaga spokojnej, ale szybkiej reakcji zgodnej z warunkami miejsca i instrukcjami awaryjnymi. Nie jedź dalej tylko po to, by opuścić tunel, jeśli oznaczałoby to narażenie innych, i nie otwieraj ładowni, aby samodzielnie sprawdzać zawartość. Zatrzymaj pojazd w bezpieczny sposób, ostrzeż innych i powiadom służby zgodnie z procedurą tunelu. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne pozwalają załodze użyć gaśnic do ugaszenia małego lub początkowego pożaru opon, hamulców lub przedziału silnika, jeżeli jest to właściwe i bezpieczne. Tunel nie znosi tej zasady, a szybkie działanie może zapobiec rozwojowi pożaru. Trzeba też powiadomić służby ratownicze. Jeśli ogień obejmie przedział ładunkowy, załoga go nie gasi, tylko oddala się, ostrzega innych i stosuje się do zaleceń służb. Podstawa: ADR 5.4.3.4 (instrukcje pisemne) i 8.2.2.3.2 (n).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: gaśnice, przedział ładunkowy); 8.2.2.3.2 (n)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -303,18 +317,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po awarii kierowca zatrzymał pojazd w bezpiecznym miejscu. Co powinien zrobić z silnikiem, jeśli nie jest potrzebny do działania urządzeń obsługowych?",
+        "id": "ADR-B-0593",
+        "module_id": "ADR-B-05",
+        "stem": "Po kolizji ciężarówka z towarem ADR stoi na lekkim spadku. Kierowca wyłączył silnik i chce od razu odejść od wycieku, nie zaciągając hamulca postojowego. Zaciągnięcie go jest możliwe i bezpieczne. Co powinien zrobić?",
         "options": {
-          "A": "Wyłączyć silnik i zabezpieczyć pojazd zgodnie z instrukcjami awaryjnymi",
-          "B": "Pozostawić silnik włączony, aby łatwiej było odjechać bez sprawdzania sytuacji",
-          "C": "Zwiększyć obroty silnika, żeby szybciej przewietrzyć kabinę"
+          "A": "Zaciągnąć hamulec postojowy, a potem odejść w bezpieczne miejsce",
+          "B": "Odejść od razu, bo przy wyłączonym silniku pojazd się nie stoczy",
+          "C": "Odejść od razu, a hamulec zaciągnąć dopiero po przyjeździe służb"
         },
         "correct_option": "A",
-        "explanation": "Po awaryjnym zatrzymaniu trzeba ograniczyć ryzyko dalszego zdarzenia i postępować zgodnie z instrukcjami pisemnymi. Jeżeli silnik nie jest potrzebny do napędu urządzeń obsługowych, należy go wyłączyć; pozostawienie go włączonego bez potrzeby nie poprawia bezpieczeństwa. Nie zwiększaj obrotów w celu „przewietrzenia” kabiny — to nie jest działanie przewidziane w instrukcjach. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Pierwsza czynność z instrukcji pisemnych to zahamowanie pojazdu, wyłączenie silnika i odłączenie akumulatora wyłącznikiem głównym, jeżeli jest dostępny. Wykonuje się ją, gdy jest to możliwe i bezpieczne, a tutaj tak jest. Pojazd na spadku bez hamulca postojowego może się stoczyć na ludzi albo w miejsce wycieku. Także 8.3.7 zabrania pozostawiania pojazdu z towarami niebezpiecznymi bez zabezpieczenia hamulcami postojowymi. Podstawa: ADR 5.4.3.4 (instrukcje pisemne) i 8.3.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: zahamować pojazd); 8.3.7",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -344,18 +360,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Wzywając pomoc po zdarzeniu z towarem ADR, kierowca nie zna jeszcze pełnej przyczyny awarii. Jakie informacje powinien przekazać?",
+        "id": "ADR-B-0594",
+        "module_id": "ADR-B-05",
+        "stem": "Pojazd wiezie beczki z cieczą zapalną, kanistry z cieczą żrącą i worki z materiałem utleniającym. Po wypadku wycieka jedynie ciecz zapalna. Kierowca dzwoni po straż pożarną. Co powinien przekazać o ładunku?",
         "options": {
-          "A": "Zgadywać skład substancji na podstawie zapachu, aby nie opóźniać rozmowy ani zgłoszenia",
-          "B": "Podać miejsce zdarzenia, sytuację i dostępne, sprawdzone informacje o ładunku",
-          "C": "Poczekać z wezwaniem pomocy, aż firma ustali wszystkie szczegóły"
+          "A": "Dane jedynie o cieczy zapalnej, bo pozostałe opakowania są jeszcze całe",
+          "B": "Dane o wycieku i o pozostałych towarach niebezpiecznych w pojeździe",
+          "C": "Dane o ładunku dopiero na miejscu, gdy ratownicy o nie zapytają"
         },
         "correct_option": "B",
-        "explanation": "Podczas wzywania pomocy podaj miejsce zdarzenia, co się stało i te informacje o ładunku, które są już sprawdzone. Nie zgaduj składu substancji po zapachu — taka pomyłka może utrudnić ratownikom dobór ochrony. Nie czekaj też na pełny raport firmy; przekaż dostępne fakty i wyraźnie powiedz, czego jeszcze nie wiadomo. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
+        "explanation": "Według instrukcji pisemnych załoga powiadamia służby ratownicze, podając możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych. Pożar lub dalsze uszkodzenia mogą objąć także nieuszkodzone teraz opakowania, a materiał utleniający może nasilić pożar cieczy zapalnej. Strażacy muszą więc znać cały ładunek, aby dobrać sposób działania i ochronę. Informacje podaje się już przy wezwaniu, bez czekania na pytania. Podstawa: ADR 5.4.3.4 (instrukcje pisemne).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: powiadomienie służb ratowniczych; nalepka 5.1)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -385,18 +403,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Osoba prywatna przewozi niewielką ilość produktu niebezpiecznego do własnego użytku. Czy sam prywatny cel automatycznie zwalnia ją z ADR?",
+        "id": "ADR-B-0595",
+        "module_id": "ADR-B-01",
+        "stem": "Osoba prywatna wiezie autem do punktu zbiórki odpadów resztki farb i rozpuszczalnika z remontu mieszkania. Są w szczelnie zamkniętych słoikach, ustawionych w skrzynce, bo puszki się zniszczyły. Ilości mieszczą się w granicach z 1.1.3.1 (a)(i). Czy przewóz podlega ADR?",
         "options": {
-          "A": "Nie; muszą być spełnione konkretne warunki dotyczące opakowania i przeznaczenia",
-          "B": "Tak, każdy przewóz prywatny jest zawsze wyłączony z ADR",
-          "C": "Tak, jeśli produkt jest w dowolnym opakowaniu i nie ma dokumentów"
+          "A": "Nie, wyłączenie (a)(ii) obejmuje te odpady także poza oryginalnymi puszkami",
+          "B": "Tak, bo takie odpady muszą jechać w oryginalnych opakowaniach do sprzedaży",
+          "C": "Tak, bo odpady niebezpieczne trzeba przewozić w pełnym zakresie przepisów ADR"
         },
         "correct_option": "A",
-        "explanation": "Wyłączenie dla osoby prywatnej nie działa automatycznie tylko dlatego, że produkt jest wieziony na własny użytek. Trzeba spełnić warunki ADR, między innymi dotyczące opakowania do sprzedaży detalicznej oraz przeznaczenia na użytek osobisty lub domowy. Brak dokumentów sam w sobie nie tworzy zwolnienia, więc sprawdź konkretny produkt i warunki przepisu. Podstawa: ADR 1.1.3.1(a).",
+        "explanation": "Według 1.1.3.1 (a)(ii) ADR nie stosuje się do przewozu przez osoby prywatne towarów, które służyły im do użytku domowego, gdy są przewożone jako odpady. Wyłączenie obejmuje także przypadek, gdy towary nie są już w oryginalnych opakowaniach do sprzedaży detalicznej. Ilości muszą jednak mieścić się w granicach z (a)(i), a zawartość ma być zabezpieczona przed uwolnieniem w normalnych warunkach przewozu. Szczelnie zamknięte słoiki w skrzynce spełniają ten warunek. Podstawa: ADR 1.1.3.1 (a)(ii).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.3.1(a)",
+            "reference": "ADR 2025, 1.1.3.1 (a)(ii)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -426,18 +446,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Wymagane wyposażenie ochronne ADR obejmuje kamizelkę ostrzegawczą dla członka załogi. Jedna kamizelka jest wspólna dla dwóch osób. Co należy poprawić?",
+        "id": "ADR-B-0596",
+        "module_id": "ADR-B-08",
+        "stem": "Kierowca wiezie towar na pełnych zasadach ADR. Obok jedzie praktykant, który uczy się zawodu przy tym przewozie. W pojeździe są jedna kamizelka ostrzegawcza i jedna latarka. Co wynika z 8.1.5.2?",
         "options": {
-          "A": "Zapewnić odpowiednie wyposażenie każdemu członkowi załogi, którego dotyczy wymóg",
-          "B": "Zostawić jedną kamizelkę, jeśli obie osoby pracują na zmianę i nie opuszczają kabiny jednocześnie",
-          "C": "Zastąpić drugą kamizelkę trójkątem ostrzegawczym w kabinie, bo oba elementy ostrzegają innych"
+          "A": "Praktykant też potrzebuje kamizelki i latarki, bo jest członkiem załogi",
+          "B": "Wystarczy obecny zestaw, bo praktykant nie jest członkiem załogi pojazdu",
+          "C": "Praktykant potrzebuje kamizelki, ale latarka dla dwóch osób wystarczy"
         },
         "correct_option": "A",
-        "explanation": "Kamizelka ostrzegawcza zwiększa widoczność członka załogi, gdy musi on opuścić kabinę przy awarii lub na drodze. Jeśli wymaganie dotyczy dwóch osób, każda musi mieć dostęp do własnego wyposażenia; wspólna kamizelka może nie być dostępna, gdy obie osoby potrzebują jej jednocześnie. Trójkąt ostrzegawczy pełni inną funkcję i nie zastępuje kamizelki. Podstawa: ADR 8.1.5.2.",
+        "explanation": "Według 1.2.1 członkiem załogi pojazdu jest kierowca lub osoba towarzysząca mu z przyczyn związanych z bezpieczeństwem, ochroną, szkoleniem lub czynnościami transportowymi. Praktykant jedzie w celu szkolenia, więc jest członkiem załogi. Wykaz z 8.1.5.2 wymaga kamizelki ostrzegawczej i przenośnego urządzenia oświetleniowego dla każdego członka załogi. Przed wyjazdem trzeba więc dołożyć drugą kamizelkę i drugą latarkę. Podstawa: ADR 8.1.5.2 i 1.2.1 (członek załogi pojazdu).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.2",
+            "reference": "ADR 2025, 8.1.5.2; 1.2.1 (członek załogi pojazdu)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -467,18 +489,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Załoga ma latarkę, ale nie ma wymaganych rękawic ochronnych ani ochrony oczu. Czy jedna rzecz może zastąpić pozostałe elementy wyposażenia?",
+        "id": "ADR-B-0597",
+        "module_id": "ADR-B-08",
+        "stem": "Pomocnik ma własną parę rękawic ochronnych, ale zamiast okularów ochronnych wziął przyłbicę, która zasłania oczy i całą twarz. Czy spełnia to wymóg ochrony oczu z 8.1.5.2?",
         "options": {
-          "A": "Tak, latarka wystarcza, jeśli jest mocna, ma zapasowe baterie i dobrze oświetla miejsce pracy",
-          "B": "Tak, kierowca może użyć rękawic roboczych dopiero po zdarzeniu, jeśli nie ma widocznego wycieku",
-          "C": "Nie; wymagane elementy pełnią różne funkcje i trzeba zapewnić komplet wyposażenia"
+          "A": "Nie, wykaz z 8.1.5.2 dopuszcza do ochrony oczu jedynie okulary ochronne",
+          "B": "Nie, przyłbicę można mieć dopiero przy towarze z nalepką 8",
+          "C": "Tak, wykaz wymaga ochrony oczu, a okulary ochronne podano jako przykład"
         },
         "correct_option": "C",
-        "explanation": "Latarka pomaga oświetlić miejsce pracy, ale nie chroni dłoni ani oczu przed kontaktem z niebezpieczną substancją. Zwykłe rękawice robocze mogą nie zapewniać wymaganej ochrony, a szukanie wyposażenia dopiero po zdarzeniu jest za późne. Przed rozpoczęciem przewozu sprawdź, czy na pojeździe znajduje się cały wymagany zestaw, a nie tylko jego jeden element. Podstawa: ADR 8.1.5.2.",
+        "explanation": "Wykaz w 8.1.5.2 wymaga dla każdego członka załogi pary rękawic ochronnych i ochrony oczu. Okulary ochronne podano przy ochronie oczu w nawiasie jako przykład, a nie jako jedyną dopuszczalną formę. Przyłbica, która zasłania oczy, chroni je przed rozpryskami i spełnia ten wymóg. Wymóg ochrony oczu nie zależy przy tym od numeru nalepki na ładunku. Podstawa: ADR 8.1.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.2",
+            "reference": "ADR 2025, 8.1.5.2 (ochrona oczu)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
