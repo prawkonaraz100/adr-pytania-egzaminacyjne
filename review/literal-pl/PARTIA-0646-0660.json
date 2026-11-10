@@ -1,0 +1,682 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0646–0660",
+  "bank_count": 780,
+  "bank_blob_sha": "6dc2b850f70d300ef3c214708b3283933934301c",
+  "bank_changed": false,
+  "previous_uncompared": 135,
+  "compared": 15,
+  "remaining_without_comparison": 120,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "method": "scripts/similarity.py: NFKD, casefold, tokens length >=4, configured stop words, Jaccard; same-module comparison across the complete 780-question bank; separate filter for pairs containing IDs 0646–0660. Manual thematic review included cross-module candidates.",
+    "whole_bank": {
+      "threshold_0_45": 7,
+      "threshold_0_25": 156
+    },
+    "batch_pairs": {
+      "threshold_0_45": 1,
+      "threshold_0_25": 9
+    },
+    "batch_similarity_pairs": [
+      [
+        "ADR-B-0217",
+        "ADR-B-0653",
+        0.545
+      ],
+      [
+        "ADR-B-0653",
+        "ADR-B-0654",
+        0.364
+      ],
+      [
+        "ADR-B-0653",
+        "ADR-B-0756",
+        0.357
+      ],
+      [
+        "ADR-B-0635",
+        "ADR-B-0653",
+        0.353
+      ],
+      [
+        "ADR-B-0217",
+        "ADR-B-0654",
+        0.333
+      ],
+      [
+        "ADR-B-0635",
+        "ADR-B-0654",
+        0.294
+      ],
+      [
+        "ADR-B-0637",
+        "ADR-B-0653",
+        0.278
+      ],
+      [
+        "ADR-B-0016",
+        "ADR-B-0653",
+        0.273
+      ],
+      [
+        "ADR-B-0653",
+        "ADR-B-0754",
+        0.25
+      ]
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0646",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K13",
+      "legal_basis": "ADR 2025, 8.2.2.3.8",
+      "gazette_pages": [
+        1328
+      ],
+      "exact_quote": "ADR 8.2.2.3.8: „W powiązaniu ze szkoleniem teoretycznym powinny być organizowane indywidualne ćwiczenia praktyczne, obejmujące co najmniej sposoby udzielania pierwszej pomocy, gaszenie pożaru oraz postępowanie w razie zaistnienia wypadku lub awarii.”",
+      "finding": "Wymóg indywidualnych ćwiczeń z gaszenia pożaru powtarza się z ADR-B-0651; pytanie dodatkowo ma trzy opcje dłuższe niż 80 znaków. Zachować kompetencję K13 i zastąpić je praktyczną obsługą gaśnicy.",
+      "duplicate_candidates": [
+        "ADR-B-0651",
+        "ADR-B-0115"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K13",
+        "stem": "Na ćwiczeniu kursant ma uruchomić gaśnicę proszkową. Która kolejność czynności jest właściwa?",
+        "options": {
+          "A": "Nacisnąć dźwignię przed zdjęciem zawleczki; następnie skierować dyszę.",
+          "B": "Wyjąć zawleczkę; skierować dyszę na ognisko i nacisnąć dźwignię.",
+          "C": "Odwrócić gaśnicę; poluzować wąż i nacisnąć korpus gaśnicy."
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcja obsługi gaśnicy proszkowej przewiduje zdjęcie urządzenia z uchwytu, wyjęcie zawleczki, skierowanie dyszy na źródło ognia i naciśnięcie dźwigni. Zachowanie tej kolejności pozwala uruchomić gaśnicę i skierować środek gaśniczy we właściwe miejsce. Podczas ćwiczenia uczestnik powinien wykonywać czynności zgodnie z instrukcją konkretnego urządzenia. ADR wymaga indywidualnych ćwiczeń praktycznych obejmujących gaszenie pożaru. Podstawa: ADR 8.2.2.3.8; instrukcja PSP dotycząca obsługi gaśnic proszkowych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.8",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "PSP",
+            "reference": "Państwowa Straż Pożarna, Zasady obsługi gaśnic proszkowych",
+            "url": "https://www.gov.pl/web/kppsp-sejny/zasady-obslugi-gasnic-i-hydrantow-wewnetrznych-w-budynkach-przeznaczonych-na-pobyt-ludzi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0647",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K13",
+      "legal_basis": "ADR 2025, 8.1.4.5; 8.2.2.3.8",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "ADR 8.1.4.5: „Gaśnice powinny być zamontowane na jednostkach transportowych w taki sposób, aby były łatwo dostępne dla załogi pojazdu. Sposób zamontowania gaśnic powinien zapewniać ochronę przed działaniem czynników atmosferycznych gwarantującą ich bezpieczną eksploatację.”",
+      "finding": "Pytanie powtarza obowiązek łatwego dostępu do gaśnicy sprawdzany już w 0015, 0169 i 0717. Opcje przekraczają 80 znaków; zachować K13, ale zmienić szczegół praktycznej obsługi.",
+      "duplicate_candidates": [
+        "ADR-B-0015",
+        "ADR-B-0169",
+        "ADR-B-0717"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K13",
+        "stem": "Podczas ćwiczenia kursant używa gaśnicy proszkowej o budowie syfonowej. Jak powinien trzymać urządzenie?",
+        "options": {
+          "A": "Pionowo; zaworem skierowanym do góry.",
+          "B": "Poziomo; zawór skierowany w bok.",
+          "C": "Do góry dnem; zawór skierowany ku podłożu."
+        },
+        "correct_option": "A",
+        "explanation": "Gaśnica proszkowa o budowie syfonowej prawidłowo pracuje tylko wtedy, gdy jest utrzymywana w pozycji pionowej. Zmiana położenia może zaburzyć pobieranie środka gaśniczego i utrudnić skuteczne działanie urządzenia. Podczas ćwiczenia kierowca powinien utrzymywać gaśnicę zaworem do góry i kierować strumień zgodnie z jej instrukcją. ADR przewiduje indywidualne ćwiczenia praktyczne z gaszenia pożaru. Podstawa: ADR 8.2.2.3.8; instrukcja PSP dotycząca obsługi gaśnic proszkowych.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.8",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "PSP",
+            "reference": "Państwowa Straż Pożarna, Zasady obsługi gaśnic proszkowych — pozycja pionowa",
+            "url": "https://www.gov.pl/web/kppsp-sejny/zasady-obslugi-gasnic-i-hydrantow-wewnetrznych-w-budynkach-przeznaczonych-na-pobyt-ludzi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0648",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K14",
+      "legal_basis": "ADR 2025, 5.4.3.4; 8.2.2.3.8",
+      "gazette_pages": [
+        975,
+        1328
+      ],
+      "exact_quote": "ADR 5.4.3.4: „Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej.” ADR 8.2.2.3.8 wymaga indywidualnych ćwiczeń z pierwszej pomocy.",
+      "finding": "Scenariusz podejścia do poszkodowanego przy nieznanym wycieku nakłada się na 0113, 0187 i 0626. Opcje są nierówne i dwie przekraczają 80 znaków; zachować K14 i zmienić umiejętność pierwszej pomocy.",
+      "duplicate_candidates": [
+        "ADR-B-0113",
+        "ADR-B-0187",
+        "ADR-B-0626"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K14",
+        "stem": "Dorosły uczestnik ćwiczenia krztusi się; kaszel stał się nieskuteczny. Jaki jest następny krok?",
+        "options": {
+          "A": "Podać wodę do picia; obserwować oddech i poczekać na poprawę.",
+          "B": "Przeszukać jamę ustną palcami; szukać ciała obcego bez jego widoczności.",
+          "C": "Zachęcić do kaszlu; przy braku efektu wykonać uderzenia między łopatki."
+        },
+        "correct_option": "C",
+        "explanation": "Jeżeli dorosły nie może skutecznie kaszleć, należy zastosować do pięciu uderzeń w okolicę między łopatkami. Po każdym uderzeniu trzeba sprawdzić, czy ciało obce zostało usunięte. Gdy uderzenia nie przynoszą skutku, wytyczne przewidują do pięciu uciśnięć nadbrzusza i naprzemienne powtarzanie obu działań. Nie wolno wykonywać ślepego przeszukiwania ust palcami. Podstawa: ADR 8.2.2.3.2 (e) i 8.2.2.3.8; ERC Guidelines 2025 First Aid.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.2 (e); 8.2.2.3.8",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ERC-2025-FIRST-AID",
+            "reference": "European Resuscitation Council Guidelines 2025, First Aid — Choking in an adult person",
+            "url": "https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0649",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K14",
+      "legal_basis": "ADR 2025, 5.4.3.4; 8.2.2.3.8",
+      "gazette_pages": [
+        975,
+        1325,
+        1328
+      ],
+      "exact_quote": "ADR 8.1.5.2: „W jednostce transportowej powinno być przewożone następujące wyposażenie: [...] dla każdego członka załogi pojazdu: para rękawic ochronnych oraz ochrona oczu.”",
+      "finding": "Pytanie o zanieczyszczoną odzież i brak ochrony osobistej nakłada się na 0110, 0167, 0745 oraz nowe 0631. Wszystkie opcje przekraczają 80 znaków; zachować K14, zmienić umiejętność pierwszej pomocy.",
+      "duplicate_candidates": [
+        "ADR-B-0110",
+        "ADR-B-0167",
+        "ADR-B-0745",
+        "ADR-B-0631"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K14",
+        "stem": "Po zderzeniu kierowca jest przytomny; zgłasza ból szyi i podejrzenie urazu kręgosłupa. Co powinien zrobić ratownik?",
+        "options": {
+          "A": "Stabilizować głowę i szyję; ograniczyć ruchy bez wymuszania pozycji.",
+          "B": "Posadzić poszkodowanego; skręcić głowę i ocenić zakres bólu szyi dokładniej.",
+          "C": "Pociągnąć za ręce; szybko przenieść poszkodowanego do kabiny."
+        },
+        "correct_option": "A",
+        "explanation": "Po wypadku drogowym należy brać pod uwagę możliwość urazu kręgosłupa szyjnego. Przytomnego poszkodowanego należy zachęcić do utrzymywania głowy i szyi w wygodnej, stabilnej pozycji oraz ograniczyć zbędne ruchy. Nie wolno wymuszać ułożenia ani wykonywać ruchów, które mogą nasilić uraz. Dalsze postępowanie powinno uwzględniać ocenę bezpieczeństwa i wezwanie pomocy. Podstawa: ADR 8.2.2.3.2 (e) i 8.2.2.3.8; ERC Guidelines 2025 First Aid.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.2 (e); 8.2.2.3.8",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ERC-2025-FIRST-AID",
+            "reference": "European Resuscitation Council Guidelines 2025, First Aid — Cervical spinal motion restriction",
+            "url": "https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0650",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K15",
+      "legal_basis": "ADR 2025, 5.4.3.4; 8.2.2.3.8",
+      "gazette_pages": [
+        87
+      ],
+      "exact_quote": "ADR 1.8.5.3: „Zdarzenie, po zaistnieniu którego wymagane jest sporządzenie raportu zgodnie z 1.8.5.1, ma miejsce wówczas, gdy doszło do uwolnienia towarów niebezpiecznych lub bezpośredniego zagrożenia takim uwolnieniem, zranienia osób, szkody materialnej, zniszczenia środowiska, lub gdy konieczne było zaangażowanie władz, i gdy spełnione zostało co najmniej jedno z kryteriów wymienionych w tym przepisie.”",
+      "finding": "Pytanie ponownie sprawdza używanie instrukcji pisemnych, temat już reprezentowany przez 0050, 0590, 0620 i 0716. Wszystkie opcje przekraczają 80 znaków; zachować K15 i wybrać odrębny obowiązek po zdarzeniu.",
+      "duplicate_candidates": [
+        "ADR-B-0050",
+        "ADR-B-0590",
+        "ADR-B-0620",
+        "ADR-B-0716"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K15",
+        "stem": "Po wypadku przewoźnik ustala, czy musi sporządzić raport ADR. Kiedy powstaje taki obowiązek?",
+        "options": {
+          "A": "Po samym zatrzymaniu pojazdu; także bez uwolnienia, obrażeń ani szkody.",
+          "B": "Po spełnieniu kryteriów z 1.8.5.3; raport sporządza się według 1.8.5.1.",
+          "C": "Po pożarze pojazdu; pozostałe zdarzenia pozostają poza raportem ADR."
+        },
+        "correct_option": "B",
+        "explanation": "Raport ADR nie jest wymagany po każdym zatrzymaniu pojazdu ani wyłącznie po pożarze. Obowiązek powstaje, gdy zdarzenie obejmuje uwolnienie lub bezpośrednie zagrożenie uwolnieniem, obrażenia, szkodę materialną albo zniszczenie środowiska i spełnia co najmniej jedno kryterium wskazane w ADR. Kryteria obejmują między innymi określone progi uwolnionej ilości i skutki dla ludzi. Podstawa: ADR 1.8.5.1 i 1.8.5.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.8.5.1; 1.8.5.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0651",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K15",
+      "legal_basis": "ADR 2025, 8.2.2.3.8",
+      "gazette_pages": [
+        977
+      ],
+      "exact_quote": "ADR 5.4.3.4, dodatkowe wskazówki dla nalepki 4.2: „Uwolniony materiał powinien być utrzymywany w stanie suchym, pod przykryciem.”",
+      "finding": "Pytanie powtarza wymóg ćwiczeń praktycznych z 8.2.2.3.8, podobnie jak 0646. Wszystkie opcje przekraczają 80 znaków; zachować K15 i przenieść scenariusz na odrębne działanie awaryjne.",
+      "duplicate_candidates": [
+        "ADR-B-0646",
+        "ADR-B-0115"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K15",
+        "stem": "Po uszkodzeniu opakowania z materiałem klasy 4.2 jego zawartość została uwolniona. Co wskazują instrukcje dodatkowe?",
+        "options": {
+          "A": "Zwilżyć materiał wodą; pozostawić go odkrytego do wyschnięcia na miejscu.",
+          "B": "Przenieść materiał do kanalizacji; spłukać miejsce zdarzenia wodą.",
+          "C": "Utrzymywać uwolniony materiał w stanie suchym; osłonić go przed wodą."
+        },
+        "correct_option": "C",
+        "explanation": "Dodatkowe wskazówki ADR dla materiałów podatnych na samozapalenie ostrzegają o zagrożeniu pożarem po uszkodzeniu opakowania lub uwolnieniu zawartości. Wskazują również możliwość gwałtownej reakcji z wodą i nakazują utrzymywać uwolniony materiał w stanie suchym, pod przykryciem. Działanie należy podejmować wyłącznie wtedy, gdy jest właściwe i bezpieczne dla załogi. Podstawa: ADR 5.4.3.4, tabela dodatkowych wskazówek, nalepka 4.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4, tabela dodatkowych wskazówek dla nalepki 4.2, Dz.U. s. 977",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0652",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K12",
+      "legal_basis": "ADR 2025, 2.2.8.1.1",
+      "gazette_pages": [
+        264
+      ],
+      "exact_quote": "ADR 2.2.8.1.1: „Materiały żrące to materiały, które wskutek działania chemicznego powodują nieodwracalne uszkodzenie skóry lub w razie wycieku, powodują fizyczne uszkodzenie lub zniszczenie innych towarów lub środków transportu.”",
+      "finding": "Ogólna definicja klasy 8 jest już sprawdzana w 0005, 0161 i 0730. Poprawna odpowiedź jest jedyną najkrótszą, a jedna opcja przekracza 80 znaków; zachować K12 i wybrać szczegół kryteriów korozji metali.",
+      "duplicate_candidates": [
+        "ADR-B-0005",
+        "ADR-B-0161",
+        "ADR-B-0730"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K12",
+        "stem": "Ciecz klasy 8 nie działa żrąco na skórę, ale może mieć kontakt z metalowymi elementami. Co należy jeszcze ocenić?",
+        "options": {
+          "A": "Możliwe działanie korozyjne na metale; według kryteriów ADR.",
+          "B": "Wpływ na skórę; metale pozostają poza oceną materiału w tym przypadku.",
+          "C": "Palność par; korozja nie stanowi kryterium klasy 8."
+        },
+        "correct_option": "A",
+        "explanation": "ADR wskazuje, że ciecz oraz materiał stały mogący przejść w stan ciekły, uznane za niedziałające żrąco na skórę, należy dodatkowo rozważyć pod kątem korozji niektórych powierzchni metalowych. Kryteria tej oceny znajdują się w przepisie 2.2.8.1.5.3 (c) (ii). Brak działania żrącego na skórę nie wyklucza więc zagrożenia dla metalowych elementów. Podstawa: ADR 2.2.8.1.3 i 2.2.8.1.5.3 (c) (ii).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.8.1.3; 2.2.8.1.5.3 (c) (ii)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0653",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-06",
+      "competency_id": "ADR-B-06-K08",
+      "legal_basis": "ADR 2025, 5.3.2.3.2",
+      "gazette_pages": [
+        956,
+        959
+      ],
+      "exact_quote": "ADR 5.3.2.3.2: „886 materiał silnie żrący trujący.” ADR 5.3.2.3.1: „Litera X przed numerem rozpoznawczym zagrożenia oznacza, że materiał reaguje niebezpiecznie z wodą.”",
+      "finding": "Znaczenie cyfry 8 i kodów żrąco-trujących powtarza się w 0053, 0194, 0756 i nowym 0637. Poprawna odpowiedź jest jedyną najkrótszą; similarity.py wskazuje też parę 0217/0653 z wynikiem 0,545. Zachować K08, lecz przejść na złożony zapis X886.",
+      "duplicate_candidates": [
+        "ADR-B-0053",
+        "ADR-B-0194",
+        "ADR-B-0756",
+        "ADR-B-0637"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K08",
+        "stem": "Na tablicy pomarańczowej widnieje numer X886. Co oznacza cały zapis?",
+        "options": {
+          "A": "Materiał silnie żrący i trujący; reaguje niebezpiecznie z wodą.",
+          "B": "Materiał żrący i palny; z wodą wydziela gaz.",
+          "C": "Materiał utleniający i trujący; wodę można stosować bez zgody specjalistów."
+        },
+        "correct_option": "A",
+        "explanation": "Numer 886 oznacza materiał silnie żrący i trujący. Litera X przed numerem wskazuje, że materiał reaguje niebezpiecznie z wodą. Woda może być stosowana przy takim materiale wyłącznie za zgodą specjalistów. Odczyt trzeba więc przekazać ratownikom w całości, a nie ograniczać go do samych cyfr. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (886 i X przed numerem)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0654",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-06",
+      "competency_id": "ADR-B-06-K06",
+      "legal_basis": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+      "gazette_pages": [
+        959
+      ],
+      "exact_quote": "ADR 5.3.2.3.2: „90 materiał zagrażający środowisku; różne materiały niebezpieczne.” Dla porównania: „99 różne materiały niebezpieczne przewożone w podwyższonej temperaturze.”",
+      "finding": "Pytanie o szczególne numery zagrożenia nakłada się na 0051, 0754 i nowe 0635. Poprawna odpowiedź jest jedyną najkrótszą; zachować K06 i sprawdzić odrębny numer 90.",
+      "duplicate_candidates": [
+        "ADR-B-0051",
+        "ADR-B-0754",
+        "ADR-B-0635"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K06",
+        "stem": "Numer rozpoznawczy zagrożenia 90 widnieje na tablicy pomarańczowej. Jak go odczytać?",
+        "options": {
+          "A": "Materiał zagrażający środowisku; obejmuje różne materiały niebezpieczne.",
+          "B": "Materiał żrący i trujący; przewożony w podwyższonej temperaturze.",
+          "C": "Materiał promieniotwórczy; może wydzielać palne gazy przy kontakcie z wodą."
+        },
+        "correct_option": "A",
+        "explanation": "Tabela numerów rozpoznawczych zagrożenia podaje, że numer 90 oznacza materiał zagrażający środowisku oraz różne materiały niebezpieczne. Nie należy utożsamiać go z numerem 99, który dotyczy różnych materiałów niebezpiecznych przewożonych w podwyższonej temperaturze. Odczyt numeru 90 powinien uwzględniać oba elementy opisu. Podstawa: ADR 5.3.2.3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.2, numer 90 i numer 99",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0655",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K14",
+      "legal_basis": "ADR 2025, 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1",
+      "gazette_pages": [
+        119,
+        308
+      ],
+      "exact_quote": "ADR 3.2.1, tabela A, kolumna (4): „Grupa pakowania” zawiera numer(y) (I, II lub III) grupy pakowania, do której został zaliczony materiał niebezpieczny. ADR 2.1.1.3 określa przypisywanie grup według stopnia zagrożenia.",
+      "finding": "Odczyt kolumn tabeli A powtarza zakres 0128, 0189 i 0610. Wszystkie opcje przekraczają 80 znaków, a poprawna jest jedyną najkrótszą; zachować K14 i przejść na zastosowanie grupy pakowania.",
+      "duplicate_candidates": [
+        "ADR-B-0128",
+        "ADR-B-0189",
+        "ADR-B-0610"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K14",
+        "stem": "Dwie sztuki przesyłki zawierają ten sam materiał klasy 3, lecz mają opakowania różnej wielkości. Co decyduje o grupie pakowania?",
+        "options": {
+          "A": "Objętość opakowania; większa sztuka podnosi grupę zagrożenia.",
+          "B": "Masa ładunku w pojeździe; to ona wyznacza grupę pakowania materiału.",
+          "C": "Stopień zagrożenia materiału; rozmiar opakowania nie zmienia grupy."
+        },
+        "correct_option": "C",
+        "explanation": "Grupa pakowania opisuje stopień zagrożenia stwarzanego przez materiał, a nie wielkość użytego opakowania ani łączną masę ładunku w pojeździe. ADR przewiduje grupy I, II i III, przypisywane według procedur i kryteriów klasyfikacji. Zmiana rozmiaru opakowania nie zmienia sama w sobie przypisanej grupy pakowania. Podstawa: ADR 2.1.1.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0656",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-01",
+      "competency_id": "ADR-B-01-K04",
+      "legal_basis": "ADR 2025, 1.1.3.1(c) i 1.1.3.6",
+      "gazette_pages": [
+        23
+      ],
+      "exact_quote": "ADR 1.1.3.1 (d): „przewozu wykonywanego przez właściwe władze w ramach działań ratowniczych lub przewozu nadzorowanego przez te władze, jeżeli przewóz ten jest konieczny ze względu na prowadzone działania ratownicze, w szczególności: przewozu i holowania pojazdów przewożących towary niebezpieczne, w przypadku gdy pojazdy te uczestniczyły w wypadku lub są uszkodzone.”",
+      "finding": "Wyłączenie z 1.1.3.1 (c) jest już sprawdzane w 0091, 0313 i 0720. Wszystkie opcje przekraczają 80 znaków; zachować K04 i użyć odrębnego wyłączenia dla działań ratowniczych.",
+      "duplicate_candidates": [
+        "ADR-B-0091",
+        "ADR-B-0313",
+        "ADR-B-0720"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-01",
+        "competency_id": "ADR-B-01-K04",
+        "stem": "Właściwe władze przewożą uszkodzony pojazd ADR do bezpiecznego miejsca w ramach działań ratowniczych. Czy ten przewóz podlega ADR?",
+        "options": {
+          "A": "Nie, przewóz przez władze w akcji ratowniczej jest wyłączony; jeśli konieczny.",
+          "B": "Tak, pojazd nadal podlega ADR; także podczas holowania.",
+          "C": "Tak, wyłączenie dotyczy pojazdów pustych; ładunek ADR nadal podlega przepisom."
+        },
+        "correct_option": "A",
+        "explanation": "ADR wyłącza przewóz wykonywany przez właściwe władze w ramach działań ratowniczych, jeżeli jest on konieczny ze względu na te działania. Przepis obejmuje między innymi przewóz lub holowanie pojazdów przewożących towary niebezpieczne, które uczestniczyły w wypadku albo są uszkodzone. Wyłączenie dotyczy wskazanego przewozu ratowniczego, a nie zwykłego transportu handlowego. Podstawa: ADR 1.1.3.1 (d).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.3.1 (d)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0657",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K02",
+      "legal_basis": "ADR 2025, 2.2.2.1.2–2.2.2.1.5; 5.2.2.2.2",
+      "gazette_pages": [
+        155
+      ],
+      "exact_quote": "ADR 2.2.2.1.3: „Grupy oznaczone literą T dominują przed pozostałymi grupami. Natomiast grupy oznaczone literą F dominują nad grupami oznaczonymi literami A lub O.”",
+      "finding": "Nalepka 2.1 i zagrożenie gazem palnym są już sprawdzane w 0095, 0221 i 0491. Wszystkie opcje przekraczają 80 znaków; zachować K02 i przejść na kolejność pierwszeństwa grup gazów.",
+      "duplicate_candidates": [
+        "ADR-B-0095",
+        "ADR-B-0221",
+        "ADR-B-0491"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K02",
+        "stem": "Mieszanina gazów ma właściwości trujące i palne. Która grupa ma pierwszeństwo przy klasyfikacji?",
+        "options": {
+          "A": "Grupa T; właściwości trujące mają pierwszeństwo przed pozostałymi.",
+          "B": "Grupa F; palność wyprzedza zagrożenia duszące i utleniające.",
+          "C": "Grupa O; właściwości utleniające mają pierwszeństwo w mieszaninie."
+        },
+        "correct_option": "A",
+        "explanation": "ADR ustala kolejność pierwszeństwa grup zagrożenia dla mieszanin gazów. Grupy oznaczone literą T dominują nad pozostałymi grupami, natomiast F dominuje nad A lub O. Jeżeli mieszanina ma właściwości trujące i palne, klasyfikację opiera się na grupie T. Reguła ta służy do wyboru właściwego kodu klasyfikacyjnego, gdy mieszanina wykazuje kilka właściwości niebezpiecznych. Podstawa: ADR 2.2.2.1.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.2.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0658",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K03",
+      "legal_basis": "ADR 2025, 1.2.1; 2.2.3.1.1",
+      "gazette_pages": [
+        165
+      ],
+      "exact_quote": "ADR 2.2.3.1.1: „w temperaturze 50°C mają prężność pary nie większą niż 300 kPa (3 bary) i nie są całkowicie w stanie gazowym w temperaturze 20°C i pod ciśnieniem normalnym 101,3 kPa; oraz mają temperaturę zapłonu nie wyższą niż 60°C.”",
+      "finding": "Temperatura zapłonu i jej zastosowanie powtarzają się w 0192, 0288 i 0722. Wszystkie opcje przekraczają 80 znaków; zachować K03 i sprawdzić kryterium prężności par klasy 3.",
+      "duplicate_candidates": [
+        "ADR-B-0192",
+        "ADR-B-0288",
+        "ADR-B-0722"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K03",
+        "stem": "Ciecz nie jest całkowicie gazowa w 20°C. Jaki dodatkowy warunek fizyczny dotyczy klasyfikacji do klasy 3?",
+        "options": {
+          "A": "Prężność par do 300 kPa w 50°C; ciecz pozostaje ciekła w 20°C.",
+          "B": "Prężność par powyżej 300 kPa w 50°C; to warunek klasy 3.",
+          "C": "Temperatura wrzenia poniżej 60°C; prężność par nie ma znaczenia."
+        },
+        "correct_option": "A",
+        "explanation": "Klasa 3 obejmuje materiały ciekłe, które w temperaturze 50°C mają prężność par nie większą niż 300 kPa i nie są całkowicie gazowe w temperaturze 20°C pod ciśnieniem 101,3 kPa. Klasyfikacja uwzględnia również temperaturę zapłonu oraz pozostałe kryteria przepisu. Sama temperatura wrzenia nie zastępuje wskazanych warunków. Podstawa: ADR 2.2.3.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.3.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0659",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-01",
+      "competency_id": "ADR-B-01-K01",
+      "legal_basis": "ADR 2025, Umowa ADR, art. 2; 1.1.1",
+      "gazette_pages": [
+        22,
+        23
+      ],
+      "exact_quote": "ADR 1.1.1: „Załączniki A i B do ADR składają się z 9 części. Załącznik A zawiera części od 1 do 7, a załącznik B części 8 i 9.”",
+      "finding": "Podział załączników A i B jest już sprawdzany w 0123, 0147, 0312 i 0709. Wszystkie opcje przekraczają 80 znaków, a poprawna jest jedyną najkrótszą; zachować K01 i użyć odrębnej definicji ADR.",
+      "duplicate_candidates": [
+        "ADR-B-0123",
+        "ADR-B-0147",
+        "ADR-B-0312",
+        "ADR-B-0709"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-01",
+        "competency_id": "ADR-B-01-K01",
+        "stem": "Pojazd silnikowy ciągnie przyczepę z towarami ADR. Jak ADR określa taki zestaw?",
+        "options": {
+          "A": "Jednostka transportowa; pojazd silnikowy może ciągnąć przyczepę.",
+          "B": "Kontener wielki; obejmuje zestaw drogowy z naczepą.",
+          "C": "Sztuka przesyłki; obejmuje pojazd, przyczepę i przewożony ładunek."
+        },
+        "correct_option": "A",
+        "explanation": "W ADR jednostka transportowa oznacza pojazd silnikowy bez przyczepy albo zespół pojazdów składający się z pojazdu silnikowego i przyczepy. Przyczepa nie staje się przez to kontenerem wielkim ani sztuką przesyłki. Definicja ma znaczenie przy stosowaniu wymagań odnoszących się do jednostki transportowej jako całości. Podstawa: ADR 1.2.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.2.1, definicja jednostki transportowej",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0660",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-07",
+      "competency_id": "ADR-B-07-K07",
+      "legal_basis": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 471 i 474",
+      "gazette_pages": [
+        1327,
+        49
+      ],
+      "exact_quote": "ADR 8.2.2.3.2 (k): „ogólne informacje na temat odpowiedzialności cywilnej.” Kodeks cywilny, art. 471: „Dłużnik obowiązany jest do naprawienia szkody wynikłej z niewykonania lub nienależytego wykonania zobowiązania [...]”. Art. 474: „Dłużnik odpowiedzialny jest jak za własne działanie lub zaniechanie za działania i zaniechania osób, z których pomocą zobowiązanie wykonywa, jak również osób, którym wykonanie zobowiązania powierza.”",
+      "finding": "Ogólna odpowiedzialność przewoźnika i działanie kierowcy są już sprawdzane w 0567–0569, 0713 i 0758. Wszystkie opcje przekraczają 80 znaków; zachować K07 i przejść na przyczynienie poszkodowanego do szkody.",
+      "duplicate_candidates": [
+        "ADR-B-0567",
+        "ADR-B-0568",
+        "ADR-B-0569",
+        "ADR-B-0713",
+        "ADR-B-0758"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-07",
+        "competency_id": "ADR-B-07-K07",
+        "stem": "Poszkodowany sam przyczynił się do szkody, ignorując widoczne ostrzeżenie. Jak może to wpłynąć na odszkodowanie?",
+        "options": {
+          "A": "Odszkodowanie może zostać zmniejszone; stosownie do udziału poszkodowanego.",
+          "B": "Odszkodowanie pozostaje pełne; udział poszkodowanego nie ma znaczenia.",
+          "C": "Odszkodowanie przechodzi na przewoźnika; zachowanie poszkodowanego pomija się."
+        },
+        "correct_option": "A",
+        "explanation": "Kodeks cywilny przewiduje zmniejszenie obowiązku naprawienia szkody, jeżeli poszkodowany przyczynił się do jej powstania lub zwiększenia. Zakres zmniejszenia zależy od okoliczności, w szczególności od stopnia winy obu stron. Samo przyczynienie nie oznacza automatycznego zwolnienia sprawcy z odpowiedzialności ani zawsze takiego samego obniżenia świadczenia. Podstawa: ADR 8.2.2.3.2 (k); Kodeks cywilny, art. 362.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.2 (k) — ogólne informacje o odpowiedzialności cywilnej",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "KC-2026-PL",
+            "reference": "Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 362",
+            "url": "https://eli.gov.pl/api/acts/DU/2026/795/text.pdf"
+          }
+        ]
+      }
+    }
+  ]
+}
