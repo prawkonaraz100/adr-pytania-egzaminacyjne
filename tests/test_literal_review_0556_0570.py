@@ -33,7 +33,7 @@ EXPECTED_COUNTS = {"OK": 0, "POPRAW": 15, "BLOKUJ": 0}
 
 
 def git_blob_sha(data: bytes) -> str:
-    header = b"blob " + str(len(data)).encode("ascii") + b"\\0"
+    header = b"blob " + str(len(data)).encode("ascii") + b"\0"
     return hashlib.sha1(header + data).hexdigest()
 
 
