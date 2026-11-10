@@ -20,14 +20,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Inspektor właściwej władzy prosi pracodawcę o dokumentację szkolenia ADR 1.3 pracownika kompletującego przesyłki. Jak powinien postąpić pracodawca?",
+        "stem": "Magazynier, który kompletuje przesyłki ADR, prosi pracodawcę o wgląd w dokumenty swojego szkolenia z działu 1.3. Pracodawca odpowiada, że pokazuje je jedynie inspekcji. Komu według 1.3.3 udostępnia się te dokumenty?",
         "options": {
-          "A": "Udostępnić właściwej władzy ewidencję szkolenia na jej żądanie",
-          "B": "Przekazać jedynie podpis pracownika, bez dokumentacji szkolenia",
-          "C": "Udostępnić ewidencję tylko po ponownym przeszkoleniu pracownika"
+          "A": "Pracownikowi oraz właściwej władzy, gdy złożą o to wniosek",
+          "B": "Właściwej władzy, a pracownikowi dopiero za zgodą tej władzy",
+          "C": "Nowemu pracodawcy, a sam pracownik nie ma do nich wglądu"
         },
         "correct_option": "A",
-        "explanation": "Pracodawca powinien zachować dokumentację szkolenia ADR 1.3 i udostępnić ją właściwej władzy, gdy ta o nią poprosi. Sam podpis pracownika nie pokazuje całego zakresu szkolenia ani nie zastępuje ewidencji, a ponowne szkolenie nie jest warunkiem przedstawienia już istniejących zapisów. Dokumentacja pozwala wykazać, że pracownik został odpowiednio przeszkolony. Podstawa: ADR 1.3.3.",
+        "explanation": "Według 1.3.3 pracodawca przechowuje dokumenty potwierdzające szkolenia z działu 1.3 i udostępnia je pracownikowi lub właściwej władzy na ich wniosek. Przepis wymienia pracownika obok władzy, więc pracodawca nie może odmówić tylko dlatego, że prośba nie pochodzi od inspekcji. Okres przechowywania tych dokumentów ustala właściwa władza. Nowy pracodawca weryfikuje je dopiero wtedy, gdy pracownik podejmuje u niego zatrudnienie. Podstawa: ADR 1.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pracownik przechodzi do nowego przedsiębiorstwa i ma wykonywać czynności podlegające szkoleniu ADR 1.3. Co należy sprawdzić przy rozpoczęciu zatrudnienia?",
+        "stem": "Pracownik z doświadczeniem przy załadunku towarów ADR przechodzi do nowej firmy na podobne stanowisko. Co według 1.3.3 trzeba zrobić z dokumentami jego wcześniejszych szkoleń?",
         "options": {
-          "A": "Sprawdzić wyłącznie, czy nazwa nowego stanowiska jest identyczna z poprzednią i opisuje te same zadania",
-          "B": "Zweryfikować zapisy dotyczące wcześniejszego szkolenia przed przydzieleniem zadań ADR",
-          "C": "Sprawdzić jedynie świadectwo ukończenia szkoły, bez weryfikacji wcześniejszego szkolenia ADR"
+          "A": "Pominąć je, bo podobne stanowisko potwierdza wymagane szkolenie",
+          "B": "Zweryfikować je przy podejmowaniu przez niego nowego zatrudnienia",
+          "C": "Przesłać je właściwej władzy do zatwierdzenia przed pierwszym dniem pracy"
         },
         "correct_option": "B",
-        "explanation": "Przed przydzieleniem nowemu pracownikowi zadań objętych szkoleniem ADR trzeba sprawdzić dokumentację wcześniejszego szkolenia i ustalić, czy odpowiada nowym obowiązkom. Sama nazwa stanowiska ani świadectwo szkolne nie potwierdzają szkolenia z przewozu towarów niebezpiecznych. Jeśli są braki, pracownik powinien otrzymać wymagane przeszkolenie przed wykonywaniem tych zadań. Podstawa: ADR 1.3.3.",
+        "explanation": "Według 1.3.3 dokumenty potwierdzające szkolenia z działu 1.3 powinny być weryfikowane przy podejmowaniu nowego zatrudnienia. Nowy pracodawca sprawdza więc, jakie szkolenia pracownik naprawdę przeszedł i czy odpowiadają jego nowym obowiązkom. Podobna nazwa stanowiska niczego nie potwierdza, a ADR nie wymaga zatwierdzania tych dokumentów przez właściwą władzę. Jeśli czegoś brakuje, pracownik może do czasu szkolenia wykonywać te czynności pod bezpośrednim nadzorem osoby przeszkolonej. Podstawa: ADR 1.3.3 i 1.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.3.3",
+            "reference": "ADR 2025, 1.3.3; 1.3.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,14 +102,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pracownik terminalu obsługuje drogowo-morski łańcuch transportowy z towarami niebezpiecznymi. Jakie szkolenie, dostosowane do jego zadań, może być potrzebne w związku z innymi gałęziami transportu?",
+        "stem": "Pracownik terminalu przygotowuje do przewozu kontenery z towarami niebezpiecznymi, które po odcinku drogowym popłyną statkiem. Co według 1.3.2.2 powinno obejmować jego szkolenie stanowiskowe?",
         "options": {
-          "A": "Szkolenie obejmuje wyłącznie drogowy odcinek, bez operacji przeładunkowych",
-          "B": "Wystarczy szkolenie z dokumentacji magazynowej, bez wymagań innych gałęzi transportu",
-          "C": "Szkolenie powinno uwzględniać wymagania właściwe dla pozostałych gałęzi transportu"
+          "A": "Same przepisy ADR, bo pracuje on przy drogowym odcinku całego tego przewozu",
+          "B": "Ogólne zasady pracy magazynu, bez przepisów o towarach niebezpiecznych",
+          "C": "Również wymagania transportu morskiego, bo ten przewóz jest kombinowany"
         },
         "correct_option": "C",
-        "explanation": "Pracownik terminalu może wykonywać nie tylko przeładunek, ale też czynności związane z kolejnym etapem morskim lub inną gałęzią transportu. Dlatego szkolenie powinno obejmować wymagania tych gałęzi, które dotyczą jego rzeczywistych zadań. Samo szkolenie drogowe albo ogólne magazynowe może nie przygotować go do wszystkich czynności. Podstawa: ADR 1.3.2.2.",
+        "explanation": "Według 1.3.2.2 szkolenie stanowiskowe ma ściśle odpowiadać odpowiedzialności i obowiązkom pracownika. Ten sam punkt dodaje, że gdy przewóz towarów niebezpiecznych jest związany z przewozem kombinowanym, pracownicy powinni znać wymagania dotyczące innych rodzajów transportu. Pracownik terminalu przygotowuje kontenery, które popłyną statkiem, więc potrzebuje także wiedzy o wymaganiach przewozu morskiego. Szkolenie z samych zasad pracy magazynu nie spełnia wymagań działu 1.3. Podstawa: ADR 1.3.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -144,18 +144,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W dokumencie przewozowym kierowca widzi klasę zagrożenia głównego, ale towar ma też nalepkę zagrożenia dodatkowego wskazaną w tabeli A. Jak zapisać numer tego zagrożenia dodatkowego?",
+        "stem": "Metanol UN 1230 ma w kolumnie (5) tabeli A numery nalepek 3 i 6.1. Jak według 5.4.1.1.1 (c) zapisać te numery w dokumencie przewozowym?",
         "options": {
-          "A": "Numer nalepki zagrożenia dodatkowego należy podać w nawiasie przy opisie towaru",
-          "B": "Wystarczy podać kolor nalepki dodatkowej i nazwę handlową, bez numeru zagrożenia",
-          "C": "Numer zagrożenia dodatkowego zastępuje numer klasy głównej i usuwa go z opisu"
+          "A": "3 (6.1), czyli kolejny numer nalepki w nawiasie po pierwszym",
+          "B": "6.1 (3), bo w nawiasie podaje się nalepkę zagrożenia głównego",
+          "C": "Sam numer 3, bo w dokumencie podaje się jedną klasę towaru"
         },
         "correct_option": "A",
-        "explanation": "W opisie przewozowym trzeba podać numer nalepki odpowiadający zagrożeniu dodatkowemu w nawiasach, gdy ADR wymaga tej informacji. Sam kolor nalepki nie wskazuje precyzyjnie, jakie zagrożenie opisano, a zastąpienie nim klasy głównej pomija ważną część informacji o towarze. Sprawdź wpis w tabeli A i uwzględnij oba wymagane oznaczenia. Podstawa: ADR 5.4.1.1.1(c).",
+        "explanation": "Według 5.4.1.1.1 (c) w dokumencie przewozowym podaje się numery wzorów nalepek z kolumny (5) tabeli A. Jeżeli jest więcej niż jeden numer, to numery następujące po pierwszym wpisuje się w nawiasach. Dla metanolu UN 1230 zapis ma więc postać 3 (6.1), co pokazuje zagrożenie zapalne i dodatkowe działanie trujące. Pominięcie numeru 6.1 ukryłoby przed kierowcą i ratownikami, że ta ciecz jest też trująca. Podstawa: ADR 5.4.1.1.1 (c) i dział 3.2, tabela A (UN 1230).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(c)",
+            "reference": "ADR 2025, 5.4.1.1.1 (c); 3.2 tabela A (UN 1230)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -185,18 +185,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Dla przewożonego towaru tabela A podaje grupę pakowania II. Kierowca sprawdza opis towaru w dokumencie przewozowym. Jak powinna być uwzględniona ta informacja?",
+        "stem": "Nadawca wpisał w opisie towaru w dokumencie przewozowym „PG II” zamiast samego „II”. Kierowca uważa, że to błąd. Czy według 5.4.1.1.1 (d) taki zapis jest dopuszczalny?",
         "options": {
-          "A": "Zastąpić grupę pakowania II numerem rejestracyjnym pojazdu w dokumencie",
-          "B": "Uwzględnić grupę pakowania II w wymaganym opisie przewożonego towaru",
-          "C": "Wpisać grupę pakowania wyłącznie do instrukcji pisemnych załogi"
+          "A": "Nie, grupę pakowania wpisuje się samą cyfrą rzymską",
+          "B": "Tak, grupa pakowania może być poprzedzona literami „PG”",
+          "C": "Nie, litery „PG” oznaczają kod tunelowy, a nie grupę pakowania"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli tabela A przypisuje towarowi grupę pakowania II, tę informację trzeba umieścić w wymaganym opisie towaru w dokumencie przewozowym. Grupa pakowania informuje o stopniu zagrożenia, a numer rejestracyjny pojazdu opisuje pojazd, więc nie może jej zastąpić. Nie wystarczy też wpisać jej wyłącznie do instrukcji załogi: sprawdź dokument przewozowy przed odjazdem. Podstawa: ADR 5.4.1.1.1(d).",
+        "explanation": "Według 5.4.1.1.1 (d) dokument przewozowy zawiera grupę pakowania, jeżeli przypisano ją do danego materiału. Przepis pozwala poprzedzić ją literami „PG” albo literami oznaczającymi grupę pakowania w użytym języku, po polsku na przykład „GP”. Zapis „PG II” jest więc poprawny i oznacza drugą grupę pakowania, czyli średni stopień zagrożenia. Kod ograniczeń przewozu przez tunele podaje się osobno, w nawiasie i wielkimi literami. Podstawa: ADR 5.4.1.1.1 (d) i (k).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(d)",
+            "reference": "ADR 2025, 5.4.1.1.1 (d); 5.4.1.1.1 (k)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Nowy pracownik terminalu zaczyna obsługiwać dokumenty towarów niebezpiecznych. Nie odbył jeszcze szkolenia ADR odpowiedniego do swoich obowiązków. Jak może wykonywać te zadania do czasu wymaganego przeszkolenia?",
+        "stem": "Firma zatrudnia kierowcę, który będzie prowadzić pojazd z tablicami pomarańczowymi na pełnych zasadach ADR. Kierownik chce mu dać jedynie wewnętrzne szkolenie stanowiskowe z działu 1.3. Co wynika z uwagi do 1.3.1?",
         "options": {
-          "A": "Może pracować samodzielnie, jeśli wcześniej obsługiwał magazyn z towarami zwykłymi i dokumentacją",
-          "B": "Może wykonywać te czynności wyłącznie pod bezpośrednim nadzorem osoby przeszkolonej",
-          "C": "Może działać bez nadzoru, gdy kierowca przynosi dokumenty i zapewnia, że są poprawne"
+          "A": "Wystarczy szkolenie z 1.3, jeśli obejmuje zadania kierowcy na tej trasie",
+          "B": "Szkolenie kierowcy reguluje dział 8.2, z kursem i z zaświadczeniem ADR",
+          "C": "Wystarczy szkolenie z 1.3, jeśli kierowca zda test u pracodawcy"
         },
         "correct_option": "B",
-        "explanation": "Osoba, która nie ukończyła szkolenia ADR odpowiedniego do wykonywanych zadań, może je wykonywać tylko pod bezpośrednim nadzorem osoby przeszkolonej. Doświadczenie w zwykłym magazynie nie zastępuje znajomości wymagań i zagrożeń związanych z towarami niebezpiecznymi. Zapewnienie kierowcy, że dokumenty są poprawne, również nie zastępuje nadzoru. Podstawa: ADR 1.3.1.",
+        "explanation": "Dział 1.3 opisuje szkolenie osób, których obowiązki dotyczą przewozu towarów niebezpiecznych, na przykład pracowników nadawcy lub załadowcy. Uwaga 2 do 1.3.1 mówi jednak, że dla szkolenia załogi pojazdu stosuje się dział 8.2 zamiast tego rozdziału. Według 8.2.1.1 kierowca pojazdu przewożącego towary niebezpieczne musi mieć zaświadczenie wydane przez właściwą władzę po kursie i zdanym egzaminie. Wewnętrzne szkolenie ani test u pracodawcy nie zastąpią tego zaświadczenia. Podstawa: ADR 1.3.1 (uwaga 2) i 8.2.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.3.1",
+            "reference": "ADR 2025, 1.3.1 (UWAGA 2); 8.2.1.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po rozładunku ADR załadowca odkrywa, że z jednej sztuki przesyłki wyciekła niebezpieczna ciecz na podłogę kontenera. Planowany jest kolejny załadunek. Kiedy kontener może zostać ponownie załadowany?",
+        "stem": "Po rozładunku szczelnych, nieuszkodzonych beczek z farbą klasy 3 kierowca nie widzi w skrzyni śladów wycieku. Magazynier twierdzi, że według 7.5.8.1 skrzynię i tak trzeba umyć przed kolejnym załadunkiem. Czy ma rację?",
         "options": {
-          "A": "Oczyścić kontener z pozostałości przed kolejnym załadunkiem",
-          "B": "Ustawić czyste opakowania nad plamą, jeśli wyciek już nie kapie z przesyłki",
-          "C": "Pozostawić plamę do końca kolejnego przewozu, o ile odnotowano ją w dokumentach"
+          "A": "Nie, ten obowiązek powstaje, gdy z przesyłek wydostała się część zawartości",
+          "B": "Tak, po przewozie sztuk przesyłek ADR pojazd myje się bez względu na ich stan",
+          "C": "Tak, mycie jest potrzebne, gdy kolejny ładunek to inny towar niebezpieczny"
         },
         "correct_option": "A",
-        "explanation": "Przed ponownym załadunkiem kontener, w którym doszło do wycieku, trzeba oczyścić z niebezpiecznych pozostałości. Ułożenie nowych opakowań nad plamą nie usuwa substancji i może spowodować skażenie kolejnej przesyłki. Samo wpisanie zdarzenia do dokumentów też nie przywraca bezpiecznych warunków. Najpierw usuń zanieczyszczenie zgodnie z wymaganiami. Podstawa: ADR 7.5.8.1.",
+        "explanation": "Punkt 7.5.8.1 każe niezwłocznie oczyścić pojazd lub kontener po rozładunku sztuk przesyłek wtedy, gdy stwierdzono, że wydostała się część ich zawartości. Jeśli beczki były szczelne i w skrzyni nie ma śladów wycieku, ten przepis nie wymaga mycia przed kolejnym załadunkiem. Zasada zależna od tego, czy następny ładunek to ten sam towar, dotyczy przewozu luzem z 7.5.8.2, a nie sztuk przesyłek. Dlatego po rozładunku trzeba obejrzeć skrzynię, bo dopiero wtedy wiadomo, czy był wyciek. Podstawa: ADR 7.5.8.1 i 7.5.8.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.8.1",
+            "reference": "ADR 2025, 7.5.8.1; 7.5.8.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,14 +102,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W trakcie rozładunku sztuk przesyłek ADR pracownik prosi kierowcę o pozostawienie uruchomionego silnika dla ogrzania kabiny. Silnik nie napędza urządzenia rozładunkowego. Jak postąpić?",
+        "stem": "Beczki z pojazdu zdejmuje wózek widłowy magazynu. Jest mróz, więc kierowca chce, żeby silnik ciężarówki pracował przez cały rozładunek dla ogrzania kabiny. Czy według 8.3.6 może tak zrobić?",
         "options": {
-          "A": "Silnik może pracować, jeśli kabina wymaga ogrzewania podczas rozładunku",
-          "B": "Silnik może pracować, jeśli kierowca pozostaje w kabinie i nadzoruje operację",
-          "C": "Wyłączyć silnik, ponieważ nie napędza urządzeń używanych przy rozładunku"
+          "A": "Tak, bo ogrzewanie kabiny chroni zdrowie kierowcy podczas silnego mrozu",
+          "B": "Tak, jeśli kierowca siedzi w kabinie i może szybko wyłączyć silnik",
+          "C": "Nie, bo silnik nie napędza tu pomp ani innych urządzeń do rozładunku"
         },
         "correct_option": "C",
-        "explanation": "Podczas rozładunku silnik powinien być wyłączony, jeśli nie jest potrzebny do napędzania urządzeń używanych przy tej operacji i nie zachodzi dopuszczony wyjątek. Ogrzewanie kabiny ani pozostawanie kierowcy za kierownicą nie uzasadniają pracy silnika. Wyłącz go przed rozpoczęciem czynności, aby ograniczyć niepotrzebne źródła zagrożenia. Podstawa: ADR 8.3.6.",
+        "explanation": "Według 8.3.6 silnik pojazdu nie powinien pracować podczas załadunku i rozładunku. Wyjątek dotyczy sytuacji, gdy praca silnika jest niezbędna do napędu pomp lub innych urządzeń do załadunku albo rozładunku i zezwalają na to przepisy państwa, w którym stoi pojazd. Tu beczki zdejmuje wózek widłowy magazynu, więc silnik ciężarówki niczego nie napędza. Ogrzewanie kabiny ani obecność kierowcy za kierownicą nie są takim wyjątkiem, dlatego silnik trzeba wyłączyć. Podstawa: ADR 8.3.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -143,18 +143,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przed odjazdem kierowca odbiera od przewoźnika instrukcje pisemne ADR, ale nie zdążył zapoznać się z działaniami na wypadek awarii dotyczącej przewożonego towaru. Co powinien zrobić?",
+        "stem": "Przed wyjazdem kierowca zapoznaje się z ładunkiem i instrukcjami pisemnymi. Jego pomocnik mówi, że to obowiązek kierowcy, a on sam przeczyta instrukcje dopiero w razie wypadku. Czy pomocnik ma rację według 5.4.3.3?",
         "options": {
-          "A": "Przed odjazdem poznać właściwości towaru i przeczytać instrukcje, a wątpliwości wyjaśnić",
-          "B": "Zapoznać się z instrukcjami dopiero po pierwszym postoju, jeśli trasa jest krótka",
-          "C": "Poprosić dyspozytora o ustne streszczenie zamiast przeczytać instrukcje"
+          "A": "Nie, przed przewozem także pomocnik ma poznać ładunek i instrukcje",
+          "B": "Tak, za znajomość instrukcji pisemnych odpowiada osoba prowadząca pojazd",
+          "C": "Tak, pomocnik może przeczytać instrukcje, gdy dojdzie do zdarzenia"
         },
         "correct_option": "A",
-        "explanation": "Kierowca powinien poznać zagrożenia przewożonego ładunku i przeczytać instrukcje pisemne jeszcze przed odjazdem. Jeśli awaria wydarzy się na krótkiej trasie, odkładanie lektury do pierwszego postoju nie pomoże w bezpiecznej reakcji. Ustne streszczenie dyspozytora może pominąć ważne czynności i nie zastępuje instrukcji. Niejasności wyjaśnij przed ruszeniem. Podstawa: ADR 5.4.3.3.",
+        "explanation": "Według 5.4.3.3 przed rozpoczęciem przewozu członkowie załogi pojazdu powinni dowiedzieć się, jakie towary niebezpieczne są załadowane. Powinni też sprawdzić w instrukcjach pisemnych, jakie czynności trzeba podjąć w razie wypadku lub zagrożenia. Według definicji z 1.2.1 członkiem załogi jest kierowca i osoba, która mu towarzyszy, także przy czynnościach transportowych, więc obowiązek dotyczy również pomocnika. Czytanie instrukcji dopiero po wypadku jest spóźnione, bo wtedy liczy się szybka i pewna reakcja. Podstawa: ADR 5.4.3.3 i 1.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.3",
+            "reference": "ADR 2025, 5.4.3.3; 1.2.1 (członek załogi pojazdu)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -184,18 +184,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Załadowca dostaje do przewozu sztukę przesyłki ADR z pęknięciem opakowania i możliwością wydostania się zawartości. Nadawca prosi, aby mimo to przekazać ją przewoźnikowi. Jaką decyzję ma podjąć załadowca?",
+        "stem": "Załadowca nie wydał przewoźnikowi beczki z nieszczelnym korkiem. Nadawca przelał zawartość do nowej, nieuszkodzonej beczki właściwej dla tego towaru i prawidłowo ją oznakował. Czy załadowca może teraz wydać tę przesyłkę?",
         "options": {
-          "A": "Przekazać przesyłkę, jeśli kierowca obieca unikać gwałtownego hamowania",
-          "B": "Wstrzymać wydanie do naprawy uszkodzonego opakowania",
-          "C": "Przekazać przesyłkę po przykryciu pęknięcia folią transportową"
+          "A": "Nie, odrzuconą raz przesyłkę trzeba odesłać do producenta towaru",
+          "B": "Tak, zakaz trwa do usunięcia uszkodzenia, a nowa beczka jest cała",
+          "C": "Nie, ponowne wydanie wymaga zgody właściwej władzy na ten przewóz"
         },
         "correct_option": "B",
-        "explanation": "Załadowca powinien wstrzymać wydanie przesyłki, jeśli opakowanie jest pęknięte i zawartość może się wydostać. Obietnica ostrożnej jazdy nie usuwa uszkodzenia, a przykrycie pęknięcia zwykłą folią nie potwierdza, że opakowanie znów jest bezpieczne. Najpierw trzeba usunąć niezgodność, a dopiero potem przekazać przesyłkę do przewozu. Podstawa: ADR 1.4.3.1.1(b).",
+        "explanation": "Według 1.4.3.1.1 (b) załadowca sprawdza, czy opakowania nie są uszkodzone, i nie wydaje sztuki przesyłki z uszkodzonym opakowaniem, dopóki uszkodzenia nie zostaną usunięte. Zakaz dotyczy więc stanu opakowania, a nie samej przesyłki na stałe. Jeśli towar przelano do nowej, nieuszkodzonej beczki właściwej dla tego towaru i prawidłowo ją oznakowano, przyczyna zakazu zniknęła. Załadowca powinien jednak obejrzeć nowe opakowanie, zanim wyda je przewoźnikowi. Podstawa: ADR 1.4.3.1.1 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.3.1.1(b)",
+            "reference": "ADR 2025, 1.4.3.1.1 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -225,18 +225,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca kontroluje mocowanie palety ADR. Pas jest tak silnie napięty, że widocznie deformuje jedno z opakowań. Jak należy postąpić przed rozpoczęciem przewozu?",
+        "stem": "Kierownik magazynu chce nauczyć pracowników mocowania sztuk przesyłek ADR pasami, tak by ładunek się nie przesuwał, a opakowania nie były zgniatane. Na jakie wytyczne wskazuje przypis do 7.5.7.1?",
         "options": {
-          "A": "Pozostawić pas, jeśli opakowanie nie wykazuje wycieku, mimo widocznej deformacji",
-          "B": "Dociągnąć pas mocniej, aby wyeliminować przesunięcia, nawet jeśli opakowanie jest ściskane",
-          "C": "Poprawić mocowanie tak, by stabilizowało ładunek bez deformowania opakowań"
+          "A": "Na instrukcje pisemne dla załogi, które leżą w kabinie kierowcy pojazdu",
+          "B": "Na świadectwo dopuszczenia pojazdu wydane przez właściwą władzę",
+          "C": "Na Kodeks CTU i wytyczne Komisji Europejskiej o mocowaniu ładunków"
         },
         "correct_option": "C",
-        "explanation": "Pas mocujący ma utrzymać paletę na miejscu, ale nie może zgniatać opakowań z towarem niebezpiecznym. Widoczna deformacja oznacza, że nacisk jest niewłaściwy, nawet jeśli jeszcze nie ma wycieku; mocniejsze dociągnięcie tylko zwiększy ryzyko uszkodzenia. Popraw mocowanie tak, by ładunek był stabilny, a opakowania nie były ściskane. Podstawa: ADR 7.5.7.1.",
+        "explanation": "Punkt 7.5.7.1 wymaga, aby sztuki przesyłek były unieruchomione, a pasy nie były napięte tak mocno, by uszkodzić lub zdeformować opakowanie. Przypis do tego punktu wskazuje praktyczne wytyczne: Kodeks CTU wydany przez IMO, ILO i EKG ONZ oraz wytyczne Komisji Europejskiej o dobrej praktyce mocowania ładunków w transporcie drogowym. Instrukcje pisemne opisują postępowanie w razie wypadku, a świadectwo dopuszczenia dotyczy budowy pojazdu. Żaden z tych dokumentów nie uczy więc, jak mocować ładunek. Podstawa: ADR 7.5.7.1 i przypis do tego punktu.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.7.1",
+            "reference": "ADR 2025, 7.5.7.1 (przypis: Kodeks CTU, wytyczne Komisji Europejskiej)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -266,18 +266,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na parkingu przed rozpoczęciem dalszego przewozu ADR kontrolujący prosi obu członków załogi o okazanie dokumentu tożsamości ze zdjęciem. Drugi członek załogi ma tylko identyfikator bez fotografii. Co należy wyjaśnić?",
+        "stem": "Ciężarówka ze znakami LQ wiezie jedynie towary zapakowane w ilościach ograniczonych, spełniające przepisy działu 3.4. Pomocnik kierowcy nie ma przy sobie dokumentu ze zdjęciem. Czy wymaga go od niego 1.10.1.4?",
         "options": {
-          "A": "Sprawdzić, czy drugi członek załogi ma wymagany dokument tożsamości ze zdjęciem",
-          "B": "Uznać identyfikator bez zdjęcia, ponieważ prowadzący pojazd ma ważny paszport ze zdjęciem",
-          "C": "Zastąpić dokument bez fotografii zapisanym numerem telefonu i ustnym potwierdzeniem danych pracownika"
+          "A": "Nie, przy takim przewozie LQ nie stosuje się przepisów działu 1.10",
+          "B": "Tak, bo znaki LQ na pojeździe oznaczają przewóz na pełnych zasadach ADR",
+          "C": "Tak, ale dopiero gdy przesyłki LQ ważą brutto ponad 8 ton"
         },
         "correct_option": "A",
-        "explanation": "Podczas kontroli każdy członek załogi objęty wymaganiem ADR musi sam okazać dokument tożsamości ze zdjęciem. Paszport kierowcy potwierdza tylko jego dane, dlatego nie zastępuje dokumentu drugiej osoby. Numer telefonu ani ustne podanie nazwiska nie pozwalają sprawdzić twarzy z dokumentem. Brak wymaganej fotografii wyjaśnij przed dalszym przewozem. Podstawa: ADR 1.10.1.4.",
+        "explanation": "Według 3.4.1 towary zapakowane w ilościach ograniczonych, które spełniają przepisy działu 3.4, podlegają tylko wymienionym tam przepisom ADR. W części 1 ta lista obejmuje działy od 1.1 do 1.6 oraz 1.8 i 1.9, ale nie dział 1.10 o ochronie, z którego pochodzi wymóg dokumentu ze zdjęciem. Znaki LQ i masa ładunku wpływają na oznakowanie pojazdu i przejazd przez tunele, ale nie włączają działu 1.10. Dokument tożsamości i tak warto mieć, bo mogą go wymagać inne przepisy. Podstawa: ADR 3.4.1 (a) i 1.10.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.10.1.4",
+            "reference": "ADR 2025, 3.4.1 (a); 1.10.1.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
