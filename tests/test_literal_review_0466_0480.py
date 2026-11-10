@@ -11,7 +11,7 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 COMPETENCIES = ROOT / "podstawowy" / "kompetencje.json"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0466-0480.json"
 FIRST_PASS_BANK_SHA = "e560a3892b2b76217bf4ff9a977a1a4c2771eff8"
-EXPECTED_BANK_SHA = "e0c671756644994d18480feae5c08bc70ee0ffbd"
+EXPECTED_BANK_SHA = "73aa25f2ae5fed6f40b1948dfb917f082c08b58e"
 EXPECTED_IDS = [f"ADR-B-{number:04d}" for number in range(466, 481)]
 EXPECTED_PAGES = {
     "ADR-B-0466": "966",
