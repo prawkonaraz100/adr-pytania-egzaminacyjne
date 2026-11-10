@@ -151,12 +151,17 @@ Na koniec omów pytania `ADR-B-0001`, `ADR-B-0002`, `ADR-B-0003`, `ADR-B-0259`, 
 
 ### Zadanie: czy firma może skorzystać z 1.1.3.1(c)?
 
-Przedstaw sytuację firmy serwisowej, która wiezie 300 l towaru na budowę do naprawy własnego urządzenia. Poproś kursanta, aby sprawdził: czy przewóz jest pomocniczy wobec głównej działalności, czy nie służy zaopatrzeniu ani dystrybucji, czy opakowanie nie przekracza 450 l, czy łączna ilość mieści się w 1.1.3.6, czy opakowanie chroni przed wyciekiem i czy towar nie należy do klasy 7. Następnie zmień jeden warunek (np. przewóz ma służyć dostawie towaru klientom) i zapytaj, czy wyłączenie nadal działa. Kryterium: kursant nie uznaje samej granicy 450 l za wystarczającą. Powiązane pytanie: ADR-B-0656 (needs_review). Podstawa: ADR 1.1.3.1(c) i 1.1.3.6.
+Przedstaw sytuację firmy serwisowej, która wiezie 300 l towaru na budowę do naprawy własnego urządzenia. Poproś kursanta, aby sprawdził: czy przewóz jest pomocniczy wobec głównej działalności, czy nie służy zaopatrzeniu ani dystrybucji, czy opakowanie nie przekracza 450 l, czy łączna ilość mieści się w 1.1.3.6, czy opakowanie chroni przed wyciekiem i czy towar nie należy do klasy 7. Następnie zmień jeden warunek (np. przewóz ma służyć dostawie towaru klientom) i zapytaj, czy wyłączenie nadal działa. Kryterium: kursant nie uznaje samej granicy 450 l za wystarczającą. Powiązane pytanie: ADR-B-0720 (needs_review). Podstawa: ADR 1.1.3.1(c) i 1.1.3.6.
+
+
+### Zadanie: holowanie uszkodzonego pojazdu w akcji ratowniczej
+
+Przedstaw sytuację, w której straż pożarna w czasie akcji ratowniczej poleca pomocy drogowej odholować uszkodzoną ciężarówkę z beczkami ADR na pobliski bezpieczny plac i nadzoruje tę czynność. Poproś kursanta, aby ocenił, czy do tego holowania stosuje się ADR, a następnie zmień sytuację: po zakończeniu akcji przewoźnik wiezie te same beczki do odbiorcy. Kryterium: kursant wiąże wyłączenie z działaniami ratowniczymi i nadzorem właściwych władz, a nie z samym uszkodzeniem pojazdu. Powiązane pytanie: ADR-B-0656 (needs_review). Podstawa: ADR 1.1.3.1(d).
 
 
 ### Ćwiczenie: znajdź właściwy załącznik ADR
 
-Podaj kursantowi dwa zadania: sprawdzenie wymagań dotyczących opakowania i oznakowania przesyłki oraz sprawdzenie wymagań dotyczących wyposażenia pojazdu i załogi. Poproś, aby wskazał odpowiednio załącznik A lub B i uzasadnił wybór. Kryterium: kursant nie myli wymagań dotyczących towaru z wymaganiami dotyczącymi pojazdu i operacji transportowych. Powiązane pytanie: ADR-B-0659 (needs_review). Podstawa: art. 2 Umowy ADR; ADR 1.1.1.
+Podaj kursantowi dwa zadania: sprawdzenie wymagań dotyczących opakowania i oznakowania przesyłki oraz sprawdzenie wymagań dotyczących wyposażenia pojazdu i załogi. Poproś, aby wskazał odpowiednio załącznik A lub B i uzasadnił wybór. Kryterium: kursant nie myli wymagań dotyczących towaru z wymaganiami dotyczącymi pojazdu i operacji transportowych. Powiązane pytanie: ADR-B-0659 (needs_review). Podstawa: ADR 1.1.1, 1.1.2.1 i 1.1.2.3.
 
 
 ## Ćwiczenie — co tworzy jednostkę transportową? (ADR-B-0709)
