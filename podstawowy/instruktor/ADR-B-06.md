@@ -136,7 +136,7 @@ Pytania kontrolne: `ADR-B-0016`, `ADR-B-0017`, `ADR-B-0018`, `ADR-B-0507`, `ADR-
 
 
 ### Scenariusz SC-ADR-B-06, SC-ADR-B-06-02 i SC-ADR-B-06-03 — kontrola tablicy pomarańczowej
-Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, druga kod 80. Kursant ma zatrzymać wyjazd przy niezgodności i wyjaśnić, że cyfra 8 wskazuje działanie żrące, a kod należy czytać w całości. Pytania: ADR-B-0634–0637. Podstawy do sprawdzenia: ADR 5.3.2.2.1, 5.3.2.2.2 i 5.3.2.3.1.
+Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, druga kod 80. Kursant ma zatrzymać wyjazd przy niezgodności i wyjaśnić, że cyfra 8 wskazuje działanie żrące, a kod należy czytać w całości. Pytania: ADR-B-0634–0637. Podstawy do sprawdzenia: ADR 5.3.2.1.1, 5.3.2.2.1, 5.3.2.2.2, 5.3.2.3.1 i 5.3.2.3.2.
 
 
 ### Kontrola trwałości tablic pomarańczowych — ADR-B-0685
