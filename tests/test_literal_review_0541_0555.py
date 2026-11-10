@@ -61,7 +61,7 @@ EXPECTED_PAGES={
     ]
 }
 EXPECTED_COUNTS={"OK":7,"POPRAW":8,"BLOKUJ":0}
-def git_blob_sha(data): return hashlib.sha1(b"blob "+str(len(data)).encode("ascii")+b"\\0"+data).hexdigest()
+def git_blob_sha(data): return hashlib.sha1(b"blob "+str(len(data)).encode("ascii")+b"\0"+data).hexdigest()
 class Partia37LiteralReview(unittest.TestCase):
  def test_report_and_bank_unchanged(self):
   m=json.loads(MANIFEST.read_text(encoding="utf-8"))
