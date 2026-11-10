@@ -140,7 +140,7 @@ Pytania kontrolne: `ADR-B-0019`, `ADR-B-0020`, `ADR-B-0021`, `ADR-B-0369`, `ADR-
 
 **Pytanie kontrolne:** czy sam fakt, że kierowca wykonywał czynność, oznacza automatycznie, że kontrahent może dochodzić roszczenia wyłącznie od niego? Oczekiwana odpowiedź: nie; należy rozróżnić stronę umowy i zasady odpowiedzialności za osoby, którymi posługuje się dłużnik.
 
-**Powiązane pytanie kontrolne:** `ADR-B-0660` — odpowiedzialność przewoźnika za wykonanie umowy i działania osoby, którą posługuje się przy jej wykonaniu.
+**Powiązane pytania kontrolne:** `ADR-B-0713` — odpowiedzialność przewoźnika za wykonanie umowy; `ADR-B-0660` — przyczynienie się poszkodowanego do szkody i odpowiednie zmniejszenie odszkodowania (Kodeks cywilny art. 362).
 
 
 ### Ćwiczenie: wybór latarki podczas przewozu ADR

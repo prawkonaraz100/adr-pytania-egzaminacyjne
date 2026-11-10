@@ -153,7 +153,12 @@ Na koniec omów pytania `ADR-B-0004`, `ADR-B-0005`, `ADR-B-0006`, `ADR-B-0042`, 
 
 ### Zadanie: odczyt trzech pól tabeli A
 
-Na fikcyjnym wpisie pokaż kolumnę 3a = 3, kolumnę 4 = II oraz kolumnę 5 = 3 i 6.1. Poproś kursanta, aby oddzielnie wyjaśnił rodzaj zagrożenia, stopień zagrożenia i znaczenie obu nalepek. Następnie zapytaj, czy dwie nalepki oznaczają dwa towary (nie) i co powinien zrobić, gdy oznakowanie przesyłki nie zgadza się z dokumentami (wstrzymać czynność i wyjaśnić rozbieżność). Kryterium: nie utożsamia klasy z grupą pakowania i nie pomija zagrożenia dodatkowego. Podstawa do sprawdzenia: ADR 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1. Powiązane pytanie w banku: ADR-B-0655 (status needs_review).
+Na fikcyjnym wpisie pokaż kolumnę 3a = 3, kolumnę 4 = II oraz kolumnę 5 = 3 i 6.1. Poproś kursanta, aby oddzielnie wyjaśnił rodzaj zagrożenia, stopień zagrożenia i znaczenie obu nalepek. Następnie zapytaj, czy dwie nalepki oznaczają dwa towary (nie) i co powinien zrobić, gdy oznakowanie przesyłki nie zgadza się z dokumentami (wstrzymać czynność i wyjaśnić rozbieżność). Kryterium: nie utożsamia klasy z grupą pakowania i nie pomija zagrożenia dodatkowego. Podstawa do sprawdzenia: ADR 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1. Powiązane pytania w banku: ADR-B-0127, ADR-B-0128 i ADR-B-0610 (status needs_review).
+
+
+### Zadanie: grupa pakowania w kanistrze i w beczce
+
+Pokaż kursantowi wpis UN 2796 w tabeli A i zapytaj, jaką grupę pakowania ma ten kwas w kanistrze 10 l, a jaką w beczce 200 l. Kryterium: kursant odczytuje z kolumny (4) jedną grupę II i wyjaśnia, że grupa wynika ze stopnia zagrożenia materiału, a nie z wielkości opakowania. Powiązane pytanie: ADR-B-0655 (needs_review). Podstawa: ADR 2.1.1.3; 3.2.1, tabela A, kolumna (4).
 
 
 ### Zadanie: rozpoznanie gazu palnego 2.1

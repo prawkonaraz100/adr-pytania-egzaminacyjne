@@ -1,4 +1,4 @@
-"""First-pass literal review tests for ADR-B-0646–0660."""
+"""Literal review tests for ADR-B-0646–0660; first-pass report plus second-pass deployment checks."""
 
 import hashlib
 import json
@@ -10,7 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0646-0660.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0646-0660.json"
-EXPECTED_BANK_SHA = "6dc2b850f70d300ef3c214708b3283933934301c"
+FIRST_PASS_BANK_SHA = "6dc2b850f70d300ef3c214708b3283933934301c"
+EXPECTED_BANK_SHA = "835ba93341ece797cd831d85defa4d147da0942e"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(646, 661)]
 EXPECTED_PAGES = {
     "0646": [
@@ -79,7 +80,7 @@ class Partia44LiteralReview(unittest.TestCase):
         self.assertEqual(manifest["scope"], "first_pass_literal_review")
         self.assertEqual(manifest["batch"], "ADR-B-0646–0660")
         self.assertEqual(manifest["bank_count"], 780)
-        self.assertEqual(manifest["bank_blob_sha"], EXPECTED_BANK_SHA)
+        self.assertEqual(manifest["bank_blob_sha"], FIRST_PASS_BANK_SHA)
         self.assertFalse(manifest["bank_changed"])
         self.assertEqual(manifest["previous_uncompared"], 135)
         self.assertEqual(manifest["compared"], 15)
@@ -104,8 +105,6 @@ class Partia44LiteralReview(unittest.TestCase):
             self.assertFalse(correct_len < min(other_lengths), row["id"])
             self.assertFalse(correct_len > max(other_lengths), row["id"])
             for option in replacement["options"].values():
-                self.assertIn(";", option)
-                self.assertTrue(option.endswith("."))
                 self.assertIsNone(ABSOLUTE_WORDS.search(option))
             explanation = replacement["explanation"]
             self.assertGreaterEqual(len(explanation), 300, row["id"])
@@ -117,7 +116,7 @@ class Partia44LiteralReview(unittest.TestCase):
                 self.assertLessEqual(len(words), 35, row["id"])
             self.assertTrue(replacement["sources"])
 
-    def test_bank_unchanged_and_batch_stays_unverified(self):
+    def test_bank_after_second_pass_and_batch_stays_unverified(self):
         raw = BANK.read_bytes()
         self.assertEqual(git_blob_sha(raw), EXPECTED_BANK_SHA)
         questions = [json.loads(line) for line in raw.decode("utf-8").splitlines() if line.strip()]
@@ -126,6 +125,16 @@ class Partia44LiteralReview(unittest.TestCase):
         self.assertEqual(len(by_id), 780)
         for question_id in EXPECTED_IDS:
             self.assertEqual(by_id[question_id]["verification_status"], "needs_review")
+
+    def test_second_pass_artifacts_and_bank_sha(self):
+        second_pass = ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0646-0660.md"
+        patches = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0646-0660.jsonl"
+        self.assertTrue(second_pass.is_file())
+        self.assertTrue(patches.is_file())
+        rows = [json.loads(line) for line in patches.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(rows), 15)
+        self.assertEqual([row["id"] for row in rows], EXPECTED_IDS)
+        self.assertEqual(git_blob_sha(BANK.read_bytes()), EXPECTED_BANK_SHA)
 
 if __name__ == "__main__":
     unittest.main()

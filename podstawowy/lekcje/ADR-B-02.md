@@ -328,7 +328,7 @@ Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw prz
 
 **Jak rozumować:** Działanie żrące To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
 
-**Sprawdź się:** `ADR-B-0005` i `ADR-B-0652`. **Podstawa do kontroli:** ADR 2.2.8.1.1.
+**Sprawdź się:** `ADR-B-0005` i `ADR-B-0652`. **Podstawa do kontroli:** ADR 2.2.8.1.1 i 2.2.8.1.4.1.
  
 ### Klasa 9 i 9A: różne zagrożenia (ADR-B-02-K13)
 
@@ -360,7 +360,12 @@ Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz n
 
 ### Łączne odczytanie klasy, grupy pakowania i nalepek
 
-Przykład szkoleniowy: w fikcyjnym wpisie tabeli A kolumna 3a wskazuje klasę 3, kolumna 4 — grupę pakowania II, a kolumna 5 — nalepki 3 i 6.1. To trzy różne informacje: klasa opisuje rodzaj zagrożenia, grupa pakowania jego stopień (jeśli ma zastosowanie), a nalepki wskazują wymagane oznaczenia zagrożeń. Dwie nalepki nie oznaczają automatycznie dwóch oddzielnych towarów. Kierowca powinien porównać wszystkie oznaczenia z przesyłką i dokumentami, a nie zastępować jednego pola innym. Podstawa: ADR 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1. Przykład ma charakter dydaktyczny, nie przypisuje tych danych do konkretnego numeru UN. Powiązane pytanie w banku: ADR-B-0655.
+Przykład szkoleniowy: w fikcyjnym wpisie tabeli A kolumna 3a wskazuje klasę 3, kolumna 4 — grupę pakowania II, a kolumna 5 — nalepki 3 i 6.1. To trzy różne informacje: klasa opisuje rodzaj zagrożenia, grupa pakowania jego stopień (jeśli ma zastosowanie), a nalepki wskazują wymagane oznaczenia zagrożeń. Dwie nalepki nie oznaczają automatycznie dwóch oddzielnych towarów. Kierowca powinien porównać wszystkie oznaczenia z przesyłką i dokumentami, a nie zastępować jednego pola innym. Podstawa: ADR 2.1.1.3; 3.2.1, tabela A, kolumny (3a)–(5); 5.2.2.1.1. Przykład ma charakter dydaktyczny, nie przypisuje tych danych do konkretnego numeru UN. Powiązane pytania w banku: ADR-B-0127, ADR-B-0128 i ADR-B-0610.
+
+
+### Grupa pakowania a wielkość opakowania
+
+Grupa pakowania zależy od stopnia zagrożenia stwarzanego przez materiał, a nie od wielkości opakowania. Dla UN 2796 kwasu siarkowego zawierającego nie więcej niż 51% kwasu tabela A podaje w kolumnie (4) jedną grupę pakowania: II. Ten sam kwas ma więc grupę II zarówno w kanistrze 10 l, jak i w beczce 200 l. Kierowca nie zmienia oceny zagrożenia z powodu samej pojemności opakowania. Powiązane pytanie: ADR-B-0655. Podstawa: ADR 2.1.1.3; 3.2.1, tabela A, kolumna (4).
 
 
 ### Klasa 2.1 — gazy palne
