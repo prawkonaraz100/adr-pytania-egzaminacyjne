@@ -9,7 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0481-0495.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0481-0495.json"
-EXPECTED_BANK_SHA = "ba829d36bc7e1c04aeab108d826bfae33938422f"
+FIRST_PASS_BANK_SHA = "ba829d36bc7e1c04aeab108d826bfae33938422f"
+EXPECTED_BANK_SHA = "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(481, 496)]
 EXPECTED_PAGES = {
     "ADR-B-0481": "59",
@@ -51,7 +52,7 @@ class Partia33LiteralReview(unittest.TestCase):
         self.assertEqual(manifest["scope"], "first_pass_literal_review")
         self.assertEqual(manifest["batch"], "ADR-B-0481–0495")
         self.assertEqual(manifest["bank_count"], 780)
-        self.assertEqual(manifest["bank_blob_sha"], EXPECTED_BANK_SHA)
+        self.assertEqual(manifest["bank_blob_sha"], FIRST_PASS_BANK_SHA)
         self.assertFalse(manifest["bank_changed"])
         self.assertEqual(manifest["previous_uncompared"], 300)
         self.assertEqual(manifest["compared"], 15)
