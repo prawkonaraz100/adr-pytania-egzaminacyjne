@@ -1,4 +1,4 @@
-"""First-pass literal review for ADR-B-0586–0600; report-only, bank unchanged."""
+"""First-pass report and second-pass deployment checks for ADR-B-0586–0600."""
 
 import hashlib
 import json
@@ -9,7 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0586-0600.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0586-0600.json"
-EXPECTED_BANK_SHA = "bcac6f69bcec5dd257832774e54922c7c2c47d97"
+FIRST_PASS_BANK_SHA = "bcac6f69bcec5dd257832774e54922c7c2c47d97"
+EXPECTED_BANK_SHA = "6147aeb45bf0efd1631ae17ce5e1d82357bffb0b"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(586, 601)]
 EXPECTED_PAGES = {
     "ADR-B-0586": [974], "ADR-B-0587": [974], "ADR-B-0588": [1324],
@@ -33,12 +34,14 @@ class Partia40LiteralReview(unittest.TestCase):
         self.assertEqual(manifest["scope"], "first_pass_literal_review")
         self.assertEqual(manifest["batch"], "ADR-B-0586–0600")
         self.assertEqual(manifest["bank_count"], 780)
-        self.assertEqual(manifest["bank_blob_sha"], EXPECTED_BANK_SHA)
+        self.assertEqual(manifest["bank_blob_sha"], FIRST_PASS_BANK_SHA)
         self.assertFalse(manifest["bank_changed"])
         self.assertEqual(manifest["previous_uncompared"], 195)
         self.assertEqual(manifest["compared"], 15)
         self.assertEqual(manifest["remaining_without_comparison"], 180)
         self.assertEqual(manifest["counts"], EXPECTED_COUNTS)
+        verdict_counts = {key: sum(row["verdict"] == key for row in manifest["records"]) for key in ("OK", "POPRAW", "BLOKUJ")}
+        self.assertEqual(verdict_counts, EXPECTED_COUNTS)
         self.assertEqual([row["id"] for row in manifest["records"]], EXPECTED_IDS)
         self.assertEqual({row["id"]: row["gazette_pages"] for row in manifest["records"]}, EXPECTED_PAGES)
         self.assertTrue(all(row["exact_quote"] and row["legal_basis"] and row["gazette_pages"] for row in manifest["records"]))
@@ -48,7 +51,7 @@ class Partia40LiteralReview(unittest.TestCase):
         self.assertEqual(manifest["duplicate_search"]["threshold_0_25_pairs"], 3)
         self.assertTrue(manifest["duplicate_search"]["manual_duplicate_pairs"])
 
-    def test_bank_unchanged_and_records_remain_unverified(self):
+    def test_bank_after_second_pass_and_records_remain_unverified(self):
         raw = BANK.read_bytes()
         self.assertEqual(git_blob_sha(raw), EXPECTED_BANK_SHA)
         questions = [json.loads(line) for line in raw.decode("utf-8").splitlines() if line.strip()]
@@ -62,3 +65,14 @@ class Partia40LiteralReview(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+    def test_second_pass_artifacts_and_bank_sha(self):
+        second_pass = ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0586-0600.md"
+        corrections = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0586-0600.jsonl"
+        self.assertTrue(second_pass.is_file())
+        lines = [line for line in corrections.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(lines), 15)
+        records = [json.loads(line) for line in lines]
+        self.assertEqual([row["id"] for row in records], EXPECTED_IDS)
+        self.assertEqual(git_blob_sha(BANK.read_bytes()), EXPECTED_BANK_SHA)
