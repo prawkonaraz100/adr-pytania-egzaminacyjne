@@ -1,4 +1,4 @@
-"""First-pass literal review tests for ADR-B-0601–0615; bank remains unchanged."""
+"""First-pass literal review tests for ADR-B-0601–0615; first-pass report plus second-pass deployment checks."""
 
 import hashlib
 import json
@@ -9,7 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0601-0615.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0601-0615.json"
-EXPECTED_BANK_SHA = "6147aeb45bf0efd1631ae17ce5e1d82357bffb0b"
+FIRST_PASS_BANK_SHA = "6147aeb45bf0efd1631ae17ce5e1d82357bffb0b"
+EXPECTED_BANK_SHA = "7c6b46d4134301f616cfc39d2b3e33e4318da428"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(601, 616)]
 EXPECTED_PAGES = {
     "ADR-B-0601": [29, 965], "ADR-B-0602": [1338, 1339],
@@ -33,7 +34,7 @@ class Partia41LiteralReview(unittest.TestCase):
         self.assertEqual(manifest["scope"], "first_pass_literal_review")
         self.assertEqual(manifest["batch"], "ADR-B-0601–0615")
         self.assertEqual(manifest["bank_count"], 780)
-        self.assertEqual(manifest["bank_blob_sha"], EXPECTED_BANK_SHA)
+        self.assertEqual(manifest["bank_blob_sha"], FIRST_PASS_BANK_SHA)
         self.assertFalse(manifest["bank_changed"])
         self.assertEqual(manifest["previous_uncompared"], 180)
         self.assertEqual(manifest["compared"], 15)
@@ -59,7 +60,7 @@ class Partia41LiteralReview(unittest.TestCase):
             if row["verdict"] == "POPRAW":
                 self.assertTrue(row.get("proposed_replacement"))
 
-    def test_bank_unchanged_and_batch_records_remain_unverified(self):
+    def test_bank_after_second_pass_and_batch_records_remain_unverified(self):
         raw = BANK.read_bytes()
         self.assertEqual(git_blob_sha(raw), EXPECTED_BANK_SHA)
         questions = [json.loads(line) for line in raw.decode("utf-8").splitlines() if line.strip()]
@@ -71,6 +72,17 @@ class Partia41LiteralReview(unittest.TestCase):
             self.assertIsNone(by_id[question_id]["checked_at"])
             self.assertIsNone(by_id[question_id]["reviewer"])
 
+
+
+    def test_second_pass_artifacts_and_bank_sha(self):
+        second_pass = ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0601-0615.md"
+        corrections = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0601-0615.jsonl"
+        self.assertTrue(second_pass.is_file())
+        lines = [line for line in corrections.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(lines), 15)
+        records = [json.loads(line) for line in lines]
+        self.assertEqual([row["id"] for row in records], EXPECTED_IDS)
+        self.assertEqual(git_blob_sha(BANK.read_bytes()), EXPECTED_BANK_SHA)
 
 if __name__ == "__main__":
     unittest.main()
