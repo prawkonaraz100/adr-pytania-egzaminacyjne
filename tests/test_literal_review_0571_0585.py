@@ -46,6 +46,8 @@ class Partia39LiteralReview(unittest.TestCase):
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in manifest["records"]))
         self.assertEqual(manifest["verified"], 0)
         self.assertTrue(manifest["duplicate_search"]["manual_duplicate_pairs"])
+        self.assertEqual(manifest["duplicate_search"]["threshold_0_45_pairs"], 0)
+        self.assertEqual(manifest["duplicate_search"]["threshold_0_25_pairs"], 5)
 
     def test_bank_is_unchanged_and_records_remain_unverified(self):
         raw = BANK.read_bytes()
