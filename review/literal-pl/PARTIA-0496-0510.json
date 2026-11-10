@@ -1,0 +1,411 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0496–0510",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642, polski tekst; cytaty porównano z brzmieniem przepisów, numery stron podano według drukowanej paginacji Dz.U.",
+  "bank_count": 780,
+  "bank_blob_sha": "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7",
+  "bank_changed": false,
+  "previous_uncompared": 285,
+  "compared": 15,
+  "remaining_without_comparison": 270,
+  "counts": {
+    "OK": 4,
+    "POPRAW": 11,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "porównanie pytań partii z całym bankiem, wyłącznie w obrębie tego samego modułu",
+    "method": "scripts/similarity.py: tokenizacja stemów, normalizacja NFKD i usunięcie znaków diakrytycznych, stoplista, Jaccard; kandydaci nie przesądzają o duplikacie",
+    "threshold_0_45_pairs": 2,
+    "threshold_0_25_pairs": 17,
+    "threshold_0_25_candidates": [
+      {
+        "ids": [
+          "ADR-B-0503",
+          "ADR-B-0217"
+        ],
+        "score": 0.462,
+        "assessment": "Podobny kontekst numeru rozpoznawczego; 0503 pyta o cyfrę 3 w numerze 30, a 0217 o specjalne znaczenie całego numeru 44. Różne fakty, nie duplikat."
+      },
+      {
+        "ids": [
+          "ADR-B-0505",
+          "ADR-B-0545"
+        ],
+        "score": 0.538,
+        "assessment": "Wspólny szablon pytania o cyfrę numeru zagrożenia; 0505 dotyczy cyfry 9, a 0545 cyfry 7. Różne znaczenia, nie duplikat."
+      },
+      {
+        "ids": [
+          "ADR-B-0503",
+          "ADR-B-0504"
+        ],
+        "score": 0.385,
+        "assessment": "Pytania o różne cyfry (3 i 5) i odrębne znaczenia ADR; powtarzalny szablon."
+      },
+      {
+        "ids": [
+          "ADR-B-0503",
+          "ADR-B-0505"
+        ],
+        "score": 0.333,
+        "assessment": "Pytania o różne cyfry (3 i 9); powtarzalny szablon, różne fakty."
+      },
+      {
+        "ids": [
+          "ADR-B-0503",
+          "ADR-B-0635"
+        ],
+        "score": 0.4,
+        "assessment": "0503 dotyczy znaczenia cyfry 3, a 0635 znaczenia powtórzenia cyfry; różne reguły."
+      },
+      {
+        "ids": [
+          "ADR-B-0503",
+          "ADR-B-0653"
+        ],
+        "score": 0.385,
+        "assessment": "0503 pyta o cyfrę 3, 0653 o specjalny numer 886; różne fakty."
+      },
+      {
+        "ids": [
+          "ADR-B-0505",
+          "ADR-B-0635"
+        ],
+        "score": 0.4,
+        "assessment": "0505 dotyczy znaczenia cyfry 9, a 0635 powtórzenia cyfry; różne reguły."
+      },
+      {
+        "ids": [
+          "ADR-B-0498",
+          "ADR-B-0126"
+        ],
+        "score": 0.25,
+        "assessment": "Oba pytania odwołują się do definicji podklas klasy 1, ale 0498 dotyczy podklasy 1.6, a 0126 podklasy 1.1; nie duplikat."
+      },
+      {
+        "ids": [
+          "ADR-B-0507",
+          "ADR-B-0298"
+        ],
+        "score": 0.25,
+        "assessment": "Oba pytania dotyczą tablicy pomarańczowej; 0507 sprawdza położenie numeru UN i numeru zagrożenia, 0298 interpretuje kod 85; nie duplikat."
+      },
+      {
+        "ids": [
+          "ADR-B-0503",
+          "ADR-B-0051"
+        ],
+        "score": 0.308,
+        "assessment": "0503 pyta o znaczenie cyfry 3, a 0051 o powtórzenie cyfry; różne zasady."
+      },
+      {
+        "ids": [
+          "ADR-B-0504",
+          "ADR-B-0053"
+        ],
+        "score": 0.25,
+        "assessment": "0504 pyta o cyfrę 5, a 0053 o cyfrę 8; różne znaczenia."
+      },
+      {
+        "ids": [
+          "ADR-B-0504",
+          "ADR-B-0217"
+        ],
+        "score": 0.308,
+        "assessment": "0504 pyta o cyfrę 5, a 0217 o specjalne znaczenie 44; różne fakty."
+      },
+      {
+        "ids": [
+          "ADR-B-0505",
+          "ADR-B-0543"
+        ],
+        "score": 0.353,
+        "assessment": "0505 dotyczy cyfry 9, 0543 cyfry 2; różne znaczenia."
+      },
+      {
+        "ids": [
+          "ADR-B-0505",
+          "ADR-B-0653"
+        ],
+        "score": 0.286,
+        "assessment": "0505 pyta o cyfrę 9, a 0653 o numer 886; różne fakty."
+      },
+      {
+        "ids": [
+          "ADR-B-0503",
+          "ADR-B-0543"
+        ],
+        "score": 0.278,
+        "assessment": "0503 pyta o cyfrę 3, 0543 o cyfrę 2; różne znaczenia."
+      },
+      {
+        "ids": [
+          "ADR-B-0503",
+          "ADR-B-0545"
+        ],
+        "score": 0.333,
+        "assessment": "0503 pyta o cyfrę 3, 0545 o cyfrę 7; różne znaczenia."
+      },
+      {
+        "ids": [
+          "ADR-B-0505",
+          "ADR-B-0217"
+        ],
+        "score": 0.267,
+        "assessment": "0505 dotyczy cyfry 9, a 0217 specjalnego znaczenia numeru 44; różne fakty."
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0496",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 2.2.1.1.5, podklasa 1.3",
+      "gazette_page": 129,
+      "exact_quote": "„Materiały i przedmioty stwarzające zagrożenie pożarem i małe zagrożenie wybuchem lub rozrzutem lub oba te zagrożenia, ale które nie stwarzają zagrożenia wybuchem masowym”",
+      "finding": "Klucz C odpowiada definicji podklasy 1.3. Opcje są wyrównane (68–71 znaków), ale odpowiedź C ma 68 znaków i mieści się w limicie. Weryfikacja prawna bez zastrzeżeń; nie znaleziono duplikatu merytorycznego.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        129
+      ]
+    },
+    {
+      "id": "ADR-B-0497",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.1.1.5, podklasa 1.5",
+      "gazette_page": 129,
+      "exact_quote": "„Materiały bardzo mało wrażliwe stwarzające zagrożenie wybuchem masowym”",
+      "finding": "Klucz C jest zgodny z definicją: bardzo mała wrażliwość nie usuwa zagrożenia wybuchem masowym. Odpowiedź C ma 84 znaki i jest jedyną najdłuższą; przekracza przyjęty limit 80 znaków. Wyrównać odpowiedzi bez zmiany klucza.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        129
+      ]
+    },
+    {
+      "id": "ADR-B-0498",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 2.2.1.1.5, podklasa 1.6",
+      "gazette_page": 129,
+      "exact_quote": "„Przedmioty skrajnie niewrażliwe, które nie stwarzają zagrożenia wybuchem masowym”",
+      "finding": "Klucz A jest zgodny z definicją podklasy 1.6. Wszystkie odpowiedzi mieszczą się w limicie 80 znaków i mają zbliżoną długość; nie stwierdzono duplikatu merytorycznego. Niski wynik podobieństwa z 0126 wynika z równoległego odwołania do definicji podklas klasy 1, lecz pytania dotyczą różnych podklas.",
+      "duplicate_candidates": [
+        "ADR-B-0126"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        129
+      ]
+    },
+    {
+      "id": "ADR-B-0499",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 2.2.9.1.7.2",
+      "gazette_page": 275,
+      "exact_quote": "„powinny mieć przypisane numery UN 3551 lub 3552, stosownie do sytuacji”",
+      "finding": "Klucz C prawidłowo rozróżnia baterie sodowo-jonowe przewożone samodzielnie (UN 3551) oraz zawarte w urządzeniu lub zapakowane z urządzeniem (UN 3552). Pytanie oddaje zakres przepisu i nie wprowadza bezwarunkowego przypisania numeru. Odpowiedzi mają zbliżoną długość.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        275
+      ]
+    },
+    {
+      "id": "ADR-B-0500",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 2.2.9.1.7.2(a), uwaga",
+      "gazette_page": 275,
+      "exact_quote": "„Każde ogniwo lub bateria jest zgodna z typem, co do którego wykazano, że spełnia on wymogi obowiązujących badań określonych w Podręczniku Badań i Kryteriów, Część III, dział 38.3”; „niezależnie od tego, czy ogniwa, z których baterie te się składają są badanego typu”",
+      "finding": "Klucz C prawidłowo oddaje wymóg badania typu całej baterii; sama zgodność ogniw nie zastępuje wykazania zgodności typu baterii. Odpowiedzi mają zbliżoną długość, a pytanie bada odrębny warunek z 2.2.9.1.7.2(a).",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        275
+      ]
+    },
+    {
+      "id": "ADR-B-0501",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.9.1.7.2(c)",
+      "gazette_page": 275,
+      "exact_quote": "„Każde ogniwo i bateria jest wyposażone w skuteczny sposób zapobiegania zewnętrznym zwarciom”",
+      "finding": "Klucz A jest zgodny z warunkiem ADR. Dystraktor B ma 105 znaków, przekracza limit 80 i jest znacznie dłuższy od pozostałych odpowiedzi (71 i 78 znaków). Skrócić dystraktor bez zmiany klucza.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        275
+      ]
+    },
+    {
+      "id": "ADR-B-0502",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.9.1.7.2(d)",
+      "gazette_page": 275,
+      "exact_quote": "„Każda bateria zawierająca ogniwa lub serie ogniw połączonych równolegle jest wyposażona w skuteczny środek niezbędny do zapobiegania niebezpiecznemu wstecznemu przepływowi prądu”",
+      "finding": "Klucz C jest zgodny z wymogiem zabezpieczenia baterii z ogniwami połączonymi równolegle. Dystraktor B ma 88 znaków, przekracza limit 80 i jest wyraźnie dłuższy od odpowiedzi A i C. Skrócić go bez zmiany klucza.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        275
+      ]
+    },
+    {
+      "id": "ADR-B-0503",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.3.1",
+      "gazette_page": 957,
+      "exact_quote": "„3 zapalność materiałów ciekłych (pary) i gazów lub samozagrzewanie się materiałów ciekłych”",
+      "finding": "Klucz C oddaje znaczenie cyfry 3. Opcja A ma 97 znaków i przekracza limit 80; odpowiedź B ma tylko 26 znaków. Ponadto pytanie powiela format serii pytań o pojedyncze cyfry numeru rozpoznawczego, choć bada inny symbol. Wyrównać długości i rozważyć urozmaicenie formy.",
+      "duplicate_candidates": [
+        "ADR-B-0051",
+        "ADR-B-0217",
+        "ADR-B-0504",
+        "ADR-B-0505",
+        "ADR-B-0543",
+        "ADR-B-0545",
+        "ADR-B-0635",
+        "ADR-B-0653"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        957
+      ]
+    },
+    {
+      "id": "ADR-B-0504",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.3.1",
+      "gazette_page": 957,
+      "exact_quote": "„5 działanie utleniające (wzmagające palenie)”",
+      "finding": "Klucz B jest prawidłowy. Opcja A ma 93 znaki i przekracza limit 80, a opcja C ma 38 znaków; długości są wyraźnie nierówne. Pytanie należy do tej samej serii szablonowej co 0503, 0505 i 0506; zachować odrębny fakt, ale urozmaicić formę.",
+      "duplicate_candidates": [
+        "ADR-B-0053",
+        "ADR-B-0217",
+        "ADR-B-0503"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        957
+      ]
+    },
+    {
+      "id": "ADR-B-0505",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.3.1",
+      "gazette_page": 957,
+      "exact_quote": "„9 ryzyko samorzutnej i gwałtownej reakcji”",
+      "finding": "Klucz C jest zgodny z ADR. Opcja A ma 92 znaki i przekracza limit 80; odpowiedź B ma 28 znaków. Wykryto podobieństwo szablonu do 0545, ale 0545 pyta o cyfrę 7, a to pytanie o cyfrę 9 — inna treść prawna, nie duplikat merytoryczny.",
+      "duplicate_candidates": [
+        "ADR-B-0503",
+        "ADR-B-0543",
+        "ADR-B-0545",
+        "ADR-B-0635",
+        "ADR-B-0653"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        957
+      ]
+    },
+    {
+      "id": "ADR-B-0506",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.3.1",
+      "gazette_page": 957,
+      "exact_quote": "„6 działanie trujące lub ryzyko zakażenia”",
+      "finding": "Klucz C jest prawidłowy. Opcja A ma 91 znaków i przekracza limit 80, a B ma 26 znaków. Pytanie kontynuuje serię krótkich pytań o znaczenie pojedynczej cyfry; treść prawna jest odrębna, ale warto poprawić długości i zróżnicować konstrukcję.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        957
+      ]
+    },
+    {
+      "id": "ADR-B-0507",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.2.2",
+      "gazette_page": 956,
+      "exact_quote": "„Numer rozpoznawczy zagrożenia powinien znajdować się w górnej części tablicy, a numer UN w jej części dolnej”",
+      "finding": "Klucz B jest prawidłowy: górne pole zawiera numer rozpoznawczy zagrożenia, dolne numer UN. Opcja A ma 104 znaki i przekracza limit 80; odpowiedź C jest krótka (55 znaków). Podobieństwo z 0298 dotyczy wspólnego kontekstu tablicy pomarańczowej, ale pytania badają inne informacje.",
+      "duplicate_candidates": [
+        "ADR-B-0298"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        956
+      ]
+    },
+    {
+      "id": "ADR-B-0508",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(a)",
+      "gazette_page": 962,
+      "exact_quote": "„numer UN poprzedzony literami «UN»”",
+      "finding": "Klucz A jest zgodny z wymaganym zapisem numeru UN w dokumencie przewozowym. Poprawna odpowiedź ma 45 znaków wobec 76 i 69 w dystraktorach, przez co jest wyraźnie najkrótsza i może być rozpoznawana po długości. Wyrównać długości odpowiedzi bez zmiany klucza.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        962
+      ]
+    },
+    {
+      "id": "ADR-B-0509",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.1.5.2",
+      "gazette_page": 1325,
+      "exact_quote": "„klin pod koła, dla każdego pojazdu, o odpowiednim rozmiarze w stosunku do dopuszczalnej masy całkowitej pojazdu oraz średnicy jego kół”",
+      "finding": "Klucz C prawidłowo odzwierciedla wymóg klina dla każdego pojazdu, dobranego do jego dopuszczalnej masy całkowitej i średnicy kół. Opcja A ma 83 znaki i przekracza limit 80; odpowiedź C jest najkrótsza (75), ale różnica nie jest duża. Skrócić A i wyrównać opcje.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        1325
+      ]
+    },
+    {
+      "id": "ADR-B-0510",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.43.1.1",
+      "gazette_page": 187,
+      "exact_quote": "„materiały, które reagując z wodą wydzielają gazy palne mogące tworzyć z powietrzem mieszaniny wybuchowe”",
+      "finding": "Klucz A prawidłowo oddaje kryterium klasy 4.3. Wszystkie odpowiedzi przekraczają limit 80 znaków (85, 93 i 87); dystraktor B jest najdłuższy. Skrócić wszystkie opcje i zachować jednoznaczność warunku reakcji z wodą.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        187
+      ]
+    }
+  ]
+}
