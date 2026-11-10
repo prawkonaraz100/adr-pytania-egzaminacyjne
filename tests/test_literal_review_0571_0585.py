@@ -1,4 +1,4 @@
-"""First-pass literal review for ADR-B-0571–0585; report-only; bank must remain unchanged."""
+"""First-pass literal review for ADR-B-0571–0585; first-pass report plus second-pass deployment checks."""
 
 import hashlib
 import json
@@ -10,7 +10,7 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0571-0585.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0571-0585.json"
 FIRST_PASS_BANK_SHA = "b240a96d8c9d0bae561d132b0a6bc8f705ee7ca2"
-EXPECTED_BANK_SHA = "b240a96d8c9d0bae561d132b0a6bc8f705ee7ca2"
+EXPECTED_BANK_SHA = "bcac6f69bcec5dd257832774e54922c7c2c47d97"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(571, 586)]
 EXPECTED_PAGES = {
     "ADR-B-0571": [28], "ADR-B-0572": [690, 691, 692, 693],
@@ -49,7 +49,7 @@ class Partia39LiteralReview(unittest.TestCase):
         self.assertEqual(manifest["duplicate_search"]["threshold_0_45_pairs"], 0)
         self.assertEqual(manifest["duplicate_search"]["threshold_0_25_pairs"], 5)
 
-    def test_bank_is_unchanged_and_records_remain_unverified(self):
+    def test_bank_after_second_pass_and_records_remain_unverified(self):
         raw = BANK.read_bytes()
         self.assertEqual(git_blob_sha(raw), EXPECTED_BANK_SHA)
         questions = [json.loads(line) for line in raw.decode("utf-8").splitlines() if line.strip()]
@@ -59,6 +59,15 @@ class Partia39LiteralReview(unittest.TestCase):
             self.assertEqual(by_id[question_id]["verification_status"], "needs_review")
             self.assertIsNone(by_id[question_id]["checked_at"])
             self.assertIsNone(by_id[question_id]["reviewer"])
+
+
+    def test_second_pass_corrections_file(self):
+        corrections = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0571-0585.jsonl"
+        second_pass = ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0571-0585.md"
+        self.assertTrue(second_pass.is_file())
+        records = [json.loads(line) for line in corrections.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(records), 15)
+        self.assertEqual([row["id"] for row in records], EXPECTED_IDS)
 
 
 if __name__ == "__main__":

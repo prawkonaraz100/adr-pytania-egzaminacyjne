@@ -3,7 +3,7 @@
   "exam_type": "ADR_BASIC_PRACTICE_DRAFT",
   "publication_authorized": false,
   "seed": 2026102702,
-  "source_bank_head": "b240a96d8c9d0bae561d132b0a6bc8f705ee7ca2",
+  "source_bank_head": "bcac6f69bcec5dd257832774e54922c7c2c47d97",
   "question_count": 30,
   "pass_mark_correct": 20,
   "pass_mark_fraction": "2/3",
@@ -82,9 +82,9 @@
       "number": 8,
       "id": "ADR-B-0574",
       "correct_option": "B",
-      "explanation": "Jeżeli przewozisz towary z różnymi kodami tunelowymi, planując trasę dla całej jednostki transportowej, uwzględnij kod powodujący największe ograniczenia. Nie wybieraj kodu na podstawie masy towaru ani automatycznie litery E, bo inny kod może być bardziej restrykcyjny. Ustal kod mający zastosowanie do całego ładunku i dopiero wtedy wybierz trasę. Podstawa: ADR 8.6.3.2.",
+      "explanation": "Według 8.6.3.2, gdy w jednostce transportowej są towary z różnymi kodami tunelowymi, do całego ładunku stosuje się kod odpowiadający największym ograniczeniom. Po doładowaniu beczki w pojeździe są kody E i D, a kod D zakazuje przejazdu przez tunele kategorii D i E. Kod ocenia się dla ładunku, który jest w pojeździe w danej chwili, a miejsce beczki na skrzyni nic nie zmienia. Kierowca musi więc ominąć ten tunel. Podstawa: ADR 8.6.3.2 i 8.6.4.",
       "legal_basis": [
-        "ADR 2025, 8.6.3.2"
+        "ADR 2025, 8.6.3.2; 8.6.4 (kod D)"
       ],
       "lesson_path": "../lekcje/ADR-B-11.md"
     },
@@ -192,9 +192,9 @@
       "number": 19,
       "id": "ADR-B-0579",
       "correct_option": "A",
-      "explanation": "Dokument przewozowy ma pozwolić ustalić, kto nadał towar i komu należy go dostarczyć. Jeżeli nie zachodzi wyjątek ADR, brak adresu odbiorcy trzeba wyjaśnić i uzupełnić przed rozpoczęciem przewozu. Telefon kierowcy ani sam numer UN nie wskazują odbiorcy, a dane spedytora nie zastępują danych wymaganych dla tej pozycji. Podstawa: ADR 5.4.1.1.1(h).",
+      "explanation": "Według 5.4.1.1.1 (h) dokument przewozowy zawiera nazwę i adres odbiorcy, a gdy odbiorców jest kilku, to nazwy i adresy odbiorców. Wszyscy trzej odbiorcy byli znani przed wyjazdem, więc ich dane powinny być w dokumencie. Zapis „Sprzedaż obwoźna” dopuszcza się tylko dla odbiorców nieznanych w chwili rozpoczęcia przewozu i za zgodą właściwych władz państw, których dotyczy przewóz. Lista w telefonie kierowcy nie zastępuje danych w dokumencie. Podstawa: ADR 5.4.1.1.1 (h).",
       "legal_basis": [
-        "ADR 2025, 5.4.1.1.1(h)"
+        "ADR 2025, 5.4.1.1.1 (h)"
       ],
       "lesson_path": "../lekcje/ADR-B-13.md"
     },

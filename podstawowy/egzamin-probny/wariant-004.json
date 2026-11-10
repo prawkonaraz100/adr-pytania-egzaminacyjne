@@ -6,7 +6,7 @@
   "seed": 2026102704,
   "variant": 4,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "b240a96d8c9d0bae561d132b0a6bc8f705ee7ca2",
+  "source_bank_head": "bcac6f69bcec5dd257832774e54922c7c2c47d97",
   "excluded_question_ids": [
     "ADR-B-0004",
     "ADR-B-0008",
@@ -220,13 +220,14 @@
       "number": 9,
       "id": "ADR-B-0572",
       "module_id": "ADR-B-01",
-      "stem": "Magazyn przygotował 990 sztuk przesyłek EQ w jednym pojeździe. Co jeszcze należy ocenić oprócz liczby sztuk?",
+      "stem": "Ciężarówka wiezie 400 kartonów z farbą w ilościach wyłączonych (EQ). Kartony spełniają wymagania działu 3.5. Czy według 3.5.1.1 pojazd musi mieć tablice barwy pomarańczowej?",
       "options": {
-        "A": "Tylko jednakową masę wszystkich sztuk, ponieważ ograniczenie dotyczy masy",
-        "B": "Tablice przy każdej sztuce EQ",
-        "C": "Wymagane warunki pakowania, oznakowania oraz dokumentacji EQ"
+        "A": "Tak, bo farba klasy 3 wymaga tablic bez względu na sposób pakowania",
+        "B": "Tak, jeśli w pojeździe jest ponad 100 kartonów EQ",
+        "C": "Nie, ilości wyłączone zgodne z działem 3.5 nie wymagają tablic"
       },
-      "image": null
+      "image": null,
+      "lesson_path": "../lekcje/ADR-B-01.md"
     },
     {
       "number": 10,
