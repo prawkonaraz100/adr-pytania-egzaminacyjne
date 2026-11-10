@@ -56,24 +56,24 @@
     {
       "id": "ADR-B-0496",
       "order": 496,
-      "clause": "2.2.1.1.5, podklasa 1.3",
+      "clause": "ADR 2025, 2.2.1.1.5 (podklasa 1.3)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Zawsze wybuch masowy całego ładunku. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.1.1.5, podklasa 1.3. Wymaga niezależnego przeglądu."
+          "rationale": "Wybuch masowy obejmujący praktycznie cały ładunek to definicja podklasy 1.1."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Podklasa 1.3 nie wyklucza ryzyka wybuchu lub rozrzutu; oznacza je jako ograniczone, a nie nieistniejące."
+          "rationale": "Zagrożenie rozrzutem bez wybuchu masowego to definicja podklasy 1.2."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Podklasa 1.3 obejmuje przede wszystkim zagrożenie pożarem z ewentualnym niewielkim wybuchem lub rozrzutem, lecz nie masowym."
+          "rationale": "2.2.1.1.5: podklasa 1.3 – zagrożenie pożarem i małe zagrożenie wybuchem lub rozrzutem, bez wybuchu masowego."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę. Etap 4b: zamieniono pozycje A i C; klucz C, niezależna ocena nadal pending.",
+      "notes_on_conditions": "2.2.1.1.5 s. 129. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -81,18 +81,18 @@
       "question_snapshot": {
         "id": "ADR-B-0496",
         "module_id": "ADR-B-02",
-        "stem": "Materiał wybuchowy klasy 1 ma podklasę 1.3. Które połączenie zagrożeń odpowiada ADR?",
+        "stem": "W dokumencie przewozowym wpisano materiał wybuchowy z kodem klasyfikacyjnym 1.3G. Jakie zagrożenia opisuje podklasa 1.3 według definicji w 2.2.1.1.5?",
         "options": {
-          "A": "Podklasa 1.3 zawsze oznacza wybuch masowy całego ładunku podczas pożaru",
-          "B": "Pożar jest możliwy, ale nie ma ryzyka wybuchu ani rozrzutu materiału.",
-          "C": "Pożar z ograniczonym ryzykiem wybuchu/rozrzutu, bez wybuchu masowego"
+          "A": "Wybuch masowy, który praktycznie od razu obejmuje cały ładunek",
+          "B": "Zagrożenie rozrzutem odłamków na odległość, ale bez wybuchu masowego",
+          "C": "Pożar i małe zagrożenie wybuchem lub rozrzutem, bez wybuchu masowego"
         },
         "correct_option": "C",
-        "explanation": "Podklasa 1.3 oznacza, że głównym zagrożeniem jest pożar, któremu mogą towarzyszyć ograniczone skutki wybuchu lub rozrzutu, ale bez wybuchu masowego. Dlatego nie wolno zakładać, że cały ładunek musi wybuchnąć jednocześnie; błędne jest też twierdzenie, że nie ma żadnego ryzyka wybuchu ani rozrzutu. To rozróżnienie opisuje możliwe skutki zdarzenia, a nie brak niebezpieczeństwa. Podstawa: ADR 2.2.1.1.5, podklasa 1.3.",
+        "explanation": "Według 2.2.1.1.5 podklasa 1.3 obejmuje materiały i przedmioty, które stwarzają zagrożenie pożarem oraz małe zagrożenie wybuchem lub rozrzutem, ale nie wybuchem masowym. Chodzi na przykład o takie, które przy spalaniu wydzielają dużo ciepła promieniowania albo zapalają się jeden od drugiego. Wybuch masowy, który praktycznie natychmiast obejmuje cały ładunek, jest cechą podklasy 1.1. Samo zagrożenie rozrzutem bez wybuchu masowego opisuje podklasa 1.2. Podstawa: ADR 2.2.1.1.5 (podklasa 1.3).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.1.1.5, podklasa 1.3",
+            "reference": "ADR 2025, 2.2.1.1.5 (podklasa 1.3)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -103,24 +103,24 @@
     {
       "id": "ADR-B-0497",
       "order": 497,
-      "clause": "2.2.1.1.5, podklasa 1.5",
+      "clause": "ADR 2025, 2.2.1.1.5 (podklasa 1.5)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Tak, sama nazwa podklasy wyklucza wybuch masowy. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.1.1.5, podklasa 1.5. Wymaga niezależnego przeglądu."
+          "rationale": "2.2.1.1.5: podklasa 1.5 to materiały bardzo mało wrażliwe stwarzające zagrożenie wybuchem masowym."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Tak, materiał 1.5 jest zawsze klasą 9. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.1.1.5, podklasa 1.5. Wymaga niezależnego przeglądu."
+          "rationale": "Zagrożenie głównie pożarem z małym zagrożeniem wybuchem lub rozrzutem to podklasa 1.3."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawny wariant: odpowiedź na pytanie brzmi „Nie”. Podklasa 1.5 oznacza materiały bardzo mało wrażliwe, które nadal stwarzają zagrożenie wybuchem masowym; niska wrażliwość opisuje prawdopodobieństwo zainicjowania, nie brak skutków masowego wybuchu."
+          "rationale": "2.2.1.1.5: podklasa 1.5 – materiały bardzo mało wrażliwe stwarzające zagrożenie wybuchem masowym."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę.",
+      "notes_on_conditions": "2.2.1.1.5 s. 129. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -128,18 +128,18 @@
       "question_snapshot": {
         "id": "ADR-B-0497",
         "module_id": "ADR-B-02",
-        "stem": "Podklasa 1.5 obejmuje materiały wybuchowe o bardzo małej wrażliwości. Czy ich mała wrażliwość oznacza brak zagrożenia wybuchem masowym?",
+        "stem": "Kolega mówi, że materiały podklasy 1.5 są bardzo mało wrażliwe, więc gdy jednak wybuchną, wybuch nie obejmie całego ładunku naraz. Czy ma rację według 2.2.1.1.5?",
         "options": {
-          "A": "Tak; nazwa „bardzo mało wrażliwe” oznacza, że wybuch masowy jest niemożliwy",
-          "B": "Tak; każdy materiał podklasy 1.5 jest automatycznie klasyfikowany do klasy 9",
-          "C": "Nie; materiały 1.5 są mało wrażliwe, ale nadal stwarzają zagrożenie wybuchem masowym"
+          "A": "Tak, mała wrażliwość oznacza, że wybuch masowy jest tu niemożliwy",
+          "B": "Tak, materiały podklasy 1.5 stwarzają głównie zagrożenie pożarem",
+          "C": "Nie, materiały podklasy 1.5 stwarzają zagrożenie wybuchem masowym"
         },
         "correct_option": "C",
-        "explanation": "Materiały podklasy 1.5 są bardzo mało wrażliwe, czyli trudno doprowadzić je do wybuchu, ale nadal mogą wywołać wybuch obejmujący praktycznie całą ilość materiału. Mała wrażliwość nie oznacza więc braku zagrożenia ani przeniesienia do klasy 9. Trzeba odróżnić prawdopodobieństwo zainicjowania reakcji od skutków, jeśli już do niej dojdzie. Podstawa: ADR 2.2.1.1.5.",
+        "explanation": "Według 2.2.1.1.5 podklasa 1.5 obejmuje materiały bardzo mało wrażliwe, które stwarzają zagrożenie wybuchem masowym. Mała wrażliwość oznacza tylko, że w normalnych warunkach przewozu jest małe prawdopodobieństwo ich zainicjowania albo przejścia od palenia do detonacji. Jeśli jednak do wybuchu dojdzie, może on praktycznie natychmiast objąć cały ładunek. Zagrożenie głównie pożarem z małym zagrożeniem wybuchem lub rozrzutem opisuje podklasa 1.3. Podstawa: ADR 2.2.1.1.5 (podklasa 1.5).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.1.1.5, podklasa 1.5",
+            "reference": "ADR 2025, 2.2.1.1.5 (podklasa 1.5)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -152,24 +152,24 @@
     {
       "id": "ADR-B-0498",
       "order": 498,
-      "clause": "2.2.1.1.5, podklasa 1.6",
+      "clause": "ADR 2025, 2.2.1.1.5 (podklasa 1.6 i uwaga)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawna: podklasa 1.6 dotyczy skrajnie mało wrażliwych przedmiotów i nie przewiduje zagrożenia wybuchem masowym całego ładunku."
+          "rationale": "2.2.1.1.5: podklasa 1.6 bez wybuchu masowego; uwaga – zagrożenie ograniczone do wybuchu pojedynczego przedmiotu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędna: odwraca sens podklasy 1.6, przypisując jej dużą wrażliwość na wstrząs."
+          "rationale": "Podklasa 1.6 nie stwarza zagrożenia wybuchem masowym przy żadnym rodzaju bodźca."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędna: myli zagrożenie wybuchowe z utleniającym; klasa 5.1 dotyczy materiałów utleniających, a klasa 8 materiałów żrących."
+          "rationale": "Wybuch masowy obejmujący cały ładunek dotyczy podklas 1.1 i 1.5, nie 1.6."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę.",
+      "notes_on_conditions": "2.2.1.1.5 i uwaga s. 129.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -177,18 +177,18 @@
       "question_snapshot": {
         "id": "ADR-B-0498",
         "module_id": "ADR-B-02",
-        "stem": "Podklasa 1.6 dotyczy skrajnie mało wrażliwych przedmiotów wybuchowych. Jakie zagrożenie masowe określa definicja?",
+        "stem": "Przedmioty wybuchowe podklasy 1.6 zawierają głównie skrajnie niewrażliwe materiały. Jakie zagrożenie wybuchem wiąże się z nimi według 2.2.1.1.5 i uwagi do tej definicji?",
         "options": {
-          "A": "Podklasa 1.6 nie stwarza zagrożenia wybuchem masowym całego ładunku",
-          "B": "Podklasa 1.6 oznacza dużą wrażliwość na wstrząs, ale bez wybuchu masowego",
-          "C": "Podklasa 1.6 wskazuje głównie na zagrożenie utleniające, a nie wybuchowe"
+          "A": "Brak wybuchu masowego, a zagrożenie ogranicza się do jednego przedmiotu",
+          "B": "Wybuch masowy, ale jedynie po bardzo silnym uderzeniu w sztukę przesyłki",
+          "C": "Wybuch masowy, który praktycznie od razu obejmuje cały ładunek pojazdu"
         },
         "correct_option": "A",
-        "explanation": "Podklasa 1.6 obejmuje przedmioty wybuchowe skrajnie mało wrażliwe, dla których nie przewiduje się wybuchu masowego całego ładunku. Nie oznacza to jednak, że są całkowicie pozbawione zagrożenia. Nie należy mylić ich z materiałami łatwo reagującymi na wstrząs ani z materiałami utleniającymi klasy 5.1. Podstawa: ADR 2.2.1.1.5, podklasa 1.6.",
+        "explanation": "Według 2.2.1.1.5 podklasa 1.6 obejmuje przedmioty skrajnie niewrażliwe, które nie stwarzają zagrożenia wybuchem masowym. Zawierają one głównie skrajnie niewrażliwe materiały, więc prawdopodobieństwo przypadkowej inicjacji lub rozprzestrzenienia się wybuchu jest znikome. Uwaga do tej definicji dodaje, że zagrożenie ogranicza się do wybuchu pojedynczego przedmiotu. Wybuch masowy, który obejmuje praktycznie cały ładunek, jest cechą podklas 1.1 i 1.5. Podstawa: ADR 2.2.1.1.5 (podklasa 1.6 i uwaga).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.1.1.5, podklasa 1.6",
+            "reference": "ADR 2025, 2.2.1.1.5 (podklasa 1.6 i uwaga)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -199,24 +199,24 @@
     {
       "id": "ADR-B-0499",
       "order": 499,
-      "clause": "2.2.9.1.7.2; 2.2.9.3 UN 3551, 3552",
+      "clause": "ADR 2025, 2.2.9.1.7.2; 3.2 tabela A (UN 3551, UN 3552)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Obie zawsze UN 3090. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2; 2.2.9.3 UN 3551, 3552. Wymaga niezależnego przeglądu."
+          "rationale": "UN 3480 to baterie litowo-jonowe – baterie sodowo-jonowe mają UN 3551 lub 3552."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Obie zawsze UN 3082. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2; 2.2.9.3 UN 3551, 3552. Wymaga niezależnego przeglądu."
+          "rationale": "Numery zamienione – UN 3551 to same baterie, UN 3552 w urządzeniach lub z nimi."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR 2025 ustanawia osobne wpisy dla baterii sodowo-jonowych z elektrolitem organicznym i baterii zawartych w urządzeniu lub pakowanych z urządzeniem."
+          "rationale": "Tabela A: UN 3551 baterie sodowo-jonowe, UN 3552 w urządzeniach lub zapakowane z urządzeniami."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
+      "notes_on_conditions": "2.2.9.1.7.2 s. 275; tabela A UN 3551/3552 s. 621 (sprostowanie 1575 poprawia tylko „organiczny” przy UN 3551).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -224,18 +224,18 @@
       "question_snapshot": {
         "id": "ADR-B-0499",
         "module_id": "ADR-B-02",
-        "stem": "Bateria sodowo-jonowa z elektrolitem organicznym została umieszczona w urządzeniu, a inna identyczna bateria przewożona jest osobno. Które rozróżnienie UN wskazuje ADR 2025?",
+        "stem": "Firma wysyła baterie sodowo-jonowe z elektrolitem organicznym. Część jedzie w osobnych kartonach, a część jest zamontowana w urządzeniach. Jakie numery UN przewiduje dla nich ADR?",
         "options": {
-          "A": "Obie baterie mają zawsze numer UN 3090, niezależnie od sposobu pakowania",
-          "B": "Obie baterie mają zawsze numer UN 3082, bez względu na rodzaj elektrolitu",
-          "C": "UN 3551 osobno; UN 3552 w urządzeniu lub z nim, zgodnie z warunkami"
+          "A": "UN 3480 dla obu części, bo są to baterie jonowe do wielokrotnego ładowania",
+          "B": "UN 3552 dla baterii osobno, a UN 3551 dla baterii w urządzeniach",
+          "C": "UN 3551 dla baterii osobno, a UN 3552 dla baterii w urządzeniach"
         },
         "correct_option": "C",
-        "explanation": "Dla baterii sodowo-jonowej z elektrolitem organicznym numer UN zależy od sposobu przewozu. Bateria przewożona samodzielnie ma numer UN 3551, a umieszczona w urządzeniu lub pakowana z nim — UN 3552, jeśli spełniono warunki właściwego wpisu. Numery UN 3090 i 3082 dotyczą innych towarów, więc nie pasują do tych baterii. Podstawa: ADR 2.2.9.1.7.2 i tabela A, UN 3551–3552.",
+        "explanation": "Punkt 2.2.9.1.7.2 każe przypisać bateriom sodowo-jonowym numer UN 3551 lub 3552, stosownie do sytuacji. Według tabeli A UN 3551 to same baterie sodowo-jonowe, a UN 3552 to baterie sodowo-jonowe zawarte w urządzeniach lub zapakowane z urządzeniami. Numer UN 3480 dotyczy baterii litowo-jonowych, więc nie pasuje do baterii z jonami sodu. W jednym ładunku mogą więc być oba numery dla podobnych baterii. Podstawa: ADR 2.2.9.1.7.2 i dział 3.2, tabela A (UN 3551, UN 3552).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.9.1.7.2; 2.2.9.3 UN 3551, 3552",
+            "reference": "ADR 2025, 2.2.9.1.7.2; 3.2 tabela A (UN 3551, UN 3552)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -246,24 +246,24 @@
     {
       "id": "ADR-B-0500",
       "order": 500,
-      "clause": "2.2.9.1.7.2(a) i uwaga",
+      "clause": "ADR 2025, 2.2.9.1.13",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Tak, sprawdzenie jednego ogniwa zawsze zastępuje badanie baterii. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2(a) i uwaga. Wymaga niezależnego przeglądu."
+          "rationale": "2.2.9.1.13: próg 100 °C dotyczy materiałów ciekłych, dla stałych próg wynosi 240 °C."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Tak, ponieważ 38.3 dotyczy wyłącznie baterii litowych. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2(a) i uwaga. Wymaga niezależnego przeglądu."
+          "rationale": "2.2.9.1.13 podaje progi temperatury – 100 °C dla cieczy i 240 °C dla materiałów stałych."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR wskazuje, że wymagania badań typu baterii obowiązują niezależnie od badań ogniw, z których składa się bateria."
+          "rationale": "2.2.9.1.13: materiały stałe przewożone w temperaturze 240 °C lub wyższej – 200 °C nie spełnia definicji."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę.",
+      "notes_on_conditions": "2.2.9.1.13 i uwaga s. 290 (obraz strony PDF: „100 °C”, „240 °C”).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -271,18 +271,18 @@
       "question_snapshot": {
         "id": "ADR-B-0500",
         "module_id": "ADR-B-02",
-        "stem": "Producent ma nowy typ baterii sodowo-jonowej objętej 2.2.9.1.7.2. Czy wystarczy, że jej ogniwa spełniają badania 38.3, a typ całej baterii nie został poddany wymaganym badaniom?",
+        "stem": "Materiał stały, który nie spełnia kryteriów innych klas, jest nadawany do przewozu w temperaturze 200 °C. Czy według 2.2.9.1.13 jest to materiał o podwyższonej temperaturze?",
         "options": {
-          "A": "Tak; badanie jednego ogniwa zawsze zastępuje badania typu całej baterii",
-          "B": "Tak; wymagania 38.3 dotyczą wyłącznie baterii litowych, nie sodowo-jonowych",
-          "C": "Nie; typ baterii także musi spełniać właściwe wymagania badań 38.3"
+          "A": "Tak, bo próg 100 °C dotyczy zarówno materiałów ciekłych, jak też stałych",
+          "B": "Tak, bo materiał przewożony na gorąco należy do klasy 9 bez progu",
+          "C": "Nie, bo dla materiałów stałych próg wynosi dopiero 240 °C, a nie 100 °C"
         },
         "correct_option": "C",
-        "explanation": "Badania pojedynczych ogniw nie zastępują badań wymaganych dla typu całej baterii. Dlatego nowy typ baterii sodowo-jonowej również musi przejść właściwe badania 38.3 przed przewozem zgodnym z ADR. Nie można uznać testu ogniwa za wystarczający ani zakładać, że wymagania dotyczą wyłącznie baterii litowych. Podstawa: ADR 2.2.9.1.7.2(a) i uwaga.",
+        "explanation": "Według 2.2.9.1.13 materiałami o podwyższonej temperaturze są materiały ciekłe przewożone w temperaturze 100 °C lub wyższej. Dla materiałów stałych próg jest wyższy i wynosi 240 °C. Materiał stały w temperaturze 200 °C nie spełnia więc tej definicji, choć nadal jest bardzo gorący i może poparzyć. Uwaga do tego punktu dodaje, że do klasy 9 zalicza się je tylko wtedy, gdy nie spełniają kryteriów innej klasy. Podstawa: ADR 2.2.9.1.13.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.9.1.7.2(a) i uwaga",
+            "reference": "ADR 2025, 2.2.9.1.13 (materiały o podwyższonej temperaturze)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -293,24 +293,24 @@
     {
       "id": "ADR-B-0501",
       "order": 501,
-      "clause": "2.2.9.1.7.2(c)",
+      "clause": "ADR 2025, 2.2.9.1.4; 2.2.9.1.2 (M1)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Wymaganie ochrony przed zewnętrznym zwarciem dotyczy projektowanego typu ogniwa."
+          "rationale": "2.2.9.1.4: materiały groźne dla zdrowia przy wdychaniu drobnego pyłu obejmują azbest."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ograniczenie ryzyka uszkodzenia mechanicznego nie zastępuje odrębnej ochrony przed zewnętrznym zwarciem."
+          "rationale": "Dioksyny w razie pożaru to grupa M2 (PCB, PCT – 2.2.9.1.5), nie azbest."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Warunek nie jest ograniczony wyłącznie do ogniw litowych; pytanie dotyczy ogniwa sodowo-jonowego."
+          "rationale": "Pary palne wydzielają polimery z cieczą zapalną (M3, 2.2.9.1.6), nie azbest."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę.",
+      "notes_on_conditions": "2.2.9.1.2 i 2.2.9.1.4 s. 273.",
       "editorial_result": "distractors_and_explanation_revised_editorial_review_only_legal_approval_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -318,18 +318,18 @@
       "question_snapshot": {
         "id": "ADR-B-0501",
         "module_id": "ADR-B-02",
-        "stem": "Nowy projekt ogniwa sodowo-jonowego przewidziany do wpisu UN 3551 nie zapobiega zewnętrznemu zwarciu. Którego warunku 2.2.9.1.7.2 nie spełnia?",
+        "stem": "Firma budowlana oddaje do przewozu odpady zawierające azbest, zaliczone do klasy 9. Jakie zagrożenie z 2.2.9.1 uzasadnia zaliczenie azbestu do tej klasy?",
         "options": {
-          "A": "Typ ogniwa musi być skutecznie zabezpieczony przed zewnętrznym zwarciem",
-          "B": "Wystarczy ograniczyć ryzyko uszkodzenia mechanicznego; zewnętrznego zwarcia nie trzeba osobno uwzględniać",
-          "C": "Wymóg ochrony przed zwarciem dotyczy tylko ogniw litowych, nie sodowo-jonowych"
+          "A": "Wdychany w postaci drobnego pyłu azbest może zagrażać zdrowiu",
+          "B": "W razie pożaru azbest tworzy dioksyny groźne dla zdrowia ludzi",
+          "C": "Azbest wydziela pary palne, które mogą zapalić się od iskry"
         },
         "correct_option": "A",
-        "explanation": "Ogniwo sodowo-jonowe musi być chronione przed zwarciem zewnętrznym, bo zetknięcie biegunów może spowodować silne nagrzanie lub awarię. Sama odporność obudowy na uderzenia nie oznacza jeszcze skutecznego zabezpieczenia elektrycznego. Wymóg nie jest zarezerwowany wyłącznie dla ogniw litowych. Dlatego projekt bez takiej ochrony nie spełnia wskazanego warunku. Podstawa: ADR 2.2.9.1.7.2(c).",
+        "explanation": "Według 2.2.9.1.2 klasa 9 dzieli się na grupy, a pierwsza z nich, M1, to materiały, które wdychane w postaci drobnego pyłu mogą zagrażać zdrowiu. Punkt 2.2.9.1.4 wyjaśnia, że należą do nich azbest i zawierające go mieszaniny. Dioksyny w razie pożaru to inna grupa klasy 9, obejmująca na przykład PCB, a pary palne wydzielają polimery z cieczą zapalną. Przy takim ładunku trzeba więc przede wszystkim nie dopuścić do pylenia z uszkodzonych opakowań. Podstawa: ADR 2.2.9.1.2 i 2.2.9.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.9.1.7.2(c)",
+            "reference": "ADR 2025, 2.2.9.1.4; 2.2.9.1.2 (M1)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -340,24 +340,24 @@
     {
       "id": "ADR-B-0502",
       "order": 502,
-      "clause": "2.2.9.1.7.2(d)",
+      "clause": "ADR 2025, 2.2.9.1.6; 2.2.9.1.2 (M3); 3.2 tabela A (UN 2211)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Tak, jeżeli jest umieszczona w kartonie. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2(d). Wymaga niezależnego przeglądu."
+          "rationale": "Klasa 9 obejmuje też materiały wydzielające pary palne (M3) – nie jest „bez zagrożenia pożarowego”."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant błędny: Tak, jeśli nie jest jeszcze naładowana. Zniekształca klasyfikację lub szczegółowy warunek z ADR 2.2.9.1.7.2(d). Wymaga niezależnego przeglądu."
+          "rationale": "Materiały zagrażające środowisku wodnemu to M6 i M7, a nie M3."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR przewiduje skuteczny środek zapobiegający niebezpiecznemu przepływowi wstecznemu w bateriach z ogniwami lub ich ciągami połączonymi równolegle."
+          "rationale": "2.2.9.1.6: polimery z materiałami zapalnymi ciekłymi o temperaturze zapłonu do 55 °C wydzielają pary palne."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Przepisy podane w wyjaśnieniu odnoszą się wyłącznie do opisanych kategorii i nie zastępują pełnej klasyfikacji przez nadawcę. Etap 4b: zamieniono pozycje B i C; klucz C, niezależna ocena nadal pending.",
+      "notes_on_conditions": "2.2.9.1.2 i 2.2.9.1.6 s. 273; tabela A UN 2211 (9, M3) s. 463.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -365,18 +365,18 @@
       "question_snapshot": {
         "id": "ADR-B-0502",
         "module_id": "ADR-B-02",
-        "stem": "Bateria sodowo-jonowa z równolegle połączonymi ogniwami nie ma rozwiązania chroniącego przed niebezpiecznym przepływem wstecznym prądu. Czy spełnia 2.2.9.1.7.2?",
+        "stem": "Kierowca wiezie worki z kulkami polimerycznymi ekspandującymi UN 2211, które tabela A zalicza do klasy 9 z kodem M3. Uważa, że to zwykły plastik bez zagrożenia pożarowego. Czy ma rację?",
         "options": {
-          "A": "Tak; kartonowe opakowanie wystarcza, nawet bez zabezpieczenia elektrycznego",
-          "B": "Tak; ochrona przed przepływem wstecznym jest potrzebna wyłącznie przy pełnym naładowaniu",
-          "C": "Nie; potrzebne jest zabezpieczenie przed niebezpiecznym prądem wstecznym"
+          "A": "Tak, bo do klasy 9 należą towary bez zagrożenia pożarowego",
+          "B": "Tak, bo kod M3 oznacza materiał groźny dla środowiska wodnego",
+          "C": "Nie, bo takie polimery z cieczą zapalną wydzielają pary palne"
         },
         "correct_option": "C",
-        "explanation": "Bateria z ogniwami połączonymi równolegle musi mieć rozwiązanie zapobiegające niebezpiecznemu przepływowi prądu wstecznego, np. odpowiednie zabezpieczenie elektryczne. Kartonowe opakowanie nie chroni obwodu, a niski poziom naładowania nie usuwa wymogu konstrukcyjnego. Sprawdza się bezpieczeństwo baterii, nie tylko sposób jej zapakowania. Podstawa: ADR 2.2.9.1.7.2(d).",
+        "explanation": "Według 2.2.9.1.2 kod M3 oznacza w klasie 9 materiały wydzielające pary palne. Punkt 2.2.9.1.6 wyjaśnia, że są to polimery zawierające materiały zapalne ciekłe o temperaturze zapłonu nieprzekraczającej 55 °C. Kulki ekspandujące mogą więc uwalniać palne pary, które zapalą się od płomienia lub iskry. Materiały zagrażające środowisku wodnemu mają w klasie 9 kody M6 i M7, a nie M3. Podstawa: ADR 2.2.9.1.2, 2.2.9.1.6 i dział 3.2, tabela A (UN 2211).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.9.1.7.2(d)",
+            "reference": "ADR 2025, 2.2.9.1.6; 2.2.9.1.2 (M3); 3.2 tabela A (UN 2211)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

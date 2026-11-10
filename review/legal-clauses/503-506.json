@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0503",
       "order": 503,
-      "clause": "5.3.2.3.1",
+      "clause": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (numer 30)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant „Działanie żrące na skórę lub materiały” oznacza inny rodzaj zagrożenia niż cyfra 3 opisana w ADR 2025, 5.3.2.3.1; wymaga końcowej recenzji polskiego przepisu."
+          "rationale": "Działanie żrące oznacza cyfra 8, nie 3."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant B: „Palność materiałów stałych i ich samonagrzewanie w przewozie ADR.” opisuje odmienny rodzaj zagrożenia lub niepoprawny warunek ADR 2025, 5.3.2.3.1; prawna kontrola końcowa pozostaje otwarta."
+          "rationale": "Zapalność i samonagrzewanie się materiałów stałych oznacza cyfra 4."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Cyfra 3 w numerze rozpoznawczym zagrożenia wskazuje na zagrożenie związane z palnością cieczy, par lub gazów, a w określonych przypadkach także cieczy samonagrzewającej się. Warianty A i B opisują inne zagrożenia."
+          "rationale": "5.3.2.3.1: cyfra 3 – zapalność materiałów ciekłych (pary) i gazów lub samonagrzewanie się materiałów ciekłych."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wyjaśnienie uproszczono, usuwając powtórzone zdanie; klucz i zakres przepisu bez zmian. Pełne porównanie polskiego tekstu i niezależna recenzja nadal oczekują.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956 (nie 957 jak w #899); numer 30 s. 957.",
       "editorial_result": "explanation_rephrased_duplicate_removed_key_unchanged",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -34,18 +34,18 @@
       "question_snapshot": {
         "id": "ADR-B-0503",
         "module_id": "ADR-B-06",
-        "stem": "Na górze tablicy pomarańczowej widnieje numer rozpoznawczy zagrożenia 30. Co oznacza cyfra 3 w tym numerze?",
+        "stem": "W kolumnie (20) tabeli A dla przewożonej cieczy podano numer rozpoznawczy zagrożenia 30. Jakie zagrożenie wskazuje w nim cyfra 3 według 5.3.2.3.1?",
         "options": {
-          "A": "Żrące właściwości towaru, np. działanie na skórę oraz możliwość uszkodzenia metalowych pojemników",
-          "B": "Palność materiałów stałych",
-          "C": "Palność cieczy, par lub gazów; także ciecz samonagrzewająca się"
+          "A": "Działanie żrące, które niszczy skórę i uszkadza niektóre metale",
+          "B": "Zapalność materiałów stałych lub ich samonagrzewanie się",
+          "C": "Zapalność cieczy (par) i gazów lub samonagrzewanie się cieczy"
         },
         "correct_option": "C",
-        "explanation": "Cyfra 3 w numerze rozpoznawczym zagrożenia wskazuje na zagrożenie związane z palnością cieczy, par lub gazów; w określonych przypadkach obejmuje też ciecz samonagrzewającą się. Nie oznacza działania żrącego ani palności materiałów stałych, które opisują inne cyfry. Odczytaj cały numer, ponieważ pozostałe cyfry mogą doprecyzować dodatkowe zagrożenia. Nie oceniaj towaru tylko po jednym fragmencie tablicy. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Według 5.3.2.3.1 cyfra 3 w numerze rozpoznawczym zagrożenia oznacza zapalność materiałów ciekłych, czyli ich par, i gazów albo samonagrzewanie się materiałów ciekłych. Zapalność i samonagrzewanie się materiałów stałych oznacza cyfra 4, a działanie żrące cyfra 8. Według wykazu w 5.3.2.3.2 numer 30 oznacza materiał zapalny ciekły albo materiał samonagrzewający się ciekły. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1",
+            "reference": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (numer 30)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -56,24 +56,24 @@
     {
       "id": "ADR-B-0504",
       "order": 504,
-      "clause": "5.3.2.3.1",
+      "clause": "ADR 2025, 5.3.2.3.1",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta interpretacja cyfry jest nieprawidłowa: Zakaźność bez innych właściwości. Należy zastosować definicję z 5.3.2.3.1 oraz rozróżnić znaczenie cyfr."
+          "rationale": "Emisję gazu spowodowaną ciśnieniem lub reakcją chemiczną oznacza cyfra 2."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Cyfra 5 oznacza działanie utleniające, które może nasilać pożar."
+          "rationale": "5.3.2.3.1: cyfra 5 – działanie utleniające (wzmagające palenie)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ta interpretacja cyfry jest nieprawidłowa: Wyłącznie uwolnienie gazu pod ciśnieniem. Należy zastosować definicję z 5.3.2.3.1 oraz rozróżnić znaczenie cyfr."
+          "rationale": "Ryzyko samorzutnej i gwałtownej reakcji oznacza cyfra 9."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Przed zatwierdzeniem konieczna weryfikacja dokładnego polskiego brzmienia i kontekstów numerów szczególnych z 5.3.2.3.2. Etap 4c: obraz SVG jest oryginalnym schematem szkoleniowym, nie zatwierdzonym wzorcem tablicy ani recenzją prawa. Etap 4m: redakcyjna korekta długości bez zmiany klucza i podstawy.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956 (nie 957 jak w #899).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -81,14 +81,14 @@
       "question_snapshot": {
         "id": "ADR-B-0504",
         "module_id": "ADR-B-06",
-        "stem": "Numer rozpoznawczy zagrożenia rozpoczyna się cyfrą 5. Którą właściwość ta cyfra zwykle oznacza?",
+        "stem": "Na tablicy pomarańczowej jest numer rozpoznawczy zagrożenia 50. Pracownik magazynu mówi, że cyfra 5 ostrzega przed gazem pod ciśnieniem. Czy ma rację według 5.3.2.3.1?",
         "options": {
-          "A": "Zakaźność przewożonego materiału, w tym obecność drobnoustrojów, które mogą przenosić choroby",
-          "B": "Cyfra 5 oznacza działanie utleniające, które może nasilać pożar",
-          "C": "Uwalnianie gazu z butli pod ciśnieniem"
+          "A": "Tak, cyfra 5 oznacza emisję gazu spowodowaną ciśnieniem w opakowaniu",
+          "B": "Nie, cyfra 5 oznacza działanie utleniające, wzmagające palenie",
+          "C": "Nie, cyfra 5 oznacza ryzyko samorzutnej i gwałtownej reakcji"
         },
         "correct_option": "B",
-        "explanation": "Cyfra 5 na początku numeru rozpoznawczego zagrożenia oznacza działanie utleniające: materiał może nasilać spalanie innych substancji. Nie wskazuje to na zakaźność ani na samo uwalnianie gazu pod ciśnieniem, więc trzeba odróżnić te zagrożenia. Odczytuj cały numer, bo pozostałe cyfry mogą doprecyzować zagrożenie. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Według 5.3.2.3.1 cyfra 5 w numerze rozpoznawczym zagrożenia oznacza działanie utleniające, czyli wzmagające palenie. Taki materiał może dostarczać tlenu i sprawić, że inne materiały palą się mocniej i szybciej. Emisję gazu spowodowaną ciśnieniem lub reakcją chemiczną oznacza cyfra 2, a ryzyko samorzutnej i gwałtownej reakcji oznacza cyfra 9. Podstawa: ADR 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -103,24 +103,24 @@
     {
       "id": "ADR-B-0505",
       "order": 505,
-      "clause": "5.3.2.3.1",
+      "clause": "ADR 2025, 5.3.2.3.1 (cyfra 9 i uwaga); 5.3.2.3.2 (numer 339)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Wariant „Zagrożenie wynikające z promieniowania jonizującego” oznacza inny rodzaj zagrożenia niż cyfra 9 opisana w ADR 2025, 5.3.2.3.1; wymaga końcowej recenzji polskiego przepisu."
+          "rationale": "Klasę 9 wskazują specjalne numery 90 i 99, a nie końcowa cyfra 9 w numerze 339."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wariant „Działanie utleniające, które może nasilać pożar” oznacza inny rodzaj zagrożenia niż cyfra 9 opisana w ADR 2025, 5.3.2.3.1; wymaga końcowej recenzji polskiego przepisu."
+          "rationale": "Nasilenie zagrożenia oznacza powtórzenie cyfry (33), a nie dopisanie cyfry 9."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR 2025, 5.3.2.3.1: cyfra 9 oznacza ryzyko samorzutnej gwałtownej reakcji. Nie jest oznaczeniem promieniotwórczości ani właściwości utleniającej."
+          "rationale": "5.3.2.3.1: cyfra 9 – ryzyko samorzutnej i gwałtownej reakcji; uwaga: wybuch, rozkład lub polimeryzacja."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Zmieniono wyłącznie dystraktory i wyjaśnienie w etapie jakościowym 4a; klucz odpowiedzi bez zmian. Weryfikacja polskiego ADR i sprostowania pozostaje otwarta.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956; numer 339 s. 957. Stary zapis „cyfra 9 ogólnie” był niejednoznaczny wobec 90 i 99.",
       "editorial_result": "quality_revision_pending_expert_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -128,18 +128,18 @@
       "question_snapshot": {
         "id": "ADR-B-0505",
         "module_id": "ADR-B-06",
-        "stem": "Na tablicy pomarańczowej numer zagrożenia zawiera cyfrę 9. Które zagrożenie ta cyfra ogólnie sygnalizuje?",
+        "stem": "Dyspozytor odczytuje z dokumentów, że przewożona ciecz ma numer rozpoznawczy zagrożenia 339, i pyta kierowcę o ostatnią cyfrę. Co oznacza ta cyfra 9 według 5.3.2.3.1?",
         "options": {
-          "A": "Promieniowanie jonizujące materiału, które wymaga osłon i zachowania odpowiedniej odległości",
-          "B": "Utleniające działanie towaru",
-          "C": "Cyfra 9 wskazuje ryzyko samorzutnej gwałtownej reakcji"
+          "A": "Że towar należy do klasy 9, czyli różnych materiałów niebezpiecznych",
+          "B": "Że zapalność tej cieczy jest silniejsza niż przy numerze 33",
+          "C": "Ryzyko samorzutnej i gwałtownej reakcji, na przykład polimeryzacji"
         },
         "correct_option": "C",
-        "explanation": "Cyfra 9 w górnym numerze na pomarańczowej tablicy ostrzega o możliwości samorzutnej gwałtownej reakcji towaru. Nie oznacza promieniowania ani po prostu właściwości utleniających, dlatego nie wybieraj znaczenia na podstawie dowolnego skojarzenia z cyfrą. Odczytaj cały numer rozpoznawczy zagrożenia, bo inne cyfry mogą wskazywać dodatkowe właściwości. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Według 5.3.2.3.1 cyfra 9 w numerze rozpoznawczym zagrożenia oznacza ryzyko samorzutnej i gwałtownej reakcji. Uwaga do tego punktu wyjaśnia, że chodzi o możliwość wybuchu, rozkładu lub polimeryzacji z wydzieleniem dużej ilości ciepła albo gazów palnych lub trujących. Numer 339 oznacza więc materiał łatwo zapalny ciekły, który może samorzutnie powodować gwałtowną reakcję. Klasę 9 wskazują specjalne numery 90 i 99, a nasilenie zagrożenia pokazuje powtórzenie tej samej cyfry. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1",
+            "reference": "ADR 2025, 5.3.2.3.1 (cyfra 9 i uwaga); 5.3.2.3.2 (numer 339)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -150,24 +150,24 @@
     {
       "id": "ADR-B-0506",
       "order": 506,
-      "clause": "5.3.2.3.1",
+      "clause": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (numer 336)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta interpretacja cyfry jest nieprawidłowa: Wyłącznie intensyfikację pożaru przez utleniacz. Należy zastosować definicję z 5.3.2.3.1 oraz rozróżnić znaczenie cyfr."
+          "rationale": "Nasilenie zagrożenia oznacza powtórzenie cyfry – końcowa 6 to działanie trujące."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ta interpretacja cyfry jest nieprawidłowa: Wyłącznie palność stałych materiałów. Należy zastosować definicję z 5.3.2.3.1 oraz rozróżnić znaczenie cyfr."
+          "rationale": "Cyfra 6 nie oznacza temperatury zapłonu – oznacza działanie trujące lub ryzyko zakażenia."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Cyfra 6 oznacza toksyczność lub ryzyko zakażenia w systemie numerów rozpoznawczych zagrożenia."
+          "rationale": "5.3.2.3.1: cyfra 6 – działanie trujące lub ryzyko zakażenia; 336 – materiał łatwo zapalny ciekły trujący."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Przed zatwierdzeniem konieczna weryfikacja dokładnego polskiego brzmienia i kontekstów numerów szczególnych z 5.3.2.3.2. Etap 4b: zamieniono pozycje A i C; klucz C, niezależna ocena nadal pending.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956; numer 336 s. 957.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -175,18 +175,18 @@
       "question_snapshot": {
         "id": "ADR-B-0506",
         "module_id": "ADR-B-06",
-        "stem": "Kierowca widzi w numerze rozpoznawczym zagrożenia cyfrę 6. Jakie ogólne zagrożenia odpowiadają tej cyfrze?",
+        "stem": "Na tablicy pomarańczowej jest numer rozpoznawczy zagrożenia 336. Kolega twierdzi, że ten numer ostrzega jedynie przed łatwo zapalną cieczą. Czy ma rację?",
         "options": {
-          "A": "Utleniające działanie zwiększające pożar przez udział w procesie spalania innych substancji",
-          "B": "Palność materiałów stałych",
-          "C": "Cyfra 6 wskazuje toksyczność albo zagrożenie zakażeniem"
+          "A": "Tak, cyfra 6 na końcu oznacza nasilenie zagrożenia pożarem",
+          "B": "Tak, cyfra 6 na końcu oznacza ciecz o temperaturze zapłonu 60 °C",
+          "C": "Nie, cyfra 6 dodaje działanie trujące lub ryzyko zakażenia"
         },
         "correct_option": "C",
-        "explanation": "Cyfra 6 w numerze rozpoznawczym zagrożenia wskazuje na zagrożenie toksycznością lub zakażeniem. Nie oznacza działania utleniającego ani palności materiału stałego — te zagrożenia opisują inne cyfry. Numer rozpoznawczy mówi o rodzaju zagrożenia, a dolny numer UN identyfikuje konkretny towar, dlatego nie należy ich ze sobą mylić. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Według 5.3.2.3.1 cyfra 6 w numerze rozpoznawczym zagrożenia oznacza działanie trujące lub ryzyko zakażenia. W numerze 336 podwojona cyfra 3 oznacza materiał łatwo zapalny ciekły, a końcowa cyfra 6 dodaje działanie trujące. Wykaz w 5.3.2.3.2 opisuje numer 336 jako materiał łatwo zapalny ciekły trujący. Nasilenie zagrożenia pokazuje powtórzenie cyfry, a nie dopisanie innej cyfry na końcu. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1",
+            "reference": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (numer 336)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
