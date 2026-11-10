@@ -20,14 +20,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca ma przewieźć 1 050 sztuk przesyłek z towarami niebezpiecznymi w ilościach wyłączonych EQ w jednym pojeździe. Jak należy ocenić liczbę sztuk według ADR 3.5.5?",
+        "stem": "Kierowca ma przewieźć w jednym pojeździe 1 050 sztuk przesyłek z towarami niebezpiecznymi w ilościach wyłączonych (EQ). Jak należy ocenić tę liczbę sztuk według 3.5.5?",
         "options": {
-          "A": "Liczba 1 050 przekracza limit 1 000 sztuk EQ dla pojazdu lub kontenera",
-          "B": "Liczba pozostaje dopuszczalna, jeśli wszystkie opakowania mają jednakowe wymiary",
-          "C": "Liczba może być dowolna, jeśli każda sztuka ma prawidłowy znak EQ"
+          "A": "Jest za duża, bo w pojeździe może być najwyżej 1 000 takich sztuk",
+          "B": "Jest dopuszczalna, jeśli opakowania mają jednakowe wymiary i taką samą masę",
+          "C": "Jest dopuszczalna, jeśli sztuki mają prawidłowe znaki EQ"
         },
         "correct_option": "A",
-        "explanation": "W przewozie EQ (ilości wyłączone) w jednym pojeździe lub kontenerze można mieć najwyżej 1000 sztuk przesyłek. Liczba 1050 przekracza limit, nawet jeśli opakowania są jednakowe i każde ma prawidłowy znak EQ. Przed załadunkiem trzeba policzyć sztuki; samo oznakowanie nie pozwala przekroczyć dopuszczalnej liczby. Podstawa: ADR 3.5.5.",
+        "explanation": "Dla towarów w ilościach wyłączonych (EQ) punkt 3.5.5 ogranicza liczbę sztuk przesyłek w jednym pojeździe lub kontenerze do 1 000. Przy 1 050 sztukach limit jest przekroczony, więc nadwyżkę trzeba przewieźć innym pojazdem albo cały ładunek przewieźć na innych zasadach ADR. Jednakowe wymiary opakowań ani prawidłowe znaki EQ nie podnoszą tego limitu. Dlatego przed załadunkiem trzeba policzyć sztuki przesyłek. Podstawa: ADR 3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Wraz z przesyłkami w ilościach wyłączonych EQ przewoźnik otrzymał list przewozowy. Jaka informacja dotycząca EQ powinna znaleźć się co najmniej w jednym z dokumentów towarzyszących?",
+        "stem": "Karton z farbą klasy 3 przygotowano do przewozu w ilości wyłączonej (EQ). Nazwy nadawcy ani odbiorcy nie ma nigdzie na kartonie. Co według 3.5.4.1 trzeba umieścić na znaku EQ?",
         "options": {
-          "A": "Wystarczy podać numer rozdziału 3.5, bez informacji o liczbie sztuk EQ",
-          "B": "Wskazać, że przewóz obejmuje ilości EQ, oraz podać liczbę sztuk przesyłek",
-          "C": "Wystarczy podać dane kontaktowe producenta wszystkich zastosowanych opakowań"
+          "A": "Numer UN tej farby i jej kod E z kolumny (7b) tabeli A w dziale 3.2",
+          "B": "Numer nalepki 3 z kolumny (5) i nazwę nadawcy lub odbiorcy",
+          "C": "Liczbę kartonów w przesyłce i masę brutto tego kartonu"
         },
         "correct_option": "B",
-        "explanation": "Przy ilościach wyłączonych EQ co najmniej jeden dokument towarzyszący musi wskazywać, że przewóz obejmuje towary niebezpieczne w ilościach wyłączonych, oraz podawać liczbę sztuk przesyłek. Sam numer rozdziału ADR nie informuje o liczbie przesyłek, a kontakt do producenta opakowań nie zastępuje wymaganego wpisu. Dzięki temu osoby obsługujące przewóz wiedzą, że stosuje się zasady EQ. Podstawa: ADR 3.5.6.",
+        "explanation": "Znak dla ilości wyłączonych z 3.5.4.2 to kwadrat o boku co najmniej 100 mm, z czarnym lub czerwonym obrysem i symbolem. Według 3.5.4.1 umieszcza się na nim pierwszy lub jedyny numer nalepki ostrzegawczej z kolumny (5) tabeli A dla każdego towaru w tej sztuce przesyłki. Jeżeli nazwy nadawcy lub odbiorcy nie ma w innym miejscu sztuki przesyłki, podaje się ją na tym znaku. Numer UN, kod E ani masa nie są elementami znaku EQ. Podstawa: ADR 3.5.4.1 i 3.5.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.5.6",
+            "reference": "ADR 2025, 3.5.4.1; 3.5.4.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,14 +102,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Magazynier umieszcza przesyłki oznaczone EQ w opakowaniu zbiorczym. Oznaczenia wewnętrznych sztuk nie są widoczne. Jakie dodatkowe oznakowanie opakowania zbiorczego przewiduje ADR 3.5.4.3?",
+        "stem": "Magazynier owija folią na palecie kilka kartonów z towarami w ilościach wyłączonych (EQ). Po owinięciu znaki EQ na kartonach są niewidoczne. Jak według 3.5.4.3 oznakować to opakowanie zbiorcze?",
         "options": {
-          "A": "Dodać numer rejestracyjny pojazdu zamiast oznaczeń wymaganych dla EQ",
-          "B": "Pozostawić tylko znak EQ, nawet jeśli oznakowanie wewnętrznych sztuk nie jest widoczne",
-          "C": "Umieścić napis OVERPACK oraz odpowiednie oznaczenia EQ na opakowaniu zbiorczym"
+          "A": "Samym znakiem EQ na folii, bez napisu o opakowaniu zbiorczym",
+          "B": "Nie trzeba go oznakować, wystarczy wpis liczby kartonów w dokumencie",
+          "C": "Napisem „OPAKOWANIE ZBIORCZE” i znakiem EQ umieszczonym na folii"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli oznaczenia EQ (ilości wyłączone) na wewnętrznych sztukach przesyłki są niewidoczne po umieszczeniu ich w opakowaniu zbiorczym, wymagane informacje trzeba powtórzyć na zewnątrz. Napis „OVERPACK” informuje, że użyto opakowania zbiorczego, ale sam nie zastępuje odpowiednich znaków EQ. Numer rejestracyjny pojazdu nie jest oznakowaniem przesyłki. Podstawa: ADR 3.5.4.3.",
+        "explanation": "Gdy znaki wymagane dla towarów w ilościach wyłączonych nie są widoczne, punkt 3.5.4.3 każe oznakować opakowanie zbiorcze napisem „OPAKOWANIE ZBIORCZE”. Trzeba też umieścić na nim znaki wymagane w dziale 3.5, czyli znak EQ. Litery napisu mają mieć co najmniej 12 mm wysokości, a napis ma być w języku urzędowym państwa pochodzenia. Jeżeli to nie angielski, francuski ani niemiecki, dodaje się też jeden z tych języków, chyba że umowy między państwami stanowią inaczej, a sam znak EQ lub wpis w dokumencie nie wystarczą. Podstawa: ADR 3.5.4.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -143,14 +143,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Pracownik punktu przeładunkowego ma kontakt z niebezpiecznymi substancjami podczas typowych obowiązków. Jaki element szkolenia odpowiada wymaganiu ADR 1.3.2.3?",
+        "stem": "Nowy pracownik magazynu będzie ładował i rozładowywał beczki z towarami niebezpiecznymi. Co według 1.3.2.3 powinno obejmować jego szkolenie z zakresu bezpieczeństwa?",
         "options": {
-          "A": "Zagrożenia, środki ochronne i reagowanie na zdarzenia",
-          "B": "Skupić się na procedurach załadunku, pomijając zagrożenia i reakcję awaryjną",
-          "C": "Omówić środki ochronne, ale pominąć właściwości towarów i związane z nimi zagrożenia"
+          "A": "Zagrożenia od tych towarów, bezpieczne postępowanie i procedury ratownicze",
+          "B": "Same czynności załadunku, bo zagrożenia omawia doradca do spraw bezpieczeństwa",
+          "C": "Kurs i egzamin na zaświadczenie ADR kierowcy według działu 8.2"
         },
         "correct_option": "A",
-        "explanation": "Szkolenie bezpieczeństwa ma wyjaśnić pracownikowi, jakie zagrożenia stwarza towar, jak się przed nimi chronić i jak reagować w sytuacji awaryjnej. Sama lista czynności załadunkowych nie wystarczy, jeśli pracownik nie rozumie ryzyka i zasad ochrony. Zakres szkolenia powinien odpowiadać rzeczywistym obowiązkom danej osoby. Podstawa: ADR 1.3.2.3.",
+        "explanation": "Według 1.3.2.3 pracownicy przechodzą szkolenie na temat zagrożeń stwarzanych przez towary niebezpieczne. Zakres szkolenia zależy od stopnia ryzyka utraty zdrowia lub narażenia przy wypadku, z uwzględnieniem załadunku i rozładunku. Celem jest poznanie bezpiecznych sposobów postępowania oraz procedur ratowniczych. Kurs i egzamin na zaświadczenie ADR według działu 8.2 dotyczą kierowców, a nie magazynierów. Podstawa: ADR 1.3.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -184,18 +184,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca odbiera odpad niebezpieczny inny niż radioaktywny. Nazwa przewozowa w dokumencie nie zawiera wymaganego słowa wskazującego odpad. Co należy zweryfikować zgodnie z ADR 5.4.1.1.3?",
+        "stem": "Kierowca odbiera 12 próżnych, nieoczyszczonych beczek po farbie klasy 3. W dokumencie przewozowym zamiast numeru UN, nazwy i ilości wpisano „PRÓŻNE OPAKOWANIE, 3”. Czy według 5.4.1.1.6.2.1 to dopuszczalne?",
         "options": {
-          "A": "Dopisać słowo ODPAD tylko w wewnętrznym systemie firmy, bez zmiany dokumentu ADR",
-          "B": "Dodać słowo ODPAD przed nazwą przewozową, gdy wymaga tego ADR 5.4.1.1.3",
-          "C": "Zastąpić nazwę przewozową kodem odpadu, jeżeli kod znajduje się w dokumentach handlowych"
+          "A": "Nie, trzeba wpisać pełny opis towaru z numerem UN i ilością pozostałości",
+          "B": "Tak, ten zapis z numerem nalepki ostatniego ładunku zastępuje te dane",
+          "C": "Nie, zapis „PRÓŻNE OPAKOWANIE” stosuje się do próżnych pojazdów"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli przewozisz odpowiedni odpad niepromieniotwórczy, w dokumencie przed nazwą przewozową trzeba dodać słowo „ODPAD”, o ile nie występuje już w tej nazwie. Wpis w systemie magazynowym nie wystarczy, bo kierowcy i służbom towarzyszy dokument przewozowy. Kod odpadu również nie zastępuje nazwy przewozowej ani numeru UN. Sprawdź opis przed odjazdem. Podstawa: ADR 5.4.1.1.3.",
+        "explanation": "Próżne, nieoczyszczone beczki mogą nadal zawierać pozostałości towaru niebezpiecznego, więc w dokumencie przewozowym trzeba je opisać. Według 5.4.1.1.6.2.1 numer UN, nazwę, numery nalepek, grupę pakowania, liczbę sztuk i ilość można zastąpić zapisem „PRÓŻNE OPAKOWANIE”. Po nim podaje się numery nalepek ostatniego ładunku, więc po farbie klasy 3 zapis „PRÓŻNE OPAKOWANIE, 3” jest poprawny. Dla próżnych pojazdów ADR przewiduje inny zapis, „PRÓŻNY POJAZD”, z dopiskiem „OSTATNI ŁADUNEK:”. Podstawa: ADR 5.4.1.1.6.2.1 i 5.4.1.1.6.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.3",
+            "reference": "ADR 2025, 5.4.1.1.6.2.1; 5.4.1.1.6.2.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -225,18 +225,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Uszkodzoną sztukę przesyłki ADR umieszczono zgodnie z przepisami w opakowaniu awaryjnym typu salvage packaging. Co należy dodać do dokumentu przewozowego?",
+        "stem": "Nieszczelną beczkę z towarem ADR włożono, zgodnie z 4.1.1.19, do większej beczki przeznaczonej do przewozu uszkodzonych lub nieszczelnych sztuk przesyłek. Jaki zapis według 5.4.1.1.5 trzeba dodać w dokumencie przewozowym?",
         "options": {
-          "A": "Dodać wpis o opakowaniu awaryjnym tylko wtedy, gdy kierowca sam umieścił w nim uszkodzoną przesyłkę.",
-          "B": "Podać liczbę sztuk i masę, a rodzaj opakowania awaryjnego pominąć, jeśli jest oznakowane.",
-          "C": "Po opisie towaru dodać wymagane określenie opakowania awaryjnego"
+          "A": "„USZKODZONA SZTUKA PRZESYŁKI”, dopisany przed numerem UN tego towaru",
+          "B": "„PRZEWÓZ ZGODNY Z 4.1.1.19” zamiast opisu tego towaru",
+          "C": "„OPAKOWANIE AWARYJNE”, dopisany po opisie tego towaru w dokumencie"
         },
         "correct_option": "C",
-        "explanation": "Gdy uszkodzoną sztukę przesyłki umieszczono w opakowaniu awaryjnym, dokument przewozowy musi zawierać określenie „SALVAGE PACKAGING” po opisie towaru. Sam napis na opakowaniu nie zastępuje wymaganego wpisu, a obowiązek nie znika dlatego, że czynność wykonała inna osoba. Przed odjazdem sprawdź, czy dokument opisuje także ten szczególny sposób zabezpieczenia. Podstawa: ADR 5.4.1.1.5.",
+        "explanation": "Opakowanie awaryjne to specjalne opakowanie, do którego wkłada się uszkodzoną, wadliwą lub nieszczelną sztukę przesyłki albo rozlany towar, aby bezpiecznie je przewieźć. Według 5.4.1.1.5 w takim przypadku po opisie towaru w dokumencie przewozowym dodaje się zapis „OPAKOWANIE AWARYJNE”. Opis towaru zostaje w dokumencie, a ten zapis jest tylko dodatkiem. Dzięki temu kierowca i służby wiedzą, że w środku jest uszkodzona sztuka przesyłki. Podstawa: ADR 5.4.1.1.5 i 4.1.1.19.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.5",
+            "reference": "ADR 2025, 5.4.1.1.5; 4.1.1.19",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -266,14 +266,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po opróżnieniu pojemnika, który pozostaje nieoczyszczony i zawiera pozostałości materiału ADR klasy innej niż 7, sporządza się wymagany dokument przewozowy. Jak uwzględnić stan pojemnika?",
+        "stem": "Próżny, nieoczyszczony DPPL po cieczy zapalnej UN 1993 wraca do nadawcy. W dokumencie podano dane z 5.4.1.1.1 (a)–(d) i (k). Jaki zapis według 5.4.1.1.6.1 trzeba dodać przed tymi danymi lub po nich?",
         "options": {
-          "A": "Dodać określenie pusty, nieoczyszczony lub pozostałość po zawartości",
-          "B": "Pominąć opis, bo pojemnik jest już pusty.",
-          "C": "Wpisać tylko „pusty”, bez ostatniej zawartości."
+          "A": "„PRÓŻNE NIEOCZYSZCZONE” lub „POZOSTAŁOŚCI OSTATNIEGO ŁADUNKU”",
+          "B": "„ODPAD”, bo pozostałości po towarze w DPPL traktuje się jak odpad",
+          "C": "Ilość pozostałości w litrach, bo opis jest bez niej niepełny"
         },
         "correct_option": "A",
-        "explanation": "Pojemnik, który został opróżniony, ale nieoczyszczony, może nadal zawierać niebezpieczne pozostałości. W dokumencie przewozowym trzeba więc wskazać jego stan oraz ostatnią zawartość zgodnie z wymaganym opisem; samo słowo „pusty” pomija ważną informację. Numer magazynowy nie zastępuje określenia przewidzianego w ADR. Podstawa: ADR 5.4.1.1.6.1.",
+        "explanation": "Według 5.4.1.1.6.1 przy próżnych, nieoczyszczonych jednostkach ładunkowych z pozostałościami towarów klas innych niż 7 podaje się numer UN, nazwę, numery nalepek, grupę pakowania i kod tunelowy. Przed tymi danymi lub po nich wpisuje się „PRÓŻNE NIEOCZYSZCZONE” albo „POZOSTAŁOŚCI OSTATNIEGO ŁADUNKU”. Ilości z 5.4.1.1.1 (f) w takim opisie się nie podaje. Wyraz „ODPAD” dotyczy odpadów, a nie każdego próżnego opakowania, które wraca do nadawcy. Podstawa: ADR 5.4.1.1.6.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -307,14 +307,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Towary ADR nadawane są w Polsce do innego państwa. Dokument przewozowy sporządzono wyłącznie po polsku, bez zastosowania odpowiedniego porozumienia językowego. Co wynika z 5.4.1.4.1?",
+        "stem": "Nadawca z Polski wysyła towary ADR do Niemiec. Dokument przewozowy sporządził tylko po polsku, a żadne umowy między państwami nie stanowią inaczej. Co wynika z 5.4.1.4.1?",
         "options": {
-          "A": "Język polski zawsze wystarcza w przewozie międzynarodowym, bez dodatkowej wersji",
-          "B": "Dodać wersję w języku angielskim, francuskim albo niemieckim, zgodnie z ADR",
-          "C": "Zastąpić tekst dokumentu symbolami nalepek, bo są rozpoznawalne międzynarodowo"
+          "A": "Dokument jest poprawny, bo sporządzono go w języku państwa nadania",
+          "B": "Informacje trzeba podać też po angielsku, francusku lub niemiecku",
+          "C": "Wystarczy dołączyć do niego instrukcje pisemne w języku kierowcy"
         },
         "correct_option": "B",
-        "explanation": "Przy przewozie międzynarodowym dokument sporządza się w języku urzędowym kraju nadania, a jeśli nie jest to angielski, francuski ani niemiecki, należy dodać jedną z tych wersji, z uwzględnieniem właściwych porozumień. Sam tekst po polsku nie zawsze wystarczy, gdy ładunek jedzie za granicę. Symbole nalepek nie zastępują wymaganej treści dokumentu. Podstawa: ADR 5.4.1.4.1.",
+        "explanation": "Według 5.4.1.4.1 informacje w dokumencie przewozowym zapisuje się w języku urzędowym państwa nadania. Jeżeli nie jest to angielski, francuski ani niemiecki, trzeba je podać również w jednym z tych trzech języków. Wyjątek dotyczy sytuacji, gdy umowy międzynarodowe lub umowy między państwami uczestniczącymi w przewozie stanowią inaczej. Dokument tylko po polsku nie wystarcza, a instrukcje pisemne dla załogi nie zastępują treści dokumentu przewozowego. Podstawa: ADR 5.4.1.4.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
