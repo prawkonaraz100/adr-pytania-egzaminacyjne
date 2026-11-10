@@ -73,11 +73,11 @@ EXPECTED_PAGES = {
         188
     ]
 }
-ABSOLUTE = re.compile(r"\\b(tylko|zawsze|każdy|każda|każde|każdej|wszystkie|wyłącznie|żaden|żadnych|nigdy|całkowicie|automatycznie|niezależnie)\\b", re.IGNORECASE)
+ABSOLUTE = re.compile(r"\b(tylko|zawsze|każdy|każda|każde|każdej|wszystkie|wyłącznie|żaden|żadnych|nigdy|całkowicie|automatycznie|niezależnie)\b", re.IGNORECASE)
 
 
 def git_blob_sha(data: bytes) -> str:
-    return hashlib.sha1(b"blob " + str(len(data)).encode("ascii") + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode("ascii") + b"\0" + data).hexdigest()
 
 
 class Partia45LiteralReview(unittest.TestCase):
@@ -132,11 +132,11 @@ class Partia45LiteralReview(unittest.TestCase):
             self.assertGreaterEqual(len(explanation), 300)
             self.assertTrue(explanation.endswith("."))
             self.assertIn("Podstawa: ADR ", explanation)
-            sentences = re.split(r"(?<=[.!?])\\s+(?=[A-ZĄĆĘŁŃÓŚŹŻ])", explanation.strip())
+            sentences = re.split(r"(?<=[.!?])\s+(?=[A-ZĄĆĘŁŃÓŚŹŻ])", explanation.strip())
             self.assertGreaterEqual(len(sentences), 2)
             self.assertLessEqual(len(sentences), 5)
             for sentence in sentences:
-                words = re.findall(r"\\b[\\wĄĆĘŁŃÓŚŹŻąćęłńóśźż0-9]+\\b", sentence)
+                words = re.findall(r"\b[\wĄĆĘŁŃÓŚŹŻąćęłńóśźż0-9]+\b", sentence)
                 self.assertLessEqual(len(words), 35)
             self.assertTrue(replacement["sources"])
             self.assertTrue(replacement["replacement_quote"])
