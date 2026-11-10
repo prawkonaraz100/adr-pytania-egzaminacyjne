@@ -6,7 +6,7 @@
   "seed": 2026102704,
   "variant": 4,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "e0c671756644994d18480feae5c08bc70ee0ffbd",
+  "source_bank_head": "73aa25f2ae5fed6f40b1948dfb917f082c08b58e",
   "excluded_question_ids": [
     "ADR-B-0004",
     "ADR-B-0008",
@@ -160,11 +160,11 @@
       "number": 4,
       "id": "ADR-B-0526",
       "module_id": "ADR-B-01",
-      "stem": "Kierowca ma przewieźć 1 050 sztuk przesyłek z towarami niebezpiecznymi w ilościach wyłączonych EQ w jednym pojeździe. Jak należy ocenić liczbę sztuk według ADR 3.5.5?",
+      "stem": "Kierowca ma przewieźć w jednym pojeździe 1 050 sztuk przesyłek z towarami niebezpiecznymi w ilościach wyłączonych (EQ). Jak należy ocenić tę liczbę sztuk według 3.5.5?",
       "options": {
-        "A": "Liczba 1 050 przekracza limit 1 000 sztuk EQ dla pojazdu lub kontenera",
-        "B": "Liczba pozostaje dopuszczalna, jeśli wszystkie opakowania mają jednakowe wymiary",
-        "C": "Liczba może być dowolna, jeśli każda sztuka ma prawidłowy znak EQ"
+        "A": "Jest za duża, bo w pojeździe może być najwyżej 1 000 takich sztuk",
+        "B": "Jest dopuszczalna, jeśli opakowania mają jednakowe wymiary i taką samą masę",
+        "C": "Jest dopuszczalna, jeśli sztuki mają prawidłowe znaki EQ"
       },
       "image": null
     },
@@ -352,11 +352,11 @@
       "number": 20,
       "id": "ADR-B-0538",
       "module_id": "ADR-B-13",
-      "stem": "Nadawca dzieli przesyłkę między dwa pojazdy, bo nie mieści się w jednym. Jak rozwiązuje kwestię dokumentów przewozowych według 5.4.1.4.2?",
+      "stem": "Przesyłka towarów ADR jest tak duża, że nadawca musi załadować ją na dwa pojazdy. Jakie dokumenty przewozowe przewiduje dla niej 5.4.1.4.2?",
       "options": {
-        "A": "Wystawić jeden dokument i pozostawić go tylko w jednym z pojazdów zestawu",
-        "B": "Dokument lub kopia dla każdej załadowanej jednostki transportowej",
-        "C": "Zastąpić dokumentację ustnym przekazaniem informacji każdemu z kierowców"
+        "A": "Jeden dokument, w tym pojeździe, który wiezie większą część przesyłki",
+        "B": "Odrębne dokumenty lub kopie jednego dokumentu, po jednym na pojazd",
+        "C": "Jeden dokument u nadawcy, a kierowcom wystarczy informacja ustna"
       },
       "image": null
     },
@@ -376,11 +376,11 @@
       "number": 22,
       "id": "ADR-B-0532",
       "module_id": "ADR-B-13",
-      "stem": "Po opróżnieniu pojemnika, który pozostaje nieoczyszczony i zawiera pozostałości materiału ADR klasy innej niż 7, sporządza się wymagany dokument przewozowy. Jak uwzględnić stan pojemnika?",
+      "stem": "Próżny, nieoczyszczony DPPL po cieczy zapalnej UN 1993 wraca do nadawcy. W dokumencie podano dane z 5.4.1.1.1 (a)–(d) i (k). Jaki zapis według 5.4.1.1.6.1 trzeba dodać przed tymi danymi lub po nich?",
       "options": {
-        "A": "Dodać określenie pusty, nieoczyszczony lub pozostałość po zawartości",
-        "B": "Pominąć opis, bo pojemnik jest już pusty.",
-        "C": "Wpisać tylko „pusty”, bez ostatniej zawartości."
+        "A": "„PRÓŻNE NIEOCZYSZCZONE” lub „POZOSTAŁOŚCI OSTATNIEGO ŁADUNKU”",
+        "B": "„ODPAD”, bo pozostałości po towarze w DPPL traktuje się jak odpad",
+        "C": "Ilość pozostałości w litrach, bo opis jest bez niej niepełny"
       },
       "image": null
     },
