@@ -9,7 +9,7 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0451-0465.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0451-0465.json"
 FIRST_PASS_BANK_SHA = "094473164719bc6a651a6e303dc117cfa6503ffb"
-EXPECTED_BANK_SHA = "f732aa354f959e2ba17bf870d901d2fe51aa0426"
+EXPECTED_BANK_SHA = "e0c671756644994d18480feae5c08bc70ee0ffbd"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(451, 466)]
 
 
@@ -67,7 +67,7 @@ class Partia31LiteralReview(unittest.TestCase):
         self.assertEqual([row["id"] for row in rows], EXPECTED_IDS)
         raw = BANK.read_bytes()
         blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
-        self.assertEqual(blob, "f732aa354f959e2ba17bf870d901d2fe51aa0426")
+        self.assertEqual(blob, "e0c671756644994d18480feae5c08bc70ee0ffbd")
 
 
 if __name__ == "__main__":
