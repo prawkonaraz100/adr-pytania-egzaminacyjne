@@ -29,6 +29,14 @@ EXPECTED_PAGES = {
     "ADR-B-0495": "129",
 }
 EXPECTED_COUNTS = {"OK": 2, "POPRAW": 13, "BLOKUJ": 0}
+EXPECTED_PAGES_ALL = {
+    "ADR-B-0481": [59], "ADR-B-0482": [57], "ADR-B-0483": [1325],
+    "ADR-B-0484": [1325], "ADR-B-0485": [1325], "ADR-B-0486": [1325],
+    "ADR-B-0487": [1339], "ADR-B-0488": [1339], "ADR-B-0489": [1339],
+    "ADR-B-0490": [1339], "ADR-B-0491": [1305, 1306],
+    "ADR-B-0492": [1305, 972], "ADR-B-0493": [975],
+    "ADR-B-0494": [975], "ADR-B-0495": [129],
+}
 
 
 def git_blob_sha(data: bytes) -> str:
@@ -54,6 +62,7 @@ class Partia33LiteralReview(unittest.TestCase):
             {row["id"]: str(row["gazette_page"]) for row in manifest["records"]},
             EXPECTED_PAGES,
         )
+        self.assertEqual({row["id"]: row["gazette_pages"] for row in manifest["records"]}, EXPECTED_PAGES_ALL)
         self.assertTrue(all(row["verification_status"] == "needs_review" for row in manifest["records"]))
         self.assertEqual(manifest["verified"], 0)
 
