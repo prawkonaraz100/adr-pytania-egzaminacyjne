@@ -1,0 +1,332 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0586–0600",
+  "bank_count": 780,
+  "bank_blob_sha": "bcac6f69bcec5dd257832774e54922c7c2c47d97",
+  "bank_changed": false,
+  "previous_uncompared": 195,
+  "compared": 15,
+  "remaining_without_comparison": 180,
+  "counts": {
+    "OK": 5,
+    "POPRAW": 10,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "method": "scripts/similarity.py exact Jaccard token ranking within module plus manual thematic review across all 780 records, including cross-module comparisons",
+    "threshold_0_45_pairs": 0,
+    "threshold_0_25_pairs": 3,
+    "manual_duplicate_pairs": [
+      [
+        "ADR-B-0586",
+        "ADR-B-0088"
+      ],
+      [
+        "ADR-B-0587",
+        "ADR-B-0516"
+      ],
+      [
+        "ADR-B-0589",
+        "ADR-B-0050"
+      ],
+      [
+        "ADR-B-0589",
+        "ADR-B-0620"
+      ],
+      [
+        "ADR-B-0590",
+        "ADR-B-0090"
+      ],
+      [
+        "ADR-B-0592",
+        "ADR-B-0210"
+      ],
+      [
+        "ADR-B-0593",
+        "ADR-B-0690"
+      ],
+      [
+        "ADR-B-0594",
+        "ADR-B-0105"
+      ],
+      [
+        "ADR-B-0594",
+        "ADR-B-0165"
+      ],
+      [
+        "ADR-B-0597",
+        "ADR-B-0024"
+      ],
+      [
+        "ADR-B-0598",
+        "ADR-B-0038"
+      ],
+      [
+        "ADR-B-0599",
+        "ADR-B-0070"
+      ]
+    ],
+    "similarity_pairs": [
+      {
+        "score": 0.292,
+        "ids": [
+          "ADR-B-0593",
+          "ADR-B-0219"
+        ],
+        "assessment": "bliskie, lecz odrębne: pytanie o wyłączenie silnika kontra brak możliwości odłączenia akumulatora"
+      },
+      {
+        "score": 0.28,
+        "ids": [
+          "ADR-B-0593",
+          "ADR-B-0739"
+        ],
+        "assessment": "bliskie, lecz odrębne: wyłączenie silnika kontra bezpieczna niedostępność wyłącznika akumulatora"
+      },
+      {
+        "score": 0.261,
+        "ids": [
+          "ADR-B-0593",
+          "ADR-B-0690"
+        ],
+        "assessment": "duplikat tematyczny: po awarii w bezpiecznym miejscu i wyłączenie silnika"
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0586",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        974
+      ],
+      "exact_quote": "Forma i zawartość instrukcji pisemnych powinny odpowiadać czterostronicowemu wzorowi podanemu poniżej.",
+      "finding": "Klucz A jest prawidłowy, ale pytanie powtarza ADR-B-0088: zastąpienie wzoru ADR własną notatką lub wersją firmową.",
+      "duplicate_candidates": [
+        "ADR-B-0088"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0587",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.3",
+      "gazette_pages": [
+        974
+      ],
+      "exact_quote": "Przed rozpoczęciem przewozu, członkowie załogi pojazdu powinni dowiedzieć się jakie towary niebezpieczne są załadowane oraz sprawdzić w instrukcjach pisemnych, jakie czynności powinny być podjęte w razie zaistnienia wypadku lub zagrożenia.",
+      "finding": "Klucz B jest zgodny z przepisem, ale pytanie powtarza zasadniczy obowiązek zapoznania całej załogi z ładunkiem i instrukcjami, badany już w ADR-B-0516.",
+      "duplicate_candidates": [
+        "ADR-B-0516"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0588",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 8.1.2.1",
+      "gazette_pages": [
+        1324
+      ],
+      "exact_quote": "Poza dokumentami wymaganymi na podstawie innych przepisów, w kabinie kierowcy jednostki transportowej powinny być przewożone następujące dokumenty: (a) dokumenty przewozowe ...; (b) instrukcje pisemne ...; (d) dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu...",
+      "finding": "Klucz C prawidłowo wskazuje, że dokumenty wymagane dla przewozu powinny być przy załodze w kabinie; pytanie obejmuje szerszy katalog niż pytania o pojedynczy dokument.",
+      "duplicate_candidates": [
+        "ADR-B-0146",
+        "ADR-B-0090"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0589",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.2",
+      "gazette_pages": [
+        974
+      ],
+      "exact_quote": "Przewoźnik powinien dostarczyć załodze pojazdu instrukcje sporządzone w języku(-ach), które każdy członek załogi pojazdu może przeczytać i zrozumieć przed rozpoczęciem przewozu.",
+      "finding": "Klucz A prawidłowy, ale pytanie powiela ADR-B-0050 i ADR-B-0620: zapewnienie zrozumiałego języka instrukcji każdemu członkowi załogi.",
+      "duplicate_candidates": [
+        "ADR-B-0050",
+        "ADR-B-0620"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0590",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.1; 8.1.2.3",
+      "gazette_pages": [
+        974,
+        1324
+      ],
+      "exact_quote": "W kabinie kierowcy, w miejscu łatwo dostępnym, powinny być przewożone instrukcje pisemne ...; Instrukcje pisemne określone w 5.4.3 powinny być przechowywane w taki sposób, aby były łatwo dostępne.",
+      "finding": "Klucz A prawidłowy, ale pytanie powtarza ADR-B-0090 o lokalizacji i łatwej dostępności instrukcji pisemnych.",
+      "duplicate_candidates": [
+        "ADR-B-0090"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0591",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 8.6.3.1–8.6.3.3; 8.6.4",
+      "gazette_pages": [
+        1338,
+        1339
+      ],
+      "exact_quote": "Jeżeli w jednostce transportowej znajdują się towary niebezpieczne, dla których wskazano różne kody ograniczeń przewozu przez tunele, to do całego ładunku stosuje się ten ze wskazanych kodów, który odpowiada największym ograniczeniom.",
+      "finding": "Klucz B trafnie nakazuje uwzględnić kod tunelowy i oznakowanie; ogólna procedura wyboru dozwolonej trasy nie powiela scenariusza pożaru w tunelu.",
+      "duplicate_candidates": [
+        "ADR-B-0064",
+        "ADR-B-0086"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0592",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych; Członkowie załogi pojazdu nie powinni gasić pożaru obejmującego przedział ładunkowy.",
+      "finding": "Pytanie łączy pożar i dowolne inne zdarzenie w tunelu bez rozróżnienia bezpiecznego zatrzymania, pożaru przedziału ładunkowego i ewakuacji; jest bliskie scenariuszowi ADR-B-0210 i wymaga precyzyjnego warunku.",
+      "duplicate_candidates": [
+        "ADR-B-0210"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0593",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest on dostępny.",
+      "finding": "Klucz A zgodny z pierwszą czynnością, ale pytanie powtarza zasadniczy scenariusz ADR-B-0690 dotyczący wyłączenia silnika po awarii i dostępnego wyłącznika akumulatora.",
+      "duplicate_candidates": [
+        "ADR-B-0690",
+        "ADR-B-0219",
+        "ADR-B-0739"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0594",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych.",
+      "finding": "Bezpośrednie powtórzenie ADR-B-0105 i ADR-B-0165: te same informacje przekazywane służbom ratowniczym.",
+      "duplicate_candidates": [
+        "ADR-B-0105",
+        "ADR-B-0165"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0595",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 1.1.3.1(a)",
+      "gazette_pages": [
+        23
+      ],
+      "exact_quote": "przewozu towarów niebezpiecznych wykonywanego przez osoby prywatne, jeżeli towary te znajdują się w opakowaniach stosowanych w sprzedaży detalicznej i służą tym osobom do osobistego użytku, użytku w gospodarstwie domowym lub w związku z ich aktywnością sportowo-rekreacyjną, pod warunkiem, że zastosowano środki zapobiegające uwolnieniu się zawartości w normalnych warunkach przewozu.",
+      "finding": "Klucz A prawidłowo odrzuca automatyczne zwolnienie: wyjątek wymaga jednocześnie określonego celu, opakowania detalicznego i zabezpieczenia przed uwolnieniem zawartości.",
+      "duplicate_candidates": [
+        "ADR-B-0002"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0596",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 8.1.5.1–8.1.5.2",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "dla każdego członka załogi pojazdu - kamizelka ostrzegawcza (np. określona w normie EN ISO 20471);",
+      "finding": "Klucz A prawidłowo odzwierciedla wymóg kamizelki ostrzegawczej dla każdego członka załogi. ADR-B-0705 dotyczy innych elementów wyposażenia: rękawic i ochrony oczu.",
+      "duplicate_candidates": [
+        "ADR-B-0705"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0597",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.1.5.1–8.1.5.2",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "przenośne urządzenia oświetleniowe ...; para rękawic ochronnych; oraz ochrona oczu (np. okulary ochronne).",
+      "finding": "Klucz C prawidłowy, ale pytanie powtarza ADR-B-0024: oba badają, że rękawice i ochrona oczu są odrębnymi elementami wyposażenia i nie zastępują się.",
+      "duplicate_candidates": [
+        "ADR-B-0024"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0598",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(a)–(b)",
+      "gazette_pages": [
+        961
+      ],
+      "exact_quote": "(a) numer UN poprzedzony literami „UN”; (b) prawidłową nazwę przewozową...",
+      "finding": "Klucz B prawidłowy, ale pytanie powtarza ADR-B-0038 o obowiązku prawidłowej nazwy przewozowej i jej niezastępowalności nazwą handlową lub samym numerem UN.",
+      "duplicate_candidates": [
+        "ADR-B-0038"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0599",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(e)–(f)",
+      "gazette_pages": [
+        962
+      ],
+      "exact_quote": "(f) całkowitą ilość każdego z towarów niebezpiecznych mającego odrębny numer UN, odrębną prawidłową nazwę przewozową lub, jeżeli została przypisana, odrębną grupę pakowania (odpowiednio jako objętość, masę brutto lub masę netto);",
+      "finding": "Klucz A prawidłowy, ale pytanie powtarza ADR-B-0070 o całkowitej ilości towaru niebezpiecznego w dokumencie przewozowym.",
+      "duplicate_candidates": [
+        "ADR-B-0070"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0600",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(g)",
+      "gazette_pages": [
+        962
+      ],
+      "exact_quote": "(g) nazwę i adres nadawcy;",
+      "finding": "Klucz C prawidłowo nakazuje uzupełnić nazwę i adres nadawcy. ADR-B-0068 dotyczy danych odbiorcy, a więc innego wymaganego pola dokumentu.",
+      "duplicate_candidates": [
+        "ADR-B-0068"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    }
+  ]
+}
