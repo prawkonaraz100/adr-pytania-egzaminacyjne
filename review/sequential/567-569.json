@@ -16,14 +16,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca podczas manewru na placu przez własną nieuwagę uszkodził zaparkowany samochód. Co ogólnie może wynikać z odpowiedzialności cywilnej?",
+        "stem": "Jadąca ciężarówka przewoźnika potrąciła pieszego. Kierowca jechał prawidłowo i nie można mu przypisać winy. Czy samoistny posiadacz tej ciężarówki może odpowiadać za szkodę według Kodeksu cywilnego?",
         "options": {
-          "A": "Może powstać obowiązek naprawienia szkody, jeśli spełniono przesłanki odpowiedzialności.",
-          "B": "Zawsze odpowiada wyłącznie właściciel pojazdu, nawet gdy kierowca wyrządził szkodę z własnej winy.",
-          "C": "Mandat drogowy automatycznie zastępuje wszelkie roszczenia cywilne o naprawienie szkody."
+          "A": "Tak, odpowiada także bez winy, chyba że zachodzi wyjątek z KC 435 § 1",
+          "B": "Nie, bo gdy kierowca nie ponosi winy, nikt nie odpowiada za szkodę z wypadku",
+          "C": "Tak, ale jedynie wtedy, gdy ciężarówka przewoziła towar niebezpieczny"
         },
         "correct_option": "A",
-        "explanation": "Jeżeli kierowca z własnej winy uszkodzi cudzy samochód, poszkodowany może domagać się naprawienia szkody, gdy spełnione są warunki odpowiedzialności cywilnej. Sam mandat nie rozstrzyga automatycznie roszczeń, a udział w zdarzeniu nie zawsze oznacza winę. W praktyce trzeba ustalić szkodę, zawinione działanie i związek między nimi. Podstawa: Kodeks cywilny, art. 415; zagadnienie omawiane w szkoleniu kierowcy ADR.",
+        "explanation": "Według przepisu 436 § 1 Kodeksu cywilnego samoistny posiadacz pojazdu mechanicznego odpowiada za szkodę wyrządzoną ruchem pojazdu tak jak przedsiębiorstwo z przepisu 435 § 1. To odpowiedzialność na zasadzie ryzyka, więc nie zależy od winy kierowcy. Posiadacz zwalnia się tylko przy sile wyższej albo wyłącznej winie poszkodowanego lub osoby trzeciej, za którą nie odpowiada. Rodzaj ładunku nie ma tu znaczenia. Podstawa: ADR 8.2.2.3.2 (k); Kodeks cywilny, przepisy 436 § 1 i 435 § 1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -32,7 +32,7 @@
           },
           {
             "code": "KC-2026-PL",
-            "reference": "Kodeks cywilny art. 415; ADR 8.2.2.3.2(k)",
+            "reference": "Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 436 § 1 i art. 435 § 1",
             "url": "https://eli.gov.pl/eli/DU/2026/795/ogl"
           }
         ],
@@ -62,14 +62,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewoźnik nie wykonał prawidłowo umowy dostawy, a kontrahent wskazuje, że poniósł z tego powodu szkodę. Jaka zasada ma ogólnie znaczenie?",
+        "stem": "Z winy kierowcy uszkodzono samochód dostawczy piekarza. Przez tydzień naprawy piekarz nie mógł rozwozić pieczywa i stracił zarobek. Co według przepisu 361 § 2 KC obejmuje naprawienie szkody?",
         "options": {
-          "A": "Odszkodowanie przysługuje zawsze, nawet gdy niewykonanie wynikało z okoliczności, za które dłużnik nie odpowiada.",
-          "B": "Może powstać obowiązek naprawienia szkody wynikłej z niewykonania lub nienależytego wykonania zobowiązania.",
-          "C": "Odpowiedzialność umowna dotyczy wyłącznie przewoźnika, który nie ma ważnego zaświadczenia ADR."
+          "A": "Sam koszt naprawy, bo utraconego zarobku nie da się w ogóle dokładnie wycenić",
+          "B": "Koszt naprawy oraz utracony zarobek, czyli korzyści, które mógł osiągnąć",
+          "C": "Sam utracony zarobek, bo naprawę samochodu pokrywa jego właściciel"
         },
         "correct_option": "B",
-        "explanation": "Jeśli przewoźnik nie wykona umowy prawidłowo i kontrahent poniesie przez to szkodę, może powstać obowiązek jej naprawienia. Nie oznacza to jednak automatycznej wypłaty w każdej sytuacji — znaczenie ma przyczyna niewykonania i to, czy przewoźnik odpowiada za dane okoliczności. To odpowiedzialność umowna, odrębna od mandatu drogowego i od samego posiadania uprawnień ADR. Podstawa: Kodeks cywilny, art. 471; zagadnienie omawiane w szkoleniu kierowcy ADR.",
+        "explanation": "Według przepisu 361 § 2 Kodeksu cywilnego naprawienie szkody obejmuje straty, które poszkodowany poniósł, oraz korzyści, które mógłby osiągnąć, gdyby mu szkody nie wyrządzono. Koszt naprawy samochodu to poniesiona strata, a zarobek utracony w czasie naprawy to utracona korzyść. Obie części szkody podlegają naprawieniu, jeżeli są normalnym następstwem zdarzenia według przepisu 361 § 1. Umowa lub szczególny przepis ustawy mogą to zmienić. Podstawa: ADR 8.2.2.3.2 (k); Kodeks cywilny, przepis 361.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -78,7 +78,7 @@
           },
           {
             "code": "KC-2026-PL",
-            "reference": "Kodeks cywilny art. 471; ADR 8.2.2.3.2(k)",
+            "reference": "Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 361 § 1 i § 2",
             "url": "https://eli.gov.pl/eli/DU/2026/795/ogl"
           }
         ],
@@ -108,14 +108,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po naruszeniu wymogu ADR firma pyta, czy kierowca musi automatycznie osobiście zapłacić każdą szkodę związaną ze zdarzeniem. Która odpowiedź jest najtrafniejsza?",
+        "stem": "Kierowca zatrudniony przez przewoźnika przy mocowaniu ładunku nieuważnie rzucił napinacz pasa i rozbił szybę w aucie osoby postronnej. Czy właściciel auta może żądać naprawienia szkody od przewoźnika?",
         "options": {
-          "A": "Odpowiedzialność cywilna nigdy nie dotyczy przewozu towarów niebezpiecznych.",
-          "B": "Każde naruszenie ADR automatycznie oznacza, że kierowca osobiście zapłaci pełną wartość szkody, bez badania okoliczności.",
-          "C": "Odpowiedzialność trzeba ocenić na podstawie właściwych przepisów i okoliczności zdarzenia."
+          "A": "Nie, za taki czyn odpowiada sam pracownik, a nie jego pracodawca",
+          "B": "Tak, ale jedynie wtedy, gdy przewoźnik źle wybrał lub nadzorował kierowcę",
+          "C": "Tak, przewoźnik odpowiada za szkodę z winy podwładnego przy pracy"
         },
         "correct_option": "C",
-        "explanation": "Samo naruszenie ADR nie oznacza automatycznie, że kierowca osobiście zapłaci całą szkodę. Trzeba ustalić okoliczności zdarzenia, przyczynę szkody i przepisy określające odpowiedzialność; nie można też z góry wykluczyć odpowiedzialności cywilnej. Dlatego błędne są zarówno automatyczne przypisanie całej winy kierowcy, jak i twierdzenie, że ADR wyłącza roszczenia. Podstawa: ADR 8.2.2.3.2(k), art. 415 i 471 Kodeksu cywilnego.",
+        "explanation": "Według przepisu 430 Kodeksu cywilnego ten, kto na własny rachunek powierza czynność osobie podlegającej jego kierownictwu, odpowiada za szkodę wyrządzoną z winy tej osoby przy tej czynności. Kierowca mocował ładunek w ramach pracy, a szkoda powstała z jego winy. Właściciel auta może więc żądać naprawienia szkody od przewoźnika, nawet gdy przewoźnik dobrze wybrał i nadzorował kierowcę. Podstawa: ADR 8.2.2.3.2 (k); Kodeks cywilny, przepis 430.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -124,7 +124,7 @@
           },
           {
             "code": "KC-2026-PL",
-            "reference": "Kodeks cywilny art. 415 i 471; ADR 8.2.2.3.2(k)",
+            "reference": "Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 430",
             "url": "https://eli.gov.pl/eli/DU/2026/795/ogl"
           }
         ],
