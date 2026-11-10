@@ -1,0 +1,557 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0601–0615",
+  "bank_count": 780,
+  "bank_blob_sha": "6147aeb45bf0efd1631ae17ce5e1d82357bffb0b",
+  "bank_changed": false,
+  "previous_uncompared": 180,
+  "compared": 15,
+  "remaining_without_comparison": 165,
+  "counts": {
+    "OK": 2,
+    "POPRAW": 13,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "method": "Exact scripts/similarity.py Jaccard tokenization and same-module comparison across the full 780-question bank, plus manual thematic comparison across all modules.",
+    "threshold_0_45_pairs": 0,
+    "threshold_0_25_pairs": 6,
+    "manual_duplicate_pairs": [
+      [
+        "ADR-B-0601",
+        "ADR-B-0089"
+      ],
+      [
+        "ADR-B-0601",
+        "ADR-B-0215"
+      ],
+      [
+        "ADR-B-0601",
+        "ADR-B-0287"
+      ],
+      [
+        "ADR-B-0601",
+        "ADR-B-0714"
+      ],
+      [
+        "ADR-B-0601",
+        "ADR-B-0779"
+      ],
+      [
+        "ADR-B-0602",
+        "ADR-B-0032"
+      ],
+      [
+        "ADR-B-0602",
+        "ADR-B-0083"
+      ],
+      [
+        "ADR-B-0603",
+        "ADR-B-0065"
+      ],
+      [
+        "ADR-B-0603",
+        "ADR-B-0174"
+      ],
+      [
+        "ADR-B-0607",
+        "ADR-B-0003"
+      ],
+      [
+        "ADR-B-0607",
+        "ADR-B-0719"
+      ],
+      [
+        "ADR-B-0608",
+        "ADR-B-0679"
+      ],
+      [
+        "ADR-B-0608",
+        "ADR-B-0721"
+      ],
+      [
+        "ADR-B-0613",
+        "ADR-B-0101"
+      ],
+      [
+        "ADR-B-0613",
+        "ADR-B-0178"
+      ],
+      [
+        "ADR-B-0613",
+        "ADR-B-0735"
+      ],
+      [
+        "ADR-B-0614",
+        "ADR-B-0107"
+      ],
+      [
+        "ADR-B-0614",
+        "ADR-B-0166"
+      ],
+      [
+        "ADR-B-0614",
+        "ADR-B-0222"
+      ],
+      [
+        "ADR-B-0614",
+        "ADR-B-0641"
+      ],
+      [
+        "ADR-B-0614",
+        "ADR-B-0742"
+      ],
+      [
+        "ADR-B-0615",
+        "ADR-B-0017"
+      ],
+      [
+        "ADR-B-0615",
+        "ADR-B-0170"
+      ],
+      [
+        "ADR-B-0615",
+        "ADR-B-0256"
+      ],
+      [
+        "ADR-B-0615",
+        "ADR-B-0698"
+      ],
+      [
+        "ADR-B-0615",
+        "ADR-B-0752"
+      ]
+    ],
+    "similarity_pairs": [
+      {
+        "score": 0.312,
+        "ids": [
+          "ADR-B-0614",
+          "ADR-B-0641"
+        ],
+        "assessment": "duplikat tematyczny: pożar w przedziale ładunkowym"
+      },
+      {
+        "score": 0.312,
+        "ids": [
+          "ADR-B-0248",
+          "ADR-B-0603"
+        ],
+        "assessment": "bliskie słownictwo, lecz 0248 rozróżnia cyfrę kategorii transportowej i kod tunelowy"
+      },
+      {
+        "score": 0.286,
+        "ids": [
+          "ADR-B-0222",
+          "ADR-B-0614"
+        ],
+        "assessment": "duplikat tematyczny: zakaz gaszenia pożaru ładowni"
+      },
+      {
+        "score": 0.273,
+        "ids": [
+          "ADR-B-0032",
+          "ADR-B-0603"
+        ],
+        "assessment": "bliskie słownictwo, lecz 0032 dotyczy kodu E, a 0603 znaku „(-)”"
+      },
+      {
+        "score": 0.267,
+        "ids": [
+          "ADR-B-0053",
+          "ADR-B-0615"
+        ],
+        "assessment": "bliskie słownictwo, lecz 0053 dotyczy numeru zaczynającego się od cyfry 8"
+      },
+      {
+        "score": 0.25,
+        "ids": [
+          "ADR-B-0063",
+          "ADR-B-0603"
+        ],
+        "assessment": "bliskie słownictwo, lecz 0063 pyta o lokalizację kodu, a 0603 o znaczenie „(-)"
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0601",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.2.1; 5.4.1.1.7",
+      "gazette_pages": [
+        29,
+        965
+      ],
+      "exact_quote": "Sztuki przesyłek, kontenery, cysterny przenośne, kontenery-cysterny i MEGC, które nie spełniają wymagań ADR dotyczących pakowania, pakowania razem, oznakowania i stosowania nalepek ostrzegawczych, ale są zgodne z wymaganiami Kodeksu IMDG lub Instrukcji Technicznych ICAO, powinny być dopuszczone do przewozu w łańcuchu transportowym zawierającym przewóz morski lub lotniczy pod następującymi warunkami: | W przypadku przewozu zgodnie z 1.1.4.2.1, w dokumencie przewozowym powinien być zamieszczony dodatkowo następujący zapis: „PRZEWÓZ ZGODNY Z 1.1.4.2.1”.",
+      "finding": "Klucz B jest zgodny z ogólną procedurą, ale pytanie powiela obowiązek dodatkowego wpisu w łańcuchu morsko-drogowym z 0089, 0215, 0287, 0714 i 0779. Wszystkie opcje przekraczają 80 znaków.",
+      "duplicate_candidates": [
+        "ADR-B-0089",
+        "ADR-B-0215",
+        "ADR-B-0287",
+        "ADR-B-0714",
+        "ADR-B-0779"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Ciężarówka wiezie sztuki przesyłek do portu lotniczego. Towary zapakowano i oznakowano zgodnie z Instrukcjami Technicznymi ICAO, ale nie w pełni według ADR. Kiedy można zastosować 1.1.4.2.1?",
+        "options": {
+          "A": "Gdy dalszy odcinek łańcucha obejmuje przewóz lotniczy i spełniono warunki 1.1.4.2.1.",
+          "B": "Zawsze, gdy nadawca wystawił dokument przewozowy ADR.",
+          "C": "Tylko wtedy, gdy przewóz drogowy kończy się w magazynie przewoźnika."
+        },
+        "correct_option": "A",
+        "sources": [
+          "ADR 2025, 1.1.4.2.1, s. 29"
+        ],
+        "reason": "Sprawdza warunki dla łańcucha lotniczego, a nie kolejny wariant wpisu w łańcuchu morskim."
+      }
+    },
+    {
+      "id": "ADR-B-0602",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.6.3.1; 8.6.4",
+      "gazette_pages": [
+        1338,
+        1339
+      ],
+      "exact_quote": "Ograniczenia przewozu towaru niebezpiecznego przez tunele określone są kodem wskazanym dla tego towaru w kolumnie (15) w tabeli A w dziale 3.2. | Zakaz przewozu przez tunele kategorii E.",
+      "finding": "Wniosek jest prawidłowy, ale to ogólny wariant zakazu przejazdu przy kodzie E, podobny do 0032 i 0083. Podstawa powinna wskazywać wprost 8.6.3.1 i tabelę 8.6.4.",
+      "duplicate_candidates": [
+        "ADR-B-0032",
+        "ADR-B-0083"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Przed tunelem znajduje się znak zakazu przewozu towarów niebezpiecznych z tabliczką „E”. Co oznacza ta litera?",
+        "options": {
+          "A": "Tunel zaliczono do kategorii E; ograniczenie dotyczy przewozów objętych tą kategorią.",
+          "B": "To kod tunelowy towaru, który zawsze oznacza zakaz wszystkich tuneli.",
+          "C": "Oznacza kategorię pojazdu, a nie kategorię tunelu."
+        },
+        "correct_option": "A",
+        "sources": [
+          "ADR 2025, 1.9.5.3; 8.6.2, s. 1338"
+        ],
+        "reason": "Uzupełnia kompetencję kategorii tuneli A–E, bez powtarzania odczytu kodu E."
+      }
+    },
+    {
+      "id": "ADR-B-0603",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.6.3.1",
+      "gazette_pages": [
+        1338
+      ],
+      "exact_quote": "Znak „(—)” podany zamiast tego kodu oznacza, że towar niebezpieczny nie podlega żadnym ograniczeniom przewozu przez tunele.",
+      "finding": "Bezpośrednie powtórzenie znaczenia znaku „(-)” z 0065 i 0174; opcja C ma 85 znaków.",
+      "duplicate_candidates": [
+        "ADR-B-0065",
+        "ADR-B-0174"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Jednostka przewozi dwa towary niebezpieczne: pierwszy ma w kolumnie (15) znak „(-)”, a drugi kod „E”. Który kod ustala ograniczenie dla całego ładunku?",
+        "options": {
+          "A": "Kod E, ponieważ stosuje się kod odpowiadający największym ograniczeniom.",
+          "B": "Znak „(-)”, ponieważ znosi ograniczenia pozostałych towarów.",
+          "C": "Żaden, ponieważ różne kody wzajemnie się wykluczają."
+        },
+        "correct_option": "A",
+        "sources": [
+          "ADR 2025, 8.6.3.1–8.6.3.2, s. 1338"
+        ],
+        "reason": "Testuje stosowanie najbardziej restrykcyjnego kodu dla ładunku mieszanego, nie ponownie samą definicję kreski."
+      }
+    },
+    {
+      "id": "ADR-B-0604",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.6.4",
+      "gazette_pages": [
+        1339
+      ],
+      "exact_quote": "Przewóz w cysternie: zakaz przewozu przez tunele kategorii D i E; Inny przewóz: zakaz przewozu przez tunele kategorii E.",
+      "finding": "Klucz C odpowiada tabeli, ale pytanie dotyczy przewozu w cysternie, czyli zakresu kursu specjalistycznego, a nie podstawowego.",
+      "duplicate_candidates": [],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Towar w sztukach przesyłek ma kod tunelowy „C/E”. Jednostka transportowa podlega ograniczeniom tunelowym ADR. Czy może wjechać do tunelu kategorii D?",
+        "options": {
+          "A": "Tak. Przy innym przewozie kod C/E zakazuje tylko tuneli kategorii E.",
+          "B": "Nie. Kod C/E zakazuje tuneli kategorii C, D i E przy każdym przewozie.",
+          "C": "Nie. Każdy kod zawierający literę E zakazuje tuneli D i E."
+        },
+        "correct_option": "A",
+        "sources": [
+          "ADR 2025, 8.6.4, s. 1339"
+        ],
+        "reason": "Niecysternowy przypadek kodu C/E w ramach tej samej kompetencji 11-K02."
+      }
+    },
+    {
+      "id": "ADR-B-0605",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 3.4.2",
+      "gazette_pages": [
+        686
+      ],
+      "exact_quote": "Całkowita masa brutto sztuki przesyłki nie powinna przekraczać 30 kg.",
+      "finding": "Limit 30 kg jest prawidłowy, lecz stem mówi o masie opakowania zewnętrznego, podczas gdy przepis określa masę brutto całej sztuki przesyłki. Wszystkie opcje przekraczają 80 znaków.",
+      "duplicate_candidates": [],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Sztuka przesyłki LQ waży 32 kg brutto. Czy spełnia limit z 3.4.2?",
+        "options": {
+          "A": "Nie. Limit wynosi 30 kg brutto na sztukę przesyłki.",
+          "B": "Tak, jeśli opakowanie jest szczelne.",
+          "C": "Tak, gdy przewoźnik wpisze masę do dokumentu."
+        },
+        "correct_option": "A",
+        "sources": [
+          "ADR 2025, 3.4.2, s. 686"
+        ],
+        "reason": "Doprecyzowuje, że limit dotyczy masy brutto całej sztuki przesyłki."
+      }
+    },
+    {
+      "id": "ADR-B-0606",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.3.6.1; 1.1.3.6.4",
+      "gazette_pages": [
+        25,
+        28
+      ],
+      "exact_quote": "W rozumieniu niniejszego podrozdziału, towary niebezpieczne zaliczone są do kategorii transportowych 0, 1, 2, 3 lub 4, zgodnie ze wskazaniem w kolumnie (15) tabeli A w dziale 3.2. | Jeżeli w tej samej jednostce transportowej przewożone są towary niebezpieczne należące do różnych kategorii transportowych, to suma: […] nie powinna przekraczać wartości obliczeniowej „1 000”.",
+      "finding": "Zasada jest poprawna i odrębna od pytań rachunkowych 0271, 0272, 0570 i 0571. Problemem są zbyt długie dystraktory B i C.",
+      "duplicate_candidates": [],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Kierowca ocenia przewóz według wyłączenia ilościowego z ADR 1.1.3.6 i sprawdza tylko masę całego ładunku. Czy to wystarcza?",
+        "options": {
+          "A": "Tak, wystarczy zważyć cały ładunek.",
+          "B": "Nie. Ustal kategorię każdego towaru i zastosuj zasady obliczenia.",
+          "C": "Tak, jeśli ładunek mieści się w ładowności pojazdu."
+        },
+        "correct_option": "B",
+        "sources": [
+          "ADR 2025, 1.1.3.6.1 i 1.1.3.6.4, s. 25, 28"
+        ],
+        "reason": "Zachowuje odrębny cel pytania i skraca opcje poniżej 80 znaków."
+      }
+    },
+    {
+      "id": "ADR-B-0607",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.2.1.1; 8.2.1.4",
+      "gazette_pages": [
+        1326
+      ],
+      "exact_quote": "Kierowcy pojazdów przewożących towary niebezpieczne powinni posiadać zaświadczenie wydane przez właściwą władzę, stwierdzające, że przeszli oni kurs i zdali egzamin w zakresie wymagań, które powinny być spełnione podczas przewozu towarów niebezpiecznych.",
+      "finding": "Klucz C jest prawidłowy, ale pytanie powtarza ogólny obowiązek posiadania zaświadczenia ADR, badany w 0003 i 0719; opcje B i C są zbyt długie.",
+      "duplicate_candidates": [
+        "ADR-B-0003",
+        "ADR-B-0719"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Kierowca ma zaświadczenie ADR po kursie podstawowym i ma przewozić materiały klasy 1 inne niż podklasa 1.4, grupa zgodności S. Czy samo zaświadczenie podstawowe wystarcza?",
+        "options": {
+          "A": "Tak, kurs podstawowy obejmuje wszystkie klasy bez wyjątków.",
+          "B": "Nie. Wymagany jest także kurs specjalistyczny dla klasy 1.",
+          "C": "Tak, jeśli przewoźnik wyda pisemne upoważnienie."
+        },
+        "correct_option": "B",
+        "sources": [
+          "ADR 2025, 8.2.1.4, s. 1326"
+        ],
+        "reason": "Sprawdza szczególny obowiązek kursu specjalistycznego dla klasy 1."
+      }
+    },
+    {
+      "id": "ADR-B-0608",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.1.2.4; 3.2.1",
+      "gazette_pages": [
+        119
+      ],
+      "exact_quote": "Towary niebezpieczne, które są wymienione lub zdefiniowane w podrozdziale 2.2.x.2 każdej klasy, nie są dopuszczone do przewozu.",
+      "finding": "Obecny stem nie podaje numeru UN ani konkretnego warunku tabeli A, więc nie wskazuje, jaki zakaz ma zastosowanie. Jest ogólnikiem zbliżonym do 0679 i 0721.",
+      "duplicate_candidates": [
+        "ADR-B-0679",
+        "ADR-B-0721"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Nadawca chce wysłać materiał samoreaktywny typu A, mimo że przygotował dla niego dokument przewozowy. Czy taki materiał jest dopuszczony do przewozu ADR?",
+        "options": {
+          "A": "Nie. Materiały samoreaktywne typu A nie są dopuszczone do przewozu.",
+          "B": "Tak, jeśli opakowanie ma znak UN.",
+          "C": "Tak, jeśli przewóz odbywa się na krótkiej trasie."
+        },
+        "correct_option": "A",
+        "sources": [
+          "ADR 2025, 2.2.41.2.3, s. 176"
+        ],
+        "reason": "Podaje konkretny rodzaj materiału i bezpośrednią podstawę zakazu."
+      }
+    },
+    {
+      "id": "ADR-B-0609",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 3.4.7.1",
+      "gazette_pages": [
+        687
+      ],
+      "exact_quote": "Z wyjątkiem transportu lotniczego, sztuki przesyłek zawierające towary niebezpieczne w ilościach ograniczonych powinny posiadać znak wskazany na rys. 3.4.7.1: | Znak powinien być dobrze widoczny, czytelny i odporny na działanie czynników atmosferycznych bez istotnej utraty tych cech.",
+      "finding": "Klucz B jest prawidłowy. To odrębny przypadek od oznakowania opakowania zbiorczego w 0534, ale wszystkie opcje przekraczają 80 znaków.",
+      "duplicate_candidates": [],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Przesyłki LQ są prawidłowo zapakowane, ale kierowca chce usunąć znak LQ z opakowania. Czy może?",
+        "options": {
+          "A": "Tak, jeśli odbiorca zna zawartość.",
+          "B": "Nie, wymagany znak LQ musi pozostać widoczny.",
+          "C": "Tak, wystarczy wpisać LQ w dokumencie."
+        },
+        "correct_option": "B",
+        "sources": [
+          "ADR 2025, 3.4.7.1, s. 687"
+        ],
+        "reason": "Skraca opcje bez zmiany badanego obowiązku."
+      }
+    },
+    {
+      "id": "ADR-B-0610",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 3.2.1, tabela A, kolumna 5",
+      "gazette_pages": [
+        308
+      ],
+      "exact_quote": "Zawiera numer wzoru nalepki (patrz 5.2.2.2 i 5.3.1.7), która powinna być umieszczona na sztukach przesyłek, kontenerach, kontenerach-cysternach, cysternach przenośnych, MEGC i pojazdach.",
+      "finding": "Klucz A jest prawidłowy. Pytanie sprawdza odczyt kolumny 5; 0128 dotyczy kolumny 3a, a 0655 interpretuje jednocześnie kilka pól tabeli A. Brak bezpośredniego duplikatu.",
+      "duplicate_candidates": [
+        "ADR-B-0128",
+        "ADR-B-0655"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0611",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 2.2.41.1.1; 2.2.42.1.1",
+      "gazette_pages": [
+        171,
+        182
+      ],
+      "exact_quote": "Tytuł klasy 4.1 obejmuje materiały i przedmioty zapalne, materiały wybuchowe odczulone, które są stałe zgodnie z kryterium podanym pod (a) w definicji „materiału stałego” w rozdziale 1.2.1 oraz substancje samoreaktywne ciekłe lub stałe i materiały polimeryzujące. | Tytuł klasy 4.2 obejmuje: Materiały piroforyczne […] oraz Materiały i przedmioty samonagrzewające się […].",
+      "finding": "Klucz C prawidłowo odróżnia materiały stałe zapalne klasy 4.1 od materiałów podatnych na samozapalenie lub samonagrzewanie klasy 4.2. Brak bezpośredniego duplikatu w kompetencji 02-K04.",
+      "duplicate_candidates": [],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0612",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej; | Jeżeli jest to właściwe i bezpieczne, zapobiec przedostaniu się uwolnionych materiałów do środowiska wodnego lub kanalizacji oraz zebrać uwolnione materiały, używając wyposażenia przewożonego w jednostce transportowej;",
+      "finding": "Klucz B jest bezpieczny i zgodny z warunkiem „jeżeli jest to właściwe i bezpieczne”. Scenariusz doprecyzowuje brak bezpiecznego dostępu przez opary, więc nie jest ścisłym duplikatem 0100/0163; opcja A ma 82 znaki.",
+      "duplicate_candidates": [
+        "ADR-B-0100",
+        "ADR-B-0163"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "stem": "Po wycieku ciecz zbliża się do kratki kanalizacyjnej, a jedyna droga dojścia prowadzi przez opary. Co powinien zrobić kierowca?",
+        "options": {
+          "A": "Podejść przez opary i zatkać odpływ.",
+          "B": "Odejść bezpiecznie, ostrzec innych i wezwać służby.",
+          "C": "Spłukać ciecz wodą do kanalizacji."
+        },
+        "correct_option": "B",
+        "sources": [
+          "ADR 2025, 5.4.3.4, s. 975"
+        ],
+        "reason": "Skraca opcję A i zachowuje warunek bezpieczeństwa."
+      }
+    },
+    {
+      "id": "ADR-B-0613",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej;",
+      "finding": "Klucz C jest prawidłowy, ale pytanie powiela scenariusze nieznanego rozlewu i unikania oparów z 0101 i 0178; podobny motyw występuje w 0735. Kompetencja 03-K05 jest nasycona.",
+      "duplicate_candidates": [
+        "ADR-B-0101",
+        "ADR-B-0178",
+        "ADR-B-0735"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "reason_no_safe_candidate": "Kompetencja 03-K05 jest nasycona scenariuszami unikania kontaktu z rozlewem i oparami. Nie proponuję kolejnej parafrazy; potrzebna jest decyzja o rozszerzeniu lub zmianie zakresu kompetencji."
+      }
+    },
+    {
+      "id": "ADR-B-0614",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Członkowie załogi pojazdu nie powinni gasić pożaru obejmującego przedział ładunkowy;",
+      "finding": "Klucz A jest prawidłowy, ale to bezpośrednie powtórzenie zakazu gaszenia ładowni, badanego w 0107, 0166, 0222, 0641 i 0742. Kompetencja 05-K05 jest wąska i nasycona.",
+      "duplicate_candidates": [
+        "ADR-B-0107",
+        "ADR-B-0166",
+        "ADR-B-0222",
+        "ADR-B-0641",
+        "ADR-B-0742"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "reason_no_safe_candidate": "Kompetencja 05-K05 dotyczy wprost zakazu gaszenia pożaru ładowni; wszystkie dostępne warianty scenariusza sprawdzają już ten sam zakaz. Nie proponuję kolejnej parafrazy."
+      }
+    },
+    {
+      "id": "ADR-B-0615",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.3.1",
+      "gazette_pages": [
+        956
+      ],
+      "exact_quote": "Numer rozpoznawczy zagrożenia poprzedzony literą „X” oznacza, że materiał reaguje niebezpiecznie z wodą. W odniesieniu do takich materiałów woda może być stosowana jedynie za zgodą specjalistów.",
+      "finding": "Klucz B jest prawidłowy, lecz pytanie powtarza znaczenie litery X i warunek zgody specjalistów z 0017, 0170, 0256, 0698 i 0752. Kompetencja 06-K04 jest nasycona.",
+      "duplicate_candidates": [
+        "ADR-B-0017",
+        "ADR-B-0170",
+        "ADR-B-0256",
+        "ADR-B-0698",
+        "ADR-B-0752"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "reason_no_safe_candidate": "Kompetencja 06-K04 jest wąska i jej pozostałe rekordy już sprawdzają znaczenie X, reakcję z wodą oraz zgodę specjalistów. Nie proponuję kolejnej parafrazy tej samej reguły."
+      }
+    }
+  ]
+}
