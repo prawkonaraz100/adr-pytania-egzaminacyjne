@@ -6,7 +6,7 @@
   "seed": 2026102705,
   "variant": 5,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "73aa25f2ae5fed6f40b1948dfb917f082c08b58e",
+  "source_bank_head": "7f2be64ba60fef44ab136bdf59cbb4bdd949c172",
   "excluded_question_ids": [
     "ADR-B-0004",
     "ADR-B-0008",
@@ -334,11 +334,11 @@
       "number": 16,
       "id": "ADR-B-0547",
       "module_id": "ADR-B-06",
-      "stem": "Kontener zawiera towary niebezpieczne należące do więcej niż jednej klasy. Jak ustalić, jakie nalepki dużego formatu są wymagane na zewnątrz?",
+      "stem": "W kontenerze są beczki z metanolem UN 1230, który ma nalepki 3 i 6.1, oraz kanistry z cieczą żrącą klasy 8 bez zagrożenia dodatkowego. Jakie duże nalepki ostrzegawcze trzeba umieścić na kontenerze?",
       "options": {
-        "A": "Sprawdzić wymagania ADR i umieścić komplet wymaganych nalepek we właściwych miejscach",
-        "B": "Wybrać nalepkę klasy o najwyższym numerze, ponieważ według tego poglądu ta klasa ma pierwszeństwo nad pozostałymi zagrożeniami",
-        "C": "Wybrać nalepkę według numeru UN z dokumentu"
+        "A": "Nalepki 3, 6.1 i 8, bo zagrożenia 6.1 nie wskazuje tu inna duża nalepka",
+        "B": "Nalepki 3 i 8, bo przy kilku klasach pomija się zagrożenia dodatkowe",
+        "C": "Jedną nalepkę klasy o najwyższym numerze, czyli nalepkę wzoru 8 na drzwiach"
       },
       "image": null
     },
