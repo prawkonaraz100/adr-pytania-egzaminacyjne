@@ -6,7 +6,7 @@
   "seed": 2026102701,
   "variant": 1,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "b240a96d8c9d0bae561d132b0a6bc8f705ee7ca2",
+  "source_bank_head": "bcac6f69bcec5dd257832774e54922c7c2c47d97",
   "excluded_question_ids": [],
   "question_count": 30,
   "time_limit_minutes": 60,
@@ -297,11 +297,11 @@
       "number": 23,
       "id": "ADR-B-0571",
       "module_id": "ADR-B-01",
-      "stem": "W pojeździe przewożono 250 jednostek kategorii transportowej 2 i 300 kategorii 3. Czy obliczony wynik przekracza próg 1000?",
+      "stem": "Na furgon załadowano 250 l farby kategorii transportowej 2 i 30 próżnych, nieoczyszczonych beczek po niej. Tabela 1.1.3.6.3 zalicza takie beczki do kategorii 4. Jaki wynik daje obliczenie z 1.1.3.6.4?",
       "options": {
-        "A": "Nie: wynik wynosi 800, jeśli kategorię 2 błędnie pomnożymy przez 2 zamiast przez 3",
-        "B": "Tak: 250 razy 3 plus 300 daje 1050, czyli wynik przekracza 1000",
-        "C": "Nie: obie kategorie zawsze korzystają osobno z limitu 1000"
+        "A": "780, bo do 250 × 3 dolicza się 30 beczek tak jak kategorię 3",
+        "B": "750, bo 250 × 3, a kategorii 4 nie wlicza się do tej sumy",
+        "C": "280, bo kategorie 2 i 4 dodaje się bez mnożników"
       },
       "image": null
     },

@@ -57,18 +57,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W pojeździe przewożono 250 jednostek kategorii transportowej 2 i 300 kategorii 3. Czy obliczony wynik przekracza próg 1000?",
+        "id": "ADR-B-0571",
+        "module_id": "ADR-B-01",
+        "stem": "Na furgon załadowano 250 l farby kategorii transportowej 2 i 30 próżnych, nieoczyszczonych beczek po niej. Tabela 1.1.3.6.3 zalicza takie beczki do kategorii 4. Jaki wynik daje obliczenie z 1.1.3.6.4?",
         "options": {
-          "A": "Nie: wynik wynosi 800, jeśli kategorię 2 błędnie pomnożymy przez 2 zamiast przez 3",
-          "B": "Tak: 250 razy 3 plus 300 daje 1050, czyli wynik przekracza 1000",
-          "C": "Nie: obie kategorie zawsze korzystają osobno z limitu 1000"
+          "A": "780, bo do 250 × 3 dolicza się 30 beczek tak jak kategorię 3",
+          "B": "750, bo 250 × 3, a kategorii 4 nie wlicza się do tej sumy",
+          "C": "280, bo kategorie 2 i 4 dodaje się bez mnożników"
         },
         "correct_option": "B",
-        "explanation": "Przy mieszanym ładunku nie liczysz limitu osobno dla każdej kategorii. Ilość kategorii 2 mnożysz przez 3, a kategorii 3 przez 1, więc tutaj otrzymujesz 250 × 3 + 300 = 1050. To więcej niż 1000, dlatego nie można oprzeć zwolnienia na tym obliczeniu; wynik 800 pomija właściwy mnożnik, a C błędnie rozdziela limit. Podstawa: ADR 1.1.3.6.4.",
+        "explanation": "Według 1.1.3.6.4 do sumy wlicza się ilości z kategorii transportowych 1, 2 i 3, a ilość z kategorii 2 mnoży się przez 3. Kategorii 4 nie ma w tym wzorze, a tabela 1.1.3.6.3 podaje dla niej maksymalną ilość „bez ograniczeń”. Próżne nieoczyszczone opakowania po towarach spoza kategorii 0 należą do kategorii 4, więc suma wynosi 250 × 3, czyli 750. To mniej niż 1000. Podstawa: ADR 1.1.3.6.4 i 1.1.3.6.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.3.6.4",
+            "reference": "ADR 2025, 1.1.3.6.4; 1.1.3.6.3 (kategoria 4)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -98,18 +100,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Magazyn przygotował 990 sztuk przesyłek EQ w jednym pojeździe. Co jeszcze należy ocenić oprócz liczby sztuk?",
+        "id": "ADR-B-0572",
+        "module_id": "ADR-B-01",
+        "stem": "Ciężarówka wiezie 400 kartonów z farbą w ilościach wyłączonych (EQ). Kartony spełniają wymagania działu 3.5. Czy według 3.5.1.1 pojazd musi mieć tablice barwy pomarańczowej?",
         "options": {
-          "A": "Tylko jednakową masę wszystkich sztuk, ponieważ ograniczenie dotyczy masy",
-          "B": "Tablice przy każdej sztuce EQ",
-          "C": "Wymagane warunki pakowania, oznakowania oraz dokumentacji EQ"
+          "A": "Tak, bo farba klasy 3 wymaga tablic bez względu na sposób pakowania",
+          "B": "Tak, jeśli w pojeździe jest ponad 100 kartonów EQ",
+          "C": "Nie, ilości wyłączone zgodne z działem 3.5 nie wymagają tablic"
         },
         "correct_option": "C",
-        "explanation": "990 sztuk EQ mieści się poniżej limitu 1000 sztuk w pojeździe lub kontenerze, ale sama liczba nie potwierdza zgodności przewozu. Nadal trzeba spełnić warunki dotyczące opakowań, oznakowania i dokumentacji dla ilości wyłączonych. Nie zastępuje ich jednakowa masa opakowań ani umieszczanie tablic na każdej sztuce. Przed wyjazdem sprawdź wszystkie wymagania EQ. Podstawa: ADR 3.5.1–3.5.6.",
+        "explanation": "Według 3.5.1.1 ilości wyłączone spełniające przepisy działu 3.5 nie podlegają innym przepisom ADR, z wyjątkiem kilku wymienionych tam wymagań. Są to szkolenie z działu 1.3, zasady klasyfikacji z części 2 i część wymagań pakowania z 4.1.1. Dział 5.3 o tablicach barwy pomarańczowej nie jest na tej liście, więc pojazd ich nie potrzebuje. Trzeba jednak pilnować limitu 1000 sztuk przesyłek z 3.5.5. Podstawa: ADR 3.5.1.1 i 3.5.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.5.1–3.5.6",
+            "reference": "ADR 2025, 3.5.1.1; 3.5.5",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -139,14 +143,16 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Dokumenty przesyłek w ilościach wyłączonych EQ nie podają liczby sztuk przesyłek. Co należy zrobić przed rozpoczęciem przewozu?",
+        "id": "ADR-B-0573",
+        "module_id": "ADR-B-01",
+        "stem": "Kartonom z towarem w ilościach wyłączonych (EQ) towarzyszy list przewozowy CMR. Nie ma w nim żadnej informacji o EQ ani o liczbie kartonów. Co trzeba zrobić przed przewozem według 3.5.6?",
         "options": {
-          "A": "Uzupełnić wymagany wpis o ilościach EQ i liczbie sztuk przesyłek",
-          "B": "Wystarczy podpis i nazwa przewoźnika",
-          "C": "Pominąć wpis, jeżeli wszystkie opakowania są małe i mieszczą się na palecie"
+          "A": "Dopisać „Towary niebezpieczne w ilościach wyłączonych” i liczbę sztuk",
+          "B": "Nic, bo przy EQ w liście CMR wystarczy sam podpis i nazwa przewoźnika",
+          "C": "Nic, jeśli kartony są małe i mieszczą się razem na jednej palecie"
         },
         "correct_option": "A",
-        "explanation": "Przy przewozie w ilościach wyłączonych (EQ) dokument towarzyszący musi zawierać informację, że chodzi o towary w EQ, oraz liczbę sztuk przesyłek. Dzięki temu kontrolujący wiedzą, że zastosowano ten tryb i jakiej liczby opakowań dotyczy. Sam podpis przewoźnika ani niewielki rozmiar opakowań nie zastępują wymaganego wpisu. Podstawa: ADR 3.5.6.",
+        "explanation": "Według 3.5.6, jeżeli towarom w ilościach wyłączonych towarzyszy dokument, na przykład list przewozowy CMR, co najmniej jeden taki dokument ma zawierać zapis „Towary niebezpieczne w ilościach wyłączonych”. Trzeba w nim też podać liczbę sztuk przesyłek. Tutaj list CMR nie ma żadnej z tych informacji, więc trzeba je dopisać przed przewozem. Podpis przewoźnika ani mały rozmiar kartonów ich nie zastępują. Podstawa: ADR 3.5.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -180,18 +186,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Jedna jednostka transportowa przewozi towary o kodach tunelowych D i E. Jak należy ustalić kod ograniczenia dla całego ładunku?",
+        "id": "ADR-B-0574",
+        "module_id": "ADR-B-11",
+        "stem": "Pojazd z tablicami barwy pomarańczowej wiezie kartony z kodem tunelowym E. Po drodze kierowca dobiera beczkę z towarem o kodzie D. Dalej na trasie jest tunel kategorii D. Co wynika z 8.6.3.2?",
         "options": {
-          "A": "Przyjąć kod towaru o większej masie, ponieważ większa ilość ma pierwszeństwo",
-          "B": "Zastosować bardziej restrykcyjny z przypisanych kodów tunelowych",
-          "C": "Wybrać zawsze kod E, niezależnie od tego, czy drugi kod jest surowszy"
+          "A": "Może wjechać, bo kod całego ładunku ustala się raz, przy pierwszym załadunku",
+          "B": "Nie może wjechać, bo od doładunku kod D obejmuje cały ładunek pojazdu",
+          "C": "Może wjechać, jeśli beczkę z kodem D ustawi się z tyłu skrzyni"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli przewozisz towary z różnymi kodami tunelowymi, planując trasę dla całej jednostki transportowej, uwzględnij kod powodujący największe ograniczenia. Nie wybieraj kodu na podstawie masy towaru ani automatycznie litery E, bo inny kod może być bardziej restrykcyjny. Ustal kod mający zastosowanie do całego ładunku i dopiero wtedy wybierz trasę. Podstawa: ADR 8.6.3.2.",
+        "explanation": "Według 8.6.3.2, gdy w jednostce transportowej są towary z różnymi kodami tunelowymi, do całego ładunku stosuje się kod odpowiadający największym ograniczeniom. Po doładowaniu beczki w pojeździe są kody E i D, a kod D zakazuje przejazdu przez tunele kategorii D i E. Kod ocenia się dla ładunku, który jest w pojeździe w danej chwili, a miejsce beczki na skrzyni nic nie zmienia. Kierowca musi więc ominąć ten tunel. Podstawa: ADR 8.6.3.2 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.2",
+            "reference": "ADR 2025, 8.6.3.2; 8.6.4 (kod D)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -221,18 +229,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W której kolumnie tabeli A sprawdzasz kod ograniczenia przejazdu przez tunele przypisany towarowi?",
+        "id": "ADR-B-0575",
+        "module_id": "ADR-B-11",
+        "stem": "Kanistry zawierają UN 2810 MATERIAŁ TRUJĄCY CIEKŁY ORGANICZNY I.N.O. w III grupie pakowania. W kolumnie (15) tabeli A ten numer ma trzy wiersze: I grupa „1 (C/E)”, II „2 (D/E)”, III „2 (E)”. Jaki kod tunelowy ma ten towar?",
         "options": {
-          "A": "W kolumnie 14 tabeli A, przy kategorii transportowej towaru.",
-          "B": "W kolumnie 4 tabeli A, przy grupie pakowania.",
-          "C": "W kolumnie 15 tabeli A, przy odpowiednim numerze UN towaru."
+          "A": "C/E, bo przy kilku wierszach jednego numeru UN liczy się kod najsurowszy",
+          "B": "D/E, bo kategoria transportowa w tym wierszu to 2",
+          "C": "E, czyli kod z wiersza dla III grupy pakowania tego towaru"
         },
         "correct_option": "C",
-        "explanation": "Kod ograniczenia przejazdu przez tunele odczytujesz w kolumnie 15 tabeli A przy właściwym numerze UN. Kolumna 14 służy do innych danych, w tym kategorii transportowej, a kolumna 4 dotyczy grupy pakowania; nie podają one poszukiwanego kodu. Po znalezieniu kodu sprawdź jeszcze sposób przewozu i kategorię tunelu. Podstawa: ADR 3.2.1 i 8.6.3.1.",
+        "explanation": "Według 8.6.3.1 kod ograniczeń przewozu przez tunele odczytuje się z kolumny (15) tabeli A, z nawiasu w dolnej części komórki. Gdy jeden numer UN ma kilka wierszy, trzeba wybrać wiersz pasujący do przewożonego towaru, tutaj do III grupy pakowania z kolumny (4). Dla tego wiersza kod to E, a cyfra 2 nad nim oznacza kategorię transportową. Kodów z wierszy dla I i II grupy pakowania się nie stosuje. Podstawa: ADR 8.6.3.1 i 3.2.1 (tabela A, kolumny (4) i (15)).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.2.1 kolumna 15; 8.6.3.1",
+            "reference": "ADR 2025, 8.6.3.1; 3.2.1 tabela A, UN 2810 (kolumny (4) i (15))",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -262,18 +272,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Towar z kodem D/E jedzie w sztukach przesyłek. Których tuneli nie wolno użyć ze względu na ten kod?",
+        "id": "ADR-B-0576",
+        "module_id": "ADR-B-11",
+        "stem": "Furgon wiezie w sztukach przesyłek 100 l farby UN 1263 z II grupy pakowania, kategorii transportowej 2. W kolumnie (15) podano „2 (D/E)”. Ilość mieści się w limicie 333 z 1.1.3.6.3. Czy kod D/E zakazuje mu wjazdu do tunelu kategorii E?",
         "options": {
-          "A": "Tuneli kategorii E, ponieważ towar jedzie w sztukach przesyłek",
-          "B": "Tuneli kategorii D i E, jak dla tego kodu w przewozie luzem",
-          "C": "Wszystkich tuneli od kategorii B do E bez względu na rodzaj przewozu"
+          "A": "Nie, bo przewóz według 1.1.3.6 nie podlega ograniczeniom tunelowym",
+          "B": "Tak, bo kod D/E w sztukach przesyłek zakazuje tuneli kategorii E",
+          "C": "Tak, bo przy przewozie w limicie z 1.1.3.6 kod D/E zakazuje tuneli D i E"
         },
         "correct_option": "A",
-        "explanation": "Przy kodzie tunelowym D/E sposób przewozu zmienia zakres zakazu. Jeżeli ładunek jedzie w sztukach przesyłek, kod ten zabrania przejazdu przez tunele kategorii E. Zakaz dla kategorii D i E odnosi się do innej postaci przewozu, a wykluczenie wszystkich kategorii B–E byłoby zbyt szerokie. Przed wyborem trasy sprawdź rodzaj przewozu i kategorię tunelu. Podstawa: ADR 8.6.4.",
+        "explanation": "Według 8.6.3.3 towary przewożone zgodnie z przepisami rozdziału 1.1.3 nie podlegają ograniczeniom przewozu przez tunele. Tutaj 100 l farby z kategorii 2 nie przekracza limitu 333, więc przewóz korzysta z wyłączenia z 1.1.3.6 i pojazd nie potrzebuje tablic barwy pomarańczowej. Tabelę z 8.6.4 stosuje się do jednostek, które muszą mieć tablice barwy pomarańczowej. Zakaz tunelu kategorii E dla kodu D/E nie dotyczy więc tego furgonu. Podstawa: ADR 8.6.3.3, 8.6.4 i 1.1.3.6.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.4",
+            "reference": "ADR 2025, 8.6.3.3; 8.6.4 (zdanie wprowadzające); 1.1.3.6.2; 1.1.3.6.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -303,18 +315,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W dokumencie ADR podano czterocyfrowy identyfikator towaru, lecz nie dopisano liter UN. Jak należy poprawić wpis?",
+        "id": "ADR-B-0577",
+        "module_id": "ADR-B-13",
+        "stem": "W dokumencie przewozowym opis towaru zapisano: „UN 1263 farba, 3, II, (D/E)”. Kierowca uważa, że nazwa przewozowa musi być wielkimi literami, tak jak w tabeli A. Czy według 5.4.1.1.2 ma rację?",
         "options": {
-          "A": "Wpisać sam numer czterocyfrowy bez prefiksu UN, bo cyfry wystarczają do identyfikacji.",
-          "B": "Umieścić litery UN przed czterocyfrowym numerem towaru",
-          "C": "Zastąpić numer UN nazwą handlową producenta, jeśli opis wydaje się jednoznaczny."
+          "A": "Tak, nazwę trzeba przepisać wielkimi literami z tabeli A",
+          "B": "Nie, nazwę przewozową można zapisać wielkimi lub małymi literami",
+          "C": "Tak, małymi literami wolno w dokumencie zapisać jedynie nazwę handlową"
         },
         "correct_option": "B",
-        "explanation": "W opisie towaru w dokumencie przewozowym numer identyfikacyjny musi być poprzedzony literami „UN”, a dopiero potem podaje się cztery cyfry. Same cyfry nie zachowują wymaganego zapisu, a nazwa handlowa producenta nie zastępuje tego identyfikatora. Sprawdź pełny opis towaru przed wyjazdem, bo poprawny format pomaga jednoznacznie rozpoznać przewożony materiał. Podstawa: ADR 5.4.1.1.1(a).",
+        "explanation": "Według 5.4.1.1.2 informacje w dokumencie przewozowym mają być czytelne. Choć w tabeli A nazwy przewozowe wydrukowano wielkimi literami, wybór wielkich lub małych liter w dokumencie pozostawiono do wyboru. Wyjątkiem jest kod tunelowy z 5.4.1.1.1 (k), który podaje się wielkimi literami w nawiasie, i tak go tu zapisano. Zapis „farba” jest więc dopuszczalny. Podstawa: ADR 5.4.1.1.2 oraz 5.4.1.1.1 (b) i (k).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(a)",
+            "reference": "ADR 2025, 5.4.1.1.2; 5.4.1.1.1 (b), (k)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -344,18 +358,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W dokumencie podano numer UN i klasę, ale brakuje wymaganej liczby oraz rodzaju sztuk przesyłek. Co należy zrobić?",
+        "id": "ADR-B-0578",
+        "module_id": "ADR-B-13",
+        "stem": "Przewóz korzysta z wyłączenia z 1.1.3.6: jednostka wiezie 150 l cieczy kategorii transportowej 2 i 300 kg materiału kategorii 3. Co według UWAGI 1 do 5.4.1.1.1 (f) trzeba podać w dokumencie przewozowym?",
         "options": {
-          "A": "Pominąć te dane, ponieważ numer UN zawiera już pełny opis opakowania",
-          "B": "Wpisać wyłącznie rejestrację pojazdu zamiast danych o sztukach przesyłek",
-          "C": "Uzupełnić wymaganą liczbę i opis rodzaju sztuk przesyłek"
+          "A": "Nic więcej, bo przy wyłączeniu z 1.1.3.6 dokument przewozowy nie jest wymagany",
+          "B": "Samą masę brutto całego ładunku, bez podziału na kategorie",
+          "C": "Ilość całkowitą i wartość obliczoną osobno dla kategorii 2 i kategorii 3"
         },
         "correct_option": "C",
-        "explanation": "Dokument przewozowy ma pozwolić ustalić, ile sztuk przesyłek znajduje się w przewozie i jakiego są rodzaju, gdy ADR wymaga tych danych. Sam numer UN identyfikuje towar niebezpieczny, ale nie mówi, ile opakowań załadowano; numer rejestracyjny dotyczy pojazdu. Przed wyjazdem uzupełnij brakujące informacje, zamiast zakładać, że pozostałe pola je zastępują. Podstawa: ADR 5.4.1.1.1(e).",
+        "explanation": "Według UWAGI 1 do 5.4.1.1.1 (f) przy stosowaniu 1.1.3.6 w dokumencie przewozowym podaje się całkowitą ilość oraz wartość obliczoną towarów każdej kategorii transportowej. Wartości te liczy się według 1.1.3.6.3 i 1.1.3.6.4, tutaj 150 × 3 = 450 dla kategorii 2 oraz 300 dla kategorii 3. Wyłączenie z 1.1.3.6.2 zwalnia między innymi z rozdziału 5.4.3, ale nie z dokumentu przewozowego. Sama masa brutto bez podziału na kategorie nie wystarcza. Podstawa: ADR 5.4.1.1.1 (f) z UWAGĄ 1 oraz 1.1.3.6.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(e)",
+            "reference": "ADR 2025, 5.4.1.1.1 (f), UWAGA 1; 1.1.3.6.2; 1.1.3.6.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -385,18 +401,20 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Dokument ADR nie zawiera adresu odbiorcy, choć nie zachodzi żaden przewidziany wyjątek. Co zrobić przed wyjazdem?",
+        "id": "ADR-B-0579",
+        "module_id": "ADR-B-13",
+        "stem": "Kierowca rozwozi beczki z jednym dokumentem przewozowym do trzech odbiorców, których znano przed wyjazdem. W dokumencie wpisano nazwę i adres tylko pierwszego z nich. Co wynika z 5.4.1.1.1 (h)?",
         "options": {
-          "A": "Wyjaśnić brak i uzyskać wymagany adres oraz dane odbiorcy",
-          "B": "Wpisać numer telefonu kierowcy w miejsce adresu odbiorcy, aby możliwy był kontakt",
-          "C": "Pozostawić pole puste, jeżeli numer UN i klasa towaru są prawidłowe"
+          "A": "Trzeba dopisać nazwy i adresy dwóch pozostałych odbiorców",
+          "B": "Można wpisać „Sprzedaż obwoźna”, bo odbiorców jest kilku",
+          "C": "Wystarczy pierwszy odbiorca, a resztę adresów kierowca ma w telefonie"
         },
         "correct_option": "A",
-        "explanation": "Dokument przewozowy ma pozwolić ustalić, kto nadał towar i komu należy go dostarczyć. Jeżeli nie zachodzi wyjątek ADR, brak adresu odbiorcy trzeba wyjaśnić i uzupełnić przed rozpoczęciem przewozu. Telefon kierowcy ani sam numer UN nie wskazują odbiorcy, a dane spedytora nie zastępują danych wymaganych dla tej pozycji. Podstawa: ADR 5.4.1.1.1(h).",
+        "explanation": "Według 5.4.1.1.1 (h) dokument przewozowy zawiera nazwę i adres odbiorcy, a gdy odbiorców jest kilku, to nazwy i adresy odbiorców. Wszyscy trzej odbiorcy byli znani przed wyjazdem, więc ich dane powinny być w dokumencie. Zapis „Sprzedaż obwoźna” dopuszcza się tylko dla odbiorców nieznanych w chwili rozpoczęcia przewozu i za zgodą właściwych władz państw, których dotyczy przewóz. Lista w telefonie kierowcy nie zastępuje danych w dokumencie. Podstawa: ADR 5.4.1.1.1 (h).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(h)",
+            "reference": "ADR 2025, 5.4.1.1.1 (h)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
