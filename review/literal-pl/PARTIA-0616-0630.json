@@ -1,0 +1,421 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0616–0630",
+  "bank_count": 780,
+  "bank_blob_sha": "7c6b46d4134301f616cfc39d2b3e33e4318da428",
+  "bank_changed": false,
+  "previous_uncompared": 165,
+  "compared": 15,
+  "remaining_without_comparison": 150,
+  "counts": {
+    "OK": 5,
+    "POPRAW": 10,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "method": "scripts/similarity.py exact Jaccard tokenization (NFKD, casefold, token length >=4, configured stop words), same-module comparison across the full 780-question bank, plus manual thematic comparison across modules and explicit inspection of the user-identified duplicates.",
+    "threshold_0_45_pairs": 1,
+    "threshold_0_25_pairs": 11,
+    "manual_duplicate_pairs": [
+      [
+        "ADR-B-0617",
+        "ADR-B-0766"
+      ],
+      [
+        "ADR-B-0620",
+        "ADR-B-0050"
+      ],
+      [
+        "ADR-B-0620",
+        "ADR-B-0590"
+      ],
+      [
+        "ADR-B-0620",
+        "ADR-B-0716"
+      ],
+      [
+        "ADR-B-0621",
+        "ADR-B-0095"
+      ],
+      [
+        "ADR-B-0621",
+        "ADR-B-0154"
+      ],
+      [
+        "ADR-B-0622",
+        "ADR-B-0096"
+      ],
+      [
+        "ADR-B-0622",
+        "ADR-B-0157"
+      ],
+      [
+        "ADR-B-0623",
+        "ADR-B-0097"
+      ],
+      [
+        "ADR-B-0624",
+        "ADR-B-0098"
+      ],
+      [
+        "ADR-B-0625",
+        "ADR-B-0005"
+      ],
+      [
+        "ADR-B-0627",
+        "ADR-B-0115"
+      ],
+      [
+        "ADR-B-0629",
+        "ADR-B-0680"
+      ],
+      [
+        "ADR-B-0629",
+        "ADR-B-0179"
+      ],
+      [
+        "ADR-B-0630",
+        "ADR-B-0185"
+      ],
+      [
+        "ADR-B-0630",
+        "ADR-B-0105"
+      ],
+      [
+        "ADR-B-0630",
+        "ADR-B-0165"
+      ]
+    ],
+    "similarity_pairs": [
+      {
+        "score": 0.467,
+        "ids": [
+          "ADR-B-0630",
+          "ADR-B-0185"
+        ],
+        "assessment": "duplikat: przekazanie dokumentu przewozowego przybyłym ratownikom"
+      },
+      {
+        "score": 0.364,
+        "ids": [
+          "ADR-B-0621",
+          "ADR-B-0623"
+        ],
+        "assessment": "podobna konstrukcja stemów, lecz różne klasy i różne zagrożenia"
+      },
+      {
+        "score": 0.333,
+        "ids": [
+          "ADR-B-0625",
+          "ADR-B-0005"
+        ],
+        "assessment": "duplikat definicji klasy 8"
+      },
+      {
+        "score": 0.316,
+        "ids": [
+          "ADR-B-0630",
+          "ADR-B-0696"
+        ],
+        "assessment": "podobny kontekst ratowników i dokumentu; 0696 dotyczy ryzyka wejścia do kabiny po dokument"
+      },
+      {
+        "score": 0.313,
+        "ids": [
+          "ADR-B-0627",
+          "ADR-B-0115"
+        ],
+        "assessment": "duplikat decyzji o uzupełnieniu brakującej wymaganej nalepki"
+      },
+      {
+        "score": 0.286,
+        "ids": [
+          "ADR-B-0623",
+          "ADR-B-0154"
+        ],
+        "assessment": "podobna konstrukcja językowa, ale inna klasa i inna właściwość"
+      },
+      {
+        "score": 0.286,
+        "ids": [
+          "ADR-B-0625",
+          "ADR-B-0097"
+        ],
+        "assessment": "wspólny schemat pytania o klasę, ale 0097 dotyczy materiałów trujących klasy 6.1"
+      },
+      {
+        "score": 0.273,
+        "ids": [
+          "ADR-B-0621",
+          "ADR-B-0151"
+        ],
+        "assessment": "wspólne sformułowanie o nalepce klasy, lecz 0151 dotyczy klasy 2.3"
+      },
+      {
+        "score": 0.273,
+        "ids": [
+          "ADR-B-0621",
+          "ADR-B-0624"
+        ],
+        "assessment": "podobna konstrukcja pytania, ale odrębne klasy 4.2 i 7"
+      },
+      {
+        "score": 0.25,
+        "ids": [
+          "ADR-B-0621",
+          "ADR-B-0005"
+        ],
+        "assessment": "wspólne pytanie o znaczenie klasy, ale odrębne klasy 4.2 i 8"
+      },
+      {
+        "score": 0.25,
+        "ids": [
+          "ADR-B-0627",
+          "ADR-B-0637"
+        ],
+        "assessment": "wspólny kontekst kontroli oznakowania; 0637 pyta o cyfrę kodu 80, nie o nalepkę dodatkową"
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0616",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.3.2.2.2; 5.4.1.1.1",
+      "gazette_pages": [
+        955,
+        961
+      ],
+      "exact_quote": "Numer rozpoznawczy zagrożenia powinien znajdować się w górnej części tablicy, a numer UN w jej części dolnej; | numer UN poprzedzony literami „UN”; prawidłową nazwę przewozową",
+      "finding": "Klucz C jest prawidłowy. Dolny numer UN identyfikuje konkretny materiał, a dokument przewozowy powinien zawierać numer UN i prawidłową nazwę przewozową. To odrębne od pytań o znaczenie górnego numeru zagrożenia (np. 0298, 0635).",
+      "duplicate_candidates": [],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0617",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.2.1.10.1",
+      "gazette_pages": [
+        939
+      ],
+      "exact_quote": "Oznakowanie to powinno być naniesione na dwóch przeciwległych pionowych bokach sztuki przesyłki, a groty strzałek powinny być skierowane ku górze.",
+      "finding": "Wymóg jest opisany prawidłowo, ale pytanie powiela 0766, które sprawdza to samo oznakowanie opakowania kombinowanego z cieczą i dodatkowo wymaga kierunku grotów. W banku pozostawić jedno pytanie, najlepiej bardziej precyzyjne 0766.",
+      "duplicate_candidates": [
+        "ADR-B-0766"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "reason_no_safe_candidate": "Temat położenia strzałek kierunkowych w opakowaniach kombinowanych jest już sprawdzony przez bardziej szczegółowe 0766; nie proponuję kolejnej parafrazy tej samej reguły."
+    },
+    {
+      "id": "ADR-B-0618",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 7.5.7.1–7.5.7.2",
+      "gazette_pages": [
+        1308,
+        1309
+      ],
+      "exact_quote": "Sztuki przesyłek [...] powinny być umocowane [...] w sposób zapobiegający takiemu ich przemieszczaniu podczas przewozu, które mogłoby spowodować zmianę ustawienia sztuk przesyłek lub ich uszkodzenie.",
+      "finding": "Klucz B jest zgodny z zasadą mocowania. Scenariusz dotyczy nacisku wynikającego z piętrowania i uginania dolnego opakowania; różni się od 0628 (nadmierny nacisk pasa) i 0700 (elastyczny kontener, przepis szczególny 7.5.7.6.2).",
+      "duplicate_candidates": [],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0619",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 8.2.2.8.2",
+      "gazette_pages": [
+        1330
+      ],
+      "exact_quote": "Zaświadczenie o przeszkoleniu kierowcy powinno być ważne przez okres 5 lat od dnia, w którym kierowca złożył z wynikiem pozytywnym egzamin",
+      "finding": "Klucz C jest prawidłowy: zasadniczy okres ważności wynosi pięć lat od pozytywnego egzaminu. Pytanie 0239 dotyczy skutku już wygasłego zaświadczenia przy załadunku, a nie długości okresu ważności; nie jest duplikatem.",
+      "duplicate_candidates": [],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0620",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.2",
+      "gazette_pages": [
+        974
+      ],
+      "exact_quote": "instrukcje sporządzone w języku(-ach), które każdy członek załogi pojazdu może przeczytać i zrozumieć",
+      "finding": "Klucz C oddaje przepis, ale to samo wymaganie językowe jest już badane w 0050 i 0716, a nowy 0590 sprawdza je w bezpośrednio powiązanym scenariuszu jednego kompletu dla całej załogi. Nowe pytanie nie wnosi odrębnej decyzji.",
+      "duplicate_candidates": [
+        "ADR-B-0050",
+        "ADR-B-0590",
+        "ADR-B-0716"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "reason_no_safe_candidate": "Kompetencja językowa instrukcji pisemnych jest już pokryta; nie proponuję kolejnej parafrazy 5.4.3.2."
+    },
+    {
+      "id": "ADR-B-0621",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.42.1.1",
+      "gazette_pages": [
+        182
+      ],
+      "exact_quote": "Materiały i przedmioty samonagrzewające się [...] w zetknięciu z powietrzem, bez dostarczenia energii z zewnątrz, są podatne na samonagrzewanie.",
+      "finding": "Klucz A jest prawidłowy, ale ogólne pytanie o znaczenie klasy 4.2 powiela 0095 (rozpoznanie klasy materiałów zdolnych do samozapalenia) i 0154 (zagrożenie materiału klasy 4.2). Brak odrębnego przypadku lub warunku.",
+      "duplicate_candidates": [
+        "ADR-B-0095",
+        "ADR-B-0154"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "reason_no_safe_candidate": "Definicja klasy 4.2 jest już pokryta w module 02; kolejna ogólna parafraza klasy nie wnosi nowego elementu."
+    },
+    {
+      "id": "ADR-B-0622",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.52.1.1",
+      "gazette_pages": [
+        196
+      ],
+      "exact_quote": "Tytuł klasy 5.2 obejmuje nadtlenki organiczne i formulacje nadtlenków organicznych.",
+      "finding": "Klucz B jest prawidłowy, ale pytanie ponownie sprawdza podstawową identyfikację nadtlenków organicznych jako klasy 5.2, już badaną w 0096 i w rozróżnieniu klas 5.1/5.2 w 0157. Nie wnosi odrębnego warunku ani praktycznej decyzji.",
+      "duplicate_candidates": [
+        "ADR-B-0096",
+        "ADR-B-0157"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "reason_no_safe_candidate": "Podstawowa identyfikacja klasy 5.2 jest już pokryta; nie proponuję kolejnego pytania definicyjnego."
+    },
+    {
+      "id": "ADR-B-0623",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.61.1.1",
+      "gazette_pages": [
+        214
+      ],
+      "exact_quote": "mogą one [...] spowodować uszczerbek na zdrowiu lub śmierć człowieka w wyniku ich wdychania, przenikania przez skórę lub połknięcia.",
+      "finding": "Klucz C jest prawidłowy, ale pytanie definicyjne o klasę 6.1 powiela 0097, które pyta wprost o klasę materiałów trujących. Nie dodano scenariusza, drogi narażenia ani innego kryterium klasyfikacji.",
+      "duplicate_candidates": [
+        "ADR-B-0097"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "reason_no_safe_candidate": "Ogólna identyfikacja klasy 6.1 jest już sprawdzana w 0097; nowy rekord powinien dotyczyć innego kryterium lub zastosowania."
+    },
+    {
+      "id": "ADR-B-0624",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.7.1.1",
+      "gazette_pages": [
+        234
+      ],
+      "exact_quote": "Materiał promieniotwórczy oznacza każdy materiał zawierający izotopy promieniotwórcze",
+      "finding": "Klucz A jest prawidłowy, ale ogólne rozpoznanie klasy 7 powiela 0098, które pyta wprost o klasę materiałów promieniotwórczych. Brak nowej decyzji praktycznej lub kryterium.",
+      "duplicate_candidates": [
+        "ADR-B-0098"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "reason_no_safe_candidate": "Podstawowe przypisanie materiałów promieniotwórczych do klasy 7 jest już pokryte w 0098."
+    },
+    {
+      "id": "ADR-B-0625",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.8.1.1",
+      "gazette_pages": [
+        264
+      ],
+      "exact_quote": "Materiały żrące to materiały, które wskutek działania chemicznego powodują nieodwracalne uszkodzenie skóry",
+      "finding": "Klucz B jest prawidłowy, ale to bezpośrednie powtórzenie znaczenia klasy 8 z 0005. Pytanie nie wnosi nowego elementu względem istniejącej definicji klasy.",
+      "duplicate_candidates": [
+        "ADR-B-0005"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "reason_no_safe_candidate": "Definicja klasy 8 jest już pokryta przez 0005; nie proponuję kolejnej ogólnej parafrazy."
+    },
+    {
+      "id": "ADR-B-0626",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej",
+      "finding": "Klucz C jest zgodny z instrukcjami: nie wchodzić w strefę uwolnionego materiału i unikać narażenia inhalacyjnego. To pierwsza reakcja na rozlew i opary; 0630 dotyczy późniejszego udostępnienia dokumentów przybyłym ratownikom, więc nie jest duplikatem.",
+      "duplicate_candidates": [],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0627",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.2.2.1.1",
+      "gazette_pages": [
+        939
+      ],
+      "exact_quote": "na sztuce przesyłki zawierającej materiał lub przedmiot wymieniony w tej tabeli powinny być umieszczone nalepki ostrzegawcze podane w kolumnie (5).",
+      "finding": "Klucz A jest zgodny z ADR, lecz decyzja „uzupełnić brakującą wymaganą nalepkę przed przewozem” powtarza 0115. Dopisek, że chodzi o nalepkę zagrożenia dodatkowego, nie tworzy odrębnego problemu, bo kolumna (5) wskazuje wymagane nalepki dla danej pozycji.",
+      "duplicate_candidates": [
+        "ADR-B-0115"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "reason_no_safe_candidate": "Ogólny brak wymaganej nalepki jest już pokryty w 0115; nie proponuję kolejnej wersji tej samej decyzji."
+    },
+    {
+      "id": "ADR-B-0628",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 7.5.7.1",
+      "gazette_pages": [
+        1308
+      ],
+      "exact_quote": "należy unikać ich nadmiernego napinania, które mogłoby spowodować uszkodzenie lub deformację sztuki przesyłki",
+      "finding": "Klucz B jest prawidłowy i odpowiada wprost zakazowi nadmiernego napinania pasów. Różni się od 0618 (nacisk piętrowania na dolne opakowanie) oraz od 0700 (szczególny przypadek elastycznego kontenera z 7.5.7.6.2).",
+      "duplicate_candidates": [],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0629",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.1.1.3.1",
+      "gazette_pages": [
+        962
+      ],
+      "exact_quote": "prawidłowa nazwa przewozowa powinna być poprzedzona wyrazem „ODPAD”, jeżeli wyraz ten nie jest częścią prawidłowej nazwy przewozowej",
+      "finding": "Reguła i klucz B są co do zasady prawidłowe, ale temat oznaczenia „ODPAD” jest już wielokrotnie pokryty (0008, 0046, 0179, 0294, 0680). Rekord 0680 pyta wprost o brak tego samego słowa w dokumencie i konieczność uzyskania poprawionego dokumentu. Zgodnie ze wskazówką tematu nie należy dalej rozwijać w tej partii.",
+      "duplicate_candidates": [
+        "ADR-B-0680",
+        "ADR-B-0179",
+        "ADR-B-0008",
+        "ADR-B-0046",
+        "ADR-B-0294"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "reason_no_safe_candidate": "Temat ODPAD jest wyczerpany w banku; nie proponuję kolejnego pytania o to samo oznaczenie ani jego położenie."
+    },
+    {
+      "id": "ADR-B-0630",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych",
+      "finding": "Klucz B odtwarza instrukcję, ale udostępnienie dokumentów ratownikom jest już bezpośrednio badane w 0185. Szerszy obowiązek przekazania dostępnych informacji o wypadku i towarze występuje w 0105 i 0165; 0696 również dotyczy dokumentu i ratowników, choć z odmiennym ryzykiem wejścia do kabiny.",
+      "duplicate_candidates": [
+        "ADR-B-0185",
+        "ADR-B-0105",
+        "ADR-B-0165",
+        "ADR-B-0696"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "reason_no_safe_candidate": "Kompetencja przekazywania ratownikom informacji i dokumentów jest już nasycona; nie proponuję kolejnej parafrazy instrukcji 5.4.3.4."
+    }
+  ]
+}
