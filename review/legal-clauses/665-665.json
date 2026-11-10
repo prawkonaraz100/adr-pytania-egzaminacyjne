@@ -4,29 +4,24 @@
     {
       "id": "ADR-B-0665",
       "order": 665,
-      "clause": "ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a)",
+      "clause": "ADR 2025, 2.2.42.1.1; 2.2.42.1.8 (a)",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0665",
         "module_id": "ADR-B-02",
-        "stem": "W opisie klasyfikacji podano, że niewielka ilość materiału zapala się po kontakcie z powietrzem w ciągu kilku minut. Jak należy odróżnić to zagrożenie od samonagrzewania?",
+        "stem": "Karta materiału klasy 4.2 podaje, że nawet jego mała ilość zapala się w zetknięciu z powietrzem w ciągu 5 minut. Kolega mówi, że to zwykłe samonagrzewanie. Jak ocenić ten opis według 2.2.42.1.1?",
         "options": {
-          "A": "To materiał samonagrzewający się: typowo zapala się dopiero w dużej ilości, po wielu godzinach lub dniach, a szybki zapłon małej ilości nie jest cechą piroforyczności.",
-          "B": "To materiał piroforyczny: mała ilość może zapalić się od kontaktu z powietrzem w ciągu pięciu minut; samonagrzewanie zwykle dotyczy większej ilości i dłuższego czasu.",
-          "C": "To materiał klasy 4.3: podstawą klasyfikacji jest wydzielanie palnego gazu po kontakcie z wodą, niezależnie od zachowania materiału w powietrzu."
+          "A": "Kolega ma rację, bo samonagrzewanie daje zapłon już po kilku minutach",
+          "B": "To materiał piroforyczny, a samonagrzewający zapala się w dużej ilości",
+          "C": "To materiał klasy 4.3, bo szybki zapłon wywołuje wilgoć zawarta w powietrzu"
         },
         "correct_option": "B",
-        "explanation": "Opis wskazuje na materiał piroforyczny: nawet mała ilość może zapalić się po kontakcie z powietrzem w ciągu pięciu minut. Materiał samonagrzewający się nagrzewa się bez dopływu energii z zewnątrz, ale zwykle zapala się dopiero w większej ilości i po wielu godzinach lub dniach. Nie myl tego z klasą 4.3, w której zagrożeniem jest palny gaz wydzielany przy kontakcie z wodą. Podstawa: ADR 2.2.42.1.1; dla piroforycznych grupa pakowania I — 2.2.42.1.8(a).",
+        "explanation": "Według 2.2.42.1.1 materiały piroforyczne w zetknięciu z powietrzem, nawet w małych ilościach, zapalają się w ciągu 5 minut i są najbardziej podatne na samozapalenie w klasie 4.2. Materiały samonagrzewające się też nagrzewają się w kontakcie z powietrzem bez energii z zewnątrz, ale zapalają się dopiero w dużych ilościach i po godzinach lub dniach. Opis z karty pasuje więc do materiału piroforycznego, który zalicza się do I grupy pakowania. Klasa 4.3 dotyczy innego zagrożenia, czyli wydzielania gazów palnych w zetknięciu z wodą. Podstawa: ADR 2.2.42.1.1 i 2.2.42.1.8 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a)",
+            "reference": "ADR 2025, 2.2.42.1.1; 2.2.42.1.8 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-UNECE",
-            "reference": "ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a)",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -35,19 +30,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędna: opisuje samonagrzewanie, które typowo ujawnia się w większych ilościach i po dłuższym czasie; nie pasuje do zapłonu małej ilości w kilka minut."
+          "rationale": "2.2.42.1.1: samonagrzewające się zapalają się tylko w dużych ilościach i po godzinach lub dniach."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Prawidłowa: niewielka ilość zapalająca się po kontakcie z powietrzem w ciągu pięciu minut odpowiada opisowi materiału piroforycznego; ADR przypisuje takim materiałom I grupę pakowania."
+          "rationale": "2.2.42.1.1: piroforyczne – nawet małe ilości zapalają się w ciągu 5 minut w zetknięciu z powietrzem."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędna: opisuje klasę 4.3, której podstawowym zagrożeniem jest wydzielanie palnego gazu w kontakcie z wodą."
+          "rationale": "Klasa 4.3 to wydzielanie gazów palnych w zetknięciu z wodą (2.2.43.1.1), nie zapłon w powietrzu."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Pytanie sprawdza rozróżnienie dwóch kategorii w obrębie klasy 4.2. Nie instruuje kierowcy do wykonywania testów klasyfikacyjnych ani otwierania opakowania. Grupa pakowania I dla materiałów piroforycznych wynika z 2.2.42.1.8(a); dla samonagrzewających się przydział grupy zależy od wyników badań i kryteriów ADR.",
+      "notes_on_conditions": "2.2.42.1.1 s. 182; 2.2.42.1.8 (a) s. 183. Odrębne od 0724 (samonagrzewanie), 0635 (333), 0302 (SW).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

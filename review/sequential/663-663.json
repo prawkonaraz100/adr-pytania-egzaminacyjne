@@ -8,18 +8,18 @@
       "id": "ADR-B-0663",
       "sequence": 663,
       "exact_record_snapshot": {
-        "stem": "Po zmroku kierowca ma sprawdzić oznakowanie przy pojeździe ADR. Jedyna dostępna latarka ma metalową obudowę, która przy uderzeniu może wywołać iskrę. Jak powinien postąpić?",
+        "stem": "Kierowca dostawczaka wiezie kanistry z farbą w ilości mieszczącej się w limicie z 1.1.3.6. Chce podwieźć kolegę z pracy, który nie należy do załogi. Czy ma tu zastosowanie zakaz przewozu pasażerów z 8.3.1?",
         "options": {
-          "A": "Może użyć tej latarki z metalową obudową, jeżeli ma sprawną baterię, nie jest uszkodzona i użyje jej wyłącznie na zewnątrz pojazdu, z dala od przesyłek.",
-          "B": "Może jej użyć tylko przez krótki czas i z dala od przesyłek, ponieważ sama obudowa nie powoduje iskry podczas normalnej pracy.",
-          "C": "Nie używać jej; wybrać przenośne urządzenie, którego metalowa powierzchnia nie może spowodować iskry, także przy przypadkowym uderzeniu."
+          "A": "Tak, bo zakaz przewozu pasażerów obejmuje przewóz ADR w dowolnej ilości",
+          "B": "Tak, chyba że kolega ma własne zaświadczenie ADR kierowcy",
+          "C": "Nie, bo przy tym limicie 1.1.3.6.2 nie stosuje się przepisu 8.3.1"
         },
         "correct_option": "C",
-        "explanation": "Nie używaj latarki, której metalowa powierzchnia może wywołać iskrę; wybierz urządzenie, które nie stwarza takiego zagrożenia. Sprawna bateria, brak uszkodzeń ani krótki czas świecenia nie usuwają ryzyka związanego z obudową. Odsunięcie latarki od przesyłek także nie zastępuje wymaganego rodzaju urządzenia. Podstawa: ADR 8.3.4.",
+        "explanation": "Gdy ilość towarów w jednostce transportowej nie przekracza limitu z 1.1.3.6, przepis 1.1.3.6.2 zwalnia z większości wymagań części 8 ADR. Zostają tylko wymienione wyjątki, takie jak dokument przewozowy, gaśnica, zakaz otwierania sztuk przesyłek, latarka bez iskrzących powierzchni i zakaz palenia. Zakazu przewozu pasażerów z 8.3.1 nie ma wśród tych wyjątków, więc przy takim przewozie ADR nie zabrania zabrać kolegi. Po przekroczeniu limitu osoba spoza załogi nie może jechać w jednostce transportowej. Podstawa: ADR 1.1.3.6.2 i 8.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.4",
+            "reference": "ADR 2025, 1.1.3.6.2 (wyjątki z części 8); 8.3.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

@@ -263,7 +263,11 @@ Odegraj scenariusz z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json)
 
 ### Dokument identyfikacyjny ze zdjęciem dla każdego członka załogi
 
-Podczas przewozu towarów niebezpiecznych każdy członek załogi musi mieć przy sobie środek identyfikacji zawierający fotografię. Nie wystarczy dokument kierowcy, ponieważ wymóg dotyczy również pozostałych osób w pojeździe. Dokument bez zdjęcia ani wpisanie danych do notatnika nie zastępują wymaganego środka identyfikacji. Powiązane pytanie: ADR-B-0672 (needs_review). Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).
+Podczas przewozu towarów niebezpiecznych każdy członek załogi musi mieć przy sobie środek identyfikacji zawierający fotografię. Nie wystarczy dokument kierowcy, ponieważ wymóg dotyczy również pozostałych osób w pojeździe. Dokument bez zdjęcia ani wpisanie danych do notatnika nie zastępują wymaganego środka identyfikacji. Powiązane pytanie: ADR-B-0175 (needs_review). Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).
+
+### Instrukcje pisemne przy przewozie w limicie z 1.1.3.6
+
+Gdy ilość towarów w jednostce transportowej nie przekracza limitu z 1.1.3.6, przepis 1.1.3.6.2 pozwala nie stosować rozdziału 5.4.3 o instrukcjach pisemnych. Z części 8 nadal obowiązuje 8.1.2.1 (a), więc dokument przewozowy musi być w kabinie kierowcy. Brak instrukcji pisemnych nie jest wtedy naruszeniem ADR, ale przewoźnik może je dobrowolnie przekazać załodze. Powiązane pytanie: ADR-B-0672 (needs_review). Podstawa: ADR 1.1.3.6.2, 5.4.3 i 8.1.2.1.
 
 
 ### Brak wymaganego wpisu w dokumencie przewozowym (ADR-B-0714)

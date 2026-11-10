@@ -4,34 +4,24 @@
     {
       "id": "ADR-B-0666",
       "order": 666,
-      "clause": "ADR 2025, 2.2.51.1.1; 5.4.3.4",
+      "clause": "ADR 2025, 2.2.51.1.1; 7.5.11 (CV24); tabela A (UN 2067)",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0666",
         "module_id": "ADR-B-02",
-        "stem": "Podczas załadunku obok przesyłki klasy 5.1 zaczyna palić się karton z innym towarem. Pracownik twierdzi, że ładunek 5.1 nie jest paliwem, więc nie zwiększa zagrożenia. Co powinien rozpoznać kierowca?",
+        "stem": "Kierowca ma załadować worki z UN 2067 NAWÓZ NA BAZIE AZOTANU AMONU klasy 5.1, dla którego kolumna (18) tabeli A wskazuje CV24. Na podłodze skrzyni leżą słoma i papier po poprzednim ładunku. Co trzeba zrobić?",
         "options": {
-          "A": "Klasa 5.1 oznacza materiał utleniający: nie musi sam się palić, ale może nasilać spalanie innego ładunku; trzeba zgłosić tę informację i stosować instrukcje awaryjne.",
-          "B": "Jeśli opakowanie 5.1 nie płonie, można je traktować jak obojętne; pożar dotyczy wyłącznie kartonu, więc nie trzeba informować ratowników o klasie przewożonego towaru.",
-          "C": "Każdy materiał 5.1 jest samopalny i zawsze zapala się od kontaktu z powietrzem; kierowca powinien przenieść go ręcznie poza strefę pożaru."
+          "A": "Przed załadunkiem dokładnie oczyścić skrzynię z tych palnych resztek",
+          "B": "Przykryć resztki folią i ładować, bo nawóz sam w sobie nie jest palny",
+          "C": "Ułożyć worki na tej słomie, żeby nie przetarły się podczas jazdy"
         },
         "correct_option": "A",
-        "explanation": "Klasa 5.1 oznacza materiał utleniający: nie musi sam się palić, ale może spowodować lub nasilić spalanie innego ładunku. Dlatego nawet niepłonące opakowanie trzeba uwzględnić w ocenie zagrożenia i przekazać ratownikom informację o klasie. Nieprawdziwe jest założenie, że brak własnego płomienia oznacza obojętność; klasa 5.1 nie oznacza też, że materiał zawsze zapala się sam w powietrzu. Podstawa: ADR 2.2.51.1.1; działania w razie wypadku według instrukcji pisemnych z 5.4.3.4.",
+        "explanation": "Materiał klasy 5.1 sam nie zawsze się pali, ale wydzielając tlen może spowodować zapalenie lub podtrzymywać palenie innego materiału. Dlatego przepis CV24 wymaga, aby przed załadunkiem pojazd był dokładnie oczyszczony i nie zawierał odpadów palnych, takich jak słoma, siano czy papier. Ten sam przepis zabrania używania materiałów łatwo palnych przy układaniu sztuk przesyłek. Słomy nie wolno więc zostawić pod folią ani użyć jako podkładki pod worki. Podstawa: ADR 2.2.51.1.1, 7.5.11 (CV24) i tabela A (UN 2067).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.51.1.1",
+            "reference": "ADR 2025, 2.2.51.1.1; 7.5.11 (CV24); 3.2.1 tabela A (UN 2067: 5.1, O2, III, kolumna (18) CV24)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
-            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-UNECE",
-            "reference": "ADR 2025, 2.2.51.1.1; 5.4.3.4",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -40,19 +30,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Prawidłowa: klasa 5.1 obejmuje utleniacze, które nie muszą być same palne, ale mogą powodować lub nasilać spalanie innych materiałów; w sytuacji awaryjnej należy uwzględnić tę informację i stosować instrukcje pisemne."
+          "rationale": "CV24: przed załadunkiem pojazd dokładnie oczyszczony, bez odpadów palnych (słomy, siana, papieru)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędna: brak płomienia na opakowaniu nie oznacza, że utleniacz nie może nasilać spalania sąsiednich materiałów."
+          "rationale": "Przykrycie folią nie usuwa odpadów palnych; utleniacz 5.1 może podtrzymywać ich palenie (2.2.51.1.1)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędna: klasa 5.1 nie oznacza samopalności wszystkich materiałów, a ręczne przenoszenie przesyłki w pobliżu pożaru jest niebezpieczne."
+          "rationale": "CV24: przy układaniu sztuk przesyłek zabrania się używania materiałów łatwo palnych."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Pytanie sprawdza praktyczne rozumienie definicji klasy 5.1 i rolę instrukcji pisemnych w sytuacji awaryjnej. Nie wskazuje środka gaśniczego i nie nakazuje podejmowania działań przy pożarze; nie należy samodzielnie przenosić ładunku.",
+      "notes_on_conditions": "2.2.51.1.1 s. 191; CV24 s. 1312 (sprostowanie 1575: „układaniu”); tabela A UN 2067 s. 459–460 (obraz strony). Odrębne od 0044/0156/0725 (nasila spalanie), 0354 (trociny – instrukcje pisemne), 0554 (7.5.1.2).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

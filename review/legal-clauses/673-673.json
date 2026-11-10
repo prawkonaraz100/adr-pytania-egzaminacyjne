@@ -4,23 +4,23 @@
     {
       "id": "ADR-B-0673",
       "order": 673,
-      "clause": "ADR 2.2.9.1.7.1; 3.2 tabela A (UN 3480–3481, UN 3090–3091); 5.2.1.9.2",
+      "clause": "ADR 2025, 2.2.9.1.7.1; 3.2.1 tabela A (UN 3480, UN 3481, UN 3091)",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0673",
         "module_id": "ADR-B-02",
-        "stem": "Przed wysyłką elektronarzędzia kierowca sprawdza dokumenty i oznakowanie. W tym samym opakowaniu co wiertarka znajduje się zapasowa bateria litowo-jonowa przeznaczona do zasilania tego urządzenia. Jaki numer UN odpowiada takiej baterii?",
+        "stem": "Kierowca odbiera karton z wiertarką i zapasową baterią litowo-jonową. Bateria nie jest zamontowana, ale leży w tym samym opakowaniu i służy do zasilania wiertarki. Jaki numer UN ma ta bateria?",
         "options": {
-          "A": "UN 3480, ponieważ zapasowa bateria nie jest zamontowana w wiertarce; o numerze decyduje wyłącznie to, czy bateria jest już w urządzeniu.",
-          "B": "UN 3481, ponieważ bateria litowo-jonowa jest zapakowana razem z urządzeniem, które zasila; samodzielnie przewożona bateria ma UN 3480.",
-          "C": "UN 3091, ponieważ ten numer dotyczy każdej baterii zawierającej lit, gdy jest zapakowana razem z urządzeniem."
+          "A": "UN 3480, bo bateria nie jest zamontowana w urządzeniu",
+          "B": "UN 3481, bo bateria jest zapakowana razem z urządzeniem",
+          "C": "UN 3091, bo to bateria z litem zapakowana z urządzeniem"
         },
         "correct_option": "B",
-        "explanation": "Właściwy jest UN 3481, bo ADR zalicza baterię litowo-jonową zapakowaną razem z urządzeniem, które zasila, do tej pozycji; nie musi być już zamontowana. UN 3480 dotyczy baterii litowo-jonowych przewożonych bez urządzenia, a UN 3091 odnosi się do baterii z litem metalicznym przewożonych z urządzeniem. W praktyce sprawdź rodzaj baterii i sposób jej zapakowania w dokumentach. Podstawa: ADR 2.2.9.1.7.1, tabela A i 5.2.1.9.2.",
+        "explanation": "Tabela A rozróżnia baterie litowo-jonowe przewożone osobno, czyli UN 3480, oraz baterie litowo-jonowe w urządzeniach lub zapakowane z urządzeniami, czyli UN 3481. Bateria zapasowa w tym samym opakowaniu co wiertarka, którą zasila, jest zapakowana z urządzeniem, więc należy do UN 3481, choć nie jest zamontowana. UN 3091 dotyczy baterii litowych metalicznych w urządzeniach lub zapakowanych z urządzeniami, a nie litowo-jonowych. Rodzaj baterii i sposób zapakowania kierowca porównuje z dokumentem przewozowym. Podstawa: ADR 2.2.9.1.7.1 i 3.2.1, tabela A (UN 3480, UN 3481, UN 3091).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.9.1.7.1; dział 3.2 tabela A, UN 3480–3481 i UN 3090–3091; 5.2.1.9.2",
+            "reference": "ADR 2025, 2.2.9.1.7.1; 3.2.1 tabela A (UN 3480, UN 3481, UN 3091)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -30,19 +30,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "UN 3480 dotyczy baterii litowo-jonowych przewożonych bez urządzenia; zapasowa bateria zapakowana razem z urządzeniem, które zasila, należy do UN 3481."
+          "rationale": "UN 3480 – baterie litowo-jonowe bez urządzenia; zapakowana z urządzeniem należy do UN 3481."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "ADR 2.2.9.1.7.1 i tabela A rozróżniają UN 3480 dla baterii litowo-jonowych oraz UN 3481, gdy są zawarte w urządzeniu lub zapakowane z urządzeniem."
+          "rationale": "Tabela A: UN 3481 – baterie litowo-jonowe w urządzeniach lub zapakowane z urządzeniami."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "UN 3091 dotyczy ogniw lub baterii z litem metalicznym zawartych w urządzeniu lub zapakowanych z nim; nie jest to pozycja dla baterii litowo-jonowych."
+          "rationale": "UN 3091 – baterie litowe metaliczne, nie litowo-jonowe."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Scenariusz jawnie wskazuje baterię litowo-jonową i urządzenie, które zasila. Bateria zapasowa znajduje się w tym samym opakowaniu co urządzenie, więc nie jest przewożona samodzielnie. Nie oceniono warunków wyłączenia SP 188 ani kompletności opakowania — pytanie sprawdza wyłącznie rozróżnienie właściwego numeru UN.",
+      "notes_on_conditions": "2.2.9.1.7.1 s. 274; tabela A UN 3091 s. 549, UN 3480/3481 s. 611. Odrębne od 0499 (sodowo-jonowe), 0546 (9A).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

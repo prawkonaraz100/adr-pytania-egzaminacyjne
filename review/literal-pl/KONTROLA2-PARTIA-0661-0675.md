@@ -1,0 +1,189 @@
+# Kontrola druga – partia 45 (ADR-B-0661–0675)
+
+Main 8244275df (po scaleniu #921), bank blob `835ba93341ece797cd831d85defa4d147da0942e`. Źródło: Dz.U. 2025 poz. 642 (+ sprostowanie poz. 1575); strony według nagłówka „Dziennik Ustaw — NNN —”. Nic nie oznaczono jako verified.
+
+**Wynik: OK 0 / POPRAW 15 / BLOKUJ 0.** 5 nowych elementów z tej samej kompetencji (0663, 0666, 0672, 0674, 0675), 10 przeredagowań z zachowaniem tematu (0661, 0662, 0664, 0665, 0667, 0668, 0669, 0670, 0671, 0673). Bez cystern; litery kluczy, moduły i kompetencje bez zmian; liczba pytań 780 bez zmian.
+
+**Pozostało pytań bez porównania dosłownego: 105** (0676–0780).
+
+| ID | Kompetencja | Klucz | #921 | Kontrola 2 | Decyzja | Długości A/B/C |
+|---|---|---|---|---|---|---|
+| ADR-B-0661 | 02-K04 | B | POPRAW | POPRAW | PRZEREDAGOWANIE (temat zachowany; opcja „Nie,” kolidowała z treścią) | 78/74/66 |
+| ADR-B-0662 | 08-K08 | B | POPRAW | POPRAW | PRZEREDAGOWANIE (temat zachowany; opcje > 80 zn., średniki) | 70/68/67 |
+| ADR-B-0663 | 07-K06 | C | POPRAW | POPRAW | NOWY ELEMENT (stare = 0762, 8.3.4 – temat wyczerpany) | 71/57/65 |
+| ADR-B-0664 | 07-K06 | B | POPRAW | POPRAW | PRZEREDAGOWANIE (temat 8.3.8 zachowany; słowo „tylko”) | 64/64/60 |
+| ADR-B-0665 | 02-K05 | B | POPRAW | POPRAW | PRZEREDAGOWANIE (temat zachowany; zdublowane sources, „niezależnie”) | 69/70/75 |
+| ADR-B-0666 | 02-K07 | A | POPRAW | POPRAW | NOWY ELEMENT (stare = 0044/0156/0725 – 5.1 nasila spalanie) | 68/69/64 |
+| ADR-B-0667 | 02-K08 | A | POPRAW | POPRAW | PRZEREDAGOWANIE (podstawa 7.1.7.4.1 → 7.1.7.4.3; dystraktor B #921 częściowo prawdziwy) | 70/69/71 |
+| ADR-B-0668 | 02-K10 | A | POPRAW | POPRAW | PRZEREDAGOWANIE (PS 319 wierniej; „zawsze”, „niezależnie”) | 61/59/63 |
+| ADR-B-0669 | 02-K11 | B | POPRAW | POPRAW | PRZEREDAGOWANIE (kategorię ustala nadawca – kierowca porównuje nalepkę z dokumentem; polskie nazwy kategorii) | 66/69/74 |
+| ADR-B-0670 | 02-K09 | B | POPRAW | POPRAW | PRZEREDAGOWANIE (praktyka kierowcy – wysypany proszek 6.1; odróżnione od 0623) | 60/62/63 |
+| ADR-B-0671 | 02-K02 | B | POPRAW | POPRAW | PRZEREDAGOWANIE (temat zachowany; „każda”, > 80 zn.) | 75/74/69 |
+| ADR-B-0672 | 13-K05 | B | POPRAW | POPRAW | NOWY ELEMENT (stare = 0034/0774/0087/0175/0778 – 1.10.1.4 wyczerpany) | 66/71/79 |
+| ADR-B-0673 | 02-K13 | B | POPRAW | POPRAW | PRZEREDAGOWANIE (temat zachowany; „każdej”, „wyłącznie”) | 53/55/55 |
+| ADR-B-0674 | 02-K06 | B | POPRAW | POPRAW | NOWY ELEMENT (stare: kryteria I grupy 4.3 – laboratorium; ten sam schemat co 0675/0676) | 74/77/77 |
+| ADR-B-0675 | 02-K06 | A | POPRAW | POPRAW | NOWY ELEMENT (stare: treść podawała odpowiedź – II grupa; kryterium laboratoryjne) | 62/71/56 |
+
+## Błędy w raporcie #921
+
+1. **Zamienniki dublujące bank**: 0663 (klin pod przyczepę, 8.3.7) = 0352; 0672 (ilość w dokumencie przewozowym) = 0599 – i jego opcje nie odpowiadają treści.
+2. **Kryteria laboratoryjne zamiast wiedzy kierowcy**: 0666 (próba O.1), 0670 (LD50).
+3. **Wadliwe opcje**: 0669 – A i B obie prawdziwe; 0674/0675 – wszystkie opcje zaczynają się tą samą grupą („I grupa oznacza…” / „II grupa oznacza…”); 0661 – „Nie, bo…” koliduje z treścią; 0667 – dystraktor B (zwiększyć częstotliwość pomiarów) częściowo prawdziwy wg 7.1.7.4.3.
+4. **Strona P650**: początek instrukcji P650 to s. 819, nie 820.
+5. **Słusznie**: wszystkie 15 POPRAW; 7.1.7.3.4 definiuje temperaturę kontrolowaną ORAZ awaryjną (s. 1285), a obowiązek po osiągnięciu temperatury awaryjnej wynika z 7.1.7.4.3 (s. 1286) – moja wskazówka („7.1.7.3.4 definiuje tylko kontrolowaną”) była częściowo błędna; licznik 120 → 105 i liczby 0/15 spójne; test #921 ma DWIE stałe SHA i sprawdza brak „;” i kropki w opcjach.
+
+## Szczegóły
+
+### ADR-B-0661 – POPRAW (PRZEREDAGOWANIE (temat zachowany; opcja „Nie,” kolidowała z treścią))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 2.2.41.1.20 (a) (s. 175): „ich temperatura samoprzyspieszającej się polimeryzacji (TSP) wynosi 75 °C lub mniej, w warunkach przewozu …”; 2.2.41.1.21 (s. 176): „Materiały polimeryzujące wymagają kontrolowania temperatury podczas przewozu, jeżeli ich temperatura samoprzyspieszającej się polimeryzacji (TSP) wynosi: (a) dla materiałów nadawanych do przewozu w sztuce przesyłki lub DPPL, 50 °C lub mniej”. Próg 45 °C (b) dotyczy cystern – nie użyty.
+- Raport #921: zgoda co do POPRAW; zamiennik – opcja „Nie, bo…” nadal koliduje z treścią
+- Nowa treść: Materiał polimeryzujący klasy 4.1 ma być nadany do przewozu w DPPL. Jego TSP w tym DPPL wynosi 48 °C. Czy według 2.2.41.1.21 wymaga on kontrolowania temperatury podczas przewozu?
+- Klucz B: Tak, bo dla DPPL próg wynosi 50 °C lub mniej, a TSP 48 °C się w nim mieści
+- Źródło: ADR 2025, 2.2.41.1.20 (a); 2.2.41.1.21 (a)
+
+### ADR-B-0662 – POPRAW (PRZEREDAGOWANIE (temat zachowany; opcje > 80 zn., średniki))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 9.1.3.1 (s. 1344): „…potwierdzona świadectwem dopuszczenia, wystawionym przez właściwą władzę państwa rejestracji dla każdego pojazdu…”; wzór 9.1.3.5 (s. 1345): pole 3 – numer identyfikacyjny pojazdu (VIN), pole 4 – numer rejestracyjny; 8.1.2.2 (a) (s. 1324).
+- Raport #921: zgoda; zamiennik poprawny co do treści, opcje przeredagowane
+- Nowa treść: Przed wyjazdem kierowca porównuje świadectwo dopuszczenia z pojazdem. W polu 3 świadectwa jest inny numer identyfikacyjny (VIN) niż na tabliczce pojazdu, choć typ pojazdu i przewoźnik się zgadzają. Co powinien zrobić?
+- Klucz B: Wstrzymać przewóz ADR i zgłosić przewoźnikowi niezgodność numeru VIN
+- Źródło: ADR 2025, 9.1.3.1; 9.1.3.5 (pola 3 i 4 wzoru); 8.1.2.2 (a)
+
+### ADR-B-0663 – POPRAW (NOWY ELEMENT (stare = 0762, 8.3.4 – temat wyczerpany))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 1.1.3.6.2 (s. 26) – przy ilościach nieprzekraczających limitu nie stosuje się części 8 z wyjątkiem m.in. 8.1.2.1 (a), 8.1.4.2–8.1.4.5, 8.2.3, 8.3.3, 8.3.4, 8.3.5, 8.4, S1(3) i (6), S2(1), S4, S5, S14–S21, S24; 8.3.1 (s. 1332): „W jednostkach transportowych przewożących towary niebezpieczne, poza członkami załogi pojazdu, nie powinni być przewożeni żadni pasażerowie.” 8.3.1 nie należy do wyjątków.
+- Raport #921: zgoda (= 0762); zamiennik (klin pod przyczepę, 8.3.7) = 0352
+- Nowa treść: Kierowca dostawczaka wiezie kanistry z farbą w ilości mieszczącej się w limicie z 1.1.3.6. Chce podwieźć kolegę z pracy, który nie należy do załogi. Czy ma tu zastosowanie zakaz przewozu pasażerów z 8.3.1?
+- Klucz C: Nie, bo przy tym limicie 1.1.3.6.2 nie stosuje się przepisu 8.3.1
+- Źródło: ADR 2025, 1.1.3.6.2 (wyjątki z części 8); 8.3.1
+
+### ADR-B-0664 – POPRAW (PRZEREDAGOWANIE (temat 8.3.8 zachowany; słowo „tylko”))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 8.3.8 (s. 1332): „W przypadku jednostki transportowej wyposażonej w układ przeciwblokujący, składającej się z pojazdu samochodowego i przyczepy o dopuszczalnej masie całkowitej większej niż 3,5 tony, połączenia elektryczne pomiędzy pojazdem samochodowym i przyczepą, określone w 9.2.2.6, powinny być zachowane przez cały czas trwania przewozu.”; 9.2.2.6.1 (s. 1353).
+- Raport #921: zgoda; temat zachowany
+- Nowa treść: Zespół pojazdów przewożący towary ADR ma układ ABS, a dopuszczalna masa całkowita przyczepy przekracza 3,5 t. Na postoju kierowca widzi, że złącze elektryczne między ciągnikiem a przyczepą jest rozłączone. Co powinien zrobić?
+- Klucz B: Przed dalszą jazdą przywrócić połączenie elektryczne z przyczepą
+- Źródło: ADR 2025, 8.3.8; 9.2.2.6.1
+
+### ADR-B-0665 – POPRAW (PRZEREDAGOWANIE (temat zachowany; zdublowane sources, „niezależnie”))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 2.2.42.1.1 (s. 182): „Materiały piroforyczne, które jako substancje, mieszaniny i roztwory (ciekłe lub stałe), w zetknięciu z powietrzem, nawet w małych ilościach, zapalają się w ciągu 5 minut.” oraz materiały samonagrzewające się – zapalają się tylko w dużych ilościach (kilogramy) i po długim czasie (godziny lub dni); 2.2.42.1.8 (a) (s. 183).
+- Raport #921: zgoda; temat zachowany, sources scalone
+- Nowa treść: Karta materiału klasy 4.2 podaje, że nawet jego mała ilość zapala się w zetknięciu z powietrzem w ciągu 5 minut. Kolega mówi, że to zwykłe samonagrzewanie. Jak ocenić ten opis według 2.2.42.1.1?
+- Klucz B: To materiał piroforyczny, a samonagrzewający zapala się w dużej ilości
+- Źródło: ADR 2025, 2.2.42.1.1; 2.2.42.1.8 (a)
+
+### ADR-B-0666 – POPRAW (NOWY ELEMENT (stare = 0044/0156/0725 – 5.1 nasila spalanie))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 2.2.51.1.1 (s. 191): „…materiały, które same nie zawsze są palne, mogą jednak, wskutek wydzielania tlenu, powodować zapalenie lub podtrzymywanie palenia innego materiału…”; CV24 (s. 1312): „Przed załadunkiem pojazdy i kontenery powinny być dokładnie oczyszczone; w szczególności nie powinny zawierać żadnych odpadów palnych (słomy, siana, papieru itp.).” + zakaz łatwo palnych materiałów przy układaniu (sprostowanie poz. 1575: „układaniu”); tabela A UN 2067 (s. 459–460, obraz strony): 5.1, O2, III, kolumna (18) CV24.
+- Raport #921: zgoda (= 0044/0725); zamiennik (próba O.1) – kryterium laboratoryjne, nie wiedza kierowcy
+- Nowa treść: Kierowca ma załadować worki z UN 2067 NAWÓZ NA BAZIE AZOTANU AMONU klasy 5.1, dla którego kolumna (18) tabeli A wskazuje CV24. Na podłodze skrzyni leżą słoma i papier po poprzednim ładunku. Co trzeba zrobić?
+- Klucz A: Przed załadunkiem dokładnie oczyścić skrzynię z tych palnych resztek
+- Źródło: ADR 2025, 2.2.51.1.1; 7.5.11 (CV24); 3.2.1 tabela A (UN 2067: 5.1, O2, III, kolumna (18) CV24)
+
+### ADR-B-0667 – POPRAW (PRZEREDAGOWANIE (podstawa 7.1.7.4.1 → 7.1.7.4.3; dystraktor B #921 częściowo prawdziwy))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 7.1.7.3.4 (s. 1285) – definiuje temperaturę kontrolowaną ORAZ awaryjną; 7.1.7.4.3 (s. 1286): „Jeżeli zostanie osiągnięta temperatura awaryjna, to należy rozpocząć postępowanie awaryjne.”
+- Raport #921: zgoda; słusznie 7.1.7.3.4 definiuje obie temperatury, obowiązek w 7.1.7.4.3; dystraktor B zamiennika (zwiększyć częstotliwość pomiarów) częściowo prawdziwy (7.1.7.4.3)
+- Nowa treść: Podczas przewozu nadtlenku organicznego klasy 5.2 w temperaturze kontrolowanej kierowca widzi na czujniku, że temperatura ładunku osiągnęła temperaturę awaryjną podaną w dokumentach. Co według ADR należy zrobić?
+- Klucz A: Niezwłocznie rozpocząć postępowanie awaryjne przewidziane dla przewozu
+- Źródło: ADR 2025, 7.1.7.3.4; 7.1.7.4.3
+
+### ADR-B-0668 – POPRAW (PRZEREDAGOWANIE (PS 319 wierniej; „zawsze”, „niezależnie”))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 2.2.62.1.4.2 (s. 229): „Kategoria B: Zalicza się materiały zakaźne niespełniające warunków kategorii A. Materiały zakaźne kategorii B powinny być zaliczone do UN 3373.”; PS 319 (s. 641): „Materiały zapakowane i sztuki przesyłek, które są oznakowane zgodnie z instrukcją pakowania P650, nie podlegają żadnym innym przepisom ADR.”; P650 (s. 819–820).
+- Raport #921: zgoda; strona P650 to s. 819 (nie 820)
+- Nowa treść: Kierowca odbiera paczkę z rombem UN 3373 i napisem MATERIAŁ BIOLOGICZNY, KATEGORIA B. Nadawca potwierdza, że paczkę zapakowano i oznakowano zgodnie z instrukcją P650. Co wynika z przepisu szczególnego 319?
+- Klucz A: Ta paczka nie podlega innym przepisom ADR niż instrukcja P650
+- Źródło: ADR 2025, 2.2.62.1.4.2; 3.3 (przepis szczególny 319); 4.1.4.1 (P650)
+
+### ADR-B-0669 – POPRAW (PRZEREDAGOWANIE (kategorię ustala nadawca – kierowca porównuje nalepkę z dokumentem; polskie nazwy kategorii))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 5.1.5.3.4 (s. 931): „…powinny być zaliczone do jednej z kategorii: I-BIAŁA, II-ŻÓŁTA lub III-ŻÓŁTA, zgodnie z warunkami określonymi w tabeli 5.1.5.3.4 …” (a) – uwzględnia się TI i moc dawki na powierzchni; przy rozbieżności – kategoria wyższa; tabela 5.1.5.3.4 (s. 932, obraz strony): II-ŻÓŁTA – TI > 0 do 1 i > 0,005 do 0,5 mSv/h; III-ŻÓŁTA – TI > 1 do 10 lub > 0,5 do 2 mSv/h.
+- Raport #921: zgoda; zamiennik – opcje A i B obie prawdziwe
+- Nowa treść: Na sztuce przesyłki klasy 7 jest nalepka kategorii II-ŻÓŁTA. Dokument podaje wskaźnik transportowy TI 0,8 i moc dawki na powierzchni 0,7 mSv/h. Jak ocenić tę nalepkę według 5.1.5.3.4?
+- Klucz B: Nie pasuje, bo moc dawki 0,7 mSv/h wymaga wyższej kategorii III-ŻÓŁTA
+- Źródło: ADR 2025, 5.1.5.3.4 (a); tabela 5.1.5.3.4
+
+### ADR-B-0670 – POPRAW (PRZEREDAGOWANIE (praktyka kierowcy – wysypany proszek 6.1; odróżnione od 0623))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 2.2.61.1.1 (s. 214): „…mogą one – wskutek jednorazowego lub krótkotrwałego działania w stosunkowo małych dawkach – spowodować uszczerbek na zdrowiu lub śmierć człowieka w wyniku ich wdychania, przenikania przez skórę lub połknięcia.”; wzór 5.4.3.4 (s. 975): „Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania … pyłu … pozostając po stronie nawietrznej”; nalepka 6.1 (s. 977).
+- Raport #921: zgoda; zamiennik (LD50) – kryterium laboratoryjne
+- Nowa treść: Podczas rozładunku pęka worek z nalepką 6.1 i wysypuje się z niego proszek. Pracownik magazynu chce go od razu zamieść szczotką. Jak powinien postąpić kierowca?
+- Klucz B: Nie dotykać proszku, unikać pyłu, przejść na stronę nawietrzną
+- Źródło: ADR 2025, 2.2.61.1.1; 5.4.3.4 (wzór instrukcji pisemnych: nie dotykać, unikać wdychania pyłu; nalepka 6.1)
+
+### ADR-B-0671 – POPRAW (PRZEREDAGOWANIE (temat zachowany; „każda”, > 80 zn.))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 4.1.6.8 (s. 854): zawory „…powinny być zabezpieczone przed uszkodzeniami, które mogłyby doprowadzić do niezamierzonego uwolnienia się zawartości naczynia ciśnieniowego, przez zastosowanie jednego z poniższych sposobów”; (a)–(e) (s. 855): zawory wewnątrz szyjki/kołnierz, kapturki lub osłony, osłony stałe, (d) naczynia w ramach, (e) skrzynie ochronne.
+- Raport #921: zgoda; temat zachowany
+- Nowa treść: Przed załadunkiem kierowca widzi butlę z gazem bez kapturka na zaworze. Butla jest przewożona w ramie ochronnej razem z innymi butlami. Co powinien ocenić?
+- Klucz B: Czy rama chroni zawór przed uszkodzeniem i niezamierzonym uwolnieniem gazu
+- Źródło: ADR 2025, 4.1.6.8 (a)–(e)
+
+### ADR-B-0672 – POPRAW (NOWY ELEMENT (stare = 0034/0774/0087/0175/0778 – 1.10.1.4 wyczerpany))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 1.1.3.6.2 (s. 26) – nie stosuje się m.in. rozdziału 5.4.3; z części 8 stosuje się 8.1.2.1 (a); 5.4.3.1 (s. 974); 8.1.2.1 (s. 1324) – dokumenty przewozowe w jednostce transportowej.
+- Raport #921: zgoda (= 0034/0774); zamiennik (ilość w dokumencie) = 0599, opcje niezgodne z treścią
+- Nowa treść: Przewóz beczek z farbą mieści się w limicie z 1.1.3.6. W kabinie jest dokument przewozowy, ale nie ma instrukcji pisemnych. Kontroler pyta kierowcę, czy to naruszenie ADR. Co wynika z 1.1.3.6.2?
+- Klucz B: Nie, bo przy tym limicie wymaga się dokumentu, nie instrukcji pisemnych
+- Źródło: ADR 2025, 1.1.3.6.2 (bez rozdziału 5.4.3; z części 8 stosuje się 8.1.2.1 (a)); 8.1.2.1
+
+### ADR-B-0673 – POPRAW (PRZEREDAGOWANIE (temat zachowany; „każdej”, „wyłącznie”))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 2.2.9.1.7.1 (s. 274); tabela A (s. 611): UN 3480 BATERIE LITOWO-JONOWE; UN 3481 BATERIE LITOWO-JONOWE W URZĄDZENIACH lub ZAPAKOWANE Z URZĄDZENIAMI; UN 3091 (s. 549) – baterie litowe metaliczne w urządzeniach lub zapakowane z urządzeniami.
+- Raport #921: zgoda; temat zachowany
+- Nowa treść: Kierowca odbiera karton z wiertarką i zapasową baterią litowo-jonową. Bateria nie jest zamontowana, ale leży w tym samym opakowaniu i służy do zasilania wiertarki. Jaki numer UN ma ta bateria?
+- Klucz B: UN 3481, bo bateria jest zapakowana razem z urządzeniem
+- Źródło: ADR 2025, 2.2.9.1.7.1; 3.2.1 tabela A (UN 3480, UN 3481, UN 3091)
+
+### ADR-B-0674 – POPRAW (NOWY ELEMENT (stare: kryteria I grupy 4.3 – laboratorium; ten sam schemat co 0675/0676))
+
+- Cytaty i strony Dz.U. (nagłówek strony): 2.2.43.1.1 (s. 187): „Tytuł klasy 4.3 obejmuje materiały, które reagując z wodą wydzielają gazy palne mogące tworzyć z powietrzem mieszaniny wybuchowe…”; CV23 (s. 1312): „Podczas manipulowania sztukami przesyłek należy podjąć szczególne środki ostrożności w celu uniemożliwienia ich kontaktu z wodą.”; tabela A UN 1401 WAPŃ (s. 397–398, obraz strony): 4.3, W2, II, CV23.
+- Raport #921: zgoda; zamiennik – wszystkie opcje zaczynają się „I grupa oznacza…”
+- Nowa treść: Na rampie pada deszcz. Kierowca ładuje bębny z UN 1401 WAPŃ klasy 4.3, dla którego kolumna (18) tabeli A wskazuje CV23. Magazynier chce odstawić bębny na mokrą rampę i dokończyć załadunek później. Co wynika z CV23?
+- Klucz B: Przy manipulowaniu trzeba szczególnie uważać, by bębny nie miały styku z wodą
+- Źródło: ADR 2025, 2.2.43.1.1; 7.5.11 (CV23); 3.2.1 tabela A (UN 1401: 4.3, W2, II, kolumna (18) CV23)
+
+### ADR-B-0675 – POPRAW (NOWY ELEMENT (stare: treść podawała odpowiedź – II grupa; kryterium laboratoryjne))
+
+- Cytaty i strony Dz.U. (nagłówek strony): V1 (7.2.4, s. 1289): „Sztuki przesyłek powinny być załadowane do pojazdów zamkniętych, pojazdów przykrytych opończą, kontenerów zamkniętych lub kontenerów przykrytych opończą.”; tabela A UN 1402 WĘGLIK WAPNIA (s. 397–398, obraz strony): 4.3, W2, I i II, kolumna (16) V1; 2.2.43.1.1 (s. 187).
+- Raport #921: zgoda; zamiennik – wszystkie opcje zaczynają się „II grupa oznacza…”
+- Nowa treść: Bębny z UN 1402 WĘGLIK WAPNIA klasy 4.3 mają jechać odkrytą skrzyniową ciężarówką bez plandeki. W kolumnie (16) tabeli A dla tej pozycji podano V1. Czy można użyć takiego pojazdu?
+- Klucz A: Nie, bo V1 wymaga pojazdu zamkniętego albo przykrytego opończą
+- Źródło: ADR 2025, 7.2.4 (V1); 2.2.43.1.1; 3.2.1 tabela A (UN 1402: 4.3, W2, I i II, kolumna (16) V1)
+
+## Wskaźniki
+
+- „Poprawna = jedyna najdłuższa”: **21/780 = 2,69%** bez zmian; maksimum działu 5,66% bez zmian (w plikach z wskaźnikiem zmienia się tylko SHA).
+- „Poprawna = jedyna najkrótsza”: **88/780** bez zmian; każdy dział ≤ 38% (maks. 18,4%).
+- Żadna opcja nowych rekordów nie kończy się kropką, nie ma średnika ani słów absolutnych, wszystkie ≤ 80 zn.; klucz nigdy nie jest jedyną najdłuższą ani jedyną najkrótszą.
+- similarity.py: cały bank – main **7 par ≥ 0,45 / 159 ≥ 0,25**; po poprawkach **7 / 158**. Pary z partią: main **0 / 1** (0675/0676 = 0,325); po poprawkach **0 / 0**. Wyszukiwanie po temacie w całym banku: CV23, CV24, V1, pasażer przy 1.1.3.6 i instrukcje pisemne przy 1.1.3.6 – brak w banku (pokrewne: 0136, 0228, 0475, 0554, 0556, 0623).
+- Kompetencje: liczby bez zmian (02-K06 nadal 8); 05-K13, 05-K14, 05-K15 nadal po 5; kompetencje.json bez zmian.
+
+## Synchronizacja (test na kopii repo)
+
+- review/sequential/ i review/legal-clauses/: 661-661 … 674-674.json oraz 675-676.json (tylko 0675) – snapshoty; w legal-clauses clause, answer_review A/B/C, notes_on_conditions.
+- Ledger: review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json (15 wpisów).
+- Egzaminy 001–005: ŻADEN wariant nie zawiera 0661–0675 – zmienia się tylko SHA (10 plików). Kolejki 4X40/4X44 – tylko SHA.
+- SHA 835ba933… → ff06e555… w 48 plikach; zostaje tylko w review/literal-pl/ i jako FIRST_PASS_BANK_SHA w tests/test_literal_review_0661_0675.py.
+- REJESTR-AKTUALNY-0001-0765.md i 0001-0780.md – 15 wierszy.
+- Lekcje i instruktor: ADR-B-02 (0666 → stara sekcja wskazuje 0725 + nowa sekcja CV24; 0667 – podstawa 7.1.7.4.3; 0669 – II-/III-ŻÓŁTA; 0674 → stara sekcja wskazuje 0127; 0675/0676 → tylko 0676 + nowa sekcja CV23/V1), ADR-B-07 (stara sekcja latarki bez ID – 0762 należy do modułu 08; nowa sekcja o pasażerze przy 1.1.3.6), ADR-B-13 (0672 → stara sekcja wskazuje 0175 + nowa sekcja o instrukcjach pisemnych przy 1.1.3.6).
+
+## Wynik testu
+
+Git worktree z main 8244275df + POPRAWKI + synchronizacja: 14 skryptów CI zielonych (validate, coverage, check_mock_exam_variants, answer_leakage_metrics, answer_length_bias --threshold 0.16 --strict, check_explanation_quality --minimum 300, check_near_duplicates 0.60, check_cross_module_duplicates 0.80, similarity, check_explanation_heuristics, release_gate --report, check_sequential_audit, check_legal_clause_review, course_consistency); `python3 -m unittest discover -s tests` – **248/248 OK**. Blob banku po zastosowaniu: `ff06e555f833fa3f679c7c145c1223395ae923db`.
+
+## Do pakietu dla specjalistów
+
+- 0662 – postępowanie kierowcy przy niezgodności VIN w świadectwie dopuszczenia (wstrzymanie przewozu, zgłoszenie przewoźnikowi).
+- 0663 – pasażer przy przewozie w limicie z 1.1.3.6 (8.3.1 nie należy do wyjątków 1.1.3.6.2; ewentualne przepisy krajowe / przewoźnika).
+- 0664 – interpretacja progu 3,5 t (dopuszczalna masa całkowita przyczepy) w 8.3.8.
+- 0667 – postępowanie awaryjne kierowcy przy przewozie 5.2 w temperaturze kontrolowanej (co konkretnie robi kierowca).
+- 0669 – czy dobór kategorii I-BIAŁA/II-ŻÓŁTA/III-ŻÓŁTA należy do zakresu kursu podstawowego (kierowca tylko porównuje nalepkę z dokumentem).
+- 0672 – instrukcje pisemne przy przewozie w limicie 1.1.3.6 (dobrowolne przekazanie załodze).
+
+## Kontrola druga
+
+**0 OK / 15 POPRAW / 0 BLOKUJ – POPRAW potwierdzone.** Zamienników z #921 nie przejęto w całości: 0663 = 0352 i 0672 = 0599 (duplikaty); 0666 i 0670 dotyczyły kryteriów laboratoryjnych; 0669 miało dwie prawdziwe odpowiedzi; 0674/0675 powielały ten sam początek wszystkich opcji; 0661 i 0667 miały wadliwe dystraktory. P650: s. 819. 7.1.7.3.4/7.1.7.4.3 – trafnie. Licznik 120 → 105 poprawny. Wdrożono 5 nowych elementów i 10 przeredagowań, bez cystern; litery kluczy, moduły i kompetencje bez zmian. Nowy SHA banku: `ff06e555f833fa3f679c7c145c1223395ae923db`.

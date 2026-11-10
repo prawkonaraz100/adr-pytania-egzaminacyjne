@@ -4,23 +4,23 @@
     {
       "id": "ADR-B-0662",
       "order": 662,
-      "clause": "ADR 2025, 9.1.3.1; 9.1.3.3; 9.1.3.5",
+      "clause": "ADR 2025, 9.1.3.1; 9.1.3.5 (pola 3 i 4 wzoru); 8.1.2.2 (a)",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0662",
         "module_id": "ADR-B-08",
-        "stem": "Przed wyjazdem kierowca porównuje świadectwo dopuszczenia z pojazdem. W polu 3 widnieje inny numer VIN niż na tabliczce identyfikacyjnej pojazdu, choć typ pojazdu i przewoźnik się zgadzają. Co powinien zrobić?",
+        "stem": "Przed wyjazdem kierowca porównuje świadectwo dopuszczenia z pojazdem. W polu 3 świadectwa jest inny numer identyfikacyjny (VIN) niż na tabliczce pojazdu, choć typ pojazdu i przewoźnik się zgadzają. Co powinien zrobić?",
         "options": {
-          "A": "Wystarczy zgodność oznaczenia typu EX/II i nazwy przewoźnika; świadectwo można stosować zamiennie dla pojazdów tego samego typu w jednej firmie.",
-          "B": "Wstrzymać wyjazd ADR, wyjaśnić rozbieżność z wystawcą i uzyskać poprawione świadectwo dla tego konkretnego pojazdu przed wyjazdem.",
-          "C": "Można rozpocząć przewóz, jeśli numer rejestracyjny się zgadza, ponieważ inny VIN nie zmienia typu pojazdu ani jego przeznaczenia."
+          "A": "Wyjechać, bo zgodny typ pojazdu i przewoźnik wystarczą w jednej flocie",
+          "B": "Wstrzymać przewóz ADR i zgłosić przewoźnikowi niezgodność numeru VIN",
+          "C": "Wyjechać, jeżeli numer rejestracyjny w polu 4 zgadza się z pojazdem"
         },
         "correct_option": "B",
-        "explanation": "Nie wolno użyć świadectwa z innym numerem VIN: ADR wymaga świadectwa dla każdego konkretnego pojazdu, którego zgodność została potwierdzona. Sama zgodność typu pojazdu i danych przewoźnika nie zastępuje zgodności numeru identyfikacyjnego; numer rejestracyjny także nie usprawiedliwia innego VIN. Wzór świadectwa przewiduje osobne pola na numer identyfikacyjny, rejestracyjny i oznaczenie pojazdu. Podstawa: ADR 9.1.3.1, 9.1.3.3 i 9.1.3.5.",
+        "explanation": "Właściwa władza wystawia świadectwo dopuszczenia dla każdego pojazdu, którego badanie zakończyło się wynikiem pozytywnym, a nie dla typu pojazdu. We wzorze świadectwa pole 3 to numer identyfikacyjny pojazdu, a pole 4 to numer rejestracyjny. Jeżeli VIN się nie zgadza, dokument nie potwierdza, że ten konkretny pojazd spełnia wymagania ADR. Kierowca wstrzymuje więc przewóz i zgłasza sprawę przewoźnikowi, który wyjaśnia ją z wystawcą świadectwa. Podstawa: ADR 9.1.3.1, 9.1.3.5 i 8.1.2.2 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 9.1.3.1; 9.1.3.3; 9.1.3.5",
+            "reference": "ADR 2025, 9.1.3.1; 9.1.3.5 (pola 3 i 4 wzoru); 8.1.2.2 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -30,19 +30,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędna: świadectwo nie jest zamienne dla dowolnych pojazdów tej samej firmy; potwierdza zgodność konkretnego pojazdu."
+          "rationale": "9.1.3.1: świadectwo wystawia się dla każdego pojazdu, nie dla typu pojazdu we flocie."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Prawidłowa: rozbieżność VIN oznacza, że nie można przyjąć, iż świadectwo dotyczy sprawdzanego pojazdu."
+          "rationale": "Inny VIN w polu 3 – świadectwo nie potwierdza zgodności tego pojazdu; przewóz wstrzymać, zgłosić przewoźnikowi."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędna: zgodność numeru rejestracyjnego nie usuwa rozbieżności numeru identyfikacyjnego VIN."
+          "rationale": "Pole 4 (numer rejestracyjny) nie zastępuje zgodności numeru identyfikacyjnego z pola 3."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "9.1.3.1 stanowi o świadectwie dla każdego pojazdu; wzór 9.1.3.5 rozróżnia numer identyfikacyjny i rejestracyjny. Pytanie dotyczy niezgodności VIN w polu 3. Nie rozstrzyga procedury korekty dokumentu ani innych wymagań krajowych.",
+      "notes_on_conditions": "9.1.3.1 s. 1344; wzór 9.1.3.5 s. 1345; 8.1.2.2 (a) s. 1324. Do oceny specjalisty (postępowanie przy niezgodności VIN).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

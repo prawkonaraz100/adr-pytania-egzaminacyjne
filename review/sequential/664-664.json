@@ -8,18 +8,18 @@
       "id": "ADR-B-0664",
       "sequence": 664,
       "exact_record_snapshot": {
-        "stem": "Zespół pojazdów przewożący ADR ma ABS, a maksymalna masa przyczepy przekracza 3,5 t. Podczas postoju kierowca zauważa, że złącze elektryczne ABS między ciągnikiem a przyczepą jest rozłączone. Co powinien zrobić przed dalszą jazdą?",
+        "stem": "Zespół pojazdów przewożący towary ADR ma układ ABS, a dopuszczalna masa całkowita przyczepy przekracza 3,5 t. Na postoju kierowca widzi, że złącze elektryczne między ciągnikiem a przyczepą jest rozłączone. Co powinien zrobić?",
         "options": {
-          "A": "Może kontynuować, jeśli hamulce zasadnicze działają, ponieważ przewód ABS jest potrzebny tylko podczas kontroli diagnostycznej, a nie podczas jazdy.",
-          "B": "Powinien połączyć wymagane złącza ABS i nie kontynuować przewozu, dopóki połączenie ciągnika z przyczepą nie będzie przywrócone.",
-          "C": "Może kontynuować, jeśli zwykłe hamulce działają, a przewód ABS zostanie podłączony dopiero po zakończeniu przewozu."
+          "A": "Jechać dalej, bo hamulce zasadnicze działają bez tego połączenia",
+          "B": "Przed dalszą jazdą przywrócić połączenie elektryczne z przyczepą",
+          "C": "Podłączyć złącze dopiero po rozładunku, na końcu całej trasy"
         },
         "correct_option": "B",
-        "explanation": "W takim zestawie wymagane złącza ABS muszą łączyć ciągnik z przyczepą przez cały czas przewozu, więc rozłączonego przewodu nie wolno zignorować. Sprawne zwykłe hamulce nie zastępują tego połączenia, a ADR nie przewiduje odłożenia go do końca trasy. Zatrzymaj się w bezpiecznym miejscu, przywróć połączenie i dopiero wtedy kontynuuj. Podstawa: ADR 8.3.8 w związku z 9.2.2.6.",
+        "explanation": "Według 8.3.8 w jednostce transportowej z układem przeciwblokującym, złożonej z pojazdu samochodowego i przyczepy o masie powyżej 3,5 t, połączenia elektryczne między nimi muszą być zachowane przez cały przewóz. Chodzi o połączenia opisane w 9.2.2.6, które mają być chronione przed wilgocią, brudem i przypadkowym rozłączeniem. Sprawne hamulce zasadnicze nie zastępują tego połączenia, a przewóz trwa aż do rozładunku. Kierowca przywraca połączenie przed ruszeniem, a gdy to niemożliwe, zgłasza usterkę przewoźnikowi. Podstawa: ADR 8.3.8 i 9.2.2.6.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.8; 9.2.2.6",
+            "reference": "ADR 2025, 8.3.8; 9.2.2.6.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

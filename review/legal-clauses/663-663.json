@@ -4,23 +4,23 @@
     {
       "id": "ADR-B-0663",
       "order": 663,
-      "clause": "ADR 2025, 8.3.4",
+      "clause": "ADR 2025, 1.1.3.6.2 (wyjątki z części 8); 8.3.1",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0663",
         "module_id": "ADR-B-07",
-        "stem": "Po zmroku kierowca ma sprawdzić oznakowanie przy pojeździe ADR. Jedyna dostępna latarka ma metalową obudowę, która przy uderzeniu może wywołać iskrę. Jak powinien postąpić?",
+        "stem": "Kierowca dostawczaka wiezie kanistry z farbą w ilości mieszczącej się w limicie z 1.1.3.6. Chce podwieźć kolegę z pracy, który nie należy do załogi. Czy ma tu zastosowanie zakaz przewozu pasażerów z 8.3.1?",
         "options": {
-          "A": "Może użyć tej latarki z metalową obudową, jeżeli ma sprawną baterię, nie jest uszkodzona i użyje jej wyłącznie na zewnątrz pojazdu, z dala od przesyłek.",
-          "B": "Może jej użyć tylko przez krótki czas i z dala od przesyłek, ponieważ sama obudowa nie powoduje iskry podczas normalnej pracy.",
-          "C": "Nie używać jej; wybrać przenośne urządzenie, którego metalowa powierzchnia nie może spowodować iskry, także przy przypadkowym uderzeniu."
+          "A": "Tak, bo zakaz przewozu pasażerów obejmuje przewóz ADR w dowolnej ilości",
+          "B": "Tak, chyba że kolega ma własne zaświadczenie ADR kierowcy",
+          "C": "Nie, bo przy tym limicie 1.1.3.6.2 nie stosuje się przepisu 8.3.1"
         },
         "correct_option": "C",
-        "explanation": "Nie używaj latarki, której metalowa powierzchnia może wywołać iskrę; wybierz urządzenie, które nie stwarza takiego zagrożenia. Sprawna bateria, brak uszkodzeń ani krótki czas świecenia nie usuwają ryzyka związanego z obudową. Odsunięcie latarki od przesyłek także nie zastępuje wymaganego rodzaju urządzenia. Podstawa: ADR 8.3.4.",
+        "explanation": "Gdy ilość towarów w jednostce transportowej nie przekracza limitu z 1.1.3.6, przepis 1.1.3.6.2 zwalnia z większości wymagań części 8 ADR. Zostają tylko wymienione wyjątki, takie jak dokument przewozowy, gaśnica, zakaz otwierania sztuk przesyłek, latarka bez iskrzących powierzchni i zakaz palenia. Zakazu przewozu pasażerów z 8.3.1 nie ma wśród tych wyjątków, więc przy takim przewozie ADR nie zabrania zabrać kolegi. Po przekroczeniu limitu osoba spoza załogi nie może jechać w jednostce transportowej. Podstawa: ADR 1.1.3.6.2 i 8.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.4",
+            "reference": "ADR 2025, 1.1.3.6.2 (wyjątki z części 8); 8.3.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -30,19 +30,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędna: sprawna bateria i używanie poza pojazdem nie znoszą wymogu dotyczącego powierzchni metalowej zdolnej wywołać iskrę."
+          "rationale": "1.1.3.6.2 wyłącza część 8 poza wymienionymi wyjątkami – 8.3.1 do nich nie należy."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędna: krótki czas użycia i odsunięcie od przesyłek nie są wyjątkami od 8.3.4."
+          "rationale": "Zaświadczenie ADR nie czyni nikogo członkiem załogi; przy limicie 1.1.3.6 zakaz i tak nie obowiązuje."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Prawidłowa: urządzenie przenośne nie może mieć powierzchni metalowej mogącej spowodować iskrę."
+          "rationale": "1.1.3.6.2: 8.3.1 nie jest wśród stosowanych przepisów części 8 – zakaz pasażerów nie ma zastosowania."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Pytanie dotyczy używanego przenośnego urządzenia oświetleniowego i wymogu 8.3.4. Nie rozstrzyga innych wymagań dla urządzeń w strefach zagrożonych wybuchem ani szczególnych wymagań 8.5.",
+      "notes_on_conditions": "1.1.3.6.2 s. 26; 8.3.1 s. 1332. Odrębne od 0136 (powyżej limitu), 0196 (praktykant), 0761/0762 (klin, latarka przy 1.1.3.6).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

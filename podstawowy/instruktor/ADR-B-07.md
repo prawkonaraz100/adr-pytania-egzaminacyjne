@@ -145,7 +145,11 @@ Pytania kontrolne: `ADR-B-0019`, `ADR-B-0020`, `ADR-B-0021`, `ADR-B-0369`, `ADR-
 
 ### Ćwiczenie: wybór latarki podczas przewozu ADR
 
-Pokaż kursantowi dwie fikcyjne latarki: jedną z metalową powierzchnią mogącą spowodować iskrę i drugą, która nie stwarza takiego zagrożenia. Poproś o wskazanie, której może użyć członek załogi podczas kontroli pojazdu po zmroku, oraz o wyjaśnienie, dlaczego bateria, krótki czas użycia i oddalenie od przesyłek nie znoszą wymagania. Kryterium: kursant wybiera urządzenie zgodne z ADR 8.3.4. Pytanie: ADR-B-0663 (needs_review). Podstawa: ADR 8.3.4.
+Pokaż kursantowi dwie fikcyjne latarki: jedną z metalową powierzchnią mogącą spowodować iskrę i drugą, która nie stwarza takiego zagrożenia. Poproś o wskazanie, której może użyć członek załogi podczas kontroli pojazdu po zmroku, oraz o wyjaśnienie, dlaczego bateria, krótki czas użycia i oddalenie od przesyłek nie znoszą wymagania. Kryterium: kursant wybiera urządzenie zgodne z ADR 8.3.4. Podstawa: ADR 8.3.4.
+
+### Ćwiczenie: pasażer przy przewozie w limicie z 1.1.3.6
+
+Przedstaw dwie fikcyjne sytuacje: dostawczak wiezie farbę w ilości mieszczącej się w limicie z 1.1.3.6, a ciężarówka ten sam towar w ilości powyżej limitu. W obu kierowca chce podwieźć kolegę spoza załogi. Poproś kursanta, aby sprawdził w 1.1.3.6.2, które przepisy części 8 nadal obowiązują, i ocenił każdą sytuację. Kryterium: kursant wskazuje, że 8.3.1 nie należy do wyjątków z 1.1.3.6.2, więc zakaz obowiązuje dopiero po przekroczeniu limitu. Pytanie: ADR-B-0663 (needs_review). Podstawa: ADR 1.1.3.6.2 i 8.3.1.
 
 
 ### Ćwiczenie: kontrola połączenia ABS w zestawie pojazdów

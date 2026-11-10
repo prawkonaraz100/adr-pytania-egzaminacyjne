@@ -392,12 +392,16 @@ W klasie 4.2 ADR rozróżnia materiały piroforyczne i samonagrzewające się. P
 
 ### Klasa 5.1 w pobliżu pożaru — zagrożenie utleniające
 
-Materiał klasy 5.1 nie musi sam być palny, ale może spowodować lub nasilić spalanie innego materiału. Dlatego nie wolno uznać przesyłki za obojętną tylko dlatego, że jej opakowanie nie płonie. Jeśli w pobliżu ładunku wybucha pożar, załoga powinna uwzględnić klasę 5.1, przekazać ratownikom informację o towarze, odszukać [instrukcje pisemne](../SLOWNICZEK.md#instrukcje-pisemne) ADR (dokument z czynnościami załogi na wypadek awarii lub wypadku) i postępować zgodnie z nimi. Nie należy samodzielnie przenosić przesyłki ani dobierać środka gaśniczego bez oceny zagrożenia. Pytanie kontrolne: ADR-B-0666. Podstawa: ADR 2.2.51.1.1 i 5.4.3.4.
+Materiał klasy 5.1 nie musi sam być palny, ale może spowodować lub nasilić spalanie innego materiału. Dlatego nie wolno uznać przesyłki za obojętną tylko dlatego, że jej opakowanie nie płonie. Jeśli w pobliżu ładunku wybucha pożar, załoga powinna uwzględnić klasę 5.1, przekazać ratownikom informację o towarze, odszukać [instrukcje pisemne](../SLOWNICZEK.md#instrukcje-pisemne) ADR (dokument z czynnościami załogi na wypadek awarii lub wypadku) i postępować zgodnie z nimi. Nie należy samodzielnie przenosić przesyłki ani dobierać środka gaśniczego bez oceny zagrożenia. Pytanie kontrolne: ADR-B-0725. Podstawa: ADR 2.2.51.1.1 i 5.4.3.4.
+
+### Klasa 5.1 — czysta skrzynia przed załadunkiem (CV24)
+
+Dla wielu materiałów klasy 5.1 kolumna (18) tabeli A wskazuje przepis CV24, na przykład dla UN 2067 NAWÓZ NA BAZIE AZOTANU AMONU. Według CV24 przed załadunkiem pojazd lub kontener trzeba dokładnie oczyścić, a w szczególności usunąć odpady palne, takie jak słoma, siano czy papier. Przy układaniu sztuk przesyłek nie wolno używać materiałów łatwo palnych. Utleniacz może spowodować zapalenie takich resztek albo podtrzymywać ich palenie. Pytanie kontrolne: ADR-B-0666. Podstawa: ADR 2.2.51.1.1 i 7.5.11 (CV24).
 
 
 ### Klasa 5.2 — temperatura kontrolowana i awaryjna
 
-Niektóre nadtlenki organiczne wymagają przewozu w temperaturze kontrolowanej. Temperatura kontrolowana jest najwyższą temperaturą bezpiecznego przewozu, a temperatura awaryjna wskazuje moment rozpoczęcia działań awaryjnych. Jeśli czujnik pokaże osiągnięcie temperatury awaryjnej, kierowca powinien uruchomić przewidzianą procedurę, a nie czekać na dalszy wzrost temperatury ani improwizować chłodzenia. Warunki i progi wynikają z klasyfikacji konkretnego nadtlenku i dokumentacji przewozowej. Powiązane pytanie: ADR-B-0667. Podstawa: ADR 2.2.52.1.15–1.16 oraz 7.1.7.3.4 i 7.1.7.4.1.
+Niektóre nadtlenki organiczne wymagają przewozu w temperaturze kontrolowanej. Temperatura kontrolowana jest najwyższą temperaturą bezpiecznego przewozu, a temperatura awaryjna wskazuje moment rozpoczęcia działań awaryjnych. Jeśli czujnik pokaże osiągnięcie temperatury awaryjnej, kierowca powinien uruchomić przewidzianą procedurę, a nie czekać na dalszy wzrost temperatury ani improwizować chłodzenia. Warunki i progi wynikają z klasyfikacji konkretnego nadtlenku i dokumentacji przewozowej. Powiązane pytanie: ADR-B-0667. Podstawa: ADR 2.2.52.1.15–1.16 oraz 7.1.7.3.4 i 7.1.7.4.3.
 
 
 ### Klasa 6.2 — materiał biologiczny kategorii B (UN 3373)
@@ -407,7 +411,7 @@ Oznaczenie UN 3373 oznacza materiał biologiczny kategorii B, należący do klas
 
 ### Klasa 7 — odczytanie kategorii przesyłki
 
-Przy odbiorze przesyłki klasy 7 kierowca nie powinien ustalać kategorii wyłącznie na podstawie wskaźnika transportowego (TI). ADR wymaga uwzględnienia zarówno TI, jak i maksymalnego poziomu promieniowania na powierzchni opakowania. Jeżeli oba kryteria wskazują różne kategorie, przyjmuje się kategorię wyższą. W ćwiczeniu TI 0,8 wskazuje II-YELLOW, a poziom 0,7 mSv/h na powierzchni — III-YELLOW, więc właściwa jest III-YELLOW. Powiązane pytanie: ADR-B-0669 (needs_review). Podstawa: ADR 5.1.5.3.4(a) i tabela 5.1.5.3.4.
+Przy odbiorze przesyłki klasy 7 kierowca nie powinien ustalać kategorii wyłącznie na podstawie wskaźnika transportowego (TI). ADR wymaga uwzględnienia zarówno TI, jak i maksymalnego poziomu promieniowania na powierzchni opakowania. Jeżeli oba kryteria wskazują różne kategorie, przyjmuje się kategorię wyższą. W ćwiczeniu TI 0,8 wskazuje II-ŻÓŁTA, a poziom 0,7 mSv/h na powierzchni — III-ŻÓŁTA, więc właściwa jest III-ŻÓŁTA. Powiązane pytanie: ADR-B-0669 (needs_review). Podstawa: ADR 5.1.5.3.4(a) i tabela 5.1.5.3.4.
 
 
 ### Klasa 6.1 — uszkodzone opakowanie i ryzyko zatrucia
@@ -427,12 +431,16 @@ Jeżeli bateria litowo-jonowa jest przewożona samodzielnie, właściwą pozycj�
 
 ### Klasa 4.3 — znaczenie grup pakowania I, II i III
 
-Grupa pakowania opisuje stopień zagrożenia materiału, a nie typ użytego opakowania. Dla klasy 4.3 grupa I oznacza duże zagrożenie: materiał reaguje z wodą energicznie, a wydzielany gaz ma zwykle tendencję do samozapłonu, albo gaz palny wydziela się z szybkością co najmniej 10 l/kg w minutę. Grupa II i III mają odrębne, mniej ostre kryteria szybkości wydzielania gazu. Kierowca odczytuje grupę z dokumentu przewozowego; nie wykonuje samodzielnie prób z wodą ani nie ustala grupy na podstawie wyglądu przesyłki. Powiązane pytanie: ADR-B-0674 (needs_review). Podstawa: ADR 1.2.1 i 2.2.43.1.8.
+Grupa pakowania opisuje stopień zagrożenia materiału, a nie typ użytego opakowania. Dla klasy 4.3 grupa I oznacza duże zagrożenie: materiał reaguje z wodą energicznie, a wydzielany gaz ma zwykle tendencję do samozapłonu, albo gaz palny wydziela się z szybkością co najmniej 10 l/kg w minutę. Grupa II i III mają odrębne, mniej ostre kryteria szybkości wydzielania gazu. Kierowca odczytuje grupę z dokumentu przewozowego; nie wykonuje samodzielnie prób z wodą ani nie ustala grupy na podstawie wyglądu przesyłki. Powiązane pytanie: ADR-B-0127 (needs_review). Podstawa: ADR 1.2.1 i 2.2.43.1.8.
 
 
 ### Klasa 4.3 — rozróżnianie grup pakowania II i III
 
-Grupa II obejmuje materiał, który reaguje z wodą i wydziela co najmniej 20 litrów gazu palnego na kilogram w ciągu godziny, ale nie spełnia kryteriów grupy I. Grupa III dotyczy wolniejszej reakcji: wydzielanie przekracza 1 litr na kilogram w ciągu godziny, a materiał nie spełnia kryteriów I ani II. W praktyce kierowca odczytuje przypisaną grupę z dokumentu przewozowego; nie wykonuje prób z wodą ani samodzielnie nie klasyfikuje ładunku. Pytania kontrolne: ADR-B-0675 i ADR-B-0676 (needs_review). Podstawa: ADR 2.2.43.1.8(b)–(c).
+Grupa II obejmuje materiał, który reaguje z wodą i wydziela co najmniej 20 litrów gazu palnego na kilogram w ciągu godziny, ale nie spełnia kryteriów grupy I. Grupa III dotyczy wolniejszej reakcji: wydzielanie przekracza 1 litr na kilogram w ciągu godziny, a materiał nie spełnia kryteriów I ani II. W praktyce kierowca odczytuje przypisaną grupę z dokumentu przewozowego; nie wykonuje prób z wodą ani samodzielnie nie klasyfikuje ładunku. Pytanie kontrolne: ADR-B-0676 (needs_review). Podstawa: ADR 2.2.43.1.8(b)–(c).
+
+### Klasa 4.3 — ochrona przed wodą przy załadunku i w czasie jazdy (CV23, V1)
+
+Materiały klasy 4.3 reagują z wodą i wydzielają gazy palne, dlatego tabela A często wskazuje dla nich przepisy CV23 i V1. Według CV23 przy manipulowaniu sztukami przesyłek trzeba podjąć szczególne środki ostrożności, aby nie miały one kontaktu z wodą, więc bębnów nie odstawia się na deszczu ani na mokrej rampie. Według V1 sztuki przesyłek ładuje się do pojazdów zamkniętych albo przykrytych opończą lub do takich kontenerów, a nie na odkrytą skrzynię. Przykłady z tabeli A to UN 1401 WAPŃ i UN 1402 WĘGLIK WAPNIA. Pytania kontrolne: ADR-B-0674 i ADR-B-0675 (needs_review). Podstawa: ADR 2.2.43.1.1, 7.2.4 (V1) i 7.5.11 (CV23).
 
 
 ### Dodatkowe pytanie ADR-B-0722
