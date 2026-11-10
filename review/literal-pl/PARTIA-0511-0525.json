@@ -1,0 +1,539 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0511–0525",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642, polski tekst; strony podano według drukowanych nagłówków Dziennika Ustaw.",
+  "bank_count": 780,
+  "bank_blob_sha": "f732aa354f959e2ba17bf870d901d2fe51aa0426",
+  "bank_changed": false,
+  "previous_uncompared": 270,
+  "compared": 15,
+  "remaining_without_comparison": 255,
+  "counts": {
+    "OK": 4,
+    "POPRAW": 11,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "method": "scripts/similarity.py — tokenizacja stemów, NFKD, usunięcie znaków diakrytycznych, stoplista i Jaccard; porównanie w obrębie modułu",
+    "threshold_0_45_pairs": 0,
+    "threshold_0_25_pairs": 0,
+    "manual_cross_module_review": "Ręczna kontrola podobieństw między modułami ujawniła dokładny odpowiednik ADR-B-0519 w ADR-B-0672. Kandydatury 0516/0589, 0514/0195, 0523/0314 i 0524/0674 dotyczą podobnego obszaru, ale innych wymagań.",
+    "records": [
+      {
+        "id": "ADR-B-0511",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 1.1.4.2.1(a)",
+        "gazette_page": 29,
+        "exact_quote": "„jeżeli sztuki przesyłek nie są oznakowane znakami i nalepkami ostrzegawczymi zgodnie z ADR, to powinny być oznakowane znakami i nalepkami ostrzegawczymi zgodnie z wymaganiami Kodeksu IMDG lub Instrukcji Technicznych ICAO”",
+        "finding": "Klucz B oddaje warunek stosowania oznakowania IMDG w łańcuchu morskim. Pytanie powiela jednak ADR-B-0119, które sprawdza ten sam fakt: uznanie oznakowania IMDG przy dalszym przewozie drogowym. Odpowiedź B jest też jedyną najkrótszą (70 wobec 80 i 74 znaków). Wymaga zastąpienia innym elementem tej samej kompetencji.",
+        "duplicate_candidates": [
+          "ADR-B-0119",
+          "ADR-B-0029",
+          "ADR-B-0030"
+        ],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "B",
+        "gazette_pages": [
+          29
+        ],
+        "competency_id": "ADR-B-10-K01"
+      },
+      {
+        "id": "ADR-B-0512",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 8.6.4; 3.4.13; 3.4.14",
+        "gazette_page": 1339,
+        "exact_quote": "„do jednostek transportowych, dla których, na podstawie 3.4.13, z zastrzeżeniem 3.4.14, wymagane jest oznakowanie, w przypadku tuneli kategorii E”",
+        "finding": "Klucz C prawidłowo wskazuje zakaz przejazdu przez tunele kategorii E dla jednostki wymagającej oznakowania LQ. To samo zagadnienie sprawdzają ADR-B-0540 i ADR-B-0209; 0574 dotyczy innej zasady, wyboru bardziej restrykcyjnego kodu. Opcja A ma 87 znaków i przekracza przyjęty limit 80. Pytanie jest powtórzeniem, nie nowym elementem kompetencji.",
+        "duplicate_candidates": [
+          "ADR-B-0540",
+          "ADR-B-0209"
+        ],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "C",
+        "gazette_pages": [
+          1339
+        ],
+        "competency_id": "ADR-B-11-K06"
+      },
+      {
+        "id": "ADR-B-0513",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 1.3.1",
+        "gazette_page": 54,
+        "exact_quote": "„czynności, które nie były objęte ukończonym szkoleniem mogą wykonywać wyłącznie pod bezpośrednim nadzorem osoby przeszkolonej”",
+        "finding": "Klucz B jest zgodny z 1.3.1, ale pytanie powiela ADR-B-0092, które pyta o bezpośredni nadzór nad nowym pracownikiem bez szkolenia ADR. Wszystkie trzy odpowiedzi przekraczają 80 znaków (97, 83 i 84), a poprawna B jest jedyną najkrótszą. Potrzebny inny element kompetencji szkoleniowej.",
+        "duplicate_candidates": [
+          "ADR-B-0092"
+        ],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "B",
+        "gazette_pages": [
+          54
+        ],
+        "competency_id": "ADR-B-01-K02"
+      },
+      {
+        "id": "ADR-B-0514",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 7.5.8.1",
+        "gazette_page": 604,
+        "exact_quote": "„Jeżeli po rozładunku pojazdu lub kontenera załadowanego wcześniej towarami niebezpiecznymi w sztukach przesyłek stwierdzono, że wydostała się część ich zawartości, to taki pojazd lub kontener należy niezwłocznie oczyścić; w żadnym przypadku nie później niż przed ponownym załadunkiem”",
+        "finding": "Klucz A prawidłowo oddaje obowiązek oczyszczenia kontenera przed ponownym załadunkiem po stwierdzeniu wycieku. Poprawna odpowiedź jest jednak wyraźnie najkrótsza (59 wobec 75 i 79 znaków), przez co może być rozpoznawana po długości. Podobieństwo do ADR-B-0195 dotyczy sytuacji po rozładunku, ale tam chodzi o usunięcie naruszenia przed zwrotem kontenera przewoźnikowi, a nie czyszczenie po wycieku.",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "A",
+        "gazette_pages": [
+          604
+        ],
+        "competency_id": "ADR-B-03-K03"
+      },
+      {
+        "id": "ADR-B-0515",
+        "verdict": "OK",
+        "legal_basis": "ADR 2025, 8.3.6",
+        "gazette_page": 1332,
+        "exact_quote": "„Silnik pojazdu nie powinien pracować podczas załadunku i rozładunku, z wyjątkiem przypadków, gdy uruchomienie silnika jest niezbędne dla pracy pomp lub innych urządzeń zapewniających załadunek lub rozładunek pojazdu oraz gdy zezwalają na to przepisy państwa”",
+        "finding": "Klucz C jest prawidłowy: skoro silnik nie napędza pomp ani urządzeń używanych przy rozładunku, wskazany wyjątek nie ma zastosowania. Wyjaśnienie uwzględnia wyjątek ustawowy, a długości odpowiedzi są zbliżone (71, 77 i 72 znaki). Nie znaleziono duplikatu merytorycznego.",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "C",
+        "gazette_pages": [
+          1332
+        ],
+        "competency_id": "ADR-B-04-K03"
+      },
+      {
+        "id": "ADR-B-0516",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 5.4.3.3",
+        "gazette_page": 975,
+        "exact_quote": "„Przed rozpoczęciem przewozu, członkowie załogi pojazdu powinni dowiedzieć się jakie towary niebezpieczne są załadowane oraz sprawdzić w instrukcjach pisemnych, jakie czynności powinny być podjęte w razie zaistnienia wypadku lub zagrożenia”",
+        "finding": "Klucz A jest zgodny z obowiązkiem zapoznania się z ładunkiem i czynnościami awaryjnymi przed rozpoczęciem przewozu. Poprawna odpowiedź ma 88 znaków i jest jedyną najdłuższą (88 wobec 81 i 71), co tworzy wskazówkę długościową. ADR-B-0589 dotyczy języka instrukcji i ich zrozumiałości, czyli odrębnego warunku.",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "A",
+        "gazette_pages": [
+          975
+        ],
+        "competency_id": "ADR-B-05-K01"
+      },
+      {
+        "id": "ADR-B-0517",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 1.4.3.1.1(b)",
+        "gazette_page": 57,
+        "exact_quote": "„przy wydawaniu do przewozu opakowanych towarów niebezpiecznych lub próżnych nieoczyszczonych opakowań, sprawdzić czy opakowania nie są uszkodzone. Nie powinien on wydać sztuki przesyłki, której opakowanie jest uszkodzone, dopóki nie zostaną usunięte uszkodzenia”",
+        "finding": "Klucz B prawidłowo wskazuje obowiązek wstrzymania wydania uszkodzonej sztuki przesyłki do czasu usunięcia uszkodzenia. Poprawna odpowiedź jest jednak jedyną najkrótszą (52 wobec 71 i 62 znaków), co może ułatwiać odgadnięcie klucza. Nie znaleziono duplikatu merytorycznego.",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "B",
+        "gazette_pages": [
+          57
+        ],
+        "competency_id": "ADR-B-07-K03"
+      },
+      {
+        "id": "ADR-B-0518",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 7.5.7.1",
+        "gazette_page": 1309,
+        "exact_quote": "„W przypadku użycia elementów spinających, np. opasek lub pasów, należy unikać ich nadmiernego napinania, które mogłoby spowodować uszkodzenie lub deformację sztuki przesyłki”",
+        "finding": "Klucz C prawidłowo wskazuje, że mocowanie nie może deformować opakowania. Opcja B ma 90 znaków i przekracza limit 80, a poprawna C jest jedyną najkrótszą (74 wobec 80 i 90). Warto wyrównać długości odpowiedzi bez zmiany klucza.",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "C",
+        "gazette_pages": [
+          1309
+        ],
+        "competency_id": "ADR-B-09-K06"
+      },
+      {
+        "id": "ADR-B-0519",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 1.10.1.4",
+        "gazette_page": 110,
+        "exact_quote": "„Każdy członek załogi pojazdu przewożącego towary niebezpieczne powinien posiadać przy sobie dokument z fotografią potwierdzający jego tożsamość”",
+        "finding": "Klucz A jest prawidłowy, lecz pytanie powiela ADR-B-0672 z innego modułu: oba sprawdzają obowiązek posiadania dokumentu tożsamości ze zdjęciem przez każdego członka załogi. Dodatkowo A jest jedyną najkrótszą (79 wobec 89 i 101 znaków), a opcja C ma 101 znaków. Wymaga nowego elementu albo innego ujęcia kompetencji.",
+        "duplicate_candidates": [
+          "ADR-B-0672",
+          "ADR-B-0067",
+          "ADR-B-0034",
+          "ADR-B-0300",
+          "ADR-B-0416",
+          "ADR-B-0774"
+        ],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "A",
+        "gazette_pages": [
+          110
+        ],
+        "competency_id": "ADR-B-12-K01"
+      },
+      {
+        "id": "ADR-B-0520",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 1.3.3",
+        "gazette_page": 54,
+        "exact_quote": "„Dokumenty potwierdzające przeprowadzenie szkoleń, zgodnie z przepisami niniejszego działu, powinny być przechowywane przez pracodawcę i udostępniane pracownikowi lub właściwej władzy na ich wniosek”",
+        "finding": "Klucz A prawidłowo odzwierciedla obowiązek udostępnienia dokumentacji szkolenia na żądanie właściwej władzy. Odpowiedź A jest jednak jedyną najkrótszą (62 wobec 63 i 63 znaków); różnica jest niewielka, ale przy wyrównywaniu odpowiedzi warto ją usunąć. Nie znaleziono duplikatu merytorycznego.",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "A",
+        "gazette_pages": [
+          54
+        ],
+        "competency_id": "ADR-B-01-K02"
+      },
+      {
+        "id": "ADR-B-0521",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 1.3.3",
+        "gazette_page": 54,
+        "exact_quote": "„Powinny być one weryfikowane przy podejmowaniu nowego zatrudnienia”",
+        "finding": "Klucz B odpowiada obowiązkowi weryfikowania dokumentacji szkolenia przy podejmowaniu nowego zatrudnienia. Opcja A ma 103 znaki i przekracza limit 80, a poprawna B jest jedyną najkrótszą (85 wobec 103 i 92). Pytanie bada inny fragment 1.3.3 niż ADR-B-0520, ale wymaga skrócenia i wyrównania odpowiedzi.",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "B",
+        "gazette_pages": [
+          54
+        ],
+        "competency_id": "ADR-B-01-K02"
+      },
+      {
+        "id": "ADR-B-0522",
+        "verdict": "POPRAW",
+        "legal_basis": "ADR 2025, 1.3.2.2",
+        "gazette_page": 54,
+        "exact_quote": "„W przypadkach, gdy przewóz towarów niebezpiecznych związany jest z przewozem kombinowanym, pracownicy powinni być zaznajomieni z wymaganiami dotyczącymi innych rodzajów transportu”",
+        "finding": "Klucz C prawidłowo wskazuje potrzebę uwzględnienia w szkoleniu wymagań innych gałęzi transportu. Opcja B ma 84 znaki i przekracza limit 80. Pozostałe odpowiedzi są zbliżone długością; nie stwierdzono duplikatu merytorycznego.",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "C",
+        "gazette_pages": [
+          54
+        ],
+        "competency_id": "ADR-B-01-K02"
+      },
+      {
+        "id": "ADR-B-0523",
+        "verdict": "OK",
+        "legal_basis": "ADR 2025, 5.4.1.1.1(c)",
+        "gazette_page": 962,
+        "exact_quote": "„dla innych materiałów i przedmiotów pozostałych klas: numery wzorów nalepek ostrzegawczych podane w kolumnie (5) tabeli A w dziale 3.2 oraz numery wzorów nalepek ostrzegawczych wymaganych na podstawie przepisu szczególnego podanego w kolumnie (6). Jeżeli występuje więcej niż jeden numer wzoru nalepki, to numery następujące po pierwszym numerze powinny być podane w nawiasach”",
+        "finding": "Klucz A prawidłowo wskazuje zapis numeru nalepki zagrożenia dodatkowego w nawiasie. Podobieństwo do ADR-B-0314 (kolumna tabeli A) i ADR-B-0655 (odczyt nalepek z tabeli A) dotyczy wspólnego kontekstu dokumentacji i tabeli, ale pytanie sprawdza inny wymóg dokumentu przewozowego. Odpowiedzi mają zbliżoną długość (79, 80 i 77 znaków).",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "A",
+        "gazette_pages": [
+          962
+        ],
+        "competency_id": "ADR-B-13-K01"
+      },
+      {
+        "id": "ADR-B-0524",
+        "verdict": "OK",
+        "legal_basis": "ADR 2025, 5.4.1.1.1(d)",
+        "gazette_page": 962,
+        "exact_quote": "„grupę pakowania, jeżeli została przypisana do danego materiału, która może być poprzedzona literami „PG””",
+        "finding": "Klucz B prawidłowo wskazuje, że przypisaną grupę pakowania należy uwzględnić w opisie towaru w dokumencie przewozowym. ADR-B-0674 wyjaśnia znaczenie grupy pakowania I dla materiału klasy 4.3, natomiast to pytanie dotyczy jej wpisania do dokumentu. Nie jest to duplikat merytoryczny.",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "B",
+        "gazette_pages": [
+          962
+        ],
+        "competency_id": "ADR-B-13-K08"
+      },
+      {
+        "id": "ADR-B-0525",
+        "verdict": "OK",
+        "legal_basis": "ADR 2025, 5.4.1.1.1(k)",
+        "gazette_page": 962,
+        "exact_quote": "„dla przewozu obejmującego przewóz przez tunele z ograniczeniami przewozu - kod ograniczeń przewozu przez tunele podany w nawiasach wielkimi literami w kolumnie (15) tabeli A w dziale 3.2 lub wzmiankę „(-)””",
+        "finding": "Klucz C jest zgodny z wymaganym zapisem kodu ograniczeń tunelowych w nawiasach w dokumencie przewozowym. Nie znaleziono duplikatu merytorycznego; odpowiedzi mają zbliżoną długość (64, 68 i 68 znaków).",
+        "duplicate_candidates": [],
+        "verification_status": "needs_review",
+        "proposed_replacement": null,
+        "original_correct_option": "C",
+        "gazette_pages": [
+          962
+        ],
+        "competency_id": "ADR-B-13-K08"
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0511",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.4.2.1(a)",
+      "gazette_page": 29,
+      "exact_quote": "„jeżeli sztuki przesyłek nie są oznakowane znakami i nalepkami ostrzegawczymi zgodnie z ADR, to powinny być oznakowane znakami i nalepkami ostrzegawczymi zgodnie z wymaganiami Kodeksu IMDG lub Instrukcji Technicznych ICAO”",
+      "finding": "Klucz B oddaje warunek stosowania oznakowania IMDG w łańcuchu morskim. Pytanie powiela jednak ADR-B-0119, które sprawdza ten sam fakt: uznanie oznakowania IMDG przy dalszym przewozie drogowym. Odpowiedź B jest też jedyną najkrótszą (70 wobec 80 i 74 znaków). Wymaga zastąpienia innym elementem tej samej kompetencji.",
+      "duplicate_candidates": [
+        "ADR-B-0119",
+        "ADR-B-0029",
+        "ADR-B-0030"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        29
+      ],
+      "competency_id": "ADR-B-10-K01"
+    },
+    {
+      "id": "ADR-B-0512",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.6.4; 3.4.13; 3.4.14",
+      "gazette_page": 1339,
+      "exact_quote": "„do jednostek transportowych, dla których, na podstawie 3.4.13, z zastrzeżeniem 3.4.14, wymagane jest oznakowanie, w przypadku tuneli kategorii E”",
+      "finding": "Klucz C prawidłowo wskazuje zakaz przejazdu przez tunele kategorii E dla jednostki wymagającej oznakowania LQ. To samo zagadnienie sprawdzają ADR-B-0540 i ADR-B-0209; 0574 dotyczy innej zasady, wyboru bardziej restrykcyjnego kodu. Opcja A ma 87 znaków i przekracza przyjęty limit 80. Pytanie jest powtórzeniem, nie nowym elementem kompetencji.",
+      "duplicate_candidates": [
+        "ADR-B-0540",
+        "ADR-B-0209"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        1339
+      ],
+      "competency_id": "ADR-B-11-K06"
+    },
+    {
+      "id": "ADR-B-0513",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.3.1",
+      "gazette_page": 54,
+      "exact_quote": "„czynności, które nie były objęte ukończonym szkoleniem mogą wykonywać wyłącznie pod bezpośrednim nadzorem osoby przeszkolonej”",
+      "finding": "Klucz B jest zgodny z 1.3.1, ale pytanie powiela ADR-B-0092, które pyta o bezpośredni nadzór nad nowym pracownikiem bez szkolenia ADR. Wszystkie trzy odpowiedzi przekraczają 80 znaków (97, 83 i 84), a poprawna B jest jedyną najkrótszą. Potrzebny inny element kompetencji szkoleniowej.",
+      "duplicate_candidates": [
+        "ADR-B-0092"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        54
+      ],
+      "competency_id": "ADR-B-01-K02"
+    },
+    {
+      "id": "ADR-B-0514",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.5.8.1",
+      "gazette_page": 604,
+      "exact_quote": "„Jeżeli po rozładunku pojazdu lub kontenera załadowanego wcześniej towarami niebezpiecznymi w sztukach przesyłek stwierdzono, że wydostała się część ich zawartości, to taki pojazd lub kontener należy niezwłocznie oczyścić; w żadnym przypadku nie później niż przed ponownym załadunkiem”",
+      "finding": "Klucz A prawidłowo oddaje obowiązek oczyszczenia kontenera przed ponownym załadunkiem po stwierdzeniu wycieku. Poprawna odpowiedź jest jednak wyraźnie najkrótsza (59 wobec 75 i 79 znaków), przez co może być rozpoznawana po długości. Podobieństwo do ADR-B-0195 dotyczy sytuacji po rozładunku, ale tam chodzi o usunięcie naruszenia przed zwrotem kontenera przewoźnikowi, a nie czyszczenie po wycieku.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        604
+      ],
+      "competency_id": "ADR-B-03-K03"
+    },
+    {
+      "id": "ADR-B-0515",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 8.3.6",
+      "gazette_page": 1332,
+      "exact_quote": "„Silnik pojazdu nie powinien pracować podczas załadunku i rozładunku, z wyjątkiem przypadków, gdy uruchomienie silnika jest niezbędne dla pracy pomp lub innych urządzeń zapewniających załadunek lub rozładunek pojazdu oraz gdy zezwalają na to przepisy państwa”",
+      "finding": "Klucz C jest prawidłowy: skoro silnik nie napędza pomp ani urządzeń używanych przy rozładunku, wskazany wyjątek nie ma zastosowania. Wyjaśnienie uwzględnia wyjątek ustawowy, a długości odpowiedzi są zbliżone (71, 77 i 72 znaki). Nie znaleziono duplikatu merytorycznego.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        1332
+      ],
+      "competency_id": "ADR-B-04-K03"
+    },
+    {
+      "id": "ADR-B-0516",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.3",
+      "gazette_page": 975,
+      "exact_quote": "„Przed rozpoczęciem przewozu, członkowie załogi pojazdu powinni dowiedzieć się jakie towary niebezpieczne są załadowane oraz sprawdzić w instrukcjach pisemnych, jakie czynności powinny być podjęte w razie zaistnienia wypadku lub zagrożenia”",
+      "finding": "Klucz A jest zgodny z obowiązkiem zapoznania się z ładunkiem i czynnościami awaryjnymi przed rozpoczęciem przewozu. Poprawna odpowiedź ma 88 znaków i jest jedyną najdłuższą (88 wobec 81 i 71), co tworzy wskazówkę długościową. ADR-B-0589 dotyczy języka instrukcji i ich zrozumiałości, czyli odrębnego warunku.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        975
+      ],
+      "competency_id": "ADR-B-05-K01"
+    },
+    {
+      "id": "ADR-B-0517",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.4.3.1.1(b)",
+      "gazette_page": 57,
+      "exact_quote": "„przy wydawaniu do przewozu opakowanych towarów niebezpiecznych lub próżnych nieoczyszczonych opakowań, sprawdzić czy opakowania nie są uszkodzone. Nie powinien on wydać sztuki przesyłki, której opakowanie jest uszkodzone, dopóki nie zostaną usunięte uszkodzenia”",
+      "finding": "Klucz B prawidłowo wskazuje obowiązek wstrzymania wydania uszkodzonej sztuki przesyłki do czasu usunięcia uszkodzenia. Poprawna odpowiedź jest jednak jedyną najkrótszą (52 wobec 71 i 62 znaków), co może ułatwiać odgadnięcie klucza. Nie znaleziono duplikatu merytorycznego.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        57
+      ],
+      "competency_id": "ADR-B-07-K03"
+    },
+    {
+      "id": "ADR-B-0518",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.5.7.1",
+      "gazette_page": 1309,
+      "exact_quote": "„W przypadku użycia elementów spinających, np. opasek lub pasów, należy unikać ich nadmiernego napinania, które mogłoby spowodować uszkodzenie lub deformację sztuki przesyłki”",
+      "finding": "Klucz C prawidłowo wskazuje, że mocowanie nie może deformować opakowania. Opcja B ma 90 znaków i przekracza limit 80, a poprawna C jest jedyną najkrótszą (74 wobec 80 i 90). Warto wyrównać długości odpowiedzi bez zmiany klucza.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        1309
+      ],
+      "competency_id": "ADR-B-09-K06"
+    },
+    {
+      "id": "ADR-B-0519",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.1.4",
+      "gazette_page": 110,
+      "exact_quote": "„Każdy członek załogi pojazdu przewożącego towary niebezpieczne powinien posiadać przy sobie dokument z fotografią potwierdzający jego tożsamość”",
+      "finding": "Klucz A jest prawidłowy, lecz pytanie powiela ADR-B-0672 z innego modułu: oba sprawdzają obowiązek posiadania dokumentu tożsamości ze zdjęciem przez każdego członka załogi. Dodatkowo A jest jedyną najkrótszą (79 wobec 89 i 101 znaków), a opcja C ma 101 znaków. Wymaga nowego elementu albo innego ujęcia kompetencji.",
+      "duplicate_candidates": [
+        "ADR-B-0672",
+        "ADR-B-0067",
+        "ADR-B-0034",
+        "ADR-B-0300",
+        "ADR-B-0416",
+        "ADR-B-0774"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        110
+      ],
+      "competency_id": "ADR-B-12-K01"
+    },
+    {
+      "id": "ADR-B-0520",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.3.3",
+      "gazette_page": 54,
+      "exact_quote": "„Dokumenty potwierdzające przeprowadzenie szkoleń, zgodnie z przepisami niniejszego działu, powinny być przechowywane przez pracodawcę i udostępniane pracownikowi lub właściwej władzy na ich wniosek”",
+      "finding": "Klucz A prawidłowo odzwierciedla obowiązek udostępnienia dokumentacji szkolenia na żądanie właściwej władzy. Odpowiedź A jest jednak jedyną najkrótszą (62 wobec 63 i 63 znaków); różnica jest niewielka, ale przy wyrównywaniu odpowiedzi warto ją usunąć. Nie znaleziono duplikatu merytorycznego.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        54
+      ],
+      "competency_id": "ADR-B-01-K02"
+    },
+    {
+      "id": "ADR-B-0521",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.3.3",
+      "gazette_page": 54,
+      "exact_quote": "„Powinny być one weryfikowane przy podejmowaniu nowego zatrudnienia”",
+      "finding": "Klucz B odpowiada obowiązkowi weryfikowania dokumentacji szkolenia przy podejmowaniu nowego zatrudnienia. Opcja A ma 103 znaki i przekracza limit 80, a poprawna B jest jedyną najkrótszą (85 wobec 103 i 92). Pytanie bada inny fragment 1.3.3 niż ADR-B-0520, ale wymaga skrócenia i wyrównania odpowiedzi.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        54
+      ],
+      "competency_id": "ADR-B-01-K02"
+    },
+    {
+      "id": "ADR-B-0522",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.3.2.2",
+      "gazette_page": 54,
+      "exact_quote": "„W przypadkach, gdy przewóz towarów niebezpiecznych związany jest z przewozem kombinowanym, pracownicy powinni być zaznajomieni z wymaganiami dotyczącymi innych rodzajów transportu”",
+      "finding": "Klucz C prawidłowo wskazuje potrzebę uwzględnienia w szkoleniu wymagań innych gałęzi transportu. Opcja B ma 84 znaki i przekracza limit 80. Pozostałe odpowiedzi są zbliżone długością; nie stwierdzono duplikatu merytorycznego.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        54
+      ],
+      "competency_id": "ADR-B-01-K02"
+    },
+    {
+      "id": "ADR-B-0523",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(c)",
+      "gazette_page": 962,
+      "exact_quote": "„dla innych materiałów i przedmiotów pozostałych klas: numery wzorów nalepek ostrzegawczych podane w kolumnie (5) tabeli A w dziale 3.2 oraz numery wzorów nalepek ostrzegawczych wymaganych na podstawie przepisu szczególnego podanego w kolumnie (6). Jeżeli występuje więcej niż jeden numer wzoru nalepki, to numery następujące po pierwszym numerze powinny być podane w nawiasach”",
+      "finding": "Klucz A prawidłowo wskazuje zapis numeru nalepki zagrożenia dodatkowego w nawiasie. Podobieństwo do ADR-B-0314 (kolumna tabeli A) i ADR-B-0655 (odczyt nalepek z tabeli A) dotyczy wspólnego kontekstu dokumentacji i tabeli, ale pytanie sprawdza inny wymóg dokumentu przewozowego. Odpowiedzi mają zbliżoną długość (79, 80 i 77 znaków).",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        962
+      ],
+      "competency_id": "ADR-B-13-K01"
+    },
+    {
+      "id": "ADR-B-0524",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(d)",
+      "gazette_page": 962,
+      "exact_quote": "„grupę pakowania, jeżeli została przypisana do danego materiału, która może być poprzedzona literami „PG””",
+      "finding": "Klucz B prawidłowo wskazuje, że przypisaną grupę pakowania należy uwzględnić w opisie towaru w dokumencie przewozowym. ADR-B-0674 wyjaśnia znaczenie grupy pakowania I dla materiału klasy 4.3, natomiast to pytanie dotyczy jej wpisania do dokumentu. Nie jest to duplikat merytoryczny.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        962
+      ],
+      "competency_id": "ADR-B-13-K08"
+    },
+    {
+      "id": "ADR-B-0525",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(k)",
+      "gazette_page": 962,
+      "exact_quote": "„dla przewozu obejmującego przewóz przez tunele z ograniczeniami przewozu - kod ograniczeń przewozu przez tunele podany w nawiasach wielkimi literami w kolumnie (15) tabeli A w dziale 3.2 lub wzmiankę „(-)””",
+      "finding": "Klucz C jest zgodny z wymaganym zapisem kodu ograniczeń tunelowych w nawiasach w dokumencie przewozowym. Nie znaleziono duplikatu merytorycznego; odpowiedzi mają zbliżoną długość (64, 68 i 68 znaków).",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        962
+      ],
+      "competency_id": "ADR-B-13-K08"
+    }
+  ]
+}
