@@ -1,0 +1,404 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0556–0570",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642, polski tekst. Cytaty i strony przepisano z dostarczonego OCR z nagłówkami drukowanych stron Dz.U.; sprostowanie Dz.U. 2025 poz. 1575 sprawdzono i nie zawiera korekty przywołanych punktów. Brak obrazów PDF w załącznikach tej sesji, więc porównanie graficzne nie zostało wykonane.",
+  "source_verification": "OCR_ONLY_PENDING_VISUAL_PDF_CHECK",
+  "bank_count": 780,
+  "bank_blob_sha": "7f2be64ba60fef44ab136bdf59cbb4bdd949c172",
+  "bank_changed": false,
+  "previous_uncompared": 225,
+  "compared": 15,
+  "remaining_without_comparison": 210,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "cały bank 780 pytań; similarity.py porównuje wyłącznie pytania w tym samym module; dodatkowo wykonano ręczne porównanie tematyczne kandydatów i sąsiednich kompetencji",
+    "method": "scripts/similarity.py: casefold, NFKD, usunięcie znaków diakrytycznych, tokeny [a-z0-9]{4,}, stoplista projektu, Jaccard; similarity candidates require human assessment",
+    "threshold_0_45_pairs": 1,
+    "threshold_0_25_pairs": 4,
+    "threshold_0_25_candidates": [
+      {
+        "ids": [
+          "ADR-B-0272",
+          "ADR-B-0570"
+        ],
+        "score": 0.462,
+        "assessment": "Rzeczywisty duplikat merytoryczny: oba pytania obliczają kategorię 2 × 3 + kategorię 3; proposed_replacement w 0570."
+      },
+      {
+        "ids": [
+          "ADR-B-0570",
+          "ADR-B-0571"
+        ],
+        "score": 0.286,
+        "assessment": "Bliski kandydat w tej samej kompetencji i tym samym wzorze; 0571 sprawdza przekroczenie 1000, a 0570 wynik 900, lecz 0570 dodatkowo dubluje 0272."
+      },
+      {
+        "ids": [
+          "ADR-B-0561",
+          "ADR-B-0564"
+        ],
+        "score": 0.261,
+        "assessment": "Nie jest duplikatem: 0561 dotyczy rozmieszczenia nalepek na bokach i czołach, 0564 usunięcia nalepki nieodnoszącej się do ładunku."
+      },
+      {
+        "ids": [
+          "ADR-B-0561",
+          "ADR-B-0627"
+        ],
+        "score": 0.25,
+        "assessment": "Nie jest duplikatem: 0561 dotyczy dużych nalepek na kontenerze, 0627 nalepki na sztuce przesyłki."
+      }
+    ],
+    "manual_thematic_candidates": [
+      {
+        "ids": [
+          "ADR-B-0557",
+          "ADR-B-0559"
+        ],
+        "assessment": "Ręcznie rozpoznane bliskie pokrycie: oba pytania testują, że przewóz luzem musi być wyraźnie dopuszczony w ADR; 0559 proponuje bardziej szczegółowy test VC2."
+      }
+    ],
+    "cross_module_candidates_reviewed": [
+      {
+        "ids": [
+          "ADR-B-0558",
+          "ADR-B-0583"
+        ],
+        "assessment": "Nie jest duplikatem: 0558 dotyczy szczelności przestrzeni przy przewozie luzem, 0583 zgodności opakowania."
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0556",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.3.1.1; 7.3.2",
+      "gazette_pages": [
+        1291
+      ],
+      "exact_quote": "Towary niebezpieczne mogą być przewożone luzem ... jedynie w następujących przypadkach: (a) ... kodem BK ... kolumnie (10) ...; lub (b) ... kodem VC ... kolumnie (17) ...",
+      "finding": "Klucz C odpowiada warunkowi, że pojazd i sposób przewozu muszą spełniać wymagania właściwe dla konkretnego towaru. Jednak A i B mają po 89/91 znaków, a poprawna C 71; poprawna odpowiedź jest wyraźnie najkrótsza. Skrócić A/B i wyrównać dystraktory bez zmiany klucza.",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "answer_lengths": [
+        89,
+        91,
+        71
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0557",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 3.2.1 tabela A kolumna (17); 7.3.1.1",
+      "gazette_pages": [
+        312,
+        1291
+      ],
+      "exact_quote": "Jeżeli w tej kolumnie nie jest wskazany żaden przepis szczególny ... określony kodem „VC” ... oraz w kolumnie (10) ... kodem „BK” ... wówczas przewóz luzem nie jest dozwolony.",
+      "finding": "Klucz A i zasada są zgodne. Opcja B ma 102 znaki, C 90, a poprawna A 70; poprawna jest zdecydowanie najkrótsza. Skrócić i wyrównać odpowiedzi. Absolutne „każdy towar stały” w B jest dodatkową wskazówką.",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "answer_lengths": [
+        70,
+        102,
+        90
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0558",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.3.1.3",
+      "gazette_pages": [
+        1291
+      ],
+      "exact_quote": "Kontenery do przewozu luzem, kontenery i nadwozia pojazdów powinny być pyłoszczelne oraz zamknięte w taki sposób, aby ... ich zawartość nie wydostała się na zewnątrz.",
+      "finding": "Klucz B odpowiada wymaganiu zabezpieczenia zawartości. Wskazane w rekordzie 7.3.3 i 7.5.7.1 nie są bezpośrednią podstawą ogólnego wymogu szczelnego zamknięcia przestrzeni ładunkowej; właściwy jest 7.3.1.3. Opcje A/C mają 96/97 znaków, poprawna B 81; wszystkie przekraczają limit 80.",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "answer_lengths": [
+        96,
+        81,
+        97
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0559",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.3.1.1; 3.2.1 tabela A kolumna (17)",
+      "gazette_pages": [
+        1291,
+        312
+      ],
+      "exact_quote": "... jeżeli taki sposób przewozu jest wyraźnie dozwolony ... oraz spełnione są odpowiednie wymagania ...",
+      "finding": "Klucz C jest prawidłowy, lecz pytanie powtarza tę samą regułę co 0557: zgoda stron ani wygoda nie zastępują wyraźnego dopuszczenia przewozu luzem. Similarity.py nie podnosi pary ponad próg 0,25, ale ręczne porównanie tematyczne wskazuje bliskie pokrycie. Zastąpić pytanie szczegółowym zastosowaniem kodu VC2. Opcja A ma 99 znaków.",
+      "duplicate_candidates": [
+        "ADR-B-0557"
+      ],
+      "proposed_replacement": {
+        "stem": "Towar niebezpieczny ma w kolumnie (17) tabeli A kod VC2. Która jednostka może być użyta do przewozu luzem?",
+        "options": {
+          "A": "Pojazd zamknięty, kontener zamknięty lub zamknięty kontener do przewozu luzem",
+          "B": "Wyłącznie pojazd przykryty opończą, niezależnie od rodzaju kontenera",
+          "C": "Dowolny pojazd, jeśli kierowca dodatkowo zabezpieczy ładunek pasami"
+        },
+        "correct_option": "A",
+        "legal_basis": "ADR 2025, 7.3.3.1",
+        "gazette_pages": [
+          1296
+        ],
+        "quote": "VC2 Przewóz luzem dozwolony jest w pojazdach zamkniętych, kontenerach zamkniętych lub kontenerach do przewozu luzem zamkniętych."
+      },
+      "original_correct_option": "C",
+      "answer_lengths": [
+        99,
+        77,
+        73
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0560",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.5.1.2",
+      "gazette_pages": [
+        1304
+      ],
+      "exact_quote": "załadunek nie powinien się odbyć, jeżeli ... oględziny pojazdu ... wskazują, że ... nie spełniają wymagań obowiązujących przepisów.",
+      "finding": "Klucz B jest zgodny z ogólną kontrolą przed załadunkiem. Wszystkie opcje mają 98–102 znaki, więc każda przekracza limit 80; skrócić je, zachowując rozróżnienie między wadą pojazdu, dokumentów i wyposażenia.",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "answer_lengths": [
+        98,
+        99,
+        102
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0561",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.1.2",
+      "gazette_pages": [
+        951
+      ],
+      "exact_quote": "Duże nalepki ostrzegawcze powinny być umieszczone na obu bokach i obu czołach kontenera...",
+      "finding": "Klucz A jest zgodny z 5.3.1.2, ale podany w banku punkt 5.3.1.1.4 dotyczy dużej nalepki klasy 9 (zakaz wzoru 9A), nie rozmieszczenia nalepek. Poprawić podstawę na 5.3.1.2. W polskim tekście używać terminu „duże nalepki ostrzegawcze”, nie kalki „nalepki dużego formatu”. Wszystkie trzy opcje kończą się kropką; B ma 85 znaków.",
+      "duplicate_candidates": [
+        "ADR-B-0564",
+        "ADR-B-0627"
+      ],
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "answer_lengths": [
+        71,
+        85,
+        70
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0562",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.1.1.1; 5.3.1.7.1",
+      "gazette_pages": [
+        950,
+        952
+      ],
+      "exact_quote": "Duże nalepki ostrzegawcze powinny być odporne na warunki atmosferyczne i zapewniać trwałość oznakowania podczas całego przewozu.",
+      "finding": "Klucz B jest zgodny z wymogiem trwałego i odpornego oznakowania. A ma 100 znaków, podczas gdy B/C mają 44/45; poprawna odpowiedź jest znacznie krótsza. Skrócić A i wyrównać długości. Terminologia: „duże nalepki ostrzegawcze”, nie „nalepki dużego formatu”.",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "answer_lengths": [
+        100,
+        44,
+        45
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0563",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.1.1.6; 5.3.1.6.1",
+      "gazette_pages": [
+        951,
+        952
+      ],
+      "exact_quote": "próżne nieoczyszczone ... pojazdy i kontenery do przewozu luzem, powinny być nadal zaopatrzone w duże nalepki ostrzegawcze wymagane dla ostatniego ładunku.",
+      "finding": "Klucz C jest kierunkowo prawidłowy, ale wskazany w rekordzie 5.3.1.1.5 dotyczy pomijania nalepki zagrożenia dodatkowego przy wielu klasach. Dla nalepek dotyczących pozostałości właściwy jest 5.3.1.1.6, a dla próżnych nieoczyszczonych kontenerów także 5.3.1.6.1. Użyć terminu „duże nalepki ostrzegawcze”.",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "answer_lengths": [
+        21,
+        64,
+        52
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0564",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.1.1.6",
+      "gazette_pages": [
+        951
+      ],
+      "exact_quote": "Duże nalepki ostrzegawcze, które nie dotyczą przewożonych towarów lub ich pozostałości, powinny być zdjęte lub zakryte.",
+      "finding": "Klucz C odpowiada regule usuwania lub zakrywania nalepek nieodnoszących się do ładunku. Obecne źródło 5.3.1.1 i 5.3.1.7 jest zbyt ogólne; wskazać dokładnie 5.3.1.1.6. Ręczny kandydat 0561 nie jest duplikatem: 0561 dotyczy umieszczenia na obu czołach, a 0564 — usunięcia błędnej nalepki. Terminologia: „duże nalepki ostrzegawcze”.",
+      "duplicate_candidates": [
+        "ADR-B-0561"
+      ],
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "answer_lengths": [
+        65,
+        20,
+        50
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0565",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.1.7",
+      "gazette_pages": [
+        954
+      ],
+      "exact_quote": "Wymagania podane w 5.3.2.1.1 do 5.3.2.1.5 mają również zastosowanie do próżnych nieczyszczonych, nieodgazowanych i nieodkażonych cystern...",
+      "finding": "Klucz A i zastosowanie wymagań do próżnych nieoczyszczonych zbiorników są zgodne. Opcje B/C mają 105/85 znaków, a poprawna A 51; poprawna jest zdecydowanie najkrótsza. Skrócić i wyrównać dystraktory.",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "answer_lengths": [
+        51,
+        105,
+        85
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0566",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 9.1.3.1; 9.1.3.4; 8.1.2.2",
+      "gazette_pages": [
+        1344,
+        1324
+      ],
+      "exact_quote": "Po upływie terminu ważności świadectwa dopuszczenia, pojazd nie powinien być używany do przewozu towarów niebezpiecznych...",
+      "finding": "Klucz B jest prawidłowy. 9.1.3.1 określa pojazdy wymagające świadectwa, a 8.1.2.2 jego przewożenie w kabinie; regułę ważności i zakaz używania pojazdu po wygaśnięciu podaje 9.1.3.4, którego brakuje w źródłach pytania. Opcja C ma 81 znaków, poprawna B 53.",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "answer_lengths": [
+        75,
+        53,
+        81
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0567",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 415 (wskazane w rekordzie, tekst KC niezałączony)",
+      "gazette_pages": [
+        1327
+      ],
+      "exact_quote": "(k) ogólne informacje na temat odpowiedzialności cywilnej",
+      "finding": "ADR potwierdza, że kurs podstawowy obejmuje ogólne informacje o odpowiedzialności cywilnej, ale nie potwierdza treści art. 415 KC. W dostarczonych źródłach brak tekstu Kodeksu cywilnego, więc nie można literalnie zweryfikować przesłanek odpowiedzialności opisanych w explanation. Dodatkowo wszystkie opcje kończą się kropką; opcja B zawiera absolutne „zawsze”.",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "answer_lengths": [
+        88,
+        98,
+        88
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0568",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 471 (wskazane w rekordzie, tekst KC niezałączony)",
+      "gazette_pages": [
+        1327
+      ],
+      "exact_quote": "(k) ogólne informacje na temat odpowiedzialności cywilnej",
+      "finding": "ADR potwierdza wyłącznie zakres szkoleniowy — ogólne informacje o odpowiedzialności cywilnej. Nie zawiera reguły art. 471 KC; tekst KC nie został dostarczony do porównania literalnego. Wymaga osobnego sprawdzenia źródła i doprecyzowania granic odpowiedzialności. Wszystkie opcje kończą się kropką i przekraczają 80 znaków (113/107/94).",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "answer_lengths": [
+        113,
+        107,
+        94
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0569",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny art. 415 i 471 (wskazane w rekordzie, tekst KC niezałączony)",
+      "gazette_pages": [
+        1327
+      ],
+      "exact_quote": "(k) ogólne informacje na temat odpowiedzialności cywilnej",
+      "finding": "ADR potwierdza temat szkolenia, ale nie rozstrzyga, kiedy kierowca osobiście odpowiada za szkodę; wskazane art. 415 i 471 KC nie są w dostarczonych materiałach, więc nie można ich literalnie zweryfikować. Wszystkie opcje kończą się kropką; B ma 121 znaków, poprawna C 90, co tworzy wskazówkę długości. Doprecyzować źródło i skrócić B.",
+      "duplicate_candidates": [],
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "answer_lengths": [
+        76,
+        121,
+        90
+      ],
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0570",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.3.6.4",
+      "gazette_pages": [
+        28
+      ],
+      "exact_quote": "ilości materiałów i przedmiotów należących do kategorii transportowej 2 pomnożona przez „3”; oraz ilości ... kategorii transportowej 3; nie powinna przekraczać wartości obliczeniowej „1 000”.",
+      "finding": "Klucz A i wynik 900 są poprawne, lecz pytanie powiela obliczenie kategorii 2 × 3 + kategorii 3 z ADR-B-0272; podobieństwo stemów wynosi 0,462 (próg 0,45), a kandydat 0571 uzyskuje 0,286. Zastąpić scenariuszem obejmującym jednocześnie kategorie 1, 2 i 3, aby sprawdzał pełną regułę mnożników.",
+      "duplicate_candidates": [
+        "ADR-B-0272",
+        "ADR-B-0571"
+      ],
+      "proposed_replacement": {
+        "stem": "Jednostka przewozi 4 jednostki kategorii transportowej 1, 100 jednostek kategorii 2 i 300 kategorii 3. Jaki wynik obliczenia z 1.1.3.6.4?",
+        "options": {
+          "A": "800: 4 × 50 + 100 × 3 + 300",
+          "B": "404: 4 + 100 + 300",
+          "C": "680: 4 × 20 + 100 × 3 + 300"
+        },
+        "correct_option": "A",
+        "legal_basis": "ADR 2025, 1.1.3.6.4",
+        "gazette_pages": [
+          28
+        ],
+        "explanation": "Kategorię 1 mnoży się przez 50, kategorię 2 przez 3, a kategorię 3 dodaje bez mnożnika. Wynik to 4 × 50 + 100 × 3 + 300 = 800. Mnożnik 20 dotyczy tylko pozycji wskazanych w przypisie a do tabeli 1.1.3.6.3. Suma nie przekracza 1000."
+      },
+      "original_correct_option": "A",
+      "answer_lengths": [
+        56,
+        31,
+        68
+      ],
+      "verification_status": "needs_review"
+    }
+  ]
+}
