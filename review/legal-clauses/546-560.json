@@ -473,24 +473,24 @@
     {
       "id": "ADR-B-0556",
       "order": 556,
-      "clause": "7.3.1.1; 7.3.2",
+      "clause": "ADR 2025, 7.3.1.1 (b); 7.3.3.1 (VC1); 1.2.1 (pojazd przykryty opończą)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta opcja nie odpowiada wymaganiu ADR 7.3.1.1; 7.3.2; należy stosować warunki opisane w poprawnej odpowiedzi. Ocena wymaga niezależnego sprawdzenia polskiego brzmienia przepisu."
+          "rationale": "7.3.3.1: VC1 – pojazdy przykryte opończą, nie pojazd odkryty bez opończy."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ta opcja nie odpowiada wymaganiu ADR 7.3.1.1; 7.3.2; należy stosować warunki opisane w poprawnej odpowiedzi. Ocena wymaga niezależnego sprawdzenia polskiego brzmienia przepisu."
+          "rationale": "Długość trasy i pogoda nie zmieniają warunku z kodu VC1 (7.3.1.1 (b))."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź. Kod dopuszczający przewóz luzem nie oznacza, że można użyć dowolnego pojazdu. Trzeba spełnić warunki ADR dotyczące konkretnego towaru, konstrukcji i wyposażenia pojazdu oraz sposobu przewozu. Krótka trasa nie zwalnia z tych wymagań, więc należy wybrać właściwy pojazd albo inny dopuszczony sposób przewozu. Podstawa: ADR 7.3.1.1 i 7.3.2. Odniesienie do kontroli: ADR 2025, 7.3.1.1; 7.3.2."
+          "rationale": "7.3.3.1: VC1 – pojazdy, kontenery i kontenery do przewozu luzem przykryte opończą."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wstępny audyt redakcyjny oparty na wskazanym punkcie ADR 2025. Przed zatwierdzeniem należy sprawdzić pełne polskie brzmienie Dz.U. 2025 poz. 642 wraz ze sprostowaniem i wszystkie wyjątki.",
+      "notes_on_conditions": "7.3.1.1 s. 1291; 7.3.3.1 (VC1) s. 1296; 1.2.1 (pojazd przykryty opończą) s. 43.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -498,18 +498,18 @@
       "question_snapshot": {
         "id": "ADR-B-0556",
         "module_id": "ADR-B-09",
-        "stem": "W dokumentach towar ma kod dopuszczający przewóz luzem, ale dostępny pojazd nie spełnia wymagań dla tego rodzaju przewozu. Czy można załadować towar luzem?",
+        "stem": "Dla materiału stałego w kolumnie (17) tabeli A podano kod VC1. Przewoźnik chce przewieźć go luzem odkrytą wywrotką bez opończy, bo trasa jest krótka. Czy ADR na to pozwala?",
         "options": {
-          "A": "Tak, ponieważ sam kod towaru wystarcza, nawet gdy pojazd nie spełnia wymagań technicznych",
-          "B": "Tak, jeśli kierowca jedzie krótką trasą i może zatrzymać się przy pierwszej oznace problemu",
-          "C": "Nie; muszą być spełnione warunki dla towaru, pojazdu i sposobu przewozu"
+          "A": "Tak, bo kod VC1 dopuszcza też pojazd odkryty",
+          "B": "Tak, jeśli wywrotka pojedzie wolno, a w czasie jazdy nie będzie padać",
+          "C": "Nie, przy kodzie VC1 pojazd musi być przykryty opończą"
         },
         "correct_option": "C",
-        "explanation": "Nawet jeśli wpis towaru dopuszcza przewóz luzem, nie wolno załadować go do pojazdu, który nie spełnia wymaganych warunków. Oprócz rodzaju towaru liczy się właściwy pojazd i sposób zabezpieczenia przewozu. Krótka trasa ani uważna jazda nie naprawiają braku zgodności technicznej; trzeba użyć odpowiedniego pojazdu lub innej dozwolonej metody. Podstawa: ADR 7.3.1.1 i 7.3.2.",
+        "explanation": "Kod VC1 z kolumny (17) tabeli A dopuszcza przewóz luzem w pojazdach przykrytych opończą, kontenerach przykrytych opończą lub kontenerach do przewozu luzem przykrytych opończą. Według definicji z 1.2.1 pojazd przykryty opończą to pojazd odkryty wyposażony w opończę chroniącą ładunek. Odkryta wywrotka bez opończy nie spełnia więc warunku z kodu VC1, nawet na krótkiej trasie i przy dobrej pogodzie. Podstawa: ADR 7.3.1.1 (b), 7.3.3.1 (VC1) i 1.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.3.1.1; 7.3.2",
+            "reference": "ADR 2025, 7.3.1.1 (b); 7.3.3.1 (VC1); 1.2.1 (pojazd przykryty opończą)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -520,24 +520,24 @@
     {
       "id": "ADR-B-0557",
       "order": 557,
-      "clause": "3.2.1 tabela A kolumna 17; 7.3",
+      "clause": "ADR 2025, 7.3.1.8",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź. Przewóz luzem jest dozwolony tylko dla towarów i w warunkach przewidzianych przez ADR. Przed załadunkiem należy sprawdzić wpis towaru i odpowiednie wymagania, w tym właściwe kody i warunki. Stan skupienia ani zgoda odbiorcy nie stanowią samodzielnej podstawy prawnej do przewozu luzem. Podstawa: ADR 3.2.1, tabela A, kolumna 17 oraz 7.3. Odniesienie do kontroli: ADR 2025, 3.2.1 tabela A kolumna 17; 7.3."
+          "rationale": "7.3.1.8: podczas przewozu brak niebezpiecznych pozostałości na zewnętrznych powierzchniach."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ta opcja nie odpowiada wymaganiu ADR 3.2.1 tabela A kolumna 17; 7.3; należy stosować warunki opisane w poprawnej odpowiedzi. Ocena wymaga niezależnego sprawdzenia polskiego brzmienia przepisu."
+          "rationale": "Pozostałości mają być usunięte przed jazdą, a nie rozniesione przez wiatr (7.3.1.8)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ta opcja nie odpowiada wymaganiu ADR 3.2.1 tabela A kolumna 17; 7.3; należy stosować warunki opisane w poprawnej odpowiedzi. Ocena wymaga niezależnego sprawdzenia polskiego brzmienia przepisu."
+          "rationale": "Mycie po rozładunku nie spełnia wymagania 7.3.1.8 w czasie przewozu."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wstępny audyt redakcyjny oparty na wskazanym punkcie ADR 2025. Przed zatwierdzeniem należy sprawdzić pełne polskie brzmienie Dz.U. 2025 poz. 642 wraz ze sprostowaniem i wszystkie wyjątki.",
+      "notes_on_conditions": "7.3.1.8 s. 1291.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -545,18 +545,18 @@
       "question_snapshot": {
         "id": "ADR-B-0557",
         "module_id": "ADR-B-09",
-        "stem": "Przygotowano ładunek do przewozu luzem, lecz nie sprawdzono, czy tabela A ADR dopuszcza taki sposób przewozu dla danego numeru UN. Co należy zrobić?",
+        "stem": "Po załadunku luzem materiału stałego kierowca widzi warstwę pyłu z tego ładunku na zewnętrznej stronie burt i na tylnej klapie wywrotki. Co powinien zrobić przed odjazdem?",
         "options": {
-          "A": "Sprawdzić wpis towaru i warunki przewozu luzem w ADR przed załadunkiem",
-          "B": "Przyjąć, że każdy towar stały można przewozić luzem, jeśli jego opakowania są niewygodne do transportu",
-          "C": "Rozstrzygnąć wyłącznie na podstawie zgody odbiorcy oraz ustaleń handlowych między stronami"
+          "A": "Usunąć ten pył z zewnętrznych powierzchni pojazdu przed wyjazdem",
+          "B": "Jechać, bo pył z burt i klapy zdmuchnie wiatr w czasie dalszej jazdy",
+          "C": "Jechać i poprosić odbiorcę, aby po rozładunku umył cały pojazd"
         },
         "correct_option": "A",
-        "explanation": "Przed załadunkiem luzem sprawdź w tabeli A, czy konkretny numer UN dopuszcza taki sposób przewozu i jakie warunki trzeba spełnić. To, że towar jest stały, nie oznacza automatycznie prawa do przewozu bez opakowań. Zgoda odbiorcy ani wygoda magazynu nie zastępują wymagań ADR, dlatego bez odpowiedniego wpisu należy wybrać inny dozwolony sposób transportu. Podstawa: ADR 3.2.1, kolumna 17, oraz 7.3.",
+        "explanation": "Według 7.3.1.8 podczas przewozu na zewnętrznych powierzchniach pojazdu, kontenera i kontenera do przewozu luzem nie powinny występować żadne niebezpieczne pozostałości. Pył z ładunku na burtach i klapie to właśnie taka pozostałość, więc trzeba go usunąć przed wyjazdem. Wiatr rozniesie go po drodze i poza pojazd, a mycie u odbiorcy nastąpi dopiero po przewozie. Podstawa: ADR 7.3.1.8.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.2.1 tabela A kolumna 17; 7.3",
+            "reference": "ADR 2025, 7.3.1.8",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -567,24 +567,24 @@
     {
       "id": "ADR-B-0558",
       "order": 558,
-      "clause": "7.3.3; 7.5.7.1",
+      "clause": "ADR 2025, 7.3.1.3",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta opcja nie odpowiada wymaganiu ADR 7.3.3; 7.5.7.1; należy stosować warunki opisane w poprawnej odpowiedzi. Ocena wymaga niezależnego sprawdzenia polskiego brzmienia przepisu."
+          "rationale": "Wolniejsza jazda nie usuwa nieszczelności – 7.3.1.3 wymaga zamknięcia pyłoszczelnego."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź. Przed odjazdem ładunek luzem i jego przestrzeń przewozowa muszą być zabezpieczone zgodnie z wymaganiami właściwymi dla danego przewozu. Wolna jazda ani obserwacja przez inny pojazd nie zapobiegają wysypaniu i nie usuwają niezgodności. Trzeba poprawić zamknięcia i sprawdzić zabezpieczenie przed rozpoczęciem trasy. Podstawa: ADR 7.3.3 oraz 7.5.7.1, odpowiednio do zastosowanego sposobu przewozu. Odniesienie do kontroli: ADR 2025, 7.3.3; 7.5.7.1."
+          "rationale": "7.3.1.3: nadwozie pyłoszczelne i zamknięte tak, aby zawartość się nie wydostała."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ta opcja nie odpowiada wymaganiu ADR 7.3.3; 7.5.7.1; należy stosować warunki opisane w poprawnej odpowiedzi. Ocena wymaga niezależnego sprawdzenia polskiego brzmienia przepisu."
+          "rationale": "Zbieranie pyłu u celu nie spełnia 7.3.1.3 w czasie przewozu."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wstępny audyt redakcyjny oparty na wskazanym punkcie ADR 2025. Przed zatwierdzeniem należy sprawdzić pełne polskie brzmienie Dz.U. 2025 poz. 642 wraz ze sprostowaniem i wszystkie wyjątki.",
+      "notes_on_conditions": "7.3.1.3 s. 1291 (#907 słusznie 7.3.1.3 zamiast 7.3.3 i 7.5.7.1).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -592,18 +592,18 @@
       "question_snapshot": {
         "id": "ADR-B-0558",
         "module_id": "ADR-B-09",
-        "stem": "Po załadunku luzem kierowca zauważa, że zamknięcia przestrzeni ładunkowej nie zabezpieczają przed wysypaniem towaru. Co powinien zrobić przed odjazdem?",
+        "stem": "Wywrotka przykryta opończą wiezie luzem materiał stały. Na postoju kierowca widzi, że przez szparę przy tylnej klapie wysypuje się drobny pył z ładunku. Co powinien zrobić?",
         "options": {
-          "A": "Odjechać powoli, aby ograniczyć wysypywanie i kontrolować ładunek przez pierwsze kilometry trasy",
-          "B": "Wstrzymać wyjazd i doprowadzić zabezpieczenia do stanu odpowiedniego dla przewozu",
-          "C": "Poprosić inny pojazd, by jechał za nim i obserwował ładunek oraz ostrzegł o ewentualnym wysypaniu"
+          "A": "Jechać dalej wolniej, aby z szpary wysypywało się mniej pyłu",
+          "B": "Uszczelnić klapę przed dalszą jazdą, aby ładunek się nie wysypywał",
+          "C": "Dojechać do celu i dopiero tam zebrać i usunąć pył, który się wysypał"
         },
         "correct_option": "B",
-        "explanation": "Jeśli zamknięcia przestrzeni ładunkowej nie chronią przed wysypaniem towaru, nie wolno rozpoczynać jazdy. Powolne poruszanie się ani obserwacja przez drugi pojazd nie usuwają zagrożenia i nie zastępują prawidłowego zabezpieczenia. Najpierw popraw zamknięcia i sprawdź, czy ładunek nie może wydostać się na drogę. Podstawa: ADR 7.3.3 i 7.5.7.1, zależnie od sposobu przewozu.",
+        "explanation": "Według 7.3.1.3 nadwozia pojazdów i kontenery do przewozu luzem powinny być pyłoszczelne i zamknięte tak, aby ładunek nie wydostawał się na zewnątrz. Dotyczy to normalnych warunków przewozu, czyli także wstrząsów i zmian temperatury. Pył wysypujący się przy klapie oznacza, że ten warunek nie jest spełniony, więc przed dalszą jazdą trzeba klapę uszczelnić. Wolniejsza jazda ani sprzątanie u celu nie usuwają nieszczelności. Podstawa: ADR 7.3.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.3.3; 7.5.7.1",
+            "reference": "ADR 2025, 7.3.1.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -614,24 +614,24 @@
     {
       "id": "ADR-B-0559",
       "order": 559,
-      "clause": "7.3.1.1; 3.2.1 tabela A",
+      "clause": "ADR 2025, 7.3.1.12",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta opcja nie odpowiada wymaganiu ADR 7.3.1.1; 3.2.1 tabela A; należy stosować warunki opisane w poprawnej odpowiedzi. Ocena wymaga niezależnego sprawdzenia polskiego brzmienia przepisu."
+          "rationale": "Folia nie zmienia zakazu z 7.3.1.12 ładowania razem materiałów reagujących niebezpiecznie."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ta opcja nie odpowiada wymaganiu ADR 7.3.1.1; 3.2.1 tabela A; należy stosować warunki opisane w poprawnej odpowiedzi. Ocena wymaga niezależnego sprawdzenia polskiego brzmienia przepisu."
+          "rationale": "7.3.1.12 nie zależy od klasy – dotyczy materiałów, np. odpadów, reagujących niebezpiecznie."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź. Sposób przewozu musi być dopuszczony przez ADR dla danego towaru i spełniać wszystkie właściwe warunki. Zgoda stron, mała ilość ani oszczędność czasu nie mogą zastąpić wymagań klasyfikacyjnych i technicznych. Jeśli przewóz luzem nie jest dopuszczony, trzeba użyć innego zgodnego sposobu przewozu. Podstawa: ADR 7.3.1.1 i tabela A w 3.2.1. Odniesienie do kontroli: ADR 2025, 7.3.1.1; 3.2.1 tabela A."
+          "rationale": "7.3.1.12: takich materiałów nie ładuje się razem do tego samego kontenera lub pojazdu."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wstępny audyt redakcyjny oparty na wskazanym punkcie ADR 2025. Przed zatwierdzeniem należy sprawdzić pełne polskie brzmienie Dz.U. 2025 poz. 642 wraz ze sprostowaniem i wszystkie wyjątki.",
+      "notes_on_conditions": "7.3.1.12 (b) – wydzielanie gazów palnych lub trujących, s. 1292.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -639,18 +639,18 @@
       "question_snapshot": {
         "id": "ADR-B-0559",
         "module_id": "ADR-B-09",
-        "stem": "Załadowca proponuje przewóz luzem, ponieważ pozwoli to zaoszczędzić czas, ale wpis ADR dla towaru nie przewiduje takiego sposobu przewozu. Czy można przyjąć tę propozycję?",
+        "stem": "Firma chce załadować luzem do jednego kontenera dwa rodzaje odpadów stałych. Z karty danych wynika, że po zmieszaniu mogą one wydzielać gazy trujące. Czy według 7.3.1.12 można je przewieźć razem?",
         "options": {
-          "A": "Tak, jeśli przewoźnik wyrazi zgodę na piśmie i przyjmie odpowiedzialność za wybrany sposób przewozu",
-          "B": "Tak, jeśli ładunek jest niewielki i obie strony uznają ryzyko za akceptowalne",
-          "C": "Nie; wygoda i zgoda stron nie zastępują dopuszczenia przewozu luzem w ADR"
+          "A": "Tak, jeśli odpady rozdzieli się w kontenerze warstwą grubej folii",
+          "B": "Tak, jeśli oba odpady należą do tej samej klasy towarów niebezpiecznych",
+          "C": "Nie, takich odpadów nie ładuje się razem do tego samego kontenera"
         },
         "correct_option": "C",
-        "explanation": "Nie można wybrać przewozu luzem tylko dlatego, że jest szybszy lub tańszy. Najpierw trzeba sprawdzić w tabeli A, czy dany towar w ogóle może być przewożony luzem i jakie warunki musi spełnić pojazd oraz załadunek. Zgoda nadawcy i przewoźnika nie uchyla tych wymagań; jeśli sposób nie jest dopuszczony, trzeba zastosować inną metodę. Podstawa: ADR 7.3.1.1 i 3.2.1.",
+        "explanation": "Według 7.3.1.12 materiały, na przykład odpady, które mogą reagować ze sobą niebezpiecznie, nie powinny być ładowane razem do tego samego kontenera lub pojazdu. Za niebezpieczną reakcję ADR uważa między innymi wydzielanie gazów palnych lub trujących. Zakaz nie zależy od klasy, a folia w ładunku luzem nie zapobiega zmieszaniu się odpadów. Dlatego te odpady trzeba przewieźć osobno. Podstawa: ADR 7.3.1.12.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.3.1.1; 3.2.1 tabela A",
+            "reference": "ADR 2025, 7.3.1.12",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -661,24 +661,24 @@
     {
       "id": "ADR-B-0560",
       "order": 560,
-      "clause": "7.5.1.2",
+      "clause": "ADR 2025, 7.5.1.2 (istotne wady, lit. (b))",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta opcja nie odpowiada wymaganiu ADR 7.5.1.2; należy stosować warunki opisane w poprawnej odpowiedzi. Ocena wymaga niezależnego sprawdzenia polskiego brzmienia przepisu."
+          "rationale": "Pasy nie usuwają istotnej wady elementów do mocowania kontenera (7.5.1.2 (b))."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź. Jeżeli stan pojazdu lub jego wyposażenia może zagrażać bezpieczeństwu, nie należy rozpoczynać załadunku i przewozu, dopóki niezgodność nie zostanie usunięta. Zapisanie usterki po dostawie ani zmniejszenie ilości bez ponownej oceny nie rozwiązuje problemu. Najpierw trzeba zapewnić zgodność i bezpieczeństwo, a dopiero potem kontynuować czynności. Podstawa: ADR 7.5.1.2. Odniesienie do kontroli: ADR 2025, 7.5.1.2."
+          "rationale": "7.5.1.2 (b): uszkodzenie uniemożliwiające zamocowanie kontenera na podwoziu to istotna wada."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ta opcja nie odpowiada wymaganiu ADR 7.5.1.2; należy stosować warunki opisane w poprawnej odpowiedzi. Ocena wymaga niezależnego sprawdzenia polskiego brzmienia przepisu."
+          "rationale": "Szczelność beczek nie usuwa wady konstrukcyjnej kontenera (7.5.1.2)."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wstępny audyt redakcyjny oparty na wskazanym punkcie ADR 2025. Przed zatwierdzeniem należy sprawdzić pełne polskie brzmienie Dz.U. 2025 poz. 642 wraz ze sprostowaniem i wszystkie wyjątki.",
+      "notes_on_conditions": "7.5.1.2 (istotne wady (a)–(c)) s. 1304.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -686,18 +686,18 @@
       "question_snapshot": {
         "id": "ADR-B-0560",
         "module_id": "ADR-B-09",
-        "stem": "Przed załadunkiem pojazdu ADR kontrolujący stwierdza, że wyposażenie lub stan pojazdu nie pozwalają bezpiecznie wykonać przewozu. Co jest właściwym postępowaniem?",
+        "stem": "Kontener wielki ma pęknięte i odkształcone naroże mocujące, przez co nie da się go prawidłowo zamocować na podwoziu. Załadowca chce w nim wysłać beczki z towarem ADR. Czy według 7.5.1.2 załadunek może się odbyć?",
         "options": {
-          "A": "Rozpocząć załadunek, a usterkę odnotować po dostawie i przekazać informację do działu technicznego",
-          "B": "Wstrzymać załadunek do czasu usunięcia niezgodności i potwierdzenia, że przewóz może być bezpieczny",
-          "C": "Załadować tylko część towaru bez sprawdzenia, czy problem nadal występuje i czy pojazd jest bezpieczny"
+          "A": "Tak, jeśli kontener przypnie się do podwozia pasami zamiast zamków",
+          "B": "Nie, to istotna wada, więc ten kontener nie jest zdatny do użytku",
+          "C": "Tak, jeśli w kontenerze pojadą same szczelnie zamknięte beczki"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli stan pojazdu lub jego wyposażenia może zagrażać bezpieczeństwu, nie wolno rozpoczynać załadunku. Samo zapisanie usterki do późniejszej naprawy ani zmniejszenie ilości towaru nie usuwa problemu. Najpierw trzeba usunąć niezgodność i upewnić się, że jednostka transportowa nadaje się do bezpiecznego przewozu. Podstawa: ADR 7.5.1.2.",
+        "explanation": "Według 7.5.1.2 przed załadunkiem sprawdza się, czy jednostka transportowa cargo jest konstrukcyjnie zdatna do użytku. Za istotną wadę ADR uważa między innymi uszkodzenie elementów do podnoszenia lub przemieszczania, które nie pozwala zamocować kontenera na podwoziu. Takiego kontenera nie wolno ładować, dopóki nie zostanie naprawiony. Pasy ani szczelne beczki nie usuwają tej wady. Podstawa: ADR 7.5.1.2 (istotne wady, lit. (b)).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.1.2",
+            "reference": "ADR 2025, 7.5.1.2 (istotne wady, lit. (b))",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
