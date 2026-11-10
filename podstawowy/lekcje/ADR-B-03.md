@@ -175,7 +175,7 @@ Status materiału i pytań: needs_review; klasyfikacja konkretnego odpadu i szcz
 
 ## Scenariusz: opis odpadu w dokumencie — ADR-B-0629
 
-Przed wyjazdem sprawdź, czy dokument przewozowy odpadu zawiera wymagany opis. Numer UN sam nie zastępuje pełnych danych. Jeśli oznaczenie odpadu budzi wątpliwości, wyjaśnij rozbieżność z osobą odpowiedzialną za dokumentację przed rozpoczęciem przewozu. Podstawa do sprawdzenia: ADR 5.4.1.1.3.1. Pytanie pozostaje niezatwierdzone.
+Przed wyjazdem sprawdź, czy dokument przewozowy odpadu zawiera wymagany opis. Numer UN sam nie zastępuje pełnych danych. Jeśli oznaczenie odpadu budzi wątpliwości, wyjaśnij rozbieżność z osobą odpowiedzialną za dokumentację przed rozpoczęciem przewozu. Podstawa do sprawdzenia: ADR 5.4.1.1.3.1 i 5.4.1.1.3.3. Pytanie pozostaje niezatwierdzone.
 
 
 ### Scenariusz praktyczny SC-ADR-B-03-04
