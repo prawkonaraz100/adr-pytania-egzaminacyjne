@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0539",
       "order": 539,
-      "clause": "8.6.3.2; 8.6.4",
+      "clause": "ADR 2025, 8.6.4 (tabela, kod B/D); 8.6.3.1",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "W 8.6.3.2 rozstrzyga bardziej restrykcyjny kod dla całego ładunku, a przewóz w sztukach z B/D nie zakazuje kategorii C."
+          "rationale": "Zakaz tuneli B, C, D i E dla kodu B/D dotyczy przewozu w cysternie."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Kod B/D w sztukach wyklucza tunele D i E, nie C. Treść zachowuje warunek transportu w sztukach przesyłek; wymagane zatwierdzenie eksperckie."
+          "rationale": "8.6.4: B/D – inny przewóz (sztuki przesyłek): zakaz przejazdu przez tunele D i E."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Różne sztuki przesyłek nie pozwalają pominąć wspólnego kodu jednostki transportowej."
+          "rationale": "ADR nie przewiduje zgłoszenia jako wyjątku od kodu tunelowego."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Scenariusz dotyczy pojazdu faktycznie podlegającego ograniczeniom; dosłowny polski tekst i wyjątki wymagają recenzenta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending.",
+      "notes_on_conditions": "8.6.3.1 s. 1338; tabela 8.6.4 (wiersz B/D) s. 1339.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -56,24 +56,24 @@
     {
       "id": "ADR-B-0540",
       "order": 540,
-      "clause": "3.4.13; 3.4.14; 8.6.4",
+      "clause": "ADR 2025, 3.4.13 (a); 3.4.14; 3.4.15; 8.6.4",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ograniczenie kategorii E ma zastosowanie do jednostki wymagającej oznakowania LQ, a nie do każdej LQ bez wyjątków."
+          "rationale": "8.6.4: jednostki ze znakami wymaganymi przez 3.4.13 podlegają ograniczeniom tuneli E."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Liczba palet na dokumencie nie uchyla ograniczenia kategorii E z ADR 8.6.4."
+          "rationale": "3.4.15: znaki usuwa się dopiero, gdy towary LQ nie są przewożone."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Po korekcie długości wariantu C: „Wybrać trasę omijającą tunel E zgodnie z ADR 8.6.4.”. ADR 2025, 3.4.13; 3.4.14; 8.6.4: ADR 8.6.4 zakazuje przejazdu przez E jednostce wymagającej oznakowania na podstawie 3.4.13, z uwzględnieniem 3.4.14."
+          "rationale": "3.4.13 (a) i 3.4.14: 40 t i 10 t LQ brutto – znaki wymagane, tunel E zakazany."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Scenariusz dotyczy pojazdu faktycznie podlegającego ograniczeniom; dosłowny polski tekst i wyjątki wymagają recenzenta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending.",
+      "notes_on_conditions": "3.4.13 s. 688; 3.4.14, 3.4.15 s. 689; 8.6.4 s. 1338 (#903: 671 i 1339).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

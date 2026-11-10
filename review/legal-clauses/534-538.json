@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0534",
       "order": 534,
-      "clause": "3.4.11",
+      "clause": "ADR 2025, 3.4.11; 5.1.2.1",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "ADR 3.4.11 wymaga oznakowania LQ i słowa OVERPACK, jeśli znaki wszystkich towarów w opakowaniu zbiorczym nie są widoczne."
+          "rationale": "3.4.11: „OPAKOWANIE ZBIORCZE” i znak LQ; reszta 5.1.2.1 tylko przy innych towarach niż LQ."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Same numery UN nie spełniają szczególnych warunków oznakowania zbiorczego LQ 3.4.11."
+          "rationale": "Numery UN i nalepki z 5.1.2.1 – tylko gdy w opakowaniu są towary niebędące LQ."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Lista przewozowa nie zastępuje oznakowania na opakowaniu zbiorczym przewidzianego w 3.4.11."
+          "rationale": "3.4.11 (a) wymaga napisu „OPAKOWANIE ZBIORCZE” – nie jest dobrowolny."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta.",
+      "notes_on_conditions": "3.4.11 s. 688 (#903 podał 671 – numer stopki ADR); 5.1.2.1 s. 928.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -56,24 +56,24 @@
     {
       "id": "ADR-B-0535",
       "order": 535,
-      "clause": "3.4.12",
+      "clause": "ADR 2025, 3.4.12",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Liczba opakowań nie jest wymaganą informacją o łącznej masie brutto."
+          "rationale": "3.4.12 wymaga informacji o całkowitej masie brutto – nie wystarczy liczba kartonów."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wymagane jest przekazanie całkowitej masy brutto LQ przed przewozem."
+          "rationale": "3.4.12: przed przewozem, w udokumentowany sposób, całkowita masa brutto."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Masa netto pomija opakowania, więc nie zastępuje łącznej masy brutto."
+          "rationale": "3.4.12 mówi o masie brutto, a nie o masie netto zawartości."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending. Etap 4x118: dystraktory zredagowano; klucz i podstawa prawna bez zmian; niezależna recenzja specjalisty nadal wymagana.",
+      "notes_on_conditions": "3.4.12 s. 688 (#903 podał 671 – numer stopki ADR).",
       "editorial_result": "distractors_rephrased_4x118; correct key and legal basis unchanged; specialist review pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -103,24 +103,24 @@
     {
       "id": "ADR-B-0536",
       "order": 536,
-      "clause": "5.4.1.1.1",
+      "clause": "ADR 2025, 5.4.1.1.1 (kolejność danych (a)–(d) i (k))",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "W 5.4.1.1.1 jest wymagana kolejność elementów a, b, c, d i k; nie jest ona całkiem dowolna."
+          "rationale": "5.4.1.1.1: kolejność dowolna z wyjątkiem danych (a), (b), (c), (d) i (k)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Kod tunelowy nie jest automatycznie umieszczany przed numerem UN; przepis ustala inną sekwencję."
+          "rationale": "Zapis kodu tunelowego nie naprawia błędnej kolejności danych (a)–(d) i (k)."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR 5.4.1.1.1 ustala porządek danych a, b, c, d i k, bez przerywania innymi informacjami, z wyjątkami wskazanymi w przepisie."
+          "rationale": "5.4.1.1.1: kolejność (a), (b), (c), (d), (k) – przykład „UN 1098 ALKOHOL ALLILOWY, 6.1 (3), I, (C/D)”."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta.",
+      "notes_on_conditions": "5.4.1.1.1 s. 962. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -150,24 +150,24 @@
     {
       "id": "ADR-B-0537",
       "order": 537,
-      "clause": "5.4.1.1.1(f)",
+      "clause": "ADR 2025, 5.4.1.1.1 (e)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Po korekcie długości wariantu A: „Ilość oddzielnie dla każdego rodzaju towaru niebezpiecznego.”. ADR 2025, 5.4.1.1.1(f): ADR 5.4.1.1.1(f) wymaga określenia całkowitej ilości każdego odpowiednio rozróżnionego towaru, według wymaganej jednostki."
+          "rationale": "5.4.1.1.1 (e): kod opakowania jedynie jako uzupełnienie określenia, np. „jedna skrzynia (4G)”."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Jedna liczba bez rozróżnienia pozycji UN i grup pakowania może nie spełnić wymogu 5.4.1.1.1(f)."
+          "rationale": "5.4.1.1.1 (e): kod opakowania nie zastępuje słownego określenia sztuki przesyłki."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Masa własna pojazdu nie jest ilością przewożonego towaru niebezpiecznego wymaganą w 5.4.1.1.1(f)."
+          "rationale": "Masa (f) nie zastępuje liczby i określenia sztuk przesyłek z (e)."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending.",
+      "notes_on_conditions": "5.4.1.1.1 (e) s. 962. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -197,24 +197,24 @@
     {
       "id": "ADR-B-0538",
       "order": 538,
-      "clause": "5.4.1.4.2",
+      "clause": "ADR 2025, 5.4.1.4.2",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dokumentacja w jednym pojeździe nie wystarcza dla wszystkich jednostek przy rozdzieleniu przesyłki."
+          "rationale": "5.4.1.4.2: dokumenty lub kopie odpowiednio do liczby jednostek transportowych."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Po korekcie długości wariantu B: „Tyle dokumentów lub kopii, ile załadowano jednostek transportowych.”. ADR 2025, 5.4.1.4.2: ADR 5.4.1.4.2 nakazuje zapewnienie co najmniej tylu odrębnych dokumentów lub kopii, ile jednostek transportowych załadowano."
+          "rationale": "5.4.1.4.2: odrębne dokumenty lub kopie jednego dokumentu dla każdej jednostki."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ustna informacja nie zastępuje dokumentu albo kopii wymaganej dla jednostki transportowej."
+          "rationale": "5.4.1.4.2 wymaga dokumentów lub kopii – informacja ustna nie wystarcza."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending.",
+      "notes_on_conditions": "5.4.1.4.2 s. 972. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
