@@ -1,0 +1,663 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0631–0645",
+  "bank_count": 780,
+  "bank_blob_sha": "8596a7a61cdc27c4f558af7197cdca9072090c4e",
+  "bank_changed": false,
+  "previous_uncompared": 150,
+  "compared": 15,
+  "remaining_without_comparison": 135,
+  "counts": {
+    "OK": 2,
+    "POPRAW": 13,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "method": "scripts/similarity.py exact Jaccard tokenization (NFKD, casefold, token length >=4, configured stop words), same-module comparison across the full 780-question bank, plus manual thematic comparison across modules.",
+    "threshold_0_45_pairs": 7,
+    "threshold_0_25_pairs": 154,
+    "manual_duplicate_pairs": [
+      [
+        "0631",
+        "ADR-B-0643"
+      ],
+      [
+        "0631",
+        "ADR-B-0687"
+      ],
+      [
+        "0631",
+        "ADR-B-0110"
+      ],
+      [
+        "0632",
+        "ADR-B-0111"
+      ],
+      [
+        "0632",
+        "ADR-B-0697"
+      ],
+      [
+        "0632",
+        "ADR-B-0186"
+      ],
+      [
+        "0633",
+        "ADR-B-0057"
+      ],
+      [
+        "0633",
+        "ADR-B-0693"
+      ],
+      [
+        "0634",
+        "ADR-B-0753"
+      ],
+      [
+        "0634",
+        "ADR-B-0258"
+      ],
+      [
+        "0635",
+        "ADR-B-0051"
+      ],
+      [
+        "0635",
+        "ADR-B-0754"
+      ],
+      [
+        "0636",
+        "ADR-B-0193"
+      ],
+      [
+        "0636",
+        "ADR-B-0634"
+      ],
+      [
+        "0637",
+        "ADR-B-0053"
+      ],
+      [
+        "0637",
+        "ADR-B-0005"
+      ],
+      [
+        "0638",
+        "ADR-B-0081"
+      ],
+      [
+        "0638",
+        "ADR-B-0721"
+      ],
+      [
+        "0639",
+        "ADR-B-0659"
+      ],
+      [
+        "0640",
+        "ADR-B-0695"
+      ],
+      [
+        "0640",
+        "ADR-B-0592"
+      ],
+      [
+        "0640",
+        "ADR-B-0108"
+      ],
+      [
+        "0641",
+        "ADR-B-0166"
+      ],
+      [
+        "0641",
+        "ADR-B-0107"
+      ],
+      [
+        "0641",
+        "ADR-B-0702"
+      ],
+      [
+        "0642",
+        "ADR-B-0648"
+      ],
+      [
+        "0642",
+        "ADR-B-0187"
+      ],
+      [
+        "0642",
+        "ADR-B-0113"
+      ],
+      [
+        "0643",
+        "ADR-B-0631"
+      ],
+      [
+        "0643",
+        "ADR-B-0687"
+      ],
+      [
+        "0643",
+        "ADR-B-0110"
+      ],
+      [
+        "0644",
+        "ADR-B-0100"
+      ],
+      [
+        "0644",
+        "ADR-B-0163"
+      ],
+      [
+        "0645",
+        "ADR-B-0104"
+      ],
+      [
+        "0645",
+        "ADR-B-0116"
+      ],
+      [
+        "0645",
+        "ADR-B-0735"
+      ]
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0631",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej; | Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny.",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0643",
+        "ADR-B-0687",
+        "ADR-B-0110"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K08",
+        "stem": "Po zdarzeniu ratownik wskazuje na ubranie kierowcy zabrudzone nieznaną substancją. Co należy zrobić z odzieżą i użytym wyposażeniem ochronnym?",
+        "options": {
+          "A": "Pozostawić zabrudzone rzeczy w kabinie, aby nie opóźniać dalszej jazdy.",
+          "B": "Wypłukać je w przypadkowym miejscu i ponownie użyć bez oceny skażenia.",
+          "C": "Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny."
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne ADR nakazują zdjąć zanieczyszczone ubranie oraz użyte zanieczyszczone wyposażenie ochronne i usunąć je w sposób bezpieczny. Pozostawienie ich w kabinie może przenieść substancję na powierzchnie, inne osoby lub skórę. Przypadkowe płukanie bez rozpoznania zagrożenia nie jest bezpieczną metodą postępowania. Czynność należy wykonać zgodnie z poleceniami służb ratowniczych i bez narażania załogi. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0632",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych; | Oddalić się od miejsca wypadku lub zagrożenia, poinformować inne osoby o konieczności oddalenia się od tego miejsca oraz stosować się do zaleceń służb ratowniczych;",
+      "finding": "Pytanie jest zgodne z przywołanym wymaganiem i sprawdza odrębny aspekt działania załogi w sytuacji awaryjnej; nie stwierdzono podstawy do zmiany klucza.",
+      "duplicate_candidates": [
+        "ADR-B-0111",
+        "ADR-B-0697",
+        "ADR-B-0186"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0633",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 8.1.5.2; 5.4.3.4",
+      "gazette_pages": [
+        975,
+        1325
+      ],
+      "exact_quote": "Założyć kamizelkę ostrzegawczą i odpowiednio umieścić stojące znaki ostrzegawcze;",
+      "finding": "Pytanie jest zgodne z przywołanym wymaganiem i sprawdza odrębny aspekt działania załogi w sytuacji awaryjnej; nie stwierdzono podstawy do zmiany klucza.",
+      "duplicate_candidates": [
+        "ADR-B-0057",
+        "ADR-B-0693"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0634",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.2.1",
+      "gazette_pages": [
+        955
+      ],
+      "exact_quote": "Jeżeli ze względu na wielkość lub konstrukcję pojazdu, brak jest powierzchni wystarczającej do umieszczenia takich tablic, to ich szerokość może zostać zmniejszona nie więcej niż do 300 mm, wysokość do 120 mm, a szerokość czarnego obrzeża do 10 mm.",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0753",
+        "ADR-B-0258"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K05",
+        "stem": "Tablica barwy pomarańczowej ma zostać zamontowana na pojeździe, na którym jest wystarczająco dużo miejsca. Jaki wymiar standardowy przewiduje ADR?",
+        "options": {
+          "A": "Szerokość 40 cm i wysokość 30 cm.",
+          "B": "Szerokość 30 cm i wysokość 12 cm jako standard dla każdego pojazdu.",
+          "C": "Szerokość 25 cm i wysokość 15 cm, jeśli cyfry pozostają czytelne."
+        },
+        "correct_option": "A",
+        "explanation": "Standardowa tablica barwy pomarańczowej ma 40 cm szerokości i 30 cm wysokości. Mniejsze wymiary są dopuszczone tylko wtedy, gdy ze względu na wielkość lub konstrukcję pojazdu brakuje wystarczającej powierzchni do umieszczenia tablicy standardowej. Nie można traktować wymiaru zmniejszonego jako swobodnej alternatywy, gdy miejsce na pojeździe jest dostępne. Podstawa: ADR 5.3.2.2.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0635",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.3.1",
+      "gazette_pages": [
+        956
+      ],
+      "exact_quote": "Powtórzenie cyfry wskazuje na nasilenie oznaczonego tą cyfrą zagrożenia.",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0051",
+        "ADR-B-0754"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K06",
+        "stem": "Numer rozpoznawczy zagrożenia na tablicy pomarańczowej jest poprzedzony literą „X”. Co oznacza to oznaczenie?",
+        "options": {
+          "A": "Materiał stwarza zawsze większe zagrożenie pożarem, niezależnie od cyfr.",
+          "B": "Numer UN znajdujący się w dolnej części tablicy traci znaczenie.",
+          "C": "Materiał reaguje niebezpiecznie z wodą, a jej użycie wymaga zgody specjalistów."
+        },
+        "correct_option": "C",
+        "explanation": "Litera „X” przed numerem rozpoznawczym zagrożenia oznacza, że materiał reaguje niebezpiecznie z wodą. W takim przypadku woda może być stosowana jedynie za zgodą specjalistów. Oznaczenie nie unieważnia numeru UN ani nie oznacza automatycznie zagrożenia pożarem. Kierowca powinien odczytać cały numer i przekazać tę informację służbom. Podstawa: ADR 5.3.2.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0636",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.2.2",
+      "gazette_pages": [
+        955
+      ],
+      "exact_quote": "Numer rozpoznawczy zagrożenia i numer UN powinny być nieścieralne i powinny pozostać czytelne po 15 minutach przebywania w ogniu.",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0193",
+        "ADR-B-0634"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K07",
+        "stem": "Na tablicy pomarańczowej kierowca zauważa oznaczenia, ale nie jest pewien, jak powinny być rozmieszczone kolory i cyfry. Który opis jest prawidłowy?",
+        "options": {
+          "A": "Tło jest białe, a obrzeże i cyfry czerwone.",
+          "B": "Tło jest pomarańczowe, a obrzeże, linia pozioma i cyfry są czarne.",
+          "C": "Tło jest żółte, a obrzeże i cyfry niebieskie."
+        },
+        "correct_option": "B",
+        "explanation": "Wzór tablicy barwy pomarańczowej przewiduje pomarańczowe tło. Obrzeże, pozioma linia rozdzielająca pola i cyfry są czarne; rysunek ADR wskazuje również ich szerokość. Kolory nie są dowolne i nie można zastępować ich innymi barwami tylko dlatego, że oznaczenia pozostają czytelne. Podstawa: ADR 5.3.2.2.3 i rysunek tablicy.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.3, rysunek tablicy",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0637",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.3.2.3.1",
+      "gazette_pages": [
+        956
+      ],
+      "exact_quote": "8 - działanie żrące.",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0053",
+        "ADR-B-0005"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K08",
+        "stem": "Na tablicy pomarańczowej widnieje numer rozpoznawczy zagrożenia „80”. Dlaczego po cyfrze 8 umieszczono zero?",
+        "options": {
+          "A": "Ponieważ zagrożenie może być wystarczająco określone jedną cyfrą, po której dodaje się zero.",
+          "B": "Ponieważ zero oznacza, że materiał nie stwarza żadnego zagrożenia.",
+          "C": "Ponieważ kod 80 jest nieprawidłowy i nie może występować na tablicy."
+        },
+        "correct_option": "A",
+        "explanation": "Numer rozpoznawczy zagrożenia może składać się z dwóch lub trzech cyfr. Jeżeli zagrożenie stwarzane przez materiał może być w sposób wystarczający określone jedną cyfrą, po tej cyfrze dodaje się zero. W kodzie 80 cyfra 8 wskazuje działanie żrące, a zero nie oznacza braku zagrożenia. Podstawa: ADR 5.3.2.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0638",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.5.4",
+      "gazette_pages": [
+        1307
+      ],
+      "exact_quote": "Jeżeli w kolumnie (18) tabeli A w dziale 3.2 wskazany jest dla danego materiału lub przedmiotu przepis szczególny CV28, to należy przedsięwziąć podane poniżej środki ostrożności wobec żywności, artykułów spożywczych i karmy dla zwierząt.",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0081",
+        "ADR-B-0721"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-09",
+        "competency_id": "ADR-B-09-K03",
+        "stem": "W kolumnie (18) tabeli A dla przewożonego towaru wskazano przepis szczególny CV28. Sztuki przesyłek z nalepką 6.1 mają być załadowane obok żywności. Jakie rozwiązanie może zapewnić wymagane oddzielenie?",
+        "options": {
+          "A": "Zastosować jedną z metod wskazanych w ADR, np. ciągłą przegrodę lub wolną przestrzeń co najmniej 0,8 m, jeżeli spełnione są warunki przepisu.",
+          "B": "Zrezygnować z oddzielenia, jeśli żywność znajduje się w zamkniętych opakowaniach.",
+          "C": "Oddzielić ładunki wyłącznie wtedy, gdy z przesyłki wydobywa się wyciek."
+        },
+        "correct_option": "A",
+        "explanation": "Przepis 7.5.4 ma zastosowanie, gdy w kolumnie (18) tabeli A wskazano dla danego materiału lub przedmiotu przepis szczególny CV28. Dla objętych nim przesyłek z odpowiednimi nalepkami ADR określa metody oddzielenia od żywności, w tym ciągłe przegrody, odpowiednie przesyłki pośrednie lub wolną przestrzeń o szerokości co najmniej 0,8 m. Samo zamknięcie opakowań żywności nie znosi wymagań. Podstawa: ADR 7.5.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0639",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.1; załącznik B, części 8–9",
+      "gazette_pages": [
+        22
+      ],
+      "exact_quote": "Załączniki A i B do ADR składają się z 9 części. Załącznik A zawiera części od 1 do 7, a załącznik B części 8 i 9.",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0659"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-01",
+        "competency_id": "ADR-B-01-K01",
+        "stem": "Który załącznik ADR określa klasyfikację towarów niebezpiecznych, warunki ich pakowania i stosowania cystern oraz procedury nadawcze?",
+        "options": {
+          "A": "Załącznik A, obejmujący części 1–7.",
+          "B": "Załącznik B, obejmujący wyłącznie część 8.",
+          "C": "Wyłącznie część 9, niezależnie od załącznika."
+        },
+        "correct_option": "A",
+        "explanation": "Załącznik A zawiera części od 1 do 7 i obejmuje między innymi klasyfikację towarów, stosowanie opakowań i cystern, procedury nadawcze oraz warunki przewozu. Załącznik B zawiera części 8 i 9 i dotyczy środków transportu oraz operacji transportowych. Dlatego wymagania wymienione w pytaniu należy wyszukiwać w załączniku A. Podstawa: ADR 1.1.1 i 1.1.2.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.1; 1.1.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0640",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4; 8.1.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Jeżeli jest to właściwe i bezpieczne, użyć gaśnic w celu ugaszenia małego lub będącego w fazie początkowej pożaru, obejmującego opony, hamulce lub przedział silnika;",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0695",
+        "ADR-B-0592",
+        "ADR-B-0108"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K13",
+        "stem": "Przed wyjazdem kierowca sprawdza gaśnicę przenośną. Plomba potwierdzająca, że gaśnica nie była używana, jest zerwana. Co powinien zrobić?",
+        "options": {
+          "A": "Zostawić gaśnicę, jeśli manometr wskazuje prawidłowe ciśnienie.",
+          "B": "Zabezpieczyć ją taśmą i używać do czasu kolejnej kontroli.",
+          "C": "Zapewnić gaśnicę z plombą potwierdzającą, że nie była używana, oraz sprawdzić jej termin kontroli."
+        },
+        "correct_option": "C",
+        "explanation": "Gaśnice przenośne przewożone zgodnie z ADR powinny być zaopatrzone w plombę potwierdzającą, że nie były używane. Dodatkowo powinny podlegać okresowym kontrolom, a ich oznakowanie ma wskazywać termin następnej kontroli lub maksymalny okres użytkowania. Sam odczyt ciśnienia ani prowizoryczne zabezpieczenie nie zastępują tych wymagań. Podstawa: ADR 8.1.4.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0641",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Członkowie załogi pojazdu nie powinni gasić pożaru obejmującego przedział ładunkowy;",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0166",
+        "ADR-B-0107",
+        "ADR-B-0702"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K13",
+        "stem": "Gaśnica w jednostce transportowej jest zamontowana za ładunkiem i załoga nie może łatwo jej dosięgnąć. Jak należy poprawić jej zamocowanie?",
+        "options": {
+          "A": "Pozostawić ją w tym miejscu, ponieważ liczy się wyłącznie obecność gaśnicy.",
+          "B": "Zamontować ją tak, aby była łatwo dostępna dla załogi i chroniona przed czynnikami atmosferycznymi.",
+          "C": "Przewozić ją luzem na podłodze, aby można było szybko ją przesunąć."
+        },
+        "correct_option": "B",
+        "explanation": "ADR wymaga, aby gaśnice były zamontowane na jednostce transportowej w sposób zapewniający łatwy dostęp dla załogi. Sposób zamocowania powinien także chronić gaśnice przed działaniem czynników atmosferycznych, tak aby mogły być bezpiecznie eksploatowane. Pozostawienie ich za ładunkiem lub przewożenie luzem nie spełnia tego celu. Podstawa: ADR 8.1.4.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0642",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych;",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0648",
+        "ADR-B-0187",
+        "ADR-B-0113"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K14",
+        "stem": "Po zdarzeniu ratownicy pytają kierowcę o towary niebezpieczne znajdujące się w pojeździe. Które informacje powinien im przekazać?",
+        "options": {
+          "A": "Wyłącznie nazwę odbiorcy, bez danych o przewożonym materiale.",
+          "B": "Tylko przypuszczalną przyczynę wypadku, nawet jeśli nie zna jej na pewno.",
+          "C": "Wszystkie dostępne informacje o wypadku, awarii i przewożonych towarach niebezpiecznych."
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne ADR nakazują powiadomić właściwe służby ratownicze i przekazać im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych. Nie należy zastępować danych o ładunku informacją o odbiorcy ani przedstawiać przypuszczeń jako pewnych faktów. Informacje przekazuje się w zakresie, w jakim są dostępne i można je bezpiecznie udostępnić. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0643",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny.",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0631",
+        "ADR-B-0687",
+        "ADR-B-0110"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K14",
+        "stem": "Po zdarzeniu kierowca zauważa, że użyte rękawice ochronne zostały zabrudzone uwolnioną substancją. Jak powinien postąpić z tym wyposażeniem?",
+        "options": {
+          "A": "Schować rękawice do schowka i użyć ponownie przy kolejnym załadunku.",
+          "B": "Opłukać je w kabinie i pozostawić do wyschnięcia bez zgłoszenia skażenia.",
+          "C": "Zdjąć zanieczyszczone wyposażenie ochronne i usunąć je w sposób bezpieczny."
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne obejmują nie tylko zanieczyszczone ubranie, ale również użyte zanieczyszczone wyposażenie ochronne. Takie wyposażenie należy zdjąć i usunąć w sposób bezpieczny, zamiast przechowywać je w kabinie lub ponownie używać bez oceny zagrożenia. Dzięki temu ogranicza się ryzyko przeniesienia substancji na skórę i inne powierzchnie. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0644",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Jeżeli jest to właściwe i bezpieczne, zapobiec przedostaniu się uwolnionych materiałów do środowiska wodnego lub kanalizacji oraz zebrać uwolnione materiały, używając wyposażenia przewożonego w jednostce transportowej;",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0100",
+        "ADR-B-0163"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K15",
+        "stem": "Po awarii załoga znajduje się już w bezpiecznym miejscu. Zauważa, że część uwolnionego materiału pozostała na jezdni. Jakie działanie przewidują instrukcje, jeśli jest właściwe i bezpieczne?",
+        "options": {
+          "A": "Wejść w materiał bez ochrony i zebrać go rękami.",
+          "B": "Użyć wyposażenia przewożonego w jednostce transportowej do zebrania uwolnionego materiału, jeśli można to zrobić bezpiecznie.",
+          "C": "Pozostawić materiał bez ostrzeżenia służb i innych osób."
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne przewidują zapobieganie przedostaniu się uwolnionych materiałów do środowiska wodnego lub kanalizacji oraz ich zebranie z użyciem wyposażenia przewożonego w jednostce transportowej. Warunkiem jest, aby działanie było właściwe i bezpieczne. Nie wolno dotykać materiału bez ochrony ani podejmować czynności, które narażają załogę. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0645",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych; | Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych;",
+      "finding": "Podstawa prawna wskazuje właściwą regułę, ale element powiela już sprawdzony zakres albo wymaga doprecyzowania warunku zastosowania. Zachować tę samą kompetencję i literę klucza, zastępując scenariusz nowym przypadkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0104",
+        "ADR-B-0116",
+        "ADR-B-0735"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K15",
+        "stem": "Po wypadku kierowca musi przekazać ratownikom dokument przewozowy. Pojazd znajduje się jednak w strefie, do której nie można bezpiecznie wrócić. Co powinien zrobić?",
+        "options": {
+          "A": "Wejść do strefy zagrożenia, aby za wszelką cenę odzyskać dokument.",
+          "B": "Nie informować ratowników o ładunku, dopóki nie otrzyma dokumentu.",
+          "C": "Nie narażać się; przekazać służbom dostępne informacje i zapewnić im dostęp do dokumentów, gdy będzie to bezpieczne."
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne wymagają powiadomienia służb ratowniczych o wypadku, awarii i towarach niebezpiecznych oraz zapewnienia ratownikom łatwego dostępu do dokumentów przewozowych. Nie oznacza to obowiązku wchodzenia do strefy zagrożenia po dokumenty. Kierowca powinien przekazać dostępne informacje i umożliwić dostęp do dokumentacji dopiero wtedy, gdy można to zrobić bezpiecznie. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ]
+      }
+    }
+  ]
+}
