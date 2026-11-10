@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0543",
       "order": 543,
-      "clause": "5.3.2.3.1",
+      "clause": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (numer 23)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "ADR 2025, 5.3.2.3.1: Cyfra 2 oznacza emisję gazu spowodowaną ciśnieniem lub reakcją chemiczną. Pozostałe odpowiedzi opisują inne cyfry w systemie numerów rozpoznawczych zagrożenia."
+          "rationale": "5.3.2.3.1: cyfra 2 – emisja gazu spowodowana ciśnieniem lub reakcją chemiczną."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "„Działanie utleniające mogące nasilać przebieg pożaru.” opisuje zagrożenie odpowiadające innej cyfrze, nie cyfrze wymienionej w pytaniu. Oceniać zgodnie z ADR 2025 5.3.2.3.1; polskie brzmienie pozostaje do recenzji."
+          "rationale": "Działanie utleniające (wzmagające palenie) oznacza cyfra 5."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "„Palność materiałów stałych lub ich samonagrzewanie.” opisuje zagrożenie odpowiadające innej cyfrze, nie cyfrze wymienionej w pytaniu. Oceniać zgodnie z ADR 2025 5.3.2.3.1; polskie brzmienie pozostaje do recenzji."
+          "rationale": "Zapalność materiałów stałych lub ich samonagrzewanie się oznacza cyfra 4."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Numer zawiera 2–3 cyfry; pojedyncza cyfra ma ogólne znaczenie, ale specjalne kombinacje w 5.3.2.3.2 mogą modyfikować interpretację całego numeru. Etap 4m: redakcyjna korekta długości bez zmiany klucza i podstawy.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956; 5.3.2.3.2 (23 – gaz palny) s. 957.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -34,46 +34,49 @@
       "question_snapshot": {
         "id": "ADR-B-0543",
         "module_id": "ADR-B-06",
-        "stem": "Podczas kontroli kierowca odczytuje na tablicy pomarańczowej numer zagrożenia zaczynający się od cyfry 2. Jakie ogólne zagrożenie wskazuje ta cyfra w ADR?",
+        "stem": "Przy rampie stoi pojazd innej firmy, a w górnym polu jego tablicy pomarańczowej widać liczbę 23. Kolega pyta, co oznacza w niej pierwsza cyfra 2. Co według 5.3.2.3.1 oznacza ta cyfra?",
         "options": {
-          "A": "Emisja gazu przez ciśnienie lub reakcję chemiczną.",
-          "B": "Utleniające działanie, które nasila pożar wskutek uwalniania tlenu lub innego wspomagania spalania",
-          "C": "Palność i samonagrzewanie ciał stałych"
+          "A": "Emisję gazu spowodowaną ciśnieniem lub reakcją chemiczną",
+          "B": "Działanie utleniające, czyli wzmagające palenie",
+          "C": "Zapalność materiałów stałych lub samonagrzewanie się materiałów stałych"
         },
         "correct_option": "A",
-        "explanation": "Pierwsza cyfra 2 w numerze rozpoznawczym zagrożenia oznacza, że materiał może wydzielać gaz wskutek ciśnienia lub reakcji chemicznej. Nie oznacza ona działania utleniającego ani palności ciał stałych, bo te zagrożenia opisują inne cyfry. Odczytaj cały numer, ponieważ dalsze cyfry mogą wskazywać dodatkowe cechy zagrożenia. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Według 5.3.2.3.1 każda cyfra numeru rozpoznawczego zagrożenia oznacza określony rodzaj zagrożenia. Cyfra 2 oznacza emisję gazu spowodowaną ciśnieniem lub reakcją chemiczną, a cyfra 3 zapalność cieczy, ich par i gazów. Dlatego numer 23 oznacza według 5.3.2.3.2 gaz palny. Działanie utleniające oznacza cyfra 5, a zapalność materiałów stałych cyfra 4. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1",
+            "reference": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (numer 23)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       }
     },
     {
       "id": "ADR-B-0544",
       "order": 544,
-      "clause": "5.3.2.3.1",
+      "clause": "ADR 2025, 5.3.2.3.1",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "„Toksyczność substancji albo możliwość zakażenia.” opisuje zagrożenie odpowiadające innej cyfrze, nie cyfrze wymienionej w pytaniu. Oceniać zgodnie z ADR 2025 5.3.2.3.1; polskie brzmienie pozostaje do recenzji."
+          "rationale": "Działanie trujące lub ryzyko zakażenia oznacza cyfra 6."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "ADR 2025, 5.3.2.3.1: Cyfra 4 określa palność materiałów stałych lub samonagrzewanie ciał stałych. Pozostałe odpowiedzi opisują inne cyfry w systemie numerów rozpoznawczych zagrożenia."
+          "rationale": "5.3.2.3.1: cyfra 4 – zapalność materiałów stałych lub samonagrzewanie się materiałów stałych."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "„Palność cieczy, ich par albo samozagrzewanie cieczy.” opisuje zagrożenie odpowiadające innej cyfrze, nie cyfrze wymienionej w pytaniu. Oceniać zgodnie z ADR 2025 5.3.2.3.1; polskie brzmienie pozostaje do recenzji."
+          "rationale": "Zapalność cieczy (par) i gazów lub samonagrzewanie się cieczy oznacza cyfra 3."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Numer zawiera 2–3 cyfry; pojedyncza cyfra ma ogólne znaczenie, ale specjalne kombinacje w 5.3.2.3.2 mogą modyfikować interpretację całego numeru. Etap 4m: redakcyjna korekta długości bez zmiany klucza i podstawy.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -81,14 +84,14 @@
       "question_snapshot": {
         "id": "ADR-B-0544",
         "module_id": "ADR-B-06",
-        "stem": "Kierowca porównuje dwa numery rozpoznawcze zagrożenia; jeden rozpoczyna się cyfrą 4. Z jaką właściwością powinien skojarzyć cyfrę 4 w systemie ADR?",
+        "stem": "Kierowca porównuje dwa numery rozpoznawcze zagrożenia z tablic pomarańczowych. Jeden z nich zaczyna się cyfrą 4. Z jaką właściwością materiału trzeba ją skojarzyć?",
         "options": {
-          "A": "Toksyczność lub zagrożenie zakażeniem, wymagające oddzielnych środków ochrony załogi",
-          "B": "Palność lub samonagrzewanie materiałów stałych.",
-          "C": "Palność cieczy i ich par"
+          "A": "Działanie trujące lub ryzyko zakażenia",
+          "B": "Zapalność materiałów stałych lub ich samonagrzewanie się",
+          "C": "Zapalność materiałów ciekłych (par) i gazów lub samonagrzewanie się cieczy"
         },
         "correct_option": "B",
-        "explanation": "Cyfra 4 na początku numeru rozpoznawczego zagrożenia kieruje uwagę na materiały stałe, które mogą być palne lub samonagrzewające się. Nie należy mylić jej z cyfrą 3, odnoszącą się do palności cieczy i gazów, ani z cyfrą 6, związaną z toksycznością lub zakaźnością. Odczytuj cały numer, bo kolejne cyfry doprecyzowują rodzaj zagrożenia. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Według 5.3.2.3.1 cyfra 4 w numerze rozpoznawczym zagrożenia oznacza zapalność materiałów stałych lub samonagrzewanie się materiałów stałych. Zapalność cieczy, ich par i gazów oznacza inna cyfra, czyli 3. Działanie trujące lub ryzyko zakażenia oznacza cyfra 6. Kolejne cyfry numeru wskazują dodatkowe zagrożenia, więc trzeba odczytać cały numer, a nie tylko pierwszą cyfrę. Podstawa: ADR 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -97,30 +100,33 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       }
     },
     {
       "id": "ADR-B-0545",
       "order": 545,
-      "clause": "5.3.2.3.1",
+      "clause": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (numer 70)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "„Niebezpieczeństwo żrącego oddziaływania substancji.” opisuje zagrożenie odpowiadające innej cyfrze, nie cyfrze wymienionej w pytaniu. Oceniać zgodnie z ADR 2025 5.3.2.3.1; polskie brzmienie pozostaje do recenzji."
+          "rationale": "Działanie żrące oznacza cyfra 8."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "„Możliwość uwalniania gazu wskutek reakcji chemicznej.” opisuje zagrożenie odpowiadające innej cyfrze, nie cyfrze wymienionej w pytaniu. Oceniać zgodnie z ADR 2025 5.3.2.3.1; polskie brzmienie pozostaje do recenzji."
+          "rationale": "Emisję gazu spowodowaną ciśnieniem lub reakcją chemiczną oznacza cyfra 2."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR 2025, 5.3.2.3.1: Cyfra 7 wskazuje zagrożenie promieniotwórcze. Pozostałe odpowiedzi opisują inne cyfry w systemie numerów rozpoznawczych zagrożenia."
+          "rationale": "5.3.2.3.1: cyfra 7 – działanie promieniotwórcze; 70 – materiał promieniotwórczy."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Numer zawiera 2–3 cyfry; pojedyncza cyfra ma ogólne znaczenie, ale specjalne kombinacje w 5.3.2.3.2 mogą modyfikować interpretację całego numeru.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956; 5.3.2.3.2 (70) s. 957.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -128,22 +134,25 @@
       "question_snapshot": {
         "id": "ADR-B-0545",
         "module_id": "ADR-B-06",
-        "stem": "Na szkoleniowym schemacie tablicy pomarańczowej numer zagrożenia zawiera cyfrę 7. Co ogólnie oznacza ona według ADR 5.3.2.3.1?",
+        "stem": "Po kolizji na parkingu strażak widzi na stojącym obok pojeździe górny kod 70 i pyta kierowcę o znaczenie siódemki. Co powinien usłyszeć?",
         "options": {
-          "A": "Niebezpieczeństwo żrącego działania substancji na ludzi lub materiały.",
-          "B": "Możliwość uwalniania gazu wskutek reakcji chemicznej materiału.",
-          "C": "Zagrożenie związane z promieniotwórczością przewożonego materiału."
+          "A": "Działanie żrące, które może zniszczyć skórę i inne materiały",
+          "B": "Emisja gazu spowodowana ciśnieniem lub reakcją chemiczną",
+          "C": "Działanie promieniotwórcze, czyli zagrożenie promieniowaniem"
         },
         "correct_option": "C",
-        "explanation": "Cyfra 7 w numerze rozpoznawczym zagrożenia na tablicy pomarańczowej wskazuje zagrożenie związane z promieniotwórczością. Nie oznacza żrącego działania ani wydzielania gazu, więc te odpowiedzi dotyczą innych rodzajów zagrożenia. Numer rozpoznawczy opisuje zagrożenie, a dolny numer UN identyfikuje konkretny towar. Podstawa: ADR 5.3.2.3.1.",
+        "explanation": "Według 5.3.2.3.1 cyfra 7 w numerze rozpoznawczym zagrożenia oznacza działanie promieniotwórcze. Zero po niej dodaje się wtedy, gdy zagrożenie wystarczająco opisuje jedna cyfra, dlatego numer 70 oznacza według 5.3.2.3.2 materiał promieniotwórczy. Działanie żrące oznacza cyfra 8, a emisję gazu cyfra 2. Numer UN w dolnej części tablicy wskazuje konkretny towar. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1",
+            "reference": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (numer 70)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       }
     }
