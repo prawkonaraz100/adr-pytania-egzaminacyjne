@@ -2,7 +2,7 @@
   "stage": "4x44_secondary_priority_legal_review_queue",
   "date": "2026-10-27",
   "scope": "ADR-BASIC-ONLY",
-  "source_bank_blob_sha": "ba829d36bc7e1c04aeab108d826bfae33938422f",
+  "source_bank_blob_sha": "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7",
   "queue_basis": "Następna partia 20 ID z 121 rekordów bez zapisanego dosłownego fragmentu MI; wyłączono 20 ID z kolejki 4x40. Ranking heurystyczny premiuje liczby, wyjątki, klasy/oznakowanie o istotnym ryzyku, dokumenty i wymagania pojazdu.",
   "queue_count": 20,
   "full_missing_quote_count": 144,
@@ -210,9 +210,9 @@
     {
       "id": "ADR-B-0495",
       "module_id": "ADR-B-02",
-      "question": "Przesyłka klasy 1 ma podklasę 1.2. Jakie zagrożenie odróżnia ją od podklasy 1.1?",
+      "question": "Na skrzyni z przedmiotami wybuchowymi kierowca widzi kod klasyfikacyjny z podklasą 1.2. Jakie główne zagrożenie oznacza ta podklasa według 2.2.1.1.5?",
       "legal_basis": [
-        "ADR 2025, 2.2.1.1.5, podklasa 1.2"
+        "ADR 2025, 2.2.1.1.5 (podklasa 1.2)"
       ],
       "priority_score": 5,
       "priority_reasons": [
@@ -318,9 +318,9 @@
     {
       "id": "ADR-B-0482",
       "module_id": "ADR-B-07",
-      "question": "Załadowca odebrał dane o ładunku ADR od innego uczestnika i chce na ich podstawie zweryfikować wymagane oznakowanie kontenera po załadunku. Co wynika z 1.4.3.1.2?",
+      "question": "Załadowca umieścił beczki w kontenerze i ma go oznakować według działu 5.3. Numer UN i numery nalepek bierze z dokumentu przewozowego od nadawcy, a beczek nie otwiera, by zbadać towar. Czy 1.4.3.1.2 mu na to pozwala?",
       "legal_basis": [
-        "ADR 2025, 1.4.3.1.2; 1.4.3.1.1(d)"
+        "ADR 2025, 1.4.3.1.2; 1.4.3.1.1 (d)"
       ],
       "priority_score": 4,
       "priority_reasons": [
@@ -373,9 +373,9 @@
   "original_source_bank_blob_sha": "67da7457c1494d9e770324f42a6a30ef4e117567",
   "unresolved_literal_comparisons": 723,
   "manifest_unresolved_literal_comparisons": 723,
-  "current_bank_blob_sha": "ba829d36bc7e1c04aeab108d826bfae33938422f",
-  "bank_blob_sha": "ba829d36bc7e1c04aeab108d826bfae33938422f",
-  "exam_source_bank_head": "ba829d36bc7e1c04aeab108d826bfae33938422f",
+  "current_bank_blob_sha": "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7",
+  "bank_blob_sha": "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7",
+  "exam_source_bank_head": "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7",
   "question_count": 766,
   "last_id": "ADR-B-0765",
   "stage4x242": {
