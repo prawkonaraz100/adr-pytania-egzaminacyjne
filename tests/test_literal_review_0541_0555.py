@@ -9,6 +9,7 @@ EXPECTED_BANK_SHA="73aa25f2ae5fed6f40b1948dfb917f082c08b58e"
 EXPECTED_IDS=[f"ADR-B-{i:04d}" for i in range(541,556)]
 EXPECTED_PAGES={
     "ADR-B-0541": [
+        154,
         942,
         943
     ],
