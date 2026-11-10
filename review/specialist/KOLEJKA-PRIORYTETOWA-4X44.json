@@ -2,7 +2,7 @@
   "stage": "4x44_secondary_priority_legal_review_queue",
   "date": "2026-10-27",
   "scope": "ADR-BASIC-ONLY",
-  "source_bank_blob_sha": "bcac6f69bcec5dd257832774e54922c7c2c47d97",
+  "source_bank_blob_sha": "6147aeb45bf0efd1631ae17ce5e1d82357bffb0b",
   "queue_basis": "Następna partia 20 ID z 121 rekordów bez zapisanego dosłownego fragmentu MI; wyłączono 20 ID z kolejki 4x40. Ranking heurystyczny premiuje liczby, wyjątki, klasy/oznakowanie o istotnym ryzyku, dokumenty i wymagania pojazdu.",
   "queue_count": 20,
   "full_missing_quote_count": 144,
@@ -336,9 +336,9 @@
     {
       "id": "ADR-B-0600",
       "module_id": "ADR-B-13",
-      "question": "Dokument przewozowy zawiera dane odbiorcy, ale brakuje nazwy i adresu nadawcy. Nie wskazano żadnego wyjątku. Jak postąpić?",
+      "question": "W dokumencie przewozowym w danych nadawcy wpisano jedynie nazwę firmy i jej numer NIP, bez adresu. Dane odbiorcy są pełne. Co wynika z 5.4.1.1.1 (g)?",
       "legal_basis": [
-        "ADR 2025, 5.4.1.1.1(g)–(h)"
+        "ADR 2025, 5.4.1.1.1 (g)"
       ],
       "priority_score": 4,
       "priority_reasons": [
