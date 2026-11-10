@@ -1,0 +1,883 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0676–0690",
+  "bank_count": 780,
+  "bank_blob_sha": "ff06e555f833fa3f679c7c145c1223395ae923db",
+  "bank_changed": false,
+  "previous_uncompared": 105,
+  "compared": 15,
+  "remaining_without_comparison": 90,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "method": "scripts/similarity.py exact Jaccard tokenization (NFKD, casefold, token length >=4, configured STOP words), same-module comparison across the full 780-question bank, plus manual thematic comparison across modules.",
+    "whole_bank": {
+      "threshold_0_45": 7,
+      "threshold_0_25": 158
+    },
+    "batch_pairs": {
+      "threshold_0_45": 0,
+      "threshold_0_25": 5
+    },
+    "batch_similarity_pairs": [
+      [
+        "ADR-B-0690",
+        "ADR-B-0739",
+        0.4
+      ],
+      [
+        "ADR-B-0681",
+        "ADR-B-0734",
+        0.35
+      ],
+      [
+        "ADR-B-0219",
+        "ADR-B-0690",
+        0.308
+      ],
+      [
+        "ADR-B-0690",
+        "ADR-B-0691",
+        0.292
+      ],
+      [
+        "ADR-B-0690",
+        "ADR-B-0746",
+        0.273
+      ]
+    ],
+    "manual_duplicate_pairs": [
+      [
+        "ADR-B-0676",
+        "ADR-B-0006"
+      ],
+      [
+        "ADR-B-0676",
+        "ADR-B-0674"
+      ],
+      [
+        "ADR-B-0676",
+        "ADR-B-0675"
+      ],
+      [
+        "ADR-B-0677",
+        "ADR-B-0733"
+      ],
+      [
+        "ADR-B-0677",
+        "ADR-B-0009"
+      ],
+      [
+        "ADR-B-0677",
+        "ADR-B-0514"
+      ],
+      [
+        "ADR-B-0678",
+        "ADR-B-0048"
+      ],
+      [
+        "ADR-B-0678",
+        "ADR-B-0737"
+      ],
+      [
+        "ADR-B-0678",
+        "ADR-B-0357"
+      ],
+      [
+        "ADR-B-0679",
+        "ADR-B-0608"
+      ],
+      [
+        "ADR-B-0679",
+        "ADR-B-0721"
+      ],
+      [
+        "ADR-B-0679",
+        "ADR-B-0124"
+      ],
+      [
+        "ADR-B-0680",
+        "ADR-B-0732"
+      ],
+      [
+        "ADR-B-0680",
+        "ADR-B-0629"
+      ],
+      [
+        "ADR-B-0680",
+        "ADR-B-0008"
+      ],
+      [
+        "ADR-B-0680",
+        "ADR-B-0294"
+      ],
+      [
+        "ADR-B-0681",
+        "ADR-B-0734"
+      ],
+      [
+        "ADR-B-0681",
+        "ADR-B-0612"
+      ],
+      [
+        "ADR-B-0681",
+        "ADR-B-0100"
+      ],
+      [
+        "ADR-B-0682",
+        "ADR-B-0766"
+      ],
+      [
+        "ADR-B-0682",
+        "ADR-B-0617"
+      ],
+      [
+        "ADR-B-0683",
+        "ADR-B-0767"
+      ],
+      [
+        "ADR-B-0683",
+        "ADR-B-0059"
+      ],
+      [
+        "ADR-B-0683",
+        "ADR-B-0618"
+      ],
+      [
+        "ADR-B-0684",
+        "ADR-B-0765"
+      ],
+      [
+        "ADR-B-0684",
+        "ADR-B-0638"
+      ],
+      [
+        "ADR-B-0684",
+        "ADR-B-0081"
+      ],
+      [
+        "ADR-B-0684",
+        "ADR-B-0082"
+      ],
+      [
+        "ADR-B-0685",
+        "ADR-B-0755"
+      ],
+      [
+        "ADR-B-0685",
+        "ADR-B-0636"
+      ],
+      [
+        "ADR-B-0685",
+        "ADR-B-0193"
+      ],
+      [
+        "ADR-B-0685",
+        "ADR-B-0257"
+      ],
+      [
+        "ADR-B-0686",
+        "ADR-B-0596"
+      ],
+      [
+        "ADR-B-0686",
+        "ADR-B-0762"
+      ],
+      [
+        "ADR-B-0686",
+        "ADR-B-0075"
+      ],
+      [
+        "ADR-B-0687",
+        "ADR-B-0735"
+      ],
+      [
+        "ADR-B-0687",
+        "ADR-B-0613"
+      ],
+      [
+        "ADR-B-0687",
+        "ADR-B-0178"
+      ],
+      [
+        "ADR-B-0688",
+        "ADR-B-0751"
+      ],
+      [
+        "ADR-B-0688",
+        "ADR-B-0627"
+      ],
+      [
+        "ADR-B-0688",
+        "ADR-B-0303"
+      ],
+      [
+        "ADR-B-0689",
+        "ADR-B-0750"
+      ],
+      [
+        "ADR-B-0689",
+        "ADR-B-0616"
+      ],
+      [
+        "ADR-B-0689",
+        "ADR-B-0281"
+      ],
+      [
+        "ADR-B-0690",
+        "ADR-B-0739"
+      ],
+      [
+        "ADR-B-0690",
+        "ADR-B-0219"
+      ],
+      [
+        "ADR-B-0690",
+        "ADR-B-0182"
+      ],
+      [
+        "ADR-B-0690",
+        "ADR-B-0104"
+      ]
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0676",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K06",
+      "legal_basis": "ADR 2025, 2.2.43.1.1",
+      "gazette_pages": [
+        187
+      ],
+      "exact_quote": "ADR 2.2.43.1.1: „Tytuł klasy 4.3 obejmuje materiały, które reagując z wodą wydzielają gazy palne mogące tworzyć z powietrzem mieszaniny wybuchowe, i przedmioty zawierające takie materiały.”",
+      "finding": "Laboratoryjne kryterium klasyfikacji grupy pakowania wykracza poza czynności kierowcy; zastąpić je informacją operacyjną o reakcji z wodą.",
+      "duplicate_candidates": [
+        "ADR-B-0006",
+        "ADR-B-0674",
+        "ADR-B-0675"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K06",
+        "stem": "Po uszkodzeniu przesyłki klasy 4.3 kierowca widzi wodę w pobliżu ładunku. Jaką informację powinien przekazać służbom?",
+        "options": {
+          "A": "Woda nie zmienia właściwości tego materiału w przewozie",
+          "B": "Kontakt z wodą może uwalniać palny gaz i nasilać zagrożenie",
+          "C": "Kontakt z wodą ogranicza wydzielanie gazu palnego z przesyłki ADR"
+        },
+        "correct_option": "B",
+        "explanation": "Klasa 4.3 obejmuje materiały reagujące z wodą i wydzielające gazy palne, które mogą tworzyć z powietrzem mieszaniny wybuchowe. Informacja o tej właściwości jest istotna dla służb podczas oceny zagrożenia i doboru działań. Wynik badań laboratoryjnych służy klasyfikacji materiału, a kierowca powinien opierać się na oznakowaniu i dokumentach. Podstawa: ADR 2.2.43.1.1. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.43.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 2.2.43.1.1: „Tytuł klasy 4.3 obejmuje materiały, które reagując z wodą wydzielają gazy palne mogące tworzyć z powietrzem mieszaniny wybuchowe, i przedmioty zawierające takie materiały.”",
+        "replacement_pages": [
+          187
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0677",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-03",
+      "competency_id": "ADR-B-03-K03",
+      "legal_basis": "ADR 2025, 7.5.8.2",
+      "gazette_pages": [
+        1310
+      ],
+      "exact_quote": "ADR 7.5.8.2: „Pojazdy lub kontenery, w których przewożone były towary niebezpieczne luzem, powinny być odpowiednio oczyszczone przed ponownym załadunkiem, z wyjątkiem przypadku, gdy nowy ładunek zawiera te same towary niebezpieczne jak poprzednio.”",
+      "finding": "Powtarza wyjątek od czyszczenia pojazdu po przewozie luzem, sprawdzany już w 0733; rozróżnić tożsamość towaru od klasy zagrożenia.",
+      "duplicate_candidates": [
+        "ADR-B-0733",
+        "ADR-B-0009",
+        "ADR-B-0514"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-03",
+        "competency_id": "ADR-B-03-K03",
+        "stem": "Po przewozie luzem ten sam towar ma być załadowany ponownie. Czy pojazd wymaga oczyszczenia przed tym załadunkiem?",
+        "options": {
+          "A": "Tak, przed ponownym załadunkiem trzeba oczyścić cały pojazd",
+          "B": "Nie, wystarczy sprawdzić, czy nie widać pozostałości",
+          "C": "Nie, wyjątek dotyczy tego samego towaru niebezpiecznego"
+        },
+        "correct_option": "C",
+        "explanation": "Po przewozie luzem pojazd lub kontener należy oczyścić przed ponownym załadunkiem. Wyjątek dotyczy sytuacji, gdy nowy ładunek zawiera te same towary niebezpieczne co poprzedni. Sama zgodność klasy zagrożenia nie przesądza o tożsamości towaru. Podstawa: ADR 7.5.8.2. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 7.5.8.2: „Pojazdy lub kontenery, w których przewożone były towary niebezpieczne luzem, powinny być odpowiednio oczyszczone przed ponownym załadunkiem, z wyjątkiem przypadku, gdy nowy ładunek zawiera te same towary niebezpieczne jak poprzednio.”",
+        "replacement_pages": [
+          1310
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0678",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-04",
+      "competency_id": "ADR-B-04-K02",
+      "legal_basis": "ADR 2025, 8.3.3",
+      "gazette_pages": [
+        1332
+      ],
+      "exact_quote": "ADR 8.3.3: „Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne.”",
+      "finding": "Powtarza zakaz otwierania przesyłek z 0048 i 0737; skrócić odpowiedzi i rozdzielić odpowiedzialność kierowcy od pomocnika.",
+      "duplicate_candidates": [
+        "ADR-B-0048",
+        "ADR-B-0737",
+        "ADR-B-0357"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-04",
+        "competency_id": "ADR-B-04-K02",
+        "stem": "Odbiorca prosi pomocnika kierowcy o otwarcie paczki ADR. Co powinien zrobić kierowca?",
+        "options": {
+          "A": "Zgodzić się po pisemnej prośbie odbiorcy i kierowcy pojazdu",
+          "B": "Odmówić, bo zakaz obejmuje kierowcę i pomocnika pojazdu",
+          "C": "Pozwolić po założeniu rękawic i sprawdzeniu dokumentów"
+        },
+        "correct_option": "B",
+        "explanation": "Zakaz otwierania sztuk przesyłek z towarami niebezpiecznymi obejmuje kierowcę i jego pomocnika. Prośba odbiorcy ani środki ochrony osobistej nie uchylają tego zakazu. Zawartość należy weryfikować na podstawie oznakowania i dokumentacji, bez otwierania przesyłki przez załogę. Podstawa: ADR 8.3.3. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 8.3.3: „Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne.”",
+        "replacement_pages": [
+          1332
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0679",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-01",
+      "competency_id": "ADR-B-01-K07",
+      "legal_basis": "ADR 2025, 1.4.2.2.1(a)–(b), 1.4.2.2.3",
+      "gazette_pages": [
+        56
+      ],
+      "exact_quote": "ADR 1.4.2.2.3: „Jeżeli wykonując czynności, o których mowa w 1.4.2.2.1, przewoźnik stwierdzi naruszenie wymagań ADR, to nie powinien on rozpoczynać przewozu do czasu usunięcia stwierdzonych naruszeń.”",
+      "finding": "Miesza obowiązki przewoźnika z działaniem kierowcy; skupić pytanie na zakazie rozpoczęcia przewozu do usunięcia naruszenia.",
+      "duplicate_candidates": [
+        "ADR-B-0608",
+        "ADR-B-0721",
+        "ADR-B-0124"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-01",
+        "competency_id": "ADR-B-01-K07",
+        "stem": "Podczas kontroli przed wyjazdem przewoźnik stwierdza brak wymaganych danych ADR. Kiedy może rozpocząć przewóz?",
+        "options": {
+          "A": "Po usunięciu naruszeń ADR przed rozpoczęciem przewozu",
+          "B": "Po uzyskaniu pisemnego potwierdzenia od nadawcy",
+          "C": "Po rozpoczęciu jazdy i uzupełnieniu danych na postoju"
+        },
+        "correct_option": "A",
+        "explanation": "Przewoźnik sprawdza dopuszczenie towaru do przewozu oraz kompletność wymaganych informacji i dokumentów. Jeżeli podczas kontroli stwierdzi naruszenie ADR, nie rozpoczyna przewozu przed jego usunięciem. Kierowca nie powinien samodzielnie tworzyć klasyfikacji ani zastępować danych nadawcy. Podstawa: ADR 1.4.2.2.1(a)–(b) i 1.4.2.2.3. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.4.2.2.1(a)–(b), 1.4.2.2.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 1.4.2.2.3: „Jeżeli wykonując czynności, o których mowa w 1.4.2.2.1, przewoźnik stwierdzi naruszenie wymagań ADR, to nie powinien on rozpoczynać przewozu do czasu usunięcia stwierdzonych naruszeń.”",
+        "replacement_pages": [
+          56
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0680",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-03",
+      "competency_id": "ADR-B-03-K02",
+      "legal_basis": "ADR 2025, 5.4.1.1.3.3",
+      "gazette_pages": [
+        963
+      ],
+      "exact_quote": "ADR 5.4.1.1.3.3: „W przypadku przewozu zgodnie z 4.1.1.5.3, w dokumencie przewozowym należy umieścić następującą informację: „Przewóz zgodnie z 4.1.1.5.3”.”",
+      "finding": "Powtarza podstawowe zagadnienia dokumentowania odpadów; zastąpić węższą zasadą 5.4.1.1.3.3 dotyczącą nazwy technicznej.",
+      "duplicate_candidates": [
+        "ADR-B-0732",
+        "ADR-B-0629",
+        "ADR-B-0008",
+        "ADR-B-0294"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-03",
+        "competency_id": "ADR-B-03-K02",
+        "stem": "Odpad przewożony według 4.1.1.5.3 ma prawidłowy opis w dokumencie. Czy trzeba dopisać nazwę techniczną?",
+        "options": {
+          "A": "Nie, ten przepis zwalnia z podania nazwy technicznej",
+          "B": "Tak, nazwę techniczną podaje się w dokumencie ADR",
+          "C": "Tak, opis odpadu wpisuje się w dokumencie przewozowym"
+        },
+        "correct_option": "A",
+        "explanation": "Przepis 5.4.1.1.3.3 wymaga wpisu o przewozie zgodnym z 4.1.1.5.3. Jednocześnie wskazuje, że dodatkowe oświadczenie z 5.4.1.1.3.2 nie jest konieczne. W tym przypadku nazwa techniczna nie musi być dodawana, jeśli spełniono warunki wskazanego przepisu. Podstawa: ADR 5.4.1.1.3.3. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.4.1.1.3.3: „W przypadku przewozu zgodnie z 4.1.1.5.3, w dokumencie przewozowym należy umieścić następującą informację: „Przewóz zgodnie z 4.1.1.5.3”.”",
+        "replacement_pages": [
+          963
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0681",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-03",
+      "competency_id": "ADR-B-03-K04",
+      "legal_basis": "ADR 2025, 8.1.5.3",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "ADR 8.1.5.3: „łopata * — osłona otworów kanalizacyjnych * — pojemnik do zbierania pozostałości *”",
+      "finding": "Powtarza zestaw wyposażenia sprawdzany w 0734; zawęzić do warunku zastosowania wyposażenia dodatkowego.",
+      "duplicate_candidates": [
+        "ADR-B-0734",
+        "ADR-B-0612",
+        "ADR-B-0100"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-03",
+        "competency_id": "ADR-B-03-K04",
+        "stem": "Przewóz obejmuje towar z nalepką 8. Który zestaw wyposażenia dodatkowego należy mieć w pojeździe?",
+        "options": {
+          "A": "Łopatę, osłonę kanalizacji i pojemnik na pozostałości",
+          "B": "Samą łopatę, bo resztki zbiera się po przyjeździe służb",
+          "C": "Osłonę i pojemnik, bez łopaty do materiałów stałych"
+        },
+        "correct_option": "A",
+        "explanation": "ADR 8.1.5.3 wymienia dodatkowe wyposażenie dla określonych klas i nalepek. Dla materiałów stałych i ciekłych z nalepkami 3, 4.1, 4.3, 8 lub 9 wymagane są łopata, osłona otworów kanalizacyjnych i pojemnik na pozostałości. Wymaganie dotyczy wyposażenia przewożonego w jednostce transportowej. Podstawa: ADR 8.1.5.3. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 8.1.5.3: „łopata * — osłona otworów kanalizacyjnych * — pojemnik do zbierania pozostałości *”",
+        "replacement_pages": [
+          1325
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0682",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-09",
+      "competency_id": "ADR-B-09-K04",
+      "legal_basis": "ADR 2025, 5.2.1.10.1–5.2.1.10.2(b)",
+      "gazette_pages": [
+        939
+      ],
+      "exact_quote": "ADR 5.2.1.10.2(b): „opakowaniach zewnętrznych zawierających towary niebezpieczne w opakowaniach wewnętrznych o pojemności nie większej niż 120ml, jeżeli pomiędzy tymi opakowaniami a opakowaniem zewnętrznym znajduje się materiał absorpcyjny w ilości wystarczającej do wchłonięcia całej zawartości ciekłej”",
+      "finding": "Wyjątek 120 ml i materiału absorpcyjnego jest odrębny; skrócić opcje, zachowując oba warunki wyjątku.",
+      "duplicate_candidates": [
+        "ADR-B-0766",
+        "ADR-B-0617"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-09",
+        "competency_id": "ADR-B-09-K04",
+        "stem": "Opakowanie zewnętrzne zawiera ciecze w opakowaniach wewnętrznych po 100 ml. Kiedy strzałki nie są wymagane?",
+        "options": {
+          "A": "Gdy opakowania są szczelne bez względu na ich rozmiar zewnętrzny",
+          "B": "Gdy opakowanie ma do 120 ml, a absorbent wchłonie całą ciecz",
+          "C": "Gdy ciecz jest bezpiecznie zamknięta w opakowaniu"
+        },
+        "correct_option": "B",
+        "explanation": "Wyjątek od strzałek kierunkowych wymaga spełnienia dwóch warunków jednocześnie. Opakowanie wewnętrzne może mieć najwyżej 120 ml, a materiał absorpcyjny musi wchłonąć całą zawartość ciekłą. Sama szczelność lub mała łączna objętość nie zastępuje tych warunków. Podstawa: ADR 5.2.1.10.1 i 5.2.1.10.2(b). Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.1.10.1–5.2.1.10.2(b)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.2.1.10.2(b): „opakowaniach zewnętrznych zawierających towary niebezpieczne w opakowaniach wewnętrznych o pojemności nie większej niż 120ml, jeżeli pomiędzy tymi opakowaniami a opakowaniem zewnętrznym znajduje się materiał absorpcyjny w ilości wystarczającej do wchłonięcia całej zawartości ciekłej”",
+        "replacement_pages": [
+          939
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0683",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-09",
+      "competency_id": "ADR-B-09-K05",
+      "legal_basis": "ADR 2025, 7.5.7.2",
+      "gazette_pages": [
+        1309
+      ],
+      "exact_quote": "ADR 7.5.7.2: „Jeżeli sztuki przesyłek odpowiadające różnym typom konstrukcji mają być ładowane razem, to należy zwrócić uwagę na ich wzajemną zgodność w zakresie piętrzenia. W razie potrzeby, sztuki przesyłek znajdujące się pod innymi sztukami przesyłek powinny być zabezpieczone przed uszkodzeniem przy użyciu przekładek.”",
+      "finding": "Zbyt bliskie 0767, które bada zgodność konstrukcji; skupić zamiennik na zabezpieczeniu dolnej sztuki przekładkami.",
+      "duplicate_candidates": [
+        "ADR-B-0767",
+        "ADR-B-0059",
+        "ADR-B-0618"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-09",
+        "competency_id": "ADR-B-09-K05",
+        "stem": "Opakowania różnych konstrukcji mają być piętrzone razem. Jak ochronić dolne sztuki przed naciskiem?",
+        "options": {
+          "A": "Zastosować przekładki, by chronić dolne opakowanie przed naciskiem",
+          "B": "Włożyć przekładki, by chronić dolne opakowanie przed uszkodzeniem",
+          "C": "Zrezygnować z przekładek, jeśli opakowania mają podobną masę"
+        },
+        "correct_option": "B",
+        "explanation": "Przy piętrzeniu różnych typów konstrukcji należy ocenić ich wzajemną zgodność. Jeżeli górne sztuki mogłyby uszkodzić dolne, stosuje się przekładki zabezpieczające. Samo podobieństwo masy albo owinięcie folią nie zastępuje oceny zgodności i ochrony. Podstawa: ADR 7.5.7.2. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 7.5.7.2: „Jeżeli sztuki przesyłek odpowiadające różnym typom konstrukcji mają być ładowane razem, to należy zwrócić uwagę na ich wzajemną zgodność w zakresie piętrzenia. W razie potrzeby, sztuki przesyłek znajdujące się pod innymi sztukami przesyłek powinny być zabezpieczone przed uszkodzeniem przy użyciu przekładek.”",
+        "replacement_pages": [
+          1309
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0684",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-09",
+      "competency_id": "ADR-B-09-K03",
+      "legal_basis": "ADR 2025, 7.5.4, CV28",
+      "gazette_pages": [
+        1307
+      ],
+      "exact_quote": "ADR 7.5.4: „jeżeli sztuki przesyłek zaopatrzone w wymienione nalepki ostrzegawcze nie posiadają dodatkowego opakowania lub nie są całkowicie przykryte (np. przy użyciu plandeki, pokrywy z tektury lub w inny sposób).”",
+      "finding": "Wyjątek dla dodatkowego opakowania lub pełnego przykrycia jest odrębny, ale odpowiedzi są zbyt długie; skrócić je.",
+      "duplicate_candidates": [
+        "ADR-B-0765",
+        "ADR-B-0638",
+        "ADR-B-0081",
+        "ADR-B-0082"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-09",
+        "competency_id": "ADR-B-09-K03",
+        "stem": "Przesyłki CV28 są blisko żywności, lecz mają dodatkowe opakowanie. Czy trzeba je oddzielać?",
+        "options": {
+          "A": "Tak, nawet dodatkowe opakowanie nie znosi obowiązku oddzielenia",
+          "B": "Tak, odstęp 0,8 m jest wymagany przy każdym przewozie",
+          "C": "Nie, dodatkowe opakowanie lub pełne przykrycie daje wyjątek"
+        },
+        "correct_option": "C",
+        "explanation": "CV28 ustanawia środki ostrożności wobec żywności, artykułów spożywczych i karmy. Wymagane oddzielenie nie ma zastosowania, jeżeli wskazane przesyłki mają dodatkowe opakowanie albo są całkowicie przykryte. Sam wpis w dokumencie nie zastępuje wymaganego zabezpieczenia. Podstawa: ADR 7.5.4, CV28. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.4, CV28",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 7.5.4: „jeżeli sztuki przesyłek zaopatrzone w wymienione nalepki ostrzegawcze nie posiadają dodatkowego opakowania lub nie są całkowicie przykryte (np. przy użyciu plandeki, pokrywy z tektury lub w inny sposób).”",
+        "replacement_pages": [
+          1307
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0685",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-06",
+      "competency_id": "ADR-B-06-K07",
+      "legal_basis": "ADR 2025, 5.3.2.2.1",
+      "gazette_pages": [
+        955
+      ],
+      "exact_quote": "ADR 5.3.2.2.1: „Materiały użyte do wytworzenia tablicy powinny być odporne na warunki atmosferyczne i zapewniać trwałość oznakowania. Tablica powinna pozostać w miejscu jej umocowania po 15 minutach przebywania w ogniu, niezależnie od pozycji, w której znajduje się pojazd.”",
+      "finding": "Temat trwałości i mocowania tablicy jest odrębny od odblaskowości z 0755; zachować próg 15 minut działania ognia.",
+      "duplicate_candidates": [
+        "ADR-B-0755",
+        "ADR-B-0636",
+        "ADR-B-0193",
+        "ADR-B-0257"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K07",
+        "stem": "Tablica pomarańczowa jest czytelna, lecz jej mocowanie może puścić podczas pożaru. Jaki warunek musi spełniać?",
+        "options": {
+          "A": "Tablica ma zachować mocowanie przez 15 minut działania ognia",
+          "B": "Mocowanie ma utrzymać tablicę przez 15 minut działania ognia",
+          "C": "Tablica powinna być odporna na warunki pogodowe i trwała"
+        },
+        "correct_option": "B",
+        "explanation": "Tablice pomarańczowe muszą być wykonane z materiałów odpornych na warunki atmosferyczne i zapewniających trwałość oznakowania. Mocowanie ma utrzymać tablicę po 15 minutach przebywania w ogniu, niezależnie od pozycji pojazdu. Czytelność przed pożarem nie wystarcza do spełnienia tego wymagania. Podstawa: ADR 5.3.2.2.1. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.3.2.2.1: „Materiały użyte do wytworzenia tablicy powinny być odporne na warunki atmosferyczne i zapewniać trwałość oznakowania. Tablica powinna pozostać w miejscu jej umocowania po 15 minutach przebywania w ogniu, niezależnie od pozycji, w której znajduje się pojazd.”",
+        "replacement_pages": [
+          955
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0686",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-08",
+      "competency_id": "ADR-B-08-K05",
+      "legal_basis": "ADR 2025, 8.1.5.2",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "ADR 8.1.5.2: „oraz dla każdego członka załogi pojazdu — kamizelka ostrzegawcza; przenośne urządzenia oświetleniowe, zgodne z przepisami podanymi w 8.3.4; para rękawic ochronnych; oraz ochrona oczu”",
+      "finding": "Pytanie o liczbę lamp powiela część 0596; zastąpić je osobistym wyposażeniem w rękawice i ochronę oczu.",
+      "duplicate_candidates": [
+        "ADR-B-0596",
+        "ADR-B-0762",
+        "ADR-B-0075"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-08",
+        "competency_id": "ADR-B-08-K05",
+        "stem": "Załoga ma dwie osoby. Jakie środki ochrony osobistej trzeba przewozić dla każdej z nich?",
+        "options": {
+          "A": "Parę rękawic i ochronę oczu dla każdego członka załogi",
+          "B": "Jeden komplet rękawic i okularów dla całej załogi pojazdu",
+          "C": "Ochronę oczu kierowcy i rękawice dla pomocnika"
+        },
+        "correct_option": "A",
+        "explanation": "ADR 8.1.5.2 określa wyposażenie wymagane dla członka załogi pojazdu. Wymienia między innymi parę rękawic ochronnych i ochronę oczu, a także kamizelkę i przenośne urządzenie oświetleniowe. Wyposażenie osobiste nie jest wspólnym zestawem dla całej załogi. Podstawa: ADR 8.1.5.2. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 8.1.5.2: „oraz dla każdego członka załogi pojazdu — kamizelka ostrzegawcza; przenośne urządzenia oświetleniowe, zgodne z przepisami podanymi w 8.3.4; para rękawic ochronnych; oraz ochrona oczu”",
+        "replacement_pages": [
+          1325
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0687",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-03",
+      "competency_id": "ADR-B-03-K05",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "ADR 5.4.3.4, model instrukcji pisemnych: „Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny.”",
+      "finding": "Temat skażonej odzieży jest odrębny od unikania oparów z 0735, ale opcje są zbyt długie; zachować bezpieczne usunięcie.",
+      "duplicate_candidates": [
+        "ADR-B-0735",
+        "ADR-B-0613",
+        "ADR-B-0178"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-03",
+        "competency_id": "ADR-B-03-K05",
+        "stem": "Po awarii odzież i rękawice kierowcy zostały skażone. Co nakazują instrukcje pisemne ADR?",
+        "options": {
+          "A": "Zdjąć skażone ubranie i środki ochronne oraz je bezpiecznie usunąć",
+          "B": "Otrzepać ubranie i używać go dalej po wyschnięciu poza kabiną",
+          "C": "Schować rękawice do osobnego worka i wyprać je po zakończeniu trasy"
+        },
+        "correct_option": "A",
+        "explanation": "Model instrukcji pisemnych nakazuje zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne. Następnie należy usunąć je w sposób bezpieczny. Otrzepanie, dalsze używanie albo przechowywanie skażonych rzeczy w kabinie nie realizuje tej wskazówki. Podstawa: ADR 5.4.3.4, model instrukcji pisemnych. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.4.3.4, model instrukcji pisemnych: „Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny.”",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0688",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-06",
+      "competency_id": "ADR-B-06-K02",
+      "legal_basis": "ADR 2025, 5.2.2.1.6",
+      "gazette_pages": [
+        940
+      ],
+      "exact_quote": "ADR 5.2.2.1.6: „Jeżeli nieregularny kształt lub małe wymiary sztuki przesyłki uniemożliwiają odpowiednie umieszczenie na niej nalepki ostrzegawczej, to może być ona umieszczona na dobrze zamocowanej przywieszce lub w inny odpowiedni sposób.”",
+      "finding": "Przywieszka jest odrębna od rozmieszczenia nalepek w 0627 i zasłonięcia w 0751; skrócić odpowiedzi bez zmiany reguły.",
+      "duplicate_candidates": [
+        "ADR-B-0751",
+        "ADR-B-0627",
+        "ADR-B-0303"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K02",
+        "stem": "Mała, nieregularna sztuka przesyłki nie pozwala przykleić nalepki. Jak można ją umieścić?",
+        "options": {
+          "A": "Włożyć nalepkę luzem do opakowania na czas przewozu",
+          "B": "Umieścić nalepkę na dobrze umocowanej przywieszce",
+          "C": "Zastąpić ją numerem UN w dokumencie przewozowym"
+        },
+        "correct_option": "B",
+        "explanation": "Jeżeli kształt lub małe wymiary przesyłki uniemożliwiają właściwe umieszczenie nalepki, ADR dopuszcza dobrze umocowaną przywieszkę albo inny odpowiedni sposób. Nalepka nadal musi być związana z przesyłką i czytelna. Nie można zastąpić jej luźnym arkuszem ani samym wpisem w dokumencie. Podstawa: ADR 5.2.2.1.6. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.1.6",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.2.2.1.6: „Jeżeli nieregularny kształt lub małe wymiary sztuki przesyłki uniemożliwiają odpowiednie umieszczenie na niej nalepki ostrzegawczej, to może być ona umieszczona na dobrze zamocowanej przywieszce lub w inny odpowiedni sposób.”",
+        "replacement_pages": [
+          940
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0689",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-06",
+      "competency_id": "ADR-B-06-K01",
+      "legal_basis": "ADR 2025, 5.1.2.1(a)(i)–(ii)",
+      "gazette_pages": [
+        928
+      ],
+      "exact_quote": "ADR 5.1.2.1(a)(i)–(ii): „oznaczyć napisem „OPAKOWANIE ZBIORCZE””; „zaopatrzyć w nalepki ostrzegawcze oraz oznakować numerem UN i innymi znakami”",
+      "finding": "Opakowanie zbiorcze jest odrębne od wymiarów numeru UN z 0750; skrócić opcje i zachować obowiązek odtworzenia oznaczeń.",
+      "duplicate_candidates": [
+        "ADR-B-0750",
+        "ADR-B-0616",
+        "ADR-B-0281"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K01",
+        "stem": "Opakowanie zbiorcze zasłania oznaczenia i numery UN sztuki przesyłki. Co trzeba nanieść na zewnątrz?",
+        "options": {
+          "A": "Dodać napis „OVERPACK” bez odtwarzania oznaczeń",
+          "B": "Dodać „OVERPACK” oraz niewidoczne oznaczenia i numery UN",
+          "C": "Pozostawić oznakowanie bez zmian, bo dane są w dokumencie"
+        },
+        "correct_option": "B",
+        "explanation": "Jeżeli oznaczenia i nalepki nie są widoczne na opakowaniu zbiorczym, należy nanieść napis „OPAKOWANIE ZBIORCZE”. Trzeba też odtworzyć wymagane nalepki, numer UN i pozostałe oznaczenia, których nie widać. Dokument przewozowy nie zastępuje oznakowania zewnętrznego. Podstawa: ADR 5.1.2.1(a)(i)–(ii). Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.1.2.1(a)(i)–(ii)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.1.2.1(a)(i)–(ii): „oznaczyć napisem „OPAKOWANIE ZBIORCZE””; „zaopatrzyć w nalepki ostrzegawcze oraz oznakować numerem UN i innymi znakami”",
+        "replacement_pages": [
+          928
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0690",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K02",
+      "legal_basis": "ADR 2025, 8.3.6",
+      "gazette_pages": [
+        1332
+      ],
+      "exact_quote": "ADR 8.3.6: „Silnik pojazdu nie powinien pracować podczas załadunku i rozładunku, z wyjątkiem przypadków, gdy uruchomienie silnika jest niezbędne dla pracy pomp lub innych urządzeń zapewniających załadunek lub rozładunek pojazdu oraz gdy zezwalają na to przepisy państwa, na którego terytorium znajduje się pojazd.”",
+      "finding": "Powtarza kolejność czynności po awarii z 0739, 0219 i 0182; zastąpić wyjątkiem dotyczącym pracy silnika podczas załadunku.",
+      "duplicate_candidates": [
+        "ADR-B-0739",
+        "ADR-B-0219",
+        "ADR-B-0182",
+        "ADR-B-0104"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K02",
+        "stem": "Podczas rozładunku pracuje pompa napędzana silnikiem pojazdu. Kiedy silnik może pozostać uruchomiony?",
+        "options": {
+          "A": "Silnik może pracować, gdy pompa przyspieszy rozładunek",
+          "B": "Silnik może pracować na biegu jałowym przy postoju",
+          "C": "Gdy pompa wymaga silnika i przepisy na to zezwalają"
+        },
+        "correct_option": "C",
+        "explanation": "ADR ogranicza pracę silnika podczas załadunku i rozładunku. Wyjątek obejmuje sytuację, gdy silnik jest niezbędny do pracy pomp lub innych urządzeń, a przepisy państwa zezwalają na jego uruchomienie. Samo przyspieszenie operacji nie stanowi podstawy do zastosowania wyjątku. Podstawa: ADR 8.3.6. Kierowca powinien porównać wymagania z dokumentami przewozowymi i stosować się do wskazanej procedury.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.6",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 8.3.6: „Silnik pojazdu nie powinien pracować podczas załadunku i rozładunku, z wyjątkiem przypadków, gdy uruchomienie silnika jest niezbędne dla pracy pomp lub innych urządzeń zapewniających załadunek lub rozładunek pojazdu oraz gdy zezwalają na to przepisy państwa, na którego terytorium znajduje się pojazd.”",
+        "replacement_pages": [
+          1332
+        ]
+      }
+    }
+  ]
+}
