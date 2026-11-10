@@ -20,22 +20,27 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przesyłka klasy 1 ma podklasę 1.2. Jakie zagrożenie odróżnia ją od podklasy 1.1?",
+        "id": "ADR-B-0495",
+        "module_id": "ADR-B-02",
+        "stem": "Na skrzyni z przedmiotami wybuchowymi kierowca widzi kod klasyfikacyjny z podklasą 1.2. Jakie główne zagrożenie oznacza ta podklasa według 2.2.1.1.5?",
         "options": {
-          "A": "Podklasa 1.2 oznacza wybuch masowy całego ładunku bez rozrzutu",
-          "B": "Podklasa 1.2 wiąże się z rozrzutem, ale bez zagrożenia wybuchem masowym",
-          "C": "Podklasa 1.2 oznacza wyłącznie zagrożenie żrące, bez skutków wybuchu i rozrzutu"
+          "A": "Wybuch masowy, który praktycznie od razu obejmuje cały ładunek",
+          "B": "Zagrożenie rozrzutem, ale bez zagrożenia wybuchem masowym",
+          "C": "Zagrożenie pożarem bez wybuchu i bez rozrzutu odłamków"
         },
         "correct_option": "B",
-        "explanation": "Podklasa 1.2 oznacza zagrożenie rozrzutem, ale nie wybuchem masowym całego ładunku, który jest charakterystyczny dla podklasy 1.1. Nie należy mylić tego z materiałami żrącymi, ponieważ obie podklasy dotyczą materiałów wybuchowych klasy 1. Rozpoznanie podklasy pomaga ocenić możliwe skutki zdarzenia i właściwie obchodzić się z przesyłką. Podstawa: ADR 2.2.1.1.5.",
+        "explanation": "Według 2.2.1.1.5 podklasa 1.2 obejmuje materiały i przedmioty, które stwarzają zagrożenie rozrzutem, ale nie wybuchem masowym. Rozrzut oznacza, że przy zdarzeniu z przesyłki mogą wylatywać odłamki lub części przedmiotów, które ranią ludzi także w pewnej odległości. Wybuch masowy, czyli taki, który praktycznie natychmiast obejmuje cały ładunek, jest cechą podklasy 1.1. Zagrożenie pożarem z małym zagrożeniem wybuchem lub rozrzutem opisuje z kolei podklasa 1.3. Podstawa: ADR 2.2.1.1.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.1.1.5, podklasa 1.2",
+            "reference": "ADR 2025, 2.2.1.1.5 (podklasa 1.2)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
@@ -61,6 +66,8 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
+        "id": "ADR-B-0496",
+        "module_id": "ADR-B-02",
         "stem": "Materiał wybuchowy klasy 1 ma podklasę 1.3. Które połączenie zagrożeń odpowiada ADR?",
         "options": {
           "A": "Podklasa 1.3 zawsze oznacza wybuch masowy całego ładunku podczas pożaru",
@@ -77,6 +84,9 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
@@ -102,6 +112,8 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
+        "id": "ADR-B-0497",
+        "module_id": "ADR-B-02",
         "stem": "Podklasa 1.5 obejmuje materiały wybuchowe o bardzo małej wrażliwości. Czy ich mała wrażliwość oznacza brak zagrożenia wybuchem masowym?",
         "options": {
           "A": "Tak; nazwa „bardzo mało wrażliwe” oznacza, że wybuch masowy jest niemożliwy",
@@ -118,6 +130,9 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
@@ -145,6 +160,8 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
+        "id": "ADR-B-0498",
+        "module_id": "ADR-B-02",
         "stem": "Podklasa 1.6 dotyczy skrajnie mało wrażliwych przedmiotów wybuchowych. Jakie zagrożenie masowe określa definicja?",
         "options": {
           "A": "Podklasa 1.6 nie stwarza zagrożenia wybuchem masowym całego ładunku",
@@ -161,6 +178,9 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
@@ -186,6 +206,8 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
+        "id": "ADR-B-0499",
+        "module_id": "ADR-B-02",
         "stem": "Bateria sodowo-jonowa z elektrolitem organicznym została umieszczona w urządzeniu, a inna identyczna bateria przewożona jest osobno. Które rozróżnienie UN wskazuje ADR 2025?",
         "options": {
           "A": "Obie baterie mają zawsze numer UN 3090, niezależnie od sposobu pakowania",
@@ -202,6 +224,9 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
@@ -227,6 +252,8 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
+        "id": "ADR-B-0500",
+        "module_id": "ADR-B-02",
         "stem": "Producent ma nowy typ baterii sodowo-jonowej objętej 2.2.9.1.7.2. Czy wystarczy, że jej ogniwa spełniają badania 38.3, a typ całej baterii nie został poddany wymaganym badaniom?",
         "options": {
           "A": "Tak; badanie jednego ogniwa zawsze zastępuje badania typu całej baterii",
@@ -243,6 +270,9 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
@@ -268,6 +298,8 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
+        "id": "ADR-B-0501",
+        "module_id": "ADR-B-02",
         "stem": "Nowy projekt ogniwa sodowo-jonowego przewidziany do wpisu UN 3551 nie zapobiega zewnętrznemu zwarciu. Którego warunku 2.2.9.1.7.2 nie spełnia?",
         "options": {
           "A": "Typ ogniwa musi być skutecznie zabezpieczony przed zewnętrznym zwarciem",
@@ -284,6 +316,9 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
@@ -309,6 +344,8 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
+        "id": "ADR-B-0502",
+        "module_id": "ADR-B-02",
         "stem": "Bateria sodowo-jonowa z równolegle połączonymi ogniwami nie ma rozwiązania chroniącego przed niebezpiecznym przepływem wstecznym prądu. Czy spełnia 2.2.9.1.7.2?",
         "options": {
           "A": "Tak; kartonowe opakowanie wystarcza, nawet bez zabezpieczenia elektrycznego",
@@ -325,6 +362,9 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "source_crosscheck_scope": "official_2025_english_targeted",
