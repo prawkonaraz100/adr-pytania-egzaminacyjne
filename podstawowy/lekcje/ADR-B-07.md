@@ -265,7 +265,7 @@ Wybierz scenariusz dla działu ADR-B-07 w [mapie ćwiczeń](../praktyka/scenariu
 
 **Status:** `needs_review`; weryfikacja pełnego polskiego ADR 2025 i niezależna ocena specjalisty pozostają otwarte.
 
-**Pytanie do samodzielnego sprawdzenia:** `ADR-B-0660`; podstawa programu: ADR 8.2.2.3.2(k); Kodeks cywilny art. 471 i 474. Rozróżnij odpowiedzialność przewoźnika jako strony umowy od automatycznego przypisywania całej odpowiedzialności kierowcy.
+**Pytanie do samodzielnego sprawdzenia:** `ADR-B-0660`; podstawa programu: ADR 8.2.2.3.2(k); Kodeks cywilny art. 362. Zastanów się, jak przyczynienie się poszkodowanego do powstania szkody może wpłynąć na wysokość odszkodowania.
 
 
 ### Przenośne urządzenie oświetleniowe (ADR-B-07-K06)
