@@ -8,23 +8,21 @@
       "id": "ADR-B-0629",
       "sequence": 629,
       "exact_record_snapshot": {
-        "stem": "Przed wyjazdem kierowca zauważa, że dokument przewozowy odpadu może nie zawierać wymaganego oznaczenia „ODPAD”. Co powinien zrobić?",
+        "stem": "Punkt zbiórki wysyła resztki farb i rozpuszczalników w różnych małych puszkach jako odpady. Puszki zapakowano razem do jednej beczki, korzystając z przepisu szczególnego dla takich odpadów z działu 4.1. Jaki dodatkowy zapis powinien zawierać dokument przewozowy?",
         "options": {
-          "A": "Dopisać oznaczenie samodzielnie bez uzgodnienia i ruszyć w trasę, choć opis dokumentu może pozostać niezgodny",
-          "B": "Wyjaśnić rozbieżność i uzyskać prawidłowy opis przed przewozem",
-          "C": "Zostawić dokument bez zmian, jeśli numer UN jest czytelny, nawet gdy wymagane oznaczenie odpadu budzi wątpliwości"
+          "A": "„ODPAD ZGODNY Z 2.1.3.5.5”, bo odpady w beczce mają różny skład",
+          "B": "„PRZEWÓZ ZGODNIE Z 4.1.1.5.3”, bo tak zapakowano odpady w beczce",
+          "C": "„PRZEWÓZ ZGODNY Z 1.1.4.2.1”, bo puszki zapakowano razem w beczce"
         },
         "correct_option": "B",
-        "explanation": "Wymagane oznaczenie „ODPAD” jest częścią opisu przewozowego w przypadkach wskazanych w ADR, więc nie można go pominąć tylko dlatego, że widnieje numer UN. Kierowca nie powinien też samodzielnie zmieniać dokumentu bez wyjaśnienia, kto odpowiada za jego prawidłowość. Skontaktuj się z osobą odpowiedzialną za dokumentację i uzyskaj poprawny opis przed rozpoczęciem przewozu. Podstawa: ADR 5.4.1.1.3.1.",
+        "explanation": "Punkt 4.1.1.5.3 pozwala zapakować odpady w opakowaniach wewnętrznych o różnych rozmiarach i kształtach razem w jedno opakowanie zewnętrzne, jeżeli spełnione są jego warunki. Według 5.4.1.1.3.3 przy takim przewozie w dokumencie przewozowym umieszcza się informację „Przewóz zgodnie z 4.1.1.5.3”. Zapis „ODPAD ZGODNY Z 2.1.3.5.5” dotyczy szczególnego sposobu klasyfikacji odpadu. Zapis o 1.1.4.2.1 dotyczy łańcucha transportowego z przewozem morskim lub lotniczym. Podstawa: ADR 5.4.1.1.3.3 i 4.1.1.5.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.3.1",
+            "reference": "ADR 2025, 5.4.1.1.3.3; 4.1.1.5.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
-        ],
-        "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        ]
       },
       "editorial_read_through": {
         "stem": true,
@@ -46,23 +44,21 @@
       "id": "ADR-B-0630",
       "sequence": 630,
       "exact_record_snapshot": {
-        "stem": "Po wypadku przyjeżdżają ratownicy. Kierowca może bezpiecznie przekazać im dokument przewozowy i instrukcje pisemne. Co powinien zrobić?",
+        "stem": "Ciężarówka z beczkami ADR miała wypadek, a ogień osmalił nalepki tak, że nie da się ich odczytać. Strażak chce wiedzieć, czy przewożona ciecz zapalna ma też właściwości trujące. Z jakiego dokumentu kierowca to odczyta?",
         "options": {
-          "A": "Zachować dokumenty dla siebie do zakończenia czynności, mimo że ratownicy potrzebują informacji o zagrożeniu",
-          "B": "Przekazać dostępne informacje o towarze i zagrożeniach",
-          "C": "Opisać zagrożenie wyłącznie z pamięci, bez pokazania dostępnych instrukcji i dokumentów przewozowych"
+          "A": "W instrukcjach pisemnych, w których wpisuje się nalepki tego ładunku",
+          "B": "W dokumencie przewozowym, w którym podano numery wzorów nalepek towaru",
+          "C": "W świadectwie dopuszczenia pojazdu, w którym wpisuje się przewożone towary"
         },
         "correct_option": "B",
-        "explanation": "Ratownicy potrzebują dokładnych danych o przewożonym towarze, aby ocenić zagrożenie i dobrać działania. Jeśli możesz zrobić to bez narażania siebie, przekaż im dokument przewozowy i instrukcje pisemne, zamiast polegać wyłącznie na pamięci. Nie wchodź jednak do strefy zagrożenia tylko po dokumenty — bezpieczeństwo ludzi ma pierwszeństwo. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych. Według 5.4.1.1.1 (c) dokument przewozowy podaje numery wzorów nalepek z kolumny (5) tabeli A, a numery po pierwszym umieszcza się w nawiasach. Zapis „3 (6.1)” mówi więc ratownikom, że ciecz zapalna jest też trująca, nawet gdy nalepek nie da się odczytać. Instrukcje pisemne mają jeden wzór dla wszystkich ładunków, a świadectwo dopuszczenia dotyczy pojazdu, nie towaru. Podstawa: ADR 5.4.3.4 i 5.4.1.1.1 (c).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: dostęp ratowników do dokumentów przewozowych); 5.4.1.1.1 (c)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
-        ],
-        "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        ]
       },
       "editorial_read_through": {
         "stem": true,
