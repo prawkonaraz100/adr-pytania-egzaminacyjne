@@ -1,0 +1,335 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0571–0585",
+  "bank_count": 780,
+  "bank_blob_sha": "b240a96d8c9d0bae561d132b0a6bc8f705ee7ca2",
+  "bank_changed": false,
+  "previous_uncompared": 210,
+  "compared": 15,
+  "remaining_without_comparison": 195,
+  "counts": {
+    "OK": 6,
+    "POPRAW": 9,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "method": "similarity.py ranking plus manual thematic review across all 780 records",
+    "threshold_0_45_pairs": 0,
+    "threshold_0_25_pairs": 5,
+    "manual_duplicate_pairs": [
+      [
+        "ADR-B-0571",
+        "ADR-B-0272"
+      ],
+      [
+        "ADR-B-0574",
+        "ADR-B-0064"
+      ],
+      [
+        "ADR-B-0574",
+        "ADR-B-0086"
+      ],
+      [
+        "ADR-B-0576",
+        "ADR-B-0033"
+      ],
+      [
+        "ADR-B-0577",
+        "ADR-B-0037"
+      ],
+      [
+        "ADR-B-0579",
+        "ADR-B-0068"
+      ]
+    ],
+    "similarity_pairs": [
+      {
+        "score": 0.294,
+        "ids": [
+          "ADR-B-0572",
+          "ADR-B-0526"
+        ],
+        "assessment": "odrębne: limit liczby EQ kontra pozostałe wymagania EQ"
+      },
+      {
+        "score": 0.278,
+        "ids": [
+          "ADR-B-0576",
+          "ADR-B-0033"
+        ],
+        "assessment": "duplikat tematyczny"
+      },
+      {
+        "score": 0.267,
+        "ids": [
+          "ADR-B-0580",
+          "ADR-B-0131"
+        ],
+        "assessment": "odrębne: zastosowanie postoju kontra warunki stosowania 8.4"
+      },
+      {
+        "score": 0.25,
+        "ids": [
+          "ADR-B-0582",
+          "ADR-B-0402"
+        ],
+        "assessment": "odrębne: zakres planu ochrony kontra wykaz przedsięwzięć"
+      },
+      {
+        "score": 0.25,
+        "ids": [
+          "ADR-B-0582",
+          "ADR-B-0403"
+        ],
+        "assessment": "odrębne: zakres planu ochrony kontra procedury reakcji"
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0571",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.1.3.6.4",
+      "gazette_pages": [
+        28
+      ],
+      "exact_quote": "Jeżeli w tej samej jednostce transportowej przewożone są towary niebezpieczne należące do różnych kategorii transportowych, to suma: ... ilości materiałów i przedmiotów należących do kategorii transportowej 2 pomnożona przez „3”; oraz ilości ... kategorii transportowej 3 ... nie powinna przekraczać wartości obliczeniowej „1 000”.",
+      "finding": "Duplikat tematyczny 0272; bliski także 0570 i 0271. Obliczenie i klucz B są poprawne, lecz schemat egzaminacyjny został już użyty.",
+      "duplicate_candidates": [
+        "ADR-B-0272",
+        "ADR-B-0570",
+        "ADR-B-0271"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0572",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 3.5.1.1; 3.5.2–3.5.6",
+      "gazette_pages": [
+        690,
+        691,
+        692,
+        693
+      ],
+      "exact_quote": "Liczba sztuk przesyłek w pojeździe lub kontenerze nie powinna być większa niż 1 000.",
+      "finding": "990 nie przekracza limitu; pytanie sprawdza dodatkowe wymagania EQ, a 0526 dotyczy przekroczenia limitu.",
+      "duplicate_candidates": [
+        "ADR-B-0526"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0573",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 3.5.6",
+      "gazette_pages": [
+        693
+      ],
+      "exact_quote": "co najmniej jeden z tych dokumentów powinien zawierać zapis „Towary niebezpieczne w ilościach wyłączonych” oraz wskazanie liczby sztuk przesyłek.",
+      "finding": "Klucz A odpowiada wymogowi uzupełnienia dokumentacji EQ.",
+      "duplicate_candidates": [
+        "ADR-B-0526",
+        "ADR-B-0572"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0574",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.6.3.2",
+      "gazette_pages": [
+        1338
+      ],
+      "exact_quote": "Jeżeli w jednostce transportowej znajdują się towary niebezpieczne, dla których wskazano różne kody ograniczeń przewozu przez tunele, to do całego ładunku stosuje się ten ze wskazanych kodów, który odpowiada największym ograniczeniom.",
+      "finding": "Powtórzenie ogólnej reguły pytań 0064 i 0086 bez nowego warunku.",
+      "duplicate_candidates": [
+        "ADR-B-0064",
+        "ADR-B-0086"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0575",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 8.6.3.1; 3.2.1 tabela A kolumna (15)",
+      "gazette_pages": [
+        1338
+      ],
+      "exact_quote": "Ograniczenia przewozu towaru niebezpiecznego przez tunele określone są kodem wskazanym dla tego towaru w kolumnie (15) w tabeli A w dziale 3.2. Kod ograniczeń przewozu przez tunele podany jest w nawiasie w dolnej części komórki.",
+      "finding": "Kolumna (15) jest wskazana wprost; klucz C prawidłowy.",
+      "duplicate_candidates": [
+        "ADR-B-0248",
+        "ADR-B-0208"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0576",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.6.4",
+      "gazette_pages": [
+        1338,
+        1339
+      ],
+      "exact_quote": "Inny przewóz: zakaz przewozu przez tunele kategorii E.",
+      "finding": "Pytanie jest niemal tym samym scenariuszem co 0033; podobieństwo leksykalne ok. 0,447.",
+      "duplicate_candidates": [
+        "ADR-B-0033",
+        "ADR-B-0084"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0577",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(a)",
+      "gazette_pages": [
+        962
+      ],
+      "exact_quote": "numer UN poprzedzony literami „UN”",
+      "finding": "Powtórzenie pytania 0037 o sposób podawania numeru UN w dokumencie przewozowym.",
+      "duplicate_candidates": [
+        "ADR-B-0037"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0578",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(e)",
+      "gazette_pages": [
+        962
+      ],
+      "exact_quote": "liczbę i określenie sztuk przesyłek, jeżeli występują",
+      "finding": "Klucz C jest zgodny z literalnym wymaganiem. Odrębny szczegół względem ogólnego 0069.",
+      "duplicate_candidates": [
+        "ADR-B-0069"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0579",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(h)",
+      "gazette_pages": [
+        962
+      ],
+      "exact_quote": "nazwę i adres odbiorcy (odbiorców).",
+      "finding": "Powtórzenie zasadniczej reguły pytania 0068; wyjątek „Sprzedaż obwoźna” nie został wykorzystany jako nowy problem.",
+      "duplicate_candidates": [
+        "ADR-B-0068"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0580",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 8.4.1; 8.5",
+      "gazette_pages": [
+        1333,
+        1334
+      ],
+      "exact_quote": "Pojazdy przewożące towary niebezpieczne w ilościach podanych w przepisach specjalnych S1(6) i S14 do S24 w dziale 8.5, zgodnie ze wskazaniem w kolumnie (19) tabeli A w dziale 3.2, powinny być nadzorowane lub mogą być zaparkowane, bez nadzoru, na parkingach strzeżonych lub na strzeżonych miejscach na terenie przedsiębiorstwa.",
+      "finding": "Ogólne rozstrzygnięcie jest kierunkowo poprawne; należy uwzględnić ograniczony zakres zastosowania 8.4.1 i hierarchię miejsc.",
+      "duplicate_candidates": [
+        "ADR-B-0310",
+        "ADR-B-0144"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0581",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.4.1; 8.5",
+      "gazette_pages": [
+        1333,
+        1334
+      ],
+      "exact_quote": "Z parkingów wymienionych w (b) można korzystać tylko wtedy, gdy nie są dostępne miejsca wymienione w (a), a z miejsc wymienionych w (c) tylko wtedy, gdy nie są dostępne miejsca wymienione w (a) i (b).",
+      "finding": "Nieprecyzyjne uogólnienie; należy opisać warunek S oraz rodzaje parkingów i hierarchię z 8.4.1(a)–(c).",
+      "duplicate_candidates": [
+        "ADR-B-0580",
+        "ADR-B-0144"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0582",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 1.10.3.2.1–1.10.3.2.2",
+      "gazette_pages": [
+        113
+      ],
+      "exact_quote": "powinni przyjąć, wdrożyć i stosować plan ochrony, który powinien obejmować co najmniej elementy określone w 1.10.3.2.2.",
+      "finding": "Plan obejmuje ocenę ryzyka z uwzględnieniem postojów i przedsięwzięcia minimalizujące zagrożenia; klucz B zgodny.",
+      "duplicate_candidates": [
+        "ADR-B-0122",
+        "ADR-B-0407",
+        "ADR-B-0212"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0583",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 1.4.3.2",
+      "gazette_pages": [
+        57
+      ],
+      "exact_quote": "pakujący powinien stosować się w szczególności do: (a) wymagań dotyczących warunków pakowania, w tym pakowania razem; oraz (b) wymagań dotyczących oznakowania i stosowania nalepek ostrzegawczych",
+      "finding": "Obowiązki pakującego potwierdzają konieczność zgodnego przygotowania opakowania i oznakowania.",
+      "duplicate_candidates": [
+        "ADR-B-0367"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0584",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 1.4.3.1.1(b)",
+      "gazette_pages": [
+        57
+      ],
+      "exact_quote": "Nie powinien on wydać sztuki przesyłki, której opakowanie jest uszkodzone, dopóki nie zostaną usunięte uszkodzenia, w szczególności, jeżeli opakowanie jest nieszczelne, są wycieki materiału niebezpiecznego lub istnieje możliwość ich wystąpienia",
+      "finding": "Klucz C zgodny. Tematycznie bliskie 0020/0054, ale odrębny etap kontroli przed załadunkiem.",
+      "duplicate_candidates": [
+        "ADR-B-0020",
+        "ADR-B-0054"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ADR-B-0585",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.1.4.5",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "Gaśnice powinny być zamontowane na jednostkach transportowych w taki sposób, aby były łatwo dostępne dla załogi pojazdu. Sposób zamontowania gaśnic powinien zapewniać ochronę przed działaniem czynników atmosferycznych gwarantującą ich bezpieczną eksploatację.",
+      "finding": "Punkt nie potwierdza wprost wymogu unieruchomienia gaśnicy w uchwycie przeciw uderzeniom o elementy pojazdu. Wskazany klucz wymaga innej podstawy lub zmiany pytania.",
+      "duplicate_candidates": [
+        "ADR-B-0232",
+        "ADR-B-0169",
+        "ADR-B-0704"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review"
+    }
+  ]
+}
