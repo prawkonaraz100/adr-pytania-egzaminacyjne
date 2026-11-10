@@ -139,18 +139,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Ładunek przyjechał drogą morską, a dokumenty przygotowano według IMDG. Przewoźnik rozpoczyna dalszy odcinek drogowy. Co powinien sprawdzić?",
+        "stem": "Paczki jadą ciężarówką na lotnisko, skąd polecą samolotem. Mają znaki i nalepki zgodne z ADR, ale dwa różne towary spakowano razem w jednym kartonie według Instrukcji Technicznych ICAO, czego ADR by nie dopuścił. Czy w dokumencie przewozowym potrzebny jest dodatkowy zapis?",
         "options": {
-          "A": "Czy sam dokument IMDG usuwa wszystkie obowiązki drogowe i wymagane wpisy dla przewozu",
-          "B": "Czy warunki zastosowania ADR 1.1.4.2 są spełnione i czy dodano wymagany wpis dla tego przewozu",
-          "C": "Czy wystarczy ustne potwierdzenie spedytora, że nie trzeba już sprawdzać dokumentów ani warunków przewozu"
+          "A": "Nie, bo zapis z 5.4.1.1.7 dotyczy łańcucha z przewozem morskim, a nie lotniczym",
+          "B": "Tak, „PRZEWÓZ ZGODNY Z 1.1.4.2.1”, bo pakowanie razem oparto na ICAO",
+          "C": "Nie, bo znaki i nalepki na paczkach są zgodne z ADR"
         },
         "correct_option": "B",
-        "explanation": "Dokument IMDG powstał dla przewozu morskiego i nie zastępuje automatycznie wymagań na dalszym odcinku drogowym. Przewoźnik powinien sprawdzić, czy spełniono warunki wyjątku z ADR oraz czy dokument zawiera wymagany wpis dotyczący przewozu. Samo zapewnienie spedytora nie potwierdza zgodności. Podstawa: ADR 1.1.4.2.1 i 5.4.1.1.7.",
+        "explanation": "Według 1.1.4.2.1 w łańcuchu z przewozem morskim lub lotniczym dopuszcza się sztuki przesyłek zgodne z Kodeksem IMDG lub Instrukcjami Technicznymi ICAO, choć nie spełniają ADR. Odstępstwo dotyczy pakowania, pakowania razem, oznakowania i nalepek, a lit. (b) obejmuje pakowanie razem w jednej sztuce przesyłki. Karton spakowano według ICAO, więc przewóz drogowy korzysta z 1.1.4.2.1, mimo że znaki i nalepki spełniają ADR. Dlatego według 5.4.1.1.7 dokument przewozowy musi zawierać dodatkowo zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Podstawa: ADR 1.1.4.2.1 (b) i 5.4.1.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2.1; 5.4.1.1.7",
+            "reference": "ADR 2025, 1.1.4.2.1 (zdanie wprowadzające, lit. (b)); 5.4.1.1.7",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -180,18 +180,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na planowanej trasie znajduje się tunel kategorii E, a przewożony towar ma kod tunelowy ograniczający przejazd przez tę kategorię. Czy kierowca może wjechać, jeśli tunel skraca trasę?",
+        "stem": "Ciężarówka z tablicami barwy pomarańczowej wiezie beczki z kodem tunelowym D/E. Przed wjazdem do tunelu nie ma znaku zakazu dla pojazdów z towarami niebezpiecznymi ani tabliczki z literą kategorii. Co z tego wynika według 1.9.5.3.5?",
         "options": {
-          "A": "Tak, gdy przejazd jest krótszy i kierowca nie widzi zagrożenia na wlocie",
-          "B": "Nie; powinien uwzględnić kategorię tunelu i wybrać trasę dozwoloną dla tego przewozu",
-          "C": "Tak, jeżeli numer UN znajduje się w dokumencie i tablice pojazdu są prawidłowe"
+          "A": "Nie może wjechać, bo bez tabliczki tunel traktuje się jak tunel kategorii E",
+          "B": "Może wjechać, bo brak znaku oznacza brak ograniczeń przewozu w tym tunelu",
+          "C": "Może wjechać dopiero po uzyskaniu zgody zarządcy tunelu na przejazd"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli kod tunelowy towaru wyklucza przejazd przez tunel kategorii E, kierowca musi wybrać inną dozwoloną trasę. Krótsza droga nie tworzy wyjątku, a prawidłowy numer UN i tablice pojazdu nie znoszą ograniczenia. Sprawdź kategorię tunelu i kod dla konkretnego sposobu przewozu jeszcze przed wjazdem. Podstawa: ADR 1.9.5.3 i 8.6.4.",
+        "explanation": "Zakazy przewozu przez tunele wprowadza się znakami drogowymi z dodatkową tabliczką z literą B, C, D lub E. Według 1.9.5.3.5 brak znaku oznacza brak ograniczeń, tak jak w tunelu kategorii A. Kod D/E beczek ogranicza więc przejazd dopiero przed tunelem z tabliczką kategorii, której dotyczy zakaz z tabeli 8.6.4. ADR nie wymaga przy tym zgody zarządcy tunelu na przejazd. Podstawa: ADR 1.9.5.3.5 i 1.9.5.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.9.5.3; 8.6.4",
+            "reference": "ADR 2025, 1.9.5.3.5 („Brak znaku oznacza brak ograniczeń”); 1.9.5.2.2 (tunel kategorii A); 8.6.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -221,18 +221,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W kolumnie 15 tabeli A przy towarze widnieje kod tunelowy „(-)”. Co oznacza to dla ograniczeń tunelowych ADR?",
+        "stem": "Furgon z tablicami barwy pomarańczowej wiezie towar, który w kolumnie (15) tabeli A ma znak „(-)”. Trasa prowadzi przez tunel z ograniczeniami. Nadawca uważa, że w opisie towaru w dokumencie przewozowym nie trzeba nic podawać w miejscu kodu tunelowego. Co wynika z 5.4.1.1.1 (k)?",
         "options": {
-          "A": "Kod ten sam w sobie nie nakłada ograniczenia tunelowego ADR dla tego towaru",
-          "B": "Oznacza bezwzględny zakaz wjazdu do każdego tunelu, niezależnie od oznakowania",
-          "C": "Pozwala wjechać do dowolnego tunelu nawet wtedy, gdy obowiązuje odrębny zakaz drogowy"
+          "A": "Trzeba podać wzmiankę „(-)” w miejscu kodu ograniczeń przewozu przez tunele",
+          "B": "Nie trzeba nic podawać, bo kod podaje się jedynie dla towarów z ograniczeniami",
+          "C": "Trzeba wpisać kod „(E)”, bo to najłagodniejszy kod ograniczeń tunelowych"
         },
         "correct_option": "A",
-        "explanation": "Znak „(-)” w kolumnie 15 tabeli A oznacza brak ograniczeń tunelowych wynikających z kodu przypisanego temu towarowi. Nie jest to nakaz omijania wszystkich tuneli ani przyzwolenie na ignorowanie odrębnych znaków drogowych. Przed trasą sprawdź również lokalne zakazy i ograniczenia, które mogą obowiązywać niezależnie od kodu ADR. Podstawa: ADR 3.2.1 i 8.6.3.1.",
+        "explanation": "Według 5.4.1.1.1 (k), gdy przewóz obejmuje przejazd przez tunele z ograniczeniami, w dokumencie przewozowym podaje się kod ograniczeń przewozu przez tunele z kolumny (15) tabeli A. Przepis przewiduje, że dla towaru ze znakiem „(-)” podaje się w tym miejscu wzmiankę „(-)”. Dzięki temu kontrolujący i kierowca widzą od razu, że towar nie podlega ograniczeniom tunelowym. Wpisanie kodu E byłoby błędem, bo nadawałoby towarowi ograniczenie, którego nie ma. Podstawa: ADR 5.4.1.1.1 (k) i 8.6.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.2.1, kolumna 15; 8.6.3.1",
+            "reference": "ADR 2025, 5.4.1.1.1 (k); 8.6.3.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -262,18 +262,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Towar ma kod tunelowy D/E i jest przewożony w cysternie. Jakie ograniczenie wynika z tego kodu dla przejazdu przez tunele?",
+        "stem": "Kontener jedzie ciężarówką do portu na dalszy rejs statkiem. Wiezie 5 t brutto kartonów z towarami w ilościach ograniczonych (LQ), bez innych towarów niebezpiecznych. Kontener ma znaki LQ zgodne z Kodeksem IMDG. Na trasie jest tunel kategorii E. Co wynika z UWAGI 2 pod tabelą 8.6.4?",
         "options": {
-          "A": "Kod D/E dotyczy wyłącznie przewozu w sztukach przesyłek, więc cysterna nie podlega ograniczeniu",
-          "B": "Zakaz dotyczy tylko tuneli kategorii A i B, ponieważ są najbezpieczniejsze",
-          "C": "Dla przewozu w cysternie kod D/E oznacza ograniczenie przejazdu przez tunele kategorii D i E"
+          "A": "Musi ominąć tunel, bo kontener ma znaki LQ, a to uruchamia ograniczenie E",
+          "B": "Musi ominąć tunel, bo w łańcuchu z rejsem morskim stosuje się kod tunelowy B",
+          "C": "Może przejechać, bo masa brutto ładunku LQ nie przekracza 8 t na jednostkę"
         },
         "correct_option": "C",
-        "explanation": "Kod D/E trzeba odczytać z uwzględnieniem sposobu przewozu. Gdy towar jedzie w cysternie, kod ogranicza przejazd przez tunele kategorii D i E; nie wolno stosować tu reguły przewidzianej dla sztuk przesyłek. Kierowca sprawdza kategorię tunelu i planuje trasę, która nie narusza ograniczenia. Podstawa: ADR 8.6.4.",
+        "explanation": "Według UWAGI 2 pod tabelą 8.6.4 towary LQ w kontenerach lub jednostkach oznakowanych zgodnie z Kodeksem IMDG nie podlegają ograniczeniom tunelu kategorii E. Warunkiem jest, że masa brutto sztuk przesyłek z towarami LQ nie przekracza 8 t na jednostkę transportową. Tutaj jest 5 t, więc znaki LQ nałożone według Kodeksu IMDG nie zamykają tego tunelu. Gdyby ładunek LQ ważył ponad 8 t, ograniczenie tunelu E miałoby zastosowanie. Podstawa: ADR 8.6.4 (UWAGA 2) i 1.9.5.3.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.4",
+            "reference": "ADR 2025, 8.6.4 (UWAGA 2 pod tabelą); 1.9.5.3.6",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -303,18 +303,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Sztuka przesyłki jest oznaczona jako przewóz w ilościach ograniczonych (LQ), ale opakowanie zewnętrzne waży 32 kg brutto. Czy samo oznaczenie LQ wystarcza?",
+        "stem": "Karton z butelkami środka czyszczącego przygotowano do przewozu jako ilość ograniczoną (LQ). Butelki są opakowaniami wewnętrznymi w kartonie, a cała sztuka przesyłki waży 32 kg brutto. Czy może jechać na zasadach działu 3.4?",
         "options": {
-          "A": "Nie; trzeba sprawdzić także warunki pakowania i limit masy brutto opakowania zewnętrznego",
-          "B": "Tak, każde opakowanie oznaczone LQ może mieć dowolną masę, jeśli jest szczelne i nie ma wycieku",
-          "C": "Tak, jeśli przewoźnik zapisze masę w dokumencie, a odbiorca potwierdzi ją przed rozładunkiem towaru"
+          "A": "Nie, cała sztuka przesyłki LQ w kartonie może ważyć najwyżej 30 kg brutto",
+          "B": "Tak, limit 30 kg dotyczy masy netto towaru, a nie całego kartonu",
+          "C": "Tak, limit masy brutto dotyczy jedynie tac owiniętych folią termokurczliwą"
         },
         "correct_option": "A",
-        "explanation": "Oznaczenie LQ nie zwalnia z limitów dotyczących samego opakowania. Zwykłe opakowanie zewnętrzne w tym trybie może ważyć najwyżej 30 kg brutto, więc przy 32 kg trzeba sprawdzić, czy zastosowano właściwy rodzaj opakowania i czy spełnia on dopuszczalny limit. Szczelność, dopisek w dokumencie ani zgoda odbiorcy nie podnoszą tego limitu. Podstawa: ADR 3.4.2.",
+        "explanation": "Według 3.4.2 towary w ilościach ograniczonych pakuje się w opakowania wewnętrzne umieszczone w odpowiednich opakowaniach zewnętrznych. Całkowita masa brutto takiej sztuki przesyłki nie może przekraczać 30 kg, więc liczy się karton razem z zawartością. Dla tac owiniętych folią termokurczliwą lub rozciągliwą 3.4.3 przewiduje jeszcze niższy limit 20 kg brutto. Karton ważący 32 kg nie może więc jechać jako LQ i trzeba go przepakować na lżejsze sztuki przesyłek. Podstawa: ADR 3.4.2 i 3.4.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.4.2",
+            "reference": "ADR 2025, 3.4.2; 3.4.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -344,18 +344,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca ocenia przewóz według wyłączenia ilościowego z ADR 1.1.3.6 i sprawdza tylko masę całego ładunku. Czy to wystarcza?",
+        "stem": "Furgon wiezie 20 butli ze sprężonym argonem UN 1006, kategoria transportowa 3. Każda butla ma pojemność wodną 50 l, a gaz w niej waży kilkanaście kilogramów. Jaką ilość porównać z limitem 1000 z tabeli 1.1.3.6.3?",
         "options": {
-          "A": "Tak, ponieważ każdy towar niebezpieczny ma ten sam próg ilościowy",
-          "B": "Nie; trzeba ustalić kategorię transportową każdego towaru i zastosować właściwe zasady obliczenia",
-          "C": "Tak, jeśli ładunek mieści się w przestrzeni bagażowej i nie przekracza dopuszczalnej masy pojazdu"
+          "A": "Masę samego argonu w butlach, czyli kilkaset kilogramów",
+          "B": "Łączną pojemność wodną butli, czyli 20 × 50 l = 1000 litrów",
+          "C": "Masę brutto butli razem z gazem, bo tak waży się sztuki przesyłek"
         },
         "correct_option": "B",
-        "explanation": "Przy wyłączeniu ilościowym nie wystarczy zważyć cały ładunek: dla każdego towaru trzeba ustalić kategorię transportową i odpowiednio obliczyć ilości. Nie wszystkie materiały mają ten sam limit, a to, że ładunek mieści się w pojeździe, nie oznacza spełnienia wyłączenia. Przed wyjazdem sprawdź dane towarów i właściwe współczynniki. Podstawa: ADR 1.1.3.6.3–1.1.3.6.4.",
+        "explanation": "Pod tabelą 1.1.3.6.3 wyjaśniono, jak liczyć maksymalną ilość całkowitą na jednostkę transportową. Dla gazów sprężonych, takich jak argon w butlach, liczy się pojemność wodną naczyń w litrach, a nie masę gazu ani masę butli. Tutaj daje to 20 × 50 l, czyli 1000 l, co dla kategorii 3 nie przekracza limitu 1000. Dla cieczy liczy się litry towaru, a dla materiałów stałych i gazów skroplonych masę netto w kilogramach. Podstawa: ADR 1.1.3.6.3 (objaśnienie pod tabelą).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.3.6.3–1.1.3.6.4",
+            "reference": "ADR 2025, 1.1.3.6.3 (objaśnienie „maksymalna ilość całkowita na jednostkę transportową”); 1.1.3.6.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -385,18 +385,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca ma ważne prawo jazdy, ale nie ma zaświadczenia ADR. Przewóz przekracza warunki wyłączenia, przy których zaświadczenie nie jest wymagane. Czy może rozpocząć jazdę?",
+        "stem": "Kierowca ma ważne zaświadczenie ADR wydane w Polsce. Wiezie towar na pełnych zasadach ADR do Niemiec. Spedytor twierdzi, że w Niemczech potrzebne jest zaświadczenie wydane przez niemiecką władzę. Co wynika z 8.2.1.6?",
         "options": {
-          "A": "Tak, prawo jazdy zawsze wystarcza, gdy towar jest poprawnie opisany w dokumencie",
-          "B": "Tak, jeśli pracodawca potwierdzi telefonicznie, że kierowca zna zasady bezpieczeństwa",
-          "C": "Nie; musi posiadać ważne zaświadczenie ADR wymagane dla tego przewozu i odpowiedniej kategorii towarów"
+          "A": "Ma rację, bo zaświadczenie ADR działa w państwie, które je wydało",
+          "B": "Nie ma racji, ale przed wjazdem trzeba uzyskać zgodę niemieckiej władzy",
+          "C": "Nie ma racji, bo inne państwa ADR uznają je w okresie jego ważności"
         },
         "correct_option": "C",
-        "explanation": "Prawo jazdy uprawnia do kierowania pojazdem, ale nie zastępuje zaświadczenia ADR, gdy przewóz wymaga go od kierowcy. Dokument przewozowy ani telefoniczne zapewnienie pracodawcy nie nadają brakujących uprawnień. Przed wyjazdem kierowca musi mieć ważne zaświadczenie odpowiednie do rodzaju przewozu, chyba że spełniono konkretne warunki zwolnienia. Podstawa: ADR 8.2.1.1.",
+        "explanation": "Według 8.2.1.6 zaświadczenia kierowców wydane przez właściwą władzę jednej Umawiającej się Strony uznają w okresie ich ważności właściwe władze pozostałych Stron. Polskie zaświadczenie jest więc ważne także w Niemczech i w innych państwach stosujących ADR. ADR nie wymaga wymiany zaświadczenia ani osobnej zgody władz kraju, do którego jedzie kierowca. Kierowca pilnuje jednak daty ważności i zakresu swojego zaświadczenia. Podstawa: ADR 8.2.1.6 i 8.2.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.2.1.1",
+            "reference": "ADR 2025, 8.2.1.6; 8.2.1.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -426,18 +426,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "W tabeli A ADR przy danym numerze UN wskazano warunek, który zabrania przewozu tej substancji w opisanej postaci. Nadawca mimo to przygotował dokumenty. Co powinien zrobić przewoźnik?",
+        "stem": "Nadawca chce wysłać ciężarówką butle z azotynem metylu UN 2455. Butle są szczelne i oznakowane, a dokumenty przygotowano. W tabeli A przy tym numerze zamiast warunków przewozu podano „PRZEWÓZ ZABRONIONY”. Co powinien zrobić przewoźnik?",
         "options": {
-          "A": "Wstrzymać przewóz i wyjaśnić zakaz przed wyjazdem; prawidłowy dokument nie uchyla ograniczenia",
-          "B": "Rozpocząć przewóz, jeśli kierowca otrzymał instrukcje pisemne i gaśnice są sprawne",
-          "C": "Rozpocząć przewóz, bo nadawca przygotował dokumenty i przyjął odpowiedzialność za dopuszczenie towaru"
+          "A": "Odmówić przewozu, bo ADR nie dopuszcza tego towaru do przewozu",
+          "B": "Przewieźć butle, jeśli pojazd ma tablice barwy pomarańczowej",
+          "C": "Przewieźć butle, jeśli kierowca ma zaświadczenie ADR dla gazów"
         },
         "correct_option": "A",
-        "explanation": "Przygotowanie dokumentu przewozowego nie oznacza jeszcze, że dany towar wolno przewozić w każdej postaci. Przewoźnik powinien sprawdzić wpis towaru w tabeli A i zastosować wskazane tam ograniczenia; jeśli w opisanych warunkach przewóz jest zabroniony, trzeba go wstrzymać i wyjaśnić sprawę przed wyjazdem. Instrukcje, gaśnice ani przejęcie odpowiedzialności przez nadawcę nie uchylają zakazu. Podstawa: ADR 2.1 i 3.2, tabela A.",
+        "explanation": "Przy UN 2455 AZOTYN METYLU tabela A zamiast warunków przewozu podaje zapis „PRZEWÓZ ZABRONIONY”. Ten gaz wymieniono też w 2.2.2.2.2 wśród materiałów niedopuszczonych do przewozu, a według 2.1.2.4 takich towarów nie dopuszcza się do przewozu. Szczelne butle, tablice ani zaświadczenie kierowcy tego nie zmieniają. Przewoźnik ma upewnić się, że towar jest dopuszczony do przewozu, więc nie może go przyjąć. Podstawa: ADR 2.1.2.4, 2.2.2.2.2 i 1.4.2.2.1 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.1; 3.2, tabela A",
+            "reference": "ADR 2025, 3.2.1, tabela A (UN 2455: „PRZEWÓZ ZABRONIONY”); 2.2.2.2.2; 2.1.2.4; 1.4.2.2.1 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -467,18 +467,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przesyłki LQ są prawidłowo zapakowane, ale kierowca chce usunąć oznaczenie ilości ograniczonych z opakowania, aby wyglądało jak zwykła przesyłka. Czy może?",
+        "stem": "Nadawca wydaje kartony z farbą zapakowaną jako ilości ograniczone (LQ) zgodnie z działem 3.4. Na kartonach nie ma znaku LQ, bo nadawca zapisał informację o LQ w liście przewozowym. Przewóz jest drogowy. Co wynika z 3.4.7.1?",
         "options": {
-          "A": "Tak, jeśli odbiorca zna zawartość i opakowanie jest szczelne, a przewoźnik potwierdzi to na liście dostawy",
-          "B": "Nie; wymagane oznakowanie LQ musi pozostać czytelne, gdy przepisy nakazują jego umieszczenie",
-          "C": "Tak, jeśli kierowca zapisze skrót LQ na liście dostawy zamiast na opakowaniu i poinformuje odbiorcę"
+          "A": "Wystarczy wpis w liście przewozowym, bo kartony są prawidłowo zapakowane",
+          "B": "Kartony muszą mieć znak LQ, a wpis w liście przewozowym go nie zastąpi",
+          "C": "Znak LQ jest potrzebny dopiero, gdy ładunek LQ przekracza 8 t brutto"
         },
         "correct_option": "B",
-        "explanation": "Oznaczenie LQ informuje, że przesyłka korzysta ze szczególnych zasad dla ilości ograniczonych. Nie można go usuwać dla wygody, jeśli ADR wymaga jego umieszczenia na opakowaniu. Wpis „LQ” na liście dostawy ani informacja przekazana odbiorcy nie zastępują wymaganego, czytelnego oznakowania. Podstawa: ADR 3.4.7.1.",
+        "explanation": "Według 3.4.7.1, poza transportem lotniczym, sztuki przesyłek z towarami w ilościach ograniczonych mają mieć znak w kształcie rombu z czarną górą i dołem. Znak ma być dobrze widoczny, czytelny i odporny na warunki atmosferyczne. Wpis w liście przewozowym nie zastępuje oznakowania kartonów. Progi 12 t i 8 t z 3.4.13 i 3.4.14 dotyczą oznakowania pojazdu, a nie znaku na samych kartonach. Podstawa: ADR 3.4.7.1, 3.4.13 i 3.4.14.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.4.7.1",
+            "reference": "ADR 2025, 3.4.7.1; 3.4.13 (a); 3.4.14",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
