@@ -86,9 +86,11 @@ class Partia43LiteralReview(unittest.TestCase):
             if row["verdict"] == "POPRAW":
                 replacement = row.get("proposed_replacement")
                 self.assertIsInstance(replacement, dict)
-                self.assertEqual(replacement["competency_id"], row["proposed_replacement"]["competency_id"])
+                self.assertEqual(replacement["competency_id"], row["competency_id"])
                 self.assertEqual(replacement["correct_option"], row["original_correct_option"])
+                self.assertTrue(replacement["stem"].strip())
                 self.assertEqual(set(replacement["options"]), {"A", "B", "C"})
+                self.assertTrue(all(replacement["options"][key].strip() for key in "ABC"))
                 self.assertGreaterEqual(len(replacement["explanation"]), 300)
                 self.assertTrue(replacement["sources"])
 
