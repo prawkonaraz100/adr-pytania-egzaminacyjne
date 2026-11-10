@@ -16,7 +16,7 @@
   "duplicate_search": {
     "method": "similarity.py ranking plus manual thematic review across all 780 records",
     "threshold_0_45_pairs": 0,
-    "threshold_0_25_pairs": 0,
+    "threshold_0_25_pairs": 5,
     "manual_duplicate_pairs": [
       [
         "ADR-B-0571",
@@ -42,6 +42,48 @@
         "ADR-B-0579",
         "ADR-B-0068"
       ]
+    ],
+    "similarity_pairs": [
+      {
+        "score": 0.294,
+        "ids": [
+          "ADR-B-0572",
+          "ADR-B-0526"
+        ],
+        "assessment": "odrębne: limit liczby EQ kontra pozostałe wymagania EQ"
+      },
+      {
+        "score": 0.278,
+        "ids": [
+          "ADR-B-0576",
+          "ADR-B-0033"
+        ],
+        "assessment": "duplikat tematyczny"
+      },
+      {
+        "score": 0.267,
+        "ids": [
+          "ADR-B-0580",
+          "ADR-B-0131"
+        ],
+        "assessment": "odrębne: zastosowanie postoju kontra warunki stosowania 8.4"
+      },
+      {
+        "score": 0.25,
+        "ids": [
+          "ADR-B-0582",
+          "ADR-B-0402"
+        ],
+        "assessment": "odrębne: zakres planu ochrony kontra wykaz przedsięwzięć"
+      },
+      {
+        "score": 0.25,
+        "ids": [
+          "ADR-B-0582",
+          "ADR-B-0403"
+        ],
+        "assessment": "odrębne: zakres planu ochrony kontra procedury reakcji"
+      }
     ]
   },
   "records": [
