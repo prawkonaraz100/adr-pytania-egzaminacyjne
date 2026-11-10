@@ -192,12 +192,18 @@ Przedstaw kursantowi kartę charakterystyki cieczy z temperaturą zapłonu 45°C
 
 **Symulacja:** na fikcyjnym planie załadunku pokaż przesyłkę klasy 5.1 i karton z innym towarem, przy którym pojawia się zadymienie. Kursant ma wyjaśnić, dlaczego brak płomienia na opakowaniu 5.1 nie oznacza braku wpływu na pożar, oraz wskazać informację o klasie, którą trzeba przekazać ratownikom. Następnie ma odszukać instrukcje pisemne i wyjaśnić, że nie wolno samodzielnie przenosić opakowania ani wybierać środka gaśniczego bez rozpoznania towaru i zagrożenia. Ćwiczenie wyłącznie na dokumentacji i makiecie — bez rzeczywistego ognia ani materiałów niebezpiecznych.
 
-**Podstawa:** ADR 2.2.51.1.1 i 5.4.3.4. Pytanie kontrolne: ADR-B-0666 (`needs_review`).
+**Podstawa:** ADR 2.2.51.1.1 i 5.4.3.4. Pytanie kontrolne: ADR-B-0725 (`needs_review`).
+
+## Zadanie instruktorskie: przygotowanie skrzyni pod nawóz klasy 5.1 (CV24)
+
+**Symulacja:** pokaż zdjęcie lub makietę skrzyni ładunkowej, na której po poprzednim ładunku zostały słoma i papier, oraz fikcyjny dokument dla UN 2067 z przepisem CV24 w kolumnie (18). Kursant ma wskazać, co trzeba zrobić przed załadunkiem i czego nie wolno użyć do układania worków. Kryterium: kursant wymaga dokładnego oczyszczenia skrzyni z odpadów palnych i odrzuca łatwo palne podkładki, wiążąc to z utleniającym działaniem klasy 5.1.
+
+**Podstawa:** ADR 2.2.51.1.1 i 7.5.11 (CV24). Pytanie kontrolne: ADR-B-0666 (`needs_review`).
 
 
 ### Ćwiczenie: alarm temperatury awaryjnej — klasa 5.2
 
-Przedstaw kursantowi kartę ładunku nadtlenku organicznego z podanymi temperaturami kontrolowaną i awaryjną. W scenariuszu czujnik osiąga próg awaryjny. Kursant ma wskazać, że należy niezwłocznie uruchomić procedury awaryjne przewidziane dla przewozu, a nie kontynuować jazdę bez reakcji ani improwizować własnego sposobu chłodzenia. Sprawdź, czy odróżnia maksymalną temperaturę bezpiecznego przewozu od progu uruchomienia działań awaryjnych. Powiązane pytanie: ADR-B-0667 (needs_review). Podstawa: ADR 7.1.7.3.4 i 7.1.7.4.1.
+Przedstaw kursantowi kartę ładunku nadtlenku organicznego z podanymi temperaturami kontrolowaną i awaryjną. W scenariuszu czujnik osiąga próg awaryjny. Kursant ma wskazać, że należy niezwłocznie uruchomić procedury awaryjne przewidziane dla przewozu, a nie kontynuować jazdę bez reakcji ani improwizować własnego sposobu chłodzenia. Sprawdź, czy odróżnia maksymalną temperaturę bezpiecznego przewozu od progu uruchomienia działań awaryjnych. Powiązane pytanie: ADR-B-0667 (needs_review). Podstawa: ADR 7.1.7.3.4 i 7.1.7.4.3.
 
 
 ### Ćwiczenie: UN 3373 i instrukcja P650
@@ -207,7 +213,7 @@ Pokaż kursantowi przesyłkę z oznaczeniem UN 3373 „MATERIAŁ BIOLOGICZNY, KA
 
 ### Ćwiczenie: kategoria przesyłki klasy 7 i dwa kryteria
 
-Przedstaw kursantowi fikcyjny zapis: TI 0,8 oraz maksymalny poziom promieniowania na powierzchni 0,7 mSv/h. Poproś o osobne odczytanie obu przedziałów z tabeli 5.1.5.3.4, a następnie o wskazanie, dlaczego stosuje się kategorię wyższą — III-YELLOW. Obserwuj, czy kursant nie wybiera kategorii wyłącznie na podstawie TI. Powiązane pytanie: ADR-B-0669 (needs_review). Podstawa: ADR 5.1.5.3.4(a) i tabela 5.1.5.3.4.
+Przedstaw kursantowi fikcyjny zapis: TI 0,8 oraz maksymalny poziom promieniowania na powierzchni 0,7 mSv/h. Poproś o osobne odczytanie obu przedziałów z tabeli 5.1.5.3.4, a następnie o wskazanie, dlaczego stosuje się kategorię wyższą — III-ŻÓŁTA. Obserwuj, czy kursant nie wybiera kategorii wyłącznie na podstawie TI. Powiązane pytanie: ADR-B-0669 (needs_review). Podstawa: ADR 5.1.5.3.4(a) i tabela 5.1.5.3.4.
 
 
 ### Ćwiczenie: uszkodzone opakowanie klasy 6.1
@@ -227,9 +233,13 @@ Przedstaw fikcyjną przesyłkę z wiertarką i zapasową baterią litowo-jonową
 
 ### Ćwiczenie: odczyt grupy pakowania materiału klasy 4.3
 
-Pokaż kursantowi fikcyjny fragment dokumentu przewozowego z pozycją klasy 4.3 i grupą pakowania I. Poproś o wyjaśnienie, że grupa I oznacza duże zagrożenie, a nie rodzaj opakowania. Omów, że w klasie 4.3 kryteria grupy I obejmują energiczną reakcję z wodą i tendencję wydzielanego gazu do samozapłonu albo szybkość wydzielania gazu palnego co najmniej 10 l/kg/min. Porównaj z grupą III, dla której ADR określa wolniejsze wydzielanie gazu. Podkreśl, że kierowca odczytuje grupę z dokumentu i nie wykonuje żadnych prób z wodą. Powiązane pytanie: ADR-B-0674 (needs_review). Podstawa: ADR 1.2.1 i 2.2.43.1.8.
+Pokaż kursantowi fikcyjny fragment dokumentu przewozowego z pozycją klasy 4.3 i grupą pakowania I. Poproś o wyjaśnienie, że grupa I oznacza duże zagrożenie, a nie rodzaj opakowania. Omów, że w klasie 4.3 kryteria grupy I obejmują energiczną reakcję z wodą i tendencję wydzielanego gazu do samozapłonu albo szybkość wydzielania gazu palnego co najmniej 10 l/kg/min. Porównaj z grupą III, dla której ADR określa wolniejsze wydzielanie gazu. Podkreśl, że kierowca odczytuje grupę z dokumentu i nie wykonuje żadnych prób z wodą. Powiązane pytanie: ADR-B-0127 (needs_review). Podstawa: ADR 1.2.1 i 2.2.43.1.8.
 
 
 ### Ćwiczenie: rozróżnienie II i III grupy pakowania — klasa 4.3
 
-Przedstaw kursantowi dwa fikcyjne wyniki badań materiałów już zaklasyfikowanych do klasy 4.3: 24 l/kg/h (bez kryteriów I grupy) oraz 5 l/kg/h (bez kryteriów I i II grupy). Poproś o przypisanie odpowiednio II i III grupy oraz wyjaśnienie, dlaczego próg 20 l/kg/h nie jest wymagany dla III grupy. Podkreśl, że kierowca odczytuje grupę z dokumentacji i nie wykonuje samodzielnie prób z wodą ani klasyfikacji materiału. Pytania kontrolne: ADR-B-0675 i ADR-B-0676 (`needs_review`). Podstawa: ADR 2.2.43.1.8(b)–(c).
+Przedstaw kursantowi dwa fikcyjne wyniki badań materiałów już zaklasyfikowanych do klasy 4.3: 24 l/kg/h (bez kryteriów I grupy) oraz 5 l/kg/h (bez kryteriów I i II grupy). Poproś o przypisanie odpowiednio II i III grupy oraz wyjaśnienie, dlaczego próg 20 l/kg/h nie jest wymagany dla III grupy. Podkreśl, że kierowca odczytuje grupę z dokumentacji i nie wykonuje samodzielnie prób z wodą ani klasyfikacji materiału. Pytanie kontrolne: ADR-B-0676 (`needs_review`). Podstawa: ADR 2.2.43.1.8(b)–(c).
+
+### Ćwiczenie: bębny klasy 4.3 w deszczu (CV23, V1)
+
+Przedstaw fikcyjny załadunek bębnów UN 1401 WAPŃ w deszczu oraz plan przewozu bębnów UN 1402 WĘGLIK WAPNIA odkrytą skrzyniową ciężarówką. Poproś kursanta o odczytanie z tabeli A przepisów CV23 i V1 oraz o ocenę obu sytuacji. Kryterium: kursant chroni bębny przed kontaktem z wodą przy manipulowaniu i wymaga pojazdu zamkniętego lub przykrytego opończą. Pytania kontrolne: ADR-B-0674 i ADR-B-0675 (`needs_review`). Podstawa: ADR 2.2.43.1.1, 7.2.4 (V1) i 7.5.11 (CV23).

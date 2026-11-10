@@ -140,7 +140,11 @@ Pytania kontrolne: `ADR-B-0037`, `ADR-B-0038`, `ADR-B-0039`, `ADR-B-0508`, `ADR-
 
 ### Ćwiczenie: kontrola dokumentów całej załogi
 
-Przed wyjazdem sprawdź dokumenty kierowcy i drugiego członka załogi. W scenariuszu drugi członek ma dokument bez fotografii. Poproś kursanta, aby wskazał, że wymóg dotyczy każdej osoby z załogi, a nie tylko kierowcy, i że wpis w notatniku nie zastępuje środka identyfikacji ze zdjęciem. Zwróć uwagę na rozróżnienie dokumentu identyfikacyjnego (8.1.2.1(d)) i zaświadczenia o przeszkoleniu kierowcy, jeśli jest wymagane (8.1.2.2(b)). Powiązane pytanie: ADR-B-0672 (needs_review). Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).
+Przed wyjazdem sprawdź dokumenty kierowcy i drugiego członka załogi. W scenariuszu drugi członek ma dokument bez fotografii. Poproś kursanta, aby wskazał, że wymóg dotyczy każdej osoby z załogi, a nie tylko kierowcy, i że wpis w notatniku nie zastępuje środka identyfikacji ze zdjęciem. Zwróć uwagę na rozróżnienie dokumentu identyfikacyjnego (8.1.2.1(d)) i zaświadczenia o przeszkoleniu kierowcy, jeśli jest wymagane (8.1.2.2(b)). Powiązane pytanie: ADR-B-0175 (needs_review). Podstawa: ADR 1.10.1.4 i 8.1.2.1(d).
+
+### Ćwiczenie: dokumenty w kabinie przy przewozie w limicie z 1.1.3.6
+
+Pokaż kursantowi fikcyjny przewóz beczek z farbą mieszczący się w limicie z 1.1.3.6, w którym w kabinie jest dokument przewozowy, ale nie ma instrukcji pisemnych. Poproś o ocenę, czy to naruszenie, i o wskazanie w 1.1.3.6.2, które wymagania dotyczące dokumentów nadal obowiązują. Kryterium: kursant wskazuje, że rozdziału 5.4.3 się nie stosuje, a dokument przewozowy z 8.1.2.1 (a) musi być w kabinie. Powiązane pytanie: ADR-B-0672 (needs_review). Podstawa: ADR 1.1.3.6.2, 5.4.3 i 8.1.2.1.
 
 
 ## Zadanie instruktorskie — brak wpisu dla przewozu kombinowanego (ADR-B-0714)

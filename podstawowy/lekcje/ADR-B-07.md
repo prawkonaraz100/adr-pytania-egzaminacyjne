@@ -270,7 +270,11 @@ Wybierz scenariusz dla działu ADR-B-07 w [mapie ćwiczeń](../praktyka/scenariu
 
 ### Przenośne urządzenie oświetleniowe (ADR-B-07-K06)
 
-Gdy podczas przewozu ADR używasz latarki, jej powierzchnia metalowa nie może stwarzać ryzyka powstania iskry. Zwykła metalowa obudowa nie staje się bezpieczna tylko dlatego, że latarka działa na baterię, jest sprawna albo używasz jej krótko. Przed użyciem wybierz urządzenie spełniające wymaganie ADR 8.3.4. Pytanie: ADR-B-0663. Podstawa: ADR 8.3.4.
+Gdy podczas przewozu ADR używasz latarki, jej powierzchnia metalowa nie może stwarzać ryzyka powstania iskry. Zwykła metalowa obudowa nie staje się bezpieczna tylko dlatego, że latarka działa na baterię, jest sprawna albo używasz jej krótko. Przed użyciem wybierz urządzenie spełniające wymaganie ADR 8.3.4. Podstawa: ADR 8.3.4.
+
+### Pasażer przy przewozie w limicie z 1.1.3.6 (ADR-B-07-K06)
+
+Gdy ilość towarów niebezpiecznych w jednostce transportowej nie przekracza limitu z 1.1.3.6, przepis 1.1.3.6.2 zwalnia z większości wymagań części 8 ADR. Zostają tylko wymienione tam wyjątki, między innymi dokument przewozowy, gaśnica, wymaganie 8.3.4 dla latarek i zakaz palenia. Zakazu przewozu pasażerów z 8.3.1 nie ma wśród tych wyjątków, więc przy takim przewozie ADR nie zabrania przewozu osoby spoza załogi. Po przekroczeniu limitu w jednostce transportowej mogą jechać jedynie członkowie załogi. Pytanie: ADR-B-0663. Podstawa: ADR 1.1.3.6.2 i 8.3.1.
 
 
 ### Połączenie ABS między ciągnikiem i przyczepą (ADR-B-07-K06)
