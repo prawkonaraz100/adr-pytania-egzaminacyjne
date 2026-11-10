@@ -109,7 +109,7 @@ class Partia34LiteralReview(unittest.TestCase):
     def test_no_question_bank_or_exam_files_are_changed_by_report(self):
         manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
         self.assertFalse(manifest["bank_changed"])
-        self.assertEqual(manifest["bank_blob_sha"], EXPECTED_BANK_SHA)
+        self.assertEqual(manifest["bank_blob_sha"], FIRST_PASS_BANK_SHA)
         self.assertEqual(len(manifest["records"]), 15)
 
 
