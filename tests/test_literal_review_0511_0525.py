@@ -10,7 +10,7 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0511-0525.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0511-0525.json"
 FIRST_PASS_BANK_SHA = "f732aa354f959e2ba17bf870d901d2fe51aa0426"
-EXPECTED_BANK_SHA = "f732aa354f959e2ba17bf870d901d2fe51aa0426"
+EXPECTED_BANK_SHA = "e0c671756644994d18480feae5c08bc70ee0ffbd"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(511, 526)]
 EXPECTED_COUNTS = {"OK": 4, "POPRAW": 11, "BLOKUJ": 0}
 
@@ -62,9 +62,17 @@ class Partia35LiteralReview(unittest.TestCase):
         self.assertIn("ADR-B-0092", duplicates["ADR-B-0513"])
         self.assertIn("ADR-B-0672", duplicates["ADR-B-0519"])
 
-    def test_no_question_bank_or_competency_assignments_are_changed_by_report(self):
-        self.assertEqual(git_blob_sha(BANK.read_bytes()), FIRST_PASS_BANK_SHA)
-        self.assertEqual(len([json.loads(line) for line in BANK.read_text(encoding="utf-8").splitlines()]), 780)
+    def test_second_pass_corrections_are_registered_and_match_bank(self):
+        corrections = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0511-0525.jsonl"
+        records = [json.loads(line) for line in corrections.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual([row["id"] for row in records], EXPECTED_IDS[:14])
+        bank = [json.loads(line) for line in BANK.read_text(encoding="utf-8").splitlines() if line.strip()]
+        by_id = {row["id"]: row for row in bank}
+        for record in records:
+            self.assertEqual(record, by_id[record["id"]])
+        self.assertEqual(git_blob_sha(BANK.read_bytes()), EXPECTED_BANK_SHA)
+        self.assertEqual(len(bank), 780)
+        self.assertEqual(sum(row["verification_status"] == "verified" for row in bank), 0)
 
 
 if __name__ == "__main__":

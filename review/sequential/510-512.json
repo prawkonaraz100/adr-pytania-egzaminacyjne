@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po rejsie morskim kierowca przejmuje kontener z opakowanym towarem niebezpiecznym. Sztuki przesyłek są oznakowane zgodnie z IMDG, ale nie w pełni według ADR. Kiedy można rozważyć przyjęcie ich do dalszego przewozu drogowego na podstawie 1.1.4.2.1(a)?",
+        "stem": "Kontener po rejsie statkiem jedzie dalej ciężarówką na pełnych zasadach ADR. Sztuki przesyłek mają znaki i nalepki według Kodeksu IMDG, a nie ADR. Spedytor twierdzi, że dzięki 1.1.4.2.1 kierowca nie potrzebuje zaświadczenia ADR. Czy ma rację?",
         "options": {
-          "A": "Samo przybycie kontenera do portu wystarcza, nawet bez sprawdzenia warunków IMDG",
-          "B": "Można kontynuować łańcuch morski po spełnieniu właściwych wymagań IMDG",
-          "C": "Należy usunąć nalepki morskie i zastąpić je numerem rejestracyjnym pojazdu"
+          "A": "Tak, bo w łańcuchu z przewozem morskim przesyłkę ocenia się według IMDG",
+          "B": "Nie, odstępstwo dotyczy pakowania i oznakowania, a nie szkolenia kierowcy",
+          "C": "Tak, jeśli kierowca ma przy sobie certyfikat pakowania tego kontenera morskiego"
         },
         "correct_option": "B",
-        "explanation": "W przewozie drogowym połączonym z morskim ADR dopuszcza w określonych warunkach użycie oznakowania i nalepek wymaganych przez kodeks IMDG. Sam fakt, że kontener przypłynął do portu, nie wystarcza — trzeba spełnić warunki wyjątku i zachować wymagane informacje. Nie usuwaj oznaczeń ani nie zastępuj ich własnym opisem bez sprawdzenia zasad dla całej trasy. Podstawa: ADR 1.1.4.2.1(a).",
+        "explanation": "Punkt 1.1.4.2.1 pozwala w łańcuchu z przewozem morskim przyjąć sztuki przesyłek, które nie spełniają wymagań ADR dotyczących pakowania, pakowania razem, oznakowania i nalepek, ale są zgodne z Kodeksem IMDG. To odstępstwo nie zmienia innych wymagań ADR dla odcinka drogowego. Kierowca pojazdu przewożącego towary niebezpieczne nadal musi mieć zaświadczenie ADR, które potwierdza ukończenie kursu i zdanie egzaminu. Certyfikat pakowania kontenera dotyczy załadowania kontenera, a nie kwalifikacji kierowcy. Podstawa: ADR 1.1.4.2.1 i 8.2.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2.1(a)",
+            "reference": "ADR 2025, 1.1.4.2.1 (zdanie wprowadzające); 8.2.1.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Jednostka transportowa przewozi towary w ilościach ograniczonych (LQ) i musi być oznakowana zgodnie z ADR 3.4.13 z uwzględnieniem 3.4.14. Jaką trasę wybrać, gdy ma zastosowanie ograniczenie ADR 8.6.4?",
+        "stem": "Ciężarówka o masie maksymalnej 26 t rozładowała cały ładunek towarów w ilościach ograniczonych i wraca pusta do bazy. Z przodu i z tyłu nadal ma znaki LQ. Na trasie jest tunel kategorii E. Co powinien zrobić kierowca?",
         "options": {
-          "A": "Można jechać przez tunel E, bo oznakowanie LQ nie wiąże się z ograniczeniami tunelowymi",
-          "B": "Można jechać przez tunel E, jeśli pojazd nie musi mieć tablic pomarańczowych",
-          "C": "Ominąć tunel kategorii E, gdy jednostka podlega oznakowaniu LQ z 3.4.13–3.4.14"
+          "A": "Zostawić znaki LQ, bo pusty pojazd po ładunku LQ ma być oznakowany",
+          "B": "Zostawić znaki LQ i wjechać do tunelu, bo zakaz dotyczy jazdy z ładunkiem",
+          "C": "Zdjąć lub zakryć znaki LQ, bo nie przewozi już ilości ograniczonych"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli jednostka transportowa musi być oznakowana zgodnie z ADR 3.4.13 z uwzględnieniem 3.4.14, może mieć zastosowanie szczególne ograniczenie przejazdu przez tunele kategorii E. Nie zakładaj, że LQ zawsze oznacza brak ograniczeń tunelowych ani że brak tablic pomarańczowych pozwala wjechać do każdego tunelu. Sprawdź, czy spełniono warunki oznakowania jednostki. Podstawa: ADR 8.6.4 oraz 3.4.13–3.4.14.",
+        "explanation": "Według 3.4.13 i 3.4.14 znaki LQ są wymagane na jednostce transportowej o masie maksymalnej powyżej 12 ton, gdy przesyłki w ilościach ograniczonych ważą brutto ponad 8 ton. Punkt 3.4.15 każe usunąć lub zakryć te znaki, gdy towary w ilościach ograniczonych nie są już przewożone. Ograniczenie z 8.6.4 dla tuneli kategorii E dotyczy jednostek, dla których oznakowanie LQ jest wymagane, a pusty pojazd do nich nie należy. Pozostawione znaki wprowadzałyby w błąd obsługę tunelu i służby ratownicze. Podstawa: ADR 3.4.13, 3.4.15 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.4; 3.4.13; 3.4.14",
+            "reference": "ADR 2025, 3.4.15; 3.4.13 (a); 3.4.14; 8.6.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
