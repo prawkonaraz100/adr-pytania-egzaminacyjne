@@ -803,24 +803,29 @@
     {
       "id": "ADR-B-0646",
       "order": 646,
-      "clause": "ADR 2025, 8.2.2.3.8",
+      "clause": "ADR 2025, 5.4.3.4 (wzór: gaśnice do małego lub początkowego pożaru); 8.2.2.3.8; PSP – „Jak gasić gaśnicą?”",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0646",
         "module_id": "ADR-B-05",
-        "stem": "Na szkoleniu podstawowym instruktor omawia gaśnice, ale chce pominąć ćwiczenie praktyczne, bo kursanci rozwiązali test. Czy to wystarcza?",
+        "stem": "Na ćwiczeniu kursant gasi gaśnicą proszkową małą tacę z płonącym olejem, która udaje początkowy pożar hamulca. Stoi z wiatrem w plecy w bezpiecznej odległości. Gdzie powinien kierować strumień proszku?",
         "options": {
-          "A": "Tak. Jeśli kursanci poprawnie odpowiedzą na pytania o gaśnice, nie potrzeba już ćwiczenia praktycznego.",
-          "B": "Nie. Szkolenie ma obejmować także indywidualne ćwiczenia praktyczne, w tym gaszenie pożaru.",
-          "C": "Tak, jeśli instruktor pokaże gaśnicę z daleka i omówi jej elementy bez udziału kursantów."
+          "A": "Na górną część płomieni, bo tam ogień jest najwyższy i najlepiej widać jego siłę",
+          "B": "Na podstawę ognia, czyli na palący się materiał, omiatając ją z boku na bok",
+          "C": "Na dym nad ogniskiem, bo proszek ma najpierw schłodzić gorące gazy"
         },
         "correct_option": "B",
-        "explanation": "Test sprawdza wiedzę, ale nie potwierdza, że kursant potrafi bezpiecznie użyć gaśnicy w praktyce. Dlatego szkolenie podstawowe musi obejmować indywidualne ćwiczenia, a nie tylko odpowiedzi na pytania lub pokaz instruktora. Samo obejrzenie gaśnicy nie uczy prawidłowego działania w sytuacji zagrożenia. Podstawa: ADR 8.2.2.3.8.",
+        "explanation": "Instrukcje pisemne pozwalają użyć gaśnicy do małego lub początkowego pożaru opon, hamulców lub przedziału silnika, jeżeli jest to właściwe i bezpieczne. Straż pożarna zaleca kierować strumień na podstawę ognia i omiatać ją krótkimi, kontrolowanymi ruchami z boku na bok. Pali się materiał u dołu płomieni, więc proszek skierowany w górne płomienie lub w dym leci obok, a gaśnica szybko się opróżnia. Właśnie takie gaszenie ćwiczy się na kursie, bo 8.2.2.3.8 wymaga ćwiczeń praktycznych z gaszenia pożaru. Podstawa: ADR 5.4.3.4 i 8.2.2.3.8 oraz zalecenia PSP.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.2.2.3.8",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: gaśnice do małego lub początkowego pożaru); 8.2.2.3.8",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "PSP-KMPSP-SZCZECIN",
+            "reference": "Komenda Miejska PSP w Szczecinie, „Jak gasić gaśnicą?” (06.10.2025): omiatać podstawę ognia; po ugaszeniu kontrolować miejsce – możliwy ponowny zapłon",
+            "url": "https://www.gov.pl/web/kmpsp-szczecin/jak-gasic-gasnica"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -829,19 +834,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędne: test teoretyczny nie zastępuje indywidualnego ćwiczenia praktycznego wymaganego w szkoleniu ADR."
+          "rationale": "Pali się materiał u podstawy płomieni; proszek skierowany w górne płomienie leci obok."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawne: ADR wymaga indywidualnych ćwiczeń praktycznych, w tym ćwiczeń z gaszenia pożaru, a nie tylko testu."
+          "rationale": "PSP: kierować strumień na podstawę ognia i omiatać ją krótkimi ruchami z boku na bok."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędne: sam pokaz instruktora nie zastępuje praktycznego wykonania ćwiczenia przez kursanta."
+          "rationale": "Proszek skierowany w dym nie dociera do palącego się materiału; gaśnica szybko się opróżnia."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wstępna kontrola redakcyjna względem wskazanych punktów ADR 2025. Literalne porównanie pełnego tekstu polskiego i niezależna akceptacja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "Wzór s. 975; 8.2.2.3.8 s. 1328; zalecenia PSP (KM PSP Szczecin, gov.pl). Odrębne od 0640/0641 (plomba, strona nawietrzna) i 0015/0169 (mocowanie). Do oceny specjalisty (instruktor ochrony przeciwpożarowej).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -850,24 +855,29 @@
     {
       "id": "ADR-B-0647",
       "order": 647,
-      "clause": "ADR 2025, 8.1.4.5; 8.2.2.3.8",
+      "clause": "ADR 2025, 5.4.3.4 (wzór: gaśnice do małego lub początkowego pożaru; oddalić się); 8.2.2.3.8; PSP",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0647",
         "module_id": "ADR-B-05",
-        "stem": "Przed ćwiczeniem z gaśnicą kursant zauważa, że sprzęt jest schowany za bagażami i nie da się go szybko wyjąć. Co powinien zrobić?",
+        "stem": "Kierowca ugasił gaśnicą mały, początkowy pożar hamulca naczepy. Płomieni już nie widać, ale bęben hamulcowy jest bardzo gorący i lekko dymi. Służby są już powiadomione. Co powinien teraz zrobić?",
         "options": {
-          "A": "Zgłosić problem i przygotować ćwiczenie tak, by sprzęt był bezpiecznie dostępny, zgodnie z instrukcją.",
-          "B": "Rozpocząć ćwiczenie mimo przeszkody, bo wystarczy omówić sposób gaszenia i nie trzeba sprawdzać dostępności sprzętu.",
-          "C": "Siłą wyjąć gaśnicę, nawet gdy mocowanie może pęknąć lub sprzęt może upaść na podłogę."
+          "A": "Zostać w bezpiecznej odległości z gaśnicą i obserwować, czy ogień nie wraca",
+          "B": "Od razu ruszyć w dalszą drogę, bo pęd powietrza w czasie jazdy schłodzi hamulec",
+          "C": "Odejść do kabiny i zająć się dokumentami, bo pożar jest już ugaszony"
         },
         "correct_option": "A",
-        "explanation": "Przed ćwiczeniem trzeba dobrać gaśnicę i sposób działania do rodzaju zagrożenia oraz stosować się do poleceń instruktora. Nie każda gaśnica nadaje się do każdego pożaru, a ćwiczenie nie może narażać uczestników na niekontrolowany ogień. Samo odczytanie etykiety albo użycie dowolnego środka bez instruktażu nie zastępuje bezpiecznej praktyki. Podstawa: ADR 8.1.4.5 i 8.2.2.3.8.",
+        "explanation": "Po ugaszeniu ogień może się ponownie rozpalić, zwłaszcza gdy hamulec jest nadal bardzo gorący. Straż pożarna zaleca po ugaszeniu kontrolować miejsce pożaru, bo możliwy jest ponowny zapłon. Kierowca zostaje więc w bezpiecznej odległości z gaśnicą i czeka na służby, zamiast ruszać w drogę albo zostawiać pojazd bez nadzoru. Instrukcje pisemne pozwalają gasić jedynie mały lub początkowy pożar, więc gdy ogień wróci i się rozwinie, kierowca się oddala. Podstawa: ADR 5.4.3.4 i 8.2.2.3.8 oraz zalecenia PSP.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.4.5; 8.2.2.3.8",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: gaśnice do małego lub początkowego pożaru; oddalić się); 8.2.2.3.8",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "PSP-KMPSP-SZCZECIN",
+            "reference": "Komenda Miejska PSP w Szczecinie, „Jak gasić gaśnicą?” (06.10.2025): omiatać podstawę ognia; po ugaszeniu kontrolować miejsce – możliwy ponowny zapłon",
+            "url": "https://www.gov.pl/web/kmpsp-szczecin/jak-gasic-gasnica"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -876,19 +886,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawne: przeszkodę trzeba zgłosić i zapewnić bezpieczną dostępność sprzętu, zamiast ćwiczyć w warunkach utrudniających szybkie użycie gaśnicy."
+          "rationale": "PSP: po ugaszeniu kontrolować miejsce – możliwy ponowny zapłon gorącego hamulca."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędne: ćwiczenie nie powinno pomijać problemu dostępności sprzętu; to część bezpiecznego przygotowania."
+          "rationale": "Jazda z przegrzanym hamulcem po pożarze grozi ponownym zapłonem w czasie jazdy."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędne: siłowe wyrywanie może uszkodzić mocowanie lub spowodować upadek sprzętu."
+          "rationale": "Pozostawienie gorącego, dymiącego hamulca bez nadzoru pomija ryzyko ponownego zapłonu."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wstępna kontrola redakcyjna względem wskazanych punktów ADR 2025. Literalne porównanie pełnego tekstu polskiego i niezależna akceptacja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "Wzór s. 975; 8.2.2.3.8 s. 1328; zalecenia PSP (ponowny zapłon). Odrębne od 0493/0702/0742/0743 (przerwać gaszenie) i 0108/0184/0695. Do oceny specjalisty (instruktor ochrony przeciwpożarowej).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -897,24 +907,29 @@
     {
       "id": "ADR-B-0648",
       "order": 648,
-      "clause": "ADR 2025, 5.4.3.4; 8.2.2.3.8",
+      "clause": "ADR 2025, 8.2.2.3.2 (e); 8.2.2.3.8; ERC 2025 First Aid (zadławienie)",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0648",
         "module_id": "ADR-B-05",
-        "stem": "Podczas ćwiczenia pierwszej pomocy instruktor każe kursantowi podejść do poszkodowanego leżącego przy nieznanym wycieku. Co jest właściwą reakcją?",
+        "stem": "Na postoju kolega kierowcy krztusi się kęsem kanapki. Nie może mówić, a jego kaszel stał się nieskuteczny. Miejsce jest bezpieczne. Co według wytycznych ERC 2025 trzeba zrobić najpierw?",
         "options": {
-          "A": "Podejść natychmiast i dotknąć cieczy, aby ocenić jej rodzaj przed udzieleniem pomocy oraz wezwaniem służb.",
-          "B": "Nie robić nic i nie ostrzegać nikogo, dopóki ktoś nie zidentyfikuje substancji.",
-          "C": "Najpierw ocenić zagrożenie, nie wchodzić w rozlew i alarmować służby; pomagać tylko bezpiecznie."
+          "A": "Podać mu wodę do popicia i spokojnie czekać, aż kęs sam przesunie się dalej",
+          "B": "Wsunąć mu palce do ust i na ślepo szukać kęsu głęboko w gardle",
+          "C": "Wykonać do 5 uderzeń między łopatki, a gdy nie pomogą, uciskać nadbrzusze"
         },
         "correct_option": "C",
-        "explanation": "Najpierw zadbaj o własne bezpieczeństwo: nie wchodź w nieznany rozlew i nie dotykaj substancji, bo możesz sam zostać poszkodowany. Ostrzeż innych i wezwij służby; do poszkodowanego zbliżaj się tylko wtedy, gdy da się to zrobić bez narażenia na kontakt z zagrożeniem. Natychmiastowe podejście lub bierne czekanie bez alarmowania nie są bezpiecznym rozwiązaniem. Podstawa: ADR 5.4.3.4 i 8.2.2.3.8.",
+        "explanation": "Gdy dorosły się krztusi, najpierw zachęca się go do kaszlu. Jeżeli nie może kaszleć albo kaszel staje się nieskuteczny, wytyczne ERC 2025 zalecają do 5 uderzeń między łopatki, a gdy nie pomagają, do 5 uciśnięć nadbrzusza. Te czynności powtarza się na zmianę i wzywa pomoc pod numerem 112, a gdy poszkodowany straci przytomność, rozpoczyna się RKO. Nie wolno na ślepo szukać ciała obcego palcami, a woda do picia nie udrażnia dróg oddechowych. Podstawa: ADR 8.2.2.3.2 (e) i 8.2.2.3.8 oraz wytyczne ERC 2025 (pierwsza pomoc).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4; 8.2.2.3.8",
+            "reference": "ADR 2025, 8.2.2.3.2 (e); 8.2.2.3.8",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ERC-2025-FIRST-AID",
+            "reference": "European Resuscitation Council Guidelines 2025, First Aid – Choking in an adult person (kaszel, do 5 uderzeń między łopatki, do 5 uciśnięć nadbrzusza, bez wymiatania palcem)",
+            "url": "https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -923,19 +938,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędne: nie należy dotykać ani rozpoznawać nieznanej substancji przez bezpośredni kontakt."
+          "rationale": "Woda nie udrażnia dróg oddechowych przy nieskutecznym kaszlu; czekanie opóźnia pomoc."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędne: czekanie bez ostrzegania pomija potrzebę alarmowania służb i zabezpieczenia miejsca."
+          "rationale": "ERC 2025: nie wolno na ślepo wymiatać palcem ciała obcego z gardła."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawne: najpierw należy unikać narażenia na wyciek, ostrzec służby i pomagać tylko w bezpiecznych warunkach."
+          "rationale": "ERC 2025: do 5 uderzeń między łopatki, potem do 5 uciśnięć nadbrzusza, 112."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wstępna kontrola redakcyjna względem wskazanych punktów ADR 2025. Literalne porównanie pełnego tekstu polskiego i niezależna akceptacja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "8.2.2.3.2 (e) s. 1327; 8.2.2.3.8 s. 1328; ERC Guidelines 2025 First Aid. Odrębne od 0642/0643/0715 (RKO, AED) i 0748 (pozycja boczna). Do oceny specjalisty (instruktor pierwszej pomocy).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -944,24 +959,29 @@
     {
       "id": "ADR-B-0649",
       "order": 649,
-      "clause": "ADR 2025, 5.4.3.4; 8.2.2.3.8",
+      "clause": "ADR 2025, 8.2.2.3.2 (e); 8.2.2.3.8; ERC 2025 First Aid (ograniczenie ruchów kręgosłupa szyjnego)",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0649",
         "module_id": "ADR-B-05",
-        "stem": "W trakcie ćwiczenia pierwszej pomocy kursant zauważa, że rękawiczki ochronne są niedostępne, a poszkodowany może być skażony. Co powinien zrobić?",
+        "stem": "Po kolizji drogowej kierowca drugiego auta siedzi przytomny w fotelu i skarży się na ból karku. Miejsce jest bezpieczne, nic się nie pali ani nie wycieka. Co według wytycznych ERC 2025 trzeba zrobić?",
         "options": {
-          "A": "Wstrzymać kontakt, zgłosić brak ochrony i postępować według instrukcji oraz wskazówek prowadzącego.",
-          "B": "Udzielić pomocy gołymi rękami, bo każda sekunda jest ważniejsza niż ryzyko skażenia ratownika.",
-          "C": "Zakończyć ćwiczenie bez powiadomienia instruktora, bo brak rękawiczek oznacza, że nie da się nic zrobić."
+          "A": "Zachęcić go, by nie ruszał głową i trzymał szyję w wygodnej, stabilnej pozycji",
+          "B": "Pomóc mu wysiąść i przejść kilka kroków, żeby sprawdzić, czy kark nadal go boli",
+          "C": "Ostrożnie obrócić mu głowę na boki, żeby ustalić, gdzie boli najbardziej"
         },
         "correct_option": "A",
-        "explanation": "Brak rękawic ochronnych przy możliwym skażeniu oznacza, że nie wolno rozpoczynać bezpośredniego kontaktu z poszkodowanym na własną rękę. Zgłoś problem instruktorowi i zastosuj bezpieczną procedurę oraz jego polecenia; nie ryzykuj przeniesienia substancji na siebie. Nie trzeba też po cichu przerywać ćwiczenia — ważne jest zgłoszenie braku ochrony i prawidłowe działanie. Podstawa: ADR 5.4.3.4 i 8.2.2.3.8.",
+        "explanation": "Wytyczne ERC 2025 każą podejrzewać uraz kręgosłupa szyjnego między innymi po wypadku drogowym. U przytomnego poszkodowanego trzeba ograniczać ruchy szyi i zachęcić go, by sam utrzymywał głowę i szyję w wygodnej, stabilnej pozycji. Nie wolno zmuszać go do zmiany pozycji, chodzenia ani poruszania głową, bo może to pogłębić uraz. Pomoc wzywa się pod numerem 112 i obserwuje poszkodowanego do przyjazdu służb. Podstawa: ADR 8.2.2.3.2 (e) i 8.2.2.3.8 oraz wytyczne ERC 2025 (pierwsza pomoc).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4; 8.2.2.3.8",
+            "reference": "ADR 2025, 8.2.2.3.2 (e); 8.2.2.3.8",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ERC-2025-FIRST-AID",
+            "reference": "European Resuscitation Council Guidelines 2025, First Aid – Cervical spinal motion restriction (wypadek drogowy; ograniczyć ruchy szyi; nie wymuszać pozycji)",
+            "url": "https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -970,19 +990,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawne: przy ryzyku skażenia trzeba wstrzymać bezpośredni kontakt, zgłosić brak ochrony i kierować się instrukcjami."
+          "rationale": "ERC 2025: u przytomnego ograniczać ruchy szyi; zachęcić do utrzymania wygodnej, stabilnej pozycji."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędne: pomoc gołymi rękami przy możliwym skażeniu może stworzyć kolejnego poszkodowanego."
+          "rationale": "ERC 2025: nie zmuszać do zmiany pozycji ani chodzenia przy podejrzeniu urazu szyi."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędne: nie należy po cichu kończyć ćwiczenia; trzeba zgłosić problem i ustalić bezpieczne dalsze działanie."
+          "rationale": "Obracanie głowy poszkodowanego może pogłębić uraz kręgosłupa szyjnego."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wstępna kontrola redakcyjna względem wskazanych punktów ADR 2025. Literalne porównanie pełnego tekstu polskiego i niezależna akceptacja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "8.2.2.3.2 (e) s. 1327; 8.2.2.3.8 s. 1328; ERC Guidelines 2025 First Aid. Odrębne od 0712 (krwotok), 0748 (pozycja boczna). Do oceny specjalisty (instruktor pierwszej pomocy).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -991,23 +1011,23 @@
     {
       "id": "ADR-B-0650",
       "order": 650,
-      "clause": "ADR 2025, 5.4.3.4; 8.2.2.3.8",
+      "clause": "ADR 2025, 5.4.3.4 (wzór, dodatkowe wskazówki: nalepka 8)",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0650",
         "module_id": "ADR-B-05",
-        "stem": "Podczas ćwiczenia wypadkowego kierowca znajduje instrukcję pisemną w kabinie. Jak powinien jej użyć?",
+        "stem": "Po kolizji z pękniętego kanistra z nalepką 8 wycieka ciecz. Pomocnik chce spłukać rozlew wodą z butelki, bo uważa, że żrąca ciecz grozi jedynie poparzeniem przy dotknięciu. Co podają instrukcje pisemne?",
         "options": {
-          "A": "Przeczytać ją dopiero po zakończeniu zdarzenia, aby nie tracić czasu na początku.",
-          "B": "Użyć instrukcji jako pomocy, jeśli można to zrobić bezpiecznie i bez narażania innych osób.",
-          "C": "Zastąpić nią wezwanie służb i samodzielnie wykonać wszystkie czynności opisane w instrukcji."
+          "A": "Że materiały z nalepką 8 grożą jedynie poparzeniem przy bezpośrednim dotyku",
+          "B": "Że mogą gwałtownie reagować z wodą, a uwolnione mogą wydzielać żrące pary",
+          "C": "Że rozlew można spłukać wodą, jeżeli pomocnik założy rękawice ochronne"
         },
         "correct_option": "B",
-        "explanation": "Instrukcja pisemna pomaga załodze dobrać działania do zagrożenia, ale nie zastępuje oceny bezpieczeństwa ani wezwania służb. Kierowca powinien z niej korzystać tylko wtedy, gdy może to zrobić bez narażania siebie i innych. Odkładanie instrukcji do końca zdarzenia jest spóźnione, a wykonywanie wszystkich czynności samodzielnie może stworzyć dodatkowe zagrożenie. Podstawa: ADR 5.4.3.4.",
+        "explanation": "W instrukcjach pisemnych przy nalepce 8 wymieniono zagrożenie poparzeniem chemicznym oraz to, że materiały żrące mogą gwałtownie reagować ze sobą, z wodą lub z innymi materiałami. Te same wskazówki ostrzegają, że uwolnione materiały mogą wydzielać żrące pary i zagrażają środowisku wodnemu. Polanie rozlewu wodą może więc wywołać gwałtowną reakcję i rozprysk, a rękawice nie chronią przed parami. Załoga nie dotyka wycieku, pozostaje po stronie nawietrznej i przekazuje informacje służbom. Podstawa: ADR 5.4.3.4 (instrukcje pisemne, nalepka 8).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4; 8.2.2.3.8",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych, dodatkowe wskazówki: nalepka 8 – reakcja z wodą, żrące pary)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1017,19 +1037,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędne: odkładanie instrukcji do końca zdarzenia pozbawia załogę pomocy wtedy, gdy może być potrzebna."
+          "rationale": "Wzór dla nalepki 8: także gwałtowna reakcja z wodą i żrące pary, nie tylko poparzenie."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawne: instrukcja pisemna wspiera działania załogi, ale korzysta się z niej bez narażania siebie i innych."
+          "rationale": "Wzór dla nalepki 8: mogą gwałtownie reagować z wodą; uwolnione mogą wydzielać żrące pary."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędne: instrukcja nie zastępuje alarmowania służb ani oceny, czy działanie jest bezpieczne."
+          "rationale": "Spłukanie wodą grozi gwałtowną reakcją; rękawice nie chronią przed żrącymi parami."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wstępna kontrola redakcyjna względem wskazanych punktów ADR 2025. Literalne porównanie pełnego tekstu polskiego i niezależna akceptacja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "Wzór s. 977 (obraz strony sprawdzony). Odrębne od 0050/0590/0620/0716 (sam znak i rodzaj zagrożenia klasy 8).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -1038,23 +1058,23 @@
     {
       "id": "ADR-B-0651",
       "order": 651,
-      "clause": "ADR 2025, 8.2.2.3.8",
+      "clause": "ADR 2025, 5.4.3.4 (wzór, dodatkowe wskazówki: nalepka 6.2)",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0651",
         "module_id": "ADR-B-05",
-        "stem": "OSK planuje zaliczyć temat wypadku wyłącznie przez rozwiązanie testu wielokrotnego wyboru. Która ocena jest zgodna z ADR?",
+        "stem": "Po kolizji z rozbitego kartonu z nalepką 6.2 wycieka płyn w stronę rowu z wodą, przy którym pasie się bydło. Kolega uważa, że materiał zakaźny grozi jedynie ludziom, którzy go dotkną. Co podają instrukcje pisemne?",
         "options": {
-          "A": "To wystarczy, jeżeli test ma co najmniej 30 pytań i obejmuje wszystkie klasy towarów.",
-          "B": "Wystarczy obejrzeć film demonstracyjny, bo praktyczne czynności nie należą do szkolenia podstawowego.",
-          "C": "Nie wystarczy: szkolenie wymaga ćwiczeń z pierwszej pomocy, gaszenia pożaru i reakcji na wypadek."
+          "A": "Że materiał z nalepką 6.2 grozi chorobą jedynie po dotknięciu go gołymi rękami",
+          "B": "Że wyciek do rowu nie ma znaczenia, bo woda rozcieńczy materiał zakaźny",
+          "C": "Że grozi groźna choroba ludzi lub zwierząt oraz skażenie wody i kanalizacji"
         },
         "correct_option": "C",
-        "explanation": "Test może sprawdzić, co kursant zapamiętał, ale nie nauczy go samodzielnie wykonać czynności w sytuacji awaryjnej. Szkolenie podstawowe wymaga także indywidualnych ćwiczeń praktycznych, obejmujących pierwszą pomoc, gaszenie pożaru i reakcję na incydent lub wypadek. Sam film ani nawet rozbudowany test nie zastępują przećwiczenia tych działań. Podstawa: ADR 8.2.2.3.8.",
+        "explanation": "W instrukcjach pisemnych przy nalepce 6.2 wymieniono zagrożenie zakażeniem i to, że materiał może spowodować groźną chorobę u ludzi lub u zwierząt. Te same wskazówki ostrzegają przed zagrożeniem w przypadku przedostania się materiału do środowiska wodnego lub kanalizacji. Wyciek do rowu, z którego mogą pić zwierzęta, jest więc groźny, a rozcieńczenie wodą tego nie zmienia. Załoga nie dotyka materiału, jeżeli to możliwe i bezpieczne, zapobiega jego spływowi do wody i powiadamia służby. Podstawa: ADR 5.4.3.4 (instrukcje pisemne, nalepka 6.2).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.2.2.3.8",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych, dodatkowe wskazówki: nalepka 6.2 – ludzie i zwierzęta, środowisko wodne)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1064,19 +1084,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędne: liczba pytań testowych nie zastępuje indywidualnych ćwiczeń praktycznych wymaganych przez ADR."
+          "rationale": "Wzór dla nalepki 6.2: groźna choroba ludzi lub zwierząt, nie tylko po dotknięciu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Błędne: film może pomóc w nauce, ale nie zastępuje ćwiczenia wykonanego przez kursanta."
+          "rationale": "Wzór dla nalepki 6.2: zagrożenie przy przedostaniu się do środowiska wodnego lub kanalizacji."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawne: ADR wymaga ćwiczeń z pierwszej pomocy, gaszenia pożaru i postępowania przy incydencie lub wypadku."
+          "rationale": "Wzór dla nalepki 6.2: groźna choroba u ludzi lub zwierząt; zagrożenie dla wody i kanalizacji."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wstępna kontrola redakcyjna względem wskazanych punktów ADR 2025. Literalne porównanie pełnego tekstu polskiego i niezależna akceptacja specjalisty pozostają otwarte.",
+      "notes_on_conditions": "Wzór s. 977 (obraz strony sprawdzony). Odrębne od rozpoznania nalepki 6.2 (klasa 6.2) i 0644/0645 (nalepki 2.2, 9).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -1085,23 +1105,23 @@
     {
       "id": "ADR-B-0652",
       "order": 652,
-      "clause": "ADR 2025, 2.2.8.1.1",
+      "clause": "ADR 2025, 2.2.8.1.1; 2.2.8.1.4.1 (C1–C4 kwaśne, C5–C8 zasadowe); 3.2.1 tabela A (UN 2797)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0652",
         "module_id": "ADR-B-02",
-        "stem": "Kierowca sprawdza kartę towaru klasy 8. Wskazano, że wyciek może poważnie uszkodzić inne towary i elementy pojazdu, choć substancja nie powoduje trwałych uszkodzeń skóry. Co wynika z definicji klasy 8 ADR?",
+        "stem": "Kierowca odbiera kanistry z UN 2797 CIECZ AKUMULATOROWA ZASADOWA. Magazynier twierdzi, że to zasada, a nie kwas, więc ADR nie traktuje jej jako materiału żrącego. Jak ADR klasyfikuje tę ciecz?",
         "options": {
-          "A": "Tak. Wyciek może poważnie uszkodzić inne towary lub pojazd.",
-          "B": "Nie. Klasa 8 dotyczy wyłącznie trwałego uszkodzenia skóry człowieka, nie szkód w ładunku.",
-          "C": "Nie. Uszkodzenie metalu należy zawsze do klasy 9, a nie do zagrożeń żrących."
+          "A": "Jako materiał żrący klasy 8, bo ta klasa obejmuje też materiały zasadowe",
+          "B": "Jako materiał klasy 9, bo zasady nie niszczą skóry tak jak kwasy",
+          "C": "Jako towar spoza ADR, bo do klasy 8 należą jedynie kwasy oraz ich roztwory wodne"
         },
         "correct_option": "A",
-        "explanation": "Takie zagrożenie może kwalifikować substancję do klasy 8, ponieważ definicja obejmuje nie tylko trwałe uszkodzenie skóry, lecz także poważne uszkodzenie innych towarów lub środka transportu w razie wycieku. Brak działania na skórę nie wyklucza więc klasy 8. Nie należy też automatycznie przypisywać takiego zagrożenia do klasy 9. Kierowca sprawdza klasę i wymagane oznakowanie w dokumentach ADR. Podstawa: ADR 2.2.8.1.1.",
+        "explanation": "Według 2.2.8.1.1 materiały żrące to materiały, które działaniem chemicznym nieodwracalnie uszkadzają skórę albo w razie wycieku niszczą inne towary lub środki transportu. Podział klasy 8 w 2.2.8.1.4.1 obejmuje materiały kwaśne o kodach C1–C4 i materiały zasadowe o kodach C5–C8. W tabeli A ciecz akumulatorowa zasadowa UN 2797 ma klasę 8, kod C5 i nalepkę 8. Zasady, takie jak ług, także mogą trwale poparzyć skórę i oczy. Podstawa: ADR 2.2.8.1.1, 2.2.8.1.4.1 i 3.2.1 (tabela A, UN 2797).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.8.1.1",
+            "reference": "ADR 2025, 2.2.8.1.1; 2.2.8.1.4.1 (C5–C8 materiały zasadowe); 3.2.1 tabela A (UN 2797: 8, C5, II)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1111,19 +1131,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Opcja A jest poprawna: ADR 2.2.8.1.1 obejmuje substancje, które w razie wycieku mogą poważnie uszkodzić inne towary lub środek transportu, nawet jeśli nie powodują trwałego uszkodzenia skóry."
+          "rationale": "Tabela A: UN 2797 – klasa 8, kod C5; 2.2.8.1.4.1 obejmuje materiały zasadowe."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: definicja klasy 8 nie ogranicza się wyłącznie do trwałego uszkodzenia skóry; uwzględnia również poważne szkody w innych towarach lub środku transportu w razie wycieku."
+          "rationale": "Klasa 9 to różne materiały; tabela A przypisuje UN 2797 klasę 8, nie 9."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: uszkodzenie innych towarów lub środka transportu może być właściwością żrącą klasy 8; nie oznacza automatycznie klasy 9."
+          "rationale": "2.2.8.1.4.1: klasa 8 obejmuje też materiały zasadowe C5–C8, nie tylko kwasy."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "4x227: pytanie poszerza powtarzalne rozpoznawanie klasy 8 o drugi element definicji ADR 2.2.8.1.1 — możliwość poważnego uszkodzenia innych towarów lub środka transportu przy wycieku. Wstępna ocena redakcyjna; pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "2.2.8.1.1 i 2.2.8.1.4.1 s. 264; tabela A s. 517 (obraz strony). Odrębne od 0005/0161/0730 (definicja), 0267 (korozja metali), 0050 (nalepka 8).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -1132,23 +1152,23 @@
     {
       "id": "ADR-B-0653",
       "order": 653,
-      "clause": "ADR 2025, 5.3.2.3.2",
+      "clause": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (numery 86, 886, X886)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0653",
         "module_id": "ADR-B-06",
-        "stem": "Na górnym polu pomarańczowej tablicy ADR widnieje numer 886. Jakie zagrożenia wskazuje ten numer?",
+        "stem": "W górnym polu tablicy pomarańczowej jest numer 886. Ratownik pyta, czy to ten sam materiał co przy numerze 86, tylko przewożony w większej ilości. Co według 5.3.2.3.2 oznacza numer 886?",
         "options": {
-          "A": "Substancja jest silnie żrąca i jednocześnie toksyczna.",
-          "B": "Substancja jest żrąca i utleniająca, a cyfra 6 oznacza większą palność.",
-          "C": "Substancja jest silnie żrąca, a końcowa cyfra 6 wskazuje kategorię tunelu."
+          "A": "Materiał silnie żrący i trujący, bo cyfra 8 jest tu powtórzona",
+          "B": "Materiał żrący lub słabo żrący i trujący, przewożony w dużej ilości",
+          "C": "Materiał żrący i trujący, który reaguje niebezpiecznie z wodą"
         },
         "correct_option": "A",
-        "explanation": "Numer 886 oznacza substancję silnie żrącą i toksyczną. Powtórzona cyfra 8 wskazuje na nasilone działanie żrące, a końcowa 6 oznacza toksyczność. To nie jest oznaczenie działania utleniającego ani kod kategorii tunelu. Kierowca powinien przekazać ratownikom cały numer, bo opisuje więcej niż jedno zagrożenie. Podstawa: ADR 5.3.2.3.2.",
+        "explanation": "Według 5.3.2.3.1 cyfra 8 oznacza działanie żrące, cyfra 6 działanie trujące, a powtórzenie cyfry wskazuje na nasilenie zagrożenia. Tabela w 5.3.2.3.2 objaśnia numer 886 jako materiał silnie żrący trujący, a numer 86 jako materiał żrący lub słabo żrący, trujący. Numer rozpoznawczy zagrożenia nie mówi nic o ilości towaru w pojeździe. Niebezpieczną reakcję z wodą oznaczałaby litera X przed numerem, czyli X886. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.2",
+            "reference": "ADR 2025, 5.3.2.3.1; 5.3.2.3.2 (numery 86, 886, X886)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1158,19 +1178,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Opcja A jest poprawna: ADR 5.3.2.3.2 przypisuje numerowi 886 znaczenie substancji silnie żrącej i toksycznej. Powtórzona cyfra 8 oznacza nasilenie działania żrącego, a 6 wskazuje toksyczność."
+          "rationale": "5.3.2.3.2: 886 – materiał silnie żrący trujący; podwojenie cyfry 8 = nasilenie."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: cyfra 6 w numerze rozpoznawczym zagrożenia wskazuje toksyczność, nie większą palność; numer 886 nie opisuje działania utleniającego."
+          "rationale": "86 to materiał żrący lub słabo żrący, trujący; numer nie mówi o ilości towaru."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: końcowa cyfra 6 nie jest kodem kategorii tunelu. Oznacza zagrożenie toksyczne; kod 886 opisuje substancję silnie żrącą i toksyczną."
+          "rationale": "Reakcję z wodą oznaczałaby litera X (X886), której tu nie ma."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "4x228: pytanie uzupełnia kompetencję ADR-B-06-K08 o odczytanie kombinacji zagrożeń 886, a nie tylko pojedynczej cyfry 8 lub kodu 80/88. Wstępna ocena redakcyjna; pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956; 5.3.2.3.2 s. 959. Pokrewne 0637 (83), 0756 (86), 0194 (88). Odrębne od 0217 (X przed numerem).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -1179,23 +1199,23 @@
     {
       "id": "ADR-B-0654",
       "order": 654,
-      "clause": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+      "clause": "ADR 2025, 5.3.2.3.1 (zestawienia cyfr o znaczeniu specjalnym); 5.3.2.3.2 (90, 99)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0654",
         "module_id": "ADR-B-06",
-        "stem": "W górnym polu numerowanej tablicy ADR widnieje kod 99. Co oznacza on w szczególności?",
+        "stem": "W górnym polu tablicy pomarańczowej jest numer 99. Kolega mówi, że to bardzo silne ryzyko samorzutnej reakcji, bo cyfra 9 jest powtórzona. Co według 5.3.2.3.2 oznacza numer 99?",
         "options": {
-          "A": "Różne towary niebezpieczne przewożone w stanie podgrzanym.",
-          "B": "Substancja silnie żrąca, która jest jednocześnie toksyczna.",
-          "C": "Ogólne ryzyko gwałtownej reakcji samorzutnej, bez szczególnego znaczenia kodu."
+          "A": "Różne materiały niebezpieczne przewożone w podwyższonej temperaturze",
+          "B": "Materiał o nasilonym ryzyku samorzutnej i gwałtownej reakcji, jak przy wybuchu",
+          "C": "Materiał zagrażający środowisku, który jest też materiałem zakaźnym"
         },
         "correct_option": "A",
-        "explanation": "Kod 99 ma szczególne znaczenie w ADR: oznacza różne towary niebezpieczne przewożone w stanie podgrzanym. Nie należy odczytywać go wyłącznie według ogólnej zasady, że powtórzenie cyfry wzmacnia zagrożenie; dla 99 ADR podaje osobne znaczenie. Nie oznacza też kodu 886 ani ogólnego ryzyka gwałtownej reakcji samorzutnej. Podstawa: ADR 5.3.2.3.1–5.3.2.3.2.",
+        "explanation": "Według 5.3.2.3.1 powtórzenie cyfry zwykle oznacza nasilenie zagrożenia, ale numer 99 należy do zestawień cyfr o znaczeniu specjalnym. Tabela w 5.3.2.3.2 objaśnia numer 99 jako różne materiały niebezpieczne przewożone w podwyższonej temperaturze. Ratownik musi więc liczyć się z gorącym ładunkiem i ryzykiem poparzenia, a nie z nasiloną samorzutną reakcją. Materiał zagrażający środowisku i różne materiały niebezpieczne oznacza inny numer, 90. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+            "reference": "ADR 2025, 5.3.2.3.1 (zestawienia o znaczeniu specjalnym); 5.3.2.3.2 (numery 90 i 99)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -1205,19 +1225,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Opcja A jest poprawna: ADR 5.3.2.3.2 nadaje numerowi 99 szczególne znaczenie — różne towary niebezpieczne przewożone w stanie podgrzanym."
+          "rationale": "5.3.2.3.2: 99 – różne materiały niebezpieczne przewożone w podwyższonej temperaturze."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: znaczenie substancji silnie żrącej i toksycznej ma numer 886, a nie 99."
+          "rationale": "99 należy do zestawień o znaczeniu specjalnym; nie oznacza nasilonej reakcji samorzutnej."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: ogólne znaczenie cyfry 9 dotyczy ryzyka gwałtownej reakcji samorzutnej, ale kod 99 należy do kombinacji o szczególnym znaczeniu wymienionych w ADR 5.3.2.3.2."
+          "rationale": "Materiał zagrażający środowisku i różne materiały niebezpieczne to numer 90, nie 99."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "4x229: pytanie sprawdza wyjątek od ogólnej reguły powtórzenia cyfry — numer 99 ma szczególne znaczenie w ADR 5.3.2.3.2 i nie powinien być odczytywany wyłącznie jako podwojenie cyfry 9. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956; 5.3.2.3.2 s. 959. Odrębne od 0051/0754 (powtórzenie cyfry), 0635 (333), 0653 (886).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
