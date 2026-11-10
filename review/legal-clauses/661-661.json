@@ -4,45 +4,48 @@
     {
       "id": "ADR-B-0661",
       "order": 661,
-      "clause": "ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7",
+      "clause": "ADR 2025, 2.2.41.1.20 (a); 2.2.41.1.21 (a)",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0661",
         "module_id": "ADR-B-02",
-        "stem": "Materiał polimeryzujący klasy 4.1 ma być przewożony w DPPL. Jego TSP w tym DPPL wynosi 48°C. Jakie wymaganie dotyczące temperatury wynika z ADR?",
+        "stem": "Materiał polimeryzujący klasy 4.1 ma być nadany do przewozu w DPPL. Jego TSP w tym DPPL wynosi 48 °C. Czy według 2.2.41.1.21 wymaga on kontrolowania temperatury podczas przewozu?",
         "options": {
-          "A": "Nie, 45°C jest progiem dla cystern, więc DPPL przy 48°C nie wymaga kontroli.",
-          "B": "Tak, dla DPPL kontrola jest wymagana, gdy TSP w tym opakowaniu wynosi 50°C lub mniej.",
-          "C": "Kontrolę wyznacza próg 75°C, więc dopiero po przekroczeniu tej temperatury należy ją stosować."
+          "A": "Nie, bo kontrola temperatury dotyczy jedynie nadtlenków organicznych klasy 5.2",
+          "B": "Tak, bo dla DPPL próg wynosi 50 °C lub mniej, a TSP 48 °C się w nim mieści",
+          "C": "Nie, bo kontrola jest potrzebna dopiero przy TSP wyższej niż 75 °C"
         },
         "correct_option": "B",
-        "explanation": "Tak, ponieważ dla materiału polimeryzującego przewożonego w DPPL kontrola temperatury jest wymagana, gdy TSP w tym DPPL wynosi 50°C lub mniej. Wartość 45°C dotyczy przewozu w cysternie, a nie w DPPL. Nie należy też mylić progu 75°C, używanego przy kryteriach klasyfikacji, z progiem kontroli temperatury. Podstawa: ADR 2.2.41.1.20–2.2.41.1.21(a) i 7.1.7.",
+        "explanation": "Materiał polimeryzujący bez stabilizacji może gwałtownie reagować z wydzielaniem dużej ilości ciepła, a do klasy 4.1 zalicza się go między innymi przy TSP 75 °C lub mniej. Według 2.2.41.1.21 (a) materiał nadany w sztuce przesyłki lub w DPPL wymaga kontrolowania temperatury, gdy jego TSP w tym opakowaniu wynosi 50 °C lub mniej. TSP 48 °C mieści się w tym progu, więc kontrola temperatury jest potrzebna. Próg 75 °C decyduje o zaliczeniu do materiałów polimeryzujących, a kontrolę temperatury ADR stosuje nie tylko w klasie 5.2. Podstawa: ADR 2.2.41.1.20 i 2.2.41.1.21 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7",
+            "reference": "ADR 2025, 2.2.41.1.20 (a); 2.2.41.1.21 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędna: próg 45°C dotyczy materiału polimeryzującego przewożonego w cysternie, nie w DPPL."
+          "rationale": "Kontrolę temperatury ADR przewiduje też dla materiałów polimeryzujących klasy 4.1 (2.2.41.1.21)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Prawidłowa: dla przewozu w DPPL kontrola temperatury jest wymagana, gdy TSP w tym DPPL wynosi 50°C lub mniej."
+          "rationale": "2.2.41.1.21 (a): sztuka przesyłki lub DPPL – kontrola przy TSP 50 °C lub mniej; 48 °C mieści się w progu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Błędna: 75°C jest kryterium klasyfikacji materiału polimeryzującego, a nie progiem obowiązku kontroli temperatury podczas przewozu."
+          "rationale": "75 °C to kryterium zaliczenia do materiałów polimeryzujących (2.2.41.1.20 (a)), nie próg kontroli."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wartości progowe zależą od rodzaju jednostki przewozowej. Dla sztuki przesyłki lub DPPL stosuje się próg 50°C, a dla cysterny 45°C. Próg 75°C należy do kryteriów zaliczenia materiału do klasy 4.1 jako polimeryzującego. Pytanie dotyczy DPPL i nie rozstrzyga innych wymagań konkretnego wpisu.",
+      "notes_on_conditions": "2.2.41.1.20 s. 175; 2.2.41.1.21 s. 176 (7.1.7 s. 1284–1287 – zbędne w źródle).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

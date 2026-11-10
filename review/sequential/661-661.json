@@ -8,18 +8,18 @@
       "id": "ADR-B-0661",
       "sequence": 661,
       "exact_record_snapshot": {
-        "stem": "Materiał polimeryzujący klasy 4.1 ma być przewożony w DPPL. Jego TSP w tym DPPL wynosi 48°C. Jakie wymaganie dotyczące temperatury wynika z ADR?",
+        "stem": "Materiał polimeryzujący klasy 4.1 ma być nadany do przewozu w DPPL. Jego TSP w tym DPPL wynosi 48 °C. Czy według 2.2.41.1.21 wymaga on kontrolowania temperatury podczas przewozu?",
         "options": {
-          "A": "Nie, 45°C jest progiem dla cystern, więc DPPL przy 48°C nie wymaga kontroli.",
-          "B": "Tak, dla DPPL kontrola jest wymagana, gdy TSP w tym opakowaniu wynosi 50°C lub mniej.",
-          "C": "Kontrolę wyznacza próg 75°C, więc dopiero po przekroczeniu tej temperatury należy ją stosować."
+          "A": "Nie, bo kontrola temperatury dotyczy jedynie nadtlenków organicznych klasy 5.2",
+          "B": "Tak, bo dla DPPL próg wynosi 50 °C lub mniej, a TSP 48 °C się w nim mieści",
+          "C": "Nie, bo kontrola jest potrzebna dopiero przy TSP wyższej niż 75 °C"
         },
         "correct_option": "B",
-        "explanation": "Tak, ponieważ dla materiału polimeryzującego przewożonego w DPPL kontrola temperatury jest wymagana, gdy TSP w tym DPPL wynosi 50°C lub mniej. Wartość 45°C dotyczy przewozu w cysternie, a nie w DPPL. Nie należy też mylić progu 75°C, używanego przy kryteriach klasyfikacji, z progiem kontroli temperatury. Podstawa: ADR 2.2.41.1.20–2.2.41.1.21(a) i 7.1.7.",
+        "explanation": "Materiał polimeryzujący bez stabilizacji może gwałtownie reagować z wydzielaniem dużej ilości ciepła, a do klasy 4.1 zalicza się go między innymi przy TSP 75 °C lub mniej. Według 2.2.41.1.21 (a) materiał nadany w sztuce przesyłki lub w DPPL wymaga kontrolowania temperatury, gdy jego TSP w tym opakowaniu wynosi 50 °C lub mniej. TSP 48 °C mieści się w tym progu, więc kontrola temperatury jest potrzebna. Próg 75 °C decyduje o zaliczeniu do materiałów polimeryzujących, a kontrolę temperatury ADR stosuje nie tylko w klasie 5.2. Podstawa: ADR 2.2.41.1.20 i 2.2.41.1.21 (a).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.41.1.20; 2.2.41.1.21(a); 7.1.7",
+            "reference": "ADR 2025, 2.2.41.1.20 (a); 2.2.41.1.21 (a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
