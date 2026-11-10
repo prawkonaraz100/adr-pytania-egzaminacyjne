@@ -1,0 +1,314 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0481–0495",
+  "source": "ADR 2025, Dz.U. 2025 poz. 642, polski tekst; numery stron odczytane z drukowanych nagłówków stron Dz.U.",
+  "bank_count": 780,
+  "bank_blob_sha": "ba829d36bc7e1c04aeab108d826bfae33938422f",
+  "bank_changed": false,
+  "previous_uncompared": 300,
+  "compared": 15,
+  "remaining_without_comparison": 285,
+  "counts": {
+    "OK": 2,
+    "POPRAW": 13,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "scope": "all_780_questions",
+    "method": "scripts/similarity.py: tokenizacja stemów, normalizacja NFKD i usunięcie znaków diakrytycznych, porównanie wyłącznie w obrębie tego samego modułu, Jaccard",
+    "threshold_0_45_pairs": 0,
+    "threshold_0_25_pairs": 2,
+    "threshold_0_25_candidates": [
+      {
+        "ids": [
+          "ADR-B-0495",
+          "ADR-B-0150"
+        ],
+        "manual_assessment": "Nie jest duplikatem: 0495 dotyczy podklasy 1.2, 0150 porównuje 1.1 z 1.4."
+      },
+      {
+        "ids": [
+          "ADR-B-0495",
+          "ADR-B-0621"
+        ],
+        "manual_assessment": "Nie jest duplikatem: 0621 dotyczy klasy 4.2."
+      }
+    ],
+    "manual_pairs": [
+      {
+        "ids": [
+          "ADR-B-0487",
+          "ADR-B-0033",
+          "ADR-B-0576"
+        ],
+        "assessment": "Duplikat: kod D/E w sztukach przesyłek, zakaz tunelu E."
+      },
+      {
+        "ids": [
+          "ADR-B-0488",
+          "ADR-B-0487",
+          "ADR-B-0033",
+          "ADR-B-0576"
+        ],
+        "assessment": "Bliskie powtórzenie: ten sam skutek drugiej litery D/E dla przewozu innego niż w cysternie."
+      },
+      {
+        "ids": [
+          "ADR-B-0493",
+          "ADR-B-0184",
+          "ADR-B-0108"
+        ],
+        "assessment": "Duplikat/bliskie powtórzenie: mały lub początkowy pożar hamulca i warunki użycia gaśnicy."
+      },
+      {
+        "ids": [
+          "ADR-B-0494",
+          "ADR-B-0163"
+        ],
+        "assessment": "Bliskie powtórzenie: osłona odpływu i warunek właściwego oraz bezpiecznego działania."
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0481",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.4.3.7.1(d)(ii)",
+      "gazette_page": 59,
+      "exact_quote": "„zapewnić, aby zostały zamknięte zawory i otwory inspekcyjne”",
+      "finding": "Klucz C jest prawidłowy, ale stem nie określa, czy chodzi o cysternę, pojazd czy kontener. Opcja A ma 84 znaki. Wyjaśnienie dodaje warunek „gdy wymagają tego przepisy”, którego nie ma w przywołanym obowiązku zamknięcia zaworów i otworów inspekcyjnych.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        59
+      ]
+    },
+    {
+      "id": "ADR-B-0482",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.4.3.1.2; 1.4.3.1.1(d)",
+      "gazette_page": 57,
+      "exact_quote": "„W przypadku wymagań podanych w 1.4.3.1.1 (a), (d) i (e), załadowca może polegać na informacjach i danych udostępnionych mu przez innych uczestników przewozu.”",
+      "finding": "Klucz C oddaje możliwość korzystania z danych innych uczestników przy obowiązku z lit. (d), ale opcja A ma 82 znaki. Doprecyzować, że załadowca może polegać na danych w zakresie oznakowania, lecz nadal odpowiada za zapewnienie prawidłowego oznakowania.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        57
+      ]
+    },
+    {
+      "id": "ADR-B-0483",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.1.5.2, przypis 2",
+      "gazette_page": 1325,
+      "exact_quote": "„Nie jest wymagany w przypadku nalepek ostrzegawczych o numerach 1, 1.4, 1.5, 1.6, 2.1, 2.2 i 2.3.”",
+      "finding": "Klucz B jest zgodny z wyjątkiem dla nalepki 2.3. Opcja A ma 94 znaki; C myli brak płynu do płukania oczu z brakiem obowiązku ochrony oczu. Rozdzielić te pojęcia i skrócić odpowiedź.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        1325
+      ]
+    },
+    {
+      "id": "ADR-B-0484",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 8.1.5.3, przypis 4",
+      "gazette_page": 1325,
+      "exact_quote": "„Wymagane jest tylko w przypadku materiałów stałych i materiałów ciekłych, oznakowanych nalepkami ostrzegawczymi o numerach 3, 4.1, 4.3, 8 lub 9.”",
+      "finding": "Klucz C jest prawidłowy: wyposażenie do ograniczania rozlewu dotyczy także materiałów ciekłych z nalepką 8. Opcje mieszczą się w limicie 80 znaków, mają zbliżoną długość, a wyjaśnienie wskazuje odrębny wymóg maski ucieczkowej.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        1325
+      ]
+    },
+    {
+      "id": "ADR-B-0485",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.1.5.3",
+      "gazette_page": 1325,
+      "exact_quote": "„maska ucieczkowa dla każdego członka załogi pojazdu”",
+      "finding": "Klucz C jest prawidłowy, ale ma 54 znaki wobec 78 i 71 w dystraktorach — jest jedyną najkrótszą odpowiedzią. Wyrównać długości, zachowując zasadę jednej maski dla każdego członka załogi.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        1325
+      ]
+    },
+    {
+      "id": "ADR-B-0486",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.1.5.3, przypis 4",
+      "gazette_page": 1325,
+      "exact_quote": "„pojemnik do zbierania pozostałości”; „Wymagane jest tylko w przypadku materiałów stałych i materiałów ciekłych”",
+      "finding": "Klucz C jest prawidłowy dla gazu z nalepką 2.2. Stem błędnie mówi o „pojemniku do zbierania uwolnionego gazu”: ADR wskazuje pojemnik do zbierania pozostałości, a wymóg łopaty, osłony odpływu i pojemnika dotyczy określonych materiałów stałych i ciekłych. Opcja A ma 92 znaki.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        1325
+      ]
+    },
+    {
+      "id": "ADR-B-0487",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.6.4, tabela kodów",
+      "gazette_page": 1339,
+      "exact_quote": "„Przewóz w cysternie: zakaz przewozu przez tunele kategorii D i E; Inny przewóz: zakaz przewozu przez tunele kategorii E.”",
+      "finding": "Klucz A jest prawidłowy dla sztuk przesyłek, lecz pytanie powtarza ADR-B-0033 i ADR-B-0576: kod D/E przy przewozie w sztukach przesyłek oznacza zakaz tunelu E.",
+      "duplicate_candidates": [
+        "ADR-B-0033",
+        "ADR-B-0576"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        1339
+      ]
+    },
+    {
+      "id": "ADR-B-0488",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.6.4, tabela kodów",
+      "gazette_page": 1339,
+      "exact_quote": "„Przewóz w cysternie: zakaz przewozu przez tunele kategorii D i E; Inny przewóz: zakaz przewozu przez tunele kategorii E.”",
+      "finding": "Klucz A jest prawidłowy dla przewozu luzem, ale bada ten sam skutek drugiej litery kodu D/E co 0487 i wcześniejsze pytania o sztuki przesyłek. Opcja B ma 111 znaków; rozważyć zastąpienie odrębnym przypadkiem, zamiast ponownie pytać o zakaz tunelu E.",
+      "duplicate_candidates": [
+        "ADR-B-0487",
+        "ADR-B-0033",
+        "ADR-B-0576"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "A",
+      "gazette_pages": [
+        1339
+      ]
+    },
+    {
+      "id": "ADR-B-0489",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.6.4, tabela kodów",
+      "gazette_page": 1339,
+      "exact_quote": "„Kod B/D [...] Inny przewóz: zakaz przewozu przez tunele kategorii D i E.”",
+      "finding": "Klucz B jest prawidłowy dla kodu B/D w sztukach przesyłek: zakaz dotyczy tuneli D i E. Opcja C ma 81 znaków i przekracza limit 80.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        1339
+      ]
+    },
+    {
+      "id": "ADR-B-0490",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 8.6.4, tabela kodów (B1000C)",
+      "gazette_page": 1339,
+      "exact_quote": "„nie przekracza 1 000 kg: zakaz przewozu przez tunele kategorii C, D i E.”",
+      "finding": "Klucz C jest prawidłowy: przy dokładnie 1 000 kg próg „przekracza 1 000 kg” nie jest przekroczony, więc kod nie wyklucza kategorii B; ogranicza C, D i E. Wszystkie opcje mieszczą się w limicie, a scenariusz bada granicę progu.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        1339
+      ]
+    },
+    {
+      "id": "ADR-B-0491",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.5.2.1, uwaga 2; 7.5.2.2",
+      "gazette_page": 1305,
+      "exact_quote": "„Zgodnie z 7.5.2.2 dopuszcza się ładowanie razem sztuk przesyłek zawierających materiały lub przedmioty klasy 1 i oznakowanych nalepkami ostrzegawczymi zgodnymi ze wzorami nr 1, 1.4, 1.5 lub 1.6”",
+      "finding": "Klucz B prawidłowo kieruje do 7.5.2.2 z uwagą 2 do tabeli, ale jest wyraźnie najkrótszą odpowiedzią (48 wobec 66 i 63 znaków). Warto doprecyzować, że 7.5.2.2 ocenia także grupy zgodności, których stem nie podaje.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        1305,
+        1306
+      ]
+    },
+    {
+      "id": "ADR-B-0492",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.5.2.1, uwaga 1; 5.4.1.4.2",
+      "gazette_page": 1305,
+      "exact_quote": "„Na przesyłki, które nie mogą być załadowane razem do tego samego pojazdu lub kontenera, należy sporządzić oddzielne dokumenty przewozowe, zgodnie z 5.4.1.4.2.”",
+      "finding": "Klucz C jest prawidłowy: odrębne dokumenty są wymagane, gdy przesyłki nie mogą być ładowane razem; nie uchylają zakazu. Opcja C ma 90 znaków, a B 94 — obie przekraczają limit 80.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        1305,
+        972
+      ]
+    },
+    {
+      "id": "ADR-B-0493",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4, instrukcje pisemne",
+      "gazette_page": 975,
+      "exact_quote": "„Jeżeli jest to właściwe i bezpieczne, użyć gaśnic w celu ugaszenia małego lub będącego w fazie początkowej pożaru, obejmującego opony, hamulce lub przedział silnika”",
+      "finding": "Klucz C oddaje warunek „jeżeli jest to właściwe i bezpieczne” oraz ograniczenie do małego lub początkowego pożaru. Pytanie jest duplikatem ADR-B-0184 (mały pożar hamulca) i bliskim powtórzeniem ADR-B-0108.",
+      "duplicate_candidates": [
+        "ADR-B-0108",
+        "ADR-B-0184"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        975
+      ]
+    },
+    {
+      "id": "ADR-B-0494",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.4.3.4, instrukcje pisemne",
+      "gazette_page": 975,
+      "exact_quote": "„Jeżeli jest to właściwe i bezpieczne, zapobiec przedostaniu się uwolnionych materiałów do środowiska wodnego lub kanalizacji oraz zebrać uwolnione materiały, używając wyposażenia przewożonego w jednostce transportowej”",
+      "finding": "Klucz C prawidłowo zachowuje warunek bezpieczeństwa. Pytanie jest bliskim powtórzeniem ADR-B-0163, które już sprawdza użycie osłony odpływu, jeżeli jest to właściwe i bezpieczne.",
+      "duplicate_candidates": [
+        "ADR-B-0163"
+      ],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "C",
+      "gazette_pages": [
+        975
+      ]
+    },
+    {
+      "id": "ADR-B-0495",
+      "verdict": "OK",
+      "legal_basis": "ADR 2025, 2.2.1.1.5, podklasa 1.2",
+      "gazette_page": 129,
+      "exact_quote": "„Podklasa 1.2 Materiały i przedmioty, które stwarzają zagrożenie rozrzutem, ale nie wybuchem masowym.”",
+      "finding": "Klucz B jest zgodny z definicją podklasy 1.2: zagrożenie rozrzutem, ale bez zagrożenia wybuchem masowym. Pytanie uzupełnia ADR-B-0126 (1.1) i ADR-B-0150 (porównanie 1.1/1.4), nie powtarzając ich zakresu. Opcje mieszczą się w limicie 80 znaków.",
+      "duplicate_candidates": [],
+      "verification_status": "needs_review",
+      "proposed_replacement": null,
+      "original_correct_option": "B",
+      "gazette_pages": [
+        129
+      ]
+    }
+  ]
+}
