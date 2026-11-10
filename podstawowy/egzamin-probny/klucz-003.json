@@ -3,7 +3,7 @@
   "exam_type": "ADR_BASIC_PRACTICE_DRAFT",
   "publication_authorized": false,
   "seed": 2026102703,
-  "source_bank_head": "7c6b46d4134301f616cfc39d2b3e33e4318da428",
+  "source_bank_head": "8596a7a61cdc27c4f558af7197cdca9072090c4e",
   "question_count": 30,
   "pass_mark_correct": 20,
   "pass_mark_fraction": "2/3",
@@ -22,9 +22,9 @@
       "number": 2,
       "id": "ADR-B-0628",
       "correct_option": "B",
-      "explanation": "Mocowanie ma utrzymać ładunek na miejscu, ale nie może wgniatać ani niszczyć opakowań. Zmień położenie pasa, rozłóż nacisk lub zastosuj odpowiednie zabezpieczenie, aby jednocześnie zapobiec przesuwaniu i nie uszkadzać przesyłki. Ręczne sprawdzenie stabilności nie wystarczy, jeśli opakowanie już jest deformowane; mocniejsze napięcie pozostałych pasów może pogorszyć problem. Podstawa: ADR 7.5.7.1.",
+      "explanation": "Według 7.5.7.1 ładunek mocuje się tak, aby nie przemieszczał się podczas przewozu w sposób grożący zmianą ustawienia lub uszkodzeniem. Punkt 7.5.7.4 mówi, że te przepisy stosuje się również do załadunku, mocowania i rozładunku kontenerów na pojazdach i z pojazdów. Zamocowanie beczek wewnątrz nie wystarczy, bo niezablokowany kontener może przesunąć się na naczepie przy hamowaniu. Kontener trzeba więc zablokować na pojeździe, zwykle zamkami kontenerowymi. Podstawa: ADR 7.5.7.1 i 7.5.7.4.",
       "legal_basis": [
-        "ADR 2025, 7.5.7.1"
+        "ADR 2025, 7.5.7.4; 7.5.7.1"
       ],
       "lesson_path": "../lekcje/ADR-B-09.md"
     },
@@ -152,9 +152,9 @@
       "number": 15,
       "id": "ADR-B-0623",
       "correct_option": "C",
-      "explanation": "Klasa 6.1 oznacza materiały trujące, które mogą zaszkodzić organizmowi po wniknięciu do niego. Odpowiedź A opisuje materiały zakaźne klasy 6.2, a B — materiały żrące klasy 8. Sam numer klasy nie określa wszystkich środków ostrożności dla danego towaru, dlatego sprawdź dokumenty i oznakowanie, a substancji nie dotykaj ani nie wąchaj. Podstawa: ADR 2.2.61.1.1.",
+      "explanation": "Według 2.2.61.1.1 klasa 6.1 obejmuje materiały, które już po jednorazowym lub krótkotrwałym działaniu w stosunkowo małych dawkach mogą zaszkodzić zdrowiu lub spowodować śmierć. Mogą one działać przez wdychanie, przenikanie przez skórę lub połknięcie. Wycieranie kropli gołą dłonią naraża więc na zatrucie przez skórę, a późniejsze mycie rąk może nie zapobiec szkodzie. Instrukcje pisemne każą nie dotykać uwolnionych materiałów. Podstawa: ADR 2.2.61.1.1 i 5.4.3.4.",
       "legal_basis": [
-        "ADR 2025, 2.2.61.1.1"
+        "ADR 2025, 2.2.61.1.1; 5.4.3.4 (wzór instrukcji pisemnych: nie dotykać uwolnionych materiałów)"
       ],
       "lesson_path": "../lekcje/ADR-B-02.md"
     },

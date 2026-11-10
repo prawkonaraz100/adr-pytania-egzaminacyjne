@@ -1,4 +1,4 @@
-"""First-pass literal review tests for ADR-B-0616–0630."""
+"""Literal review tests for ADR-B-0616–0630; first-pass report plus second-pass deployment checks."""
 
 import hashlib
 import json
@@ -10,7 +10,7 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0616-0630.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0616-0630.json"
 FIRST_PASS_BANK_SHA = "7c6b46d4134301f616cfc39d2b3e33e4318da428"
-EXPECTED_BANK_SHA = "7c6b46d4134301f616cfc39d2b3e33e4318da428"
+EXPECTED_BANK_SHA = "8596a7a61cdc27c4f558af7197cdca9072090c4e"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(616, 631)]
 EXPECTED_PAGES = {
     "ADR-B-0616": [955, 961], "ADR-B-0617": [939],
@@ -62,9 +62,8 @@ class Partia42LiteralReview(unittest.TestCase):
             if row["verdict"] == "POPRAW":
                 self.assertTrue(row.get("proposed_replacement") or row.get("reason_no_safe_candidate"))
 
-    def test_bank_is_unchanged_and_batch_records_remain_unverified(self):
+    def test_bank_after_second_pass_and_batch_records_remain_unverified(self):
         raw = BANK.read_bytes()
-        self.assertEqual(git_blob_sha(raw), FIRST_PASS_BANK_SHA)
         self.assertEqual(git_blob_sha(raw), EXPECTED_BANK_SHA)
         questions = [json.loads(line) for line in raw.decode("utf-8").splitlines() if line.strip()]
         self.assertEqual(len(questions), 780)
@@ -74,6 +73,17 @@ class Partia42LiteralReview(unittest.TestCase):
             self.assertEqual(by_id[question_id]["verification_status"], "needs_review")
             self.assertIsNone(by_id[question_id]["checked_at"])
             self.assertIsNone(by_id[question_id]["reviewer"])
+
+
+    def test_second_pass_artifacts_and_bank_sha(self):
+        second_pass_report = ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0616-0630.md"
+        corrections = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0616-0630.jsonl"
+        self.assertTrue(second_pass_report.is_file())
+        self.assertTrue(corrections.is_file())
+        correction_rows = [json.loads(line) for line in corrections.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(correction_rows), 15)
+        self.assertEqual([row["id"] for row in correction_rows], EXPECTED_IDS)
+        self.assertEqual(git_blob_sha(BANK.read_bytes()), EXPECTED_BANK_SHA)
 
 
 if __name__ == "__main__":

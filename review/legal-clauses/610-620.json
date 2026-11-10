@@ -286,23 +286,23 @@
     {
       "id": "ADR-B-0616",
       "order": 616,
-      "clause": "ADR 2025, 5.3.2.3.1; 5.4.1.1.1",
+      "clause": "ADR 2025, 5.2.1.1; 5.2.1.2 (a) i (b)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0616",
         "module_id": "ADR-B-06",
-        "stem": "Podczas kontroli kierowca zna numer zagrożenia 33, ale musi ustalić konkretny towar. Która informacja pozwala go jednoznacznie zidentyfikować?",
+        "stem": "Nadawca napisał numer „UN 1263” na kartonach z farbą flamastrem, który zmywa się wodą. Na rampie spadł deszcz i cyfry są częściowo rozmazane. Kierowca uważa, że wystarczy numer UN w dokumencie przewozowym. Czy ma rację?",
         "options": {
-          "A": "Sam numer zagrożenia 33 wystarcza, więc dokument nie jest potrzebny.",
-          "B": "Wystarczy nazwa handlowa widoczna na opakowaniu.",
-          "C": "Dolny numer UN i odpowiedni wpis w dokumencie przewozowym."
+          "A": "Tak, bo numer UN w dokumencie przewozowym zastępuje znak na kartonach",
+          "B": "Tak, bo odporność na deszcz ADR wymaga jedynie od nalepek ostrzegawczych",
+          "C": "Nie, znak UN ma być trwały, czytelny i odporny na warunki atmosferyczne"
         },
         "correct_option": "C",
-        "explanation": "Numer zagrożenia 33 informuje o silnej zapalności, ale nie wskazuje samodzielnie, jaki konkretnie towar znajduje się w pojeździe. Do identyfikacji służy dolny numer UN, który trzeba porównać z wpisem w dokumencie przewozowym. Sama nazwa handlowa może być niejednoznaczna, a zgadywanie na podstawie numeru zagrożenia może prowadzić do złego doboru procedur. Podstawa: ADR 5.3.2.3.1 i 5.4.1.1.1.",
+        "explanation": "Według 5.2.1.1 każda sztuka przesyłki ma być oznakowana w sposób czytelny i trwały numerem UN poprzedzonym literami „UN”. Punkt 5.2.1.2 dodaje, że oznakowanie ma być dobrze widoczne i odporne na warunki atmosferyczne bez znaczącej utraty swoich funkcji. Napis, który rozmywa się w deszczu, tych wymagań nie spełnia, a wpis w dokumencie przewozowym nie zastępuje znaku na kartonie. Kartony trzeba przed przewozem oznakować ponownie, trwałym znakiem. Podstawa: ADR 5.2.1.1 i 5.2.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1; 5.4.1.1.1",
+            "reference": "ADR 2025, 5.2.1.1; 5.2.1.2 (a) i (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -312,19 +312,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Sam numer zagrożenia 33 wystarcza, więc dokument nie jest potrzebny.. Numer zagrożenia opisuje rodzaj zagrożenia, ale sam nie identyfikuje konkretnego towaru. Kierowca powinien odczytać dolny numer UN i porównać go z dokumentem przewozowym; sama liczba 33 lub nazwa handlowa nie wystarcza do sprawdzenia właściwych wymagań. W razie rozbieżności nie zgaduj — poproś o poprawienie dokumentów. Podstawa: ADR 5.3.2.3.1 i 5.4.1.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Numer UN w dokumencie przewozowym nie zastępuje znaku UN na sztuce przesyłki (5.2.1.1)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Wystarczy nazwa handlowa widoczna na opakowaniu.. Numer zagrożenia opisuje rodzaj zagrożenia, ale sam nie identyfikuje konkretnego towaru. Kierowca powinien odczytać dolny numer UN i porównać go z dokumentem przewozowym; sama liczba 33 lub nazwa handlowa nie wystarcza do sprawdzenia właściwych wymagań. W razie rozbieżności nie zgaduj — poproś o poprawienie dokumentów. Podstawa: ADR 5.3.2.3.1 i 5.4.1.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "5.2.1.2 dotyczy oznakowania wszystkich sztuk przesyłek, nie jedynie nalepek ostrzegawczych."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Opcja C jest poprawna: Dolny numer UN i odpowiedni wpis w dokumencie przewozowym.. Numer zagrożenia opisuje rodzaj zagrożenia, ale sam nie identyfikuje konkretnego towaru. Kierowca powinien odczytać dolny numer UN i porównać go z dokumentem przewozowym; sama liczba 33 lub nazwa handlowa nie wystarcza do sprawdzenia właściwych wymagań. W razie rozbieżności nie zgaduj — poproś o poprawienie dokumentów. Podstawa: ADR 5.3.2.3.1 i 5.4.1.1.1. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "5.2.1.1 wymaga czytelnego i trwałego oznakowania; 5.2.1.2 wymaga dobrej widoczności i odporności na warunki atmosferyczne."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wstępny audyt redakcyjny A/B/C; pełne porównanie polskiego tekstu urzędowego i sprostowania oraz niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "5.2.1.1 i 5.2.1.2 s. 935.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -333,23 +333,23 @@
     {
       "id": "ADR-B-0617",
       "order": 617,
-      "clause": "ADR 2025, 5.2.1.10.1; 7.5.1.5",
+      "clause": "ADR 2025, 5.2.1.10.1; 5.2.1.10.2 (b) i (f)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0617",
         "module_id": "ADR-B-09",
-        "stem": "Opakowanie kombinowane zawiera opakowania wewnętrzne z cieczą i podlega wymogowi strzałek kierunkowych. Gdzie należy umieścić strzałki?",
+        "stem": "Karton jest opakowaniem kombinowanym z hermetycznie zamkniętymi puszkami ciekłej farby. Każda puszka ma 400 ml, a w kartonie nie ma materiału chłonnego. Czy według 5.2.1.10.2 karton musi mieć strzałki kierunkowe?",
         "options": {
-          "A": "Na dwóch przeciwległych pionowych bokach, aby oznaczenie było czytelne.",
-          "B": "Wyłącznie na górnej powierzchni, nawet jeśli po ustawieniu nie będą widoczne z boku.",
-          "C": "Na jednym dowolnym boku; ważne, aby były narysowane większą czcionką."
+          "A": "Nie, bo puszki są hermetycznie zamknięte i mają po nie więcej niż 500 ml",
+          "B": "Tak, bo bez materiału chłonnego zwolnienie obejmuje jedynie puszki do 120 ml",
+          "C": "Tak, bo strzałki są wymagane, gdy w opakowaniu kombinowanym jest ciecz"
         },
         "correct_option": "A",
-        "explanation": "Strzałki kierunkowe pokazują, jak ustawić opakowanie, aby ciecz pozostała we właściwym położeniu i nie zwiększała ryzyka wycieku. Jeśli ADR wymaga tego oznaczenia, umieszcza się je na dwóch przeciwległych pionowych bokach. Strzałki wyłącznie na górze lub na jednym boku mogą być niewidoczne podczas obsługi i nie spełniają wymogu. Podstawa: ADR 5.2.1.10.1 i 7.5.1.5.",
+        "explanation": "Według 5.2.1.10.1 opakowania kombinowane z cieczą w opakowaniach wewnętrznych oznacza się strzałkami kierunkowymi na dwóch przeciwległych pionowych bokach. Punkt 5.2.1.10.2 zawiera jednak wyjątki od tego wymagania. Według lit. (f) strzałki nie są wymagane, gdy opakowania wewnętrzne są hermetycznie zamknięte i mają pojemność nie większą niż 500 ml każde. Materiał chłonny jest warunkiem innego wyjątku, z lit. (b), dla opakowań wewnętrznych do 120 ml. Podstawa: ADR 5.2.1.10.1 i 5.2.1.10.2 (f).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.1.10.1; 7.5.1.5",
+            "reference": "ADR 2025, 5.2.1.10.1; 5.2.1.10.2 (b) i (f)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -359,19 +359,19 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Opcja A jest poprawna: Na dwóch przeciwległych pionowych bokach, aby oznaczenie było czytelne.. Jeśli dla danej sztuki przesyłki wymagane są strzałki kierunkowe, należy umieścić je na dwóch przeciwległych pionowych bokach, by obsługa mogła rozpoznać właściwe ustawienie. Sam znak na górze lub tylko na jednym boku nie spełnia tego wymogu; potem przesyłkę trzeba także ułożyć zgodnie ze strzałkami. Podstawa: ADR 5.2.1.10.1 i 7.5.1.5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "5.2.1.10.2 (f): hermetycznie zamknięte opakowania wewnętrzne do 500 ml nie wymagają strzałek kierunkowych."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Wyłącznie na górnej powierzchni, nawet jeśli po ustawieniu nie będą widoczne z boku.. Jeśli dla danej sztuki przesyłki wymagane są strzałki kierunkowe, należy umieścić je na dwóch przeciwległych pionowych bokach, by obsługa mogła rozpoznać właściwe ustawienie. Sam znak na górze lub tylko na jednym boku nie spełnia tego wymogu; potem przesyłkę trzeba także ułożyć zgodnie ze strzałkami. Podstawa: ADR 5.2.1.10.1 i 7.5.1.5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Wyjątek (f) nie wymaga materiału chłonnego; 120 ml i materiał chłonny to odrębny wyjątek (b)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: Na jednym dowolnym boku; ważne, aby były narysowane większą czcionką.. Jeśli dla danej sztuki przesyłki wymagane są strzałki kierunkowe, należy umieścić je na dwóch przeciwległych pionowych bokach, by obsługa mogła rozpoznać właściwe ustawienie. Sam znak na górze lub tylko na jednym boku nie spełnia tego wymogu; potem przesyłkę trzeba także ułożyć zgodnie ze strzałkami. Podstawa: ADR 5.2.1.10.1 i 7.5.1.5. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "5.2.1.10.2 ustanawia wyjątki od ogólnego obowiązku z 5.2.1.10.1 (a); w tej sytuacji stosuje się wyjątek (f)."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wstępny audyt redakcyjny A/B/C; pełne porównanie polskiego tekstu urzędowego i sprostowania oraz niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "5.2.1.10.1 s. 938–939; 5.2.1.10.2 (f) s. 939.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -380,23 +380,23 @@
     {
       "id": "ADR-B-0618",
       "order": 618,
-      "clause": "ADR 2025, 7.5.7.1–7.5.7.2",
+      "clause": "ADR 2025, 6.5.2.2.2 (rys. 6.5.2.2.2.1 i 6.5.2.2.2.2); 7.5.7.2",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0618",
         "module_id": "ADR-B-09",
-        "stem": "Na palecie można ustawić kilka warstw opakowań, ale dolne opakowanie zaczyna się uginać pod ciężarem. Co należy zrobić przed wyjazdem?",
+        "stem": "Na boku DPPL jest znak z rysunku 6.5.2.2.2.2: nad zarysem DPPL kwadrat przekreślony na krzyż. Magazynier chce postawić na nim drugi pełny DPPL, żeby zmieścić ładunek na pojeździe. Co oznacza ten znak?",
         "options": {
-          "A": "Pozostawić stos, jeśli pasy są napięte i ładunek nie przesuwa się na boki.",
-          "B": "Zmienić układ ładunku i mocowanie, by ciężar nie uszkadzał opakowań.",
-          "C": "Dodać kolejną warstwę, aby równomiernie rozłożyć ciężar na palecie."
+          "A": "Że na DPPL można postawić drugi, jeżeli nie przekroczy on masy podanej na znaku",
+          "B": "Że ten DPPL nie jest przeznaczony do piętrzenia, więc nic się na nim nie stawia",
+          "C": "Że DPPL wolno piętrzyć, jeżeli oba zostaną spięte pasami z pojazdem i ze sobą"
         },
         "correct_option": "B",
-        "explanation": "Opakowanie, które ugina się pod ciężarem, może pęknąć podczas hamowania, skrętu lub jazdy po nierównościach. Zmień ułożenie i mocowanie tak, by ładunek był stabilny, ale nacisk nie niszczył opakowań. Same pasy nie rozwiązują problemu, jeśli utrzymują uszkadzający nacisk; dokładanie kolejnej warstwy zwiększyłoby obciążenie. Podstawa: ADR 7.5.7.1–7.5.7.2.",
+        "explanation": "Według 6.5.2.2.2 na DPPL umieszcza się znak, który pokazuje, czy wolno go piętrzyć podczas używania. DPPL przeznaczony do piętrzenia ma znak z największym dopuszczalnym obciążeniem w kilogramach, a DPPL nieprzeznaczony do piętrzenia ma znak z przekreślonym kwadratem. Według 7.5.7.2 sztuk przesyłek nie piętrzy się, jeżeli ich konstrukcja tego nie przewiduje. Pasy mocujące nie zmieniają konstrukcji DPPL, więc drugi DPPL trzeba ustawić obok. Podstawa: ADR 6.5.2.2.2 i 7.5.7.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.7.1–7.5.7.2",
+            "reference": "ADR 2025, 6.5.2.2.2 (rys. 6.5.2.2.2.1 i 6.5.2.2.2.2); 7.5.7.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -406,19 +406,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Pozostawić stos, jeśli pasy są napięte i ładunek nie przesuwa się na boki.. Ładunek musi być ułożony i zabezpieczony tak, by normalne warunki jazdy nie uszkodziły opakowań. Jeśli dolne opakowanie się ugina, stos nie jest bezpieczny nawet wtedy, gdy pasy ograniczają przesuwanie; dokładanie kolejnej warstwy zwiększa obciążenie, więc trzeba zmienić układ przed ruszeniem. Podstawa: ADR 7.5.7.1–7.5.7.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Znak z masą „… kg max” oznacza DPPL przeznaczony do piętrzenia, a nie znak zakazu piętrzenia."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Opcja B jest poprawna: Zmienić układ ładunku i mocowanie, by ciężar nie uszkadzał opakowań.. Ładunek musi być ułożony i zabezpieczony tak, by normalne warunki jazdy nie uszkodziły opakowań. Jeśli dolne opakowanie się ugina, stos nie jest bezpieczny nawet wtedy, gdy pasy ograniczają przesuwanie; dokładanie kolejnej warstwy zwiększa obciążenie, więc trzeba zmienić układ przed ruszeniem. Podstawa: ADR 7.5.7.1–7.5.7.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Rysunek 6.5.2.2.2.2 oznacza DPPL nieprzeznaczony do piętrzenia; 7.5.7.2 nakazuje uwzględnić to ograniczenie."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opcja C jest błędna: Dodać kolejną warstwę, aby równomiernie rozłożyć ciężar na palecie.. Ładunek musi być ułożony i zabezpieczony tak, by normalne warunki jazdy nie uszkodziły opakowań. Jeśli dolne opakowanie się ugina, stos nie jest bezpieczny nawet wtedy, gdy pasy ograniczają przesuwanie; dokładanie kolejnej warstwy zwiększa obciążenie, więc trzeba zmienić układ przed ruszeniem. Podstawa: ADR 7.5.7.1–7.5.7.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Pasy mocujące nie zmieniają konstrukcyjnego przeznaczenia DPPL; nie znoszą zakazu piętrzenia."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wstępny audyt redakcyjny A/B/C; pełne porównanie polskiego tekstu urzędowego i sprostowania oraz niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "6.5.2.2.2 s. 1109 (obraz strony sprawdzony); 7.5.7.2 s. 1309.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -427,23 +427,23 @@
     {
       "id": "ADR-B-0619",
       "order": 619,
-      "clause": "ADR 2025, 8.2.2.8.2",
+      "clause": "ADR 2025, 8.2.2.8.2 (a) i (b)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0619",
         "module_id": "ADR-B-01",
-        "stem": "Kierowca ma zaświadczenie ADR, ale nie pamięta, jak długo zachowuje ono ważność. Jaki okres powinien sprawdzić na dokumencie?",
+        "stem": "Kierowca zdał egzamin po kursie doskonalącym 10 marca 2026 r. Jego dotychczasowe zaświadczenie ADR traci ważność 30 czerwca 2027 r., czyli ponad 15 miesięcy później. Jaką datę ważności będzie miało nowe zaświadczenie?",
         "options": {
-          "A": "Ważność zależy wyłącznie od tego, jak długo kierowca pracuje u danego przewoźnika.",
-          "B": "Zaświadczenie jest ważne przez rok i nie można go odnowić po szkoleniu.",
-          "C": "Co do zasady pięć lat; sprawdź datę końcową i zasady odnowienia zgodnie z ADR."
+          "A": "Do 30 czerwca 2032 r., bo 5 lat liczy się od końca ważności starego",
+          "B": "Do 30 czerwca 2027 r., bo zbyt wczesny egzamin nie zmienia daty ważności",
+          "C": "Do 10 marca 2031 r., bo 5 lat liczy się od dnia zdania tego egzaminu"
         },
         "correct_option": "C",
-        "explanation": "Zaświadczenie ADR kierowcy jest co do zasady ważne pięć lat, ale przed przyjęciem zlecenia sprawdź konkretną datę ważności i zakres uprawnień. Praca u tego samego przewoźnika nie przedłuża dokumentu automatycznie, a okresu ważności nie należy mylić z terminem odnowienia. Jeśli dokument traci ważność, trzeba postąpić zgodnie z procedurą odnowienia przewidzianą w ADR. Podstawa: ADR 8.2.2.8.2.",
+        "explanation": "Według 8.2.2.8.2 nowe zaświadczenie po kursie doskonalącym jest ważne 5 lat, ale początek tego okresu zależy od daty egzaminu. Gdy egzamin zdano w ciągu 12 miesięcy przed wygaśnięciem, 5 lat liczy się od końca ważności poprzedniego zaświadczenia. Tutaj egzamin zdano wcześniej niż 12 miesięcy przed tą datą, więc 5 lat liczy się od dnia egzaminu, czyli do 10 marca 2031 r. Dlatego kurs doskonalący zwykle planuje się w ostatnim roku ważności zaświadczenia. Podstawa: ADR 8.2.2.8.2 (a) i (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.2.2.8.2",
+            "reference": "ADR 2025, 8.2.2.8.2 (a) i (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -453,19 +453,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Ważność zależy wyłącznie od tego, jak długo kierowca pracuje u danego przewoźnika.. Zaświadczenie ADR kierowcy ma ograniczony okres ważności, co do zasady pięć lat, dlatego przed przyjęciem zlecenia trzeba sprawdzić datę końcową i zakres uprawnień. Zatrudnienie u tego samego przewoźnika nie przedłuża dokumentu, a twierdzenie o jednym roku pomija przewidzianą procedurę odnowienia. Podstawa: ADR 8.2.2.8.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Liczenie od końca ważności dotyczy przypadku z 8.2.2.8.2 (a), gdy egzamin odbywa się w ciągu 12 miesięcy przed wygaśnięciem."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Zaświadczenie jest ważne przez rok i nie można go odnowić po szkoleniu.. Zaświadczenie ADR kierowcy ma ograniczony okres ważności, co do zasady pięć lat, dlatego przed przyjęciem zlecenia trzeba sprawdzić datę końcową i zakres uprawnień. Zatrudnienie u tego samego przewoźnika nie przedłuża dokumentu, a twierdzenie o jednym roku pomija przewidzianą procedurę odnowienia. Podstawa: ADR 8.2.2.8.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "8.2.2.8.2 (b) przewiduje pięcioletni okres od daty wcześniejszego egzaminu doskonalącego."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Opcja C jest poprawna: Co do zasady pięć lat; sprawdź datę końcową i zasady odnowienia zgodnie z ADR.. Zaświadczenie ADR kierowcy ma ograniczony okres ważności, co do zasady pięć lat, dlatego przed przyjęciem zlecenia trzeba sprawdzić datę końcową i zakres uprawnień. Zatrudnienie u tego samego przewoźnika nie przedłuża dokumentu, a twierdzenie o jednym roku pomija przewidzianą procedurę odnowienia. Podstawa: ADR 8.2.2.8.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Przy egzaminie 10.03.2026 nowe zaświadczenie jest ważne do 10.03.2031 zgodnie z 8.2.2.8.2 (b)."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wstępny audyt redakcyjny A/B/C; pełne porównanie polskiego tekstu urzędowego i sprostowania oraz niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "8.2.2.8.2 s. 1330. Pokrewne 0301 dotyczy przypadku (a); tu zastosowanie ma przypadek (b). Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -474,23 +474,23 @@
     {
       "id": "ADR-B-0620",
       "order": 620,
-      "clause": "ADR 2025, 5.4.3.2",
+      "clause": "ADR 2025, 5.4.3.1; 5.4.3.2; 5.4.3.4; 8.1.2.1 (b)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "question_snapshot": {
         "id": "ADR-B-0620",
         "module_id": "ADR-B-13",
-        "stem": "Załoga otrzymała instrukcje pisemne ADR, ale jeden członek nie potrafi przeczytać ich języka. Co powinien zapewnić przewoźnik przed wyjazdem?",
+        "stem": "Nadawca włożył do kabiny karty charakterystyki przewożonych chemikaliów i uznał, że zastępują one instrukcje pisemne ADR. Innych instrukcji w kabinie nie ma. Czy kierowca może tak ruszyć w trasę?",
         "options": {
-          "A": "Pozostawić dokument w oryginalnym języku i polecić kierowcy ustne streszczenie.",
-          "B": "Wystarczy, że instrukcje rozumie kierowca prowadzący, nawet jeśli reszta załogi ich nie czyta.",
-          "C": "Zapewnić instrukcje w języku, który każdy członek załogi może czytać i zrozumieć."
+          "A": "Tak, bo karty charakterystyki opisują ładunek dokładniej niż instrukcje",
+          "B": "Tak, jeżeli karty leżą w kabinie w miejscu łatwo dostępnym dla załogi",
+          "C": "Nie, w kabinie mają być instrukcje pisemne zgodne ze wzorem z 5.4.3.4"
         },
         "correct_option": "C",
-        "explanation": "Instrukcje pisemne mają pomóc każdemu członkowi załogi zareagować podczas wypadku, pożaru lub wycieku. Dlatego każdy musi móc je samodzielnie przeczytać i zrozumieć; ustne streszczenie przez kierowcę nie zastępuje dostępnej instrukcji. Przed wyjazdem sprawdź nie tylko, czy dokument jest w kabinie, ale też czy jego język jest zrozumiały dla całej załogi. Podstawa: ADR 5.4.3.2.",
+        "explanation": "Według 5.4.3.1 w kabinie kierowcy, w miejscu łatwo dostępnym, przewozi się instrukcje pisemne w formie podanej w 5.4.3.4. Ich forma i treść mają odpowiadać czterostronicowemu wzorowi, takiemu samemu dla wszystkich ładunków. Karty charakterystyki mogą być przydatne, ale ADR nie pozwala zastąpić nimi instrukcji pisemnych. Przed wyjazdem przewoźnik ma dostarczyć załodze instrukcje w języku zrozumiałym dla każdego jej członka. Podstawa: ADR 5.4.3.1, 5.4.3.2, 5.4.3.4 i 8.1.2.1 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.2",
+            "reference": "ADR 2025, 5.4.3.1; 5.4.3.2; 5.4.3.4 (czterostronicowy wzór); 8.1.2.1 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -500,19 +500,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Opcja A jest błędna: Pozostawić dokument w oryginalnym języku i polecić kierowcy ustne streszczenie.. Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Przed wyjazdem trzeba więc sprawdzić nie tylko obecność dokumentu, lecz także to, czy cała załoga może z niego skorzystać. Podstawa: ADR 5.4.3.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "5.4.3.1 wymaga instrukcji pisemnych w formie określonej w 5.4.3.4; karta charakterystyki ich nie zastępuje."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Opcja B jest błędna: Wystarczy, że instrukcje rozumie kierowca prowadzący, nawet jeśli reszta załogi ich nie czyta.. Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Przed wyjazdem trzeba więc sprawdzić nie tylko obecność dokumentu, lecz także to, czy cała załoga może z niego skorzystać. Podstawa: ADR 5.4.3.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "Łatwy dostęp do dokumentów nie zmienia wymaganego wzoru instrukcji pisemnych określonego w 5.4.3.4."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Opcja C jest poprawna: Zapewnić instrukcje w języku, który każdy członek załogi może czytać i zrozumieć.. Instrukcje pisemne mają pomóc każdemu członkowi załogi działać podczas zdarzenia, dlatego każdy musi móc je przeczytać i zrozumieć. Ustne streszczenie albo znajomość dokumentu tylko przez kierowcę nie zapewnia pozostałym osobom dostępu do pełnych wskazówek. Przed wyjazdem trzeba więc sprawdzić nie tylko obecność dokumentu, lecz także to, czy cała załoga może z niego skorzystać. Podstawa: ADR 5.4.3.2. To wstępna ocena redakcyjna; niezależna recenzja prawna pozostaje otwarta."
+          "rationale": "5.4.3.1 i 5.4.3.4 wymagają w kabinie instrukcji pisemnych zgodnych z czterostronicowym wzorem."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wstępny audyt redakcyjny A/B/C; pełne porównanie polskiego tekstu urzędowego i sprostowania oraz niezależna recenzja pozostają otwarte.",
+      "notes_on_conditions": "5.4.3.1–5.4.3.4 s. 974; wzór s. 975; 8.1.2.1 (b) s. 1324.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
