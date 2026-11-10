@@ -8,18 +8,18 @@
       "id": "ADR-B-0674",
       "sequence": 674,
       "exact_record_snapshot": {
-        "stem": "Kierowca sprawdza dokument przewozowy materiału klasy 4.3. Przy towarze podano I grupę pakowania. Co oznacza ten zapis?",
+        "stem": "Na rampie pada deszcz. Kierowca ładuje bębny z UN 1401 WAPŃ klasy 4.3, dla którego kolumna (18) tabeli A wskazuje CV23. Magazynier chce odstawić bębny na mokrą rampę i dokończyć załadunek później. Co wynika z CV23?",
         "options": {
-          "A": "To najniższy stopień zagrożenia: materiał reaguje z wodą powoli, a gaz wydziela się w niewielkiej ilości; nie chodzi o silną reakcję.",
-          "B": "To najwyższy stopień zagrożenia; materiał reaguje z wodą energicznie, a gaz może zapalać się samorzutnie lub wydzielać się bardzo szybko.",
-          "C": "To oznaczenie rodzaju opakowania, a nie stopnia zagrożenia; o reakcji z wodą i ryzyku zapłonu kierowca powinien wnioskować wyłącznie z nalepki 4.3."
+          "A": "Bębny mogą stać na deszczu, bo zamknięte opakowanie chroni wapń przed wodą",
+          "B": "Przy manipulowaniu trzeba szczególnie uważać, by bębny nie miały styku z wodą",
+          "C": "CV23 dotyczy jedynie rozsypanego materiału, a nie zamkniętych sztuk przesyłek"
         },
         "correct_option": "B",
-        "explanation": "Grupa I oznacza duże zagrożenie. W klasie 4.3 materiał reaguje z wodą energicznie, a wydzielany gaz może zapalać się samorzutnie albo powstaje bardzo szybko: co najmniej 10 l/kg w minutę. Odpowiedzi o słabej reakcji lub rodzaju opakowania mylą stopień zagrożenia z innymi cechami. Podstawa: ADR 1.2.1 i 2.2.43.1.8(a)–(c).",
+        "explanation": "Materiały klasy 4.3 reagują z wodą i wydzielają gazy palne, które mogą tworzyć z powietrzem mieszaniny wybuchowe. Przepis CV23 wymaga, aby podczas manipulowania sztukami przesyłek podjąć szczególne środki ostrożności, żeby nie miały one kontaktu z wodą. Odstawienie bębnów na mokrą rampę w deszczu jest sprzeczne z tym wymaganiem, nawet gdy opakowania są zamknięte. Bębny ładuje się więc pod osłoną albo czeka się na poprawę warunków. Podstawa: ADR 2.2.43.1.1, 7.5.11 (CV23) i tabela A (UN 1401).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.2.1; 2.2.43.1.8(a)–(c)",
+            "reference": "ADR 2025, 2.2.43.1.1; 7.5.11 (CV23); 3.2.1 tabela A (UN 1401: 4.3, W2, II, kolumna (18) CV23)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
