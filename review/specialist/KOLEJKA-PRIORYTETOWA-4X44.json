@@ -2,7 +2,7 @@
   "stage": "4x44_secondary_priority_legal_review_queue",
   "date": "2026-10-27",
   "scope": "ADR-BASIC-ONLY",
-  "source_bank_blob_sha": "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7",
+  "source_bank_blob_sha": "f732aa354f959e2ba17bf870d901d2fe51aa0426",
   "queue_basis": "Następna partia 20 ID z 121 rekordów bez zapisanego dosłownego fragmentu MI; wyłączono 20 ID z kolejki 4x40. Ranking heurystyczny premiuje liczby, wyjątki, klasy/oznakowanie o istotnym ryzyku, dokumenty i wymagania pojazdu.",
   "queue_count": 20,
   "full_missing_quote_count": 144,
@@ -228,9 +228,9 @@
     {
       "id": "ADR-B-0496",
       "module_id": "ADR-B-02",
-      "question": "Materiał wybuchowy klasy 1 ma podklasę 1.3. Które połączenie zagrożeń odpowiada ADR?",
+      "question": "W dokumencie przewozowym wpisano materiał wybuchowy z kodem klasyfikacyjnym 1.3G. Jakie zagrożenia opisuje podklasa 1.3 według definicji w 2.2.1.1.5?",
       "legal_basis": [
-        "ADR 2025, 2.2.1.1.5, podklasa 1.3"
+        "ADR 2025, 2.2.1.1.5 (podklasa 1.3)"
       ],
       "priority_score": 5,
       "priority_reasons": [
@@ -246,9 +246,9 @@
     {
       "id": "ADR-B-0498",
       "module_id": "ADR-B-02",
-      "question": "Podklasa 1.6 dotyczy skrajnie mało wrażliwych przedmiotów wybuchowych. Jakie zagrożenie masowe określa definicja?",
+      "question": "Przedmioty wybuchowe podklasy 1.6 zawierają głównie skrajnie niewrażliwe materiały. Jakie zagrożenie wybuchem wiąże się z nimi według 2.2.1.1.5 i uwagi do tej definicji?",
       "legal_basis": [
-        "ADR 2025, 2.2.1.1.5, podklasa 1.6"
+        "ADR 2025, 2.2.1.1.5 (podklasa 1.6 i uwaga)"
       ],
       "priority_score": 5,
       "priority_reasons": [

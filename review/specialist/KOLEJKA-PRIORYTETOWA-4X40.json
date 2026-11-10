@@ -2,7 +2,7 @@
   "stage": "4x40",
   "date": "2026-10-27",
   "scope": "ADR-BASIC-ONLY",
-  "source_bank_blob_sha": "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7",
+  "source_bank_blob_sha": "f732aa354f959e2ba17bf870d901d2fe51aa0426",
   "queue_basis": "121 IDs listed in review/specialist/ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md; ranked by presence of numerical thresholds, exemptions, vehicle approval, dangerous-goods classes, tunnel restrictions, and documentation terms.",
   "queue_count": 20,
   "full_missing_quote_count": 144,
@@ -48,9 +48,9 @@
     {
       "id": "ADR-B-0497",
       "module_id": "ADR-B-02",
-      "question": "Podklasa 1.5 obejmuje materiały wybuchowe o bardzo małej wrażliwości. Czy ich mała wrażliwość oznacza brak zagrożenia wybuchem masowym?",
+      "question": "Kolega mówi, że materiały podklasy 1.5 są bardzo mało wrażliwe, więc gdy jednak wybuchną, wybuch nie obejmie całego ładunku naraz. Czy ma rację według 2.2.1.1.5?",
       "legal_basis": [
-        "ADR 2025, 2.2.1.1.5, podklasa 1.5"
+        "ADR 2025, 2.2.1.1.5 (podklasa 1.5)"
       ],
       "priority_score": 6,
       "priority_reasons": [
@@ -156,9 +156,9 @@
     {
       "id": "ADR-B-0501",
       "module_id": "ADR-B-02",
-      "question": "Nowy projekt ogniwa sodowo-jonowego przewidziany do wpisu UN 3551 nie zapobiega zewnętrznemu zwarciu. Którego warunku 2.2.9.1.7.2 nie spełnia?",
+      "question": "Firma budowlana oddaje do przewozu odpady zawierające azbest, zaliczone do klasy 9. Jakie zagrożenie z 2.2.9.1 uzasadnia zaliczenie azbestu do tej klasy?",
       "legal_basis": [
-        "ADR 2025, 2.2.9.1.7.2(c)"
+        "ADR 2025, 2.2.9.1.4; 2.2.9.1.2 (M1)"
       ],
       "priority_score": 5,
       "priority_reasons": [
@@ -174,9 +174,9 @@
     {
       "id": "ADR-B-0510",
       "module_id": "ADR-B-02",
-      "question": "Kierowca przed rozładunkiem dostrzega mokre opakowanie z nalepką klasy 4.3. Pracownik proponuje polewać je wodą, żeby usunąć zabrudzenia. Jakie zagrożenie należy uwzględnić?",
+      "question": "W zamkniętym nadwoziu furgonu zamókł worek z materiałem z nalepką 4.3. Przy otwieraniu drzwi pracownik chce poświecić do środka zwykłą lampą warsztatową. Na co zwraca uwagę 2.2.43.1.3?",
       "legal_basis": [
-        "ADR 2025, 2.2.43.1.1"
+        "ADR 2025, 2.2.43.1.3; 2.2.43.1.1"
       ],
       "priority_score": 5,
       "priority_reasons": [
@@ -318,9 +318,9 @@
     {
       "id": "ADR-B-0508",
       "module_id": "ADR-B-13",
-      "question": "Przed wyjazdem kierowca sprawdza dokument przewozowy dla benzyny. W polu identyfikacji zapisano „1203 BENZYNA”, bez liter „UN”. Jaką niezgodność powinien zgłosić do poprawy dokumentu?",
+      "question": "Ciecz zapalna jest mieszaniną czterech składników niebezpiecznych i ma ogólną nazwę I.N.O. z przepisem szczególnym 274. Jak według 3.1.2.8.1.2 uzupełnić jej nazwę w dokumencie przewozowym?",
       "legal_basis": [
-        "ADR 2025, 5.4.1.1.1(a)"
+        "ADR 2025, 3.1.2.8.1.2; 3.1.2.8.1.1; 5.4.1.1.1 (b)"
       ],
       "priority_score": 4,
       "priority_reasons": [
