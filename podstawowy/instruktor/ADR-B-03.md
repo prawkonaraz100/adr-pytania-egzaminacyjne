@@ -139,7 +139,7 @@ Pytania kontrolne: `ADR-B-0007`, `ADR-B-0008`, `ADR-B-0009`, `ADR-B-0325`, `ADR-
 
 
 ### Scenariusz SC-ADR-B-03-03 — dokument odpadu przed wyjazdem
-Przeprowadź ćwiczenie na fikcyjnym dokumencie. Kursant ma wskazać brak lub wątpliwość w opisie odpadu, wyjaśnić ją z osobą odpowiedzialną i zatrzymać wyjazd do czasu poprawienia dokumentu. Pytanie powiązane: ADR-B-0629. Nie traktuj ćwiczenia jako formalnej recenzji prawnej; sprawdź ADR 5.4.1.1.3.1.
+Przeprowadź ćwiczenie na fikcyjnym dokumencie. Kursant ma wskazać brak lub wątpliwość w opisie odpadu, wyjaśnić ją z osobą odpowiedzialną i zatrzymać wyjazd do czasu poprawienia dokumentu. Pytanie powiązane: ADR-B-0629. Nie traktuj ćwiczenia jako formalnej recenzji prawnej; sprawdź ADR 5.4.1.1.3.1 i 5.4.1.1.3.3.
 
 
 ### Scenariusz SC-ADR-B-03-04 — czyszczenie po przewozie luzem
