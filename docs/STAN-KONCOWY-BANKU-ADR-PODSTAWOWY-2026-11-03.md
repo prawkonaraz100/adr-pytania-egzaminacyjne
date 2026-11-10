@@ -15,7 +15,7 @@
 | Teoretyczne z mniej niż 6 pytaniami | **0** |
 | Kompetencje praktyczne (osobno, nie wliczane do progu sześciu) | **3** |
 | Rozkład poprawnych A/B/C | **258 / 291 / 231** |
-| Poprawna odpowiedź jedyną najdłuższą | **23/780 = 2,95%** |
+| Poprawna odpowiedź jedyną najdłuższą | **21/780 = 2,69%** |
 | Najwyższy wskaźnik w pojedynczym dziale | **5,66%** |
 | Git blob SHA `podstawowy/questions.jsonl` | `8596a7a61cdc27c4f558af7197cdca9072090c4e` |
 
