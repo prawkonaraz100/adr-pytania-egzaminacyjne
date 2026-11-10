@@ -6,7 +6,7 @@
   "seed": 2026102702,
   "variant": 2,
   "generated_from": "podstawowy/questions.jsonl",
-  "source_bank_head": "7f2be64ba60fef44ab136bdf59cbb4bdd949c172",
+  "source_bank_head": "b240a96d8c9d0bae561d132b0a6bc8f705ee7ca2",
   "excluded_question_ids": [
     "ADR-B-0017",
     "ADR-B-0034",
@@ -124,11 +124,11 @@
       "number": 6,
       "id": "ADR-B-0556",
       "module_id": "ADR-B-09",
-      "stem": "W dokumentach towar ma kod dopuszczający przewóz luzem, ale dostępny pojazd nie spełnia wymagań dla tego rodzaju przewozu. Czy można załadować towar luzem?",
+      "stem": "Dla materiału stałego w kolumnie (17) tabeli A podano kod VC1. Przewoźnik chce przewieźć go luzem odkrytą wywrotką bez opończy, bo trasa jest krótka. Czy ADR na to pozwala?",
       "options": {
-        "A": "Tak, ponieważ sam kod towaru wystarcza, nawet gdy pojazd nie spełnia wymagań technicznych",
-        "B": "Tak, jeśli kierowca jedzie krótką trasą i może zatrzymać się przy pierwszej oznace problemu",
-        "C": "Nie; muszą być spełnione warunki dla towaru, pojazdu i sposobu przewozu"
+        "A": "Tak, bo kod VC1 dopuszcza też pojazd odkryty",
+        "B": "Tak, jeśli wywrotka pojedzie wolno, a w czasie jazdy nie będzie padać",
+        "C": "Nie, przy kodzie VC1 pojazd musi być przykryty opończą"
       },
       "image": null
     },
