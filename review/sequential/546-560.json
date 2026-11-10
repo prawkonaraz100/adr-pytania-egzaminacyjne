@@ -14,23 +14,26 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po załadunku opakowań ADR do kontenera stwierdzono, że wymagane nalepki dużego formatu są nieczytelne. Co należy zrobić przed rozpoczęciem przewozu?",
+        "stem": "Do kontenera wielkiego załadowano skrzynie z bateriami litowo-jonowymi UN 3480, oznaczone nalepkami wzoru 9A. Jakie duże nalepki ostrzegawcze trzeba umieścić na bokach i czołach kontenera?",
         "options": {
-          "A": "Rozpocząć przewóz, bo wystarczy oznakowanie na samych opakowaniach i dokumenty w kabinie",
-          "B": "Uzupełnić lub wymienić wymagane oznakowanie kontenera tak, aby było czytelne",
-          "C": "Zastąpić nalepki dużego formatu kartką z numerem UN oraz nazwą towaru"
+          "A": "Duże nalepki wzoru 9A, takie same jak nalepki na skrzyniach z bateriami",
+          "B": "Duże nalepki wzoru 9, bo wzoru 9A nie stosuje się jako dużej nalepki",
+          "C": "Jedną dużą nalepkę wzoru 9A na drzwiach kontenera"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli nalepki dużego formatu na kontenerze są nieczytelne, trzeba je przed wyjazdem uzupełnić lub wymienić. Oznakowanie na pojedynczych opakowaniach nie zastępuje nalepek wymaganych na kontenerze, bo zagrożenie musi być widoczne także z zewnątrz. Zwykła kartka z numerem UN nie jest prawidłową nalepką ADR. Podstawa: ADR 5.3.1.1 i 5.3.1.2.",
+        "explanation": "Tabela A przypisuje bateriom litowo-jonowym UN 3480 nalepkę wzoru 9A, dlatego taką nalepkę mają skrzynie z bateriami. Według 5.3.1.1.4 duża nalepka ostrzegawcza dla klasy 9 ma jednak odpowiadać wzorowi nr 9, a wzoru 9A nie stosuje się jako dużej nalepki. Według 5.3.1.2 duże nalepki umieszcza się na obu bokach i obu czołach kontenera, więc jedna nalepka na drzwiach nie wystarczy. Podstawa: ADR 5.3.1.1.4 i 5.3.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.1.1; 5.3.1.2",
+            "reference": "ADR 2025, 5.3.1.1.4; 5.3.1.2; 3.2 tabela A (UN 3480)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null
       },
       "source_crosscheck_scope": "ADR_2025_English_secondary_transcription_not_full_official_Polish",
       "supplementary_source_url": "https://unece.org/adr-2025-files",
@@ -55,23 +58,26 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kontener zawiera towary niebezpieczne należące do więcej niż jednej klasy. Jak ustalić, jakie nalepki dużego formatu są wymagane na zewnątrz?",
+        "stem": "W kontenerze są beczki z metanolem UN 1230, który ma nalepki 3 i 6.1, oraz kanistry z cieczą żrącą klasy 8 bez zagrożenia dodatkowego. Jakie duże nalepki ostrzegawcze trzeba umieścić na kontenerze?",
         "options": {
-          "A": "Sprawdzić wymagania ADR i umieścić komplet wymaganych nalepek we właściwych miejscach",
-          "B": "Wybrać nalepkę klasy o najwyższym numerze, ponieważ według tego poglądu ta klasa ma pierwszeństwo nad pozostałymi zagrożeniami",
-          "C": "Wybrać nalepkę według numeru UN z dokumentu"
+          "A": "Nalepki 3, 6.1 i 8, bo zagrożenia 6.1 nie wskazuje tu inna duża nalepka",
+          "B": "Nalepki 3 i 8, bo przy kilku klasach pomija się zagrożenia dodatkowe",
+          "C": "Jedną nalepkę klasy o najwyższym numerze, czyli nalepkę wzoru 8 na drzwiach"
         },
         "correct_option": "A",
-        "explanation": "Na zewnątrz kontenera umieszcza się komplet nalepek dużego formatu wymaganych dla przewożonych towarów i sposobu ich przewozu. Nie wybiera się tylko nalepki klasy o najwyższym numerze, ponieważ numery klas nie tworzą rankingu zagrożeń. Numer UN pomaga ustalić, jaki towar jest przewożony, ale nie zastępuje sprawdzenia wszystkich wymagań oznakowania. Podstawa: ADR 5.3.1.1–5.3.1.4.",
+        "explanation": "Duże nalepki na kontenerze odpowiadają nalepkom z kolumny (5) tabeli A, więc metanol wymaga nalepek 3 i 6.1, a ciecz żrąca nalepki 8. Według 5.3.1.1.5 przy towarach kilku klas można pominąć nalepkę zagrożenia dodatkowego tylko wtedy, gdy to zagrożenie wskazuje już inna duża nalepka. Tutaj zagrożenia trującego 6.1 nie pokazuje żadna inna nalepka, więc trzeba umieścić nalepki 3, 6.1 i 8. Numer klasy nie oznacza ważności zagrożenia. Podstawa: ADR 5.3.1.1.1 i 5.3.1.1.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.1.1–5.3.1.4",
+            "reference": "ADR 2025, 5.3.1.1.1; 5.3.1.1.5",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null
       },
       "source_crosscheck_scope": "ADR_2025_English_secondary_transcription_not_full_official_Polish",
       "supplementary_source_url": "https://unece.org/adr-2025-files",
@@ -96,23 +102,26 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Po rozładunku kontenera usunięto część towaru, ale pozostały niebezpieczne pozostałości. Czy można od razu usunąć nalepki dużego formatu?",
+        "stem": "Kontener o pojemności wewnętrznej 2 m³ z kanistrami farby klasy 3 ma na ścianach nalepki wzoru 3 o boku 100 mm, takie jak na sztukach przesyłek. Nalepki są dobrze widoczne z zewnątrz pojazdu. Czy to oznakowanie wystarcza?",
         "options": {
-          "A": "Zdjąć nalepki po rozładunku większej części towaru, nawet gdy pozostały niebezpieczne resztki w kontenerze",
-          "B": "Zdjąć nalepki po podpisaniu protokołu rozładunku",
-          "C": "Nie; pozostawić oznakowanie do spełnienia warunków ADR, w tym oczyszczenia"
+          "A": "Nie, na kontenerze muszą być duże nalepki o boku co najmniej 250 mm × 250 mm",
+          "B": "Nie, nalepki trzeba przenieść na boki i tył pojazdu, który go wiezie",
+          "C": "Tak, na kontenerze do 3 m³ mogą być zwykłe nalepki ostrzegawcze z 5.2.2.2"
         },
         "correct_option": "C",
-        "explanation": "Częściowe opróżnienie kontenera nie pozwala od razu zdjąć nalepek dużego formatu, jeśli pozostały w nim niebezpieczne resztki. Podpisany protokół rozładunku nie potwierdza sam w sobie, że zagrożenie już zniknęło. Oznakowanie pozostaje do czasu spełnienia warunków ADR, w tym wymaganego oczyszczenia. Podstawa: ADR 5.3.1.1.5.",
+        "explanation": "Kontener mały to według 1.2.1 kontener o pojemności wewnętrznej nie większej niż 3 m³. Według 5.3.1.7.3 na takim kontenerze mogą być użyte zwykłe nalepki ostrzegawcze zgodne z 5.2.2.2, czyli takie jak na sztukach przesyłek. Dopiero gdy nalepek na kontenerze nie widać z zewnątrz pojazdu, umieszcza się duże nalepki na obu bokach i z tyłu pojazdu. Tutaj nalepki są widoczne, więc oznakowanie wystarcza. Podstawa: ADR 5.3.1.7.3 i 1.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.1.1.5",
+            "reference": "ADR 2025, 5.3.1.7.3; 1.2.1 (kontener mały)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null
       },
       "source_crosscheck_scope": "ADR_2025_English_secondary_transcription_not_full_official_Polish",
       "supplementary_source_url": "https://unece.org/adr-2025-files",
@@ -137,23 +146,26 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Ktoś proponuje namalować wymagany znak na kontenerze w kolorze i kształcie dowolnie dobranym przez firmę. Czy taki znak zastąpi nalepkę dużego formatu ADR?",
+        "stem": "Firma chce oznakować kontener wielki z beczkami klasy 8 dużymi nalepkami o boku 200 mm, bo takie ma w magazynie. Czy według 5.3.1.7.1 te nalepki wystarczą?",
         "options": {
-          "A": "Tak, jeśli firma doda obok nazwę towaru i numer UN, aby wyjaśnić znaczenie znaku",
-          "B": "Nie; oznakowanie musi odpowiadać wymaganiom ADR dotyczącym wzoru i czytelności",
-          "C": "Tak, jeśli znak jest większy od wymaganej nalepki i dobrze widoczny z drogi"
+          "A": "Tak, jeśli cyfra 8 w dolnym rogu ma co najmniej 25 mm wysokości",
+          "B": "Nie, duża nalepka musi mieć wymiary co najmniej 250 mm × 250 mm",
+          "C": "Tak, bo bok 200 mm jest dwa razy dłuższy niż na sztuce przesyłki"
         },
         "correct_option": "B",
-        "explanation": "Nalepka dużego formatu musi odpowiadać wzorowi ADR, aby służby i osoby obsługujące ładunek rozpoznawały zagrożenie w ten sam sposób. Własny rysunek firmy nie staje się prawidłową nalepką tylko dlatego, że jest większy albo ma obok nazwę towaru i numer UN. Te informacje nie zastępują wymaganego symbolu, kształtu i wyglądu oznakowania. Użyj oznaczenia zgodnego z ADR. Podstawa: ADR 5.3.1.7.",
+        "explanation": "Według 5.3.1.7.1 duża nalepka ostrzegawcza ma kształt rombu o wymiarach co najmniej 250 mm × 250 mm. Linia wewnątrz biegnie 12,5 mm od krawędzi, a cyfry numeru klasy mają co najmniej 25 mm wysokości. Nalepka o boku 200 mm jest więc za mała, nawet jeśli cyfra ma właściwą wysokość. Mniejsze nalepki ADR dopuszcza tylko w szczególnych przypadkach, na przykład na kontenerach małych lub przy klasach 1 i 7. Podstawa: ADR 5.3.1.7.1, 5.3.1.7.3 i 5.3.1.7.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.1.7",
+            "reference": "ADR 2025, 5.3.1.7.1; 5.3.1.7.3; 5.3.1.7.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null
       },
       "source_crosscheck_scope": "ADR_2025_English_secondary_transcription_not_full_official_Polish",
       "supplementary_source_url": "https://unece.org/adr-2025-files",
@@ -178,23 +190,26 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Na pojeździe przewożącym towary niebezpieczne w kontenerze nalepki dużego formatu są zasłonięte przez inne ładunki. Jak powinien postąpić załadowca lub przewoźnik przed wyjazdem?",
+        "stem": "Na czerwonym kontenerze trzeba umieścić duże nalepki wzoru 3, które też mają czerwone tło. Pracownik obawia się, że nalepki zleją się z kolorem ściany. Co przewiduje na taki przypadek 5.3.1.1.1?",
         "options": {
-          "A": "Usunąć przeszkodę albo poprawić rozmieszczenie, aby wymagane oznakowanie było widoczne",
-          "B": "Pozostawić je zasłonięte, ponieważ służby mogą odczytać dokument przewozowy i ustalić zagrożenie z jego treści",
-          "C": "Dodać numer telefonu kierowcy oraz nazwę firmy zamiast odsłaniać wymagane nalepki"
+          "A": "Nalepki umieszcza się na podłożu o kontrastowym kolorze albo otacza linią",
+          "B": "Nalepkę wzoru 3 można wtedy wydrukować na żółtym tle, aby była widoczna",
+          "C": "Zamiast nalepek wystarczy napisać na ścianie kontenera numer UN i nazwę towaru"
         },
         "correct_option": "A",
-        "explanation": "Wymagane nalepki i oznaczenia na pojeździe lub kontenerze muszą być widoczne, by służby mogły szybko rozpoznać przewożone zagrożenie. Dokument przewozowy ani numer telefonu kierowcy nie zastępują oznakowania zasłoniętego przez ładunek. Przed wyjazdem usuń przeszkodę lub popraw rozmieszczenie ładunku, a potem sprawdź widoczność nalepek. Podstawa: ADR 5.3.1.1 i 5.3.1.7.",
+        "explanation": "Według 5.3.1.1.1 duże nalepki ostrzegawcze umieszcza się na podłożu o kontrastowym kolorze albo otacza się je linią przerywaną lub ciągłą. Dzięki temu czerwona nalepka jest dobrze widoczna nawet na czerwonej ścianie kontenera. Nie wolno zmieniać koloru tła samej nalepki, bo ma ona odpowiadać wzorowi wymaganemu dla klasy 3. Napis z numerem UN nie zastępuje nalepki, a sama nalepka ma być odporna na warunki atmosferyczne podczas całego przewozu. Podstawa: ADR 5.3.1.1.1 i 5.3.1.7.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.1.1; 5.3.1.7",
+            "reference": "ADR 2025, 5.3.1.1.1; 5.3.1.7.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null
       },
       "source_crosscheck_scope": "ADR_2025_English_secondary_transcription_not_full_official_Polish",
       "supplementary_source_url": "https://unece.org/adr-2025-files",
@@ -219,23 +234,26 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przewóz wymaga pojazdu, dla którego ADR przewiduje świadectwo dopuszczenia. Kierowca nie ma dokumentu przy sobie, choć firma twierdzi, że pojazd przeszedł badanie. Co powinien zrobić?",
+        "stem": "Jednostkę transportową tworzą ciągnik siodłowy i naczepa. Dla obu pojazdów ADR wymaga świadectwa dopuszczenia, ale w kabinie jest tylko świadectwo ciągnika. Co wynika z 8.1.2.2 (a)?",
         "options": {
-          "A": "Wyjechać, bo wystarczy ustne zapewnienie firmy i późniejsze dosłanie kopii dokumentu",
-          "B": "Zastąpić świadectwo dowodem rejestracyjnym oraz informacją od właściciela pojazdu",
-          "C": "Nie rozpoczynać przewozu, dopóki wymagane świadectwo nie będzie dostępne i ważne"
+          "A": "Wystarczy świadectwo ciągnika, bo to on ciągnie całą jednostkę",
+          "B": "Wystarczy, że oryginał świadectwa naczepy jest w biurze przewoźnika",
+          "C": "W kabinie muszą być świadectwa obu pojazdów, w tym także naczepy"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli dany przewóz wymaga pojazdu z ważnym świadectwem dopuszczenia ADR, dokument musi być dostępny i spełniać wymagania przed rozpoczęciem jazdy. Zapewnienie firmy ani dowód rejestracyjny nie zastępują tego świadectwa. Nie rozpoczynaj przewozu, dopóki nie wyjaśnisz braku dokumentu i nie potwierdzisz, że pojazd jest dopuszczony do danego zastosowania. Podstawa: ADR 9.1.3.1 i 8.1.2.2.",
+        "explanation": "Według 8.1.2.2 (a), gdy ADR wymaga świadectwa dopuszczenia, przewozi się je w kabinie kierowcy dla każdej jednostki transportowej lub każdego pojazdu wchodzącego w jej skład. Naczepa jest osobnym pojazdem, więc jej świadectwo też musi być w kabinie. Dokument pozostawiony w biurze nie spełnia tego wymagania podczas kontroli na drodze. Przed wyjazdem kierowca powinien sprawdzić, czy ma świadectwa dla obu pojazdów. Podstawa: ADR 8.1.2.2 (a) i 9.1.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 9.1.3.1; 8.1.2.2",
+            "reference": "ADR 2025, 8.1.2.2 (a); 9.1.3.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null
       },
       "source_crosscheck_scope": "ADR_2025_English_secondary_transcription_not_full_official_Polish",
       "supplementary_source_url": "https://unece.org/adr-2025-files",
@@ -260,23 +278,26 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Czy każdy samochód przewożący dowolną ilość towarów niebezpiecznych musi automatycznie posiadać świadectwo dopuszczenia pojazdu ADR?",
+        "stem": "Kierowca dostał od przewoźnika świadectwo dopuszczenia pojazdu ADR w postaci małej, żółtej, zalaminowanej karty. Jak według 9.1.3.3 powinien wyglądać ten dokument?",
         "options": {
-          "A": "Tak, niezależnie od rodzaju pojazdu, sposobu przewozu i zastosowania ewentualnych wyłączeń",
-          "B": "Nie; obowiązek zależy od rodzaju pojazdu i właściwych wymagań ADR",
-          "C": "Świadectwo dopuszczenia jest wymagane wyłącznie dla pojazdów przewożących materiały wybuchowe klasy 1."
+          "A": "Jak karta plastikowa ze zdjęciem kierowcy i datą ważności",
+          "B": "Format A4, kolor biały, z różowym paskiem biegnącym po przekątnej",
+          "C": "Format A5, pomarańczowy, z numerem rejestracyjnym pojazdu na czarnym tle"
         },
         "correct_option": "B",
-        "explanation": "Świadectwo dopuszczenia nie dotyczy automatycznie każdego samochodu z ładunkiem ADR. Obowiązek zależy od rodzaju pojazdu i przewozu wskazanych w przepisach; nie można też ograniczyć go wyłącznie do materiałów wybuchowych. Przed wyjazdem sprawdź kategorię pojazdu i wymagania dla konkretnego ładunku, zamiast zakładać, że świadectwo jest zawsze potrzebne albo nigdy nie jest. Podstawa: ADR 9.1.3.1.",
+        "explanation": "Według 9.1.3.3 świadectwo dopuszczenia ma wymiary 210 × 297 mm, czyli format A4, a tekst może być na obu stronach. Jest koloru białego, z różowym paskiem biegnącym po przekątnej, i ma odpowiadać wzorowi z 9.1.3.5. Plastikowa karta w formacie karty płatniczej to wzór innego dokumentu, czyli zaświadczenia o przeszkoleniu kierowcy z 8.2.2.8.3. Dlatego mała żółta karta nie jest prawidłowym świadectwem dopuszczenia pojazdu. Podstawa: ADR 9.1.3.3, 9.1.3.5 i 8.2.2.8.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 9.1.3.1",
+            "reference": "ADR 2025, 9.1.3.3; 9.1.3.5; 8.2.2.8.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null
       },
       "source_crosscheck_scope": "ADR_2025_English_secondary_transcription_not_full_official_Polish",
       "supplementary_source_url": "https://unece.org/adr-2025-files",
@@ -301,23 +322,26 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przed wyjazdem pojazdem wymagającym świadectwa dopuszczenia kierowca zauważa, że dokument stracił ważność. Co jest właściwym działaniem?",
+        "stem": "Świadectwo dopuszczenia pojazdu jest ważne do 31 maja. Coroczne badanie techniczne tego pojazdu odbyło się 10 maja z wynikiem pozytywnym. Od kiedy według 9.1.3.4 liczy się nowy okres ważności?",
         "options": {
-          "A": "Kontynuować przewóz, jeśli pojazd wygląda na sprawny",
-          "B": "Przekreślić datę i wpisać nową ręcznie",
-          "C": "Wstrzymać wyjazd i uzyskać wymagane ważne świadectwo"
+          "A": "Od 10 maja, czyli od dnia, w którym przeprowadzono badanie techniczne",
+          "B": "Od dnia, w którym przewoźnik odbierze nowe świadectwo od władzy",
+          "C": "Od 31 maja, bo badanie odbyło się w ciągu miesiąca przed tą datą"
         },
         "correct_option": "C",
-        "explanation": "Jeżeli dany pojazd musi mieć świadectwo dopuszczenia ADR, dokument musi być ważny podczas przewozu. To, że pojazd wygląda na sprawny, nie zastępuje wymaganego badania ani ważnego świadectwa. Ręczne poprawienie daty nie przedłuża jego ważności i może wprowadzić kontrolującego w błąd. Wstrzymaj wyjazd do czasu uzyskania ważnego dokumentu. Podstawa: ADR 9.1.3.1.",
+        "explanation": "Według 9.1.3.4 świadectwo dopuszczenia traci ważność najpóźniej po roku od badania technicznego, po którym je wystawiono. Jeżeli kolejne badanie odbędzie się w ciągu jednego miesiąca przed datą wygaśnięcia lub po niej, nowy okres ważności liczy się od tej daty wygaśnięcia. Badanie z 10 maja mieści się w tym miesiącu, więc nowy okres biegnie od 31 maja. Po upływie ważności pojazdu nie wolno używać do przewozu towarów niebezpiecznych, dopóki nie dostanie nowego świadectwa. Podstawa: ADR 9.1.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 9.1.3.1",
+            "reference": "ADR 2025, 9.1.3.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null
       },
       "source_crosscheck_scope": "ADR_2025_English_secondary_transcription_not_full_official_Polish",
       "supplementary_source_url": "https://unece.org/adr-2025-files",
@@ -342,14 +366,14 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przed załadunkiem kierowca widzi, że podłoga pojazdu jest zabrudzona pozostałościami poprzedniego ładunku, które mogą reagować z nowym towarem ADR. Co powinien zrobić?",
+        "stem": "Przed załadunkiem kierowca widzi na podłodze pojazdu pozostałości poprzedniego ładunku, które mogą reagować z nowym towarem ADR. Jak według 7.5.1.2 trzeba postąpić?",
         "options": {
-          "A": "Zażądać oczyszczenia i usunięcia niezgodności przed załadunkiem",
-          "B": "Załadować towar, jeśli opakowania są zamknięte i kierowca nie zauważył wycieku",
-          "C": "Przykryć zabrudzenia kartonem i rozpocząć przewóz bez dodatkowej kontroli podłogi"
+          "A": "Wstrzymać załadunek, dopóki te pozostałości nie zostaną usunięte",
+          "B": "Załadować towar, jeśli opakowania są szczelnie zamknięte",
+          "C": "Przykryć zabrudzenia kartonem i rozpocząć załadunek bez czyszczenia"
         },
         "correct_option": "A",
-        "explanation": "Przed załadunkiem trzeba usunąć pozostałości, które mogą wejść w reakcję z nowym towarem lub uszkodzić opakowania. Zamknięte przesyłki nie eliminują ryzyka kontaktu z zabrudzoną podłogą, a przykrycie resztek kartonem tylko ukrywa problem. Wstrzymaj załadunek do czasu oczyszczenia i ponownego sprawdzenia przestrzeni ładunkowej. Podstawa: ADR 7.5.1.2.",
+        "explanation": "Według 7.5.1.2 przed załadunkiem sprawdza się, czy jednostka transportowa nie zawiera pozostałości niezgodnych z przewożonym towarem. Jeżeli takie pozostałości są, załadunek nie powinien się odbyć, dopóki nie zostaną usunięte. Zamknięte opakowania nie usuwają ryzyka, bo przy uszkodzeniu lub wycieku towar może zareagować z resztkami na podłodze. Przykrycie zabrudzeń kartonem tylko ukrywa problem i go nie usuwa. Podstawa: ADR 7.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -358,7 +382,10 @@
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null
       },
       "source_crosscheck_scope": "ADR_2025_English_secondary_transcription_not_full_official_Polish",
       "supplementary_source_url": "https://unece.org/adr-2025-files",
@@ -383,23 +410,26 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Podczas kontroli przed załadunkiem stwierdzono, że opakowanie jednej sztuki przesyłki jest uszkodzone i może przeciekać. Co należy zrobić?",
+        "stem": "Przed załadunkiem kartonów z towarem ADR do kontenera wielkiego pracownik widzi, że uszczelka drzwi jest podarta, a jeden zawias drzwi złamany. Wnętrze kontenera jest czyste i suche. Czy według 7.5.1.2 można zacząć załadunek?",
         "options": {
-          "A": "Załadować je na końcu, aby łatwiej je obserwować podczas całej trasy i w razie potrzeby reagować",
-          "B": "Nie ładować uszkodzonej przesyłki do czasu naprawy lub wymiany opakowania",
-          "C": "Owinąć ją zwykłą folią bez sprawdzenia zgodności opakowania i bez potwierdzenia szczelności"
+          "A": "Tak, jeśli kartony przykryje się folią, a drzwi zabezpieczy się pasem",
+          "B": "Nie, takie wady drzwi są istotne, więc kontener nie jest zdatny do użytku",
+          "C": "Tak, bo te wady nie dotyczą podłogi ani ścian wewnętrznych tego kontenera"
         },
         "correct_option": "B",
-        "explanation": "Uszkodzone opakowanie, z którego może wydostać się zawartość, nie powinno trafić do pojazdu w takim stanie. Ustawienie go na końcu ładunku nie zatrzyma wycieku, a zwykła folia nie potwierdza, że opakowanie odzyskało wymaganą szczelność i wytrzymałość. Najpierw trzeba usunąć niezgodność w odpowiedni sposób albo użyć właściwego, sprawnego opakowania. Podstawa: ADR 7.5.1.2.",
+        "explanation": "Według 7.5.1.2 przed załadunkiem sprawdza się, czy jednostka transportowa cargo jest konstrukcyjnie zdatna do użytku. Za istotne wady ADR uważa między innymi zatarte, skręcone, złamane, brakujące lub niedziałające zawiasy drzwi, uszczelnienia drzwi i okucia. Kontener ze złamanym zawiasem i podartą uszczelką nie jest więc zdatny do użytku i załadunek nie powinien się odbyć. Folia ani pas nie usuwają tej wady. Podstawa: ADR 7.5.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.1.2",
+            "reference": "ADR 2025, 7.5.1.2 (istotne wady, lit. (c))",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
-        "image": null
+        "image": null,
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null
       },
       "source_crosscheck_scope": "ADR_2025_English_secondary_transcription_not_full_official_Polish",
       "supplementary_source_url": "https://unece.org/adr-2025-files",
