@@ -10,7 +10,7 @@ FIRST_REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0331-0345.md"
 FIRST_MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0331-0345.json"
 SECOND_REPORT = ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0331-0345.md"
 CORRECTIONS = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0331-0345.jsonl"
-EXPECTED_BANK_SHA = "73aa25f2ae5fed6f40b1948dfb917f082c08b58e"
+EXPECTED_BANK_SHA = "7f2be64ba60fef44ab136bdf59cbb4bdd949c172"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(331, 346)]
 
 
