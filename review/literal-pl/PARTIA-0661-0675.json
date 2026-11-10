@@ -1,0 +1,758 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0661–0675",
+  "bank_count": 780,
+  "bank_blob_sha": "835ba93341ece797cd831d85defa4d147da0942e",
+  "bank_changed": false,
+  "previous_uncompared": 120,
+  "compared": 15,
+  "remaining_without_comparison": 105,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "verified": 0,
+  "duplicate_search": {
+    "method": "scripts/similarity.py exact Jaccard tokenization (NFKD, casefold, token length >=4, configured STOP words), same-module comparison across the full 780-question bank, plus manual thematic comparison across modules.",
+    "threshold_0_45_pairs": 7,
+    "threshold_0_25_pairs": 159,
+    "batch_pairs_0_45": [],
+    "batch_pairs_0_25": [
+      {
+        "score": 0.325,
+        "a": "ADR-B-0675",
+        "b": "ADR-B-0676"
+      }
+    ],
+    "manual_duplicate_pairs": [
+      [
+        "0663",
+        "ADR-B-0762"
+      ],
+      [
+        "0663",
+        "ADR-B-0353"
+      ],
+      [
+        "0666",
+        "ADR-B-0044"
+      ],
+      [
+        "0666",
+        "ADR-B-0156"
+      ],
+      [
+        "0666",
+        "ADR-B-0725"
+      ],
+      [
+        "0672",
+        "ADR-B-0034"
+      ],
+      [
+        "0672",
+        "ADR-B-0774"
+      ],
+      [
+        "0672",
+        "ADR-B-0087"
+      ],
+      [
+        "0672",
+        "ADR-B-0175"
+      ],
+      [
+        "0672",
+        "ADR-B-0250"
+      ],
+      [
+        "0672",
+        "ADR-B-0778"
+      ]
+    ]
+  },
+  "records": [
+    {
+      "id": "ADR-B-0661",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.41.1.21(a); 7.1.7.3.4",
+      "gazette_pages": [
+        176,
+        1285,
+        1286
+      ],
+      "exact_quote": "2.2.41.1.21: „Materiały polimeryzujące wymagają kontrolowania temperatury podczas przewozu, jeżeli ich temperatura samoprzyspieszającej się polimeryzacji (TSP) wynosi: (a) dla materiałów nadawanych do przewozu w sztuce przesyłki lub DPPL, 50 °C lub mniej, dla sztuki przesyłki lub DPPL, w których materiał będzie przewożony; lub (b) dla materiałów nadawanych do przewozu w cysternie, 45 °C lub mniej, w cysternie w której materiał będzie przewożony.” 7.1.7.3.4: „Temperatura kontrolowana” jest najwyższą temperaturą, w której materiał może być przewożony bezpiecznie. „Temperatura awaryjna” jest to temperatura, w której takie postępowanie powinno być wprowadzane.",
+      "finding": "POPRAW — pytanie pyta o wymaganie, a opcja A zaczyna się od „Nie”, co rozbija zgodność składniową. Próg 45 °C dotyczy cystern; dla DPPL próg wynosi 50 °C lub mniej. Wyjaśnienie zasadniczo poprawne. Każda z trzech opcji przekracza 80 znaków poza A (76); wszystkie kończą się kropką.",
+      "duplicate_candidates": [],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K04",
+      "proposed_replacement": {
+        "stem": "DPPL ma zawierać materiał polimeryzujący o TSP 48 °C w tym opakowaniu. Kiedy ADR wymaga kontroli temperatury?",
+        "options": {
+          "A": "Nie, bo dla DPPL próg wynosi 45 °C i został przekroczony",
+          "B": "Tak, bo TSP 48 °C dla DPPL mieści się w limicie ADR 50 °C",
+          "C": "Kontrolę wyznacza próg 75 °C stosowany przy klasyfikacji materiału"
+        },
+        "explanation": "Próg zależy od rodzaju opakowania, w którym materiał jest przewożony. Dla sztuki przesyłki i DPPL kontrola temperatury jest wymagana przy TSP wynoszącej 50 °C lub mniej. Próg 45 °C dotyczy cystern, a nie DPPL. Wartość 48 °C w DPPL mieści się więc w warunku wymagającym kontroli. Podstawa: ADR 2.2.41.1.21(a).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.41.1.21(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Materiały polimeryzujące wymagają kontrolowania temperatury podczas przewozu, jeżeli ich TSP wynosi 50 °C lub mniej dla materiałów przewożonych w sztuce przesyłki lub DPPL.",
+        "pages": [
+          176
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K04",
+        "correct_option": "B",
+        "replacement_quote": "Materiały polimeryzujące wymagają kontrolowania temperatury podczas przewozu, jeżeli ich TSP wynosi 50 °C lub mniej dla materiałów przewożonych w sztuce przesyłki lub DPPL.",
+        "replacement_pages": [
+          176
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0662",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 9.1.3.1; 9.1.3.3; 9.1.3.5",
+      "gazette_pages": [
+        1344,
+        1345
+      ],
+      "exact_quote": "9.1.3.1: „Zgodność pojazdów EX/II, EX/III, FL, AT i MEMU z wymaganiami części 9 powinna być potwierdzona świadectwem dopuszczenia, wystawionym przez właściwą władzę państwa rejestracji dla każdego pojazdu, którego badanie zostało zakończone wynikiem pozytywnym, lub dla którego wydano deklarację zgodności z wymaganiami działu 9.2 zgodnie z 9.1.2.1.” 9.1.3.5, pole 3: „Nr identyfikacyjny”.",
+      "finding": "POPRAW — VIN jest odrębnym polem świadectwa i dotyczy konkretnego pojazdu. Powiązane pytania o typ, format, ważność i język świadectwa (0137/0140/0145/0146/0198/0552/0553/0566) nie sprawdzają tego samego pola, więc nie uznaję ich za duplikaty. Wszystkie trzy opcje przekraczają 80 znaków i kończą się kropką.",
+      "duplicate_candidates": [
+        "ADR-B-0137",
+        "ADR-B-0140",
+        "ADR-B-0145",
+        "ADR-B-0146",
+        "ADR-B-0198",
+        "ADR-B-0552",
+        "ADR-B-0553",
+        "ADR-B-0566"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-08-K08",
+      "proposed_replacement": {
+        "stem": "Na świadectwie dopuszczenia w polu 3 widnieje VIN inny niż numer na pojeździe. Co powinien zrobić kierowca przed rozpoczęciem przewozu?",
+        "options": {
+          "A": "Zgodność typu i danych przewoźnika wystarcza mimo innego numeru VIN",
+          "B": "Wstrzymać wyjazd i wyjaśnić różnicę VIN z wystawcą przed przewozem",
+          "C": "Użyć świadectwa, jeżeli numer rejestracyjny pojazdu jest zgodny"
+        },
+        "explanation": "Świadectwo dopuszczenia potwierdza zgodność konkretnego pojazdu, a nie dowolnego pojazdu tego samego typu. Wzór dokumentu przewiduje osobne pole na numer identyfikacyjny pojazdu. Rozbieżność VIN wymaga wyjaśnienia z wystawcą przed rozpoczęciem przewozu. Zgodność numeru rejestracyjnego nie zastępuje zgodności numeru identyfikacyjnego. Podstawa: ADR 9.1.3.1 i 9.1.3.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 9.1.3.1; 9.1.3.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Świadectwo dopuszczenia powinno być wystawione dla każdego pojazdu, którego badanie zakończono wynikiem pozytywnym; wzór zawiera odrębne pole „Nr identyfikacyjny”.",
+        "pages": [
+          1344,
+          1345
+        ],
+        "module_id": "ADR-B-08",
+        "competency_id": "ADR-B-08-K08",
+        "correct_option": "B",
+        "replacement_quote": "Świadectwo dopuszczenia powinno być wystawione dla każdego pojazdu, którego badanie zakończono wynikiem pozytywnym; wzór zawiera odrębne pole „Nr identyfikacyjny”.",
+        "replacement_pages": [
+          1344,
+          1345
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0663",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.3.4",
+      "gazette_pages": [
+        1332
+      ],
+      "exact_quote": "8.3.4: „Przenośne urządzenia oświetleniowe nie powinny zawierać powierzchni metalowych mogących spowodować iskrę krzesaną.”",
+      "finding": "POPRAW — temat latarki z metalową powierzchnią jest wyczerpany: 0762 pyta o tę samą regułę, a 0353 o użycie latarki w przedziale ładunkowym. Zastępuję temat pytaniem o klin pod koło przyczepy bez układu hamulcowego w tej samej kompetencji 07-K06. Opcje pierwotne są długie i kończą się kropkami.",
+      "duplicate_candidates": [
+        "ADR-B-0762",
+        "ADR-B-0353"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-07-K06",
+      "proposed_replacement": {
+        "stem": "Przyczepa przewożąca towary ADR nie ma własnego układu hamulcowego. Jak należy zabezpieczyć ją podczas postoju?",
+        "options": {
+          "A": "Zostawić przyczepę na biegu ciągnika i zaciągnąć jego hamulec",
+          "B": "Ustawić klin przy ciągniku, a przyczepę pozostawić bez zabezpieczenia",
+          "C": "Zabezpieczyć przyczepę klinem pod koło, aby uniemożliwić jej ruch"
+        },
+        "explanation": "Przyczepa bez własnego układu hamulcowego wymaga zabezpieczenia przed przemieszczeniem podczas postoju. ADR wskazuje użycie co najmniej jednego klina pod koło. Hamulec postojowy ciągnika nie zastępuje unieruchomienia takiej przyczepy. Przed odejściem od zestawu kierowca powinien sprawdzić stabilność pojazdu. Podstawa: ADR 8.3.7.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Przyczepy bez układu hamulcowego powinny być unieruchomione przy użyciu co najmniej jednego klina do podkładania pod koła, zgodnie z 8.1.5.2.",
+        "pages": [
+          1332
+        ],
+        "module_id": "ADR-B-07",
+        "competency_id": "ADR-B-07-K06",
+        "correct_option": "C",
+        "replacement_quote": "Przyczepy bez układu hamulcowego powinny być unieruchomione przy użyciu co najmniej jednego klina do podkładania pod koła, zgodnie z 8.1.5.2.",
+        "replacement_pages": [
+          1332
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0664",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 8.3.8; 9.2.2.6.1",
+      "gazette_pages": [
+        1332,
+        1353
+      ],
+      "exact_quote": "8.3.8: „W przypadku jednostki transportowej wyposażonej w układ przeciwblokujący, składającej się z pojazdu samochodowego i przyczepy o dopuszczalnej masie całkowitej większej niż 3,5 tony, połączenia elektryczne pomiędzy pojazdem samochodowym i przyczepą, określone w 9.2.2.6, powinny być zachowane przez cały czas trwania przewozu.” 9.2.2.6.1: „Połączenia elektryczne powinny być zaprojektowane w sposób zabezpieczający je przed wnikaniem wilgoci i brudu oraz przypadkowym rozłączeniem.”",
+      "finding": "POPRAW — pytanie sprawdza obowiązek utrzymania złącza ABS podczas przewozu i jest merytorycznie trafne. Wskazany jako duplikat 0256 nie jest duplikatem: 0256 dotyczy numerów rozpoznawczych 80 i X80, nie złączy ABS. Zmieniam formę opcji; wszystkie pierwotne opcje kończą się kropką.",
+      "duplicate_candidates": [],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-07-K06",
+      "proposed_replacement": {
+        "stem": "Zespół ADR z ABS i przyczepą o DMC powyżej 3,5 t ma rozłączone złącze elektryczne. Co powinien zrobić kierowca przed dalszą jazdą?",
+        "options": {
+          "A": "Może ruszyć, jeśli hamulce zasadnicze działają bez usterki",
+          "B": "Przywrócić połączenie elektryczne ABS przed dalszym przewozem zestawu",
+          "C": "Może ruszyć, gdy przewód zostanie podłączony po zakończeniu całej trasy"
+        },
+        "explanation": "Połączenia elektryczne między pojazdem samochodowym a przyczepą z układem przeciwblokującym powinny pozostać zachowane przez cały przewóz. ADR wymaga także zabezpieczenia złączy przed wilgocią, brudem i przypadkowym rozłączeniem. Usterki nie należy odkładać do czasu rozładunku. Kierowca powinien przywrócić prawidłowe połączenie przed dalszą jazdą. Podstawa: ADR 8.3.8 i 9.2.2.6.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.8; 9.2.2.6.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Połączenia elektryczne pomiędzy pojazdem samochodowym i przyczepą, określone w 9.2.2.6, powinny być zachowane przez cały czas trwania przewozu.",
+        "pages": [
+          1332,
+          1353
+        ],
+        "module_id": "ADR-B-07",
+        "competency_id": "ADR-B-07-K06",
+        "correct_option": "B",
+        "replacement_quote": "Połączenia elektryczne pomiędzy pojazdem samochodowym i przyczepą, określone w 9.2.2.6, powinny być zachowane przez cały czas trwania przewozu.",
+        "replacement_pages": [
+          1332,
+          1353
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0665",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a)",
+      "gazette_pages": [
+        182,
+        183
+      ],
+      "exact_quote": "2.2.42.1.1: „Materiały piroforyczne [...] w zetknięciu z powietrzem, nawet w małych ilościach, zapalają się w ciągu 5 minut.” Materiały samonagrzewające się mogą ulegać zapaleniu „tylko w dużych ilościach (wiele kilogramów) i po upływie długiego czasu (godzin lub dni)”. 2.2.42.1.8(a): „materiały podatne na samozapalenie (piroforyczne) powinny być zaliczone do I grupy pakowania”.",
+      "finding": "POPRAW — rozróżnienie piroforyczności i samonagrzewania jest merytorycznie trafne i odrębne od 0724 (samozapalenie materiału samonagrzewającego się) oraz 0635 (numer 333). W sources są dwa identyczne odwołania ADR/UNECE do tych samych punktów; zostawiam jedno źródło polskiego ADR. Opcje są długie, kończą się kropkami i zawierają słowo absolutne.",
+      "duplicate_candidates": [
+        "ADR-B-0724",
+        "ADR-B-0635"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K05",
+      "proposed_replacement": {
+        "stem": "Materiał klasy 4.2 zapala się po zetknięciu z powietrzem nawet w małej ilości i w ciągu pięciu minut. Jak ADR określa tę właściwość?",
+        "options": {
+          "A": "To samonagrzewanie, zwykle dotyczące dużej ilości i dłuższego czasu",
+          "B": "To piroforyczność, mała ilość może zapalić się w powietrzu w pięć minut",
+          "C": "To reakcja klasy 4.3, w której po kontakcie z wodą wydziela się palny gaz"
+        },
+        "explanation": "Materiał piroforyczny może zapalić się po zetknięciu z powietrzem nawet w małej ilości i w ciągu pięciu minut. Materiał samonagrzewający się ogrzewa się bez dopływu energii z zewnątrz, ale zwykle zapala się w większej ilości i po dłuższym czasie. To rozróżnienie wynika z kryterium klasy 4.2. Podstawa: ADR 2.2.42.1.1 i 2.2.42.1.8(a).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.42.1.1; 2.2.42.1.8(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Materiały piroforyczne [...] w zetknięciu z powietrzem, nawet w małych ilościach, zapalają się w ciągu 5 minut.",
+        "pages": [
+          182,
+          183
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K05",
+        "correct_option": "B",
+        "replacement_quote": "Materiały piroforyczne [...] w zetknięciu z powietrzem, nawet w małych ilościach, zapalają się w ciągu 5 minut.",
+        "replacement_pages": [
+          182,
+          183
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0666",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.51.1.1",
+      "gazette_pages": [
+        191
+      ],
+      "exact_quote": "2.2.51.1.1: „Tytuł klasy 5.1 obejmuje materiały, które same nie zawsze są palne, mogą jednak, wskutek wydzielania tlenu, powodować zapalenie lub podtrzymywanie palenia innego materiału, i przedmioty zawierające takie materiały.”",
+      "finding": "POPRAW — pytanie powiela główny efekt klasy 5.1 sprawdzany w 0044, 0156 i 0725. Trzeba zastąpić je innym zagadnieniem tej samej kompetencji 02-K07. Proponuję kryterium I grupy pakowania dla stałych materiałów utleniających w teście O.1. Sources zawierają trzy nakładające się odwołania, z których 5.4.3.4 nie jest potrzebne do samej definicji klasy.",
+      "duplicate_candidates": [
+        "ADR-B-0044",
+        "ADR-B-0156",
+        "ADR-B-0725"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K07",
+      "proposed_replacement": {
+        "stem": "W teście O.1 stałego materiału utleniającego próbka pali się krócej niż mieszanina bromianu potasu i celulozy o stosunku 3:2. Jaką grupę pakowania wskazuje wynik?",
+        "options": {
+          "A": "I grupa, gdy wynik testu O.1 jest krótszy od wzorca bromianu i celulozy 3:2",
+          "B": "II grupa, gdy wynik odpowiada wzorcowi bromianu i celulozy 2:3 w teście O.1",
+          "C": "III grupa, gdy wynik odpowiada wzorcowi bromianu i celulozy 3:7 w teście O.1"
+        },
+        "explanation": "Test O.1 służy do określania grupy pakowania stałych materiałów utleniających. Jeżeli próbka pali się szybciej niż mieszanina bromianu potasu i celulozy o stosunku 3:2, spełnia kryterium I grupy pakowania. Kryteria II i III grupy odnoszą się do innych wartości porównawczych. Kierowca powinien odczytać grupę z dokumentów i nie utożsamiać jej z klasą zagrożenia. Podstawa: ADR 2.2.51.1.8(a)(i).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.51.1.8(a)(i)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Test O.1: I grupa pakowania, jeżeli badana próbka [...] charakteryzuje się średnim czasem palenia krótszym niż średni czas palenia mieszaniny bromianu potasu i celulozy o stosunku masowym 3:2.",
+        "pages": [
+          192
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K07",
+        "correct_option": "A",
+        "replacement_quote": "Test O.1: I grupa pakowania, jeżeli badana próbka [...] charakteryzuje się średnim czasem palenia krótszym niż średni czas palenia mieszaniny bromianu potasu i celulozy o stosunku masowym 3:2.",
+        "replacement_pages": [
+          192
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0667",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 7.1.7.3.4; 7.1.7.4.3",
+      "gazette_pages": [
+        1285,
+        1286
+      ],
+      "exact_quote": "7.1.7.3.4: „Temperatura awaryjna” jest to temperatura, w której postępowanie awaryjne powinno być wprowadzane. 7.1.7.4.3: „Jeżeli zostanie osiągnięta temperatura awaryjna, to należy rozpocząć postępowanie awaryjne.”",
+      "finding": "POPRAW — źródło w wyjaśnieniu jest błędne: 7.1.7.3.4 definiuje temperaturę kontrolowaną i awaryjną, a obowiązek rozpoczęcia procedury po osiągnięciu temperatury awaryjnej wynika z 7.1.7.4.3, nie 7.1.7.4.1. Dystraktor B jest błędny, bo częstsze pomiary i przygotowanie dotyczą przekroczenia temperatury kontrolowanej, nie osiągnięcia awaryjnej.",
+      "duplicate_candidates": [],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K08",
+      "proposed_replacement": {
+        "stem": "Podczas przewozu nadtlenku organicznego czujnik wskazuje osiągnięcie temperatury awaryjnej z dokumentacji. Jakie działanie przewiduje ADR?",
+        "options": {
+          "A": "Rozpocząć postępowanie awaryjne zgodnie z planem dla przewozu",
+          "B": "Zwiększyć częstotliwość pomiarów i prowadzić alarmowanie zgodnie z planem",
+          "C": "Naprawić chłodzenie i odłożyć decyzję do kolejnego odczytu"
+        },
+        "explanation": "Temperatura awaryjna jest granicą, przy której należy rozpocząć postępowanie awaryjne. Po jej osiągnięciu kierowca nie powinien poprzestać na częstszych pomiarach ani zwykłym alarmowaniu. Działania powinny odpowiadać procedurze awaryjnej przewidzianej dla przewozu. Temperatura kontrolowana jest odrębnym progiem bezpieczeństwa. Podstawa: ADR 7.1.7.3.4 i 7.1.7.4.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.1.7.3.4; 7.1.7.4.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Jeżeli zostanie osiągnięta temperatura awaryjna, to należy rozpocząć postępowanie awaryjne.",
+        "pages": [
+          1285,
+          1286
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K08",
+        "correct_option": "A",
+        "replacement_quote": "Jeżeli zostanie osiągnięta temperatura awaryjna, to należy rozpocząć postępowanie awaryjne.",
+        "replacement_pages": [
+          1285,
+          1286
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0668",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.62.1.4.2; 3.3 przepis szczególny 319; 4.1.4.1 P650",
+      "gazette_pages": [
+        229,
+        641,
+        820
+      ],
+      "exact_quote": "2.2.62.1.4.2: „Materiały zakaźne kategorii B powinny być zaliczone do UN 3373.” Przepis szczególny 319: „Materiały zapakowane i sztuki przesyłek, które są oznakowane zgodnie z instrukcją pakowania P650, nie podlegają żadnym innym przepisom ADR.”",
+      "finding": "POPRAW — przepis szczególny 319 wyłącza pozostałe przepisy ADR dla materiałów zapakowanych i sztuk przesyłek oznakowanych zgodnie z P650. Sformułowanie z pytania jest wiernym skrótem, ale trzeba doprecyzować, że wyłączenie zależy od spełnienia zarówno pakowania, jak i oznakowania. Opcje mają średniki i kropki oraz zawierają słowa absolutne.",
+      "duplicate_candidates": [],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K10",
+      "proposed_replacement": {
+        "stem": "Przesyłka UN 3373 została zapakowana i oznakowana zgodnie z P650. Co wynika z przepisu szczególnego 319?",
+        "options": {
+          "A": "Przy spełnieniu P650 przesyłka nie podlega innym przepisom ADR",
+          "B": "P650 określa opakowanie, a pozostałe wymagania ADR nadal obowiązują",
+          "C": "UN 3373 wymaga P620, tak jak materiały zakaźne kategorii A"
+        },
+        "explanation": "Przepis szczególny 319 stanowi, że materiały zapakowane i sztuki przesyłek oznakowane zgodnie z instrukcją P650 nie podlegają innym przepisom ADR. Sam numer UN 3373 nie wystarcza do zastosowania tego wyłączenia. Trzeba spełnić wymagania pakowania i oznakowania wskazane w P650. Kategoria B różni się od kategorii A, dla której stosuje się inne wymagania. Podstawa: ADR 3.3 przepis szczególny 319 i 4.1.4.1 P650.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.3 przepis szczególny 319; 4.1.4.1 P650",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Materiały zapakowane i sztuki przesyłek, które są oznakowane zgodnie z instrukcją pakowania P650, nie podlegają żadnym innym przepisom ADR.",
+        "pages": [
+          641,
+          820
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K10",
+        "correct_option": "A",
+        "replacement_quote": "Materiały zapakowane i sztuki przesyłek, które są oznakowane zgodnie z instrukcją pakowania P650, nie podlegają żadnym innym przepisom ADR.",
+        "replacement_pages": [
+          641,
+          820
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0669",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 5.1.5.3.4(a); tabela 5.1.5.3.4",
+      "gazette_pages": [
+        931,
+        932
+      ],
+      "exact_quote": "5.1.5.3.4(a): „Jeżeli wskaźnik transportowy odpowiada warunkom jednej kategorii, a moc dawki na powierzchni odpowiada warunkom innej kategorii, to sztuka przesyłki, opakowanie zbiorcze lub kontener powinny być zakwalifikowane do wyższej kategorii. Kategorię I-BIAŁA uważa się za najniższą.” Tabela: TI >0 do 1 i moc dawki >0,005 do 0,5 mSv/h — II-ŻÓŁTA; TI >1 do 10 lub moc dawki >0,5 do 2 mSv/h — III-ŻÓŁTA.",
+      "finding": "POPRAW — kategorie są przypisywane przesyłce przez nadawcę, a pytanie pyta kierowcę, jaką kategorię ma „przyjąć”. Wartości są poprawne: TI 0,8 odpowiada II-ŻÓŁTEJ, a 0,7 mSv/h na powierzchni III-ŻÓŁTEJ, więc wyższa jest III-ŻÓŁTA. Przeredagować na kontrolę zgodności oznakowania z danymi. Opcje są długie i kończą się kropkami.",
+      "duplicate_candidates": [
+        "ADR-B-0624"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K11",
+      "proposed_replacement": {
+        "stem": "Na przesyłce klasy 7 widnieje kategoria III-ŻÓŁTA. Dokument podaje TI 0,8, a pomiar powierzchni wynosi 0,7 mSv/h. Czy oznakowanie odpowiada zasadzie wyboru wyższej kategorii?",
+        "options": {
+          "A": "TI 0,8 wskazuje II-ŻÓŁTĄ, a moc dawki 0,7 mSv/h wskazuje III-ŻÓŁTĄ",
+          "B": "Przy rozbieżności wybiera się kategorię wyższą, czyli III-ŻÓŁTĄ",
+          "C": "TI 0,8 wskazuje II-ŻÓŁTĄ mimo wyższej mocy dawki na powierzchni"
+        },
+        "explanation": "Kategorię przesyłki promieniotwórczej ustala się z uwzględnieniem zarówno wskaźnika TI, jak i mocy dawki na powierzchni. Jeżeli oba parametry wskazują różne kategorie, stosuje się kategorię wyższą. Wartość 0,7 mSv/h odpowiada III-ŻÓŁTEJ, mimo że TI 0,8 mieści się w zakresie II-ŻÓŁTEJ. Kierowca sprawdza zgodność oznakowania z dokumentami. Podstawa: ADR 5.1.5.3.4(a) i tabela 5.1.5.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.1.5.3.4(a); tabela 5.1.5.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Jeżeli wskaźnik transportowy odpowiada warunkom jednej kategorii, a moc dawki na powierzchni odpowiada warunkom innej kategorii, to sztuka przesyłki [...] powinna być zakwalifikowana do wyższej kategorii.",
+        "pages": [
+          931,
+          932
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K11",
+        "correct_option": "B",
+        "replacement_quote": "Jeżeli wskaźnik transportowy odpowiada warunkom jednej kategorii, a moc dawki na powierzchni odpowiada warunkom innej kategorii, to sztuka przesyłki [...] powinna być zakwalifikowana do wyższej kategorii.",
+        "replacement_pages": [
+          931,
+          932
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0670",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.61.1.1; 5.4.3.4",
+      "gazette_pages": [
+        214,
+        975
+      ],
+      "exact_quote": "2.2.61.1.1: „Tytuł klasy 6.1 obejmuje materiały [...] które mogą [...] spowodować uszczerbek na zdrowiu lub śmierć człowieka w wyniku ich wdychania, przenikania przez skórę lub połknięcia.” 5.4.3.4: „Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej.”",
+      "finding": "POPRAW — rozlew proszku 6.1 częściowo nakłada się na maski ucieczkowe w 0485 i ogólne instrukcje postępowania w 0050/0102, ale nie jest to identyczne pytanie. Sformułowanie „nie zamiatać” jest praktycznym wnioskiem z zakazu dotykania i unikania pyłu, a nie dosłownym cytatem ADR. Zastępuję temat pytaniem o kryterium grupy pakowania dla toksyczności doustnej, niepokryte w tej kompetencji.",
+      "duplicate_candidates": [
+        "ADR-B-0485",
+        "ADR-B-0050",
+        "ADR-B-0102"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K09",
+      "proposed_replacement": {
+        "stem": "Wynik toksyczności doustnej materiału klasy 6.1 wynosi LD50 25 mg/kg. Do której grupy pakowania odpowiada ten wynik?",
+        "options": {
+          "A": "I grupa, ponieważ doustna LD50 wynosi 4 mg/kg i wskazuje wysoką toksyczność",
+          "B": "II grupa, ponieważ doustna LD50 25 mg/kg mieści się w przedziale tej grupy",
+          "C": "III grupa, ponieważ wynik 25 mg/kg oznacza niewielkie zagrożenie toksyczne"
+        },
+        "explanation": "Toksyczność klasy 6.1 ocenia się między innymi na podstawie dawki powodującej określony skutek po połknięciu, kontakcie ze skórą lub wdychaniu. Dla toksyczności doustnej wartość LD50 powyżej 5 mg/kg i nie większa niż 50 mg/kg odpowiada II grupie pakowania. Wynik 25 mg/kg mieści się w tym przedziale. Pozostałe drogi narażenia mogą prowadzić do równie surowej klasyfikacji. Podstawa: ADR 2.2.61.1.7.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.61.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Toksyczność doustna LD50: grupa I — poniżej 5 mg/kg; grupa II — powyżej 5 mg/kg i poniżej 50 mg/kg; grupa III — powyżej 50 mg/kg i poniżej 300 mg/kg.",
+        "pages": [
+          215
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K09",
+        "correct_option": "B",
+        "replacement_quote": "Toksyczność doustna LD50: grupa I — poniżej 5 mg/kg; grupa II — powyżej 5 mg/kg i poniżej 50 mg/kg; grupa III — powyżej 50 mg/kg i poniżej 300 mg/kg.",
+        "replacement_pages": [
+          215
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0671",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 4.1.6.8",
+      "gazette_pages": [
+        854,
+        855
+      ],
+      "exact_quote": "4.1.6.8: „Zawory i inne elementy, które mają pozostać połączone z zaworem podczas przewozu [...] powinny być [...] zabezpieczone przed uszkodzeniami [...] przez zastosowanie jednego z poniższych sposobów”: (a) wewnątrz szyjki i korek lub kołpak; (b) kołpaki lub kołnierze; (c) nakładka ochronna lub osłona zamocowana na stałe; (d) naczynia przewożone w ramach; (e) naczynia przewożone w skrzyniach zabezpieczających.",
+      "finding": "POPRAW — klucz B jest zgodny z 4.1.6.8: rama jest jedną z dopuszczonych metod ochrony zaworu, obok rozwiązań z punktów (a)–(c) i skrzyni z (e). Pytanie powinno jednak wyraźniej odróżniać sam brak kapturka od oceny skuteczności ramy. Opcje są długie i kończą się kropkami.",
+      "duplicate_candidates": [],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K02",
+      "proposed_replacement": {
+        "stem": "Butla z gazem jest przewożona w ramie ochronnej bez kapturka na zaworze. Co powinien ocenić kierowca przed przyjęciem przesyłki?",
+        "options": {
+          "A": "Zażądać kapturka, bo rama nie chroni zaworu przed uderzeniem z każdej strony",
+          "B": "Sprawdzić, czy rama zabezpiecza zawór przed uszkodzeniem i wyciekiem gazu",
+          "C": "Uznać butlę za gotową, ponieważ zamknięty zawór sam zabezpiecza zawartość"
+        },
+        "explanation": "Zawory i elementy połączone z zaworem muszą być odporne na uszkodzenia albo odpowiednio zabezpieczone przed przypadkowym uwolnieniem zawartości. ADR wymienia kilka dopuszczonych sposobów ochrony, w tym kołpaki, osłony, ramy i skrzynie zabezpieczające. Dlatego brak kapturka nie przesądza sam w sobie o niezgodności. Trzeba ocenić, czy zastosowana rama chroni zawór. Podstawa: ADR 4.1.6.8.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 4.1.6.8",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Zawory [...] powinny być [...] zabezpieczone przed uszkodzeniami [...] przez zastosowanie jednego z poniższych sposobów: (a) [...] korek lub kołpak; (b) kołpaki lub kołnierze; (c) nakładka ochronna lub osłona zamocowana na stałe; (d) naczynia ciśnieniowe przewożone są w ramach; (e) naczynia ciśnieniowe przewożone są w skrzyniach zabezpieczających.",
+        "pages": [
+          854,
+          855
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K02",
+        "correct_option": "B",
+        "replacement_quote": "Zawory [...] powinny być [...] zabezpieczone przed uszkodzeniami [...] przez zastosowanie jednego z poniższych sposobów: (a) [...] korek lub kołpak; (b) kołpaki lub kołnierze; (c) nakładka ochronna lub osłona zamocowana na stałe; (d) naczynia ciśnieniowe przewożone są w ramach; (e) naczynia ciśnieniowe przewożone są w skrzyniach zabezpieczających.",
+        "replacement_pages": [
+          854,
+          855
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0672",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 1.10.1.4",
+      "gazette_pages": [
+        110
+      ],
+      "exact_quote": "1.10.1.4: „Każdy członek załogi pojazdu przewożącego towary niebezpieczne powinien posiadać przy sobie dokument z fotografią potwierdzający jego tożsamość.”",
+      "finding": "POPRAW — temat dokumentu tożsamości ze zdjęciem jest wyczerpany przez 0034, 0774, 0087, 0175, 0250 i 0778. Zastępuję go innym wymaganiem dotyczącym dokumentów przewozowych w tej samej kompetencji ADR-B-13-K05. Opcje są długie, kończą się kropkami i zawierają słowa absolutne.",
+      "duplicate_candidates": [
+        "ADR-B-0034",
+        "ADR-B-0774",
+        "ADR-B-0087",
+        "ADR-B-0175",
+        "ADR-B-0250",
+        "ADR-B-0778"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-13-K05",
+      "proposed_replacement": {
+        "stem": "Dokument przewozowy obejmuje kilka towarów niebezpiecznych. Jaką informację o ilości powinien zawierać dla każdego odrębnego towaru?",
+        "options": {
+          "A": "Wpis w notatniku kierowcy może zastąpić brakującą informację o ilości towaru",
+          "B": "Sprawdzić ilość każdego towaru niebezpiecznego w dokumencie przed wyjazdem",
+          "C": "Okazać dokument kierowcy i poprosić nadawcę o ustne potwierdzenie ilości"
+        },
+        "explanation": "Dokument przewozowy powinien podawać całkowitą ilość każdego towaru niebezpiecznego, który ma odrębny numer UN, nazwę przewozową lub grupę pakowania. Ilość wyraża się odpowiednio jako objętość, masę brutto albo masę netto. Dane te pozwalają ustalić ilość przewożonego materiału podczas kontroli i w razie zdarzenia. Kierowca powinien sprawdzić kompletność wpisu przed wyjazdem. Podstawa: ADR 5.4.1.1.1(f).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(f)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Całkowitą ilość każdego z towarów niebezpiecznych mającego odrębny numer UN, odrębną prawidłową nazwę przewozową lub, jeżeli została przypisana, odrębną grupę pakowania (odpowiednio jako objętość, masę brutto lub masę netto).",
+        "pages": [
+          962
+        ],
+        "module_id": "ADR-B-13",
+        "competency_id": "ADR-B-13-K05",
+        "correct_option": "B",
+        "replacement_quote": "Całkowitą ilość każdego z towarów niebezpiecznych mającego odrębny numer UN, odrębną prawidłową nazwę przewozową lub, jeżeli została przypisana, odrębną grupę pakowania (odpowiednio jako objętość, masę brutto lub masę netto).",
+        "replacement_pages": [
+          962
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0673",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.9.1.7.1; 3.2.1 tabela A (UN 3481)",
+      "gazette_pages": [
+        274,
+        611
+      ],
+      "exact_quote": "Tabela A, UN 3481: „BATERIE LITOWO-JONOWE [...] W URZĄDZENIACH lub BATERIE LITOWO-JONOWE [...] ZAPAKOWANE Z URZĄDZENIAMI”. 2.2.9.1.7.1 rozróżnia baterie litowo-jonowe i litowo-metaliczne oraz ich przewóz w urządzeniach lub z urządzeniami.",
+      "finding": "POPRAW — rozpoznanie UN 3481 jest poprawne: tabela A rozróżnia baterie litowo-jonowe w urządzeniach i zapakowane z urządzeniami. UN 3091 dotyczy baterii litowo-metalicznych z urządzeniami, więc dystraktor C jest błędny. Należy zachować rozróżnienie baterii zamontowanej i zapakowanej obok urządzenia. Opcje są długie i kończą się kropkami.",
+      "duplicate_candidates": [
+        "ADR-B-0499"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K13",
+      "proposed_replacement": {
+        "stem": "Zapasowa bateria litowo-jonowa znajduje się w opakowaniu razem z elektronarzędziem, które zasila. Jaki numer UN odpowiada tej baterii?",
+        "options": {
+          "A": "UN 3480 dla baterii litowo-jonowej przewożonej bez urządzenia",
+          "B": "UN 3481 dla baterii litowo-jonowej zapakowanej razem z urządzeniem",
+          "C": "UN 3091 dla baterii litowo-metalicznej zapakowanej razem z urządzeniem"
+        },
+        "explanation": "UN 3481 obejmuje baterie litowo-jonowe znajdujące się w urządzeniu lub zapakowane z urządzeniem. Bateria zapasowa umieszczona w tym samym opakowaniu co wiertarka jest zapakowana z urządzeniem, nawet jeśli nie została w nim zamontowana. UN 3480 dotyczy baterii litowo-jonowych przewożonych bez urządzenia. UN 3091 odnosi się do baterii litowo-metalicznych. Podstawa: ADR 2.2.9.1.7.1 i tabela A w dziale 3.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.9.1.7.1; 3.2.1 tabela A, UN 3481",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "UN 3481: BATERIE LITOWO-JONOWE W URZĄDZENIACH lub BATERIE LITOWO-JONOWE ZAPAKOWANE Z URZĄDZENIAMI.",
+        "pages": [
+          611
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K13",
+        "correct_option": "B",
+        "replacement_quote": "UN 3481: BATERIE LITOWO-JONOWE W URZĄDZENIACH lub BATERIE LITOWO-JONOWE ZAPAKOWANE Z URZĄDZENIAMI.",
+        "replacement_pages": [
+          611
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0674",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.43.1.8(a)",
+      "gazette_pages": [
+        188
+      ],
+      "exact_quote": "2.2.43.1.8(a): „Materiał zalicza się do I grupy pakowania, jeżeli w temperaturze otoczenia reaguje energicznie z wodą i generalnie wydzielany gaz wykazuje tendencję do samorzutnego zapalania, albo reaguje łatwo z wodą w temperaturze otoczenia wydzielając gaz palny z szybkością co najmniej 10 litrów na kilogram badanego materiału w ciągu jednej minuty.”",
+      "finding": "POPRAW — kryterium I grupy jest zgodne z ADR. 0674, 0675 i 0676 tworzą serię o trzech różnych progach grup pakowania klasy 4.3; nie są identycznymi pytaniami, bo sprawdzają kryteria I, II i III. Zachowuję temat, ale skracam opcje i usuwam słowa absolutne oraz kropki.",
+      "duplicate_candidates": [
+        "ADR-B-0675",
+        "ADR-B-0676"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K06",
+      "proposed_replacement": {
+        "stem": "Materiał klasy 4.3 reaguje energicznie z wodą, a wydzielany gaz ma tendencję do samozapłonu. Jaką grupę pakowania wskazuje ten opis?",
+        "options": {
+          "A": "I grupa oznacza powolną reakcję z wodą i niską ilość gazu palnego",
+          "B": "I grupa oznacza energiczną reakcję z wodą i gaz skłonny do samozapłonu",
+          "C": "I grupa oznacza reakcję po ogrzaniu i wydzielanie niewielkiej ilości gazu"
+        },
+        "explanation": "Grupa I dotyczy materiału klasy 4.3, który reaguje z wodą energicznie i wydzielany gaz ma tendencję do samozapłonu. Kryterium obejmuje także szybkie wydzielanie gazu palnego w ilości co najmniej 10 litrów na kilogram w ciągu jednej minuty. To wyższy poziom zagrożenia niż kryteria grup II i III. Podstawa: ADR 2.2.43.1.8(a).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.43.1.8(a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Materiał zalicza się do I grupy pakowania, jeżeli w temperaturze otoczenia reaguje energicznie z wodą i generalnie wydzielany gaz wykazuje tendencję do samorzutnego zapalania.",
+        "pages": [
+          188
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K06",
+        "correct_option": "B",
+        "replacement_quote": "Materiał zalicza się do I grupy pakowania, jeżeli w temperaturze otoczenia reaguje energicznie z wodą i generalnie wydzielany gaz wykazuje tendencję do samorzutnego zapalania.",
+        "replacement_pages": [
+          188
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0675",
+      "verdict": "POPRAW",
+      "legal_basis": "ADR 2025, 2.2.43.1.8(b)",
+      "gazette_pages": [
+        188
+      ],
+      "exact_quote": "2.2.43.1.8(b): „Materiał zalicza się do II grupy pakowania, jeżeli w temperaturze otoczenia reaguje łatwo z wodą w taki sposób, że maksymalna prędkość wydzielanego gazu palnego wynosi, co najmniej 20 litrów na kilogram materiału badanego w ciągu godziny, i który nie spełnia kryteriów I grupy pakowania.”",
+      "finding": "POPRAW — 24 l/kg/h spełnia próg II grupy (co najmniej 20 l/kg/h), jeżeli materiał nie spełnia kryteriów I. Jednak treść już podaje „II grupę pakowania”, a pytanie pyta o znaczenie tej klasyfikacji, więc odpowiedź jest ujawniona. 0674–0676 to trzy różne progi, nie identyczne pytania. Przeredagować stem bez podawania grupy.",
+      "duplicate_candidates": [
+        "ADR-B-0674",
+        "ADR-B-0676"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "competency_id": "ADR-B-02-K06",
+      "proposed_replacement": {
+        "stem": "Materiał klasy 4.3 reaguje łatwo z wodą i wydziela 24 l gazu palnego na kilogram w ciągu godziny. Nie spełnia kryteriów I grupy. Która grupa pakowania odpowiada temu wynikowi?",
+        "options": {
+          "A": "II grupa oznacza co najmniej 20 l/kg gazu na godzinę, poza kryterium I",
+          "B": "II grupa oznacza powolną reakcję z wydzielaniem ponad 1 l/kg na godzinę",
+          "C": "II grupa oznacza energiczną reakcję i szybkie wydzielanie gazu palnego"
+        },
+        "explanation": "Grupa II obejmuje materiał klasy 4.3, który łatwo reaguje z wodą i wydziela gaz palny w ilości co najmniej 20 litrów na kilogram w ciągu godziny. Warunek ten stosuje się, gdy materiał nie spełnia kryteriów I grupy pakowania. Wynik 24 litry na kilogram na godzinę przekracza próg dla II grupy. Podstawa: ADR 2.2.43.1.8(b).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.43.1.8(b)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "quote": "Materiał zalicza się do II grupy pakowania, jeżeli w temperaturze otoczenia reaguje łatwo z wodą [...] wydzielając gaz palny [...] co najmniej 20 litrów na kilogram [...] w ciągu godziny, i który nie spełnia kryteriów I grupy pakowania.",
+        "pages": [
+          188
+        ],
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K06",
+        "correct_option": "A",
+        "replacement_quote": "Materiał zalicza się do II grupy pakowania, jeżeli w temperaturze otoczenia reaguje łatwo z wodą [...] wydzielając gaz palny [...] co najmniej 20 litrów na kilogram [...] w ciągu godziny, i który nie spełnia kryteriów I grupy pakowania.",
+        "replacement_pages": [
+          188
+        ]
+      }
+    }
+  ]
+}
