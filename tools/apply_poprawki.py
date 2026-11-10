@@ -65,6 +65,7 @@ SOURCES = [
     "POPRAWKI-KONTROLA2-0526-0540.jsonl",
     "POPRAWKI-KONTROLA2-0541-0555.jsonl",
     "POPRAWKI-KONTROLA2-0556-0570.jsonl",
+    "POPRAWKI-KONTROLA2-0571-0585.jsonl",
 ]
 
 def read_jsonl(path: Path):
