@@ -3,7 +3,7 @@
   "exam_type": "ADR_BASIC_PRACTICE_DRAFT",
   "publication_authorized": false,
   "seed": 2026102704,
-  "source_bank_head": "e0c671756644994d18480feae5c08bc70ee0ffbd",
+  "source_bank_head": "73aa25f2ae5fed6f40b1948dfb917f082c08b58e",
   "question_count": 30,
   "pass_mark_correct": 20,
   "pass_mark_fraction": "2/3",
@@ -42,7 +42,7 @@
       "number": 4,
       "id": "ADR-B-0526",
       "correct_option": "A",
-      "explanation": "W przewozie EQ (ilości wyłączone) w jednym pojeździe lub kontenerze można mieć najwyżej 1000 sztuk przesyłek. Liczba 1050 przekracza limit, nawet jeśli opakowania są jednakowe i każde ma prawidłowy znak EQ. Przed załadunkiem trzeba policzyć sztuki; samo oznakowanie nie pozwala przekroczyć dopuszczalnej liczby. Podstawa: ADR 3.5.5.",
+      "explanation": "Dla towarów w ilościach wyłączonych (EQ) punkt 3.5.5 ogranicza liczbę sztuk przesyłek w jednym pojeździe lub kontenerze do 1 000. Przy 1 050 sztukach limit jest przekroczony, więc nadwyżkę trzeba przewieźć innym pojazdem albo cały ładunek przewieźć na innych zasadach ADR. Jednakowe wymiary opakowań ani prawidłowe znaki EQ nie podnoszą tego limitu. Dlatego przed załadunkiem trzeba policzyć sztuki przesyłek. Podstawa: ADR 3.5.5.",
       "legal_basis": [
         "ADR 2025, 3.5.5"
       ],
@@ -202,7 +202,7 @@
       "number": 20,
       "id": "ADR-B-0538",
       "correct_option": "B",
-      "explanation": "Jeśli jedna przesyłka zostaje podzielona między dwa pojazdy, dokument przewozowy lub jego kopia musi znajdować się w każdej jednostce transportowej. Jeden egzemplarz pozostawiony tylko w pierwszym pojeździe nie dokumentuje ładunku przewożonego drugim. Ustne przekazanie danych kierowcy również nie zastępuje dokumentu. Podstawa: ADR 5.4.1.4.2.",
+      "explanation": "Według 5.4.1.4.2, gdy ze względu na wielkość ładunku przesyłka nie mieści się w jednej jednostce transportowej, sporządza się odrębne dokumenty lub kopie jednego dokumentu. Ich liczba odpowiada liczbie załadowanych jednostek transportowych, więc każdy z dwóch pojazdów ma swój dokument. Odrębne dokumenty sporządza się też wtedy, gdy części przesyłki nie wolno ładować razem z powodu zakazów z 7.5.2. Informacja ustna nie zastępuje dokumentu przewozowego. Podstawa: ADR 5.4.1.4.2.",
       "legal_basis": [
         "ADR 2025, 5.4.1.4.2"
       ],
@@ -222,7 +222,7 @@
       "number": 22,
       "id": "ADR-B-0532",
       "correct_option": "A",
-      "explanation": "Pojemnik, który został opróżniony, ale nieoczyszczony, może nadal zawierać niebezpieczne pozostałości. W dokumencie przewozowym trzeba więc wskazać jego stan oraz ostatnią zawartość zgodnie z wymaganym opisem; samo słowo „pusty” pomija ważną informację. Numer magazynowy nie zastępuje określenia przewidzianego w ADR. Podstawa: ADR 5.4.1.1.6.1.",
+      "explanation": "Według 5.4.1.1.6.1 przy próżnych, nieoczyszczonych jednostkach ładunkowych z pozostałościami towarów klas innych niż 7 podaje się numer UN, nazwę, numery nalepek, grupę pakowania i kod tunelowy. Przed tymi danymi lub po nich wpisuje się „PRÓŻNE NIEOCZYSZCZONE” albo „POZOSTAŁOŚCI OSTATNIEGO ŁADUNKU”. Ilości z 5.4.1.1.1 (f) w takim opisie się nie podaje. Wyraz „ODPAD” dotyczy odpadów, a nie każdego próżnego opakowania, które wraca do nadawcy. Podstawa: ADR 5.4.1.1.6.1.",
       "legal_basis": [
         "ADR 2025, 5.4.1.1.6.1"
       ],

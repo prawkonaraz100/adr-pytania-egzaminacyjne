@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0534",
       "order": 534,
-      "clause": "3.4.11",
+      "clause": "ADR 2025, 3.4.11; 5.1.2.1",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "ADR 3.4.11 wymaga oznakowania LQ i słowa OVERPACK, jeśli znaki wszystkich towarów w opakowaniu zbiorczym nie są widoczne."
+          "rationale": "3.4.11: „OPAKOWANIE ZBIORCZE” i znak LQ; reszta 5.1.2.1 tylko przy innych towarach niż LQ."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Same numery UN nie spełniają szczególnych warunków oznakowania zbiorczego LQ 3.4.11."
+          "rationale": "Numery UN i nalepki z 5.1.2.1 – tylko gdy w opakowaniu są towary niebędące LQ."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Lista przewozowa nie zastępuje oznakowania na opakowaniu zbiorczym przewidzianego w 3.4.11."
+          "rationale": "3.4.11 (a) wymaga napisu „OPAKOWANIE ZBIORCZE” – nie jest dobrowolny."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta.",
+      "notes_on_conditions": "3.4.11 s. 688 (#903 podał 671 – numer stopki ADR); 5.1.2.1 s. 928.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -34,18 +34,18 @@
       "question_snapshot": {
         "id": "ADR-B-0534",
         "module_id": "ADR-B-01",
-        "stem": "Na terminalu połączono kilka opakowań LQ w opakowanie zbiorcze. Oznaczenia LQ poszczególnych sztuk są niewidoczne. Jak powinno być oznakowane opakowanie zbiorcze?",
+        "stem": "Na palecie owiniętej folią są tylko kartony z towarami w ilościach ograniczonych, a ich znaki LQ są niewidoczne. Pracownik chce nakleić na folię numery UN i nalepki ostrzegawcze. Czego wymaga 3.4.11?",
         "options": {
-          "A": "Oznakować znakiem LQ i napisem OVERPACK, zgodnie z 3.4.11",
-          "B": "Umieścić wyłącznie numery UN, pomijając wymagany napis opakowania zbiorczego",
-          "C": "Włożyć listę przewozową pod folię i uznać ją za zastępstwo oznakowania LQ"
+          "A": "Napisu „OPAKOWANIE ZBIORCZE” i znaku LQ, a numery UN nie są wymagane",
+          "B": "Numerów UN i nalepek ostrzegawczych towarów z kartonów, jak przy pełnym ADR",
+          "C": "Samego znaku LQ, bo napis o opakowaniu zbiorczym jest dobrowolny"
         },
         "correct_option": "A",
-        "explanation": "Jeśli opakowanie zbiorcze zasłania znaki LQ na zapakowanych w nim sztukach przesyłek, trzeba umieścić na nim wymagany znak LQ i napis „OVERPACK”. Same numery UN nie przekazują informacji o przewozie w ilościach ograniczonych, a dokument włożony pod folię nie zastąpi widocznego oznakowania. Przed wysyłką sprawdź, czy znaki są czytelne z zewnątrz. Podstawa: ADR 3.4.11.",
+        "explanation": "Według 3.4.11, gdy znaki na sztukach przesyłek w ilościach ograniczonych nie są widoczne, opakowanie zbiorcze oznacza się napisem „OPAKOWANIE ZBIORCZE” i znakiem LQ. Pozostałe wymagania z 5.1.2.1, w tym numery UN i nalepki ostrzegawcze, stosuje się tylko wtedy, gdy w opakowaniu zbiorczym są też inne towary niebezpieczne, niezapakowane w ilościach ograniczonych. Na tej palecie są same kartony LQ, więc numery UN i nalepki nie są wymagane. Napisu o opakowaniu zbiorczym nie można jednak pominąć. Podstawa: ADR 3.4.11 i 5.1.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.4.11",
+            "reference": "ADR 2025, 3.4.11; 5.1.2.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -56,24 +56,24 @@
     {
       "id": "ADR-B-0535",
       "order": 535,
-      "clause": "3.4.12",
+      "clause": "ADR 2025, 3.4.12",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Liczba opakowań nie jest wymaganą informacją o łącznej masie brutto."
+          "rationale": "3.4.12 wymaga informacji o całkowitej masie brutto – nie wystarczy liczba kartonów."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wymagane jest przekazanie całkowitej masy brutto LQ przed przewozem."
+          "rationale": "3.4.12: przed przewozem, w udokumentowany sposób, całkowita masa brutto."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Masa netto pomija opakowania, więc nie zastępuje łącznej masy brutto."
+          "rationale": "3.4.12 mówi o masie brutto, a nie o masie netto zawartości."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending. Etap 4x118: dystraktory zredagowano; klucz i podstawa prawna bez zmian; niezależna recenzja specjalisty nadal wymagana.",
+      "notes_on_conditions": "3.4.12 s. 688 (#903 podał 671 – numer stopki ADR).",
       "editorial_result": "distractors_rephrased_4x118; correct key and legal basis unchanged; specialist review pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -81,14 +81,14 @@
       "question_snapshot": {
         "id": "ADR-B-0535",
         "module_id": "ADR-B-01",
-        "stem": "Nadawca przekazuje przewoźnikowi partię towarów w ilościach ograniczonych LQ. Jaką informację powinien przed przewozem przekazać mu w możliwej do udokumentowania formie?",
+        "stem": "Nadawca przekazuje przewoźnikowi kartony z towarami w ilościach ograniczonych. Jaką informację o tych towarach musi mu przekazać przed rozpoczęciem przewozu według 3.4.12?",
         "options": {
-          "A": "Podać liczbę opakowań i sztuk, a masę brutto pozostawić przewoźnikowi do oszacowania.",
-          "B": "Przekazać całkowitą masę brutto przewożonych towarów w ilościach ograniczonych LQ",
-          "C": "Przekazać wyłącznie masę netto zawartości LQ, ponieważ opakowania nie są częścią towaru."
+          "A": "Samą liczbę kartonów, bo masę brutto przewoźnik oszacuje we własnym zakresie",
+          "B": "Całkowitą masę brutto tych towarów, przekazaną w udokumentowany sposób",
+          "C": "Masę netto samej zawartości, bez masy opakowań zewnętrznych"
         },
         "correct_option": "B",
-        "explanation": "Przy przewozie LQ, czyli towarów w ilościach ograniczonych, nadawca musi przekazać przewoźnikowi łączną masę brutto tych towarów. Masa brutto obejmuje także opakowania, dlatego sama masa zawartości jest niewystarczająca. Liczba paczek również nie pozwala ustalić ich łącznej masy. Informację trzeba przekazać przed rozpoczęciem przewozu i w sposób, który można udokumentować. Podstawa: ADR 3.4.12.",
+        "explanation": "Według 3.4.12 nadawca towarów zapakowanych w ilościach ograniczonych przed rozpoczęciem przewozu przekazuje przewoźnikowi informację o całkowitej masie brutto tych towarów. Informację przekazuje się w udokumentowany sposób, czyli tak, aby można było ją później wykazać. Masa brutto obejmuje także opakowania, więc sama masa zawartości lub liczba kartonów nie wystarczy. Przewoźnik potrzebuje tej masy, aby ocenić, czy pojazd musi mieć znaki LQ według 3.4.13 i 3.4.14. Podstawa: ADR 3.4.12.",
         "sources": [
           {
             "code": "ADR-2025-PL",
@@ -103,24 +103,24 @@
     {
       "id": "ADR-B-0536",
       "order": 536,
-      "clause": "5.4.1.1.1",
+      "clause": "ADR 2025, 5.4.1.1.1 (kolejność danych (a)–(d) i (k))",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "W 5.4.1.1.1 jest wymagana kolejność elementów a, b, c, d i k; nie jest ona całkiem dowolna."
+          "rationale": "5.4.1.1.1: kolejność dowolna z wyjątkiem danych (a), (b), (c), (d) i (k)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Kod tunelowy nie jest automatycznie umieszczany przed numerem UN; przepis ustala inną sekwencję."
+          "rationale": "Zapis kodu tunelowego nie naprawia błędnej kolejności danych (a)–(d) i (k)."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR 5.4.1.1.1 ustala porządek danych a, b, c, d i k, bez przerywania innymi informacjami, z wyjątkami wskazanymi w przepisie."
+          "rationale": "5.4.1.1.1: kolejność (a), (b), (c), (d), (k) – przykład „UN 1098 ALKOHOL ALLILOWY, 6.1 (3), I, (C/D)”."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta.",
+      "notes_on_conditions": "5.4.1.1.1 s. 962. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -128,18 +128,18 @@
       "question_snapshot": {
         "id": "ADR-B-0536",
         "module_id": "ADR-B-13",
-        "stem": "Na kontroli dokumentów stwierdzono, że opis pozycji ADR zawiera właściwe dane UN, nazwę przewozową, klasę, grupę pakowania i kod tunelowy, ale zapisano je w przypadkowej kolejności. Co należy sprawdzić?",
+        "stem": "W dokumencie przewozowym opis towaru ma postać: „UN 1098, (C/D), ALKOHOL ALLILOWY, I, 6.1 (3)”. Wszystkie dane są prawdziwe. Czy według 5.4.1.1.1 ten zapis jest prawidłowy?",
         "options": {
-          "A": "Sprawdzić, czy kolejność danych można dowolnie zmieniać bez wpływu na wymagania ADR",
-          "B": "Umieścić kod tunelowy przed numerem UN, niezależnie od pozostałych elementów opisu",
-          "C": "Sprawdzić, czy dane z 5.4.1.1.1 podano w wymaganej kolejności"
+          "A": "Tak, umiejscowienie i kolejność tych danych w dokumencie są dowolne",
+          "B": "Tak, jeśli kod tunelowy podano w nawiasie i wielkimi literami",
+          "C": "Nie, powinno być „UN 1098 ALKOHOL ALLILOWY, 6.1 (3), I, (C/D)”"
         },
         "correct_option": "C",
-        "explanation": "Kolejność wpisów w dokumencie ADR jest określona, żeby przewoźnik, kontrola i służby mogli szybko odczytać, jaki towar jedzie i jakie zasady go dotyczą. Nie wystarczy wpisać wszystkich danych w przypadkowym układzie: numer UN, prawidłowa nazwa przewozowa, klasa i pozostałe wymagane elementy muszą wystąpić we właściwej kolejności. A i B proponują układy niezgodne z tym porządkiem. Podstawa: ADR 5.4.1.1.1.",
+        "explanation": "Według 5.4.1.1.1 umiejscowienie i kolejność informacji w dokumencie przewozowym są dowolne, ale z ważnym wyjątkiem. Numer UN, prawidłowa nazwa przewozowa, numery nalepek, grupa pakowania i kod tunelowy, czyli dane z punktów (a), (b), (c), (d) i (k), podaje się właśnie w tej kolejności. Między nimi nie wolno wstawiać innych informacji, chyba że dopuszcza to ADR. Prawidłowy zapis to więc „UN 1098 ALKOHOL ALLILOWY, 6.1 (3), I, (C/D)”, jak w przykładzie z tego punktu. Podstawa: ADR 5.4.1.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1",
+            "reference": "ADR 2025, 5.4.1.1.1 (kolejność danych (a)–(d) i (k))",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -150,24 +150,24 @@
     {
       "id": "ADR-B-0537",
       "order": 537,
-      "clause": "5.4.1.1.1(f)",
+      "clause": "ADR 2025, 5.4.1.1.1 (e)",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Po korekcie długości wariantu A: „Ilość oddzielnie dla każdego rodzaju towaru niebezpiecznego.”. ADR 2025, 5.4.1.1.1(f): ADR 5.4.1.1.1(f) wymaga określenia całkowitej ilości każdego odpowiednio rozróżnionego towaru, według wymaganej jednostki."
+          "rationale": "5.4.1.1.1 (e): kod opakowania jedynie jako uzupełnienie określenia, np. „jedna skrzynia (4G)”."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Jedna liczba bez rozróżnienia pozycji UN i grup pakowania może nie spełnić wymogu 5.4.1.1.1(f)."
+          "rationale": "5.4.1.1.1 (e): kod opakowania nie zastępuje słownego określenia sztuki przesyłki."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Masa własna pojazdu nie jest ilością przewożonego towaru niebezpiecznego wymaganą w 5.4.1.1.1(f)."
+          "rationale": "Masa (f) nie zastępuje liczby i określenia sztuk przesyłek z (e)."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending.",
+      "notes_on_conditions": "5.4.1.1.1 (e) s. 962. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -175,18 +175,18 @@
       "question_snapshot": {
         "id": "ADR-B-0537",
         "module_id": "ADR-B-13",
-        "stem": "W jednym dokumencie przewozowym wykazano dwa różne towary niebezpieczne, o innych numerach UN. Co należy sprawdzić przy podawaniu całkowitej ilości zgodnie z 5.4.1.1.1(f)?",
+        "stem": "W dokumencie przewozowym w miejscu liczby i określenia sztuk przesyłek wpisano: „2 (4G)”, bez słowa „skrzynie”. Czy według 5.4.1.1.1 (e) taki zapis wystarcza?",
         "options": {
-          "A": "Podać całkowitą ilość osobno dla każdego rodzaju towaru niebezpiecznego",
-          "B": "Wpisać jedną łączną liczbę dla całego ładunku, bez rozróżniania różnych towarów",
-          "C": "Zastąpić ilość towaru masą własną pojazdu, aby uprościć dokumentację"
+          "A": "Nie, kod opakowania uzupełnia słowne określenie, jak „2 skrzynie (4G)”",
+          "B": "Tak, kod opakowania ONZ zastępuje słowne określenie tej sztuki przesyłki",
+          "C": "Tak, jeśli w dokumencie podano też masę brutto całego ładunku"
         },
         "correct_option": "A",
-        "explanation": "Jeśli dokument obejmuje różne towary niebezpieczne, ilość należy podać osobno dla każdego rodzaju towaru. Jedna wspólna suma nie pokazuje, ile przypada na dany numer UN, a masa własna pojazdu w ogóle nie opisuje ilości ładunku. Rozdzielenie danych pozwala prawidłowo odczytać dokument i ocenić przewóz. Podstawa: ADR 5.4.1.1.1(f).",
+        "explanation": "Według 5.4.1.1.1 (e) w dokumencie przewozowym podaje się liczbę i określenie sztuk przesyłek, na przykład „2 skrzynie”. Kod opakowania, taki jak „4G”, może być użyty jedynie jako uzupełnienie tego określenia, zapisane obok niego. Sam kod nie wystarcza, bo nie każdy, kto czyta dokument, zna kody opakowań. Podanie masy ładunku też nie zastąpi określenia sztuk przesyłek. Podstawa: ADR 5.4.1.1.1 (e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(f)",
+            "reference": "ADR 2025, 5.4.1.1.1 (e)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -197,24 +197,24 @@
     {
       "id": "ADR-B-0538",
       "order": 538,
-      "clause": "5.4.1.4.2",
+      "clause": "ADR 2025, 5.4.1.4.2",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dokumentacja w jednym pojeździe nie wystarcza dla wszystkich jednostek przy rozdzieleniu przesyłki."
+          "rationale": "5.4.1.4.2: dokumenty lub kopie odpowiednio do liczby jednostek transportowych."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Po korekcie długości wariantu B: „Tyle dokumentów lub kopii, ile załadowano jednostek transportowych.”. ADR 2025, 5.4.1.4.2: ADR 5.4.1.4.2 nakazuje zapewnienie co najmniej tylu odrębnych dokumentów lub kopii, ile jednostek transportowych załadowano."
+          "rationale": "5.4.1.4.2: odrębne dokumenty lub kopie jednego dokumentu dla każdej jednostki."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Ustna informacja nie zastępuje dokumentu albo kopii wymaganej dla jednostki transportowej."
+          "rationale": "5.4.1.4.2 wymaga dokumentów lub kopii – informacja ustna nie wystarcza."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Weryfikacja końcowa polskiego brzmienia, wyjątków i fachowej poprawności pozostaje otwarta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending.",
+      "notes_on_conditions": "5.4.1.4.2 s. 972. Do oceny specjalisty.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -222,14 +222,14 @@
       "question_snapshot": {
         "id": "ADR-B-0538",
         "module_id": "ADR-B-13",
-        "stem": "Nadawca dzieli przesyłkę między dwa pojazdy, bo nie mieści się w jednym. Jak rozwiązuje kwestię dokumentów przewozowych według 5.4.1.4.2?",
+        "stem": "Przesyłka towarów ADR jest tak duża, że nadawca musi załadować ją na dwa pojazdy. Jakie dokumenty przewozowe przewiduje dla niej 5.4.1.4.2?",
         "options": {
-          "A": "Wystawić jeden dokument i pozostawić go tylko w jednym z pojazdów zestawu",
-          "B": "Dokument lub kopia dla każdej załadowanej jednostki transportowej",
-          "C": "Zastąpić dokumentację ustnym przekazaniem informacji każdemu z kierowców"
+          "A": "Jeden dokument, w tym pojeździe, który wiezie większą część przesyłki",
+          "B": "Odrębne dokumenty lub kopie jednego dokumentu, po jednym na pojazd",
+          "C": "Jeden dokument u nadawcy, a kierowcom wystarczy informacja ustna"
         },
         "correct_option": "B",
-        "explanation": "Jeśli jedna przesyłka zostaje podzielona między dwa pojazdy, dokument przewozowy lub jego kopia musi znajdować się w każdej jednostce transportowej. Jeden egzemplarz pozostawiony tylko w pierwszym pojeździe nie dokumentuje ładunku przewożonego drugim. Ustne przekazanie danych kierowcy również nie zastępuje dokumentu. Podstawa: ADR 5.4.1.4.2.",
+        "explanation": "Według 5.4.1.4.2, gdy ze względu na wielkość ładunku przesyłka nie mieści się w jednej jednostce transportowej, sporządza się odrębne dokumenty lub kopie jednego dokumentu. Ich liczba odpowiada liczbie załadowanych jednostek transportowych, więc każdy z dwóch pojazdów ma swój dokument. Odrębne dokumenty sporządza się też wtedy, gdy części przesyłki nie wolno ładować razem z powodu zakazów z 7.5.2. Informacja ustna nie zastępuje dokumentu przewozowego. Podstawa: ADR 5.4.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",

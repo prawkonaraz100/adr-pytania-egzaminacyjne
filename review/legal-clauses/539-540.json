@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0539",
       "order": 539,
-      "clause": "8.6.3.2; 8.6.4",
+      "clause": "ADR 2025, 8.6.4 (tabela, kod B/D); 8.6.3.1",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "W 8.6.3.2 rozstrzyga bardziej restrykcyjny kod dla całego ładunku, a przewóz w sztukach z B/D nie zakazuje kategorii C."
+          "rationale": "Zakaz tuneli B, C, D i E dla kodu B/D dotyczy przewozu w cysternie."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Kod B/D w sztukach wyklucza tunele D i E, nie C. Treść zachowuje warunek transportu w sztukach przesyłek; wymagane zatwierdzenie eksperckie."
+          "rationale": "8.6.4: B/D – inny przewóz (sztuki przesyłek): zakaz przejazdu przez tunele D i E."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Różne sztuki przesyłek nie pozwalają pominąć wspólnego kodu jednostki transportowej."
+          "rationale": "ADR nie przewiduje zgłoszenia jako wyjątku od kodu tunelowego."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Scenariusz dotyczy pojazdu faktycznie podlegającego ograniczeniom; dosłowny polski tekst i wyjątki wymagają recenzenta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending.",
+      "notes_on_conditions": "8.6.3.1 s. 1338; tabela 8.6.4 (wiersz B/D) s. 1339.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -34,18 +34,18 @@
       "question_snapshot": {
         "id": "ADR-B-0539",
         "module_id": "ADR-B-11",
-        "stem": "Kierowca przewozi na jednej jednostce transportowej dwie przesyłki w sztukach: z kodami tunelowymi D/E i B/D. Na trasie jest tunel kategorii C, a pojazd podlega ograniczeniom ADR. Co powinien ustalić przed wyborem przejazdu?",
+        "stem": "Pojazd z tablicami pomarańczowymi wiezie beczki z towarem, który ma w kolumnie (15) tabeli A kod tunelowy (B/D). Na trasie jest tunel kategorii C. Co wynika z tabeli w 8.6.4?",
         "options": {
-          "A": "Zakazać wjazdu do tunelu C, ponieważ kod D/E zawiera literę D",
-          "B": "Kod B/D dla sztuk przesyłek wyklucza tunele D i E, ale nie samą kategorię C",
-          "C": "Pominąć oba kody tunelowe, ponieważ towary są opisane w oddzielnych pozycjach"
+          "A": "Musi ominąć tunel C, bo kod B/D zakazuje przejazdu przez tunele kategorii B do E",
+          "B": "Może przez niego przejechać, bo przy beczkach kod B/D zakazuje tuneli D i E",
+          "C": "Może przejechać, jeśli wcześniej zgłosi przewóz obsłudze tego tunelu"
         },
         "correct_option": "B",
-        "explanation": "Dla przewozu w sztukach przesyłek kod tunelowy B/D zabrania przejazdu przez tunele kategorii D i E, ale nie C. Kod D/E dla takich przesyłek ogranicza kategorię E, więc w podanej sytuacji nie powoduje zakazu w tunelu C. Nie wolno pomijać kodów tylko dlatego, że towary są na dwóch pozycjach dokumentu. Przed trasą sprawdź najbardziej restrykcyjny właściwy kod. Podstawa: ADR 8.6.3.2 i 8.6.4.",
+        "explanation": "Kod (B/D) z kolumny (15) tabeli A ma w tabeli z 8.6.4 dwa znaczenia, zależne od sposobu przewozu. Przy przewozie w cysternie oznacza zakaz przejazdu przez tunele kategorii B, C, D i E. Przy innym przewozie, na przykład w beczkach, zakazuje przejazdu tylko przez tunele kategorii D i E. Dlatego ten pojazd może przejechać przez tunel kategorii C, ale musi omijać tunele kategorii D i E. Podstawa: ADR 8.6.3.1 i 8.6.4 (tabela, kod B/D).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.2; 8.6.4",
+            "reference": "ADR 2025, 8.6.4 (tabela, kod B/D); 8.6.3.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -56,24 +56,24 @@
     {
       "id": "ADR-B-0540",
       "order": 540,
-      "clause": "3.4.13; 3.4.14; 8.6.4",
+      "clause": "ADR 2025, 3.4.13 (a); 3.4.14; 3.4.15; 8.6.4",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ograniczenie kategorii E ma zastosowanie do jednostki wymagającej oznakowania LQ, a nie do każdej LQ bez wyjątków."
+          "rationale": "8.6.4: jednostki ze znakami wymaganymi przez 3.4.13 podlegają ograniczeniom tuneli E."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Liczba palet na dokumencie nie uchyla ograniczenia kategorii E z ADR 8.6.4."
+          "rationale": "3.4.15: znaki usuwa się dopiero, gdy towary LQ nie są przewożone."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Po korekcie długości wariantu C: „Wybrać trasę omijającą tunel E zgodnie z ADR 8.6.4.”. ADR 2025, 3.4.13; 3.4.14; 8.6.4: ADR 8.6.4 zakazuje przejazdu przez E jednostce wymagającej oznakowania na podstawie 3.4.13, z uwzględnieniem 3.4.14."
+          "rationale": "3.4.13 (a) i 3.4.14: 40 t i 10 t LQ brutto – znaki wymagane, tunel E zakazany."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Scenariusz dotyczy pojazdu faktycznie podlegającego ograniczeniom; dosłowny polski tekst i wyjątki wymagają recenzenta. Etap 4m: jedynie redakcyjna korekta długości, bez zmiany klucza i wersji podstawy prawnej; specialist review pending.",
+      "notes_on_conditions": "3.4.13 s. 688; 3.4.14, 3.4.15 s. 689; 8.6.4 s. 1338 (#903: 671 i 1339).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -81,18 +81,18 @@
       "question_snapshot": {
         "id": "ADR-B-0540",
         "module_id": "ADR-B-11",
-        "stem": "Ciężarówka przewozi tylko towary w ilościach ograniczonych LQ. Z powodu masy ładunku wymaga oznakowania z ADR 3.4.13 (z uwzględnieniem 3.4.14). Kierowca dojeżdża do rozjazdu przed tunelem kategorii E. Jak powinien zaplanować przejazd?",
+        "stem": "Nawigacja prowadzi zestaw przez tunel ze znakiem i tabliczką z literą E. Zestaw o dopuszczalnej masie 40 t wiezie 10 t brutto kartonów LQ, bez innych towarów niebezpiecznych. Jak powinien postąpić kierowca?",
         "options": {
-          "A": "Wjechać do tunelu E, bo przewóz w ilościach ograniczonych nie ma żadnych ograniczeń",
-          "B": "Wjechać do tunelu E, jeśli w dokumencie zapisano liczbę przewożonych palet",
-          "C": "Wybrać trasę omijającą tunel E, zgodnie z ADR 8.6.4 dla oznakowanego pojazdu"
+          "A": "Wjechać do tunelu, bo ilości ograniczone nie podlegają ograniczeniom tunelowym",
+          "B": "Wjechać do tunelu po zakryciu znaków LQ na czas przejazdu przez niego",
+          "C": "Ominąć ten tunel, bo przy tej masie ładunku zestaw musi mieć znaki LQ"
         },
         "correct_option": "C",
-        "explanation": "Jeśli przewóz ilości ograniczonych LQ wymaga oznakowania pojazdu zgodnie z ADR 3.4.13, przy planowaniu trasy trzeba uwzględnić zakaz przejazdu przez tunel kategorii E. Sam znak LQ nie oznacza, że wszystkie ograniczenia tunelowe znikają, a liczba palet zapisana w dokumentach nie daje wyjątku. Sprawdź obowiązek oznakowania i wybierz dozwoloną trasę przed wyjazdem. Podstawa: ADR 3.4.13–3.4.14 i 8.6.4.",
+        "explanation": "Według 3.4.13 jednostka transportowa o masie maksymalnej powyżej 12 ton, która przewozi towary w ilościach ograniczonych, ma znaki LQ z przodu i z tyłu. Według 3.4.14 znaki nie są wymagane, jeśli te towary ważą brutto najwyżej 8 ton na jednostkę, ale tu jest 10 ton. Punkt 8.6.4 stosuje ograniczenia dla tuneli kategorii E do jednostek, które muszą mieć takie znaki. Zakrycie znaków niczego nie zmienia, bo usuwa się je dopiero wtedy, gdy towary LQ nie są już przewożone. Podstawa: ADR 3.4.13, 3.4.14, 3.4.15 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.4.13; 3.4.14; 8.6.4",
+            "reference": "ADR 2025, 3.4.13 (a); 3.4.14; 3.4.15; 8.6.4",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

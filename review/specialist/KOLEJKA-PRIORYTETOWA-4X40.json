@@ -2,7 +2,7 @@
   "stage": "4x40",
   "date": "2026-10-27",
   "scope": "ADR-BASIC-ONLY",
-  "source_bank_blob_sha": "e0c671756644994d18480feae5c08bc70ee0ffbd",
+  "source_bank_blob_sha": "73aa25f2ae5fed6f40b1948dfb917f082c08b58e",
   "queue_basis": "121 IDs listed in review/specialist/ETAP-4X24-POZYCJE-BEZ-CYTATU-MI.md; ranked by presence of numerical thresholds, exemptions, vehicle approval, dangerous-goods classes, tunnel restrictions, and documentation terms.",
   "queue_count": 20,
   "full_missing_quote_count": 144,
@@ -210,9 +210,9 @@
     {
       "id": "ADR-B-0530",
       "module_id": "ADR-B-13",
-      "question": "Kierowca odbiera odpad niebezpieczny inny niż radioaktywny. Nazwa przewozowa w dokumencie nie zawiera wymaganego słowa wskazującego odpad. Co należy zweryfikować zgodnie z ADR 5.4.1.1.3?",
+      "question": "Kierowca odbiera 12 próżnych, nieoczyszczonych beczek po farbie klasy 3. W dokumencie przewozowym zamiast numeru UN, nazwy i ilości wpisano „PRÓŻNE OPAKOWANIE, 3”. Czy według 5.4.1.1.6.2.1 to dopuszczalne?",
       "legal_basis": [
-        "ADR 2025, 5.4.1.1.3"
+        "ADR 2025, 5.4.1.1.6.2.1; 5.4.1.1.6.2.2"
       ],
       "priority_score": 5,
       "priority_reasons": [
@@ -228,9 +228,9 @@
     {
       "id": "ADR-B-0534",
       "module_id": "ADR-B-01",
-      "question": "Na terminalu połączono kilka opakowań LQ w opakowanie zbiorcze. Oznaczenia LQ poszczególnych sztuk są niewidoczne. Jak powinno być oznakowane opakowanie zbiorcze?",
+      "question": "Na palecie owiniętej folią są tylko kartony z towarami w ilościach ograniczonych, a ich znaki LQ są niewidoczne. Pracownik chce nakleić na folię numery UN i nalepki ostrzegawcze. Czego wymaga 3.4.11?",
       "legal_basis": [
-        "ADR 2025, 3.4.11"
+        "ADR 2025, 3.4.11; 5.1.2.1"
       ],
       "priority_score": 5,
       "priority_reasons": [
@@ -246,9 +246,9 @@
     {
       "id": "ADR-B-0537",
       "module_id": "ADR-B-13",
-      "question": "W jednym dokumencie przewozowym wykazano dwa różne towary niebezpieczne, o innych numerach UN. Co należy sprawdzić przy podawaniu całkowitej ilości zgodnie z 5.4.1.1.1(f)?",
+      "question": "W dokumencie przewozowym w miejscu liczby i określenia sztuk przesyłek wpisano: „2 (4G)”, bez słowa „skrzynie”. Czy według 5.4.1.1.1 (e) taki zapis wystarcza?",
       "legal_basis": [
-        "ADR 2025, 5.4.1.1.1(f)"
+        "ADR 2025, 5.4.1.1.1 (e)"
       ],
       "priority_score": 5,
       "priority_reasons": [
@@ -336,9 +336,9 @@
     {
       "id": "ADR-B-0536",
       "module_id": "ADR-B-13",
-      "question": "Na kontroli dokumentów stwierdzono, że opis pozycji ADR zawiera właściwe dane UN, nazwę przewozową, klasę, grupę pakowania i kod tunelowy, ale zapisano je w przypadkowej kolejności. Co należy sprawdzić?",
+      "question": "W dokumencie przewozowym opis towaru ma postać: „UN 1098, (C/D), ALKOHOL ALLILOWY, I, 6.1 (3)”. Wszystkie dane są prawdziwe. Czy według 5.4.1.1.1 ten zapis jest prawidłowy?",
       "legal_basis": [
-        "ADR 2025, 5.4.1.1.1"
+        "ADR 2025, 5.4.1.1.1 (kolejność danych (a)–(d) i (k))"
       ],
       "priority_score": 4,
       "priority_reasons": [
@@ -372,9 +372,9 @@
   ],
   "original_source_bank_blob_sha": "67da7457c1494d9e770324f42a6a30ef4e117567",
   "unresolved_literal_comparisons": 723,
-  "current_bank_blob_sha": "e0c671756644994d18480feae5c08bc70ee0ffbd",
-  "bank_blob_sha": "e0c671756644994d18480feae5c08bc70ee0ffbd",
-  "exam_source_bank_head": "e0c671756644994d18480feae5c08bc70ee0ffbd",
+  "current_bank_blob_sha": "73aa25f2ae5fed6f40b1948dfb917f082c08b58e",
+  "bank_blob_sha": "73aa25f2ae5fed6f40b1948dfb917f082c08b58e",
+  "exam_source_bank_head": "73aa25f2ae5fed6f40b1948dfb917f082c08b58e",
   "question_count": 766,
   "last_id": "ADR-B-0765",
   "stage4x242": {
