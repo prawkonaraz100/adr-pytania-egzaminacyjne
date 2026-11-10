@@ -9,24 +9,24 @@
     {
       "id": "ADR-B-0510",
       "order": 510,
-      "clause": "2.2.43.1.1",
+      "clause": "ADR 2025, 2.2.43.1.3; 2.2.43.1.1",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
+          "rationale": "2.2.43.1.3: mieszaniny gazów z powietrzem zapalają się łatwo od niezabezpieczonych źródeł światła."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
+          "rationale": "2.2.43.1.1: gazy wydzielane przez materiały 4.3 z wodą są palne."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Migawka odpowiedzi odświeżona w etapie 4x116 po redakcji dystraktorów. Niezależne porównanie z pełnym polskim tekstem ADR i akceptacja specjalisty pozostają wymagane."
+          "rationale": "Gaz wydziela się w zetknięciu z wodą – wystarczy zamoczenie, nie trzeba zalania."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Sytuacje zawierają warunki właściwe dla zakresu obowiązywania konkretnego przepisu; wyjątki należy skontrolować w urzędowym polskim ADR wraz ze sprostowaniem. Etap 4x116: redakcja językowa/dystraktorów; nie stanowi zatwierdzenia prawnego.",
+      "notes_on_conditions": "2.2.43.1.1 i 2.2.43.1.3 s. 187.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -34,18 +34,18 @@
       "question_snapshot": {
         "id": "ADR-B-0510",
         "module_id": "ADR-B-02",
-        "stem": "Kierowca przed rozładunkiem dostrzega mokre opakowanie z nalepką klasy 4.3. Pracownik proponuje polewać je wodą, żeby usunąć zabrudzenia. Jakie zagrożenie należy uwzględnić?",
+        "stem": "W zamkniętym nadwoziu furgonu zamókł worek z materiałem z nalepką 4.3. Przy otwieraniu drzwi pracownik chce poświecić do środka zwykłą lampą warsztatową. Na co zwraca uwagę 2.2.43.1.3?",
         "options": {
-          "A": "Kontakt z wodą może uwolnić palny gaz, który z powietrzem tworzy mieszaninę wybuchową",
-          "B": "Kontakt z wodą oznacza, że towar należy traktować jak materiał żrący klasy 8, a nie klasę 4.3",
-          "C": "Jeżeli opakowanie jest tylko mokre, można je spłukać wodą, bo woda ograniczy zagrożenie"
+          "A": "Gaz z zamoczonego materiału łatwo zapala się od takich źródeł zapłonu",
+          "B": "Gaz z zamoczonego materiału 4.3 jest trujący, ale nie może się zapalić",
+          "C": "Zagrożenie powstaje dopiero wtedy, gdy materiał zostanie zalany wodą"
         },
         "correct_option": "A",
-        "explanation": "Materiały klasy 4.3 mogą reagować z wodą i wydzielać palny gaz, który po zmieszaniu z powietrzem może się zapalić lub wybuchnąć. Dlatego mokrego opakowania nie należy spłukiwać ani dotykać bez oceny zagrożenia i odpowiednich środków ochrony. Nie oznacza to, że towar staje się materiałem żrącym klasy 8. Podstawa: ADR 2.2.43.1.1.",
+        "explanation": "Materiały klasy 4.3 w zetknięciu z wodą wydzielają gazy palne, a w zamkniętym nadwoziu gaz może się gromadzić już po zamoczeniu jednego worka. Według 2.2.43.1.3 mieszaniny tych gazów z powietrzem zapalają się łatwo od wszystkich zwykłych źródeł zapłonu, na przykład od otwartego płomienia, narzędzi iskrzących lub niezabezpieczonych źródeł światła. Powstała fala detonacyjna może zagrozić ludziom i środowisku. Dlatego przy takim ładunku nie używa się zwykłej lampy ani narzędzi, które mogą iskrzyć. Podstawa: ADR 2.2.43.1.1 i 2.2.43.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.43.1.1",
+            "reference": "ADR 2025, 2.2.43.1.3; 2.2.43.1.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

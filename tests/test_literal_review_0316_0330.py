@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0316-0330.md"
 CORRECTIONS = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0316-0330.jsonl"
-EXPECTED_BANK_SHA = "f2cea3f46167e3f99d4c5c7b91658744eba1d8c7"
+EXPECTED_BANK_SHA = "f732aa354f959e2ba17bf870d901d2fe51aa0426"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in list(range(316, 319)) + list(range(320, 331))]
 
 class LiteralReview0316To0330Tests(unittest.TestCase):

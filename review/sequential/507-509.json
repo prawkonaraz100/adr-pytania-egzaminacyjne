@@ -20,18 +20,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca przed odjazdem zauważa, że na numerowanej tablicy pomarańczowej górne pole zawiera „1203”, a dolne „33”. Dokument przewozowy wskazuje numer UN 1203. Co powinien wyjaśnić przed rozpoczęciem przewozu?",
+        "stem": "Uczestnik kursu pyta, po co w numerze 80 stoi zero, skoro zero nie oznacza żadnego rodzaju zagrożenia. Jaką odpowiedź daje 5.3.2.3.1?",
         "options": {
-          "A": "Utrzymać numer UN w górnym polu tablicy, jeśli numer jest czytelny i zgadza się z dokumentem przewozowym",
-          "B": "Sprawdzić, czy numery UN i zagrożenia nie zostały zamienione miejscami",
-          "C": "Zastąpić poziomą linię rozdzielającą pola linią pionową"
+          "A": "Zero oznacza, że towar nie wymaga nalepki ostrzegawczej klasy 8",
+          "B": "Jedna cyfra wystarcza do opisu zagrożenia, więc dopisano po niej zero",
+          "C": "Zero oznacza, że ten towar jest przewożony w podwyższonej temperaturze"
         },
         "correct_option": "B",
-        "explanation": "Na tablicy pomarańczowej górny numer oznacza zagrożenie, a dolny to numer UN, który identyfikuje towar. Jeśli UN 1203 znalazł się u góry, oznakowanie jest nieprawidłowe i trzeba je wyjaśnić oraz poprawić przed wyjazdem. Zgodność numeru z dokumentem nie usprawiedliwia zamiany pól, a pionowa kreska nie zastępuje poziomej linii rozdzielającej. Podstawa: ADR 5.3.2.2.2.",
+        "explanation": "Według 5.3.2.3.1 numer rozpoznawczy zagrożenia ma dwie lub trzy cyfry, a jeśli zagrożenie można wystarczająco opisać jedną cyfrą, dopisuje się po niej zero. W numerze 80 cyfra 8 oznacza działanie żrące, a zero jedynie uzupełnia numer do dwóch cyfr. Nalepki ostrzegawcze wskazuje tabela A, a różne materiały niebezpieczne przewożone w podwyższonej temperaturze mają specjalny numer 99. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.2.2",
+            "reference": "ADR 2025, 5.3.2.3.1 (zero po jednej cyfrze)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -61,18 +61,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przed wyjazdem kierowca sprawdza dokument przewozowy dla benzyny. W polu identyfikacji zapisano „1203 BENZYNA”, bez liter „UN”. Jaką niezgodność powinien zgłosić do poprawy dokumentu?",
+        "stem": "Ciecz zapalna jest mieszaniną czterech składników niebezpiecznych i ma ogólną nazwę I.N.O. z przepisem szczególnym 274. Jak według 3.1.2.8.1.2 uzupełnić jej nazwę w dokumencie przewozowym?",
         "options": {
-          "A": "Dodać wymagane litery „UN” przed numerem 1203",
-          "B": "Zastąpić numer 1203 kodem tunelowym, który powinien poprzedzać nazwę benzyny",
-          "C": "Zastąpić numer UN numerem rejestracyjnym pojazdu przewożącego benzynę"
+          "A": "Podać w nawiasie najwyżej dwa składniki, które decydują o zagrożeniu",
+          "B": "Podać w nawiasie cztery składniki, także te o najmniejszej zawartości",
+          "C": "Podać w nawiasie nazwę handlową produktu zamiast nazw składników"
         },
         "correct_option": "A",
-        "explanation": "Numer UN to czterocyfrowy identyfikator konkretnego towaru niebezpiecznego i w dokumencie przewozowym zapisuje się go z literami „UN” przed cyframi, na przykład „UN 1203”. Sam zapis „1203” jest niepełny, nawet jeśli obok podano nazwę benzyny. Kod tunelowy opisuje ograniczenia trasy, a numer rejestracyjny dotyczy pojazdu — żaden nie zastępuje numeru UN. Podstawa: ADR 5.4.1.1.1(a).",
+        "explanation": "Gdy ogólna nazwa przewozowa ma przypisany przepis szczególny 274, uzupełnia się ją w nawiasie nazwą techniczną. Według 3.1.2.8.1.2 dla mieszaniny podaje się nazwy najwyżej dwóch składników, które decydują o zagrożeniu lub zagrożeniach. Jeśli sztuka przesyłki ma nalepkę zagrożenia dodatkowego, jedna z tych nazw powinna dotyczyć składnika, który wymaga tej nalepki. Nazwy handlowej nie używa się jako nazwy technicznej, co wynika z 3.1.2.8.1.1. Podstawa: ADR 3.1.2.8.1.2, 3.1.2.8.1.1 i 5.4.1.1.1 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(a)",
+            "reference": "ADR 2025, 3.1.2.8.1.2; 3.1.2.8.1.1; 5.4.1.1.1 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -102,18 +102,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Przed wyjazdem zestaw ADR składa się z samochodu ciężarowego i przyczepy. Na wyposażeniu jest jeden klin pod koło, dobrany do samochodu. Co powinien sprawdzić kierowca przy kompletowaniu wyposażenia obu pojazdów?",
+        "stem": "Jednostka transportowa ADR to ciągnik siodłowy z naczepą. Kierowca ma jeden klin pod koła dobrany do ciągnika i uważa, że naczepa nie jest osobnym pojazdem. Czy to wyposażenie jest kompletne?",
         "options": {
-          "A": "Sprawdzić, czy klin można zastąpić dodatkowym przenośnym źródłem światła dla załogi",
-          "B": "Sprawdzić, czy jeden klin wystarczy dla całego zestawu, bo pojazdy są połączone",
-          "C": "Sprawdzić, czy każdy pojazd ma klin odpowiedni do masy i średnicy jego koła"
+          "A": "Tak, jeden klin wystarczy, bo ciągnik i naczepa są ze sobą połączone",
+          "B": "Tak, klin dla naczepy jest potrzebny dopiero po odczepieniu jej",
+          "C": "Nie, naczepa też jest pojazdem i potrzebuje własnego klina pod koła"
         },
         "correct_option": "C",
-        "explanation": "W zestawie z ciężarówką i przyczepą trzeba sprawdzić kliny dla każdego pojazdu, zgodnie z jego masą maksymalną i średnicą koła. Klin dobrany do ciężarówki może nie pasować do przyczepy, więc jeden element nie zawsze spełnia wymagania dla całego zestawu. Dodatkowa lampa nie zastępuje klina, bo służy do innego celu. Podstawa: ADR 8.1.5.2.",
+        "explanation": "Punkt 8.1.5.2 wymaga w jednostce transportowej klina pod koła dla każdego pojazdu, o rozmiarze odpowiednim do dopuszczalnej masy całkowitej tego pojazdu i średnicy jego kół. Według artykułu 1 (a) Umowy ADR pojazdem są nie tylko pojazdy samochodowe, ale też przyczepy i naczepy. W zestawie z ciągnikiem siodłowym potrzebne są więc dwa kliny, jeden dla ciągnika i drugi dla naczepy. Klin dla naczepy dobiera się do jej masy i kół, a nie do ciągnika. Podstawa: ADR 8.1.5.2 i artykuł 1 (a) Umowy ADR.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.2",
+            "reference": "ADR 2025, 8.1.5.2; art. 1 (a) Umowy ADR (pojazd)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
