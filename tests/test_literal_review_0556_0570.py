@@ -1,4 +1,4 @@
-"""First-pass literal review for ADR-B-0556–0570; report-only; bank unchanged."""
+"""First-pass and second-pass literal review for ADR-B-0556–0570; report-only; after the second pass the bank has the expected SHA."""
 
 import hashlib
 import json
@@ -10,10 +10,10 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0556-0570.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0556-0570.json"
 FIRST_PASS_BANK_SHA = "7f2be64ba60fef44ab136bdf59cbb4bdd949c172"
-EXPECTED_BANK_SHA = "7f2be64ba60fef44ab136bdf59cbb4bdd949c172"
+EXPECTED_BANK_SHA = "b240a96d8c9d0bae561d132b0a6bc8f705ee7ca2"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(556, 571)]
 EXPECTED_PAGES = {
-    "ADR-B-0556": [1291],
+    "ADR-B-0556": [1291, 1292],
     "ADR-B-0557": [312, 1291],
     "ADR-B-0558": [1291],
     "ADR-B-0559": [1291, 312],
@@ -58,7 +58,7 @@ class Partia38LiteralReview(unittest.TestCase):
         self.assertEqual(manifest["duplicate_search"]["threshold_0_45_pairs"], 1)
         self.assertEqual(manifest["duplicate_search"]["threshold_0_25_pairs"], 4)
 
-    def test_bank_remains_unchanged_and_unverified(self):
+    def test_bank_after_second_pass_and_unverified(self):
         raw = BANK.read_bytes()
         self.assertEqual(git_blob_sha(raw), EXPECTED_BANK_SHA)
         questions = [json.loads(line) for line in raw.decode("utf-8").splitlines() if line.strip()]
@@ -68,6 +68,16 @@ class Partia38LiteralReview(unittest.TestCase):
             self.assertEqual(by_id[question_id]["verification_status"], "needs_review")
             self.assertIsNone(by_id[question_id]["checked_at"])
             self.assertIsNone(by_id[question_id]["reviewer"])
+
+    def test_second_pass_artifacts_and_bank_sha(self):
+        second_pass = ROOT / "review" / "literal-pl" / "KONTROLA2-PARTIA-0556-0570.md"
+        corrections = ROOT / "review" / "literal-pl" / "POPRAWKI-KONTROLA2-0556-0570.jsonl"
+        self.assertTrue(second_pass.is_file())
+        self.assertTrue(corrections.is_file())
+        rows = [json.loads(line) for line in corrections.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(rows), 15)
+        self.assertEqual([row["id"] for row in rows], EXPECTED_IDS)
+        self.assertEqual(git_blob_sha(BANK.read_bytes()), EXPECTED_BANK_SHA)
 
 
 if __name__ == "__main__":

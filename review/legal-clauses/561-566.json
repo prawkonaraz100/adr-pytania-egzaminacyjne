@@ -4,24 +4,24 @@
     {
       "id": "ADR-B-0561",
       "order": 561,
-      "clause": "5.3.1.1.4",
+      "clause": "ADR 2025, 5.3.1.4.1; 5.3.1.2",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Brak nalepek na obu końcach oznacza niekompletne oznakowanie; należy je uzupełnić przed wyjazdem."
+          "rationale": "5.3.1.4.1: pojazd do przewozu luzem – duże nalepki na obu bokach i z tyłu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Nalepki na bokach i numery UN w dokumentach nie zastępują nalepek na końcach kontenera."
+          "rationale": "5.3.1.4.1 wymaga nalepek także na obu bokach pojazdu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wpis w dokumencie nie zastępuje wymaganego fizycznego oznakowania kontenera."
+          "rationale": "5.3.1.4.1: boki i tył pojazdu; obie strony czołowe dotyczą kontenerów (5.3.1.2)."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wstępny audyt redakcyjny; pełne porównanie polskiego tekstu Dz.U. 2025 poz. 642 i sprostowania oraz niezależna recenzja A/B/C pozostają otwarte.",
+      "notes_on_conditions": "5.3.1.4.1 s. 951; 5.3.1.2 s. 951.",
       "editorial_result": "question_reframed_to_apply_placement_rule; specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -29,18 +29,18 @@
       "question_snapshot": {
         "id": "ADR-B-0561",
         "module_id": "ADR-B-06",
-        "stem": "Podczas kontroli przed wyjazdem kierowca widzi, że kontener ma wymagane nalepki dużego formatu na obu bokach, ale nie ma ich na żadnym końcu. Co powinien zrobić?",
+        "stem": "Wywrotka bez kontenera wiezie luzem materiał stały klasy 4.1, dla którego tabela A dopuszcza taki przewóz. Gdzie według 5.3.1.4.1 trzeba umieścić duże nalepki ostrzegawcze?",
         "options": {
-          "A": "Uzupełnić brakujące nalepki na obu końcach przed rozpoczęciem przewozu.",
-          "B": "Wyjechać, ponieważ nalepki na obu bokach wystarczają, gdy numery UN są w dokumentach.",
-          "C": "Zastąpić nalepki na końcach wpisem o towarze w dokumencie przewozowym."
+          "A": "Na obu bokach pojazdu oraz z tyłu pojazdu",
+          "B": "Jedną z tyłu pojazdu, obok tablicy pomarańczowej",
+          "C": "Na obu bokach i z przodu pojazdu"
         },
         "correct_option": "A",
-        "explanation": "Duże nalepki na kontenerze mają być widoczne z różnych stron, dlatego wymagane oznaczenia umieszcza się na obu bokach i na obu końcach. Brak nalepek na końcach trzeba uzupełnić przed rozpoczęciem przewozu. Numer UN w dokumencie nie zastępuje oznakowania na kontenerze, a same nalepki boczne nie zapewniają widoczności z przodu i tyłu. Podstawa: ADR 5.3.1.1.4.",
+        "explanation": "Według 5.3.1.4.1 na pojeździe wykorzystywanym do przewozu luzem duże nalepki ostrzegawcze umieszcza się na obu bokach i z tyłu pojazdu. Z przodu pojazdu ADR nie wymaga dużej nalepki, a jedna nalepka z tyłu nie wystarcza. Zasada obu boków i obu czołów dotyczy kontenerów z 5.3.1.2, a nie samego pojazdu. Tablice barwy pomarańczowej są osobnym oznakowaniem i nie zastępują dużych nalepek. Podstawa: ADR 5.3.1.4.1 i 5.3.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.1.1.4",
+            "reference": "ADR 2025, 5.3.1.4.1; 5.3.1.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -51,24 +51,24 @@
     {
       "id": "ADR-B-0562",
       "order": 562,
-      "clause": "5.3.1.7",
+      "clause": "ADR 2025, 5.3.1.1.1; 5.3.1.7.1",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Numer UN w dokumentach nie zastępuje czytelnej nalepki dużego formatu. Ocenę oprzeć na ADR 2025, 5.3.1.7; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "Dokument przewozowy nie zastępuje dużej nalepki na kontenerze (5.3.1.1.1)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź odpowiada wymaganiu ADR 5.3.1.7. Nalepka dużego formatu musi pozostawać czytelna i pozwalać rozpoznać zagrożenie. Sam numer UN w dokumentach ani znajomość towaru przez kierowcę nie zastępują oznakowania zewnętrznego. Dopisanie nazwy handlowej nie odtwarza wymaganego wzoru, więc przed dalszym przewozem trzeba usunąć niezgodność. Podstawa: ADR 5.3.1.7."
+          "rationale": "5.3.1.1.1 i 5.3.1.7.1: trwała duża nalepka zgodna ze wzorem dla klasy 3."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dopisanie nazwy handlowej nie odtwarza wymaganego wzoru nalepki ADR. Ocenę oprzeć na ADR 2025, 5.3.1.7; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "Odręczny dopisek nie odtwarza wzoru nalepki z 5.3.1.7.1."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wstępny audyt redakcyjny; pełne porównanie polskiego tekstu Dz.U. 2025 poz. 642 i sprostowania oraz niezależna recenzja A/B/C pozostają otwarte.",
+      "notes_on_conditions": "5.3.1.1.1 s. 950; 5.3.1.7.1 s. 952–953.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -76,18 +76,18 @@
       "question_snapshot": {
         "id": "ADR-B-0562",
         "module_id": "ADR-B-06",
-        "stem": "Nalepka dużego formatu na kontenerze została uszkodzona tak, że nie można rozpoznać jej symbolu. Co należy zrobić przed dalszym przewozem?",
+        "stem": "Duża nalepka ostrzegawcza wzoru 3 na boku kontenera wyblakła i częściowo się oderwała. Nie widać na niej już płomienia ani cyfry 3. Co trzeba zrobić przed dalszym przewozem?",
         "options": {
-          "A": "Zostawić uszkodzony znak, jeśli numer UN znajduje się w dokumentach przewozowych i można go odczytać",
-          "B": "Wymienić ją na czytelną nalepkę zgodną z ADR",
-          "C": "Dopisać nazwę handlową na uszkodzonej nalepce"
+          "A": "Zostawić ją, bo klasa i numer UN są podane w dokumencie przewozowym",
+          "B": "Wymienić ją na nową dużą nalepkę zgodną ze wzorem dla klasy 3",
+          "C": "Dopisać flamastrem cyfrę 3 i nazwę towaru na starej nalepce"
         },
         "correct_option": "B",
-        "explanation": "Nalepka dużego formatu musi być czytelna, aby kierowca, obsługa i ratownicy mogli rozpoznać zagrożenie bez odszukiwania go w dokumentach. Jeśli symbol jest nieczytelny, wymień nalepkę na właściwą przed dalszym przewozem. Numer UN w dokumencie identyfikuje towar, ale nie zastępuje oznakowania kontenera; dopisanie nazwy handlowej nie odtwarza wymaganego wzoru. Podstawa: ADR 5.3.1.7.",
+        "explanation": "Według 5.3.1.1.1 duże nalepki ostrzegawcze mają być odporne na warunki atmosferyczne i zapewniać trwałość oznakowania podczas całego przewozu. Według 5.3.1.7.1 symbol i cyfra na dużej nalepce mają odpowiadać wzorowi dla danej klasy. Nalepka bez płomienia i cyfry nie spełnia tych wymagań, więc trzeba ją wymienić na nową. Dokument przewozowy nie zastępuje oznakowania kontenera, a odręczny dopisek nie odtwarza wzoru. Podstawa: ADR 5.3.1.1.1 i 5.3.1.7.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.1.7",
+            "reference": "ADR 2025, 5.3.1.1.1; 5.3.1.7.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -98,24 +98,24 @@
     {
       "id": "ADR-B-0563",
       "order": 563,
-      "clause": "5.3.1.1.5",
+      "clause": "ADR 2025, 5.3.1.6.1; 5.3.1.1.6",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Podpis odbiorcy nie potwierdza oczyszczenia ani nie usuwa pozostałego zagrożenia. Ocenę oprzeć na ADR 2025, 5.3.1.1.5; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "5.3.1.6.1: próżny nieoczyszczony kontener do przewozu luzem nadal ma nalepki ostatniego ładunku."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Własna ocena kierowcy nie zastępuje warunków ADR dotyczących usunięcia oznakowania. Ocenę oprzeć na ADR 2025, 5.3.1.1.5; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "Potwierdzenie rozładunku nie zmienia wymagania 5.3.1.6.1."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź odpowiada wymaganiu ADR 5.3.1.1.5. Sam rozładunek nie zawsze usuwa zagrożenie, ponieważ w kontenerze mogą pozostać niebezpieczne resztki. Podpis odbiorcy ani własna ocena kierowcy nie zastępują warunków ADR dotyczących usunięcia oznakowania. Należy pozostawić oznaczenia, dopóki wymagane warunki nie zostaną spełnione. Podstawa: ADR 5.3.1.1.5."
+          "rationale": "5.3.1.6.1: duże nalepki wymagane dla ostatniego ładunku zostają do oczyszczenia."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wstępny audyt redakcyjny; pełne porównanie polskiego tekstu Dz.U. 2025 poz. 642 i sprostowania oraz niezależna recenzja A/B/C pozostają otwarte.",
+      "notes_on_conditions": "5.3.1.6.1 s. 952; 5.3.1.1.6 s. 951.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -123,18 +123,18 @@
       "question_snapshot": {
         "id": "ADR-B-0563",
         "module_id": "ADR-B-06",
-        "stem": "Kontener został rozładowany, ale nie został oczyszczony z niebezpiecznych pozostałości. Czy można usunąć jego nalepki dużego formatu?",
+        "stem": "Z kontenera do przewozu luzem wysypano materiał stały klasy 9, ale kontenera nie oczyszczono. Kierowca chce przed powrotem zdjąć z niego duże nalepki ostrzegawcze. Czy według 5.3.1.6.1 może to zrobić?",
         "options": {
-          "A": "Po podpisaniu odbioru",
-          "B": "Po ocenie kierowcy, że pozostałe resztki nie zagrażają otoczeniu",
-          "C": "Nie; zachować oznakowanie do spełnienia warunków ADR"
+          "A": "Tak, bo po rozładunku w kontenerze nie ma już towaru niebezpiecznego",
+          "B": "Tak, jeśli odbiorca potwierdzi rozładunek w dokumencie przewozowym",
+          "C": "Nie, ma on nadal mieć duże nalepki wymagane dla ostatniego ładunku"
         },
         "correct_option": "C",
-        "explanation": "Rozładunek nie oznacza automatycznie, że kontener jest wolny od niebezpiecznego ładunku. Jeśli pozostały w nim resztki, nadal mogą stwarzać zagrożenie, więc oznakowania nie usuwa się tylko dlatego, że odbiorca podpisał dokument lub większość towaru została wyjęta. Nalepki pozostają do czasu spełnienia warunków ADR dotyczących pozostałości i oczyszczenia. Podstawa: ADR 5.3.1.1.5.",
+        "explanation": "Według 5.3.1.6.1 próżne nieoczyszczone kontenery do przewozu luzem powinny być nadal zaopatrzone w duże nalepki ostrzegawcze wymagane dla ostatniego ładunku. Resztki materiału w nieoczyszczonym kontenerze stwarzają takie samo zagrożenie, dlatego oznakowanie zostaje. Potwierdzenie rozładunku przez odbiorcę niczego tu nie zmienia. Nalepki można zdjąć dopiero wtedy, gdy kontener zostanie oczyszczony. Podstawa: ADR 5.3.1.6.1 i 5.3.1.1.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.1.1.5",
+            "reference": "ADR 2025, 5.3.1.6.1; 5.3.1.1.6",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -145,24 +145,24 @@
     {
       "id": "ADR-B-0564",
       "order": 564,
-      "clause": "5.3.1.1; 5.3.1.7",
+      "clause": "ADR 2025, 5.3.1.1.6",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Błędna nalepka może wprowadzić w błąd co do zagrożenia i nie powinna pozostać na kontenerze. Ocenę oprzeć na ADR 2025, 5.3.1.1; 5.3.1.7; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "5.3.1.1.6: nalepkę niedotyczącą przewożonego towaru zdejmuje się lub zakrywa."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Przypadkowa kartka nie jest właściwym sposobem korekty oznakowania ADR. Ocenę oprzeć na ADR 2025, 5.3.1.1; 5.3.1.7; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "Wpis w dokumencie nie usuwa wymagania 5.3.1.1.6 wobec oznakowania kontenera."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź odpowiada wymaganiu ADR 5.3.1.1; 5.3.1.7. Oznakowanie nie może wprowadzać w błąd co do zagrożeń przewożonego ładunku. Nalepka innej klasy może spowodować, że ratownicy lub inni uczestnicy błędnie ocenią sytuację. Trzeba usunąć nieprawidłowe oznaczenie i zweryfikować komplet nalepek wymaganych dla danego przewozu; przypadkowe zakrycie kartką nie jest prawidłowym rozwiązaniem. Podstawa: ADR 5.3.1.1 i 5.3.1.7."
+          "rationale": "5.3.1.1.6: duże nalepki niedotyczące towarów ani pozostałości – zdjęte lub zakryte."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Wstępny audyt redakcyjny; pełne porównanie polskiego tekstu Dz.U. 2025 poz. 642 i sprostowania oraz niezależna recenzja A/B/C pozostają otwarte.",
+      "notes_on_conditions": "5.3.1.1.6 s. 951. Kontener oczyszczony – brak pozostałości klasy 8.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -170,18 +170,18 @@
       "question_snapshot": {
         "id": "ADR-B-0564",
         "module_id": "ADR-B-06",
-        "stem": "Kontener przewozi towar, dla którego wymagane są nalepki dużego formatu. Na jednym boku umieszczono nalepkę innej klasy, niezgodną z ładunkiem. Co należy zrobić?",
+        "stem": "Oczyszczony kontener wiezie teraz tylko beczki z cieczą zapalną klasy 3. Na jednym boku została duża nalepka wzoru 8 po poprzednim ładunku. Co trzeba z nią zrobić przed wyjazdem?",
         "options": {
-          "A": "Pozostawić dodatkową nalepkę jako informację o poprzednim ładunku",
-          "B": "Zakryć błędną kartką",
-          "C": "Usunąć błędną nalepkę i sprawdzić całe oznakowanie"
+          "A": "Zostawić ją, bo dodatkowa nalepka zwiększa ostrożność",
+          "B": "Zostawić ją, jeśli w dokumencie przewozowym wpisano samą klasę 3",
+          "C": "Zdjąć ją albo zakryć, bo nie dotyczy przewożonego teraz towaru"
         },
         "correct_option": "C",
-        "explanation": "Nalepki dużego formatu na kontenerze muszą pokazywać zagrożenia rzeczywiście przewożonego towaru, żeby kierowca i ratownicy nie otrzymali fałszywej informacji. Nalepkę innej klasy należy usunąć, a następnie sprawdzić wszystkie pozostałe oznaczenia. Nie wolno jej zostawiać jako pamiątki po poprzednim ładunku ani zakrywać przypadkową kartką. Podstawa: ADR 5.3.1.1 i 5.3.1.7.",
+        "explanation": "Według 5.3.1.1.6 duże nalepki ostrzegawcze, które nie dotyczą przewożonych towarów ani ich pozostałości, powinny być zdjęte lub zakryte. Kontener jest oczyszczony i wiezie tylko ciecz zapalną klasy 3, więc nalepka wzoru 8 wprowadza w błąd. Ratownicy mogliby przez nią przyjąć złe założenia o zagrożeniu. Wpis w dokumencie przewozowym nie usuwa tego błędu z oznakowania kontenera. Podstawa: ADR 5.3.1.1.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.1.1; 5.3.1.7",
+            "reference": "ADR 2025, 5.3.1.1.6",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -192,24 +192,24 @@
     {
       "id": "ADR-B-0565",
       "order": 565,
-      "clause": "5.3.2.1.7",
+      "clause": "ADR 2025, 5.3.1.1.7",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź odpowiada wymaganiu ADR 5.3.2.1.7. Samo opróżnienie zbiornika nie oznacza, że przestał on stwarzać zagrożenie. Jeśli nie został odpowiednio oczyszczony ani odgazowany, oznakowanie może nadal być wymagane. Nie zdejmuj tablic ani nie zamalowuj numerów; kierowca powinien najpierw potwierdzić stan zbiornika i właściwe warunki usunięcia oznakowania. Podstawa: ADR 5.3.2.1.7."
+          "rationale": "5.3.1.1.7: rozkładane panele zabezpieczone przed rozkładaniem się podczas przewozu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Zamknięcie dokumentu nie potwierdza, że zbiornik jest oczyszczony lub odgazowany i że można usunąć oznakowanie."
+          "rationale": "5.3.1.1.7 wymaga zabezpieczenia panelu, a nie liczenia na to, że się nie rozłoży."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nie wolno samodzielnie usuwać numeru UN z tablicy; oznakowanie usuwa się lub zmienia zgodnie z warunkami ADR."
+          "rationale": "Zdjęcie panelu zostawia bok pojazdu bez wymaganej dużej nalepki."
         }
       },
       "observed_answer_key": "A",
-      "notes_on_conditions": "Wstępny audyt redakcyjny; pełne porównanie polskiego tekstu Dz.U. 2025 poz. 642 i sprostowania oraz niezależna recenzja A/B/C pozostają otwarte. Dystraktory poprawiono redakcyjnie; pełne porównanie polskiego tekstu urzędowego i niezależna aprobata specjalisty pozostają wymagane.",
+      "notes_on_conditions": "ADR 5.3.1.1.7, drukowana strona Dz.U. 2025 poz. 642: 951.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -217,18 +217,18 @@
       "question_snapshot": {
         "id": "ADR-B-0565",
         "module_id": "ADR-B-06",
-        "stem": "Pojazd ma pomarańczowe tablice wymagane dla przewozu. Po zakończeniu przewozu niebezpieczny towar usunięto, ale zbiornik nie został oczyszczony ani odgazowany. Jak postąpić z tablicami?",
+        "stem": "Duże nalepki ostrzegawcze na bokach pojazdu są na rozkładanych panelach. Przed wyjazdem kierowca widzi, że zatrzask jednego panelu nie trzyma i panel otwiera się na nierównościach. Co powinien zrobić?",
         "options": {
-          "A": "Nie zdejmować tablic przed spełnieniem warunków ADR",
-          "B": "Zdjąć tablice po opróżnieniu, jeśli dokument przewozowy został zamknięty, niezależnie od stanu zbiornika.",
-          "C": "Zostawić tablice, ale usunąć numer UN, bo po opróżnieniu nie wskazuje już zawartości."
+          "A": "Naprawić lub zabezpieczyć panel, by nie rozkładał się w trasie",
+          "B": "Jechać, bo nalepka jest widoczna wtedy, gdy panel się nie rozłoży",
+          "C": "Zdjąć ten panel i jechać bez nalepki na tym boku pojazdu"
         },
         "correct_option": "A",
-        "explanation": "Opróżnienie zbiornika nie oznacza, że jest on bezpieczny: mogą pozostać w nim niebezpieczne resztki lub opary. Dlatego tablic pomarańczowych nie usuwa się automatycznie po rozładunku; trzeba spełnić warunki ADR dotyczące oczyszczenia, odgazowania lub innego przewidzianego zakończenia przewozu. Samo zamknięcie dokumentu ani usunięcie numeru UN nie wystarcza. Podstawa: ADR 5.3.2.1.7.",
+        "explanation": "Według 5.3.1.1.7 rozkładane panele z dużymi nalepkami ostrzegawczymi powinny być zaprojektowane i zabezpieczone tak, aby nie rozkładały się i nie luzowały podczas przewozu. Dotyczy to zwłaszcza wstrząsów na drodze. Panel z niesprawnym zatrzaskiem może się otworzyć i pokazywać niewłaściwe oznakowanie, dlatego przed wyjazdem trzeba go naprawić lub zabezpieczyć. Zdjęcie panelu zostawiłoby bok pojazdu bez wymaganej nalepki. Podstawa: ADR 5.3.1.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.1.7",
+            "reference": "ADR 2025, 5.3.1.1.7",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -239,24 +239,24 @@
     {
       "id": "ADR-B-0566",
       "order": 566,
-      "clause": "9.1.3.1; 8.1.2.2",
+      "clause": "ADR 2025, 9.1.3.3; 9.1.3.2",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dawne badanie nie potwierdza aktualnej ważności świadectwa, jeśli dokument jest wymagany. Ocenę oprzeć na ADR 2025, 9.1.3.1; 8.1.2.2; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "9.1.3.3 nie wymaga tłumaczenia przysięgłego całego świadectwa."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Poprawna odpowiedź odpowiada wymaganiu ADR 9.1.3.1; 8.1.2.2. Jeżeli ADR wymaga dla danego pojazdu świadectwa dopuszczenia, musi ono być ważne i dostępne zgodnie z przepisami. Dawne badanie nie potwierdza aktualnego dopuszczenia, a zdjęcie dowodu rejestracyjnego nie zastępuje świadectwa. Przed wyjazdem należy sprawdzić dokument i upewnić się, że obejmuje właściwy pojazd. Podstawa: ADR 9.1.3.1 i 8.1.2.2."
+          "rationale": "9.1.3.3: tytuł i uwagi w pkt 11 także po angielsku, francusku lub niemiecku."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Zdjęcie dowodu rejestracyjnego nie zastępuje wymaganego świadectwa dopuszczenia ADR. Ocenę oprzeć na ADR 2025, 9.1.3.1; 8.1.2.2; polskie brzmienie i wyjątki nadal wymagają niezależnej recenzji."
+          "rationale": "9.1.3.2: świadectwo uznają pozostałe Umawiające się Strony przez cały okres ważności."
         }
       },
       "observed_answer_key": "B",
-      "notes_on_conditions": "Wstępny audyt redakcyjny; pełne porównanie polskiego tekstu Dz.U. 2025 poz. 642 i sprostowania oraz niezależna recenzja A/B/C pozostają otwarte.",
+      "notes_on_conditions": "9.1.3.2 i 9.1.3.3 s. 1344.",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -264,18 +264,18 @@
       "question_snapshot": {
         "id": "ADR-B-0566",
         "module_id": "ADR-B-08",
-        "stem": "Pojazd należy do rodzaju, dla którego wymagane jest świadectwo dopuszczenia ADR. Jakie znaczenie ma ważność tego świadectwa?",
+        "stem": "Polska władza wystawiła świadectwo dopuszczenia pojazdu ADR w języku polskim. Pojazd ma jechać z towarem niebezpiecznym do Francji. Jakie wymaganie językowe dotyczy tego świadectwa według 9.1.3.3?",
         "options": {
-          "A": "To tylko dokument archiwalny; wystarczy, że pojazd kiedyś przeszedł badanie",
-          "B": "Świadectwo musi być ważne i dostępne podczas przewozu",
-          "C": "Można je zastąpić zdjęciem dowodu rejestracyjnego, nawet jeśli świadectwo wygasło"
+          "A": "Całe świadectwo musi mieć dołączone tłumaczenie przysięgłe na język francuski",
+          "B": "Tytuł i uwagi w pkt 11 mają być także po angielsku, francusku lub niemiecku",
+          "C": "Świadectwa w języku polskim nie uznaje się poza granicami Polski"
         },
         "correct_option": "B",
-        "explanation": "Jeśli dany pojazd musi mieć świadectwo dopuszczenia ADR, przed przewozem trzeba sprawdzić, czy dokument nadal jest ważny. Dawne dopuszczenie nie wystarcza, gdy termin już upłynął, a zdjęcie dowodu rejestracyjnego nie zastępuje wymaganego świadectwa. Kierowca powinien upewnić się, że dokument dotyczy właściwego pojazdu i jest dostępny podczas kontroli. Podstawa: ADR 9.1.3.1 oraz 8.1.2.2.",
+        "explanation": "Według 9.1.3.3 świadectwo dopuszczenia wystawia się w języku urzędowym państwa wystawiającego. Jeżeli nie jest to angielski, francuski ani niemiecki, tytuł świadectwa i uwagi w punkcie 11 podaje się również w jednym z tych trzech języków. Tłumaczenia przysięgłego ADR nie wymaga. Według 9.1.3.2 inne państwa ADR uznają takie świadectwo przez cały okres jego ważności. Podstawa: ADR 9.1.3.3 i 9.1.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 9.1.3.1; 8.1.2.2",
+            "reference": "ADR 2025, 9.1.3.3; 9.1.3.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

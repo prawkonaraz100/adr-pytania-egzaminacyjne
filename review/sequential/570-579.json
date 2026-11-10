@@ -16,18 +16,18 @@
         "reference_pointer": true
       },
       "exact_record_snapshot": {
-        "stem": "Kierowca ma 100 jednostek kategorii transportowej 2 i 600 kategorii 3 w sztukach przesyłek. Ile wynosi wynik ADR 1.1.3.6.4?",
+        "stem": "Jednostka wiezie w sztukach przesyłek 8 kg materiału kategorii transportowej 1, którego nie wymieniono w przypisie a do tabeli 1.1.3.6.3, oraz 500 l cieczy kategorii 3. Ile wynosi suma z 1.1.3.6.4?",
         "options": {
-          "A": "900: kategorię 2 mnoży się przez 3, a kategorię 3 dodaje",
-          "B": "700: dodaj ilości bez mnożników",
-          "C": "1200: obie kategorie trzeba przemnożyć przez 2 niezależnie od ilości"
+          "A": "900, bo kategorię 1 mnoży się przez 50, a kategorię 3 dodaje",
+          "B": "508, bo ilości z obu kategorii dodaje się bez mnożników",
+          "C": "660, bo kategorię 1 mnoży się przez 20, a kategorię 3 dodaje"
         },
         "correct_option": "A",
-        "explanation": "Dla mieszanego ładunku kategorii transportowych 2 i 3 nie dodaje się samych ilości: kategorię 2 trzeba pomnożyć przez trzy. W tym przykładzie 100 × 3 i 600 daje razem 900, więc samo dodanie do 700 jest błędem, podobnie jak podwojenie obu wartości. Wynik pomaga ocenić próg wyłączenia, ale kierowca musi sprawdzić też pozostałe warunki przewozu. Podstawa: ADR 1.1.3.6.4.",
+        "explanation": "Według 1.1.3.6.4 przy towarach różnych kategorii transportowych ilość z kategorii 1 mnoży się przez 50, a ilość z kategorii 3 dodaje bez mnożnika. Tutaj suma wynosi 8 × 50 + 500, czyli 900, więc nie przekracza wartości 1000. Mnożnik 20 dotyczy tylko materiałów kategorii 1 wymienionych w przypisie a do tabeli, a tego materiału tam nie ma. Podstawa: ADR 1.1.3.6.4 i 1.1.3.6.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.3.6.4",
+            "reference": "ADR 2025, 1.1.3.6.4; 1.1.3.6.3 (przypis a)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
