@@ -236,9 +236,13 @@ Odegraj scenariusz z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json)
 
 
 
-### Ocena placu czasowego składowania (ADR-B-0701)
+### Ocena placu czasowego składowania (ADR-B-0035)
 
-Obszary terminali, baz i placów wykorzystywane do czasowego składowania towarów niebezpiecznych podczas przewozu powinny być właściwie zabezpieczone i dobrze oświetlone. Gdzie to możliwe i właściwe, powinny być niedostępne dla ogółu. Samo oznakowanie lub obecność kierowcy nie zastępują tych warunków. Podstawa: ADR 2025, 1.10.1.3.
+Obszary terminali, baz i placów wykorzystywane do czasowego składowania towarów niebezpiecznych podczas przewozu powinny być właściwie zabezpieczone i dobrze oświetlone. Gdzie to możliwe i właściwe, powinny być niedostępne dla ogółu. Samo oznakowanie lub obecność kierowcy nie zastępują tych warunków. Podstawa: ADR 1.10.1.3.
+
+### Kiedy składowanie przy przeładunku jest częścią przewozu (ADR-B-0701)
+
+Według definicji „przewóz” w 1.2.1 przewozem jest także krótkotrwałe składowanie między operacjami transportowymi, związane ze zmianą rodzaju lub środka transportu. Warunkiem jest możliwość okazania na żądanie dokumentów przewozowych z miejscem wydania i odbioru oraz to, że sztuk przesyłek nie otwierano, chyba że kontrolowały je właściwe władze. Do takiego miejsca stosuje się wymagania ochrony z 1.10.1.3. Powiązane pytanie: ADR-B-0701. Podstawa: ADR 1.2.1 i 1.10.1.3.
 
 
 ### Dokument tożsamości ze zdjęciem — ADR-B-12-K01
