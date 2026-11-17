@@ -8,22 +8,22 @@
     {
       "id": "ADR-B-0736",
       "order": 736,
-      "clause": "ADR 2025, 8.3.5",
+      "clause": "ADR 2025, 8.3.5 (w czasie manipulowania ładunkiem zabronione jest palenie w pobliżu i wewnątrz pojazdów; zakaz obejmuje też papierosy elektroniczne)",
       "question_snapshot": {
         "id": "ADR-B-0736",
         "module_id": "ADR-B-04",
-        "stem": "Podczas przeładunku towarów niebezpiecznych pracownik magazynu staje obok pojazdu i zapala papierosa. Tłumaczy, że zakaz z ADR dotyczy tylko kierowcy i wnętrza kabiny. Jak należy ocenić tę sytuację?",
+        "stem": "Trwa rozładunek kartonów z towarem ADR. Pracownik magazynu, który nie należy do załogi pojazdu, zapala papierosa tuż przy otwartej skrzyni. Twierdzi, że zakaz palenia z ADR dotyczy kierowcy i kabiny. Jak ocenić tę sytuację?",
         "options": {
-          "A": "Przerwać czynność i zażądać zaprzestania palenia; zakaz obejmuje obsługę ładunku w pobliżu pojazdu, również gdy pali pracownik spoza załogi.",
-          "B": "Pozwolić dokończyć papierosa, bo przepis z 8.3.5 dotyczy tylko kierowcy i pomocnika, a pracownik magazynu nie należy do załogi pojazdu.",
-          "C": "Pozwolić palić na zewnątrz, jeśli osoba stoi poza kabiną; zakaz dotyczy tylko wnętrza pojazdu i tradycyjnych papierosów, nie samego przeładunku."
+          "A": "Zakaz obejmuje palenie przy pojeździe podczas rozładunku, także przez niego",
+          "B": "Może palić, bo nie jest członkiem załogi pojazdu przewożącego ten towar",
+          "C": "Może palić, jeżeli stoi poza kabiną i nie wchodzi do przestrzeni ładunkowej"
         },
         "correct_option": "A",
-        "explanation": "Zakaz z ADR 8.3.5 obowiązuje podczas czynności ładunkowych w pobliżu pojazdów oraz wewnątrz nich, a nie tylko w kabinie. Przepis obejmuje też e-papierosy i podobne urządzenia; nie ogranicza zakazu do kierowcy, bo dotyczy miejsca i czasu wykonywania operacji. Dlatego pracownik magazynu nie może palić przy pojeździe podczas przeładunku. Podstawa: ADR 2025, 8.3.5.",
+        "explanation": "Zakaz z 8.3.5 jest związany z czynnościami ładunkowymi, a nie z tym, kto trzyma papierosa. W czasie manipulowania ładunkiem nie wolno palić ani w pobliżu pojazdu, ani w jego wnętrzu. Dotyczy to więc również pracownika magazynu, który stoi przy otwartej skrzyni. Zakaz obejmuje także papierosy elektroniczne i podobne urządzenia. Podstawa: ADR 8.3.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.5 — zakaz palenia podczas czynności ładunkowych w pobliżu pojazdów i wewnątrz nich, także e-papierosów i podobnych urządzeń",
+            "reference": "ADR 2025, 8.3.5 (w czasie manipulowania ładunkiem zabronione jest palenie w pobliżu i wewnątrz pojazdów; zakaz obejmuje też papierosy elektroniczne)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "ADR 8.3.5 zakazuje palenia podczas czynności ładunkowych w pobliżu pojazdów oraz wewnątrz nich; zakaz obejmuje też e-papierosy i podobne urządzenia. Przepis nie ogranicza zakazu do kierowcy."
+          "rationale": "ADR 2025 ADR 2025, 8.3.5 (w czasie manipulowania ładunkiem zabronione jest palenie w pobliżu i wewnątrz pojazdów; zakaz obejmuje też papierosy elektroniczne): odpowiedź odpowiada warunkom przepisu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Treść 8.3.5 nie ogranicza zakazu do kierowcy i pomocnika; obejmuje miejsce i czas czynności ładunkowych przy pojeździe."
+          "rationale": "ADR 2025 ADR 2025, 8.3.5 (w czasie manipulowania ładunkiem zabronione jest palenie w pobliżu i wewnątrz pojazdów; zakaz obejmuje też papierosy elektroniczne): odpowiedź pomija lub błędnie interpretuje warunek przepisu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Zakaz obejmuje również obszar w pobliżu pojazdu, a nie tylko jego wnętrze; obejmuje także e-papierosy."
+          "rationale": "ADR 2025 ADR 2025, 8.3.5 (w czasie manipulowania ładunkiem zabronione jest palenie w pobliżu i wewnątrz pojazdów; zakaz obejmuje też papierosy elektroniczne): odpowiedź pomija lub błędnie interpretuje warunek przepisu."
         }
       },
-      "notes_on_conditions": "Scenariusz dotyczy czynności przeładunkowych w pobliżu pojazdu ADR; osoba paląca jest pracownikiem magazynu, nie członkiem załogi.",
+      "notes_on_conditions": "ADR 2025 ADR 2025, 8.3.5 (w czasie manipulowania ładunkiem zabronione jest palenie w pobliżu i wewnątrz pojazdów; zakaz obejmuje też papierosy elektroniczne). Kontrola druga; zachowano klucz A i moduł ADR-B-04; status needs_review.",
       "source_2025_comparison_url": "https://unece.org/adr-2025-files",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

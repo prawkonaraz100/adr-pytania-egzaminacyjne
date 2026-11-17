@@ -238,11 +238,21 @@ ADR 8.3.3 zabrania kierowcy i pomocnikowi kierowcy otwierania sztuk przesyłek z
 Podczas czynności ładunkowych nie wolno palić w pobliżu pojazdu ani wewnątrz niego. Zakaz obejmuje także e-papierosy i podobne urządzenia. Nie jest ograniczony wyłącznie do kierowcy: osoba wykonująca przeładunek obok pojazdu również nie może palić. Podstawa: ADR 2025, 8.3.5.
 
 
-### Zgoda odbiorcy nie pozwala otworzyć sztuki przesyłki ADR — ADR-B-0737
+### Zgoda odbiorcy nie pozwala otworzyć sztuki przesyłki ADR — ADR-B-0048
 
 Kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłek zawierających towary niebezpieczne. Prośba odbiorcy, jego obecność ani pisemna zgoda nie tworzą wyjątku od zakazu. Jeśli trzeba wyjaśnić zawartość lub rozbieżność, należy zrobić to z nadawcą (firmą, która wysyła towar niebezpieczny; [słowniczek](../SLOWNICZEK.md#nadawca)) lub odbiorcą bez otwierania paczki. Podstawa: ADR 2025, 8.3.3.
 
 
-### Unikanie źródeł zapłonu po awarii — ADR-B-0738
+### DPPL z towarem to także sztuka przesyłki — ADR-B-0737
+
+Zakaz z 8.3.3 nie dotyczy wyłącznie kartonów i kanistrów. Według definicji z 1.2.1 sztuką przesyłki jest opakowanie, opakowanie duże albo DPPL razem z zawartością, przygotowane do wysyłki. Kierowca nie odkręca więc pokrywy ani zamknięcia DPPL, nawet żeby sprawdzić stopień napełnienia przed rozładunkiem. Ilość towaru odczytuje się z dokumentu przewozowego. Powiązane pytanie: ADR-B-0737. Podstawa: ADR 1.2.1 i 8.3.3.
+
+
+### Unikanie źródeł zapłonu po awarii — ADR-B-0102
 
 Jeżeli po awarii mogą występować palne opary, nie włączaj lampy, wentylatora ani innych urządzeń elektrycznych. Nawet krótka próba oświetlenia miejsca wycieku może spowodować iskrę i zapłon. Nie pal i nie używaj e-papierosów; oddal się od zagrożenia oraz stosuj instrukcje pisemne ADR. Podstawa: ADR 2025, 5.4.3.4.
+
+
+### Zbieranie rozlewu bez urządzeń elektrycznych — ADR-B-0738
+
+Przy rozlewie cieczy zapalnej z kanistra nie włączaj odkurzacza, pompy ani innego urządzenia elektrycznego, także zasilanego z akumulatora. Instrukcje pisemne każą unikać źródeł zapłonu i nie włączać żadnych urządzeń elektrycznych. Stanie po stronie nawietrznej chroni przed wdychaniem oparów, ale nie usuwa ryzyka zapłonu. Jeżeli jest to właściwe i bezpieczne, rozlew zbiera się wyposażeniem przewożonym w jednostce transportowej. Powiązane pytanie: ADR-B-0738. Podstawa: ADR 5.4.3.4.

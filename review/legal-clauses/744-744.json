@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0744",
       "order": 744,
-      "clause": "ADR 2025, 5.4.0.2; 5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4 (zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych; instrukcje pisemne według czterostronicowego wzoru); 5.4.1.1.1 (dane o towarze w dokumencie przewozowym)",
       "question_snapshot": {
         "id": "ADR-B-0744",
         "module_id": "ADR-B-05",
-        "stem": "Dokument przewozowy jest przechowywany wyłącznie w aplikacji, która pobiera go z internetu. Po wypadku w miejscu bez zasięgu ratownicy nie mogą go otworzyć. Jakie wymaganie ADR dotyczące takiego rozwiązania nie zostało spełnione?",
+        "stem": "Po wypadku ratownik prosi kierowcę o dane, z których odczyta, jaki towar jest w pojeździe. Kierowca stoi w bezpiecznym miejscu i ma przy sobie instrukcje pisemne oraz dokument przewozowy. Co powinien przekazać?",
         "options": {
-          "A": "Dostęp do wymaganych danych podczas przewozu musi być co najmniej tak niezawodny jak przy dokumencie papierowym.",
-          "B": "Wystarczy podać ratownikom tylko numer UN z pamięci, a pełny dokument udostępnić dopiero po zakończeniu działań.",
-          "C": "Pozostawić dokument wyłącznie w chmurze i poprosić ratowników, by poczekali na zasięg albo skontaktowali się z nadawcą."
+          "A": "Dokument przewozowy, bo to w nim opisano przewożone towary niebezpieczne",
+          "B": "Instrukcje pisemne, a dokument przewozowy dopiero po zakończeniu akcji",
+          "C": "Instrukcje pisemne, bo opisują zagrożenia towaru tak samo jak ten dokument"
         },
         "correct_option": "A",
-        "explanation": "Elektroniczny dokument jest dopuszczalny, ale wymagane dane muszą być dostępne podczas przewozu i równie wiarygodnie jak przy papierze. Jeśli brak zasięgu uniemożliwia otwarcie pliku, ratownicy nie otrzymają informacji potrzebnych do rozpoznania ładunku. Sam numer UN podany z pamięci nie zastępuje całego dokumentu, a oczekiwanie na sieć opóźnia dostęp. Podstawa: ADR 2025, 5.4.0.2 i 5.4.3.4.",
+        "explanation": "Instrukcje pisemne mają jeden wspólny, czterostronicowy wzór z 5.4.3.4. Opisują czynności załogi i zagrożenia według nalepek, ale nie podają danych konkretnego ładunku. Numer UN, nazwę, nalepki, grupę pakowania i ilość towaru zawiera dokument przewozowy. Dlatego instrukcje każą zapewnić przybyłym ratownikom łatwy dostęp właśnie do dokumentów przewozowych. Podstawa: ADR 5.4.1.1.1 i 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.0.2 — dostępność elektronicznych danych podczas przewozu co najmniej równoważna dokumentacji papierowej; 5.4.3.4 — dokumenty przewozowe łatwo dostępne dla służb ratowniczych",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 5.4.3.4 (zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych; instrukcje pisemne według czterostronicowego wzoru); 5.4.1.1.1 (dane o towarze w dokumencie przewozowym)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Elektroniczne przetwarzanie danych jest dopuszczalne tylko przy dostępności danych podczas przewozu na poziomie co najmniej równoważnym dokumentacji papierowej; dokumenty mają być łatwo dostępne dla ratowników."
+          "rationale": "ADR 2025 ADR 2025, 5.4.3.4 (zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych; instrukcje pisemne według czterostronicowego wzoru); 5.4.1.1.1 (dane o towarze w dokumencie przewozowym): odpowiedź odpowiada warunkom przepisu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Sam numer UN nie zastępuje pozostałych wymaganych informacji w dokumencie przewozowym."
+          "rationale": "ADR 2025 ADR 2025, 5.4.3.4 (zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych; instrukcje pisemne według czterostronicowego wzoru); 5.4.1.1.1 (dane o towarze w dokumencie przewozowym): odpowiedź pomija lub błędnie interpretuje warunek przepisu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Jeśli brak sieci uniemożliwia dostęp do dokumentu, dane nie są dostępne podczas przewozu w wymaganym stopniu."
+          "rationale": "ADR 2025 ADR 2025, 5.4.3.4 (zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych; instrukcje pisemne według czterostronicowego wzoru); 5.4.1.1.1 (dane o towarze w dokumencie przewozowym): odpowiedź pomija lub błędnie interpretuje warunek przepisu."
         }
       },
-      "notes_on_conditions": "Pytanie dotyczy sytuacji, w której brak zasięgu faktycznie uniemożliwia otwarcie dokumentu. Nie stwierdza, że każde rozwiązanie elektroniczne wymaga zawsze papierowej kopii.",
+      "notes_on_conditions": "ADR 2025 ADR 2025, 5.4.3.4 (zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych; instrukcje pisemne według czterostronicowego wzoru); 5.4.1.1.1 (dane o towarze w dokumencie przewozowym). Kontrola druga; zachowano klucz A i moduł ADR-B-05; status needs_review.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

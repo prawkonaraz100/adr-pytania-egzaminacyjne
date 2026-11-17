@@ -11,7 +11,7 @@ BANK = ROOT / "podstawowy" / "questions.jsonl"
 REPORT = ROOT / "review" / "literal-pl" / "PARTIA-0646-0660.md"
 MANIFEST = ROOT / "review" / "literal-pl" / "PARTIA-0646-0660.json"
 FIRST_PASS_BANK_SHA = "6dc2b850f70d300ef3c214708b3283933934301c"
-EXPECTED_BANK_SHA = "5448ab43d2bed3ac17abd384b6bdc1eb596ef93f"
+EXPECTED_BANK_SHA = "ff19af70af76de006d2f58b1fbfed7c091d52590"
 EXPECTED_IDS = [f"ADR-B-{i:04d}" for i in range(646, 661)]
 EXPECTED_PAGES = {
     "0646": [

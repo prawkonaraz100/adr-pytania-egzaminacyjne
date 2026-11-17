@@ -8,18 +8,18 @@
       "id": "ADR-B-0737",
       "sequence": 737,
       "exact_record_snapshot": {
-        "stem": "Po przyjeździe do odbiorcy magazynier prosi kierowcę o otwarcie sztuki przesyłki ADR, by porównać zawartość z zamówieniem. Odbiorca pisemnie zgadza się na otwarcie. Co może zrobić kierowca?",
+        "stem": "U odbiorcy na pojeździe stoi DPPL z cieczą żrącą klasy 8. Przed rozładunkiem kierowca chce odkręcić pokrywę otworu wlewowego, aby sprawdzić, ile cieczy jest w środku. Czy wolno mu to zrobić?",
         "options": {
-          "A": "Odmówić otwarcia; zgoda odbiorcy nie znosi zakazu z ADR 8.3.3 dotyczącego kierowcy i pomocnika.",
-          "B": "Otworzyć opakowanie w obecności magazyniera, bo odbiorca przejmuje odpowiedzialność za przesyłkę po przyjeździe pojazdu.",
-          "C": "Poprosić pomocnika o otwarcie, ponieważ zakaz dotyczy tylko kierowcy, który samodzielnie otwiera paczkę."
+          "A": "Nie, bo DPPL z zawartością to sztuka przesyłki objęta zakazem otwierania",
+          "B": "Tak, bo zakaz otwierania dotyczy mniejszych opakowań, a nie DPPL",
+          "C": "Tak, jeżeli założy rękawice ochronne i ochronę oczu z wyposażenia pojazdu"
         },
         "correct_option": "A",
-        "explanation": "ADR 8.3.3 zabrania kierowcy i pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne. Zgoda odbiorcy ani jego obecność nie tworzą wyjątku od tego zakazu. Kierowca nie może też przerzucić tej czynności na pomocnika; w razie wątpliwości dotyczących zawartości powinien wyjaśnić je z nadawcą lub odbiorcą bez otwierania paczki. Podstawa: ADR 2025, 8.3.3.",
+        "explanation": "Według definicji z 1.2.1 sztuką przesyłki jest opakowanie, opakowanie duże albo DPPL razem z zawartością, przygotowane do wysyłki. Zakaz z 8.3.3 obejmuje więc także duży pojemnik do przewozu luzem, a nie tylko kartony czy kanistry. Kierowca ani jego pomocnik nie mogą go otwierać, nawet na chwilę i w środkach ochrony. Ilość towaru można odczytać z dokumentu przewozowego. Podstawa: ADR 1.2.1 i 8.3.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.3 — kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłek zawierających towary niebezpieczne",
+            "reference": "ADR 2025, 8.3.3 (zakaz otwierania sztuk przesyłek przez kierowcę i pomocnika); 1.2.1 (definicja sztuki przesyłki – także DPPL wraz z zawartością)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

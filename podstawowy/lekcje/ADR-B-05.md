@@ -477,7 +477,7 @@ Przed wyjazdem nie wystarczy sprawdzić, czy instrukcje leżą w kabinie. Każdy
 
 Przy sprawdzaniu pojazdu przed wyjazdem kierowca ocenia nie tylko liczbę i termin przeglądu gaśnic, lecz również ich dostępność i zabezpieczenie przed wpływem pogody. Gaśnica zamocowana na zewnątrz może być łatwo dostępna, ale zniszczona osłona narażająca ją na działanie deszczu i uszkodzenie nie spełnia warunku właściwego zabezpieczenia. Trzeba naprawić osłonę lub poprawić mocowanie bez zamykania gaśnicy w miejscu, z którego załoga nie może jej szybko wyjąć. Podstawa: ADR 8.1.4.5; zakres praktycznych ćwiczeń gaśniczych ADR 8.2.2.3.8.
 
-**Pytanie kontrolne:** ADR-B-0717 — co zrobić, gdy gaśnica jest łatwo dostępna, ale pozostaje narażona na deszcz?
+**Pytanie kontrolne:** ADR-B-0749 — co zrobić, gdy gaśnica jest łatwo dostępna, ale pozostaje narażona na deszcz?
 
 ### Indywidualne ćwiczenie z gaśnicą — ADR-B-0717
 
@@ -503,9 +503,9 @@ Po awarii zatrzymaj pojazd i wyłącz silnik, jeśli możesz zrobić to bezpiecz
 Na [tablicy pomarańczowej](../SLOWNICZEK.md#tablica-pomaranczowa) górny numer rozpoznawczy zagrożenia ([słowniczek](../SLOWNICZEK.md#numer-rozpoznawczy-zagrozenia)) opisuje rodzaj zagrożenia, a dolny numer UN identyfikuje przewożony towar. Jeśli oba numery są czytelne z bezpiecznego miejsca, przekaż je służbom razem z informacją o zdarzeniu. Nie wracaj po dokumenty, jeśli wymagałoby to wejścia w strefę zagrożenia. Podstawa: ADR 2025, 5.3.2.2.2 i 5.4.3.4.
 
 
-### Unikanie wdychania pyłu — ADR-B-0741
+### Unikanie wdychania pyłu — ADR-B-0106
 
-Instrukcje pisemne ADR obejmują nie tylko opary, lecz także dym, pył i pary. Jeśli z uszkodzonej przesyłki wydobywa się pył, oddal się i pozostań po stronie nawietrznej, tak aby wiatr niósł go od ciebie. Nie przechodź przez chmurę i nie zakładaj, że pył jest bezpieczny, gdy opadnie. Podstawa: ADR 2025, 5.4.3.4.
+Instrukcje pisemne ADR obejmują nie tylko opary, lecz także dym, pył i pary. Jeśli z uszkodzonej przesyłki wydobywa się pył, oddal się i pozostań po stronie nawietrznej, tak aby wiatr niósł go od ciebie. Nie przechodź przez chmurę i nie zakładaj, że pył jest bezpieczny, gdy opadnie. Jeżeli wiatr zmieni kierunek, ponownie znajdź stronę nawietrzną (pytanie ADR-B-0741). Podstawa: ADR 2025, 5.4.3.4.
 
 
 ### Granica gaszenia pożaru komory silnika i ładowni — ADR-B-0742
@@ -518,9 +518,14 @@ Instrukcje pisemne ADR rozróżniają mały lub początkowy pożar opon, hamulc�
 Instrukcje pisemne dopuszczają użycie gaśnicy przy małym lub początkowym pożarze komory silnika tylko wtedy, gdy jest to właściwe i bezpieczne. Jeżeli dojście do ognia wymaga wejścia w gęsty dym, nie podejmuj próby gaszenia. Oddal się, ostrzeż innych i wezwij służby; nie ryzykuj wdychania dymu. Podstawa: ADR 2025, 5.4.3.4.
 
 
-### Elektroniczny dokument przewozowy musi być dostępny — ADR-B-0744
+### Elektroniczny dokument przewozowy musi być dostępny
 
 ADR dopuszcza dokumentację elektroniczną, ale wymagane dane muszą być dostępne podczas przewozu z wiarygodnością i dostępnością co najmniej równoważną dokumentowi papierowemu. Jeśli brak zasięgu uniemożliwia otwarcie dokumentu, ratownicy nie mogą szybko ustalić, jaki towar jest przewożony. Zapewnij więc rzeczywisty dostęp do pełnych danych i nie polegaj wyłącznie na połączeniu z siecią. Podstawa: ADR 2025, 5.4.0.2 i 5.4.3.4.
+
+
+### Instrukcje pisemne nie zastępują dokumentu przewozowego — ADR-B-0744
+
+Instrukcje pisemne mają jeden wspólny, czterostronicowy wzór. Opisują czynności załogi i zagrożenia według nalepek, ale nie podają, jaki konkretnie towar jest w pojeździe. Numer UN, nazwę, nalepki, grupę pakowania ([słowniczek](../SLOWNICZEK.md#grupa-pakowania)) i ilość towaru zawiera dokument przewozowy. Dlatego przybyłym ratownikom zapewnia się łatwy dostęp właśnie do dokumentów przewozowych. Powiązane pytanie: ADR-B-0744. Podstawa: ADR 5.4.1.1.1 i 5.4.3.4.
 
 
 ### Skażone rękawice po kontakcie z substancją — ADR-B-0745
@@ -528,9 +533,9 @@ ADR dopuszcza dokumentację elektroniczną, ale wymagane dane muszą być dostę
 Rękawice, które miały kontakt z uwolnioną substancją, traktuj jako skażone nawet wtedy, gdy nie widać na nich plamy. Nie zakładaj ich ponownie ani nie przechowuj w kabinie; użyte skażone środki ochronne trzeba zdjąć i zapewnić ich bezpieczne usunięcie. Postępuj tak, aby nie przenosić substancji na skórę, wyposażenie ani inne osoby. Podstawa: ADR 2025, 5.4.3.4.
 
 
-### Ostrzeżenie także ruchu drogowego — ADR-B-0746
+### Nie wracać w strefę zagrożenia po rzeczy osobiste — ADR-B-0746
 
-Po awarii ostrzeż inne osoby i ruch drogowy o zagrożeniu oraz trzymaj ich z dala od strefy niebezpiecznej. Nie wystarczy poprosić kierowców, by zwolnili, jeśli nadal mogą wjechać w obszar zdarzenia. Nie wchodź w rozlew ani nie kieruj pojazdów przez miejsce zagrożenia; działaj z bezpiecznej pozycji i stosuj się do poleceń służb. Podstawa: ADR 2025, 5.4.3.4.
+Instrukcje pisemne każą oddalić się od miejsca wypadku lub zagrożenia, poinformować inne osoby o konieczności oddalenia się i stosować się do zaleceń służb ratowniczych. Dotyczy to także samej załogi. Nie wracaj do kabiny po telefon, portfel ani inne rzeczy, gdy w pobliżu jest wyciek lub opary. Kamizelka poprawia widoczność, ale nie chroni przed oparami ani pożarem. Innych uczestników ruchu ostrzegasz przede wszystkim stojącymi znakami ustawionymi w bezpiecznym miejscu. Powiązane pytanie: ADR-B-0746. Podstawa: ADR 5.4.3.4.
 
 
 ### Dwa znaki ostrzegawcze i kamizelka dla każdego członka załogi — ADR-B-0747

@@ -8,28 +8,23 @@
     {
       "id": "ADR-B-0741",
       "order": 741,
-      "clause": "ADR 2025, 5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4 (instrukcje pisemne: unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej)",
       "question_snapshot": {
         "id": "ADR-B-0741",
         "module_id": "ADR-B-05",
-        "stem": "Po awarii z uszkodzonej przesyłki wydobywa się drobny pył. Wiatr niesie go w stronę kierowcy stojącego przy poboczu. Które działanie jest zgodne z instrukcjami pisemnymi ADR?",
+        "stem": "Kierowca stoi po stronie nawietrznej, z dala od pękniętego kanistra na skrzyni pojazdu, z którego unoszą się drażniące opary. Po kilku minutach wiatr zmienia kierunek i zaczyna nieść opary w jego stronę. Co powinien zrobić?",
         "options": {
-          "A": "Pozostać po stronie zawietrznej w większej odległości, bo pył po rozproszeniu nie powinien już stanowić zagrożenia dla kierowcy.",
-          "B": "Przejść przez chmurę pyłu na drugą stronę, a potem poczekać, aż opadnie, zanim kierowca wróci do pojazdu po dokumenty.",
-          "C": "Odejść od pyłu i pozostać po stronie nawietrznej, tak by wiatr niósł go od kierowcy."
+          "A": "Zostać w tym miejscu, bo wybrał je zgodnie z wiatrem zaraz po zdarzeniu",
+          "B": "Schronić się w kabinie pojazdu i przeczekać w niej zmianę kierunku wiatru",
+          "C": "Przejść, omijając opary, tak by znów mieć wiatr od siebie w stronę oparów"
         },
         "correct_option": "C",
-        "explanation": "Pył z uszkodzonej przesyłki może dostać się do dróg oddechowych, dlatego kierowca powinien oddalić się i pozostać po stronie nawietrznej. Oznacza to miejsce, z którego wiatr wieje w stronę chmury, a nie takie, na które ją niesie. Nie zakładaj, że rozproszony pył jest bezpieczny, ani nie przechodź przez chmurę. Podstawa: ADR 2025, 5.4.3.4 — unikanie wdychania pyłu przez pozostawanie po stronie nawietrznej.",
+        "explanation": "Strona nawietrzna to miejsce, z którego wiatr wieje w stronę zagrożenia, więc opary są odnoszone od człowieka. Gdy wiatr zmieni kierunek, dotychczas bezpieczne miejsce może znaleźć się na drodze oparów. Trzeba wtedy ponownie ocenić wiatr i przejść, omijając chmurę, tak aby znów pozostać po stronie nawietrznej. Kabina stoi przy pękniętym kanistrze, więc nie jest dobrym schronieniem. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4 — unikać wdychania dymu, pyłu, oparów i par przez pozostawanie po stronie nawietrznej",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
-          },
-          {
-            "code": "UNECE-ADR-2025",
-            "reference": "ADR 2025, tom II, instrukcje pisemne, 5.4.3.4 — avoid inhalation of fumes, smoke, dusts and vapours by staying up wind",
-            "url": "https://unece.org/adr-2025-files"
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne: unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -39,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Pozostawanie po stronie zawietrznej może skierować pył i inne zanieczyszczenia w stronę kierowcy; większy odstęp nie zastępuje pozostawania po stronie nawietrznej."
+          "rationale": "ADR 2025 ADR 2025, 5.4.3.4 (instrukcje pisemne: unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej): odpowiedź pomija lub błędnie interpretuje warunek przepisu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Przechodzenie przez chmurę naraża na wdychanie pyłu, a oczekiwanie aż opadnie nie jest poleceniem instrukcji ADR."
+          "rationale": "ADR 2025 ADR 2025, 5.4.3.4 (instrukcje pisemne: unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej): odpowiedź pomija lub błędnie interpretuje warunek przepisu."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Instrukcje pisemne nakazują unikać wdychania pyłu, dymu, oparów i par przez pozostawanie po stronie nawietrznej."
+          "rationale": "ADR 2025 ADR 2025, 5.4.3.4 (instrukcje pisemne: unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej): odpowiedź odpowiada warunkom przepisu."
         }
       },
-      "notes_on_conditions": "Pytanie dotyczy pyłu wymienionego wprost w instrukcjach pisemnych 5.4.3.4; nie nakazuje kierowcy zbliżać się do przesyłki ani podejmować działań przy wycieku.",
+      "notes_on_conditions": "ADR 2025 ADR 2025, 5.4.3.4 (instrukcje pisemne: unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej). Kontrola druga; zachowano klucz C i moduł ADR-B-05; status needs_review.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
