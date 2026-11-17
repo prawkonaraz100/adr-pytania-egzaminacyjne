@@ -15,29 +15,19 @@
       "question_snapshot": {
         "id": "ADR-B-0703",
         "module_id": "ADR-B-09",
-        "stem": "Podczas wielopunktowej dostawy kierowca rozładował część skrzyń z jednej strony przestrzeni ładunkowej. Po zdjęciu pasów pozostałe skrzynie stoją, ale między nimi a ścianą powstała wolna przestrzeń i ładunek może przesunąć się podczas hamowania. Co powinien zrobić przed dalszą jazdą?",
+        "stem": "W trakcie dostawy do kilku odbiorców kierowca rozładował część skrzyń z towarami niebezpiecznymi. Pozostałe skrzynie stoją luzem, a obok nich powstała wolna przestrzeń, w którą mogą się przesunąć przy hamowaniu. Co powinien zrobić przed dalszą jazdą?",
         "options": {
-          "A": "Ułożyć pozostałe skrzynie i ponownie je zabezpieczyć, aby nie mogły się przemieszczać podczas jazdy.",
-          "B": "Zostawić ładunek bez zmian, jeśli przed rozładunkiem był prawidłowo zabezpieczony; nie trzeba sprawdzać pośrednich etapów.",
-          "C": "Dodać jedną taśmę na wierzchu skrzyń bez sprawdzania, czy pozostały ładunek może przesuwać się na boki."
+          "A": "Ułożyć pozostałe skrzynie ponownie i unieruchomić je na resztę trasy",
+          "B": "Jechać dalej, bo ładunek był dobrze zamocowany przy pierwszym załadunku",
+          "C": "Zostawić skrzynie luzem i jechać wolniej do następnego odbiorcy"
         },
         "correct_option": "A",
-        "explanation": "Po częściowym rozładunku układ ładunku się zmienia, więc wcześniejsze mocowanie może już nie wystarczać. Kierowca powinien ponownie ułożyć i zabezpieczyć pozostałe skrzynie, aby nie przesuwały się podczas hamowania ani skręcania. Sama taśma na wierzchu nie usuwa wolnej przestrzeni ani nie zastępuje sprawdzenia całego mocowania. Podstawa: ADR 7.5.7.1.",
+        "explanation": "Sztuki przesyłek z towarami niebezpiecznymi muszą być unieruchomione tak, aby podczas przewozu nie zmieniły ustawienia i nie uległy uszkodzeniu. Ten wymóg dotyczy całej trasy, także odcinka po częściowym rozładunku. Ruchowi skrzyń można zapobiec pasami, wypełnieniem wolnych przestrzeni przekładkami albo blokowaniem. Wolniejsza jazda ani wcześniejsze dobre mocowanie nie zastępują ponownego zabezpieczenia. Podstawa: ADR 7.5.7.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.7.1 — sztuki przesyłki załadowane na pojazd lub do kontenera powinny być zabezpieczone odpowiednimi środkami, aby zapobiec przemieszczaniu się podczas przewozu",
-            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
-          },
-          {
-            "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 7.5.7.1",
+            "reference": "ADR 2025, 7.5.7.1",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-UNECE",
-            "reference": "ADR 2025, 7.5.7.1 — packages loaded in a vehicle or container shall be secured by suitable means capable of restraining the goods during carriage",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -47,18 +37,18 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "After partial unloading changes the arrangement and leaves free space, the remaining packages must be secured against movement during carriage."
+          "rationale": "7.5.7.1: sztuki przesyłek unieruchamia się w pojeździe na czas przewozu, także po częściowym rozładunku."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "The previous securing arrangement may no longer restrain the remaining load after some packages are removed."
+          "rationale": "Wcześniejsze mocowanie nie zapobiega przesunięciu po powstaniu luki – 7.5.7.1 wymaga unieruchomienia."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "A single strap over the top does not establish that the remaining packages are restrained against movement in all relevant directions."
+          "rationale": "Wolniejsza jazda nie jest środkiem zabezpieczenia ładunku z 7.5.7.1."
         }
       },
-      "notes_on_conditions": "ADR 7.5.7.1 requires suitable securing means; the provision does not prescribe a universal number of straps or a single lashing pattern.",
+      "notes_on_conditions": "7.5.7.1 s. 1308–1309. Odrębne od 0026/0079/0235/0628/0764.",
       "editorial_result": "The four existing questions address general securing, package deformation and loose crates. This scenario adds the operational need to re-evaluate and secure the residual load after partial unloading.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
