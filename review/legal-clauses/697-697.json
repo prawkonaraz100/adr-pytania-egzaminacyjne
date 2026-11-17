@@ -10,34 +10,24 @@
     {
       "id": "ADR-B-0697",
       "order": 697,
-      "clause": "ADR 2025, 5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4 (oddalić się i poinformować inne osoby; unikać wdychania oparów; nalepka 6.1)",
       "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
       "question_snapshot": {
         "id": "ADR-B-0697",
         "module_id": "ADR-B-05",
-        "stem": "Po wypadku ADR kierowca stoi w bezpiecznym miejscu. Widzi, że dwie osoby idą w stronę uszkodzonej przesyłki, a jedyna droga, którą mógłby do nich podejść, prowadzi przez rozlew. Co powinien zrobić?",
+        "stem": "Po wypadku z uszkodzonej beczki z nalepką 6.1 wydobywają się opary. Wiatr niesie je wzdłuż drogi w stronę przystanku, na którym czekają ludzie. Kierowca może ich bezpiecznie zawołać. Dokąd powinien ich odesłać?",
         "options": {
-          "A": "Przejść przez rozlew i osobiście odciągnąć ludzi od przesyłki, aby jak najszybciej opuścili zagrożony teren.",
-          "B": "Z bezpiecznego miejsca ostrzec ludzi, by odeszli od zagrożenia, i nie przechodzić przez rozlew.",
-          "C": "Pozwolić im podejść, jeśli nie dotkną opakowania ani rozlanej substancji."
+          "A": "Dalej wzdłuż drogi, w tę samą stronę, w którą wiatr niesie opary",
+          "B": "W bok, poza pas oparów niesionych przez wiatr, z dala od wypadku",
+          "C": "Pod wiatę przystanku, bo jej dach osłoni ich przed oparami"
         },
         "correct_option": "B",
-        "explanation": "Osoby postronne trzeba ostrzec i trzymać z dala od strefy zagrożenia, ale nie wolno narażać się, by do nich podejść. Ostrzeż je z bezpiecznego miejsca i nie przechodź przez rozlew; jeśli nie możesz ich bezpiecznie ostrzec, przekaż ratownikom, gdzie się znajdują. Przejście przez ciecz może spowodować kontakt z niebezpiecznym materiałem, a pozwolenie na podejście naraża ludzi. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą oddalić się od miejsca wypadku i poinformować inne osoby, że też muszą się oddalić. Oparów nie wolno wdychać, a przy nalepce 6.1 instrukcje ostrzegają przed zatruciem w wyniku wdychania. Ludzie stojący na drodze oparów powinni więc wyjść z ich pasa w bok, a nie uciekać razem z wiatrem ani iść w stronę wycieku. Wiata przystanku nie chroni przed oparami. Podstawa: ADR 5.4.3.4 (czynności ogólne i nalepka 6.1).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4 — ostrzec inne osoby i ruch drogowy o zagrożeniu oraz trzymać je z dala od strefy zagrożenia; nie dotykać rozlewów ani przez nie nie przechodzić",
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne: oddalić się i poinformować inne osoby, unikać wdychania oparów; tabela nalepek – nalepka 6.1)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-MI",
-            "reference": "ADR 2025, tom II, s. 270, 5.4.3.4 — warn other persons and traffic of the danger and keep them away from the danger area; do not touch or walk through any spillage",
-            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
-          },
-          {
-            "code": "UNECE-ADR-2025",
-            "reference": "ADR 2025, 5.4.3.4 — written instructions: warn other persons and traffic, keep them away from danger area, and do not touch or walk through spillage",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -47,18 +37,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "The direct route crosses the spill. ADR instructions say not to touch or walk through spillage, and the warning must not put the driver into the danger area."
+          "rationale": "Ucieczka z wiatrem trzyma ludzi w pasie oparów – sprzeczne z zasadą unikania ich wdychania."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "The driver warns the approaching people from a safe position, keeps them away from the danger area, and does not cross the spill."
+          "rationale": "5.4.3.4: poinformować inne osoby o konieczności oddalenia się; unikać wdychania oparów – wyjść z ich pasa."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "People must be kept away from the danger area even if they promise not to touch the package or liquid; the area itself may be hazardous."
+          "rationale": "Wiata nie chroni przed oparami; instrukcje każą się oddalić, nie pozostać w pobliżu."
         }
       },
-      "notes_on_conditions": "The driver does not physically approach the bystanders through the spill. The scenario tests the possible-and-safe condition: warn from a safe place if possible, and give responders the location if warning cannot be done safely.",
+      "notes_on_conditions": "5.4.3.4: czynności s. 975, nalepka 6.1 s. 977. Odrębne od 0111/0186/0224/0632/0746. Do oceny specjalisty: kierunek ewakuacji osób postronnych.",
       "editorial_result": "K09's four existing questions repeatedly test the general duty to warn bystanders. This scenario adds a practical constraint absent from those questions: the direct route to the people crosses the spill, so the driver must warn from safety rather than enter the contaminated area.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

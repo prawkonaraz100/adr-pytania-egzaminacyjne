@@ -10,34 +10,24 @@
     {
       "id": "ADR-B-0702",
       "order": 702,
-      "clause": "ADR 2025, 5.4.3.4",
+      "clause": "ADR 2025, 8.1.4.1 (tabela, kolumna 3: gaśnica do pożaru silnika lub kabiny); 5.4.3.4",
       "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
       "question_snapshot": {
         "id": "ADR-B-0702",
         "module_id": "ADR-B-05",
-        "stem": "Podczas postoju kierowca zauważa niewielki pożar opony. Zanim zdąży użyć gaśnicy, ogień zaczyna obejmować elementy przestrzeni ładunkowej. Co powinien zrobić?",
+        "stem": "Na parkingu pod deską rozdzielczą w kabinie zaczyna się tlić przewód. Ogień jest mały, ładunek nie jest zagrożony, a kierowca może działać bez narażania się. Do jakiego pożaru ADR przeznacza wymaganą gaśnicę 2 kg?",
         "options": {
-          "A": "Kontynuować gaszenie gaśnicą, bo ogień pojawił się najpierw na oponie i nie trzeba zmieniać decyzji.",
-          "B": "Przerwać próbę gaszenia, oddalić się w bezpieczne miejsce i postępować zgodnie z instrukcjami awaryjnymi.",
-          "C": "Otworzyć przestrzeń ładunkową, sprawdzić zasięg ognia i skierować do niej strumień gaśnicy."
+          "A": "Do pożaru opon i hamulców, więc w kabinie nie należy jej używać",
+          "B": "Do pożaru silnika lub kabiny, więc w tej sytuacji można jej użyć",
+          "C": "Do pożaru ładunku, zanim ogień przejdzie z przestrzeni ładunkowej na kabinę"
         },
         "correct_option": "B",
-        "explanation": "Gaśnicy można użyć przy małym, początkowym pożarze opony, hamulca lub komory silnika tylko wtedy, gdy jest to bezpieczne i właściwe. Gdy ogień zaczyna obejmować przestrzeń ładunkową, nie wolno traktować go jak takiego małego pożaru. Nie otwieraj ładowni ani nie próbuj samodzielnego gaszenia; oddal się i wykonaj instrukcje awaryjne. Podstawa: ADR 5.4.3.4.",
+        "explanation": "Tabela w 8.1.4.1 wymaga, aby jednostka transportowa miała co najmniej jedną gaśnicę przenośną 2 kg odpowiednią do gaszenia pożaru silnika lub kabiny. Mały, początkowy pożar w kabinie mieści się więc w przeznaczeniu tej gaśnicy, jeżeli jej użycie jest bezpieczne. Żadna gaśnica z tej tabeli nie służy do gaszenia ładunku, bo pożaru przedziału ładunkowego załoga nie powinna gasić. Gdy ogień się rozwija albo kabina wypełnia się dymem, kierowca oddala się i wzywa służby. Podstawa: ADR 8.1.4.1 i 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4, instrukcje pisemne — użycie gaśnic wyłącznie do małych/początkowych pożarów opon, hamulców lub komory silnika, jeżeli jest to właściwe i bezpieczne; nie podejmować prób gaszenia pożaru w przedziale ładunkowym",
-            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
-          },
-          {
-            "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 5.4.3.4 — model instrukcji pisemnych",
+            "reference": "ADR 2025, 8.1.4.1 (tabela, kolumna 3: gaśnica do gaszenia pożaru silnika lub kabiny, co najmniej 2 kg); 5.4.3.4 (instrukcje pisemne: nie gasić pożaru przedziału ładunkowego)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-UNECE",
-            "reference": "ADR 2025, 5.4.3.4 — small/incipient tyre, brake or engine-compartment fires only when safe and appropriate; do not fight fires in load compartments",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -47,18 +37,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "The written instructions do not authorize continuing to fight a fire once it has spread into the load compartment."
+          "rationale": "Tabela 8.1.4.1 przeznacza gaśnicę 2 kg do pożaru silnika lub kabiny – nie ogranicza jej do opon i hamulców."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "The crew must abandon firefighting in the load compartment, move to safety and follow the written instructions."
+          "rationale": "8.1.4.1: co najmniej jedna gaśnica 2 kg odpowiednia do gaszenia pożaru silnika lub kabiny pojazdu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Opening the load compartment exposes the crew to additional danger and is not the prescribed response."
+          "rationale": "Pożaru przedziału ładunkowego załoga nie powinna gasić (5.4.3.4); żadna gaśnica z tabeli nie służy do ładunku."
         }
       },
-      "notes_on_conditions": "The narrow permission concerns small/incipient fires in tyres, brakes or the engine compartment, and only where safe and appropriate.",
+      "notes_on_conditions": "8.1.4.1 s. 1324 (kolumna 3); 5.4.3.4 s. 975. Podejście od strony nawietrznej = 0641 (pierwszy projekt odrzucony). Blisko 0223 (gaśnica 2 kg do pożaru silnika) – do oceny specjalisty; instrukcje pisemne wymieniają pożar opon, hamulców i silnika, nie kabiny.",
       "editorial_result": "The existing questions cover small tyre/brake fires and cargo-compartment fires separately. This scenario tests the transition point when a small tyre fire begins to involve the load compartment.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

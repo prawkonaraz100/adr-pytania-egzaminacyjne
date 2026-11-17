@@ -172,10 +172,10 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 
 **Typowe błędy:** uzależnienie wezwania służb od zgody dyspozytora; odkładanie zgłoszenia do czasu pełnego wyjaśnienia; zgadywanie rodzaju ładunku.
 
-**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho, bez odtwarzania sytuacji zagrożenia.
+**Podstawa:** ADR 5.4.3.4 i 1.4.1.2 (niezwłoczne powiadomienie). Ćwiczenie omawia się na sucho, bez odtwarzania sytuacji zagrożenia.
 
 
-### Ćwiczenie sytuacyjne — zmiana kierunku wiatru (ADR-B-0692)
+### Ćwiczenie sytuacyjne — zmiana kierunku wiatru (ADR-B-0741)
 
 **Sytuacja:** Kierowca odszedł od wycieku na stronę nawietrzną. Po chwili wiatr zmienia kierunek i chmura oparów zaczyna przesuwać się w jego stronę.
 
@@ -183,10 +183,10 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 
 **Typowe błędy:** pozostanie w poprzednim miejscu mimo zmiany wiatru; przejście za chmurę; podejście do wycieku w celu obserwacji.
 
-**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
+**Podstawa:** ADR 5.4.3.4 i 1.4.1.2 (niezwłoczne powiadomienie). Ćwiczenie omawia się na sucho.
 
 
-### Ćwiczenie sytuacyjne — kamizelka przed ustawieniem znaków (ADR-B-0693)
+### Ćwiczenie sytuacyjne — kamizelka przed ustawieniem znaków (ADR-B-0168)
 
 **Sytuacja:** Pojazd jest bezpiecznie zatrzymany na poboczu. Kierowca może opuścić kabinę i ustawić stojące znaki ostrzegawcze.
 
@@ -194,10 +194,10 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 
 **Typowe błędy:** wyjście z kabiny bez kamizelki; poleganie wyłącznie na światłach awaryjnych; ustawianie znaków kosztem wejścia w strefę zagrożenia lub ruch pojazdów.
 
-**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
+**Podstawa:** ADR 5.4.3.4. Ćwiczenie omawia się na sucho.
 
 
-### Ćwiczenie sytuacyjne — mały pożar komory silnika (ADR-B-0695)
+### Ćwiczenie sytuacyjne — mały pożar komory silnika (ADR-B-0108)
 
 **Sytuacja:** Kierowca zauważa mały, początkowy pożar w komorze silnika. Ogień nie obejmuje przedziału ładunkowego.
 
@@ -205,7 +205,7 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 
 **Typowe błędy:** twierdzenie, że nie wolno gasić żadnego pożaru pojazdu; gaszenie bez oceny bezpieczeństwa; pomylenie komory silnika z przedziałem ładunkowym.
 
-**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
+**Podstawa:** ADR 5.4.3.4. Ćwiczenie omawia się na sucho.
 
 
 ### Ćwiczenie sytuacyjne — dokument w zadymionej kabinie (ADR-B-0696)
@@ -216,10 +216,10 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 
 **Typowe błędy:** narażanie się dla odzyskania dokumentu; całkowite zatajenie znanych informacji; traktowanie dostępności dokumentów jako ważniejszej od bezpieczeństwa ludzi.
 
-**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
+**Podstawa:** ADR 5.4.3.4. Ćwiczenie omawia się na sucho.
 
 
-### Ćwiczenie sytuacyjne — ostrzeżenie z bezpiecznego miejsca (ADR-B-0697)
+### Ćwiczenie sytuacyjne — ostrzeżenie z bezpiecznego miejsca (ADR-B-0186)
 
 **Sytuacja:** Dwie osoby idą w stronę uszkodzonej przesyłki. Kierowca jest w bezpiecznym miejscu, ale bezpośrednia droga do tych osób prowadzi przez rozlew.
 
@@ -227,10 +227,10 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 
 **Typowe błędy:** wejście w rozlew w celu zatrzymania ludzi; pozwolenie im zbliżyć się, jeśli obiecują nie dotykać opakowania; brak ostrzeżenia i nieprzekazanie informacji ratownikom.
 
-**Podstawa:** ADR 2025, 5.4.3.4, tom II, s. 270. Ćwiczenie omawia się na sucho.
+**Podstawa:** ADR 5.4.3.4. Ćwiczenie omawia się na sucho.
 
 
-## Ćwiczenie — granica użycia gaśnicy (ADR-B-0702)
+## Ćwiczenie — granica użycia gaśnicy (ADR-B-0742)
 
 **Sytuacja:** Mały pożar opony zaczyna obejmować elementy przestrzeni ładunkowej.
 
@@ -238,7 +238,7 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 
 **Typowy błąd:** kontynuowanie gaszenia tylko dlatego, że ogień rozpoczął się na oponie.
 
-**Podstawa:** ADR 2025, 5.4.3.4.
+**Podstawa:** ADR 5.4.3.4.
 
 
 ## Ćwiczenie — bezpieczne usunięcie skażonej odzieży (ADR-B-0707)
@@ -315,3 +315,64 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowy błąd:** wykonywanie tylko jednego wiersza tabeli lub traktowanie każdej wskazówki jako nakazu wejścia do strefy zagrożenia.
 
 **Podstawa:** ADR 2025, 5.4.3.4 (uwaga 1), 8.2.2.3.8.
+
+
+### Ćwiczenie sytuacyjne — opary przy kabinie (ADR-B-0692)
+
+**Sytuacja:** Z pękniętego kanistra z nalepką 8 na skrzyni wycieka ciecz, a wiatr niesie opary w stronę kabiny. Pomocnik proponuje przeczekać w kabinie przy zamkniętych oknach.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że kabina nie jest schronieniem: załoga wysiada, jeśli to bezpieczne, i odchodzi na stronę nawietrzną, z dala od wycieku. Nie włącza nawiewu ani innych urządzeń elektrycznych.
+
+**Typowe błędy:** przekonanie, że zamknięte okna chronią przed oparami; włączenie nawiewu; pozostanie po stronie zawietrznej.
+
+**Podstawa:** ADR 5.4.3.4 (czynności ogólne i nalepka 8). Ćwiczenie omawia się na sucho.
+
+### Ćwiczenie sytuacyjne — kontrola stojących znaków ostrzegawczych (ADR-B-0693)
+
+**Sytuacja:** Przed wyjazdem w kabinie brakuje stojących znaków ostrzegawczych. Kierownik twierdzi, że zastępuje je oznakowanie konturowe naczepy i światła awaryjne.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że wykaz 8.1.5.2 wymaga dwóch stojących znaków ostrzegawczych w jednostce transportowej i trzeba je uzupełnić przed wyjazdem.
+
+**Typowe błędy:** uznanie oznakowania konturowego lub świateł awaryjnych za zamiennik; uzupełnienie tylko jednego znaku.
+
+**Podstawa:** ADR 8.1.5.2 i 5.4.3.4. Ćwiczenie omawia się na sucho.
+
+### Ćwiczenie sytuacyjne — duża gaśnica a pożar ładunku (ADR-B-0695)
+
+**Sytuacja:** Ciężarówka 18 t ma gaśnice o łącznej pojemności 12 kg, w tym 6 kg. Zaczynają się palić beczki w przestrzeni ładunkowej, a pomocnik chce je gasić dużą gaśnicą.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że załoga nie powinna gasić pożaru obejmującego przedział ładunkowy, a tabela 8.1.4.1 określa jedynie liczbę i pojemność gaśnic. Załoga oddala się, ostrzega innych i wzywa służby.
+
+**Typowe błędy:** uznanie gaśnicy 6 kg za przeznaczoną do gaszenia ładunku; gaszenie, bo łączna pojemność wynosi 12 kg.
+
+**Podstawa:** ADR 5.4.3.4 i 8.1.4.1. Ćwiczenie omawia się na sucho.
+
+### Ćwiczenie sytuacyjne — ludzie w pasie oparów (ADR-B-0697)
+
+**Sytuacja:** Z uszkodzonej beczki z nalepką 6.1 wydobywają się opary, które wiatr niesie wzdłuż drogi w stronę przystanku z ludźmi.
+
+**Oczekiwana decyzja:** Kursant każe ludziom wyjść z pasa oparów w bok i oddalić się od miejsca wypadku. Nie odsyła ich dalej z wiatrem ani pod wiatę.
+
+**Typowe błędy:** ucieczka razem z wiatrem; traktowanie wiaty jako osłony przed oparami; prowadzenie ludzi w stronę wycieku.
+
+**Podstawa:** ADR 5.4.3.4 (czynności ogólne i nalepka 6.1). Ćwiczenie omawia się na sucho.
+
+## Ćwiczenie — gaśnica 2 kg a pożar w kabinie (ADR-B-0702)
+
+**Sytuacja:** Na parkingu pod deską rozdzielczą tli się przewód. Ogień jest mały, ładunek nie jest zagrożony. Pomocnik twierdzi, że gaśnica 2 kg służy tylko do opon i hamulców.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że tabela 8.1.4.1 przeznacza gaśnicę 2 kg do pożaru silnika lub kabiny, więc przy małym pożarze kabiny można jej użyć, jeżeli jest to bezpieczne. Przy rozwoju ognia lub zadymieniu kabiny załoga oddala się i wzywa służby.
+
+**Typowe błędy:** ograniczanie gaśnicy 2 kg do opon i hamulców; traktowanie większych gaśnic jako przeznaczonych do gaszenia ładunku.
+
+**Podstawa:** ADR 8.1.4.1 i 5.4.3.4.
+
+## Ćwiczenie — gaśnica stała w komorze silnika (ADR-B-0704)
+
+**Sytuacja:** Pojazd ma w komorze silnika gaśnicę stałą uruchamianą automatycznie. Przewoźnik pyta, czy przenośna gaśnica do pożaru silnika jest nadal wymagana.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że według 8.1.4.3 przenośna gaśnica odpowiednia do pożaru silnika nie jest wtedy wymagana, ale pozostałe wymagania 8.1.4.1 obowiązują, a wymagane gaśnice muszą być łatwo dostępne.
+
+**Typowe błędy:** uznanie, że gaśnica stała zwalnia ze wszystkich gaśnic przenośnych; pominięcie 8.1.4.3.
+
+**Podstawa:** ADR 8.1.4.3, 8.1.4.1 i 8.1.4.5.

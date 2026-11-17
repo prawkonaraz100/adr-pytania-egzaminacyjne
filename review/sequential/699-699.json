@@ -8,29 +8,19 @@
       "id": "ADR-B-0699",
       "sequence": 699,
       "exact_record_snapshot": {
-        "stem": "Przed wyjazdem zestawu ADR kierowca sprawdza wyposażenie. Klin pod koło pasuje pod koło, ale jest przeznaczony do lekkiej przyczepy, a sprawdzany pojazd ma znacznie większą dopuszczalną masę całkowitą i większe koła. Co powinien zrobić?",
+        "stem": "Ciężarówka wiezie same kartony z towarami niebezpiecznymi zapakowanymi w ilościach ograniczonych (LQ) zgodnie z działem 3.4. Kontroler zauważa, że w pojeździe nie ma klina pod koła. Czy to naruszenie ADR?",
         "options": {
-          "A": "Pozostawić klin, ponieważ liczy się samo jego posiadanie, a nie dopasowanie do masy pojazdu i średnicy koła.",
-          "B": "Wymienić go na klin o rozmiarze odpowiednim do dopuszczalnej masy całkowitej i średnicy kół tego pojazdu.",
-          "C": "Zastosować dwa małe kliny pod tym samym kołem; ich liczba zastąpi dobór właściwego rozmiaru do pojazdu."
+          "A": "Tak, bo klin z 8.1.5.2 obowiązuje także przy przewozie towarów LQ",
+          "B": "Nie, przy przewozie LQ nie stosuje się wymagań 8.1.5 co do wyposażenia",
+          "C": "Tak, bo znak LQ na pojeździe oznacza obowiązek pełnego wyposażenia z 8.1.5"
         },
         "correct_option": "B",
-        "explanation": "Klin ma zatrzymać pojazd, dlatego jego rozmiar musi odpowiadać dopuszczalnej masie całkowitej i średnicy kół konkretnego pojazdu. Sam fakt, że klin mieści się pod kołem, nie wystarcza. Dwa za małe kliny nie zastępują właściwego doboru. ADR wymaga osobnego klina dla każdego pojazdu w jednostce transportowej. Podstawa: ADR 8.1.5.2.",
+        "explanation": "Towary zapakowane w ilościach ograniczonych zgodnie z działem 3.4 nie podlegają innym przepisom ADR poza wymienionymi w 3.4.1. Z części 8 ta lista obejmuje jedynie 8.2.3, 8.6.3.3 i 8.6.4, a nie wyposażenie z 8.1.5. Dlatego przy przewozie samych przesyłek LQ brak klina nie narusza ADR. Klin dobrany do masy i kół każdego pojazdu jest wymagany przy przewozie na pełnych zasadach ADR. Podstawa: ADR 3.4.1 (h) i 8.1.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.2 — klin pod koła dla każdego pojazdu, o rozmiarze odpowiednim do dopuszczalnej masy całkowitej pojazdu oraz średnicy jego kół",
-            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
-          },
-          {
-            "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.1.5.2",
+            "reference": "ADR 2025, 3.4.1 (h) (część 8: tylko 8.2.3, 8.6.3.3 i 8.6.4); 8.1.5.2",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-UNECE",
-            "reference": "ADR 2025, 8.1.5.2 — one wheel chock for each vehicle, sized to the vehicle's maximum permissible mass and wheel diameter",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",

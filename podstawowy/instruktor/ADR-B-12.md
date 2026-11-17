@@ -134,7 +134,7 @@ Nie ma dostępnych statystyk błędów kursantów, dlatego nie wskazujemy empiry
 Pytania kontrolne: `ADR-B-0034`, `ADR-B-0035`, `ADR-B-0036`, `ADR-B-0249`, `ADR-B-0274`, `ADR-B-0304`, `ADR-B-0399`, `ADR-B-0455`, `ADR-B-0519`, `ADR-B-0582`. Typowe pomyłki: utożsamienie ochrony przewozu z mocowaniem, wydanie ładunku na podstawie samego numeru zlecenia i ujawnianie szczegółów ochrony osobom, które ich nie potrzebują.
 
 
-## Ćwiczenie — ocena placu czasowego składowania (ADR-B-0701)
+## Ćwiczenie — ocena placu czasowego składowania (ADR-B-0035)
 
 **Sytuacja:** Kierowca ma pozostawić jednostkę transportową na placu terminalu do czasowego składowania. Plac jest ciemny, a brama od strony ulicy pozostaje otwarta.
 
@@ -142,4 +142,14 @@ Pytania kontrolne: `ADR-B-0034`, `ADR-B-0035`, `ADR-B-0036`, `ADR-B-0249`, `ADR-
 
 **Typowe błędy:** uznanie, że tablica ostrzegawcza zastępuje zabezpieczenie; pominięcie oświetlenia; pominięcie zastrzeżenia „gdzie to możliwe i właściwe”.
 
-**Podstawa:** ADR 2025, 1.10.1.3.
+**Podstawa:** ADR 1.10.1.3.
+
+## Ćwiczenie — składowanie przy przeładunku jako część przewozu (ADR-B-0701)
+
+**Sytuacja:** Kartony z towarami niebezpiecznymi czekają kilka godzin w terminalu na przeładunek na inną ciężarówkę.
+
+**Oczekiwana odpowiedź:** Kursant wskazuje warunki z definicji „przewóz” (1.2.1): dokumenty przewozowe z miejscem wydania i odbioru do okazania na żądanie oraz nieotwierane sztuki przesyłek (poza kontrolą władz). Wtedy miejsce składowania podlega 1.10.1.3.
+
+**Typowe błędy:** szukanie w ADR limitu godzin; uznanie, że przepakowanie z nowym dokumentem nie zmienia sytuacji.
+
+**Podstawa:** ADR 1.2.1 i 1.10.1.3.

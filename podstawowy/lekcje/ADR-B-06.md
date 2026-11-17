@@ -309,16 +309,22 @@ Opakowanie zbiorcze (OVERPACK) ([definicja w słowniczku](../SLOWNICZEK.md#opako
 
 ### Widoczność i położenie tylnej tablicy pomarańczowej — ADR-B-0694
 
-Jednostka transportowa przewożąca towary niebezpieczne ma mieć dwie tablice pomarańczowe: jedną z przodu, drugą z tyłu. Obie muszą być ustawione prostopadle do osi podłużnej pojazdu i dobrze widoczne. Jeśli koło zapasowe, element zabudowy lub ładunek zasłania tylną tablicę, przed rozpoczęciem przewozu usuń przeszkodę albo popraw mocowanie. Widoczna tablica z przodu nie zastępuje tylnej. Podstawa: ADR 2025, 5.3.2.1.1, tom II, s. 248.
+Jednostka transportowa przewożąca towary niebezpieczne ma mieć dwie tablice pomarańczowe: jedną z przodu, drugą z tyłu. Obie muszą być ustawione prostopadle do osi podłużnej pojazdu i dobrze widoczne. Jeśli koło zapasowe, element zabudowy lub ładunek zasłania tylną tablicę, przed rozpoczęciem przewozu usuń przeszkodę albo popraw mocowanie. Widoczna tablica z przodu nie zastępuje tylnej. Podstawa: ADR 5.3.2.1.1.
 
 Powiązane pytanie: **ADR-B-0694**.
 
 
-### Litera X na tablicy — ostrzeżenie dla ratowników (ADR-B-0698)
+### Litera X na tablicy — ostrzeżenie dla ratowników (ADR-B-0170)
 
-Jeśli numer rozpoznawczy zagrożenia jest poprzedzony literą X, materiał reaguje niebezpiecznie z wodą. Przekaż tę informację ratownikom; nie oceniaj samodzielnie, czy można użyć wody. ADR dopuszcza jej zastosowanie tylko za zgodą specjalistów. Podstawa: ADR 2025, 5.3.2.3.1, tom II, s. 251.
+Jeśli numer rozpoznawczy zagrożenia jest poprzedzony literą X, materiał reaguje niebezpiecznie z wodą. Przekaż tę informację ratownikom; nie oceniaj samodzielnie, czy można użyć wody. ADR dopuszcza jej zastosowanie tylko za zgodą specjalistów. Podstawa: ADR 5.3.2.3.1.
 
-Powiązane pytanie: **ADR-B-0698**.
+Powiązane pytanie: **ADR-B-0170**.
+
+### Brak litery X nie oznacza, że woda jest bezpieczna — ADR-B-0698
+
+Litera X ostrzega, że materiał reaguje z wodą niebezpiecznie. Z samego braku X nie wynika jednak, że wodę można stosować. Numer 423 oznacza materiał stały, który reaguje z wodą, wydzielając gazy palne, a [instrukcje pisemne](../SLOWNICZEK.md#instrukcje-pisemne) dla nalepki 4.3 każą utrzymywać uwolniony materiał w stanie suchym, pod przykryciem. Odczytuj znaczenie wszystkich cyfr numeru rozpoznawczego.
+
+Powiązane pytanie: **ADR-B-0698**. Podstawa: ADR 5.3.2.3.1, 5.3.2.3.2 i 5.4.3.4.
 
 
 ### Wysokość oznaczenia numeru UN — ADR-B-0750

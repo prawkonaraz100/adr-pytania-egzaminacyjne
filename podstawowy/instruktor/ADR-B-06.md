@@ -167,7 +167,7 @@ Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, dru
 **Pytanie kontrolne:** ADR-B-0694. Podstawa: ADR 5.3.2.1.1. To ogólna zasada dla jednostki transportowej, nie dodatkowe tablice boczne wymagane w niektórych konfiguracjach.
 
 
-## Zadanie instruktorskie — litera X i informacja dla ratowników (ADR-B-0698)
+## Zadanie instruktorskie — litera X i informacja dla ratowników (ADR-B-0170)
 
 **Sytuacja:** Na tablicy pomarańczowej numer rozpoznawczy zagrożenia poprzedza litera X. Ratownik pyta kierowcę, czy może użyć wody.
 
@@ -175,4 +175,15 @@ Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, dru
 
 **Typowe błędy:** uznanie X za oznaczenie silniejszego zagrożenia; potraktowanie go jako bezwzględnego zakazu bez wyjątku; samodzielne rekomendowanie wody na podstawie wyglądu wycieku.
 
-**Podstawa:** ADR 2025, 5.3.2.3.1, tom II, s. 251. Ćwiczenie omawia się na sucho.
+**Podstawa:** ADR 5.3.2.3.1. Ćwiczenie omawia się na sucho.
+
+## Zadanie instruktorskie — numer 423 bez litery X (ADR-B-0698)
+
+**Sytuacja:** Na tablicy jest numer 423 bez litery X. Pracownik chce spłukać wodą materiał z pękniętego worka, bo nie widzi X.
+
+**Oczekiwana decyzja:** Kursant wyjaśnia, że 423 oznacza materiał stały, który reaguje z wodą, wydzielając gazy palne. Brak X nie oznacza, że woda jest bezpieczna; materiał utrzymuje się w stanie suchym, pod przykryciem.
+
+**Typowe błędy:** uznanie, że reakcję z wodą sygnalizuje jedynie litera X; rozcieńczanie materiału dużą ilością wody.
+
+**Podstawa:** ADR 5.3.2.3.1, 5.3.2.3.2 i 5.4.3.4. Ćwiczenie omawia się na sucho.
+

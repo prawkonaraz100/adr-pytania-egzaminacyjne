@@ -147,7 +147,7 @@ Przygotuj dwie fikcyjne karty pojazdu i świadectwa. W jednym zestawie zgodne s�
 **Pytania kontrolne:** ADR-B-0596 (liczba lamp) i ADR-B-0686 (reflektory robocze nie zastępują przenośnej latarki). Podstawa: ADR 8.1.5.2 i 1.2.1. Status pozostaje `needs_review`.
 
 
-## Ćwiczenie — dobór klina do pojazdu (ADR-B-0699)
+## Ćwiczenie — dobór klina do pojazdu (ADR-B-0023)
 
 **Sytuacja:** Kierowca sprawdza klin przed wyjazdem zestawu ADR. Klin pasuje pod koło, ale jest przeznaczony do znacznie lżejszego pojazdu.
 
@@ -155,10 +155,20 @@ Przygotuj dwie fikcyjne karty pojazdu i świadectwa. W jednym zestawie zgodne s�
 
 **Typowe błędy:** uznanie, że każdy klin jest uniwersalny; stosowanie dwóch małych klinów zamiast właściwego; pominięcie odrębnego klina dla każdego pojazdu.
 
-**Podstawa:** ADR 2025, 8.1.5.2. Ćwiczenie omawia się na sucho.
+**Podstawa:** ADR 8.1.5.2. Ćwiczenie omawia się na sucho.
+
+## Ćwiczenie — klin a przesyłki LQ (ADR-B-0699)
+
+**Sytuacja:** Ciężarówka wiezie same kartony z towarami w ilościach ograniczonych (LQ), a w pojeździe nie ma klina pod koła.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że przy przewozie samych przesyłek LQ z części 8 stosuje się jedynie 8.2.3, 8.6.3.3 i 8.6.4 (3.4.1 (h)), więc wyposażenie z 8.1.5 nie jest wymagane.
+
+**Typowe błędy:** uznanie znaku LQ za obowiązek pełnego wyposażenia; mylenie z przewozem na pełnych zasadach ADR.
+
+**Podstawa:** ADR 3.4.1 (h) i 8.1.5.2. Ćwiczenie omawia się na sucho.
 
 
-## Ćwiczenie — wyposażenie każdego członka załogi (ADR-B-0705)
+## Ćwiczenie — wyposażenie każdego członka załogi (ADR-B-0763)
 
 **Sytuacja:** W pojeździe jadą dwie osoby, ale rękawice ochronne i okulary ma tylko kierowca.
 
@@ -166,7 +176,17 @@ Przygotuj dwie fikcyjne karty pojazdu i świadectwa. W jednym zestawie zgodne s�
 
 **Typowe błędy:** uznanie, że wystarczy jeden zestaw w kabinie; wyposażenie tylko kierowcy; pominięcie ochrony oczu drugiej osoby.
 
-**Podstawa:** ADR 2025, 8.1.5.2. Ćwiczenie omawia się na sucho.
+**Podstawa:** ADR 8.1.5.2. Ćwiczenie omawia się na sucho.
+
+## Ćwiczenie — płyn do płukania oczu a rękawice (ADR-B-0705)
+
+**Sytuacja:** Jednostka wiezie same butle z nalepką 2.2. Przewoźnik chce zabrać z pojazdu płyn do płukania oczu, rękawice i okulary ochronne.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że przypis do 8.1.5.2 zwalnia jedynie z płynu do płukania oczu; para rękawic i ochrona oczu dla każdego członka załogi pozostają.
+
+**Typowe błędy:** rozszerzenie przypisu na całą ochronę osobistą; uzależnianie wyposażenia od sposobu zapakowania butli.
+
+**Podstawa:** ADR 8.1.5.2. Ćwiczenie omawia się na sucho.
 
 
 ## Ćwiczenie instruktorskie — dobór wyposażenia z dokumentu przewozowego (ADR-B-0710)
