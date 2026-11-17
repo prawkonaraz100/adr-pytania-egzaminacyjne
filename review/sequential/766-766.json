@@ -1,6 +1,6 @@
 {
   "batch": "766-766",
-  "date": "2026-11-03",
+  "date": "2026-11-17",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
   "records": [
@@ -8,19 +8,19 @@
       "id": "ADR-B-0766",
       "sequence": 766,
       "exact_record_snapshot": {
-        "stem": "Przewozisz opakowania kombinowane, w których opakowania wewnętrzne zawierają po 750 ml cieczy niebezpiecznej. Jak powinny być oznakowane strzałkami kierunkowymi?",
+        "stem": "Karton jest opakowaniem kombinowanym z butelkami cieczy niebezpiecznej, każda po 750 ml. Butelki nie są hermetycznie zamknięte, a w kartonie nie ma materiału chłonnego. Gdzie trzeba umieścić strzałki kierunkowe?",
         "options": {
-          "A": "Na jednym pionowym boku opakowania, ze strzałkami skierowanymi ku górze; drugi bok nie wymaga znaku.",
-          "B": "Na dwóch przeciwległych pionowych bokach opakowania, ze strzałkami skierowanymi dokładnie ku górze.",
-          "C": "Na dwóch sąsiednich bokach opakowania, ze strzałkami skierowanymi w stronę najbliższej krawędzi."
+          "A": "Na jednym pionowym boku kartonu, z grotami skierowanymi ku górze",
+          "B": "Na dwóch przeciwległych pionowych bokach, z grotami ku górze",
+          "C": "Na dwóch sąsiednich pionowych bokach, z grotami ku górze"
         },
         "correct_option": "B",
-        "explanation": "Jeśli w opakowaniu kombinowanym znajdują się opakowania wewnętrzne z cieczą, musisz zwrócić uwagę na oznaczenie kierunku ustawienia. Strzałki mają być widoczne na dwóch przeciwległych pionowych bokach i wskazywać dokładnie górę, żeby podczas przewozu opakowanie nie zostało ustawione niewłaściwie. Nie wystarczy znak tylko z jednej strony ani na bokach sąsiadujących; ramka wokół strzałek jest opcjonalna. Podstawa: ADR 2025, 5.2.1.10.1.",
+        "explanation": "Strzałki kierunkowe pokazują, którą stroną do góry ma stać sztuka przesyłki z cieczą. Przepis 5.2.1.10.1 wymaga, aby znak był na dwóch przeciwległych pionowych bokach, a groty strzałek były skierowane ku górze. Dzięki temu ustawienie widać z obu stron kartonu. Butelki po 750 ml nie mieszczą się w wyjątkach dla małych opakowań wewnętrznych: do 120 ml z materiałem chłonnym albo do 500 ml hermetycznie zamkniętych. Podstawa: ADR 5.2.1.10.1 i 5.2.1.10.2 (b), (f).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.1.10.1 — strzałki kierunkowe na dwóch przeciwległych pionowych bokach, wskazujące dokładnie ku górze; wyjątki określa 5.2.1.10.2",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 5.2.1.10.1 (a) (opakowania kombinowane z opakowaniami wewnętrznymi zawierającymi materiały ciekłe – oznakowanie na dwóch przeciwległych pionowych bokach sztuki przesyłki, groty strzałek skierowane ku górze); 5.2.1.10.2 (b) i (f) (wyjątki: opakowania wewnętrzne do 120 ml z materiałem absorpcyjnym, hermetycznie zamknięte do 500 ml)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -35,7 +35,7 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "ADR 2025 5.2.1.10.1 requires applicable combination packages with liquid inner packagings to bear orientation arrows on two opposite vertical sides, pointing exactly upwards. Exceptions in 5.2.1.10.2 do not apply to 750 ml liquid inner packages. Full official Polish text comparison and independent specialist review remain pending.",
+      "source_crosscheck_scope": "Literal review against ADR 2025 Dz.U. 2025 poz. 642, page(s) 939. Exact quote: Oznakowanie to powinno być naniesione na dwóch przeciwległych pionowych bokach sztuki przesyłki, a groty strzałek powinny być skierowane ku górze. Finding: Klucz B jest zgodny z zasadą dwóch przeciwległych pionowych boków i grotów skierowanych ku górze. 750 ml nie mieści się w wyjątkach 5.2.1.10.2(b) ani (f). Powiązane 0617 i 0682 sprawdzają wyjątki, nie tę samą regułę; obecne opcje są za długie i kończą się kropkami.",
       "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,

@@ -251,7 +251,7 @@ Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi poró
 
 **Co warto zrobić lub sprawdzić:** Przyjmij kod B dla całego ładunku i zaplanuj trasę omijającą tunel kategorii C.
 
-**Ćwiczenie:** odpowiedz na `ADR-B-0771` i uzasadnij, dlaczego inne opcje nie pasują. **Sprawdź przepis:** ADR 8.6.3.2 i 8.6.4.
+**Ćwiczenie:** odpowiedz na `ADR-B-0771` i wyjaśnij, dlaczego kod C z przyczepy wyznacza ograniczenie dla całego zestawu. **Sprawdź przepis:** ADR 1.2.1, 8.6.3.2 i 8.6.4.
 
 
 ### Wyłączenie 1.1.3 a oznakowanie LQ — ADR-B-11-K06
@@ -260,7 +260,7 @@ Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi poró
 
 **Przykład z pracy:** Na jednej jednostce wieziesz towar z kodem B objęty wyłączeniem 1.1.3 oraz towary LQ z kodem D. Ilość LQ wymaga oznakowania jednostki. W takiej sytuacji kod B trzeba uwzględnić i przypisać całemu ładunkowi, a oznakowana jednostka podlega również ograniczeniu tuneli kategorii E.
 
-**Ćwiczenie:** odpowiedz na `ADR-B-0772` i wskaż, dlaczego wyłączenie 1.1.3 nie zawsze oznacza pominięcie towaru przy ustalaniu kodu. **Podstawa:** ADR 8.6.3.2, 8.6.3.3 i 8.6.4.
+**Ćwiczenie:** odpowiedz na `ADR-B-0772` i wyjaśnij, dlaczego jednostka oznakowana znakami LQ podlega ograniczeniom tylko w tunelach kategorii E. **Podstawa:** ADR 3.4.13, 3.4.14 i 8.6.4.
 
 
 ### Informacje dla ratowników po pożarze — ADR-B-11-K07
@@ -269,4 +269,17 @@ Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi poró
 
 **Przykład z pracy:** Po pożarze w tunelu kierowca jest już w bezpiecznym miejscu. Strażacy pytają o przewożony towar. Kierowca przekazuje dostępne dane o towarach niebezpiecznych i udostępnia dokument przewozowy, jeżeli ma go przy sobie.
 
-**Ćwiczenie:** odpowiedz na `ADR-B-0773` i wskaż, jakie informacje są potrzebne ratownikom. **Podstawa:** instrukcje pisemne ADR 5.4.3.4.
+**Ćwiczenie:** odpowiedz na `ADR-B-0773` i wskaż, jakie czynności wykonać z pojazdem przed oddaleniem się, jeżeli jest to możliwe i bezpieczne. **Podstawa:** instrukcje pisemne ADR 5.4.3.4.
+
+
+### Kody tunelowe samochodu i przyczepy (ADR-B-0771)
+
+Samochód ciężarowy z dołączoną przyczepą tworzy jedną jednostkę transportową. Jeżeli przewożone towary mają różne kody tunelowe, dla całego ładunku stosuje się kod odpowiadający największym ograniczeniom. Kod C oznacza zakaz przejazdu przez tunele kategorii C, D i E. Podstawa: ADR 1.2.1, 8.6.3.2 i 8.6.4.
+
+### Znaki LQ a ograniczenia tunelowe (ADR-B-0772)
+
+Jednostka transportowa, dla której wymagane są znaki LQ na podstawie 3.4.13 z zastrzeżeniem 3.4.14, podlega ograniczeniom przewozu przez tunele kategorii E. Tabela kodów tunelowych z 8.6.4 dotyczy jednostek wymagających tablic barwy pomarańczowej zgodnie z 5.3.2. Nie należy przypisywać jednostce przewożącej wyłącznie LQ kodu tunelowego z tabeli bez sprawdzenia zakresu tego przepisu. Podstawa: ADR 3.4.13, 3.4.14 i 8.6.4.
+
+### Pożar przedziału ładunkowego w tunelu (ADR-B-0773)
+
+Instrukcje pisemne wskazują, że przy pożarze należy zahamować pojazd, wyłączyć silnik i — jeżeli jest dostępny — odłączyć akumulator wyłącznikiem głównym, o ile jest to możliwe i bezpieczne. Załoga nie powinna gasić pożaru obejmującego przedział ładunkowy. Następnie należy oddalić się i poinformować inne osoby. Podstawa: ADR 5.4.3.4.

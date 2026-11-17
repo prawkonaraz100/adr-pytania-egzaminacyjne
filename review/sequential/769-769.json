@@ -1,6 +1,6 @@
 {
   "batch": "769-769",
-  "date": "2026-11-03",
+  "date": "2026-11-17",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
   "records": [
@@ -8,19 +8,19 @@
       "id": "ADR-B-0769",
       "sequence": 769,
       "exact_record_snapshot": {
-        "stem": "Po rozładunku sztuk przesyłek ADR kierowca sprawdza przestrzeń ładunkową. Opakowania są całe i nie ma śladów uwolnienia zawartości. Czy ADR 7.5.8.1 nakazuje oczyścić pojazd przed kolejnym załadunkiem wyłącznie z powodu przewozu tych opakowań?",
+        "stem": "Wywrotka przewiozła luzem towar niebezpieczny klasy 9. Teraz ma przewieźć luzem inny towar niebezpieczny, także klasy 9. Czy przed tym załadunkiem trzeba ją odpowiednio oczyścić?",
         "options": {
-          "A": "Tak, pojazd trzeba myć po każdym przewozie towarów niebezpiecznych, nawet gdy opakowania są całe.",
-          "B": "Nie; ten obowiązek powstaje, gdy po rozładunku stwierdzono uwolnienie części zawartości.",
-          "C": "Nie, jeśli po rozładunku podłoga jest sucha, nawet gdy wcześniej stwierdzono wyciek z opakowania."
+          "A": "Nie, bo do zwolnienia wystarcza ta sama klasa obu tych towarów",
+          "B": "Tak, bo zwolnienie dotyczy tych samych towarów, a nie klasy",
+          "C": "Nie, jeżeli poprzedni towar wpisze się do nowego dokumentu"
         },
         "correct_option": "B",
-        "explanation": "Przepis 7.5.8.1 nie nakazuje automatycznego mycia pojazdu po każdym przewozie sztuk przesyłek ADR. Obowiązek niezwłocznego czyszczenia powstaje wtedy, gdy po rozładunku stwierdzisz, że część zawartości wydostała się z opakowania. Nie zastępuj kontroli oceną zapachu lub samym wyglądem podłogi; jeśli wykryjesz pozostałości, oczyść pojazd jak najszybciej i przed ponownym załadunkiem. Podstawa: ADR 2025, 7.5.8.1.",
+        "explanation": "Po przewozie towarów niebezpiecznych luzem pojazd trzeba odpowiednio oczyścić przed ponownym załadunkiem. Przepis 7.5.8.2 zwalnia z tego tylko wtedy, gdy nowy ładunek zawiera te same towary niebezpieczne co poprzednio. Ta sama klasa nie wystarcza, bo dwa różne materiały klasy 9 mają inne właściwości, a resztki pierwszego zanieczyściłyby drugi. Wpis w dokumencie przewozowym nie zastępuje czyszczenia. Podstawa: ADR 7.5.8.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.8.1 — obowiązek niezwłocznego czyszczenia po rozładunku jest uruchamiany stwierdzeniem, że część zawartości wydostała się z opakowania",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 7.5.8.2 (pojazdy lub kontenery, w których przewożone były towary niebezpieczne luzem, powinny być odpowiednio oczyszczone przed ponownym załadunkiem, z wyjątkiem przypadku, gdy nowy ładunek zawiera te same towary niebezpieczne jak poprzednio)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -35,7 +35,7 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "ADR 2025 7.5.8.1: the special duty to clean after unloading is triggered when part of the contents is found to have escaped from a package. In that case cleaning must be carried out as soon as possible and before reloading; if it cannot be done locally, safe transfer to the nearest suitable cleaning place is required. Full official Polish text comparison and independent specialist review remain pending.",
+      "source_crosscheck_scope": "Literal review against ADR 2025 Dz.U. 2025 poz. 642, page(s) 1309. Exact quote: Jeżeli po rozładunku pojazdu lub kontenera załadowanego wcześniej towarami niebezpiecznymi w sztukach przesyłek stwierdzono, że wydostała się część ich zawartości, to taki pojazd lub kontener należy niezwłocznie oczyścić; w żadnym przypadku nie później niż przed ponownym załadunkiem. Finding: Werdykt POPRAW jest zasadny, ale pytanie powtarza ADR-B-0514: oba pytają o obowiązek czyszczenia po przewozie nieuszkodzonych sztuk przesyłek bez uwolnienia zawartości. Proponowany nowy element pozostaje w ADR-B-09-K07 i sprawdza odrębną regułę 7.5.8.2 dotyczącą przewozu luzem. Opcje są za długie i zawierają kropki oraz absoluty.",
       "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,

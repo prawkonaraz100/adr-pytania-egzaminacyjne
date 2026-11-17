@@ -14,7 +14,7 @@ COMPETENCIES = ROOT / "podstawowy/kompetencje.json"
 APPROVALS = ROOT / "review/approvals.jsonl"
 
 FIRST_PASS_BANK_SHA = "cef031e32248db1a3a0ae05e0b725bcacb9f0b0a"
-EXPECTED_BANK_SHA = "cef031e32248db1a3a0ae05e0b725bcacb9f0b0a"
+EXPECTED_BANK_SHA = "e2fba7594e5334356a1e5f3192987e538d58ee2c"
 EXPECTED_IDS = [f"ADR-B-{n:04d}" for n in range(766, 781)]
 ABSOLUTES = ("tylko", "wyłącznie", "zawsze", "nigdy", "żaden", "żadna", "żadne", "wszystkie", "każdy", "każda", "każde", "niezależnie")
 
@@ -42,7 +42,7 @@ class Partia52LiteralReview(unittest.TestCase):
         self.assertTrue(APPROVALS.is_file())
         self.assertEqual(APPROVALS.read_text(encoding="utf-8").strip(), "")
         self.assertEqual(git_blob_sha(self.raw), EXPECTED_BANK_SHA)
-        self.assertEqual(FIRST_PASS_BANK_SHA, EXPECTED_BANK_SHA)
+        self.assertNotEqual(FIRST_PASS_BANK_SHA, EXPECTED_BANK_SHA)
         self.assertEqual(len(self.questions), 780)
         self.assertEqual(self.manifest["scope"], "first_pass_literal_review")
         self.assertEqual(self.manifest["batch"], "ADR-B-0766–0780")
@@ -104,6 +104,21 @@ class Partia52LiteralReview(unittest.TestCase):
                 self.assertTrue(replacement["replacement_quote"])
                 self.assertTrue(replacement["replacement_pages"])
 
+
+    def test_second_pass_artifacts_and_bank_sha(self):
+        corrections_path = ROOT / "review/literal-pl/POPRAWKI-KONTROLA2-0766-0780.jsonl"
+        report_path = ROOT / "review/literal-pl/KONTROLA2-PARTIA-0766-0780.md"
+        self.assertTrue(report_path.is_file())
+        self.assertTrue(corrections_path.is_file())
+        corrections = [json.loads(line) for line in corrections_path.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(corrections), 15)
+        self.assertEqual([row["id"] for row in corrections], EXPECTED_IDS)
+        for row in corrections:
+            with self.subTest(id=row["id"]):
+                self.assertEqual(row["verification_status"], "needs_review")
+                self.assertEqual(row["correct_option"], self.bank[row["id"]]["correct_option"])
+                self.assertEqual(row, self.bank[row["id"]])
+        self.assertEqual(git_blob_sha(self.raw), EXPECTED_BANK_SHA)
 
 if __name__ == "__main__":
     unittest.main()

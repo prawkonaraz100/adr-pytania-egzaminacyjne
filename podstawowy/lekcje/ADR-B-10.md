@@ -249,4 +249,9 @@ Jeżeli przewóz odbywa się zgodnie z ADR 1.1.4.2.1, dokument przewozowy musi z
 Odstępstwo z 1.1.4.2.1 obejmuje oznakowanie według Kodeksu IMDG, pakowanie razem według Kodeksu IMDG oraz duże nalepki na kontenerach. Wystarczy jedna z tych sytuacji, aby przewóz był przewozem zgodnym z 1.1.4.2.1. Gdy sztuki przesyłek mają oznakowanie ADR, ale pakowanie razem spełnia jedynie Kodeks IMDG, w dokumencie przewozowym nadal trzeba dodać zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Powiązane pytanie: ADR-B-0708. Podstawa: ADR 1.1.4.2.1 (b) i 5.4.1.1.7.
 
 
-Pytanie bankowe powiązane z tym działem: **ADR-B-0770** — wyłączenie z odstępstwa ADR 1.1.4.2.1 dla towarów niebezpiecznych według ADR, które według IMDG/ICAO są uznawane za niebędące towarami niebezpiecznymi.
+Pytanie bankowe powiązane z tym działem: **ADR-B-0770** — zastosowanie 1.1.4.2.1 do przewozu ciężarówki promem morskim i wymagany zapis w dokumencie.
+
+
+### Przewóz ciężarówki promem morskim (ADR-B-0770)
+
+Łańcuch drogowo-morski obejmujący rejs promem jest łańcuchem transportowym zawierającym przewóz morski. Jeżeli sztuki przesyłek korzystają z oznakowania według Kodeksu IMDG zamiast oznakowania ADR na warunkach 1.1.4.2.1, dokument przewozowy musi zawierać zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Sam fakt, że ładunek pozostaje na ciężarówce podczas rejsu, nie wyłącza tej zasady. Podstawa: ADR 1.1.4.2.1(a) i 5.4.1.1.7.

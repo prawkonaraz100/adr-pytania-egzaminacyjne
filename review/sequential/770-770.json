@@ -1,6 +1,6 @@
 {
   "batch": "770-770",
-  "date": "2026-11-03",
+  "date": "2026-11-17",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
   "records": [
@@ -8,19 +8,19 @@
       "id": "ADR-B-0770",
       "sequence": 770,
       "exact_record_snapshot": {
-        "stem": "Towar jest niebezpieczny według ADR, ale zgodnie z IMDG Code jest uznawany za niebędący towarem niebezpiecznym. Czy w łańcuchu drogowym i morskim można zastosować odstępstwo z ADR 1.1.4.2.1 i wpisać w dokumencie „PRZEWÓZ ZGODNY Z 1.1.4.2.1”?",
+        "stem": "Kartony z towarem ADR mają znaki i nalepki tylko według Kodeksu IMDG. Ciężarówka zawiezie je z Polski do Szwecji i przepłynie promem morskim. Spedytor uważa, że 1.1.4.2.1 dotyczy tylko kontenerów na statkach. Co ma być w dokumencie?",
         "options": {
-          "A": "Tak, ponieważ sam udział przewozu morskiego pozwala stosować 1.1.4.2.1 i wymaga wpisu.",
-          "B": "Nie; taki towar jest wyłączony z odstępstwa, więc nie można powołać się na 1.1.4.2.1.",
-          "C": "Tak, jeśli przewoźnik wpisze w dokumencie numer 1.1.4.2.1 i zachowa oznakowanie morskie."
+          "A": "Nic, bo samochód na promie nie jest przewozem w łańcuchu morskim",
+          "B": "„PRZEWÓZ ZGODNY Z 1.1.4.2.1”, bo rejs promem to przewóz morski",
+          "C": "„PRZEWÓZ ZGODNY Z KODEKSEM IMDG” w miejsce numeru przepisu ADR"
         },
         "correct_option": "B",
-        "explanation": "Samo połączenie przewozu drogowego i morskiego nie wystarcza, aby skorzystać z tego odstępstwa. ADR wyłącza z 1.1.4.2.1 towary, które są niebezpieczne według ADR, ale według przepisów morskich są uznawane za nie-niebezpieczne. Nie można więc użyć wymaganego wpisu jako uzasadnienia dla odstępstwa, które w tej sytuacji nie przysługuje; na drogowym odcinku trzeba spełnić właściwe wymagania ADR. Podstawa: ADR 2025, 1.1.4.2.1 i 5.4.1.1.7.",
+        "explanation": "Odstępstwo z 1.1.4.2.1 dotyczy łańcucha transportowego, który obejmuje przewóz morski. Rejs promem morskim jest takim przewozem także wtedy, gdy kartony przez cały czas zostają na ciężarówce. Mogą więc jechać po drodze ze znakami i nalepkami według Kodeksu IMDG zamiast ADR. Trzeba jednak dodać w dokumencie przewozowym zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”, a nazwa kodeksu morskiego go nie zastępuje. Podstawa: ADR 1.1.4.2.1 (a) i 5.4.1.1.7.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.1.4.2.1 — końcowe zastrzeżenie wyłączające towary niebezpieczne według ADR, które są uznawane za niebędące towarami niebezpiecznymi według IMDG Code lub ICAO Technical Instructions; wpis dokumentowy określa 5.4.1.1.7",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 1.1.4.2.1 (a) (w łańcuchu transportowym zawierającym przewóz morski sztuki przesyłek nieoznakowane zgodnie z ADR oznakowane znakami i nalepkami ostrzegawczymi według Kodeksu IMDG); 5.4.1.1.7 (zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -35,7 +35,7 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "ADR 2025 1.1.4.2.1 allows specified deviations for packages/containers/etc in a transport chain including maritime or air carriage, but expressly excludes goods classified as dangerous under ADR and considered non-dangerous under the applicable IMDG Code or ICAO Technical Instructions. The statement required by 5.4.1.1.7 applies only when carriage is in accordance with 1.1.4.2.1. Full official Polish text comparison and independent specialist review remain pending.",
+      "source_crosscheck_scope": "Literal review against ADR 2025 Dz.U. 2025 poz. 642, page(s) 30, 965. Exact quote: Powyższe odstępstwo nie ma zastosowania do przewozu towarów sklasyfikowanych jako niebezpieczne w klasach 1 do 9 zgodnie z ADR, a nieuznanych za niebezpieczne według Kodeksu IMDG lub Instrukcji Technicznych ICAO. Finding: Pytanie dubluje ADR-B-0247: oba rozstrzygają wyłączenie dla towaru nieuznanego za niebezpieczny według IMDG. W tej kompetencji potrzebny jest odrębny element o dodatkowych informacjach ADR w dokumencie używanym w łańcuchu morskim lub lotniczym. Obecne opcje są za długie i kończą się kropkami.",
       "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,

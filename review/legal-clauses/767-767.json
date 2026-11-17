@@ -1,7 +1,7 @@
 {
   "title": "ADR 2025 legal clause review ADR-B-0767",
-  "date": "2026-11-03",
-  "scope": "ADR 2025 7.5.7.2",
+  "date": "2026-11-17",
+  "scope": "ADR 2025, 7.5.7.2 (sztuki przesyłek odpowiadające różnym typom konstrukcji ładowane razem – wzajemna zgodność w zakresie piętrzenia; w razie potrzeby przekładki chroniące sztuki przesyłek znajdujące się pod innymi)",
   "source_of_law": [
     "https://eli.gov.pl/api/acts/DU/2025/642"
   ],
@@ -10,23 +10,23 @@
     {
       "id": "ADR-B-0767",
       "order": 767,
-      "clause": "ADR 2025, 7.5.7.2",
+      "clause": "ADR 2025, 7.5.7.2 (sztuki przesyłek odpowiadające różnym typom konstrukcji ładowane razem – wzajemna zgodność w zakresie piętrzenia; w razie potrzeby przekładki chroniące sztuki przesyłek znajdujące się pod innymi)",
       "question_snapshot": {
         "id": "ADR-B-0767",
         "module_id": "ADR-B-09",
-        "stem": "Na palecie masz dwa rodzaje sztuk przesyłek ADR. Każdy typ osobno jest przeznaczony do piętrzenia, ale nie ma potwierdzenia, że można je ustawić razem w jednym stosie. Jak postępujesz?",
+        "stem": "Na jednej palecie mają stanąć kartony i plastikowe kanistry z towarami ADR. Oba typy opakowań są przystosowane do piętrzenia, ale każdy osobno. Na co trzeba zwrócić uwagę, zanim ułożysz je razem w jednym stosie?",
         "options": {
-          "A": "Możesz je połączyć, bo oznaczenie każdego typu osobno wystarcza i nie trzeba sprawdzać zgodności.",
-          "B": "Najpierw trzeba ocenić zgodność obu typów; bez potwierdzenia nie łączysz ich w jeden stos.",
-          "C": "Wystarczy ułożyć cięższe opakowania na dole i spiąć cały stos pasem mocującym bez dodatkowej oceny."
+          "A": "Na masę sztuk, bo cięższe na dole wystarczą do bezpiecznego stosu",
+          "B": "Na wzajemną zgodność obu typów w zakresie piętrzenia",
+          "C": "Na napięcie pasów, które zastąpi sprawdzenie stosu"
         },
         "correct_option": "B",
-        "explanation": "To, że każdy rodzaj opakowania osobno nadaje się do piętrzenia, nie oznacza jeszcze, że można bezpiecznie ustawić je razem. Przy różnych konstrukcjach trzeba ocenić ich wzajemną zgodność; gdy jej nie potwierdzisz, nie twórz wspólnego stosu i poproś o rozdzielenie ładunku lub potwierdzenie sposobu ułożenia. Samo ułożenie cięższych sztuk na dole i spięcie pasem nie zastępuje tej oceny. Podstawa: ADR 2025, 7.5.7.2.",
+        "explanation": "To, że każdy typ opakowania osobno nadaje się do piętrzenia, nie oznacza jeszcze, że wolno postawić jeden na drugim. Przepis 7.5.7.2 wymaga, aby przy ładowaniu razem różnych typów konstrukcji zwrócić uwagę na ich wzajemną zgodność w zakresie piętrzenia. Kanister o małej podstawie może na przykład zgnieść karton pod spodem. W razie potrzeby dolne sztuki chroni się przekładkami, a pasy nie zastępują tej oceny. Podstawa: ADR 7.5.7.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.7.2 — wzajemna zgodność piętrzenia różnych rodzajów opakowań zaprojektowanych do piętrzenia",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 7.5.7.2 (sztuki przesyłek odpowiadające różnym typom konstrukcji ładowane razem – wzajemna zgodność w zakresie piętrzenia; w razie potrzeby przekładki chroniące sztuki przesyłek znajdujące się pod innymi)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -36,18 +36,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Samo indywidualne przeznaczenie obu opakowań do piętrzenia nie potwierdza zgodności ich różnych konstrukcji."
+          "rationale": "Odpowiedź A nie odpowiada warunkowi wskazanemu w ADR 2025, 7.5.7.2 (sztuki przesyłek odpowiadające różnym typom konstrukcji ładowane razem – wzajemna zgodność w zakresie piętrzenia; w razie potrzeby przekładki chroniące sztuki przesyłek znajdujące się pod innymi)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "ADR wymaga uwzględnienia wzajemnej zgodności różnych typów opakowań przeznaczonych do piętrzenia."
+          "rationale": "Odpowiedź B odpowiada wymaganiu wskazanemu w ADR 2025, 7.5.7.2 (sztuki przesyłek odpowiadające różnym typom konstrukcji ładowane razem – wzajemna zgodność w zakresie piętrzenia; w razie potrzeby przekładki chroniące sztuki przesyłek znajdujące się pod innymi). Niezależna recenzja specjalisty pozostaje wymagana."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Kolejność według masy i pas mocujący nie zastępują oceny zgodności piętrzenia."
+          "rationale": "Odpowiedź C nie odpowiada warunkowi wskazanemu w ADR 2025, 7.5.7.2 (sztuki przesyłek odpowiadające różnym typom konstrukcji ładowane razem – wzajemna zgodność w zakresie piętrzenia; w razie potrzeby przekładki chroniące sztuki przesyłek znajdujące się pod innymi)."
         }
       },
-      "notes_on_conditions": "Pytanie dotyczy wyłącznie wzajemnej zgodności różnych rodzajów opakowań, które osobno są przeznaczone do piętrzenia. Wymóg oceny zgodności wynika z ADR 7.5.7.2.",
+      "notes_on_conditions": "Klucz B prawidłowo wymaga sprawdzenia wzajemnej zgodności różnych konstrukcji przed piętrzeniem. Warianty są nadmiernie rozbudowane, zawierają absoluty i końcową kropkę; temat jest powiązany, ale odrębny od 0683, które pyta o zabezpieczenie dolnych opakowań przekładkami. Cytat: Jeżeli sztuki przesyłek odpowiadające różnym typom konstrukcji mają być ładowane razem, to należy zwrócić uwagę na ich wzajemną zgodność w zakresie piętrzenia. Dz.U. 2025 poz. 642, s. 1309. Duplikaty/kandydaci: ADR-B-0683.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

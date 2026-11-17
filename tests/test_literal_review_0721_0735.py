@@ -12,7 +12,7 @@ COMPETENCIES = ROOT / "podstawowy/kompetencje.json"
 REPORT = ROOT / "review/literal-pl/PARTIA-0721-0735.md"
 MANIFEST = ROOT / "review/literal-pl/PARTIA-0721-0735.json"
 FIRST_PASS_BANK_SHA = "884f19a050315bef28c614aa0f4aae9533ed14a9"
-EXPECTED_BANK_SHA = "cef031e32248db1a3a0ae05e0b725bcacb9f0b0a"
+EXPECTED_BANK_SHA = "e2fba7594e5334356a1e5f3192987e538d58ee2c"
 EXPECTED_IDS = [f"ADR-B-{n:04d}" for n in range(721, 736)]
 ABSOLUTE = re.compile(r"\b(tylko|zawsze|każdy|każda|każde|każdej|wszystkie|wyłącznie|żaden|żadnych|nigdy|całkowicie|automatycznie|niezależnie)\b", re.I)
 

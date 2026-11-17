@@ -1,6 +1,6 @@
 {
-  "batch": "ADR-B-0772",
-  "date": "2026-11-03",
+  "batch": "772-772",
+  "date": "2026-11-17",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
   "records": [
@@ -8,18 +8,18 @@
       "id": "ADR-B-0772",
       "sequence": 772,
       "exact_record_snapshot": {
-        "stem": "Na jednej jednostce przewozisz towar z kodem tunelowym B, korzystający z wyłączenia ADR 1.1.3, oraz towary LQ z kodem D. Ilość LQ wymaga oznakowania jednostki zgodnie z 3.4.13 i 3.4.14. Jaki kod przypisujesz całemu ładunkowi do oceny ograniczeń tunelowych?",
+        "stem": "Ciężarówka o masie maksymalnej 26 t przewozi wyłącznie sztuki przesyłek LQ, razem 9 t brutto, więc ma z przodu i z tyłu znaki LQ. Tablic barwy pomarańczowej nie wymaga. Przed nią jest tunel ze znakiem i tabliczką D. Co wynika z 8.6.4?",
         "options": {
-          "A": "Przyjmujesz D, bo towary przewożone zgodnie z 1.1.3 zawsze pomija się przy ustalaniu kodu, nawet gdy jednostka musi mieć znak LQ na podstawie 3.4.13; wyjątek nie zmienia ich statusu.",
-          "B": "Przyjmujesz B, bo wymagane oznakowanie według 3.4.13 z uwzględnieniem 3.4.14 uruchamia wyjątek z 8.6.3.3; porównujesz więc kody B i D, a dla całego ładunku wybierasz bardziej restrykcyjny.",
-          "C": "Nie ustalasz kodu dla całego ładunku, ponieważ oznakowanie LQ zwalnia jednostkę z ograniczeń tunelowych, a towary przewożone na podstawie 1.1.3 pozostają poza kodem niezależnie od oznakowania."
+          "A": "Nie może wjechać, bo znaki LQ zakazują tuneli kategorii D i E",
+          "B": "Może wjechać, bo przy znakach LQ ograniczenie dotyczy tuneli E",
+          "C": "Nie może wjechać, bo przy ponad 8 t LQ ładunek ma kod tunelowy B"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli jednostka musi mieć znak LQ według 3.4.13 i 3.4.14, nie możesz automatycznie pominąć towarów przewożonych na warunkach 1.1.3 przy ustalaniu kodu tunelowego. Wyjątek w 8.6.3.3 oznacza, że trzeba uwzględnić ich kod i porównać go z kodem pozostałych towarów. Przy kodach B i D dla całego ładunku wybierasz bardziej restrykcyjny kod B. Oznakowana jednostka podlega ponadto ograniczeniu przejazdu przez tunele kategorii E. Podstawa: ADR 8.6.3.2–8.6.3.3 i 8.6.4.",
+        "explanation": "Jednostka, która musi mieć znaki LQ według 3.4.13, podlega ograniczeniom tunelowym tylko w tunelach kategorii E. Tabela kodów tunelowych z 8.6.4 dotyczy jednostek, które muszą mieć tablice barwy pomarańczowej. Ta ciężarówka ich nie wymaga, więc tunel kategorii D może przejechać, ale tunel kategorii E musiałaby ominąć. Przekroczenie 8 t nie nadaje ładunkowi kodu B ani innego kodu tunelowego. Podstawa: ADR 3.4.13, 3.4.14 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.3 — towary przewożone zgodnie z 1.1.3 są pomijane przy ustalaniu kodu całego ładunku, z wyjątkiem jednostki wymagającej oznakowania zgodnie z 3.4.13 z uwzględnieniem 3.4.14; 8.6.3.2 — wybiera się najbardziej restrykcyjny kod; 8.6.4 — jednostka oznakowana według 3.4.13 z uwzględnieniem 3.4.14 podlega ograniczeniu tuneli kategorii E",
+            "reference": "ADR 2025, 8.6.4 (ograniczenia przewozu przez tunele mają zastosowanie do jednostek transportowych, dla których na podstawie 3.4.13, z zastrzeżeniem 3.4.14, wymagane jest oznakowanie – w przypadku tuneli kategorii E; tabela – do jednostek z tablicami barwy pomarańczowej wymaganymi zgodnie z 5.3.2); 3.4.13 (a) i 3.4.14 (znaki LQ na jednostce o masie maksymalnej powyżej 12 t, gdy masa brutto LQ przekracza 8 t)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -35,7 +35,7 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "ADR 2025 8.6.3.3: towary przewożone zgodnie z 1.1.3 są co do zasady pomijane przy ustalaniu kodu całego ładunku, ale wyjątek dotyczy jednostki wymagającej oznakowania zgodnie z 3.4.13 z uwzględnieniem 3.4.14. W tej sytuacji kod towaru przewożonego na warunkach 1.1.3 trzeba uwzględnić; na podstawie 8.6.3.2 porównuje się B i D, a całemu ładunkowi przypisuje bardziej restrykcyjny B. Zgodnie z 8.6.4 jednostka wymagająca oznakowania LQ podlega także ograniczeniu przejazdu przez tunele kategorii E. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "source_crosscheck_scope": "Literal review against ADR 2025 Dz.U. 2025 poz. 642, page(s) 1338, 1339. Exact quote: Towary niebezpieczne przewożone zgodnie z przepisami rozdziału 1.1.3 nie podlegają ograniczeniom przewozu przez tunele i nie powinny być brane pod uwagę przy ustalaniu kodu ograniczeń przewozu przez tunele dla całego ładunku znajdującego się w jednostce transportowej z wyłączeniem sytuacji, gdy dla jednostki transportowej wymagane jest oznakowanie zgodnie z 3.4.13, z zastrzeżeniem 3.4.14. Finding: Klucz B jest zgodny z wyjątkiem 8.6.3.3: towary z 1.1.3 są pomijane, chyba że jednostka wymaga oznakowania zgodnie z 3.4.13, z zastrzeżeniem 3.4.14. W takim przypadku uwzględnia się także kod B, a dla całego ładunku wybiera kod bardziej restrykcyjny. Treść i opcje są nadmiernie długie, z kropkami i absolutami; tabela 8.6.4 wymaga kontroli wizualnej.",
       "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,

@@ -1,6 +1,6 @@
 {
-  "batch": "ADR-B-0778",
-  "date": "2026-11-03",
+  "batch": "778-778",
+  "date": "2026-11-17",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
   "records": [
@@ -8,18 +8,18 @@
       "id": "ADR-B-0778",
       "sequence": 778,
       "exact_record_snapshot": {
-        "stem": "Podczas kontroli przed odjazdem kierowca zauważa, że dokumenty tożsamości ze zdjęciem obu członków załogi są schowane w zamykanej skrzynce narzędziowej na zewnątrz kabiny. Czy miejsce ich przechowywania spełnia ADR?",
+        "stem": "Przed odjazdem kierowca zauważa, że dowody osobiste jego i pomocnika leżą w zamykanej skrzynce narzędziowej pod naczepą. Czy takie miejsce przechowywania spełnia ADR?",
         "options": {
-          "A": "Tak, jeśli dokumenty są na jednostce transportowej i można je wyjąć podczas kontroli, nawet poza kabiną.",
-          "B": "Nie; dokumenty ze zdjęciem każdego członka załogi mają być przewożone w kabinie kierowcy.",
-          "C": "Wystarczy dokument kierowcy w kabinie; dokument drugiej osoby może pozostać w skrzynce na zewnątrz."
+          "A": "Tak, bo dokumenty są w jednostce transportowej i można je okazać",
+          "B": "Nie, członkowie załogi mają mieć je przy sobie, w kabinie kierowcy",
+          "C": "Tak, jeżeli skrzynka jest zamknięta, a klucz ma przy sobie kierowca"
         },
         "correct_option": "B",
-        "explanation": "Przenieś dokumenty do kabiny kierowcy przed rozpoczęciem przewozu. ADR wymaga, aby w kabinie znajdowały się dokumenty umożliwiające identyfikację wszystkich członków załogi i zawierające ich zdjęcia. Sam fakt, że dokumenty są gdzieś na pojeździe albo że w kabinie jest tylko dowód kierowcy, nie spełnia tego wymagania. Podstawa: ADR 8.1.2.1(d) i 1.10.1.4.",
+        "explanation": "Dokumenty umożliwiające identyfikację członków załogi, zawierające ich fotografie, należą do dokumentów przewożonych w kabinie kierowcy. Dodatkowo 1.10.1.4 wymaga, aby każdy członek załogi miał taki dokument przy sobie. Skrzynka pod naczepą nie spełnia żadnego z tych wymagań, nawet zamknięta na klucz. Dokumenty trzeba zabrać do kabiny przed odjazdem. Podstawa: ADR 8.1.2.1 (d) i 1.10.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.2.1(d) — dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, powinny być przewożone w kabinie kierowcy; 1.10.1.4",
+            "reference": "ADR 2025, 8.1.2.1 (d) (w kabinie kierowcy jednostki transportowej – dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, zgodnie z 1.10.1.4); 1.10.1.4 (dokument z fotografią przy sobie)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -35,8 +35,8 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "ADR 2025, 8.1.2.1(d) wymaga przewożenia w kabinie kierowcy dokumentów umożliwiających identyfikację wszystkich członków załogi, zawierających ich fotografie, zgodnie z 1.10.1.4. Pytanie rozróżnia przechowywanie dokumentu w kabinie od umieszczenia go gdziekolwiek na jednostce transportowej. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
-      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "source_crosscheck_scope": "Literal review against ADR 2025 Dz.U. 2025 poz. 642, page(s) 1324. Exact quote: W kabinie kierowcy jednostki transportowej powinny być przewożone [...] instrukcje pisemne określone w 5.4.3. Finding: Obecne pytanie powiela wymóg dokumentu tożsamości ze zdjęciem z ADR-B-0175 i ADR-B-0774. Nowy element w tej samej kompetencji sprawdza odrębny dokument wymieniony w 8.1.2.1(b): instrukcje pisemne muszą znajdować się w kabinie kierowcy. Nie zmienia to zakresu kompetencji ani klucza B.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
       "question_status": "needs_review",

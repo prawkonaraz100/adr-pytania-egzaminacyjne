@@ -1,6 +1,6 @@
 {
-  "batch": "ADR-B-0777",
-  "date": "2026-11-03",
+  "batch": "777-777",
+  "date": "2026-11-17",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
   "records": [
@@ -8,18 +8,18 @@
       "id": "ADR-B-0777",
       "sequence": 777,
       "exact_record_snapshot": {
-        "stem": "Nadawca organizuje przewóz ADR do kilku odbiorców, których nie da się jeszcze ustalić na początku trasy. Chce w dokumencie przewozowym zamiast ich nazw i adresów wpisać zwrot „Delivery Sale”. Kiedy może tak postąpić?",
+        "stem": "Hurtownia wysyła towary ADR do odbiorców, których pozna dopiero w trakcie trasy. Chce zamiast ich nazw i adresów wpisać w dokumencie przewozowym „Sprzedaż obwoźna”. Kiedy jest to dopuszczalne?",
         "options": {
-          "A": "Może wpisać ten zwrot zawsze, gdy odbiorców ustali dopiero w trakcie trasy; zgoda władz nie jest wtedy wymagana.",
-          "B": "Tylko za zgodą właściwych władz państw objętych przewozem, jeśli odbiorców nie da się ustalić na początku.",
-          "C": "Może zastąpić dane odbiorców nazwą przewoźnika, ponieważ to przewoźnik odpowiada za dostarczenie ładunku."
+          "A": "Gdy przewoźnik zgodzi się na taki zapis w zleceniu przewozu",
+          "B": "Za zgodą właściwych władz państw, których ten przewóz dotyczy",
+          "C": "Gdy w dokumencie zamiast odbiorców wpisze się dane przewoźnika"
         },
         "correct_option": "B",
-        "explanation": "Nie wpisuj „Delivery Sale” automatycznie tylko dlatego, że odbiorcy będą ustalani po drodze. ADR dopuszcza taki zapis przy dostawie do kilku odbiorców, których nie można wskazać na początku przewozu, ale wymaga zgody właściwych władz państw, których przewóz dotyczy. Bez tej zgody nie można pominąć wymaganych danych odbiorcy. Podstawa: ADR 5.4.1.1.1(h).",
+        "explanation": "Dokument przewozowy co do zasady zawiera nazwę i adres odbiorcy. Gdy towary są przeznaczone dla odbiorców nieznanych w chwili rozpoczęcia przewozu, ADR pozwala zastąpić te dane zapisem „Sprzedaż obwoźna”. Wymaga to jednak zgody właściwych władz państw, których dotyczy przewóz. Zgoda przewoźnika ani jego dane nie zastępują tej zgody. Podstawa: ADR 5.4.1.1.1 (h).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(h) — nazwa i adres odbiorcy; za zgodą właściwych władz państw, których dotyczy przewóz, przy dostawie do wielu odbiorców nieznanych na początku przewozu można zamiast nich podać „Delivery Sale”",
+            "reference": "ADR 2025, 5.4.1.1.1 (h) (nazwa i adres odbiorcy; gdy towary przeznaczone są dla odbiorców nieznanych w chwili rozpoczęcia przewozu, za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -35,8 +35,8 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "ADR 2025, 5.4.1.1.1(h): wymagane są nazwa i adres odbiorcy. Wyjątkowo, za zgodą właściwych władz państw, których dotyczy przewóz, przy dostawie do wielu odbiorców nieznanych na początku przewozu można użyć zwrotu „Delivery Sale”. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
-      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "source_crosscheck_scope": "Literal review against ADR 2025 Dz.U. 2025 poz. 642, page(s) 962. Exact quote: W przypadku, gdy towary niebezpieczne przeznaczone są dla odbiorców nieznanych w chwili rozpoczęcia przewozu, za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”. Finding: Klucz B jest prawidłowy, ale treść używa angielskiego określenia „Delivery Sale” zamiast dosłownego polskiego zapisu z ADR: „Sprzedaż obwoźna”. Warianty są zbyt długie, zawierają kropki i absoluty; treść powinna odróżniać zgodę właściwych władz od samego ustalenia odbiorców w trasie.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
       "question_status": "needs_review",
