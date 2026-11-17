@@ -154,7 +154,7 @@ Przedstaw papierowy plan ładowni i zapytaj, co trzeba sprawdzić przed zaakcept
 
 ### Zadanie instruktorskie — zgodność różnych konstrukcji opakowań przy piętrzeniu
 
-**Sytuacja symulowana:** Na palecie mają znaleźć się dwa rodzaje opakowań, z których każdy osobno jest przeznaczony do piętrzenia. Kursant ma ocenić, czy ich konstrukcje są zgodne do wspólnego ustawienia oraz czy potrzebne są elementy nośne.
+**Sytuacja symulowana:** Na palecie mają znaleźć się dwa rodzaje opakowań, z których każdy osobno jest przeznaczony do piętrzenia. Kursant ma ocenić, czy ich konstrukcje są zgodne do wspólnego ustawienia oraz czy potrzebne są przekładki.
 
 **Oczekiwane wskazanie:** samo dopuszczenie każdego rodzaju opakowania do piętrzenia nie oznacza automatycznie zgodności różnych konstrukcji. Trzeba ocenić ich wzajemną kompatybilność; gdy istnieje ryzyko uszkodzenia dolnego opakowania przez górne, zastosować elementy nośne zapobiegające takiemu uszkodzeniu.
 
