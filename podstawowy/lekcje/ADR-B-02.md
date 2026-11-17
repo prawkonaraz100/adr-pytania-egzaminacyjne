@@ -436,7 +436,7 @@ Grupa pakowania opisuje stopień zagrożenia materiału, a nie typ użytego opak
 
 ### Klasa 4.3 — rozróżnianie grup pakowania II i III
 
-Grupa II obejmuje materiał, który reaguje z wodą i wydziela co najmniej 20 litrów gazu palnego na kilogram w ciągu godziny, ale nie spełnia kryteriów grupy I. Grupa III dotyczy wolniejszej reakcji: wydzielanie przekracza 1 litr na kilogram w ciągu godziny, a materiał nie spełnia kryteriów I ani II. W praktyce kierowca odczytuje przypisaną grupę z dokumentu przewozowego; nie wykonuje prób z wodą ani samodzielnie nie klasyfikuje ładunku. Pytanie kontrolne: ADR-B-0676 (needs_review). Podstawa: ADR 2.2.43.1.8(b)–(c).
+Grupa II obejmuje materiał, który reaguje z wodą i wydziela co najmniej 20 litrów gazu palnego na kilogram w ciągu godziny, ale nie spełnia kryteriów grupy I. Grupa III dotyczy wolniejszej reakcji: wydzielanie przekracza 1 litr na kilogram w ciągu godziny, a materiał nie spełnia kryteriów I ani II. W praktyce kierowca odczytuje przypisaną grupę z dokumentu przewozowego; nie wykonuje prób z wodą ani samodzielnie nie klasyfikuje ładunku. Ogólne znaczenie grup pakowania utrwala pytanie ADR-B-0127 (needs_review). Podstawa: ADR 2.2.43.1.8(b)–(c).
 
 ### Klasa 4.3 — ochrona przed wodą przy załadunku i w czasie jazdy (CV23, V1)
 
