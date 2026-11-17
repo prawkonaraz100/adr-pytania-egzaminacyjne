@@ -8,24 +8,19 @@
       "id": "ADR-B-0716",
       "sequence": 716,
       "exact_record_snapshot": {
-        "stem": "Przed wyjazdem na trasę ADR przewoźnik przekazuje załodze instrukcje pisemne. Kierowca potrafi je przeczytać, ale nie rozumie kilku poleceń dotyczących postępowania przy awarii. Dyspozytor mówi, że wystarczy sama obecność dokumentu w kabinie. Co należy zrobić?",
+        "stem": "Przewoźnik dał załodze instrukcje pisemne po polsku. Pomocnik czyta po polsku, ale nie rozumie, co ma zrobić przy kilku poleceniach na wypadek awarii. Dyspozytor mówi, że wystarczy, że instrukcje leżą w kabinie. Co powinno się stać przed wyjazdem?",
         "options": {
-          "A": "Rozpocząć przewóz, bo instrukcje są w kabinie; każdy może poprosić kolegę o pomoc dopiero podczas awarii.",
-          "B": "Zgłosić problem przewoźnikowi i przed wyjazdem uzyskać instrukcje zrozumiałe dla każdego członka załogi.",
-          "C": "Poprosić dyspozytora o krótkie ustne streszczenie, a pełną instrukcję przeczytać po zakończeniu trasy."
+          "A": "Nic więcej, bo przewoźnik dał instrukcje w języku, który pomocnik zna",
+          "B": "Przewoźnik ma zapewnić, by pomocnik rozumiał polecenia i umiał je wykonać",
+          "C": "Kierowca ma przy awarii sam wykonać czynności, których pomocnik nie rozumie"
         },
         "correct_option": "B",
-        "explanation": "Sama obecność instrukcji w kabinie nie wystarczy, jeśli członek załogi nie rozumie poleceń. Przewoźnik musi przekazać instrukcje w języku, który każdy członek załogi może przeczytać i zrozumieć, oraz upewnić się, że potrafi je właściwie zastosować. Kierowca powinien zgłosić problem przed wyjazdem i uzyskać właściwą wersję oraz wyjaśnienie; ustne streszczenie nie zastępuje tego obowiązku. Podstawa: ADR 5.4.3.2–5.4.3.3.",
+        "explanation": "Przewoźnik dostarcza instrukcje pisemne w języku, który każdy członek załogi może przeczytać i zrozumieć. Na tym jego obowiązek się nie kończy. Musi też zapewnić, aby każdy członek załogi rozumiał instrukcje i potrafił je prawidłowo wykonać, na przykład przez wyjaśnienie poleceń przed wyjazdem. Przy awarii każdy członek załogi ma wiedzieć, co robić, i nie może polegać jedynie na kierowcy. Podstawa: ADR 5.4.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.2 — przewoźnik przekazuje instrukcje w języku, który każdy członek załogi może przeczytać i zrozumieć, oraz zapewnia, że rozumie je i potrafi prawidłowo zastosować; 5.4.3.3 — załoga przed podróżą zapoznaje się z towarami i instrukcjami",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
-          },
-          {
-            "code": "UNECE-ADR-2025",
-            "reference": "UNECE, ADR 2025 linguistic versions and instructions in writing — before the journey, crew members familiarize themselves with the dangerous goods and consult written instructions",
-            "url": "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+            "reference": "ADR 2025, 5.4.3.2 (przewoźnik zapewnia, aby każdy członek załogi rozumiał instrukcje i potrafił je prawidłowo wykonywać)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
