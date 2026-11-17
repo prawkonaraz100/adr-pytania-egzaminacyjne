@@ -11,49 +11,52 @@
     {
       "id": "ADR-B-0758",
       "order": 758,
-      "clause": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 415 i 471",
+      "clause": "ADR 2025, 8.2.2.3.2 (k) (ogólne informacje na temat odpowiedzialności cywilnej); Kodeks cywilny art. 415 i 471",
       "question_snapshot": {
         "id": "ADR-B-0758",
         "module_id": "ADR-B-07",
-        "stem": "Podczas rozładunku kierowca przez nieuwagę uszkadza sprzęt pracownika magazynu, który nie jest stroną umowy przewozu. Którą ogólną zasadę odpowiedzialności cywilnej należy rozważyć?",
+        "stem": "Przy rozładunku kierowca przez nieuwagę strącił z rampy i rozbił telefon pracownika magazynu. Pracownik nie jest stroną umowy przewozu. Na jakiej ogólnej zasadzie może dochodzić naprawienia szkody?",
         "options": {
-          "A": "Odpowiedzialność za czyn niedozwolony, ponieważ szkoda została wyrządzona z winy osobie trzeciej.",
-          "B": "Wyłącznie odpowiedzialność umowną z art. 471, ponieważ każda szkoda przy przewozie wynika z umowy.",
-          "C": "Wyłącznie odpowiedzialność administracyjną, ponieważ zdarzenie nastąpiło podczas przewozu ADR."
+          "A": "Odpowiedzialności za szkodę wyrządzoną z winy, czyli za czyn niedozwolony",
+          "B": "Odpowiedzialności za nienależyte wykonanie zawartej umowy przewozu towaru",
+          "C": "Nie może, bo przy przewozie ADR grozi za to jedynie kara administracyjna"
         },
         "correct_option": "A",
-        "explanation": "Pracownik magazynu nie jest stroną umowy przewozu, więc nie dochodzi od przewoźnika wykonania tej umowy. Jeśli szkoda została wyrządzona z winy, należy rozważyć odpowiedzialność za czyn niedozwolony na podstawie przepisu 415 Kodeksu cywilnego; trzeba jeszcze ocenić wszystkie przesłanki. Przepis 471 dotyczy szkody wynikłej z niewykonania lub nienależytego wykonania zobowiązania, a kara administracyjna nie jest odszkodowaniem. Podstawa: ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, przepisy 415 i 471.",
+        "explanation": "Kodeks cywilny odróżnia szkodę wyrządzoną czynem niedozwolonym od szkody z niewykonania lub nienależytego wykonania zobowiązania. Pracownik magazynu nie jest stroną umowy przewozu, więc jego roszczenie nie wynika z tej umowy. Według przepisu 415 kto z winy wyrządził drugiemu szkodę, ma obowiązek ją naprawić, po ocenie wszystkich przesłanek. Kara administracyjna nie jest odszkodowaniem dla poszkodowanego. Podstawa: ADR 8.2.2.3.2 (k); Kodeks cywilny, przepisy 415 i 471.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.2.2.3.2(k) — podstawowe informacje o odpowiedzialności cywilnej",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 8.2.2.3.2 (k) (ogólne informacje na temat odpowiedzialności cywilnej)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           },
           {
             "code": "KC-2026-PL",
-            "reference": "Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 415 i 471",
-            "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf"
+            "reference": "Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 415 (czyn niedozwolony) i art. 471 (niewykonanie lub nienależyte wykonanie zobowiązania)",
+            "url": "https://eli.gov.pl/eli/DU/2026/795/ogl"
           }
         ],
         "legal_basis_version": "ADR-2025-PL+KC-2026",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "observed_answer_key": "A",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Poszkodowany pracownik magazynu nie jest stroną umowy przewozu; przy zawinionym wyrządzeniu szkody należy rozważyć odpowiedzialność deliktową z art. 415 KC."
+          "rationale": "KC art. 415: kto z winy wyrządził drugiemu szkodę, obowiązany jest do jej naprawienia – poszkodowany nie jest stroną umowy."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Art. 471 KC dotyczy szkody wynikłej z niewykonania lub nienależytego wykonania zobowiązania, a nie automatycznie każdej szkody powstałej podczas przewozu."
+          "rationale": "Odpowiedzialność z art. 471 KC dotyczy stron zobowiązania; pracownik magazynu nie jest stroną umowy przewozu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Sankcja administracyjna i cywilne odszkodowanie to odrębne kwestie; przewóz ADR nie wyłącza odpowiedzialności cywilnej."
+          "rationale": "Kara administracyjna nie jest odszkodowaniem i nie wyłącza odpowiedzialności cywilnej."
         }
       },
-      "notes_on_conditions": "Pytanie odróżnia osobę trzecią, która nie jest stroną umowy przewozu, od kontrahenta dochodzącego roszczenia z tytułu niewykonania zobowiązania. Nie rozstrzyga automatycznie o odpowiedzialności konkretnego kierowcy lub przewoźnika.",
+      "notes_on_conditions": "8.2.2.3.2 (k) s. 1327 (ADR wymaga tylko ogólnych informacji – materia z KC). Przeredagowanie – opcje >80 zn., kropki, „wyłącznie”; pokrewne 0569 (art. 430 – odpowiedzialność pracodawcy).",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
       "civil_code_source_url": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
       "official_polish_full_text_comparison": "pending",
