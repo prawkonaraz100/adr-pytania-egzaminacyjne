@@ -8,29 +8,19 @@
       "id": "ADR-B-0690",
       "sequence": 690,
       "exact_record_snapshot": {
-        "stem": "Kierowca zatrzymuje pojazd po awarii w bezpiecznym miejscu. Silnik nadal pracuje, a wyłącznik główny akumulatora jest dostępny. Co powinien zrobić zgodnie z instrukcjami pisemnymi ADR?",
+        "stem": "Po kolizji kierowca pojazdu ADR jest nieprzytomny, a siedzący obok pomocnik nie odniósł obrażeń. Silnik pracuje, a pojazd nie jest zahamowany. Kto według instrukcji pisemnych powinien zahamować pojazd i wyłączyć silnik?",
         "options": {
-          "A": "Pozostawić silnik włączony i uruchomić dodatkowe odbiorniki elektryczne, aby zachować zasilanie kabiny.",
-          "B": "Wyłączyć silnik, lecz nie odłączać akumulatora, choć wyłącznik jest dostępny.",
-          "C": "Zastosować hamulec, wyłączyć silnik i użyć wyłącznika głównego akumulatora, jeśli jest dostępny."
+          "A": "Nikt z załogi, bo te czynności należą jedynie do kierowcy",
+          "B": "Ratownicy po przyjeździe, a pomocnik ma czekać z dala od pojazdu",
+          "C": "Pomocnik, bo instrukcje kierują te czynności do członków załogi"
         },
         "correct_option": "C",
-        "explanation": "Po bezpiecznym zatrzymaniu kierowca powinien zabezpieczyć pojazd hamulcem, wyłączyć silnik i odłączyć akumulator wyłącznikiem głównym, jeśli pojazd go ma. Ogranicza to ryzyko przypadkowego uruchomienia i powstania iskry. Pozostawienie pracującego silnika lub włączanie odbiorników może stworzyć dodatkowe źródło zapłonu, a samo wyłączenie silnika pomija dostępny wyłącznik. Podstawa: ADR 5.4.3.4, model instrukcji pisemnych.",
+        "explanation": "Instrukcje pisemne zaczynają się od czynności, które członkowie załogi pojazdu wykonują w razie wypadku lub awarii, jeżeli jest to możliwe i bezpieczne. Pierwsza z nich to zahamowanie pojazdu, wyłączenie silnika i odłączenie akumulatora wyłącznikiem głównym, jeżeli jest dostępny. Pomocnik jest członkiem załogi, więc gdy kierowca nie może działać, te czynności wykonuje on. Dlatego przed przewozem także pomocnik sprawdza w instrukcjach, co robić w razie wypadku. Podstawa: ADR 5.4.3.4, 5.4.3.3 i 1.2.1 (członek załogi pojazdu).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4 — model instrukcji pisemnych, działania w razie wypadku lub awarii: zastosować hamulec, wyłączyć silnik i odłączyć akumulator wyłącznikiem głównym, jeśli jest dostępny",
-            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
-          },
-          {
-            "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, 5.4.3.4 (model instrukcji pisemnych)",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: czynności członków załogi pojazdu); 5.4.3.3; 1.2.1 (członek załogi pojazdu)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "UNECE-ADR-2025",
-            "reference": "ADR 2025, Volume II, 5.4.3.4 — written instructions, actions in the event of an accident or emergency",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
