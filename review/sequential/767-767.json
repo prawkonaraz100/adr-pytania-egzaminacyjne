@@ -1,6 +1,6 @@
 {
   "batch": "767-767",
-  "date": "2026-11-03",
+  "date": "2026-11-17",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
   "records": [
@@ -8,19 +8,19 @@
       "id": "ADR-B-0767",
       "sequence": 767,
       "exact_record_snapshot": {
-        "stem": "Na palecie masz dwa rodzaje sztuk przesyłek ADR. Każdy typ osobno jest przeznaczony do piętrzenia, ale nie ma potwierdzenia, że można je ustawić razem w jednym stosie. Jak postępujesz?",
+        "stem": "Na jednej palecie mają stanąć kartony i plastikowe kanistry z towarami ADR. Oba typy opakowań są przystosowane do piętrzenia, ale każdy osobno. Na co trzeba zwrócić uwagę, zanim ułożysz je razem w jednym stosie?",
         "options": {
-          "A": "Możesz je połączyć, bo oznaczenie każdego typu osobno wystarcza i nie trzeba sprawdzać zgodności.",
-          "B": "Najpierw trzeba ocenić zgodność obu typów; bez potwierdzenia nie łączysz ich w jeden stos.",
-          "C": "Wystarczy ułożyć cięższe opakowania na dole i spiąć cały stos pasem mocującym bez dodatkowej oceny."
+          "A": "Na masę sztuk, bo cięższe na dole wystarczą do bezpiecznego stosu",
+          "B": "Na wzajemną zgodność obu typów w zakresie piętrzenia",
+          "C": "Na napięcie pasów, które zastąpi sprawdzenie stosu"
         },
         "correct_option": "B",
-        "explanation": "To, że każdy rodzaj opakowania osobno nadaje się do piętrzenia, nie oznacza jeszcze, że można bezpiecznie ustawić je razem. Przy różnych konstrukcjach trzeba ocenić ich wzajemną zgodność; gdy jej nie potwierdzisz, nie twórz wspólnego stosu i poproś o rozdzielenie ładunku lub potwierdzenie sposobu ułożenia. Samo ułożenie cięższych sztuk na dole i spięcie pasem nie zastępuje tej oceny. Podstawa: ADR 2025, 7.5.7.2.",
+        "explanation": "To, że każdy typ opakowania osobno nadaje się do piętrzenia, nie oznacza jeszcze, że wolno postawić jeden na drugim. Przepis 7.5.7.2 wymaga, aby przy ładowaniu razem różnych typów konstrukcji zwrócić uwagę na ich wzajemną zgodność w zakresie piętrzenia. Kanister o małej podstawie może na przykład zgnieść karton pod spodem. W razie potrzeby dolne sztuki chroni się przekładkami, a pasy nie zastępują tej oceny. Podstawa: ADR 7.5.7.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.7.2 — wzajemna zgodność piętrzenia różnych rodzajów opakowań zaprojektowanych do piętrzenia",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 7.5.7.2 (sztuki przesyłek odpowiadające różnym typom konstrukcji ładowane razem – wzajemna zgodność w zakresie piętrzenia; w razie potrzeby przekładki chroniące sztuki przesyłek znajdujące się pod innymi)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -35,7 +35,7 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "ADR 2025 7.5.7.2: where different design types of packages designed for stacking are loaded together, their compatibility for stacking must be considered. If compatibility is not established, do not form a mixed stack. Full official Polish text comparison and independent specialist review remain pending.",
+      "source_crosscheck_scope": "Literal review against ADR 2025 Dz.U. 2025 poz. 642, page(s) 1309. Exact quote: Jeżeli sztuki przesyłek odpowiadające różnym typom konstrukcji mają być ładowane razem, to należy zwrócić uwagę na ich wzajemną zgodność w zakresie piętrzenia. Finding: Klucz B prawidłowo wymaga sprawdzenia wzajemnej zgodności różnych konstrukcji przed piętrzeniem. Warianty są nadmiernie rozbudowane, zawierają absoluty i końcową kropkę; temat jest powiązany, ale odrębny od 0683, które pyta o zabezpieczenie dolnych opakowań przekładkami.",
       "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,

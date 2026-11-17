@@ -6,7 +6,7 @@ BANK=ROOT/"podstawowy"/"questions.jsonl"
 REPORT=ROOT/"review"/"literal-pl"/"PARTIA-0541-0555.md"
 MANIFEST=ROOT/"review"/"literal-pl"/"PARTIA-0541-0555.json"
 FIRST_PASS_BANK_SHA="73aa25f2ae5fed6f40b1948dfb917f082c08b58e"
-EXPECTED_BANK_SHA="cef031e32248db1a3a0ae05e0b725bcacb9f0b0a"
+EXPECTED_BANK_SHA="e2fba7594e5334356a1e5f3192987e538d58ee2c"
 EXPECTED_IDS=[f"ADR-B-{i:04d}" for i in range(541,556)]
 EXPECTED_PAGES={
     "ADR-B-0541": [154, 942, 945],

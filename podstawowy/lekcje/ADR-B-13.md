@@ -283,9 +283,9 @@ Przewoźnik upewnia się, że nadawca dostarczył wymagane informacje i że doku
 **Pytanie kontrolne:** ADR-B-0714 — czy przewoźnik musi sam sprawdzać pakowanie razem według Kodeksu IMDG? Podstawa: ADR 1.4.2.2.1 (b), 1.4.2.2.2 i 1.4.2.2.3.
 
 
-### Wyjątek „Delivery Sale” — wielu odbiorców
+### Wyjątek „Sprzedaż obwoźna” — wielu odbiorców
 
-Zwykle dokument przewozowy podaje nazwę i adres odbiorcy. Jeżeli towar ma trafić do kilku odbiorców, których nie można zidentyfikować na początku przewozu, ADR pozwala wyjątkowo użyć zwrotu „Delivery Sale”, ale tylko za zgodą właściwych władz państw, których dotyczy przewóz. Nie wystarczy, że odbiorcy zostaną ustaleni później; bez wymaganej zgody nie pomijaj danych odbiorcy. Pytanie kontrolne: ADR-B-0777. Podstawa: ADR 5.4.1.1.1(h).
+Zwykle dokument przewozowy podaje nazwę i adres odbiorcy. Jeżeli towar ma trafić do kilku odbiorców, których nie można zidentyfikować na początku przewozu, ADR pozwala wyjątkowo użyć zwrotu „Sprzedaż obwoźna”, ale tylko za zgodą właściwych władz państw, których dotyczy przewóz. Nie wystarczy, że odbiorcy zostaną ustaleni później; bez wymaganej zgody nie pomijaj danych odbiorcy. Pytanie kontrolne: ADR-B-0777. Podstawa: ADR 5.4.1.1.1(h).
 
 
 ### Dokumenty tożsamości w kabinie kierowcy
@@ -300,4 +300,21 @@ Jeżeli przewóz odbywa się na warunkach 1.1.4.2.1, dokument przewozowy musi za
 
 ### Instrukcje pisemne po zmianie pojazdu
 
-Gdy ciągnik zostaje zastąpiony innym, sprawdź, czy w kabinie nowego pojazdu są łatwo dostępne instrukcje pisemne dla załogi. Instrukcje pozostawione w uszkodzonym pojeździe ani samo ustne ich omówienie nie zastępują wymaganego dokumentu. Pytanie kontrolne: ADR-B-0780. Podstawa: ADR 5.4.3.1 i 8.1.2.3.
+Gdy ciągnik zostaje zastąpiony innym, sprawdź, czy w kabinie nowego pojazdu są łatwo dostępne instrukcje pisemne dla załogi. Instrukcje pozostawione w uszkodzonym pojeździe ani samo ustne ich omówienie nie zastępują wymaganego dokumentu. Pytanie kontrolne: ADR-B-0780. Podstawa: ADR 8.1.2.1(b), 8.1.2.3 i 5.4.3.1.
+
+
+### Zapis „Sprzedaż obwoźna” (ADR-B-0777)
+
+Jeżeli odbiorcy towarów nie są znani w chwili rozpoczęcia przewozu, ich nazwy i adresy można zastąpić zapisem „Sprzedaż obwoźna” wyłącznie za zgodą właściwych władz państw, których dotyczy przewóz. Podstawa: ADR 5.4.1.1.1(h).
+
+### Dokumenty tożsamości w kabinie (ADR-B-0778)
+
+Dokumenty ze zdjęciem umożliwiające identyfikację wszystkich członków załogi powinny być przewożone w kabinie kierowcy. Ponadto każdy członek załogi powinien mieć taki dokument przy sobie. Schowek lub skrzynka poza kabiną nie spełnia tego wymogu. Podstawa: ADR 8.1.2.1(d) i 1.10.1.4.
+
+### Zapis ADR w dokumencie EDI (ADR-B-0779)
+
+Jeżeli przewóz odbywa się zgodnie z 1.1.4.2.1, dokument przewozowy musi zawierać zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Wymóg dotyczy również danych EDI, jeżeli zastępują dokumentację papierową na warunkach 5.4.0.2. Podstawa: ADR 5.4.0.2 i 5.4.1.1.7.
+
+### Instrukcje pisemne po zmianie ciągnika (ADR-B-0780)
+
+Instrukcje pisemne należą do dokumentów przewożonych w kabinie kierowcy i powinny być łatwo dostępne. Po podstawieniu ciągnika zastępczego należy przenieść je do jego kabiny przed dalszą jazdą. Podstawa: ADR 8.1.2.1(b), 8.1.2.3 i 5.4.3.1.

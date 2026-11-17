@@ -238,7 +238,7 @@ Odegraj scenariusz z [mapy praktycznej](../praktyka/scenariusze-13-dzialow.json)
 
 ### Ocena placu czasowego składowania (ADR-B-0035)
 
-Obszary terminali, baz i placów wykorzystywane do czasowego składowania towarów niebezpiecznych podczas przewozu powinny być właściwie zabezpieczone i dobrze oświetlone. Gdzie to możliwe i właściwe, powinny być niedostępne dla ogółu. Samo oznakowanie lub obecność kierowcy nie zastępują tych warunków. Podstawa: ADR 1.10.1.3.
+Obszary terminali, baz i placów wykorzystywane do czasowego składowania towarów niebezpiecznych podczas przewozu powinny być odpowiednio chronione i dobrze oświetlone. O ile jest to możliwe i wskazane, powinny być niedostępne dla ogółu. Samo oznakowanie lub obecność kierowcy nie zastępują tych warunków. Podstawa: ADR 1.10.1.3.
 
 ### Kiedy składowanie przy przeładunku jest częścią przewozu (ADR-B-0701)
 
@@ -256,8 +256,17 @@ Według definicji „przewóz” w 1.2.1 przewozem jest także krótkotrwałe sk
 
 ### Zabezpieczenie i oświetlenie placu — zakres warunku dostępu publicznego (ADR-B-12-K02)
 
-**Wyjaśnienie dla kursanta:** Obszar terminalu używany do czasowego składowania towarów niebezpiecznych podczas przewozu ma być właściwie zabezpieczony i dobrze oświetlony. Przepis dodaje, że tam, gdzie jest to możliwe i właściwe, teren powinien być niedostępny dla ogółu. To zastrzeżenie dotyczy tylko dostępu osób postronnych — nie zwalnia z zabezpieczenia ani oświetlenia placu.
+**Wyjaśnienie dla kursanta:** Obszar terminalu używany do czasowego składowania towarów niebezpiecznych podczas przewozu ma być odpowiednio chroniony i dobrze oświetlony. Przepis dodaje, że o ile jest to możliwe i wskazane, teren powinien być niedostępny dla ogółu. To zastrzeżenie dotyczy tylko dostępu osób postronnych — nie zwalnia z zabezpieczenia ani oświetlenia placu.
 
 **Przykład z pracy:** Operator terminalu nie może całkowicie zamknąć wspólnego terenu dla wszystkich osób postronnych. Nie oznacza to, że może zostawić plac bez zabezpieczeń lub oświetlenia; te wymagania nadal obowiązują.
 
-**Sprawdź się:** odpowiedz na `ADR-B-0775` i wskaż, do którego warunku odnosi się zwrot „gdzie to możliwe i właściwe”. **Podstawa:** ADR 1.10.1.3.
+**Sprawdź się:** odpowiedz na `ADR-B-0775` i wskaż, do którego warunku odnosi się zwrot „o ile jest to możliwe i wskazane”. **Podstawa:** ADR 1.10.1.3.
+
+
+### Dokument z fotografią potwierdzający tożsamość (ADR-B-0774)
+
+Każdy członek załogi pojazdu przewożącego towary niebezpieczne ma mieć przy sobie dokument z fotografią potwierdzający jego tożsamość. ADR nie ogranicza tego wymogu do polskiego dowodu osobistego; ważny paszport ze zdjęciem spełnia warunek. Podstawa: ADR 1.10.1.4.
+
+### Ochrona i oświetlenie miejsca czasowego przechowywania (ADR-B-0775)
+
+Miejsca używane do czasowego przechowywania towarów niebezpiecznych podczas przewozu powinny być odpowiednio chronione i dobrze oświetlone. Ograniczenie dostępu osób postronnych stosuje się o ile jest to możliwe i wskazane; to zastrzeżenie nie uchyla wymogów ochrony i oświetlenia. Podstawa: ADR 1.10.1.3.

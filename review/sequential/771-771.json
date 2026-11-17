@@ -1,6 +1,6 @@
 {
-  "batch": "ADR-B-0771",
-  "date": "2026-11-03",
+  "batch": "771-771",
+  "date": "2026-11-17",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
   "records": [
@@ -8,18 +8,18 @@
       "id": "ADR-B-0771",
       "sequence": 771,
       "exact_record_snapshot": {
-        "stem": "Przewozisz w jednej jednostce dwa towary: jeden ma kod tunelowy B, drugi D. Nawigacja prowadzi przez tunel kategorii C. Jaki kod przyjmujesz dla całego ładunku i jak planujesz trasę?",
+        "stem": "Samochód ciężarowy z przyczepą ma tablice barwy pomarańczowej. W samochodzie są beczki z kodem tunelowym E, a w przyczepie kartony z kodem C. Na trasie jest tunel kategorii D. Co wynika z 8.6.3.2?",
         "options": {
-          "A": "Przyjmuję D, bo dla całego ładunku wystarczy mniej restrykcyjny kod jednego z towarów.",
-          "B": "Przyjmuję B, bo to on daje największe ograniczenia, i omijam tunel kategorii C.",
-          "C": "Przyjmuję D, bo ten kod nie obejmuje zakazem tunelu kategorii C na tej trasie."
+          "A": "Może wjechać, bo kod C dotyczy jedynie kartonów w tej przyczepie",
+          "B": "Kod C dotyczy całego zestawu, więc nie wolno wjechać do tunelu",
+          "C": "Może wjechać, bo liczy się kod towaru w pojeździe ciągnącym"
         },
         "correct_option": "B",
-        "explanation": "Gdy w jednej jednostce przewozisz towary z różnymi kodami tunelowymi, nie wybierasz kodu według masy ani wygody trasy. Dla całego ładunku przyjmujesz kod powodujący największe ograniczenia; w tym przykładzie jest to B. Kod B wyklucza przejazd przez tunele kategorii B, C, D i E, więc musisz ominąć tunel kategorii C. Podstawa: ADR 2025, 8.6.3.2 i 8.6.4.",
+        "explanation": "Jednostka transportowa to samochód bez przyczepy albo zespół samochodu z przyczepą, więc oba pojazdy tworzą tu jedną jednostkę. Gdy w jednostce są towary z różnymi kodami tunelowymi, cały ładunek dostaje kod odpowiadający największym ograniczeniom. Kod C jest surowszy od E i zakazuje przejazdu przez tunele kategorii C, D i E. Kierowca musi więc ominąć tunel kategorii D. Podstawa: ADR 1.2.1, 8.6.3.2 i 8.6.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.6.3.2 — dla całego ładunku stosuje się kod odpowiadający największym ograniczeniom; 8.6.4 — kod B oznacza zakaz przewozu przez tunele kategorii B, C, D i E",
+            "reference": "ADR 2025, 8.6.3.2 (różne kody ograniczeń przewozu przez tunele w jednostce transportowej – do całego ładunku stosuje się kod odpowiadający największym ograniczeniom); 1.2.1 (jednostka transportowa – pojazd samochodowy bez przyczepy lub zespół pojazdów z dołączoną przyczepą); 8.6.4 (kod C – zakaz przewozu przez tunele kategorii C, D i E)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -35,7 +35,7 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "ADR 2025 8.6.3.2 nakazuje przyjąć dla jednostki transportowej kod tunelowy odpowiadający największym ograniczeniom spośród kodów przypisanych przewożonym towarom. Kod B w 8.6.4 wyklucza tunele kategorii B, C, D i E. W opisanej sytuacji kod D nie może zastąpić bardziej restrykcyjnego kodu B; trasa musi ominąć tunel kategorii C. Pełne porównanie polskiego tekstu urzędowego i niezależna recenzja specjalisty pozostają otwarte.",
+      "source_crosscheck_scope": "Literal review against ADR 2025 Dz.U. 2025 poz. 642, page(s) 1338, 1339. Exact quote: Jeżeli w jednostce transportowej znajdują się towary niebezpieczne, dla których wskazano różne kody ograniczeń przewozu przez tunele, to do całego ładunku stosuje się ten ze wskazanych kodów, który odpowiada największym ograniczeniom. Finding: Pytanie powiela schemat wyboru najbardziej restrykcyjnego kodu z ADR-B-0064, 0086, 0263, 0432 i 0574. W nowym elemencie tej samej kompetencji zastąpiono je odczytem znaku „(—)” z kolumny (15), który oznacza brak ograniczeń tunelowych dla danego towaru. Obecne opcje są długie, zawierają kropki i powtórzenia.",
       "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,

@@ -1,32 +1,31 @@
 {
   "title": "ADR 2025 legal clause review ADR-B-0778",
-  "date": "2026-11-03",
-  "scope": "ADR 2025 8.1.2.1(d) and 1.10.1.4 — photo ID for every crew member in driver's cab",
+  "date": "2026-11-17",
+  "scope": "ADR 2025, 8.1.2.1 (d) (w kabinie kierowcy jednostki transportowej – dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, zgodnie z 1.10.1.4); 1.10.1.4 (dokument z fotografią przy sobie)",
   "source_of_law": [
-    "https://eli.gov.pl/api/acts/DU/2025/642",
-    "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+    "https://eli.gov.pl/api/acts/DU/2025/642"
   ],
   "release_approved": false,
   "records": [
     {
       "id": "ADR-B-0778",
       "order": 778,
-      "clause": "ADR 2025, 8.1.2.1(d) — dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, powinny być przewożone w kabinie kierowcy; 1.10.1.4",
+      "clause": "ADR 2025, 8.1.2.1 (d) (w kabinie kierowcy jednostki transportowej – dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, zgodnie z 1.10.1.4); 1.10.1.4 (dokument z fotografią przy sobie)",
       "question_snapshot": {
         "id": "ADR-B-0778",
         "module_id": "ADR-B-13",
-        "stem": "Podczas kontroli przed odjazdem kierowca zauważa, że dokumenty tożsamości ze zdjęciem obu członków załogi są schowane w zamykanej skrzynce narzędziowej na zewnątrz kabiny. Czy miejsce ich przechowywania spełnia ADR?",
+        "stem": "Przed odjazdem kierowca zauważa, że dowody osobiste jego i pomocnika leżą w zamykanej skrzynce narzędziowej pod naczepą. Czy takie miejsce przechowywania spełnia ADR?",
         "options": {
-          "A": "Tak, jeśli dokumenty są na jednostce transportowej i można je wyjąć podczas kontroli, nawet poza kabiną.",
-          "B": "Nie; dokumenty ze zdjęciem każdego członka załogi mają być przewożone w kabinie kierowcy.",
-          "C": "Wystarczy dokument kierowcy w kabinie; dokument drugiej osoby może pozostać w skrzynce na zewnątrz."
+          "A": "Tak, bo dokumenty są w jednostce transportowej i można je okazać",
+          "B": "Nie, członkowie załogi mają mieć je przy sobie, w kabinie kierowcy",
+          "C": "Tak, jeżeli skrzynka jest zamknięta, a klucz ma przy sobie kierowca"
         },
         "correct_option": "B",
-        "explanation": "Przenieś dokumenty do kabiny kierowcy przed rozpoczęciem przewozu. ADR wymaga, aby w kabinie znajdowały się dokumenty umożliwiające identyfikację wszystkich członków załogi i zawierające ich zdjęcia. Sam fakt, że dokumenty są gdzieś na pojeździe albo że w kabinie jest tylko dowód kierowcy, nie spełnia tego wymagania. Podstawa: ADR 8.1.2.1(d) i 1.10.1.4.",
+        "explanation": "Dokumenty umożliwiające identyfikację członków załogi, zawierające ich fotografie, należą do dokumentów przewożonych w kabinie kierowcy. Dodatkowo 1.10.1.4 wymaga, aby każdy członek załogi miał taki dokument przy sobie. Skrzynka pod naczepą nie spełnia żadnego z tych wymagań, nawet zamknięta na klucz. Dokumenty trzeba zabrać do kabiny przed odjazdem. Podstawa: ADR 8.1.2.1 (d) i 1.10.1.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.2.1(d) — dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, powinny być przewożone w kabinie kierowcy; 1.10.1.4",
+            "reference": "ADR 2025, 8.1.2.1 (d) (w kabinie kierowcy jednostki transportowej – dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, zgodnie z 1.10.1.4); 1.10.1.4 (dokument z fotografią przy sobie)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -37,18 +36,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Przepis wskazuje konkretnie kabinę kierowcy, a nie dowolne miejsce na jednostce transportowej."
+          "rationale": "Odpowiedź A nie odpowiada warunkowi wskazanemu w ADR 2025, 8.1.2.1 (d) (w kabinie kierowcy jednostki transportowej – dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, zgodnie z 1.10.1.4); 1.10.1.4 (dokument z fotografią przy sobie)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Dokumenty identyfikujące wszystkich członków załogi i zawierające zdjęcia powinny być przewożone w kabinie kierowcy."
+          "rationale": "Odpowiedź B odpowiada wymaganiu wskazanemu w ADR 2025, 8.1.2.1 (d) (w kabinie kierowcy jednostki transportowej – dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, zgodnie z 1.10.1.4); 1.10.1.4 (dokument z fotografią przy sobie). Niezależna recenzja specjalisty pozostaje wymagana."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wymóg obejmuje wszystkich członków załogi, nie tylko kierowcę."
+          "rationale": "Odpowiedź C nie odpowiada warunkowi wskazanemu w ADR 2025, 8.1.2.1 (d) (w kabinie kierowcy jednostki transportowej – dokumenty umożliwiające identyfikację wszystkich członków załogi pojazdu, zawierające ich fotografie, zgodnie z 1.10.1.4); 1.10.1.4 (dokument z fotografią przy sobie)."
         }
       },
-      "notes_on_conditions": "ADR 8.1.2.1 określa miejsce przewożenia dokumentów w kabinie kierowcy; 1.10.1.4 określa wymóg dokumentu tożsamości ze zdjęciem dla każdego członka załogi.",
+      "notes_on_conditions": "Obecne pytanie powiela wymóg dokumentu tożsamości ze zdjęciem z ADR-B-0175 i ADR-B-0774. Nowy element w tej samej kompetencji sprawdza odrębny dokument wymieniony w 8.1.2.1(b): instrukcje pisemne muszą znajdować się w kabinie kierowcy. Nie zmienia to zakresu kompetencji ani klucza B. Cytat: W kabinie kierowcy jednostki transportowej powinny być przewożone [...] instrukcje pisemne określone w 5.4.3. Dz.U. 2025 poz. 642, s. 1324. Duplikaty/kandydaci: ADR-B-0175, ADR-B-0774.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

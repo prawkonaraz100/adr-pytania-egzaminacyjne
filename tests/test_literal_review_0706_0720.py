@@ -11,7 +11,7 @@ BANK = ROOT / "podstawowy/questions.jsonl"
 REPORT = ROOT / "review/literal-pl/PARTIA-0706-0720.md"
 MANIFEST = ROOT / "review/literal-pl/PARTIA-0706-0720.json"
 FIRST_PASS_BANK_SHA = "e92048bdde4e05422e3265542636b6213f3e10b4"
-EXPECTED_BANK_SHA = "cef031e32248db1a3a0ae05e0b725bcacb9f0b0a"
+EXPECTED_BANK_SHA = "e2fba7594e5334356a1e5f3192987e538d58ee2c"
 EXPECTED_IDS = [f"ADR-B-{n:04d}" for n in range(706, 721)]
 
 def git_blob_sha(data):

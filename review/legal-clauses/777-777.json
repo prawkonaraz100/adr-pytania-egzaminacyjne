@@ -1,32 +1,31 @@
 {
   "title": "ADR 2025 legal clause review ADR-B-0777",
-  "date": "2026-11-03",
-  "scope": "ADR 2025 5.4.1.1.1(h) — multiple unidentified consignees and Delivery Sale exception",
+  "date": "2026-11-17",
+  "scope": "ADR 2025, 5.4.1.1.1 (h) (nazwa i adres odbiorcy; gdy towary przeznaczone są dla odbiorców nieznanych w chwili rozpoczęcia przewozu, za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”)",
   "source_of_law": [
-    "https://eli.gov.pl/api/acts/DU/2025/642",
-    "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+    "https://eli.gov.pl/api/acts/DU/2025/642"
   ],
   "release_approved": false,
   "records": [
     {
       "id": "ADR-B-0777",
       "order": 777,
-      "clause": "ADR 2025, 5.4.1.1.1(h) — nazwa i adres odbiorcy; za zgodą właściwych władz państw, których dotyczy przewóz, przy dostawie do wielu odbiorców nieznanych na początku przewozu można podać „Delivery Sale” zamiast ich danych",
+      "clause": "ADR 2025, 5.4.1.1.1 (h) (nazwa i adres odbiorcy; gdy towary przeznaczone są dla odbiorców nieznanych w chwili rozpoczęcia przewozu, za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”)",
       "question_snapshot": {
         "id": "ADR-B-0777",
         "module_id": "ADR-B-13",
-        "stem": "Nadawca organizuje przewóz ADR do kilku odbiorców, których nie da się jeszcze ustalić na początku trasy. Chce w dokumencie przewozowym zamiast ich nazw i adresów wpisać zwrot „Delivery Sale”. Kiedy może tak postąpić?",
+        "stem": "Hurtownia wysyła towary ADR do odbiorców, których pozna dopiero w trakcie trasy. Chce zamiast ich nazw i adresów wpisać w dokumencie przewozowym „Sprzedaż obwoźna”. Kiedy jest to dopuszczalne?",
         "options": {
-          "A": "Może wpisać ten zwrot zawsze, gdy odbiorców ustali dopiero w trakcie trasy; zgoda władz nie jest wtedy wymagana.",
-          "B": "Tylko za zgodą właściwych władz państw objętych przewozem, jeśli odbiorców nie da się ustalić na początku.",
-          "C": "Może zastąpić dane odbiorców nazwą przewoźnika, ponieważ to przewoźnik odpowiada za dostarczenie ładunku."
+          "A": "Gdy przewoźnik zgodzi się na taki zapis w zleceniu przewozu",
+          "B": "Za zgodą właściwych władz państw, których ten przewóz dotyczy",
+          "C": "Gdy w dokumencie zamiast odbiorców wpisze się dane przewoźnika"
         },
         "correct_option": "B",
-        "explanation": "Nie wpisuj „Delivery Sale” automatycznie tylko dlatego, że odbiorcy będą ustalani po drodze. ADR dopuszcza taki zapis przy dostawie do kilku odbiorców, których nie można wskazać na początku przewozu, ale wymaga zgody właściwych władz państw, których przewóz dotyczy. Bez tej zgody nie można pominąć wymaganych danych odbiorcy. Podstawa: ADR 5.4.1.1.1(h).",
+        "explanation": "Dokument przewozowy co do zasady zawiera nazwę i adres odbiorcy. Gdy towary są przeznaczone dla odbiorców nieznanych w chwili rozpoczęcia przewozu, ADR pozwala zastąpić te dane zapisem „Sprzedaż obwoźna”. Wymaga to jednak zgody właściwych władz państw, których dotyczy przewóz. Zgoda przewoźnika ani jego dane nie zastępują tej zgody. Podstawa: ADR 5.4.1.1.1 (h).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.1(h) — nazwa i adres odbiorcy; za zgodą właściwych władz państw, których dotyczy przewóz, przy dostawie do wielu odbiorców nieznanych na początku przewozu można zamiast nich podać „Delivery Sale”",
+            "reference": "ADR 2025, 5.4.1.1.1 (h) (nazwa i adres odbiorcy; gdy towary przeznaczone są dla odbiorców nieznanych w chwili rozpoczęcia przewozu, za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -37,18 +36,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Nieznajomość odbiorców na początku przewozu sama nie wystarcza; przepis wymaga zgody właściwych władz."
+          "rationale": "Odpowiedź A nie odpowiada warunkowi wskazanemu w ADR 2025, 5.4.1.1.1 (h) (nazwa i adres odbiorcy; gdy towary przeznaczone są dla odbiorców nieznanych w chwili rozpoczęcia przewozu, za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wyjątek pozwala zastąpić dane odbiorców zwrotem „Delivery Sale” wyłącznie za zgodą właściwych władz państw, których dotyczy przewóz, gdy odbiorcy nie są znani na początku."
+          "rationale": "Odpowiedź B odpowiada wymaganiu wskazanemu w ADR 2025, 5.4.1.1.1 (h) (nazwa i adres odbiorcy; gdy towary przeznaczone są dla odbiorców nieznanych w chwili rozpoczęcia przewozu, za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”). Niezależna recenzja specjalisty pozostaje wymagana."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dane przewoźnika nie zastępują danych odbiorcy i nie są przewidzianym w tym przepisie zwrotem."
+          "rationale": "Odpowiedź C nie odpowiada warunkowi wskazanemu w ADR 2025, 5.4.1.1.1 (h) (nazwa i adres odbiorcy; gdy towary przeznaczone są dla odbiorców nieznanych w chwili rozpoczęcia przewozu, za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”)."
         }
       },
-      "notes_on_conditions": "Wyjątek jest wąski: kilka dostaw do odbiorców, których nie można zidentyfikować na początku przewozu, oraz zgoda właściwych władz państw objętych przewozem.",
+      "notes_on_conditions": "Klucz B jest prawidłowy, ale treść używa angielskiego określenia „Delivery Sale” zamiast dosłownego polskiego zapisu z ADR: „Sprzedaż obwoźna”. Warianty są zbyt długie, zawierają kropki i absoluty; treść powinna odróżniać zgodę właściwych władz od samego ustalenia odbiorców w trasie. Cytat: W przypadku, gdy towary niebezpieczne przeznaczone są dla odbiorców nieznanych w chwili rozpoczęcia przewozu, za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”. Dz.U. 2025 poz. 642, s. 962. Duplikaty/kandydaci: ADR-B-0579.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

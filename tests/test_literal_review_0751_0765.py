@@ -12,7 +12,7 @@ MANIFEST = ROOT / "review/literal-pl/PARTIA-0751-0765.json"
 COMPETENCIES = ROOT / "podstawowy/kompetencje.json"
 
 FIRST_PASS_BANK_SHA = "ff19af70af76de006d2f58b1fbfed7c091d52590"
-EXPECTED_BANK_SHA = "cef031e32248db1a3a0ae05e0b725bcacb9f0b0a"
+EXPECTED_BANK_SHA = "e2fba7594e5334356a1e5f3192987e538d58ee2c"
 EXPECTED_IDS = [f"ADR-B-{n:04d}" for n in range(751, 766)]
 
 

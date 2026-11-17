@@ -1,7 +1,7 @@
 {
   "title": "ADR 2025 legal clause review ADR-B-0768",
-  "date": "2026-11-03",
-  "scope": "ADR 2025 7.5.7.1",
+  "date": "2026-11-17",
+  "scope": "ADR 2025, 7.5.7.6.1 (kontenery do przewozu luzem elastyczne przewożone w pojeździe lub kontenerze o sztywnych ścianach bocznych i czołowych o wysokości nie mniej niż 2/3 wysokości kontenera do przewozu luzem elastycznego); 7.5.7.6.2 (wiązania lub pasy nie mogą być zbyt mocno zapięte)",
   "source_of_law": [
     "https://eli.gov.pl/api/acts/DU/2025/642"
   ],
@@ -10,23 +10,23 @@
     {
       "id": "ADR-B-0768",
       "order": 768,
-      "clause": "ADR 2025, 7.5.7.1",
+      "clause": "ADR 2025, 7.5.7.6.1 (kontenery do przewozu luzem elastyczne przewożone w pojeździe lub kontenerze o sztywnych ścianach bocznych i czołowych o wysokości nie mniej niż 2/3 wysokości kontenera do przewozu luzem elastycznego); 7.5.7.6.2 (wiązania lub pasy nie mogą być zbyt mocno zapięte)",
       "question_snapshot": {
         "id": "ADR-B-0768",
         "module_id": "ADR-B-09",
-        "stem": "Po zapięciu pasów kartony ADR mają niewielki sprężysty luz, ale nie przesuwają się tak, by zmienić ustawienie lub ulec uszkodzeniu. Czy kierowca powinien dociągnąć pasy do maksymalnego napięcia?",
+        "stem": "Kontener do przewozu luzem elastyczny z towarem niebezpiecznym ma 1,5 m wysokości. Przewoźnik chce go wieźć na skrzyni ze sztywnymi burtami o wysokości 0,6 m i przypiąć pasami. Co wynika z 7.5.7.6.1?",
         "options": {
-          "A": "Tak, należy usunąć każdy minimalny luz, nawet jeśli opakowania nie zmieniają położenia i nie są narażone na uszkodzenie.",
-          "B": "Nie; mocowanie ma zapobiegać ruchom zmieniającym ustawienie lub powodującym uszkodzenie opakowań.",
-          "C": "Tak, bo ładunek musi być całkowicie nieruchomy, a mocniejsze pasy zawsze zwiększają bezpieczeństwo."
+          "A": "Burty 0,6 m wystarczą, jeżeli pasy nie zdeformują ścian kontenera",
+          "B": "Ściany boczne i czołowe muszą być sztywne i mieć co najmniej 1 m",
+          "C": "Burty muszą mieć co najmniej 0,75 m, czyli połowę jego wysokości"
         },
         "correct_option": "B",
-        "explanation": "Nie dąż do maksymalnego napięcia pasów. Ich zadaniem jest powstrzymać takie przesunięcie, które zmieniłoby ustawienie sztuk przesyłek albo mogłoby je uszkodzić; niewielki sprężysty luz, który nie powoduje tych skutków, nie uzasadnia zgniatania opakowań. Zbyt mocno napięte pasy mogą zdeformować kartony lub inne opakowania. Podstawa: ADR 2025, 7.5.7.1.",
+        "explanation": "Elastyczny kontener do przewozu luzem może się wybrzuszać i przechylać, dlatego ADR wymaga dla niego pojazdu z wysokimi, sztywnymi ścianami. Przepis 7.5.7.6.1 mówi, że ściany boczne i czołowe mają mieć co najmniej dwie trzecie wysokości takiego kontenera. Przy 1,5 m daje to co najmniej 1 m, więc burty 0,6 m są za niskie. Pasy pomagają unieruchomić kontener, ale nie zastępują wymaganych ścian i nie mogą być zbyt mocno napięte. Podstawa: ADR 7.5.7.6.1 i 7.5.7.6.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.7.1 — zabezpieczenie ma zapobiegać ruchom zmieniającym ustawienie lub uszkadzającym sztuki przesyłek; pasy nie mogą być nadmiernie napięte i powodować uszkodzeń lub deformacji",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 7.5.7.6.1 (kontenery do przewozu luzem elastyczne przewożone w pojeździe lub kontenerze o sztywnych ścianach bocznych i czołowych o wysokości nie mniej niż 2/3 wysokości kontenera do przewozu luzem elastycznego); 7.5.7.6.2 (wiązania lub pasy nie mogą być zbyt mocno zapięte)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -36,18 +36,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "ADR nie wymaga maksymalnego napięcia, jeśli nie jest potrzebne do powstrzymania ruchu zmieniającego ustawienie lub powodującego uszkodzenie."
+          "rationale": "Odpowiedź A nie odpowiada warunkowi wskazanemu w ADR 2025, 7.5.7.6.1 (kontenery do przewozu luzem elastyczne przewożone w pojeździe lub kontenerze o sztywnych ścianach bocznych i czołowych o wysokości nie mniej niż 2/3 wysokości kontenera do przewozu luzem elastycznego); 7.5.7.6.2 (wiązania lub pasy nie mogą być zbyt mocno zapięte)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Mocowanie ma zapobiegać niebezpiecznym przemieszczeniom, a pasy nie mogą uszkadzać ani deformować opakowań."
+          "rationale": "Odpowiedź B odpowiada wymaganiu wskazanemu w ADR 2025, 7.5.7.6.1 (kontenery do przewozu luzem elastyczne przewożone w pojeździe lub kontenerze o sztywnych ścianach bocznych i czołowych o wysokości nie mniej niż 2/3 wysokości kontenera do przewozu luzem elastycznego); 7.5.7.6.2 (wiązania lub pasy nie mogą być zbyt mocno zapięte). Niezależna recenzja specjalisty pozostaje wymagana."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Bezwzględne unieruchomienie i mocniejsze napięcie nie są celem przepisu; nadmierny nacisk może uszkodzić opakowanie."
+          "rationale": "Odpowiedź C nie odpowiada warunkowi wskazanemu w ADR 2025, 7.5.7.6.1 (kontenery do przewozu luzem elastyczne przewożone w pojeździe lub kontenerze o sztywnych ścianach bocznych i czołowych o wysokości nie mniej niż 2/3 wysokości kontenera do przewozu luzem elastycznego); 7.5.7.6.2 (wiązania lub pasy nie mogą być zbyt mocno zapięte)."
         }
       },
-      "notes_on_conditions": "Pytanie rozróżnia wymagane powstrzymanie ruchu zmieniającego ustawienie lub powodującego uszkodzenie od dążenia do maksymalnego napięcia pasów. Nie oznacza zgody na ruch mogący zagrozić sztuce przesyłki.",
+      "notes_on_conditions": "Klucz B jest zgodny z celem mocowania: zapobiegać ruchom zmieniającym ustawienie lub powodującym uszkodzenie, bez nadmiernego napinania pasów. Warianty są za długie, kończą się kropkami i zawierają absoluty. Podobne 0060 i 0700 dotyczą nadmiernego napięcia; tu sprawdzany jest przypadek niewielkiego luzu bez szkodliwego ruchu. Cytat: W przypadku użycia elementów spinających, np. opasek lub pasów, należy unikać ich nadmiernego napinania, które mogłoby spowodować uszkodzenie lub deformację sztuki przesyłki. Dz.U. 2025 poz. 642, s. 1308. Duplikaty/kandydaci: ADR-B-0060, ADR-B-0700.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

@@ -1,7 +1,7 @@
 {
   "title": "ADR 2025 legal clause review ADR-B-0766",
-  "date": "2026-11-03",
-  "scope": "ADR 2025 5.2.1.10.1–5.2.1.10.3",
+  "date": "2026-11-17",
+  "scope": "ADR 2025, 5.2.1.10.1 (a) (opakowania kombinowane z opakowaniami wewnętrznymi zawierającymi materiały ciekłe – oznakowanie na dwóch przeciwległych pionowych bokach sztuki przesyłki, groty strzałek skierowane ku górze); 5.2.1.10.2 (b) i (f) (wyjątki: opakowania wewnętrzne do 120 ml z materiałem absorpcyjnym, hermetycznie zamknięte do 500 ml)",
   "source_of_law": [
     "https://eli.gov.pl/api/acts/DU/2025/642"
   ],
@@ -10,23 +10,23 @@
     {
       "id": "ADR-B-0766",
       "order": 766,
-      "clause": "ADR 2025, 5.2.1.10.1–5.2.1.10.3",
+      "clause": "ADR 2025, 5.2.1.10.1 (a) (opakowania kombinowane z opakowaniami wewnętrznymi zawierającymi materiały ciekłe – oznakowanie na dwóch przeciwległych pionowych bokach sztuki przesyłki, groty strzałek skierowane ku górze); 5.2.1.10.2 (b) i (f) (wyjątki: opakowania wewnętrzne do 120 ml z materiałem absorpcyjnym, hermetycznie zamknięte do 500 ml)",
       "question_snapshot": {
         "id": "ADR-B-0766",
         "module_id": "ADR-B-09",
-        "stem": "Przewozisz opakowania kombinowane, w których opakowania wewnętrzne zawierają po 750 ml cieczy niebezpiecznej. Jak powinny być oznakowane strzałkami kierunkowymi?",
+        "stem": "Karton jest opakowaniem kombinowanym z butelkami cieczy niebezpiecznej, każda po 750 ml. Butelki nie są hermetycznie zamknięte, a w kartonie nie ma materiału chłonnego. Gdzie trzeba umieścić strzałki kierunkowe?",
         "options": {
-          "A": "Na jednym pionowym boku opakowania, ze strzałkami skierowanymi ku górze; drugi bok nie wymaga znaku.",
-          "B": "Na dwóch przeciwległych pionowych bokach opakowania, ze strzałkami skierowanymi dokładnie ku górze.",
-          "C": "Na dwóch sąsiednich bokach opakowania, ze strzałkami skierowanymi w stronę najbliższej krawędzi."
+          "A": "Na jednym pionowym boku kartonu, z grotami skierowanymi ku górze",
+          "B": "Na dwóch przeciwległych pionowych bokach, z grotami ku górze",
+          "C": "Na dwóch sąsiednich pionowych bokach, z grotami ku górze"
         },
         "correct_option": "B",
-        "explanation": "Jeśli w opakowaniu kombinowanym znajdują się opakowania wewnętrzne z cieczą, musisz zwrócić uwagę na oznaczenie kierunku ustawienia. Strzałki mają być widoczne na dwóch przeciwległych pionowych bokach i wskazywać dokładnie górę, żeby podczas przewozu opakowanie nie zostało ustawione niewłaściwie. Nie wystarczy znak tylko z jednej strony ani na bokach sąsiadujących; ramka wokół strzałek jest opcjonalna. Podstawa: ADR 2025, 5.2.1.10.1.",
+        "explanation": "Strzałki kierunkowe pokazują, którą stroną do góry ma stać sztuka przesyłki z cieczą. Przepis 5.2.1.10.1 wymaga, aby znak był na dwóch przeciwległych pionowych bokach, a groty strzałek były skierowane ku górze. Dzięki temu ustawienie widać z obu stron kartonu. Butelki po 750 ml nie mieszczą się w wyjątkach dla małych opakowań wewnętrznych: do 120 ml z materiałem chłonnym albo do 500 ml hermetycznie zamkniętych. Podstawa: ADR 5.2.1.10.1 i 5.2.1.10.2 (b), (f).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.1.10.1 — strzałki kierunkowe na dwóch przeciwległych pionowych bokach, wskazujące dokładnie ku górze; wyjątki określa 5.2.1.10.2",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 5.2.1.10.1 (a) (opakowania kombinowane z opakowaniami wewnętrznymi zawierającymi materiały ciekłe – oznakowanie na dwóch przeciwległych pionowych bokach sztuki przesyłki, groty strzałek skierowane ku górze); 5.2.1.10.2 (b) i (f) (wyjątki: opakowania wewnętrzne do 120 ml z materiałem absorpcyjnym, hermetycznie zamknięte do 500 ml)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -36,18 +36,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Przepis wymaga oznakowania na dwóch przeciwległych pionowych bokach, a nie tylko na jednym."
+          "rationale": "Odpowiedź A nie odpowiada warunkowi wskazanemu w ADR 2025, 5.2.1.10.1 (a) (opakowania kombinowane z opakowaniami wewnętrznymi zawierającymi materiały ciekłe – oznakowanie na dwóch przeciwległych pionowych bokach sztuki przesyłki, groty strzałek skierowane ku górze); 5.2.1.10.2 (b) i (f) (wyjątki: opakowania wewnętrzne do 120 ml z materiałem absorpcyjnym, hermetycznie zamknięte do 500 ml)."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Dwa przeciwległe pionowe boki i strzałki dokładnie ku górze odpowiadają wymaganiu ADR."
+          "rationale": "Odpowiedź B odpowiada wymaganiu wskazanemu w ADR 2025, 5.2.1.10.1 (a) (opakowania kombinowane z opakowaniami wewnętrznymi zawierającymi materiały ciekłe – oznakowanie na dwóch przeciwległych pionowych bokach sztuki przesyłki, groty strzałek skierowane ku górze); 5.2.1.10.2 (b) i (f) (wyjątki: opakowania wewnętrzne do 120 ml z materiałem absorpcyjnym, hermetycznie zamknięte do 500 ml). Niezależna recenzja specjalisty pozostaje wymagana."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Boki sąsiednie nie są przeciwległe, a strzałki muszą wskazywać kierunek ku górze."
+          "rationale": "Odpowiedź C nie odpowiada warunkowi wskazanemu w ADR 2025, 5.2.1.10.1 (a) (opakowania kombinowane z opakowaniami wewnętrznymi zawierającymi materiały ciekłe – oznakowanie na dwóch przeciwległych pionowych bokach sztuki przesyłki, groty strzałek skierowane ku górze); 5.2.1.10.2 (b) i (f) (wyjątki: opakowania wewnętrzne do 120 ml z materiałem absorpcyjnym, hermetycznie zamknięte do 500 ml)."
         }
       },
-      "notes_on_conditions": "Opakowania kombinowane z opakowaniami wewnętrznymi zawierającymi 750 ml cieczy nie mieszczą się w wyjątku 120 ml z 5.2.1.10.2(b). Ramka znaku jest opcjonalna.",
+      "notes_on_conditions": "Klucz B jest zgodny z zasadą dwóch przeciwległych pionowych boków i grotów skierowanych ku górze. 750 ml nie mieści się w wyjątkach 5.2.1.10.2(b) ani (f). Powiązane 0617 i 0682 sprawdzają wyjątki, nie tę samą regułę; obecne opcje są za długie i kończą się kropkami. Cytat: Oznakowanie to powinno być naniesione na dwóch przeciwległych pionowych bokach sztuki przesyłki, a groty strzałek powinny być skierowane ku górze. Dz.U. 2025 poz. 642, s. 939. Duplikaty/kandydaci: ADR-B-0617, ADR-B-0682.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

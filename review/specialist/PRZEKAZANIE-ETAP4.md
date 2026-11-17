@@ -4,7 +4,7 @@
 
 Pakiet przekazania: `review/specialist/PAKIET-ZAMKNIECIE-0780.md`.
 
-- Bank: **780** pytań, 780 `needs_review`, 0 `verified`; SHA `cef031e32248db1a3a0ae05e0b725bcacb9f0b0a`.
+- Bank: **780** pytań, 780 `needs_review`, 0 `verified`; SHA `e2fba7594e5334356a1e5f3192987e538d58ee2c`.
 - ADR-B-0780 do ADR-B-13-K07: instrukcje pisemne muszą znajdować się w kabinie nowego pojazdu i być łatwo dostępne po wymianie ciągnika (ADR 5.4.3.1; 8.1.2.3).
 - Moduł ADR-B-13: **54** pytania; kompetencja K07: 5→6.
 - Rozkład A/B/C: **258/291/231**; poprawna jedyna najdłuższa: **85/780 = 10,90%**; maksimum działu: **15,22%**.
@@ -801,7 +801,7 @@ Raport: `podstawowy/raporty/etap-4x315-unikanie-pylu-strona-nawietrzna-2026-11-0
 - Bank: 664 pytań ADR-B-0001–0664; 664 `needs_review`, 0 `verified`; blob SHA `a81581438b449107fb42dcb10450acc5a69278e4`.
 - Dodano ADR-B-0664 do ADR-B-07-K06: ciągłość połączeń ABS między pojazdem samochodowym i przyczepą o maksymalnej masie powyżej 3,5 t (ADR 8.3.8 i 9.2.2.6).
 - Explanation 373 znaki, 4 zdania; A/B/C 148/128/115. Poprawna B nie jest najdłuższa.
-- Warianty i klucze 001–005, snapshoty sequential/legal, ledger i obie kolejki wskazują aktualny bank. Pełna literalna recenzja tekstu wiążącego Dz.U. i niezależna recenzja specjalisty pozostają otwarte.
+- Warianty i klucze 001–005, snapshoty sequential/legal, ledger i obie kolejki wskazują aktualny bank. Kontrola dosłowna objęła 780/780 pytań; niezależna recenzja specjalisty pozostaje otwarta.
 - Raport: `podstawowy/raporty/etap-4x239-abs-connection-vehicle-trailer-2026-10-31.md`.
 
 ## Poprzednia migawka — etap 4x238 (31.10.2026)

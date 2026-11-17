@@ -1,6 +1,6 @@
 {
-  "batch": "ADR-B-0780",
-  "date": "2026-11-03",
+  "batch": "780-780",
+  "date": "2026-11-17",
   "not_a_release_approval": true,
   "status": "pending_full_official_polish_clause_and_independent_expert_review",
   "records": [
@@ -8,18 +8,18 @@
       "id": "ADR-B-0780",
       "sequence": 780,
       "exact_record_snapshot": {
-        "stem": "Podczas awarii ciągnika siodłowego przewoźnik podstawia pojazd zastępczy do dalszego przewozu tego samego ładunku ADR. Instrukcje pisemne zostały w kabinie uszkodzonego ciągnika. Co trzeba zrobić przed ruszeniem pojazdu zastępczego?",
+        "stem": "Ciągnik siodłowy z ładunkiem ADR uległ awarii i przewoźnik podstawił ciągnik zastępczy. Instrukcje pisemne zostały w kabinie uszkodzonego ciągnika. Co trzeba zrobić przed dalszą jazdą?",
         "options": {
-          "A": "Wystarczy telefonicznie przekazać kierowcy treść instrukcji; papierowy lub elektroniczny dokument nie musi znajdować się w nowej kabinie.",
-          "B": "Przenieść instrukcje do kabiny pojazdu zastępczego i umieścić je w łatwo dostępnym miejscu dla załogi.",
-          "C": "Pozostawić instrukcje w uszkodzonym ciągniku, ponieważ obowiązek ich przewożenia dotyczy tylko pierwszego pojazdu, który rozpoczął trasę."
+          "A": "Wystarczy przekazać kierowcy treść instrukcji przez telefon od spedytora",
+          "B": "Przenieść je do kabiny ciągnika zastępczego, w łatwo dostępne miejsce",
+          "C": "Jechać dalej, bo instrukcje towarzyszą pierwszemu pojazdowi z trasy"
         },
         "correct_option": "B",
-        "explanation": "Zanim pojazd zastępczy ruszy z tym samym ładunkiem ADR, załoga musi mieć instrukcje pisemne w jego kabinie. Dokument pozostawiony w uszkodzonym ciągniku nie pomoże kierowcy ani pozostałym członkom załogi podczas zdarzenia na dalszej trasie. Samo telefoniczne omówienie procedur nie zastępuje instrukcji, do których załoga może szybko zajrzeć. Podstawa: ADR 8.1.2.3 oraz 5.4.3.1.",
+        "explanation": "Instrukcje pisemne należą do dokumentów przewożonych w kabinie kierowcy jednostki transportowej i mają być łatwo dostępne. Obowiązek dotyczy jednostki, która w danej chwili przewozi ładunek, a więc po wymianie ciągnika pojazdu zastępczego. Instrukcje trzeba przenieść do jego kabiny przed dalszą jazdą. Rozmowa telefoniczna nie zastępuje instrukcji, do których załoga może szybko zajrzeć. Podstawa: ADR 5.4.3.1, 8.1.2.1 (b) i 8.1.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.2.3 — instrukcje pisemne należy przewozić w kabinie załogi i przechowywać w miejscu łatwo dostępnym; 5.4.3.1 — instrukcje pisemne dla załogi",
+            "reference": "ADR 2025, 8.1.2.1 (b) (w kabinie kierowcy jednostki transportowej – instrukcje pisemne określone w 5.4.3); 8.1.2.3 (instrukcje pisemne przechowywane w taki sposób, aby były łatwo dostępne); 5.4.3.1 (w kabinie kierowcy, w miejscu łatwo dostępnym)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -35,8 +35,8 @@
         "explanation": true,
         "reference_pointer": true
       },
-      "source_crosscheck_scope": "ADR 2025, 8.1.2.3 requires written instructions to be kept in the vehicle crew cab in an easily accessible place. The scenario applies that requirement after a tractor unit breaks down and a replacement vehicle continues the same ADR carriage: instructions left in the old cab are not available to the crew in the replacement vehicle. The official Polish text has not been fully compared and specialist legal review remains open.",
-      "supplementary_source_url": "https://dziennikustaw.gov.pl/DU/2025/642",
+      "source_crosscheck_scope": "Literal review against ADR 2025 Dz.U. 2025 poz. 642, page(s) 1324. Exact quote: Instrukcje pisemne określone w 5.4.3 powinny być przechowywane w taki sposób, aby były łatwo dostępne. Finding: Klucz B jest zgodny z obowiązkiem przeniesienia instrukcji do kabiny pojazdu zastępczego i umieszczenia ich w łatwo dostępnym miejscu. Pytanie jest odrębne od 0090 i 0590, bo dotyczy zmiany pojazdu w trakcie przewozu. Obecne opcje są zbyt długie i zawierają absoluty oraz kropki.",
+      "supplementary_source_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "polish_official_text_fully_compared": false,
       "independent_ADR_expert_approved": false,
       "question_status": "needs_review",

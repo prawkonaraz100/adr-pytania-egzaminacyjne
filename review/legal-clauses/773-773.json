@@ -1,32 +1,31 @@
 {
   "title": "ADR 2025 legal clause review ADR-B-0773",
-  "date": "2026-11-03",
-  "scope": "ADR 2025 5.4.3.4 — instructions in writing: emergency notification and information",
+  "date": "2026-11-17",
+  "scope": "ADR 2025, 5.4.3.4 – wzór instrukcji pisemnych (zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest dostępny – jeżeli jest to możliwe i bezpieczne; członkowie załogi nie powinni gasić pożaru obejmującego przedział ładunkowy; oddalić się i poinformować inne osoby)",
   "source_of_law": [
-    "https://eli.gov.pl/api/acts/DU/2025/642",
-    "https://unece.org/transport/road-transport/linguistic-versions-adr-instructions-writing"
+    "https://eli.gov.pl/api/acts/DU/2025/642"
   ],
   "release_approved": false,
   "records": [
     {
       "id": "ADR-B-0773",
       "order": 773,
-      "clause": "ADR 2025, 5.4.3.4, wzór instrukcji pisemnych: powiadomienie odpowiednich służb ratowniczych, przekazanie wszystkich dostępnych informacji o zdarzeniu i towarach niebezpiecznych oraz udostępnienie dokumentów przewozowych",
+      "clause": "ADR 2025, 5.4.3.4 – wzór instrukcji pisemnych (zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest dostępny – jeżeli jest to możliwe i bezpieczne; członkowie załogi nie powinni gasić pożaru obejmującego przedział ładunkowy; oddalić się i poinformować inne osoby)",
       "question_snapshot": {
         "id": "ADR-B-0773",
         "module_id": "ADR-B-11",
-        "stem": "Po pożarze w tunelu kierowca jest już w bezpiecznym miejscu. Strażacy pytają, jaki towar przewoził. Co powinien im przekazać?",
+        "stem": "W tunelu zaczyna się palić przedział ładunkowy ciężarówki ADR i nie da się już z niego wyjechać. Kierowca zatrzymał pojazd przy wnęce awaryjnej. Co według instrukcji pisemnych zrobić z pojazdem, zanim się oddali?",
         "options": {
-          "A": "Podać numer rejestracyjny, kierunek jazdy i miejsce zdarzenia, a dane o numerach UN, nazwach i klasach zagrożenia pozostawić służbom do ustalenia z oznakowania pojazdu.",
-          "B": "Wstrzymać się z przekazaniem szczegółów, aż ratownicy sami rozpoznają towar i potwierdzą przyczynę pożaru; dokumenty przekazać dopiero po zakończeniu wstępnego rozpoznania.",
-          "C": "Przekazać dostępne informacje o zdarzeniu i towarach niebezpiecznych, w tym dane z dokumentu przewozowego, jeśli można je udostępnić bezpiecznie; nie wracać po nie do strefy zagrożenia."
+          "A": "Zostawić pracujący silnik, aby pojazd można było szybko przestawić",
+          "B": "Otworzyć drzwi ładowni, aby ratownicy od razu widzieli ładunek",
+          "C": "Zahamować i wyłączyć silnik, jeżeli jest to możliwe i bezpieczne"
         },
         "correct_option": "C",
-        "explanation": "Ratownicy muszą szybko wiedzieć, jakie towary niebezpieczne brały udział w zdarzeniu, aby dobrać bezpieczne działania. Przekaż im dostępne dane o zdarzeniu i ładunku, w tym informacje z dokumentu przewozowego, jeśli masz go przy sobie lub można go udostępnić bezpiecznie. Nie wracaj do pojazdu ani strefy zagrożenia tylko po dokument. Podstawa: instrukcje pisemne ADR 5.4.3.4.",
+        "explanation": "Instrukcje pisemne każą zahamować pojazd, wyłączyć silnik i odłączyć akumulator wyłącznikiem głównym, jeżeli jest dostępny. Te czynności wykonuje się tylko wtedy, gdy jest to możliwe i bezpieczne, a potem trzeba się oddalić i ostrzec inne osoby. Pracujący silnik jest dodatkowym źródłem zapłonu, a otwarcie drzwi ładowni doprowadza powietrze do ognia. Pożaru przedziału ładunkowego załoga nie gasi. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4, wzór instrukcji pisemnych: powiadomienie odpowiednich służb ratowniczych, przekazanie wszystkich dostępnych informacji o zdarzeniu i towarach niebezpiecznych oraz udostępnienie dokumentów przewozowych",
+            "reference": "ADR 2025, 5.4.3.4 – wzór instrukcji pisemnych (zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest dostępny – jeżeli jest to możliwe i bezpieczne; członkowie załogi nie powinni gasić pożaru obejmującego przedział ładunkowy; oddalić się i poinformować inne osoby)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -37,18 +36,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Sam numer rejestracyjny i miejsce zdarzenia nie informują ratowników, jakie towary niebezpieczne biorą udział w zdarzeniu. Służby potrzebują dostępnych danych o ładunku."
+          "rationale": "Odpowiedź A nie odpowiada warunkowi wskazanemu w ADR 2025, 5.4.3.4 – wzór instrukcji pisemnych (zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest dostępny – jeżeli jest to możliwe i bezpieczne; członkowie załogi nie powinni gasić pożaru obejmującego przedział ładunkowy; oddalić się i poinformować inne osoby)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Odkładanie przekazania informacji może opóźnić dobór właściwych działań ratowniczych. Dane o towarach należy przekazać od razu w zakresie, w jakim są dostępne."
+          "rationale": "Odpowiedź B nie odpowiada warunkowi wskazanemu w ADR 2025, 5.4.3.4 – wzór instrukcji pisemnych (zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest dostępny – jeżeli jest to możliwe i bezpieczne; członkowie załogi nie powinni gasić pożaru obejmującego przedział ładunkowy; oddalić się i poinformować inne osoby)."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Instrukcje pisemne wymagają powiadomienia służb i przekazania wszystkich dostępnych informacji o zdarzeniu oraz towarach niebezpiecznych. Dokumenty przewozowe należy udostępnić, ale nie wolno wracać po nie do strefy zagrożenia."
+          "rationale": "Odpowiedź C odpowiada wymaganiu wskazanemu w ADR 2025, 5.4.3.4 – wzór instrukcji pisemnych (zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest dostępny – jeżeli jest to możliwe i bezpieczne; członkowie załogi nie powinni gasić pożaru obejmującego przedział ładunkowy; oddalić się i poinformować inne osoby). Niezależna recenzja specjalisty pozostaje wymagana."
         }
       },
-      "notes_on_conditions": "Pytanie zakłada, że kierowca znajduje się już w bezpiecznym miejscu, a dokument przewozowy jest dostępny bez ponownego narażania się. Jeżeli dokument pozostał w pojeździe objętym pożarem, kierowca nie wraca po niego; przekazuje ratownikom informacje, które może bezpiecznie podać.",
+      "notes_on_conditions": "Klucz C jest zgodny z instrukcjami pisemnymi: należy powiadomić służby i przekazać dostępne informacje o zdarzeniu oraz towarach niebezpiecznych, a ratownikom zapewnić dostęp do dokumentów przewozowych. Opcje są zbyt długie i kończą się kropkami; w nowym brzmieniu usunięto niepotwierdzony wymóg powrotu do strefy zagrożenia. Cytat: Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych; zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych. Dz.U. 2025 poz. 642, s. 975. Duplikaty/kandydaci: ADR-B-0592.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

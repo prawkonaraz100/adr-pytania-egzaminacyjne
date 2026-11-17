@@ -352,7 +352,16 @@ Pytanie bankowe powiązane z tym działem: **ADR-B-0766** — oznakowanie strza�
 Pytanie bankowe powiązane z tym działem: **ADR-B-0767** — ocena wzajemnej zgodności piętrzenia różnych typów opakowań.
 
 
-Pytanie bankowe powiązane z tym działem: **ADR-B-0768** — właściwe napięcie pasów mocujących.
+Pytanie bankowe powiązane z tym działem: **ADR-B-0768** — minimalna wysokość sztywnych ścian przy elastycznym kontenerze do przewozu luzem.
 
 
-Pytanie bankowe powiązane z tym działem: **ADR-B-0769** — warunek uruchamiający czyszczenie po rozładunku.
+Pytanie bankowe powiązane z tym działem: **ADR-B-0769** — czyszczenie po przewozie luzem innego towaru tej samej klasy.
+
+
+### Elastyczny kontener do przewozu luzem — wysokość ścian (ADR-B-0768)
+
+Elastyczny kontener do przewozu luzem musi być przewożony w pojeździe lub kontenerze ze sztywnymi ścianami bocznymi i czołowymi o wysokości co najmniej 2/3 wysokości samego kontenera. Dla kontenera o wysokości 1,5 m oznacza to minimum 1 m. Pasy mocujące nie zastępują wymaganych ścian. Podstawa: ADR 7.5.7.6.1 i 7.5.7.6.2.
+
+### Czyszczenie po przewozie luzem — wyjątek dotyczy tych samych towarów (ADR-B-0769)
+
+Po przewozie towarów niebezpiecznych luzem pojazd lub kontener trzeba odpowiednio oczyścić przed ponownym załadunkiem. Wyjątek dotyczy sytuacji, gdy nowy ładunek zawiera te same towary niebezpieczne co poprzednio. Sam fakt, że oba towary należą do tej samej klasy, nie wystarcza do skorzystania z wyjątku. Podstawa: ADR 7.5.8.2.
