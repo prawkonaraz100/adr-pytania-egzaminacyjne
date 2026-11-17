@@ -287,14 +287,22 @@ Każdy członek załogi musi mieć własną przenośną lampę zgodną z ADR 8.3
 **Ćwiczenie:** ADR-B-0596 sprawdza liczbę lamp dla załogi, a ADR-B-0686 – czy reflektory robocze zabudowy mogą zastąpić przenośną latarkę. Nie mogą: 8.1.5.2 wymaga przenośnego urządzenia oświetleniowego dla każdego członka załogi, także gdy kierowca jedzie sam. Wymóg dotyczący powierzchni lampy z 8.3.4 omawiany jest osobno. Podstawa: ADR 8.1.5.2 i 1.2.1.
 
 
-### Dobór rozmiaru klina pod koło (ADR-B-0699)
+### Dobór rozmiaru klina pod koło (ADR-B-0023)
 
-Klin musi być odpowiedni do dopuszczalnej masy całkowitej konkretnego pojazdu oraz średnicy jego kół. Nie wystarczy, że fizycznie mieści się pod oponą. Każdy pojazd w jednostce transportowej powinien mieć własny, właściwie dobrany klin. Podstawa: ADR 2025, 8.1.5.2.
+Klin musi być odpowiedni do dopuszczalnej masy całkowitej konkretnego pojazdu oraz średnicy jego kół. Nie wystarczy, że fizycznie mieści się pod oponą. Każdy pojazd w jednostce transportowej powinien mieć własny, właściwie dobrany klin. Podstawa: ADR 8.1.5.2.
+
+### Klin pod koła a przesyłki w ilościach ograniczonych (ADR-B-0699)
+
+Przy przewozie samych towarów zapakowanych w ilościach ograniczonych (LQ, zobacz [słowniczek](../SLOWNICZEK.md#lq-ilosci-ograniczone)) zgodnie z działem 3.4 z części 8 stosuje się jedynie 8.2.3, 8.6.3.3 i 8.6.4. Wyposażenie z 8.1.5, w tym klin pod koła, nie jest wtedy wymagane przez ADR. Gdy w pojeździe są także towary przewożone na pełnych zasadach ADR, wymagania 8.1.5 obowiązują. Powiązane pytanie: ADR-B-0699. Podstawa: ADR 3.4.1 (h) i 8.1.5.2.
 
 
-### Wyposażenie osobiste dla każdego członka załogi (ADR-B-0705)
+### Wyposażenie osobiste dla każdego członka załogi (ADR-B-0763)
 
-Wymagane wyposażenie osobiste nie jest jednym wspólnym kompletem dla całej kabiny. Każdy członek załogi pojazdu powinien mieć własną parę rękawic ochronnych i ochronę oczu, na przykład okulary ochronne. Jeżeli w pojeździe jadą dwie osoby, sprawdź wyposażenie dla obu, a nie tylko dla kierowcy. Podstawa: ADR 2025, 8.1.5.2.
+Wymagane wyposażenie osobiste nie jest jednym wspólnym kompletem dla całej kabiny. Każdy członek załogi pojazdu powinien mieć własną parę rękawic ochronnych i ochronę oczu, na przykład okulary ochronne. Jeżeli w pojeździe jadą dwie osoby, sprawdź wyposażenie dla obu, a nie tylko dla kierowcy. Podstawa: ADR 8.1.5.2.
+
+### Płyn do płukania oczu a rękawice i ochrona oczu (ADR-B-0705)
+
+Przypis do 8.1.5.2 zwalnia z płynu do płukania oczu przy nalepkach 1, 1.4, 1.5, 1.6, 2.1, 2.2 i 2.3. Nie zwalnia z pary rękawic ochronnych ani z ochrony oczu, które ma mieć każdy członek załogi, także przy przewozie samych gazów. Powiązane pytanie: ADR-B-0705. Podstawa: ADR 8.1.5.2.
 
 
 ### Dobór wyposażenia według numerów nalepek (ADR-B-0710)
