@@ -1,0 +1,239 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0721–0735",
+  "base_commit": "252640f4655e8947544b45d3174638265a9ba7a2",
+  "bank_count": 780,
+  "bank_blob_sha": "884f19a050315bef28c614aa0f4aae9533ed14a9",
+  "bank_changed": false,
+  "previous_uncompared": 60,
+  "compared": 5,
+  "remaining_without_comparison": 55,
+  "verified": 0,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 5,
+    "BLOKUJ": 0
+  },
+  "similarity": {
+    "script": "scripts/similarity.py",
+    "threshold_0_45": {
+      "pairs_in_bank": 7,
+      "pairs_with_batch": 0
+    },
+    "threshold_0_25": {
+      "pairs_in_bank": 156,
+      "pairs_with_batch": 0
+    },
+    "note": "Kandydaci leksykalni służą wyłącznie do przeglądu; brak pary nie wyklucza duplikatu semantycznego."
+  },
+  "correction_note": "Sprawdzenie sprostowania Dz.U. 2025 poz. 1575: nie stwierdzono zmian w cytowanych ustępach partii 49. Korekty tabeli A w sprostowaniu dotyczą kolumny (12) i wskazanych pozycji UN, nie kolumny (6) ani badanych przepisów.",
+  "records": [
+    {
+      "id": "ADR-B-0721",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-01",
+      "competency_id": "ADR-B-01-K07",
+      "legal_basis": "ADR 2025, 3.2.1; 3.3.1",
+      "gazette_pages": [
+        626
+      ],
+      "exact_quote": "Jeżeli w kolumnie (6) tabeli A w dziale 3.2 wskazano przepis szczególny dotyczący odpowiedniego materiału i przedmiotu, to znaczenie i wymagania tego przepisu szczególnego podane są poniżej.",
+      "finding": "Treść odpowiada regule 3.3.1, lecz odpowiedzi są zbyt długie i kończą się kropkami. Wymaga skrócenia bez zmiany sensu.",
+      "duplicate_candidates": [
+        "ADR-B-0124",
+        "ADR-B-0608",
+        "ADR-B-0679"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-01",
+        "competency_id": "ADR-B-01-K07",
+        "stem": "Przewoźnik widzi w kolumnie (6) tabeli A numer przepisu szczególnego. Co powinien zrobić przed oceną warunków przewozu?",
+        "options": {
+          "A": "Pominąć kod, jeśli dokument przewozowy jest kompletny",
+          "B": "Sprawdzić samo oznakowanie opakowania",
+          "C": "Odczytać przepis i zweryfikować jego warunki"
+        },
+        "correct_option": "C",
+        "explanation": "Numer w kolumnie (6) wskazuje przepis szczególny, którego treść może wprowadzać dodatkowe warunki, ograniczenia albo wyjątki. Sam numer UN i nazwa przewozowa nie wystarczają do oceny dopuszczalności przewozu. Przed przyjęciem towaru należy odczytać wskazany przepis w dziale 3.3 i sprawdzić jego zastosowanie. Podstawa: ADR 2025, 3.2.1 i 3.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 3.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Jeżeli w kolumnie (6) tabeli A w dziale 3.2 wskazano przepis szczególny dotyczący odpowiedniego materiału i przedmiotu, to znaczenie i wymagania tego przepisu szczególnego podane są poniżej.",
+        "replacement_pages": [
+          626
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0722",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K03",
+      "legal_basis": "ADR 2025, 1.2.1; 2.2.3.1.1",
+      "gazette_pages": [
+        47,
+        165
+      ],
+      "exact_quote": "Temperatura zapłonu oznacza najniższą temperaturę cieczy, w której jej para tworzy z powietrzem mieszaninę palną.",
+      "finding": "Temperatura 8°C dotyczy powietrza, a nie wskazanej temperatury cieczy. Bez temperatury samej cieczy nie da się wnioskować, czy nad jej powierzchnią powstaje mieszanina palna; pytanie sugeruje nieuprawniony wniosek.",
+      "duplicate_candidates": [
+        "ADR-B-0658",
+        "ADR-B-0288"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K03",
+        "stem": "Materiał ma temperaturę zapłonu 55°C i w badaniu nie podtrzymuje palenia. Jak działa wyjątek z uwagi 1 do 2.2.3.1.1?",
+        "options": {
+          "A": "Do klasy 3 bez uwzględnienia wyniku badania palności materiału",
+          "B": "Poza klasą 3, jeśli nie jest przewożony po podgrzaniu do 55°C",
+          "C": "Do klasy 3 po ogrzaniu do temperatury zapłonu"
+        },
+        "correct_option": "B",
+        "explanation": "Niektóre materiały o temperaturze zapłonu powyżej 35°C, które nie podtrzymują palenia w badaniu, nie są klasyfikowane do klasy 3. Wyjątek nie działa, gdy materiał jest przewożony po podgrzaniu do temperatury równej lub wyższej od temperatury zapłonu. Sam wynik temperatury zapłonu nie wystarcza więc bez sprawdzenia warunków z uwagi 1. Podstawa: ADR 2025, 2.2.3.1.1, uwaga 1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.3.1.1, uwaga 1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Materiały o temperaturze zapłonu powyżej 35 °C, które nie podtrzymują palenia zgodnie z kryteriami podanymi w podrozdziale 32.2.5, w Części III Podręcznika Badań i Kryteriów, nie są materiałami klasy 3; jeżeli jednak materiały te przewożone są lub dostarczone do przewozu w stanie podgrzanym do temperatury równej lub wyższej niż ich temperatura zapłonu, to są one materiałami klasy 3.",
+        "replacement_pages": [
+          165
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0723",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K04",
+      "legal_basis": "ADR 2025, 2.2.41.1.3",
+      "gazette_pages": [
+        172
+      ],
+      "exact_quote": "Materiałami łatwo zapalnymi stałymi są materiały sproszkowane, granulowane lub w postaci pasty, które uważa się za niebezpieczne, jeżeli mogą się łatwo zapalić w wyniku krótkotrwałego kontaktu ze źródłem zapłonu, np. z palącą się zapałką, oraz jeżeli płomień rozprzestrzenia się szybko.",
+      "finding": "Zasada dotycząca zapłonu materiałów stałych jest prawidłowa, ale opcje przekraczają limit długości i zawierają absolutne sformułowania.",
+      "duplicate_candidates": [
+        "ADR-B-0153",
+        "ADR-B-0611"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K04",
+        "stem": "Podczas pożaru materiału klasy 4.1 jakie dodatkowe zagrożenie wskazuje ADR?",
+        "options": {
+          "A": "Szybkie rozprzestrzenianie płomienia w ładowni",
+          "B": "Wzrost temperatury materiału i sąsiednich opakowań",
+          "C": "Trujące produkty wydzielające się podczas spalania"
+        },
+        "correct_option": "C",
+        "explanation": "Przy spalaniu materiałów stałych klasy 4.1 zagrożenie nie ogranicza się do płomieni i temperatury. ADR zwraca uwagę także na trujące produkty spalania, które mogą być wdychane przez osoby w pobliżu. Dlatego należy oddalić się od dymu i stosować instrukcje pisemne, zamiast oceniać ryzyko wyłącznie po wyglądzie ładunku. Podstawa: ADR 2025, 2.2.41.1.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.41.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Zagrożenie może pochodzić nie tylko od pożaru, ale również od wydzielających się trujących produktów spalania.",
+        "replacement_pages": [
+          172
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0724",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K05",
+      "legal_basis": "ADR 2025, 2.2.42.1.1",
+      "gazette_pages": [
+        182
+      ],
+      "exact_quote": "Materiały i przedmioty samonagrzewające się, które jako substancje i przedmioty, oraz mieszaniny i roztwory, w zetknięciu z powietrzem, bez dostarczenia energii z zewnątrz, są podatne na samonagrzewanie. Materiały te mogą ulegać zapaleniu tylko w dużych ilościach (wiele kilogramów) i po upływie długiego czasu (godzin lub dni).",
+      "finding": "Pytanie powiela regułę samonagrzewania i samozapłonu po długim czasie, którą sprawdza już ADR-B-0154. Odpowiedzi zawierają absolutne sformułowania i są zbyt długie.",
+      "duplicate_candidates": [
+        "ADR-B-0154",
+        "ADR-B-0665"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K05",
+        "stem": "Co powoduje samonagrzewanie materiału klasy 4.2?",
+        "options": {
+          "A": "Ciepło powstaje w reakcji materiału z tlenem powietrza",
+          "B": "Energia cieplna pochodzi z zewnętrznego źródła zapłonu",
+          "C": "Materiał nagrzewa się wskutek kontaktu z wodą"
+        },
+        "correct_option": "A",
+        "explanation": "Samonagrzewanie zachodzi wskutek stopniowej reakcji materiału z tlenem obecnym w powietrzu. Reakcja wydziela ciepło, a gdy powstaje ono szybciej, niż może zostać odprowadzone, temperatura materiału rośnie. Po okresie indukcji może dojść do samozapalenia i dalszego spalania. Podstawa: ADR 2025, 2.2.42.1.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.42.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Samonagrzewanie materiału jest procesem, w którym, wskutek jego stopniowej reakcji z tlenem powietrza wydziela się ciepło.",
+        "replacement_pages": [
+          183
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0725",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K07",
+      "legal_basis": "ADR 2025, 2.2.51.1.1",
+      "gazette_pages": [
+        191
+      ],
+      "exact_quote": "Tytuł klasy 5.1 obejmuje materiały, które same nie zawsze są palne, mogą jednak, wskutek wydzielania tlenu, powodować zapalenie lub podtrzymywanie palenia innego materiału, i przedmioty zawierające takie materiały.",
+      "finding": "Pytanie powiela wpływ materiałów utleniających na spalanie innych materiałów, sprawdzany już w ADR-B-0156. Odpowiedzi są zbyt długie i zawierają słowa absolutne.",
+      "duplicate_candidates": [
+        "ADR-B-0156",
+        "ADR-B-0266"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K07",
+        "stem": "Co oznacza kod klasyfikacyjny O2 w klasie 5.1?",
+        "options": {
+          "A": "Utleniacze w postaci ciekłej",
+          "B": "Utleniające materiały w stanie stałym",
+          "C": "Przedmioty zawierające materiały utleniające"
+        },
+        "correct_option": "B",
+        "explanation": "Kod O2 należy do podziału materiałów klasy 5.1 i oznacza materiały utleniające w postaci stałej. Kod O1 odnosi się do materiałów ciekłych, a O3 do przedmiotów zawierających materiały utleniające. Rozpoznanie kodu pomaga odczytać właściwą grupę z tabeli klasyfikacyjnej. Podstawa: ADR 2025, 2.2.51.1.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.51.1.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "O2 Materiały stałe;",
+        "replacement_pages": [
+          191
+        ]
+      }
+    }
+  ]
+}
