@@ -6,12 +6,12 @@
   "bank_blob_sha": "884f19a050315bef28c614aa0f4aae9533ed14a9",
   "bank_changed": false,
   "previous_uncompared": 60,
-  "compared": 10,
-  "remaining_without_comparison": 50,
+  "compared": 15,
+  "remaining_without_comparison": 45,
   "verified": 0,
   "counts": {
     "OK": 0,
-    "POPRAW": 10,
+    "POPRAW": 15,
     "BLOKUJ": 0
   },
   "similarity": {
@@ -447,6 +447,225 @@
         "replacement_quote": "Tytuł niniejszej klasy obejmuje również materiały, które tworzą żrącą ciecz tylko w obecności wody, lub, które wydzielają żrącą parę lub mgłę w obecności naturalnej wilgoci powietrza.",
         "replacement_pages": [
           264
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0731",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K14",
+      "legal_basis": "ADR 2025, 2.1.1.3",
+      "gazette_pages": [
+        119
+      ],
+      "exact_quote": "Dla celów pakowania, materiały należące do klas innych niż 1, 2, 5.2, 6.2 i 7 oraz materiały inne niż materiały samoreaktywne klasy 4.1, zalicza się do grup pakowania odpowiednio do stopnia stwarzanego przez nie zagrożenia:",
+      "finding": "Wniosek o braku grupy pakowania dla klasy 2 jest prawidłowy, lecz odpowiedzi są za długie, mają kropki i zawierają absolutne sformułowania.",
+      "duplicate_candidates": [
+        "ADR-B-0127",
+        "ADR-B-0655",
+        "ADR-B-0128"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K14",
+        "stem": "Które klasy ADR są wyłączone z systemu grup pakowania?",
+        "options": {
+          "A": "1, 2, 5.2, 6.2 i 7",
+          "B": "2, 3, 4.1, 4.2 i 8",
+          "C": "3, 4.1, 4.3, 5.1 i 8"
+        },
+        "correct_option": "A",
+        "explanation": "Dla celów pakowania ADR przypisuje grupy pakowania materiałom z określonych klas, z pominięciem klas wymienionych w przepisie. Klasa 2 należy do wyłączeń, dlatego brak grupy I, II lub III przy gazie nie oznacza błędu. Kierowca nie powinien samodzielnie dopisywać takiej grupy. Podstawa: ADR 2025, 2.1.1.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.1.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Dla celów pakowania, materiały należące do klas innych niż 1, 2, 5.2, 6.2 i 7 oraz materiały inne niż materiały samoreaktywne klasy 4.1, zalicza się do grup pakowania odpowiednio do stopnia stwarzanego przez nie zagrożenia:",
+        "replacement_pages": [
+          119
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0732",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-03",
+      "competency_id": "ADR-B-03-K02",
+      "legal_basis": "ADR 2025, 5.4.1.1.3.1",
+      "gazette_pages": [
+        963
+      ],
+      "exact_quote": "Jeżeli zastosowano przepisy dotyczące odpadów podane w 2.1.3.5.5, to opis towarów niebezpiecznych wymagany w 5.4.1.1.1 (a) do (d) i (k) powinien być uzupełniony zapisami: „ODPAD ZGODNY Z 2.1.3.5.5”.",
+      "finding": "Wymagany dopisek dla odpadu jest poprawny, ale opcje są zbyt długie i zawierają średnik oraz absolutne sformułowanie. Przepis przewiduje też pominięcie nazwy technicznej na warunkach przepisu szczególnego 274.",
+      "duplicate_candidates": [
+        "ADR-B-0008",
+        "ADR-B-0046",
+        "ADR-B-0294",
+        "ADR-B-0629",
+        "ADR-B-0680"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-03",
+        "competency_id": "ADR-B-03-K02",
+        "stem": "Co można pominąć w opisie odpadu sklasyfikowanego zgodnie z 2.1.3.5.5?",
+        "options": {
+          "A": "Kod odpadu z krajowego katalogu i nazwa",
+          "B": "Nazwa techniczna wskazana w przepisie 274",
+          "C": "Numer UN i grupa pakowania przypisane do odpadu"
+        },
+        "correct_option": "B",
+        "explanation": "Gdy odpad sklasyfikowano według 2.1.3.5.5, opis w dokumencie przewozowym wymaga dodatkowego zapisu przewidzianego w ADR. Przepis pozwala wtedy pominąć nazwę techniczną, o której mowa w przepisie szczególnym 274. Nie oznacza to pominięcia numeru UN ani pozostałych danych wymaganych dla przewozu. Podstawa: ADR 2025, 5.4.1.1.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "W przypadku zastosowania przepisu dotyczącego odpadów określonego w 2.1.3.5.5, nazwa techniczna, jak określono to w dziale 3.3, przepis szczególny 274, nie musi być dodawana.",
+        "replacement_pages": [
+          963
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0733",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-03",
+      "competency_id": "ADR-B-03-K03",
+      "legal_basis": "ADR 2025, 7.5.8.2",
+      "gazette_pages": [
+        1310
+      ],
+      "exact_quote": "Pojazdy lub kontenery, w których przewożone były towary niebezpieczne luzem, powinny być odpowiednio oczyszczone przed ponownym załadunkiem, z wyjątkiem przypadku, gdy nowy ładunek zawiera te same towary niebezpieczne jak poprzednio.",
+      "finding": "Wyjątek dotyczy tych samych towarów niebezpiecznych, nie tylko tej samej klasy. Odpowiedzi są zbyt długie, zawierają słowa absolutne i niepotrzebnie powtarzają warunek pustego pojazdu.",
+      "duplicate_candidates": [
+        "ADR-B-0009",
+        "ADR-B-0177",
+        "ADR-B-0241",
+        "ADR-B-0514",
+        "ADR-B-0677"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-03",
+        "competency_id": "ADR-B-03-K03",
+        "stem": "Po przewozie luzem UN 1993 firma chce załadować UN 1203. Czy wyjątek od czyszczenia ma zastosowanie?",
+        "options": {
+          "A": "Tak, gdy oba towary należą do klasy 3",
+          "B": "Nie, bo nowy ładunek jest innym towarem",
+          "C": "Tak, po usunięciu widocznych pozostałości"
+        },
+        "correct_option": "B",
+        "explanation": "Wyjątek od czyszczenia dotyczy sytuacji, gdy kolejny ładunek zawiera te same towary niebezpieczne, które były przewożone wcześniej luzem. Sama przynależność do tej samej klasy nie oznacza, że towary są takie same. Różne numery UN i różne nazwy przewozowe nie stają się identyczne tylko dlatego, że oba materiały należą do klasy 3. Podstawa: ADR 2025, 7.5.8.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Pojazdy lub kontenery, w których przewożone były towary niebezpieczne luzem, powinny być odpowiednio oczyszczone przed ponownym załadunkiem, z wyjątkiem przypadku, gdy nowy ładunek zawiera te same towary niebezpieczne jak poprzednio.",
+        "replacement_pages": [
+          1310
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0734",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-03",
+      "competency_id": "ADR-B-03-K04",
+      "legal_basis": "ADR 2025, 8.1.5.2 (w banku); właściwe 8.1.5.3",
+      "gazette_pages": [
+        1326
+      ],
+      "exact_quote": "8.1.5.3 Wyposażenie dodatkowe wymagane dla niektórych klas: łopata, osłona otworów kanalizacyjnych i pojemnik do zbierania pozostałości.",
+      "finding": "Wskazany zestaw wyposażenia wynika z 8.1.5.3, a nie z 8.1.5.2. Temat użycia łopaty, osłony kanalizacji i pojemnika w sytuacji wycieku powtarza ADR-B-0612.",
+      "duplicate_candidates": [
+        "ADR-B-0612",
+        "ADR-B-0100",
+        "ADR-B-0163",
+        "ADR-B-0242",
+        "ADR-B-0681"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-03",
+        "competency_id": "ADR-B-03-K04",
+        "stem": "Dla jakich materiałów wymagane jest dodatkowe wyposażenie do ochrony kanalizacji?",
+        "options": {
+          "A": "Dla stałych i ciekłych z nalepkami 3, 4.1, 4.3, 8 lub 9",
+          "B": "Dla gazów i cieczy z nalepkami 2.3 lub 6.1 w ładunku",
+          "C": "Dla materiałów stałych z nalepkami 1, 1.4, 1.5 lub 1.6 ADR"
+        },
+        "correct_option": "A",
+        "explanation": "Dodatkowe wyposażenie z 8.1.5.3 obejmuje łopatę, osłonę otworów kanalizacyjnych i pojemnik do zbierania pozostałości. Wymóg dotyczy materiałów stałych i ciekłych z nalepkami o numerach 3, 4.1, 4.3, 8 lub 9. Samo odwołanie do 8.1.5.2 nie wskazuje prawidłowej podstawy dla tego zestawu. Podstawa: ADR 2025, 8.1.5.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Wymagane jest tylko w przypadku materiałów stałych i materiałów ciekłych, oznakowanych nalepkami ostrzegawczymi o numerach 3, 4.1, 4.3, 8 lub 9.",
+        "replacement_pages": [
+          1326
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0735",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-03",
+      "competency_id": "ADR-B-03-K05",
+      "legal_basis": "ADR 2025, 5.4.3.1; 5.4.3.4",
+      "gazette_pages": [
+        974,
+        975
+      ],
+      "exact_quote": "W kabinie kierowcy, w miejscu łatwo dostępnym, powinny być przewożone instrukcje pisemne w formie podanej w 5.4.3.4, stanowiące pomoc w razie zaistnienia wypadku podczas przewozu. W razie zaistnienia podczas przewozu wypadku lub awarii, członkowie załogi pojazdu powinni wykonać następujące czynności, jeżeli jest to możliwe i bezpieczne:",
+      "finding": "Pytanie miesza dokumenty przewozowe z instrukcjami pisemnymi ADR. Przepis 5.4.3.4 nakazuje wykonywać czynności tylko, gdy jest to możliwe i bezpieczne; nie nakazuje odzyskiwania dokumentów przez wejście w rozlew.",
+      "duplicate_candidates": [
+        "ADR-B-0101",
+        "ADR-B-0178",
+        "ADR-B-0295",
+        "ADR-B-0613",
+        "ADR-B-0687"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-03",
+        "competency_id": "ADR-B-03-K05",
+        "stem": "Kiedy załoga powinna wykonać czynności wskazane w instrukcjach pisemnych?",
+        "options": {
+          "A": "Jeśli są możliwe i bezpieczne dla załogi",
+          "B": "Po zgłoszeniu zdarzenia do dyspozytora",
+          "C": "Po przyjeździe służb ratowniczych na miejsce"
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcje pisemne określają, że załoga wykonuje wskazane czynności w razie wypadku lub awarii tylko wtedy, gdy jest to możliwe i bezpieczne. Nie należy narażać się na kontakt z rozlewem ani przechodzić przez strefę skażenia, aby odzyskać wyposażenie lub dokumenty. Gdy działanie jest ryzykowne, trzeba odstąpić od niego i przekazać informacje służbom. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "W razie zaistnienia podczas przewozu wypadku lub awarii, członkowie załogi pojazdu powinni wykonać następujące czynności, jeżeli jest to możliwe i bezpieczne:",
+        "replacement_pages": [
+          975
         ]
       }
     }
