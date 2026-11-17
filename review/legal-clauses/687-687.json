@@ -10,50 +10,48 @@
     {
       "id": "ADR-B-0687",
       "order": 687,
-      "clause": "ADR 2025, 5.4.3.4 — four-page written-instructions model",
+      "clause": "ADR 2025, 5.4.3.4 (instrukcje pisemne – czynności ogólne; tabela nalepek – nalepka 7)",
       "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
       "question_snapshot": {
         "id": "ADR-B-0687",
         "module_id": "ADR-B-03",
-        "stem": "Po awarii kierowca bezpiecznie oddalił się od rozlewu. Zauważa, że jego odzież i użyte rękawice ochronne zostały zabrudzone substancją z uszkodzonej przesyłki. Co powinien zrobić zgodnie z instrukcjami pisemnymi ADR?",
+        "stem": "Po wypadku z rozbitej sztuki przesyłki z nalepką 7 wysypał się proszek. Kolega twierdzi, że materiał promieniotwórczy szkodzi tylko promieniowaniem z daleka, więc zbierze proszek gołymi rękami, byle szybko. Co wynika z instrukcji pisemnych?",
         "options": {
-          "A": "Zdjąć skażoną odzież i użyte skażone środki ochronne oraz bezpiecznie je usunąć, nie zabierając ich do kabiny.",
-          "B": "Otrzepać odzież i rękawice, a następnie używać ich dalej, jeśli nie widać na nich mokrych plam ani uszkodzeń.",
-          "C": "Włożyć skażoną odzież i rękawice do zwykłej torby w kabinie, aby po zakończeniu trasy wyprać je razem z ubraniami."
+          "A": "Grozi też napromieniowanie po wchłonięciu, więc proszku nie dotykać",
+          "B": "Zbieranie w kilka minut jest bezpieczne, bo dawka nie zdąży jeszcze wzrosnąć",
+          "C": "Proszek można zebrać w rękawicach do pojemnika z wyposażenia"
         },
         "correct_option": "A",
-        "explanation": "Skażona odzież i użyte środki ochronne mogą nadal przenosić niebezpieczną substancję, dlatego nie wolno ich dalej nosić ani zabierać do kabiny. Instrukcje pisemne ADR nakazują zdjąć takie rzeczy i bezpiecznie je usunąć. Otrzepanie nie usuwa skażenia, a zwykła torba i późniejsze pranie nie są wskazanym sposobem postępowania. Podstawa: ADR 5.4.3.4, model instrukcji pisemnych — działania po wypadku lub awarii.",
+        "explanation": "W instrukcjach pisemnych przy nalepce 7 podano zagrożenie napromieniowaniem po wchłonięciu oraz napromieniowaniem zewnętrznym, a we wskazówkach ograniczenie czasu narażenia. Wysypany proszek może dostać się do organizmu przez drogi oddechowe, usta albo z brudnych rąk. Dlatego załoga nie dotyka uwolnionego materiału, nie wchodzi w niego i unika wdychania pyłu, pozostając po stronie nawietrznej. Zbieranie proszku, nawet szybkie i w rękawicach, wydłuża też czas narażenia. Podstawa: ADR 5.4.3.4 (instrukcje pisemne, nalepka 7).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4 — model instrukcji pisemnych, działania w razie wypadku lub awarii: usunięcie skażonej odzieży i użytych skażonych środków ochronnych oraz ich bezpieczne usunięcie",
-            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
-          },
-          {
-            "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, 5.4.3.4 (model instrukcji pisemnych)",
+            "reference": "ADR 2025, 5.4.3.4 (wzór instrukcji pisemnych: czynności w razie wypadku – nie dotykać uwolnionych materiałów; tabela nalepek – nalepka 7)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "observed_answer_key": "A",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "The ADR written-instructions model says to remove contaminated clothing and used contaminated protective equipment and dispose of it safely."
+          "rationale": "Tabela instrukcji pisemnych dla nalepki 7: zagrożenie napromieniowaniem po wchłonięciu i napromieniowaniem zewnętrznym."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Shaking contaminated clothing does not remove contamination; the model calls for removing and safely disposing of contaminated clothing and used protective equipment."
+          "rationale": "Szybkość działania nie usuwa zagrożenia – instrukcje nakazują nie dotykać uwolnionych materiałów."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Keeping contaminated clothing in the cab and planning to wash it later is not the action stated in the written-instructions model."
+          "rationale": "Instrukcje nie przewidują zbierania materiału promieniotwórczego przez załogę – nie dotykać, oddalić się."
         }
       },
-      "notes_on_conditions": "Question concerns contaminated clothing and used protective equipment after an accident/emergency. It does not prescribe a particular waste contractor, waste code or treatment method beyond safe disposal.",
+      "notes_on_conditions": "5.4.3.4: czynności s. 975, nalepka 7 s. 977 (obraz strony). Odrębne od 0295 i 0110/0167. Do oceny specjalisty (drogi wchłonięcia w objaśnieniu).",
       "editorial_result": "targeted_rule_identified_full_literal_question_and_specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
