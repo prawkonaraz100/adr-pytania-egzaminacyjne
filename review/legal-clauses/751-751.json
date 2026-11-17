@@ -8,22 +8,22 @@
     {
       "id": "ADR-B-0751",
       "order": 751,
-      "clause": "ADR 2025, 5.2.2.1.6(b)–(c)",
+      "clause": "ADR 2025, 5.2.2.1.6 (b) (nalepka nie może być zakryta ani zasłonięta przez wyposażenie sztuki przesyłki)",
       "question_snapshot": {
         "id": "ADR-B-0751",
         "module_id": "ADR-B-06",
-        "stem": "Na opakowaniu są dwie wymagane nalepki ostrzegawcze. Pas mocujący przebiega przez jedną z nich i zasłania część symbolu. Co należy zrobić przed przewozem?",
+        "stem": "Na beczce z cieczą zapalną nalepka wzoru 3 znalazła się pod uchwytem do przenoszenia. Uchwyt zasłania dolną część nalepki, ale symbol płomienia widać. Co wynika z 5.2.2.1.6?",
         "options": {
-          "A": "Można pozostawić pas w tym miejscu, jeśli większość nalepki pozostaje widoczna, a jej wzór da się rozpoznać.",
-          "B": "Zmienić położenie pasa lub nalepki, aby wyposażenie nie zasłaniało żadnej nalepki; wymagane nalepki umieścić blisko siebie.",
-          "C": "Pozostawić widoczną nalepkę główną, a informację o zasłoniętej nalepce dodatkowej przekazać wyłącznie w dokumencie przewozowym."
+          "A": "Może tak zostać, bo widoczny płomień wystarcza do rozpoznania zagrożenia",
+          "B": "Nalepkę trzeba umieścić tak, aby uchwyt beczki jej nie zasłaniał",
+          "C": "Wystarczy wpis w dokumencie przewozowym o zasłoniętej nalepce"
         },
         "correct_option": "B",
-        "explanation": "Nalepka ma być widoczna w całości, a nie tylko na tyle, by dało się odgadnąć jej wzór. Pas, uchwyt ani inna część wyposażenia opakowania nie mogą jej zasłaniać. Jeśli wymagane są dwie nalepki, umieść je blisko siebie, ale tak, by żadna nie zakrywała drugiej. Wpis w dokumencie nie zastępuje prawidłowego oznakowania. Podstawa: ADR 2025, 5.2.2.1.6(b)–(c).",
+        "explanation": "Nalepka ostrzegawcza ma być widoczna w całości, a nie tylko w części, która pozwala odgadnąć jej wzór. Przepis 5.2.2.1.6 wymaga, aby nie była zakryta ani zasłonięta przez jakąkolwiek część wyposażenia sztuki przesyłki, inną nalepkę ani znak. Uchwyt beczki jest właśnie takim wyposażeniem, więc nalepkę trzeba przenieść w miejsce, gdzie nic jej nie zasłania. Wpis w dokumencie przewozowym nie zastępuje oznakowania na samej przesyłce. Podstawa: ADR 5.2.2.1.6.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.2.1.6(b)–(c) — nalepki nie mogą być zasłonięte przez wyposażenie, inną nalepkę lub znak; wymagane nalepki powinny być umieszczone blisko siebie",
+            "reference": "ADR 2025, 5.2.2.1.6 (b) (nalepka umieszczona tak, aby nie była zakryta lub zasłonięta przez jakąkolwiek część wyposażenia sztuki przesyłki, inną nalepkę ostrzegawczą lub znak)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "ADR nie dopuszcza zasłonięcia części nalepki; nie wystarcza, że większość symbolu pozostaje czytelna."
+          "rationale": "Widoczny fragment symbolu nie wystarcza – 5.2.2.1.6 (b) zakazuje zasłaniania nalepki przez jakąkolwiek część wyposażenia."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wyposażenie nie może zasłaniać nalepki, a wymagane nalepki należy umieścić blisko siebie."
+          "rationale": "5.2.2.1.6 (b): nalepka nie może być zasłonięta przez część wyposażenia sztuki przesyłki – uchwyt beczki trzeba ominąć."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dokument przewozowy nie zastępuje wymaganej nalepki na sztuce przesyłki."
+          "rationale": "Wpis w dokumencie przewozowym nie zastępuje oznakowania sztuki przesyłki (5.2.2.1.6)."
         }
       },
-      "notes_on_conditions": "Pytanie dotyczy zasłonięcia nalepki przez pas mocujący, czyli część wyposażenia opakowania, oraz rozmieszczenia więcej niż jednej wymaganej nalepki.",
+      "notes_on_conditions": "5.2.2.1.6 s. 940. Przeredagowanie – opcje >80 zn. z kropkami, średnik, „wyłącznie”/„żadnej”; usunięto wątek (c) „blisko siebie”, który pokrywa 0627.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

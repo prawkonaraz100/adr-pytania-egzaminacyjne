@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0754",
       "order": 754,
-      "clause": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+      "clause": "ADR 2025, 5.3.2.3.1 (nasilenie przez powtórzenie cyfry; zestawienia specjalne); 5.3.2.3.2 (22 – gaz schłodzony skroplony duszący)",
       "question_snapshot": {
         "id": "ADR-B-0754",
         "module_id": "ADR-B-06",
-        "stem": "W górnym polu tablicy pomarańczowej odczytujesz numer 22. Znasz zasadę, że powtórzona cyfra zwykle wzmacnia zagrożenie. Co musisz sprawdzić przed zastosowaniem tej zasady?",
+        "stem": "Na kursie omawiasz numery zagrożenia. Numer 20 oznacza gaz duszący lub gaz niestwarzający zagrożenia dodatkowego. Co według 5.3.2.3.2 oznacza numer 22?",
         "options": {
-          "A": "Odczytać go tylko jako podwójne nasilenie zagrożenia emisją gazu, bez dodatkowego znaczenia przypisanego kodowi 22.",
-          "B": "Rozpoznać szczególny kod: gaz skroplony schłodzony o działaniu duszącym, zgodnie z tabelą znaczeń numerów ADR.",
-          "C": "Uznać, że każda z dwóch cyfr opisuje osobne zagrożenie gazowe i sprawdzić je jako dwa niezależne wpisy."
+          "A": "Gaz duszący o nasilonym zagrożeniu emisji, bo cyfra 2 jest powtórzona",
+          "B": "Gaz schłodzony skroplony duszący, bo 22 ma znaczenie specjalne",
+          "C": "Dwa różne gazy przewożone razem w jednym pojeździe"
         },
         "correct_option": "B",
-        "explanation": "Nie każdy numer z powtórzoną cyfrą odczytuje się wyłącznie według ogólnej zasady nasilenia. Kod 22 ma w ADR szczególne znaczenie: oznacza gaz skroplony schłodzony, działający dusząco. Odpowiedź A pomija wyjątek wpisany w tabeli, a C błędnie rozdziela cyfry na dwa osobne zagrożenia. Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.",
+        "explanation": "Zasadniczo powtórzenie cyfry oznacza nasilenie zagrożenia, które ta cyfra opisuje. ADR wymienia jednak zestawienia cyfr o znaczeniu specjalnym, a numer 22 jest jednym z nich. Według wykazu w 5.3.2.3.2 oznacza on gaz schłodzony skroplony duszący, czyli gaz utrzymywany w postaci cieczy dzięki bardzo niskiej temperaturze. Takiego numeru nie odczytuje się więc samą ogólną regułą ani jako dwóch osobnych zagrożeń. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1–5.3.2.3.2 — szczególne znaczenie numeru 22",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 5.3.2.3.1 (powtórzenie cyfry wskazuje na nasilenie zagrożenia; 22 wśród zestawień cyfr o znaczeniu specjalnym); 5.3.2.3.2 (20 – gaz duszący lub gaz niestwarzający zagrożenia dodatkowego; 22 – gaz schłodzony skroplony duszący)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Numer 22 nie jest wyłącznie zwykłym podwojeniem cyfry 2; ADR nadaje mu osobne, szczególne znaczenie."
+          "rationale": "Numer 22 jest wśród zestawień cyfr o znaczeniu specjalnym – nie odczytuje się go ogólną regułą nasilenia."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "ADR 5.3.2.3.2 definiuje 22 jako gaz skroplony schłodzony, działający dusząco."
+          "rationale": "5.3.2.3.2: 22 – gaz schłodzony skroplony duszący."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Dwie cyfry nie oznaczają dwóch niezależnych zagrożeń; cały numer jest jednym kodem identyfikacji zagrożenia."
+          "rationale": "Numer rozpoznawczy opisuje zagrożenia jednego materiału, a nie dwa różne gazy."
         }
       },
-      "notes_on_conditions": "Pytanie dotyczy szczególnego znaczenia kodu 22 wskazanego w 5.3.2.3.2; ogólna reguła intensyfikacji przy powtórzeniu cyfry nie zastępuje znaczeń szczególnych wymienionych w tym punkcie.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956; 5.3.2.3.2 s. 957. Przeredagowanie – opcje >80 zn., pytanie „co sprawdzić” z odpowiedziami-twierdzeniami; schemat bliski 0217/0635/0654 (inne kody specjalne) – do oceny specjalisty.",
       "source_2025_comparison_url": "https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

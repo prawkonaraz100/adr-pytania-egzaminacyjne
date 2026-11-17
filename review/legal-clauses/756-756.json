@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0756",
       "order": 756,
-      "clause": "ADR 2025, 5.3.2.3.1–5.3.2.3.2",
+      "clause": "ADR 2025, 5.3.2.3.1 (cyfra 8 – działanie żrące); 5.3.2.3.2 (338 – materiał łatwo zapalny ciekły żrący)",
       "question_snapshot": {
         "id": "ADR-B-0756",
         "module_id": "ADR-B-06",
-        "stem": "Na górnym polu tablicy ADR odczytujesz numer zagrożenia 86. Jak powinieneś przekazać znaczenie tego kodu ratownikom?",
+        "stem": "Pomocnik odczytuje z tablicy numer rozpoznawczy zagrożenia 338. Twierdzi, że ósemka na końcu nic nie zmienia, bo działanie żrące oznacza dopiero numer zaczynający się od 8. Jak odczytać numer 338?",
         "options": {
-          "A": "Jako substancję żrącą lub słabo żrącą, która jest jednocześnie toksyczna; oba zagrożenia trzeba uwzględnić.",
-          "B": "Jako substancję silnie żrącą i toksyczną, ponieważ każda kombinacja z cyfrą 8 oznacza najwyższy poziom żrącości.",
-          "C": "Jako substancję utleniającą i toksyczną; cyfra 8 opisuje tu nasilenie palności, nie działanie żrące."
+          "A": "Materiał łatwo zapalny ciekły, który dodatkowo działa żrąco",
+          "B": "Materiał łatwo zapalny ciekły o nasilonej zapalności, bez innych zagrożeń",
+          "C": "Ciecz łatwo zapalna, która reaguje niebezpiecznie z wodą"
         },
         "correct_option": "A",
-        "explanation": "Numer 86 oznacza substancję żrącą lub słabo żrącą, która jest jednocześnie toksyczna. Cyfra 8 wskazuje na działanie żrące, a 6 na toksyczność, więc ratownicy muszą znać oba zagrożenia. Odpowiedź B myli kod 86 z 88, który oznacza substancję silnie żrącą; C błędnie przypisuje cyfrze 8 znaczenie utleniające. Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.",
+        "explanation": "Cyfra 8 w numerze rozpoznawczym zagrożenia oznacza działanie żrące, także wtedy, gdy nie stoi na początku. W numerze 338 podwójna trójka oznacza materiał łatwo zapalny ciekły, a ósemka na końcu dodaje zagrożenie żrące. Wykaz w 5.3.2.3.2 podaje dla numeru 338 właśnie: materiał łatwo zapalny ciekły żrący. Reakcję z wodą oznaczałaby dopiero litera X przed numerem, czyli X338. Podstawa: ADR 5.3.2.3.1 i 5.3.2.3.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.2 — 86: substancja żrąca lub słabo żrąca, toksyczna",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 5.3.2.3.1 (cyfra 8 – działanie żrące; powtórzenie cyfry – nasilenie zagrożenia; litera „X” – reakcja z wodą); 5.3.2.3.2 (338 – materiał łatwo zapalny ciekły żrący; X338 – taki materiał reagujący niebezpiecznie z wodą)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Kod 86 oznacza substancję żrącą lub słabo żrącą, która jest jednocześnie toksyczna."
+          "rationale": "5.3.2.3.2: 338 – materiał łatwo zapalny ciekły żrący."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Kod 88 oznacza substancję silnie żrącą; 86 nie oznacza najwyższego poziomu żrącości."
+          "rationale": "Cyfra 8 dodaje działanie żrące (5.3.2.3.1); 338 nie jest materiałem bez innych zagrożeń."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Cyfra 8 oznacza działanie żrące, nie utleniające ani palność; 6 wskazuje toksyczność."
+          "rationale": "Reakcję z wodą oznacza litera X (X338), której tu nie ma."
         }
       },
-      "notes_on_conditions": "Pytanie odróżnia numer 86 od 88 i wymaga przekazania ratownikom obu zagrożeń: żrącego oraz toksycznego.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956; 5.3.2.3.2 s. 957. Nowy element – stare (86) rozstrzygnięte wprost w 0653 (886 vs 86), znaczenie 86 = dystraktor 0653 i 0298.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

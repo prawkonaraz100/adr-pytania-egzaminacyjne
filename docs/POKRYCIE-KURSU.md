@@ -8,7 +8,7 @@
 - ADR-B-0780 do ADR-B-13-K07: po zmianie ciągnika instrukcje pisemne muszą być łatwo dostępne w kabinie pojazdu zastępczego (ADR 5.4.3.1, 8.1.2.3).
 - Moduł ADR-B-13: **54** pytania; kompetencja K07: 5→6.
 - Rozkład prawidłowych opcji: A=258, B=291, C=231.
-- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **11/780 = 1,41%**; maksimum działu to 5,66%.
+- Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **9/780 = 1,15%**; maksimum działu to 4,35%.
 - Kompetencje teorii z mniej niż 6 pytaniami: **0** (3 praktyczne pominięte). **STOP dopisywania pytań**.
 - Explanation: 378 znaków; wszystkie pytania `needs_review`.
 - Raport końcowy: `docs/STAN-KONCOWY-BANKU-ADR-PODSTAWOWY-2026-11-03.md`; raport zamknięcia: `podstawowy/raporty/etap-4x355-zamkniecie-banku-do-recenzji-specjalisty-2026-11-03.md`.
@@ -31,7 +31,7 @@
 ## Bieżąca migawka — etap 4x338
 
 - Bank: **764** pytań, 764 `needs_review`, 0 `verified`; SHA `dfc59132c0d5282742c7ff456c414ebba9acc81c`.
-- ADR-B-0764: przy przewozie towarów niebezpiecznych razem ze zwykłym ładunkiem wszystkie towary muszą być zamocowane lub zaklinowane tak, aby zapobiec uwolnieniu towarów niebezpiecznych (ADR 2025, 7.5.7.1).
+- ADR-B-0764: sztuki przesyłek można unieruchomić nie tylko pasami, ale też innymi odpowiednimi urządzeniami, na przykład przegrodą nastawną (ADR 2025, 7.5.7.1).
 - Moduł ADR-B-09: **57** pytań; kompetencja K02: 5→6.
 - Rozkład prawidłowych opcji: A=257, B=278, C=229.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **83/764 = 10,86%**; maksimum działu to 14,61%.
@@ -44,7 +44,7 @@
 ## Bieżąca migawka — etap 4x337
 
 - Bank: **763** pytań, 763 `needs_review`, 0 `verified`; SHA `30f597dd668581ee6b16a810e1d21e0c2661dfd4`.
-- ADR-B-0763: każdy członek załogi musi mieć parę (dwie sztuki) rękawic ochronnych oraz ochronę oczu (ADR 2025, 8.1.5.2).
+- ADR-B-0763: płyn do płukania oczu jest wyposażeniem jednostki transportowej, a para rękawic ochronnych i ochrona oczu – każdego członka załogi (ADR 2025, 8.1.5.2).
 - Moduł ADR-B-08: **53** pytania; kompetencja K06: 5→6.
 - Rozkład prawidłowych opcji: A=257, B=277, C=229.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **82/763 = 10,75%**; maksimum działu to 14,61%.
@@ -83,7 +83,7 @@
 ## Bieżąca migawka — etap 4x334
 
 - Bank: **760** pytań, 760 `needs_review`, 0 `verified`; SHA `46cbbc7ab6e1fa7f513060fa22ca61db78f9dba7`.
-- ADR-B-0760 do ADR-B-08-K02: każda odrębna jednostka transportowa korzystająca z 1.1.3.6 musi mieć własną gaśnicę (ADR 2025, 1.2.1; 8.1.4.2).
+- ADR-B-0760 do ADR-B-08-K02: przy 1.1.3.6 wystarcza co najmniej jedna gaśnica 2 kg niezależnie od dopuszczalnej masy całkowitej – tabela 8.1.4.1 nie dotyczy (ADR 2025, 1.1.3.6.2; 8.1.4.1; 8.1.4.2).
 - Moduł ADR-B-08: **50** pytań; kompetencja K02: 5→6.
 - Rozkład prawidłowych opcji: A=257, B=274, C=229.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **82/760 = 10,79%**; maksimum działu to 14,61%.
@@ -129,7 +129,7 @@
 ## Bieżąca migawka — etap 4x330
 
 - Bank: **756** pytań, 756 `needs_review`, 0 `verified`; SHA `28a535b640a1e6fc8ff23e2bfc9b746bd1f58908`.
-- ADR-B-0756 do ADR-B-06-K08: numer zagrożenia 86 oznacza materiał żrący lub słabo żrący, który jest toksyczny (ADR 2025, 5.3.2.3.1–5.3.2.3.2).
+- ADR-B-0756 do ADR-B-06-K08: cyfra 8 na końcu numeru – 338 oznacza materiał łatwo zapalny ciekły żrący (ADR 2025, 5.3.2.3.1–5.3.2.3.2).
 - Moduł ADR-B-06: **66** pytań; kompetencja K08: 5→6.
 - Rozkład prawidłowych opcji: A=254, B=273, C=229.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/756 = 10,71%**; maksimum działu to 14,61%.
@@ -139,7 +139,7 @@
 ## Bieżąca migawka — etap 4x329
 
 - Bank: **755** pytań, 755 `needs_review`, 0 `verified`; SHA `9b6cf3e78af2fd49a2fcbe99b1fb10a8021904e1`.
-- ADR-B-0755 do ADR-B-06-K07: odblaskowość tablicy pomarańczowej na pojeździe drogowym; wyjątek nieodblaskowego koloru dotyczy wagonów (ADR 2025, 5.3.2.2.1).
+- ADR-B-0755 do ADR-B-06-K07: tablica pomarańczowa ma mieć właściwości odblaskowe (ADR 2025, 5.3.2.2.1).
 - Moduł ADR-B-06: **65** pytań; kompetencja K07: 5→6.
 - Rozkład prawidłowych opcji: A=253, B=273, C=229.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/755 = 10,73%**; maksimum działu to 14,61%.
@@ -169,7 +169,7 @@
 ## Bieżąca migawka — etap 4x326
 
 - Bank: **752** pytań, 752 `needs_review`, 0 `verified`; SHA `3ddd949081089a48396e9a2e257a57fa5eb7aea4`.
-- ADR-B-0752 do ADR-B-06-K04: litera X przed numerem rozpoznawczym oznacza niebezpieczną reakcję materiału z wodą; jej użycie wymaga zgody specjalistów (ADR 2025, 5.3.2.3.1).
+- ADR-B-0752 do ADR-B-06-K04: litera X jest częścią numeru rozpoznawczego zagrożenia i stoi przed nim w górnej części tablicy (ADR 2025, 5.3.2.2.2–5.3.2.2.3; 5.3.2.3.1).
 - Moduł ADR-B-06: **62** pytania; kompetencja K04: 5→6.
 - Rozkład prawidłowych opcji: A=253, B=270, C=229.
 - Globalny wskaźnik „poprawna odpowiedź jest jedyną najdłuższą”: **81/752 = 10,77%**; maksimum działu to 14,61%.

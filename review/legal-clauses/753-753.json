@@ -8,28 +8,23 @@
     {
       "id": "ADR-B-0753",
       "order": 753,
-      "clause": "ADR 2025, 5.3.2.2.1 i 5.3.2.2.4",
+      "clause": "ADR 2025, 5.3.2.2.1 (wymiary 40 × 30 cm, zmniejszenie przy braku miejsca); 5.3.2.2.4 (tolerancja ±10%)",
       "question_snapshot": {
         "id": "ADR-B-0753",
         "module_id": "ADR-B-06",
-        "stem": "Przed wyjazdem sprawdzasz pomarańczową tablicę o wymiarach 36 × 27 cm. Standard to 40 × 30 cm, a konstrukcja pojazdu pozwala na montaż pełnego rozmiaru. Czy sam wymiar oznacza niezgodność z ADR?",
+        "stem": "Przed wyjazdem kierowca mierzy tablicę pomarańczową: ma 38 cm szerokości i 28 cm wysokości. Na pojeździe jest miejsce na tablicę standardową. Czy z powodu samych wymiarów tablica jest niezgodna z ADR?",
         "options": {
-          "A": "Tak, każda tablica musi mieć dokładnie 40 × 30 cm; mniejszy rozmiar jest dopuszczony wyłącznie wtedy, gdy brakuje miejsca na pojeździe.",
-          "B": "Nie, 36 × 27 cm mieści się na dolnej granicy tolerancji ±10% dla standardowych wymiarów tablicy pomarańczowej.",
-          "C": "Tak, ponieważ tolerancja dotyczy jedynie szerokości czarnego obrzeża, a wymiary tablicy mogą być wyłącznie standardowe lub 30 × 12 cm."
+          "A": "Tak, bo mniejsza tablica jest dozwolona dopiero przy braku miejsca na pojeździe",
+          "B": "Nie, bo ADR dopuszcza dla wymiarów tablicy tolerancję wynoszącą ±10%",
+          "C": "Tak, bo tolerancja ±10% dotyczy szerokości obrzeża"
         },
         "correct_option": "B",
-        "explanation": "Standardowa tablica ma 40 × 30 cm, ale ADR dopuszcza ±10% tolerancji dla wymiarów podanych w tym podrozdziale. Dlatego 36 × 27 cm mieści się dokładnie na dolnej granicy tolerancji i nie wymaga powoływania się na wyjątek dla pojazdu bez miejsca. Odpowiedź A pomija tolerancję, a C błędnie ogranicza ją do obrzeża. Podstawa: ADR 2025, 5.3.2.2.1 i 5.3.2.2.4.",
+        "explanation": "Standardowa tablica pomarańczowa ma 40 cm szerokości i 30 cm wysokości. ADR dopuszcza dla wymiarów z tego podrozdziału tolerancję ±10%, czyli szerokość od 36 do 44 cm i wysokość od 27 do 33 cm. Tablica 38 × 28 cm mieści się w tych granicach, więc nie trzeba powoływać się na wyjątek dla pojazdów bez miejsca. Ten osobny wyjątek pozwala zmniejszyć tablicę nawet do 30 × 12 cm. Podstawa: ADR 5.3.2.2.1 i 5.3.2.2.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.2.1 i 5.3.2.2.4 — standardowe wymiary tablicy 400 × 300 mm; dopuszczalna tolerancja wymiarów ±10%",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
-          },
-          {
-            "code": "ADR-2025-MI",
-            "reference": "ADR 2025, tom II, s. 251, 5.3.2.2.4 — dopuszczalna tolerancja wymiarów tablicy ±10%",
-            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+            "reference": "ADR 2025, 5.3.2.2.1 (tablice szerokości 40 cm i wysokości 30 cm; przy braku miejsca zmniejszenie do 300 mm szerokości i 120 mm wysokości); 5.3.2.2.4 (dopuszczalna tolerancja wymiarów ± 10%)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -39,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Punkt 5.3.2.2.4 dopuszcza tolerancję ±10%; nie wymaga dokładnie nominalnych 400 × 300 mm."
+          "rationale": "Tablica 38 × 28 cm mieści się w tolerancji ±10% z 5.3.2.2.4, więc nie jest „mniejszą tablicą” z wyjątku."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "36 × 27 cm stanowi dokładnie 90% wymiarów standardowych 40 × 30 cm, więc mieści się w tolerancji."
+          "rationale": "5.3.2.2.4: dopuszczalna tolerancja wymiarów podanych w podrozdziale 5.3.2.2 wynosi ±10%."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Tolerancja dotyczy wymiarów podanych w podrozdziale, nie tylko szerokości obrzeża."
+          "rationale": "Tolerancja z 5.3.2.2.4 dotyczy wszystkich wymiarów z podrozdziału, a nie samego obrzeża."
         }
       },
-      "notes_on_conditions": "Wymiary 36 × 27 cm są równe dolnej granicy tolerancji ±10% względem standardu 40 × 30 cm. Pytanie nie dotyczy osobnego wyjątku zmniejszonej tablicy do 300 × 120 mm przy braku miejsca na pojeździe.",
+      "notes_on_conditions": "5.3.2.2.1 s. 955; 5.3.2.2.4 s. 956. Przeredagowanie – opcje >80 zn., „każda”, „wyłącznie”; 38 × 28 cm zamiast granicznych 36 × 27 cm.",
       "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

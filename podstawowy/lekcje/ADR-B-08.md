@@ -325,9 +325,9 @@ Jeżeli przewóz korzysta z wyłączenia 1.1.3.6, nie oznacza to braku obowiązk
 Na gaśnicy powinna znajdować się plomba potwierdzająca, że nie była używana, oraz wymagane oznaczenie terminu: data (miesiąc i rok) następnej kontroli albo, odpowiednio, maksymalny dopuszczalny okres użytkowania. Brak osobnej daty następnej kontroli nie oznacza automatycznie niezgodności, jeśli zastosowano dopuszczone oznaczenie maksymalnego okresu użytkowania. Niezależnie od sposobu oznaczenia gaśnice podlegają okresowym kontrolom, a właściwego terminu nie wolno przekroczyć podczas przewozu. Podstawa: ADR 2025, 8.1.4.4–8.1.4.5.
 
 
-### Gaśnica dla każdej jednostki transportowej (ADR-B-0760)
+### Przy 1.1.3.6 masa pojazdu nie zmienia wymogu gaśnicy (ADR-B-0760)
 
-Jeżeli dwa osobne samochody jadą razem w konwoju, każdy z nich pozostaje odrębną jednostką transportową. Gdy przewóz korzysta z wyłączenia 1.1.3.6, wymóg co najmniej jednej gaśnicy o pojemności odpowiadającej 2 kg proszku dotyczy każdej jednostki, a nie całego konwoju łącznie. Inaczej jest z ciągnikiem i dołączoną naczepą, które tworzą jedną jednostkę transportową. Podstawa: ADR 2025, 1.2.1 i 8.1.4.2.
+Tabela z 8.1.4.1, w której wymagana pojemność gaśnic rośnie z dopuszczalną masą całkowitą, nie dotyczy jednostek transportowych z 8.1.4.2. Przy przewozie w limicie z 1.1.3.6 wymagana jest co najmniej jedna gaśnica przenośna 2 kg proszku do pożarów grup A, B i C, także w ciężarówce o masie 18 t. Wyłączenie nie zwalnia z gaśnicy, bo 1.1.3.6.2 pozostawia przepisy 8.1.4.2 do 8.1.4.5. Każdy osobny samochód jest przy tym osobną jednostką transportową. Podstawa: ADR 2025, 1.1.3.6.2, 8.1.4.1 i 8.1.4.2.
 
 
 ### Klin pod koło a wyłączenie ilościowe (ADR-B-0761)
@@ -340,6 +340,6 @@ Jeżeli przewóz spełnia warunki wyłączenia 1.1.3.6, część 8 ADR nie stosu
 Wyłączenie ilościowe 1.1.3.6 nie usuwa wszystkich zasad części 8. Punkt 8.3.4 pozostaje obowiązujący i wymaga, aby używana przenośna lampa nie miała metalowej powierzchni mogącej wywołać iskry. To odrębne ograniczenie dotyczące lampy, a nie obowiązek przewożenia lampy z ogólnego wykazu 8.1.5.2. Dlatego nawet przy małych ilościach nie używaj lampy z niebezpieczną metalową powierzchnią. Podstawa: ADR 2025, 1.1.3.6.2; 8.3.4; 8.1.5.2.
 
 
-### Para rękawic dla każdego członka załogi (ADR-B-0763)
+### Płyn do płukania oczu na jednostkę, rękawice i okulary na osobę (ADR-B-0763)
 
-ADR wymaga dla każdego członka załogi pary rękawic ochronnych, czyli dwóch sztuk, a nie jednej rękawicy na osobę. Ochrona oczu jest osobnym elementem wyposażenia i nie zastępuje ochrony dłoni. Jeżeli w komplecie brakuje jednej rękawicy, wyposażenie tej osoby jest niepełne i trzeba uzupełnić je przed przewozem. Podstawa: ADR 2025, 8.1.5.2.
+Wykaz z 8.1.5.2 dzieli wyposażenie na to, które przewozi się w jednostce transportowej, i to, które ma każdy członek załogi. Płyn do płukania oczu jest wymieniony dla jednostki, obok klinów i stojących znaków ostrzegawczych. Para rękawic ochronnych i ochrona oczu są natomiast wyposażeniem każdego członka załogi, więc kierowca i pomocnik mają je osobno. Para oznacza dwie rękawice, a okulary nie zastępują ochrony dłoni. Podstawa: ADR 2025, 8.1.5.2.

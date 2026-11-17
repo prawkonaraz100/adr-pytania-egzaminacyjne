@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0755",
       "order": 755,
-      "clause": "ADR 2025, 5.3.2.2.1",
+      "clause": "ADR 2025, 5.3.2.2.1 (tablice barwy pomarańczowej powinny mieć właściwości odblaskowe)",
       "question_snapshot": {
         "id": "ADR-B-0755",
         "module_id": "ADR-B-06",
-        "stem": "Przed wyjazdem zauważasz, że pomarańczowa tablica na samochodzie jest matowa i nie odbija światła reflektorów. Pozostałe wymiary i oznaczenia są prawidłowe. Co wynika z ADR?",
+        "stem": "Przed wyjazdem kierowca zauważa, że nowa tablica pomarańczowa jest matowa i nie odbija światła reflektorów. Ma właściwe wymiary, kolor i czarne obrzeże. Czy taka tablica spełnia 5.3.2.2.1?",
         "options": {
-          "A": "Sam pomarańczowy kolor wystarcza; odblaskowość jest tylko zaleceniem, a nie warunkiem dla tablic na pojazdach drogowych.",
-          "B": "Tablica na samochodzie musi być odblaskowa; wyjątek dopuszczający nieodblaskowy kolor dotyczy wagonów.",
-          "C": "Wystarczy, że numery są czytelne w dzień; odblaskowość jest wymagana wyłącznie podczas jazdy nocą."
+          "A": "Tak, bo właściwości odblaskowe są wymagane dopiero przy jeździe nocą",
+          "B": "Nie, bo przepis wymaga od tablicy pomarańczowej właściwości odblaskowych",
+          "C": "Tak, jeżeli tablica jest czysta, a jej pomarańczowy kolor dobrze widoczny"
         },
         "correct_option": "B",
-        "explanation": "Na pojeździe drogowym tablica pomarańczowa musi być odblaskowa, żeby była lepiej widoczna przy słabym oświetleniu. Matowa tablica bez właściwości odblaskowych nie spełnia tego warunku, nawet jeśli ma właściwy kolor i czytelne numery. Odpowiedzi A i C pomijają obowiązek odblaskowości; wyjątek dla nieodblaskowego koloru dotyczy wagonów. Podstawa: ADR 2025, 5.3.2.2.1.",
+        "explanation": "Przepis 5.3.2.2.1 wymienia właściwości odblaskowe jako jedną z cech tablicy pomarańczowej, obok wymiarów, czarnego obrzeża i odporności na warunki atmosferyczne. Odblask sprawia, że tablica jest dobrze widoczna w świetle reflektorów, na przykład po zmroku lub we mgle. Matowa tablica nie spełnia tego warunku, nawet jeśli ma właściwy kolor i wymiary. ADR nie uzależnia tego wymogu od pory jazdy. Podstawa: ADR 5.3.2.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.2.1 — tablice pomarańczowe mają być odblaskowe; nieodblaskowy kolor dopuszczono dla wagonów",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 5.3.2.2.1 (tablice barwy pomarańczowej powinny mieć właściwości odblaskowe, szerokość 40 cm i wysokość 30 cm oraz czarne obrzeże o szerokości 15 mm)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Pomarańczowy kolor sam w sobie nie wystarcza; dla tablic drogowych ADR wymaga odblaskowości."
+          "rationale": "5.3.2.2.1 nie uzależnia właściwości odblaskowych od pory jazdy."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Tablice pomarańczowe na pojazdach drogowych mają być odblaskowe; wyjątek dla nieodblaskowego koloru dotyczy wagonów."
+          "rationale": "5.3.2.2.1: tablice barwy pomarańczowej powinny mieć właściwości odblaskowe."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wymóg odblaskowości nie ogranicza się do jazdy nocą; nie zastępuje go czytelność dzienna."
+          "rationale": "Czystość i kolor nie zastępują wymaganych właściwości odblaskowych."
         }
       },
-      "notes_on_conditions": "Pytanie dotyczy tablic na pojeździe drogowym; ADR przewiduje osobny wyjątek nieodblaskowego koloru dla wagonów. Nie rozciąga się go na samochody.",
+      "notes_on_conditions": "5.3.2.2.1 s. 955. Przeredagowanie – klucz zawierał „wyjątek dla wagonów”, którego ADR nie zawiera (przepis RID); opcje >80 zn., „wyłącznie”, „tylko”.",
       "source_2025_comparison_url": "https://digitallibrary.un.org/record/4092124/files/E_ECE_TRANS_351-EN.pdf",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

@@ -8,19 +8,19 @@
       "id": "ADR-B-0763",
       "sequence": 763,
       "exact_record_snapshot": {
-        "stem": "Przed wyjazdem sprawdzasz wyposażenie. Każdy członek załogi ma okulary ochronne, ale w komplecie rękawic brakuje jednej sztuki. Czy taki zestaw spełnia ADR 8.1.5.2?",
+        "stem": "Kierowca i pomocnik wiozą na pełnych zasadach ADR kanistry z nalepką 8. Każdy ma własną parę rękawic i okulary ochronne, a w pojeździe jest jedna butelka płynu do płukania oczu. Czy w tym zakresie czegoś brakuje?",
         "options": {
-          "A": "Tak. Wystarczy jedna rękawica ochronna na osobę, jeśli można jej użyć na dominującej ręce.",
-          "B": "Nie. Każdy członek załogi musi mieć własną parę rękawic ochronnych, czyli dwie sztuki.",
-          "C": "Tak. Okulary ochronne mogą zastąpić brakującą rękawicę, bo oba elementy należą do ochrony osobistej."
+          "A": "Brakuje, bo płyn do płukania oczu ma mieć osobno kierowca i pomocnik",
+          "B": "Nie brakuje, bo płyn jest wymieniony dla jednostki, a nie dla osoby",
+          "C": "Brakuje, bo przy nalepce 8 obaj potrzebują też przyłbicy na twarz"
         },
         "correct_option": "B",
-        "explanation": "ADR wymaga pary rękawic ochronnych dla każdego członka załogi, więc jedna sztuka nie tworzy wymaganego kompletu. Okulary chronią oczy, ale nie zastępują ochrony dłoni; każdy element ma inne zadanie i musi być dostępny w wymaganej liczbie. Uzupełnij brak przed rozpoczęciem przewozu, zamiast zakładać, że jeden element może zastąpić drugi. Podstawa: ADR 2025, 8.1.5.2.",
+        "explanation": "Wykaz z 8.1.5.2 dzieli wyposażenie na to, które przewozi się w jednostce transportowej, i to, które ma każdy członek załogi. Płyn do płukania oczu jest w pierwszej grupie, obok klinów i stojących znaków ostrzegawczych. Para rękawic ochronnych i ochrona oczu są natomiast wyposażeniem każdego członka załogi, więc kierowca i pomocnik mają je osobno. Przyłbica nie jest wymagana, bo okulary ochronne są tylko przykładem ochrony oczu. Podstawa: ADR 8.1.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.2 — for each member of the vehicle crew: a pair of protective gloves and eye protection",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 8.1.5.2 (w jednostce transportowej: klin pod koła dla każdego pojazdu, dwa stojące znaki ostrzegawcze, płyn do płukania oczu; dla każdego członka załogi: kamizelka ostrzegawcza, przenośne urządzenie oświetleniowe, para rękawic ochronnych, ochrona oczu)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",

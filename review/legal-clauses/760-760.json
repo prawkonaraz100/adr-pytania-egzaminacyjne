@@ -10,23 +10,23 @@
     {
       "id": "ADR-B-0760",
       "order": 760,
-      "clause": "ADR 2025, 1.2.1; 8.1.4.2; 1.1.3.6",
+      "clause": "ADR 2025, 8.1.4.1 (tabela według DMC – z wyłączeniem jednostek z 8.1.4.2); 8.1.4.2 (co najmniej jedna gaśnica 2 kg ABC przy 1.1.3.6); 1.1.3.6.2",
       "question_snapshot": {
         "id": "ADR-B-0760",
         "module_id": "ADR-B-08",
-        "stem": "Dwa osobne samochody ciężarowe jadą razem w konwoju. Każdy przewozi towary ADR w ilościach objętych 1.1.3.6. W pierwszym samochodzie jest gaśnica 2 kg. Czy wystarczy ona dla obu pojazdów?",
+        "stem": "Ciężarówka o dopuszczalnej masie całkowitej 18 t wiezie kilka beczek farby w ilości mieszczącej się w limicie z 1.1.3.6. Kierowca uważa, że skoro masa przekracza 7,5 t, potrzebuje gaśnic o łącznej pojemności 12 kg. Co wynika z ADR?",
         "options": {
-          "A": "Nie. Każdy z dwóch samochodów jest osobną jednostką transportową, więc każdy musi mieć własną gaśnicę 2 kg.",
-          "B": "Tak. Jedna gaśnica 2 kg wystarczy dla całego konwoju, jeżeli oba samochody jadą razem i mogą z niej skorzystać.",
-          "C": "Tak. Wyłączenie 1.1.3.6 obejmuje także obowiązek gaśnicy, więc drugi samochód nie musi mieć własnego sprzętu."
+          "A": "Wystarczy co najmniej jedna gaśnica 2 kg proszku do pożarów grup A, B i C",
+          "B": "Potrzebne są gaśnice łącznie 12 kg, bo tabela zależy od masy całkowitej pojazdu",
+          "C": "Gaśnica nie jest potrzebna, bo przy 1.1.3.6 nie stosuje się części 8"
         },
         "correct_option": "A",
-        "explanation": "Każdy z dwóch samochodów jest osobną jednostką transportową, dlatego musi mieć własną wymaganą gaśnicę, nawet gdy przewóz korzysta z 1.1.3.6. Gaśnica z pierwszego pojazdu nie jest wyposażeniem drugiego, a wspólna trasa nie łączy ich w jedną jednostkę. Nie myl tego z ciągnikiem i dołączoną naczepą, które tworzą jeden zestaw transportowy. Podstawa: ADR 2025, 1.2.1 i 8.1.4.2.",
+        "explanation": "Tabela z 8.1.4.1, w której wymagana pojemność gaśnic rośnie z dopuszczalną masą całkowitą, nie dotyczy jednostek transportowych z 8.1.4.2. Przy przewozie w limicie z 1.1.3.6 wymagana jest co najmniej jedna gaśnica przenośna 2 kg proszku do pożarów grup A, B i C, bez względu na masę pojazdu. Nie oznacza to zwolnienia z gaśnicy, bo 1.1.3.6.2 pozostawia przepisy 8.1.4.2 do 8.1.4.5. Podstawa: ADR 1.1.3.6.2, 8.1.4.1 i 8.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.2.1; 8.1.4.2 — definicja jednostki transportowej i wymóg gaśnicy dla każdej jednostki korzystającej z 1.1.3.6",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 8.1.4.1 (tabela gaśnic według dopuszczalnej masy całkowitej – z wyłączeniem jednostek transportowych wymienionych w 8.1.4.2); 8.1.4.2 (przy przewozie zgodnie z 1.1.3.6 co najmniej jedna gaśnica przenośna 2 kg proszku dla grup pożarów A, B i C); 1.1.3.6.2 (8.1.4.2 do 8.1.4.5 nadal stosowane)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -36,18 +36,18 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Dwa oddzielne samochody są dwiema jednostkami transportowymi; wymóg gaśnicy dotyczy każdej jednostki."
+          "rationale": "8.1.4.2: przy 1.1.3.6 co najmniej jedna gaśnica przenośna 2 kg proszku dla grup A, B i C – bez zależności od DMC."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wspólna trasa ani konwój nie łączą dwóch samochodów w jedną jednostkę transportową."
+          "rationale": "8.1.4.1 wyłącza z tabeli jednostki transportowe wymienione w 8.1.4.2."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Wyłączenie 1.1.3.6 nie usuwa wymogu gaśnicy z 8.1.4.2."
+          "rationale": "1.1.3.6.2 pozostawia 8.1.4.2 do 8.1.4.5 – gaśnica jest wymagana."
         }
       },
-      "notes_on_conditions": "Pytanie odróżnia dwa osobne samochody od ciągnika z dołączoną naczepą, które stanowią jedną jednostkę transportową.",
+      "notes_on_conditions": "8.1.4.1 s. 1324; 8.1.4.2 s. 1325; 1.1.3.6.2 s. 26. Nowy element – stare (dwa samochody w konwoju) = lustro 0711; pokrewne 0073 (minimum 2 kg).",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

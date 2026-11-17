@@ -8,19 +8,19 @@
       "id": "ADR-B-0760",
       "sequence": 760,
       "exact_record_snapshot": {
-        "stem": "Dwa osobne samochody ciężarowe jadą razem w konwoju. Każdy przewozi towary ADR w ilościach objętych 1.1.3.6. W pierwszym samochodzie jest gaśnica 2 kg. Czy wystarczy ona dla obu pojazdów?",
+        "stem": "Ciężarówka o dopuszczalnej masie całkowitej 18 t wiezie kilka beczek farby w ilości mieszczącej się w limicie z 1.1.3.6. Kierowca uważa, że skoro masa przekracza 7,5 t, potrzebuje gaśnic o łącznej pojemności 12 kg. Co wynika z ADR?",
         "options": {
-          "A": "Nie. Każdy z dwóch samochodów jest osobną jednostką transportową, więc każdy musi mieć własną gaśnicę 2 kg.",
-          "B": "Tak. Jedna gaśnica 2 kg wystarczy dla całego konwoju, jeżeli oba samochody jadą razem i mogą z niej skorzystać.",
-          "C": "Tak. Wyłączenie 1.1.3.6 obejmuje także obowiązek gaśnicy, więc drugi samochód nie musi mieć własnego sprzętu."
+          "A": "Wystarczy co najmniej jedna gaśnica 2 kg proszku do pożarów grup A, B i C",
+          "B": "Potrzebne są gaśnice łącznie 12 kg, bo tabela zależy od masy całkowitej pojazdu",
+          "C": "Gaśnica nie jest potrzebna, bo przy 1.1.3.6 nie stosuje się części 8"
         },
         "correct_option": "A",
-        "explanation": "Każdy z dwóch samochodów jest osobną jednostką transportową, dlatego musi mieć własną wymaganą gaśnicę, nawet gdy przewóz korzysta z 1.1.3.6. Gaśnica z pierwszego pojazdu nie jest wyposażeniem drugiego, a wspólna trasa nie łączy ich w jedną jednostkę. Nie myl tego z ciągnikiem i dołączoną naczepą, które tworzą jeden zestaw transportowy. Podstawa: ADR 2025, 1.2.1 i 8.1.4.2.",
+        "explanation": "Tabela z 8.1.4.1, w której wymagana pojemność gaśnic rośnie z dopuszczalną masą całkowitą, nie dotyczy jednostek transportowych z 8.1.4.2. Przy przewozie w limicie z 1.1.3.6 wymagana jest co najmniej jedna gaśnica przenośna 2 kg proszku do pożarów grup A, B i C, bez względu na masę pojazdu. Nie oznacza to zwolnienia z gaśnicy, bo 1.1.3.6.2 pozostawia przepisy 8.1.4.2 do 8.1.4.5. Podstawa: ADR 1.1.3.6.2, 8.1.4.1 i 8.1.4.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.2.1; 8.1.4.2 — definicja jednostki transportowej i wymóg gaśnicy dla każdej jednostki korzystającej z 1.1.3.6",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 8.1.4.1 (tabela gaśnic według dopuszczalnej masy całkowitej – z wyłączeniem jednostek transportowych wymienionych w 8.1.4.2); 8.1.4.2 (przy przewozie zgodnie z 1.1.3.6 co najmniej jedna gaśnica przenośna 2 kg proszku dla grup pożarów A, B i C); 1.1.3.6.2 (8.1.4.2 do 8.1.4.5 nadal stosowane)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",

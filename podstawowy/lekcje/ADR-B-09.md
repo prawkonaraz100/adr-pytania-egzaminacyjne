@@ -326,9 +326,14 @@ Jeśli po rozładunku sztuk przesyłek stwierdzono uwolnienie części zawartoś
 ADR wyjaśnia wprost, że środki ostrożności przy przewozie nieoczyszczonego pojazdu do najbliższego miejsca czyszczenia są odpowiednie, gdy gwarantują, że nie nastąpi niekontrolowany wyciek uwolnionego materiału. Wolna jazda czy światła awaryjne tego nie zapewniają. Zmiecenie pozostałości na plac nie jest czyszczeniem, tylko przeniesieniem skażenia. Powiązane pytanie: ADR-B-0706. Podstawa: ADR 7.5.8.1.
 
 
-### Mocowanie także zwykłego ładunku przy przewozie mieszanym (ADR-B-0764)
+### Mocowanie także zwykłego ładunku przy przewozie mieszanym (ADR-B-0200)
 
 Jeżeli wieziesz towary niebezpieczne razem ze zwykłym ładunkiem, nie zabezpieczasz wyłącznie opakowań ADR. Punkt 7.5.7.1 wymaga, aby wszystkie towary były umocowane lub zaklinowane tak, by zapobiec uwolnieniu towarów niebezpiecznych. Luźna paleta zwykłego towaru może podczas hamowania uderzyć w opakowania ADR, dlatego ją także trzeba unieruchomić. Podstawa: ADR 2025, 7.5.7.1.
+
+
+### Pasy to nie jedyny sposób unieruchomienia (ADR-B-0764)
+
+Przepis 7.5.7.1 wymaga skutecznego unieruchomienia sztuk przesyłek odpowiednimi urządzeniami. Jako przykłady podaje pasy spinające, burty przesuwane i przegrody nastawne. Przemieszczaniu można też zapobiec, wypełniając wolne przestrzenie przekładkami albo blokując i usztywniając sztuki przesyłek. Kartony dosunięte do ściany i zablokowane przegrodą nastawną nie muszą więc być dodatkowo spięte pasami, jeśli nie mogą się przesunąć. Podstawa: ADR 2025, 7.5.7.1.
 
 
 ### Wysokość przegrody przy oddzielaniu żywności (ADR-B-0765)
