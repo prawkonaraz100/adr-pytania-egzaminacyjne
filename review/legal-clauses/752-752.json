@@ -8,49 +8,47 @@
     {
       "id": "ADR-B-0752",
       "order": 752,
-      "clause": "ADR 2025, 5.3.2.3.1",
+      "clause": "ADR 2025, 5.3.2.3.1 (litera X – reakcja z wodą); 5.3.2.2.2 i 5.3.2.2.3 (numer rozpoznawczy zagrożenia z literą X w górnej części tablicy)",
       "question_snapshot": {
         "id": "ADR-B-0752",
         "module_id": "ADR-B-06",
-        "stem": "Po awarii niewielka ilość materiału wyciekła na podłogę skrzyni. Na tablicy pomarańczowej numer rozpoznawczy poprzedza litera X. Pracownik proponuje spłukać pozostałość wodą. Co kierowca powinien przekazać i zrobić?",
+        "stem": "Kierowca porównuje tablicę pomarańczową z kolumną (20) tabeli A, w której dla przewożonego materiału podano X423. W górnej części tablicy widnieje tylko 423. Czy tablica jest prawidłowa?",
         "options": {
-          "A": "Wstrzymać spłukiwanie i przekazać, że X oznacza niebezpieczną reakcję z wodą; jej użycie wymaga zgody specjalistów.",
-          "B": "Można spłukać mały ślad, bo ostrzeżenie X dotyczy tylko gaszenia pożaru i nie obejmuje zwykłego mycia powierzchni.",
-          "C": "Wystarczy rozcieńczyć pozostałość wodą z detergentem, jeżeli pracownik ma rękawice; zgoda specjalistów nie jest wtedy potrzebna."
+          "A": "Nie, bo X należy do numeru i ostrzega przed reakcją z wodą",
+          "B": "Tak, bo literę X podaje się w tabeli A, a nie na tablicy",
+          "C": "Tak, jeżeli literę X dopisano przed numerem UN w dolnej części"
         },
         "correct_option": "A",
-        "explanation": "Litera X przed numerem rozpoznawczym ostrzega, że materiał może niebezpiecznie reagować z wodą. Dlatego nie wolno samodzielnie spłukiwać nawet niewielkiej pozostałości ani zakładać, że mycie jest bezpieczniejsze niż gaszenie. Woda może być użyta tylko za zgodą specjalistów; pozostałe odpowiedzi błędnie ograniczają ostrzeżenie do pożaru albo pomijają wymaganą zgodę. Podstawa: ADR 2025, 5.3.2.3.1.",
+        "explanation": "Litera X jest częścią numeru rozpoznawczego zagrożenia, więc na tablicy ma stać X423, a nie samo 423. Numer rozpoznawczy zagrożenia umieszcza się w górnej części tablicy, a numer UN w dolnej. Bez litery X ratownicy nie dowiedzą się, że materiał reaguje niebezpiecznie z wodą i że wody można użyć tylko za zgodą specjalistów. Dopisanie litery przy numerze UN wprowadzałoby ich w błąd. Podstawa: ADR 5.3.2.2.2, 5.3.2.2.3 i 5.3.2.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.3.2.3.1 — numer rozpoznawczy zagrożenia poprzedzony literą X oznacza niebezpieczną reakcję materiału z wodą; woda może być stosowana jedynie za zgodą specjalistów",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-MI",
-            "reference": "ADR 2025, tom II, s. 251, 5.3.2.3.1 — oznaczenie X i ograniczenie stosowania wody do zgody specjalistów",
-            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
+            "reference": "ADR 2025, 5.3.2.3.1 (numer rozpoznawczy zagrożenia poprzedzony literą „X” – materiał reaguje niebezpiecznie z wodą; woda jedynie za zgodą specjalistów); 5.3.2.2.2 i 5.3.2.2.3 (numer rozpoznawczy zagrożenia, poprzedzony odpowiednio literą „X”, w górnej części tablicy, numer UN w dolnej)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "observed_answer_key": "A",
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Litera X oznacza niebezpieczną reakcję z wodą; użycie wody wymaga zgody specjalistów."
+          "rationale": "5.3.2.2.3: numer rozpoznawczy zagrożenia poprzedzony odpowiednio literą X; bez niej znika ostrzeżenie z 5.3.2.3.1."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Ostrzeżenie X nie ogranicza się do gaszenia pożaru; dotyczy niebezpiecznej reakcji materiału z wodą."
+          "rationale": "Tablica ma zawierać numer rozpoznawczy zagrożenia z kolumny (20), a litera X jest jego częścią."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Rękawice i detergent nie znoszą ograniczenia; zgoda specjalistów jest wymagana przy użyciu wody."
+          "rationale": "5.3.2.2.2: numer UN jest w dolnej części tablicy; X należy do numeru rozpoznawczego zagrożenia w górnej części."
         }
       },
-      "notes_on_conditions": "Pytanie sprawdza zastosowanie ostrzeżenia X do spłukiwania pozostałości po wycieku, a nie tylko do gaszenia pożaru. Nie daje kierowcy uprawnień do samodzielnego prowadzenia działań ratowniczych.",
+      "notes_on_conditions": "5.3.2.3.1 s. 956; 5.3.2.2.2 s. 955; 5.3.2.2.3 s. 956. Nowy element – stare (nie spłukiwać wodą, zgoda specjalistów) ≈ 0170 + 0698 (lekcja już omawia); pokrewne 0615 (X423).",
       "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
