@@ -240,9 +240,13 @@ Wszystkie odniesienia są robocze (`needs_review`); specjalista nadal musi poró
 
 
 
-### Wpis w dokumencie przy ADR 1.1.4.2.1 (ADR-B-0708)
+### Wpis w dokumencie przy ADR 1.1.4.2.1 (ADR-B-0061)
 
 Jeżeli przewóz odbywa się zgodnie z ADR 1.1.4.2.1, dokument przewozowy musi zawierać dokładną informację: „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Sam fakt, że trasa obejmuje port lub prom, nie oznacza automatycznie, że warunki tego przepisu są spełnione. Przed wyjazdem sprawdź, czy przewóz rzeczywiście korzysta z tego rozwiązania i czy wymagany wpis znajduje się w dokumencie. Podstawa: ADR 5.4.1.1.7 i 1.1.4.2.1.
+
+### Zapis 1.1.4.2.1 przy pakowaniu razem według Kodeksu IMDG (ADR-B-0708)
+
+Odstępstwo z 1.1.4.2.1 obejmuje oznakowanie według Kodeksu IMDG, pakowanie razem według Kodeksu IMDG oraz duże nalepki na kontenerach. Wystarczy jedna z tych sytuacji, aby przewóz był przewozem zgodnym z 1.1.4.2.1. Gdy sztuki przesyłek mają oznakowanie ADR, ale pakowanie razem spełnia jedynie Kodeks IMDG, w dokumencie przewozowym nadal trzeba dodać zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”. Powiązane pytanie: ADR-B-0708. Podstawa: ADR 1.1.4.2.1 (b) i 5.4.1.1.7.
 
 
 Pytanie bankowe powiązane z tym działem: **ADR-B-0770** — wyłączenie z odstępstwa ADR 1.1.4.2.1 dla towarów niebezpiecznych według ADR, które według IMDG/ICAO są uznawane za niebędące towarami niebezpiecznymi.
