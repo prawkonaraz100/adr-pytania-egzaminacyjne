@@ -8,22 +8,22 @@
     {
       "id": "ADR-B-0735",
       "order": 735,
-      "clause": "ADR 2025, 5.4.3.4",
+      "clause": "ADR 2025, 7.5.1.5 (UWAGA: ciecze pod materiałami stałymi)",
       "question_snapshot": {
         "id": "ADR-B-0735",
         "module_id": "ADR-B-03",
-        "stem": "Po awarii kierowca widzi, że dokumenty przewozowe pozostały w kabinie. Jedyna droga do pojazdu prowadzi przez rozlew, a wiatr niesie opary w jego stronę. Co powinien zrobić, aby ograniczyć ryzyko skażenia i postąpić zgodnie z instrukcjami pisemnymi ADR?",
+        "stem": "Do jednego pojazdu trafiają kanistry z cieczą żrącą klasy 8 i kartony z materiałem stałym klasy 9. Oba rodzaje sztuk przesyłek można piętrzyć. Magazynier chce postawić kanistry na kartonach. Jak według ADR należy je ułożyć, jeżeli to możliwe?",
         "options": {
-          "A": "Nie wchodzić w rozlew ani opary; odejść na stronę nawietrzną, ostrzec innych i wskazać służbom miejsce dokumentów. Udostępnić je dopiero wtedy, gdy będzie to bezpieczne.",
-          "B": "Założyć rękawice ochronne z wyposażenia, przejść najkrótszą drogą przez rozlew i zabrać dokumenty; ich natychmiastowa dostępność dla ratowników ma pierwszeństwo przed ryzykiem skażenia.",
-          "C": "Zostać przy pojeździe po stronie zawietrznej, pilnować kabiny i czekać na ustąpienie oparów; pozostanie przy ładunku ograniczy dostęp osób postronnych i pozwoli zachować dokumenty."
+          "A": "Kanistry z cieczą pod kartonami z materiałem stałym",
+          "B": "Kanistry na górze, bo łatwiej wtedy zauważyć wyciek",
+          "C": "Dowolnie, bo ADR nie wskazuje kolejności takich sztuk"
         },
         "correct_option": "A",
-        "explanation": "Instrukcje pisemne wymagają, by dokumenty były dostępne dla ratowników, ale nie nakazują narażać załogi na wejście w rozlew. Nie wolno chodzić po rozlanej substancji ani wdychać oparów; trzeba oddalić się na stronę nawietrzną, ostrzec innych i przekazać służbom, gdzie znajdują się dokumenty. Przejście przez rozlew w rękawicach nie jest bezpieczne, a pozostawanie po stronie zawietrznej zwiększa narażenie. Podstawa: ADR 5.4.3.4.",
+        "explanation": "UWAGA do 7.5.1.5 zaleca, aby towary niebezpieczne w stanie ciekłym ładować, jeżeli to możliwe, pod towarami niebezpiecznymi w stanie stałym. Gdy kanister zacznie przeciekać, ciecz nie spłynie wtedy na kartony i nie skazi materiału stałego. Ciecz żrąca z górnego kanistra mogłaby zniszczyć kartony i rozlać się po całym ładunku. Takie ułożenie ogranicza więc zasięg skażenia przy ewentualnym wycieku. Podstawa: ADR 7.5.1.5 (UWAGA).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4 — model instrukcji pisemnych: dostępność dokumentów, zakaz wchodzenia w rozlew, unikanie oparów po stronie nawietrznej, oddalenie się i ostrzeżenie innych",
+            "reference": "ADR 2025, 7.5.1.5 (UWAGA: towary niebezpieczne w stanie ciekłym, jeżeli jest to możliwe, ładuje się pod towarami niebezpiecznymi w stanie stałym)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "W modelu instrukcji pisemnych ADR jednocześnie występują wymóg dostępności dokumentów, zakaz wchodzenia w rozlew i unikanie wdychania oparów przez pozostanie po stronie nawietrznej. Nie należy narażać załogi, by wydobyć dokumenty z obszaru skażenia."
+          "rationale": "UWAGA do 7.5.1.5: towary w stanie ciekłym, jeżeli to możliwe, ładuje się pod towarami w stanie stałym."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Rękawice nie uzasadniają wejścia w nieznany rozlew; instrukcje zabraniają chodzenia po rozlanej substancji."
+          "rationale": "Kanistry na górze są sprzeczne z UWAGĄ do 7.5.1.5 i grożą skażeniem kartonów przy wycieku."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Pozostawanie po stronie zawietrznej i przy rozlewie jest sprzeczne z zaleceniem oddalenia się i unikania oparów."
+          "rationale": "ADR wskazuje kolejność w UWADZE do 7.5.1.5, więc ułożenie nie jest dowolne."
         }
       },
-      "notes_on_conditions": "Scenariusz zakłada, że jedyna droga do kabiny prowadzi przez rozlew i strefę oparów; kierowca ma poinformować służby, gdzie są dokumenty i udostępnić je dopiero bez narażenia.",
+      "notes_on_conditions": "7.5.1.5 s. 1305. Nowy element – stare = 0696/0494 (5.4.3.4 wyczerpany). Dopasowanie do 03-K05 (5.4.3.4) – do oceny.",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

@@ -8,19 +8,19 @@
       "id": "ADR-B-0723",
       "sequence": 723,
       "exact_record_snapshot": {
-        "stem": "Przy załadunku kierowca widzi opakowania oznaczone jako łatwo zapalny materiał stały klasy 4.1. Pracownik twierdzi, że zagrożenie pożarem dotyczy tylko cieczy i można pracować tuż obok źródła iskier. Co powinien odpowiedzieć kierowca?",
+        "stem": "Przy załadunku worków z granulatem oznakowanych jako materiał zapalny stały klasy 4.1 pracownik szlifuje metal tuż obok pojazdu. Twierdzi, że iskry są groźne dla cieczy i gazów, a nie dla materiałów stałych. Jak ocenić to twierdzenie?",
         "options": {
-          "A": "To prawda, ponieważ iskry są niebezpieczne jedynie przy gazach i cieczach, ale nie przy materiałach stałych.",
-          "B": "To nieprawda, lecz wystarczy zamknąć drzwi pojazdu, by całkowicie wyeliminować zagrożenie pożarowe.",
-          "C": "To nieprawda: łatwo zapalne materiały stałe też mogą się zapalić, dlatego należy unikać źródeł zapłonu."
+          "A": "Jest prawdziwe, bo materiał stały nie zapala się od samych iskier",
+          "B": "Jest błędne, ale wystarczy zamknąć drzwi skrzyni, by odciąć iskry",
+          "C": "Jest błędne, bo granulat może się łatwo zapalić od źródła zapłonu"
         },
         "correct_option": "C",
-        "explanation": "Klasa 4.1 obejmuje między innymi materiały stałe, które łatwo zapalają się od krótkiego kontaktu ze źródłem zapłonu, a płomień może szybko się rozprzestrzenić. Dlatego iskry podczas załadunku są realnym zagrożeniem, nawet jeśli ładunek nie jest cieczą. Samo zamknięcie drzwi nie usuwa ryzyka. Podstawa: ADR 2025, 2.2.41.1.1 i 2.2.41.1.3.",
+        "explanation": "Do klasy 4.1 należą materiały zapalne stałe. ADR opisuje materiały łatwo zapalne stałe jako sproszkowane, granulowane lub w postaci pasty, które łatwo się zapalają po krótkim kontakcie ze źródłem zapłonu. Iskry ze szlifierki są takim źródłem zapłonu, więc szlifowanie przy załadunku trzeba przerwać. Zamknięcie drzwi nie usuwa zagrożenia, bo worki ładuje się przy otwartej skrzyni. Podstawa: ADR 2.2.41.1.1 i 2.2.41.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.41.1.1 i 2.2.41.1.3",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 2.2.41.1.1; 2.2.41.1.3 (materiały łatwo zapalne stałe – zapalenie po krótkotrwałym kontakcie ze źródłem zapłonu)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",

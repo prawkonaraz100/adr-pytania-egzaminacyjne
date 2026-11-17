@@ -375,7 +375,7 @@ Czerwona nalepka z płomieniem i numerem 2.1 oznacza gaz palny. W razie uwolnien
 
 ### Temperatura zapłonu cieczy klasy 3
 
-Temperatura zapłonu to najniższa temperatura cieczy, przy której jej para może utworzyć z powietrzem mieszaninę palną. Nie jest to temperatura wrzenia ani temperatura samozapłonu. W praktyce kierowca powinien rozumieć, że pary cieczy mogą stworzyć zagrożenie po osiągnięciu tej temperatury, a do zapłonu potrzebne jest źródło zapłonu. Dla klasy 3 ADR określa kryteria obejmujące m.in. temperaturę zapłonu nie wyższą niż 60°C, z wyjątkami opisanymi w przepisie. Powiązane pytanie: ADR-B-0658, ADR-B-0722. Podstawa: ADR 1.2.1; 2.2.3.1.1.
+Temperatura zapłonu to najniższa temperatura cieczy, przy której jej para może utworzyć z powietrzem mieszaninę palną. Nie jest to temperatura wrzenia ani temperatura samozapłonu. W praktyce kierowca powinien rozumieć, że pary cieczy mogą stworzyć zagrożenie po osiągnięciu tej temperatury, a do zapłonu potrzebne jest źródło zapłonu. Dla klasy 3 ADR określa kryteria obejmujące m.in. temperaturę zapłonu nie wyższą niż 60°C, z wyjątkami opisanymi w przepisie. Powiązane pytanie: ADR-B-0658. Podstawa: ADR 1.2.1; 2.2.3.1.1.
 
 ### Materiały polimeryzujące klasy 4.1 — kiedy kontrolować temperaturę
 Materiał polimeryzujący może reagować z wydzieleniem dużej ilości ciepła. Dla przewozu w sztuce przesyłki lub DPPL kontrola temperatury jest wymagana, gdy TSP w tym opakowaniu lub DPPL wynosi 50°C lub mniej. Dla cystern obowiązuje odrębny próg 45°C. Nie pomyl tych wartości z progiem 75°C, który jest jednym z kryteriów klasyfikacji materiału polimeryzującego do klasy 4.1.
@@ -392,7 +392,7 @@ W klasie 4.2 ADR rozróżnia materiały piroforyczne i samonagrzewające się. P
 
 ### Klasa 5.1 w pobliżu pożaru — zagrożenie utleniające
 
-Materiał klasy 5.1 nie musi sam być palny, ale może spowodować lub nasilić spalanie innego materiału. Dlatego nie wolno uznać przesyłki za obojętną tylko dlatego, że jej opakowanie nie płonie. Jeśli w pobliżu ładunku wybucha pożar, załoga powinna uwzględnić klasę 5.1, przekazać ratownikom informację o towarze, odszukać [instrukcje pisemne](../SLOWNICZEK.md#instrukcje-pisemne) ADR (dokument z czynnościami załogi na wypadek awarii lub wypadku) i postępować zgodnie z nimi. Nie należy samodzielnie przenosić przesyłki ani dobierać środka gaśniczego bez oceny zagrożenia. Pytanie kontrolne: ADR-B-0725. Podstawa: ADR 2.2.51.1.1 i 5.4.3.4.
+Materiał klasy 5.1 nie musi sam być palny, ale może spowodować lub nasilić spalanie innego materiału. Dlatego nie wolno uznać przesyłki za obojętną tylko dlatego, że jej opakowanie nie płonie. Jeśli w pobliżu ładunku wybucha pożar, załoga powinna uwzględnić klasę 5.1, przekazać ratownikom informację o towarze, odszukać [instrukcje pisemne](../SLOWNICZEK.md#instrukcje-pisemne) ADR (dokument z czynnościami załogi na wypadek awarii lub wypadku) i postępować zgodnie z nimi. Nie należy samodzielnie przenosić przesyłki ani dobierać środka gaśniczego bez oceny zagrożenia. Pytanie kontrolne: ADR-B-0156. Podstawa: ADR 2.2.51.1.1 i 5.4.3.4.
 
 ### Klasa 5.1 — czysta skrzynia przed załadunkiem (CV24)
 
@@ -443,44 +443,74 @@ Grupa II obejmuje materiał, który reaguje z wodą i wydziela co najmniej 20 li
 Materiały klasy 4.3 reagują z wodą i wydzielają gazy palne, dlatego tabela A często wskazuje dla nich przepisy CV23 i V1. Według CV23 przy manipulowaniu sztukami przesyłek trzeba podjąć szczególne środki ostrożności, aby nie miały one kontaktu z wodą, więc bębnów nie odstawia się na deszczu ani na mokrej rampie. Według V1 sztuki przesyłek ładuje się do pojazdów zamkniętych albo przykrytych opończą lub do takich kontenerów, a nie na odkrytą skrzynię. Przykłady z tabeli A to UN 1401 WAPŃ i UN 1402 WĘGLIK WAPNIA. Pytania kontrolne: ADR-B-0674 i ADR-B-0675 (needs_review). Podstawa: ADR 2.2.43.1.1, 7.2.4 (V1) i 7.5.11 (CV23).
 
 
-### Dodatkowe pytanie ADR-B-0722
+### Grupa pakowania cieczy zapalnej — ADR-B-0722
 
-Temperatura zapłonu pomaga rozpoznać zagrożenie związane z parami palnej cieczy. Przed przeładunkiem kierowca powinien ograniczać źródła zapłonu także wtedy, gdy temperatura otoczenia jest niska. Zobacz pytanie ADR-B-0722 (ADR 2025, 2.2.3.1.1).
+Grupę pakowania cieczy klasy 3 bez zagrożeń dodatkowych odczytuje się z tabeli w 2.2.3.1.3. Liczą się dwie wartości: temperatura zapłonu i temperatura początku wrzenia. Ciecz, która zaczyna wrzeć w 35 °C lub niżej, należy do I grupy. Ciecz z zapłonem poniżej 23 °C i początkiem wrzenia powyżej 35 °C należy do II grupy, a ciecz z zapłonem od 23 °C do 60 °C – do III grupy. Dla cieczy lepkich obowiązują dodatkowe zasady z 2.2.3.1.4. Powiązane pytanie: ADR-B-0722. Podstawa: ADR 2.2.3.1.3.
 
 
 ### Materiały stałe zapalne — ADR-B-0723
 
-Materiały stałe klasy 4.1 również mogą zapalać się od iskier i płomienia. Kierowca nie może uznać, że tylko ciecze i gazy stwarzają ryzyko pożaru. Zobacz pytanie ADR-B-0723. Podstawa: ADR 2025, 2.2.41.1.1 i 2.2.41.1.3.
+Materiały stałe klasy 4.1 również mogą zapalać się od iskier i płomienia. Materiały łatwo zapalne stałe, na przykład granulaty i proszki, mogą się zapalić już po krótkim kontakcie ze źródłem zapłonu, takim jak iskry ze szlifierki. Kierowca nie może uznać, że ryzyko pożaru stwarzają jedynie ciecze i gazy. Zobacz pytanie ADR-B-0723. Podstawa: ADR 2025, 2.2.41.1.1 i 2.2.41.1.3.
 
 
-### Samonagrzewanie — ADR-B-0724
+### Samonagrzewanie — ADR-B-0154
 
-Materiał samonagrzewający się klasy 4.2 może w reakcji z powietrzem stopniowo wytwarzać ciepło. Jeśli jest go dużo, po godzinach lub dniach może dojść do samozapłonu bez zewnętrznego płomienia. Zobacz pytanie ADR-B-0724. Podstawa: ADR 2025, 2.2.42.1.1 i 2.2.42.1.3.
-
-
-### Utleniacze i spalanie — ADR-B-0725
-
-Materiał utleniający klasy 5.1 nie musi sam być palny, ale może przyspieszać albo podtrzymywać pożar innych materiałów, takich jak kartony. Kierowca powinien znać tę różnicę. Pytanie ADR-B-0725; podstawa ADR 2025, 2.2.51.1.1.
+Materiał samonagrzewający się klasy 4.2 może w reakcji z powietrzem stopniowo wytwarzać ciepło. Jeśli jest go dużo, po godzinach lub dniach może dojść do samozapłonu bez zewnętrznego płomienia. Zobacz pytanie ADR-B-0154. Podstawa: ADR 2025, 2.2.42.1.1 i 2.2.42.1.3.
 
 
-### Kontrola temperatury nadtlenków organicznych — ADR-B-0726
+### Kiedy samonagrzewanie kończy się samozapaleniem — ADR-B-0724
 
-Dla niektórych nadtlenków organicznych klasy 5.2 kontrola temperatury w przewozie jest obowiązkowa. Awaria chłodzenia wymaga reakcji i zastosowania właściwej procedury. Zobacz ADR-B-0726. Podstawa: ADR 2025, 2.2.52.1.15 i 7.1.7.
-
-
-### Materiały trujące klasy 6.1 — ADR-B-0727
-
-Nie należy oceniać bezpieczeństwa substancji trującej po zapachu. Narażenie może wystąpić przez wdychanie, połknięcie albo kontakt ze skórą. Zobacz ADR-B-0727. Podstawa: ADR 2025, 2.2.61.1.1.
+ADR wyjaśnia, że samonagrzewanie polega na stopniowej reakcji materiału z tlenem z powietrza, w której powstaje ciepło. Jeżeli ciepło powstaje szybciej, niż może zostać oddane do otoczenia, temperatura materiału rośnie i może dojść do samozapalenia. Dzieje się to bez iskry czy płomienia. Groźna reakcja z wodą to cecha klasy 4.3, a nie samonagrzewania. Powiązane pytanie: ADR-B-0724. Podstawa: ADR 2.2.42.1.3.
 
 
-### Materiały zakaźne — ADR-B-0728
+### Utleniacze i spalanie — ADR-B-0156
+
+Materiał utleniający klasy 5.1 nie musi sam być palny, ale może przyspieszać albo podtrzymywać pożar innych materiałów, takich jak kartony. Kierowca powinien znać tę różnicę. Pytanie ADR-B-0156; podstawa ADR 2025, 2.2.51.1.1.
+
+
+### Materiał klasy 5.1 niedopuszczony do przewozu — ADR-B-0725
+
+Klasa 5.1 ma własną listę materiałów, których w ogóle nie wolno przewozić. Należy do nich niestabilizowany nadtlenek wodoru i jego niestabilizowany roztwór wodny zawierający więcej niż 60% nadtlenku wodoru. Szczelne opakowanie, nalepki, dokument przewozowy ani przewóz jako ilości ograniczone nie zmieniają tego zakazu. Powiązane pytanie: ADR-B-0725. Podstawa: ADR 2.2.51.2.2.
+
+
+### Kontrola temperatury nadtlenków organicznych — ADR-B-0667
+
+Dla niektórych nadtlenków organicznych klasy 5.2 kontrola temperatury w przewozie jest obowiązkowa. Awaria chłodzenia wymaga reakcji i zastosowania właściwej procedury. Zobacz ADR-B-0667. Podstawa: ADR 2025, 2.2.52.1.15 i 7.1.7.
+
+
+### Pomiar i zapis temperatury w czasie przewozu — ADR-B-0726
+
+Przy przewozie w temperaturze kontrolowanej temperaturę powietrza w jednostce mierzą dwa niezależne czujniki. Wyniki rejestruje się tak, aby zmiana temperatury była łatwo zauważalna. Temperaturę sprawdza się co cztery do sześciu godzin i zapisuje, a alarm nie zastępuje tych pomiarów. Powiązane pytanie: ADR-B-0726. Podstawa: ADR 2.2.52.1.15 i 7.1.7.4.2.
+
+
+### Materiały trujące klasy 6.1 — ADR-B-0623
+
+Narażenie na materiał trujący może wystąpić przez wdychanie, połknięcie albo kontakt ze skórą. Dlatego uwolnionego materiału nie dotyka się i nie wdycha jego oparów. Zobacz ADR-B-0623. Podstawa: ADR 2025, 2.2.61.1.1 i 5.4.3.4.
+
+
+### Kod klasyfikacyjny TF1 — ADR-B-0727
+
+Kod klasyfikacyjny z kolumny (3b) tabeli A mówi, jakie zagrożenia ma materiał klasy 6.1. Litera T oznacza materiał trujący, a dodana litera F – że jest on także zapalny. Kod TF1 obejmuje materiały trujące zapalne ciekłe, więc trzeba uwzględnić zarówno zatrucie, jak i pożar. Kody TC oznaczają materiały trujące żrące. Powiązane pytanie: ADR-B-0727. Podstawa: ADR 2.2.61.1.2.
+
+
+### Materiały zakaźne — zakaz otwierania sztuk przesyłek
 
 Opakowania z materiałem zakaźnym muszą pozostać zamknięte. Kierowca ani pomocnik kierowcy nie mogą otwierać sztuk przesyłki; mogą ocenić ich stan z zewnątrz i zgłosić zauważone problemy. Podstawa: ADR 2025, 2.2.62.1.1 i 8.3.3.
 
 
-### Rozpoznawanie materiałów promieniotwórczych — ADR-B-0729
+### Krew do transfuzji poza przepisami ADR — ADR-B-0728
+
+Nie każda przesyłka z materiałem biologicznym podlega ADR. Krew lub jej składniki pozyskane w celu transfuzji albo przygotowania produktów krwiopochodnych do transfuzji lub transplantacji nie podlegają przepisom ADR. Podobnie wyłączone są tkanki i narządy przeznaczone do transplantacji. Powiązane pytanie: ADR-B-0728. Podstawa: ADR 2.2.62.1.5.7.
+
+
+### Rozpoznawanie materiałów promieniotwórczych — ADR-B-0098
 
 Etykieta z symbolem promieniotwórczości i numerem 7 oznacza materiał klasy 7. To ostrzeżenie przed promieniowaniem jonizującym, a nie przed zakażeniem lub pożarem. Podstawa: ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11.
+
+
+### Rozmieszczenie nalepek 7A, 7B i 7C — ADR-B-0729
+
+Sztuka przesyłki z materiałem promieniotwórczym ma nalepkę wzoru 7A, 7B lub 7C, zależnie od kategorii. Nalepki umieszcza się na dwóch przeciwległych zewnętrznych powierzchniach sztuki przesyłki. Jedna nalepka na wieku kartonu nie spełnia tego wymagania. Powiązane pytanie: ADR-B-0729. Podstawa: ADR 5.2.2.1.11.1.
 
 
 ### Żrące pary i mgły przy wilgoci powietrza — ADR-B-0730

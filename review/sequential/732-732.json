@@ -8,19 +8,19 @@
       "id": "ADR-B-0732",
       "sequence": 732,
       "exact_record_snapshot": {
-        "stem": "Zakład wysyła odpad, którego klasyfikację przeprowadzono zgodnie z ADR 2.1.3.5.5. W dokumencie wpisano już numer UN, prawidłową nazwę przewozową, klasę, grupę pakowania i kod tunelowy. Jakiego dodatkowego zapisu wymaga ADR?",
+        "stem": "Zakład wysyła odpad, który sklasyfikowano według 2.1.3.5.5. W dokumencie przewozowym podano już numer UN, nazwę przewozową z wyrazem „ODPAD”, klasę i grupę pakowania. Jaki zapis trzeba jeszcze dodać do opisu towaru?",
         "options": {
-          "A": "Wystarczy poprzedzić nazwę przewozową słowem „ODPAD”; nie trzeba wskazywać zastosowanej metody klasyfikacji odpadu.",
-          "B": "Dodać do opisu towaru zapis „ODPAD ZGODNY Z 2.1.3.5.5”, ponieważ zastosowano szczególną metodę klasyfikacji odpadu.",
-          "C": "Dodać wyłącznie kod odpadu z katalogu odpadów, a wymagany opis ADR pozostawić bez zmian."
+          "A": "Nic więcej, bo wyraz „ODPAD” przed nazwą przewozową wystarcza",
+          "B": "Zapis „ODPAD ZGODNY Z 2.1.3.5.5” uzupełniający opis towaru",
+          "C": "Kod z katalogu odpadów zamiast zapisu wymaganego przez ADR"
         },
         "correct_option": "B",
-        "explanation": "Jeżeli klasyfikację odpadu przeprowadzono na podstawie 2.1.3.5.5, samo zwykłe poprzedzenie nazwy słowem „ODPAD” nie wystarcza. W opisie wymaganym przez ADR trzeba dodać dokładny zapis „ODPAD ZGODNY Z 2.1.3.5.5”. Odpowiedź A pomija ten szczególny dopisek, a C myli kod z katalogu odpadów z wymaganym opisem ADR. Podstawa: ADR 2025, 5.4.1.1.3.1 i 2.1.3.5.5.",
+        "explanation": "Wyraz „ODPAD” przed prawidłową nazwą przewozową wskazuje, że przewożony towar jest odpadem. Gdy odpad sklasyfikowano według szczególnych przepisów z 2.1.3.5.5, opis towaru w dokumencie przewozowym trzeba dodatkowo uzupełnić zapisem „ODPAD ZGODNY Z 2.1.3.5.5”. Kod z katalogu odpadów nie zastępuje tego zapisu. W takim przypadku nie trzeba natomiast dodawać nazwy technicznej wymaganej przepisem szczególnym 274. Podstawa: ADR 5.4.1.1.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.3.1; 2.1.3.5.5",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 5.4.1.1.3.1 (zapis „ODPAD ZGODNY Z 2.1.3.5.5”); 2.1.3.5.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",

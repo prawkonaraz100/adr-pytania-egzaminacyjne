@@ -8,19 +8,19 @@
       "id": "ADR-B-0727",
       "sequence": 727,
       "exact_record_snapshot": {
-        "stem": "Przy odbiorze ładunku klasy 6.1 kierowca słyszy, że brak wyczuwalnego zapachu oznacza brak zagrożenia zatruciem. Jak powinien zareagować?",
+        "stem": "W kolumnie (3b) tabeli A materiał klasy 6.1 ma kod klasyfikacyjny TF1. Kolega uważa, że skoro to materiał trujący, nie trzeba się obawiać pożaru. Co oznacza ten kod?",
         "options": {
-          "A": "Uznać zapach za wystarczający test: jeśli nic nie czuć, nie ma ryzyka kontaktu z materiałem.",
-          "B": "Nie polegać na zapachu: substancja trująca może szkodzić także bez wyczuwalnej woni i wymaga ostrożności.",
-          "C": "Sprawdzić bezpieczeństwo, otwierając opakowanie i sprawdzając, czy jego zawartość ma intensywny zapach."
+          "A": "Materiał trujący ciekły stosowany jako pestycyd, bez innych zagrożeń",
+          "B": "Materiał trujący ciekły, który jest także materiałem zapalnym",
+          "C": "Materiał trujący ciekły, który działa także żrąco na skórę"
         },
         "correct_option": "B",
-        "explanation": "Materiały trujące klasy 6.1 mogą spowodować poważne szkody po połknięciu, wdychaniu albo kontakcie ze skórą, niezależnie od tego, czy kierowca wyczuwa zapach. Dlatego brak woni nie potwierdza bezpieczeństwa. Otwieranie opakowania i wąchanie zawartości zwiększa narażenie, zamiast je oceniać. Podstawa: ADR 2025, 2.2.61.1.1.",
+        "explanation": "Kody klasyfikacyjne klasy 6.1 opisują rodzaj materiału i jego zagrożenia dodatkowe. Litera T oznacza materiał trujący, a dodana litera F wskazuje, że jest on także zapalny. Kod TF1 obejmuje materiały trujące zapalne ciekłe, więc trzeba uwzględnić zarówno zatrucie, jak i pożar. Materiały trujące żrące mają kody zaczynające się od TC, a pestycydy ciekłe bez zagrożenia dodatkowego kod T6. Podstawa: ADR 2.2.61.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.61.1.1",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 2.2.61.1.2 (kody klasyfikacyjne klasy 6.1: TF1 – materiały trujące zapalne ciekłe; TC – trujące żrące; T6 – pestycydy ciekłe); 3.2.1 (kolumna (3b))",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
