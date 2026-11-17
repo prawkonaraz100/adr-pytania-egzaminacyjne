@@ -164,7 +164,7 @@ Przedstaw sytuację, w której straż pożarna w czasie akcji ratowniczej poleca
 Podaj kursantowi dwa zadania: sprawdzenie wymagań dotyczących opakowania i oznakowania przesyłki oraz sprawdzenie wymagań dotyczących wyposażenia pojazdu i załogi. Poproś, aby wskazał odpowiednio załącznik A lub B i uzasadnił wybór. Kryterium: kursant nie myli wymagań dotyczących towaru z wymaganiami dotyczącymi pojazdu i operacji transportowych. Powiązane pytanie: ADR-B-0659 (needs_review). Podstawa: ADR 1.1.1, 1.1.2.1 i 1.1.2.3.
 
 
-## Ćwiczenie — co tworzy jednostkę transportową? (ADR-B-0709)
+## Ćwiczenie — co tworzy jednostkę transportową? (ADR-B-0147)
 
 **Sytuacja:** Kierowca przyjeżdża na kontrolę samochodem ciężarowym z dołączoną przyczepą. Inspektor pyta, co w tej sytuacji oznacza pojęcie „jednostka transportowa” w ADR.
 
@@ -172,4 +172,24 @@ Podaj kursantowi dwa zadania: sprawdzenie wymagań dotyczących opakowania i ozn
 
 **Typowe błędy:** liczenie ciężarówki i przyczepy jako dwóch jednostek; uznawanie, że jednostką jest wyłącznie przyczepa; mylenie jednostki transportowej z jednostką transportową cargo.
 
-**Podstawa:** ADR 2025, 1.2.1.
+**Podstawa:** ADR 1.2.1.
+
+## Ćwiczenie — sztuka przesyłki czy opakowanie? (ADR-B-0709)
+
+**Sytuacja:** Na rampie stoją dwa kartony z oznakowaniem UN: pusty, czekający na zapakowanie, oraz zamknięty karton z puszkami farby gotowy do wysyłki.
+
+**Oczekiwana odpowiedź:** Kursant wskazuje, że sztuką przesyłki jest dopiero opakowanie z zawartością przygotowane do wysyłki. Odróżnia też sztukę przesyłki od przesyłki przeznaczonej przez nadawcę do przewozu.
+
+**Typowe błędy:** uznanie samego oznakowania UN za wyznacznik sztuki przesyłki; mylenie sztuki przesyłki z przesyłką.
+
+**Podstawa:** ADR 1.2.1.
+
+## Ćwiczenie — kurs specjalistyczny dla klasy 1 (ADR-B-0719)
+
+**Sytuacja:** Kierowca z zaświadczeniem ADR z kursu podstawowego ma przewieźć na pełnych zasadach ADR materiały wybuchowe podklasy 1.1.
+
+**Oczekiwana odpowiedź:** Kursant wskazuje, że według 8.2.1.4 potrzebny jest kurs specjalistyczny w zakresie klasy 1, z wyjątkiem podklasy 1.4 grupy zgodności S.
+
+**Typowe błędy:** uznanie kursu podstawowego za wystarczający przy klasie 1; traktowanie instrukcji pisemnych jako zamiennika szkolenia.
+
+**Podstawa:** ADR 8.2.1.2 i 8.2.1.4.

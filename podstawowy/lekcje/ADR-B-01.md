@@ -277,14 +277,22 @@ Załącznik A zawiera wymagania dotyczące towarów niebezpiecznych i warunków 
 Jeżeli nadawca przekazuje tylko nazwę handlową nowego materiału, nie zgaduj numeru UN ani nie wybieraj podobnego wpisu z tabeli A. Klasyfikację i wymagane informacje przekazuje nadawca; przewoźnik sprawdza, czy towar jest dopuszczony do przewozu i czy otrzymał wymagane dane oraz dokumenty. Stwierdzone braki trzeba wyjaśnić przed rozpoczęciem przewozu. Powiązane pytanie: ADR-B-0679. Podstawa: ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3 i 5.4.1.1.1.
 
 
-### Jednostka transportowa w zestawie z przyczepą (ADR-B-0709)
+### Jednostka transportowa w zestawie z przyczepą (ADR-B-0147)
 
 W ADR jednostką transportową jest pojazd samochodowy bez przyczepy albo zespół złożony z pojazdu samochodowego i dołączonej do niego przyczepy. Gdy ciężarówka jedzie z przyczepą, oba elementy tworzą jedną jednostkę transportową. Nie licz ich jako dwóch osobnych jednostek. Podstawa: ADR 1.2.1.
+
+### Sztuka przesyłki a puste opakowanie (ADR-B-0709)
+
+Według 1.2.1 sztuka przesyłki to końcowy produkt operacji pakowania, czyli opakowanie razem z zawartością, przygotowane do wysyłki. Pusty karton z oznakowaniem UN jest dopiero opakowaniem. Sztuką przesyłki staje się po napełnieniu, zamknięciu i przygotowaniu do wysyłki. Przesyłka to natomiast sztuki przesyłek albo ładunek, które nadawca przeznaczył do przewozu. Powiązane pytanie: ADR-B-0709. Podstawa: ADR 1.2.1.
 
 
 ### Firmowe potwierdzenie a zaświadczenie ADR kierowcy
 
-Jeżeli przewóz wymaga zaświadczenia ADR, kierowca nie może zastąpić go kartką od pracodawcy potwierdzającą udział w szkoleniu. Wymagany dokument wydaje właściwa władza po spełnieniu warunków szkolenia i egzaminu. Lista obecności i zgoda firmy nie potwierdzają zdania egzaminu. Powiązane pytanie: ADR-B-0719. Podstawa: ADR 2025, 8.2.1.1.
+Jeżeli przewóz wymaga zaświadczenia ADR, kierowca nie może zastąpić go kartką od pracodawcy potwierdzającą udział w szkoleniu. Wymagany dokument wydaje właściwa władza po spełnieniu warunków szkolenia i egzaminu. Lista obecności i zgoda firmy nie potwierdzają zdania egzaminu. Powiązane pytanie: ADR-B-0513. Podstawa: ADR 8.2.1.1.
+
+### Kurs specjalistyczny dla klasy 1 (ADR-B-0719)
+
+Kurs podstawowy jest bazą szkolenia, ale nie wystarcza do przewozu niektórych towarów. Kierowca pojazdu przewożącego towary klasy 1, inne niż podklasa 1.4 grupy zgodności S, ma według 8.2.1.4 ukończyć kurs specjalistyczny obejmujący tematy z 8.2.2.3.4. Dokumenty wożone w kabinie nie zastępują tego szkolenia. Powiązane pytanie: ADR-B-0719. Podstawa: ADR 8.2.1.2 i 8.2.1.4.
 
 
 ### Zaopatrzenie własnej firmy a wyłączenie dla przewozu pomocniczego

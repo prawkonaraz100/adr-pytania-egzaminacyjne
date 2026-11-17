@@ -435,16 +435,28 @@ Jeżeli pojazd ma gaśnicę stałą, która uruchamia się automatycznie lub w i
 Powiązane pytanie: **ADR-B-0704**. Podstawa: ADR 8.1.4.3, 8.1.4.1 i 8.1.4.5.
 
 
-### Bezpieczne usunięcie skażonej odzieży i środków ochronnych (ADR-B-0707)
+### Bezpieczne usunięcie skażonej odzieży i środków ochronnych (ADR-B-0167)
 
-Po zdarzeniu, jeśli można to zrobić bezpiecznie, członek załogi zdejmuje skażoną odzież i użyte skażone wyposażenie ochronne. Rzeczy te trzeba następnie usunąć w sposób bezpieczny — nie wolno ich wrzucać do zwykłego kosza ani zostawiać przy drodze. Kierowca nie powinien narażać innych osób ani przenosić skażenia do kabiny; ma stosować się do instrukcji i poleceń służb. Podstawa: ADR 2025, 5.4.3.4.
+Po zdarzeniu, jeśli można to zrobić bezpiecznie, członek załogi zdejmuje skażoną odzież i użyte skażone wyposażenie ochronne. Rzeczy te trzeba następnie usunąć w sposób bezpieczny — nie wolno ich wrzucać do zwykłego kosza ani zostawiać przy drodze. Kierowca nie powinien narażać innych osób ani przenosić skażenia do kabiny; ma stosować się do instrukcji i poleceń służb. Podstawa: ADR 5.4.3.4.
+
+### Skażona kamizelka ostrzegawcza (ADR-B-0707)
+
+Zasada zdejmowania zanieczyszczonego ubrania i wyposażenia ochronnego dotyczy także kamizelki ostrzegawczej. Skażoną kamizelkę zdejmij i usuń w bezpieczny sposób, nawet jeśli jest obowiązkowym wyposażeniem. Nie płucz jej w rowie, bo przeniesiesz skażenie do wody. Wykaz 8.1.5.2 wymaga kamizelki dla każdego członka załogi, więc przed dalszą jazdą trzeba ją uzupełnić.
+
+**Pytanie kontrolne:** ADR-B-0707 — co zrobić ze skażoną kamizelką, gdy nie ma zapasowej? Podstawa: ADR 5.4.3.4 i 8.1.5.2.
 
 
-### Pierwsza pomoc po zabezpieczeniu miejsca zdarzenia (ADR-B-0712)
+### Pierwsza pomoc po zabezpieczeniu miejsca zdarzenia (ADR-B-0187)
 
 Najpierw upewnij się, że miejsce zdarzenia jest bezpieczne: nie ma wycieku, oparów ani innego zagrożenia, które mogłoby narazić ciebie lub poszkodowanego. Dopiero wtedy udzielaj pomocy w granicach swojego przeszkolenia. Przy krwawiącej ranie załóż rękawiczki, osłoń ją jałowym opatrunkiem i zastosuj ucisk; przy silnym lub nieustającym krwawieniu wezwij pomoc pod numerem 112 i wykonuj polecenia dyspozytora. Nie dotykaj rany gołą dłonią i nie podawaj poszkodowanemu jedzenia ani napoju. ADR wymaga, aby kurs podstawowy obejmował postępowanie po wypadku, w tym pierwszą pomoc (8.2.2.3.2(e)); szczegółowe czynności ćwiczy się w ramach właściwego szkolenia z pierwszej pomocy.
 
-**Pytanie kontrolne:** ADR-B-0712 — co kierowca może zrobić, gdy miejsce jest bezpieczne, a poszkodowany ma krwawiącą ranę?
+**Pytanie kontrolne:** ADR-B-0187 — jaki jest pierwszy krok, zanim zaczniesz pomagać poszkodowanemu przy uszkodzonej przesyłce?
+
+### Rękawice ochronne przed pomocą skażonemu koledze (ADR-B-0712)
+
+Gdy ciecz z ładunku oblała ubranie kolegi, najpierw chroń siebie. Materiały z nalepką 6.1 grożą zatruciem także przez kontakt ze skórą, a instrukcje pisemne każą nie dotykać uwolnionych materiałów. Załóż rękawice ochronne z wyposażenia i dopiero wtedy pomóż zdjąć skażoną odzież. Odłóż ją tak, by nikt jej nie dotykał.
+
+**Pytanie kontrolne:** ADR-B-0712 — co zrobić najpierw, zanim pomożesz zdjąć skażoną kurtkę? Podstawa: ADR 5.4.3.4, 8.1.5.2 i 8.2.2.3.2 (e).
 
 
 ### Praktyczne RKO przy braku prawidłowego oddechu (ADR-B-0715)
@@ -461,11 +473,17 @@ Przed wyjazdem nie wystarczy sprawdzić, czy instrukcje leżą w kabinie. Każdy
 **Pytanie kontrolne:** ADR-B-0716 — co zrobić, gdy kierowca może przeczytać instrukcje, ale nie rozumie opisanych w nich poleceń?
 
 
-### Ochrona gaśnicy przed pogodą i szybki dostęp — ADR-B-0717
+### Ochrona gaśnicy przed pogodą i szybki dostęp — ADR-B-0749
 
 Przy sprawdzaniu pojazdu przed wyjazdem kierowca ocenia nie tylko liczbę i termin przeglądu gaśnic, lecz również ich dostępność i zabezpieczenie przed wpływem pogody. Gaśnica zamocowana na zewnątrz może być łatwo dostępna, ale zniszczona osłona narażająca ją na działanie deszczu i uszkodzenie nie spełnia warunku właściwego zabezpieczenia. Trzeba naprawić osłonę lub poprawić mocowanie bez zamykania gaśnicy w miejscu, z którego załoga nie może jej szybko wyjąć. Podstawa: ADR 8.1.4.5; zakres praktycznych ćwiczeń gaśniczych ADR 8.2.2.3.8.
 
 **Pytanie kontrolne:** ADR-B-0717 — co zrobić, gdy gaśnica jest łatwo dostępna, ale pozostaje narażona na deszcz?
+
+### Indywidualne ćwiczenie z gaśnicą — ADR-B-0717
+
+Kurs podstawowy obejmuje indywidualne ćwiczenia praktyczne: co najmniej udzielanie pierwszej pomocy, gaszenie pożaru oraz postępowanie w razie wypadku lub awarii. Każdy kursant sam ćwiczy użycie gaśnicy. Pokaz wykonany przez jedną osobę ani film nie zastępują takiego ćwiczenia.
+
+**Pytanie kontrolne:** ADR-B-0717 — czy wystarczy, że gaszenie na kursie pokaże jeden kursant? Podstawa: ADR 8.2.2.3.8.
 
 
 ### Wiele zagrożeń w jednym ładunku — ADR-B-0718

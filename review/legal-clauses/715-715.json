@@ -8,33 +8,23 @@
     {
       "id": "ADR-B-0715",
       "order": 715,
-      "clause": "ADR 2025, 8.2.2.3.2(e); 8.2.2.3.8",
+      "clause": "ADR 2025, 8.2.2.3.2 (e); 8.2.2.3.8; ERC 2025 BLS",
       "question_snapshot": {
         "id": "ADR-B-0715",
         "module_id": "ADR-B-05",
-        "stem": "Podczas ćwiczenia praktycznego z pierwszej pomocy po wypadku kierowca podchodzi do poszkodowanego, który nie reaguje na głos i nie oddycha prawidłowo. Miejsce jest bezpieczne. Która kolejność działań jest właściwa?",
+        "stem": "Podczas ćwiczenia z pierwszej pomocy po wypadku kierowca podchodzi do dorosłego poszkodowanego, który nie reaguje na głos i nie oddycha prawidłowo. Miejsce jest bezpieczne. Jak powinien postąpić według wytycznych ERC 2025?",
         "options": {
-          "A": "Ułożyć poszkodowanego na boku, obserwować oddech i czekać na przyjazd ratowników, nie rozpoczynając RKO.",
-          "B": "Zadzwonić pod 112 z włączonym głośnikiem, rozpocząć RKO według dyspozytora i użyć AED, gdy będzie dostępne.",
-          "C": "Podać poszkodowanemu wodę, potrząsać nim i próbować go ocucić, a wezwanie pomocy odłożyć na później, bez oceny oddechu."
+          "A": "Przez kilka minut szukać tętna na szyi, a dopiero potem wezwać pomoc",
+          "B": "Wezwać 112 na głośniku, zacząć RKO i użyć AED, gdy je przyniosą",
+          "C": "Polać mu twarz wodą i potrząsać nim, a pomoc wezwać po ocuceniu"
         },
         "correct_option": "B",
-        "explanation": "Jeśli miejsce jest bezpieczne, brak prawidłowego oddechu u nieprzytomnej osoby oznacza podejrzenie zatrzymania krążenia. Zadzwoń pod 112, włącz głośnik i rozpocznij RKO, wykonując polecenia dyspozytora; poproś kogoś o przyniesienie AED i użyj go zgodnie z komunikatami. Pozycja boczna jest właściwa dla osoby nieprzytomnej, która oddycha prawidłowo, a podawanie wody osobie nieprzytomnej jest niebezpieczne. Podstawa: ADR 8.2.2.3.2(e) i 8.2.2.3.8; ERC Guidelines 2025 Adult Basic Life Support.",
+        "explanation": "Jeśli miejsce jest bezpieczne, a poszkodowany nie reaguje i nie oddycha prawidłowo, trzeba podejrzewać zatrzymanie krążenia. Wytyczne ERC 2025 zalecają wezwać numer alarmowy 112, najlepiej z włączonym głośnikiem, i od razu zacząć uciskanie klatki piersiowej według poleceń dyspozytora. Gdy ktoś przyniesie AED, używa się go zgodnie z poleceniami urządzenia. Szukanie tętna i cucenie wodą opóźniają pomoc. Podstawa: ADR 8.2.2.3.2 (e) i 8.2.2.3.8 oraz wytyczne ERC 2025 (BLS).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.2.2.3.2(e) — podstawowy kurs obejmuje postępowanie po wypadku, w tym pierwszą pomoc; 8.2.2.3.8 — ćwiczenia praktyczne obejmują co najmniej pierwszą pomoc",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
-          },
-          {
-            "code": "ERC-2025-BLS",
-            "reference": "European Resuscitation Council Guidelines 2025, Adult Basic Life Support — call emergency services for an unresponsive person, assess breathing, start CPR if breathing is abnormal and use AED when available",
-            "url": "https://www.erc.edu/science-research/guidelines/guidelines-2025/guidelines-2025-english/"
-          },
-          {
-            "code": "ERC-2025-EXEC",
-            "reference": "European Resuscitation Council Guidelines 2025, Executive Summary — speakerphone call, dispatcher-assisted CPR, AED when available",
-            "url": "https://www.erc.edu/media/ad5dtph1/gl2025-01-exec-e.pdf"
+            "reference": "ADR 2025, 8.2.2.3.2 (e); 8.2.2.3.8; ERC Guidelines 2025 Adult Basic Life Support (112 z głośnikiem, RKO według dyspozytora, AED)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL+ERC-2025",
@@ -44,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Pozycja boczna dotyczy osoby nieprzytomnej oddychającej prawidłowo; przy oddechu nieprawidłowym trzeba podejrzewać zatrzymanie krążenia i rozpocząć RKO."
+          "rationale": "ERC 2025 nie zaleca długiego szukania tętna przez osoby świeckie; opóźnia to wezwanie pomocy i RKO."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wytyczne ERC 2025 zalecają wezwanie służb, rozpoczęcie RKO przy braku prawidłowego oddechu i użycie AED, gdy jest dostępne."
+          "rationale": "ERC 2025: przy braku reakcji i prawidłowego oddechu wezwać 112 (głośnik), zacząć RKO, użyć AED."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Nieprzytomnej osobie nie podaje się wody; potrząsanie i odkładanie wezwania pomocy opóźniają działania ratujące życie."
+          "rationale": "Polewanie wodą i potrząsanie nie jest postępowaniem z wytycznych i opóźnia wezwanie pomocy."
         }
       },
-      "notes_on_conditions": "ADR establishes the course subject and the required practical exercise coverage. The precise CPR/AED response is drawn from ERC Guidelines 2025 Adult Basic Life Support and is not claimed to be text expressly prescribed by ADR.",
+      "notes_on_conditions": "8.2.2.3.2 s. 1327; 8.2.2.3.8 s. 1328; podstawa medyczna ERC 2025 – do potwierdzenia specjalisty.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",

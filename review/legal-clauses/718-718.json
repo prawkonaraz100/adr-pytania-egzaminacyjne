@@ -8,28 +8,23 @@
     {
       "id": "ADR-B-0718",
       "order": 718,
-      "clause": "ADR 2025, 5.4.3.4 NOTE 1 and 8.2.2.3.8",
+      "clause": "ADR 2025, 5.4.3.4 (instrukcje pisemne – UWAGA 1, ładunki mieszane; nalepka 4.3)",
       "question_snapshot": {
         "id": "ADR-B-0718",
         "module_id": "ADR-B-05",
-        "stem": "Podczas ćwiczenia reakcji na awarię pojazdu ADR przewożącego kilka różnych towarów kierowca widzi w instrukcjach pisemnych odrębne wskazówki dla zagrożeń obu ładunków. Które podejście jest właściwe?",
+        "stem": "Po kolizji z pękniętego kanistra z nalepką 3 wycieka ciecz, a z rozdartego worka z nalepką 4.3 obok wysypał się proszek. Pomocnik chce spłukać całe miejsce wodą, bo dla nalepki 3 instrukcje pisemne nie zabraniają wody. Co wynika z instrukcji?",
         "options": {
-          "A": "Uwzględnić wszystkie właściwe wskazówki dla zagrożeń przewożonych towarów i działać tylko wtedy, gdy jest bezpiecznie.",
-          "B": "Wybrać wskazówki tylko dla pierwszego towaru w dokumencie, ponieważ pozostałe zagrożenia są mniej istotne.",
-          "C": "Wykonać jedynie wskazówki dla towaru o największej masie, niezależnie od pozostałych oznaczeń zagrożenia."
+          "A": "Nie spłukiwać, bo stosuje się też wskazówki dla 4.3: proszek ma być suchy",
+          "B": "Spłukać, bo przy ładunku mieszanym liczą się wskazówki dla pierwszego towaru",
+          "C": "Spłukać, bo wskazówki dla nalepki 4.3 dotyczą pożaru, a nie rozsypania"
         },
         "correct_option": "A",
-        "explanation": "Gdy ładunek stwarza kilka różnych zagrożeń, trzeba uwzględnić wszystkie dotyczące ich wskazówki z instrukcji pisemnych. Działania podejmuj tylko wtedy, gdy są bezpieczne; w razie zagrożenia oddal się i wezwij służby. Wybranie wyłącznie pierwszego albo najcięższego towaru może pominąć ważne niebezpieczeństwo. Podstawa: ADR 5.4.3.4, uwaga 1 do instrukcji pisemnych; ćwiczenia praktyczne 8.2.2.3.8.",
+        "explanation": "Uwaga 1 do instrukcji pisemnych mówi, że przy ładunkach mieszanych stosuje się każdą ze wskazówek określonych dla przewożonych towarów. Dla nalepki 4.3 instrukcje ostrzegają przed pożarem i wybuchem w kontakcie z wodą. Każą też utrzymywać uwolniony materiał w stanie suchym, pod przykryciem. Spłukanie rozlanej cieczy wodą zmoczyłoby więc także wysypany proszek. Podstawa: ADR 5.4.3.4 (Uwaga 1 i nalepka 4.3).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4 (uwaga 1: przy wielu zagrożeniach i ładunkach mieszanych uwzględnia się każdą właściwą pozycję instrukcji); 8.2.2.3.8 (ćwiczenia praktyczne)",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
-          },
-          {
-            "code": "UNECE-ADR-2025",
-            "reference": "ADR 2025, 5.4.3.4 written instructions NOTE 1: for dangerous goods with multiple risks and for mixed loads, each applicable entry shall be observed",
-            "url": "https://unece.org/info/Transport/pub/395786"
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne: UWAGA 1 – ładunki mieszane; nalepka 4.3 – uwolniony materiał utrzymywać w stanie suchym, pod przykryciem)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -39,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "All applicable instructions for a mixed load or multiple risks must be considered, only where safe and practicable."
+          "rationale": "UWAGA 1: przy ładunkach mieszanych stosuje się wskazówki dla każdego towaru; dla 4.3 materiał ma być suchy."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "ADR does not limit the written instructions to the first listed good in a mixed consignment."
+          "rationale": "Kolejność towarów nie wyłącza wskazówek dla innych nalepek – UWAGA 1 wymaga stosowania wszystkich."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "ADR does not select incident-response guidance by the heaviest goods in the load."
+          "rationale": "Wskazówka dla 4.3 o utrzymaniu w stanie suchym dotyczy uwolnionego materiału, nie tylko pożaru."
         }
       },
-      "notes_on_conditions": "The model written instructions require each applicable entry to be observed, subject to the general safe-and-practicable limitation on crew actions.",
+      "notes_on_conditions": "5.4.3.4 s. 976–977 (UWAGA 1). Odrębne od 0362 (towar jednorodny).",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",

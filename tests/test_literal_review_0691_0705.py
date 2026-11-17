@@ -11,7 +11,7 @@ BANK = ROOT / "podstawowy/questions.jsonl"
 REPORT = ROOT / "review/literal-pl/PARTIA-0691-0705.md"
 MANIFEST = ROOT / "review/literal-pl/PARTIA-0691-0705.json"
 FIRST_PASS_BANK_SHA = "092325a21fe95a47406e2d28e4947885c19dc0dc"
-EXPECTED_BANK_SHA = "e92048bdde4e05422e3265542636b6213f3e10b4"
+EXPECTED_BANK_SHA = "884f19a050315bef28c614aa0f4aae9533ed14a9"
 EXPECTED_IDS = [f"ADR-B-{n:04d}" for n in range(691, 706)]
 ABSOLUTE = re.compile(r"\b(tylko|zawsze|każdy|każda|każde|każdej|wszystkie|wyłącznie|żaden|żadnych|nigdy|całkowicie|automatycznie|niezależnie)\b", re.I)
 
