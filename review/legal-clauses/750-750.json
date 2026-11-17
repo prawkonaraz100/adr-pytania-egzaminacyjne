@@ -8,22 +8,22 @@
     {
       "id": "ADR-B-0750",
       "order": 750,
-      "clause": "ADR 2025, 5.2.1.1",
+      "clause": "ADR 2025, 5.2.1.1 (numer UN i litery „UN” co najmniej 12 mm; co najmniej 6 mm dla sztuk przesyłek do 30 l lub 30 kg netto i butli o pojemności wodnej do 60 l)",
       "question_snapshot": {
         "id": "ADR-B-0750",
         "module_id": "ADR-B-06",
-        "stem": "Kierowca odbiera kanister o pojemności 20 litrów, na którym ADR wymaga oznaczenia numerem UN. Jakiej minimalnej wysokości powinny być cyfry numeru UN wraz z literami „UN”?",
+        "stem": "Nadawca oznakowuje butlę z gazem o pojemności wodnej 50 litrów. Pracownik twierdzi, że skoro butla ma ponad 30 litrów, litery „UN” i numer UN muszą mieć co najmniej 12 mm wysokości. Jakie minimum dopuszcza 5.2.1.1?",
         "options": {
-          "A": "Co najmniej 12 mm, ponieważ ten wymiar obowiązuje bez wyjątku dla każdego opakowania.",
-          "B": "Co najmniej 4 mm, ponieważ przy opakowaniach do 30 litrów ADR nie określa minimalnej wysokości.",
-          "C": "Co najmniej 6 mm, ponieważ kanister o pojemności do 30 litrów korzysta z obniżonego wymiaru."
+          "A": "12 mm, bo pojemność wodna tej butli przekracza 30 litrów",
+          "B": "Właściwy rozmiar, bo dla butli ADR nie podaje wysokości minimalnej",
+          "C": "6 mm, bo dla butli do 60 litrów pojemności wodnej wystarcza 6 mm"
         },
         "correct_option": "C",
-        "explanation": "Dla kanistra o pojemności 20 litrów obowiązuje mniejszy wymiar oznaczenia: cyfry numeru UN i poprzedzające je litery powinny mieć co najmniej 6 mm wysokości. Zwykłe 12 mm dotyczy większych opakowań, więc nie jest jedyną dopuszczalną wartością. ADR nie pozwala też dowolnie zmniejszyć znaku do 4 mm. Podstawa: ADR 2025, 5.2.1.1.",
+        "explanation": "Zasadniczo litery „UN” i numer UN na sztuce przesyłki mają mieć co najmniej 12 mm wysokości. Przepis 5.2.1.1 obniża to minimum do 6 mm dla sztuk przesyłek do 30 litrów lub 30 kg netto oraz dla butli o pojemności wodnej do 60 litrów. Butla 50-litrowa mieści się w tej drugiej granicy, więc wystarcza 6 mm. Określenie „właściwego rozmiaru” dotyczy dopiero sztuk przesyłek do 5 litrów lub 5 kg netto. Podstawa: ADR 5.2.1.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.1.1 — minimalna wysokość numeru UN; wyjątek dla opakowań o pojemności do 30 l lub masie netto do 30 kg",
+            "reference": "ADR 2025, 5.2.1.1 (numer UN i litery „UN” co najmniej 12 mm; co najmniej 6 mm dla sztuk przesyłek do 30 l lub 30 kg netto i butli o pojemności wodnej do 60 l)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "12 mm to wymiar ogólny; ADR przewiduje mniejszy wymiar dla opakowań o pojemności do 30 l lub masie netto do 30 kg."
+          "rationale": "ADR 2025 ADR 2025, 5.2.1.1 (numer UN i litery „UN” co najmniej 12 mm; co najmniej 6 mm dla sztuk przesyłek do 30 l lub 30 kg netto i butli o pojemności wodnej do 60 l): odpowiedź pomija lub błędnie interpretuje warunek przepisu."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Wyjątek nie usuwa wymogu minimalnej wysokości; dla wskazanego kanistra minimum wynosi 6 mm."
+          "rationale": "ADR 2025 ADR 2025, 5.2.1.1 (numer UN i litery „UN” co najmniej 12 mm; co najmniej 6 mm dla sztuk przesyłek do 30 l lub 30 kg netto i butli o pojemności wodnej do 60 l): odpowiedź pomija lub błędnie interpretuje warunek przepisu."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Dla opakowania o pojemności 20 l stosuje się minimalną wysokość 6 mm dla liter UN i numeru."
+          "rationale": "ADR 2025 ADR 2025, 5.2.1.1 (numer UN i litery „UN” co najmniej 12 mm; co najmniej 6 mm dla sztuk przesyłek do 30 l lub 30 kg netto i butli o pojemności wodnej do 60 l): odpowiedź odpowiada warunkom przepisu."
         }
       },
-      "notes_on_conditions": "Pytanie dotyczy kanistra o pojemności 20 l, czyli wprost progu do 30 l; nie rozstrzyga wyjątków dla opakowań do 5 l lub 5 kg.",
+      "notes_on_conditions": "ADR 2025 ADR 2025, 5.2.1.1 (numer UN i litery „UN” co najmniej 12 mm; co najmniej 6 mm dla sztuk przesyłek do 30 l lub 30 kg netto i butli o pojemności wodnej do 60 l). Kontrola druga; zachowano klucz C i moduł ADR-B-06; status needs_review.",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
