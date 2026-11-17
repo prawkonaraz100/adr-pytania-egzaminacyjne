@@ -270,11 +270,17 @@ Podczas przewozu towarów niebezpiecznych każdy członek załogi musi mieć prz
 Gdy ilość towarów w jednostce transportowej nie przekracza limitu z 1.1.3.6, przepis 1.1.3.6.2 pozwala nie stosować rozdziału 5.4.3 o instrukcjach pisemnych. Z części 8 nadal obowiązuje 8.1.2.1 (a), więc dokument przewozowy musi być w kabinie kierowcy. Brak instrukcji pisemnych nie jest wtedy naruszeniem ADR, ale przewoźnik może je dobrowolnie przekazać załodze. Powiązane pytanie: ADR-B-0672 (needs_review). Podstawa: ADR 1.1.3.6.2, 5.4.3 i 8.1.2.1.
 
 
-### Brak wymaganego wpisu w dokumencie przewozowym (ADR-B-0714)
+### Brak wymaganego wpisu w dokumencie przewozowym (ADR-B-0779)
 
 Przy przewozie drogowym będącym częścią łańcucha morsko-drogowego kierowca i przewoźnik nie mogą zakładać, że dokument IMDG automatycznie zastępuje wszystkie informacje wymagane przez ADR. Dla przewozu wykonywanego na warunkach 1.1.4.2.1 dokument powinien zawierać dodatkowy wpis wskazany w 5.4.1.1.7. Przewoźnik przed rozpoczęciem przewozu sprawdza, czy wymagane informacje zostały podane; jeżeli stwierdzi brak, nie powinien ruszać do czasu usunięcia niezgodności. Kierowca powinien zgłosić brak dyspozytorowi i poprosić o poprawny dokument, zamiast traktować ustne zapewnienie jako uzupełnienie. Podstawa: ADR 1.1.4.2.1, 1.4.2.2.1(b), 1.4.2.2.3 i 5.4.1.1.7.
 
 **Pytanie kontrolne:** ADR-B-0714 — co zrobić, gdy dokument nie zawiera wymaganego wpisu dla drogowego odcinka przewozu kombinowanego?
+
+### Przewoźnik a dane nadawcy przy przewozie zgodnym z 1.1.4.2.1 (ADR-B-0714)
+
+Przewoźnik upewnia się, że nadawca dostarczył wymagane informacje i że dokument z wpisem „PRZEWÓZ ZGODNY Z 1.1.4.2.1” jest w jednostce transportowej. Przy tych czynnościach może polegać na informacjach i danych od nadawcy, więc nie musi sam sprawdzać pakowania razem według Kodeksu IMDG. Gdy stwierdzi naruszenie, nie rozpoczyna przewozu.
+
+**Pytanie kontrolne:** ADR-B-0714 — czy przewoźnik musi sam sprawdzać pakowanie razem według Kodeksu IMDG? Podstawa: ADR 1.4.2.2.1 (b), 1.4.2.2.2 i 1.4.2.2.3.
 
 
 ### Wyjątek „Delivery Sale” — wielu odbiorców
