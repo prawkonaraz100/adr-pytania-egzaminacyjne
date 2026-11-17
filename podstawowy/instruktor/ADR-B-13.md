@@ -147,7 +147,7 @@ Przed wyjazdem sprawdź dokumenty kierowcy i drugiego członka załogi. W scenar
 Pokaż kursantowi fikcyjny przewóz beczek z farbą mieszczący się w limicie z 1.1.3.6, w którym w kabinie jest dokument przewozowy, ale nie ma instrukcji pisemnych. Poproś o ocenę, czy to naruszenie, i o wskazanie w 1.1.3.6.2, które wymagania dotyczące dokumentów nadal obowiązują. Kryterium: kursant wskazuje, że rozdziału 5.4.3 się nie stosuje, a dokument przewozowy z 8.1.2.1 (a) musi być w kabinie. Powiązane pytanie: ADR-B-0672 (needs_review). Podstawa: ADR 1.1.3.6.2, 5.4.3 i 8.1.2.1.
 
 
-## Zadanie instruktorskie — brak wpisu dla przewozu kombinowanego (ADR-B-0714)
+## Zadanie instruktorskie — brak wpisu dla przewozu kombinowanego (ADR-B-0779)
 
 **Cel:** kursant potrafi rozpoznać brak obowiązkowej adnotacji i wskazać właściwą reakcję przed rozpoczęciem przewozu.
 
@@ -158,3 +158,13 @@ Pokaż kursantowi fikcyjny przewóz beczek z farbą mieszczący się w limicie z
 **Typowe błędy:** uznanie dokumentu IMDG za automatyczne zastępstwo każdego wpisu ADR; potraktowanie ustnego zapewnienia lub samodzielnego dopisania tekstu jako dowodu spełnienia warunków przewozu.
 
 **Podstawa:** ADR 1.1.4.2.1, 1.4.2.2.1(b), 1.4.2.2.3 i 5.4.1.1.7.
+
+## Zadanie instruktorskie — przewoźnik a dane nadawcy w łańcuchu morskim (ADR-B-0714)
+
+**Sytuacja:** Nadawca dał dokument z wpisem „PRZEWÓZ ZGODNY Z 1.1.4.2.1” dla kartonów pakowanych razem według Kodeksu IMDG. Przewoźnik pyta, czy musi sam sprawdzić to pakowanie w Kodeksie IMDG.
+
+**Oczekiwana odpowiedź:** Kursant wskazuje, że przewoźnik upewnia się, że informacje dostarczono, a dokument jest w pojeździe, i może przy tym polegać na danych od nadawcy. Przy stwierdzonym naruszeniu nie rozpoczyna przewozu.
+
+**Typowe błędy:** przekonanie, że przewoźnik sam bada pakowanie według Kodeksu IMDG; uznanie, że wpis zwalnia przewoźnika z jego obowiązków.
+
+**Podstawa:** ADR 1.4.2.2.1 (b), 1.4.2.2.2, 1.4.2.2.3 i 1.1.4.2.1.
