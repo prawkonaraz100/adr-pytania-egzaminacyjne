@@ -15,9 +15,9 @@
 | Teoretyczne z mniej niż 6 pytaniami | **0** |
 | Kompetencje praktyczne (osobno, nie wliczane do progu sześciu) | **3** |
 | Rozkład poprawnych A/B/C | **258 / 291 / 231** |
-| Poprawna odpowiedź jedyną najdłuższą | **17/780 = 2,18%** |
+| Poprawna odpowiedź jedyną najdłuższą | **15/780 = 1,92%** |
 | Najwyższy wskaźnik w pojedynczym dziale | **5,66%** |
-| Git blob SHA `podstawowy/questions.jsonl` | `e92048bdde4e05422e3265542636b6213f3e10b4` |
+| Git blob SHA `podstawowy/questions.jsonl` | `884f19a050315bef28c614aa0f4aae9533ed14a9` |
 
 ### Rozkład pytań według modułów
 
@@ -47,7 +47,7 @@
 
 - **Bank zamrożony do recenzji:** `podstawowy/questions.jsonl`; SHA podano wyżej.
 - **Mapa kompetencji:** `podstawowy/kompetencje.json`; wszystkie 104 kompetencje teoretyczne mają minimum 6 powiązanych pytań; 3 praktyczne zachowują odrębny status.
-- **Pięć wariantów egzaminu próbnego i pięć kluczy:** `podstawowy/egzamin-probny/wariant-001.json`–`005.json` oraz `klucz-001.json`–`005.json`; wszystkie dziesięć plików wskazuje ten sam blob SHA `e92048bdde4e05422e3265542636b6213f3e10b4`. Każdy wariant obejmuje 30 pytań.
+- **Pięć wariantów egzaminu próbnego i pięć kluczy:** `podstawowy/egzamin-probny/wariant-001.json`–`005.json` oraz `klucz-001.json`–`005.json`; wszystkie dziesięć plików wskazuje ten sam blob SHA `884f19a050315bef28c614aa0f4aae9533ed14a9`. Każdy wariant obejmuje 30 pytań.
 - **Snapshoty recenzji:** `review/sequential/780-780.json` i `review/legal-clauses/780-780.json` dla ostatniego pytania; istniejące wcześniejsze snapshoty pozostają w repo. Sprawdzenie spójności całego banku jest wymagane w Quality Gate.
 - **Pakiet specjalisty:** `review/specialist/PAKIET-0780-MANIFEST.json`, aktualny rejestr `review/specialist/REJESTR-AKTUALNY-0001-0780.md` (780 unikalnych wierszy), rejestr partii `review/specialist/REJESTR-0780-0780.md`, instrukcje w `review/specialist/INSTRUKCJA-RECENZJI.md`.
 - **Źródła i status dowodów:** `review/legal-polish/stage4w4-literal-verification-ledger-0001-0609.json` i `review/legal-polish/stage4w4-literal-verification-ledger-0610-0678.json`; pola `sources[].reference` odpowiadają zapisom ledgera.
