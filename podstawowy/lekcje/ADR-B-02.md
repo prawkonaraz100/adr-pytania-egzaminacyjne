@@ -436,7 +436,7 @@ Grupa pakowania opisuje stopień zagrożenia materiału, a nie typ użytego opak
 
 ### Klasa 4.3 — rozróżnianie grup pakowania II i III
 
-Grupa II obejmuje materiał, który reaguje z wodą i wydziela co najmniej 20 litrów gazu palnego na kilogram w ciągu godziny, ale nie spełnia kryteriów grupy I. Grupa III dotyczy wolniejszej reakcji: wydzielanie przekracza 1 litr na kilogram w ciągu godziny, a materiał nie spełnia kryteriów I ani II. W praktyce kierowca odczytuje przypisaną grupę z dokumentu przewozowego; nie wykonuje prób z wodą ani samodzielnie nie klasyfikuje ładunku. Pytanie kontrolne: ADR-B-0676 (needs_review). Podstawa: ADR 2.2.43.1.8(b)–(c).
+Grupa II obejmuje materiał, który reaguje z wodą i wydziela co najmniej 20 litrów gazu palnego na kilogram w ciągu godziny, ale nie spełnia kryteriów grupy I. Grupa III dotyczy wolniejszej reakcji: wydzielanie przekracza 1 litr na kilogram w ciągu godziny, a materiał nie spełnia kryteriów I ani II. W praktyce kierowca odczytuje przypisaną grupę z dokumentu przewozowego; nie wykonuje prób z wodą ani samodzielnie nie klasyfikuje ładunku. Ogólne znaczenie grup pakowania utrwala pytanie ADR-B-0127 (needs_review). Podstawa: ADR 2.2.43.1.8(b)–(c).
 
 ### Klasa 4.3 — ochrona przed wodą przy załadunku i w czasie jazdy (CV23, V1)
 
@@ -491,3 +491,10 @@ Klasa 8 obejmuje także substancje, które dopiero w kontakcie z naturalną wilg
 ### Brak grupy pakowania przy gazie klasy 2 — ADR-B-0731
 
 Gazy klasy 2 nie są objęte systemem grup pakowania I–III. Brak grupy w kolumnie 4 tabeli A nie oznacza więc błędu i kierowca nie powinien sam jej dopisywać. Podstawa: ADR 2025, 2.1.1.3; 3.2.1, tabela A, kolumna (4).
+
+
+### Baterie zawierające sód metaliczny — UN 3292
+
+Nie wszystkie baterie należą do klasy 9. Tabela A przypisuje UN 3292 BATERIE ZAWIERAJĄCE SÓD METALICZNY LUB STOP SODU do klasy 4.3, bo sód w kontakcie z wodą wydziela gazy palne. Baterie sodowo-jonowe UN 3551 to inna pozycja, w klasie 9. Klasę zawsze odczytuj z wpisu w tabeli A i z dokumentu przewozowego, a nie z ogólnej nazwy „bateria”.
+
+Pytanie kontrolne: ADR-B-0676 (needs_review). Podstawa: ADR 2.2.43.1.1, 2.2.43.1.2 i 3.2.1 tabela A (UN 3292).

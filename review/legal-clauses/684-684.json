@@ -9,23 +9,23 @@
     {
       "id": "ADR-B-0684",
       "order": 684,
-      "clause": "ADR 2025, 7.5.4",
+      "clause": "ADR 2025, 7.5.4 (wyjątek – dodatkowe opakowanie lub całkowite przykrycie); 7.5.11 (CV28)",
       "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
       "question_snapshot": {
         "id": "ADR-B-0684",
         "module_id": "ADR-B-09",
-        "stem": "Przesyłki objęte CV28, oznakowane nalepkami 6.1, są przewożone blisko żywności. Każda z nich została całkowicie przykryta szczelną osłoną. Czy nadal trzeba zachować przegrodę lub odstęp 0,8 m?",
+        "stem": "Worki z nalepką 6.1, dla których kolumna (18) tabeli A wskazuje CV28, stoją na skrzyni tuż obok kartonów z żywnością. Worki są w pełni przykryte plandeką, a między ładunkami nie ma przegrody ani odstępu 0,8 m. Czy taki załadunek narusza 7.5.4?",
         "options": {
-          "A": "Tak. Przy przesyłkach objętych CV28 trzeba zachować przegrodę lub odstęp co najmniej 0,8 m, nawet gdy są całkowicie przykryte i dodatkowo zabezpieczone.",
-          "B": "Nie. Wystarczy, że kierowca wpisze w dokumencie przewozowym informację o osłonie; sam sposób przykrycia nie ma znaczenia.",
-          "C": "Nie, jeżeli przesyłki są całkowicie przykryte lub mają dodatkowe opakowanie; wyjątek dotyczy wskazanego obowiązku oddzielenia."
+          "A": "Tak, bo przegroda albo odstęp 0,8 m są wymagane mimo przykrycia",
+          "B": "Tak, chyba że przykrycie worków wpisze się do dokumentu przewozowego",
+          "C": "Nie, bo worki w pełni przykryte nie wymagają takiego oddzielenia"
         },
         "correct_option": "C",
-        "explanation": "Przy CV28 ADR przewiduje oddzielenie określonych przesyłek od żywności m.in. przegrodą, innymi przesyłkami albo wolną przestrzenią co najmniej 0,8 m. Ten obowiązek oddzielenia nie ma zastosowania, gdy oznakowane przesyłki mają dodatkowe opakowanie lub są całkowicie przykryte, np. plandeką. Odpowiedź A pomija ten wyjątek, a B błędnie zastępuje zabezpieczenie wpisem w dokumencie. Podstawa: ADR 7.5.4.",
+        "explanation": "Przepis CV28 odsyła do 7.5.4, który chroni żywność, artykuły spożywcze i karmę dla zwierząt przed sztukami przesyłek z nalepkami 6.1 lub 6.2. Gdy takie sztuki przesyłek stoją w bezpośredniej bliskości żywności, oddziela się je przegrodą, innymi sztukami przesyłek bez tych nalepek albo wolną przestrzenią co najmniej 0,8 m. Według końcowej części 7.5.4 tych sposobów oddzielenia nie stosuje się, gdy sztuki przesyłek mają dodatkowe opakowanie albo są w pełni przykryte, na przykład plandeką. Wpis w dokumencie przewozowym nie ma tu znaczenia. Podstawa: ADR 7.5.4 i 7.5.11 (CV28).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.4, środki ostrożności wobec żywności — wyjątek dla dodatkowego opakowania lub całkowitego przykrycia przesyłek",
+            "reference": "ADR 2025, 7.5.4 (oddzielenie (a)–(c) i wyjątek dla dodatkowego opakowania lub całkowitego przykrycia); 7.5.11 (CV28)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -36,18 +36,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Ta odpowiedź pomija wyraźny wyjątek dla przesyłek mających dodatkowe opakowanie lub całkowite przykrycie; nie zawsze trzeba stosować przegrodę albo odstęp."
+          "rationale": "7.5.4: wymogów oddzielenia nie stosuje się, gdy sztuki przesyłek mają dodatkowe opakowanie lub są całkowicie przykryte."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Dokument przewozowy nie jest fizycznym zabezpieczeniem przesyłek. ADR wskazuje dodatkowe opakowanie lub całkowite przykrycie, a nie adnotację jako zamiennik."
+          "rationale": "Wpis w dokumencie nie jest warunkiem wyjątku z 7.5.4 – liczy się fizyczne przykrycie."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR 7.5.4 wyłącza wskazane sposoby oddzielenia, gdy przesyłki mają dodatkowe opakowanie lub są całkowicie przykryte, np. plandeką."
+          "rationale": "7.5.4: przy całkowitym przykryciu (np. plandeką) przegroda ani odstęp 0,8 m nie są wymagane."
         }
       },
-      "notes_on_conditions": "Pytanie dotyczy wyjątku od sposobów oddzielenia przesyłek w bezpośredniej bliskości żywności. Nie rozszerza wyjątku na inne obowiązki ADR ani nie zastępuje sprawdzenia CV28 w kolumnie 18 tabeli A.",
+      "notes_on_conditions": "7.5.4 s. 1307; CV28 s. 1312. Do oceny specjalisty: zakres wyjątku (piętrzenie).",
       "editorial_result": "targeted_rule_identified_full_literal_question_and_specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

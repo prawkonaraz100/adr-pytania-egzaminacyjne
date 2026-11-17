@@ -284,7 +284,7 @@ Każdy członek załogi musi mieć własną przenośną lampę zgodną z ADR 8.3
 
 **Przykład:** w kabinie jadą dwie osoby, ale jest tylko jedna metalowa latarka. Przed wyjazdem trzeba zapewnić lampę dla każdego członka załogi i sprawdzić, czy spełnia 8.3.4.
 
-**Ćwiczenie:** ADR-B-0686 sprawdza liczbę lamp dla załogi. Wymóg dotyczący powierzchni lampy z 8.3.4 omawiany jest osobno w materiale o bezpiecznym używaniu oświetlenia. Podstawa ćwiczenia ADR-B-0686: ADR 8.1.5.2.
+**Ćwiczenie:** ADR-B-0596 sprawdza liczbę lamp dla załogi, a ADR-B-0686 – czy reflektory robocze zabudowy mogą zastąpić przenośną latarkę. Nie mogą: 8.1.5.2 wymaga przenośnego urządzenia oświetleniowego dla każdego członka załogi, także gdy kierowca jedzie sam. Wymóg dotyczący powierzchni lampy z 8.3.4 omawiany jest osobno. Podstawa: ADR 8.1.5.2 i 1.2.1.
 
 
 ### Dobór rozmiaru klina pod koło (ADR-B-0699)

@@ -8,18 +8,18 @@
       "id": "ADR-B-0677",
       "sequence": 677,
       "exact_record_snapshot": {
-        "stem": "Po rozładunku materiału niebezpiecznego przewożonego luzem kierowca ma przyjąć inny towar niebezpieczny. W pojeździe nie widać pozostałości poprzedniego ładunku. Co trzeba zrobić przed ponownym załadunkiem?",
+        "stem": "Po rozładunku kanistrów z UN 2810 MATERIAŁ TRUJĄCY CIEKŁY ORGANICZNY I.N.O. widać, że jeden kanister przeciekł na podłogę skrzyni. Kolumna (18) tabeli A wskazuje dla tej pozycji CV13. Na skrzyni zostały kartony dla kolejnego odbiorcy. Co wymaga CV13 oprócz dokładnego oczyszczenia skrzyni?",
         "options": {
-          "A": "Można załadować nowy towar bez czyszczenia, jeśli poprzedni ładunek był przewożony luzem, pojazd jest pusty i nie widać żadnych pozostałości.",
-          "B": "Czyszczenie jest wymagane tylko wtedy, gdy poprzedni materiał wydostał się poza przestrzeń ładunkową.",
-          "C": "Przed ponownym załadunkiem trzeba prawidłowo oczyścić pojazd, chyba że kolejny ładunek to ten sam towar niebezpieczny."
+          "A": "Wpisać przeciek do dokumentu przewozowego i jechać dalej do odbiorcy",
+          "B": "Przykryć plamę folią, by kolejne kartony nie stały w cieczy",
+          "C": "Sprawdzić, czy pozostałe kartony w pojeździe nie zostały skażone"
         },
         "correct_option": "C",
-        "explanation": "Po rozładunku materiałów niebezpiecznych przewożonych luzem pojazd lub kontener trzeba prawidłowo oczyścić przed następnym załadunkiem. Wyjątek dotyczy sytuacji, gdy kolejny ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Nie myl tej zasady z 7.5.8.1, który dotyczy wycieku z opakowanych towarów; samo opróżnienie pojazdu nie oznacza jego oczyszczenia. Podstawa: ADR 2025, 7.5.8.2.",
+        "explanation": "Przepis CV13 stosuje się, gdy wskazuje go kolumna (18) tabeli A, a dla UN 2810 tak właśnie jest. Jeżeli materiał wydostał się z opakowania i rozlał w pojeździe, pojazdu nie wolno ponownie użyć przed dokładnym oczyszczeniem, a w razie potrzeby odkażeniem. CV13 wymaga też sprawdzenia, czy inne towary przewożone w tym pojeździe nie zostały skażone. Folia na plamie ani wpis w dokumencie nie zastępują tych czynności. Podstawa: ADR 7.5.11 (CV13), 7.5.8.1 i tabela A (UN 2810).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.8.2",
+            "reference": "ADR 2025, 7.5.11 (CV13); 7.5.8.1; 3.2.1 tabela A (UN 2810: 6.1, kolumna (18) CV13, CV28)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -47,18 +47,18 @@
       "id": "ADR-B-0678",
       "sequence": 678,
       "exact_record_snapshot": {
-        "stem": "Kierowca chce sprawdzić zawartość paczki ADR przed wydaniem jej odbiorcy. Prosi pomocnika kierowcy, aby otworzył opakowanie za niego. Czy takie rozwiązanie jest dozwolone?",
+        "stem": "Odbiorca chce przed rozładunkiem obejrzeć nalepki na zamkniętych beczkach i prosi kierowcę o otwarcie drzwi przestrzeni ładunkowej furgonu. Pomocnik twierdzi, że zabrania tego przepis 8.3.3. Czy ma rację?",
         "options": {
-          "A": "Tak, ponieważ zakaz dotyczy tylko osoby, która w danej chwili prowadzi pojazd.",
-          "B": "Tak, jeśli pomocnik ma rękawice i otworzy paczkę ostrożnie, bez rozsypywania zawartości.",
-          "C": "Nie; kierowca nie może otworzyć paczki ani zlecić tego pomocnikowi kierowcy."
+          "A": "Tak, 8.3.3 zabrania też otwierania drzwi przestrzeni ładunkowej",
+          "B": "Tak, chyba że odbiorca złoży kierowcy pisemną prośbę o otwarcie drzwi",
+          "C": "Nie, 8.3.3 zakazuje otwierania sztuk przesyłek, nie drzwi pojazdu"
         },
         "correct_option": "C",
-        "explanation": "Nie wolno obchodzić zakazu przez poproszenie drugiej osoby o wykonanie czynności. ADR 8.3.3 zabrania otwierania paczek zarówno kierowcy, jak i pomocnikowi kierowcy, więc zmiana osoby niczego nie zmienia. Rękawice ani ostrożność nie tworzą wyjątku; zawartość i oznaczenia sprawdza się bez otwierania opakowania. Podstawa: ADR 2025, 8.3.3.",
+        "explanation": "Przepis 8.3.3 zabrania kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne. Sztuka przesyłki to opakowanie razem z zawartością, przygotowane do wysyłki, a nie przestrzeń ładunkowa pojazdu. Otwarcie drzwi furgonu, aby odbiorca obejrzał nalepki na zamkniętych beczkach, nie narusza więc tego zakazu. Samych beczek nadal nie wolno otwierać, nawet na pisemną prośbę odbiorcy. Podstawa: ADR 8.3.3 i 1.2.1 (sztuka przesyłki).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.3",
+            "reference": "ADR 2025, 8.3.3; 1.2.1 (definicja „sztuka przesyłki”)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

@@ -9,23 +9,23 @@
     {
       "id": "ADR-B-0682",
       "order": 682,
-      "clause": "ADR 2025, 5.2.1.10.1 and 5.2.1.10.2(b)",
+      "clause": "ADR 2025, 5.2.1.10.1 (a); 5.2.1.10.2 (b)",
       "source_2025_comparison_url": "https://digitallibrary.un.org/record/4092124/files/E_ECE_TRANS_351-EN.pdf",
       "question_snapshot": {
         "id": "ADR-B-0682",
         "module_id": "ADR-B-09",
-        "stem": "Opakowanie zewnętrzne zawiera opakowania wewnętrzne z cieczą niebezpieczną, każde po 100 ml. Materiał chłonny umieszczony między opakowaniami wewnętrznymi a zewnętrznym może wchłonąć całą ciecz. Czy na opakowaniu zewnętrznym muszą być strzałki kierunkowe?",
+        "stem": "Karton zawiera plastikowe buteleczki z cieczą niebezpieczną, każda po 100 ml, zamknięte zwykłymi zakrętkami. Między buteleczkami a kartonem jest materiał chłonny, który wchłonie całą ciecz. Czy na kartonie muszą być strzałki kierunkowe?",
         "options": {
-          "A": "Tak, bo strzałki są obowiązkowe dla każdego opakowania z cieczą niebezpieczną, niezależnie od wielkości opakowań wewnętrznych i zastosowanego materiału chłonnego.",
-          "B": "Nie, jeśli każde opakowanie wewnętrzne ma najwyżej 120 ml, a materiał chłonny pomiędzy nim a opakowaniem zewnętrznym może wchłonąć całą ciecz.",
-          "C": "Nie, bo strzałki na opakowaniu zewnętrznym są tylko wskazówką magazynową, a nie wymogiem ADR."
+          "A": "Tak, bo zwykłe zakrętki nie zamykają tych buteleczek w sposób hermetyczny",
+          "B": "Nie, bo buteleczki mają do 120 ml, a materiał chłonny wchłonie ciecz",
+          "C": "Tak, bo wyjątek dla małych buteleczek dotyczy pojemności do 50 ml"
         },
         "correct_option": "B",
-        "explanation": "Wyjątek z ADR 5.2.1.10.2(b) działa, gdy każde opakowanie wewnętrzne zawiera najwyżej 120 ml, a materiał chłonny umieszczony między opakowaniami wewnętrznymi i zewnętrznym wystarcza do wchłonięcia całej cieczy. Muszą być spełnione oba warunki; sama mała pojemność albo samo szczelne zamknięcie nie wystarczą. Jeśli wyjątek nie ma zastosowania, strzałki umieszcza się na dwóch przeciwległych pionowych bokach. Podstawa: ADR 5.2.1.10.1 i 5.2.1.10.2(b).",
+        "explanation": "Strzałki kierunkowe są wymagane na opakowaniach kombinowanych z opakowaniami wewnętrznymi zawierającymi ciecze, ale 5.2.1.10.2 przewiduje wyjątki. Według litery (b) strzałki nie są wymagane, gdy opakowania wewnętrzne mają pojemność nie większą niż 120 ml, a materiał chłonny wystarcza do wchłonięcia całej cieczy. Oba warunki są tu spełnione, więc hermetyczne zamknięcie nie jest potrzebne. Hermetyczność jest warunkiem innego wyjątku, dla opakowań do 500 ml, a granica 50 ml dotyczy materiałów zakaźnych klasy 6.2. Podstawa: ADR 5.2.1.10.1 (a) i 5.2.1.10.2 (b).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.2.1.10.1 i 5.2.1.10.2(b), strzałki kierunkowe i wyjątek dla opakowań wewnętrznych do 120 ml z wystarczającym materiałem chłonnym",
+            "reference": "ADR 2025, 5.2.1.10.1 (a); 5.2.1.10.2 (b)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -36,18 +36,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Nie każde opakowanie z cieczą wymaga strzałek bez wyjątku; ADR 5.2.1.10.2 przewiduje konkretne przypadki, w których nie są wymagane."
+          "rationale": "Rodzaj zamknięcia nie decyduje – wyjątek (b) dotyczy pojemności do 120 ml i materiału chłonnego; (f) to inny przypadek."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Wyjątek 5.2.1.10.2(b) dotyczy opakowań zewnętrznych, w których każde opakowanie wewnętrzne zawiera najwyżej 120 ml, a materiał chłonny pomiędzy opakowaniami wewnętrznymi a zewnętrznym wystarcza do wchłonięcia całej cieczy."
+          "rationale": "5.2.1.10.2 (b): strzałki nie są wymagane przy opakowaniach wewnętrznych do 120 ml z materiałem chłonnym na całą ciecz."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Samo ogólne stwierdzenie, że opakowanie zewnętrzne jest szczelne, nie odpowiada warunkom wyjątku; muszą być spełnione oba kryteria z 5.2.1.10.2(b)."
+          "rationale": "50 ml to inny wyjątek (c, materiały zakaźne 6.2); dla zwykłych cieczy granica (b) wynosi 120 ml."
         }
       },
-      "notes_on_conditions": "Pytanie dotyczy wyjątku dla opakowań zewnętrznych zawierających opakowania wewnętrzne do 120 ml z materiałem chłonnym umieszczonym pomiędzy opakowaniami wewnętrznymi a zewnętrznym. Oba warunki są łączne. Jeśli wyjątek nie ma zastosowania, strzałki wymagane przez 5.2.1.10.1 umieszcza się na dwóch przeciwległych pionowych bokach. Oficjalny tekst UNECE ADR 2025 sprawdzono jako źródło porównawcze; dokładne polskie brzmienie Dz.U. i niezależna recenzja specjalisty pozostają pending.",
+      "notes_on_conditions": "5.2.1.10.1 s. 938; 5.2.1.10.2 s. 939. Odrębne od 0617 (lit. f) i 0058.",
       "editorial_result": "targeted_rule_identified_full_literal_question_and_specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

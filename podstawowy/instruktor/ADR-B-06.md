@@ -141,7 +141,7 @@ Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, dru
 
 ### Kontrola trwałości tablic pomarańczowych — ADR-B-0685
 
-**Sytuacja do omówienia:** pokaż tablicę, która jest czytelna, ale ma poluzowane mocowanie albo nietrwały materiał. Kursant ma wskazać, że wymaganie dotyczy nie tylko widoczności i wymiarów, lecz także odporności na warunki pogodowe, trwałego oznaczenia i utrzymania tablicy na mocowaniu podczas 15 minut działania ognia.
+**Sytuacja do omówienia:** pokaż tablicę, która jest czytelna, ale ma poluzowane mocowanie albo nietrwały materiał. Kursant ma wskazać, że wymaganie dotyczy nie tylko widoczności i wymiarów, lecz także odporności na warunki pogodowe, trwałego oznaczenia i pozostania tablicy w miejscu umocowania po 15 minutach przebywania w ogniu.
 
 **Pytanie kontrolne:** ADR-B-0685. Podstawa: ADR 5.3.2.2.1. Status pytania pozostaje `needs_review`.
 
@@ -155,7 +155,7 @@ Użyj fikcyjnych tablic: jedna ma wątpliwy format lub słabą czytelność, dru
 
 ### Zadanie instruktorskie — oznakowanie opakowania zbiorczego (ADR-B-0689)
 
-**Sytuacja symulowana:** folia na opakowaniu zbiorczym zakrywa numer UN i nalepki znajdujących się wewnątrz towarów ADR. Kursant ma wskazać, że jeśli oznaczenia nie są widoczne, opakowanie zbiorcze musi mieć napis „OVERPACK” oraz odtworzone wymagane numery UN, inne oznaczenia i nalepki dla zawartości.
+**Sytuacja symulowana:** folia na opakowaniu zbiorczym zakrywa numer UN i nalepki znajdujących się wewnątrz towarów ADR. Kursant ma wskazać, że jeśli oznaczenia nie są widoczne, opakowanie zbiorcze musi mieć napis „OPAKOWANIE ZBIORCZE” (z wersją angielską, francuską lub niemiecką) oraz odtworzone wymagane numery UN, inne oznaczenia i nalepki dla zawartości – każdy znak i każdą nalepkę jeden raz, a nie dla każdej sztuki osobno.
 
 **Pytanie kontrolne:** ADR-B-0689. Podstawa: ADR 5.1.2.1(a)(i)–(ii). Nie mylić z odrębnymi zasadami dla towarów w ilościach ograniczonych lub wyłączonych.
 

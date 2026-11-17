@@ -4,23 +4,23 @@
     {
       "id": "ADR-B-0677",
       "order": 677,
-      "clause": "ADR 2025, 7.5.8.2",
+      "clause": "ADR 2025, 7.5.11 (CV13); 7.5.8.1; 3.2.1 tabela A (UN 2810, kolumna (18))",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0677",
         "module_id": "ADR-B-03",
-        "stem": "Po rozładunku materiału niebezpiecznego przewożonego luzem kierowca ma przyjąć inny towar niebezpieczny. W pojeździe nie widać pozostałości poprzedniego ładunku. Co trzeba zrobić przed ponownym załadunkiem?",
+        "stem": "Po rozładunku kanistrów z UN 2810 MATERIAŁ TRUJĄCY CIEKŁY ORGANICZNY I.N.O. widać, że jeden kanister przeciekł na podłogę skrzyni. Kolumna (18) tabeli A wskazuje dla tej pozycji CV13. Na skrzyni zostały kartony dla kolejnego odbiorcy. Co wymaga CV13 oprócz dokładnego oczyszczenia skrzyni?",
         "options": {
-          "A": "Można załadować nowy towar bez czyszczenia, jeśli poprzedni ładunek był przewożony luzem, pojazd jest pusty i nie widać żadnych pozostałości.",
-          "B": "Czyszczenie jest wymagane tylko wtedy, gdy poprzedni materiał wydostał się poza przestrzeń ładunkową.",
-          "C": "Przed ponownym załadunkiem trzeba prawidłowo oczyścić pojazd, chyba że kolejny ładunek to ten sam towar niebezpieczny."
+          "A": "Wpisać przeciek do dokumentu przewozowego i jechać dalej do odbiorcy",
+          "B": "Przykryć plamę folią, by kolejne kartony nie stały w cieczy",
+          "C": "Sprawdzić, czy pozostałe kartony w pojeździe nie zostały skażone"
         },
         "correct_option": "C",
-        "explanation": "Po rozładunku materiałów niebezpiecznych przewożonych luzem pojazd lub kontener trzeba prawidłowo oczyścić przed następnym załadunkiem. Wyjątek dotyczy sytuacji, gdy kolejny ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Nie myl tej zasady z 7.5.8.1, który dotyczy wycieku z opakowanych towarów; samo opróżnienie pojazdu nie oznacza jego oczyszczenia. Podstawa: ADR 2025, 7.5.8.2.",
+        "explanation": "Przepis CV13 stosuje się, gdy wskazuje go kolumna (18) tabeli A, a dla UN 2810 tak właśnie jest. Jeżeli materiał wydostał się z opakowania i rozlał w pojeździe, pojazdu nie wolno ponownie użyć przed dokładnym oczyszczeniem, a w razie potrzeby odkażeniem. CV13 wymaga też sprawdzenia, czy inne towary przewożone w tym pojeździe nie zostały skażone. Folia na plamie ani wpis w dokumencie nie zastępują tych czynności. Podstawa: ADR 7.5.11 (CV13), 7.5.8.1 i tabela A (UN 2810).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.8.2",
+            "reference": "ADR 2025, 7.5.11 (CV13); 7.5.8.1; 3.2.1 tabela A (UN 2810: 6.1, kolumna (18) CV13, CV28)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -30,19 +30,19 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Brak widocznych pozostałości nie znosi obowiązku prawidłowego oczyszczenia pojazdu po przewozie towarów niebezpiecznych luzem."
+          "rationale": "Wpis w dokumencie nie zastępuje kontroli z CV13; dalsza jazda bez sprawdzenia ładunku jest niezgodna z CV13."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Przepis nie ogranicza czyszczenia do sytuacji, gdy materiał wydostał się poza przestrzeń ładunkową; dotyczy pojazdów lub kontenerów po przewozie luzem."
+          "rationale": "Przykrycie plamy nie jest oczyszczeniem ani kontrolą skażenia, których wymaga CV13."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "ADR 7.5.8.2 wymaga prawidłowego czyszczenia przed ponownym załadunkiem, z wyjątkiem sytuacji, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni."
+          "rationale": "CV13: inne materiały i przedmioty w pojeździe sprawdza się, czy nie zostały skażone."
         }
       },
       "observed_answer_key": "C",
-      "notes_on_conditions": "Zakres 7.5.8.2 to pojazdy lub kontenery, które przewoziły towary niebezpieczne luzem. Wyjątek dotyczy wyłącznie kolejnego ładunku składającego się z tych samych towarów niebezpiecznych. Kierowca nie wykonuje samodzielnie niebezpiecznych prac czyszczenia.",
+      "notes_on_conditions": "CV13 s. 1311; 7.5.8.1 s. 1309–1310; tabela A UN 2810 s. 519–520 (kolumna 18: CV13, CV28 – obraz strony). Odrębne od 0733 (wyjątek dla tego samego towaru luzem).",
       "editorial_result": "pending_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
@@ -51,23 +51,23 @@
     {
       "id": "ADR-B-0678",
       "order": 678,
-      "clause": "ADR 2025, 8.3.3",
+      "clause": "ADR 2025, 8.3.3; 1.2.1 (sztuka przesyłki)",
       "source_2025_comparison_url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8",
       "question_snapshot": {
         "id": "ADR-B-0678",
         "module_id": "ADR-B-04",
-        "stem": "Kierowca chce sprawdzić zawartość paczki ADR przed wydaniem jej odbiorcy. Prosi pomocnika kierowcy, aby otworzył opakowanie za niego. Czy takie rozwiązanie jest dozwolone?",
+        "stem": "Odbiorca chce przed rozładunkiem obejrzeć nalepki na zamkniętych beczkach i prosi kierowcę o otwarcie drzwi przestrzeni ładunkowej furgonu. Pomocnik twierdzi, że zabrania tego przepis 8.3.3. Czy ma rację?",
         "options": {
-          "A": "Tak, ponieważ zakaz dotyczy tylko osoby, która w danej chwili prowadzi pojazd.",
-          "B": "Tak, jeśli pomocnik ma rękawice i otworzy paczkę ostrożnie, bez rozsypywania zawartości.",
-          "C": "Nie; kierowca nie może otworzyć paczki ani zlecić tego pomocnikowi kierowcy."
+          "A": "Tak, 8.3.3 zabrania też otwierania drzwi przestrzeni ładunkowej",
+          "B": "Tak, chyba że odbiorca złoży kierowcy pisemną prośbę o otwarcie drzwi",
+          "C": "Nie, 8.3.3 zakazuje otwierania sztuk przesyłek, nie drzwi pojazdu"
         },
         "correct_option": "C",
-        "explanation": "Nie wolno obchodzić zakazu przez poproszenie drugiej osoby o wykonanie czynności. ADR 8.3.3 zabrania otwierania paczek zarówno kierowcy, jak i pomocnikowi kierowcy, więc zmiana osoby niczego nie zmienia. Rękawice ani ostrożność nie tworzą wyjątku; zawartość i oznaczenia sprawdza się bez otwierania opakowania. Podstawa: ADR 2025, 8.3.3.",
+        "explanation": "Przepis 8.3.3 zabrania kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne. Sztuka przesyłki to opakowanie razem z zawartością, przygotowane do wysyłki, a nie przestrzeń ładunkowa pojazdu. Otwarcie drzwi furgonu, aby odbiorca obejrzał nalepki na zamkniętych beczkach, nie narusza więc tego zakazu. Samych beczek nadal nie wolno otwierać, nawet na pisemną prośbę odbiorcy. Podstawa: ADR 8.3.3 i 1.2.1 (sztuka przesyłki).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.3.3",
+            "reference": "ADR 2025, 8.3.3; 1.2.1 (definicja „sztuka przesyłki”)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -78,18 +78,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Odpowiedź błędnie dopuszcza otwarcie lub zawęża/rozszerza zakres zakazu."
+          "rationale": "8.3.3 dotyczy otwierania sztuk przesyłek z towarami niebezpiecznymi, nie drzwi przestrzeni ładunkowej."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Rękawice, postój ani ostrożność nie tworzą wyjątku od ADR 8.3.3."
+          "rationale": "Pisemna prośba nie ma znaczenia – 8.3.3 nie obejmuje drzwi pojazdu, a dla sztuk przesyłek zgoda odbiorcy nie znosi zakazu."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Kierowca nie może zlecić pomocnikowi otwarcia paczki; zakaz obejmuje obie role."
+          "rationale": "8.3.3 zakazuje kierowcy i pomocnikowi otwierania sztuk przesyłek; drzwi przestrzeni ładunkowej nie są sztuką przesyłki (1.2.1)."
         }
       },
-      "notes_on_conditions": "Targeted official Polish ADR 2025, 8.3.3 scope check: „Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne.” The clause names the driver and driver's assistant. Full question/option legal review and independent specialist approval remain pending.",
+      "notes_on_conditions": "8.3.3 s. 1332; definicja „sztuka przesyłki” 1.2.1 s. 46. Odrębne od 0737 (zgoda odbiorcy na otwarcie sztuki). Do oceny specjalisty: zakres 8.3.3.",
       "editorial_result": "targeted_clause_scope_checked_pending_full_question_and_specialist_review",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

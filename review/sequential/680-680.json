@@ -8,18 +8,18 @@
       "id": "ADR-B-0680",
       "sequence": 680,
       "exact_record_snapshot": {
-        "stem": "Przy odbiorze odpadu zawierającego towary niebezpieczne kierowca widzi, że w dokumencie ADR brakuje słowa „ODPAD” przed prawidłową nazwą przewozową, choć nie jest ono częścią tej nazwy. Nadawca przekazuje też kartę przekazania odpadu. Co powinien zrobić kierowca?",
+        "stem": "Zakład oddaje odpady w beczkach. W części beczek jest odpad zawierający materiał klasy 4.3, a na miejscu nie da się dokładnie zmierzyć jego ilości. Nadawca chce wpisać w dokumencie „ILOŚĆ OSZACOWANA ZGODNIE Z 5.4.1.1.3.2”. Czy może tak zrobić dla tych beczek?",
         "options": {
-          "A": "Wstrzymać wyjazd i uzyskać od nadawcy poprawiony dokument ADR; karta odpadu go nie zastępuje.",
-          "B": "Samodzielnie dopisać „ODPAD” i podpisać zmianę, bo kierowca odpowiada za klasyfikację odpadu i treść dokumentu.",
-          "C": "Rozpocząć przewóz, bo numer UN i karta przekazania odpadu wystarczają zamiast poprawnego opisu ADR."
+          "A": "Nie, dla odpadów z materiałem klasy 4.3 szacowanie jest niedozwolone",
+          "B": "Tak, jeżeli do dokumentu dołączy listę opakowań z ich pojemnością",
+          "C": "Tak, bo szacowania ilości zabrania się jedynie przy przewozie w cysternach"
         },
         "correct_option": "A",
-        "explanation": "Przy odpadzie zawierającym towary niebezpieczne słowo „ODPAD” poprzedza prawidłową nazwę przewozową, chyba że to słowo już w niej występuje. Karta przekazania odpadu nie zastępuje opisu wymaganego w dokumencie ADR, a kierowca nie powinien sam dopisywać klasyfikacji ani poprawiać danych za nadawcę. Poproś o poprawiony dokument przed rozpoczęciem przewozu. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.",
+        "explanation": "Gdy w miejscu załadunku nie da się dokładnie zmierzyć ilości odpadów, 5.4.1.1.3.2 pozwala ją oszacować, a przy opakowaniach dołącza się listę z ich rodzajem i objętością nominalną. Przepis wymienia jednak przypadki, w których takie oszacowanie jest niedozwolone. Należą do nich odpady zawierające materiały klasy 4.3, które w kontakcie z wodą wydzielają gazy palne. Dla tych beczek nadawca musi więc podać w dokumencie ilość ustaloną bez szacowania. Podstawa: ADR 5.4.1.1.3.2 i 5.4.1.1.1 (f).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.3.1, 5.4.1.1.1, 1.4.2.2.3",
+            "reference": "ADR 2025, 5.4.1.1.3.2 (przypadki, w których oszacowanie jest niedozwolone); 5.4.1.1.1 (f)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],

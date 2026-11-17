@@ -9,23 +9,23 @@
     {
       "id": "ADR-B-0680",
       "order": 680,
-      "clause": "ADR 2025, 5.4.1.1.3.1, 5.4.1.1.1, 1.4.2.2.3",
+      "clause": "ADR 2025, 5.4.1.1.3.2 (przypadki niedozwolonego oszacowania); 5.4.1.1.1 (f)",
       "source_2025_comparison_url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne",
       "question_snapshot": {
         "id": "ADR-B-0680",
         "module_id": "ADR-B-03",
-        "stem": "Przy odbiorze odpadu zawierającego towary niebezpieczne kierowca widzi, że w dokumencie ADR brakuje słowa „ODPAD” przed prawidłową nazwą przewozową, choć nie jest ono częścią tej nazwy. Nadawca przekazuje też kartę przekazania odpadu. Co powinien zrobić kierowca?",
+        "stem": "Zakład oddaje odpady w beczkach. W części beczek jest odpad zawierający materiał klasy 4.3, a na miejscu nie da się dokładnie zmierzyć jego ilości. Nadawca chce wpisać w dokumencie „ILOŚĆ OSZACOWANA ZGODNIE Z 5.4.1.1.3.2”. Czy może tak zrobić dla tych beczek?",
         "options": {
-          "A": "Wstrzymać wyjazd i uzyskać od nadawcy poprawiony dokument ADR; karta odpadu go nie zastępuje.",
-          "B": "Samodzielnie dopisać „ODPAD” i podpisać zmianę, bo kierowca odpowiada za klasyfikację odpadu i treść dokumentu.",
-          "C": "Rozpocząć przewóz, bo numer UN i karta przekazania odpadu wystarczają zamiast poprawnego opisu ADR."
+          "A": "Nie, dla odpadów z materiałem klasy 4.3 szacowanie jest niedozwolone",
+          "B": "Tak, jeżeli do dokumentu dołączy listę opakowań z ich pojemnością",
+          "C": "Tak, bo szacowania ilości zabrania się jedynie przy przewozie w cysternach"
         },
         "correct_option": "A",
-        "explanation": "Przy odpadzie zawierającym towary niebezpieczne słowo „ODPAD” poprzedza prawidłową nazwę przewozową, chyba że to słowo już w niej występuje. Karta przekazania odpadu nie zastępuje opisu wymaganego w dokumencie ADR, a kierowca nie powinien sam dopisywać klasyfikacji ani poprawiać danych za nadawcę. Poproś o poprawiony dokument przed rozpoczęciem przewozu. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.",
+        "explanation": "Gdy w miejscu załadunku nie da się dokładnie zmierzyć ilości odpadów, 5.4.1.1.3.2 pozwala ją oszacować, a przy opakowaniach dołącza się listę z ich rodzajem i objętością nominalną. Przepis wymienia jednak przypadki, w których takie oszacowanie jest niedozwolone. Należą do nich odpady zawierające materiały klasy 4.3, które w kontakcie z wodą wydzielają gazy palne. Dla tych beczek nadawca musi więc podać w dokumencie ilość ustaloną bez szacowania. Podstawa: ADR 5.4.1.1.3.2 i 5.4.1.1.1 (f).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.1.1.3.1, 5.4.1.1.1, 1.4.2.2.3",
+            "reference": "ADR 2025, 5.4.1.1.3.2 (przypadki, w których oszacowanie jest niedozwolone); 5.4.1.1.1 (f)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
@@ -36,18 +36,18 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Przewoźnik nie powinien rozpoczynać przewozu z niekompletnym opisem; należy uzyskać poprawny dokument od nadawcy. Karta przekazania odpadu nie zastępuje danych ADR."
+          "rationale": "5.4.1.1.3.2: oszacowanie jest niedozwolone dla odpadów zawierających materiały klasy 4.3."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Kierowca nie ma przejmować obowiązku klasyfikacji ani samodzielnie dopisywać brakujących danych za nadawcę."
+          "rationale": "Lista opakowań to warunek (a) dopuszczalnego szacowania, lecz przy klasie 4.3 szacowanie jest niedozwolone."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Numer UN i karta odpadu nie usuwają braku wymaganego elementu prawidłowej nazwy przewozowej w dokumencie ADR."
+          "rationale": "Zakaz szacowania obejmuje też 1.1.3.6, materiały z 2.1.3.5.3 i klasę 4.3, a cysterny podciśnieniowe do odpadów są dopuszczone."
         }
       },
-      "notes_on_conditions": "ADR 5.4.1.1.3.1: słowo ODPAD poprzedza prawidłową nazwę przewozową odpadu zawierającego towary niebezpieczne, chyba że jest już częścią nazwy. Osobna karta przekazania odpadu nie zastępuje wymaganego dokumentu ADR. Pytanie nie przypisuje kierowcy samodzielnej klasyfikacji ani edycji dokumentu. Pełne porównanie tekstu pytania i niezależna recenzja specjalisty pozostają pending.",
+      "notes_on_conditions": "5.4.1.1.3.2 s. 963 (obraz strony); 5.4.1.1.1 (f) s. 961. Odrębne od 0318 (dopuszczalność szacowania). Do oceny specjalisty.",
       "editorial_result": "targeted_rule_identified_full_literal_question_and_specialist_review_pending",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

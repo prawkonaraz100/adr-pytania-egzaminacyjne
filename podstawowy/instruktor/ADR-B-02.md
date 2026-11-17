@@ -238,7 +238,7 @@ Pokaż kursantowi fikcyjny fragment dokumentu przewozowego z pozycją klasy 4.3 
 
 ### Ćwiczenie: rozróżnienie II i III grupy pakowania — klasa 4.3
 
-Przedstaw kursantowi dwa fikcyjne wyniki badań materiałów już zaklasyfikowanych do klasy 4.3: 24 l/kg/h (bez kryteriów I grupy) oraz 5 l/kg/h (bez kryteriów I i II grupy). Poproś o przypisanie odpowiednio II i III grupy oraz wyjaśnienie, dlaczego próg 20 l/kg/h nie jest wymagany dla III grupy. Podkreśl, że kierowca odczytuje grupę z dokumentacji i nie wykonuje samodzielnie prób z wodą ani klasyfikacji materiału. Pytanie kontrolne: ADR-B-0676 (`needs_review`). Podstawa: ADR 2.2.43.1.8(b)–(c).
+Przedstaw kursantowi dwa fikcyjne wyniki badań materiałów już zaklasyfikowanych do klasy 4.3: 24 l/kg/h (bez kryteriów I grupy) oraz 5 l/kg/h (bez kryteriów I i II grupy). Poproś o przypisanie odpowiednio II i III grupy oraz wyjaśnienie, dlaczego próg 20 l/kg/h nie jest wymagany dla III grupy. Podkreśl, że kierowca odczytuje grupę z dokumentacji i nie wykonuje samodzielnie prób z wodą ani klasyfikacji materiału. Pytanie kontrolne o znaczeniu grup pakowania: ADR-B-0127 (`needs_review`). Podstawa: ADR 2.2.43.1.8(b)–(c).
 
 ### Ćwiczenie: bębny klasy 4.3 w deszczu (CV23, V1)
 

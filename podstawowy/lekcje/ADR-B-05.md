@@ -338,7 +338,11 @@ Instrukcje pisemne ADR przewidują użycie gaśnicy przy małym pożarze opon, h
 
 
 
-Powiązane pytanie dodane w etapie 4x264: **ADR-B-0690**.
+### Gdy kierowca jest nieprzytomny — czynności wykonuje inny członek załogi
+
+Instrukcje pisemne kierują czynności w razie wypadku do członków załogi pojazdu, a nie jedynie do kierowcy. Jeżeli kierowca jest nieprzytomny, a pomocnik może działać bezpiecznie, to on zaciąga hamulec i wyłącza silnik. Następnie wykonuje dalsze czynności z instrukcji: ostrzega innych, wzywa służby i oddala się od zagrożenia.
+
+Powiązane pytanie: **ADR-B-0690**. Podstawa: ADR 5.4.3.4, 5.4.3.3 i 1.2.1 (członek załogi pojazdu).
 
 
 ### Powiadomienie służb bez zwłoki — ADR-B-0691
