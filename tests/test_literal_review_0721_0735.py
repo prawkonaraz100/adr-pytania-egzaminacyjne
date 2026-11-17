@@ -14,10 +14,10 @@ MANIFEST = ROOT / "review/literal-pl/PARTIA-0721-0735.json"
 FIRST_PASS_BANK_SHA = "884f19a050315bef28c614aa0f4aae9533ed14a9"
 EXPECTED_BANK_SHA = "884f19a050315bef28c614aa0f4aae9533ed14a9"
 EXPECTED_IDS = [f"ADR-B-{n:04d}" for n in range(721, 736)]
-ABSOLUTE = re.compile(r"\\b(tylko|zawsze|każdy|każda|każde|każdej|wszystkie|wyłącznie|żaden|żadnych|nigdy|całkowicie|automatycznie|niezależnie)\\b", re.I)
+ABSOLUTE = re.compile(r"\b(tylko|zawsze|każdy|każda|każde|każdej|wszystkie|wyłącznie|żaden|żadnych|nigdy|całkowicie|automatycznie|niezależnie)\b", re.I)
 
 def git_blob_sha(data):
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 class Partia49LiteralReview(unittest.TestCase):
     @classmethod
@@ -90,12 +90,12 @@ class Partia49LiteralReview(unittest.TestCase):
                 explanation = p["explanation"]
                 self.assertGreaterEqual(len(explanation), 300)
                 self.assertLessEqual(len(explanation), 500)
-                self.assertRegex(explanation, r"Podstawa: ADR 2025, .+\\.$")
-                sentences = re.split(r"(?<=[.!?])\\s+(?=[A-ZĄĆĘŁŃÓŚŹŻ])", explanation.strip())
+                self.assertRegex(explanation, r"Podstawa: ADR 2025, .+\.$")
+                sentences = re.split(r"(?<=[.!?])\s+(?=[A-ZĄĆĘŁŃÓŚŹŻ])", explanation.strip())
                 self.assertGreaterEqual(len(sentences), 2)
                 self.assertLessEqual(len(sentences), 5)
                 for sentence in sentences:
-                    self.assertLessEqual(len(re.findall(r"\\b[\\wąćęłńóśźżĄĆĘŁŃÓŚŹŻ-]+\\b", sentence)), 35)
+                    self.assertLessEqual(len(re.findall(r"\b[\wąćęłńóśźżĄĆĘŁŃÓŚŹŻ-]+\b", sentence)), 35)
                 self.assertTrue(p["sources"])
                 self.assertTrue(all(s["code"] == "ADR-2025-PL" and s["url"] for s in p["sources"]))
                 self.assertTrue(p["replacement_quote"])
