@@ -241,7 +241,7 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Podstawa:** ADR 5.4.3.4.
 
 
-## Ćwiczenie — bezpieczne usunięcie skażonej odzieży (ADR-B-0707)
+## Ćwiczenie — bezpieczne usunięcie skażonej odzieży (ADR-B-0167)
 
 **Sytuacja:** Po zdarzeniu kierowca oddalił się od zagrożenia i zdjął skażoną odzież oraz użyte skażone środki ochronne. Trzeba zdecydować, co zrobić z tymi rzeczami.
 
@@ -249,10 +249,20 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 
 **Typowe błędy:** wyrzucenie do zwykłego kosza; pozostawienie rzeczy przy drodze; przewiezienie skażonych rzeczy do kabiny lub przekazanie ich innej osobie bez ostrzeżenia.
 
-**Podstawa:** ADR 2025, 5.4.3.4. Ćwiczenie omawia się na sucho.
+**Podstawa:** ADR 5.4.3.4. Ćwiczenie omawia się na sucho.
+
+## Ćwiczenie — skażona kamizelka ostrzegawcza (ADR-B-0707)
+
+**Sytuacja:** Ciecz z kanistra z nalepką 6.1 oblała kamizelkę ostrzegawczą kierowcy. Zapasowej kamizelki nie ma, a kierowca chce nosić skażoną dalej.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że skażoną kamizelkę zdejmuje się i bezpiecznie usuwa, a przed dalszą jazdą trzeba uzupełnić kamizelkę wymaganą w 8.1.5.2.
+
+**Typowe błędy:** dalsze noszenie skażonej kamizelki; płukanie jej w rowie lub kałuży; dalsza jazda bez kamizelki.
+
+**Podstawa:** ADR 5.4.3.4 i 8.1.5.2. Ćwiczenie omawia się na sucho.
 
 
-## Ćwiczenie instruktorskie — pierwsza pomoc po zabezpieczeniu miejsca (ADR-B-0712)
+## Ćwiczenie instruktorskie — pierwsza pomoc po zabezpieczeniu miejsca (ADR-B-0187)
 
 **Cel:** kursant odróżnia ocenę bezpieczeństwa miejsca od czynności pierwszej pomocy wykonywanych po usunięciu bezpośredniego zagrożenia.
 
@@ -263,6 +273,16 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowy błąd:** utożsamianie pierwszej pomocy z wejściem w strefę niebezpieczną albo odwlekanie prostych czynności do przyjazdu służb mimo bezpiecznych warunków.
 
 **Podstawa:** ADR 2025, 8.2.2.3.2(e) — pierwsza pomoc jako element zakresu kursu podstawowego. Szczegółowe procedury należy ćwiczyć według aktualnych zasad pierwszej pomocy i kompetencji instruktora. Ćwiczenie symulacyjne; nie potwierdza rzeczywistego zaliczenia praktyki.
+
+## Ćwiczenie instruktorskie — rękawice przed pomocą skażonemu koledze (ADR-B-0712)
+
+**Sytuacja:** Ciecz z kanistra z nalepką 6.1 oblała rękaw kurtki pomocnika. Obaj stoją po stronie nawietrznej, a pomocnik prosi o pomoc w zdjęciu kurtki.
+
+**Oczekiwana decyzja:** Kursant najpierw zakłada rękawice ochronne z wyposażenia, dopiero potem pomaga zdjąć skażoną kurtkę i odkłada ją tak, by nikt jej nie dotykał.
+
+**Typowe błędy:** zdejmowanie kurtki gołymi rękami; polewanie rękawa wodą i pozostawienie kurtki na pomocniku.
+
+**Podstawa:** ADR 5.4.3.4, 8.1.5.2 i 8.2.2.3.2 (e). Ćwiczenie omawia się na sucho.
 
 
 ## Ćwiczenie instruktorskie — RKO i AED (ADR-B-0715)
@@ -291,7 +311,7 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Podstawa:** ADR 2025, 5.4.3.1–5.4.3.3. Ćwiczenie sprawdza rozumienie obowiązku i przygotowanie załogi, nie zastępuje oficjalnych instrukcji ani ich właściwej wersji językowej.
 
 
-## Ćwiczenie instruktorskie — osłona gaśnicy (ADR-B-0717)
+## Ćwiczenie instruktorskie — osłona gaśnicy (ADR-B-0749)
 
 **Cel:** kursant potrafi zauważyć problem zamocowania gaśnicy i wyjaśnić, dlaczego dostępność oraz ochrona przed wpływem pogody muszą występować łącznie.
 
@@ -302,6 +322,16 @@ Przeprowadź ćwiczenie na planszy albo z użyciem szkoleniowej gaśnicy pod nad
 **Typowe błędy:** uznanie, że wystarczy łatwy dostęp bez ochrony; wybór schowka zamykanego na klucz; założenie, że zewnętrzne mocowanie jest zawsze zabronione.
 
 **Podstawa:** ADR 2025, 8.1.4.5; praktyczne ćwiczenia gaszenia pożaru w 8.2.2.3.8. Ćwiczenie nie zastępuje właściwej konserwacji lub kontroli sprzętu.
+
+## Ćwiczenie instruktorskie — indywidualne gaszenie (ADR-B-0717)
+
+**Sytuacja:** Na kursie jest jedna gaśnica ćwiczebna, a prowadzący proponuje, by gaszenie pokazał jeden kursant.
+
+**Oczekiwana decyzja:** Kursant wskazuje, że według 8.2.2.3.8 ćwiczenia praktyczne z gaszenia pożaru są indywidualne, więc każdy uczestnik sam ćwiczy użycie gaśnicy.
+
+**Typowe błędy:** uznanie pokazu lub filmu za wystarczające; pominięcie ćwiczeń z pierwszej pomocy i postępowania przy awarii.
+
+**Podstawa:** ADR 8.2.2.3.8.
 
 
 ## Ćwiczenie instruktorskie — kilka zagrożeń w jednym przewozie (ADR-B-0718)
