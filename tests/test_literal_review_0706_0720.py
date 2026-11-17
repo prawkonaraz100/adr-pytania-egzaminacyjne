@@ -14,7 +14,7 @@ EXPECTED_BANK_SHA = "e92048bdde4e05422e3265542636b6213f3e10b4"
 EXPECTED_IDS = [f"ADR-B-{n:04d}" for n in range(706, 721)]
 
 def git_blob_sha(data):
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 class Partia48LiteralReview(unittest.TestCase):
     @classmethod
@@ -68,7 +68,7 @@ class Partia48LiteralReview(unittest.TestCase):
                     self.assertNotIn(";", option)
                 self.assertGreaterEqual(len(p["explanation"]), 300)
                 self.assertLessEqual(len(p["explanation"]), 500)
-                self.assertRegex(p["explanation"], r"Podstawa: ADR [\\d.]+\\.$")
+                self.assertRegex(p["explanation"], r"Podstawa: ADR [\d.]+\.$")
                 self.assertTrue(p["sources"])
                 self.assertTrue(p["replacement_quote"])
                 self.assertTrue(p["replacement_pages"])
