@@ -224,7 +224,7 @@ Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw prz
 
 **Jak rozumować:** Tylko jeśli to bezpieczne i właściwe, z odpowiednim wyposażeniem. To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
 
-**Sprawdź się:** `ADR-B-0100`, `ADR-B-0734`. **Podstawa do kontroli:** ADR 5.4.3.4 i 8.1.5.3.
+**Sprawdź się:** `ADR-B-0100`, `ADR-B-0612`, `ADR-B-0734`. **Podstawa do kontroli:** ADR 5.4.3.4 i 8.1.5.3.
 
 Dla towarów oznakowanych nalepką 3, 4.1, 4.3, 8 lub 9 ADR 8.1.5.3 wymaga dodatkowo łopaty, osłony kanalizacyjnej i pojemnika do zbierania pozostałości. To wyposażenie ma umożliwić ograniczenie skutków wycieku, ale nie oznacza obowiązku podejmowania działań za wszelką cenę. Używaj go wyłącznie wtedy, gdy jest to właściwe i bezpieczne; nie wchodź w rozlew ani w opary.
  
@@ -250,11 +250,11 @@ Dla towarów oznakowanych nalepką 3, 4.1, 4.3, 8 lub 9 ADR 8.1.5.3 wymaga dodat
  
 ### Oczyszczanie pojazdu po przewozie luzem (ADR-B-03-K03)
 
-Po rozładunku towarów niebezpiecznych przewożonych luzem pojazd lub kontener trzeba prawidłowo oczyścić przed ponownym załadunkiem. Wyjątek dotyczy sytuacji, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Nie wystarczy, że przestrzeń ładunkowa wygląda na pustą — brak widocznych pozostałości nie zastępuje wymaganego czyszczenia. To odrębna zasada od ADR 7.5.8.1, który opisuje czyszczenie po wycieku z opakowanych towarów.
+Po rozładunku towarów niebezpiecznych przewożonych luzem pojazd lub kontener trzeba prawidłowo oczyścić przed ponownym załadunkiem. Wyjątek dotyczy sytuacji, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Nie wystarczy, że przestrzeń ładunkowa wygląda na pustą — brak widocznych pozostałości nie zastępuje wymaganego czyszczenia. To odrębna zasada od ADR 7.5.8.1, który opisuje czyszczenie po wycieku z opakowanych towarów. Do czasu oczyszczenia próżny pojazd po przewozie luzem materiału stałego spełnia według 7.3.1.10 wymagania jak w stanie ładownym, chyba że wyeliminowano wszystkie zagrożenia.
 
-**Przykład do przemyślenia:** Po przewozie luzem jednego materiału niebezpiecznego firma chce załadować inny materiał. Kursant powinien wskazać, że przed ponownym załadunkiem trzeba prawidłowo oczyścić pojazd; wyjątek nie działa, bo nowy towar jest inny.
+**Przykład do przemyślenia:** Po przewozie luzem jednego materiału niebezpiecznego firma chce załadować inny materiał. Kursant powinien wskazać, że przed ponownym załadunkiem trzeba prawidłowo oczyścić pojazd; wyjątek nie działa, bo nowy towar jest inny. Do tego czasu pojazd jedzie tak, jak gdyby był załadowany.
 
-**Sprawdź się:** ADR-B-0733. **Scenariusz praktyczny:** SC-ADR-B-03-04. **Podstawa do kontroli:** ADR 7.5.8.2.
+**Sprawdź się:** ADR-B-0733. **Scenariusz praktyczny:** SC-ADR-B-03-04. **Podstawa do kontroli:** ADR 7.5.8.2 i 7.3.1.10.
 
 ### Ćwiczenie na zakończenie lekcji
 
@@ -283,19 +283,34 @@ Jeżeli po wypadku lub awarii odzież albo użyte środki ochronne zostały ska�
 Jeżeli klasyfikację odpadu wykonano zgodnie z ADR 2.1.3.5.5, opis towaru niebezpiecznego w dokumencie przewozowym trzeba uzupełnić dokładnym zapisem „ODPAD ZGODNY Z 2.1.3.5.5”. Samo ogólne słowo „ODPAD” nie zastępuje tego szczególnego dopisku. Podstawa: ADR 2025, 5.4.1.1.3.1.
 
 
-### Wyjątek od czyszczenia po przewozie luzem — tylko ten sam towar niebezpieczny (ADR-B-0733)
+### Wyjątek od czyszczenia po przewozie luzem — tylko ten sam towar niebezpieczny
 
 Po przewozie luzem pojazd lub kontener trzeba prawidłowo oczyścić przed ponownym załadunkiem. Wyjątek dotyczy sytuacji, gdy kolejny ładunek składa się z tych samych towarów niebezpiecznych. Sam fakt, że poprzedni i następny towar należą do tej samej klasy, nie wystarcza. Podstawa: ADR 2025, 7.5.8.2.
 
 
-### Wyposażenie ochrony kanalizacji także przy nalepce 9 — ADR-B-0734
+### Próżny, nieoczyszczony pojazd po przewozie luzem (ADR-B-0733)
+
+Po rozładunku materiału stałego przewożonego luzem w skrzyni mogą zostać resztki. Dlatego według 7.3.1.10 próżny pojazd lub kontener spełnia wymagania jak w stanie ładownym, na przykład pozostaje przykryty opończą, jeżeli wymagano jej dla ładunku. Wyjątek dotyczy sytuacji, gdy zastosowano odpowiednie środki, aby wyeliminować wszystkie zagrożenia, na przykład pojazd oczyszczono. Wpis w dokumencie przewozowym nie zastępuje tych wymagań. Powiązane pytanie: ADR-B-0733. Podstawa: ADR 7.3.1.10.
+
+
+### Wyposażenie ochrony kanalizacji także przy nalepce 9 — ADR-B-0612
 
 Jednostka przewożąca towary oznakowane nalepką 9 musi mieć dodatkowe wyposażenie wskazane w ADR 8.1.5.3: łopatę, osłonę kanalizacyjną i pojemnik do zebrania pozostałości. Wymóg nie ogranicza się do towarów klasy 8. Podstawa: ADR 2025, 8.1.5.3.
 
 
-### Dokumenty przewozowe za rozlewem — nie wchodzić w strefę skażenia (ADR-B-0735)
+### Materiał trujący a ochrona wód — ADR-B-0734
+
+Znak ryby i drzewa nie jest jedyną wskazówką, że wyciek zagraża wodzie. W instrukcjach pisemnych wiersz dla nalepki 6.1 wymienia zagrożenie zatruciem oraz zagrożenie w przypadku przedostania się materiału do środowiska wodnego lub kanalizacji. Podobne ostrzeżenie mają wiersze dla nalepek 6.2, 8 i 9. Jeżeli jest to bezpieczne, załoga zapobiega spływowi do rowu lub kratki z użyciem wyposażenia jednostki. Powiązane pytanie: ADR-B-0734. Podstawa: ADR 5.4.3.4 (instrukcje pisemne).
+
+
+### Dokumenty przewozowe za rozlewem — nie wchodzić w strefę skażenia
 
 Jeżeli dokumenty pozostały w kabinie, ale jedyna droga do nich prowadzi przez rozlew lub opary, kierowca nie powinien ryzykować wejścia w skażony obszar. Ma oddalić się na stronę nawietrzną, ostrzec innych i przekazać służbom, gdzie znajdują się dokumenty. Ich dostępność dla ratowników nie oznacza obowiązku narażenia załogi. Podstawa: ADR 2025, 5.4.3.4 — model instrukcji pisemnych.
+
+
+### Ciecze pod materiałami stałymi przy załadunku (ADR-B-0735)
+
+Skażeniu można też zapobiegać już przy załadunku. UWAGA do 7.5.1.5 zaleca, aby towary niebezpieczne w stanie ciekłym ładować, jeżeli to możliwe, pod towarami niebezpiecznymi w stanie stałym. Gdy kanister zacznie przeciekać, ciecz nie spłynie wtedy na kartony z materiałem stałym i nie rozniesie skażenia po ładunku. Powiązane pytanie: ADR-B-0735. Podstawa: ADR 7.5.1.5 (UWAGA).
 
 
 ### Przeciek materiału z przepisem CV13 — kontrola pozostałego ładunku

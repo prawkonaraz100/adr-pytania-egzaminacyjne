@@ -302,4 +302,4 @@ Przewóz materiału bezpośrednio do naprawy na miejscu pracy może spełniać w
 
 ### Przepis szczególny w kolumnie 6 tabeli A
 
-Po znalezieniu numeru UN i nazwy przewozowej sprawdź także kolumnę 6 tabeli A. Jeśli widnieje tam numer przepisu szczególnego, odszukaj go w ADR 3.3.1 i przeczytaj, czy zmienia zasady przewozu lub nakłada warunki. Nie wystarczy samo poprawne opakowanie i dokument. Powiązane pytanie ADR-B-0721. Podstawa: ADR 2025, 3.2.1, kolumna (6) oraz 3.3.1.
+Po znalezieniu numeru UN i nazwy przewozowej sprawdź także kolumnę 6 tabeli A. Jeśli widnieje tam numer przepisu szczególnego, odszukaj jego treść w dziale 3.3 (ADR 3.3.1) i przeczytaj, czy zmienia zasady przewozu lub nakłada warunki. Nie wystarczy samo poprawne opakowanie i dokument. Powiązane pytanie ADR-B-0721. Podstawa: ADR 2025, 3.2.1, kolumna (6) oraz 3.3.1.

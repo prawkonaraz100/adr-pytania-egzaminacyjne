@@ -144,7 +144,7 @@ Przeprowadź ćwiczenie na fikcyjnym dokumencie. Kursant ma wskazać brak lub w�
 
 ### Scenariusz SC-ADR-B-03-04 — czyszczenie po przewozie luzem
 
-Przedstaw fikcyjną sytuację, w której po rozładunku towaru niebezpiecznego przewożonego luzem pojazd ma przyjąć inny towar. Poproś kursanta o wskazanie wyjątku z ADR 7.5.8.2: ponowne załadowanie bez czyszczenia jest dopuszczone tylko wtedy, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Zwróć uwagę, że „pusty” nie oznacza „oczyszczony”. Nie zlecaj wykonywania realnych prób ani samodzielnego czyszczenia nieznanych pozostałości. Pytanie kontrolne: ADR-B-0733.
+Przedstaw fikcyjną sytuację, w której po rozładunku towaru niebezpiecznego przewożonego luzem pojazd ma przyjąć inny towar. Poproś kursanta o wskazanie wyjątku z ADR 7.5.8.2: ponowne załadowanie bez czyszczenia jest dopuszczone tylko wtedy, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Zwróć uwagę, że „pusty” nie oznacza „oczyszczony”: do czasu oczyszczenia próżny pojazd po przewozie luzem materiału stałego spełnia wymagania jak w stanie ładownym, na przykład pozostaje pod opończą (ADR 7.3.1.10). Nie zlecaj wykonywania realnych prób ani samodzielnego czyszczenia nieznanych pozostałości. Pytanie kontrolne: ADR-B-0733.
 
 
 ### Ćwiczenie dokumentu odpadu — ADR-B-0008
@@ -156,7 +156,7 @@ Przedstaw kursantowi dokument ADR z pominiętym słowem „ODPAD” przed nazwą
 
 **Sytuacja symulowana:** Pojazd przewozi towar ADR z nalepką nr 8. Kursant ma wskazać wymagane dodatkowe wyposażenie i wyjaśnić, kiedy można go użyć przy wycieku.
 
-**Oczekiwane wskazanie:** łopata, osłona kanalizacyjna i pojemnik do zbierania pozostałości; wskazuje je ADR 8.1.5.3 dla materiałów stałych i ciekłych z nalepkami 3, 4.1, 4.3, 8 lub 9. Numery nalepek odczytuje się z dokumentu przewozowego (8.1.5.1). Pytanie kontrolne: ADR-B-0734. Zagrożenie dla wód przy znaku ryby i drzewa w instrukcjach pisemnych sprawdza ADR-B-0681.
+**Oczekiwane wskazanie:** łopata, osłona kanalizacyjna i pojemnik do zbierania pozostałości; wskazuje je ADR 8.1.5.3 dla materiałów stałych i ciekłych z nalepkami 3, 4.1, 4.3, 8 lub 9. Numery nalepek odczytuje się z dokumentu przewozowego (8.1.5.1). Pytanie kontrolne: ADR-B-0612. Zagrożenie dla wód przy znaku ryby i drzewa w instrukcjach pisemnych sprawdza ADR-B-0681.
 
 **Granica bezpieczeństwa:** Samo posiadanie sprzętu nie upoważnia do wejścia w rozlew ani narażania się na kontakt z substancją. Działanie tylko wtedy, gdy jest właściwe i bezpieczne (instrukcje pisemne ADR 5.4.3.4). Ćwiczenie wyłącznie na fikcyjnej karcie, bez rzeczywistego wycieku.
 
