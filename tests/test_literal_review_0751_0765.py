@@ -17,7 +17,7 @@ EXPECTED_IDS = [f"ADR-B-{n:04d}" for n in range(751, 766)]
 
 
 def git_blob_sha(data):
-    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\\0" + data).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
 
 
 class Partia51LiteralReview(unittest.TestCase):
