@@ -102,14 +102,25 @@ class Partia49LiteralReview(unittest.TestCase):
                 self.assertTrue(all(isinstance(page, int) and page > 0 for page in p["replacement_pages"]))
 
     def test_bank_after_second_pass_and_all_questions_unverified(self):
-        self.assertEqual(git_blob_sha(self.raw), FIRST_PASS_BANK_SHA)
         self.assertEqual(git_blob_sha(self.raw), EXPECTED_BANK_SHA)
+        self.assertNotEqual(FIRST_PASS_BANK_SHA, EXPECTED_BANK_SHA)
         self.assertEqual(len(self.bank), 780)
         for question_id in EXPECTED_IDS:
             question = self.bank[question_id]
             self.assertEqual(question["verification_status"], "needs_review")
             self.assertIsNone(question["checked_at"])
             self.assertIsNone(question["reviewer"])
+
+    def test_second_pass_artifacts_and_bank_sha(self):
+        report = ROOT / "review/literal-pl/KONTROLA2-PARTIA-0721-0735.md"
+        changes = ROOT / "review/literal-pl/POPRAWKI-KONTROLA2-0721-0735.jsonl"
+        self.assertTrue(report.is_file())
+        self.assertTrue(changes.is_file())
+        records = [json.loads(line) for line in changes.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(records), 15)
+        self.assertEqual([r["id"] for r in records], EXPECTED_IDS)
+        self.assertTrue(all(r["verification_status"] == "needs_review" for r in records))
+        self.assertEqual(git_blob_sha(BANK.read_bytes()), EXPECTED_BANK_SHA)
 
 if __name__ == "__main__":
     unittest.main()
