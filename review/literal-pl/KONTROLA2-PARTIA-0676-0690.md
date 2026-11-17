@@ -186,3 +186,7 @@ Git worktree z main 0bb465c6b + POPRAWKI + synchronizacja: 14 skryptów CI zielo
 - 0690 – rola pomocnika (członka załogi) przy nieprzytomnym kierowcy.
 - kompetencje.json: 03-K04 ma w legal_refs „5.4.3.4; 8.1.5.2” – wyposażenie do ochrony kanalizacji wynika z 8.1.5.3 (nie zmieniano; do decyzji).
 - poza partią: 0769 dubluje 0514, 0706 dubluje 0177; 0708 dubluje 0714; 0713 – KC 471 a Prawo przewozowe.
+
+## Kontrola druga
+
+**0 OK / 15 POPRAW / 0 BLOKUJ — POPRAW potwierdzone.** Nie przejęto w całości zamienników z #923: zmiana liter kluczy w 0676, 0678 i 0679; zdanie po „Podstawa”; dwie prawdziwe opcje w 0683 i 0685; duplikaty lub tematy wyczerpane w 0677, 0681, 0687 i 0690; słabe dystraktory w 0680. Wskazanie ADR 8.1.5.3 przy 0681 było trafne. Licznik 105 → 90 jest poprawny. Zastosowano 8 nowych elementów i 7 przeredagowań; bez cystern, bez zmian liter kluczy, modułów i kompetencji. Nowy blob banku: `092325a21fe95a47406e2d28e4947885c19dc0dc`.
