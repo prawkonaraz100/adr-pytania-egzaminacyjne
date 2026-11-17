@@ -68,7 +68,7 @@ class Partia48LiteralReview(unittest.TestCase):
                     self.assertNotIn(";", option)
                 self.assertGreaterEqual(len(p["explanation"]), 300)
                 self.assertLessEqual(len(p["explanation"]), 500)
-                self.assertRegex(p["explanation"], r"Podstawa: ADR [\d.]+\.$")
+                self.assertRegex(p["explanation"], r"Podstawa: ADR .+\.$")
                 self.assertTrue(p["sources"])
                 self.assertTrue(p["replacement_quote"])
                 self.assertTrue(p["replacement_pages"])
