@@ -8,29 +8,19 @@
       "id": "ADR-B-0704",
       "sequence": 704,
       "exact_record_snapshot": {
-        "stem": "Gaśnica ADR jest mocno zamocowana w uchwycie, ale uchwyt można otworzyć tylko specjalnym kluczem, który leży w zamkniętej skrzynce narzędziowej. Co należy poprawić przed wyjazdem?",
+        "stem": "Pojazd ADR ma w komorze silnika stałą instalację gaśniczą, która uruchamia się automatycznie w razie pożaru silnika. Przewoźnik pyta, czy przenośna gaśnica odpowiednia do zwalczania pożaru silnika jest wtedy nadal wymagana. Co wynika z 8.1.4.3?",
         "options": {
-          "A": "Pozostawić ją w tym miejscu, ponieważ pewne zamocowanie jest ważniejsze niż szybki dostęp załogi.",
-          "B": "Przenieść ją do uchwytu, z którego członek załogi może szybko wyjąć gaśnicę bez szukania klucza.",
-          "C": "Zostawić ją tam, ale umieścić na skrzynce narzędziowej dodatkową etykietę wskazującą miejsce klucza."
+          "A": "Tak, stała instalacja nie zmienia wymagań dla gaśnic przenośnych",
+          "B": "Nie, wtedy przenośna gaśnica do pożaru silnika nie jest wymagana",
+          "C": "Nie, a pojazd nie musi już wtedy wozić innych gaśnic przenośnych"
         },
         "correct_option": "B",
-        "explanation": "Gaśnica musi być nie tylko stabilnie zamocowana, ale też łatwo dostępna dla załogi. Jeżeli jej wyjęcie wymaga najpierw znalezienia klucza w zamkniętej skrzynce, w nagłym zdarzeniu dostęp jest utrudniony. Sama etykieta wskazująca miejsce klucza nie rozwiązuje tego problemu. Trzeba zmienić miejsce lub uchwyt tak, aby można ją było szybko wyjąć. Podstawa: ADR 8.1.4.5.",
+        "explanation": "Według 8.1.4.3 przenośna gaśnica odpowiednia do zwalczania pożaru silnika nie jest wymagana, jeżeli pojazd ma gaśnicę stałą uruchamianą automatycznie w razie pożaru silnika lub w inny łatwy sposób. Zwolnienie dotyczy tylko gaśnicy do pożaru silnika, a nie pozostałych wymagań 8.1.4.1. Gaśnice przenośne, które nadal są wymagane, montuje się tak, aby były łatwo dostępne dla załogi. Podstawa: ADR 8.1.4.3, 8.1.4.1 i 8.1.4.5.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.4.5 — gaśnice powinny być zamontowane w jednostce transportowej w sposób zapewniający łatwy dostęp załodze oraz ochronę przed działaniem warunków atmosferycznych",
-            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
-          },
-          {
-            "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.1.4.5",
+            "reference": "ADR 2025, 8.1.4.3 (gaśnica stała do pożaru silnika); 8.1.4.1; 8.1.4.5",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-UNECE",
-            "reference": "ADR 2025, 8.1.4.5 — fire extinguishers shall be installed so as to be easily accessible to the vehicle crew",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
