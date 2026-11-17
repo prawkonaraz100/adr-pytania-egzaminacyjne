@@ -2,6 +2,7 @@
 from collections import Counter
 import hashlib
 import json
+import re
 from pathlib import Path
 import unittest
 
@@ -78,8 +79,8 @@ class Partia52LiteralReview(unittest.TestCase):
                 self.assertEqual(row["verdict"], "POPRAW")
                 self.assertEqual(row["verification_status"], "needs_review")
                 self.assertEqual(question["verification_status"], "needs_review")
-                self.assertIsNone(question["checked_at"])
-                self.assertIsNone(question["reviewer"])
+                self.assertIsNone(question.get("checked_at"))
+                self.assertIsNone(question.get("reviewer"))
                 self.assertEqual(replacement["module_id"], question["module_id"])
                 self.assertEqual(replacement["competency_id"], self.competencies[row["id"]])
                 self.assertEqual(replacement["correct_option"], question["correct_option"])
@@ -98,7 +99,7 @@ class Partia52LiteralReview(unittest.TestCase):
                 explanation = replacement["explanation"]
                 self.assertGreaterEqual(len(explanation), 200)
                 self.assertLessEqual(len(explanation), 500)
-                self.assertTrue(explanation.rstrip().split(".")[-1].strip().startswith("Podstawa: ADR 2025"))
+                self.assertRegex(explanation, r"Podstawa: ADR 2025, .+\\.$")
                 self.assertTrue(replacement["sources"])
                 self.assertTrue(replacement["replacement_quote"])
                 self.assertTrue(replacement["replacement_pages"])
