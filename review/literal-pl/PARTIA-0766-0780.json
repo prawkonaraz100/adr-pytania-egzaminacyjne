@@ -119,9 +119,9 @@
         "competency_id": "ADR-B-09-K06",
         "stem": "Po zamocowaniu kartonów pozostaje niewielki luz. Podczas jazdy nie zmienia on ustawienia opakowań ani nie powoduje ich uszkodzeń. Jak należy postąpić z pasami?",
         "options": {
-          "A": "Dociągnąć pasy do granicy wytrzymałości opakowań",
+          "A": "Dociągnąć pasy mocniej, mimo ryzyka deformacji kartonów",
           "B": "Pozostawić mocowanie, jeśli zapobiega szkodliwym przemieszczeniom",
-          "C": "Zdjąć pasy i oprzeć stabilność ładunku na zamknięciu drzwi"
+          "C": "Zdjąć pasy i oprzeć stabilność ładunku na zamknięciu tylnych drzwi"
         },
         "correct_option": "B",
         "explanation": "Celem mocowania jest unieruchomienie sztuk przesyłek w sposób zapobiegający przemieszczeniom, które mogłyby zmienić ich ustawienie lub spowodować uszkodzenie. ADR nakazuje unikać nadmiernego napinania pasów, jeżeli mogłoby ono zdeformować opakowania. Sam niewielki luz, który nie powoduje takich skutków, nie uzasadnia maksymalnego dociągania. Podstawa: ADR 2025, 7.5.7.1.",
@@ -161,9 +161,9 @@
         "competency_id": "ADR-B-09-K07",
         "stem": "Wywrotka przewiozła luzem materiał niebezpieczny. Po rozładunku ma przyjąć inny towar niebezpieczny. Co trzeba zrobić przed ponownym załadunkiem?",
         "options": {
-          "A": "Usunąć widoczne pozostałości tylko z tylnej burty",
+          "A": "Usunąć pozostałości z tylnej burty",
           "B": "Oczyścić pojazd przed załadunkiem innego towaru",
-          "C": "Odłożyć czyszczenie do końca kolejnej zmiany roboczej"
+          "C": "Odłożyć czyszczenie do zakończenia kolejnej zmiany roboczej"
         },
         "correct_option": "B",
         "explanation": "Po przewozie towarów niebezpiecznych luzem pojazd lub kontener powinien zostać odpowiednio oczyszczony przed ponownym załadunkiem. Wyjątek dotyczy sytuacji, gdy nowy ładunek zawiera te same towary niebezpieczne co poprzedni. W przedstawionym przypadku nowy towar jest inny, więc wyjątek nie ma zastosowania. Podstawa: ADR 2025, 7.5.8.2.",
@@ -202,9 +202,9 @@
         "competency_id": "ADR-B-10-K02",
         "stem": "W łańcuchu morsko-drogowym nadawca używa dokumentu przewozowego sporządzonego według Kodeksu IMDG. Dokument zawiera dane wymagane przez IMDG, ale pomija dodatkową informację wymaganą przez ADR. Czy można użyć go bez uzupełnienia?",
         "options": {
-          "A": "Tak, dokument IMDG zastępuje wszystkie informacje wymagane przez ADR",
-          "B": "Nie, należy dodać informacje wymagane dodatkowo na podstawie ADR",
-          "C": "Tak, jeśli oznakowanie przesyłek odpowiada wymaganiom Kodeksu IMDG"
+          "A": "Dokument IMDG może zastąpić dane ADR w łańcuchu morskim",
+          "B": "Uzupełnić dokument o informacje wymagane dodatkowo na podstawie ADR",
+          "C": "Dane z IMDG muszą być dostępne podczas przewozu w formie równoważnej"
         },
         "correct_option": "B",
         "explanation": "W łańcuchu przewozowym obejmującym transport morski lub lotniczy dokumenty wymagane przez IMDG albo ICAO mogą zastąpić odpowiednią dokumentację ADR. Nie zwalnia to jednak z podania każdej dodatkowej informacji wymaganej na podstawie ADR. Dlatego dokument używany w tym łańcuchu trzeba uzupełnić, jeżeli brakuje w nim takiej informacji. Podstawa: ADR 2025, 1.1.4.2.3.",
@@ -247,9 +247,9 @@
         "competency_id": "ADR-B-11-K04",
         "stem": "W kolumnie (15) tabeli A przy każdym z przewożonych towarów widnieje znak „(—)”. Jak należy odczytać to oznaczenie?",
         "options": {
-          "A": "Towary wymagają przejazdu przez tunele kategorii A",
+          "A": "W tunelu kategorii A obowiązuje zakaz przewozu",
           "B": "Towary nie podlegają ograniczeniom przewozu przez tunele",
-          "C": "Kod trzeba ustalić na podstawie największej masy towaru"
+          "C": "Kod trzeba ustalić na podstawie ładowności całej jednostki"
         },
         "correct_option": "B",
         "explanation": "W kolumnie (15) tabeli A podaje się kod ograniczeń przewozu przez tunele. Znak „(—)” umieszczony zamiast kodu oznacza, że dany towar nie podlega ograniczeniom przewozu przez tunele. Nie trzeba przypisywać mu kategorii ani wyliczać ograniczeń na podstawie masy. Podstawa: ADR 2025, 8.6.3.1.",
@@ -289,9 +289,9 @@
         "competency_id": "ADR-B-11-K06",
         "stem": "Jednostka przewozi towar z kodem B korzystający z 1.1.3 oraz towary LQ z kodem D. Ilość LQ wymaga oznakowania jednostki zgodnie z 3.4.13. Który kod stosuje się do całego ładunku?",
         "options": {
-          "A": "Kod D, ponieważ towary objęte 1.1.3 pomija się również przy wymaganym oznakowaniu LQ",
-          "B": "Kod B, ponieważ oznakowanie LQ powoduje uwzględnienie towaru z 1.1.3",
-          "C": "Brak kodu, ponieważ oznakowanie LQ znosi ograniczenia tunelowe całej jednostki"
+          "A": "Kod D, bo towary z 1.1.3 pomija się także przy znaku LQ",
+          "B": "Kod B, bo wymagany znak LQ powoduje uwzględnienie towaru z 1.1.3",
+          "C": "Oznakowanie LQ wyłącza ograniczenia tunelowe także dla towaru z kodem B"
         },
         "correct_option": "B",
         "explanation": "Towary przewożone zgodnie z rozdziałem 1.1.3 zasadniczo pomija się przy ustalaniu kodu tunelowego całego ładunku. Wyjątek zachodzi, gdy jednostka transportowa musi być oznakowana zgodnie z 3.4.13, z zastrzeżeniem 3.4.14. Wtedy towar korzystający z 1.1.3 także uwzględnia się, a dla całego ładunku stosuje się kod odpowiadający największym ograniczeniom. Podstawa: ADR 2025, 8.6.3.2–8.6.3.3.",
@@ -330,8 +330,8 @@
         "competency_id": "ADR-B-11-K07",
         "stem": "Po pożarze w tunelu kierowca znajduje się w bezpiecznym miejscu. Przybyli ratownicy pytają o przewożony ładunek. Jak powinien postąpić zgodnie z instrukcjami pisemnymi?",
         "options": {
-          "A": "Podać numer rejestracyjny i miejsce zdarzenia, a dane o ładunku pozostawić ratownikom",
-          "B": "Przekazać ogólny opis pożaru i poczekać na odczyt oznakowania pojazdu",
+          "A": "Podać numer rejestracyjny, miejsce zdarzenia i kierunek jazdy pojazdu",
+          "B": "Opisać pożar i pozostawić ratownikom odczyt danych z oznakowania pojazdu",
           "C": "Powiadomić służby i podać dostępne informacje o zdarzeniu oraz towarach"
         },
         "correct_option": "C",
@@ -370,7 +370,7 @@
         "competency_id": "ADR-B-12-K01",
         "stem": "Kierowca podczas przewozu ADR ma przy sobie ważny paszport ze zdjęciem, ale nie ma polskiego dowodu osobistego. Czy spełnia wymaganie 1.10.1.4?",
         "options": {
-          "A": "Wymóg spełnia ważny paszport zawierający fotografię",
+          "A": "Wymaganie spełnia paszport z aktualnym zdjęciem kierowcy",
           "B": "Potrzebny jest dowód osobisty wydany przez polski urząd",
           "C": "Potrzebna jest legitymacja przewoźnika z numerem zlecenia"
         },
@@ -412,9 +412,9 @@
         "competency_id": "ADR-B-12-K02",
         "stem": "Terminal czasowo przechowuje towary niebezpieczne podczas przewozu. Operator twierdzi, że brak możliwości zamknięcia placu zwalnia go również z zabezpieczenia i oświetlenia. Jak należy odczytać 1.10.1.3?",
         "options": {
-          "A": "Ochrona i oświetlenie zależą od tego, czy plac można zamknąć dla osób postronnych",
-          "B": "Plac ma być chroniony i oświetlony; dostęp ogółu ogranicza się, gdy to możliwe i wskazane",
-          "C": "Dostęp osób postronnych można ograniczyć, lecz zabezpieczenie i oświetlenie placu pozostają wymagane"
+          "A": "Plac ma być chroniony i oświetlony przy otwartym dostępie osób postronnych",
+          "B": "Plac ma być chroniony i oświetlony, a dostęp ogółu ogranicza się, gdy to możliwe",
+          "C": "Dostęp ogółu ogranicza się, gdy to możliwe; obszar ma być chroniony i oświetlony"
         },
         "correct_option": "B",
         "explanation": "ADR wymaga, aby miejsca czasowego przechowywania towarów niebezpiecznych podczas przewozu były odpowiednio chronione i dobrze oświetlone. Dodatkowo powinny być niedostępne dla osób postronnych, o ile jest to możliwe i wskazane. Warunek możliwości i zasadności odnosi się do ograniczenia dostępu, a nie do dwóch wcześniejszych wymagań. Podstawa: ADR 2025, 1.10.1.3.",
@@ -454,7 +454,7 @@
         "stem": "Kierowca zgłasza odbiór towaru ADR w imieniu firmy wskazanej w zleceniu, lecz dokumenty przewozowe wskazują inną firmę. Nie potrafi wyjaśnić rozbieżności. Co powinien zrobić pracownik wydający przesyłkę?",
         "options": {
           "A": "Wydać towar po sprawdzeniu numeru zlecenia i pojazdu",
-          "B": "Sprawdzić dokument kierowcy, a rozbieżność wyjaśnić później",
+          "B": "Sprawdzić dokument kierowcy i wyjaśnić rozbieżność przed wydaniem",
           "C": "Wstrzymać wydanie i potwierdzić tożsamość faktycznego przewoźnika"
         },
         "correct_option": "C",
@@ -535,7 +535,7 @@
         "stem": "Kierowca ma w kabinie dokument przewozowy, lecz instrukcje pisemne ADR pozostały w biurze spedytora. Czy może rozpocząć przewóz?",
         "options": {
           "A": "Może ruszyć, jeśli zna procedury opisane w instrukcjach",
-          "B": "Nie, instrukcje pisemne należą do dokumentów przewożonych w kabinie",
+          "B": "Instrukcje pisemne powinny znajdować się w kabinie kierowcy",
           "C": "Może ruszyć, jeśli spedytor prześle instrukcje po rozpoczęciu trasy"
         },
         "correct_option": "B",
@@ -583,7 +583,7 @@
         "competency_id": "ADR-B-13-K06",
         "stem": "Przewóz korzystający z 1.1.4.2.1 jest dokumentowany w systemie EDI spełniającym warunki 5.4.0.2. W danych elektronicznych brakuje dodatkowego zapisu wymaganego przez 5.4.1.1.7. Co należy zrobić przed przewozem?",
         "options": {
-          "A": "Rozpocząć przewóz, ponieważ EDI zastępuje dokumentację papierową",
+          "A": "Ruszyć, jeśli dane EDI zawierają opis towaru",
           "B": "Uzupełnić zapis EDI o wymaganą wzmiankę dotyczącą 1.1.4.2.1",
           "C": "Pozostawić dane bez zmian i dopisać wzmiankę w rejestrze przewoźnika"
         },
@@ -625,9 +625,9 @@
         "competency_id": "ADR-B-13-K07",
         "stem": "Ciągnik uległ awarii, a przewoźnik podstawia pojazd zastępczy do dalszego przewozu tego samego ładunku ADR. Instrukcje pisemne pozostały w uszkodzonym pojeździe. Co trzeba zrobić przed odjazdem?",
         "options": {
-          "A": "Przekazać kierowcy ustną informację o treści instrukcji",
+          "A": "Przekazać kierowcy treść instrukcji w rozmowie telefonicznej",
           "B": "Umieścić instrukcje w kabinie pojazdu zastępczego w łatwo dostępnym miejscu",
-          "C": "Pozostawić instrukcje w uszkodzonym ciągniku do czasu zakończenia naprawy"
+          "C": "Pozostawić instrukcje w uszkodzonym ciągniku i kontynuować przewóz bez nich"
         },
         "correct_option": "B",
         "explanation": "Instrukcje pisemne muszą być przewożone w kabinie kierowcy, a ich sposób przechowywania ma zapewniać łatwy dostęp. Po zmianie ciągnika obowiązek dotyczy jednostki transportowej kontynuującej przewóz, więc instrukcje należy przenieść do kabiny pojazdu zastępczego. Ustne przekazanie treści nie zastępuje dokumentu. Podstawa: ADR 2025, 8.1.2.1(b) i 8.1.2.3.",
