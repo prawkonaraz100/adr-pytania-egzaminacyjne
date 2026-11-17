@@ -8,23 +8,18 @@
       "id": "ADR-B-0686",
       "sequence": 686,
       "exact_record_snapshot": {
-        "stem": "Podczas sprawdzenia wyposażenia ADR w pojeździe jadą dwie osoby z załogi, ale w schowku jest tylko jedna przenośna lampa. Czy taki zestaw spełnia wymagania dotyczące liczby lamp?",
+        "stem": "Pojazd ADR ma na zabudowie mocne reflektory robocze, które oświetlają teren wokół niego. Kierowca jedzie sam i uważa, że dzięki nim nie musi wozić przenośnej latarki z wykazu wyposażenia ADR. Czy ma rację?",
         "options": {
-          "A": "Nie. Każdy członek załogi musi mieć własną przenośną lampę, więc przy dwóch osobach potrzebne są dwie sztuki.",
-          "B": "Tak. Jedna lampa wystarczy całej załodze, jeżeli kierowca może przekazać ją drugiej osobie po zakończeniu swojej czynności.",
-          "C": "Tak. Wymóg dotyczy tylko kierowcy prowadzącego pojazd; pomocnik nie musi mieć własnej lampy."
+          "A": "Nie, 8.1.5.2 wymaga przenośnego oświetlenia dla członka załogi",
+          "B": "Tak, jeśli reflektory oświetlają teren wokół pojazdu",
+          "C": "Tak, bo latarka jest wymagana dopiero przy dwóch osobach w załodze"
         },
         "correct_option": "A",
-        "explanation": "ADR określa liczbę przenośnych lamp na członka załogi, a nie na cały pojazd. Przy dwóch osobach trzeba więc mieć dwie lampy; przekazywanie jednej między nimi nie spełnia wymogu. To wyposażenie ma być dostępne dla każdego członka załogi podczas przewozu. Odpowiedź B błędnie traktuje wyposażenie osobiste jak wspólne, a C pomija pomocnika. Podstawa: ADR 8.1.5.2.",
+        "explanation": "Wykaz z 8.1.5.2 wymaga dla każdego członka załogi pojazdu przenośnego urządzenia oświetleniowego zgodnego z 8.3.4. Kierowca jadący sam też jest członkiem załogi, więc potrzebuje własnej latarki. Reflektory zamontowane na pojeździe jej nie zastąpią, bo nie da się z nimi podejść do miejsca, którego nie oświetlają, na przykład pod naczepę. Według 8.3.4 latarka nie może mieć powierzchni metalowych mogących spowodować iskrę. Podstawa: ADR 8.1.5.2, 8.3.4 i 1.2.1 (członek załogi pojazdu).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.2 — przenośna lampa dla każdego członka załogi",
-            "url": "https://www.gov.pl/attachment/b7292c03-ac9d-4f80-9a29-c22f53d847b8"
-          },
-          {
-            "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642 — Umowa ADR 2025, pkt 8.1.5.2",
+            "reference": "ADR 2025, 8.1.5.2 (przenośne urządzenia oświetleniowe dla każdego członka załogi); 8.3.4; 1.2.1 (członek załogi pojazdu)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
