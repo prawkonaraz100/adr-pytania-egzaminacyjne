@@ -144,10 +144,10 @@ Przeprowadź ćwiczenie na fikcyjnym dokumencie. Kursant ma wskazać brak lub w�
 
 ### Scenariusz SC-ADR-B-03-04 — czyszczenie po przewozie luzem
 
-Przedstaw fikcyjną sytuację, w której po rozładunku towaru niebezpiecznego przewożonego luzem pojazd ma przyjąć inny towar. Poproś kursanta o wskazanie wyjątku z ADR 7.5.8.2: ponowne załadowanie bez czyszczenia jest dopuszczone tylko wtedy, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Zwróć uwagę, że „pusty” nie oznacza „oczyszczony”. Nie zlecaj wykonywania realnych prób ani samodzielnego czyszczenia nieznanych pozostałości. Pytanie kontrolne: ADR-B-0677.
+Przedstaw fikcyjną sytuację, w której po rozładunku towaru niebezpiecznego przewożonego luzem pojazd ma przyjąć inny towar. Poproś kursanta o wskazanie wyjątku z ADR 7.5.8.2: ponowne załadowanie bez czyszczenia jest dopuszczone tylko wtedy, gdy nowy ładunek składa się z tych samych towarów niebezpiecznych co poprzedni. Zwróć uwagę, że „pusty” nie oznacza „oczyszczony”. Nie zlecaj wykonywania realnych prób ani samodzielnego czyszczenia nieznanych pozostałości. Pytanie kontrolne: ADR-B-0733.
 
 
-### Ćwiczenie dokumentu odpadu — ADR-B-0680
+### Ćwiczenie dokumentu odpadu — ADR-B-0008
 
 Przedstaw kursantowi dokument ADR z pominiętym słowem „ODPAD” przed nazwą przewozową odpadu zawierającego towary niebezpieczne oraz osobną kartę przekazania odpadu. Poproś o wskazanie, dlaczego karta odpadu nie zastępuje opisu ADR i kto powinien dostarczyć poprawione dane. Oczekiwana decyzja: nie rozpoczynać przewozu z niekompletnym dokumentem; skontaktować się z nadawcą i uzyskać poprawiony dokument. Kierowca nie klasyfikuje samodzielnie odpadu ani nie dopisuje brakującego opisu za nadawcę. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.
 
@@ -156,12 +156,12 @@ Przedstaw kursantowi dokument ADR z pominiętym słowem „ODPAD” przed nazwą
 
 **Sytuacja symulowana:** Pojazd przewozi towar ADR z nalepką nr 8. Kursant ma wskazać wymagane dodatkowe wyposażenie i wyjaśnić, kiedy można go użyć przy wycieku.
 
-**Oczekiwane wskazanie:** łopata, osłona kanalizacyjna i pojemnik do zbierania pozostałości; dla tej grupy nalepek wskazuje je ADR 8.1.5.2. Analogiczny wymóg dotyczy nalepek 3, 4.1, 4.3 i 9.
+**Oczekiwane wskazanie:** łopata, osłona kanalizacyjna i pojemnik do zbierania pozostałości; wskazuje je ADR 8.1.5.3 dla materiałów stałych i ciekłych z nalepkami 3, 4.1, 4.3, 8 lub 9. Numery nalepek odczytuje się z dokumentu przewozowego (8.1.5.1). Pytanie kontrolne: ADR-B-0734. Zagrożenie dla wód przy znaku ryby i drzewa w instrukcjach pisemnych sprawdza ADR-B-0681.
 
 **Granica bezpieczeństwa:** Samo posiadanie sprzętu nie upoważnia do wejścia w rozlew ani narażania się na kontakt z substancją. Działanie tylko wtedy, gdy jest właściwe i bezpieczne (instrukcje pisemne ADR 5.4.3.4). Ćwiczenie wyłącznie na fikcyjnej karcie, bez rzeczywistego wycieku.
 
 
-### Zadanie instruktorskie — skażona odzież po awarii (ADR-B-0687)
+### Zadanie instruktorskie — skażona odzież po awarii
 
 **Sytuacja symulowana:** po oddaleniu się od rozlewu kursant zauważa skażoną odzież i użyte rękawice ochronne. Poproś go o wskazanie czynności wynikającej z instrukcji pisemnych ADR: zdjąć skażoną odzież i użyte skażone środki ochronne oraz bezpiecznie je usunąć. Nie wkładać ich do kabiny ani do zwykłej torby z zamiarem prania.
 
