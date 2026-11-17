@@ -8,24 +8,19 @@
       "id": "ADR-B-0718",
       "sequence": 718,
       "exact_record_snapshot": {
-        "stem": "Podczas ćwiczenia reakcji na awarię pojazdu ADR przewożącego kilka różnych towarów kierowca widzi w instrukcjach pisemnych odrębne wskazówki dla zagrożeń obu ładunków. Które podejście jest właściwe?",
+        "stem": "Po kolizji z pękniętego kanistra z nalepką 3 wycieka ciecz, a z rozdartego worka z nalepką 4.3 obok wysypał się proszek. Pomocnik chce spłukać całe miejsce wodą, bo dla nalepki 3 instrukcje pisemne nie zabraniają wody. Co wynika z instrukcji?",
         "options": {
-          "A": "Uwzględnić wszystkie właściwe wskazówki dla zagrożeń przewożonych towarów i działać tylko wtedy, gdy jest bezpiecznie.",
-          "B": "Wybrać wskazówki tylko dla pierwszego towaru w dokumencie, ponieważ pozostałe zagrożenia są mniej istotne.",
-          "C": "Wykonać jedynie wskazówki dla towaru o największej masie, niezależnie od pozostałych oznaczeń zagrożenia."
+          "A": "Nie spłukiwać, bo stosuje się też wskazówki dla 4.3: proszek ma być suchy",
+          "B": "Spłukać, bo przy ładunku mieszanym liczą się wskazówki dla pierwszego towaru",
+          "C": "Spłukać, bo wskazówki dla nalepki 4.3 dotyczą pożaru, a nie rozsypania"
         },
         "correct_option": "A",
-        "explanation": "Gdy ładunek stwarza kilka różnych zagrożeń, trzeba uwzględnić wszystkie dotyczące ich wskazówki z instrukcji pisemnych. Działania podejmuj tylko wtedy, gdy są bezpieczne; w razie zagrożenia oddal się i wezwij służby. Wybranie wyłącznie pierwszego albo najcięższego towaru może pominąć ważne niebezpieczeństwo. Podstawa: ADR 5.4.3.4, uwaga 1 do instrukcji pisemnych; ćwiczenia praktyczne 8.2.2.3.8.",
+        "explanation": "Uwaga 1 do instrukcji pisemnych mówi, że przy ładunkach mieszanych stosuje się każdą ze wskazówek określonych dla przewożonych towarów. Dla nalepki 4.3 instrukcje ostrzegają przed pożarem i wybuchem w kontakcie z wodą. Każą też utrzymywać uwolniony materiał w stanie suchym, pod przykryciem. Spłukanie rozlanej cieczy wodą zmoczyłoby więc także wysypany proszek. Podstawa: ADR 5.4.3.4 (Uwaga 1 i nalepka 4.3).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4 (uwaga 1: przy wielu zagrożeniach i ładunkach mieszanych uwzględnia się każdą właściwą pozycję instrukcji); 8.2.2.3.8 (ćwiczenia praktyczne)",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
-          },
-          {
-            "code": "UNECE-ADR-2025",
-            "reference": "ADR 2025, 5.4.3.4 written instructions NOTE 1: for dangerous goods with multiple risks and for mixed loads, each applicable entry shall be observed",
-            "url": "https://unece.org/info/Transport/pub/395786"
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne: UWAGA 1 – ładunki mieszane; nalepka 4.3 – uwolniony materiał utrzymywać w stanie suchym, pod przykryciem)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
