@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0724",
       "order": 724,
-      "clause": "ADR 2025, 2.2.42.1.1 i 2.2.42.1.3",
+      "clause": "ADR 2025, 2.2.42.1.3 (samonagrzewanie i samozapalenie)",
       "question_snapshot": {
         "id": "ADR-B-0724",
         "module_id": "ADR-B-02",
-        "stem": "Podczas przygotowania przewozu materiału samonagrzewającego się klasy 4.2 ktoś twierdzi, że nie może się on zapalić bez płomienia ani iskry. Jak kierowca powinien ocenić to stwierdzenie?",
+        "stem": "Worki z materiałem samonagrzewającym się klasy 4.2 leżą w dużym, ciasnym stosie. Kolega pyta, od czego zależy, czy samonagrzewanie skończy się samozapaleniem. Co wyjaśnia ADR?",
         "options": {
-          "A": "Jest błędne: materiał może nagrzewać się w kontakcie z powietrzem i po pewnym czasie sam się zapalić.",
-          "B": "Jest prawdziwe: materiał nagrzewa się jedynie wtedy, gdy z zewnątrz doprowadza się ogień lub iskrę.",
-          "C": "Jest prawdziwe: samonagrzewanie oznacza wyłącznie wzrost temperatury bez możliwości zapalenia."
+          "A": "Od tego, czy ciepło powstaje szybciej, niż może zostać oddane",
+          "B": "Od tego, czy w pobliżu stosu pojawi się iskra albo otwarty płomień",
+          "C": "Od tego, czy materiał zmoczy woda deszczowa albo woda z mycia"
         },
         "correct_option": "A",
-        "explanation": "Materiał samonagrzewający się może w kontakcie z powietrzem powoli wytwarzać ciepło, nawet bez płomienia i iskry. Jeśli ciepło nie jest dostatecznie odprowadzane, po godzinach lub dniach może dojść do samozapłonu. Dlatego błędne są odpowiedzi wymagające zewnętrznego ognia albo wykluczające zapalenie. Podstawa: ADR 2025, 2.2.42.1.1 i 2.2.42.1.3.",
+        "explanation": "Samonagrzewanie to proces, w którym materiał stopniowo reaguje z tlenem z powietrza i wydziela ciepło. Jeżeli ciepło powstaje szybciej, niż może zostać oddane do otoczenia, temperatura materiału rośnie. Po pewnym czasie może dojść do samozapalenia, nawet bez iskry czy płomienia. Groźna reakcja z wodą jest cechą materiałów klasy 4.3, a nie opisem samonagrzewania. Podstawa: ADR 2.2.42.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.42.1.1 i 2.2.42.1.3",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 2.2.42.1.3 (samonagrzewanie: ciepło z reakcji z tlenem powietrza; samozapalenie, gdy szybkość generowania ciepła przewyższa szybkość jego wydzielania)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": true,
-          "rationale": "Materiały samonagrzewające się mogą wytwarzać ciepło w kontakcie z powietrzem i ulec samozapłonowi po pewnym czasie."
+          "rationale": "2.2.42.1.3: samozapalenie następuje, gdy szybkość generowania ciepła przewyższa szybkość jego wydzielania (oddawania)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Doprowadzenie zewnętrznego ognia lub iskry nie jest warunkiem powstania samonagrzewania."
+          "rationale": "Samonagrzewanie prowadzi do samozapalenia bez zewnętrznego źródła zapłonu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Gromadzenie ciepła może prowadzić do samozapłonu, więc nie jest to wyłącznie nieszkodliwy wzrost temperatury."
+          "rationale": "Reakcja z wodą to cecha klasy 4.3, a nie mechanizm samonagrzewania z 2.2.42.1.3."
         }
       },
-      "notes_on_conditions": "Nie każdy materiał klasy 4.2 zapala się równie szybko: piroforyczne mogą zapalić się w pięć minut, samonagrzewające w większej ilości po godzinach lub dniach.",
+      "notes_on_conditions": "2.2.42.1.3 s. 182. Nowy element – stare pytanie = 0154; 0665 i 0361 dotyczą innych aspektów klasy 4.2.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

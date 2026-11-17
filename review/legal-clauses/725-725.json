@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0725",
       "order": 725,
-      "clause": "ADR 2025, 2.2.51.1.1",
+      "clause": "ADR 2025, 2.2.51.2.2 (materiały klasy 5.1 niedopuszczone do przewozu)",
       "question_snapshot": {
         "id": "ADR-B-0725",
         "module_id": "ADR-B-02",
-        "stem": "Przy przyjęciu ładunku klasy 5.1 pracownik mówi: „Ten materiał sam nie musi się palić, więc nie wpłynie na pożar kartonów obok”. Która ocena jest prawidłowa?",
+        "stem": "Nadawca chce wysłać kanistry z niestabilizowanym roztworem wodnym nadtlenku wodoru, który zawiera 70% nadtlenku wodoru. Kanistry są szczelne i oznakowane. Czy ADR dopuszcza ten materiał klasy 5.1 do przewozu?",
         "options": {
-          "A": "Pracownik ma rację: tylko ładunek, który sam płonie, może zwiększyć zagrożenie pożarowe w pojeździe.",
-          "B": "Pracownik się myli: utleniacz może podtrzymywać lub nasilać spalanie innych materiałów, choć sam nie płonie.",
-          "C": "Pracownik ma rację: utleniacze oddziałują wyłącznie na metale, a nie na zwykłe materiały palne."
+          "A": "Tak, jeżeli kanistry mają nalepki i jest wypełniony dokument przewozowy",
+          "B": "Nie, ADR nie dopuszcza takiego roztworu powyżej 60% nadtlenku",
+          "C": "Tak, jeżeli przewiezie się go jako ilości ograniczone (LQ)"
         },
         "correct_option": "B",
-        "explanation": "Materiały utleniające klasy 5.1 nie muszą same się palić, ale mogą dostarczać tlen lub w inny sposób nasilać spalanie sąsiedniego ładunku. Dlatego kartony i inne materiały palne nadal mogą być poważnie zagrożone. Twierdzenia, że utleniacz nie wpływa na pożar albo działa tylko na metale, są błędne. Podstawa: ADR 2025, 2.2.51.1.1.",
+        "explanation": "Klasa 5.1 ma własną listę materiałów niedopuszczonych do przewozu. Znajduje się na niej niestabilizowany nadtlenek wodoru oraz jego niestabilizowany roztwór wodny, który zawiera więcej niż 60% nadtlenku wodoru. Skoro materiał jest wymieniony jako niedopuszczony, szczelne opakowanie, nalepki ani dokument przewozowy tego nie zmieniają. Nie pomaga też przewóz jako ilości ograniczone, bo materiał w ogóle nie może być przewożony. Podstawa: ADR 2.2.51.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.51.1.1",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 2.2.51.2.2 (materiały niedopuszczone do przewozu: nadtlenek wodoru, niestabilizowany lub roztwór wodny niestabilizowany, zawierający więcej niż 60% nadtlenku wodoru)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Utlentiacze mogą nasilać pożar innych materiałów bez własnej palności."
+          "rationale": "Nalepki i dokument nie dopuszczają materiału wymienionego w 2.2.51.2.2 jako niedopuszczony."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Klasa 5.1 może podtrzymywać lub nasilać spalanie innych materiałów, zazwyczaj poprzez dostarczanie tlenu."
+          "rationale": "2.2.51.2.2: nadtlenek wodoru niestabilizowany lub jego roztwór wodny niestabilizowany zawierający > 60% nadtlenku wodoru nie jest dopuszczony."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Oddziaływanie utleniaczy nie ogranicza się tylko do metali, może dotyczyć innych palnych materiałów."
+          "rationale": "Ilości ograniczone nie dotyczą materiału niedopuszczonego do przewozu."
         }
       },
-      "notes_on_conditions": "Nie każdy utleniacz jest sam palny; zagrożenie dotyczy wpływu na spalanie innych materiałów, a konkretne warunki zależą od pozycji przewozowej.",
+      "notes_on_conditions": "2.2.51.2.2 s. 193. Nowy element – stare pytanie = 0156 (utleniacz nasila spalanie). Znaczenie praktyczne do oceny specjalisty.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

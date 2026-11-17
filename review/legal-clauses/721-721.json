@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0721",
       "order": 721,
-      "clause": "ADR 2025, 3.2.1, kolumna (6); 3.3.1",
+      "clause": "ADR 2025, 3.2.1 (kolumna (6) „Przepisy szczególne”); 3.3.1",
       "question_snapshot": {
         "id": "ADR-B-0721",
         "module_id": "ADR-B-01",
-        "stem": "Przewoźnik dostał numer UN i nazwę przewozową. W tabeli A ADR przy tej pozycji w kolumnie 6 podano numer przepisu szczególnego, ale nadawca nie sprawdził jego treści. Co należy zrobić przed uznaniem przewozu za dopuszczony?",
+        "stem": "Przewoźnik sprawdza, czy towar jest dopuszczony do przewozu. W tabeli A przy jego numerze UN w kolumnie (6) podano numer przepisu szczególnego. Nadawca nie sprawdził jego treści. Co trzeba zrobić, zanim uzna się przewóz za dopuszczony?",
         "options": {
-          "A": "Uznać przewóz za dozwolony, bo numer UN i nazwa przewozowa w tabeli A wystarczają bez dalszych sprawdzeń.",
-          "B": "Pominąć przepis szczególny, jeżeli ładunek jest prawidłowo zapakowany i oznakowany, a nadawca wystawił dokument.",
-          "C": "Odczytać przepis szczególny z kolumny 6 i sprawdzić, jakie dodatkowe warunki albo ograniczenia obowiązują."
+          "A": "Uznać, że numer UN i nazwa przewozowa wystarczą do tej oceny",
+          "B": "Pominąć ten numer, gdy towar jest dobrze zapakowany i oznakowany",
+          "C": "Odczytać treść tego przepisu w dziale 3.3 i sprawdzić warunki"
         },
         "correct_option": "C",
-        "explanation": "Numer UN i nazwa przewozowa pomagają znaleźć towar w tabeli A, ale nie mówią jeszcze o wszystkich warunkach jego przewozu. Jeżeli w kolumnie 6 jest numer przepisu szczególnego, trzeba odczytać jego treść i sprawdzić ograniczenia przed przyjęciem ładunku. Samo opakowanie lub prawidłowe oznakowanie nie zastępują tej kontroli. Podstawa: ADR 2025, 3.2.1 (kolumna 6) oraz 3.3.1.",
+        "explanation": "Numer UN i nazwa przewozowa pozwalają znaleźć towar w tabeli A, ale nie pokazują wszystkich warunków jego przewozu. Kolumna (6) zawiera numery przepisów szczególnych, które trzeba stosować, a ich treść i wymagania podaje dział 3.3. Taki przepis może dodać warunki, ograniczenia albo wyjątki, więc trzeba go przeczytać przed przyjęciem ładunku. Prawidłowe opakowanie i oznakowanie nie zastępują tej kontroli. Podstawa: ADR 3.2.1 (kolumna 6) i 3.3.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 3.2.1, kolumna (6); 3.3.1",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 3.2.1 (objaśnienie kolumny (6) „Przepisy szczególne”); 3.3.1 (znaczenie i wymagania przepisów szczególnych)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Identifying the UN number and proper shipping name is not enough if the row links to a special provision with further conditions."
+          "rationale": "Numer UN i nazwa przewozowa nie zawierają warunków z przepisu szczególnego wskazanego w kolumnie (6)."
         },
         "B": {
           "expected_correct": false,
-          "rationale": "Correct packaging and a document do not waive the need to check a listed special provision's applicability."
+          "rationale": "Opakowanie i oznakowanie nie zastępują sprawdzenia przepisu szczególnego, który może dodać warunki lub ograniczenia."
         },
         "C": {
           "expected_correct": true,
-          "rationale": "Column (6) identifies special provisions whose contents in chapter 3.3 must be consulted for the relevant entry."
+          "rationale": "3.2.1: kolumna (6) zawiera kody przepisów szczególnych, które powinny być stosowane; ich treść podaje dział 3.3 (3.3.1)."
         }
       },
-      "notes_on_conditions": "Not every special provision forbids carriage; the exact provision linked in column (6) determines additional requirements or possible exemptions.",
+      "notes_on_conditions": "3.2.1 kolumna (6); 3.3.1 s. 626. Przeredagowanie – opcje >80 znaków z kropkami; temat bez zmian, bez duplikatu.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",

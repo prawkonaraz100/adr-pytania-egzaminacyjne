@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0722",
       "order": 722,
-      "clause": "ADR 2025, 2.2.3.1.1",
+      "clause": "ADR 2025, 2.2.3.1.3 (tabela grup pakowania: temperatura zapłonu i temperatura początku wrzenia)",
       "question_snapshot": {
         "id": "ADR-B-0722",
         "module_id": "ADR-B-02",
-        "stem": "Kierowca ma przewieźć ciecz, której dokumentacja podaje temperaturę zapłonu 18°C. Na placu załadunkowym jest tylko 8°C. Jak powinien rozumieć ryzyko pożaru przy otwieraniu opakowania?",
+        "stem": "Rozpuszczalnik bez zagrożeń dodatkowych ma temperaturę zapłonu 18 °C i temperaturę początku wrzenia 80 °C. Nie jest cieczą lepką. Do której grupy pakowania zalicza go tabela w 2.2.3.1.3?",
         "options": {
-          "A": "Chłodniejsze powietrze usuwa zagrożenie zapłonem, więc kontrola źródeł ognia nie jest konieczna.",
-          "B": "Ciecz nadal wymaga ostrożności: jej pary mogą się zapalić, dlatego trzeba unikać źródeł zapłonu.",
-          "C": "Temperatura zapłonu dotyczy wyłącznie wrzenia cieczy, więc nie ma znaczenia przy załadunku."
+          "A": "Do I grupy, bo temperatura zapłonu jest niższa niż 23 °C",
+          "B": "Do II grupy: zapłon poniżej 23 °C, wrzenie powyżej 35 °C",
+          "C": "Do III grupy, bo temperatura zapłonu nie przekracza 60 °C"
         },
         "correct_option": "B",
-        "explanation": "Temperatura zapłonu 18°C informuje, że ciecz może tworzyć palne pary już w stosunkowo niskiej temperaturze. Chłodny poranek nie daje kierowcy prawa do lekceważenia źródeł zapłonu, a temperatura zapłonu nie oznacza temperatury wrzenia. Dlatego przy obsłudze takiego ładunku trzeba zachować ostrożność wobec ognia i iskier. Podstawa: ADR 2025, 2.2.3.1.1.",
+        "explanation": "Grupę pakowania cieczy zapalnej odczytuje się z tabeli w 2.2.3.1.3 na podstawie dwóch wartości: temperatury zapłonu i temperatury początku wrzenia. Do I grupy należą ciecze, które zaczynają wrzeć w 35 °C lub niżej. Ciecz o temperaturze zapłonu niższej niż 23 °C i początku wrzenia powyżej 35 °C należy do II grupy. III grupa obejmuje ciecze z zapłonem od 23 °C do 60 °C i wrzeniem powyżej 35 °C. Podstawa: ADR 2.2.3.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.3.1.1",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 2.2.3.1.3 (tabela grup pakowania według temperatury zapłonu i temperatury początku wrzenia)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Chłodniejsze powietrze nie zwalnia z ostrożności przy palnej cieczy."
+          "rationale": "I grupa obejmuje ciecze o temperaturze początku wrzenia ≤ 35 °C; 80 °C wyklucza I grupę."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Temperatura zapłonu 18°C uzasadnia unikanie źródeł zapłonu także w chłodniejszym otoczeniu."
+          "rationale": "2.2.3.1.3: zapłon < 23 °C i początek wrzenia > 35 °C – II grupa pakowania (ciecz nielepka, bez zagrożeń dodatkowych)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Temperatura zapłonu nie jest temperaturą wrzenia."
+          "rationale": "III grupa obejmuje zapłon ≥ 23 °C i ≤ 60 °C; 18 °C jest poniżej tego zakresu."
         }
       },
-      "notes_on_conditions": "Temperatura zapłonu to nie temperatura wrzenia; klasyfikacja musi uwzględniać kryteria i wyjątki 2.2.3.",
+      "notes_on_conditions": "2.2.3.1.3 s. 165–166 (przypis a → 2.2.3.1.4 dla cieczy lepkich). Nowy element – stary klucz sporny w świetle 1.2.1 (s. 46), bliski 0658.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
       "final_verification_status": "needs_review",

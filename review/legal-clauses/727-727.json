@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0727",
       "order": 727,
-      "clause": "ADR 2025, 2.2.61.1.1",
+      "clause": "ADR 2025, 2.2.61.1.2 (kody klasyfikacyjne klasy 6.1); 3.2.1 (kolumna (3b))",
       "question_snapshot": {
         "id": "ADR-B-0727",
         "module_id": "ADR-B-02",
-        "stem": "Przy odbiorze ładunku klasy 6.1 kierowca słyszy, że brak wyczuwalnego zapachu oznacza brak zagrożenia zatruciem. Jak powinien zareagować?",
+        "stem": "W kolumnie (3b) tabeli A materiał klasy 6.1 ma kod klasyfikacyjny TF1. Kolega uważa, że skoro to materiał trujący, nie trzeba się obawiać pożaru. Co oznacza ten kod?",
         "options": {
-          "A": "Uznać zapach za wystarczający test: jeśli nic nie czuć, nie ma ryzyka kontaktu z materiałem.",
-          "B": "Nie polegać na zapachu: substancja trująca może szkodzić także bez wyczuwalnej woni i wymaga ostrożności.",
-          "C": "Sprawdzić bezpieczeństwo, otwierając opakowanie i sprawdzając, czy jego zawartość ma intensywny zapach."
+          "A": "Materiał trujący ciekły stosowany jako pestycyd, bez innych zagrożeń",
+          "B": "Materiał trujący ciekły, który jest także materiałem zapalnym",
+          "C": "Materiał trujący ciekły, który działa także żrąco na skórę"
         },
         "correct_option": "B",
-        "explanation": "Materiały trujące klasy 6.1 mogą spowodować poważne szkody po połknięciu, wdychaniu albo kontakcie ze skórą, niezależnie od tego, czy kierowca wyczuwa zapach. Dlatego brak woni nie potwierdza bezpieczeństwa. Otwieranie opakowania i wąchanie zawartości zwiększa narażenie, zamiast je oceniać. Podstawa: ADR 2025, 2.2.61.1.1.",
+        "explanation": "Kody klasyfikacyjne klasy 6.1 opisują rodzaj materiału i jego zagrożenia dodatkowe. Litera T oznacza materiał trujący, a dodana litera F wskazuje, że jest on także zapalny. Kod TF1 obejmuje materiały trujące zapalne ciekłe, więc trzeba uwzględnić zarówno zatrucie, jak i pożar. Materiały trujące żrące mają kody zaczynające się od TC, a pestycydy ciekłe bez zagrożenia dodatkowego kod T6. Podstawa: ADR 2.2.61.1.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.61.1.1",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 2.2.61.1.2 (kody klasyfikacyjne klasy 6.1: TF1 – materiały trujące zapalne ciekłe; TC – trujące żrące; T6 – pestycydy ciekłe); 3.2.1 (kolumna (3b))",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Zagrożenie zatruciem nie zależy od możliwości wyczucia zapachu konkretnego materiału."
+          "rationale": "Pestycydy ciekłe bez zagrożenia dodatkowego mają kod T6, nie TF1."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Zatrucie może nastąpić wskutek połknięcia, wdychania lub kontaktu ze skórą, również przy braku wyczuwalnej woni."
+          "rationale": "2.2.61.1.2: TF1 – materiały trujące zapalne ciekłe; litera F oznacza zagrożenie zapalnością."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Otwieranie opakowania i celowe wąchanie trującej substancji zwiększa ryzyko narażenia."
+          "rationale": "Materiały trujące żrące mają kody TC, nie TF."
         }
       },
-      "notes_on_conditions": "Sposób i nasilenie działania substancji trującej zależą od właściwości konkretnego materiału; zapach nie jest kryterium bezpieczeństwa.",
+      "notes_on_conditions": "2.2.61.1.2 s. 214. Nowy element – stare (zapach) spoza ADR. Format kodu podobny do 0218/0265/0302/0266 – do oceny.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
