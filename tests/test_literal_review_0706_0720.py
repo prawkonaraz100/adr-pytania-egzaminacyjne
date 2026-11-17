@@ -74,5 +74,15 @@ class Partia48LiteralReview(unittest.TestCase):
                 self.assertTrue(p["replacement_quote"])
                 self.assertTrue(p["replacement_pages"])
 
+    def test_second_pass_artifacts_and_bank_sha(self):
+        self.assertTrue((ROOT / "review/literal-pl/KONTROLA2-PARTIA-0706-0720.md").is_file())
+        patch = ROOT / "review/literal-pl/POPRAWKI-KONTROLA2-0706-0720.jsonl"
+        self.assertTrue(patch.is_file())
+        patch_rows = [json.loads(line) for line in patch.read_text(encoding="utf-8").splitlines() if line.strip()]
+        self.assertEqual(len(patch_rows), 15)
+        self.assertEqual([row["id"] for row in patch_rows], EXPECTED_IDS)
+        self.assertEqual(git_blob_sha(self.raw), EXPECTED_BANK_SHA)
+        self.assertNotEqual(FIRST_PASS_BANK_SHA, EXPECTED_BANK_SHA)
+
 if __name__ == "__main__":
     unittest.main()
