@@ -296,3 +296,28 @@ Jednostka przewożąca towary oznakowane nalepką 9 musi mieć dodatkowe wyposa�
 ### Dokumenty przewozowe za rozlewem — nie wchodzić w strefę skażenia (ADR-B-0735)
 
 Jeżeli dokumenty pozostały w kabinie, ale jedyna droga do nich prowadzi przez rozlew lub opary, kierowca nie powinien ryzykować wejścia w skażony obszar. Ma oddalić się na stronę nawietrzną, ostrzec innych i przekazać służbom, gdzie znajdują się dokumenty. Ich dostępność dla ratowników nie oznacza obowiązku narażenia załogi. Podstawa: ADR 2025, 5.4.3.4 — model instrukcji pisemnych.
+
+
+### Przeciek materiału z przepisem CV13 — kontrola pozostałego ładunku
+
+Dla niektórych materiałów trujących kolumna (18) tabeli A wskazuje przepis CV13, na przykład dla UN 2810. Jeżeli taki materiał wydostał się z opakowania i rozlał lub rozsypał w pojeździe, pojazdu nie wolno ponownie użyć przed dokładnym oczyszczeniem, a w razie potrzeby odkażeniem. CV13 wymaga też sprawdzenia, czy pozostałe materiały i przedmioty przewożone w tym pojeździe nie zostały skażone. Wpis w dokumencie ani przykrycie plamy folią nie zastępują tej kontroli.
+
+**Sprawdź się:** ADR-B-0677. **Podstawa do kontroli:** ADR 7.5.11 (CV13), 7.5.8.1 i tabela A (UN 2810).
+
+### Szacowana ilość odpadu — kiedy jest niedozwolona
+
+Gdy w miejscu załadunku nie da się dokładnie zmierzyć ilości odpadów, 5.4.1.1.3.2 pozwala podać w dokumencie ilość oszacowaną z odpowiednim zapisem. Przy opakowaniach dołącza się wtedy listę z ich rodzajem i objętością nominalną. Szacowanie jest jednak niedozwolone między innymi dla odpadów zawierających materiały klasy 4.3. Jeśli widzisz taki zapis przy odpadzie z klasą 4.3, wyjaśnij to z nadawcą przed wyjazdem.
+
+Powiązane pytanie: ADR-B-0680. Podstawa: ADR 5.4.1.1.3.2 i 5.4.1.1.1(f).
+
+### Znak ryby i drzewa w instrukcjach pisemnych
+
+Znak z rybą i drzewem nie służy jedynie do oznakowania przesyłki. W instrukcjach pisemnych ma własny wiersz: materiał zagrażający środowisku grozi szkodą, jeśli przedostanie się do środowiska wodnego lub kanalizacji. Gdy towar ma także nalepkę zagrożenia, na przykład 3, stosuje się wskazówki dla każdego z tych oznaczeń. Przy wycieku, jeśli to właściwe i bezpieczne, zapobiegnij spływowi do kratki lub rowu i zbierz wyciek wyposażeniem z pojazdu.
+
+**Sprawdź się:** ADR-B-0681. **Podstawa do kontroli:** ADR 5.4.3.4 (instrukcje pisemne, wiersz „Materiały zagrażające środowisku”).
+
+### Rozsypany proszek z nalepką 7
+
+W instrukcjach pisemnych przy nalepce 7 opisano zagrożenie napromieniowaniem po wchłonięciu i napromieniowaniem zewnętrznym oraz wskazówkę, by ograniczyć czas narażenia. Rozsypany proszek promieniotwórczy grozi więc nie tylko z odległości, lecz także wtedy, gdy dostanie się do organizmu. Dlatego nie dotykaj uwolnionego materiału, nie wchodź w niego, unikaj wdychania pyłu i pozostań po stronie nawietrznej. Zbieranie takiego materiału zostaw służbom.
+
+**Ćwiczenie:** ADR-B-0687. Podstawa: ADR 5.4.3.4 (instrukcje pisemne, tabela nalepek — nalepka 7).
