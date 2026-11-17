@@ -6,12 +6,12 @@
   "bank_blob_sha": "884f19a050315bef28c614aa0f4aae9533ed14a9",
   "bank_changed": false,
   "previous_uncompared": 60,
-  "compared": 5,
-  "remaining_without_comparison": 55,
+  "compared": 10,
+  "remaining_without_comparison": 50,
   "verified": 0,
   "counts": {
     "OK": 0,
-    "POPRAW": 5,
+    "POPRAW": 10,
     "BLOKUJ": 0
   },
   "similarity": {
@@ -232,6 +232,221 @@
         "replacement_quote": "O2 Materiały stałe;",
         "replacement_pages": [
           191
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0726",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K08",
+      "legal_basis": "ADR 2025, 2.2.52.1.15; 7.1.7.4.1",
+      "gazette_pages": [
+        199,
+        1286
+      ],
+      "exact_quote": "Następujące nadtlenki organiczne wymagają kontrolowania temperatury podczas przewozu:",
+      "finding": "Wymóg kontroli temperatury jest prawidłowy, ale wskazane przepisy wymagają procedury na wypadek utraty możliwości utrzymania temperatury; nie ustanawiają jednej uniwersalnej reakcji „przerwać przewóz i powiadomić”.",
+      "duplicate_candidates": [
+        "ADR-B-0667",
+        "ADR-B-0307"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K08",
+        "stem": "Co powinien zawierać plan przewozu nadtlenku klasy 5.2 w temperaturze kontrolowanej?",
+        "options": {
+          "A": "Plan kontroli dokumentów podczas przewozu",
+          "B": "Wykaz punktów obsługi dostępnych na trasie",
+          "C": "Procedura po utracie wymaganej temperatury"
+        },
+        "correct_option": "C",
+        "explanation": "Nadtlenki organiczne wskazane w 2.2.52.1.15 wymagają kontrolowania temperatury podczas przewozu. ADR wymaga też określenia procedur na wypadek utraty możliwości utrzymania zadanej temperatury. Nie formułuje to jednej uniwersalnej reakcji dla każdej awarii urządzenia, dlatego postępowanie powinno wynikać z przygotowanej procedury. Podstawa: ADR 2025, 2.2.52.1.15 i 7.1.7.4.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.52.1.15",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          },
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.1.7.4.1 (c)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "określić procedury postępowania w przypadku utraty możliwości utrzymania określonej temperatury;",
+        "replacement_pages": [
+          1286
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0727",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K09",
+      "legal_basis": "ADR 2025, 2.2.61.1.1",
+      "gazette_pages": [
+        214
+      ],
+      "exact_quote": "Tytuł klasy 6.1 obejmuje materiały, o których z praktyki wiadomo, lub co do których istnieje domniemanie na podstawie badań na zwierzętach, że mogą one - wskutek jednorazowego lub krótkotrwałego działania w stosunkowo małych dawkach - spowodować uszczerbek na zdrowiu lub śmierć człowieka w wyniku ich wdychania, przenikania przez skórę lub połknięcia.",
+      "finding": "Brak zapachu nie jest kryterium klasyfikacyjnym wskazanym w 2.2.61.1.1. Bezpieczny wniosek jest rozsądny, lecz pytanie opiera się na przesłance niewyrażonej w cytowanym przepisie.",
+      "duplicate_candidates": [
+        "ADR-B-0623",
+        "ADR-B-0158"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K09",
+        "stem": "Które drogi narażenia wymienia ADR dla materiałów klasy 6.1?",
+        "options": {
+          "A": "Przez połknięcie lub kontakt z oczami",
+          "B": "Przez wdychanie, skórę lub połknięcie",
+          "C": "Przez kontakt z opakowaniem i ubraniem"
+        },
+        "correct_option": "B",
+        "explanation": "Materiały klasy 6.1 mogą powodować uszczerbek na zdrowiu lub śmierć już po jednorazowym albo krótkotrwałym narażeniu na stosunkowo małe dawki. ADR wskazuje trzy drogi narażenia: wdychanie, przenikanie przez skórę i połknięcie. Brak jednej z tych dróg nie wyklucza pozostałych, dlatego sposób ochrony dobiera się do właściwości materiału. Podstawa: ADR 2025, 2.2.61.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.61.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Tytuł klasy 6.1 obejmuje materiały, o których z praktyki wiadomo, lub co do których istnieje domniemanie na podstawie badań na zwierzętach, że mogą one - wskutek jednorazowego lub krótkotrwałego działania w stosunkowo małych dawkach - spowodować uszczerbek na zdrowiu lub śmierć człowieka w wyniku ich wdychania, przenikania przez skórę lub połknięcia.",
+        "replacement_pages": [
+          214
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0728",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K10",
+      "legal_basis": "ADR 2025, 2.2.62.1.1",
+      "gazette_pages": [
+        227
+      ],
+      "exact_quote": "Tytuł klasy 6.2 obejmuje materiały zakaźne. W rozumieniu ADR, materiały zakaźne są to materiały, o których wiadomo lub, co do których istnieje uzasadnione podejrzenie, że zawierają patogeny.",
+      "finding": "Definicja materiału zakaźnego nie ustanawia ogólnego zakazu otwierania przesyłki przez kierowcę. Odpowiedź jest ostrożnościowo uzasadniona, lecz pytanie nie wskazuje konkretnego przepisu ADR, który wprost rozstrzyga opisany przypadek.",
+      "duplicate_candidates": [
+        "ADR-B-0311",
+        "ADR-B-0668",
+        "ADR-B-0309"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K10",
+        "stem": "Materiał zakaźny kategorii A wywołuje chorobę wyłącznie u zwierząt. Jaki numer UN należy mu przypisać?",
+        "options": {
+          "A": "UN 2814 — materiał zakaźny dla ludzi",
+          "B": "UN 3291 — odpady medyczne lub kliniczne",
+          "C": "UN 2900 — materiał zakaźny dla zwierząt"
+        },
+        "correct_option": "C",
+        "explanation": "Kategoria A obejmuje materiały zakaźne, które po uwolnieniu mogą spowodować ciężką chorobę u ludzi lub zwierząt. Jeżeli taki materiał wywołuje chorobę wyłącznie u zwierząt, ADR przypisuje mu numer UN 2900. Dla materiałów zakaźnych wywołujących choroby u ludzi właściwy jest UN 2814. Podstawa: ADR 2025, 2.2.62.1.4.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.62.1.4.1 (a)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Materiały zakaźne wywołujące choroby tylko u zwierząt powinny być zaliczone do UN 2900;",
+        "replacement_pages": [
+          228
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0729",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K11",
+      "legal_basis": "ADR 2025, 2.2.7.1.1; 5.2.2.1.11.1",
+      "gazette_pages": [
+        234,
+        941
+      ],
+      "exact_quote": "Każda sztuka przesyłki, opakowanie zbiorcze i kontener zawierające materiał promieniotwórczy, powinny być zaopatrzone w nalepki zgodne z odpowiednimi wzorami nr 7A, 7B lub 7C, odpowiednio do ich kategorii.",
+      "finding": "Numer klasy 7 został podany w treści pytania, więc odpowiedź jest ujawniona. Pytanie powiela też ogólne rozpoznawanie klasy 7 z ADR-B-0098.",
+      "duplicate_candidates": [
+        "ADR-B-0098",
+        "ADR-B-0624",
+        "ADR-B-0669"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K11",
+        "stem": "Gdzie należy umieścić nalepkę 7A, 7B lub 7C na sztuce przesyłki?",
+        "options": {
+          "A": "Na jednej powierzchni zewnętrznej opakowania",
+          "B": "Na dwóch przeciwległych zewnętrznych stronach",
+          "C": "Na czterech bocznych powierzchniach opakowania"
+        },
+        "correct_option": "B",
+        "explanation": "Sztuka przesyłki zawierająca materiał promieniotwórczy powinna mieć nalepkę odpowiednią do kategorii, zgodną ze wzorem 7A, 7B albo 7C. ADR określa także miejsce jej umieszczenia: dwie przeciwległe zewnętrzne powierzchnie opakowania. Nie należy mylić tego wymagania z rozmieszczeniem dużych nalepek na pojeździe lub kontenerze. Podstawa: ADR 2025, 5.2.2.1.11.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.2.1.11.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Nalepki powinny być umieszczone na dwóch przeciwległych zewnętrznych powierzchniach sztuki przesyłki lub opakowania zbiorczego",
+        "replacement_pages": [
+          941
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0730",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-02",
+      "competency_id": "ADR-B-02-K12",
+      "legal_basis": "ADR 2025, 2.2.8.1.1",
+      "gazette_pages": [
+        264
+      ],
+      "exact_quote": "Materiały żrące to materiały, które wskutek działania chemicznego powodują nieodwracalne uszkodzenie skóry lub w razie wycieku, powodują fizyczne uszkodzenie lub zniszczenie innych towarów lub środków transportu. Tytuł niniejszej klasy obejmuje również materiały, które tworzą żrącą ciecz tylko w obecności wody, lub, które wydzielają żrącą parę lub mgłę w obecności naturalnej wilgoci powietrza.",
+      "finding": "Zasada dotycząca żrącej pary lub mgły w naturalnej wilgoci powietrza jest prawidłowa, ale forma pytania nie jest pytaniem tak/nie, a poprawna odpowiedź zaczyna się od „Tak”.",
+      "duplicate_candidates": [
+        "ADR-B-0267",
+        "ADR-B-0652",
+        "ADR-B-0161"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-02",
+        "competency_id": "ADR-B-02-K12",
+        "stem": "Która cecha może wystąpić w przypadku materiału klasy 8?",
+        "options": {
+          "A": "Wilgoć powietrza może wywołać żrącą parę",
+          "B": "Sucha postać materiału wyklucza klasę 8",
+          "C": "Para z materiału nie stanowi zagrożenia żrącego"
+        },
+        "correct_option": "A",
+        "explanation": "Klasa 8 obejmuje nie tylko materiały powodujące bezpośrednie uszkodzenie skóry lub innych towarów. Należą do niej również materiały, które w obecności naturalnej wilgoci powietrza wydzielają żrącą parę lub mgłę. Dlatego brak widocznej cieczy nie oznacza braku zagrożenia żrącego. Podstawa: ADR 2025, 2.2.8.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 2.2.8.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Tytuł niniejszej klasy obejmuje również materiały, które tworzą żrącą ciecz tylko w obecności wody, lub, które wydzielają żrącą parę lub mgłę w obecności naturalnej wilgoci powietrza.",
+        "replacement_pages": [
+          264
         ]
       }
     }
