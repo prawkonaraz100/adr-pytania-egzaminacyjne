@@ -1,4 +1,4 @@
-"""Literal review tests for ADR-B-0721–0735; report only, bank unchanged."""
+"""Literal review tests for ADR-B-0721–0735; first-pass report plus second-pass deployment checks."""
 from collections import Counter
 from pathlib import Path
 import hashlib
@@ -12,7 +12,7 @@ COMPETENCIES = ROOT / "podstawowy/kompetencje.json"
 REPORT = ROOT / "review/literal-pl/PARTIA-0721-0735.md"
 MANIFEST = ROOT / "review/literal-pl/PARTIA-0721-0735.json"
 FIRST_PASS_BANK_SHA = "884f19a050315bef28c614aa0f4aae9533ed14a9"
-EXPECTED_BANK_SHA = "884f19a050315bef28c614aa0f4aae9533ed14a9"
+EXPECTED_BANK_SHA = "5448ab43d2bed3ac17abd384b6bdc1eb596ef93f"
 EXPECTED_IDS = [f"ADR-B-{n:04d}" for n in range(721, 736)]
 ABSOLUTE = re.compile(r"\b(tylko|zawsze|każdy|każda|każde|każdej|wszystkie|wyłącznie|żaden|żadnych|nigdy|całkowicie|automatycznie|niezależnie)\b", re.I)
 
@@ -40,7 +40,6 @@ class Partia49LiteralReview(unittest.TestCase):
         self.assertEqual(m["base_commit"], "252640f4655e8947544b45d3174638265a9ba7a2")
         self.assertEqual(m["bank_count"], 780)
         self.assertEqual(m["bank_blob_sha"], FIRST_PASS_BANK_SHA)
-        self.assertEqual(m["bank_blob_sha"], EXPECTED_BANK_SHA)
         self.assertFalse(m["bank_changed"])
         self.assertEqual(m["previous_uncompared"], 60)
         self.assertEqual(m["compared"], 15)
@@ -102,7 +101,7 @@ class Partia49LiteralReview(unittest.TestCase):
                 self.assertTrue(p["replacement_pages"])
                 self.assertTrue(all(isinstance(page, int) and page > 0 for page in p["replacement_pages"]))
 
-    def test_bank_unchanged_and_all_questions_unverified(self):
+    def test_bank_after_second_pass_and_all_questions_unverified(self):
         self.assertEqual(git_blob_sha(self.raw), FIRST_PASS_BANK_SHA)
         self.assertEqual(git_blob_sha(self.raw), EXPECTED_BANK_SHA)
         self.assertEqual(len(self.bank), 780)
