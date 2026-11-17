@@ -10,55 +10,48 @@
     {
       "id": "ADR-B-0706",
       "order": 706,
-      "clause": "ADR 2025, 7.5.8.1",
+      "clause": "ADR 2025, 7.5.8.1 (przewóz do najbliższego miejsca czyszczenia; odpowiednie środki ostrożności)",
       "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
       "question_snapshot": {
         "id": "ADR-B-0706",
         "module_id": "ADR-B-09",
-        "stem": "Po rozładunku sztuk przesyłek ADR na podłodze pojazdu widać pozostałości uwolnionej zawartości. Na placu nie ma możliwości bezpiecznego oczyszczenia pojazdu. Co powinien zrobić kierowca?",
+        "stem": "Po rozładunku beczek w skrzyni pojazdu została kałuża cieczy, która wyciekła z jednej beczki. W miejscu rozładunku nie da się oczyścić pojazdu, więc kierowca pojedzie do najbliższego miejsca czyszczenia. Kiedy ADR uznaje środki ostrożności na ten przejazd za odpowiednie?",
         "options": {
-          "A": "Pozostawić pojazd na placu bez zabezpieczeń i czekać, aż ktoś zorganizuje czyszczenie w innym terminie.",
-          "B": "Przewieźć pojazd z odpowiednim zabezpieczeniem przed wyciekiem do najbliższego miejsca czyszczenia.",
-          "C": "Pojechać do własnej bazy zwykłą trasą, bo rozładunek już się zakończył i wyciek nie jest widoczny."
+          "A": "Gdy kierowca jedzie wolno i ma przez cały czas włączone światła awaryjne",
+          "B": "Gdy gwarantują, że uwolniona ciecz nie wycieknie w czasie jazdy",
+          "C": "Gdy przed odjazdem ciecz zostanie zmieciona ze skrzyni na plac"
         },
         "correct_option": "B",
-        "explanation": "Jeśli po rozładunku sztuk przesyłek pozostała uwolniona zawartość, pojazd trzeba oczyścić niezwłocznie. Gdy na miejscu rozładunku nie da się tego zrobić, można przemieścić pojazd — ale tylko z zabezpieczeniami, które zapobiegną niekontrolowanemu wyciekowi — do najbliższego miejsca czyszczenia. Zwykły przejazd do bazy bez oceny ryzyka ani pozostawienie zabrudzeń do następnego załadunku nie spełnia wymogu. Podstawa: ADR 7.5.8.1.",
+        "explanation": "Po wycieku ze sztuk przesyłek pojazd trzeba oczyścić niezwłocznie, a gdy nie da się tego zrobić w miejscu rozładunku, wolno go przewieźć do najbliższego miejsca czyszczenia. ADR wyjaśnia, że środki ostrożności na taki przejazd są odpowiednie, gdy gwarantują, że nie nastąpi niekontrolowany wyciek uwolnionego materiału. Wolna jazda i światła awaryjne tego nie zapewniają. Zmiecenie cieczy na plac przenosi skażenie w inne miejsce, zamiast je usunąć. Podstawa: ADR 7.5.8.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.8.1 — po stwierdzeniu uwolnienia części zawartości sztuk przesyłek po rozładunku pojazd lub kontener należy niezwłocznie oczyścić; jeśli nie można tego zrobić w miejscu rozładunku, należy przewieźć go z odpowiednimi środkami ostrożności do najbliższego miejsca czyszczenia, zapewniając brak niekontrolowanego wycieku",
-            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
-          },
-          {
-            "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 7.5.8.1",
+            "reference": "ADR 2025, 7.5.8.1 (przewóz do najbliższego miejsca czyszczenia; środki ostrożności są odpowiednie, gdy gwarantują brak niekontrolowanego wycieku)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-UNECE",
-            "reference": "ADR 2025, 7.5.8.1 — if cleaning cannot be carried out at the unloading place, the vehicle or container must be moved with appropriate precautions to the nearest suitable cleaning facility",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "observed_answer_key": "B",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Leaving the vehicle without precautions does not satisfy the requirement to move it safely to a cleaning location; waiting also leaves the contamination in place."
+          "rationale": "Wolna jazda i światła awaryjne nie gwarantują braku wycieku, a tylko to kryterium podaje 7.5.8.1."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "ADR 7.5.8.1 allows movement to the nearest cleaning location only with appropriate precautions that prevent uncontrolled leakage."
+          "rationale": "7.5.8.1: środki ostrożności są odpowiednie, jeżeli gwarantują, że nie nastąpi niekontrolowany wyciek uwolnionych materiałów."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "The destination is the nearest suitable cleaning location, not automatically the carrier's base, and the movement must prevent uncontrolled leakage."
+          "rationale": "Zmiecenie cieczy na plac nie jest czyszczeniem pojazdu, tylko przeniesieniem skażenia poza pojazd."
         }
       },
-      "notes_on_conditions": "The provision concerns released contents from packages after unloading. If cleaning is not possible at the unloading place, the vehicle/container may be moved only with precautions preventing uncontrolled leakage.",
+      "notes_on_conditions": "7.5.8.1 s. 1309–1310. Odrębne od 0177 (dojazd do czyszczenia), 0240, 0021 (obowiązek czyszczenia).",
       "editorial_result": "Adds the second operational step of 7.5.8.1: safe movement to the nearest cleaning location when cleaning at the unloading site is not possible.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
