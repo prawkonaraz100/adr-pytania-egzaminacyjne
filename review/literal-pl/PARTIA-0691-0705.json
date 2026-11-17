@@ -546,7 +546,7 @@
       "gazette_pages": [
         1308
       ],
-      "exact_quote": "ADR 7.5.7.1: „Sztuki przesyłek zawierające materiały niebezpieczne lub nieopakowane przedmioty niebezpieczne powinny być umocowane przy użyciu odpowiednich urządzeń (np. pasów spinających, burt przesuwanych lub przegród nastawnych), umożliwiających ich unieruchomienie w pojeździe lub w kontenerze w sposób zapobiegający takiemu ich przemieszczaniu podczas przewozu, które mogłoby spowadować zmianę ustawienia sztuk przesyłek lub ich uszkodzenie.”",
+      "exact_quote": "ADR 7.5.7.1: „Przemieszczaniu sztuk przesyłek można również zapobiec poprzez wypełnienie wszystkich wolnych przestrzeni pomiędzy nimi przy użyciu przekładek lub poprzez blokowanie i usztywnianie sztuk przesyłek.”",
       "finding": "Wariant po częściowym rozładunku ma wartość sytuacyjną, ale powtarza podstawę mocowania; poprawić opcje i porównać z innymi tematami.",
       "duplicate_candidates": [
         "ADR-B-0026",
@@ -575,7 +575,7 @@
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
-        "replacement_quote": "ADR 7.5.7.1: „Sztuki przesyłek zawierające materiały niebezpieczne lub nieopakowane przedmioty niebezpieczne powinny być umocowane przy użyciu odpowiednich urządzeń (np. pasów spinających, burt przesuwanych lub przegród nastawnych), umożliwiających ich unieruchomienie w pojeździe lub w kontenerze w sposób zapobiegający takiemu ich przemieszczaniu podczas przewozu, które mogłoby spowadować zmianę ustawienia sztuk przesyłek lub ich uszkodzenie.”",
+        "replacement_quote": "ADR 7.5.7.1: „Przemieszczaniu sztuk przesyłek można również zapobiec poprzez wypełnienie wszystkich wolnych przestrzeni pomiędzy nimi przy użyciu przekładek lub poprzez blokowanie i usztywnianie sztuk przesyłek.”",
         "replacement_pages": [
           1308
         ]
@@ -674,5 +674,34 @@
     "OK": 0,
     "POPRAW": 15,
     "BLOKUJ": 0
+  },
+  "similarity": {
+    "script": "scripts/similarity.py",
+    "scope": "780 pytań — porównanie w obrębie modułów",
+    "threshold_0_45": {
+      "total_pairs": 7,
+      "batch_pairs": []
+    },
+    "threshold_0_25": {
+      "total_pairs": 154,
+      "batch_pairs": [
+        {
+          "a": "ADR-B-0691",
+          "b": "ADR-B-0746",
+          "score": 0.286
+        },
+        {
+          "a": "ADR-B-0185",
+          "b": "ADR-B-0696",
+          "score": 0.278
+        },
+        {
+          "a": "ADR-B-0695",
+          "b": "ADR-B-0743",
+          "score": 0.261
+        }
+      ]
+    },
+    "note": "Zgodność leksykalna nie zastępuje kontroli tematycznej"
   }
 }
