@@ -282,7 +282,7 @@ Wybierz scenariusz dla działu ADR-B-06 w [mapie ćwiczeń](../praktyka/scenariu
 
 ### Trwałość i mocowanie tablicy pomarańczowej — ADR-B-06-K07
 
-Tablica pomarańczowa musi być odblaskowa, wykonana z materiału odpornego na warunki pogodowe i zapewniać trwałe oznaczenie. Nie może odpaść od mocowania podczas 15 minut objęcia ogniem; sama czytelność w chwili kontroli nie wystarcza.
+Tablica pomarańczowa musi być odblaskowa, wykonana z materiału odpornego na warunki pogodowe i zapewniać trwałe oznaczenie. Powinna pozostać w miejscu umocowania po 15 minutach przebywania w ogniu, niezależnie od pozycji pojazdu; sama czytelność w chwili kontroli nie wystarcza.
 
 **Przykład:** tablica ma prawidłowy kolor i wymiary, ale jej uchwyt jest skorodowany i może puścić podczas pożaru. Pojazd wymaga naprawy mocowania przed przewozem.
 
@@ -300,9 +300,9 @@ Wymagana nalepka zagrożenia nadal musi towarzyszyć sztuce przesyłki, nawet gd
 
 ### Numer UN i pozostałe oznaczenia na opakowaniu zbiorczym — ADR-B-06-K01
 
-Opakowanie zbiorcze (OVERPACK) ([definicja w słowniczku](../SLOWNICZEK.md#opakowanie-zbiorcze-overpack)) to osłona lub opakowanie, które łączy jedną lub więcej sztuk przesyłek w jedną jednostkę dla łatwiejszej obsługi. Jeżeli zasłania oznaczenia i nalepki reprezentujące wszystkie znajdujące się w nim towary niebezpieczne, trzeba odtworzyć wymagane oznakowanie na zewnątrz. ADR wymaga wtedy napisu „OVERPACK” oraz numeru UN i innych wymaganych oznaczeń i nalepek dla zawartych towarów, których nie widać. Sam napis „OVERPACK” ani wpis w dokumencie przewozowym nie zastępują oznakowania zagrożeń.
+Opakowanie zbiorcze (OVERPACK) ([definicja w słowniczku](../SLOWNICZEK.md#opakowanie-zbiorcze-overpack)) to osłona lub opakowanie, które łączy jedną lub więcej sztuk przesyłek w jedną jednostkę dla łatwiejszej obsługi. Jeżeli zasłania oznaczenia i nalepki reprezentujące wszystkie znajdujące się w nim towary niebezpieczne, trzeba odtworzyć wymagane oznakowanie na zewnątrz. Polski tekst ADR wymaga wtedy napisu „OPAKOWANIE ZBIORCZE” (przy napisie po polsku także w języku angielskim, francuskim lub niemieckim, na przykład „OVERPACK”) oraz numeru UN i innych wymaganych oznaczeń i nalepek dla zawartych towarów, których nie widać. Każdy wymagany znak i każdą nalepkę umieszcza się tylko raz, a nie osobno dla każdej sztuki wewnątrz. Sam napis ani wpis w dokumencie przewozowym nie zastępują oznakowania zagrożeń.
 
-**Przykład:** folia na palecie całkowicie zakrywa numer UN i nalepki jedynej przesyłki ADR. Przed przewozem sprawdź, czy na opakowaniu zbiorczym widnieje napis „OVERPACK” oraz wymagane oznaczenia i nalepki.
+**Przykład:** folia na palecie całkowicie zakrywa numer UN i nalepki jedynej przesyłki ADR. Przed przewozem sprawdź, czy na opakowaniu zbiorczym widnieje napis „OPAKOWANIE ZBIORCZE” oraz wymagane oznaczenia i nalepki.
 
 **Ćwiczenie:** ADR-B-0689. Podstawa: ADR 5.1.2.1(a)(i)–(ii).
 
