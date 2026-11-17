@@ -8,19 +8,19 @@
       "id": "ADR-B-0731",
       "sequence": 731,
       "exact_record_snapshot": {
-        "stem": "Kierowca porównuje dokument z tabelą A ADR dla przewożonego gazu klasy 2. W kolumnie 4 nie ma grupy pakowania. Co powinien z tego wywnioskować?",
+        "stem": "Kierowca porównuje dokument przewozowy z tabelą A dla gazu klasy 2. W kolumnie (4) przy tym gazie nie podano grupy pakowania. Co z tego wynika?",
         "options": {
-          "A": "To normalne: klasa 2 nie jest objęta systemem grup pakowania I–III.",
-          "B": "Brak grupy oznacza błąd w dokumentach; przed rozpoczęciem przewozu nadawca musi dopisać grupę I, II albo III.",
-          "C": "Kierowca powinien sam przypisać grupę II na podstawie tego, czy gaz jest palny, trujący lub duszący."
+          "A": "To prawidłowe, bo gazów klasy 2 nie zalicza się do grup pakowania",
+          "B": "To błąd, a nadawca musi przed wyjazdem dopisać grupę I, II lub III",
+          "C": "Kierowca powinien sam przypisać grupę II według zagrożenia gazu"
         },
         "correct_option": "A",
-        "explanation": "Brak grupy pakowania przy gazie klasy 2 nie oznacza błędu w tabeli ani dokumentach. ADR wyłącza klasę 2 z systemu grup I–III, dlatego kierowca nie powinien dopisywać grupy ani samodzielnie jej ustalać. Zamiast tego odczytuje pozostałe dane wpisu, w tym klasyfikację gazu i wymagane warunki przewozu. Podstawa: ADR 2025, 2.1.1.3 i 3.2.1, tabela A.",
+        "explanation": "Według 2.1.1.3 grupy pakowania I, II i III przypisuje się materiałom klas innych niż 1, 2, 5.2, 6.2 i 7 oraz materiałom innym niż samoreaktywne klasy 4.1. Gazy klasy 2 nie są więc objęte tym podziałem i w kolumnie (4) tabeli A nie ma dla nich grupy pakowania. Pusty wpis nie jest błędem, a kierowca ani nadawca nie dopisują grupy. Dane gazu odczytuje się z pozostałych kolumn wpisu. Podstawa: ADR 2.1.1.3 i 3.2.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.1.1.3; 3.2.1 tabela A, kolumna (4)",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 2.1.1.3 (grupy pakowania nie dotyczą klasy 2); 3.2.1 (kolumna (4))",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
