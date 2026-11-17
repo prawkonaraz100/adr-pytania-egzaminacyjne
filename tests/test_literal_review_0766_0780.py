@@ -99,7 +99,7 @@ class Partia52LiteralReview(unittest.TestCase):
                 explanation = replacement["explanation"]
                 self.assertGreaterEqual(len(explanation), 200)
                 self.assertLessEqual(len(explanation), 500)
-                self.assertRegex(explanation, r"Podstawa: ADR 2025, .+\\.$")
+                self.assertRegex(explanation, r"Podstawa: ADR 2025, .+\.$")
                 self.assertTrue(replacement["sources"])
                 self.assertTrue(replacement["replacement_quote"])
                 self.assertTrue(replacement["replacement_pages"])
