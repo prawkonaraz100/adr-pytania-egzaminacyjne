@@ -329,7 +329,7 @@ Powiązane pytanie: **ADR-B-0698**. Podstawa: ADR 5.3.2.3.1, 5.3.2.3.2 i 5.4.3.4
 
 ### Wysokość oznaczenia numeru UN — ADR-B-0750
 
-Na opakowaniu, dla którego ADR wymaga numeru UN, litery „UN” i cyfry numeru muszą być czytelne i mieć wymaganą wysokość. Zasadniczo jest to co najmniej 12 mm, ale dla opakowania o pojemności do 30 litrów lub masie netto do 30 kg wystarcza co najmniej 6 mm. Dlatego na kanistrze 20-litrowym nie trzeba stosować pełnych 12 mm, ale nie wolno też dowolnie zmniejszać oznaczenia. Podstawa: ADR 2025, 5.2.1.1.
+Na opakowaniu, dla którego ADR wymaga numeru UN, litery „UN” i cyfry numeru muszą być czytelne i mieć wymaganą wysokość. Zasadniczo jest to co najmniej 12 mm (pytanie ADR-B-0188). Dla sztuki przesyłki o pojemności do 30 litrów lub masie netto do 30 kg oraz dla butli o pojemności wodnej do 60 litrów wystarcza co najmniej 6 mm. Butla 50-litrowa korzysta więc z 6 mm, choć ma ponad 30 litrów. Określenie „właściwego rozmiaru” dotyczy dopiero sztuk przesyłek do 5 litrów lub 5 kg netto. Podstawa: ADR 2025, 5.2.1.1.
 
 Powiązane pytanie: **ADR-B-0750**.
 
