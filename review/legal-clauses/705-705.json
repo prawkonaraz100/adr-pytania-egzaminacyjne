@@ -10,34 +10,24 @@
     {
       "id": "ADR-B-0705",
       "order": 705,
-      "clause": "ADR 2025, 8.1.5.2",
+      "clause": "ADR 2025, 8.1.5.2 (przypis do płynu do płukania oczu)",
       "source_2025_comparison_url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70",
       "question_snapshot": {
         "id": "ADR-B-0705",
         "module_id": "ADR-B-08",
-        "stem": "Przed wyjazdem kierowca sprawdza wyposażenie jednostki ADR. W kabinie są dwie osoby, ale tylko kierowca ma rękawice ochronne i okulary; drugi członek załogi nie ma żadnego z tych elementów. Co należy zrobić?",
+        "stem": "Jednostka wiezie na pełnych zasadach ADR same butle z gazem z nalepką 2.2. Przewoźnik wie, że płyn do płukania oczu nie jest wtedy wymagany, i chce zabrać z pojazdu także rękawice i okulary ochronne. Czy może?",
         "options": {
-          "A": "Pozostawić wyposażenie bez zmian, ponieważ jeden wspólny komplet można przekazywać między członkami załogi.",
-          "B": "Każdemu członkowi załogi zapewnić własne rękawice ochronne i ochronę oczu przed rozpoczęciem przewozu.",
-          "C": "Wyposażyć drugą osobę w rękawice, lecz ochronę oczu pozostawić wyłącznie kierowcy prowadzącemu pojazd."
+          "A": "Tak, przy gazach przypis zwalnia z płynu oraz z ochrony rąk i oczu załogi",
+          "B": "Nie, przypis zwalnia z płynu, ale nie z rękawic i ochrony oczu załogi",
+          "C": "Tak, jeśli butle są zamknięte w skrzyniach, a nie przewożone luzem"
         },
         "correct_option": "B",
-        "explanation": "Każdy członek załogi musi mieć własną parę rękawic ochronnych i ochronę oczu, więc wyposażenie jednej osoby nie wystarcza dla dwóch. Wspólny komplet nie zapewnia wymaganej ochrony obu osobom, a ograniczenie okularów do kierowcy pomija drugiego członka załogi. Uzupełnij braki przed rozpoczęciem przewozu. Podstawa: ADR 8.1.5.2.",
+        "explanation": "Przypis do 8.1.5.2 zwalnia z płynu do płukania oczu przy nalepkach 1, 1.4, 1.5, 1.6, 2.1, 2.2 i 2.3. Nie dotyczy on pozostałych pozycji wykazu. Para rękawic ochronnych i ochrona oczu, na przykład okulary ochronne, są wymagane dla każdego członka załogi pojazdu także przy samych gazach. Sposób zapakowania butli tego nie zmienia. Podstawa: ADR 8.1.5.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 8.1.5.2 — dla każdego członka załogi pojazdu: para rękawic ochronnych oraz ochrona oczu (np. okulary ochronne)",
-            "url": "https://www.gov.pl/attachment/b4638c72-30e3-4bff-afd1-1b9ba4100e70"
-          },
-          {
-            "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.1.5.2",
+            "reference": "ADR 2025, 8.1.5.2 (rękawice i ochrona oczu dla każdego członka załogi; przypis: płyn do płukania oczu niewymagany m.in. przy nalepce 2.2)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-UNECE",
-            "reference": "ADR 2025, 8.1.5.2 — protective gloves and eye protection for each vehicle crew member",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -47,18 +37,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "The provision requires the listed personal protective equipment for each crew member; a single shared set is not available to both people as required."
+          "rationale": "Przypis zwalnia z płynu do płukania oczu, nie z rękawic ani z ochrony oczu."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "ADR 8.1.5.2 lists a pair of protective gloves and eye protection for each vehicle crew member."
+          "rationale": "8.1.5.2: para rękawic i ochrona oczu dla każdego członka załogi; przypis dotyczy płynu (nalepki 1, 1.4–1.6, 2.1–2.3)."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "The requirement is not limited to the driver. Every crew member must have eye protection as well as gloves."
+          "rationale": "Sposób zapakowania butli nie wpływa na wykaz 8.1.5.2."
         }
       },
-      "notes_on_conditions": "Applies to each vehicle crew member where the ADR basic equipment requirement applies; the question does not imply that eye protection can be shared.",
+      "notes_on_conditions": "8.1.5.2 s. 1325. Odrębne od 0483 (płyn przy 2.3), 0763, 0024, 0076.",
       "editorial_result": "Adds a crew-size and individual-allocation scenario. Existing questions cover glove and eye-protection types separately; this question checks that both items are available to every person in the crew.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
