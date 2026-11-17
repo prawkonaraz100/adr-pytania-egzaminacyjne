@@ -9,49 +9,52 @@
     {
       "id": "ADR-B-0713",
       "order": 713,
-      "clause": "ADR 2025, 8.2.2.3.2(k); Kodeks cywilny, art. 471 (t.j. Dz.U. 2026 poz. 795)",
+      "clause": "ADR 2025, 8.2.2.3.2 (k) (ogólne informacje o odpowiedzialności cywilnej); Kodeks cywilny art. 471",
       "question_snapshot": {
         "id": "ADR-B-0713",
         "module_id": "ADR-B-07",
-        "stem": "Przewoźnik zobowiązał się dostarczyć ładunek do odbiorcy w określonym terminie. W drodze służby nagle zamknęły drogę po osunięciu ziemi, a bezpieczny objazd nie pozwalał dotrzeć na czas. Odbiorca żąda odszkodowania za opóźnienie. Które stwierdzenie najlepiej oddaje ogólną zasadę odpowiedzialności umownej?",
+        "stem": "Przewoźnik zobowiązał się dostarczyć ładunek w określonym terminie. W drodze służby zamknęły drogę po osunięciu ziemi, a bezpieczny objazd nie pozwolił zdążyć na czas. Odbiorca żąda odszkodowania za opóźnienie. Jaką ogólną zasadę odpowiedzialności za niewykonanie umowy trzeba tu zastosować?",
         "options": {
-          "A": "Przewoźnik zawsze płaci odszkodowanie za niedotrzymanie terminu, nawet gdy przyczyna opóźnienia była od niego niezależna.",
-          "B": "Odpowiedzialność nie jest automatyczna; trzeba ustalić, czy opóźnienie wynikało z okoliczności, za które przewoźnik odpowiada.",
-          "C": "Za opóźnienie odpowiada wyłącznie kierowca, bo prowadził pojazd, nawet gdy umowę przewozu zawarł przewoźnik."
+          "A": "Przewoźnik płaci za opóźnienie bez względu na jego przyczynę",
+          "B": "Trzeba ocenić, czy przewoźnik odpowiada za przyczynę opóźnienia",
+          "C": "Odpowiada kierowca, bo to on prowadził pojazd, a nie przewoźnik"
         },
         "correct_option": "B",
-        "explanation": "Sam fakt opóźnienia nie przesądza jeszcze o obowiązku zapłaty odszkodowania. Trzeba ustalić, czy przewoźnik odpowiada za przyczynę niewykonania terminu, czy wynikała ona z okoliczności, za które nie ponosi odpowiedzialności; samo zamknięcie drogi nie rozstrzyga sprawy bez oceny faktów. Błędne jest zarówno automatyczne obciążenie przewoźnika za każde opóźnienie, jak i przerzucenie całej odpowiedzialności na kierowcę. Podstawa: ADR 8.2.2.3.2(k); art. 471 Kodeksu cywilnego.",
+        "explanation": "Według przepisu 471 Kodeksu cywilnego dłużnik naprawia szkodę z niewykonania lub nienależytego wykonania zobowiązania, chyba że wynika ono z okoliczności, za które nie odpowiada. Samo opóźnienie nie przesądza więc o odszkodowaniu i trzeba ocenić jego przyczynę oraz fakty. Stroną umowy jest przewoźnik, a nie zatrudniony przez niego kierowca. Przepisy szczególne o umowie przewozu mają własne zasady odpowiedzialności, które ocenia się osobno. Podstawa: ADR 8.2.2.3.2 (k); Kodeks cywilny, przepis 471.",
         "sources": [
           {
-            "code": "DZ-U-2025-642",
-            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.2.2.3.2(k) — zakres kursu podstawowego obejmuje ogólne informacje o odpowiedzialności cywilnej",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.2.2.3.2 (k) (ogólne informacje na temat odpowiedzialności cywilnej)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           },
           {
-            "code": "KC-2026-795",
-            "reference": "Dz.U. 2026 poz. 795, Kodeks cywilny, art. 471 — odpowiedzialność za szkodę wynikłą z niewykonania lub nienależytego wykonania zobowiązania, z wyjątkiem okoliczności, za które dłużnik nie odpowiada",
-            "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf"
+            "code": "KC",
+            "reference": "Kodeks cywilny, t.j. Dz.U. 2026 poz. 795, art. 471",
+            "url": "https://eli.gov.pl/eli/DU/2026/795/ogl"
           }
         ],
         "legal_basis_version": "ADR-2025-PL+KC-2026",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "observed_answer_key": "B",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "It incorrectly makes the carrier liable for every missed deadline regardless of the reason."
+          "rationale": "Art. 471 KC nie wprowadza odpowiedzialności bez względu na przyczynę – liczy się, za co dłużnik odpowiada."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "It reflects the general rule in article 471: circumstances for which the debtor is not responsible may matter; the scenario does not decide the outcome automatically."
+          "rationale": "Art. 471 KC: dłużnik naprawia szkodę, chyba że niewykonanie wynika z okoliczności, za które nie odpowiada."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "It incorrectly assigns contractual responsibility only to the driver, ignoring that the carrier is the party to the transport contract."
+          "rationale": "Stroną umowy przewozu jest przewoźnik, a nie kierowca prowadzący pojazd."
         }
       },
-      "notes_on_conditions": "The scenario specifies an unexpected official road closure and lack of a safe route that would allow timely delivery. These facts are relevant but do not, by themselves, decide the carrier's liability.",
+      "notes_on_conditions": "8.2.2.3.2 (k) s. 1327; KC art. 471. Do oceny prawnika: Prawo przewozowe art. 65, CMR art. 17.",
       "editorial_result": "Adds a practical contractual-delay scenario to ADR-B-07-K07, which previously had four questions.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",

@@ -10,55 +10,48 @@
     {
       "id": "ADR-B-0712",
       "order": 712,
-      "clause": "ADR 2025, 8.2.2.3.2(e)",
+      "clause": "ADR 2025, 5.4.3.4 (nie dotykać uwolnionych materiałów; 6.1); 8.1.5.2; 8.2.2.3.2 (e)",
       "source_2025_comparison_url": "https://dziennikustaw.gov.pl/DU/2025/642",
       "question_snapshot": {
         "id": "ADR-B-0712",
         "module_id": "ADR-B-05",
-        "stem": "Po kolizji kierowca zabezpieczył miejsce i upewnił się, że nie ma wycieku ani oparów. Kolega jest przytomny, ale ma krwawiącą ranę przedramienia. Jak powinien udzielić podstawowej pomocy?",
+        "stem": "Z pękniętego kanistra z nalepką 6.1 ciecz oblała rękaw kurtki pomocnika. Obaj stoją już po stronie nawietrznej, z dala od wycieku. Pomocnik prosi kierowcę, by pomógł mu zdjąć kurtkę. Co kierowca powinien zrobić najpierw?",
         "options": {
-          "A": "Zdjąć rękawiczki ochronne i dotknąć rany gołą dłonią, aby dokładniej ocenić jej głębokość przed opatrzeniem.",
-          "B": "Założyć rękawiczki, osłonić ranę jałowym opatrunkiem i uciskać; przy silnym krwawieniu wezwać 112.",
-          "C": "Podać poszkodowanemu jedzenie i napój, a opatrzenie rany odłożyć do przyjazdu służb ratunkowych."
+          "A": "Od razu ściągnąć mu kurtkę gołymi rękami, bo liczy się szybkość",
+          "B": "Założyć rękawice ochronne z wyposażenia, zanim dotknie kurtki",
+          "C": "Polać rękaw wodą z butelki i zostawić kurtkę na pomocniku"
         },
         "correct_option": "B",
-        "explanation": "Ponieważ miejsce jest już bezpieczne, kierowca może udzielić pomocy w granicach przeszkolenia: zakłada rękawiczki, osłania ranę jałowym opatrunkiem i uciska krwawienie. Nie dotyka rany gołą dłonią ani nie podaje poszkodowanemu jedzenia czy napoju. Przy silnym lub nieustającym krwawieniu pilnie wzywa pomoc pod numerem 112 i wykonuje polecenia dyspozytora. ADR wymaga, by kurs podstawowy obejmował pierwszą pomoc po wypadku (8.2.2.3.2(e)).",
+        "explanation": "Instrukcje pisemne ostrzegają, że materiały z nalepką 6.1 grożą zatruciem także przez kontakt ze skórą, i każą nie dotykać uwolnionych materiałów. Pomagając, kierowca najpierw chroni siebie i zakłada rękawice ochronne, które każdy członek załogi ma w wyposażeniu. Dopiero wtedy pomaga zdjąć skażoną kurtkę i odkłada ją tak, by nikt jej nie dotykał. Kurs podstawowy obejmuje pierwszą pomoc i używanie sprzętu ochronnego. Podstawa: ADR 5.4.3.4, 8.1.5.2 i 8.2.2.3.2 (e).",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "Dz.U. 2025 poz. 642, ADR 2025, 8.2.2.3.2(e) — zakres kursu podstawowego obejmuje postępowanie po wypadku, w tym pierwszą pomoc",
+            "reference": "ADR 2025, 5.4.3.4 (nie dotykać uwolnionych materiałów; nalepka 6.1 – zatrucie przez kontakt ze skórą); 8.1.5.2 (para rękawic ochronnych dla każdego członka załogi); 8.2.2.3.2 (e)",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
-          },
-          {
-            "code": "ADR-2025-MI",
-            "reference": "Ministerstwo Infrastruktury — oficjalne polskie materiały ADR 2025; zakres kursu podstawowego, 8.2.2.3.2(e)",
-            "url": "https://www.gov.pl/web/infrastruktura/towary-niebezpieczne"
-          },
-          {
-            "code": "ADR-2025-UNECE",
-            "reference": "ADR 2025, 8.2.2.3.2(e) — what to do after an accident, including first aid",
-            "url": "https://unece.org/adr-2025-files"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
+        "verification_status": "needs_review",
+        "checked_at": null,
+        "reviewer": null,
         "image": null
       },
       "observed_answer_key": "B",
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Touching a bleeding wound with bare hands exposes the helper to blood and ignores basic protective measures."
+          "rationale": "Dotykanie skażonej kurtki gołymi rękami grozi zatruciem przez skórę przy nalepce 6.1."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "After confirming the scene is safe, gloves and a sterile dressing with pressure are appropriate basic first-aid steps; call 112 for severe or persistent bleeding."
+          "rationale": "Najpierw ochrona własna: rękawice ochronne z 8.1.5.2, dopiero potem pomoc przy zdjęciu odzieży."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Food and drink do not treat bleeding and should not replace immediate first aid."
+          "rationale": "Polanie rękawa i pozostawienie kurtki przeczy poleceniu zdjęcia zanieczyszczonego ubrania z 5.4.3.4."
         }
       },
-      "notes_on_conditions": "The scenario explicitly states that the place is secured and there is no leak or vapour. ADR 8.2.2.3.2(e) requires first aid to be covered in basic training but does not prescribe the detailed clinical procedure.",
+      "notes_on_conditions": "5.4.3.4 s. 975–977; 8.1.5.2 s. 1325; 8.2.2.3.2 s. 1327. Odrębne od 0110/0167 i 0705.",
       "editorial_result": "Adds a safe-scene first-aid situation distinct from the four existing questions that mainly test whether a driver should enter a contaminated area.",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
