@@ -1,0 +1,648 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0766–0780",
+  "base_commit": "11b9d3a3beda05d20762b1a1ad7abfb6f5b469c8",
+  "bank_count": 780,
+  "bank_blob_sha": "cef031e32248db1a3a0ae05e0b725bcacb9f0b0a",
+  "bank_changed": false,
+  "previous_uncompared": 15,
+  "compared": 15,
+  "remaining_without_comparison": 0,
+  "verified": 0,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "correction_note": "Sprostowanie Dz.U. 2025 poz. 1575 nie zmienia badanych przepisów partii 52; wpisy w tabeli 8.6.4 sprawdzono w OCR tekstu ADR, bez dostępu do obrazu strony PDF.",
+  "records": [
+    {
+      "id": "ADR-B-0766",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-09",
+      "competency_id": "ADR-B-09-K04",
+      "legal_basis": "ADR 2025, 5.2.1.10.1–5.2.1.10.2",
+      "gazette_pages": [
+        939
+      ],
+      "exact_quote": "Oznakowanie to powinno być naniesione na dwóch przeciwległych pionowych bokach sztuki przesyłki, a groty strzałek powinny być skierowane ku górze.",
+      "finding": "Klucz B jest zgodny z zasadą dwóch przeciwległych pionowych boków i grotów skierowanych ku górze. 750 ml nie mieści się w wyjątkach 5.2.1.10.2(b) ani (f). Powiązane 0617 i 0682 sprawdzają wyjątki, nie tę samą regułę; obecne opcje są za długie i kończą się kropkami.",
+      "duplicate_candidates": [
+        "ADR-B-0617",
+        "ADR-B-0682"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-09",
+        "competency_id": "ADR-B-09-K04",
+        "stem": "Karton zawiera butelki z cieczą niebezpieczną o pojemności 750 ml każda. Nie ma zastosowania żaden wyjątek z 5.2.1.10.2. Jak należy umieścić strzałki kierunkowe?",
+        "options": {
+          "A": "Na dwóch sąsiednich bokach, z grotami skierowanymi do środka",
+          "B": "Na dwóch przeciwległych pionowych bokach, ze strzałkami ku górze",
+          "C": "Na jednym pionowym boku, jeżeli znak jest dobrze widoczny z obu stron"
+        },
+        "correct_option": "B",
+        "explanation": "Dla opakowań, które nie korzystają z wyjątków wymienionych w 5.2.1.10.2, strzałki kierunkowe umieszcza się na dwóch przeciwległych pionowych bokach sztuki przesyłki. Groty obu strzałek muszą być skierowane ku górze. Pojemność 750 ml nie spełnia limitów małych opakowań wewnętrznych wskazanych w wyjątkach. Podstawa: ADR 2025, 5.2.1.10.1–5.2.1.10.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.1.10.1–5.2.1.10.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Oznakowanie to powinno być naniesione na dwóch przeciwległych pionowych bokach sztuki przesyłki, a groty strzałek powinny być skierowane ku górze.",
+        "replacement_pages": [
+          939
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0767",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-09",
+      "competency_id": "ADR-B-09-K05",
+      "legal_basis": "ADR 2025, 7.5.7.2",
+      "gazette_pages": [
+        1309
+      ],
+      "exact_quote": "Jeżeli sztuki przesyłek odpowiadające różnym typom konstrukcji mają być ładowane razem, to należy zwrócić uwagę na ich wzajemną zgodność w zakresie piętrzenia.",
+      "finding": "Klucz B prawidłowo wymaga sprawdzenia wzajemnej zgodności różnych konstrukcji przed piętrzeniem. Warianty są nadmiernie rozbudowane, zawierają absoluty i końcową kropkę; temat jest powiązany, ale odrębny od 0683, które pyta o zabezpieczenie dolnych opakowań przekładkami.",
+      "duplicate_candidates": [
+        "ADR-B-0683"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-09",
+        "competency_id": "ADR-B-09-K05",
+        "stem": "Na palecie mają znaleźć się sztuki przesyłek ADR o dwóch różnych typach konstrukcji. Każdy typ osobno dopuszcza piętrzenie, lecz nie potwierdzono ich wspólnego układania. Co należy zrobić przed załadunkiem?",
+        "options": {
+          "A": "Porównać masę opakowań i ustawić cięższe sztuki na spodzie",
+          "B": "Sprawdzić wzajemną zgodność konstrukcji w zakresie piętrzenia",
+          "C": "Użyć pasów spinających, aby zastąpić ocenę zgodności obu typów"
+        },
+        "correct_option": "B",
+        "explanation": "ADR nie pozwala zakładać, że opakowania różnych typów konstrukcji można bezpiecznie piętrzyć razem tylko dlatego, że każdy typ osobno jest przystosowany do piętrzenia. Przed wspólnym załadunkiem trzeba ocenić ich wzajemną zgodność, a w razie potrzeby zabezpieczyć dolne sztuki przesyłek przekładkami. Podstawa: ADR 2025, 7.5.7.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Jeżeli sztuki przesyłek odpowiadające różnym typom konstrukcji mają być ładowane razem, to należy zwrócić uwagę na ich wzajemną zgodność w zakresie piętrzenia.",
+        "replacement_pages": [
+          1309
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0768",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-09",
+      "competency_id": "ADR-B-09-K06",
+      "legal_basis": "ADR 2025, 7.5.7.1",
+      "gazette_pages": [
+        1308
+      ],
+      "exact_quote": "W przypadku użycia elementów spinających, np. opasek lub pasów, należy unikać ich nadmiernego napinania, które mogłoby spowodować uszkodzenie lub deformację sztuki przesyłki.",
+      "finding": "Klucz B jest zgodny z celem mocowania: zapobiegać ruchom zmieniającym ustawienie lub powodującym uszkodzenie, bez nadmiernego napinania pasów. Warianty są za długie, kończą się kropkami i zawierają absoluty. Podobne 0060 i 0700 dotyczą nadmiernego napięcia; tu sprawdzany jest przypadek niewielkiego luzu bez szkodliwego ruchu.",
+      "duplicate_candidates": [
+        "ADR-B-0060",
+        "ADR-B-0700"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-09",
+        "competency_id": "ADR-B-09-K06",
+        "stem": "Po zamocowaniu kartonów pozostaje niewielki luz. Podczas jazdy nie zmienia on ustawienia opakowań ani nie powoduje ich uszkodzeń. Jak należy postąpić z pasami?",
+        "options": {
+          "A": "Dociągnąć pasy mocniej, mimo ryzyka deformacji kartonów",
+          "B": "Pozostawić mocowanie, jeśli zapobiega szkodliwym przemieszczeniom",
+          "C": "Zdjąć pasy i oprzeć stabilność ładunku na zamknięciu tylnych drzwi"
+        },
+        "correct_option": "B",
+        "explanation": "Celem mocowania jest unieruchomienie sztuk przesyłek w sposób zapobiegający przemieszczeniom, które mogłyby zmienić ich ustawienie lub spowodować uszkodzenie. ADR nakazuje unikać nadmiernego napinania pasów, jeżeli mogłoby ono zdeformować opakowania. Sam niewielki luz, który nie powoduje takich skutków, nie uzasadnia maksymalnego dociągania. Podstawa: ADR 2025, 7.5.7.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "W przypadku użycia elementów spinających, np. opasek lub pasów, należy unikać ich nadmiernego napinania, które mogłoby spowodować uszkodzenie lub deformację sztuki przesyłki.",
+        "replacement_pages": [
+          1308
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0769",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-09",
+      "competency_id": "ADR-B-09-K07",
+      "legal_basis": "ADR 2025, 7.5.8.1",
+      "gazette_pages": [
+        1309
+      ],
+      "exact_quote": "Jeżeli po rozładunku pojazdu lub kontenera załadowanego wcześniej towarami niebezpiecznymi w sztukach przesyłek stwierdzono, że wydostała się część ich zawartości, to taki pojazd lub kontener należy niezwłocznie oczyścić; w żadnym przypadku nie później niż przed ponownym załadunkiem.",
+      "finding": "Werdykt POPRAW jest zasadny, ale pytanie powtarza ADR-B-0514: oba pytają o obowiązek czyszczenia po przewozie nieuszkodzonych sztuk przesyłek bez uwolnienia zawartości. Proponowany nowy element pozostaje w ADR-B-09-K07 i sprawdza odrębną regułę 7.5.8.2 dotyczącą przewozu luzem. Opcje są za długie i zawierają kropki oraz absoluty.",
+      "duplicate_candidates": [
+        "ADR-B-0514",
+        "ADR-B-0080",
+        "ADR-B-0201"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-09",
+        "competency_id": "ADR-B-09-K07",
+        "stem": "Wywrotka przewiozła luzem materiał niebezpieczny. Po rozładunku ma przyjąć inny towar niebezpieczny. Co trzeba zrobić przed ponownym załadunkiem?",
+        "options": {
+          "A": "Usunąć pozostałości z tylnej burty",
+          "B": "Oczyścić pojazd przed załadunkiem innego towaru",
+          "C": "Odłożyć czyszczenie do zakończenia kolejnej zmiany roboczej"
+        },
+        "correct_option": "B",
+        "explanation": "Po przewozie towarów niebezpiecznych luzem pojazd lub kontener powinien zostać odpowiednio oczyszczony przed ponownym załadunkiem. Wyjątek dotyczy sytuacji, gdy nowy ładunek zawiera te same towary niebezpieczne co poprzedni. W przedstawionym przypadku nowy towar jest inny, więc wyjątek nie ma zastosowania. Podstawa: ADR 2025, 7.5.8.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.8.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Pojazdy lub kontenery, w których przewożone były towary niebezpieczne luzem, powinny być odpowiednio oczyszczone przed ponownym załadunkiem, z wyjątkiem przypadku, gdy nowy ładunek zawiera te same towary niebezpieczne jak poprzednio.",
+        "replacement_pages": [
+          1310
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0770",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-10",
+      "competency_id": "ADR-B-10-K02",
+      "legal_basis": "ADR 2025, 1.1.4.2.1 i 1.1.4.2.3; 5.4.1.1.7",
+      "gazette_pages": [
+        30,
+        965
+      ],
+      "exact_quote": "Powyższe odstępstwo nie ma zastosowania do przewozu towarów sklasyfikowanych jako niebezpieczne w klasach 1 do 9 zgodnie z ADR, a nieuznanych za niebezpieczne według Kodeksu IMDG lub Instrukcji Technicznych ICAO.",
+      "finding": "Pytanie dubluje ADR-B-0247: oba rozstrzygają wyłączenie dla towaru nieuznanego za niebezpieczny według IMDG. W tej kompetencji potrzebny jest odrębny element o dodatkowych informacjach ADR w dokumencie używanym w łańcuchu morskim lub lotniczym. Obecne opcje są za długie i kończą się kropkami.",
+      "duplicate_candidates": [
+        "ADR-B-0247"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-10",
+        "competency_id": "ADR-B-10-K02",
+        "stem": "W łańcuchu morsko-drogowym nadawca używa dokumentu przewozowego sporządzonego według Kodeksu IMDG. Dokument zawiera dane wymagane przez IMDG, ale pomija dodatkową informację wymaganą przez ADR. Czy można użyć go bez uzupełnienia?",
+        "options": {
+          "A": "Dokument IMDG może zastąpić dane ADR w łańcuchu morskim",
+          "B": "Uzupełnić dokument o informacje wymagane dodatkowo na podstawie ADR",
+          "C": "Dane z IMDG muszą być dostępne podczas przewozu w formie równoważnej"
+        },
+        "correct_option": "B",
+        "explanation": "W łańcuchu przewozowym obejmującym transport morski lub lotniczy dokumenty wymagane przez IMDG albo ICAO mogą zastąpić odpowiednią dokumentację ADR. Nie zwalnia to jednak z podania każdej dodatkowej informacji wymaganej na podstawie ADR. Dlatego dokument używany w tym łańcuchu trzeba uzupełnić, jeżeli brakuje w nim takiej informacji. Podstawa: ADR 2025, 1.1.4.2.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.1.4.2.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "pod warunkiem, że będzie również podana każda dodatkowa informacja, wymagana na podstawie ADR.",
+        "replacement_pages": [
+          30
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0771",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-11",
+      "competency_id": "ADR-B-11-K04",
+      "legal_basis": "ADR 2025, 8.6.3.1–8.6.3.2",
+      "gazette_pages": [
+        1338,
+        1339
+      ],
+      "exact_quote": "Jeżeli w jednostce transportowej znajdują się towary niebezpieczne, dla których wskazano różne kody ograniczeń przewozu przez tunele, to do całego ładunku stosuje się ten ze wskazanych kodów, który odpowiada największym ograniczeniom.",
+      "finding": "Pytanie powiela schemat wyboru najbardziej restrykcyjnego kodu z ADR-B-0064, 0086, 0263, 0432 i 0574. W nowym elemencie tej samej kompetencji zastąpiono je odczytem znaku „(—)” z kolumny (15), który oznacza brak ograniczeń tunelowych dla danego towaru. Obecne opcje są długie, zawierają kropki i powtórzenia.",
+      "duplicate_candidates": [
+        "ADR-B-0064",
+        "ADR-B-0086",
+        "ADR-B-0263",
+        "ADR-B-0432",
+        "ADR-B-0574"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-11",
+        "competency_id": "ADR-B-11-K04",
+        "stem": "W kolumnie (15) tabeli A przy każdym z przewożonych towarów widnieje znak „(—)”. Jak należy odczytać to oznaczenie?",
+        "options": {
+          "A": "W tunelu kategorii A obowiązuje zakaz przewozu",
+          "B": "Towary nie podlegają ograniczeniom przewozu przez tunele",
+          "C": "Kod trzeba ustalić na podstawie ładowności całej jednostki"
+        },
+        "correct_option": "B",
+        "explanation": "W kolumnie (15) tabeli A podaje się kod ograniczeń przewozu przez tunele. Znak „(—)” umieszczony zamiast kodu oznacza, że dany towar nie podlega ograniczeniom przewozu przez tunele. Nie trzeba przypisywać mu kategorii ani wyliczać ograniczeń na podstawie masy. Podstawa: ADR 2025, 8.6.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Znak „(—)” podany zamiast tego kodu oznacza, że towar niebezpieczny nie podlega żadnym ograniczeniom przewozu przez tunele.",
+        "replacement_pages": [
+          1338
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0772",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-11",
+      "competency_id": "ADR-B-11-K06",
+      "legal_basis": "ADR 2025, 8.6.3.3 i 8.6.4",
+      "gazette_pages": [
+        1338,
+        1339
+      ],
+      "exact_quote": "Towary niebezpieczne przewożone zgodnie z przepisami rozdziału 1.1.3 nie podlegają ograniczeniom przewozu przez tunele i nie powinny być brane pod uwagę przy ustalaniu kodu ograniczeń przewozu przez tunele dla całego ładunku znajdującego się w jednostce transportowej z wyłączeniem sytuacji, gdy dla jednostki transportowej wymagane jest oznakowanie zgodnie z 3.4.13, z zastrzeżeniem 3.4.14.",
+      "finding": "Klucz B jest zgodny z wyjątkiem 8.6.3.3: towary z 1.1.3 są pomijane, chyba że jednostka wymaga oznakowania zgodnie z 3.4.13, z zastrzeżeniem 3.4.14. W takim przypadku uwzględnia się także kod B, a dla całego ładunku wybiera kod bardziej restrykcyjny. Treść i opcje są nadmiernie długie, z kropkami i absolutami; tabela 8.6.4 wymaga kontroli wizualnej.",
+      "duplicate_candidates": [
+        "ADR-B-0085",
+        "ADR-B-0591"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-11",
+        "competency_id": "ADR-B-11-K06",
+        "stem": "Jednostka przewozi towar z kodem B korzystający z 1.1.3 oraz towary LQ z kodem D. Ilość LQ wymaga oznakowania jednostki zgodnie z 3.4.13. Który kod stosuje się do całego ładunku?",
+        "options": {
+          "A": "Kod D, bo towary z 1.1.3 pomija się także przy znaku LQ",
+          "B": "Kod B, bo wymagany znak LQ powoduje uwzględnienie towaru z 1.1.3",
+          "C": "Oznakowanie LQ wyłącza ograniczenia tunelowe także dla towaru z kodem B"
+        },
+        "correct_option": "B",
+        "explanation": "Towary przewożone zgodnie z rozdziałem 1.1.3 zasadniczo pomija się przy ustalaniu kodu tunelowego całego ładunku. Wyjątek zachodzi, gdy jednostka transportowa musi być oznakowana zgodnie z 3.4.13, z zastrzeżeniem 3.4.14. Wtedy towar korzystający z 1.1.3 także uwzględnia się, a dla całego ładunku stosuje się kod odpowiadający największym ograniczeniom. Podstawa: ADR 2025, 8.6.3.2–8.6.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.6.3.2–8.6.3.3; 8.6.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "z wyłączeniem sytuacji, gdy dla jednostki transportowej wymagane jest oznakowanie zgodnie z 3.4.13, z zastrzeżeniem 3.4.14.",
+        "replacement_pages": [
+          1338,
+          1339
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0773",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-11",
+      "competency_id": "ADR-B-11-K07",
+      "legal_basis": "ADR 2025, 5.4.3.4 (instrukcje pisemne)",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych; zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych.",
+      "finding": "Klucz C jest zgodny z instrukcjami pisemnymi: należy powiadomić służby i przekazać dostępne informacje o zdarzeniu oraz towarach niebezpiecznych, a ratownikom zapewnić dostęp do dokumentów przewozowych. Opcje są zbyt długie i kończą się kropkami; w nowym brzmieniu usunięto niepotwierdzony wymóg powrotu do strefy zagrożenia.",
+      "duplicate_candidates": [
+        "ADR-B-0592"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-11",
+        "competency_id": "ADR-B-11-K07",
+        "stem": "Po pożarze w tunelu kierowca znajduje się w bezpiecznym miejscu. Przybyli ratownicy pytają o przewożony ładunek. Jak powinien postąpić zgodnie z instrukcjami pisemnymi?",
+        "options": {
+          "A": "Podać numer rejestracyjny, miejsce zdarzenia i kierunek jazdy pojazdu",
+          "B": "Opisać pożar i pozostawić ratownikom odczyt danych z oznakowania pojazdu",
+          "C": "Powiadomić służby i podać dostępne informacje o zdarzeniu oraz towarach"
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne nakazują powiadomić właściwe służby ratownicze i przekazać im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych. Po przybyciu ratowników należy również zapewnić im łatwy dostęp do dokumentów przewozowych. Czynności wykonuje się, jeżeli są możliwe i bezpieczne. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4, wzór instrukcji pisemnych",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych.",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0774",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-12",
+      "competency_id": "ADR-B-12-K01",
+      "legal_basis": "ADR 2025, 1.10.1.4",
+      "gazette_pages": [
+        110
+      ],
+      "exact_quote": "Każdy członek załogi pojazdu przewożącego towary niebezpieczne powinien posiadać przy sobie dokument z fotografią potwierdzający jego tożsamość.",
+      "finding": "Klucz A jest prawidłowy: ADR wymaga dokumentu z fotografią potwierdzającego tożsamość, ale nie wskazuje wyłącznie polskiego dowodu osobistego. Pytanie sprawdza, że paszport ze zdjęciem spełnia wymóg. Opcje są nadmiernie długie, zawierają kropki i absoluty.",
+      "duplicate_candidates": [
+        "ADR-B-0087"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-12",
+        "competency_id": "ADR-B-12-K01",
+        "stem": "Kierowca podczas przewozu ADR ma przy sobie ważny paszport ze zdjęciem, ale nie ma polskiego dowodu osobistego. Czy spełnia wymaganie 1.10.1.4?",
+        "options": {
+          "A": "Wymaganie spełnia paszport z aktualnym zdjęciem kierowcy",
+          "B": "Potrzebny jest dowód osobisty wydany przez polski urząd",
+          "C": "Potrzebna jest legitymacja przewoźnika z numerem zlecenia"
+        },
+        "correct_option": "A",
+        "explanation": "ADR wymaga, aby każdy członek załogi pojazdu przewożącego towary niebezpieczne miał przy sobie dokument z fotografią potwierdzający jego tożsamość. Przepis nie ogranicza katalogu dokumentów do polskiego dowodu osobistego. Ważny paszport ze zdjęciem potwierdza tożsamość i spełnia ten wymóg. Podstawa: ADR 2025, 1.10.1.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Każdy członek załogi pojazdu przewożącego towary niebezpieczne powinien posiadać przy sobie dokument z fotografią potwierdzający jego tożsamość.",
+        "replacement_pages": [
+          110
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0775",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-12",
+      "competency_id": "ADR-B-12-K02",
+      "legal_basis": "ADR 2025, 1.10.1.3",
+      "gazette_pages": [
+        110
+      ],
+      "exact_quote": "powinny być odpowiednio chronione, dobrze oświetlone, a także — o ile jest to możliwe i wskazane — niedostępne dla osób postronnych.",
+      "finding": "Klucz B prawidłowo rozdziela bezwarunkowe wymogi ochrony i oświetlenia od ograniczenia dostępu osób postronnych, które stosuje się, o ile jest to możliwe i wskazane. Obecne odpowiedzi są zbyt długie, zawierają absoluty i końcowe kropki; pytanie jest powiązane z 0701, lecz sprawdza odrębny warunek. Ograniczenie dostępu, nie wymóg ochrony ani oświetlenia, jest warunkowane możliwością i zasadnością.",
+      "duplicate_candidates": [
+        "ADR-B-0701",
+        "ADR-B-0035",
+        "ADR-B-0066"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-12",
+        "competency_id": "ADR-B-12-K02",
+        "stem": "Terminal czasowo przechowuje towary niebezpieczne podczas przewozu. Operator twierdzi, że brak możliwości zamknięcia placu zwalnia go również z zabezpieczenia i oświetlenia. Jak należy odczytać 1.10.1.3?",
+        "options": {
+          "A": "Plac ma być chroniony i oświetlony przy otwartym dostępie osób postronnych",
+          "B": "Plac ma być chroniony i oświetlony, a dostęp ogółu ogranicza się, gdy to możliwe",
+          "C": "Dostęp ogółu ogranicza się, gdy to możliwe; obszar ma być chroniony i oświetlony"
+        },
+        "correct_option": "B",
+        "explanation": "ADR wymaga, aby miejsca czasowego przechowywania towarów niebezpiecznych podczas przewozu były odpowiednio chronione i dobrze oświetlone. Dodatkowo powinny być niedostępne dla osób postronnych, o ile jest to możliwe i wskazane. Warunek możliwości i zasadności odnosi się do ograniczenia dostępu, a nie do dwóch wcześniejszych wymagań. Podstawa: ADR 2025, 1.10.1.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "powinny być odpowiednio chronione, dobrze oświetlone, a także — o ile jest to możliwe i wskazane — niedostępne dla osób postronnych.",
+        "replacement_pages": [
+          110
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0776",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-12",
+      "competency_id": "ADR-B-12-K04",
+      "legal_basis": "ADR 2025, 1.10.1.2",
+      "gazette_pages": [
+        110
+      ],
+      "exact_quote": "Towary niebezpieczne mogą być wydane do przewozu wyłącznie przewoźnikowi odpowiednio zidentyfikowanemu.",
+      "finding": "Klucz C odpowiada obowiązkowi weryfikacji przewoźnika przed wydaniem towaru. Rozbieżność między firmą wskazaną w zleceniu a podmiotem faktycznie odbierającym ładunek wymaga wyjaśnienia przed wydaniem. Opcje są długie, zawierają kropki i bezwzględne sformułowania; 0413 i 0414 są pokrewne, ale pytają o inne sytuacje.",
+      "duplicate_candidates": [
+        "ADR-B-0413",
+        "ADR-B-0414"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-12",
+        "competency_id": "ADR-B-12-K04",
+        "stem": "Kierowca zgłasza odbiór towaru ADR w imieniu firmy wskazanej w zleceniu, lecz dokumenty przewozowe wskazują inną firmę. Nie potrafi wyjaśnić rozbieżności. Co powinien zrobić pracownik wydający przesyłkę?",
+        "options": {
+          "A": "Wydać towar po sprawdzeniu numeru zlecenia i pojazdu",
+          "B": "Sprawdzić dokument kierowcy i wyjaśnić rozbieżność przed wydaniem",
+          "C": "Wstrzymać wydanie i potwierdzić tożsamość faktycznego przewoźnika"
+        },
+        "correct_option": "C",
+        "explanation": "ADR pozwala wydać towary niebezpieczne do przewozu wyłącznie przewoźnikowi odpowiednio zidentyfikowanemu. Jeżeli dokumenty wskazują inną firmę niż ta, w imieniu której kierowca odbiera przesyłkę, nie można uznać tożsamości przewoźnika za potwierdzoną. Rozbieżność należy wyjaśnić przed wydaniem towaru. Podstawa: ADR 2025, 1.10.1.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Towary niebezpieczne mogą być wydane do przewozu wyłącznie przewoźnikowi odpowiednio zidentyfikowanemu.",
+        "replacement_pages": [
+          110
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0777",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-13",
+      "competency_id": "ADR-B-13-K03",
+      "legal_basis": "ADR 2025, 5.4.1.1.1(h)",
+      "gazette_pages": [
+        962
+      ],
+      "exact_quote": "W przypadku, gdy towary niebezpieczne przeznaczone są dla odbiorców nieznanych w chwili rozpoczęcia przewozu, za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”.",
+      "finding": "Klucz B jest prawidłowy, ale treść używa angielskiego określenia „Delivery Sale” zamiast dosłownego polskiego zapisu z ADR: „Sprzedaż obwoźna”. Warianty są zbyt długie, zawierają kropki i absoluty; treść powinna odróżniać zgodę właściwych władz od samego ustalenia odbiorców w trasie.",
+      "duplicate_candidates": [
+        "ADR-B-0579"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-13",
+        "competency_id": "ADR-B-13-K03",
+        "stem": "Nadawca kieruje przewóz ADR do kilku odbiorców, których nie można ustalić przed rozpoczęciem trasy. Chce zastąpić ich nazwy i adresy zapisem „Sprzedaż obwoźna”. Kiedy jest to dopuszczalne?",
+        "options": {
+          "A": "Gdy odbiorców ustala się dopiero podczas realizacji trasy",
+          "B": "Po uzyskaniu zgody właściwych władz państw objętych przewozem",
+          "C": "Po uzgodnieniu zapisu z przewoźnikiem i wpisaniu go do dokumentu"
+        },
+        "correct_option": "B",
+        "explanation": "Dokument przewozowy co do zasady zawiera nazwę i adres odbiorcy lub odbiorców. Jeżeli towary są przeznaczone dla odbiorców nieznanych w chwili rozpoczęcia przewozu, ADR dopuszcza zastąpienie tych danych zapisem „Sprzedaż obwoźna”. Warunkiem jest zgoda właściwych władz państw, których dotyczy przewóz. Podstawa: ADR 2025, 5.4.1.1.1(h).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.1.1.1(h)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "za zgodą właściwych władz państw, których dotyczy przewóz, informacja ta może być zastąpiona zapisem „Sprzedaż obwoźna”",
+        "replacement_pages": [
+          962
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0778",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-13",
+      "competency_id": "ADR-B-13-K05",
+      "legal_basis": "ADR 2025, 8.1.2.1(b)",
+      "gazette_pages": [
+        1324
+      ],
+      "exact_quote": "W kabinie kierowcy jednostki transportowej powinny być przewożone [...] instrukcje pisemne określone w 5.4.3.",
+      "finding": "Obecne pytanie powiela wymóg dokumentu tożsamości ze zdjęciem z ADR-B-0175 i ADR-B-0774. Nowy element w tej samej kompetencji sprawdza odrębny dokument wymieniony w 8.1.2.1(b): instrukcje pisemne muszą znajdować się w kabinie kierowcy. Nie zmienia to zakresu kompetencji ani klucza B.",
+      "duplicate_candidates": [
+        "ADR-B-0175",
+        "ADR-B-0774"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-13",
+        "competency_id": "ADR-B-13-K05",
+        "stem": "Kierowca ma w kabinie dokument przewozowy, lecz instrukcje pisemne ADR pozostały w biurze spedytora. Czy może rozpocząć przewóz?",
+        "options": {
+          "A": "Może ruszyć, jeśli zna procedury opisane w instrukcjach",
+          "B": "Instrukcje pisemne powinny znajdować się w kabinie kierowcy",
+          "C": "Może ruszyć, jeśli spedytor prześle instrukcje po rozpoczęciu trasy"
+        },
+        "correct_option": "B",
+        "explanation": "ADR wymienia wśród dokumentów przewożonych w kabinie kierowcy instrukcje pisemne określone w 5.4.3. Samo zapoznanie się z ich treścią lub możliwość późniejszego otrzymania kopii nie zastępuje obowiązku przewożenia ich w kabinie. Przed rozpoczęciem przewozu instrukcje powinny znajdować się w jednostce transportowej we wskazanym miejscu. Podstawa: ADR 2025, 8.1.2.1(b).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.1(b)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "instrukcje pisemne określone w 5.4.3",
+        "replacement_pages": [
+          1324
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0779",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-13",
+      "competency_id": "ADR-B-13-K06",
+      "legal_basis": "ADR 2025, 5.4.0.2 i 5.4.1.1.7",
+      "gazette_pages": [
+        961,
+        965
+      ],
+      "exact_quote": "Dopuszcza się używanie technik [...] EDI [...] zamiast dokumentacji papierowej, pod warunkiem, że procedury [...] odpowiadają wymaganiom prawnym dotyczącym ich wartości dowodowej oraz dostępności tych danych podczas przewozu w stopniu co najmniej równoważnym dokumentacji papierowej. W przypadku przewozu zgodnie z 1.1.4.2.1, w dokumencie przewozowym powinien być zamieszczony dodatkowo następujący zapis: „PRZEWÓZ ZGODNY Z 1.1.4.2.1”.",
+      "finding": "Klucz B jest zasadny, o ile system EDI spełnia warunki 5.4.0.2 dotyczące wartości dowodowej i dostępności danych podczas przewozu. Wtedy forma elektroniczna może zastąpić papier, ale nie znosi obowiązku dodania zapisu z 5.4.1.1.7 przy przewozie zgodnym z 1.1.4.2.1. Opcje są nadmiernie długie i zawierają kropki oraz absoluty.",
+      "duplicate_candidates": [
+        "ADR-B-0061",
+        "ADR-B-0089",
+        "ADR-B-0215",
+        "ADR-B-0277",
+        "ADR-B-0287",
+        "ADR-B-0395",
+        "ADR-B-0601",
+        "ADR-B-0708",
+        "ADR-B-0714"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-13",
+        "competency_id": "ADR-B-13-K06",
+        "stem": "Przewóz korzystający z 1.1.4.2.1 jest dokumentowany w systemie EDI spełniającym warunki 5.4.0.2. W danych elektronicznych brakuje dodatkowego zapisu wymaganego przez 5.4.1.1.7. Co należy zrobić przed przewozem?",
+        "options": {
+          "A": "Ruszyć, jeśli dane EDI zawierają opis towaru",
+          "B": "Uzupełnić zapis EDI o wymaganą wzmiankę dotyczącą 1.1.4.2.1",
+          "C": "Pozostawić dane bez zmian i dopisać wzmiankę w rejestrze przewoźnika"
+        },
+        "correct_option": "B",
+        "explanation": "ADR dopuszcza zastąpienie dokumentacji papierowej danymi EDI, jeżeli procedury zapewniają im odpowiednią wartość dowodową i dostępność podczas przewozu co najmniej równoważną dokumentacji papierowej. Forma elektroniczna nie uchyla wymagań dotyczących treści dokumentu. Przy przewozie zgodnym z 1.1.4.2.1 należy więc umieścić w danych EDI dodatkowy zapis wskazany w 5.4.1.1.7. Podstawa: ADR 2025, 5.4.0.2 i 5.4.1.1.7.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.0.2; 5.4.1.1.7",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "W przypadku przewozu zgodnie z 1.1.4.2.1, w dokumencie przewozowym powinien być zamieszczony dodatkowo następujący zapis: „PRZEWÓZ ZGODNY Z 1.1.4.2.1”.",
+        "replacement_pages": [
+          965
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0780",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-13",
+      "competency_id": "ADR-B-13-K07",
+      "legal_basis": "ADR 2025, 8.1.2.1(b) i 8.1.2.3",
+      "gazette_pages": [
+        1324
+      ],
+      "exact_quote": "Instrukcje pisemne określone w 5.4.3 powinny być przechowywane w taki sposób, aby były łatwo dostępne.",
+      "finding": "Klucz B jest zgodny z obowiązkiem przeniesienia instrukcji do kabiny pojazdu zastępczego i umieszczenia ich w łatwo dostępnym miejscu. Pytanie jest odrębne od 0090 i 0590, bo dotyczy zmiany pojazdu w trakcie przewozu. Obecne opcje są zbyt długie i zawierają absoluty oraz kropki.",
+      "duplicate_candidates": [
+        "ADR-B-0090",
+        "ADR-B-0590",
+        "ADR-B-0620"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-13",
+        "competency_id": "ADR-B-13-K07",
+        "stem": "Ciągnik uległ awarii, a przewoźnik podstawia pojazd zastępczy do dalszego przewozu tego samego ładunku ADR. Instrukcje pisemne pozostały w uszkodzonym pojeździe. Co trzeba zrobić przed odjazdem?",
+        "options": {
+          "A": "Przekazać kierowcy treść instrukcji w rozmowie telefonicznej",
+          "B": "Umieścić instrukcje w kabinie pojazdu zastępczego w łatwo dostępnym miejscu",
+          "C": "Pozostawić instrukcje w uszkodzonym ciągniku i kontynuować przewóz bez nich"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne muszą być przewożone w kabinie kierowcy, a ich sposób przechowywania ma zapewniać łatwy dostęp. Po zmianie ciągnika obowiązek dotyczy jednostki transportowej kontynuującej przewóz, więc instrukcje należy przenieść do kabiny pojazdu zastępczego. Ustne przekazanie treści nie zastępuje dokumentu. Podstawa: ADR 2025, 8.1.2.1(b) i 8.1.2.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.2.1(b); 8.1.2.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Instrukcje pisemne określone w 5.4.3 powinny być przechowywane w taki sposób, aby były łatwo dostępne.",
+        "replacement_pages": [
+          1324
+        ]
+      }
+    }
+  ]
+}
