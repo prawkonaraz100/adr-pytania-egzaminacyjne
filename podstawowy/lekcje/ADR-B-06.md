@@ -341,16 +341,16 @@ Wymagana nalepka ostrzegawcza nie może być zasłonięta przez pas mocujący, u
 Powiązane pytanie: **ADR-B-0751**.
 
 
-### Litera X przed numerem rozpoznawczym — ADR-B-0752
+### Litera X jest częścią numeru na tablicy — ADR-B-0752
 
-Litera X przed numerem rozpoznawczym zagrożenia ostrzega, że materiał reaguje niebezpiecznie z wodą. Ograniczenie dotyczy nie tylko gaszenia pożaru, ale również spłukiwania lub mycia pozostałości. Woda może być użyta wyłącznie za zgodą specjalistów. Podstawa: ADR 2025, 5.3.2.3.1.
+Jeżeli kolumna (20) tabeli A podaje numer rozpoznawczy zagrożenia z literą X, na przykład X423, litera ta jest częścią numeru. Na tablicy pomarańczowej umieszcza się ją w górnej części, przed cyframi numeru rozpoznawczego zagrożenia, a nie przy numerze UN w dolnej części. Bez litery X ratownicy nie dowiedzą się, że materiał reaguje niebezpiecznie z wodą i że wody można użyć tylko za zgodą specjalistów. Spłukiwanie i gaszenie wodą omawiają sekcje przy pytaniach ADR-B-0170 i ADR-B-0698. Podstawa: ADR 2025, 5.3.2.2.2, 5.3.2.2.3 i 5.3.2.3.1.
 
 Powiązane pytanie: **ADR-B-0752**.
 
 
 ### Tolerancja wymiarów tablicy pomarańczowej — ADR-B-0753
 
-Standardowa tablica pomarańczowa ma wymiary 40 × 30 cm. ADR dopuszcza jednak tolerancję ±10% dla wymiarów wskazanych w tym podrozdziale, więc tablica 36 × 27 cm mieści się na dolnej granicy i nie jest niezgodna wyłącznie z powodu rozmiaru. Nie należy mylić tej tolerancji z osobnym wyjątkiem dla mniejszej tablicy stosowanej, gdy nie ma miejsca na pojeździe. Podstawa: ADR 2025, 5.3.2.2.1 i 5.3.2.2.4.
+Standardowa tablica pomarańczowa ma wymiary 40 × 30 cm. ADR dopuszcza jednak tolerancję ±10% dla wymiarów wskazanych w tym podrozdziale, czyli szerokość od 36 do 44 cm i wysokość od 27 do 33 cm. Tablica 38 × 28 cm mieści się w tych granicach i nie jest niezgodna z powodu samego rozmiaru. Nie należy mylić tej tolerancji z osobnym wyjątkiem dla mniejszej tablicy stosowanej, gdy nie ma miejsca na pojeździe. Podstawa: ADR 2025, 5.3.2.2.1 i 5.3.2.2.4.
 
 Powiązane pytanie: **ADR-B-0753**.
 
@@ -364,13 +364,13 @@ Powiązane pytanie: **ADR-B-0754**.
 
 ### Odblaskowość tablicy pomarańczowej — ADR-B-0755
 
-Tablica pomarańczowa na pojeździe drogowym musi odbijać światło, aby była lepiej widoczna przy słabym oświetleniu. Sama pomarańczowa barwa i czytelne numery nie wystarczą, jeśli tablica nie ma wymaganej odblaskowości. ADR przewiduje wyjątek dla nieodblaskowego koloru na wagonach, ale nie na samochodach. Podstawa: ADR 2025, 5.3.2.2.1.
+Przepis 5.3.2.2.1 wymienia właściwości odblaskowe jako jedną z cech tablicy pomarańczowej, obok wymiarów i czarnego obrzeża. Dzięki nim tablica jest dobrze widoczna w świetle reflektorów, także po zmroku i we mgle. Sama pomarańczowa barwa i czytelne numery nie wystarczą, jeśli tablica jest matowa. ADR nie uzależnia tego wymogu od pory jazdy. Podstawa: ADR 2025, 5.3.2.2.1.
 
 Powiązane pytanie: **ADR-B-0755**.
 
 
-### Numer zagrożenia 86 — materiał żrący lub słabo żrący i toksyczny — ADR-B-0756
+### Cyfra 8 nie tylko na początku numeru — ADR-B-0756
 
-Jeśli na tablicy pomarańczowej widzisz numer 86, przekaż ratownikom oba zagrożenia: substancja działa żrąco (może być słabo żrąca) i jest toksyczna. Nie myl kodu 86 z 88, który oznacza substancję silnie żrącą. Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.
+Cyfra 8 oznacza działanie żrące także wtedy, gdy stoi w środku lub na końcu numeru rozpoznawczego zagrożenia. Numer 338 oznacza materiał łatwo zapalny ciekły żrący: podwójna trójka opisuje łatwą zapalność cieczy, a ósemka dodaje zagrożenie żrące. Reakcję z wodą oznaczałaby dopiero litera X przed numerem (X338). Podobnie numer 86 oznacza materiał żrący lub słabo żrący, trujący, a 886 materiał silnie żrący trujący (pytanie ADR-B-0653). Podstawa: ADR 2025, 5.3.2.3.1–5.3.2.3.2.
 
 Powiązane pytanie: **ADR-B-0756**.
