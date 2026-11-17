@@ -347,56 +347,92 @@ Powiązane pytanie: **ADR-B-0690**. Podstawa: ADR 5.4.3.4, 5.4.3.3 i 1.2.1 (czł
 
 ### Powiadomienie służb bez zwłoki — ADR-B-0691
 
-Jeżeli doszło do wypadku lub awarii, powiadom właściwe służby ratownicze i przekaż im możliwie wszystkie dostępne informacje o zdarzeniu oraz przewożonych towarach niebezpiecznych. Nie uzależniaj wezwania pomocy od wcześniejszej zgody dyspozytora przewoźnika ani od ustalenia pełnej przyczyny awarii. Podawaj sprawdzone fakty, a brakujące informacje określ jako nieznane; nie zgaduj i nie narażaj się, by je zdobyć. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+Jeżeli doszło do wypadku lub awarii, powiadom właściwe służby ratownicze i przekaż im możliwie wszystkie dostępne informacje o zdarzeniu oraz przewożonych towarach niebezpiecznych. Nie uzależniaj wezwania pomocy od wcześniejszej zgody dyspozytora przewoźnika ani od ustalenia pełnej przyczyny awarii. Podawaj sprawdzone fakty, a brakujące informacje określ jako nieznane; nie zgaduj i nie narażaj się, by je zdobyć. Przy bezpośrednim zagrożeniu bezpieczeństwa publicznego uczestnicy przewozu powiadamiają służby niezwłocznie. Podstawa: ADR 5.4.3.4 i 1.4.1.2.
 
 Powiązane pytanie: **ADR-B-0691**.
 
 
-### Zmiana kierunku wiatru przy uwolnieniu oparów — ADR-B-0692
+### Zmiana kierunku wiatru przy uwolnieniu oparów — ADR-B-0741
 
-Jeśli wiatr zmieni kierunek, miejsce, które wcześniej było po stronie nawietrznej, może znaleźć się na drodze przemieszczania się oparów. Ponownie oceń kierunek wiatru i, jeżeli jest to bezpieczne i wykonalne, oddal się tak, aby pozostać po stronie nawietrznej. Nie przechodź przez chmurę i nie podchodź do wycieku, by obserwować jego źródło. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+Jeśli wiatr zmieni kierunek, miejsce, które wcześniej było po stronie nawietrznej, może znaleźć się na drodze przemieszczania się oparów. Ponownie oceń kierunek wiatru i, jeżeli jest to bezpieczne i wykonalne, oddal się tak, aby pozostać po stronie nawietrznej. Nie przechodź przez chmurę i nie podchodź do wycieku, by obserwować jego źródło. Podstawa: ADR 5.4.3.4.
 
-Powiązane pytanie: **ADR-B-0692**.
+Powiązane pytanie: **ADR-B-0741**.
+
+### Kabina nie jest schronieniem przed oparami — ADR-B-0692
+
+Gdy z ładunku wydobywają się opary, a wiatr niesie je w stronę kabiny, nie przeczekuj w niej przyjazdu służb. Zamknięte okna nie chronią przed oparami, a włączenie nawiewu jest włączeniem urządzenia elektrycznego. Wysiądź, jeśli możesz to zrobić bezpiecznie, i odejdź na stronę nawietrzną, z dala od wycieku. Przy nalepce 8 instrukcje pisemne ostrzegają, że uwolnione materiały mogą wydzielać żrące pary.
+
+Powiązane pytanie: **ADR-B-0692**. Podstawa: ADR 5.4.3.4 (czynności ogólne i nalepka 8).
 
 
-### Kamizelka przed ustawieniem znaków — ADR-B-0693
+### Kamizelka przed ustawieniem znaków — ADR-B-0168
 
-Przy wypadku lub awarii, jeżeli można to zrobić bezpiecznie, załóż kamizelkę ostrzegawczą i odpowiednio ustaw stojące znaki ostrzegawcze. Kamizelka zwiększa widoczność kierowcy, gdy opuszcza kabinę i porusza się w pobliżu ruchu. Nie wychodź wprost na jezdnię bez kamizelki i nie ustawiaj znaków, jeśli wymagałoby to wejścia w strefę zagrożenia lub narażenia na ruch pojazdów. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+Przy wypadku lub awarii, jeżeli można to zrobić bezpiecznie, załóż kamizelkę ostrzegawczą i odpowiednio ustaw stojące znaki ostrzegawcze. Kamizelka zwiększa widoczność kierowcy, gdy opuszcza kabinę i porusza się w pobliżu ruchu. Nie wychodź wprost na jezdnię bez kamizelki i nie ustawiaj znaków, jeśli wymagałoby to wejścia w strefę zagrożenia lub narażenia na ruch pojazdów. Podstawa: ADR 5.4.3.4.
 
-Powiązane pytanie: **ADR-B-0693**.
+Powiązane pytanie: **ADR-B-0168**.
+
+### Dwa stojące znaki ostrzegawcze w wyposażeniu — ADR-B-0693
+
+Wykaz wyposażenia w 8.1.5.2 wymaga dwóch stojących znaków ostrzegawczych w jednostce transportowej. Oznakowanie konturowe ani światła awaryjne ich nie zastępują, bo są częścią pojazdu i nie da się ich postawić na drodze przed miejscem zdarzenia. Sprawdź znaki przed wyjazdem i uzupełnij braki.
+
+Powiązane pytanie: **ADR-B-0693**. Podstawa: ADR 8.1.5.2 i 5.4.3.4.
 
 
-### Mały pożar komory silnika a pożar ładowni — ADR-B-0695
+### Mały pożar komory silnika a pożar ładowni — ADR-B-0108
 
-Instrukcje pisemne rozróżniają dwa przypadki. Jeśli jest to właściwe i bezpieczne, można użyć gaśnicy przy małym lub początkowym pożarze opon, hamulców albo komory silnika. Nie oznacza to, że załoga ma gasić każdy pożar: pożaru obejmującego przedział ładunkowy członkowie załogi nie powinni gasić. Jeśli sytuacja jest niebezpieczna, oddal się i wezwij służby. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+Instrukcje pisemne rozróżniają dwa przypadki. Jeśli jest to właściwe i bezpieczne, można użyć gaśnicy przy małym lub początkowym pożarze opon, hamulców albo komory silnika. Nie oznacza to, że załoga ma gasić każdy pożar: pożaru obejmującego przedział ładunkowy członkowie załogi nie powinni gasić. Jeśli sytuacja jest niebezpieczna, oddal się i wezwij służby. Podstawa: ADR 5.4.3.4.
 
-Powiązane pytanie: **ADR-B-0695**.
+Powiązane pytanie: **ADR-B-0108**.
+
+### Duża gaśnica nie służy do gaszenia ładunku — ADR-B-0695
+
+Tabela w 8.1.4.1 określa, ile gaśnic i o jakiej pojemności ma mieć jednostka transportowa. Nie oznacza to, że załoga ma gasić ładunek. Instrukcje pisemne mówią wprost, że członkowie załogi nie powinni gasić pożaru obejmującego przedział ładunkowy, także gdy w pojeździe jest gaśnica 6 kg. W takiej sytuacji oddal się, ostrzeż innych i wezwij służby.
+
+Powiązane pytanie: **ADR-B-0695**. Podstawa: ADR 5.4.3.4 i 8.1.4.1.
 
 
 ### Dokumenty dla ratowników bez powrotu do strefy zagrożenia — ADR-B-0696
 
-Dokumenty przewozowe powinny być łatwo dostępne dla służb ratowniczych po ich przybyciu. Nie oznacza to jednak, że kierowca ma wracać po nie do kabiny wypełnionej dymem. Pozostań w bezpiecznym miejscu, przekaż ratownikom informacje, które już znasz, i wskaż, gdzie znajduje się dokument. Każde działanie z instrukcji wykonuj tylko wtedy, gdy jest możliwe i bezpieczne. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+Dokumenty przewozowe powinny być łatwo dostępne dla służb ratowniczych po ich przybyciu. Nie oznacza to jednak, że kierowca ma wracać po nie do kabiny wypełnionej dymem. Pozostań w bezpiecznym miejscu, przekaż ratownikom informacje, które już znasz, i wskaż, gdzie znajduje się dokument. Każde działanie z instrukcji wykonuj tylko wtedy, gdy jest możliwe i bezpieczne. Podstawa: ADR 5.4.3.4.
 
 Powiązane pytanie: **ADR-B-0696**.
 
 
-### Ostrzeżenie osób postronnych bez wchodzenia w rozlew — ADR-B-0697
+### Ostrzeżenie osób postronnych bez wchodzenia w rozlew — ADR-B-0186
 
-Jeśli ludzie zbliżają się do miejsca awarii, ostrzeż ich i trzymaj z dala od strefy zagrożenia. Nie przechodź przez rozlaną substancję, nawet jeśli chcesz szybko dotrzeć do osób i je zatrzymać. Ostrzegaj z bezpiecznego miejsca, o ile jest to możliwe; jeśli nie możesz zrobić tego bezpiecznie, przekaż ratownikom, gdzie znajdują się te osoby. Podstawa: ADR 2025, 5.4.3.4, tom II, s. 270.
+Jeśli ludzie zbliżają się do miejsca awarii, ostrzeż ich i trzymaj z dala od strefy zagrożenia. Nie przechodź przez rozlaną substancję, nawet jeśli chcesz szybko dotrzeć do osób i je zatrzymać. Ostrzegaj z bezpiecznego miejsca, o ile jest to możliwe; jeśli nie możesz zrobić tego bezpiecznie, przekaż ratownikom, gdzie znajdują się te osoby. Podstawa: ADR 5.4.3.4.
 
-Powiązane pytanie: **ADR-B-0697**.
+Powiązane pytanie: **ADR-B-0186**.
+
+### Dokąd odesłać ludzi stojących w pasie oparów — ADR-B-0697
+
+Gdy wiatr niesie opary w stronę ludzi, każ im wyjść z pasa oparów w bok i oddalić się od miejsca wypadku. Ucieczka razem z wiatrem trzyma ich w oparach, a wiata czy daszek nie chronią przed wdychaniem. Przy nalepce 6.1 instrukcje pisemne ostrzegają przed zatruciem w wyniku wdychania.
+
+Powiązane pytanie: **ADR-B-0697**. Podstawa: ADR 5.4.3.4 (czynności ogólne i nalepka 6.1).
 
 
-### Granica użycia gaśnicy przy pożarze ładowni (ADR-B-0702)
+### Granica użycia gaśnicy przy pożarze ładowni (ADR-B-0742)
 
-Instrukcje pisemne dopuszczają gaszenie tylko małych, początkowych pożarów opon, hamulców lub komory silnika, jeżeli jest to bezpieczne i właściwe. Gdy ogień obejmuje przedział ładunkowy, załoga nie podejmuje próby gaszenia, oddala się i postępuje zgodnie z instrukcjami awaryjnymi. Podstawa: ADR 2025, 5.4.3.4.
+Instrukcje pisemne dopuszczają gaszenie tylko małych, początkowych pożarów opon, hamulców lub komory silnika, jeżeli jest to bezpieczne i właściwe. Gdy ogień obejmuje przedział ładunkowy, załoga nie podejmuje próby gaszenia, oddala się i postępuje zgodnie z instrukcjami awaryjnymi. Podstawa: ADR 5.4.3.4.
+
+### Gaśnica 2 kg a mały pożar w kabinie (ADR-B-0702)
+
+Tabela w 8.1.4.1 wymaga co najmniej jednej gaśnicy przenośnej 2 kg odpowiedniej do gaszenia pożaru silnika lub kabiny. Mały, początkowy pożar w kabinie mieści się więc w jej przeznaczeniu, jeżeli użycie gaśnicy jest bezpieczne. Żadna gaśnica z tej tabeli nie służy do gaszenia ładunku. Gdy ogień się rozwija albo kabina wypełnia się dymem, oddal się i wezwij służby.
+
+Powiązane pytanie: **ADR-B-0702**. Podstawa: ADR 8.1.4.1 i 5.4.3.4.
 
 
 ## Uzupełnienie etapu 4x278 — dostępność gaśnicy
 
 Gaśnica musi być zamocowana tak, aby załoga mogła łatwo i szybko po nią sięgnąć. Jeżeli jej uchwyt wymaga klucza przechowywanego osobno w zamkniętej skrzynce, dostęp jest utrudniony. Samo oznaczenie miejsca klucza nie usuwa przeszkody. Przed wyjazdem należy zapewnić łatwy dostęp do gaśnicy. Podstawa: ADR 2025, 8.1.4.5.
 
-Powiązane pytanie: **ADR-B-0704**.
+Powiązane pytanie: **ADR-B-0169**.
+
+### Gaśnica stała w komorze silnika — ADR-B-0704
+
+Jeżeli pojazd ma gaśnicę stałą, która uruchamia się automatycznie lub w inny łatwy sposób w razie pożaru silnika, przenośna gaśnica odpowiednia do pożaru silnika nie jest wymagana. Nie zwalnia to z pozostałych wymagań 8.1.4.1 dotyczących gaśnic przenośnych. Gaśnice, które nadal są wymagane, montuje się tak, aby były łatwo dostępne dla załogi.
+
+Powiązane pytanie: **ADR-B-0704**. Podstawa: ADR 8.1.4.3, 8.1.4.1 i 8.1.4.5.
 
 
 ### Bezpieczne usunięcie skażonej odzieży i środków ochronnych (ADR-B-0707)
