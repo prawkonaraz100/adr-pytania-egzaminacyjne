@@ -8,19 +8,19 @@
       "id": "ADR-B-0725",
       "sequence": 725,
       "exact_record_snapshot": {
-        "stem": "Przy przyjęciu ładunku klasy 5.1 pracownik mówi: „Ten materiał sam nie musi się palić, więc nie wpłynie na pożar kartonów obok”. Która ocena jest prawidłowa?",
+        "stem": "Nadawca chce wysłać kanistry z niestabilizowanym roztworem wodnym nadtlenku wodoru, który zawiera 70% nadtlenku wodoru. Kanistry są szczelne i oznakowane. Czy ADR dopuszcza ten materiał klasy 5.1 do przewozu?",
         "options": {
-          "A": "Pracownik ma rację: tylko ładunek, który sam płonie, może zwiększyć zagrożenie pożarowe w pojeździe.",
-          "B": "Pracownik się myli: utleniacz może podtrzymywać lub nasilać spalanie innych materiałów, choć sam nie płonie.",
-          "C": "Pracownik ma rację: utleniacze oddziałują wyłącznie na metale, a nie na zwykłe materiały palne."
+          "A": "Tak, jeżeli kanistry mają nalepki i jest wypełniony dokument przewozowy",
+          "B": "Nie, ADR nie dopuszcza takiego roztworu powyżej 60% nadtlenku",
+          "C": "Tak, jeżeli przewiezie się go jako ilości ograniczone (LQ)"
         },
         "correct_option": "B",
-        "explanation": "Materiały utleniające klasy 5.1 nie muszą same się palić, ale mogą dostarczać tlen lub w inny sposób nasilać spalanie sąsiedniego ładunku. Dlatego kartony i inne materiały palne nadal mogą być poważnie zagrożone. Twierdzenia, że utleniacz nie wpływa na pożar albo działa tylko na metale, są błędne. Podstawa: ADR 2025, 2.2.51.1.1.",
+        "explanation": "Klasa 5.1 ma własną listę materiałów niedopuszczonych do przewozu. Znajduje się na niej niestabilizowany nadtlenek wodoru oraz jego niestabilizowany roztwór wodny, który zawiera więcej niż 60% nadtlenku wodoru. Skoro materiał jest wymieniony jako niedopuszczony, szczelne opakowanie, nalepki ani dokument przewozowy tego nie zmieniają. Nie pomaga też przewóz jako ilości ograniczone, bo materiał w ogóle nie może być przewożony. Podstawa: ADR 2.2.51.2.2.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.51.1.1",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 2.2.51.2.2 (materiały niedopuszczone do przewozu: nadtlenek wodoru, niestabilizowany lub roztwór wodny niestabilizowany, zawierający więcej niż 60% nadtlenku wodoru)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",

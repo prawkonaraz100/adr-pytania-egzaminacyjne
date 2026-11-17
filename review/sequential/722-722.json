@@ -8,19 +8,19 @@
       "id": "ADR-B-0722",
       "sequence": 722,
       "exact_record_snapshot": {
-        "stem": "Kierowca ma przewieźć ciecz, której dokumentacja podaje temperaturę zapłonu 18°C. Na placu załadunkowym jest tylko 8°C. Jak powinien rozumieć ryzyko pożaru przy otwieraniu opakowania?",
+        "stem": "Rozpuszczalnik bez zagrożeń dodatkowych ma temperaturę zapłonu 18 °C i temperaturę początku wrzenia 80 °C. Nie jest cieczą lepką. Do której grupy pakowania zalicza go tabela w 2.2.3.1.3?",
         "options": {
-          "A": "Chłodniejsze powietrze usuwa zagrożenie zapłonem, więc kontrola źródeł ognia nie jest konieczna.",
-          "B": "Ciecz nadal wymaga ostrożności: jej pary mogą się zapalić, dlatego trzeba unikać źródeł zapłonu.",
-          "C": "Temperatura zapłonu dotyczy wyłącznie wrzenia cieczy, więc nie ma znaczenia przy załadunku."
+          "A": "Do I grupy, bo temperatura zapłonu jest niższa niż 23 °C",
+          "B": "Do II grupy: zapłon poniżej 23 °C, wrzenie powyżej 35 °C",
+          "C": "Do III grupy, bo temperatura zapłonu nie przekracza 60 °C"
         },
         "correct_option": "B",
-        "explanation": "Temperatura zapłonu 18°C informuje, że ciecz może tworzyć palne pary już w stosunkowo niskiej temperaturze. Chłodny poranek nie daje kierowcy prawa do lekceważenia źródeł zapłonu, a temperatura zapłonu nie oznacza temperatury wrzenia. Dlatego przy obsłudze takiego ładunku trzeba zachować ostrożność wobec ognia i iskier. Podstawa: ADR 2025, 2.2.3.1.1.",
+        "explanation": "Grupę pakowania cieczy zapalnej odczytuje się z tabeli w 2.2.3.1.3 na podstawie dwóch wartości: temperatury zapłonu i temperatury początku wrzenia. Do I grupy należą ciecze, które zaczynają wrzeć w 35 °C lub niżej. Ciecz o temperaturze zapłonu niższej niż 23 °C i początku wrzenia powyżej 35 °C należy do II grupy. III grupa obejmuje ciecze z zapłonem od 23 °C do 60 °C i wrzeniem powyżej 35 °C. Podstawa: ADR 2.2.3.1.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.3.1.1",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 2.2.3.1.3 (tabela grup pakowania według temperatury zapłonu i temperatury początku wrzenia)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
