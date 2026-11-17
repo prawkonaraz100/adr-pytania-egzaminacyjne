@@ -1,0 +1,670 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0736–0750",
+  "base_commit": "64bb28f5f1105f8825327f9696e4f570bf2c4b28",
+  "bank_count": 780,
+  "bank_blob_sha": "5448ab43d2bed3ac17abd384b6bdc1eb596ef93f",
+  "bank_changed": false,
+  "previous_uncompared": 45,
+  "compared": 15,
+  "remaining_without_comparison": 30,
+  "verified": 0,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  },
+  "similarity": {
+    "script": "scripts/similarity.py",
+    "threshold_0_45": {
+      "pairs_in_bank": 7,
+      "pairs_with_batch": 0
+    },
+    "threshold_0_25": {
+      "pairs_in_bank": 160,
+      "pairs_with_batch": 2
+    },
+    "note": "Podobieństwo leksykalne nie wyklucza duplikatów semantycznych; oceniono osobno wszystkie kompetencje."
+  },
+  "correction_note": "Sprostowanie Dz.U. 2025 poz. 1575 nie modyfikuje badanych punktów ADR.",
+  "records": [
+    {
+      "id": "ADR-B-0736",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-04",
+      "competency_id": "ADR-B-04-K01",
+      "legal_basis": "ADR 2025, 8.3.5",
+      "gazette_pages": [
+        1332
+      ],
+      "exact_quote": "W czasie manipułowania ładunkiem zabronione jest palenie zarówno w pobliżu, jak też wewnątrz pojazdów.",
+      "finding": "Palenie przez pracownika magazynu również narusza zakaz podczas czynności ładunkowych; dubluje temat 0010, 0103, 0279; opcje za długie, z kropkami i absolutami.",
+      "duplicate_candidates": [
+        "ADR-B-0010",
+        "ADR-B-0103",
+        "ADR-B-0279",
+        "ADR-B-0280"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-04",
+        "competency_id": "ADR-B-04-K01",
+        "stem": "Podczas przeładunku towarów niebezpiecznych pracownik magazynu staje obok pojazdu i zapala papierosa. Tłumaczy, że zakaz z ADR dotyczy tylko kierowcy i wnętrza kabiny. Jak należy ocenić tę sytuację?",
+        "options": {
+          "A": "Zażądać zaprzestania palenia także przez magazyniera przy pojeździe",
+          "B": "Pozwolić palić, bo magazynier nie jest członkiem załogi przy rozładunku",
+          "C": "Pozwolić palić, jeżeli magazynier stoi poza kabiną"
+        },
+        "correct_option": "A",
+        "explanation": "Zakaz z ADR 8.3.5 obowiązuje podczas czynności ładunkowych w pobliżu pojazdów oraz wewnątrz nich, a nie tylko w kabinie. Przepis obejmuje też e-papierosy i podobne urządzenia; nie ogranicza zakazu do kierowcy, bo dotyczy miejsca i czasu wykonywania operacji. Dlatego pracownik magazynu nie może palić przy pojeździe podczas przeładunku. Podstawa: ADR 2025, 8.3.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "W czasie manipułowania ładunkiem zabronione jest palenie zarówno w pobliżu, jak też wewnątrz pojazdów.",
+        "replacement_pages": [
+          1332
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0737",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-04",
+      "competency_id": "ADR-B-04-K02",
+      "legal_basis": "ADR 2025, 8.3.3",
+      "gazette_pages": [
+        1332
+      ],
+      "exact_quote": "Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne.",
+      "finding": "Zgoda odbiorcy nie uchyla zakazu. Duplikaty 0011, 0048, 0243 i 0357; konieczny odmienny przypadek w obrębie kompetencji.",
+      "duplicate_candidates": [
+        "ADR-B-0011",
+        "ADR-B-0048",
+        "ADR-B-0243",
+        "ADR-B-0357",
+        "ADR-B-0678"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-04",
+        "competency_id": "ADR-B-04-K02",
+        "stem": "Kierowca chce lekko uchylić wieko beczki zawierającej towar ADR, by obejrzeć uszczelkę bez wyjmowania zawartości. Czy może to zrobić?",
+        "options": {
+          "A": "Nie, częściowe uchylenie wieka nadal otwiera sztukę przesyłki",
+          "B": "Tak, jeśli nie wyjmuje się zawartości z otwartej beczki",
+          "C": "Tak, gdy wieko uchyla się przed rozładunkiem dla kontroli uszczelki"
+        },
+        "correct_option": "A",
+        "explanation": "Przepis ADR zakazuje kierowcy i pomocnikowi otwierania sztuk przesyłek, które zawierają towary niebezpieczne. Nie wymaga, aby opakowanie zostało całkowicie rozebrane ani by materiał wyjęto ze środka. Nawet częściowe odchylenie wieka beczki jest otwarciem sztuki przesyłki, dlatego kierowca nie powinien wykonywać takiej kontroli uszczelki. Podstawa: ADR 2025, 8.3.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.3.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Zabrania się kierowcy i jego pomocnikowi otwierania sztuk przesyłek zawierających towary niebezpieczne.",
+        "replacement_pages": [
+          1332
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0738",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-04",
+      "competency_id": "ADR-B-04-K04",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Unikać źródeł zapłonu, w szczególności nie palić, nie używać papierosów elektronicznych lub podobnych urządzeń oraz nie włączać żadnych urządzeń elektrycznych;",
+      "finding": "Sytuacja z cysterną wychodzi poza kurs podstawowy; wariant dotyczy kanistrów z cieczą zapalną. Podobne 0102 i 0164; opcje za długie i z kropkami.",
+      "duplicate_candidates": [
+        "ADR-B-0102",
+        "ADR-B-0164",
+        "ADR-B-0296"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-04",
+        "competency_id": "ADR-B-04-K04",
+        "stem": "Po awarii kanistra klasy 3 kierowca widzi rozlew, ale nie ma płomienia. Chce włączyć lampę elektryczną, aby obejrzeć wyciek. Co powinien zrobić?",
+        "options": {
+          "A": "Włączyć lampę, bo brak widocznego płomienia oznacza bezpieczeństwo",
+          "B": "Włączyć lampę na krótko z daleka od miejsca rozlewu",
+          "C": "Nie włączać lampy, ponieważ może stać się źródłem zapłonu"
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne wymagają unikania źródeł zapłonu przy awarii i zabraniają włączania urządzeń elektrycznych. Sam brak widocznego płomienia nie dowodzi, że nad rozlewem cieczy zapalnej nie występuje zagrożenie. Włączenie lampy może spowodować zapłon oparów, więc zamiast oględzin kierowca powinien odejść w bezpieczne miejsce i wykonywać dalsze polecenia instrukcji. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Unikać źródeł zapłonu, w szczególności nie palić, nie używać papierosów elektronicznych lub podobnych urządzeń oraz nie włączać żadnych urządzeń elektrycznych;",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0739",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K02",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest on dostępny;",
+      "finding": "Zasada dostępności wyłącznika i bezpiecznego działania zgodna z kluczem; opcje za długie i zawierają słowo «zawsze». Bliskie 0104, 0219.",
+      "duplicate_candidates": [
+        "ADR-B-0104",
+        "ADR-B-0182",
+        "ADR-B-0219"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K02",
+        "stem": "Po awarii kierowca zatrzymał pojazd w bezpiecznym miejscu i wyłączył silnik. Wyłącznik główny akumulatora znajduje się przy uszkodzonej części pojazdu, do której nie można bezpiecznie podejść. Co powinien zrobić?",
+        "options": {
+          "A": "Wejść w rozlew, by wyłączyć główny akumulator, mimo zagrożenia dla zdrowia",
+          "B": "Uruchomić silnik i przejechać przez rozlew",
+          "C": "Nie wchodzić do rozlewu i wykonywać inne bezpieczne czynności"
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne stosuje się tylko wtedy, gdy dane działanie jest możliwe i bezpieczne; nie wolno ryzykować wejścia w strefę zagrożenia dla obsługi wyłącznika. Podejście do uszkodzonej części może narazić kierowcę na wyciek lub opary, a ponowne uruchomienie silnika nie jest bezpiecznym sposobem rozwiązania sytuacji. Oddal się, ostrzeż innych i postępuj według kolejnych punktów instrukcji. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Zahamować pojazd, wyłączyć silnik i odłączyć akumulator za pomocą wyłącznika głównego, jeżeli jest on dostępny;",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0740",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K03",
+      "legal_basis": "ADR 2025, 5.3.2.2.2; 5.4.3.4",
+      "gazette_pages": [
+        955,
+        975
+      ],
+      "exact_quote": "Numer rozpoznawczy zagrożenia powinien znajdować się w górnej części tablicy, a numer UN w jej części dolnej;",
+      "finding": "Oba numery z tablicy należy prawidłowo rozróżnić, a dostępne dane przekazać służbom zgodnie z 5.4.3.4 (str. 975); opcje za długie i z absolutami.",
+      "duplicate_candidates": [
+        "ADR-B-0105",
+        "ADR-B-0165",
+        "ADR-B-0594"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K03",
+        "stem": "Kierowca po kolizji zgłasza zdarzenie służbom z bezpiecznego miejsca. Nie może wrócić po dokumenty, ale widzi z daleka czytelną tablicę pomarańczową z dwoma numerami. Co powinien przekazać?",
+        "options": {
+          "A": "Przekazać górny numer, a dolny pominąć jako zbędny",
+          "B": "Podać numer zagrożenia z góry i numer UN z dolnej części tablicy",
+          "C": "Zamienić numery miejscami: górny to UN, dolny to rodzaj zagrożenia"
+        },
+        "correct_option": "B",
+        "explanation": "Tablica pomarańczowa może przekazać ratownikom dwa ważne oznaczenia: u góry numer rozpoznawczy zagrożenia, a na dole numer UN towaru. Oba pomagają rozpoznać rodzaj zagrożenia i przewożoną substancję, dlatego nie pomijaj żadnego z nich. Nie ograniczaj zgłoszenia do numeru rejestracyjnego i nie wracaj po dokumenty, jeśli oznaczałoby to wejście w strefę zagrożenia. Podstawa: ADR 2025, 5.3.2.2.2 i 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.2.2; 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Numer rozpoznawczy zagrożenia powinien znajdować się w górnej części tablicy, a numer UN w jej części dolnej;",
+        "replacement_pages": [
+          955,
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0741",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K04",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej;",
+      "finding": "Klucz C jest zgodny z instrukcjami. Jednak w banku podobne 0106, 0183, 0494 i 0613; odpowiedzi 128/118/84 znaków, kropki i klucz jedyną najkrótszą. Zamiennik powinien badać odrębny szczegół czynności bezpieczeństwa.",
+      "duplicate_candidates": [
+        "ADR-B-0106",
+        "ADR-B-0183",
+        "ADR-B-0494",
+        "ADR-B-0613"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K04",
+        "stem": "Po awarii z uszkodzonej przesyłki wydobywa się drobny pył. Wiatr niesie go w stronę kierowcy stojącego przy poboczu. Które działanie jest zgodne z instrukcjami pisemnymi ADR?",
+        "options": {
+          "A": "Oddalić się na stronę zawietrzną, gdzie wiatr niesie pył",
+          "B": "Przejść przez chmurę pyłu, aby odzyskać dokumenty i oddalić się od pojazdu",
+          "C": "Pozostać po stronie nawietrznej i nie wdychać uwolnionego pyłu"
+        },
+        "correct_option": "C",
+        "explanation": "Pył z uszkodzonej przesyłki może dostać się do dróg oddechowych, dlatego kierowca powinien oddalić się i pozostać po stronie nawietrznej. Oznacza to miejsce, z którego wiatr wieje w stronę chmury, a nie takie, na które ją niesie. Nie zakładaj, że rozproszony pył jest bezpieczny, ani nie przechodź przez chmurę. Podstawa: ADR 2025, 5.4.3.4 — unikanie wdychania pyłu przez pozostawanie po stronie nawietrznej.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej;",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0742",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K05",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Członkowie załogi pojazdu nie powinni gasić pożaru obejmującego przedział ładunkowy;",
+      "finding": "Klucz B jest poprawny: pożaru przedziału ładunkowego załoga nie powinna gasić. Sprawdzić przejście ognia z komory silnika do ładowni; to odrębny moment od 0107, 0166, 0222 i 0614. Opcja A przekracza 80 znaków, wszystkie kończą się kropkami.",
+      "duplicate_candidates": [
+        "ADR-B-0107",
+        "ADR-B-0166",
+        "ADR-B-0222",
+        "ADR-B-0614"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K05",
+        "stem": "Podczas awarii mały pożar w komorze silnika rozprzestrzenia się na przedział ładunkowy z towarami niebezpiecznymi. Co powinien zrobić członek załogi?",
+        "options": {
+          "A": "Gasić dalej, bo ogień rozpoczął się w silniku",
+          "B": "Nie gasić płonącej ładowni i oddalić się od pożaru",
+          "C": "Otworzyć przedział ładunkowy i sprawdzić, co dokładnie płonie"
+        },
+        "correct_option": "B",
+        "explanation": "Mały pożar komory silnika można próbować gasić tylko wtedy, gdy jest to właściwe i bezpieczne. Gdy ogień obejmie przedział ładunkowy, ten wyjątek już nie obowiązuje: załoga nie powinna podejmować gaszenia, nawet jeśli ogień nadal wygląda na niewielki. Otwieranie ładowni może dodatkowo narazić ludzi na dym i substancje z ładunku. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Członkowie załogi pojazdu nie powinni gasić pożaru obejmującego przedział ładunkowy;",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0743",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K06",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Jeżeli jest to właściwe i bezpieczne, użyć gaśnic w celu ugaszenia małego lub będącego w fazie początkowej pożaru, obejmującego opony, hamulce lub przedział silnika;",
+      "finding": "Klucz B jest poprawny przez warunek bezpieczeństwa, lecz temat bliski 0108, 0184, 0493 i 0742. Opcje A i C za długie, wszystkie z kropkami, odpowiedź B jest jedyną najkrótszą i pojawia się średnik w B.",
+      "duplicate_candidates": [
+        "ADR-B-0108",
+        "ADR-B-0184",
+        "ADR-B-0493",
+        "ADR-B-0702"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K06",
+        "stem": "Na postoju kierowca zauważa mały pożar w komorze silnika. Aby dosięgnąć gaśnicy i podejść do ognia, musiałby wejść w gęsty dym. Co powinien zrobić?",
+        "options": {
+          "A": "Gasić natychmiast, gdyż płomień silnika jest mały",
+          "B": "Nie wchodzić w dym i odstąpić od próby gaszenia silnika",
+          "C": "Otworzyć komorę silnika szeroko, aby znaleźć źródło płomieni"
+        },
+        "correct_option": "B",
+        "explanation": "Mały pożar silnika można gasić gaśnicą tylko wtedy, gdy jest to właściwe i bezpieczne. Jeżeli dojście wymaga wejścia w gęsty dym, warunek bezpieczeństwa nie jest spełniony: nie podejmuj próby, oddal się, ostrzeż innych i wezwij służby. Nie ryzykuj wdychania dymu ani nie otwieraj komory bez potrzeby. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Jeżeli jest to właściwe i bezpieczne, użyć gaśnic w celu ugaszenia małego lub będącego w fazie początkowej pożaru, obejmującego opony, hamulce lub przedział silnika;",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0744",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K07",
+      "legal_basis": "ADR 2025, 5.4.0.2",
+      "gazette_pages": [
+        961
+      ],
+      "exact_quote": "procedury użyte do zbierania, przechowywania i przetwarzania danych elektronicznych odpowiadają wymaganiom prawnym dotyczącym ich wartości dowodowej oraz dostępności tych danych podczas przewozu w stopniu co najmniej równoważnym dokumentacji papierowej.",
+      "finding": "Klucz A odpowiada wymogowi dostępności w trakcie przewozu. Warianty 112/112/119 znaków, z kropkami, słowa absolutne. Temat wyróżnia się elektroniczną dostępnością; należy zachować równoważność z papierem i nie sugerować wymogu wyłącznie dostępu do internetu.",
+      "duplicate_candidates": [
+        "ADR-B-0109",
+        "ADR-B-0185",
+        "ADR-B-0696"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K07",
+        "stem": "Dokument przewozowy jest przechowywany wyłącznie w aplikacji, która pobiera go z internetu. Po wypadku w miejscu bez zasięgu ratownicy nie mogą go otworzyć. Jakie wymaganie ADR dotyczące takiego rozwiązania nie zostało spełnione?",
+        "options": {
+          "A": "Zapewnić dostęp do danych w trasie tak jak do dokumentu papierowego",
+          "B": "Podawać numer UN z pamięci, a pełen dokument pokazać po zakończeniu akcji",
+          "C": "Czekać na internet i kontakt nadawcy przed udostępnieniem danych"
+        },
+        "correct_option": "A",
+        "explanation": "Elektroniczny dokument jest dopuszczalny, ale wymagane dane muszą być dostępne podczas przewozu i równie wiarygodnie jak przy papierze. Jeśli brak zasięgu uniemożliwia otwarcie pliku, ratownicy nie otrzymają informacji potrzebnych do rozpoznania ładunku. Sam numer UN podany z pamięci nie zastępuje całego dokumentu, a oczekiwanie na sieć opóźnia dostęp. Podstawa: ADR 2025, 5.4.0.2 i 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.0.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "procedury użyte do zbierania, przechowywania i przetwarzania danych elektronicznych odpowiadają wymaganiom prawnym dotyczącym ich wartości dowodowej oraz dostępności tych danych podczas przewozu w stopniu co najmniej równoważnym dokumentacji papierowej.",
+        "replacement_pages": [
+          961
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0745",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K08",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny.",
+      "finding": "Klucz B zgodny z nakazem usunięcia skażonego wyposażenia. Powtarza zasadę z 0110/0167/0707, choć użyte rękawice są konkretnym środkiem ochrony. Odpowiedzi A i B ponad 80 znaków; wszystkie kończą się kropkami, A/B mają średniki.",
+      "duplicate_candidates": [
+        "ADR-B-0110",
+        "ADR-B-0167",
+        "ADR-B-0707"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K08",
+        "stem": "Po zakończeniu działań przy wycieku kierowca ma już czyste rękawice zapasowe. W kabinie leży para rękawic użytych przy uszkodzonej przesyłce. Które postępowanie jest właściwe przed powrotem do pojazdu?",
+        "options": {
+          "A": "Założyć ponownie rękawice, jeśli są suche",
+          "B": "Odseparować skażone rękawice i zapewnić bezpieczne usunięcie",
+          "C": "Schować rękawice w kabinie bez dotykania dokumentów kierowcy"
+        },
+        "correct_option": "B",
+        "explanation": "Rękawice, które miały kontakt z uwolnioną substancją, traktuj jako skażone nawet wtedy, gdy nie widać na nich plamy. Nie zakładaj ich ponownie ani nie wkładaj do schowka; trzeba odseparować je i zapewnić bezpieczne usunięcie. Odpowiedź A myli brak widocznych śladów z brakiem zagrożenia, a C przenosi skażenie do kabiny. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny.",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0746",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K09",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Oddalić się od miejsca wypadku lub zagrożenia, poinformować inne osoby o konieczności oddalenia się od tego miejsca oraz stosować się do zaleceń służb ratowniczych;",
+      "finding": "Odpowiedź A jest zgodna co do ostrzegania osób, ale badany cytat wprost nie wymienia osobno «ruchu drogowego». Przeredagować do dosłownej reguły ADR. Bliskie pytania 0111, 0186, 0224, 0697; opcje 84/100/108 znaków i kropki.",
+      "duplicate_candidates": [
+        "ADR-B-0111",
+        "ADR-B-0186",
+        "ADR-B-0224",
+        "ADR-B-0697"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K09",
+        "stem": "Po awarii pojazdu ADR osoby postronne gromadzą się blisko uszkodzonych opakowań. Co powinien zrobić kierowca z bezpiecznego miejsca?",
+        "options": {
+          "A": "Ostrzec osoby postronne i nakazać oddalenie się z miejsca zagrożenia",
+          "B": "Zezwolić przechodniom zostać na chodniku bardzo blisko uszkodzonego pojazdu",
+          "C": "Samemu kierować ruchem w zagrożonym miejscu, bez pomocy służb"
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcje pisemne nakazują oddalić się od miejsca wypadku lub zagrożenia oraz poinformować inne osoby, że powinny się od niego oddalić. Samo pozostawanie na chodniku obok uszkodzonego pojazdu nie gwarantuje bezpieczeństwa, bo narażenie zależy od rodzaju uwolnionego towaru. Kierowca powinien ostrzec osoby z bezpiecznego miejsca i stosować się do poleceń służb, nie wchodząc w zagrożony obszar. Podstawa: ADR 2025, 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Oddalić się od miejsca wypadku lub zagrożenia, poinformować inne osoby o konieczności oddalenia się od tego miejsca oraz stosować się do zaleceń służb ratowniczych;",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0747",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K10",
+      "legal_basis": "ADR 2025, 8.1.5.2",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "dwa stojące znaki ostrzegawcze;",
+      "finding": "Zgodnie z tym punktem jednostka przewozi dwa stojące znaki ostrzegawcze, a każdy członek załogi kamizelkę ostrzegawczą (dalszy akapit na tej samej stronie). Klucz A poprawny, lecz sformułowania przekraczają 80 znaków i mają kropki, a 0693 testuje zastępowanie znaków.",
+      "duplicate_candidates": [
+        "ADR-B-0112",
+        "ADR-B-0168",
+        "ADR-B-0693"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K10",
+        "stem": "Przed wyjazdem na przewóz ADR kierowca sprawdza wyposażenie jednostki transportowej, w której jadą dwie osoby. Który zestaw dotyczący znaków ostrzegawczych i kamizelek jest wymagany?",
+        "options": {
+          "A": "Dwa znaki dla jednostki i kamizelka dla każdego z dwóch członków załogi",
+          "B": "Jeden znak dla jednostki i dwie kamizelki dla obu członków załogi",
+          "C": "Dwa znaki dla jednostki i jedna wspólna kamizelka dla obu członków załogi"
+        },
+        "correct_option": "A",
+        "explanation": "Jednostka transportowa ma mieć dwa stojące znaki ostrzegawcze, a kamizelkę ostrzegawczą trzeba zapewnić każdemu członkowi załogi. Przy dwóch osobach oznacza to dwa znaki i dwie kamizelki, nie jeden wspólny zestaw. Odpowiedź B zmniejsza wymaganą liczbę znaków, a C pomija kamizelkę dla drugiej osoby. Podstawa: ADR 2025, 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "dwa stojące znaki ostrzegawcze;",
+        "replacement_pages": [
+          1325
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0748",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K11",
+      "legal_basis": "ADR 2025, 8.2.2.3.2(e)",
+      "gazette_pages": [
+        1327
+      ],
+      "exact_quote": "czynności, które należy podjąć po zaistnieniu wypadku (pierwsza pomoc, bezpieczeństwo ruchu drogowego, podstawowa wiedza na temat używania sprzętu ochronnego, itp.);",
+      "finding": "ADR wymaga omawiania pierwszej pomocy w kursie, ale ten punkt NIE zawiera instrukcji o pozycji bocznej ani RKO; w banku wykorzystano zewnętrzne wytyczne ERC. Nie można udawać dosłownego potwierdzenia klucza w ADR. Trzeba zamienić na sytuację i decyzję wynikającą z 5.4.3.4 oraz warunku bezpieczeństwa. Opcje za długie i z kropkami.",
+      "duplicate_candidates": [
+        "ADR-B-0113",
+        "ADR-B-0187",
+        "ADR-B-0712"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K11",
+        "stem": "Po kolizji obok uszkodzonej przesyłki leży poszkodowany, a nad wyciekiem unoszą się nieznane opary. Co powinien zrobić kierowca przed udzieleniem pomocy?",
+        "options": {
+          "A": "Ocenić bezpieczeństwo miejsca i dopiero potem podejść do poszkodowanego",
+          "B": "Wejść bez zabezpieczeń w chmurę oparów, by pomóc poszkodowanemu",
+          "C": "Oczekiwać bez powiadomienia służb, aż substancja przestanie się uwalniać"
+        },
+        "correct_option": "A",
+        "explanation": "ADR zalicza pierwszą pomoc do tematów kursu podstawowego, ale nie wymaga, aby kierowca wchodził w niebezpieczne miejsce bez ochrony. Instrukcje pisemne nakazują wykonywać czynności po wypadku tylko wtedy, gdy są możliwe i bezpieczne. W obecności nieznanych oparów należy najpierw ocenić ryzyko, powiadomić służby i unikać narażenia, zamiast zbliżać się do wycieku. Podstawa: ADR 2025, 8.2.2.3.2(e) i 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "W razie zaistnienia podczas przewozu wypadku lub awarii, członkowie załogi pojazdu powinni wykonać następujące czynności, jeżeli jest to możliwe i bezpieczne:",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0749",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K12",
+      "legal_basis": "ADR 2025, 8.1.4.5",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "Sposób zamontowania gaśnic powinien zapewniać ochronę przed działaniem czynników atmosferycznych gwarantującą ich bezpieczną eksploatację.",
+      "finding": "Klucz B zgodny z przepisem. Pytanie różnicuje ochronę przed deszczem i dostępność; podobna kompetencja 0015, 0169 i 0585, ale odrębny warunek. Wariant C za długi i wszystkie opcje zakończone kropkami; klucz jedyną najkrótszą.",
+      "duplicate_candidates": [
+        "ADR-B-0015",
+        "ADR-B-0169",
+        "ADR-B-0585"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K12",
+        "stem": "Gaśnica ADR jest zamocowana na zewnątrz pojazdu i łatwo dostępna, ale podczas jazdy bezpośrednio narażona na deszcz i sól drogową. Co należy poprawić?",
+        "options": {
+          "A": "Pozostawić gaśnicę bez osłony, bo sama dostępność wystarczy",
+          "B": "Osłonić gaśnicę przed pogodą przy zachowaniu łatwego dostępu",
+          "C": "Ukryć gaśnicę w skrzyni pod ładunkiem dla ochrony przed deszczem"
+        },
+        "correct_option": "B",
+        "explanation": "Gaśnica ma być łatwo dostępna dla załogi, ale trzeba ją też chronić przed działaniem warunków atmosferycznych. Sam łatwy dostęp nie wystarczy, jeśli deszcz i sól drogowa mogą przyspieszyć korozję lub uszkodzić sprzęt. Nie chowaj jej jednak w miejscu, do którego trudno się dostać; osłona nie może utrudniać szybkiego wyjęcia. Podstawa: ADR 2025, 8.1.4.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Sposób zamontowania gaśnic powinien zapewniać ochronę przed działaniem czynników atmosferycznych gwarantującą ich bezpieczną eksploatację.",
+        "replacement_pages": [
+          1325
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0750",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-06",
+      "competency_id": "ADR-B-06-K01",
+      "legal_basis": "ADR 2025, 5.2.1.1",
+      "gazette_pages": [
+        935
+      ],
+      "exact_quote": "w których to przypadkach wysokość numeru UN i liter „UN” powinna wynosić nie mniej niż 6 mm",
+      "finding": "Z ADR wynika 6 mm dla sztuki przesyłki do 30 l lub masy netto do 30 kg, z osobnym wyjątkiem dla najmniejszych. Klucz C poprawny przy kanistrze 20 l, ale odpowiedzi za długie, z kropkami i absolutami. Porównać z 0188 (200 l, 12 mm); zastosować inną wielkość dla nowego wariantu.",
+      "duplicate_candidates": [
+        "ADR-B-0114",
+        "ADR-B-0188"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K01",
+        "stem": "Kierowca odbiera kanister o pojemności 20 litrów, na którym ADR wymaga oznaczenia numerem UN. Jakiej minimalnej wysokości powinny być cyfry numeru UN wraz z literami „UN”?",
+        "options": {
+          "A": "Co najmniej 12 mm dla kanistra o pojemności 20 litrów",
+          "B": "Co najmniej 4 mm, bo większy znak na małym kanistrze nie jest potrzebny",
+          "C": "Co najmniej 6 mm dla opakowania o pojemności 20 litrów"
+        },
+        "correct_option": "C",
+        "explanation": "Dla kanistra o pojemności 20 litrów obowiązuje mniejszy wymiar oznaczenia: cyfry numeru UN i poprzedzające je litery powinny mieć co najmniej 6 mm wysokości. Zwykłe 12 mm dotyczy większych opakowań, więc nie jest jedyną dopuszczalną wartością. ADR nie pozwala też dowolnie zmniejszyć znaku do 4 mm. Podstawa: ADR 2025, 5.2.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.2.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "w których to przypadkach wysokość numeru UN i liter „UN” powinna wynosić nie mniej niż 6 mm",
+        "replacement_pages": [
+          935
+        ]
+      }
+    }
+  ]
+}
