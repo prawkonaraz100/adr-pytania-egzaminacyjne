@@ -1,4 +1,4 @@
-"""Kontrola pierwsza ADR-B-0736–0750; bez zmiany banku."""
+"""Kontrola pierwsza ADR-B-0736–0750 (raport) oraz kontrola druga – wdrożenie poprawek."""
 from pathlib import Path
 from collections import Counter
 import hashlib
@@ -12,7 +12,7 @@ REPORT = ROOT / "review/literal-pl/PARTIA-0736-0750.md"
 MANIFEST = ROOT / "review/literal-pl/PARTIA-0736-0750.json"
 COMPETENCIES = ROOT / "podstawowy/kompetencje.json"
 FIRST_PASS_BANK_SHA = "5448ab43d2bed3ac17abd384b6bdc1eb596ef93f"
-EXPECTED_BANK_SHA = "5448ab43d2bed3ac17abd384b6bdc1eb596ef93f"
+EXPECTED_BANK_SHA = "ff19af70af76de006d2f58b1fbfed7c091d52590"
 EXPECTED_IDS = [f"ADR-B-{n:04d}" for n in range(736, 751)]
 ABSOLUTE = re.compile(r"\b(tylko|zawsze|każdy|każda|każde|każdej|wszystkie|wyłącznie|żaden|żadnych|nigdy|całkowicie|automatycznie|niezależnie)\b", re.I)
 
@@ -31,8 +31,8 @@ class Partia50LiteralReview(unittest.TestCase):
 
     def test_first_pass_scope_and_bank_sha(self):
         self.assertTrue(REPORT.is_file())
-        self.assertEqual(git_blob_sha(self.raw), FIRST_PASS_BANK_SHA)
         self.assertEqual(git_blob_sha(self.raw), EXPECTED_BANK_SHA)
+        self.assertNotEqual(FIRST_PASS_BANK_SHA, EXPECTED_BANK_SHA)
         self.assertEqual(len(self.questions), 780)
         self.assertEqual(self.m["bank_blob_sha"], FIRST_PASS_BANK_SHA)
         self.assertEqual(self.m["base_commit"], "64bb28f5f1105f8825327f9696e4f570bf2c4b28")
@@ -97,3 +97,17 @@ class Partia50LiteralReview(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+    def test_second_pass_artifacts_and_bank_sha(self):
+        report = ROOT / 'review/literal-pl/KONTROLA2-PARTIA-0736-0750.md'
+        changes = ROOT / 'review/literal-pl/POPRAWKI-KONTROLA2-0736-0750.jsonl'
+        self.assertTrue(report.is_file())
+        self.assertTrue(changes.is_file())
+        rows = [json.loads(line) for line in changes.read_text(encoding='utf-8').splitlines() if line.strip()]
+        self.assertEqual(len(rows), 15)
+        self.assertEqual([r['id'] for r in rows], EXPECTED_IDS)
+        for row in rows:
+            self.assertEqual(row['verification_status'], 'needs_review')
+            self.assertEqual(row['correct_option'], self.bank[row['id']]['correct_option'])
+            self.assertEqual(row, self.bank[row['id']])
+        self.assertEqual(git_blob_sha(self.raw), EXPECTED_BANK_SHA)
