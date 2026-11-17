@@ -8,19 +8,21 @@
       "id": "ADR-B-0743",
       "sequence": 743,
       "exact_record_snapshot": {
-        "stem": "Na postoju kierowca zauważa mały pożar w komorze silnika. Aby dosięgnąć gaśnicy i podejść do ognia, musiałby wejść w gęsty dym. Co powinien zrobić?",
+        "id": "ADR-B-0743",
+        "module_id": "ADR-B-05",
+        "stem": "Na postoju kierowca zauważa mały, początkowy pożar w komorze silnika. Wiatr niesie gęsty dym od silnika w stronę miejsca, w którym zamocowano gaśnicę. Co wynika z instrukcji pisemnych?",
         "options": {
-          "A": "Spróbować gasić, bo pożar jest jeszcze mały, a warunek bezpieczeństwa dotyczy tylko ognia w ładowni.",
-          "B": "Nie narażać się na dym; oddalić się, ostrzec innych i wezwać służby.",
-          "C": "Otworzyć szeroko komorę silnika, aby szybciej zlokalizować płomienie i skrócić czas gaszenia."
+          "A": "Wejść w dym po gaśnicę, bo mały pożar silnika trzeba ugasić jak najszybciej",
+          "B": "Nie gasić, gdy po gaśnicę trzeba wejść w gęsty dym, lecz się oddalić",
+          "C": "Otworzyć szeroko pokrywę silnika, by szybciej znaleźć źródło ognia"
         },
         "correct_option": "B",
-        "explanation": "Mały pożar silnika można gasić gaśnicą tylko wtedy, gdy jest to właściwe i bezpieczne. Jeżeli dojście wymaga wejścia w gęsty dym, warunek bezpieczeństwa nie jest spełniony: nie podejmuj próby, oddal się, ostrzeż innych i wezwij służby. Nie ryzykuj wdychania dymu ani nie otwieraj komory bez potrzeby. Podstawa: ADR 2025, 5.4.3.4.",
+        "explanation": "Instrukcje pisemne pozwalają użyć gaśnicy przy małym lub początkowym pożarze przedziału silnika, ale z warunkiem: jeżeli jest to właściwe i bezpieczne. Mały rozmiar ognia nie wystarcza, gdy dojście do gaśnicy prowadzi przez gęsty dym. Instrukcje każą też unikać wdychania dymu i pozostawać po stronie nawietrznej. Kierowca oddala się więc, ostrzega innych i wzywa służby. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4 — użycie gaśnic do małych/początkowych pożarów opon, hamulców lub komory silnika wyłącznie, gdy jest to właściwe i bezpieczne; unikanie wdychania dymu przez pozostawanie po stronie nawietrznej",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne: gaśnice do małego lub początkowego pożaru przedziału silnika, jeżeli jest to właściwe i bezpieczne; unikać wdychania dymu)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",

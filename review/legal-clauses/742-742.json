@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0742",
       "order": 742,
-      "clause": "ADR 2025, 5.4.3.4",
+      "clause": "ADR 2025, 5.4.3.4 (instrukcje pisemne: gaśnice do małego lub początkowego pożaru opon, hamulców lub przedziału silnika; załoga nie powinna gasić pożaru obejmującego przedział ładunkowy)",
       "question_snapshot": {
         "id": "ADR-B-0742",
         "module_id": "ADR-B-05",
-        "stem": "Podczas awarii mały pożar w komorze silnika rozprzestrzenia się na przedział ładunkowy z towarami niebezpiecznymi. Co powinien zrobić członek załogi?",
+        "stem": "Kierowca gasi gaśnicą mały pożar opony naczepy. Po chwili płomienie przechodzą na podłogę przestrzeni ładunkowej, w której stoją beczki z towarem ADR. Gaśnica nie jest jeszcze pusta. Co powinien zrobić?",
         "options": {
-          "A": "Kontynuować gaszenie, bo pożar rozpoczął się w komorze silnika, a gaśnica była już użyta.",
-          "B": "Przerwać gaszenie pożaru ładowni, oddalić się i wezwać służby.",
-          "C": "Otworzyć przedział ładunkowy, aby sprawdzić, czy ogień nie zajął już przesyłek."
+          "A": "Gasić dalej, bo zaczął od pożaru opony, a gaśnica nie jest jeszcze pusta",
+          "B": "Przerwać gaszenie, bo pali się już przestrzeń ładunkowa, i oddalić się",
+          "C": "Otworzyć drzwi przestrzeni ładunkowej, by dosięgnąć ognia gaśnicą"
         },
         "correct_option": "B",
-        "explanation": "Mały pożar komory silnika można próbować gasić tylko wtedy, gdy jest to właściwe i bezpieczne. Gdy ogień obejmie przedział ładunkowy, ten wyjątek już nie obowiązuje: załoga nie powinna podejmować gaszenia, nawet jeśli ogień nadal wygląda na niewielki. Otwieranie ładowni może dodatkowo narazić ludzi na dym i substancje z ładunku. Podstawa: ADR 2025, 5.4.3.4.",
+        "explanation": "Instrukcje pisemne pozwalają gasić gaśnicą mały lub początkowy pożar opon, hamulców albo przedziału silnika, jeżeli jest to właściwe i bezpieczne. Gdy ogień obejmie przedział ładunkowy, sytuacja się zmienia, bo załoga nie powinna gasić takiego pożaru. Kierowca przerywa więc gaszenie, oddala się, ostrzega innych i wzywa służby. Otwieranie drzwi ładowni naraziłoby go na ogień i dym. Podstawa: ADR 5.4.3.4.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 5.4.3.4 — użycie gaśnic do małego/początkowego pożaru komory silnika, jeśli właściwe i bezpieczne; członkowie załogi nie powinni gasić pożarów przedziałów ładunkowych",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 5.4.3.4 (instrukcje pisemne: gaśnice do małego lub początkowego pożaru opon, hamulców lub przedziału silnika; załoga nie powinna gasić pożaru obejmującego przedział ładunkowy)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Dopuszczalny wyjątek dotyczy małego lub początkowego pożaru komory silnika, jeżeli działanie jest właściwe i bezpieczne; po objęciu ogniem przedziału ładunkowego załoga nie powinna kontynuować gaszenia."
+          "rationale": "ADR 2025 ADR 2025, 5.4.3.4 (instrukcje pisemne: gaśnice do małego lub początkowego pożaru opon, hamulców lub przedziału silnika; załoga nie powinna gasić pożaru obejmującego przedział ładunkowy): odpowiedź pomija lub błędnie interpretuje warunek przepisu."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Instrukcje pisemne wyraźnie wskazują, że członkowie załogi nie powinni podejmować gaszenia pożarów w przedziałach ładunkowych."
+          "rationale": "ADR 2025 ADR 2025, 5.4.3.4 (instrukcje pisemne: gaśnice do małego lub początkowego pożaru opon, hamulców lub przedziału silnika; załoga nie powinna gasić pożaru obejmującego przedział ładunkowy): odpowiedź odpowiada warunkom przepisu."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Otwieranie przedziału ładunkowego naraża załogę na ogień, dym i towary niebezpieczne; nie jest poleceniem instrukcji pisemnych."
+          "rationale": "ADR 2025 ADR 2025, 5.4.3.4 (instrukcje pisemne: gaśnice do małego lub początkowego pożaru opon, hamulców lub przedziału silnika; załoga nie powinna gasić pożaru obejmującego przedział ładunkowy): odpowiedź pomija lub błędnie interpretuje warunek przepisu."
         }
       },
-      "notes_on_conditions": "Pytanie sprawdza granicę między warunkowo dopuszczonym gaszeniem małego/początkowego pożaru komory silnika a zakazem gaszenia pożaru przedziału ładunkowego.",
+      "notes_on_conditions": "ADR 2025 ADR 2025, 5.4.3.4 (instrukcje pisemne: gaśnice do małego lub początkowego pożaru opon, hamulców lub przedziału silnika; załoga nie powinna gasić pożaru obejmującego przedział ładunkowy). Kontrola druga; zachowano klucz B i moduł ADR-B-05; status needs_review.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
