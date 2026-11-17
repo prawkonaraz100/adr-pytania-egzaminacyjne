@@ -8,18 +8,18 @@
       "id": "ADR-B-0679",
       "sequence": 679,
       "exact_record_snapshot": {
-        "stem": "Kierowca ma odebrać nowy materiał niebezpieczny. Nadawca przekazuje tylko nazwę handlową, bez klasyfikacji i wymaganych danych ADR. Co powinien zrobić przewoźnik przed rozpoczęciem przewozu?",
+        "stem": "Kierowca przyjeżdża po nowy materiał. Nadawca podaje tylko jego nazwę handlową, bez numeru UN, klasy i innych danych ADR, i obiecuje, że resztę dośle później. Co powinien zrobić kierowca, który sprawdza ładunek w imieniu przewoźnika?",
         "options": {
-          "A": "Samodzielnie dobrać numer UN na podstawie podobnej nazwy w tabeli A i uzupełnić nim dokument, aby nie opóźniać dostawy.",
-          "B": "Zażądać od nadawcy klasyfikacji i kompletnych danych oraz wstrzymać rozpoczęcie przewozu do usunięcia braku.",
-          "C": "Przyjąć ładunek na podstawie nazwy handlowej, ponieważ brakujące informacje można uzupełnić już po rozpoczęciu jazdy."
+          "A": "Dobrać numer UN z tabeli A według podobnej nazwy i ruszyć",
+          "B": "Nie ruszać, dopóki nadawca nie przekaże wymaganych danych ADR",
+          "C": "Ruszyć w trasę, a dane ADR od nadawcy uzupełnić na najbliższym postoju"
         },
         "correct_option": "B",
-        "explanation": "To nadawca ma ustalić klasyfikację materiału i przekazać przewoźnikowi wymagane dane; kierowca nie powinien zgadywać numeru UN na podstawie nazwy handlowej. Przewoźnik sprawdza, czy towar jest dopuszczony do przewozu i czy otrzymał wymagane informacje oraz dokumenty, a stwierdzone braki trzeba usunąć przed wyjazdem. Podstawa: ADR 1.4.2.1.1(a), 1.4.2.2.1(a)–(b) i 1.4.2.2.3.",
+        "explanation": "To nadawca ma upewnić się, że towar jest sklasyfikowany i dopuszczony do przewozu, oraz przekazać przewoźnikowi wymagane informacje i dokumenty. Przewoźnik przed rozpoczęciem przewozu sprawdza, czy towar jest dopuszczony do przewozu i czy nadawca dostarczył wszystkie wymagane informacje. Gdy stwierdzi naruszenie, nie rozpoczyna przewozu do czasu jego usunięcia. Kierowca nie zgaduje więc numeru UN po nazwie handlowej i nie wyjeżdża z obietnicą późniejszych danych. Podstawa: ADR 1.4.2.1.1 (a)–(b), 1.4.2.2.1 (a)–(b) i 1.4.2.2.3.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 1.4.2.1.1(a), 1.4.2.2.1(a)–(b), 1.4.2.2.3; 5.4.1.1.1",
+            "reference": "ADR 2025, 1.4.2.1.1 (a)–(b); 1.4.2.2.1 (a)–(b); 1.4.2.2.3",
             "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
