@@ -1,0 +1,678 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0691–0705",
+  "bank_count": 780,
+  "bank_blob_sha": "092325a21fe95a47406e2d28e4947885c19dc0dc",
+  "bank_changed": false,
+  "previous_uncompared": 90,
+  "compared": 15,
+  "remaining_without_comparison": 75,
+  "verified": 0,
+  "records": [
+    {
+      "id": "ADR-B-0691",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K03",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "ADR 5.4.3.4: „Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych”",
+      "finding": "Powielenie powiadomienia służb, wariant z dyspozytorem nie daje nowej zasady.",
+      "duplicate_candidates": [
+        "ADR-B-0105",
+        "ADR-B-0165",
+        "ADR-B-0588",
+        "ADR-B-0740"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K03",
+        "stem": "Po zdarzeniu ratownicy pytają o ładunek, ale kierowca zna tylko część danych. Jak powinien postąpić?",
+        "options": {
+          "A": "Odmówić zgłoszenia, dopóki nie uzyska pełnego wykazu towarów",
+          "B": "Przekazać dostępne informacje o zdarzeniu i przewożonych towarach",
+          "C": "Samodzielnie przypisać numer UN na podstawie wyglądu wycieku"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne wymagają szybkiego powiadomienia służb ratowniczych oraz przekazania im możliwie wszystkich dostępnych informacji o zdarzeniu i niebezpiecznym ładunku. Kierowca nie powinien odkładać zgłoszenia do czasu poznania brakujących szczegółów. Przypuszczenia nie zastępują danych przewozowych i mogą wprowadzić ratowników w błąd. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.4.3.4: „Powiadomić właściwe służby ratownicze, podając im możliwie wszystkie dostępne informacje dotyczące wypadku, awarii oraz towarów niebezpiecznych”",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0692",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K04",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "ADR 5.4.3.4: „Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej”",
+      "finding": "Powtarza zasadę pozostawania po stronie nawietrznej także po zmianie wiatru.",
+      "duplicate_candidates": [
+        "ADR-B-0106",
+        "ADR-B-0183",
+        "ADR-B-0221",
+        "ADR-B-0494",
+        "ADR-B-0741"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K04",
+        "stem": "W pobliżu uszkodzonego opakowania unoszą się opary. Gdzie wybrać drogę odwrotu?",
+        "options": {
+          "A": "W kierunku, w którym wiatr przenosi opary",
+          "B": "Po stronie nawietrznej, omijając uwolniony materiał",
+          "C": "Wzdłuż samego wycieku, aby obserwować opakowanie"
+        },
+        "correct_option": "B",
+        "explanation": "W razie uwolnienia materiału niebezpiecznego załoga powinna ograniczać wdychanie oparów, dymu, pyłu i pary, pozostając po stronie nawietrznej. Kierowca wybiera taką drogę odejścia, która nie prowadzi przez uwolniony materiał ani w stronę unoszącej się chmury. Pozostawanie blisko wycieku zwiększa ryzyko narażenia. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.4.3.4: „Nie wchodzić na uwolnione materiały, nie dotykać ich, unikać wdychania oparów, dymu, pyłu i pary poprzez pozostawanie po stronie nawietrznej”",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0693",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K10",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "ADR 5.4.3.4: „Założyć kamizelkę ostrzegawczą i odpowiednio umieścić stojące znaki ostrzegawcze”",
+      "finding": "Temat kamizelki i znaków wyczerpany, a odpowiedzi zawierają słowa absolutne.",
+      "duplicate_candidates": [
+        "ADR-B-0112",
+        "ADR-B-0168",
+        "ADR-B-0231",
+        "ADR-B-0633",
+        "ADR-B-0747"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K10",
+        "stem": "Po awarii ustawienie znaków wymagałoby wejścia na ruchliwą jezdnię. Co wynika z instrukcji?",
+        "options": {
+          "A": "Wysłać pomocnika bez kamizelki, by szybciej rozstawił znaki",
+          "B": "Nie narażać załogi na niebezpieczne ustawianie znaków",
+          "C": "Rozstawić znaki nawet w miejscu grożącym potrąceniem"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne wymagają założenia kamizelki ostrzegawczej i odpowiedniego ustawienia stojących znaków, jednak opisane działania są podejmowane tylko wtedy, gdy są możliwe i bezpieczne. Załoga nie powinna wchodzić na jezdnię w sposób stwarzający zagrożenie potrąceniem. W takim przypadku należy oddalić się od zagrożenia i postępować według zaleceń ratowników. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.4.3.4: „Założyć kamizelkę ostrzegawczą i odpowiednio umieścić stojące znaki ostrzegawcze”",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0694",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-06",
+      "competency_id": "ADR-B-06-K05",
+      "legal_basis": "ADR 2025, 5.3.2.1.1",
+      "gazette_pages": [
+        953
+      ],
+      "exact_quote": "ADR 5.3.2.1.1: „Jedna tablica powinna być przymocowana z przodu, a druga z tyłu jednostki transportowej, obie prostopadle do osi podłużnej tej jednostki. Tablice te powinny być dobrze widoczne.”",
+      "finding": "Wymaga skrócenia odpowiedzi i korekty źródeł; przypadek zasłonięcia tylnej tablicy zachowuje odrębną sytuację.",
+      "duplicate_candidates": [
+        "ADR-B-0018",
+        "ADR-B-0191",
+        "ADR-B-0258",
+        "ADR-B-0634",
+        "ADR-B-0753"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K05",
+        "stem": "Przed wyjazdem zapasowe koło przesłania tylną tablicę ADR. Jak usunąć nieprawidłowość?",
+        "options": {
+          "A": "Zastąpić tylną tablicę oznakowaniem na drzwiach kabiny",
+          "B": "Odsłonić tylną tablicę i zachować jej prawidłowe położenie",
+          "C": "Przestawić tylną tablicę równolegle do boku pojazdu"
+        },
+        "correct_option": "B",
+        "explanation": "Tablice barwy pomarańczowej powinny znajdować się z przodu i z tyłu jednostki transportowej, prostopadle do jej osi podłużnej. Obie powinny być dobrze widoczne także wtedy, gdy pojazd jest wyposażony w koło zapasowe. Przeniesienie tablicy na bok nie zastępuje prawidłowego ustawienia tylnego oznakowania. Podstawa: ADR 5.3.2.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.3.2.1.1: „Jedna tablica powinna być przymocowana z przodu, a druga z tyłu jednostki transportowej, obie prostopadle do osi podłużnej tej jednostki. Tablice te powinny być dobrze widoczne.”",
+        "replacement_pages": [
+          953
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0695",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K05",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "ADR 5.4.3.4: „Jeżeli jest to właściwe i bezpieczne, użyć gaśnic w celu ugaszenia małego lub będącego w fazie początkowej pożaru, obejmującego opony, hamulce lub przedział silnika”",
+      "finding": "Powiela dozwolone gaszenie małego pożaru silnika; dystraktor B zawiera średnik i słowa absolutne.",
+      "duplicate_candidates": [
+        "ADR-B-0107",
+        "ADR-B-0166",
+        "ADR-B-0222",
+        "ADR-B-0614",
+        "ADR-B-0742"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K05",
+        "stem": "W ładowni widać początek pożaru, lecz ogień nie rozprzestrzenił się poza kartony. Co robi załoga?",
+        "options": {
+          "A": "Nie podejmuje gaszenia pożaru przedziału ładunkowego",
+          "B": "Wchodzi do ładowni i gasi kartony niewielką gaśnicą",
+          "C": "Otwiera ładownię i podaje strumień w kierunku kartonów"
+        },
+        "correct_option": "A",
+        "explanation": "Instrukcje pisemne dopuszczają użycie gaśnicy przez załogę do małego lub początkowego pożaru silnika, hamulców albo opon, jeżeli działanie jest właściwe i bezpieczne. Nie obejmuje to pożaru przedziału ładunkowego. Kierowca nie powinien wchodzić do ładowni ani podejmować jej gaszenia, ponieważ grozi to narażeniem na zawartość przesyłek. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.4.3.4: „Jeżeli jest to właściwe i bezpieczne, użyć gaśnic w celu ugaszenia małego lub będącego w fazie początkowej pożaru, obejmującego opony, hamulce lub przedział silnika”",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0696",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K07",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "ADR 5.4.3.4: „Zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych”",
+      "finding": "Przedstawione działanie bezpieczne nie wynika wprost z reguły udostępniania dokumentów; należy doprecyzować warunek bezpieczeństwa i skrócić odpowiedzi.",
+      "duplicate_candidates": [
+        "ADR-B-0109",
+        "ADR-B-0185",
+        "ADR-B-0229",
+        "ADR-B-0630",
+        "ADR-B-0744"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K07",
+        "stem": "Ratownicy dotarli na miejsce awarii. Dokument przewozowy jest w kabinie objętej dymem. Co zrobić?",
+        "options": {
+          "A": "Wrócić do zadymionej kabiny, żeby osobiście wyjąć dokument",
+          "B": "Przemilczeć informacje o ładunku bez dostępu do dokumentów",
+          "C": "Przekazać znane informacje i bezpiecznie wskazać lokalizację dokumentu"
+        },
+        "correct_option": "C",
+        "explanation": "Instrukcje pisemne nakazują zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych, ale wszystkie działania załogi muszą być możliwe i bezpieczne. Powrót do zadymionej kabiny może narazić kierowcę na niebezpieczeństwo. Z bezpiecznego miejsca należy przekazać znane informacje i wskazać, gdzie znajdują się dokumenty. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.4.3.4: „Zapewnić przybyłym ratownikom łatwy dostęp do dokumentów przewozowych”",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0697",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K09",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "ADR 5.4.3.4: „Oddalić się od miejsca wypadku lub zagrożenia, poinformować inne osoby o konieczności oddalenia się od tego miejsca oraz stosować się do zaleceń służb ratowniczych”",
+      "finding": "Powtarza ostrzeganie osób postronnych (temat wyczerpany); wymaga zamiennika w K09.",
+      "duplicate_candidates": [
+        "ADR-B-0111",
+        "ADR-B-0186",
+        "ADR-B-0224",
+        "ADR-B-0632",
+        "ADR-B-0746"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K09",
+        "stem": "Po awarii ratownicy proszą kierowcę o utrzymanie gapiów z dala od rozlewu. Jak działać?",
+        "options": {
+          "A": "Przejść przez rozlew, aby odprowadzić osoby z zagrożonego miejsca",
+          "B": "Ostrzec z bezpiecznej odległości i zastosować zalecenia ratowników",
+          "C": "Pozwolić osobom podejść, jeśli nie otwierają opakowań"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne przewidują oddalenie się od miejsca zdarzenia, ostrzeżenie innych osób i stosowanie się do zaleceń ratowników. Załoga powinna ograniczać ryzyko kontaktu z rozlewem i nie przechodzić przez uwolniony materiał. Ostrzeganie z bezpiecznej odległości nie wymaga wchodzenia do niebezpiecznej strefy. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.4.3.4: „Oddalić się od miejsca wypadku lub zagrożenia, poinformować inne osoby o konieczności oddalenia się od tego miejsca oraz stosować się do zaleceń służb ratowniczych”",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0698",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-06",
+      "competency_id": "ADR-B-06-K04",
+      "legal_basis": "ADR 2025, 5.3.2.3.1",
+      "gazette_pages": [
+        956
+      ],
+      "exact_quote": "ADR 5.3.2.3.1: „Numer rozpoznawczy zagrożenia poprzedzony literą „X oznacza, że materiał reaguje niebezpiecznie z wodą. W odniesieniu do takich materiałów woda może być stosowana jedynie za zgodą specjalistów.”",
+      "finding": "Powtarza zasadę litery X z wcześniejszymi pytaniami; opcje za długie oraz średniki.",
+      "duplicate_candidates": [
+        "ADR-B-0017",
+        "ADR-B-0170",
+        "ADR-B-0256",
+        "ADR-B-0615",
+        "ADR-B-0752"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-06",
+        "competency_id": "ADR-B-06-K04",
+        "stem": "Ratownik odczytuje kod X423. Jak kierowca powinien objaśnić używanie wody?",
+        "options": {
+          "A": "Dobrać ilość wody wyłącznie na podstawie wielkości wycieku",
+          "B": "Poinformować o niebezpiecznej reakcji i wymaganej zgodzie specjalistów",
+          "C": "Zastosować wodę bez konsultacji, jeśli nie widać płomieni"
+        },
+        "correct_option": "B",
+        "explanation": "Litera X umieszczona przed numerem rozpoznawczym zagrożenia oznacza, że materiał reaguje niebezpiecznie z wodą. Dla takiego towaru zastosowanie wody jest możliwe jedynie po uzyskaniu zgody specjalistów. Kierowca powinien poinformować ratownika o znaczeniu kodu, a nie samodzielnie decydować na podstawie wyglądu rozlanego materiału. Podstawa: ADR 5.3.2.3.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.3.2.3.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.3.2.3.1: „Numer rozpoznawczy zagrożenia poprzedzony literą „X oznacza, że materiał reaguje niebezpiecznie z wodą. W odniesieniu do takich materiałów woda może być stosowana jedynie za zgodą specjalistów.”",
+        "replacement_pages": [
+          956
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0699",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-08",
+      "competency_id": "ADR-B-08-K04",
+      "legal_basis": "ADR 2025, 8.1.5.2",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "ADR 8.1.5.2: „klin pod koła, dla każdego pojazdu, o odpowiednim rozmiarze w stosunku do dopuszczalnej masy całkowitej pojazdu oraz średnicy jego kół”",
+      "finding": "Powtarza wymóg doboru rozmiaru klina; dystraktory zbyt długie i zawierają średnik.",
+      "duplicate_candidates": [
+        "ADR-B-0023",
+        "ADR-B-0056",
+        "ADR-B-0251",
+        "ADR-B-0509",
+        "ADR-B-0761"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-08",
+        "competency_id": "ADR-B-08-K04",
+        "stem": "Zestaw składa się z ciągnika i ciężkiej naczepy. Jak dobrać klin pod koło naczepy?",
+        "options": {
+          "A": "Wykorzystać klin dobrany jedynie do najmniejszego pojazdu",
+          "B": "Uwzględnić masę dopuszczalną oraz średnicę koła naczepy",
+          "C": "Przyjąć rozmiar klina odpowiadający średnicy koła ciągnika"
+        },
+        "correct_option": "B",
+        "explanation": "W wykazie wyposażenia ADR znajduje się klin pod koła dla każdego pojazdu w jednostce transportowej. Rozmiar klina powinien być dobrany do dopuszczalnej masy całkowitej konkretnego pojazdu oraz średnicy jego kół. Klin przeznaczony do mniejszego pojazdu nie spełnia wymagań z samego powodu, że mieści się pod kołem. Podstawa: ADR 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 8.1.5.2: „klin pod koła, dla każdego pojazdu, o odpowiednim rozmiarze w stosunku do dopuszczalnej masy całkowitej pojazdu oraz średnicy jego kół”",
+        "replacement_pages": [
+          1325
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0700",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-09",
+      "competency_id": "ADR-B-09-K06",
+      "legal_basis": "ADR 2025, 7.5.7.6.2",
+      "gazette_pages": [
+        1309
+      ],
+      "exact_quote": "ADR 7.5.7.6.2: „Jeżeli wykorzystywane są takie elementy przytrzymujące jak wiązania lub pasy, to nie mogą one być zbyt mocno zapięte, aby nie spowodować uszkodzenia lub deformacji kontenerów do przewozu luzem elastycznych.”",
+      "finding": "Oddzielny typ kontenera, lecz w banku obecne ogólne unikanie nadmiernego napięcia pasów; sprawdzić z 0299 i K06.",
+      "duplicate_candidates": [
+        "ADR-B-0060",
+        "ADR-B-0200",
+        "ADR-B-0236",
+        "ADR-B-0518",
+        "ADR-B-0768",
+        "ADR-B-0299"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-09",
+        "competency_id": "ADR-B-09-K06",
+        "stem": "Elastyczny kontener do przewozu luzem jest stabilny, ale pasy odkształcają jego ściany. Co zrobić?",
+        "options": {
+          "A": "Pozostawić odkształcenie, jeśli kontener nie przemieszcza się na postoju",
+          "B": "Poluzować i poprawić mocowanie, by nie deformowało kontenera",
+          "C": "Dociągnąć pasy mocniej, aby ograniczyć ruch zawartości"
+        },
+        "correct_option": "B",
+        "explanation": "Elastyczny kontener do przewozu luzem należy zabezpieczyć przed przemieszczaniem i uszkodzeniem podczas jazdy. Przepisy zabraniają zbyt mocnego zapinania pasów i wiązań, jeżeli mogłoby to deformować kontener. Prawidłowe unieruchomienie wymaga poprawy sposobu mocowania, a nie zwiększania siły zacisku. Podstawa: ADR 7.5.7.6.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.6.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 7.5.7.6.2: „Jeżeli wykorzystywane są takie elementy przytrzymujące jak wiązania lub pasy, to nie mogą one być zbyt mocno zapięte, aby nie spowodować uszkodzenia lub deformacji kontenerów do przewozu luzem elastycznych.”",
+        "replacement_pages": [
+          1309
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0701",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-12",
+      "competency_id": "ADR-B-12-K02",
+      "legal_basis": "ADR 2025, 1.10.1.3",
+      "gazette_pages": [
+        110
+      ],
+      "exact_quote": "ADR 1.10.1.3: „Miejsca używane do czasowego przechowywania towarów niebezpiecznych podczas ich przewozu, znajdujące się w obrębie terminali, placów przeładunkowych, baz transportowych, placów postojowych i stacji rozrządowych powinny być odpowiednio chronione, dobrze oświetlone, a także — o ile jest to możliwe i wskazane — niedostępne dla osób postronnych.”",
+      "finding": "Powtórzenie wymagań ochrony placów oraz oświetlenia; temat niemal wyczerpany.",
+      "duplicate_candidates": [
+        "ADR-B-0035",
+        "ADR-B-0066",
+        "ADR-B-0274",
+        "ADR-B-0415",
+        "ADR-B-0775"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-12",
+        "competency_id": "ADR-B-12-K02",
+        "stem": "Podczas przewozu ładunek ADR czasowo czeka w terminalu. Jak ocenić plac?",
+        "options": {
+          "A": "Uznać nieoświetlony plac za wystarczający przy zamkniętej naczepie",
+          "B": "Wymagać odpowiedniej ochrony, oświetlenia i kontroli dostępu",
+          "C": "Zastąpić oświetlenie tablicą informującą o obecności ADR"
+        },
+        "correct_option": "B",
+        "explanation": "Przepisy o ochronie wymagają, aby miejsca czasowego przechowywania towarów niebezpiecznych podczas przewozu były odpowiednio chronione i dobrze oświetlone. Jeżeli jest to możliwe i wskazane, powinny być także niedostępne dla osób postronnych. Sama zamknięta naczepa ani tablica informacyjna nie zastępują tych warunków. Podstawa: ADR 1.10.1.3.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 1.10.1.3",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 1.10.1.3: „Miejsca używane do czasowego przechowywania towarów niebezpiecznych podczas ich przewozu, znajdujące się w obrębie terminali, placów przeładunkowych, baz transportowych, placów postojowych i stacji rozrządowych powinny być odpowiednio chronione, dobrze oświetlone, a także — o ile jest to możliwe i wskazane — niedostępne dla osób postronnych.”",
+        "replacement_pages": [
+          110
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0702",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K06",
+      "legal_basis": "ADR 2025, 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "ADR 5.4.3.4: „Członkowie załogi pojazdu nie powinni gasić pożaru obejmującego przedział ładunkowy”",
+      "finding": "Zakaz gaszenia pożaru w ładowni jest powtórzony, wyczerpany; wymagany nowy element K06.",
+      "duplicate_candidates": [
+        "ADR-B-0108",
+        "ADR-B-0184",
+        "ADR-B-0223",
+        "ADR-B-0493",
+        "ADR-B-0743"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K06",
+        "stem": "Mały pożar opony zaczyna obejmować przedział ładunkowy. Co powinna zrobić załoga?",
+        "options": {
+          "A": "Kontynuować gaszenie ładowni z pomocą podręcznej gaśnicy",
+          "B": "Zrezygnować z gaszenia ładowni i oddalić się od zagrożenia",
+          "C": "Wejść do ładowni w celu ustalenia, co się pali"
+        },
+        "correct_option": "B",
+        "explanation": "Instrukcje pisemne dopuszczają gaszenie małego lub początkowego pożaru opony, hamulca albo komory silnika, jeżeli jest to właściwe i bezpieczne. Załoga nie powinna jednak podejmować gaszenia pożaru obejmującego przedział ładunkowy. Po zmianie sytuacji należy ponownie ocenić zagrożenie i oddalić się z niebezpiecznego miejsca. Podstawa: ADR 5.4.3.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 5.4.3.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 5.4.3.4: „Członkowie załogi pojazdu nie powinni gasić pożaru obejmującego przedział ładunkowy”",
+        "replacement_pages": [
+          975
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0703",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-09",
+      "competency_id": "ADR-B-09-K02",
+      "legal_basis": "ADR 2025, 7.5.7.1",
+      "gazette_pages": [
+        1308
+      ],
+      "exact_quote": "ADR 7.5.7.1: „Sztuki przesyłek zawierające materiały niebezpieczne lub nieopakowane przedmioty niebezpieczne powinny być umocowane przy użyciu odpowiednich urządzeń (np. pasów spinających, burt przesuwanych lub przegród nastawnych), umożliwiających ich unieruchomienie w pojeździe lub w kontenerze w sposób zapobiegający takiemu ich przemieszczaniu podczas przewozu, które mogłoby spowadować zmianę ustawienia sztuk przesyłek lub ich uszkodzenie.”",
+      "finding": "Wariant po częściowym rozładunku ma wartość sytuacyjną, ale powtarza podstawę mocowania; poprawić opcje i porównać z innymi tematami.",
+      "duplicate_candidates": [
+        "ADR-B-0026",
+        "ADR-B-0079",
+        "ADR-B-0235",
+        "ADR-B-0628",
+        "ADR-B-0764"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-09",
+        "competency_id": "ADR-B-09-K02",
+        "stem": "Po częściowym rozładunku w skrzyni pozostała luka przy opakowaniach ADR. Co zrobić?",
+        "options": {
+          "A": "Ponownie unieruchomić ładunek, zanim pojazd ruszy dalej",
+          "B": "Zostawić lukę, jeśli wcześniej pasy były dobrze zapięte",
+          "C": "Ograniczyć się do kontroli plomb bez poprawiania mocowania"
+        },
+        "correct_option": "A",
+        "explanation": "ADR wymaga takiego umocowania sztuk przesyłek, aby podczas przewozu nie mogły przemieszczać się w sposób powodujący zmianę ustawienia lub uszkodzenie. Po częściowym rozładunku mogą pojawić się wolne przestrzenie wymagające ponownego unieruchomienia towaru. Prawidłowe zabezpieczenie na początku trasy nie zwalnia z utrzymania go po zmianie ładunku. Podstawa: ADR 7.5.7.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 7.5.7.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 7.5.7.1: „Sztuki przesyłek zawierające materiały niebezpieczne lub nieopakowane przedmioty niebezpieczne powinny być umocowane przy użyciu odpowiednich urządzeń (np. pasów spinających, burt przesuwanych lub przegród nastawnych), umożliwiających ich unieruchomienie w pojeździe lub w kontenerze w sposób zapobiegający takiemu ich przemieszczaniu podczas przewozu, które mogłoby spowadować zmianę ustawienia sztuk przesyłek lub ich uszkodzenie.”",
+        "replacement_pages": [
+          1308
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0704",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K12",
+      "legal_basis": "ADR 2025, 8.1.4.5",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "ADR 8.1.4.5: „Gaśnice powinny być zamontowane na jednostkach transportowych w taki sposób, aby były łatwo dostępne dla załogi pojazdu”",
+      "finding": "Dostępność gaśnicy jest wyczerpanym zagadnieniem; scenariusz zamknięcia na klucz powiela wcześniejsze.",
+      "duplicate_candidates": [
+        "ADR-B-0015",
+        "ADR-B-0169",
+        "ADR-B-0232",
+        "ADR-B-0585",
+        "ADR-B-0749"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K12",
+        "stem": "Podczas kontroli mocowania gaśnicy okazuje się, że dostęp do uchwytu blokuje zamknięta skrzynia. Co zrobić?",
+        "options": {
+          "A": "Pozostawić gaśnicę, jeśli uchwyt mocno trzyma jej korpus",
+          "B": "Zapewnić załodze łatwy dostęp do zamocowanej gaśnicy",
+          "C": "Przykleić instrukcję otwarcia skrzyni zamiast zmieniać dostęp"
+        },
+        "correct_option": "B",
+        "explanation": "Gaśnice wymagane przez ADR muszą być zamontowane na jednostce transportowej w sposób zapewniający załodze łatwy dostęp. Zablokowanie dostępu zamkniętą skrzynią może opóźnić ich wykorzystanie podczas zdarzenia. Trwałe mocowanie i ochrona przed warunkami atmosferycznymi są wymagane, lecz nie zastępują dostępności. Podstawa: ADR 8.1.4.5.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.4.5",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 8.1.4.5: „Gaśnice powinny być zamontowane na jednostkach transportowych w taki sposób, aby były łatwo dostępne dla załogi pojazdu”",
+        "replacement_pages": [
+          1325
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0705",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-08",
+      "competency_id": "ADR-B-08-K06",
+      "legal_basis": "ADR 2025, 8.1.5.2",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "ADR 8.1.5.2: „para rękawic ochronnych; oraz - ochrona oczu (np. okulary ochronne)”",
+      "finding": "Powtórzenie osobistego wyposażenia ochronnego, szczególnie 0024 i 0076; opcje zbyt długie i zawierają słowa absolutne.",
+      "duplicate_candidates": [
+        "ADR-B-0024",
+        "ADR-B-0076",
+        "ADR-B-0253",
+        "ADR-B-0597",
+        "ADR-B-0763"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "proposed_replacement": {
+        "module_id": "ADR-B-08",
+        "competency_id": "ADR-B-08-K06",
+        "stem": "W kabinie ADR podróżuje kierowca i pomocnik. Kto potrzebuje rękawic i ochrony oczu?",
+        "options": {
+          "A": "Wystarczy komplet ochronny przechowywany przy fotelu kierowcy",
+          "B": "Obaj członkowie załogi muszą mieć odpowiednie środki ochrony",
+          "C": "Pomocnik może korzystać z okularów kierowcy po jego pracy"
+        },
+        "correct_option": "B",
+        "explanation": "Wykaz wyposażenia ADR przewiduje parę rękawic ochronnych i ochronę oczu dla każdego członka załogi pojazdu. Wspólny zestaw przechowywany tylko przy kierowcy nie spełnia tego wymagania, kiedy w pojeździe jedzie także pomocnik. Środki ochrony powinny być dostępne osobno dla każdej osoby przed rozpoczęciem przewozu. Podstawa: ADR 8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 2025, 8.1.5.2",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "ADR 8.1.5.2: „para rękawic ochronnych; oraz - ochrona oczu (np. okulary ochronne)”",
+        "replacement_pages": [
+          1325
+        ]
+      }
+    }
+  ],
+  "counts": {
+    "OK": 0,
+    "POPRAW": 15,
+    "BLOKUJ": 0
+  }
+}
