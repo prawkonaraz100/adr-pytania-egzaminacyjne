@@ -8,19 +8,19 @@
       "id": "ADR-B-0764",
       "sequence": 764,
       "exact_record_snapshot": {
-        "stem": "Na pojeździe przewozisz sztuki przesyłki ADR razem z paletami zwykłego towaru. Czy wymagania ADR dotyczące zabezpieczenia ładunku obejmują także te zwykłe palety?",
+        "stem": "Kartony z towarem ADR w furgonie dosunięto do przedniej ściany i zablokowano z tyłu przegrodą nastawną zaczepioną w szynach ścian. Kartony nie mogą się przesunąć, ale kierowca nie założył pasów. Czy 7.5.7.1 wymaga pasów?",
         "options": {
-          "A": "Nie. Mocowanie ADR dotyczy wyłącznie sztuk przesyłki z towarami niebezpiecznymi; zwykły ładunek może pozostać luzem.",
-          "B": "Tak. Przy ładunku mieszanym wszystkie towary trzeba zamocować lub zaklinować tak, by nie doszło do uwolnienia towarów niebezpiecznych.",
-          "C": "Nie. Zwykły towar trzeba mocować tylko wtedy, gdy jest cięższy albo może przesunąć opakowania ADR podczas jazdy."
+          "A": "Tak, bo bez pasów spinających ładunek ADR uznaje się za niemocowany",
+          "B": "Nie, bo przegrody nastawne są jednym z urządzeń do unieruchomienia",
+          "C": "Tak, bo przegroda wystarcza dopiero przy kartonach z nalepką 9"
         },
         "correct_option": "B",
-        "explanation": "Gdy towary niebezpieczne jedziesz razem ze zwykłym ładunkiem, zabezpieczasz nie tylko opakowania ADR. Zgodnie z 7.5.7.1 wszystkie towary muszą być zamocowane lub zaklinowane tak, aby nie doszło do uwolnienia towarów niebezpiecznych. Luźna paleta zwykłego towaru może podczas hamowania uderzyć w opakowania ADR, dlatego ją także trzeba unieruchomić. Podstawa: ADR 2025, 7.5.7.1.",
+        "explanation": "Przepis 7.5.7.1 wymaga, aby sztuki przesyłek były unieruchomione odpowiednimi urządzeniami tak, by nie przemieszczały się podczas przewozu. Jako przykłady takich urządzeń podaje pasy spinające, burty przesuwane i przegrody nastawne. Przemieszczaniu można też zapobiec, wypełniając wolne przestrzenie przekładkami albo blokując sztuki przesyłek. Liczy się skuteczne unieruchomienie, a nie sam rodzaj użytego sprzętu. Podstawa: ADR 7.5.7.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 7.5.7.1 — przy przewozie towarów niebezpiecznych razem z innymi towarami wszystkie towary powinny być umocowane lub zaklinowane tak, aby zapobiec uwolnieniu się towarów niebezpiecznych",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642"
+            "reference": "ADR 2025, 7.5.7.1 (sztuki przesyłek umocowane przy użyciu odpowiednich urządzeń, np. pasów spinających, burt przesuwanych lub przegród nastawnych; także wypełnienie wolnych przestrzeni przekładkami, blokowanie i usztywnianie)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
