@@ -8,23 +8,23 @@
     {
       "id": "ADR-B-0729",
       "order": 729,
-      "clause": "ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11",
+      "clause": "ADR 2025, 5.2.2.1.11.1 (nalepki 7A, 7B, 7C na dwóch przeciwległych powierzchniach)",
       "question_snapshot": {
         "id": "ADR-B-0729",
         "module_id": "ADR-B-02",
-        "stem": "Podczas kontroli dokumentów kierowca widzi, że sztuka przesyłki ma etykietę z czarnym symbolem koniczyny promieniotwórczej i cyfrą 7. Do jakiej klasy ADR należy ten ładunek?",
+        "stem": "Kierowca odbiera sztukę przesyłki z materiałem promieniotwórczym kategorii II-ŻÓŁTA. Nalepkę wzoru 7B naklejono jedynie na wieku kartonu. Gdzie według ADR powinny być nalepki na takiej sztuce przesyłki?",
         "options": {
-          "A": "Do klasy 6.2 — materiały zakaźne, które przenoszą drobnoustroje chorobotwórcze u ludzi i zwierząt.",
-          "B": "Do klasy 7 — materiały promieniotwórcze, wymagające rozpoznania zagrożenia radiacyjnego.",
-          "C": "Do klasy 5.1 — materiały utleniające, które mogą nasilać spalanie innych substancji palnych."
+          "A": "Wystarczy jedna nalepka na wieku, bo tam widać ją najlepiej przy załadunku",
+          "B": "Na dwóch przeciwległych zewnętrznych powierzchniach sztuki przesyłki",
+          "C": "Na czterech bocznych ścianach kartonu, tak jak na kontenerze"
         },
         "correct_option": "B",
-        "explanation": "Symbol koniczyny i numer 7 wskazują na materiały promieniotwórcze klasy 7. Kierowca powinien rozpoznać tę klasę, ponieważ przewóz wiąże się z zagrożeniem promieniowaniem jonizującym, a nie z zakażeniem czy nasilaniem pożaru. Nie należy mylić numeru klasy z klasą 6.2 ani 5.1. Podstawa: ADR 2025, 2.2.7.1.1.1 oraz 5.2.2.1.11.",
+        "explanation": "Sztuka przesyłki z materiałem promieniotwórczym ma nalepkę wzoru 7A, 7B lub 7C, zależnie od kategorii. ADR wymaga, by takie nalepki były umieszczone na dwóch przeciwległych zewnętrznych powierzchniach sztuki przesyłki. Nalepki na czterech bokach dotyczą kontenera, a nie kartonu. Jedna nalepka na wieku nie spełnia tego wymagania. Podstawa: ADR 5.2.2.1.11.1.",
         "sources": [
           {
             "code": "ADR-2025-PL",
-            "reference": "ADR 2025, 2.2.7.1.1.1 i 5.2.2.1.11",
-            "url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf"
+            "reference": "ADR 2025, 5.2.2.1.11.1 (nalepki 7A, 7B lub 7C na dwóch przeciwległych zewnętrznych powierzchniach sztuki przesyłki)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
           }
         ],
         "legal_basis_version": "ADR-2025-PL",
@@ -34,18 +34,18 @@
       "answer_review": {
         "A": {
           "expected_correct": false,
-          "rationale": "Klasa 6.2 dotyczy materiałów zakaźnych, a nie materiałów promieniotwórczych."
+          "rationale": "Jedna nalepka na wieku nie spełnia wymogu dwóch przeciwległych powierzchni z 5.2.2.1.11.1."
         },
         "B": {
           "expected_correct": true,
-          "rationale": "Oznaczenie klasy 7 i symbol promieniotwórczości wskazują na materiały promieniotwórcze."
+          "rationale": "5.2.2.1.11.1: nalepki umieszcza się na dwóch przeciwległych zewnętrznych powierzchniach sztuki przesyłki."
         },
         "C": {
           "expected_correct": false,
-          "rationale": "Klasa 5.1 obejmuje materiały utleniające, nie materiały promieniotwórcze."
+          "rationale": "Cztery boki dotyczą kontenerów, nie sztuki przesyłki."
         }
       },
-      "notes_on_conditions": "Pytanie sprawdza rozpoznanie klasy 7 po etykiecie; szczegółowe wymagania zależą od kategorii etykiety i właściwości konkretnej przesyłki.",
+      "notes_on_conditions": "5.2.2.1.11.1 s. 940 (nie 941). Nowy element – stare = 0098, rdzeń podawał numer 7.",
       "source_2025_comparison_url": "https://eli.gov.pl/api/acts/DU/2025/642/text.pdf",
       "official_polish_full_text_comparison": "pending",
       "independent_specialist_approval": "pending",
