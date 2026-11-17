@@ -224,7 +224,7 @@ Te krótkie objaśnienia łączą temat lekcji z decyzją kierowcy. Najpierw prz
 
 **Jak rozumować:** Tylko jeśli to bezpieczne i właściwe, z odpowiednim wyposażeniem. To odpowiedź robocza z banku, nie zatwierdzenie specjalisty; porównaj ją z omówieniem i zapytaj, dlaczego pozostałe opcje mylą.
 
-**Sprawdź się:** `ADR-B-0100`, `ADR-B-0681`. **Podstawa do kontroli:** ADR 5.4.3.4 i 8.1.5.3.
+**Sprawdź się:** `ADR-B-0100`, `ADR-B-0734`. **Podstawa do kontroli:** ADR 5.4.3.4 i 8.1.5.3.
 
 Dla towarów oznakowanych nalepką 3, 4.1, 4.3, 8 lub 9 ADR 8.1.5.3 wymaga dodatkowo łopaty, osłony kanalizacyjnej i pojemnika do zbierania pozostałości. To wyposażenie ma umożliwić ograniczenie skutków wycieku, ale nie oznacza obowiązku podejmowania działań za wszelką cenę. Używaj go wyłącznie wtedy, gdy jest to właściwe i bezpieczne; nie wchodź w rozlew ani w opary.
  
@@ -254,7 +254,7 @@ Po rozładunku towarów niebezpiecznych przewożonych luzem pojazd lub kontener 
 
 **Przykład do przemyślenia:** Po przewozie luzem jednego materiału niebezpiecznego firma chce załadować inny materiał. Kursant powinien wskazać, że przed ponownym załadunkiem trzeba prawidłowo oczyścić pojazd; wyjątek nie działa, bo nowy towar jest inny.
 
-**Sprawdź się:** ADR-B-0677. **Scenariusz praktyczny:** SC-ADR-B-03-04. **Podstawa do kontroli:** ADR 7.5.8.2.
+**Sprawdź się:** ADR-B-0733. **Scenariusz praktyczny:** SC-ADR-B-03-04. **Podstawa do kontroli:** ADR 7.5.8.2.
 
 ### Ćwiczenie na zakończenie lekcji
 
@@ -266,7 +266,7 @@ Przeczytaj jeden ze scenariuszy w sekcji „Scenariusze praktyczne”. Powiedz n
 
 ### Dokument przewozowy odpadu — wymagane słowo „ODPAD”
 
-Jeżeli przewozisz odpad zawierający towary niebezpieczne, przed prawidłową nazwą przewozową wpisuje się słowo „ODPAD”, chyba że jest już częścią tej nazwy. Karta przekazania odpadu nie zastępuje dokumentu przewozowego ADR. Gdy brakuje wymaganego elementu opisu, nie dopisuj go samodzielnie jako kierowca — wyjaśnij brak z nadawcą i uzyskaj poprawiony dokument przed wyjazdem. Powiązane pytanie: ADR-B-0680. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.
+Jeżeli przewozisz odpad zawierający towary niebezpieczne, przed prawidłową nazwą przewozową wpisuje się słowo „ODPAD”, chyba że jest już częścią tej nazwy. Karta przekazania odpadu nie zastępuje dokumentu przewozowego ADR. Gdy brakuje wymaganego elementu opisu, nie dopisuj go samodzielnie jako kierowca — wyjaśnij brak z nadawcą i uzyskaj poprawiony dokument przed wyjazdem. Powiązane pytanie: ADR-B-0008. Podstawa: ADR 5.4.1.1.3.1, 5.4.1.1.1 i 1.4.2.2.3.
 
 
 ### Skażona odzież i użyte środki ochronne po awarii — ADR-B-03-K05
@@ -275,7 +275,7 @@ Jeżeli po wypadku lub awarii odzież albo użyte środki ochronne zostały ska�
 
 **Przykład:** po bezpiecznym oddaleniu się od wycieku kierowca zauważa zabrudzone rękawice i odzież. Postępuje zgodnie z instrukcjami pisemnymi: zdejmuje skażone rzeczy i zapewnia ich bezpieczne usunięcie, nie wnosząc ich do kabiny.
 
-**Ćwiczenie:** ADR-B-0687. Podstawa: ADR 5.4.3.4, model instrukcji pisemnych.
+**Ćwiczenie:** wyjaśnij, dlaczego skażonych rzeczy nie wnosi się do kabiny. Podstawa: ADR 5.4.3.4, model instrukcji pisemnych.
 
 
 ### Szczególny zapis dla odpadu sklasyfikowanego według 2.1.3.5.5 — ADR-B-0732
