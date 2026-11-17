@@ -1,0 +1,461 @@
+{
+  "scope": "first_pass_literal_review",
+  "batch": "ADR-B-0706–0720",
+  "base_commit": "452ecbc2ca2adf542936e9c75a561146c4674aa6",
+  "bank_count": 780,
+  "bank_blob_sha": "e92048bdde4e05422e3265542636b6213f3e10b4",
+  "bank_changed": false,
+  "previous_uncompared": 75,
+  "compared": 15,
+  "remaining_without_comparison": 60,
+  "verified": 0,
+  "counts": {
+    "OK": 0,
+    "POPRAW": 5,
+    "BLOKUJ": 10
+  },
+  "similarity": {
+    "script": "scripts/similarity.py",
+    "threshold_0_45": {
+      "total_pairs": 7,
+      "batch_pairs": []
+    },
+    "threshold_0_25": {
+      "total_pairs": 154,
+      "batch_pairs": [
+        {
+          "a": "ADR-B-0715",
+          "b": "ADR-B-0748",
+          "score": 0.409
+        },
+        {
+          "a": "ADR-B-0717",
+          "b": "ADR-B-0749",
+          "score": 0.261
+        },
+        {
+          "a": "ADR-B-0714",
+          "b": "ADR-B-0779",
+          "score": 0.25
+        }
+      ]
+    },
+    "note": "Algorytm wskazuje kandydatów językowych; duplikaty tematyczne oceniono niezależnie."
+  },
+  "records": [
+    {
+      "id": "ADR-B-0706",
+      "verdict": "BLOKUJ",
+      "module_id": "ADR-B-09",
+      "competency_id": "ADR-B-09-K07",
+      "legal_basis": "ADR 7.5.8.1",
+      "gazette_pages": [
+        1310
+      ],
+      "exact_quote": "Jeżeli po rozładunku pojazdu lub kontenera załadowanego wcześniej towarami niebezpiecznymi w sztukach przesyłek stwierdzono, że wydostała się część ich zawartości, to taki pojazd lub kontener należy niezwłocznie oczyścić; jeżeli nie można tego zrobić w miejscu rozładunku, należy go przewieźć z odpowiednimi środkami ostrożności do najbliższego miejsca czyszczenia.",
+      "finding": "Duplikat 0177 oraz pytań K07 (0080, 0240); temat wycieku po rozładunku i przewozu do miejsca czyszczenia jest wielokrotnie sprawdzany.",
+      "duplicate_candidates": [
+        "ADR-B-0177",
+        "ADR-B-0080",
+        "ADR-B-0240"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "expert_note": "K07 nasycona; nie proponować kolejnego wariantu czyszczenia po wycieku. Wymaga decyzji o rozszerzeniu kompetencji."
+    },
+    {
+      "id": "ADR-B-0707",
+      "verdict": "BLOKUJ",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K08",
+      "legal_basis": "ADR 5.4.3.4",
+      "gazette_pages": [
+        975
+      ],
+      "exact_quote": "Zdjąć zanieczyszczone ubranie i użyte zanieczyszczone wyposażenie ochronne oraz usunąć je w sposób bezpieczny.",
+      "finding": "Powiela 0110/0167 i 0745; kompetencja 05-K08 ma już kilka pytań o skażoną odzież i środki ochronne.",
+      "duplicate_candidates": [
+        "ADR-B-0110",
+        "ADR-B-0167",
+        "ADR-B-0745"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "expert_note": "K08 wyczerpana; zamiennik wymagałby zmiany zakresu kompetencji."
+    },
+    {
+      "id": "ADR-B-0708",
+      "verdict": "BLOKUJ",
+      "module_id": "ADR-B-10",
+      "competency_id": "ADR-B-10-K02",
+      "legal_basis": "ADR 5.4.1.1.7",
+      "gazette_pages": [
+        965
+      ],
+      "exact_quote": "W przypadku przewozu zgodnie z 1.1.4.2.1, w dokumencie przewozowym powinien być zamieszczony dodatkowo następujący zapis: „PRZEWÓZ ZGODNY Z 1.1.4.2.1”.",
+      "finding": "To samo wymaganie wpisu jest w 0061, 0089 i 0203; partia zawiera też drugie pytanie o tę samą adnotację (0714).",
+      "duplicate_candidates": [
+        "ADR-B-0061",
+        "ADR-B-0089",
+        "ADR-B-0203",
+        "ADR-B-0714",
+        "ADR-B-0277",
+        "ADR-B-0395",
+        "ADR-B-0770"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "expert_note": "K10-K02 nasycona wymaganiem wpisu; dwa nowe rekordy partii 48 dublują się wzajemnie."
+    },
+    {
+      "id": "ADR-B-0709",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-01",
+      "competency_id": "ADR-B-01-K01",
+      "legal_basis": "ADR 8.1.1",
+      "gazette_pages": [
+        1324
+      ],
+      "exact_quote": "Jednostka transportowa załadowana towarami niebezpiecznymi w żadnym przypadku nie może zawierać więcej niż jedną przyczepę (lub naczepę).",
+      "finding": "Oryginał powiela definicję jednostki transportowej z 0147; odpowiedź B nie sprawdza nowego warunku 8.1.1.",
+      "duplicate_candidates": [
+        "ADR-B-0147"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "expert_note": "Zastąpić definicję pojazdu z przyczepą odrębnym warunkiem liczby przyczep.",
+      "proposed_replacement": {
+        "module_id": "ADR-B-01",
+        "competency_id": "ADR-B-01-K01",
+        "stem": "Jednostka transportowa przewożąca towary niebezpieczne składa się z samochodu ciężarowego i dwóch dołączonych przyczep. Czy taki zestaw spełnia ADR 8.1.1?",
+        "options": {
+          "A": "Tak, jeśli każda przyczepa ma własne oznakowanie ADR",
+          "B": "Nie, jednostka może zawierać najwyżej jedną przyczepę lub naczepę",
+          "C": "Tak, jeśli łączna masa zestawu mieści się w dopuszczalnym limicie"
+        },
+        "correct_option": "B",
+        "explanation": "ADR 8.1.1 ogranicza jednostkę transportową przewożącą towary niebezpieczne do najwyżej jednej przyczepy lub naczepy. Samochód z dwiema przyczepami nie spełnia tego warunku, nawet jeśli każda z nich ma prawidłowe oznakowanie i mieści się w limitach masy. Wymaganie dotyczy konfiguracji jednostki, a nie liczby tablic czy dopuszczalnej masy całkowitej. Podstawa: ADR 8.1.1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 8.1.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Jednostka transportowa załadowana towarami niebezpiecznymi w żadnym przypadku nie może zawierać więcej niż jedną przyczepę (lub naczepę).",
+        "replacement_pages": [
+          1324
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0710",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-08",
+      "competency_id": "ADR-B-08-K07",
+      "legal_basis": "ADR 8.1.5.1",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "Każda jednostka transportowa przewożąca towary niebezpieczne powinna posiadać elementy wyposażenia dla ochrony ogólnej i indywidualnej, określone w 8.1.5.2. Elementy wyposażenia powinny być dobrane odpowiednio do numerów nalepek ostrzegawczych właściwych dla załadowanych towarów. Numery nalepek ostrzegawczych mogą być odczytane z dokumentu przewozowego.",
+      "finding": "Nowy temat doboru wyposażenia według numerów nalepek; oryginał ma opcje >80 znaków, kropki końcowe, słowa absolutne i klucz jako jedyną najkrótszą.",
+      "duplicate_candidates": [],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "expert_note": "Zachować temat, skrócić opcje i oprzeć źródło na polskim ADR 8.1.5.1–8.1.5.2.",
+      "proposed_replacement": {
+        "module_id": "ADR-B-08",
+        "competency_id": "ADR-B-08-K07",
+        "stem": "Przed wyjazdem kierowca sprawdza wyposażenie ogólne i ochronne. Numery nalepek zagrożenia są podane w dokumencie przewozowym. Jak dobrać wymagany zestaw?",
+        "options": {
+          "A": "Dobrać wyposażenie według klasy głównej towaru, bez sprawdzania numerów nalepek",
+          "B": "Przyjąć jeden zestaw dla każdego przewozu ADR",
+          "C": "Odczytać numery nalepek w dokumencie i dobrać wyposażenie z tabeli ADR"
+        },
+        "correct_option": "C",
+        "explanation": "ADR 8.1.5.1 nakazuje dobrać wyposażenie ogólne i ochronne do numerów nalepek właściwych dla załadowanych towarów. Numery te można odczytać z dokumentu przewozowego, a następnie porównać z wykazem w 8.1.5.2. Stały zestaw dla każdego ładunku pomija różnice w zagrożeniach i wymaganym wyposażeniu. Podstawa: ADR 8.1.5.1–8.1.5.2.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 8.1.5.1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Każda jednostka transportowa przewożąca towary niebezpieczne powinna posiadać elementy wyposażenia dla ochrony ogólnej i indywidualnej, określone w 8.1.5.2. Elementy wyposażenia powinny być dobrane odpowiednio do numerów nalepek ostrzegawczych właściwych dla załadowanych towarów. Numery nalepek ostrzegawczych mogą być odczytane z dokumentu przewozowego.",
+        "replacement_pages": [
+          1325
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0711",
+      "verdict": "BLOKUJ",
+      "module_id": "ADR-B-08",
+      "competency_id": "ADR-B-08-K02",
+      "legal_basis": "ADR 8.1.4.2",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "Jednostki transportowe przewożące towary niebezpieczne zgodnie z 1.1.3.6, powinny być wyposażone w co najmniej jedną gaśnicę przenośną o minimalnej pojemności całkowitej 2 kg proszku gaśniczego dla grup pożarów A, B i C.",
+      "finding": "Powiela 0073, 0197, 0282 i 0421; K02 dotyczy dokładnie minimum gaśnicy 2 kg dla 1.1.3.6.",
+      "duplicate_candidates": [
+        "ADR-B-0073",
+        "ADR-B-0197",
+        "ADR-B-0282",
+        "ADR-B-0421",
+        "ADR-B-0760"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "expert_note": "K02 nasycona; wariant ciągnik+naczepa nie wnosi nowej normy."
+    },
+    {
+      "id": "ADR-B-0712",
+      "verdict": "BLOKUJ",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K11",
+      "legal_basis": "ADR 8.2.2.3.2(e)",
+      "gazette_pages": [
+        1327
+      ],
+      "exact_quote": "Czynności, które należy podjąć po zaistnieniu wypadku (pierwsza pomoc, bezpieczeństwo ruchu drogowego, podstawowa wiedza na temat używania sprzętu ochronnego, itp.).",
+      "finding": "ADR potwierdza, że pierwsza pomoc należy do programu kursu, ale nie ustanawia szczegółowej procedury tamowania krwotoku; potrzebna recenzja specjalisty i źródło pierwszej pomocy.",
+      "duplicate_candidates": [
+        "ADR-B-0113",
+        "ADR-B-0187",
+        "ADR-B-0225",
+        "ADR-B-0626"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "expert_note": "Wstrzymać do niezależnej weryfikacji medycznej; 8.2.2.3.2(e) nie zatwierdza szczegółowej techniki opatrzenia rany."
+    },
+    {
+      "id": "ADR-B-0713",
+      "verdict": "BLOKUJ",
+      "module_id": "ADR-B-07",
+      "competency_id": "ADR-B-07-K07",
+      "legal_basis": "ADR 8.2.2.3.2(k)",
+      "gazette_pages": [
+        1327
+      ],
+      "exact_quote": "Ogólne informacje na temat odpowiedzialności cywilnej.",
+      "finding": "Pytanie miesza odpowiedzialność kontraktową z przewozową. Sam art. 471 KC nie rozstrzyga, czy zastosowanie ma art. 65 Prawa przewozowego ani jaki reżim obejmuje opóźnienie.",
+      "duplicate_candidates": [],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "expert_note": "Wstrzymać do opinii prawnika transportowego; porównać art. 471 KC z art. 65 Prawa przewozowego."
+    },
+    {
+      "id": "ADR-B-0714",
+      "verdict": "BLOKUJ",
+      "module_id": "ADR-B-13",
+      "competency_id": "ADR-B-13-K06",
+      "legal_basis": "ADR 5.4.1.1.7",
+      "gazette_pages": [
+        965
+      ],
+      "exact_quote": "W przypadku przewozu zgodnie z 1.1.4.2.1, w dokumencie przewozowym powinien być zamieszczony dodatkowo następujący zapis: „PRZEWÓZ ZGODNY Z 1.1.4.2.1”.",
+      "finding": "Duplikat 0708 i istniejących pytań o tę samą adnotację; klucz A, opcje dłuższe niż limit i absolutny dystraktor.",
+      "duplicate_candidates": [
+        "ADR-B-0708",
+        "ADR-B-0061",
+        "ADR-B-0089",
+        "ADR-B-0203",
+        "ADR-B-0277",
+        "ADR-B-0395",
+        "ADR-B-0770"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "expert_note": "K13-K06 ma wiele pytań o łańcuch morsko-drogowy; 0708 z tej partii testuje ten sam wpis."
+    },
+    {
+      "id": "ADR-B-0715",
+      "verdict": "BLOKUJ",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K14",
+      "legal_basis": "ADR 8.2.2.3.8",
+      "gazette_pages": [
+        1328
+      ],
+      "exact_quote": "W powiązaniu ze szkoleniem teoretycznym powinny być organizowane indywidualne ćwiczenia praktyczne, obejmujące co najmniej sposoby udzielania pierwszej pomocy, gaszenie pożaru oraz postępowanie w razie zaistnienia wypadku lub awarii.",
+      "finding": "RKO i AED są już przedmiotem 0642/0643; szczegółowa sekwencja medyczna wymaga źródła ERC 2025 i recenzji specjalisty, nie tylko przepisu ADR o ćwiczeniach.",
+      "duplicate_candidates": [
+        "ADR-B-0642",
+        "ADR-B-0643",
+        "ADR-B-0748 (similarity 0.409)"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "expert_note": "Wstrzymać do niezależnej recenzji pierwszej pomocy; rozważyć nowość wobec 0642/0643."
+    },
+    {
+      "id": "ADR-B-0716",
+      "verdict": "BLOKUJ",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K01",
+      "legal_basis": "ADR 5.4.3.2–5.4.3.3",
+      "gazette_pages": [
+        974
+      ],
+      "exact_quote": "Przewoźnik powinien dostarczyć instrukcje sporządzone w języku, który każdy członek załogi może przeczytać i zrozumieć; powinien zapewnić, aby każdy członek załogi rozumiał instrukcje i potrafił je prawidłowo wykonywać.",
+      "finding": "Powiela wymóg języka i zrozumienia z 0050; 0516 dotyczy zapoznania się z instrukcjami przez wszystkich członków załogi.",
+      "duplicate_candidates": [
+        "ADR-B-0050",
+        "ADR-B-0516",
+        "ADR-B-0014"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "expert_note": "K01 nasycona; nie dodawać kolejnego wariantu obowiązku zrozumienia instrukcji."
+    },
+    {
+      "id": "ADR-B-0717",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K13",
+      "legal_basis": "ADR 8.1.4.4",
+      "gazette_pages": [
+        1325
+      ],
+      "exact_quote": "Gaśnice przenośne powinny być zaopatrzone w plombę potwierdzającą, że nie były one używane. Powinny podlegać kontrolom okresowym i być oznakowane datą następnej kontroli lub maksymalnym dopuszczalnym okresem użytkowania.",
+      "finding": "Oryginał dotyczy montażu i ochrony przed pogodą (8.1.4.5), a nie praktycznego używania gaśnicy; blisko 0749 i wcześniejsze pytania o dostępność/mocowanie.",
+      "duplicate_candidates": [
+        "ADR-B-0749",
+        "ADR-B-0640",
+        "ADR-B-0169",
+        "ADR-B-0585"
+      ],
+      "original_correct_option": "C",
+      "verification_status": "needs_review",
+      "expert_note": "Zastąpić montaż i osłonę pogodową kontrolą terminu następnej kontroli gaśnicy, zgodnie z 8.1.4.4.",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K13",
+        "stem": "Przed wyjazdem kierowca sprawdza oznaczenie gaśnicy przenośnej. Etykieta nie wskazuje daty następnej kontroli ani maksymalnego okresu użytkowania. Co należy zrobić?",
+        "options": {
+          "A": "Pozostawić ją, jeśli manometr i plomba wyglądają prawidłowo przed wyjazdem",
+          "B": "Schować gaśnicę w zamkniętym schowku bez dostępu załogi",
+          "C": "Uzupełnić kontrolę i oznaczenie przed dopuszczeniem gaśnicy do przewozu"
+        },
+        "correct_option": "C",
+        "explanation": "ADR 8.1.4.4 wymaga okresowych kontroli gaśnic zgodnie z przyjętymi normami krajowymi. Gaśnica powinna mieć oznaczenie wskazujące datę następnej kontroli albo maksymalny dopuszczalny okres użytkowania. Sam prawidłowy odczyt manometru nie zastępuje potwierdzenia kontroli i właściwego oznaczenia. Podstawa: ADR 8.1.4.4.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 8.1.4.4",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Gaśnice przenośne powinny być zaopatrzone w plombę potwierdzającą, że nie były one używane. Powinny podlegać kontrolom okresowym i być oznakowane datą następnej kontroli lub maksymalnym dopuszczalnym okresem użytkowania.",
+        "replacement_pages": [
+          1325
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0718",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-05",
+      "competency_id": "ADR-B-05-K15",
+      "legal_basis": "ADR 5.4.3.4, uwaga 1",
+      "gazette_pages": [
+        977
+      ],
+      "exact_quote": "W przypadku towarów niebezpiecznych stwarzających więcej niż jedno zagrożenie oraz ładunków mieszanych, stosuje się każdą z określonych dla nich wskazówek.",
+      "finding": "Wariant dotyczy stosowania instrukcji dla wszystkich właściwych zagrożeń; oryginalne opcje zawierają słowa absolutne i klucz A jest jedyną najdłuższą.",
+      "duplicate_candidates": [],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "expert_note": "Zachować temat uwagi 1, wyrównać długości opcji i wyjaśnić obowiązek uwzględnienia każdej właściwej wskazówki.",
+      "proposed_replacement": {
+        "module_id": "ADR-B-05",
+        "competency_id": "ADR-B-05-K15",
+        "stem": "Pojazd przewozi towary niebezpieczne stwarzające kilka różnych zagrożeń. Jak załoga powinna korzystać z instrukcji pisemnych ADR?",
+        "options": {
+          "A": "Uwzględnić każdą wskazówkę właściwą dla zagrożeń przewożonych towarów",
+          "B": "Stosować wskazówki tylko dla pierwszego towaru z dokumentu przewozowego",
+          "C": "Wybrać wskazówki dla towaru o największej masie w ładunku"
+        },
+        "correct_option": "A",
+        "explanation": "Uwaga 1 do instrukcji pisemnych ADR wskazuje, że przy towarach stwarzających więcej niż jedno zagrożenie oraz przy ładunkach mieszanych stosuje się każdą właściwą dla nich wskazówkę. Nie można ograniczyć się do pierwszej pozycji dokumentu ani do towaru o największej masie. Załoga powinna odczytać zagrożenia wszystkich przewożonych materiałów i uwzględnić odpowiednie zalecenia. Podstawa: ADR 5.4.3.4, uwaga 1.",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 5.4.3.4, uwaga 1",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "W przypadku towarów niebezpiecznych stwarzających więcej niż jedno zagrożenie oraz ładunków mieszanych, stosuje się każdą z określonych dla nich wskazówek.",
+        "replacement_pages": [
+          977
+        ]
+      }
+    },
+    {
+      "id": "ADR-B-0719",
+      "verdict": "BLOKUJ",
+      "module_id": "ADR-B-01",
+      "competency_id": "ADR-B-01-K03",
+      "legal_basis": "ADR 8.2.1.1",
+      "gazette_pages": [
+        1326
+      ],
+      "exact_quote": "Kierowcy pojazdów przewożących towary niebezpieczne powinni posiadać zaświadczenie wydane przez właściwą władzę, stwierdzające, że przeszli kurs i zdali egzamin.",
+      "finding": "Oryginał powiela 0003, 0148, 0301, 0607 i 0619: samo szkolenie pracodawcy nie zastępuje zaświadczenia ADR.",
+      "duplicate_candidates": [
+        "ADR-B-0003",
+        "ADR-B-0148",
+        "ADR-B-0301",
+        "ADR-B-0607",
+        "ADR-B-0619"
+      ],
+      "original_correct_option": "A",
+      "verification_status": "needs_review",
+      "expert_note": "K03 nasycona obowiązkiem posiadania zaświadczenia i skutkami braku uprawnienia."
+    },
+    {
+      "id": "ADR-B-0720",
+      "verdict": "POPRAW",
+      "module_id": "ADR-B-01",
+      "competency_id": "ADR-B-01-K04",
+      "legal_basis": "ADR 1.1.3.1(c)",
+      "gazette_pages": [
+        23
+      ],
+      "exact_quote": "Przewozu towarów wykonywanego przez przedsiębiorstwa, gdy ma on charakter pomocniczy wobec ich zasadniczej działalności, np. dostaw lub zwrotów w związku z przeglądami, naprawami i konserwacją urządzeń, do 450 litrów na opakowanie i w ramach maksymalnych ilości z 1.1.3.6. Wyłączenie nie dotyczy przewozu w celu zaopatrzenia lub wewnętrznej i zewnętrznej dystrybucji.",
+      "finding": "Oryginał powtarza rozróżnienie zaopatrzenia przedsiębiorstwa (0091) i przewozu prywatnego (0313); wariant serwisowy testuje dodatnią przesłankę działalności pomocniczej.",
+      "duplicate_candidates": [
+        "ADR-B-0091",
+        "ADR-B-0313"
+      ],
+      "original_correct_option": "B",
+      "verification_status": "needs_review",
+      "expert_note": "Zastąpić dostawę na zapas przewozem materiałów do konkretnej naprawy u klienta, z zachowaniem limitów i zabezpieczeń.",
+      "proposed_replacement": {
+        "module_id": "ADR-B-01",
+        "competency_id": "ADR-B-01-K04",
+        "stem": "Technik serwisowy przewozi w opakowaniach materiały niebezpieczne potrzebne do wykonania konkretnej naprawy u klienta. Ilości mieszczą się w limitach 1.1.3.6, a żadne opakowanie nie przekracza 450 litrów. Czy może mieć zastosowanie wyłączenie 1.1.3.1(c)?",
+        "options": {
+          "A": "Tak, także przy przewozie zapasu do magazynu firmy",
+          "B": "Tak, gdy przewóz wspiera konkretną naprawę, nie zaopatrzenie firmy",
+          "C": "Nie, wyłączenie dotyczy wyłącznie przewozów prywatnych i domowych osób"
+        },
+        "correct_option": "B",
+        "explanation": "ADR 1.1.3.1(c) obejmuje przewóz wykonywany przez przedsiębiorstwo jako czynność pomocniczą wobec jego zasadniczej działalności, w tym dostawy związane z naprawami i konserwacją urządzeń. Obowiązują limity 450 litrów na opakowanie oraz maksymalne ilości z 1.1.3.6, a także środki zapobiegające uwolnieniu zawartości. Wyłączenie nie obejmuje przewozu w celu zaopatrzenia ani dystrybucji. Podstawa: ADR 1.1.3.1(c).",
+        "sources": [
+          {
+            "code": "ADR-2025-PL",
+            "reference": "ADR 1.1.3.1(c)",
+            "url": "https://dziennikustaw.gov.pl/DU/2025/642"
+          }
+        ],
+        "replacement_quote": "Przewozu towarów wykonywanego przez przedsiębiorstwa, gdy ma on charakter pomocniczy wobec ich zasadniczej działalności, np. dostaw lub zwrotów w związku z przeglądami, naprawami i konserwacją urządzeń, do 450 litrów na opakowanie i w ramach maksymalnych ilości z 1.1.3.6. Wyłączenie nie dotyczy przewozu w celu zaopatrzenia lub wewnętrznej i zewnętrznej dystrybucji.",
+        "replacement_pages": [
+          23
+        ]
+      }
+    }
+  ]
+}
