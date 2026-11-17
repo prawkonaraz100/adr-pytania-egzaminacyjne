@@ -131,7 +131,7 @@ Przygotuj dokumenty dla fikcyjnego odcinka morskiego i drogowego. Kursant ma roz
 Pytania kontrolne: `ADR-B-0028`, `ADR-B-0029`, `ADR-B-0030`, `ADR-B-0247`, `ADR-B-0277`, `ADR-B-0320`, `ADR-B-0388`, `ADR-B-0396`, `ADR-B-0437`, `ADR-B-0511`. Typowe błędy: uznanie dokumentu morskiego za automatyczne zwolnienie z ADR; dopisanie danych bez potwierdzenia; pominięcie certyfikatu pakowania, gdy jest wymagany.
 
 
-## Ćwiczenie — brak wpisu w dokumencie po odcinku morskim (ADR-B-0708)
+## Ćwiczenie — brak wpisu w dokumencie po odcinku morskim (ADR-B-0061)
 
 **Sytuacja:** Kierowca odbiera kontener w porcie. Dokumentacja potwierdza, że drogowy odcinek przewozu odbywa się zgodnie z ADR 1.1.4.2.1, ale brakuje wpisu wymaganego w 5.4.1.1.7.
 
@@ -139,4 +139,14 @@ Pytania kontrolne: `ADR-B-0028`, `ADR-B-0029`, `ADR-B-0030`, `ADR-B-0247`, `ADR-
 
 **Typowe błędy:** traktowanie samego portu jako dowodu zastosowania 1.1.4.2.1; pominięcie wymaganego wpisu; samodzielne wymyślanie innego brzmienia adnotacji.
 
-**Podstawa:** ADR 2025, 5.4.1.1.7 i 1.1.4.2.1. Ćwiczenie omawia się na dokumentach przykładowych, bez rzeczywistego przewozu.
+**Podstawa:** ADR 5.4.1.1.7 i 1.1.4.2.1. Ćwiczenie omawia się na dokumentach przykładowych, bez rzeczywistego przewozu.
+
+## Ćwiczenie — zapis 1.1.4.2.1 przy pakowaniu razem (ADR-B-0708)
+
+**Sytuacja:** Sztuki przesyłek mają znaki i nalepki według ADR, ale w jednej z nich dwa różne towary niebezpieczne zapakowano razem tak, jak pozwala Kodeks IMDG, a ADR nie. Przesyłki jadą do portu na statek.
+
+**Oczekiwana odpowiedź:** Kursant wskazuje, że przewóz korzysta z 1.1.4.2.1 (b), więc w dokumencie przewozowym potrzebny jest zapis „PRZEWÓZ ZGODNY Z 1.1.4.2.1”.
+
+**Typowe błędy:** uznanie, że prawidłowe oznakowanie ADR zwalnia z zapisu; przekonanie, że zapis jest potrzebny dopiero po rejsie.
+
+**Podstawa:** ADR 1.1.4.2.1 (b) i 5.4.1.1.7.
