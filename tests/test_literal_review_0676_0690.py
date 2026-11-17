@@ -1,4 +1,4 @@
-"""First-pass literal review tests for ADR-B-0676–0690."""
+"""Literal review tests for ADR-B-0676–0690; first-pass report plus second-pass deployment checks."""
 import hashlib, json, re, unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -6,7 +6,7 @@ BANK=ROOT/"podstawowy"/"questions.jsonl"
 REPORT=ROOT/"review"/"literal-pl"/"PARTIA-0676-0690.md"
 MANIFEST=ROOT/"review"/"literal-pl"/"PARTIA-0676-0690.json"
 FIRST_PASS_BANK_SHA="ff06e555f833fa3f679c7c145c1223395ae923db"
-EXPECTED_BANK_SHA="ff06e555f833fa3f679c7c145c1223395ae923db"
+EXPECTED_BANK_SHA="092325a21fe95a47406e2d28e4947885c19dc0dc"
 EXPECTED_IDS=[f"ADR-B-{i:04d}" for i in range(676,691)]
 EXPECTED_PAGES={
     "ADR-B-0676": [
@@ -74,9 +74,16 @@ class Partia46LiteralReview(unittest.TestCase):
    e=r["explanation"]; self.assertGreaterEqual(len(e),300); ss=re.split(r"(?<=[.!?])\s+(?=[A-ZĄĆĘŁŃÓŚŹŻ])",e.strip()); self.assertGreaterEqual(len(ss),2); self.assertLessEqual(len(ss),5)
    for s in ss: self.assertLessEqual(len(re.findall(r"\b[\wąćęłńóśźżĄĆĘŁŃÓŚŹŻ-]+\b",s)),35)
    self.assertTrue(r["sources"]); self.assertTrue(r["replacement_quote"]); self.assertTrue(r["replacement_pages"])
- def test_bank_unchanged(self):
+ def test_bank_after_second_pass_and_batch_stays_unverified(self):
   raw=BANK.read_bytes(); self.assertEqual(git_blob_sha(raw),EXPECTED_BANK_SHA)
   qs=[json.loads(x) for x in raw.decode("utf-8").splitlines() if x.strip()]; self.assertEqual(len(qs),780)
   by={q["id"]:q for q in qs}; self.assertEqual(len(by),780)
   for qid in EXPECTED_IDS: self.assertEqual(by[qid]["verification_status"],"needs_review"); self.assertIsNone(by[qid]["checked_at"]); self.assertIsNone(by[qid]["reviewer"])
+ def test_second_pass_artifacts_and_bank_sha(self):
+  second=ROOT/"review"/"literal-pl"/"KONTROLA2-PARTIA-0676-0690.md"
+  patch=ROOT/"review"/"literal-pl"/"POPRAWKI-KONTROLA2-0676-0690.jsonl"
+  self.assertTrue(second.is_file()); self.assertTrue(patch.is_file())
+  rows=[json.loads(line) for line in patch.read_text(encoding="utf-8").splitlines() if line.strip()]
+  self.assertEqual(len(rows),15); self.assertEqual([r["id"] for r in rows],EXPECTED_IDS)
+  self.assertEqual(git_blob_sha(BANK.read_bytes()),EXPECTED_BANK_SHA)
 if __name__ == "__main__": unittest.main()
